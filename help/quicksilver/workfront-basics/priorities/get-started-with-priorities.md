@@ -1,35 +1,35 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Erste Schritte mit Prioritäten
-description: Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Aufgabenbesitzer zugeschnitten ist.
+description: Priorities ist ein optimiertes, intuitives Erlebnis, das auf Aufgabenbesitzer zugeschnitten ist.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: edc817b305622d704a1543b1e288731fc3bbff33
+source-git-commit: c709219fa78ed2742bd9b7286e35c09d1b3927ba
 workflow-type: tm+mt
-source-wordcount: '953'
-ht-degree: 3%
+source-wordcount: '1002'
+ht-degree: 2%
 
 ---
 
 # Erste Schritte mit [!DNL Priorities]
 
-Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Aufgabenbesitzer zugeschnitten ist. Die Prioritäten werden in mehreren Phasen festgelegt, beginnend mit der Arbeitsliste.
+Priorities ist ein optimiertes, intuitives Erlebnis, das auf Aufgabenbesitzer zugeschnitten ist. Die Prioritäten werden schrittweise eingeführt, beginnend mit der Arbeitsliste.
 
-Mit Prioritäten können Sie
+Mit Prioritäten können Sie Folgendes genießen
 
-* Verwaltung und Priorisierung von täglichen Aufgaben: Organisieren Sie Ihren Tag oder Ihre Woche mit konsolidierter Navigation, um mehr Klarheit zu schaffen
-* Höhere Produktivität: Zugriff auf den Projektkontext und schnellere Ausführung von Aufgaben mit weniger Klicks
-* Personalisierte Funktionen: Profitieren Sie von einzigartigen Funktionen für Aufgabenbesitzer
+* Tägliche Aufgaben verwalten und priorisieren: Organisieren Sie Ihren Tag oder Ihre Woche mit konsolidierter Navigation für mehr Klarheit
+* Höhere Produktivität: Schnellerer Zugriff auf den Projektkontext und schnellere Ausführung von Aufgaben mit weniger Klicks
+* Personalisierte Funktionen: Profitieren Sie von Funktionen, die speziell für Aufgabenbesitzer entwickelt wurden
 
 ## Suchen und Organisieren Ihrer Arbeit
 
-In Prioritäten können Sie Ihre Arbeit filtern und gruppieren, um Sie bei der Verwaltung von Terminen und der Priorisierung Ihrer für Sie wichtigen Aufgaben zu unterstützen. Sie können auch schnell erkennen, wie dringend eine Arbeit mit der Spalte Mein Fokus ist.
+Unter „Prioritäten“ können Sie Ihre Arbeit filtern und gruppieren, damit Sie Fristen verwalten und Prioritäten für das setzen können, was für Sie wichtig ist. Sie können dringende Arbeiten auch schnell in der Spalte Mein Fokus identifizieren.
 
 ### Arbeiten mit Filtern suchen
 
-Finden Sie Ihre wichtigste Arbeit mit Filtern. Sie können Ihnen zugewiesene Aufgaben und Probleme wie folgt filtern:
+Finden Sie Ihre wichtigste Arbeit mit Filtern. <span class="preview">Sie können eine natürliche Sprache verwenden, um mit dem Smart-Filter Arbeit zu finden</span> oder Sie können den Standardfilter verwenden, um die Ihnen zugewiesenen Aufgaben und Probleme zu finden:
 
 <table>
   <tbody>
@@ -38,26 +38,26 @@ Finden Sie Ihre wichtigste Arbeit mit Filtern. Sie können Ihnen zugewiesene Auf
    <th>Beschreibung</th>
    </tr>
     <tr>
-      <td>Arbeiten an</td>
+      <td>Wird bearbeitet an</td>
       <td>Zeigt Elemente an, an denen Sie derzeit arbeiten</td>
     </tr>
     <tr>
       <td>Startbereit</td>
-      <td>Zeigt Elemente mit 
+      <td>Zeigt Elemente an mit 
       <ul>
-      <li>Keine unvollständigen Vorgänger oder Aufgabeneinschränkungen</li>
+      <li>Keine unvollständigen Vorgänger oder Aufgabenbeschränkungen</li>
       <p>und</p>
-      <li>Das geplante Startdatum liegt in der Vergangenheit oder bis zu zwei Wochen in der Zukunft</li>
+      <li>Das geplante Startdatum liegt in den letzten oder bis zu zwei Wochen in der Zukunft</li>
       </ul>
       </td>
     </tr>
     <tr>
       <td>Nicht bereit</td>
-      <td>Zeigt Elemente an,
+      <td>Zeigt Elemente an, die
        <ul>
-      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen, die verhindern, dass das Element bearbeitet wird</li>
+      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen verhindern, dass das Element bearbeitet wird</li>
       <p>oder</p>
-      <li>Das geplante Startdatum liegt in Zukunft bei mehr als zwei Wochen.</li>
+      <li>Das geplante Startdatum liegt mehr als zwei Wochen in der Zukunft</li>
       </ul>
        </td>
     </tr>
@@ -66,30 +66,30 @@ Finden Sie Ihre wichtigste Arbeit mit Filtern. Sie können Ihnen zugewiesene Auf
       <td>Zeigt Probleme an, mit denen Sie noch nicht begonnen haben</td>
     </tr>
       <td>Fertig</td>
-      <td>Zeigt die Arbeit an, die in den letzten zwei Wochen abgeschlossen wurde. Diese Filteroption umfasst keine Genehmigungen.</td>
+      <td>Zeigt Arbeiten an, die in den letzten zwei Wochen abgeschlossen wurden. Diese Filteroption umfasst keine Genehmigungen.</td>
     </tr>
     <tr>
     <td>Projekt</td>
-    <td>Zeigt Projekte an, die Aufgaben oder Probleme enthalten, denen Sie zugewiesen wurden</td>
+    <td>Zeigt Projekte mit Aufgaben oder Problemen an, denen Sie zugewiesen wurden</td>
     </tr>
     <tr>
     <td>Fälligkeitsdatum</td>
-    <td>Zeigt die Arbeit nach dem geplanten Abschlussdatum an</td>
+    <td>Zeigt Arbeit nach geplantem Abschlussdatum an</td>
     </tr>
     <tr>
     <td>Status</td>
-    <td>Zeigt Aufgaben oder Probleme im neuen, in Gang befindlichen und vollständigen Status an</td>
+    <td>Zeigt Aufgaben oder Probleme mit dem Status Neu, In Bearbeitung und Abgeschlossen an</td>
     </tr>
      <tr>
     <td>Mein Fokus</td>
-    <td>Zeigt Aufgaben oder Probleme in an, denen Fokusebenen zugewiesen sind. Die Fokusebenen werden vom jeweiligen Benutzer zugewiesen und verwaltet.</td>
+    <td>Zeigt Aufgaben oder Probleme in an, denen Fokusebenen zugewiesen sind. Fokusebenen werden von den einzelnen Benutzenden zugewiesen und verwaltet.</td>
     </tr>
   </tbody>
 </table>
 
-### Organisieren Sie Ihre Arbeit mit Gruppen
+### Organisieren der Arbeit mit Gruppen
 
-Nach Filtern Ihrer Arbeit können Sie Elemente nach
+Nachdem Sie Ihre Arbeit gefiltert haben, können Sie Elemente gruppieren nach
 
 * Mein Fokus
 * Fällige Woche
@@ -98,9 +98,9 @@ Nach Filtern Ihrer Arbeit können Sie Elemente nach
 
 Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit in Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
 
-### Wichtige Arbeitselemente mit &quot;Mein Fokus&quot;priorisieren
+### Wichtige Arbeitselemente mit „Mein Fokus“ priorisieren
 
-&quot;Mein Fokus&quot;ist eine Spalte in der Arbeitsliste, mit der Sie Ihre Arbeit priorisieren können. Der Wert My Focus ist persönlich und hat keine Auswirkungen auf Projekt-, Aufgaben- oder Ausgabedaten. Sie können die folgenden Fokusebenen verwenden:
+Mein Fokus ist eine Spalte in der Arbeitsliste, die Ihnen hilft, Ihre Arbeit zu priorisieren. Der Wert Mein Fokus ist persönlich und hat keine Auswirkungen auf Projekt-, Aufgaben- oder Problemdaten. Sie können die folgenden Fokusebenen verwenden:
 
 * Dringend
 * Hoch
@@ -109,94 +109,101 @@ Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit in P
 
 Nachdem Sie Ihren Arbeitselementen Fokusebenen zugewiesen haben, können Sie die Spalte so sortieren, dass dringende Elemente oben in Ihrer Arbeitsliste angezeigt werden.
 
-Weitere Informationen finden Sie unter [Wichtige Arbeitselemente priorisieren](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
+Weitere Informationen finden Sie unter [Priorisieren wichtiger Arbeitselemente](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Verwenden der Kalenderansicht [!BADGE In Kürze verfügbar]{type=Informative}
+### Verwenden der Kalenderansicht [!BADGE in Kürze verfügbar]{type=Informative}
 
-Die Kalenderansicht bietet eine visuelle Darstellung Ihrer Aufgaben und Probleme. Sie können zwischen einer Tages-, Wochen- oder Monatsansicht wählen. Sie können Elemente auch auf ähnliche Weise wie die Arbeitsliste filtern.
+Die Kalenderansicht bietet eine visuelle Darstellung Ihrer Aufgaben und Probleme. Sie können zwischen einer Tag-, Wochen- oder Monatsansicht wählen. Sie können Elemente auch auf ähnliche Weise wie die Arbeitsliste filtern.
 
 ## Arbeiten an Aufgaben und Problemen
 
-Unter &quot;Prioritäten&quot;können Sie Arbeitselemente aktualisieren, um die Details Ihrer Arbeitselemente auf dem neuesten Stand zu halten, die Zeit zur genauen Verfolgung Ihrer Arbeitszeiten protokollieren, Assets hochladen, ohne zu einem Projekt navigieren zu müssen, und Schnelllinks hinzufügen, um den Zugriff auf häufig verwendete Ressourcen zu erleichtern.
+Unter „Prioritäten“ können Sie Arbeitselemente aktualisieren, um Ihre Arbeitselementdetails auf dem neuesten Stand zu halten, die Zeit protokollieren, um Ihre Arbeitsstunden genau zu verfolgen, Assets hochladen, ohne zu einem Projekt navigieren zu müssen, und schnelle Links hinzufügen, um den Zugriff auf häufig verwendete Ressourcen zu erleichtern.
 
 >[!NOTE]
 >
->Leichte, Review-, Beitrags- und Anforderungslizenzen haben eingeschränkten Zugriff auf Prioritäten. Weitere Informationen dazu, wie diese Lizenztypen mit Aufgaben und Problemen interagieren können, finden Sie unter
+>Light-, Review-, Contributor- und Requestor-Lizenzen haben nur eingeschränkten Zugriff auf die Prioritäten. Weitere Informationen dazu, wie diese Lizenztypen mit Aufgaben und Problemen interagieren können, finden Sie unter
 >
 >* [Zugriff auf Objekte und Bereiche durch für neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/access-to-objects-areas-license-types.md)
->* [Für jeden Objekttyp verfügbare Funktionen für neue Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
+>* [Funktionalität für jeden Objekttyp für neue Zugriffsebenen verfügbar](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/functionality-available-for-objects.md)
 >* [Zugriff auf Objekte und Bereiche nach Lizenztyp](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-to-objects-and-areas-by-license-type.md)
->* [Für jeden Objekttyp verfügbare Funktionalität](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
+>* [Die Funktionalität ist für jeden Objekttyp verfügbar](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md)
 
 
-### Hinzufügen und Anzeigen von Updates
+### Hinzufügen und Anzeigen von Aktualisierungen
 
-Fügen Sie ein Update zu einer Aufgabe oder einem Problem hinzu, um anderen Ihren Fortschritt mitzuteilen.
+Fügen Sie eine Aktualisierung zu einer Aufgabe oder einem Problem hinzu, um Ihren Fortschritt an andere weiterzugeben.
 
-Im Abschnitt Updates werden Systemaktualisierungen und bis zu 200 der neuesten Updates angezeigt, die Benutzer in den letzten 90 Tagen vorgenommen haben.
+Im Abschnitt Aktualisierungen werden Systemaktualisierungen und bis zu 200 der neuesten Aktualisierungen angezeigt, die von Benutzenden in den letzten 90 Tagen vorgenommen wurden.
 
-Weitere Informationen finden Sie unter [Hinzufügen und Anzeigen von Kommentaren in Prioritäten](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
+Weitere Informationen finden Sie unter [Hinzufügen und Anzeigen von Kommentaren unter Prioritäten](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
 ![](assets/new-update.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Zeit erfassen
 
-Sie können die Arbeitszeit für Arbeitselemente protokollieren, um die Anzahl der Arbeitsstunden anzugeben, die Sie damit verbringen. Sie können auch Zeit protokollieren, die nicht mit der Arbeit in Zusammenhang steht, wie Urlaub, Krankheitszeit oder Zeit, die Sie in Meetings verbringen. Die Login-Zeit wird in Ihrem Timesheet angezeigt.
+Sie können die Zeit für Arbeitselemente protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Sie können auch Zeit erfassen, die nicht mit der Arbeit zusammenhängt, z. B. Urlaub, Krankenstand oder Zeit, die Sie in Meetings verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
 
-Weitere Informationen finden Sie unter [Protokollzeit in Prioritäten](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
+Weitere Informationen finden Sie unter [Zeit in Prioritäten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
 ![](assets/log-time.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
 ### Dateien hochladen
 
-Laden Sie Dateien direkt in den Bereich &quot;Dokumente&quot;der Aufgabe oder des Problems hoch, ohne zu einem Projekt navigieren zu müssen. Wenn Sie eine Datei aus Prioritäten hochladen, können Sie
+Dateien direkt in den Dokumentbereich der Aufgabe oder des Problems hochladen, ohne zu einem Projekt navigieren zu müssen. Wenn Sie eine Datei über „Prioritäten“ hochladen, können Sie
 
 * Vorhandenen Ordner auswählen
-* Datei mit Aktualisierungsstream-Kommentar hochladen
+* Hochladen der Datei mit einem Kommentar zum Aktualisierungsverlauf
 * Zusätzliche Dateien hinzufügen
-* Importieren von Dateien aus verbundenen Dokumentintegrationen
+* Importieren von Dateien aus Connected Document Integrations
 
-Weitere Informationen finden Sie unter [Hochladen von Dateien in Prioritätenlisten](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
+Weitere Informationen finden Sie unter [Dateien in Prioritäten hochladen](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
 ![](assets/upload-file.png)
 <!--new screen for prod ![](assets/update-log-upload.png)-->
 
-### Dokumente anzeigen [!BADGE In Kürze verfügbar]{type=Informative}
 
-Auf der Registerkarte Dokumente können Sie alle Dateien anzeigen, die mit einem Arbeitselement verbunden sind. Sie können Dokumente nach Namen, Dateityp oder Person filtern und nach Name und Upload-Datum sortieren.
+### Schnellverknüpfungen hinzufügen
 
-Sie können auch das Dokument oder den Testversand öffnen.
-
-### Schnelllinks hinzufügen
-
-Sie können häufig verwendete Links auf der Detailseite des Arbeitselements einbetten. Über Schnelllinks können Sie den Link schnell besuchen oder kopieren.
+Häufig verwendete Links können auf der Detailseite des Arbeitselements eingebettet werden. Schnelllinks ermöglichen es Ihnen, den Link schnell zu besuchen oder zu kopieren.
 
 ![](assets/quick-links.png)
 
-Weitere Informationen finden Sie unter [Schnelllinks in Prioritäten hinzufügen und verwalten](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
+Weitere Informationen finden Sie unter [Hinzufügen und Verwalten von Schnelllinks in Prioritäten](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Überprüfen und genehmigen Sie Assets [!BADGE In Kürze verfügbar]{type=Informative}
+### Dokumente anzeigen [!BADGE In der Vorschau verfügbar]{type=Informative}
 
-Die Möglichkeit, Assets zu überprüfen und zu genehmigen, wird im Fahrplan &quot;Prioritäten&quot;beschrieben.
+Auf der Registerkarte Dokumente können Sie alle Dateien anzeigen, die mit einem Arbeitselement verbunden sind. Sie können Dokumente nach Name, Dateityp oder Person filtern und nach Name und Upload-Datum sortieren.
 
-Zunächst wird empfohlen, die Widgets Meine Genehmigung und Alle Genehmigungen in der neuen Startseite zu verwenden.
+Sie können das Dokument oder den Korrekturabzug auch öffnen.
 
-Weitere Informationen finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+### Überprüfen und Genehmigen von Assets [!BADGE in der Vorschau verfügbar]{type=Informative}
+
+Auf der Registerkarte Dokumente einer Aufgabe oder eines Problems haben Sie folgende Möglichkeiten
+
+* Erstellen eines einfachen oder erweiterten Testversands
+* Proofing-Betrachter starten, um Kommentare zu hinterlassen und Entscheidungen zu treffen
 
 
-## Verwenden Sie [!DNL Catch me up], um zu sehen, was Sie verpasst haben [!BADGE In Kürze kommen]{type=Informative}
+## Verwenden Sie [!DNL Catch me up], um zu sehen, was Sie verpasst haben [!BADGE in Kürze verfügbar]{type=Informative}
 
-Verwenden Sie die Funktion &quot;[!DNL Catch me up]&quot;, um zu sehen, was Sie verpasst haben. Wenn Sie mich aufholen, werden Sie Aktualisierungen, hochgeladene Dokumente, Genehmigungen und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammenfassen: 24 Stunden, 3 Tage, 7 Tage.
+Verwenden Sie die [!DNL Catch me up]-Funktion, um zu sehen, was Sie verpasst haben. Catch me up fasst Aktualisierungen, hochgeladene Dokumente, Genehmigungen und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammen: 24 Stunden, 3 Tage, 7 Tage.
 
+<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
 
 ![](assets/catch-me-up.png)
 
-## Überlegungen
+<!--need new screen for prod-->
 
-* Workfront-Administratoren können die Prioritäten derzeit nicht über die Layout-Vorlage anpassen.
-* Der Zugriff auf Aufgaben in Prioritäten erfolgt über verschiedene Registerkarten. In Zukunft werden weitere Registerkarten wie Dokumente, Unteraufgaben, Genehmigungen usw. hinzugefügt. Teilen Sie uns mit, dass Sie diese Elemente benötigen, indem Sie mithilfe der Schaltfläche **Feedback geben** Feedback senden.
+## Echtzeitaktualisierungen auf der Detailseite anzeigen ([!BADGE  Vorschau verfügbar]{type=Informative}
+
+Echtzeitaktualisierungen können auf der Detailseite einer Aufgabe oder eines Problems angezeigt werden. Mit Echtzeit-Präsenzindikatoren können Sie auch sehen, ob andere Benutzer die Seite gleichzeitig mit Ihnen ansehen.
+
+## Aspekte
+
+* Workfront-Administratoren können derzeit keine Prioritäten über die Layout-Vorlage anpassen.
+* Der Zugriff auf Aufgaben in Prioritäten erfolgt über mehrere Registerkarten. Wir planen, in Zukunft zusätzliche Registerkarten wie Dokumente, Teilaufgaben, Genehmigungen usw. hinzuzufügen. Teilen Sie uns mit, dass Sie diese Elemente benötigen, indem Sie Feedback über die Schaltfläche **Feedback geben** einreichen.

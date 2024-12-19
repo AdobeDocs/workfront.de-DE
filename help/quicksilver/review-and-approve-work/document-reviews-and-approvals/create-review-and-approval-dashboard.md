@@ -1,25 +1,25 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Dashboard für Überprüfung und Genehmigung erstellen
-description: Sie können Genehmigungsmetriken in Leinwand-Dashboards überprüfen.
+title: Erstellen eines Überprüfungs- und Validierungs-Dashboards
+description: Sie können Genehmigungsmetriken in Arbeitsflächen-Dashboards überprüfen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 53db0a80026d003250e3b31063fb9a502d2ddce1
+source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
 
 # Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung
 
-Sie können ein Berichts-Dashboard im Bereich Arbeitsfläche-Dashboards erstellen, um sowohl allgemeine als auch detaillierte Informationen zu Überprüfungen und Genehmigungen mit der neuen Dokumentgenehmigungsfunktion anzuzeigen.
+Sie können im Bereich der Arbeitsflächen-Dashboards ein Berichts-Dashboard erstellen, um sowohl allgemeine als auch detaillierte Informationen zu Überprüfungen und Genehmigungen mit der neuen Funktion für Dokumentgenehmigungen anzuzeigen.
 
 >[!IMPORTANT]
 >
->Diese Funktion ist nur für Kunden verfügbar, die den neuen Dokumentgenehmigungsdienst verwenden und sich in der Beta-Version der Canvas-Dashboards anmelden.
+>Diese Funktion ist nur für Kundinnen und Kunden verfügbar, die den neuen Dokumentgenehmigungs-Service verwenden und in der Beta-Version der Arbeitsflächen-Dashboards registriert sind.
 
 
 ![Beispiel-Dashboard](assets/whole-dashboard.png)
@@ -28,7 +28,7 @@ Sie können ein Berichts-Dashboard im Bereich Arbeitsfläche-Dashboards erstelle
 
 {{step1-to-dashboards}}
 
-1. Klicken Sie im linken Bereich auf **Arbeitsfläche-Dashboards**.
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 1. Klicken Sie auf **Neues Dashboard**.
 1. Benennen Sie Ihr Dashboard.
 1. (Optional) Fügen Sie eine Beschreibung hinzu.
@@ -37,164 +37,152 @@ Sie können ein Berichts-Dashboard im Bereich Arbeitsfläche-Dashboards erstelle
 
 Nachdem Sie ein Dashboard erstellt haben, können Sie mit dem Hinzufügen von KPIs, Diagrammen und Tabellen beginnen. Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-* [Hinzufügen allgemeiner Überprüfungs- und Genehmigungsinformationen mit KPIs und Diagrammen](#add-high-level-review-and-approval-information-with-kpis-and-charts)
-* [Hinzufügen detaillierter Überprüfungs- und Genehmigungsinformationen mit Tabellen](#add-detailed-review-and-approval-information-with-tables)
+* [Hinzufügen von allgemeinen Prüf- und Genehmigungsinformationen mit KPIs und Diagrammen](#add-high-level-review-and-approval-information-with-kpis-and-charts)
+* [Hinzufügen detaillierter Prüf- und Genehmigungsinformationen mit Tabellen](#add-detailed-review-and-approval-information-with-tables)
 
-## Hinzufügen allgemeiner Überprüfungs- und Genehmigungsinformationen mit KPIs und Diagrammen
+## Hinzufügen von allgemeinen Prüf- und Genehmigungsinformationen mit KPIs und Diagrammen
 
-Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagrammen anzeigen. Drilldown-Informationen sind derzeit nicht in der Beta-Version verfügbar.
+Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagrammen anzeigen. Drill-down-Informationen sind in der Beta-Version derzeit nicht verfügbar.
 
 ### KPIs
-
->[!IMPORTANT]
->
->Die neuen Dokumentgenehmigungsdaten werden derzeit während der Abende in der Zeitzone des US-Berges aktualisiert. Echtzeit-Updates sind geplant und werden in Kürze verfügbar sein.
 
 ![KPI-Beispiele](assets/kpi-dashboard.png)
 
 #### Ausstehende Genehmigungen
 
-1. [Erstellen Sie ein Dashboard](#create-a-dashboard), wie im Abschnitt oben beschrieben.
-1. Klicken Sie auf der Karte **KPI** auf **Hinzufügen**.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. Klicken Sie auf der **KPI**-Karte auf **Hinzufügen**.
 1. Geben Sie _Ausstehend_ in das Textfeld **KPI-Titel** ein.
-1. Geben Sie _Ausstehende Genehmigungen_ in das Textfeld **KPI-Beschriftung** ein. In diesem Text wird beschrieben, was die KPI anzeigt.
-1. Klicken Sie oben auf der Seite auf **KPI-Feld auswählen**.
-1. Scrollen Sie nach unten und suchen Sie den Ordner **Dokumentgenehmigung**.
-1. Wählen Sie **Status** und dann **Zählung** aus dem Dropdown-Menü.
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**.
+1. Geben Sie _Ausstehende Genehmigungen_ in das Textfeld **KPI-**&quot; ein. In diesem Text wird beschrieben, was der KPI anzeigt.
+1. Klicken Sie oben auf der Seite auf **KPI-Feld**.
+1. Scrollen Sie nach unten und suchen Sie den **Ordner Dokumentengenehmigung**.
+1. Wählen Sie **Status** und wählen Sie dann **Anzahl** aus dem Dropdown-Menü aus.
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**.
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
-   1. Belassen Sie den Operator als **Equal** und geben Sie im Textfeld _pending review_ ein.
-      Beispiel für ![ausstehenden kpi-Filter](assets/pending-kpi-filter.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+   1. Belassen Sie den Operator **Gleich** und geben Sie _Überprüfung ausstehend_ in das Textfeld ein.
+      ![Beispiel für ausstehenden KPI-Filter](assets/pending-kpi-filter.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
 
 #### Überfällige Genehmigungen
 
-1. [Erstellen Sie ein Dashboard](#create-a-dashboard), wie im Abschnitt oben beschrieben.
-1. Klicken Sie auf der Karte **KPI** auf **Hinzufügen**.
-1. Geben Sie _Overdue_ in das Textfeld **KPI Title** ein.
-1. Geben Sie in das Textfeld **KPI-Beschriftung** in den letzten _die Zeile_ Validierungsstaging-Frist ein. In diesem Text wird beschrieben, was die KPI anzeigt.
-1. Klicken Sie oben auf der Seite auf **KPI-Feld auswählen**.
-1. Scrollen Sie nach unten und suchen Sie den Ordner **Dokumentgenehmigung**.
-1. Wählen Sie **Status** und dann **Zählung** aus dem Dropdown-Menü.
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Deadline** aus.
-   1. Ändern Sie den Operator in &quot;**Kleiner als**&quot;, schalten Sie &quot;Relatives Datum ein&quot;um und geben Sie dann &quot;_$$TODAY_&quot;in das Textfeld ein.
-      Beispiel für einen überfälligen kpi-Filter ![](assets/overdue-kpi-filter.png)
-1. Klicken Sie auf **Bedingung hinzufügen**:
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. Klicken Sie auf der **KPI**-Karte auf **Hinzufügen**.
+1. Geben Sie _Überfällig_ in das Textfeld **KPI-Titel** ein.
+1. Geben Sie _Genehmigungsphase Frist in der Vergangenheit_ in das Textfeld **KPI-** ein. In diesem Text wird beschrieben, was der KPI anzeigt.
+1. Klicken Sie oben auf der Seite auf **KPI-Feld**.
+1. Scrollen Sie nach unten und suchen Sie den **Ordner Dokumentengenehmigung**.
+1. Wählen Sie **Status** und wählen Sie dann **Anzahl** aus dem Dropdown-Menü aus.
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Frist** aus.
+   1. Ändern Sie den Operator in **kleiner als** und schalten Sie das relative Datum um. Geben Sie dann _$$TODAY_ in das Textfeld ein.
+      ![Beispiel für überfälligen KPI-Filter](assets/overdue-kpi-filter.png)
+1. Klicken Sie **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
-   1. Ändern Sie den Operator in &quot;**Not Contains**&quot;, und geben Sie dann &quot;_authorised_&quot;in das Textfeld ein.
-      ![Beispiel für überfällige KPI-Filter 2](assets/overdue-kpi-filter-2.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+   1. Ändern Sie den Operator in **Nicht enthält** und geben Sie dann _Genehmigt_ in das Textfeld ein.
+      ![Überfälliger KPI-Filter - Beispiel 2](assets/overdue-kpi-filter-2.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
 
 #### Abgeschlossene Genehmigungen
 
-1. [Erstellen Sie ein Dashboard](#create-a-dashboard), wie im Abschnitt oben beschrieben.
-1. Klicken Sie auf der Karte **KPI** auf **Hinzufügen**.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. Klicken Sie auf der **KPI**-Karte auf **Hinzufügen**.
 1. Geben Sie _Abgeschlossen_ in das Textfeld **KPI-Titel** ein.
-1. Geben Sie _Genehmigungsstatusanzahl_ in das Textfeld **KPI-Beschriftung** ein. In diesem Text wird beschrieben, was die KPI anzeigt.
-1. Klicken Sie oben auf der Seite auf **KPI-Feld auswählen**.
-1. Scrollen Sie nach unten und suchen Sie den Ordner **Dokumentgenehmigung**.
-1. Wählen Sie **Status** und dann **Zählung** aus dem Dropdown-Menü.
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
+1. Geben Sie _Anzahl der Genehmigungsstatus_ in das Textfeld **KPI-**&quot; ein. In diesem Text wird beschrieben, was der KPI anzeigt.
+1. Klicken Sie oben auf der Seite auf **KPI-Feld**.
+1. Scrollen Sie nach unten und suchen Sie den **Ordner Dokumentengenehmigung**.
+1. Wählen Sie **Status** und wählen Sie dann **Anzahl** aus dem Dropdown-Menü aus.
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
-   1. Ändern Sie den Operator in **Enthält** und geben Sie im Textfeld _genehmigt_ ein.
-      Beispiel für einen ![abgeschlossenen kpi-Filter](assets/completed-kpi-filter.png)
-1. Klicken Sie auf **Bedingung hinzufügen**:
-   1. Klicken Sie auf **und** , um es in **oder** zu ändern.
+   1. Ändern Sie den Operator in **Enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+      ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter.png)
+1. Klicken Sie **Bedingung hinzufügen**:
+   1. Klicken Sie auf **Und**, um sie in **Oder** zu ändern.
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
-   1. Ändern Sie den Operator in **Entspricht** und geben Sie dann im Textfeld _geprüft_ ein.
-      Beispiel für einen ![abgeschlossenen kpi-Filter](assets/completed-kpi-filter-2.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+   1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Überprüft_ in das Textfeld ein.
+      ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter-2.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
-#### Veraltete Genehmigungen
+#### Abgebrochene Genehmigungen
 
-1. [Erstellen Sie ein Dashboard](#create-a-dashboard), wie im Abschnitt oben beschrieben.
-1. Klicken Sie auf der Karte **KPI** auf **Hinzufügen**.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. Klicken Sie auf der **KPI**-Karte auf **Hinzufügen**.
 1. Geben Sie _Abgebrochen_ in das Textfeld **KPI-Titel** ein.
-1. Geben Sie im Textfeld **KPI-Beschriftung** die _Validierungs-Deadline für einen Zeitraum von 2 Wochen nach_ ein. In diesem Text wird beschrieben, was die KPI anzeigt.
-1. Klicken Sie oben auf der Seite auf **KPI-Feld auswählen**.
-1. Scrollen Sie nach unten und suchen Sie den Ordner **Staging der Dokumentgenehmigung**.
-1. Wählen Sie **Deadline** und dann **Count** aus dem Dropdown-Menü.
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
+1. Geben Sie _Validierungs-Deadline über 2 Wochen_ im Textfeld **KPI-**&quot; ein. In diesem Text wird beschrieben, was der KPI anzeigt.
+1. Klicken Sie oben auf der Seite auf **KPI-Feld**.
+1. Scrollen Sie nach unten und suchen Sie den **Ordner Dokumentengenehmigungsphase**.
+1. Wählen Sie **Frist** und wählen Sie dann **Anzahl** aus dem Dropdown-Menü aus.
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
-   1. Ändern Sie den Operator in &quot;**Not Contains**&quot;, und geben Sie im Textfeld _authorised_ ein.
-      Beispiel für einen abgebrochenen KPI-Filter ](assets/abandoned-kpi-filter.png)![
-1. Klicken Sie auf **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Deadline** aus.
-   1. Ändern Sie den Operator in &quot;**Kleiner als**&quot;, schalten Sie dann Relatives Datum ein und geben Sie dann &quot;_$$TODAY-2w_&quot;in das Textfeld ein.
-      Beispiel für einen abgebrochenen KPI-Filter ](assets/abandoned-kpi-filter-2.png)![
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+   1. Ändern Sie den Operator in **Nicht enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+      ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter.png)
+1. Klicken Sie **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Frist** aus.
+   1. Ändern Sie den Operator in **kleiner als**, schalten Sie dann das relative Datum ein und geben Sie dann _$$TODAY-2w_ in das Textfeld ein.
+      ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter-2.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
 ### Diagramme
 
->[!IMPORTANT]
->
->Die neuen Dokumentgenehmigungsdaten werden derzeit während der Abende in der Zeitzone des US-Berges aktualisiert. Echtzeit-Updates sind geplant und werden in Kürze verfügbar sein.
-
 ![Diagrammbeispiele](assets/chart-dashboard.png)
 
-#### Validierungen nach Entscheidungstraktdiagramm
+#### Validierungen nach Entscheidungsbalkendiagramm
 
-1. [Erstellen Sie ein Dashboard](#create-a-dashboard), wie im Abschnitt oben beschrieben.
-1. Klicken Sie auf der Karte **Diagramm** auf **Hinzufügen**.
-1. Geben Sie _Genehmigungen nach Entscheidung_ in das Textfeld **Name** ein.
-1. (Optional) Geben Sie eine Beschreibung in das Textfeld **Beschreibung** ein. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
-1. Klicken Sie auf **Diagrammdetails öffnen**.
-1. Lassen Sie im Dropdownmenü **Diagrammtyp** die Option **Balkendiagramm** ausgewählt.
-1. Lassen Sie im Dropdown-Menü **Balkentyp** die Option **Einfach** aktiviert.
-1. Klicken Sie auf **Feld aktualisieren** für die Achse **Unten (X)** und wählen Sie den ersten Ordner **Dokumentgenehmigung** und dann den Ordner **Status** aus.
-1. Stellen Sie den Aggregationstyp auf **Zählung** ein.
-1. Klicken Sie auf **Feld aktualisieren** für die Achse **Links (Y)** und wählen Sie die erste Option **Dokumentgenehmigung** und dann die Option **Status** aus.
-1. Klicken Sie auf das Symbol für die Registerkarte Filter ![Filter-Registerkarte](assets/filter-tab.png).
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Dokumentversion-Version** aus.
-   1. Ändern Sie den Operator in **Is Not Null**.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. Klicken Sie in **Karte** Diagramm“ auf **Hinzufügen**.
+1. Geben Sie _Genehmigungen durch Entscheidung_ in das Textfeld **Name** ein.
+1. (Optional) Geben Sie eine Beschreibung in das Textfeld &quot;**&quot;**. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
+1. Klicken Sie **Diagrammdetails öffnen**.
+1. Lassen Sie **Dropdown-Menü** Diagrammtyp) die Option **Balkendiagramm** ausgewählt.
+1. Lassen Sie **Dropdown-Menü** Balkentyp“ **Einfach** ausgewählt.
+1. Klicken Sie auf **Feld aktualisieren** für die Achse **Unten (X)** und wählen Sie den ersten Ordner **Dokumentengenehmigung** dann **Status**.
+1. Wählen Sie als Aggregationstyp &quot;**&quot;**.
+1. Klicken Sie auf **Feld aktualisieren** für die Achse **Links (Y)** und wählen Sie die erste Option **Dokumentengenehmigung** und dann **Status**.
+1. Klicken Sie auf die Registerkarte Filter ![Registerkarte Filter](assets/filter-tab.png).
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Dokumentversion**.
+   1. Ändern Sie den Operator in **Ist nicht null**.
       ![Filterbeispiel](assets/approvals-by-decision-chart-filter.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
 
-#### Balkendiagramm der Revisionsleiste
+#### Überarbeitungen Balkendiagramm
 
-1. [Erstellen Sie ein Dashboard](#create-a-dashboard), wie im Abschnitt oben beschrieben.
-1. Klicken Sie auf der Karte **Diagramm** auf **Hinzufügen**.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. Klicken Sie in **Karte** Diagramm“ auf **Hinzufügen**.
 1. Geben Sie _Revisions_ in das Textfeld **Name** ein.
-1. Geben Sie _Anzahl der Revisionen für Dokumente mit unvollständigen Entscheidungen, die vor Ende dieses Monats geplant sind, in das Textfeld **Beschreibung**ein._ Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
-1. Klicken Sie auf **Diagrammdetails öffnen**.
-1. Lassen Sie im Dropdownmenü **Diagrammtyp** die Option **Balkendiagramm** ausgewählt.
-1. Lassen Sie im Dropdown-Menü **Balkentyp** die Option **Einfach** aktiviert.
-1. Klicken Sie auf **Feld aktualisieren** für die Achse **Unten (X)** und wählen Sie den ersten Ordner **Dokumentgenehmigung** und dann den Ordner **Dokumentversion** > **Version** aus.
-1. Stellen Sie den Aggregationstyp auf **Zählung** ein.
-1. Klicken Sie auf **Feld aktualisieren** für die Achse **Left (Y)** und wählen Sie die erste Option **Document Approval** und dann die Option **Document Version** > **Document** > **Name**.
-1. Klicken Sie auf die Registerkarte &quot;Filter&quot;![Filter-Tab-Symbol](assets/filter-tab.png).
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Entscheidungsdatum für Teilnehmer der Genehmigungsstufe**.
-   1. Ändern Sie den Operator in **Is Null**.
-      Beispiel für einen Diagrammfilter für ![Revisionen](assets/revision-chart-filter.png)
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Deadline der Genehmigungsstufe**.
-   1. Ändern Sie den Operator in &quot;**Kleiner als oder gleich**&quot;, schalten Sie dann &quot;relatives Datum einstellen auf&quot;um und geben Sie &quot;_$$TODAYem_&quot;in das Textfeld ein.
-      Beispiel für einen Diagrammfilter für ![Revisionen](assets/revision-chart-filter-2.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+1. Geben Sie _Anzahl der geplanten Revisionen für Dokumente mit unvollständigen Entscheidungen vor Ende dieses Monats_ in das Textfeld **Beschreibung** ein. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
+1. Klicken Sie **Diagrammdetails öffnen**.
+1. Lassen Sie **Dropdown-Menü** Diagrammtyp) die Option **Balkendiagramm** ausgewählt.
+1. Lassen Sie **Dropdown-Menü** Balkentyp“ **Einfach** ausgewählt.
+1. Klicken Sie auf **Feld aktualisieren** für die Achse **Unten (X)** und wählen Sie den ersten Ordner **Dokumentengenehmigung** dann **Dokumentversion** > **Version**.
+1. Wählen Sie als Aggregationstyp &quot;**&quot;**.
+1. Klicken Sie auf **Feld aktualisieren** für die Achse **links (Y)** und wählen Sie die erste Option **Dokumentengenehmigung** dann **Dokumentversion** > **Dokument** > **Name**.
+1. Klicken Sie auf die Registerkarte ![Filter“ (](assets/filter-tab.png)).
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Datum der Teilnehmerentscheidung für die Genehmigungsphase** aus.
+   1. Ändern Sie den Operator in **Ist Null**.
+      ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter.png)
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Deadline für Genehmigungsphase** aus.
+   1. Ändern Sie den Operator in **Kleiner oder gleich**, schalten Sie dann den Schalter Relatives Datum festlegen ein und geben Sie _$$TODAYem_ in das Textfeld ein.
+      ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter-2.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
-## Hinzufügen detaillierter Überprüfungs- und Genehmigungsinformationen mit Tabellen
-
->[!IMPORTANT]
->
->Die neuen Dokumentgenehmigungsdaten werden derzeit während der Abende in der Zeitzone des US-Berges aktualisiert. Echtzeit-Updates sind geplant und werden in Kürze verfügbar sein.
+## Hinzufügen detaillierter Prüf- und Genehmigungsinformationen mit Tabellen
 
 ![Tabellenbeispiel](assets/table-dashboard.png)
 
-### Liste ausstehender Genehmigungen
+### Liste der ausstehenden Genehmigungen
 
-1. [Erstellen Sie ein Dashboard](#create-a-dashboard), wie im Abschnitt oben beschrieben.
-1. Klicken Sie auf der Karte **Tabelle** auf **Hinzufügen**.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. Klicken Sie in **Karte** Tabelle **auf „Hinzufügen**.
 1. Geben Sie _Ausstehende Genehmigungen_ in das Textfeld **Name** ein.
-1. (Optional) Geben Sie eine Beschreibung in das Textfeld **Beschreibung** ein. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
-1. Klicken Sie auf **Spalteneinstellungen öffnen**.
-1. Klicken Sie auf **Spalte hinzufügen**, scrollen Sie nach unten und klicken Sie auf den ersten Ordner **Dokumentgenehmigungen** und wählen Sie dann **Status** aus.
-1. Fügen Sie die folgenden Spalten hinzu:
+1. (Optional) Geben Sie eine Beschreibung in das Textfeld &quot;**&quot;**. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
+1. Klicken Sie **Spalteneinstellungen öffnen**.
+1. Klicken Sie **Spalte hinzufügen**, scrollen Sie nach unten und klicken Sie auf den ersten **Dokumentengenehmigungen** Ordner und wählen Sie dann **Status** aus.
+1. Die folgenden Spalten hinzufügen:
 
    <table>
     <tr>
@@ -203,7 +191,7 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
     </tr>
     <tr>
     <td><strong>Dokumentname</strong></td>
-    <td>Dokumentversion &gt; Dokument &gt; Geben Sie im Suchfeld _Name_ ein.</td>
+    <td>Dokumentversion &gt; Dokument &gt; Typ _Name_ in das Suchfeld.</td>
     </tr>
     <tr>
     <td><strong>Dokumentversion</strong></td>
@@ -211,68 +199,68 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
     </tr>
     <tr>
     <td><strong>Frist</strong></td>
-    <td>Dokument &gt; Genehmigungsstadium &gt; Frist</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Frist</td>
     </tr>
     <tr>
     <td><strong>Anfrage von</strong></td>
-    <td>Dokument &gt; Genehmigungsstadium &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Geben Sie im Suchfeld _Name_ ein.</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Typ _name_ in der Suchbox.</td>
     </tr>
      <tr>
     <td><strong>Angefordertes Datum</strong></td>
-    <td>Dokument &gt; Genehmigungsstadium &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt unter</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
     </tr>
      <tr>
     <td><strong>Genehmigende Person</strong></td>
-    <td>Dokument &gt; Genehmigungsstufe &gt; Teilnehmer der Genehmigungsstufe* &gt; Teilnehmer &gt; Benutzer &gt; Geben Sie im Suchfeld _Name_ ein.</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Teilnehmer-Benutzer &gt; Typ _name_ in der Suchbox.</td>
     </tr>
     <table>
 
-   *Die Teilnehmer der Genehmigungsstufe werden auf den Genehmigungsstadium-Pa gekürzt.
+   *Teilnehmer der Genehmigungsphase werden auf Genehmigungsphase PA gekürzt.
 
-1. Fahren Sie mit [Hinzufügen des erforderlichen Filters unter ](#add-the-required-filter) fort.
+1. Fahren Sie fort [Fügen Sie unten den erforderlichen Filter hinzu](#add-the-required-filter).
 
-#### Hinzufügen des erforderlichen Filters für ausstehende Genehmigungen
+#### Fügen Sie den erforderlichen Filter für ausstehende Genehmigungen hinzu
 
-1. Klicken Sie auf die Registerkarte &quot;Filter&quot;![Filter-Tab-Symbol](assets/filter-tab.png).
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
+1. Klicken Sie auf die Registerkarte ![Filter“ (](assets/filter-tab.png)).
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
-   1. Ändern Sie den Operator in **Equal** und geben Sie dann _pending approval_ ein.
-      Beispiel für den Filter für die ![ausstehende Genehmigungstabelle](assets/pending-approval-table-filter.png)
-1. Fügen Sie optionale Filter wie unten beschrieben hinzu oder klicken Sie oben rechts im Bildschirm auf **Fertig** .
+   1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Genehmigung steht aus_.
+      ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approval-table-filter.png)
+1. Fügen Sie optionale Filter wie unten beschrieben hinzu oder klicken **oben** auf „Fertig“.
 
 **Optionale Filter**
 
-Um je nach Anwendungsfall genauere Informationen anzuzeigen, können Sie zusätzliche Filterbedingungen hinzufügen. Sie können die Tabelle neu erstellen und neue Filterbedingungen pro Anwendungsfall hinzufügen.
+Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zusätzliche Filterbedingungen hinzufügen. Sie können die Tabelle neu erstellen und neue Filterbedingungen pro Anwendungsfall hinzufügen.
 
-+++ Erweitern, um zusätzliche Filteroptionen anzuzeigen
++++ Erweitern , um zusätzliche Filteroptionen anzuzeigen
 
 **Meine Projekte**
 
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf &quot;**Feld auswählen**&quot;, wählen Sie dann &quot;**Dokumentversion**&quot;> &quot;**Dokument**&quot;> &quot;**Projekt**&quot;> &quot;**Inhaber**&quot;> geben Sie im Suchfeld &quot;_Name_&quot; ein.
-   1. Ändern Sie den Operator in &quot;**Equal**&quot;und wählen Sie dann &quot;**Me (angemeldeter Benutzer)**&quot;, um Projekte in Workfront anzuzeigen, in denen Sie als Projekteigentümer gekennzeichnet sind.
-      Beispiel für den Filter für die ![ausstehende Genehmigungstabelle](assets/pending-approvals-my-project-filter.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Dokumentversion** > **Dokument** > **Projekt** > **Inhaber** > Typ _Name_ im Suchfeld aus.
+   1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+      ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
-**Von mir eingereichte Genehmigungen**
+**Von mir übermittelte Genehmigungen**
 
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf &quot;**Feld auswählen**&quot;, wählen Sie dann &quot;**Genehmigungsstufe**&quot;> &quot;**Teilnehmer der Genehmigungsstufe**&quot;> &quot;**Anforderer**&quot;> geben Sie im Suchfeld _Name_ ein.
-   1. Ändern Sie den Operator in &quot;**Equal**&quot;und wählen Sie dann &quot;**Me (angemeldeter Benutzer)**&quot;, um Projekte in Workfront anzuzeigen, in denen Sie als Projekteigentümer gekennzeichnet sind.
-      Beispiel für den Filter für die ![ausstehende Genehmigungstabelle](assets/pending-approvals-my-project-filter.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann im Suchfeld **Genehmigungsphase** > **Teilnehmer der Genehmigungsphase** > **Anforderer** > Typ _Name_ aus.
+   1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+      ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
 +++
 
-### Liste zu überfälliger Genehmigungen
+### Liste der überfälligen Genehmigungen
 
-1. [Erstellen Sie ein Dashboard](#create-a-dashboard), wie im Abschnitt oben beschrieben.
-1. Klicken Sie auf der Karte Tabelle auf **Hinzufügen**.
+1. [Erstellen Sie ein ](#create-a-dashboard), wie im obigen Abschnitt beschrieben.
+1. Klicken Sie in der Karte Tabelle auf **Hinzufügen**.
 1. Geben Sie _Überfällige Genehmigungen_ in das Textfeld **Name** ein.
-1. (Optional) Geben Sie eine Beschreibung in das Textfeld **Beschreibung** ein. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
-1. Klicken Sie auf **Spalteneinstellungen öffnen**.
-1. Klicken Sie auf **Spalte hinzufügen**, scrollen Sie nach unten und klicken Sie auf den ersten Ordner **Dokumentgenehmigungen** und wählen Sie dann **Status** aus.
-1. Fügen Sie die folgenden Spalten hinzu:
+1. (Optional) Geben Sie eine Beschreibung in das Textfeld &quot;**&quot;**. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
+1. Klicken Sie **Spalteneinstellungen öffnen**.
+1. Klicken Sie **Spalte hinzufügen**, scrollen Sie nach unten und klicken Sie auf den ersten **Dokumentengenehmigungen** Ordner und wählen Sie dann **Status** aus.
+1. Die folgenden Spalten hinzufügen:
 
    <table>
     <tr>
@@ -281,7 +269,7 @@ Um je nach Anwendungsfall genauere Informationen anzuzeigen, können Sie zusätz
     </tr>
     <tr>
     <td><strong>Dokumentname</strong></td>
-    <td>Dokumentversion &gt; Dokument &gt; Geben Sie im Suchfeld _Name_ ein.</td>
+    <td>Dokumentversion &gt; Dokument &gt; Typ _Name_ in das Suchfeld.</td>
     </tr>
     <tr>
     <td><strong>Dokumentversion</strong></td>
@@ -289,63 +277,63 @@ Um je nach Anwendungsfall genauere Informationen anzuzeigen, können Sie zusätz
     </tr>
     <tr>
     <td><strong>Frist</strong></td>
-    <td>Dokument &gt; Genehmigungsstadium &gt; Frist</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Frist</td>
     </tr>
     <tr>
     <td><strong>Anfrage von</strong></td>
-    <td>Dokument &gt; Genehmigungsstadium &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Geben Sie im Suchfeld _Name_ ein.</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Typ _name_ in der Suchbox.</td>
     </tr>
      <tr>
     <td><strong>Angefordertes Datum</strong></td>
-    <td>Dokument &gt; Genehmigungsstadium &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt unter</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
     </tr>
      <tr>
     <td><strong>Genehmigende Person</strong></td>
-    <td>Dokument &gt; Genehmigungsstufe &gt; Teilnehmer der Genehmigungsstufe* &gt; Teilnehmer &gt; Benutzer &gt; Geben Sie im Suchfeld _Name_ ein.</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Teilnehmer-Benutzer &gt; Typ _name_ in der Suchbox.</td>
     </tr>
     <table>
 
-   *Die Teilnehmer der Genehmigungsstufe werden auf den Genehmigungsstadium-Pa gekürzt.
+   *Teilnehmer der Genehmigungsphase werden auf Genehmigungsphase PA gekürzt.
 
-1. Fahren Sie mit [Hinzufügen des erforderlichen Filters unter ](#add-the-required-filter-1) fort.
+1. Fahren Sie fort [Fügen Sie unten den erforderlichen Filter hinzu](#add-the-required-filter-1).
 
-#### Hinzufügen des erforderlichen überfälligen Genehmigungsfilters
+#### Fügen Sie den Filter Erforderliche überfällige Genehmigungen hinzu
 
-1. Klicken Sie auf die Registerkarte &quot;Filter&quot;![Filter-Tab-Symbol](assets/filter-tab.png).
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Genehmigungsstufe** > **Frist** aus.
-   1. Ändern Sie den Operator in **Kleiner als**, schalten Sie **relatives Datum festlegen** ein und geben Sie dann _$$HEUTE_ ein.
-      Beispiel für den Filter für die ![überfällige Genehmigungstabelle](assets/overdue-approval.png)
-1. Fügen Sie optionale Filter wie unten beschrieben hinzu oder klicken Sie oben rechts im Bildschirm auf **Fertig** .
+1. Klicken Sie auf die Registerkarte ![Filter“ (](assets/filter-tab.png)).
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Genehmigungsphase** > **Frist**.
+   1. Ändern Sie den Operator in **Kleiner als**, schalten Sie **Relatives Datum festlegen** ein und geben Sie dann _$$TODAY_ ein.
+      ![Beispiel für überfällige Genehmigungstabelle](assets/overdue-approval.png)
+1. Fügen Sie optionale Filter wie unten beschrieben hinzu oder klicken **oben** auf „Fertig“.
 
 
 **Optionale Filter**
 
-Um je nach Anwendungsfall genauere Informationen anzuzeigen, können Sie zusätzliche Filterbedingungen hinzufügen. Sie können die Tabelle neu erstellen und neue, optionale Filterbedingungen pro Anwendungsfall hinzufügen.
+Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zusätzliche Filterbedingungen hinzufügen. Sie können die Tabelle neu erstellen und neue, optionale Filterbedingungen pro Anwendungsfall hinzufügen.
 
-+++ Erweitern, um zusätzliche Filteroptionen anzuzeigen
++++ Erweitern , um zusätzliche Filteroptionen anzuzeigen
 
 **Meine Projekte**
 
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf &quot;**Feld auswählen**&quot;, wählen Sie dann &quot;**Dokumentversion**&quot;> &quot;**Dokument**&quot;> &quot;**Projekt**&quot;> &quot;**Inhaber**&quot;> geben Sie im Suchfeld &quot;_Name_&quot; ein.
-   1. Ändern Sie den Operator in &quot;**Equal**&quot;und wählen Sie dann &quot;**Me (angemeldeter Benutzer)**&quot;, um Projekte in Workfront anzuzeigen, in denen Sie als Projekteigentümer gekennzeichnet sind.
-      Beispiel für den Filter für die ![ausstehende Genehmigungstabelle](assets/pending-approvals-my-project-filter.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Dokumentversion** > **Dokument** > **Projekt** > **Inhaber** > Typ _Name_ im Suchfeld aus.
+   1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+      ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
-**Von mir eingereichte Genehmigungen**
+**Von mir übermittelte Genehmigungen**
 
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf &quot;**Feld auswählen**&quot;, wählen Sie dann &quot;**Genehmigungsstufe**&quot;> &quot;**Teilnehmer der Genehmigungsstufe**&quot;> &quot;**Anforderer**&quot;> geben Sie im Suchfeld _Name_ ein.
-   1. Ändern Sie den Operator in &quot;**Equal**&quot;und wählen Sie dann &quot;**Me (angemeldeter Benutzer)**&quot;, um Projekte in Workfront anzuzeigen, in denen Sie als Projekteigentümer gekennzeichnet sind.
-      Beispiel für den Filter für die ![ausstehende Genehmigungstabelle](assets/pending-approvals-my-project-filter.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann im Suchfeld **Genehmigungsphase** > **Teilnehmer der Genehmigungsphase** > **Anforderer** > Typ _Name_ aus.
+   1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Ich (angemeldeter Benutzer)**, um Projekte in Workfront anzuzeigen, in denen Sie als Projektbesitzer markiert sind.
+      ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/pending-approvals-my-project-filter.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 
-**Meine Mannschaft**
+**Mein Team**
 
-1. Klicken Sie auf **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf &quot;**Feld auswählen**&quot;, wählen Sie dann &quot;**Genehmigungsstufe**&quot;> &quot;**Teilnehmer der Genehmigungsstufe**&quot;> &quot;**Teilnehmer-Team**&quot;> geben Sie im Suchfeld _Name_ ein.
-   1. Ändern Sie den Operator in &quot;**Equal**&quot;und wählen Sie dann &quot;**Meine Standardteams (angemeldeter Benutzer)**&quot;oder &quot;**Meine anderen Teams (angemeldeter Benutzer)**&quot;, um Projekte anzuzeigen, die entweder Ihrem Standardteam oder anderen Teams, denen Sie angehören, zugewiesen sind.
-      Beispiel für den Filter für die ![ausstehende Genehmigungstabelle](assets/approvals-ive-submitted-filter.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Fertig** .
+1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann im Suchfeld **Genehmigungsphase** > **Genehmigungsphase Teilnehmer** > **Teilnehmer-Team** > _Name_ aus.
+   1. Ändern Sie den Operator in **Gleich** und wählen Sie dann **Meine Standard-Teams (angemeldeter Benutzer)** oder **Meine anderen Teams (angemeldeter Benutzer)**, um Projekte anzuzeigen, die Ihrem Standard-Team oder anderen Teams, denen Sie angehören, zugewiesen sind.
+      ![Filterbeispiel für Tabelle mit ausstehender Genehmigung](assets/approvals-ive-submitted-filter.png)
+1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
 +++

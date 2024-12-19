@@ -1,28 +1,28 @@
 ---
-title: Übersicht über den KI-Assistenten
+title: Überblick über den KI-Assistenten
 content-type: reference
-description: Übersicht über den KI-Assistenten
+description: Überblick über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 64ad86e29bf18969f82dbdb54b98ca884d2ec26a
+source-git-commit: d58088eed3c23652226f5d3f104705ed112c0b9f
 workflow-type: tm+mt
-source-wordcount: '711'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
 
-# Übersicht über den KI-Assistenten
+# Überblick über den KI-Assistenten
 
 <span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist in der Vorschau -Umgebung für alle Kunden und in der Produktionsumgebung für Kunden verfügbar, die monatliche Versionen aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Der KI-Assistent von Workfront hilft Ihnen bei der Erledigung Ihrer Arbeit, indem er In-App-Informationen und -Vorschläge in einem in natürlicher Sprache geführten Gespräch anbietet. Der KI-Assistent bietet Ihnen eine reibungslosere Arbeitserfahrung durch
+Der KI-Assistent von Workfront hilft Ihnen bei der Durchführung Ihrer Arbeit, indem er In-App-Informationen und -Vorschläge in einer Unterhaltung in natürlicher Sprache bereitstellt. Der KI-Assistent kann Ihnen ein reibungsloseres Arbeitserlebnis bieten durch
 
-* Zusammenfassung von Arbeitselementen oder Dokumenten
+* Zusammenfassen von Arbeitselementen oder Dokumenten
 * Suchen von Anweisungen oder Referenzmaterial für Arbeitsabläufe
-* Formeln für berechnete Felder erstellen oder überprüfen
+* Formeln für berechnete Felder erzeugen oder überprüfen
 
 ## Zugriffsanforderungen
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td><p>Neu: Beliebig</p>
        <p>oder</p>
        <p>Aktuell: Nicht verfügbar</p></td>
@@ -47,62 +47,69 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).## Voraussetzungen für den AI-Assistenten
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Voraussetzungen für den AI-Assistenten
+## Voraussetzungen für den KI-Assistenten
 
-Um den KI-Assistenten für Ihre Organisation zu aktivieren, muss **alle** der folgenden Punkte gelten:
+Um den KI-Assistenten für Ihre Organisation zu aktivieren **müssen** alle) der folgenden Bedingungen zutreffen:
 
-* Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein.
-* Das Adobe Unified Experience muss aktiviert sein
-* Ihr Unternehmen muss über einen Workfront-Plan für Select, Prime oder Ultimate verfügen
-* Adobe muss über eine unterzeichnete Adobe Gen-AI-Vereinbarung verfügen.
+* Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein
+* Adobe Unified Experience muss aktiviert sein
+* Ihr Unternehmen muss über einen Select-, Prime- oder Ultimate Workfront-Plan verfügen
+* Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben
 
-  Weitere Informationen zum Unterzeichnen der Vereinbarung finden Sie unter [Unterschreiben der Adobe Gen AI Agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in diesem Artikel.
+  Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)Abkommens in diesem Artikel.
 
 ## Überlegungen zum KI-Assistenten
 
-* Der KI-Assistent ist kontextsensitiv gegenüber der Seite, die Sie geöffnet haben. Wenn Sie beispielsweise &quot;Projekt zusammenfassen&quot;in den KI-Assistenten auf einer Projektseite eingeben, erhalten Sie eine Zusammenfassung dieses spezifischen Projekts.
-* Der Workfront-Administrator muss den KI-Assistenten für Benutzer in Ihrem Unternehmen aktivieren. Die Aktivierung des KI-Assistenten erfolgt über Zugriffsebenen.
+* Der KI-Assistent reagiert kontextabhängig auf die Seite, die Sie geöffnet haben. Wenn Sie beispielsweise auf einer Projektseite „Dieses Projekt zusammenfassen“ in den KI-Assistenten eingeben, wird eine Zusammenfassung dieses bestimmten Projekts zurückgegeben.
+* Der Workfront-Administrator muss den KI-Assistenten für Benutzende in Ihrer Organisation aktivieren. Der KI-Assistent wird über Zugriffsebenen aktiviert.
 
-  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 * Der Workfront Planning AI Assistant verfügt über andere Funktionen als der Workfront AI Assistant.
 
-  Weitere Informationen zum KI-Assistenten in der Workfront-Planung finden Sie unter [Übersicht über den Adobe Workfront Planning AI Assistant - Überblick](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
+  Weitere Informationen zum KI-Assistenten in Workfront Planning finden Sie unter [Übersicht zum Adobe Workfront Planning-KI-Assistenten](/help/quicksilver/planning/general/planning-ai-assistant-overview.md).
 
 
-## In AI Assistant verfügbare Funktionen
+## Verfügbare Funktionen im KI-Assistenten
 
 Der KI-Assistent bietet derzeit die folgenden Funktionen:
 
 * Zusammenfassen von Projekten, Aufgaben, Problemen oder Dokumenten.
 
-  Weitere Informationen finden Sie unter [Zusammenfassen mit dem AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
+  Weitere Informationen finden Sie unter [Zusammenfassen mithilfe des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/summarize-this.md).
 
-* Bereitstellung von Anweisungen oder Referenzinformationen, die aus der Workfront-Dokumentation in Adobe Experience League abgerufen werden.
+* Bereitstellung von Anweisungen oder Referenzinformationen aus der Workfront-Dokumentation auf Adobe Experience League.
 
-  Weitere Informationen finden Sie unter [Hilfe vom AI-Assistenten erhalten](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
+  Weitere Informationen finden Sie unter [Hilfe vom KI-Assistenten abrufen](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
 <div class="preview">
 
 * Suchen nach bestimmten Elementen in Workfront.
 
-  Weitere Informationen finden Sie unter [Verwenden des AI-Assistenten zum Arbeiten mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
+  Weitere Informationen finden Sie unter [Verwenden des KI-Assistenten zur Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
 
 </div>
 
-* Rezepturen für berechnete benutzerdefinierte Felder erstellen oder verfeinern.
+* Formeln für berechnete benutzerdefinierte Felder werden generiert oder verfeinert.
 
   >[!NOTE]
   >
-  >Diese Funktion steht nur Unternehmen zur Verfügung, die die Pläne von Prime oder Ultimate Workfront verfolgen.
+  >Diese Funktion steht nur Organisationen zur Verfügung, die Prime- oder Ultimate Workfront-Pläne haben.
 
-  Weitere Informationen finden Sie unter [Berechnete Feldformeln mit dem KI-Assistenten erstellen oder überarbeiten](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
+  Weitere Informationen finden Sie unter [Generieren oder Überarbeiten berechneter Feldformeln mit dem KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-## Für den AI-Assistenten verfügbare Objekttypen
+<!--<div class="preview">
+* Summarizing updates, uploaded documents, and other notable changes about your projects within the following time frames: 24 hours, 3 days, 7 days in Priorities.
 
-Der KI-Assistent kann Daten abfragen, die mit den folgenden Objekttypen verknüpft sind, wenn der Benutzer über gültige Berechtigungen in Workfront verfügt:
+For more information, see [Catch up on work in Priorities](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
+
+</div>-->
+
+## Für den KI-Assistenten verfügbare Objekttypen
+
+Der KI-Assistent kann Daten abfragen, die den folgenden Objekttypen zugeordnet sind, wenn der Benutzer über die gültigen Berechtigungen in Workfront verfügt:
 
 * Portfolios
 * Programme
@@ -111,32 +118,32 @@ Der KI-Assistent kann Daten abfragen, die mit den folgenden Objekttypen verknüp
 * Probleme
 * Benutzerdefinierte Formulare
 * Benutzende
-* Workfront-Planungsaufzeichnungen
+* Workfront-Planungsdatensätze
 
 
-## Access AI Assistant
+## Zugriff auf KI-Assistenten
 
-1. Klicken Sie oben auf einer beliebigen Workfront-Seite auf das Symbol &quot;AI Assistant&quot;![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
-1. Geben Sie Ihre Frage oder Aufforderung in das Bedienfeld rechts vom Bildschirm ein.
+1. Klicken Sie oben auf einer Workfront-Seite auf das Symbol KI-Assistent ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Geben Sie Ihre Frage oder Eingabeaufforderung im Bedienfeld rechts am Bildschirm ein.
 
-   Wenn Sie in dieses Bedienfeld nicht eingeben können, verfügt Ihr Unternehmen nicht über eine unterzeichnete Adobe Gen-KI-Vereinbarung für die Datei.
+   Wenn Sie in dieses Bedienfeld nicht tippen können, verfügt Ihr Unternehmen über keine unterzeichnete Adobe Gen AI-Vereinbarung.
 
-1. Wenn der KI-Assistent nicht die benötigte Antwort bereitstellt, verfeinern Sie Ihre Eingabeaufforderung und versuchen Sie es erneut.
+1. Wenn der KI-Assistent nicht die Antwort bereitstellt, die Sie benötigen, verfeinern Sie Ihre Eingabeaufforderung und versuchen Sie es erneut.
 
-## Unterschreiben der Adobe Gen AI-Vereinbarung
+## Adobe Gen AI-Vertrag unterzeichnen
 
-Wenn Ihr Unternehmen über keine unterzeichnete Adobe Gen-KI-Vereinbarung zur -Datei verfügt, kann der KI-Assistent für Ihr Unternehmen nicht aktiviert werden.
+Wenn Ihr Unternehmen über keine unterzeichnete Adobe-Gen-KI-Vereinbarung verfügt, kann der KI-Assistent für Ihr Unternehmen nicht aktiviert werden.
 
-Wenn ein Benutzer versucht, AI Assistant zu verwenden, wenn die Adobe Gen AI-Vereinbarung nicht unterzeichnet wurde, wird ihm eine Meldung angezeigt:
+Wenn ein(e) Benutzende(r) versucht, den KI-Assistenten zu verwenden, obwohl die Adobe-Gen-KI-Vereinbarung nicht unterzeichnet wurde, wird eine Meldung angezeigt:
 
-* Benutzer: Benutzer werden darüber informiert, dass der KI-Assistent für ihre Organisation nicht aktiviert wurde und dass sie sich an ihren Workfront-Administrator wenden können, um ihn für ihre Organisation anzufordern.
-* Administratoren: Administratoren werden darüber informiert, dass keine unterzeichnete Adobe Gen AI-Vereinbarung vorliegt, und können verlangen, dass eine Kopie der Vereinbarung zur Unterzeichnung gesendet wird.
+* Benutzende: Benutzende werden darüber informiert, dass der KI-Assistent für ihr Unternehmen nicht aktiviert wurde und sie sich an ihren Workfront-Administrator wenden können, um ihn für ihr Unternehmen anzufordern.
+* Administratoren: Administratoren werden darüber informiert, dass es keine unterzeichnete Adobe-Gen-AI-Vereinbarung gibt, und können verlangen, dass eine Kopie der Vereinbarung zur Unterzeichnung gesendet wird.
 
 So fordern Sie die Adobe Gen AI-Vereinbarung an:
 
-1. Als Workfront-Administrator klicken Sie auf das Symbol &quot;KI-Assistent&quot;![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
-1. Beginnen Sie mit der Eingabe im Bedienfeld &quot;AI Assistant&quot;.
-1. Wenn die Meldung zur Adobe Gen AI Agreement (KI-Vereinbarung) angezeigt wird, klicken Sie auf **Review Agreement (Vereinbarung überprüfen)**.
-1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnet.
+1. Klicken Sie als Workfront-Administrator auf das Symbol KI-Assistent ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Beginnen Sie mit der Eingabe im Bedienfeld KI-Assistent .
+1. Wenn die Adobe Gen AI-Vereinbarungsmeldung angezeigt wird, klicken Sie auf **Vereinbarung überprüfen**.
+1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnen wird.
 
-   Die Vereinbarung wird dieser Person zur Unterzeichnung übermittelt. Nach der Unterzeichnung und Rückgabe wird der KI-Assistent für Ihre Organisation aktiviert.
+   Die Vereinbarung wird dieser Person zur Unterzeichnung übermittelt. Nachdem er signiert und zurückgegeben wurde, ist der KI-Assistent für Ihre Organisation aktiviert.

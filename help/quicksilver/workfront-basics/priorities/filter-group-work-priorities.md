@@ -1,27 +1,27 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Filtern und Gruppieren Ihrer Arbeit mit Prioritäten
-description: Sie können Filter verwenden, um nach Arbeit zu suchen und diese dann zu gruppieren, um sie zu organisieren.
+description: Sie können Filter verwenden, um Arbeit zu finden und nach Arbeit zu suchen, und dann eine Gruppierung anwenden, um sie zu organisieren.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 1f27c7e56681fe8c22141b0a98b3dcdb547366d5
+source-git-commit: 449a8bbdacb77db2f8c697573bc8fa74641522e7
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '929'
 ht-degree: 6%
 
 ---
 
 # Filtern und Gruppieren Ihrer Arbeit mit Prioritäten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können Filter verwenden, um die gesuchte Arbeit zu finden, und dann eine Gruppierung anwenden, um sie zu organisieren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,44 +32,44 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
    <td> 
    <p>Aktuell: Anforderung oder höher</p>
-   <p>Neu: Mitarbeiter oder höher</p> 
+   <p>Neu: Mitwirkender oder höher</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
-   <td> <p>Anzeigen oder Bearbeiten des Zugriffs für das Objekt, auf dem die Aktualisierung ausgeführt wird</p></td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Anzeigen- oder Bearbeitungszugriff für das Objekt, auf dem die Aktualisierung ausgeführt wird</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Zugriff auf das Objekt anzeigen</p></td> 
+   <td> <p>Anzeigen des Zugriffs auf das Objekt</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Filtern und Gruppieren Ihrer Arbeit mit Prioritäten in der Produktion
 
-### Filtern Ihrer Arbeit
+### Filtern von Arbeit
 
-Sie können zugewiesene Aufgaben und Probleme filtern.
+Sie können die Ihnen zugewiesenen Aufgaben und Probleme filtern.
 
 {{step1-to-priorities}}
 
-1. Klicken Sie oben rechts in der Arbeitsliste auf **Filter** .
+1. Klicken **oben** in der Arbeitsliste auf „Filter“.
 1. Wählen Sie einen oder mehrere Filter aus, um Ihre Arbeitselemente einzugrenzen.
    ![](assets/filters.png)
 
-++ + Erweitern , um detaillierte Informationen zu verfügbaren Filtern anzuzeigen
++++Erweitern um detaillierte Informationen zu den verfügbaren Filtern
 <table>
   <tbody>
    <tr>
@@ -82,21 +82,21 @@ Sie können zugewiesene Aufgaben und Probleme filtern.
     </tr>
     <tr>
       <td>Startbereit</td>
-      <td>Zeigt Elemente mit 
+      <td>Zeigt Elemente an mit 
       <ul>
-      <li>Keine unvollständigen Vorgänger oder Aufgabeneinschränkungen</li>
+      <li>Keine unvollständigen Vorgänger oder Aufgabenbeschränkungen</li>
       <p>und</p>
-      <li>Das geplante Startdatum liegt in der Vergangenheit oder bis zu zwei Wochen in der Zukunft</li>
+      <li>Das geplante Startdatum liegt in den letzten oder bis zu zwei Wochen in der Zukunft</li>
       </ul>
       </td>
     </tr>
     <tr>
       <td>Nicht bereit</td>
-      <td>Zeigt Elemente an,
+      <td>Zeigt Elemente an, die
        <ul>
-      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen, die verhindern, dass das Element bearbeitet wird</li>
+      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen verhindern, dass das Element bearbeitet wird</li>
       <p>oder</p>
-      <li>Das geplante Startdatum liegt in Zukunft bei mehr als zwei Wochen.</li>
+      <li>Das geplante Startdatum liegt mehr als zwei Wochen in der Zukunft</li>
       </ul>
        </td>
     </tr>
@@ -105,66 +105,66 @@ Sie können zugewiesene Aufgaben und Probleme filtern.
       <td>Zeigt Probleme an, mit denen Sie noch nicht begonnen haben</td>
     </tr>
       <td>Fertig</td>
-      <td>Zeigt die Arbeit an, die in den letzten zwei Wochen abgeschlossen wurde. Diese Filteroption umfasst keine Genehmigungen.</td>
+      <td>Zeigt Arbeiten an, die in den letzten zwei Wochen abgeschlossen wurden. Diese Filteroption umfasst keine Genehmigungen.</td>
     </tr>
     <tr>
     <td>Projekt</td>
-    <td>Zeigt Projekte an, die Aufgaben oder Probleme enthalten, denen Sie zugewiesen wurden</td>
+    <td>Zeigt Projekte mit Aufgaben oder Problemen an, denen Sie zugewiesen wurden</td>
     </tr>
     <tr>
     <td>Fälligkeitsdatum</td>
-    <td>Zeigt die Arbeit nach dem geplanten Abschlussdatum an</td>
+    <td>Zeigt Arbeit nach geplantem Abschlussdatum an</td>
     </tr>
     <tr>
     <td>Status</td>
-    <td>Zeigt Aufgaben oder Probleme im neuen, in Gang befindlichen und vollständigen Status an</td>
+    <td>Zeigt Aufgaben oder Probleme mit dem Status Neu, In Bearbeitung und Abgeschlossen an</td>
     </tr>
     <tr>
     <td>Mein Fokus</td>
-    <td>Zeigt Aufgaben oder Probleme in an, denen Fokusebenen zugewiesen sind. Die Fokusebenen werden vom jeweiligen Benutzer zugewiesen und verwaltet.</td>
+    <td>Zeigt Aufgaben oder Probleme in an, denen Fokusebenen zugewiesen sind. Fokusebenen werden von den einzelnen Benutzenden zugewiesen und verwaltet.</td>
     </tr>
   </tbody>
 </table>
 
 +++
 
-1. (Optional) Klicken Sie auf **Zurück zum Standard** , um Ihre Auswahl zurückzusetzen.
+1. (Optional) Klicken Sie auf **Zurück zur Standardeinstellung**, um Ihre Auswahl zurückzusetzen.
 
 ### Arbeiten gruppieren
 
 {{step1-to-priorities}}
 
-1. Klicken Sie oben rechts in der Arbeitsliste auf **Gruppen** .
-1. Auswählen einer Gruppe zur Organisation Ihrer Arbeitsliste
+1. Klicken **oben** in der Arbeitsliste auf „Gruppen“.
+1. Gruppe auswählen, um die Arbeitsliste zu organisieren
    ![](assets/groups.png)
 
-++ + Erweitern , um detaillierte Informationen zu verfügbaren Gruppen anzuzeigen
++++Erweitern um detaillierte Informationen zu verfügbaren Gruppen anzuzeigen
 
 | Gruppe | Beschreibung |
 |-----------|-------------|
 | Keine | Dadurch werden Gruppierungen aus der Arbeitsliste entfernt. |
-| Mein Fokus | Diese Gruppe gruppiert Elemente basierend auf der von Ihnen zugewiesenen Fokusebene. |
-| Fällige Woche | Gruppiert Artikel nach der Woche, für die sie fällig sind. Die Fälligkeitsdaten werden durch das geplante Abschlussdatum bestimmt. |
-| Status | Gruppiert Elemente nach folgendem Status: Neu, Gestartet, Abgeschlossen. <br>Hinweis: Sie können derzeit keine benutzerdefinierten Status in Prioritäten verwenden. |
-| Projekt | Hiermit werden Elemente nach Projekt gruppiert. |
+| Mein Fokus | Dadurch werden Elemente basierend auf der zugewiesenen Fokusebene gruppiert. |
+| Fällige Woche | Dadurch werden Elemente nach der Woche gruppiert, in der sie fällig sind. Fälligkeitsdaten werden durch das geplante Abschlussdatum bestimmt. |
+| Status | Elemente werden nach folgenden Status gruppiert: Neu, In Bearbeitung, Abgeschlossen. <br>Hinweis: Benutzerdefinierte Status können derzeit nicht in Prioritäten verwendet werden. |
+| Projekt | Dadurch werden Elemente nach Projekt gruppiert. |
 
 +++
 
-### Sortieren Sie Ihre Arbeit
+### Arbeit sortieren
 
-Um Ihre Arbeit zu sortieren, öffnen Sie **Gruppe** und klicken Sie auf **Aufsteigend sortieren** oder auf **Absteigende Sortierung**.
+Um Ihre Arbeit zu sortieren, öffnen Sie **Gruppe** und klicken Sie auf **Aufsteigend sortieren** oder **Absteigend sortieren**.
 
 ![](assets/expand-sort-groups.png)
 
 >[!IMPORTANT]
 >
->Die Sortieroption ist vorübergehend nicht verfügbar, wenn Sie eine Gruppe angewendet haben.
+>Die Sortieroption ist vorübergehend nicht verfügbar, wenn eine Gruppe angewendet wurde.
 
 
 
-### Alle Abschnitte ein- oder ausblenden
+### Alle Abschnitte erweitern oder reduzieren
 
-Um alle Abschnitte ein- oder auszublenden, öffnen Sie **Gruppe** und klicken Sie auf **Alle erweitern** oder **Alle ausblenden**.
+Um alle Abschnitte zu erweitern oder zu reduzieren, öffnen Sie **Gruppe** und klicken Sie auf **Alle erweitern** oder **Alle reduzieren**.
 
 ![](assets/expand-sort-groups.png)
 
@@ -172,17 +172,18 @@ Um alle Abschnitte ein- oder auszublenden, öffnen Sie **Gruppe** und klicken Si
 
 ## Filtern und Gruppieren Ihrer Arbeit mit Prioritäten in der Vorschau
 
-### Filtern Ihrer Arbeit
+### Arbeiten mit Standardfiltern filtern
 
-Sie können zugewiesene Aufgaben und Probleme filtern.
+Sie können die Ihnen zugewiesenen Aufgaben und Probleme filtern.
 
 {{step1-to-priorities}}
 
-1. Klicken Sie oben links in der Arbeitsliste auf **Filter** .
+1. Klicken **oben links** der Arbeitsliste auf „Filter“.
+1. Klicken Sie **Standardfilter**.
 1. Wählen Sie einen oder mehrere Filter aus, um Ihre Arbeitselemente einzugrenzen.
    ![](assets/filter-new.png)
 
-++ + Erweitern , um detaillierte Informationen zu verfügbaren Filtern anzuzeigen
++++Erweitern um detaillierte Informationen zu den verfügbaren Filtern
 <table>
   <tbody>
    <tr>
@@ -195,21 +196,21 @@ Sie können zugewiesene Aufgaben und Probleme filtern.
     </tr>
     <tr>
       <td>Startbereit</td>
-      <td>Zeigt Elemente mit 
+      <td>Zeigt Elemente an mit 
       <ul>
-      <li>Keine unvollständigen Vorgänger oder Aufgabeneinschränkungen</li>
+      <li>Keine unvollständigen Vorgänger oder Aufgabenbeschränkungen</li>
       <p>und</p>
-      <li>Das geplante Startdatum liegt in der Vergangenheit oder bis zu zwei Wochen in der Zukunft</li>
+      <li>Das geplante Startdatum liegt in den letzten oder bis zu zwei Wochen in der Zukunft</li>
       </ul>
       </td>
     </tr>
     <tr>
       <td>Nicht bereit</td>
-      <td>Zeigt Elemente an,
+      <td>Zeigt Elemente an, die
        <ul>
-      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen, die verhindern, dass das Element bearbeitet wird</li>
+      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen verhindern, dass das Element bearbeitet wird</li>
       <p>oder</p>
-      <li>Das geplante Startdatum liegt in Zukunft bei mehr als zwei Wochen.</li>
+      <li>Das geplante Startdatum liegt mehr als zwei Wochen in der Zukunft</li>
       </ul>
        </td>
     </tr>
@@ -218,67 +219,86 @@ Sie können zugewiesene Aufgaben und Probleme filtern.
       <td>Zeigt Probleme an, mit denen Sie noch nicht begonnen haben</td>
     </tr>
       <td>Fertig</td>
-      <td>Zeigt die Arbeit an, die in den letzten zwei Wochen abgeschlossen wurde. Diese Filteroption umfasst keine Genehmigungen.</td>
+      <td>Zeigt Arbeiten an, die in den letzten zwei Wochen abgeschlossen wurden. Diese Filteroption umfasst keine Genehmigungen.</td>
     </tr>
     <tr>
     <td>Projekt</td>
-    <td>Zeigt Projekte an, die Aufgaben oder Probleme enthalten, denen Sie zugewiesen wurden</td>
+    <td>Zeigt Projekte mit Aufgaben oder Problemen an, denen Sie zugewiesen wurden</td>
     </tr>
     <tr>
     <td>Fälligkeitsdatum</td>
-    <td>Zeigt die Arbeit nach dem geplanten Abschlussdatum an</td>
+    <td>Zeigt Arbeit nach geplantem Abschlussdatum an</td>
     </tr>
     <tr>
     <td>Status</td>
-    <td>Zeigt Aufgaben oder Probleme im neuen, in Gang befindlichen und vollständigen Status an</td>
+    <td>Zeigt Aufgaben oder Probleme mit dem Status Neu, In Bearbeitung und Abgeschlossen an</td>
     </tr>
     <tr>
     <td>Mein Fokus</td>
-    <td>Zeigt Aufgaben oder Probleme in an, denen Fokusebenen zugewiesen sind. Die Fokusebenen werden vom jeweiligen Benutzer zugewiesen und verwaltet.</td>
+    <td>Zeigt Aufgaben oder Probleme in an, denen Fokusebenen zugewiesen sind. Fokusebenen werden von den einzelnen Benutzenden zugewiesen und verwaltet.</td>
     </tr>
   </tbody>
 </table>
 
 +++
 
-1. (Optional) Klicken Sie auf **Zurück zum Standard** , um Ihre Auswahl zurückzusetzen.
+1. (Optional) Klicken Sie auf **Zurück zur Standardeinstellung**, um Ihre Auswahl zurückzusetzen.
+
+### Arbeiten mit Smart-Filtern filtern
+
+Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
+
+{{step1-to-priorities}}
+
+1. Klicken **oben links** der Arbeitsliste auf „Filter“.
+1. Klicken Sie **Smart-Filter**.
+1. Geben Sie ein, wie Sie Ihre Arbeit filtern möchten.
+
+   Sie können z. B. Dinge eingeben
+
+   * Anzeige verspäteter Aufgaben
+   * Meine obersten Prioritäten anzeigen
+   * Heute fällige Arbeiten anzeigen
+
 
 ### Arbeiten gruppieren
 
 {{step1-to-priorities}}
 
-1. Klicken Sie oben links in der Arbeitsliste auf **Gruppen** .
-1. Auswählen einer Gruppe zur Organisation Ihrer Arbeitsliste
+1. Klicken **oben links** der Arbeitsliste auf „Gruppen“.
+1. Gruppe auswählen, um die Arbeitsliste zu organisieren
    ![](assets/groups-new.png)
 
-++ + Erweitern , um detaillierte Informationen zu verfügbaren Gruppen anzuzeigen
++++Erweitern um detaillierte Informationen zu verfügbaren Gruppen anzuzeigen
 
 | Gruppe | Beschreibung |
 |-----------|-------------|
-| Projekt | Hiermit werden Elemente nach Projekt gruppiert. |
-| Mein Fokus | Diese Gruppe gruppiert Elemente basierend auf der von Ihnen zugewiesenen Fokusebene. |
-| Fällige Woche | Gruppiert Artikel nach der Woche, für die sie fällig sind. Die Fälligkeitsdaten werden durch das geplante Abschlussdatum bestimmt. |
-| Status | Gruppiert Elemente nach folgendem Status: Neu, Gestartet, Abgeschlossen. <br>Hinweis: Sie können derzeit keine benutzerdefinierten Status in Prioritäten verwenden. |
+| Projekt | Dadurch werden Elemente nach Projekt gruppiert. |
+| Mein Fokus | Dadurch werden Elemente basierend auf der zugewiesenen Fokusebene gruppiert. |
+| Fällige Woche | Dadurch werden Elemente nach der Woche gruppiert, in der sie fällig sind. Fälligkeitsdaten werden durch das geplante Abschlussdatum bestimmt. |
+| Status | Elemente werden nach folgenden Status gruppiert: Neu, In Bearbeitung, Abgeschlossen. <br>Hinweis: Benutzerdefinierte Status können derzeit nicht in Prioritäten verwendet werden. |
 
 +++
 
-### Sortieren Sie Ihre Arbeit
+
+
+### Arbeit sortieren
 
 **In Gruppen sortieren**
 
-Um Ihre Arbeit innerhalb einer Gruppe zu sortieren, öffnen Sie **Gruppe** und klicken Sie auf **Aufsteigende Sortierung** oder auf **Absteigende Sortierung**.
+Um Ihre Arbeit innerhalb einer Gruppe zu sortieren, öffnen Sie **Gruppe** und klicken Sie auf **Aufsteigend sortieren** oder **Absteigend sortieren**.
 
 ![](assets/sort-in-groups.png)
 
-**Spalten sortieren**
+**Sortieren von Spalten**
 
-Um einzelne Spalten zu sortieren, klicken Sie in der Spalte auf den Abwärtspfeil.
+Um einzelne Spalten zu sortieren, gehen Sie zur Spalte und klicken Sie auf den Abwärtspfeil.
 
-![Nach-unten-Pfeil in Spalte](assets/sort-columns.png)
+![Pfeil nach unten in der Spalte](assets/sort-columns.png)
 
 
 
-### Erweitern oder Reduzieren aller Gruppenabschnitte
+### Alle Gruppenabschnitte erweitern oder reduzieren
 
 Um alle Gruppenabschnitte zu erweitern oder zu reduzieren, öffnen Sie **Gruppe** und klicken Sie auf **Alle erweitern** oder **Alle reduzieren**.
 
