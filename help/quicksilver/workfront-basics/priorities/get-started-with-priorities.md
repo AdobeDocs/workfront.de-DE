@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: b637694c598540343383af15658a069c305f6bbf
+source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1000'
 ht-degree: 3%
 
 ---
@@ -115,7 +115,7 @@ Weitere Informationen finden Sie unter [Priorisieren wichtiger Arbeitselemente](
 ![](assets/my-focus-column.png)
 <!-- new screen for prod ![](assets/worklist.png) -->
 
-### Verwenden der Kalenderansicht [!BADGE in Kürze verfügbar]{type=Informative}
+### Verwenden der Kalenderansicht [!BADGE In der Vorschau verfügbar]{type=Informative}
 
 Die Kalenderansicht bietet eine visuelle Darstellung Ihrer Aufgaben und Probleme. Sie können zwischen einer Tag-, Wochen- oder Monatsansicht wählen. Sie können Elemente auch auf ähnliche Weise wie die Arbeitsliste filtern.
 
@@ -190,11 +190,11 @@ Auf der Registerkarte Dokumente einer Aufgabe oder eines Problems haben Sie folg
 * Proofing-Betrachter starten, um Kommentare zu hinterlassen und Entscheidungen zu treffen
 
 
-## Verwenden Sie [!DNL Catch me up], um zu sehen, was Sie verpasst haben [!BADGE in Kürze verfügbar]{type=Informative}
+## Verwenden Sie [!DNL Catch me up], um zu sehen, was Sie verpasst haben [!BADGE In der Vorschau verfügbar]{type=Informative}
 
 Verwenden Sie die [!DNL Catch me up]-Funktion, um zu sehen, was Sie verpasst haben. Catch me up fasst Aktualisierungen, hochgeladene Dokumente, Genehmigungen und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammen: 24 Stunden, 3 Tage, 7 Tage.
 
-<!--For more information, see Catch up on work in Priorities /help/quicksilver/workfront-basics/priorities/catch-me-up.md.-->
+Weitere Informationen finden Sie unter [Aufholprozess bei den Prioritäten](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
 ![](assets/catch-me-up.png)
 
