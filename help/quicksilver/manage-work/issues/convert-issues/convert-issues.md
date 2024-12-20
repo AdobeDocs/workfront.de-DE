@@ -1,23 +1,23 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Übersicht über Konvertierungsprobleme in Adobe Workfront
-description: Wenn nach dem Absenden des Problems noch mehr Arbeit erforderlich ist, können Sie das Problem in ein Projekt oder eine Aufgabe konvertieren.
+title: Übersicht über die Konvertierung von Problemen in Adobe Workfront
+description: Wenn nach dem Übermitteln eines Problems weitere Arbeit zum Abschließen des Problems erforderlich ist, können Sie das Problem in ein Projekt oder eine Aufgabe konvertieren.
 author: Alina
 feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 97c83b65-208b-4e3f-b4cc-681237d82aa3
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1441'
+source-wordcount: '1476'
 ht-degree: 2%
 
 ---
 
-# Übersicht über Konvertierungsprobleme in Adobe Workfront
+# Übersicht über die Konvertierung von Problemen in Adobe Workfront
 
-Wenn nach dem Absenden des Problems noch mehr Arbeit erforderlich ist, können Sie das Problem in ein Projekt oder eine Aufgabe konvertieren.
+Wenn nach dem Übermitteln eines Problems weitere Arbeit zum Abschließen des Problems erforderlich ist, können Sie das Problem in ein Projekt oder eine Aufgabe konvertieren.
 
 Informationen zum Konvertieren von Problemen in Aufgaben finden Sie unter [Konvertieren eines Problems in eine Aufgabe in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md).
 
@@ -25,43 +25,48 @@ Informationen zum Konvertieren von Problemen in Projekte finden Sie unter [Konve
 
 ## Überlegungen beim Konvertieren von Problemen
 
-* Beim Konvertieren von Problemen in Aufgaben oder Projekte werden die meisten Informationen aus dem Problem an die Aufgabe oder das Projekt übertragen, sofern in diesem Artikel nichts anderes angegeben ist.
-* Ihr Workfront-Administrator oder Gruppenadministrator hat bereits die Voreinstellungen für das Auftreten eines Problems, dessen Lösung und den Zugriff seines Primären Kontakts bei der Konvertierung in ein Projekt oder eine Aufgabe festgelegt, wie unter [Systemweite Aufgabe konfigurieren und Voreinstellungen festlegen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) beschrieben.
+* Wenn Probleme in Aufgaben oder Projekte konvertiert werden, werden die meisten Informationen aus dem Problem an die Aufgabe oder das Projekt übertragen, sofern in diesem Artikel nichts anderes festgelegt ist.
+* Ihr Workfront-Administrator oder Gruppenadministrator hat bereits die Voreinstellungen für ein Problem, seine Lösung und den Zugriff seines Primären Kontakts bei der Konvertierung in ein Projekt oder eine Aufgabe festgelegt, wie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md) beschrieben.
 * Workfront entfernt alle Genehmigungen, die mit Problemen während der Konvertierung verbunden sind.
-* Workfront überschreibt das Auflösungsobjekt des Problems, wenn Sie es in eine Aufgabe oder ein Projekt konvertieren. Die neue Aufgabe oder das neue Problem wird nach der Konvertierung zum neuen Auflösungsobjekt des Problems.
+* Workfront überschreibt das Lösungsobjekt des Problems, wenn Sie es in eine Aufgabe oder ein Projekt konvertieren. Die neue Aufgabe oder das neue Problem wird nach der Konvertierung zum neuen Lösungsobjekt des Problems.
 * Beachten Sie Folgendes:
 
-   * Während der Konvertierung werden Sie möglicherweise gefragt, ob Sie das Problem und seine Lösung an das Projekt oder die Aufgabe, die Sie erstellen, binden möchten.
-   * Wenn Sie das Problem beibehalten, aktualisieren der Status und der Prozentsatz am Ende des Projekts oder der Aufgabe automatisch den Status und den Prozentsatz des Abschlusses des Problems, wenn Änderungen am Projekt, der Aufgabe oder dem Problem auftreten oder wenn die Workfront die Timeline neu berechnet.
+   * Während der Konvertierung werden Sie möglicherweise gefragt, ob Sie das Problem und seine Lösung an das Projekt oder die Aufgabe binden möchten, das bzw. die Sie erstellen.
+   * Wenn Sie das Problem beibehalten, werden der Status und der abgeschlossene Prozentsatz des Projekts oder der Aufgabe automatisch aktualisiert, wenn Änderungen am Projekt, an der Aufgabe oder an dem Problem auftreten oder wenn Workfront die Timeline neu berechnet.
 
-* Beim Konvertieren eines Problems in eine Aufgabe oder ein Projekt wird das Problem aus dem Startbereich des dem Problem zugewiesenen Benutzers entfernt.
+  >[!NOTE]
+  >
+  >   Nachdem der Status des Problems zu Geschlossen wird (infolge des Schließens der Aufgabe oder des Projekts), und zwar unabhängig davon, in welchen Status sich die Aufgabe oder das Projekt nach dem Schließen ändert, bleibt das Problem geschlossen.
+
+
+* Beim Konvertieren eines Problems in eine Aufgabe oder ein Projekt wird das Problem aus dem Bereich „Startseite“ des Benutzers entfernt, der dem Problem zugewiesen wurde.
 
 * Beim Konvertieren eines Problems werden die Berechtigungen für die ursprünglichen Probleme nicht an das konvertierte Objekt (Aufgabe oder Projekt) übertragen.
 
-* Beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch an das neue Projekt übertragen werden. Weitere Informationen finden Sie im Abschnitt [Überblick über Projektfelder beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel.
-* Beim Konvertieren eines Problems werden nicht alle Dokumente oder deren Informationen in das neue Objekt verschoben, in das das Problem konvertiert wird. Die folgenden Elemente sind enthalten, wenn Sie ein Problem konvertieren, an das Dokumente oder Dokumentlinks angehängt sind:
+* Wenn ein Problem mithilfe einer Vorlage in ein Projekt konvertiert wird, werden die meisten Informationen aus der Vorlage an das neue Projekt übertragen. Einige Informationen aus dem Problem können jedoch auch auf das neue Projekt übertragen werden. Weitere Informationen finden Sie im Abschnitt [Übersicht über Projektfelder beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage](#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template) in diesem Artikel.
+* Beim Konvertieren eines Problems werden nicht alle Dokumente oder deren Informationen in das neue Objekt verschoben, in das das Problem konvertiert wird. Die folgenden Elemente sind enthalten, wenn Sie ein Problem konvertieren, an das Dokumente oder Dokument-Links angehängt sind:
 
    * Dokument
-   * Dokumentieren Sie Links zu Drittanbieterdiensten, z. B. Google Drive oder SharePoint.
+   * Dokument-Links zu Services von Drittanbietern, wie Google Drive oder SharePoint.
    * Versionen
-   * Testsendungen werden nur berücksichtigt, wenn die Option **Das ursprüngliche Problem beibehalten und seine Lösung mit dieser Aufgabe verknüpfen** deaktiviert ist.
-   * Dokumentgenehmigungen sind nicht enthalten, wenn Sie ein Problem konvertieren, an das Dokumente und Dokumentverknüpfungen angehängt sind.
+   * Korrekturabzüge werden nur einbezogen, wenn die Option **Ursprüngliches Problem beibehalten und seine Lösung mit dieser Aufgabe verknüpfen** nicht ausgewählt ist.
+   * Dokumentgenehmigungen werden nicht einbezogen, wenn Sie ein Problem konvertieren, an das Dokumente und Dokument-Links angehängt sind.
 
-* Wenn Sie beschlossen haben, das Problem in der Konvertierung beizubehalten und Dokumente angehängt sind, werden das Dokument und seine Versionen in das Projekt oder die Aufgabe kopiert. Die Testsendungen und Dokumentgenehmigungen werden nicht in das Projekt oder die Aufgabe kopiert.
-* Wenn Sie beschlossen haben, das Problem nicht in der Konvertierung zu belassen und Dokumente angehängt sind, werden das Dokument, die Versionen und die Testsendungen an das Projekt oder die Aufgabe übertragen. Die Dokumentgenehmigungen werden nicht an das Projekt oder die Aufgabe übertragen.
+* Wenn Sie sich entschieden haben, das Problem bei der Konvertierung zu belassen und ihm Dokumente beigefügt sind, werden das Dokument und seine Versionen in das Projekt oder die Aufgabe kopiert. Die Korrekturabzüge und Dokumentgenehmigungen werden nicht in das Projekt oder die Aufgabe kopiert.
+* Wenn Sie sich dafür entschieden haben, das Problem nicht in der Konvertierung zu belassen und ihm Dokumente beigefügt sind, werden das Dokument, seine Versionen und die Korrekturabzüge an das Projekt oder die Aufgabe übertragen. Die Dokumentengenehmigungen werden nicht auf das Projekt oder die Aufgabe übertragen.
 * Wenn Sie Dokumente und Ordner haben, die mit dem ursprünglichen Problem von Drittanbieterdiensten wie Google Drive verknüpft sind, unabhängig davon, ob Sie das Problem während der Konvertierung beibehalten oder nicht, werden diese Links in das neue Objekt kopiert.
-* Problemkommentare werden auch in die Aufgabe oder das Projekt kopiert, die/das aus dem Problem konvertiert wurde, aber getaggte Benutzer werden nicht übertragen.
-* Wenn Sie benutzerdefinierte Formulardaten von einem Problem an das Projekt oder die Aufgabe übertragen möchten, in das/die Sie konvertieren, stellen Sie sicher, dass Sie über ein benutzerdefiniertes Projekt- oder Aufgabenformular verfügen, das dieselben Felder enthält, die Sie von dem Problem übertragen möchten. Weitere Informationen finden Sie unter [Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
+* Problemkommentare werden auch in die Aufgabe oder das Projekt kopiert, die bzw. das aus dem Problem konvertiert wurde, getaggte Benutzende werden jedoch nicht übertragen.
+* Wenn Sie benutzerdefinierte Formularinformationen von dem Problem an das Projekt oder die Aufgabe übertragen möchten, in das bzw. die Sie sie konvertieren, stellen Sie sicher, dass Sie über ein benutzerdefiniertes Projekt oder eine Aufgabe verfügen, das bzw. die dieselben Felder enthält, die Sie auch von dem Problem übertragen möchten. Weitere Informationen finden Sie unter [Übertragen von benutzerdefinierten Formulardaten beim Konvertieren eines Objekts](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/transfer-custom-form-data-larger-item.md).
 
-## Übersicht über die Projektfelder bei der Konvertierung eines Problems in ein Projekt mithilfe einer Vorlage {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
+## Übersicht über Projektfelder beim Konvertieren eines Problems in ein Projekt mithilfe einer Vorlage {#overview-of-project-fields-when-converting-an-issue-to-a-project-using-a-template}
 
-Beim Konvertieren eines Problems in ein Projekt können Sie es entweder in ein leeres Projekt konvertieren oder eine Vorlage verwenden.
+Wenn Sie ein Problem in ein Projekt konvertieren, können Sie es entweder in ein leeres Projekt konvertieren oder eine Vorlage verwenden.
 
 Weitere Informationen finden Sie unter [Konvertieren eines Problems in ein Projekt in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md).
 
-Bei Verwendung einer Vorlage werden einige Felder, die in der Vorlage ausgefüllt sind, an das aus dem konvertierten Problem erstellte Projekt übertragen. Andere Felder werden vom konvertierten Problem an das Projekt übertragen.
+Wenn Sie eine Vorlage verwenden, werden einige Felder, die in der Vorlage ausgefüllt sind, an das aus dem konvertierten Problem erstellte Projekt übertragen. Andere Felder werden von dem konvertierten Problem an das Projekt übertragen.
 
-In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie von der Vorlage oder aus dem Problem übertragen werden:
+In der folgenden Tabelle sind die Projektinformationen aufgeführt und es wird angegeben, ob sie von der Vorlage oder von der Anfrage übertragen werden:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,21 +74,21 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
  <tbody> 
   <tr> 
    <td>Beschreibung</td> 
-   <td> <p>Die Beschreibung der Ausgabe wird an das neue Projekt übertragen. </p> <p> Wenn es keine Beschreibung zum Problem gibt, wird die Beschreibung aus der Vorlage an das Projekt übertragen. </p> <p>Wenn das Feld Beschreibung sowohl für das Problem als auch für die Vorlage leer ist, ist das Feld im Projekt leer. </p> </td> 
+   <td> <p>Die Beschreibung des Problems wird auf das neue Projekt übertragen. </p> <p> Wenn keine Beschreibung des Problems vorhanden ist, wird die Beschreibung aus der Vorlage in das Projekt übertragen. </p> <p>Wenn das Beschreibungsfeld sowohl für das Problem als auch für die Vorlage leer ist, ist das Feld im Projekt leer. </p> </td> 
   </tr> 
   <tr> 
    <td>Status</td> 
-   <td>Standardstatus, der für die Gruppe in der Vorlage ausgewählt wird. Wenn die Vorlage nicht mit der Gruppe verknüpft ist, wird der Projektstatus vom Workfront-Administrator im Bereich "Projekteinstellungen"des Setups auf den Standardstatus festgelegt. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projekteigenschaften konfigurieren</a>.</td> 
+   <td>Für die Gruppe in der Vorlage ausgewählter Standardstatus. Wenn die Vorlage nicht mit der Gruppe verknüpft ist, wird der Projektstatus auf den Standardstatus gesetzt, den der Workfront-Administrator im Bereich Projektvoreinstellungen von Setup festgelegt hat. Weitere Informationen finden <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref"> unter „Systemweite Projektvoreinstellungen konfigurieren</a>.</td> 
   </tr> 
   <tr> 
    <td>Priorität</td> 
    <td><p>Übertragungen aus dem Problem.</p>
-   <p>Wenn Sie eine Vorlage für das konvertierte Projekt verwenden, können Sie die Priorität manuell ändern. Wenn Sie es nicht ändern möchten, wird die Priorität des Problems an das Projekt übertragen. 
+   <p>Wenn Sie eine Vorlage für das konvertierte Projekt verwenden, haben Sie die Möglichkeit, die Priorität manuell zu ändern. Wenn Sie die Anfrage nicht ändern möchten, wird die Priorität der Anfrage auf das Projekt übertragen. 
     </td> 
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td> <p>Die URL aus dem Problem wird an das neue Projekt übertragen. </p> <p> Wenn für das Problem keine URL angegeben ist, wird die URL aus der Vorlage an das Projekt übertragen. </p> <p>Wenn das Feld URL sowohl für das Problem als auch für die Vorlage leer ist, ist das Feld im Projekt leer. </p> </td> 
+   <td> <p>Die URL des Problems wird an das neue Projekt übertragen. </p> <p> Wenn für das Problem keine URL angegeben ist, wird die URL von der Vorlage an das Projekt übertragen. </p> <p>Wenn das URL-Feld sowohl für das Problem als auch für die Vorlage leer ist, ist das Feld im Projekt leer. </p> </td> 
   </tr> 
   <tr> 
    <td>Projektbedingungstyp</td> 
@@ -91,7 +96,7 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
   </tr> 
   <tr> 
    <td>Projektbedingung</td> 
-   <td>Entspricht den Standardeinstellungen auf Systemebene, die vom Workfront-Administrator im Bereich "Setup"festgelegt wurden. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte</a></td> 
+   <td>Entspricht der vom Workfront-Administrator im Bereich Setup festgelegten Standardeinstellung auf Systemebene. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-projects.md" class="MCXref xref">Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte</a></td> 
   </tr> 
   <tr> 
    <td>Planen ab</td> 
@@ -101,8 +106,8 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
    <td>Projekttermine</td> 
    <td> 
     <ul> 
-     <li> <p><b>Vorgesehenes Startdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planen von die Option Aus Abschluss ausgewählt ist. </p> </li> 
-     <li> <p><b>Vorgesehenes Abschlussdatum</b>: Die nächstgelegene Arbeitszeit, die auf der Arbeitszeit des Vorlagenzeitplans basiert, sollte entsprechend der Zeitzone des Zeitplans der Vorlage vorausgewählt werden. Dieses Feld ist deaktiviert, wenn im Feld Planung von die Option Von Start ausgewählt ist. </p> </li> 
+     <li> <p><b>Geplantes Startdatum</b>: Die auf der Arbeitszeit des Vorlagenplans basierende nächstgelegene Arbeitszeit sollte entsprechend der Zeitzone des Vorlagenplans vorab ausgewählt werden. Dieses Feld ist deaktiviert, wenn das Feld Zeitplan ab auf „Von Fertigstellung“ gesetzt ist. </p> </li> 
+     <li> <p><b>Geplantes Abschlussdatum</b>: Die auf der Arbeitszeit des Vorlagenplans basierende nächstgelegene Arbeitszeit sollte entsprechend der Zeitzone des Vorlagenplans vorausgewählt werden. Dieses Feld ist deaktiviert, wenn das Feld „Zeitplan ab“ auf „Von Start“ gesetzt ist. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -115,10 +120,10 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
   </tr> 
   <tr> 
    <td>Gruppe</td> 
-   <td><p> Die folgenden Szenarien existieren:</p>
-     <ul><li>Wenn während der Konvertierung eine Gruppe angegeben wird, wird dies zur Gruppe des Projekts</li>
-     <li>Wenn Sie mithilfe einer Vorlage in ein Projekt konvertieren und sich in der Vorlage eine Gruppe befindet und während der Konvertierung keine Gruppe angegeben wird, wird die Gruppe der Vorlage zur Gruppe des neuen Projekts</li>
-      <li> Wenn keine Gruppe in der Vorlage vorhanden ist und Sie während der Konvertierung keine Gruppe angeben, wird die Gruppe des Projekts des ursprünglichen Problems zur Gruppe des neuen Projekts</li> </ul>
+   <td><p> Die folgenden Szenarien sind vorhanden:</p>
+     <ul><li>Wenn während der Konvertierung eine Gruppe angegeben wird, wird diese zur Gruppe des Projekts</li>
+     <li>Wenn Sie mithilfe einer Vorlage in ein Projekt konvertieren und die Vorlage eine Gruppe enthält und Sie während der Konvertierung keine Gruppe angeben, wird die Gruppe der Vorlage zur Gruppe des neuen Projekts</li>
+      <li> Wenn in der Vorlage keine Gruppe vorhanden ist und Sie während der Konvertierung keine Gruppe angeben, wird die Gruppe des Projekts der ursprünglichen Anfrage zur Gruppe des neuen Projekts</li> </ul>
       </td> 
   </tr> 
   <tr> 
@@ -128,11 +133,11 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
 </tr> 
   <tr> 
    <td>Projektbesitzer</td> 
-   <td>Übertragungen aus dem Feld Vorlageneigentümer in der Vorlage. Andernfalls wird er auf den angemeldeten Benutzer festgelegt, der die Konvertierung durchführt. </td> 
+   <td>Übertragungen aus dem Feld Vorlagenbesitzer in der Vorlage. Andernfalls wird sie auf den angemeldeten Benutzer festgelegt, der die Konvertierung durchführt. </td> 
   </tr> 
   <tr> 
    <td>Projektsponsor</td> 
-   <td>Übertragungen aus dem Feld "Vorlagen-Sponsor"auf der Vorlage. Andernfalls ist dieses Feld leer.</td> 
+   <td>Übertragungen aus dem Feld Vorlagen-Sponsor auf der Vorlage. Andernfalls ist dieses Feld leer.</td> 
   </tr> 
   <tr> 
    <td>Ressourcenmanager</td> 
@@ -140,19 +145,19 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
   </tr> 
   <tr> 
    <td>Einstellungen für die Aufgabe</td> 
-   <td>Aus der Vorlage übertragen.</td> 
+   <td>Übertragung aus der Vorlage.</td> 
   </tr> 
   <tr> 
    <td>Problemeinstellungen</td> 
-   <td>Aus der Vorlage übertragen. </td> 
+   <td>Übertragung aus der Vorlage. </td> 
   </tr> 
   <tr> 
    <td>Zugriff</td> 
-   <td> <p>Übertragungen aus dem Bereich Zugriff auf der Vorlage. </p> </td> 
+   <td> <p>Übertragungen aus dem Abschnitt Zugriff auf die Vorlage. </p> </td> 
   </tr> 
   <tr> 
    <td>Genehmigungen</td> 
-   <td>Aus der Vorlage übertragen. Die mit dem Problem verknüpften Genehmigungen werden während der Konvertierung entfernt. </td> 
+   <td>Übertragung aus der Vorlage. Die mit dem Problem verbundenen Genehmigungen werden während der Konvertierung entfernt. </td> 
   </tr> 
  </tbody> 
 </table>
@@ -233,19 +238,19 @@ In der folgenden Tabelle sind die Projektinformationen aufgeführt und ob sie vo
 </div>
 -->
 
-## Originalinformationen zu Problemen in Projekten und Aufgaben anzeigen {#view-original-issue-information-on-projects-and-tasks}
+## Anzeigen der ursprünglichen Anfrageinformationen zu Projekten und Aufgaben {#view-original-issue-information-on-projects-and-tasks}
 
-Sie können die ursprünglichen Probleminformationen in Projekt- und Aufgabenlisten und Berichten oder im Bereich Projektdetails anzeigen. Informationen zum Erstellen von Berichten finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Sie können die ursprünglichen Anfrageinformationen in Projekt- und Aufgabenlisten und Berichten oder im Bereich Projektdetails anzeigen. Informationen zum Erstellen von Berichten finden Sie [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 Die folgende Tabelle zeigt, welche Problemfelder in den konvertierten Projekten und Aufgaben sichtbar sind.
 
-| Problemfelder | Projekt- oder Aufgabenfeld | Projektliste oder Bericht | Bereich &quot;Projektdetails&quot; | Aufgabenliste oder Bericht | Bereich &quot;Aufgabendetails&quot; |
+| Anfragefelder | Projekt- oder Aufgabenfeld | Projektliste oder Bericht | Bereich „Projektdetails“ | Aufgabenliste oder Bericht | Aufgabendetailbereich |
 |---|---|---|---|---|---|
-| Name des Problems | Name des konvertierten Problems | ms | ms | ms | ms |
-| Hauptansprechpartner | Name des konvertierten Emittenten | ms | `✔` | ms |  |
-| Eingabedatum | Problem-Eingabedatum konvertiert | ms |  | ms |  |
+| Name des Problems | Name des konvertierten Problems | ✔ | ✔ | ✔ | ✔ |
+| Hauptansprechpartner | Name des Urhebers des konvertierten Problems | ✔ | `✔` | ✔ |  |
+| Eingabedatum | Problem-Eingabedatum konvertiert | ✔ |  | ✔ |  |
 
 
 >[!CAUTION]
 >
->Wenn sich der Primäre Kontakt eines Problems ändert oder wenn die Verknüpfung des Problems mit dem Projekt oder der Aufgabe aufgehoben wird, nachdem das Problem konvertiert wurde, wird der Name des konvertierten Emittenten nicht aktualisiert und der ursprüngliche Primäre Kontakt des Problems wird zum Zeitpunkt der Konvertierung des Problems angezeigt.
+>Wenn sich der Primäre Kontakt eines Problems ändert oder die Verknüpfung des Problems mit dem Projekt oder der Aufgabe nach der Konvertierung des Problems aufgehoben wird, wird der Name des konvertierten Problemverursachers nicht aktualisiert und der ursprüngliche Primäre Kontakt des Problems zum Zeitpunkt der Konvertierung des Problems wird angezeigt.

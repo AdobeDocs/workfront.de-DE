@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '2114'
+source-wordcount: '2182'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,18 @@ In diesem Artikel werden die Funktionen beschrieben, die in der ersten Version d
 
 Eine Liste aller Funktionen, die nach der allgemeinen Verfügbarkeitsversion vom 28. August 2024 für Adobe Workfront Planning veröffentlicht wurden, finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
+
+## Verbindungsfelder mit Adobe Experience Manager-Assets werden jetzt in Anfrageformularen unterstützt
+
+>[!NOTE]
+>
+>Vorschau-Version: 20. Dezember 2024; Produktionsversion für alle Kunden: 16. Januar 2025
+
+In Workfront Planning können Sie jetzt Verbindungsfelder mit AEM-Assets zu einem Datensatztyp-Anfrageformular hinzufügen.
+
+Vor dieser Verbesserung konnten diese Feldtypen nicht zu Anfrageformularen hinzugefügt werden.
+
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 ## Konfigurieren von Validierungen für Workfront-Planungsanfragen
 

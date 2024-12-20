@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
+source-git-commit: 046bbabbfe3944d9fea9008ac60547b602f95f68
 workflow-type: tm+mt
-source-wordcount: '14747'
+source-wordcount: '14757'
 ht-degree: 2%
 
 ---
@@ -918,7 +918,7 @@ ht-degree: 2%
    * Startseite {#home}
       * [Startseite](workfront-basics/using-home/home.md)
       * Verwenden des Bereichs „Startseite“ {#use-home-area}
-         * [Home-Bereich verwenden](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+         * [Home-Bereich verwenden: Artikelindex](workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
          * [Erste Schritte mit der Startseite](workfront-basics/using-home/using-the-home-area/get-started-with-home.md)
          * [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md)
          * [Elemente in der Arbeitsliste im Startseiten-Bereich anzeigen](workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md)
@@ -1038,7 +1038,7 @@ ht-degree: 2%
          * [Tipps, Tricks und Fehlerbehebung für Adobe Workfront Mobile Apps](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/tips-tricks-and-troubleshooting-mobile.md)
          * [Fehlermeldung in der Adobe Workfront Mobile App: „Ihr Konto ist nicht API-fähig.](workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
    * Tipps, Tricks und Fehlerbehebung für Adobe Workfront Basics {#tips-tricks-for-basics}
-      * [Tipps, Tricks und Fehlerbehebung für Adobe Workfront Basics](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
+      * [Tipps, Tricks und Fehlerbehebung für Adobe Workfront: Artikelindex](workfront-basics/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-basics.md)
       * [Ihre Kurzanleitung zum Suchen von Hilfe in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/guide-for-help-in-workfront.md)
       * [Ändern des Datumsformats in Adobe Workfront](workfront-basics/tips-tricks-and-troubleshooting/change-date-format-chrome.md)
       * [Kunden-Support kontaktieren](workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md)
@@ -1049,7 +1049,8 @@ ht-degree: 2%
       * [Fehlerbehebung bei Workfront Proof Manager-Berechtigungen](workfront-basics/tips-tricks-and-troubleshooting/wp-manager-permissions-troubleshooting.md)
       * [Filterschaltflächen werden nicht in Seitenüberschriften angezeigt](workfront-basics/tips-tricks-and-troubleshooting/filter-buttons-do-not-display-in-page-headers.md)
       * [Projekte, an denen ich arbeite, enthalten unerwartete Ergebnisse](workfront-basics/tips-tricks-and-troubleshooting/projects-im-on-filter-including-unexpected-results.md)
-      * [Mehrere Browser-Registerkarten führen dazu, dass sich Workfront abmeldet](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [Mehrere Browser-Registerkarten führen dazu, dass sich Workfront abmeldet](workfront-basics/tips-tricks-and-troubleshooting/multiple-browser-tabs-cause-logout.md)
+      * [Freigeben von Objekten ohne Generieren von Benachrichtigungen](workfront-basics/tips-tricks-and-troubleshooting/how-to-share-objects-without-sending-out-notifications.md)
 * Agile {#agile}
    * [Agile](agile/agile.md)
    * [Pinnwände - Übersicht](agile/boards-overview.md)

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
 workflow-type: tm+mt
-source-wordcount: '1557'
+source-wordcount: '1553'
 ht-degree: 2%
 
 ---
@@ -150,13 +150,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >    * Erstellungsdatum und Datum der letzten Änderung
    >    * Suchfelder der Workfront-Objekte
    >    * Suchfelder für verknüpfte Datensätze in Workfront
-   >    * Verbundene AEM Assets-Felder
    >* Felder der folgenden Typen werden im Anfrageformular in der Produktionsumgebung nicht angezeigt. <span class="preview">Sie werden in der Vorschau-Umgebung angezeigt:</span>
    >    * <span class="preview"> verbundenen Felder von Workfront Planning-Datensätzen</span>
    >    * <span class="preview">Personen </span>
    >    * Verbundene Felder von <span class="preview">Workfront-Objekten</span>
    >    * <span class="preview">Mit AEM Assets verbundene Felder </span>
-
 
    * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anfrageformular anwendet. Der Standardabschnitt kann nicht umbenannt oder entfernt werden.
    * **Betreff** Feld: Das Feld, das die Anfrage in Workfront identifiziert. Diese Funktion ist in der Produktionsumgebung noch nicht verfügbar. <span class="preview">Es ist in der Vorschau-Umgebung verfügbar.</span> Die Konfiguration und der Wert des Felds Betreff können nicht bearbeitet werden.
