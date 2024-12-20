@@ -1,19 +1,19 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Projekt- und Aufgabendetails in der Prioritätenarbeitsliste anzeigen
+title: Projekt- und Arbeitsaufgabendetails in der Prioritäts-Arbeitsliste anzeigen
 description: Sie können Projekt- und Aufgabendetails in der Prioritäts-Arbeitsliste anzeigen.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: 5e33bdb50b2f283606d3a7a74edaec701de60bca
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '395'
-ht-degree: 2%
+source-wordcount: '401'
+ht-degree: 1%
 
 ---
 
-# Projekt- und Aufgabendetails in Prioritäten anzeigen
+# Projekt- und Arbeitselementdetails in Prioritäten anzeigen
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
@@ -80,13 +80,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Arbeitsnamen und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung öffnen](assets/summary-icon.png).
 1. Aufgabe ist standardmäßig ausgewählt. Hier können Sie
-   * Projektdetails und -beschreibungen anzeigen und bearbeiten
+   * Projekt- und Aufgabendetails und Beschreibung anzeigen und bearbeiten
    * Anzeigen und Hinzufügen von Kommentaren zum Projekt
    * <span class="preview">Dokumente anzeigen und hinzufügen</span>
    * <span class="preview">Erstellen eines Korrekturabzugs</span>
    * Zeit erfassen
    * Datei hinzufügen
    * Schnellverknüpfungen hinzufügen
+
 
    ![Aufgabendetails](assets/task-details.png)
    <!--new screen for prod ![](assets/task-details-new.png)-->
@@ -97,7 +98,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Bewegen Sie in der Arbeitsliste den Mauszeiger über den Arbeitsnamen und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung öffnen](assets/summary-icon.png).
 1. Problem ist standardmäßig ausgewählt. Hier können Sie
-   * Projektdetails und -beschreibungen anzeigen und bearbeiten
+   * Projekt- und Problemdetails und -beschreibung anzeigen und bearbeiten
    * Anzeigen und Hinzufügen von Kommentaren zum Projekt
 * <span class="preview">Dokumente anzeigen und hinzufügen</span>
 * <span class="preview">Erstellen eines Korrekturabzugs</span>

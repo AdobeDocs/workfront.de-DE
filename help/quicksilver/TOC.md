@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 8706a099b3f8111d78c3625ac1fce02cfbe07452
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '14733'
+source-wordcount: '14741'
 ht-degree: 2%
 
 ---
@@ -904,7 +904,7 @@ ht-degree: 2%
       * [Prioritäten: Artikelindex](workfront-basics/priorities/priorities-toc.md)
       * [Prioritäten: Bevorstehende Versionen](workfront-basics/priorities/priorities-upcoming-releases.md)
       * [Erste Schritte mit Prioritäten](workfront-basics/priorities/get-started-with-priorities.md)
-      * [Projekt- und Aufgabendetails in Prioritäten anzeigen](workfront-basics/priorities/view-task-project-details.md)
+      * [Projekt- und Arbeitselementdetails in Prioritäten anzeigen](workfront-basics/priorities/view-task-project-details.md)
       * [Filtern und Gruppieren Ihrer Arbeit in „Prioritäten“](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md)
       * [Anpassen der Arbeitslistenspalten](/help/quicksilver/workfront-basics/priorities/customize-worklist-columns.md)
       * [Wichtige Arbeitselemente priorisieren](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md)
@@ -914,6 +914,7 @@ ht-degree: 2%
       * [Hochladen von Dateien in den Prioritäten](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md)
       * [Hinzufügen und Verwalten von Schnellverknüpfungen in Prioritäten](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md)
       * [Hochladen von Dokumenten und Erstellen von Testsendungen in „Prioritäten“](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md)
+      * [Arbeiten im Prioritätskalender verwalten](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md)
    * Startseite {#home}
       * [Startseite](workfront-basics/using-home/home.md)
       * Verwenden des Bereichs „Startseite“ {#use-home-area}

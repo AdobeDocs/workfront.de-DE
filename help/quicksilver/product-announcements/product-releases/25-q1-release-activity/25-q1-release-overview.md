@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '2295'
+source-wordcount: '2306'
 ht-degree: 0%
 
 ---
@@ -267,7 +267,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Hochladen und Anzeigen von Dokumenten und Testsendungen in den Prioritäten</a></p>
-            <p>Sie können jetzt mit Dokumenten und Testsendungen für Aufgaben und Probleme interagieren. Auf der neuen Registerkarte Dokumente haben Sie folgende Möglichkeiten</p>
+            <p>Sie können jetzt mit Dokumenten und Korrekturabzügen für Aufgaben und Probleme in der Arbeitsliste und im Kalender interagieren. Auf der neuen Registerkarte Dokumente haben Sie folgende Möglichkeiten</p>
             <ul>
                 <li>Hochladen eines Dokuments</li>
                 <li>Erstellen eines Korrekturabzugs</li>
@@ -287,11 +287,11 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Kalenderansicht jetzt in Prioritäten verfügbar</a></p>
-            <p>Verfolgen Sie Ihre Arbeit einfach mit einem klaren, visuellen Monatskalender. Mit dem Prioritätskalender können Sie</p>
+            <p>Sie können Ihre Arbeit mit einem klaren, visuellen Monatskalender verfolgen. Mit dem Prioritätskalender können Sie</p>
             <ul>
                 <li>Verwenden von Filtern, um Ihre Arbeit zu finden</li>
-                <li>Anzeigen von Feldern wie Status und Fokusebene</li>
-                <li>Farben für schnelle Priorisierung anwenden</li>
+                <li>Anwenden benutzerdefinierter Felder wie Status und Fokusebene zur Identifizierung von Arbeiten mit hoher Priorität</li>
+                <li>Farben für schnelle Organisation anwenden</li>
                 <li>Und mehr</li>
             </ul>
         </td>

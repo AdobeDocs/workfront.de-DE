@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
 workflow-type: tm+mt
-source-wordcount: '571'
+source-wordcount: '604'
 ht-degree: 1%
 
 ---
@@ -48,14 +48,14 @@ Weitere Informationen finden Sie unter [Anzeigen von Projekt- und Aufgabendetail
 >
 >Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
 
-Sie können jetzt mit Dokumenten und Testsendungen für Aufgaben und Probleme interagieren. Auf der neuen Registerkarte Dokumente haben Sie folgende Möglichkeiten
+Sie können jetzt mit Dokumenten und Korrekturabzügen für Aufgaben und Probleme in der Arbeitsliste und im Kalender interagieren. Auf der neuen Registerkarte Dokumente haben Sie folgende Möglichkeiten
 
 * Hochladen eines Dokuments
 * Erstellen eines Korrekturabzugs
 * Proofing Viewer starten
 * Und mehr
 
-<!--For more information, see [Upload Documents and create proofs in Priorities](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).-->
+Weitere Informationen finden Sie unter [Dokumente hochladen und Testsendungen in Prioritäten erstellen](/help/quicksilver/workfront-basics/priorities/documents-and-proofs-priorities.md).
 
 ## Kalenderansicht jetzt in Prioritäten verfügbar
 
@@ -63,12 +63,14 @@ Sie können jetzt mit Dokumenten und Testsendungen für Aufgaben und Probleme in
 >
 >Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
 
-Verfolgen Sie Ihre Arbeit einfach mit einem klaren, visuellen Monatskalender. Mit dem Prioritätskalender können Sie
+Jetzt können Sie Ihre Arbeit mit einem klaren, visuellen Kalender verfolgen. Mit dem Prioritätskalender können Sie
 
 * Verwenden von Filtern, um Ihre Arbeit zu finden
-* Anzeigen von Feldern wie Status und Fokusebene
-* Farben für schnelle Priorisierung anwenden
+* Anwenden benutzerdefinierter Felder wie Status und Fokusebene zur Identifizierung von Arbeiten mit hoher Priorität
+* Farben für schnelle Organisation anwenden
 * Und mehr
+
+Weitere Informationen finden Sie unter [Verwalten Ihrer Arbeit im Prioritätskalender](/help/quicksilver/workfront-basics/priorities/calendar-priorities.md).
 
 ## Aktualisierungen der Arbeitsliste „Prioritäten“
 
