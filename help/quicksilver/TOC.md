@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: fe41b9209d4034e6685db313c8cbfef9c13eda28
 workflow-type: tm+mt
-source-wordcount: '14741'
+source-wordcount: '14747'
 ht-degree: 2%
 
 ---
@@ -1850,7 +1850,8 @@ ht-degree: 2%
       * [Gesendete Genehmigungen zurückrufen](review-and-approve-work/manage-approvals/recall-submitted-approvals.md)
    * {#document-reviews-and-approvals} zur Überprüfung und Genehmigung von Assets und Dokumenten
       * [Prüfung und Genehmigung von Assets und Dokumenten: Artikelindex](review-and-approve-work/document-reviews-and-approvals/document-reviews-and-approvals.md)
-      * [Übersicht über Dokumentengenehmigungen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
+      * [Übersicht über Asset- und Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/asset-review-and-approval.md)
+      * [Übersicht über neue Dokumentgenehmigungen](review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md)
       * [Dokumentieren des Entscheidungsstatus - Übersicht](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md)
       * Einrichten und Verwalten von Asset- und Dokumentengenehmigungen {#manage-asset-review-and-approval}
          * [Asset- und Dokumentengenehmigungen einrichten und verwalten: Artikelindex](review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/set-up-and-manage-doc-asset-approvals-toc.md)
