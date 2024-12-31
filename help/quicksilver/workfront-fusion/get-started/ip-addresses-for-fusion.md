@@ -15,46 +15,46 @@ ht-degree: 0%
 
 ---
 
-# IP-Adressen für den Zugriff auf [!DNL Adobe Workfront Fusion]
+# IP-Adressen für den [!DNL Adobe Workfront Fusion]
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
+>[!DNL Adobe Workfront Fusion] benötigt zusätzlich zu einer [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion].
 
-Wenn Ihre Firewall- oder Mailserver so konfiguriert ist, dass nur bestimmte Anbieter Zugriff haben, müssen Sie bestimmte IP-Adressen zu ihrer Zulassungsliste hinzufügen, um eine offene Kommunikation zwischen Ihrer Umgebung und [!DNL Adobe Workfront Fusion] zu ermöglichen.
+Wenn Ihre Firewall oder Ihr Mail-Server so konfiguriert ist, dass nur bestimmte Anbieter Zugriff haben, müssen Sie bestimmte IP-Adressen zu seiner Zulassungsliste hinzufügen, um eine offene Kommunikation zwischen Ihrer Umgebung und [!DNL Adobe Workfront Fusion] zu ermöglichen.
 
-Sie können alle Fusion-IP-Adressen und Domänen zu Ihrer Zulassungsliste hinzufügen oder Sie finden Ihren Fusion-Cluster und fügen nur die IP-Adressen und Domänen für diesen Cluster hinzu.
+Sie können alle IP-Adressen und Domains von Fusion zu Ihrer Zulassungsliste hinzufügen oder Ihren Fusion-Cluster suchen und nur die IP-Adressen und Domains für diesen Cluster hinzufügen.
 
-## Alle Fusion-IP-Adressen und -Domänen hinzufügen
+## Alle IP-Adressen und Domains von Fusion hinzufügen
 
 Fügen Sie Ihrer Zulassungsliste die folgenden IP-Adressen hinzu:
 
-* 52 30 133 50
-* 54 220 93 204
-* 34 254 76 122
-* 54 244 142 219
-* 52 39 217 230
-* 44 241 82 96
-* 100 20 126 137
-* 34 223 32 44
-* 52 39 176 220
+* 52.30.133.50
+* 54.220.93.204
+* 34.254.76.122
+* 54.244.142.219
+* 52.39.217.230
+* 44.241.82.96
+* 100.20.126.137
+* 34.223.32.4
+* 52.39.176.220
 * 20.36.133.48/28
 * 20.81.156.240/28
 * 172.172.84.48/28
 
-Wenn Ihr Unternehmen die Filterung ausgehender Netzwerke verwendet, fügen Sie Ihrer Zulassungsliste die folgende Domäne hinzu, damit Ihr System auf Workfront Fusion zugreifen kann.
+Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie außerdem die folgende Domain zu Ihrer Zulassungsliste hinzu, damit Ihr System auf Workfront Fusion zugreifen kann.
 
 * hook.app.workfrontfusion.com
 * hook.app-eu.workfrontfusion.com
 * hook.app-az.workfrontfusion.com
 
-## Hinzufügen von Fusion-IP-Adressen und -Domänen nur für Ihren Cluster
+## Fügen Sie Fusion IP-Adressen und Domains nur für Ihren Cluster hinzu
 
-### Datenzentrum identifizieren
+### Identifizieren des Rechenzentrums
 
-Die IP-Adressen variieren je nachdem, wo Ihre Daten gespeichert sind.
+Die IP-Adressen variieren je nachdem, wo Ihre Daten gespeichert werden.
 
-Wenn Sie über eine URL auf Fusion zugreifen, können Sie die URL untersuchen, um Ihr Datenzentrum zu finden.
+Wenn Sie über eine URL auf Fusion zugreifen, können Sie die URL überprüfen, um Ihr Rechenzentrum zu finden.
 
 | URL | Rechenzentrum |
 | --- | --- |
@@ -62,17 +62,17 @@ Wenn Sie über eine URL auf Fusion zugreifen, können Sie die URL untersuchen, u
 | `https://app-eu.workfrontfusion.com/` | EU-Rechenzentrum |
 | `https://app-az.workfrontfusion.com/` | Azure-Rechenzentrum |
 
-Wenn Sie über experience.adobe.com auf Fusion zugreifen, können Sie auf der Registerkarte &quot;Netzwerk&quot;in Ihrem Browser das Rechenzentrum identifizieren.
+Wenn Sie über experience.adobe.com auf Fusion zugreifen, können Sie die Registerkarte Netzwerk in Ihrem Browser überprüfen, um das Rechenzentrum zu identifizieren.
 
 | URL | Rechenzentrum |
 | --- | --- |
-| Aufrufe von `https://fusion.adobe.com` | US-Rechenzentrum |
-| Aufrufe von `https://eu.fusion.adobe.com` | EU-Rechenzentrum |
-| Aufrufe von `https://az.fusion.adobe.com` | Azure-Rechenzentrum |
+| Aufrufe an `https://fusion.adobe.com` | US-Rechenzentrum |
+| Aufrufe an `https://eu.fusion.adobe.com` | EU-Rechenzentrum |
+| Aufrufe an `https://az.fusion.adobe.com` | Azure-Rechenzentrum |
 
-### Hinzufügen von IP-Adressen und Domänen für Ihr Rechenzentrum
+### Hinzufügen von IP-Adressen und Domains für Ihr Rechenzentrum
 
-Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um [!DNL Workfront Fusion] für den Zugriff auf Ihr System zu aktivieren.
+Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um [!DNL Workfront Fusion] den Zugriff auf Ihr System zu ermöglichen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,21 +82,21 @@ Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um [!DNL Wo
    <td role="rowheader">[!DNL Adobe Workfront] EU-Rechenzentrum</td> 
    <td> 
     <ul> 
-     <li>52 30 133 50</li> 
-     <li>54 220 93 204</li> 
-     <li>34 254 76 122</li> 
+     <li>52.30.133.50</li> 
+     <li>54.220.93.204</li> 
+     <li>34.254.76.122</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>[!DNL Adobe Workfront] US-Rechenzentrum</p> </td> 
    <td> 
     <ul> 
-     <li>54 244 142 219</li> 
-     <li>52 39 217 230</li> 
-     <li>44 241 82 96</li>
-     <li>100 20 126 137</li>
-     <li>34 223 32 44</li>
-     <li>52 39 176 220</li>
+     <li>54.244.142.219</li> 
+     <li>52.39.217.230</li> 
+     <li>44.241.82.96</li>
+     <li>100.20.126.137</li>
+     <li>34.223.32.4</li>
+     <li>52.39.176.220</li>
     </ul> </td> 
   </tr> 
   <tr> 
@@ -111,7 +111,7 @@ Fügen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzu, um [!DNL Wo
  </tbody> 
 </table>
 
-Wenn Ihr Unternehmen die Filterung ausgehender Netzwerke verwendet, fügen Sie Ihrer Zulassungsliste die folgende Domäne hinzu, damit Ihr System auf Workfront Fusion zugreifen kann.
+Wenn Ihr Unternehmen ausgehende Netzwerkfilter verwendet, fügen Sie außerdem die folgende Domain zu Ihrer Zulassungsliste hinzu, damit Ihr System auf Workfront Fusion zugreifen kann.
 
 <table style="table-layout:auto">
  <col> 
@@ -134,6 +134,6 @@ Wenn Ihr Unternehmen die Filterung ausgehender Netzwerke verwendet, fügen Sie I
 
 >[!NOTE]
 >
->Ausgehende Netzwerkfilter sind selten. Wenden Sie sich an Ihren Netzwerkadministrator, um zu sehen, ob Sie Ihre Zulassungsliste aktualisieren müssen, damit sie berücksichtigt werden kann.
+>Filterung ausgehender Netzwerke ist ungewöhnlich. Erkundigen Sie sich bei Ihrem Netzwerkadministrator, ob Sie Ihre Zulassungsliste aktualisieren müssen, um sie zu berücksichtigen.
 
-Weitere Informationen zum Einrichten der Zulassungsliste Ihres Unternehmens finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen zum Einrichten der Zulassungsliste Ihres Unternehmens finden Sie unter [Konfigurieren der Firewall-Zulassungsliste ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

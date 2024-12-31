@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: basecamp
-title: Testversand in [!DNL Basecamp] überprüfen
-description: Die Basecamp-Integration mit [!DNL Workfront Proof] erleichtert es Ihnen, Testsendungen zu überprüfen und zu genehmigen, ohne Basecamp zu verlassen.
+title: Überprüfen eines Korrekturabzugs in [!DNL Basecamp]
+description: Die Integration von Basecamp mit  [!DNL Workfront Proof] macht es Ihnen einfach, Korrekturabzüge zu überprüfen und zu genehmigen, ohne Basecamp zu verlassen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 355e6bfe-ae6d-4bac-a648-0e48cf945bb4
@@ -14,92 +14,92 @@ ht-degree: 0%
 
 ---
 
-# Testversand in [!DNL Basecamp] überprüfen
+# Überprüfen eines Korrekturabzugs in [!DNL Basecamp]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Die Integration von [!DNL Basecamp] mit [!DNL Workfront Proof] erleichtert Ihnen das Überprüfen und Genehmigen von Testsendungen, ohne [!DNL Basecamp] zu verlassen.
+Die [!DNL Basecamp] Integration mit [!DNL Workfront Proof] erleichtert Ihnen die Überprüfung und Genehmigung von Korrekturabzügen, ohne [!DNL Basecamp] verlassen zu müssen.
 
-Sie benötigen nicht einmal eine [!DNL Workfront Proof]-Anmeldung, um alle Überprüfungstools für Kommentare und Entscheidungen zu Testsendungen zu verwenden:
+Sie benötigen nicht einmal eine [!DNL Workfront Proof] Anmeldung, um alle Überprüfungs-Tools zu verwenden, um Kommentare abzugeben und Entscheidungen zu Korrekturabzügen zu treffen:
 
-* In Ihrem [!DNL Basecamp] -Konto erhalten Sie eine Nachricht mit dem Testversand, den Sie überprüfen können (über den Miniversand).
-* Sie können Kommentare und Markierungen hinzufügen und Entscheidungen für den minimierten Testversand treffen oder zum ganzseitigen Testversand wechseln, um ihn zu überprüfen.
-* Sie können die Kommentare und Markierungen der anderen validierungsverantwortlichen Benutzer anzeigen und darauf antworten
+* In Ihrem [!DNL Basecamp]-Konto erhalten Sie eine Nachricht, die den Korrekturabzug enthält, den Sie überprüfen können (über den Miniproof)
+* Sie können Kommentare und Markierungen hinzufügen und Entscheidungen über den MiniKorrekturabzug treffen oder zum Vollseiten-Korrekturabzug wechseln, um ihn zu überprüfen, falls Sie dies wünschen
+* Sie können die Kommentare und Markierungen der anderen Reviewer anzeigen und darauf reagieren.
 
-Informationen zu Entscheidungen finden Sie unter [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
-
->[!NOTE]
->
-> Wenn Sie kein Benutzer von [!DNL Workfront Proof] sind, können Sie weiterhin an dem Testversand in [!DNL Basecamp] arbeiten. Sie müssen lediglich Ihre E-Mail-Adresse und Ihren Bildschirmnamen eingeben. Sie können auch &quot;[!UICONTROL erinnern]&quot; wählen, damit Sie diese Details nur einmal eingeben müssen.
-
-## Anzeigen des Testversands über die Benachrichtigungs-E-Mail
-
-Wenn Sie einen neuen oder vorhandenen Testversand mit [!DNL Basecamp] verknüpfen, sendet [!DNL Workfront Proof] eine Benachrichtigungs-E-Mail zum Testversand an alle validierungsverantwortlichen Benutzer, die Folgendes enthalten:
-
-* Die Testversandnachricht (benutzerdefiniert oder Standard) (1)
-* Testversanddetails (2)
-* Persönliche URL (Gehe zu Testversand-Link) (3)
-* Link zur Projektnachricht &quot;[!DNL Basecamp]&quot;, mit der Sie direkt zum Testversand in [!DNL Basecamp] (4) gelangen\
-   Wenn Validierungsverantwortliche, die nicht [!DNL Basecamp] sind, zum Testversand hinzugefügt wurden, enthält ihre E-Mail-Benachrichtigung nicht den Link [!DNL Basecamp].
-* Fortschritte bei der Überprüfung (5)
-* Prüfer und ihr individueller Fortschritt (6)
+Weitere Informationen zu Entscheidungen finden Sie unter [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
 >[!NOTE]
 >
-> Wenn Sie keine [!DNL Basecamp] -Sitzung in einem anderen Browserfenster geöffnet haben, müssen Sie sich bei Ihrem [!DNL Basecamp] -Konto anmelden, bevor Sie die Nachricht in [!DNL Basecamp] sehen können.
+> Wenn Sie kein Benutzer von [!DNL Workfront Proof] sind, können Sie den Korrekturabzug dennoch in [!DNL Basecamp] bearbeiten. Sie müssen lediglich Ihre E-Mail-Adresse und den Namen des Bildschirms eingeben. Sie können auch &quot;[!UICONTROL mich erinnern] auswählen, sodass Sie diese Details nur einmal eingeben müssen.
+
+## Testversand über die Benachrichtigungs-E-Mail anzeigen
+
+Wenn Sie einen neuen oder vorhandenen Korrekturabzug mit [!DNL Basecamp] verknüpfen, senden [!DNL Workfront Proof] eine E-Mail mit einer Benachrichtigung zum Korrekturabzug an alle Validierungsverantwortlichen, die Folgendes enthält:
+
+* Testversandnachricht (benutzerdefiniert oder Standard) (1)
+* Details des Korrekturabzugs (2)
+* Persönliche URL (Link zum Korrekturabzug) (3)
+* Link zur [!DNL Basecamp]-Projektnachricht, um direkt zum Testversand in [!DNL Basecamp] (4) zu gelangen.\
+   Wenn dem Korrekturabzug nicht [!DNL Basecamp] Prüfende hinzugefügt wurden, enthält ihre E-Mail-Benachrichtigung nicht den [!DNL Basecamp] Link.
+* Testfortschritt (5)
+* Reviewer und ihr individueller Fortschritt (6)
+
+>[!NOTE]
+>
+> Wenn Sie keine [!DNL Basecamp] Sitzung in einem anderen Browser-Fenster geöffnet haben, müssen Sie sich bei Ihrem [!DNL Basecamp]-Konto anmelden, bevor Sie die Nachricht in [!DNL Basecamp] sehen können.
 
 ![Basecamp_ProofHQ_email_notification1__1_.png](assets/basecamp-proofhq-email-notification1--1--350x202.png)
 
-## Anzeigen des Testversands über die Meldung [!DNL Basecamp]
+## Testversand über die [!DNL Basecamp] anzeigen
 
-Wenn Sie eine E-Mail-Benachrichtigung über einen neuen Testversand erhalten, der Ihrem [!DNL Basecamp] -Projekt hinzugefügt wird:
+Wenn Sie eine E-Mail-Benachrichtigung über einen neuen Korrekturabzug erhalten, der zu Ihrem [!DNL Basecamp] Projekt hinzugefügt wurde:
 
 1. Navigieren Sie zu Ihrer Projektseite (1).
-1. Suchen Sie die Nachricht für Ihren Testversand (2).\
-   Die Seite mit der Nachricht enthält den Namen des Testversands (im Betreff) (3) und einen Link zum Vollbild-Proof-Viewer (4).
-1. ![basecamp_messages_1.png](assets/basecamp-messages-1-350x129.png)
+1. Nachricht für den Testversand suchen (2).\
+   Die Nachrichtenseite enthält den Namen des Korrekturabzugs (im Betreff) (3) und einen Link zur Vollbild-Korrekturabzugsansicht (4).
+1. ![Basecamp_messages_1.png](assets/basecamp-messages-1-350x129.png)
 
-1. Wenn Sie in einem Browser-Fenster bei Ihrem [!DNL Workfront Proof] -Konto angemeldet sind, können Sie sofort mit der Überprüfung beginnen. Wenn Ihr Name nicht in der unteren linken Ecke der minimierten Anzeige angezeigt wird:
-1. Klicken Sie auf **[!UICONTROL Anmelden]** (5).
-1. Geben Sie Ihre E-Mail-Adresse ein (Sie wurden zum Testversand hinzugefügt) (6).
-1. Klicken Sie auf **[!UICONTROL Weiter]** und geben Sie in ein zweites Feld, das angezeigt wird, Ihr [!DNL Workfront Proof] Kennwort (7) ein.\
-   Wenn Sie kein [!DNL Workfront Proof] -Konto haben, geben Sie einen öffentlichen Namen ein, der angezeigt werden soll.
+1. Wenn Sie in einem Ihrer Browser-Fenster bei Ihrem [!DNL Workfront Proof]-Konto eingeloggt sind, können Sie sofort mit der Überprüfung beginnen. Wenn Ihr Name in der linken unteren Ecke von miniproof nicht angezeigt wird:
+1. Klicken Sie **[!UICONTROL Anmelden]** (5).
+1. Geben Sie Ihre E-Mail-Adresse ein (die verwendet wurde, um Sie zum Testversand hinzuzufügen) (6).
+1. Klicken Sie **[!UICONTROL Weiter]** und geben Sie in einem zweiten Feld, das angezeigt wird, Ihr [!DNL Workfront Proof] Kennwort ein (7).\
+   Wenn Sie kein [!DNL Workfront Proof] Konto haben, geben Sie einen öffentlichen Namen ein, der angezeigt werden soll.
 
-1. Klicken Sie auf **[!UICONTROL Angaben speichern]** , damit Sie Ihre Details nur einmal eingeben müssen.\
-   Jetzt können Sie mit der Überprüfung des Testversands in [!DNL Basecamp] fortfahren.
+1. Klicken Sie **[!UICONTROL Merken]**, sodass Sie Ihre Daten nur einmal eingeben müssen.\
+   Jetzt sind Sie bereit, den Korrekturabzug in [!DNL Basecamp] zu überprüfen.
 
-## Überprüfen eines Testversands in [!DNL Basecamp]
+## Überprüfen eines Korrekturabzugs in [!DNL Basecamp]
 
-Die Überprüfung eines Testversands in [!DNL Basecamp] ist so einfach wie in [!DNL Workfront Proof]. Der miniproof in [!DNL Basecamp] bietet Ihnen alle Tools, die Sie benötigen, um Kommentare hinzuzufügen, zu markieren und Entscheidungen über den Testversand zu treffen.
+Die Überprüfung eines Korrekturabzugs in [!DNL Basecamp] ist genauso einfach wie in [!DNL Workfront Proof]. Der miniproof in [!DNL Basecamp] bietet Ihnen alle Tools, die Sie benötigen, um Kommentare und Markierungen hinzuzufügen und Entscheidungen über den Korrekturabzug zu treffen.
 
 ![Basecamp_message_window_with_miniproof.png](assets/basecamp-message-window-with-miniproof-350x406.png)
 
 * Ihr [!DNL Basecamp] Projektname (1)
-* Der Betreff der [!DNL Workfront Proof]-E-Mail-Benachrichtigung (2)
-* Direkter Link zum vollständigen Proof-Viewer (öffnet eine Vollbildansicht) (3)
-* Name und Version des Testversands (4)
+* Betreff der [!DNL Workfront Proof] E-Mail-Benachrichtigung (2)
+* Direkter Link zur vollständigen Korrekturabzugsansicht (öffnet eine vollständige Fensteransicht) (3)
+* Name und Version des Korrekturabzugs (4)
 * Aktionsmenüs (5)
-* Schaltfläche &quot;Vollbild&quot;(6)
+* Schaltfläche im Vollbildmodus (6)
 * Seitenleiste (7)
 * Benutzername (8)
 * Schaltflächen [!UICONTROL Kommentar] und [!UICONTROL Entscheidung] (9)
-* Zoom-Tools (10)
+* Zoom-Werkzeuge (10)
 * Seitennavigations-Tools (11)
 
-Es ist nicht erforderlich, eine Antwort auf die [!DNL Basecamp] -Nachricht zu senden, da die Kommentare und Entscheidungen auf dem Testversand gespeichert werden (wie bei der Überprüfung eines Testversands innerhalb von [!DNL Workfront Proof]).
+Es ist nicht erforderlich, eine Antwort auf die [!DNL Basecamp] zu senden, da die Kommentare und Entscheidungen im Korrekturabzug gespeichert werden (wie bei der Überprüfung eines Korrekturabzugs in [!DNL Workfront Proof]).
 
-## Überprüfen des vollständigen Testversands
+## Überprüfen des vollständigen Seiten-Korrekturabzugs
 
-Sie können den ganzseitigen Testversand mit allen normalen Funktionen von [!DNL Workfront Proof] anzeigen, indem Sie entweder auf den Link in der Nachricht direkt über dem minimierten oder auf das Vollbildsymbol in der oberen rechten Ecke des minimierten Testversands klicken.
+Sie können den ganzseitigen Korrekturabzug mit allen [!DNL Workfront Proof] normalen Funktionen anzeigen, indem Sie entweder auf den Link in der Nachricht direkt über dem Miniversand oder auf das Vollbildsymbol in der oberen rechten Ecke des Miniversands klicken.
 
-Das Testversandbild ist weiterhin die Originalgröße, aber die Seite selbst ist größer als die minimierte Seite.
+Das Korrekturabzugsbild hat weiterhin die Originalgröße, aber die Seite selbst ist breiter als die Seite mit dem Mini-Korrekturabzug.
 
-Der ganzseitige Testversand zeigt Folgendes an:
+Der ganzseitige Korrekturabzug zeigt Folgendes:
 
-* Die Schaltflächen [!UICONTROL Kommentare hinzufügen] und [!UICONTROL Entscheidung übermitteln] (anstelle der Kommentare und Entscheidungssymbole, die auf dem miniproof-Gerät angezeigt werden) (1).
-* Mehr Zoom- und Navigationstools als die minimierten (2).
-* Die Schaltfläche [!UICONTROL Gehe zu [!DNL Basecamp]] in der oberen linken Ecke des Testversands. Wenn Sie darauf klicken, gelangen Sie zurück zu Ihrem [!DNL Basecamp]-Konto (3).
+* Die [!UICONTROL  „Kommentare hinzufügen] und [!UICONTROL Entscheidung übermitteln] (anstelle der auf dem Miniproof angezeigten Kommentare und Entscheidungssymbole) (1).
+* Mehr Zoom- und Navigationswerkzeuge als der Miniproof (2).
+* Klicken [!UICONTROL  oben links im Korrekturabzug auf [!DNL Basecamp]] Schaltfläche „Wechseln zu“. Wenn Sie darauf klicken, gelangen Sie zurück in Ihr [!DNL Basecamp] (3).
 
 ![ProofHQ_full_screen_view.png](assets/proofhq-full-screen-view-350x217.png)

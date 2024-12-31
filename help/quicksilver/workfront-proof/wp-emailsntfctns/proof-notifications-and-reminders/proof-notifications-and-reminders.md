@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: emails-and-notifications-workfront-proof
-title: Benachrichtigungen und Erinnerungen an Testsendungen
-description: Erfahren Sie mehr über Benachrichtigungen und Erinnerungen bei Testsendungen.
+title: Proof-Benachrichtigungen und -Erinnerungen
+description: Erfahren Sie mehr über Korrekturabzugs-Benachrichtigungen und -Erinnerungen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ---
 
-# Benachrichtigungen und Erinnerungen an Testsendungen
+# Proof-Benachrichtigungen und -Erinnerungen
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [[!UICONTROL Verspätete Testversand] E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
-* [[!UICONTROL Neue Testversand]-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
-* [Die E-Mail [!UICONTROL Neue Version]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
-* [Die E-Mail [!UICONTROL Testversand durchgeführt]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)
+* [[!UICONTROL Verspäteter Korrekturabzug] E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/late-proof-email.md)
+* [[!UICONTROL Neuer Korrekturabzug] E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md)
+* [Die [!UICONTROL neue Version]-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-version-email.md)
+* [Die E[!UICONTROL Mail „Korrekturabzug erstellt]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md)

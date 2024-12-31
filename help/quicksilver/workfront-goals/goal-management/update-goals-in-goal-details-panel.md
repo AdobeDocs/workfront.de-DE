@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Aktualisieren von Zielen im Bereich "Zieldetails"in Adobe Workfront-Zielen
-description: Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das Bedienfeld "Zieldetails"zugreifen.
+title: Aktualisieren von Zielen im Bedienfeld „Zieldetails“ in Adobe Workfront-Zielen
+description: Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das Bedienfeld „Zieldetails“ zugreifen.
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
@@ -13,18 +13,18 @@ ht-degree: 1%
 
 ---
 
-# Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;in Adobe Workfront-Zielen
+# Aktualisieren von Zielen im Abschnitt „Zieldetails“ in Adobe Workfront Goals
 
 <!--drafted for the goal redesign:
 - change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
 - update the description in the metadata above
 -->
 
-Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das Bedienfeld &quot;Zieldetails&quot;zugreifen.
+Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das Bedienfeld „Zieldetails“ zugreifen.
 
 >[!NOTE]
 >
->Ziele mit dem Status Geschlossen können nicht aktualisiert werden.
+>Sie können keine Ziele mit dem Status „Geschlossen“ aktualisieren.
 
 
 ## Zugriffsanforderungen
@@ -40,57 +40,57 @@ Sie müssen über Folgendes verfügen:
  <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
-   <p>Für den neuen Plan und die Lizenzstruktur:
-  <ul><li>Ein ultimativer Plan </li></ul>
+   <p>Für die neue Plan- und Lizenzstruktur:
+  <ul><li>Ein Ultimate-Plan </li></ul>
    </p>
-<p>Für den aktuellen Plan und die Lizenzstruktur: 
-<ul><li> A Pro oder höher </li>
-  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+<p>Für die aktuelle Plan- und Lizenzstruktur: 
+<ul><li> Ein Profi oder höher </li>
+  <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader">Zugriffsstufe*</td>
+ <td role="rowheader">Zugriffsebene*</td>
  <td> <p>Zugriff auf Ziele bearbeiten</p> </td>
  </tr>
  <tr data-mc-conditions="">
  <td role="rowheader">Objektberechtigungen</td>
  <td>
   <div>
-  <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-  <p>Berechtigungen für das Ziel verwalten</p>
-  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+  <p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+  <p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Aktualisieren von Zielen im Abschnitt &quot;Zieldetails&quot;
+## Aktualisieren von Zielen im Abschnitt „Zieldetails“
 
-Sie können über eine Liste von Zielen auf ein einzelnes Ziel zugreifen.
+Über eine Liste von Zielen können Sie auf ein einzelnes Ziel zugreifen.
 
 <!--
 
@@ -177,45 +177,45 @@ Updating goals in the Goal Details panel differs depending on where you access t
 
 
 
-1. Klicken Sie auf den Namen eines Ziels in der Zielliste und dann auf den Namen eines Ziels.
+1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels und dann auf den Namen eines Ziels.
 
-   Dadurch wird der Abschnitt **Zieldetails** auf der linken Seite geöffnet.
+   Dadurch wird der **Zieldetails** auf der linken Seite geöffnet.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Klicken Sie oben rechts auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) und dann auf **Alle bearbeiten** oder **Überblick** .
+1. Klicken Sie auf **Bearbeiten** oben rechts ![](assets/edit-icon.png) auf und dann auf **Alle bearbeiten** oder **Übersicht**
 
    Oder
 
-   Geben Sie Informationen in eines der bearbeitbaren Felder im Abschnitt Zieldetails ein. Der Abschnitt kann bearbeitet werden.
+   Beginnen Sie, Informationen in eines der bearbeitbaren Felder im Abschnitt „Zieldetails“ einzugeben. Der Abschnitt kann nun bearbeitet werden.
 
    >[!IMPORTANT]
    >
-   >Es können nicht alle Felder bearbeitet werden, die im Abschnitt Zieldetails angezeigt werden. Workfront berechnet einige der Felder und ist schreibgeschützt.
+   >Nicht alle Felder, die im Abschnitt „Zieldetails“ angezeigt werden, können bearbeitet werden. Workfront berechnet einige der Felder und ist schreibgeschützt.
 
 1. Aktualisieren oder überprüfen Sie die folgenden Felder:
 
-   * **Beschreibung**: Fügen Sie Informationen zum Ziel hinzu oder aktualisieren Sie diese.
-   * **Fortschritt**: Gibt an, welcher Prozentsatz des Ziels bisher abgeschlossen wurde. Sie können den Fortschritt eines Ziels nicht manuell aktualisieren. Ziel des Fortschritts ist die Berechnung aller Fortschrittsindikatoren.
-   * **Bedingung**: Gibt an, ob das Ziel neu ist und noch nicht aktualisiert wurde, ob es sich um ein Ziel handelt, das rechtzeitig abgeschlossen werden soll, oder ob es einen Rückstand aufweist. Die Bedingung eines Ziels kann nicht aktualisiert werden. Die Bedingung des Ziels wird automatisch von Worfront berechnet.\
-     Weitere Informationen zu Zielbedingungen und Fortschritt finden Sie unter
-     [Überblick über den Zielfortschritt und die Bedingungen in Adobe Workfront-Zielen](../goal-management/calculate-goal-progress.md).
-   * **Status**: Sie können den Status eines Ziels nicht manuell aktualisieren. Weitere Informationen finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../goal-management/goal-status-overview.md).
-   * **Zieleigentümer**: Klicken Sie auf , um den Namen des Eigentümers des Ziels zu aktualisieren. Geben Sie den Namen eines Benutzers, Teams, einer Gruppe oder Ihres Unternehmens ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Sie können nur einen Inhaber für ein Ziel haben.
-   * **Übergeordnetes Ziel**: Beginnen Sie mit der Eingabe des Namens eines Ziels, das Sie als übergeordnetes Ziel des ausgewählten Ziels festlegen möchten. Der Fortschritt des ausgewählten Ziels aktualisiert automatisch den Fortschritt des übergeordneten Ziels.
+   * **Beschreibung**: Informationen zum Ziel hinzufügen oder aktualisieren.
+   * **Fortschritt**: Gibt an, wie viel Prozent des Ziels bisher erreicht wurde. Sie können den Fortschritt eines Ziels nicht manuell aktualisieren. Das Ziel Fortschritt ist eine Berechnung aller Fortschrittsindikatoren.
+   * **Bedingung**: Gibt an, ob das Ziel neu ist und noch nicht aktualisiert wurde, ob es auf dem Ziel liegt, termingerecht abgeschlossen zu werden, oder ob es zurückliegt. Die Bedingung eines Ziels kann nicht aktualisiert werden. Die Bedingung des Ziels wird von Workfront automatisch berechnet.\
+     Weitere Informationen über Zielbedingung und Fortschritt finden Sie unter
+     [Übersicht über den Zielfortschritt und die Bedingung in Adobe Workfront Goals](../goal-management/calculate-goal-progress.md).
+   * **Status**: Der Status eines Ziels kann nicht manuell aktualisiert werden. Weitere Informationen finden Sie unter [Zielstatusübersicht in Adobe Workfront-](../goal-management/goal-status-overview.md).
+   * **Zielinhaber**: Klicken Sie darauf, um den Namen des Zielinhabers zu aktualisieren. Beginnen Sie mit der Eingabe des Namens eines Benutzers, Teams, einer Gruppe oder des Namens Ihrer Organisation und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Für ein Ziel kann nur ein Besitzer vorhanden sein.
+   * **Übergeordnetes Ziel**: Geben Sie den Namen eines Ziels ein, das Sie als übergeordnetes Element des ausgewählten Ziels festlegen möchten. Der Fortschritt des ausgewählten Ziels aktualisiert automatisch den Fortschritt des übergeordneten Ziels.
 
      >[!TIP]
      >
      >Sie können die folgenden Informationen zu einem übergeordneten Ziel nicht aktualisieren:
      >    * Zeitraum des übergeordneten Ziels
      >    * Fortschritt des übergeordneten Ziels
-     >    * Übergeordneter Zieleigentümer.
+     >    * Verantwortlicher des übergeordneten Ziels.
      >      
-     >Sie müssen diese Informationen über das übergeordnete Ziel selbst aktualisieren.
+     >Sie müssen diese Informationen zum übergeordneten Ziel selbst aktualisieren.
 
-   * **Zeitraum**: Klicken Sie auf , um den Zeitraum für das Ziel zu aktualisieren.\
+   * **Zeitraum**: Klicken Sie darauf, um den Zeitraum für das Ziel zu aktualisieren\
      Oder\
-     Wählen Sie **Benutzerdefinierte Datumswerte aktivieren** aus, um die Datumsangaben für das Ziel **Start** und das Enddatum **Enddatum** anzugeben.
-   * **Notizen schließen**: Dieses Feld ist nur für Ziele mit dem Status &quot;Geschlossen&quot;sichtbar. Geschlossene Ziele können nicht bearbeitet werden. Beim erneuten Öffnen eines geschlossenen Ziels werden die schließenden Notizen dauerhaft gelöscht.
+     Wählen Sie **Benutzerdefinierte Datumswerte aktivieren** **aus, um ein Datum für die Start-** Enddaten **Ziels**.
+   * **Abschließende Anmerkungen**: Dieses Feld ist nur für Ziele mit dem Status Geschlossen sichtbar. Geschlossene Ziele können nicht bearbeitet werden. Wenn Sie ein geschlossenes Ziel erneut öffnen, werden die Abschlussnotizen dauerhaft gelöscht.
 
 

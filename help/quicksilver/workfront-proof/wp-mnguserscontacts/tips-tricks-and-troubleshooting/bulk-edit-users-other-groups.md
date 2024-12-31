@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-users-and-contacts
-title: Andere Gruppen des Benutzers für die Massenbearbeitung
-description: Bei der Massenbearbeitung habe ich versucht, eine einzelne Andere Gruppen zu zahlreichen Benutzern hinzuzufügen. Nach dem Speichern der Änderungen wurden alle vorhandenen "Sonstige Gruppen"entfernt und nur die neue "Sonstige"-Gruppe blieb erhalten.
+title: Massenbearbeitung der „Andere Gruppen“ des Benutzers
+description: Bei der Massenbearbeitung habe ich versucht, einer Vielzahl von Benutzern eine einzelne „Andere Gruppen“ hinzuzufügen. Nach dem Speichern der Änderungen wurden alle vorhandenen „Andere Gruppe“ entfernt, und nur die neue „Andere Gruppe“ blieb erhalten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: f2402830-3263-4204-ba8a-9028ef937577
@@ -15,28 +15,28 @@ ht-degree: 0%
 
 ---
 
-# Andere Gruppen des Benutzers für die Massenbearbeitung
+# Massenbearbeitung der „Andere Gruppen“ des Benutzers
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Problem:
 
-Bei der Massenbearbeitung habe ich versucht, eine einzelne Andere Gruppen zu zahlreichen Benutzern hinzuzufügen.
-Nach dem Speichern der Änderungen wurden alle vorhandenen &quot;Sonstige Gruppen&quot;entfernt und nur die neue &quot;Sonstige&quot;-Gruppe blieb erhalten.
+Bei der Massenbearbeitung habe ich versucht, einer Vielzahl von Benutzern eine einzelne „Andere Gruppen“ hinzuzufügen.
+Nach dem Speichern der Änderungen wurden alle vorhandenen „Andere Gruppe“ entfernt, und nur die neue „Andere Gruppe“ blieb erhalten.
 
 ## Antwort:
 
 Das resultierende Verhalten hängt von der aktuellen Gruppenmitgliedschaft der ausgewählten Benutzer ab:
 
-* Wenn alle ausgewählten Benutzer Andere Gruppenmitgliedschaften exakt übereinstimmen ...
-Nachdem Sie die Benutzer ausgewählt und [!UICONTROL Bearbeiten] ausgewählt haben, wird im Feld [!UICONTROL Andere Gruppen] die vollständige Liste angezeigt
-der Gruppen, zu denen diese Benutzer gehören.
+* Wenn alle ausgewählten Benutzer und die Mitgliedschaften in anderen Gruppen genau übereinstimmen…
+Nachdem Sie die Benutzer ausgewählt und auf [!UICONTROL Bearbeiten] geklickt haben, wird [!UICONTROL  Feld „Andere ]&quot; die vollständige Liste anzeigen
+aller Gruppen, denen diese Benutzer angehören.
 
-* Wenn die ausgewählten Benutzer über verschiedene Mitglieder der Gruppe Andere Gruppen verfügen..
-Nachdem Sie die Benutzer ausgewählt und auf [!UICONTROL Bearbeiten] geklickt haben, ist das Feld [!UICONTROL Andere Gruppen] leer.
+* Wenn die ausgewählten Benutzer unterschiedliche Andere Gruppenmitgliedschaften haben…
+Nachdem Sie die Benutzer ausgewählt und auf [!UICONTROL Bearbeiten] geklickt haben, ] das Feld „Andere Gruppen[!UICONTROL  leer.
 
-Wenn Sie auf **[!UICONTROL Änderungen speichern]** klicken, wird das im Feld &quot;Andere Gruppen&quot;angezeigte Element gespeichert.
+Wenn Sie auf **[!UICONTROL Änderungen speichern]** klicken, werden alle Elemente gespeichert, die im Feld Andere Gruppen angezeigt werden.
 
 Der vorherige Inhalt des Felds wird überschrieben.

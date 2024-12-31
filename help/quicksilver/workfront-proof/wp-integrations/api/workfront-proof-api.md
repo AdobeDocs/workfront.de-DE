@@ -3,8 +3,8 @@ content-type: api
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: api-workfront-proof
-title: Die [!DNL Workfront Proof] API
-description: Wenn Sie Entwickler mit Kunden sind, die von einer integrierten Überprüfung, Zusammenarbeit und Genehmigung von Dokumenten profitieren könnten, können Sie [!DNL Workfront Proof] einfach in Ihre Anwendung einbetten. Mit der API [!DNL Workfront Proof] können Sie diese Funktion aktivieren und Hunderte von Arbeitsstunden sparen.
+title: Die  [!DNL Workfront Proof] -API
+description: Wenn Sie Entwickler mit Kunden sind, die von einer integrierten Überprüfung, Zusammenarbeit und Genehmigung von Dokumenten profitieren könnten, können Sie  [!DNL Workfront Proof]  in Ihr Programm einbetten. Die  [!DNL Workfront Proof] -API ermöglicht es Ihnen, diese Funktion zu aktivieren und Hunderte von Arbeitsstunden zu sparen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 3b71baaf-8490-4479-bb95-da0b5d28ad15
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Wenn Sie Entwickler mit Kunden sind, die von einer integrierten Überprüfung, Zusammenarbeit und Genehmigung von Dokumenten profitieren können, können Sie einfach [!DNL Workfront Proof] in Ihre Anwendung einbetten. Mit der API [!DNL Workfront Proof] können Sie diese Funktion aktivieren und Hunderte von Stunden speichern.
+Wenn Sie Entwickler mit Kunden sind, die von einer integrierten Überprüfung, Zusammenarbeit und Genehmigung von Dokumenten profitieren könnten, können Sie [!DNL Workfront Proof] einfach in Ihr Programm einbetten. Mit der [!DNL Workfront Proof]-API können Sie diese Funktion aktivieren und Hunderte von Arbeitsstunden sparen.
 
 Weitere Informationen finden Sie auf den API-Hilfeseiten unter http://api.proofhq.com/ .

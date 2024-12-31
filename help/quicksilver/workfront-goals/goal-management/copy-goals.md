@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Kopieren von Zielen in Adobe Workfront-Zielen
-description: Sie können Ziele in Adobe Workfront-Zielen kopieren, um ein Ziel zu erstellen. Einige der ursprünglichen Zielinformationen werden an das neue Ziel übertragen.
+title: Kopieren von Zielen in Adobe Workfront Goals
+description: Sie können Ziele in Adobe Workfront-Ziele kopieren, um ein Ziel zu erstellen. Einige der ursprünglichen Zielinformationen werden auf das neue Ziel übertragen.
 author: Alina
 feature: Workfront Goals
 exl-id: 690a6030-ee29-4e50-869f-cd014050b364
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 ---
 
-# Kopieren von Zielen in Adobe Workfront-Zielen
+# Kopieren von Zielen in Adobe Workfront Goals
 
-Sie können Ziele in Adobe Workfront-Zielen kopieren, um ein Ziel zu erstellen. Einige der ursprünglichen Zielinformationen werden an das neue Ziel übertragen.
+Sie können Ziele in Adobe Workfront-Ziele kopieren, um ein Ziel zu erstellen. Einige der ursprünglichen Zielinformationen werden auf das neue Ziel übertragen.
 
 ## Zugriffsanforderungen
 
@@ -30,31 +30,31 @@ Sie müssen über Folgendes verfügen:
  <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
-   <p>Für den neuen Plan und die Lizenzstruktur:
-  <ul><li>Ein ultimativer Plan </li></ul>
+   <p>Für die neue Plan- und Lizenzstruktur:
+  <ul><li>Ein Ultimate-Plan </li></ul>
    </p>
-<p>Für den aktuellen Plan und die Lizenzstruktur: 
-<ul><li> A Pro oder höher </li>
-  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+<p>Für die aktuelle Plan- und Lizenzstruktur: 
+<ul><li> Ein Profi oder höher </li>
+  <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene</td>
@@ -64,43 +64,43 @@ Sie müssen über Folgendes verfügen:
  <td role="rowheader">Objektberechtigungen</td>
  <td>
   <div>
-  <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-  <p>Berechtigungen für das Ziel verwalten</p>
-  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+  <p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+  <p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zum Kopieren von Zielen
 
-Sie müssen auf der Zugriffsebene Zugriff auf Ziele bearbeiten haben, bevor Sie Ziele kopieren können. Informationen zur Gewährung des Zugriffs auf Ziele finden Sie unter [Gewähren des Zugriffs auf Adobe Workfront-Ziele](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Sie müssen in Ihrer Zugriffsebene Zugriff auf „Ziele bearbeiten“ haben, bevor Sie Ziele kopieren können. Informationen zum Gewähren des Zugriffs auf Ziele finden Sie unter [Gewähren des Zugriffs auf Adobe Workfront-Ziele](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
-Mögliche Gründe für das Kopieren eines vorhandenen Ziels sind:
+Einige der Gründe, warum Sie ein vorhandenes Ziel kopieren sollten, sind:
 
-* Wenn Sie am Ende eines Zeitraums (Quartal oder Jahr) dasselbe Ziel für den nächsten Zeitraum neu erstellen möchten.
-* Wenn das Ziel am Ende eines Zeitraums nicht erreicht werden kann und Sie es für einen anderen Zeitraum bearbeiten möchten.
-* Wenn mehrere Team-Mitglieder ähnliche Ziele haben und Sie möglicherweise eines für jede dieser Ziele erstellen müssen.
+* Am Ende eines Zeitraums (Quartal oder Jahr), wenn Sie dasselbe Ziel für den nächsten Zeitraum neu erstellen möchten.
+* am Ende eines Zeitraums, wenn das Ziel nicht erreicht werden kann und Sie es für einen anderen Zeitraum bearbeiten möchten.
+* Wenn mehrere Team-Mitglieder ähnliche Ziele haben und Sie möglicherweise für jedes davon eines erstellen müssen.
 
 >[!TIP]
 >
->Sie können ein Ziel in einen beliebigen Status kopieren. Informationen zu den Zielstatus finden Sie unter [Zielstatusübersicht in Adobe Workfront-Zielen](../../workfront-goals/goal-management/goal-status-overview.md).
+>Sie können ein Ziel in einen beliebigen Status kopieren. Informationen zum Zielstatus finden Sie unter [Zielstatusübersicht in Adobe Workfront-](../../workfront-goals/goal-management/goal-status-overview.md).
 
 Beachten Sie beim Kopieren von Zielen Folgendes:
 
 * Alle Informationen über das Ziel werden ebenfalls in das neue Ziel kopiert.
-* Sie können auswählen, ob die Ergebnisse eines vorhandenen Ziels kopiert werden sollen. Der Name der Ergebnisse wird auf das neue Ziel übertragen, der aktuelle Fortschritt der Ergebnisse auf dem vorhandenen Ziel wird jedoch nicht in das neue Ziel kopiert. Die kopierten Ergebnisse werden standardmäßig demselben Eigentümer zugewiesen.
+* Sie können auswählen, ob Sie die Ergebnisse eines vorhandenen Ziels kopieren möchten. Der Name der Ergebnisse wird auf das neue Ziel übertragen, der aktuelle Fortschritt der Ergebnisse beim vorhandenen Ziel wird jedoch nicht auf das neue Ziel kopiert. Die kopierten Ergebnisse werden standardmäßig demselben Besitzer zugewiesen.
 
   >[!NOTE]
   >
-  >Wenn der ursprüngliche Eigentümer aus Workfront gelöscht oder deaktiviert wurde, wird das neue Ergebnis dem angemeldeten Benutzer zugewiesen.
+  >Wenn der ursprüngliche Besitzer aus Workfront gelöscht oder deaktiviert wurde, wird das neue Ergebnis dem angemeldeten Benutzer zugewiesen.
 
 * Sie können die Aktivitäten eines Ziels nicht kopieren, wenn Sie das Ziel kopieren.
 
@@ -177,42 +177,42 @@ To copy goals in the Production environment:
 -->
 
 
-1. Gehen Sie zu einem Ziel, klicken Sie auf das Menü **Mehr** ![](assets/more-icon.png) und dann auf **Ziel kopieren**.
+1. Wechseln Sie zu einem Ziel und klicken Sie auf die ![](assets/more-icon.png) **Mehr** und klicken Sie dann auf **Ziel kopieren**.
 
    ![](assets/copy-goal-box-unshimmed.png)
 
 1. Aktualisieren Sie die folgenden Informationen für das kopierte Ziel:
-   * **Zielname**: Der Name des neuen Ziels. Der Standardname für das kopierte Ziel ist &quot;Kopie von &lt;ursprüngliches Ziel>&quot;.
-   * **Zeitraum**: Der Zeitraum, in dem Sie das Ziel erreichen möchten. Wählen Sie einen Zeitraum aus dem Dropdownmenü aus
+   * **Zielname**: Der Name des neuen Ziels. Der Standardname für das kopierte Ziel lautet „Kopie von &lt;original goal>&quot;.
+   * **Zeitraum**: Der Zeitraum, in dem Sie das Ziel erreichen möchten. Wählen Sie einen Zeitraum aus dem Dropdown-Menü aus
 
      Oder
 
-     Wählen Sie **Benutzerdefinierte Datumswerte aktivieren** aus, um benutzerdefinierte Datumswerte für das Ziel **Start** und das Enddatum **5} festzulegen.** Die Einstellung Benutzerdefinierte Datumswerte aktivieren ist standardmäßig deaktiviert.
+     Wählen Sie **Benutzerdefinierte Datumswerte aktivieren** **aus, um benutzerdefinierte Datumswerte für die Start-** Enddaten **Ziels**. Die Einstellung Benutzerdefinierte Datumswerte aktivieren ist standardmäßig deaktiviert.
 
      >[!TIP]
      >
-     >   Wenn Sie Benutzerdefinierte Datumswerte aktivieren deaktivieren, wird der Zeitraum des ursprünglichen Ziels zurückgesetzt.
+     >   Wenn Sie Benutzerdefinierte Datumswerte aktivieren deaktivieren, wird der Zeitraum des ursprünglichen Ziels wiederhergestellt.
 
-      * **Zieleigentümer**: Der Eigentümer des Ziels. Dabei kann es sich um einen Benutzer, ein Team, eine Gruppe oder ein Unternehmen handeln. Standardmäßig ist es der Eigentümer des ursprünglichen Ziels.
+      * **Zielbesitzer**: Der Besitzer des Ziels. Dabei kann es sich um einen Benutzer, ein Team, eine Gruppe oder ein Unternehmen handeln. Standardmäßig ist es der Eigentümer des ursprünglichen Ziels.
       * **Beschreibung**: Zusätzliche Informationen zum Ziel.
-      * **Ergebnisse kopieren**: Wählen Sie diese Option, wenn Sie die Ergebnisse vom aktuellen Ziel an das kopierte Ziel übertragen möchten. Dadurch werden die ursprünglichen Ergebnisse dupliziert und an das kopierte Ziel angehängt. Die Ergebnisse des kopierten Ziels haben dieselben Eigentümer, Namen und Messwerte wie die Ergebnisse des ursprünglichen Ziels.
+      * **Ergebnisse kopieren**: Wählen Sie diese Option, wenn Sie die Ergebnisse vom aktuellen Ziel zum kopierten Ziel übertragen möchten. Dadurch werden die ursprünglichen Ergebnisse dupliziert und an das kopierte Ziel angehängt. Die Ergebnisse des kopierten Ziels haben dieselben Eigentümer, Namen und Messwerte wie die Ergebnisse des ursprünglichen Ziels.
 
         >[!NOTE]
         >
-        >* Der Fortschritt des ursprünglichen Ergebnisses wird nicht an das kopierte Ziel übertragen.
-        >* Wenn der ursprüngliche Eigentümer aus Workfront gelöscht oder deaktiviert wurde, wird das neue Ergebnis dem angemeldeten Benutzer zugewiesen.
+        >* Der Fortschritt des ursprünglichen Ergebnisses wird nicht auf das kopierte Ziel übertragen.
+        >* Wenn der ursprüngliche Besitzer aus Workfront gelöscht oder deaktiviert wurde, wird das neue Ergebnis dem angemeldeten Benutzer zugewiesen.
 
-1. Klicken Sie auf **Ziel kopieren**.
+1. Klicken Sie **Ziel kopieren**.
 
-   Ein dem ursprünglichen Ziel ähnliches Ziel wird erstellt und erhält den Status Entwurf .
+   Ein dem ursprünglichen Ziel ähnliches Ziel wird erstellt und befindet sich im Status Entwurf .
 
    >[!NOTE]
    >
-   >Wenn Sie die Ergebnisse nicht aus dem ursprünglichen Ziel kopiert haben, müssen Sie zunächst das neue Ziel mit einem Fortschrittsanzeige verknüpfen, bevor Sie es aktivieren und anfangen, es zu erreichen.
-   >Informationen zur Verknüpfung von Zielen mit Fortschrittsanzeigen finden Sie in den folgenden Artikeln:
-   >* [Ergebnisse zu Zielen in Adobe Workfront-Zielen hinzufügen](../results-and-activities/add-results-to-goals.md)
-   >* [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-activities-to-goals.md)
-   >* [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../goal-alignment/align-goals-by-connecting-them.md)
+   >Wenn Sie die Ergebnisse nicht aus dem ursprünglichen Ziel kopiert haben, müssen Sie zunächst das neue Ziel mit einer Fortschrittsanzeige verknüpfen, bevor Sie es aktivieren und auf das Erreichen hinarbeiten können.
+   >Informationen zum Verknüpfen von Zielen mit Fortschrittsanzeigen finden Sie in den folgenden Artikeln:
+   >* [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-results-to-goals.md)
+   >* [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md)
+   >* [Ziele ausrichten, indem Sie sie in Adobe Workfront Goals miteinander verbinden](../goal-alignment/align-goals-by-connecting-them.md)
    >
-   >Informationen zum Aktivieren von Zielen finden Sie unter [Ziele aktivieren](../goal-management/activate-goals.md).
+   >Informationen zum Aktivieren von Zielen finden Sie unter [Aktivieren von Zielen](../goal-management/activate-goals.md).
 

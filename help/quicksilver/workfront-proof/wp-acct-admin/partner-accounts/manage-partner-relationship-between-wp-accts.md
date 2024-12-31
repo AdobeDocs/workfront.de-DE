@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: partner-accounts
-title: Partnerbeziehung zwischen [!DNL Workfront Proof] Konten verwalten
-description: Wenn Sie mit einer anderen Organisation zusammenarbeiten, die auch einen  [!DNL Workfront Proof]  -Wert verwendet (z. B. einer anderen Abteilung in Ihrem Unternehmen oder einem Kunden), können Sie eine Partnerbeziehung zwischen den beiden Konten herstellen. Durch die Einrichtung einer Partnerbeziehung zwischen Ihrem Konto und einer anderen Organisation können Sie Testsendungen, Dateien, Ordner sowie Kontaktdaten mit Ihren Partnern teilen.
+title: Verwalten einer Partnerbeziehung zwischen  [!DNL Workfront Proof]  Konten
+description: Wenn Sie mit einer anderen Organisation zusammenarbeiten, die auch eine  [!DNL Workfront Proof]  verwendet (z. B. eine andere Abteilung in Ihrem Unternehmen oder ein Kunde), können Sie eine Partnerbeziehung zwischen den beiden Konten einrichten. Durch die Einrichtung einer Partnerbeziehung zwischen Ihrem -Konto und einer anderen Organisation können Sie Testsendungen, Dateien, Ordner sowie Kontaktdaten mit Ihren Partnern teilen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ee06c9a7-baeb-4c2b-a6c5-ec4ac542dd5a
@@ -14,77 +14,77 @@ ht-degree: 0%
 
 ---
 
-# Partnerbeziehung zwischen [!DNL Workfront Proof] Konten verwalten
+# Verwalten einer Partnerbeziehung zwischen [!DNL Workfront Proof] Konten
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Wenn Sie mit einer anderen Organisation zusammenarbeiten, die auch [!DNL Workfront Proof] verwendet (z. B. einer anderen Abteilung in Ihrem Unternehmen oder einem Kunden), können Sie eine Partnerbeziehung zwischen den beiden Konten herstellen. Durch die Einrichtung einer Partnerbeziehung zwischen Ihrem Konto und einer anderen Organisation können Sie Testsendungen, Dateien, Ordner sowie Kontaktdaten mit Ihren Partnern teilen.
+Wenn Sie mit einer anderen Organisation zusammenarbeiten, die auch [!DNL Workfront Proof] verwendet (z. B. eine andere Abteilung in Ihrem Unternehmen oder ein Kunde), können Sie eine Partnerbeziehung zwischen den beiden Konten einrichten. Durch die Einrichtung einer Partnerbeziehung zwischen Ihrem -Konto und einer anderen Organisation können Sie Testsendungen, Dateien, Ordner sowie Kontaktdaten mit Ihren Partnern teilen.
 
-Die Partnerbeziehung wird zwischen zwei Organisationen und nicht zwischen zwei Benutzern hergestellt. Beide Organisationen müssen über ein [!DNL Workfront Proof] -Konto verfügen.
+Die Partnerbeziehung wird zwischen zwei Organisationen und nicht zwischen zwei Benutzern hergestellt, und beide Organisationen müssen über ein [!DNL Workfront Proof] Konto verfügen.
 
 >[!NOTE]
 >
->Die Benutzer aus dem Partnerkonto werden als Mitglieder in Ihrem Konto angezeigt und umgekehrt. Wenn Ihr Partner seinem Konto einen neuen Benutzer hinzufügt, wird dieser neue Benutzer automatisch als Mitglied auf Ihrer Kontaktseite angezeigt. Wenn Sie Ihrem Konto einen neuen Benutzer hinzufügen, wird dieser neue Benutzer auf der Kontaktseite Ihres Partners als Mitglied angezeigt.
+>Die Benutzer aus dem Partnerkonto werden als Mitglieder in Ihrem Konto angezeigt und umgekehrt. Wenn Ihr Partner einen neuen Benutzer zu seinem Konto hinzufügt, wird dieser neue Benutzer automatisch als Mitglied auf Ihrer Kontaktseite angezeigt. Wenn Sie einen neuen Benutzer zu Ihrem Konto hinzufügen, wird dieser neue Benutzer auf der Kontaktseite Ihres Partners als Mitglied angezeigt.
 
-## Senden einer Partneranfrage
+## Partneranfrage senden
 
-Nur Benutzer mit den Profilberechtigungen [!UICONTROL Administrator] oder [!UICONTROL Rechnungsadministrator] können eine Partnereinladung senden, da für die Durchführung dieser Aktion Zugriff auf [!UICONTROL Kontoeinstellungen] erforderlich ist.
+Nur Benutzer mit [!UICONTROL Administrator] oder [!UICONTROL Abrechnungsadministrator]-Profilberechtigungen können eine Partnereinladung senden, da der Zugriff auf [!UICONTROL Kontoeinstellungen] erforderlich ist, um diese Aktion durchzuführen.
 
 Gehen Sie wie folgt vor, um eine Partneranfrage zu senden:
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
+1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
 
-1. Klicken Sie auf **[!UICONTROL Neue Partnereinladung senden]**.
-1. Geben Sie im angezeigten Feld **[!UICONTROL Einladung senden]** die E-Mail-Adresse eines Benutzers in Ihrer Partnerorganisation ein.
+1. Klicken Sie **[!UICONTROL Neue Partnereinladung senden]**.
+1. Geben Sie in das **[!UICONTROL Einladung senden]** Feld, das angezeigt wird, die E-Mail-Adresse eines Benutzers in Ihrer Partnerorganisation ein.
 1. Klicken Sie auf **[!UICONTROL Senden]**.
 
 ## Akzeptieren einer Partneranfrage
 
-Jeder [!DNL Workfont Proof] -Administrator kann eine Partneranfrage annehmen. Es muss nicht der Benutzer sein, dessen E-Mail-Adresse in der Einladung angegeben wurde. So akzeptieren Sie Partneranfragen:
+Jeder [!DNL Workfont Proof] kann eine Partneranfrage akzeptieren. Es muss nicht der Benutzer sein, dessen E-Mail-Adresse in der Einladung angegeben wurde. So akzeptieren Sie eine Partneranfrage:
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
+1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
 
-1. Klicken Sie auf **Accept**.**&#x200B;**.
+1. Klicken Sie **Akzeptieren**.**&#x200B;**
 
 >[!NOTE]
 >
 >Die Partnerbeziehung wird sowohl im Absender- als auch im Empfängerkonto auf der Registerkarte [!UICONTROL Partner] angezeigt.
 
-## Ablehnung einer Partneranfrage
+## Partneranfrage ablehnen
 
-Jeder [!DNL Workfont Proof] -Administrator kann eine Partneranfrage ablehnen. Der Status der Einladung ändert sich in [!UICONTROL Abgelehnt] sowohl im Konto des Empfängers als auch im Konto des Absenders. Der Absender erhält eine E-Mail-Benachrichtigung, dass die Anfrage zur Partnerbeziehung abgelehnt wurde. Der Absender kann nur dann eine weitere Einladung an dieselbe Person senden, wenn der Empfänger die Beziehung vollständig löscht und der Absender die gleiche Aktion durchführt. Es ist jedoch möglich, mehrere Partneranfragen an verschiedene Benutzer im selben Konto zu senden.
+Jeder [!DNL Workfont Proof] kann eine Partneranfrage ablehnen. Der Status der Einladung ändert sich [!UICONTROL Abgelehnt] sowohl im Konto des Empfängers als auch im Konto des Absenders. Der Absender erhält eine E-Mail-Benachrichtigung, dass die Partnerbeziehungsanfrage abgelehnt wurde. Der Absender kann derselben Person keine weitere Einladung senden, es sei denn, der Empfänger löscht die Beziehung vollständig und der Absender tut dasselbe. Es ist jedoch möglich, mehrere Partneranfragen an verschiedene Benutzer im selben Konto zu senden.
 
-So lehnen Sie eine Partnereinladung ab:
+Um eine Partnereinladung abzulehnen:
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
+1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
 
-1. Klicken Sie auf **[!UICONTROL Ablehnen und ignorieren Sie]**.
+1. Klicken Sie **[!UICONTROL Ablehnen und ignorieren]**.
 
-## Löschen von Partneranfragen
+## Löschen einer Partneranfrage
 
-Jeder [!DNL Workfont Proof] -Administrator kann eine Partneranfrage löschen.
+Jeder [!DNL Workfont Proof] kann eine Partneranfrage löschen.
 
-Wenn die Anfrage vom Absender gelöscht wird, wird die Einladung weder im Konto des Absenders noch im Konto des Empfängers angezeigt. Eine neue Einladung kann an dieselbe E-Mail-Adresse wie die ursprüngliche Einladung gesendet werden.
+Wenn die Anfrage auf der Absenderseite gelöscht wird, wird die Einladung weder im Konto des Absenders noch im Konto des Empfängers mehr angezeigt. Eine neue Einladung kann an dieselbe E-Mail-Adresse gesendet werden wie die ursprüngliche Einladung.
 
-Wenn die Empfängerorganisation eine Einladung löscht, wird diese nicht mehr im Empfängerkonto angezeigt, sondern im Absenderkonto als [!UICONTROL Abgelehnt] .
+Wenn die Empfängerorganisation eine Einladung löscht, wird die Einladung nicht mehr im Konto des Empfängers angezeigt, sondern [!UICONTROL  im Konto ] Absenders als „Abgelehnt“ angezeigt.
 
 So löschen Sie eine Partneranfrage:
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
+1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
 
-1. Klicken Sie auf den Abwärtspfeil rechts neben der Anforderung.
+1. Klicken Sie auf den Abwärtspfeil rechts neben der Anfrage.
 1. Wählen Sie **[!UICONTROL Löschen]** aus.
 
 ## Entfernen einer bestehenden Partnerbeziehung
 
-Eine vorhandene Partnerbeziehung kann gelöscht werden, wenn sie nicht mehr benötigt wird. Wenn eine Partnerbeziehung entfernt wird, werden die Benutzer aus dem vorherigen Partnerkonto auf der Seite [!UICONTROL Kontakte] beibehalten, zukünftige Benutzer werden jedoch nicht synchronisiert. Zuvor freigegebene Elemente bleiben in diesem Status.
+Es ist möglich, eine vorhandene Partnerbeziehung zu löschen, wenn sie nicht mehr benötigt wird. Wenn eine Partnerbeziehung entfernt wird, werden die Benutzer aus dem vorherigen Partnerkonto auf der Seite [!UICONTROL Kontakte] beibehalten, aber zukünftige Benutzer werden nicht synchronisiert. Zuvor freigegebene Elemente bleiben in diesem Status.
 
-So löschen Sie einen Partner:
+So löschen Sie einen Partner
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
+1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]** und öffnen Sie dann die Registerkarte **[!UICONTROL Partner]**.
 
-1. Klicken Sie auf den Abwärtspfeil rechts neben dem Partner und dann im Dropdown-Menü auf **[!UICONTROL Löschen]** .
+1. Klicken Sie auf den Abwärtspfeil rechts neben dem Partner und klicken Sie **[!UICONTROL Dropdown]** Menü auf „Löschen“.
 
-Wenn die Absenderorganisation einen Partner löscht, wird die Partnerbeziehung sowohl aus dem Konto des Absenders als auch aus dem des Empfängers entfernt. Wenn die Empfängerorganisation einen Partner löscht, erscheint der Partner nicht mehr im Empfängerkonto, sondern im Konto des Absenders als [!UICONTROL Abgelehnt]. Die Partnerbeziehung kann durch Senden einer neuen Anfrage wiederhergestellt werden.
+Wenn die Absenderorganisation einen Partner löscht, wird die Partnerbeziehung sowohl aus dem Konto des Absenders als auch aus dem Konto des Empfängers entfernt. Wenn die Empfängerorganisation einen Partner löscht, wird der Partner nicht mehr im Konto des Empfängers angezeigt, sondern im Konto des Absenders als [!UICONTROL Abgelehnt]. Die Partnerbeziehung kann durch eine neue Anfrage wiederhergestellt werden.

@@ -2,8 +2,8 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Lesen Sie die folgenden Artikel, um zu verstehen, wie Sie Ziele in Workfront erreichen.
-description: In den folgenden Artikeln erfahren Sie mehr über die Ausrichtung von Zielen in Adobe Workfront.
+title: In den folgenden Artikeln erfahren Sie, wie Sie Ziele in Workfront-Zielen ausrichten.
+description: In den folgenden Artikeln erfahren Sie, wie Sie Ziele in Adobe Workfront ausrichten.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
@@ -15,34 +15,34 @@ ht-degree: 0%
 
 ---
 
-# Zielausrichtung bei Adobe Workfront-Zielen
+# Zielausrichtung in Adobe Workfront Goals
 
 >[!NOTE]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 > 
->* Für den neuen Plan und die Lizenzstruktur:
+>* Für die neue Plan- und Lizenzstruktur:
 >    
->   * Ein ultimativer Plan
+>   * Ein Ultimate-Plan
 >        
 >     Oder
 >        
->   * Eine zusätzliche Lizenz für Adobe Workfront Goals für die Prime- oder Select Adobe Workfront-Pläne.
->       Weitere Informationen finden Sie unter [Adobe Workfront - Preise und Verpackung](https://www.workfront.com/plans).
+>   * Eine zusätzliche Lizenz für Adobe Workfront-Ziele für Prime- oder Select Adobe Workfront-Pläne.
+>       Weitere Informationen finden Sie unter [Preise und Verpackung für Adobe Workfront](https://www.workfront.com/plans).
 >      
->* Für den aktuellen Plan und die Lizenzstruktur:
+>* Für die aktuelle Plan- und Lizenzstruktur:
 >    
->   * Adobe Workfront-Abo mit Pro oder höher
->   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>   * Ein Pro- oder höher-Adobe Workfront-Plan
+>   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >    
->Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 > 
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Lesen Sie die folgenden Artikel, um zu verstehen, wie Ziele in Workfront ausgerichtet werden:
+In den folgenden Artikeln erfahren Sie, wie Sie Ziele in Workfront-Zielen ausrichten:
 
-* [Übersicht über die Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
-* [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [Ziele durch Konvertieren der Ergebnisse und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
-* [Entfernen der Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
-* [Navigieren Sie im Abschnitt Zielausrichtung in Adobe Workfront-Zielen.](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)
+* [Übersicht über die Zielausrichtung in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md)
+* [Ziele ausrichten, indem Sie sie in Adobe Workfront Goals miteinander verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Zielausrichtung in Adobe Workfront Goals entfernen](../../workfront-goals/goal-alignment/remove-goal-alignment.md)
+* [Navigieren Sie zum Abschnitt Zielausrichtung in Adobe Workfront-Ziele](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md)

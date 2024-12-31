@@ -18,9 +18,9 @@ ht-degree: 0%
 
 Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfront Fusion verfügbar.
 
-Möglicherweise stehen für Ihr Team oder Ihre Organisation andere vom Team erstellte Vorlagen zur Verfügung.
+Für Ihr Team oder Ihre Organisation sind möglicherweise andere vom Team erstellte Vorlagen verfügbar.
 
-Um verfügbare Vorlagen anzuzeigen, klicken Sie im Seitennavigationsmenü von Fusion auf das Symbol **Vorlagen** ![](assets/fusion-template-icon.png) .
+Um verfügbare Vorlagen anzuzeigen, klicken Sie auf das **Vorlagen**-Symbol ![](assets/fusion-template-icon.png) im Seitennavigationsmenü von Fusion.
 
 ## Workfront-Vorlagen
 
@@ -28,99 +28,99 @@ Diese Vorlagen automatisieren Workfront-Prozesse und -Workflows.
 
 ### [!BADGE Neu!]{type=Informative}
 
-Diese Fusion-Vorlage erstellt eine standardmäßige Checkliste für alle Karten, die eine bestimmte Spalte auf einer bestimmten Pinnwand zeitbasiert eingeben.
+Diese Fusion-Vorlage erstellt eine Standard-Checkliste für alle Karten, die eine bestimmte Spalte auf einer bestimmten Pinnwand zeitlich festgelegt eingeben.
 
 ### [!BADGE Neu!]{type=Informative}
 
 <!--new Aug 1. 2024-->
 
-Dieses Szenario wird durch ein neues Projekt ausgelöst, das erstellt wird. In diesem Szenario können Sie eine Pinnwand erstellen, die nach dem Projekt benannt ist, Spalten basierend auf Ihren Anforderungen umbenennen oder erstellen, benutzerdefinierte Tags erstellen und dem ursprünglichen Projekt einen Filter für die Ansauspalte zuweisen.  Es können Tausende zusätzlicher Änderungen vorgenommen werden, aber ab hier können Sie sehen, welche Möglichkeiten es gibt, einen Ausgangspunkt für die Standardisierung der Pinnwände in Ihrem Unternehmen zu schaffen.
+Dieses Szenario wird durch die Erstellung eines neuen Projekts ausgelöst. In diesem Szenario können Sie eine Pinnwand mit dem Namen nach dem Projekt erstellen, Spalten je nach Ihren Anforderungen umbenennen oder erstellen, benutzerdefinierte Tags erstellen und einen Aufnahmespaltenfilter mit dem ursprünglichen Projekt verknüpfen.  Tausende von zusätzlichen Änderungen könnten vorgenommen werden, aber ab hier können Sie die Möglichkeiten sehen, einen Ausgangspunkt für die Standardisierung des Board Ihres Unternehmens zu erstellen.
 
 ### Workfront - Projekterstellung aus CSV
 
-Durch diese Automatisierung werden in Workfront neue Projekte basierend auf Namen, Portfolio, Status, geplanten Startdatum und Vorlagendetails erstellt, die Sie in einer CSV-Datei angeben.
+Diese Automatisierung erstellt neue Projekte in Workfront auf der Grundlage von Name, Portfolio, Status, geplantem Startdatum und Vorlagendetails, die Sie in einer CSV-Datei angeben.
 
 ### Workfront - Bereinigungsanfragen ohne neue Hinweise in den letzten 30 Tagen
 
-Verwenden Sie diese Vorlage, um ein 30-tägiges Hinweis-Update für Ihre Anfragen zu erzwingen. Anforderungen, die nicht in 30 Tagen aktualisiert wurden, erhalten ihren Status geändert und 60 Tage lang geschlossen.
+Verwenden Sie diese Vorlage, um eine Aktualisierung der Notiz für 30 Tage für Ihre Anfragen zu erzwingen. Anfragen, die innerhalb von 30 Tagen nicht aktualisiert wurden, erhalten nach 60 Tagen einen neuen Status und werden geschlossen.
 
-### Workfront - Ändern Sie den Projektstatus zu Abgeschlossen um 100 %.
+### Workfront: Ändern Sie den Projektstatus in „Abgeschlossen“, wenn Sie zu 100 % fertig sind.
 
-Durch diese Automatisierung werden Projekte auf den Status Abgeschlossen aktualisiert, in dem alle Aufgaben nach 1005 abgeschlossen sind. Projekte mit offenen Problemen oder offenen Aufgaben oder Projektgenehmigungen erhalten eine Aktualisierung, und nach der Lösung werden die Projekte in den Status Abgeschlossen verschoben.
+Diese Automatisierung aktualisiert Projekte auf den Status Abgeschlossen , bei denen alle Aufgaben bei 1005 abgeschlossen sind. Projekte mit offenen Problemen oder offenen Aufgaben oder Projektgenehmigungen erhalten eine Aktualisierung, und nach der Lösung wechseln die Projekte in den Status „Abgeschlossen“.
 
 ### Workfront - Warnung und Versuch, veraltete Projekte zu schließen
 
-Verwenden Sie dieses Szenario, um die Warnung bei und den Abschluss von Projekten zu automatisieren, die der veralteten Projektrichtlinie Ihres Unternehmens entsprechen.
+Verwenden Sie dieses Szenario, um die Warnung vor und den Abschluss von Projekten zu automatisieren, die den Richtlinien Ihres Unternehmens für veraltete Projekte entsprechen.
 
-### Workfront - Kopieren neuer Hinweise und Antworten von Quellproblem/Anfrage an bereits konvertierte Projekte oder Aufgaben
+### Workfront: Kopieren Sie neue Notizen und Antworten aus der Anfrage/dem Quelltext in ein bereits konvertiertes Projekt oder eine bereits konvertierte Aufgabe.
 
-Verwenden Sie diese Vorlage, um Notizen und Antworten von einem Problem oder einer Anfrage in ein bereits konvertiertes Projekt oder eine bereits konvertierte Aufgabe zu kopieren.
+Mit dieser Vorlage können Sie Notizen und Antworten aus einem Problem oder einer Anfrage in ein bereits konvertiertes Projekt oder eine Aufgabe kopieren.
 
-### Workfront - Kopieren von Programm-benutzerdefinierten Forms- und Felddaten in zugehörige neue Projekte
+### Workfront - Kopieren von benutzerdefinierten Forms- und Felddaten aus dem Programm in verknüpfte neue Projekte
 
-Diese Automatisierung überwacht neue Projekte in Programmen mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Formulare und Felder des Programms zu den neuen Projekten hinzugefügt.
+Diese Automatisierung überwacht neue Projekte in Programmen mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Programmformulare und -felder zu den neuen Projekten hinzugefügt.
 
-### Workfront - Kopieren von Portfolio-benutzerdefinierten Forms- und Felddaten in verknüpfte neue Projekte
+### Workfront - Kopieren von benutzerdefinierten Portfolio-Forms- und -Felddaten in verknüpfte neue Projekte
 
-Diese Automatisierung überwacht neue Projekte in Portfolios mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Formulare und Felder des Portfolios zu den neuen Projekten hinzugefügt.
+Diese Automatisierung überwacht neue Projekte in Portfolios mit benutzerdefinierten Formularen. Anschließend werden diese benutzerdefinierten Portfolioformulare und -felder zu den neuen Projekten hinzugefügt.
 
-### Workfront - Konvertieren eines genehmigten Problems in ein Projekt
+### Workfront - Genehmigte Anfrage in Projekt konvertieren
 
-Diese Vorlage konvertiert Probleme in Projekte. Sie können sie an die Standards Ihres Unternehmens anpassen.
+Diese Vorlage konvertiert Probleme in Projekte. Sie können ihn an die Standards Ihres Unternehmens anpassen.
 
-### Workfront - Kopieren von Dokumenten aus Problemen/Anforderungen in bereits konvertierte Projekte oder Aufgaben
+### Workfront - Dokumente aus Anfragen/Anfragen in bereits konvertierte Projekte oder Aufgaben kopieren
 
-Dieses flexible Szenario kopiert Dokumente von Problemen oder Anforderungen in zuvor konvertierte Projekte oder Aufgaben.
+Dieses flexible Szenario kopiert Dokumente von Problemen oder Anfragen an zuvor konvertierte Projekte oder Aufgaben.
 
-### Angepasste Benachrichtigung basierend auf Feldänderung
+### Maßgeschneiderte Benachrichtigung basierend auf Feldänderungen
 
-Diese Vorlage erstellt auf Basis eines eindeutigen Ereignisses, z. B. einer Änderung des Feldwerts, maßgeschneiderte Aktualisierungen (und zugehörige Benachrichtigungen) für Einzelanwender, die an einem Workfront-Projekt arbeiten. Das Szenario überwacht Workfront auf die Änderung eines bestimmten Felds in einer Aufgabe oder einem Problem. Wenn das Szenario auftritt, werden die Informationen im zugehörigen Projekt ausgewertet und ein maßgeschneidertes Update für eine Person erstellt, die einer bestimmten Rolle im Projekt zugewiesen ist.
+Diese Vorlage erstellt auf der Grundlage eines eindeutigen Ereignisses, wie z. B. einer Änderung eines Feldwerts, maßgeschneiderte Aktualisierungen (und zugehörige Benachrichtigungen) für Personen, die an einem Workfront-Projekt arbeiten. Das Szenario überwacht Workfront auf Änderungen, die ein bestimmtes Feld in einer Aufgabe oder einem Problem hervorruft. Wenn dies auftritt, wertet das Szenario die Informationen im zugehörigen Projekt aus und erstellt eine maßgeschneiderte Aktualisierung für eine Person, die einer bestimmten Rolle im Projekt zugewiesen wurde.
 
-### Workfront - Massen-Anhang zum Projektnamen mit Konvention
+### Workfront - Massen-Anhängen an den Projektnamen mit Konvention
 
-Mit dieser Vorlage für Massenaktualisierungen werden alle Projekte umbenannt, die den Kriterien einer Suche entsprechen (in ein Portfolio fallen), und sie mit einem Standardformat umbenannt.
+Diese Massenaktualisierungsvorlage benennt alle Projekte um, die die Kriterien einer Suche erfüllen (die in ein Portfolio fallen) und benennt sie in einem Standardformat um.
 
-### Workfront - Umbenennen von Projekten mit einer Konvention
+### Workfront - Projekte mit Konvention umbenennen
 
-Diese Vorlage ermittelt alle Projekte, die die Kriterien eines Filters erfüllen (die in ein Portfolio fallen), und benennt sie in ein Standardformat um.
+Diese Vorlage sucht alle Projekte, die die Kriterien eines Filters erfüllen (die in ein Portfolio fallen), und benennt sie mit einem Standardformat um.
 
-### Workfront - Erstellen einer Grundlinie zur Statusänderung
+### Workfront - Baseline bei Statusänderung erstellen
 
-Diese Vorlage erfasst eine Projektgrundlinie bei jeder in den Switch-Modulen verzeichneten Änderung des Projektstatus und erstellt eine Aktualisierung im Aktualisierungsstream zur Protokollierung.
+Diese Vorlage erfasst eine Projektgrundlinie bei jeder Projektstatusänderung, die in den „Switch“-Modulen vermerkt wird, und erstellt eine Aktualisierung im Aktualisierungsverlauf für die Protokollierung.
 
-### Workfront - Erstellung von Grundlinien pro Woche
+### Workfront - Wöchentliche Basiserstellung
 
-Diese Vorlage erfasst wöchentlich jeden Montag um 6 Uhr ET eine Projektgrundlinie für Projekte, die nach Portfolio gefiltert wurden, und erstellt eine Aktualisierung im Aktualisierungsstream zur Protokollierung.
+Diese Vorlage erfasst wöchentlich montags um 6 Uhr ET eine Projekt-Grundlinie für Projekte, die nach Portfolio gefiltert werden, und erstellt eine Aktualisierung im Aktualisierungsverlauf für die Protokollierung.
 
-### Suchen Sie nach Projektvorlagen, die nicht in der Richtlinienzeit verwendet werden, und benachrichtigen Sie
+### Projektvorlagen suchen, die in der Richtlinienzeit nicht verwendet werden, und benachrichtigen
 
-Überprüfen Sie einmal im Monat Ihre Projektvorlagen mithilfe Ihrer eigenen Richtlinie mit dieser einfach zu handhabenden Vorlage, die die entsprechenden Benutzer über Vorlagen benachrichtigt, die gegen Ihre Richtlinie verstoßen.
+Überprüfen Sie einmal monatlich Ihre Projektvorlagen mithilfe Ihrer eigenen Richtlinie mit dieser einfach zu verwaltenden Vorlage, die die entsprechenden Benutzer über Vorlagen benachrichtigt, die gegen Ihre Richtlinie verstoßen.
 
 ## Workfront - Workfront Proof-Vorlagen
 
 Diese Vorlagen automatisieren Workflows, die Workfront mit Workfront Proof kombinieren.
 
-### Workfront Proof > Workfront - Projektaktualisierung beim Testversandbeschluss
+### Workfront Proof > Workfront - Projekt-Update zur Korrekturabzugsentscheidung
 
-Wenn eine Entscheidung über einen Testversand getroffen wird, der direkt zu einem Projekt hinzugefügt wird, erfasst diese Automatisierung Informationen zur Testbestätigungsentscheidung, z. B. wer die Entscheidung getroffen hat, und spiegelt diesen Fortschritt im entsprechenden Workfront-Projekt als Aktualisierung wider.
+Wenn eine Entscheidung über einen Korrekturabzug getroffen wird, der einem Projekt direkt hinzugefügt wird, erfasst diese Automatisierung Informationen über die Korrekturabzugsentscheidung, z. B. wer die Entscheidung getroffen hat, und spiegelt diesen Fortschritt dann im entsprechenden Workfront-Projekt als Aktualisierung wider.
 
-### Workfront Proof > Workfront - Task Update and Complete (if Approved) on Testing Decision
+### Workfront Proof > Workfront - Aufgabenaktualisierung und -abschluss (falls genehmigt) bei Korrekturabzugsentscheidung
 
-Wenn einzelne Testsendungen an einzelne Aufgaben gebunden sind, schließt dieses Szenario die damit verbundene Aufgabe, sobald eine Validierungsentscheidung für den Testversand getroffen wird. Wenn die Genehmigung erteilt wurde, wird die Aufgabe abgeschlossen und das Projekt aktualisiert.
+Wenn einzelne Korrekturabzüge mit einzelnen Aufgaben verknüpft sind, schließt dieses Szenario die zugehörige Aufgabe, wenn eine Genehmigungsentscheidung für den Korrekturabzug getroffen wird. Sofern genehmigt, wird die Aufgabe abgeschlossen und das Projekt aktualisiert.
 
 ## HTTP - Workfront-Vorlagen
 
-Diese Vorlagen rufen Informationen von einem Webdienst ab und bringen diese Informationen in Workfront.
+Diese Vorlagen rufen Informationen von einem Webservice ab und bringen diese Informationen in Workfront ein.
 
 >[!NOTE]
 >
-> Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
+> Sie müssen über eine Lizenz für Workfront Fusion for Work Automation und Integration verfügen, um Vorlagen in diesem Abschnitt verwenden zu können.
 
-### Herstellen einer Verbindung mit JWT (JSON Web Token)
+### Herstellen einer Verbindung mithilfe von JWT (JSON Web Token)
 
-Einrichten der JWT-Autorisierung für eine Client-API.
+Richten Sie eine JWT-Autorisierung für eine Client-API ein.
 
-### APILayer > Workfront - Tägliche Aktualisierung des Wechselkurses (EUR)
+### APILayer > Workfront - Tägliches Wechselkursupdate (EUR)
 
 Diese Vorlage erstellt ein Szenario, das die Aktualisierung eines Wechselkurses zu einem bestimmten Zeitpunkt automatisiert. Bei diesem Szenario wird der Kurs von Euro (EUR) auf US-Dollar (USD) von einer APIlayers.com API abgerufen und der Kurs in Workfront aktualisiert.
 
@@ -130,19 +130,19 @@ Diese Vorlagen unterstützen die Integration von Workfront mit Marketo.
 
 >[!NOTE]
 >
-> Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
+> Sie müssen über eine Lizenz für Workfront Fusion for Work Automation und Integration verfügen, um Vorlagen in diesem Abschnitt verwenden zu können.
 
-### Genehmigen Sie Ihren Marketo Engage-E-Mail-Entwurf mit Workfront-Genehmigungs-Workflows.
+### Genehmigen des Marketo Engage-E-Mail-Entwurfs mit Workfront-Genehmigungs-Workflows
 
-Dies ist Teil der Integration von Workfront und Marketo Engage &quot;Überprüfen und Genehmigen&quot;. Diese Vorlage erkennt, ob ein E-Mail-Testversand in Workfront genehmigt wurde, und aktualisiert dann die entsprechende E-Mail in der genehmigten Marketo Engage-Version.
+Dies ist Teil der Integration zwischen Workfront und Marketo Engage. Diese Vorlage erkennt, ob ein E-Mail-Korrekturabzug in Workfront genehmigt wurde, und aktualisiert dann die entsprechende E-Mail in Marketo Engage als genehmigt.
 
-### Erfassen von Marketing-Kampagnenanfragen in Workfront und Automatisieren der Erstellung von Kampagnen in Marketo Engage
+### Aufnahme von Anfragen zu Marketing-Kampagnen in Workfront und Automatisierung der Kampagnenerstellung in Marketo Engage
 
-Dieses Szenario bietet eine programmatische Möglichkeit, E-Mail- und Webinar-Kampagnen in Marketo Engage aus einer in Workfront erstellten Anforderung zu erstellen. Durch die Verwendung von Automatisierung zur Erstellung, Organisation und Konfiguration von Kampagnen können Teams die Effizienz steigern.
+Dieses Szenario bietet eine programmgesteuerte Möglichkeit, E-Mail- und Webinar-Kampagnen auf Marketo Engage basierend auf einer in Workfront gestellten Anfrage zu erstellen. Durch den Einsatz der Automatisierung zum Erstellen, Organisieren und Konfigurieren von Kampagnen können Teams die Effizienz verbessern.
 
-### Prüfen eines E-Mail-Testversands Ihres Marketo Engage-E-Mail-Entwurfs in Workfront
+### Überprüfen eines E-Mail-Korrekturabzugs für Ihren Marketo Engage-E-Mail-Entwurf in Workfront
 
-Diese Vorlage erkennt, ob eine Workfront-Aufgabe auf einen Überprüfungsstatus gesetzt wurde, und exportiert dann den E-Mail-Entwurf von Marketo Engage, um ihn als Testversand in Workfront zu speichern.
+Diese Vorlage erkennt, ob eine Workfront-Aufgabe den Status Bereit für Überprüfung erhalten hat, und exportiert dann den E-Mail-Entwurf von Marketo Engage, um ihn als Korrekturabzug in Workfront zu speichern.
 
 ## Workfront-SharePoint-Vorlagen
 
@@ -150,38 +150,38 @@ Diese Vorlagen verbinden Workfront und SharePoint.
 
 >[!NOTE]
 >
-> Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
+> Sie müssen über eine Lizenz für Workfront Fusion for Work Automation und Integration verfügen, um Vorlagen in diesem Abschnitt verwenden zu können.
 
-### Änderungen an SharePoint-Ordnern überwachen
+### SharePoint-Ordneränderungen ansehen
 
-Mit dieser Vorlage können Sie sehen, ob sich ein Ordner in SharePoint geändert hat.
+Mit dieser Vorlage können Sie sehen, ob es eine Änderung in einem SharePoint-Ordner gibt.
 
 
 ## Workfront-Anaplan-Vorlagen
 
-Diese Vorlagen unterstützen die Workfront-Anaplan-Integration und erwarten eine bestimmte Konfiguration in beiden Anaplan in Workfront. Informationen zu diesen Vorlagen und den entsprechenden Konfigurationen finden Sie in den Artikeln für die einzelnen Vorlagen.
+Diese Vorlagen unterstützen die Workfront-Anaplan-Integration und erwarten eine bestimmte Konfiguration in Anaplan und Workfront. Informationen zu diesen Vorlagen und den erforderlichen Konfigurationen finden Sie in den Artikeln zu den einzelnen Vorlagen.
 
-Weitere Informationen zur Integration von Workfront mit Anaplan finden Sie unter [Adobe Workfront mit Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
+Weitere Informationen zur Workfront-Anaplan-Integration finden Sie unter [Adobe Workfront mit Anaplan](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/anaplan-integration.md).
 
 >[!NOTE]
 >
-> Sie benötigen eine Workfront Fusion for Work Automation and Integration-Lizenz, um Vorlagen in diesem Abschnitt verwenden zu können.
+> Sie müssen über eine Lizenz für Workfront Fusion for Work Automation und Integration verfügen, um Vorlagen in diesem Abschnitt verwenden zu können.
 
-### Arbeitsabläufe zur Ausgabenoptimierung
+### Workflows zur Ausgabenoptimierung
 
-* [Senden von [!DNL Adobe Workfront] Projektaktualisierungen an ein [!DNL Anaplan] Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [Senden von  [!DNL Adobe Workfront] Aufwendungen an einen  [!DNL Anaplan] -Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
-* [Senden von [!DNL Adobe Workfront] tatsächlichen Stunden-Aktualisierungen an ein [!DNL Anaplan] Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Projektaktualisierungen  [!DNL Adobe Workfront]  ein  [!DNL Anaplan]  senden](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [Senden  [!DNL Adobe Workfront]  Ausgaben an  [!DNL Anaplan]  Listenelement](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [ [!DNL Adobe Workfront]  Stunden-Aktualisierungen an ein  [!DNL Anaplan]  senden](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
 
-### Workflows für die Verknüpfung von Budgetanforderungen
+### Workflows zum Verknüpfen von Budgetanfragen
 
-* [Erstellen eines  [!DNL Anaplan] Listenelements aus einer  [!DNL Adobe Workfront] -Budgetanfrage](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [Anwenden einer [!DNL Anaplan] Budgetzuordnung auf ein [!DNL Adobe Workfront] Projekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [Erstellen  [!DNL Anaplan]  Listenelements aus einer  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [Anwenden  [!DNL Anaplan]  Budgetzuweisung auf ein  [!DNL Adobe Workfront] ](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
 ### Workflows zum Verknüpfen von Kampagnenanfragen
 
-* [Erstellen eines [!DNL Anaplan] Listenelements aus einer [!DNL Adobe Workfront] Kampagnenanforderung](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [Anwenden einer [!DNL Anaplan] Budgetzuordnung auf eine [!DNL Adobe Workfront] Kampagnen-Anfrage oder ein Kampagnenprojekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [Erstellen  [!DNL Anaplan]  Listenelements aus einer  [!DNL Adobe Workfront] -Anfrage](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [Anwenden  [!DNL Anaplan]  Budgetzuweisung auf eine Kampagnenanfrage  [!DNL Adobe Workfront]  ein Kampagnenprojekt](../../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
 
 
 <!--[!BADGE New!]{type=Informative} -->

@@ -3,7 +3,7 @@ content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
 title: Adobe Workfront für Slack
-description: Adobe Workfront bietet eine Integration mit Slack an. In diesem Artikel finden Sie Anweisungen zu gängigen Anwendungsfällen für dieses Szenario sowie Anweisungen zur Konfiguration.
+description: Adobe Workfront bietet eine Integration mit Slack. Dieser Artikel verweist auf Anweisungen zu häufigen Anwendungsfällen für dieses Szenario sowie Anweisungen zur Konfiguration.
 author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Konfigurieren von  [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
-* [Zugriff [!DNL Adobe Workfront] von  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
-* [Verwalten Sie Ihre Arbeit und Ihre Genehmigungen von  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
-* [Erstellen von Aufgaben und Problemen aus  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
-* [Suchen Sie nach [!DNL Adobe Workfront] Elementen aus  [!DNL Slack] .](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
-* [Zugriff auf  [!DNL Adobe Workfront] Objekte über einen freigegebenen Link in  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
-* [Greifen Sie über  [!DNL Slack] auf Ihre Favoriten und aktuellen Elemente zu](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
-* [Post a [!DNL Slack] comment als update](../../workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
-* [Empfangen von [!DNL Adobe Workfront] Benachrichtigungen in  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)
+* [Konfigurieren Sie [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md)
+* [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md)
+* [Arbeiten und Genehmigungen verwalten von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/manage-your-work-and-approvals-from-slack.md)
+* [Erstellen Sie Aufgaben und Probleme aus [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/create-tasks-and-issues-from-slack.md)
+* [Nach Elementen  [!DNL Adobe Workfront] aus [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/search-for-wf-items-from-slack.md)
+* [Zugriff  [!DNL Adobe Workfront]  Objekte über einen freigegebenen Link in [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-wf-objects-from-shared-linked-in-slack.md)
+* [Zugreifen auf Favoriten und aktuelle Elemente über [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-favorites-and-recent-items-from-slack.md)
+* [Einen  [!DNL Slack]  als Update posten](../../workfront-integrations-and-apps/using-workfront-with-slack/post-a-slack-comment-as-an-update.md)
+* [Empfangen  [!DNL Adobe Workfront]  Benachrichtigungen in [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md)

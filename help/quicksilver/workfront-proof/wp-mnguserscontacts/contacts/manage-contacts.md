@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: contacts-workfront-proof
-title: Kontakte verwalten in [!DNL Workfront Proof]
-description: Sie können Ihre Kollegen, Mitglieder und Gäste auf der Kontaktseite verwalten.
+title: Kontakte in verwalten [!DNL Workfront Proof]
+description: Sie können Ihre Kollegen, Mitglieder und Gäste auf der Seite Kontakte verwalten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e2fc091a-4c06-40c5-9fb4-256239f09ffc
@@ -18,72 +18,72 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie können Ihre Kollegen, Mitglieder und Gäste auf der Kontaktseite verwalten.
+Sie können Ihre Kollegen, Mitglieder und Gäste auf der Seite Kontakte verwalten.
 
-## Öffnen der Kontaktseite
+## Öffnen der Seite „Kontakte“
 
-1. Klicken Sie in der linken Navigationsseitenleiste auf **[!UICONTROL Kontakte]** .
-1. (Optional) Klicken Sie auf **[!UICONTROL Ansicht ändern]** und wählen Sie dann eine Option, um festzulegen, ob Sie die Ansicht nach Kontakt oder Unternehmen anzeigen möchten.
+1. Klicken Sie **[!UICONTROL der linken]** auf „Kontakte“.
+1. (Optional) Klicken Sie **[!UICONTROL Ansicht ändern]** und wählen Sie dann eine Option aus, um anzugeben, ob Sie nach Kontakt oder Firma anzeigen möchten.
 
-## Sortieren von Kontakten
+## Kontakte sortieren
 
-1. Klicken Sie in der linken Navigationsseitenleiste auf **[!UICONTROL Kontakte]** .
+1. Klicken Sie **[!UICONTROL der linken]** auf „Kontakte“.
 1. Klicken Sie auf die Spaltenüberschrift, nach der Sie sortieren möchten.
-Oder
-Wählen Sie eine Option aus dem Menü **[!UICONTROL Sortieren]** in der oberen rechten Ecke der Seite Kontakte aus.
+oder
+Wählen Sie eine Option aus dem **[!UICONTROL Sortieren]** Menü in der oberen rechten Ecke der Seite Kontakte .
 
 1. ![Contacts_page-Sort_menu.png](assets/contacts-page-sort-menu.png)
 
-1. Das Dreieck einer Spaltenüberschrift zeigt die Sortierreihenfolge an. Nach oben zeigt es eine aufsteigende Reihenfolge an, eine nach unten weisende Markierung bedeutet eine absteigende Reihenfolge.
+1. Das Dreieck in einer Spaltenüberschrift gibt die Sortierreihenfolge an. Nach oben zeigt es eine aufsteigende Reihenfolge an, nach unten zeigt es eine absteigende Reihenfolge an.
 
-## Filterkontakte
+## Kontakte filtern
 
-1. Klicken Sie in der linken Navigationsseitenleiste auf **[!UICONTROL Kontakte]** .
-1. Klicken Sie auf das Symbol **[!UICONTROL Filter]** rechts neben den Spaltenüberschriften, um die Filteroptionen unter den Spaltenüberschriften anzuzeigen.
-1. Wählen Sie [!UICONTROL Filteroptionen] aus den Dropdown-Menüs aus, geben Sie die Filterfelder ein, die unter jeder Spaltenüberschrift angezeigt werden, und klicken Sie dann erneut auf das Symbol **[!UICONTROL Filter]** , um die Optionen anzuwenden.
+1. Klicken Sie **[!UICONTROL der linken]** auf „Kontakte“.
+1. Klicken Sie auf **[!UICONTROL Filter]**-Symbol ganz rechts neben den Spaltenüberschriften, um die Filteroptionen unter den Spaltenüberschriften anzuzeigen.
+1. Wählen Sie [!UICONTROL Filteroptionen] aus den Dropdown-Menüs aus und geben Sie die Filterfelder ein, die unter den einzelnen Spaltenüberschriften angezeigt werden. Klicken Sie dann erneut auf das **[!UICONTROL Filter]**-Symbol, um die Optionen anzuwenden.
 1. ![Contacts_page-filtering_options.png](assets/contacts-page-filtering-options-350x205.png)
 
 1. Oder
-1. Wählen Sie den ersten Brief im Namen des gewünschten Kontakts aus.
-1. ![Contacts_page-filtering_by_letter.png](assets/contacts-page-filtering-by-letter-350x238.png)
+1. Wählen Sie den ersten Buchstaben im Namen des gewünschten Kontakts.
+1. ![Contacts_page-filters_by_letter.png](assets/contacts-page-filtering-by-letter-350x238.png)
 
-## Verwalten eines oder mehrerer Kontakte
+## Einen oder mehrere Kontakte verwalten
 
-1. Klicken Sie in der linken Navigationsseitenleiste auf **[!UICONTROL Kontakte]** .
+1. Klicken Sie **[!UICONTROL der linken]** auf „Kontakte“.
 1. Aktivieren Sie das Kontrollkästchen für einen oder mehrere Kontakte.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **[!UICONTROL Zu Gruppe hinzufügen]** , um die ausgewählten Kontakte zu einer Gruppe hinzuzufügen.
+   * Klicken Sie **[!UICONTROL Zu Gruppe hinzufügen]**, um die ausgewählten Kontakte zu einer Gruppe hinzuzufügen.
 
      ![Add_to_Group_btn.png](assets/add-to-group-btn.png)
 
-   * Klicken Sie auf **[!UICONTROL Entfernen]** und dann auf eine Option im Dropdown-Menü, um den Kontakt aus Testsendungen oder Gruppen zu entfernen.
-   * Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Erinnerung bei verspäteten Testsendungen senden]** , um den ausgewählten Kontakten eine Erinnerungsmail über verspätete Testsendungen zu senden.
+   * Klicken Sie **[!UICONTROL Entfernen]** und klicken Sie dann auf eine Option im Dropdown-Menü, um den Kontakt aus Testsendungen oder Gruppen zu entfernen.
+   * Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Erinnerung zu verspäteten Korrekturabzügen senden]**, um den ausgewählten Kontakten eine Erinnerungs-E-Mail zu verspäteten Korrekturabzügen zu senden.
 
-   * Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Kontakte in CSV exportieren]** , um die ausgewählten Kontakte in eine CSV-Datei zu exportieren.
+   * Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Kontakte in CSV exportieren]**, um die ausgewählten Kontakte in eine CSV-Datei zu exportieren.
 
-   * Klicken Sie auf **[!UICONTROL Kontakte löschen]** , um die ausgewählten Kontakte aus Ihrer Liste zu entfernen.
+   * Klicken Sie **[!UICONTROL Kontakte löschen]**, um die ausgewählten Kontakte aus Ihrer Liste zu entfernen.
 
-     ![Trash_button.png](assets/trash-button.png)
-Das Löschen eines Kontakts bedeutet nicht, dass ein Benutzer aus Ihrem Konto entfernt wird. Wenn jedoch ein Administrator oder Abrechnungsadministrator einen Benutzer aus der Kontaktliste löscht, wird dieser Benutzer vollständig aus dem Konto Ihres Unternehmens gelöscht.
+     ![trash_button.png](assets/trash-button.png)
+Das Löschen eines Kontakts bedeutet nicht, dass ein Benutzer aus Ihrem Konto entfernt wird. Wenn jedoch ein Administrator oder ein Rechnungsadministrator eine Person aus der Kontaktliste löscht, wird diese Person vollständig aus dem Konto Ihres Unternehmens gelöscht.
 
-   * Klicken Sie am Ende der Zeile eines Kontakts auf das Symbol **[!UICONTROL Mehr]** und verwenden Sie eine der Optionen im angezeigten Dropdown-Menü.
+   * Klicken Sie auf **[!UICONTROL Mehr]** am Ende der Zeile eines Kontakts und verwenden Sie eine der Optionen im angezeigten Dropdown-Menü.
 
-     Diese Optionen unterscheiden sich je nach Kontakttyp. Weitere Informationen finden Sie unter [Benutzer, Mitglieder und Gäste verstehen in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) .
+     Diese Optionen sind für verschiedene Kontakttypen unterschiedlich. Weitere [ finden Sie unter „Grundlegendes zu Benutzern, Mitgliedern und Gästen in [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/contacts/use-members-guests.md) .
 
 ## Kontakte importieren
 
 Sie können Kontakte aus einer CSV-Datei importieren.
 
-1. Klicken Sie in der linken Navigationsseitenleiste auf **[!UICONTROL Kontakte]** .
-1. Klicken Sie auf der Seite &quot;Kontakte&quot;auf **[!UICONTROL Mehr]** > **[!UICONTROL Kontakte importieren]** , um Ihrer Liste Kontakte hinzuzufügen.
+1. Klicken Sie **[!UICONTROL der linken]** auf „Kontakte“.
+1. Klicken Sie auf der Seite Kontakte auf **[!UICONTROL Mehr]** > **[!UICONTROL Kontakte importieren]**, um Kontakte zu Ihrer Liste hinzuzufügen.
 
 1. Klicken Sie auf der angezeigten Seite Personen importieren auf **[!UICONTROL Datei auswählen]**.
-1. Wählen Sie die Feldtrennmethode in der Datei aus.
+1. Wählen Sie die Feldtrennungsmethode in der Datei aus.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   * Die CSV-Datei muss mindestens eine Spalte namens &quot;E-Mail&quot;(mit den E-Mail-Adressen) enthalten.
-   * Sie können auch zusätzliche Spalten für &quot;Name&quot;, &quot;Firma&quot;, &quot;Telefon&quot;und &quot;Mobiltelefon&quot;einfügen.
-   * Anstelle von &quot;Name&quot;können Sie zwei Spalten für &quot;Vorname&quot;und &quot;Nachname&quot;verwenden. Wenn separate Vor- und Nachname-Spalten verwendet werden, müssen Sie sicherstellen, dass Sie nicht auch eine &quot;Name&quot;-Spalte einschließen.
+   * Die CSV-Datei muss mindestens eine Spalte namens „E-Mail“ enthalten (die die E-Mail-Adressen enthält).
+   * Sie können auch zusätzliche Spalten für „Name“, „Unternehmen“, „Telefon“ und „Mobilgerät“ einbeziehen.
+   * Anstelle von „Name“ können Sie zwei Spalten für „Vorname“ und „Nachname“ verwenden. Wenn separate Vor- und Nachnamenspalten verwendet werden, müssen Sie sicherstellen, dass Sie nicht auch eine Spalte „Name“ einschließen.

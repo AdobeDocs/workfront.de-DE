@@ -3,7 +3,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Hinzufügen eines Benutzers zu einer Organisation in Adobe Workfront Fusion
-description: Sie können in Adobe Workfront Fusion Organisationen Benutzer hinzufügen.
+description: In Adobe Workfront Fusion können Sie Benutzende zu Organisationen hinzufügen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
@@ -14,61 +14,61 @@ ht-degree: 0%
 
 ---
 
-# Hinzufügen eines Benutzers zu einer Organisation oder einem Team in Adobe Workfront Fusion
+# Hinzufügen von Benutzenden zu einer Organisation oder einem Team in Adobe Workfront Fusion
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in den [!DNL Adobe Admin Console] integriert wurden. Wenn Ihr Unternehmen in die [!DNL Adobe Admin Console] integriert wurde, müssen Sie diese Aktion über die [!DNL Adobe Admin Console] durchführen.
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in das [!DNL Adobe Admin Console] integriert wurden. Wenn Ihre Organisation in die [!DNL Adobe Admin Console] integriert wurde, müssen Sie diese Aktion über die [!DNL Adobe Admin Console] durchführen.
 >
->Anweisungen zum Hinzufügen eines Benutzers, nachdem Ihr Unternehmen in den Ordner &quot;[!DNL  Adobe Admin Console]&quot;und das Adobe &quot;Einheitliches Erlebnis&quot;verschoben wurde, finden Sie unter [Hinzufügen von Benutzern zu  [!DNL Adobe Workfront Fusion]  über den Abschnitt &quot; [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)&quot;.
+>Anweisungen zum Hinzufügen eines Benutzers, nachdem Ihr Unternehmen in das [!DNL  Adobe Admin Console] verschoben wurde, und zum einheitlichen Adobe-Erlebnis finden Sie unter [Hinzufügen von Benutzern zu [!DNL Adobe Workfront Fusion] über die [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md).
 >
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem unterscheiden, ob Ihr Unternehmen Adobe Admin Console verwendet hat, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront Fusion/Adobe Business Platform)](../../../quicksilver/workfront-fusion/fusion-in-admin-console/fusion-in-admin-console.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
    <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-    <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+    <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+    <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
    </tr>
    <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] Lizenz**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td>
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
    <td> 
-     <p>Sie müssen ein [!DNL Workfront Fusion] -Administrator für Ihre Organisation sein.</p>
-     <p>Sie müssen ein [!DNL Workfront Fusion] -Administrator für Ihr Team sein.</p>
+     <p>Sie müssen ein [!DNL Workfront Fusion]-Administrator für Ihre Organisation sein.</p>
+     <p>Sie müssen [!DNL Workfront Fusion] für Ihr Team sein.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Hinzufügen von Benutzern zu einer Organisation
 
@@ -95,22 +95,22 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 -->
 >[!NOTE]
 >
->Wenn Ihr Unternehmen gerade dabei ist, auf die Adobe Admin Console umzustellen, können Sie keine Benutzer in Workfront verwalten (Benutzer hinzufügen oder löschen). Sie können diese Aktionen in der Adobe Admin Console ausführen, nachdem die Migration abgeschlossen ist.
+>Wenn Ihr Unternehmen derzeit zur Adobe Admin Console wechselt, können Sie in Workfront keine Benutzenden verwalten (Benutzende hinzufügen oder löschen). Sie können diese Aktionen nach Abschluss der Migration in der Adobe Admin Console ausführen.
 
-Um Benutzer zur Organisation hinzuzufügen, müssen Sie Administrator der Organisation sein, der Sie Benutzer hinzufügen möchten. Informationen zu Rollen finden Sie unter [Organisationsrollen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
+Um Benutzer zur Organisation hinzuzufügen, müssen Sie Administrator der Organisation sein, der Benutzer hinzugefügt werden sollen. Informationen zu Rollen finden Sie unter [Organisationsrollen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/organizations/organization-roles.md).
 
 So fügen Sie einen Benutzer zur Organisation hinzu:
 
-1. Navigieren Sie im Menü zu **[!UICONTROL Organisationen]** und wählen Sie die Organisation aus, der Sie einen Benutzer hinzufügen möchten.
-1. Öffnen Sie die Registerkarte **[!UICONTROL Benutzer]** in Ihrem Dashboard.
-1. Klicken Sie auf **[!UICONTROL Einladen eines neuen Benutzers]**.und senden Sie die Einladung durch Klicken auf **[!UICONTROL Senden]**.
+1. Navigieren Sie **[!UICONTROL Menü zu]** und wählen Sie die Organisation aus, der Sie einen Benutzer hinzufügen möchten.
+1. Öffnen Sie die **[!UICONTROL Benutzer]** in Ihrem Dashboard.
+1. Klicken Sie **[!UICONTROL Neuen Benutzer einladen]** und senden Sie die Einladung durch Klicken auf **[!UICONTROL Senden]**.
 
    >[!NOTE]
    >
    >   
-   >Wenn die Schaltfläche [!UICONTROL Neuen Benutzer einladen] nicht angezeigt wird, wurde Ihr Unternehmen in den Bereich [!DNL Adobe Business Platform.] integriert
+   >Wenn die Schaltfläche [!UICONTROL Neuen Benutzer einladen] nicht angezeigt wird, wurde Ihr Unternehmen in das [!DNL Adobe Business Platform.] integriert
    >
-   >  Anweisungen zum Hinzufügen eines Benutzers zu einer Organisation, die in den [!DNL Adobe Business Platform] integriert wurde, finden Sie unter [Hinzufügen von Benutzern zu  [!DNL Adobe Workfront Fusion] über den Abschnitt  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+   >  Anweisungen zum Hinzufügen eines Benutzers zu einer Organisation, die in die [!DNL Adobe Business Platform] integriert wurde, finden Sie unter [Hinzufügen von Benutzern zu [!DNL Adobe Workfront Fusion]  über die  [!DNL Adobe Admin Console]](/help/quicksilver/workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
 
 1. Füllen Sie das Formular aus.
 
@@ -127,41 +127,41 @@ So fügen Sie einen Benutzer zur Organisation hinzu:
     <tr>
       <td role="rowheader">[!UICONTROL Name]</td>
       <td>
-        <p>Vollständigen Namen des Benutzers eingeben</p>
+        <p>Den vollständigen Namen des Benutzers eingeben</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Rolle] </td>
-      <td>Wählen Sie die Benutzerrolle aus. Eine Erläuterung der Rollen finden Sie unter <a href="/help/quicksilver/workfront-fusion/organizations/organization-roles.md">Organisations- und Teamrollen.</a></p>
+      <td role="rowheader">[!UICONTROL Role] </td>
+      <td>Wählen Sie die Rolle des Benutzers aus. Erläuterungen zu Rollen finden Sie unter <a href="/help/quicksilver/workfront-fusion/organizations/organization-roles.md">Organisations- und Teamrollen.</a></p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Teams</td>
-      <td>Wählen Sie alle Teams aus, denen der Benutzer angehören soll.</td>
+      <td>Wählen Sie alle Teams aus, denen der Benutzer als Mitglied angehören soll.</td>
     </tr>
     <tr>
       <td role="rowheader">Notiz</td>
-      <td>Geben Sie eine Notiz für den Benutzer ein. Dieser Hinweis wird in der Einladungs-E-Mail des Benutzers angezeigt.</td>
+      <td>Geben Sie eine Notiz für den Benutzer ein. Diese Anmerkung wird in der Einladungs-E-Mail des Benutzers angezeigt.</td>
     </tr>
   </tbody>
 </table>
 
-Der Benutzer erhält eine Einladungs-E-Mail, in der er die Einladung annehmen kann.
+Der Benutzer erhält eine Einladungs-E-Mail, über die er die Einladung annehmen kann.
 
 ## Hinzufügen eines Benutzers zu einem Team
 
-Ihre Benutzer werden Teams zugewiesen, wenn Sie sie erstellen. Wenn ein bestehender Benutzer einem Team hinzugefügt werden muss, können Sie ihn auf der Seite &quot;Benutzer&quot;des Teams hinzufügen.
+Ihre Benutzer werden Teams zugewiesen, wenn Sie sie erstellen. Wenn ein vorhandener Benutzer einem Team hinzugefügt werden muss, können Sie ihn auf der Seite Benutzer des Teams hinzufügen.
 
-Das Hinzufügen eines Benutzers zu einem Team erfolgt über die Seite für dieses Team.
+Das Hinzufügen eines Benutzers zu einem Team wird von der Seite aus für dieses Team vorgenommen.
 
-1. Wechseln Sie zu dem Team, dem Sie den Benutzer hinzufügen möchten, indem Sie im linken Bereich die Option **Organisationen** auswählen, auf die Registerkarte **Teams** auf der Organisationsseite klicken und das Team auswählen.
+1. Gehen Sie zu dem Team, dem Sie den Benutzer hinzufügen möchten, indem Sie **Organisationen** im linken Bereich auswählen, auf die Registerkarte **Teams** auf der Seite Organisation klicken und das Team auswählen.
 
    Oder
 
-   Wenn Sie sich auf der Seite für ein anderes Team befinden, klicken Sie auf das Team-Dropdown-Menü oben auf der Seite.
+   Wenn Sie sich auf der Seite für ein anderes Team befinden, klicken Sie auf das Dropdown-Menü Team oben auf der Seite.
 
-1. Wählen Sie auf der Seite des Teams (mit dem Teamnamen oben auf der Seite) die Registerkarte **Benutzer** aus.
-1. Suchen Sie den Benutzer auf der Seite. Benutzer in Ihrer Organisation werden auf dieser Seite angezeigt, auch wenn sie nicht Mitglied des Teams sind.
-1. Klicken Sie rechts neben dem Namen des Benutzers auf **Keine** und wählen Sie dann die Rolle aus, die ihm im Team zugewiesen werden soll.
+1. Wählen Sie auf der Seite „Team“ (mit dem Team-Namen oben auf der Seite) die Registerkarte **Benutzer** aus.
+1. Suchen Sie den Benutzer auf der Seite. Benutzer in Ihrer Organisation werden auf dieser Seite angezeigt, auch wenn sie kein Mitglied des Teams sind.
+1. Klicken Sie **rechts neben** Namen des Benutzers auf „Ohne“ und wählen Sie dann die Rolle aus, die er im Team haben soll.
 
 Der Benutzer wird dem Team hinzugefügt.

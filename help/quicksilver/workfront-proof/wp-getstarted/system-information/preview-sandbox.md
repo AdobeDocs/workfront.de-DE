@@ -3,8 +3,8 @@ content-type: overview;how-to-procedural
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: system-information
-title: Vorschau der Sandbox-Testumgebung - [!DNL Workfront Proof]
-description: Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende von  [!DNL Workfront Proof] aktualisiert wird.
+title: Vorschau einer Sandbox-Testumgebung -  [!DNL Workfront Proof]
+description: Die Vorschau-Sandbox ist eine Testumgebung, die als Replikat Ihrer Live-Umgebung dient und jedes Wochenende aktualisiert wird [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cdf269c6-39b1-477a-b9ea-03edf2de77f0
@@ -19,49 +19,49 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende von [!DNL Workfront Proof] aktualisiert wird.
+Die Vorschau-Sandbox ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und jedes Wochenende [!DNL Workfront Proof] aktualisiert wird.
 
-## Grundlegendes zur Vorschau-Sandbox
+## Grundlegendes zur Sandbox-Vorschau
 
-Die Vorschau-Sandbox dient als Umgebung, in der Benutzer in Ihrer Organisation Daten aus der Produktionsumgebung sicher testen und verwenden können, ohne die Produktionsumgebung zu beeinträchtigen. Es eignet sich ideal zum Ausführen von Trainings-Sitzungen, zum Testen neuer Funktionen und zum Ermitteln der Einrichtungsfunktion.
+Die Sandbox-Vorschau dient als Umgebung, in der Benutzer in Ihrer Organisation Daten aus der Produktionsumgebung sicher testen und damit arbeiten können, ohne die Produktionsumgebung zu beeinträchtigen. Es eignet sich ideal für Schulungen, das Testen neuer Funktionen und die Bestimmung der Setup-Funktionalität.
 
-Außerdem werden neue Produktfunktionen in die Vorschau-Sandbox-Umgebung hochgeladen, bevor sie in die Produktionsumgebung bereitgestellt werden. Ihre Benutzer können dort neue Funktionen ausprobieren, ohne den üblichen Workflow in der Produktionsumgebung zu beeinträchtigen.
+Außerdem werden neue Produktfunktionen in die Sandbox-Vorschau-Umgebung hochgeladen, bevor sie in die Produktionsumgebung bereitgestellt werden. Ihre Anwender können dort neue Funktionen ausprobieren, ohne ihren gewohnten Workflow in der Produktionsumgebung zu beeinträchtigen.
 
-Die Vorschau-Sandbox enthält Ihre tatsächlichen Produktionsdaten. Daten werden von der Produktion in die Vorschau übertragen und nicht umgekehrt. Er wird jedes Wochenende aktualisiert, sodass die Daten bis zu einer Woche hinter der Produktionsumgebung liegen können. Elemente, die seit der letzten Aktualisierungszeit erstellt wurden, befinden sich bis zur folgenden Aktualisierung in der Umgebung &quot;Sandbox-Vorschau&quot;.
+Die Vorschau-Sandbox enthält Ihre tatsächlichen Produktionsdaten. Die Daten fließen von der Produktion zur Vorschau und nicht umgekehrt. Die Daten werden jedes Wochenende aktualisiert, sodass es bis zu einer Woche hinter der Produktionsumgebung zurückliegen kann. Elemente, die seit der letzten Aktualisierung erstellt wurden, befinden sich bis zur nächsten Aktualisierung in der Sandbox-Vorschau-Umgebung.
 
 ## Zugriff auf die Vorschau-Sandbox
 
-Als Systemadministrator haben Sie standardmäßig Zugriff auf die Umgebung &quot;Sandbox-Vorschau&quot;. Wenn Sie nicht auf die in diesem Abschnitt beschriebene Vorschau-Sandbox-Umgebung zugreifen können, wenden Sie sich an Ihren [!DNL Workfront] -Administrator oder unser Supportteam.
+Standardmäßig haben Sie als System-Admin Zugriff auf die Sandbox-Vorschau-Umgebung. Wenn Sie nicht wie in diesem Abschnitt beschrieben auf die Sandbox-Vorschau-Umgebung zugreifen können, wenden Sie sich an Ihren [!DNL Workfront] oder an unser Support-Team.
 
-* [Zugriff auf die Vorschau-Sandbox als eigenständiger [!DNL Workfront Proof] Kunde](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
-* [Zugriff auf die Vorschau-Sandbox als  [!DNL Workfront]+[!DNL Workfront Proof] Kunde](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
+* [Zugriff auf die Sandbox-Vorschau als eigenständiger  [!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-stand-alone-workfront-proof-customer)
+* [Zugriff auf die Vorschau-Sandbox als  [!DNL Workfront]+[!DNL Workfront Proof] ](#accessing-the-preview-sandbox-as-a-workfrontworkfront-proof-customer)
 
-### Zugriff auf die Vorschau-Sandbox als eigenständiger [!DNL Workfront Proof]-Kunde
+### Zugriff auf die Sandbox-Vorschau als eigenständiger [!DNL Workfront Proof]
 
 1. Navigieren Sie zu dieser URL: `https://preview.proofhq.com`.
-1. Melden Sie sich mit Ihren Anmeldedaten für die Vorschau an.\
-   Ihre Vorschauberechtigungen sollten mit Ihren Produktionsberechtigungen übereinstimmen, es sei denn, Sie haben sie in der Produktion geändert, nachdem die Vorschauaktualisierung stattgefunden hat. Die Anmeldungen werden nur synchronisiert, wenn eine Aktualisierung erfolgt, die an jedem Wochenende stattfindet. Sie werden nicht automatisch synchronisiert.
+1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.\
+   Die Vorschau-Anmeldedaten sollten den Produktions-Anmeldedaten entsprechen, es sei denn, Sie haben sie in der Produktionsumgebung nach der Aktualisierung der Vorschau geändert. Die Logins werden nur synchronisiert, wenn eine Aktualisierung stattfindet, die jedes Wochenende stattfindet. Sie werden nicht automatisch synchronisiert.
 
-### Zugriff auf die Vorschau-Sandbox als Testversand-Kunde mit dem Status [!DNL Workfront+Workfront]
+### Zugreifen auf die Sandbox-Vorschau als Kundin oder Kunde von [!DNL Workfront+Workfront] Proof
 
-Als Systemadministrator können Sie über die Benutzeroberfläche von [!DNL Workfront] auf die Sandbox für die Vorschau von [!DNL Workfront Proof] zugreifen.
+Als System-Admin können Sie über die [!DNL Workfront] auf die Sandbox &quot;[!DNL Workfront Proof]-Vorschau“ zugreifen.
 
-So greifen Sie auf die Vorschau-Sandbox [!DNL Workfront Proof] zu:
+So greifen Sie auf die Sandbox für die [!DNL Workfront Proof] zu:
 
-1. Melden Sie sich bei Ihrer [!DNL Workfront] -Umgebung an.
-1. Klicken Sie in der Symbolleiste für globale Navigation auf **[!UICONTROL Einrichtung]** .
-1. Klicken Sie auf **[!UICONTROL System]** >**[!UICONTROL Voreinstellungen]**.
+1. Melden Sie sich bei Ihrer [!DNL Workfront] an.
+1. Klicken **[!UICONTROL in]** globalen Navigationsleiste auf „Setup“.
+1. Klicken Sie auf **[!UICONTROL System]** > **[!UICONTROL Voreinstellungen]**.
 
-1. Klicken Sie im Abschnitt **[!UICONTROL Testumgebungen]** auf **[!UICONTROL Sandbox-Vorschau]**.
+1. Klicken Sie **[!UICONTROL Abschnitt]** Testumgebungen“ auf **[!UICONTROL Sandbox-Vorschau]**.
 
-1. Melden Sie sich mit Ihren Vorschauanmeldeinformationen an.\
-   Ihre Vorschauanmeldeinformationen sollten mit Ihren Produktionsberechtigungen übereinstimmen, es sei denn, Sie haben sie in der Produktion geändert, nachdem die Vorschauaktualisierung stattgefunden hat. Die Anmeldungen werden nur bei einer Aktualisierung synchronisiert. Sie werden nicht automatisch synchronisiert.
-1. Klicken Sie in der Symbolleiste für globale Navigation auf das Symbol &quot;[!DNL Workfront Proof]&quot;.\
-   ![proof_access_proofhq.png](assets/proof-access-proofhq-350x39.png)\
-   Die Vorschau -Umgebung wird angezeigt.[!DNL Workfront Proof]
+1. Melden Sie sich mit Ihren Vorschau-Anmeldedaten an.\
+   Ihre Vorschau-Anmeldedaten sollten mit Ihren Produktions-Anmeldedaten übereinstimmen, es sei denn, Sie haben sie in der Produktion nach der Aktualisierung der Vorschau geändert. Die Anmeldungen werden nur synchronisiert, wenn eine Aktualisierung erfolgt. Sie werden nicht automatisch synchronisiert.
+1. Klicken Sie auf das [!DNL Workfront Proof] in der Symbolleiste für globale Navigation.\
+   ![PROOF_ACCESS_PROOFHQ.png](assets/proof-access-proofhq-350x39.png)\
+   Die [!DNL Workfront Proof] Vorschau -Umgebung wird angezeigt.
 
-## Empfangen von E-Mails über die Vorschau-Sandbox
+## E-Mails von der Vorschau-Sandbox empfangen
 
-E-Mail-Benachrichtigungen werden nie aus der Vorschau-Umgebung von [!DNL Workfront Proof] ausgelöst.
+E-Mail-Benachrichtigungen werden nie aus der [!DNL Workfront Proof] Vorschau-Umgebung ausgelöst.

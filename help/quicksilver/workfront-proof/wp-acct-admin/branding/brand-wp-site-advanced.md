@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marke der [!DNL Workfront] Testversand-Site - erweitert
-description: Erweitertes Branding ist in den Plänen Select und Premium verfügbar und ist in den Kosten des Plans enthalten.
+title: Brand the [!DNL Workfront] Proof-Site - Erweitert
+description: Das erweiterte Branding ist für die Pläne „Select“ und „Premium“ verfügbar und ist in den Kosten des Plans enthalten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: fd9e01ae-71c5-45fe-a874-4ee359fbe057
@@ -14,136 +14,136 @@ ht-degree: 1%
 
 ---
 
-# Marke der [!DNL Workfront Proof]-Site - erweitert
+# Branding der [!DNL Workfront Proof]-Site - Erweitert
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Erweitertes Branding ist in den Plänen Select und Premium verfügbar und ist in den Kosten des Plans enthalten.
+Das erweiterte Branding ist für die Pläne „Select“ und „Premium“ verfügbar und ist in den Kosten des Plans enthalten.
 
-Informationen zum grundlegenden Branding, einschließlich Anmeldeseite, E-Mail-Benachrichtigungen und Testsendungen, finden Sie unter [Marke der [!DNL Workfront Proof] Site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
+Informationen zum grundlegenden Branding, einschließlich Anmeldeseite, E-Mail-Benachrichtigungen und Testsendungen, finden Sie unter [Markenbezeichnung [!DNL Workfront Proof] Website](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
 Erweiterte Branding-Optionen umfassen die Anpassung der folgenden Bereiche:
 
-* Kopf- und Textfarbe
-* Webanwendungs-Header
+* Header- und Textfarbe
+* Webanwendungskopfzeile
 * Menüleiste und Textfarbe
-* Willkommensfeld und Schnellstartfeld für Dashboard
+* Dashboard-Begrüßungsbox und Schnellstartbox
 * Fußzeilentext
 * Favicon
 * Seitentitel
 * Hilfe-Links
 
-In den folgenden Abschnitten wird das erweiterte Branding genauer beschrieben:
+In den folgenden Abschnitten werden erweiterte Branding-Funktionen detaillierter beschrieben:
 
-## Überblick über erweitertes Branding
+## Erweiterte Branding-Übersicht
 
-Den Abschnitt [!UICONTROL Branding-Konfiguration] finden Sie auf der Registerkarte Ihrer Seite [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) . Um die Änderungen auf Ihr Konto anzuwenden, stellen Sie sicher, dass die Option Branding auf [!UICONTROL Aktiviert] (1) gesetzt ist.
+Der Abschnitt [!UICONTROL Branding-Konfiguration] befindet sich auf der Registerkarte Ihrer Seite [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings). Um die Änderungen auf Ihr Konto anzuwenden, stellen Sie sicher, dass die Branding-Option auf [!UICONTROL Aktiviert] (1) eingestellt ist.
 ![Advanced_Branding.png](assets/advanced-branding-350x618.png)
 
 Weitere Informationen zum Konfigurieren der erweiterten Branding-Optionen (2-14) finden Sie im folgenden Abschnitt.
 
 ## Erweiterte Branding-Konfiguration
 
-Sie können die folgenden Bereiche von [!DNL Workfront Proof] markieren:
+Sie können die folgenden [!DNL Workfront Proof] markieren:
 
 * [Web-Anwendung](#web-application)
 * [Header](#header)
-* [Kopfzeilenlinks](#header-links)
-* [Seitenleiste](#sidebar)
-* [Willkommensfeld](#welcome-box)
+* [Kopfzeilen-Links](#header-links)
+* [Randleiste](#sidebar)
+* [Willkommenskasten](#welcome-box)
 * [Bereichs-Kopfzeilen](#section-headers)
 
 ### Web-Anwendung {#web-application}
 
 ![Web_branding_image.png](assets/web-branding-image-350x181.png)
 
-Sie haben drei Branding-Optionen für den Webanwendungs-Header (2):
+Sie haben die Wahl zwischen drei Branding-Optionen für die Kopfzeile der Web-Anwendung (2):
 
 * Branding-Bild in der Kopfzeile
 * Ihr Kontoname in der Kopfzeile
-* Wenn Sie das Branding deaktivieren, bleibt das [!DNL Workfront Proof] -Logo in der Kopfzeile der Webanwendung
+* Wenn Sie das Branding deaktivieren, bleibt das [!DNL Workfront Proof]-Logo in der Kopfzeile der Web-App erhalten
 
-Branding-Bild: Die Größe wird auf maximal 550 x 90 Pixel geändert. Sie können JPG, GIF oder PNGs verwenden, und der transparente Hintergrund wird unterstützt.
+Branding-Bild: Größe auf eine maximale Größe von 550 x 90 Pixel. Sie können JPGs, GIFs oder PNGs verwenden, und die transparenten Hintergründe werden unterstützt.
 
-Kontoname - Aus Ihren Kontodetails entnommen und mit weißer Schriftart angezeigt. Ihr Kontoname kann bis zu 60 Zeichen lang sein (einschließlich Leerzeichen und Satzzeichen).
+Kontoname - wird aus Ihren Kontodetails übernommen und in weißer Schrift angezeigt. Ihr Kontoname kann bis zu 60 Zeichen lang sein (einschließlich Leerzeichen und Satzzeichen).
 
 ### Header {#header}
 
 In diesem Feld (3) können Sie den Hintergrund der Kopfzeile festlegen und eine Volltonfarbe oder ein Hintergrundbild auswählen.
 
-Farbe - Hier können Sie wie in allen anderen Branding-Feldern der Farbschemakonfiguration entweder einen Hex-Farbwert Ihrer Wahl eingeben oder eine praktische Farbauswahl verwenden (durch Klicken auf das Textfeld wird das Popup-Fenster geöffnet). Die standardmäßige Kopfzeilenhintergrundfarbe ist #232d2e.
+Farbe : Hier können Sie wie bei allen anderen Branding-Feldern der Farbschemakonfiguration entweder einen Hexadezimalfarbwert eingeben oder einen praktischen Farbwähler verwenden (wenn Sie auf das Textfeld klicken, wird das Popup geöffnet). Die Standardhintergrundfarbe für Kopfzeilen ist #232d2e.
 
 ![Branding_-_color_picker.png](assets/branding---color-picker-350x131.png)
 
 Hintergrundbild - kann mit dem Branding-Bild kombiniert werden.
 
-* Sie können JPG, GIF oder PNGs verwenden - für Dateien mit Transparenz wird eine weiße Hintergrundfarbe angezeigt.
-* Die Höhe der Kopfzeile beträgt 96 Pixel, und die Größe des hochgeladenen Bildes wird für die Option [!UICONTROL Keine Wiederholung] nicht geändert.
+* Sie können JPGs, GIFs oder PNGs verwenden. Für Dateien mit Transparenz wird eine weiße Hintergrundfarbe angezeigt.
+* Die Kopfzeilenhöhe beträgt 96 Pixel und die Größe des hochgeladenen Bildes wird für die Option [!UICONTROL Keine Wiederholung] nicht geändert.
 * Das Hintergrundbild wird oben links positioniert.
 
-### Kopfzeilenlinks {#header-links}
+### Kopfzeilen-Links {#header-links}
 
-In diesem Feld (4) können Sie die Farbe und Farbe des Benutzernamens für die Links im Menü Kopfzeile ändern, das oben rechts in Ihrem Konto angezeigt wird.
-![header_links.png](assets/header-links-350x140.png)
+In diesem Feld (4) können Sie die Farbe des Benutzernamens und die Farbe der Links im Kopfzeilenmenü ändern, das oben rechts in Ihrem Konto sichtbar ist.
+![Header_links.png](assets/header-links-350x140.png)
 
-### Seitenleiste {#sidebar}
+### Randleiste {#sidebar}
 
-Wählen Sie Farben für die Menüleiste (5) und die Menüschrift (6) aus, um Ihre Seitenleiste anzupassen.
+Wählen Sie Farben für die Menüleiste (5) und Menüschriftart (6), um Ihre Seitenleiste anzupassen
 
-![Menu_bar.png](assets/menu-bar-350x490.png)
+![menu_bar.png](assets/menu-bar-350x490.png)
 
 >[!NOTE]
 >
->Die Hover-Farbe passt sich automatisch an, indem Sie Ihrer ausgewählten Menüleistenfarbe einen konstanten Hex-Wert hinzufügen.
+>Die Hover-Farbe wird automatisch angepasst, indem zu der ausgewählten Menüleistenfarbe ein konstanter Hexadezimalwert hinzugefügt wird.
 
-Die Farbe der Schaltfläche Neuer Testversand kann nicht angepasst werden.
+Die Farbe der Schaltfläche Neuer Korrekturabzug kann nicht angepasst werden.
 
-### Willkommensfeld {#welcome-box}
+### Willkommenskasten {#welcome-box}
 
-In diesem Feld (7) können Sie die Farbe des Begrüßungsfelds festlegen, das auf der Dashboard-Seite angezeigt wird.
-![Welcome_box.png](assets/welcome-box-350x110.png)
+In diesem Feld (7) können Sie die Farbe des Begrüßungsfelds festlegen, die auf der Dashboard-Seite angezeigt wird.
+![welcome_box.png](assets/welcome-box-350x110.png)
 
 ### Bereichs-Kopfzeilen {#section-headers}
 
 Mit diesen Feldern können Sie den Hintergrund (8) und die Schriftfarbe (9) der Abschnittsüberschriften auf den Seiten [[!UICONTROL Kontoeinstellungen]](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) anpassen.
-![Section_headers.png](assets/section-headers-350x138.png)
+![section_headers.png](assets/section-headers-350x138.png)
 
-**Footer**
+**Fußzeile**
 
-In diesem Feld (10) der Branding-Konfiguration können Sie eine Fußzeile erstellen, die unten auf allen Kontoseiten angezeigt wird. Sie können den integrierten WYSIWYG-Editor verwenden oder einfach Ihr eigenes Design einfügen.
+In diesem Feld (10) der Branding-Konfiguration können Sie eine Fußzeile erstellen, die am unteren Rand aller Kontoseiten angezeigt wird. Sie können den integrierten WYSIWYG-Editor verwenden oder einfach Ihr eigenes Design einfügen.
 ![footer.png](assets/footer-350x157.png)
 
 >[!NOTE]
 >
->Sie können HTML nicht im Fußzeilentext-Editor bearbeiten, aber Sie können ein kopiertes Design (einschließlich aller Links und Bilder) einfügen.
+>Im Fußzeilen-Texteditor können Sie HTML nicht bearbeiten, aber ein kopiertes Design (einschließlich aller Links und Bilder) einfügen.
 
 **Favicon und Seitentitel**
 
-Sie können anpassen, wie Ihre [!DNL Workfront Proof]-Seiten in den Browsern dargestellt werden, indem Sie Ihr eigenes Favicon-Bild (.ICO-Datei) (11) und Ihren Seitentitel (12) festlegen - diese werden in den Registerkarten/Fensterhandbüchern des Browsers für alle Kontoseiten angezeigt.
-![favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
+Sie können anpassen, wie Ihre [!DNL Workfront Proof]-Seiten in den Browsern angezeigt werden, indem Sie Ihr eigenes Favicon-Bild (.ICO-Datei) (11) und den Seitentitel (12) festlegen. Diese werden in den Registerkarten/Windows-Kopfzeilen der Browser für alle Kontoseiten angezeigt.
+![Favico_and_Page_title.png](assets/favico-and-page-title-350x95.png)
 
 >[!NOTE]
 >
->Ihr Favicon wird auch in den Kopfzeilen der Viewer-Fenster [!DNL Workfront Proof] für alle Testsendungen angezeigt, die auf Ihrem Konto erstellt wurden.
+>Ihr Favicon wird auch in den Kopfzeilen der [!DNL Workfront Proof]-Viewer-Fenster für alle Korrekturabzüge angezeigt, die in Ihrem Konto erstellt wurden.
 
 **Hilfe-Links**
 
-Sie können Ihre eigenen Hilfelinks so anpassen, dass Ihre Benutzer und Validierer auf Ihre eigenen Inhalte verweisen. Setzen Sie dazu die Option [!UICONTROL Hilfe-Links] (13) auf Aktiviert und fügen Sie Ihre Links in die nächsten Felder (14) ein. Sie können bis zu vier Links konfigurieren, die dann verfügbar sein werden:
+Sie können Ihre eigenen Hilfe-Links anpassen, um Ihre Benutzer und Prüfer auf Ihre eigenen Inhalte zu verweisen. Um dies zu aktivieren, setzen Sie die Option [!UICONTROL Hilfe-Links] (13) auf Aktiviert und fügen Sie Ihre Links in den nächsten Feldern hinzu (14). Sie können bis zu vier Links konfigurieren. Diese sind dann verfügbar:
 
 * im Menü [!UICONTROL Kopfzeile] unter dem Link [!UICONTROL Hilfe]
-  ![Help_links1.png](assets/help-links1-350x170.png)
+  ![help_links1.png](assets/help-links1-350x170.png)
 
-* im Bedienfeld [!UICONTROL Hilfe] der Seitenleiste [!DNL Workfront Proof] [!UICONTROL Viewer]
-  ![Help_links2.png](assets/help-links2-350x532.png)
+* im [!UICONTROL Hilfe] der Seitenleiste [!DNL Workfront Proof]Viewer
+  ![help_links2.png](assets/help-links2-350x532.png)
 
-Zusätzlich können Kunden, die Pläne für Unternehmen nutzen, Folgendes vollständig anpassen:
+Gegen eine zusätzliche Gebühr haben Kunden mit Enterprise-Plänen auch die Möglichkeit, Folgendes vollständig anzupassen:
 
-* Volle Anpassung Ihrer Landingpages (z. B. Anmelde- und Abmeldeseiten, Kennwortseite vergessen)
-* Vollständige Anpassung Ihrer Domäne
+* Landingpages vollständig anpassen (z. B. Anmelde- und Abmeldeseiten, Seite bei vergessenem Passwort)
+* Vollständige Anpassung Ihrer Domain
 
-Kontaktieren Sie uns unter sales.team@workfront.com , um mehr über die zusätzlichen Branding-Optionen zu erfahren.
+Bitte kontaktieren Sie uns unter sales.team@workfront.com, um mehr über die zusätzlichen Branding-Optionen zu erfahren.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Custom Domains</h2>

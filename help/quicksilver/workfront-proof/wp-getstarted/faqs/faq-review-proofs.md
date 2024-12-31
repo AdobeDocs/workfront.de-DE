@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: faqs-workfront-proof
 title: Häufig gestellte Fragen - Testsendungen überprüfen
-description: Gastreviewer ohne eigene Anmeldung bei ProofHQ können über den Link [!UICONTROL Gehe zu Testversand] in den E-Mails, die sie erhalten, auf ihre Testsendungen zugreifen. Benutzer können über die E-Mails auf ihre Testsendungen zugreifen und außerdem ihr Dashboard im Konto nutzen. In der Dashboard-Ansicht können sie sich eine Liste von Testsendungen ansehen, für die eine Entscheidung erforderlich ist, und mit einem Klick darauf zugreifen, indem sie auf das blaue Symbol [!UICONTROL Zum Testversand wechseln] klicken.
+description: Gastreviewer, die nicht über eigene Anmeldungen bei ProofHQ verfügen, greifen über den Link [!UICONTROL Zum Korrekturabzug gehen] in den empfangenen E-Mails auf ihre Korrekturabzüge zu. Benutzer können über die E-Mails auf ihre Korrekturabzüge zugreifen und auch ihr Dashboard im Konto verwenden. Über die Dashboard-Ansicht können sie sich eine Liste der Korrekturabzüge ansehen, für die ihre Entscheidung erforderlich ist, und mit einem Klick auf das blaue Symbol [!UICONTROL Zum Korrekturabzug gehen] zugreifen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d8bcddf8-0586-4263-8445-26615fdf07f7
@@ -19,65 +19,65 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-## Wie kann ich auf einen für mich freigegebenen Beweis zugreifen?
+## Wie kann ich auf einen Korrekturabzug zugreifen, der für mich freigegeben wurde?
 
-Gastreviewer ohne eigene Anmeldung bei [!DNL ProofHQ] können über den Link *[!UICONTROL Gehe zu Testversand]* in den empfangenen E-Mails auf ihre Testsendungen zugreifen. Benutzer können über die E-Mails auf ihre Testsendungen zugreifen und außerdem ihr Dashboard im Konto nutzen. In der Dashboard-Ansicht können sie sich eine Liste von Testsendungen ansehen, für die eine Entscheidung erforderlich ist, und mit einem Klick darauf zugreifen, indem sie auf das blaue Symbol *[!UICONTROL Zum Testversand wechseln]* klicken.
+Gastreviewer, die keine eigenen Anmeldedaten für [!DNL ProofHQ] haben, greifen auf ihre Korrekturabzüge über den Link *[!UICONTROL Zum Korrekturabzug gehen]* in den empfangenen E-Mails zu. Benutzer können über die E-Mails auf ihre Korrekturabzüge zugreifen und auch ihr Dashboard im Konto verwenden. Über die Dashboard-Ansicht können sie sich eine Liste der Korrekturabzüge ansehen, für die ihre Entscheidung erforderlich ist, und mit einem Klick auf das blaue Symbol *[!UICONTROL Zum Korrekturabzug gehen]* zugreifen.
 
-## Wie füge ich einem Testversand Kommentare hinzu?
+## Wie füge ich einem Korrekturabzug Kommentare hinzu?
 
-Um einem Testversand einen Kommentar hinzuzufügen, klicken Sie auf die Schaltfläche *[!UICONTROL Kommentar hinzufügen]* , die oben auf der Seite verfügbar ist. Wenn diese Schaltfläche nicht angezeigt wird, wenden Sie sich an den Besitzer des Testversands. Möglicherweise wurde Ihnen die falsche Testversand-Rolle zugewiesen (weitere Informationen zu Testversandrollen finden Sie unter [Verwalten von Proof-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
+Um einen Kommentar zu einem Korrekturabzug hinzuzufügen, klicken Sie auf die Schaltfläche *[!UICONTROL Kommentar hinzufügen]*, die oben auf der Seite verfügbar ist. Wenn diese Schaltfläche nicht angezeigt wird, wenden Sie sich an den Testversand-Verantwortlichen. Möglicherweise wurde Ihnen die falsche Testversand-Rolle zugewiesen (weitere Informationen zu Testversand-Rollen finden Sie unter [Verwalten von Testversand-Rollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)).
 
-Ein Feld [!UICONTROL comment] wird rechts vom Bildschirm geöffnet. Hier können Sie Ihren Kommentar eingeben und auf dem Testversand speichern. Dies hinterlässt einen allgemeinen Kommentar zum Testversand, der nicht mit einem bestimmten Bereich des Testversands verbunden ist. Verwenden Sie die Markup-Tools, die oben auf der Seite verfügbar sind, um Anmerkungen zu einer bestimmten Funktion anzubringen.
+Daraufhin ] rechts im Bildschirm ein [!UICONTROL Kommentar-Feld geöffnet, in dem Sie Ihren Kommentar eingeben und im Korrekturabzug speichern können. Dadurch wird ein allgemeiner Kommentar zum Korrekturabzug hinterlassen, der nicht mit einem bestimmten Bereich des Korrekturabzugs verbunden ist. Wenn Sie etwas Bestimmtes kommentieren möchten, verwenden Sie die Markup-Tools oben auf der Seite.
 
-Um auf den Kommentar einer Person zum Testversand zu antworten, klicken Sie in der Liste der Kommentare auf diesen Kommentar und geben Sie Ihre Antwort in das Feld [!UICONTROL Antwort] ein. Wenn Sie speichern, wird die Antwort auf dem Testversand veröffentlicht.
+Um auf den Kommentar einer Person zum Korrekturabzug zu antworten, klicken Sie in der Liste der Kommentare auf diesen Kommentar und geben Sie Ihre Antwort in das Feld [!UICONTROL Antwort] ein. Wenn Sie speichern, wird die Antwort auf dem Testversand veröffentlicht.
 
-Alle Kommentare und Entscheidungen erscheinen fast sofort auf dem Testversand. Wenn also jemand anderes den Testversand gleichzeitig mit Ihnen anschaut, wird er sofort Ihre Kommentare sehen.
+Alle Kommentare und Entscheidungen werden fast sofort im Korrekturabzug angezeigt. Wenn sich also jemand anders den Korrekturabzug zur gleichen Zeit wie Sie ansieht, wird er Ihre Kommentare sofort sehen.
 
-Dies sind sehr einfache Anweisungen, um Sie mit [!DNL ProofHQ] zu beginnen. Weitere Informationen zur Überprüfung von Testsendungen finden Sie im Abschnitt [Testsendungen überprüfen](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) des Help Center . Dort finden Sie weitere ausführliche Hilfeartikel.
+Dies sind sehr grundlegende Anweisungen, um Ihnen den Einstieg in [!DNL ProofHQ] zu erleichtern. Wenn Sie mehr über die Überprüfung von Testsendungen erfahren möchten, finden Sie [ Abschnitt „Testsendungen überprüfen](https://support.workfront.com/hc/en-us/sections/200054044-Reviewing-proofs) des Hilfezentrums ausführlichere Hilfeartikel.
 
-## Wie markiere ich einen Beweis?
+## Wie markiere ich einen Korrekturabzug?
 
-[!DNL ProofHQ] bietet eine Reihe von Zeichenwerkzeugen, mit denen Sie genaues Feedback zu Ihren Testsendungen hinterlassen können. Sie können die Farbe und Deckkraft jedes Markups auswählen, das Sie im Testversand hinterlassen, und für Linienwerkzeuge können Sie auch die Stärke der Linie ändern.
+[!DNL ProofHQ] bietet eine Reihe von Zeichenwerkzeugen, mit denen Sie präzise Rückmeldungen zu Ihren Korrekturabzügen hinterlassen können. Sie können die Farbe und Deckkraft jedes Markups auswählen, das Sie auf dem Korrekturabzug belassen. Für Linienwerkzeuge können Sie auch die Linienstärke ändern.
 
-Um die verfügbaren Tools anzuzeigen, klicken Sie oben auf der Seite auf die Schaltfläche [!UICONTROL Kommentar hinzufügen] . Die in der Symbolleiste verfügbaren Zeichenwerkzeuge sind:
+Um die verfügbaren Tools anzuzeigen, klicken Sie auf die Schaltfläche [!UICONTROL Kommentar hinzufügen] oben auf der Seite. In der Symbolleiste stehen folgende Zeichenwerkzeuge zur Verfügung:
 
 * Rechteck
-* Freihand-Linie
-* gerade Linie
-* Verbindungsleitungen
+* Freihandlinie
+* Gerade
+* Anschlussleitungen
 * Pfeil
-* highlight
+* hervorheben
 * Maskenform
 
-Um zu zeichnen, wählen Sie einfach das gewünschte Werkzeug, die Farbe des Markups und die Stärke der Linie (für Linienwerkzeuge). An einen Kommentar können mehrere Markups angehängt sein. Wenn Sie den Kommentar speichern, wird ein Pin mit der Nummer des Kommentars in der Mitte der Gruppe der Markups abgelegt. Mit Pins können Sie Markups, die im Testversand verbleiben, schnell anzeigen. Wenn Sie darauf klicken, werden das Markup und der mit dem Markup verbundene Kommentar angezeigt.
+Wählen Sie zum Zeichnen einfach das gewünschte Werkzeug, die Farbe des Markups und die Stärke der Linie (bei Linienwerkzeugen) aus. An einen Kommentar können mehrere Markierungen angehängt werden. Wenn Sie den Kommentar speichern, wird eine Nadel mit der Nummer des Kommentars in der Mitte der Gruppe der Markierungen platziert. Pins ermöglichen es Ihnen, die auf dem Korrekturabzug verbliebenen Markierungen schnell anzuzeigen. Wenn Sie darauf klicken, werden das Markup und der mit dem Markup verbundene Kommentar angezeigt.
 
-## Welche Tools kann ich verwenden, um Text in einem Testversand zu markieren?
+## Welche Tools kann ich verwenden, um Text in einem Korrekturabzug zu markieren?
 
-Mit dem im [!UICONTROL Testversand-Viewer] verfügbaren Werkzeug zur Textanmerkung können Sie Text in Ihrem Testversand schnell markieren. Um darauf zuzugreifen, klicken Sie oben auf der Seite auf die Schaltfläche *[!UICONTROL Kommentar hinzufügen]* . Das Anmerkungs-Tool ist das erste Symbol links in der Symbolleiste. Sie können Text in Ihrem Testversand auswählen. Sie haben vier Optionen zur Auswahl:
+Mit dem in der [!UICONTROL Korrekturabzugsansicht“ verfügbaren Textanmerkungs]Tool können Sie Text im Korrekturabzug schnell markieren. Um darauf zuzugreifen, klicken Sie oben auf *[!UICONTROL Seite auf]* Schaltfläche „Kommentar hinzufügen“. Das Anmerkungswerkzeug ist das erste Symbol links in der Symbolleiste. Damit können Sie Text im Korrekturabzug auswählen. Es stehen vier Optionen zur Auswahl:
 
-* markieren - markiert den Text und kopiert ihn in das Kommentarfeld
-* replace - kopiert den Text und fügt [[!UICONTROL ERSETZEN]] und [[!UICONTROL MIT]] in das Kommentarfeld ein, damit Sie einfach Ersatztext vorschlagen können.
-* delete - schlägt durch den Text und fügt [[!UICONTROL DELETE]] zum Kommentarfeld hinzu.
-* insert after - ermöglicht es Ihnen, einfach Text vorzuschlagen, der nach dem markierten Satz eingefügt werden muss
+* Hervorheben - Markiert den Text und kopiert ihn in das Kommentarfeld
+* replace - Kopiert den Text und fügt [[!UICONTROL REPLACE]] und [[!UICONTROL WITH]] in das Kommentarfeld ein, damit Sie leicht Ersatztext vorschlagen können
+* Löschen - Durchgestrichen und [[!UICONTROL DELETE ]] in das Kommentarfeld eingefügt
+* Einfügen nach : ermöglicht es Ihnen, einfach Text vorzuschlagen, der nach dem hervorgehobenen Satz eingefügt werden muss
 
-Wenn der Text, den Sie verwenden möchten, in einem separaten Dokument gespeichert ist, können Sie die Tastaturbefehle (Strg+c und Strg+v auf einem PC, Befehl+c und Befehl+v auf einem [!DNL Mac]) verwenden, um ihn zu kopieren und in das Feld [!UICONTROL Kommentar] einzufügen.
+Wenn der Text, den Sie verwenden möchten, in einem separaten Dokument gespeichert wird, können Sie die Tastaturbefehle (Strg+C und Strg+V auf einem PC, Befehl+C und Befehl+V auf einem [!DNL Mac]) verwenden, um ihn zu kopieren und in das Feld [!UICONTROL Kommentar] einzufügen.
 
-## Was bedeutet es, eine Entscheidung über einen Beweis zu treffen?
+## Was bedeutet es, eine Entscheidung über einen Korrekturabzug zu treffen?
 
-Eine Entscheidung über einen Testversand kann in [!DNL ProofHQ] zwei Bedeutungen haben. Auf der einen Seite kann es sich um eine formelle Genehmigung handeln, wenn jemand einen Testversand abzeichnen muss. Ein anderer Ansatz besteht darin, eine Entscheidung zu treffen, um andere Prüfer darüber zu informieren, dass Sie zum Testversand Stellung genommen haben.
+Eine Entscheidung über einen Korrekturabzug kann in [!DNL ProofHQ] zwei Bedeutungen haben. Einerseits kann es eine formale Genehmigung sein, wenn jemand einen Korrekturabzug abzeichnen muss. Ein weiterer Ansatz besteht darin, eine Entscheidung zu treffen, um andere Prüfer darüber zu informieren, dass Sie mit dem Erstellen von Kommentaren zum Korrekturabzug fertig sind.
 
-Die in [!DNL ProofHQ] verfügbaren standardmäßigen Entscheidungsoptionen lauten *Genehmigt*, *Genehmigt mit Änderungen*, *Erforderliche Änderungen* und *Nicht relevant*. Administratoren in den Konten [!UICONTROL Enterprise] und [!UICONTROL Unlimited] können diese Optionen anpassen (sie umbenennen oder sogar ausblenden). Weitere Informationen finden Sie unter [Optionen für Genehmigungsentscheidungen konfigurieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+Die in [!DNL ProofHQ] verfügbaren standardmäßigen Entscheidungsoptionen sind *Genehmigt*, *Mit Änderungen genehmigt*, *Änderungen erforderlich* und *Nicht relevant*. Administratoren in [!UICONTROL Enterprise] und [!UICONTROL Unlimited]-Konten können diese Optionen anpassen (umbenennen oder sogar ausblenden). Weitere Informationen finden Sie unter [Konfigurieren von Genehmigungsentscheidungsoptionen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 
-## Muss jeder über einen Beweis entscheiden?
+## Muss sich jeder für einen Testversand entscheiden?
 
-Nein, es hängt davon ab, welche Testversand-Rolle jedem Validierer ein Testversand zugewiesen wurde (weitere Informationen zu Testversandrollen finden Sie unter [Verwalten von Testversandrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)). *[!UICONTROL Genehmiger]*, *[!UICONTROL Überprüfer und Genehmiger]*, *[!UICONTROL Moderator]* und *[!UICONTROL Autor]* sind Rollen, für die eine Entscheidung über den Testversand erforderlich ist.
+Nein, es hängt davon ab, welche Korrekturabzugsrolle den einzelnen Reviewern für einen Korrekturabzug zugewiesen wurde (weitere Informationen zu Korrekturabzugsrollen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)). *[!UICONTROL Genehmiger]*, *[!UICONTROL Prüfer und]*, *[!UICONTROL Moderator]* und *[!UICONTROL Autor]* sind Rollen, für die eine Entscheidung über den Korrekturabzug erforderlich ist.
 
-Normalerweise muss die Person, die den Testversand erstellt, keine Entscheidung treffen. Dies hängt jedoch vom Workflow in Ihrer Organisation ab. Wenn ein Validierer keine Entscheidung über einen Testversand treffen muss, stellen Sie sicher, dass seine Rolle auf den Validierer festgelegt ist. Andernfalls wartet das System auf die Entscheidung, bevor der Testversand aktualisiert wird.
+Normalerweise muss die Person, die den Korrekturabzug erstellt, keine Entscheidung treffen. Dies hängt jedoch vom Workflow in Ihrer Organisation ab. Wenn ein Prüfer keine Entscheidung über einen Korrekturabzug treffen muss, stellen Sie sicher, dass seine Rolle auf „Prüfer“ festgelegt ist. Andernfalls wartet das System auf seine Entscheidung, bevor der Gesamtstatus des Korrekturabzugs aktualisiert wird.
 
-Wenn Sie einen Testversand an eine Gruppe von Validierungsverantwortlichen senden, aber nur eine Person für die Abnahme des Testversands benötigt wird und es keine Rolle spielt, wer die Entscheidung trifft, können Sie [!UICONTROL Nur eine Entscheidung erforderlich] aktivieren. Der allgemeine Testfortschritt wird nach der ersten Entscheidung über den Testversand aktualisiert, unabhängig davon, wer die Entscheidung trifft.
+Wenn Sie einen Testversand an eine Gruppe von Validierungsverantwortlichen senden, aber nur eine Person benötigen, um den Testversand zu genehmigen, und es keine Rolle spielt, wer die Entscheidung trifft, können Sie [!UICONTROL Nur eine Entscheidung erforderlich] aktivieren. Der Gesamtfortschritt des Korrekturabzugs wird aktualisiert, nachdem die erste Entscheidung über den Korrekturabzug getroffen wurde, unabhängig davon, wer die Entscheidung trifft.
 
-## Kann ich eine Liste aller Kommentare generieren, die auf einem Testversand gemacht wurden?
+## Kann ich eine Liste aller Kommentare generieren, die zu einem Korrekturabzug gemacht wurden?
 
-Ja, Sie können eine *[!UICONTROL Druckzusammenfassung]* der auf dem Testversand verbleibenden Kommentare generieren. Dieses Dokument kann entweder für eine einzelne Version oder für alle Versionen generiert werden, die für diesen Validierer freigegeben wurden. Er zeigt eine Liste aller Kommentare, Markierungen und Entscheidungen an, die am Testversand vorgenommen wurden. Weitere Informationen zu dieser Funktion finden Sie unter [Kommentare drucken und exportieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+Ja, Sie können eine *[!UICONTROL Druckzusammenfassung)]* Kommentare erstellen, die auf dem Korrekturabzug hinterlassen wurden. Dieses Dokument kann entweder für eine einzelne Version oder für alle Versionen generiert werden, die für diesen Reviewer freigegeben wurden. Daraufhin wird eine Liste aller Kommentare, Markierungen und Entscheidungen angezeigt, die für den Testversand vorgenommen wurden. Weitere Informationen zu dieser Funktion finden Sie unter [Drucken und Exportieren von Kommentaren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).

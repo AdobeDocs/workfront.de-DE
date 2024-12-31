@@ -2,7 +2,7 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Hochladen von Testsendungen aus Illustrator
-description: Sie können Ihre Kunstboards als Dokumente hochladen, um sie schnell zu überprüfen und zu validieren oder einfach in Adobe Workfront zu speichern.
+description: Sie können Ihre Grafiktafeln als Dokumente hochladen, um sie schnell zu überprüfen und zu genehmigen oder einfach in Adobe Workfront zu speichern.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: e98f27d4-7c07-44cc-8df5-e04472ec946e
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Hochladen von Testsendungen von [!DNL Illustrator]
+# Hochladen von Testsendungen aus [!DNL Illustrator]
 
-Sie können Ihre Kunstboards direkt als Testsendungen in [!DNL Adobe Workfront] hochladen, um eine gründliche Überprüfung und Genehmigung zu erhalten.
+Sie können Ihre Grafiktafeln als Korrekturabzüge direkt in [!DNL Adobe Workfront] hochladen, um sie gründlich zu prüfen und zu genehmigen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -28,16 +28,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
  <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Aktueller Plan: [!UICONTROL Pro] oder höher</p> <p>oder</p> <p>Veralteter Plan: [!UICONTROL Premium]</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td> <p>Aktueller Plan: [!UICONTROL Pro] oder höher</p> <p>oder</p> <p>Legacy-Plan: [!UICONTROL Premium]</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter .</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Aktueller Plan: [!UICONTROL Work] oder [!UICONTROL Proof]</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>Aktueller Plan: [!UICONTROL Work] oder [!UICONTROL Proof]</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] -Lizenz über eine [!DNL Adobe Creative Cloud] -Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -45,97 +45,97 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] - oder [!DNL Workfront Proof] -Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Berechtigung zum Testen haben.
+&#42;Um herauszufinden, über welchen Plan, welche Rolle oder welches Profil für Korrekturabzugsberechtigungen Sie verfügen, wenden Sie sich an Ihren [!DNL Workfront] oder [!DNL Workfront Proof].
 
 +++
 
 ## Voraussetzungen
 
-* Sie müssen [!DNL Adobe Workfront for design and video] installieren, bevor Sie Testsendungen von [!DNL Illustrator] hochladen können.
+* Sie müssen [!DNL Adobe Workfront for design and video] installieren, bevor Sie Korrekturabzüge von [!DNL Illustrator] hochladen können.
 
   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for design and video]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md).
 
-## Hochladen eines einfachen Testversands
+## Hochladen eines einfachen Korrekturabzugs
 
-1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Gehen Sie zum Arbeitselement, in das Sie einen Testversand hochladen möchten.
-1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
-1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Datei]** .
-1. Aktivieren Sie den Umschalter **[!UICONTROL Testversand erstellen]** .
-1. (Optional) Geben Sie im Textfeld **[!UICONTROL Testversand-Name]** einen Namen für den Testversand ein.
-1. Wählen Sie im Abschnitt **[!UICONTROL Testversand-Genehmigungen]** die Option **[!UICONTROL Einfach]** aus.
-1. (Optional) Fügen Sie Genehmiger hinzu.
-1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. Wechseln Sie zu dem Arbeitselement, in das Sie einen Korrekturabzug hochladen möchten.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
+1. Aktivieren Sie den **[!UICONTROL Korrekturabzug erstellen]**.
+1. (Optional) Geben Sie einen Namen für den Korrekturabzug in das Textfeld **[!UICONTROL Korrekturabzugsname]** ein.
+1. Wählen Sie im **[!UICONTROL Korrekturabzugsgenehmigungen]** die Option **[!UICONTROL Standard]** aus.
+1. (Optional) Fügen Sie genehmigende Personen hinzu.
+1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
    ![](assets/add-comment.png)
 
-1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus.
+1. Wählen Sie **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü aus.
 
-1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]** aus, um eine Datei von Ihrem Computer hinzuzufügen.
-1. Klicken Sie auf **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]**, um eine Datei von Ihrem Computer hinzuzufügen.
+1. Klicken Sie **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 
    ![](assets/plugin-files-350x307.png)\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
 
-## Hochladen eines automatisierten Testversands
+## Hochladen eines automatisierten Korrekturabzugs
 
-1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Gehen Sie zum Arbeitselement, in das Sie einen Testversand hochladen möchten.
-1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
+1. Wechseln Sie zu dem Arbeitselement, in das Sie einen Korrekturabzug hochladen möchten.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
 
-1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Datei]** .
-1. Aktivieren Sie den Umschalter **[!UICONTROL Testversand erstellen]** .
-1. (Optional) Geben Sie im Textfeld **[!UICONTROL Testversand-Name]** einen Namen für den Testversand ein.
-1. Wählen Sie im Abschnitt **[!UICONTROL Testversand-Genehmigungen]** die Option **[!UICONTROL Automated]** aus.
-1. (Optional) Geben Sie in das Feld **[!UICONTROL Workflow-Vorlage]** den Namen einer Testversand-Workflow-Vorlage ein.
+1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
+1. Aktivieren Sie den **[!UICONTROL Korrekturabzug erstellen]**.
+1. (Optional) Geben Sie einen Namen für den Korrekturabzug in das Textfeld **[!UICONTROL Korrekturabzugsname]** ein.
+1. Wählen Sie im **[!UICONTROL Korrekturabzugsgenehmigungen]** die Option **[!UICONTROL Automated]** aus.
+1. (Optional) Geben Sie in das Feld **[!UICONTROL Workflow]** Vorlage) den Namen einer Workflow-Vorlage für Korrekturabzüge ein.
 
 {{adjust-proof-settings}}
 
 >[!NOTE]
 >
-> Wenn die Workflow-Vorlage leere erforderliche Felder enthält, werden die automatisierten Testversandeinstellungen automatisch geöffnet. Sie müssen diese Felder ausfüllen, um den Testversand hochzuladen.
+> Wenn die Workflow-Vorlage leere Pflichtfelder enthält, werden die Einstellungen für automatisierte Korrekturabzüge automatisch geöffnet. Diese Felder müssen ausgefüllt werden, damit der Korrekturabzug hochgeladen werden kann.
 
 
-1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
    ![](assets/add-comment-automated-approval.png)
 
-1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus.
-1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]** aus, um eine Datei von Ihrem Computer hinzuzufügen.
-1. Klicken Sie auf **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+1. Wählen Sie **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü aus.
+1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]**, um eine Datei von Ihrem Computer hinzuzufügen.
+1. Klicken Sie **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
-## Eine neue Testversion hochladen
+## Hochladen einer neuen Korrekturabzugsversion
 
-Sie können eine neue Version eines Testversands hochladen. Das Plug-in speichert den in der vorherigen Version festgelegten Testversand-Workflow, kann diesen jedoch bei Bedarf ändern.
+Sie können eine neue Version eines Korrekturabzugs hochladen. Das Plug-in speichert den Korrekturabzugs-Workflow, der für die vorherige Version festgelegt wurde. Sie können dies jedoch bei Bedarf ändern.
 
-1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
    ![](assets/go-back-to-work-list-350x314.png)
 
-1. Wechseln Sie zu dem Arbeitselement, in das Sie ein Dokument hochladen müssen.
-1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
+1. Wechseln Sie zu dem Arbeitselement, auf das Sie ein Dokument hochladen möchten.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
 
-1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Version]** .
-1. Aktivieren Sie den Umschalter **[!UICONTROL Testversand erstellen]** .
+1. Klicken Sie **[!UICONTROL Neue Version]** am unteren Rand des Plug-ins.
+1. Aktivieren Sie den **[!UICONTROL Korrekturabzug erstellen]**.
 
-1. Wählen Sie im Abschnitt *[!UICONTROL *Testversand-Genehmigungen]** die Option **[!UICONTROL Einfach]** oder **[!UICONTROL Automatisiert]**.
+1. Wählen Sie im Abschnitt *[!UICONTROL *Korrekturabzugsgenehmigungen]* die Option **[!UICONTROL Standard]** oder **[!UICONTROL Automated]**.
 
-1. Fügen Sie je nach dem in Schritt 7 ausgewählten Validierungstyp **[!UICONTROL Validierer]** oder eine **[!UICONTROL Workflow-Vorlage]** hinzu.
+1. Fügen Sie **[!UICONTROL Prüfer]** oder eine **[!UICONTROL Workflow-Vorlage]** basierend auf dem in Schritt 7 ausgewählten Validierungstyp hinzu.
 
-1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
-1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus.
-1. Klicken Sie auf **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
+1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. Wählen Sie **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü aus.
+1. Klicken Sie **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

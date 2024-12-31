@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Generieren eines Szenario-Segments mit AI
-description: Sie können eine Textaufforderung eingeben, um ein für die Eingabeaufforderung konfiguriertes HTTP-Modul zu erstellen.
+title: Erstellen eines Szenariosegments mit KI
+description: Sie können eine Textaufforderung eingeben, um ein HTTP-Modul zu erstellen, das für die Eingabeaufforderung konfiguriert ist.
 author: Becky
 feature: Workfront Fusion
 hide: true
@@ -16,21 +16,21 @@ ht-degree: 0%
 
 ---
 
-# Generieren eines Szenario-Segments mit AI
+# Erstellen eines Szenariosegments mit KI
 
 <!--DO NOT DELETE - linked through CSH-->
 
 >[!IMPORTANT]
 >
->Da diese Funktion in Beta verfügbar ist, steht sie nur einigen Workfront-Benutzern zur Verfügung.
+>Da sich diese Funktion in Beta befindet, steht sie nur einigen Workfront-Benutzenden zur Verfügung.
 
-Sie können AI verwenden, um eine Textaufforderung einzugeben, die beschreibt, was Sie für einen Abschnitt Ihres Szenarios benötigen. Fusion generiert dann Module, die diese Aktionen ausführen, die Sie in Ihrem Szenario verwenden können.
+Sie können KI verwenden, um eine Textaufforderung einzugeben, die beschreibt, was Sie für einen Abschnitt Ihres Szenarios tun müssen. Fusion generiert dann Module, die diese Aktionen ausführen, die Sie in Ihrem Szenario verwenden können.
 
-Wie bei allen aus AI generierten Modulen empfehlen wir, die generierten Module zu überprüfen und zu testen, um sicherzustellen, dass sie die gewünschte Leistung erzielen.
+Wie bei allen aus KI generierten Modulen empfehlen wir, die generierten Module zweimal zu überprüfen und zu testen, um sicherzustellen, dass sie die beabsichtigte Leistung erbringen.
 
-## Derzeit unterstützte AI-Modulanwendungen
+## Derzeit unterstützte KI-Modulanwendungen
 
-Die Fusion AI kann derzeit Module generieren, die eine Verbindung zu den folgenden Anwendungen herstellen:
+Die Fusion-KI kann derzeit Module generieren, die eine Verbindung zu den folgenden Anwendungen herstellen:
 
 * Adobe Firefly
 * Azure OpenAI
@@ -43,62 +43,62 @@ Die Fusion AI kann derzeit Module generieren, die eine Verbindung zu den folgend
 * Dropbox
 * NetSuite
 * Google-Kalendar
-* Atlassian Jira
+* Atlassischer Jira
 * GitLab
 * Spotify
 * Bitbucket
 * OpenAI
 * Slack
 
-## Generieren von Modulen
+## Module generieren
 
-1. Beginnen Sie mit dem Hinzufügen eines Moduls und wählen Sie in der Liste der Anwendungen die Option **Mit KI generieren** aus.
+1. Beginnen Sie mit dem Hinzufügen eines Moduls und wählen **Mit KI generieren** aus der Liste der Programme aus.
 
    Oder
 
-   Klicken Sie unten auf der Seite des Szenario-Editors auf das Symbol Mit KI generieren ![Mit KI generieren](assets/generate-with-ai-icon-beta.png) .
+   Klicken Sie auf das Symbol ![Mit KI generieren](assets/generate-with-ai-icon-beta.png) unten auf der Seite des Szenario-Editors.
 
-   Das Fenster &quot;KI-Assistent&quot;wird geöffnet.
-1. Geben Sie eine Textaufforderung in das Feld ein.
+   Das Bedienfeld KI-Assistent wird geöffnet.
+1. Geben Sie in das Feld eine Eingabeaufforderung ein.
 
-   Tipps zu Eingabeaufforderungen finden Sie in diesem Artikel unter [Tipps zum Erstellen von Textaufforderungen](#tips-for-creating-text-prompts).
+   Tipps zu Eingabeaufforderungen finden Sie unter [Tipps zum Erstellen von Eingabeaufforderungen](#tips-for-creating-text-prompts) in diesem Artikel.
 
-   AI Assistant generiert das Modul oder den Satz von Modulen.
-1. (Bedingt) Fügen Sie bei Bedarf Ihr API-Token für die Anwendung zu den Modulen hinzu.
-1. Überprüfen Sie die Module, um sicherzustellen, dass sie für die entsprechende Anwendung und Aktion konfiguriert sind.
-1. (Bedingt) Wenn der Abschnitt zum generierten Szenario nicht an Ihr Szenario angehängt ist, ziehen Sie es an die gewünschte Position.
+   Der KI-Assistent generiert das Modul oder den Satz von Modulen.
+1. (Bedingt) Fügen Sie bei Bedarf Ihr API-Token für die Anwendung in die Module ein.
+1. Überprüfen Sie die Module, um sicherzustellen, dass sie für das entsprechende Programm und die entsprechende Aktion konfiguriert sind.
+1. (Bedingt) Wenn der Abschnitt Erzeugtes Szenario nicht mit Ihrem Szenario verbunden ist, ziehen Sie ihn an die gewünschte Position.
 
-Es wird empfohlen, die Module zu testen, um sicherzustellen, dass sie die gewünschte Leistung erzielen.
+Es wird empfohlen, die Module zu testen, um sicherzustellen, dass sie die beabsichtigte Leistung erzielen.
 
-## Tipps zum Erstellen von Textanforderungen
+## Tipps zum Erstellen von Eingabeaufforderungen
 
 Textaufforderungen sollten mindestens die folgenden Informationen enthalten:
 
 * Die Anwendung, mit der Sie eine Verbindung herstellen
-* Die Aktionen, die Sie ausführen möchten
+* Die Aktion(en), die Sie ausführen möchten
 
 >[!IMPORTANT]
 >
->Sie können mehrere Module gleichzeitig generieren, aber nur Module für eine Anwendung gleichzeitig generieren.
+>Sie können mehr als ein Modul gleichzeitig generieren, können aber nur Module für jeweils ein Programm generieren.
 
 >[!INFO]
 >
 >**Beispiele**:
 >
 >* `Delete the records 'xyz-123', 'xyz-456', 'xyz-789' from Adobe Workfront Planning`
->Dazu gehören die Anwendung `Workfront Planning` und die Aktion `delete records`. Diese Eingabeaufforderung erstellt drei Module, eines für jeden zu löschenden Datensatz.
+>Dazu gehören die `Workfront Planning` und die `delete records`. Bei dieser Eingabeaufforderung werden drei Module erstellt, eines für jeden zu löschenden Datensatz.
 >* `Change campaign summary of the record 'xyz-123' from Adobe Workfront Planning`
->Dazu gehören die Anwendung `Workfront Planning` und die Aktion `change campaign summary`.
+>Dazu gehören die `Workfront Planning` und die `change campaign summary`.
 >* `Get all field details in the record type with ID 'test-record' from Adobe Workfront Planning`
->Dazu gehören die Anwendung `Workfront Planning` und die Aktion `get field details`.
+>Dazu gehören die `Workfront Planning` und die `get field details`.
 >
 >Das folgende Beispiel ist NICHT korrekt:
 >
 >* `Generate an image in Adobe Firefly and upload it to Dropbox`
 >
->    Dieses Beispiel ist falsch, da es mehr als eine Anwendung enthält
+>    Dieses Beispiel ist falsch, da es mehr als ein Programm enthält
 
-Beachten Sie beim Erstellen von Textanforderungen Folgendes:
+Beachten Sie beim Erstellen von Textaufforderungen Folgendes:
 
 * Verwenden Sie eine direkte, einfache Sprache.
-* Prüfen und testen Sie Ihre Module. Wenn die Ausführung nicht wie erwartet erfolgt, verfeinern Sie die Eingabeaufforderung und versuchen Sie es erneut.
+* Überprüfen und testen Sie Ihre Module. Wenn die Eingabeaufforderung nicht die erwartete Leistung zeigt, verfeinern Sie sie und versuchen Sie es erneut.

@@ -1,6 +1,6 @@
 ---
-title: Installieren von Adobe Workfront für Creative Cloud-Apps
-description: Installieren von Adobe Workfront für Creative Cloud-Apps
+title: Installieren von Adobe Workfront für Creative Cloud-Anwendungen
+description: Installieren von Adobe Workfront für Creative Cloud-Anwendungen
 author: Courtney
 draft: Probably
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Installieren des Plug-ins [!DNL Adobe Workfront] für [!DNL Creative Cloud]-Anwendungen
+# Installieren des [!DNL Adobe Workfront]-Plug-ins für [!DNL Creative Cloud] Anwendungen
 
-Dieser Abschnitt enthält die folgenden Artikel. Anweisungen zum Installieren des Plug-ins [!DNL Adobe Workfront] finden Sie im Artikel für die Anwendung, in der Sie das Plug-in installieren.
+Dieser Abschnitt enthält die folgenden Artikel. Anweisungen zur Installation des Plug-ins [!DNL Adobe Workfront] Sie im Artikel der Anwendung, in der Sie das Plug-in installieren.
 
 * [Installieren und öffnen [!DNL Adobe Workfront for Photoshop]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
 * [Installieren und öffnen [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)

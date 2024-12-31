@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: account-settings-workfront-proof
-title: Anzeigen und Bearbeiten der [!DNL Workfront Proof] Kontodetails Ihres Unternehmens
-description: Als [!DNL Workfront Proof] Administrator können Sie die Kontoeinstellungen für das [!DNL Workfront Proof] Konto Ihres Unternehmens anzeigen.
+title: Anzeigen und Bearbeiten der Kontodetails  [!DNL Workfront Proof]  Unternehmens
+description: Als  [!DNL Workfront Proof]  können Sie die Kontoeinstellungen für das Konto  [!DNL Workfront Proof]  Organisation anzeigen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 31360d27-3017-408c-9286-1a6c8bc66854
@@ -18,37 +18,37 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] -Administrator können Sie die Kontoeinstellungen für das [!DNL Workfront Proof] -Konto Ihres Unternehmens anzeigen.
+Als [!DNL Workfront Proof] können Sie die Kontoeinstellungen für das [!DNL Workfront Proof] Konto Ihres Unternehmens anzeigen.
 
-1. Klicken Sie in der oberen rechten Ecke Ihres [!DNL Workfront Proof]-Fensters auf **[!UICONTROL Einstellungen]** und wählen Sie dann **[!UICONTROL Kontoeinstellungen]** aus dem Dropdownmenü aus.
+1. Klicken **[!UICONTROL oben rechts]** Ihrem [!DNL Workfront Proof] auf „Einstellungen“ und wählen Sie dann **[!UICONTROL Kontoeinstellungen]** aus dem Dropdown-Menü aus.
 
-1. Stellen Sie sicher, dass auf der angezeigten Seite [!UICONTROL Kontoeinstellungen] die Registerkarte **[!UICONTROL Details]** geöffnet ist.
-Die folgenden Abschnitte finden Sie auf dieser Registerkarte:
+1. Stellen Sie auf der ] &quot;[!UICONTROL &quot; sicher, dass die Registerkarte **[!UICONTROL Details]** geöffnet ist.
+Sie können die folgenden Abschnitte auf dieser Registerkarte anzeigen:
 
 ## Kontodetails bearbeiten
 
-Im Abschnitt [!UICONTROL Kontodetails] werden die Kontaktinformationen Ihrer Organisation angezeigt, die als standardmäßige Kontaktinformationen für Benutzer des Kontos verwendet werden.
+Im Abschnitt [!UICONTROL Kontodetails] werden die Kontaktinformationen Ihres Unternehmens angezeigt, die als standardmäßige Kontaktinformationen für Benutzer des Kontos verwendet werden.
 
-1. Um die Informationen im Abschnitt **[!UICONTROL Kontodetails]** zu bearbeiten, klicken Sie auf **[!UICONTROL Bearbeiten]** rechts von einem der folgenden Elemente:
+1. Um die Informationen im Abschnitt **[!UICONTROL Kontodetails]** zu bearbeiten, klicken Sie auf **[!UICONTROL Bearbeiten]** rechts neben einem der folgenden Elemente:
 
    * **Organisationsname:** Der Name Ihres Unternehmens.
-   * **Kontaktinformationen:** Die standardmäßigen Kontaktinformationen für Benutzer im Proof-Konto für [!DNL Workfront].
-   * **Standardsprache:** Die Standardsprache, die in Ihrem [!DNL Workfront] Testversand-Konto verwendet wird.
-   * **Zeitzonenstandard:** Die standardmäßige Zeitzone für Ihr Unternehmen.
+   * **Kontaktinformationen:** Die standardmäßigen Kontaktinformationen für Benutzer im [!DNL Workfront]-Korrekturabzugskonto.
+   * **Standardsprache:** Die Standardsprache, die in Ihrem [!DNL Workfront] Proof-Konto verwendet wird.
+   * **Standardzeitzone:** Die Standardzeitzone für Ihre Organisation.
 
 ## Nutzungsstatistiken
 
-Im Abschnitt [!UICONTROL Nutzungsstatistik] werden die Zahlen und Begrenzungen Ihres Unternehmens für den aktuellen Rechnungszeitraum angezeigt:
+Im Abschnitt [!UICONTROL Nutzungsstatistik] werden die Anzahl und die Beschränkungen Ihres Unternehmens für den aktuellen Abrechnungszeitraum angezeigt:
 
-* **Verwendeter Speicher:** Die aktuell von [!DNL Workfront Proof] verwendete Speichermenge.
-* **Verwendete Testsendungen:** Die Anzahl der Testsendungen, die während des Abrechnungszeitraums verwendet wurden.
-* **Benutzerbeschränkung:** Die Anzahl der Benutzer, die [!DNL Workfront Proof] verwenden.
+* **Verwendeter Speicher:** Die aktuell von [!DNL Workfront Proof] belegte Speichermenge.
+* **Verwendete Korrekturabzüge:** die Anzahl der während des Abrechnungszeitraums verwendeten Korrekturabzüge.
+* **Benutzerlimit:** Die Anzahl der Benutzer, die [!DNL Workfront Proof] verwenden.
 
 ## Ihr Plan
 
-Im Abschnitt [!UICONTROL Ihr Plan] werden Informationen zum [!DNL Workfront Proof] -Plan Ihres Unternehmens angezeigt:
+Im [!UICONTROL Ihr Plan] werden Informationen zum [!DNL Workfront Proof] Ihres Unternehmens angezeigt:
 
-* **Aktueller Plan:** Der aktuelle [!DNL Workfront Proof] Plan Ihres Unternehmens.
-* **Verlängerungsdatum planen:** Das Verlängerungsdatum für den [!DNL Workfront Proof] -Plan Ihres Unternehmens.
+* **Aktueller Plan** Der aktuelle [!DNL Workfront Proof] Ihres Unternehmens.
+* **Plan-Verlängerungsdatum:** Das Verlängerungsdatum für den [!DNL Workfront Proof] Ihres Unternehmens.

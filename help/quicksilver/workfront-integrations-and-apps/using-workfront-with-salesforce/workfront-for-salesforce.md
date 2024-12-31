@@ -1,6 +1,6 @@
 ---
 title: Adobe Workfront für [!DNL Salesforce]
-description: Sie können [!DNL Adobe Workfront] für [!DNL Salesforce] zur Integration Ihrer [!DNL Salesforce] und [!DNL Workfront] Systeme verwenden. In den Artikeln in diesem Abschnitt wird beschrieben, wie Sie [!DNL Workfront] für Salesforce installieren, konfigurieren und verwenden.
+description: Sie können  [!DNL Adobe Workfront] -for [!DNL Salesforce]  verwenden, um Ihre  [!DNL Salesforce] - [!DNL Workfront]  zu integrieren. In den Artikeln in diesem Abschnitt wird beschrieben, wie Sie Salesforce installieren, konfigurieren und  [!DNL Workfront] .
 author: Becky
 draft: Probably
 feature: Workfront Integrations and Apps
@@ -15,10 +15,10 @@ ht-degree: 0%
 
 # Adobe Workfront für [!DNL Salesforce]
 
-Sie können [!DNL Adobe Workfront] für [!DNL Salesforce] verwenden, um Ihre [!DNL Salesforce] - und [!DNL Workfront] -Systeme zu integrieren. In den Artikeln in diesem Abschnitt wird beschrieben, wie Sie [!DNL Workfront] für Salesforce installieren, konfigurieren und verwenden.
+Sie können [!DNL Adobe Workfront] für [!DNL Salesforce] verwenden, um Ihre [!DNL Salesforce]- und [!DNL Workfront] zu integrieren. In den Artikeln in diesem Abschnitt wird beschrieben, wie Sie [!DNL Workfront] für Salesforce installieren, konfigurieren und verwenden.
 
-* [[!DNL Adobe Workfront for Salesforce] Übersicht](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
+* [[!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/workfront-for-salesforce-overview.md)
 * [Installieren [!DNL Adobe Workfront for Salesforce]](../../workfront-integrations-and-apps/using-workfront-with-salesforce/install-workfront-for-salesforce.md)
-* [ [!DNL Adobe Workfront] -Abschnitt für  [!DNL Salesforce] Benutzer konfigurieren](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
-* [Senden [!DNL Adobe Workfront] von Anforderungen von  [!DNL Salesforce] Objekten](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
-* [Erstellen von [!DNL Adobe Workfront] Projekten aus  [!DNL Salesforce]  Objekten](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)
+* [Konfigurieren des  [!DNL Adobe Workfront]  für  [!DNL Salesforce]  Benutzer](../../workfront-integrations-and-apps/using-workfront-with-salesforce/configure-wf-section-for-salesforce-users.md)
+* [Submit [!DNL Adobe Workfront] requests from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md)
+* [Create [!DNL Adobe Workfront] projects from [!DNL Salesforce] objects](../../workfront-integrations-and-apps/using-workfront-with-salesforce/create-wf-projects-from-salesforce-objects.md)

@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten
-description: Wenn Sie ein einzelner Mitarbeiter sind, der ein persönliches Ziel verfolgt, können Sie es an die Ziele Ihres Teams anpassen, um den Fortschritt Ihres eigenen Ziels im größeren Kontext der Strategie Ihres Unternehmens effektiv darzustellen.
+title: Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen
+description: Wenn Sie als Mitarbeiter ein persönliches Ziel haben, sollten Sie es an den Zielen Ihres Teams ausrichten, um den Fortschritt Ihres eigenen Ziels effektiv im größeren Kontext der Strategie Ihres Unternehmens darzustellen.
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten
+# Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen
 
-Wenn Sie ein einzelner Mitarbeiter sind, der ein persönliches Ziel verfolgt, können Sie es an die Ziele Ihres Teams anpassen, um den Fortschritt Ihres eigenen Ziels im größeren Kontext der Strategie Ihres Unternehmens effektiv darzustellen.
+Wenn Sie als Mitarbeiter ein persönliches Ziel haben, sollten Sie es an den Zielen Ihres Teams ausrichten, um den Fortschritt Ihres eigenen Ziels effektiv im größeren Kontext der Strategie Ihres Unternehmens darzustellen.
 
-Wenn alle Mitarbeiter in Ihrer Organisation ihre Ziele an die Ziele Ihrer Organisation anpassen, können sie deutlich erkennen, wie ihre individuellen Beiträge und Teambemühungen dazu beitragen, die Umsetzung größerer Prioritäten auf Unternehmensebene voranzutreiben. Weitere Informationen zu Best Practices für die Ausrichtung von Zielen finden Sie unter [Übersicht über die Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
+Wenn alle Mitarbeiter in Ihrem Unternehmen ihre Ziele an den Zielen Ihres Unternehmens ausrichten, können sie klar erkennen, wie ihre individuellen Beiträge und Teamaktivitäten dazu beitragen, die Nadeln bei größeren Prioritäten auf Unternehmensebene nach vorne zu bringen. Weitere Informationen zu Best Practices für die Ausrichtung von Zielen finden Sie unter [Zielausrichtung - Übersicht in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment-overview.md).
 
-Es gibt zwei Ansätze zum Verbinden von Zielen in Adobe Workfront-Zielen:
+Es gibt zwei Ansätze zum Verbinden von Zielen in Adobe Workfront:
 
 * Sie können eine Ausrichtung zwischen Zielen erstellen, indem Sie Ziele miteinander verbinden.
 
@@ -27,9 +27,9 @@ Es gibt zwei Ansätze zum Verbinden von Zielen in Adobe Workfront-Zielen:
 
 >[!IMPORTANT]
 >
->Ein Ziel kann über insgesamt 1000 Fortschrittsanzeigen verfügen.
+>Ein Ziel kann insgesamt 1000 Fortschrittsindikatoren aufweisen.
 
-In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter [Ziele durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+In diesem Artikel wird beschrieben, wie Sie Ziele ausrichten können, indem Sie sie miteinander verbinden. Informationen zum Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter &quot;[ durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 
 ## Zugriffsanforderungen
 
@@ -42,28 +42,28 @@ Sie müssen über Folgendes verfügen:
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront-Abo</td>
+ <td role="rowheader">Adobe Workfront-Plan</td>
  <td>
- <p>Alle</p>
+ <p>Beliebig</p>
 
 </td>
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene</td>
@@ -73,20 +73,20 @@ Sie müssen über Folgendes verfügen:
  <td role="rowheader">Objektberechtigungen</td>
  <td>
 
-<p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-  <p>Berechtigungen für das Ziel verwalten</p>
-  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+<p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+  <p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
    </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Ziele ausrichten, indem sie miteinander verbunden werden
 
@@ -128,38 +128,38 @@ Aligning goals by connecting them differs depending on what environment you use.
 1. (Optional) Remove the alignment between two goals, when you consider that no longer is relevant to your organization's overall strategy For information about removing alignment between goals, see [Remove goal alignment in Adobe Workfront Goals](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 
 -->
-1. Erstellen Sie zwei Ziele, die Sie ausrichten möchten. Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
-1. (Optional) Aktivieren Sie die Ziele, die Sie ausrichten möchten. Sie können Ziele mit dem Status Entwurf, Aktiv oder Inaktiv ausrichten. Informationen zum Aktivieren von Zielen finden Sie unter [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md).
-1. Wechseln Sie zum Ziel, das Sie ausrichten möchten (untergeordnetes Ziel), zu einem anderen Ziel (übergeordnetes Ziel) und klicken Sie auf dessen Namen, um die Zielseite zu öffnen.
+1. Erstellen Sie zwei Ziele, die Sie ausrichten möchten. Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
+1. (Optional) Aktivieren Sie die Ziele, die Sie ausrichten möchten. Sie können Ziele mit dem Status Entwurf, Aktiv oder Inaktiv ausrichten. Informationen zum Aktivieren von Zielen finden Sie unter [Aktivieren von Zielen in Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
+1. Wechseln Sie zu dem Ziel, das Sie (untergeordnetes Ziel) an einem anderen Ziel (übergeordnetes Ziel) ausrichten möchten, und klicken Sie auf den Namen, um die Zielseite zu öffnen.
 
    >[!INFO]
    >
-   >Wenn Sie beispielsweise Ziel 2 auf den Fortschritt von Ziel 1 auswirken möchten, müssen Sie zu Ziel 2 gehen.
+   >Wenn Sie beispielsweise möchten, dass Ziel 2 den Fortschritt von Ziel 1 beeinflusst, müssen Sie zu Ziel 2 wechseln.
 
-1. Klicken Sie im linken Bereich auf **Zieldetails** .
+1. Klicken Sie **linken** auf „Zieldetails“.
 
-1. Klicken Sie im Bereich **Übergeordnete Zielinformationen** im Feld **Übergeordnetes Ziel** auf **Hinzufügen** , wenn kein übergeordnetes Ziel vorhanden ist.
+1. Klicken Sie im Bereich **Informationen zum übergeordneten Ziel** im Feld **Übergeordnetes Ziel** auf **Hinzufügen**, wenn kein übergeordnetes Ziel vorhanden ist,
 
    Oder
 
-   Klicken Sie auf den Namen des übergeordneten Ziels, um ein anderes auszuwählen.
+   Klicken Sie auf den Namen des übergeordneten Ziels, um ein anderes Ziel auszuwählen.
 
-1. Geben Sie den Namen eines vorhandenen Ziels in das Feld **Übergeordnetes Ziel** ein und wählen Sie es aus, wenn es in der Liste angezeigt wird. In der Liste werden nur Ziele angezeigt, die aus denselben oder künftigen Zeiträumen stammen.
+1. Geben Sie den Namen eines vorhandenen Ziels in das Feld **Übergeordnetes Ziel** ein und wählen Sie es aus, wenn es in der Liste angezeigt wird. In der Liste werden nur Ziele angezeigt, die aus derselben oder künftigen Perioden stammen.
 
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Das Ziel, mit dem Sie begonnen haben (Ziel 2), ist jetzt das untergeordnete Ziel des übergeordneten Ziels, mit dem Sie es ausgerichtet haben (Ziel 1).\
-   Die ausgerichteten Ziele werden im Abschnitt Zielausrichtung mit Ziel 2 als sekundär zu Ziel 1 angezeigt.
-Das untergeordnete Ziel wird im Abschnitt Fortschrittsindikatoren des übergeordneten Ziels angezeigt, wenn der Fortschritt den Fortschritt des übergeordneten Ziels aktualisiert.
+   Das Ziel, mit dem Sie begonnen haben (Ziel 2), ist jetzt das untergeordnete Ziel des übergeordneten Ziels, mit dem Sie es abgestimmt haben (Ziel 1).\
+   Die abgestimmten Ziele werden im Abschnitt „Zielausrichtung“ mit Ziel 2 als sekundärer Ziel 1 verbunden angezeigt.
+Das untergeordnete Ziel wird im Abschnitt Fortschrittsanzeigen des übergeordneten Ziels angezeigt, da sein Fortschritt den Fortschritt des übergeordneten Ziels aktualisiert.
 
    ![](assets/goal-1-and-2-aligned-cards-350x427.png)
 
-1. (Optional) Um die Ziele im Abschnitt &quot;Zielausrichtung&quot;anzuzeigen, wechseln Sie zum Bereich &quot;Ziele&quot;von Workfront und klicken Sie dann im linken Bereich auf den Bereich **Zielausrichtung** . Weitere Informationen zum Abschnitt &quot;Zielausrichtung&quot;finden Sie unter [Navigieren im Abschnitt &quot;Zielausrichtung&quot;in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. (Optional) Um die Ziele im Abschnitt „Zielausrichtung“ anzuzeigen, gehen Sie zum Bereich „Ziele“ von Workfront und klicken Sie dann **Abschnitt &quot;**&quot; im linken Bedienfeld. Informationen zum Abschnitt „Zielausrichtung“ finden Sie unter [Navigieren im Abschnitt „Zielausrichtung“ in Adobe Workfront-](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 
-1. (Optional) Fügen Sie Aktivitäten und Ergebnisse zu beiden Zielen hinzu, um deren Fortschritt anzuzeigen. Weitere Informationen zum Hinzufügen von Aktivitäten und Ergebnissen finden Sie in den folgenden Artikeln:
+1. (Optional) Fügen Sie Aktivitäten und Ergebnisse zu einem der Ziele hinzu, um deren Fortschritt anzuzeigen. Informationen zum Hinzufügen von Aktivitäten und Ergebnissen finden Sie in den folgenden Artikeln:
 
-   * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
-   * [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+   * [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+   * [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 
-1. (Optional) Entfernen Sie die Ausrichtung zwischen zwei Zielen, wenn Sie der Ansicht sind, dass dies nicht mehr für die Gesamtstrategie Ihres Unternehmens relevant ist. Informationen zum Entfernen der Ausrichtung zwischen Zielen finden Sie unter [Entfernen der Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
+1. (Optional) Entfernen Sie die Ausrichtung zwischen zwei Zielen, wenn Sie der Ansicht sind, dass dies für die Gesamtstrategie Ihres Unternehmens nicht mehr relevant ist. Informationen zum Entfernen der Zielausrichtung finden Sie unter [Zielausrichtung in Adobe Workfront-Zielen entfernen](../../workfront-goals/goal-alignment/remove-goal-alignment.md).
 

@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Ziele durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten
-description: Sie können zwei Ziele manuell ausrichten oder die Ergebnisse und Aktivitäten eines vorhandenen Ziels in ein anderes umwandeln. Das konvertierte Ergebnis oder die konvertierte Aktivität wird zum untergeordneten Ziel des ursprünglichen Ziels. Informationen zum manuellen Ausrichten von zwei Zielen finden Sie unter Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen.
+title: Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele
+description: Sie können zwei Ziele manuell ausrichten oder die Ergebnisse und Aktivitäten eines vorhandenen Ziels in ein anderes Ziel konvertieren. Das konvertierte Ergebnis oder die konvertierte Aktivität wird zum untergeordneten Ziel des ursprünglichen Ziels. Informationen zum manuellen Ausrichten von zwei Zielen finden Sie unter Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen.
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
@@ -13,10 +13,10 @@ ht-degree: 16%
 
 ---
 
-# Ziele durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten
+# Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele
 
-Sie können zwei Ziele manuell ausrichten oder die Ergebnisse und Aktivitäten eines vorhandenen Ziels in ein anderes umwandeln. Das konvertierte Ergebnis oder die konvertierte Aktivität wird zum untergeordneten Ziel des ursprünglichen Ziels.
-Informationen zum manuellen Ausrichten von zwei Zielen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
+Sie können zwei Ziele manuell ausrichten oder die Ergebnisse und Aktivitäten eines vorhandenen Ziels in ein anderes Ziel konvertieren. Das konvertierte Ergebnis oder die konvertierte Aktivität wird zum untergeordneten Ziel des ursprünglichen Ziels.
+Informationen zum manuellen Ausrichten von zwei Zielen finden Sie unter [Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md).
 
 ## Zugriffsanforderungen
 
@@ -28,28 +28,28 @@ Informationen zum manuellen Ausrichten von zwei Zielen finden Sie unter [Ziele d
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront-Abo</td>
+ <td role="rowheader">Adobe Workfront-Plan</td>
  <td>
- <p>Alle</p>
+ <p>Beliebig</p>
 
 </td>
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene</td>
@@ -59,20 +59,20 @@ Informationen zum manuellen Ausrichten von zwei Zielen finden Sie unter [Ziele d
  <td role="rowheader">Objektberechtigungen</td>
  <td>
   <div>
-  <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-  <p>Berechtigungen für das Ziel verwalten</p>
-  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+  <p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+  <p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
@@ -80,17 +80,17 @@ Sie müssen über Folgendes verfügen, bevor Sie beginnen können:
 
 * Ein vorhandenes Ziel mit vorhandenen Ergebnissen und Aktivitäten.
 
-  Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+  Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
 >[!IMPORTANT]
 >
->Ein Ziel kann über bis zu 1000 Fortschrittsanzeigen verfügen.
+>Ein Ziel kann über bis zu 1000 Fortschrittsindikatoren verfügen.
 
 <!--drafted for goal redesign: At PRODUCTION: update the sentence above to remove Production/ Preview references-->
 
-## Überlegungen beim Konvertieren von Ergebnissen und Aktivitäten in Ziele
+## Überlegungen zur Konvertierung von Ergebnissen und Aktivitäten in Ziele
 
-Manchmal kann ein Ergebnis oder eine Aktivität einen größeren Umfang haben als erwartet, und es wäre sinnvoller, dass sie zu Zielen werden. Sie können die Ergebnisse und Aktivitäten eines vorhandenen Ziels in ein neues Ziel konvertieren. Dies ist ein Bottom-up-Ansatz zur Ausrichtung von Zielen.
+Manchmal haben Ergebnisse oder Aktivitäten einen größeren Umfang als erwartet, und es wäre sinnvoller, sie zu Zielen zu machen. Sie können die Ergebnisse und Aktivitäten eines vorhandenen Ziels in ein neues Ziel konvertieren. Dies ist ein Bottom-up-Ansatz zur Ausrichtung der Ziele.
 
 Beachten Sie beim Konvertieren von Ergebnissen und Aktivitäten in Ziele Folgendes:
 
@@ -118,19 +118,19 @@ Beachten Sie beim Konvertieren von Ergebnissen und Aktivitäten in Ziele Folgend
 1. (Optional) Click the name of the new goal to open the **Goal Details** panel and edit the name of the goal. For information about editing any information for an existing goal, see [Edit goals in Adobe Workfront Goals](../../workfront-goals/goal-management/edit-goals.md).
 -->
 
-1. Gehen Sie zu einem Ziel, das über ein Ergebnis oder eine Aktivität verfügt, die Sie in ein Ziel konvertieren möchten.
-1. Klicken Sie auf der Zielseite im linken Bereich auf **Fortschrittsanzeigen** .
-1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsanzeigen aus und klicken Sie dann oben in der Fortschrittsanzeige-Liste auf das Symbol **In Ziel konvertieren** ![](assets/convert-to-goal-icon-unshimmed.png). Das Feld In Ziel konvertieren wird geöffnet.
+1. Navigieren Sie zu einem Ziel mit einem Ergebnis oder einer Aktivität, die Sie in ein Ziel konvertieren möchten.
+1. Klicken Sie auf der Zielseite im linken Bereich **Fortschrittsanzeigen**.
+1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsanzeigen aus und klicken Sie dann auf **In Ziel** umwandeln![](assets/convert-to-goal-icon-unshimmed.png) oben in der Liste der Fortschrittsanzeigen. Das Feld In Ziel konvertieren wird geöffnet.
 
    ![](assets/convert-to-goal-box-unshimmed.png)
 1. Aktualisieren Sie die folgenden Informationen:
    * **Zielname**: Standardmäßig hat das neue Ziel denselben Namen wie das ursprüngliche Ergebnis oder die ursprüngliche Aktivität.
-   * **Zeitraum**: Standardmäßig ist der Zeitraum des neuen Ziels der aktuelle Quartal. Sie können die Einstellung **Benutzerdefinierte Datumswerte aktivieren** auswählen, um einen benutzerdefinierten Zeitraum für das neue Ziel festzulegen.
-   * **Zieleigentümer**: Standardmäßig ist der neue Zieleigentümer der Eigentümer des ursprünglichen Ergebnisses oder der Aktivität.
-   * **Beschreibung**: Fügen Sie weitere Informationen zum neuen Ziel hinzu.
+   * **Zeitraum**: Standardmäßig ist der Zeitraum des neuen Ziels das aktuelle Quartal. Sie können die Einstellung **Benutzerdefinierte Datumswerte aktivieren** auswählen, um einen benutzerdefinierten Zeitraum für das neue Ziel zu definieren.
+   * **Zieleigentümer**: Standardmäßig ist der neue Zieleigentümer der Eigentümer des ursprünglichen Ergebnisses oder der ursprünglichen Aktivität.
+   * **Beschreibung**: Fügen Sie weitere Informationen über das neue Ziel hinzu.
 1. Klicken Sie auf **Speichern**
 
-   Das Ergebnis oder die Aktivität wird jetzt in ein untergeordnetes Ziel des ursprünglichen Ziels konvertiert. Sie wird als Ziel in der Liste der Fortschrittsindikatoren des ursprünglichen Ziels aufgeführt.
+   Das Ergebnis oder die Aktivität wird jetzt in ein untergeordnetes Ziel des ursprünglichen Ziels konvertiert. Es wird als Ziel in der Liste der Fortschrittsindikatoren des ursprünglichen Ziels aufgeführt.
 
 
 

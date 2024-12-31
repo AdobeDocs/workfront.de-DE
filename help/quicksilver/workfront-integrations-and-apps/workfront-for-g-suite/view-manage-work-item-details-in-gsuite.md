@@ -1,9 +1,9 @@
 ---
 product-area: workfront-integrations;projects
-keywords: google,doc,document,sheet,slide
+keywords: Google,DOC,Dokument,Blatt,Folie
 navigation-topic: workfront-for-g-suite
-title: Anzeigen und Verwalten von [!DNL Adobe Workfront] Objektdetails über Google Workspace
-description: Sie können die Details eines Arbeitselements anzeigen und verwalten, ohne Google Workspace zu verlassen. Beispielsweise können Sie die Beschreibung einer Aufgabe lesen, ihr übergeordnetes Objekt anzeigen, ihren Status ändern und sie als abgeschlossen markieren - alles innerhalb von [!DNL Adobe Workfront] für Google Workspace.
+title: Anzeigen und Verwalten  [!DNL Adobe Workfront]  Objektdetails aus Google Workspace
+description: Sie können die Details eines Arbeitselements anzeigen und verwalten, ohne Google Workspace verlassen zu müssen. Sie können beispielsweise die Beschreibung einer Aufgabe lesen, ihr übergeordnetes Objekt anzeigen, ihren Status ändern und sie als abgeschlossen markieren, und zwar alles innerhalb von Google  [!DNL Adobe Workfront]  Workspace.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Anzeigen und Verwalten von [!DNL Adobe Workfront] Objektdetails über [!DNL Google Workspace]
+# Anzeigen und Verwalten [!DNL Adobe Workfront] Objektdetails aus [!DNL Google Workspace]
 
 >[!NOTE]
 >
 >Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
-Sie können die Details eines Arbeitselements anzeigen und verwalten, ohne [!DNL Google Workspace] zu verlassen. Beispielsweise können Sie die Beschreibung einer Aufgabe lesen, ihr übergeordnetes Objekt anzeigen, ihren Status ändern und sie als abgeschlossen markieren, und zwar innerhalb von [!DNL Adobe Workfront for Google Workspace].
+Sie können die Details eines Arbeitselements anzeigen und verwalten, ohne [!DNL Google Workspace] verlassen zu müssen. Sie können beispielsweise die Beschreibung einer Aufgabe lesen, ihr übergeordnetes Objekt anzeigen, ihren Status ändern und sie als abgeschlossen markieren, und das alles innerhalb von [!DNL Adobe Workfront for Google Workspace].
 
 ## Zugriffsanforderungen
 
@@ -31,55 +31,55 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL Arbeit], [!UICONTROL Plan]</p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Voraussetzungen
 
-Bevor Sie Details zu Arbeitselementen in [!DNL Google Workspace] anzeigen und verwalten können, müssen Sie
+Bevor Sie Arbeitsaufgabendetails in [!DNL Google Workspace] anzeigen und verwalten können, müssen Sie Folgendes tun
 
-* Installieren Sie [!DNL Workfront for Google Workspace]\
+* Installieren von [!DNL Workfront for Google Workspace]\
    Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/install-workfront-for-gsuite.md).
 
-## Details zu Arbeitselementen in [!DNL Google Workspace] anzeigen und verwalten
+## Anzeigen und Verwalten von Arbeitselementdetails in [!DNL Google Workspace]
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie in der Seitenleiste [!DNL Google Workspace] der Add-ons ganz rechts auf das Symbol [!DNL Workfront] ![](assets/wf-lion-icon.png) .
-1. Wechseln Sie zur Aufgabe [!DNL Workfront] oder zum Problem innerhalb von [!DNL Google Workspace], wie unter [Zugriff auf [!DNL Adobe Workfront] [!UICONTROL Home] -Inhalt von  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md) beschrieben.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts auf der Seite.
+1. Gehen Sie zur [!DNL Workfront] Aufgabe oder zum Problem in [!DNL Google Workspace], wie unter [Zugriff [!DNL Adobe Workfront] [!UICONTROL Startseite] Inhalt von beschrieben [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
-   Wenn Sie eine Aufgabe oder ein Problem auswählen, ist die Registerkarte **[!UICONTROL Details]** geöffnet. Im Bereich über der Registerkarte **[!UICONTROL Details]** werden der Name des übergeordneten Objekts, der Name der Aufgabe oder des Problems sowie das [!UICONTROL Fälligkeitsdatum] (wenn es sich um eine Aufgabe handelt) oder das [!UICONTROL Prioritätsdatum] (wenn es ein Problem ist) angezeigt.
+   Wenn Sie eine Aufgabe oder ein Problem auswählen, wird die **[!UICONTROL Details]** geöffnet. Der Bereich über der Registerkarte **[!UICONTROL Details]** zeigt den Namen des übergeordneten Objekts, den Namen der Aufgabe oder des Problems und das [!UICONTROL Fälligkeitsdatum] (wenn es sich um eine Aufgabe handelt) oder [!UICONTROL Prioritätsdatum] (wenn es sich um ein Problem handelt) an.
 
 
-   Sie können auf dieser Registerkarte verschiedene Aufgaben ausführen, ohne [!DNL Google Workspace] zu verlassen, darunter die folgenden:
+   Sie können auf dieser Registerkarte verschiedene Aufgaben ausführen, ohne [!DNL Google Workspace] verlassen zu müssen, darunter die folgenden:
 
-   * Zeigen Sie die **[!UICONTROL Beschreibung]** des Objekts und andere Details an, z. B. die dem Objekt zugewiesenen Benutzer, die **[!UICONTROL Priorität]**, den Anforderer, das **[!UICONTROL geplante Abschlussdatum]** sowie alle benutzerdefinierten Felder und Formulare, die an das Objekt angehängt sind.
+   * Zeigen Sie die **[!UICONTROL Beschreibung) des Objekts]** andere Details an, z. B. die dem Objekt zugewiesenen Benutzer, die **[!UICONTROL Priorität]**, den Anforderer, das **[!UICONTROL geplante Abschlussdatum]** und alle benutzerdefinierten Felder und Formulare, die an das Objekt angehängt sind.
 
-     Benutzerdefinierte Formulare zeigen nur Felder an, in denen Informationen hinzugefügt wurden.
+     Benutzerdefinierte Formulare zeigen nur Felder an, denen Informationen hinzugefügt wurden.
 
-   * Klicken Sie auf den Bereich **[!UICONTROL Übergeordnetes Projekt]** , um die Details des übergeordneten Objekts anzuzeigen.
+   * Klicken Sie auf **[!UICONTROL Übergeordnetes Projekt]**, um die Details des übergeordneten Objekts anzuzeigen.
 
      >[!TIP]
      >
      >Dies kann hilfreich sein, wenn Sie Aufgaben und Probleme mit demselben Namen haben und diese unterscheiden müssen.
 
-   * Akzeptieren Sie die Ihnen zugewiesenen Aufgaben, indem Sie auf **[!UICONTROL Bearbeiten]** klicken.
-   * Bearbeiten Sie verschiedene Optionen, z. B. die Option **[!UICONTROL Fertig]**, den **[!UICONTROL Status]** und den **[!UICONTROL Percent complete]**.
+   * Übernehmen Sie die Ihnen zugewiesene Arbeit, indem Sie auf **[!UICONTROL Bearbeiten]** klicken.
+   * Bearbeiten Sie verschiedene Optionen, z **[!UICONTROL B]** die Option „Fertig **[!UICONTROL den]** Status“ und den **[!UICONTROL Prozent abgeschlossen]**.
 
-     Geben Sie unter &quot;**[!UICONTROL Prozent abgeschlossen]**&quot;Zahlen und (optional) Prozentzeichen % ein, um Ihren Fortschritt bei einem Element anzugeben.
-   * Zeigen Sie Informationen zu einer Genehmigungsanfrage an, einschließlich Eigentümer, Größe und Anlagen.
-   * **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** von Genehmigungsanfragen und -dokumenten.
+     Geben Sie unter **[!UICONTROL Prozent abgeschlossen]** die Zahlen und (optional) das Prozentzeichen % ein, um Ihren Fortschritt bei einem Element anzuzeigen.
+   * Zeigen Sie Informationen zu einer Genehmigungsanfrage an, einschließlich des Verantwortlichen, der Größe und etwaiger Anhänge.
+   * **[!UICONTROL Genehmigen]** oder **[!UICONTROL Ablehnen]** Genehmigungsanfragen und Dokumente.
 
-   * **[!UICONTROL Gewähren Sie]** oder **[!UICONTROL Ignorieren]** Zugriffsanfragen.
+   * **[!UICONTROL Gewähren]** oder **[!UICONTROL Ignorieren]** Zugriffsanfragen.
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Anzeigen in[!DNL Workfront]]** , um zum aktuellen Arbeitselement in [!DNL Workfront] zu wechseln.
+1. (Optional) Klicken Sie auf **[!UICONTROL In[!DNL Workfront]]** anzeigen , um zum aktuellen Arbeitselement in [!DNL Workfront] zu wechseln.
 
-* Informationen zur Verwendung der Registerkarte [!UICONTROL Aktualisierungen] in [!DNL Workfront for Google Workspace] finden Sie unter [Aktualisieren eines  [!DNL Adobe Workfront] Objekts von  [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
-* Informationen zur Verwendung der Registerkarte [!UICONTROL Dokumente] in [!DNL Workfront for Google Workspace] finden Sie unter [Anzeigen und Verwalten von Dokumenten aus [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).
+* Weitere Informationen zur Verwendung der Registerkarte [!UICONTROL Updates] in [!DNL Workfront for Google Workspace] finden Sie unter [Aktualisieren eines  [!DNL Adobe Workfront] Objekts aus [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
+* Weitere Informationen zur Verwendung der Registerkarte [!UICONTROL Dokumente] in [!DNL Workfront for Google Workspace] finden Sie unter [Anzeigen und Verwalten von Dokumenten aus der [!DNL G Suite]](../../workfront-integrations-and-apps/workfront-for-g-suite/view-and-manage-documents-in-gsuite.md).

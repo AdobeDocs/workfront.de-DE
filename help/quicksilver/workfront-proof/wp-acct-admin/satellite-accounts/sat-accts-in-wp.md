@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: satellite-accounts
 title: Satellitenkonten in [!DNL Workfront Proof]
-description: Satellitenkonten sind gebührenpflichtige Konten, die Sie über Ihr eigenes [!DNL Workfront Proof] Konto einrichten und verwalten.
+description: Satellitenkonten sind bezahlte Konten, die Sie von Ihrem eigenen Konto aus einrichten  [!DNL Workfront Proof]  verwalten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 139e9a6c-b9ed-4819-970b-d62f47ccd71b
@@ -19,43 +19,43 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Satellitenkonten sind gebührenpflichtige Konten, die Sie über Ihr eigenes [!DNL Workfront Proof] -Konto einrichten und verwalten.
+Satellitenkonten sind bezahlte Konten, die Sie von Ihrem eigenen [!DNL Workfront Proof] aus einrichten und verwalten.
 
-Ihr Konto wird zu einem &quot;[!UICONTROL Hub]&quot;, mit dem die mit ihm verknüpften Satellitenkonten verwaltet werden.
+Ihr Konto wird zu einem [!UICONTROL Hub], der zur Verwaltung der mit ihm verknüpften Satellite-Konten verwendet wird.
 
-Die Anzahl der Satelliten-Konten, die Sie einrichten können, ist nicht begrenzt. Sie können also für jeden Ihrer Kunden ein eigenes Konto erstellen, falls Sie dies wünschen.
+Die Anzahl der Satelliten-Konten, die Sie einrichten können, ist unbegrenzt. Daher können Sie bei Bedarf für jeden Ihrer Kunden ein eigenes Konto erstellen.
 
-Sie können mehrere Benutzer aus einer Organisation zum Satellitenkonto hinzufügen und ein personalisiertes Markenkonto erstellen, in dem sie arbeiten können.
+Sie können dem Satellite-Konto mehrere Benutzer aus einer Organisation hinzufügen und ein personalisiertes, markenspezifisches Konto erstellen, in dem sie arbeiten können.
 
-## Warum sollte ich ein Satellitenkonto einrichten?
+## Warum sollte ich ein Satellite-Konto einrichten?
 
-Bei [!DNL Workfront] werden uns häufig folgende Fragen gestellt:
+[!DNL Workfront] werden uns oft folgende Fragen gestellt:
 
-* Kann ich für jeden meiner Kunden eine Anmeldung erstellen?
+* Kann ich für jeden meiner Kunden einen Login erstellen?
 * Wie können sich Kunden anmelden, ohne private Daten zu sehen?
-* Sollte ich meinem [!DNL Workfront Proof]-Konto einen Freiberufler hinzufügen?
+* Sollte ich einen Freiberufler zu meinem [!DNL Workfront Proof]-Konto hinzufügen?
 
-Mit [!UICONTROL Workfront Proof] können Sie Testsendungen einfach für alle freigeben, die über eine gültige E-Mail-Adresse verfügen - sie benötigen nicht einmal ihre eigene Anmeldung bei [!UICONTROL Workfront Proof].
+Mit [!UICONTROL Workfront Proof] können Sie Korrekturabzüge einfach für alle freigeben, die über eine gültige E-Mail-Adresse verfügen. Sie benötigen nicht einmal eine eigene Anmeldung bei [!UICONTROL Workfront Proof].
 
-Es kann jedoch vorkommen, dass Sie möchten, dass die Teilnehmer Ihres Workflows sich selbst anmelden, sodass sie über ein eigenes Dashboard verfügen und alle Testsendungen, die Sie für sie freigegeben haben, an einem Ort anzeigen können.
+Es kann jedoch vorkommen, dass Sie möchten, dass die Teilnehmer an Ihrem Workflow über eine eigene Anmeldung verfügen, sodass sie über ein eigenes Dashboard verfügen und alle Korrekturabzüge, die Sie für sie freigegeben haben, an einem Ort sehen können.
 
-Sie können die Sicherheit Ihrer Testsendungen auch erhöhen, indem Sie die Einstellung [!UICONTROL Anmeldung erforderlich] verwenden. In diesem Fall müssen Ihre Validierer sich selbst anmelden. Weitere Informationen finden Sie unter [Sicherheitsnachweis in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
+Möglicherweise möchten Sie auch die Sicherheit Ihrer Korrekturabzüge erhöhen, indem Sie die Einstellung [!UICONTROL Anmeldung erforderlich] verwenden. In diesem Fall benötigen Ihre Prüfer eine eigene Anmeldung. Weitere Informationen finden Sie unter [Proof-Sicherheit in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md).
 
-Wir raten Ihnen dringend davon ab, externe Personen als Benutzer in Ihrem [!DNL Workfront Proof] -Konto hinzuzufügen, da dies ihnen Zugriff auf Informationen geben könnte, die Sie nicht sehen möchten.
+Wir raten Ihnen dringend davon ab, externe Personen als Benutzer in Ihrem [!DNL Workfront Proof]-Konto hinzuzufügen, da dies ihnen Zugriff auf Informationen geben könnte, die sie nicht sehen sollen.
 
-Wie richtet man also Anmeldungen für Personen in anderen Organisationen ein?
+Wie richtet man also die Anmeldung für Personen in anderen Organisationen ein?
 
-Durch die Erstellung von Satellite-Konten für Ihre Kunden.
+Durch die Erstellung von Satellitenkonten für Ihre Kunden.
 
 ## Hauptmerkmale und Vorteile von Satellitenkonten
 
-| **Funktion** | **Benefit** |
+| **Funktion** | **Vorteil** |
 |---|---|
-| Verwaltet von Ihnen aus Ihrem &quot;[!UICONTROL Hub]&quot;-Konto | Einfache Verwaltung mehrerer Satellitenkonten von einem Ort aus |
-| Persönliche Anmeldung für jeden Benutzer im Satellitenkonto | Bietet zusätzliche Sicherheit bei Testsendungen (Testsendungen können kennwortgeschützt sein. Weitere Informationen finden Sie unter [Sicherheitsnachweis in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md)). |
-| Personalisiertes Branding für Ihren Kunden | Sie können das Branding-Erlebnis des Clients in [!DNL Workfront Proof] steuern. |
-| Verbesserter Workflow für Ihren Client | Sie können den Testprozess an die Anforderungen des jeweiligen Kunden anpassen |
-| Ihr Client kann Testsendungen aus dem Satellitenkonto hochladen und diese für Sie freigeben | Ihr Kunde kann eigene Testsendungen starten |
-| Testsendungen, die zuvor für Ihren Kunden freigegeben wurden, werden automatisch in seinem Konto angezeigt | Keine erneute Freigabe früherer Testsendungen erforderlich |
+| Von Ihnen innerhalb Ihres &quot;[!UICONTROL Hub“-] verwaltet | Verwaltung mehrerer Satellitenkonten von einem Ort aus |
+| Persönliche Anmeldung für jeden Benutzer im Satellite-Konto | Bietet zusätzliche Sicherheit für Korrekturabzüge (Korrekturabzüge können passwortgeschützt sein). Weitere Informationen finden Sie unter [Proof-Sicherheit in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/proof-security-in-workfront-proof.md). |
+| Personalisiertes Branding für Ihren Kunden | Sie können das Branding-Erlebnis steuern, das der Client in [!DNL Workfront Proof] hat |
+| Verbesserter Workflow für Ihren Client | Sie können den Proofing-Prozess an die Bedürfnisse des jeweiligen Kunden anpassen |
+| Ihr Kunde kann Testsendungen über das Satellitenkonto hochladen und für Sie freigeben | Ihr Kunde kann eigene Testsendungen durchführen |
+| Alle Korrekturabzüge, die zuvor für Ihren Kunden freigegeben wurden, werden automatisch in seinem Konto angezeigt | Frühere Korrekturabzüge müssen nicht erneut freigegeben werden |

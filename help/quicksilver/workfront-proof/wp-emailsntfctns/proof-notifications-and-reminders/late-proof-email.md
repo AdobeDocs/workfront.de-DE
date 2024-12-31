@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
-title: Verspätete Testversand-E-Mail
-description: Die E-Mail zum verspäteten Testversand wird den Empfängern zugestellt, wenn ein Testversand kurz vor Ablauf der Frist oder bis zum Ablauf der Frist liegt. Diese Arten von E-Mails können nicht auf Testversandebene deaktiviert werden, sind jedoch auf Konto- und Benutzerebene konfigurierbar.
+title: E-Mail zu verspätetem Korrekturabzug
+description: Die E-Mail zu verspäteten Korrekturabzügen wird an Empfänger gesendet, wenn der Korrekturabzug kurz vor dem Fristablauf oder dem Fristablauf steht. Diese E-Mail-Typen können auf der Ebene des Korrekturabzugs nicht deaktiviert werden, können jedoch auf der Ebene der persönlichen Einstellungen von Konten und Benutzern konfiguriert werden.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 23eb75a7-d7b7-4043-afba-cf45c86ab1ae
@@ -15,38 +15,38 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Verspätete Testversand] E-Mail
+# [!UICONTROL Verspäteter Korrekturabzug] E-Mail
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Die E-Mail &quot;[!UICONTROL Verspäteter Testversand]&quot; wird an Empfänger gesendet, wenn ein Testversand nahe der Frist oder dem Endtermin liegt. Diese Arten von E-Mails können nicht auf Testversandebene deaktiviert werden, sind jedoch auf Konto- und Benutzerebene konfigurierbar.
+Die E[!UICONTROL Mail „Verspäteter ]&quot; wird an Empfänger gesendet, wenn ein Korrekturabzug kurz vor dem Fristablauf oder dem Fristablauf steht. Diese E-Mail-Typen können auf der Ebene des Korrekturabzugs nicht deaktiviert werden, können jedoch auf der Ebene der persönlichen Einstellungen von Konten und Benutzern konfiguriert werden.
 
-* [!UICONTROL Verspätete Testversand] -E-Mails werden automatisch an die validierungsverantwortlichen Benutzer gesendet, wenn ein Testversand seinen Termin erreicht und nicht alle Überprüfungen oder Entscheidungen getroffen wurden.
+* [!UICONTROL Verspäteter Korrekturabzug] E-Mails werden automatisch an Prüfende gesendet, wenn die Frist für einen Korrekturabzug erreicht ist und nicht alle Prüfungen oder Entscheidungen getroffen wurden.
 
-  Diese E-Mails sind standardmäßig aktiviert und können nicht für alle Konten angepasst werden. Benutzer können sie jedoch in ihren Testversandeinstellungen deaktivieren.
+  Diese E-Mails sind standardmäßig aktiviert und können nicht für alle Konten angepasst werden, aber Benutzer können sie in ihren Proofing-Standardeinstellungen deaktivieren.
 
-* Eventuelle E-Mails werden den Validierungsverantwortlichen gesendet, wenn ein Testversand nahe der Frist liegt. Sie sind standardmäßig deaktiviert und können in den [!UICONTROL Kontoeinstellungen] aktiviert werden. Nach der Aktivierung können sie auch in den [!UICONTROL Testversandstandardwerten] angepasst werden.
+* E-Mails mit Risiken werden an Prüfer gesendet, wenn der Termin für einen Korrekturabzug kurz bevorsteht. Sie sind standardmäßig deaktiviert und können in den [!UICONTROL Kontoeinstellungen“ aktiviert ]. Nach der Aktivierung können sie auch in den [!UICONTROL Proofing-Standardeinstellungen“ ] werden.
 
 Diese Benachrichtigungen können nicht angepasst werden.
 
-Folgende Personen werden benachrichtigt:
+Die Personen, die benachrichtigt werden:
 
-* Der Eigentümer wird nur dann in der Warnung [!UICONTROL E-Mail] zur Verspätung von Testsendungen aktiviert, wenn die Standardwerte für die Testsendungen des Eigentümers] aktiviert sind.[!UICONTROL 
-* Jeder Genehmiger, der sich noch nicht zum Testversand entschieden hat. Informationen zu Entscheidungen finden Sie unter [Entscheidungsfindung für einen Testversand im Testversand-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md) .
+* Nur wenn „E[!UICONTROL Mail] bei verspäteten Korrekturabzügen einen Warnhinweis ausgibt, wird der/die Verantwortliche in den [!UICONTROL Standardeinstellungen für Korrekturabzüge) ].
+* Alle genehmigenden Personen, die noch keine Entscheidung über den Korrekturabzug getroffen haben. Weitere Informationen zu Entscheidungen finden Sie unter [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
 
 >[!NOTE]
 >
->Wenn die E-Mail-Benachrichtigungen in den [!UICONTROL Kontoeinstellungen] standardmäßig deaktiviert sind, werden keine [!UICONTROL verspäteten Testversand]-E-Mails gesendet, selbst wenn die Validierer und Genehmiger noch keine Kommentare und Entscheidungen übermittelt haben. Sie können auch die Option [!UICONTROL Verspätete Testversand] -E-Mails in den Testversandstandardeinstellungen deaktivieren.
+>Wenn die E-Mail-Benachrichtigungen in den [!UICONTROL Kontoeinstellungen] standardmäßig deaktiviert sind, werden keine [!UICONTROL Verspäteten ]-E-Mails gesendet, selbst wenn die validierungsverantwortlichen Personen und genehmigenden Personen ihre Kommentare und Entscheidungen noch nicht übermittelt haben. Sie können E[!UICONTROL Mails mit verspätetem Korrekturabzug auch in ] Standardeinstellungen für das Proofing deaktivieren.
 
-Beachten Sie Folgendes zu Testversandbenachrichtigungen:
+Beachten Sie Folgendes zu Korrekturabzugs-Benachrichtigungen:
 
-* Ihr [!DNL Workfront] -Administrator oder [!DNL Workfront Proof] -Administrator kann das Logo Ihres Unternehmens in Ihre E-Mail-Benachrichtigungen aufnehmen, wie unter [Marke der [!DNL Workfront Proof] Site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md) beschrieben.
-* Wenn Sie mehrere Testsendungen für dieselben Validierer freigeben müssen und nicht möchten, dass sie mehrere E-Mails erhalten, können Sie sie gleichzeitig hochladen. Alle validierungsverantwortlichen Benutzer erhalten eine E-Mail, in der alle Testsendungen detailliert beschrieben werden, einschließlich einer persönlichen URL für jeden Testversand.
+* Ihr [!DNL Workfront]- oder [!DNL Workfront Proof] kann das Logo Ihres Unternehmens in Ihre E-Mail-Benachrichtigungen aufnehmen, wie unter [Die  [!DNL Workfront Proof] -Site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md) beschrieben.
+* Wenn Sie mehrere Korrekturabzüge für dieselben Prüfer freigeben müssen und nicht möchten, dass sie mehrere E-Mails erhalten, können Sie sie gleichzeitig hochladen. Alle Prüfer erhalten eine E-Mail mit allen Korrekturabzügen und einer persönlichen URL zu jedem Korrekturabzug.
 
   >[!NOTE]
   >
-  >Der Ersteller der Testsendungen erhält für jeden erstellten Testversand eine separate E-Mail vom Typ [!UICONTROL Testversand durchgeführt] . Weitere Informationen finden Sie unter [Die E-Mail [!UICONTROL Proof Made]](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
+  >Der Ersteller der Korrekturabzüge erhält für jeden [!UICONTROL  Korrekturabzug eine separate ]Korrekturabzugs erstellt). Weitere Informationen finden Sie unter [Die E[!UICONTROL Mail mit dem ] Korrekturabzug](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md).
 
-* Wenn Sie oder Ihre Validierer keine erwartete E-Mail-Benachrichtigung erhalten, finden Sie weitere Informationen unter [Konfigurieren von [!DNL Workfront Proof] E-Mails, um Spamfilter zu vermeiden](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).
+* Wenn Sie oder Ihre Validierungsverantwortlichen keine erwartete E-Mail-Benachrichtigung erhalten, lesen Sie [Konfigurieren von E [!DNL Workfront Proof] Mails zur Vermeidung von Spam-Filtern](../../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/configure-wp-emails-avoid-spam-filters.md).

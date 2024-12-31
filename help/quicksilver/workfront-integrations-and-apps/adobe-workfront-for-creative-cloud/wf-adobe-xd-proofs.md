@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-xd
-title: Hochladen von XD Artboards als Testsendungen in Workfront
-description: Sie können Ihre Zeichenflächen als Testsendungen direkt in Adobe Workfront hochladen, um eine gründliche Überprüfung und Genehmigung zu erhalten.
+title: Hochladen von XD-Zeichenflächen als Korrekturabzüge in Workfront
+description: Sie können Ihre Zeichenflächen als Korrekturabzüge direkt in Adobe Workfront hochladen, um sie gründlich zu überprüfen und zu genehmigen.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# [!DNL XD] Zeichenflächen als Testsendungen in [!DNL Workfront] hochladen
+# Hochladen [!DNL XD] Zeichenflächen als Korrekturabzüge in [!DNL Workfront]
 
-Sie können Ihre Zeichenflächen direkt als Testsendungen in [!DNL Adobe Workfront] hochladen, um eine gründliche Überprüfung und Genehmigung zu erhalten.
+Sie können Ihre Zeichenflächen als Korrekturabzüge direkt in [!DNL Adobe Workfront] hochladen, um sie einer gründlichen Überprüfung und Genehmigung zu unterziehen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -28,16 +28,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Aktueller Plan: [!UICONTROL Pro] oder höher</p> <p>oder</p> <p>Veralteter Plan: [!UICONTROL Premium]</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter .</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td> <p>Aktueller Plan: [!UICONTROL Pro] oder höher</p> <p>oder</p> <p>Legacy-Plan: [!UICONTROL Premium]</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter .</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>Aktueller Plan: [!UICONTROL Work] oder [!UICONTROL Proof]</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>Aktueller Plan: [!UICONTROL Work] oder [!UICONTROL Proof]</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] -Lizenz über eine [!DNL Adobe Creative Cloud] -Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -45,43 +45,43 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] - oder [!DNL Workfront Proof] -Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Berechtigung zum Testen haben.
+&#42;Um herauszufinden, über welchen Plan, welche Rolle oder welches Profil für Korrekturabzugsberechtigungen Sie verfügen, wenden Sie sich an Ihren [!DNL Workfront] oder [!DNL Workfront Proof].
 
 +++
 
 ## Voraussetzungen
 
-* Sie müssen das Plug-in [!DNL Adobe Workfront for XD] installieren, bevor Sie Testsendungen in [!DNL Adobe XD] hochladen können.
+* Sie müssen das [!DNL Adobe Workfront for XD]-Plug-in installieren, bevor Sie Korrekturabzüge in [!DNL Adobe XD] hochladen können.
 
   Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
-## Hochladen eines statischen Testversands
+## Hochladen eines statischen Korrekturabzugs
 
-1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
    ![](assets/menu-350x440.png)
 
-1. Gehen Sie zum Arbeitselement, in das Sie einen statischen Testversand hochladen möchten.
-1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
+1. Wechseln Sie zu dem Arbeitselement, in das Sie einen statischen Korrekturabzug hochladen möchten.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
 
-1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Datei]** .
-1. Wählen Sie die hochzuladenden Zeichenflächen aus.
+1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
+1. Wählen Sie die Zeichenflächen aus, die Sie hochladen möchten.
 
    >[!TIP]
    >
-   >* Die Zeichenflächen werden im Testversand in der Reihenfolge angezeigt, in der sie ausgewählt wurden. Die erste ausgewählte Zeichenfläche ist die erste Seite im Testversand usw.
-   >* Um schnell mehr als eine Zeichenfläche auszuwählen, klicken Sie auf und ziehen Sie die Maus über die gewünschten Zeichenflächen. Auf diese Weise können Sie die Reihenfolge der Zeichenflächen im Testversand nicht steuern.
+   >* Zeichenflächen werden im Korrekturabzug in der Reihenfolge angezeigt, in der sie ausgewählt wurden. Die erste ausgewählte Zeichenfläche ist die erste Seite im Korrekturabzug usw.
+   >* Um schnell mehrere Zeichenflächen auszuwählen, klicken Sie auf die gewünschten Zeichenflächen und ziehen Sie die Maus über diese. Auf diese Weise können Sie die Reihenfolge der Zeichenflächen im Korrekturabzug nicht steuern.
 
-1. Aktivieren Sie **[!UICONTROL Erstellen eines Testversands]**.
+1. Aktivieren Sie **[!UICONTROL Korrekturabzug erstellen]**.
 
-1. Nennen Sie den Testversand.
+1. Benennen Sie den Korrekturabzug.
 
-1. Wählen Sie den gewünschten Typ der Testversandvalidierung aus:
+1. Wählen Sie den gewünschten Typ der Korrekturabzugsgenehmigung aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,16 +89,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Basic]: </td> 
-      <td> <p>Grundlegende Genehmigungsprozesse sind Ad-hoc-Prozesse und können bei Bedarf verschiedene Validierungsverantwortliche umfassen: </p> 
+      <td> <p>Grundlegende Genehmigungsprozesse sind Ad-hoc-Prozesse und können bei Bedarf verschiedene Validierungsverantwortliche enthalten: </p> 
        <ul> 
-        <li> <p>(Optional) Fügen Sie <strong>Genehmiger</strong> in das Feld ein.</p> </li> 
+        <li> <p>(Optional) Fügen Sie <strong>Genehmigende Personen</strong> in das Feld ein.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>Die automatisierten Genehmigungsprozesse werden von Administratoren vorkonfiguriert und umfassen spezifische Validierer und Phasen. Weitere Informationen finden Sie unter <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Überblick über den automatisierten Workflow</a>.</p> 
+      <td> <p>Automatisierte Genehmigungsprozesse werden von Administratoren vorkonfiguriert und umfassen spezifische Validierungsverantwortliche und Phasen. Weitere Informationen finden Sie unter <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automatisierter Workflow - Übersicht</a>.</p> 
        <ul> 
-        <li> <p>Wählen Sie eine [!UICONTROL Workflow-Vorlage] aus dem Dropdown-Menü aus.</p> </li> 
+        <li> <p>Wählen Sie aus dem Dropdown-Menü eine [!UICONTROL Workflow Template] aus.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -106,58 +106,58 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{adjust-proof-settings}}
 
-1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
    ![](assets/proof-approvals-xd-350x396.png)
 
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL Asset-Typ]** das Exportformat aus.
 
 
-1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als eine Zeichenfläche ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenflächen als **[!UICONTROL Einzelne PDF-Datei]s** oder als **M[!UICONTROL mehrere PDF-Dateien]** exportieren möchten.
+1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als ein Zeichenblatt ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenblätter als **[!UICONTROL Einzelne PDF-]** oder **M[!UICONTROL mehrere PDF-Dateien exportieren]**.
 
 1. (Optional) Benennen Sie die PDF.
 
    ![](assets/pdf-options.png)
 
-1. Klicken Sie auf **[!UICONTROL Hochladen]**.\
+1. Klicken Sie **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
-## Hochladen eines interaktiven Testversands {#upload-an-interactive-proof}
+## Hochladen eines interaktiven Korrekturabzugs {#upload-an-interactive-proof}
 
-Mit dem Plug-in [!DNL Workfront for Adobe] können Sie einen interaktiven Testversand für Ihre Zeichenflächen erstellen. Es handelt sich um einen zweistufigen Prozess. Zunächst müssen Sie einen interaktiven Link erstellen und dann den Testversand in ein Arbeitselement hochladen.
+Mit dem Plug-in [!DNL Workfront for Adobe] können Sie einen interaktiven Korrekturabzug für Ihre Zeichenflächen erstellen. Es handelt sich um einen zweistufigen Prozess. Zunächst müssen Sie einen interaktiven Link erstellen und dann den Korrekturabzug in ein Arbeitselement hochladen.
 
-### Interaktiven Link für die Zeichenfläche erstellen  {#create-an-interactive-link-for-your-art-board}
+### Erstellen eines interaktiven Links für Ihre Zeichenfläche  {#create-an-interactive-link-for-your-art-board}
 
-1. Öffnen Sie die Zeichenfläche und klicken Sie dann im linken oberen Bereich des Bildschirms auf **[!UICONTROL Freigabe]** .
+1. Öffnen Sie Ihre Zeichenfläche und klicken Sie **[!UICONTROL oben]** auf dem Bildschirm auf „Freigeben“.
 1. Geben Sie die Link-Einstellungen an:
 
    1. Benennen Sie den Link.
-   1. Wählen Sie eine Anzeigeeinstellung aus.
-   1. Stellen Sie im Abschnitt **[!UICONTROL Link-Zugriff]** sicher, dass **[!UICONTROL Jeder, der über diesen Link verfügt]** ausgewählt ist.
+   1. Ansichtseinstellung wählen.
+   1. Stellen Sie im Abschnitt **[!UICONTROL Link-Zugriff]** sicher, **[!UICONTROL Alle mit diesem Link]** ausgewählt ist.
 
-      Sie müssen diese Art von Zugriff aktivieren, um einen interaktiven Testversand zu erzeugen.
+      Sie müssen diese Art des Zugriffs aktivieren, um einen interaktiven Korrekturabzug zu generieren.
 
-   1. Klicken Sie auf **[!UICONTROL Link erstellen]**.
+   1. Klicken Sie **[!UICONTROL Link erstellen]**.
 
-1. Klicken Sie im linken oberen Bereich des Bildschirms wieder auf **[!UICONTROL Design]** . Fahren Sie mit dem Abschnitt [Hochladen eines interaktiven Testversands](#upload-an-interactive-proof) weiter unten fort.
+1. Klicken Sie oben links **[!UICONTROL Bildschirm auf Zurück]** Design“. Fahren Sie mit dem Abschnitt [Hochladen eines interaktiven Korrekturabzugs](#upload-an-interactive-proof) unten fort.
 
    >[!NOTE]
    >
    >Möglicherweise müssen Sie das Plug-in-Bedienfeld in der linken unteren Ecke des Bildschirms erneut öffnen.
 
-### Hochladen eines interaktiven Testversands
+### Hochladen eines interaktiven Korrekturabzugs
 
-1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
    ![](assets/menu-350x440.png)
 
-1. Gehen Sie zum Arbeitselement, in das Sie einen interaktiven Testversand hochladen möchten.
-1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
+1. Wechseln Sie zu dem Arbeitselement, in das Sie einen interaktiven Korrekturabzug hochladen möchten.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
 
-1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Datei]** .
-1. Aktivieren Sie **[!UICONTROL Erstellen eines Testversands]**.
+1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
+1. Aktivieren Sie **[!UICONTROL Korrekturabzug erstellen]**.
 
-1. Wählen Sie den gewünschten Typ der Testversandvalidierung aus:
+1. Wählen Sie den gewünschten Typ der Korrekturabzugsgenehmigung aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -165,16 +165,16 @@ Mit dem Plug-in [!DNL Workfront for Adobe] können Sie einen interaktiven Testve
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Basic]: </td> 
-      <td> <p>Grundlegende Genehmigungsprozesse sind Ad-hoc-Prozesse und können bei Bedarf verschiedene Validierungsverantwortliche umfassen: </p> 
+      <td> <p>Grundlegende Genehmigungsprozesse sind Ad-hoc-Prozesse und können bei Bedarf verschiedene Validierungsverantwortliche enthalten: </p> 
        <ul> 
-        <li> <p>(Optional) Fügen Sie <strong>Genehmiger</strong> in das Feld ein.</p> </li> 
+        <li> <p>(Optional) Fügen Sie <strong>Genehmigende Personen</strong> in das Feld ein.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>Die automatisierten Genehmigungsprozesse werden von Administratoren vorkonfiguriert und umfassen spezifische Validierer und Phasen. Weitere Informationen finden Sie unter <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Überblick über den automatisierten Workflow</a>.</p> 
+      <td> <p>Automatisierte Genehmigungsprozesse werden von Administratoren vorkonfiguriert und umfassen spezifische Validierungsverantwortliche und Phasen. Weitere Informationen finden Sie unter <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automatisierter Workflow - Übersicht</a>.</p> 
        <ul> 
-        <li> <p>Wählen Sie eine [!UICONTROL Workflow-Vorlage] aus dem Dropdown-Menü aus.</p> </li> 
+        <li> <p>Wählen Sie aus dem Dropdown-Menü eine [!UICONTROL Workflow Template] aus.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -182,41 +182,41 @@ Mit dem Plug-in [!DNL Workfront for Adobe] können Sie einen interaktiven Testve
 
 {{adjust-proof-settings}}
 
-1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
    ![](assets/proof-approvals-xd-350x396.png)
 
-1. Wählen Sie im Dropdown-Menü **[!UICONTROL Asset-Typ]** den soeben erstellten Link auf der Registerkarte **Freigegebene Links** aus. Weitere Informationen finden Sie unter [Interaktiven Link für Ihre Zeichenfläche erstellen](#create-an-interactive-link-for-your-artboard).\
+1. Wählen Sie **[!UICONTROL Dropdown-Menü]** Asset-Typ“ den soeben erstellten Link auf der Registerkarte **Freigegebene Links** aus. Weitere Informationen finden Sie unter [Erstellen eines interaktiven Links für Ihre Zeichenfläche](#create-an-interactive-link-for-your-artboard).\
    ![](assets/shared-links-xd-350x870.png)
 
-1. Klicken Sie auf **[!UICONTROL Hochladen]**.
+1. Klicken Sie **[!UICONTROL Hochladen]**.
 
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
    >[!IMPORTANT]
    >
-   >Benutzer müssen Zugriff auf den [!UICONTROL Desktop Proofing Viewer] haben, um interaktive Testsendungen zu überprüfen und zu genehmigen. Weitere Informationen finden Sie unter [Installieren des [!UICONTROL Desktop-Proofing-Viewers]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+   >Benutzer müssen Zugriff auf den [!UICONTROL Desktop Proofing Viewer] haben, um interaktive Korrekturabzüge überprüfen und genehmigen zu können. Weitere Informationen finden Sie unter [Installieren des [!UICONTROL Desktop Proofing Viewers]](../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
-## Eine neue Testversion hochladen
+## Hochladen einer neuen Korrekturabzugsversion
 
-Sie können eine neue Version eines Testversands hochladen. Das Plug-in speichert den in der vorherigen Version festgelegten Testversand-Workflow, kann diesen jedoch bei Bedarf ändern.
+Sie können eine neue Version eines Korrekturabzugs hochladen. Das Plug-in speichert den Korrekturabzugs-Workflow, der für die vorherige Version festgelegt wurde. Sie können dies jedoch bei Bedarf ändern.
 
-1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
    ![](assets/menu-350x440.png)
 
-1. Wechseln Sie zu dem Arbeitselement, in das Sie ein Dokument hochladen müssen.
-1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
+1. Wechseln Sie zu dem Arbeitselement, auf das Sie ein Dokument hochladen möchten.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
 
-1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Version]** .
-1. Aktivieren Sie **[!UICONTROL Erstellen eines Testversands]**.
-1. Wählen Sie die hochzuladenden Zeichenflächen aus.
+1. Klicken Sie **[!UICONTROL Neue Version]** am unteren Rand des Plug-ins.
+1. Aktivieren Sie **[!UICONTROL Korrekturabzug erstellen]**.
+1. Wählen Sie die Zeichenflächen aus, die Sie hochladen möchten.
 
    >[!NOTE]
    >
-   >Wenn Sie eine neue Version von .svg, .png oder .jpg hochladen möchten, können Sie nur eine Zeichenfläche hochladen.
+   >Wenn Sie eine neue Version einer SVG-, PNG- oder JPG-Datei hochladen möchten, können Sie nur eine Zeichenfläche hochladen.
 
-1. Wählen Sie den gewünschten Typ der Testversandvalidierung aus:
+1. Wählen Sie den gewünschten Typ der Korrekturabzugsgenehmigung aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -224,16 +224,16 @@ Sie können eine neue Version eines Testversands hochladen. Das Plug-in speicher
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Basic]: </td> 
-      <td> <p>Grundlegende Genehmigungsprozesse sind Ad-hoc-Prozesse und können bei Bedarf verschiedene Validierungsverantwortliche umfassen: </p> 
+      <td> <p>Grundlegende Genehmigungsprozesse sind Ad-hoc-Prozesse und können bei Bedarf verschiedene Validierungsverantwortliche enthalten: </p> 
        <ul> 
-        <li> <p>(Optional) Fügen Sie <strong>Genehmiger</strong> in das Feld ein.</p> </li> 
+        <li> <p>(Optional) Fügen Sie <strong>Genehmigende Personen</strong> in das Feld ein.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Automated]</td> 
-      <td> <p>Die automatisierten Genehmigungsprozesse werden von Administratoren vorkonfiguriert und umfassen spezifische Validierer und Phasen. Weitere Informationen finden Sie unter <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Überblick über den automatisierten Workflow</a>.</p> 
+      <td> <p>Automatisierte Genehmigungsprozesse werden von Administratoren vorkonfiguriert und umfassen spezifische Validierungsverantwortliche und Phasen. Weitere Informationen finden Sie unter <a href="../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md" class="MCXref xref">Automatisierter Workflow - Übersicht</a>.</p> 
        <ul> 
-        <li> <p>Wählen Sie eine [!UICONTROL Workflow-Vorlage] aus dem Dropdown-Menü aus.</p> </li> 
+        <li> <p>Wählen Sie aus dem Dropdown-Menü eine [!UICONTROL Workflow Template] aus.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -245,15 +245,15 @@ Sie können eine neue Version eines Testversands hochladen. Das Plug-in speicher
 
    ![](assets/create-a-proof-xd-350x202.png)
 
-1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
    ![](assets/proof-approvals-xd-350x396.png)
 
-1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als eine Zeichenfläche ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenflächen als **[!UICONTROL Einzelne PDF-Datei]s** oder als **M[!UICONTROL mehrere PDF-Dateien]** exportieren möchten.
+1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als ein Zeichenblatt ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenblätter als **[!UICONTROL Einzelne PDF-]** oder **M[!UICONTROL mehrere PDF-Dateien exportieren]**.
 
 1. (Optional) Benennen Sie die PDF.
 
    ![](assets/pdf-options.png)
 
-1. Klicken Sie auf **[!UICONTROL Hochladen]**.\
+1. Klicken Sie **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

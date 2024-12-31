@@ -1,9 +1,9 @@
 ---
 product-area: workfront-integrations;projects
-keywords: google,doc,document,sheet,slide
+keywords: Google,DOC,Dokument,Blatt,Folie
 navigation-topic: workfront-for-g-suite
-title: Google Workspace-E-Mails in [!DNL Adobe Workfront] Objekte und Updates umwandeln
-description: Sie können normale Nicht-Workfront-E-Mails in  [!DNL Adobe Workfront] Objekte und Updates umwandeln, ohne G Mail zu verlassen.
+title: Umwandeln von Google Workspace-E [!DNL Adobe Workfront] Mails in Objekte und Aktualisierungen
+description: Sie können reguläre Nicht-Workfront-E-Mails in  [!DNL Adobe Workfront]  und Updates umwandeln, ohne G Mail verlassen zu müssen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 62df8503-fe6e-4b37-b2ce-0fb5678c21d7
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Google Workspace-E-Mails in [!DNL Adobe Workfront] Objekte und Updates umwandeln
+# Umwandeln von Google Workspace-E-Mails in [!DNL Adobe Workfront] Objekte und Aktualisierungen
 
 >[!NOTE]
 >
 >Die neueste Version des Adobe Workfront-Plug-ins für Google wurde am 26. Juni 2023 veröffentlicht.
 
-Sie können normale Nicht-[!DNL Workfront]-E-Mails in [!DNL Adobe Workfront]-Objekte und Aktualisierungen umwandeln, ohne [!DNL G Mail] zu verlassen. Weitere Informationen finden Sie in den folgenden Artikeln:
+Sie können reguläre, nicht [!DNL Workfront] E-Mails in [!DNL Adobe Workfront] Objekte und Aktualisierungen umwandeln, ohne [!DNL G Mail] verlassen zu müssen. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Erstellen eines [!DNL Adobe Workfront] Problems in  [!DNL Google Workspace]  mit E-Mail-Inhalt](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
-* [Aktualisieren eines  [!DNL Adobe Workfront] Elements von  [!DNL Google Workspace]  mithilfe von E-Mail-Inhalten](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)
+* [Erstellen eines  [!DNL Adobe Workfront] -Problems  [!DNL Google Workspace] Verwenden von E-Mail-Inhalten](../../workfront-integrations-and-apps/workfront-for-g-suite/create-wf-issue-in-g-suite-using-email-content.md)
+* [Aktualisieren eines  [!DNL Adobe Workfront] -Elements aus [!DNL Google Workspace] Verwenden von E-Mail-Inhalten](../../workfront-integrations-and-apps/workfront-for-g-suite/update-wf-item-using-email-content.md)

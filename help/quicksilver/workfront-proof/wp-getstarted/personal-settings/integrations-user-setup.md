@@ -3,8 +3,8 @@ content-type: overview;reference
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: personal-settings
-title: Integrationen - Benutzereinstellungen
-description: In diesem Abschnitt finden Sie die Optionen zum Einrichten von vordefinierten Integrationslinks mit Drittanbieteranwendungen.
+title: Integrationen - Benutzereinrichtung
+description: In diesem Abschnitt werden die Optionen beschrieben, mit denen Sie vordefinierte Integrationslinks mit Anwendungen von Drittanbietern einrichten können.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 43ecf257-44ea-4d2c-ac55-21192e7c2a45
@@ -15,22 +15,22 @@ ht-degree: 0%
 
 ---
 
-# Integrationen - Benutzereinstellungen
+# Integrationen - Benutzereinrichtung
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-In diesem Abschnitt finden Sie die Optionen zum Einrichten von vordefinierten Integrationslinks mit Drittanbieteranwendungen.
+In diesem Abschnitt werden die Optionen beschrieben, mit denen Sie vordefinierte Integrationslinks mit Anwendungen von Drittanbietern einrichten können.
 
-Hier finden Sie auch Ihr Authentifizierungstoken, mit dem sich Software von Drittanbietern über die API mit Ihrem Konto verbinden kann.
+Hier finden Sie auch Ihr Authentifizierungs-Token, mit dem Software von Drittanbietern über die API eine Verbindung zu Ihrem Konto herstellen kann.
 
-Aktuelle Integrationspunkte stehen für Folgendes zur Verfügung:
+Aktuelle Integrationspunkte sind für Folgendes verfügbar:
 
 * Öffentliche API (1) - Siehe unsere dedizierte [API-Hilfeseite](https://api.proofhq.com/)
-* [!DNL Basecamp] (2) - Siehe unsere dedizierten Hilfeseiten [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) und [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic)
+* [!DNL Basecamp] (2) - Siehe unsere speziellen [[!DNL Basecamp]](https://support.workfront.com/hc/en-us/sections/115000911927-Basecamp) und [[!DNL Basecamp Classic]](https://support.workfront.com/hc/en-us/categories/115000588707-Basecamp-Classic) Hilfeseiten
 
-* [!DNL NetSuite] (3)
-* [!DNL WorkFront] (4)
+* [!DNL NetSuite] 3)
+* [!DNL WorkFront] 4)
 
-![Integrations_tab_-_Personal_Settings.png](assets/integrations-tab---personal-settings-350x323.png)
+![integrations_tab_-_personal_settings.png](assets/integrations-tab---personal-settings-350x323.png)

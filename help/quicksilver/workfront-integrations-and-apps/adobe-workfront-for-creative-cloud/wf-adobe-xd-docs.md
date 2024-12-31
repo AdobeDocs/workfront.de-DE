@@ -1,7 +1,7 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
-title: Hochladen XD Zeichenflächen als Dokumente in Workfront
+title: Hochladen von XD-Zeichenflächen als Dokumente in Workfront
 description: Sie können Ihre Zeichenflächen als Dokumente hochladen, um sie schnell zu überprüfen und zu genehmigen oder einfach in Adobe Workfront zu speichern.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
@@ -9,18 +9,18 @@ exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
 source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
 workflow-type: tm+mt
 source-wordcount: '588'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
-# [!DNL XD] Zeichenflächen als Dokumente in [!DNL Workfront] hochladen
+# Hochladen [!DNL XD] Zeichenflächen als Dokumente in [!DNL Workfront]
 
 Sie können Ihre Zeichenflächen als Dokumente hochladen, um sie schnell zu überprüfen und zu genehmigen oder einfach in [!DNL Adobe Workfront] zu speichern.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -38,46 +38,46 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> -->
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] -Lizenz über eine [!DNL Adobe Creative Cloud] -Lizenz verfügen.</td> 
+   <td>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf [!UICONTROL Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf [!UICONTROL-Dokumente] bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront], ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie [!DNL Workfront]-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf die [!UICONTROL Ansicht] oder höher auf das Objekt, in das Sie ein Dokument hochladen möchten.</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL View] Zugriff oder höher auf das Objekt, in das Sie ein Dokument hochladen möchten.</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
 ## Voraussetzungen
 
-* Sie müssen das Plug-in [!DNL Adobe Workfront for XD] installieren, bevor Sie XD Artboards als Dokumente in Workfront hochladen können.
+* Sie müssen das [!DNL Adobe Workfront for XD]-Plug-in installieren, bevor Sie XD-Artboards als Dokumente in Workfront hochladen können.
 
 Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md).
 
 ## Neues Dokument hinzufügen
 
-1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
    ![](assets/menu-350x440.png)
 
-1. Wechseln Sie zum Arbeitselement, in das Sie ein Dokument hochladen möchten.
-1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
+1. Wechseln Sie zu dem Arbeitselement, in das Sie ein Dokument hochladen möchten.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
 
-1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Datei]** .
+1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
 1. Wählen Sie die Zeichenfläche aus, die Sie hochladen möchten.
 
    >[!TIP]
    >
-   >Um mehr als eine Zeichenfläche auszuwählen, klicken Sie auf die gewünschte Zeichenfläche und ziehen Sie die Maus darüber.
-1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
-1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus:
+   >Um mehrere Zeichenflächen auszuwählen, klicken Sie auf die gewünschten Zeichenflächen und ziehen Sie die Maus darüber.
+1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. Wählen Sie **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü aus:
 
    <table style="table-layout:auto">
     <col>
@@ -88,47 +88,47 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>Die Zeichenflächen laden als PNG auf die Registerkarte [!UICONTROL Dokumente] des Arbeitselements in [!DNL Workfront] hoch. </td>
+      <td>Die Zeichenflächen werden als PNG in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>Die Zeichenflächen laden als JPG auf die Registerkarte [!UICONTROL Dokumente] des Arbeitselements in [!DNL Workfront] hoch. <br></td>
+      <td>Die Zeichenflächen werden als JPG in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Die Zeichenflächen laden als SVG auf die Registerkarte [!UICONTROL Dokumente] des Arbeitselements in [!DNL Workfront] hoch. </td>
+      <td>Die Zeichenflächen werden als SVG in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td>Wählen Sie aus, ob die ausgewählten Zeichenflächen als <strong>einzelne PDF-Datei</strong> oder als <strong>Mehrere PDF-Dateien</strong> hochgeladen werden sollen. Die Zeichenflächen werden als PDF auf die Registerkarte [!UICONTROL Dokumente] des Arbeitselements in [!DNL Workfront] hochgeladen.</td>
+      <td>Wählen Sie aus, ob die ausgewählten Zeichenflächen als <strong>Einzelne PDF-Datei</strong> oder <strong>Mehrere PDF-Dateien</strong> hochgeladen werden sollen. Die Zeichenflächen werden als PDF auf die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen.</td>
      </tr>
     </tbody>
    </table>
 
 
-1. Klicken Sie auf **[!UICONTROL Hochladen]**.\
+1. Klicken Sie **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
 
-## Hinzufügen einer neuen Version
+## Neue Version hinzufügen
 
-1. Klicken Sie oben rechts auf das Symbol **[!UICONTROL Menü]** und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch über das Menü zu übergeordneten Objekten navigieren.
+1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
    ![](assets/menu-350x440.png)
 
-1. Wechseln Sie zum Arbeitselement, in das Sie ein Dokument hochladen möchten.
-1. Klicken Sie in der Navigationsleiste auf das Symbol **[!UICONTROL Dokument]** ![](assets/documents.png) .
+1. Wechseln Sie zu dem Arbeitselement, in das Sie ein Dokument hochladen möchten.
+1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie auf das Dokument, dem Sie eine neue Version hinzufügen möchten.
-1. Klicken Sie unten im Plug-in auf **[!UICONTROL Neue Version]** .
-1. Wählen Sie die hochzuladenden Zeichenflächen aus.
+1. Klicken Sie **[!UICONTROL Neue Version]** am unteren Rand des Plug-ins.
+1. Wählen Sie die Zeichenflächen aus, die Sie hochladen möchten.
 
    >[!NOTE]
    >
-   >Wenn Sie eine neue SVG-, PNG- oder JPG-Version hochladen möchten, können Sie nur eine Zeichenfläche hochladen.
+   >Wenn Sie eine neue Version einer SVG, PNG oder JPG hochladen möchten, können Sie nur eine Zeichenfläche hochladen.
 
-1. (Optional) Geben Sie einen Kommentar in den Bereich **[!UICONTROL Aktualisierungen]** ein.
+1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
-1. Wählen Sie den **[!UICONTROL Asset-Typ]** aus dem Dropdownmenü aus:
+1. Wählen Sie **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü aus:
 
    <table style="table-layout:auto">
     <col>
@@ -139,24 +139,24 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
      </tr>
      <tr>
       <td role="rowheader">PNG</td>
-      <td>Die Zeichenfläche lädt als PNG auf die Registerkarte [!UICONTROL Dokumente] des Arbeitselements in [!DNL Workfront] hoch. </td>
+      <td>Die Zeichenfläche wird als PNG in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
      </tr>
      <tr>
       <td role="rowheader">JPG</td>
-      <td>Die Zeichenfläche lädt als JPG auf die Registerkarte [!UICONTROL Dokumente] des Arbeitselements in [!DNL Workfront] hoch. <br></td>
+      <td>Die Zeichenfläche wird als JPG auf die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. <br></td>
      </tr>
      <tr>
       <td role="rowheader">SVG</td>
-      <td>Die Zeichenfläche lädt als SVG auf die Registerkarte [!UICONTROL Dokumente] des Arbeitselements in [!DNL Workfront] hoch. </td>
+      <td>Die Zeichenfläche wird als SVG auf die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen. </td>
      </tr>
      <tr>
       <td role="rowheader">PDF</td>
-      <td><p>Die Zeichenflächen laden als PDF auf die Registerkarte [!UICONTROL Dokumente] des Arbeitselements in [!DNL Workfront] hoch.</p>
-      <p><strong>Hinweis</strong>: Sie können nur eine Zeichenfläche für eine neue Dokumentversion hochladen.</p>
+      <td><p>Die Zeichenflächen werden als PDF in die Registerkarte [!UICONTROL Documents] des Arbeitselements in [!DNL Workfront] hochgeladen.</p>
+      <p><strong>Hinweis</strong>: Für eine neue Dokumentversion kann nur eine Zeichenfläche hochgeladen werden.</p>
       </td>
      </tr>
     </tbody>
    </table>
 
-1. Klicken Sie auf **[!UICONTROL Hochladen]**.\
+1. Klicken Sie **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

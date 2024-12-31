@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Freigeben eines Ziels in Workfront-Zielen
-description: Wenn Sie ein Ziel freigeben, gewähren Sie "Verwalten"Berechtigungen für ein Ziel für eine Person, die es nicht erstellt hat.
+title: Ziel in Workfront Goals teilen
+description: Wenn Sie ein Ziel freigeben, erteilen Sie jemandem, der es nicht erstellt hat, Verwaltungsberechtigungen für ein Ziel.
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
@@ -13,9 +13,9 @@ ht-degree: 4%
 
 ---
 
-# Freigeben eines Ziels in Adobe Workfront-Zielen
+# Ziel in Adobe Workfront Goals teilen
 
-Wenn Sie ein Ziel freigeben, gewähren Sie &quot;Verwalten&quot;Berechtigungen für ein Ziel für eine Person, die es nicht erstellt hat.
+Wenn Sie ein Ziel freigeben, erteilen Sie jemandem, der es nicht erstellt hat, Verwaltungsberechtigungen für ein Ziel.
 
 ## Zugriffsanforderungen
 
@@ -30,30 +30,30 @@ Sie müssen über Folgendes verfügen:
  <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
-   <p>Für den neuen Plan und die Lizenzstruktur:
-  <ul><li>Ein ultimativer Plan </li></ul>
+   <p>Für die neue Plan- und Lizenzstruktur:
+  <ul><li>Ein Ultimate-Plan </li></ul>
    </p>
-<p>Für den aktuellen Plan und die Lizenzstruktur: 
-<ul><li> A Pro oder höher </li>
-  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+<p>Für die aktuelle Plan- und Lizenzstruktur: 
+<ul><li> Ein Profi oder höher </li>
+  <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene</td>
@@ -63,24 +63,24 @@ Sie müssen über Folgendes verfügen:
  <td role="rowheader">Objektberechtigungen</td>
  <td>
   <div>
-  <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-  <p>Berechtigungen für das Ziel verwalten</p>
-  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+  <p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+  <p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen zur Freigabe von Zielen
 
-* Benutzer können die folgenden Berechtigungen für ein Ziel haben:
+* Benutzer können über die folgenden Berechtigungen für ein Ziel verfügen:
 
   <table style="table-layout:auto"> 
    <col> 
@@ -96,60 +96,60 @@ Sie müssen über Folgendes verfügen:
    <tr> 
       <td role="rowheader"><p>Anzeigen</p></td> 
       <td>
-      <p>Benutzer sind berechtigt, das Ziel anzuzeigen, können jedoch keine Informationen für das Ziel bearbeiten, keine Informationen für Ergebnisse oder Aktivitäten hinzufügen oder bearbeiten, den Status nicht aktualisieren oder das Ziel löschen.</p>      
-      <p>Standardmäßig können alle Benutzer mit Zugriff auf Ziele alle Ziele im System anzeigen. Benutzer können das Ziel kopieren, wenn sie in ihrer Zugriffsebene Zugriff auf Ziele bearbeiten haben.</p> </td> 
+      <p>Benutzer sind berechtigt, das Ziel anzuzeigen, können jedoch keine Informationen für das Ziel bearbeiten oder Informationen für Ergebnisse oder Aktivitäten hinzufügen oder bearbeiten, den Status aktualisieren oder das Ziel löschen.</p>      
+      <p>Standardmäßig können alle Benutzer mit Zugriff auf Ziele alle Ziele im System anzeigen. Benutzende können das Ziel kopieren, wenn sie Bearbeitungszugriff auf Ziele in ihrer Zugriffsebene haben.</p> </td> 
    </tr> 
    <tr> 
       <td role="rowheader"><p>Verwalten</p></td> 
-      <td> <p>Benutzer können alle Informationen für das Ziel bearbeiten, einschließlich der Ergebnisse oder Aktivitäten, einschließlich Löschen.</p> 
-      <p>Nur Zielersteller oder Benutzer, denen ausdrücklich die Berechtigung zum Verwalten eines Ziels erteilt wurde, können ein Ziel verwalten.</p> 
-      Nur Benutzer mit Verwaltungsberechtigungen für ein Ziel können das Ziel für andere freigeben, um ihnen Berechtigungen zum Ziel zu erteilen. </p> </td> 
+      <td> <p>Benutzer können alle Informationen für das Ziel bearbeiten, einschließlich der Ergebnisse oder Aktivitäten, einschließlich löschen.</p> 
+      <p>Nur Ersteller von Zielen oder Benutzer, denen spezifische Berechtigungen zum Verwalten eines Ziels erteilt wurden, können ein Ziel verwalten.</p> 
+      Nur Benutzer mit der Berechtigung Verwalten für ein Ziel können das Ziel für andere freigeben, um ihnen die Berechtigung Verwalten für das Ziel zu erteilen. </p> </td> 
    </tr> 
    </tbody> 
    </table>
 
 * Sie können die folgenden Arten von Zielen für andere freigeben:
 
-   * Ein von Ihnen erstelltes Ziel
-   * Ein Ziel, das von einer anderen Person erstellt wurde, der Sie die Berechtigung zum Verwalten erteilt haben.
+   * Ein Ziel, das Sie erstellt haben
+   * Ein von einer anderen Person erstelltes Ziel, dem Sie die Berechtigung zum Verwalten erteilt haben.
 
-* Wenn Sie über Verwaltungsberechtigungen für ein Ziel verfügen, können Sie die Berechtigungen für das Ziel für den Ersteller ändern. Standardmäßig verfügen sie über Verwaltungsberechtigungen, wenn sie das Ziel erstellen. Sie können ihre Berechtigungen jedoch ändern, um sie anzuzeigen.
+* Wenn Sie über Verwaltungsberechtigungen für ein Ziel verfügen, können Sie die Berechtigungen für das Ziel für den Ersteller des Ziels ändern. Standardmäßig verfügen sie beim Erstellen des Ziels über die Berechtigung Verwalten , Sie können jedoch ihre Berechtigungen in Anzeigen ändern.
 
 ## Teilen eines Ziels
 
-1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) > **Ziele** .
+1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   Die Zielliste wird angezeigt.
+   Die Liste „Ziel“ wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Ziels in der Liste. Die Zielseite wird geöffnet.
 
-1. Klicken Sie auf das Symbol &quot;**Mehr&quot;** neben dem Zielnamen und dann auf &quot;**Freigeben**&quot;.
+1. Klicken Sie auf **Mehr** neben dem Zielnamen und dann auf **Freigeben**.
 
    ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
-   Das Feld &quot;Zielzugriff&quot;wird angezeigt.
+   Das Feld Zielzugriff wird angezeigt.
 
    ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie die Einstellung **Systemübergreifendes Verwalten** aus, um allen Systemadministratoren, die Zugriff auf Ziele bearbeiten in ihrer Zugriffsebene haben, Verwaltungsberechtigungen zu erteilen. Diese Option ist für alle neuen Ziele standardmäßig deaktiviert.
-   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, dem Sie &quot;Verwalten&quot;Berechtigungen erteilen möchten, in das Feld **Zugriff auf** gewähren. Wählen Sie den Namen aus, wenn er in der Liste angezeigt wird.
+   * Wählen Sie **Einstellung „Systemweit verwalten** aus, um allen im System Benutzern, die Bearbeitungszugriff auf Ziele in ihrer Zugriffsebene haben, Verwaltungsberechtigungen zu erteilen. Diese Option ist für alle neuen Ziele standardmäßig deaktiviert.
+   * Geben Sie den Namen eines Benutzers, dem Sie Verwaltungsberechtigungen erteilen möchten, in das Feld **Verwaltungszugriff erteilen für** ein. Wählen Sie den Namen aus, wenn er in der Liste angezeigt wird.
 
      >[!TIP]
      >
      >Sie können ein Ziel nur für andere Benutzer freigeben. Sie können keine Ziele für Gruppen, Teams oder Ihr Unternehmen freigeben.
 
-1. Klicken Sie auf **Freigabe**.
+1. Klicken Sie auf **Freigeben**.
 
-   Das Ziel wird für die von Ihnen angegebenen Benutzer freigegeben. Eine systemweite Beschriftung oder der Name der Benutzer, die über Verwaltungsberechtigungen für das Ziel verfügen, wird im Feld Zugriff auf Verwalten im Bereich Zieldetails angezeigt.
+   Das Ziel wird für die von Ihnen angegebenen Benutzer freigegeben. Eine „systemweite“ Beschriftung oder der Name der Benutzer, die Verwaltungsberechtigungen für das Ziel haben, wird im Feld Zugriff auf Verwaltung im Bedienfeld „Zieldetails“ angezeigt.
 
 ## Optionen für Zielberechtigungen
 
-In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie beim Freigeben eines Ziels gewähren können. Weitere Informationen dazu, welche Zugriffsberechtigungen Benutzer auf der Grundlage ihrer Lizenz erhalten, finden Sie unter [Gewähren des Zugriffs auf Adobe Workfront-Ziele](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie bei der Freigabe eines Ziels gewähren können. Weitere Informationen dazu, welchen Zugriff Benutzerinnen und Benutzer auf der Grundlage ihrer Lizenz erhalten, finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -187,7 +187,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie beim Freig
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Als Aktivitäten hinzugefügte Projekte anzeigen* </td> 
+   <td>Projekte anzeigen, die als Aktivitäten hinzugefügt wurden** </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -197,17 +197,17 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie beim Freig
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Bearbeiten von Ergebnissen oder Aktivitäten</td> 
+   <td>Ergebnisse oder Aktivitäten bearbeiten</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Hinzufügen von Ergebnissen oder Aktivitäten für das Ziel</td> 
+   <td>Fügen Sie Ergebnisse oder Aktivitäten für das Ziel hinzu</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Verknüpfen eines Projekts als Aktivität mit dem Ziel**</td> 
+   <td>Verknüpfen Sie ein Projekt als Aktivität mit dem Ziel**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -229,12 +229,12 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie beim Freig
  </tbody> 
 </table>
 
-*Sie müssen Zugriff auf Ziele bearbeiten in Ihrer Zugriffsebene haben, um Ergebnisse und Aktivitäten in Ziele konvertieren zu können.
+* Sie müssen in Ihrer Zugriffsebene über Bearbeitungszugriff auf Ziele verfügen, um Ergebnisse und Aktivitäten in Ziele konvertieren zu können.
 
-**Sie müssen Zugriff auf die Berechtigungen Projekte anzeigen und anzeigen haben, die hinzugefügt wurden oder die Sie zum Ziel hinzufügen möchten, um sie anzuzeigen.
+**Sie müssen Zugriff auf die Anzeige von Projekten haben und über die Berechtigung Anzeigen für die hinzugefügten Projekte verfügen oder die Sie zum Ziel hinzufügen möchten, um sie anzuzeigen.
 
-Weitere Informationen zur Zugriffsebene für Projekte finden Sie unter [Gewähren des Zugriffs auf Projekte](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Informationen zur Zugriffsebene von Projekten finden Sie unter [Zugriff auf Projekte gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Weitere Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 
  

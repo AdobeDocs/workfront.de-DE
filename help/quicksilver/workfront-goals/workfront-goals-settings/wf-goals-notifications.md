@@ -2,8 +2,8 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-settings
-title: Benachrichtigungen zu Adobe Workfront-Zielen aktivieren
-description: Adobe Workfront Goals enthält eine Reihe vordefinierter Ereignisbenachrichtigungen, die Sie für Ihr Konto aktivieren können. Bei diesen Ereignisbenachrichtigungen wird die E-Mail-Kommunikation des Triggers jedes Mal ausgelöst, wenn die durch das Ereignis definierte Bedingung erfüllt wird.
+title: Adobe Workfront-Zielbenachrichtigungen aktivieren
+description: Adobe Workfront Goals enthält eine Reihe vordefinierter Ereignisbenachrichtigungen, die Sie für Ihr Konto aktivieren können. Diese Ereignisbenachrichtigungen senden jedes Mal eine E-Mail-Nachricht an den Trigger, wenn die durch das Ereignis definierte Bedingung erfüllt ist.
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# Benachrichtigungen zu Adobe Workfront-Zielen aktivieren
+# Adobe Workfront-Zielbenachrichtigungen aktivieren
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Für den neuen Plan und die Lizenzstruktur:
+>* Für die neue Plan- und Lizenzstruktur:
 >
->   * Der ultimative Workfront-Plan
+>   * Der Ultimate Workfront-Plan
 >    
->* Für den aktuellen Plan und die Lizenzstruktur:
+>* Für die aktuelle Plan- und Lizenzstruktur:
 >
->   * Workfront-Abo mit Pro oder höher
->   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>   * Ein Pro- oder höher-Workfront-Plan
+>   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
->Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 > 
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Adobe Workfront Goals enthält eine Reihe von Ereignisbenachrichtigungen, die Sie für Ihr Konto aktivieren können. Bei diesen Ereignisbenachrichtigungen wird die E-Mail-Kommunikation des Triggers jedes Mal ausgelöst, wenn die durch das Ereignis definierte Bedingung erfüllt wird.
+Adobe Workfront Goals enthält eine Reihe von Ereignisbenachrichtigungen, die Sie für Ihr Konto aktivieren können. Diese Ereignisbenachrichtigungen senden jedes Mal eine E-Mail-Nachricht an den Trigger, wenn die durch das Ereignis definierte Bedingung erfüllt ist.
 
 Informationen dazu, welche Benachrichtigungen Sie für Workfront-Ziele aktivieren können, finden Sie unter [Benachrichtigungen: Ziele](../../workfront-basics/using-notifications/notifications-goals.md).
 
@@ -136,8 +136,8 @@ A personal goal is a goal where you are designated as the owner.
 </div>
 -->
 
-## Beispiel für eine E-Mail-Benachrichtigung zu Workfront Goals
+## Beispiel einer E-Mail-Benachrichtigung zu Workfront-Zielen
 
-Wenn das durch die aktivierte Benachrichtigung definierte Ereignis eintritt, erhalten Sie eine E-Mail, in der das Ereignis beschrieben wird. Im Folgenden finden Sie ein Beispiel für eine E-Mail, in der Sie darüber informiert werden, dass Sie als Inhaber eines neuen Ziels zugewiesen sind:
+Wenn das durch die von Ihnen aktivierte Benachrichtigung definierte Ereignis eintritt, erhalten Sie eine E-Mail, in der das Ereignis beschrieben wird. Im Folgenden finden Sie ein Beispiel für eine E-Mail, die Sie darüber informiert, dass Sie als Eigentümer eines neuen Ziels zugewiesen sind:
 
 ![](assets/wf-align-notification-email-350x164.png)

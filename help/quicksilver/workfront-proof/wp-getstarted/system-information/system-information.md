@@ -20,10 +20,10 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Vorschau der Sandbox-Testumgebung - [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
-* [Spracheinstellungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
+* [Vorschau einer Sandbox-Testumgebung -  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/preview-sandbox.md)
+* [Spracheinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/language-settings.md)
 * [Codecs in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/system-information/codecs.md)

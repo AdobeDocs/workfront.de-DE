@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: old-workfront-goals-articles
-title: Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen
-description: Wenn Sie mit der Arbeit an einem Ziel beginnen und es in Ihrer Organisation irrelevant wird, empfehlen wir, es zu deaktivieren, anstatt es zu löschen. Durch das Deaktivieren eines Ziels werden seine historischen Informationen beibehalten und Sie können es zu einem späteren Zeitpunkt reaktivieren. Es kann jedoch manchmal sinnvoll sein, ein Ziel zu löschen, um die Zielliste genau zu halten.
+title: Löschen und Deaktivieren von Zielen in Adobe Workfront Goals
+description: Wenn Sie mit der Arbeit an einem Ziel beginnen und es in Ihrer Organisation irrelevant wird, empfehlen wir, es zu deaktivieren, anstatt es zu löschen. Wenn Sie ein Ziel deaktivieren, werden dessen historische Informationen beibehalten und Sie haben die Möglichkeit, das Ziel zu einem späteren Zeitpunkt erneut zu aktivieren. Es gibt jedoch Zeiten, in denen das Löschen eines Ziels sinnvoll sein kann, um die Zielliste korrekt zu halten.
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Löschen und Deaktivieren von Zielen in Adobe Workfront-Zielen
+# Löschen und Deaktivieren von Zielen in Adobe Workfront Goals
 
-Wenn Sie mit der Arbeit an einem Ziel beginnen und es in Ihrer Organisation irrelevant wird, empfehlen wir, es zu deaktivieren, anstatt es zu löschen. Durch das Deaktivieren eines Ziels werden seine historischen Informationen beibehalten und Sie können es zu einem späteren Zeitpunkt reaktivieren. Es kann jedoch manchmal sinnvoll sein, ein Ziel zu löschen, um die Zielliste genau zu halten.
+Wenn Sie mit der Arbeit an einem Ziel beginnen und es in Ihrer Organisation irrelevant wird, empfehlen wir, es zu deaktivieren, anstatt es zu löschen. Wenn Sie ein Ziel deaktivieren, werden dessen historische Informationen beibehalten und Sie haben die Möglichkeit, das Ziel zu einem späteren Zeitpunkt erneut zu aktivieren. Es gibt jedoch Zeiten, in denen das Löschen eines Ziels sinnvoll sein kann, um die Zielliste korrekt zu halten.
 
 ## Zugriffsanforderungen
 
@@ -30,30 +30,30 @@ Sie müssen über Folgendes verfügen:
  <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
-   <p>Für den neuen Plan und die Lizenzstruktur:
-  <ul><li>Ein ultimativer Plan </li></ul>
+   <p>Für die neue Plan- und Lizenzstruktur:
+  <ul><li>Ein Ultimate-Plan </li></ul>
    </p>
-<p>Für den aktuellen Plan und die Lizenzstruktur: 
-<ul><li> A Pro oder höher </li>
-  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+<p>Für die aktuelle Plan- und Lizenzstruktur: 
+<ul><li> Ein Profi oder höher </li>
+  <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Zugriffsebene</p></td>
@@ -63,48 +63,48 @@ Sie müssen über Folgendes verfügen:
  <td role="rowheader">Objektberechtigungen</td>
  <td>
   <div>
-  <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-  <p>Berechtigungen für das Ziel verwalten</p>
-  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+  <p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+  <p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Deaktivieren von Zielen
+## Ziele deaktivieren
 
-Sie können ein Ziel deaktivieren, das nicht mehr relevant ist und in Zukunft möglicherweise reaktiviert werden soll.
+Sie können ein Ziel deaktivieren, das nicht mehr relevant ist und das Sie in Zukunft möglicherweise erneut aktivieren möchten.
 
 * [Überlegungen beim Deaktivieren von Zielen](#considerations-when-deactivating-goals)
-* [Deaktivieren von Zielen](#deactivate-goals)
+* [Ziele deaktivieren](#deactivate-goals)
 
-### Überlegungen zum Deaktivieren von Zielen
+### Überlegungen zur Deaktivierung von Zielen
 
 Beachten Sie beim Deaktivieren von Zielen Folgendes:
 
-* Sie können Ziele nur im Status Aktiv deaktivieren. Informationen zum Aktivieren eines Ziels finden Sie unter [Ziele in Adobe Workfront aktivieren](../../workfront-goals/goal-management/activate-goals.md).
+* Sie können Ziele nur in einem aktiven Status deaktivieren. Informationen zum Aktivieren eines Ziels finden Sie unter [Aktivieren von Zielen in Adobe Workfront](../../workfront-goals/goal-management/activate-goals.md).
 
   >[!TIP]
   >
-  >Ziele können im Status Entwurf nicht deaktiviert werden.
+  >Ziele mit dem Status Entwurf können nicht deaktiviert werden.
 
-* Workfront unterbricht die Berechnung des Fortschritts deaktivierter Ziele.
-* Inaktive Ziele werden im Abschnitt &quot;Diagramme&quot;von Workfront-Zielen nicht mehr angezeigt oder werden nicht mehr berücksichtigt. Informationen zu Diagrammen mit Workfront-Zielen finden Sie unter [Überprüfen Sie Diagramme, um Trends beim Zielfortschritt in Adobe Workfront-Zielen zu verstehen](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
+* Workfront stoppt die Berechnung des Fortschritts deaktivierter Ziele.
+* Inaktive Ziele werden in den Workfront-Zielen im Abschnitt Diagramme nicht mehr angezeigt oder berücksichtigt. Weitere Informationen zu Workfront-Zieldiagrammen finden Sie unter [Überprüfen von Diagrammen zum Verständnis der Zielfortschrittstrends in Adobe Workfront-Zielen](../../workfront-goals/goal-review-and-workfront-goals-sections/review-goal-graphs.md).
 
   <!--* The Check-in section. For information about the Check-in page, see [Update goal progress in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md). -->
 
-* Sie können keine Aktualisierungen zu deaktivierten Zielen mehr vornehmen.
-* Sie können Informationen zum Ziel und seiner Ausrichtung bearbeiten.
+* Sie können keine Aktualisierungen mehr an deaktivierten Zielen vornehmen.
+* Sie können Informationen über das Ziel und seine Ausrichtung bearbeiten.
 * Sie können ein zuvor deaktiviertes Ziel reaktivieren.
 
-### Deaktivieren von Zielen
+### Ziele deaktivieren
 
 <!--
 Deactivating goals differs depending on which environment you use.
@@ -131,16 +131,16 @@ Deactivating goals differs depending on which environment you use.
 1. Click the **X** icon in the upper-right to close Goal Details.
 -->
 
-1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Ziele**.
 
-   Die Zielliste wird angezeigt.
+   Die Liste „Ziel“ wird angezeigt.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-1. (Optional) Ändern Sie Ihre Filter so, dass nur aktive Ziele angezeigt werden.
+1. (Optional) Ändern Sie Ihre Filter, um nur aktive Ziele anzuzeigen.
 
-   Informationen zum Filtern von Informationen in Workfront-Zielen finden Sie unter [Filtern von Informationen in Adobe Workfront-Zielen](../goal-management/filter-information-wf-goals.md).
+   Informationen zum Filtern von Informationen in Workfront Goals finden Sie unter [Filtern von Informationen in Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 
 1. Klicken Sie auf ein aktives Ziel.
 
@@ -148,25 +148,25 @@ Deactivating goals differs depending on which environment you use.
 
    ![](assets/goal-page-unshimmed.png)
 
-1. Klicken Sie auf das Menü **Mehr** rechts neben dem Zielnamen und dann auf **Deaktivieren**.![](assets/more-icon.png)
+1. Klicken Sie auf **Mehr**-![](assets/more-icon.png) rechts neben dem Zielnamen und dann auf **Deaktivieren**.
 
-1. Das Ziel wird deaktiviert und sein Status wird inaktiv.
+1. Das Ziel wird deaktiviert und sein Status wird zu Inaktiv.
 
-## Löschen von Zielen
+## Ziele löschen
 
-Sie können Ziele löschen, die nicht mehr oder möglicherweise nie relevant sind.
+Sie können Ziele löschen, die nicht mehr relevant sind oder nie relevant sein werden.
 
 * [Überlegungen beim Löschen von Zielen](#considerations-when-deleting-goals)
-* [Löschen von Zielen](#delete-goals)
+* [Ziele löschen](#delete-goals)
 
-### Überlegungen zum Löschen von Zielen {#considerations-when-deleting-goals}
+### Überlegungen beim Löschen von Zielen {#considerations-when-deleting-goals}
 
 * Sie können Ziele in jedem Status löschen, einschließlich geschlossener Ziele.
 * Gelöschte Ziele können nicht wiederhergestellt werden.
-* Die mit dem Ziel verknüpften Aktivitäten &quot;Ergebnisse&quot;und &quot;Manueller Fortschritt&quot;werden ebenfalls gelöscht.
-* Projekte, die mit Zielen verknüpft sind, werden nicht gelöscht, aber ihre Verknüpfung mit dem Ziel wird entfernt.
+* Ergebnisse und manuelle Fortschrittsleistenaktivitäten, die mit dem Ziel verknüpft sind, werden ebenfalls gelöscht.
+* Mit Zielen verknüpfte Projekte werden nicht gelöscht, aber ihre Verknüpfung mit dem Ziel wird entfernt.
 
-### Löschen von Zielen
+### Ziele löschen
 
 <!--
 Deleting  goals differs depending on which environment you use.
@@ -188,15 +188,15 @@ Deleting  goals differs depending on which environment you use.
    The goal is removed from the Goal List and cannot be recovered.
 -->
 
-1. Klicken Sie oben rechts auf das Hauptmenüsymbol ![](assets/main-menu-icon.png) und dann auf **Ziele**.
+1. Klicken Sie auf das Hauptmenüsymbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke und dann auf **Ziele**.
 
-   Die Zielliste wird angezeigt.
+   Die Liste „Ziel“ wird angezeigt.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 1. Klicken Sie auf den Namen eines Ziels. Dadurch wird die Zielseite geöffnet.
-1. Klicken Sie auf das Menü **Mehr** rechts neben dem Zielnamen, klicken Sie dann auf **Ziel löschen** und dann auf **Löschen**.![](assets/more-icon.png)
+1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Zielnamen, klicken Sie dann auf **Ziel löschen** und dann auf **Löschen**.
 
-   Das Ziel sowie seine Aktivitäten und Ergebnisse werden ebenfalls gelöscht und können nicht wiederhergestellt werden. Projekte, die mit dem Ziel oder den untergeordneten Zielen verknüpft waren, werden nicht gelöscht.
+   Das Ziel und seine Aktivitäten und Ergebnisse werden ebenfalls gelöscht und können nicht wiederhergestellt werden. Projekte, die mit dem Ziel oder den untergeordneten Zielen verknüpft waren, werden nicht gelöscht.
 
 

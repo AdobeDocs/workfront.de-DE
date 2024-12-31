@@ -2,8 +2,8 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Einstellungen für Adobe Workfront-Ziele
-description: In den folgenden Artikeln erfahren Sie mehr über zielbezogene Benachrichtigungen und wie Sie ein Ziel in Adobe Workfront-Zielen freigeben können.
+title: Adobe Workfront-Zieleinstellungen
+description: In den folgenden Artikeln erfahren Sie mehr über zielbezogene Benachrichtigungen und darüber, wie Sie ein Ziel in Adobe Workfront Goals freigeben.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
@@ -15,27 +15,27 @@ ht-degree: 0%
 
 ---
 
-# Einstellungen für Adobe Workfront-Ziele
+# Adobe Workfront-Zieleinstellungen
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Für den neuen Plan und die Lizenzstruktur:
+>* Für die neue Plan- und Lizenzstruktur:
 >
->   * Der ultimative Workfront-Plan
+>   * Der Ultimate Workfront-Plan
 >    
->* Für den aktuellen Plan und die Lizenzstruktur:
+>* Für die aktuelle Plan- und Lizenzstruktur:
 >
->   * Workfront-Abo mit Pro oder höher
->   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>   * Ein Pro- oder höher-Workfront-Plan
+>   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
->Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 > 
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [ Adobe Workfront-Zielbenachrichtigungen aktivieren](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
-* [Freigeben eines Ziels in Workfront-Zielen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
-* [Terminologie für Adobe Workfront-Ziele anpassen](../workfront-goals-settings/customize-wf-goals-terminology.md)
+* [Aktivieren von Adobe Workfront Goals-Benachrichtigungen](../../workfront-goals/workfront-goals-settings/wf-goals-notifications.md)
+* [Ziel in Workfront Goals teilen](../../workfront-goals/workfront-goals-settings/share-a-goal.md)
+* [Adobe Workfront-Zielterminologie anpassen](../workfront-goals-settings/customize-wf-goals-terminology.md)

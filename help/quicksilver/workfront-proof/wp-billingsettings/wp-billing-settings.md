@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Workfront Proof-Rechnungseinstellungen
-description: Erfahren Sie mehr über die Abrechnung in Workfront Proof.
+title: Workfront Proof-Abrechnungsparameter
+description: Weitere Informationen zur Abrechnung mit Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] Rechnungseinstellungen
+# Rechnungseinstellungen [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Rechnungsstellung verwalten](../../workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)
+* [Abrechnung verwalten](../../workfront-proof/wp-billingsettings/manage-your-billing/manage-your-billing.md)

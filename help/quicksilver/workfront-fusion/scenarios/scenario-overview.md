@@ -15,89 +15,89 @@ ht-degree: 0%
 
 ---
 
-# Überblick über das [!DNL Adobe Workfront Fusion] Szenario
+# Übersicht über [!DNL Adobe Workfront Fusion] Szenario
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
+>[!DNL Adobe Workfront Fusion] benötigt zusätzlich zu einer [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion].
 
 >[!IMPORTANT]
 >
->[!DNL Workfront Fusion]-Szenarien sollten nicht mit [!DNL Workfront Scenario Planner]-Szenarien verwechselt werden. Weitere Informationen zu [!DNL Workfront Scenario Planner]-Szenarien finden Sie unter [Überblick [!DNL Scenario Planner] 3}.](../../scenario-planner/scenario-planner-overview.md)
+>[!DNL Workfront Fusion] Szenarien sollten nicht mit [!DNL Workfront Scenario Planner] Szenarien verwechselt werden. Weitere Informationen zu [!DNL Workfront Scenario Planner] finden Sie unter [The [!DNL Scenario Planner] overview](../../scenario-planner/scenario-planner-overview.md).
 
-Die Aufgabe von [!DNL Adobe Workfront Fusion] besteht darin, Ihre Prozesse zu automatisieren, sodass Sie sich auf neue Aufgaben konzentrieren können, anstatt dieselben Aufgaben immer wieder zu wiederholen. Es funktioniert durch die Verknüpfung von Aktionen innerhalb und zwischen Apps und Diensten, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Das Szenario, in dem Sie Watches für Daten in einer App oder einem Dienst erstellen und diese Daten verarbeiten, um das gewünschte Ergebnis zu liefern.
+Die Rolle von [!DNL Adobe Workfront Fusion] besteht darin, Ihre Prozesse zu automatisieren, damit Sie sich auf neue Aufgaben konzentrieren können, anstatt dieselben Aufgaben immer wieder zu wiederholen. Es funktioniert durch die Verknüpfung von Aktionen innerhalb und zwischen Apps und Services, um ein Szenario zu erstellen, das Ihre Daten automatisch überträgt und transformiert. Das Szenario, in dem Sie Daten in einer App oder einem Service erstellen, überwacht und verarbeitet diese Daten, um das gewünschte Ergebnis zu liefern.
 
-Ein Szenario besteht aus einer Reihe von Modulen, die angeben, wie Daten in einer App umgewandelt oder zwischen Apps und Webdiensten übertragen werden sollen.
+Ein Szenario besteht aus einer Reihe von Modulen, die angeben, wie Daten innerhalb einer App transformiert oder zwischen Apps und Web-Services übertragen werden sollen.
 
-## Übersicht über die Elemente eines Szenarios
+## Übersicht über Szenarioelemente
 
-Ein Szenario besteht aus verschiedenen Elementen. Die Kenntnis der Terminologie dieser Elemente erleichtert die Verwendung der Dokumentation.
+Ein Szenario besteht aus verschiedenen Elementen. Die Verwendung der Dokumentation wird durch das Verständnis der Terminologie dieser Elemente erleichtert.
 
 ### Szenario
 
-Ein **szenario** ist eine vom Benutzer erstellte Reihe automatisierter Schritte, die zum Verschieben und Bearbeiten von Daten erstellt wurden. Der Begriff &quot;Szenario&quot;bezieht sich auf die gesamte Gruppe verbundener Schritte.
+Ein **Szenario** ist eine vom Benutzer erstellte Reihe automatisierter Schritte, mit denen Daten verschoben und bearbeitet werden. Der Begriff „Szenario“ bezieht sich auf die gesamte Gruppe verbundener Schritte.
 
 ![Szenario](assets/entire-scenario-scenario.png)
 
 ### Trigger
 
-Ein Szenario beginnt mit einem **Trigger**. Der Trigger sucht nach neuen und aktualisierten Daten und startet das Szenario, wenn bestimmte im Modul konfigurierte Bedingungen zutreffen. Trigger können so konfiguriert werden, dass sie ein Szenario mit einem Zeitplan (Abruf) oder mit jeder Datenänderung (Sofort) starten.
+Ein Szenario beginnt mit einem **Trigger**. Der Trigger sucht nach neuen und aktualisierten Daten und startet das Szenario, wenn bestimmte im Modul konfigurierte Bedingungen zutreffen. Trigger können so konfiguriert werden, dass ein Szenario nach einem Zeitplan (Abrufen) oder bei jeder Datenänderung (sofortig) gestartet wird.
 
-![Trigger](assets/scenario-trigger.png)
+![Trigger ](assets/scenario-trigger.png)
 
 ### Modul
 
-Dem Trigger folgt eine Reihe von **Modulen**. Ein Modul stellt einen einzelnen Schritt in einem Szenario dar, das eine bestimmte Aktion ausführt. Module werden konfiguriert und miteinander verkettet, um Szenarien zu erstellen.
+Auf den Trigger folgt eine Reihe **Module**. Ein Modul stellt einen einzelnen Schritt in einem Szenario dar, das eine bestimmte Aktion ausführt. Module werden konfiguriert und miteinander verkettet, um Szenarien zu erstellen.
 
-![Modul](assets/scenario-module.png)
+![MODULE](assets/scenario-module.png)
 
 ### Route
 
-Ein Szenario kann in **Routen** unterteilt werden. Eine Route ist ein Abschnitt des Szenarios, der für ein bestimmtes Datenbündel verwendet werden kann oder nicht. Routen werden mithilfe eines Router-Moduls und von Filtern eingerichtet.
+Ein Szenario kann in &quot;**&quot; unterteilt**. Eine Route ist ein Abschnitt des Szenarios, der für ein bestimmtes Datenpaket verwendet werden kann oder nicht. Routen werden mithilfe eines Routermoduls und von Filtern eingerichtet.
 
 ![Route](assets/scenario-route.png)
 
 ### Szenario-Segment
 
-Ein Szenario-Segment ist ein Abschnitt eines Szenarios, das aus einer Reihe zusammenhängender Module besteht, die alle mit derselben Anwendung verbunden sind. Szenario-Segmente stellen oft einen kurzen Workflow in der Anwendung dar.
+Ein Szenario-Segment ist ein Abschnitt eines Szenarios, das aus einer Reihe zusammenhängender Module besteht, die alle mit derselben Anwendung verbunden sind. Szenario-Segmente stellen oft einen kurzen Workflow im Programm dar.
 
 ![Szenario-Segment](assets/scenario-segment.png)
 
 ### Connector
 
-Ein Connector ist der Satz von Modulen für eine bestimmte Anwendung. Workfront Fusion bietet Connectoren für viele gängige Arbeitsanwendungen wie Workfront, Salesforce und Jira sowie allgemeine Connectoren, die für jeden Webdienst verwendet werden können.
+Ein Connector ist ein Satz von Modulen für eine bestimmte Anwendung. Workfront Fusion bietet Connectoren für viele gängige Arbeitsanwendungen wie Workfront, Salesforce und Jira sowie generische Connectoren, die für jeden Webservice verwendet werden können.
 
-![Connectors](assets/scenario-connectors.png)
+![Connectoren](assets/scenario-connectors.png)
 
 
 
-## Beispiel: Automatisieren von Prozessen innerhalb von [!DNL Adobe Workfront]
+## Beispiel: Automatisieren von Prozessen in [!DNL Adobe Workfront]
 
 >[!NOTE]
 >
 >Diese Funktion ist für die folgenden Lizenzen verfügbar:
 >
 >* [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]
->* [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration]
+>* [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und -integration]
 
-Mit [!DNL Workfront Fusion] können Sie einfache oder komplexe Workflows innerhalb von [!DNL Workfront] automatisieren, um Zeit zu sparen und sicherzustellen, dass der Prozess konsistent ausgeführt wird.
+[!DNL Workfront Fusion] können Sie einfache oder komplexe Workflows innerhalb von [!DNL Workfront] automatisieren, was Zeit spart und sicherstellt, dass der Prozess konsistent ausgeführt wird.
 
-In diesem Beispiel wird das Szenario Trigger, wenn sich ein bestimmtes Feld in einer Aufgabe oder einem Problem in [!DNL Workfront] ändert. Wenn das Szenario ausgelöst wird, ruft es Informationen im zugehörigen Projekt ab und erstellt ein maßgeschneidertes Update für eine Person, die einer bestimmten Rolle im Projekt zugewiesen ist.
+In diesem Beispiel tritt ein Trigger auf, wenn sich ein angegebenes Feld in einer Aufgabe oder einem Problem in [!DNL Workfront] ändert. Nach der Auslösung ruft das Szenario Informationen im zugehörigen Projekt ab und erstellt eine maßgeschneiderte Aktualisierung für eine Person, die einer bestimmten Rolle im Projekt zugewiesen wurde.
 
 ![](assets/fusion-template-example-350x102.png)
 
-## Beispiel: Verbinden von [!DNL Workfront] mit einer anderen App oder einem Webdienst
+## Beispiel: Verbinden von [!DNL Workfront] mit einer anderen App oder einem anderen Webservice
 
 >[!NOTE]
 >
 >Diese Funktion ist für die folgende Lizenz verfügbar:
 >
->* [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration]
+>* [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und -integration]
 >
 
-[!DNL Workfront Fusion] kann auch eine Verbindung zu anderen Apps und Webdiensten herstellen. Sie können auf Daten aus anderen Anwendungen zugreifen, diese importieren, bearbeiten oder exportieren und sie in Workfront oder miteinander integrieren. Viele Anwendungen verfügen über dedizierte [!DNL Workfront Fusion] -Connectoren. Wenn es keinen dedizierten Connector für die Anwendung gibt, auf die Sie zugreifen möchten, können Sie die [!UICONTROL HTTP] - oder [!UICONTROL SOAP] -Module von [!DNL Workfront Fusion] verwenden, um über die zugehörige API eine Verbindung zur Anwendung herzustellen.
+[!DNL Workfront Fusion] können auch eine Verbindung zu anderen Apps und Web-Services herstellen. Sie können auf Daten aus anderen Programmen zugreifen, diese importieren, bearbeiten oder exportieren und dabei in Workfront oder miteinander integrieren. Viele Anwendungen verfügen über dedizierte [!DNL Workfront Fusion]. Wenn für die Anwendung, auf die Sie zugreifen möchten, kein dedizierter Connector vorhanden ist, können Sie die [!UICONTROL HTTP]- oder [!UICONTROL SOAP]-Module von [!DNL Workfront Fusion] verwenden, um über die API eine Verbindung zur Anwendung herzustellen.
 
-In diesem Beispiel wird das Szenario Trigger, wenn ein Benutzer einer [!DNL Excel] -Tabelle hinzugefügt wird. Das Szenario überprüft, ob der Benutzer in [!DNL Workfront] ist. Andernfalls wird der Benutzer in [!DNL Workfront] erstellt und seine Workfront-Benutzer-ID wird wieder in die Tabelle eingefügt.
+In diesem Beispiel tritt beim Szenario ein Trigger auf, wenn ein(e) Benutzende(r) zu einer [!DNL Excel] Tabelle hinzugefügt wird. Das Szenario prüft, ob sich der Benutzer in [!DNL Workfront] befindet. Andernfalls wird der Benutzer in [!DNL Workfront] erstellt und seine Workfront-Benutzer-ID wird wieder in die Tabelle eingefügt.
 
 ![](assets/fusion-integration-example--350x171.png)
 
@@ -105,9 +105,9 @@ Eine Liste der dedizierten Connectoren finden Sie unter [Apps und ihre Module](.
 
 >[!IMPORTANT]
 >
->[!DNL Adobe Workfront Fusion] kann eine Verbindung zu fast jedem Webdienst herstellen. Wenn die App, mit der Sie arbeiten möchten, keinen dedizierten [!DNL Workfront Fusion]-Connector aufweist, können Sie die folgenden Module verwenden, um eine direkte Verbindung zum Webdienst herzustellen:
+>[!DNL Adobe Workfront Fusion] kann eine Verbindung zu fast jedem Webdienst herstellen. Wenn die App, mit der Sie arbeiten möchten, keinen dedizierten [!DNL Workfront Fusion]-Connector hat, können Sie die folgenden Module verwenden, um eine direkte Verbindung zum Webservice herzustellen:
 >
->* [[!UICONTROL HTTP] modules](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
->* [[!UICONTROL SOAP] module](../../workfront-fusion/apps-and-their-modules/soap-module.md)
->* [[!UICONTROL JSON] modules](../../workfront-fusion/apps-and-their-modules/json-modules.md)
+>* [[!UICONTROL HTTP]-Module](../../workfront-fusion/apps-and-their-modules/http-modules/http-modules-1.md)
+>* [[!UICONTROL SOAP]-Modul](../../workfront-fusion/apps-and-their-modules/soap-module.md)
+>* [[!UICONTROL JSON]-Module](../../workfront-fusion/apps-and-their-modules/json-modules.md)
 >

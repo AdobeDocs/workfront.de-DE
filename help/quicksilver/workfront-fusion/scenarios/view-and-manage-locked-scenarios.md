@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Verwalten gesperrter Szenarien in  [!DNL Adobe Workfront Fusion]
-description: Verwalten gesperrter Szenarien in  [!DNL Adobe Workfront Fusion]
+title: Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
+description: Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
@@ -16,64 +16,64 @@ ht-degree: 0%
 
 # Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
 
-In einigen Fällen kann ein Szenario vorübergehend in [!DNL Workfront Fusion] gesperrt sein. Gesperrte Ausführungen werden automatisch innerhalb von 2-4 Stunden entsperrt. Sie können Szenarien auch manuell entsperren.
+In einigen Fällen kann ein Szenario vorübergehend in [!DNL Workfront Fusion] gesperrt sein. Gesperrte Ausführungen werden innerhalb von 2-4 Stunden automatisch entsperrt. Sie können Szenarien auch manuell entsperren.
 
 >[!IMPORTANT]
 >
->Das manuelle Entsperren eines Szenarios kann bei den Ausführungen eines Szenarios zu Fehlern führen.
+>Das manuelle Entsperren eines Szenarios kann zu Fehlern bei der Ausführung eines Szenarios führen.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
-  <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung] </p>  </td>    </tr> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] Lizenz**</td> 
+  <td> <p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und -integration] </p><p>[!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung] </p>  </td>    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</td> 
+   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Grundlegendes zu gesperrten Szenarien
+## Verstehen gesperrter Szenarien
 
 Szenarien können aus verschiedenen Gründen gesperrt werden.
 
-Workfront Fusion unterstützt keine parallele Verarbeitung geplanter Szenarien. Diese Szenarien werden zu Beginn der Szenario-Ausführung gesperrt und nach Abschluss entsperrt. Wenn die Ausführung unterbrochen wird, wird das Szenario möglicherweise nicht entsperrt. Dies kann vorkommen, wenn ein Benutzer das Szenario manuell erzwingt oder ein Systemproblem vorliegt.
+Workfront Fusion unterstützt keine parallele Verarbeitung geplanter Szenarien. Diese Szenarien werden zu Beginn der Szenarioausführung gesperrt und nach Abschluss entsperrt. Wenn die Ausführung unterbrochen wird, kann es sein, dass sich das Szenario nicht entsperrt. Dies kann vorkommen, wenn ein Benutzer das Szenario manuell forciert oder wenn ein Systemproblem vorliegt.
 
-Darüber hinaus kann das Workfront Fusion Engineering-Team ein Szenario sperren, da es Leistungs- oder andere Probleme verursacht.
+Darüber hinaus kann das Entwicklungsteam von Workfront Fusion ein Szenario sperren, da es Leistungs- oder andere Probleme verursacht.
 
-Unabhängig von der Ursache eines gesperrten Szenarios wird das Szenario 2-4 Stunden nach seiner Sperrung automatisch entsperrt.
+Unabhängig von der Ursache eines gesperrten Szenarios wird das Szenario 2-4 Stunden nach dem Sperren automatisch entsperrt.
 
-## Sperrszenario entsperren
+## Entsperren eines gesperrten Szenarios
 
-Gesperrte Szenarien werden 2-4 Stunden nach der Sperrung entsperrt. Sie können ein Szenario manuell entsperren, bevor es automatisch entsperrt werden soll.
+Gesperrte Szenarien werden 2-4 Stunden nach dem Zeitpunkt entsperrt, zu dem sie gesperrt wurden. Sie können ein Szenario manuell entsperren, bevor es so geplant ist, dass es automatisch entsperrt wird.
 
-Das manuelle Entsperren eines Szenarios kann bei den Ausführungen eines Szenarios zu Fehlern führen. Es wird empfohlen, Szenarien nur dann manuell zu entsperren, wenn ein Szenario aufgrund der Ausführung und Beendigung von Ausführungen im Rahmen des Designs des Szenarios gesperrt ist. Unter anderen Umständen wird empfohlen, dass Sie warten, bis das Szenario automatisch entsperrt wird.
+Das manuelle Entsperren eines Szenarios kann zu Fehlern bei der Ausführung eines Szenarios führen. Es wird empfohlen, Szenarien nur manuell zu entsperren, wenn ein Szenario gesperrt ist, da Ausführungen ausgeführt und gestoppt werden. Dies ist Teil des Entwurfs des Szenarios. In anderen Fällen empfehlen wir, zu warten, bis das Szenario automatisch entsperrt wird.
 
 >[!IMPORTANT]
 >
->Das manuelle Entsperren eines Szenarios kann bei den Ausführungen eines Szenarios zu Fehlern führen.
+>Das manuelle Entsperren eines Szenarios kann zu Fehlern bei der Ausführung eines Szenarios führen.
 
-1. Rufen Sie die Seite mit den Szenario-Details des gesperrten Szenarios auf.
-1. Klicken Sie oben rechts im Bildschirm auf **[!UICONTROL Optionen]** .
+1. Gehen Sie zur Seite mit den Szenario-Details des gesperrten Szenarios.
+1. Klicken Sie **[!UICONTROL Optionen]** in der oberen rechten Ecke des Bildschirms.
 1. Wählen Sie **[!UICONTROL Ausführung entsperren]**.
-1. Klicken Sie auf **[!UICONTROL Entsperren]**.
+1. Klicken Sie **[!UICONTROL Entsperren]**.

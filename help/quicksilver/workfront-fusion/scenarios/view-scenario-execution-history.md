@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
-title: Verlauf eines Szenarios in Adobe Workfront Fusion anzeigen
-description: Sie können Informationen zu allen Ausführungen eines Szenarios anzeigen oder alle Ausführungen des Szenarios nach bestimmten Daten durchsuchen.
+title: Anzeigen des Verlaufs eines Szenarios in Adobe Workfront Fusion
+description: Sie können Informationen zu allen Ausführungen für ein Szenario anzeigen oder alle Ausführungen des Szenarios nach bestimmten Daten durchsuchen.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
@@ -18,153 +18,153 @@ ht-degree: 0%
 
 Sie können Informationen zu den Ereignissen oder Ausführungen eines Szenarios anzeigen oder alle Ausführungen des Szenarios nach bestimmten Daten durchsuchen.
 
-Die Ausführung eines Szenarios stellt einen einzelnen Ablauf des Szenarios dar.
+Eine Szenario-Ausführung stellt eine einzelne Ausführung des Szenarios dar.
 
-Ein Szenario-Ereignis ist eine Änderung des Szenarios, z. B. Bearbeiten, Aktivieren oder Deaktivieren.
+Ein Szenarioereignis ist eine Änderung des Szenarios, z. B. das Bearbeiten, Aktivieren oder Deaktivieren.
 
 >[!NOTE]
 >
->Der Verlauf eines Szenarios zeigt alle Ereignisse und Ausführungen eines Szenarios für die letzten 30 Tage an.
+>Im Verlauf eines Szenarios werden alle Ereignisse und Ausführungen eines Szenarios in den letzten 30 Tagen angezeigt.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">  
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] Lizenz**</td> 
   <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td>  
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Szenario-Verlauf anzeigen
+## Szenarioverlauf anzeigen
 
-### Anzeigen des Szenarioverlaufs auf der Seite [!UICONTROL Szenariodetails]
+### Zeigen Sie den Szenarioverlauf auf der Seite [!UICONTROL Szenariodetails] an
 
-1. Klicken Sie im linken Bereich auf die Registerkarte **[!UICONTROL Szenario]** und klicken Sie dann auf das Szenario.
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Szenario“ im linken Bereich und klicken Sie dann auf das Szenario.
 
    Oder
 
-   Wenn Sie im Szenario-Editor an dem Szenario arbeiten, klicken Sie in der linken oberen Ecke des Fensters auf den Linkspfeil ![](assets/exit-editing-arrow.png).
+   Wenn Sie an dem Szenario im Szenario-Editor arbeiten, klicken Sie auf den linken Pfeil ![](assets/exit-editing-arrow.png) der oberen linken Ecke des Fensters.
 
-1. Zeigen Sie den Ausführungsverlauf im Tab **Verlauf** des Bedienfelds auf der rechten Seite an.
+1. Zeigen Sie den Ausführungsverlauf auf der Registerkarte **Verlauf** des Bedienfelds auf der rechten Seite an.
 
    Die folgenden Details werden für jede Ausführung des Szenarios aufgelistet:
 
-   * Datum, an dem die Ausführung **[!UICONTROL gestartet]** war
-   * **[!UICONTROL Status]** (Erfolg oder fehlgeschlagen)
-   * Ausführen von **[!UICONTROL Dauer]**
-   * Anzahl der **[!UICONTROL Vorgänge]**
+   * Datum, an dem der Durchlauf gestartet **[!UICONTROL gestartet]**
+   * **[!UICONTROL Status]** (Erfolg oder Fehlgeschlagen)
+   * Ausführen **[!UICONTROL Dauer]**
+   * Anzahl **[!UICONTROL Vorgänge]**
    * Größe von **[!UICONTROL Datenübertragung]**
 
    >[!NOTE]
    >
-   >Im Szenario-Verlauf wird neben den kürzlich ausgeführten Szenarien ein **Verarbeitungs** -Zeichen angezeigt, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als einige Minuten dauern. Details zur Ausführung des Szenarios sind möglicherweise nicht sichtbar, während die Ausführung verarbeitet wird.
+   >Der Szenarioverlauf zeigt neben **kürzlich ausgeführten Szenarien** Badge Verarbeitung an, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als ein paar Minuten dauern. Details zur Szenario-Ausführung sind während der Ausführung möglicherweise nicht sichtbar.
 
-1. Um Details zur Ausführung eines bestimmten Szenarios anzuzeigen, klicken Sie im rechten Bereich auf diese Ausführung.
-1. Um Ereignisse anzuzeigen, klicken Sie rechts im Bedienfeld auf die Registerkarte **Ereignisse** .
+1. Um Details zu einer bestimmten Szenario-Ausführung anzuzeigen, klicken Sie im rechten Bedienfeld auf diese Ausführung.
+1. Um Ereignisse anzuzeigen, klicken Sie auf **Registerkarte** Ereignisse“ im Bedienfeld auf der rechten Seite.
 
 
-### Anzeigen des Szenario-Verlaufs auf der Registerkarte [!UICONTROL Verlauf]
+### Szenarioverlauf auf der Registerkarte [!UICONTROL Verlauf] anzeigen
 
-Die Registerkarte [!UICONTROL Verlauf] enthält mehr Details als auf der Seite [!UICONTROL Szenario-Detail] verfügbar sind. Sie können die Ausführungen auch auf der Registerkarte [!UICONTROL Verlauf] filtern und sortieren.
+Die Registerkarte [!UICONTROL Verlauf] zeigt mehr Details an, als auf der Seite [!UICONTROL Szenario-Detail] verfügbar sind. Sie können die Ausführungen auch auf der Registerkarte [!UICONTROL Verlauf] filtern und sortieren.
 
-1. Klicken Sie im linken Bereich auf die Registerkarte **[!UICONTROL Szenario]** und klicken Sie dann auf das Szenario.
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Szenario“ im linken Bereich und klicken Sie dann auf das Szenario.
 
    Oder
 
-   Wenn Sie im Szenario-Editor an dem Szenario arbeiten, klicken Sie in der linken oberen Ecke des Fensters auf den Linkspfeil ![](assets/exit-editing-arrow.png).
+   Wenn Sie an dem Szenario im Szenario-Editor arbeiten, klicken Sie auf den linken Pfeil ![](assets/exit-editing-arrow.png) der oberen linken Ecke des Fensters.
 
-1. Klicken Sie oben links auf der Seite auf die Registerkarte **[!UICONTROL Verlauf]** .
-1. (Optional) Detaillierte Informationen zu einem ausgewählten Szenario-Lauf, einschließlich der verarbeiteten Bundles, erhalten Sie, wenn Sie in der Zeile für diese Ausführung auf die Schaltfläche **[!UICONTROL Details]** klicken.
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Verlauf“ in der oberen linken Ecke der Seite
+1. (Optional) Ausführliche Informationen zu einer ausgewählten Szenario-Ausführung, einschließlich der verarbeiteten Bundles, erhalten Sie, wenn Sie auf die **[!UICONTROL Details]** in der Zeile für diese Ausführung klicken.
 
-   Weitere Informationen zur Verarbeitung von Bundles finden Sie unter [Ausführungsfluss eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
+   Weitere Informationen zur Verarbeitung von Bundles finden Sie unter [Szenario-Ausführungsfluss in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/scenario-execution-flow.md).
 
    >[!NOTE]
    >
-   >* Der Link [!UICONTROL details] ist nur sichtbar, wenn die Ausführung Details enthält.
+   >* Der [!UICONTROL details]-Link ist nur sichtbar, wenn für die Ausführung Details verfügbar sind.
    >
-   >* Im Szenario-Verlauf wird neben den Szenarien, die kürzlich ausgeführt wurden, ein **Verarbeitungsverlauf** -Zeichen angezeigt, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als einige Minuten dauern. Details zur Ausführung des Szenarios sind möglicherweise nicht sichtbar, während die Ausführung verarbeitet wird.
+   >* Der Szenarioverlauf zeigt neben Szenarien **die kürzlich ausgeführt wurden,** Badge „Verarbeitungsverlauf“ an, während die Ausführungsdetails in den Speicher geschrieben werden. Die Verarbeitung erfolgt unmittelbar nach der Ausführung des Szenarios. und sollte nicht länger als ein paar Minuten dauern. Details zur Szenario-Ausführung sind während der Ausführung möglicherweise nicht sichtbar.
 
-1. Um Ereignisse anzuzeigen, aktivieren Sie den Umschalter **Ereignisse anzeigen** .
+1. Um Ereignisse anzuzeigen, aktivieren Sie den Umschalter **Ereignisse anzeigen**.
 
-## den Ausführungsverlauf des Szenarios filtern
+## Filtern des Ausführungsverlaufs des Szenarios
 
 Sie können den Ausführungsverlauf filtern, um nur Ausführungen mit den angegebenen Werten anzuzeigen.
 
-1. Öffnen Sie den vollständigen Seitenverlauf für ein Szenario, wie unter [Anzeigen des Ausführungsverlaufs eines Szenarios auf der Registerkarte [!UICONTROL Verlauf] ](#view-scenario-execution-history-on-the-history-tab) in diesem Artikel beschrieben.
-1. Klicken Sie in der Kopfzeile der Spalte, nach der Sie filtern möchten, auf das Symbol [!UICONTROL filter] ![](assets/fusion-scenario-filter-icon.png) .
-1. Geben Sie im Dialogfeld [!UICONTROL filter] die Werte ein, nach denen Sie filtern möchten.
+1. Öffnen Sie den vollständigen Seitenverlauf für ein Szenario, wie in [Ausführungsverlauf des Szenarios anzeigen auf der Registerkarte [!UICONTROL Verlauf] in ](#view-scenario-execution-history-on-the-history-tab) Artikel beschrieben.
+1. Klicken Sie auf [!UICONTROL  Symbol ]Filtern![](assets/fusion-scenario-filter-icon.png) in der Kopfzeile der Spalte, nach der Sie filtern möchten.
+1. Geben [!UICONTROL  im ] „Filter“ die Werte ein, nach denen gefiltert werden soll.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Das Filtersymbol ist orange in Spalten mit einem derzeit aktiven Filter.
+Das Filtersymbol ist in Spalten mit einem derzeit aktiven Filter orange.
 
 ## Sortieren des Ausführungsverlaufs des Szenarios
 
 Sie können den Ausführungsverlauf des Szenarios sortieren.
 
-1. Öffnen Sie den vollständigen Seitenverlauf für ein Szenario, wie unter [Anzeigen des Ausführungsverlaufs eines Szenarios auf der Registerkarte [!UICONTROL Verlauf] ](#view-scenario-execution-history-on-the-history-tab) in diesem Artikel beschrieben.
-1. Klicken Sie in der Kopfzeile der Spalte, nach der Sie filtern möchten, auf das Symbol [!UICONTROL Sortieren] .
-1. Optional: Um die Reihenfolge der Sortierung umzukehren, klicken Sie erneut auf das Symbol [!UICONTROL Sortieren] .
+1. Öffnen Sie den vollständigen Seitenverlauf für ein Szenario, wie in [Ausführungsverlauf des Szenarios anzeigen auf der Registerkarte [!UICONTROL Verlauf] in ](#view-scenario-execution-history-on-the-history-tab) Artikel beschrieben.
+1. Klicken Sie auf [!UICONTROL  Symbol ]Sortieren“ in der Kopfzeile der Spalte, nach der Sie filtern möchten.
+1. Optional: Um die Sortierreihenfolge umzukehren, klicken Sie erneut auf [!UICONTROL Sortieren]-Symbol.
 
-## Durchsuchen aller Ausführungen eines Szenarios
+## Alle Ausführungen eines Szenarios durchsuchen
 
-1. Öffnen Sie den vollständigen Seitenverlauf für ein Szenario, wie unter [Anzeigen des Ausführungsverlaufs eines Szenarios auf der Registerkarte [!UICONTROL Verlauf] ](#view-scenario-execution-history-on-the-history-tab) in diesem Artikel beschrieben.
-1. Klicken Sie oben in der Liste der Ausführungen auf **[!UICONTROL Volltextsuche]** .
+1. Öffnen Sie den vollständigen Seitenverlauf für ein Szenario, wie in [Ausführungsverlauf des Szenarios anzeigen auf der Registerkarte [!UICONTROL Verlauf] in ](#view-scenario-execution-history-on-the-history-tab) Artikel beschrieben.
+1. Klicken Sie **[!UICONTROL Volltextsuche]** oben in der Liste der Ausführungen auf.
 
    Oder
 
-   Geben Sie **Strg+Umschalt+F** (Windows) oder **Befehl+Umschalt+F** (Mac) ein.
+   Geben Sie **Strg+Umschalt+F** (Windows) oder **Befehl+Umschalt+F** (Mac) ein
 Das Fenster [!UICONTROL Suche im Verlauf] wird geöffnet.
 
-1. (Optional) Um nach Ausführungen zu suchen, die bestimmten Text enthalten, geben Sie den Text in die Suchleiste des Fensters **[!UICONTROL Suche im Verlauf]** ein.
+1. (Optional) Um nach Ausführungen zu suchen, die bestimmten Text enthalten, geben Sie den Text in der Suchleiste des Fensters **[!UICONTROL Suche im Verlauf]** ein.
 
-   Um nach exaktem Text zu suchen, umgeben Sie den Text mit doppelten Anführungszeichen (&quot;Beispiel&quot;).
+   Um nach exaktem Text zu suchen, setzen Sie den Text in Anführungszeichen („Beispiel„).
 
    >[!INFO]
    >
-   >**Beispiel:** Wenn Sie die Ausführung suchen möchten, die ein bestimmtes Projekt erstellt hat, geben Sie die Projekt-ID in die Leiste [!UICONTROL Volltextsuche] ein.
+   >**Beispiel:** Wenn Sie die Ausführung finden möchten, mit der ein bestimmtes Projekt erstellt wurde, geben Sie die Projekt-ID in die ] &quot;[!UICONTROL &quot; ein.
    >
-   >&quot;625ef2ef006036bd1794b6e52d737c5&quot;
+   >„625ef2ef0006036bd1794b6e52d737c5“
 
-1. (Optional) Um die Suche nach Datumsbereich zu beschränken, wählen Sie im Bereich [!UICONTROL Nach Datumsbereich] das Start- und Enddatum der gewünschten Suche aus.
+1. (Optional) Um die Suche nach Datumsbereich zu beschränken, wählen Sie das Anfangs- und Enddatum der gewünschten Suche im Bereich [!UICONTROL Nach ]) aus.
 
    >[!NOTE]
    >
    >* Ausführungen sind nur für die letzten 30 Tage verfügbar.
    >
-   >* [!DNL Workfront Fusion] speichert Webhook-Payloads für 30 Tage. Wenn Sie mehr als 30 Tage nach der Erstellung auf eine Webhook-Payload zugreifen, wird der Fehler &quot;[!UICONTROL Datei konnte nicht aus dem Speicher gelesen werden.]&quot; angezeigt.
+   >* [!DNL Workfront Fusion] speichert Webhook-Payloads 30 Tage lang. Wenn Sie mehr als 30 Tage nach der Erstellung auf eine Webhook-Payload zugreifen, wird der Fehler &quot;[!UICONTROL Datei konnte nicht aus dem Speicher gelesen werden“ ].
 
 
-1. (Optional) Um Ihre Suche nach Status zu beschränken, wählen Sie den gewünschten Status in der Dropdown-Liste **[!UICONTROL Nach Status]** aus.
+1. (Optional) Um die Suche nach Status zu begrenzen, wählen Sie den gewünschten Status in der Dropdown-Liste **[!UICONTROL Nach Status]** aus.
 
 
    Verfügbare Status sind:
@@ -177,8 +177,8 @@ Das Fenster [!UICONTROL Suche im Verlauf] wird geöffnet.
 
    * [!UICONTROL Erfolg]
 
-1. (Optional) Ändern Sie die Reihenfolge, in der die Ergebnisse in der Dropdown-Liste **[!UICONTROL Nach Datumsangaben sortieren]** angezeigt werden.
+1. (Optional) Ändern Sie die Reihenfolge, in der die Ergebnisse im Dropdown-Menü **[!UICONTROL Sortieren nach]**&quot; angezeigt werden.
 
-1. (Optional) Um eine Ausführungs-ID eines Szenarios zu kopieren, klicken Sie auf das Symbol **[!UICONTROL Ausführungskennung kopieren]** . <img src="assets/copy-fusion-execution-id-icon.png"> in der Zeile der gewünschten Ausführung
+1. (Optional) Um eine Szenario-Ausführungs-ID zu kopieren, klicken Sie auf das Symbol **[!UICONTROL Ausführungs-ID kopieren]** <img src="assets/copy-fusion-execution-id-icon.png"> in der Zeile der gewünschten Ausführung
 
-1. (Optional) Klicken Sie auf ein Ergebnis der [!UICONTROL Volltextsuche], um das Ausgabebundle des Szenario-Moduls zu untersuchen, das die Informationen enthält.
+1. (Optional) Klicken Sie auf ein Ergebnis der [!UICONTROL Volltextsuche] um das Ausgabepaket des Szenario-Moduls zu überprüfen, das die Informationen enthält.

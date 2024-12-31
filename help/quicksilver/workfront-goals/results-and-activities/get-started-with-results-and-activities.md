@@ -2,8 +2,8 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront-Zielen
-description: Sie müssen einem Ziel Ergebnisse, Aktivitäten oder aufeinander abgestimmte Ziele hinzufügen, um es aktivieren zu können. Dadurch wird der Zielstatus von "Entwurf"zu "Aktiv"aktualisiert und der Fortschritt beim Ziel wird aufgezeichnet.
+title: Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront Goals
+description: Sie müssen einem Ziel Ergebnisse, Aktivitäten oder abgestimmte Ziele hinzufügen, um es aktivieren zu können. Dadurch wird der Zielstatus von „Entwurf“ in „Aktiv“ aktualisiert und der Fortschritt beim Ziel aufgezeichnet.
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
@@ -14,42 +14,42 @@ ht-degree: 0%
 
 ---
 
-# Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront-Zielen
+# Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront Goals
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Für den neuen Plan und die Lizenzstruktur:
+>* Für die neue Plan- und Lizenzstruktur:
 >
->   * Der ultimative Workfront-Plan
+>   * Der Ultimate Workfront-Plan
 >    
->* Für den aktuellen Plan und die Lizenzstruktur:
+>* Für die aktuelle Plan- und Lizenzstruktur:
 >
->   * Workfront-Abo mit Pro oder höher
->   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>   * Ein Pro- oder höher-Workfront-Plan
+>   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
->Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 > 
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
-Wenn Sie ein Ziel erstellen, hat das Ziel den Status Entwurf . Weitere Informationen zum Erstellen von Zielen finden Sie unter [Ziele in Adobe Workfront erstellen](../../workfront-goals/goal-management/create-goals.md).
+Wenn Sie ein Ziel erstellen, hat das Ziel den Status Entwurf . Informationen zum Erstellen von Zielen finden Sie unter [Erstellen von Zielen in Adobe Workfront](../../workfront-goals/goal-management/create-goals.md).
 
-Um den Fortschritt eines Ziels aufzuzeichnen, müssen Sie es aktivieren. Um Ihr Ziel zu aktivieren und seinen Status auf Aktiv zu ändern, müssen Sie ihm zunächst Folgendes hinzufügen:
+Um den Fortschritt eines Ziels aufzuzeichnen, muss dies aktiviert werden. Um Ihr Ziel zu aktivieren und seinen Status in Aktiv zu ändern, müssen Sie zunächst Folgendes hinzufügen:
 
 * Ergebnis
 * Eine Aktivität
 * Ein Projekt
-* Ein ausgerichtetes Ziel
+* Ein abgestimmtes Ziel
 
-Nachdem mindestens eines dieser Elemente hinzugefügt wurde, können Sie das Ziel aktivieren. Sie müssen die Ergebnisse und Aktivitäten der Ziele aktualisieren, um Fortschritte beim Ziel anzuzeigen.
+Nachdem mindestens eines dieser Elemente hinzugefügt wurde, können Sie das Ziel aktivieren. Sie müssen die Ergebnisse und Aktivitäten von Zielen aktualisieren, um den Fortschritt beim Ziel anzuzeigen.
 
 
 >[!IMPORTANT]
 >
-> Ein Ziel darf nicht mehr als 1.000 Aktivitäten, Ergebnisse, Projekte oder aufeinander abgestimmte Ziele haben.</span>
+> Ein Ziel kann nicht mehr als insgesamt 1000 Aktivitäten, Ergebnisse, Projekte oder abgestimmte Ziele haben.</span>
 
-Dieser Artikel gibt einen Überblick über Aktivitäten und Ergebnisse. Informationen zum Ausrichten von Zielen finden Sie unter [Zielausrichtung in Adobe Workfront-Zielen](../../workfront-goals/goal-alignment/goal-alignment.md). Informationen zum Verbinden von Projekten mit Zielen finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../results-and-activities/connect-projects-to-goals-overview.md).
+Dieser Artikel gibt einen Überblick über Aktivitäten und Ergebnisse. Informationen zum Ausrichten von Zielen finden Sie unter [Zielausrichtung in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment.md). Informationen zum Verbinden von Projekten mit Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Ergebnisübersicht
 
@@ -57,16 +57,16 @@ Dieser Artikel gibt einen Überblick über Aktivitäten und Ergebnisse. Informat
 <p> This will have additional types in the future - add another section for types?)</p>
 -->
 
-Die Ergebnisse messen den Fortschritt Ihres Ziels oder dessen Nähe zum Erreichen. Als Zieleigentümer können Sie auch Eigentümer des Ergebnisses sein. Ein Ergebnis für Ihr Ziel kann auch einem anderen Benutzer zugewiesen werden.
+Die Ergebnisse messen den Fortschritt Ihres Ziels oder wie nahe Sie dem Ziel sind. Als Zielinhaber können Sie auch für das Ergebnis verantwortlich sein. Ein Ergebnis zum Erreichen Ihres Ziels kann auch einem anderen Benutzer zugewiesen werden.
 
-Informationen zum Hinzufügen von Ergebnissen zu Zielen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md).
+Informationen zum Hinzufügen von Ergebnissen zu Zielen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md).
 
-Sie können Ihren eigenen Zielen oder Zielen Ergebnisse hinzufügen, die zu anderen Entitäten in Ihrer Organisation gehören.
+Sie können Ergebnisse zu Ihren eigenen Zielen oder Zielen hinzufügen, die zu anderen Entitäten in Ihrer Organisation gehören.
 
 Beachten Sie beim Arbeiten mit Ergebnissen Folgendes:
 
-* Sie beantworten die Frage: &quot;Woher weiß ich, wann mein Ziel abgeschlossen ist?&quot;
-* Sie sind Metrikindikatoren. Sie können aus den folgenden Optionen auswählen, um einen Fortschritt für Ihr Ergebnis anzugeben:
+* Sie beantworten die Frage: „Woher weiß ich, wann mein Ziel erreicht ist?“
+* Es handelt sich um metrische Indikatoren. Sie können aus den folgenden Optionen auswählen, um einen Fortschritt für Ihr Ergebnis anzuzeigen:
 
   <!--
   this might change (jira, Salesforce, etc))
@@ -76,22 +76,22 @@ Beachten Sie beim Arbeiten mit Ergebnissen Folgendes:
    * Zahl
    * Prozentsatz
 
-Weitere Informationen zu Ergebnissen finden Sie in der Liste der Ähnlichkeiten zwischen Ergebnissen und Aktivitäten im Abschnitt [Ähnlichkeiten zwischen Ergebnissen, Aktivitäten und Projekten](#similarities-between-results-activities-and-projects) in diesem Artikel.
+Weitere Informationen zu den Ergebnissen finden Sie in der Liste der Ähnlichkeiten zwischen Ergebnissen und Aktivitäten im Abschnitt [Ähnlichkeiten zwischen Ergebnissen, Aktivitäten und Projekten](#similarities-between-results-activities-and-projects) in diesem Artikel.
 
-## Übersicht über Aktivitäten
+## Aktivitätsübersicht
 
 <!--
 This will have additional types in the future - add another section for types?
 -->
 
-Aktivitäten sind wie Ergebnisse spezifisch und messbar und enthalten in der Regel einen Indikator für die Vollständigkeit in Prozent. Als Zieleigentümer können Sie auch Eigentümer der mit dem Ziel verknüpften Aktivitäten sein. Eine Aktivität für Ihr Ziel kann auch einem anderen Benutzer zugewiesen werden.
+Aktivitäten sind wie Ergebnisse spezifisch und messbar und enthalten normalerweise einen Indikator für den Prozentwert der Fertigstellung. Als Verantwortlicher für das Ziel können Sie auch für die mit dem Ziel verbundenen Aktivitäten verantwortlich sein. Eine Aktivität für Ihr Ziel kann auch einem anderen Benutzer zugewiesen werden.
 
-Informationen zum Hinzufügen von Aktivitäten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
+Informationen zum Hinzufügen von Aktivitäten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md).
 
-Beachten Sie Folgendes, wenn Sie Aktivitäten mit Ihren Zielen verknüpfen:
+Beachten Sie beim Verknüpfen von Aktivitäten mit Ihren Zielen Folgendes:
 
-* Sie beantworten die Frage: &quot;Was werde ich erreichen, wenn das Ziel abgeschlossen ist?&quot;
-* Aktivitäten sind benutzerspezifische Einträge, die in Bezug auf Vollständigkeit oder Unvollständigkeit besser betrachtet werden können. Sie müssen manuell aktualisiert werden, um anzugeben, welcher Prozentsatz der Aktivitäten bisher abgeschlossen wurde.
+* Sie beantworten die Frage: „Was werde ich erreichen, wenn das Ziel erreicht ist?“
+* Aktivitäten sind benutzerdefinierte Einträge, bei denen es sich eher um vollständige oder unvollständige Einträge handelt. Sie müssen manuell aktualisiert werden, um anzugeben, wie viel Prozent der Aktivität bisher abgeschlossen wurde.
 
 <!--
 * You can associate the following activities with goals:
@@ -119,13 +119,13 @@ Weitere Informationen zu Ergebnissen und Aktivitäten finden Sie in der Liste de
 
 ## Ähnlichkeiten zwischen Ergebnissen, Aktivitäten und Projekten {#similarities-between-results-activities-and-projects}
 
-Ergebnisse, Aktivitäten und Projekte sind Zielfortschrittsindikatoren.
+Ergebnisse, Aktivitäten und Projekte sind Indikatoren für den Zielfortschritt.
 
-Es gibt einige Unterschiede in der Art und Weise, wie Sie Projekte verwalten, und in der Art und Weise, wie Sie Ergebnisse und Aktivitäten verwalten. Weitere Informationen zum Hinzufügen von Projekten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Weitere Informationen zu Projekten, die mit Zielen verbunden sind, finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+Die Verwaltung von Projekten und die Verwaltung von Ergebnissen und Aktivitäten unterscheiden sich teilweise. Informationen zum Hinzufügen von Projekten zu Zielen finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md). Informationen zu Projekten, die mit Zielen verbunden sind, finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-Neben Ergebnissen, Aktivitäten und Projekten können Sie auch untergeordnete Ziele mit einem Ziel verknüpfen. Kinderziele sind auch eine Art Fortschrittsanzeige für ein Ziel. Weitere Informationen finden Sie unter [Ziele ausrichten, indem Sie sie in Adobe Workfront-Zielen verbinden](../goal-alignment/align-goals-by-connecting-them.md). Der Fortschritt der Fortschrittsindikatoren des untergeordneten Ziels treibt auch den Fortschritt des übergeordneten Ziels.
+Neben Ergebnissen, Aktivitäten und Projekten können Sie auch untergeordnete Ziele mit einem Ziel verknüpfen. Untergeordnete Ziele sind auch eine Art Fortschrittsindikator für ein Ziel. Weitere Informationen finden Sie unter [Ausrichten von Zielen durch Verbinden in Adobe Workfront-](../goal-alignment/align-goals-by-connecting-them.md). Die Fortschrittsindikatoren des Ziels „Untergeordnetes Ziel“ steuern auch den Fortschritt des übergeordneten Ziels.
 
-Die folgende Tabelle zeigt Ähnlichkeiten und Unterschiede zwischen Ergebnissen, Aktivitäten und Projekten als Zielindikatoren:
+In der folgenden Tabelle werden Ähnlichkeiten und Unterschiede zwischen Ergebnissen, Aktivitäten und Projekten als Zielindikatoren angezeigt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -140,64 +140,64 @@ Die folgende Tabelle zeigt Ähnlichkeiten und Unterschiede zwischen Ergebnissen,
    <td> <p><strong>Projekte</strong> </p> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td><span style="font-weight: normal;">Sie können den Objektnamen in der Workfront-Benutzeroberfläche anpassen</span> </td> 
-   <td>ms</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td><span style="font-weight: normal;">Sie können den Objektnamen in der Benutzeroberfläche von Workfront anpassen</span> </td> 
+   <td>✔</td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Sie können sie früheren Zielen hinzufügen.</td> 
-   <td>ms</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td>Sie können sie zu früheren Zielen hinzufügen.</td> 
+   <td>✔</td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr> 
   <tr> 
    <td>Sie können mehrere Ergebnisse, Aktivitäten oder Projekte mit demselben Ziel verknüpfen. </td> 
-   <td>ms</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td>✔</td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Sie können einen von ihnen mit mehreren Zielen verknüpfen.</td> 
+   <td>Sie können eines von ihnen mit mehreren Zielen verknüpfen.</td> 
    <td> </td> 
    <td> </td> 
-   <td>ms</td> 
+   <td>✔</td> 
   </tr> 
   <tr> 
    <td>Ihr Fortschritt wird bei der Berechnung des Zielfortschritts berücksichtigt. </td> 
-   <td>ms</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td>✔</td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Sie müssen manuell in den Workfront-Zielen aktualisiert werden</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td>Sie müssen in den Workfront-Zielen manuell aktualisiert werden</td> 
+   <td>✔</td> 
+   <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Sie müssen am Enddatum des Ziels abgeschlossen sein.</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td>Sie sollen am Enddatum des Ziels abgeschlossen sein</td> 
+   <td>✔</td> 
+   <td>✔</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Sie können nur einem Benutzer und nicht einem Team, einer Gruppe oder dem Unternehmen zugewiesen werden. </td> 
-   <td>ms</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td>✔</td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Sie sind spezifisch und messbar und enthalten in der Regel festgelegte Zahlen, die ihren Fortschritt anzeigen. </td> 
-   <td>ms</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td>Sie sind spezifisch und messbar und enthalten in der Regel eine Reihe von Zahlen, die ihren Fortschritt anzeigen. </td> 
+   <td>✔</td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr> 
   <tr> 
-   <td>Sie bieten einen Wertebereich zwischen dem Start- und dem Endwert, der zeigt, wie nah Sie an der Erreichung dieser Werte sind. Die Nähe zum Endwert berechnet einen Fortschrittswert für Ihr Ziel. </td> 
-   <td>ms</td> 
-   <td>ms</td> 
-   <td>ms</td> 
+   <td>Sie bieten eine Reihe von Werten zwischen den Start- und Endwerten, die veranschaulichen, wie nahe Sie am Erreichen sind. Die Nähe zum Endwert berechnet einen Fortschrittswert für Ihr Ziel. </td> 
+   <td>✔</td> 
+   <td>✔</td> 
+   <td>✔</td> 
   </tr> 
  </tbody> 
 </table>

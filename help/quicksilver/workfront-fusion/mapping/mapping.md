@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
-title: Zuordnung in Adobe Workfront Fusion
+title: Zuordnen in Adobe Workfront Fusion
 description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 author: Becky
 feature: Workfront Fusion
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 ---
 
-# Zuordnung in Adobe Workfront Fusion
+# Zuordnen in Adobe Workfront Fusion
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
+>[!DNL Adobe Workfront Fusion] benötigt zusätzlich zu einer [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion].
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Ordnen Sie Informationen von einem Modul zum anderen in [!DNL Adobe Workfront Fusion] zu.](../../workfront-fusion/mapping/map-information-between-modules.md)
-* [Über die Zuordnung von Dateien in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
-* [Elementdatentypen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
-* [Zuordnen eines Arrays in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
-* [Typerzwingung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)
+* [Zuordnen von Informationen von einem Modul zu einem anderen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md)
+* [Informationen zum Zuordnen von Dateien in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/about-mapping-files.md)
+* [Elementdatentypen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+* [Zuordnen eines Arrays in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-an-array.md)
+* [Nötigung eingeben in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md)

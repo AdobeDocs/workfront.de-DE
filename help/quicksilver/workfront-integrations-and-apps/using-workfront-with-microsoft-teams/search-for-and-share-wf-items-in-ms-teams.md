@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;agile-and-teams;user-management
 navigation-topic: workfront-for-microsoft-teams
-title: Suchen nach und teilen Sie [!DNL Adobe Workfront] Elemente in [!DNL Microsoft Teams].
-description: Sie können in  [!DNL Microsoft Teams]  in einem beliebigen [!DNL Adobe WorkfrontWorkfront] Kanal nach [!DNL Workfront] Elementen suchen und diese Elemente für Mitglieder Ihrer Teams freigeben.
+title: Nach Elementen  [!DNL Adobe Workfront]  und diese freigeben in [!DNL Microsoft Teams]
+description: Sie können in  [!DNL Workfront]  beliebigen  [!DNL Adobe WorkfrontWorkfront]  nach Elementen suchen  [!DNL Microsoft Teams]  diese Elemente für Mitglieder Ihrer Teams freigeben.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
@@ -13,16 +13,16 @@ ht-degree: 0%
 
 ---
 
-# Suchen nach und teilen Sie [!DNL Adobe Workfront]-Elementen in [!DNL Microsoft Teams].
+# Suchen nach und Freigeben von [!DNL Adobe Workfront] in [!DNL Microsoft Teams]
 
 >[!NOTE]
 >
->Die Adobe Workfront für Microsoft Teams-Integration wird derzeit nur für das klassische Microsoft Teams-Erlebnis unterstützt.
+>Die Integration von Adobe Workfront for Microsoft Teams wird derzeit nur für das klassische Microsoft Teams-Erlebnis unterstützt.
 
-Sie können in einem beliebigen [!DNL Adobe Workfront] -Kanal in [!DNL Microsoft Teams] nach [!DNL Workfront] Elementen suchen und diese Elemente für Mitglieder Ihrer Teams freigeben.
+Sie können in [!DNL Microsoft Teams] in jedem [!DNL Adobe Workfront] nach [!DNL Workfront] Elementen suchen und diese Elemente für Mitglieder Ihrer Teams freigeben.
 
-* [Voraussetzungen für die Freigabe von [!DNL Workfront] Elementen in [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
-* [Suchen nach und teilen Sie [!DNL Workfront] Elemente in [!DNL Microsoft Teams].](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
+* [Voraussetzungen für die Freigabe  [!DNL Workfront]  Elemente in [!DNL Microsoft Teams]](#prerequisites-for-sharing-workfront-items-in-microsoft-teams-prerequisites-for-sharing-workfront-items-in-microsoft-teams)
+* [Nach Elementen  [!DNL Workfront]  und diese freigeben in [!DNL Microsoft Teams]](#search-for-and-share-adobe-workfront-items-in-microsoft-teams)
 
 ## Zugriffsanforderungen
 
@@ -33,35 +33,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Work], [!UICONTROL Plan]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL Arbeit], [!UICONTROL Plan]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Voraussetzungen für die Freigabe von [!DNL Workfront] Elementen in [!DNL Microsoft Teams] {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
+## Voraussetzungen für die Freigabe [!DNL Workfront] Elemente in [!DNL Microsoft Teams] {#prerequisites-for-sharing-workfront-items-in-microsoft-teams}
 
-Sie können in [!DNL Microsoft Teams] nach [!DNL Workfront] Elementen suchen und diese freigeben, wenn die folgenden Bedingungen erfüllt sind:
+Sie können in nach [!DNL Workfront] Elementen suchen und diese freigeben[!DNL Microsoft Teams] wenn die folgenden Bedingungen erfüllt sind:
 
-* Ein Teaminhaber hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
-* Sie werden von [!UICONTROL Microsoft Teams] bei [!DNL Workfront] angemeldet.
+* Ein Teambesitzer hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
+* Sie sind bei [!DNL Workfront] von [!UICONTROL Microsoft Teams ] angemeldet.
 
-Informationen zum Installieren von [!UICONTROL Workfront für Microsoft Teams] und zum Anmelden bei [!UICONTROL Workfront] von [!DNL Microsoft Teams] finden Sie unter [Adobe Workfront für Microsoft Teams installieren](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Informationen zum Installieren von [!UICONTROL Workfront für Microsoft Teams ] zum Anmelden bei [!UICONTROL Workfront] von [!DNL Microsoft Teams] finden Sie unter [Installieren von Adobe Workfront für Microsoft Teams ](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >
->[!DNL Microsoft Teams] unterstützt [!DNL Internet Explorer] nicht mehr. Um den [!DNL Adobe Workfront for Microsoft Teams integration] zu verwenden, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer] verwenden.
+>[!DNL Microsoft Teams] unterstützt [!DNL Internet Explorer] nicht mehr. Um die [!DNL Adobe Workfront for Microsoft Teams integration] verwenden zu können, müssen Sie einen anderen Webbrowser als [!DNL Internet Explorer] verwenden.
 
 
-## Suchen nach und teilen Sie [!DNL Workfront]-Elementen in [!DNL Microsoft Teams]. {#search-for-and-share-workfront-items-in-microsoft-teams}
+## Suchen nach und Freigeben von [!DNL Workfront] in [!DNL Microsoft Teams] {#search-for-and-share-workfront-items-in-microsoft-teams}
 
-Sie können in einem [!DNL Microsoft Teams] -Kanal nach den folgenden [!DNL Workfront] -Elementen suchen:
+Sie können in einem [!DNL Microsoft Teams]-Kanal nach den folgenden [!DNL Workfront] suchen:
 
 * Projekte
 * Aufgaben
@@ -72,31 +72,31 @@ Sie können in einem [!DNL Microsoft Teams] -Kanal nach den folgenden [!DNL Work
 
 * Probleme
 
-Nachdem Sie die gesuchten Elemente gefunden haben, können Sie sie mit anderen Benutzern in [!DNL Microsoft Teams] teilen.
+Nachdem Sie die gesuchten Elemente gefunden haben, können Sie sie für andere Benutzer in [!DNL Microsoft Teams] freigeben.
 
-So suchen Sie nach einem [!DNL Workfront] -Element aus [!DNL Microsoft Teams] und geben es für andere frei:
+So suchen Sie in [!DNL Microsoft Teams] nach einem [!DNL Workfront] Element und geben es für andere frei:
 
-1. Wechseln Sie in [!DNL Microsoft Teams] zu einem beliebigen Chat-Kanal und klicken Sie auf das Symbol **[!DNL Workfront]** .
-1. Suchen Sie nach dem Element [!DNL Workfront] , indem Sie einen der folgenden Schritte ausführen:
+1. Wechseln Sie [!DNL Microsoft Teams] zu einem beliebigen Chat-Kanal und klicken Sie auf das Symbol **[!DNL Workfront]** .
+1. Suchen Sie anhand der folgenden Schritte nach dem [!DNL Workfront]:
 
-   * Klicken Sie auf das Symbol [!DNL Workfront] unter dem Konversationsfeld.\
+   * Klicken Sie auf das Symbol [!DNL Workfront] unter dem Feld Konversation.\
 
      ![ms_teams_workfront_pinned_icon_highlight.png](assets/ms-teams-workfront-pinned-icon-highlight-350x69.png)\
-      Abhängig von Ihren Einstellungen wird dieses Symbol möglicherweise stattdessen unter dem Symbol **[!UICONTROL Mehr]** angezeigt.\
+      Je nach Ihren Einstellungen wird dieses Symbol möglicherweise stattdessen unter dem Symbol **[!UICONTROL Mehr]** angezeigt.\
       ![more_icon.png](assets/more-icon-52x34.png)\
-      Das Feld **[!UICONTROL Suche]** wird standardmäßig angezeigt.
+      Das **[!UICONTROL Suche]** wird standardmäßig angezeigt.
 
-   * Geben Sie *@[!DNL Workfront]* aus einem beliebigen Kanal ein, wählen Sie Workfront und dann **[!UICONTROL Suchen].**
+   * Geben Sie *@[!DNL Workfront]* aus einem beliebigen Kanal ein, wählen Sie Workfront und dann **[!UICONTROL Suche] aus**
 
      ![ms_teams_search_from_command.png](assets/ms-teams-search-from-command-350x74.png)
 
-1. Geben Sie in das Feld [!UICONTROL search] den Namen oder die Referenznummer eines Projekts, einer Aufgabe oder eines Problems ein und klicken Sie auf dieses, wenn es in der Liste angezeigt wird.\
+1. Geben [!UICONTROL  in das ] „Suchen“ den Namen oder die Referenznummer eines Projekts, einer Aufgabe oder eines Problems ein und klicken Sie darauf, wenn es in der Liste angezeigt wird.\
    ![ms_teams_searching_for_items.png](assets/ms-teams-searching-for-items-350x359.png)\
-   Dadurch wird eine Karte mit dem Element [!DNL Workfront] im Chat-Feld hinzugefügt. Einige Informationen zum Element sind auf der Karte enthalten, darunter der Name des Elements, das übergeordnete Objekt, Status, Priorität, Prozentsatz der Fertigstellung.
+   Dadurch wird eine Karte mit dem [!DNL Workfront] Element im Chat-Feld hinzugefügt. Einige Informationen zum Element sind auf der Karte enthalten, einschließlich Name des Elements, übergeordnetes Objekt, Status, Priorität, Prozent abgeschlossen.
 
-1. (Optional) Fügen Sie unter der Karte [!DNL Workfront] einen Kommentar hinzu, klicken Sie dann auf **[!UICONTROL Senden]** oder drücken Sie die Eingabetaste.\
-   Dadurch wird die Nachricht einschließlich des Elements [!DNL Workfront] an Ihren Kanal gesendet.\
-   Alle Mitglieder des Kanals können diese Nachricht sehen, einschließlich der Informationen auf der Karte [!DNL Workfront] .
+1. (Optional) Fügen Sie einen Kommentar unter der [!DNL Workfront] hinzu und klicken Sie dann auf **[!UICONTROL Senden]** oder drücken Sie die Eingabetaste.\
+   Dadurch wird die Nachricht mit dem [!DNL Workfront] Element an Ihren Kanal gesendet.\
+   Alle Mitglieder des Kanals können diese Nachricht sehen, einschließlich der Informationen auf der [!DNL Workfront].
 
-1. Klicken Sie auf **[!UICONTROL In Workfront anzeigen]** , um das Element in [!DNL Workfront] anzuzeigen.\
-   Nur Benutzer mit einer [!DNL Workfront] -Lizenz können ein Element in [!DNL Workfront] anzeigen.
+1. Klicken Sie **[!UICONTROL In Workfront anzeigen]**, um das Element in [!DNL Workfront] anzuzeigen.\
+   Nur Benutzer mit einer [!DNL Workfront] können ein Element in [!DNL Workfront] anzeigen.

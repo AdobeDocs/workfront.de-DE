@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: workfront-proof-navigation-topic
-title: Übersicht über Testbenachrichtigungen und Erinnerungen
-description: Erfahren Sie mehr über Benachrichtigungen und Erinnerungen bei Testsendungen.
+title: Korrekturabzugs-Benachrichtigungen und Erinnerungen - Übersicht
+description: Erfahren Sie mehr über Benachrichtigungen und Erinnerungen zu Korrekturabzügen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ---
 
-# Benachrichtigungen und Erinnerungen an Testsendungen
+# Proof-Benachrichtigungen und -Erinnerungen
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Vermeiden von Spam-Filtern](../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
+* [Spam-Filter vermeiden](../../workfront-proof/wp-emailsntfctns/avoiding-spam-filters/avoid-spam-filters.md)
 * [E-Mail-Warnungen](../../workfront-proof/wp-emailsntfctns/email-alerts/email-alerts.md)
-* [Nachrichten an Validierungsverantwortliche senden](../../workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
-* [Benachrichtigungen und Erinnerungen an Testsendungen](../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)
+* [Senden von Nachrichten an Validierungsverantwortliche](../../workfront-proof/wp-emailsntfctns/messaging-reviewers/send-messages-to-reviewers.md)
+* [Proof-Benachrichtigungen und -Erinnerungen](../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-notifications-and-reminders.md)

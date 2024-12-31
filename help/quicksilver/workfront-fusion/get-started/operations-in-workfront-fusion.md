@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Betrieb in Adobe Workfront Fusion
-description: Ein Vorgang in Adobe Workfront Fusion ist eine Aufgabe, die von einem Modul ausgeführt wird. Zu Tracking-Zwecken ist jede von einem Modul ausgeführte erfolgreiche Aktion ein Vorgang.
+description: Ein Vorgang in Adobe Workfront Fusion ist eine Aufgabe, die von einem Modul ausgeführt wird. Zu Tracking-Zwecken ist jede erfolgreiche Aktion, die von einem Modul ausgeführt wird, ein Vorgang.
 author: Becky
 feature: Workfront Fusion
 exl-id: 34268fb6-e485-42be-b751-3ee79bbf5797
@@ -17,38 +17,38 @@ ht-degree: 0%
 
 # Vorgänge in [!DNL Adobe Workfront Fusion]
 
-Ein Vorgang in [!DNL Adobe Workfront Fusion] ist eine Aufgabe, die von einem Modul ausgeführt wird. Zu Tracking-Zwecken ist jede von einem Modul ausgeführte erfolgreiche Aktion ein Vorgang.
+Ein Vorgang in [!DNL Adobe Workfront Fusion] ist eine Aufgabe, die von einem Modul ausgeführt wird. Zu Tracking-Zwecken ist jede erfolgreiche Aktion, die von einem Modul ausgeführt wird, ein Vorgang.
 
-## Erwägungen beim Zählen der Anzahl der Vorgänge
+## Überlegungen beim Zählen der Anzahl der Vorgänge
 
-* Im Allgemeinen gilt jede erfolgreiche Ausführung eines Aktionsschritts als Vorgang.
+* Im Allgemeinen wird jede erfolgreiche Ausführung von Aktionsschritten als Vorgang betrachtet.
 
-* Das erste Modul in einem Szenario wird nur einmal ausgeführt und immer als ein Vorgang gezählt, auch wenn es kein Bundle zurückgibt.
+* Das erste Modul in einem Szenario wird nur einmal ausgeführt und immer als ein Vorgang gezählt, auch wenn kein Bundle zurückgegeben wird.
 
-* Wie oft der Rest der Module ausgeführt wird, hängt von der Anzahl der Pakete ab, die verarbeitet werden müssen.  Eine Ausführung eines Moduls für ein Bundle ist ein Vorgang. Eine Ausnahme ist das Aggregatormodul, das pro verarbeiteten Bundle als ein Vorgang gezählt wird.
+* Wie oft die übrigen Module ausgeführt werden, hängt von der Anzahl der Bundles ab, die sie verarbeiten müssen.  Ein Durchgang eines Moduls für ein Bundle ist ein Vorgang. Eine Ausnahme bildet das Aggregator-Modul, das als ein Vorgang pro Satz von Bundles gezählt wird, die verarbeitet werden.
 
-* Vorgänge werden in der Phase [!UICONTROL Fertigstellung] der Ausführung eines Szenarios gezählt.
+* Vorgänge werden bei der [!UICONTROL Finalisierung] einer Szenarioausführung gezählt.
 
-* Die folgenden Vorgänge werden als **nicht** gezählt:
+* Folgende Vorgänge werden **nicht** gezählt:
 
    * Alle Filterschritte.
 
-   * Jede Aktion, die fehlerhaft oder angehalten wird.
+   * Jede Aktion, die einen Fehler verursacht oder angehalten wird.
 
-   * Jede Route, die nicht ausgeführt wird, weil die Regeln der Route nicht eingehalten wurden, z. B. Fallback oder deaktivierte Routen.
+   * Alle Routen, die nicht ausgeführt werden, weil die Regeln der Route nicht eingehalten wurden, z. B. Ausweich- oder deaktivierte Routen.
 
-   * Jede Aktion, die nicht ausgeführt wird, entweder weil ein Filter keine Daten zulässt oder weil das Szenario aufgrund eines Fehlers angehalten wurde.
+   * Jede Aktion, die nicht ausgeführt wird, entweder weil ein Filter keine Daten durchlässt oder weil das Szenario aufgrund eines Fehlers angehalten wurde.
 
-## Betriebsbeschränkungen
+## Limits für Operationen
 
-Ihr Unternehmen hat möglicherweise eine monatliche Betriebsgrenze. Dies basiert auf dem [!DNL Workfront] -Plan, den Ihr Unternehmen erworben hat. Der Plan [!UICONTROL Ultimate] [!DNL Workfront] bietet unbegrenzte Operationen.
+In Ihrem Unternehmen gibt es möglicherweise ein monatliches Betriebslimit. Dies basiert auf dem [!DNL Workfront], den Ihr Unternehmen erworben hat. Der [!UICONTROL Ultimate]-[!DNL Workfront] bietet unbegrenzte Operationen.
 
-Wenn Ihr Unternehmen eine monatliche Beschränkung hat, werden Sie benachrichtigt, wenn Sie sich dem Grenzwert nähern. Wenn Sie das Limit überschreiten, kontaktiert [!DNL Workfront] Ihre Organisation, um sicherzustellen, dass Ihr Plan Ihren Anforderungen entspricht.
+Wenn Ihr Unternehmen ein monatliches Limit hat, werden Sie benachrichtigt, wenn Sie sich dem Limit nähern. Wenn Sie das Limit überschreiten, wenden [!DNL Workfront] sich an Ihr Unternehmen, um sicherzustellen, dass Ihr Plan Ihren Anforderungen entspricht.
 
 ## Anzahl der in den letzten 30 Tagen durchgeführten Vorgänge anzeigen
 
-Sie können eine Grafik mit der Anzahl der durchgeführten Vorgänge sehen. Diese Diagramme sind an den folgenden Orten verfügbar:
+Sie können ein Diagramm sehen, das die Anzahl der ausgeführten Vorgänge anzeigt. Diese Diagramme sind an den folgenden Speicherorten verfügbar:
 
-* **Organisations-Dashboard**: Vorgänge, die von der gesamten Organisation verwendet werden
-* **Team-Dashboard**: Vorgänge, die von Szenarien verwendet werden, die diesem Team gehören ([!DNL Adobe Experience Cloud] nur)
-* **Seite mit Details zum Szenario**: Von diesem Szenario verwendete Vorgänge ([!DNL Adobe Experience Cloud] nur)
+* **Organisations-Dashboard**: Von der gesamten Organisation verwendete Vorgänge
+* **Team-Dashboard**: Vorgänge, die von Szenarien verwendet werden, die diesem Team gehören (nur [!DNL Adobe Experience Cloud])
+* **Seite mit Szenario**: Von diesem Szenario verwendete Vorgänge (nur [!DNL Adobe Experience Cloud])

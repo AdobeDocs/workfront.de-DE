@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
-title: Basecamp
-description: Erfahren Sie mehr über die Integration mit Basecamp.
+title: Basislager
+description: Weitere Informationen zur Integration mit Basecamp.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 ---
 
-# Basecamp
+# Basislager
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Hinzufügen eines Testversands zu einem [!DNL Basecamp] Projekt](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
-* [Integrieren von [!DNL Workfront Proof] mit [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
-* [Testversand in [!DNL Basecamp] überprüfen](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
-* [Grundlegendes zur [!DNL Basecamp] Integration mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)
+* [Hinzufügen eines Korrekturabzugs zu einem  [!DNL Basecamp] ](../../../workfront-proof/wp-integrations/basecamp/add-proof-to-basecamp-project.md)
+* [Integrieren  [!DNL Workfront Proof] mit [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/integrate-workfront-proof-with-basecamp.md)
+* [Überprüfen eines Korrekturabzugs in [!DNL Basecamp]](../../../workfront-proof/wp-integrations/basecamp/review-proof-basecamp.md)
+* [Grundlegendes zur  [!DNL Basecamp]  von  [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/basecamp/basecamp-integration-overview.md)

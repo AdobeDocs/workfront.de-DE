@@ -1,7 +1,7 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Entfernen der Zielausrichtung in Adobe Workfront-Zielen
+title: Zielausrichtung in Adobe Workfront Goals entfernen
 description: Sie können die Ausrichtung zwischen zwei Zielen entfernen, wenn es nicht mehr sinnvoll ist, sie miteinander zu verbinden.
 author: Alina
 feature: Workfront Goals
@@ -13,14 +13,14 @@ ht-degree: 1%
 
 ---
 
-# Entfernen der Zielausrichtung in Adobe Workfront-Zielen
+# Zielausrichtung in Adobe Workfront Goals entfernen
 
 Sie können die Ausrichtung zwischen zwei Zielen entfernen, wenn es nicht mehr sinnvoll ist, sie miteinander zu verbinden.
 
 Informationen zum Ausrichten von Zielen finden Sie in den folgenden Artikeln:
 
-* [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
-* [Ziele durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
+* [Ziele ausrichten, indem Sie sie in Adobe Workfront Goals miteinander verbinden](../../workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
+* [Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
 
 ## Zugriffsanforderungen
 
@@ -33,28 +33,28 @@ Sie müssen über Folgendes verfügen:
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront-Abo</td>
+ <td role="rowheader">Adobe Workfront-Plan</td>
  <td>
- <p>Alle</p>
+ <p>Beliebig</p>
 
 </td>
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene</td>
@@ -63,33 +63,33 @@ Sie müssen über Folgendes verfügen:
  <tr data-mc-conditions="">
  <td role="rowheader">Objektberechtigungen</td>
  <td>
-  <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-  <p>Berechtigungen für das Ziel verwalten</p>
-  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+  <p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+  <p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </td>
  </tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
 Sie müssen über Folgendes verfügen, bevor Sie beginnen können:
 
-* Ein übergeordnetes Ziel, dem mindestens ein untergeordnetes Ziel zugeordnet ist. Kinderziele sind die Fortschrittsindikatoren des Ziels.
+* Ein übergeordnetes Ziel, dem mindestens ein untergeordnetes Ziel zugeordnet ist. Untergeordnete Ziele sind die Fortschrittsindikatoren des Ziels.
 
 ## Überlegungen zum Entfernen der Zielausrichtung
 
 Beachten Sie Folgendes, wenn Sie die Ausrichtung zwischen zwei Zielen entfernen:
 
 * Dem übergeordneten Ziel muss ein anderes Ziel, eine andere Aktivität oder ein anderes Ergebnis zugeordnet sein, damit es aktiv bleiben kann.
-* Sie können ein ausgerichtetes untergeordnetes Ziel nicht aus einem übergeordneten Ziel entfernen, wenn es der einzige Fortschrittsindikator des übergeordneten Ziels ist.
-* Das untergeordnete Ziel wird zum eigenständigen Ziel, wenn Sie die Ausrichtung zum übergeordneten Ziel entfernen.
+* Sie können ein angepasstes untergeordnetes Ziel nicht aus einem übergeordneten Ziel entfernen, wenn dies der einzige Fortschrittsindikator des übergeordneten Ziels ist.
+* Das untergeordnete Ziel wird zu einem eigenständigen Ziel, wenn Sie dessen Ausrichtung am übergeordneten Ziel entfernen.
 
 ## Entfernen der Zielausrichtung
 
@@ -114,17 +114,17 @@ Removing goal alignment differs depending on which environment you use.
    * [Add results to goals in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-results-to-goals.md)
 -->
 
-1. Rufen Sie den Bereich **Ziele** in Workfront auf und klicken Sie auf den Namen eines Ziels, um die Zielseite zu öffnen.
-1. Klicken Sie auf der Seite des Ziels eines übergeordneten Ziels im linken Bereich auf **Fortschrittsanzeigen** .
+1. Rufen Sie den **Ziele** in Workfront auf und klicken Sie auf den Namen eines Ziels, um die Zielseite zu öffnen.
+1. Klicken Sie auf der Zielseite eines übergeordneten Ziels im linken Bereich **Fortschrittsanzeigen**.
 
    ![](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. Wählen Sie in der Gruppierung **Typ: Ziel** ein Ziel aus und klicken Sie dann oben in der Liste auf das Symbol **Trennen** ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) .
+1. Wählen **in der Gruppierung Typ: Ziel** ein Ziel aus und klicken Sie dann oben in der Liste ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) auf das Symbol **Trennen** .
 
-   Das Feld Verbindung trennen wird angezeigt.
+   Das Dialogfeld Trennen wird angezeigt.
 
-1. Klicken Sie auf **Trennen** , um das ausgewählte Ziel von seinem übergeordneten Ziel zu trennen.
+1. Klicken Sie **Trennen**, um das ausgewählte Ziel vom übergeordneten Ziel zu trennen.
 
-   Das Ziel wird zu einem eigenständigen Ziel und wird nicht mehr als Fortschrittsanzeige des ursprünglichen Ziels aufgeführt. Der Fortschritt des nicht verbundenen Ziels beeinflusst nicht mehr den Fortschritt des ursprünglichen Ziels.
+   Das Ziel wird zu einem eigenständigen Ziel und wird nicht mehr als Fortschrittsindikator für das ursprüngliche Ziel aufgeführt. Der Fortschritt des getrennten Ziels beeinflusst den Fortschritt des ursprünglichen Ziels nicht mehr.
 
-   In der rechten oberen Ecke der Seite wird eine Erfolgsmeldung angezeigt, um zu bestätigen, dass die Verbindung zum Ziel getrennt wurde.
+   Eine Erfolgsmeldung wird oben rechts auf der Seite angezeigt, die bestätigt, dass die Verbindung zum Ziel getrennt wurde.

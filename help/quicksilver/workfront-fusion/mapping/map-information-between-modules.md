@@ -2,7 +2,7 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
-title: Ordnen Sie Informationen von einem Modul zum anderen in [!DNL Adobe Workfront Fusion] zu.
+title: Zuordnen von Informationen von einem Modul zu einem anderen in [!DNL Adobe Workfront Fusion]
 description: Bei der Zuordnung werden die Ausgaben eines Moduls, strukturiert in Elemente, den Eingabefeldern eines anderen Moduls zugewiesen.
 author: Becky
 feature: Workfront Fusion
@@ -14,134 +14,134 @@ ht-degree: 0%
 
 ---
 
-# Informationen von einem Modul in [!DNL Adobe Workfront Fusion] einem anderen zuordnen
+# Zuordnen von Informationen von einem Modul zu einem anderen in [!DNL Adobe Workfront Fusion]
 
 Bei der Zuordnung werden die Ausgaben eines Moduls, strukturiert in Elemente, den Eingabefeldern eines anderen Moduls zugewiesen.
 
-Das Zuordnungsbedienfeld wird angezeigt, wenn Sie auf ein Feld klicken, in das Sie einen aus einem vorherigen Modul ausgegebenen Wert in ein Szenario einfügen möchten. Innerhalb eines Moduls können Sie in jedem Feld, das für die Zuordnung verfügbar ist, eine Formel erstellen, indem Sie eine beliebige Kombination von Funktionen und zugeordneten Elementen aus dem Zuordnungsbereich mit statischem Text verwenden, den Sie eingeben. Diese Elemente können ineinander verschachtelt werden.
+Das Zuordnungsbedienfeld wird angezeigt, wenn Sie auf ein Feld klicken, in das Sie einen Wert einfügen möchten, der von einem vorherigen Modul in einem Szenario ausgegeben wurde. Innerhalb eines Moduls können Sie in jedem Feld, das für die Zuordnung verfügbar ist, eine Formel erstellen, indem Sie eine beliebige Kombination aus Funktionen und zugeordneten Elementen aus dem Zuordnungsbereich mit von Ihnen eingegebenem statischem Text verwenden. Diese Elemente können ineinander geschachtelt werden.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+    <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] Lizenz**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Bundles und Artikel
+## Bundles und Elemente
 
-Der Betrieb eines Moduls erzeugt null, eins oder mehrere Pakete als Ausgabe. Ein Bundle besteht aus einem oder mehreren Elementen.
+Der Betrieb eines Moduls erzeugt null, ein oder mehrere Bundles als Ausgabe. Ein Bundle besteht aus einem oder mehreren Elementen.
 
 So untersuchen Sie die Ausgabe eines Moduls:
 
-1. Klicken Sie auf **[!UICONTROL Einmal ausführen]** , um das Modul auszuführen.
+1. Klicken Sie auf **[!UICONTROL Einmal ausführen]**, um das Modul auszuführen.
 1. Klicken Sie auf die Blase über dem Modul.
 
-   Ein Protokoll mit allen Modulphasen wird angezeigt. Sie finden das von der Betriebsphase eines Moduls ausgegebene Bundle oder Bundles unter der Überschrift **[!UICONTROL Ausgabe]** . Jedes Bundle enthält seine Elemente und die Werte jedes Elements.
+   Ein Protokoll mit allen Modulphasen wird angezeigt. Die von der Betriebsphase eines Moduls ausgegebenen Bundles finden Sie unter der Überschrift **[!UICONTROL Ausgabe]**. Jedes Bundle enthält seine Elemente und die Werte jedes Elements.
 
 >[!INFO]
 >
->**Beispiel:** Dieses Beispiel zeigt das Modul [!UICONTROL E-Mail] > [!UICONTROL E-Mails ansehen]. Sie können sehen, dass es einen Vorgang ausgeführt hat, der ein einzelnes Bundle generiert hat, das verschiedene Elemente wie `Date`, `Email ID (UID)`, `size` usw. enthält.
+>**Beispiel:** Dieses Beispiel zeigt das Modul [!UICONTROL E-] > [!UICONTROL E-Mails ansehen]. Sie können sehen, dass 1 Vorgang ausgeführt wurde, bei dem ein einzelnes Bundle erstellt wurde, das verschiedene Elemente wie `Date`, `Email ID (UID)`, `size` usw. enthält.
 >
 >![](assets/watch-emails-350x298.png)
 
 >[!NOTE]
 >
->Die Ausgaben aus Modulen, die zwischen einem [!UICONTROL Iterator] und [!UICONTROL Aggregator] eingeschlossen sind, sind über das Modul [!UICONTROL Aggregator] hinaus nicht zugänglich.
+>Die Ausgaben von Modulen, die zwischen einem [!UICONTROL Iterator] und [!UICONTROL Aggregator] umschlossen sind, sind über das Modul [!UICONTROL Aggregator] hinaus nicht zugänglich.
 
-## Element zuordnen
+## Zuordnen eines Elements
 
-Nachdem Sie eine Folge von Modulen erstellt haben, indem Sie zwei oder mehr von ihnen verknüpft haben, kann jedes Modul Werte von Elementen verarbeiten, die von den davor stehenden Modulen ausgegeben werden.
+Nachdem Sie eine Sequenz von Modulen erstellt haben, indem Sie zwei oder mehr von ihnen verknüpft haben, kann jedes Modul Werte von Elementen verarbeiten, die von den Modulen ausgegeben werden, die ihm vorausgehen.
 
 So weisen Sie die Elemente den Eingabefeldern eines Moduls zu:
 
-1. Klicken Sie auf das Modul, das die Ausgabe des vorherigen Moduls bzw. der vorherigen Module verarbeiten soll.
-1. Klicken Sie im angezeigten Bedienfeld Moduleinstellungen auf ein Feld, in dem Sie den Wert eines Elements verwenden möchten, das aus einem oder mehreren vorhergehenden Modul(en) ausgegeben wurde.
+1. Klicken Sie auf das Modul, das die Ausgabe des oder der vorhergehenden Module verarbeiten soll(en).
+1. Klicken Sie im angezeigten Bedienfeld Moduleinstellungen auf ein Feld, in dem Sie den Wert eines Elements verwenden möchten, das von einem oder mehreren vorhergehenden Modulen ausgegeben wurde.
 
-   Das Zuordnungsfenster wird geöffnet.
+   Das Zuordnungsbedienfeld wird geöffnet.
 
 1. Klicken Sie auf ein Element im Zuordnungsbereich, um es in das Feld einzufügen.
-1. (Optional) Um im Zuordnungsbereich nach einem bestimmten Feld zu suchen, klicken Sie auf die Suchleiste des Zuordnungsbereichs und geben Sie den Begriff ein, nach dem Sie suchen möchten. Klicken Sie auf das Feld, wenn es in der Liste angezeigt wird.
+1. (Optional) Um nach einem bestimmten Feld im Zuordnungsbereich zu suchen, klicken Sie auf die Suchleiste des Zuordnungsbereichs und geben Sie den Begriff ein, nach dem Sie suchen möchten. Klicken Sie auf das Feld, wenn es in der Liste angezeigt wird.
 
    Suchergebnisse enthalten den Suchbegriff und unterscheiden nicht zwischen Groß- und Kleinschreibung.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen eines Moduls in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
+Weitere Informationen finden Sie [Konfigurieren der Moduleinstellungen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/configure-a-modules-settings.md).
 
 ## Formeln
 
-Sie können mehrere Elemente in einem Feld zuordnen, sie mit Literalen (festen Werten) kombinieren und mithilfe von Operatoren und Funktionen komplexe Formeln erstellen:
+Sie können einem Feld mehrere Elemente zuordnen, sie mit Literalen (festen Werten) kombinieren und Operatoren und Funktionen verwenden, um komplexe Formeln zu erstellen:
 
 ![](assets/operators-and-functions.png)
 
-Die Funktionen und Operatoren finden Sie im Zuordnungsfenster unter einem seiner Registerkarten.
+Die Funktionen und Operatoren finden Sie im Bedienfeld Zuordnung auf einer der Registerkarten.
 
 ![](assets/functions-toolbar-350x189.png)
 
-Auf der ersten Registerkarte ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (die beim Öffnen des Bedienfelds angezeigt wird) werden die Elemente angezeigt, die Sie aus anderen Modulen zuordnen können.
+Die erste ![](assets/toolbar-icon-functions-you-map-from-other-modules.png) (die beim Öffnen des Bedienfelds angezeigt wird) zeigt die Elemente an, die Sie aus anderen Modulen zuordnen können.
 
-Die anderen Registerkarten enthalten die folgenden Funktionstypen:
+Die anderen Registerkarten enthalten die folgenden Arten von Funktionen:
 
-* **Allgemeine Funktionen** ![](assets/toolbar-icon-general-function.png) - Weitere Informationen finden Sie unter [Allgemeine Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md) .
+* **Allgemeine Funktionen** ![](assets/toolbar-icon-general-function.png) - Weitere Informationen finden [Allgemeine Funktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
 
-* **Math-Funktionen** ![](assets/toolbar-icon-math-functions.png) - Weitere Informationen finden Sie unter [Math-Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md) .
+* **Mathematische Funktionen** ![](assets/toolbar-icon-math-functions.png) - Weitere Informationen finden Sie [Mathematische Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md).
 
-* **Text- und Binärfunktionen** ![](assets/toolbar-icon-text&binary-functions.png) - Weitere Informationen finden Sie unter [Zeichenfolgenfunktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md) .
+* **Text- und Binärfunktionen** ![](assets/toolbar-icon-text&binary-functions.png) - Weitere Informationen finden Sie unter [Zeichenfolgenfunktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md).
 
-* **Datum und Uhrzeit** ![](assets/toolbar-icon-date&time-functions.png) - Weitere Informationen finden Sie unter [Datums- und Uhrzeitfunktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) und in den unten stehenden Artikeln.
+* **Datum und Uhrzeit** ![](assets/toolbar-icon-date&time-functions.png) - Weitere Informationen finden Sie [Datums- und  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md) in und in den folgenden Artikeln.
 
-   * [Token für die Datums- und Uhrzeitformatierung in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-   * [Token für Datums- und Uhrzeitanalyse in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+   * [Token zur Formatierung von Datum und Uhrzeit in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+   * [Token zum Analysieren von Datum und Uhrzeit in Adobe Workfront Fusion](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
 
-* **Funktionen für die Arbeit mit Arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - Weitere Informationen finden Sie unter [Array-Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md) .
+* **Funktionen für die Arbeit mit Arrays** ![](assets/toolbar-icon-functions-for-arrays.png) - Weitere Informationen finden Sie unter [Array [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md)Funktionen in.
 
 >[!TIP]
 >
->Wenn Sie eine komplexe Formel erstellen, die Sie in einem anderen Feld wiederverwenden möchten, können Sie auf das Feld klicken, das die Kombination enthält, die Kombination mit Befehl-A oder Strg-A auswählen und sie dann kopieren und in das andere Feld einfügen.
+>Wenn Sie eine komplexe Formel erstellen, die Sie in einem anderen Feld wiederverwenden möchten, können Sie auf das Feld klicken, das die Kombination enthält, sie mit Befehl A oder Strg-A auswählen und dann kopieren und in das andere Feld einfügen.
 
-Weitere Informationen zum Zuordnen von Elementen mithilfe von Funktionen finden Sie unter [Elemente mithilfe von Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md) zuordnen.
+Weitere Informationen zum Zuordnen von Elementen mithilfe von Funktionen finden Sie unter [Zuordnen von Elementen mithilfe von Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md).
 
 ## Sammlungen
 
-Einige Elemente können mehrere Werte verschiedener Typen enthalten. Dies sind Sammlungstypelemente.
+Einige Elemente können mehrere Werte verschiedener Typen enthalten. Hierbei handelt es sich um Sammlungstyp-Elemente.
 
-Sie können ein Element vom Typ [!UICONTROL Sammlung] anhand des kleinen schwarzen Rechtecks identifizieren, das rechts neben dem Titel des Elements und seiner automatisch erweiterten Liste von Unterelementen angezeigt wird:
+Ein Element vom Typ [!UICONTROL Sammlung] können Sie anhand des kleinen schwarzen Rechtecks rechts neben der Beschriftung des Elements und seiner automatisch erweiterten Liste von Unterelementen identifizieren:
 
 ![](assets/collection.png)
 
 >[!NOTE]
 >
->In den meisten Fällen ordnen Sie die Unterelemente der Sammlung anstelle des Elements an, das die gesamte Sammlung darstellt.
+>In den meisten Fällen ordnen Sie die Unterelemente der Sammlung zu, anstatt das Element, das die gesamte Sammlung darstellt.
 
 Weitere Informationen zu Sammlungen finden Sie unter [Elementdatentypen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
@@ -149,31 +149,31 @@ Weitere Informationen zu Sammlungen finden Sie unter [Elementdatentypen in [!UIC
 
 Einige Elemente können mehrere Elemente desselben Typs enthalten. Dies sind Elemente vom Typ Array.
 
-Sie können ein Element vom Typ Array anhand der eckigen Klammern am Ende der Bezeichnung des Elements identifizieren. Klicken Sie auf das kleine schwarze Rechteck rechts neben dem Titel des Elements, um die Elemente anzuzeigen:
+Ein Element vom Typ Array kann durch die eckigen Klammern am Ende der Beschriftung des Elements identifiziert werden. Klicken Sie auf das kleine schwarze Rechteck rechts neben der Beschriftung des Elements, um die Elemente des Elements anzuzeigen:
 
 ![](assets/array.png)
 
-Weitere Informationen zu Arrays finden Sie unter [Elementdatentypen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
+Weitere Informationen zu Arrays finden Sie unter [Elementdatentypen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md)
 
 ### Zuordnen des ersten Elements eines Arrays
 
-Wenn Sie das Element &quot;`Recipient name`&quot;eines Arrays zuordnen, wird es im Feld wie folgt angezeigt:
+Wenn Sie das `Recipient name` eines Arrays zuordnen, wird es wie folgt im Feld angezeigt:
 
 ![](assets/map-array-1st-element.png)
 
-Die Zahl in den eckigen Klammern ist ein Index, der bestimmt, welches Element des Arrays verwendet wird. Er ist standardmäßig auf 1 gesetzt.
+Die Zahl in den eckigen Klammern ist ein Index, der bestimmt, welches Element des Arrays verwendet wird. Standardmäßig ist dieser Wert auf 1 festgelegt.
 
-### n-tes Element eines Arrays zuordnen
+### Zuordnen des n-ten Elements eines Arrays
 
 Wenn Sie auf ein anderes Element zugreifen möchten, klicken Sie auf die eckigen Klammern und bearbeiten Sie den Indexwert:
 
 ![](assets/access-another-element.png)
 
-### Element eines Arrays mit einem bestimmten Schlüssel zuordnen
+### Ordnen Sie das Element eines Arrays einem bestimmten Schlüssel zu
 
 Einige Arrays enthalten mehrere Sammlungen mit Schlüssel- und Wertelementen. Dabei handelt es sich normalerweise um verschiedene Metadaten, Attribute usw.
 
-Das folgende Beispiel zeigt die Ausgabe der [!DNL Jira]-App.
+Das folgende Beispiel zeigt die Ausgabe der [!DNL Jira] App.
 
 ![](assets/output-of-jira-app-350x100.png)
 
@@ -183,38 +183,38 @@ Die Ausgabe von [!DNL Jira] sieht wie folgt aus:
 
 ![](assets/output-from-jira-350x261.png)
 
-Die typische Anforderung besteht darin, ein Element anhand des angegebenen Schlüsselwerts zu suchen und den entsprechenden Wert aus dem Werteelement zu erhalten. Dies kann mit einer Formel erreicht werden, die eine Kombination der Funktionen `map()` und `get()` verwendet.
+Die typische Anforderung besteht darin, ein Element anhand seines angegebenen Schlüsselwerts zu suchen und den entsprechenden Wert aus dem Wertelement abzurufen. Dies lässt sich durch eine Formel erreichen, die eine Kombination der `map()`- und `get()`-Funktionen verwendet.
 
-Im Folgenden wird die Formel detailliert aufgeschlüsselt:
+Im Folgenden finden Sie eine detaillierte Aufschlüsselung der Formel:
 
-1. Der erste Parameter der Funktion `map()` ist das gesamte Array-Element.
-1. Der zweite Parameter ist der Rohname des Wertelements. Um den Rohnamen abzurufen, bewegen Sie den Mauszeiger über das Element im Bedienfeld [!UICONTROL mapping] :
+1. Der erste Parameter der `map()` ist das gesamte Array-Element.
+1. Der zweite Parameter ist der Rohname des Wertelements. Um den Rohnamen zu erhalten, bewegen Sie den Mauszeiger über das Element im Bedienfeld [!UICONTROL Zuordnung]:
 
    ![](assets/obtain-raw-name-350x124.png)
 
    >[!NOTE]
    >
-   >Bei allen Parametern wird zwischen Groß- und Kleinschreibung unterschieden. Auch wenn sich in diesem speziellen Beispiel die Beschriftung des Elements nur in Großbuchstaben von seinem Rohnamen unterscheidet, muss der Rohname verwendet werden, der im Gegensatz zum Beschriftungswert ausschließlich aus Kleinbuchstaben besteht.
+   >Bei allen Parametern wird zwischen Groß- und Kleinschreibung unterschieden. Auch wenn sich die Beschriftung des Elements in diesem Beispiel nur in der Groß-/Kleinschreibung von seinem Rohnamen unterscheidet, muss der Rohname verwendet werden, bei dem es sich im Gegensatz zum Beschriftungswert um einen Wert in Kleinbuchstaben handelt.
 
 1. Der dritte Parameter ist der Rohname des Schlüsselelements:
 
    ![](assets/3rd-parameter-350x166.png)
 
-1. Der vierte Parameter ist der angegebene Schlüsselwert.
+1. Der 4. Parameter ist der gegebene Schlüsselwert.
 
-Da die Funktion `map()` ein Array zurückgibt (da es mehr Elemente mit dem angegebenen Schlüsselwert geben kann), muss die Funktion `get()` angewendet werden, um das erste Element zu erhalten:
+Da die Funktion `map()` ein Array zurückgibt (da mit dem angegebenen Schlüsselwert weitere Elemente vorhanden sein könnten), muss die Funktion `get()` angewendet werden, um das erste Element zu erhalten:
 
-* Der erste Parameter der Funktion `get()` ist das Ergebnis der Funktion `map()`.
+* Der 1. Parameter der `get()` ist das Ergebnis der `map()`.
 
-* Der zweite Parameter ist der Index des Elements - einer.
+* Der zweite Parameter ist der Index des Elements - eins.
 
-Weitere Informationen zur Funktion `map()` finden Sie unter [Array-Funktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
+Weitere Informationen zur `map()` finden Sie unter [Array-Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md).
 
-Weitere Informationen zur Funktion `get()` finden Sie unter [Allgemeine Funktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
+Weitere Informationen zur `get()` finden Sie unter [Allgemeine Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md).
 
-## Elemente in eine Reihe von Bundles konvertieren
+## Konvertieren von Elementen in eine Reihe von Bundles
 
-Arrays können mithilfe des Moduls [!UICONTROL Iterator] in eine Reihe von Bundles konvertiert werden. Weitere Informationen finden Sie unter [[!UICONTROL Iterator]-Modul in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
+Arrays können mithilfe des Moduls [!UICONTROL Iterator“ in eine Reihe von Bundles ] werden. Weitere Informationen finden Sie [[!UICONTROL  Modul „Iterator] in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/modules/iterator-module.md).
 
 ![](assets/series-of-bundles-350x169.png)
 
@@ -222,48 +222,48 @@ Arrays können mithilfe des Moduls [!UICONTROL Iterator] in eine Reihe von Bundl
 
 ### Fehlende Elemente im Zuordnungsbereich
 
-Für jedes Modul zeigt das Zuordnungsbedienfeld alle Ausgabeelemente an, die vom Autor des Moduls aufgelistet werden. In einigen Fällen ist diese Liste möglicherweise aus verschiedenen Gründen unvollständig und einige Elemente fehlen möglicherweise. [!DNL Workfront Fusion] kann die fehlenden Ausgabeelemente automatisch erkennen, wenn Sie das Modul im Szenario-Editor ausführen. Das genaue Verfahren unterscheidet sich geringfügig je nach Modultyp:
+Im Zuordnungsbereich werden für jedes Modul alle Ausgabeelemente angezeigt, die vom Autor des Moduls aufgelistet sind. In einigen Fällen kann diese Liste aus verschiedenen Gründen unvollständig sein, und einige Elemente fehlen möglicherweise. [!DNL Workfront Fusion] können die fehlenden Ausgabeelemente automatisch erkennen, wenn Sie das Modul im Szenario-Editor ausführen. Die genaue Vorgehensweise unterscheidet sich je nach Modultyp geringfügig:
 
 #### Sofortiger Trigger
 
-1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie dann im angezeigten Menü auf **[!UICONTROL Nur dieses Modul ausführen]** .
+1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie **[!UICONTROL Nur dieses Modul ausführen]** in dem angezeigten Menü.
 
    Wenn keine Webhooks in der Warteschlange vorhanden sind, wartet das Modul auf die Verarbeitung eines neuen Webhooks.
 
-1. Erstellen Sie einen Webhook.
+1. Erstellen eines Webhooks.
 
-   Beispielsweise sendet das Webhook-Modul **[!DNL Slack]>[!UICONTROL Suchen nach neuen Ereignissen]** (das in einem Kanal nach neuen Kanalmeldungen sucht) eine Nachricht an den Kanal.
+   Beispielsweise sendet das Webhook-Modul **[!DNL Slack]>[!UICONTROL Auf neue Ereignisse]** wartet auf neue Kanalnachrichten in einem Kanal) eine Nachricht an den Kanal.
 
-1. Wenn das Modul ausgeführt wird, klicken Sie auf die Blase über dem Modul, um die vollständige Ausgabe zu untersuchen.
+1. Wenn das Modul fertig ausgeführt wird, klicken Sie auf die Blase über dem Modul, um die vollständige Ausgabe zu überprüfen.
 
-   Das Zuordnungsbedienfeld enthält alle Elemente, die in der Ausgabe des Moduls gefunden wurden.
+   Das Zuordnungsbedienfeld enthält alle Elemente, die in der Modulausgabe gefunden wurden.
 
-#### Abruf-Trigger
+#### Trigger wird abgerufen
 
-1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie dann im angezeigten Menü auf **[!UICONTROL Nur dieses Modul ausführen]** .
-1. Wenn keine Ausgabe vorhanden ist, klicken Sie auf **[!UICONTROL Auswählen, wo]** gestartet werden soll, und passen Sie die Einstellungen an.
-1. Wenn kein Ereignis verarbeitet werden soll, erstellen Sie eines und gehen Sie zurück zu Schritt 2.
+1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie **[!UICONTROL Nur dieses Modul ausführen]** in dem angezeigten Menü.
+1. Wenn keine Ausgabe vorhanden ist, klicken Sie auf **[!UICONTROL Startpunkt auswählen]** und passen Sie die Einstellungen an.
+1. Wenn kein zu verarbeitendes Ereignis vorhanden ist, erstellen Sie ein Ereignis und fahren Sie mit Schritt 2 fort.
 
-   Beispielsweise sendet das Webhook-Modul **[!UICONTROL Gmail] >[!UICONTROL E-Mails ansehen]** eine E-Mail an den Ordner, den das Modul überwacht.
+   Beispielsweise sendet das Webhook-Modul **[!UICONTROL Gmail] > [!UICONTROL E-Mails]**) eine E-Mail an den Ordner, den das Modul beobachtet.
 
-1. Wenn das Modul ausgeführt wird, klicken Sie auf die Blase über dem Modul, um die vollständige Ausgabe zu untersuchen.
+1. Wenn das Modul fertig ausgeführt wird, klicken Sie auf die Blase über dem Modul, um die vollständige Ausgabe zu überprüfen.
 
-   Das Zuordnungsbedienfeld enthält jetzt alle Elemente, die in der Ausgabe des Moduls gefunden wurden.
+   Das Zuordnungsbedienfeld enthält jetzt alle Elemente, die in der -Ausgabe des Moduls gefunden wurden.
 
-#### Sonstige Module
+#### Andere Module
 
 Sie können Folgendes ausführen:
 
 * Das gesamte Szenario (oder nur der Teil, der das Modul enthält)
 
-  Wenn Ihr Szenario mit einem Trigger beginnt, lesen Sie den Abschnitt [Instant Trigger](#instant-trigger) oder [Polling Trigger](#polling-trigger) weiter oben.
+  Wenn Ihr Szenario mit einem Trigger beginnt, lesen Sie den Abschnitt [Sofortiger Trigger ](#instant-trigger) oder [Abruf-Trigger ](#polling-trigger) weiter oben.
 
 * Nur das einzelne Modul
 
-Wenn Sie nur das einzelne Modul ausführen möchten:
+Wenn Sie nur das einzelne Modul ausführen:
 
-1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie dann im angezeigten Menü auf **[!UICONTROL Nur dieses Modul ausführen]** .
+1. Klicken Sie mit der rechten Maustaste auf das Modul und klicken Sie **[!UICONTROL Nur dieses Modul ausführen]** in dem angezeigten Menü auf..
 1. Geben Sie Beispielwerte für die Eingabeelemente ein und klicken Sie dann auf **[!UICONTROL OK]** .
-1. Wenn das Modul ausgeführt wird, klicken Sie auf die Blase über dem Modul, um die vollständige Ausgabe zu untersuchen.
+1. Wenn das Modul fertig ausgeführt wird, klicken Sie auf die Blase über dem Modul, um die vollständige Ausgabe zu überprüfen.
 
-   Das Zuordnungsbedienfeld enthält jetzt alle Elemente, die in der Ausgabe des Moduls gefunden wurden.
+   Das Zuordnungsbedienfeld enthält jetzt alle Elemente, die in der -Ausgabe des Moduls gefunden wurden.

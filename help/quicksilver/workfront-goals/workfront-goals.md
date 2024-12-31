@@ -1,6 +1,6 @@
 ---
-title: Adobe Workfront-Ziele
-description: Adobe Workfront-Ziele
+title: Adobe Workfront Goals
+description: Adobe Workfront Goals
 author: Alina
 draft: Probably
 feature: Workfront Goals
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 ---
 
-# Adobe Workfront-Ziele
+# Adobe Workfront Goals
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Für den neuen Plan und die Lizenzstruktur:
+>* Für die neue Plan- und Lizenzstruktur:
 >
->   * Der ultimative Workfront-Plan
+>   * Der Ultimate Workfront-Plan
 >    
->* Für den aktuellen Plan und die Lizenzstruktur:
+>* Für die aktuelle Plan- und Lizenzstruktur:
 >
->   * Workfront-Abo mit Pro oder höher
->   * Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>   * Ein Pro- oder höher-Workfront-Plan
+>   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
->Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 > 
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Übersicht über Adobe Workfront-Ziele](../workfront-goals/goal-management/wf-goals-overview.md)
+* [Adobe Workfront-Ziele - Übersicht](../workfront-goals/goal-management/wf-goals-overview.md)
 * [Zielverwaltung in Adobe Workfront-Zielen](../workfront-goals/goal-management/goal-management.md)
-* [Zielausrichtung in Adobe Workfront-Zielen](../workfront-goals/goal-alignment/goal-alignment.md)
-* [Zielüberprüfung und die Abschnitte &quot;Adobe Workfront-Ziele&quot;](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
-* [Ergebnisse und Aktivitäten in Adobe Workfront-Zielen](../workfront-goals/results-and-activities/results-and-activities.md)
+* [Zielausrichtung in Adobe Workfront Goals](../workfront-goals/goal-alignment/goal-alignment.md)
+* [Zielüberprüfung und die Abschnitte Adobe Workfront-Ziele ](../workfront-goals/goal-review-and-workfront-goals-sections/goal-review-wf-goals-sections.md)
+* [Ergebnisse und Aktivitäten in Adobe Workfront Goals](../workfront-goals/results-and-activities/results-and-activities.md)
 
   <!--
   <li>Tips, tricks, and troubleshooting for Workfront Goals (might come after GA)</li>
   -->
 
-* [Einstellungen für Adobe Workfront-Ziele](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)
+* [Adobe Workfront-Zieleinstellungen](../workfront-goals/workfront-goals-settings/wf-goals-settings.md)

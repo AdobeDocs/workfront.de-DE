@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations;setup
 navigation-topic: box
-title: Erstellen eines Testversands über Ihr Box-Konto
-description: Es ist einfach, Testsendungen und neue Testversandversionen über Ihr Box-Konto zu erstellen.
+title: Erstellen eines Korrekturabzugs über Ihr Box-Konto
+description: Über Ihr Box-Konto können Sie mühelos Korrekturabzüge und neue Korrekturabzugsversionen erstellen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 6fdabea6-c380-4b64-9b26-93b3f773f996
@@ -14,49 +14,49 @@ ht-degree: 0%
 
 ---
 
-# Erstellen eines Testversands über Ihr [!DNL Box]-Konto
+# Erstellen eines Korrekturabzugs über Ihr [!DNL Box]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Es ist einfach, Testsendungen und neue Testversandversionen über Ihr Box-Konto zu erstellen.
+Über Ihr Box-Konto können Sie mühelos Korrekturabzüge und neue Korrekturabzugsversionen erstellen.
 
-## Erstellen eines neuen Testversands aus einer Datei in [!DNL Box]
+## Erstellen eines neuen Korrekturabzugs aus einer Datei in [!DNL Box]
 
-1. Melden Sie sich bei Ihrem [!DNL Box] -Konto an und klicken Sie auf die Schaltfläche **[!UICONTROL Mehr Optionen]** neben der Datei, die Sie in [!DNL Workfront Proof] testen möchten.
-1. Wechseln Sie zu &quot;**[!UICONTROL Mehr Aktionen]**&quot;.
-1. Wählen Sie **[!UICONTROL Überprüfen mit[!DNL Workfront Proof]]** aus.\
-   Wenn Sie bereits bei [!DNL Workfront Proof] angemeldet sind, wird ein Popup-Fenster mit der Datei angezeigt, die auf die Seite Neuer Testversand hochgeladen wurde.\
-   Hier können Sie weitere Dateien hinzufügen (wenn Sie mehrere Testsendungen in einem Schritt erstellen oder mehrere Dateien zu einem Testversand kombinieren möchten), Personen zum Testversand hinzufügen, einen Termin für sie festlegen, Tags hinzufügen und den Ordner für den Testversand auswählen\
-   Sie können diesen Testversand auch zu einer neuen Version eines vorhandenen Testversands machen
+1. Melden Sie sich bei Ihrem [!DNL Box]-Konto an und klicken Sie auf die Schaltfläche **[!UICONTROL Weitere Optionen]** neben der Datei, die Sie in [!DNL Workfront Proof] prüfen möchten.
+1. Navigieren Sie zu **[!UICONTROL Mehr Aktionen]**.
+1. Wählen Sie **[!UICONTROL Mit[!DNL Workfront Proof]]** überprüfen.\
+   Wenn Sie bereits bei [!DNL Workfront Proof] angemeldet sind, wird ein Popup-Fenster mit der auf der Seite Neuer Korrekturabzug hochgeladenen Datei angezeigt.\
+   Hier können Sie weitere Dateien hinzufügen (wenn Sie mehrere Korrekturabzüge auf einmal erstellen oder mehrere Dateien zu einem Korrekturabzug kombinieren möchten), Personen zum Korrekturabzug hinzufügen, eine Frist für sie festlegen, Tags hinzufügen und den Ordner für den Korrekturabzug auswählen\
+   Sie können diesen Korrekturabzug auch zu einer neuen Version eines vorhandenen Korrekturabzugs machen
 
-1. Klicken Sie auf **[!UICONTROL Speichern]** , um den Testversand zu erstellen und ihn an Ihre Validierer zu senden.
+1. Klicken Sie **[!UICONTROL Speichern]**, um den Testversand zu erstellen und ihn an die Validierungsverantwortlichen zu senden.
 
-   Der Datei im Feld wird ein Kommentar mit einem persönlichen Link zum Testversand in [!DNL Workfront Proof] hinzugefügt.
+   Der Datei im Feld wird ein Kommentar mit einem persönlichen Link zum Korrekturabzug im [!DNL Workfront Proof] hinzugefügt.
 
-   * Wenn Sie über eine eigene Anmeldeseite mit der Marke [!DNL Workfront Proof] verfügen, werden Sie anstelle der standardmäßigen Anmeldeseite mit [!DNL Workfront Proof] auf diese Seite geleitet. Weitere Informationen finden Sie unter [Branding](https://support.workfront.com/hc/en-us/sections/115000921208-Branding) .
-   * Wenn Sie die Single-Sign-On-Funktion in Ihrem [!DNL Workfront Proof]-Konto aktiviert haben, werden Sie zur SSO-Anmeldeseite geleitet und aufgefordert, Ihre Single-Sign-On-Anmeldedaten einzugeben. Dies ist jedoch nur der Fall, wenn Sie dieselbe E-Mail-Adresse für Ihr Box-Konto und [!DNL Workfront Proof] verwenden. Weitere Informationen finden Sie unter [Single Sign-On in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md) .
-   * Wenn Sie nicht dieselbe E-Mail-Adresse sowohl für Ihr [!DNL Box] -Konto als auch für Ihr [!DNL Workfront Proof] -Konto verwenden, werden Sie immer zur standardmäßigen [!DNL Workfront Proof] -Anmeldeseite geleitet.
+   * Wenn Sie Ihre eigene [!DNL Workfront Proof]-Anmeldeseite haben, werden Sie zu dieser Seite anstelle der standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000921208-Branding).
+   * Wenn Sie die Single-Sign-On-Funktion in Ihrem [!DNL Workfront Proof]-Konto aktiviert haben, werden Sie zur SSO-Anmeldeseite weitergeleitet und aufgefordert, Ihre Single-Sign-On-Anmeldedaten einzugeben, jedoch nur, wenn Sie dieselbe E-Mail-Adresse für Ihr Box-Konto und Ihre [!DNL Workfront Proof] verwenden. Weitere Informationen finden [ unter „Single Sign [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/single-sign-on-overview.md)On“.
+   * Wenn Sie nicht dieselbe E-Mail-Adresse sowohl für Ihr [!DNL Box]-Konto als auch für Ihr [!DNL Workfront Proof]-Konto verwenden, werden Sie immer zur standardmäßigen [!DNL Workfront Proof]-Anmeldeseite weitergeleitet.
 
-## Erstellen einer neuen Version eines Testversands über eine Datei in [!DNL Box]
+## Erstellen einer neuen Version eines Korrekturabzugs mithilfe einer Datei in [!DNL Box]
 
-Es ist einfach, eine neue Version eines Testversands mit einer neuen Version der Datei aus Ihrem Box-Konto zu erstellen. Weitere Informationen finden Sie unter .
+Es ist einfach, mit einer neuen Version der Datei aus Ihrem Box-Konto eine neue Version eines Korrekturabzugs zu erstellen. Weitere Informationen finden Sie unter.
 
-1. Führen Sie die oben beschriebenen Schritte aus.
-1. Klicken Sie auf der Seite &quot;[!DNL New proof]&quot;auf den Link &quot;[!UICONTROL Neue Version]&quot;(1), um zur Seite &quot;[!DNL New version]&quot;zu gelangen, auf der Sie die Erstellung einer neuen Version eines vorhandenen Testversands abschließen können.\
-   Wenn Sie bereits einen Testversand über [!DNL Box] mit einer früheren Version der Datei erstellt haben, spiegelt die Benachrichtigung oben auf der Seite dies wider
-1. Wählen Sie im Popup **[!UICONTROL Vorhandener Testversand]** die übergeordnete Version Ihres neuen Testversands aus. Wenn die vorherige Version des Testversands auch von [!DNL Box] gesendet wurde, wird dieser Testversand im Abschnitt [!UICONTROL Testsendungen abgleichen] oben in der Liste angezeigt. Sie können auch Ihre übergeordnete Version aus dem Abschnitt [!UICONTROL Weitere Testsendungen] auswählen.
-1. Wenn der Testversand, den Sie in der Liste auswählen möchten, nicht angezeigt wird, können Sie:
+1. Führen Sie die oben genannten Schritte aus.
+1. Klicken Sie auf der Seite [!DNL New proof] auf den Link [!UICONTROL Neue Version] (1), um zur Seite [!DNL New version] zu gelangen, auf der Sie den Prozess zum Erstellen einer neuen Version eines vorhandenen Korrekturabzugs abschließen können.\
+   Wenn Sie bereits einen Korrekturabzug über [!DNL Box] mit einer früheren Version der Datei erstellt haben, wird dies in der Benachrichtigung am oberen Seitenrand angezeigt
+1. Wählen **[!UICONTROL im Popup]** Vorhandener Korrekturabzug“ die übergeordnete Version Ihres neuen Korrekturabzugs aus. Wenn die vorherige Version des Korrekturabzugs auch von [!DNL Box] gesendet wurde, wird dieser Korrekturabzug im Abschnitt [!UICONTROL Abgleichen von ]&quot; oben in der Liste angezeigt. Sie können Ihre übergeordnete Version auch im Abschnitt [!UICONTROL Andere Korrekturabzüge] auswählen.
+1. Wenn der Korrekturabzug, den Sie in der Liste auswählen möchten, nicht angezeigt wird, haben Sie folgende Möglichkeiten:
 
-   * Sortieren Sie die Spalten, indem Sie auf die Spaltenüberschrift klicken.
-   * Filtern nach Name - geben Sie den Namen des vorherigen Testversands ein und wenden Sie den Filter an, indem Sie auf das Filtersymbol klicken - nur verfügbar, wenn mehrere Seiten mit Elementen in der Liste vorhanden sind.
-   * Identifizieren Sie Ihre anderen [!DNL Box]-Einsendungen mit dem [!DNL Box] -Logo.
+   * Sortieren Sie die Spalten durch Klicken auf die Spaltenüberschrift.
+   * Nach Name filtern - Geben Sie den Namen des vorherigen Korrekturabzugs ein und wenden Sie den Filter an, indem Sie auf das Filtersymbol klicken. Dies ist nur verfügbar, wenn mehrere Seiten mit Elementen auf der Liste vorhanden sind.
+   * Identifizieren Sie Ihre anderen [!DNL Box] mit dem [!DNL Box] Logo.
 
-1. Klicken Sie auf **[!UICONTROL Speichern]** , um zur Seite [!UICONTROL Neue Version] zu wechseln, auf der Sie Folgendes ausführen können:
+1. Klicken Sie **[!UICONTROL Speichern]**, um zur Seite [!UICONTROL Neue Version] zu wechseln, auf der Sie einen der folgenden Schritte ausführen können:
 
-   * Ändern Sie die übergeordnete Version durch Klicken auf **[!UICONTROL Testversand ändern]**.
-   * Klicken Sie auf ein Papierkorbsymbol, um eine neue Version zu erstellen. Fahren Sie mit dem Senden Ihrer Datei als neuen Testversand fort.
+   * Ändern Sie die übergeordnete Version, indem Sie auf **[!UICONTROL Korrekturabzug ändern]** klicken.
+   * Brechen Sie die Erstellung einer neuen Version ab, indem Sie auf ein Papierkorbsymbol klicken. Fahren Sie mit dem Einreichen Ihrer Datei als neuen Korrekturabzug fort.
 
-1. Füllen Sie die Seite **[!UICONTROL Neue Version]** wie gewohnt aus (als ob Sie die Datei direkt aus [!DNL Workfront Proof] hochgeladen hätten) und klicken Sie dann auf **[!UICONTROL Speichern]** , um zur Seite [!UICONTROL Testversand-Details] zu gelangen.\
-   Hier können Sie durch Klicken auf **[!UICONTROL Zum Testversand wechseln]** auf die neue Version zugreifen.
+1. Füllen Sie die Seite **[!UICONTROL Neue Version]** wie gewohnt aus (als ob Sie die Datei direkt aus [!DNL Workfront Proof] hochgeladen hätten) und klicken Sie dann auf **[!UICONTROL Speichern]**, um zur Seite [!UICONTROL Korrekturabzugsdetails] zu gelangen.\
+   Hier können Sie auf die neue Version zugreifen, indem Sie auf **[!UICONTROL Zum Korrekturabzug gehen]** klicken.

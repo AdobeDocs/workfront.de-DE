@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: proof-notifications-and-reminders
-title: E-Mail zur neuen Version
-description: Gilt dies für  [!DNL PiW?]
+title: Die neue E-Mail-Version
+description: Gilt dies für [!DNL PiW?]
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 54956640-e292-437a-8f82-53c31a2fd32f
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 ---
 
-# Die E-Mail [!UICONTROL Neue Version]
+# Die [!UICONTROL neue Version]-E-Mail
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL [!DNL Workfront Proof]]. Informationen zum Testen in [!DNL [!DNL Adobe Workfront]] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL [!DNL Workfront Proof]]. Informationen zum Proofing in [!DNL [!DNL Adobe Workfront]] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">Does this apply to PiW?</p>
 -->
 
-Beim Erstellen einer [!UICONTROL neuen Version] eines Testversands werden E-Mails der neuen Version gesendet. Sie können sie auf dieselbe Weise wie die [!UICONTROL neuen Testversand] -E-Mails anpassen und deaktivieren.
+E-Mails zu neuen Versionen werden gesendet, wenn Sie eine [!UICONTROL neue Version] eines Korrekturabzugs erstellen. Sie können sie auf die gleiche Weise anpassen und deaktivieren wie die E[!UICONTROL Mails mit neuen ].
 
 >[!NOTE]
 >
->Wenn die E-Mail-Benachrichtigungen in den [!UICONTROL Kontoeinstellungen] standardmäßig deaktiviert sind, erhalten die validierungsverantwortlichen Benutzer keine [!UICONTROL neuen Version]-E-Mails, es sei denn, auf der Seite &quot;Neue Version&quot;ist das Kontrollkästchen [!UICONTROL Personen per E-Mail benachrichtigen] aktiviert.
+>Wenn die E-Mail-Benachrichtigungen in den [!UICONTROL Kontoeinstellungen] standardmäßig deaktiviert sind, erhalten Überprüfende keine E[!UICONTROL Mails der neuen Version] es sei denn, das Kontrollkästchen [!UICONTROL Personen per E-Mail benachrichtigen] ist auf der Seite Neue Version aktiviert.
 
 ![new_version_email.png](assets/new-version-email-350x212.png)

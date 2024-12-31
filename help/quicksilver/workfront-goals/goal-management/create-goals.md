@@ -1,8 +1,8 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Ziele in Adobe Workfront erstellen
-description: Unabhängig davon, ob Sie CEO, Manager oder Einzelmitwirkender sind, können Sie in Adobe Workfront Goals Ziele festlegen, um Ihre Arbeit an Ihren Zielen und Zielen auszurichten, die die Strategie Ihres Unternehmens umreißen.
+title: Erstellen von Zielen in Adobe Workfront Goals
+description: Unabhängig davon, ob Sie CEO, Manager oder ein einzelner Mitwirkender sind, können Sie in Adobe Workfront Goals Ziele erstellen, um Ihre Arbeit an Ihren Zielen und den Zielen auszurichten, die die Strategie Ihres Unternehmens darstellen.
 author: Alina
 feature: Workfront Goals
 exl-id: 14bf48b6-eb0c-4b00-a1a4-0d070ccc1392
@@ -13,9 +13,9 @@ ht-degree: 5%
 
 ---
 
-# Ziele in Adobe Workfront erstellen
+# Erstellen von Zielen in Adobe Workfront Goals
 
-Unabhängig davon, ob Sie CEO, Manager oder Einzelmitwirkender sind, können Sie in Adobe Workfront Goals Ziele festlegen, um Ihre Arbeit an Ihren Zielen und Zielen auszurichten, die die Strategie Ihres Unternehmens umreißen.
+Unabhängig davon, ob Sie CEO, Manager oder ein einzelner Mitwirkender sind, können Sie in Adobe Workfront Goals Ziele erstellen, um Ihre Arbeit an Ihren Zielen und den Zielen auszurichten, die die Strategie Ihres Unternehmens darstellen.
 
 ## Zugriffsanforderungen
 
@@ -30,30 +30,30 @@ Sie müssen über Folgendes verfügen:
 <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
-   <p>Für den neuen Plan und die Lizenzstruktur:
-  <ul><li>Ein ultimativer Plan </li></ul>
+   <p>Für die neue Plan- und Lizenzstruktur:
+  <ul><li>Ein Ultimate-Plan </li></ul>
    </p>
-<p>Für den aktuellen Plan und die Lizenzstruktur: 
-<ul><li> A Pro oder höher </li>
-  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+<p>Für die aktuelle Plan- und Lizenzstruktur: 
+<ul><li> Ein Profi oder höher </li>
+  <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
    </td> 
   </tr>
   <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
 <tr>
 <td role="rowheader">Zugriffsebene</td>
@@ -62,33 +62,33 @@ Sie müssen über Folgendes verfügen:
 <tr data-mc-conditions="">
 <td role="rowheader">Objektberechtigungen</td>
 <td>
-<p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-<p>Berechtigungen für das Ziel verwalten</p>
-<p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+<p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+<p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+<p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
 </td>
 </tr>
 <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Richtlinien für das Erstellen von Zielen
+## Richtlinien für die Zielerstellung
 
-Bevor Sie mit Workfront-Zielen beginnen, empfehlen wir Ihnen, sich über unsere Best Practices-Empfehlungen und -Richtlinien für die wirksame Verwaltung von Zielen zu informieren. Weitere Informationen zu Richtlinien zum Erstellen und Verwalten von Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../workfront-goals/goal-management/wf-goals-overview.md).
+Bevor Sie mit der Umsetzung der Workfront-Produktziele beginnen, sollten Sie sich über unsere Empfehlungen zu Best Practices und Richtlinien für die effektive Verwaltung von Produktzielen informieren. Weitere Informationen zu Richtlinien zum Erstellen und Verwalten von Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../workfront-goals/goal-management/wf-goals-overview.md).
 
 ## Erstellen von Zielen
 
-In diesem Artikel wird beschrieben, wie Sie ein strategisches Ziel in Workfront-Zielen erstellen. Informationen zum Erstellen eines Geschäftsfallziels finden Sie unter [Ziele für Geschäftsfälle erstellen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+In diesem Artikel wird beschrieben, wie Sie ein strategisches Ziel in Workfront Goals erstellen. Informationen zum Erstellen eines Business-Case-Ziels finden Sie [Erstellen von Business-Case-Zielen](../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 Sie können ein strategisches Ziel auf eine der folgenden Arten erstellen:
 
-* [Neues Ziel erstellen](#create-a-goal-from-scratch)
-* [Vorhandenes Ziel kopieren](#copy-an-existing-goal)
+* [Ziel von Grund auf neu erstellen](#create-a-goal-from-scratch)
+* [Kopieren eines vorhandenen Ziels](#copy-an-existing-goal)
 * [Konvertieren eines Ergebnisses oder einer Aktivität in ein Ziel](#convert-a-result-or-activity-to-a-goal)
 
 ### Ein Ziel von Grund auf neu erstellen {#create-a-goal-from-scratch}
@@ -170,12 +170,12 @@ Creating goals differs depending on what environment you use.
 
 -->
 
-1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Ziele**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
 
-   Die Zielliste wird angezeigt.
+   Die Liste „Ziel“ wird angezeigt.
 1. Klicken Sie auf **Neues Ziel**.
 
    Das Feld Neues Ziel wird angezeigt.
@@ -184,45 +184,45 @@ Creating goals differs depending on what environment you use.
 
 1. Geben Sie Informationen in die folgenden Felder ein:
    * **Zielname**: Geben Sie einen Namen für das Ziel ein. Dies ist ein Pflichtfeld.
-   * **Zeitraum**: Wählen Sie ein vordefiniertes Quartal oder Jahr aus dem Dropdownfeld **Zeitraum** aus
+   * **Zeitraum**: Wählen Sie ein vordefiniertes Quartal oder Jahr aus der Dropdown **Liste &quot;**&quot;
 
      Oder
 
-     Wählen Sie die Option **Benutzerdefinierte Datumswerte aktivieren** und dann **Start** und **Enddatum** für das Ziel aus.
+     Wählen Sie die Option **Benutzerdefinierte Datumswerte aktivieren** und wählen Sie dann ein **Start** und **Enddatum** für das Ziel aus.
 
-     Die vorherigen, aktuellen und nachfolgenden Jahre und ihre jeweiligen Quartale werden als vordefinierte Optionen im Dropdown-Feld Zeitraum aufgeführt.
+     Das vorherige, aktuelle und das folgende Jahr sowie die entsprechenden Quartale werden als vordefinierte Optionen im Dropdown-Feld Zeitraum aufgeführt.
 
-     Der Zeitraum des Ziels gibt den Zeitraum an, in dem das Ziel voraussichtlich abgeschlossen sein wird.
+     Der Zeitraum des Ziels gibt den Zeitrahmen an, in dem das Ziel erwartungsgemäß abgeschlossen wird.
 
-   * **Zieleigentümer**: Beginnen Sie mit der Eingabe des Namens eines Benutzers, eines Teams, einer Gruppe oder Ihres Unternehmens, um anzugeben, wer Inhaber des Ziels ist. Sie werden standardmäßig als Eigentümer des Ziels ausgewählt.
+   * **Zielinhaber**: Beginnen Sie mit der Eingabe des Namens eines Benutzers, eines Teams, einer Gruppe oder Ihrer Organisation, um anzugeben, wer der Besitzer des Ziels ist. Sie werden standardmäßig als Eigentümer des Ziels ausgewählt.
    * **Beschreibung**: Geben Sie zusätzliche Informationen zum Ziel ein.
-1. Klicken Sie auf **Ziel erstellen**.
+1. Klicken Sie **Ziel erstellen**.
 
-   Das neue Ziel wird in der Zielliste aufgeführt und hat den Status **Entwurf**.
+   Das neue Ziel wird in der Liste Ziel aufgeführt und hat den Status **Entwurf**.
 
-   Sie müssen ein Ziel mit einer Fortschrittsanzeige verknüpfen, um es zu aktivieren und damit zu beginnen, daran zu arbeiten.
+   Sie müssen ein Ziel mit einer Fortschrittsanzeige verknüpfen, um es zu aktivieren und mit der Bearbeitung zu beginnen.
 
-   Führen Sie mindestens einen der folgenden Schritte aus, um ein zu aktivierendes Ziel vorzubereiten:
+   Führen Sie mindestens einen der folgenden Schritte aus, um ein Ziel für die Aktivierung vorzubereiten:
    * Ergebnis hinzufügen
 
-     Weitere Informationen zum Hinzufügen von Ergebnissen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-results-to-goals.md).
+     Informationen zum Hinzufügen von Ergebnissen finden Sie unter [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront Goals](../results-and-activities/add-results-to-goals.md).
    * Aktivität hinzufügen
 
-     Informationen zum Hinzufügen von Aktivitäten finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../results-and-activities/add-activities-to-goals.md).
-   * Ein anderes Ziel daran ausrichten
+     Informationen zum Hinzufügen von Aktivitäten finden Sie unter [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../results-and-activities/add-activities-to-goals.md).
+   * Ein weiteres Ziel daran ausrichten
 
-     Informationen zum Ausrichten von Zielen finden Sie unter [Ziele durch Verbinden in Adobe Workfront-Zielen ausrichten](../goal-alignment/align-goals-by-connecting-them.md).
+     Informationen zum Ausrichten von Zielen finden Sie unter [Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen](../goal-alignment/align-goals-by-connecting-them.md).
 
 
 ### Ein vorhandenes Ziel kopieren {#copy-an-existing-goal}
 
-Sie können ein Ziel durch Kopieren eines vorhandenen Ziels erstellen.
+Sie können ein Ziel erstellen, indem Sie ein vorhandenes kopieren.
 
 Informationen zum Kopieren von Zielen finden Sie unter [Kopieren von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/copy-goals.md).
 
 ### Konvertieren eines Ergebnisses oder einer Aktivität in ein Ziel {#convert-a-result-or-activity-to-a-goal}
 
-Sie können ein Ziel erstellen, indem Sie das Ergebnis oder die Aktivität eines vorhandenen Ziels in ein Ziel konvertieren. Das neue Ziel wird an das ursprüngliche Ziel ausgerichtet.
+Sie können ein Ziel erstellen, indem Sie das Ergebnis oder die Aktivität eines vorhandenen Ziels in ein Ziel konvertieren. Das neue Ziel wird am ursprünglichen Ziel ausgerichtet.
 
-Informationen zum Konvertieren von Ergebnissen und Aktivitäten in Ziele finden Sie unter [Ziele durch Konvertieren von Ergebnissen und Aktivitäten in Ziele ausrichten](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
+Informationen zur Konvertierung von Ergebnissen und Aktivitäten in Ziele finden Sie unter [Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele](../../workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md).
 

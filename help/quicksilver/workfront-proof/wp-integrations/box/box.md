@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: integrations-workfront-proof
 title: Box
-description: Erfahren Sie mehr über die Integration mit Box.
+description: Erfahren Sie mehr über die Integration von mit Box.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,11 +20,11 @@ ht-degree: 4%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Einführung in die Integration von [!DNL Workfront Proof] und [!DNL Box] s](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
-* [Erstellen eines Testversands über Ihr [!DNL Box] Konto](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
-* [Synchronisieren von [!DNL Box] Ordnern mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
-* [Originaldatei eines Testversands in [!DNL Box] anzeigen](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)
+* [Einführung in die Integration  [!DNL Workfront Proof]  und  [!DNL Box] ](../../../workfront-proof/wp-integrations/box/introduction-to-box.md)
+* [Erstellen eines Korrekturabzugs über Ihr - [!DNL Box] ](../../../workfront-proof/wp-integrations/box/create-proof-box-account.md)
+* [Synchronisieren  [!DNL Box]  Ordnern mit [!DNL Workfront Proof]](../../../workfront-proof/wp-integrations/box/sycn-box-folder.md)
+* [Sehen Sie sich die Originaldatei eines Korrekturabzugs in an [!DNL Box]](../../../workfront-proof/wp-integrations/box/view-proof-original-file-box.md)

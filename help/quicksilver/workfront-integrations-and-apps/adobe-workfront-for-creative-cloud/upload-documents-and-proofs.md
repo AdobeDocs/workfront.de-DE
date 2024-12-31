@@ -2,8 +2,8 @@
 content-type: reference
 product-area: workfront-integrations
 navigation-topic: workfront-integrations-navigation-topic
-title: Hochladen von Dokumenten und Testsendungen vom  [!DNL Adobe Workfront plugin]  in den  [!DNL Creative Cloud]
-description: Hochladen von Dokumenten und Testsendungen vom  [!DNL Adobe Workfront plugin]  in den  [!DNL Creative Cloud]
+title: Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]
+description: Hochladen von Dokumenten und Testsendungen aus dem [!DNL Adobe Workfront plugin]  in den [!DNL Creative Cloud]
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 hide: true
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# Hochladen von Dokumenten und Testsendungen von der [!DNL Adobe Workfront plugin] in die [!DNL Creative Cloud]
+# Hochladen von Dokumenten und Testsendungen aus der [!DNL Adobe Workfront plugin] in die [!DNL Creative Cloud]
 
 Sie können Ihre Projekte als Dokumente hochladen, um sie schnell zu überprüfen und zu genehmigen oder einfach in [!DNL Adobe Workfront] zu speichern.
 
@@ -27,21 +27,21 @@ Sie können Ihre Projekte als Dokumente hochladen, um sie schnell zu überprüfe
 
 ## Dokumenteinschränkungen
 
-In diesem Abschnitt werden die bekannten Dokumenteinschränkungen im [!DNL Workfront for Adobe Creative Cloud plugins] beschrieben.
+In diesem Abschnitt werden bekannte Dokumenteinschränkungen in der [!DNL Workfront for Adobe Creative Cloud plugins] beschrieben.
 
 ### Neue Dokumentversionen akzeptieren nur eine Datei zum Hochladen
 
-Da [!DNL Workfront] -Dokumente nicht mehrere Dateien enthalten können, müssen bestimmte Einstellungen deaktiviert sein, damit neue Dokumentversionen in Workfront hochgeladen werden können.
+Da [!DNL Workfront] Dokumente nicht mehrere Dateien enthalten können, müssen bestimmte Einstellungen deaktiviert werden, um neue Dokumentversionen in Workfront hochladen zu können.
 
 >[!NOTE]
 >
->Wenn Sie mehrere Dateien generieren müssen, können Sie stattdessen einen Testversand erstellen. Der neue Testversand wird nicht mit dem Originaldokument verknüpft.
+>Wenn Sie mehrere Dateien generieren müssen, können Sie stattdessen einen Korrekturabzug erstellen. Der neue Korrekturabzug wird nicht mit dem Originaldokument verknüpft.
 
 
 
-So ändern Sie Ihren Wechsel zurück zu einer einzelnen Datei in [!DNL InDesign]:
+So ändern Sie Ihren Schalter wieder in eine einzelne Datei in [!DNL InDesign]:
 
-1. Öffnen Sie das Dialogfeld **Einstellungen für Export-Datei festlegen** .
+1. Öffnen Sie **Dialogfeld Exportdateieinstellungen**.
 
    ![](assets/file-export-settings.png)
 
@@ -57,13 +57,13 @@ So ändern Sie Ihren Wechsel zurück zu einer einzelnen Datei in [!DNL InDesign]
     <tr>
     <td><strong>EPS</strong>
     </td>
-    <td>Wählen Sie <strong>Bereiche</strong> aus und geben Sie eine Seitennummer ein. 
+    <td>Wählen Sie <strong>Bereiche</strong> aus und geben Sie eine einzelne Seitenzahl ein. 
     <p>
-    <strong>Hinweis</strong>: Wenn Sie das vollständige Dokument hochladen möchten, müssen Sie einen Testversand erstellen. 
+    <strong>Hinweis</strong>: Wenn Sie das vollständige Dokument hochladen möchten, müssen Sie einen Korrekturabzug erstellen. 
     </td>
     </tr>
     <tr>
-    <td><strong> EPUB und EPUB-FIXED</strong>
+    <td><strong>EPUB und EPUB-FIXED</strong>
     </td>
     <td>Keine Anpassungen erforderlich.
     </td>
@@ -77,17 +77,17 @@ So ändern Sie Ihren Wechsel zurück zu einer einzelnen Datei in [!DNL InDesign]
     <tr>
     <td><strong>JPG</strong>
     </td>
-    <td>Wählen Sie <strong>Bereiche</strong> aus und geben Sie eine Seitennummer ein. 
+    <td>Wählen Sie <strong>Bereiche</strong> aus und geben Sie eine einzelne Seitenzahl ein. 
     <p>
-    <strong>Hinweis</strong>: Wenn Sie das vollständige Dokument hochladen möchten, müssen Sie einen Testversand erstellen. 
+    <strong>Hinweis</strong>: Wenn Sie das vollständige Dokument hochladen möchten, müssen Sie einen Korrekturabzug erstellen. 
     </td>
     </tr>
     <tr>
     <td><strong>PNG</strong>
     </td>
-    <td>Wählen Sie <strong>Bereiche</strong> aus und geben Sie eine Seitennummer ein. 
+    <td>Wählen Sie <strong>Bereiche</strong> aus und geben Sie eine einzelne Seitenzahl ein. 
     <p>
-    <strong>Hinweis</strong>: Wenn Sie das vollständige Dokument hochladen möchten, müssen Sie einen Testversand erstellen. 
+    <strong>Hinweis</strong>: Wenn Sie das vollständige Dokument hochladen möchten, müssen Sie einen Korrekturabzug erstellen. 
     </td>
     </tr>
     <tr>

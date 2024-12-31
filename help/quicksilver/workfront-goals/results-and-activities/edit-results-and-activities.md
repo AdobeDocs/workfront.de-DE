@@ -2,8 +2,8 @@
 product-previous: workfront-goals
 product-area: projects
 navigation-topic: results-and-activities
-title: Ergebnisse und Aktivitäten in Adobe Workfront-Zielen bearbeiten
-description: Nachdem Ihnen Ihr Adobe Workfront-Administrator den richtigen Zugriff auf Adobe Workfront-Ziele gewährt hat, können Sie Ziele, Ergebnisse und Aktivitäten erstellen und bearbeiten.
+title: Ergebnisse und Aktivitäten in Adobe Workfront Goals bearbeiten
+description: Nachdem Ihnen der Adobe Workfront-Administrator den richtigen Zugriff auf Adobe Workfront-Ziele gewährt hat, können Sie Ziele, Ergebnisse und Aktivitäten erstellen und bearbeiten.
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
@@ -14,16 +14,16 @@ ht-degree: 1%
 
 ---
 
-# Ergebnisse und Aktivitäten in Adobe Workfront-Zielen bearbeiten
+# Ergebnisse und Aktivitäten in Adobe Workfront Goals bearbeiten
 
-Nachdem Ihnen Ihr Adobe Workfront-Administrator den richtigen Zugriff auf Adobe Workfront-Ziele gewährt hat, können Sie Ziele, Ergebnisse und Aktivitäten erstellen und bearbeiten.
+Nachdem Ihnen der Adobe Workfront-Administrator den richtigen Zugriff auf Adobe Workfront-Ziele gewährt hat, können Sie Ziele, Ergebnisse und Aktivitäten erstellen und bearbeiten.
 
 Informationen zum Erstellen von Zielen, Ergebnissen und Aktivitäten finden Sie in den folgenden Artikeln:
 
 * [Erstellen von Zielen in Adobe Workfront-Zielen](../../workfront-goals/goal-management/create-goals.md)
-* [Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
-* [Ergebnisse zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
-* [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
+* [Erste Schritte mit Ergebnissen und Aktivitäten in Adobe Workfront Goals](../../workfront-goals/results-and-activities/get-started-with-results-and-activities.md)
+* [Hinzufügen von Ergebnissen zu Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/add-results-to-goals.md)
+* [Hinzufügen von Aktivitäten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/add-activities-to-goals.md)
 
 ## Zugriffsanforderungen
 
@@ -38,30 +38,30 @@ Sie müssen über Folgendes verfügen:
  <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
    <td> 
-   <p>Für den neuen Plan und die Lizenzstruktur:
-  <ul><li>Ein ultimativer Plan </li></ul>
+   <p>Für die neue Plan- und Lizenzstruktur:
+  <ul><li>Ein Ultimate-Plan </li></ul>
    </p>
-<p>Für den aktuellen Plan und die Lizenzstruktur: 
-<ul><li> A Pro oder höher </li>
-  <li>Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+<p>Für die aktuelle Plan- und Lizenzstruktur: 
+<ul><li> Ein Profi oder höher </li>
+  <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
    </td> 
   </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
- <p>Neue Lizenz: Mitarbeiter oder höher</p>
+ <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
  <p>Aktuelle Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderungen, eine der folgenden: </p>
+ <p> Neue Produktanforderung, eine der folgenden: </p>
 <ul>
-<li>Ein Select- oder Prime-Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
+<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
 <li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
  <p>Oder</p>
- <p>Aktuelle Produktanforderungen: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader"><p>Zugriffsebene</p></td>
@@ -71,20 +71,20 @@ Sie müssen über Folgendes verfügen:
  <td role="rowheader">Objektberechtigungen</td>
  <td>
   <div>
-  <p>Anzeigen oder Anzeigen höherer Berechtigungen zum Ziel</p>
-  <p>Berechtigungen für das Ziel verwalten</p>
-  <p>Informationen zum Freigeben von Zielen finden Sie unter <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront-Zielen</a>. </p>
+  <p>Anzeigen von oder höheren Berechtigungen für das Ziel, um es anzuzeigen</p>
+  <p>Verwalten von Berechtigungen für das Ziel, um es zu bearbeiten</p>
+  <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
 </tbody>
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Überlegungen beim Bearbeiten von Ergebnissen und Aktivitäten
 
@@ -92,25 +92,25 @@ Sie müssen über Folgendes verfügen:
 According to Vazgen, access levels will add more considerations.)
 -->
 
-* Sie können Ergebnisse und Aktivitäten bearbeiten, die zu von Ihnen erstellten Zielen oder Zielen gehören, für die Sie über die Berechtigung zum Verwalten verfügen.
-* Sie können den Fortschritt von Projekten, die mit Zielen verknüpft sind, nicht als Aktivitäten aus Workfront-Zielen bearbeiten. Der Projektfortschritt wird aktualisiert, sobald die Aufgaben im Projekt abgeschlossen sind. Sie können Projekte aus dem Ziel entfernen, indem Sie sie trennen. Weitere Informationen finden Sie im Abschnitt &quot;Trennen von Projekten&quot;im Artikel [Entfernen von Ergebnissen, Aktivitäten und Projekten aus Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* Sie können Ergebnisse und Aktivitäten bearbeiten, die zu von Ihnen erstellten Zielen oder zu Zielen gehören, für die Sie über Berechtigungen zum Verwalten verfügen.
+* Sie können den Fortschritt von Projekten, die mit Zielen als Aktivitäten verbunden sind, nicht über Workfront Goals bearbeiten. Der Projektfortschritt wird aktualisiert, wenn Aufgaben im Projekt abgeschlossen sind. Sie können Projekte aus dem Ziel entfernen, indem Sie sie trennen. Weitere Informationen finden Sie im Abschnitt „Trennen von Projekten“ im Artikel [Entfernen von Ergebnissen, Aktivitäten und Projekten aus Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
 
   >[!NOTE]
   >
-  >Wenn die folgenden Projektinformationen auf Projektebene aktualisiert werden, aktualisiert Workfront Goals sie automatisch auf der Zielebene:
+  >Wenn die folgenden Projektinformationen auf Projektebene aktualisiert werden, werden sie von Workfront Goals automatisch auf Zielebene aktualisiert:
   >
   >   
   >   
   >   * Projektbesitzer
   >   * Projektname
-  >   * Abschluss des Projekts in Prozent
+  >   * Projekt Prozent abgeschlossen
   >   
   >   
-  >Informationen zum Verbinden von Projekten mit Zielen finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+  >Informationen zum Verbinden von Projekten mit Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-* Sie können Ergebnisse und Aktivitäten aus Zielen löschen, wenn sie für den Zielfortschritt nicht mehr relevant sind. Gelöschte Ergebnisse und Aktivitäten können nicht wiederhergestellt werden. Informationen zum Löschen von Ergebnissen und Aktivitäten finden Sie unter [Entfernen von Ergebnissen, Aktivitäten und Projekten aus Zielen in Adobe Workfront-Zielen](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
-* Sie können Ergebnisse und Aktivitäten bearbeiten, die mit Zielen verknüpft sind - auch in der Vergangenheit.
-* Bei der Bearbeitung von Ergebnissen und Aktivitäten werden deren Einstellungen aktualisiert und der Fortschritt nicht aktualisiert. Sie müssen den Fortschritt der Ergebnisse und Aktivitäten aktualisieren. Informationen zum Aktualisieren des Fortschritts bei Zielen, Ergebnissen und Aktivitäten finden Sie unter [Aktualisieren des Zielfortschritts in Adobe Workfront-Zielen](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
+* Sie können Ergebnisse und Aktivitäten aus Zielen löschen, wenn sie für den Zielfortschritt nicht mehr relevant sind. Gelöschte Ergebnisse und Aktivitäten können nicht wiederhergestellt werden. Informationen zum Löschen von Ergebnissen und Aktivitäten finden Sie unter [Entfernen von Ergebnissen, Aktivitäten und Projekten aus Zielen in Adobe Workfront Goals](../../workfront-goals/results-and-activities/remove-results-activities-from-goals.md).
+* Sie können Ergebnisse und Aktivitäten bearbeiten, die mit Zielen aus einem beliebigen Zeitraum in Verbindung stehen, auch aus der Vergangenheit.
+* Durch die Bearbeitung von Ergebnissen und Aktivitäten werden deren Einstellungen aktualisiert, ohne dass der Fortschritt aktualisiert wird. Sie müssen den Fortschritt der Ergebnisse und Aktivitäten aktualisieren. Informationen zum Aktualisieren des Fortschritts bei Zielen, Ergebnissen und Aktivitäten finden Sie unter [Aktualisieren des Zielfortschritts in Adobe Workfront Goals](../../workfront-goals/goal-review-and-workfront-goals-sections/check-in-goals.md).
 
 ## Ergebnisse bearbeiten
 
@@ -139,22 +139,22 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Klicken Sie auf das **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
-1. Klicken Sie in der Zielliste auf den Namen eines Ziels, um die Zielseite zu öffnen.
-1. Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** .
-1. Wählen Sie in der Liste Fortschrittsanzeigen ein Ergebnis aus und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) dann auf **Ziele**.
+1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite Ziel zu öffnen.
+1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
+1. Wählen Sie ein Ergebnis in der Liste der Fortschrittsanzeigen aus und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
-   Das Feld &quot;Ergebnis bearbeiten&quot;wird geöffnet.
+   Das Feld Ergebnis bearbeiten wird geöffnet.
 
    ![](assets/edit-result-box-unshimmed.png)
 
 1. Bearbeiten Sie die folgenden Informationen:
-   * **Ergebnisname**: Der Name des Ergebnisses. Verwenden Sie einen beschreibenden Namen, der zeigt, welches Ergebnis Sie benötigen, um das Ziel zu erreichen.
-   * **Result owner**: Der Eigentümer des Ergebnisses. Der Inhaber muss ein aktiver Workfront-Benutzer sein.
+   * **Ergebnisname**: Der Name des Ergebnisses. Verwenden Sie einen beschreibenden Namen, der veranschaulicht, welches Ergebnis Sie erreichen müssen, um das Ziel abzuschließen.
+   * **Ergebnisbesitzer**: Der Besitzer des Ergebnisses. Der Besitzer muss ein aktiver Workfront-Benutzer sein.
    * **Werttyp**: Wie Sie den Fortschritt des Ergebnisses messen.
-   * **Anfangswert**: Der Originalwert des Ergebnisses.
+   * **Anfangswert**: Der ursprüngliche Wert des Ergebnisses.
    * **Zielwert**: Der gewünschte Wert, wenn das Ergebnis abgeschlossen ist.
-Weitere Informationen zu Ergebnisfeldern finden Sie unter [Ergebnisse zu Zielen hinzufügen](../results-and-activities/add-results-to-goals.md).
+Weitere Informationen zu Ergebnisfeldern finden Sie unter [Hinzufügen von Ergebnissen zu Zielen](../results-and-activities/add-results-to-goals.md).
 1. Klicken Sie auf **Speichern**.
 
 ## Aktivitäten bearbeiten
@@ -184,9 +184,9 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Klicken Sie auf das **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Ziele**.
-1. Klicken Sie in der Zielliste auf den Namen eines Ziels, um die Zielseite zu öffnen.
-1. Klicken Sie im linken Bereich auf **Fortschrittsanzeigen** .
+1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) dann auf **Ziele**.
+1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite Ziel zu öffnen.
+1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
 1. Wählen Sie eine Aktivität in der Liste Fortschrittsanzeigen aus und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
    Das Feld Aktivität bearbeiten wird geöffnet.
@@ -194,9 +194,9 @@ Editing activities differs depending on which environment you use.
    ![](assets/edit-activity-box-unshimmed.png)
 
 1. Bearbeiten Sie die folgenden Informationen:
-   * **Aktivitätsname**: Der Name der Aktivität. Verwenden Sie einen beschreibenden Namen, der zeigt, welche Aktivität Sie durchführen sollten, um anzugeben, dass das Ziel abgeschlossen ist.
-   * **Aktivitätsinhaber:** Der Eigentümer der Aktivität. Der Inhaber muss ein aktiver Workfront-Benutzer sein.\
-     Weitere Informationen zu Aktivitätsfeldern finden Sie unter [Aktivitäten zu Zielen hinzufügen](../results-and-activities/add-activities-to-goals.md).
+   * **Aktivitätsname**: Der Name der Aktivität. Verwenden Sie einen beschreibenden Namen, der veranschaulicht, welche Aktivität Sie durchführen sollten, um anzugeben, dass das Ziel abgeschlossen ist.
+   * **Aktivitätsbesitzer:** Der Eigentümer der Aktivität. Der Besitzer muss ein aktiver Workfront-Benutzer sein.\
+     Weitere Informationen zu Aktivitätsfeldern finden Sie unter [Hinzufügen von Aktivitäten zu Zielen](../results-and-activities/add-activities-to-goals.md).
 1. Klicken Sie auf **Speichern**.
 
 

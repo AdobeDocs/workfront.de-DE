@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-with-anaplan
-title: Senden von [!DNL Adobe Workfront] Projektaktualisierungen an ein [!DNL Anaplan] Listenelement
-description: Dieses Integrationsszenario teilt Fortschritt, Status und wichtige Zeitplandetails aus einem [!DNL Adobe Workfront] Projekt mit einem [!DNL Anaplan] Budgetlistenelement. Durch die Freigabe dieser Informationen können Sie die Ausgabenoptimierung und die Finanzanalyse, die [!DNL Anaplan] bietet, besser nutzen.
+title: Projektaktualisierungen  [!DNL Adobe Workfront]  ein  [!DNL Anaplan]  senden
+description: Dieses Integrationsszenario teilt den Fortschritt, den Status und die wichtigsten Zeitplandetails aus einem  [!DNL Adobe Workfront]  mit  [!DNL Anaplan]  Budgetlistenelement. Durch die Weitergabe dieser Informationen können Sie die Ausgabenoptimierung und die Finanzanalyse, die  [!DNL Anaplan]  bietet, besser nutzen.
 author: Becky
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: 97e9dac6-f5b5-4d6e-b58b-93acd19048ee
@@ -13,60 +13,60 @@ ht-degree: 1%
 
 ---
 
-# Senden von [!DNL Adobe Workfront] -Projektaktualisierungen an ein [!DNL Anaplan] -Listenelement
+# Senden [!DNL Adobe Workfront] Projektaktualisierungen an ein [!DNL Anaplan] Listenelement
 
-Dieses Integrationsszenario teilt Fortschritt, Status und wichtige Zeitplandetails aus einem [!DNL Adobe Workfront] -Projekt mit einem [!DNL Anaplan] -Budgetlistenelement. Durch die Freigabe dieser Informationen können Sie die Ausgabenoptimierung und Finanzanalyse, die [!DNL Anaplan] bietet, besser nutzen.
+Dieses Integrationsszenario teilt den Fortschritt, den Status und die wichtigsten Zeitplandetails aus einem [!DNL Adobe Workfront] mit einem [!DNL Anaplan] Budgetlistenelement. Durch die Weitergabe dieser Informationen können Sie die von [!DNL Anaplan] bereitgestellten Funktionen zur Ausgabenoptimierung und Finanzanalyse besser nutzen.
 
 >[!IMPORTANT]
 >
->&quot;Kampagne&quot;in diesem Artikel bezieht sich auf den Anwendungsfall der Marketing-Kampagne, den dieses Szenario darstellt und in keiner Weise mit dem [!DNL Workfront Fusion] Adobe Campaign-Connector oder dem kürzlich veralteten [!UICONTROL Campaign] -Objekt in [!DNL Workfront] verknüpft ist.
+>„Kampagne“ in diesem Artikel bezieht sich auf den Anwendungsfall der Marketing-Kampagne, den dieses Szenario darstellt, und ist in keiner Weise mit dem [!DNL Workfront Fusion] Adobe Campaign-Connector oder dem kürzlich veralteten Objekt [!UICONTROL Kampagne] in [!DNL Workfront] verbunden.
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
    <td> <p>Workfront Fusion für Arbeitsautomatisierung und -integration </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</td> 
+   <td>Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-&#42;&#42;Informationen zu [!DNL Adobe Workfront Fusion] Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md)
+&#42;&#42;Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md)
 
-## Ereignis auslösen
+## Auslösendes Ereignis
 
-Dieses Szenario wird alle 15 Minuten ausgeführt.
+Dieses Szenario ist so geplant, dass es alle 15 Minuten ausgeführt wird.
 
-## Erwartete [!DNL Workfront] Konfiguration
+## Erwartete [!DNL Workfront]
 
-Sie müssen Folgendes in [!DNL Workfront] haben, um dieses Szenario zu verwenden:
+Sie müssen über Folgendes verfügen, [!DNL Workfront] dieses Szenario verwenden zu können:
 
-* Ein Benutzerprofil mit dem Namen **[!UICONTROL [!DNL Anaplan]Integration]** in [!DNL Workfront] mit Systemadministrator-Berechtigungen.
+* Ein Benutzerprofil in [!DNL Workfront] mit dem Namen **[!UICONTROL [!DNL Anaplan]Integration]**, das über Systemadministratorrechte verfügt.
 
   Informationen zum Erstellen eines Benutzers in [!DNL Workfront] finden Sie unter [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-* Ein benutzerdefiniertes **[!UICONTROL Kampagnenbeschreibung]** -Formular, das an das Projektobjekt angehängt ist, um benutzerdefinierte Datenwerte zu speichern, die Sie an Anaplan senden möchten.
+* Ein **[!UICONTROL Kampagnenübersicht]** benutzerdefiniertes Formular, das an das Projektobjekt angehängt ist, um benutzerdefinierte Datenwerte zu speichern, die Sie an Anaplan senden möchten.
 
-  Die folgenden Felder stellen Beispiele für Felder dar, die im benutzerdefinierten Formular enthalten sein können, um die Datenzuordnung zu Anaplan zu erleichtern. Für dieses Integrationsszenario sind sie jedoch nicht erforderlich:
+  Die folgenden Felder stellen Beispiele für Felder dar, die im benutzerdefinierten Formular enthalten sein können, um die Datenzuordnung zu Anaplan zu unterstützen, sie sind jedoch für dieses Integrationsszenario nicht erforderlich:
 
   <table style="table-layout:auto"> 
    <col> 
@@ -79,24 +79,24 @@ Sie müssen Folgendes in [!DNL Workfront] haben, um dieses Szenario zu verwenden
    </thead> 
    <tbody> 
     <tr> 
-     <td role="rowheader">[!UICONTROL In Market Start Date]</td> 
+     <td role="rowheader">[!UICONTROL in Market Start Date]</td> 
      <td>[!UICONTROL Datum] </td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Am Marktenddatum]</td> 
+     <td role="rowheader">[!UICONTROL in Market End Date]</td> 
      <td>[!UICONTROL Datum]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Campaign Übersicht]</td> 
-     <td>[!UICONTROL Absatztext-Feld]</td> 
+     <td role="rowheader">[!UICONTROL Kampagnenübersicht]</td> 
+     <td>[!UICONTROL Absatztextfeld]</td> 
     </tr> 
     <tr> 
      <td role="rowheader">[!UICONTROL Schlüsselmeldung]</td> 
-     <td>[!UICONTROL Absatztext-Feld]</td> 
+     <td>[!UICONTROL Absatztextfeld]</td> 
     </tr> 
     <tr> 
-     <td role="rowheader">[!UICONTROL Target Audience]</td> 
-     <td> <p>[!UICONTROL Dropdown]</p> <p>Schließen Sie Optionen ein, die zu Ihren Prozessen passen.</p> </td> 
+     <td role="rowheader">[!UICONTROL Zielgruppe]</td> 
+     <td> <p>[!UICONTROL Dropdown]</p> <p>Optionen einschließen, die zu Ihren Prozessen passen.</p> </td> 
     </tr> 
    </tbody> 
   </table>
@@ -111,14 +111,14 @@ Sie müssen Folgendes in [!DNL Workfront] haben, um dieses Szenario zu verwenden
 </note>
 -->
 
-## Erwartete [!DNL Anaplan] Konfiguration
+## Erwartete [!DNL Anaplan]
 
-Sie müssen Folgendes in [!DNL Anaplan] haben, um dieses Szenario zu verwenden:
+Sie müssen über Folgendes verfügen, [!DNL Anaplan] dieses Szenario verwenden zu können:
 
-* Ein Benutzerprofil mit dem Namen **[!UICONTROL [!DNL Workfront]Integration]** in [!DNL Anaplan] mit Systemadministrator-Berechtigungen.
-* Das [!DNL Anaplan]-Modell, das Sie für dieses Szenario verwenden möchten.
-* Die Liste innerhalb des [!DNL Anaplan]-Modells, das Sie für dieses Szenario verwenden möchten.
-* Eine Datei vom Typ **[!UICONTROL Import des Projekts aktualisieren]** mit den folgenden Spalten in dieser Reihenfolge:
+* Ein Benutzerprofil in [!DNL Anaplan] mit dem Namen **[!UICONTROL [!DNL Workfront]Integration]**, das über Systemadministratorrechte verfügt.
+* Das [!DNL Anaplan], das Sie für dieses Szenario verwenden möchten.
+* Die Liste innerhalb des [!DNL Anaplan], die Sie für dieses Szenario verwenden möchten.
+* Eine **[!UICONTROL Projektaktualisierungs-Import]**-Datei, die die folgenden Spalten in dieser Reihenfolge enthält:
 
 1. [!UICONTROL itemID]
 
@@ -136,51 +136,51 @@ Sie müssen Folgendes in [!DNL Anaplan] haben, um dieses Szenario zu verwenden:
 
 8. [!UICONTROL Geplante Kosten]
 
-9. [!UICONTROL Geplante Kosten]
+9. [!UICONTROL Geplante Ausgabenkosten]
 
-10. [!UICONTROL Tatsächliche Arbeitskosten]
+10. [!UICONTROL Ist-Lohnkosten]
 
 11. [!UICONTROL Geplante Arbeitskosten]
 
 12. [!UICONTROL Status]
 
-Vorbereiten der Datei [!UICONTROL [!DNL Anaplan] Geplanter Ausgabenimport] :
+So bereiten Sie die [!UICONTROL [!DNL Anaplan] Importdatei für geplante ] vor:
 
-1. Kopieren Sie Folgendes und fügen Sie es in einen Texteditor oder [!DNL Excel] ein
-1. Datei im CSV-Format speichern
+1. Folgendes kopieren und in einen Texteditor oder [!DNL Excel] einfügen
+1. Speichern Sie die Datei im CSV-Format
 1. Laden Sie die Datei in Anaplan hoch.
 
-   Anweisungen finden Sie in der [!DNL Anaplan] -Dokumentation zum Importieren von Daten in Module aus einer Datei.
+   Anweisungen finden Sie in der [!DNL Anaplan] Dokumentation zum Importieren von Daten aus einer Datei in -Module.
 
-1. Notieren Sie sich den Namen, den Sie der Datei gegeben haben. Er wird während der Bereitstellung der Szenario-Vorlage [!UICONTROL Fusion] verwendet.
+1. Notieren Sie sich den Namen, den Sie der Datei gegeben haben. Er wird während der Bereitstellung der Szenariovorlage [!UICONTROL Fusion] verwendet.
 
-Beispiel-CSV-Inhalte
+Beispiel für CSV-Inhalte
 
 <!-- [Copy](javascript:void(0);) -->
-<pre><code>"itemID","Workfront Project GUID","Campaign Name","Percent Complete","Planned Start Date","Planned Completion Date","Planned Hours","Planned Cost","Planned Expense Cost","Actual Labor Cost","Planned Labor Cost","Status","Campaign Overview","Key Message","In Market Start Date","In Market End Date","Target Audience"<br>"202000001019","6182bc1f0025e184b2c00d9205e22c49","Launch Be U APAC Styles Catalog","0","2022-03-31","2022-05-31","88.25","0","0","0","0","Planning","","","","",""</code></pre>Optionale Spalten können Folgendes umfassen:
+<pre><code>"itemID","Workfront Project GUID","Campaign Name","Percent Complete","Planned Start Date","Planned Completion Date","Planned Hours","Planned Cost","Planned Expense Cost","Actual Labor Cost","Planned Labor Cost","Status","Campaign Overview","Key Message","In Market Start Date","In Market End Date","Target Audience"<br>"202000001019","6182bc1f0025e184b2c00d9205e22c49","Launch Be U APAC Styles Catalog","0","2022-03-31","2022-05-31","88.25","0","0","0","0","Planning","","","","",""</code></pre>Optionale Spalten können Folgendes enthalten:
 
 1. [!UICONTROL Kampagnenübersicht]
 
-2. [!UICONTROL Schlüsselmeldung]
+2. [!UICONTROL Schlüsselbotschaft]
 
-3. [!UICONTROL  In Market Start Date]
+3. [!UICONTROL In Markt Startdatum]
 
-4. [!UICONTROL In Market-End-Datum]
+4. [!UICONTROL Marktenddatum]
 
-5. [!UICONTROL Target-Zielgruppe]
+5. [!UICONTROL Zielgruppe]
 
 Schließen Sie auch alle anderen Felder ein, die Sie in der Zuordnung festlegen möchten.
 
-* Ein **[!UICONTROL Import von Projektaktualisierungen]** -Prozess, der zum Ausführen des Imports von Daten vorbereitet wird, die beim Hochladen einer Datei bereitgestellt wurden.
+* Ein **[!UICONTROL Import von Projektaktualisierungen]**, der auf den Import von Daten vorbereitet ist, die über einen Datei-Upload bereitgestellt werden.
 
-Anweisungen zu diesen Aktionen finden Sie in der Dokumentation zu [!DNL Anaplan] .
+Anweisungen zu diesen Aktionen finden Sie in der [!DNL Anaplan]-Dokumentation.
 
-## Bereitstellen unter [!DNL Workfront Fusion]
+## Bereitstellen für [!DNL Workfront Fusion]
 
-Führen Sie die folgenden Schritte aus, um dieses Integrationsszenario in Ihrem Fusion-Konto bereitzustellen. Dies sollte erst nach Abschluss der erforderlichen [!DNL Workfront] - und [!DNL Anaplan] -Konfiguration erfolgen.
+Führen Sie die folgenden Schritte aus, um dieses Integrationsszenario in Ihrem Fusion-Konto bereitzustellen. Dies sollte erst nach Abschluss der erforderlichen [!DNL Workfront]- und [!DNL Anaplan]-Konfiguration erfolgen.
 
-1. Navigieren Sie zum Menü [!UICONTROL Vorlagen] in [!DNL Workfront Fusion] und klicken Sie auf die Vorlage **[!UICONTROL Workfront-Projektaktualisierungen an [!DNL Anaplan] Listenelement senden]** .
-1. Ersetzen Sie die Variablenwerte für die folgenden [!DNL Anaplan] -Variablen:
+1. Navigieren Sie zum Menü [!UICONTROL Vorlagen] in [!DNL Workfront Fusion] und klicken Sie auf die Szenariovorlage **[!UICONTROL Workfront-Projektaktualisierungen an [!DNL Anaplan] Listenelement senden]**.
+1. Ersetzen Sie die Variablenwerte für die folgenden [!DNL Anaplan]:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -194,59 +194,59 @@ Führen Sie die folgenden Schritte aus, um dieses Integrationsszenario in Ihrem 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL Anaplan] Workspace ID]</td> 
-      <td>Die ID eines Workspace aus Ihrem [!DNL Anaplan]-Konto.</td> 
+      <td>Die ID eines Arbeitsbereichs aus Ihrem [!DNL Anaplan].</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL [!DNL Anaplan] Modell-ID] </td> 
-      <td>Die ID eines Modells aus Ihrem [!DNL Anaplan] -Konto und dem ausgewählten Arbeitsbereich.</td> 
+      <td role="rowheader">[!UICONTROL [!DNL Anaplan]-Modell-ID] </td> 
+      <td>Die ID eines Modells aus Ihrem [!DNL Anaplan] und dem ausgewählten Arbeitsbereich.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Kampagnenlisten-Name]</td> 
-      <td>Der Name der Liste aus Ihrem [!DNL Anaplan] -Konto und der ausgewählte Arbeitsbereich und das ausgewählte Modell.</td> 
+      <td role="rowheader">[!UICONTROL Kampagnenlistenname]</td> 
+      <td>Der Name der Liste aus Ihrem [!DNL Anaplan] und dem ausgewählten Arbeitsbereich und Modell.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Dateiname: Import von Projektaktualisierungen]</td> 
-      <td>Der Name der Datei, an die die Projekt-Update-Daten gesendet werden.<p>(Beispiel: WorkfrontUpdateLinkedProject.csv)</p></td> 
+      <td role="rowheader">[!UICONTROL Dateiname: Projektaktualisierungs-Import]</td> 
+      <td>Der Name der Datei, die Projektaktualisierungsdaten erhält.<p>(Beispiel: WorkfrontUpdateLinkedProject.csv)</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Process Name: Project Update Import]</td> 
-      <td> <p>Der Name des Prozesses, der den Import von Projektdaten ausführt.</p> <p>(Beispiel: WF Int - Update der Kampagnendetails)</p> </td> 
+      <td role="rowheader">[!UICONTROL Prozessname: Projektaktualisierungs-Import]</td> 
+      <td> <p>Der Name des Prozesses, der den Import von Projektdaten ausführt.</p> <p>(Beispiel: WF int - Kampagnendetails aktualisieren)</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL [!DNL Workfront] Subdomain]</td> 
-      <td>Die Subdomäne Ihres [!DNL Workfront]-Kontos. Damit wird ein Link zu Ihrem [!DNL Workfront]-Projekt in einem Hinweis erstellt, der möglicherweise generiert wird.</td> 
+      <td>Die Subdomain Ihres [!DNL Workfront]. Auf diese Weise wird in einer eventuell generierten Anmerkung ein Link zurück zu Ihrem [!DNL Workfront]-Projekt erstellt.</td> 
      </tr> 
     </tbody> 
    </table>
 
-   Weitere Informationen zum Einrichten der Dateien und Prozesse finden Sie in der Dokumentation zur Einrichtung von [!DNL Anaplan] .
+   Einzelheiten zum Einrichten der Dateien und Prozesse finden Sie in der Dokumentation zur [!DNL Anaplan].
 
-1. Wählen Sie ein Verbindungsprofil vom Typ [!DNL Anaplan] aus oder fügen Sie es hinzu.
-1. Aktualisieren Sie bei Aufforderung alle verbleibenden [!DNL Anaplan] -Module mit einer [!DNL Anaplan] -Verbindung.
-1. Wählen Sie ein Verbindungsprofil vom Typ [!DNL Workfront] aus oder fügen Sie es hinzu.
+1. Wählen Sie ein [!DNL Anaplan] Verbindungsprofil aus oder fügen Sie es hinzu.
+1. Aktualisieren Sie alle verbleibenden [!DNL Anaplan]-Module mit einer [!DNL Anaplan] Verbindung, wenn Sie dazu aufgefordert werden.
+1. Wählen Sie ein [!DNL Workfront] Verbindungsprofil aus oder fügen Sie es hinzu.
 
-   Der Filter ist so konfiguriert, dass er alle unvollständigen verknüpften Projekte und Projekte abruft, die in den letzten 29 Minuten abgeschlossen wurden. Wenn Sie die Häufigkeit des [!DNL Fusion] -Szenarios ändern, sollten Sie diesen Wert aktualisieren, sobald die Szenario-Vorlage bereitgestellt wurde.
+   Der Filter ist so konfiguriert, dass er alle unvollständigen verknüpften Projekte und die Projekte abruft, die in den letzten 29 Minuten abgeschlossen wurden. Wenn Sie die Häufigkeit des [!DNL Fusion] ändern, sollten Sie diesen Wert nach der Bereitstellung der Szenariovorlage aktualisieren.
 
-1. Fügen Sie im Modul **[!UICONTROL Projekte erstellen - Aktualisierung von CSV]** eine neue Datenstruktur hinzu, um die Projektattribute CSV-Spalten zuzuordnen.
+1. Fügen Sie im **[!UICONTROL Build Projects Update CSV]**-Modul eine neue Datenstruktur hinzu, um die Projektattribute CSV-Spalten zuzuordnen.
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>[<br>    {<br>        "itemID": 1000001,<br>        "Workfront Project GUID":"text",<br>        "Campaign Name":"text",<br>        "Percent Complete": 10.01,<br>        "Planned Start Date":"2022-02-22",<br>        "Planned Completion Date":"2022-02-22",<br>        "Planned Hours": 12.5,<br>        "Planned Cost": 123.45,<br>        "Planned Expense Cost": 123.45,<br>        "Planned Labor Cost": 123.45,<br>        "Status": "CUR",<br>        "Campaign Overview":"text",<br>        "Key Message":"text",<br>        "In Market Start Date":"2022-02-22",<br>        "In Market End Date":"2022-02-22",<br>        "Target Audience":"text"<br>    }<br>]<br></code></pre>
 
-1. Aktualisieren Sie bei Aufforderung alle verbleibenden [!DNL Workfront] -Module mit einer [!DNL Workfront] -Verbindung.
+1. Aktualisieren Sie alle verbleibenden [!DNL Workfront]-Module mit einer [!DNL Workfront] Verbindung, wenn Sie dazu aufgefordert werden.
 
-## Andere empfohlene Szenario-Vorlagen
+## Andere empfohlene Szenariovorlagen
 
-Diese Szenario-Vorlage wird durch die folgenden Ausgabenoptimierungsszenarien ergänzt, die ebenfalls bereitgestellt werden können:
+Diese Szenariovorlage wird durch die folgenden Vorlagen für Ausgabenoptimierungsszenarien ergänzt, die ebenfalls bereitgestellt werden können:
 
-* [[!UICONTROL Sende [!DNL Adobe Workfront] tatsächliche Stunden-Aktualisierungen an ein  [!DNL Anaplan] Listenelement]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
-* [[!UICONTROL Senden [!DNL Adobe Workfront] der Ausgaben an einen  [!DNL Anaplan] Listeneintrag]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
+* [[!UICONTROL Senden von  [!DNL Adobe Workfront] -Stunden-Aktualisierungen an ein  [!DNL Anaplan] -Element]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-actual-hours-updates-to-anaplan-list-item.md)
+* [[!UICONTROL Senden [!DNL Adobe Workfront] Ausgaben an  [!DNL Anaplan] /Listenelement]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/send-workfront-project-expenses-to-anaplan-list-item.md)
 
-Zusätzliche Szenarien für die Verknüpfung von Budgetanforderungen:
+Zusätzliche Szenarien für die Verknüpfung von Budgetanfragen:
 
-* [[!UICONTROL Erstellen eines  [!DNL Anaplan] Listenelements aus einer  [!DNL Adobe Workfront] Budgetanforderung]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
-* [[!UICONTROL Anwenden einer [!DNL Anaplan] Budgetzuordnung auf ein [!DNL Adobe Workfront] Projekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
+* [[!UICONTROL Erstellen eines  [!DNL Anaplan] -Listenelements aus einer  [!DNL Adobe Workfront] -Anfrage]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-budget-request.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  ein Projekt  [!DNL Adobe Workfront] ]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-projects.md)
 
-Zusätzliche Szenarien für die Verknüpfung von Kampagnenanforderungen:
+Zusätzliche Szenarien für die Verknüpfung von Kampagnenanfragen:
 
-* [[!UICONTROL Erstellen eines  [!DNL Anaplan] Listenelements aus einer [!DNL Adobe Workfront] Kampagnenanforderung]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
-* [[!UICONTROL Anwenden einer [!DNL Anaplan] Budgetzuordnung auf eine [!DNL Adobe Workfront] Kampagnenanforderung oder ein Kampagnenprojekt]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)
+* [[!UICONTROL Erstellen eines  [!DNL Anaplan] -Listenelements aus einer  [!DNL Adobe Workfront] -Anfrage]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/create-an-anaplan-list-item-from-a-workfront-campaign-request.md)
+* [[!UICONTROL Budgetzuweisung  [!DNL Anaplan]  eine Kampagnenanfrage  [!DNL Adobe Workfront]  ein Kampagnenprojekt anwenden]](../../workfront-integrations-and-apps/adobe-workfront-with-anaplan/apply-anaplan-budget-allocation-to-workfront-campaign-requests-and-projects.md)

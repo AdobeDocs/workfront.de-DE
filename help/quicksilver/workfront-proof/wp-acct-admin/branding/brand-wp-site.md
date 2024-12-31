@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration
 navigation-topic: branding-workfront-proof
-title: Marke der [!DNL Workfront Proof] Site
-description: Als [!DNL Workfront Proof] Administrator können Sie Ihr [!DNL Workfront Proof] Konto mit einer Marke versehen, um Ihnen und Ihren Benutzern ein benutzerspezifischeres Erlebnis zu bieten.
+title: 'Branding der  [!DNL Workfront Proof] '
+description: Als  [!DNL Workfront Proof]  können Sie Ihr - [!DNL Workfront Proof]  mit einem Branding versehen, um Ihnen und Ihren Benutzern ein individuelleres Erlebnis zu bieten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b27b8e8c-2e25-484d-8928-355d15505eeb
@@ -14,100 +14,100 @@ ht-degree: 1%
 
 ---
 
-# Marke der [!DNL Workfront Proof]-Site
+# Branding der [!DNL Workfront Proof] Website
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront] Testversand. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf die Funktionalität im Standalone-Produkt [!DNL Workfront] Testversand. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Als [!DNL Workfront Proof] -Administrator können Sie Ihr [!DNL Workfront Proof] -Konto mit einer Marke versehen, um Ihnen und Ihren Benutzern ein benutzerspezifischeres Erlebnis zu bieten.
+Als [!DNL Workfront Proof] können Sie Ihr [!DNL Workfront Proof]-Konto mit einem Branding versehen, um Ihnen und Ihren Benutzern ein individuelleres Erlebnis zu bieten.
 
-Das Branding von Konten ist in allen Plänen kostenlos verfügbar.
+Das grundlegende Konto-Branding ist für alle Pläne ohne zusätzliche Kosten verfügbar.
 
-Informationen zum erweiterten Branding, einschließlich Branding der Kopfzeile, Menüleiste, Dashboard und mehr, finden Sie unter [Marke der [!DNL Workfront Proof] Site - erweitert](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). Erweitertes Branding ist nur bei Select- und Premium-Plänen verfügbar
+Weitere Informationen zum erweiterten Branding, einschließlich Branding für Kopfzeile, Menüleiste, Dashboard usw., finden Sie unter [Branding für  [!DNL Workfront Proof]  Website - Erweitert](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site-advanced.md). Erweitertes Branding ist nur für ausgewählte und Premium-Pläne verfügbar
 
-In den folgenden Abschnitten finden Sie Informationen dazu, wie Sie verschiedene Aspekte der [!DNL Workfront] Testversand-Site mit Branding versehen:
+In den folgenden Abschnitten finden Sie Informationen darüber, wie Sie verschiedene Aspekte der [!DNL Workfront] Proof-Website mit Markenbezeichnungen versehen:
 
-## Aktivieren von Branding auf der Anmeldeseite [!DNL Workfront Proof]
+## Aktivieren des Brandings auf der [!DNL Workfront Proof] Anmeldeseite
 
-So aktivieren Sie das Branding für Ihr Konto:
+So aktivieren Sie das Branding in Ihrem Konto:
 
-1. Melden Sie sich bei [!DNL Workfront Proof] als [!DNL Workfront Proof] -Administrator an.
-1. Klicken Sie in der oberen rechten Ecke der [!DNL Workfront Proof] -Benutzeroberfläche auf **[!UICONTROL Kontoeinstellungen]** .
+1. Melden Sie sich bei [!DNL Workfront Proof] als [!DNL Workfront Proof] an.
+1. Klicken **[!UICONTROL oben rechts]** der [!DNL Workfront Proof] auf „Kontoeinstellungen“.
 
-   Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings).
+   Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Einstellungen]**.
-1. Klicken Sie im Abschnitt **[!UICONTROL Branding]** auf **[!UICONTROL Aktivieren]**. Absatz 1
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Einstellungen“.
+1. Klicken Sie im Abschnitt **[!UICONTROL Branding]** auf **[!UICONTROL Aktivieren]**. 1)
 
-   ![Enable_branding.png](assets/enable-branding-350x177.png)
+   ![enable_branding.png](assets/enable-branding-350x177.png)
 
    Das Branding-Bild wird jetzt auf Ihrer Anmeldeseite angezeigt.
 
    >[!NOTE]
    >
-   >Das Branding-Bild wird nicht auf Ihrer Anmeldeseite angezeigt, wenn Sie über die Anmelde-URL für den Testversand auf die Haupt-URL zugreifen. [!DNL Workfront] Beispiel: `https://www.proofhq.com/login`. Sie wird nur angezeigt, wenn Sie über Ihre benutzerdefinierte Subdomain oder Ihre vollständig markierte Domäne auf die Anmeldeseite zugreifen. Geben Sie einfach Ihre Konto-URL in Ihren Browser ein, um auf Ihre benutzerdefinierte Anmeldeseite zuzugreifen. Beispiel: `http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
+   >Das Branding-Bild wird nicht auf Ihrer Anmeldeseite angezeigt, wenn Sie über die Hauptanmelde-URL für den [!DNL Workfront]-Korrekturabzug zugreifen. Beispiel: `https://www.proofhq.com/login`. Es wird nur angezeigt, wenn Sie über Ihre benutzerdefinierte Subdomain oder Ihre vollständig markenbezogene Domain auf die Anmeldeseite zugreifen. Um auf Ihre benutzerdefinierte Anmeldeseite zuzugreifen, geben Sie einfach Ihre Konto-URL in Ihren Browser ein. Beispiel: `http://<yoursubdomain>.proofhq.com.` <!--For more information about fully branded domains, see "Fully Branded Domains" in the article [Configure a branded domain in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/branding/configure-branded-domain-in-wp.md).-->
 
    ![Branding_-_Login_page.png](assets/branding---login-page-350x198.png)
 
-## Aktivieren von Branding bei Testsendungen
+## Aktivieren des Brandings für Korrekturabzüge
 
-So fügen Sie der Seite [!UICONTROL Testversand-Laden] jedes in Ihrem Konto erstellten Testversands Ihr eigenes Branding-Bild hinzu:
+So fügen Sie Ihr eigenes Branding-Bild zur Seite [!UICONTROL Laden von Korrekturabzügen] für jeden in Ihrem Konto erstellten Korrekturabzug hinzu:
 
-1. Melden Sie sich bei [!DNL Workfront Proof] als [!DNL Workfront Proof] -Administrator an.
-1. Klicken Sie in der oberen rechten Ecke der [!DNL Workfront Proof] -Benutzeroberfläche auf **[!UICONTROL Kontoeinstellungen]** .
+1. Melden Sie sich bei [!DNL Workfront Proof] als [!DNL Workfront Proof] an.
+1. Klicken **[!UICONTROL oben rechts]** der [!DNL Workfront Proof] auf „Kontoeinstellungen“.
 
-   Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings).
+   Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Einstellungen]**.
-1. Klicken Sie im Abschnitt **[!UICONTROL Branding]** auf **[!UICONTROL Setup]** neben **[!UICONTROL Proof branding]**. Absatz 1
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Einstellungen“.
+1. Klicken Sie im Abschnitt **[!UICONTROL Branding]** auf **[!UICONTROL Setup]** neben **[!UICONTROL Korrekturabzugs-Branding]**. 1)
 
    ![Proof_loading_page_setup.png](assets/proof-loading-page-setup-350x159.png)
 
-1. Wählen Sie aus dem Dropdown-Menü **[!UICONTROL Branding image]** aus.
-Wenn Sie **[!UICONTROL Deaktivieren]** auswählen, wird das [!DNL Workfront Proof] -Logo auf der Seite zum Laden des Testversands angezeigt
+1. Wählen Sie aus dem Dropdown-Menü **[!UICONTROL Branding-Bild]** aus.
+Wenn Sie **[!UICONTROL Deaktivieren]** auswählen, wird das [!DNL Workfront Proof]-Logo auf der Seite zum Laden des Korrekturabzugs angezeigt
 
-1. Klicken Sie auf **[!UICONTROL Speichern]**. Absatz 3
+1. Klicken Sie auf **[!UICONTROL Speichern]**. 3)
 
    ![Proof_loading_page_setup_2.png](assets/proof-loading-page-setup-2-350x164.png)
 
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]** , um das Branding-Bild (4) auszuwählen.
+1. Klicken Sie **[!UICONTROL Bearbeiten]**, um das Branding-Bild auszuwählen (4).
 
-   Sie können JPG, GIF oder PNGs verwenden. Transparenz wird unterstützt. Die empfohlene Bildgröße beträgt 150 x 300 Pixel. Die Größe Ihres Bildes auf den Anmelde- und Abmeldeseiten wird auf diese Dimensionen geändert.
+   Sie können JPGs, GIFs oder PNGs verwenden. Transparenz wird unterstützt. Die empfohlene Bildgröße ist 150 x 300 px. Die Größe des Bildes auf den Anmelde- und Abmeldeseiten wird auf diese Abmessungen geändert.
 
    ![Proof_loading_page_setup_3.png](assets/proof-loading-page-setup-3-350x116.png)
 
-1. Wählen Sie das Bild aus, das Sie hochladen möchten. 5.
+1. Wählen Sie das Bild aus, das Sie hochladen möchten. 5)
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Ihr Branding-Bild wird jetzt auf der Seite mit dem Testversand jedes Testversands angezeigt, der in Ihrem Konto erstellt wurde.
+   Ihr Branding-Bild wird jetzt auf der Seite Laden des Korrekturabzugs für jeden in Ihrem Konto erstellten Korrekturabzug angezeigt.
 
    ![Proof_loading_page_setup_4.png](assets/proof-loading-page-setup-4-350x97.png)
 
-## Branding von E-Mail-Benachrichtigungen
+## Branding-E-Mail-Benachrichtigungen
 
-Sie können Ihr Branding-Bild so konfigurieren, dass es in E-Mail-Benachrichtigungen enthalten ist, die an Validierungsverantwortliche gesendet werden. Die Größe dieses Bildes wird auf maximal 90 x 550 Pixel geändert.
+Sie können Ihr Branding-Bild so konfigurieren, dass es in E-Mail-Benachrichtigungen eingefügt wird, die an Validierungsverantwortliche gesendet werden. Dieses Bild wird auf die maximale Größe von 90x550px skaliert.
 
-So richten Sie E-Mail-Branding ein:
+So richten Sie das E-Mail-Branding ein:
 
-1. Melden Sie sich bei [!DNL Workfront Proof] als [!DNL Workfront Proof] -Administrator an.
-1. Klicken Sie in der oberen rechten Ecke der [!DNL Workfront Proof] -Benutzeroberfläche auf **[!UICONTROL Kontoeinstellungen]** .
+1. Melden Sie sich bei [!DNL Workfront Proof] als [!DNL Workfront Proof] an.
+1. Klicken **[!UICONTROL oben rechts]** der [!DNL Workfront Proof] auf „Kontoeinstellungen“.
 
-   Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings).
+   Weitere Informationen zu den verschiedenen Kontoeinstellungen, die Sie konfigurieren können, finden Sie unter [Kontoeinstellungen.](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings)
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Einstellungen]**.
-1. Klicken Sie im Abschnitt **[!UICONTROL Branding]** auf **[!UICONTROL Bearbeiten]** neben dem Bild der E-Mail-Anwendung (1).
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Einstellungen“.
+1. Klicken Sie im **[!UICONTROL Branding]** neben dem Bild der E **[!UICONTROL Mail]**Anwendung auf „Bearbeiten“ (1).
    ![Email_branding_setup_1.png](assets/email-branding-setup-1-350x227.png)
 
-1. Wählen Sie das Bild aus, das Sie für das Branding der E-Mails verwenden möchten. Absatz 2
+1. Wählen Sie das Bild aus, das Sie für das Branding der E-Mails verwenden möchten. 2)
 
-   Wenn Sie bereits ein E-Mail-Branding konfiguriert haben und es deaktivieren möchten, klicken Sie auf **[!UICONTROL Löschen]**. Absatz 4
+   Wenn Sie bereits ein E-Mail-Branding konfiguriert haben und es deaktivieren möchten, klicken Sie auf **[!UICONTROL Löschen]**. 4)
 
    ![Email_branding_setup_2.png](assets/email-branding-setup-2-350x96.png)
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Das Bild wird nun in allen E-Mails mit Testversandbenachrichtigungen angezeigt. Absatz 3
+   Das Bild wird jetzt in allen Korrekturabzugs-Benachrichtigungs-E-Mails angezeigt. 3)
 
    ![Branding_-_email_notification.png](assets/branding---email-notification-350x195.png)
 
@@ -133,6 +133,6 @@ So richten Sie E-Mail-Branding ein:
 
 ## Unterdrückung von Schaltflächen und Links über die API
 
-Wenn Sie einen Testversand über die API [!DNL Workfront Proof] erstellen, können Sie Schaltflächen und Links unterdrücken und eigene benutzerspezifische Links erstellen.
+Wenn Sie einen Korrekturabzug über die [!DNL Workfront Proof]-API erstellen, können Sie Schaltflächen und Links unterdrücken und eigene benutzerdefinierte Links erstellen.
 
-Weitere Informationen finden Sie unter [[!DNL Workfront Proof] API](https://api.proofhq.com/) .
+Siehe [[!DNL Workfront Proof] API](https://api.proofhq.com/) für weitere Informationen.

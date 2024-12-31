@@ -1,8 +1,8 @@
 ---
 product-area: workfront-integrations
 navigation-topic: workfront-for-slack
-title: Suchen Sie nach [!DNL Adobe Workfront] Elementen aus  [!DNL Slack] .
-description: Sie können in der installierten App [!DNL Slack], if your instance of Slack has had the [!DNL Workfront] nach [!DNL Adobe Workfront] Elementen suchen.
+title: Nach Elementen  [!DNL Adobe Workfront] aus [!DNL Slack]
+description: Sie können nach Elementen  [!DNL Adobe Workfront]  der  [!DNL Slack], if your instance of Slack has had the [!DNL Workfront]  App suchen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 85821f21-d4fd-4f28-bd7a-0c109a4433a8
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 # Suche nach [!DNL Adobe Workfront] Elementen aus [!DNL Slack]
 
-Sie können in [!DNL Slack] nach [!DNL Adobe Workfront] Elementen suchen, wenn die [!DNL Workfront] -App in Ihrer Instanz von [!DNL Slack] installiert ist.
+Sie können in [!DNL Slack] nach [!DNL Adobe Workfront] Elementen suchen, wenn die [!DNL Workfront]-App in Ihrer Instanz von [!DNL Slack] installiert war.
 
-Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit [!DNL Slack] finden Sie unter [Konfigurieren [!DNL Adobe Workfront] für  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Weitere Informationen zum Konfigurieren von [!DNL Workfront] mit [!DNL Slack] finden Sie unter [Konfigurieren [!DNL Adobe Workfront] für [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
 ## Zugriffsanforderungen
 
@@ -30,27 +30,27 @@ Sie müssen über Folgendes verfügen:
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront] plan]</a>*</td> 
+   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">[!DNL [!DNL Adobe Workfront]]</a>*</td> 
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.\
+&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.\
 
 ## Voraussetzungen
 
-Bevor Sie in [!DNL Slack] nach [!DNL Workfront] Elementen suchen können, müssen Sie
+Bevor Sie nach [!DNL Workfront] Elementen in [!DNL Slack] suchen können, müssen Sie
 
-* [!DNL Workfront] für [!DNL Slack] konfigurieren\
+* Konfigurieren von [!DNL Workfront] für [!DNL Slack]\
    Anweisungen zum Konfigurieren von [!DNL Workfront for Slack] finden Sie unter [Konfigurieren [!DNL Adobe Workfront for Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-## Suchen Sie nach [!DNL Workfront] Elementen aus [!DNL Slack]:
+## Suche nach [!DNL Workfront] Elementen aus [!DNL Slack]:
 
-1. Melden Sie sich bei Ihrer [!DNL Slack] -Instanz an und melden Sie sich von [!DNL Slack] bei [!DNL Workfront] an.\
-   Weitere Informationen zur Anmeldung bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt &quot;Anmeldung bei [!DNL Workfront] von [!DNL Slack]&quot;unter [Zugriff [!DNL Adobe Workfront]  von  [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
+1. Melden Sie sich bei Ihrer [!DNL Slack]-Instanz an und melden Sie sich von [!DNL Slack] aus bei [!DNL Workfront] an.\
+   Weitere Informationen zum Anmelden bei [!DNL Workfront] von [!DNL Slack] finden Sie im Abschnitt „Anmelden bei [!DNL Workfront] von [!DNL Slack]&quot; in [Zugriff [!DNL Adobe Workfront] von [!DNL Slack]](../../workfront-integrations-and-apps/using-workfront-with-slack/access-workfront-from-slack.md).
 
-1. Geben Sie von jedem Kanal aus einen der folgenden Befehle in das Meldungsfeld ein:
+1. Geben Sie in einem beliebigen Kanal einen der folgenden Befehle in das Feld Nachricht ein:
 
    `/workfront search <keyword>`
 
@@ -60,9 +60,9 @@ Bevor Sie in [!DNL Slack] nach [!DNL Workfront] Elementen suchen können, müsse
 
    >[!NOTE]
    >
-   >Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden. Beim Keyword wird nicht zwischen Groß- und Kleinschreibung unterschieden und es muss ohne Klammern oder Anführungszeichen eingegeben werden.
+   >Bei Befehlen wird zwischen Groß- und Kleinschreibung unterschieden. Bei dem Schlüsselwort wird nicht zwischen Groß- und Kleinschreibung unterschieden und es muss ohne Klammern oder Anführungszeichen eingegeben werden.
 
-1. Wählen Sie in dem angezeigten Feld einen Objekttyp aus den folgenden Elementen aus:
+1. Wählen Sie im angezeigten Feld einen der folgenden Objekttypen:
 
    * Projekt
    * Aufgabe
@@ -78,6 +78,6 @@ Bevor Sie in [!DNL Slack] nach [!DNL Workfront] Elementen suchen können, müsse
    * Notiz
 
      Sie können jeweils nur einen Objekttyp auswählen.\
-      Eine Liste der Elemente, die den Suchkriterien entsprechen, wird angezeigt.
+      Es wird eine Liste der Elemente angezeigt, die den Suchkriterien entsprechen.
 
 1. Klicken Sie auf den Namen eines Elements, um es in [!DNL Workfront] in einer neuen Browser-Registerkarte zu öffnen.
