@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Mathematische Variablen in [!DNL Adobe Workfront Fusion]
-description: Die folgenden mathematischen Variablen sind im Bereich [!DNL Adobe Workfront Fusion mapping] verfügbar.
+description: Die folgenden mathematischen Variablen sind im - [!DNL Adobe Workfront Fusion mapping]  verfügbar.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2fb561d2-0780-4fd6-87b3-5360a02df177
@@ -21,7 +21,7 @@ ht-degree: 3%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col>  
@@ -29,44 +29,44 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <tbody>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td>  
-   <td> <p>Alle</p> </td>  
+   <td> <p>Beliebig</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>  
-   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td>  
+   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Work] oder höher</p> </td>  
   </tr>  
   <tr>  
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td>  
    <td> 
-   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p> 
+   <p>Aktuell: Keine [!DNL Workfront Fusion].</p> 
    <p>Oder</p> 
-   <p>Veraltet: Beliebig </p> 
+   <p>Legacy: Beliebig </p> 
    </td>  
   </tr>  
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</li><li>[!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
    <p>Oder</p> 
-   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p> 
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## pi
+## Pi
 
-Steht für das mathematische Symbol $\pi$.
+Stellt das mathematische Symbol $\pi$ dar.
 
-## [!UICONTROL random]
+## [!UICONTROL zufällig]
 
-Gibt eine Gleitkommazahl-Zufallszahl im Bereich [`0`, `1`] (einschließlich `0`, aber nicht `1`) zurück.
+Gibt eine pseudo-zufällige Gleitkommazahl im Bereich [`0`,`1`] zurück (einschließlich `0`, aber nicht `1`).
 
-Verwenden Sie die folgende Formel, um eine Integer-Pseudo-Zufallszahl im Bereich [`min`, `max`] (einschließlich sowohl `min` als auch `max`) zu generieren:
+Verwenden Sie die folgende Formel, um eine ganzzahlige pseudo-zufällige Zahl im Bereich [`min`,`max`] zu generieren (einschließlich sowohl `min` als auch `max`):
 
 ![](assets/math-variable-random-350x61.png)
 

@@ -2,10 +2,10 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;documents
-keywords: Connector
+keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Box-Module
-description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die Box verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden. überwacht einen angegebenen Ordner, um nach Dateiänderungen zu suchen, vorhandene Dateien zu ändern und zu löschen oder neue Dateien in einen Ordner hochzuladen.
+description: In einem  [!DNL Adobe Workfront Fusion]  können Sie Workflows automatisieren, die Box verwenden, und es mit mehreren Anwendungen und Services von Drittanbietern verbinden. Überwacht einen angegebenen Ordner, um auf Dateiänderungen zu prüfen, vorhandene Dateien zu ändern und zu löschen oder neue Dateien in einen Ordner hochzuladen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 965ce570-40bf-474d-b318-0d2de8be6b9d
@@ -18,54 +18,54 @@ ht-degree: 0%
 
 # Box-Module
 
-In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL Box] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden. überwacht einen angegebenen Ordner, um nach Dateiänderungen zu suchen, vorhandene Dateien zu ändern und zu löschen oder neue Dateien in einen Ordner hochzuladen.
+In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL Box] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden. Überwacht einen angegebenen Ordner, um auf Dateiänderungen zu prüfen, vorhandene Dateien zu ändern und zu löschen oder neue Dateien in einen Ordner hochzuladen.
 
-Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Anweisungen zum Erstellen eines Szenarios finden Sie unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td>
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebene Funktionalität nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Um [!DNL Box] -Module zu verwenden, müssen Sie über ein [!DNL Box] -Konto verfügen.
+Um [!DNL Box]-Module verwenden zu können, müssen Sie über ein [!DNL Box]-Konto verfügen.
 
-## Feld-API-Informationen
+## Box-API-Informationen
 
 Der Box-Connector verwendet Folgendes:
 
@@ -91,9 +91,9 @@ Der Box-Connector verwendet Folgendes:
 
 ## [!DNL Box] Module und ihre Felder
 
-Wenn Sie [!DNL Box] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Box] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Beim Konfigurieren [!DNL Box] Module zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder dem Service weitere [!DNL Box] angezeigt werden. Ein fett gedruckter Titel in einem Modul gibt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn die Zuordnungsschaltfläche über einem Feld oder einer Funktion angezeigt wird, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Zuordnen von Informationen zu einem anderen Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -104,7 +104,7 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 #### [!UICONTROL Neues Ereignis]
 
-Dieses Instant Trigger-Modul startet ein Szenario, wenn eine Datei hinzugefügt, verschoben, kopiert, gelöscht, gesperrt oder entsperrt wird.
+Dieses Instant Trigger-Modul startet ein Szenario, in dem eine Datei hinzugefügt, verschoben, kopiert, gelöscht, gesperrt oder entsperrt wird.
 
 <table style="table-layout:auto">
  <col> 
@@ -112,18 +112,18 @@ Dieses Instant Trigger-Modul startet ein Szenario, wenn eine Datei hinzugefügt,
  <tbody> 
   <tr> 
    <td role="rowheader">[!UICONTROL Webhook]</td> 
-   <td> <p>Wählen Sie den Webhook aus, den Sie zum Anzeigen ausgehender Nachrichten verwenden möchten. Um einen Webhook hinzuzufügen, klicken Sie auf <strong>[!UICONTROL Add]</strong> und geben Sie den Namen und die Verbindung des Webhooks ein.</p> <p> Anweisungen zum Verbinden Ihres [!UICONTROL Box]-Kontos mit [!UICONTROL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webdiensts des Moduls mit [!UICONTROL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Wählen Sie den Webhook aus, mit dem Sie ausgehende Nachrichten beobachten möchten. Um einen Webhook hinzuzufügen, klicken Sie auf <strong>[!UICONTROL Hinzufügen]</strong> und geben Sie den Namen und die Verbindung des Webhooks ein.</p> <p> Anweisungen zum Verbinden Ihres [!UICONTROL Box]-Kontos mit [!UICONTROL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/scenarios/create-a-scenario.md#connect" class="MCXref xref">Verbinden der App oder des Webservices des Moduls mit [!UICONTROL Workfront Fusion]</a> im Artikel <a href="../../workfront-fusion/scenarios/create-a-scenario.md" class="MCXref xref">Erstellen eines Szenarios in [!UICONTROL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>[!UICONTROL Maximale Anzahl an zurückgegebenen Ereignissen]</p> </td> 
-   <td> <p>Geben Sie die höchste Anzahl von Ereignissen ein, die das Modul während der Ausführung jedes Szenarios zurückgeben soll.</p> </td> 
+   <td role="rowheader"> <p>[!UICONTROL Maximale Anzahl der zurückgegebenen Ereignisse]</p> </td> 
+   <td> <p>Geben Sie die höchste Anzahl von Ereignissen ein, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 #### [!UICONTROL Dateien ansehen]
 
-Dieses Trigger-Modul startet ein Szenario, wenn eine neue Datei hinzugefügt oder eine bestehende Datei in einem überwachten Ordner aktualisiert wird.
+Dieses Dateimodul startet ein Szenario, wenn eine neue Trigger hinzugefügt oder eine vorhandene Datei in einem überwachten Ordner aktualisiert wird.
 
 <table style="table-layout:auto">
  <col> 
@@ -132,43 +132,43 @@ Dieses Trigger-Modul startet ein Szenario, wenn eine neue Datei hinzugefügt ode
   <tr> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Box]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   <tr> 
-   <td role="rowheader">Watch</td> 
-   <td> <p>Wählen Sie den Dateityp aus, den Sie sehen möchten.</p> 
+   <td role="rowheader">Beobachten</td> 
+   <td> <p>Wählen Sie den Typ der Dateien aus, die Sie beobachten möchten.</p> 
     <ul> 
-     <li> <p><strong>Nur neue Dateien</strong> </p> <p>Das Szenario beginnt mit dem Hinzufügen einer neuen Datei.</p> </li> 
-     <li> <p><strong>Neue Dateien und alle Änderungen</strong> </p> <p>Das Szenario beginnt, wenn eine Datei hinzugefügt oder der Dateiinhalt oder ein Dateiattribut (z. B. sein Name) geändert wird.</p> </li> 
+     <li> <p><strong>Nur neue Dateien</strong> </p> <p>Das Szenario beginnt, wenn eine neue Datei hinzugefügt wird.</p> </li> 
+     <li> <p><strong>Neue Dateien und alle Änderungen</strong> </p> <p>Das Szenario beginnt, wenn eine Datei hinzugefügt wird oder wenn der Dateiinhalt oder ein Dateiattribut (z. B. der Name) geändert wird.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Maximale Anzahl heruntergeladener Dateien</p> </td> 
-   <td> <p>Geben Sie die höchste Anzahl von Dateien ein, die das Modul während der Ausführung jedes Szenarios zurückgeben soll.</p> </td> 
+   <td> <p>Geben Sie die höchste Anzahl von Dateien ein, die das Modul bei jedem Ausführungszyklus des Szenarios zurückgeben soll.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Aktionen
 
-* [[!UICONTROL  Hochladen] einer Datei](#upload-a-file)
-* [[!UICONTROL Aktualisieren einer Datei]](#update-a-file)
+* [[!UICONTROL Hochladen] einer Datei](#upload-a-file)
+* [[!UICONTROL Datei aktualisieren]](#update-a-file)
 * [[!UICONTROL Datei löschen]](#delete-a-file)
 * [[!UICONTROL Datei abrufen]](#get-a-file)
 
-#### [!UICONTROL  Datei hochladen]
+#### [!UICONTROL Datei hochladen]
 
 Dieses Aktionsmodul lädt eine Datei hoch.
 
 Sie geben die Datei an. Sie können auch einen neuen Dateinamen für die Datei angeben.
 
-Das Modul gibt die Kennung der Datei und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID der Datei und aller zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Box]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -182,29 +182,29 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 >
 >Wenn dieses Modul nicht erfolgreich ist, sollten Sie Folgendes beachten:
 >
->* Die Dateigröße kann die maximale Dateigrößenbeschränkung für Ihren [!DNL Box]-Plan überschreiten, oder Sie haben möglicherweise das Speicherkontingent Ihres [!DNL Box]-Kontos verwendet. Um mehr Speicherplatz zu erhalten, löschen Sie vorhandene Dateien aus [!DNL Box] oder aktualisieren Sie Ihr [!DNL Box] -Konto.
->* [!DNL Box] lädt nicht mehr als eine Datei mit demselben Namen in einen einzelnen Ordner hoch. Wenn der Zielordner eine Datei mit demselben Namen wie die hochgeladene Datei enthält, wird die Ausführung des Szenarios mit einem Fehler beendet. Benennen Sie die Datei um, um dies zu vermeiden. Wenn Sie die Datei aktualisieren möchten, verwenden Sie das Modul **[!UICONTROL Datei aktualisieren]** .
+>* Die Größe der Datei kann die maximale Dateigröße für Ihren [!DNL Box] überschreiten oder Sie haben möglicherweise das Speicherkontingent Ihres [!DNL Box]-Kontos ausgeschöpft. Um mehr Speicherplatz zu erhalten, löschen Sie vorhandene Dateien aus [!DNL Box] oder aktualisieren Sie Ihr [!DNL Box].
+>* [!DNL Box] lädt nicht mehr als eine Datei mit demselben Namen in einen einzelnen Ordner hoch. Wenn der Zielordner eine Datei mit demselben Namen wie die hochgeladene Datei enthält, wird die Ausführung des Szenarios mit einem Fehler beendet. Um dies zu vermeiden, benennen Sie die Datei um. Wenn Sie die Datei aktualisieren möchten, verwenden Sie das Modul **[!UICONTROL Datei aktualisieren]**.
 
-#### [!UICONTROL Aktualisieren einer Datei]
+#### [!UICONTROL Datei aktualisieren]
 
 Dieses Aktionsmodul aktualisiert eine Datei.
 
-Sie geben die Kennung der Datei an.
+Sie geben die ID der Datei an.
 
-Das Modul gibt die Kennung der Datei und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID der Datei und aller zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Box]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL Datei-ID]</td> 
-   <td>Geben Sie die eindeutige ID der Datei ein oder ordnen Sie sie zu, die das Modul aktualisieren soll.</td> 
+   <td>Geben Sie die eindeutige ID der Datei ein, die das Modul aktualisieren soll, oder mappen Sie sie.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source-Datei]</td> 
@@ -217,22 +217,22 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 Dieses Aktionsmodul löscht eine Datei.
 
-Sie geben die Kennung der Datei an.
+Sie geben die ID der Datei an.
 
-Das Modul gibt die Kennung der Datei und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID der Datei und aller zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Box]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL Datei-ID]</td> 
-   <td>Geben Sie die eindeutige ID der Datei ein oder ordnen Sie sie zu, die das Modul aktualisieren soll.</td> 
+   <td>Geben Sie die eindeutige ID der Datei ein, die das Modul aktualisieren soll, oder mappen Sie sie.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -241,26 +241,26 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 Dieses Aktionsmodul lädt eine Datei herunter.
 
-Sie geben die Kennung der Datei an.
+Sie geben die ID der Datei an.
 
-Das Modul gibt die Kennung der Datei und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID der Datei und aller zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
 >[!NOTE]
 >
 >Dieses Modul ist nützlich, um Dateien für nachfolgende Module bereitzustellen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Box]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   <tr> 
    <td role="rowheader">[!UICONTROL Datei-ID]</td> 
-   <td>Geben Sie die eindeutige ID der Datei ein oder ordnen Sie sie zu, die das Modul aktualisieren soll.</td> 
+   <td>Geben Sie die eindeutige ID der Datei ein, die das Modul aktualisieren soll, oder mappen Sie sie.</td> 
   </tr> 
  </tbody> 
 </table>

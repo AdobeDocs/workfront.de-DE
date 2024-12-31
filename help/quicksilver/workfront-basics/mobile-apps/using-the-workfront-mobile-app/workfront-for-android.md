@@ -3,7 +3,7 @@ content-type: overview
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
 title: Adobe Workfront für Android
-description: Mit der [!DNL Adobe Workfront] App können Sie auf jedem Android-Gerät auf Ihre Arbeit zugreifen. Sie können die  [!DNL Workfront] Mobile App auf Smartphones und Tablets installieren und verwenden, auf denen Android 5.0 oder höher ausgeführt wird.
+description: Die  [!DNL Adobe Workfront] -App ermöglicht den Zugriff auf Ihre Arbeit auf jedem Android-Gerät. Sie können die Mobile App  [!DNL Workfront]  Smartphones und Tablets mit Android 5.0 oder höher installieren und verwenden.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4bc209b8-18da-4f6f-97bd-699356269179
@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # [!DNL Adobe Workfront] für [!DNL Android]
 
-Mit der [!DNL Adobe Workfront] -App können Sie auf jedem beliebigen [!DNL Android] -Gerät auf Ihre Arbeit zugreifen. Sie können die [!DNL Workfront] -Mobile App auf Smartphones und Tablets installieren und verwenden, auf denen [!DNL Android] 5.0 oder höher ausgeführt wird.
+Mit der [!DNL Adobe Workfront] App können Sie auf jedem [!DNL Android] Gerät auf Ihre Arbeit zugreifen. Sie können die Mobile App [!DNL Workfront] auf Smartphones und Tablets installieren und verwenden, die [!DNL Android] 5.0 oder höher ausgeführt werden.
 
-Informationen zur Anmeldung bei der Mobile App finden Sie im Abschnitt [Anmelden bei der  [!DNL Workfront] Mobile App](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) im Artikel [Anmelden bei [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Informationen zur Anmeldung bei der App finden Sie im Abschnitt [Anmelden bei der  [!DNL Workfront] Mobile App](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md#log) im Artikel [Anmelden bei [!DNL Adobe Workfront]](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
 ## [!UICONTROL Startseite]
 
-Im Bereich [!UICONTROL Home] können Sie direkt an Aufgaben, Problemen und Genehmigungen arbeiten, die Ihnen zugewiesen sind. Im Bereich [!UICONTROL Startseite] der App haben Sie folgende Möglichkeiten:
+Im Bereich [!UICONTROL Startseite] können Sie direkt an Aufgaben, Problemen und Genehmigungen arbeiten, die Ihnen zugewiesen wurden. Im Bereich [!UICONTROL Startseite] der App haben Sie folgende Möglichkeiten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -31,38 +31,38 @@ Im Bereich [!UICONTROL Home] können Sie direkt an Aufgaben, Problemen und Geneh
   <tr> 
    <td> 
     <ul> 
-     <li>Arbeiten mit Aufgaben und Problemen beginnen</li> 
-     <li>Kennzeichnen von Aufgaben und Problemen als [!UICONTROL Fertig]</li> 
+     <li>Beginn der Arbeit an Aufgaben und Problemen</li> 
+     <li>Aufgaben und Probleme als erledigt markieren [!UICONTROL]</li> 
      <li>Aufgaben und Probleme neu zuweisen</li> 
-     <li>[!UICONTROL Zusagedatum ändern]</li> 
+     <li>Ändern des [!UICONTROL Commit-Datums]</li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li>Aktualisierung des Status von Aufgaben und Problemen</li> 
-     <li>Post im Bereich "Updates"</li> 
+     <li>Aufgaben- und Problemstatus aktualisieren</li> 
+     <li>Beitrag im Bereich Updates</li> 
      <li>Dokumente anzeigen</li> 
      <li>Fotos anhängen</li> 
-     <li> <p>Erstellen einer Anforderung oder einer Schnellaufgabe</p> <p>Hinweis: Schnellaufgaben, die zu Hause erstellt wurden, sind persönliche Aufgaben, es sei denn, Sie wählen die Zuweisung eines Projekts.</p> </li> 
+     <li> <p>Erstellen einer Anfrage oder einer Schnellaufgabe</p> <p>Hinweis: Schnellaufgaben, die in der Startseite erstellt werden, sind persönliche Aufgaben, es sei denn, Sie weisen ein Projekt zu.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Home] area widgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) und [[!UICONTROL My Work] in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
+Weitere Informationen finden Sie unter [[!UICONTROL Startseite] Bereichswidgets](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/home-area-widgets-mobile.md) und [[!UICONTROL Meine Arbeit] in der Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/my-work-section-mobile.md).
 
-![Startbereich](assets/mobile-home-area.png)
+![Home-Bereich](assets/mobile-home-area.png)
 
 ## [!UICONTROL Pinnwände]
 
-Im Bereich [!UICONTROL Pinnwände] können Sie auf Ihre [!DNL Workfront] Pinnwände zugreifen.
+Im [!UICONTROL Boards] Bereich können Sie auf Ihre [!DNL Workfront] Boards zugreifen.
 
-![ Bereich &quot;Pinnwände&quot;](assets/mobile-all-boards-displayed.png)
+![Bereich Pinnwände](assets/mobile-all-boards-displayed.png)
 
 Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] [!UICONTROL Pinnwände] für Mobilgeräte](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/mobile-boards.md).
 
 ## [!UICONTROL Projekte]
 
-Im Bereich [!UICONTROL Projekte] können Sie mit Projekten interagieren und Projekte verwalten, deren Inhaber Sie sind. Im Bereich [!UICONTROL Projekte] der App haben Sie folgende Möglichkeiten:
+Der [!UICONTROL Projekte] Bereich ermöglicht die Interaktion und Verwaltung von Projekten, deren Inhaber Sie sind, sowie von Projekten, an denen Sie mitarbeiten. Im Bereich [!UICONTROL Projekte] der App haben Sie folgende Möglichkeiten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -71,27 +71,27 @@ Im Bereich [!UICONTROL Projekte] können Sie mit Projekten interagieren und Proj
   <tr> 
    <td> 
     <ul> 
-     <li>Aktualisieren des Projektstatus</li> 
+     <li>Projektstatus aktualisieren</li> 
      <li>Wichtige Projektdetails anzeigen</li> 
-     <li>Post im Bereich [!UICONTROL Updates]</li> 
-     <li>Konvertieren von Aufgaben, Problemen und Anforderungen in Projekte</li> 
+     <li>Beitrag im Bereich [!UICONTROL Updates]</li> 
+     <li>Aufgaben, Probleme und Anfragen in Projekte konvertieren</li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li>Interaktion mit Projektaufgaben und -problemen</li> 
      <li>Dokumente anzeigen</li> 
      <li>Fotos anhängen</li> 
-     <li> <p>Kurzaufgabe erstellen</p> <p>Hinweis: In einem Projekt erstellte Aufgaben werden automatisch dem Projekt zugewiesen, in dem Sie sich befinden. </p> </li> 
+     <li> <p>Erstellen einer Schnellaufgabe</p> <p>Hinweis: In einem Projekt erstellte Aufgaben werden automatisch dem Projekt zugewiesen, in dem Sie sich befinden. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-![Projektbereich](assets/mobile-projects-area.png)
+![Bereich „Projekte](assets/mobile-projects-area.png)
 
 ## [!UICONTROL Genehmigungen]
 
-Im Bereich [!UICONTROL Genehmigungen] können Sie die Ihnen zugewiesenen oder zugewiesenen Genehmigungen anzeigen und genehmigen. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
+Im [!UICONTROL Genehmigungen] können Sie zugewiesene oder an Sie delegierte Genehmigungen anzeigen und genehmigen. Im Bereich [!UICONTROL Genehmigungen] können Sie Folgendes genehmigen:
 
 <table style="table-layout:auto">
  <col>
@@ -113,24 +113,24 @@ Im Bereich [!UICONTROL Genehmigungen] können Sie die Ihnen zugewiesenen oder zu
  </tbody>
 </table>
 
-Weitere Informationen zu Genehmigungen finden Sie unter [Genehmigungen in der  [!DNL Adobe Workfront] Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
+Weitere Informationen zu Genehmigungen finden Sie unter [Genehmigungen in der Mobile [!DNL Adobe Workfront] App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/approvals-in-mobile-app.md).
 
-Informationen zum Überprüfen und Genehmigen von Testsendungen finden Sie unter [Überprüfen und Treffen von Entscheidungen zu Testsendungen in der  [!DNL Adobe Workfront] mobilen App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
+Informationen zur Überprüfung und Genehmigung von Korrekturabzügen finden Sie unter [Überprüfen und Treffen von Entscheidungen zu Korrekturabzügen in der  [!DNL Adobe Workfront] -Mobile-App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md).
 
-![Zulassungsliste in der App](assets/mobile-approvals-adobe-350x574.png)
+![Genehmigungsliste in der Mobile App](assets/mobile-approvals-adobe-350x574.png)
 
 ## [!UICONTROL Benachrichtigungen]
 
-Im Bereich [!UICONTROL Benachrichtigungen] können Sie In-App-Benachrichtigungen zu Ihrer Arbeit anzeigen und darauf reagieren.
+Im [!UICONTROL Benachrichtigungen] können Sie In-App-Benachrichtigungen für Ihre Arbeit anzeigen und darauf reagieren.
 
 >[!NOTE]
->Hyperlinks sind in den Aktualisierungsbenachrichtigungen nur dann verfügbar, wenn der gesamte Inhalt einer Notiz ein Hyperlink ohne Anzeigetext ist.
+>Hyperlinks sind in den Aktualisierungsbenachrichtigungen nur verfügbar, wenn der gesamte Inhalt einer Anmerkung ein Hyperlink ohne Anzeigetext ist.
 
 ![Benachrichtigungsbereich](assets/mobile-notifications-area.png)
 
 ## [!UICONTROL Anfragen]
 
-Im Bereich [!UICONTROL Anforderungen] können Sie Details zu Anforderungen anzeigen. Im Bereich [!UICONTROL Anforderungen] der App haben Sie folgende Möglichkeiten:
+Im Bereich [!UICONTROL Anfragen] können Sie Details zu Anfragen anzeigen. Im Bereich [!UICONTROL Anfragen] der App haben Sie folgende Möglichkeiten:
 
 <table style="table-layout:auto">
  <col>
@@ -139,56 +139,56 @@ Im Bereich [!UICONTROL Anforderungen] können Sie Details zu Anforderungen anzei
   <tr>
    <td>
     <ul>
-     <li>Anforderung erneut zuweisen</li>
+     <li>Anfrage neu zuweisen</li>
      <li>Status aktualisieren</li>
      <li>Priorität anpassen</li>
     </ul> </td>
    <td>
     <ul>
-     <li>Post im Bereich "Updates"</li>
+     <li>Beitrag im Bereich Updates</li>
      <li>Dokumente anzeigen</li>
      <li>Fotos anhängen</li>
-     <li>Anforderung als Entwurf speichern</li>
+     <li>Speichern einer Anfrage als Entwurf</li>
     </ul> </td>
   </tr>
  </tbody>
 </table>
 
-![Anforderungsbereich](assets/mobile-requests-area.png)
+![Bereich Anfragen](assets/mobile-requests-area.png)
 
 ## [!UICONTROL Arbeitszeittabellen]
 
-Im Bereich [!UICONTROL timesheets] können Sie Details zu Ihren Timesheets anzeigen. Im Bereich &quot;Timesheets&quot;der App haben Sie folgende Möglichkeiten:
+Im [!UICONTROL Arbeitszeittabellen] können Sie Details zu Ihren Arbeitszeittabellen anzeigen. Im Bereich „Arbeitszeittabellen“ der App haben Sie folgende Möglichkeiten:
 
-* Post im Bereich [!UICONTROL Aktualisierungen]
-* Anpassen der Stundentypen
+* Beitrag im Bereich [!UICONTROL Updates]
+* Stundentypen anpassen
 * Ändern der protokollierten Zeit
-* Kommentare zu einem Timesheet eingeben
-* Zeitblatt schließen
+* Kommentare auf der Arbeitszeittabelle eingeben
+* Arbeitszeittabelle schließen
 
-![Timesheets-Bereich](assets/mobile-timesheets-area.png)
+![Arbeitszeittabellen-Bereich](assets/mobile-timesheets-area.png)
 
 ## [!UICONTROL Favoriten]
 
-Sie können über das Menü [!UICONTROL Favoriten] auf vorhandene Elemente zugreifen und neue Elemente zum Menü &quot;Favoriten&quot;hinzufügen.
+Sie können über das Menü [!UICONTROL Favoriten] auf vorhandene Elemente zugreifen und dem Menü Favoriten neue Elemente hinzufügen.
 
 ![Favoritenbereich](assets/mobile-favorites-area.png)
 
-## [!UICONTROL Contacts]
+## [!UICONTROL Kontakte]
 
 Im Bereich [!UICONTROL Kontakte] können Sie die Kontaktinformationen für alle Benutzer in Ihrem Unternehmen anzeigen.
 
-![Kontaktbereich](assets/mobile-contacts-area.png)
+![Bereich „Kontakte](assets/mobile-contacts-area.png)
 
 ## [!UICONTROL Konfiguration]
 
-Im Bereich [!UICONTROL Konfiguration] haben Sie folgende Möglichkeiten:
+Der [!UICONTROL Konfiguration] ermöglicht Folgendes:
 
 * Einstellungen verwalten
 * Zugewiesene Teams anzeigen
 * Sicherheitseinstellungen einrichten
 * Feedback senden
-* Auf Hilfeinhalte zugreifen
+* Zugriff auf Hilfeinhalte
 * Abmelden
 
 ![Konfigurationsbereich](assets/android-configuration-area.png)

@@ -5,13 +5,13 @@ title: Freigeben von Objekten ohne Generieren von Benachrichtigungen
 description: Erfahren Sie, wie Sie Objekte freigeben und verhindern können, dass Benachrichtigungen über diese Änderung gesendet werden. Dies ist besonders hilfreich, wenn Sie Objekte stapelweise freigeben.
 author: Alina
 feature: Get Started with Workfront
-source-git-commit: b14dd633edec3e9746f7f1412445b74bcd37a676
+exl-id: 02106282-addb-4bdd-82d2-9da5a5f6a687
+source-git-commit: 276c433f18f896d0b76d6b2e118c858ca4e746a4
 workflow-type: tm+mt
 source-wordcount: '590'
 ht-degree: 4%
 
 ---
-
 
 # Freigeben von Objekten ohne Generieren von Benachrichtigungen
 
@@ -110,9 +110,3 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 1. Klicken Sie auf **Änderungen speichern**.
 
    Die Objekte wurden für die ausgewählten Benutzer freigegeben, und keiner von ihnen erhielt E-Mail-Benachrichtigungen über diese Änderung.
-
-
-
-
-
-

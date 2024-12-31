@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Erstellen einer neuen Aufgabe oder eines neuen Problems in Prioritäten
-description: Sie können neue Aufgaben und Probleme direkt aus Prioritäten erstellen.
+title: Neue Aufgabe oder Anfrage in „Prioritäten“ erstellen
+description: Sie können neue Aufgaben und Probleme direkt aus den Prioritäten erstellen.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -13,13 +13,13 @@ ht-degree: 4%
 
 ---
 
-# Erstellen einer neuen Aufgabe oder eines neuen Problems in Prioritäten
+# Neue Aufgabe oder Anfrage in „Prioritäten“ erstellen
 
-Sie können neue Aufgaben und Probleme direkt aus Prioritäten erstellen:
+Sie können neue Aufgaben und Probleme direkt aus den Prioritäten erstellen:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,28 +30,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
    <td> 
    <p>Aktuell: Anforderung oder höher für Anforderungen; Überprüfung oder höher für Probleme; Arbeit oder höher für Aufgaben</p>
-   <p>Neu: Mitarbeiter oder höher für Anforderungen; leicht oder höher für Probleme <!--and documents-->: Standardaufgaben oder höhere Aufgaben</p> 
+   <p>Neu: Mitwirkender oder höher für Anfragen; Leicht oder höher für Anfragen <!--and documents-->: Standard oder höher</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
-   <td> <p>Anzeigen oder Bearbeiten des Zugriffs für das Objekt, auf dem die Aktualisierung ausgeführt wird</p></td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Anzeigen- oder Bearbeitungszugriff für das Objekt, auf dem die Aktualisierung ausgeführt wird</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Zugriff auf das Objekt anzeigen</p></td> 
+   <td> <p>Anzeigen des Zugriffs auf das Objekt</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -61,24 +61,24 @@ Sie können eine Aufgabe oder ein Problem in einem Projekt erstellen.
 
 >[!NOTE]
 >
->Wenn Sie über eine Antrags- oder Beitragslizenz verfügen, können Sie eine Anforderung direkt unter &quot;Prioritäten&quot;erstellen.
+>Wenn Sie über eine Anfrage- oder Mitwirkerlizenz verfügen, können Sie eine Anfrage direkt unter „Prioritäten“ erstellen.
 
-So erstellen Sie eine Aufgabe oder ein Problem in einem Projekt:
+Erstellen einer Aufgabe oder eines Problems in einem Projekt:
 
 {{step1-to-priorities}}
 
-1. Klicken Sie oben rechts auf **Neu erstellen** .
+1. Klicken **oben** auf „Neu erstellen“.
    ![](assets/create-new.png)
-&lt;!—neuer Bildschirm für prod ![](assets/create-new--.png)—>
+&lt;!—Neuer Bildschirm für Produktions-![](assets/create-new--.png)—>
 1. Geben Sie die folgenden Informationen an:
 
    | Feld | Anleitung |
    |---------------|-------------|
-   | Arbeitselementtyp (optional) | Wählen Sie aus, ob Sie eine **Aufgabe** oder ein **Problem** erstellen möchten. |
+   | Arbeitsaufgabentyp (optional) | Wählen Sie aus, ob Sie eine **Aufgabe** oder **Problem** erstellen möchten. |
    | Name | Geben Sie einen Namen ein. |
-   | Beschreibung (optional) | Geben Sie eine Beschreibung ein. |
-   | Projekt | Geben Sie einen Projektnamen ein und wählen Sie ihn dann aus der Dropdown-Liste aus. |
-   | Zuweisungen (optional) | Weisen Sie dem Arbeitselement Personen zu. |
-   | Fälligkeitsdatum (optional) | Wählen Sie ein Fälligkeitsdatum aus. |
+   | Beschreibung (optional) | Beschreibung eingeben. |
+   | Projekt | Beginnen Sie mit der Eingabe eines Projektnamens und wählen Sie ihn dann aus der Dropdown-Liste aus. |
+   | Bevollmächtigte (optional) | Weisen Sie dem Arbeitselement Personen zu. |
+   | Fälligkeitsdatum (optional) | Wählen Sie ein Fälligkeitsdatum. |
 
 1. Klicken Sie auf **Erstellen**.

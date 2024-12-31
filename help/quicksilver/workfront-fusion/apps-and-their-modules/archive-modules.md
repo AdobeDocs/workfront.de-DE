@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
-title: Archivmodule
-description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie ein Archiv, z. B. eine komprimierte Datei, mit mehreren Anwendungen und Diensten von Drittanbietern verbinden. Sie können beispielsweise ein Szenario konfigurieren, bei dem
+title: Archivierungsmodule
+description: In  [!DNL Adobe Workfront Fusion]  Szenario können Sie ein Archiv, z. B. eine ZIP-Datei, mit mehreren Anwendungen und Services von Drittanbietern verbinden. Sie können beispielsweise ein Szenario konfigurieren, das
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
@@ -15,30 +15,30 @@ ht-degree: 0%
 
 ---
 
-# [!UICONTROL Archive] -Module
+# [!UICONTROL Archivieren] Module
 
-In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie in Ihrem Szenario ein Archiv, z. B. eine komprimierte Datei, verwenden, um es in Ihren Automatisierungen oder Integrationen verwenden zu können.
+In einem [!DNL Adobe Workfront Fusion] Szenario können Sie ein Archiv, z. B. eine ZIP-Datei, in Ihrem Szenario verwenden, sodass Sie es in Ihren Automatisierungen oder Integrationen verwenden können.
 
-Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Anweisungen zum Erstellen eines Szenarios finden Sie unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
-## [!UICONTROL Archivieren] -Module und ihre Felder
+## [!UICONTROL Archivieren] Module und ihre Felder
 
-Wenn Sie die Module [!UICONTROL Archivieren] konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche Felder für [!UICONTROL Archivieren] angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Beim Konfigurieren von [!UICONTROL Archiv]-Modulen zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können zusätzliche [!UICONTROL Archivieren]-Felder angezeigt werden, abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder dem Service. Ein fett gedruckter Titel in einem Modul gibt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn die Zuordnungsschaltfläche über einem Feld oder einer Funktion angezeigt wird, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Zuordnen von Informationen zu einem anderen Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-* [[!UICONTROL Archiv extrahieren]](#extract-an-archive)
+* [[!UICONTROL Entpacken Sie ein Archiv]](#extract-an-archive)
 * [[!UICONTROL Erstellen eines Archivs]](#create-an-archive)
-* [[!UICONTROL inflate]](#inflate)
-* [[!UICONTROL Deflate]](#deflate)
+* [[!UICONTROL aufblasen]](#inflate)
+* [[!UICONTROL Entlüften]](#deflate)
 
-## [!UICONTROL Archiv extrahieren]
+## [!UICONTROL Entpacken Sie ein Archiv]
 
-Dieses Aktionsmodul extrahiert eine Datei, die Sie aus einem Archiv identifizieren.
+Dieses Aktionsmodul extrahiert eine identifizierte Datei aus einem Archiv.
 
-Das Modul gibt die Kennung der Datei und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID der Datei und aller zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
 <table style="table-layout:auto">
  <col> 
@@ -46,22 +46,22 @@ Das Modul gibt die Kennung der Datei und alle zugehörigen Felder sowie alle ben
  <tbody> 
   <tr> 
    <td>[!UICONTROL Source-Datei]</td> 
-   <td> <p> Wählen Sie die zu extrahierende Datei aus. Diese Datei kann von einem vorherigen Modul zugeordnet werden (z. B. dem Modul "[!DNL Workfront]"&gt; "[!UICONTROL Dokument herunterladen").</p>  </td> 
+   <td> <p> Wählen Sie die zu extrahierende Datei aus. Diese Datei kann von einem vorherigen Modul (z. B. dem Modul [!DNL Workfront] &gt;[!UICONTROL Dokument herunterladen]) zugeordnet werden.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!INFO]
 >
->**Beispiel:** Rufen Sie die ZIP-Datei aus dem definierten Ordner [!DNL Dropbox] ab (z. B. Archive), extrahieren Sie sie mit dem Modul [!UICONTROL Archiv] und senden Sie extrahierte Dateien als Anhänge mit dem Modul [!UICONTROL E-Mail] oder [!DNL Gmail] an die gewünschte E-Mail-Adresse.
+>**Beispiel** Rufen Sie die ZIP-Datei aus dem definierten [!DNL Dropbox]-Ordner ab (z. B. „Archive„), extrahieren Sie sie mithilfe des [!UICONTROL Archive]-Moduls und senden Sie die extrahierten Dateien als Anhänge mit dem [!UICONTROL Email]- oder [!DNL Gmail]-Modul an die gewünschte E-Mail-Adresse.
 >
 >![](assets/example-dropbox-350x134.png)
 
 ## [!UICONTROL Erstellen eines Archivs]
 
-Dieses Aggregatormodul fügt die gewünschten Dateien einem [!UICONTROL ZIP] - oder [!UICONTROL TAR] -Archiv hinzu.
+Dieses Aggregator-Modul fügt die gewünschten Dateien zu einem [!UICONTROL ZIP]- oder [!UICONTROL TAR]-Archiv hinzu.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,27 +69,27 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  <tbody> 
   <tr> 
    <td>[!UICONTROL Source-Modul]</td> 
-   <td> <p> Wählen Sie das Modul aus, aus dem Sie die Dateien abrufen möchten.</p> </td> 
+   <td> <p> Wählen Sie das Modul aus, von dem Sie die Dateien abrufen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Typ] </td> 
    <td> <p>Wählen Sie aus, ob Sie Dateien zu einem [!UICONTROL ZIP]-Archiv oder einem [!UICONTROL TAR]-Archiv hinzufügen möchten.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Kommentar]</td> 
+   <td>[!UICONTROL-Kommentar]</td> 
    <td>Geben Sie einen Kommentar ein, den Sie dem Archiv hinzufügen möchten.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Gruppe nach]</td> 
-   <td> <p>Definieren Sie einen Ausdruck, nach dem Sie die aggregierte Ausgabe gruppieren möchten. Dieser Ausdruck kann ein oder mehrere zugeordnete Elemente enthalten. Die aggregierten Daten werden dann mithilfe des Werts dieses Ausdrucks in Gruppen unterteilt. Jede Gruppe gibt als separates Bundle mit einem Schlüssel (dem ausgewerteten Ausdruck) und einem Wert (dem aggregierten Text) aus. Sie können den Schlüssel als Filter in nachfolgenden Modulen verwenden.</p> </td> 
+   <td>[!UICONTROL Gruppieren nach]</td> 
+   <td> <p>Definieren Sie einen Ausdruck, nach dem die aggregierte Ausgabe gruppiert werden soll. Dieser Ausdruck kann ein oder mehrere zugeordnete Elemente enthalten. Die aggregierten Daten werden dann mithilfe des Werts dieses Ausdrucks in Gruppen aufgeteilt. Jede Gruppe gibt als separates Bundle mit einem Schlüssel (dem ausgewerteten Ausdruck) und einem Wert (dem aggregierten Text) aus. Sie können den Schlüssel als Filter in nachfolgenden Modulen verwenden.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Verarbeitung nach einer leeren Aggregation stoppen]</td> 
-   <td>Wählen Sie diese Option, um das Szenario zu stoppen, wenn keine Ergebnisse vorliegen.</td> 
+   <td>[!UICONTROL Verarbeitung nach einer leeren Aggregation anhalten]</td> 
+   <td>Wählen Sie diese Option, um das Szenario anzuhalten, wenn keine Ergebnisse vorliegen.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Archivname]</td> 
-   <td> <p> Geben Sie einen Namen für das erstellte Archiv ein. Fügen Sie keine Erweiterung hinzu.</p> </td> 
+   <td> <p> Geben Sie einen Namen für das erstellte Archiv ein. Keine Erweiterung hinzufügen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Source-Datei]</td> 
@@ -100,11 +100,11 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 >[!INFO]
 >
->**Beispiel:** Sehen Sie eingehende E-Mails mithilfe des Moduls [!DNL Gmail] >[!UICONTROL E-Mails ansehen] an. Wenn eine E-Mail empfangen wird, werden ihre Anhänge in einzelne Bundles iteriert, dann in der Datei [!DNL ZIP] archiviert und im definierten Dropbox-Ordner gespeichert.
+>**Beispiel:** eingehende E-Mails mit dem Modul [!DNL Gmail] > [!UICONTROL E-Mails ]. Wenn eine E-Mail empfangen wird, werden ihre Anhänge in einzelne Bundles iteriert, dann in der [!DNL ZIP] archiviert und im definierten Dropbox-Ordner gespeichert.
 >
 >![](assets/example-gmail-350x102.png)
 
-## [!UICONTROL inflate]
+## [!UICONTROL aufblasen]
 
 Dieses Transformatormodul dekomprimiert Binärdaten mithilfe eines Inflationsalgorithmus.
 
@@ -113,23 +113,23 @@ Dieses Transformatormodul dekomprimiert Binärdaten mithilfe eines Inflationsalg
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Daten] </td> 
-   <td> <p>Geben Sie die Daten ein oder ordnen Sie sie mithilfe der Aufblähung-Funktion zu.</p> </td> 
+   <td>[!UICONTROL-Daten] </td> 
+   <td> <p>Geben Sie die Daten, die Sie dekomprimieren möchten, mithilfe der Inflate-Funktion ein oder mappen Sie sie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## [!UICONTROL Deflate]
+## [!UICONTROL Entlüften]
 
-Dieses Transformatormodul komprimiert Binärdaten mithilfe eines Deflationsalgorithmus.
+Dieses Transformatormodul komprimiert Binärdaten mit einem Deflationsalgorithmus.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Daten] </td> 
-   <td> <p>Geben Sie die Daten, die Sie komprimieren möchten, mithilfe der deflate -Funktion ein oder ordnen Sie sie zu.</p> </td> 
+   <td>[!UICONTROL-Daten] </td> 
+   <td> <p>Geben Sie die Daten, die Sie komprimieren möchten, mit der Deflate-Funktion ein oder mappen Sie sie.</p> </td> 
   </tr> 
  </tbody> 
 </table>

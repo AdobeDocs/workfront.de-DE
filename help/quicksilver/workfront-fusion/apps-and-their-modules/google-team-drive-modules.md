@@ -2,10 +2,10 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations;agile-and-teams;user-management
-keywords: Connector
+keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Google Team Drive-Module
-description: Mit den [!DNL Adobe Workfront Fusion Google Team Drive] Modulen können Sie Dateien überwachen, hochladen, aktualisieren, kopieren, löschen oder abrufen und Ordner in Ihrem [!DNL Google Shared] Laufwerk erstellen.
+description: Mit  [!DNL Adobe Workfront Fusion Google Team Drive]  Modulen können Sie Dateien überwachen, hochladen, aktualisieren, kopieren, löschen oder abrufen und Ordner in Ihrem  [!DNL Google Shared]  erstellen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b4c057f-bb98-44d1-9b71-cbeaa402a1c3
@@ -16,68 +16,68 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Google Team Drive] Module
+# [!DNL Google Team Drive]
 
-Mit den Modulen [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] können Sie Dateien überwachen, hochladen, aktualisieren, kopieren, löschen oder abrufen und Ordner in Ihrem [!DNL Google Shared Drive] erstellen.
+Die [!DNL Adobe Workfront Fusion] [!DNL Google Team Drive] ermöglichen es Ihnen, Dateien zu überwachen, hochzuladen, zu aktualisieren, zu kopieren, zu löschen oder abzurufen und Ordner in Ihrem [!DNL Google Shared Drive] zu erstellen.
 
-Um [!DNL Google Team Drive] mit [!DNL Adobe Workfront Fusion] zu verwenden, ist ein [!DNL Google Workspace] -Konto erforderlich. Wenn Sie keines haben, können Sie ein [!DNL Google Workspace] -Konto auf der [[!DNL Google Workspace] Anmelde-Site](https://workspace.google.com/business/signup/welcome) erstellen.
+Um [!DNL Google Team Drive] mit [!DNL Adobe Workfront Fusion] verwenden zu können, muss ein [!DNL Google Workspace] Konto vorhanden sein. Wenn Sie noch kein solches Konto haben, können Sie ein [!DNL Google Workspace] Konto bei der [[!DNL Google Workspace] Anmeldeseite“ ](https://workspace.google.com/business/signup/welcome).
 
-In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL Google Team Drive] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
+In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL Google Team Drive] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
 
-Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
+Anweisungen zum Erstellen eines Szenarios finden Sie unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td>
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebene Funktionalität nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Um [!DNL Google Team Drive] -Module zu verwenden, müssen Sie über einen [!DNL Google Team Drive] verfügen.
+Um [!DNL Google Team Drive] Module verwenden zu können, müssen Sie über eine [!DNL Google Team Drive] verfügen.
 
 ## [!DNL Google Team Drive] Module und ihre Felder
 
-Wenn Sie [!DNL Google Team Drive] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Google Team Drive] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Beim Konfigurieren [!DNL Google Team Drive] Module zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder dem Service weitere [!DNL Google Team Drive] angezeigt werden. Ein fett gedruckter Titel in einem Modul gibt ein erforderliches Feld an.
 
-Die Moduldialogfelder, die in **fett** angezeigt werden (im Szenario [!DNL Workfront Fusion] sind in diesem Dokumentationsartikel **nicht**), sind obligatorisch.
+Die Dialogfelder für Module, die in **fett** angezeigt werden (im [!DNL Workfront Fusion] Szenario **nicht** diesem Dokumentationsartikel), sind obligatorisch.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn die Zuordnungsschaltfläche über einem Feld oder einer Funktion angezeigt wird, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Zuordnen von Informationen zu einem anderen Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
@@ -92,60 +92,60 @@ Gibt Dateidetails zurück, wenn eine neue Datei im angegebenen Ordner hinzugefü
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Team Drive]</td> 
-   <td> <p> Wählen Sie das freigegebene Laufwerk aus, das Sie sehen möchten.</p> </td> 
+   <td>[!UICONTROL Teamlaufwerk]</td> 
+   <td> <p> Wählen Sie das freigegebene Laufwerk aus, das Sie überwachen möchten.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
-   <td> <p>Wählen Sie den Ordner auf dem freigegebenen Laufwerk aus.</p> </td> 
+   <td>[!UICONTROL-Ordner] </td> 
+   <td> <p>Wählen Sie den Ordner im freigegebenen Laufwerk aus.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Welche Dateien sind zu sehen?]</td> 
-   <td> <p> Wählen Sie den Dateityp aus, den Sie sehen möchten.</p> </td> 
+   <td>[!UICONTROL Welche Dateien beobachtet werden]</td> 
+   <td> <p> Wählen Sie den Typ der Dateien aus, die Sie beobachten möchten.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL [!DNL Google Documents] Dateien in Format konvertieren] </td> 
-   <td> <p>Wählen Sie das Format aus, in das die überwachten [!DNL Google Documents]-Dateien konvertiert werden sollen.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Documents] Dateien ins Format konvertieren] </td> 
+   <td> <p>Wählen Sie das Format aus, in das die überwachten [!DNL Google Documents] konvertiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL [!DNL Google Sheets] Dateien in Format konvertieren] </td> 
-   <td> <p>Wählen Sie das Format aus, in das die überwachten [!DNL Google Sheets]-Dateien konvertiert werden sollen.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Sheets] Dateien ins Format konvertieren] </td> 
+   <td> <p>Wählen Sie das Format aus, in das die überwachten [!DNL Google Sheets] konvertiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL [!DNL Google Slides] Dateien in Format konvertieren] </td> 
-   <td> <p>Wählen Sie das Format aus, in das die überwachten [!DNL Google Slides]-Dateien konvertiert werden sollen.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Slides] Dateien ins Format konvertieren] </td> 
+   <td> <p>Wählen Sie das Format aus, in das die überwachten [!DNL Google Slides] konvertiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL [!DNL Google Drawings] Dateien in Format konvertieren] </td> 
-   <td> <p>Wählen Sie das Format aus, in das die überwachten [!DNL Google Drawings]-Dateien konvertiert werden sollen.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Drawings] Dateien ins Format konvertieren] </td> 
+   <td> <p>Wählen Sie das Format aus, in das die überwachten [!DNL Google Drawings] konvertiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Watch]</td> 
+   <td>[!UICONTROL Uhr]</td> 
    <td> <p> Wählen Sie aus, ob Sie den Ordner auf neue und geänderte Dateien oder nur auf neue Dateien überwachen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Maximale Anzahl heruntergeladener Dateien]</td> 
-   <td> <p> Legen Sie die maximale Anzahl von Dateien fest, die [!DNL Workfront Fusion] während eines Ausführungszyklus zurückgibt.</p> </td> 
+   <td> <p> Legen Sie die maximale Anzahl von Dateien fest, die [!DNL Workfront Fusion] während eines Ausführungszyklus zurückgeben.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Aktionen
 
-* [[!UICONTROL  Datei hochladen]](#upload-a-file)
-* [[!UICONTROL Datei aktualisieren]](#update-a-file)
-* [[!UICONTROL Eine Datei kopieren]](#copy-a-file)
+* [[!UICONTROL Datei hochladen]](#upload-a-file)
+* [[!UICONTROL Aktualisieren einer Datei]](#update-a-file)
+* [[!UICONTROL Kopieren einer Datei]](#copy-a-file)
 * [[!UICONTROL Datei löschen]](#delete-a-file)
 * [[!UICONTROL Verschieben einer Datei in den Papierkorb]](#move-a-file-to-trash)
 * [[!UICONTROL Datei abrufen]](#get-a-file)
-* [[!UICONTROL Abrufen einer Dateiliste]](#get-a-file-list)
-* [[!UICONTROL Erstellen eines Ordners]](#create-a-folder)
+* [[!UICONTROL Dateiliste abrufen]](#get-a-file-list)
+* [[!UICONTROL Ordner erstellen]](#create-a-folder)
 
-#### [!UICONTROL  Datei hochladen]
+#### [!UICONTROL Datei hochladen]
 
 Lädt eine Datei auf das angegebene freigegebene Laufwerk hoch.
 
@@ -154,20 +154,20 @@ Lädt eine Datei auf das angegebene freigegebene Laufwerk hoch.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Team Drive] </td> 
+   <td>[!UICONTROL Teamlaufwerk] </td> 
    <td> <p>Wählen Sie das freigegebene Laufwerk aus, auf das Sie eine Datei hochladen möchten.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
-   <td> <p>Wählen Sie den Ordner auf dem freigegebenen Laufwerk aus.</p> </td> 
+   <td>[!UICONTROL-Ordner] </td> 
+   <td> <p>Wählen Sie den Ordner im freigegebenen Laufwerk aus.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Source-Datei]</p> </td> 
-   <td> <p>Geben Sie die Datei an, die Sie auf das freigegebene Laufwerk hochladen möchten.</p> <p>Ordnen Sie die Datei zu, die Sie vom vorherigen Modul hochladen möchten (z. B. [!UICONTROL HTTP] &gt;[!UICONTROL Datei abrufen] oder [!UICONTROL Dropbox] &gt;[!UICONTROL Datei abrufen)] oder geben Sie den Dateinamen und die Dateidaten manuell ein.</p> </td> 
+   <td> <p>Geben Sie die Datei an, die Sie auf das freigegebene Laufwerk hochladen möchten.</p> <p>Ordnen Sie die Datei zu, die Sie aus dem vorherigen Modul (z. B. [!UICONTROL HTTP] &gt;[!UICONTROL Datei abrufen] oder [!UICONTROL Dropbox] &gt;[!UICONTROL (Datei abrufen)]], oder geben Sie den Dateinamen und die Dateidaten manuell ein.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Titel]</td> 
@@ -180,29 +180,29 @@ Lädt eine Datei auf das angegebene freigegebene Laufwerk hoch.
  </tbody> 
 </table>
 
-#### [!UICONTROL Datei aktualisieren]
+#### [!UICONTROL Aktualisieren einer Datei]
 
-Ändert den Dateinamen und/oder den Dateiinhalt.
+Ermöglicht das Ändern des Dateinamens und/oder des Dateiinhalts.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Team Drive]</td> 
+   <td>[!UICONTROL Teamlaufwerk]</td> 
    <td> <p> Wählen Sie das freigegebene Laufwerk aus, das die zu aktualisierende Datei enthält.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
-   <td> <p>Wählen Sie den Ordner auf dem freigegebenen Laufwerk aus.</p> </td> 
+   <td>[!UICONTROL-Ordner] </td> 
+   <td> <p>Wählen Sie den Ordner im freigegebenen Laufwerk aus.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Datei-ID]</td> 
-   <td> <p> Geben Sie die Kennung der Datei ein, die Sie aktualisieren möchten (zuordnen).</p> </td> 
+   <td> <p> Geben Sie die ID der Datei ein, die Sie aktualisieren möchten (zuordnen).</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Source-Datei]</p> </td> 
@@ -214,12 +214,12 @@ Lädt eine Datei auf das angegebene freigegebene Laufwerk hoch.
   </tr> 
   <tr> 
    <td>[!UICONTROL Datei konvertieren]</td> 
-   <td> <p> Aktivieren Sie diese Option, um die Datei in das entsprechende [!DNL Google] -Format in Ihrem freigegebenen Ordner zu konvertieren.</p> </td> 
+   <td> <p> Aktivieren Sie diese Option, um die Datei in das entsprechende [!DNL Google] in Ihrem freigegebenen Ordner zu konvertieren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Eine Datei kopieren]
+#### [!UICONTROL Kopieren einer Datei]
 
 Kopiert eine angegebene Datei in den ausgewählten Ordner.
 
@@ -228,24 +228,24 @@ Kopiert eine angegebene Datei in den ausgewählten Ordner.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Team Drive]</td> 
+   <td>[!UICONTROL Teamlaufwerk]</td> 
    <td> <p> Wählen Sie das freigegebene Laufwerk aus, das die zu kopierende Datei enthält.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
+   <td>[!UICONTROL-Ordner] </td> 
    <td> <p>Wählen Sie den Zielordner aus, in den Sie die Datei kopieren möchten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Datei-ID]</td> 
-   <td> <p> Geben Sie die Kennung der Datei ein, die Sie kopieren möchten (mappen Sie sie).</p> </td> 
+   <td> <p> Geben Sie die ID der Datei ein, die Sie kopieren möchten (zuordnen).</p> </td> 
   </tr> 
   <tr> 
    <td> <p>[!UICONTROL Der Name der Kopierdatei]</p> </td> 
-   <td> <p>Geben Sie den neuen Dateinamen ein, wenn Sie ihn am Zielspeicherort ändern möchten.</p> </td> 
+   <td> <p>Geben Sie den neuen Dateinamen ein, wenn er am Zielspeicherort geändert werden soll.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -259,12 +259,12 @@ Löscht eine angegebene Datei.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Datei-ID]</td> 
-   <td> <p> Geben Sie die Kennung der Datei ein, die Sie löschen möchten, oder ordnen Sie sie zu.</p> </td> 
+   <td> <p> Geben Sie die ID der Datei ein, die Sie löschen möchten, oder mappen Sie sie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -278,12 +278,12 @@ Verschiebt eine angegebene Datei in den Papierkorb.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Datei-ID]</td> 
-   <td> <p> Geben Sie die Kennung der Datei ein, die Sie in den Papierkorb verschieben möchten, oder ordnen Sie sie zu.</p> </td> 
+   <td> <p> Geben Sie die ID der Datei ein, die Sie in den Papierkorb verschieben möchten, oder mappen Sie sie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -297,77 +297,77 @@ Ruft Details zur angegebenen Datei ab.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL [!DNL Google Documents] Dateien in Format konvertieren] </td> 
-   <td> <p>Wählen Sie das Format aus, in das die [!DNL Google Documents]-Dateien konvertiert werden sollen.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Documents] Dateien ins Format konvertieren] </td> 
+   <td> <p>Wählen Sie das Format aus, in das die [!DNL Google Documents] konvertiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL [!DNL Google Sheets] Dateien in Format konvertieren] </td> 
-   <td> <p>Wählen Sie das Format aus, in das die [!DNL Google Sheets]-Dateien konvertiert werden sollen.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Sheets] Dateien ins Format konvertieren] </td> 
+   <td> <p>Wählen Sie das Format aus, in das die [!DNL Google Sheets] konvertiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL [!DNL Google Slides] Dateien in Format konvertieren] </td> 
-   <td> <p>Wählen Sie das Format aus, in das die [!DNL Google Slides]-Dateien konvertiert werden sollen.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Slides] Dateien ins Format konvertieren] </td> 
+   <td> <p>Wählen Sie das Format aus, in das die [!DNL Google Slides] konvertiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL [!DNL Google Drawings] Dateien in Format konvertieren] </td> 
-   <td> <p>Wählen Sie das Format aus, in das die [!DNL Google Drawings]-Dateien konvertiert werden sollen.</p> </td> 
+   <td>[!UICONTROL [!DNL Google Drawings] Dateien ins Format konvertieren] </td> 
+   <td> <p>Wählen Sie das Format aus, in das die [!DNL Google Drawings] konvertiert werden sollen.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Datei-ID]</td> 
-   <td> <p> Geben Sie die Kennung der Datei ein, die Sie abrufen möchten, oder ordnen Sie sie zu.</p> </td> 
+   <td> <p> Geben Sie die ID der Datei ein, die Sie abrufen möchten, oder mappen Sie sie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Abrufen einer Dateiliste]
+#### [!UICONTROL Dateiliste abrufen]
 
-Ruft Dateien und/oder Ordnerdetails basierend auf dem Suchbegriff ab.
+Ruft Dateien- und/oder Ordnerdetails basierend auf dem Suchbegriff ab.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Team Drive]</td> 
-   <td> <p> Wählen Sie das freigegebene Laufwerk aus, von dem Sie Dateien auflisten möchten.</p> </td> 
+   <td>[!UICONTROL Teamlaufwerk]</td> 
+   <td> <p> Wählen Sie das freigegebene Laufwerk aus, dessen Dateien aufgelistet werden sollen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
+   <td>[!UICONTROL-Ordner] </td> 
    <td> <p>Wählen Sie den Ordner aus, aus dem Sie Dateien auflisten möchten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Suche] </td> 
-   <td> <p>Wählen Sie den gewünschten Suchtyp aus (siehe unten).</p> </td> 
+   <td> <p>Wählen Sie die Art der Suche aus, die Sie durchführen möchten - siehe unten.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Abfrage]</p> </td> 
+   <td> <p>[!UICONTROL-Abfrage]</p> </td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>[!UICONTROL Suche in Dateinamen]</p> <p style="font-weight: normal;">Geben Sie den Dateinamen (einschließlich der Dateierweiterung) ein, wenn die Option [!UICONTROL Suche nach dem genauen Begriff Suche] ausgewählt ist, oder geben Sie den Teil des Namens ein, wenn die Option [!UICONTROL Suche nach Namen, die den gesuchten Begriff enthalten] ausgewählt ist.</p> </li> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Volltextsuche]</p> <p>Geben Sie den Suchbegriff ein, um nach Dateinamen, Beschreibungen und Inhalten zu suchen.</p> </li> 
-     <li> <p style="font-weight: bold;">[!UICONTROL Benutzerdefinierte Suchabfrage]</p> <p>Geben Sie den Suchabfragebegriff [!DNL Google] ein. Weitere Informationen finden Sie in der <a href="https://developers.google.com/drive/api/v2/ref-search-terms">Dokumentation zu Suchabfragen</a> von [!DNL Google]. Beispiel: <code>fullText contains '"Hello world"'</code></p> </li> 
+     <li style="font-weight: bold;"> <p>[!UICONTROL Innerhalb von Dateinamen suchen]</p> <p style="font-weight: normal;">Geben Sie den Dateinamen (einschließlich der Dateierweiterung) ein, wenn die Option [!UICONTROL Suche nach exaktem Begriff] ausgewählt ist, oder geben Sie den Teil des Namens ein, wenn die Option [!UICONTROL Suche nach Namen, die den gesuchten Begriff enthalten] ausgewählt ist.</p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Volltextsuche]</p> <p>Geben Sie den Suchbegriff ein, um die Dateinamen, Beschreibungen und Inhalte zu durchsuchen.</p> </li> 
+     <li> <p style="font-weight: bold;">[!UICONTROL Benutzerdefinierte Suchabfrage]</p> <p>Geben Sie den [!DNL Google] Suchabfragebegriff ein. Weitere Informationen finden Sie in der [!DNL Google]-<a href="https://developers.google.com/drive/api/v2/ref-search-terms"> (Dokumentation zu Suchanfragen</a>. Beispiel: <code>fullText contains '"Hello world"'</code></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Retrieve]</td> 
+   <td>[!UICONTROL abrufen]</td> 
    <td>Wählen Sie aus, ob Sie Dateien, Ordner oder beides abrufen möchten.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximale Anzahl an zurückgegebenen Ergebnissen]</td> 
-   <td> <p> Legen Sie die maximale Anzahl von Dateien oder Ordnern fest, die [!DNL Workfront Fusion] während eines Ausführungszyklus zurückgibt.</p> </td> 
+   <td>[!UICONTROL Maximale Anzahl der zurückgegebenen Ergebnisse]</td> 
+   <td> <p> Legen Sie die maximale Anzahl von Dateien oder Ordnern fest, die [!DNL Workfront Fusion] während eines Ausführungszyklus zurückgeben.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-#### [!UICONTROL Erstellen eines Ordners]
+#### [!UICONTROL Ordner erstellen]
 
 Erstellt einen neuen Ordner.
 
@@ -376,15 +376,15 @@ Erstellt einen neuen Ordner.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
    <td> <p>Anweisungen zum Verbinden Ihres [!DNL Google Team Drive]-Kontos mit [!DNL Workfront Fusion] finden Sie unter <a href="../../workfront-fusion/connections/connect-to-fusion-general.md" class="MCXref xref" data-mc-variable-override="">Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Team Drive]</td> 
+   <td>[!UICONTROL Teamlaufwerk]</td> 
    <td> <p> Wählen Sie das freigegebene Laufwerk aus, auf dem Sie einen Ordner erstellen möchten.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
+   <td>[!UICONTROL-Ordner] </td> 
    <td> <p>Wählen Sie den Ordner aus, in dem Sie einen Ordner erstellen möchten.</p> </td> 
   </tr> 
   <tr> 

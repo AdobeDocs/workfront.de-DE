@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: get-started-with-workfront
 title: 'Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex'
-description: Sie können den Abschnitt Updates der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder systemtrackte Aktualisierungen zu Änderungen am Objekt zu verfolgen.
+description: Sie können den Abschnitt „Aktualisierungen“ der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder um vom System verfolgte Aktualisierungen zu Änderungen zu verfolgen, die am Objekt vorgenommen werden.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 <!-- Audited: 02/2024 -->
 
-Sie können den Abschnitt Updates der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder systemtrackte Aktualisierungen zu Änderungen am Objekt zu verfolgen.
+Sie können den Abschnitt „Aktualisierungen“ der meisten Objekte verwenden, um Kommentare und Antworten hinzuzufügen oder um vom System verfolgte Aktualisierungen zu Änderungen zu verfolgen, die am Objekt vorgenommen werden.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* Überblick über den Abschnitt [Updates](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
-* [Update funktioniert](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
+* [Abschnitt „Aktualisierungen“ - Übersicht](../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md)
+* [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md)
 * [Zeichenbeschränkungen in Feldern](../../workfront-basics/updating-work-items-and-viewing-updates/character-limits-in-fields.md)
-* [Antworten auf Aktualisierungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
+* [Auf Aktualisierungen antworten](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-updates.md)
 * [Antworten auf E-Mail-Benachrichtigungen](../../workfront-basics/updating-work-items-and-viewing-updates/reply-to-email-notifications.md)
-* [Kennzeichnen anderer Benutzer auf Updates](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
-* [Alle Aktualisierungen in einem Notiz-Bericht anzeigen](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
-* [Überblick über die Bearbeitung und Fertig-Schaltflächen](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
+* [Andere bei Aktualisierungen taggen](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md)
+* [Alle Aktualisierungen in einem Notizbericht anzeigen](../../workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md)
+* [Bearbeiten und Übersicht über die Schaltfläche „Fertig“](../../workfront-basics/updating-work-items-and-viewing-updates/work-on-it-and-done-buttons-accept-complete-work.md)
 * [Zusammenfassen von Aktualisierungen mit dem KI-Assistenten](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/summarize-updates-ai-assistant.md)
 

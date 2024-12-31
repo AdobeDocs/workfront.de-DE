@@ -2,10 +2,10 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: Connector
+keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Adobe Firefly-Module
-description: In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL Adobe Firefly] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
+description: In  [!DNL Adobe Workfront Fusion]  Szenario können Sie Workflows automatisieren, die  [!DNL Adobe Firefly] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 1e131c27-571d-4099-9243-69572bdb3f5a
@@ -16,17 +16,17 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Firefly] Module
+# [!DNL Adobe Firefly]
 
-In einem [!DNL Adobe Workfront Fusion] -Szenario können Sie Workflows automatisieren, die [!DNL Adobe Firefly] verwenden, und sie mit mehreren Anwendungen und Diensten von Drittanbietern verbinden.
+In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL Adobe Firefly] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
 
-Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios](../../workfront-fusion/scenarios/create-a-scenario.md).
+Anweisungen zum Erstellen eines Szenarios finden Sie unter [Erstellen eines Szenarios](../../workfront-fusion/scenarios/create-a-scenario.md).
 
 Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
@@ -34,40 +34,40 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
    <td>
-   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p>
+   <p>Aktuell: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Veraltet: Beliebig </p>
+   <p>Legacy: Beliebig </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul>
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</li><li>[!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] ist enthalten.</li></ul>
    <p>Oder</p>
-   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p>
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</p>
    </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Bevor Sie den Connector [!DNL Adobe Firefly] verwenden können, müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
+Bevor Sie den [!DNL Adobe Firefly]-Connector verwenden können, müssen Sie sicherstellen, dass die folgenden Voraussetzungen erfüllt sind:
 
-* Sie müssen über ein aktives [!DNL Adobe Firefly] -Konto verfügen.
+* Sie müssen über ein aktives [!DNL Adobe Firefly] verfügen.
 
 ## Adobe Campaign-API-Informationen
 
@@ -86,9 +86,9 @@ Der Adobe Campaign-Connector verwendet Folgendes:
 
 ## Erstellen einer Verbindung zu [!DNL Adobe Firefly]
 
-So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Firefly] -Module:
+So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Firefly]:
 
-1. Klicken Sie neben dem Feld Verbindung auf **[!UICONTROL Hinzufügen]** .
+1. Klicken Sie **[!UICONTROL Hinzufügen]** neben dem Feld Verbindung auf.
 
 1. Füllen Sie die folgenden Felder aus:
 
@@ -106,46 +106,46 @@ So erstellen Sie eine Verbindung für Ihre [!DNL Adobe Firefly] -Module:
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Umgebung]</td>
-        <td>Wählen Sie aus, ob Sie eine Verbindung zu einer Produktions- oder Nicht-Produktionsumgebung herstellen möchten.</td>
+        <td>Wählen Sie aus, ob Sie eine Verbindung zu einer Produktions- oder Nicht-Produktionsumgebung herstellen.</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Typ]</td>
-        <td>Wählen Sie aus, ob Sie eine Verbindung zu einem Dienstkonto oder einem persönlichen Konto herstellen möchten.</td>
+        <td>Wählen Sie aus, ob Sie eine Verbindung zu einem Service-Konto oder einem persönlichen Konto herstellen möchten.</td>
         </tr>
         <tr>
         <td role="rowheader">[!UICONTROL Client-ID]</td>
-        <td>Geben Sie Ihre [!UICONTROL Adobe] [!UICONTROL Client ID] ein. Dies finden Sie im Abschnitt [!UICONTROL Credentials] details des Abschnitts [!DNL Adobe Developer Console].</td>
+        <td>Geben Sie Ihre [!UICONTROL Adobe] [!UICONTROL Client ID] ein. Dies finden Sie im Abschnitt mit den [!UICONTROL-Anmeldeinformationen] im [!DNL Adobe Developer Console].</td>
         </tr>
         <tr>
-        <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Geben Sie Ihren [!DNL Adobe] [!UICONTROL Client Secret] ein. Dies finden Sie im Abschnitt [!UICONTROL Credentials] details des Abschnitts [!DNL Adobe Developer Console].</td>
+        <td role="rowheader">[!UICONTROL Client-Geheimnis]</td>
+        <td>Geben Sie Ihren [!DNL Adobe] [!UICONTROL Client Secret] ein. Dies finden Sie im Abschnitt mit den [!UICONTROL-Anmeldeinformationen] im [!DNL Adobe Developer Console].</td>
         </tr>
       </tbody>
     </table>
 
-1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicken Sie **[!UICONTROL Fortfahren]**, um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## [!DNL Adobe Firefly] Module und ihre Felder
 
-Wenn Sie [!DNL Adobe Firefly] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Adobe Firefly] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Beim Konfigurieren [!DNL Adobe Firefly] Module zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder dem Service weitere [!DNL Adobe Firefly] angezeigt werden. Ein fett gedruckter Titel in einem Modul gibt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn die Zuordnungsschaltfläche über einem Feld oder einer Funktion angezeigt wird, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Zuordnen von Informationen zu einem anderen Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 ![](assets/map-toggle-350x74.png)
 
-### Benutzerdefinierte API-Aufrufe durchführen
+### Erstellen eines benutzerdefinierten API-Aufrufs
 
 Dieses Aktionsmodul führt einen benutzerdefinierten Aufruf an die Firefly-API durch.
 
-Bestimmte verfügbare APIs finden Sie unter [Adobe Firefly-API](https://developer.adobe.com/firefly-services/docs/firefly-api/) in der Adobe Developer-Dokumentation.
+Spezifische verfügbare APIs finden Sie unter [Adobe Firefly-API](https://developer.adobe.com/firefly-services/docs/firefly-api/) in der Dokumentation zu Adobe Developer.
 
 <table style="table-layout:auto"> 
   <col/>
   <col/>
   <tbody>
     <tr>
-      <td role="rowheader">[!UICONTROL Verbindung]</td>
-      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Firefly] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Firefly]</a> .</td>
+      <td role="rowheader">[!UICONTROL-Verbindung]</td>
+      <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Firefly] finden Sie unter <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Firefly]</a> in diesem Artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">[!UICONTROL URL]</td>
@@ -155,21 +155,21 @@ Bestimmte verfügbare APIs finden Sie unter [Adobe Firefly-API](https://develope
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Methode]</p>
+        <p>[!UICONTROL-Methode]</p>
       </td>
-   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anforderungsmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anfragemethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Header]</td>
+      <td role="rowheader">[!UICONTROL-Kopfzeilen]</td>
       <td>
         <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu.</p>
         <p>Beispiel: <code>{"Content-type":"application/json"}</code></p>
-        <p>[!DNL Workfront Fusion] fügt automatisch Autorisierungskopfzeilen hinzu.</p>
+        <p>[!DNL Workfront Fusion] Fügt automatisch Autorisierungskopfzeilen hinzu.</p>
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
+      <td role="rowheader">[!UICONTROL body]</td>
+   <td> <p>Fügen Sie den Hauptteil des Inhalts für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Wenn Sie bedingte Anweisungen wie <code>if</code> in Ihrer JSON-Datei verwenden, setzen Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
@@ -178,47 +178,47 @@ Bestimmte verfügbare APIs finden Sie unter [Adobe Firefly-API](https://develope
 
 ### Bild erweitern
 
-Dieses Aktionsmodul erweitert ein Bild, optional mit Inhalt aus einer von Ihnen angegebenen Eingabeaufforderung.
+Dieses Aktionsmodul erweitert ein Bild, optional mit Inhalten aus einer von Ihnen angegebenen Eingabeaufforderung.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Firefly]</a> .</td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign] finden Sie unter <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Firefly]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eingabeaufforderung]</td> 
-   <td>Geben Sie eine Eingabeaufforderung für den Inhalt ein, mit dem Sie das Bild erweitern möchten, oder ordnen Sie ihn zu. Wenn keine Eingabeaufforderung angegeben wird, wird das Bild mit Inhalten erweitert, die mit dem Originalbild übereinstimmen.</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
+   <td>Geben Sie eine Eingabeaufforderung für den Inhalt ein, mit dem Sie das Bild erweitern möchten, oder ordnen Sie sie zu. Wenn keine Eingabeaufforderung angezeigt wird, wird das Bild mit Inhalten erweitert, die dem Originalbild entsprechen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Anzahl der Varianten]</td> 
-   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl erweiterter Bildvarianten.</td> 
+   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl von erweiterten Bildvarianten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Erweitertes Bildformat]</td> 
-   <td>Wählen Sie das Dateiformat aus, als das erweiterte Bild gespeichert werden soll.</td> 
+   <td>Wählen Sie das Dateiformat aus, in dem das erweiterte Bild gespeichert werden soll.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source-Datei]</td> 
-   <td>  <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen der Bilddatei und die Bilddatei (Daten) der Quelldatei zu.</p> </td> 
+   <td>  <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Bilddateinamen und die Bilddatei (Daten) der Quelldatei zu.</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Größe]</td> 
-   <td>Wählen Sie die Größe aus, die das erweiterte Bild aufweisen soll.</td> 
+   <td>Wählen Sie die Größe aus, die das erweiterte Bild haben soll.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Geben Sie eine Ganzzahl ein oder ordnen Sie sie zu. Sie können dieses Samen in einem anderen Modul Bild erweitern verwenden, um ein ähnliches Bild mit unterschiedlichen Stilen zu generieren. </td> 
+   <td role="rowheader">[!UICONTROL seed]</td> 
+   <td>Ganzzahl eingeben oder zuordnen. Sie können denselben Startwert in einem anderen Modul zum Erweitern eines Bildes verwenden, um ein ähnliches Bild mit verschiedenen Stilen zu generieren. </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Bild ausfüllen
 
-Dieses Aktionsmodul füllt den maskierten Bereich eines Bildes, optional mit Inhalt aus einer von Ihnen angegebenen Eingabeaufforderung.
+Dieses Aktionsmodul füllt den maskierten Bereich eines Bildes aus, optional mit Inhalten aus einer von Ihnen angegebenen Eingabeaufforderung.
 
 
 <table style="table-layout:auto"> 
@@ -226,102 +226,102 @@ Dieses Aktionsmodul füllt den maskierten Bereich eines Bildes, optional mit Inh
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Firefly]</a> .</td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign] finden Sie unter <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Firefly]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eingabeaufforderung]</td> 
-   <td>Geben Sie eine Eingabeaufforderung für den Inhalt ein, mit dem Sie das Bild ausfüllen möchten, oder ordnen Sie ihn zu. Wenn keine Eingabeaufforderung angegeben wird, wird das Bild mit Inhalten gefüllt, die dem Originalbild entsprechen.</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
+   <td>Geben Sie eine Eingabeaufforderung für den Inhalt ein, mit dem Sie das Bild ausfüllen möchten, oder mappen Sie sie. Wenn keine Eingabeaufforderung angezeigt wird, wird das Bild mit Inhalten gefüllt, die dem Originalbild entsprechen.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Anzahl der Varianten]</td> 
-   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl an ausgefüllten Bildvarianten.</td> 
+   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl von ausgefüllten Bildvarianten.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Bildformat ausgefüllt]</td> 
+   <td role="rowheader">[!UICONTROL Gefülltes Bildformat]</td> 
    <td>Wählen Sie das Dateiformat aus, in dem das ausgefüllte Bild gespeichert werden soll.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Bild]</td> 
-   <td>  <p> Klicken Sie auf <b>Bild hinzufügen</b>. Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie die Bild- und Bilddaten der Quelldatei zu.</p> </td> 
+   <td>  <p> Klicken Sie <b>Bild hinzufügen</b>. Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Bilddateinamen und die Bilddaten der Quelldatei zu.</p> </td> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Mask]</td> 
-   <td>  <p> Klicken Sie auf <b>Maske hinzufügen</b>. Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen der Mask-Datei und die Maskierungsdaten der Quelldatei zu. Die Datei Maske stellt die benutzerdefinierte Maske dar, die mit dem generierten Inhalt gefüllt wird.</p> </td> 
+   <td role="rowheader">[!UICONTROL-Maske]</td> 
+   <td>  <p> Klicken Sie <b>Maske hinzufügen</b>. Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen der Quelldatei und die Maskendaten der Quelldatei zu. Die Maskendatei stellt die benutzerdefinierte Maske dar, die mit generierten Inhalten gefüllt wird.</p> </td> 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Größe]</td> 
-   <td>Wählen Sie die Größe aus, die das ausgefüllte Bild aufweisen soll.</td> 
+   <td>Wählen Sie die Größe aus, in der das Bild ausgefüllt werden soll.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Seeds]</td> 
-   <td>Klicken Sie für jedes Bild, das vom Modul generiert wird, auf <b>Element hinzufügen<b> und geben Sie eine Ganzzahl ein oder ordnen Sie sie zu. Sie können dieses Samen in einem anderen Modul Bild erweitern verwenden, um ein ähnliches Bild mit unterschiedlichen Stilen zu generieren. Die Anzahl der hinzugefügten Samen muss dem Feld Anzahl der Varianten entsprechen.</td> 
+   <td>Klicken Sie für jedes Bild, das das Modul generiert, auf <b>Element hinzufügen<b> und geben Sie eine Ganzzahl ein oder mappen Sie sie. Sie können denselben Startwert in einem anderen Modul zum Erweitern eines Bildes verwenden, um ein ähnliches Bild mit verschiedenen Stilen zu generieren. Die Anzahl der hinzugefügten Testadressen muss der Anzahl der Varianten im Feld entsprechen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## Bild generieren
+## Bild erzeugen
 
-Dieses Aktionsmodul generiert und erstellt ein Bild basierend auf einer von Ihnen angegebenen Eingabeaufforderung. Sie können auch ein optionales Referenzbild bereitstellen. Das generierte Bild entspricht dem Stil des Referenzbilds.
+Dieses Aktionsmodul generiert ein - und -Bild basierend auf einer von Ihnen angegebenen Eingabeaufforderung. Sie können auch ein optionales Referenzbild angeben. Das generierte Bild entspricht dem Stil des Referenzbilds.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign] finden Sie in diesem Artikel unter <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Firefly]</a> .</td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
+   <td>Anweisungen zum Erstellen einer Verbindung zu [!DNL Adobe Campaign] finden Sie unter <a href="#create-a-connection-to-adobe-firefly" class="MCXref xref" >Erstellen einer Verbindung zu [!DNL Adobe Firefly]</a> in diesem Artikel.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Eingabeaufforderung]</td> 
-   <td>Geben Sie eine Eingabeaufforderung für das Bild ein, das Sie erstellen möchten, oder ordnen Sie es zu. Weitere Details in der Eingabeaufforderung ermöglichen Ihnen mehr Kontrolle darüber, was im Bild angezeigt wird.</td> 
+   <td role="rowheader">[!UICONTROL Prompt]</td> 
+   <td>Geben Sie eine Eingabeaufforderung für das Bild ein, das Sie erstellen möchten, oder ordnen Sie sie zu. Weitere Details in der Eingabeaufforderung ermöglichen Ihnen mehr Kontrolle darüber, was im Bild angezeigt wird.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Anzahl der Varianten]</td> 
-   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl an Bildvarianten.</td> 
+   <td>Geben Sie eine Zahl zwischen 1 und 4 ein. Das Modul generiert diese Anzahl von Bildvarianten.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Generiertes Bildformat]</td> 
-   <td>Wählen Sie das Dateiformat aus, als das erweiterte Bild gespeichert werden soll. Wenn Sie "Standard"auswählen, ist das Dateiformat "JPEG", wenn kein Referenzbild bereitgestellt wird. Wenn ein Referenzbild angegeben wird, entspricht das Dateiformat des generierten Bildes dem Referenzbild.</td> 
+   <td>Wählen Sie das Dateiformat aus, in dem das erweiterte Bild gespeichert werden soll. Wenn Sie Standard auswählen, wird das Dateiformat JPEG, wenn kein Referenzbild angegeben wird. Wenn ein Referenzbild bereitgestellt wird, ist das Dateiformat des generierten Bildes mit dem Referenzbild identisch.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Source-Datei]</td> 
-   <td>  <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen der Referenzbilddatei und die Referenzbilddatei (Daten) der Quelldatei zu. Das generierte Bild wird so erstellt, dass es dem Stil des Referenzbilds entspricht.</p> </td> 
+   <td>  <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen der Referenzbilddatei und die Referenzbilddatei (Daten) der Quelldatei zu. Das generierte Bild wird entsprechend dem Stil des Referenzbilds erstellt.</p> </td> 
 </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Vorgaben]</td> 
-   <td>Wenn Sie einen Vorgabenstil verwenden möchten, klicken Sie auf Element hinzufügen und geben Sie den gewünschten Stil ein oder ordnen Sie ihn zu.<p>Eine Liste der Vorgabenstile finden Sie unter <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >Bildmodellstile</a> in der Adobe-Entwicklerdokumentation.</td> 
+   <td role="rowheader">[!UICONTROL-Vorgaben]</td> 
+   <td>Wenn Sie einen Vorgabestil verwenden möchten, klicken Sie auf Element hinzufügen und geben Sie den gewünschten Stil ein, oder ordnen Sie ihn zu.<p>Eine Liste der Vorgabestile finden Sie unter <a href="https://developer.adobe.com/firefly-services/docs/firefly-api/guides/concepts/style-presets/" >Bildmodellstile</a> in der Adobe-Entwicklerdokumentation.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Negative Eingabeaufforderung]</td> 
-   <td>Geben Sie im generierten Inhalt die Wörter ein, die Sie vermeiden möchten, oder ordnen Sie sie zu. </td> 
+   <td>Geben Sie die Wörter ein, die Sie im generierten Inhalt vermeiden möchten, oder ordnen Sie sie zu. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Content class]</td> 
-   <td>Wählen Sie aus, ob das generierte Bild eher wie ein Foto oder eher wie eine erstellte Kunst sein soll. <ul><li><b>Foto</b><p>Geben Sie Werte für die Perspektive, die Verschlusszeit (in Sekunden) und das Sichtfeld (in Millimetern) ein.</td> 
+   <td role="rowheader">[!UICONTROL Inhaltsklasse]</td> 
+   <td>Wählen Sie aus, ob das generierte Bild mehr wie ein Foto oder eher wie erstellte Kunst aussehen soll. <ul><li><b>Foto</b><p>Geben Sie Werte für Blende, Verschlusszeit (in Sekunden) und Sichtfeld (in Millimetern) ein.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Seed]</td> 
-   <td>Geben Sie eine Ganzzahl ein oder ordnen Sie sie zu. Sie können dieses Samen in einem anderen Modul Bild erweitern verwenden, um ein ähnliches Bild mit unterschiedlichen Stilen zu generieren. </td> 
+   <td role="rowheader">[!UICONTROL seed]</td> 
+   <td>Ganzzahl eingeben oder zuordnen. Sie können denselben Startwert in einem anderen Modul zum Erweitern eines Bildes verwenden, um ein ähnliches Bild mit verschiedenen Stilen zu generieren. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Größe]</td> 
-   <td>Wählen Sie die Größe aus, die das generierte Bild erhalten soll.</td> 
+   <td>Wählen Sie die Größe aus, in der das generierte Bild angezeigt werden soll.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Stärke]</td> 
-   <td>Geben Sie eine Ganzzahl ein oder ordnen Sie sie zu, die die Intensität darstellt, mit der das generierte Bild dem Stil des Vorgabenstils oder des Referenzbilds entspricht. </td> 
+   <td role="rowheader">[!UICONTROL Strength]</td> 
+   <td>Geben Sie eine Ganzzahl ein, die die Intensität darstellt, mit der das generierte Bild dem Stil des Vorgabenstils oder Referenzbilds entspricht, oder mappen Sie sie. </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL visuelle Intensität</td> 
-   <td>Geben Sie eine Ganzzahl ein oder ordnen Sie sie zu, die die Gesamtintensität der vorhandenen visuellen Eigenschaften des Fotos darstellt. </td> 
+   <td role="rowheader">[!UICONTROL Sehstärke]</td> 
+   <td>Geben Sie eine Ganzzahl ein, die die Gesamtintensität der vorhandenen visuellen Eigenschaften des Fotos darstellt, oder mappen Sie sie. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Locale]</td> 
-   <td>Wenn ein Gebietsschema angegeben wird, generiert das Modul Inhalte, die für das angegebene Gebietsschema relevanter sind. <p>Das Gebietsschema muss im Sprachcode nach ISO 639-1 und in der Region nach ISO 3166-1 angegeben werden.</p><p> Beispiel: <code>en-US</code></p></td> 
+   <td>Wenn ein Gebietsschema bereitgestellt wird, generiert das Modul Inhalte, die für das angegebene Gebietsschema relevanter sind. <p>Das Gebietsschema muss im ISO-639-1-Sprachcode und in der ISO-3166-1-Region angegeben werden.</p><p> Beispiel: <code>en-US</code></p></td> 
   </tr> 
  </tbody> 
 </table>

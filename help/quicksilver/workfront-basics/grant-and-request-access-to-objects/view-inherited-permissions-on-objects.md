@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-title: Vererbte Berechtigungen für Objekte anzeigen
-description: Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter Gewähren von Zugriff auf Projekte.
+title: Anzeigen geerbter Berechtigungen für Objekte
+description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter Gewähren des Zugriffs auf Projekte.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Vererbte Berechtigungen für Objekte anzeigen
+# Anzeigen geerbter Berechtigungen für Objekte
 
-Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Gewähren des Zugriffs auf Projekte](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Objekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen für bestimmte Objekte erteilen, auf die Sie Zugriff haben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und -berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen für bestimmte Objekte erteilen, auf die Sie Zugriff haben, um sie freizugeben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Funktionsweise von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Objekte erben Berechtigungen von übergeordneten Objekten in Adobe Workfront.
 
-Informationen zur Hierarchie von Objekten in Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Informationen zur Hierarchie der Objekte in Workfront finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
 ## Zugriffsanforderungen
 
@@ -63,45 +63,45 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf die Objekte, für die Sie Berechtigungen anzeigen möchten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Anzeigen oder höherer Zugriff auf die Objekte, für die Sie Berechtigungen anzeigen möchten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder höherer Berechtigungen für die Objekte, für die Sie Berechtigungen anzeigen möchten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen für die Objekte, für die Sie Berechtigungen anzeigen möchten, anzeigen oder höher</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Vererbte Berechtigungen für ein Objekt anzeigen
+## Anzeigen geerbter Berechtigungen für ein Objekt
 
-Die Anzeige der geerbten Berechtigungen ist für alle Objekte identisch.
+Die Anzeige geerbter Berechtigungen ist für alle Objekte identisch.
 
 So zeigen Sie geerbte Berechtigungen für ein Projekt an:
 
 1. Wechseln Sie zu einem Projekt, dessen Freigabeberechtigungen Sie anzeigen möchten.
-1. Klicken Sie auf das Menü **Mehr** und dann auf **Freigabe**.![](assets/more-icon.png)
+1. Klicken Sie auf die ![](assets/more-icon.png) **Mehr** und dann auf **Freigabe**.
 
-1. Erweitern Sie die Liste **Vererbte Berechtigungen** .
+1. Erweitern Sie die Liste **Geerbte Berechtigungen** .
 
-   Diese Liste zeigt die Namen der Benutzer an, die Zugriff auf das Portfolio oder das Programm haben, zu dem das Projekt gehört, und auch über Berechtigungen für das Projekt verfügen.
+   Diese Liste zeigt die Namen von Benutzern an, die Zugriff auf das Portfolio oder das Programm haben, zu dem das Projekt gehört, und die auch über Berechtigungen für das Projekt verfügen.
 
    ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
 
-1. (Optional) Informationen zum Entfernen von geerbten Berechtigungen aus einem Objekt finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+1. (Optional) Informationen zum Entfernen geerbter Berechtigungen aus einem Objekt finden Sie unter [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
    >[!NOTE]
    >
-   >Sie müssen über Verwaltungsberechtigungen für ein Objekt verfügen, um die geerbten Berechtigungen zu entfernen.
+   >Sie müssen über Verwaltungsberechtigungen für ein Objekt verfügen, um die geerbten Berechtigungen entfernen zu können.
 
  
 

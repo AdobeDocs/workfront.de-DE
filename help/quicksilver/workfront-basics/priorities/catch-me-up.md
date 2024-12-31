@@ -5,13 +5,13 @@ description: Aktuelle Informationen
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: ccdbc3402164bba66c08b8b97fdfdd2013ad884e
+exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
+source-git-commit: 276c433f18f896d0b76d6b2e118c858ca4e746a4
 workflow-type: tm+mt
 source-wordcount: '201'
 ht-degree: 5%
 
 ---
-
 
 # Aufholprozess bei den Prioritäten
 

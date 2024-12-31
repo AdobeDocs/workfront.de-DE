@@ -2,7 +2,7 @@
 title: Freigeben von Finanzberechtigungen für ein Objekt
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-description: Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsstufe Zugriff auf die Anzeige oder Bearbeitung von Finanzdaten gewähren. Weitere Informationen finden Sie unter Zugriff auf Finanzdaten gewähren .
+description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Finanzdaten gewähren. Weitere Informationen finden Sie unter Gewähren des Zugriffs auf Finanzdaten.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 {{highlighted-preview}}
 
-Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsstufe Zugriff auf die Anzeige oder Bearbeitung von Finanzdaten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Finanzdaten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-Neben der Zugriffsebene, auf die Benutzer zugreifen können, können Sie ihnen auch die Berechtigung zum Anzeigen oder Verwalten von Finanzen für bestimmte Projekte, Aufgaben oder Probleme gewähren, auf die Sie Zugriff haben.
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen oder Verwalten der Finanzen für bestimmte Projekte, Aufgaben oder Probleme erteilen, auf die Sie Zugriff haben.
 
 Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Finanzdaten tun können, finden Sie im Abschnitt [Finanzdaten](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#financia) im Artikel [Für jeden Objekttyp verfügbare Funktionen](../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
@@ -62,38 +62,38 @@ Sie müssen über Folgendes verfügen, um Finanzdaten zu Objekten freizugeben:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf Projekte, Aufgaben, Probleme und Finanzdaten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Projekte, Aufgaben, Probleme und Finanzdaten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben und Probleme, die mindestens View Finance-Berechtigungen enthalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für Projekte, Aufgaben und Probleme, die mindestens „Finanzen anzeigen“-Berechtigungen enthalten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Objekte freigeben und finanzielle Berechtigungen erteilen
+## Objekt freigeben und finanzielle Berechtigungen erteilen
 
-Beachten Sie Folgendes bei der Erteilung von Finanzberechtigungen für Objekte:
+Beachten Sie Folgendes, wenn Sie Objekten Finanzberechtigungen erteilen:
 
-* Sie können finanziellen Berechtigungen für Projekte, Aufgaben, Probleme, <span class="preview">und Ratenkarten</span> gewähren.
-* Berechtigungen können vererbt werden: Wenn Sie über View Finance-Berechtigungen für ein Projekt verfügen, erben Sie automatisch View Finance-Berechtigungen für die Aufgaben und Probleme im Projekt.
+* Sie können finanzielle Berechtigungen für Projekte, Aufgaben, Probleme <span class="preview">und Tarifkarten) </span>.
+* Berechtigungen können vererbt werden: Wenn Sie über Anzeigefinanzierungsberechtigungen für ein Projekt verfügen, übernehmen Sie automatisch die Anzeigefinanzierungsberechtigungen für die Aufgaben und Probleme im Projekt.
 
 So erteilen Sie einem Objekt finanzielle Berechtigungen:
 
-1. Gehen Sie zu einer Aufgabe, einem Projekt oder einem Problem, die/das Sie für andere freigeben möchten.
-1. Klicken Sie in der Nähe des Objektnamens auf das Menü Mehr ![](assets/more-icon.png) und dann auf **Freigabe**.
+1. Wechseln Sie zu einer Aufgabe, einem Projekt oder einem Problem, die/das Sie für andere freigeben möchten.
+1. Klicken Sie in der Nähe des Objektnamens auf die ![](assets/more-icon.png) Mehr und dann auf **Freigabe**.
 
-1. Geben Sie im Feld **Erteilen von `<Object name>` Zugriff auf** den Namen eines Benutzers, Teams, einer Rolle, einer Gruppe oder eines Unternehmens ein, für den/das Sie das Objekt freigeben möchten.
+1. Geben **im Feld `<Object name>` Zugriff auf** den Namen eines Benutzers, Teams, einer Rolle, einer Gruppe oder eines Unternehmens ein, für den bzw. die Sie das Objekt freigeben möchten.
 
    >[!TIP]
    >
@@ -102,21 +102,21 @@ So erteilen Sie einem Objekt finanzielle Berechtigungen:
 1. Wenn rechts neben dem ausgewählten Namen ein Dropdown-Menü angezeigt wird, klicken Sie auf eine der folgenden verfügbaren Optionen:
 
    * **Anzeigen**
-   * **Contribute to it**
+   * **Contribute hinzu**
    * **Verwalten**
 
      ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
-1. Klicken Sie im selben Dropdown-Menü auf **Erweiterte Einstellungen** und führen Sie dann einen der folgenden Schritte aus:
+1. Klicken Sie im gleichen Dropdown-Menü auf **Erweiterte Einstellungen** und führen Sie dann einen der folgenden Schritte aus:
 
-   * Wenn Sie eine der drei Optionen im vorherigen Schritt ausgewählt haben, stellen Sie sicher, dass **Finanzen anzeigen** ausgewählt ist.
+   * Wenn Sie im vorherigen Schritt eine der drei Optionen ausgewählt haben, stellen Sie sicher, dass **Finanzen anzeigen** ausgewählt ist.
    * Wenn Sie im vorherigen Schritt **Finanzen verwalten** ausgewählt haben, stellen Sie sicher, dass **Finanzen verwalten** ausgewählt ist.
 
 1. Klicken Sie auf **Speichern**.
 
-## Finanzielle Erlaubnis für alle Freigabeebenen
+## Finanzielle Berechtigung für alle Freigabeebenen
 
-Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten, wenn Sie ihnen Anzeige-, Contribute- oder Verwaltungsberechtigungen für Objekte erteilen: 
+Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzerinnen und Benutzer erhalten, wenn Sie ihnen Berechtigungen zum Anzeigen, Contribute oder Verwalten für Objekte erteilen: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -133,19 +133,19 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten
  </thead> 
  <tbody> 
   <tr> 
-   <td>Rechnungsdatensätze verwalten</td> 
+   <td>Rechnungsnachweise verwalten</td> 
    <td>✓</td> 
    <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Verwalten/Anzeigen der Rollenabrechnung und der Kostensätze</td> 
+   <td>Funktionsbezogene Fakturierung und Kostensätze verwalten/anzeigen</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Verwalten/Anzeigen der Benutzerabrechnung und der Kostensätze</td> 
+   <td>Benutzerfakturierung und Kostensätze verwalten/anzeigen</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
@@ -157,31 +157,31 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten
    <td> ✓</td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Ratenkarten verwalten</span></td> 
+   <td><span class="preview">Tarifkarten verwalten</span></td> 
    <td>✓</td> 
    <td> <p> </p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td><span class="preview">Anzeigen von Ratenkarten</span></td> 
+   <td><span class="preview">Tarifkarten anzeigen</span></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td> ✓</td> 
   </tr>
   <tr> 
-   <td>Anzeigen von Informationen nach Kosten in den Tools für die Ressourcenplanung</td> 
+   <td>Informationen nach Kosten in den Ressourcenplanungs-Tools anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Budgetmittel in den Tools für die Ressourcenplanung*</td> 
+   <td>Budgetressourcen in den Tools für die Ressourcenplanung*</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Anzeigen von Ressourcen in den Tools für die Ressourcenplanung*</td> 
+   <td>Ressourcen in den Ressourcenplanungs-Tools anzeigen*</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td> <p>✓</p> </td> 
@@ -191,4 +191,4 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzer erhalten
 
 &#42;Erfordert zusätzlichen Zugriff auf die Ressourcenverwaltung.
 
-Informationen zum Zugriff auf die Ressourcenverwaltung finden Sie unter [Gewähren des Zugriffs auf die Ressourcenverwaltung](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Informationen zum Zugriff auf die Ressourcenverwaltung finden Sie unter [Zugriff auf die Ressourcenverwaltung gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).

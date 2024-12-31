@@ -1,8 +1,8 @@
 ---
 product-area: home
 navigation-topic: new-home
-title: Übersicht über Filter für Startseiten-Widgets
-description: Sie können aus einer Reihe von Widgets wählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und auf Ihrer Startseite angeordnet werden.
+title: Übersicht über Startseiten-Widget-Filter
+description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und auf der Startseite angeordnet werden.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
@@ -13,7 +13,7 @@ ht-degree: 14%
 
 ---
 
-# Übersicht über Filter für Startseiten-Widgets
+# Übersicht über Startseiten-Widget-Filter
 
 Sie können Filter für die folgenden Widgets verwenden, um Arbeit zu finden und zu organisieren:
 
@@ -25,32 +25,32 @@ Sie können Filter für die folgenden Widgets verwenden, um Arbeit zu finden und
 
 ## Meine Projekte
 
-Sie können die folgenden Filter im Widget Meine Projekte verwenden:
+Im Widget Meine Projekte können Sie die folgenden Filter verwenden:
 
 <table>
   <tr>
     <td>Aktiv</td>
-    <td>Zeigt Projekte in den folgenden Status an: Aktuell, Geplant und Genehmigt </td>
+    <td>Zeigt Projekte mit den folgenden Status an: Aktuell, Geplant und Genehmigt </td>
   </tr>
   <tr>
     <td>Gefährdet</td>
-    <td>Zeigt Projekte im Status "Risiko"an </td>
+    <td>Zeigt Projekte mit dem Status Gefährdet an </td>
   </tr>
   <tr>
     <td>In Verzug</td>
-    <td>Zeigt Projekte im Status "Hinter"an</td>
+    <td>Zeigt Projekte mit dem Status „In Verzug“ an</td>
   </tr>
   <tr>
     <td>Aktuell</td>
-    <td>Zeigt Projekte im aktuellen Status an </td>
+    <td>Zeigt Projekte mit dem aktuellen Status an </td>
   </tr>
   <tr>
     <td>Diesen Monat fällig</td>
-    <td>Zeigt Projekte mit geplanten Abschlussdaten an, die innerhalb des aktuellen Kalendermonats liegen</td>
+    <td>Zeigt Projekte mit geplanten Abschlussdaten an, die in den aktuellen Kalendermonat fallen</td>
   </tr>
   <tr>
     <td>Verspätet</td>
-    <td>Zeigt Projekte im Status "Verspätet"an</td>
+    <td>Zeigt Projekte mit dem Status Überfällig an</td>
   </tr>
   <tr>
     <td>Meine Projekte</td>
@@ -58,23 +58,23 @@ Sie können die folgenden Filter im Widget Meine Projekte verwenden:
   </tr>
   <tr>
     <td>Im Zeitplan</td>
-    <td>Zeigt Projekte im Status Einschaltzeit an</td>
+    <td>Zeigt Projekte im Status „Einschaltzeit“ an</td>
   </tr>
   <tr>
     <td>Über Kostenbudget</td>
-    <td>Zeigt Projekte an, bei denen der tatsächliche Kostenwert größer ist als der geplante Kostenwert</td>
+    <td>Zeigt Projekte an, bei denen der Istkostenwert größer als der geplante Kostenwert ist</td>
   </tr>
   <tr>
     <td>Über Arbeitsbudget</td>
-    <td>Zeigt Projekte an, bei denen der Wert "Tatsächliche Arbeit erforderlich"größer als der Wert "Arbeit erforderlich"ist</td>
+    <td>Zeigt Projekte an, bei denen der tatsächliche Wert für „Erforderliche Arbeit“ größer als der Wert für „Erforderliche Arbeit“ ist</td>
   </tr>
   <tr>
     <td>Nur Warteschlangen</td>
-    <td>Zeigt Projekte an, die als Anforderungswarteschlangen bezeichnet wurden</td>
+    <td>Zeigt Projekte an, die als Anfragewarteschlangen gekennzeichnet sind</td>
   </tr>
   <tr>
     <td>Angefordert</td>
-    <td>Zeigt Projekte im Status "Angefordert"an</td>
+    <td>Zeigt Projekte mit dem Status Angefordert an</td>
   </tr>
   <tr>
     <td>Projekte für Szenarienplaner</td>
@@ -84,15 +84,15 @@ Sie können die folgenden Filter im Widget Meine Projekte verwenden:
 
 ## Meine Aufgaben
 
-Sie können die folgenden Filter im Widget My Tasks verwenden:
+Im Widget Meine Aufgaben können Sie die folgenden Filter verwenden:
 
 <table>
   <tr>
     <td>Aktive Aufgaben</td>
-    <td><p>Zeigt Aufgaben ohne Übermittlungsdatum oder Übermittlungsdatum an, das heute oder früher liegt und</p>
+    <td><p>Zeigt Aufgaben ohne Übergabedatum oder Übergabedatum an, das heute oder früher ist, und</p>
 <ul>
-  <li>Ein Fertigstellungsprozentsatz von weniger als 100 %</li>
-  <li>Der Wert Kann starten ist auf True festgelegt.</li>
+  <li>Ein Prozentwert der Fertigstellung, der weniger als 100 % beträgt</li>
+  <li>Der Wert „Kann starten“ wird auf „True“ gesetzt</li>
 </ul>
 </td>
   </tr>
@@ -102,53 +102,53 @@ Sie können die folgenden Filter im Widget My Tasks verwenden:
   </tr> -->
   <tr>
     <td>Genehmigungsaufgaben</td>
-    <td>Zeigt Aufgaben im Status Ausstehende Genehmigung an</td>
+    <td>Zeigt Aufgaben mit Status Ausstehende Genehmigung an</td>
   </tr>
   <tr>
     <td>Kann beginnen</td>
-    <td><p>Zeigt die mir zugewiesenen Aufgaben an</p>
+    <td><p>Zeigt mir zugewiesene Aufgaben an, die</p>
 <ul>
-  <li>befinden sich nicht in einem Status, der gleich "complete"ist</li>
-  <li>einen Can Start -Wert haben, der "true"ist</li>
+  <li>Sie haben keinen Status, der gleich „abgeschlossen“ ist</li>
+  <li>Sie können einen „Kann starten“-Wert haben, der „true“ ist</li>
 </ul>
 </td>
   </tr>
   <tr>
     <td>Kritischer Pfad</td>
-    <td>Zeigt Aufgaben an, die als "Kritisch"bezeichnet wurden</td>
+    <td>Zeigt als „Kritisch“ gekennzeichnete Aufgaben an</td>
   </tr>
   <tr>
     <td>Nicht abgeschlossene Aufgaben</td>
-    <td>Zeigt Aufgaben an, deren Status auf einen beliebigen Wert außer "Fertig stellen"eingestellt ist</td>
+    <td>Zeigt Aufgaben mit dem Status Alle außer Abgeschlossen an</td>
   </tr>
   <tr>
     <td>Meilensteinaufgaben</td>
-    <td>Zeigt Aufgaben an, die mit einem Meilenstein verbunden sind. Weitere Informationen finden Sie unter <a href="/help/quicksilver/manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md">Verknüpfen von Meilensteinen mit Aufgaben</a> .
+    <td>Zeigt Aufgaben an, die mit einem Meilenstein verbunden sind. Weitere <a href="/help/quicksilver/manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md"> finden Sie unter „Meilensteine </a> Aufgaben verknüpfen“.
 </td>
   </tr>
   <tr>
     <td>Meine Projektaufgaben</td>
-    <td>Zeigt Aufgaben im aktuellen Status an, in dem ich Mitglied des Projektteams bin </td>
+    <td>Zeigt Aufgaben mit dem aktuellen Status an, wenn ich Mitglied des Projektteams bin </td>
   </tr>
     <tr>
     <td>Meine Aufgaben</td>
-    <td>Zeigt die mir zugewiesenen Aufgaben an</td>
+    <td>Zeigt mir zugewiesene Aufgaben an</td>
   </tr>
   <tr>
-    <td>Nicht einer Iteration zugewiesen</td>
+    <td>Keine Iteration zugewiesen</td>
     <td>Zeigt Aufgaben an, die keiner Iteration zugewiesen sind</td>
   </tr>
   <tr>
     <td>Zuletzt interessant</td>
-    <td><p>Zeigt Aufgaben an, bei denen die letzte Aktualisierung innerhalb der letzten zwei Wochen erfolgte, und</p>
+    <td><p>Zeigt Aufgaben an, bei denen die letzte Aktualisierung in den letzten zwei Wochen erfolgte, und</p>
 <ul>
-  <li>Das Datum der Übermittlung ist größer als das geplante Abschlussdatum.</li>
+  <li>Das Commit-Datum ist größer als das geplante Abschlussdatum</li>
   oder
-  <li>Die Dauer des Projekts ist größer als die geplante Dauer</li>
+  <li>Die Projektdauer ist länger als die geplante Dauer</li>
   oder
-  <li>Die Bedingung geht reibungslos oder einige Bedenken aus.</li>
+  <li>Die Bedingung verläuft reibungslos für einige Bedenken</li>
   oder
-  <li>Der Hauptauftragsempfänger hat mit der Bearbeitung der Aufgabe begonnen</li>
+  <li>Der primäre Aufgabenbevollmächtigte hat mit der Arbeit an der Aufgabe begonnen</li>
 </ul>
 </td>
   </tr>
@@ -156,7 +156,7 @@ Sie können die folgenden Filter im Widget My Tasks verwenden:
     <td>Nicht zugewiesene Aufgaben in meiner Rolle</td>
     <td><p>Zeigt Aufgaben an, die</p>
 <ul>
-  <li>Einer meiner Rolle zugewiesen</li>
+  <li>Meiner Rolle zugewiesen</li>
   <li>Unvollständig</li>
 </ul>
 </td>
@@ -165,9 +165,9 @@ Sie können die folgenden Filter im Widget My Tasks verwenden:
     <td>Anstehende Aufgaben</td>
     <td><p>Zeigt Aufgaben an, die</p>
 <ul>
-  <li>sind unvollständig</li>
-  <li>Zu einem Projekt mit dem Status "Aktuell" gehören</li>
-  <li>Ist ein Startdatum innerhalb von zwei Wochen nach dem heutigen Datum vorgesehen</li>
+  <li>Sind unvollständig</li>
+  <li>Zu einem Projekt mit dem aktuellen Status gehören</li>
+  <li>ein geplantes Startdatum innerhalb von zwei Wochen nach dem heutigen Datum haben</li>
 </ul>
 </td>
   </tr>
@@ -175,16 +175,16 @@ Sie können die folgenden Filter im Widget My Tasks verwenden:
 
 ## Meine Probleme
 
-Sie können die folgenden Filter im Widget Meine Probleme verwenden:
+Im Widget Meine Probleme können Sie die folgenden Filter verwenden:
 
 <table>
 <tr>
     <td>Alle nicht zugewiesenen Personen</td>
-    <td>Zeigt alle nicht zugewiesenen Probleme an, denen kein auflösendes Objekt angehängt ist </td>
+    <td>Zeigt alle nicht zugewiesenen Probleme an, denen kein Lösungsobjekt angehängt ist </td>
   </tr>
   <tr>
     <td>Mir zugewiesen</td>
-    <td>Zeigt Probleme an, für die ich der Hauptverantwortliche bin</td>
+    <td>Zeigt Probleme an, bei denen ich der primäre Bearbeiter bin</td>
   </tr>
   <tr>
     <td>Abgeschlossen</td>
@@ -192,15 +192,15 @@ Sie können die folgenden Filter im Widget Meine Probleme verwenden:
   </tr>
   <tr>
     <td>Von mir eingegeben</td>
-    <td>Zeigt die von mir eingegebenen Probleme an</td>
+    <td>Zeigt von mir eingegebene Probleme an</td>
   </tr>
   <tr>
     <td>Meine Projektprobleme</td>
-    <td><p>Zeigt Probleme an,</p>
+    <td><p>Zeigt Probleme an, bei denen</p>
 <ul>
-  <li>Ich bin Hauptverantwortlicher</li>
+  <li>Ich bin die primäre Zuweisung.</li>
   <li>Der Status ist unvollständig</li>
-  <li>Es ist kein auflösendes Objekt angehängt</li>
+  <li>Es ist kein Lösungsobjekt angehängt</li>
 </ul>
 </td>
   </tr>
@@ -208,17 +208,17 @@ Sie können die folgenden Filter im Widget Meine Probleme verwenden:
     <td>Zuletzt von mir gesendete Probleme</td>
     <td><p>Zeigt Probleme an,</p>
 <ul>
-  <li>Ich habe</li>
-  <li>Es ist kein auflösendes Objekt angehängt</li>
-  <li>Der Status befindet sich nicht unter "Abgeschlossen"und es gibt kein Abschlussdatum.</li>
-  <li>wurden innerhalb von drei Monaten nach dem heutigen Datum übermittelt</li>
+  <li>Ich habe eingereicht</li>
+  <li>Es ist kein Lösungsobjekt angehängt</li>
+  <li>Der Status ist nicht unter Abgeschlossen und es gibt kein Abschlussdatum</li>
+  <li>wurden innerhalb von drei Monaten nach dem heutigen Datum eingereicht</li>
 </ul>
 </td>
   </tr>
     </tr>
     <tr>
     <td>Meine gesendeten Probleme</td>
-    <td>Zeigt Probleme an, die ich besitze</td>
+    <td>Zeigt Probleme in meinem Besitz an</td>
   </tr>
   <tr>
     <td>Öffnen</td>
@@ -226,40 +226,40 @@ Sie können die folgenden Filter im Widget Meine Probleme verwenden:
   </tr>
   <tr>
     <td>Lösbar</td>
-    <td>Zeigt Probleme an, an die aufgelöste Objekte angehängt sind</td>
+    <td>Zeigt Probleme an, an die Lösungsobjekte angehängt sind</td>
   </tr>
   <tr>
     <td>In meiner Funktion nicht zugewiesen</td>
-    <td>Zeigt alle Probleme an, denen kein primärer Benutzer zugewiesen ist, denen jedoch eine Rolle zugewiesen ist </td>
+    <td>Zeigt alle Probleme an, denen kein primärer Benutzer zugewiesen ist, denen aber eine Rolle zugewiesen ist </td>
   </tr>
 </table>
 
 ## Meine Arbeit
 
-Sie können die folgenden Filter im Widget Meine Arbeit verwenden:
+Im Widget „Meine Arbeit“ können Sie die folgenden Filter verwenden:
 
 <table>
   <tbody>
     <tr>
-      <td>Arbeiten an</td>
+      <td>Wird bearbeitet an</td>
       <td>Zeigt Elemente an, an denen Sie derzeit arbeiten</td>
     </tr>
     <tr>
       <td>Startbereit</td>
-      <td>Zeigt Elemente mit 
+      <td>Zeigt Elemente an mit 
       <ul>
-      <li>Keine unvollständigen Vorgänger oder Aufgabeneinschränkungen</li>
-      <li>Das geplante Startdatum liegt in der Vergangenheit oder bis zu zwei Wochen in der Zukunft</li>
+      <li>Keine unvollständigen Vorgänger oder Aufgabenbeschränkungen</li>
+      <li>Das geplante Startdatum liegt in den letzten oder bis zu zwei Wochen in der Zukunft</li>
       </ul>
       </td>
     </tr>
     <tr>
       <td>Nicht bereit</td>
-      <td>Zeigt Elemente an,
+      <td>Zeigt Elemente an, die
        <ul>
-      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen, die verhindern, dass das Element bearbeitet wird</li>
+      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen verhindern, dass das Element bearbeitet wird</li>
       oder
-      <li>Das geplante Startdatum liegt in Zukunft bei mehr als zwei Wochen.</li>
+      <li>Das geplante Startdatum liegt mehr als zwei Wochen in der Zukunft</li>
       </ul>
        </td>
     </tr>
@@ -269,7 +269,7 @@ Sie können die folgenden Filter im Widget Meine Arbeit verwenden:
     </tr>
     <tr>
       <td>Von mir delegiert</td>
-      <td>Zeigt Elemente an, die Sie anderen Benutzern zugewiesen haben</td>
+      <td>Zeigt Elemente an, die Sie an andere Benutzer delegiert haben</td>
     </tr>
     <tr>
       <td>An mich delegiert</td>
@@ -277,29 +277,29 @@ Sie können die folgenden Filter im Widget Meine Arbeit verwenden:
     </tr>
     <tr>
       <td>Abgeschlossen</td>
-      <td>Zeigt die Arbeit an, die in den letzten zwei Wochen abgeschlossen wurde. Diese Filteroption umfasst keine Genehmigungen.</td>
+      <td>Zeigt Arbeiten an, die in den letzten zwei Wochen abgeschlossen wurden. Diese Filteroption umfasst keine Genehmigungen.</td>
     </tr>
   </tbody>
 </table>
 
 ## Meine Genehmigungen
 
-Sie können die folgenden Filter im Widget Meine Genehmigungen verwenden:
+Im Widget Meine Genehmigungen können Sie die folgenden Filter verwenden:
 
 <table>
   <tbody>
     <tr>
       <td>Delegierte Genehmigungen</td>
-      <td>Zeigt Ihnen zugewiesene Genehmigungen an</td>
+      <td>Zeigt Genehmigungen an, die an Sie delegiert wurden</td>
     </tr>
     <tr>
       <td>Meine Genehmigungen</td>
-      <td>Zeigt Elemente an, für die Sie eine Genehmigung benötigen
+      <td>Zeigt Elemente an, die Ihre Genehmigung erfordern
       </td>
     </tr>
     <tr>
       <td>Von mir übermittelte Genehmigungen</td>
-      <td>Zeigt Elemente an, die Sie zur Genehmigung eingereicht haben
+      <td>Zeigt Elemente an, die Sie zur Genehmigung weitergeleitet haben
        </td>
     </tr>
   </tbody>

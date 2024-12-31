@@ -20,13 +20,13 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einem [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion] -Lizenz.
+>[!DNL Adobe Workfront Fusion] benötigt zusätzlich zu einer [!DNL Adobe Workfront license] eine [!DNL Adobe Workfront Fusion].
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Fehlerverarbeitung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md)
-* [Umgang mit Fehlern in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md)
-* [Richtlinien für die Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
-* [Fehlerbehandlung in [!DNL Adobe Workfront Fusion] wiederholen](../../workfront-fusion/errors/retry.md)
-* [Umgang mit Throw-Fehlern in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/throw.md)
+* [Fehler bei der Verarbeitung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-processing.md)
+* [Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/error-handling.md)
+* [Anweisungen für die Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/directives-for-error-handling.md)
+* [Behandlung von Wiederholungsfehlern in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/retry.md)
+* [Fehlerbehandlung beim Auslösen von Ereignissen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/errors/throw.md)
 * [Erweiterte Fehlerbehandlung in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/errors/advanced-error-handling.md)

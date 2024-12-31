@@ -1,8 +1,8 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Konfigurieren von [!DNL Adobe Workfront] für MobileIron
-description: In der App Adobe Workfront for MobileIron unterstützen wir Standardkonfigurationen von MobileIron für Android und iOS.
+title: Konfigurieren  [!DNL Adobe Workfront]  MobileIron
+description: In der Mobile App von Adobe Workfront für MobileIron unterstützen wir Standardkonfigurationen, die von MobileIron für Android und iOS bereitgestellt werden.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 294fd42d-89a8-44c2-a97c-95ea5dd876d4
@@ -13,42 +13,42 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] für [!DNL MobileIron] konfigurieren
+# Konfigurieren von [!DNL Adobe Workfront] für [!DNL MobileIron]
 
-In der Adobe Workfront für die App [!DNL MobileIron] unterstützen wir Standardkonfigurationen, die von [!DNL MobileIron] sowohl für [!DNL Android] als auch für [!DNL iOS] bereitgestellt werden.
+In der Adobe Workfront for [!DNL MobileIron]-App unterstützen wir Standardkonfigurationen, die von [!DNL MobileIron] für [!DNL Android] und [!DNL iOS] bereitgestellt werden.
 
 ## Android
 
 So konfigurieren Sie [!DNL Workfront] für [!DNL MobileIron] für [!DNL Android]:
 
-1. Wechseln Sie in Ihrer [!DNL MobileIron Cloud] -Instanz zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Standard [!DNL Android] AppConnect-Konfiguration]**.
+1. Wechseln Sie in Ihrer [!DNL MobileIron Cloud] zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Default [!DNL Android] AppConnect Configuration]**.
 
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]** und wählen Sie dann die Optionen aus, die Sie verwenden möchten:
+1. Klicken Sie **[!UICONTROL Bearbeiten]** und wählen Sie dann die gewünschten Optionen aus:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Kopieren/Einfügen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Sie festlegen, ob Benutzer in andere sichere Apps oder nur innerhalb der [!DNL Workfront] -App für [!DNL MobileIron] eingefügt werden sollen.</td>
+        <td>Wenn diese Option aktiviert ist, können Sie Benutzerinnen und Benutzer das Einfügen in andere sichere Apps oder nur innerhalb der [!DNL Workfront] für [!DNL MobileIron] App ermöglichen.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Kamera zulassen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Benutzer Fotos aus der [!DNL Workfront] für die [!DNL MobileIron] -App heraus aufnehmen.</td>
+        <td>Wenn diese Option aktiviert ist, können Benutzende in der [!DNL Workfront] für [!DNL MobileIron] App Fotos machen.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Galerie zulassen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Benutzer Fotos aus ihrer Fotogalerie anhängen.</td>
+        <td>Wenn diese Option aktiviert ist, können Benutzer Fotos von ihrer Fotogalerie anhängen.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Medienplayer zulassen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Benutzer Medien aus der [!DNL Workfront] für die [!DNL MobileIron] -App abspielen.</td>
+        <td>Wenn diese Option aktiviert ist, können Benutzer Medien aus der [!DNL Workfront] für [!DNL MobileIron] App abspielen.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Bildschirmaufnahme zulassen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Benutzer Screenshots innerhalb der [!DNL Workfront] für die [!DNL MobileIron] -App erstellen.</td>
+        <td><strong>[!UICONTROL Bildschirmaufzeichnung zulassen]</strong></td>
+        <td>Wenn diese Option aktiviert ist, können Benutzende Bildschirmaufnahmen innerhalb der [!DNL Workfront] für [!DNL MobileIron] App machen.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Web zulassen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Benutzer von der [!DNL Workfront] -App aus zu einem Webbrowser navigieren.[!DNL MobileIron]</td>
+        <td>Wenn diese Option aktiviert ist, können Benutzende in der [!DNL Workfront] für [!DNL MobileIron] App zu einem Webbrowser navigieren.</td>
     </tr>
    </table>
 
@@ -56,21 +56,21 @@ So konfigurieren Sie [!DNL Workfront] für [!DNL MobileIron] für [!DNL Android]
 
 So konfigurieren Sie [!DNL Workfront] für [!DNL MobileIron] für [!DNL iOS]:
 
-1. Wechseln Sie in Ihrer [!DNL MobileIron Cloud] -Instanz zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Standard [!DNL iOS] AppConnect-Konfiguration]**.
+1. Wechseln Sie in Ihrer [!DNL MobileIron Cloud] zu **[!UICONTROL Konfigurationen]** und klicken Sie dann auf **[!UICONTROL Default [!DNL iOS] AppConnect Configuration]**.
 
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]** und wählen Sie dann die Optionen aus, die Sie verwenden möchten:
+1. Klicken Sie **[!UICONTROL Bearbeiten]** und wählen Sie dann die gewünschten Optionen aus:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Kopieren/Einfügen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Sie festlegen, ob Benutzer in andere sichere Apps oder nur innerhalb der Workfron for MobileIron-App einfügen können.</td>
+        <td>Wenn diese Option aktiviert ist, können Sie Benutzerinnen und Benutzer das Einfügen in andere sichere Apps oder nur in die Workfront für die MobileIron-App ermöglichen.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Drucken zulassen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Benutzer über die [!DNL Workfront for MobileIron] -App eine Verbindung zu AirPrint herstellen.</td>
+        <td>Wenn diese Option aktiviert ist, können Benutzer über die [!DNL Workfront for MobileIron]-App eine Verbindung zu AirPrint herstellen.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Open-In zulassen]</strong></td>
-        <td>Wenn diese Option aktiviert ist, können Benutzer URLs mit einer anderen zutreffenden Anwendung öffnen.</td>
+        <td>Wenn diese Option aktiviert ist, können Benutzer URLs mit beliebigen anderen Anwendungen öffnen.</td>
     </tr>
    </table>

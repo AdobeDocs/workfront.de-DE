@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Allgemeine Funktionen in Adobe Workfront Fusion
-description: Die folgenden allgemeinen Funktionen sind im Bedienfeld Adobe Workfront Fusion-Zuordnung verfügbar.
+description: Die folgenden allgemeinen Funktionen sind im Bedienfeld "Adobe Workfront Fusion-Zuordnung“ verfügbar.
 author: Becky
 feature: Workfront Fusion
 exl-id: 74bfda4e-5690-4b8c-ac58-20cf261f188d
@@ -19,44 +19,44 @@ ht-degree: 0%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] Lizenz**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL get (Objekt oder Array; Pfad)]
+## [!UICONTROL GET (Objekt oder Array; Pfad)]
 
 Gibt den Wertpfad eines Objekts oder Arrays zurück. Verwenden Sie Punktnotation, um auf verschachtelte Objekte zuzugreifen. Das erste Element in einem Array ist Index 1.
 
@@ -69,15 +69,15 @@ Gibt den Wertpfad eines Objekts oder Arrays zurück. Verwenden Sie Punktnotation
 >* `get( object ; raw_name )`
 >* `get( object ; raw_name.sub_raw_name )`
 
-## [!UICONTROL if (expression; value1; value2)]
+## [!UICONTROL if (Ausdruck; Wert1; Wert2)]
 
-Gibt die `value1` zurück, wenn der Ausdruck als &quot;true&quot;ausgewertet wird; sonst wird die `value2` zurückgegeben.
+Gibt die `value1` zurück, wenn der Ausdruck als „true“ ausgewertet wird. Andernfalls wird die `value2` zurückgegeben.
 
-Verwenden Sie das Schlüsselwort `and` , um eine if -Anweisung zu erstellen, die nur dann einen Wert zurückgibt, wenn zwei oder mehr Ausdrücke als &quot;true&quot;ausgewertet werden.
+Um eine if-Anweisung zu erstellen, die einen Wert nur dann zurückgibt, wenn zwei oder mehr Ausdrücke als „true“ ausgewertet werden, verwenden Sie das `and`-Schlüsselwort.
 
-Verwenden Sie die Operatoren `and` und `or`, um `if` -Anweisungen zu kombinieren.
+Um `if` Anweisungen zu kombinieren, verwenden Sie die Operatoren `and` und `or` .
 
-![ und operator](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
+![UND-Operator](/help/quicksilver/workfront-fusion/functions/assets/and-in-if-statement.png)
 
 >[!INFO]
 >
@@ -85,7 +85,7 @@ Verwenden Sie die Operatoren `and` und `or`, um `if` -Anweisungen zu kombinieren
 >
 >* `if( 1 = 1 ; A ; B )`
 >
->    Gibt eine
+>    Gibt einen
 >
 >* `if( 1 = 2 ; A ; B )`
 >
@@ -96,9 +96,9 @@ Verwenden Sie die Operatoren `and` und `or`, um `if` -Anweisungen zu kombinieren
 >    Gibt B zurück
 >   
 
-## [!UICONTROL ifempty (value1; value2)]
+## [!UICONTROL IfEmpty (value1; value2)]
 
-Gibt den Wert `value1` zurück, wenn dieser Wert nicht leer ist. Andernfalls wird der Wert `value2` zurückgegeben.
+Gibt den `value1` zurück, wenn dieser Wert nicht leer ist. Andernfalls wird der `value2` zurückgegeben.
 
 >[!INFO]
 >
@@ -106,7 +106,7 @@ Gibt den Wert `value1` zurück, wenn dieser Wert nicht leer ist. Andernfalls wir
 >
 >* `ifempty(` `A` `;` `B` )
 >
->   Gibt eine
+>   Gibt einen
 >
 >* `ifempty(` `unknown` `;` `B` )
 >
@@ -116,9 +116,9 @@ Gibt den Wert `value1` zurück, wenn dieser Wert nicht leer ist. Andernfalls wir
 >
 >   Gibt B zurück
 
-## [!UICONTROL switch (expression; value1; result1; [value2; result2; ...]; [else])]
+## [!UICONTROL switch (Ausdruck; Wert1; Ergebnis1; [Wert2; Ergebnis2; …]; [else])]
 
-Wertet einen Wert (den so genannten Ausdruck) mit einer Werteliste aus; gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht. Um einen `else` -Wert einzuschließen, fügen Sie ihn nach dem letzten Ausdruck oder Wert hinzu.
+Wertet einen Wert (den Ausdruck) anhand einer Werteliste aus und gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht. Um einen `else` Wert einzuschließen, fügen Sie ihn nach dem endgültigen Ausdruck oder Wert hinzu.
 
 >[!INFO]
 >
@@ -136,21 +136,21 @@ Wertet einen Wert (den so genannten Ausdruck) mit einer Werteliste aus; gibt das
 >
 >   Gibt 4 zurück
 >   
->   In dieser Funktion ist 4 der Wert, der zurückgegeben wird, wenn keine Ausdrücke zutreffen (der Wert `else` ).
+>   In dieser Funktion ist 4 der Wert, der zurückgegeben werden soll, wenn keine Ausdrücke gelten (der `else`).
 
-## [!UICONTROL omit(object; key1; [key2; ...])]
+## [!UICONTROL OMIT(Objekt; Schlüssel1; [Schlüssel2; …])]
 
-Löst die angegebenen Schlüssel des Objekts aus und gibt den Rest zurück.
+Lässt die angegebenen Schlüssel des -Objekts aus und gibt den Rest zurück.
 
 >[!INFO]
 >
 >**Beispiel:**
 >
->`omit(` Benutzer `;` Kennwort `)`
+>`omit(` Benutzer `;` Passwort `)`
 >
 >Gibt eine Sammlung der Benutzerinformationen zurück, mit Ausnahme des Kennworts.
 
-## [!UICONTROL pick(object; key1; [key2; ...])]
+## [!UICONTROL PICK(Objekt; Schlüssel1; [Schlüssel2; …])]
 
 Wählt nur die angegebenen Schlüssel aus dem Objekt aus.
 
@@ -158,11 +158,11 @@ Wählt nur die angegebenen Schlüssel aus dem Objekt aus.
 >
 >**Beispiel:**
 >
->`pick(` Benutzer `;` Kennwort `;` E-Mail `)`
+>`pick(` Benutzer `;` Passwort `;` E-Mail-`)`
 >
->Gibt nur eine Sammlung des Kennworts und der E-Mail-Adresse des Benutzers zurück.
+>Gibt nur eine Sammlung von Passwort und E-Mail-Adresse der Benutzenden zurück.
 
 ## mergeCollections(collection1 ; collection2)
 
-Führt zwei Sammlungen durch Kombination ihrer Schlüssel-Wert-Paare zusammen. Wenn beide Sammlungen denselben Schlüssel enthalten, überschreibt der Wert aus der zweiten Sammlung diesen Wert aus der ersten Sammlung.
+Führt zwei Sammlungen durch Kombinieren ihrer Schlüssel-Wert-Paare zusammen. Wenn beide Sammlungen denselben Schlüssel enthalten, überschreibt der Wert aus der zweiten Sammlung diesen Wert aus der ersten Sammlung.
 

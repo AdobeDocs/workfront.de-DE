@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
 title: Zeichenbeschränkungen in Feldern
-description: Bestimmte Felder in Adobe Workfront beschränken die Anzahl der Zeichen, die in das Feld eingefügt werden können. Workfront indiziert Inhalte, damit sie zu einem späteren Zeitpunkt durchsucht werden können. Eine Zeichenbegrenzung wird erzwungen, um eine hohe Leistung des Workfront-Systems sicherzustellen.
+description: Bestimmte Felder in Adobe Workfront beschränken die Anzahl der Zeichen, die in das Feld aufgenommen werden können. Workfront indiziert Inhalte, damit sie zu einem späteren Zeitpunkt durchsucht werden können. Eine Zeichenbeschränkung wird durchgesetzt, um eine hohe Leistung des Workfront-Systems zu gewährleisten.
 author: Alina
 feature: Get Started with Workfront
 exl-id: f09dadf4-24f2-46d9-85ae-6081731d917d
@@ -16,11 +16,11 @@ ht-degree: 5%
 
 # Zeichenbeschränkungen in Feldern
 
-Bestimmte Felder in Adobe Workfront beschränken die Anzahl der Zeichen, die in das Feld eingefügt werden können. Workfront indiziert Inhalte, damit sie zu einem späteren Zeitpunkt durchsucht werden können. Eine Zeichenbegrenzung wird erzwungen, um eine hohe Leistung des Workfront-Systems sicherzustellen.
+Bestimmte Felder in Adobe Workfront beschränken die Anzahl der Zeichen, die in das Feld aufgenommen werden können. Workfront indiziert Inhalte, damit sie zu einem späteren Zeitpunkt durchsucht werden können. Eine Zeichenbeschränkung wird durchgesetzt, um eine hohe Leistung des Workfront-Systems zu gewährleisten.
 
-Wenn Sie sich dem Limit nähern, wird ein Zähler angezeigt. Wenn Sie den Grenzwert überschreiten, werden überschüssige Zeichen hervorgehoben und Sie können den Text nicht posten. Löschen Sie Zeichen, bis Sie die zulässige Beschränkung erreicht haben.
+Wenn Sie sich dem Limit nähern, wird ein Zähler angezeigt. Wenn Sie das Limit überschreiten, werden überschüssige Zeichen hervorgehoben und Sie können den Text nicht veröffentlichen. Löschen Sie Zeichen, bis Sie das zulässige Limit erreicht haben.
 
-Die Zeichenbeschränkung unterscheidet sich je nach verwendetem Feld. Die unten aufgeführten Beschränkungen gelten für Sprachen, die ein lateinisches Alphabet verwenden (z. B. Englisch). Die Beschränkung kann für Sprachen mit erweiterten oder Doppelbyte-Zeichen niedriger sein.
+Die Zeichenbeschränkung unterscheidet sich je nach verwendetem Feld. Die unten aufgeführten Beschränkungen gelten für Sprachen, die ein lateinisches Alphabet verwenden (z. B. Englisch). Der Grenzwert kann für Sprachen, die erweiterte Zeichen oder Doppelbyte-Zeichen enthalten, niedriger sein.
 
 Workfront- oder Gruppenadministratoren können die Zeichenbeschränkungen in Feldern nicht ändern.
 
@@ -30,7 +30,7 @@ Workfront- oder Gruppenadministratoren können die Zeichenbeschränkungen in Fel
  <thead> 
   <tr> 
    <th> <p><strong>Feldtyp</strong> </p> </th> 
-   <th> <p><strong>Zeichenbeschränkung (</strong><strong>einschließlich Leerzeichen)</strong> </p> </th> 
+   <th> <p><strong>Zeichenbeschränkung (</strong><strong> Leerzeichen)</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -57,7 +57,7 @@ Workfront- oder Gruppenadministratoren können die Zeichenbeschränkungen in Fel
    <td>4.000</td> 
   </tr> 
   <tr> 
-   <td> <p>Benutzerdefinierter Datenabsatz oder Einzelzeilentext </p> </td> 
+   <td> <p>Benutzerdefinierter Datenabsatz oder einzeiliger Text </p> </td> 
    <td> <p>2.000</p> </td> 
   </tr> 
   <tr> 
@@ -65,7 +65,7 @@ Workfront- oder Gruppenadministratoren können die Zeichenbeschränkungen in Fel
    <td> <p>512</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Dropdown-Menübeschriftung</p> </td> 
+   <td> <p>Dropdown-Menübezeichnung</p> </td> 
    <td> <p>255</p> </td> 
   </tr> 
   <tr> 

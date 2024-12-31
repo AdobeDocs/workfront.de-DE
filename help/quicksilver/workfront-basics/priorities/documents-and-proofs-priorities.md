@@ -5,13 +5,13 @@ description: Dokumente
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a59d092e700f1f661ad8e3cb74b7d96ee2418f41
+exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
+source-git-commit: c0a7e84bd63fb15fde62a83c7313674a629c6c7b
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 2%
 
 ---
-
 
 # Hochladen von Dokumenten und Erstellen von Testsendungen in „Prioritäten“
 
@@ -182,6 +182,3 @@ Sie können Dokumente sortieren nach
 
 * Datum hinzugefügt
 * Dateityp
-
-
-

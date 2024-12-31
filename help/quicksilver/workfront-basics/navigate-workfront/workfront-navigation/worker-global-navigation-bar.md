@@ -2,8 +2,8 @@
 content-type: overview
 product-area: user-management
 navigation-topic: workfront-navigation
-title: Informationen zur Navigation für einen Benutzer mit einer Arbeits-Lizenz
-description: Das Hauptmenü ändert sich je nach Zugriffsstufe, die Ihnen Ihr [!DNL Adobe Workfront] Administrator zugewiesen hat. Standardmäßig erhalten Sie nur Zugriff auf die Bereiche, die Funktionen enthalten, die durch Ihre Zugriffsebene zulässig sind.
+title: Grundlegendes zur Navigation für einen Benutzer mit Arbeitslizenz
+description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ihrem/ [!DNL Adobe Workfront]  zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c6e67518-a9e7-4b71-93d2-7a9d36633792
@@ -14,46 +14,46 @@ ht-degree: 0%
 
 ---
 
-# Informationen zur Navigation für einen Benutzer mit der Lizenz [!UICONTROL Arbeit]
+# Grundlegendes zur Navigation für einen [!UICONTROL Work]-License-Benutzer
 
-Das [!UICONTROL Hauptmenü] ändert sich entsprechend der Zugriffsebene, die Ihnen Ihr [!DNL Adobe Workfront] -Administrator zugewiesen hat. Standardmäßig erhalten Sie nur Zugriff auf die Bereiche, die Funktionen enthalten, die durch Ihre Zugriffsebene zulässig sind. Informationen zu den Komponenten des Standardlayouts der einzelnen Zugriffsebenen finden Sie unter [Über das Standardlayout [!DNL Adobe Workfront] layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
+Das [!UICONTROL Hauptmenü] ändert sich mit der Zugriffsebene, die Ihnen von Ihrem [!DNL Adobe Workfront] zugewiesen wurde. Standardmäßig erhalten Sie nur Zugriff auf Bereiche, die Funktionen enthalten, die von Ihrer Zugriffsebene zugelassen sind. Informationen zu den Komponenten des Standard-Layouts jeder Zugriffsebene finden Sie unter [Über das Standard [!DNL Adobe Workfront] Layout](../../../administration-and-setup/customize-workfront/use-layout-templates/about-the-default-wf-layout.md).
 
-## Grundlegendes zum standardmäßigen [!UICONTROL Hauptmenü] eines Mitarbeiters
+## Grundlegendes zum Standardmenü [!UICONTROL Hauptmenü] eines Sekundärs
 
-Als [!UICONTROL Worker] besteht Ihre Hauptverantwortung darin, die Arbeit abzuschließen. Die Bereiche im [!UICONTROL Hauptmenü], die für Sie sichtbar sind, ermöglichen dies.
+Als [!UICONTROL Worker] liegt Ihre Hauptverantwortung darin, die Arbeit abzuschließen. Die Bereiche im [!UICONTROL Hauptmenü] die für Sie sichtbar sind, ermöglichen Ihnen dies.
 
-Die folgenden Bereiche sind im Standardlayout von [!UICONTROL Worker] enthalten:
+Die folgenden Bereiche sind im Standard-Layout eines -[!UICONTROL  enthalten]:
 
-* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die Standard-Landingpage für einen Worker. Sie wird jedoch nicht im [!UICONTROL Hauptmenü] angezeigt, es sei denn, ein Workfront-Administrator fügt sie der Layoutvorlage hinzu.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+* **[!UICONTROL Startseite]**: Hier werden die Ihnen zugewiesenen Aufgaben und Probleme angezeigt. Dies ist die standardmäßige Landingpage für einen Worker. Sie wird jedoch nur dann im [!UICONTROL Hauptmenü“ angezeigt, ] ein Workfront-Administrator sie der Layoutvorlage hinzufügt.  Weitere Informationen finden Sie unter [Erste Schritte mit [!UICONTROL Startseite]](../../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* **[!UICONTROL Projekte]**: Projekte, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie unter [Projekte: Artikelindex](../../../manage-work/projects/projects-overview.md).
+* **[!UICONTROL Projekte]**: Hier werden Projekte angezeigt, die für Sie freigegeben wurden. Weitere Informationen finden Sie [Projekte: Artikelindex](../../../manage-work/projects/projects-overview.md).
 
-* **[!UICONTROL Berichte]**: Hier werden Berichte angezeigt, die für Sie freigegeben sind. Weitere Informationen finden Sie unter [Berichte](../../../reports-and-dashboards/reports/reports-overview.md).
+* **[!UICONTROL Berichte]**: Hier werden Berichte angezeigt, die für Sie freigegeben wurden. Weitere Informationen finden Sie unter [Berichte](../../../reports-and-dashboards/reports/reports-overview.md).
 
 * **[!UICONTROL Dashboards]**: Dashboards, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie unter [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-* **[!UICONTROL Kalender]**: Kalender, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie unter [Kalender: Artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
+* **[!UICONTROL Kalender]**: Kalender, die für Sie freigegeben sind, werden hier angezeigt. Weitere Informationen finden Sie [Kalender: Artikelindex](../../../reports-and-dashboards/reports/calendars/calendars.md).
 
-* **[!UICONTROL Teams]**: Aufgaben und Probleme, die Ihren Teams zugewiesen sind, werden in diesem Bereich angezeigt. Als Worker sind Sie der einzige [!DNL Workfront]-Benutzer, der standardmäßig den Bereich [!UICONTROL Teams] sieht.
+* **[!UICONTROL Teams]**: In diesem Bereich werden den Teams zugewiesene Aufgaben und Probleme angezeigt. Als Worker sind Sie der einzige [!DNL Workfront], der standardmäßig den Bereich [!UICONTROL Teams] sieht.
 
   Weitere Informationen finden Sie unter [Erstellen und Verwalten von Teams](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
-* **[!UICONTROL Anforderungen]**: Sie können hier Anforderungen senden und Anforderungen überprüfen, die Sie oder Ihre Team-Mitglieder hier eingereicht haben. Weitere Informationen finden Sie unter [Anforderungen](../../../manage-work/requests/requests-overview.md).
+* **[!UICONTROL Anfragen]**: Sie können hier Anfragen senden und Anfragen überprüfen, die Sie oder Ihre Team-Mitglieder gesendet haben. Weitere Informationen finden Sie unter [Anfragen](../../../manage-work/requests/requests-overview.md).
 
-* **[!UICONTROL Timesheets]**: Sie können hier auf Ihre aktuellen, zukünftigen oder alten Timesheets zugreifen. Weitere Informationen finden Sie unter [Timesheets: Artikelindex](../../../timesheets/timesheets-all.md).
+* **[!UICONTROL Arbeitszeittabellen]**: Sie können hier auf Ihre aktuellen, künftigen oder alten Arbeitszeittabellen zugreifen. Weitere Informationen finden Sie [Arbeitszeittabellen: Artikelindex](../../../timesheets/timesheets-all.md).
 
-* **[!UICONTROL Dokumente]**: Hier können Sie Dokumente hochladen oder Dokumente überprüfen, die für Sie freigegeben wurden. Weitere Informationen finden Sie unter [Dokumente](../../../documents/documents-overview.md).
+* **[!UICONTROL Dokumente]**: Hier können Sie Dokumente hochladen oder für Sie freigegebene Dokumente überprüfen. Weitere Informationen finden Sie unter [Dokumente](../../../documents/documents-overview.md).
 
-* **[!UICONTROL Ressourcen]**: Sie können die Ressourcenzuordnung in den Tools für die Ressourcenplanung anzeigen und hier Ressourcenpools anzeigen. Weitere Informationen finden Sie unter [Verwalten von Ressourcen](../../../resource-mgmt/manage-resources.md).
+* **[!UICONTROL Ressourcenzuordnung]**: Sie können die Ressourcenzuordnung in den Ressourcenplanungs-Tools und Ressourcenpools hier anzeigen. Weitere Informationen finden Sie unter [Verwalten von Ressourcen](../../../resource-mgmt/manage-resources.md).
 
-* **[!UICONTROL Analytics]**: Sehen Sie sich Projektdaten an und identifizieren Sie Trends bei Planung und Abschluss. In diesem Bereich werden Einblicke in Projekte angezeigt, auf die Sie Zugriff haben. Weitere Informationen finden Sie unter [Überblick über erweiterte Analysen](../../../enhanced-analytics/enhanced-analytics-overview.md).
+* **[!UICONTROL Analytics]**: Projektdaten betrachten und Trends bei Planung und Abschluss identifizieren. In diesem Bereich werden Einblicke in Projekte angezeigt, auf die Sie Zugriff haben. Weitere Informationen finden Sie unter [Erweiterte Analyse - Übersicht](../../../enhanced-analytics/enhanced-analytics-overview.md).
 
-* **[!UICONTROL Pinnwände]**: Arbeiten Sie mit Ihren Teammitgliedern flexibel und kooperieren Sie mit ihnen, indem Sie freigegebene Pinnwände verwenden, die Spalten und Karten enthalten, die die gewünschten Arbeiten widerspiegeln. Weitere Informationen finden Sie unter [Erste Schritte mit Pinnwänden: Artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
+* **[!UICONTROL Pinnwände]**: Arbeiten Sie flexibel und gemeinsam mit Ihren Team-Mitgliedern, indem Sie freigegebene Pinnwände verwenden, die Spalten und Karten enthalten, die die Arbeit widerspiegeln, die Sie erledigen möchten. Weitere Informationen finden Sie [Erste Schritte mit Pinnwänden: Artikelindex](../../../agile/get-started-with-boards/get-started-with-boards.md).
 
-* **[!UICONTROL Blueprints]**: Überprüfen Sie vorhandene Blueprints in Ihrem System und fordern Sie die Installation an, wenn der [!DNL Workfront] -Administrator die Anforderungswarteschlange für Blueprints konfiguriert hat. Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../administration-and-setup/blueprints/blueprints-overview.md).
+* **[!UICONTROL Blueprints]**: Überprüfen Sie vorhandene Blueprints in Ihrem System und fordern Sie die Installation an, wenn der [!DNL Workfront] die Anfrage-Warteschlange für Blueprints konfiguriert hat. Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 ![](assets/worker-main-menu-350x426.png)
 
-## Anpassen des standardmäßigen [!UICONTROL Hauptmenüs]
+## Anpassen des Standardmenüs [!UICONTROL Hauptmenü]
 
-Ihr [!DNL Workfront] -Administrator kann Ihr Standardlayout von [!DNL Workfront] ändern, indem er Ihnen eine Layoutvorlage zuweist. Weitere Informationen zum Arbeiten mit Layoutvorlagen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mit einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Ihr [!DNL Workfront] kann Ihr [!DNL Workfront] Standardlayout ändern, indem er Ihnen eine Layoutvorlage zuweist. Weitere Informationen zum Arbeiten mit Layout-Vorlagen finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] Verwenden einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).

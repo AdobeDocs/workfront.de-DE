@@ -16,13 +16,13 @@ ht-degree: 2%
 
 # KI-Assistent in Workfront Fusion
 
-Der KI-Assistent kann Informationen aus der Workfront-Dokumentation suchen, sodass Sie Adobe Experience League nicht mehr besuchen müssen, um die benötigte Hilfe zu erhalten.
+Der KI-Assistent kann Informationen aus der Workfront-Dokumentation finden, sodass Sie Adobe Experience League nicht mehr aufrufen müssen, um die benötigte Hilfe zu erhalten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
@@ -37,11 +37,11 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
    <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: Nicht verfügbar</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
    <td>
-   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p>
+   <p>Aktuell: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Veraltet: Beliebig </p>
+   <p>Legacy: Beliebig </p>
    </td> 
   </tr> 
   <tr> 
@@ -54,9 +54,9 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 +++
 
@@ -64,19 +64,19 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
 
 ## Voraussetzungen
 
-Adobe muss über eine unterzeichnete Adobe Gen AI-Vereinbarung verfügen.
+Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben.
 
-Weitere Informationen zum Unterzeichnen der Vereinbarung finden Sie unter [Unterschreiben der Adobe Gen AI Agreement](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement) in der Übersicht über den AI Assistant des Artikels in der Workfront-Dokumentation.
+Weitere Informationen zum Unterzeichnen der Vereinbarung finden Sie unter [Unterschreiben der Adobe Gen AI-](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)) im Artikel KI-Assistent - Übersicht in der Dokumentation zu Workfront.
 
-## Informationen vom AI-Assistenten abrufen
+## Abrufen von Informationen aus dem KI-Assistenten
 
-So erhalten Sie Informationen oder Anweisungen aus der Workfront-Dokumentation mit dem AI-Assistenten:
+Abrufen von Informationen oder Anweisungen aus der Workfront-Dokumentation mithilfe des KI-Assistenten:
 
-1. Klicken Sie auf das Symbol **AI-Assistent** ![AI-Assistent-Symbol](assets/ai-assistant-icon.png) oben rechts im Bildschirm.
-1. Geben Sie im Bedienfeld &quot;AI Assistant&quot;Ihre Eingabeaufforderung in den Textbereich unten im Bedienfeld ein.
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Geben Sie im Bedienfeld KI-Assistent Ihre Eingabeaufforderung in den Textbereich unten im Bedienfeld ein.
 
-   Je nach Größe oder Komplexität der Eingabeaufforderung kann es einen Moment dauern, bis der KI-Assistent die Informationen findet. Wir empfehlen einfache Eingabeaufforderungen.
+   Je nachdem, wie groß oder komplex die Eingabeaufforderung ist, kann es einige Minuten dauern, bis der KI-Assistent die Informationen findet. Wir empfehlen einfache Eingabeaufforderungen.
 
-1. Zeigen Sie die Antwort im Bereich &quot;AI Assistant&quot;an.
+1. Zeigen Sie die Antwort im Bedienfeld KI-Assistent an.
 1. (Optional) Wenn die Antwort nicht die benötigten Informationen enthält, verfeinern Sie Ihre Antwort und versuchen Sie es erneut.
 1. (Optional und bedingt) Wenn die Antwort einen Link zu einem Adobe Experience League-Artikel enthält, klicken Sie auf den Link, um den Artikel in einem neuen Fenster zu öffnen.

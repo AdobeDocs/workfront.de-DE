@@ -2,7 +2,7 @@
 product-area: home
 navigation-topic: new-home
 title: Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite
-description: Sie können aus einer Reihe von Widgets wählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und neu angeordnet werden.
+description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und neu angeordnet werden.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
@@ -16,13 +16,13 @@ ht-degree: 5%
 
 # Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite
 
-Sie können aus einer Reihe von Widgets wählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und neu angeordnet werden.
+Sie können aus einer Reihe von Widgets auswählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und neu angeordnet werden.
 
 ## Für bestimmte Lizenztypen verfügbare Widgets
 
-Standardmäßig werden auf der Startseite je nach Lizenztyp bestimmte Widgets angezeigt.
+Standardmäßig werden der Startseite je nach Lizenztyp bestimmte Widgets hinzugefügt.
 
-+++ Erweitern, um verfügbare Widgets für jeden Lizenztyp anzuzeigen
++++ Erweitern Sie , um die für jeden Lizenztyp verfügbaren Widgets anzuzeigen
 
 <table border="1" class="inlineTable">
     <tr>
@@ -35,15 +35,15 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp bestimmte Widgets an
     </tr>
     <tr>
         <td>Leicht</td>
-        <td>Meine Arbeit, die auf meine Genehmigung wartet</td>
+        <td>Meine Arbeit wartet auf meine Genehmigung</td>
     </tr>
     <tr>
         <td>Mitwirkender oder Mitwirkende</td>
-        <td>Meine Anforderungen, Erwähnungen, auf meine Genehmigung warten, Foren</td>
+        <td>Meine Anfragen, Erwähnungen, wartet auf meine Genehmigung, Boards</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf meine Genehmigung</td>
+        <td>Warten auf Genehmigung</td>
     </tr>
 </table>
 
@@ -62,19 +62,19 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp bestimmte Widgets an
     </tr>
     <tr>
         <td>Überprüfung</td>
-        <td>Meine Arbeit, Erwähnungen</td>
+        <td>Meine Arbeit, erwähnt</td>
     </tr>
     <tr>
         <td>Anfrage</td>
-        <td>Meine Projekte warten auf meine Genehmigung</td>
+        <td>Meine Projekte, die auf Genehmigung warten</td>
     </tr>
     <tr>
         <td>Mitwirken</td>
-        <td>Meine Arbeit, Erwähnungen</td>
+        <td>Meine Arbeit, erwähnt</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf meine Genehmigung</td>
+        <td>Warten auf Genehmigung</td>
     </tr>
 </table>
 
@@ -82,90 +82,90 @@ Standardmäßig werden auf der Startseite je nach Lizenztyp bestimmte Widgets an
 
 ## Widget zur Startseite hinzufügen
 
-Widgets sind die Grundlage von Home. Wenn Sie Ihrer Startseite Widgets hinzufügen, können Sie auswählen, welcher Informationstyp angezeigt wird, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets sind nur für bestimmte Lizenztypen verfügbar, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Weitere Informationen finden Sie oben im Abschnitt [Widgets für bestimmte Lizenztypen](#widgets-available-for-specific-license-types) .
+Widgets sind die Grundlage der Startseite. Durch Hinzufügen von Widgets zu Ihrer Startseite können Sie den Typ der Informationen auswählen, die angezeigt werden, um Ihren Arbeitsanforderungen am besten zu entsprechen. Einige Widgets stehen nur für bestimmte Lizenztypen zur Verfügung, da die von ihnen verfolgten Objekte nur für diese Lizenzen verfügbar sind. Weitere Informationen finden Sie [ Abschnitt „Widgets, die für bestimmte Lizenztypen verfügbar ](#widgets-available-for-specific-license-types)&quot; weiter oben.
 
 Hinzufügen eines Widgets:
 
-1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf Ihrem Bildschirm klicken, wenn &quot;Home&quot;als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
+1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf dem Bildschirm klicken, wenn die Startseite als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
 
-1. Klicken Sie oben rechts im Bildschirm auf **Anpassen** .
+1. Klicken **oben rechts** Bildschirm auf „Anpassen“.
 
-   ![Schaltfläche &quot;Anpassen&quot;](assets/customize-button.png)
+   ![Schaltfläche „Anpassen](assets/customize-button.png)
 1. Scrollen Sie zum Abschnitt **Widgets** und wählen Sie dann die Widgets aus, die Sie hinzufügen möchten.
 
-+++ Erweitern, um eine detaillierte Liste der verfügbaren Widgets anzuzeigen
++++ Erweitern um eine detaillierte Liste der verfügbaren Widgets anzuzeigen
 
-       Nachfolgend finden Sie die 11 Widgets, aus denen Sie derzeit auswählen können, sowie eine Zusammenfassung der angezeigten Informationen:
+       Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit wählen können, sowie eine Zusammenfassung der angezeigten Informationen:
    
    * **Meine Arbeit**\
-       Dieses Widget ist ein idealer Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben und Anforderungen. Es zeigt alle von Ihnen zugewiesenen Aufgaben, Probleme und Anforderungen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Arbeit an einem Element zu beginnen, oder auf die Schaltfläche Fertig , um es als vollständig zu markieren. Sie können auch Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen, zur Protokollzeit und zum Hinzufügen von Aktualisierungen über das Widget &quot;Meine Arbeit&quot;aktualisieren.
+       Dieses Widget ist ein hervorragender Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben. Es zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Bearbeitung eines Elements zu beginnen, oder auf die Schaltfläche Fertig , um das Element als abgeschlossen zu markieren. Sie können auch über das Widget Meine Arbeit Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen aktualisieren, die Zeit protokollieren und Aktualisierungen hinzufügen.
 
    * **Pinnwände**\
-       Zeigt alle Pinnwände an, die Sie erstellt haben oder zur Verwendung eingeladen wurden. Sie können auch eine neue Pinnwand erstellen, die auf folgenden Vorlagen basiert: Basis-Pinnwand, Kanban-Pinnwand, Retrospective-Pinnwand, Dynamische Pinnwand.
+       Zeigt alle Boards an, die Sie erstellt haben oder die Sie zur Verwendung eingeladen wurden. Sie können auch eine neue Pinnwand erstellen, die auf den folgenden Vorlagen basiert: Grundlegende Pinnwand, Kanban-Pinnwand, retrospektive Pinnwand, dynamische Pinnwand
 
    * **Meine Projekte**\
-       Zeigt Projekte an, deren Inhaber Sie sind, oder Projekte, die Sie in einer Liste haben. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Projekt direkt über das Widget erstellen.
+       Zeigt Projekte an, deren Inhaber Sie sind oder zu denen Sie in einer Liste gehören. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Projekt direkt über das Widget erstellen.
 
    * **Meine Aufgaben**\
-       Zeigt Aufgaben an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können eine Aufgabe direkt über das Widget erstellen. Sie können Ihre Aufgaben auch außerhalb des Büros delegieren.
+       Zeigt Aufgaben an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können eine Aufgabe direkt über das Widget erstellen. Sie können Ihre Aufgaben auch delegieren, während Sie nicht im Büro sind.
 
    * **Meine Probleme**\
-       Zeigt Probleme an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Problem direkt über das Widget erstellen. Dieses Widget enthält nur Probleme, deren verknüpfte Projekte auf &quot;Aktuell&quot;eingestellt sind, nicht aber abgeschlossene Projekte. Sie können Ihre Probleme auch delegieren, während Sie nicht im Büro sind.
+       Zeigt Probleme an, die Ihnen in einer Liste zugewiesen sind. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Problem direkt über das Widget erstellen. Dieses Widget enthält nur Probleme, deren verknüpfte Projekte auf „Aktuell“ eingestellt sind, und keine abgeschlossenen Projekte. Sie können Ihre Anfragen auch delegieren, während Sie nicht im Büro sind.
 
-   * **Meine Anforderungen**\
-       Zeigt alle von Ihnen gesendeten Anfragen, einen Filter zur ausschließlichen Anzeige offener Anforderungen und eine Schaltfläche an, mit der der Zusammenfassungsbereich für eine Anforderung geöffnet wird.
+   * **Meine Anfragen**\
+       Zeigt alle von Ihnen gesendeten Anfragen, einen Filter, um nur offene Anfragen anzuzeigen, und eine Schaltfläche an, die das Bedienfeld „Zusammenfassung“ für eine Anfrage öffnet.
 
-   * **Team-Anforderungen**\
+   * **Teamanfragen**\
        Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
    * **Warten auf meine Genehmigung**\
        Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
 
    * **Alle Genehmigungen**\
-           Zeigt zwei Diagramme mit Informationen über die durchschnittliche Genehmigungszeit und -entscheidungen sowie Listenansichten ausstehender und überfälliger Genehmigungen an. <span style="color: #ff0000;">Diese Funktion ist Teil einer schrittweisen Veröffentlichung und steht derzeit nur bestimmten Kunden zur Verfügung.</span>
+           Zeigt zwei Diagramme mit Informationen zur durchschnittlichen Genehmigungszeit und zu Entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen. <span style="color: #ff0000;">Diese Funktion ist Teil einer stufenweisen Veröffentlichung und derzeit nur für bestimmte Kunden verfügbar.</span>
 
    * **Erwähnungen**\
-       Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite My Updates . Sie können die Antwortschaltfläche verwenden, um eine Antwort im Widget zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen, die Ihnen zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, die Ihnen gehören, die Sie als primärer Ansprechpartner fungieren oder die Sie erstellt haben, sofern die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
+       Zeigt aktuelle Kommentar-Threads aus Workfront an, ähnlich wie auf der Seite Meine Aktualisierungen . Sie können die Schaltfläche Antworten verwenden, um eine Antwort innerhalb des Widgets zu erstellen. Dieses Widget zeigt auch Kommentare zu Aufgaben und Problemen an, denen Sie zugewiesen sind, die Sie einem anderen Benutzer zugewiesen haben, deren Inhaber Sie sind, für die Sie der primäre Kontakt sind oder die Sie erstellt haben - solange die Aufgabe oder das Problem in den letzten 30 Tagen aktualisiert wurde.
 
-   * **To-dos**\
-       Mit diesem einzigartigen Widget können Sie Elemente zu einer persönlichen Checkliste hinzufügen, die Sie frei bearbeiten können. Aufgaben werden als Aufgaben in Ihrem persönlichen Projekt nachverfolgt und bleiben bis zu zwei Wochen nach der Fertigstellung erhalten.
+   * **Aufgaben**\
+       Dieses einzigartige Widget ermöglicht es Ihnen, Elemente zu einer persönlichen Checkliste hinzuzufügen, die Sie frei bearbeiten können. Aufgaben werden als Aufgaben in Ihrem persönlichen Projekt erfasst und verbleiben bis zu zwei Wochen nach Abschluss.
 
      >[!NOTE]
      >
-     >Sie müssen über die Berechtigung zum Erstellen von Aufgaben verfügen, um Aufgaben im To-dos-Widget zu erstellen. Im Widget werden nur persönliche Aufgaben angezeigt, die vom aktuellen Benutzer eingegeben werden.
+     >Sie müssen über die Berechtigung zum Erstellen von Aufgaben verfügen, um Aufgaben im Aufgaben-Widget erstellen zu können. Nur persönliche Aufgaben, die vom aktuellen Benutzer eingegeben wurden, werden im Widget angezeigt.
 
 +++
 
-1. Klicken Sie auf **Widget hinzufügen**.
+1. Klicken Sie **Widget hinzufügen**.
 
 
 ## Verschieben oder Ändern der Größe eines Widgets auf der Startseite
 
-1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf Ihrem Bildschirm klicken, wenn &quot;Home&quot;als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
+1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf dem Bildschirm klicken, wenn die Startseite als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
 
-1. Suchen Sie das Widget, das Sie verschieben oder die Größe auf Ihrer Startseite ändern möchten.
+1. Suchen Sie das Widget, das Sie auf Ihrer Startseite verschieben oder dessen Größe Sie ändern möchten.
 
-1. Verschieben Sie das Widget, indem Sie den Cursor über die obere Kante des Widgets bewegen, bis es zur Hand wird. Klicken Sie dann auf und ziehen Sie es, bis sich das Widget an der gewünschten Position befindet. Andere Widgets werden beim Verschieben des Widgets um das Widget verschoben.
+1. Bewegen Sie das Widget, indem Sie den Cursor über den oberen Rand des Widgets bewegen, bis es eine Hand wird, und klicken und ziehen Sie dann, bis das Widget an der gewünschten Position ist. Andere Widgets werden um sie herum verschoben, wenn Sie das Widget verschieben.
 
-1. Ändern Sie die Größe des Widgets, indem Sie auf das Symbol für die Größenanpassung ![Symbol für die Größenanpassung](assets/resize-icon.png) in der rechten unteren Ecke des Widgets klicken und ziehen.
+1. Ändern Sie die Größe des Widgets, indem Sie auf das Größenänderungssymbol ![Größenänderungssymbol](assets/resize-icon.png) in der rechten unteren Ecke des Widgets klicken und ziehen.
 
-## Widget aus der Startseite entfernen
+## Entfernen eines Widgets von der Startseite
 
-1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf Ihrem Bildschirm klicken, wenn &quot;Home&quot;als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
+1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf dem Bildschirm klicken, wenn die Startseite als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
 
-1. Suchen Sie das Widget auf Ihrer Startseite, das Sie entfernen möchten, und klicken Sie dann oben rechts im Widget auf das weitere Symbol ![Mehr Symbol](assets/more-icon.png) .
+1. Suchen Sie das Widget auf Ihrer Startseite, das Sie entfernen möchten, und klicken Sie dann auf das Symbol Mehr ![Mehr](assets/more-icon.png)Symbol oben rechts im Widget.
 
 1. Klicken Sie auf **Entfernen**.
 
 
-## Hintergrundfarbe ändern
+## Farbe des Hintergrunds ändern
 
-1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf Ihrem Bildschirm klicken, wenn &quot;Home&quot;als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
+1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf dem Bildschirm klicken, wenn die Startseite als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
 
-1. Klicken Sie oben rechts im Bildschirm auf **Anpassen** .
+1. Klicken **oben rechts** Bildschirm auf „Anpassen“.
 
-   ![Schaltfläche &quot;Anpassen&quot;](assets/customize-button.png)
+   ![Schaltfläche „Anpassen](assets/customize-button.png)
 
-   Das Bedienfeld Anpassen wird geöffnet.
+   Das Bedienfeld „Anpassen“ wird geöffnet.
 
-1. Klicken Sie im Bereich **Hintergrund** des Bedienfelds **Anpassen** auf die Farbe, die Sie für Ihren Home-Hintergrund auswählen möchten. Sie können auch auf **Keine** klicken, um den Hintergrund zu entfernen.
+1. Klicken Sie **Abschnitt** Hintergrund“ des Bedienfelds **Anpassen** auf die Farbe, die Sie für Ihren Starthintergrund auswählen möchten. Sie können auch auf **Keine** klicken, um den Hintergrund zu entfernen.

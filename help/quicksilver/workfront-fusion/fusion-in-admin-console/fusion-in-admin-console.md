@@ -21,11 +21,11 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->[!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einer [!DNL Adobe Workfront] -Lizenz eine [!DNL Adobe Workfront Fusion] -Lizenz.
+>[!DNL Adobe Workfront Fusion] benötigt zusätzlich zu einer [!DNL Adobe Workfront] eine [!DNL Adobe Workfront Fusion].
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Benutzer über den  [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md) zu  [!DNL Adobe Workfront Fusion] hinzufügen
-* [Löschen von Benutzern in [!DNL Adobe Workfront Fusion] durch den  [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
-* [ Plattformbasierte Verwaltungsunterschiede ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
-* [[!DNL Adobe Workfront Fusion] auf dem  [!DNL Adobe Unified Experience]](../fusion-in-admin-console/fusion-unified-experience.md)
+* [Benutzer hinzufügen zu [!DNL Adobe Workfront Fusion]  über [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/add-fusion-users-admin-console.md)
+* [Löschen von Benutzern in [!DNL Adobe Workfront Fusion] über die [!DNL Adobe Admin Console]](../../workfront-fusion/fusion-in-admin-console/delete-fusion-users-admin-console.md)
+* [Unterschiede bei der plattformbasierten Administration ([!DNL Adobe Workfront Fusion]/[!DNL Adobe Business Platform])](../../workfront-fusion/fusion-in-admin-console/fusion-adobe-admin-console.md)
+* [[!DNL Adobe Workfront Fusion] auf dem [!DNL Adobe Unified Experience]](../fusion-in-admin-console/fusion-unified-experience.md)

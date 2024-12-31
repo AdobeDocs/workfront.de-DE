@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Alle Aktualisierungen in einem Hinweis-Bericht anzeigen
-description: Alle Aktualisierungen in einem Hinweis-Bericht anzeigen
+title: Anzeigen aller Aktualisierungen in einem Notizbericht
+description: Anzeigen aller Aktualisierungen in einem Notizbericht
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
@@ -13,17 +13,17 @@ ht-degree: 1%
 
 ---
 
-# Alle Aktualisierungen in einem Hinweis-Bericht anzeigen
+# Anzeigen aller Aktualisierungen in einem Notizbericht
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Alina: ***This is a report and it is in the Getting Started/ Updates section because I think it makes more sense to be in this area, where people want to view updates. - added this to this section from Reporting on 7/3/2018 ) </p>
 -->
 
-Im Bereich Updates eines Objekts wird standardmäßig maximal 200 Updates angezeigt. Um alle Aktualisierungen anzuzeigen, die ein Benutzer für ein Objekt eingegeben hat, können Sie einen Hinweis-Bericht erstellen, der alle Aktualisierungen anzeigt.
+Im Bereich Aktualisierungen eines Objekts wird standardmäßig eine maximale Anzahl von 200 Aktualisierungen angezeigt. Um alle Aktualisierungen anzuzeigen, die von einem Benutzer für ein Objekt eingegeben wurden, können Sie einen Notizbericht erstellen, der alle Aktualisierungen ausgibt.
 
 >[!NOTE]
 >
->Sie können einen Bericht erstellen, um mithilfe des Journaleintragsberichts Aktualisierungen zu Objekten in der Vorschau anzuzeigen. Weitere Informationen finden Sie unter [Bericht über den Aktualisierungsbereich](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>Sie können einen Bericht erstellen, um Aktualisierungen zu Objekten in der Vorschau mit dem Journaleintragsbericht anzuzeigen. Weitere Informationen finden Sie unter [Bericht über Aktualisierungen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Zugriffsanforderungen
 
@@ -36,8 +36,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -45,49 +45,49 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
    <td> <p>Zugriff bearbeiten auf:</p> 
     <ul> 
-     <li> <p>Erstellen von Berichten, Dashboards und Kalendern</p> </li> 
-     <li> <p>Erstellen von Filtern, Ansichten und Gruppen</p> </li> 
+     <li> <p>Berichte, Dashboards und Kalender erstellen</p> </li> 
+     <li> <p>Filter, Ansichten und Gruppierungen erstellen</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
    <td> <p>Anzeigen</p> <p><b>NOTIZ</b></p>
-   <p>Wenn Sie keine Ansichtsberechtigung oder eine höhere Berechtigung für ein Objekt haben, werden die Informationen für dieses Objekt nicht im Bericht angezeigt.</p>  </td> 
+   <p>Wenn Sie für ein Objekt keine Berechtigung zum Anzeigen oder eine höhere Berechtigung haben, werden Informationen zu diesem Objekt nicht im Bericht angezeigt.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in Adobe Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Erstellen eines Berichts mit Anmerkungen
+## Notizbericht erstellen
 
-Das Erstellen eines Berichts für Anmerkungen für Objekte ist unabhängig vom Objekt identisch.
+Das Erstellen eines Berichts für Anmerkungen für ein beliebiges Objekt ist unabhängig vom Objekt identisch.
 
-So erstellen Sie beispielsweise einen Notiz -Bericht für alle Notizen in einem Projekt:
+So erstellen Sie beispielsweise einen Notizbericht für alle Notizen zu einem Projekt:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png).
+1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
 1. Klicken Sie auf **Berichte**.
-1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann **Hinweis** aus.
+1. Klicken Sie **Neuer Bericht** und wählen Sie dann **Hinweis**.
 
-1. (Optional) Klicken Sie auf **Ansichten** und dann auf **Spalte hinzufügen** , um den **Namen** des **Projekts** in der Ansicht des Berichts hinzuzufügen. 
+1. (Optional) Klicken Sie auf **Ansichten** und dann auf **Spalte hinzufügen**, um den **Namen** des **Projekts** in der Berichtsansicht hinzuzufügen. 
 
-1. (Optional) Klicken Sie auf **Gruppierungen** und dann auf **Gruppierung hinzufügen** , um sie nach dem **Projektnamen** zu gruppieren, wenn Sie gleichzeitig über mehrere Projekte berichten.\
-   Dadurch wird sichergestellt, dass die Notizen nach ihren jeweiligen Projekten gruppiert werden, was das Lesen des Berichts erleichtert. 
+1. (Optional) Klicken Sie auf **Gruppierungen** und dann auf **Gruppierung hinzufügen**, um nach dem **Projektnamen** zu gruppieren, wenn Sie mehrere Projekte gleichzeitig auswerten.\
+   Dadurch wird sichergestellt, dass die Notizen nach ihren jeweiligen Projekten gruppiert werden, wodurch der Bericht leichter zu lesen ist. 
 
-1. (Optional) Klicken Sie auf **Filter,** und dann auf **Filterregel hinzufügen**.
-1. Fügen Sie einen Filter für **Hinweis** > **Hinweis-Text** > **ist nicht leer** hinzu.
+1. (Optional) Klicken Sie auf **Filter** und dann **Filterregel hinzufügen**.
+1. Fügen Sie einen Filter für **Hinweis** > **Notizentext** > **Ist nicht leer** hinzu.
 
    ![](assets/note-note-text-not-blank-filter.png)
 
    >[!TIP]
    >
-   >   Wenn ein Projektfeld aktualisiert wurde, zum Zeitpunkt der Aktualisierung jedoch keine Notiz hinzugefügt wurde, wird der **Hinweis-Text** der Aktualisierung als **(Kein zu aktualisierender Text)** angezeigt.
+   >   Wenn ein Projektfeld aktualisiert wurde, zum Zeitpunkt der Aktualisierung jedoch keine Anmerkung hinzugefügt wurde, wird **Anmerkungstext** der Aktualisierung als **(Kein Text zur Aktualisierung hinzugefügt)**.
 
 
-1. (Optional) Fügen Sie einen weiteren Filter für **Projekt** > **Name** > **Entspricht** hinzu und fügen Sie einen oder mehrere Projektnamen hinzu, für die Sie Notizen anzeigen möchten.
+1. (Optional) Fügen Sie einen weiteren Filter für **Projekt** > **Name** > **Gleich** hinzu und fügen Sie einen oder mehrere Projektnamen hinzu, für die Sie Anmerkungen anzeigen möchten.
 1. Klicken Sie auf **Speichern + schließen**.\
-   Alle Aktualisierungen, die im Projekt von allen Benutzern mit der Berechtigung zum Anzeigen des Projekts eingegeben wurden, werden im Bericht angezeigt.
+   Im Bericht werden alle Aktualisierungen angezeigt, die von allen Benutzern eingegeben wurden, die berechtigt sind, mindestens das Projekt anzuzeigen.

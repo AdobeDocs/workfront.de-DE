@@ -22,7 +22,7 @@ Sie können Objekte in Adobe Workfront in Listen anzeigen. Sie können Filter, A
 Dieser Abschnitt enthält die folgenden Artikel zu Listen:
 
 * [Erste Schritte mit Listen in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md)
-* [Schnellfilter auf Listen anwenden](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
-* [Inline-Bearbeitungselemente in einer Liste in  [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
-* [Anzeige einer Liste ändern](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
-* [Liste exportieren](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)
+* [Anwenden des Schnellfilters auf eine Liste](../../../workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md)
+* [Inline-Bearbeitung von Elementen in einer Liste in [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md)
+* [Ändern der Anzeige einer Liste](../../../workfront-basics/navigate-workfront/use-lists/modify-list-display.md)
+* [Exportieren einer Liste](../../../workfront-basics/navigate-workfront/use-lists/export-lists.md)

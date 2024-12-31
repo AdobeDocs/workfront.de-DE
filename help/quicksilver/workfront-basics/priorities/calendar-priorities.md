@@ -5,13 +5,13 @@ description: Verfolgen Sie Ihre Arbeit mit einem klaren, visuellen Kalender.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
+source-git-commit: fd23523c34a3b64be602a557f52ff909eae1a685
 workflow-type: tm+mt
 source-wordcount: '513'
 ht-degree: 4%
 
 ---
-
 
 # Arbeiten im Prioritätskalender verwalten
 
@@ -154,4 +154,3 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen Sie auf **Registerkarte**Farbe“ aus, wie Ihre Arbeitselemente angezeigt werden sollen. Wenn Sie beispielsweise Projekt auswählen, werden Ihre Arbeitselemente entsprechend der Farbe angezeigt, die dem Projekt in der Arbeitsliste zugewiesen wurde.
    ![Beispielfarbprojekt](assets/sample-calendar-projects.png)
-

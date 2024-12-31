@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Trigger-Modul zu einem Basisszenario hinzufügen
-description: Erfahren Sie, wie Sie ein Trigger-Modul hinzufügen, damit das Szenario regelmäßig nach neuen Anforderungen sucht und sie in Projekte konvertiert.
+title: Hinzufügen eines Trigger-Moduls zu einem Basisszenario
+description: Erfahren Sie, wie Sie ein Szenariomodul hinzufügen, damit das Trigger regelmäßig nach neuen Anfragen suchen und diese in Projekte konvertieren kann.
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
@@ -14,74 +14,74 @@ ht-degree: 0%
 
 ---
 
-# Trigger-Modul zu einem Basisszenario hinzufügen
+# Hinzufügen eines Trigger-Moduls zu einem Basisszenario
 
-Trigger-Module werden am Anfang eines Szenarios platziert. Diese Module beginnen die Ausführung eines Szenarios, wenn bestimmte Kriterien eine Änderung in einem bestimmten Dienst bewirken. Die Änderung kann in der Erstellung neuer Datensätze, dem Löschen von Datensätzen, dem Aktualisieren von Datensätzen usw. bestehen.
+Trigger-Module werden am Anfang eines Szenarios platziert. Diese Module starten eine Szenarioausführung, wenn bestimmte Kriterien erfüllt sind und eine Änderung in einem bestimmten Service stattgefunden hat. Bei der Änderung kann es sich um die Erstellung neuer Datensätze, das Löschen von Datensätzen, die Aktualisierung von Datensätzen usw. handeln.
 
-Abrufmodule überprüfen den Dienst in einem bestimmten Zeitintervall und geben Informationen zu Änderungen zurück, die während dieses Zeitintervalls aufgetreten sind. Wenn keine Änderungen vorgenommen wurden, führt der Trigger das Szenario nicht aus.
+Abfragemodule überprüfen den Service in einem bestimmten Zeitintervall und geben Informationen zu Änderungen zurück, die während dieses Zeitintervalls aufgetreten sind. Wenn keine Änderungen vorgenommen wurden, führt der Trigger das Szenario nicht aus.
 
-In diesem Beispiel fügen Sie ein Trigger-Modul hinzu, das alle 15 Minuten ausgeführt wird und ein Szenario startet, wenn Anforderungen an eine bestimmte Warteschlange gesendet wurden. Das Szenario konvertiert diese Anforderungen dann in ein Projekt.
+In diesem Beispiel fügen Sie ein Trigger -Modul hinzu, das alle 15 Minuten ausgeführt wird und ein Szenario startet, wenn Anforderungen an eine bestimmte Warteschlange gesendet wurden. Das Szenario konvertiert diese Anfragen dann in ein Projekt.
 
-Dieses Beispiel ändert das Szenario, das in [Basisszenario erstellen](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) erstellt wurde.
+Dieses Beispiel ändert das in erstellte Szenario [Erstellen eines einfachen Szenarios](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md).
 
 ## Voraussetzungen
 
-Sie müssen das unter [Basisszenario erstellen](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) beschriebene Szenario erstellen, bevor Sie dieses Verfahren befolgen.
+Sie müssen das unter &quot;[ eines einfachen Szenarios“ beschriebene Szenario erstellen](/help/quicksilver/workfront-fusion/get-started/build-practice-scenarios/create-simple-scenario.md) bevor Sie dieses Verfahren ausführen.
 
 ## Hinzufügen und Konfigurieren des Trigger-Moduls
 
-### Trigger-Modul hinzufügen
+### Hinzufügen des Trigger-Moduls
 
 1. Öffnen Sie das Szenario im Szenario-Editor.
-1. Klicken Sie mit der rechten Maustaste auf das erste Modul (Suche) und wählen Sie **Modul löschen** aus.
+1. Klicken Sie mit der rechten Maustaste auf das erste Modul (Suche) und wählen Sie **Modul löschen**.
 
-   Das -Modul wird gelöscht, wobei ein leerer Platzhalter verbleibt.
+   Das Modul wird gelöscht, wobei ein leerer Platzhalter verbleibt.
 
 1. Klicken Sie auf das leere Modul und wählen Sie **Adobe Workfront** aus der Liste der Apps aus.
-1. Wählen Sie **Datensatz überwachen** aus.
-1. Stellen Sie sicher, dass das Modul dieselbe Verbindung wie die anderen Module im Szenario verwendet.
-1. Wählen Sie im Filterfeld **Nur neue Datensätze** aus.
-1. Wählen Sie im Feld &quot;Record Type&quot;die Option **Issue** aus.
-1. Wählen Sie im Feld &quot;Outputs&quot;die Optionen `ID`, `Name` und `Project ID` aus.
-1. Klicken Sie auf **OK** , um die Moduleinstellungen zu speichern.
+1. Wählen Sie **Eintrag beobachten**.
+1. Stellen Sie sicher, dass das Modul dieselbe Verbindung wie die übrigen Module im Szenario verwendet.
+1. Wählen Sie im Feld Filter die Option **Nur neue Datensätze** aus.
+1. Wählen Sie im Feld Datensatztyp die Option **Problem** aus.
+1. Wählen Sie im Feld Ausgaben die Optionen `ID`, `Name` und `Project ID` aus.
+1. Klicken Sie **OK**, um die Moduleinstellungen zu speichern.
 
-   Das Fenster Startort wird angezeigt.
+   Das Fenster Start auswählen wird angezeigt.
 
-1. Wählen Sie **Von jetzt an auf** aus.
+1. Wählen Sie **Von jetzt an**.
 
-### Trigger-Modul planen
+### Planen des Trigger-Moduls
 
-1. Klicken Sie auf die Uhr im Modul &quot;Watch Records&quot;.
+1. Klicken Sie auf die Uhr im Modul Einträge beobachten .
 
-   Das Fenster Planung wird geöffnet.
+   Das Zeitplaneinstellungsfenster wird geöffnet.
 
 1. Wählen Sie im Feld Ausführungsszenario die Option **In regelmäßigen Abständen** aus.
 
-1. Klicken Sie auf **OK**.
+1. Klicken Sie **OK**.
 
-### Zweites Modul aktualisieren
+### Aktualisieren des zweiten Moduls
 
 Da das erste Modul ersetzt wurde, muss das zweite Modul dem neuen ersten Modul zugeordnet werden.
 
-1. Öffnen Sie das Objektmodul Konvertieren .
-1. Löschen Sie im Feld Ausgabe-ID den schwarzen ID-Block. Der Block ist schwarz, da das Modul, von dem er zugeordnet wurde, nicht mehr verfügbar ist.
-1. Wählen Sie den ID-Block unter dem ersten Modul (Listen überwachen) aus, um ihn dem zweiten Modul zuzuordnen.
-1. Klicken Sie auf **OK**.
+1. Öffnen Sie das Modul Objekt konvertieren .
+1. Löschen Sie im Feld „Anfrage-ID“ den Block „Schwarze ID“. Der Block ist schwarz, da das Modul, von dem aus er zugeordnet wurde, nicht mehr verfügbar ist.
+1. Wählen Sie den ID-Block unter dem ersten Modul (Einträge beobachten) aus, um ihn dem zweiten Modul zuzuordnen.
+1. Klicken Sie **OK**.
 
 ### Testen und Aktivieren
 
-1. Wechseln Sie zur Workfront-Umgebung, mit der Fusion eine Verbindung herstellt, und fügen Sie ein Problem hinzu.
-1. Klicken Sie in der linken unteren Ecke des Szenario-Editors auf **[!UICONTROL Einmal ausführen]** .
+1. Wechseln Sie zur Workfront-Umgebung, mit der sich Fusion verbindet, und fügen Sie ein Problem hinzu.
+1. Klicken Sie **[!UICONTROL Einmal ausführen]** in der linken unteren Ecke des Szenario-Editors.
 1. Überprüfen Sie die Ausgabe, um sicherzustellen, dass das Szenario erwartungsgemäß ausgeführt wurde.
-1. Wenn Sie sich davon überzeugt haben, dass das Szenario erwartungsgemäß funktioniert, klicken Sie auf den Umschalter **Planung** unten links im Bildschirm auf **Ein** .
+1. Wenn Sie sich vergewissert haben, dass das Szenario erwartungsgemäß funktioniert, klicken Sie auf **Umschalter** Planung“ unten links im Bildschirm auf **Ein**.
 
    Dadurch wird das Szenario aktiviert.
-1. Klicken Sie in [!DNL Workfront Fusion] unten links auf **[!UICONTROL Speichern]** , um den Fortschritt des Szenarios zu speichern.
+1. Klicken Sie [!DNL Workfront Fusion] auf **[!UICONTROL Speichern]** in der linken unteren Ecke, um den Fortschritt des Szenarios zu speichern.
 
    >[!IMPORTANT]
    >
-   >Speichern Sie oft, während Sie ein Szenario testen.
+   >Speichern Sie häufig, während Sie ein Szenario verfeinern und testen.
 
 ## Ressourcen
 
-* Weitere Informationen zu Webhooks finden Sie unter [Instant Trigger (Webhooks) in  [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).
+* Weitere Informationen zu Webhooks finden Sie unter [Instant Trigger (Webhooks) in [!DNL Adobe Workfront Fusion]](/help/quicksilver/workfront-fusion/webhooks/instant-triggers-webhooks.md).

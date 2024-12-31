@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Startseite
-description: Lesen Sie diese Bereiche, um einen Einblick in den Heimbereich in Adobe Workfront zu erhalten.
+description: Sehen Sie sich diese Bereiche an, um sich mit dem Bereich „Home“ in Adobe Workfront vertraut zu machen.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -18,4 +18,4 @@ ht-degree: 7%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Verwenden des Bereichs [!UICONTROL Home]](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)
+* [Verwenden des Bereichs [!UICONTROL Startseite]](../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md)

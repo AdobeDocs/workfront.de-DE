@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting;reference
 product-previous: mobile
 navigation-topic: mobile-apps
-title: Tipps, Tricks und Fehlerbehebung für [!DNL Adobe Workfront] mobile Apps
-description: Tipps, Tricks und Fehlerbehebung für [!DNL Adobe Workfront] mobile Apps
+title: 'Tipps, Tricks und Fehlerbehebung für Mobile  [!DNL Adobe Workfront] '
+description: 'Tipps, Tricks und Fehlerbehebung für Mobile  [!DNL Adobe Workfront] '
 author: Lisa
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# Tipps, Tricks und Fehlerbehebung für [!DNL Adobe Workfront] mobile Apps
+# Tipps, Tricks und Fehlerbehebung für [!DNL Adobe Workfront] Mobile Apps
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Fehlermeldung in der  [!DNL Adobe Workfront] Mobile App: &quot;[!UICONTROL Ihr Konto ist nicht für die API aktiviert.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)
+* [Fehlermeldung in der  [!DNL Adobe Workfront] -Mobile-App: &quot;[!UICONTROL Ihr Konto ist nicht API-aktiviert.]&quot;](../../../workfront-basics/mobile-apps/tips-tricks-and-troubleshooting/error-message-on-mobile-app.md)

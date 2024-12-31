@@ -15,7 +15,7 @@ ht-degree: 4%
 
 # Benachrichtigungen: Ziele
 
-Sie können Ihre E-Mail-Benachrichtigungen für Ereignisse aktivieren, die in [!DNL Adobe Workfront Goals] in Ihrem Profil auftreten. Ein Benutzer mit der Lizenz [!UICONTROL Plan] kann sie auch für andere Benutzer aktivieren. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
+Sie können Ihre E-Mail-Benachrichtigungen für Ereignisse aktivieren, die in [!DNL Adobe Workfront Goals] in Ihrem Profil auftreten. Benutzende mit einer [!UICONTROL Plan]-Lizenz können sie auch für andere Benutzende aktivieren. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
 ## Zugriffsanforderungen
 
@@ -34,16 +34,16 @@ Sie müssen über Folgendes verfügen:
    <td> <p>[!UICONTROL Pro] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
+   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Produkt</strong></td> 
-   <td>[!DNL Workfront Goals] <p>Weitere Informationen zu [!DNL Workfront Goals] finden Sie unter <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] Übersicht</a>.</p> </td> 
+   <td>[!DNL Workfront Goals] <p>Weitere Informationen zu [!DNL Workfront Goals] finden Sie unter <a href="../../workfront-goals/goal-management/wf-goals-overview.md" class="MCXref xref">[!DNL Adobe Workfront Goals] - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>[!UICONTROL Ansicht] Zugriff auf [!DNL Goals] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
+   <td> <p>[!UICONTROL View] Zugriff auf [!DNL Goals] oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront], ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie [!DNL Workfront]-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
     <td role="rowheader">Object permissions</td> 
@@ -53,14 +53,14 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Voraussetzungen
 
-Der Benutzer, dessen [!DNL Goals] -Benachrichtigungen aktualisiert werden, muss über Folgendes verfügen:
+Der Benutzer, dessen [!DNL Goals]-Benachrichtigungen aktualisiert werden, muss über Folgendes verfügen:
 
-* Eine Layout-Vorlage, die den Bereich [!DNL Goals] im [!UICONTROL Hauptmenü] enthält.
-* Zugriff auf das neue Erlebnis [!DNL Adobe Workfront] .
+* Eine Layout-Vorlage, die den [!DNL Goals] Bereich im [!UICONTROL Hauptmenü“ ].
+* Zugriff auf das neue [!DNL Adobe Workfront].
 
   <!--
   <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -68,15 +68,15 @@ Der Benutzer, dessen [!DNL Goals] -Benachrichtigungen aktualisiert werden, muss 
   </MadCap:conditionalText>
   -->
 
-## [!DNL Goals] Benachrichtigungen im Bereich [!UICONTROL Benutzerprofil]
+## [!DNL Goals]-Benachrichtigungen im [!UICONTROL Benutzerprofil] Bereich
 
-Die in der folgenden Tabelle aufgeführten Benachrichtigungen informieren Sie über Ereignisse, die in [!DNL Workfront Goals] stattfinden, z. B. über jemanden, der Ihnen ein Ziel, ein Ergebnis oder eine Aktivität zuweist, oder über jemanden, der ein Update für ein Ziel, ein Ergebnis oder eine Aktivität vornimmt, deren Inhaber Sie sind. Informationen zum Konfigurieren der Benachrichtigungen, die Sie erhalten, finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Die in der folgenden Tabelle aufgeführten Benachrichtigungen informieren Sie über Ereignisse, die in [!DNL Workfront Goals] stattfinden, z. B. wenn Ihnen ein Ziel, ein Ergebnis oder eine Aktivität zugewiesen wird oder wenn jemand ein Ziel, ein Ergebnis oder eine Aktivität in Ihrem Besitz aktualisiert. Informationen zum Konfigurieren der empfangenen Benachrichtigungen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ![](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >
->Instant-Benachrichtigungen für [!DNL Goals] sind standardmäßig deaktiviert. Sie können tägliche Benachrichtigungen nicht aktivieren oder deaktivieren und erhalten keine täglichen Digest-E-Mails für die Ereignisse in dieser Kategorie. Sie können einzelne Instant-Benachrichtigungen für die Kategorie [!DNL Goals] aktivieren oder deaktivieren.
+>Sofortige Benachrichtigungen für [!DNL Goals] sind standardmäßig deaktiviert. Sie können keine täglichen Benachrichtigungen aktivieren oder deaktivieren und Sie erhalten auch keine täglichen Auswahl-E-Mails für die Ereignisse in dieser Kategorie. Sie können einzelne Sofortbenachrichtigungen für die Kategorie [!DNL Goals] aktivieren oder deaktivieren.
 
 Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notifications/event-notifications.md).
 
@@ -86,27 +86,27 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
  <tbody> 
   <tr> 
    <td><strong>Benachrichtigung</strong></td> 
-   <td> <p><strong>Einbezogene Felder</strong> </p> <p><strong>*Nur Sofortbenachrichtigungen</strong></p> </td> 
+   <td> <p><strong>Enthaltene Felder</strong> </p> <p><strong>*Nur Sofortige Benachrichtigungen</strong></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Mir wurde ein Ergebnis/eine Aktivität zugewiesen.</strong></td> 
-   <td> <p>Der Name der Person, die Ihnen das Ergebnis oder die Aktivität zugewiesen hat</p> <p>Der Zielzeitraum für das Ergebnis oder die Aktivität</p> <p>Name des Ergebnisses oder der Aktivität</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> , mit der der Bereich [!UICONTROL Zieldetails] geöffnet wird</p> <p>Die Schaltfläche <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> ermöglicht die Verwaltung Ihrer Benachrichtigungen.</p> </td> 
+   <td><strong>Jemand hat mir ein Ergebnis/eine Aktivität zugewiesen</strong></td> 
+   <td> <p>Der Name der Person, die Ihnen das Ergebnis oder die Aktivität zugewiesen hat</p> <p>Der Zeitraum des Ziels für das Ergebnis oder die Aktivität</p> <p>Der Name des Ergebnisses oder der Aktivität</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> mit der das Bedienfeld [!UICONTROL Goal Details] geöffnet wird.</p> <p>Die <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> Schaltfläche, mit der Sie Ihre Benachrichtigungen verwalten können.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Jemand hat ein neues persönliches Ziel für mich erstellt</strong> </td> 
-   <td> <p>Der Name der Person, die das Ziel zugewiesen hat</p> <p>Der Zeitraum des Ziels</p> <p>Der Name des Ziels</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> , mit der der Bereich [!UICONTROL Zieldetails] geöffnet wird</p> <p>Die Schaltfläche <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> ermöglicht die Verwaltung Ihrer Benachrichtigungen.</p> </td> 
+   <td> <p>Der Name der Person, die das Ziel zugewiesen hat</p> <p>Der Zeitraum des Ziels</p> <p>Der Name des Ziels</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> mit der das Bedienfeld [!UICONTROL Goal Details] geöffnet wird.</p> <p>Die <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> Schaltfläche, mit der Sie Ihre Benachrichtigungen verwalten können.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Jemand hat mein Ziel kommentiert</strong></td> 
-   <td> <p>Der Name der Person, die den Kommentar hinterlassen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Der Text des Kommentars</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> , mit der der Bereich [!UICONTROL Zieldetails] geöffnet wird</p> <p>Die Schaltfläche <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> ermöglicht die Verwaltung Ihrer Benachrichtigungen.</p> </td> 
+   <td> <p>Der Name der Person, die den Kommentar verlassen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Der Text des Kommentars</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> mit der das Bedienfeld [!UICONTROL Goal Details] geöffnet wird.</p> <p>Die <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> Schaltfläche, mit der Sie Ihre Benachrichtigungen verwalten können.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Jemand hat meinen Kommentar zu einem Ziel geliked</strong></td> 
-   <td> <p>Der Name der Person, der der Kommentar gefallen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Der Text des Kommentars </p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> , mit der der Bereich [!UICONTROL Zieldetails] geöffnet wird</p> <p>Die Schaltfläche <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> ermöglicht die Verwaltung Ihrer Benachrichtigungen.</p> </td> 
+   <td> <p>Der Name der Person, der der Kommentar gefallen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Der Text des Kommentars </p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> mit der das Bedienfeld [!UICONTROL Goal Details] geöffnet wird.</p> <p>Die <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> Schaltfläche, mit der Sie Ihre Benachrichtigungen verwalten können.</p> </td> 
   </tr> 
   <tr> 
    <td><strong>Jemand hat eine Aktualisierung meines Ziels geliked</strong></td> 
-   <td> <p>Sie erhalten eine E-Mail, wenn jemand einen Kommentar erhält, den Sie zu einem Ziel abgegeben haben, oder wenn Sie den Fortschritt Ihrer Ergebnisse oder Aktivitäten zum Ziel aktualisieren. </p> <p>Der Name der Person, der die Aktualisierung gefallen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> , mit der der Bereich [!UICONTROL Zieldetails] geöffnet wird</p> <p>Die Schaltfläche <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> ermöglicht die Verwaltung Ihrer Benachrichtigungen.</p> </td> 
+   <td> <p>Sie erhalten eine E-Mail, wenn jemandem ein Kommentar gefällt, den Sie zu einem Ziel abgegeben haben, oder wenn Sie den Fortschritt Ihrer Ergebnisse oder Aktivitäten auf dem Ziel aktualisieren. </p> <p>Der Name der Person, der die Aktualisierung gefallen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> mit der das Bedienfeld [!UICONTROL Goal Details] geöffnet wird.</p> <p>Die <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> Schaltfläche, mit der Sie Ihre Benachrichtigungen verwalten können.</p> </td> 
   </tr> 
  </tbody> 
 </table>

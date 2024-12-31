@@ -14,7 +14,7 @@ ht-degree: 1%
 
 # Exportieren benutzerdefinierter Formulare und Objektdetails
 
-Sie können die Übersicht und die benutzerdefinierten Formulardaten aus dem Bereich &quot;Details&quot;eines Objekts in eine PDF-Datei exportieren. Sie können die PDF dann drucken oder für andere Benutzer freigeben.
+Sie können die Übersicht und die benutzerdefinierten Formularinformationen aus dem Abschnitt Details eines Objekts in eine PDF-Datei exportieren. Sie können die PDF dann ausdrucken oder für andere freigeben.
 
 Diese Funktion wird für die folgenden Objekte unterstützt:
 
@@ -30,7 +30,7 @@ Diese Funktion wird für die folgenden Objekte unterstützt:
 
 >[!NOTE]
 >
->Die Felder im Bereich Details , die Ihr Workfront- oder Gruppenadministrator mithilfe einer Layoutvorlage entfernt hat, werden nicht angezeigt.
+>Die Felder im Abschnitt Details, die Ihr Workfront- oder Gruppen-Administrator mithilfe einer Layout-Vorlage entfernt hat, werden nicht angezeigt.
 
 ## Zugriffsanforderungen
 
@@ -42,74 +42,74 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Adobe Workfront-Lizenz*</p> </td> 
-   <td> <p>Anfrage oder höher für Probleme</p> <p>Prüfungen oder höher für Projekte und Aufgaben</p> </td> 
+   <td> <p>Anfrage oder höher für Probleme</p> <p>Überprüfen oder höher für Projekte und Aufgaben</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong> </td> 
-   <td> <p>Anzeigen oder höher für Projekte, Aufgaben und Probleme</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong> </td> 
+   <td> <p>Anzeigen oder höher für Projekte, Aufgaben und Probleme</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Objektberechtigungen</p> </td> 
-   <td> <p>Anzeigen oder höherer Berechtigungen für das Projekt, die Aufgabe oder das Problem, dessen Formular Sie exportieren möchten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Zeigen Sie oder höhere Berechtigungen für das Projekt, die Aufgabe oder das Problem an, dessen Formular Sie exportieren möchten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie über Folgendes verfügen:
+Bevor Sie beginnen, benötigen Sie Folgendes:
 
-1. Lassen Sie ein benutzerdefiniertes Formular für ein bestimmtes Objekt erstellen, aus dem Sie es exportieren möchten.
-1. Das benutzerdefinierte Formular wird an das Objekt angehängt
+1. Erstellen Sie ein benutzerdefiniertes Formular für ein bestimmtes Objekt, aus dem Sie es exportieren möchten.
+1. Benutzerdefiniertes Formular an das Objekt anhängen lassen
 
    Oder
 
-   Sie benötigen den richtigen Zugriff, um ein benutzerdefiniertes Formular anzuhängen und die Informationen im Formular zu bearbeiten.
+   Sie verfügen über die richtigen Zugriffsrechte, um ein benutzerdefiniertes Formular anzuhängen und die Informationen auf dem Formular zu bearbeiten.
 
-Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Weitere Informationen zum Anhängen von Formularen an Objekte finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Informationen zum Anhängen von Formularen an Objekte finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 
-## Exportieren von Informationen im Bereich Details
+## Exportieren von Informationen im Abschnitt Details
 
-Das Exportieren von Informationen aus dem Bereich Details eines Objekts ist für alle Objekte identisch, für die es unterstützt wird.
+Der Export von Informationen aus dem Abschnitt Details eines Objekts ist für alle Objekte, in denen es unterstützt wird, identisch.
 
-1. Wechseln Sie zu einem Projekt, einer Aufgabe, einem Portfolio, einem Programm oder einem Problem, für das Sie mindestens über Anzeigeberechtigungen verfügen.
-1. Klicken Sie im linken Bereich auf das Element **&quot;Details&quot;**, z. B. **Aufgabendetails**.
-1. (Optional) Wenn kein benutzerdefiniertes Formular an das Objekt angehängt ist, geben Sie den Namen eines benutzerdefinierten Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein und klicken Sie dann auf dieses Feld, wenn es in der Liste angezeigt wird.
+1. Navigieren Sie zu einem Projekt, einer Aufgabe, einem Portfolio, einem Programm oder einem Problem, für das Sie mindestens über die Berechtigung „Anzeigen“ verfügen.
+1. Klicken Sie auf das **„Details** im linken Bereich, z. B **„Aufgabendetails**.
+1. (Optional) Wenn kein benutzerdefiniertes Formular an das Objekt angehängt ist, geben Sie den Namen eines benutzerdefinierten Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein und klicken Sie dann auf das Formular, wenn es in der Liste angezeigt wird.
 
    Sie können bis zu 10 Formulare hinzufügen.
 
-1. (Optional) Aktualisieren Sie die Informationen im Abschnitt &quot;Details&quot;und klicken Sie dann auf **Änderungen speichern**.
-1. Klicken Sie auf das Dropdown-Menü **Exportieren** oben rechts, wählen Sie **Überblick** oder die Formulare, die exportiert werden sollen, und klicken Sie dann auf **Exportieren**.
+1. (Optional) Aktualisieren Sie die Informationen im Abschnitt Details und klicken Sie dann auf **Änderungen speichern**.
+1. Klicken Sie auf **Dropdown** Menü „Exportieren“ in der oberen rechten Ecke, wählen Sie **Übersicht** oder die Formulare aus, die Sie exportieren möchten, und klicken Sie dann auf **Exportieren**.
 
-   Sie können auch &quot;**Alle auswählen**&quot;auswählen, wenn Sie den Übersichtsbereich und alle benutzerdefinierten Formulare exportieren möchten.
+   Sie können auch **Alle auswählen** auswählen, wenn Sie den Übersichtsbereich und alle benutzerdefinierten Formulare exportieren möchten.
 
    ![](assets/export-custom-form-button-menu.png)
 
    >[!TIP]
    >
-   >Die folgenden Szenarien können vorliegen:
+   >Die folgenden Szenarien sind möglich:
    >
    >   
    >   
-   >   * Wenn Ihre Gruppe oder Ihr Workfront-Administrator die Auswahl aller Felder im Bereich Überblick aufhebt und dem Objekt benutzerdefinierte Formulare angehängt sind, wird der Abschnitt Übersicht nicht angezeigt.
-   >   * Wenn Ihre Gruppe oder Ihr Workfront-Administrator die Auswahl aller Felder im Bereich Übersicht aufhebt und dem Objekt keine benutzerdefinierten Formulare angehängt sind, ist das Dropdown-Menü Exportieren nicht sichtbar.
-   >   * Wenn an das Objekt keine benutzerdefinierten Formulare angehängt sind, können Sie nur den Übersichtsbereich exportieren.
-   >   * Benutzerdefinierte Felder, die hinter der Logik liegen und im Formular nicht sichtbar sind, werden nicht exportiert. Weitere Informationen zum Hinzufügen von Logik zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen der Anzeigerlogik und Überspringen der Logik zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
+   >   * Wenn Ihre Gruppe oder der Workfront-Administrator alle Felder im Bereich Übersicht aufhebt und an das Objekt benutzerdefinierte Formulare angehängt sind, wird der Abschnitt Übersicht nicht angezeigt.
+   >   * Wenn Ihre Gruppe oder der Workfront-Administrator alle Felder im Bereich Übersicht abwählt und an das Objekt keine benutzerdefinierten Formulare angehängt sind, ist das Dropdown-Menü „Export“ nicht sichtbar.
+   >   * Wenn an das Objekt keine benutzerdefinierten Formulare angehängt sind, können Sie nur den Bereich Überblick exportieren.
+   >   * Benutzerdefinierte Felder, die sich hinter einer Logik befinden und im Formular nicht sichtbar sind, werden nicht exportiert. Informationen zum Hinzufügen von Logik zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
    >   
    >
 
-   Eine PDF-Datei wird erstellt und auf Ihren Computer heruntergeladen. Die PDF-Datei enthält die folgenden Informationen:
+   Es wird eine PDF-Datei erstellt und auf den Computer heruntergeladen. Die PDF-Datei enthält die folgenden Informationen:
 
    * Der Name des Objekts, an das das Formular angehängt ist
    * Der Name des Benutzers, der die PDF exportiert hat
-   * Datum und Uhrzeit der Erstellung der PDF
+   * Datum und Uhrzeit der Produktion der PDF
    * Der Name der exportierten Formulare
-   * Informationen aus den auf dem Formular ausgefüllten Feldern
+   * Informationen aus den im Formular ausgefüllten Feldern

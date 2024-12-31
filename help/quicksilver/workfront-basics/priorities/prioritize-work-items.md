@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
 title: Wichtige Arbeitselemente priorisieren
-description: Prioritäten sind ein optimiertes, intuitives Erlebnis, das auf Aufgabenbesitzer zugeschnitten ist.
+description: Priorities ist ein optimiertes, intuitives Erlebnis, das auf Aufgabenbesitzer zugeschnitten ist.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -15,25 +15,25 @@ ht-degree: 1%
 
 # Wichtige Arbeitselemente priorisieren
 
-Sie können die Spalte Mein Fokus verwenden, um Ihre Arbeit zu priorisieren. Die Spalte &quot;My Focus&quot;ist ein persönlicher Wert und hat keine Auswirkungen auf die für die Aufgabe oder das Problem festgelegte Priorität.
+Sie können die Spalte Mein Fokus verwenden, um Ihre Arbeit zu priorisieren. Die Spalte Mein Fokus ist ein persönlicher Wert und hat keinen Einfluss auf die Priorität, die für die Aufgabe oder das Problem festgelegt wurde.
 
-## Priorisieren Ihrer Arbeit mit der Spalte My Focus
+## Priorisieren Sie Ihre Arbeit mit der Spalte Mein Fokus .
 
 {{step1-to-priorities}}
 
 1. Suchen Sie das Arbeitselement, auf das Sie sich konzentrieren möchten.
-1. Wählen Sie in der Spalte **My Focus** eine der folgenden Fokusebenen aus:
+1. Wählen Sie in **Spalte** Mein Fokus“ eine der folgenden Fokusebenen:
 
    | Fokus | Beschreibung |
    |-----------|-------------|
-   | **dringend** | Für Arbeitselemente, die sofortige Aufmerksamkeit erfordern, ist dringend erforderlich. Dringende Arbeitselemente sollten vor allen anderen prioritär behandelt und so bald wie möglich behandelt werden. |
-   | **Hoch** | Hoch ist für wichtige Arbeitselemente, die Sie nach Abschluss der dringenden Arbeit bearbeiten möchten. |
-   | **Normal** | Normal ist für routinemäßige Arbeitselemente vorgesehen, an denen Sie arbeiten werden, nachdem dringende und hochprioritäre Elemente abgeschlossen sind. Dies ist die Standardeinstellung für Aufgaben und Probleme. |
-   | **Niedrig** | &quot;Niedrig&quot;gilt für Arbeitselemente, die keine sofortige Aufmerksamkeit benötigen und die verschoben werden können, bis alle Arbeitselemente mit höherer Priorität abgeschlossen sind. |
+   | **Dringend** | Dringend erforderlich sind Arbeitselemente, die sofortige Aufmerksamkeit erfordern. Dringende Arbeitselemente sollten vor allen anderen priorisiert und so bald wie möglich angegangen werden. |
+   | **Hoch** | Hoch ist für wichtige Arbeitselemente vorgesehen, die nach Abschluss dringender Arbeiten behoben werden sollen. |
+   | **normal** | Normal ist für Routineaufgaben, die Sie bearbeiten werden, nachdem dringende und Elemente mit hoher Priorität abgeschlossen sind. Dies ist die Standardeinstellung für Aufgaben und Probleme. |
+   | **Niedrig** | Niedrig ist für Arbeitselemente, die nicht sofort bearbeitet werden müssen, und kann verschoben werden, bis alle Arbeitselemente mit höherer Priorität erledigt sind. |
 
    ![](assets/my-focus.png)
    <!--new screen for prod ![](assets/my-focus-new.png)-->
 
    >[!TIP]
    >
-   >Sie können Ihre Arbeit nach Fokusebenen filtern und gruppieren.
+   >Sie können Ihre Arbeit nach Ihren Fokusebenen filtern und gruppieren.

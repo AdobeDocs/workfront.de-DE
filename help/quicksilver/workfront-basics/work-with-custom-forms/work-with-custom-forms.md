@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Arbeiten mit benutzerdefinierten Formularen
-description: Lesen Sie diese Artikel, um zu erfahren, wie Sie mit benutzerdefinierten Formularen in Adobe Workfront arbeiten.
+description: Lesen Sie diese Artikel, um zu erfahren, wie Sie in Adobe Workfront mit benutzerdefinierten Formularen arbeiten.
 author: Alina
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -20,5 +20,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md)
 * [Informationen in benutzerdefinierten Formularfeldern bearbeiten](../../workfront-basics/work-with-custom-forms/edit-custom-forms.md)
-* [Exportieren benutzerdefinierter Formulare und Objektdetails](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
-* [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt werden](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)
+* [Exportieren von benutzerdefinierten Formularen und Objektdetails](../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md)
+* [Verwalten benutzerdefinierter Formulare, die an Objekte angehängt sind](../../workfront-basics/work-with-custom-forms/manage-custom-forms-attached-to-objects.md)

@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: get-started-with-workfront
 title: Unterstützte Sprachen in Adobe Workfront
-description: Sie können die Sprache ändern, in der Sie Adobe Workfront und E-Mails aus Workfront anzeigen, indem Sie die Spracheinstellungen in Ihrem Browser und Ihr standardmäßiges E-Mail-Gebietsschema in Workfront anpassen.
+description: Sie können die Sprache, in der Sie Adobe Workfront und E-Mails aus Workfront anzeigen, ändern, indem Sie die Spracheinstellungen in Ihrem Browser und Ihr standardmäßiges E-Mail-Gebietsschema in Workfront anpassen.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
@@ -15,9 +15,9 @@ ht-degree: 1%
 
 # Unterstützte Sprachen in Adobe Workfront
 
-Sie können die Sprache ändern, in der Sie Adobe Workfront und E-Mails aus Workfront anzeigen, indem Sie die Spracheinstellungen in Ihrem Browser (falls nicht IMS) oder Ihren Adobe Experience Cloud-Profilsprachvoreinstellungen (falls IMS) und Ihrem standardmäßigen E-Mail-Gebietsschema in Workfront anpassen.
+Sie können die Sprache, in der Sie Adobe Workfront und E-Mails aus Workfront anzeigen, ändern, indem Sie die Spracheinstellungen Ihres Browsers (wenn nicht in IMS) oder Ihrer Spracheinstellungen Ihres Adobe Experience Cloud-Profils (wenn nicht in IMS) und Ihres standardmäßigen E-Mail-Gebietsschemas in Workfront anpassen.
 
-Die Workfront-Terminologie wird bei jedem Workfront-Update für die unterstützten Sprachen aktualisiert.
+Die Terminologie von Workfront wird mit jedem Workfront-Update für die unterstützten Sprachen aktualisiert.
 
 Workfront unterstützt die folgenden Sprachen:
 
@@ -26,37 +26,37 @@ Workfront unterstützt die folgenden Sprachen:
 * Deutsch (de-DE)
 * Japanisch (ja)
 * Spanisch (es)
-* Italienisch (it_IT)
+* Italienisch (it_it)
 * Portugiesisch (pt-BR)
 * Koreanisch (ko)
-* Chinesisch - vereinfacht (zh-CN)
+* Chinesisch - Vereinfacht (zh-CN)
 * Chinesisch - Traditionell (zh-TW)
 
-Die Sprache, die zur Anzeige von Workfront in Ihrem Browser verwendet wird, wird von Ihren Browserspracheinstellungen gesteuert, wenn Ihr Unternehmen nicht über IMS verfügt, oder von Ihrer Adobe Experience Cloud-Profilsprache, wenn Ihr Unternehmen nicht über IMS verfügt. Wählen Sie in beiden Fällen eine Sprache aus, die in der Liste der unterstützten Sprachen aufgeführt ist.
+Die Sprache, die zum Anzeigen von Workfront in Ihrem Browser verwendet wird, wird durch die Spracheinstellungen Ihres Browsers gesteuert, wenn Ihr Unternehmen nicht in IMS ist, oder durch Ihre Profilsprache in Adobe Experience Cloud, wenn Ihr Unternehmen nicht in IMS ist. Wählen Sie in beiden Fällen unbedingt eine Sprache aus, die in der Liste Unterstützte Sprachen aufgeführt ist.
 
-Um ausgehende E-Mails in einer der unterstützten Sprachen anzuzeigen, ändern Sie das Gebietsschema für E-Mails an Benutzer oder die Einstellungen für Kundeninformationen in Workfront.\
+Um ausgehende E-Mails in einer der unterstützten Sprachen anzuzeigen, ändern Sie in Workfront Ihre Einstellungen für Benutzer-E-Mail-Gebietsschema oder Kundeninformationen.\
 Sie müssen ein Workfront-Administrator sein, um die Einstellungen für Kundeninformationen ändern zu können.\
-Weitere Informationen zum Ändern des Gebietsschemas für Kundeninformationen und Benutzer-E-Mail finden Sie unter [Ändern der Gebietsschemata für Workfront- und Benutzer-E-Mail-Adressen](#change-the-workfront-and-user-locales).
+Weitere Informationen zum Ändern des Gebietsschemas für Kundeninformationen und Benutzer-E-Mails finden Sie unter [Ändern der Gebietsschemata für Workfront und Benutzer-E-Mails](#change-the-workfront-and-user-locales).
 
-Sie können einen Drittanbieter damit beauftragen, die Benutzeroberfläche von Workfront und die ausgehenden E-Mails von Workfront in andere Sprachen übersetzen zu lassen. Diese Übersetzungen werden von Workfront nicht unterstützt, und außerhalb der oben aufgeführten Sprachen werden keine Sprachen unterstützt.
+Sie können einen Drittanbieter beauftragen, die Workfront-Benutzeroberfläche und die von Workfront ausgehenden E-Mails in andere Sprachen übersetzen zu lassen. Diese Übersetzungen werden von Workfront nicht unterstützt und Sprachen, die nicht unter den oben aufgeführten Sprachen liegen, werden nicht unterstützt.
 
 >[!NOTE]
 >
 >Teile der Benutzeroberfläche sind möglicherweise noch nicht übersetzt für Folgendes:
 >
 >* Bei Verwendung einer nicht unterstützten Sprache wird die Benutzeroberfläche auf Englisch angezeigt
->* Das Menü Hilfe sowie der Hilfeinhalt, auf den über dieses Menü zugegriffen wird, werden auf Englisch angezeigt
->* Der vom Benutzer eingegebene Text bleibt in der eingegebenen Originalsprache. Dies kann Folgendes umfassen, ist jedoch nicht beschränkt auf:
+>* Das Menü Hilfe sowie der Hilfeinhalt, der über dieses Menü aufgerufen wird, werden auf Englisch angezeigt
+>* Der vom Benutzer eingegebene Text bleibt in der eingegebenen Originalsprache. Dies kann unter anderem Folgendes umfassen:
 >
 >   * Projektnamen
 >   * Aufgabennamen
->   * Problemnamen
->   * Portfolio
+>   * Anfragenamen
+>   * Portfolio-Namen
 >   * Programmnamen
->   * Genehmigungsnamen
+>   * Validierungsnamen
 >   * Beschreibungen
 >   * Benutzerdefinierte Formularnamen
->   * Typen der Stunden
+>   * Stundentypen-Namen
 >   * Ausgabentypen
 >   * Meilensteine
 >   * Benutzerdefinierte Registerkarten
@@ -64,102 +64,102 @@ Sie können einen Drittanbieter damit beauftragen, die Benutzeroberfläche von W
 >   * Berichtsnamen
 >
 
-## Unterstützte Sprachdiskrepanzen bei der Verwendung von Testsendungen
+## Unterstützte Sprachdiskrepanzen bei der Verwendung von Proofing
 
-Der Web Proofing Viewer in Workfront unterstützt die meisten in Workfront unterstützten Sprachen.
+Der Web Proofing Viewer in Workfront unterstützt die meisten Sprachen, die in Workfront unterstützt werden.
 
-Die folgenden Sprachen werden im Testsendungs-Tool nicht unterstützt:
+Die folgenden Sprachen werden im Proofing-Tool nicht unterstützt:
 
-* Chinesisch - vereinfacht (zh-CN)
+* Chinesisch - Vereinfacht (zh-CN)
 * Chinesisch - Traditionell (zh-TW)
 * Portugiesisch (pt-BR)
 
-Ihr Unternehmen muss eine Testlizenz erwerben, damit Sie auf den Web Proofing Viewer zugreifen können.
+Ihr Unternehmen muss eine Proofing-Lizenz erwerben, damit Sie auf die Web Proofing Viewer zugreifen können.
 
-Weitere Informationen zum Testen finden Sie unter [Testversand](../review-and-approve-work/proofing/proofing.md).
+Weitere Informationen zu Proofing finden Sie unter [Proofing](../review-and-approve-work/proofing/proofing.md).
 
-Bei der Anzeige von Workfront in einer Sprache, die im Testtool nicht unterstützt wird, wird der Webproofing-Viewer auf Englisch angezeigt.
+Wenn Sie Workfront in einer Sprache anzeigen, die im Proofing-Tool nicht unterstützt wird, wird der Web Proofing Viewer auf Englisch angezeigt.
 
-Wenn Sie Workfront Proof (das eigenständige Testwerkzeug) in einer Sprache verwenden, die in Workfront nicht unterstützt wird, wird der Web Proofing Viewer in Workfront auf Englisch angezeigt.\
+Wenn Sie Workfront Proof (das eigenständige Proofing-Tool) in einer Sprache verwenden, die in Workfront nicht unterstützt wird, wird der Web Proofing Viewer in Workfront auf Englisch angezeigt.\
 Weitere Informationen zu den in Workfront Proof unterstützten Sprachen finden Sie unter [Spracheinstellungen in Workfront Proof](../workfront-proof/wp-getstarted/system-information/language-settings.md).
 
 ## Unterstützte Sprache in Adobe Workfront Fusion
 
 Derzeit unterstützt Workfront Fusion nur Englisch.
 
-* Alle Inhalte in Workfront Fusion sowie Hilfeinhalte im Zusammenhang mit Workfront Fusion werden auf Englisch angezeigt.
-* Workfront Fusion unterstützt nicht die Verwendung von nicht englischsprachigen Textzeichen in von Benutzern eingegebenen Feldern.
+* Alle Inhalte in Workfront Fusion sowie alle Hilfeinhalte im Zusammenhang mit Workfront Fusion werden auf Englisch angezeigt.
+* Workfront Fusion unterstützt nicht die Verwendung von nicht englischen Textzeichen in von Benutzenden eingegebenen Feldern.
 
 Ihr Unternehmen muss eine Workfront Fusion-Lizenz erwerben, damit Sie auf Workfront Fusion zugreifen können.\
-Weitere Informationen zu Workfront Fusion finden Sie unter [Übersicht über Adobe Workfront Fusion](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Weitere Informationen zu Workfront Fusion finden Sie unter [Adobe Workfront Fusion - Übersicht](../workfront-fusion/get-started/workfront-fusion-overview.md).
 
-## Sprache ändern
+## Ändern der Sprache
 
-Sie können die Sprache, in der Sie Workfront anzeigen, und die Sprache der ausgehenden E-Mails ändern, indem Sie die folgenden Einstellungen ändern:
+Sie können die Sprache, in der Workfront angezeigt wird, und die Sprache der ausgehenden E-Mails ändern, indem Sie die folgenden Einstellungen vornehmen:
 
-* Die Sprache Ihres Browsers (für Benutzer, die nicht IMS verwenden)
-* Die primäre und sekundäre Sprache Ihres AEM Profils (für Benutzer mit IMS)
-* Die Einstellungen für &quot;Kundeninformationen&quot;und &quot;Gebietsschema für Benutzer-E-Mails&quot;in Ihrem Workfront-Konto.
+* Die Sprache in Ihrem Browser (für Benutzer, die nicht IMS verwenden)
+* Die primäre und sekundäre Sprache Ihres AEM-Profils (für IMS-Benutzende)
+* Die Einstellungen Kundeninformationen und Benutzer-E-Mail-Gebietsschema in Ihrem Workfront-Konto.
 
-Um alle verfügbaren Übersetzungen für Ihre ausgewählte Sprache anzuzeigen, sollten sowohl das Workfront-Gebietsschema als auch das Browser-Gebietsschema auf dieselbe Sprache eingestellt sein.
+Um alle verfügbaren Übersetzungen für die von Ihnen gewählte Sprache anzuzeigen, sollten sowohl das Workfront-Gebietsschema als auch das Browsergebietsschema auf dieselbe Sprache eingestellt sein.
 
-* [Browsersprache ändern](#change-the-browser-language)
-* [Adobe Experience Cloud-Sprache ändern](#change-the-adobe-experience-cloud-language)
-* [Workfront- und Benutzer-E-Mail-Gebietsschemata ändern](#change-the-workfront-and-user-locales)
+* [Ändern der Browser-Sprache](#change-the-browser-language)
+* [Ändern der Adobe Experience Cloud-Sprache](#change-the-adobe-experience-cloud-language)
+* [Ändern der Gebietsschemata für Workfront und Benutzer-E-Mails](#change-the-workfront-and-user-locales)
 
-### Browsersprache ändern {#change-the-browser-language}
+### Ändern der Browser-Sprache {#change-the-browser-language}
 
-Wenn Ihr Unternehmen nicht über IMS verfügt und Sie die Browsersprache ändern, wird Ihre Workfront-Benutzeroberfläche in dieser Sprache angezeigt.\
-Weitere Informationen dazu, welche Sprachen von Workfront unterstützt werden, finden Sie unter [Unterstützte Sprachen in Adobe Workfront](#supported-languages).
+Wenn Ihr Unternehmen nicht in IMS arbeitet, wird beim Ändern der Browser-Sprache Ihre Workfront-Benutzeroberfläche in dieser Sprache angezeigt.\
+Weitere Informationen zu den von Workfront unterstützten Sprachen finden Sie unter [Unterstützte Sprachen in Adobe Workfront](#supported-languages).
 
-Die Browsersprache muss für einzelne Benutzer geändert werden.
+Die Browser-Sprache muss auf individueller Benutzerbasis geändert werden.
 
-Weitere Informationen zur Sprachänderung Ihres Browsers finden Sie im Menü &quot;Hilfe&quot;.
+Spezifische Informationen zum Ändern der Sprache Ihres Browsers finden Sie im Menü „Hilfe“ Ihres Browsers.
 
-### Adobe Experience Cloud-Sprache ändern
+### Ändern der Adobe Experience Cloud-Sprache
 
-Wenn Ihr Unternehmen IMS verwendet, bestimmt Ihre Adobe Experience Cloud-Profilsprache die Sprache, die in Workfront angezeigt wird.
+Wenn Ihr Unternehmen IMS nutzt, bestimmt Ihre Adobe Experience Cloud-Profilsprache die Sprache, die in Workfront angezeigt wird.
 
-1. Klicken Sie auf Ihr Profilbild ganz rechts in der Adobe Experience Cloud-Symbolleiste und dann auf **Voreinstellungen**. Die Adobe Experience Cloud-Symbolleiste befindet sich direkt über der Workfront-Symbolleiste.
+1. Klicken Sie ganz rechts in der Adobe Experience Cloud-Symbolleiste auf Ihr Profilbild und dann auf **Voreinstellungen**. Die Adobe Experience Cloud-Symbolleiste befindet sich direkt über der Haupt-Workfront-Symbolleiste.
 
-1. Klicken Sie unter **Profil** unter Ihrem Namen und Ihrer E-Mail-Adresse auf den Namen der aktuell ausgewählten Sprache.
+1. Klicken **unter** Profil“ unter Ihrem Namen und Ihrer E-Mail-Adresse auf den Namen der aktuell ausgewählten Sprache.
 
-1. Wählen Sie Ihre bevorzugten Sprachen in den Dropdown-Listen **Erste Sprache** und **Zweite Sprache** aus. Die erste Sprache ist Ihre Standardsprache, während die zweite nur angezeigt wird, wenn die erste Sprache von einer bestimmten Anwendung nicht unterstützt wird.
+1. Wählen Sie in den Dropdown-Menüs **Erste Sprache** und **Zweite Sprache** Ihre bevorzugte Sprache aus. Die erste Sprache ist die Standardsprache, während die zweite Sprache nur angezeigt wird, wenn die erste Sprache von einem bestimmten Programm nicht unterstützt wird.
 
-### Workfront- und Benutzer-E-Mail-Gebietsschemata ändern {#change-the-workfront-and-user-locales}
+### Ändern der Gebietsschemata für Workfront und Benutzer-E-Mails {#change-the-workfront-and-user-locales}
 
-* [Ändern des standardmäßigen Workfront-E-Mail-Gebietsschemas](#change-the-workfront-locale)
-* [Gebietsschema der E-Mail für Benutzer ändern](#change-the-user-locale)
+* [Ändern des standardmäßigen E-Mail-Gebietsschemas für Workfront](#change-the-workfront-locale)
+* [Ändern des Benutzer-E-Mail-Gebietsschemas](#change-the-user-locale)
 
-### Standardsprache für Workfront-E-Mail ändern {#change-the-workfront-locale}
+### Ändern des standardmäßigen E-Mail-Gebietsschemas für Workfront {#change-the-workfront-locale}
 
-Beim Ändern des standardmäßigen Workfront-E-Mail-Gebietsschemas ändern Sie das Sprache-, Datums- und Zahlenformat, das in ausgehenden Nachrichten für alle Workfront-Benutzer verwendet wird. Diese Einstellungen werden zum Standard für jeden neuen Benutzer, den Sie erstellen.
+Beim Ändern des standardmäßigen Workfront-E-Mail-Gebietsschemas ändern Sie die Sprache, das Datum und das Zahlenformat, die in ausgehenden Nachrichten für alle Workfront-Benutzer verwendet werden. Diese Einstellungen werden für jeden neu erstellten Benutzer zur Standardeinstellung.
 
-So ändern Sie das standardmäßige Workfront E-Mail-Gebietsschema:
+So ändern Sie das standardmäßige E-Mail-Gebietsschema von Workfront:
 
 1. Melden Sie sich bei Workfront als Workfront-Administrator an.
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
 
 1. Klicken Sie auf **System** > **Kundeninformationen.**
 
-1. Klicken Sie im Abschnitt **Grundlegende Informationen** auf die Dropdownliste **Standardsprache für E-Mail-Adresse**, um die Sprache auszuwählen, in der Workfront-E-Mails angezeigt werden sollen.
+1. Klicken Sie im Abschnitt **Grundlegende Informationen** auf die Dropdown-Liste **Standard-E-Mail-Gebietsschema**, um die Sprache auszuwählen, in der Workfront-E-Mails angezeigt werden sollen.
 
 1. Klicken Sie auf **Speichern**.
 
-### Gebietsschema der E-Mail für Benutzer ändern {#change-the-user-locale}
+### Ändern des Benutzer-E-Mail-Gebietsschemas {#change-the-user-locale}
 
-Beim Ändern des Gebietsschemas für die E-Mail-Adresse von Benutzern ändern Sie das in den ausgehenden Nachrichten verwendete Sprache-, Datums- und Zahlenformat. Diese Einstellungen setzen die im Bereich &quot;Kundeninformationen&quot;der Einrichtung ausgewählten Systemeinstellungen außer Kraft.
+Wenn Sie das Gebietsschema Ihrer Benutzer-E-Mail ändern, ändern Sie die Sprache, das Datum und das Zahlenformat, die in Ihren ausgehenden Nachrichten verwendet werden. Diese Einstellungen setzen die Systemeinstellungen außer Kraft, die im Bereich „Kundeninformationen“ von „Setup“ ausgewählt wurden.
 
 >[!NOTE]
 >
->Wenn Ihr Unternehmen das Adobe Unified Experience verwendet, werden die Sprachvoreinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Siehe [Ändern der Adobe Experience Cloud-Sprache](#change-the-adobe-experience-cloud-language) in diesem Artikel.
+>Wenn Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, werden die Spracheinstellungen in Ihrem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Siehe [Ändern der Adobe Experience Cloud](#change-the-adobe-experience-cloud-language) in diesem Artikel.
 
-So ändern Sie das Gebietsschema Ihrer Benutzer-E-Mail:
+So ändern Sie Ihr Benutzer-E-Mail-Gebietsschema:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf das Benutzerprofilbild.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf Ihr Benutzerprofilbild.
 
-1. Klicken Sie auf das Menü Mehr ![](assets/more-icon.png) und dann auf **Bearbeiten**.
+1. Klicken Sie auf die ![](assets/more-icon.png) Mehr und dann auf **Bearbeiten**.
 
-1. Klicken Sie im Abschnitt **Voreinstellungen** auf die Dropdownliste **E-Mail-Gebietsschema** , um die Sprache auszuwählen, in der Workfront-E-Mails angezeigt werden sollen.
+1. Klicken Sie **Abschnitt** auf die Dropdown-Liste **E-Mail-Gebietsschema**, um die Sprache auszuwählen, in der Workfront-E-Mails angezeigt werden sollen.
 
 1. Klicken Sie auf **Änderungen speichern**.

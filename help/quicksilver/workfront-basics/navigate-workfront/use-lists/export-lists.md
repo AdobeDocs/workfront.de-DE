@@ -1,7 +1,7 @@
 ---
 navigation-topic: use-lists
-title: Liste exportieren
-description: Sie können eine Liste von Objekten aus Adobe Workfront exportieren. Wenn die Objektliste in Workfront mehr als 2000 Elemente enthält, ist der Listenexport die einzige Möglichkeit, alle Elemente in der Liste auf einer Seite zu überprüfen.
+title: Exportieren einer Liste
+description: Sie können eine Liste von Objekten aus Adobe Workfront exportieren. Wenn die Liste der Objekte in Workfront mehr als 2.000 Elemente enthält, ist der Export der Liste die einzige Möglichkeit, alle Elemente in der Liste auf einer Seite zu überprüfen.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 31159d6d-f03a-4f84-a454-25a232971441
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Liste exportieren
+# Exportieren einer Liste
 
 <!--Audited: 11/2024-->
 
-Sie können eine Liste von Objekten aus [!DNL Adobe Workfront] exportieren. Wenn die Liste der Objekte in [!DNL Workfront] mehr als 2000 Elemente enthält, ist der Export der Liste die einzige Möglichkeit, alle Elemente in der Liste auf einer Seite zu überprüfen.
+Sie können eine Liste von Objekten aus [!DNL Adobe Workfront] exportieren. Wenn die Liste der Objekte in [!DNL Workfront] mehr als 2.000 Elemente enthält, ist der Export der Liste die einzige Möglichkeit, alle Elemente in der Liste auf einer Seite zu überprüfen.
 
-Informationen zu Exportformaten und -beschränkungen finden Sie unter [Daten exportieren](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+Informationen zu Exportformaten und -beschränkungen finden Sie unter [Exportieren von Daten](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,46 +31,46 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende oder höher </p></li>
+   <ul><li><p>Mitwirkender oder höher </p></li>
    </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Anforderung oder höher</p></li>
+   <ul><li><p>Anfrage oder höher</p></li>
     </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf den Bereich anzeigen, in dem sich die Liste befindet</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Ansicht] Berechtigungen für das Objekt, in dem sich die Liste befindet</p>  </td> 
+   <td> <p>[!UICONTROL View]-Berechtigungen für das Objekt, in dem sich die Liste befindet</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Liste exportieren
+## Exportieren einer Liste
 
 1. Navigieren Sie zu einer Liste von Objekten.
-1. (Optional) Wählen Sie vor dem Export alle Filter, Ansichten und Gruppierungen aus, die auf die Liste angewendet werden sollen.
+1. (Optional) Wählen Sie vor dem Exportieren Filter, Ansichten und Gruppierungen aus, die Sie auf die Liste anwenden möchten.
 Informationen zu Filtern, Ansichten und Gruppierungen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
-1. (Optional) Um nur bestimmte Elemente in einer Liste zu exportieren, wählen Sie alle Elemente in der Liste aus, die Sie in der exportierten Datei verwenden möchten.
+1. (Optional) Um nur bestimmte Elemente in einer Liste zu exportieren, wählen Sie alle Elemente in der Liste aus, die in der exportierten Datei enthalten sein sollen.
 
    >[!TIP]
    >
-   >Um alle Elemente zu finden, die Sie einbeziehen möchten, können Sie:
+   >Um alle Elemente zu finden, die Sie einbeziehen möchten, haben Sie folgende Möglichkeiten:
    >
    >   
    >   
@@ -82,7 +82,7 @@ Informationen zu Filtern, Ansichten und Gruppierungen finden Sie unter [Berichte
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Exportieren]** ![Exportieren](assets/export.png).
+1. Klicken Sie auf das **[!UICONTROL Export]**-Symbol ![Export](assets/export.png).
 
 1. Wählen Sie aus den folgenden Formaten aus:
 
@@ -93,5 +93,5 @@ Informationen zu Filtern, Ansichten und Gruppierungen finden Sie unter [Berichte
 
      Dadurch wird eine Kopie der Liste in eines dieser Formate exportiert und auf Ihrem Computer gespeichert.
 
-1. (Optional) Öffnen Sie die exportierte Liste mit der entsprechenden Anwendung.
-Alle Elemente in der Liste werden in der exportierten Datei angezeigt, unabhängig davon, ob sie auf dem Bildschirm der Webanwendung angezeigt werden.
+1. (Optional) Öffnen Sie die exportierte Liste mit dem entsprechenden Programm.
+Alle Elemente in der Liste werden in der exportierten Datei angezeigt, unabhängig davon, ob sie auf dem Bildschirm der Web-Anwendung angezeigt werden oder nicht.

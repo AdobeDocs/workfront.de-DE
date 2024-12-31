@@ -2,10 +2,10 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: Connector
+keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront-Module
-description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector verwenden, um Ihre Prozesse in Workfront zu automatisieren. Wenn Sie über eine Workfront Fusion for Work Automation and Integration-Lizenz verfügen, können Sie damit auch eine Verbindung zu Apps und Diensten von Drittanbietern herstellen.
+description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector verwenden, um Ihre Prozesse in Workfront zu automatisieren. Wenn Sie über eine Lizenz für Workfront Fusion for Work Automation und Integration verfügen, können Sie damit auch eine Verbindung zu Apps und Services von Drittanbietern herstellen.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
@@ -16,63 +16,63 @@ ht-degree: 2%
 
 ---
 
-# [!DNL Adobe Workfront] Module
+# [!DNL Adobe Workfront]
 
-Sie können den Connector [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront] verwenden, um Ihre Prozesse innerhalb von [!DNL Workfront] zu automatisieren. Wenn Sie über eine [!UICONTROL [!DNL Workfront Fusion] -Lizenz für Arbeitsautomatisierung und Integration] verfügen, können Sie damit auch eine Verbindung zu Drittanbieteranwendungen und -diensten herstellen.
+Sie können den [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront]-Connector verwenden, um Ihre Prozesse in [!DNL Workfront] zu automatisieren. Wenn Sie über eine Lizenz für [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] verfügen, können Sie damit auch eine Verbindung zu Apps und Services von Drittanbietern herstellen.
 
-Der Connector [!DNL Workfront] zählt nicht mit der Anzahl der aktiven Apps, die für Ihr Unternehmen verfügbar sind. Alle Szenarien, auch wenn sie nur die [!DNL Workfront] -App verwenden, werden mit der Gesamtanzahl der Szenarien Ihrer Organisation angerechnet.
+Der [!DNL Workfront]-Connector wird nicht auf die Anzahl der aktiven Apps angerechnet, die für Ihre Organisation verfügbar sind. Alle Szenarien werden mit der Gesamtanzahl der Szenarien Ihres Unternehmens verrechnet, auch wenn sie nur die [!DNL Workfront]-App verwenden.
 
-Weitere Informationen zu den verfügbaren Anwendungen und Szenarien Ihrer Organisation finden Sie unter [Organisationen](../../workfront-fusion/organizations/organizations-and-teams.md#organiza2) in [[!DNL Adobe Workfront Fusion] Organisationen und Teams](../../workfront-fusion/organizations/organizations-and-teams.md).
+Weitere Informationen zu den verfügbaren Programmen und Szenarien Ihres Unternehmens finden Sie unter [Organisationen](../../workfront-fusion/organizations/organizations-and-teams.md#organiza2) in [[!DNL Adobe Workfront Fusion] Organisationen und Teams](../../workfront-fusion/organizations/organizations-and-teams.md).
 
-Wenn Sie Anweisungen zum Erstellen eines Szenarios benötigen, finden Sie weitere Informationen unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
+Anweisungen zum Erstellen eines Szenarios finden Sie unter [Erstellen eines Szenarios in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/create-a-scenario.md). Weitere Informationen zu Modulen finden Sie unter [Module in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/modules/modules.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td>
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration], [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung]</p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration], [!UICONTROL [!DNL Workfront Fusion] for Work Automation]</p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebene Funktionalität nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## [!DNL Workfront] mit [!DNL Workfront Fusion] verbinden
 
-Der [!DNL Workfront]-Connector verwendet OAuth 2.0, um eine Verbindung zu [!DNL Workfront] herzustellen.
+Der [!DNL Workfront]-Connector verwendet OAuth 2.0 für die Verbindung mit [!DNL Workfront].
 
-Sie können eine Verbindung zu Ihrem [!DNL Workfront]-Konto direkt aus einem [!DNL Workfront Fusion]-Modul erstellen.
+Sie können direkt aus einem [!DNL Workfront Fusion]-Modul heraus eine Verbindung zu Ihrem [!DNL Workfront]-Konto herstellen.
 
-1. Klicken Sie in einem beliebigen Adobe Workfront-Modul neben dem Feld Verbindung auf **Hinzufügen** .
+1. Klicken Sie in einem beliebigen Adobe Workfront **Modul** Hinzufügen) neben dem Feld Verbindung .
 1. Füllen Sie die folgenden Felder aus:
 
    <table style="table-layout:auto"> 
@@ -96,29 +96,29 @@ Sie können eine Verbindung zu Ihrem [!DNL Workfront]-Konto direkt aus einem [!D
       <tr>
         <td role="rowheader">[!UICONTROL Verbindungstyp]</td>
         <td>
-          <p>Wählen Sie aus, ob Sie eine Verbindung zu einem Dienstkonto oder einem persönlichen Konto herstellen möchten.</p>
+          <p>Wählen Sie aus, ob Sie eine Verbindung zu einem Service-Konto oder einem persönlichen Konto herstellen möchten.</p>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client-ID]</td>
-        <td>Geben Sie Ihre [!DNL Workfront] Client-ID ein. Dies finden Sie im Bereich "OAuth2-Anwendungen"des Einrichtungsbereichs in Workfront. Öffnen Sie die spezifische Anwendung, mit der Sie eine Verbindung herstellen, um die Client-ID anzuzeigen.</td>
+        <td>Geben Sie Ihre [!DNL Workfront]-Client-ID ein. Diese finden Sie im Bereich OAuth2-Anwendungen des Bereichs Setup in Workfront. Öffnen Sie das spezifische Programm, mit dem Sie eine Verbindung herstellen, um die Client-ID anzuzeigen.</td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Geben Sie Ihre [!DNL Workfront] Client-ID ein. Dies finden Sie im Bereich "OAuth2-Anwendungen"des Einrichtungsbereichs in Workfront. Öffnen Sie die spezifische Anwendung, mit der Sie eine Verbindung herstellen, um die Client-ID anzuzeigen.</td>
+        <td role="rowheader">[!UICONTROL Client-Geheimnis]</td>
+        <td>Geben Sie Ihre [!DNL Workfront]-Client-ID ein. Diese finden Sie im Bereich OAuth2-Anwendungen des Bereichs Setup in Workfront. Öffnen Sie das spezifische Programm, mit dem Sie eine Verbindung herstellen, um die Client-ID anzuzeigen.</td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Authentifizierungs-URL]</td>
-        <td>Dies kann der Standardwert bleiben, oder Sie können die URL Ihrer Workfront-Instanz eingeben, gefolgt von <code>/integrations/oauth2</code>. <p>Beispiel: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
+        <td role="rowheader">[!UICONTROL-Authentifizierungs-URL]</td>
+        <td>Dies kann der Standardwert bleiben oder Sie können die URL Ihrer Workfront-Instanz gefolgt von <code>/integrations/oauth2</code> eingeben. <p>Beispiel: <code>https://mydomain.my.workfront.com/integrations/oauth2</code></p></td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Host-Präfix]</td>
-        <td>In den meisten Fällen sollte dieser Wert <code>origin</code> sein.
+        <td>In den meisten Fällen sollte dieser Wert <code>origin</code> werden.
       </tr>
     </tbody>
     </table>
 
-1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicken Sie **[!UICONTROL Fortfahren]**, um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 
 
@@ -133,30 +133,30 @@ Sie können eine Verbindung zu Ihrem [!DNL Workfront]-Konto direkt aus einem [!D
 
 >[!NOTE]
 >
->* Wenn keine Schaltfläche zum Anmelden bei SAML angezeigt wird, hat Ihr Unternehmen Single Sign-On (SSO) nicht aktiviert. Sie können sich mit Ihrem Benutzernamen und Passwort anmelden.
+>* Wenn keine SAML-Anmeldeschaltfläche angezeigt wird, hat Ihr Unternehmen Single Sign-On (SSO) nicht aktiviert. Sie können sich mit Ihrem Benutzernamen und Kennwort anmelden.
 >   
->   Weitere Informationen zur einmaligen Anmeldung finden Sie unter [Überblick über die einmalige Anmeldung in [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
+>   Weitere Informationen zu SSO finden Sie unter [Übersicht über Single Sign-on [!DNL Adobe Workfront]](../../administration-and-setup/add-users/single-sign-on/sso-in-workfront.md)
 >   
->* OAuth 2.0-Verbindungen zur [!DNL Workfront]-API benötigen keine API-Schlüssel mehr.
->* Um eine Verbindung zu einer Workfront-Sandbox-Umgebung herzustellen, müssen Sie in dieser Umgebung eine OAuth2-Anwendung erstellen und dann die Client-ID und den Client Secret verwenden, die von dieser Anwendung in Ihrer Verbindung generiert wurden.
+>* OAuth 2.0-Verbindungen zur [!DNL Workfront]-API sind nicht mehr auf API-Schlüssel angewiesen.
+>* Um eine Verbindung zu einer Workfront Sandbox-Umgebung herzustellen, müssen Sie in dieser Umgebung eine OAuth2-Anwendung erstellen und dann die von dieser Anwendung generierte Client-ID und den geheimen Client-Schlüssel in Ihrer Verbindung verwenden.
 >
->   Anweisungen zum Erstellen einer OAuth2-Anwendung in Workfront finden Sie unter [Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungscode-Fluss)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) im Artikel OAuth2-Anwendungen für Workfront-Integrationen erstellen.
+>   Anweisungen zum Erstellen einer OAuth2-Anwendung in Workfront finden Sie unter [Erstellen einer OAuth2-Anwendung mit Benutzeranmeldeinformationen (Autorisierungs-Code-Fluss)](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md#create-an-oauth2-application-using-user-credentials-authorization-code-flow) im Artikel Erstellen von OAuth2-Anwendungen für Workfront-Integrationen.
 
 ## [!DNL Workfront] Module und ihre Felder
 
-Wenn Sie [!DNL Workfront] -Module konfigurieren, zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder im Dienst zusätzliche [!DNL Workfront] -Felder angezeigt werden. Ein fett hervorgehobener Titel in einem Modul zeigt ein erforderliches Feld an.
+Beim Konfigurieren [!DNL Workfront] Module zeigt [!DNL Workfront Fusion] die unten aufgeführten Felder an. Darüber hinaus können abhängig von Faktoren wie Ihrer Zugriffsebene in der App oder dem Service weitere [!DNL Workfront] angezeigt werden. Ein fett gedruckter Titel in einem Modul gibt ein erforderliches Feld an.
 
-Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Informationen von einem Modul einem anderen zuordnen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
+Wenn die Zuordnungsschaltfläche über einem Feld oder einer Funktion angezeigt wird, können Sie damit Variablen und Funktionen für dieses Feld festlegen. Weitere Informationen finden Sie unter [Zuordnen von Informationen zu einem anderen Modul in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/map-information-between-modules.md).
 
 
 ![](assets/map-toggle-350x74.png)
 
 >[!NOTE]
 >
->* Wenn in einem Workfront-Modul nicht die aktuellsten Felder angezeigt werden, liegt dies möglicherweise an Caching-Problemen. Warten Sie eine Stunde und versuchen Sie es erneut.
->* HTTP-429-Statuscodes von Adobe Workfront sollten keine Deaktivierungen verursachen, sondern eine kurze Ausführungspause im Szenario Trigger werden.
+>* Wenn in einem Workfront-Modul nicht die aktuellsten Felder angezeigt werden, kann dies an Problemen mit der Zwischenspeicherung liegen. Eine Stunde warten und erneut versuchen.
+>* HTTP 429-Status-Codes von Adobe Workfront sollten keine Deaktivierungen verursachen, sondern stattdessen eine kurze Ausführungspause im Trigger verursachen.
 
-* [Trigger](#triggers)
+* [Trigger ](#triggers)
 * [Aktionen](#actions)
 * [Suchvorgänge](#searches)
 
@@ -172,121 +172,121 @@ Wenn Sie die Zuordnungsschaltfläche über einem Feld oder einer Funktion sehen,
 
 Dieses Trigger-Modul führt ein Szenario in Echtzeit aus, wenn Objekte eines bestimmten Typs in Workfront hinzugefügt, aktualisiert oder gelöscht werden
 
-Das Modul gibt alle mit dem Datensatz verknüpften Standardfelder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt alle Standardfelder zurück, die mit dem Datensatz verknüpft sind, sowie alle benutzerdefinierten Felder und Werte, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-1. Klicken Sie rechts neben dem Feld **Webhook** auf **[!UICONTROL Add]**.
+1. Klicken **[!UICONTROL rechts neben dem Feld** Webhook **auf „Hinzufügen]**.
 
-1. Konfigurieren Sie den Webhook im angezeigten Feld **[!UICONTROL Hook hinzufügen]** .
+1. Konfigurieren Sie den Webhook im Feld **[!UICONTROL Hook hinzufügen]** das angezeigt wird.
 
-   Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+   Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Webhook name]</td> 
-      <td>(Optional) Geben Sie einen neuen Namen für den Webhook ein.</td> 
+      <td>[!UICONTROL Webhook-Name]</td> 
+      <td>(Optional) Geben Sie einen neuen Namen für den Webhook ein</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Verbindung]</td> 
-      <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+      <td>[!UICONTROL-Verbindung]</td> 
+      <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Record Type]</td> 
-      <td>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, den das Modul überwachen soll.</td> 
+      <td>[!UICONTROL Datensatztyp]</td> 
+      <td>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, den das Modul überwachen soll.</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL State]</td> 
-      <td>Wählen Sie aus, ob Sie den alten oder neuen Status überwachen möchten.<ul><li><p><b>[!UICONTROL Neuer Status]</b></p><p>Trigger eines Szenarios, in dem der Datensatz <b>in</b> einen bestimmten Wert ändert.</p><p>Wenn beispielsweise der Status auf [!UICONTROL Neuer Status] festgelegt ist und der Filter auf [!UICONTROL Status] [!UICONTROL Entspricht] [!UICONTROL In Bearbeitung] gesetzt ist, wird der Webhook auf einen Trigger gesetzt, wenn [!UICONTROL Status] in [!UICONTROL In Bearbeitung] geändert wird, unabhängig davon, welcher Status zuvor war. </p></li><li><p><b>[!UICONTROL Alter Staat]</b></p><p>Trigger eines Szenarios, in dem der Datensatz <b>von </b> einen bestimmten Wert ändert.</p><p>Wenn beispielsweise der Status auf [!UICONTROL Old State] gesetzt ist und der Filter auf [!UICONTROL Status] [!UICONTROL Entspricht] [!UICONTROL In Bearbeitung] festgelegt ist, wird der Webhook auf einen Trigger angewendet, wenn ein [!UICONTROL Status], der derzeit [!UICONTROL In Bearbeitung] ist, zu einem anderen Status wechselt. </p></li></ul></td> 
+      <td>[!UICONTROL-Status]</td> 
+      <td>Wählen Sie aus, ob der alte oder der neue Status überwacht werden soll.<ul><li><p><b>[!UICONTROL Neuer Status]</b></p><p>Trigger : Ein Szenario, in dem sich der Datensatz <b> einem </b> Wert ändert.</p><p>Wenn beispielsweise der Status auf [!UICONTROL Neuer Status] festgelegt ist und der Filter auf [!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In Progress] festgelegt ist, gibt der Webhook einem Szenario einen Trigger, wenn der [!UICONTROL Status] zu [!UICONTROL In Progress] wechselt, unabhängig davon, welcher Status zuvor war. </p></li><li><p><b>[!UICONTROL Alter Status]</b></p><p>Trigger : Ein Szenario, in dem sich der Datensatz <b> einem </b> Wert ändert.</p><p>Wenn beispielsweise der Status auf [!UICONTROL Alter Status] festgelegt ist und der Filter auf [!UICONTROL Status] [!UICONTROL Equals] [!UICONTROL In Progress] festgelegt ist, gibt der Webhook einem Szenario einen Trigger, wenn ein [!UICONTROL Status], der derzeit [!UICONTROL In Progress] ist, zu einem anderen Status wechselt. </p></li></ul></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td> <p>[!UICONTROL Ereignisfilter]</p> </td> 
-      <td> <p>Sie können Filter festlegen, um nur Datensätze zu überwachen, die den von Ihnen ausgewählten Kriterien entsprechen.</p> <p>Geben Sie für jeden Filter das Feld, das der Filter auswerten soll, den Operator und den Wert ein, die der Filter zulassen soll. Sie können mehrere Filter verwenden, indem Sie UND-Regeln hinzufügen.</p> <p>Hinweis: Sie können keine Filter in vorhandenen [!DNL Workfront]-Webhooks bearbeiten. Um verschiedene Filter für [!DNL Workfront] -Ereignisabonnements einzurichten, entfernen Sie den aktuellen Webhook und erstellen Sie einen neuen.</p> <p>Weitere Informationen zu Ereignisfiltern finden Sie unter <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Ereignisabonnementfilter in den Modulen [!DNL Workfront] &gt; [!UICONTROL Watch Events]</a> in diesem Artikel.</p> </td> 
+      <td> <p>Sie können Filter festlegen, um nur nach Datensätzen zu suchen, die die von Ihnen ausgewählten Kriterien erfüllen.</p> <p>Geben Sie für jeden Filter das Feld ein, das vom Filter ausgewertet werden soll, den Operator und den Wert, den der Filter zulassen soll. Sie können mehr als einen Filter verwenden, indem Sie AND-Regeln hinzufügen.</p> <p>Hinweis: Filter in vorhandenen [!DNL Workfront]-Webhooks können nicht bearbeitet werden. Um verschiedene Filter für [!DNL Workfront] Ereignisabonnements einzurichten, entfernen Sie den aktuellen Webhook und erstellen Sie einen neuen.</p> <p>Weitere Informationen zu Ereignisfiltern finden Sie unter <a href="#event-subscription-filters-in-the-workfront-watch-events-modules" class="MCXref xref">Ereignisabonnementfilter in den Modulen [!DNL Workfront] &gt; [!UICONTROL Ereignisse beobachten</a> in diesem Artikel.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td>Von dieser Verbindung vorgenommene Ereignisse ausschließen</td> 
-      <td>Aktivieren Sie diese Option, um Ereignisse auszuschließen, die mit demselben Connector erstellt oder aktualisiert wurden, den dieses Trigger-Modul verwendet. Dies kann Situationen verhindern, in denen ein Szenario selbst Trigger hat, sodass es sich in einer Endlosschleife wiederholt.<p><b>HINWEIS</b>Der Datensatztyp "Zuweisung"enthält diese Option nicht.</p></td> 
+      <td>Ausschließen von Ereignissen, die von dieser Verbindung stammen</td> 
+      <td>Aktivieren Sie diese Option, um Ereignisse auszuschließen, die mit demselben Connector erstellt oder aktualisiert wurden, den dieses Trigger-Modul verwendet. Dadurch können Situationen verhindert werden, in denen ein Szenario sich selbst in Trigger versetzt und in einer Endlosschleife wiederholt wird.<p><b>HINWEIS</b>Der Datensatztyp „Zuweisung“ umfasst diese Option nicht.</p></td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Record Origin]</td> 
-      <td> <p>Wählen Sie aus, ob das Szenario nur <strong>[!UICONTROL Neue Datensätze]</strong>, <strong>[!UICONTROL Nur aktualisierte Datensätze]</strong>, <strong>[!UICONTROL Neue und aktualisierte Datensätze]</strong> oder <strong>[!DNL Deleted Records Only]</strong> sehen soll.</p> <p>Hinweis: Wenn Sie "<strong>[!UICONTROL Neue und aktualisierte Datensätze]</strong>"auswählen, erstellt die Webhook-Erstellung zwei Ereignis-Abonnements (für dieselbe Webhook-Adresse).</p> </td> 
+      <td> <p>Wählen Sie aus, ob das Szenario <strong>[!UICONTROL Nur neue Datensätze]</strong>, <strong>[!UICONTROL Nur aktualisierte Datensätze]</strong>, <strong>[!UICONTROL Neue und aktualisierte Datensätze]</strong> oder <strong>[!DNL Deleted Records Only]</strong> ansehen soll.</p> <p>Hinweis: Wenn Sie <strong>[!UICONTROL Neue und aktualisierte Datensätze]</strong> auswählen, erstellt die Webhook-Erstellung zwei Ereignisabonnements (für dieselbe Webhook-Adresse).</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
 Nachdem der Webhook erstellt wurde, können Sie die Adresse des Endpunkts anzeigen, an den Ereignisse gesendet werden.
 
-Weitere Informationen finden Sie im Abschnitt [Beispiele für Ereignis-Payloads](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) im [!DNL Workfront] Hilfeartikel [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md).
+Weitere Informationen finden Sie im Abschnitt [Beispiele für Ereignis-Payloads](../../wf-api/general/event-subs-api.md#examples-of-event-payloads) im [!DNL Workfront] Hilfeartikel [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-+++ **[!UICONTROL Überwachungsfeld]**
++++ **[!UICONTROL Feld beobachten]**
 
-Dieses Trigger-Modul führt ein Szenario aus, wenn ein von Ihnen angegebenes Feld aktualisiert wird. Das Modul gibt sowohl den alten als auch den neuen Wert des angegebenen Felds zurück. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Dieses Feldmodul führt ein Trigger aus, wenn ein von Ihnen angegebenes Feld aktualisiert wird. Das Modul gibt sowohl den alten als auch den neuen Wert des angegebenen Felds zurück. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, den das Modul überwachen soll.</p> <p>Wählen Sie beispielsweise [!UICONTROL Task] aus, wenn Sie das Szenario jedes Mal ausführen möchten, wenn ein Datensatzfeld in einer Aufgabe aktualisiert wird.</p> </td> 
+   <td>[!UICONTROL Datensatztyp]</td> 
+   <td> <p>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, den das Modul überwachen soll.</p> <p>Wählen Sie beispielsweise [!UICONTROL Task] aus, wenn Sie die Ausführung des Szenarios jedes Mal starten möchten, wenn ein Datensatzfeld in einer Aufgabe aktualisiert wird.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Field]</td> 
-   <td>Wählen Sie das Feld aus, das das Modul auf Updates überwachen soll. Diese Felder spiegeln die Felder wider, die Ihr [!DNL Workfront]-Administrator für das Tracking eingerichtet hat.</td> 
+   <td>[!UICONTROL-Feld]</td> 
+   <td>Wählen Sie das Feld aus, das das Modul auf Aktualisierungen überwachen soll. Diese Felder spiegeln die Felder wider, die Ihr [!DNL Workfront] für das Tracking eingerichtet hat.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ausgaben]</td> 
-   <td>Wählen Sie die Informationen aus, die im Ausgabebundle für dieses Modul enthalten sein sollen.</td> 
+   <td>Wählen Sie die Informationen aus, die im Ausgabepaket für dieses Modul enthalten sein sollen.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Limit]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungszyklen eines Szenarios zurückgeben soll.</p> </td> 
+   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll, oder mappen Sie sie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-+++ **[!UICONTROL Aufzeichnen von Datensätzen ansehen]**
++++ **[!UICONTROL Aufzeichnung ansehen]**
 
-Dieses Trigger-Modul führt ein Szenario aus, wenn Objekte eines bestimmten Typs hinzugefügt, aktualisiert oder beides. Das Modul gibt alle mit dem Datensatz oder den Datensätzen verknüpften Standardfelder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen. In der Ausgabe gibt das Modul an, ob jeder Datensatz neu oder aktualisiert ist.
+Dieses Trigger-Modul führt ein Szenario aus, in dem Objekte eines bestimmten Typs hinzugefügt, aktualisiert oder beides werden. Das Modul gibt alle Standardfelder zurück, die mit dem Datensatz oder den Datensätzen verknüpft sind, sowie alle benutzerdefinierten Felder und Werte, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen. In der Ausgabe gibt das Modul an, ob jeder Datensatz neu oder aktualisiert ist.
 
-Datensätze, die im angegebenen Zeitraum hinzugefügt und aktualisiert wurden, werden als neue Datensätze zurückgegeben.
+Datensätze, die im angegebenen Zeitraum sowohl hinzugefügt als auch aktualisiert wurden, werden als neue Datensätze zurückgegeben.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Filter]</td> 
-   <td> <p>Wählen Sie aus, ob das Szenario nur <strong>[!UICONTROL Neue Datensätze]</strong>, <strong>[!UICONTROL Nur aktualisierte Datensätze]</strong> oder <strong>[!UICONTROL Neue und aktualisierte Datensätze]</strong> sehen soll.</p> </td> 
+   <td role="rowheader">[!UICONTROL filter]</td> 
+   <td> <p>Wählen Sie aus, ob das Szenario <strong>[!UICONTROL Nur neue Datensätze]</strong>, <strong>[!UICONTROL Nur aktualisierte Datensätze]</strong> oder <strong>[!UICONTROL Neue und aktualisierte Datensätze]</strong> ansehen soll.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Record Type]</td> 
-   <td> <p>(Wird angezeigt, nachdem Sie einen <strong>Filter</strong> ausgewählt haben.) Wählen Sie den Typ des [!DNL Workfront] Datensatzes aus, den das Modul überwachen soll.</p> <p>Wenn Sie beispielsweise jedes Mal, wenn ein neues Projekt erstellt wird, das Szenario starten möchten, wählen Sie [!UICONTROL Projekt]</p> </td> 
+   <td role="rowheader">[!UICONTROL Datensatztyp]</td> 
+   <td> <p>(Wird angezeigt, nachdem Sie einen <strong>Filter</strong> ausgewählt haben.) Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, den das Modul überwachen soll.</p> <p>Wenn Sie beispielsweise das Szenario jedes Mal starten möchten, wenn ein neues Projekt erstellt wird, wählen Sie [!UICONTROL Project] aus.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Ausgaben]</td> 
-   <td> <p>Wählen Sie die Informationen aus, die im Ausgabebundle für dieses Modul enthalten sein sollen.</p> </td> 
+   <td> <p>Wählen Sie die Informationen aus, die im Ausgabepaket für dieses Modul enthalten sein sollen.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Optionaler Filter]</td> 
@@ -294,12 +294,12 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Limit]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungszyklen eines Szenarios zurückgeben soll.</p> </td> 
+   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll, oder mappen Sie sie.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -323,53 +323,53 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
 
 Dieses Aktionsmodul führt eine der folgenden Konvertierungen durch:
 
-* Problem in Projekt konvertieren
-* Problem in Aufgabe konvertieren
+* Anfrage in Projekt konvertieren
+* Anfrage in Aufgabe konvertieren
 * Aufgabe in Projekt konvertieren
 
 >[!NOTE]
 >
->Ab Juli 2024 können beim Konvertieren eines Objekts benutzerdefinierte Formulare einbezogen werden.
+>Seit Juli 2024 können benutzerdefinierte Formulare beim Konvertieren eines -Objekts einbezogen werden.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Objekttyp]</td> 
-   <td> <p>Wählen Sie den Objekttyp aus, den Sie konvertieren möchten. Dies ist der Typ, den das Objekt vor der Konvertierung hat.</p> </td> 
+   <td> <p>Wählen Sie den Typ des Objekts aus, das Sie konvertieren möchten. Dies ist der Typ, den das Objekt vor der Konvertierung hat.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Convert to]</td> 
+   <td>[!UICONTROL nach] konvertieren</td> 
    <td>Wählen Sie das Objekt aus, in das Sie es konvertieren möchten. Dies ist der Typ, den das Objekt nach der Konvertierung hat.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL &lt;Objekt&gt; ID]</td> 
-   <td> <p>Geben Sie die Kennung des Objekts ein. </p> <p>Hinweis: Bei der Eingabe der ID eines Objekts können Sie mit der Eingabe des Objektnamens beginnen und dieses dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.</p> </td> 
+   <td>[!UICONTROL &lt;Objekt&gt;-ID]</td> 
+   <td> <p>Geben Sie die ID des Objekts ein. </p> <p>Hinweis: Bei der Eingabe der ID eines Objekts können Sie mit der Eingabe des Namens des Objekts beginnen und es dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Vorlagen-ID]</td> 
-   <td> <p>Wenn Sie in ein Projekt konvertieren, wählen Sie die Vorlagen-ID aus, die Sie für das Projekt verwenden möchten.</p> <p>Hinweis: Bei der Eingabe der ID eines Objekts können Sie mit der Eingabe des Objektnamens beginnen und dieses dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.</p> </td> 
+   <td>[!UICONTROL Vorlagenkennung]</td> 
+   <td> <p>Wenn Sie in ein Projekt konvertieren, wählen Sie die Vorlagen-ID aus, die Sie für das Projekt verwenden möchten.</p> <p>Hinweis: Bei der Eingabe der ID eines Objekts können Sie mit der Eingabe des Namens des Objekts beginnen und es dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Benutzerdefinierte Formulare]</td> 
-   <td>Wählen Sie benutzerdefinierte Formulare aus, die Sie dem neu konvertierten Objekt hinzufügen möchten, und geben Sie dann Werte für die Felder des benutzerdefinierten Formulars ein.</td> 
+   <td>Wählen Sie alle benutzerdefinierten Formulare aus, die Sie dem neu konvertierten -Objekt hinzufügen möchten, und geben Sie dann Werte für die Felder des benutzerdefinierten Formulars ein.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Optionen]</td> 
-   <td> <p>Aktivieren Sie alle Optionen, die Sie beim Konvertieren des Objekts benötigen. Je nachdem, in welches Objekt Sie konvertieren oder von welchem Objekt Sie konvertieren, sind Optionen verfügbar.</p> </td> 
+   <td>[!UICONTROL-Optionen]</td> 
+   <td> <p>Aktivieren Sie beim Konvertieren des -Objekts alle gewünschten Optionen. Je nachdem, in welches Objekt Sie konvertieren oder aus welchem Sie konvertieren, sind Optionen verfügbar.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Native Felder kopieren]</td> 
-   <td> <p>Aktivieren Sie diese Option, um alle nativen Felder vom ursprünglichen Objekt in das neue Objekt zu kopieren.</p> </td> 
+   <td> <p>Aktivieren Sie diese Option, um alle nativen Felder aus dem ursprünglichen Objekt in das neue Objekt zu kopieren.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Benutzerdefinierte Formulare kopieren]</td> 
-   <td> <p>Aktivieren Sie diese Option, um alle nativen Felder vom ursprünglichen Objekt in das neue Objekt zu kopieren.</p> </td> 
+   <td> <p>Aktivieren Sie diese Option, um alle nativen Felder aus dem ursprünglichen Objekt in das neue Objekt zu kopieren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -378,17 +378,17 @@ Dieses Aktionsmodul führt eine der folgenden Konvertierungen durch:
 
 +++ **[!UICONTROL Erstellen eines Datensatzes (Anhängen benutzerdefinierter Formulare)]**
 
-Dieses Aktionsmodul erstellt ein Objekt wie ein Projekt, eine Aufgabe oder ein Problem in [!DNL Workfront] und ermöglicht das Hinzufügen eines benutzerdefinierten Formulars zum neuen Objekt. Mit dem -Modul können Sie auswählen, welche der Objektfelder im -Modul verfügbar sind.
+Dieses Aktionsmodul erstellt ein Objekt, z. B. ein Projekt, eine Aufgabe oder ein Problem in [!DNL Workfront] und ermöglicht das Hinzufügen eines benutzerdefinierten Formulars zum neuen Objekt. Mit dem Modul können Sie auswählen, welche der Objektfelder im Modul verfügbar sind.
 
-Sie geben die Kennung des Datensatzes an.
+Sie geben die ID des Datensatzes an.
 
-Das Modul gibt die Kennung des Datensatzes und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID des Datensatzes und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Sie können dieses Modul beispielsweise verwenden, um eine Aufgabe in [!DNL Workfront] zu erstellen, wenn ein Client eine neue Zeile in einer Liste mit Aufgaben vom Typ [!DNL Google Sheets] hinzufügt, die ausgeführt werden müssen.
+Sie können dieses Modul beispielsweise verwenden, um eine Aufgabe in [!DNL Workfront] zu erstellen, wenn ein Client eine neue Zeile in einer [!DNL Google Sheets] Liste von Aufgaben hinzufügt, die erledigt werden müssen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
-Stellen Sie sicher, dass Sie die Mindestanzahl der Eingabefelder angeben. Wenn Sie beispielsweise ein Problem erstellen möchten, müssen Sie im Feld Projekt-ID eine gültige ID für das übergeordnete Projekt angeben, um anzugeben, wo das Problem in Workfront leben soll. Sie können das Zuordnungsbedienfeld verwenden, um diese Informationen einem anderen Modul in Ihrem Szenario zuzuordnen, oder Sie können sie manuell eingeben, indem Sie den Namen eingeben und ihn dann aus der Liste auswählen.
+Stellen Sie sicher, dass Sie die Mindestanzahl von Eingabefeldern angeben. Wenn Sie beispielsweise ein Problem erstellen möchten, müssen Sie im Feld „Projekt-ID“ eine gültige übergeordnete Projekt-ID angeben, um anzugeben, wo das Problem in Workfront auftreten soll. Sie können das Zuordnungsbedienfeld verwenden, um diese Informationen einem anderen Modul in Ihrem Szenario zuzuordnen, oder Sie können sie manuell eingeben, indem Sie den Namen eingeben und ihn dann aus der Liste auswählen.
 
 <table style="table-layout:auto">
  <col> 
@@ -397,49 +397,49 @@ Stellen Sie sicher, dass Sie die Mindestanzahl der Eingabefelder angeben. Wenn S
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, den das Modul erstellen soll.</p> <p>Wenn Sie beispielsweise ein Projekt erstellen möchten, wählen Sie in der Dropdown-Liste die Option [!UICONTROL Projekt] aus und stellen Sie sicher, dass Sie Zugriff auf Daten (aus früheren Modulen im Szenario) haben, die das Projekt ausfüllen.</p> </td> 
+   <td>[!UICONTROL Datensatztyp]</td> 
+   <td> <p>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, den das Modul erstellen soll.</p> <p>Wenn Sie beispielsweise ein Projekt erstellen möchten, wählen Sie [!UICONTROL Project] aus der Dropdown-Liste aus und stellen Sie dann sicher, dass Sie Zugriff auf die Daten (aus den vorherigen Modulen im Szenario) haben, mit denen das Projekt befüllt wird.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Felder zur Zuordnung auswählen]</td> 
-   <td> <p>Wählen Sie die Felder aus, die für die Dateneingabe verfügbar sein sollen. Auf diese Weise können Sie diese Felder verwenden, ohne durch die Felder zu scrollen, die Sie nicht benötigen.</p> <p>Verwenden Sie für Felder in benutzerdefinierten Formularen das Feld "<b>[!UICONTROL Benutzerdefiniertes Formular anhängen]</b>".</p> </td> 
+   <td>[!UICONTROL Felder zum Zuordnen auswählen]</td> 
+   <td> <p>Wählen Sie die Felder aus, die für die Dateneingabe verfügbar sein sollen. Auf diese Weise können Sie diese Felder verwenden, ohne die nicht benötigten Felder durchscrollen zu müssen.</p> <p>Verwenden Sie für Felder in benutzerdefinierten Formularen das Feld <b>[!UICONTROL Benutzerdefiniertes Formular anhängen]</b>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Benutzerdefiniertes Formular anhängen]</td> 
-   <td>Wählen Sie benutzerdefinierte Formulare aus, die Sie dem neuen Objekt hinzufügen möchten, und geben Sie dann Werte für diese Felder ein.</td> 
+   <td>Wählen Sie alle benutzerdefinierten Formulare aus, die Sie dem neuen Objekt hinzufügen möchten, und geben Sie dann Werte für diese Felder ein.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
->* Bei der Eingabe der ID eines Objekts können Sie mit der Eingabe des Objektnamens beginnen und dieses dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.
->* Bei der Eingabe des Texts für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis] -Objekt (Kommentar oder Antwort) können Sie HTML-Tags im Feld [!UICONTROL Hinweistext] verwenden, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
+>* Wenn Sie die ID eines Objekts eingeben, können Sie mit der Eingabe des Namens des Objekts beginnen und es dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.
+>* Bei der Eingabe von Text für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis]-Objekt (Kommentar oder Antwort) können Sie HTML-Tags im Feld [!UICONTROL Notizentext] verwenden, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
 >
->  Weitere Informationen zu Rich-Text-Updates finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>  Weitere Informationen zu Rich-Text in Aktualisierungen finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
 +++
 
 +++ **[!UICONTROL Datensatz erstellen]**
 
-Dieses Aktionsmodul erstellt ein Objekt wie ein Projekt, eine Aufgabe oder ein Problem in Workfront. Mit dem -Modul können Sie auswählen, welche der Objektfelder im -Modul verfügbar sind.
+Dieses Aktionsmodul erstellt ein Objekt, z. B. ein Projekt, eine Aufgabe oder ein Problem in Workfront. Mit dem Modul können Sie auswählen, welche der Objektfelder im Modul verfügbar sind.
 
-Sie geben die Kennung des Datensatzes an.
+Sie geben die ID des Datensatzes an.
 
-Das Modul gibt die Kennung des Datensatzes und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID des Datensatzes und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Sie können dieses Modul beispielsweise verwenden, um eine Aufgabe in [!DNL Workfront] zu erstellen, wenn ein Client eine neue Zeile in einer Google Tabellen-Liste mit Aufgaben hinzufügt, die ausgeführt werden müssen.
+Sie können dieses Modul beispielsweise verwenden, um eine Aufgabe in [!DNL Workfront] zu erstellen, wenn ein Client eine neue Zeile in einer Google Sheets-Liste mit Aufgaben hinzufügt, die erledigt werden müssen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
-Stellen Sie sicher, dass Sie die Mindestanzahl der Eingabefelder angeben. Wenn Sie beispielsweise ein Problem erstellen möchten, müssen Sie im Feld Projekt-ID eine gültige ID für das übergeordnete Projekt angeben, um anzugeben, wo das Problem in Workfront leben soll. Sie können das Zuordnungsbedienfeld verwenden, um diese Informationen einem anderen Modul in Ihrem Szenario zuzuordnen, oder Sie können sie manuell eingeben, indem Sie den Namen eingeben und ihn dann aus der Liste auswählen.
+Stellen Sie sicher, dass Sie die Mindestanzahl von Eingabefeldern angeben. Wenn Sie beispielsweise ein Problem erstellen möchten, müssen Sie im Feld „Projekt-ID“ eine gültige übergeordnete Projekt-ID angeben, um anzugeben, wo das Problem in Workfront auftreten soll. Sie können das Zuordnungsbedienfeld verwenden, um diese Informationen einem anderen Modul in Ihrem Szenario zuzuordnen, oder Sie können sie manuell eingeben, indem Sie den Namen eingeben und ihn dann aus der Liste auswählen.
 
 <table style="table-layout:auto">
  <col> 
@@ -448,80 +448,80 @@ Stellen Sie sicher, dass Sie die Mindestanzahl der Eingabefelder angeben. Wenn S
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, den das Modul erstellen soll.</p> <p>Wenn Sie beispielsweise ein Projekt erstellen möchten, wählen Sie in der Dropdown-Liste die Option [!UICONTROL Projekt] aus und stellen Sie sicher, dass Sie Zugriff auf Daten (aus früheren Modulen im Szenario) haben, die das Projekt ausfüllen.</p> </td> 
+   <td>[!UICONTROL Datensatztyp]</td> 
+   <td> <p>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, den das Modul erstellen soll.</p> <p>Wenn Sie beispielsweise ein Projekt erstellen möchten, wählen Sie [!UICONTROL Project] aus der Dropdown-Liste aus und stellen Sie dann sicher, dass Sie Zugriff auf die Daten (aus den vorherigen Modulen im Szenario) haben, mit denen das Projekt befüllt wird.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Felder zur Zuordnung auswählen]</td> 
-   <td>Wählen Sie die Felder aus, die für die Dateneingabe verfügbar sein sollen. Auf diese Weise können Sie diese Felder verwenden, ohne durch die Felder zu scrollen, die Sie nicht benötigen.</td> 
+   <td>[!UICONTROL Felder zum Zuordnen auswählen]</td> 
+   <td>Wählen Sie die Felder aus, die für die Dateneingabe verfügbar sein sollen. Auf diese Weise können Sie diese Felder verwenden, ohne die nicht benötigten Felder durchscrollen zu müssen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
->* Bei der Eingabe der ID eines Objekts können Sie mit der Eingabe des Objektnamens beginnen und dieses dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.
->* Bei der Eingabe des Texts für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis] -Objekt (Kommentar oder Antwort) können Sie HTML-Tags im Feld [!UICONTROL Hinweistext] verwenden, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
+>* Wenn Sie die ID eines Objekts eingeben, können Sie mit der Eingabe des Namens des Objekts beginnen und es dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.
+>* Bei der Eingabe von Text für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis]-Objekt (Kommentar oder Antwort) können Sie HTML-Tags im Feld [!UICONTROL Notizentext] verwenden, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
 >
->  Weitere Informationen zu Rich-Text-Updates finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>  Weitere Informationen zu Rich-Text in Aktualisierungen finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
 +++
 
-+++ **[!UICONTROL Benutzerspezifischer API-Aufruf]**
++++ **[!UICONTROL Benutzerdefinierter API-Aufruf]**
 
-Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten Aufruf an die [!DNL Workfront] -API durchführen. Auf diese Weise können Sie eine Datenflussautomatisierung erstellen, die von anderen [!DNL Workfront] -Modulen nicht ausgeführt werden kann.
+Mit diesem Aktionsmodul können Sie einen benutzerdefinierten authentifizierten Aufruf an die [!DNL Workfront]-API durchführen. Auf diese Weise können Sie eine Datenflussautomatisierung erstellen, die von den anderen [!DNL Workfront] nicht durchgeführt werden kann.
 
-Das Modul gibt die folgenden Informationen zurück:
+Das -Modul gibt die folgenden Informationen zurück:
 
-* **[!UICONTROL Status-Code]** (Zahl): Zeigt an, ob Ihre HTTP-Anforderung erfolgreich oder fehlgeschlagen ist. Dies sind Standardcodes, die Sie im Internet nachschlagen können.
-* **[!UICONTROL Kopfzeilen]** (Objekt): Ein detaillierterer Kontext für den Antwort-/Statuscode, der sich nicht auf den Ausgabetext bezieht. Nicht alle Header, die in einem Antwortheader angezeigt werden, sind Antwortheader, sodass einige möglicherweise nicht nützlich für Sie sind.
+* **[!UICONTROL Status-Code]** (Zahl): Dies zeigt den Erfolg oder Misserfolg Ihrer HTTP-Anfrage an. Dies sind Standardcodes, die Sie im Internet nachschlagen können.
+* **[!UICONTROL Headers]** (Objekt): Ein detaillierterer Kontext für die Antwort/den Status-Code, der sich nicht auf den Ausgabetext bezieht. Nicht alle Kopfzeilen, die in einer Antwort-Kopfzeile angezeigt werden, sind Antwort-Kopfzeilen, sodass einige möglicherweise nicht für Sie nützlich sind.
 
-  Die Antwortheader hängen von der HTTP-Anforderung ab, die Sie beim Konfigurieren des Moduls ausgewählt haben.
+  Die Antwort-Header hängen von der HTTP-Anfrage ab, die Sie beim Konfigurieren des Moduls ausgewählt haben.
 
-* **[!UICONTROL Hauptteil]** (Objekt): Je nach der HTTP-Anforderung, die Sie beim Konfigurieren des Moduls ausgewählt haben, erhalten Sie möglicherweise einige Daten zurück. Diese Daten, z. B. die Daten aus einer GET-Anfrage, sind in diesem Objekt enthalten.
+* **[!UICONTROL body]** (Objekt): Je nach der HTTP-Anfrage, die Sie beim Konfigurieren des Moduls ausgewählt haben, erhalten Sie möglicherweise einige Daten zurück. Diese Daten, z. B. die Daten aus einer GET-Anfrage, sind in diesem Objekt enthalten.
 
 Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td role="rowheader">[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">URL</td> 
-   <td> <p>Geben Sie einen Pfad relativ zu <code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code> ein.</p> </td> 
+   <td> <p>Geben Sie einen Pfad relativ zu ein<code> https://&lt;WORKFRONT_DOMAIN&gt;/attask/api/&lt;API_VERSION&gt;/</code>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL API-Version]</td> 
    <td>Wählen Sie die Version der [!DNL Workfront]-API aus, die das Modul verwenden soll.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Methode]</td> 
-   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anforderungsmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+   <td role="rowheader">[!UICONTROL-Methode]</td> 
+   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anfragemethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Header]</td> 
-   <td> <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu. Dadurch wird der Inhaltstyp der Anforderung bestimmt.</p> <p>Beispiel:<code> {"Content-type":"application/json"}</code></p> <p>Hinweis: Wenn Fehler auftreten und es schwierig ist, ihren Ursprung zu bestimmen, sollten Sie die Kopfzeilen auf Grundlage der [!DNL Workfront] -Dokumentation ändern. Wenn Ihr benutzerspezifischer API-Aufruf einen 422-HTTP-Anforderungsfehler zurückgibt, versuchen Sie, einen <code>"Content-Type":"text/plain"</code> -Header zu verwenden.</p> </td> 
+   <td role="rowheader">[!UICONTROL-Kopfzeilen]</td> 
+   <td> <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu. Dadurch wird der Inhaltstyp der Anfrage bestimmt.</p> <p>Beispiel:<code> {"Content-type":"application/json"}</code></p> <p>Hinweis: Wenn Fehler auftreten und es schwierig ist, deren Ursprung zu ermitteln, sollten Sie die Kopfzeilen basierend auf der [!DNL Workfront] Dokumentation ändern. Wenn Ihr benutzerdefinierter API-Aufruf einen 422-HTTP-Anfragefehler zurückgibt, versuchen Sie es mit einer <code>"Content-Type":"text/plain"</code>-Kopfzeile.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!UICONTROL Abfragezeichenfolge]</td> 
-   <td> <p>Fügen Sie die Abfrage für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Beispiel: <code>{"name":"something-urgent"}</code></p> <p>Tipp: Es wird empfohlen, Informationen nicht als Abfrageparameter, sondern über den JSON-Hauptteil zu senden.</p> </td> 
+   <td> <p>Fügen Sie die Abfrage für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Beispiel: <code>{"name":"something-urgent"}</code></p> <p>Tipp: Es wird empfohlen, Informationen über den JSON-Text und nicht als Abfrageparameter zu senden.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Body]</td> 
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
+   <td role="rowheader">[!UICONTROL body]</td> 
+   <td> <p>Fügen Sie den Hauptteil des Inhalts für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Wenn Sie bedingte Anweisungen wie <code>if</code> in Ihrer JSON-Datei verwenden, setzen Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td> 
@@ -529,7 +529,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -537,124 +537,124 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
 
 Dieses Aktionsmodul löscht ein Objekt, z. B. ein Projekt, eine Aufgabe oder ein Problem in Workfront.
 
-Sie geben die Kennung des Datensatzes an.
+Sie geben die ID des Datensatzes an.
 
-Das Modul gibt die Kennung des Datensatzes und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID des Datensatzes und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Löschvorgang erzwingen]</td> 
-   <td>Aktivieren Sie diese Option, um sicherzustellen, dass der Datensatz gelöscht wird, auch wenn die Benutzeroberfläche von [!DNL Workfront] eine Bestätigung des Löschvorgangs anfordert.</td> 
+   <td>[!UICONTROL Löschen erzwingen]</td> 
+   <td>Aktivieren Sie diese Option, um sicherzustellen, dass der Datensatz gelöscht wird, auch wenn die [!DNL Workfront] Benutzeroberfläche eine Bestätigung des Löschvorgangs anfordern würde.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>ID</td> 
-   <td> <p>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, den das Modul löschen soll.</p> <p>Um die ID abzurufen, öffnen Sie das Objekt [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach "ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, den das Modul löschen soll.</p> <p>Um die ID abzurufen, öffnen Sie das [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach „ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, den das Modul löschen soll.</td> 
+   <td>[!UICONTROL Datensatztyp]</td> 
+   <td>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, den das Modul löschen soll.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
->Wir empfehlen die folgende Szenario-Konfiguration, um zu verhindern, dass Datensätze aufgrund asynchroner Vorgänge nicht gelöscht werden.
+>Wir empfehlen die folgende Szenariokonfiguration, um zu vermeiden, dass Datensätze aufgrund asynchroner Vorgänge nicht gelöscht werden.
 >
->1. Den Datensatz synchron löschen.
->1. Fügen Sie dem Modul Datensatz löschen die Fehlerbehandlung hinzu, um den Fehler zu ignorieren, der durch das 40-Sekunden-Timeout verursacht wurde.
+>1. Datensatz synchron löschen.
+>1. Fügen Sie die Fehlerbehandlung zum Modul Datensatz löschen hinzu, um den Fehler zu ignorieren, der durch die Zeitüberschreitung nach 40 Sekunden verursacht wird.
 
 
 +++
 
 +++ **[!UICONTROL Dokument herunterladen]**
 
-Dieses Aktionsmodul lädt ein Dokument aus Workfront herunter.
+Dieses Aktionsmodul lädt ein Dokument von Workfront herunter.
 
-Sie geben die Kennung des Datensatzes an.
+Sie geben die ID des Datensatzes an.
 
 Das Modul gibt den Inhalt, den Dateinamen, die Dateierweiterung und die Dateigröße des Dokuments zurück. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Dokument-ID]</td> 
-   <td> <p>Ordnen Sie die eindeutige [!DNL Workfront]-ID des Dokuments zu, das das Modul herunterladen soll, oder geben Sie sie manuell ein.</p> <p>Um die ID abzurufen, öffnen Sie das Objekt [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach "ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Ordnen Sie die eindeutige [!DNL Workfront]-ID des Dokuments zu, das das Modul herunterladen soll, oder geben Sie sie manuell ein.</p> <p>Um die ID abzurufen, öffnen Sie das [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach „ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-+++ **[!UICONTROL Falsche Aktion]**
++++ **[!UICONTROL Misc-Aktion]**
 
-Mit diesem Aktionsmodul können Sie Aktionen für die API ausführen.
+Mit diesem Aktionsmodul können Sie Aktionen für die API durchführen.
 
 >[!NOTE]
 >
->Ab Juli 2024 enthält die Aktion `convertToProject` das Feld `copyCategories`. Wenn der Wert auf &quot;`TRUE`&quot; gesetzt wird, werden alle benutzerdefinierten Formulare in das Projekt aufgenommen, in das das Problem konvertiert wird.
+>Seit Juli 2024 umfasst die `convertToProject` die `copyCategories`. Bei Festlegung auf `TRUE` werden alle benutzerdefinierten Formulare in das Projekt aufgenommen, in das das Problem konvertiert wird.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, mit dem das Modul interagieren soll.</p> </td> 
+   <td>[!UICONTROL Datensatztyp]</td> 
+   <td> <p>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, mit dem das Modul interagieren soll.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Aktion]</td> 
-   <td> <p>Wählen Sie die Aktion aus, die das Modul ausführen soll.</p> <p>Je nach ausgewähltem [!UICONTROL Record Type] und [!UICONTROL Action] müssen Sie möglicherweise zusätzliche Felder ausfüllen. Einige Kombinationen dieser beiden Einstellungen erfordern möglicherweise nur eine Datensatz-ID, während andere (z. B. Projekt für den <strong>[!UICONTROL Record Type]</strong> und [!UICONTROL Attach Template] für die <strong>[!UICONTROL Action]</strong>) zusätzliche Informationen benötigen (z. B. eine Objekt-ID und eine Vorlagen-ID).</p><p>Für Optionen, die für einige Aktionen verfügbar sind, siehe <a href="#misc-action-options" class="MCXref xref">Optionen für falsche Aktionen</a> in diesem Artikel.</p> <p>Weitere Informationen zu einzelnen Feldern finden Sie in der <a href="http://developer.workfront.com/">Workfront-Entwicklerdokumentation</a>. <p><strong>Hinweis</strong>: Die Entwicklerdokumentations-Site enthält Informationen nur über API-Version 14, enthält aber trotzdem wertvolle Informationen für API-Aufrufe. </p> 
+   <td>[!UICONTROL-Aktion]</td> 
+   <td> <p>Wählen Sie die Aktion aus, die das Modul ausführen soll.</p> <p>Je nach ausgewähltem [!UICONTROL-Datensatztyp] und [!UICONTROL-Aktion] müssen Sie möglicherweise zusätzliche Felder ausfüllen. Einige Kombinationen dieser beiden Einstellungen erfordern möglicherweise nur eine Datensatz-ID, während andere (wie Project für den <strong>[!UICONTROL Record Type]</strong> und [!UICONTROL Attach Template] für den <strong>[!UICONTROL Action]</strong>) zusätzliche Informationen erfordern (wie eine Objekt-ID und eine Vorlagen-ID).</p><p>Die für einige Aktionen verfügbaren Optionen finden Sie unter <a href="#misc-action-options" class="MCXref xref">Sonstige Aktionsoptionen</a> in diesem Artikel.</p> <p>Detaillierte Informationen zu den einzelnen Feldern finden Sie in der <a href="http://developer.workfront.com/">Workfront-Entwicklerdokumentation</a>. <p><strong>Hinweis</strong>: Die Site mit der Entwicklerdokumentation enthält Informationen nur über API-Version 14, enthält jedoch weiterhin wertvolle Informationen für API-Aufrufe. </p> 
     <ol> 
-     <li value="1"> <p>Wählen Sie im linken Navigationsbereich auf der Seite mit der Entwicklerdokumentation die Art des Datensatzes aus. [!DNL Workfront] Die folgenden Typen haben eigene Seiten:</p> 
+     <li value="1"> <p>Wählen Sie in der linken Navigationsleiste der Seite [!DNL Workfront] Developer-Dokumentation den Datensatztyp aus. Die folgenden Typen verfügen über eigene Seiten:</p> 
       <ul> 
-       <li> <p>[!UICONTROL Projekte]</p> </li> 
+       <li> <p>[!UICONTROL-Projekte]</p> </li> 
        <li> <p>[!UICONTROL Aufgaben]</p> </li> 
        <li> <p>[!UICONTROL Probleme]</p> </li> 
        <li> <p>[!UICONTROL Benutzer]</p> </li> 
-       <li> <p>[!UICONTROL Dokumente]</p> </li> 
-      </ul> <p>Wählen Sie für alle anderen Datensatztypen <b>[!UICONTROL Sonstige Objekte und Endpunkte]</b> aus und suchen Sie den Datensatztyp auf den alphabetisch sortierten Seiten.</p> </li> 
-     <li value="2"> <p>Suchen Sie auf der Seite des entsprechenden Datensatztyps (Strg-F oder Befehl-F) nach der Aktion.</p> </li> 
-     <li value="3"> <p>Zeigen Sie Beschreibungen für verfügbare Felder unter der ausgewählten Aktion an.</p> </li> 
-    </ol> <p>Hinweis:  <p>Beim Erstellen eines Testversands mithilfe des Moduls [!DNL Workfront] [!UICONTROL Misc Action] empfiehlt es sich, einen Testversand ohne erweiterte Optionen zu erstellen und den Testversand dann mithilfe der SOAP API [!DNL Workfront Proof] zu aktualisieren.</p> <p>Weitere Informationen zum Erstellen eines Testversands mit der [!DNL Workfront]-API (die dieses Modul verwendet) finden Sie unter <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Erweiterte Testoptionen beim Erstellen eines Testversands über die [!DNL Adobe Workfront]-API hinzufügen</a> .</p> </p> </td> 
+       <li> <p>[!UICONTROL-Dokumente]</p> </li> 
+      </ul> <p>Wählen Sie für alle anderen Datensatztypen <b>[!UICONTROL Andere Objekte und Endpunkte]</b> aus und suchen Sie den Datensatztyp auf den alphabetisch sortierten Seiten.</p> </li> 
+     <li value="2"> <p>Suchen Sie auf der Seite des entsprechenden Datensatztyps (Strg+F bzw. Befehl+F) nach der Aktion.</p> </li> 
+     <li value="3"> <p>Anzeigen von Beschreibungen für verfügbare Felder unter der ausgewählten Aktion.</p> </li> 
+    </ol> <p>Hinweis:  <p>Beim Erstellen eines Korrekturabzugs über das Modul [!DNL Workfront] [!UICONTROL Misc Action] empfiehlt es sich, einen Korrekturabzug ohne erweiterte Optionen zu erstellen und dann den Korrekturabzug mithilfe der [!DNL Workfront Proof]-SOAP-API zu aktualisieren.</p> <p>Weitere Informationen zum Erstellen eines Korrekturabzugs mit der [!DNL Workfront]-API (die dieses Modul verwendet) finden Sie unter <a href="../../wf-api/tips-tricks-and-troubleshooting/api-create-proof-options-json.md" class="MCXref xref">Hinzufügen erweiterter Proofing-Optionen beim Erstellen eines Korrekturabzugs über die [!DNL Adobe Workfront]-API</a></p> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein oder ordnen Sie sie zu, mit dem das Modul interagieren soll.<p>Um die ID abzurufen, öffnen Sie das Objekt [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach "ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
+   <td>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, mit dem das Modul interagieren soll, oder mappen Sie sie.<p>Um die ID abzurufen, öffnen Sie das [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach „ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
-#### Optionen für falsche Aktionen
+#### Sonstige Aktionsoptionen
 
 ##### Aufgabe
 
@@ -671,16 +671,16 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td>
    <ul>
    <li>clearApprovers</li>
-   <li>clearAssignments</li>
+   <li>Zuweisungen löschen</li>
    <li>clearConstraints</li>
    <li>clearCustomData</li>
    <li>clearDocuments</li>
    <li>clearExpenses</li>
    <li>clearFinancials<p>Löscht die Finanzdaten</p></li>
    <li>clearPermissions</li>
-   <li>clearPredecessors</li>
+   <li>clearVorgänger</li>
    <li>clearProgress</li>
-   <li>clearTimedNotifications<p>Löscht Erinnerungsbenachrichtigungen</p></li>
+   <li>clearTimedNotifications<p>Löscht Erinnerungsnachrichten</p></li>
    </ul>
    </td> 
   </tr> 
@@ -689,15 +689,15 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td>
    <ul>
    <li>clearApprovers</li>
-   <li>clearAssignments</li>
+   <li>Zuweisungen löschen</li>
    <li>clearDocuments</li>
    <li>clearConstraints</li>
    <li>clearExpenses</li>
    <li>clearFinancials<p>Löscht die Finanzdaten</p></li>
    <li>clearPermissions</li>
-   <li>clearPredecessors</li>
+   <li>clearVorgänger</li>
    <li>clearProgress</li>
-   <li>clearTimedNotifications<p>Löscht Erinnerungsbenachrichtigungen</p></li>
+   <li>clearTimedNotifications<p>Löscht Erinnerungsnachrichten</p></li>
    </ul>
    </td> 
   </tr> 
@@ -719,7 +719,7 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td>
    <ul>
    <li>clearApprovers</li>
-   <li>clearAssignments</li>
+   <li>Zuweisungen löschen</li>
    <li>clearCustomData</li>
    <li>clearDocuments</li>
    <li>clearPermissions</li>
@@ -731,9 +731,9 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td>In Aufgabe umwandeln</td> 
    <td>
    <ul>
-   <li>preserveIssue<p>Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an diese Aufgabe</p></li>
-   <li>preservePrimaryContact<p>Zugriff des Hauptkontakts des Problems auf diese Aufgabe zulassen</p></li>
-   <li>preserveCompletionDate<p>Plantes Abschlussdatum des Problems beibehalten</p></li>
+   <li>Anfrage aufbewahren<p>Ursprüngliche Anfrage aufbewahren und deren Lösung mit dieser Aufgabe verknüpfen</p></li>
+   <li>preservePrimaryContact<p>Dem primären Kontakt der Anfrage Zugriff auf diese Aufgabe erteilen</p></li>
+   <li>preserveCompletionDate<p>Geplantes Abschlussdatum der Anfrage beibehalten</p></li>
    </ul>
    </td> 
   </tr> 
@@ -741,8 +741,8 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td>In Projekt konvertieren</td> 
    <td>
    <ul>
-   <li>preserveIssue<p>Behalten Sie das ursprüngliche Problem bei und binden Sie die Lösung an diese Aufgabe</p></li>
-   <li>preservePrimaryContact<p>Zugriff des Hauptkontakts des Problems auf diese Aufgabe zulassen</p></li>
+   <li>Anfrage aufbewahren<p>Ursprüngliche Anfrage aufbewahren und deren Lösung mit dieser Aufgabe verknüpfen</p></li>
+   <li>preservePrimaryContact<p>Dem primären Kontakt der Anfrage Zugriff auf diese Aufgabe erteilen</p></li>
    </ul>
    </td> 
   </tr> 
@@ -766,24 +766,24 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td>
    <ul>
    <li>clearApprovers</li>
-   <li>clearAssignments</li>
+   <li>Zuweisungen löschen</li>
    <li>clearCustomData</li>
    <li>clearDocuments</li>
    <li>clearExpenses</li>
    <li>clearFinancials<p>Löscht die Finanzdaten</p></li>
    <li>clearPermissions</li>
-   <li>clearPredecessors</li>
+   <li>clearVorgänger</li>
    <li>clearProgress</li>
-   <li>clearTimedNotifications<p>Löscht Erinnerungsbenachrichtigungen</p></li>
+   <li>clearTimedNotifications<p>Löscht Erinnerungsnachrichten</p></li>
    </ul>
    </td> 
   </tr> 
   <tr> 
-   <td>Vorlage anhängen/Als Vorlage speichern</td> 
+   <td>Vorlage anfügen / als Vorlage speichern</td> 
    <td>
    <ul>
    <li>clearApprovers</li>
-   <li>clearAssignments</li>
+   <li>Zuweisungen löschen</li>
    <li>clearBillingRates</li>
    <li>clearConstraints</li>
    <li>clearDeliverables<p>Löscht Ziele</p></li>
@@ -791,11 +791,11 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <li>clearExpenses</li>
    <li>clearFinancials<p>Löscht die Finanzdaten</p></li>
    <li>clearHourTypes</li>
-   <li>clearIssueSetup<p>Löscht Warteschlangeneigenschaften und Problemeinrichtung</p></li>
-   <li>clearPredecessors</li>
-   <li>clearRisks</li>
+   <li>clearIssueSetup<p>Löscht die Warteschlangeneigenschaften und das Problem-Setup</p></li>
+   <li>clearVorgänger</li>
+   <li>Risiken löschen</li>
    <li>clearSharingOptions</li>
-   <li>clearTimedNotifications<p>Löscht Erinnerungsbenachrichtigungen</p></li>
+   <li>clearTimedNotifications<p>Löscht Erinnerungsnachrichten</p></li>
    </ul>
    </td> 
   </tr> 
@@ -810,58 +810,58 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
 
 Dieses Aktionsmodul ruft Daten aus einem einzelnen Datensatz ab.
 
-Sie geben die Kennung des Datensatzes an. Sie können auch angeben, welche zugehörigen Datensätze das Modul lesen soll.
+Sie geben die ID des Datensatzes an. Sie können auch angeben, welche verwandten Datensätze das Modul lesen soll.
 
-Wenn der Datensatz, den das Modul liest, beispielsweise ein Projekt ist, können Sie festlegen, dass die Aufgaben des Projekts gelesen werden sollen.
+Wenn es sich bei dem Datensatz, den das Modul liest, beispielsweise um ein Projekt handelt, können Sie angeben, dass die Aufgaben des Projekts gelesen werden sollen.
 
-Das Modul gibt ein Array von Daten aus den Standardfeldern für die angegebene Ausgabe zurück.
+Das -Modul gibt ein Array von Daten aus den Standardfeldern für die von Ihnen angegebene Ausgabe zurück.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-    <td>[!UICONTROL Verbindung]</td>
-    <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+    <td>[!UICONTROL-Verbindung]</td>
+    <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Record Type]</td>
-     <td>Wählen Sie den Objekttyp [!DNL Workfront] aus, den das Modul lesen soll.</td> 
+    <td>[!UICONTROL Datensatztyp]</td>
+     <td>Wählen Sie den [!DNL Workfront] Objekttyp aus, den das Modul lesen soll.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL Ausgaben]</td>
-     <td> <p>Wählen Sie die Informationen aus, die im Ausgabebundle für dieses Modul enthalten sein sollen.</p> </td> 
+     <td> <p>Wählen Sie die Informationen aus, die im Ausgabepaket für dieses Modul enthalten sein sollen.</p> </td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Referenzen]</td>
-   <td>Wählen Sie beliebige Referenzfelder aus, die Sie in die Ausgabe aufnehmen möchten.</td> 
+    <td>[!UICONTROL-Verweise]</td>
+   <td>Wählen Sie alle Referenzfelder aus, die Sie in die Ausgabe aufnehmen möchten.</td> 
   </tr> 
   <tr> 
-    <td>[!UICONTROL Sammlungen]</td>
-   <td>Wählen Sie beliebige Referenzfelder aus, die Sie in die Ausgabe aufnehmen möchten.</td> 
+    <td>[!UICONTROL-Sammlungen]</td>
+   <td>Wählen Sie alle Referenzfelder aus, die Sie in die Ausgabe aufnehmen möchten.</td> 
   </tr> 
   <tr> 
     <td>[!UICONTROL ID]</td>
-   <td> <p>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, den das Modul lesen soll.</p> <p>Um die ID abzurufen, öffnen Sie das Objekt [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach "ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, den das Modul lesen soll.</p> <p>Um die ID abzurufen, öffnen Sie das [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach „ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-+++ **[!UICONTROL Datensatz aktualisieren]**
++++ **[!UICONTROL Eintrag aktualisieren]**
 
-Dieses Aktionsmodul aktualisiert ein Objekt, z. B. ein Projekt, eine Aufgabe oder ein Problem. Mit dem -Modul können Sie auswählen, welche der Objektfelder im -Modul verfügbar sind.
+Dieses Aktionsmodul aktualisiert ein Objekt, z. B. ein Projekt, eine Aufgabe oder ein Problem. Mit dem Modul können Sie auswählen, welche der Objektfelder im Modul verfügbar sind.
 
-Sie geben die Kennung des Datensatzes an.
+Sie geben die ID des Datensatzes an.
 
-Das Modul gibt die ID des Objekts und aller zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID des -Objekts und alle zugehörigen Felder zusammen mit allen benutzerdefinierten Feldern und Werten zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
@@ -870,61 +870,61 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL ID]</td> 
-   <td> <p>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, den das Modul aktualisieren soll.</p> <p>Um die ID abzurufen, öffnen Sie das Objekt [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach "ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td> <p>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, den das Modul aktualisieren soll.</p> <p>Um die ID abzurufen, öffnen Sie das [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach „ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr> 
    <td>[!DNL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, den das Modul aktualisieren soll.</p> </td> 
+   <td> <p>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, den das Modul aktualisieren soll.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!DNL Select fields to map]</td> 
-   <td>Wählen Sie die Felder aus, die für die Dateneingabe verfügbar sein sollen. Auf diese Weise können Sie diese Felder verwenden, ohne durch die Felder zu scrollen, die Sie nicht benötigen.</td> 
+   <td>Wählen Sie die Felder aus, die für die Dateneingabe verfügbar sein sollen. Auf diese Weise können Sie diese Felder verwenden, ohne die nicht benötigten Felder durchscrollen zu müssen.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 >[!NOTE]
 >
->* Bei der Eingabe der ID eines Objekts können Sie mit der Eingabe des Objektnamens beginnen und dieses dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.
->* Bei der Eingabe des Texts für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis] -Objekt (Kommentar oder Antwort) können Sie HTML-Tags im Feld [!UICONTROL Hinweistext] verwenden, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
+>* Wenn Sie die ID eines Objekts eingeben, können Sie mit der Eingabe des Namens des Objekts beginnen und es dann aus der Liste auswählen. Das Modul gibt dann die entsprechende ID in das Feld ein.
+>* Bei der Eingabe von Text für ein benutzerdefiniertes Feld oder ein [!UICONTROL Hinweis]-Objekt (Kommentar oder Antwort) können Sie HTML-Tags im Feld [!UICONTROL Notizentext] verwenden, um Rich-Text zu erstellen, z. B. fett oder kursiv gedruckten Text.
 >
->  Weitere Informationen zu Rich-Text-Updates finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+>  Weitere Informationen zu Rich-Text in Aktualisierungen finden Sie unter [Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 >
 
 +++
 
 +++ **[!UICONTROL Dokument hochladen]**
 
-Dieses Aktionsmodul lädt ein Dokument in ein [!DNL Workfront] -Objekt hoch, z. B. ein Projekt, eine Aufgabe oder ein Problem. Dieses Modul lädt das Dokument in Teilen hoch, wodurch der Upload-Prozess für Workfront reibungsloser abläuft.
+Dieses Aktionsmodul lädt ein Dokument in ein [!DNL Workfront], z. B. ein Projekt, eine Aufgabe oder ein Problem. Dieses Modul lädt das Dokument in Blöcken hoch, was den Upload-Prozess für Workfront reibungsloser macht.
 
 Sie geben den Speicherort für das Dokument, die Datei, die Sie hochladen möchten, und einen optionalen neuen Namen für die Datei an.
 
-Das Modul gibt die ID des Dokuments sowie alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID des Dokuments und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Related Record ID]</td> 
+   <td>[!UICONTROL ID des zugehörigen Eintrags]</td> 
    <td>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, in den Sie das Dokument hochladen möchten.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Verwandter Datensatztyp]</td> 
-   <td>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, in den das Modul das Dokument hochladen soll.</td> 
+   <td>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, in den das Modul das Dokument hochladen soll.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ordner-ID]</td> 
@@ -937,35 +937,35 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-+++ **[!UICONTROL Dokument hochladen (veraltet)]**
++++ **[!UICONTROL Dokument hochladen (alt)]**
 
-Dieses Aktionsmodul lädt ein Dokument in ein [!DNL Workfront] -Objekt hoch, z. B. ein Projekt, eine Aufgabe oder ein Problem. Das gesamte Dokument wird gleichzeitig hochgeladen.
+Dieses Aktionsmodul lädt ein Dokument in ein [!DNL Workfront], z. B. ein Projekt, eine Aufgabe oder ein Problem. Dadurch wird das gesamte Dokument gleichzeitig hochgeladen.
 
 Sie geben den Speicherort für das Dokument, die Datei, die Sie hochladen möchten, und einen optionalen neuen Namen für die Datei an.
 
-Das Modul gibt die ID des Dokuments sowie alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Das Modul gibt die ID des Dokuments und alle zugehörigen Felder sowie alle benutzerdefinierten Felder und Werte zurück, auf die die Verbindung zugreift. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Related Record ID]</td> 
+   <td>[!UICONTROL ID des zugehörigen Eintrags]</td> 
    <td>Geben Sie die eindeutige [!DNL Workfront]-ID des Datensatzes ein, in den Sie das Dokument hochladen möchten.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Verwandter Datensatztyp]</td> 
-   <td>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, in den das Modul das Dokument hochladen soll.</td> 
+   <td>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, in den das Modul das Dokument hochladen soll.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ordner-ID]</td> 
@@ -978,7 +978,7 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
@@ -989,37 +989,37 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
 * [Search](#search)
 -->
 
-+++ **[!UICONTROL Verwandte Aufzeichnungen lesen]**
++++ **[!UICONTROL Lesen verwandter Datensätze]**
 
-Dieses Suchmodul liest Datensätze, die mit der von Ihnen angegebenen Suchabfrage übereinstimmen, in einem bestimmten übergeordneten Objekt.
+Dieses Suchmodul liest Datensätze, die mit der von Ihnen angegebenen Suchabfrage in einem bestimmten übergeordneten Objekt übereinstimmen.
 
-Sie geben an, welche Felder in die Ausgabe aufgenommen werden sollen. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
+Sie legen fest, welche Felder in der Ausgabe enthalten sein sollen. Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ des übergeordneten Datensatzes (Workfront-Objekt) aus, dessen verknüpfte Datensätze Sie lesen möchten.</p> <p>Eine Liste der [!DNL Workfront] -Objekttypen, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul</a> verfügbaren <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">[!DNL Workfront] Objekttypen verwenden können, finden Sie in diesem Artikel.</p> </td> 
+   <td>[!UICONTROL Datensatztyp]</td> 
+   <td> <p>Wählen Sie den Typ des übergeordneten Datensatzes (Workfront-Objekt) aus, dessen verknüpfte Datensätze Sie lesen möchten.</p> <p>Eine Liste der [!DNL Workfront] Objekttypen, für die Sie dieses Modul verwenden können, finden Sie in <a href="#object-types-available-for-each-workfront-search-module" class="MCXref xref">[!DNL Workfront] für jedes [!DNL Workfront] verfügbaren Objekttypen </a> diesem Artikel.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Übergeordnete Datensatz-ID von [!UICONTROL]</td> 
-   <td> <p>Geben Sie die Kennung des übergeordneten Datensatzes ein oder ordnen Sie ihn zu, dessen verknüpfte Datensätze Sie lesen möchten.</p> <p>Um die ID abzurufen, öffnen Sie das Objekt [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach "ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
+   <td>[!UICONTROL ID des übergeordneten Eintrags]</td> 
+   <td> <p>Geben Sie die ID des übergeordneten Datensatzes ein, dessen verknüpfte Datensätze Sie lesen möchten, oder ordnen Sie sie zu.</p> <p>Um die ID abzurufen, öffnen Sie das [!DNL Workfront] in Ihrem Browser und kopieren Sie den Text am Ende der URL nach „ID=". Beispiel: https://my.workfront.com/project/view?ID=<i>5e43010c03286a2a555e1d0a75d6a86e</i></p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Sammlungen]</td> 
-   <td>Wählen Sie den Typ des untergeordneten Datensatzes aus oder ordnen Sie ihn zu, den das Modul lesen soll.</td> 
+   <td>[!UICONTROL-Sammlungen]</td> 
+   <td>Wählen Sie den Typ des untergeordneten Datensatzes aus, den das Modul lesen soll, oder ordnen Sie ihn zu.</td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ausgaben]</td> 
-   <td> <p>Wählen Sie die Informationen aus, die im Ausgabebundle für dieses Modul enthalten sein sollen.</p> </td> 
+   <td> <p>Wählen Sie die Informationen aus, die im Ausgabepaket für dieses Modul enthalten sein sollen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -1028,50 +1028,50 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 +++ **[!UICONTROL Suche]**
 
-Dieses Suchmodul sucht nach Datensätzen in einem Objekt in [!DNL Workfront], die mit der von Ihnen angegebenen Suchabfrage übereinstimmen.
+Dieses Suchmodul sucht in einem -Objekt nach Datensätzen, [!DNL Workfront] mit der angegebenen Suchanfrage übereinstimmen.
 
 Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, nach dem das Modul suchen soll.</p> </td> 
+   <td>[!UICONTROL Datensatztyp]</td> 
+   <td> <p>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, nach dem das Modul suchen soll.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ergebnissatz]</td> 
-   <td>Wählen Sie eine Option aus, um anzugeben, ob das Modul das erste Ergebnis erhalten soll, das Ihren Suchkriterien entspricht, oder alle Ergebnisse, die dem Ergebnis entsprechen.</td> 
+   <td>Wählen Sie eine Option aus, um anzugeben, ob das Modul das erste Ergebnis erhalten soll, das Ihren Suchkriterien entspricht, oder alle Ergebnisse, die damit übereinstimmen.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximal]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungszyklen eines Szenarios zurückgeben soll.</p> </td> 
+   <td>[!UICONTROL Maximum]</td> 
+   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll, oder mappen Sie sie.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Suchkriterienfelder]</td> 
-   <td> <p>Wählen Sie die Felder aus, die Sie für Ihre Suchkriterien verwenden möchten. Diese Felder stehen dann im Dropdown-Menü Suchkriterien zur Verfügung.</p></td> 
+   <td> <p>Wählen Sie die Felder aus, die Sie für Ihre Suchkriterien verwenden möchten. Diese Felder sind dann im Dropdown-Menü Suchkriterien verfügbar.</p></td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Suchkriterien]</td> 
-   <td> <p>Geben Sie das Feld, nach dem Sie suchen möchten, den Operator, den Sie in Ihrer Abfrage verwenden möchten, und den Wert ein, nach dem Sie im Feld suchen.</p> <p>Hinweis: Verwenden Sie nicht <code>username </code>in Ihren Suchkriterien. Wenn Sie <code>username </code> in eine API-Abfrage zu [!DNL Workfront] einschließen, wird der Benutzer in Workfront protokolliert und die Suche wird nicht erfolgreich durchgeführt.</p> <p>Hinweis: <code>In</code> und <code>NotIn</code>funktionieren mit Arrays. Die Eingaben sollten im Array-Format erfolgen.</p></td> 
+   <td> <p>Geben Sie das Feld ein, nach dem Sie suchen möchten, den Operator, den Sie in Ihrer Abfrage verwenden möchten, und den Wert, nach dem Sie in dem Feld suchen.</p> <p>Hinweis: Verwenden Sie <code>username </code>in Ihren Suchkriterien nicht. Das Einschließen von <code>username </code>in eine API-Abfrage zur [!DNL Workfront] protokolliert den Benutzer in Workfront. Die Suche ist dann nicht erfolgreich.</p> <p>Hinweis: <code>In</code> und <code>NotIn</code>Arbeiten mit Arrays. Die Eingaben sollten im Array-Format vorliegen.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Ausgaben]</td> 
-   <td> <p>Wählen Sie die Felder aus, die Sie in die Ausgabe dieses Moduls aufnehmen möchten.</p> </td> 
+   <td> <p>Wählen Sie die Felder aus, die in die Ausgabe für dieses Modul aufgenommen werden sollen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Referenzen]</td> 
-   <td>Wählen Sie beliebige Referenzfelder aus, die Sie in die Suche einbeziehen möchten.</td> 
+   <td>[!UICONTROL-Verweise]</td> 
+   <td>Wählen Sie alle Referenzfelder aus, die Sie in die Suche einbeziehen möchten.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Sammlungen]</td> 
+   <td>[!UICONTROL-Sammlungen]</td> 
    <td>Wählen Sie alle Sammlungen aus, die Sie der Suche hinzufügen möchten.</td> 
   </tr> 
  </tbody> 
@@ -1081,62 +1081,62 @@ Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
 
 +++ **[!UICONTROL Suche (veraltet)]**
 
-Dieses Suchmodul sucht nach Datensätzen in einem Objekt in [!DNL Workfront], die mit der von Ihnen angegebenen Suchabfrage übereinstimmen.
+Dieses Suchmodul sucht in einem -Objekt nach Datensätzen, [!DNL Workfront] mit der angegebenen Suchanfrage übereinstimmen.
 
 Sie können diese Informationen in nachfolgenden Modulen im Szenario zuordnen.
 
-Wenn Sie dieses Modul konfigurieren, werden die folgenden Felder angezeigt.
+Beim Konfigurieren dieses Moduls werden die folgenden Felder angezeigt.
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung]</td> 
-   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront]-App mit [!DNL Workfront Fusion] finden Sie in diesem Artikel unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]</a> .</p> </td> 
+   <td>[!UICONTROL-Verbindung]</td> 
+   <td> <p>Anweisungen zum Verbinden Ihrer [!DNL Workfront] App mit [!DNL Workfront Fusion] finden Sie unter <a href="#connect-workfront-to-workfront-fusion" class="MCXref xref">Verbinden von [!DNL Workfront] mit [!DNL Workfront Fusion]</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Record Type]</td> 
-   <td> <p>Wählen Sie den Typ von [!DNL Workfront] Datensatz aus, nach dem das Modul suchen soll.</p> </td> 
+   <td>[!UICONTROL Datensatztyp]</td> 
+   <td> <p>Wählen Sie den Typ [!DNL Workfront] Datensatzes aus, nach dem das Modul suchen soll.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Ergebnissatz]</td> 
-   <td>Wählen Sie eine Option aus, um anzugeben, ob das Modul das erste Ergebnis erhalten soll, das Ihren Suchkriterien entspricht, oder alle Ergebnisse, die dem Ergebnis entsprechen.</td> 
+   <td>Wählen Sie eine Option aus, um anzugeben, ob das Modul das erste Ergebnis erhalten soll, das Ihren Suchkriterien entspricht, oder alle Ergebnisse, die damit übereinstimmen.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximal]</td> 
-   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein oder ordnen Sie sie zu, die das Modul während der verschiedenen Ausführungszyklen eines Szenarios zurückgeben soll.</p> </td> 
+   <td>[!UICONTROL Maximum]</td> 
+   <td> <p>Geben Sie die maximale Anzahl von Datensätzen ein, die das Modul während jedes Szenario-Ausführungszyklus zurückgeben soll, oder mappen Sie sie.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Suchkriterien]</td> 
-   <td> <p>Geben Sie das Feld, nach dem Sie suchen möchten, den Operator, den Sie in Ihrer Abfrage verwenden möchten, und den Wert ein, nach dem Sie im Feld suchen.</p> <p>Hinweis: Verwenden Sie nicht <code>username </code>in Ihren Suchkriterien. Wenn Sie <code>username </code> in eine API-Abfrage zu [!DNL Workfront] einschließen, wird der Benutzer in Workfront protokolliert und die Suche wird nicht erfolgreich durchgeführt.</p> <p>Hinweis: <code>In</code> und <code>NotIn</code>funktionieren mit Arrays. Die Eingaben sollten im Array-Format erfolgen.</p></td> 
+   <td> <p>Geben Sie das Feld ein, nach dem Sie suchen möchten, den Operator, den Sie in Ihrer Abfrage verwenden möchten, und den Wert, nach dem Sie in dem Feld suchen.</p> <p>Hinweis: Verwenden Sie <code>username </code>in Ihren Suchkriterien nicht. Das Einschließen von <code>username </code>in eine API-Abfrage zur [!DNL Workfront] protokolliert den Benutzer in Workfront. Die Suche ist dann nicht erfolgreich.</p> <p>Hinweis: <code>In</code> und <code>NotIn</code>Arbeiten mit Arrays. Die Eingaben sollten im Array-Format vorliegen.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>[!UICONTROL Ausgaben]</td> 
-   <td> <p>Wählen Sie die Felder aus, die Sie in die Ausgabe dieses Moduls aufnehmen möchten.</p> </td> 
+   <td> <p>Wählen Sie die Felder aus, die in die Ausgabe für dieses Modul aufgenommen werden sollen.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Referenzen]</td> 
-   <td>Wählen Sie beliebige Referenzfelder aus, die Sie in die Suche einbeziehen möchten.</td> 
+   <td>[!UICONTROL-Verweise]</td> 
+   <td>Wählen Sie alle Referenzfelder aus, die Sie in die Suche einbeziehen möchten.</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>[!UICONTROL Sammlungen]</td> 
+   <td>[!UICONTROL-Sammlungen]</td> 
    <td>Wählen Sie alle Sammlungen aus, die Sie der Suche hinzufügen möchten.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie dieses Modul in den für jedes [!DNL Workfront] Modul](#workfront-object-types-available-for-each-workfront-module) verfügbaren [[!DNL Workfront] Objekttypen verwenden können.
+Eine Liste der [!DNL Workfront] Objekttypen, für die dieses Modul verwendet werden kann, finden Sie unter [[!DNL Workfront] Objekttypen für jedes  [!DNL Workfront]  verfügbar](#workfront-object-types-available-for-each-workfront-module).
 
 +++
 
-## [!DNL Workfront] Objekttypen, die für jedes [!DNL Workfront]-Modul verfügbar sind
+## Für jedes [!DNL Workfront]-Modul verfügbare [!DNL Workfront]-Objekttypen
 
 <!-- [Object types available for each Workfront trigger module](#object-types-available-for-each-workfront-trigger-module) 
 * [Object types available for each Workfront action module](#object-types-available-for-each-workfront-action-module) 
 * [Object types available for each Workfront search module](#object-types-available-for-each-workfront-search-module)-->
 
-+++**Objekttypen, die für jedes [!DNL Workfront] Trigger-Modul verfügbar sind**
++++**Für jedes [!DNL Workfront] Trigger-Modul verfügbare Objekttypen**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1146,9 +1146,9 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
  <thead> 
   <tr> 
    <th> </th> 
-   <th>[!UICONTROL Überwachungsdatensatz]</th> 
+   <th>[!UICONTROL Überwachungseintrag]</th> 
    <th>[!UICONTROL Überwachungsfeld]</th> 
-   <th>[!UICONTROL Überwachungsereignisse]</th> 
+   <th>[!UICONTROL Ereignisse beobachten]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1351,7 +1351,7 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Schritt-Genehmiger</td> 
+   <td>Genehmigende Person für Schritt</td> 
    <td> </td> 
    <td>✓</td> 
    <td> </td> 
@@ -1403,11 +1403,11 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
 
 +++
 
-+++**Objekttypen, die für jedes [!DNL Workfront] Aktionsmodul verfügbar sind**
++++**Für jedes [!DNL Workfront]-Aktionsmodul verfügbare Objekttypen**
 
 >[!NOTE]
 >
->Das Modul [!UICONTROL Dokument herunterladen] ist nicht in dieser Tabelle enthalten, da [!DNL Workfront] -Objekttypen nicht Teil der Konfiguration sind.
+>Das [!UICONTROL Dokument herunterladen]-Modul ist nicht in dieser Tabelle enthalten, da [!DNL Workfront] Objekttypen nicht Teil der Konfiguration sind.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1427,7 +1427,7 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <th>[!UICONTROL Dokument hochladen]</th> 
    <th>[!UICONTROL Datensatz lesen]</th> 
    <th>[!UICONTROL Benutzerdefinierter API-Aufruf]</th> 
-   <th>[!UICONTROL Misc Action]</th> 
+   <th>[!UICONTROL Misc-Aktion]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1742,7 +1742,7 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Schritt-Genehmiger</td> 
+   <td>Genehmigende Person für Schritt</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -1826,7 +1826,7 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
 
 +++
 
-+++**Objekttypen, die für jedes [!DNL Workfront] Suchmodul verfügbar sind**
++++**Für jedes [!DNL Workfront] Suchmodul verfügbare Objekttypen**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -1836,7 +1836,7 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
   <tr> 
    <th> </th> 
    <th>[!UICONTROL Suche]</th> 
-   <th>[!UICONTROL Verwandte Aufzeichnungen lesen]</th> 
+   <th>[!UICONTROL Verwandte Einträge lesen]</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1981,7 +1981,7 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Schritt-Genehmiger</td> 
+   <td>Genehmigende Person für Schritt</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -2023,51 +2023,51 @@ Sehen Sie sich eine Liste der [!DNL Workfront] -Objekttypen an, für die Sie die
  </tbody> 
 </table>
 
-Es wird empfohlen, die Markierung zu verdoppeln, um sicherzustellen, dass dies so funktioniert, wie Sie es erwarten.
+Es wird empfohlen, dies zu überprüfen, um sicherzustellen, dass es so funktioniert, wie Sie es erwarten würden.
 
 +++
 
-## Ereignisabonnementfilter im Modul [!DNL Workfront] > [!UICONTROL Ereignisse ansehen]
+## Filter für Ereignisabonnements im Modul [!DNL Workfront] > [!UICONTROL Ereignisse beobachten]
 
 >[!NOTE]
 >
->Wir empfehlen dringend die Verwendung von Ereignisabonnementfiltern in Ihren [!UICONTROL Überwachungsereignissen] -Modulen.
+>Es wird dringend empfohlen, Ereignisabonnementfilter in Ihren Modulen [!UICONTROL Ereignisse beobachten] zu verwenden.
 
-Das Modul [!DNL Workfront] [!UICONTROL Ereignisse beobachten] ermöglicht Trigger-Szenarien, die auf einem Webhook basieren, der ein Ereignisabonnement in der [!DNL Workfront] -API erstellt. Das Ereignisabonnement ist ein Satz von Daten, die bestimmen, welche Ereignisse an den Webhook gesendet werden. Wenn Sie beispielsweise ein Modul [!UICONTROL Ereignisse überwachen] einrichten, das auf Probleme überwacht, sendet das Ereignisabonnement nur Ereignisse, die sich auf Probleme beziehen.
+Das Modul [!DNL Workfront]Ereignisse [!UICONTROL beobachten] erstellt Szenarien für Trigger, die auf einem Webhook basieren, der ein Ereignisabonnement in der [!DNL Workfront]-API erstellt. Das Ereignisabonnement ist ein Datensatz, der bestimmt, welche Ereignisse an den Webhook gesendet werden. Wenn Sie beispielsweise ein Modul [!UICONTROL Ereignisse beobachten] einrichten, das auf Probleme überwacht, sendet das Ereignisabonnement nur Ereignisse, die mit Problemen in Zusammenhang stehen.
 
-Mithilfe von Ereignisabonnementfiltern können Fusion-Benutzer Ereignisabonnements erstellen, die für ihre Anwendungsfälle besser geeignet sind. Sie können beispielsweise ein Ereignisabonnement in der API [!DNL Workfront] einrichten, um nur Probleme zu senden, die sich in einem bestimmten Projekt befinden, an den Webhook zu senden, sodass das Modul [!UICONTROL Überwachungsereignisse] nur für Probleme in diesem Projekt Trigger wird. Die Möglichkeit, schmalere Trigger zu erstellen, verbessert das Szenario-Design, indem die Anzahl irrelevanter Trigger verringert wird.
+Durch die Verwendung von Ereignisabonnementfiltern können Fusion-Benutzer Ereignisabonnements erstellen, die besser für ihre Anwendungsfälle geeignet sind. Sie können beispielsweise in der [!DNL Workfront]-API ein Ereignisabonnement einrichten, um nur Probleme aus einem bestimmten Projekt an den Webhook zu senden, um sicherzustellen, dass das Modul [!UICONTROL Ereignisse beobachten] nur Trigger für Probleme in diesem Projekt bereitstellt. Die Möglichkeit, engere Trigger zu erstellen, verbessert das Szenario-Design, indem die Anzahl der irrelevanten Trigger reduziert wird.
 
-Dies unterscheidet sich vom Einrichten eines Filters im [!DNL Workfront Fusion] -Szenario. Ohne einen Abonnementfilter für Ereignisse erhält Ihr Webhook alle Ereignisse im Zusammenhang mit dem ausgewählten Objekttyp. Die meisten dieser Ereignisse wären für das Szenario irrelevant und müssen herausgefiltert werden, bevor das Szenario fortgesetzt werden kann.
+Dies unterscheidet sich vom Einrichten eines Filters im [!DNL Workfront Fusion]. Ohne einen Ereignisabonnementfilter erhält Ihr Webhook alle Ereignisse, die mit dem ausgewählten Objekttyp zusammenhängen. Die meisten dieser Ereignisse wären für das Szenario irrelevant und müssen herausgefiltert werden, bevor das Szenario fortgesetzt werden kann.
 
-Die folgenden Operatoren sind im Filter Workfront > Ereignisse überwachen verfügbar:
+Die folgenden Operatoren sind im Filter Workfront > Ereignisse beobachten verfügbar:
 
 * Ist gleich
 * Ungleich
 * Größer als
 * Kleiner als
-* Größer oder gleich
+* Größer als oder gleich
 * Kleiner oder gleich
 * Enthält
 * Vorhanden
-   * Dieser Operator benötigt keinen Wert und das Wertefeld fehlt.
-* Nicht vorhanden
-   * Dieser Operator benötigt keinen Wert und das Wertefeld fehlt.
+   * Dieser Operator benötigt keinen Wert, und das Wertfeld ist nicht vorhanden.
+* existiert nicht
+   * Dieser Operator benötigt keinen Wert, und das Wertfeld ist nicht vorhanden.
 * Geändert
-   * Dieser Operator benötigt keinen Wert und das Wertefeld fehlt.
+   * Dieser Operator benötigt keinen Wert, und das Wertfeld ist nicht vorhanden.
    * Dieser Operator ignoriert das Feld Status .
-   * Wählen Sie bei Verwendung von &quot;`Changed`&quot;im Feld **Record Origin** die Option **Nur aktualisierte Ereignisse** aus.
+   * Wählen Sie bei Verwendung von `Changed` **Nur aktualisierte Ereignisse** im Feld **Herkunft**.
 
 >[!IMPORTANT]
 >
->Filter in vorhandenen [!DNL Workfront]-Webhooks können nicht bearbeitet werden. Um verschiedene Filter für [!DNL Workfront] -Ereignisabonnements einzurichten, entfernen Sie den aktuellen Webhook und erstellen Sie einen neuen.
+>Filter in vorhandenen [!DNL Workfront]-Webhooks können nicht bearbeitet werden. Um verschiedene Filter für [!DNL Workfront] Ereignisabonnements einzurichten, entfernen Sie den aktuellen Webhook und erstellen Sie einen neuen.
 
 >[!INFO]
 >
->**Beispiel:** Betrachten Sie ein Szenario, das neue Probleme verarbeitet, die einem bestimmten Benutzer, Ana, zugewiesen sind.
+>**Beispiel** Nehmen wir ein Szenario an, in dem neue Probleme verarbeitet werden, die einem bestimmten Benutzer, Ana, zugewiesen sind.
 >
->### Filtern von Ereignissen mithilfe eines Ereignisabonnementfilters (empfohlen)
+>### Filtern von Ereignissen mithilfe eines Ereignisabonnement-Filters (empfohlen)
 >
->Mithilfe des Ereignisfilters können Sie den Webhook so einrichten, dass das Szenario Trigger wird, wenn ein Problem bei der Erstellung des Problems Ana zugewiesen wird. Ana hat die Benutzer-ID b378489d8f7cd3cee0539260720a84b7.
+>Mit dem Ereignisfilter können Sie den Webhook so einrichten, dass der Trigger für das Szenario erstellt wird, wenn ein Problem Ana zugewiesen wird, wenn das Problem erstellt wird. Ana hat die userID b378489d8f7cd3cee0539260720a84b7.
 >
 >![](assets/event-filter-watch-events-350x277.png)
 >
@@ -2075,15 +2075,15 @@ Die folgenden Operatoren sind im Filter Workfront > Ereignisse überwachen verf�
 >
 >### Filtern von Ereignissen innerhalb des Szenarios (nicht empfohlen)
 >
->Um Ereignisse so zu filtern, dass nur angesehene Probleme verarbeitet werden, können Sie einen Filter nach dem Modul [!UICONTROL Ereignisse überwachen] erstellen.
+>Um Ereignisse so zu filtern, dass nur Ana zugewiesene Probleme verarbeitet werden, können Sie nach dem Modul [!UICONTROL Ereignisse beobachten] einen Filter erstellen.
 >
 >![](assets/watch-events-non-event-filter-350x206.png)
 >
->Wenn 100 Probleme an einem Tag erstellt werden, aber nur zwei davon Ana zugewiesen sind, wird das Szenario 100-mal ausgeführt. 98 der Ausführungen würden am Filter anhalten, aber das Trigger-Modul verbraucht weiterhin Daten und führt Vorgänge in allen Ausführungen durch.
+>Wenn an einem Tag 100 Probleme erstellt werden, aber nur zwei davon Ana zugewiesen sind, wird das Szenario 100-mal ausgeführt. 98 der Ausführungen würden am Trigger anhalten, aber das Filtermodul verbraucht weiterhin Daten und führt Vorgänge in allen Ausführungen aus.
 
 Weitere Informationen zu Ereignisabonnements finden Sie unter [FAQs - Ereignisabonnements](../../wf-api/general/event-subs-faq.md).
 
-Weitere Informationen zu Webhooks finden Sie unter [Instant Trigger (Webhooks) in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
+Weitere Informationen zu Webhooks finden Sie unter [Instant Trigger (Webhooks) in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/webhooks/instant-triggers-webhooks.md)
 
 Weitere Informationen zu Filtern in Szenarien finden Sie unter [Hinzufügen eines Filters zu einem Szenario in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/scenarios/add-a-filter-to-a-scenario.md).
 

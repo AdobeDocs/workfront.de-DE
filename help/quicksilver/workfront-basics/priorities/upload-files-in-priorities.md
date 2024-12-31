@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Hochladen von Dateien in Prioritäten
-description: Sie können Dateien aus der Prioritätenliste oder aus einzelnen Arbeitselementen hochladen. Aus Prioritäten hochgeladene Dateien werden auf der Registerkarte Dokumente des Arbeitselements angezeigt.
+title: Hochladen von Dateien in den Prioritäten
+description: Sie können Dateien aus der Arbeitsliste „Prioritäten“ oder aus einzelnen Arbeitselementen hochladen. Dateien, die über Prioritäten hochgeladen wurden, werden auf der Registerkarte Dokumente des Arbeitselements angezeigt.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Hochladen von Dateien in Prioritäten
+# Hochladen von Dateien in den Prioritäten
 
-Sie können Dateien aus der Prioritätenliste oder aus einzelnen Arbeitselementen hochladen. Aus Prioritäten hochgeladene Dateien werden auf der Registerkarte Dokumente des Arbeitselements angezeigt.
+Sie können Dateien aus der Arbeitsliste „Prioritäten“ oder aus einzelnen Arbeitselementen hochladen. Dateien, die über Prioritäten hochgeladen wurden, werden auf der Registerkarte Dokumente des Arbeitselements angezeigt.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -29,22 +29,22 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Alle</p> </td> 
+   <td> <p> Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
    <td> 
-   <p>Neu: Mitarbeiter oder höher</p> 
+   <p>Neu: Mitwirkender oder höher</p> 
    <p>Aktuell: Anforderung oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
@@ -55,37 +55,37 @@ Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, 
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Hochladen**.
    ![](assets/upload-file.png)
    <!--new screen for prod ![](assets/update-log-upload.png)-->
-1. (Optional) Wählen Sie einen Ordner aus.
-1. Ziehen Sie die Datei oder Befehl/Strg + V in den Arbeitsbereich, um sie aus der Zwischenablage einzufügen.
+1. (Optional) Ordner auswählen.
+1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
 oder
-Klicken Sie auf **Dateien hinzufügen** , um Dateien zu durchsuchen oder Dateien von einem Document Cloud-Provider zu importieren.
+Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
    ![](assets/add-files.png)
 1. (Optional) Hinzufügen eines Kommentars.
-1. (Optional) Fügen Sie weitere Dateien hinzu.
+1. (Optional) Weitere Dateien hinzufügen.
 
    >[!NOTE]
    >
    >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
-1. Klicken Sie auf **Hochladen**.
+1. Klicken Sie **Hochladen**.
    ![](assets/upload-file-module.png)
 
 
-## Datei in ein Arbeitselement hochladen
+## Hochladen einer Datei in ein Arbeitselement
 
 {{step1-to-priorities}}
 
-1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Übersicht zu öffnen.
-1. Klicken Sie im Abschnitt **Schnellaktionen** auf **Hochladen**.
-1. (Optional) Wählen Sie einen Ordner aus.
-1. Ziehen Sie die Datei oder Befehl/Strg + V in den Arbeitsbereich, um sie aus der Zwischenablage einzufügen.
+1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
+1. Klicken Sie **Abschnitt „Schnellaktionen** auf **Hochladen**.
+1. (Optional) Ordner auswählen.
+1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
 oder
-Klicken Sie auf **Dateien hinzufügen** , um Dateien zu durchsuchen oder Dateien von einem Document Cloud-Provider zu importieren.
+Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
    ![](assets/add-files.png)
 1. (Optional) Hinzufügen eines Kommentars.
-1. (Optional) Fügen Sie weitere Dateien hinzu.
+1. (Optional) Weitere Dateien hinzufügen.
 
    >[!NOTE]
    >
    >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
-1. Klicken Sie auf **Hochladen**.
+1. Klicken Sie **Hochladen**.
    ![](assets/upload-file-module.png)

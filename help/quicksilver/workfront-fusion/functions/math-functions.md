@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Mathematische Funktionen in Adobe Workfront Fusion
-description: Die folgenden mathematischen Funktionen sind im Bereich Adobe Workfront Fusion-Zuordnung verfügbar.
+description: Die folgenden mathematischen Funktionen sind im Zuordnungsbereich von Adobe Workfront Fusion verfügbar.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col>  
@@ -29,40 +29,40 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <tbody>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td>  
-   <td> <p>Alle</p> </td>  
+   <td> <p>Beliebig</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>  
-   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td>  
+   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Work] oder höher</p> </td>  
   </tr>  
   <tr>  
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td>  
    <td> 
-   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p> 
+   <p>Aktuell: Keine [!DNL Workfront Fusion].</p> 
    <p>Oder</p> 
-   <p>Veraltet: Beliebig </p> 
+   <p>Legacy: Beliebig </p> 
    </td>  
   </tr>  
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</li><li>[!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
    <p>Oder</p> 
-   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p> 
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## [!UICONTROL Durchschnitt ([Array der Werte]) average(value1; [value2], ...)]
+## [!UICONTROL average ([Array von Werten]) average(Wert1; [Wert2], …)]
 
-Gibt den Durchschnittswert der numerischen Werte in einem bestimmten Array oder den Durchschnittswert der einzelnen eingegebenen numerischen Werte zurück.
+Gibt den Durchschnittswert der numerischen Werte in einem bestimmten Array oder den Durchschnittswert einzeln eingegebener numerischer Werte zurück.
 
-## [!UICONTROL ceil (Zahl)]
+## [!UICONTROL CELL (Zahl)]
 
 Gibt die kleinste Ganzzahl zurück, die größer oder gleich einer angegebenen Zahl ist.
 
@@ -78,7 +78,7 @@ Gibt die kleinste Ganzzahl zurück, die größer oder gleich einer angegebenen Z
 >
 >   Gibt 4 zurück
 
-## [!UICONTROL floor (number)]
+## [!UICONTROL FLOOR (number)]
 
 Gibt die größte Ganzzahl zurück, die kleiner oder gleich einer angegebenen Zahl ist.
 
@@ -98,17 +98,17 @@ Gibt die größte Ganzzahl zurück, die kleiner oder gleich einer angegebenen Za
 >
 >   Gibt 4 zurück
 
-## [!UICONTROL max ([Array der Werte]), max(value1;value2; ...)]
+## [!UICONTROL max ([Array von Werten]), max(Wert1;Wert2; …)]
 
-Gibt die größte Zahl in einem angegebenen Array oder die größte Zahl unter den einzeln eingegebenen Zahlen zurück.
+Gibt die größte Zahl in einem angegebenen Array oder die größte Zahl einzeln eingegebener Zahlen zurück.
 
-## [!UICONTROL min ([Array der Werte]), min(value1; value2; ...)]
+## [!UICONTROL min ([Array von Werten]), min(Wert1; Wert2; …)]
 
-Gibt die kleinste Zahl in einem angegebenen Array oder die kleinste Zahl unter den einzeln eingegebenen Zahlen zurück.
+Gibt die kleinste Zahl in einem angegebenen Array oder die kleinste Zahl unter einzeln eingegebenen Zahlen zurück.
 
 ## [!UICONTROL round (number)]
 
-Kürzt den numerischen Wert auf die nächste Ganzzahl.
+Rundet einen numerischen Wert auf die nächste Ganzzahl.
 
 >[!INFO]
 >
@@ -130,15 +130,15 @@ Kürzt den numerischen Wert auf die nächste Ganzzahl.
 >
 >   Gibt 2 zurück
 
-## [!UICONTROL sum ([Array der Werte]), sum(value1; value2; ...)]
+## [!UICONTROL SUM ([Array von Werten]), SUM(Wert1; Wert2; …)]
 
-Gibt die Summe der Werte in einem angegebenen Array oder die Summe der einzelnen eingegebenen Zahlen zurück.
+Gibt die Summe der Werte in einem angegebenen Array oder die Summe der einzeln eingegebenen Zahlen zurück.
 
 ## [!UICONTROL parseNumber (Zahl; Dezimaltrennzeichen)]
 
 Analysiert eine Zeichenfolge mit einer Zahl und gibt die Zahl zurück. Beispiel: parseNumber(1 756,456;,)
 
-## [!UICONTROL formatNumber (Zahl; decimalPOINTS; [decimalSeparator]; [Tausendertrennzeichen])]
+## [!UICONTROL formatNumber (Zahl; decimalPOINTS; [decimalSeparator]; [thousandsSeparator])]
 
 Gibt eine Zahl im angeforderten Format zurück. Standardmäßig ist der Dezimalpunkt ein Komma (,) und das Tausendertrennzeichen ein Punkt (.).
 
@@ -148,4 +148,4 @@ Gibt eine Zahl im angeforderten Format zurück. Standardmäßig ist der Dezimalp
 >
 >`formatNumber( 123456789 ; 3 ; , ; . )`
 >
->Gibt 123 456 789 000 zurück
+>Gibt 123.456.789.000 zurück

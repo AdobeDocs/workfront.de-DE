@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Aktualisierungen - Übersicht
-description: Im Abschnitt "Updates"eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
+title: Abschnitt „Aktualisierungen“ - Übersicht
+description: Im Abschnitt Aktualisierungen eines Objekts werden Kommentare angezeigt, die Benutzer zu dem Objekt oder zu Systemaktualisierungen abgeben, die Änderungen am Objekt verfolgen.
 author: Alina
 feature: Get Started with Workfront
 exl-id: f8bf374f-703d-416a-9f36-28a6708620bc
@@ -15,7 +15,7 @@ ht-degree: 4%
 ---
 
 
-# Übersicht über den Aktualisierungsabschnitt
+# Abschnitt „Aktualisierungen“ - Übersicht
 
 <!-- Audited: 1/2024 -->
 
@@ -28,7 +28,7 @@ ht-degree: 4%
 <span class="preview">For information about the current release schedule, see [Second Quarter 2024 release overview](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).</span>
 -->
 
-Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die Benutzer zum Objekt oder zu Systemaktualisierungen vornehmen, die Änderungen am Objekt verfolgen.
+Im Abschnitt Aktualisierungen eines Objekts werden Kommentare angezeigt, die Benutzer zu dem Objekt oder zu Systemaktualisierungen abgeben, die Änderungen am Objekt verfolgen.
 
 <!--
 >[!IMPORTANT]
@@ -54,15 +54,15 @@ Im Abschnitt &quot;Updates&quot;eines Objekts werden Kommentare angezeigt, die B
 ><span class="preview">The new commenting experience is available in the Summary panel in lists, timesheets, and the Workload Balancer in the Preview environment and in the Production environment for customers who have opted for the fast release process.
 -->
 
-## Überblick über den Abschnitt &quot;Aktualisierungen&quot;
+## Überblick über den Abschnitt „Aktualisierungen“
 
-Im Abschnitt Updates eines Objekts werden Systemaktualisierungen und bis zu 200 der neuesten Updates angezeigt, die Benutzer in den letzten 90 Tagen vorgenommen haben.
+Im Abschnitt Aktualisierungen eines Objekts werden Systemaktualisierungen und bis zu 200 der letzten Aktualisierungen angezeigt, die von Benutzenden in den letzten 90 Tagen vorgenommen wurden.
 
-![Aktualisierungsabschnitt](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
+![Abschnitt „Aktualisierungen“](assets/updates-tab-with-unified-experience-for-issues-all-tab.png)
 
 <!--Info for April 11: Add the following right under the screen shot above:-->
 
-Die folgenden Objekte verfügen über einen Abschnitt Updates , in dem Sie Kommentare hinzufügen oder Systemaktualisierungen überprüfen können:
+Die folgenden Objekte verfügen über einen Abschnitt „Aktualisierungen“, in dem Sie Kommentare hinzufügen oder Systemaktualisierungen überprüfen können:
 
 * Projekte
 * Aufgaben
@@ -77,10 +77,10 @@ Die folgenden Objekte verfügen über einen Abschnitt Updates , in dem Sie Komme
 * Ziele
 * Wiederholungen
 
-Die folgenden Objekte verfügen über Bereiche, in denen Sie Kommentare hinzufügen und Systemaktualisierungen überprüfen können:
+Die folgenden Objekte weisen Bereiche auf, in denen Sie Kommentare hinzufügen und Systemaktualisierungen überprüfen können:
 
 * Karten auf Pinnwänden
-* Aufzeichnungen in der Workfront-Planung
+* Datensätze in Workfront Planning
 
 <!--info for April 11: remove all the information below, all the way down to the following section: -->
 
@@ -124,25 +124,25 @@ Depending on what objects you access the commenting experience for, you might fi
 
 <!--Info for April 11: reword the section title below to: Overview of the Updates section; and remove the preview tags-->
 
-### Übersicht über die Registerkarten des Aktualisierungsabschnitts
+### Überblick über die Registerkarten des Abschnitts „Aktualisierungen“
 
-![Aktualisierungsabschnitt](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
+![Abschnitt „Aktualisierungen“](assets/updates-tab-after-unified-experience-for-tasks-all-tab.png)
 
-Im Abschnitt Updates werden Informationen auf den folgenden Registerkarten angezeigt:
+Der Abschnitt Aktualisierungen zeigt Informationen auf den folgenden Registerkarten an:
 
-* **Kommentare**: Zeigt Kommentare von Benutzern an und Antworten auf diese Kommentare. Auf der Registerkarte Kommentare können Sie neue Kommentare hinzufügen oder auf vorhandene Kommentare antworten. Weitere Informationen zum Aktualisieren von Objekten finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
-* **Systemaktivität**: Zeigt Systemaktualisierungen an, die Informationsmeldungen sind, die Workfront erstellt, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen an Status, Namen oder benutzerdefinierten Feldern mit Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Alle Antworten, die im alten Kommentierungserlebnis an den Datensätzen der Systemaktivität vorgenommen wurden, werden auf der Registerkarte Systemaktivität als schreibgeschützt ausgefüllt. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
-* **Alle (schreibgeschützt)**: Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einer Stelle an. Dies ist eine Registerkarte &quot;Nur Ansicht&quot;. Sie können auf Kommentare nicht antworten oder andere Benutzer in vorhandenen Kommentaren auf der Registerkarte &quot;Alle&quot;taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link vom Tab Alle zum Tab Kommentare . Weitere Informationen zum Aktualisieren von Objekten finden Sie unter [Funktionsweise aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
+* **Kommentare**: Zeigt Kommentare von Benutzern und Antworten auf diese Kommentare an. Verwenden Sie die Registerkarte Kommentare , um neue Kommentare hinzuzufügen oder auf vorhandene Kommentare zu antworten. Informationen zum Aktualisieren von Objekten finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
+* **Systemaktivität**: Zeigt Systemaktualisierungen an, bei denen es sich um Informationsmeldungen handelt, die von Workfront erstellt werden, um bestimmte Ereignisse auf einem Objekt aufzuzeichnen. Beispielsweise werden Änderungen am Status, Namen oder benutzerdefinierten Feldern bei Systemaktualisierungen erfasst. Ihr Workfront- oder Gruppenadministrator kann Systemaktualisierungen für Ihre Objekte aktivieren. Alle Antworten, die im Rahmen der bisherigen Kommentar-Funktion auf Systemaktivitätsdatensätze geantwortet wurden, werden auf der Registerkarte Systemaktivität schreibgeschützt angezeigt. Weitere Informationen finden Sie [Konfigurieren von Systemaktualisierungen](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md).
+* **Alle (schreibgeschützt)** Zeigt sowohl Benutzerkommentare als auch Systemaktivitätskommentare an einer Stelle an. Dies ist eine schreibgeschützte Registerkarte. Sie können in vorhandenen Kommentaren auf der Registerkarte Alle nicht auf Kommentare antworten oder andere Benutzer taggen. Um auf einen bestimmten Kommentar zu antworten, verwenden Sie den Link von der Registerkarte Alle zur Registerkarte Kommentare . Informationen zum Aktualisieren von Objekten finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 
   >[!NOTE]
   >
-  >Die Tabs Kommentare und Systemaktivitäten werden in Echtzeit aktualisiert. Sie müssen die Registerkarte Alle aktualisieren, um die neuesten Aktualisierungen anzuzeigen.
+  >Die Registerkarten „Kommentare“ und „Systemaktivität“ werden in Echtzeit aktualisiert. Sie müssen die Registerkarte Alle aktualisieren, um die neuesten Aktualisierungen anzuzeigen.
 
 ### Ähnlichkeiten und Unterschiede zwischen den Aktualisierungsbereichen verschiedener Objekte
 
 Es gibt Unterschiede zwischen der Anzeige von Kommentaren und Aktualisierungen für verschiedene Objekte.
 
-* Die folgenden Objekte weisen in allen drei Registerkarten des Abschnitts Updates ähnliche Erlebnisse auf:
+* Die folgenden Objekte haben auf allen drei Registerkarten im Abschnitt „Aktualisierungen“ ähnliche Erlebnisse:
 
    * Projekte
    * Aufgaben
@@ -152,36 +152,36 @@ Es gibt Unterschiede zwischen der Anzeige von Kommentaren und Aktualisierungen f
    * Benutzende
    * Arbeitszeit- tabellen
 
-* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;oder &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;entspricht dem aller anderen Objekte:
+* Für die folgenden Objekte gibt es keine Registerkarte „Systemaktivität“ oder „Alle“, und das Erlebnis auf der Registerkarte „Kommentare“ entspricht dem Erlebnis aller anderen Objekte:
 
    * Team
    * Vorlage
    * Vorlagenaufgabe
 
-* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Systemaktivität&quot;oder &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;unterscheidet sich von dem aller anderen Objekte:
+* Für die folgenden Objekte gibt es keine Registerkarte „Systemaktivität“ oder „Alle“, und das Erlebnis auf der Registerkarte „Kommentare“ unterscheidet sich von dem aller anderen Objekte:
 
    * Wiederholungen
-   * Ad-hoc-Karten im Bereich &quot;Foren&quot;
+   * Ad-hoc-Karten im Bereich Pinnwände
 
      Weitere Informationen zu Aktualisierungen auf Karten finden Sie unter [Hinzufügen einer Ad-hoc-Karte zu einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-card-to-board.md).
 
-* Die folgenden Objekte verfügen über die Registerkarte Systemaktivität und haben keine Registerkarte Alle :
+* Die folgenden Objekte haben eine Registerkarte Systemaktivität und keine Registerkarte Alle :
 
-   * Verbundene Karten im Bereich &quot;Pinnwände&quot;
+   * Verbundene Karten im Bereich Pinnwände
 
      Weitere Informationen finden Sie unter [Verwenden von verbundenen Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 * Die folgenden Objekte verfügen über die Registerkarte Verlauf , die die Registerkarte Systemaktivität ersetzt:
 
-   * Aufzeichnungen in der Workfront-Planung
+   * Datensätze in Workfront Planning
 
-     Weitere Informationen finden Sie unter [Verlaufsabschnitt - Übersicht](/help/quicksilver/planning/records/history-section-overview.md).
+     Weitere Informationen finden Sie unter [Übersicht über den Verlauf](/help/quicksilver/planning/records/history-section-overview.md).
 
-* Die folgenden Objekte verfügen nicht über die Registerkarte &quot;Alle&quot;. Das Erlebnis auf der Registerkarte &quot;Kommentare&quot;entspricht dem der meisten Objekte:
+* Die folgenden Objekte verfügen nicht über eine Registerkarte „Alle“, und das Erlebnis auf der Registerkarte „Kommentare“ entspricht dem der meisten Objekte:
 
    * Ziele
 
-     Weitere Informationen zu Aktualisierungen von Zielen finden Sie unter [Zielkommentare verwalten](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
+     Weitere Informationen zu Aktualisierungen von Zielen finden Sie unter [Verwalten von Zielkommentaren](/help/quicksilver/workfront-goals/goal-management/manage-goal-comments.md).
 
 <!-- info for April 11: hide the entire section below: -->
 
@@ -203,21 +203,21 @@ The following objects don't record system updates:
 * Iterations
 -->
 
-## Aktualisierungen, die auch auf übergeordneten Objekten angezeigt werden
+## Aktualisierungen, die auch bei Objekten mit höherem Rang angezeigt werden
 
-Kommentare, Antworten oder Systemaktualisierungen für bestimmte Objekte werden auch im Abschnitt Updates von Objekten mit höherem Rang angezeigt.
+Kommentare, Antworten oder Systemaktualisierungen bestimmter Objekte werden ebenfalls im Abschnitt „Aktualisierungen“ von Objekten mit höherem Rang angezeigt.
 
-Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die Aktualisierung im Abschnitt Updates für die Aufgabe und im Abschnitt Updates für das Projekt, das die Aufgabe enthält, angezeigt.
+Wenn Sie beispielsweise einer Aufgabe eine Aktualisierung hinzufügen, wird die Aktualisierung im Abschnitt Aktualisierungen für die Aufgabe und im Abschnitt Aktualisierungen für das Projekt mit der Aufgabe angezeigt.
 
-In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in den übergeordneten Objekten angezeigt werden:
+Die folgende Tabelle zeigt die Objekte, deren Kommentare auch auf ihren höherrangigen Objekten angezeigt werden:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <thead> 
   <tr> 
-   <th><strong>Objekt, dem die ursprüngliche Aktualisierung hinzugefügt wurde</strong> </th> 
-   <th> <p><strong>Höhere Rangobjekte, bei denen die ursprüngliche Aktualisierung ebenfalls angezeigt wird</strong> </p> </th> 
+   <th><strong>Objekt, an dem die ursprüngliche Aktualisierung hinzugefügt wurde</strong> </th> 
+   <th> <p><strong>Objekte mit höherem Rang, bei denen auch die ursprüngliche Aktualisierung angezeigt wird</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -255,7 +255,7 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
    <td>Arbeitszeittabelle</td> 
    <td><p>Benutzer, Team</p>
    <p><b>NOTIZ</b></p>
-   <p>Die Kommentare zum Datenblatt werden im Abschnitt Updates des Benutzers angezeigt, der den Kommentar abgibt, sowie im Abschnitt Updates seines Startseiten-Teams.</p>
+   <p>Kommentare zu Arbeitszeittabellen werden im Abschnitt Aktualisierungen des Benutzers angezeigt, der den Kommentar abgibt, sowie im Abschnitt Aktualisierungen seines Startseiten-Teams.</p>
    </td> 
   </tr> 
   <tr> 
@@ -295,54 +295,54 @@ In der folgenden Tabelle sind die Objekte aufgeführt, deren Kommentare auch in 
 -->
 
 
-## Einschränkungen des Abschnitts Updates
+## Einschränkungen des Abschnitts „Aktualisierungen“
 
-Im Abschnitt Updates eines Teams und bei der Eingabe von Updates für andere Benutzer gibt es einige Einschränkungen.
+Es gibt einige Einschränkungen im Abschnitt Aktualisierungen eines Teams und bei der Eingabe von Aktualisierungen im Namen anderer Benutzer.
 
 ### Einschränkungen für Benutzer und Teams
 
-Beachten Sie beim Anzeigen von Updates für Benutzer und Teams Folgendes:
+Beachten Sie beim Anzeigen von Aktualisierungen für Benutzer und Teams Folgendes:
 
-* Im Abschnitt Updates eines Teams können Sie keine neuen Kommentare hinzufügen.
+* Es ist nicht möglich, dem Abschnitt Aktualisierungen eines Teams neue Kommentare hinzuzufügen.
 
-* Im Abschnitt Updates für Teams werden die in den folgenden Objekten eingegebenen Aktualisierungen angezeigt:
+* Der Abschnitt Aktualisierungen für Teams wird durch Aktualisierungen ausgefüllt, die für die folgenden Objekte eingegeben wurden:
 
    * Benutzende
    * Storys
    * Arbeitszeit- tabellen
    * Wiederholungen
 
-* Sie können eine Antwort zu einem Update hinzufügen, das Sie in einem Team anzeigen. Die Antwort wird im Abschnitt Updates des Teams sowie im Abschnitt Updates des Objekts angezeigt, zu dem sie gehört.
+* Sie können einer Aktualisierung, die Sie in einem Team anzeigen, eine Antwort hinzufügen. Die Antwort wird im Bereich Updates des Teams sowie im Abschnitt Updates des Objekts, zu dem sie gehört, angezeigt.
 
-* Im Abschnitt Updates für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen vorgenommen wurden.
+* Im Abschnitt Aktualisierungen für Benutzer und Teams können Sie die Aktualisierungen anzeigen, die in den letzten 90 Tagen eingegeben wurden.
 
-  Wenn Sie alle Aktualisierungen sehen möchten, die über die 90-Tage-Beschränkung hinaus für einen Benutzer oder ein Team vorgenommen wurden, können Sie einen Bericht für Anmerkungen erstellen. Der Bericht sollte keinen Zeitfilter enthalten, der alle für Benutzer oder Teams vorgenommenen Aktualisierungen anzeigt. Weitere Informationen finden Sie unter [Benutzerspezifischen Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Wenn Sie möchten, dass alle an einem Benutzer oder einem Team vorgenommenen Aktualisierungen über das 90-Tage-Limit hinaus angezeigt werden, können Sie einen Bericht für Anmerkungen erstellen. Der Bericht sollte keinen Zeitfilter enthalten, der alle für Benutzer oder Teams vorgenommenen Aktualisierungen anzeigt. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-### Einschränkungen bei der Eingabe von Kommentaren im Namen eines anderen Benutzers
+### Einschränkungen bei der Eingabe von Kommentaren im Auftrag eines anderen Benutzers
 
-Adobe Workfront-Administratoren und Gruppenadministratoren können sich als andere Benutzer anmelden und Aktionen in Workfront ausführen, z. B. Kommentare eingeben.
+Adobe Workfront-Administratoren und Gruppenadministratoren können sich als andere Benutzer anmelden und in Workfront Aktionen durchführen, z. B. Kommentare eingeben.
 
 Weitere Informationen finden Sie unter [Als anderer Benutzer anmelden](../../administration-and-setup/add-users/create-and-manage-users/log-in-as-another-user.md).
 
-Beachten Sie Folgendes, wenn Sie sich als anderer Benutzer anmelden und Kommentare hinzufügen:
+Beachten Sie Folgendes, wenn Sie sich als ein anderer Benutzer anmelden und Kommentare hinzufügen:
 
-* Alle Kommentare, die im Namen eines anderen Nutzers gemacht werden, sind auf dem Kommentar angegeben.
+* Alle Kommentare, die im Namen eines anderen Benutzers abgegeben werden, sind in dem Kommentar angegeben.
 
-* Ein Gruppenadministrator kann im Namen einer anderen Person Kommentare abgeben, diesen Kommentar jedoch nicht löschen. Nur ein Adobe Workfront-Administrator kann einen Kommentar löschen, den er für einen anderen Benutzer abgegeben hat.
+* Ein Gruppenadministrator bzw. eine Gruppenadministratorin kann im Namen einer anderen Person einen Kommentar abgeben, diesen Kommentar jedoch nicht löschen. Nur ein Adobe Workfront-Administrator kann einen Kommentar löschen, den er im Namen eines anderen Benutzers abgegeben hat.
 
-* Ein Workfront- oder Gruppenadministrator kann nur einen Kommentar bearbeiten, den er im Namen eines anderen Benutzers hinzugefügt hat, wenn er sich als Benutzer abmeldet und sich wieder als solcher anmeldet. Sie können einen Kommentar nicht im Namen eines anderen Benutzers löschen.
+* Ein Workfront- oder Gruppenadministrator bzw. eine Gruppenadministratorin kann einen Kommentar, den bzw. die er im Namen eines anderen Benutzers bzw. einer anderen Benutzerin hinzugefügt hat, nur bearbeiten, wenn er bzw. sie sich als der/die Benutzende abmeldet und sich wieder als sich selbst anmeldet. Sie können einen Kommentar nicht im Namen eines anderen Benutzers löschen.
 
 ## Systemaktualisierungen zu Arbeitselementen mit dem Journaleintragsbericht anzeigen
 
-Der Bericht Journaleintrag zeigt Systemaktualisierungen aus dem Bereich Updates von Projekten, Aufgaben und Problemen an.
+Das System des Journaleintragsberichts wird über den Bereich Aktualisierungen von Projekten, Aufgaben und Problemen aktualisiert.
 
-Im Bericht sehen Sie Folgendes:
+Der Bericht zeigt Folgendes an:
 
 * Anzahl der Statusänderungen
-* Beim Löschen einer Aufgabe oder eines Problems
-* Änderung der Werte in wichtigen benutzerdefinierten Feldern im Verlauf eines Projekts
-* Wichtige Daten im Laufe eines Projekts
-* Wenn sich die Priorität im Laufe eines Projekts geändert hat
-* Wenn sich der Eigentümer eines Projekts geändert hat
+* Wenn eine Aufgabe oder ein Problem gelöscht wurde
+* Wie sich Werte in wichtigen benutzerdefinierten Feldern im Laufe eines Projekts geändert haben
+* Welche wichtigen Daten haben sich im Laufe eines Projekts geändert?
+* Wenn sich die Priorität während eines Projekts ändert
+* Wenn der Eigentümer eines Projekts geändert wurde
 
-Weitere Informationen finden Sie unter [Bericht über den Aktualisierungsbereich](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Weitere Informationen finden Sie unter [Bericht über Aktualisierungen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).

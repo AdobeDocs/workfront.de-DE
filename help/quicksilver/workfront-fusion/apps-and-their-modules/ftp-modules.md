@@ -22,46 +22,46 @@ Mit FTP-Modulen können Sie Dateiänderungen in einem ausgewählten Ordner über
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td>
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td>
   <td> <p>[!UICONTROL Pro] oder höher</p> </td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td>
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td>
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td> 
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebene Funktionalität nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Voraussetzungen
 
-Um [Fusion App] mit [!DNL Workfront Fusion] verwenden zu können, benötigen Sie ein FTP-Konto.
+Um die [Fusion-App] mit [!DNL Workfront Fusion] verwenden zu können, benötigen Sie ein FTP-Konto.
 
 ## Erstellen einer Verbindung in einem FTP-Modul {#create-a-connection}
 
@@ -75,7 +75,7 @@ Um [Fusion App] mit [!DNL Workfront Fusion] verwenden zu können, benötigen Sie
   </tr> 
   <tr> 
    <td>[!UICONTROL Host] </td> 
-   <td> <p>Geben Sie den FTP-Server-Hostnamen ein. E.g. <code>myftp123.server.com</code></p> </td> 
+   <td> <p>Geben Sie den Host-Namen des FTP-Servers ein. E.g. <code>myftp123.server.com</code></p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Port] </td> 
@@ -83,29 +83,29 @@ Um [Fusion App] mit [!DNL Workfront Fusion] verwenden zu können, benötigen Sie
   </tr> 
   <tr> 
    <td>[!UICONTROL Benutzername] </td> 
-   <td> <p>Geben Sie Ihren FTP-Konto-Benutzernamen ein.</p> </td> 
+   <td> <p>Geben Sie den Benutzernamen Ihres FTP-Kontos ein.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kennwort] </td> 
    <td> <p>Geben Sie Ihr FTP-Kontokennwort ein.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Verwenden einer sicheren Verbindung (TLS)</p> </td> 
-   <td> <p>Wählen Sie aus, ob Sie eine sichere Verbindung verwenden möchten.</p> <p style="font-weight: bold;">[!UICONTROL Nein]</p> <p>Die Verbindung ist nicht gesichert.</p> <p style="font-weight: bold;">[!UICONTROL Explizite Verschlüsselung oder implizite Verschlüsselung]</p> <p>Die Verbindung wird mithilfe von SSL gesichert.</p> </td> 
+   <td> <p>Sichere Verbindung (TLS) verwenden</p> </td> 
+   <td> <p>Wählen Sie aus, ob Sie eine sichere Verbindung verwenden möchten.</p> <p style="font-weight: bold;">[!UICONTROL Nein]</p> <p>Die Verbindung ist nicht gesichert.</p> <p style="font-weight: bold;">[!UICONTROL Explizite Verschlüsselung oder implizite Verschlüsselung]</p> <p>Die Verbindung wird mit SSL gesichert.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Nicht autorisierte Zertifikate zurückweisen]</p> </td> 
-   <td> <p>Aktivieren Sie diese Option, um das FTP-Serverzertifikat zu überprüfen. Wenn die Überprüfung fehlschlägt, wird die Verbindung nicht erstellt. Um die Überprüfung zu bestehen, muss das Zertifikat eines der folgenden Kriterien erfüllen:</p> 
+   <td> <p>[!UICONTROL Nicht autorisierte Zertifikate ablehnen]</p> </td> 
+   <td> <p>Aktivieren Sie diese Option, um das FTP-Server-Zertifikat zu überprüfen. Wenn die Verifizierung fehlschlägt, wird die Verbindung nicht hergestellt. Um die Prüfung bestehen zu können, muss die Bescheinigung eines der folgenden Kriterien erfüllen:</p> 
     <ul> 
-     <li>von einer <a href="https://en.wikipedia.org/wiki/Certificate_authority">Zertifizierungsstelle für Stammzertifikate</a> signiert werden</li> 
-     <li>von einer Zwischenzertifizierungsstelle unterzeichnet werden (weitere Informationen finden Sie unter <a href="https://knowledge.digicert.com/solution/SO16297.html">Funktionsweise der Zertifikatsketten</a>). In diesem Fall sollten alle Zwischenzertifikate auf dem FTP-Server installiert sein.</li> 
-     <li>ein selbst signiertes Zertifikat sein, das im Feld [!UICONTROL Selbstsigniertes Zertifikat] bereitgestellt wird (siehe unten)</li> </ul>
+     <li>von einer Root-Zertifizierungsstelle <a href="https://en.wikipedia.org/wiki/Certificate_authority"> werden</a></li> 
+     <li>von einer zwischengeschalteten Zertifizierungsstelle unterzeichnet werden (weitere Erläuterungen finden Sie unter <a href="https://knowledge.digicert.com/solution/SO16297.html">So funktionieren Zertifikatsketten</a>). In diesem Fall sollten alle Zwischenzertifikate auf dem FTP-Server installiert werden.</li> 
+     <li>ein selbstsigniertes Zertifikat sein, das im Feld [!UICONTROL Selbstsigniertes Zertifikat] angegeben ist (siehe unten)</li> </ul>
 
-Wenn diese Option deaktiviert ist, wird das FTP-Serverzertifikat nicht überprüft. Wir empfehlen dringend, die Option nicht zu deaktivieren, da sie die Verbindung unsicher macht und ein ernsthaftes Sicherheitsrisiko darstellt.</td>
+Wenn diese Option deaktiviert ist, wird das FTP-Serverzertifikat nicht verifiziert. Wir raten dringend davon ab, die Option zu deaktivieren, da sie die Verbindung unsicher macht und ein ernstes Sicherheitsrisiko darstellt.</td>
 </tr> 
   <tr> 
    <td> <p>[!UICONTROL Selbstsigniertes Zertifikat]</p> </td> 
-   <td> <p>Klicken Sie auf die Schaltfläche <b>[!UICONTROL Extract]</b> , um das Upload-Dialogfeld zu öffnen.</p> <p>Laden Sie das Zertifikat hoch, um das TLS mit Ihrem selbstsignierten Zertifikat zu verwenden. [!DNL Workfront Fusion] speichert oder speichert keine von Ihnen bereitgestellten Daten, z. B. Dateien und Kennwörter. Datei und Kennwort werden nur zum Extrahieren des Zertifikats verwendet.</p> </td> 
+   <td> <p>Klicken Sie auf die Schaltfläche <b>[!UICONTROL Extract]</b>, um das Upload-Dialogfeld zu öffnen.</p> <p>Laden Sie das Zertifikat hoch, um das TLS mit Ihrem selbstsignierten Zertifikat zu verwenden. [!DNL Workfront Fusion] speichert und speichert keine von Ihnen bereitgestellten Daten, z. B. Dateien und Kennwörter. Datei und Kennwort werden nur zum Extrahieren des Zertifikats verwendet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -119,23 +119,23 @@ Wenn diese Option deaktiviert ist, wird das FTP-Serverzertifikat nicht überprü
 
 #### [!UICONTROL Dateien ansehen]
 
-[!UICONTROL Dateien ansehen] ist das einzige Trigger-Modul für FTP. Er überwacht den Dateiinhalt des ausgewählten Ordners. Der Trigger wird ausgeführt, wenn eine neue Datei in den angegebenen Ordner eingefügt wird.
+[!UICONTROL Watch files] ist das einzige Trigger-Modul für FTP. Es überwacht den Dateiinhalt des ausgewählten Ordners. Der Trigger wird ausgeführt, wenn eine neue Datei in den angegebenen Ordner eingefügt wird.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#create-a-connection" class="MCXref xref">[!UICONTROL Verbindung in einem FTP-Modul erstellen</a> in diesem Artikel.</p> </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
+   <td> <p>Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#create-a-connection" class="MCXref xref">[!UICONTROL Verbindung erstellen] in einem FTP-Modul</a> in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Ordner]</p> </td> 
-   <td> <p>Wählen Sie den Ordner aus, den Sie sehen möchten.</p> <p><b>Hinweis:</b> Pro Szenario ist nur ein Ordner zulässig. Unterordner werden ignoriert.</p> <p><b>Tipp:</b> Erstellen Sie für jeden Ordner ein unabhängiges Szenario, um mehrere Ordner zu verfolgen.</p> </td> 
+   <td> <p>[!UICONTROL-Ordner]</p> </td> 
+   <td> <p>Wählen Sie den Ordner aus, den Sie beobachten möchten.</p> <p><b>Hinweis</b> Pro Szenario ist nur ein Ordner zulässig. Unterordner werden ignoriert.</p> <p><b>Tipp</b> Um mehrere Ordner zu verfolgen, erstellen Sie für jeden Ordner ein unabhängiges Szenario.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximale Anzahl an zurückgegebenen Dateien] </td> 
-   <td> <p>Legen Sie die maximale Anzahl von Ergebnissen fest, mit denen [!DNL Workfront Fusion] während eines Zyklus arbeiten soll. Wenn der Wert zu hoch eingestellt ist, kann die Verbindung auf der Seite des angegebenen Drittanbieterdienstes unterbrochen werden (Timeout). [!DNL Workfront Fusion] hat keinen Einfluss darauf. Es wird empfohlen, einen niedrigeren Wert festzulegen und entweder einen höheren Wert für die maximale Anzahl von Zyklen zu definieren oder das Szenario häufiger auszuführen.</p> </td> 
+   <td>[!UICONTROL Maximale Anzahl der zurückgegebenen Dateien] </td> 
+   <td> <p>Legen Sie die maximale Anzahl von Ergebnissen fest, mit denen [!DNL Workfront Fusion] während eines Zyklus arbeiten soll. Wenn der Wert zu hoch eingestellt ist, kann die Verbindung auf der Seite des angegebenen Drittanbieterdienstes unterbrochen werden (Zeitüberschreitung). [!DNL Workfront Fusion] hat darauf keinen Einfluss. Es wird empfohlen, einen niedrigeren Wert festzulegen und entweder einen höheren Wert für die maximale Anzahl an Zyklen zu definieren oder das Szenario häufiger auszuführen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -145,11 +145,11 @@ Wenn diese Option deaktiviert ist, wird das FTP-Serverzertifikat nicht überprü
 * [[!UICONTROL Berechtigungen ändern]](#change-permissions)
 * [[!UICONTROL Erstellen eines Ordners]](#create-a-folder)
 * [[!UICONTROL Datei löschen]](#delete-a-file)
-* [[!UICONTROL Ordner löschen]](#delete-a-folder)
+* [[!UICONTROL Löschen eines Ordners]](#delete-a-folder)
 * [[!UICONTROL Datei abrufen]](#get-a-file)
 * [[!UICONTROL Liste der Dateien in einem Ordner]](#list-of-files-in-a-folder)
 * [[!UICONTROL Verschieben einer Datei oder eines Ordners]](#move-a-file-or-folder)
-* [[!UICONTROL  Hochladen] einer Datei](#upload-a-file)
+* [[!UICONTROL Hochladen] einer Datei](#upload-a-file)
 
 #### [!UICONTROL Berechtigungen ändern]
 
@@ -160,24 +160,24 @@ Dieses Aktionsmodul ändert die Berechtigungseinstellungen einer Datei oder eine
    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2" />
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[!UICONTROL Verbindung]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung in einem FTP-Modul erstellen</a> in diesem Artikel.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[!UICONTROL-Verbindung]</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung erstellen] in einem FTP-Modul</a> in diesem Artikel.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">[!UICONTROL Berechtigungseinstellungen ändern]</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">[!UICONTROL Berechtigungseinstellungen ändern von]</td>
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">
                <p>Wählen Sie aus, ob Sie die Einstellungen für eine Datei oder einen Ordner ändern möchten.</p>
             </td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[!UICONTROL Dateipfad]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Geben Sie den Dateipfad für den Ordner oder die Datei ein oder ordnen Sie ihn zu.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Geben Sie den Dateipfad zum Ordner oder zur Datei ein oder ordnen Sie ihn zu.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL Berechtigungen]</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-MediumGray" role="rowheader">[!UICONTROL-Berechtigungen]</td>
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyA-Column2-MediumGray">
-               <p>Legen Sie die gewünschten Datei- oder Ordnerberechtigungen fest. Verwenden Sie die Parameter chmod . Beispiel: <code>777 </code>oder <code>-rwxrwxrwx</code>.</p>
-               <p>Berechtigungen müssen mit dem Muster <code> /(.?([r-][w-][x-]){3})|[0-7]{3,4}/</code> übereinstimmen.</p>
+               <p>Legen Sie die gewünschten Datei- oder Ordnerberechtigungen fest. Verwenden Sie die chmod-Parameter. Beispiel: <code>777 </code>oder <code>-rwxrwxrwx</code>.</p>
+               <p>Berechtigungen müssen mit dem <code> /(.?([r-][w-][x-]){3})|[0-7]{3,4}/</code> übereinstimmen.</p>
             </td>
          </tr>
    </tbody>
@@ -192,12 +192,12 @@ Dieses Aktionsmodul erstellt einen neuen Ordner.
    <col class="TableStyle-TableStyle-List-options-in-steps-Column-Column2" />
    <tbody>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[!UICONTROL Verbindung]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung in einem FTP-Modul erstellen</a> in diesem Artikel.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-LightGray" role="rowheader">[!UICONTROL-Verbindung]</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung erstellen] in einem FTP-Modul</a> in diesem Artikel.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-MediumGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyE-Column1-MediumGray" role="rowheader">[!UICONTROL Ordnerpfad]</td>
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Geben Sie den Dateipfad ein oder ordnen Sie ihn dem neuen Ordner zu.</td>
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-MediumGray">Geben Sie den Dateipfad zum neuen Ordner ein oder ordnen Sie ihn zu.</td>
          </tr>
          <tr class="TableStyle-TableStyle-List-options-in-steps-Body-LightGray">
             <td class="TableStyle-TableStyle-List-options-in-steps-BodyB-Column1-LightGray" role="rowheader">[!UICONTROL Neuer Ordnername]</td>
@@ -217,11 +217,11 @@ Löscht eine Datei aus dem angegebenen Ordner.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
-            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung in einem FTP-Modul erstellen</a> in diesem Artikel.</td>
+   <td>[!UICONTROL-Verbindung] </td> 
+            <td class="TableStyle-TableStyle-List-options-in-steps-BodyD-Column2-LightGray">Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung erstellen] in einem FTP-Modul</a> in diesem Artikel.</td>
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
+   <td>[!UICONTROL-Ordner] </td> 
    <td> <p>Wählen Sie den FTP-Ordner aus, aus dem Sie eine Datei löschen möchten.</p> </td> 
   </tr> 
   <tr> 
@@ -231,7 +231,7 @@ Löscht eine Datei aus dem angegebenen Ordner.
  </tbody> 
 </table>
 
-#### [!UICONTROL Ordner löschen]
+#### [!UICONTROL Löschen eines Ordners]
 
 Dieses Aktionsmodul löscht den angegebenen Ordner dauerhaft.
 
@@ -240,11 +240,11 @@ Dieses Aktionsmodul löscht den angegebenen Ordner dauerhaft.
    <col style="width: 50%;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" />
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
-            <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[!UICONTROL Verbindung]</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung in einem FTP-Modul erstellen</a> in diesem Artikel.</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[!UICONTROL-Verbindung]</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung erstellen] in einem FTP-Modul</a> in diesem Artikel.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
-            <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">[!UICONTROL Ordner]</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyB-Column1-MediumGray" style="font-weight: bold;">[!UICONTROL-Ordner]</td>
             <td class="TableStyle-TableStyle-HeaderRow-BodyA-Column1-MediumGray">
                <p>Wählen Sie den FTP-Ordner aus, aus dem Sie eine Datei löschen möchten.</p>
             </td>
@@ -254,19 +254,19 @@ Dieses Aktionsmodul löscht den angegebenen Ordner dauerhaft.
 
 #### [!UICONTROL Datei abrufen]
 
-Ruft eine Datei vom FTP-Server ab, die weiter verarbeitet werden kann, z. B. Hochladen auf [!DNL Dropbox].
+Ruft eine Datei vom FTP-Server ab, die weiter verarbeitet, z.B. in den [!DNL Dropbox] hochgeladen werden kann.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#creating-the-ftp-connection" class="MCXref xref">Erstellen der FTP-Verbindung</a> in diesem Artikel.</p> </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
+   <td> <p>Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#creating-the-ftp-connection" class="MCXref xref">Erstellen der FTP</a>Verbindung in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Dateipfad]</td> 
-   <td> <p> Geben Sie den Pfad der Datei ein, die Sie abrufen möchten.</p> </td> 
+   <td> <p> Geben Sie den Pfad der Datei ein, die Sie erhalten möchten.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -280,23 +280,23 @@ Ruft Datei- und/oder Ordnerinformationen ab.
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
-   <td> <p>Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#creating-the-ftp-connection" class="MCXref xref">Erstellen der FTP-Verbindung</a> in diesem Artikel.</p> </td> 
+   <td>[!UICONTROL-Verbindung] </td> 
+   <td> <p>Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#creating-the-ftp-connection" class="MCXref xref">Erstellen der FTP</a>Verbindung in diesem Artikel.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
+   <td>[!UICONTROL-Ordner] </td> 
    <td> <p>Wählen Sie den FTP-Ordner aus, in dem Sie suchen möchten.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Show] </td> 
-   <td> <p>Wählen Sie aus, ob Sie Informationen zu Dateien oder Ordnern oder beidem abrufen möchten.</p> </td> 
+   <td>[!UICONTROL Anzeigen] </td> 
+   <td> <p>Wählen Sie aus, ob Sie Informationen zu Dateien, Ordnern oder beidem abrufen möchten.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Suche] </td> 
    <td> <p>Geben Sie den Suchbegriff ein. Wenn kein Suchbegriff eingegeben wird, werden alle Dateien und Ordner aus dem angegebenen Ordner abgerufen.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Maximale Anzahl an zurückgegebenen Dateien]</td> 
+   <td>[!UICONTROL Maximale Anzahl der zurückgegebenen Dateien]</td> 
    <td> <p> Legen Sie die maximale Anzahl der von diesem Modul abgerufenen Dateien fest.</p> </td> 
   </tr> 
  </tbody> 
@@ -311,8 +311,8 @@ Dieses Aktionsmodul verschiebt eine Datei oder einen Ordner an einen anderen Spe
    <col style="width: 50%;" class="TableStyle-TableStyle-HeaderRow-Column-Column1" />
    <tbody>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-LightGray">
-            <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[!UICONTROL Verbindung]</td>
-            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung in einem FTP-Modul erstellen</a> in diesem Artikel.</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-LightGray" style="font-weight: bold;">[!UICONTROL-Verbindung]</td>
+            <td class="TableStyle-TableStyle-HeaderRow-BodyD-Column1-LightGray">Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#Create" class="MCXref xref" >[!UICONTROL Verbindung erstellen] in einem FTP-Modul</a> in diesem Artikel.</td>
          </tr>
          <tr class="TableStyle-TableStyle-HeaderRow-Body-MediumGray">
             <td class="TableStyle-TableStyle-HeaderRow-BodyE-Column1-MediumGray" style="font-weight: bold;">[!UICONTROL Alter Dateipfad]</td>
@@ -330,20 +330,20 @@ Dieses Aktionsmodul verschiebt eine Datei oder einen Ordner an einen anderen Spe
 </table>
 
 
-#### [!UICONTROL  Datei hochladen]
+#### [!UICONTROL Datei hochladen]
 
-Lädt eine Datei auf den FTP-Server hoch.
+Lädt eine Datei auf den FTP-Server.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Verbindung] </td> 
-   <td>Anweisungen zum Herstellen einer Verbindung zum FTP-Konto finden Sie unter <a href="#creating-the-ftp-connection" class="MCXref xref">Erstellen der FTP-Verbindung</a> in diesem Artikel.</td> 
+   <td>[!UICONTROL-Verbindung] </td> 
+   <td>Anweisungen zum Herstellen einer Verbindung mit dem FTP-Konto finden Sie unter <a href="#creating-the-ftp-connection" class="MCXref xref">Erstellen der FTP</a>Verbindung in diesem Artikel.</td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner] </td> 
+   <td>[!UICONTROL-Ordner] </td> 
    <td> <p>Wählen Sie den FTP-Ordner aus, in den Sie die Datei hochladen möchten.</p> </td> 
   </tr> 
   <tr> 
@@ -351,16 +351,16 @@ Lädt eine Datei auf den FTP-Server hoch.
    <td> <p>Wählen Sie eine Quelldatei aus einem vorherigen Modul aus oder ordnen Sie den Namen und die Daten der Quelldatei zu.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL An eine bereits vorhandene Datei anhängen]</td> 
-   <td> <p>Wenn diese Option aktiviert ist und die Datei bereits auf dem FTP-Server vorhanden ist, wird der Inhalt der Datei an die vorhandene Datei angehängt. Wenn diese Option nicht aktiviert ist, wird der Inhalt der Datei überschrieben.</p> </td> 
+   <td>[!UICONTROL An bereits vorhandene Datei anhängen]</td> 
+   <td> <p>Wenn diese Option aktiviert ist und die Datei bereits auf dem FTP-Server existiert, wird der Inhalt der Datei an die vorhandene Datei angehängt. Wenn diese Option nicht aktiviert ist, wird der Inhalt der Datei überschrieben.</p> </td> 
   </tr> 
   <tr> 
-   <td>[!UICONTROL Ordner erstellen, falls nicht vorhanden] </td> 
-   <td> <p>Wenn diese Option aktiviert ist und der Ordner, den Sie in das Feld Ordner eingegeben haben, nicht auf dem FTP-Server vorhanden ist, erstellt das Modul den Ordner</p> </td> 
+   <td>[!UICONTROL Ordner erstellen, wenn noch nicht vorhanden] </td> 
+   <td> <p>Wenn diese Option aktiviert ist und der Ordner, den Sie in das Feld Ordner eingegeben haben, nicht auf dem FTP-Server existiert, erstellt das Modul den Ordner</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## Fehlerbehebung {#troubleshooting}
 
-Wenn bei der Erstellung der Verbindung oder während des Vorgangs eines Moduls Probleme mit der FTP-App auftreten, versuchen Sie, einen der beliebten FTP-Clients zu verwenden und versuchen Sie, dieselbe Aktion durchzuführen (z. B. eine Verbindung zu erstellen oder Dateien in einem Ordner aufzulisten). mit dem FTP-Client. Wenn Sie dieselben Probleme auch mit dem FTP-Client haben, kann dies auf eine Fehlkonfiguration des FTP-Servers zurückzuführen sein.
+Wenn bei der Erstellung einer Verbindung oder beim Vorgang eines Moduls Probleme mit der FTP-App auftreten, versuchen Sie, einen der beliebten FTP-Clients zu verwenden und dieselbe Aktion durchzuführen (z. B. eine Verbindung zu erstellen oder Dateien in einem Ordner aufzulisten). mit dem FTP-Client. Wenn dieselben Probleme auch mit dem FTP-Client auftreten, kann der Grund eine Fehlkonfiguration des FTP-Servers sein.

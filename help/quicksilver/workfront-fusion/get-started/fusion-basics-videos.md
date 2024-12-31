@@ -2,8 +2,8 @@
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
-title: Videos zu den Fusionsgrundlagen
-description: Videos zu den Fusionsgrundlagen
+title: Videos zu Fusion Basics
+description: Videos zu Fusion Basics
 author: Becky
 feature: Workfront Fusion
 exl-id: 7ba95790-1255-4a3e-ba7b-8dc73001b583
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 # Videoübersichten zu Adobe Workfront Fusion
 
-Diese Videos helfen Ihnen, sich mit einigen Funktionen von Adobe Workfront Fusion vertraut zu machen.
+Diese Videos helfen Ihnen dabei, sich mit einigen Funktionen von Adobe Workfront Fusion vertraut zu machen.
 
 ## Grundlagen
 
-* [In Webhooks einleiten](https://video.tv.adobe.com/v/3427025/){target=_blank}
-* [Zwischenmäßige Webhooks](https://video.tv.adobe.com/v/3427030/){target=_blank}
+* [Einführung in Webhooks](https://video.tv.adobe.com/v/3427025/){target=_blank}
+* [Zwischen-Webhooks](https://video.tv.adobe.com/v/3427030/){target=_blank}
 * [Datenspeicher](https://video.tv.adobe.com/v/3427029/){target=_blank}
-* [Fusion Development Tool](https://video.tv.adobe.com/v/3427031/){target=_blank}
+* [Fusion-Entwicklungstool](https://video.tv.adobe.com/v/3427031/){target=_blank}
 * [Synchronisieren von Ordnern](https://video.tv.adobe.com/v/3427033/){target=_blank}
 
 ## Connectoren

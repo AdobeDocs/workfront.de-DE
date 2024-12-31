@@ -2,8 +2,8 @@
 content-type: reference
 product-area: projects
 navigation-topic: navigate-workfront
-title: Letzte und Favoriten in  [!DNL Adobe Workfront]
-description: Lesen Sie die folgenden Artikel, um mehr über die Verwendung von Favoriten und Neuigkeiten in Workfront zu erfahren.
+title: Letzte und Favoriten in [!DNL Adobe Workfront]
+description: In den folgenden Artikeln erfahren Sie mehr über die Verwendung von Favoriten und kürzlich in Workfront.
 feature: Get Started with Workfront
 author: Lisa
 recommendations: noDisplay, noCatalog
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Anzeigen und Verwalten von Favoriten](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
-* [Aktuelle Elemente anzeigen](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)
+* [Favoriten anzeigen und verwalten](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-and-manage-favorites.md)
+* [Zuletzt verwendete Elemente anzeigen](../../../workfront-basics/navigate-workfront/recent-and-favorites/view-recent-items.md)

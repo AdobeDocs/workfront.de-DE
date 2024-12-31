@@ -2,7 +2,7 @@
 title: Freigeben eines Projekts in Adobe Workfront
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
-description: Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Projekten gewähren. Weitere Informationen finden Sie unter Gewähren von Zugriff auf Projekte.
+description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Projekten gewähren. Weitere Informationen finden Sie unter Gewähren des Zugriffs auf Projekte.
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
@@ -17,21 +17,21 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Projekten gewähren. Weitere Informationen finden Sie unter [Gewähren des Zugriffs auf Projekte](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Projekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Neben der Zugriffsstufe, die Benutzern zugewiesen wird, können Sie ihnen auch Berechtigungen für die Anzeige, Contribute oder Verwaltung bestimmter Projekte erteilen, auf die Sie Zugriff haben.
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Contribute oder Verwalten bestimmter Projekte erteilen, auf die Sie Zugriff haben, um sie freizugeben.
 
-Berechtigungen beziehen sich auf ein Element in Workfront und legen fest, welche Aktionen für dieses Element durchgeführt werden können.
+Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen man für dieses Element ausführen kann.
 
-## Überlegungen zum Freigeben von Projekten
+## Überlegungen zur Freigabe von Projekten
 
-Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informationen unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-* Standardmäßig ist der Ersteller eines Projekts berechtigt, das Projekt zu verwalten, und ist auch als Projekteigentümer ausgewiesen. Wenn das Projekt einem anderen Eigentümer zugewiesen ist, hat dieser Benutzer auch die Berechtigung zum Verwalten des Projekts. Wenn der Projektersteller (oder -inhaber) das Projekt mit anderen Benutzern teilt, erteilen er diesen Benutzern bestimmte Berechtigungen, um zu steuern, was sie bei der Arbeit am Projekt tun können.
+* Standardmäßig verfügt der Ersteller eines Projekts über Berechtigungen zum Verwalten des Projekts und wird auch als Projektbesitzer bezeichnet. Wenn das Projekt einem anderen Eigentümer zugewiesen ist, verfügt dieser Benutzer auch über Berechtigungen zum Verwalten des Projekts. Wenn der Projektersteller (oder -eigentümer) das Projekt für andere Benutzer freigibt, gewähren sie diesen Benutzern bestimmte Berechtigungen, um zu steuern, was sie bei der Arbeit am Projekt tun können.
 
-  Wenn ein Projekteigentümer jedoch nicht über eine Planner-Lizenz verfügt, hat er keinen vollen Zugriff auf die Verwaltung des Projekts. Nur Benutzer mit einer Planungslizenz können zur Verwaltung eines Projekts berechtigt sein. Weitere Informationen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Wenn ein Projekteigentümer jedoch nicht über eine Planner-Lizenz verfügt, hat er nicht den vollen Zugriff, um das Projekt zu verwalten. Nur Benutzer mit einer Planlizenz können über Berechtigungen zum Verwalten eines Projekts verfügen. Weitere Informationen finden Sie unter [ der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-* Sie können Projekte einzeln oder mehrere freigeben. Die Freigabe von Projekten ist mit der Freigabe anderer Objekte identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Sie können Projekte einzeln oder gemeinsam nutzen. Die Freigabe von Projekten ist mit der Freigabe anderer Objekte identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Sie können einem Projekt die folgenden Berechtigungen erteilen:
 
    * Anzeigen
@@ -42,21 +42,21 @@ Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berech
 
 * Wenn Sie ein Projekt freigeben, erben alle Aufgaben, Probleme und Dokumente dieselben Berechtigungen, sofern nicht anders angegeben.
 
-  Informationen zum Verwalten des Zugriffs auf Aufgaben und Probleme im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im Abschnitt [](../../manage-work/projects/manage-projects/edit-projects.md#access) im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+  Informationen zur Verwaltung des Zugriffs auf Aufgaben und Probleme im Projekt auf der Grundlage der Berechtigungen eines Benutzers für das Projekt finden Sie im [](../../manage-work/projects/manage-projects/edit-projects.md#access) Abschnitt im Artikel [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
-  Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten in der Zugriffsebene des Benutzers erben sollen. Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten auf der Zugriffsebene der Benutzenden erben sollen. Weitere Informationen zum Beschränken von geerbten Berechtigungen für Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Sie können geerbte Berechtigungen aus einem Projekt entfernen, damit die untergeordneten Objekte sie nicht übernehmen. Weitere Informationen zum Entfernen von geerbten Berechtigungen aus Objekten finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Sie können geerbte Berechtigungen aus einem Projekt entfernen, sodass die untergeordneten Objekte sie nicht erben. Weitere Informationen zum Entfernen geerbter Berechtigungen aus Objekten finden Sie unter [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
 ## Möglichkeiten zum Freigeben eines Projekts {#ways-to-share-a-project}
 
 Sie können ein Projekt wie folgt freigeben:
 
-* Führen Sie manuell einen der folgenden Schritte aus:
+* Führen Sie dazu manuell einen der folgenden Schritte aus:
 
-   * Hinzufügen von Benutzern zum Projektteam. Wenn Sie Benutzer zum Projektteam hinzufügen, erhalten sie automatisch Anzeigeberechtigungen für das Projekt.\
-     Weitere Informationen zum Hinzufügen von Benutzern zu einem Projektteam finden Sie im Abschnitt &quot;Hinzufügen von Benutzern zu einem Projektteam&quot;in der [Übersicht über das Projektteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
-   * Einzelne Freigabe oder Massenweitergabe der Projekte bei Verwendung der Option **Freigabe**.
+   * Hinzufügen von Benutzern zum Projektteam. Wenn Sie Benutzer zum Projekt-Team hinzufügen, erhalten diese automatisch Ansichtsberechtigungen für das Projekt.\
+     Weitere Informationen zum Hinzufügen von Benutzern zu einem Projektteam finden Sie im Abschnitt „Hinzufügen von Benutzern zu einem Projektteam“ in [Übersicht über das Projektteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
+   * Einzeln oder für die Massenfreigabe der Projekte bei Verwendung der Option **Freigabe**.
 
      Die Freigabe eines Projekts ähnelt der Freigabe aller anderen Objekte in Adobe Workfront.
 
@@ -64,22 +64,22 @@ Sie können ein Projekt wie folgt freigeben:
 
 * Führen Sie automatisch einen der folgenden Schritte aus:
 
-   * Platzieren Sie ein Projekt in ein **Portfolio** oder ein **Programm**, das bereits für andere freigegeben ist. Benutzer erhalten dieselben Berechtigungen für das Projekt, die sie für das Portfolio oder Programm haben.\
-     Informationen zum Hinzufügen eines Projekts zu einem **Portfolio** finden Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
-     Weitere Informationen zum Hinzufügen eines Projekts zu einem **Programm** finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
+   * Platzieren Sie ein Projekt in einem **Portfolio** oder **Programm**, das bereits für andere freigegeben ist. Benutzer erhalten für das Projekt dieselben Berechtigungen wie für das Portfolio oder Programm.\
+     Informationen zum Hinzufügen eines Projekts zu einem **Portfolio** Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+     Informationen zum Hinzufügen eines Projekts zu einem **Programm** finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
-     Weitere Informationen zum Anzeigen von geerbten Berechtigungen für ein Objekt finden Sie unter [Anzeigen von geerbten Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+     Weitere Informationen zum Anzeigen geerbter Berechtigungen für ein Objekt finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
-   * Fügen Sie Entitäten zur Projektfreigabe in einer Vorlage hinzu, die zum Erstellen des Projekts verwendet wird. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
-   * Definieren Sie die Vorlage für den Projektzugriff.
+   * Entitäten zur Projektfreigabe einer Vorlage hinzufügen, mit der das Projekt erstellt wurde. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+   * Definieren Sie die Projektzugriffsvorlage.
 
      Informationen zum Definieren der Projektzugriffsvorlage finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
      >[!TIP]
      >
-     >Beim Anhängen oder Speichern einer Vorlage können Sie die Regeln für die Projektfreigabe in Vorlagen löschen.
+     >Beim Anhängen oder Speichern einer Vorlage können Sie die Regeln zur Projektfreigabe in der Vorlage löschen.
 
-   * Bearbeiten Sie ein Projekt und definieren Sie die Einstellung &quot;**Wenn jemand Zugriff auf dieses Projekt erhält&quot;** . Weitere Informationen finden Sie unter [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
+   * Bearbeiten Sie ein Projekt und definieren Sie die Einstellung **Wenn jemand Zugriff auf dieses Projekt erhält** . Weitere Informationen finden Sie unter [Projekte bearbeiten](../../manage-work/projects/manage-projects/edit-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -104,10 +104,10 @@ Sie können ein Projekt wie folgt freigeben:
 
 ## Einschränkungen für verschiedene Lizenztypen
 
-* Benutzer mit einer Worker-Lizenz verfügen nicht über die Berechtigung zum Verwalten von Projekten. Für Arbeitnehmer ist Contribute die höchste Freigabeberechtigung.
-* Benutzer mit einer Anforderungslizenz können Projektinformationen anzeigen, haben jedoch eingeschränkten Projektzugriff.
-* Eine Ausnahme bildet die Änderung des Projektstatus, wenn ein Benutzer mit der Berechtigung zum Anzeigen oder Contribute auch in einem Genehmigungsprozess enthalten ist. Sie können das Projekt genehmigen, wodurch der Status des Projekts geändert wird. Der Status ist jedoch der vordefinierte Status für die Genehmigung oder die Ablehnung.
-* Um ein Projekt kopieren zu können, muss ein Benutzer auch Zugriff haben, um Projekte in seiner Zugriffsebene zu erstellen.
+* Benutzer mit einer Worker-Lizenz sind nicht berechtigt, Projekte zu verwalten. Für Worker lautet die höchste Freigabeberechtigung Contribute.
+* Benutzer mit einer Anfragelizenz können Projektinformationen anzeigen, haben jedoch eingeschränkten Projektzugriff.
+* Eine Ausnahme vom Ändern des Status eines Projekts tritt auf, wenn ein(e) Benutzende(r) mit der Berechtigung Anzeigen oder Contribute ebenfalls in einen Genehmigungsprozess eingeschlossen ist. Sie können das Projekt genehmigen, was den Status des Projekts ändert, aber der Status ist der vordefinierte Status für die Genehmigung oder Ablehnung.
+* Um ein Projekt kopieren zu können, muss ein Benutzer auch Zugriff zum Erstellen von Projekten auf seiner Zugriffsebene haben.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -133,7 +133,7 @@ The
 
 ## Optionen für Projektberechtigungen
 
-In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim Freigeben eines Projekts gewähren können. Weitere Informationen dazu, welche Zugriffsberechtigungen Benutzer auf der Grundlage ihrer Lizenz erhalten, finden Sie unter [Gewähren des Zugriffs auf Projekte](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
+In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer bei der Freigabe eines Projekts erteilen können. Weitere Informationen dazu, welchen Zugriff Benutzer auf ihrer Lizenz erhalten, finden Sie unter [Zugriff auf Projekte gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -162,7 +162,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Hinzufügen eines Validierungsprozesses</p> </td> 
+   <td> <p>Genehmigungsprozess hinzufügen</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -192,7 +192,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Problem(e) hinzufügen</p> </td> 
+   <td> <p>Anfrage(n) hinzufügen</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -216,7 +216,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Geplante Datumswerte ändern</p> </td> 
+   <td> <p>Geplante Daten ändern</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -264,7 +264,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Grundlinie verwalten</p> </td> 
+   <td> <p>Baseline verwalten</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -276,13 +276,13 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Verwalten von Finanzverwalten*</p> </td> 
+   <td> <p>Finanzen verwalten*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Hinzufügen/Bearbeiten von Ausgaben*</p> </td> 
+   <td> <p>Kosten hinzufügen/bearbeiten*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
@@ -306,7 +306,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Geschäftsszenario hinzufügen/bearbeiten</p> </td> 
+   <td> <p>Business Case hinzufügen/bearbeiten</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -318,7 +318,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Bearbeiten von Personal</p> </td> 
+   <td> <p>Personal bearbeiten</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -330,7 +330,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Finanz-/Zeitleiste neu berechnen*</p> </td> 
+   <td> <p>Neuberechnen der Finanzen/des Zeitplans*</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p> </p> </td> 
    <td> <p> </p> </td> 
@@ -342,7 +342,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
    <td> <p>  </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Projekt in einer Liste stapelweise bearbeiten</p> </td> 
+   <td> <p>Projekt stapelweise in einer Liste bearbeiten</p> </td> 
    <td> <p>✓</p> </td> 
    <td> </td> 
    <td> </td> 
@@ -350,4 +350,4 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer beim 
  </tbody> 
 </table>
 
-&#42;Benutzer ohne Zugriff auf Finanzdaten können Risiken und Finanzen für Projekte nicht verwalten, selbst wenn sie Zugriff auf Projekte bearbeiten haben. Informationen zum Zugriff auf Finanzdaten finden Sie unter [Zugriff auf Finanzdaten gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+&#42;Benutzende ohne Zugriff auf Finanzdaten können Risiken und Finanzen für Projekte nicht verwalten, auch wenn sie Bearbeitungszugriff auf Projekte haben. Informationen zum Zugriff auf Finanzdaten finden Sie unter [Zugriff auf Finanzdaten gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

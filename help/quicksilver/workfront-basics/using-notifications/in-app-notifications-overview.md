@@ -2,7 +2,7 @@
 content-type: overview
 navigation-topic: notifications
 title: Übersicht über In-App-Benachrichtigungen
-description: 'In diesem Artikel werden die In-App-Benachrichtigungen aufgelistet, die Sie erhalten können. In-App-Benachrichtigungen informieren Sie über zwei Arten von Informationen: Benachrichtigungen zu Mitteilungen und Benachrichtigungen zu Arbeitselementen. Sie sind sowohl in der Webanwendung als auch in der Mobile App verfügbar.'
+description: 'In diesem Artikel werden die In-App-Benachrichtigungen aufgelistet, die Sie erhalten können. In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: afc8cfe7-d9a7-458a-b437-bd4c75838cb0
@@ -15,35 +15,35 @@ ht-degree: 1%
 
 # Übersicht über In-App-Benachrichtigungen
 
-In diesem Artikel werden die In-App-Benachrichtigungen aufgelistet, die Sie erhalten können. In-App-Benachrichtigungen informieren Sie über zwei Arten von Informationen: Benachrichtigungen zu Mitteilungen und Benachrichtigungen zu Arbeitselementen. Sie sind sowohl in der Webanwendung als auch in der Mobile App verfügbar.
+In diesem Artikel werden die In-App-Benachrichtigungen aufgelistet, die Sie erhalten können. In-App-Benachrichtigungen halten Sie über zwei Arten von Informationen auf dem Laufenden: Ankündigungsbenachrichtigungen und Arbeitsaufgabenbenachrichtigungen. Sie sind sowohl in der Web-Anwendung als auch in der Mobile App verfügbar.
 
-Anweisungen zum Anzeigen und Verwalten dieser Benachrichtigungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Anweisungen zum Anzeigen und Verwalten dieser Benachrichtigungen finden Sie unter [Anzeigen und Verwalten von In-App-](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-* [[!UICONTROL  Mitteilungen ]](#announcement-notifications)
-* [[!UICONTROL Benachrichtigungen bezüglich Arbeitselementen]](#work-item-notifications)
+* [[!UICONTROL Ankündigung] Benachrichtigungen](#announcement-notifications)
+* [[!UICONTROL Arbeitselement] Benachrichtigungen](#work-item-notifications)
 
-## [!UICONTROL  Mitteilungen ]
+## [!UICONTROL Ankündigung] Benachrichtigungen
 
-Mitteilungen bieten zwei Möglichkeiten:
+Ankündigungen erfolgen auf eine von zwei Arten:
 
-* [!DNL Workfront] sendet eine Nachricht an die Seite [!UICONTROL Mitteilung] der [!DNL Workfront]-Administratoren Ihres Unternehmens
-* Ein [!DNL Workfront] -Administrator sendet eine Nachricht von der Seite [!UICONTROL Mitteilung] an Benutzer
+* [!DNL Workfront] sendet eine Nachricht an die [!UICONTROL Ankündigung] der [!DNL Workfront]-Administratoren Ihres Unternehmens
+* Ein [!DNL Workfront] sendet eine Nachricht von der Seite [!UICONTROL Ankündigung] an Benutzer
 
-Wenn der Administrator oder Benutzer in beiden Fällen auf das nummerierte Symbol &quot;![](assets/notifications-icon-jewel.jpg)&quot; in der oberen rechten Ecke von &quot;[!DNL Workfront]&quot; klickt, um die Benachrichtigungsliste zu öffnen, wird die Betreffzeile der Nachricht mit einem Megaphersymbol (![](assets/announcement.png)) und dem Wort &quot;[!UICONTROL Mitteilung]&quot;angezeigt.
+Wenn Admins oder Benutzende in beiden Fällen auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) in der oberen rechten Ecke von [!DNL Workfront] klicken, um die Liste der Benachrichtigungen zu öffnen, wird die Betreffzeile der Nachricht mit einem Megaphon-Symbol ![](assets/announcement.png) und dem Wort &quot;[!UICONTROL Ankündigung] angezeigt.
 
-![[!UICONTROL Mitteilung ] Benachrichtigung](assets/notification-list-announcement-350x271.png)
+![[!UICONTROL Ankündigung] Benachrichtigung](assets/notification-list-announcement-350x271.png)
 
-Informationen zur Seite [!UICONTROL Mitteilungen] finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Weitere Informationen zur Seite [!UICONTROL Ankündigungen] finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-## [!UICONTROL Benachrichtigungen bezüglich Arbeitselementen]
+## [!UICONTROL Arbeitselement] Benachrichtigungen
 
-Wenn Sie in der oberen rechten Ecke von [!DNL Workfront] auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) klicken, um Ihre Benachrichtigungsliste zu öffnen, wird die Betreffzeile der Nachricht mit dem Arbeitselement mit einem Symbol und einer kurzen Beschreibung angezeigt, um zu ermitteln, worum es geht. Die Symbole und Beschreibungsarten sind unten aufgeführt.
+Wenn Sie auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) in der oberen rechten Ecke von [!DNL Workfront] klicken, um die Liste der Benachrichtigungen zu öffnen, wird die Betreffzeile der Arbeitsaufgabennachricht mit einem Symbol und einer kurzen Beschreibung angezeigt, um zu ermitteln, worum es geht. Symbol- und Beschreibungsarten sind unten aufgeführt.
 
-![Benachrichtigungen bezüglich Arbeitselementen](assets/notification-list-work-items-350x247.png)
+![Arbeitsaufgabenbenachrichtigungen](assets/notification-list-work-items-350x247.png)
 
 >[!NOTE]
 >
->In-App-Benachrichtigungen für Arbeitsaktivitäten sind nicht an E-Mail-Benachrichtigungen in [!DNL Workfront] gebunden. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
+>In-App-Benachrichtigungen für Arbeitsaktivitäten sind in [!DNL Workfront] nicht an E-Mail-Benachrichtigungen gebunden. Weitere Informationen finden Sie unter [[!DNL Adobe Workfront] Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
 * [[!UICONTROL Genehmigungen]](#approvals)
 * [[!UICONTROL Anfragen]](#requests)
@@ -51,97 +51,97 @@ Wenn Sie in der oberen rechten Ecke von [!DNL Workfront] auf das nummerierte Sym
 * [[!UICONTROL Kommentare]](#comments)
 * [[!UICONTROL Updates]](#updates)
 * [[!UICONTROL Datumsänderungen]](#date-changes)
-* [[!UICONTROL Share]](#share)
+* [[!UICONTROL Freigeben]](#share)
 * [[!UICONTROL Sonstige]](#other)
 
 ### [!UICONTROL Genehmigungen]
 
-* ![](assets/prjneedsapprvl.png) [!UICONTROL Für das Projekt ist Ihre Genehmigung erforderlich] - [Name des Absenders]
+* ![](assets/prjneedsapprvl.png) [!UICONTROL Projekt muss genehmigt ] - [Name des Absenders]
 * ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe benötigt Ihre Genehmigung] - [Name des Absenders]
-* ![](assets/issue.png) [!UICONTROL Das Problem muss genehmigt werden] - [Name des Absenders]
-* ![](assets/document.png) [!UICONTROL Dokument benötigt Ihre Genehmigung] - [Name des Absenders]
-* ![](assets/proof.png) [!UICONTROL Der Testversand benötigt Ihre Genehmigung] - [Name des Absenders]
-* ![](assets/timesheet.png) [!UICONTROL Das Datenblatt benötigt Ihre Genehmigung] - [Name des Absenders]
+* ![](assets/issue.png) [!UICONTROL Problem erfordert Ihre Genehmigung] - [Name des Absenders]
+* ![](assets/document.png) [!UICONTROL Dokument muss genehmigt ] - [Name des Absenders]
+* ![](assets/proof.png) [!UICONTROL Korrekturabzug muss von ] genehmigt werden - [Name des Absenders]
+* ![](assets/timesheet.png) [!UICONTROL Arbeitszeittabelle benötigt Ihre Genehmigung] - [Name des Absenders]
 
   <!--
   <li data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver"> <img src="assets/portfolio.png"> You need to approve a portfolio</li>
   -->
 
-* [Objektname] [!UICONTROL benötigt Ihre Zugriffsgenehmigung] - [Name des Absenders]
+* [Objektname] [!UICONTROL benötigt Ihre Zugriffsgenehmigung] - [Absendername]
 
-  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, ![](assets/icon-taskassngdtoyou.png) Aufgabe, ![](assets/issue.png) Problem, ![](assets/document.png) Dokument, Bericht, Dashboard, ![](assets/portfolio.png) Portfolio, ![](assets/program.png) Programm oder Kalender sein.
+  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, eine ![](assets/icon-taskassngdtoyou.png), ein ![](assets/issue.png) Problem, ein ![](assets/document.png) Dokument, ein Bericht, ein Dashboard, ein ![](assets/portfolio.png) Portfolio, ein ![](assets/program.png) oder ein Kalender sein.
 
-* ![](assets/timesheet.png) [!UICONTROL Validiertes Datenblatt ] - [Name des Genehmigers]
-* ![](assets/timesheet.png) [!UICONTROL Zurückgewiesenes Datenblatt] - [Name des Genehmigers]
-* ![](assets/timesheet.png) [!UICONTROL Zeitblatt erneut geöffnet] - [Name des Öffners]
-* ![](assets/timesheet.png) [!UICONTROL Timesheet-Kommentar] - [Name des Kommentars]
-* ![](assets/document.png) [!UICONTROL Dokumentgenehmigung abgeschlossen] - [Name des Absenders]
+* ![](assets/timesheet.png) [!UICONTROL Arbeitszeittabelle genehmigt] - [Name der genehmigenden Person]
+* ![](assets/timesheet.png) [!UICONTROL Arbeitszeittabelle abgelehnt] - [Name der genehmigenden Person]
+* ![](assets/timesheet.png) [!UICONTROL Arbeitszeittabelle erneut geöffnet] - [Name des Öffners]
+* ![](assets/timesheet.png) [!UICONTROL Arbeitszeittabellen-] - [Name des Kommentators]
+* ![](assets/document.png) [!UICONTROL Dokumentengenehmigung abgeschlossen] - [Name des Absenders]
 * ![](assets/document.png) [!UICONTROL Dokument genehmigt] - [Name des Absenders]
-* ![](assets/document.png) [!UICONTROL Dokument mit den Änderungen genehmigt] - [Name des Absenders]
+* ![](assets/document.png) [!UICONTROL Dokument mit Änderungen genehmigt] - [Name des Absenders]
 * ![](assets/document.png) [!UICONTROL Dokument abgelehnt] - [Name des Absenders]
-* ![](assets/document.png) [!UICONTROL Anforderung der Dokumentgenehmigung abgebrochen] - [Name des Absenders]
+* ![](assets/document.png) [!UICONTROL Dokumentengenehmigungsanfrage storniert] - [Name des Absenders]
 
 ### [!UICONTROL Anfragen]
 
-* ![](assets/document.png) [Benutzersymbol] [!UICONTROL Sie wurden aufgefordert, ein Dokument hochzuladen] - [Name des Anforderers]
-* ![](assets/document.png) [!UICONTROL Anfrage zum Hochladen von Dokumenten erfüllt] - [Name des Füllers]
-* ![](assets/user.png) [!UICONTROL Kommentar anfordern] - Name des Absenders
-* ![](assets/document.png) [!UICONTROL Anfrage zum Hochladen von Dokumenten abgebrochen] - [Name des Absenders]
-* [Objektname] [!UICONTROL Zugriff angefordert] - [Name des Absenders]
+* ![](assets/document.png) [Benutzersymbol] ([!UICONTROL  Sie ein Dokument hochladen] - [Name des Anforderers]
+* ![](assets/document.png) [!UICONTROL Anfrage zum Hochladen eines Dokuments ] erfüllt[ - (Name des Ausfüllers]
+* ![](assets/user.png) [!UICONTROL Kommentar anfordern] - Absendername
+* ![](assets/document.png) [!UICONTROL Dokumentuploadanfrage abgebrochen] - [Name des Absenders]
+* [Objektname] [!UICONTROL Zugriff angefordert] - [Absendername]
 
-  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, ![](assets/icon-taskassngdtoyou.png) Aufgabe, ![](assets/issue.png) Problem, ![](assets/document.png) Dokument, Bericht, Dashboard, ![](assets/portfolio.png) Portfolio, ![](assets/program.png) Programm oder Kalender sein.
+  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, eine ![](assets/icon-taskassngdtoyou.png), ein ![](assets/issue.png) Problem, ein ![](assets/document.png) Dokument, ein Bericht, ein Dashboard, ein ![](assets/portfolio.png) Portfolio, ein ![](assets/program.png) oder ein Kalender sein.
 
 ### [!UICONTROL Arbeitsaufträge]
 
-* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe, die Ihnen zugewiesen ist] - [Name des Zedenten]
-* ![](assets/issue.png) [!UICONTROL Problem, das Ihnen zugewiesen wurde] - [Name des Zedenten]
-* ![](assets/issue.png) [!UICONTROL Problem, das ] [Teamname] zugewiesen wurde - [Name des Zedenten]
-* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe, die ] [Teamname] zugewiesen ist - [Name des Zuweisers]
+* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Ihnen zugewiesene Aufgabe] - [Name des Zuweisers]
+* ![](assets/issue.png) [!UICONTROL Ihnen zugewiesenes Problem] - [Name des Zuweisenden]
+* ![](assets/issue.png) [!UICONTROL Problem zugewiesen zu] [Team-Name] - [Name des Zuweisenden]
+* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Aufgabe zugewiesen zu] [Team-Name] - [Name des Zuweisenden]
 
-   * Zuweisungsbenachrichtigungen werden nur gesendet, wenn der Projektstatus auf &quot;[!UICONTROL Aktuell]&quot;(oder auf einen benutzerdefinierten Status festgelegt ist, der dem Wert &quot;[!UICONTROL Aktuell&quot;)] entspricht.
-   * Es ist nicht vorgesehen, dass Anforderern und Validierern Aufgaben zugewiesen werden. Daher werden sie nicht benachrichtigt, wenn sie Aufgaben und Problemen zugewiesen sind.
-   * Wenn Sie sich selbst oder einem Team, dem Sie angehören, Arbeit zuweisen, erhalten Sie keine Benachrichtigung.
+   * Zuweisungsbenachrichtigungen werden nur gesendet, wenn der Projektstatus auf [!UICONTROL Aktuell] (oder einen benutzerdefinierten Status, der dem „Aktuell“ entspricht[!UICONTROL  festgelegt ].
+   * Es ist nicht vorgesehen, dass Antragstellern und Prüfern Arbeiten zugewiesen werden. Daher werden sie nicht benachrichtigt, wenn sie Aufgaben und Problemen zugewiesen sind.
+   * Wenn Sie sich oder einem Team, dem Sie angehören, Arbeit zuweisen, erhalten Sie keine Benachrichtigung.
 
 ### [!UICONTROL Kommentare]
 
-* ![](assets/user.png) [Objektname] [!UICONTROL Kommentar] - [Name des Kommentars]
+* ![](assets/user.png) [Objektname] [!UICONTROL Kommentar] - [Name des Kommentators]
 
-  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, ![](assets/icon-taskassngdtoyou.png) Aufgabe, ![](assets/issue.png) Problem, ![](assets/document.png) Dokument, Bericht, Dashboard, ![](assets/portfolio.png) Portfolio, ![](assets/program.png) Programm oder Kalender sein.
+  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, eine ![](assets/icon-taskassngdtoyou.png), ein ![](assets/issue.png) Problem, ein ![](assets/document.png) Dokument, ein Bericht, ein Dashboard, ein ![](assets/portfolio.png) Portfolio, ein ![](assets/program.png) oder ein Kalender sein.
 
-* [Objektname] [!UICONTROL update] - [Name des Aktualisierers]
+* [Objektname] [!UICONTROL Aktualisieren] - [Name des Updaters]
 
-  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, ![](assets/icon-taskassngdtoyou.png) Aufgabe, ![](assets/issue.png) Problem, ![](assets/document.png) Dokument, Bericht, Dashboard, ![](assets/portfolio.png) Portfolio, ![](assets/program.png) Programm oder Kalender sein.
+  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, eine ![](assets/icon-taskassngdtoyou.png), ein ![](assets/issue.png) Problem, ein ![](assets/document.png) Dokument, ein Bericht, ein Dashboard, ein ![](assets/portfolio.png) Portfolio, ein ![](assets/program.png) oder ein Kalender sein.
 
-* [Objektname] [!UICONTROL update] - [Name des Aktualisierers]
+* [Objektname] [!UICONTROL Aktualisieren] - [Name des Updaters]
 
-  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, ![](assets/icon-taskassngdtoyou.png) Aufgabe, ![](assets/issue.png) Problem, ![](assets/document.png) Dokument, Bericht, Dashboard, ![](assets/portfolio.png) Portfolio, ![](assets/program.png) Programm oder Kalender sein.
+  Das Objekt kann ein ![](assets/prjneedsapprvl.png) Projekt, eine ![](assets/icon-taskassngdtoyou.png), ein ![](assets/issue.png) Problem, ein ![](assets/document.png) Dokument, ein Bericht, ein Dashboard, ein ![](assets/portfolio.png) Portfolio, ein ![](assets/program.png) oder ein Kalender sein.
 
-* ![](assets/user.png) [!UICONTROL Gefällt mir für Ihren Kommentar] - [Name des Benutzers]
-* ![](assets/timesheet.png) [!UICONTROL Timesheet-Kommentar] - [Name des Kommentars]
-* [!UICONTROL Kommentar] - [Anzeigename]
-* ![](assets/user.png) [!UICONTROL Kommentar] - Name des Kommentars
-* ![](assets/timesheet.png) [!UICONTROL Timesheet-Kommentar] - Kommentname
+* ![](assets/user.png) [!UICONTROL Gefällt Ihr Kommentar] - [Liker&#39;s Name]
+* ![](assets/timesheet.png) [!UICONTROL Arbeitszeittabellen-] - [Name des Kommentators]
+* [!UICONTROL Kommentar] - [Name des Kommentators]
+* ![](assets/user.png) [!UICONTROL Kommentar] - Name des Kommentators
+* ![](assets/timesheet.png) [!UICONTROL Arbeitszeittabellen-] - Name des Kommentators
 
 ### [!UICONTROL Updates]
 
-* ![](assets/user.png) [!UICONTROL Sie in einem Kommentar mit Tags versehen] - [Name des Taggers]
-* ![](assets/user.png) [!UICONTROL Ihr Team mit einem Kommentar versehen] - [Name des Taggers]
-* ![](assets/user.png) [!UICONTROL Ihr Team mit einem Kommentar versehen] - [Name des Taggers]
+* ![](assets/user.png) [!UICONTROL Sie in einem Kommentar getaggt] - [Name des Taggers]
+* ![](assets/user.png) [!UICONTROL Ihr Team in einem Kommentar getaggt] - [Name des Taggers]
+* ![](assets/user.png) [!UICONTROL Ihr Team in einem Kommentar getaggt] - [Name des Taggers]
 
 ### [!UICONTROL Datumsänderungen]
 
-* ![](assets/issue.png) [!UICONTROL Fälligkeitsdatum des Problems geändert] - [Name des Änderers]
-* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Fälligkeitsdatum der Aufgabe geändert] - [Name des Änderers]
-* ![](assets/issue.png) [!UICONTROL Das Datum für die Ausgabe-Übertragung wurde geändert] - [Name des Änderers]
-* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Task commit date changed] - [changer name]
+* ![](assets/issue.png) [!UICONTROL Fälligkeitsdatum für das Problem ] geändert - [Name des Änderers]
+* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Fälligkeitsdatum der ] geändert[ - (Name des Änderers]
+* ![](assets/issue.png) [!UICONTROL Commit-Datum für Anfrage geändert] - [Name des Änderers]
+* ![](assets/icon-taskassngdtoyou.png) [!UICONTROL Commit-Datum der Aufgabe ] geändert[ - (Name des Änderers]
 
-### [!UICONTROL Share]
+### [!UICONTROL Freigeben]
 
 * ![](assets/document.png) [!UICONTROL Dokument für Sie freigegeben] - [Name des Teilnehmers]
-* ![](assets/document.png) [!UICONTROL Dokument, das für ] [Teamname] freigegeben wurde - [Name des Teilnehmers]
-* ![](assets/proof.png) [!UICONTROL Testversand für Sie freigegeben] - [Name des Teilnehmers]
+* ![](assets/document.png) [!UICONTROL Dokument freigegeben für] [Team-Name] - [Name des Teilnehmers]
+* ![](assets/proof.png) [!UICONTROL Korrekturabzug für Sie freigegeben] - [Name des Teilnehmers]
 
 ### [!UICONTROL Sonstige]
 
-* ![](assets/error.png) [!UICONTROL Sie müssen auf einen Fehler achten]
+* ![](assets/error.png) [!UICONTROL Ein Fehler erfordert Ihre Aufmerksamkeit]
 * ![](assets/announcement.png) [!UICONTROL Ankündigung] - [Name des Workfront-Administrators]

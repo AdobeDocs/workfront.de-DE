@@ -1,8 +1,8 @@
 ---
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Sei ein iOS-Betatester
-description: Lesen Sie diesen Artikel, um ein iOS-Betatester für die  [!DNL Adobe Workfront] mobile App zu werden.
+title: IOS-Betatester sein
+description: Lesen Sie diesen Artikel, um ein iOS-Betatester für die Mobile  [!DNL Adobe Workfront]  zu werden.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
@@ -13,72 +13,72 @@ ht-degree: 0%
 
 ---
 
-# Sei ein [!UICONTROL iOS] Beta-Tester
+# Ein [!UICONTROL iOS]-Betatester sein
 
-## Beta-App herunterladen
+## Herunterladen der Beta-App
 
-Es gibt mehrere Möglichkeiten, Beta-Tester für die [!DNL Adobe Workfront]-App zu werden:
+Es gibt mehrere Möglichkeiten, um ein Betatester für die [!DNL Adobe Workfront]-App zu werden:
 
 ### [!DNL App Store]
 
-Sie können die [!DNL Apple App Store] verwenden, um die App zu suchen und herunterzuladen.
+Sie können die [!DNL Apple App Store] verwenden, um die App zu finden und herunterzuladen.
 
 >[!IMPORTANT]
 >
->Nachdem Sie die [!DNL TestFlight] -App installiert und auf Ihrem [!DNL iOS] -Gerät als Betatester verwendet haben, müssen Sie aktualisierte Versionen von [!DNL Workfront] mit der [!DNL TestFlight] -App anstelle von [!DNL Apple Store] herunterladen. Wenn Sie kein Beta-Tester für [!DNL iOS] sind, können Sie Ihre mobile App über das [!DNL Apple Store] weiter aktualisieren.
+>Nachdem Sie die [!DNL TestFlight]-App installiert und ein Betatester auf Ihrem [!DNL iOS]-Gerät geworden sind, müssen Sie aktualisierte Versionen von [!DNL Workfront] mit der [!DNL TestFlight]-App herunterladen, anstatt die [!DNL Apple Store] zu verwenden. Wenn Sie kein Betatester für [!DNL iOS] sind, können Sie Ihre Mobile App weiterhin über die [!DNL Apple Store] aktualisieren.
 
-#### 1. Installieren Sie die [!DNL TestFlight]-App
+#### 1. Installieren der [!DNL TestFlight] App
 
-Um die Betaversion der [!DNL Workfront] -App zu installieren, muss die [!DNL TestFlight] -App auf Ihrem Gerät installiert sein. Nach der Installation von [!DNL TestFlight] müssen Sie die [!DNL Workfront]-App installieren.
+Um die Beta-Version der [!DNL Workfront]-App zu installieren, muss die [!DNL TestFlight]-App auf Ihrem Gerät installiert sein. Nach der Installation von [!DNL TestFlight] müssen Sie die [!DNL Workfront] App installieren.
 
-1. Installieren Sie die [!DNL Workfront] -App, falls noch nicht geschehen.
-1. Öffnen Sie die mobile App &quot;[!DNL Workfront]&quot;.
-1. Tippen Sie in der unteren Navigationsleiste auf **[!UICONTROL Mehr]** .
-1. Tippen Sie auf Ihren Namen und dann auf **[!UICONTROL Sei ein Beta-Tester]**.
-1. Tippen Sie auf **[!UICONTROL Anzeigen in[!DNL App Store]]** , um die [!DNL TestFlight] -App anzuzeigen.
-1. Tippen Sie auf **[!UICONTROL Get]** , um [!DNL TestFlight] auf Ihrem Gerät zu installieren, und tippen Sie dann auf **[!UICONTROL Installieren]**.
-1. Tippen Sie auf **[!UICONTROL Öffnen]** und dann auf **[!UICONTROL Weiter]** in der [!DNL TestFlight] App.
-1. Tippen Sie auf **[!UICONTROL Akzeptieren]** , um die Nutzungsbedingungen der [!DNL TestFlight] -App zu akzeptieren.\
-   Die [!DNL TestFlight] -App ist auf Ihrem Gerät installiert. Fahren Sie mit dem nächsten Abschnitt fort.
+1. Installieren Sie die [!DNL Workfront] App, falls noch nicht geschehen.
+1. Öffnen Sie die [!DNL Workfront] Mobile App.
+1. Tippen Sie **[!UICONTROL Mehr]** in der unteren Navigationsleiste.
+1. Tippen Sie auf Ihren Namen und dann auf **[!UICONTROL Beta-Tester]**.
+1. Tippen Sie auf **[!UICONTROL In[!DNL App Store]]** anzeigen , um die [!DNL TestFlight]-App anzuzeigen.
+1. Tippen Sie auf **[!UICONTROL Abrufen]**, um [!DNL TestFlight] auf Ihrem Gerät zu installieren, und tippen Sie dann auf **[!UICONTROL Installieren]**.
+1. Tippen Sie **[!UICONTROL Öffnen]** und dann **[!UICONTROL Weiter]** in der [!DNL TestFlight].
+1. Tippen Sie auf **[!UICONTROL Akzeptieren]**, um die Nutzungsbedingungen der [!DNL TestFlight] App zu akzeptieren.\
+   Die [!DNL TestFlight] App ist auf Ihrem Gerät installiert. Fahren Sie mit dem nächsten Abschnitt fort.
 
-#### 2. Installieren Sie die [!DNL Workfront] Beta-App in [!DNL TestFlight]
+#### 2. Installieren der [!DNL Workfront] Beta-App in [!DNL TestFlight]
 
-Sie müssen die [!DNL Workfront]-App und die [!DNL TestFlight]-App auf Ihrem iOS-Gerät installiert haben, bevor Sie ein Beta-Tester auf einem iOS-Gerät sein können.
+Sie müssen die [!DNL Workfront] App und die [!DNL TestFlight] App auf Ihrem iOS-Gerät installiert haben, bevor Sie ein Betatester auf einem iOS-Gerät sein können.
 
-1. Öffnen Sie die mobile App &quot;[!DNL Workfront]&quot;.
-1. Tippen Sie in der unteren Navigationsleiste auf **[!UICONTROL Mehr]** .
-1. Tippen Sie auf Ihren Namen und dann auf **[!UICONTROL Sei ein Beta-Tester]**.\
-   Die [!DNL TestFlight]-App wird geöffnet und [!DNL Workfront] wird als herunterladbare App aufgeführt.
+1. Öffnen Sie die [!DNL Workfront] Mobile App.
+1. Tippen Sie **[!UICONTROL Mehr]** in der unteren Navigationsleiste.
+1. Tippen Sie auf Ihren Namen und dann auf **[!UICONTROL Beta-Tester]**.\
+   Die [!DNL TestFlight] App wird geöffnet und [!DNL Workfront] wird als eine zum Herunterladen verfügbare App aufgeführt.
 
-1. Tippen Sie auf **[!UICONTROL Accept]**.
+1. Tippen Sie auf **[!UICONTROL Akzeptieren]**.
 1. Wenn die Aktualisierung der App abgeschlossen ist, tippen Sie auf **[!UICONTROL Öffnen]**.\
-   Sie werden zu Ihrer [!DNL Workfront]-App umgeleitet und sind jetzt Beta-Tester für [!DNL Workfront]. Neben der mobilen Workfront-App wird auf Ihrem Startbildschirm ein orangefarbener Punkt angezeigt, der angibt, dass die Betaversion-App auf Ihrem Gerät installiert ist.
+   Sie werden zu Ihrer [!DNL Workfront] App weitergeleitet und sind jetzt ein Betatester für [!DNL Workfront]. Auf Ihrem Startbildschirm wird neben der Workfront-Mobile-App ein orangefarbener Punkt angezeigt, um anzugeben, dass die Beta-Version der App auf Ihrem Gerät installiert ist.
 
 ### QR-Code
 
-Sie können auch den folgenden QR-Code scannen, um sich für die Beta-Version zu registrieren und die App herunterzuladen:
+Sie können auch den unten stehenden QR-Code scannen, um sich für die Beta-Version anzumelden und die App herunterzuladen:
 
 ![](assets/ios-qr-code-350x397.png)
 
-## Teilen Sie uns mit, wie wir das machen
+## Gebt uns Bescheid, wie es uns geht
 
 So geben Sie Feedback zur Beta-App oder melden ein Problem:
 
-1. Tippen Sie in der unteren Navigationsleiste auf **[!UICONTROL Mehr]** .
-1. Tippen Sie auf Ihren Namen und dann auf **[!UICONTROL Feedback senden]**.
-1. Wählen Sie **[!UICONTROL Umfrage starten]** aus, um allgemeine Rückmeldungen zur App zu erhalten.\
+1. Tippen Sie **[!UICONTROL Mehr]** in der unteren Navigationsleiste.
+1. Tippen Sie auf Ihren Namen und dann **[!UICONTROL Feedback]**.
+1. Wählen Sie **[!UICONTROL Umfrage starten]**, um allgemeines Feedback zur App zu geben.\
    oder\
-   Wählen Sie **[!UICONTROL Ein Problem melden]** aus, um ein Ticket an das [!DNL Workfront] Kundenunterstützungs-Team zu senden.
+   Wählen Sie **[!UICONTROL Problem melden]**, um ein Ticket an das Team der [!DNL Workfront] Kundenunterstützung zu senden.
 
 ## Aktualisieren der [!DNL Workfront] Beta-App
 
-Wenn Sie als Beta-Tester angemeldet sind, müssen Sie die [!DNL Workfront]-App in [!DNL TestFlight] aktualisieren, um auf neue Funktionen zuzugreifen, die in der Beta-Version verfügbar sind.
+Wenn Sie als Betatester registriert sind, müssen Sie die [!DNL Workfront]-App aktualisieren, [!DNL TestFlight] auf neue Funktionen in der Beta-Version zugreifen zu können.
 
-1. Öffnen Sie die App &quot;[!DNL TestFlight]&quot;.
+1. Öffnen Sie die [!DNL TestFlight] App.
 1. Tippen Sie auf **[!UICONTROL Aktualisieren]**.
 
-## Opt-out aus Beta-Tests
+## Opt-out vom Betatest
 
-1. Öffnen Sie die App &quot;[!DNL TestFlight]&quot;.
-1. Tippen Sie auf das Symbol &quot;[!DNL Workfront]&quot;.
+1. Öffnen Sie die [!DNL TestFlight] App.
+1. Tippen Sie auf das Symbol [!DNL Workfront] .
 1. Tippen Sie unten auf der Seite auf **[!UICONTROL Test beenden]**.

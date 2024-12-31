@@ -2,8 +2,8 @@
 content-type: reference
 product-previous: mobile
 navigation-topic: use-the-workfront-mobile-app
-title: Adobe Workfront für Mobilgeräte-Management (MDM)
-description: Adobe [!DNL Workfront] verfügt über eine Partnerschaft mit einigen Mobile Device Management (MDM)-Plattformen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.
+title: Adobe Workfront für die Verwaltung mobiler Geräte (MDM)
+description: Adobe [!DNL Workfront] ist eine Partnerschaft mit einigen Mobile Device Management (MDM)-Plattformen eingegangen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 6f989fb8-5e33-4626-92cf-1d3a629698b0
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 # [!DNL Adobe Workfront] für [!DNL Mobile Device Management] (MDM)
 
-Adobe [!DNL Workfront] arbeitet mit einigen [!DNL Mobile Device Management] (MDM)-Plattformen zusammen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten. Die mobile App [!DNL Workfront] ist auf den folgenden Plattformen für die Verwaltung mobiler Geräte verfügbar:
+Adobe [!DNL Workfront] ist eine Partnerschaft mit einigen [!DNL Mobile Device Management] (MDM)-Plattformen eingegangen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten. Die [!DNL Workfront] Mobile App ist auf den folgenden Verwaltungsplattformen für mobile Geräte verfügbar:
 
-## MobileIron
+## Handbügeleisen
 
-Informationen zum Installieren der [!DNL Workfront] Mobile App von ihrer Plattform finden Sie in der Hilfedokumentation von [!DNL MobileIron]:
+In der Hilfedokumentation von [!DNL MobileIron] finden Sie weitere Informationen zur Installation der [!DNL Workfront] Mobile App von der Plattform aus:
 
 * iOS
 * Android
 
-Informationen zum Konfigurieren von [!DNL Workfront] für [!DNL MobileIron] finden Sie unter [Konfigurieren von  [!DNL Adobe Workfront] für  [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
+Informationen zum Konfigurieren von [!DNL Workfront] für [!DNL MobileIron] finden Sie [Konfigurieren [!DNL Adobe Workfront] für [!DNL MobileIron]](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Blackberry Dynamics</h2>

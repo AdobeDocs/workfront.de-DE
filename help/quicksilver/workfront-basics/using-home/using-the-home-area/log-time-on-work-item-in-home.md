@@ -1,8 +1,8 @@
 ---
 product-area: projects;calendars
 navigation-topic: use-the-home-area
-title: Protokollzeit für ein Arbeitselement aus dem Startbereich
-description: Sie können die Zeit für jedes Arbeitselement in der [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] protokollieren. Weitere Informationen finden Sie im Abschnitt [!UICONTROL Startseite] im Artikel Protokollzeit.
+title: Zeit für ein Arbeitselement im Bereich „Startseite“ protokollieren
+description: Sie können die Zeit für ein beliebiges Arbeitselement in der [!UICONTROL Arbeitsliste] im Bereich [!UICONTROL Startseite] protokollieren. Weitere Informationen finden Sie im [!UICONTROL Startseite] im Artikel Zeit protokollieren .
 author: Courtney and Alina
 feature: Get Started with Workfront, Work Management
 exl-id: e68f4200-dbcb-4a2f-a2f7-45fb968684cc
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Protokollzeit für ein Arbeitselement aus dem Bereich [!UICONTROL Home]
+# Zeit für ein Arbeitselement aus dem Bereich [!UICONTROL Startseite] protokollieren
 
-Sie können die Zeit für jedes Arbeitselement in der Arbeitsliste im Bereich &quot;Startseite&quot;protokollieren. Weitere Informationen finden Sie unter [Protokollzeit](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+Sie können die Zeit für ein beliebiges Arbeitselement in der Arbeitsliste im Bereich Startseite protokollieren. Weitere Informationen finden Sie unter [Zeit erfassen](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
 

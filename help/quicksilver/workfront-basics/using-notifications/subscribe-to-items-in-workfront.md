@@ -1,7 +1,7 @@
 ---
 navigation-topic: notifications
 title: Abonnieren von Elementen in Adobe Workfront
-description: Adobe Workfront sendet Benachrichtigungen über Elemente, die Sie zugewiesen sind oder deren Inhaber Sie sind. Wenn Sie der Mitteilung zu Artikeln folgen möchten, die Ihnen nicht zugewiesen sind, sich aber auf Ihre Arbeit auswirken können, können Sie diese abonnieren.
+description: Adobe Workfront sendet Benachrichtigungen zu Elementen, die Ihnen zugewiesen sind oder deren Inhaber Sie sind. Wenn Sie der Mitteilung über Elemente folgen möchten, die Ihnen nicht zugewiesen sind, sich aber auf Ihre Arbeit auswirken könnten, können Sie diese abonnieren.
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Abonnieren von Elementen in [!DNL Adobe Workfront]
 
-[!UICONTROL Adobe Workfront] sendet Benachrichtigungen über Elemente, die Ihnen zugewiesen sind oder deren Inhaber Sie sind. Wenn Sie der Mitteilung zu Artikeln folgen möchten, die Ihnen nicht zugewiesen sind, sich aber auf Ihre Arbeit auswirken können, können Sie diese abonnieren.
+[!UICONTROL Adobe Workfront] sendet Benachrichtigungen zu Elementen, die Ihnen zugewiesen sind oder deren Inhaber Sie sind. Wenn Sie der Mitteilung über Elemente folgen möchten, die Ihnen nicht zugewiesen sind, sich aber auf Ihre Arbeit auswirken könnten, können Sie diese abonnieren.
 
-Sie können auch Ihren Manager und Ihre Kollegen über Ihre Arbeit auf dem Laufenden halten, indem Sie sie für den Aktualisierungsstatus von Elementen anmelden, für die Sie über die Berechtigungen [!UICONTROL Verwalten] und [!UICONTROL Freigeben] verfügen.
+Sie können auch Ihren Vorgesetzten und Kollegen über Ihre Arbeit auf dem Laufenden halten, indem Sie sie für den Aktualisierungsstatus von Elementen abonnieren, für die Sie über die Berechtigungen [!UICONTROL Verwalten] und [!UICONTROL Freigeben] verfügen.
 
 Derzeit können Sie die folgenden Elemente abonnieren:
 
@@ -24,13 +24,13 @@ Derzeit können Sie die folgenden Elemente abonnieren:
 * Aufgaben
 * Projekte
 
-Wenn Sie Probleme, Aufgaben oder Projekte abonnieren, erhalten Sie In-App-Benachrichtigungen, wenn jemand einen Kommentar an sie sendet. Abhängig von den Funktionen, die Sie aktiviert haben, erhalten Sie möglicherweise auch E-Mail- und Mobile-App-Push-Benachrichtigungen für Artikel, die Sie abonniert haben.
+Wenn Sie Probleme, Aufgaben oder Projekte abonnieren, erhalten Sie In-App-Benachrichtigungen, wenn jemand einen Kommentar an sie postet. Je nach den von Ihnen aktivierten Funktionen erhalten Sie möglicherweise auch E-Mail- und Mobile-App-Push-Benachrichtigungen für Elemente, die Sie abonniert haben.
 
 >[!NOTE]
 >
->Sie werden nicht über andere Ereignisse benachrichtigt, die auf dem Artikel auftreten, den Sie abonnieren. Sie werden nur benachrichtigt, wenn jemand einen Kommentar zu dem Artikel veröffentlicht.
+>Sie werden nicht über andere Ereignisse benachrichtigt, die auf dem von Ihnen abonnierten Element auftreten. Sie werden nur benachrichtigt, wenn jemand einen Kommentar zu dem Element postet.
 
-Weitere Informationen zum Arbeiten mit Abonnements finden Sie unter [Arbeiten mit Abonnements](#about-working-with-subscriptions).
+Weitere Informationen zum Arbeiten mit Abonnements finden Sie unter [Über das Arbeiten mit Abonnements](#about-working-with-subscriptions).
 
 ## Zugriffsanforderungen
 
@@ -44,178 +44,178 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>[!UICONTROL Adobe Workfront] Plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
+   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Wenn Ihr [!DNL Workfront] -Administrator <strong>[!UICONTROL Nur Aktualisierungen anzeigen aktiviert hat, in denen sie in der Konversation enthalten sind]</strong>, können Sie keine Artikel in [!DNL Workfront] abonnieren.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!UICONTROL Workfront]-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!UICONTROL Workfront]-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
+   <td> <p>Wenn Ihr [!DNL Workfront]-Administrator <strong>[!UICONTROL Nur Aktualisierungen anzeigen, an denen sie in die Konversation einbezogen wurden]</strong> in Ihrer Zugriffsebene aktiviert hat, können Sie Elemente in [!DNL Workfront] nicht abonnieren.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!UICONTROL Workfront] Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie ein [!UICONTROL Workfront]-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>[!UICONTROL Zugriff auf das Projekt, die Aufgabe oder das Problem anzeigen (zum Abonnieren) oder höher</p> <p>[!UICONTROL Verwalten] des Zugriffs und der [!UICONTROL Freigabe] Berechtigungen für das Projekt, die Aufgabe oder das Problem (zum Abonnieren anderer Benutzer)</p> </td> 
+   <td> <p>[!UICONTROL Ansicht] Zugriff oder höher auf das Projekt, die Aufgabe oder das Problem (zu abonnieren)</p> <p>Zugriff auf das Projekt, die Aufgabe oder das Problem (zum Abonnieren anderer Benutzer) durch [!UICONTROL Manage] und [!UICONTROL Share]</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Artikel abonnieren
+## Element abonnieren
 
-Der Prozess zum Abonnieren eines Elements ist für alle Elemente identisch.
+Das Abonnieren eines Artikels ist für alle Artikel identisch.
 
-Um beispielsweise ein Problem zu abonnieren:
+So abonnieren Sie beispielsweise ein Problem:
 
-1. Gehen Sie zu der Ausgabe, die Sie abonnieren möchten.
+1. Navigieren Sie zu dem Problem, das Sie abonnieren möchten.
 
    >[!TIP]
    >
    >Um Projekte zu abonnieren, haben Sie folgende Möglichkeiten:
    >
-   >* Wechseln Sie zu dem Projekt, für das Sie ein Abonnement abschließen möchten, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **[!UICONTROL Abonnieren]**.
-   >* Wechseln Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus, klicken Sie oben in der Liste auf das Symbol **[!UICONTROL Mehr]** ![](assets/qs-more-menu.png) und klicken Sie dann auf **[!UICONTROL Abonnieren]**. Dies ist nur in einer Projektliste verfügbar.
+   >* Gehen Sie zu dem Projekt, das Sie abonnieren möchten, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann **[!UICONTROL Abonnieren]**.
+   >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/qs-more-menu.png) oben in der Liste und klicken Sie dann auf **[!UICONTROL Abonnieren]**. Dies ist nur in einer Liste von Projekten verfügbar.
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png) und dann auf **[!UICONTROL Abonnieren]**.
 
    ![](assets/subscribe-to-a-work-item-350x258.png)
 
-   Ein Häkchen wird auf der Glocke angezeigt und die zugehörige Nummer wird aktualisiert, um Sie zur Anzahl der angemeldeten Benutzer hinzuzufügen.
+   Ein Häkchen erscheint auf der Glocke und die Zahl daneben wird aktualisiert, um Sie zur Anzahl der abonnierten Benutzer hinzuzufügen.
 
-   Sie haben sich jetzt für das Problem angemeldet. Der Aktualisierungsstatus für die Problemdatensätze, die Sie für das Problem angemeldet haben.
+   Sie haben das Problem jetzt abonniert. Der Aktualisierungsstatus für die Problemdatensätze, die Sie abonniert haben.
 
-   Jedes Mal, wenn jemand zu dem Problem Stellung nimmt, erhalten Sie eine In-App-Benachrichtigung. Je nach den Funktionen, die Sie aktiviert haben, können Sie auch E-Mail-Benachrichtigungen und Mobile-App-Push-Benachrichtigungen erhalten.
+   Jedes Mal, wenn jemand das Problem kommentiert, erhalten Sie eine In-App-Benachrichtigung. Je nach den von Ihnen aktivierten Funktionen erhalten Sie möglicherweise auch E-Mail-Benachrichtigungen und Push-Benachrichtigungen für Mobile Apps.
 
-   Weitere Informationen zur Abonnement-E-Mail finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+   Weitere Informationen zu E-Mail-Abonnements finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-## Abmeldung von einem Artikel
+## Abo von einem Element stornieren
 
-Sie können sich einfach von einem Element in [!DNL Workfront] abmelden. Der Prozess zum Abmelden von einem Element in [!DNL Workfront] ist für alle Elemente identisch.
+Sie können sich ganz einfach von einem Element in [!DNL Workfront] abmelden. Das Abmeldeverfahren für ein Element in [!DNL Workfront] ist für alle Elemente identisch.
 
-So melden Sie sich beispielsweise von einem Problem ab:
+Um beispielsweise das Abonnement für ein Problem zu kündigen:
 
-1. Gehen Sie zu der Ausgabe, von der Sie sich abmelden möchten.
+1. Navigieren Sie zu dem Problem, von dem Sie das Abonnement kündigen möchten.
 
    >[!TIP]
    >
-   >Um sich von Projekten abzumelden, haben Sie folgende Möglichkeiten:
+   >Um ein Projektabonnement zu kündigen, haben Sie folgende Möglichkeiten:
    >
-   >* Wechseln Sie zu dem Projekt, von dem Sie sich abmelden möchten, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **[!UICONTROL Abmelden]**.
-   >* Wechseln Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus, klicken Sie oben in der Liste auf das Symbol **[!UICONTROL Mehr]** ![](assets/qs-more-menu.png) und klicken Sie dann auf **[!UICONTROL Abonnement kündigen]**. Dies ist nur in einer Projektliste verfügbar.
+   >* Gehen Sie zu dem Projekt, das Sie abbestellen möchten, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **[!UICONTROL Abmelden]**.
+   >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/qs-more-menu.png) oben in der Liste und klicken Sie dann auf **[!UICONTROL Abmelden]**. Dies ist nur in einer Liste von Projekten verfügbar.
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png) und dann auf **[!UICONTROL Abmelden]**.
 
    ![](assets/unsubscribe-to-a-work-item-350x258.png)
 
-1. Sie können sich auch von einem Artikel abmelden, für den Sie angemeldet sind, indem Sie in der Abmelde-E-Mail auf den Link [!UICONTROL Abmeldung] klicken.
+1. Sie können ein Abonnement auch kündigen, indem Sie in der Abonnement-E[!UICONTROL Mail auf den Link ]Abmelden“ klicken.
 
-   Nachdem Sie sich von einem Artikel abgemeldet haben, erhalten Sie keine Benachrichtigung mehr, wenn jemand zu diesem Problem Stellung nimmt.
+   Sobald Sie ein Abonnement für ein Element gekündigt haben, erhalten Sie keine Benachrichtigung mehr, wenn jemand das Problem kommentiert.
 
-   Der Aktualisierungsstatus des Elements zeichnet die Datensätze auf, die Sie von dem Problem abgemeldet haben.
+   Der Aktualisierungsstatus des Elements zeichnet auf, dass Sie das Problem abgemeldet haben.
 
 ## Abonnenten verwalten
 
-Sie können verwalten, wer Projekte, Aufgaben und Probleme abonniert, für die Sie über die Berechtigung zum Verwalten und Freigeben verfügen.
+Sie können verwalten, wer Projekte, Aufgaben und Probleme abonniert, für die Sie über die Berechtigungen Verwalten und Freigeben verfügen.
 
-* [Anmelden eines anderen Benutzers für ein Element](#subscribe-another-user-to-an-item)
-* [Abmeldung einer anderen Person von einem Artikel](#unsubscribe-another-person-from-an-item)
+* [Einen anderen Benutzer für ein Element abonnieren](#subscribe-another-user-to-an-item)
+* [Andere Person von einem Element abmelden](#unsubscribe-another-person-from-an-item)
 
-Allen Abonnenten wird [!UICONTROL Ansicht] für das abonnierte Element zugewiesen. Wenn die neuen Abonnenten bereits über Berechtigungen für das Element verfügen, bleiben ihre Berechtigungen erhalten.
+Allen Abonnentinnen und Abonnenten wird [!UICONTROL Ansicht] Berechtigung für das abonnierte Element erteilt. Wenn die neuen Abonnentinnen oder Abonnenten bereits Berechtigungen für das Element haben, bleiben ihre Berechtigungen intakt.
 
-### Andere Benutzer für ein Element anmelden
+### Einen anderen Benutzer für ein Element abonnieren
 
-1. Gehen Sie zu dem Element, für das Sie einen anderen Benutzer abonnieren möchten.
+1. Navigieren Sie zu dem Element, für das Sie einen anderen Benutzer abonnieren möchten.
 
    >[!TIP]
    >
-   >Um einen anderen Benutzer für Projekte anzumelden, haben Sie folgende Möglichkeiten:
+   >Um Projekte für einen anderen Benutzer zu abonnieren, haben Sie folgende Möglichkeiten:
    >
-   >* Rufen Sie das Projekt auf, von dem Sie andere abonnieren möchten, oder
+   >* Zu dem Projekt gehen, das Sie für andere abonnieren möchten, oder
    >   
    >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus.
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png).
-1. Klicken Sie auf die Zahlenblase neben dem Link **[!UICONTROL Abonnieren]** .
-1. Geben Sie im angezeigten Feld den Namen des Benutzers in das Feld **[!UICONTROL Andere abonnieren]** ein und wählen Sie dann den Benutzer aus den angezeigten Optionen aus.
+1. Klicken Sie auf die Nummernblase neben dem Link **[!UICONTROL Abonnieren]**.
+1. Geben Sie in das sich öffnende Feld den Namen des Benutzers in das Feld **[!UICONTROL Andere abonnieren]** und wählen Sie dann den Benutzer aus den angezeigten Optionen aus.
 
-1. (Optional) Um weitere Abonnenten hinzuzufügen, wiederholen Sie Schritt 4.
+1. (Optional) Um weitere Abonnentinnen und Abonnenten hinzuzufügen, wiederholen Sie Schritt 4.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-Der Abonnent wird nicht über das Abonnement informiert, aber ein Eintrag über das Abonnement wird zu den Systemaktualisierungen für den Artikel hinzugefügt.
+Der Abonnent wird nicht über das Abonnement benachrichtigt, doch wird den Systemaktualisierungen für das Element ein Eintrag über das Abonnement hinzugefügt.
 
-Wenn jemand einen Kommentar zur Registerkarte [!UICONTROL Aktualisierungen] des Elements hinzufügt, erhält der Abonnent eine In-App-Benachrichtigung. Je nach den Funktionen, die Ihr Workfront-Administrator aktiviert hat, erhält der Abonnent möglicherweise auch E-Mail- und Mobile-Benachrichtigungen für den Artikel.
+Wenn jemand einen Kommentar zur Registerkarte [!UICONTROL Aktualisierungen] des Elements hinzufügt, erhält der Abonnent eine In-App-Benachrichtigung. Je nach den Funktionen, die Ihr Workfront-Administrator aktiviert hat, erhält der Abonnent möglicherweise auch E-Mail- und mobile Benachrichtigungen für das Element.
 
-### Abmeldung einer anderen Person von einem Artikel
+### Andere Person von einem Element abmelden
 
-1. Gehen Sie zu dem Element, von dem Sie einen anderen Benutzer abmelden möchten.
+1. Navigieren Sie zu dem Element, von dem Sie einen anderen Benutzer abmelden möchten.
 
    >[!TIP]
    >
-   >Um einen anderen Benutzer von Projekten abzumelden, führen Sie einen der folgenden Schritte aus:
+   >Um das Abonnement eines anderen Benutzers für Projekte zu kündigen, haben Sie folgende Möglichkeiten:
    >
-   >* Wechseln Sie zu dem Projekt, von dem Sie andere abmelden möchten, oder
+   >* Zu dem Projekt gehen, das Sie für andere kündigen möchten, oder
    >   
    >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus.
 
 1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png).
-1. Klicken Sie auf die Zahlenblase neben dem Link **[!UICONTROL Abonnieren]** oder **[!UICONTROL Abmelden]** .
-1. Klicken Sie auf der angezeigten Seite **[!UICONTROL Abonnenten]** auf das &quot;X&quot;neben dem Namen des Benutzers, den Sie abmelden möchten.
+1. Klicken Sie auf die Nummernblase neben dem Link **[!UICONTROL Abonnieren]** oder **[!UICONTROL Abmelden]**.
+1. Auf der **[!UICONTROL Abonnenten]** Seite, die angezeigt wird, klicken Sie auf das „X“ neben dem Namen des Benutzers, den Sie abmelden möchten.
 
    Oder
 
-   Geben Sie den Namen des Benutzers in das Feld **[!UICONTROL Personen in der Liste suchen]** ein und klicken Sie dann auf das X rechts neben dem Namen des Benutzers.
+   Geben Sie den Namen des Benutzers in das Feld **[!UICONTROL Suche nach Personen in der Liste]** ein und klicken Sie dann auf das „X“ rechts neben dem Namen des Benutzers.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-   Der Benutzer wird nicht darüber informiert, dass er sich vom Artikel abgemeldet hat, aber ein Eintrag über das Abonnement wird zu den Systemaktualisierungen für den Artikel hinzugefügt.
+   Der/die Benutzende wird nicht darüber informiert, dass er/sie das Abonnement storniert hat, aber den Systemaktualisierungen für das Element wird ein Eintrag über das Abonnement hinzugefügt.
 
 ## In-App-Benachrichtigung empfangen
 
-Unmittelbar nach dem Veröffentlichen eines Kommentars für ein Element, für das Sie angemeldet sind, erhalten Sie eine In-App-Benachrichtigung.
+Sobald jemand einen Kommentar zu einem Element postet, das Sie abonniert haben, erhalten Sie eine In-App-Benachrichtigung.
 
 ![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 Weitere Informationen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
-## Abonnement-E-Mail empfangen
+## Abonnement-E-Mail erhalten
 
-Je nach den Funktionen, die Ihr [!UICONTROL Workfront] -Administrator aktiviert hat, können Sie zusätzlich zu In-App-Benachrichtigungen Abonnement-E-Mails erhalten, wenn jemand zu einem Artikel kommentiert, den Sie abonniert haben.
+Je nach den Funktionen, die Ihr [!UICONTROL Workfront]-Administrator aktiviert hat, erhalten Sie möglicherweise zusätzlich zu In-App-Benachrichtigungen Abonnement-E-Mails, wenn jemand einen Kommentar zu einem Element abonniert, das Sie abonnieren.
 
-Weitere Informationen zum Einrichten oder Deaktivieren von E-Mails finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Weitere Informationen zum Einrichten oder Deaktivieren von E-Mails finden Sie unter [Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
 >[!NOTE]
 >
->Selbst wenn Sie die Abonnement-E-Mail deaktivieren, erhalten Sie weiterhin In-App-Benachrichtigungen, sobald jemand zu einem Artikel Stellung nimmt, für den Sie angemeldet sind.
+>Selbst wenn Sie Abonnement-E-Mails deaktivieren, erhalten Sie weiterhin In-App-Benachrichtigungen, wenn jemand einen Kommentar zu einem Element abonniert, für das Sie angemeldet sind.
 
-## Auflisten von Benutzern, die ein Element abonniert haben
+## Auflisten der für ein Element abonnierten Benutzer
 
 So sehen Sie, wer ein Element abonniert:
 
-1. Navigieren Sie zu einem Element, für das Sie die Abonnenten sehen möchten.
+1. Navigieren Sie zu einem Element, für das die Abonnenten angezeigt werden sollen.
 
-   Wenn es Abonnenten des Artikels gibt, wird neben der Glocke die Anzahl der Abonnenten angezeigt. Sie können den Mauszeiger über die Zahl bewegen, um eine Liste der Benutzer anzuzeigen, die das Element abonniert haben. Die ersten 25 Abonnenten werden in alphabetischer Reihenfolge angezeigt.
+   Wenn es Abonnentinnen oder Abonnenten für das Element gibt, wird die Anzahl der Abonnentinnen oder Abonnenten neben der Glocke angezeigt. Sie können den Mauszeiger über die Zahl bewegen, um eine Liste der Benutzer anzuzeigen, die das Element abonniert haben. Die ersten 25 Abonnentinnen und Abonnenten werden in alphabetischer Reihenfolge angezeigt.
 
    ![Abonnenten anzeigen](assets/bell-hover-for-list-qs-350x90.png)
 
-   Sie können eine Abonnentenliste auch anzeigen, indem Sie ein Feld [!UICONTROL Abonnent] als Spalte in einem Bericht oder in der Ansicht für das abonnierte Element hinzufügen. Weitere Informationen finden Sie unter [Glossar der  [!DNL Adobe Workfront] Terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   Sie können auch eine Liste von Abonnenten anzeigen, indem Sie ein Feld [!UICONTROL Abonnent] als Spalte in einem Bericht oder einer Ansicht für das abonnierte Element hinzufügen. Weitere Informationen finden Sie unter [Glossar der  [!DNL Adobe Workfront] Terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
 ## Über die Arbeit mit Abonnements
 
-Beachten Sie Folgendes bei der Arbeit mit Abonnements:
+Beachten Sie bei der Arbeit mit Abonnements Folgendes:
 
-* Der [!DNL Workfront] -Administrator kann nicht steuern, welche Benutzer sich abonnieren können oder nicht.
+* Der [!DNL Workfront] kann nicht steuern, welche Benutzer sich anmelden können oder nicht.
 
-  Jeder, der über [!UICONTROL Anzeigen] oder höhere Berechtigungen für Aufgaben, Probleme oder Projekte verfügt, kann diese abonnieren.
+  Jeder Benutzer [!UICONTROL Ansicht] oder höher mit Berechtigungen für eine Aufgabe, ein Problem oder ein Projekt kann diese abonnieren.
 
-* Abonnements können nicht für eine tägliche Digest-E-Mail konfiguriert werden.
-* Wenn Sie eine Aufgabe, ein Problem oder ein Projekt abonnieren und auch der Verantwortliche, der Primäre Ansprechpartner oder der Projekteigentümer sind, erhalten Sie nur die Abonnenten-E-Mail, wenn jemand zu dem von Ihnen abonnierten Artikel einen Kommentar abgibt.
+* Abonnements können nicht für eine Daily Digest -E-Mail konfiguriert werden.
+* Wenn Sie eine Aufgabe, ein Problem oder ein Projekt abonnieren und Sie auch der Bevollmächtigte, der Primäre Ansprechpartner oder der Projektbesitzer sind, erhalten Sie nur die Abonnement-E-Mail, wenn jemand zu dem Element, das Sie abonnieren, Kommentare abgibt.
 
-  Weitere Informationen zu E-Mail-Benachrichtigungen, die Trigger bei Kommentaren zu einem Ihrer Elemente erhalten, finden Sie unter [Adobe Workfront-Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
+  Weitere Informationen zu E-Mail-Benachrichtigungen, die bei einem Kommentar zu einem Ihrer Elemente Trigger verursachen, finden Sie unter [Adobe Workfront-Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
-* Wenn Sie ein Element abonnieren und einen Kommentar dazu abgeben, erhalten Sie keine Abonnenten-E-Mail zu diesem Kommentar, es sei denn, Sie geben Ihren Namen in den Kommentar ein.
-* Wenn der Benutzer, der den Kommentar zu dem Element kommentiert, den Kommentar privat macht, indem er den Kommentar sperrt, und Sie nicht Teil desselben Unternehmens sind wie dieser Benutzer, erhalten Sie keine Benachrichtigung für diesen Kommentar. Weitere Informationen dazu, wie Sie einen Kommentar für Ihr Unternehmen privat machen, finden Sie im Abschnitt [Hinzufügen eines Updates zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+* Wenn Sie ein Element abonnieren und einen Kommentar dazu abgeben, erhalten Sie keine Abonnement-E-Mail über diesen Kommentar, es sei denn, Sie geben Ihren Namen in den Kommentar ein.
+* Wenn der Benutzer, der das Element kommentiert, den Kommentar durch Sperren des Kommentars privat macht und Sie nicht Teil derselben Firma sind wie dieser Benutzer, erhalten Sie keine Benachrichtigung für diesen Kommentar. Weitere Informationen dazu, wie Sie einen Kommentar für Ihr Unternehmen privat machen, finden Sie [ Abschnitt „Hinzufügen einer Aktualisierung zu einem Arbeitselement](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md#add) in [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-* Sie können keinen Bericht für Abonnements erstellen. Eine Prüfung wird im Aktualisierungsstatus jedes Elements aufgezeichnet, wenn ein Benutzer das Element abonniert oder abmeldet.
-* Kommentare zu untergeordneten Objekten enthalten keine Trigger-Abonnementbenachrichtigungen für übergeordnete Objekte. Wenn Sie ein Projekt abonnieren, erhalten Sie nur eine Benachrichtigung über Kommentare zu diesem Projekt. Sie erhalten keine Benachrichtigung über Kommentare zu untergeordneten Elementen, die mit dem Projekt verknüpft sind (d. h. Aufgaben oder Probleme), es sei denn, Sie abonnieren jedes untergeordnete Element. Weitere Informationen zu Objektbeziehungen finden Sie im Abschnitt [Interdependenz und Hierarchie von Objekten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in [Objekte in  [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md) verstehen.
+* Es kann kein Bericht für Abonnements erstellt werden. Eine Prüfung wird im Aktualisierungsstatus jedes Elements aufgezeichnet, wenn sich jemand für das Element an- oder abmeldet.
+* Bei Kommentaren zu untergeordneten Objekten werden keine Abonnementbenachrichtigungen für übergeordnete Objekte in Trigger genommen. Wenn Sie ein Projekt abonnieren, erhalten Sie nur eine Benachrichtigung über Kommentare zu diesem Projekt. Sie erhalten keine Benachrichtigung über Kommentare zu untergeordneten Elementen, die mit dem Projekt verknüpft sind (d. h. Aufgaben oder Probleme), es sei denn, Sie abonnieren jedes untergeordnete Element. Weitere Informationen zu Objektbeziehungen finden Sie im Abschnitt [Interdependenz und Hierarchie von Objekten](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects) in [Objekte verstehen in [!DNL Adobe Workfront]](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).

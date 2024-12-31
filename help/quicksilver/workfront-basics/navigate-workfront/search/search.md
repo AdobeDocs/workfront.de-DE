@@ -1,7 +1,7 @@
 ---
 content-type: reference
 navigation-topic: navigate-workfront
-title: Adobe [!DNL Workfront] Durchsuchen
+title: Adobe [!DNL Workfront] search
 description: Lesen Sie diese Artikel, um zu erfahren, wie Sie in Workfront suchen.
 feature: Get Started with Workfront
 author: Lisa
@@ -14,9 +14,9 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Adobe Workfront] Suche
+# Suche [!DNL Adobe Workfront]
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Suche [!DNL Adobe Workfront]](../../../workfront-basics/navigate-workfront/search/search-workfront.md)
-* [Referenzanzahl von Objekten verwenden](../../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md)
+* [Referenznummer der Objekte verwenden](../../../workfront-basics/navigate-workfront/search/reference-number-of-objects.md)

@@ -21,12 +21,12 @@ ht-degree: 0%
 Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Allgemeine Funktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md)
-* [Elemente mithilfe von Funktionen in [!DNL Adobe Workfront Fusion] zuordnen](../../workfront-fusion/functions/map-using-functions.md)
+* [Allgemeine Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/general-functions.md)
+* [Zuordnen von Elementen mithilfe von Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/map-using-functions.md)
 * [Datums- und Uhrzeitfunktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/date-and-time-functions.md)
-* [Zeichenfolgen-Funktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md)
+* [Zeichenfolgen-Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/string-functions.md)
 * [Mathematische Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-functions.md)
 * [Mathematische Variablen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/math-variables.md)
-* [Array-Funktionen in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md)
-* [Token für die Datums- und Uhrzeitformatierung in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
-* [Token für Datums- und Uhrzeitanalyse in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)
+* [Array-Funktionen in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/array-functions.md)
+* [Token zur Formatierung von Datum und Uhrzeit in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md)
+* [Token zum Analysieren von Datum und Uhrzeit in  [!DNL Adobe Workfront Fusion]](../../workfront-fusion/functions/tokens-for-date-and-time-parsing.md)

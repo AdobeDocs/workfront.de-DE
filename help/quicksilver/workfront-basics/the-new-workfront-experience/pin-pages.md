@@ -1,7 +1,7 @@
 ---
 navigation-topic: the-new-workfront-experience
-title: Seiten fixieren, um Ihren Arbeitsbereich anzupassen
-description: Sie können Ihre wichtigste Arbeit [!DNL Adobe Workfront] für mehr Sichtbarkeit, bessere Organisation und schnelleren Zugriff pingen. Eingeheftete Seiten können immer oben auf jeder Seite in Workfront aufgerufen werden.
+title: Seiten anheften, um den Arbeitsbereich anzupassen
+description: Sie können Ihre wichtigste Arbeit anheften [!DNL Adobe Workfront]  um die Sichtbarkeit zu erhöhen, die Organisation zu verbessern und schneller darauf zuzugreifen. Angeheftete Seiten sind in Workfront immer oben auf jeder Seite verfügbar.
 feature: Get Started with Workfront
 author: Nolan
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
@@ -12,11 +12,11 @@ ht-degree: 0%
 
 ---
 
-# Seiten fixieren, um Ihren Arbeitsbereich anzupassen
+# Seiten anheften, um den Arbeitsbereich anzupassen
 
-Sie können Ihre wichtigste Arbeit in [!DNL Adobe Workfront] veröffentlichen, um die Sichtbarkeit, bessere Organisation und schnelleren Zugriff zu verbessern. Eingeheftete Seiten können immer oben auf jeder Seite in Workfront aufgerufen werden.
+Sie können Ihre wichtigste Arbeit in [!DNL Adobe Workfront] anheften, um die Sichtbarkeit zu erhöhen, die Organisation zu verbessern und schneller darauf zuzugreifen. Angeheftete Seiten sind in Workfront immer oben auf jeder Seite verfügbar.
 
-Sie können einer Layout-Vorlage zugewiesen werden, deren Seiten bereits veröffentlicht sind (wie unter [Pinned pages mithilfe einer Layoutvorlage anpassen](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md) beschrieben). Diese vordefinierten Stifte können nicht umbenannt oder entfernt werden. Alle Seiten, die Sie fixieren, werden rechts von den vordefinierten Pins angezeigt.
+Möglicherweise wurden Sie einer Layout-Vorlage zugewiesen, an die bereits Seiten angeheftet wurden (siehe [Anpassen angehefteter Seiten mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)). Diese vordefinierten Pins können nicht umbenannt oder entfernt werden. Alle angehefteten Seiten werden rechts neben den vordefinierten Anheftungen angezeigt.
 
 ## Zugriffsanforderungen
 
@@ -29,73 +29,73 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
+   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um herauszufinden, welchen Plan oder welchen Lizenztyp Sie haben.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder Lizenztyp Sie besitzen.
 
 ## Eine Seite anheften
 
-1. Navigieren Sie zur Seite, die Sie veröffentlichen möchten.
+1. Navigieren Sie zu der Seite, die Sie anheften möchten.
 
-   Dies kann ein beliebiges Arbeitselement sein, z. B. ein Projekt, eine Aufgabe, eine Anforderungswarteschlange usw.
+   Dies kann ein beliebiges Arbeitselement sein, z. B. ein Projekt, eine Aufgabe, eine Anfrage-Warteschlange usw.
 
-1. Klicken Sie oben auf der Seite auf **[!UICONTROL Aktuelle Seite veröffentlichen]** .
+1. Klicken **[!UICONTROL oben auf der Seite]** Aktuelle Seite anheften“.
 
-   Die fixierte Seite kann jetzt oben auf jeder Seite in [!DNL Workfront] aufgerufen werden.
+   Die angeheftete Seite kann jetzt von jeder Seite in [!DNL Workfront] aus aufgerufen werden.
 
-## Zugreifen auf eine fixierte Seite
+## Zugriff auf eine fixierte Seite
 
-1. Klicken Sie oben auf einer beliebigen Seite auf die gewünschte fixierte Seite.
+1. Klicken Sie oben auf einer beliebigen Seite auf die angeheftete Seite, die Sie anzeigen möchten.
 
    >[!TIP]
    >
-   >Bewegen Sie den Mauszeiger über eine fixierte Seite, um den vollständigen Namen und die Beschreibung anzuzeigen.
+   >Bewegen Sie den Mauszeiger über eine angeheftete Seite, um den vollständigen Namen und die Beschreibung anzuzeigen.
 
    Oder
 
-   Wenn Sie viele Seiten veröffentlicht haben, müssen Sie möglicherweise auf das Menü **[!UICONTROL Mehr]** ![](assets/more-icon-spectrum.png) klicken, um weitere fixierte Seiten anzuzeigen.
+   Wenn Sie viele Seiten angeheftet haben, müssen Sie möglicherweise auf die ![](assets/more-icon-spectrum.png) **[!UICONTROL Mehr] klicken** um weitere angeheftete Seiten anzuzeigen.
 
-   Die fixierte Seite wird angezeigt.
+   Die angeheftete Seite wird angezeigt.
 
-## Umbenennen von fixierten Seiten
+## Fixierte Seiten umbenennen
 
-Sie können den Namen einer fixierten Seite so ändern, dass er für Sie aussagekräftiger ist.
+Sie können den Namen einer angehefteten Seite ändern, damit er für Sie aussagekräftiger ist.
 
-1. Bewegen Sie den Mauszeiger in der oberen Navigation über die fixierte Seite oder über das Menü **[!UICONTROL Mehr&quot;]**.
-1. Klicken Sie auf das Symbol &quot;Mehr&quot;![](assets/more-icon.png) neben dem Pin-Namen und wählen Sie **[!UICONTROL Pin umbenennen]** aus.
+1. Bewegen Sie den Mauszeiger über die angeheftete Seite im oberen Navigationsbereich oder **[!UICONTROL Mehr]**.
+1. Klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) neben dem Namen der Nadel und wählen Sie **[!UICONTROL Nadel umbenennen]**.
 
-   ![PIN umbenennen](assets/pin-menu.png)
+   ![Pin umbenennen](assets/pin-menu.png)
 
-1. Geben Sie den neuen PIN-Namen ein und klicken Sie auf **Speichern**.
+1. Geben Sie den neuen Pin-Namen ein und klicken Sie auf **Speichern**.
 
-   ![Klicken Sie auf das Häkchen, um Pin](assets/new-pin-name.png) umzubenennen.
+   ![Klicken Sie auf das Häkchen, um die Nadel umzubenennen](assets/new-pin-name.png)
 
 
-## Neuanordnen von fixierten Seiten
+## Fixierte Seiten neu anordnen
 
-Sie können die Reihenfolge der eingefügten Seiten neu anordnen.
+Sie können die Reihenfolge der angehefteten Seiten neu anordnen.
 
-1. Bewegen Sie den Mauszeiger über die zu verschiebende fixierte Seite und klicken Sie dann auf das Symbol **Mehr** .
-1. Wählen Sie **Nach links verschieben** oder **Nach rechts verschieben** aus, um Ihren Pin zu verschieben.
-1. (Optional) Wählen Sie **Nach vorne verschieben** aus, um den Pin an die ganz rechte Position der Pin-Leiste zu verschieben.
+1. Bewegen Sie den Mauszeiger über die angeheftete Seite, die Sie verschieben möchten, und klicken Sie dann auf das Symbol **Mehr**.
+1. Wählen Sie **Nach links** oder **Nach rechts**, um Ihre Nadel zu verschieben.
+1. (Optional) Wählen Sie **Nach vorne verschieben**, um Ihren Pin an die ganz rechte Position der Pin-Leiste zu verschieben.
 
    ![Pins verschieben](assets/pin-menu.png)
 
-   Ihre Änderungen werden automatisch gespeichert und beim nächsten Zugriff auf Workfront gespeichert.
+   Ihre Änderungen werden automatisch gespeichert und gespeichert, wenn Sie das nächste Mal auf Workfront zugreifen.
 
-## Eine fixierte Seite entfernen
+## Entfernen angehefteter Seiten
 
-1. Klicken Sie neben dem zu entfernenden Pin auf das Symbol &quot;Mehr&quot;![](assets/more-icon.png) .
-1. Klicken Sie auf **Pin entfernen**.
+1. Klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) neben der Nadel, die Sie entfernen möchten.
+1. Klicken Sie **Pin entfernen**.
 
    ![Pin entfernen](assets/pin-menu.png)
 
-   Die Seite kann nicht mehr oben auf einer Seite in [!DNL Workfront] aufgerufen werden.
+   Auf die Seite kann von keiner Seite in [!DNL Workfront] aus mehr zugegriffen werden.

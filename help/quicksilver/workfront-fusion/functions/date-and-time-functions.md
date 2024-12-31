@@ -4,7 +4,7 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Datums- und Uhrzeitfunktionen in Adobe Workfront Fusion
-description: Die folgenden Datums- und Uhrzeitfunktionen sind im Zuordnungsfenster von Adobe Workfront Fusion verfügbar.
+description: Die folgenden Datums- und Uhrzeitfunktionen sind im Zuordnungsbereich von Adobe Workfront Fusion verfügbar.
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
@@ -21,7 +21,7 @@ ht-degree: 1%
 
 
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 
 
@@ -31,46 +31,46 @@ Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in die
  <tbody>  
   <tr>  
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td>  
-   <td> <p>Alle</p> </td>  
+   <td> <p>Beliebig</p> </td>  
   </tr>  
   <tr data-mc-conditions="">  
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>  
-   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td>  
+   <td> <p>Neu: [!UICONTROL Standard]</p><p>Oder</p><p>Aktuell: [!UICONTROL Work] oder höher</p> </td>  
   </tr>  
   <tr>  
-   <td role="rowheader">[!DNL Adobe Workfront Fusion] license**</td>  
+   <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz **</td>  
    <td> 
-   <p>Aktuell: Keine [!DNL Workfront Fusion] Lizenzanforderung.</p> 
+   <p>Aktuell: Keine [!DNL Workfront Fusion].</p> 
    <p>Oder</p> 
-   <p>Veraltet: Beliebig </p> 
+   <p>Legacy: Beliebig </p> 
    </td>  
   </tr>  
   <tr>  
    <td role="rowheader">Produkt</td>  
    <td> 
-   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</li><li>[!UICONTROL Ultimate] [!DNL Workfront] Plan: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
+   <p>Neu:</p> <ul><li>[!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Workfront] Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</li><li>[!UICONTROL Ultimate] [!DNL Workfront]: [!DNL Workfront Fusion] ist enthalten.</li></ul> 
    <p>Oder</p> 
-   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] kaufen.</p> 
+   <p>Aktuell: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben.</p> 
    </td>  
   </tr> 
  </tbody>  
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
 ## Variablen
 
 ### now
 
-### timestamp
+### Zeitstempel
 
 ## Funktionen
 
-### [!UICONTROL addSeconds (date; number)]
+### [!UICONTROL addSeconds (Datum; Zahl)]
 
-Gibt infolge des Hinzufügens einer bestimmten Anzahl von Sekunden zu einem Datum ein neues Datum zurück. Geben Sie eine negative Zahl ein, um Sekunden zu subtrahieren.
+Gibt ein neues Datum zurück, nachdem einem Datum eine bestimmte Anzahl von Sekunden hinzugefügt wurde. Um Sekunden abzuziehen, geben Sie eine negative Zahl ein.
 
 >[!INFO]
 >
@@ -78,15 +78,15 @@ Gibt infolge des Hinzufügens einer bestimmten Anzahl von Sekunden zu einem Datu
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;2)`
 >
->   Gibt 2016-12-08T15:55:59.536Z zurück
+>   Gibt 2016-12-08T15.:55:.536Z zurück
 >
 >* `addSeconds(2016-12-08T15:55:57.536Z;-2)`
 >
->   Gibt 2016-12-08T15:55:55.536Z zurück
+>   Gibt 2016-12-08T15.:55:.536Z zurück
 
-### [!UICONTROL addMinutes (date; number)] {#addminutes-date-number}
+### [!UICONTROL addMinutes (Datum; Zahl)] {#addminutes-date-number}
 
-Gibt infolge des Hinzufügens einer bestimmten Anzahl von Minuten zu einem Datum ein neues Datum zurück. Geben Sie eine negative Zahl ein, um Minuten zu subtrahieren.
+Gibt ein neues Datum zurück, wenn einem Datum eine bestimmte Anzahl von Minuten hinzugefügt wird. Um Minuten abzuziehen, geben Sie eine negative Zahl ein.
 
 >[!INFO]
 >
@@ -94,15 +94,15 @@ Gibt infolge des Hinzufügens einer bestimmten Anzahl von Minuten zu einem Datum
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;2)`
 >
->    Gibt 2016-12-08T15:57:57.536Z zurück
+>    Gibt 2016-12-08T15.:57:.536Z zurück
 >
 >* `addMinutes(2016-12-08T15:55:57.536Z;-2)`
 >
->    Gibt 2016-12-08T15:53:57.536Z zurück
+>    Gibt 2016-12-08T15.:53:.536Z zurück
 
 ### [!UICONTROL addHours (Datum; Zahl)] {#addhours-date-number}
 
-Gibt infolge des Hinzufügens einer bestimmten Anzahl von Stunden zu einem Datum ein neues Datum zurück. Geben Sie eine negative Zahl ein, um Stunden zu subtrahieren.
+Gibt ein neues Datum zurück, wenn einem Datum eine bestimmte Anzahl von Stunden hinzugefügt wird. Um Stunden abzuziehen, geben Sie eine negative Zahl ein.
 
 >[!INFO]
 >
@@ -110,15 +110,15 @@ Gibt infolge des Hinzufügens einer bestimmten Anzahl von Stunden zu einem Datum
 >
 >* `addHours(2016-12-08T15:55:57.536Z; 2)`
 >
->    Gibt 2016-12-08T17:55:57.536Z zurück
+>    Gibt 2016-12-08T17.:55:.536Z zurück
 >
 >* `addHours(2016-12-08T15:55:57.536Z;-2)`
 >
 >    Gibt 2016-12-08T13:55:57.536Z zurück
 
-### [!UICONTROL addDays (date; number)] {#adddays-date-number}
+### [!UICONTROL addDays (Datum; Zahl)] {#adddays-date-number}
 
-Gibt infolge des Hinzufügens einer bestimmten Anzahl von Tagen zu einem Datum ein neues Datum zurück. Um Tage zu subtrahieren, geben Sie eine negative Zahl ein.
+Gibt ein neues Datum zurück, wenn einem Datum eine bestimmte Anzahl von Tagen hinzugefügt wird. Um Tage abzuziehen, geben Sie eine negative Zahl ein.
 
 >[!INFO]
 >
@@ -126,15 +126,15 @@ Gibt infolge des Hinzufügens einer bestimmten Anzahl von Tagen zu einem Datum e
 >
 >* `addDays(2016-12-08T15:55:57.536Z;2)`
 >
->    Gibt 2016-12-10T15:55:57.536Z zurück
+>    Gibt 2016-12-10T15.:55:.536Z zurück
 >
 >* `addDays(2016-12-08T15:55:57.536Z;-2)`
 >
 >    Gibt 2016-12-6T15:55:57.536Z zurück
 
-### [!UICONTROL addMonths (date; number)]
+### [!UICONTROL addMonths (Datum; Zahl)]
 
-Gibt infolge des Hinzufügens einer bestimmten Anzahl von Monaten zu einem Datum ein neues Datum zurück. Um Monate abzuziehen, geben Sie eine negative Zahl ein.
+Gibt ein neues Datum zurück, wenn einem Datum eine bestimmte Anzahl von Monaten hinzugefügt wird. Um Monate abzuziehen, geben Sie eine negative Zahl ein.
 
 >[!INFO]
 >
@@ -142,15 +142,15 @@ Gibt infolge des Hinzufügens einer bestimmten Anzahl von Monaten zu einem Datum
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;2)`
 >
->    Gibt 2016-10-08T15:55:57.536Z zurück
+>    Gibt 2016-10-08T15.:55:.536Z zurück
 >
 >* `addMonths(2016-08-08T15:55:57.536Z;-2)`
 >
->    Gibt 2016-06-08T15:55:57.536Z zurück
+>    Gibt 2016-06-08T15.:55:.536Z zurück
 
-### [!UICONTROL addYears (date; number)]
+### [!UICONTROL addYears (Datum; Zahl)]
 
-Gibt infolge des Hinzufügens einer bestimmten Anzahl von Jahren zu einem Datum ein neues Datum zurück. Um Jahre abzuziehen, geben Sie eine negative Zahl ein.
+Gibt ein neues Datum zurück, wenn einem Datum eine bestimmte Anzahl von Jahren hinzugefügt wird. Um Jahre abzuziehen, geben Sie eine negative Zahl ein.
 
 >[!INFO]
 >
@@ -158,19 +158,19 @@ Gibt infolge des Hinzufügens einer bestimmten Anzahl von Jahren zu einem Datum 
 >
 >* `addYears(2016-08-08T15:55:57.536Z;2)`
 >
->    Gibt 2018-08-08T15:55:57.536Z zurück
+>    Gibt 2018-08-08T15.:55:.536Z zurück
 >
 >* `addYears(2016-12-08T15:55:57.536Z; -2)`
 >
->    Gibt 2014-08-08T15:55:57.536Z zurück
+>    Gibt 2014-08-08T15.:55:.536Z zurück
 
 ### [!UICONTROL setSecond (Datum; Zahl)]
 
 Diese Funktion gibt ein neues Datum mit den in den Parametern angegebenen Sekunden zurück.
 
-Geben Sie eine Zahl zwischen 0 und 59 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion eine Sekunde aus der vorherigen Minute (für eine negative Zahl) oder aus der darauf folgenden Minute (für eine positive Zahl) zurück.
+Geben Sie eine Zahl zwischen 0 und 59 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion eine Sekunde aus der vorherigen Minute (für eine negative Zahl) oder der nachfolgenden Minute (für eine positive Zahl) zurück.
 
-Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Verwendung von[!UICONTROL  addSeconds], wie oben im Abschnitt [addSeconds (date; number)](#addseconds-date-number) beschrieben.
+Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Verwendung von [!UICONTROL addSeconds], wie oben im Abschnitt [addSeconds (date; number)](#addseconds-date-number).
 
 >[!INFO]
 >
@@ -182,15 +182,15 @@ Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Ve
 >
 >* `setSecond(2015-10-07T11:36:39.138Z; 6)`
 >
->    Gibt 2015-10-07T11:37:01.138Z zurück
+>    Gibt 2015-10-07T11-:37:.138Z zurück
 
 ### [!UICONTROL setMinute (Datum; Zahl)]
 
 Diese Funktion gibt ein neues Datum mit den in den Parametern angegebenen Minuten zurück.
 
-Geben Sie eine Zahl zwischen 0 und 59 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion eine Minute von der vorherigen Stunde (für eine negative Zahl) oder der nachfolgenden Stunde (für eine positive Zahl) zurück.
+Geben Sie eine Zahl zwischen 0 und 59 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion eine Minute aus der vorherigen Stunde (für eine negative Zahl) oder der nachfolgenden Stunde (für eine positive Zahl) zurück.
 
-Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Verwendung von addMinutes, wie oben unter [addMinutes (Datum; Zahl)](#addminutes-date-number) beschrieben.
+Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir, addMinutes zu verwenden, wie oben unter [addMinutes (date; number) beschrieben](#addminutes-date-number).
 
 >[!INFO]
 >
@@ -198,19 +198,19 @@ Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Ve
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;10)`
 >
->    Gibt 2015-10-07T11:10:39.138Z zurück
+>    Gibt 2015-10-07T11-:10:.138Z zurück
 >
 >* `setMinute(2015-10-07T11:36:39.138Z;61)`
 >
->    Gibt 2015-10-07T12:01:39.138Z zurück
+>    Gibt 2015-10-07T12.:01:.138Z zurück
 
 ### [!UICONTROL setHour (Datum; Zahl)]
 
 Diese Funktion gibt ein neues Datum mit der in den Parametern angegebenen Stunde zurück.
 
-Geben Sie eine Zahl zwischen 0 und 23 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion eine Stunde vom vorherigen Tag (für eine negative Zahl) oder vom darauf folgenden Tag (für eine positive Zahl) zurück.
+Geben Sie eine Zahl zwischen 0 und 23 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion eine Stunde vom vorherigen Tag (für eine negative Zahl) oder nachfolgenden Tag (für eine positive Zahl) zurück.
 
-Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Verwendung von addHours, wie oben unter [addHours (Datum; Zahl)](#addhours-date-number) beschrieben.
+Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir, addHours zu verwenden, wie oben unter [addHours (date; number) beschrieben](#addhours-date-number).
 
 >[!INFO]
 >
@@ -218,19 +218,19 @@ Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Ve
 >
 >* `setHour(2015-08-07T11:36:39.138Z;6)`
 >
->   Gibt 2015-08-07T06:36:39.138Z zurück
+>   Gibt 2015-08-07T06.:36:.138Z zurück
 >
 >* `setHour(2015-08-07T11:36:39.138;-6)`
 >
->    Gibt 2015-08-06T18:36:39.138Z zurück
+>    Gibt 2015-08-06T18.:36:.138Z zurück
 
-### [!UICONTROL setDay (Datum; Zahl/Name des Tages in Englisch)]
+### [!UICONTROL setDay (date; number/name of the day in English)]
 
 Diese Funktion gibt ein neues Datum mit dem in den Parametern angegebenen Tag zurück.
 
-Sie können diese Funktion verwenden, um den Wochentag mit Sonntag auf 1 und Samstag auf 7 festzulegen. Wenn Sie eine Zahl zwischen 1 und 7 angeben, liegt das resultierende Datum in der aktuellen (Sonntag bis Samstag) Woche. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion einen Tag aus der vorherigen Woche (für eine negative Zahl) oder aus der darauffolgenden Woche (für eine positive Zahl) zurück.
+Mit dieser Funktion können Sie den Wochentag festlegen, wobei „Sonntag“ den Wert „1“ und „Samstag“ den Wert „7“ hat. Wenn Sie eine Zahl zwischen 1 und 7 angeben, liegt das resultierende Datum innerhalb der aktuellen Woche (Sonntag bis Samstag). Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion einen Tag aus der vorherigen Woche (für eine negative Zahl) oder der nachfolgenden Woche (für eine positive Zahl) zurück.
 
-Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Verwendung von addDays, wie oben unter [addDays (Datum; Zahl)](#adddays-date-number) beschrieben.
+Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Verwendung von addDays, wie oben unter [addDays (date; number) beschrieben](#adddays-date-number).
 
 >[!INFO]
 >
@@ -238,21 +238,21 @@ Wenn Sie eine Zahl außerhalb des Bereichs angeben müssen, empfehlen wir die Ve
 >
 >* `setDay(2018-06-27T11:36:39.138Z;Monday)`
 >
->   Gibt 2018-06-25T11:36:39.138Z zurück
+>   Gibt 2018-06-25T11-:36:.138Z zurück
 >
 >* `setDay(2018-06-27T11:36:39.138Z;1)`
 >
->   Gibt 2018-06-24T11:36:39.138Z zurück
+>   Gibt 2018-06-24T11-:36:.138Z zurück
 >
 >* `setDay(2018-06-27T11:36:39.138Z;7)`
 >
->   Gibt 2018-06-30T11:36:39.138Z zurück
+>   Gibt 2018-06-30T11-:36:.138Z zurück
 
 ### [!UICONTROL setDate (date; number)]
 
 Diese Funktion gibt ein neues Datum mit dem in den Parametern angegebenen Tag des Monats zurück.
 
-Geben Sie eine Zahl zwischen 1 und 31 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion einen Tag aus dem vorherigen Monat (für eine negative Zahl) oder aus dem darauf folgenden Monat (für eine positive Zahl) zurück.
+Geben Sie eine Zahl zwischen 1 und 31 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion einen Tag aus dem vorherigen Monat (bei einer negativen Zahl) oder dem nachfolgenden Monat (bei einer positiven Zahl) zurück.
 
 >[!INFO]
 >
@@ -260,17 +260,17 @@ Geben Sie eine Zahl zwischen 1 und 31 an. Wenn die Zahl außerhalb dieses Bereic
 >
 >* `setDate(2015-08-07T11:36:39.138Z;5)`
 >
->   Gibt 2015-08-05T11:36:39.138Z zurück
+>   Gibt 2015-08-05T11.:36:.138Z zurück
 >
 >* `setDate(2015-08-07T11:36:39.138Z;32)`
 >
->   Gibt 2015-09-01T11:36:39.138Z zurück
+>   Gibt 2015-09-01T11-:36:.138Z zurück
 
-### [!UICONTROL setMonth (Datum; Zahl/Name des Monats in Englisch)]
+### [!UICONTROL setMonth (date; number/name of the month in englischer Sprache)]
 
 Diese Funktion gibt ein neues Datum mit dem in den Parametern angegebenen Monat zurück.
 
-Geben Sie eine Zahl zwischen 1 und 12 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion den Monat im Vorjahr (für eine negative Zahl) oder im darauf folgenden Jahr (für eine positive Zahl) zurück.
+Geben Sie eine Zahl zwischen 1 und 12 an. Wenn die Zahl außerhalb dieses Bereichs liegt, gibt die Funktion den Monat des Vorjahres (bei einer negativen Zahl) oder des Folgejahres (bei einer positiven Zahl) zurück.
 
 >[!INFO]
 >
@@ -278,17 +278,17 @@ Geben Sie eine Zahl zwischen 1 und 12 an. Wenn die Zahl außerhalb dieses Bereic
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;5)`
 >
->   Gibt 2015-05-07T11:36:39.138Z zurück
+>   Gibt 2015-05-07T11.:36:.138Z zurück
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;17)`
 >
->   Gibt 2016-05-07T11:36:39.138Z zurück
+>   Gibt 2016-05-07T11.:36:.138Z zurück
 >
 >* `setMonth(2015-08-07T11:36:39.138Z;january)`
 >
->   Gibt 2015-01-07T12:36:39.138Z zurück
+>   Gibt 2015-01-07T12.:36:.138Z zurück
 
-### [!UICONTROL setYear (date; number)]
+### [!UICONTROL setYear (date;number)]
 
 Gibt ein neues Datum mit dem in den Parametern angegebenen Jahr zurück.
 
@@ -298,13 +298,13 @@ Gibt ein neues Datum mit dem in den Parametern angegebenen Jahr zurück.
 >
 >* `setYear(2015-08-07T11:36:39.138Z;2017)`
 >
->   Gibt 2017-08-07T11:36:39.138Z zurück
+>   Gibt 2017-08-07T11-:36:.138Z zurück
 
-### [!UICONTROL formatDate (date; format; [timezone])]
+### [!UICONTROL formatDate (Datum; Format; [Zeitzone])]
 
-Verwenden Sie diese Funktion, wenn Sie über einen Datumswert wie `12-10-2021 20:30` verfügen, den Sie als Textwert formatieren möchten, z. B. `Dec 10, 2021 8:30 PM`.
+Verwenden Sie diese Funktion, wenn Sie einen Datumswert haben, z. B. `12-10-2021 20:30`, den Sie als Textwert formatieren möchten, z. B. `Dec 10, 2021 8:30 PM`.
 
-Dies ist beispielsweise nützlich, wenn Sie das Datumsformat einer App oder eines Webdiensts in das einer verbundenen App oder eines Webdiensts ändern müssen.
+Dies ist beispielsweise nützlich, wenn Sie das Datumsformat einer Anwendung oder eines Webservices im selben Szenario in das Format einer verbundenen Anwendung oder eines Webservices ändern müssen.
 
 Weitere Informationen finden Sie unter [Datum](../../workfront-fusion/mapping/item-data-types.md#date) und [Text](../../workfront-fusion/mapping/item-data-types.md#text) im Artikel [Elementdatentypen in Adobe Workfront Fusion](../../workfront-fusion/mapping/item-data-types.md).
 
@@ -323,38 +323,38 @@ Weitere Informationen finden Sie unter [Datum](../../workfront-fusion/mapping/it
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Datum] </td> 
+   <td>[!UICONTROL date] </td> 
    <td>Datum </td> 
    <td> <p>Konvertiert einen Datumswert in einen Textwert. </p> </td> 
   </tr> 
   <tr> 
-   <td>Format [!UICONTROL] </td> 
+   <td>[!UICONTROL-Format] </td> 
    <td>Text </td> 
-   <td> <p>Ermöglicht die Angabe eines Formats mithilfe von Token zur Datums-/Uhrzeitformatierung. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Token für die Datums- und Uhrzeitformatierung in [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+   <td> <p>Ermöglicht die Angabe eines Formats mithilfe von Datums-/Uhrzeitformatierungs-Token. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Token zur Datums- und Uhrzeitformatierung in [!DNL Adobe Workfront Fusion]</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL timezone] </td> 
    <td>Text </td> 
-   <td> <p>(Optional) Hier können Sie die Zeitzone angeben, die für die Konvertierung verwendet wird. </p> <p>Eine Liste der erkannten Zeitzonen finden Sie in der Spalte "Name der TZ-Datenbank"in der Wikipedia-<a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Liste der tz-Datenbankzeitzonen</a>. Nur die in dieser Spalte aufgeführten Werte werden von der Funktion als gültige Zeitzone erkannt. Jeder andere Wert wird ignoriert und stattdessen die in Ihrem Profil angegebene Zeitzone Szenarios verwendet. Weitere Informationen finden Sie im Artikel <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Profileinstellungen in [!DNL Adobe Workfront Fusion]</a> ändern.</p> <p>Wenn Sie diesen Parameter weglassen, wird die in Ihren Profileinstellungen angegebene Zeitzone Szenarios angewendet. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Optional) Hier können Sie die Zeitzone angeben, die für die Konvertierung verwendet wird. </p> <p>Eine Liste der erkannten Zeitzonen finden Sie in der Spalte „TZ-Datenbankname“ in der Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Liste der tz-Datenbankzeitzonen</a>. Nur die in dieser Spalte aufgelisteten Werte werden von der Funktion als gültige Zeitzone erkannt. Alle anderen Werte werden ignoriert und stattdessen wird die in Ihrem Profil angegebene Zeitzone „Szenarios“ verwendet. Weitere Informationen finden Sie im Artikel <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Ändern von Profileinstellungen in [!DNL Adobe Workfront Fusion]</a>.</p> <p>Wenn Sie diesen Parameter auslassen, wird die in Ihren Profileinstellungen angegebene Zeitzone „Szenarios“ angewendet. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenn ein anderer Typ angegeben wird, wird die Typerzwingung angewendet. Weitere Informationen finden Sie unter [Typenzwang in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+Wenn ein anderer Typ angegeben wird, wird Typzwang angewendet. Weitere Informationen finden Sie unter [Typzwang in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-#### Rückgabewert und Typ
+#### Rückgabewert und -typ
 
 Die Funktion `formatDate` gibt eine Textdarstellung des angegebenen Datumswerts entsprechend dem angegebenen Format und der angegebenen Zeitzone zurück. Der Datentyp ist Text.
 
 >[!INFO]
 >
->**Beispiele:** Das Szenario und die Web-Zeitzone wurden in diesen Beispielen jeweils auf `Europe/Prague` gesetzt.
+>**Beispiele:** In diesen Beispielen wurden sowohl das Szenario als auch die Web-Zeitzone auf `Europe/Prague` festgelegt.
 >
 >![](assets/date&time-functions-examples-350x61.png)
 >
 >* `formatDate(1. Date created;MM/DD/YYYY)`
 >
->    Gibt 10.01.2018 zurück
+>    Gibt 10/01/2018 zurück
 >
 >* `formatDate(1. Date created; YYYY-MM-DD hh:mm A)`
 >
@@ -366,15 +366,15 @@ Die Funktion `formatDate` gibt eine Textdarstellung des angegebenen Datumswerts 
 >
 >* `formatDate(now;DD.MM.YYYY HH:mm)`
 >
->    Gibt 19.03.2019 15:30 Uhr zurück
+>    Gibt 19.03.2019 15:30 zurück
 
-### [!UICONTROL parseDate (text; format; [timezone])]
+### [!UICONTROL parseDate (text;format; [timezone])]
 
-Verwenden Sie diese Funktion, wenn Sie einen Textwert haben, der ein Datum darstellt (z. B. `12-10-2019 20:30` oder `Aug 18, 2019 10:00 AM`) und ihn in einen Datumswert konvertieren (analysieren) möchten (eine binäre, maschinenlesbare Darstellung). Weitere Informationen finden Sie unter [Datum](../../workfront-fusion/mapping/item-data-types.md#date) und [Text](../../workfront-fusion/mapping/item-data-types.md#text) im Artikel [Elementdatentypen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
+Verwenden Sie diese Funktion, wenn Sie einen Textwert haben, der ein Datum darstellt (z. B. `12-10-2019 20:30` oder `Aug 18, 2019 10:00 AM`) und Sie ihn in einen Datumswert konvertieren (parsen) möchten (eine binäre maschinenlesbare Darstellung). Weitere Informationen finden Sie unter [Datum](../../workfront-fusion/mapping/item-data-types.md#date) und [Text](../../workfront-fusion/mapping/item-data-types.md#text) im Artikel [Datentypen in [!UICONTROL Adobe Workfront Fusion]](../../workfront-fusion/mapping/item-data-types.md).
 
 #### Parameter
 
-Die zweite Spalte zeigt den erwarteten Typ an. Wenn ein anderer Typ angegeben wird, wird die Typerzwingung angewendet. Weitere Informationen finden Sie unter [Typenzwang in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+Die zweite Spalte zeigt den erwarteten Typ an. Wenn ein anderer Typ angegeben wird, wird Typzwang angewendet. Weitere Informationen finden Sie unter [Typzwang in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -389,56 +389,56 @@ Die zweite Spalte zeigt den erwarteten Typ an. Wenn ein anderer Typ angegeben wi
  </thead> 
  <tbody> 
   <tr> 
-   <td>[!UICONTROL Text] </td> 
+   <td>[!UICONTROL-Text] </td> 
    <td>Text </td> 
    <td> <p>Konvertiert einen Datumswert in einen Textwert. </p> </td> 
   </tr> 
   <tr> 
-   <td>Format [!UICONTROL] </td> 
+   <td>[!UICONTROL-Format] </td> 
    <td>Text </td> 
-   <td> <p>Ermöglicht die Angabe eines Formats mithilfe von Token zur Datums-/Uhrzeitformatierung. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Token für die Datums- und Uhrzeitformatierung in Adobe Workfront Fusion</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
+   <td> <p>Ermöglicht die Angabe eines Formats mithilfe von Datums-/Uhrzeitformatierungs-Token. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/functions/tokens-for-date-and-time-formatting.md" class="MCXref xref">Token zur Datums- und Zeitformatierung in Adobe Workfront Fusion</a>.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>DD.MM.YYYY HH:mm</code> </p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL timezone] </td> 
    <td>Text </td> 
-   <td> <p>(Optional) Hier können Sie die Zeitzone angeben, die für die Konvertierung verwendet wird. </p> <p>Eine Liste der erkannten Zeitzonen finden Sie in der Spalte "Name der TZ-Datenbank"in der Wikipedia-<a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Liste der tz-Datenbankzeitzonen</a>. Nur die in dieser Spalte aufgeführten Werte werden von der Funktion als gültige Zeitzone erkannt. Jeder andere Wert wird ignoriert und stattdessen die in Ihrem Profil angegebene Zeitzone Szenarios verwendet. Weitere Informationen finden Sie im Artikel <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Profileinstellungen in Adobe Workfront Fusion ändern</a> .</p> <p>Wenn Sie diesen Parameter weglassen, wird die in Ihren Profileinstellungen angegebene Zeitzone Szenarios angewendet.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
+   <td> <p>(Optional) Hier können Sie die Zeitzone angeben, die für die Konvertierung verwendet wird. </p> <p>Eine Liste der erkannten Zeitzonen finden Sie in der Spalte „TZ-Datenbankname“ in der Wikipedia <a href="https://en.wikipedia.org/wiki/List_of_tz_database_time_zones">Liste der tz-Datenbankzeitzonen</a>. Nur die in dieser Spalte aufgelisteten Werte werden von der Funktion als gültige Zeitzone erkannt. Alle anderen Werte werden ignoriert und stattdessen wird die in Ihrem Profil angegebene Zeitzone „Szenarios“ verwendet. Weitere Informationen finden Sie im Artikel <a href="../../workfront-fusion/workfront-fusion-basics/change-profile-settings.md" class="MCXref xref">Ändern von Profileinstellungen in Adobe Workfront Fusion</a>.</p> <p>Wenn Sie diesen Parameter auslassen, wird die in Ihren Profileinstellungen angegebene Zeitzone „Szenarios“ angewendet.</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>Europe/Prague</code>, <code>UTC</code></p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenn ein anderer Typ angegeben wird, wird die Typerzwingung angewendet. Weitere Informationen finden Sie unter [Typenzwang in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
+Wenn ein anderer Typ angegeben wird, wird Typzwang angewendet. Weitere Informationen finden Sie unter [Typzwang in [!DNL Adobe Workfront Fusion]](../../workfront-fusion/mapping/type-coercion.md).
 
-#### Rückgabewert und Typ
+#### Rückgabewert und -typ
 
-Diese Funktion konvertiert eine Textzeichenfolge entsprechend dem angegebenen Format und der angegebenen Zeitzone in ein Datum. Der Datentyp des Werts ist Datum.
+Diese Funktion konvertiert eine Textzeichenfolge in ein Datum, entsprechend dem Format und der Zeitzone, die Sie angeben. Der Datentyp des Werts ist Datum.
 
 >[!INFO]
 >
->**Beispiele:** In den folgenden Beispielen wird der zurückgegebene Datumswert gemäß ISO 8601 ausgedrückt, der Datentyp des Ergebnisses ist jedoch Datum.
+>**Beispiele:** In den folgenden Beispielen wird der zurückgegebene Datumswert gemäß ISO 8601 ausgedrückt, aber der Datentyp des Ergebnisses ist „Datum“.
 >
 >* `parseDate(2016-12-28;YYYY-MM-DD)`
 >
->    Gibt 2016-12-28T00:00:00.000Z zurück
+>    Gibt 2016-28T00-:00:.000Z zurück
 >
 >* `parseDate(2016-12-28 16:03;YYYY-MM-DD HH:mm)`
 >
->    Gibt 2016-12-28T16:03:00.000Z zurück
+>    Gibt 2016-28-12-16.:03:.000Z zurück
 >
 >* `parseDate(2016-12-28 04:03 pm; YYYY-MM-DD hh:mm a)`
 >
->    Gibt 2016-12-28T16:03:06.000Z zurück
+>    Gibt 2016-28-12-16.:03:.000Z zurück
 >
 >* `parseDate(1482940986;X)`
 >
->   Gibt 2016-12-28T16:03:06.000Z zurück
+>   Gibt 2016-28-12-16.:03:.000Z zurück
 
 ### [!UICONTROL dateDifference (Date1; Date2; Unit)]
 
-Gibt eine Zahl zurück, die die Differenz der beiden Daten in der angegebenen Einheit darstellt.
+Gibt eine Zahl zurück, die den Unterschied zwischen den beiden Daten darstellt, ausgedrückt in der angegebenen Einheit.
 
-Date2 wird von Date1 subtrahiert.
+Datum2 wird von Datum1 abgezogen.
 
-Verwenden Sie einen der folgenden Zeitwerte für den Parameter `unit` :
+Verwenden Sie einen der folgenden Zeitwerte für den `unit`:
 
 * Millisekunden
 * Sekunden
@@ -456,23 +456,23 @@ Wenn keine Einheit angegeben ist, gibt die Funktion die Differenz in Millisekund
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z)`
 >
->    Gibt `600,000` zurück
+>    Gibt `600,000`
 >
 >* `dateDifference(2021-05-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;hours)`
 >
->    Gibt `4` zurück
+>    Gibt `4`
 >
 >* `dateDifference2021-06-11T18:10:00.000Z;2021-05-11T18:00:00.000Z;months)`
 >
->    Gibt `1` zurück
+>    Gibt `1`
 
 ### Zusätzliche Beispiele
 
-#### Berechnung des n. Wochentags im Monat
+#### Berechnung des n-ten Wochentags im Monat
 
-Dieser Abschnitt wurde für [!DNL Workfront Fusion] von der Webseite [!DNL Exceljet] angepasst, auf der erklärt wird, wie der n-te Wochentag in einem Monat abgerufen werden kann.
+Dieser Abschnitt ist für [!DNL Workfront Fusion] von der [!DNL Exceljet]-Webseite angepasst, in der erläutert wird, wie Sie den n-ten Wochentag in einem Monat erhalten.
 
-Wenn Sie ein Datum berechnen müssen, das dem n. Wochentag im Monat entspricht (z. B. erster Dienstag, dritter Freitag usw.), können Sie die folgende Formel verwenden:
+Wenn Sie ein Datum berechnen müssen, das dem n-ten Wochentag im Monat entspricht (z. B. erster Dienstag, dritter Freitag usw.), können Sie die folgende Formel verwenden:
 
 ![](assets/date&time-functions-calc-nth-day-350x31.png)
 
@@ -488,11 +488,11 @@ Die Formel enthält die folgenden Elemente:
  <tbody> 
   <tr> 
    <td><code>1.n</code> </td> 
-   <td> <p> n. Tag:</p> 
+   <td> <p> N-ter Tag:</p> 
     <ul> 
-     <li><code>1</code> für den 1. Dienstag</li> 
-     <li><code>2</code> für den zweiten Dienstag</li> 
-     <li><code>3</code> für den 3. Dienstag usw.</li> 
+     <li><code>1</code> für 1. Dienstag</li> 
+     <li><code>2</code> für 2. Dienstag</li> 
+     <li><code>3</code> für den 3. Dienstag usw</li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -510,7 +510,7 @@ Die Formel enthält die folgenden Elemente:
   </tr> 
   <tr> 
    <td><code>1.date</code> </td> 
-   <td> <p> Das Datum bestimmt den Monat. Verwenden Sie die Variable "<code>now</code>", um den n. Tag der Woche im aktuellen Monat zu berechnen.</p> </td> 
+   <td> <p> Das Datum bestimmt den Monat. Um den n-ten Wochentag im aktuellen Monat zu berechnen, verwenden Sie die Variable <code>now</code> .</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -525,10 +525,10 @@ Wenn Sie nur einen bestimmten Fall berechnen möchten, z. B. jeden zweiten Mittw
 
 #### Erklärung:
 
-* `setDate(now;1)` gibt den ersten Tag des aktuellen Monats zurück
-* `formatDate(....;E)` gibt den Wochentag zurück (1, 2, ... 6)
+* `setDate(now;1)` gibt den ersten Wert des aktuellen Monats zurück
+* `formatDate(....;E)` gibt den Wochentag (1, 2, … 6) zurück
 
-### So berechnen Sie Tage zwischen Datumsangaben
+### Berechnen von Tagen zwischen Datumsangaben
 
 Eine Möglichkeit besteht darin, den folgenden Ausdruck zu verwenden:
 
@@ -540,17 +540,17 @@ Eine Möglichkeit besteht darin, den folgenden Ausdruck zu verwenden:
 
 >[!NOTE]
 >
->* Die Werte `D1`und `D2` sind vom Typ Datum . Wenn es sich um Werte vom Typ String handelt (z. B. 20.10.2018), verwenden Sie die Funktion `parseDate()` , um sie in Werte vom Typ Datum zu konvertieren.
+>* Die Werte `D1`und `D2` müssen vom Typ Datum sein. Wenn es sich um Werte vom Typ Zeichenfolge handelt (z. B. 20.10.2018), konvertieren Sie sie mit der Funktion `parseDate()` in Werte vom Typ Datum .
 >
->* Die Funktion `round()` wird für Fälle verwendet, in denen eines der Daten innerhalb des Sommerzeit-Zeitraums liegt und das andere Datum nicht. In diesen Fällen beträgt die Differenz in Stunden mindestens eine Stunde. Sie können ihn durch 24 für ein Ergebnis ohne Ganzzahl teilen. Sie verlieren eine stündliche Sommerzeit. Rund reduziert es, sodass Sie keinen Prozentsatz haben
+>* Die `round()`-Funktion wird für Fälle verwendet, in denen eines der Datumsangaben in den Zeitraum der Sommerzeit fällt und das andere nicht. In diesen Fällen beträgt der Stundenunterschied eine Stunde weniger oder mehr. Bei einem Ergebnis, das keine Ganzzahl ist, können Sie es durch 24 teilen. Man verliert eine Stunde der Sommerzeit. Rund flacht es, sodass man keinen Prozentsatz hat
 
-#### Berechnung des letzten Tages/der Millisekunde des Monats
+#### Berechnung des letzten Tages/der letzten Millisekunde des Monats
 
-Wenn Sie einen Datumsbereich angeben, z. B. in einem Suchmodul, müssen Sie den letzten Tag des Monats berechnen, wenn der Bereich den gesamten vorherigen Monat als geschlossenes Intervall umfasst (das Intervall, das beide Begrenzungspunkte enthält).
+Wenn Sie einen Datumsbereich angeben, z. B. in einem Suchmodul, und der Bereich den gesamten Vormonat als geschlossenes Intervall umfasst (das Intervall, das beide Endpunkte umfasst), müssen Sie den letzten Tag des Monats berechnen.
 
 2019-09-01 ≤ D ≤ 2019-09-30
 
-Die folgende Formel zeigt eine Methode zur Berechnung des letzten Tages des vorherigen Monats:
+Die folgende Formel zeigt eine Möglichkeit, den letzten Tag des Vormonats zu berechnen:
 
 ![](assets/last-day-prev-month.png)
 
@@ -558,11 +558,11 @@ Die folgende Formel zeigt eine Methode zur Berechnung des letzten Tages des vorh
 {{addDays(setDate(now; 1); -1)}}
 ```
 
-In einigen Fällen müssen Sie nicht nur den letzten Tag des Monats berechnen, sondern buchstäblich die letzte Millisekunde:
+In einigen Fällen müssen Sie nicht nur den letzten Tag des Monats berechnen, sondern buchstäblich seine letzte Millisekunde:
 
 2019-09-01T00:00:00.000Z ≤ D ≤ 2019-09-30T23:59:59.999Z
 
-Diese Formel zeigt eine Methode zur Berechnung der letzten Millisekunde des Vormonats:
+Diese Formel zeigt eine Möglichkeit, die letzte Millisekunde des Vormonats zu berechnen:
 
 ![](assets/last-millisecond-prev-month-350x45.png)
 
@@ -576,7 +576,7 @@ Wenn Sie das Ergebnis benötigen, um Ihre Zeitzoneneinstellung zu verwenden, las
 
 `{{parseDate(parseDate(formatDate(now; "YYYYMM01"); "YYYYMMDD") - 1; "x")}}`
 
-Es ist jedoch vorzuziehen, stattdessen das halboffene Intervall zu verwenden (das Intervall, das einen seiner Grenzpunkte ausschließt), stattdessen den ersten Tag des folgenden Monats anzugeben und den Operator &quot;kleiner oder gleich&quot;wie folgt durch &quot;kleiner als&quot;zu ersetzen:
+Es ist jedoch vorzuziehen, stattdessen das halb offene Intervall zu verwenden (das Intervall, das einen seiner Grenzpunkte ausschließt), wobei stattdessen der erste Tag des folgenden Monats angegeben wird und der Operator „kleiner oder gleich“ durch „kleiner als“ wie folgt ersetzt wird:
 
 `2019-09-01 ≤ D < 2019-10-01`
 

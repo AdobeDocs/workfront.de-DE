@@ -1,8 +1,8 @@
 ---
 product-area: user-management
 navigation-topic: manage-your-workfront-account
-title: Empfangen von E-Mail-Einladungen und Erstellen eines Kennworts für  [!DNL Adobe Workfront]
-description: Wenn ein [!DNL Workfront] Administrator einen neuen Benutzer erstellt, erhält der neue Benutzer möglicherweise eine Einladungs-E-Mail, die auf mehreren Faktoren basiert.
+title: Empfangen Sie E-Mail-Einladungen und erstellen Sie ein Kennwort für [!DNL Adobe Workfront]
+description: Wenn  [!DNL Workfront]  Administrator einen neuen Benutzer erstellt, erhält der neue Benutzer möglicherweise eine Einladungs-E-Mail, die auf mehreren Faktoren basiert.
 author: Courtney
 feature: Get Started with Workfront
 exl-id: a13dbe33-f283-4732-a7f2-5a94a37855f0
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# E-Mail-Einladungen empfangen und ein Kennwort für [!DNL Adobe Workfront] erstellen
+# Empfangen von E-Mail-Einladungen und Erstellen eines Passworts für [!DNL Adobe Workfront]
 
 ## Zugriffsanforderungen
 
@@ -26,52 +26,52 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] license*</strong></td> 
-   <td> <p>[!UICONTROL Anforderung] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
+   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder Lizenztyp Sie haben.
 
 ## E-Mail-Einladungen empfangen
 
-Wenn ein [!DNL Workfront] -Administrator einen neuen Benutzer erstellt, erhält der neue Benutzer möglicherweise eine Einladungs-E-Mail, die auf mehreren Faktoren basiert:
+Wenn ein [!DNL Workfront] einen neuen Benutzer erstellt, erhält der neue Benutzer möglicherweise eine Einladungs-E-Mail, die auf verschiedenen Faktoren basiert:
 
-* Ob die Organisation des Benutzers in den [!DNL Adobe Admin Console] integriert wurde
+* Ob die Organisation des Benutzers in die [!DNL Adobe Admin Console] integriert wurde
 * Ob der Benutzer in [!DNL Workfront] oder der [!DNL Admin Console] hinzugefügt wurde
-* Gibt an, ob der Benutzer Zugriff auf andere [!DNL Adobe]-Produkte hat oder ein neuer [!DNL Adobe]-Benutzer ist
-* Ob der Administrator dem Benutzer eine E-Mail-Einladung geschickt hat (gilt nur für Organisationen, die noch nicht auf der [!DNL Admin Console] -Seite stehen)
+* Ob der Benutzer Zugriff auf andere [!DNL Adobe] Produkte hat oder ein neuer [!DNL Adobe] ist
+* Ob der Administrator beschlossen hat, dem Benutzer eine E-Mail-Einladung zu senden (gilt nur für Organisationen, die sich noch nicht auf der [!DNL Admin Console] befinden)
 
-Weitere Informationen dazu, wie ein [!DNL Workfront] -Administrator E-Mail-Einladungen beim Erstellen neuer Benutzer sendet, finden Sie unter [Verwalten von E-Mail-Einladungen an neue Benutzer](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
+Weitere Informationen dazu, wie ein [!DNL Workfront] beim Erstellen neuer Benutzer E-Mail-Einladungen sendet, finden Sie unter [Verwalten von E-Mail-Einladungen an neue Benutzer](../../../administration-and-setup/manage-workfront/emails/manage-email-invitations.md).
 
-Weitere Informationen dazu, wie ein Workfront-Administrator [!DNL Adobe Workfront] neue Benutzer hinzufügt, finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Weitere Informationen dazu, wie Workfront-Admins neue Benutzende zu [!DNL Adobe Workfront] hinzufügen, finden Sie unter [Benutzende hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Kennwort für [!DNL Workfront] erstellen
 
-Nachdem Sie die Einladungs-E-Mail erhalten haben, können Sie als neuer Benutzer dem Link in der E-Mail-Einladung folgen und die Erstellung Ihres [!DNL Workfront]-Kontos abschließen, indem Sie ein Kennwort auswählen.
+Als neuer Benutzer können Sie nach Erhalt der Einladungs-E-Mail dem Link in der E-Mail-Einladung folgen und die Erstellung Ihres [!DNL Workfront]-Kontos abschließen, indem Sie ein Passwort auswählen.
 
 >[!NOTE]
 >
->Der Link in der E-Mail gilt nur für den Zeitraum von Tagen, der im Bereich [!UICONTROL Allgemeine Optionen] auf der Seite [!UICONTROL Einladungen] von Ihrem [!DNL Workfront] -Administrator angegeben wurde.
+>Der Link in der E-Mail ist nur für die Anzahl der Tage gültig[!UICONTROL  die Ihr [!DNL Workfront]-Administrator im Bereich ]Allgemeine Optionen[!UICONTROL  der ]Einladungen“ angegeben hat.
 
 So erstellen Sie ein Kennwort für [!DNL Workfront] mithilfe der Einladungs-E-Mail:
 
-1. Klicken Sie in der Einladungs-E-Mail von Workfront auf **[!UICONTROL Erste Schritte]** .
+1. Klicken Sie **[!UICONTROL der Einladungs]** E-Mail von Workfront auf „Erste Schritte“.
 
-   ![Neuer Benutzerbildschirm aus E-Mail-Einladung](assets/new-user-screen-from-invitation-adobe-350x292.png)
+   ![Bildschirm „Neuer Benutzer“ aus E-Mail-Einladung](assets/new-user-screen-from-invitation-adobe-350x292.png)
 
 1. Geben Sie die folgenden Informationen an:\
-   **[!UICONTROL Vorname]**: Ihr Vorname (er sollte vorausgefüllt werden).\
-   **[!UICONTROL Nachname]**: Ihr Nachname (er sollte vorausgefüllt werden).\
-   **[!UICONTROL Titel]**: Ihr Titel in Ihrer Organisation.\
+   **[!UICONTROL Vorname]**: Ihr Vorname (er sollte vorausgefüllt sein).\
+   **[!UICONTROL Nachname]**: Ihr Nachname (er sollte vorausgefüllt sein).\
+   **[!UICONTROL Title]**: Ihr Titel in Ihrer Organisation.\
    **[!UICONTROL Kennwort]**: Wählen Sie ein Kennwort für die Anmeldung bei Workfront aus.\
-   **[!UICONTROL Kennwort bestätigen]**: Bestätigen Sie Ihr [!DNL Workfront] Kennwort.
+   **[!UICONTROL Kennwort bestätigen]**: Bestätigen Sie Ihr [!DNL Workfront].
 
-1. Wählen Sie **[!UICONTROL Ich akzeptiere die Geschäftsbedingungen]**.
-1. Klicken Sie auf **[!UICONTROL Anmelden]**.\
-   Dadurch wird die Erstellung Ihres Benutzerkontos in Workfront abgeschlossen.
+1. Wählen Sie **[!UICONTROL Ich stimme den Nutzungsbedingungen zu]**.
+1. Klicken Sie **[!UICONTROL Melde mich an]**.\
+   Damit ist die Erstellung Ihres Benutzerkontos in Workfront abgeschlossen.

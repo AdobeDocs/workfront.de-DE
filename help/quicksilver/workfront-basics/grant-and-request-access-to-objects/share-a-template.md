@@ -1,8 +1,8 @@
 ---
-title: Vorlage freigeben
+title: Freigeben einer Vorlage
 product-area: templates
 navigation-topic: grant-and-request-access-to-objects
-description: Als Adobe Workfront-Administrator können Sie Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Vorlagen gewähren, wenn Sie ihre Zugriffsebene zuweisen. Ein Benutzer muss über eine Planungslizenz verfügen, um Zugriff auf Vorlagen bearbeiten zu haben.
+description: Als Adobe Workfront-Admin können Sie Benutzenden Zugriff gewähren, um Vorlagen anzuzeigen oder zu bearbeiten, wenn Sie ihre Zugriffsebene zuweisen. Ein Benutzer muss über eine Plan-Lizenz verfügen, um Zugriff auf die Bearbeitung von Vorlagen zu erhalten.
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
@@ -13,29 +13,29 @@ ht-degree: 2%
 
 ---
 
-# Vorlage freigeben
+# Freigeben einer Vorlage
 
-Als Adobe Workfront-Administrator können Sie Benutzern Zugriff auf das Anzeigen oder Bearbeiten von Vorlagen gewähren, wenn Sie ihre Zugriffsebene zuweisen. Ein Benutzer muss über eine Planungslizenz verfügen, um Zugriff auf Vorlagen bearbeiten zu haben.
+Als Adobe Workfront-Admin können Sie Benutzenden Zugriff gewähren, um Vorlagen anzuzeigen oder zu bearbeiten, wenn Sie ihre Zugriffsebene zuweisen. Ein Benutzer muss über eine Plan-Lizenz verfügen, um Zugriff auf die Bearbeitung von Vorlagen zu erhalten.
 
-Weitere Informationen zur Gewährung des Zugriffs auf Vorlagen finden Sie unter [Gewähren des Zugriffs auf Vorlagen](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+Weitere Informationen zum Gewähren des Zugriffs auf Vorlagen finden Sie unter [Zugriff auf Vorlagen gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
-Neben der Zugriffsstufe, die Sie gewähren, können Benutzer auch von anderen Benutzern, die sie teilen, Berechtigungen zum Anzeigen oder Verwalten bestimmter Vorlagen erhalten.
+Neben der von Ihnen gewährten Zugriffsebene kann ein Benutzer auch Berechtigungen zum Anzeigen oder Verwalten bestimmter Vorlagen von anderen Benutzern erhalten, die diese freigeben .
 
 >[!NOTE]
 >
->Berechtigungsstufen funktionieren innerhalb der Zugriffsebenen. Beispielsweise kann ein Benutzer keine Berechtigungen zum Verwalten einer Vorlage erhalten, wenn seine Zugriffsebene es ihm nur ermöglicht, Vorlagen anzuzeigen.
+>Berechtigungsebenen funktionieren innerhalb von Zugriffsebenen. Beispielsweise kann ein Benutzer keine Berechtigungen zum Verwalten einer Vorlage erhalten, wenn seine Zugriffsebene ihm nur das Anzeigen von Vorlagen erlaubt.
 
-Berechtigungen beziehen sich auf ein Element in Workfront und legen fest, welche Aktionen für dieses Element durchgeführt werden können.
+Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen man für dieses Element ausführen kann.
 
-## Überlegungen zum Freigeben einer Vorlage
+## Überlegungen zur Freigabe einer Vorlage
 
-* Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-* Der Ersteller einer Vorlage sowie der Vorlageneigentümer haben standardmäßig die Berechtigung &quot;Verwalten&quot;für die Vorlage. Weitere Informationen zum Benennen eines Benutzers als Vorlageninhaber finden Sie unter [Bearbeiten von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
-* Beim Freigeben einer Vorlage können Sie Folgendes freigeben:
+* Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informationen unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+* Der Ersteller einer Vorlage sowie der Vorlagenbesitzer haben standardmäßig Verwaltungsberechtigungen für die Vorlage. Informationen zum Bestimmen eines Benutzers als Inhaber der Vorlage finden Sie unter [Projektvorlagen bearbeiten](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+* Sie können bei der Freigabe einer Vorlage Folgendes freigeben:
 
    * Die Vorlage
 
-     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Projektvorlagen freigeben](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     Weitere Informationen zum Freigeben einer Vorlage finden Sie unter [Freigeben von ](../../manage-work/projects/create-and-manage-templates/share-project-template.md)).
 
      Sie können einer Vorlage die folgenden Berechtigungen erteilen:
 
@@ -47,21 +47,21 @@ Berechtigungen beziehen sich auf ein Element in Workfront und legen fest, welche
 
         ![](assets/manage-on-template-225x280.png)
 
-   * Die künftigen Projekte, die mithilfe der Vorlage erstellt werden. Sie können für Projekte, die aus einer Vorlage erstellt wurden, dieselben Berechtigungen erteilen wie für einzelne Projekte. 
+   * Die zukünftigen Projekte, die mithilfe der Vorlage erstellt werden. Für Projekte, die aus einer Vorlage erstellt werden, können Sie dieselbe Berechtigungsstufe gewähren wie für ein einzelnes Projekt. 
 
-     Informationen zum Freigeben eines Projekts aus einer Vorlage auf Vorlagenebene finden Sie unter [Projektvorlagen freigeben](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
+     Informationen zum Freigeben eines Projekts über eine Vorlage auf Vorlagenebene finden Sie unter [Freigeben von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-* Wenn Sie eine Vorlage oder ein Projekt freigeben, das aus der Vorlage erstellt wird, erben Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit der Vorlage oder dem Projekt verknüpft sind.
+* Wenn Sie eine Vorlage oder ein Projekt freigeben, die bzw. das über die Vorlage erstellt wird, erben Benutzerinnen und Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit der Vorlage oder dem Projekt verknüpft sind.
 
-  Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter  [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter  [Verstehen von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Wenn Sie eine Vorlage freigeben, erben alle Vorlagenaufgaben und -dokumente sowie die Probleme im zukünftigen Projekt, die aus der Vorlage erstellt werden, dieselben Berechtigungen, sofern nicht anders angegeben.
+* Wenn Sie eine Vorlage freigeben, erben alle Vorlagenaufgaben und Dokumente sowie die Probleme im zukünftigen Projekt, das aus der Vorlage erstellt wurde, dieselben Berechtigungen, sofern nicht anders angegeben.
 
-  Informationen zum Verwalten des Zugriffs auf Vorlagenaufgaben und Probleme im Projekt basierend auf den Berechtigungen eines Benutzers für das Projekt finden Sie im Abschnitt [Zugriff](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) im Artikel [Bearbeiten von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+  Informationen zur Verwaltung des Zugriffs auf Vorlagenaufgaben und zu Problemen mit dem Projekt auf der Grundlage der Projektberechtigungen finden Sie im Abschnitt [Zugriff](../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) im Artikel [Bearbeiten von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-* Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten in der Zugriffsebene des Benutzers erben sollen. Weitere Informationen zum Einschränken von geerbten Berechtigungen auf Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* Der Workfront-Administrator kann angeben, ob Dokumente Berechtigungen von höheren Objekten auf der Zugriffsebene der Benutzenden erben sollen. Weitere Informationen zum Beschränken von geerbten Berechtigungen für Dokumente finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Vorlagenaufgaben können nicht einzeln freigegeben werden. Durch die Freigabe einer Vorlage werden auch die Vorlagenaufgaben freigegeben. Durch die Freigabe des Projekts aus der Vorlage werden auch die zukünftigen Projektaufgaben freigegeben.
+* Vorlagenaufgaben können nicht einzeln freigegeben werden. Bei der Freigabe einer Vorlage werden auch die Vorlagenaufgaben freigegeben. Beim Freigeben des Projekts über die Vorlage werden auch die zukünftigen Projektaufgaben freigegeben.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -108,7 +108,7 @@ You can share an object only with active users, teams,
 
 ## Erweiterte Einstellungen für die Vorlagenfreigabe
 
-Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren können, wenn sie eine Vorlage anzeigen oder verwalten können. Anweisungen zum Freigeben einer Vorlage finden Sie im Abschnitt [Vorlage freigeben](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) im Artikel [Projektvorlagen freigeben](../../manage-work/projects/create-and-manage-templates/share-project-template.md) .
+Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn sie eine Vorlage anzeigen oder verwalten möchten. Anweisungen zum Freigeben einer Vorlage finden Sie im Abschnitt [Freigeben einer Vorlage](../../manage-work/projects/create-and-manage-templates/share-project-template.md#share) im Artikel [Freigeben von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -153,7 +153,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren könne
    <td>✓</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p>Dokumente hinzufügen</p> <p>Tipp: Manchmal fügen Personen Dokumente zu einer Projektvorlage hinzu, weil sie glauben, sie würden zu einem Projekt hinzugefügt. Sie können dies für Ihre Empfänger verhindern, indem Sie diese Einstellung deaktivieren.</p> </td> 
+   <td> <p>Dokumente hinzufügen</p> <p>Tipp: Manchmal fügen Personen Dokumente zu einer Projektvorlage hinzu, weil sie glauben, dass sie diese zu einem Projekt hinzufügen. Sie können dies für Ihre Empfänger verhindern, indem Sie diese Einstellung deaktivieren.</p> </td> 
    <td> </td> 
    <td>✓</td> 
   </tr> 

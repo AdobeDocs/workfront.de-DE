@@ -1,7 +1,7 @@
 ---
 navigation-topic: get-started-with-workfront
-title: Anpassen der Spalten der Prioritätenliste
-description: Sie können die Spalten in der Arbeitsliste in Prioritäten anpassen, um Ihre Arbeitsweise zu unterstützen.
+title: Anpassen der Spalten der Arbeitsliste „Prioritäten“
+description: Sie können die Spalten auf der Arbeitsliste in Prioritäten anpassen, um Ihre Arbeitsweise zu unterstützen.
 author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Anpassen der Spalten der Prioritätenliste
+# Anpassen der Spalten der Arbeitsliste „Prioritäten“
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
-Sie können die Spalten in der Arbeitsliste in Prioritäten anpassen, um Ihre Arbeitsweise zu unterstützen.
+Sie können die Spalten auf der Arbeitsliste in Prioritäten anpassen, um Ihre Arbeitsweise zu unterstützen.
 
 >[!NOTE]
 >
->Derzeit können den Spalten keine benutzerdefinierten Daten hinzugefügt werden.
+>Benutzerdefinierte Daten können derzeit nicht zu Spalten hinzugefügt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -36,80 +36,80 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
    <td> 
-   <p>Aktuell: Überprüfer oder höher</p>
+   <p>Aktuell: Prüfer oder höher</p>
    <p>Neu: Licht oder höher</p> 
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene</strong></td> 
-   <td> <p>Anzeigen oder Bearbeiten des Zugriffs für das Objekt, auf dem die Aktualisierung ausgeführt wird</p></td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Anzeigen- oder Bearbeitungszugriff für das Objekt, auf dem die Aktualisierung ausgeführt wird</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Zugriff auf das Objekt anzeigen</p></td> 
+   <td> <p>Anzeigen des Zugriffs auf das Objekt</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anpassen der Spalten der Prioritätenliste in der Produktion
+## Anpassen der Spalten der Arbeitsliste „Prioritäten“ in der Produktionsumgebung
 
-### Spalten aktivieren oder deaktivieren
+### Aktivieren oder Deaktivieren von Spalten
 
 {{step1-to-priorities}}
 
-1. Klicken Sie rechts auf dem Bildschirm auf **Spalten** .
+1. Klicken Sie **der rechten** auf „Spalten“.
    ![](assets/columns.png)
 1. Verwenden Sie die Umschalter, um Spalten in der Arbeitsliste zu aktivieren oder zu deaktivieren.
 
-### Neuanordnen der Spalten
+### Spalten neu anordnen
 
 {{step1-to-priorities}}
 
-1. Klicken Sie rechts auf dem Bildschirm auf **Spalten** .
-1. Klicken Sie auf das Symbol **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten wird automatisch in der Arbeitsliste aktualisiert.
+1. Klicken Sie **der rechten** auf „Spalten“.
+1. Klicken Sie auf **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten aktualisiert sich automatisch in der Arbeitsliste.
    ![](assets/reorder-columns.png)
 
 ### Spaltenbreiten zurücksetzen
 
 {{step1-to-priorities}}
 
-1. Klicken Sie rechts auf dem Bildschirm auf **Spalten** .
-1. Klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) und wählen Sie **Spaltenbreiten zurücksetzen**.
+1. Klicken Sie **der rechten** auf „Spalten“.
+1. Klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) und wählen Sie **Spaltenbreiten zurücksetzen**.
    ![](assets/columns.png)
 
 <div class="preview">
 
-## Anpassen der Spalten der Prioritätenliste in der Vorschau
+## Anpassen der Spalten der Arbeitsliste „Prioritäten“ in der Vorschau
 
-### Spalten aktivieren oder deaktivieren
+### Aktivieren oder Deaktivieren von Spalten
 
 {{step1-to-priorities}}
 
-1. Klicken Sie auf der linken Seite des Bildschirms auf **Spalten** .
+1. Klicken Sie **der linken** auf „Spalten“.
    ![](assets/columns-new.png)
 1. Verwenden Sie die Umschalter, um Spalten in der Arbeitsliste zu aktivieren oder zu deaktivieren.
 
-### Neuanordnen der Spalten
+### Spalten neu anordnen
 
 {{step1-to-priorities}}
 
-1. Klicken Sie auf der linken Seite des Bildschirms auf **Spalten** .
-1. Klicken Sie auf das Symbol **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten wird automatisch in der Arbeitsliste aktualisiert.
+1. Klicken Sie **der linken** auf „Spalten“.
+1. Klicken Sie auf **Ziehen** und verschieben Sie die Spalte an die gewünschte Position. Das Verschieben von Spalten aktualisiert sich automatisch in der Arbeitsliste.
    ![](assets/reorder-columns-new.png)
 
 >[!NOTE]
 >
->Die Spalte &quot;Name&quot;ist fest und kann nicht verschoben werden.
+>Die Spalte Name ist fest und kann nicht verschoben werden.
 
 
 </div>

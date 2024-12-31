@@ -2,10 +2,10 @@
 content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: Connector
+keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Adobe Authenticator-Modul
-description: Mit dem Adobe Authenticator-Modul können Sie über eine einzige Verbindung eine Verbindung zu einem beliebigen Adobe-Produkt mit einer API herstellen.
+description: Mit dem Adobe Authenticator-Modul können Sie über eine einzige Verbindung eine Verbindung zu jedem Adobe-Produkt mit einer API herstellen.
 author: Becky
 feature: Workfront Fusion
 exl-id: 74c943fb-37ad-4d91-8af7-9808ba69992e
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Adobe Authenticator-Module
 
-Mit dem Adobe Authenticator-Modul können Sie über eine Verbindung eine Verbindung zu einer beliebigen Adobe-API herstellen. Dadurch können Sie leichter mit Adobe-Produkten verbunden werden, die noch keinen speziellen Fusion-Connector haben.
+Das Adobe Authenticator-Modul ermöglicht die Verbindung zu jeder Adobe-API über eine einzige Verbindung. So können Sie einfacher eine Verbindung zu Adobe-Produkten herstellen, die noch keinen dedizierten Fusion-Connector haben.
 
-Der Vorteil gegenüber den HTTP-Modulen besteht darin, dass Sie eine Verbindung wie in einer dedizierten App erstellen können.
+Der Vorteil gegenüber den HTTP-Modulen besteht darin, dass Sie wie in einer dedizierten App eine Verbindung erstellen können.
 
 Eine Liste der verfügbaren Adobe-APIs finden Sie unter [Adobe-APIs](https://developer.adobe.com/apis). Sie können möglicherweise nur die APIs verwenden, denen Sie zugewiesen sind.
 
@@ -39,23 +39,23 @@ Eine Liste der verfügbaren Adobe-APIs finden Sie unter [Adobe-APIs](https://dev
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td>
       <td>
-        <p>Neu: Standard</p><p>Oder</p><p>Aktuell: [!UICONTROL Plan], [!UICONTROL Arbeit]</p>
+        <p>Neu: Standard</p><p>Oder</p><p>Aktuell: [!UICONTROL Plan], [!UICONTROL Work]</p>
       </td>
     </tr>
     <tr>
       <td role="rowheader">[!DNL Adobe Workfront Fusion] Lizenz</td>
       <td>
-   <p>Aktuelle Fusion-Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Fusion-Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Legacy-Fusion-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] </p>
+   <p>Legacy Fusion-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td>
     </tr>
     <tr>
       <td role="rowheader">Produkt</td>
       <td>
-   <p>Neuer Workfront-Plan: Wenn Sie über den [!UICONTROL Select] oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Neuer Workfront-Plan: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] kaufen und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Aktueller Workfront-Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Aktueller Workfront-Plan: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen.</p>
    </td>
     </tr>
   </tbody>
@@ -63,16 +63,16 @@ Eine Liste der verfügbaren Adobe-APIs finden Sie unter [Adobe-APIs](https://dev
 
 ## Voraussetzungen
 
-* Sie müssen Zugriff auf das Adobe-Produkt haben, mit dem das Modul eine Verbindung herstellen soll.
+* Sie müssen Zugriff auf das Adobe-Produkt haben, mit dem sich das Modul verbinden soll.
 * Sie müssen Zugriff auf die Adobe Developer Console haben.
-* Sie müssen über ein Projekt in der Adobe Developer Console verfügen, das die API enthält, mit der das Modul eine Verbindung herstellen soll. Sie können:
+* Sie müssen über ein Projekt in der Adobe Developer Console verfügen, das die API enthält, mit der sich das Modul verbinden soll. Sie können:
 
-   * Erstellen Sie ein neues Projekt mit der API.
+   * Erstellen Sie ein neues Projekt mit der -API.
 
      Oder
-   * Fügen Sie die API einem vorhandenen Projekt hinzu.
+   * Fügen Sie die API zu einem vorhandenen Projekt hinzu.
 
-  Informationen zum Erstellen oder Hinzufügen einer API zu einem Projekt in Adobe Developer Console finden Sie unter [Erstellen eines Projekts](https://developer.adobe.com/dep/guides/dev-console/create-project/) in der Adobe-Dokumentation.
+  Informationen zum Erstellen oder Hinzufügen einer API zu einem Projekt in der Adobe Developer Console finden Sie unter [Erstellen eines Projekts](https://developer.adobe.com/dep/guides/dev-console/create-project/) in der Adobe-Dokumentation.
 
 ## Adobe Authenticator-API-Informationen
 
@@ -89,21 +89,21 @@ Der Adobe Authenticator-Connector verwendet Folgendes:
  </tbody> 
  </table>
 
-## Verbindung erstellen
+## Erstellen einer Verbindung
 
-Eine Adobe Authenticator-Verbindung stellt eine Verbindung zu einem einzelnen Projekt in der Adobe Developer Console her. Um dieselbe Verbindung für mehr als eine Adobe-API zu verwenden, fügen Sie die APIs zum selben Projekt hinzu und erstellen Sie eine Verbindung zu diesem Projekt.
+Eine Adobe Authenticator-Verbindung stellt eine Verbindung zu einem einzelnen Projekt in Adobe Developer Console her. Um dieselbe Verbindung für mehr als eine Adobe-API zu verwenden, fügen Sie die APIs zum selben Projekt hinzu und erstellen Sie eine Verbindung zu diesem Projekt.
 
-Sie können separate Verbindungen zu separaten Projekten erstellen, Sie können jedoch keine Verbindung verwenden, um auf eine API zuzugreifen, die sich nicht auf das in dieser Verbindung angegebene Projekt bezieht.
+Sie können separate Verbindungen zu separaten Projekten erstellen, aber Sie können keine Verbindung verwenden, um auf eine API zuzugreifen, die nicht zu dem in dieser Verbindung angegebenen Projekt gehört.
 
 >[!IMPORTANT]
 >
->Mit dem Adobe Authenticator-Connector haben Sie die Wahl zwischen einer OAuth-Server-zu-Server-Verbindung oder einer JWT-Verbindung (Service Account). Adobe hat veraltete JWT-Anmeldeinformationen, die nach dem 1. Januar 2025 nicht mehr funktionieren werden. **Daher empfehlen wir dringend, OAuth-Verbindungen zu erstellen.**
+>Mit dem Adobe Authenticator-Connector haben Sie die Wahl zwischen einer OAuth-Server-zu-Server-Verbindung oder einer JWT-Verbindung (Service Account). Adobe hat veraltete JWT-Anmeldeinformationen, die nach dem 1. Januar 2025 nicht mehr funktionieren. **Daher empfehlen wir dringend, OAuth-Verbindungen zu erstellen.**
 >
->Weitere Informationen zu diesen Verbindungstypen finden Sie unter [Serverauthentifizierung für Server](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in der Adobe-Dokumentation
+>Weitere Informationen zu diesen Verbindungstypen finden Sie unter [Server-zu-Server-Authentifizierung](https://developer.adobe.com/developer-console/docs/guides/authentication/ServerToServerAuthentication/) in der Adobe-Dokumentation
 
 So erstellen Sie eine Verbindung:
 
-1. Klicken Sie in einem beliebigen Adobe Authenticator-Modul neben dem Feld Verbindung auf **Hinzufügen** .
+1. Klicken Sie in einem beliebigen Adobe Authenticator **Modul** Hinzufügen) neben dem Feld Verbindung .
 1. Füllen Sie die folgenden Felder aus:
 
    <table style="table-layout:auto"> 
@@ -126,39 +126,39 @@ So erstellen Sie eine Verbindung:
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Client-ID]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] Client-ID ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
+        <td>Geben Sie Ihre [!DNL Adobe]-Client-ID ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des [!DNL Adobe Developer Console].
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Client Secret]</td>
-        <td>Geben Sie Ihr [!DNL Adobe] Client-Geheimnis ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
+        <td role="rowheader">[!UICONTROL Client-Geheimnis]</td>
+        <td>Geben Sie Ihr [!DNL Adobe]-Client-Geheimnis ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des [!DNL Adobe Developer Console].
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Bereiche]</td>
-        <td>Wenn Sie eine OAuth-Verbindung ausgewählt haben, geben Sie die für diese Verbindung benötigten Bereiche ein.</td>
+        <td role="rowheader">[!UICONTROL-Bereiche]</td>
+        <td>Wenn Sie eine OAuth-Verbindung ausgewählt haben, geben Sie die für diese Verbindung erforderlichen Bereiche ein.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL ID des technischen Kontos]</td>
-        <td>Geben Sie Ihre [!DNL Adobe] ID des technischen Kontos ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
+        <td>Geben Sie die ID Ihres [!DNL Adobe] technischen Kontos ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Organisations-ID]</td>
-        <td>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie Ihre [!DNL Adobe] Organisations-ID ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des Abschnitts [!DNL Adobe Developer Console].
+        <td>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie Ihre [!DNL Adobe] Organisations-ID ein. Dies finden Sie im Abschnitt [!UICONTROL Anmeldeinformationen] des [!DNL Adobe Developer Console].
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Meta Scopes]</td>
-        <td>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie die für diese Verbindung benötigten Meta-Bereiche ein. </td>
+        <td>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie die für diese Verbindung erforderlichen Metabereiche ein. </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Privater Schlüssel]</td>
         <td>
-          <p>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie den privaten Schlüssel ein, der beim Erstellen Ihrer Anmeldedaten in [!DNL Adobe Developer Console] generiert wurde. </p>
+          <p>Wenn Sie eine JWT-Verbindung ausgewählt haben, geben Sie den privaten Schlüssel ein, der beim Erstellen Ihrer Anmeldeinformationen im [!DNL Adobe Developer Console] generiert wurde. </p>
           <p>So extrahieren Sie Ihren privaten Schlüssel oder Ihr Zertifikat:</p>
           <ol>
             <li value="1">
               <p>Klicken Sie auf <b>[!UICONTROL Extract]</b>.</p>
             </li>
             <li value="2">
-              <p>Wählen Sie den Dateityp aus, den Sie extrahieren.</p>
+              <p>Wählen Sie den zu extrahierenden Dateityp aus.</p>
             </li>
             <li value="3">
               <p>Wählen Sie die Datei aus, die den privaten Schlüssel oder das Zertifikat enthält.</p>
@@ -167,50 +167,50 @@ So erstellen Sie eine Verbindung:
               <p>Geben Sie das Kennwort für die Datei ein.</p>
             </li>
             <li value="5">
-              <p>Klicken Sie auf <b>[!UICONTROL Save]</b> , um die Datei zu extrahieren und zur Verbindungseinrichtung zurückzukehren.</p>
+              <p>Klicken Sie auf <b>[!UICONTROL Speichern]</b>, um die Datei zu extrahieren und zur Verbindungseinrichtung zurückzukehren.</p>
             </li>
           </ol>
         </td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Basis-URLs]</td>
-        <td>Sie müssen die Basis-URLs hinzufügen, die dieser Authentifizierer zulassen soll. Wenn Sie das Modul zum Erstellen eines benutzerdefinierten API-Aufrufs später im Szenario verwenden, fügen Sie einen relativen Pfad zur ausgewählten URL hinzu. Durch Eingabe von URLs hier können Sie steuern, worauf das Modul Benutzerdefinierte API-Aufrufe erstellen eine Verbindung herstellen kann, was die Sicherheit erhöht.<p>Klicken Sie für jede Basis-URL, die Sie dem Authentifizierer hinzufügen möchten, auf <b>Element hinzufügen</b> und geben Sie die Basis-URL ein.</td>
+        <td>Sie müssen die Basis-URLs hinzufügen, die dieser Authentifizierer zulassen soll. Wenn Sie das Modul Benutzerdefinierten API-Aufruf erstellen später im Szenario verwenden, fügen Sie der ausgewählten URL einen relativen Pfad hinzu. Durch die Eingabe von URLs hier können Sie steuern, mit was sich das Modul Benutzerdefinierte API-Aufrufe erstellen verbinden kann, was die Sicherheit erhöht.<p>Klicken Sie für jede Basis-URL, die Sie der Authentifizierung hinzufügen möchten, auf <b>Element hinzufügen</b> und geben Sie die Basis-URL ein.</td>
       </tr>
       <tr>
-        <td role="rowheader">[!UICONTROL Authentifizierungs-URL]</td>
-        <td>Lassen Sie dieses Feld leer, um die standardmäßige Adobe IMS-Authentifizierungs-URL von <code>https://ims-na1.adobelogin.com</code> zu verwenden. Wenn Sie Adobe IMS nicht zur Authentifizierung verwenden, geben Sie die URL ein, die für die Authentifizierung verwendet werden soll.</td>
+        <td role="rowheader">[!UICONTROL-Authentifizierungs-URL]</td>
+        <td>Lassen Sie dieses Feld leer, um die standardmäßige Adobe IMS-Authentifizierungs-URL von <code>https://ims-na1.adobelogin.com</code> zu verwenden. Wenn Sie Adobe IMS nicht für die Authentifizierung verwenden, geben Sie die URL ein, die für die Authentifizierung verwendet werden soll.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Umgebung]</td>
-        <td>Wählen Sie aus, ob Sie eine Verbindung zu einer Produktions- oder Nicht-Produktionsumgebung herstellen möchten.</td>
+        <td>Wählen Sie aus, ob Sie eine Verbindung zu einer Produktions- oder Nicht-Produktionsumgebung herstellen.</td>
       </tr>
       <tr>
         <td role="rowheader">[!UICONTROL Typ]</td>
-        <td>Wählen Sie aus, ob Sie eine Verbindung zu einem Dienstkonto oder einem persönlichen Konto herstellen möchten.</td>
+        <td>Wählen Sie aus, ob Sie eine Verbindung zu einem Service-Konto oder einem persönlichen Konto herstellen möchten.</td>
       </tr>
     </tbody>
     </table>
 
-1. Klicken Sie auf **[!UICONTROL Weiter]** , um die Verbindung zu speichern und zum Modul zurückzukehren.
+1. Klicken Sie **[!UICONTROL Fortfahren]**, um die Verbindung zu speichern und zum Modul zurückzukehren.
 
 ## Module
 
-* [Benutzerdefinierte API-Aufrufe durchführen](#make-a-custom-api-call)
-* [Benutzerdefinierte API-Aufrufe durchführen (veraltet)](#make-a-custom-api-call-legacy)
+* [Erstellen eines benutzerdefinierten API-Aufrufs](#make-a-custom-api-call)
+* [Erstellen eines benutzerdefinierten API-Aufrufs (veraltet)](#make-a-custom-api-call-legacy)
 
-### Benutzerdefinierte API-Aufrufe durchführen
+### Erstellen eines benutzerdefinierten API-Aufrufs
 
-Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen. Es unterstützt große Dateien anstelle von Nur-Text-Texten.
+Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen. Es werden große Dateien anstelle von reinen Textkörpern unterstützt.
 
-Dieses Modul wurde am 14. November 2024 bereitgestellt. Jeder Adobe Authenticator > Vor diesem Datum konfigurierte benutzerdefinierte API-Aufruf behandelt keine großen Dateien und wird jetzt als Modul Benutzerdefinierten API-Aufruf (Legacy) betrachtet.
+Dieses Modul wurde am 14. November 2024 zur Verfügung gestellt. Jedes Adobe Authenticator-Modul > Erstellen eines benutzerdefinierten API-Aufrufs, der vor diesem Datum konfiguriert wurde, verarbeitet keine großen Dateien und wird jetzt als Modul Erstellen eines benutzerdefinierten API-Aufrufs (Legacy) betrachtet.
 
 <table>
   <col/>
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[!UICONTROL Verbindung]</td>
-     <td>Anweisungen zum Erstellen einer Verbindung mit dem Adobe Authenticator-Modul finden Sie in diesem Artikel unter <a href="#create-a-connection" class="MCXref xref" >Erstellen einer Verbindung</a> .</td>
+     <td role="rowheader">[!UICONTROL-Verbindung]</td>
+     <td>Anweisungen zum Erstellen einer Verbindung zum Adobe Authenticator-Modul finden Sie unter <a href="#create-a-connection" class="MCXref xref" >Erstellen einer Verbindung</a> in diesem Artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -229,16 +229,16 @@ Dieses Modul wurde am 14. November 2024 bereitgestellt. Jeder Adobe Authenticato
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Methode]</p>
-   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anforderungsmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+        <p>[!UICONTROL-Methode]</p>
+   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anfragemethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Header]</td>
+      <td role="rowheader">[!UICONTROL-Kopfzeilen]</td>
       <td>
         <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu.</p>
         <p>Beispiel: <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion fügt Autorisierungskopfzeilen automatisch hinzu.</p>
+        <p>Workfront Fusion fügt Autorisierungs-Header automatisch hinzu.</p>
       </td>
     </tr>
     <tr>
@@ -248,8 +248,8 @@ Dieses Modul wurde am 14. November 2024 bereitgestellt. Jeder Adobe Authenticato
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Textkörper]</td>
-   <td> Wählen Sie den Nachrichtentyp für diese API-Anfrage aus:
+      <td role="rowheader">[!UICONTROL Texttyp]</td>
+   <td> Wählen Sie den Texttyp für diese API-Anfrage:
    <ul>
    <li>application/x-www-form-urlencoded</li>
    <li>Raw</li>
@@ -257,16 +257,16 @@ Dieses Modul wurde am 14. November 2024 bereitgestellt. Jeder Adobe Authenticato
    </ul>
       </td>
     <tr>
-      <td role="rowheader">[!UICONTROL Felder]  </td>
+      <td role="rowheader">[!UICONTROL-Felder]  </td>
       <td>
-        <p>Klicken Sie für jede Datei, die Sie der APU-Anforderung hinzufügen möchten, auf "<b>Element hinzufügen</b>"und geben Sie den Text der Datei ein (für Rohdaten) oder geben Sie den Schlüssel "<code>uploadedFile</code>"ein und ordnen Sie die Daten der Datei zu.</p>
+        <p>Klicken Sie für jede Datei, die Sie der APU-Anfrage hinzufügen möchten<b> auf „Element hinzufügen</b> und geben Sie den Text der Datei (für Rohdaten) ein, oder geben Sie den <code>uploadedFile</code> ein und ordnen Sie die Daten der Datei zu.</p>
       </td>
     </tr>
     </tr>
   </tbody>
 </table>
 
-### Benutzerdefinierte API-Aufrufe durchführen (veraltet)
+### Erstellen eines benutzerdefinierten API-Aufrufs (veraltet)
 
 Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
 
@@ -275,8 +275,8 @@ Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
   <col/>
   <tbody>
     <tr>
-     <td role="rowheader">[!UICONTROL Verbindung]</td>
-     <td>Anweisungen zum Erstellen einer Verbindung mit dem Adobe Authenticator-Modul finden Sie in diesem Artikel unter <a href="#create-a-connection" class="MCXref xref" >Erstellen einer Verbindung</a> .</td>
+     <td role="rowheader">[!UICONTROL-Verbindung]</td>
+     <td>Anweisungen zum Erstellen einer Verbindung zum Adobe Authenticator-Modul finden Sie unter <a href="#create-a-connection" class="MCXref xref" >Erstellen einer Verbindung</a> in diesem Artikel.</td>
     </tr>
     <tr>
       <td role="rowheader">
@@ -295,16 +295,16 @@ Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
     </tr>
     <tr>
       <td role="rowheader">
-        <p>[!UICONTROL Methode]</p>
-   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anforderungsmethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
+        <p>[!UICONTROL-Methode]</p>
+   <td> <p>Wählen Sie die HTTP-Anfragemethode aus, die Sie zum Konfigurieren des API-Aufrufs benötigen. Weitere Informationen finden Sie unter <a href="../../workfront-fusion/modules/http-request-methods.md" class="MCXref xref" data-mc-variable-override="">HTTP-Anfragemethoden in [!DNL Adobe Workfront Fusion]</a>.</p> </td> 
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Header]</td>
+      <td role="rowheader">[!UICONTROL-Kopfzeilen]</td>
       <td>
         <p>Fügen Sie die Header der Anfrage in Form eines standardmäßigen JSON-Objekts hinzu.</p>
         <p>Beispiel: <code>{"Content-type":"application/json"}</code></p>
-        <p>Workfront Fusion fügt Autorisierungskopfzeilen automatisch hinzu.</p>
+        <p>Workfront Fusion fügt Autorisierungs-Header automatisch hinzu.</p>
       </td>
     </tr>
     <tr>
@@ -314,15 +314,15 @@ Mit diesem Aktionsmodul können Sie eine beliebige Adobe-API aufrufen.
       </td>
     </tr>
     <tr>
-      <td role="rowheader">[!UICONTROL Body]</td>
-   <td> <p>Fügen Sie den Textinhalt für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Bei Verwendung von bedingten Anweisungen wie <code>if</code> in Ihrer JSON platzieren Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
+      <td role="rowheader">[!UICONTROL body]</td>
+   <td> <p>Fügen Sie den Hauptteil des Inhalts für den API-Aufruf in Form eines standardmäßigen JSON-Objekts hinzu.</p> <p>Hinweis:  <p>Wenn Sie bedingte Anweisungen wie <code>if</code> in Ihrer JSON-Datei verwenden, setzen Sie die Anführungszeichen außerhalb der bedingten Anweisung.</p> 
      <div class="example" data-mc-autonum="<b>Example: </b>"> 
       <p> <img src="assets/quotes-in-json-350x120.png" style="width: 350;height: 120;"> </p> 
      </div> </p> </td>     </tr>
      <tr>
       <td role="rowheader">[!UICONTROL Limit]  </td>
       <td>
-        <p>Geben Sie die maximale Anzahl von Ergebnissen an, die das Modul in einem Ausführungszyklus zurückgeben soll.</p>
+        <p>Geben Sie die maximale Anzahl von Ergebnissen ein, die das Modul in einem Ausführungszyklus zurückgeben soll.</p>
       </td>
     </tr>
   </tbody>

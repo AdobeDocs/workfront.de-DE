@@ -3,60 +3,60 @@ content-type: reference
 product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
-title: Token für Datums- und Uhrzeitanalyse in Adobe Workfront Fusion
-description: Die folgenden Token für die Datums- und Uhrzeitanalyse sind im Bereich [!DNL Adobe Workfront Fusion mapping] verfügbar.
+title: Token zum Analysieren von Datum und Uhrzeit in Adobe Workfront Fusion
+description: Die folgenden Token für das Parsen von Datum und Uhrzeit sind im - [!DNL Adobe Workfront Fusion mapping]  verfügbar.
 author: Becky
 feature: Workfront Fusion
 exl-id: f5a92ccb-cdc6-4f7d-8373-31fd17d314d3
 source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
 workflow-type: tm+mt
 source-wordcount: '288'
-ht-degree: 5%
+ht-degree: 6%
 
 ---
 
-# Token für Datums- und Uhrzeitanalyse in [!DNL Adobe Workfront Fusion]
+# Token zum Parsen von Datum und Uhrzeit in [!DNL Adobe Workfront Fusion]
 
 ## Zugriffsanforderungen
 
-Sie müssen über den folgenden Zugriff verfügen, um die Funktionalität in diesem Artikel verwenden zu können:
+Sie müssen über folgenden Zugriff verfügen, um die Funktion in diesem Artikel verwenden zu können:
 
 <table style="table-layout:auto">
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
    <td> <p>[!DNL Pro] oder höher</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan], [!UICONTROL Arbeit]</p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL-Plan], [!UICONTROL-Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion]-Lizenz*</td> 
+   <td role="rowheader">[!UICONTROL Adobe Workfront Fusion] Lizenz**</td> 
    <td>
-   <p>Aktuelle Lizenzanforderungen: Keine [!DNL Workfront Fusion] Lizenzanforderungen.</p>
+   <p>Aktuelle Lizenzanforderung: Keine [!DNL Workfront Fusion].</p>
    <p>Oder</p>
-   <p>Alte Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] für die Arbeitsautomatisierung und -integration] </p>
+   <p>Legacy-Lizenzanforderung: [!UICONTROL [!DNL Workfront Fusion] for Work Automation and Integration] </p>
    </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>
-   <p>Aktuelle Produktanforderung: Wenn Sie über den [!UICONTROL Select]- oder [!UICONTROL Prime] [!DNL Adobe Workfront]-Plan verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können. [!DNL Workfront Fusion] ist im [!UICONTROL Ultimate] [!DNL Workfront]-Plan enthalten.</p>
+   <p>Aktuelle Produktanforderung: Wenn Sie über den [!DNL Adobe Workfront] [!UICONTROL Select] oder [!UICONTROL Prime] verfügen, muss Ihr Unternehmen [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu nutzen. [!DNL Workfront Fusion] ist im [!DNL Workfront] [!UICONTROL Ultimate] enthalten.</p>
    <p>Oder</p>
-   <p>Alte Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] sowie [!DNL Adobe Workfront] erwerben, um die in diesem Artikel beschriebenen Funktionen nutzen zu können.</p>
+   <p>Legacy-Produktanforderung: Ihr Unternehmen muss [!DNL Adobe Workfront Fusion] erwerben und [!DNL Adobe Workfront], die in diesem Artikel beschriebenen Funktionen zu verwenden.</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
+Informationen zu [!DNL Adobe Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion] Lizenzen](../../workfront-fusion/get-started/license-automation-vs-integration.md).
 
-## Jahres-, Monats- und Tag-Token
+## Token für Jahr, Monat und Tag
 
 <table style="table-layout:auto"> 
  <col> 
@@ -73,32 +73,32 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
   <tr> 
    <td><code>YYYY </code> </td> 
    <td><code>2014 </code> </td> 
-   <td> <p>4 oder 2 stellige Jahreszahl</p> </td> 
+   <td> <p>4- oder 2-stelliges Jahr</p> </td> 
   </tr> 
   <tr> 
    <td><code>YY</code></td> 
    <td><code>14</code></td> 
-   <td> <p>2 stellige Jahreszahl</p> </td> 
+   <td> <p>2-stelliges Jahr</p> </td> 
   </tr> 
   <tr> 
    <td><code>Y</code> </td> 
    <td><code>-25</code> </td> 
-   <td> <p>[!UICONTROL Jahr mit beliebiger Anzahl von Ziffern und Zeichen]</p> </td> 
+   <td> <p>[!UICONTROL Jahr mit beliebiger Anzahl von Ziffern und Vorzeichen]</p> </td> 
   </tr> 
   <tr> 
    <td><code>Q</code> </td> 
    <td><code>1..4</code> </td> 
-   <td> <p> Quartal des Jahres. Legt den Monat auf den ersten Monat im Quartal fest.</p> </td> 
+   <td> <p> Quartal des Jahres. Setzt den Monat auf den ersten Monat im Quartal.</p> </td> 
   </tr> 
   <tr> 
    <td><code>M MM</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> Monatsnummer</p> </td> 
+   <td> <p> Monatszahl</p> </td> 
   </tr> 
   <tr> 
    <td><code>MMM MMMM</code> </td> 
    <td><code>Jan..December</code> </td> 
-   <td> <p> Monatsname</p> </td> 
+   <td> <p> Month name</p> </td> 
   </tr> 
   <tr> 
    <td><code>D DD</code> </td> 
@@ -108,7 +108,7 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
   <tr> 
    <td><code>Do </code> </td> 
    <td><code>1st..31st</code> </td> 
-   <td> <p> Tag des Monats mit Ordinalzahl</p> </td> 
+   <td> <p> Tag des Monats mit Ordinal</p> </td> 
   </tr> 
   <tr> 
    <td><code>DDD DDDD</code> </td> 
@@ -123,12 +123,12 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
   <tr> 
    <td><code>x</code> </td> 
    <td><code>1410715640579</code> </td> 
-   <td> <p> Unix-ms-Zeitstempel</p> </td> 
+   <td> <p> Unix MS-Zeitstempel</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Wochen-Token für Jahr, Woche und Wochentag
+## Wochenzeit, Woche und Wochentag-Token
 
 <table style="table-layout:auto"> 
  <col> 
@@ -150,12 +150,12 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
   <tr> 
    <td><code>GGGG</code> </td> 
    <td><code>2014</code> </td> 
-   <td> <p> ISO 4-stellige Woche Jahr</p> </td> 
+   <td> <p> ISO 4-stellige Zahl für Woche Jahr</p> </td> 
   </tr> 
   <tr> 
    <td><code>GG </code> </td> 
    <td><code>14</code> </td> 
-   <td> <p> ISO 2-stelliges Wochenjahr</p> </td> 
+   <td> <p> ISO 2-stellige Zahl für Woche Jahr</p> </td> 
   </tr> 
   <tr> 
    <td><code>W WW</code> </td> 
@@ -170,7 +170,7 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
  </tbody> 
 </table>
 
-## Stunden-, Minuten-, Sekunden-, Millisekunden- und Offset-Token
+## Token für Stunden, Minuten, Sekunden, Millisekunden und Versätze
 
 <table style="table-layout:auto"> 
  <col> 
@@ -192,17 +192,17 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
   <tr> 
    <td><code>h hh</code> </td> 
    <td><code>1..12</code> </td> 
-   <td> <p> Stunden (12-Stunden-Zeit, die mit einem A verwendet wird)</p> </td> 
+   <td> <p> Stunden (12-Stunden-Zeit in Verbindung mit einem A.)</p> </td> 
   </tr> 
   <tr> 
    <td><code>k kk</code> </td> 
    <td><code>1..24</code> </td> 
-   <td> <p> Stunden (24 Stunden Zeit von 1 bis 24 Stunden)</p> </td> 
+   <td> <p> Stunden (24-Stunden-Zeit von 1 bis 24)</p> </td> 
   </tr> 
   <tr> 
    <td><code>a A</code> </td> 
    <td><code>am pm</code> </td> 
-   <td> <p> Post- oder Ante-Meridiem (beachten Sie, dass das eine Zeichen a p auch als gültig gilt)</p> </td> 
+   <td> <p> Post oder ante meridiem (Beachten Sie, dass ein Zeichen a auch als gültig gilt)</p> </td> 
   </tr> 
   <tr> 
    <td><code>m mm</code> </td> 
@@ -217,7 +217,7 @@ Informationen zu [!DNL Adobe Workfront Fusion] -Lizenzen finden Sie unter [[!DNL
   <tr> 
    <td><code>S SS SSS</code> </td> 
    <td><code>0..999</code> </td> 
-   <td> <p> Bruchteile in Sekunden</p> </td> 
+   <td> <p> Bruchsekunden</p> </td> 
   </tr> 
   <tr> 
    <td><code>Z ZZ</code> </td> 

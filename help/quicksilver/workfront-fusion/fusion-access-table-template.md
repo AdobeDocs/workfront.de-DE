@@ -1,10 +1,10 @@
 ---
 product-previous: workfront-fusion
 product-area: workfront-integrations
-keywords: fusion
+keywords: Verschmelzung
 navigation-topic: workfront-fusion-navigation-topic
-title: Vorlage für Fusionszugriffstabelle
-description: Vorlage für Fusionszugriffstabelle
+title: Vorlage für Fusion-Zugriffstabelle
+description: Vorlage für Fusion-Zugriffstabelle
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 ---
 
-# Vorlage für Fusionszugriffstabelle
+# Vorlage für Fusion-Zugriffstabelle
 
 <!--
 
