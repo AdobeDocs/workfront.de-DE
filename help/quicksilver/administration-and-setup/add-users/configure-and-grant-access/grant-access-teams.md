@@ -1,6 +1,6 @@
 ---
-title: Gewähren von Zugriff auf Teams
-description: Als Adobe Workfront-Administrator können Sie mithilfe einer Zugriffsebene den Zugriff eines Benutzers auf Teams in Workfront definieren
+title: Zugriff auf Teams gewähren
+description: Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf Teams in Workfront zu definieren
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -12,13 +12,13 @@ ht-degree: 4%
 
 ---
 
-# Gewähren von Zugriff auf Teams
+# Zugriff auf Teams gewähren
 
-Als Adobe Workfront-Administrator können Sie mithilfe einer Zugriffsebene den Zugriff eines Benutzers auf Teams in Workfront definieren, wie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) beschrieben.
+Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf Teams in Workfront zu definieren, wie in [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) beschrieben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -27,16 +27,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -45,10 +45,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung der Zugriffsebene, wie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) beschrieben.
-1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) auf der Schaltfläche **Ansicht** oder **Bearbeiten** rechts neben Teams und wählen Sie dann die Fähigkeiten aus, die Sie unter **Feinabstimmung Ihrer Einstellungen** gewähren möchten.
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts von Teams und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren** gewähren möchten.
 
-   * **Ansicht**: Wenn Sie konfigurieren, wie Benutzer mit einer Lizenz Teams anzeigen können, ändern Sie eine der folgenden Optionen:
+   * **Anzeigen**: Wenn Sie konfigurieren, wie Benutzer mit einer beliebigen Lizenz Teams anzeigen können, ändern Sie eine der folgenden Optionen:
 
      <table style="table-layout:auto">
        <col>
@@ -57,18 +57,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <tr>
          <td role="rowheader">Meinen Gruppen zugeordnete Teams anzeigen</td>
          <td>
-          <p><b>Aktiviert</b>: Wenn Benutzer nach Teams in einem Feld mit Team-Typvorgabe suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams sehen, unabhängig davon, ob es sich um Teammitglieder handelt oder nicht. </p>
-          <p><b>Deaktiviert</b>: Wenn Benutzer nach Teams in einem Feld mit Team-Typvorgabe suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams nur dort sehen, wo sie Teammitglieder sind.</p><p>Diese Option ist standardmäßig aktiviert.</p>
+          <p><b>Aktiviert</b>: Wenn Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können sie die mit ihren Gruppen verknüpften Teams sehen, unabhängig davon, ob sie Team-Mitglieder sind oder nicht. </p>
+          <p><b>Deaktiviert</b>: Wenn Benutzer in einem Feld für automatische Textvervollständigung für Teams nach Teams suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams nur sehen, wenn sie Team-Mitglieder sind</p><p>Diese Option ist standardmäßig aktiviert.</p>
           </td>
         </tr>
         <tr>
          <td role="rowheader">Alle Teams anzeigen</td>
-         <td><p>Wenn diese Option aktiviert ist und Benutzer in einem Feld für die Team-Typvorbereitung nach Teams suchen, können die Benutzer ein beliebiges Team sehen und auswählen.</p><p>Diese Option ist standardmäßig aktiviert. </p></td>
+         <td><p>Wenn diese Option aktiviert ist und Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können die Benutzer ein beliebiges Team anzeigen und auswählen.</p><p>Diese Option ist standardmäßig aktiviert. </p></td>
         </tr>
        </tbody>
       </table>
 
-   * **Bearbeiten**: Wenn Sie konfigurieren, wie Benutzer mit einer Plan-Lizenz und einer Work-Lizenz Teams verwalten können, ändern Sie eine der folgenden Optionen:
+   * **Bearbeiten**: Wenn Sie konfigurieren, wie Benutzer mit Plan- und Arbeitslizenz Teams verwalten können, ändern Sie eine der folgenden Optionen:
 
      <table style="table-layout:auto">
        <col>
@@ -76,48 +76,48 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
        <tbody>
         <tr>
          <td role="rowheader">Erstellen</td>
-         <td><p>Ermöglicht Benutzern mit einer Planlizenz oder Work-Lizenz, Teams zu erstellen.</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
+         <td><p>Ermöglicht Benutzenden mit Plan- oder Arbeitslizenz, Teams zu erstellen.</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Löschen</td>
-         <td><p> Ermöglicht Benutzern mit einer Planungslizenz, die Teams zu löschen, auf die sie Zugriff haben (für Benutzer mit einer Work-Lizenz nicht verfügbar).</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
+         <td><p> Ermöglicht Benutzenden mit einer Planlizenz, die Teams zu löschen, auf die sie Zugriff haben, um sie zu bearbeiten (für Benutzende mit einer Arbeitslizenz nicht verfügbar).</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadmins)</td>
-         <td><p>Ermöglicht die Planung von Lizenzbenutzern, die als Gruppenadministratoren benannt sind, die Bearbeitung von Teams, die mit den von ihnen verwalteten Gruppen verbunden sind.</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
+         <td><p>Ermöglicht Benutzenden von Planlizenzen, die als Gruppenadministratoren festgelegt sind, Teams zu bearbeiten, die mit den von ihnen verwalteten Gruppen verknüpft sind.</p><p>Diese Option ist standardmäßig aktiviert.</p></td>
         </tr>
         <tr>
-         <td role="rowheader">Teams bearbeiten, in denen ich bin</td>
-         <td><p>Ermöglicht Benutzern, eine Lizenz oder Arbeitslizenz zu planen, um Teams zu bearbeiten, in denen sie Mitglied sind.</p><p>Diese Option ist standardmäßig deaktiviert.</p></td>
+         <td role="rowheader">Teams bearbeiten, denen ich angehöre</td>
+         <td><p>Ermöglicht Benutzenden, eine Plan- oder Arbeitslizenz zu vergeben, um Teams zu bearbeiten, deren Mitglied sie sind.</p><p>Diese Option ist standardmäßig deaktiviert.</p></td>
         </tr>
         <tr>
          <td role="rowheader">Meinen Gruppen zugeordnete Teams anzeigen</td>
          <td>
-         <p><b>Aktiviert</b> Wenn Benutzer nach Teams in einem Feld mit Team-Typvorgabe suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams sehen, unabhängig davon, ob es sich um Teammitglieder handelt oder nicht. </p>
-         <p><b>Deaktiviert</b>: Wenn Benutzer nach Teams in einem Feld mit Team-Typvorgabe suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams nur dort sehen, wo sie Teammitglieder sind.</p><p>Diese Option ist standardmäßig aktiviert.</p>
+         <p><b>Aktiviert</b> Wenn Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können sie die mit ihren Gruppen verknüpften Teams sehen, unabhängig davon, ob sie Team-Mitglieder sind oder nicht. </p>
+         <p><b>Deaktiviert</b>: Wenn Benutzer in einem Feld für automatische Textvervollständigung für Teams nach Teams suchen, können die Benutzer die mit ihren Gruppen verknüpften Teams nur sehen, wenn sie Team-Mitglieder sind</p><p>Diese Option ist standardmäßig aktiviert.</p>
          </td>
         </tr>
         <tr>
          <td role="rowheader">Alle Teams anzeigen</td>
-         <td><p>Wenn diese Option aktiviert ist und Benutzer in einem Feld für die Team-Typvorbereitung nach Teams suchen, können die Benutzer ein beliebiges Team sehen und auswählen.</p><p>Diese Option ist standardmäßig aktiviert. </p></td>
+         <td><p>Wenn diese Option aktiviert ist und Benutzer in einem Feld für automatische Textvervollständigung im Team nach Teams suchen, können die Benutzer ein beliebiges Team anzeigen und auswählen.</p><p>Diese Option ist standardmäßig aktiviert. </p></td>
         </tr>
        </tbody>
       </table>
 
-1. Klicken Sie auf das X, um das Feld **Einstellungen optimieren** zu schließen.
-1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, an der Sie arbeiten, fahren Sie mit einem der unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. Klicken Sie auf das X, um das **Optimieren der Einstellungen** zu schließen.
+1. (Optional) Um Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene, an der Sie arbeiten, zu konfigurieren, fahren Sie mit einem der in [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 >[!NOTE]
 >
->* Folgendes gilt unabhängig von den Einstellungen der Zugriffsstufe:
+>* Folgendes gilt unabhängig von den Einstellungen der Zugriffsebene:
 >
 >   * Teambesitzer können ihre Teams jederzeit anzeigen und bearbeiten
->   * Benutzer haben immer Zugriff auf die Ansicht der Teams, in denen sie sich befinden
+>   * Benutzer haben immer Zugriff auf die Teams, in denen sie sich befinden
 >
->* Die Konfiguration aller Optionen, die sowohl für die Ansicht als auch für die Bearbeitung verfügbar sind (z. B. &quot;Mit meinen Gruppen verknüpfte Teams anzeigen&quot;), wird beibehalten, wenn Sie anstelle der Option &quot;Bearbeiten&quot;oder &quot;Bearbeiten&quot;in einer Zugriffsebene die Option &quot;Ansicht&quot;auswählen.
+>* Die Konfiguration jeder Option, die sowohl für die Ansicht als auch für die Bearbeitung verfügbar ist (z. B. „Teams anzeigen, die meinen Gruppen zugeordnet sind„), wird beibehalten, wenn Sie in einer Zugriffsebene Ansicht anstelle von Bearbeiten oder Bearbeiten anstelle von Ansicht auswählen.
 >
 
 ## Zugriff auf Teams nach Lizenztyp
 
-Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Problemen tun können, finden Sie im Abschnitt [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) im Artikel [Für jeden Objekttyp verfügbare Funktionen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Problemen tun können, finden Sie im Abschnitt [Teams](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#teams) im Artikel [Funktionalität verfügbar für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).

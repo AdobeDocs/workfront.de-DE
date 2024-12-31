@@ -3,7 +3,7 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-title: Ändern von Benutzernamen
+title: Benutzernamen ändern
 description: Sie können den Benutzernamen (die E-Mail-Adresse) eines Benutzers bearbeiten, indem Sie dessen Benutzerprofil bearbeiten.
 author: Lisa
 feature: System Setup and Administration
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # Benutzernamen ändern
 
-Sie können den Benutzernamen (die E-Mail-Adresse) eines Benutzers bearbeiten, indem Sie dessen Benutzerprofil bearbeiten. Anweisungen finden Sie in den Informationen zum Feld &quot;E-Mail-Adresse&quot;unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Sie können den Benutzernamen (die E-Mail-Adresse) eines Benutzers bearbeiten, indem Sie dessen Benutzerprofil bearbeiten. Anweisungen finden Sie in den Informationen zum Feld E-Mail-Adresse [ „Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

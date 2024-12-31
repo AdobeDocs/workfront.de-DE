@@ -1,9 +1,9 @@
 ---
-title: Direkte Berichte erstellen
+title: Erstellen von Direktberichten
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Sie können Benutzer als Direktberichte für einen anderen Benutzer festlegen. Auf diese Weise können Sie ein Organisationsdiagramm erstellen, in dem die Verwaltungsstruktur Ihres Unternehmens dargestellt wird.
+description: Sie können Benutzer als direkt unterstellte Mitarbeiter eines anderen Benutzers festlegen. Auf diese Weise können Sie ein Organigramm erstellen, das die Verwaltungsstruktur Ihrer Organisation anzeigt.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,50 +15,50 @@ ht-degree: 1%
 
 ---
 
-# Direkte Berichte erstellen
+# Erstellen von Direktberichten
 
-Sie können Benutzer als Direktberichte für einen anderen Benutzer festlegen. Auf diese Weise können Sie ein Organisationsdiagramm erstellen, in dem die Verwaltungsstruktur Ihres Unternehmens dargestellt wird. Weitere Informationen finden Sie unter [Organigramm anzeigen](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+Sie können Benutzer als direkt unterstellte Mitarbeiter eines anderen Benutzers festlegen. Auf diese Weise können Sie ein Organigramm erstellen, das die Verwaltungsstruktur Ihrer Organisation anzeigt. Weitere Informationen finden Sie unter [Organigramm anzeigen](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p><p>Oder</p><p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen über eine der folgenden Möglichkeiten verfügen:</p> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen eine der folgenden Möglichkeiten haben:</p> 
     <ul> 
      <li> <p>Die Zugriffsebene des Systemadministrators. </li> 
-     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsebene, die für den Zugriff auf <b>Bearbeiten</b> konfiguriert ist, wobei <b>Erstellen</b> und mindestens eine der beiden Optionen <b>Benutzeradministrator</b> unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png"> aktiviert sind. </p> <p>Wenn von diesen beiden Optionen <b>Benutzeradministrator (Gruppenbenutzer)</b> aktiviert ist, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
+     <li> <p><b>Benutzer</b> Einstellung in Ihrer Zugriffsebene konfiguriert auf <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens einer der beiden <b>Benutzeradmin</b> Optionen unter <b>Optimieren Sie Ihre Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Wenn diese beiden Optionen <b>Benutzeradministrator (Gruppenbenutzer)) aktiviert </b>, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Direkte Berichte erstellen
+## Erstellen von Direktberichten
 
-1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) beschrieben.
-1. Stellen Sie im Abschnitt **Organisation** sicher, dass im Feld **Firma** ein Unternehmen ausgewählt ist.
+1. Beginnen Sie mit der Bearbeitung eines Benutzers, wie [ in Bearbeiten eines Benutzerprofils beschrieben](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+1. Stellen Sie **Abschnitt** Organisation) sicher, dass im Feld **Firma** eine Firma ausgewählt ist.
 
    Dieses Feld darf nicht leer sein.
 
-1. Geben Sie im Feld **Direkte Berichte** Benutzer an, die Berichte an den Benutzer richten, den Sie bearbeiten.
-1. (Optional) Geben Sie im Feld **Berichte an** den Namen des Benutzers an, für den dieser Benutzer Berichte erstellt.
+1. Geben Sie im Feld **Direktberichte** alle Benutzer an, die dem Benutzer, den Sie bearbeiten, Bericht erstatten.
+1. (Optional) Geben Sie im Feld **Berichte an** den Namen des Benutzers an, an den dieser Benutzer berichtet.
 1. Klicken Sie auf **Änderungen speichern**.

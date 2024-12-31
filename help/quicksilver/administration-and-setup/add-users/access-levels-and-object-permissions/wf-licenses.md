@@ -1,11 +1,11 @@
 ---
-title: Lizenzübersicht
+title: Lizenzen - Überblick
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: license,type
+keywords: Lizenz,Typ
 navigation-topic: access-levels
-description: Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von fünf Arten von Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
+description: Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator geben Sie jedem Benutzer eine von fünf Arten von Workfront-Lizenzen, wenn Sie dem Benutzer eine Zugriffsebene zuweisen.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -17,21 +17,21 @@ ht-degree: 3%
 
 ---
 
-# Überblick über Lizenzen
+# Lizenzen - Überblick
 
 <!-- Audited: 12/2023 -->
 
-Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator gewähren Sie jedem Benutzer eine von fünf Arten von Workfront-Lizenzen, wenn Sie ihm eine Zugriffsstufe zuweisen.
+Ihr Unternehmen hat beim Erwerb von Adobe Workfront eine bestimmte Anzahl von Lizenzen erworben. Als Workfront-Administrator geben Sie jedem Benutzer eine von fünf Arten von Workfront-Lizenzen, wenn Sie dem Benutzer eine Zugriffsebene zuweisen.
 
-## Verknüpfung von Lizenzen und Zugriffsebenen
+## Wie Lizenzen und Zugriffsebenen miteinander verknüpft sind
 
-Die fünf Arten von Workfront-Lizenzen ermöglichen den Zugriff auf Workfront. Jede Zugriffsstufe ist an eine dieser Lizenzen angehängt.
+Die fünf Lizenztypen von Workfront ermöglichen verschiedene Stufen des Zugriffs auf Workfront. Jede Zugriffsebene ist mit einer dieser Lizenzen verbunden.
 
-Als Workfront-Administrator weisen Sie Benutzern anstelle der Zuweisung einer Lizenz die mit dieser Lizenz verbundene Zugriffsstufe zu.
+Wenn Sie Workfront-Administrator sind, können Sie einem Benutzer keine Lizenz zuweisen, sondern ihm die Zugriffsebene im Anhang dieser Lizenz zuweisen.
 
-Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Workfront:
+In der folgenden Tabelle und Abbildung sind die wichtigsten Zugriffsebenen auf Workfront dargestellt:
 
-| Lizenz | Zugehörige Zugriffsebene |
+| Lizenz | Zugeordnete Zugriffsebene |
 |--- |--- |
 | Plan | Systemadministrator, Planer |
 | Arbeit | Arbeitskraft |
@@ -41,22 +41,22 @@ Diese Tabelle und dieses Diagramm zeigen die wichtigsten Zugriffsebenen auf Work
 
 >[!NOTE]
 >
->Die externe Lizenz ist keine gebührenpflichtige Lizenz. Es wurde hauptsächlich für die Freigabe von Dokumenten für Mitarbeiter entwickelt, die nicht mit Workfront arbeiten. Weitere Informationen finden Sie unter [Integrierte Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
+>Die externe Lizenz ist keine bezahlte Lizenz. Sie wurde in erster Linie für die Freigabe von Dokumenten für Mitarbeiter entwickelt, die Workfront nicht verwenden. Weitere Informationen finden Sie [Integrierte Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/default-access-levels-in-workfront.md).
 
-## So definiert eine Lizenz eine Zugriffsstufe
+## Definieren einer Zugriffsebene durch eine Lizenz
 
-Die an eine Zugriffsstufe angehängte Lizenz bestimmt den gesamten Funktionsumfang, der auf der Zugriffsebene verfügbar ist.
+Die an eine Zugriffsebene angehängte Lizenz bestimmt den gesamten Funktionsumfang, der auf der Zugriffsebene verfügbar ist.
 
-Sie können eine Standardzugriffsstufe kopieren und die Kopie nach Bedarf für Ihre Benutzer anpassen. Im Rahmen der durch die Lizenz für die kopierte Zugriffsebene zulässigen Funktionalität können Sie die Zugriffseinstellungen an die Bedürfnisse des Benutzers anpassen.
+Sie können eine standardmäßige Zugriffsebene kopieren und die Kopie nach Bedarf für Ihre Benutzer anpassen. Innerhalb des durch die Lizenz für die kopierte Zugriffsebene zulässigen Funktionsumfangs können Sie die Zugriffseinstellungen an die Anforderungen der Benutzenden anpassen.
 
 Weitere Informationen finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) und [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
 ## Lizenzanzahl
 
-Wenn Sie einem Benutzer eine Zugriffsstufe zuweisen, wird Ihre verfügbare Lizenzanzahl um 1 reduziert.
+Wenn Sie einem Benutzer eine Zugriffsebene zuweisen, wird die verfügbare Lizenzanzahl um 1 reduziert.
 
-Wenn Sie beispielsweise einem Benutzer die Zugriffsebene Planer zuweisen, wird Ihre Anzahl der verfügbaren Planungslizenzen um 1 reduziert.
+Wenn Sie beispielsweise einem Benutzer die Zugriffsebene „Planer“ zuweisen, wird die Anzahl der verfügbaren Planlizenzen um 1 reduziert.
 
-Sie können die Ihren Benutzern zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Zugriffsebene und Lizenzen Ihrer Benutzer auflisten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
+Sie können die Ihren Benutzern zugewiesenen Lizenzen und Zugriffsebenen anzeigen. Weitere Informationen finden Sie unter [Auflisten der Zugriffsebenen und Lizenzen Ihrer Benutzer](../../../administration-and-setup/add-users/access-levels-and-object-permissions/list-access-levels-and-licenses-for-your-users.md).
 
-Informationen zur Verwaltung Ihrer Lizenzen finden Sie unter [Verwalten der verfügbaren Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
+Informationen zum Verwalten Ihrer Lizenzen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).

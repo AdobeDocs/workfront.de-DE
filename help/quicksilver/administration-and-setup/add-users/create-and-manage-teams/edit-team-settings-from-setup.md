@@ -1,6 +1,6 @@
 ---
-title: Bearbeiten der Einstellungen eines Teams im Setup-Bereich
-description: Als Adobe Workfront-Administrator können Sie die Einstellungen eines Teams im Bereich Einrichtung bearbeiten. Sie können Benutzer zu einem Team hinzufügen, die Layoutvorlage eines Teams festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
+title: Bearbeiten der Einstellungen eines Teams im Bereich „Setup“
+description: Als Adobe Workfront-Administrator können Sie die Einstellungen eines Teams im Bereich „Setup“ bearbeiten. Sie können Benutzer zu einem Team hinzufügen, die Layout-Vorlage eines Teams festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -12,20 +12,20 @@ ht-degree: 3%
 
 ---
 
-# Bearbeiten Sie die Einstellungen eines Teams im Bereich &quot;Einrichtung&quot;.
+# Bearbeiten der Einstellungen eines Teams im Bereich Setup
 
-Als Adobe Workfront-Administrator können Sie die Einstellungen eines Teams im Bereich Einrichtung bearbeiten. Sie können Benutzer zu einem Team hinzufügen, die Layoutvorlage eines Teams festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
+Als Adobe Workfront-Administrator können Sie die Einstellungen eines Teams im Bereich „Setup“ bearbeiten. Sie können Benutzer zu einem Team hinzufügen, die Layout-Vorlage eines Teams festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
 
-Weitere Informationen zu Teams finden Sie unter [Übersicht über Teams](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+Informationen zu Teams finden Sie unter [Teams - Übersicht](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 >[!NOTE]
 >
->* Ein Gruppenadministrator kann die Einstellungen eines Teams für eine von ihm verwaltete Gruppe bearbeiten. Weitere Informationen finden Sie unter [Erstellen und Ändern von Teams einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
->* Benutzer mit einer Standard- oder Planlizenz können die Einstellungen eines Teams im Bereich Teams bearbeiten. Weitere Informationen finden Sie unter [Bearbeiten von Teameinstellungen](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
+>* Ein Gruppenadministrator bzw. eine Gruppenadministratorin kann die Einstellungen eines Teams für eine von ihm verwaltete Gruppe bearbeiten. Weitere Informationen finden Sie [Erstellen und Ändern der Teams einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-teams.md).
+>* Ein Benutzer mit einer Standard- oder Plan-Lizenz kann die Einstellungen eines Teams im Bereich Teams bearbeiten. Weitere Informationen finden Sie unter [Teameinstellungen bearbeiten](../../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,8 +34,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -46,21 +46,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Team-Einstellungen bearbeiten
+## Bearbeiten der Einstellungen eines Teams
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Teams** .
+1. Klicken Sie **linken** auf „Teams“.
 1. Wählen Sie ein Team aus und klicken Sie dann auf **Bearbeiten** ![](assets/edit-icon.png).
 
 1. Nehmen Sie eine der folgenden Änderungen vor:
@@ -75,43 +75,43 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr>
       <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
        <td role="rowheader">Ist aktiv </td> 
-       <td>Diese Option ist standardmäßig für neue und vorhandene Teams aktiviert. Deaktivieren Sie ihn, um das Team zu deaktivieren. Weitere Informationen finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Deaktivieren eines Teams</a> </td> 
+       <td>Diese Option ist standardmäßig für neue und vorhandene Teams aktiviert. Deaktivieren, um das Team zu deaktivieren. Weitere Informationen finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md" class="MCXref xref">Team deaktivieren</a> </td> 
       </tr>
      <tr> 
       <td role="rowheader">Gruppe</td> 
-      <td> <p>Verbinden Sie das Team mit einer Gruppe. Geben Sie den Namen der Gruppe ein und wählen Sie den Namen aus, wenn er angezeigt wird.</p> <p><b>HINWEIS</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil "Switch Teams"<img src="assets/switch-team-icon.png" alt="Symbol &quot;Team wechseln&quot;"> klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol "<img src="assets/info-icon.png">" klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.</p> </td> 
+      <td> <p>Verknüpfen Sie das Team mit einer Gruppe. Beginnen Sie mit der Eingabe des Namens der Gruppe und wählen Sie dann den Namen aus, wenn er angezeigt wird.</p> <p><b>HINWEIS</b>: Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können alle Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied dieses Teams zu sein. Gruppenadministratoren können im Hauptmenü zum Bereich Teams gehen und auf den <img src="assets/switch-team-icon.png" alt="Team-Symbol wechseln"> Teams wechseln klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.</p> <p>Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol <img src="assets/info-icon.png"> neben dem Team klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Besitzerin bzw. Besitzer</td> 
-      <td>Wählen Sie einen Inhaber für das Team aus.</td> 
+      <td>Wählen Sie einen Verantwortlichen für das Team aus.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Team-Mitglieder</td> 
-      <td> <p>Fügen Sie Mitglieder und Teams hinzu. Beginnen Sie mit der Eingabe des Namens eines Benutzers und wählen Sie dann den Namen aus, wenn er angezeigt wird. Wiederholen Sie diesen Vorgang, um mehrere Benutzer zum Team hinzuzufügen.</p> 
-      <p><b>TIPP</b>: Sie können einer Gruppe eine beliebige Anzahl von Benutzern hinzufügen. Es wird jedoch empfohlen, in einem Team keine übermäßig große Anzahl hinzuzufügen, da das Arbeitsmanagement des Teams zu komplex werden könnte.</p> </td> 
+      <td> <p>Fügen Sie und Ihre Team-Mitglieder hinzu. Beginnen Sie mit der Eingabe des Benutzernamens und wählen Sie den Namen aus, wenn er angezeigt wird. Wiederholen Sie diesen Vorgang, um dem Team mehrere Benutzer hinzuzufügen.</p> 
+      <p><b>TIPP</b>: Sie können einem Team eine beliebige Anzahl von Benutzern hinzufügen. Es wird jedoch empfohlen, nicht zu viele Teammitglieder hinzuzufügen, da die Arbeitsverwaltung des Teams zu komplex werden könnte.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td>Geben Sie eine Beschreibung für das Team ein.</td> 
+      <td>Beschreibung für das Team eingeben.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Layoutvorlage</td> 
-      <td> <p>Beginnen Sie mit der Eingabe des Namens der Layoutvorlage, die das Team verwenden soll, und klicken Sie dann darauf, sobald sie angezeigt wird.</p> </td> 
+      <td> <p>Geben Sie den Namen der Layout-Vorlage ein, die das Team verwenden soll, und klicken Sie auf den Namen, wenn er angezeigt wird.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Agile</td> 
-      <td>Geben Sie an, ob es sich um ein agiles Team handelt. Weitere Informationen zu agile Teams und zur Verwaltung ihrer Arbeit finden Sie unter <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Erstellen eines agilen Teams</a>.</td> 
+      <td>Geben Sie an, ob es sich um ein Agile-Team handelt. Informationen zu agilen Teams und zur Verwaltung ihrer Arbeit finden Sie unter <a href="../../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md" class="MCXref xref">Erstellen eines agilen Teams</a>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Bearbeiten</td> 
-      <td> <p>Ändern Sie die Schaltfläche "Bearbeiten"in die Schaltfläche "Starten". Wenn ein Benutzer auf Start klickt, wird der Status des Elements automatisch aktualisiert.</p> <p>Weitere Informationen zum Konfigurieren der Schaltfläche "Start"finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start"</a>.</p> </td> 
+      <td> <p>Schaltfläche „Bearbeiten“ in „Start“ ändern. Wenn ein(e) Benutzende(r) auf Start klickt, wird der Status des Elements automatisch aktualisiert.</p> <p>Weitere Informationen zum Konfigurieren der Schaltfläche „Start“ finden Sie unter <a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Schaltfläche „Fertig“</td> 
-      <td> <p>Passen Sie die Schaltfläche Fertig an. Weitere Informationen finden Sie unter</p> 
+      <td> <p>Passen Sie die Schaltfläche Fertig an. Weitere Informationen finden Sie unter:</p> 
        <ul> 
-        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">Konfigurieren der Schaltfläche "Fertig"für Aufgaben</a> </li> 
-        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">Konfigurieren der Schaltfläche "Fertig"für Probleme</a> </li> 
+        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md" class="MCXref xref">Konfigurieren der Schaltfläche „Fertig“ für Aufgaben</a> </li> 
+        <li><a href="../../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md" class="MCXref xref">Konfigurieren der Schaltfläche „Fertig“ für Probleme</a> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 

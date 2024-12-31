@@ -12,15 +12,15 @@ ht-degree: 0%
 
 ---
 
-# Zugriff auf den Szenario-Planer gewähren
+# Zugriff auf Scenario Planner gewähren
 
-Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf den Szenario-Planer zu definieren, wie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) beschrieben.
+Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf den Szenario-Planer zu definieren, wie in [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) beschrieben.
 
-Zusätzlich zum Zugriff auf den Szenario-Planer muss ein Benutzer mit einer Nicht-Systemadministratorzugriffsstufe auch Zugriff auf Finanzdaten haben, um alle in einem Plan enthaltenen Finanzinformationen wie Budgets, Kosten und Rollen für den Arbeitsplatz sehen zu können. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+Zusätzlich zum Zugriff auf den Szenario-Planer muss ein Benutzer mit der Zugriffsebene eines Nicht-Systemadministrators auch Zugriff auf Finanzdaten haben, um die in einem Plan enthaltenen Finanzinformationen anzuzeigen, z. B. Budgets, Kosten und Aufgabengebiets-Raten. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -34,75 +34,75 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Überprüfen oder höher. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Überblick über Lizenzen</a>.</p> </td> 
+   <td> <p>Überprüfen Sie oder höher. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref" data-mc-variable-override="">Lizenzen - Übersicht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td> <p>Sie müssen eine zusätzliche Lizenz für den Adobe Workfront-Szenario-Planer erwerben, um auf die in diesem Artikel beschriebene Funktion zugreifen zu können.</p> <p>Informationen zum Abrufen des Workfront-Szenario-Players finden Sie unter <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">Für die Verwendung des Szenario-Players benötigter Zugriff</a>. </p> </td> 
+   <td> <p>Sie müssen eine zusätzliche Lizenz für den Adobe Workfront Scenario Planner erwerben, um auf die in diesem Artikel beschriebenen Funktionen zugreifen zu können.</p> <p>Informationen zum Abrufen des Workfront-Szenarioplaners finden Sie unter <a href="../../../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref" data-mc-variable-override="">Zugriff für die Verwendung des Szenarioplaners erforderlich</a>. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsstufe*</td> 
-   <td> <p>Zugriff auf den Szenario-Planer anzeigen oder höher</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Zugriffsebene*</td> 
+   <td> <p>Anzeigen des Zugriffs auf den Szenario-Planer oder höher</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Objektberechtigungen</p> </td> 
-   <td> <p>Berechtigungen oder höher für einen Plan anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref" data-mc-variable-override="">Anfordern des Zugriffs auf einen Plan im Szenario-Planer</a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen oder höher für einen Plan</p> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref" data-mc-variable-override="">Anfordern des Zugriffs auf einen Plan im Szenario-Planer</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
-## Benutzerzugriff auf den Szenario-Planer mit einer benutzerdefinierten Zugriffsebene konfigurieren
+## Konfigurieren des Benutzerzugriffs auf den Szenario-Planer mithilfe einer benutzerdefinierten Zugriffsebene
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung der Zugriffsebene, wie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) beschrieben.
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 1. Klicken Sie auf die Option rechts neben **Szenario-Planer**, die Sie für diese Zugriffsebene verwenden möchten.
 
    >[!NOTE]
    >
-   >Der Lizenztyp Anforderung oder Externer Lizenztyp erlaubt keinen Zugriff auf den Szenario-Planer anzeigen oder bearbeiten .
+   >Der Anforderungs- oder externe Lizenztyp lässt keine Anzeige- oder Bearbeitungsberechtigungen für den Szenario-Planer zu.
 
-1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, an der Sie arbeiten, fahren Sie mit einem der unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Optional) Um Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene, an der Sie arbeiten, zu konfigurieren, fahren Sie mit einem der in [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 ## Zugriff auf den Szenario-Planer nach Lizenztyp
 
-Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit dem Szenario-Planer tun können, finden Sie im Abschnitt [Bereich &quot;Szenario-Planer&quot;](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario) im Artikel [Für jeden Objekttyp verfügbare Funktionen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit dem Szenarienplaner tun können, finden Sie im Abschnitt [Szenarienplaner-Bereich](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md#scenario) im Artikel [Für jeden Objekttyp verfügbare Funktionen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
 
-## Szenario Planen des Zugriffs nach Einstellung der Zugriffsebene
+## Zugriff durch Zugriffsebenen-Einstellung für Szenario-Planer
 
-Die folgenden Informationen helfen Ihnen dabei, zu verstehen, wie Sie mit den Einstellungen auf Zugriffsebene den Zugriff der Benutzer auf Informationen im Workfront-Szenario-Planer steuern können.
+Die folgenden Informationen helfen Ihnen zu verstehen, wie Sie mit den Einstellungen der Zugriffsebene den Zugriff der Benutzenden auf Informationen im Workfront-Szenarioplaner steuern können.
 
 * [Kein Zugriff](#no-access)
-* [Zugriff anzeigen](#view-access)
+* [Ansichtszugriff](#view-access)
 * [Zugriff bearbeiten](#edit-access)
 
 ### Kein Zugriff {#no-access}
 
-Benutzer ohne Zugriff auf den Szenario-Planer können weder das Szenario-Symbol im Hauptmenü sehen, wenn er zu ihrer Layoutvorlage hinzugefügt wird, noch Pläne und Initiativen anzeigen, die für sie freigegeben sind. Wenn der Link zu einem Plan für einen Benutzer freigegeben wird, der keinen Zugriff auf den Szenario-Planer hat, kann der Benutzer den Plan nicht anzeigen oder bearbeiten.
+Benutzende ohne Zugriff auf den Szenario-Planer können weder das Szenario -Symbol im Hauptmenü sehen, wenn es zu ihrer Layout-Vorlage hinzugefügt wird, noch Pläne und Initiativen anzeigen, die für sie freigegeben sind. Wenn der Link zu einem Plan für einen Benutzer freigegeben wird, der keinen Zugriff auf den Szenario-Planer hat, kann der Benutzer den Plan nicht anzeigen oder bearbeiten.
 
-### Zugriff anzeigen {#view-access}
+### Ansichtszugriff {#view-access}
 
-Benutzer mit Zugriff auf den Szenario-Planer anzeigen können Folgendes tun:
+Benutzende mit Ansichtszugriff auf den Szenario-Planer können Folgendes tun:
 
-* Das Symbol Szenarien im Hauptmenü ![](assets/esp-icon-in-main-menu.png) anzeigen, obwohl der Bereich Pläne leer ist, es sei denn, der Benutzer klickt auf einen von einem anderen Benutzer freigegebenen Plan-Link.
-* Sehen Sie sich einen Plan an, wenn ein anderer Benutzer den Link darauf freigegeben hat.
+* Siehe das Symbol Szenarien im Hauptmenü ![](assets/esp-icon-in-main-menu.png), obwohl der Bereich Pläne leer ist, es sei denn, der Benutzer klickt auf einen Plan-Link, der von einem anderen Benutzer freigegeben wurde.
+* Zeigen Sie einen Plan an, wenn ein anderer Benutzer den Link dazu freigibt.
 
-  Dies umfasst alle Informationen zur Rolle im Job im Plan.
+  Dazu gehören alle Informationen zu Aufgabengebieten im Plan.
 
-  Sie enthält auch Informationen zu den Stellenraten und Kosten des Plans, wenn der Empfänger auch Zugriff auf Finanzdaten hat. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Es enthält auch Tarife für Aufgabengebiete und Kosteninformationen im Plan, falls der empfangende Benutzer auch Zugriff auf Finanzdaten hat. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
 ### Zugriff bearbeiten {#edit-access}
 
-Benutzer mit Zugriff auf den Szenario-Planer bearbeiten können Folgendes tun:
+Benutzende mit Bearbeitungszugriff auf den Szenario-Planer können Folgendes tun:
 
-* Sehen Sie sich das Symbol Szenarios im Hauptmenü ![](assets/esp-icon-in-main-menu.png) an und greifen Sie mit ihm auf Planungsdaten zu.
-* Erstellen Sie Pläne.
-* Anzeigen, Bearbeiten und Löschen von Plänen, die sie erstellen.
-* Zeigen Sie die Pläne anderer Benutzer an, bearbeiten Sie sie und löschen Sie sie, indem Sie einen freigegebenen Link verwenden.
+* Zeigen Sie das Symbol Szenarien im Hauptmenü ![](assets/esp-icon-in-main-menu.png) an und verwenden Sie es, um auf Plandaten zuzugreifen.
+* Pläne erstellen.
+* Von ihnen erstellte Pläne anzeigen, bearbeiten und löschen.
+* Pläne anderer Benutzer, auf die sie über einen freigegebenen Link zugreifen, anzeigen, bearbeiten und löschen.
 
-  Dies umfasst alle Informationen zur Rolle in einem Plan.
+  Dazu gehören alle Informationen zu Aufgabengebieten in einem Plan.
 
-  Sie enthält auch Informationen zu den Stellenraten und Kosten des Plans, wenn der Empfänger Zugriff auf finanzielle Daten hat. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+  Es enthält auch Tarife für Aufgabengebiete und Kosteninformationen im Plan, sofern der empfangende Benutzer Zugriff auf Finanzdaten hat. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).

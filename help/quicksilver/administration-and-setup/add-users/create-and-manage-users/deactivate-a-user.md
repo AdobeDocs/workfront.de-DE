@@ -1,9 +1,9 @@
 ---
-title: Deaktivieren oder Reaktivieren eines Benutzers
+title: Deaktivieren oder Reaktivieren von Benutzern
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Als Workfront-Administrator können Sie einen Benutzer deaktivieren oder reaktivieren.
+description: Als Workfront-Administrator können Sie Benutzende deaktivieren oder reaktivieren.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -31,64 +31,64 @@ ht-degree: 0%
 
 -->
 
-Wenn ein Benutzer die Organisation verlässt, müssen Sie ihn möglicherweise aus Adobe Workfront entfernen. Sie sollten nicht im System aktiv bleiben, da dies für andere Benutzer Verwirrung stiften würde, wenn sie zu Aktualisierungen hinzugefügt oder sie zugewiesen werden. Wenn Sie einen Benutzer deaktivieren, sehen andere Benutzer seinen Namen nicht mehr, wenn sie nach Personen im System suchen.
+Wenn ein(e) Benutzende(r) das Unternehmen verlässt, müssen Sie ihn/sie möglicherweise aus Adobe Workfront entfernen. Sie sollten im System nicht aktiv bleiben, da dies für andere Benutzende Verwirrung stiften würde, wenn sie Aktualisierungen hinzufügen oder ihnen Arbeit zuweisen. Wenn Sie einen Benutzer deaktivieren, sehen andere Benutzer seinen Namen nicht mehr, wenn sie nach Personen im System suchen.
 
-Administratoren können inaktive Benutzer im Bereich Einrichtung anzeigen.
+Admins sehen inaktive Benutzende im Bereich „Setup“.
 
 Sie können einen Benutzer jederzeit reaktivieren.
 
 >[!IMPORTANT]
 >
->Es wird empfohlen, Benutzer, die die Organisation verlassen haben, zu deaktivieren, anstatt sie zu löschen. Wenn ein Benutzer gelöscht wird, geht der gesamte mit diesem Benutzer verknüpfte Verlauf in Workfront verloren. Dazu gehören ihre Arbeitsaufgaben, ihre Verknüpfung mit Notizen, Stunden, Dokumenten und allen anderen Objekten, die sie einmal erstellt haben.
+>Es wird empfohlen, Benutzer zu deaktivieren, die die Organisation verlassen haben, anstatt sie zu löschen. Wenn ein(e) Benutzende(r) gelöscht wird, geht der gesamte Verlauf in Workfront verloren, der diesem/r Benutzenden zugeordnet ist. Dazu gehören ihre Arbeitszuweisungen, ihre Zuordnung zu Notizen, Stunden, Dokumenten und allen anderen Objekten, die sie einmal erstellt haben.
 >
->Durch das Deaktivieren eines Benutzers in Workfront werden die Anwenderlizenzen für Workfront und Digital Testing entfernt. Darüber hinaus kann dem Benutzer keine Arbeit mehr zugewiesen werden. Wenn ein Benutzer deaktiviert wird, werden die Workfront-Lizenz und die Testlizenz dieses Benutzers für die Verwendung durch einen anderen Benutzer verfügbar. Alle anderen Informationen im Profil des deaktivierten Benutzers bleiben unverändert.
+>Wenn Sie einen Benutzer in Workfront deaktivieren, werden die Lizenzen des Benutzers sowohl für Workfront als auch für das digitale Proofing entfernt. Darüber hinaus kann dem Benutzer keine Arbeit mehr zugewiesen werden. Wenn eine Benutzerin bzw. ein Benutzer deaktiviert wird, steht die Workfront-Lizenz und Proofing-Lizenz dieser Person zur Verwendung durch eine andere Person zur Verfügung. Alle anderen Informationen im Profil des deaktivierten Benutzers bleiben unverändert.
 >
->Weitere Informationen zu den Auswirkungen des Löschens und der Deaktivierung von Benutzern finden Sie unter [Benutzer löschen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>Weitere Informationen über die Auswirkungen des Löschens und der Deaktivierung von Benutzern finden Sie unter [Benutzer löschen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p><p>Oder</p><p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen über eine der folgenden Möglichkeiten verfügen:</p> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen eine der folgenden Möglichkeiten haben:</p> 
     <ul> 
      <li> <p>Die Zugriffsebene des Systemadministrators. </li> 
-     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsebene, die für den Zugriff auf <b>Bearbeiten</b> konfiguriert ist, wobei <b>Erstellen</b> und mindestens eine der beiden Optionen <b>Benutzeradministrator</b> unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png"> aktiviert sind. </p> <p>Wenn von diesen beiden Optionen <b>Benutzeradministrator (Gruppenbenutzer)</b> aktiviert ist, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
+     <li> <p><b>Benutzer</b> Einstellung in Ihrer Zugriffsebene konfiguriert auf <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens einer der beiden <b>Benutzeradmin</b> Optionen unter <b>Optimieren Sie Ihre Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Wenn diese beiden Optionen <b>Benutzeradministrator (Gruppenbenutzer)) aktiviert </b>, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Bevor Sie einen Workfront-Administrator oder einen Standard- oder Planen-Lizenzbenutzer deaktivieren, müssen Sie dessen Objekte und Aktivitäten mit einem anderen Benutzer verknüpfen.
+Bevor Sie einen Workfront-Administrator oder einen Standard- oder Plan-Lizenzbenutzer deaktivieren, müssen Sie dessen Objekte und Aktivitäten mit einem anderen Benutzer verknüpfen.
 
-Weitere Informationen finden Sie unter [Über das Deaktivieren von Workfront-Administratoren und das Planen von Lizenzanwendern](#about-deactivating-workfront-administrators-and-plan-license-users) in diesem Artikel.
+Weitere Informationen finden Sie unter [Informationen zum Deaktivieren von Workfront-Administratoren und Plan](#about-deactivating-workfront-administrators-and-plan-license-users)Lizenzanwendern in diesem Artikel.
 
-## Deaktivieren eines Benutzers
+## Deaktivieren von Benutzern
 
-Beachten Sie beim Deaktivieren eines Benutzers Folgendes:
+Beachten Sie beim Deaktivieren von Benutzern Folgendes:
 
-* Der Benutzer kann nicht auf das System zugreifen.
+* Der/die Benutzende kann nicht auf das System zugreifen.
 <!--* The user will be removed from Frame.io review links, assets, projects, and accounts.
    * Reactivating the user does not automatically add them back to the Frame.io items. You must reassign the user manually to Workfront projects, tasks, and assets that require Frame.io collaboration.-->
 * Alle mit dem Benutzer verknüpften Daten werden beibehalten.
@@ -98,15 +98,15 @@ So deaktivieren Sie einen Benutzer:
 
 {{step-1-to-users}}
 
-1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) und dann auf **Deaktivieren**.
+1. Wählen Sie einen Benutzer aus, klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) und klicken Sie dann auf **Deaktivieren**.
 
-1. Klicken Sie in dem angezeigten Feld auf **Deaktivieren** .
+1. Klicken **in** angezeigten Feld auf „Deaktivieren“.
 
 ## Planen von Benutzern für die Deaktivierung
 
-Als Manager können Sie Benutzer zur Deaktivierung markieren, bevor sie Ihr Unternehmen verlassen. Wenn Sie z. B. mit einem Benutzer arbeiten, der vertraglich gebunden ist, befinden sich diese für einen begrenzten Zeitraum in Ihrem System und Sie kennen ihr Kündigungsdatum. Sie können die Deaktivierung an diesem Datum planen.
+Als Manager sollten Sie Benutzer zur Deaktivierung markieren, bevor sie Ihr Unternehmen tatsächlich verlassen. Wenn Sie beispielsweise mit einem vertraglich gebundenen Nutzer arbeiten, der sich für eine begrenzte Zeit in Ihrem System befindet und dessen Kündigungsdatum bekannt ist. Sie können planen, dass sie an diesem Datum deaktiviert werden.
 
-Workfront-Administratoren und Benutzer der Lizenzplanung können das Deaktivierungsdatum in ihrem Benutzerprofil sehen.
+Workfront-Administratoren und Benutzende mit Planlizenzen können das Deaktivierungsdatum in ihrem Benutzerprofil sehen.
 
 So planen Sie die Deaktivierung eines Benutzers:
 
@@ -116,65 +116,65 @@ So planen Sie die Deaktivierung eines Benutzers:
 
    Oder
 
-   (Optional) Wählen Sie mehrere Benutzer aus, um sie für die Deaktivierung in großen Mengen zu planen.
+   (Optional) Wählen Sie mehrere Benutzer aus, um sie für die Massendeaktivierung zu planen.
 
-1. Klicken Sie auf das Bearbeitungssymbol ![](assets/edit-icon.png).
-1. Klicken Sie im angezeigten Feld &quot;Benutzer bearbeiten&quot;auf **Ressourcenplanung** , um zu diesem Bereich zu wechseln.
-1. Aktivieren Sie die Option **Deaktivierung planen** .
+1. Klicken Sie auf das Symbol Bearbeiten ![](assets/edit-icon.png).
+1. Klicken Sie im angezeigten Feld „Benutzer bearbeiten“ auf **Ressourcenplanung**, um zu diesem Bereich zu wechseln.
+1. Aktivieren Sie die **Deaktivierung planen**.
 
-1. Geben Sie im Kalender, der angezeigt wird, das Datum und die Uhrzeit für das **Geplante Deaktivierungsdatum** an.
+1. Geben Sie in dem angezeigten Kalender das Datum und die Uhrzeit für das Datum **Geplantes Deaktivierungsdatum“**.
 
    >[!NOTE]
    >
-   >* Im Zeitfeld können Sie nur Zeitabstände (Ganzstundenabstände, keine Minuten) auswählen.
-   >* Wenn Sie eine Uhrzeit für den aktuellen Tag auswählen, der vergangen ist, plant Workfront die Deaktivierung für den folgenden Tag um 12:00 Uhr. Die ausgewählte Zeit stimmt mit der Zeitzone des Computers überein, in dem der Benutzer die Deaktivierung plant.
+   >* Im Zeitfeld können Sie nur Ganzstundenschritte und nicht Minuten auswählen.
+   >* Wenn Sie eine Uhrzeit für den aktuellen Tag auswählen, der vergangen ist, plant Workfront die Deaktivierung für den folgenden Tag um 00:00 Uhr. Die ausgewählte Zeit entspricht der Zeitzone des Computers des Benutzers, der die Deaktivierung plant.
 
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Der Benutzer wird am ausgewählten Tag nach der ausgewählten Zeit deaktiviert. Wenn Sie mehrere Benutzer ausgewählt haben, die stapelweise deaktiviert werden sollen, werden alle ausgewählten Benutzer am ausgewählten Tag nach der ausgewählten Zeit deaktiviert.
+   Der Benutzer wird am ausgewählten Tag irgendwann nach der ausgewählten Zeit deaktiviert. Wenn Sie mehrere Benutzer ausgewählt haben, die stapelweise deaktiviert werden sollen, werden alle ausgewählten Benutzer am ausgewählten Tag irgendwann nach der ausgewählten Zeit deaktiviert.
 
-Es wird empfohlen, einen Bericht für Benutzer zu erstellen, die für die Deaktivierung eingeplant sind, um Sie über die zukünftigen Deaktivierungen der Benutzer auf dem Laufenden zu halten. Es gibt keine Bestätigung, dass die Deaktivierung erfolgte, nachdem die Benutzer deaktiviert wurden.
+Es wird empfohlen, einen Bericht für Benutzer zu erstellen, für die Sie die Deaktivierung geplant haben, um über bevorstehende Deaktivierungen von Benutzern auf dem Laufenden zu bleiben. Es gibt keine Bestätigung, dass die Deaktivierung stattgefunden hat, nachdem die Benutzer deaktiviert wurden.
 
-## Benutzer erneut aktivieren
+## Benutzer reaktivieren
 
 {{step-1-to-users}}
 
-1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol &quot;Mehr&quot;![](assets/more-icon.png) und dann auf **Aktivieren**.
+1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) dann auf **Aktivieren**.
 
-1. Weisen Sie im Dropdown-Menü eine neue **Zugriffsebene** zu und klicken Sie dann auf **Reactivate** .
+1. Weisen Sie **Dropdown-Menü eine neue Zugriffsebene** und klicken Sie dann auf **Reaktivieren**.
 <!--
 ### Asset review and approval impact when you reactivate a user
 
 Deactivated users lose access to their assigned Frame.io accounts as well as assigned projects, assets, and review links. If you choose to reactivate the user, you must manually reassign them to projects, tasks, and assets that require Frame.io collaboration. -->
 
-### Auswirkungen der Prüfung bei der Reaktivierung eines Benutzers
+### Auswirkungen des Proofings bei der Reaktivierung eines Benutzers
 
-Deaktivierte Benutzer verlieren ihre zugewiesene standardmäßige Testing-Rolle und ihre Testversandlizenz (wenn Sie einen Workfront Premium Legacy Plan verwenden). Wenn Sie den Benutzer reaktivieren möchten, müssen Sie:
+Deaktivierte Benutzende verlieren ihre zugewiesene Standard-Proofing-Rolle und ihre Proofing-Lizenz (wenn Sie einen veralteten Workfront Premium-Plan verwenden). Wenn Sie den Benutzer erneut aktivieren möchten, müssen Sie:
 
-* Weisen Sie die Lizenz erneut zu (wenn Sie einen Workfront Premium Legacy Plan nutzen). Weitere Informationen zu Workfront-Testplänen finden Sie unter [Zugriff auf die Testfunktion in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
-* Überprüfen Sie, ob sie die richtige Rolle für den Testversand haben. Benutzern mit aktiviertem Testversand werden die Standardeinstellungen zugewiesen, die für neue Benutzer als Testversand-Rolle festgelegt wurden. Weitere Informationen finden Sie unter [Konfigurieren von standardmäßigen Testing-Rollen](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) .
+* Weisen Sie die Lizenz neu zu (wenn Sie einen alten Workfront Premium-Plan verwenden). Weitere Informationen zu Workfront-Proofing-Plänen finden Sie unter [Zugriff auf die Proofing-Funktionalität in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+* Stellen Sie sicher, dass sie die richtige Korrekturabzugsrolle haben. Reaktivierte Korrekturabzugsbenutzende erhalten die Rolle, die als Standard-Korrekturabzugsrolle für neue Benutzende festgelegt ist. Weitere Informationen [ Sie unter „Konfigurieren ](../../../administration-and-setup/manage-workfront/configure-proofing/configure-default-proofing-roles.md) Proofing-Standardrollen“.
 
-## Über das Deaktivieren von Workfront-Administratoren und Standard- oder Planen von Lizenzbenutzern
+## Informationen zur Deaktivierung von Workfront-Administratoren und Benutzern von Standard- oder Planlizenzen
 
-Bevor Sie einen Workfront-Administrator oder einen Benutzer mit einer Planungslizenz deaktivieren, müssen Sie nach Workfront-Objekten und -Aktivitäten, an denen diese Person beteiligt ist, suchen und sie dann bei Bedarf einem anderen Workfront-Administrator oder Planen-Lizenzanwender zuordnen.
+Bevor Sie einen Workfront-Administrator oder eine Benutzerin bzw. einen Benutzer mit einer Planlizenz deaktivieren, müssen Sie nach Workfront-Objekten und -Aktivitäten suchen, an denen diese Person beteiligt ist, und sie dann ggf. einem anderen Workfront-Administrator oder einer Person mit einer Planlizenz zuordnen.
 
 Diese Objekte und Aktivitäten können Folgendes umfassen:
 
 * Dem Benutzer zugewiesene Aufgaben oder Probleme
-* Projekte, die dem Benutzer gehören
-* Berichte, die mit den Zugriffsrechten des Benutzers ausgeführt werden
+* Projekte im Besitz des Benutzers
+* Für die Ausführung mit den Zugriffsrechten des Benutzers eingerichtete Berichte
 * Vorlagen, die dem Benutzer gehören
-* Projekte und Vorlagen, für die der Benutzer als Ressourcen-Manager festgelegt wurde
-* Routing-Regeln für Warteschlangen anfordern, für die der Workfront-Administrator oder Planlizenzbenutzer der Standardverantwortliche ist
-* Genehmigungsprozesse mit einer Phase einschließlich des Benutzers (insbesondere wenn sie der einzige Genehmiger auf der Bühne waren)
-* Timesheets, die den Benutzer als Genehmiger auflisten
-* Datenblatt-Profile, die den Benutzer als Genehmiger auflisten
-* Testen automatisierter Workflows mit dem Benutzer
+* Projekte und Vorlagen, für die der Benutzer als Ressourcenmanager festgelegt wurde
+* Routingregeln für Anforderungswarteschlangen, für die der Workfront-Administrator oder Plan-Lizenzbenutzer der standardmäßige Bearbeiter ist
+* Genehmigungsprozesse, die über eine Phase verfügen, in der der Benutzer eingeschlossen ist (insbesondere wenn er die einzige genehmigende Person auf der Phase war)
+* Arbeitszeittabellen, in denen der Benutzer als genehmigende Person aufgeführt ist
+* Arbeitszeittabellen-Profile, in denen der Benutzer als genehmigende Person aufgeführt ist
+* Proofing automatisierter Workflows, die den Benutzer enthalten
 
-## Auswirkungen der Ressourcenplanung bei der Planung der Deaktivierung eines Benutzers
+## Auswirkung auf die Ressourcenplanung bei der Planung einer Benutzerdeaktivierung
 
-Wenn Sie die Deaktivierung eines Benutzers planen, erscheinen diese nicht mehr im Ressourcen-Planer als für die Budgetplanung verfügbar. Wenn sie weiterhin Teil der Ressourcen-Pools sind, werden sie im Ressourcen-Planer angezeigt, ihre Verfügbarkeit wird jedoch auf null Stunden festgelegt, beginnend mit dem Datum der geplanten Deaktivierung.
+Wenn Sie einen Benutzer für die Deaktivierung planen, werden diese im Ressourcenplaner nicht mehr als für die Budgetierung von Stunden verfügbar angezeigt. Wenn sie Teil der Ressourcenpools bleiben, werden sie im Ressourcenplaner angezeigt, ihre Verfügbarkeit wird jedoch auf null Stunden ab dem Datum ihrer geplanten Deaktivierung eingestellt.
 
-Der Ressourcen-Planer berücksichtigt alle Aufgabenrollen der Benutzer und geplante Abschlussdaten der Aufgaben und berechnet die Ressourcen entsprechend.
+Der Ressourcenplaner berücksichtigt alle Aufgabengebiete der Benutzer und die geplanten Abschlussdaten der Aufgaben und berechnet die Ressourcen entsprechend.
 
 Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).

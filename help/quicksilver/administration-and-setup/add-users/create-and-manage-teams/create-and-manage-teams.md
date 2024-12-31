@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;user-management
 navigation-topic: add-users-to-workfront
-description: Als Adobe Workfront-Administrator können Sie im Bereich "Einrichtung"ein Team erstellen.
+description: Als Adobe Workfront-Administrator können Sie im Bereich „Setup“ ein Team erstellen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,5 +21,5 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Erstellen Sie ein Team aus dem Einrichtungsbereich](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
-* [Bearbeiten Sie die Einstellungen eines Teams im Bereich &quot;Einrichtung&quot;.](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)
+* [Erstellen eines Teams im Bereich „Setup“](../../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md)
+* [Bearbeiten der Einstellungen eines Teams im Bereich Setup](../../../administration-and-setup/add-users/create-and-manage-teams/edit-team-settings-from-setup.md)

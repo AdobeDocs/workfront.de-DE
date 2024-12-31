@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Benutzer hinzufügen
-description: Als Workfront-Administrator oder Benutzer mit vollem Administratorzugriff können Sie Benutzer in Workfront hinzufügen.
+description: Als Workfront-Admin oder Benutzende mit vollem Administratorzugriff können Sie Benutzende in Workfront hinzufügen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,15 +21,15 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde, müssen Sie Systemadministratoren über die Adobe Admin Console erstellen.
+>Wenn Ihre Organisation in die Adobe Admin Console integriert wurde, müssen Sie Systemadministratoren über die Adobe Admin Console erstellen.
 >
 >Anweisungen zum Erstellen von Systemadministratoren in der Adobe Admin Console finden Sie unter [Verwalten von Systemadministratoren in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 >
->Gruppenadministratoren in Unternehmen, die in Adobe Admin Console integriert wurden, können dieses Verfahren zum Erstellen von Benutzern und zum Senden des Benutzers zur Admin-Genehmigung verwenden.
+>Gruppenadministratoren in Organisationen, die in die Adobe Admin Console integriert wurden, können mit diesem Verfahren Benutzende erstellen und diese zur Genehmigung durch den Administrator einreichen.
 >
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem unterscheiden, ob Ihr Unternehmen Adobe Admin Console verwendet hat, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
-Sie können Benutzer in Adobe Workfront hinzufügen, indem Sie einzelne Benutzer von Grund auf neu erstellen oder vorhandene Benutzer kopieren.
+Sie können Benutzende in Adobe Workfront hinzufügen, indem Sie einzelne Benutzende von Grund auf neu erstellen oder bestehende Benutzende kopieren.
 
 Informationen zum gleichzeitigen Importieren mehrerer Benutzer finden Sie unter [Benutzer importieren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
@@ -40,42 +40,42 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p><p>Oder</p><p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen über eine der folgenden Möglichkeiten verfügen:</p> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen eine der folgenden Möglichkeiten haben:</p> 
     <ul> 
      <li> <p>Die Zugriffsebene des Systemadministrators. </li> 
-     <li> <p><b>Benutzer</b> -Einstellung in Ihrer Zugriffsebene, die für den Zugriff auf <b>Bearbeiten</b> konfiguriert ist, wobei <b>Erstellen</b> und mindestens eine der beiden Optionen <b>Benutzeradministrator</b> unter <b>Optimieren Ihrer Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png"> aktiviert sind. </p> <p>Wenn von diesen beiden Optionen <b>Benutzeradministrator (Gruppenbenutzer)</b> aktiviert ist, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
+     <li> <p><b>Benutzer</b> Einstellung in Ihrer Zugriffsebene konfiguriert auf <b>Bearbeiten</b> Zugriff, mit <b>Erstellen</b> und mindestens einer der beiden <b>Benutzeradmin</b> Optionen unter <b>Optimieren Sie Ihre Einstellungen</b> <img src="assets/gear-icon-in-access-levels.png">. </p> <p>Wenn diese beiden Optionen <b>Benutzeradministrator (Gruppenbenutzer)) aktiviert </b>, müssen Sie Gruppenadministrator einer Gruppe sein, in der der Benutzer Mitglied ist.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Bevor Sie einen Benutzer hinzufügen, erfassen Sie die unten aufgeführten Informationen über den Benutzer und bestimmen Sie, welche Informationen Sie mit diesem Benutzer verknüpfen möchten:
+Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Informationen zum Benutzer und bestimmen Sie, welche Informationen Sie mit diesem Benutzer verknüpfen möchten:
 
-* Welche personenbezogenen Daten hat der Benutzer? Sie benötigen mindestens Folgendes:
+* Wie lauten die personenbezogenen Daten des Benutzers? Sie benötigen mindestens Folgendes:
 
    * Vollständiger Name
    * Ein Benutzername
@@ -84,90 +84,90 @@ Bevor Sie einen Benutzer hinzufügen, erfassen Sie die unten aufgeführten Infor
 
   >[!NOTE]
   >
-  >Sie können festlegen, ob Benutzer die Kontaktinformationen anderer Benutzer anzeigen können, indem Sie bei der Angabe der Zugriffsebene für Workfront-Objekte die Einstellung &quot;Benutzeransicht&quot;anpassen. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  >Sie können bestimmen, ob Benutzer die Kontaktinformationen anderer Benutzer anzeigen können, indem Sie die Einstellung „Benutzeransicht“ optimieren, wenn Sie Zugriffsebenen für Workfront-Objekte angeben. Weitere Informationen finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Wie steht der neue Benutzer im Unternehmen? Hat diese Person direkte Berichte? Wem meldet diese Person?
-* Welche berufliche Rolle spielt die Person? Gibt es diese Rolle in Workfront? Gibt es eine Begrenzung für die Zahl der Personen, die diese Aufgabe erfüllen können? Weitere Informationen zum Erstellen von Auftragsrollen finden Sie unter [Erstellen und Verwalten von Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
-* Welche Zugriffsebene sollte der Benutzer haben? Existiert es bereits oder müssen Sie ein neues erstellen? Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-* In welcher Startseite sollte dieser Benutzer sein? Sollte die Person in mehr als einer Gruppe sein? Weitere Informationen zu Gruppen finden Sie unter [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
-* In welchem Heimteam sollte dieser Benutzer sein? Sollte die Person in mehr als einem Team sein? Weitere Informationen zu Teams finden Sie unter [Übersicht über Teams](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
+* Welche Position hat der neue Benutzer innerhalb des Unternehmens? Hat diese Person direkt unterstellte Mitarbeiter? Wem berichtet diese Person?
+* Welche Aufgabengebiete hat die Person? Gibt es dieses Aufgabengebiet in Workfront? Gibt es eine Begrenzung für die Anzahl der Personen, die dieses Aufgabengebiet ausfüllen können? Informationen zum Erstellen von Aufgabengebieten finden Sie unter [Erstellen und Verwalten von ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)).
+* Welche Zugriffsebene sollte der Benutzer haben? Ist es bereits vorhanden oder muss ein neues erstellt werden? Weitere Informationen finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+* In welcher Hauptgruppe sollte sich dieser Benutzer befinden? Sollte die Person in mehr als einer Gruppe sein? Informationen zu Gruppen finden Sie unter [Gruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+* In welchem Haupt-Team sollte sich dieser Benutzer befinden? Sollte die Person in mehr als einem Team sein? Informationen zu Teams finden Sie unter [Teams - Übersicht](../../../people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 * Welche benutzerdefinierten Informationen müssen Sie mit diesem Benutzer verknüpfen?
 
-  Wenn Informationen zu Benutzern in von Ihnen erstellten benutzerdefinierten Feldern erfasst werden, müssen Sie beim Erstellen eines Benutzers über ein benutzerdefiniertes Formular verfügen. Weitere Informationen zu benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+  Wenn Informationen über Benutzer in benutzerdefinierten Feldern erfasst werden, die Sie erstellt haben, müssen Sie beim Erstellen eines Benutzers über ein benutzerdefiniertes Formular verfügen. Informationen zu benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Neuen Benutzer erstellen
+## Neuerstellen von Benutzern
 
 {{step-1-to-users}}
 
-1. Klicken Sie auf **Neuer Benutzer > Neuer Benutzer** , um einen Benutzer hinzuzufügen, der noch nicht zu Workfront hinzugefügt wurde.
+1. Klicken Sie **Neuer Benutzer > Neuer Benutzer**, um einen Benutzer hinzuzufügen, der noch nicht zu Workfront hinzugefügt wurde.
 
    Oder
 
-   Klicken Sie auf **Neuer Benutzer > Benutzer importieren** , um Benutzer durch Hochladen einer Tabellenimportdatei hinzuzufügen.
+   Klicken Sie auf **Neuer Benutzer > Benutzer importieren**, um Benutzer hinzuzufügen, indem Sie eine Tabellenimportdatei hochladen.
 
-   Wenn Sie Benutzer importieren, müssen Sie diese Schritte nicht fortsetzen. Weitere Informationen finden Sie unter [Benutzer importieren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
+   Wenn Sie Benutzende importieren, müssen Sie diese Schritte nicht fortsetzen. Weitere Informationen finden Sie unter [Benutzer importieren](../../../administration-and-setup/add-users/create-and-manage-users/import-users.md).
 
-1. Klicken Sie im angezeigten Feld **Neuer Benutzer** auf **Erweiterte Optionen anzeigen** und konfigurieren Sie dann die verfügbaren Optionen, um die Informationen der Person einzugeben.
+1. Klicken Sie im **Neuer Benutzer** auf **Erweiterte Optionen anzeigen** und konfigurieren Sie dann die verfügbaren Optionen, um die Informationen der Person einzugeben.
 
-   Weitere Informationen zu diesen Optionen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Weitere Informationen zu diesen Optionen finden [ unter „Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Lassen Sie **Einladungs-E-Mail an diese Person senden** aktiviert. In diesem Fall erhält der Benutzer eine E-Mail, in der er einem Link folgen kann, um sein eigenes Kennwort für Workfront zu erstellen. Benutzer, die die Einladung in die E-Mail nicht annehmen und ein Workfront-Kennwort erstellen, werden in Workfront als Abgemeldet aufgeführt.
-   * Deaktivieren Sie **Senden Sie eine Einladungs-E-Mail an diese Person**, geben Sie dann ein **Kennwort** für die Person ein und bestätigen Sie es in das Feld **Kennwort bestätigen** . Sie müssen dieses Kennwort für den Benutzer außerhalb von Workfront freigeben.
+   * Lassen Sie **Einladungs-E-Mail an diese Person senden** aktiviert. In diesem Fall erhält der Benutzer eine E-Mail, in der er einem Link folgen kann, um sein eigenes Kennwort für Workfront zu erstellen. Benutzer, die die E-Mail-Einladung nicht annehmen und ein Workfront-Kennwort erstellen, werden in Workfront als Nicht registriert aufgeführt.
+   * Deaktivieren Sie **Einladungs-E-Mail an diese Person senden** und geben Sie dann ein **Kennwort** für die Person ein und bestätigen Sie es im Feld **Kennwort bestätigen**. Sie müssen dieses Kennwort für Benutzer außerhalb von Workfront freigeben.
 
    >[!NOTE]
    >
-   >* Wenn Ihr Workfront-Administrator eine SSO-Integration in Workfront aktiviert hat, wird das Feld Nur die SSO-Konfiguration zulassen ausgeblendet, wenn Sie die E-Mail-Einladung deaktivieren. Das Feld Verknüpfungs-ID oder &lt;SSO-Konfiguration> Benutzername bleibt sichtbar.
+   >* Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird das Feld Nur &lt;SSO-Konfiguration>-Authentifizierung zulassen ausgeblendet, wenn Sie die E-Mail-Einladung deaktivieren. Das Feld Federation-ID oder &lt;SSO Configuration> Benutzername bleibt sichtbar.
    >
-   * Wenn Ihr Unternehmen in die Admin Console integriert wurde und Sie einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine Einladung per E-Mail zu senden.
+   * Wenn Ihr Unternehmen in die Admin Console integriert wurde und Sie einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
    >
-   Für bestehende Adobe-Benutzer kann der Benutzer eine E-Mail über die Verfügbarkeit von Workfront erhalten oder auch nicht. Dies ist eine vom Adobe-Administrator kontrollierte Voreinstellung für das Produkt.
+   Bestehende Adobe-Benutzer erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
 
-1. Klicken Sie auf **Diese Person hinzufügen**.
+1. Klicken Sie **Diese Person hinzufügen**.
 
    Oder
 
-   Klicken Sie auf **Person hinzufügen und einen weiteren starten** , um den neuen Benutzer zu speichern und einen weiteren hinzuzufügen.
+   Klicken Sie auf **Person hinzufügen und eine weitere starten**, um den neuen Benutzer zu speichern und einen weiteren hinzuzufügen.
 
    >[!NOTE]
    >
-   Wenn Sie ein Gruppenadministrator sind, der einen Benutzer zu einer Organisation hinzufügt, die in der Adobe Admin Console integriert wurde, sind die Optionen für diesen Schritt **Benutzer zur Admin-Genehmigung einreichen** und **Zur Genehmigung übermitteln und einen weiteren starten**. Der Benutzer wird in den Status Deaktiviert und Ausstehende Genehmigung erstellt. Ein Workfront-Administrator muss den Benutzer genehmigen, der den Benutzer in Workfront aktiviert und der Adobe Admin Console hinzufügt.
+   Wenn Sie Gruppenadministrator sind und Benutzer zu einer Organisation hinzufügen, die in die Adobe Admin Console integriert wurde, lauten die Optionen für diesen Schritt **Benutzer zur Genehmigung durch den Administrator einreichen** und **Zur Genehmigung einreichen und einen anderen starten**. Der Benutzer wird mit dem Status Deaktiviert und Ausstehende Genehmigung erstellt. Ein Workfront-Administrator muss den Benutzer genehmigen, wodurch der Benutzer in Workfront aktiviert und zur Adobe Admin Console hinzugefügt wird.
 
-## Kopieren Sie einen Benutzer, um einen neuen zu erstellen
+## Kopieren eines Benutzers zum Erstellen eines neuen
 
-Sie können einen Benutzer durch Kopieren eines vorhandenen Benutzers erstellen.
+Sie können einen Benutzer erstellen, indem Sie einen vorhandenen Benutzer kopieren.
 
 >[!NOTE]
 >
-Wenn Sie einen Benutzer auf diese Weise erstellen, werden alle Informationen vom ursprünglichen Benutzer in den neu erstellten Benutzer kopiert, mit Ausnahme der folgenden:
+Wenn Sie einen Benutzer auf diese Weise erstellen, werden alle Informationen vom ursprünglichen Benutzer an den neu erstellten Benutzer kopiert, mit Ausnahme der folgenden:
 >
 * Die Informationen im Abschnitt Persönliche Informationen .
-* Beim Anmelden anzeigen: In diesem Feld wird der Standard-Landingtab für die Zugriffsebene ausgewählt.
+* Beim Anmelden anzeigen: Hier ist die Standardregisterkarte für die Zugriffsebene ausgewählt.
 * Verzeichnisberichte
 >
 
-So erstellen Sie einen neuen Benutzer durch Kopieren eines vorhandenen:
+So erstellen Sie einen neuen Benutzer durch Kopieren eines vorhandenen Benutzers:
 
 {{step-1-to-users}}
 
-1. Wählen Sie den Benutzer aus, den Sie kopieren möchten, und klicken Sie dann auf das Kopiersymbol ![](assets/copy-icon.png).
-1. Bearbeiten Sie im angezeigten Feld **Benutzer kopieren** die für den neuen Benutzer verfügbaren Felder.
+1. Wählen Sie den Benutzer aus, den Sie kopieren möchten, und klicken Sie dann auf das Symbol Kopieren ![](assets/copy-icon.png).
+1. Bearbeiten Sie im **Benutzer kopieren** angezeigten Feld die für den neuen Benutzer verfügbaren Felder.
 
-   Informationen zu allen Feldern, die mit einem Benutzer verknüpft sind, finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+   Informationen zu allen mit einem Benutzer verknüpften Feldern finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-1. Klicken Sie auf **Diese Person hinzufügen**.
+1. Klicken Sie **Diese Person hinzufügen**.
 
    Oder
 
-   Klicken Sie auf **Person hinzufügen und einen weiteren starten** , um den neuen Benutzer zu speichern und einen weiteren hinzuzufügen.
+   Klicken Sie auf **Person hinzufügen und eine weitere starten**, um den neuen Benutzer zu speichern und einen weiteren hinzuzufügen.
 
-Dadurch wird in Workfront ein neues Konto für den Benutzer erstellt.
+Dadurch wird ein neues Konto in Workfront für den Benutzer erstellt.
 
 Wenn Sie die Option zum Senden einer Einladung an den Benutzer ausgewählt haben, sollte dieser eine E-Mail erhalten, über die er einem Link folgen kann, um sein Workfront-Kennwort zu erstellen.
 
 >[!NOTE]
 >
-Wenn Ihr Unternehmen in die Admin Console integriert wurde und Sie einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine Einladung per E-Mail zu senden.
+Wenn Ihr Unternehmen in die Admin Console integriert wurde und Sie einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
 >
-Für bestehende Adobe-Benutzer kann der Benutzer eine E-Mail über die Verfügbarkeit von Workfront erhalten oder auch nicht. Dies ist eine vom Adobe-Administrator kontrollierte Voreinstellung für das Produkt.
+Bestehende Adobe-Benutzer erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.

@@ -1,6 +1,6 @@
 ---
-title: Zugriff für Benutzer gewähren
-description: Als Adobe Workfront-Administrator können Sie eine Zugriffsstufe verwenden, um den Zugriff eines Benutzers auf andere Benutzer in Workfront zu definieren.
+title: Benutzern Zugriff gewähren
+description: Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf andere Benutzer in Workfront zu definieren.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Benutzern Zugriff gewähren
 
-Als Adobe Workfront-Administrator können Sie eine Zugriffsstufe verwenden, um den Zugriff eines Benutzers auf andere Benutzer in Workfront zu definieren, wie in der Übersicht über die Zugriffsstufen [1} erläutert.](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md)
+Als Adobe Workfront-Administrator können Sie eine Zugriffsebene verwenden, um den Zugriff eines Benutzers auf andere Benutzer in Workfront zu definieren, wie in [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md) beschrieben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -28,50 +28,50 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref" data-mc-variable-override="">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Benutzerzugriff konfigurieren
+## Konfigurieren des Benutzerzugriffs
 
-Sie können verwalten, welche Informationen Benutzer für andere Benutzer anzeigen und bearbeiten können, indem Sie eine standardmäßige Zugriffsebene oder eine benutzerdefinierte Zugriffsebene verwenden, die Sie erstellen. Benutzer mit den Standardlizenzen für Plan und Arbeit können die Kontaktinformationen anderer Benutzer anzeigen. Jeder der folgenden Benutzer kann andere Benutzer erstellen und bearbeiten:
+Sie können mithilfe einer standardmäßigen Zugriffsebene oder einer benutzerdefinierten Zugriffsebene, die Sie erstellen, verwalten, welche Informationen Benutzerinnen und Benutzer anzeigen und für andere Benutzende bearbeiten können. Benutzer mit der standardmäßigen Plan- und Arbeitslizenz können die Kontaktinformationen anderer Benutzer anzeigen. Jeder der folgenden Benutzer kann andere Benutzer erstellen und bearbeiten:
 
-* Ein Workfront-Administrator.
+* Einen Workfront-Administrator.
 
-  Weitere Informationen finden Sie unter [Gewähren des vollen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
+  Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
-* Ein Benutzer mit einer standardmäßigen Planungslizenz, der auch Zugriff auf Benutzer hat, wie in diesem Artikel beschrieben.
+* Ein Benutzer mit einer standardmäßigen Plan -Lizenz, der auch Zugriff auf Benutzer hat, wie in diesem Artikel erläutert.
 
-  Benutzer, die nur Benutzern aus ihrem Unternehmen oder dem primären Unternehmen angezeigt werden, haben Zugriff darauf, nur die Benutzer zu bearbeiten, die sie sehen können. Weitere Informationen finden Sie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+  Benutzer, die nur Benutzer aus ihrer Firma oder der primären Firma sehen dürfen, haben Zugriff darauf, nur die Benutzer zu bearbeiten, die sie sehen können. Weitere Informationen finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
-* Ein Benutzer mit einer standardmäßigen Planungslizenz, der auch als Manager eines anderen Benutzers angegeben ist.
+* Ein Benutzer mit einer standardmäßigen Planlizenz, der auch als Manager eines anderen Benutzers angegeben ist.
 
-  Benutzer, denen auf ihrer Zugriffsebene die Option Zugriff auf Benutzer bearbeiten gewährt wird, können Benutzer verwalten, die ihnen Berichte zuweisen. Informationen zum Verwalten eines Benutzers finden Sie unter [Anzeigen des Organigrafts](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
+  Benutzende, denen Bearbeitungszugriff auf Benutzende in ihrer Zugriffsebene gewährt wurde, können Benutzende verwalten, die ihnen Bericht erstatten. Informationen zum Verwalten eines Benutzers finden Sie unter [Anzeigen des Organigramms](../../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md).
 
-* Ein Benutzer mit einer standardmäßigen Planungslizenz, der einen Benutzer erstellt hat, kann den von ihm erstellten Benutzer deaktivieren, löschen oder bearbeiten. Weitere Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+* Ein Benutzer mit einer Standardplanlizenz, der einen Benutzer erstellt hat, kann den von ihm erstellten Benutzer deaktivieren, löschen oder bearbeiten. Informationen zum Erstellen neuer Benutzer finden Sie unter [Benutzer hinzufügen](../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 ## Benutzerzugriff konfigurieren, um Benutzer mithilfe einer benutzerdefinierten Zugriffsebene zu bearbeiten
 
-1. Beginnen Sie mit der Erstellung oder Bearbeitung der Zugriffsebene, wie unter [Benutzerdefinierte Zugriffsebenen erstellen oder ändern](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md) beschrieben.
-1. So ändern Sie die Fähigkeit von Benutzern mit einer Plan- oder Work-Lizenz, die Profile anderer Benutzer anzuzeigen:
+1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+1. So ändern Sie die Möglichkeit von Benutzern mit einer Plan- oder Arbeitslizenz, die Profile anderer Benutzer anzuzeigen:
 
-   1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) auf der Schaltfläche **Anzeigen** rechts neben **Benutzer**.
+   1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** rechts neben **Benutzer**.
 
-   1. Deaktivieren Sie **Kontaktinformationen anzeigen** und klicken Sie dann auf das X, um das Feld **Einstellungen optimieren** zu schließen.
+   1. Deaktivieren Sie **Kontaktinformationen anzeigen** und klicken Sie dann auf das X, um das Feld **Feinabstimmung der Einstellungen** zu schließen.
 
-1. Um die Fähigkeit von Benutzern mit Zugriff auf eine Planungslizenz zu ändern, klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) auf der Schaltfläche **Bearbeiten** rechts von **Benutzern** und wählen Sie dann die Fähigkeiten aus, die Sie gewähren möchten:
+1. Um die Möglichkeit von Benutzern mit einer Planlizenz zu ändern, andere Benutzer zu bearbeiten, klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) auf der Schaltfläche **Bearbeiten** rechts neben **Benutzer** und wählen Sie die Funktionen aus, die Sie gewähren möchten:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -81,31 +81,31 @@ Sie können verwalten, welche Informationen Benutzer für andere Benutzer anzeig
       <td role="rowheader"><strong>Erstellen</strong> </td> 
       <td> <p>Ermöglicht Benutzern das Erstellen von Benutzern.<br>Diese Option ist standardmäßig aktiviert.</p> 
       &lt;!—
-        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Stellen Sie sicher, dass diese Änderung vorgenommen wird, bevor Sie diese beiden Notizen entpacken. Am 29.3.29 erklärt das Req-Dokument, dass dies von den Untersuchungsergebnissen abhängt.</p>
+        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Vergewissern Sie sich, dass diese Änderung vorgenommen wird, bevor Sie die Entwürfe für diese zwei Notizen rückgängig machen. Am 29.3. heißt es im Req Doc, dass dies von den Untersuchungsergebnissen abhängt.</p>
 
        &lt;p>&lt;b>HINWEIS&lt;/b>: Dies ist nicht verfügbar, wenn Ihr Unternehmen in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.&lt;/p>
        —> &lt;/td>
    </tr> 
      <tr> 
       <td role="rowheader"><strong>Löschen</strong> </td> 
-      <td> <p> Ermöglicht Benutzern das Löschen der selbst erstellten Benutzer.<br>Diese Option ist standardmäßig aktiviert.</p> <p><b>HINWEIS</b>: Dies ist nicht verfügbar, wenn Ihr Unternehmen in der Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.</p> </td> 
+      <td> <p> Ermöglicht Benutzern das Löschen der von ihnen selbst erstellten Benutzer.<br>Diese Option ist standardmäßig aktiviert.</p> <p><b>HINWEIS</b>: Dies ist nicht verfügbar, wenn Ihre Organisation in die Adobe Admin Console integriert wurde. Wenden Sie sich an Ihren Netzwerk- oder IT-Administrator, wenn Sie weitere Informationen benötigen.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Benutzer-Admin (alle Benutzer)</strong> </td> 
-      <td> <p>Ermöglicht Benutzern Folgendes für beliebige Benutzer in Workfront:</p> 
+      <td role="rowheader"><strong>Benutzeradmin. (Alle Benutzer)</strong> </td> 
+      <td> <p>Ermöglicht es Benutzenden, für jeden Benutzer in Workfront Folgendes auszuführen:</p> 
        <ul> 
         <li>Benutzer bearbeiten, löschen oder deaktivieren</li> 
-        <li>Als Benutzer anmelden<p><b>HINWEIS</b>: Sie können sich nicht als ein Benutzer anmelden, der ein Systemadministrator ist.</p></li> 
-        <li>Kennwort des Benutzers zurücksetzen</li> 
+        <li>Melden Sie sich als Benutzer an<p><b>HINWEIS</b>: Sie können sich nicht als ein beliebiger Benutzer anmelden, der Systemadministrator ist.</p></li> 
+        <li>Zurücksetzen des Benutzerkennworts</li> 
        </ul> <p>Diese Option ist standardmäßig deaktiviert.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Benutzeradministrator (Gruppenbenutzer)</strong> </td> 
-      <td> <p>Ermöglicht Benutzern Folgendes für jeden Benutzer in einer Gruppe, die sie verwalten: 
+      <td role="rowheader"><strong>Benutzeradmin. (Gruppenbenutzer)</strong> </td> 
+      <td> <p>Ermöglicht Benutzern die Durchführung folgender Aktionen für alle Benutzer in der Gruppe, die sie verwalten: 
         <ul>
          <li><p>Benutzer bearbeiten, löschen oder deaktivieren</p></li>
-         <li>Als Benutzer anmelden</li>
-         <li><p>Kennwort des Benutzers zurücksetzen</p><p><b>HINWEIS</b>: Ein Gruppenadministrator kann sich nicht als Kennwort eines Workfront-Administrators anmelden oder dieses zurücksetzen.</p></li>
+         <li>Melden Sie sich als Benutzer an</li>
+         <li><p>Zurücksetzen des Benutzerkennworts</p><p><b>HINWEIS</b>: Ein Gruppenadministrator kann sich nicht als Administrator anmelden oder das Kennwort eines Workfront-Administrators zurücksetzen.</p></li>
         </ul><p>Diese Option ist standardmäßig deaktiviert.</p></p> </td> 
      </tr> 
     </tbody> 
@@ -113,9 +113,9 @@ Sie können verwalten, welche Informationen Benutzer für andere Benutzer anzeig
 
    >[!TIP]
    >
-   >Wenn Sie Gruppenadministratoren keinen Zugriff auf alle Mitglieder der Gruppen gewähren möchten, die sie verwalten, deaktivieren Sie die beiden oben genannten Benutzeradministratoroptionen. Gruppenadministratoren können weiterhin auf Gruppenmitglieder zugreifen, die sie zu Workfront hinzufügen oder die ihnen in Workfront Bericht erstatten.
+   >Wenn Sie Gruppenadministratoren keinen Zugriff auf alle Mitglieder der Gruppen gewähren möchten, die sie verwalten, deaktivieren Sie beide oben genannten Optionen für Benutzeradministratoren. Gruppenadministratoren können weiterhin auf Gruppenmitglieder zugreifen, die sie zu Workfront hinzufügen oder die ihnen in Workfront Bericht erstatten.
 
-1. (Optional) Um die Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene zu konfigurieren, an der Sie arbeiten, fahren Sie mit einem der unter [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
+1. (Optional) Um Zugriffseinstellungen für andere Objekte und Bereiche in der Zugriffsebene, an der Sie arbeiten, zu konfigurieren, fahren Sie mit einem der in [Zugriff auf Adobe Workfront konfigurieren](../../../administration-and-setup/add-users/configure-and-grant-access/configure-access.md) aufgelisteten Artikel fort, z. B. [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md) und [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 1. Wenn Sie fertig sind, klicken Sie auf **Speichern**.
 
 ## Zugriff auf Benutzer nach Lizenztyp
