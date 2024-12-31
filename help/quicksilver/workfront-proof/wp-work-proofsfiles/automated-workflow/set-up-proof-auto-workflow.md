@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Einrichten eines Testversands mit einem automatisierten Workflow in [!DNL Workfront Proof]
-description: Dadurch werden die Informationen unter Testsendungen in Workfront konfigurieren wiederholt. Konsolidieren Sie hier oder dort. Vielleicht besser hier.
+title: Einrichten eines Korrekturabzugs mit einem automatisierten Workflow in [!DNL Workfront Proof]
+description: Dies wiederholt Informationen, die unter Konfigurieren von Testsendungen in Workfront zu finden sind. Hier oder dort konsolidieren. Vielleicht besser hier.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 605569df-8e63-476d-a0cd-e73802042011
@@ -18,170 +18,170 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Der automatisierte Workflow erleichtert die Verwaltung von Inhaltsüberprüfungen und -genehmigungen, wenn komplexe Überprüfungsprozesse vorliegen oder wenn Sie regelmäßig Inhalte zur Überprüfung an dieselben Personengruppen senden.
+Automatisierter Workflow erleichtert Ihnen die Verwaltung der Inhaltsüberprüfung und -validierung, wenn Sie komplexe Prüfprozesse haben oder wenn Sie Inhalte regelmäßig zur Überprüfung an dieselben Personengruppen senden.
 
-Sie erstellen den Testversand und wechseln dann von der Phase zur Phase bis zur endgültigen Validierung. Die betroffenen Benutzer werden jedes Mal benachrichtigt, wenn sie eine Genehmigung vornehmen müssen.
+Der Korrekturabzug wird erstellt und dann von Schritt zu Schritt bis zur endgültigen Genehmigung verschoben. Die relevanten Benutzer werden jedes Mal benachrichtigt, wenn sie eine Genehmigung erteilen müssen.
 
-![stage_diagramm.png](assets/stages-diagram-350x81.png)
+![stages_diagram.png](assets/stages-diagram-350x81.png)
 
-Sie können einem Testversand beim Hochladen des Dokuments oder nach dem Hochladen des Dokuments einen automatisierten Workflow hinzufügen.
+Sie können einen automatisierten Workflow zu einem Korrekturabzug hinzufügen, wenn Sie das Dokument hochladen oder nachdem es hochgeladen wurde.
 
-## Erstellen eines Testversands mit automatisiertem Workflow
+## Erstellen eines Korrekturabzugs mit einem automatisierten Workflow
 
-1. Erstellen Sie den Testversand.
-1. Klicken Sie im Abschnitt **[!UICONTROL Freigabe]** auf **[!UICONTROL Automatisierten Workflow verwenden]**.
+1. Erstellen Sie den Korrekturabzug.
+1. Klicken Sie im Abschnitt **[!UICONTROL Freigeben]** auf **[!UICONTROL Automatisierten Workflow verwenden]**.
 
-   Sie können diese Option deaktivieren, um zu einem standardmäßigen Workflow zurückzukehren.
+   Sie können diese Option deaktivieren, um zu einem Standard-Workflow zurückzukehren.
 
-1. (Optional) Wenn Sie eine Vorlage für einen automatisierten Workflow verwenden möchten, die Ihr [!DNL Workfront] -Administrator für Sie konfiguriert und freigegeben hat, wählen Sie sie im Dropdownmenü **[!UICONTROL Workflow-Vorlage auswählen]** aus.
+1. (Optional) Wenn Sie eine automatisierte Workflow-Vorlage verwenden möchten, die Ihr [!DNL Workfront] konfiguriert und für Sie freigegeben hat, wählen Sie sie im Dropdown-Menü **[!UICONTROL Workflow-Vorlage]**.
 
    >[!NOTE]
    >
-   >Ihre Fähigkeit, die Vorlage zu ändern, hängt von den Vorlageneinstellungen ab, die vom [!DNL Workfront] -Administrator konfiguriert wurden. Wenn die Möglichkeit zur Änderung der Vorlage deaktiviert ist, kann sie nur vom Inhaber der Vorlage geändert werden.
+   >Welche Möglichkeiten Sie haben, die Vorlage zu ändern, hängt von den Vorlageneinstellungen ab, die vom [!DNL Workfront] konfiguriert wurden. Wenn die Möglichkeit, die Vorlage zu ändern, deaktiviert ist, kann nur der Besitzer der Vorlage sie ändern.
 
-1. Geben Sie die folgenden Informationen an, um den ersten Schritt des automatisierten Workflows zu konfigurieren:
+1. Geben Sie die folgenden Informationen an, um die erste Phase des automatisierten Workflows zu konfigurieren:
 
-   * **[!UICONTROL Name]:** Der Staging-Name wird im Workflow-Diagramm angezeigt und ist in den an die Validierer gesendeten E-Mail-Benachrichtigungen enthalten.
-   * **[!UICONTROL Deadline]:** Die Funktionalität dieses Felds hängt davon ab, welche Option Sie in der Dropdownliste **[!UICONTROL Aus der Dropdownliste]** berechnete Frist auswählen.
+   * **[!UICONTROL Name]:** Der Name des Stadiums wird im Workflow-Diagramm angezeigt und ist in den E-Mail-Benachrichtigungen enthalten, die an Validierungsverantwortliche gesendet werden.
+   * **[!UICONTROL Frist]:** Die Funktionalität dieses Felds unterscheidet sich je nachdem, welche Option Sie in der Dropdown-Liste **[!UICONTROL Frist berechnet]** auswählen.
 
-   * **[!UICONTROL Aus der Testversand-Erstellung]:** Wählen Sie das Stichtag für den Testversand aus.
-   * **[!UICONTROL Von der Staging-Aktivierung]:** Wählen Sie die Anzahl der Geschäftstage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden, um automatisch einen Termin für den Testversand festzulegen.
-   * **[!UICONTROL Phase aktivieren]:** Sie können für jede Phase Ihres Workflows entscheiden, wann sie aktiviert werden soll. Für den ersten Schritt stehen die folgenden Optionen zur Verfügung.
+   * **[!UICONTROL Von der Erstellung des Korrekturabzugs]:** Wählen Sie das Stichtag für den Korrekturabzug aus.
+   * **[!UICONTROL Von Staging-Aktivierung]:** Wählen Sie die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden sollen, um automatisch eine Frist für den Korrekturabzug festzulegen.
+   * **[!UICONTROL Phase aktivieren]:** Sie können für jede Phase Ihres Workflows festlegen, wann sie aktiviert werden soll. Für das erste Stadium stehen die folgenden Optionen zur Verfügung.
 
-      * Erstellen eines Testversands
-      * Zu einem bestimmten Zeitpunkt und Datum
+      * Bei der Erstellung eines Korrekturabzugs
+      * An einem bestimmten Datum und zu einer bestimmten Uhrzeit
       * Manuell\
 
-        Für nachfolgende Phasen stehen zusätzliche Optionen zur Verfügung. Diese Optionen erfordern eine übergeordnete Phase. Sie sind:
+        Für nachfolgende Phasen stehen zusätzliche Optionen zur Verfügung. Diese Optionen erfordern ein übergeordnetes Stadium. Sie sind:
       * Nach Ablauf der vorherigen Frist
-      * Alle Entscheidungen werden mit Änderungen genehmigt oder genehmigt
+      * Alle Entscheidungen werden genehmigt oder mit Änderungen genehmigt
       * Alle Entscheidungen werden genehmigt
       * Alle Entscheidungen werden getroffen
-   * **[!UICONTROL Aus ] berechnete Frist:** Die Option, die Sie in dieser Dropdownliste auswählen, wirkt sich darauf aus, welche Optionen im Feld **[!UICONTROL Frist]** verfügbar sind.
+   * **[!UICONTROL Frist berechnet ab]:** Die Option, die Sie in dieser Dropdown-Liste auswählen, wirkt sich darauf aus, welche Optionen im Feld **[!UICONTROL Frist]** verfügbar sind.
 
-   * **[!UICONTROL Erstellung des Testversands]:** Wählen Sie im Feld **[!UICONTROL Frist]** das Datum für den Testversand aus.
+   * **[!UICONTROL Testversand-Erstellung]:** Wählen Sie im Feld **[!UICONTROL Frist]** das Ablaufdatum für den Testversand aus.
 
-   * **[!UICONTROL Staging-Aktivierung]:** Wählen Sie im Feld **[!UICONTROL Deadline]** die Anzahl der Geschäftstage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden, um automatisch einen Termin für den Testversand festzulegen.
+   * **[!UICONTROL Staging-Aktivierung]:** Wählen Sie im Feld **[!UICONTROL Deadline]** die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden, um automatisch eine Frist für den Korrekturabzug festzulegen.
 
-   * **[!UICONTROL Bühne sperren]:** Wählen Sie aus, wann die Bühne gesperrt werden kann.
-   * **[!UICONTROL Primärer Entscheidungsträger]:** Wählen Sie den Primären Entscheidungsträger auf der Bühne aus. Entscheidungsträger sind erst dann in der Dropdown-Liste verfügbar, wenn Sie Überprüfer zur Bühne hinzufügen.
-   * **[!UICONTROL Nur eine Entscheidung erforderlich]:** Wählen Sie diese Option, damit die Überprüfung abgeschlossen wird, nachdem ein Entscheidungsträger seine Entscheidung getroffen hat.\
+   * **[!UICONTROL Phase sperren]:** Wählen Sie aus, wann die Phase gesperrt werden kann.
+   * **[!UICONTROL Primärer Entscheidungsträger]:** Wählen Sie den Primären Entscheidungsträger auf der Bühne aus. Entscheidungsträger sind in der Dropdown-Liste erst verfügbar, nachdem Sie Reviewer zum Stadium hinzugefügt haben.
+   * **[!UICONTROL Nur eine Entscheidung erforderlich]:** Wählen Sie diese Option, damit die Überprüfung abgeschlossen wird, nachdem einer der Entscheidungsträger seine Entscheidung getroffen hat.\
 
-     Diese Option ist nicht verfügbar, wenn Sie einen Benutzer im Dropdownmenü **[!UICONTROL Primärer Entscheidungsträger]** ausgewählt haben.
+     Diese Option ist nicht verfügbar, wenn Sie im Dropdown-Menü **[!UICONTROL Primärer Entscheidungsträger]** einen Benutzer angegeben haben.
 
-   * **[!UICONTROL Private Bühne]:** Wenn diese Option ausgewählt ist, sind Kommentare und Entscheidungen nicht für Personen sichtbar, die nicht zu dieser Phase hinzugefügt wurden oder keine Supervisoren, Administratoren oder Rechnungsadministratoren im Konto sind
+   * **[!UICONTROL Privater Schritt]:** Wenn diese Option aktiviert ist, sind Kommentare und Entscheidungen für Personen, die diesem Schritt nicht hinzugefügt wurden oder keine Supervisoren, Administratoren oder Abrechnungsadministratoren im Konto sind, nicht sichtbar
 
 
-1. (Optional) Fügen Sie Überprüfer zur Bühne hinzu.
-1. Beachten Sie beim Hinzufügen von Validierungsverantwortlichen Folgendes:
+1. (Optional) Fügen Sie Reviewer zur Phase hinzu.
+1. Beachten Sie beim Hinzufügen von Reviewern Folgendes:
 
-   * Ein Validierer kann einem Testversand nur einmal hinzugefügt werden. (Sie können dieselbe Person nicht zu mehr als einer Testphase hinzufügen.)
-   * Überprüfer, die einer privaten Bühne hinzugefügt werden, können nur die Bühne sehen, der sie auf dem Testversand und den Kommentaren in dieser Phase hinzugefügt wurden.
-   * Wenn ein Benutzer zu einer Phase hinzugefügt wird, erhält dieser Benutzer standardmäßig Zugriff auf den Testversand ab der Erstellung des Testversands.\
+   * Ein Prüfer kann einem Korrekturabzug nur einmal hinzugefügt werden. (Sie können dieselbe Person nicht zu mehr als einem Schritt im Korrekturabzug hinzufügen.)
+   * Reviewer, die zu einer privaten Phase hinzugefügt werden, können nur die Phase sehen, zu der sie zum Korrekturabzug hinzugefügt werden, sowie Kommentare, die in dieser Phase eingegeben wurden.
+   * Standardmäßig gewährt das Hinzufügen eines Benutzers zu einem Schritt diesem Benutzer Zugriff, um den Korrekturabzug ab dem Zeitpunkt anzuzeigen, zu dem der Korrekturabzug erstellt wird.\
 
-     Der Systemadministrator kann das Testsystem so konfigurieren, dass Benutzer nur dann auf den Testversand zugreifen können, wenn der Workflow in die Phase gelangt, in der der Benutzer hinzugefügt wurde. Weitere Informationen finden Sie unter
+     Der Systemadministrator kann das Proofing-System so konfigurieren, dass Benutzer erst dann auf den Korrekturabzug zugreifen können, wenn der Workflow in die Phase eintritt, in der der Benutzer hinzugefügt wurde. Weitere Informationen finden Sie unter
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Neue Phase]** und wiederholen Sie dann Schritt 4 und Schritt 5, um dem automatisierten Workflow mehrere Phasen hinzuzufügen.
-1. Fahren Sie mit der Erstellung des Testversands fort, indem Sie die erforderlichen Informationen in den Abschnitten [!UICONTROL Organisieren] und [!UICONTROL Weitere Einstellungen] auf der Seite [!UICONTROL Neuer Testversand] angeben, wie unter
+1. Fahren Sie mit der Erstellung des Korrekturabzugs fort, indem Sie die erforderlichen Informationen in den Abschnitten  und [!UICONTROL Weitere Einstellungen] auf der Seite [!UICONTROL Neuer Korrekturabzug] angeben, wie in beschrieben
 
 ## Automatisierte Workflow-Diagramme
 
-Beim Einrichten des Workflows für Ihren Testversand wird Ihnen ein Diagramm angezeigt, das erstellt wird. Jede Etappe, die Sie Ihrem Testversand hinzufügen, wird im Diagramm angezeigt, was die Abhängigkeiten zwischen den Phasen deutlich angibt. Private Bühnen sind mit einem Schlüsselsymbol gekennzeichnet.
+Beim Einrichten des Workflows für Ihren Korrekturabzug wird ein Diagramm erstellt. Jedes Stadium, das Sie Ihrem Korrekturabzug hinzufügen, wird im Diagramm angezeigt und zeigt die Abhängigkeiten zwischen den Stadien deutlich an. Private Stadien sind mit einem Schlüsselsymbol gekennzeichnet.
 
-Das Diagramm schwebt, was bedeutet, dass es auch dann sichtbar bleibt, wenn Sie nach unten scrollen.
+Das Diagramm ist unverankert, was bedeutet, dass es auch dann sichtbar bleibt, wenn Sie auf der Seite nach unten scrollen.
 
-Wenn Sie das Diagramm nicht sehen müssen, können Sie es verbergen (1).
+Wenn Sie das Diagramm nicht sehen müssen, können Sie es ausblenden (1).
 
 ![diagram.png](assets/diagram-350x93.png)
 
-## Hinzufügen einer Bühne
+## Phase hinzufügen
 
-Sie können einem Workflow, den Sie erstellen oder ändern, eine zusätzliche Phase hinzufügen.
+Sie können einem Workflow, den Sie erstellen oder ändern, einen zusätzlichen Schritt hinzufügen.
 
-1. Wenn Sie eine Phase zu einem vorhandenen Testversand hinzufügen, gehen Sie zur Seite mit den Testversanddetails, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
-1. Klicken Sie im Abschnitt **[!UICONTROL Workflow]** auf **[!UICONTROL Neue Phase]**.
+1. Wenn Sie einen Schritt zu einem vorhandenen Korrekturabzug hinzufügen, gehen Sie zur Seite mit den Korrekturabzugsdetails, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+1. Klicken Sie **[!UICONTROL Abschnitt]** Workflow“ auf **[!UICONTROL Neues]**.
 
-1. Geben Sie Informationen für die Phase wie in Schritt 4 unter dem Abschnitt [!UICONTROL Erstellen eines Testversands mit einem automatisierten Workflow] in diesem Artikel an.
-1. Klicken Sie auf **[!UICONTROL Phase hinzufügen]** und dann auf **[!UICONTROL Fertig]**.
+1. Geben Sie Informationen für die Phase an, wie in Schritt 4 [!UICONTROL  Abschnitt „Erstellen eines Korrekturabzugs mit einem automatisierten Workflow] in diesem Artikel beschrieben.
+1. Klicken Sie **[!UICONTROL Phase hinzufügen]** und dann auf **[!UICONTROL Fertig]**.
 
-## Löschen einer Phase
+## Löschen eines Stadiums
 
 1. Klicken Sie auf das Papierkorbsymbol oben rechts auf der Bühne (1).\
    Das Symbol wird angezeigt, wenn Sie den Mauszeiger über die Bühne bewegen.\
-   ![Löschen_a_stage.png](assets/deleting-a-stage-350x250.png)
+   ![deleting_a_stage.png](assets/deleting-a-stage-350x250.png)
 
 ## Staging-Einstellungen
 
-* **[!UICONTROL Staging-Name]**: Wird im Workflow-Diagramm angezeigt und ist in den an die Validierer gesendeten E-Mail-Benachrichtigungen enthalten.
-* **[!UICONTROL Phase aktivieren]**: Sie können für jede Phase Ihres Workflows entscheiden, wann sie aktiviert werden soll. Für den ersten Schritt stehen folgende Optionen zur Verfügung:
+* **[!UICONTROL Stufenname]**: Wird im Workflow-Diagramm angezeigt und ist in den E-Mail-Benachrichtigungen enthalten, die an Prüfende gesendet werden.
+* **[!UICONTROL Phase aktivieren]**: Sie können für jede Phase Ihres Workflows festlegen, wann sie aktiviert werden soll. Für das erste Stadium stehen die folgenden Optionen zur Verfügung:
 
-   * Erstellen eines Testversands
-   * Zu einem bestimmten Zeitpunkt und Datum
+   * Bei der Erstellung eines Korrekturabzugs
+   * An einem bestimmten Datum und zu einer bestimmten Uhrzeit
    * Manuell
-   * Für den ersten Schritt stehen nur diese drei Optionen zur Verfügung. Die anderen Optionen werden verfügbar, wenn Sie eine zweite Phase hinzufügen. Sie müssen eine übergeordnete Phase auswählen.
-   * Nach Ablauf der vorherigen Frist (Auswahl einer übergeordneten Phase erforderlich)
-   * Alle Entscheidungen werden genehmigt oder [!UICONTROL mit Änderungen genehmigt] (erfordert die Auswahl einer übergeordneten Phase)
-   * Alle Entscheidungen werden genehmigt (Auswahl einer übergeordneten Phase erforderlich)
-   * Alle Entscheidungen werden getroffen (es muss eine übergeordnete Phase ausgewählt werden)
+   * Für das erste Stadium stehen nur diese drei Optionen zur Verfügung. Die anderen Optionen werden verfügbar, wenn Sie ein zweites Stadium hinzufügen. Sie erfordern, dass Sie ein übergeordnetes Stadium auswählen.
+   * Nach Erreichen der vorherigen Frist (erfordert die Auswahl eines übergeordneten Stadiums)
+   * Alle Entscheidungen werden genehmigt oder [!UICONTROL Mit Änderungen genehmigt] (erfordert die Auswahl eines übergeordneten Schritts)
+   * Alle Entscheidungen sind genehmigt (erfordert die Auswahl eines übergeordneten Schritts)
+   * Alle Entscheidungen werden getroffen (erfordert die Auswahl eines übergeordneten Schritts)
 
-* **[!UICONTROL Deadline]:** Sie können festlegen, wie der Termin in jeder Workflow-Phase berechnet werden soll. Die Optionen sind:
+* **[!UICONTROL Frist]:** Sie können festlegen, wie die Frist in jedem Schritt eines Workflows berechnet werden soll. Die Optionen sind:
 
-   * Von der Erstellung des Testversands: Im Feld [!UICONTROL Deadline] (9) können Sie das Deadline-Datum für den Testversand auswählen.
-   * Von der Staging-Aktivierung: Wählen Sie in der Dropdown-Liste [!UICONTROL Deadline] die Anzahl der Geschäftstage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden, um automatisch einen Termin für den Testversand festzulegen.
+   * Bei der Erstellung des Korrekturabzugs: Im Feld [!UICONTROL Frist] (9) können Sie das Fristdatum für den Korrekturabzug auswählen.
+   * Aus der Staging-Aktivierung[!UICONTROL  Wählen Sie in der Dropdown]Liste „Frist“ die Anzahl der Werktage aus, die zum Staging-Aktivierungsdatum hinzugefügt werden sollen, um automatisch eine Frist für den Korrekturabzug festzulegen.
 
-* **[!UICONTROL Sperren]:** Es gibt eine Reihe von Optionen, die bestimmen, wann eine Bühne gesperrt werden kann. Zu den Optionen gehören:
+* **[!UICONTROL lock]:** Es gibt eine Reihe von Optionen, die bestimmen, wann ein Schritt gesperrt werden kann. Zu den Optionen gehören:
 
    * Manuelle Sperre
    * Nie
    * Wenn die nächste Phase beginnt
-   * Wann alle Entscheidungen getroffen werden
+   * Wenn alle Entscheidungen getroffen werden
 
-**[!UICONTROL Primärer Entscheidungsträger]**: Sie legen den Primären Entscheidungsträger auf der Bühne fest. Die verfügbaren Entscheidungsträger werden erst in der Liste angezeigt, nachdem Sie die Prüfer zur Bühne hinzugefügt haben.
+**[!UICONTROL Primärer Entscheidungsträger]**: Sie bestimmen den Primären Entscheidungsträger auf der Bühne. Die verfügbaren Entscheidungsträger werden erst in der Liste angezeigt, nachdem Sie die Reviewer zur Stage hinzugefügt haben.
 
 >[!NOTE]
 >
->Wenn Sie einen Primären Entscheidungsträger auswählen, ist in dieser Phase nicht mehr nur eine Entscheidungsoption verfügbar.
+>Wenn Sie einen Primären Entscheidungsträger auswählen, ist auf dieser Phase nur eine Option für Entscheidungserfordernisse nicht mehr verfügbar.
 
-* **[!UICONTROL Nur eine Entscheidung erforderlich]**: Sie können diese Option auf einer Bühne aktivieren. Dies bedeutet, dass die Überprüfung abgeschlossen wird, sobald einer der Entscheidungsträger seine Entscheidung trifft.
-* **[!UICONTROL Datenschutz]:** Jede Phase kann privat gemacht werden. Wenn eine Bühne privat ist, sind die Kommentare und Entscheidungen nicht für Personen sichtbar, die nicht zu dieser Phase hinzugefügt wurden oder keine Supervisoren, Administratoren oder Rechnungsadministratoren in dem Konto sind. Weitere Informationen finden Sie unter [Überblick über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md) .
+* **[!UICONTROL Nur eine Entscheidung erforderlich]**: Sie können diese Option in einem Stadium aktivieren. Dies bedeutet, dass die Überprüfung abgeschlossen sein wird, sobald einer der Entscheidungsträger seine Entscheidung trifft.
+* **[!UICONTROL Datenschutz]:** Jede Phase kann als privat festgelegt werden. Wenn ein Schritt privat ist, sind die Kommentare und Entscheidungen für Personen, die diesem Schritt nicht hinzugefügt wurden oder keine Supervisoren, Administratoren oder Abrechnungsadministratoren im Konto sind, nicht sichtbar. Weitere Informationen finden Sie unter [Automatisierter Workflow - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md) .
 
-## Hinzufügen von Validierern zu einer Phase
+## Hinzufügen von Reviewern zu einem Schritt
 
-1. Geben Sie unten in jeder Phase einen Kontaktnamen oder eine E-Mail-Adresse in das Feld ein.
+1. Geben Sie unten in jedem Schritt einen Kontaktnamen oder eine E-Mail-Adresse in das Feld ein.
 1. Klicken Sie auf das grüne Pluszeichen, um sie hinzuzufügen.
-1. Legen Sie die Rolle auf dem Testversand fest.
-1. Setzen Sie den E-Mail-Warnhinweis.
-1. Beim Einrichten der ersten Phase haben Sie auch die Möglichkeit, den Inhaber des Testversands zu ändern.
+1. Legen Sie die Rolle für den Korrekturabzug fest.
+1. E-Mail-Warnhinweis einrichten
+1. Beim Einrichten des ersten Schritts haben Sie auch die Möglichkeit, den Verantwortlichen für den Korrekturabzug zu ändern.
 
    >[!NOTE]
    >
-   >* Ein Validierer kann einem Testversand nur einmal hinzugefügt werden. Dieselbe Person kann nicht zu mehr als einer Testphase hinzugefügt werden.
-   >* Überprüfer, die nicht zu einer privaten Bühne hinzugefügt wurden, können die Bühne des Testversands oder der in dieser Phase abgegebenen Kommentare nicht sehen.
+   >* Ein Prüfer kann einem Korrekturabzug nur einmal hinzugefügt werden. Dieselbe Person kann nicht zu mehr als einem Schritt im Korrekturabzug hinzugefügt werden.
+   >* Prüfer, die nicht zu einer privaten Phase hinzugefügt wurden, können die Phase auf dem Korrekturabzug oder den Kommentaren in dieser Phase nicht sehen.
 
 
-## Konvertieren eines Testversands in einen automatisierten Workflow
+## Konvertieren eines Korrekturabzugs in einen automatisierten Workflow
 
-Sie können einen einfachen Testversand in den automatisierten Workflow konvertieren.
+Sie können einen einfachen Korrekturabzug in einen automatisierten Workflow konvertieren.
 
-1. Klicken Sie auf der Seite [!UICONTROL Testversand-Details] auf **[!UICONTROL In automatisierten Workflow konvertieren]** .
-Nachdem der Testversand in den automatisierten Workflow überarbeitet wurde, sind alle Phasen aktiv, öffentlich und ihre Option [!UICONTROL Phase sperren] ist standardmäßig auf Manuell eingestellt. Alle Phasen verbleiben bei den Benutzern und deren Einstellungen.
+1. Klicken Sie **[!UICONTROL der Seite [!UICONTROL Korrekturabzugsdetails] auf In automatisierten Workflow]**.
+Nachdem der Korrekturabzug in einen automatisierten Workflow überarbeitet wurde, sind alle Phasen aktiv und öffentlich, und ihre Option [!UICONTROL Phase sperren] ist standardmäßig auf Manuell festgelegt. Alle Stadien bleiben bei den Benutzenden und ihren Einstellungen.
 
-   * Die Phase &quot;Aktivieren&quot;ist in jeder Phase auf Die Erstellung eines Testversands eingestellt.
-   * Die von der Option berechnete Frist ist in jeder Phase auf die Erstellung eines Testversands festgelegt.
-   * Wenn nur eine Entscheidungsoption für den Basisnachweis ausgewählt wurde, wird sie in allen Phasen ausgewählt.
-   * Wenn bei einem einfachen Testversand [!UICONTROL Primärer Entscheidungsträger] ausgewählt wurde, werden Bühnen mit diesem Empfänger auf ihn gesetzt und bei allen anderen auf Ohne gesetzt.
-   * Der Staging-Name bleibt derselbe.
+   * Die Phase „Aktivieren“ ist in jedem Schritt auf Bei der Erstellung eines Korrekturabzugs eingestellt.
+   * Die von der Option berechnete Frist wird in jedem Schritt auf die Erstellung von Korrekturabzügen festgelegt.
+   * Wenn für den grundlegenden Korrekturabzug nur eine Entscheidungsoption ausgewählt wurde, ist sie für alle Phasen ausgewählt.
+   * Wenn ein einfacher Korrekturabzug [!UICONTROL Primärer Entscheidungsträger] ausgewählt wurde, werden Etappen mit diesem Empfänger auf ihn festgelegt und alle anderen auf „Keine“ gesetzt.
+   * Der Name des Stadiums bleibt gleich.
 
 ## Hinzufügen einer zusätzlichen Vorlage zu einem vorhandenen automatisierten Workflow
 
-Nachdem ein grundlegender Testversand in den automatisierten Workflow konvertiert wurde, können Sie ihm zusätzliche Vorlage hinzufügen.
+Nachdem ein einfacher Korrekturabzug in einen automatisierten Workflow konvertiert wurde, können Sie ihm zusätzliche Vorlagen hinzufügen.
 
-1. Klicken Sie auf der Seite mit den Testversanddetails im Abschnitt &quot;Workflow&quot;auf **[!UICONTROL Vorlage hinzufügen].**
+1. Klicken Sie auf der Seite mit den Korrekturabzugsdetails im Abschnitt Workflow auf **[!UICONTROL Vorlage hinzufügen].**
 
-   * Die Vorlageneinstellungen bestimmen, was mit einem Testversand durchgeführt werden kann, dem diese Vorlage hinzugefügt wurde. Wenn beispielsweise in der Vorlage die Optionen [!UICONTROL Phase hinzufügen und Personen zu Bühnen hinzufügen] deaktiviert sind, sind Schaltflächen zum Hinzufügen von [!UICONTROL Bühne hinzufügen] und zum Hinzufügen von [!UICONTROL Testsendungen freigeben] nicht sichtbar.
-   * Wenn [!UICONTROL Hinzufügen einer Staging-Option] in der angegebenen Vorlage deaktiviert ist, ist die Schaltfläche [!UICONTROL Vorlage hinzufügen] nach dem Hinzufügen nicht sichtbar.
-   * Wenn eine Person einer Bühne in einer Vorlage für automatisierte Workflows hinzugefügt, aber bereits im Testversand vorhanden ist, entfernt das System diese Person automatisch aus der Bühne, wenn diese Vorlage angewendet wird. Wenn zu dieser Phase niemand anderes hinzugefügt wurde, wird der folgende Fehler angezeigt, da das System keine leere Phase zum Workflow hinzufügen kann.
+   * Vorlageneinstellungen bestimmen, was mit einem Korrekturabzug getan werden kann, dem diese Vorlage hinzugefügt wurde. Wenn in der Vorlage beispielsweise die Optionen [!UICONTROL Phase hinzufügen und Personen zu Phasen hinzufügen] deaktiviert sind, werden die Schaltflächen [!UICONTROL Phase hinzufügen] und [!UICONTROL Korrekturabzug ].
+   * Wenn [!UICONTROL Option „Stadium hinzufügen] in der angegebenen Vorlage deaktiviert ist, ist nach dem Hinzufügen die Schaltfläche [!UICONTROL Vorlage hinzufügen] nicht sichtbar.
+   * Wenn eine Person zu einem Schritt in einer automatisierten Workflow-Vorlage hinzugefügt wird, aber auch bereits im Korrekturabzug vorhanden ist, entfernt das System diese Person automatisch aus dem Schritt, wenn diese Vorlage angewendet wird. Wenn zu diesem Schritt keine weitere Person hinzugefügt wird, wird der folgende Fehler angezeigt, da das System das Hinzufügen einer leeren Phase zum Workflow nicht zulässt.
 
      ![error_when_adding_template.png](assets/error-when-adding-template-350x66.png)

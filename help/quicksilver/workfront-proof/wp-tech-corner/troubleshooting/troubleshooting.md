@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: tech-corner
 title: Fehlerbehebung in [!DNL Workfront Proof]
-description: Erfahren Sie mehr zur Fehlerbehebung in Workfront Proof.
+description: Informationen zur Fehlerbehebung in Workfront Proof.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -20,11 +20,11 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Fehlerbehebung - Beschädigte Schnittstellenschriftart im Testversand-Viewer auf Mac](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
-* [Auswirkungen von Cache und Cookies [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
-* [Geschwindigkeitsprobleme in [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
-* [Fehlerbehebung - Testversand-Viewer [!DNL Workfront Proof] ](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)
+* [Fehlerbehebung - Schriftart für beschädigte Benutzeroberfläche im Proofing Viewer auf Mac](../../../workfront-proof/wp-tech-corner/troubleshooting/corrupted-interface-font-pv-mac.md)
+* [Auswirkungen von Cache und Cookies verstehen [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/how-cache-cookies-affect-pv.md)
+* [Probleme mit der Geschwindigkeit in [!DNL Workfront Proof]](../../../workfront-proof/wp-tech-corner/troubleshooting/speed-issue.md)
+* [Fehlerbehebung -  [!DNL Workfront Proof] -Viewer](../../../workfront-proof/wp-tech-corner/troubleshooting/proofing-viewer.md)

@@ -1,6 +1,6 @@
 ---
 title: Workfront Proof Mobile
-description: Erfahren Sie mehr über Workfront Proof Mobile.
+description: Informationen zu Workfront Proof Mobile.
 hide: true
 hidefromtoc: true
 exl-id: 5f2280d0-8a4d-4daa-b5d9-ce347d2892ed
@@ -11,11 +11,11 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] mobile
+# [!DNL Workfront Proof] Mobile
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

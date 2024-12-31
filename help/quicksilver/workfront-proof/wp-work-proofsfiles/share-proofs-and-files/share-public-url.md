@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Öffentliche URL in  [!DNL Workfront Proof] freigeben
-description: Sie können einen Testversand freigeben, indem Sie dem gewünschten Empfänger die URL Öffentlicher Testversand bereitstellen.
+title: Öffentliche URL freigeben in [!DNL Workfront Proof]
+description: Sie können einen Korrekturabzug freigeben, indem Sie dem gewünschten Empfänger die öffentliche Korrekturabzugs-URL bereitstellen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: b5fceaf9-f812-4368-8a13-d7fadebb7d28
@@ -18,45 +18,45 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie können einen Testversand freigeben, indem Sie dem gewünschten Empfänger die URL Öffentlicher Testversand bereitstellen.
+Sie können einen Korrekturabzug freigeben, indem Sie dem gewünschten Empfänger die öffentliche Korrekturabzugs-URL bereitstellen.
 
-Eine öffentliche URL ist eine URL, die den Testversand öffnet, die Validierer jedoch nicht automatisch anmeldet. Öffentliche URLs können verwendet werden, wenn Informationen über einen Testversand an eine Personengruppe gesendet werden. Wenn sie über die öffentliche URL auf einen Testversand zugreifen, sehen sie ihn mit schreibgeschütztem Zugriff. Informationen zu Zugriffsebenen finden Sie unter [Verwalten von Proof-Rollen in [!DNL Workfront] Testversand](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+Eine öffentliche URL ist eine URL, die den Korrekturabzug öffnet, aber nicht automatisch Reviewer anmeldet. Öffentliche URLs können verwendet werden, wenn Informationen zu einem Korrekturabzug an eine Gruppe von Personen gesendet werden. Wenn der Korrekturabzug über die öffentliche URL aufgerufen wird, wird er schreibgeschützt angezeigt. Weitere Informationen zu Zugriffsebenen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront] Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-Es wird auch eine Option zum Signieren angeboten, sodass Personen, die speziell zur Überprüfung hinzugefügt wurden, sich mit ihrer E-Mail-Adresse anmelden und Kommentare und Entscheidungen zum Testversand treffen können.
+Eine Option zum Signieren ist ebenfalls vorhanden, sodass sich Personen, die speziell zur Überprüfung hinzugefügt wurden, mit ihrer E-Mail-Adresse anmelden und Kommentare und Entscheidungen zum Korrekturabzug abgeben können.
 
-* Sie müssen die öffentliche URL manuell kopieren und in eine E-Mail einfügen und an die entsprechende Person senden.
-* Die Personen, denen Sie die öffentliche URL zuweisen, werden NICHT im Abschnitt &quot;Workflow&quot;der Seite &quot;Testdetails&quot;angezeigt.
+* Sie müssen die öffentliche URL manuell kopieren und in eine E-Mail einfügen und diese an die entsprechende Person senden.
+* Die Personen, denen Sie die öffentliche URL geben, werden NICHT im Abschnitt Workflow der Seite mit den Korrekturabzugsdetails angezeigt.
 
-Wenn Abonnements für den Testversand aktiviert sind, kann sich jeder, der Zugriff auf die Testversand-URL hat, selbst für den Testversand anmelden (also fügen Sie sich selbst zum Überprüfungszyklus mit der Standardrolle hinzu, die vom Besitzer des Testversands festgelegt wurde).
+Wenn Abonnements für den Korrekturabzug aktiviert sind, kann sich jeder, der Zugriff auf die Korrekturabzugs-URL hat, für den Korrekturabzug selbst abonnieren (fügen Sie sich also dem Überprüfungszyklus mit der vom Testversand-Besitzer angegebenen Standardrolle hinzu).
 
-Weitere Informationen finden Sie unter [Abonnieren eines Testversands in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) .
+Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
-So verwenden Sie die öffentliche URL eines Testversands:
+So verwenden Sie die öffentliche URL eines Korrekturabzugs:
 
-1. Wechseln Sie zur Seite &quot;Testversand-Standard&quot;, wie unter [Testversand-Details verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
-1. Öffnen Sie den Abschnitt **[!UICONTROL Mehr Freigabeoptionen]** .
-1. Stellen Sie sicher, dass die **Testversand-URL** aktiviert ist.
+1. Navigieren Sie zur Seite mit den Korrekturabzugsdetails, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+1. Öffnen Sie den Abschnitt **[!UICONTROL Weitere Freigabeoptionen]**.
+1. Stellen Sie sicher, dass **Korrekturabzugs-URL** aktiviert ist.
 1. Kopieren Sie die öffentliche URL in die Zwischenablage.
 1. Fügen Sie die öffentliche URL in eine E-Mail oder ein Chat-Fenster ein und senden Sie sie an Ihren Empfänger
 
-## Zugreifen auf einen Testversand über eine öffentliche URL
+## Zugreifen auf einen Korrekturabzug über eine öffentliche URL
 
-Über die öffentliche URL werden die validierungsverantwortlichen Benutzer beim Öffnen des Testversands nicht identifiziert. Stattdessen wird der Testversand im schreibgeschützten Modus geöffnet.
+Die öffentliche URL identifiziert keine Prüfer, wenn der Korrekturabzug geöffnet wird. Stattdessen wird der Korrekturabzug im schreibgeschützten Modus geöffnet.
 
-Wenn eine Person einen Kommentar hinzufügen möchte, muss sie sich durch Anmeldung identifizieren. Wenn sie bereits validierungsverantwortlich sind, werden sie aufgefordert, ihre Anmeldedaten einzugeben.
+Wenn eine Person einen Kommentar hinzufügen möchte, muss sie sich durch Anmeldung identifizieren. Wenn der Korrekturabzug bereits eine Prüferin bzw. ein Prüfer ist, wird er bzw. sie zur Eingabe seiner/ihrer Anmeldedaten aufgefordert.
 
-Wenn sie nicht bereits validiert wurden, müssen sie sich für den Testversand anmelden.
+Wenn er/sie nicht bereits eine Prüferin bzw. einen Prüfer für den Korrekturabzug ist, muss er/sie sich anmelden.
 
 >[!NOTE]
 >
->Abonnements können deaktiviert werden. In diesem Fall können sie den Testversand nicht abonnieren.
+>Abonnements können deaktiviert werden. In diesem Fall können sie den Korrekturabzug nicht abonnieren.
 
-Weitere Informationen finden Sie unter [Abonnieren eines Testversands in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) .
+Weitere Informationen [ Sie unter „Abonnieren  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md) Korrekturabzugs“.
 
-So greifen Sie über eine öffentliche URL auf den Testversand zu:
+So greifen Sie über eine öffentliche URL auf den Korrekturabzug zu:
 
-* Benutzer öffnen den Testversand mithilfe ihrer Anmeldedaten, die ihre registrierte E-Mail-Adresse und ihr Passwort für [!DNL Workfront Proof] enthalten.
-* Nicht-Benutzer öffnen den Testversand, indem sie eine E-Mail-Adresse und einen Anzeigenamen eingeben.
-* Wählen Sie in beiden Fällen **[!UICONTROL Mich merken]** aus, damit Sie Ihre Details einmal eingeben müssen (für diesen Testversand).
+* Benutzende öffnen den Korrekturabzug mithilfe ihrer Anmeldedaten, zu denen auch die registrierte E-Mail-Adresse und das Passwort für die [!DNL Workfront Proof] gehören.
+* Nicht-Benutzende öffnen den Korrekturabzug, indem sie eine E-Mail-Adresse und einen Anzeigenamen eingeben.
+* Wählen Sie in beiden Fällen **[!UICONTROL Angaben speichern]**, sodass Sie Ihre Daten dieses Mal (für diesen Korrekturabzug) eingeben müssen.

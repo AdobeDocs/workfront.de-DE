@@ -3,8 +3,8 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: basic-features-workfront-proof
-title: Seitenlayout auf der Registerkarte "Ansichten"in Workfront Proof
-description: Sie können das Seitenlayout auf der Registerkarte Ansichten anpassen.
+title: Seitenlayout auf der Registerkarte „Ansichten“ in Workfront Proof
+description: Sie können das Seiten-Layout auf der Registerkarte Ansichten anpassen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 28aff312-1803-44d4-953c-1298e039edbf
@@ -15,42 +15,42 @@ ht-degree: 1%
 
 ---
 
-# Seitenlayout auf der Registerkarte &quot;Ansichten&quot;in [!DNL Workfront Proof]
+# Seiten-Layout auf der Registerkarte „Ansichten“ in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie können das Seitenlayout auf der Registerkarte [!UICONTROL Ansichten] anpassen. Die folgenden Layoutoptionen sind verfügbar:
+Sie können das Seiten-Layout auf der Registerkarte [!UICONTROL Ansichten] anpassen. Die folgenden Layout-Optionen sind verfügbar:
 
 ## Liste
 
-* Zeigt den Testversand- oder Dateinamen sowie die Spalten der Standardansicht an
-* Das Menü [!UICONTROL Testversand-Aktionen] befindet sich rechts in der Zeile (1)
+* Zeigt Korrekturabzug- oder Dateinamen plus Spalten der Standardansicht an
+* Das [!UICONTROL Korrekturabzugsaktionen] befindet sich auf der rechten Seite der Zeile (1)
 
   ![Page_views_-_list_view.png](assets/page-views---list-view-350x164.png)
 
 ## Miniaturansicht-Liste
 
-* Zeigt das Symbol des Testversands/der Datei, den Testversand- oder Dateinamen sowie die Spalten der Standardansicht an
-* Das Menü [!UICONTROL Testversand-Aktionen] befindet sich rechts von der Zeile (1)
+* Zeigt das Korrekturabzugsbild/Dateisymbol, den Korrekturabzug oder Dateinamen sowie die Spalten der Standardansicht an
+* Das [!UICONTROL Korrekturabzugsaktionen] befindet sich auf der rechten Seite der Zeile (1)
 * Beachten Sie, dass dies die Standardansicht ist.
 
   ![Page_views_-_thumbnails_list_view.png](assets/page-views---thumbnails-list-view-350x164.png)
 
 ## Miniaturen
 
-* Zeigt nur das Symbol des Testversands/der Datei und den Testversand-/Dateinamen an
-* Das Menü [!UICONTROL Testversand-Aktionen] befindet sich oben rechts für jeden Testversand (1)
+* Zeigt nur das Korrekturabzugsbild/Dateisymbol und den Korrekturabzugsnamen/Dateinamen an
+* Das [!UICONTROL Korrekturabzugsaktionen]-Menü befindet sich für jeden Korrekturabzug oben rechts (1)
 
   ![Page_views_-_thumbnails_view.png](assets/page-views---thumbnails-view-350x156.png)
 
-## Seitenlayout ändern
+## Seiten-Layout ändern
 
-Um das Seitenlayout auf Ihrem Dashboard oder Ihrer Papierkorbseite zu ändern, wählen Sie die gewünschte Ansicht aus, indem Sie oben auf der Seite auf eine der Ansichtsschaltflächen klicken:
+Um das Seiten-Layout auf Ihrem Dashboard oder Ihrer Papierkorbseite zu ändern, wählen Sie Ihre bevorzugte Ansicht aus, indem Sie auf eine der Ansichtsschaltflächen oben auf der Seite klicken:
 
 ![Page_views_old_menu.png](assets/page-views-old-menu.png)
 
-Um das Seitenlayout für alle anderen Ansichtsseiten in Ihrem Konto zu ändern, erweitern Sie das Dropdown-Menü oben auf der Seite und klicken Sie auf Ihr bevorzugtes Seitenlayout:
+Um das Seiten-Layout für alle anderen Ansichten und Seiten in Ihrem Konto zu ändern, erweitern Sie das Dropdown-Menü oben auf der Seite und klicken Sie auf Ihr bevorzugtes Seiten-Layout:
 
 ![Page_views_new_menu.png](assets/page-views-new-menu.png)

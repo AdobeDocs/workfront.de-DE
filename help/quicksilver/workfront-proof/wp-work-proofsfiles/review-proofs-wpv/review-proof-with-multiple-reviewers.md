@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Testversand gleichzeitig mit mehreren Validierungsverantwortlichen prüfen
-description: Mehrere Validierungsverantwortliche können einen Testversand gleichzeitig überprüfen. Wenn Sie einen Testversand überprüfen, können Sie sehen, wer noch denselben Testversand überprüft.
+title: Gleichzeitiges Überprüfen eines Korrekturabzugs mit mehreren Prüfern
+description: Mehrere Prüfer können einen Korrekturabzug gleichzeitig überprüfen. Wenn Sie einen Korrekturabzug überprüfen, können Sie sehen, wer sonst noch denselben Korrekturabzug prüft.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4f55af53-0ca8-4f50-b539-b93d13655f0c
@@ -14,22 +14,22 @@ ht-degree: 0%
 
 ---
 
-# Testversand gleichzeitig mit mehreren Validierungsverantwortlichen prüfen
+# Gleichzeitiges Überprüfen eines Korrekturabzugs mit mehreren Prüfern
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Mehrere Validierungsverantwortliche können einen Testversand gleichzeitig überprüfen. Wenn Sie einen Testversand überprüfen, können Sie sehen, wer noch denselben Testversand überprüft.
+Mehrere Prüfer können einen Korrekturabzug gleichzeitig überprüfen. Wenn Sie einen Korrekturabzug überprüfen, können Sie sehen, wer sonst noch denselben Korrekturabzug prüft.
 
-Sie können Präsenzindikatoren anzeigen, wenn andere Validierungsverantwortliche denselben Testversand geöffnet haben, unabhängig davon, ob sie dem Testversand Kommentare hinzufügen oder nicht. Wenn der Benutzer Kommentare hinzufügt, werden die Kommentare angezeigt, während Sie den Testversand überprüfen. Sie müssen den Testversand-Viewer nicht aktualisieren, um ihn anzuzeigen.
+Sie können Indikatoren sehen, wenn andere Prüfer denselben Korrekturabzug geöffnet haben, unabhängig davon, ob sie dem Korrekturabzug Kommentare hinzufügen oder nicht. Wenn sie Kommentare hinzufügen, werden die Kommentare angezeigt, während Sie den Korrekturabzug überprüfen. Sie müssen die Korrekturabzugsansicht nicht aktualisieren, um sie anzuzeigen.
 
-1. Zeigen Sie die Präsenzindikatoren in der oberen rechten Ecke des Testversand-Viewers an.
+1. Zeigen Sie die Indikatoren in der oberen rechten Ecke der Proofing Viewer an.
 
-   Wenn Sie [!DNL Workfront Proof] verwenden (nicht die in [!DNL Workfront] integrierte Testversandfunktion), enthalten die Präsenzindikatoren das [!DNL Workfront Proof] -Profilbild des Benutzers oder, falls kein Profilbild vorhanden ist, die erste und letzte Initialisierung, wenn der Benutzer über ein solches Profil verfügt.
+   Wenn Sie [!DNL Workfront Proof] verwenden (nicht die in [!DNL Workfront] integrierte Proofing-Funktion), enthalten Anwesenheitsindikatoren das [!DNL Workfront Proof] Profilbild des Benutzers bzw., wenn kein Profilbild vorhanden ist, das erste und letzte Anfangsbild des Benutzers.
 
-   Profilbilder in [!DNL Workfront] werden nicht im Testversand-Viewer angezeigt.
+   Profilbilder in [!DNL Workfront] werden nicht in der Korrekturabzugsansicht angezeigt.
 
-1. (Optional) Bewegen Sie den Mauszeiger über eine Präsenzanzeige, um den Namen des Benutzers anzuzeigen.
+1. (Optional) Bewegen Sie den Mauszeiger über eine Präsenz-Anzeige, um den Namen des Benutzers anzuzeigen.
 
    ![](assets/proof-presence.png)

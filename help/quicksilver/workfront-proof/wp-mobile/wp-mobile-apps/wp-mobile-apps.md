@@ -1,6 +1,6 @@
 ---
-title: Mobile Apps von Workfront Proof
-description: Erfahren Sie, wie Sie die mobile Workfront Proof-App verwenden.
+title: Workfront Proof Mobile Apps
+description: Erfahren Sie, wie Sie die Mobile App von Workfront Proof verwenden.
 hide: true
 hidefromtoc: true
 exl-id: 8a868212-cf8e-4752-8aa6-ed74f10f5cea
@@ -11,13 +11,13 @@ ht-degree: 0%
 
 ---
 
-# Mobile Apps von Workfront Proof
+# Workfront Proof Mobile Apps
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [[!DNL Workfront Proof] mobile App](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
-* [[!DNL Workfront Proof] mobile App für Tablets](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)
+* [Mobile App [!DNL Workfront Proof]](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-phones.md)
+* [[!DNL Workfront Proof] Mobile App für Tablets](../../../workfront-proof/wp-mobile/wp-mobile-apps/wp-mobile-app-tablet.md)

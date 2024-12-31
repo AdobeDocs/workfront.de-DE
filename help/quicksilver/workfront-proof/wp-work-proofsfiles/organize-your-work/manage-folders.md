@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Verwalten von Ordnern in  [!DNL Workfront Proof]
-description: Alle Ordner werden in der linken Navigationsseitenleiste auf der Registerkarte [!UICONTROL Ordner] zugewiesen. Wenn ein Benutzer aus einem anderen [!DNL Workfront Proof] Konto einen Ordner für Sie freigegeben hat (oder Testsendungen freigibt, die sich in einem Ordner befinden), wird der Ordner auch auf der Registerkarte [!UICONTROL Ordner] aufgelistet.
+title: Verwalten von Ordnern in [!DNL Workfront Proof]
+description: Alle Ihre Ordner werden in der linken Navigationsleiste auf der Registerkarte [!UICONTROL Ordner] zugewiesen. Wenn ein(e) Benutzende(r)  [!DNL Workfront Proof]  einem anderen Konto einen Ordner für Sie freigibt (oder Korrekturabzüge freigibt, die sich in einem Ordner befinden), wird der Ordner auch auf der Registerkarte [!UICONTROL Ordner] aufgeführt.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ddc8d388-d161-4c70-8e7b-16c16b6ac3d7
@@ -18,25 +18,25 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Alle Ordner werden in der linken Navigationsseitenleiste auf der Registerkarte [!UICONTROL Ordner] zugewiesen. Wenn ein Benutzer aus einem anderen [!DNL Workfront Proof] -Konto einen Ordner für Sie freigegeben hat (oder Testsendungen freigibt, die sich in einem Ordner befinden), wird der Ordner auch auf der Registerkarte [!UICONTROL Ordner] aufgelistet.
+Alle Ihre Ordner werden in der linken Navigationsleiste auf der Registerkarte [!UICONTROL Ordner] zugewiesen. Wenn ein(e) Benutzende(r) eines anderen [!DNL Workfront Proof]-Kontos einen Ordner für Sie freigibt (oder Korrekturabzüge freigibt, die sich in einem Ordner befinden), wird der Ordner auch auf der Registerkarte [!UICONTROL Ordner] aufgeführt.
 
-## Verwalten von Ordnern von der Seite [!UICONTROL Kontoordner]
+## Verwalten von Ordnern auf der Seite [!UICONTROL Kontoordner]
 
-Auf der Seite [!UICONTROL Kontoordner] werden alle Ordner in Ihrem Konto angezeigt (einschließlich der Ordner, die von Benutzern aus anderen [!DNL Workfront Proof] -Konten für Sie freigegeben wurden). Außerdem können Sie sie einfach verwalten.
+Auf der ] [!UICONTROL Kontoordner werden alle Ordner in Ihrem Konto angezeigt (einschließlich der Ordner, die von Benutzenden in anderen [!DNL Workfront Proof]-Konten für Sie freigegeben wurden) und können problemlos verwaltet werden.
 
-1. Klicken Sie in der linken Navigationsseitenleiste auf **[!UICONTROL [Ihr Kontoname] Ordner]** .\
-   Auf dieser Seite finden Sie die folgenden Informationen zu jedem Ordner:
+1. Klicken Sie **[!UICONTROL [der linken Navigationsleiste auf ]Ihr Kontoname]** Ordner.\
+   Auf dieser Seite werden für jeden Ordner die folgenden Informationen angezeigt:
 
    * Name
-   * Typ: Öffentlich oder privat
+   * Typ - Öffentlich oder Privat
    * Anzahl der Elemente im Ordner
-   * Eigentümer des Ordners
+   * Besitzer des Ordners
    * Client/Projekt
-   * Erstellungsdatum des Ordners
+   * Datum, an dem der Ordner erstellt wurde
 
-1. Wählen Sie die Ordner, die Sie verwalten möchten, auf eine der folgenden Arten aus:
+1. Wählen Sie die Ordner aus, die Sie auf eine der folgenden Arten verwalten möchten:
 
    * Wählen Sie einen Ordner aus, indem Sie das Kontrollkästchen neben dem Ordner aktivieren.
    * Wählen Sie alle Ordner aus, indem Sie das Kontrollkästchen über der Liste aktivieren.
@@ -45,57 +45,57 @@ Auf der Seite [!UICONTROL Kontoordner] werden alle Ordner in Ihrem Konto angezei
      >
      >Sie können nur Ordner auswählen, für die Sie Bearbeitungsrechte haben.
 
-     Über der Ordnerliste wird eine Symbolleiste angezeigt.
+     Oberhalb der Ordnerliste wird eine Symbolleiste angezeigt.
 
-1. Führen Sie in der Symbolleiste einen der folgenden Schritte aus:
+1. Führen Sie in der Symbolleiste eine der folgenden Aktionen aus:
 
    * Verschieben Sie die Ordner in einen anderen Ordner.
    * Geben Sie die Ordner für andere Benutzer frei.
    * Löschen Sie die Ordner.
-   * Ändern Sie im Menü **[!UICONTROL Mehr]** den Eigentümer des Ordners.
+   * Ändern Sie im Menü **[!UICONTROL Mehr]** den Besitzer des Ordners.
 
-1. Aktivieren Sie das Kontrollkästchen für einen einzelnen Ordner und klicken Sie dann auf das Menü **[!UICONTROL Mehr]** (drei Punkte) rechts, um die folgenden zusätzlichen Optionen anzuzeigen (je nach Zugriffsebene):
+1. Aktivieren Sie das Kontrollkästchen für einen einzelnen Ordner und klicken Sie dann auf das Menü **[!UICONTROL Mehr]** (drei Punkte) rechts, um die folgenden zusätzlichen Optionen anzuzeigen (je nach Ihrer Zugriffsebene):
 
-   * **[!UICONTROL Ordnerdetails anzeigen]**: Zeigt die Seite &quot;Ordnerdetails&quot;für diesen Ordner an.
-   * **[!UICONTROL Neuer Testversand]**: Zeigt die neue Testversand-Seite mit dem Ordnerfeld an, das automatisch mit dem Namen des ausgewählten Ordners gefüllt wird.
+   * **[!UICONTROL Ordnerdetails anzeigen]** Zeigt die Ordnerdetailseite für diesen Ordner an.
+   * **[!UICONTROL Neuer Korrekturabzug]**: Zeigt die neue Korrekturabzugseite an, auf der das Ordnerfeld automatisch mit dem Namen des ausgewählten Ordners ausgefüllt wird.
    * **[!UICONTROL Datei hochladen]**: Zeigt die neue Dateiseite an. Das Ordnerfeld wird automatisch mit dem Namen des ausgewählten Ordners ausgefüllt.
-   * **[!UICONTROL Neuer Unterordner]**: Ermöglicht das Erstellen eines Ordners, der innerhalb des ausgewählten Ordners verschachtelt ist.
-   * **[!UICONTROL Freigabe]**: Ermöglicht das Hinzufügen neuer Personen zum Ordner.
-   * **[!UICONTROL Excel-Zusammenfassung]**: Ermöglicht den Download einer Excel-Zusammenfassung der Testsendungen im Ordner.
+   * **[!UICONTROL Neuer Unterordner]**: Ermöglicht die Erstellung eines Ordners, der im ausgewählten Ordner verschachtelt ist.
+   * **[!UICONTROL Freigeben]**: Hiermit können Sie dem Ordner neue Personen hinzufügen.
+   * **[!UICONTROL Excel-Zusammenfassung]**: Hiermit können Sie eine Excel-Zusammenfassung der Testsendungen im Ordner herunterladen.
    * **[!UICONTROL Löschen]**: Verschiebt den Ordner in den Papierkorb.
 
 >[!NOTE]
 >
->Wenn Sie einen übergeordneten Ordner löschen, werden auch alle Unterordner, Testsendungen und Dateien im Ordner gelöscht.
+>Wenn Sie einen übergeordneten Ordner löschen, werden auch alle Unterordner, Korrekturabzüge und Dateien im Ordner gelöscht.
 
-## Verwalten eines Ordners über die Seite &quot;Ordnerdetails&quot;
+## Verwalten eines Ordners auf der Seite Ordnerdetails
 
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** (drei Punkte) rechts neben einem Ordner und dann auf **[!UICONTROL Ordnerdetails anzeigen]**.\
-   Sie können auch auf den Ordnernamen in der Liste **[!UICONTROL Meine Ordner]** in der linken Seitenleiste klicken, um auf die Seite **[!UICONTROL Ordnerdetails]** zuzugreifen.
+1. Klicken Sie auf **[!UICONTROL Mehr]** (drei Punkte) rechts neben einem Ordner und dann auf **[!UICONTROL Ordnerdetails anzeigen]**.\
+   Sie können auch auf den Ordnernamen in der Liste &quot;**[!UICONTROL Ordner“]** der linken Seitenleiste klicken, um auf die Seite **[!UICONTROL Ordnerdetails]** zuzugreifen.
 
-1. Führen Sie einen der folgenden Schritte aus:
+1. Führen Sie eine der folgenden Aktionen aus:
 
-   * Verschieben Sie den Ordner, der sich unter einem anderen übergeordneten Ordner befinden soll.\
+   * Verschieben Sie den Ordner in einen anderen übergeordneten Ordner.\
 
-     Verschieben Sie den Ordner in die oberste Ebene, indem Sie im Dropdownmenü auf **[!UICONTROL Kein Ordner ausgewählt]** klicken.
+     Verschieben Sie den Ordner in die oberste Ebene, indem **[!UICONTROL Dropdown-Menü auf]** Kein Ordner ausgewählt“ klicken.
 
    * Geben Sie den Ordner für andere Benutzer frei.
    * Erstellen Sie einen neuen Unterordner.
    * Fordern Sie eine Excel-Zusammenfassung der Testsendungen im Ordner an.
-   * Löschen Sie den Ordner.
+   * Löschen Sie den Ordner .
 
-## Umbenennen eines Ordners
+## Ordner umbenennen
 
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** (drei Punkte) rechts neben einem Ordner und dann auf **[!UICONTROL Ordnerdetails anzeigen]**.\
-   Sie können auch auf den Ordnernamen in der Liste **[!UICONTROL Meine Ordner]** in der linken Seitenleiste klicken, um auf die Seite **[!UICONTROL Ordnerdetails]** zuzugreifen.
+1. Klicken Sie auf **[!UICONTROL Mehr]** (drei Punkte) rechts neben einem Ordner und dann auf **[!UICONTROL Ordnerdetails anzeigen]**.\
+   Sie können auch auf den Ordnernamen in der Liste &quot;**[!UICONTROL Ordner“]** der linken Seitenleiste klicken, um auf die Seite **[!UICONTROL Ordnerdetails]** zuzugreifen.
 
 1. Klicken Sie oben auf der Seite auf den Ordnernamen.
-1. Bearbeiten Sie den Namen und klicken Sie dann außerhalb des Felds auf .\
+1. Bearbeiten Sie den Namen und klicken Sie dann außerhalb des Felds.\
    Workfront Proof speichert Ihre Änderungen automatisch.
 
 ## Ändern eines öffentlichen Ordners in einen privaten Ordner
 
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** (drei Punkte) rechts neben einem Ordner und dann auf **[!UICONTROL Ordnerdetails anzeigen]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** (drei Punkte) rechts neben einem Ordner und dann auf **[!UICONTROL Ordnerdetails anzeigen]**.
 
 1. Klicken Sie auf das Ordnersymbol neben dem Ordnernamen.
 
@@ -103,29 +103,29 @@ Auf der Seite [!UICONTROL Kontoordner] werden alle Ordner in Ihrem Konto angezei
 
 Sie können einen Ordner aus den folgenden Speicherorten löschen:
 
-* [Löschen eines Ordners aus der Seite [!UICONTROL Kontoordner]](#deleting-a-folder-from-the-account-folders-page)
-* [Löschen eines Ordners von der Seite [!UICONTROL Ordnerdetails]](#deleting-a-folder-from-the-folder-details-page)
+* [Löschen eines Ordners auf der Seite [!UICONTROL Kontoordner]](#deleting-a-folder-from-the-account-folders-page)
+* [Löschen eines Ordners auf der Seite [!UICONTROL Ordnerdetails]](#deleting-a-folder-from-the-folder-details-page)
 
 >[!NOTE]
 >
->Wenn Sie einen übergeordneten Ordner löschen, werden alle Unterordner, Testsendungen und Dateien im Ordner in den Ordner &quot;[Wiederherstellen&quot;verschoben und der Papierkorb in &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md)&quot;wird leeren.
+>Wenn Sie einen übergeordneten Ordner löschen, werden alle Unterordner, Korrekturabzüge und Dateien im Ordner in den Ordner [Wiederherstellen und Papierkorb leeren [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) verschoben.
 
-### Löschen eines Ordners aus der Seite [!UICONTROL Kontoordner] {#deleting-a-folder-from-the-account-folders-page}
+### Löschen eines Ordners auf der Seite [!UICONTROL Kontoordner] {#deleting-a-folder-from-the-account-folders-page}
 
-1. Klicken Sie in der linken Navigationsseitenleiste auf **(Ihr Kontoname) [!UICONTROL Ordner]** , um auf die Seite [!UICONTROL Kontoordner] zuzugreifen.\
-   Sie können auch auf den Ordnernamen in der Liste **[!UICONTROL Meine Ordner]** in der linken Seitenleiste klicken, um auf die Seite **[!UICONTROL Ordnerdetails]** zuzugreifen.
+1. Klicken Sie in der linken Navigationsleiste auf **[!UICONTROL Ihr Kontoname)]** Ordner“, um auf die Seite [!UICONTROL Kontoordner] zuzugreifen.\
+   Sie können auch auf den Ordnernamen in der Liste &quot;**[!UICONTROL Ordner“]** der linken Seitenleiste klicken, um auf die Seite **[!UICONTROL Ordnerdetails]** zuzugreifen.
 
 1. Aktivieren Sie das Kontrollkästchen für einen oder mehrere Ordner.
-1. Klicken Sie auf das Symbol **[!UICONTROL Löschen]** (Papierkorb).
+1. Klicken Sie auf **[!UICONTROL Symbol]** Löschen“ (Papierkorb).
 
    >[!NOTE]
    >
-   >Gelöschte Elemente verbleiben im Ordner &quot;Papierkorb&quot;, bis der Papierkorb geleert ist (oder der Ordner wiederhergestellt wurde).
+   >Gelöschte Objekte verbleiben im Papierkorb-Ordner, bis der Papierkorb geleert wird (oder der Ordner wiederhergestellt wird).
 
-### Löschen eines Ordners von der Seite &quot;Ordnerdetails&quot; {#deleting-a-folder-from-the-folder-details-page}
+### Löschen eines Ordners auf der Seite Ordnerdetails {#deleting-a-folder-from-the-folder-details-page}
 
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** (drei Punkte) rechts neben einem Ordner und dann auf **[!UICONTROL Ordnerdetails anzeigen]**.\
-   Sie können auch auf den Ordnernamen in der Liste **[!UICONTROL Meine Ordner]** in der linken Seitenleiste klicken, um auf die Seite **[!UICONTROL Ordnerdetails]** zuzugreifen.
+1. Klicken Sie auf **[!UICONTROL Mehr]** (drei Punkte) rechts neben einem Ordner und dann auf **[!UICONTROL Ordnerdetails anzeigen]**.\
+   Sie können auch auf den Ordnernamen in der Liste &quot;**[!UICONTROL Ordner“]** der linken Seitenleiste klicken, um auf die Seite **[!UICONTROL Ordnerdetails]** zuzugreifen.
 
-1. Klicken Sie oben auf der Seite auf das Symbol **[!UICONTROL Löschen]** (Papierkorb).
-1. Klicken Sie auf **[!UICONTROL OK]** , um den Löschvorgang zu bestätigen.
+1. Klicken Sie **[!UICONTROL oben auf]** Seite auf das Symbol „Löschen“ (Papierkorb).
+1. Klicken Sie **[!UICONTROL OK]**, um den Löschvorgang zu bestätigen.

@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
 title: Archivieren in Workfront Proof
-description: Workfront Proof archiviert Testsendungen nach einer Inaktivität von 60 Tagen.
+description: Workfront Proof archiviert Korrekturabzüge nach einem Zeitraum von 60 Tagen Inaktivität.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 66a15edf-8504-471a-a6be-f632760b50ed
@@ -14,68 +14,68 @@ ht-degree: 0%
 
 ---
 
-# Archiv in [!DNL Workfront Proof]
+# Archivieren in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-[!DNL Workfront Proof] archiviert Testsendungen nach einem Zeitraum von 60 Tagen Inaktivität.
+[!DNL Workfront Proof] archiviert Korrekturabzüge nach einem Zeitraum von 60 Tagen Inaktivität.
 
-Wenn Sie über Bearbeitungsrechte verfügen, können Sie einen Testversand jederzeit manuell archivieren. Weitere Informationen zu Bearbeitungsrechten finden Sie unter [Profile für Testberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Wenn Sie Bearbeitungsrechte haben, können Sie einen Korrekturabzug jederzeit manuell archivieren. Weitere Informationen zu Bearbeitungsrechten finden Sie unter [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-Archivierte Testsendungen:
+Archivierte Korrekturabzüge:
 
-* Wird nur in der Ansicht &quot;Archivierte Testsendungen&quot;auf der Seite &quot;Ansichten&quot;angezeigt (siehe &quot;So ermitteln Sie, ob ein Testversand archiviert wurde&quot;unten)
-* Bleiben Sie unbegrenzt in Ihrem Konto (es sei denn, sie werden gelöscht)
-* Die Archivierung kann jederzeit von jedem aufgehoben werden (einschließlich Reviewer, die keine [!DNL Workfront Proof] Benutzer sind)
-* Berücksichtigen Sie Ihre Speichergrenze.
+* Nur in der Ansicht Archivierte Korrekturabzüge auf der Seite „Ansichten“ angezeigt (siehe „So erkennen Sie, ob ein Korrekturabzug archiviert ist“ weiter unten)
+* Unbegrenzt in Ihrem Konto bleiben (es sei denn, sie werden gelöscht)
+* Die Archivierung kann von jedem jederzeit aufgehoben werden (einschließlich von Prüfern, die keine [!DNL Workfront Proof] Benutzer sind)
+* Zählt für Ihr Speicherlimit
 * Automatisch sperren, wenn sie automatisch archiviert werden
-* Kann gesperrt oder entsperrt werden, wenn sie manuell archiviert wird
+* Kann bei der manuellen Archivierung gesperrt oder entsperrt werden
 
-Die Archivierung und die Aufhebung der Archivierung werden im Abschnitt Aktivität des Testversands protokolliert. Weitere Informationen finden Sie unter [Verwalten von Testversanddetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+Die Archivierung und das Aufheben der Archivierung wird im Abschnitt Aktivität des Korrekturabzugs protokolliert. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 >[!NOTE]
 >
 >Dateien und Ordner können nicht archiviert werden.
 
-## Manuelles Archivieren von Testsendungen
+## Korrekturabzüge manuell archivieren
 
-Wenn Sie über Bearbeitungsrechte verfügen, können Sie einen Testversand jederzeit manuell archivieren. Weitere Informationen zu Bearbeitungsrechten finden Sie unter [Profile für Testberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Wenn Sie Bearbeitungsrechte haben, können Sie einen Korrekturabzug jederzeit manuell archivieren. Weitere Informationen zu Bearbeitungsrechten finden Sie unter [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 Es kann bis zu 24 Stunden dauern, bis der Archivierungsprozess abgeschlossen ist.
 
-1. Aktivieren Sie im Dashboard oder in der Listenansicht das Kontrollkästchen für jeden Testversand, den Sie archivieren möchten (weitere Informationen zu Listenansichten finden Sie unter [Elemente auf der Ansichtsseite verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) ).
+1. Aktivieren Sie im Dashboard oder in der Listenansicht das Kontrollkästchen für jeden Korrekturabzug, den Sie archivieren möchten (weitere Informationen zu Listenansichten finden Sie [Elemente auf der  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) verwalten in).
 
-1. Wählen Sie **[!UICONTROL Mehr]** > **[!UICONTROL Archivieren]** aus.\
-   Das Meldungsfeld [!UICONTROL Testsendungen archivieren] wird angezeigt.
+1. Wählen Sie **[!UICONTROL Mehr]** > **[!UICONTROL Archivieren]**.\
+   Das [!UICONTROL Korrekturabzüge archivieren] wird angezeigt.
 
-1. Klicken Sie auf eine Option, um anzugeben, ob der Testversand gesperrt oder entsperrt werden soll, während er archiviert wird.\
-   [!DNL Workfront Proof] archiviert den Testversand mit der von Ihnen angegebenen Sperroption.
+1. Klicken Sie auf eine Option, um anzugeben, ob der Korrekturabzug während der Archivierung gesperrt oder entsperrt werden soll.\
+   [!DNL Workfront Proof] archiviert den Korrekturabzug mit der von Ihnen angegebenen Sperroption.
 
-## Auflisten archivierter Testsendungen
+## Auflisten archivierter Korrekturabzüge
 
-Ein archivierter Testversand wird nur in der Ansicht **[!UICONTROL Archivierte Testsendungen]** angezeigt, wobei das archivierte Symbol rechts neben dem Testversandnamen angezeigt wird.
+Ein archivierter Korrekturabzug wird nur in der Ansicht **[!UICONTROL Archivierte Korrekturabzüge]** mit dem archivierten Symbol rechts neben dem Namen des Korrekturabzugs angezeigt.
 
-So zeigen Sie die Ansicht Archivierte Testsendungen an:
+So zeigen Sie die Ansicht Archivierte Korrekturabzüge an:
 
-1. Klicken Sie auf **[!UICONTROL Ansichten]** und dann auf **[!UICONTROL Alle Elemente]** > **[!UICONTROL archivierte Testsendungen]**.
+1. Klicken Sie **[!UICONTROL Ansichten]** und anschließend auf **[!UICONTROL Alle Elemente]** > **[!UICONTROL Archivierte Korrekturabzüge]**.
 
-   Wenn Sie in dieser Liste auf den Namen eines archivierten Testversands klicken, wird die Seite [!UICONTROL Testversand-Details] angezeigt, auf der oben auf dieser Seite eine Schaltfläche zum Aufheben der Archivierung ]**angezeigt wird.**[!UICONTROL 
+   Wenn Sie auf den Namen eines archivierten Korrekturabzugs in dieser Liste klicken, wird die Seite [!UICONTROL Korrekturabzugsdetails] mit einer Schaltfläche **[!UICONTROL Archivierung aufheben]** oben auf dieser Seite angezeigt.
 
-   Wenn Sie den Abschnitt **[!UICONTROL Aktivität]** auf dieser Seite erweitern, können Sie einen Eintrag anzeigen, der Ihnen mitteilt, wann der Testversand archiviert wurde und wer ihn archiviert hat.\
-   ![Archived_proof_Activity_extended.png](assets/archived-proof-activity-expanded-350x77.png)\
-   Wenn im Abschnitt **[!UICONTROL Aktivität]** kein Name des Benutzers angezeigt wird, der den Testversand archiviert hat, bedeutet dies, dass der Testversand nach 60 Tagen Inaktivität automatisch archiviert wurde.\
-   Um den Inhalt eines archivierten Testversands anzuzeigen, müssen Sie zunächst die Archivierung aufheben.
+   Wenn Sie außerdem den Abschnitt **[!UICONTROL Aktivität]** auf dieser Seite erweitern, können Sie einen Eintrag anzeigen, der Ihnen mitteilt, wann der Korrekturabzug archiviert wurde und wer ihn archiviert hat.\
+   ![archived_proof_activity_extended.png](assets/archived-proof-activity-expanded-350x77.png)\
+   Wenn im Abschnitt **[!UICONTROL Aktivität]** kein Name des Benutzers angezeigt wird, der den Korrekturabzug archiviert hat, bedeutet dies, dass der Korrekturabzug nach 60 Tagen Inaktivität automatisch archiviert wurde.\
+   Um den Inhalt eines archivierten Korrekturabzugs anzuzeigen, müssen Sie zunächst die Archivierung aufheben.
 
-## Archivierung von Testsendungen aufheben
+## Archivierung von Korrekturabzügen aufheben
 
-Jeder kann die Archivierung eines Testversands jederzeit aufheben. Dazu gehören auch Prüfer, die keine [!DNL Workfront Proof] -Benutzer sind.
+Die Archivierung eines Korrekturabzugs kann jederzeit aufgehoben werden. Dazu gehören auch Prüfer, die keine [!DNL Workfront Proof] sind.
 
-So dearchivieren Sie einen Testversand aus der Ansicht Archivierte Testsendungen:
+So heben Sie die Archivierung eines Korrekturabzugs in der Ansicht Archivierte Korrekturabzüge auf:
 
-1. Klicken Sie auf **[!UICONTROL Ansichten]** und dann auf **[!UICONTROL Alle Elemente]** > **[!UICONTROL archivierte Testsendungen]**.
+1. Klicken Sie **[!UICONTROL Ansichten]** und anschließend auf **[!UICONTROL Alle Elemente]** > **[!UICONTROL Archivierte Korrekturabzüge]**.
 
-1. Aktivieren Sie das Kontrollkästchen neben allen Testsendungen, deren Archivierung Sie aufheben möchten.
-1. Klicken Sie auf **[!UICONTROL Mehr]** und dann im angezeigten Menü auf **[!UICONTROL Archivierung aufheben]** .\
-   Oben auf der Seite wird eine Meldung angezeigt, die angibt, dass die Archivierung des Testversands aufgehoben wird.
+1. Aktivieren Sie das Kontrollkästchen neben den Korrekturabzügen, deren Archivierung Sie aufheben möchten.
+1. Klicken Sie **[!UICONTROL Mehr]** und klicken Sie dann ]**angezeigten Menü auf**[!UICONTROL  Archivierung aufheben“.\
+   Oben auf der Seite wird eine Meldung angezeigt, die besagt, dass die Archivierung des Korrekturabzugs aufgehoben wird.

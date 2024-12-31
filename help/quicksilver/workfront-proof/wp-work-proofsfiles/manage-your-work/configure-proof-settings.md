@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Konfigurieren der Testversandeinstellungen in  [!DNL Workfront Proof]
-description: Sie können einen Testversand konfigurieren, den Sie in Testsendungen erstellen oder bearbeiten.
+title: Konfigurieren Sie die Einstellungen für den Korrekturabzug in [!DNL Workfront Proof]
+description: Sie können einen Korrekturabzug konfigurieren, den Sie in Korrekturabzügen erstellen oder bearbeiten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
@@ -14,119 +14,119 @@ ht-degree: 1%
 
 ---
 
-# Konfigurieren der Testversandeinstellungen in [!DNL Workfront Proof]
+# Konfigurieren der Einstellungen für Korrekturabzüge in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie haben folgende Möglichkeiten, einen Testversand zu konfigurieren, den Sie erstellen oder bearbeiten:
-
->[!NOTE]
->
->Sie können diese Einstellungen für alle neuen Testsendungen konfigurieren, die Sie erstellen. Weitere Informationen finden Sie unter .
-
-## Sperren des Testversands, wenn die letzte Entscheidung getroffen wurde
-
-Sie können einen Testversandstatus festlegen, der gesperrt wird, wenn der endgültige Genehmiger seine Entscheidung trifft. Dies ist nützlich, wenn Sie sicherstellen möchten, dass Ihre Prüfer nicht zum Testversand zurückkehren und zusätzliche Kommentare hinzufügen oder ihre Entscheidungen ändern können.
-
-1. Erstellen Sie einen neuen Testversand, wie unter [Testsendungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) generieren beschrieben.\
-   Oder\
-   Öffnen Sie die Seite mit den Testversanddetails für einen vorhandenen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
-
-1. Wählen Sie für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]** die Option **[!UICONTROL Testversand sperren, wenn alle erforderlichen Entscheidungen getroffen werden]**.\
-   Oder\
-   Wählen Sie für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Testversand sperren, wenn alle Entscheidungen getroffen werden]**.
-
-Informationen zu Entscheidungen finden Sie unter [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
-
-## Anmeldung für alle Benutzer erforderlich, die den Testversand überprüfen
-
-Eines der großartigen Dinge an [!DNL Workfront Proof] ist, dass jeder einen Testversand überprüfen kann, dafür braucht man keine eigenen [!DNL Workfront Proof]. Empfänger erhalten eine E-Mail mit einer persönlichen URL, die sie direkt zur Testversand-Seite führt, ohne sich bei [!DNL Workfront Proof] anmelden zu müssen.
-
-Wenn Sie jedoch höhere Sicherheitsstufen für Ihren Überprüfungs- und Genehmigungsprozess benötigen, können Sie die Anmeldung beim Testversand erforderlich machen. Das bedeutet, dass nur [!DNL Workfront Proof] Benutzer zum Testversand hinzugefügt werden können. Und sie müssen ihre E-Mail-Adresse und ihr Passwort eingeben, bevor sie darauf zugreifen können.
+Sie können einen Korrekturabzug, den Sie erstellen oder bearbeiten, auf eine der folgenden Arten konfigurieren:
 
 >[!NOTE]
 >
->* *Damit sich ein Benutzer beim Testversand anmelden kann (wenn die erforderliche Anmeldung aktiviert wurde), muss er zum Testversand hinzugefügt worden sein.*
->* *Wenn die erforderliche Anmeldung aktiviert ist, können Abonnements nicht aktiviert werden.*
+>Sie können diese Einstellungen für alle neuen Korrekturabzüge konfigurieren, die Sie erstellen. Weitere Informationen finden Sie unter .
 
-So müssen Sie sich für alle Benutzer anmelden, die den Testversand überprüfen:
+## Korrekturabzug bei letzter Entscheidung sperren
 
-1. Erstellen Sie einen neuen Testversand, wie unter [Testsendungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) generieren beschrieben.\
+Sie können einen Korrekturabzugsstatus festlegen, der gesperrt wird, wenn die endgültige genehmigende Person ihre Entscheidung trifft. Dies ist nützlich, wenn Sie sicherstellen möchten, dass Ihre Prüfer nicht zum Korrekturabzug zurückkehren und zusätzliche Kommentare hinzufügen oder ihre Entscheidungen ändern können.
+
+1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
    Oder\
-   Öffnen Sie die Seite mit den Testversanddetails für einen vorhandenen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+   Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
-1. Wählen Sie für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]** die Option **[!UICONTROL Anmeldung erforderlich]**.\
+1. Wählen Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Korrekturabzug sperren, wenn alle erforderlichen Entscheidungen getroffen werden]**.\
    Oder\
-   Wählen Sie für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Anmeldung erforderlich]**.
+   Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Korrekturabzug sperren, wenn alle Entscheidungen getroffen werden]** aus.
 
-## Nur eine Entscheidung für den Testversand erforderlich
+Weitere Informationen zu Entscheidungen finden Sie unter [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-Diese Einstellung ist nützlich, wenn Sie nur eine Person aus einer Gruppe, Abteilung oder Firma benötigen, um eine Entscheidung über den Testversand zu treffen.
+## Anmeldung für alle Benutzer verlangen, die den Korrekturabzug überprüfen
 
-Selbst wenn Sie die Rolle &quot;Genehmiger&quot;, &quot;Validierer&quot;und &quot;Genehmiger&quot;mehreren Personen zuweisen, wird der Status des Testversands aktualisiert, sobald eine Person eine Entscheidung über einen Testversand trifft (entsprechend der getroffenen Entscheidung). Weitere Informationen zum Testversandstatus finden Sie unter [Fortschritt und Status eines Testversands anzeigen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
+Eines der großartigen Dinge an [!DNL Workfront Proof] ist, dass jeder einen Korrekturabzug prüfen kann, man braucht dafür keine eigene [!DNL Workfront Proof]. Empfänger erhalten eine E-Mail mit einer persönlichen URL, über die sie direkt zur Seite des Korrekturabzugs gelangen, ohne sich bei [!DNL Workfront Proof] anmelden zu müssen.
 
-1. Erstellen Sie einen neuen Testversand, wie unter [Testsendungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) generieren beschrieben.\
+Wenn Sie jedoch höhere Sicherheitsstufen für Ihren Prüfungs- und Genehmigungsprozess benötigen, können Sie die Option Anmeldung beim Korrekturabzug erforderlich verwenden. Das bedeutet, dass nur [!DNL Workfront Proof] Benutzer zum Korrekturabzug hinzugefügt werden können. Und sie müssen ihre E-Mail-Adresse und ihr Passwort eingeben, bevor sie darauf zugreifen können.
+
+>[!NOTE]
+>
+>* *Damit sich jemand beim Korrekturabzug anmelden kann (wenn „Anmeldung erforderlich“ aktiviert ist), muss er zum Korrekturabzug hinzugefügt worden sein.*
+>* *Wenn „Anmeldung erforderlich“ aktiviert ist, können Abonnements nicht aktiviert werden.*
+
+So fordern Sie die Anmeldung für alle Benutzer an, die den Korrekturabzug überprüfen:
+
+1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
    Oder\
-   Öffnen Sie die Seite mit den Testversanddetails für einen vorhandenen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+   Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
-1. Wählen Sie für einen neuen Testversand unter **[!UICONTROL Workflow]** die Option **[!UICONTROL Nur eine Entscheidung für diese Phase anfordern]** aus.\
+1. Wählen Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Anmeldung erforderlich]** aus.\
    Oder\
-   Wählen Sie für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** **[!UICONTROL Nur eine Entscheidung erforderlich]** aus.
+   Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Anmeldung erforderlich]** aus.
 
-Informationen zu Entscheidungen finden Sie unter [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
+## Nur eine Entscheidung für den Testversand verlangen
 
-## Elektronische Unterschrift von Entscheidungen erforderlich
+Diese Einstellung ist nützlich, wenn Sie nur eine Person aus einer Gruppe, Abteilung oder Firma benötigen, um eine Entscheidung über den Korrekturabzug zu treffen.
 
-Sie können von jedem Validierer, der über den Testversand entscheidet, eine elektronische Signatur verlangen, um seine E-Mail-Adresse und sein Passwort einzugeben. Wenn ein Validierer eine Entscheidungsaufforderung öffnet, in der er aufgefordert wird, seine E-Mail-Adresse und sein Passwort einzugeben und seine Entscheidung zu bestätigen. Weitere Informationen finden Sie unter [Grundlegendes zu elektronischen Signaturen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
+Selbst wenn Sie die Rolle einer genehmigenden Person oder einer prüfenden Person und einer genehmigenden Person mehreren Personen zuweisen, wird der Status des Korrekturabzugs aktualisiert, sobald eine Person eine Entscheidung über einen Korrekturabzug trifft (gemäß der getroffenen Entscheidung). Weitere Informationen zum Korrekturabzugsstatus finden Sie unter [Anzeigen des Fortschritts und Status eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md)
 
-1. Erstellen Sie einen neuen Testversand, wie unter [Testsendungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) generieren beschrieben.\
+1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
    Oder\
-   Öffnen Sie die Seite mit den Testversanddetails für einen vorhandenen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+   Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
-1. Wählen Sie für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]** die Option **[!UICONTROL Erfordert die elektronische Unterzeichnung von Entscheidungen]**.\
+1. Wählen Sie für einen neuen Korrekturabzug unter **[!UICONTROL Workflow]** die Option **[!UICONTROL Nur eine Entscheidung für diesen Schritt erforderlich]** aus.\
    Oder\
-   Wählen Sie für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Elektronische Signierung von Entscheidungen erforderlich]**.
+   Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Nur eine Entscheidung erforderlich]** aus.
 
-Weitere Informationen zu Entscheidungen finden Sie unter [Optionen für Genehmigungsentscheidungen konfigurieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
+Weitere Informationen zu Entscheidungen finden Sie unter [Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht treffen](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md#making-a-decision-on-a-proof).
 
-## Benutzer nicht erlauben, die Originaldatei herunterzuladen
+## Entscheidungen müssen elektronisch signiert werden
 
-Sie können die Validierungsverantwortlichen daran hindern, die Originaldatei herunterzuladen, aus der ein Testversand erstellt wurde.
+Sie können von jedem Prüfer, der über den Korrekturabzug entscheidet, eine elektronische Signatur verlangen, um seine E-Mail-Adresse und sein Passwort anzugeben. Wenn ein Validierungsverantwortlicher eine Entscheidungsaufforderung anzeigt, in der er aufgefordert wird, seine E-Mail-Adresse und sein Passwort einzugeben und seine Entscheidung zu bestätigen. Weitere Informationen finden Sie unter [Grundlagen zu elektronischen Signaturen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/managing-security/electronic-sigs-in-wp.md)
 
-1. Erstellen Sie einen neuen Testversand, wie unter [Testsendungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) generieren beschrieben.\
+1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
    Oder\
-   Öffnen Sie die Seite mit den Testversanddetails für einen vorhandenen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+   Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
-1. Deaktivieren Sie für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]** die Option **[!UICONTROL Originaldatei herunterladen]**.\
+1. Wählen Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Entscheidungen müssen elektronisch signiert werden]** aus.\
    Oder\
-   Wählen Sie für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Download der Originaldatei]**.
+   Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Entscheidungen müssen elektronisch signiert sein]** aus.
 
-## Anderen Benutzern das Abonnieren des Testversands ermöglichen
+Weitere Informationen zu Entscheidungen finden Sie [Konfigurieren von Genehmigungsentscheidungsoptionen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-approval-decision-in-wp.md).
 
-Anmeldung ist eine erweiterte Einstellung, die mit der Proof-URL und dem Mini-Testversand verwendet werden kann.
+## Benutzer daran hindern, die Originaldatei herunterzuladen
 
-Standardmäßig können Personen, die nicht speziell zum Testversand hinzugefügt wurden und die die Testversand-URL oder den Mini-Testversand verwenden, nur den Testversand im schreibgeschützten Modus anzeigen. Personen, die bereits für den Testversand validiert haben, können sich mit ihrer E-Mail-Adresse anmelden. Weitere Informationen finden Sie unter [Verwalten von Proof-Rollen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+Sie können verhindern, dass Prüfer eines Korrekturabzugs die Originaldatei herunterladen, aus der ein Korrekturabzug erstellt wurde.
 
-Durch die Aktivierung des Testversands können Personen, die nicht explizit zum Testversand hinzugefügt wurden, sich für den Testversand anmelden (d. h. sich zum Testversand hinzufügen). Anschließend wird ihnen die Rolle und der E-Mail-Warnhinweis zugewiesen, die Sie in den Abonnementeinstellungen für sie auswählen.
-
-Wenn die Option Anmeldung für einen Testversand aktiviert wurde, werden die folgenden Felder aktiv:
-
-* **[!UICONTROL Validierung der Abonnenten erforderlich]** - Der Abonnent muss auf einen Link in einer E-Mail klicken, um auf einen Testversand zugreifen zu können\
-   Wenn Sie diese Option auswählen, erhält der Abonnent keinen sofortigen Zugriff auf den Testversand, sondern einen Link zum Testversand in einer E-Mail. Die Abonnentenvalidierung soll sicherstellen, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, auf die sie Zugriff hat.
-
-* **[!UICONTROL Standardrolle für neue Abonnenten]** - Dies ist die Standardrolle für den Testversand, die allen Validierern zugewiesen wird, die sich selbst für den Testversand angemeldet haben.
-* **[!UICONTROL Standard-E-Mail-Warnung für neue Abonnenten]** - Dies ist der Standard-E-Mail-Warnhinweis, der allen Validierern zugewiesen wird, die sich selbst für den Testversand angemeldet haben.
-
-Siehe auch [Abonnieren eines Testversands in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
-
-So können andere Benutzer einen Testversand abonnieren:
-
-1. Erstellen Sie einen neuen Testversand, wie unter [Testsendungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) generieren beschrieben.\
+1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
    Oder\
-   Öffnen Sie die Seite mit den Testversanddetails für einen vorhandenen Testversand, wie unter [Testversanddetails verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+   Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
 
-1. Deaktivieren Sie für einen neuen Testversand unter **[!UICONTROL Testversandeinstellungen]** die Option **[!UICONTROL Testversand über öffentliche URL oder Einbettungscode abonnieren]**.\
+1. Deaktivieren Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Originaldatei herunterladen]**.\
    Oder\
-   Wählen Sie für einen vorhandenen Testversand unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Abonnement]**.
+   Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Download der Originaldatei]** aus.
+
+## Anderen Benutzern erlauben, den Korrekturabzug zu abonnieren
+
+Das Abonnement ist eine erweiterte Einstellung, die mit der Korrekturabzugs-URL und dem Mini-Korrekturabzug funktioniert.
+
+Standardmäßig können Personen, die nicht explizit zum Korrekturabzug hinzugefügt wurden und die Korrekturabzugs-URL oder den Mini-Korrekturabzug verwenden, um darauf zuzugreifen, den Korrekturabzug nur im schreibgeschützten Modus anzeigen. Personen, die bereits Prüfer für den Korrekturabzug sind, können sich mit ihrer E-Mail-Adresse anmelden. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+
+Durch die Aktivierung des Abonnements für den Korrekturabzug können Personen, die nicht explizit zum Korrekturabzug hinzugefügt wurden, den Korrekturabzug selbst abonnieren (sich also zum Korrekturabzug hinzufügen). Ihnen werden dann die Rolle und der E-Mail-Warnhinweis zugewiesen, die Sie in den Abonnementeinstellungen für sie auswählen.
+
+Wenn das Abonnement für einen Korrekturabzug aktiviert wurde, werden die folgenden Felder aktiv:
+
+* **[!UICONTROL Abonnentenvalidierung erforderlich]** - Abonnenten müssen auf einen Link in einer E-Mail klicken, um auf einen Korrekturabzug zuzugreifen\
+   Die Auswahl dieser Option bedeutet, dass die abonnierende Person keinen sofortigen Zugriff auf den Korrekturabzug erhält, sondern einen Link zum Korrekturabzug in einer E-Mail erhält. Mit der Abonnentenvalidierung soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, zu der sie Zugriff hat.
+
+* **[!UICONTROL Standardrolle für neue Abonnenten]** - Dies ist die Standardrolle für Korrekturabzüge, die allen Reviewern zugewiesen wird, die den Korrekturabzug selbst abonnieren.
+* **[!UICONTROL Standard-E-Mail-Warnhinweis für neue Abonnenten]** - Dies ist der standardmäßige E-Mail-Warnhinweis, der allen Reviewern zugewiesen wird, die den Testversand selbst abonnieren.
+
+Siehe auch [Abonnieren eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
+
+So lassen Sie es zu, dass andere Benutzer einen Korrekturabzug abonnieren:
+
+1. Erstellen Sie einen neuen Korrekturabzug, wie in [Korrekturabzüge generieren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md) beschrieben.\
+   Oder\
+   Öffnen Sie die Seite mit den Korrekturabzugsdetails für einen vorhandenen Korrekturabzug, wie unter [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md) beschrieben.
+
+1. Deaktivieren Sie für einen neuen Korrekturabzug unter **[!UICONTROL Korrekturabzugseinstellungen]** die Option **[!UICONTROL Korrekturabzug über öffentliche URL oder Einbettungs-Code abonnieren]**.\
+   Oder\
+   Wählen Sie für einen vorhandenen Korrekturabzug unter **[!UICONTROL Einstellungen]** die Option **[!UICONTROL Abonnement]** aus.

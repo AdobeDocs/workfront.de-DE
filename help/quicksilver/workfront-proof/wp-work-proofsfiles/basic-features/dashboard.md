@@ -4,7 +4,7 @@ product-previous: workfront-proof
 product-area: documents;dashboard
 navigation-topic: basic-features-workfront-proof
 title: Das Dashboard in [!DNL Workfront Proof]
-description: Das Dashboard ist die erste Seite, die Sie sehen, wenn Sie sich bei Ihrem [!DNL Workfront Proof] Konto anmelden. Sie fasst die Aktivität in Ihrem [!DNL Workfront Proof] Konto zusammen und bietet schnelle Links zu anderen Abschnitten und Funktionen in [!DNL Workfront Proof].
+description: Das Dashboard ist die erste Seite, die Sie sehen, wenn Sie sich bei Ihrem - [!DNL Workfront Proof]  anmelden. Es fasst die Aktivität in Ihrem - [!DNL Workfront Proof]  zusammen und bietet schnelle Links zu anderen Abschnitten und Funktionen in [!DNL Workfront Proof].
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
@@ -19,22 +19,22 @@ ht-degree: 3%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Das Dashboard ist die erste Seite, die Sie sehen, wenn Sie sich bei Ihrem [!DNL Workfront Proof] -Konto anmelden. Sie fasst die Aktivität in Ihrem [!DNL Workfront Proof]-Konto zusammen und bietet schnelle Links zu anderen Abschnitten und Funktionen in [!DNL Workfront Proof].
+Das Dashboard ist die erste Seite, die Sie sehen, wenn Sie sich bei Ihrem [!DNL Workfront Proof]-Konto anmelden. Es fasst die Aktivitäten in Ihrem [!DNL Workfront Proof]-Konto zusammen und bietet schnelle Links zu anderen Abschnitten und Funktionen in [!DNL Workfront Proof].
 
 Das Dashboard enthält Folgendes:
 
-* Organisationslogo (1)
-* Obere Navigation (2)
+* Logo der Organisation (1)
+* Navigation oben (2)
 * Suche (3)
 
 * Kopfzeilenmenü (4)
-* Neues Menü (5)
+* Menü NEU (5)
 * Seitenleiste (6)
 * Begrüßungsabschnitt (7)
-* Übersicht (8)
-* Kürzlich aufgerufene Artikel (9)
+* Überblick (8)
+* Kürzlich aufgerufene Elemente (9)
 * Letzte Aktivität (10)
 
 >[!NOTE]
@@ -43,21 +43,21 @@ Das Dashboard enthält Folgendes:
 
 ![](assets/dashboard-350x495.png)
 
-Sie können Ihr Konto mit einem Branding versehen, um das Logo, die Farben, benutzerspezifischen Links und mehr Ihrer eigenen Organisation anzuzeigen. Weitere Informationen finden Sie unter [Marke der [!DNL Workfront Proof] Site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).&quot;
+Sie können Ihr Konto mit einem Branding versehen, um das Logo, die Farben, benutzerdefinierte Links und mehr Ihres Unternehmens anzuzeigen. Weitere Informationen finden Sie unter [Marke der  [!DNL Workfront Proof] Site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
-Wenn Sie Ihr Konto nicht mit einer Marke versehen, werden das [!DNL Workfront Proof] -Logo und die Standardfarben angezeigt.
+Wenn Sie Ihr Konto nicht mit einer Marke versehen, werden das [!DNL Workfront Proof] Logo und die Standardfarben angezeigt.
 
-## Menü &quot;Kopfzeile&quot;
+## Kopfzeilenmenü
 
 ![](assets/header-menu-350x150.png)
 
 ### Der Benutzername
 
-Der von Ihnen ausgewählte Benutzername (2) wird hier angezeigt. Sie kann in den persönlichen Einstellungen geändert werden.
+Der ausgewählte Benutzername (2) wird hier angezeigt. Sie kann in den persönlichen Einstellungen geändert werden.
 
 ### Einstellungen
 
-Hier (3) können Sie auf Folgendes zugreifen:
+Hier (3) haben Sie Zugriff auf:
 
 * Persönliche Einstellungen
 * Kontoeinstellungen
@@ -69,28 +69,28 @@ Hier (3) können Sie auf Folgendes zugreifen:
 
 ### Hilfe
 
-Hier (4) können Sie auf Folgendes zugreifen:
+Hier (4) haben Sie Zugriff auf:
 
-* Hilfe-Artikel
+* Hilfeartikel
 * Demofilme
 
 >[!NOTE]
 >
->Mit unseren Select- und Premium-Plänen können Sie die Hilfeoptionen so konfigurieren, dass Ihre Benutzer auf Ihre eigenen Inhalte verweisen. Weitere Informationen finden Sie in den erweiterten Branding-Optionen .
+>Mit unseren Select- und Premium-Plänen können Sie die Hilfeoptionen so konfigurieren, dass Ihre Benutzer auf Ihre eigenen Inhalte verweisen. Weitere Einzelheiten finden Sie in den erweiterten Branding-Optionen.
 
 ### Abmelden
 
-Klicken Sie hier , um sich von Ihrem Konto abzumelden.
+Klicken Sie hier, um sich von Ihrem Konto abzumelden.
 
 ## Das neue Menü
 
-So öffnen Sie das Menü Neu :
+So öffnen Sie das Menü Neu
 
 1. Klicken Sie auf den Dropdown-Pfeil (7).
 
-   Das Menü **[!UICONTROL Neu]** enthält die folgenden Optionen:
+   Das **[!UICONTROL Neu]**-Menü bietet die folgenden Optionen:
 
-   * Neuer Testversand (8)
+   * Neuer Korrekturabzug (8)
    * Datei hochladen (9)
    * Neuer Ordner (10)
    * Neuer Gast (11)
@@ -99,9 +99,9 @@ So öffnen Sie das Menü Neu :
 
 ![](assets/new-proof-350x256.png)
 
-## Dashboard-Menü
+## Das Dashboard-Menü
 
-Das Menü Dashboard enthält die folgenden Menüs:
+Das Dashboard-Menü enthält die folgenden Menüs:
 
 * Tags bearbeiten
 * Verschieben nach
@@ -110,21 +110,21 @@ Das Menü Dashboard enthält die folgenden Menüs:
 
 ## Tags bearbeiten
 
-Im Menü [!UICONTROL Tags bearbeiten] (1) haben Sie folgende Möglichkeiten:
+Das Menü [!UICONTROL Tags bearbeiten] (1) bietet folgende Möglichkeiten:
 
-* Anwenden eines Tags auf ein Element oder Elemente
-* Erstellen neuer Tags
+* Anwenden eines Tags auf ein oder mehrere Elemente
+* Neue Tags erstellen
 * Tags verwalten (2)
 
 ![](assets/edit-tags-350x204.png)
 
 ## Verschieben nach
 
-Mit dieser Funktion können Sie Testsendungen und Dateien in einen Ihrer Ordner verschieben. Gehen Sie dazu folgendermaßen vor:
+Mit dieser Funktion können Sie Korrekturabzüge und Dateien in einen Ihrer Ordner verschieben. Gehen Sie dazu folgendermaßen vor:
 
-1. Markieren Sie das Kästchen für die entsprechenden Elemente.
-1. Klicken Sie auf **[!UICONTROL Verschieben nach]** (3) und wählen Sie den entsprechenden Ordner (4) aus.
-1. Klicken Sie auf **[!UICONTROL Speichern]** (5).
+1. Aktivieren Sie das Kontrollkästchen für die entsprechenden Elemente.
+1. Klicken Sie **[!UICONTROL Verschieben nach]** (3) und wählen Sie den entsprechenden Ordner aus (4).
+1. Klicken Sie **[!UICONTROL Speichern]** (5).
 
    ![](assets/move-to-350x297.png)
 
@@ -132,11 +132,11 @@ Mit dieser Funktion können Sie Testsendungen und Dateien in einen Ihrer Ordner 
 
 Im Menü [!UICONTROL Mehr Aktionen] (6) können Sie die folgenden Aktionen ausführen:
 
-* Sperren (nur Testsendungen)
+* Sperren (nur Korrekturabzüge)
 * Aktivieren
-* Archivieren (nur Testsendungen)
-* Archivierung aufheben (nur Testsendungen)
-* Inhaber ändern
+* Archivieren (nur Korrekturabzüge)
+* Archivierung aufheben (nur Korrekturabzüge)
+* Besitzer ändern
 
 ![](assets/more-actions-350x303.png)
 
@@ -144,11 +144,11 @@ Im Menü [!UICONTROL Mehr Aktionen] (6) können Sie die folgenden Aktionen ausf�
 
 So löschen Sie Elemente:
 
-1. Wählen Sie das Kontrollkästchen links neben den Elementen aus und klicken Sie auf **[!UICONTROL Löschen]** (7).
+1. Aktivieren Sie das Kontrollkästchen links neben den Elementen und klicken Sie auf **[!UICONTROL Löschen]** (7).
 
 ![](assets/delete-350x109.png)
 
-1. Überprüfen Sie im angezeigten Bestätigungsbildschirm die Details und bestätigen Sie sie durch Klicken auf **[!UICONTROL Ja]** (8).
+1. Überprüfen Sie im angezeigten Bestätigungsbildschirm die Details und bestätigen Sie den Vorgang durch Klicken auf **[!UICONTROL Ja]** (8).
 
 ![](assets/deleteing-items-350x237.png)
 
@@ -159,62 +159,62 @@ Die Seitenleiste enthält Links zu den folgenden Seiten:
 * Dashboard (1)
 * Ansichten (2)
 * Workflows (3) (nur Premium-Pläne)
-* Dropzone (4) (Auswahl und Premium-Pläne)
+* Dropzone (4) (Select- und Premium-Pläne)
 * Kontakte (5)
 * Gruppen (6)
 * Aktivität (7)
 * Papierkorb (8)
 * Meine Ordner (9) (Sie können auch über die Seitenleiste auf jeden einzelnen Ordner zugreifen)
-* Ordner anderer Organisationen (10) (wo Sie Elemente finden können, die von anderen Organisationen für Sie freigegeben wurden)
+* Ordner anderer Organisationen (10) (in denen Sie Elemente finden, die andere Organisationen für Sie freigegeben haben)
 * Tags (11)
 
 ![](assets/sidebar-350x426.png)
 
-Die Seitenleiste wird auf der Hilfeseite der Seitenleiste ausführlicher beschrieben.
+Die Seitenleiste wird auf der Hilfeseite der Seitenleiste detaillierter beschrieben.
 
-### Abschnitt [!UICONTROL Willkommen]
+### [!UICONTROL Begrüßungs]-Abschnitt
 
-Der Abschnitt [!UICONTROL Willkommen] enthält die folgenden nützlichen Links:
+Der [!UICONTROL Willkommen]-Abschnitt enthält die folgenden nützlichen Links:
 
 * Sehen Sie sich unsere Demofilme an (1)
 * Hilfeseiten (2)
-* Support-Kontaktdaten (3)
-* Link &quot;Begrüßungsabschnitt nicht mehr anzeigen&quot;(4)
+* Kontaktdaten des Supports (3)
+* Link „Begrüßungsabschnitt nicht mehr anzeigen“ (4)
 
 ![](assets/welcome-350x73.png)
 
 ### Übersicht
 
-In diesem Abschnitt finden Sie die Links zu folgenden Themen:
+In diesem Abschnitt finden Sie die Schnelllinks zu:
 
-* Erstellen eines neuen Testversands Hochladen einer Datei
+* Erstellen eines neuen Korrekturabzugs Hochladen einer Datei
 * Einen neuen Ordner erstellen
 * Neuen Benutzer hinzufügen
 * Passwort ändern
 
-Im Übersichtsabschnitt werden auch vorab gefilterte Informationen angezeigt. Diese sind:
+Im Abschnitt Übersicht werden auch vorgefilterte Informationen angezeigt. Diese sind:
 
-* Zu verwaltende Testsendungen - Gesamtzahl der aktiven Testsendungen, die Ihnen gehören und Ihnen zugewiesen wurden
-* Testsendungen, die auf eine Entscheidung warten - Gesamtzahl der aktiven Testsendungen, für die Sie Entscheidungen treffen müssen
+* Zu verwaltende Korrekturabzüge - Gesamtzahl der aktiven Korrekturabzüge, die Ihnen gehören und an Sie delegiert wurden
+* Korrekturabzüge, die auf eine Entscheidung warten - Gesamtzahl der aktiven Korrekturabzüge, für die Ihre Entscheidungen erforderlich sind
 
   ![](assets/dashboard-overview-350x169.png)
 
-Hier können Sie sofort sehen, wie viele Testsendungen sofortiges Handeln von Ihnen oder Ihren Prüfern erfordern:
+Hier können Sie sofort sehen, wie viele Korrekturabzüge sofortiges Handeln von Ihnen oder Ihren Validierungsverantwortlichen erfordern:
 
 * Summe
-* Pünktlich - Testsendungen, für die keine Frist festgelegt wurde oder die mehr als 24 Stunden vor Ablauf der Frist liegen
-* Risiko - Testsendungen mit einer Frist von weniger als 24 Stunden
-* Verspätet - Testsendungen mit nicht allen abgeschlossenen und verstrichenen Aktionen
+* Termingerecht - Korrekturabzüge ohne Frist oder mit einer Frist von mehr als 24 Stunden
+* Gefährdet - Korrekturabzüge mit der Frist von weniger als 24 Stunden
+* Verspätet - Korrekturabzüge mit nicht allen Aktionen abgeschlossen und Frist überschritten
 
 >[!NOTE]
 >
->Die Werte der Diagramme können angeklickt werden. Sie können einfach zur detaillierten Liste der Elemente wechseln.
+>Die Diagrammwerte sind anklickbar - Sie können einfach zur detaillierten Liste der Elemente gehen.
 
-### Zuletzt aufgerufene Artikel
+### Kürzlich aufgerufene Elemente
 
-Im Abschnitt [!UICONTROL Kürzlich aufgerufene Artikel] werden die Elemente angezeigt, auf die Sie kürzlich zugegriffen haben. Dazu gehören die Elemente, deren Inhaber Sie sind, die Elemente, die Sie gemäß Ihren Profilberechtigungen sehen können, und die Elemente, die für Sie freigegeben wurden. Dieser Abschnitt enthält nur die Elemente, die Sie selbst geöffnet haben (entweder über den [!DNL Workfront Proof]-Viewer oder über die Seite mit Details zum Testversand ).
+Im Abschnitt [!UICONTROL Kürzlich aufgerufene Elemente] werden die Elemente angezeigt, auf die Sie zuletzt zugegriffen haben. Dazu gehören die Elemente, deren Inhaber Sie sind, die Elemente, für die Sie gemäß Ihren Profilberechtigungen Berechtigungen haben, und die Elemente, die für Sie freigegeben wurden. Dieser Abschnitt enthält nur die Elemente, die Sie selbst geöffnet haben (entweder über den [!DNL Workfront Proof]-Viewer oder über die Seite mit den Korrekturabzugsdetails).
 
-Im Abschnitt [!UICONTROL Kürzlich aufgerufene Artikel] finden Sie die folgenden Informationen zu den letzten Testsendungen und Dateien:
+Im Abschnitt [!UICONTROL Kürzlich aufgerufene Elemente] werden die folgenden Informationen zu den letzten Korrekturabzügen und Dateien angezeigt:
 
 * Name
 * Fortschritt
@@ -222,40 +222,40 @@ Im Abschnitt [!UICONTROL Kürzlich aufgerufene Artikel] finden Sie die folgenden
 * Entscheidung
 * Besitzerin bzw. Besitzer
 
-Zusammenfassung (diese Informationen werden standardmäßig ausgeblendet - klicken Sie links neben dem entsprechenden Testversand auf die Schaltfläche zum Erweitern/Reduzieren , um die Testversand-Zusammenfassung zu öffnen)
+Zusammenfassung (diese Informationen werden standardmäßig reduziert - klicken Sie auf die Schaltfläche zum Erweitern/Reduzieren links neben dem entsprechenden Korrekturabzug, um die Korrekturabzugszusammenfassung zu öffnen)
 
-Aktionsmenü
+Menü „Aktionen“
 
-Die verschiedenen für diesen Abschnitt verfügbaren Layoutoptionen finden Sie unter Seitenlayouts .
+Siehe Seiten-Layouts für die verschiedenen Layout-Optionen, die für diesen Abschnitt verfügbar sind.
 
 >[!NOTE]
 >
->Durch Klicken auf den Testversand-Namen im Abschnitt [!UICONTROL Zuletzt aufgerufene Artikel] gelangen Sie direkt zum Testversand im Testversand-Viewer.
+>Wenn Sie im Abschnitt [!UICONTROL Kürzlich aufgerufene Elemente] auf den Korrekturabzugsnamen klicken, gelangen Sie direkt zum Korrekturabzug in der Korrekturabzugsansicht.
 
-So greifen Sie auf die Seite mit Details zum Testversand zu:
+So greifen Sie auf die Seite mit den Korrekturabzugsdetails zu:
 
-1. Klicken Sie auf das Menü **[!UICONTROL Aktionen]** (1) rechts neben dem Testversand-Namen.
-1. Wählen Sie **[!UICONTROL Testversand-Details anzeigen]** (2) aus dem Menü aus.
+1. Klicken Sie auf das **[!UICONTROL Aktionen]** Menü (1) rechts neben dem Namen des Korrekturabzugs.
+1. Wählen **[!UICONTROL Testversanddetails anzeigen]** (2) aus dem Menü aus.
 
 ![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Letzte Aktivität
 
-In diesem Abschnitt finden Sie die folgenden Details zu den letzten Aktivitäten in Ihrem Konto:
+In diesem Abschnitt werden die folgenden Details zu den letzten Aktivitäten in Ihrem Konto angezeigt:
 
-* Datums- und Uhrzeitnachweis/-dateiname
+* Korrekturabzug/Dateiname für Datum und Uhrzeit
 * Aktion
 * Details
 
-Sie können auch zur Detailseite eines Elements navigieren, indem Sie auf das Aktionsmenü des Elements klicken und Details anzeigen auswählen. Weitere Informationen zu Aktivitäten in Ihrem Konto finden Sie im Aktivitäts-Audit-Protokoll.
+Sie können auch zur Detailseite eines Elements gehen, indem Sie auf das Aktionsmenü des Elements klicken und Details anzeigen auswählen. Weitere Informationen zur Aktivität in Ihrem Konto finden Sie im Aktivitäts-Audit-Protokoll.
 
 >[!NOTE]
 >
->Durch Klicken auf den Namen des Testversands im Abschnitt [!UICONTROL Letzte Aktivität] wird der Testversand im Testversand-Viewer geöffnet.
+>Wenn Sie im Abschnitt „Letzte Aktivität“ auf [!UICONTROL  Namen ] Korrekturabzugs klicken, wird der Korrekturabzug in der Korrekturabzugsansicht geöffnet.
 
-Gehen Sie zur Seite mit den Testversanddetails des Testversands:
+So gehen Sie zur Seite mit den Korrekturabzugsdetails für diesen Korrekturabzug:
 
-1. Klicken Sie auf das Menü **[!UICONTROL Aktionen]** (1).
-1. Wählen Sie **[!UICONTROL Testversand-Details anzeigen]** (2) aus dem Dropdown-Menü aus.
+1. Klicken Sie auf das **[!UICONTROL Aktionen]**-Menü (1).
+1. Wählen **[!UICONTROL Testversanddetails anzeigen]** (2) aus dem Dropdown-Menü aus.
 
    ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

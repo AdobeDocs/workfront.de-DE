@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;system-administration;user-management
 navigation-topic: users-workfront-proof
-title: Benutzer mithilfe von [!DNL Workfront Proof] zwischen Konten verschieben
-description: Wenn Sie Administrator sind und mit Ihrem Hauptkonto ein oder mehrere Satellitenkonten verbunden sind, können Sie die Benutzer zwischen diesen Konten verschieben. [!DNL Workfront Proof]
+title: Benutzer zwischen Konten verschieben mit [!DNL Workfront Proof]
+description: Wenn Sie Administrator  [!DNL Workfront Proof]  und mindestens ein Satellitenkonto mit Ihrem Hauptkonto verbunden ist, können Sie die Benutzer zwischen all diesen Konten verschieben.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: a7cf8086-8291-4a27-abd1-afd8217f1fcc
@@ -18,78 +18,78 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Wenn Sie ein [!DNL Workfront] Testversand-Administrator sind und ein oder mehrere Satellitenkonten mit Ihrem Hauptkonto verbunden sind, können Sie die Benutzer zwischen diesen Konten verschieben.
+Wenn Sie Administrator eines [!DNL Workfront]-Korrekturabzugs sind und mit Ihrem Hauptkonto ein oder mehrere Satellitenkonten verbunden sind, können Sie die Benutzer zwischen all diesen Konten verschieben.
 
-## Wechsel zwischen Connected Accounts
+## Benutzer werden zwischen verbundenen Konten verschoben
 
-1. Klicken Sie auf **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
+1. Klicken Sie **[!UICONTROL Einstellungen]** > **[!UICONTROL Kontoeinstellungen]**.
 
-1. Öffnen Sie die Registerkarte **[!UICONTROL Benutzer]** .
-1. Klicken Sie auf das Symbol &quot;**[!UICONTROL Benutzer verschieben]**&quot;(1). ![Move_user2.png](assets/move-user2-350x95.png)
+1. Öffnen Sie die Registerkarte **[!UICONTROL Benutzer]**.
+1. Klicken Sie auf **[!UICONTROL Symbol „Benutzer]**&quot; (1). ![Move_user2.png](assets/move-user2-350x95.png)
 
-1. Bestätigen Sie im sich öffnenden Feld Benutzer verschieben den Benutzer, den Sie verschieben möchten (1).
-1. Wählen Sie in der Liste der verbundenen Konten ein Zielkonto aus (2).
-1. Weisen Sie die Profilberechtigung (3) zu, die dieser Benutzer für das neue Konto haben sollte.
-1. Wählen Sie einen Benutzer (4) aus, der Eigentümer der nicht verschobenen Elemente sein soll.
+1. Bestätigen Sie im angezeigten Feld Benutzer verschieben den Benutzer, den Sie verschieben möchten (1).
+1. Wählen Sie ein Zielkonto aus der Liste Verbundene Konten (2).
+1. Weisen Sie die Profilberechtigung (3) zu, die dieser Benutzer für das neue Konto haben soll.
+1. Wählen Sie einen Benutzer (4) aus, der für die Elemente, die nicht verschoben werden sollen, verantwortlich sein soll.
 Dazu gehören die Elemente, die Sie im alten Konto belassen möchten, und die Elemente, die nicht verschoben werden können (siehe [Elemente, die nicht verschoben werden können](https://support.workfront.com/knowledge/articles/115004087708/en-us?brand_id=662728&amp;return_to=%2Fhc%2Fen-us%2Farticles%2F115004087708#Items-that-can&#39;t-be-moved) unten).
 
-1. Aktivieren Sie die Kontrollkästchen, wenn Sie die Testsendungen (5) und Dateien (6) zusammen mit dem Benutzer verschieben möchten.
-1. Erstellen Sie einen Namen für den Ordner (7), in dem alle verschobenen Elemente im neuen Konto abgelegt werden.
-1. Klicken Sie auf **[!UICONTROL Benutzer verschieben]** (8) , um den Prozess zu starten.
+1. Aktivieren Sie die Kontrollkästchen, wenn Sie die Korrekturabzüge (5) und Dateien (6) zusammen mit dem/der Benutzenden verschieben möchten.
+1. Erstellen Sie einen Namen für den Ordner (7), in dem alle verschobenen Elemente in dem neuen Konto abgelegt werden.
+1. Klicken Sie **[!UICONTROL Benutzer verschieben]** (8), um den Vorgang zu starten.
    ![Moving_users_pop-up.png](assets/moving-users-pop-up-350x380.png)
 
-Wenn Sie den Benutzer ohne Testsendungen und Dateien verschieben, wird diese Aktion sofort durchgeführt. Wenn Sie den Benutzer zusammen mit seinen Testsendungen und Dateien verschieben, wird das Profil des Benutzers sofort neu zugewiesen. Die Testsendungen und Dateien werden jedoch allmählich im Zielkonto angezeigt, da für diesen Vorgang Zeit zum Übertragen der Daten benötigt wird.
+Wenn Sie den/die Benutzende(n) ohne seine/ihre Korrekturabzüge und Dateien verschieben möchten, wird diese Aktion sofort ausgeführt. Wenn Sie den Benutzer zusammen mit seinen Korrekturabzügen und Dateien verschieben, wird das Benutzerprofil sofort neu zugewiesen, aber die Korrekturabzüge und Dateien werden nach und nach im Zielkonto angezeigt, da dieser Vorgang Zeit zur Übertragung der Daten erfordert.
 
-Je nach der Anzahl der Dateien und Testsendungen kann das Verschieben von Dateien etwas von einigen Minuten bis zu einigen Stunden dauern.
+Je nach Anzahl der Dateien und Korrekturabzüge kann das Verschieben von Prozessen einige Minuten bis zu ein paar Stunden dauern.
 
 >[!NOTE]
 >
->Wenn Sie vermuten, dass der Prozess länger dauert als erwartet oder die verschobenen Testsendungen und/oder Dateien nicht auf dem neuen Konto erscheinen, wenden Sie sich bitte an unser Support-Team.
+>Wenn Sie vermuten, dass der Vorgang länger als erwartet dauert oder die verschobenen Korrekturabzüge und/oder Dateien nicht im neuen Konto angezeigt werden, wenden Sie sich bitte an unser Support-Team.
 
 ## Elemente, die nicht verschoben werden können
 
-### Ordner, die vom Benutzer &quot;Verschieben&quot;erstellt oder gehört wurden
+### Ordner, die vom verschobenen Benutzer erstellt wurden oder ihm gehören
 
-Aufgrund der verschiedenen Berechtigungen, die auf Ordner und deren Inhalt angewendet werden (z. B. sie können für andere Benutzer und Konten freigegeben werden), können wir keine Ordnerstrukturen für den Benutzer verschieben.
+Aufgrund der Art verschiedener Berechtigungen, die auf Ordner und deren Inhalte angewendet werden (z. B. können diese mit anderen Benutzern und Konten geteilt werden), können wir keine Ordnerstrukturen mit dem Benutzer verschieben.
 
-Wenn ein Ordner dem verschobenen Benutzer gehört, wird das Eigentum an den ausgewählten Benutzer (4) im Popup &quot;Benutzer verschieben&quot;übertragen.
-
->[!NOTE]
->
->Wenn ein Ordner vom verschobenen Benutzer erstellt wurde, bleibt er dessen Ersteller - nur das Eigentum wird übertragen. Der Ordner bleibt für den verschobenen Benutzer in der Seitenleiste seines neuen Kontos sichtbar. Der verschobene Benutzer hat weiterhin &quot;schreibgeschützt&quot;Zugriff auf die Elemente, die in diesen Ordnern platziert werden.
-
-Wenn Sie nicht möchten, dass der verschobene Benutzer diese Berechtigungen behält oder der verschobene Benutzer seine alten Ordner nicht im alten&amp;-Konto sehen möchte, besteht die Lösung hier darin, die Ordner wie folgt zu löschen:
-
-1. Erstellen Sie einen neuen Ordner für das alte Konto.
-1. Verschieben Sie alle Elemente aus den Ordnern des verschobenen Benutzers in den neu erstellten Ordner.
-1. Löschen Sie alle vom verschobenen Benutzer verbleibenden Ordner.
-
-### Versionssätze mit verschiedenen Eigentümern
-
-Wenn ein Testversand einige Versionen enthält und jeder von ihnen einem anderen Benutzer gehört, werden die Versionen des verschobenen Benutzers nicht verschoben. Das Eigentum an diesen Versionen wird gemäß Ihrer Wahl (4) im Feld Benutzer verschieben auf einen anderen Benutzer übertragen. (Weitere Informationen finden Sie unter .)
+Wenn ein Ordner dem verschobenen Benutzer gehört, wird die Eigentümerschaft an den ausgewählten Benutzer (4) im Pop-up „Benutzer verschieben“ übertragen.
 
 >[!NOTE]
 >
->Ein verschobener Benutzer muss Inhaber aller Testversandversionen im Satz sein, damit der Testversand weitergeführt werden kann.
+>Wenn ein Ordner vom verschobenen Benutzer erstellt wurde, bleibt er dessen Ersteller - nur das Eigentum wird übertragen. Der Ordner bleibt für verschobene Benutzende in der Seitenleiste ihres neuen Kontos sichtbar. Der verschobene Benutzer hat weiterhin schreibgeschützten Zugriff auf die Elemente, die in diesen Ordnern platziert sind.
+
+Wenn Sie nicht möchten, dass der verschobene Benutzer diese Berechtigungen behält, oder der verschobene Benutzer seine alten Ordner im alten Konto und nicht sehen möchte, besteht die Lösung hier darin, die Ordner wie folgt zu löschen:
+
+1. Erstellen Sie einen neuen Ordner mit dem alten Konto.
+1. Verschieben Sie alle Elemente aus den Ordnern der verschobenen Person in den neu erstellten Ordner.
+1. Löschen Sie alle Ordner, die von dem verschobenen Benutzer übrig geblieben sind.
+
+### Sets von Versionen mit verschiedenen Inhabern
+
+Wenn ein Korrekturabzug einige Versionen hat und jede Version einem anderen Benutzer gehört, werden die Versionen, die dem verschobenen Benutzer gehören, nicht mitverschoben. Das Eigentum an diesen Versionen wird gemäß Ihrer Wahl (4) im Feld Benutzer verschieben auf einen anderen Benutzer übertragen. (Weitere Informationen finden Sie unter .)
+
+>[!NOTE]
+>
+>Ein verschobener Benutzer muss Eigentümer aller Korrekturabzugsversionen im Satz sein, damit der Korrekturabzug verschoben werden kann.
 
 ### Gruppen
 
-Gruppen müssen vom verschobenen Benutzer in seinem neuen Konto neu erstellt werden. Weitere Informationen finden Sie unter [Erstellen von Testversandgruppen mit  [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
+Gruppen müssen vom verschobenen Benutzer in seinem neuen Konto neu erstellt werden. Weitere Informationen finden Sie unter [Erstellen von Proofing-Gruppen mit [!DNL Workfront Proof]](../../../workfront-proof/wp-mnguserscontacts/groups/create-proofing-groups.md).
 
 ### Benutzerdefinierte Ansichten
 
-Persönliche benutzerdefinierte Ansichten müssen vom verschobenen Benutzer in seinem neuen Konto neu erstellt werden. Weitere Informationen finden Sie unter [Erstellen und Verwalten benutzerdefinierter Ansichten in [!DNL Workfront Proof] Testversand](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
+Persönliche benutzerdefinierte Ansichten müssen vom verschobenen Benutzer in seinem neuen Konto neu erstellt werden. Weitere Informationen finden Sie unter [Erstellen und Verwalten von benutzerdefinierten Ansichten in [!DNL Workfront Proof] Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/create-and-manage-custom-views.md).
 
 ### Benutzerdefinierte Felder
 
-Benutzerdefinierte Felder können nicht verschoben werden und Daten aus benutzerdefinierten Feldern gehen verloren. Generieren Sie daher vor dem Verschieben Berichte zu den erforderlichen Elementen.
+Benutzerdefinierte Felder können nicht verschoben werden und Daten aus benutzerdefinierten Feldern gehen verloren. Stellen Sie daher sicher, dass Sie vor dem Verschieben Berichte zu den erforderlichen Elementen erstellen.
 
 ### Automatisierte Workflow-Vorlagen
 
-Automatisierte Workflow-Vorlagen müssen für das neue Konto neu erstellt werden, die Phasen werden jedoch bei den verschobenen Testsendungen beibehalten, die mit den Vorlagen erstellt wurden.
+Automatisierte Workflow-Vorlagen müssen im neuen Konto neu erstellt werden, aber die Stadien bleiben bei den verschobenen Korrekturabzügen erhalten, die mit den Vorlagen erstellt wurden.
 
-### Aktionen zu Kommentaren
+### Aktionen bei Kommentaren
 
-Die Maßnahmen zu Kommentaren werden zwar weiterhin bei den Testsendungen durchgeführt, sie können jedoch nicht mehr danach gefiltert werden. Eine Lösung bestünde darin, übereinstimmende Aktionen für das neue Konto zu erstellen und die Kommentare bei Bedarf erneut mit den neuen Aktionen zu kennzeichnen.
+Aktionen zu Kommentaren bleiben auf den Korrekturabzügen, aber es ist nicht mehr möglich, nach ihnen zu filtern. Die Lösung bestünde darin, übereinstimmende Aktionen für das neue Konto zu erstellen und die Kommentare bei Bedarf mit den neuen Aktionen umzukennzeichnen.

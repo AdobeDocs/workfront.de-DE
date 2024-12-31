@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Testversanddetails verwalten in [!DNL Workfront Proof]
-description: Auf der Seite Testversand-Details können Sie einen vorhandenen Testversand verwalten. Sie können beispielsweise neue Validierungsverantwortliche hinzufügen, die Frist ändern, die Einstellungen, die Sie ursprünglich für den Testversand festgelegt haben, ändern und überprüfen, welche Aktivität bei diesem Testversand aufgetreten ist.
+title: Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]
+description: Auf der Seite mit den Korrekturabzugsdetails können Sie einen vorhandenen Korrekturabzug verwalten. Sie können beispielsweise neue Prüfer hinzufügen, die Frist ändern, die ursprünglich für den Korrekturabzug festgelegten Einstellungen ändern und überprüfen, welche Aktivität in diesem Korrekturabzug stattgefunden hat.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
@@ -14,100 +14,100 @@ ht-degree: 0%
 
 ---
 
-# Details des Testversands in [!DNL Workfront Proof] verwalten
+# Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Auf der Seite [!UICONTROL Testversand-Details] können Sie einen vorhandenen Testversand verwalten. Sie können beispielsweise neue Validierungsverantwortliche hinzufügen, die Frist ändern, die Einstellungen, die Sie ursprünglich für den Testversand festgelegt haben, ändern und überprüfen, welche Aktivität bei diesem Testversand aufgetreten ist.
+Auf [!UICONTROL  Seite „Korrekturabzugsdetails] können Sie einen vorhandenen Korrekturabzug verwalten. Sie können beispielsweise neue Prüfer hinzufügen, die Frist ändern, die ursprünglich für den Korrekturabzug festgelegten Einstellungen ändern und überprüfen, welche Aktivität in diesem Korrekturabzug stattgefunden hat.
 
-Die Seite [!UICONTROL Testversand-Details] ist besonders für Projektverantwortliche nützlich, die alle Änderungen bei einem Testversand verfolgen müssen. Auf dieser Seite finden sie alles, was sie über einen Testversand wissen müssen, in nur wenigen Klicks.
+Die Seite [!UICONTROL Korrekturabzugsdetails] ist besonders nützlich für Personen, die für Projekte verantwortlich sind und alle Änderungen in einem Korrekturabzug nachverfolgen müssen. Auf dieser Seite finden sie alles, was sie über einen Korrekturabzug wissen müssen, mit nur wenigen Klicks.
 
-Informationen zum Verwalten von automatisierten Workflow-Testsendungen finden Sie unter [Verwalten eines mit einem automatisierten Workflow konfigurierten Testversands in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md).
+Informationen zum Verwalten automatisierter Workflow-Korrekturabzüge finden Sie unter [Verwalten eines Korrekturabzugs, der mit einem automatisierten Workflow in konfiguriert wurde [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/automated-workflow/manage-proof-configured-auto-workflow.md).
 
-## Öffnen der Seite mit den Testdetails über eine Ansichtsliste
+## Öffnen der Seite mit den Korrekturabzugsdetails über eine Ansichtsliste
 
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** (drei Punkte) rechts neben dem Testversand und dann auf **[!UICONTROL Testversanddetails anzeigen]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** (drei Punkte) rechts neben dem Korrekturabzug und dann auf **[!UICONTROL Details des Korrekturabzugs anzeigen]**.
 
-## Öffnen der Seite mit den Testversanddetails über den Testversand-Viewer
+## Öffnen der Seite „Korrekturabzugsdetails“ über die Korrekturabzugsanzeige
 
-1. Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie auf das Symbol **[!UICONTROL Menü]** oben links.\
+1. Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie auf **[!UICONTROL Menü]**-Symbol in der linken oberen Ecke.\
    ![](assets/menu-icon-in-proofing-viewer-350x188.png)
 
-1. Bewegen Sie den Mauszeiger über die linke Symbolleiste und klicken Sie dann auf **[!UICONTROL Details des Testversands]**.\
+1. Bewegen Sie den Mauszeiger über die linke Symbolleiste und klicken Sie dann auf **[!UICONTROL Details des Korrekturabzugs]**.\
    ![](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >
-   >Nur [!DNL Workfront Proof] -Benutzer haben Zugriff auf die Seite mit Testversanddetails vom Proof-Viewer. Weitere Informationen finden Sie unter [Benutzer](https://support.workfront.com/hc/en-us/sections/115000911887-Users) .
+   >Nur [!DNL Workfront Proof] Benutzer haben über die Korrekturabzugsansicht Zugriff auf die Seite mit den Korrekturabzugsdetails. Weitere Informationen finden [ unter ](https://support.workfront.com/hc/en-us/sections/115000911887-Users)Benutzer“.
 
-   Weitere Informationen finden Sie unter [Bearbeiten von Testsendungen und Validierungsverantwortlichen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md) und [Konfigurieren der Testversandeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+   Siehe auch [Bearbeiten von Korrekturabzugphasen und ](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md) und [Konfigurieren der Korrekturabzugseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 
-## Informationen und Optionen auf der Seite mit den Testdetails
+## Informationen und Optionen auf der Seite Korrekturabzugsdetails
 
-Die folgenden Informationen finden Sie auf der Seite Testversand-Details . Wenn Sie über Bearbeitungsrechte für den Testversand verfügen, können Sie einige dieser Details bearbeiten. [!DNL Workfront Proof] speichert Ihre Änderungen automatisch. Weitere Informationen finden Sie unter [Proof Permissions Profiles in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) und [Proof Roles in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) verwalten .
+Auf der Seite mit den Details zum Testversand finden Sie folgende Informationen. Wenn Sie Bearbeitungsrechte für den Korrekturabzug haben, können Sie einige dieser Details bearbeiten. [!DNL Workfront Proof] speichert Ihre Änderungen automatisch. Weitere Informationen finden Sie unter [Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) und [Rollen für Korrekturabzüge verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
->Möglicherweise werden nicht alle Elemente auf der Seite angezeigt, da die zur Verfügung stehende Option von Ihrer Rolle beim Testversand, Ihrem Berechtigungsprofil und den Testversandeinstellungen abhängt. Weitere Informationen finden Sie unter [Verwalten von Proof-Rollen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md), [Proof Permissions Profiles in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) und [Konfigurieren von Proof Settings in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+>Möglicherweise werden nicht alle Elemente auf der Seite angezeigt, da die verfügbare Option von Ihrer Rolle beim Korrekturabzug, Ihrem Berechtigungsprofil und den Einstellungen beim Korrekturabzug abhängt. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md), [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) und [Konfigurieren der Korrekturabzugseinstellungen in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
 
-* Testversand-Name: [!DNL Workfront Proof] erstellt den Testversand-Namen (in Großdruck in der linken oberen Ecke) unter Verwendung des Namens der Originaldatei, die zum Erstellen des Testversands verwendet wird, es sei denn, Sie benennen den Testversand bei der Erstellung. Sie können hier auf den Namen klicken, um ihn zu bearbeiten.
-* Grundlegende Testversandinformationen:
+* Name des Korrekturabzugs: [!DNL Workfront Proof] erstellt den Namen des Korrekturabzugs (groß gedruckt in der oberen linken Ecke) anhand des Namens der Originaldatei, mit der der Korrekturabzug erstellt wurde, es sei denn, der Korrekturabzug wird bei der Erstellung benannt. Klicken Sie auf den Namen hier, um ihn zu bearbeiten.
+* Grundlegende Informationen zum Korrekturabzug:
 
-   * **Ordner:** Wenn der Testversand in einem Ordner gespeichert ist, wird der Name des Ordners zusammen mit der Anzahl der Personen angezeigt, für die der Ordner freigegeben wurde. Hier können Sie den Standort des Testversands an einen anderen Ort ändern. Weitere Informationen finden Sie unter [Verwalten von Ordnern in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+   * **Ordner** Wenn der Korrekturabzug in einem Ordner gespeichert ist, werden der Name des Ordners zusammen mit der Anzahl der Personen angezeigt, für die der Ordner freigegeben wurde. Sie können den Speicherort des Korrekturabzugs an einen anderen Speicherort hier ändern. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-   * **Dateiname**: Für kombinierte Testsendungen können Sie **[!UICONTROL klicken, um]** eine Liste der im Testversand enthaltenen Dateien anzuzeigen.
+   * **Dateiname**: Bei kombinierten Korrekturabzügen können Sie **[!UICONTROL Zum Anzeigen klicken]** eine Liste der im Korrekturabzug enthaltenen Dateien anzeigen.
 
-   * **Inhaber:** Die Person, der der Testversand gehört. Hier können Sie einen anderen Inhaber für den Testversand auswählen. Weitere Informationen finden Sie unter [Profile für Testberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+   * **Verantwortlicher:** Person, der der Korrekturabzug gehört. Hier können Sie einen anderen Verantwortlichen für den Testversand auswählen. Weitere Informationen finden Sie unter [Profile für Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * **Delegiert:** Wenn die Funktion &quot;Out of office&quot;aktiviert ist, wird der delegierte Inhaber des Testversands angezeigt. Weitere Informationen finden Sie unter [Ausweisen von temporären Testversand-Inhabern in [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
+   * **Delegiert:** Wenn die Abwesenheitsfunktion aktiviert ist, wird der delegierte Inhaber des Korrekturabzugs angezeigt. Weitere Informationen finden Sie unter &quot;[ von Verantwortlichen für temporäre Korrekturabzüge in  [!DNL Workfront Proof]](../../../workfront-proof/wp-getstarted/personal-settings/designate-temp-proof-owners.md).
 
-   * **Erstellt:** Zeit und Datum, an dem der Testversand hochgeladen wurde.
-   * **Status:** Aktueller Status des Testversands. Sie können hier den Status des Testversands ändern. Weitere Informationen finden Sie unter [Anzeigen des Fortschritts und Status eines Testversands in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   * **Erstellt** Uhrzeit und Datum, an dem der Korrekturabzug hochgeladen wurde.
+   * **State:** Aktueller Status des Korrekturabzugs. Sie können den Status des Korrekturabzugs hier ändern. Weitere Informationen finden Sie unter [Anzeigen des Fortschritts und Status eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
-   * **ID**: Eine eindeutige Nummer, die jedem in [!DNL Workfront Proof] erstellten Testversand zugewiesen wird.
+   * **ID**: Eine eindeutige Nummer, die jedem in [!DNL Workfront Proof] erstellten Korrekturabzug zugewiesen ist.
 
-* Aktionsschaltflächen oberhalb der grundlegenden Testversanddetails:
+* Aktionsschaltflächen oberhalb der grundlegenden Details des Korrekturabzugs:
 
-   * **[!UICONTROL Zum Testversand wechseln]**: Öffnet den Testversand im Testversand-Viewer.
-   * **[!UICONTROL Freigabe]**: Ermöglicht die Freigabe des Testversands für Prüfer. Siehe [Testversand in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md) freigeben.
+   * **[!UICONTROL Zum Korrekturabzug wechseln]**: Öffnet den Korrekturabzug in der Korrekturabzugsansicht.
+   * **[!UICONTROL Freigeben]**: Ermöglicht das Freigeben des Korrekturabzugs für Prüfende. Siehe [Freigeben eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
-   * **[!UICONTROL Download]**: Bei kombinierten Testsendungen können Sie einzelne Dateien herunterladen (in einer ZIP-Datei gepackt). Siehe [Herunterladen von Dateien, die in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md) gespeichert sind.
+   * **[!UICONTROL Herunterladen]**: Ermöglicht es Ihnen, für kombinierte Korrekturabzüge einzelne Dateien (in eine ZIP-Datei gepackt) herunterzuladen. Siehe [Herunterladen von in gespeicherten Dateien [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/download-files-stored.md).
 
-   * **[!UICONTROL Drucken Sie Kommentare]**. Ermöglicht die Erstellung eines druckbaren Berichts des Testversands, der alle Entscheidungen, Kommentare und Markups enthält. Siehe [Drucken und Exportieren von Kommentaren in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+   * **[!UICONTROL Kommentare]**. Ermöglicht die Erstellung eines druckbaren Berichts über den Testversand, der alle Entscheidungen, Kommentare und Markierungen enthält. Siehe [Drucken und Exportieren von Kommentaren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 
-   * **[!UICONTROL Mehr]**: Dieses Menü enthält mehrere Aktionen.
+   * **[!UICONTROL Mehr]**: Dieses Menü bietet mehrere Aktionen.
 
-      * **[!UICONTROL Nach Excel exportieren]**: Informationen zum Exportieren eines Testversands nach Excel finden Sie unter [Drucken und Exportieren von Kommentaren in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
+      * **[!UICONTROL In Excel exportieren]**: Informationen zum Exportieren eines Korrekturabzugs nach Excel finden Sie unter [Drucken und Exportieren von Kommentaren in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/print-and-export-comments.md).
 
-      * **[!UICONTROL Diese Version kopieren]** und **[!UICONTROL Mit neuer Datei kopieren]**: Informationen zum Kopieren einer Version eines Testversands finden Sie unter [Kopieren von Testsendungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
+      * **[!UICONTROL Diese Version kopieren]** und **[!UICONTROL Mit neuer Datei kopieren]**: Informationen zum Kopieren einer Version eines Korrekturabzugs finden Sie unter [Kopieren von Korrekturabzügen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/copy-proofs.md).
 
-      * **[!UICONTROL Sperren]**: Durch das Sperren eines Testversands wird er aus dem aktiven Status in einen Sperrstatus versetzt.
+      * **[!UICONTROL Sperren]**: Durch das Sperren eines Korrekturabzugs wird dieser aus dem aktiven in einen gesperrten Status verschoben.
 
-        Wenn ein Testversand gesperrt ist, sind Kommentierung und Entscheidungsfindung beim Testversand nicht mehr möglich. Sie können einen Testversand einrichten, der automatisch gesperrt wird, wenn alle Entscheidungen getroffen werden, indem Sie diese Einstellung auf den Testversand anwenden.
+        Wenn ein Korrekturabzug gesperrt ist, ist es nicht mehr möglich, den Korrekturabzug zu kommentieren und Entscheidungen zu treffen. Sie können einen Korrekturabzug so einstellen, dass er bei allen Entscheidungen automatisch gesperrt wird, indem Sie diese Einstellung auf den Korrekturabzug anwenden.
 
-      * Wenn Sie eine neue Version eines Testversands hochladen, wird die vorherige Version automatisch gesperrt. Weitere Informationen finden Sie unter .
-      * **[!UICONTROL Vorherige Version ändern]**: Ermöglicht die Verknüpfung separater Testsendungen als Versionen in derselben Testversandkette (und die Beibehaltung aller Markups und Kommentare in den Testsendungen). Dies muss auf der Seite Testversand-Details des Testversands erfolgen, der die neueste Version des Testversands sein soll. Weitere Informationen finden Sie unter [Verwalten von Testversionen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) .
+      * Wenn Sie eine neue Version eines Korrekturabzugs hochladen, wird die vorherige Version automatisch gesperrt. Weitere Informationen finden Sie unter .
+      * **[!UICONTROL Frühere Version ändern]**: dient der Verknüpfung separater Korrekturabzüge als Versionen innerhalb derselben Korrekturabzugskette (wobei alle Markierungen und Kommentare für jeden Korrekturabzug beibehalten werden). Dies muss über die Seite mit den Korrekturabzugsdetails des Korrekturabzugs erfolgen, bei dem es sich um die neueste Version des Korrekturabzugs handelt. Weitere Informationen [ Sie unter „Verwalten  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) Korrekturabzugsversionen in“.
 
-      * **[!UICONTROL Link zur vorherigen Version entfernen]**: Hiermit können Sie die Verknüpfung des gerade angezeigten Testversands mit dem übergeordneten Testversand (frühere Version) aufheben, ohne ihn mit einem anderen Testversand in Ihrem Konto zu verknüpfen. Weitere Informationen finden Sie unter [Verwalten von Testversionen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) in [Verwalten von Testversionen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
+      * **[!UICONTROL Link zur vorherigen Version entfernen]**: Hiermit können Sie die Verknüpfung des aktuell angezeigten Korrekturabzugs mit dem übergeordneten Korrekturabzug (frühere Version) aufheben, ohne ihn mit einem anderen Korrekturabzug in Ihrem Konto zu verknüpfen. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsversionen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md) in [Verwalten von Korrekturabzugsversionen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-versions.md).
 
-      * **[!UICONTROL In automatisierten Workflow konvertieren]**: Hiermit konvertieren Sie den Workflow für den Testversand von einfachen in automatisierten. Weitere Informationen finden Sie unter [Überblick über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
-   * Abschnitt **[!UICONTROL Workflow]**: Hier können Sie den Fortschritt und die Frist für den Testversand überprüfen und die Einstellungen der Workflow-Phasen und der einzelnen Validierungsverantwortlichen ändern.
+      * **[!UICONTROL In automatisierten Workflow konvertieren]**: Hiermit können Sie den Workflow für den Korrekturabzug von „Standard“ in „Automatisiert“ konvertieren. Weitere Informationen finden Sie unter [Automatisierter Workflow - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
+   * **[!UICONTROL Workflow]**-Abschnitt: Hier können Sie den Fortschritt und die Frist für den Testversand überprüfen und die Einstellungen der Workflow-Phasen und der einzelnen Validierungsverantwortlichen ändern.
 
-     Workflow-Phasen werden automatisch von der Systemgruppe der validierungsverantwortlichen Benutzer unter Verwendung der für sie festgelegten Fristen erstellt. Sie können Personen zu Bühnen hinzufügen, indem Sie den Termin für die Phase festlegen (vorausgesetzt, das Termindatum liegt nicht in der Vergangenheit). Sie können auch den Fortschritt und die Entscheidungen einzelner Validierungsverantwortlicher bezüglich des Testversands überprüfen und ihre Rollen bei Testsendungen und E-Mail-Warnungen ändern.
+     Die Workflow-Phasen werden automatisch erstellt, indem die Validierungsverantwortlichen anhand der für sie festgelegten Fristen gruppiert werden. Sie können Personen zu Stadien hinzufügen, indem Sie die Frist für die Stadien festlegen (vorausgesetzt, das Fristdatum liegt nicht in der Vergangenheit). Sie können auch den Fortschritt und die Entscheidungen einzelner Reviewer im Korrekturabzug überprüfen und ihre Rollen im Korrekturabzug und in E-Mail-Warnhinweisen ändern.
 
-     Weitere Informationen zum Bearbeiten einer Phase finden Sie unter [Bearbeiten von Testsendungen und Validierungsverantwortlichen](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md).
+     Informationen zum Bearbeiten eines Schritts finden Sie unter [Bearbeiten von Korrekturabzugsschritten und Prüfer](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/edit-proof-stages-and-reviewers.md).
 
      >[!NOTE]
      >
-     >Sie müssen über Bearbeitungsrechte für den Testversand verfügen, um Testsendungen und die Details der Prüfer bearbeiten zu können. Weitere Informationen finden Sie unter [Verwalten von Proof-Rollen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) und [Proof Permissions Profiles in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) .
+     >Sie müssen über Bearbeitungsrechte für den Korrekturabzug verfügen, um die Korrekturabzugsschritte und die Details der Prüfer zu bearbeiten. Weitere Informationen finden [ unter „Verwalten von Korrekturabzug [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)Rollen in und [Profile für Korrekturabzugsberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md)&quot;.
 
-   * Abschnitt **[!UICONTROL Mehr Freigabeoptionen]**: Ermöglicht Ihnen die Aktivierung der Proof-URL und des Einbettungscodes. Wenn Sie die Basecamp-Integration mit [!DNL Workfront] Testversand verwenden, können Sie in diesem Abschnitt auch den Testversand zu einem [!DNL Basecamp] -Projekt hinzufügen, das Projekt ändern, dem der Testversand hinzugefügt wurde (klicken Sie auf **[!UICONTROL Bearbeiten]**) und auf den Testversand in Basecamp zugreifen (klicken Sie auf den bereitgestellten Link).
+   * Abschnitt **[!UICONTROL Weitere Freigabeoptionen]**: Ermöglicht die Aktivierung der Korrekturabzugs-URL und des Einbettungs-Codes. Wenn Sie die Basecamp-Integration mit [!DNL Workfront] Korrekturabzug verwenden, können Sie den Korrekturabzug auch zu einem [!DNL Basecamp] Projekt hinzufügen, das Projekt ändern, dem der Korrekturabzug hinzugefügt wurde (klicken Sie auf **[!UICONTROL Bearbeiten]**), und auf den Korrekturabzug in Basecamp zugreifen (klicken Sie auf den bereitgestellten Link).
 
-   * Abschnitt **[!UICONTROL Einstellungen]**: Hier können Sie die Einstellungen ändern, wie unter [[!UICONTROL Einstellungen für den Testversand] in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) beschrieben.
+   * **[!UICONTROL Einstellungen]** Abschnitt: Hiermit können Sie Einstellungen ändern, wie unter [[!UICONTROL Konfigurieren von ] in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) beschrieben.
 
-   * Abschnitt **[!UICONTROL Aktivität]** : Zeigt eine Liste aller Aktionen an, die am Testversand in chronologischer Reihenfolge durchgeführt wurden. Dieser Abschnitt enthält einen Prüfpfad für den Testversand. Dies umfasst das Datum und die Details der letzten Aktivität im Testversand. Zusammen mit dem Abschnitt [!UICONTROL Nachrichten] bietet der Abschnitt [!UICONTROL Aktivität] einen umfassenden Überblick über den Überprüfungsprozess beim Testversand, der insbesondere für die Projektmanager nützlich ist, die für den Genehmigungsprozess zuständig sind.
-   * Abschnitt **[!UICONTROL Nachrichten]**: Führt die Details aller E-Mail-Aktivitäten für den Testversand auf. Weitere Informationen finden Sie unter [E-Mail-Benachrichtigungseinstellungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md) konfigurieren.
+   * **[!UICONTROL Aktivität]** Abschnitt: Zeigt eine Liste aller Aktionen an, die am Korrekturabzug in chronologischer Reihenfolge ausgeführt wurden, und bietet einen Audit-Trail für den Korrekturabzug. Dazu gehören das Datum und die Details aller kürzlich durchgeführten Aktivitäten im Testversand. Neben dem Abschnitt [!UICONTROL Nachrichten] bietet der Abschnitt [!UICONTROL Aktivität] einen vollständigen Überblick über den Überprüfungsprozess des Testversands, der insbesondere für die für den Genehmigungsprozess zuständigen Projektmanager nützlich ist.
+   * **[!UICONTROL Nachrichten]** Abschnitt: Listet die Details aller E-Mail-Aktivitäten für den Testversand auf. Weitere Informationen finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
-     Sie können auch die gesamte an die Validierer gesendete Nachricht anzeigen, indem Sie den Mauszeiger über das Symbol &quot;i&quot;rechts neben der Nachricht bewegen und dann auf **[!UICONTROL Vollständige Nachricht anzeigen]** klicken.
+     Sie können auch die gesamte an die Validierungsverantwortlichen gesendete Nachricht anzeigen, indem Sie den Mauszeiger über das Symbol „i“ rechts neben der Nachricht bewegen und dann auf **[!UICONTROL Vollständige Nachricht anzeigen]** klicken.

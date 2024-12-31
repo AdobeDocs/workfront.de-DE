@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Testversand in Workfront Proof löschen
-description: Benutzer mit Bearbeitungsrechten für einen Testversand können ihn löschen.
+title: Löschen eines Korrekturabzugs in Workfront Proof
+description: Benutzende, die Bearbeitungsrechte für einen Korrekturabzug haben, können ihn löschen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
@@ -14,37 +14,37 @@ ht-degree: 0%
 
 ---
 
-# Testversand in Workfront Proof löschen
+# Löschen eines Korrekturabzugs in Workfront Proof
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Benutzer mit Bearbeitungsrechten für einen Testversand können ihn löschen.
+Benutzende, die Bearbeitungsrechte für einen Korrekturabzug haben, können ihn löschen.
 
-Weitere Informationen zu Bearbeitungsrechten finden Sie unter [Profile für Testberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) und [Verwalten von Proof-Rollen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
+Weitere Informationen zu Bearbeitungsrechten finden Sie unter [Korrekturabzugsberechtigungen in Profilen [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) und [Rollen für Korrekturabzüge verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)
 
-Wenn Sie einen Testversand (oder ein anderes Element, z. B. eine Datei oder einen Ordner) in Ihrem Konto löschen, wird dieser durch [!DNL Workfront Proof] in den Papierkorb verschoben. Elemente im Papierkorb können leicht wiederhergestellt werden.
+Wenn Sie einen Korrekturabzug (oder ein anderes Element, z. B. eine Datei oder einen Ordner) in Ihrem Konto löschen, wird [!DNL Workfront Proof] in den Papierkorb verschoben. Elemente im Papierkorb können einfach wiederhergestellt werden.
 
-Weitere Informationen zum Papierkorb finden Sie unter [Den Papierkorb wiederherstellen und in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md) leeren.
+Informationen zum Papierkorb finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 >[!NOTE]
 >
->Im Papierkorb gespeicherte Elemente werden auf Ihre Speicherbegrenzung angerechnet. Um Speicherplatz freizugeben, leeren Sie bitte den Papierkorb.
+>Elemente, die im Papierkorb gespeichert sind, werden auf Ihr Speicherlimit angerechnet. Um Speicherplatz freizumachen, leeren Sie bitte den Papierkorb.
 
-## Löschen eines Testversands
+## Löschen eines Korrekturabzugs
 
-1. Klicken Sie in einer beliebigen Listenansicht auf das Menü **[!UICONTROL Mehr]** rechts neben dem Testversand.\
+1. Klicken Sie in einer beliebigen Listenansicht auf das **[!UICONTROL Mehr]**-Menü rechts neben dem Korrekturabzug.\
    ![](assets/more-button-small.png)
 
-1. Klicken Sie im angezeigten Dropdown-Menü auf **[!UICONTROL Testversanddetails anzeigen]** .
-1. Klicken Sie oben rechts auf der Seite auf die Schaltfläche **[!UICONTROL Löschen]** .
-1. Wählen Sie im angezeigten Dropdown-Menü aus, ob Sie den gesamten Testversand oder nur die Version löschen möchten, die Sie anzeigen.
+1. Klicken **[!UICONTROL im angezeigten Dropdown]** Menü auf „Korrekturabzugsdetails anzeigen“.
+1. Klicken Sie oben **[!UICONTROL auf]** Schaltfläche „Löschen“.
+1. Wählen Sie im angezeigten Dropdown-Menü aus, ob Sie den gesamten Korrekturabzug oder nur die angezeigte Version löschen möchten.
 
-## Andere Möglichkeiten zum Löschen eines Testversands
+## Andere Möglichkeiten, einen Korrekturabzug zu löschen
 
-Sie können Testsendungen auch an den unten beschriebenen Speicherorten löschen. Beachten Sie bei einem Testversand mit mehreren Versionen, dass mit diesen Methoden die gesamte Testversandkette gelöscht wird.
+Sie können Testsendungen auch an den unten beschriebenen Speicherorten löschen. Beachten Sie bei einem Korrekturabzug mit mehreren Versionen, dass diese Methoden die gesamte Korrekturabzugskette löschen.
 
-* Im Testversand-Viewer können Sie im Tool-Menü links auf **[!UICONTROL Löschen]** klicken.
-* In jeder Listenansicht können Sie auf das Kontrollkästchen links neben dem Testversand (oder das Kontrollkästchen in der Kopfzeile zur Auswahl aller aufgelisteten Testsendungen) und dann über der Liste auf [!UICONTROL Löschen] klicken.
-* In einer Listenansicht klicken Sie auf das Menü **[!UICONTROL Mehr]** rechts neben dem Testversand und dann auf **[!UICONTROL Löschen]**.
+* In der Korrekturabzugsansicht können Sie im Menü ]**auf der linken Seite auf**[!UICONTROL  Löschen“ klicken.
+* In jeder Listenansicht können Sie das Kontrollkästchen links neben dem Korrekturabzug (oder das Kontrollkästchen in der Kopfzeile zur Auswahl aller aufgelisteten Korrekturabzüge) aktivieren und dann über der Liste auf [!UICONTROL Löschen] klicken.
+* In jeder Listenansicht klicken Sie auf das Menü **[!UICONTROL Mehr]** rechts neben dem Korrekturabzug und dann auf **[!UICONTROL Löschen]**.

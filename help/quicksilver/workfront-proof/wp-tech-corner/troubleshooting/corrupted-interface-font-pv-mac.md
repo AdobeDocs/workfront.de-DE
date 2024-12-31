@@ -3,8 +3,8 @@ content-type: tips-tricks-troubleshooting
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-workfront-proof-tech-corner
-title: Fehlerbehebung - Beschädigte Schnittstellenschriftart im Testversand-Viewer auf Mac
-description: Fehlerbehebung bei beschädigter Schnittstellenschriftart im Testversand-Viewer auf Mac
+title: Fehlerbehebung - Schriftart für beschädigte Benutzeroberfläche im Proofing Viewer auf Mac
+description: Fehlerbehebung bei beschädigter Schriftart für die Benutzeroberfläche im Proofing Viewer auf Mac
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1e96720a-b967-4447-bd14-26fc6a502b25
@@ -15,63 +15,63 @@ ht-degree: 0%
 
 ---
 
-# Fehlerbehebung - Beschädigte Schnittstellenschriftart im Testversand-Viewer auf Mac
+# Fehlerbehebung - Schriftart für beschädigte Benutzeroberfläche im Proofing Viewer auf Mac
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Wenn Sie feststellen, dass der Proofing-Viewer die Schriftart der Benutzeroberfläche nicht richtig anzeigt, kann dies auf einige Probleme mit den Schriftarten auf Ihrem Mac-Computer zurückzuführen sein. Um das Problem zu beheben, versuchen Sie die folgenden Lösungen:
+Wenn Sie bemerken, dass die Schriftart der Benutzeroberfläche im Proofing Viewer nicht richtig angezeigt wird, kann dies an einigen Problemen mit den Schriftarten auf Ihrem Mac-Computer liegen. Um das Problem zu beheben, versuchen Sie die folgenden Lösungen:
 
-## Schriftduplikate entfernen
+## Schriftartenduplikate entfernen
 
-Überprüfen Sie, ob sich im System doppelte Schriftarten befinden.
+Überprüfen Sie, ob das System doppelte Schriftarten enthält.
 
 1. Schließen Sie den verwendeten Browser.
-1. Öffnen Sie die Anwendung &quot;Font Book&quot;in Ihrem Ordner &quot;Applications&quot;.
-1. Klicken Sie auf **[!UICONTROL Alle Schriftarten]** (1).
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]** > **[!UICONTROL Suchen Sie nach aktivierten Duplikaten]**.
+1. Öffnen Sie die Font Book-Anwendung im Programmordner.
+1. Klicken Sie **[!UICONTROL Alle Schriftarten]** (1).
+1. Klicken Sie **[!UICONTROL Bearbeiten]** > **[!UICONTROL Nach aktivierten Duplikaten suchen]**.
 
-1. Klicken Sie auf **[!UICONTROL Ja]** , um Duplikate aufzulösen.
-1. Wenn eine Warnung zu beschädigten Schriftarten angezeigt wird, klicken Sie auf **[!UICONTROL Ja]**.
+1. Klicken Sie **[!UICONTROL Ja]**, um Duplikate zu beheben.
+1. Wenn Sie eine Warnung zu beschädigten Schriftarten sehen, klicken Sie auf **[!UICONTROL Ja]**.
 1. Starten Sie den Computer neu.
-1. Testen Sie den Testversand erneut.
+1. Wiederholen Sie den Korrekturabzug.
 
-## Löschen Sie den Schriftartencache
+## Löschen des Schriftarten-Cache
 
-Manchmal sind die Schriftarten-Caches in Mac OS X beschädigt. Wenn beispielsweise eine Schriftart oder eine Schriftfamilie mehrmals neu installiert wird oder eine Anwendung aktualisiert oder neu installiert wurde. Neben den Schriftarten-Cache-Dateien des Betriebssystems verfügen einige Anwendungen möglicherweise über einen eigenen Schriftarten-Cache. Das Löschen dieser Schriftarten-Cachedateien kann das Problem mit durcheinandergezogenem Text beheben.
+Manchmal werden die Schriftarten-Caches in Mac OS X beschädigt. Dies ist beispielsweise der Fall, wenn eine Schriftart oder eine Schriftfamilie mehrmals neu installiert wird oder wenn eine Anwendung aktualisiert oder neu installiert wurde. Abgesehen von den Schriftarten-Cache-Dateien des Betriebssystems können einige Anwendungen über einen eigenen Schriftarten-Cache verfügen. Das Löschen dieser Schriftarten-Cache-Dateien kann das Problem mit beschädigtem Text beheben.
 
-Zunächst müssen Sie das Schriftbuch starten, die Schriftart oder die Schriftfamilie auswählen, mit der Sie Probleme haben, und die Taste Löschen auf Ihrer Tastatur drücken. Sie können auch mit der rechten Maustaste klicken und [!UICONTROL Familie entfernen] auswählen. Wenn Sie sich nicht sicher sind, welche Schriftart oder Familie die Probleme verursacht, sollten Sie versuchen, zunächst die Duplikate zu entfernen, wie oben beschrieben.
+Zunächst müssen Sie Font Book starten, die Schriftart oder Familie auswählen, mit der Sie Probleme haben, und die Löschtaste auf Ihrer Tastatur drücken. Alternativ können Sie mit der rechten Maustaste klicken und [!UICONTROL Familie entfernen] auswählen. Wenn Sie sich nicht sicher sind, welche Schriftart oder Familie die Probleme verursacht, sollten Sie versuchen, zunächst Duplikate wie oben beschrieben zu entfernen.
 
-Der zweite Schritt besteht darin, den Schriftartencache zu löschen, und es gibt mehrere Möglichkeiten, dies zu erreichen.
+Der zweite Schritt besteht darin, den Schriftarten-Cache zu löschen, und es gibt mehrere Möglichkeiten, dies zu erreichen.
 
-Die erste besteht darin, einfach in den abgesicherten Modus neu zu starten, indem Sie die Umschalttaste sofort gedrückt halten, wenn Sie die Bootmodelle beim Start hören. Wenn dieser Modus geladen wird, sollte ein Fortschrittsbalken angezeigt werden, in dem das System verschiedene Prüfungen und Wartungsroutinen durchführt, von denen einer darin besteht, den Schriftarten-Cache zu leeren.
+Die erste ist, einfach in den abgesicherten Modus neu zu starten, indem Sie die Umschalt-Taste gedrückt halten, sobald Sie das Boot-Glockenspiel beim Start hören. Wenn dieser Modus geladen wird, sollte eine Fortschrittsleiste angezeigt werden, in der das System verschiedene Prüfungen und Wartungsroutinen ausführt, von denen eine darin besteht, den Schriftarten-Cache zu löschen.
 
-Der zweite Ansatz besteht in der Verwendung des Terminals, was durch Ausführen des folgenden Befehls in einem Administratorkonto möglich ist: *sudo atsutil database -remove*
+Der zweite Ansatz besteht darin, das Terminal zu verwenden. Dies kann durch Ausführen des folgenden Befehls innerhalb eines administrativen Kontos erfolgen: *sudo atsutil database -remove*
 
 >[!NOTE]
 >
->Für diesen Befehl müssen Sie Ihr Passwort eingeben, das bei der Eingabe nicht angezeigt wird. Wir empfehlen Ihnen, sich mit Ihrer IT-Abteilung zu beraten, da dies möglicherweise Administratorberechtigungen auf Ihrem Computer erfordert.
+>Für diesen Befehl müssen Sie Ihr Kennwort eingeben, das bei der Eingabe nicht angezeigt wird. Wir empfehlen Ihnen, sich an Ihre IT-Abteilung zu wenden, da dies möglicherweise Administratorberechtigungen auf Ihrem Computer erfordert.
 
-Ein anderer Ansatz wäre die Verwendung eines Schriftartencache-Dienstprogramms wie z. B. FontNuke und das Löschen des Caches mit seiner Hilfe.
+Ein anderer Ansatz wäre, ein Font-Cache-Dienstprogramm wie z. B. FontNuke zu verwenden und den Cache mit seiner Hilfe zu löschen.
 
-Viele Druckvorschub- und Bildbearbeitungs-/Designstudios verwenden auch Universal Type Server-Software, um die Lizenzierung und Verteilung von Schriftarten zu verwalten. Manchmal kann ein Problem mit dem universellen Server-Schriftartencache auftreten, das dazu führen kann, dass die [!DNL Workfront Proof] -Anmerkungen verschwinden.
+Viele Druckvorstufe- und Grafikstudios verwenden außerdem die Universal Type Server-Software, um die Lizenzierung und Verteilung von Schriftarten zu verwalten. Manchmal kann ein Problem mit dem Universal Type Server Font-Cache auftreten, das dazu führen kann, dass die [!DNL Workfront Proof] Anmerkungen verschwinden.
 
-Um dieses Problem zu beheben, löschen Sie den Schriftartencache für universellen Typ Server und starten Sie den Server für universellen Typ neu.
+Löschen Sie zum Beheben des Problems den Universal Type Server-Schriftarten-Cache und starten Sie den Universal Type Server neu.
 
-## Schriftkonflikt mit [!DNL Flash] beheben
+## Beheben [!DNL Flash] Schriftkonflikts
 
-Möglicherweise haben Sie keinen Zugriff auf diese Funktion, da sie von [!DNL Flash] unterstützt wird, das in den meisten Umgebungen nicht mehr unterstützt wird.
+Möglicherweise haben Sie keinen Zugriff auf diese Funktion, da sie von [!DNL Flash] unterstützt wird, was in den meisten Umgebungen nicht mehr unterstützt wird.
 
-Der alte Testversand-Viewer basiert auf &quot;[!DNL Flash Player]&quot;. Wenn der Text im Testversand-Viewer fehlt, kann es sein, dass zwischen OS X und [!DNL Flash Player] ein Schriftartkonflikt vorliegt. Versuchen Sie Folgendes:
+Die alte Proofing Viewer basiert auf [!DNL Flash Player] und manchmal, wenn der Text im Proofing Viewer fehlt, ist es möglich, dass ein Schriftartkonflikt zwischen OS X und [!DNL Flash Player] besteht. Probieren Sie Folgendes aus:
 
-1. Öffnen Sie Finder und öffnen Sie die Registerkarte **[!UICONTROL Los]** .
-1. Drücken Sie die Wahltaste ( ⌥ Alt), um den Ordner [!UICONTROL Bibliothek] in der Dropdown-Liste zu öffnen.
-1. Klicken Sie bei gedrückter Optionstaste auf den Ordner [!UICONTROL Bibliothek] .
-1. Nachdem der Ordner [!UICONTROL Bibliothek] geöffnet wurde, wechseln Sie zum Ordner [!UICONTROL Schriftarten] im Ordner.
-1. Verschieben Sie alle Schriftarten, die sich im Ordner [!UICONTROL Schriftarten] befinden, in einen anderen Ordner, möglicherweise auf Ihrem Desktop (erstellen Sie keinen weiteren Ordner im Ordner &quot;Schriftarten&quot;).
-1. Durch diese Aktion werden alle benutzerdefinierten Schriftarten ausgeblendet. Die Standardsystemschriftarten sollten weiterhin an einem anderen Speicherort gespeichert werden.
-1. Beenden und starten Sie [!DNL Safari] neu.
-1. Öffnen Sie den Testversand erneut.
+1. Öffnen Sie den Finder und **[!UICONTROL die Registerkarte]**.
+1. Drücken Sie die Wahltaste (⌥ Alt), um den Ordner [!UICONTROL Bibliothek] in der Dropdown-Liste zu öffnen.
+1. Klicken Sie bei gedrückter Wahltaste auf den Ordner [!UICONTROL Bibliothek].
+1. Nachdem der Ordner [!UICONTROL Bibliothek] geöffnet wurde, wechseln Sie zum Ordner [!UICONTROL Schriftarten] in .
+1. Verschieben Sie alle Schriftarten aus dem Ordner [!UICONTROL Schriftarten] in einen anderen Ordner, z. B. auf Ihrem Desktop (erstellen Sie keinen anderen Ordner innerhalb des Ordners „Schriftarten„).
+1. Diese Aktion blendet alle benutzerdefinierten Schriftarten aus. Die Standardsystemschriftarten sollten weiterhin an ihrem separaten Speicherort gespeichert sein.
+1. Beenden und [!DNL Safari] neu starten.
+1. Öffnen Sie den Korrekturabzug erneut.
 
-Sie sollten Ihre Schriftarten jetzt sehen. Wenn Sie keine der Schriftarten benötigen, die Sie aus Ihrem Basisverzeichnis entfernt haben, können Sie sie sicher löschen. Andernfalls durchgehen Sie sie in Stapeln, kopieren Sie sie zurück in den Ordner &quot;Bibliothek/Schriftarten&quot;und sehen Sie, welcher das Problem verursacht.
+Sie sollten Ihre Schriftarten jetzt sehen. Wenn Sie keine der Schriftarten benötigen, die Sie aus Ihrem Hauptverzeichnis entfernt haben, können Sie sie sicher löschen. Andernfalls sollten Sie diese in Stapeln durchgehen, sie wieder in Ihren Bibliotheks-/Schriftartenordner kopieren und feststellen, welcher das Problem verursacht.

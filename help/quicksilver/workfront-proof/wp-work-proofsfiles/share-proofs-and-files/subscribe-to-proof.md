@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: share-proofs-and-files
-title: Abonnieren eines Testversands in [!DNL Workfront] Testversand
-description: Wenn ein anderer Benutzer sendet, dass Sie eine Testversand-URL öffnen und sie in Ihrem Browser öffnen, wird der Testversand-Viewer im schreibgeschützten Modus gestartet. Bevor Sie an einem Testversand arbeiten können, müssen Sie sich identifizieren, indem Sie ihn abonnieren.
+title: Abonnieren eines Korrekturabzugs in  [!DNL Workfront] Proof
+description: Wenn Sie eine Korrekturabzugs-URL von einem anderen Benutzer erhalten und in Ihrem Browser geöffnet werden, wird die Korrekturabzugsansicht im schreibgeschützten Modus gestartet. Bevor Sie den Korrekturabzug bearbeiten können, müssen Sie sich durch Abonnieren identifizieren.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 8f488839-efb5-44fb-9757-7e4d1c4aceef
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# Abonnieren eines Testversands in [!DNL Workfront Proof]
+# Abonnieren eines Korrekturabzugs in [!DNL Workfront Proof]
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Wenn ein anderer Benutzer sendet, dass Sie eine Testversand-URL öffnen und sie in Ihrem Browser öffnen, wird der Testversand-Viewer im schreibgeschützten Modus gestartet. Bevor Sie an einem Testversand arbeiten können, müssen Sie sich identifizieren, indem Sie ihn abonnieren.
+Wenn Sie eine Korrekturabzugs-URL von einem anderen Benutzer erhalten und in Ihrem Browser geöffnet werden, wird die Korrekturabzugsansicht im schreibgeschützten Modus gestartet. Bevor Sie den Korrekturabzug bearbeiten können, müssen Sie sich durch Abonnieren identifizieren.
 
 >[!NOTE]
 >
->Bevor Benutzer einen Testversand abonnieren können, muss dessen Abonnementeinstellung aktiviert sein (siehe Abschnitt [Konfigurieren der Testversandeinstellungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [Einstellungen für den Testversand in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) konfigurieren).
+>Bevor Benutzer einen Korrekturabzug abonnieren können, müssen seine Abonnementeinstellungen aktiviert sein (siehe Abschnitt [Konfigurieren von Korrekturabzugseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md) in [Konfigurieren von Korrekturabzugseinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md)).
 
-So abonnieren Sie einen Testversand:
+So abonnieren Sie einen Korrekturabzug:
 
-1. Klicken Sie oben im Testversand-Viewer auf **[!UICONTROL Anmelden]** .
-1. Geben Sie Ihre E-Mail-Adresse in das Feld **[!UICONTROL Anmelden]** ein.
-1. Wenn Sie kein validierungsverantwortlicher Benutzer des Testversands oder kein Benutzer von [!DNL Workfront Proof] sind, geben Sie Ihren Anzeigenamen ein.\
+1. Klicken **[!UICONTROL oben]** der Proofing-Anzeige auf „Anmelden“.
+1. Geben Sie Ihre E-Mail-Adresse in das **[!UICONTROL Anmelden]** Feld ein.
+1. Wenn Sie weder ein Prüfer für den Korrekturabzug noch ein Benutzer von [!DNL Workfront Proof] sind, geben Sie Ihren Anzeigenamen ein.\
    Oder\
-   Wenn Sie ein [!DNL Workfront Proof]-Kennwort haben, geben Sie es ein (unabhängig davon, ob Sie ein Überprüfer für den Testversand sind oder nicht).\
-   Abhängig von den E-Mail-Einstellungen für die Testversand-Freigabe, die von der Person ausgewählt wurden, die den Testversand freigegeben hat, müssen Sie möglicherweise die Validierungsanweisungen in einer E-Mail befolgen, die Sie per E-Mail erhalten.
+   Wenn Sie über ein [!DNL Workfront Proof] Kennwort verfügen, geben Sie es ein (unabhängig davon, ob Sie ein Prüfer für den Korrekturabzug sind oder nicht).\
+   Abhängig von den Einstellungen für die Freigabe der Korrekturabzugs-E-Mails, die von der Person ausgewählt wurden, die den Korrekturabzug freigegeben hat, müssen Sie möglicherweise die Validierungsanweisungen in einer E-Mail befolgen, die Sie per E-Mail erhalten haben.
 
-1. Ihre Rolle beim Testversand ist Abonnement , das auf der Seite mit den Testversanddetails für den Testversand festgelegt wird. Weitere Informationen zum Festlegen von Rollen für Testsendungen finden Sie unter [Konfigurieren der Testversandeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).
+1. Ihre Rolle auf dem Korrekturabzug ist Abonnement, das auf der Seite mit den Korrekturabzugsdetails für den Korrekturabzug festgelegt wird. Weitere Informationen zum Festlegen von Rollen für Korrekturabzüge finden Sie unter [Konfigurieren der Einstellungen für Korrekturabzüge in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/configure-proof-settings.md).

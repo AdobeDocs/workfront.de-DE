@@ -3,7 +3,7 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Grundlegendes zu Ordnerberechtigungen in  [!DNL Workfront Proof]
+title: Grundlegendes zu Ordnerberechtigungen in [!DNL Workfront Proof]
 description: Wenn eine Person berechtigt ist, ein Element in einem Ordner anzuzeigen, kann sie auch den Ordner selbst sehen. Sie können jedoch nur die Elemente im Ordner sehen, die explizit für sie freigegeben wurden.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
@@ -19,57 +19,57 @@ ht-degree: 15%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 Wenn eine Person berechtigt ist, ein Element in einem Ordner anzuzeigen, kann sie auch den Ordner selbst sehen. Sie können jedoch nur die Elemente im Ordner sehen, die explizit für sie freigegeben wurden.
 
 ## Öffentliche Ordner
 
-Wenn ein Ordner öffentlich ist, können Benutzer im Konto (außer Beobachter und leichte Benutzer) den Ordnernamen in der linken Seitenleiste sehen.
+Wenn ein Ordner öffentlich ist, können Benutzer im -Konto (mit Ausnahme von Beobachtern und Light-Benutzern) den Ordnernamen in der linken Seitenleiste sehen.
 
-Ihr Berechtigungsprofil wirkt sich auch auf die Rechte aus, die Sie über öffentliche Ordner haben:
+Ihr Berechtigungsprofil wirkt sich auch auf die Rechte aus, die Sie an öffentlichen Ordnern haben:
 
-| **Profil/ Aktion** | **Alle Elemente im Ordner anzeigen** | **Siehe explizit für sie freigegebene Elemente** | **Elemente hinzufügen** | **Elemente löschen** | **Unterordner hinzufügen** | **Löschen von Unterordnern** | **Ordnerdetails bearbeiten** |
+| **Profil/Aktion** | **Alle Elemente im Ordner anzeigen** | **Siehe explizit für sie freigegebene Elemente** | **Elemente hinzufügen** | **Elemente löschen** | **Hinzufügen von Unterordnern** | **Löschen von Unterordnern** | **Ordnerdetails bearbeiten** |
 |---|---|---|---|---|---|---|---|
 | **Ersteller** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
-| **Rechnungsadministrator** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
+| **Abrechnungs-Administrator** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
 | **Administrator** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
-| **Supervisor** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
+| **Verantwortlicher** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
 | **Manager** | Nein | Ja | Ja | Nein | Ja | Nein | Ja |
 | **Beobachter** | Nein | Ja | Nein | Nein | Nein | Nein | Nein |
 
 {style="table-layout:auto"}
 
-Wenn der öffentliche Ordner Eigentum eines Managers ist, kann er den Stammordner und alle Unterordner löschen.
+Wenn der öffentliche Ordner einem Manager gehört, kann dieser den Stammordner und alle Unterordner löschen.
 
-Weitere Informationen finden Sie unter [Profile für Testberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Weitere Informationen finden Sie unter [Profile für Korrekturabzugsberechtigungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 ## Private Ordner
 
-Wenn ein Ordner privat ist, können andere Benutzer desselben Kontos den Namen des Ordners nicht in der linken Seitenleiste sehen, es sei denn, die Ordner oder Elemente im Ordner wurden explizit für sie freigegeben oder sie haben das Profil &quot;Supervisor&quot;, &quot;Administrator&quot;oder &quot;Rechnungsadministrator&quot;:
+Wenn ein Ordner privat ist, können andere Benutzer im selben Konto den Namen des Ordners in der linken Seitenleiste nur sehen, wenn der Ordner oder die Elemente im Ordner explizit für sie freigegeben wurden oder sie das Profil eines Supervisors, Administrators oder Abrechnungsadministrators haben:
 
-| **Profil/ Aktion** | **Alle Elemente im Ordner anzeigen** | **Siehe explizit für sie freigegebene Elemente** | **Elemente hinzufügen** | **Elemente löschen** | **Unterordner hinzufügen** | **Löschen von Unterordnern** | **Ordnerdetails bearbeiten** |
+| **Profil/Aktion** | **Alle Elemente im Ordner anzeigen** | **Siehe explizit für sie freigegebene Elemente** | **Elemente hinzufügen** | **Elemente löschen** | **Hinzufügen von Unterordnern** | **Löschen von Unterordnern** | **Ordnerdetails bearbeiten** |
 |---|---|---|---|---|---|---|---|
 | **Ersteller** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
-| **Rechnungsadministrator** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
+| **Abrechnungs-Administrator** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
 | **Administrator** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
-| **Supervisor** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
+| **Verantwortlicher** | Ja | Ja | Ja | Ja | Ja | Ja | Ja |
 | **Manager** | Nein | Ja | Nein | Nein | Nein | Nein | Nein |
 | **Beobachter** | Nein | Ja | Nein | Nein | Nein | Nein | Nein |
 
 {style="table-layout:auto"}
 
-Wenn beispielsweise Ihr Projektmanager und seine Teams nur bestimmte Ordner sehen sollen, kann der Projektmanager einen privaten Ordner einrichten und diesen dann für bestimmte Benutzer freigeben.
+Wenn Sie beispielsweise möchten, dass Ihr Projekt-Manager und seine Teams nur bestimmte Ordner sehen, kann der Projekt-Manager einen privaten Ordner einrichten und diesen dann für bestimmte Benutzer freigeben.
 
-Beim Freigeben eines privaten Ordners können Sie entscheiden, ob Manager Ordnerelemente erstellen, bearbeiten und löschen können sollen.
+Bei der Freigabe eines privaten Ordners können Sie festlegen, ob Manager Ordnerelemente erstellen, bearbeiten und löschen können sollen.
 
-Sie können dies für jede Person einzeln auf der Seite Neuer Ordner festlegen und im Abschnitt [!UICONTROL Für ] der Seite Ordnerdetails ändern. Weitere Informationen finden Sie unter [Erstellen von Ordnern in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) und [Verwalten von Ordnern und deren Inhalten in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+Sie können dies für jede Person einzeln auf der Seite Neuer Ordner festlegen und im Abschnitt [!UICONTROL Freigegeben für] der Seite Ordnerdetails ändern. Weitere Informationen finden Sie unter [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md) und [Verwalten von Ordnern und deren Inhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
-Wenn ein privater Ordner für einen - oder -Beobachter freigegeben ist, hat er schreibgeschützten Zugriff auf alle Elemente im Ordner. Weitere Informationen finden Sie unter [Profile für Testberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) und [Ordner in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) freigeben .
+Wenn ein privater Ordner für einen - oder -Beobachter freigegeben ist, hat er Lesezugriff auf alle Elemente im Ordner. Weitere Informationen finden Sie unter [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) und [Ordner freigeben in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
 >[!NOTE]
 >
 >* Wenn ein übergeordneter Ordner privat ist, sind alle Unterordner ebenfalls privat. Sie können keinen öffentlichen Unterordner unter einem privaten übergeordneten Ordner haben. Sie können jedoch einen privaten Unterordner unter einem öffentlichen übergeordneten Ordner haben.
->* Der Ersteller und Eigentümer des Ordners hat immer Zugriff darauf und kann nicht entfernt werden.
->* Nur der Ersteller und Eigentümer des privaten Ordners kann den Ordner löschen.
+>* Der Ersteller und Besitzer des Ordners hat immer Zugriff darauf und kann nicht entfernt werden.
+>* Nur der Ersteller und Besitzer des privaten Ordners kann den Ordner löschen.
 

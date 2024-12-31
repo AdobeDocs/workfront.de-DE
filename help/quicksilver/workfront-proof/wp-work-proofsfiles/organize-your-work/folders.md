@@ -3,8 +3,8 @@ content-type: overview
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: organize-your-work-workfront-proof
-title: Ordner in  [!DNL Workfront Proof]
-description: Ordner sind die beste Möglichkeit, Ihre Arbeit in Ihrem [!DNL Workfront Proof] Konto zu organisieren. Sie können eine Ordnerstruktur erstellen, die die Ordnerstruktur auf Ihrem Computer widerspiegelt, mit separaten Ordnerstrukturen für jeden Client, Auftrag oder jede Kampagne.
+title: Ordner in [!DNL Workfront Proof]
+description: Ordner sind der beste Weg, um Ihre Arbeit in Ihrem - [!DNL Workfront Proof]  zu organisieren. Sie können eine Ordnerstruktur erstellen, die die Art und Weise widerspiegelt, wie Ordner auf Ihrem Computer organisiert sind, mit separaten Ordnerstrukturen für jeden Client, Auftrag oder jede Kampagne.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 2969d8f8-387f-403c-87e7-a1ff041f5089
@@ -19,20 +19,20 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Ordner sind die beste Möglichkeit, Ihre Arbeit in Ihrem [!DNL Workfront Proof]-Konto zu organisieren. Sie können eine Ordnerstruktur erstellen, die die Ordnerstruktur auf Ihrem Computer widerspiegelt, mit separaten Ordnerstrukturen für jeden Client, Auftrag oder jede Kampagne.
+Ordner sind die beste Möglichkeit, Ihre Arbeit in Ihrem [!DNL Workfront Proof]-Konto zu organisieren. Sie können eine Ordnerstruktur erstellen, die die Art und Weise widerspiegelt, wie Ordner auf Ihrem Computer organisiert sind, mit separaten Ordnerstrukturen für jeden Client, Auftrag oder jede Kampagne.
 
 ![folders.png](assets/folders-350x425.png)
 
-Vorteile der Verwendung von Ordnern:
+Die Verwendung von Ordnern bietet die folgenden Vorteile:
 
-* **Beschränkung des Zugriffs auf vertrauliche Client-Daten**: Wenn Sie nicht möchten, dass einige Ihrer Benutzer einige Ihrer Testsendungen sehen, können Sie die Ordner, in denen sie gespeichert sind, privat machen. Weitere Informationen finden Sie unter [Grundlegendes zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
+* **Zugriff auf vertrauliche Kundendaten einschränken**: Wenn Sie nicht möchten, dass einige Ihrer Benutzer einige Ihrer Korrekturabzüge sehen, können Sie die Ordner, in denen sie gespeichert sind, als privat festlegen. Weitere Informationen finden Sie unter [ zu Ordnerberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folder-permissions.md).
 
-* **Durchführen von Massenaktionen für Testsendungen und Dateien**: Sie können Testsendungen und Dateien, die in Ordner gruppiert sind, bequem verwalten, indem Sie Massenaktionen an ihnen durchführen. Sie können beispielsweise mehrere Elemente in einer Aktion freigeben. Weitere Informationen finden Sie unter [Verwalten von Ordnern und deren Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
+* **Massenaktionen für Korrekturabzüge und Dateien durchführen**: Sie können Korrekturabzüge und Dateien, die in Ordnern gruppiert sind, bequem verwalten, indem Sie Massenaktionen für sie durchführen. Sie können beispielsweise mehrere Elemente in einer Aktion freigeben. Weitere Informationen finden Sie unter [Verwalten von Ordnern und ihrem Inhalt in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders-and-contents.md).
 
-* **Freigeben von Ordnern für andere Workfront Proof-Benutzer**: Wenn Sie einen Ordner freigeben, wird er in der Seitenleiste des anderen Benutzers angezeigt und er hat Schreibschutz für alle Elemente im Ordner. Wenn Sie eng mit einem anderen Workfront Proof-Konto zusammenarbeiten, empfiehlt es sich möglicherweise, eine Partnerbeziehung zwischen Ihren Workfront Proof-Konten einzurichten. Auf diese Weise können Sie Ihre Ordner gleichzeitig für das gesamte Unternehmen freigeben, was bedeutet, dass die Ordner automatisch für neue Benutzer über das Partnerkonto freigegeben werden. Weitere Informationen finden Sie unter [Ordner in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md) freigeben.
+* **Freigeben von Ordnern für andere Benutzende von Workfront Proof**: Wenn Sie einen Ordner freigeben, wird er in der Seitenleiste der anderen Benutzenden angezeigt und diese haben schreibgeschützten Zugriff auf alle Elemente im Ordner. Wenn Sie eng mit einem anderen Workfront Proof-Konto zusammenarbeiten, empfiehlt es sich möglicherweise, eine Partnerbeziehung zwischen Ihren Workfront Proof-Konten einzurichten. Auf diese Weise können Sie Ihre Ordner gleichzeitig für das gesamte Unternehmen freigeben, d. h. die Ordner werden automatisch über das Partnerkonto für neue Benutzer freigegeben. Weitere Informationen finden Sie unter [Freigeben von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/share-folders.md).
 
-* **Gruppieren Sie Testsendungen, an denen Sie zusammenarbeiten möchten oder an denen Prüfer gemeinsam arbeiten sollen**: Wenn Sie oder ein anderer Prüfer einen der Testsendungen öffnet und den Testversand-Viewer startet, sind alle Testsendungen im Ordner ebenfalls verfügbar. Ohne den Testversand-Viewer verlassen zu müssen, können Sie die anderen Testsendungen anzeigen, sie sortieren und suchen und miteinander vergleichen. Weitere Informationen finden Sie unter &quot;Arbeiten mit mehreren Testsendungen im Testversand-Viewer&quot;.
+* **Korrekturabzüge gruppieren, an denen Sie gemeinsam arbeiten möchten oder für die Prüfer zusammenarbeiten sollen**: Wenn Sie oder ein anderer Prüfer einen der Korrekturabzüge öffnet und die Korrekturabzugsansicht startet, sind alle Korrekturabzüge im Ordner ebenfalls dort verfügbar. Ohne die Korrekturabzugsansicht verlassen zu müssen, können Sie die anderen Korrekturabzüge anzeigen, sortieren und nach ihnen suchen und sie miteinander vergleichen. Weitere Informationen finden Sie unter „Arbeiten mit mehreren Korrekturabzügen im Proofing Viewer“.
 
-Sie können die Ordner einzeln erstellen. Weitere Informationen finden Sie unter [Erstellen von Ordnern in  [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+Sie können Ihre Ordner einzeln erstellen. Weitere Informationen finden Sie unter [Ordner in erstellen [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).

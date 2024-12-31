@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents;workfront-integrations
 navigation-topic: create-proofs-and-files
-title: Die Dropzone
-description: Wenn Sie über einen Enterprise-Plan verfügen, können Sie mithilfe der Dropzone neue Testsendungen und neue Versionen von Testsendungen an Ihr Konto senden, ohne sich bei Ihrem Konto anmelden zu müssen.
+title: Der Ablagebereich
+description: Wenn Sie über den Enterprise-Plan verfügen, können Sie den Ablagebereich verwenden, um neue Korrekturabzüge und neue Versionen von Korrekturabzügen an Ihr Konto zu senden, ohne sich bei Ihrem Konto anmelden zu müssen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e66142fa-3b0d-4821-9aa5-040c62f00d62
@@ -14,112 +14,112 @@ ht-degree: 0%
 
 ---
 
-# Die Dropzone
+# Der Ablagebereich
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Wenn Sie über einen Enterprise-Plan verfügen, können Sie mithilfe der Dropzone neue Testsendungen und neue Versionen von Testsendungen an Ihr Konto senden, ohne sich bei Ihrem Konto anmelden zu müssen.
+Wenn Sie über den Enterprise-Plan verfügen, können Sie den Ablagebereich verwenden, um neue Korrekturabzüge und neue Versionen von Korrekturabzügen an Ihr Konto zu senden, ohne sich bei Ihrem Konto anmelden zu müssen.
 
-Wenn Sie einen Testversand über die Dropzone durchführen, wird dieser in Ihrem [!DNL Workfront Proof] -Konto auf der Dropzone-Seite angezeigt. Von dort aus können Sie ihn in Ihren Workflow weiterleiten.
+Wenn Sie einen Korrekturabzug über die Dropzone senden, wird er auf der Dropzone-Seite in Ihrem [!DNL Workfront Proof]-Konto angezeigt. Von dort aus können Sie sie in Ihren Workflow weiterleiten.
 
-## Senden eines neuen Testversands über die Dropzone-URL
+## Senden eines neuen Korrekturabzugs über die Dropzone-URL
 
-1. Wechseln Sie in Ihrem Browser zur eindeutigen Dropzone-URL, wie unter [Konfigurieren der Dropzone in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) beschrieben.
+1. Wechseln Sie in Ihrem Browser zur eindeutigen Dropzone-URL, wie unter [Konfigurieren der Dropzone in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) beschrieben
 1. Geben Sie Ihre E-Mail-Adresse ein.
-1. Klicken Sie auf &quot;**[!UICONTROL Select a file]**&quot;oder &quot;**[!UICONTROL Capture a web page]**&quot;und wählen Sie die Datei oder Webseite aus, die Sie hochladen möchten.
+1. Klicken Sie **[!UICONTROL Datei auswählen]** oder **[!UICONTROL Web-Seite erfassen]** und wählen Sie die Datei oder Web-Seite aus, die Sie hochladen möchten.
 
 1. Geben Sie den Sicherheitscode ein und klicken Sie dann auf **[!UICONTROL Weiter]**.\
-   Eine Statusleiste zeigt den Fortschritt des Uploads an.\
-   Im nächsten Bildschirm können Sie Details zum Testversand hinzufügen.\
+   Eine Fortschrittsleiste zeigt den Fortschritt des Uploads an.\
+   Im nächsten Bildschirm können Sie Details zum Korrekturabzug hinzufügen.\
    Beachten Sie, dass dieser Abschnitt nur angezeigt wird, wenn er in den Dropzone-Einstellungen aktiviert wurde.
 
 1. Nachdem Sie die Details ausgefüllt haben, klicken Sie auf **[!UICONTROL Weiter]**.
-1. Validierungsverantwortliche, die zum Testversand hinzugefügt wurden, erhalten ihre Benachrichtigungs-E-Mail erst nach Aktivierung des Testversands (siehe unten).
-1. Ihr Testversand durchläuft die folgenden Status, nachdem Sie ihn an die Dropzone gesendet haben:
+1. Prüfer, die zum Korrekturabzug hinzugefügt werden, erhalten ihre Benachrichtigungs-E-Mail erst nach der Aktivierung des Korrekturabzugs (siehe unten).
+1. Ihr Korrekturabzug durchläuft die folgenden Status, nachdem Sie ihn an den Ablagebereich gesendet haben:
 
-   * Wenn Sie eine Datei zum ersten Mal in die Dropzone hochladen, wird der Testversand dort als Entwurf angezeigt.
-   * Nach Abschluss der Übermittlung wird der Testversand in Ihrer Dropzone als Gesendet angezeigt.
-   * Sobald der Testversand aktiviert und entsperrt wurde, wird er in Ihrer Dropzone als aktiv angezeigt.
-   * Wenn der Testversand gesperrt ist, wird er in Ihrer Dropzone als &quot;Gesperrt&quot;angezeigt.
+   * Wenn Sie eine Datei zum ersten Mal in den Ablagebereich hochladen, wird der Korrekturabzug dort als Entwurf angezeigt.
+   * Sobald Sie die Übermittlung abgeschlossen haben, wird der Korrekturabzug in Ihrer Dropzone als „Gesendet“ angezeigt.
+   * Sobald der Korrekturabzug aktiviert und entsperrt wurde, wird er in Ihrer Ablagefläche als Aktiv angezeigt.
+   * Wenn der Korrekturabzug gesperrt ist, wird er in Ihrer Dropzone als gesperrt angezeigt.
 
-## Senden einer neuen Version eines vorhandenen Testversands über die Dropzone-URL
+## Senden einer neuen Version eines vorhandenen Korrekturabzugs über die Dropzone-URL
 
-1. Wechseln Sie in Ihrem Browser zur eindeutigen Dropzone-URL, wie unter [Konfigurieren der Dropzone in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) beschrieben.
+1. Wechseln Sie in Ihrem Browser zur eindeutigen Dropzone-URL, wie unter [Konfigurieren der Dropzone in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md) beschrieben
 1. Geben Sie Ihre E-Mail-Adresse ein.
-1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie eine neue Version eines vorhandenen Testversands hochladen.\
-   Informationen zum Erstellen einer neuen Testversand-Version finden Sie unter .
-1. Klicken Sie auf &quot;**[!UICONTROL Select a file]**&quot;oder &quot;**[!UICONTROL Capture a web page]**&quot;und wählen Sie die Datei oder Webseite aus, die Sie hochladen möchten.
+1. Aktivieren Sie das Kontrollkästchen, um anzugeben, dass Sie eine neue Version eines vorhandenen Korrekturabzugs hochladen.\
+   Informationen zum Erstellen einer neuen Version eines Korrekturabzugs finden Sie unter .
+1. Klicken Sie **[!UICONTROL Datei auswählen]** oder **[!UICONTROL Web-Seite erfassen]** und wählen Sie die Datei oder Web-Seite aus, die Sie hochladen möchten.
 
 1. Geben Sie den Sicherheitscode ein und klicken Sie dann auf **[!UICONTROL Weiter]**.\
-   Eine Statusleiste zeigt den Fortschritt des Uploads an.\
+   Eine Fortschrittsleiste zeigt den Fortschritt des Uploads an.\
    Workfront Proof sendet Ihnen eine Validierungs-E-Mail.
 
 1. Klicken Sie auf den Link in der E-Mail.\
    Die E-Mail öffnet das Dropzone-Fenster in Ihrem Browser. Der Link in der E-Mail-Benachrichtigung ist 24 Stunden lang gültig.
-1. Wählen Sie die vorherige Version des Testversands aus (es werden nur Testsendungen angezeigt, die Sie erstellt/gesendet haben).\
-   Im nächsten Bildschirm können Sie Testversanddetails hinzufügen.\
+1. Wählen Sie die vorherige Version des Testversands aus (es werden nur die von Ihnen erstellten/eingereichten Testsendungen angezeigt).\
+   Im nächsten Bildschirm können Sie Details zum Korrekturabzug hinzufügen.\
    Dieser Abschnitt wird nur angezeigt, wenn er in den Dropzone-Einstellungen aktiviert wurde.
 
 1. Geben Sie die Details ein und klicken Sie auf **[!UICONTROL Weiter]**.
 
    >[!NOTE]
    >
-   >Validierungsverantwortliche, die zum Testversand hinzugefügt wurden, erhalten ihre Benachrichtigungs-E-Mail erst nach Aktivierung des Testversands (siehe unten).
+   >Prüfer, die zum Korrekturabzug hinzugefügt werden, erhalten ihre Benachrichtigungs-E-Mail erst nach der Aktivierung des Korrekturabzugs (siehe unten).
 
-   Ihr Testversand durchläuft die folgenden Status, nachdem Sie ihn an die Dropzone gesendet haben:
+   Ihr Korrekturabzug durchläuft die folgenden Status, nachdem Sie ihn an den Ablagebereich gesendet haben:
 
-   * Wenn Sie eine Datei zum ersten Mal in die Dropzone hochladen, wird der Testversand dort als Entwurf angezeigt.
-   * Nach Abschluss der Übermittlung wird der Testversand in Ihrer Dropzone als Gesendet angezeigt.
-   * Sobald der Testversand aktiviert und entsperrt wurde, wird er in Ihrer Dropzone als aktiv angezeigt.
-   * Wenn der Testversand gesperrt ist, wird er in Ihrer Dropzone als &quot;Gesperrt&quot;angezeigt.
+   * Wenn Sie eine Datei zum ersten Mal in den Ablagebereich hochladen, wird der Korrekturabzug dort als Entwurf angezeigt.
+   * Sobald Sie die Übermittlung abgeschlossen haben, wird der Korrekturabzug in Ihrer Dropzone als „Gesendet“ angezeigt.
+   * Sobald der Korrekturabzug aktiviert und entsperrt wurde, wird er in Ihrer Ablagefläche als Aktiv angezeigt.
+   * Wenn der Korrekturabzug gesperrt ist, wird er in Ihrer Dropzone als gesperrt angezeigt.
 
-## Versenden eines Testversands per E-Mail an die Dropzone
+## Korrekturabzug per E-Mail an Ablagebereich senden
 
 >[!NOTE]
 >
->Das Versenden eines Testversands an die Dropzone wird nicht mehr unterstützt.
+>Das Senden eines Korrekturabzugs per E-Mail an den Ablagebereich wird nicht mehr unterstützt.
 
 
 ## Abschließen der Übermittlung
 
-Workfront sendet Ihnen (dem Absender) eine E-Mail mit der Aufforderung, den Versand abzuschließen, um zu bestätigen, ob es sich bei der Datei um einen neuen Testversand oder eine neue Version handelt. Der Link in der E-Mail-Benachrichtigung ist 24 Stunden lang gültig.
+Workfront sendet Ihnen (dem Übermittler) eine E-Mail Abschließen Ihrer Übermittlung , in der Sie aufgefordert werden zu bestätigen, ob es sich um einen neuen Korrekturabzug oder eine neue Version handelt. Der Link in der E-Mail-Benachrichtigung ist 24 Stunden lang gültig.
 
-1. Klicken Sie auf den Link und führen Sie je nachdem, ob es sich um einen neuen Testversand oder eine neue Version eines vorhandenen Testversands handelt, die oben genannten Schritte aus.
+1. Klicken Sie auf den Link und führen Sie die oben genannten Schritte aus, je nachdem, ob es sich um einen neuen Korrekturabzug oder eine neue Version eines vorhandenen Korrekturabzugs handelt.
 
 ## Testversand aktivieren
 
-Der Inhaber der Dropzone erhält eine Benachrichtigungs-E-Mail, um darüber zu informieren, dass ein neuer Testversand an die Dropzone gesendet wurde:
+Der Inhaber der Dropzone erhält eine Benachrichtigungs-E-Mail, die ihn darüber informiert, dass ein neuer Korrekturabzug für die Dropzone eingereicht wurde:
 
-* Der Testversand wird auf der Dropzone-Seite Ihres Kontos angezeigt (klicken Sie auf den Link in der linken Navigationsseitenleiste, um auf die Dropzone-Seite zuzugreifen).
-* Auf den Testversand kann der Inhaber der Dropzone (oder ein Benutzer mit mindestens einem Supervisor-Profil) zugreifen. Der Inhaber kann in den Dropzone-Einstellungen geändert werden (dies kann nur von einem Rechnungsadministrator oder einem Administrator vorgenommen werden).
-* Bevor der Testversand bearbeitet werden kann, muss er vom Inhaber der Dropzone aktiviert/entsperrt werden (ein Benutzer mit mindestens einem Supervisor-Profil kann dies ebenfalls tun). Der Status des Testversands wird als Gesendet angezeigt, bis er aktiviert/entsperrt wurde.
+* Der Korrekturabzug wird auf der Seite Ablagebereich in Ihrem Konto angezeigt (klicken Sie auf den Link in der linken Navigationsseitenleiste, um auf die Seite Ablagebereich zuzugreifen).
+* Der Korrekturabzug ist für den Besitzer der Dropzone (oder für Benutzende mit mindestens einem Supervisor-Profil) zugänglich. Der Eigentümer kann in den Dropzone-Einstellungen geändert werden (nur ein Abrechnungs-Administrator oder ein Administrator kann dies tun).
+* Bevor der Korrekturabzug bearbeitet werden kann, muss er vom Besitzer der Dropzone aktiviert/entsperrt werden (ein Benutzer mit mindestens einem Supervisor-Profil kann dies ebenfalls tun). Der Status des Korrekturabzugs wird als „Gesendet“ angezeigt, bis er aktiviert/entsperrt wurde.
 
-So aktivieren Sie den Testversand:
+So aktivieren Sie den Korrekturabzug:
 
-1. Gehen Sie zum Dropdown-Menü rechts neben dem Testversand und klicken Sie auf **[!UICONTROL Aktivieren]**.
-1. Sobald der Testversand aktiviert/entsperrt wurde:
+1. Gehen Sie zum Dropdown-Menü rechts neben dem Korrekturabzug und klicken Sie auf **[!UICONTROL Aktivieren]**.
+1. Sobald der Korrekturabzug aktiviert/entsperrt wurde:
 
-   * Der Testversandstatus wechselt zu Aktiv .
-   * Alle Personen, die zum Testversand hinzugefügt wurden, erhalten eine Benachrichtigungs-E-Mail, um ihnen mitzuteilen, dass sie über einen neuen Testversand verfügen. (Bis zum Aktivieren/Entsperren des Testversands wird keine E-Mail gesendet.)
-   * Der Testversand kann wie gewohnt bearbeitet werden
-   * Wenn sich der Absender auch explizit zum Testversand hinzufügt, erhält er keine E-Mail zum Neuen Testversand. Weitere Informationen finden Sie unter [Neue Testversand-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+   * Der Status des Korrekturabzugs ändert sich in Aktiv .
+   * Alle Personen, die zum Korrekturabzug hinzugefügt wurden, erhalten eine Benachrichtigungs-E-Mail, in der sie darauf hingewiesen werden, dass sie einen neuen Korrekturabzug zu prüfen haben. (Es wird keine E-Mail gesendet, bis der Korrekturabzug aktiviert/entsperrt wurde.)
+   * Der Korrekturabzug kann wie gewohnt bearbeitet werden
+   * Wenn der Absender sich selbst explizit zum Korrekturabzug hinzufügt, erhält er keine neue Korrekturabzugs-E-Mail. Weitere Informationen finden Sie unter [Neue Korrekturabzugs-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-## Verwalten der Dropzone
+## Verwalten des Ablagebereichs
 
-Die Dropzone-Seite erleichtert die Verwaltung der Übermittlungen in Ihrer Dropzone. Ihre Dropzone-Seite enthält die folgenden Optionen und Funktionen:
+Die Dropzone-Seite erleichtert die Verwaltung der Übermittlungen an Ihre Dropzone. Ihre Dropzone-Seite umfasst die folgenden Optionen und Funktionen:
 
-* Seitenlayout (1)
-* Wählen Sie aus, ob archivierte Testsendungen in die Ansicht aufgenommen/ausgeschlossen werden sollen (2).
+* Seiten-Layout (1)
+* Archivierte Korrekturabzüge in die Ansicht einbeziehen/ausschließen (2)
 * Aktionsschaltflächen (3)
-* Sortieren (4)
+* Sortierung (4)
 * Filter (5)
-* Menü für Testaktionen (6)
-* Archivierung des Testversands aufheben (7)
-* Testversand-Zusammenfassung erweitern/reduzieren (8)
-* Testversand auswählen (9)
+* Aktionsmenü für Korrekturabzüge (6)
+* Archivierung des Korrekturabzugs aufheben (7)
+* Korrekturabzug-Zusammenfassung erweitern/reduzieren (8)
+* Korrekturabzug auswählen (9)
 
-Die Optionen für Seitenlayout, Sortierung und Filterung sind mit denen in den Listen [!DNL Views] identisch. Weitere Informationen finden Sie unter [Elemente auf der Ansichtsseite verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) .
+Das Seitenlayout sowie die Sortierungs- und Filteroptionen sind mit denen in den [!DNL Views] identisch. Weitere [ finden Sie unter „Elemente auf der Seite &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)&quot; in.
 
-![new_droppedZone_design_feb_2013_jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)
+![New_Dropzone_design__Feb_2013_.jpg](assets/new-dropzone-design--feb-2013--350x224.jpg)

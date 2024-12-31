@@ -3,8 +3,8 @@ content-type: reference
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: workfront-proof-navigation-topic
-title: Technische Ecke von Workfront Proof
-description: Technische Ecke von Workfront Proof
+title: Workfront Proof Tech Corner
+description: Workfront Proof Tech Corner
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,12 +16,12 @@ ht-degree: 0%
 
 ---
 
-# [!DNL Workfront Proof] Tech corner
+# [!DNL Workfront Proof]
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../review-and-approve-work/proofing/proofing.md).
 
-* [Testversandtypen](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)
+* [Typen von Korrekturabzügen](../../workfront-proof/wp-tech-corner/proof-types/proof-types.md)

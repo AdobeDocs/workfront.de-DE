@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: manage-your-work-workfront-proof
-title: Grundlegendes zum Testversandstatus in Workfront Proof
-description: In [!DNL Workfront Proof] gibt es Testsendungen in verschiedenen Status. Diese Status bestimmen, welche Aktionen Sie für den Testversand ausführen können, z. B. Kommentare oder Entscheidungen treffen.
+title: Grundlegendes zum Teststatus in Workfront Proof
+description: In  [!DNL Workfront Proof] gibt es Korrekturabzüge in verschiedenen Status. Diese Zustände bestimmen, welche Aktionen Sie für den Korrekturabzug durchführen können, z. B. Kommentare oder Entscheidungen treffen.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
@@ -14,71 +14,71 @@ ht-degree: 0%
 
 ---
 
-# Grundlegendes zum Testversandstatus in Workfront Proof
+# Grundlegendes zum Teststatus in Workfront Proof
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-In [!DNL Workfront Proof] gibt es Testsendungen in verschiedenen Status. Diese Status bestimmen, welche Aktionen Sie für den Testversand ausführen können, z. B. Kommentare oder Entscheidungen treffen.
+In [!DNL Workfront Proof] gibt es Korrekturabzüge in verschiedenen Status. Diese Zustände bestimmen, welche Aktionen Sie für den Korrekturabzug durchführen können, z. B. Kommentare oder Entscheidungen treffen.
 
 ## Grundlagen zum Teststatus
 
-Die vier Status sind:
+Die vier Status lauten wie folgt:
 
 * [Aktiv](#active)
 * [Gesperrt](#locked)
-* [Entwurf (nur Dropzone)](#draft-dropzone-only)
+* [Entwurf (nur Ablagebereich)](#draft-dropzone-only)
 * [Gesendet (nur Dropzone)](#submitted-dropzone-only)
 
 ### Aktiv {#active}
 
-Testsendungen, die über die Seite &quot;Neuer Testversand&quot;oder die Dropzone in [!DNL Workfront Proof] hochgeladen werden, werden nach der Verarbeitung als aktiv angezeigt. Wenn ein Testversand aktiv ist, können Benutzer den Testversand überprüfen, kommentieren und Entscheidungen treffen.
+Korrekturabzüge, die über die Seite Neuer Korrekturabzug oder die Dropzone in [!DNL Workfront Proof] hochgeladen werden, werden nach der Verarbeitung als aktiv angezeigt. Wenn ein Korrekturabzug aktiv ist, können Benutzende ihn überprüfen, Kommentare abgeben und Entscheidungen über den Korrekturabzug treffen.
 
 >[!NOTE]
 >
->Testsendungen, die über die Dropzone hochgeladen werden, werden nur dann als aktiv angezeigt, wenn die Option Testversand bei Übermittlung aktivieren aktiviert ist. Wenn die Option nicht aktiviert ist, müssen Sie den Testversand manuell aktivieren.
+>Korrekturabzüge, die über den Ablagebereich hochgeladen werden, werden nur dann als aktiv angezeigt, wenn die Option Korrekturabzug bei Übermittlung aktivieren aktiviert ist. Wenn die Option nicht aktiviert ist, müssen Sie den Korrekturabzug manuell aktivieren.
 
 Weitere Informationen zu Dropzone-Einstellungen finden Sie unter [Konfigurieren der Dropzone in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
 ### Gesperrt {#locked}
 
-Sie können einen Testversand sperren, wenn Sie die Überprüfung abgeschlossen haben. Das Sperren eines Testversands bedeutet, dass keine weiteren Kommentare oder Entscheidungen zum Testversand getroffen werden können, der Testversand jedoch trotzdem geöffnet werden kann.
+Sie können einen Korrekturabzug sperren, wenn Sie mit der Überprüfung fertig sind. Das Sperren eines Korrekturabzugs bedeutet, dass keine Kommentare oder Entscheidungen mehr zum Korrekturabzug getroffen werden können, aber der Korrekturabzug kann weiterhin geöffnet werden.
 
-Alle Benutzer mit Bearbeitungsrechten für den Testversand können ihn entsperren.
+Alle Benutzer mit Bearbeitungsrechten für den Korrekturabzug können ihn entsperren.
 
-Weitere Informationen zu Berechtigungen finden Sie unter [Profile für Testberechtigungen in  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Weitere Informationen zu Berechtigungen finden Sie unter [Korrekturabzugsberechtigungsprofile in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
 >[!NOTE]
 >
->E-Mail-Benachrichtigungen werden beim Sperren eines Testversands nicht mehr gesendet. Wenn beispielsweise ein Testversand vor Ablauf der Frist gesperrt wird, wird bei Erreichen der entsprechenden Frist keine Benachrichtigungs-E-Mail gesendet.
+>E-Mail-Benachrichtigungen werden nicht mehr gesendet, wenn ein Korrekturabzug gesperrt ist. Wenn beispielsweise ein Korrekturabzug vor Ablauf der Frist gesperrt wird, wird beim Erreichen der Frist keine Benachrichtigungs-E-Mail gesendet.
 
-### Entwurf (nur Dropzone) {#draft-dropzone-only}
+### Entwurf (nur Ablagebereich) {#draft-dropzone-only}
 
-Wenn Sie einen Testversand über die Dropzone senden, wird er in den Status Entwurf versetzt, bevor der Administrator ihn aktiviert. Wenn es sich im Entwurfsbereich befindet, können Sie keine Aktionen für den Testversand durchführen.
+Wenn Sie einen Korrekturabzug über die Ablagefläche senden, wechselt er in den Status Entwurf , bevor ihn der Administrator aktiviert. Wenn er sich im Entwurfsbereich befindet, können Sie keine Aktionen für den Korrekturabzug durchführen.
 
 ### Gesendet (nur Dropzone) {#submitted-dropzone-only}
 
-Nachdem ein Entwurf vom Administrator aktiviert wurde, wird Ihr Testversand als Gesendet in der Dropzone angezeigt. Nach der Übermittlung können Sie den Testversand bearbeiten.
+Nachdem ein Entwurf vom Administrator aktiviert wurde, wird Ihr Korrekturabzug als „Gesendet“ im Ablagebereich angezeigt. Nachdem er übermittelt wurde, können Sie Aktionen für den Korrekturabzug durchführen.
 
-## Anzeigen und Ändern des Teststatus
+## Anzeigen und Ändern des Status des Korrekturabzugs
 
-Informationen zum Anzeigen einer Liste aller Testsendungen in einem bestimmten Status, z. B. zum Anzeigen aller aktiven oder gesperrten Testsendungen, finden Sie unter [Elemente auf der Ansichtsseite verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) im Artikel [Elemente auf der Ansichtsseite verwalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
+Informationen zum Anzeigen einer Liste aller Korrekturabzüge in einem bestimmten Status, z. B. aller aktiven oder gesperrten Korrekturabzüge, finden Sie unter [Verwalten von Elementen auf der Seite &quot; [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md)&quot; im Artikel [Verwalten von Elementen auf der Seite „Ansichten“ [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md).
 
-1. Rufen Sie Ihr [!DNL Workfront Proof] Dashboard auf.
+1. Greifen Sie auf Ihr [!DNL Workfront Proof] Dashboard zu.
 
-   Weitere Informationen finden Sie unter [Zugriff [!DNL Workfront Proof] über Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
+   Weitere Informationen finden Sie unter [Zugriff [!DNL Workfront Proof]  von Adobe Workfront](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/access-wf-proof-in-workfront.md).
 
-1. Klicken Sie im **[!UICONTROL Dashboard]** auf den Pfeil **[!UICONTROL Erweitern]** neben dem Testversand, den Sie anzeigen oder dessen Status ändern möchten.
+1. Klicken Sie **[!UICONTROL Dashboard]** auf den Pfeil **[!UICONTROL Erweitern]** neben dem Korrekturabzug, dessen Status Sie anzeigen oder ändern möchten.
 
    ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
-   Der Abschnitt **[!UICONTROL Workflow-Prozess]** wird angezeigt.
+   Der **[!UICONTROL Workflow-Prozess]** wird angezeigt.
 
    ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
-1. Anzeigen des **[!UICONTROL Status]** im **[!UICONTROL Workflow-Prozess]**.
+1. Zeigen Sie den **[!UICONTROL Status]** im **[!UICONTROL Workflow-Prozess]** an.
 
-1. (Optional) Um den Status zu ändern, bewegen Sie den Mauszeiger über den aktuellen **[!UICONTROL Status]**, klicken Sie auf das Dropdown-Menü und wählen Sie einen neuen Status aus.
+1. (Optional) Um den Status zu ändern, bewegen Sie den Mauszeiger über **[!UICONTROL aktuellen Status]** klicken Sie auf das Dropdown-Menü und wählen Sie dann einen neuen Status aus.
 
    ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
-title: Herunterladen eines Testversands
-description: Sie können Dateien von einem vorhandenen Testversand herunterladen. Es werden jedoch nur die Dateien heruntergeladen. Kommentare und andere mit dem Testversand verbundene Informationen werden nicht in den Download aufgenommen.
+title: Herunterladen eines Korrekturabzugs
+description: Sie können Dateien von einem vorhandenen Korrekturabzug herunterladen. Es werden jedoch nur die Dateien heruntergeladen. Kommentare und andere mit dem Korrekturabzug verknüpfte Informationen sind nicht im Download enthalten.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 630db335-79b6-40f0-80b7-d8ccf7ac23fa
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Herunterladen eines Testversands im Testversand-Viewer
+# Herunterladen eines Korrekturabzugs in der Korrekturabzugsansicht
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie können Dateien von einem vorhandenen Testversand herunterladen. Es werden jedoch nur die Dateien heruntergeladen. Kommentare und andere mit dem Testversand verbundene Informationen werden nicht in den Download aufgenommen.
+Sie können Dateien von einem vorhandenen Korrekturabzug herunterladen. Es werden jedoch nur die Dateien heruntergeladen. Kommentare und andere mit dem Korrekturabzug verknüpfte Informationen sind nicht im Download enthalten.
 
-1. Klicken Sie in der Symbolleiste links neben dem Testversand-Viewer auf die Schaltfläche **[!UICONTROL Download]** .\
-   ![Proofing_viewer_toolbar_button_-_download.png](assets/proofing-viewer-toolbar-button---download.png)
+1. Klicken Sie in der Symbolleiste links neben der Korrekturabzugsansicht auf die Schaltfläche **[!UICONTROL Herunterladen]**.\
+   ![Proofing_Viewer_toolbar_button_-_download.png](assets/proofing-viewer-toolbar-button---download.png)
 
-1. Navigieren Sie zum Speicherort im Dateisystem, in den Sie den Testversand herunterladen möchten, und klicken Sie dann auf **[!UICONTROL Speichern]**.
+1. Navigieren Sie zu dem Speicherort auf Ihrem Dateisystem, an den Sie den Korrekturabzug herunterladen möchten, und klicken Sie dann auf **[!UICONTROL Speichern]**.

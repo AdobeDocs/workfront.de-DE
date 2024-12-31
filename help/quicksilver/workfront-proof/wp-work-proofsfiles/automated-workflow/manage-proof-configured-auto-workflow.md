@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 product-area: documents
 navigation-topic: automated-workflow-workfront-proof
-title: Verwalten eines mit einem automatisierten Workflow konfigurierten Testversands in [!DNL Workfront Proof]
-description: Sie können den Fortschritt Ihrer automatisierten Workflow-Testsendungen bequem im Abschnitt Workflow auf der Seite mit den Testsendungen verfolgen. Sie können die auf jeder Bühne geleistete Arbeit ansehen und die Bühnen Ihres Testversands ändern, hinzufügen, starten und sperren.
+title: Verwalten eines Korrekturabzugs, der mit einem automatisierten Workflow in konfiguriert wurde [!DNL Workfront Proof]
+description: Den Fortschritt Ihrer automatisierten Workflow-Korrekturabzüge können Sie bequem im Abschnitt Workflow der Seite mit den Korrekturabzugsdetails verfolgen. Sie können die in den einzelnen Phasen durchgeführten Arbeiten anzeigen und die Phasen im Korrekturabzug ändern, hinzufügen, starten und sperren.
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1d0ad905-f3fb-471a-8766-096b978cdf4e
@@ -14,115 +14,115 @@ ht-degree: 0%
 
 ---
 
-# Verwalten eines mit einem automatisierten Workflow konfigurierten Testversands in [!DNL Workfront Proof]
+# Verwalten eines Korrekturabzugs, der mit einem automatisierten Workflow in [!DNL Workfront Proof] konfiguriert wurde
 
 >[!IMPORTANT]
 >
->Dieser Artikel bezieht sich auf die Funktionalität im eigenständigen Produkt [!DNL Workfront Proof]. Informationen zum Testen innerhalb von [!DNL Adobe Workfront] finden Sie unter [Testversand](../../../review-and-approve-work/proofing/proofing.md).
+>Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
-Sie können den Fortschritt Ihrer automatisierten Workflow-Tests bequem im Abschnitt &quot;Workflow&quot;der Seite [!UICONTROL Testversand-Details] verfolgen. Sie können die auf jeder Bühne geleistete Arbeit ansehen und die Bühnen Ihres Testversands ändern, hinzufügen, starten und sperren.
+Den Fortschritt Ihrer automatisierten Workflow-Korrekturabzüge können Sie im Abschnitt Workflow der Seite [!UICONTROL Korrekturabzugsdetails“ ]. Sie können die in den einzelnen Phasen durchgeführten Arbeiten anzeigen und die Phasen im Korrekturabzug ändern, hinzufügen, starten und sperren.
 
 ## Anzeigen eines automatisierten Workflows
 
-Sie haben drei Möglichkeiten, Ihren automatisierten Workflow anzuzeigen:
+Sie können Ihren automatisierten Workflow auf drei Arten anzeigen:
 
-* [Detailansicht einer Bühne](#view-a-stage-in-detail)
-* [Alle Phasen anzeigen](#view-all-stages)
-* [Detailansicht aller Bühnen](#view-all-stages-in-detail)
+* [Einen Schritt im Detail anzeigen](#view-a-stage-in-detail)
+* [Alle Stadien anzeigen](#view-all-stages)
+* [Alle Stadien im Detail anzeigen](#view-all-stages-in-detail)
 
-### Detailansicht einer Bühne {#view-a-stage-in-detail}
+### Einen Schritt im Detail anzeigen {#view-a-stage-in-detail}
 
-1. Klicken Sie auf die Schaltfläche oben im Abschnitt (1).
+1. Klicken Sie auf die Schaltfläche oben im Bereich (1).
 
-   Mithilfe des Diagramms können Sie zwischen Phasen wechseln. Die Anzeige der Bühne ist grau hervorgehoben (2).
+   Sie können mithilfe des Diagramms zwischen den Phasen wechseln. Die Phase, die Sie anzeigen, ist grau hervorgehoben (2).
 
-1. Um eine andere Bühne anzuzeigen, wählen Sie sie im Diagramm aus.
+1. Um einen anderen Schritt anzuzeigen, wählen Sie ihn im Diagramm aus.
 
 ![View_a_stage_in_detail.png](assets/view-a-stage-in-detail-350x249.png)
 
-### Alle Phasen anzeigen {#view-all-stages}
+### Alle Stadien anzeigen {#view-all-stages}
 
-So zeigen Sie alle Phasen in einem automatisierten Workflow an:
+So zeigen Sie alle Phasen eines automatisierten Workflows an:
 
 1. Klicken Sie auf die Schaltfläche oben auf der Seite (3).
 
    Alle Phasen des automatisierten Workflows werden im Abschnitt aufgelistet, die Details sind jedoch ausgeblendet.
 
-1. Um die Details einer Bühne anzuzeigen, klicken Sie auf das Pluszeichen neben dem Namen jeder Bühne (4).
+1. Um die Details eines Schritts anzuzeigen, klicken Sie auf das Pluszeichen neben dem Namen jedes Schritts (4).
 
-![View_all_stage.png](assets/view-all-stages-350x212.png)
+![View_all_stages.png](assets/view-all-stages-350x212.png)
 
-### Detailansicht aller Bühnen {#view-all-stages-in-detail}
+### Alle Stadien im Detail anzeigen {#view-all-stages-in-detail}
 
-So zeigen Sie alle Phasen Ihres automatisierten Workflows detailliert an:
+So zeigen Sie alle Phasen Ihres automatisierten Workflows im Detail an:
 
 1. Klicken Sie auf die Schaltfläche oben auf der Seite (5).
 
-   Dadurch werden alle Phasen Ihres automatisierten Workflows mit erweiterten Details zu den einzelnen Phasen angezeigt.
+   Auf dieser Seite werden alle Phasen Ihres automatisierten Workflows mit erweiterten Details jedes Schritts angezeigt.
 
-   Sie können die Details der einzelnen Phasen ausblenden, indem Sie auf das Minuszeichen (6) klicken.
+   Sie können die Details der einzelnen Stadien ausblenden, indem Sie auf das Minussymbol (6) klicken.
 
-![View_all_stage_in_detail.png](assets/view-all-stages-in-detail-350x370.png)
+![View_all_stages_in_detail.png](assets/view-all-stages-in-detail-350x370.png)
 
-## Verwenden des Diagramms &quot;Automatisierter Workflow&quot;
+## Verwenden des Diagramms eines automatisierten Workflows
 
-Das Diagramm Ihres automatisierten [!UICONTROL Workflows] wird oben im Abschnitt &quot;Workflow&quot;angezeigt.
+Das Diagramm Ihres [!UICONTROL Workflows] wird oben im Abschnitt Workflow angezeigt.
 
 So blenden Sie das Diagramm aus
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Ausblenden]** (1).
+1. Klicken Sie auf **[!UICONTROL Schaltfläche „Ausblenden]** (1).
 
 ![Diagramm__1_.png](assets/diagram--1--350x217.png)
 
-Die Phasen im Diagramm sind wie folgt gekennzeichnet:
+Die Schritte im Diagramm sind wie folgt gekennzeichnet:
 
-![dot.png](assets/dot.png) - eine aktive Bühne
+![dot.png](assets/dot.png)- Ein aktiver Schritt
 
-![gray_dot.png](assets/grey-dot.png) - eine inaktive Bühne\
-![sbw-key-icon.png](assets/sbw-key-icon.png)  - private Bühne
+![gray_dot.png](assets/grey-dot.png)- Ein inaktiver Schritt\
+![sbw-key-icon.png](assets/sbw-key-icon.png)  - eine private Bühne
 
-![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  - eine gesperrte Phase
+![sbw-padlock-icon.png](assets/sbw-padlock-icon.png)  - eine gesperrte Bühne
 
-Die Linien zwischen den Bühnen zeigen die Abhängigkeiten zwischen den Bühnen an. Die Linien, die zu inaktiven Bühnen führen, werden gepunktet, bis die Bühne aktiviert ist.
+Die Linien zwischen den Stadien stellen die Abhängigkeiten zwischen den Stadien dar. Die Linien, die zu inaktiven Stufen führen, sind gepunktet, bis die Stufe aktiviert ist.
 
-Wenn Sie den Mauszeiger über eine Phase im Diagramm bewegen, wird der Fortschritt der Phase angezeigt. Wenn die Bühne nicht aktiv ist und Sie Bearbeitungsrechte für die Bühne haben, können Sie die Bühne mit der Schaltfläche [!UICONTROL Start der Phase] vom Popup aus starten. Gleichermaßen wird die Option zum Sperren einer aktiven Phase angezeigt.
+Wenn Sie den Mauszeiger über eine Phase im Diagramm bewegen, wird der Fortschritt der Phase angezeigt. Wenn die Phase nicht aktiv ist und Sie über Bearbeitungsrechte für die Phase verfügen, können Sie die Phase über die Schaltfläche [!UICONTROL Phase starten] vom Popup aus starten. Auf ähnliche Weise wird die Option zum Sperren eines aktiven Schritts angezeigt.
 
-Weitere Informationen zur Fortschrittsleiste finden Sie unter  [Anzeigen des Fortschritts und Status eines Testversands in [!DNL Workfront] Testversand](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+Weitere Informationen zur Fortschrittsleiste finden Sie unter  [Anzeigen des Fortschritts und Status eines Korrekturabzugs in  [!DNL Workfront] -](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
-![Diagramm_-_stage_summary.png](assets/diagram---stage-summary-350x214.png)
+![diagram_-_stage_summary.png](assets/diagram---stage-summary-350x214.png)
 
-## Neue Phase hinzufügen
+## Neues Stadium hinzufügen
 
-Sie können Ihrem automatisierten Workflow über die Seite [!UICONTROL Testversand-Details] eine neue Phase hinzufügen.
+Sie können Ihrem automatisierten Workflow über die Seite [!UICONTROL Korrekturabzugsdetails“ einen neuen Schritt ].
 
-1. Klicken Sie auf die Schaltfläche **[!UICONTROL Neue Phase]** (1).
+1. Klicken Sie auf **[!UICONTROL Schaltfläche „Neues]**&quot; (1).
 
-![Hinzufügen_a_new_stage_1.png](assets/adding-a-new-stage-1-350x218.png)
+![Adding_a_new_stage_1.png](assets/adding-a-new-stage-1-350x218.png)
 
-Im angezeigten Feld **Neue Bühne** können Sie die Details und Einstellungen der Bühne ausfüllen.
+Im Feld **Neues Stadium** können Sie die Details und Einstellungen für das Stadium angeben.
 
-![Hinzufügen_a_new_stage_2.png](assets/adding-a-new-stage-2-350x332.png)
+![Adding_a_new_stage_2.png](assets/adding-a-new-stage-2-350x332.png)
 
-## Verwalten von Staging-Einstellungen
+## Stadieneinstellungen verwalten
 
-Auf den Seitendetails können Sie die Einstellungen für jede Phase ändern (wenn Sie über Bearbeitungsrechte verfügen):
+Auf der Seite Details können Sie die Einstellungen für jedes Stadium ändern (wenn Sie Bearbeitungsrechte haben):
 
-* Ändern, Hinzufügen oder Entfernen des Termins für die Phase (1)
-* Bühne sperren (2) - diese Option wird angezeigt, wenn die Bühne aktiv ist. Für inaktive Phasen wird die Option Starten der Bühne angezeigt.
-* Einstellungen durch Inline-Bearbeitung ändern (3)
-* Nur eine Entscheidung für die Bühne aktivieren oder deaktivieren (4)
+* Frist für die Etappe ändern, hinzufügen oder entfernen (1)
+* Phase sperren (2) - Diese Option wird angezeigt, wenn die Phase aktiv ist. Bei inaktiven Phasen wird die Option zum Starten der Phase angezeigt
+* Änderung der Einstellungen durch Inline-Bearbeitung (3)
+* Aktivieren oder deaktivieren Sie Nur eine einzige für das Stadium erforderliche Entscheidung (4)
 * Ändern der Privatsphäre der Bühne (5)
 
 ![Managing_stage_settings.png](assets/managing-stage-settings-350x93.png)
 
-Sie können die Prüfer auch zwischen Phasen verschieben, indem Sie sie einfach von einer Phase in eine andere ziehen und dort ablegen. Die verfügbaren Etappen werden blau hervorgehoben, wobei die Ablageflächen für jede Phase deutlich markiert sind.
+Sie können die Reviewer auch zwischen verschiedenen Phasen verschieben, indem Sie sie einfach von einem Schritt in den nächsten ziehen und ablegen. Die verfügbaren Phasen werden blau hervorgehoben, wobei die Ablagebereiche für jede Phase deutlich markiert sind.
 
-![ Moving_reviewers_between_stage.png](assets/moving-reviewers-between-stages-350x254.png)
+![Moving_reviewers_between_states.png](assets/moving-reviewers-between-stages-350x254.png)
 
 ## Staging-Optionen
 
-Das Menü [!UICONTROL Aktionen] (1) für jede Phase verfügt über die folgenden Optionen:
+Das [!UICONTROL Aktionen]-Menü (1) für jede Phase bietet die folgenden Optionen:
 
-* Alle Nachricht senden (2) - Sie können eine Erinnerungsmail an alle validierungsverantwortlichen Benutzer in der Phase senden
-* Freigeben (3) - Sie können der Bühne neue Prüfer hinzufügen
-* Phase löschen (4) - Wenn sich der Testversandinhaber auf dieser Stufe befindet, werden Sie aufgefordert, eine neue Phase für sie auszuwählen.
+* Nachricht an alle (2) - Sie können eine Erinnerungs-E-Mail an alle Reviewer auf der Bühne senden
+* Freigeben (3) - Sie können der Phase neue Validierungsverantwortliche hinzufügen
+* Schritt (4) löschen - Wenn sich der/die Verantwortliche für den Korrekturabzug auf dieser Phase befindet, werden Sie aufgefordert, eine neue Phase auszuwählen
