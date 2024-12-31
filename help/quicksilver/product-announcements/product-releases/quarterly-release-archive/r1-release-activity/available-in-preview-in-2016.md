@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: In der Vorschau 2016 verfügbare Funktionen
-description: Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Diese Funktionen sind für die Veröffentlichung in der Produktionsumgebung mit der R1-Version geplant.
+title: Funktion wurde in der Vorschau 2016 verfügbar gemacht
+description: Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Diese Funktionen sollen mit der R1-Version in die Produktionsumgebung übertragen werden.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,81 +14,81 @@ ht-degree: 0%
 
 ---
 
-# In der Vorschau 2016 verfügbare Funktionen
+# Funktion wurde in der Vorschau 2016 verfügbar gemacht
 
-Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Diese Funktionen sind für die Veröffentlichung in der Produktionsumgebung mit der R1-Version geplant.
+Die folgenden Funktionen wurden 2016 in der Vorschau-Umgebung bereitgestellt. Diese Funktionen sollen mit der R1-Version in die Produktionsumgebung übertragen werden.
 
 ## Verbesserungen bei der Ressourcenplanung
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools zur Ressourcenplanung werden nicht mehr unterstützt und mit Version 23.1 aus Workfront entfernt. Informationen zur Planung von Ressourcen mit dem Workload Balancer finden Sie unter [Übersicht über den Workload Balancer](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Jetzt können Sie alle Aufgaben für Projekte sehen, für die Sie der Ressourcen-Manager sind, damit Sie bei Planungsentscheidungen besser informiert sind.
+Jetzt können Sie alle Aufgaben für Projekte anzeigen, für die Sie der Ressourcen-Manager sind, sodass Sie bei Planungsentscheidungen besser informiert sind.
 
-Allgemeine Informationen zu den Tools, die für die Planung von Ressourcen verfügbar sind, finden Sie unter &quot;Erste Schritte mit der Ressourcenplanung&quot;.
+Allgemeine Informationen zu den verfügbaren Tools für die Ressourcenplanung finden Sie unter „Erste Schritte mit der Ressourcenplanung“.
 
-Um die Informationen anzupassen, die in der Planung angezeigt werden, erstellen Sie einen Filter, wie unter &quot;Informationen im Planungsbereich filtern&quot;beschrieben.
+Um die auf der Zeitplanleiste angezeigten Informationen anzupassen, erstellen Sie einen Filter, wie unter „Filtern von Informationen im Zeitplanbereich“ beschrieben.
 
-Neben der Anzeige von Aufgaben für die Projekte, für die Sie verantwortlich sind, können Sie die Zeitleiste für die Planung verwenden, um Änderungen an den Ressourcenzuweisungen vorzunehmen. Informationen zum Verwalten von Benutzerzuweisungen in der Zeitleiste der Planung finden Sie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
+Neben der Anzeige von Aufgaben für die Projekte, für die Sie verantwortlich sind, können Sie die Zeitleiste für die Planung verwenden, um Änderungen an den Ressourcenzuweisungen vorzunehmen. Informationen zum Verwalten von Benutzerzuweisungen in der Zeitplanleiste finden Sie unter „Manuelles Zuweisen nicht zugewiesener Aufgaben und Probleme in den Zeitplanbereichen“.
 
-## Verwalten von Benutzerzuordnungen in der Zeitleiste für die Planung
+## Verwalten von Benutzerzuweisungen in der Zeitplanleiste
 
-Beim Planen von Ressourcen mit den neuen Tools für die Ressourcenplanung können Sie jetzt bestimmen, wie die geplanten Stunden für eine Aufgabe oder ein Problem Benutzern zugewiesen werden. Sie können Stunden in der Aufgabendauer und unter zugewiesenen Benutzern auf Tage aufteilen.
+Bei der Planung von Ressourcen mit den neuen Tools für die Ressourcenplanung können Sie nun festlegen, wie die geplanten Stunden für eine Aufgabe oder ein Problem den Benutzern zugewiesen werden. Sie können die Stunden in der Aufgabendauer auf Tage und auf zugewiesene Benutzer aufteilen.
 
-Weitere Informationen finden Sie unter &quot;Verwalten von Benutzerzuweisungen in den Planungsbereichen&quot;.
+Weitere Informationen finden Sie unter „Verwalten der Benutzerzuweisungen in den Zeitplanbereichen“.
 
-## Benutzerzuordnungen sind standardmäßig deaktiviert
+## Benutzerzuweisungen sind standardmäßig deaktiviert
 
-Die Schattierung der Benutzerzuordnung in der Zeitleiste der Planung bei der Ressourcenplanung ist jetzt standardmäßig deaktiviert.
+Die Benutzerzuordnungsschattierung auf der Zeitplanungs-Timeline beim Planen von Ressourcen ist jetzt standardmäßig deaktiviert.
 
 Zuvor wurde die Zuordnungsschattierung standardmäßig angezeigt und konnte nicht deaktiviert werden.
 
-Weitere Informationen zum Aktivieren von Benutzerzuordnungsoptionen finden Sie unter
-&quot;Verwalten Sie Benutzerzuweisungen in den Planungsbereichen&quot;.
+Weitere Informationen zum Aktivieren der Optionen für die Benutzerzuordnung finden Sie unter
+„Benutzerzuweisungen in den Zeitplanbereichen verwalten“.
 
-## Die Layoutvorlage bestimmt, ob der neue oder alte Kalender im Arbeitsbereich angezeigt wird.
+## Layout-Vorlage Legt fest, ob der neue oder der alte Kalender im Bereich Meine Arbeit angezeigt wird
 
-**Vorschau-Sandbox: 7. Dezember 2016; früherer Zugriff: 14. Dezember 2016** 
+**Sandbox-Vorschau: 7. Dezember 2016; frühzeitiger Zugriff: 14. Dezember 2016** 
 
-Der neue Kalender wird standardmäßig im Arbeitsbereich &quot;Meine Arbeit&quot;angezeigt, wenn keine Layoutvorlage angewendet wird.
+Der neue Kalender wird standardmäßig im Bereich Meine Arbeit angezeigt, wenn keine Layout-Vorlage angewendet wurde.
 
-Wenn Sie diese Option wählen, können Sie den alten Kalender so konfigurieren, dass er im Bereich &quot;Meine Arbeit&quot;angezeigt wird, indem Sie eine Layoutvorlage auf den Bereich &quot;Meine Arbeit&quot;anwenden, der so konfiguriert ist, dass nur das Bestätigungsdatum für Aufgaben und Probleme angezeigt wird.
+Wenn Sie dies wählen, können Sie den alten Kalender so konfigurieren, dass er im Bereich Meine Arbeit angezeigt wird, indem Sie eine Layout-Vorlage auf den Bereich Meine Arbeit anwenden, der so konfiguriert ist, dass nur das Commit-Datum für Aufgaben und Probleme angezeigt wird.
 
-Bei Verwendung des alten Kalenders im Bereich &quot;Meine Arbeit&quot;werden nur die von Ihnen zugewiesenen Arbeiten angezeigt.
+Wenn Sie den alten Kalender im Bereich Meine Arbeit verwenden, wird nur die Arbeit angezeigt, zu der Sie sich verpflichtet haben.
 
-Um Workfront so zu konfigurieren, dass beim Anwenden einer Layoutvorlage der neue Kalender im Arbeitsbereich angezeigt wird, konfigurieren Sie die Layoutvorlage so, dass das geplante Abschlussdatum für Aufgaben und Probleme angezeigt wird, und weisen Sie diese Layoutvorlage dann den entsprechenden Benutzern zu.
+Um Workfront so zu konfigurieren, dass der neue Kalender im Bereich Meine Arbeit angezeigt wird, wenn eine Layout-Vorlage angewendet wird, konfigurieren Sie die Layout-Vorlage so, dass das geplante Abschlussdatum für Aufgaben und Probleme angezeigt wird, und weisen Sie diese Layout-Vorlage dann den entsprechenden Benutzern zu.
 
-Weitere Informationen zum Konfigurieren der Layoutvorlage finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work) in [Erstellen und Verwalten von Layoutvorlagen](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Weitere Informationen zum Konfigurieren der Layout-Vorlage finden Sie unter [Erstellen und Verwalten von Layout](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md#customizing-my-work)Vorlagen“ in [Erstellen und Verwalten von Layout-Vorlagen](../../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
 ## Outlook 365 Beta
 
-**Beta: TBD; öffentliche Verfügbarkeit: TBD**
+**Beta: wird noch bekannt gegeben; öffentliche Verfügbarkeit: wird noch bekannt gegeben**
 
-Sie können Workfront von Outlook für Office 365 verwenden, wie in den folgenden Abschnitten beschrieben:
+Sie können Workfront von Outlook für Office 365 aus verwenden, wie in den folgenden Abschnitten beschrieben:
 
 * [Einrichten von Adobe Workfront für Outlook](../../../../workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md)
-* &quot;Aktualisieren eines vorhandenen Elements von einer E-Mail mit Outlook 365&quot;
+* „Aktualisieren eines vorhandenen Elements aus einer E-Mail mit Outlook 365“
 
-## Neuanordnen von Spalten in Listen mit Drag &amp; Drop
+## Spalten in einer beliebigen Liste per Drag-and-Drop neu anordnen
 
-**Frühzeitiger Zugriff: 20. Februar 2016**
+**Early Access: 20. Februar 2016**
 
-Sie können die Reihenfolge der Spalten in einer Liste ändern, indem Sie eine Spalte von einer Position in eine andere ziehen und dort ablegen.
+Sie können die Reihenfolge der Spalten in einer Liste ändern, indem Sie eine Spalte an eine Position ziehen und an einer anderen Position ablegen.
 
 Dies ist besonders nützlich, wenn das Gantt-Diagramm und die Listenansicht gleichzeitig angezeigt werden und die Spalte, die Sie anzeigen möchten, nicht auf der linken Seite der Seite angezeigt wird. 
 
-Weitere Informationen finden Sie unter [Spaltenbreite und -anordnung ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
+Weitere Informationen finden Sie unter [Spaltenbreite und -reihenfolge ändern](../../../../reports-and-dashboards/reports/reporting-elements/modify-column-width-order.md)
 
-## Die Anzeige in der Dashboard-Liste wurde aktualisiert.
+## Aktualisiertes Erscheinungsbild in der Dashboard-Liste
 
 Beim Anzeigen einer Dashboard-Liste ist das Erscheinungsbild jetzt moderner und skalierbarer.
 
-Weitere Informationen zu Dashboards finden Sie unter [Dashboard erstellen](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
+Weitere Informationen zu Dashboards finden Sie unter [Erstellen eines Dashboards](../../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
 
-## Zugriff auf benutzerdefinierte Forms steuern
+## Steuern des Zugriffs auf benutzerdefinierte Forms
 
-**Vorschau-Sandbox: 23. Januar 2016**
+**Sandbox-Vorschau: 23. Januar 2016**
 
 Sie können jetzt steuern, wer Zugriff auf ein benutzerdefiniertes Formular hat, indem Sie einzelnen Benutzern, Teams, Rollen, Gruppen oder Unternehmen Zugriff gewähren. 
 
@@ -96,6 +96,6 @@ Vor dieser Änderung konnten Sie nur Gruppen Zugriff gewähren.
 
 ## Integration mit Adobe Creative Cloud
 
-**Add-On für den Download verfügbar: April 2016**
+**Add-on zum Download verfügbar: April 2016**
 
-Die Workfront-Erweiterung für Adobe Creative Cloud ermöglicht das Speichern und Exportieren von Assets, die Sie auf der Creative Cloud erstellen, in Workfront, wodurch der Genehmigungs- und Überprüfungsprozess beschleunigt wird.
+Die Workfront-Erweiterung für Adobe Creative Cloud ermöglicht das Speichern und Exportieren von auf der Creative Cloud erstellten Assets in Workfront und beschleunigt so den Genehmigungs- und Überprüfungsprozess.

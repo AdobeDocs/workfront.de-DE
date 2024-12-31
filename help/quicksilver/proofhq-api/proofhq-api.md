@@ -1,6 +1,6 @@
 ---
-title: ProofHQ-API
-description: ProofHQ-API
+title: ProofHQ API
+description: ProofHQ API
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
@@ -14,7 +14,7 @@ ht-degree: 7%
 
 ---
 
-# ProofHQ-API
+# ProofHQ API
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 

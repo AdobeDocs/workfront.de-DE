@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen: Probleme mit Genehmigungsinformationen'
-description: Die folgende Problemansicht zeigt den Genehmigungsprozess, den Schritt, die Namen der Genehmiger und den Status des Problems, bevor die Genehmigung erteilt wurde. Einige dieser Felder sind nicht über den Standard-Interface-Builder zugänglich.
+description: Die folgende Ansicht eines Problems zeigt den Genehmigungsprozess, den Schritt, die Namen der genehmigenden Personen und den Status des Problems vor der Genehmigung. Auf einige dieser Felder kann nicht über den standardmäßigen Interface Builder zugegriffen werden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 4e123844-a0d6-474b-87fb-d30ed391ad07
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Die folgende Problemansicht zeigt den Genehmigungsprozess, den Schritt, die Namen der Genehmiger und den Status des Problems, bevor die Genehmigung erteilt wurde. Einige dieser Felder sind nicht über den Standard-Interface-Builder zugänglich.
+Die folgende Ansicht eines Problems zeigt den Genehmigungsprozess, den Schritt, die Namen der genehmigenden Personen und den Status des Problems vor der Genehmigung. Auf einige dieser Felder kann nicht über den standardmäßigen Interface Builder zugegriffen werden.
 
 ![custom_issue_view_with_approval_info.png](assets/custom-issue-view-with-approval-info-350x46.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,36 +33,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu:<ul><li>Mitwirkender beim Ändern einer Ansicht</li><li>Standard zum Ändern eines Berichts</li></ul></p><p>Oder</p>Aktuell:<ul><li>Anforderung zum Ändern einer Ansicht</li><li>Berichtänderung planen</li></ul></p> </td> 
+   <td> <p>Neu:<ul><li>Mitwirkende zum Ändern einer Ansicht</li><li>Standard zum Ändern eines Berichts</li></ul></p><p>Oder</p>Aktuell:<ul><li>Änderung einer Ansicht anfordern</li><li>Planen der Änderung eines Berichts</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen von Problemen mit Genehmigungsinformationen
+## Probleme mit Genehmigungsinformationen anzeigen
 
-1. Gehen Sie zu einer Liste von Problemen.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
+1. Zu einer Problemliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und klicken Sie auf **In Textmodus wechseln** und dann auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie im Bereich **Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, klicken Sie auf **Wechseln in den Textmodus** und dann **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.descriptionkey=name
@@ -143,5 +143,5 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    column.6.width=200
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.
 1. (Optional) Aktualisieren Sie den Ansichtsnamen und klicken Sie dann auf **Ansicht speichern**.

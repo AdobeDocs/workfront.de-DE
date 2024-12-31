@@ -1,6 +1,6 @@
 ---
-title: Adobe Workfront-Szenario-Planer mit Version 21.3
-description: Adobe Workfront-Szenario-Planer mit Version 21.3
+title: Adobe Workfront Scenario Planner mit Version 21.3
+description: Adobe Workfront Scenario Planner mit Version 21.3
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Scenario Planner
@@ -12,36 +12,36 @@ ht-degree: 0%
 
 ---
 
-# Adobe Workfront-Szenario-Planer mit Version 21.3
+# Adobe Workfront Scenario Planner mit Version 21.3
 
-Der Adobe Workfront-Szenario-Planer ist nur mit dem neuen Adobe Workfront-Erlebnis verfügbar.
+Adobe Workfront Scenario Planner ist nur mit dem neuen Adobe Workfront-Erlebnis verfügbar.
 
-Die folgenden Funktionen sind in Version 21.3 enthalten:
+Die folgenden Funktionen sind in der Version 21.3 von enthalten:
 
-## Budget-Projektressourcen im Geschäftsfall mithilfe von Informationen aus dem Szenario-Planer
-
->[!NOTE]
->
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
-
-Um denjenigen, die den Adobe Workfront-Szenario-Planer verwenden, beim Budgetieren von Ressourcen für ihre Projekte eine einzige &quot;Source of Truth&quot;-Funktion einzuräumen, haben wir im Bereich &quot;Resource Budgeting&quot;eines Projekts eine Einstellung eingeführt, mit der Sie auswählen können, ob Sie den Ressourcen-Planer oder den Szenario-Planer verwenden möchten, um Ressourcen für das Projekt bereitzustellen. Wenn Sie den Szenario-Planer verwenden, spiegeln die Informationen zur Rolle des Arbeitsplatzes aus der mit dem Projekt verknüpften Initiative im Bereich Ressourcenbudgetierung des Geschäftsszenarios wider und berechnen die budgetierten Arbeitskosten des Projekts.
-
-Dies ist nur im neuen Adobe Workfront-Erlebnis für Kunden verfügbar, die eine Lizenz für den Adobe Workfront-Szenario-Planer erworben haben.
-
-Weitere Informationen finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
-
-## Erstellen von Pins und Landingpages für Szenario-Planer und -Ziele in einer Layout-Vorlage
+## Budgetieren Sie Projektressourcen im Business Case mithilfe von Informationen aus dem Szenario-Planer
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Um Konsistenz beim Zugriff auf alle im Hauptmenü aufgelisteten Bereiche von Adobe Workfront zu gewährleisten, haben wir die Möglichkeit für einen Workfront- oder Gruppenadministrator hinzugefügt, beim Aktualisieren einer Layoutvorlage einen fixierten Tab und eine Landingpage für den Szenario-Planer und die Zielbereiche hinzuzufügen.
+Damit alle, die den Adobe Workfront-Szenario-Planer verwenden, bei der Budgetierung von Ressourcen für ihre Projekte eine zentrale Datenquelle haben, haben wir im Bereich Ressourcenbudgetierung des Business Case eines Projekts eine Einstellung eingeführt, mit der Sie auswählen können, ob Sie den Ressourcen-Planer oder den Szenario-Planer verwenden möchten, um Ressourcen für das Projekt zu budgetieren. Wenn Sie sich für die Verwendung des Szenario-Planers entscheiden, werden die Aufgabengebiet-Informationen aus der mit dem Projekt verknüpften Initiative im Bereich Ressourcenbudgetierung des Business Case angezeigt und berechnen die budgetierten Lohnkosten des Projekts.
 
-Vor dieser Verbesserung konnten Sie den Szenario-Planer und den Bereich Ziele nur mithilfe einer Layoutvorlage zum Hauptmenü hinzufügen.
+Dies ist in der neuen Adobe Workfront-Version nur für Kunden verfügbar, die eine Lizenz für den Adobe Workfront Scenario Planner erworben haben.
+
+Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+
+## Erstellen von Pins und Landingpages für Szenario-Planer und Ziele in einer Layout-Vorlage
+
+>[!NOTE]
+>
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
+
+Um Konsistenz beim Zugriff auf alle im Hauptmenü aufgelisteten Bereiche von Adobe Workfront zu gewährleisten, haben wir für einen Workfront- oder Gruppenadministrator die Möglichkeit hinzugefügt, bei der Aktualisierung einer Layout-Vorlage eine angeheftete Registerkarte und eine Landingpage für den Szenarioplaner und die Zielbereiche hinzuzufügen.
+
+Vor dieser Verbesserung konnten Sie den Szenario-Planer und den Bereich Ziele mithilfe einer Layout-Vorlage nur zum Hauptmenü hinzufügen.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Passen Sie die Landingpage mithilfe einer Layoutvorlage an](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
-* [Anpassen von fixierten Seiten mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
+* [Landingpage mithilfe einer Layout-Vorlage anpassen](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md)
+* [Anpassen von fixierten Seiten mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-pinned-pages.md)
 

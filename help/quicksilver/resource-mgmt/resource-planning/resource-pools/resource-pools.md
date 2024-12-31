@@ -2,7 +2,7 @@
 product-area: resource-management
 navigation-topic: resource-planning
 title: Ressourcenpools
-description: Ressourcen-Pools sind Sammlungen von Benutzern, die Ihnen bei der Verwaltung von Ressourcen in Adobe Workfront helfen.
+description: Ressourcenpools sind Sammlungen von Benutzern, die Ihnen bei der Verwaltung von Ressourcen in Adobe Workfront helfen.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
@@ -16,14 +16,14 @@ ht-degree: 5%
 
 # Ressourcenpools
 
-Ressourcen-Pools sind Sammlungen von Benutzern, die Sie bei der Verwaltung von Ressourcen in Adobe Workfront unterstützen.
+Ressourcenpools sind Sammlungen von Benutzern, die Sie bei der Verwaltung von Ressourcen in Adobe Workfront unterstützen.
 
-In den folgenden Artikeln wird die Funktionalität bei der Verwendung von Ressourcen-Pools zur Verwaltung Ihrer Projekte in Adobe Workfront beschrieben.
+In den folgenden Artikeln wird die Funktionalität bei der Verwendung von Ressourcenpools zur Verwaltung Ihrer Projekte in Adobe Workfront beschrieben.
 
-* [Überblick über Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
-* [Erstellen von Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
-* [Verknüpfen von Ressourcen-Pools mit Projekten und Vorlagen](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
-* [Verknüpfen von Ressourcen-Pools mit Benutzern](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
-* [Benutzer aus Ressourcen-Pools entfernen](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
+* [Ressourcenpools - Übersicht](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+* [Ressourcenpools erstellen](../../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md)
+* [Ressourcenpools mit Projekten und Vorlagen verknüpfen](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-projects-and-templates.md)
+* [Ressourcenpools mit Benutzern verknüpfen](../../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md)
+* [Benutzer aus Ressourcenpools entfernen](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
 
  

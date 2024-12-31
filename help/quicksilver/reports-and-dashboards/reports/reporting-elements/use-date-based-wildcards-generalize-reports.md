@@ -1,8 +1,8 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten
-description: Sie können einen Bericht beim Erstellen bestimmter Berichterstellungselemente durch Verwendung von Platzhaltern anstelle spezifischer Informationen verallgemeinern.
+title: Verwenden von datumsbasierten Platzhaltern zum Generalisieren von Berichten
+description: Sie können einen Bericht generalisieren, indem Sie beim Erstellen bestimmter Berichtelemente Platzhalter anstelle spezifischer Informationen verwenden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 759b0bea-729e-4206-808c-0a7216ded4ff
@@ -13,17 +13,17 @@ ht-degree: 1%
 
 ---
 
-# Verwenden datumsbasierter Platzhalter zum Generalisieren von Berichten
+# Verwenden von datumsbasierten Platzhaltern zum Generalisieren von Berichten
 
 <!-- Audited: 11/2024 -->
 
-Sie können einen Bericht beim Erstellen bestimmter Berichterstellungselemente durch Verwendung von Platzhaltern anstelle spezifischer Informationen verallgemeinern.
+Sie können einen Bericht generalisieren, indem Sie beim Erstellen bestimmter Berichtelemente Platzhalter anstelle spezifischer Informationen verwenden.
 
-Wenn Sie beispielsweise einen Bericht erstellen möchten, der die Aufgaben mit einem bestimmten geplanten Startdatum anzeigt, können Sie mit der Datumsauswahl im Kalender in einem Filter ein bestimmtes Datum auswählen. Wenn Sie jedoch einen Bericht erstellen möchten, der Aufgaben anzeigt, bei denen das geplante Startdatum innerhalb eines bestimmten Zeitraums ab dem Datum des Zugriffs auf den Bericht liegt, können Sie einen Platzhalter verwenden, der angibt, dass bei der Anzeige des Berichts durch einen Benutzer Informationen für einen Zeitraum angezeigt werden, der für den Moment relevant ist, in dem der Bericht angezeigt wird.
+Wenn Sie beispielsweise einen Bericht erstellen möchten, der die Aufgaben mit einem bestimmten geplanten Startdatum ausgibt, können Sie die Datumsauswahl im Kalender in einem Filter verwenden, um ein bestimmtes Datum auszuwählen. Wenn Sie jedoch einen Bericht erstellen möchten, der Aufgaben ausgibt, die das geplante Startdatum innerhalb eines bestimmten Zeitraums ab dem Datum des Berichtzugriffs haben, können Sie einen Platzhalter verwenden, der angibt, dass Informationen für einen Zeitraum angezeigt werden, der für den Zeitpunkt relevant ist, zu dem der Bericht angezeigt wird, wenn jemand den Bericht aufruft.
 
-Zum Beispiel in der vergangenen Woche, im letzten Jahr, in den nächsten zwei Wochen usw. Auf diese Weise erstellen Sie den Bericht einmal. Da Sie jedoch einen Platzhalter im Filter verwenden, werden bei jedem Lesen unterschiedliche Ergebnisse ausgegeben, da er sich an den Tag anpasst, an dem der Bericht ausgeführt wird.
+Zum Beispiel in der letzten Woche, im letzten Jahr, in den nächsten zwei Wochen usw. Auf diese Weise erstellen Sie den Bericht nur einmal, aber da Sie im Filter einen Platzhalter verwenden, liefert er jedes Mal andere Ergebnisse, wenn jemand ihn liest, da er sich an den Tag anpasst, an dem der Bericht ausgeführt wird.
 
-Beim Erstellen der folgenden Berichterstellungselemente können Sie datumsbasierte Platzhalter verwenden:
+Sie können beim Erstellen der folgenden Berichterstellungselemente datumsbasierte Platzhalter verwenden:
 
 * Filter
 * Benutzerdefinierte Eingabeaufforderungen
@@ -31,7 +31,7 @@ Beim Erstellen der folgenden Berichterstellungselemente können Sie datumsbasier
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -57,54 +57,54 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Berichterstellungselemente in einem Bericht zu bearbeiten</p></td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Berichtselemente in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Berichterstellungselementen in einem Bericht verwalten</p> <p>Berechtigungen für Ansichten oder Filter verwalten, um sie zu bearbeiten</p></td> 
+   <td> <p>Verwalten der Berechtigungen für einen Bericht zum Bearbeiten von Berichtselementen in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Ansicht oder einen Filter, um sie zu bearbeiten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Sie müssen einen Bericht erstellen, bevor Sie ihm Platzhaltervariablen hinzufügen können.
+Sie müssen einen Bericht erstellen, bevor Sie Platzhaltervariablen hinzufügen können.
 
 Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Schritte
+## Anleitungsschritte
 
 So fügen Sie einen datumsbasierten Platzhalter in einen Bericht ein:
 
-1. Gehen Sie zu einem Bericht, für den Sie einen datumsbasierten Platzhalter einfügen möchten.
-1. Klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
-1. Klicken Sie auf die Registerkarte **Filter**.
-1. Klicken Sie auf **Filterregel hinzufügen**.
+1. Wechseln Sie zu einem Bericht, für den Sie einen datumsbasierten Platzhalter einfügen möchten.
+1. Klicken Sie **Berichtsaktionen** und dann **Bearbeiten**.
+1. Klicken Sie auf **Registerkarte** Filter“.
+1. Klicken Sie **Filterregel hinzufügen**.
 1. Geben Sie den Namen des Felds ein, nach dem Sie filtern möchten.\
    Sie müssen Felder eingeben, die auf ein Datum verweisen.
-1. Wählen Sie **Equal** im Dropdownmenü für die Filtervariable aus.
+1. Wählen **im**-Menü für die Filtervariable „Gleich“ aus.
 
    >[!TIP]
    >
-   >Sie müssen beim Arbeiten mit Platzhaltern in Adobe Workfront immer die Filtervariable **Equal** auswählen.
+   >Bei der Arbeit mit Platzhaltern in Adobe Workfront müssen Sie immer **Filtervariable** Gleich“ auswählen.
 
-1. Klicken Sie auf den Umschalter **relatives Datum festlegen** und geben Sie dann im angezeigten Textfeld `$$TODAY` ein, wenn Sie Informationen zu etwas anzeigen möchten, das am selben Tag wie der Bericht ausgeführt wird.
+1. Klicken Sie auf **Umschalter** Relatives Datum festlegen) und geben Sie in das daraufhin angezeigte Textfeld ein: `$$TODAY`, wenn Sie Informationen zu einem Vorgang anzeigen möchten, der am Tag der Berichtsausführung stattfindet.
 
    Oder
 
-   Geben Sie `$$NOW` ein, wenn Sie Informationen zu etwas anzeigen möchten, das zu dem Zeitpunkt auftritt, zu dem der Bericht ausgeführt wird.
+   Geben Sie `$$NOW` ein, wenn Sie Informationen zu einem Vorgang anzeigen möchten, der zum gleichen Zeitpunkt wie der Bericht erfolgt.
 
-   Dieses Datum unterscheidet sich immer, da es sich mit dem Datum ändert, an dem der Bericht von einem Benutzer angezeigt wird. sodass sich die Informationen im Bericht von Tag zu Tag unterscheiden.
+   Dieses Datum ist immer anders, da es sich mit dem Datum ändert, an dem der Bericht von einem Benutzer tatsächlich angezeigt wird. Die Informationen im Bericht unterscheiden sich also von Tag zu Tag.
 
-1. (Optional) Wenn Sie Informationen anzeigen möchten, die innerhalb eines Zeitraums nach dem Datum der Berichterstellung auftreten, geben Sie &quot;`$$TODAY+1w`&quot;ein, um Informationen in der folgenden Woche anzuzeigen, oder &quot;`$$TODAY+2m`&quot;, um Informationen in den nächsten zwei Monaten anzuzeigen. Sie können auch Zeitrahmen für Quartale, Stunden, Tage oder Jahre angeben.
-1. (Optional) Wenn Sie Informationen zu etwas anzeigen möchten, das innerhalb eines Zeitraums vor dem Datum der Berichterstellung aufgetreten ist, geben Sie `$$TODAY-1w` ein, um Informationen aus der vorherigen Woche anzuzeigen, oder `$$TODAY-2m`, um Informationen aus den letzten zwei Monaten anzuzeigen. Sie können auch Zeitrahmen für Quartale, Stunden, Tage oder Jahre angeben.
+1. (Optional) Wenn Sie Informationen anzeigen möchten, die innerhalb eines Zeitraums nach dem Datum der Berichtsausführung auftreten, geben Sie `$$TODAY+1w` ein, um Informationen in der folgenden Woche anzuzeigen, oder `$$TODAY+2m`, um Informationen in den nächsten zwei Monaten anzuzeigen. Sie können auch Zeitrahmen für Quartale, Stunden, Tage oder Jahre angeben.
+1. (Optional) Wenn Sie Informationen zu einem Vorgang anzeigen möchten, der innerhalb eines Zeitraums vor dem Datum der Berichtsausführung stattgefunden hat, geben Sie `$$TODAY-1w` ein, um Informationen aus der vorherigen Woche anzuzeigen, oder `$$TODAY-2m` Sie Informationen aus den vorherigen zwei Monaten anzeigen. Sie können auch Zeitrahmen für Quartale, Stunden, Tage oder Jahre angeben.
 
-   Eine vollständige Liste der Attribute, Kennungen und Operatoren, die Sie in datumsbasierten Platzhaltern verwenden können, finden Sie im Artikel [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+   Eine vollständige Liste der Attribute, Qualifizierer und Operatoren, die Sie in datumsbasierten Platzhaltern verwenden können, finden Sie im Artikel [Übersicht über Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 1. Klicken Sie auf **Speichern + schließen**.
 
@@ -115,5 +115,5 @@ Siehe auch:
 <!--outdated: * [Basic Report Creation Program](https://one.workfront.com/s/basic-report-creation-program) -->
 * [Übersicht über Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md)
 * [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md)
-* [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
-* [Bedingte Formatierung in Ansichten verwenden](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)
+* [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
+* [Verwenden der bedingten Formatierung in Ansichten](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md)

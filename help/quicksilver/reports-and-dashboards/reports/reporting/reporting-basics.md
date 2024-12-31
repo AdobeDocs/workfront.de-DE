@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: reports
 title: Grundlagen zur Berichterstellung
-description: Lesen Sie diese Artikel, um die Grundlagen der Berichterstellung in Adobe Workfront zu verstehen.
+description: Lesen Sie diese Artikel, um die Grundlagen des Reportings in Adobe Workfront zu verstehen.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog

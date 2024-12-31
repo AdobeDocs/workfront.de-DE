@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: resource-pools
-title: Erstellen von Ressourcen-Pools
-description: Ressourcen-Pools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe Workfront einfacher verwalten können.
+title: Ressourcenpools erstellen
+description: Ressourcenpools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe Workfront einfacher verwalten können.
 author: Lisa
 feature: Resource Management
 exl-id: 4991634c-e400-466e-bcee-3b461b6662d8
@@ -20,11 +20,11 @@ ht-degree: 8%
 >title="Ressourcenpools"
 >abstract="Ein Ressourcenpool-Pool ist eine Sammlung von Benutzenden, die gleichzeitig für die Fertigstellung eines Projekts benötigt werden. Nachdem Sie einen Ressourcen-Pool erstellt haben, können Sie ihn mit Projekten und Vorlagen verknüpfen."
 
-Ressourcen-Pools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe Workfront einfacher verwalten können. Weitere Informationen zu Ressourcen-Pools finden Sie unter [Überblick über Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
+Ressourcenpools sind Sammlungen von Benutzern, mit denen Sie Ressourcen in Adobe Workfront einfacher verwalten können. Weitere Informationen zu Ressourcenpools finden Sie unter [Ressourcenpools - Übersicht](../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td><p>Neu: Beliebig</p>
        <p>oder</p>
        <p>Aktuell: Pro oder höher</p> </td> 
@@ -45,26 +45,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
        <p>Aktuell: Plan</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf die Ressourcenverwaltung bearbeiten, einschließlich Zugriff auf Ressourcen-Pools verwalten</p> <p>Zugriff auf Projekte, Vorlagen und Benutzer bearbeiten</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Bearbeiten des Zugriffs auf das Ressourcen-Management, der den Zugriff auf die Verwaltung von Ressourcenpools umfasst</p> <p>Zugriff auf Projekte, Vorlagen und Benutzer bearbeiten</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für die Projekte, Vorlagen und Benutzer, mit denen Sie die Ressourcenpools verknüpfen möchten</td> 
+   <td>Verwalten Sie Berechtigungen für die Projekte, Vorlagen und Benutzer, mit denen Sie die Ressourcenpools verknüpfen möchten</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen eines Ressourcen-Pools {#create-a-resource-pool}
+## Ressourcenpool erstellen {#create-a-resource-pool}
 
 {{step1-to-resourcing}}
 
-1. Klicken Sie im linken Bereich auf **Ressourcenpools** .
-1. Klicken Sie auf **New Resource Pool**.
+1. Klicken Sie **linken Bedienfeld** Ressourcenpools“.
+1. Klicken Sie **Neuer Ressourcenpool**.
 
    ![Ressourcenpools](assets/list-of-resource-pools.png)
 
@@ -76,34 +76,34 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <tbody>
      <tr>
       <td role="rowheader"><strong>Name</strong></td>
-      <td>Dies ist der Name des Ressourcen-Pools.</td>
+      <td>Dies ist der Name des Ressourcenpools.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Beschreibung</strong></td>
-      <td>Dies ist eine kurze Beschreibung zu diesem Ressourcen-Pool. Sie können beispielsweise angeben, zu welchem Zweck sie verwendet werden soll.</td>
+      <td>Dies ist eine kurze Beschreibung dieses Ressourcenpools. Sie können beispielsweise angeben, für welchen Zweck sie verwendet werden soll.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Pool-Mitglieder</strong></td>
-      <td><p> Fügen Sie Benutzer einzeln zum Ressourcen-Pool hinzu.<br>Oder <br>So fügen Sie eine große Anzahl von Benutzern gleichzeitig zum Ressourcen-Pool hinzu. Sie können eine der folgenden Entitäten hinzufügen, die mit Benutzern oder der Sammlung von Benutzern verknüpft sind:
+      <td><p> Fügen Sie Benutzer einzeln zum Ressourcenpool hinzu.<br>Oder <br>So fügen Sie dem Ressourcenpool eine große Anzahl von Benutzern gleichzeitig hinzu. Sie können eine der folgenden Entitäten hinzufügen, die mit Benutzenden oder einer Sammlung von Benutzenden verknüpft sind:
         <ul>
-         <li><strong>Teams</strong>: Alle Mitglieder des Teams werden zum Ressourcen-Pool hinzugefügt.</li>
-         <li><strong>Gruppen</strong>: Alle Mitglieder der Gruppe werden zum Ressourcenpool hinzugefügt.</li>
-         <li><strong>Rollen</strong>: Alle Benutzer, die dieser Rolle zugeordnet sind, werden zum Ressourcen-Pool hinzugefügt.</li>
+         <li><strong>Teams</strong>: Alle Mitglieder des Teams werden dem Ressourcenpool hinzugefügt.</li>
+         <li><strong>Groups</strong>: Alle Mitglieder der Gruppe werden dem Ressourcenpool hinzugefügt.</li>
+         <li><strong>Rollen</strong>: Alle mit dieser Rolle verknüpften Benutzer werden dem Ressourcenpool hinzugefügt.</li>
          <li><strong>Unternehmen</strong>: Alle Benutzer im Unternehmen werden zum Ressourcenpool hinzugefügt.</li>
-        </ul><p>Tipp: Sie können nur aktive Benutzer, Teams, <span>Rollen,</span> oder Unternehmen hinzufügen.</p><br>Möglicherweise müssen Sie im Dialogfeld nach unten scrollen, um alle Benutzer im Ressourcen-Pool anzuzeigen.
-        <p>Hinweis: Wenn ein Benutzer Mitglied einer Gruppe, eines Teams, eines Unternehmens oder einer Rolle als Job wird, nachdem die Gruppe, das Team, die Firma oder die Rolle für den Job zum Resource Pool hinzugefügt wurden, wird das neue Mitglied nicht automatisch zum Resource Pool hinzugefügt. <br>Wenn ein Benutzer zum Team, zur Gruppe, zum Unternehmen und zur Auftragrolle gehört, die Sie hinzufügen, wird der Benutzer gleichzeitig nur einmal zum Ressourcenpool hinzugefügt.<br>Benutzer, die deaktiviert werden, nachdem sie zum Ressourcen-Pool hinzugefügt wurden, erscheinen in der Liste der Benutzer abgeblendet und werden als deaktiviert markiert.</p></p></td>
+        </ul><p>Tipp: Sie können nur aktive Benutzer, Teams, <span>Rollen</span> oder Unternehmen hinzufügen.</p><br>Möglicherweise müssen Sie im Dialogfeld nach unten scrollen, um alle Benutzenden im Ressourcenpool anzuzeigen.
+        <p>Hinweis: Wenn ein(e) Benutzende(r) Mitglied einer Gruppe, eines Teams oder einer Firma wird oder mit einem Aufgabengebiet verknüpft ist, nachdem die Gruppe, das Team, die Firma oder das Aufgabengebiet zum Ressourcenpool hinzugefügt wurde, wird das neue Mitglied nicht automatisch zum Ressourcenpool hinzugefügt. <br>Wenn ein Benutzer dem Team, der Gruppe, dem Unternehmen und dem Aufgabengebiet angehört, das Sie hinzufügen, wird der Benutzer nur einmal zum Ressourcenpool hinzugefügt.<br>Benutzende, die deaktiviert werden, nachdem sie zum Ressourcenpool hinzugefügt wurden, werden in der Benutzerliste abgeblendet angezeigt und als deaktiviert markiert.</p></p></td>
      </tr>
     </tbody>
    </table>
 
-1. (Optional) Verwenden Sie den Link &quot;**Rückgängig**&quot;, um die Benutzer zu entfernen, die über eine Gruppe, ein Team, ein Unternehmen oder eine Jobrolle hinzugefügt wurden.
+1. (Optional) Verwenden Sie den **Rückgängig**-Link, um die Benutzer zu entfernen, die über eine Gruppe, ein Team, ein Unternehmen oder ein Aufgabengebiet hinzugefügt wurden.
 
    >[!NOTE]
    >
-   >Es gibt keine Beschränkung dafür, wie viele Benutzer Sie in einem Ressourcen-Pool haben können. Es wird jedoch empfohlen, nicht zu viele Benutzer zu einem Ressourcen-Pool hinzuzufügen, da das Ressourcen-Management andernfalls zu einer Herausforderung werden könnte. Die Liste der Benutzer zeigt nur die ersten 2.000 Benutzer im Ressourcen-Pool an und sie werden alphabetisch aufgelistet.
+   >Es gibt keine Begrenzung dafür, wie viele Benutzer Sie in einem Ressourcenpool haben können. Wir empfehlen jedoch, nicht zu viele Benutzer zu einem Ressourcenpool hinzuzufügen, da die Ressourcenverwaltung andernfalls eine Herausforderung werden könnte. Die Liste der Benutzer zeigt nur die ersten 2.000 Benutzer im Ressourcenpool an, und sie werden alphabetisch aufgelistet.
 
-   ![Benutzer, die zum Ressourcen-Pool hinzugefügt wurden](assets/users-in-resource-pool2.png)
+   ![Benutzende wurden zum Ressourcenpool hinzugefügt](assets/users-in-resource-pool2.png)
 
-1. (Optional) Klicken Sie auf das X-Symbol rechts neben dem Namen eines Benutzers, um einen Benutzer zu entfernen. Weitere Informationen zum Entfernen von Benutzern aus einem Ressourcen-Pool finden Sie unter [Entfernen von Benutzern aus Ressourcen-Pools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
-1. (Optional) Verwenden Sie die Option **Suchen** , um einen Benutzer im Ressourcen-Pool zu finden.
+1. (Optional) Klicken Sie auf das X-Symbol rechts neben dem Namen eines Benutzers, um ihn zu entfernen. Weitere Informationen zum Entfernen von Benutzern aus einem Ressourcenpool finden Sie unter [Entfernen von Benutzern aus Ressourcenpools](../../../resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md).
+1. (Optional) Verwenden Sie die **Suche**, um einen Benutzer im Ressourcenpool zu finden.
 1. Klicken Sie auf **Erstellen**.

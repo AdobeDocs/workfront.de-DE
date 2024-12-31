@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
-title: Adobe Workfront-Testversion 23.3 - Woche der Veröffentlichungsaktivität vom 8. Mai 2023
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 23.3 für Adobe Workfront Testversand in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab 8. Mai 2023 in der Produktionsumgebung verfügbar sein.
+title: Adobe Workfront-Korrekturabzug 23.3 Freigabeaktivität Woche vom 8. Mai 2023
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.3 für Adobe Workfront vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 8. Mai 2023 in der Produktionsumgebung verfügbar gemacht.
 author: Nolan
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 ---
 
-# Adobe Workfront-Testversion 23.3: Woche vom 8. Mai 2023
+# Aktivität der Adobe Workfront-Version 23.3 vom 8. Mai 2023
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.3 für Adobe Workfront Testversand in der Vorschau-Umgebung am 8. Mai 2023 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.3 für den Adobe Workfront-Testversand in der Vorschau-Umgebung am 8. Mai 2023 vorgenommen wurden.
 
-Sofern nicht anders angegeben, werden diese Verbesserungen in der Produktionsumgebung mit Version 23.3 bereitgestellt.
+Sofern nicht anders angegeben, werden diese Verbesserungen mit Version 23.3 in der Produktionsumgebung verfügbar gemacht.
 
-## Update des Desktop Proofing Viewers
+## Update der Desktop Proofing Viewer
 
-Der Desktop Proofing Viewer wurde auf Version 2.1.24 aktualisiert! Dieses Update umfasst Chrome v100-Unterstützung für die Überprüfung interaktiver Testsendungen sowie die folgenden Problembehebungen:
+Der Desktop Proofing Viewer wurde auf Version 2.1.24 aktualisiert! Dieses Update enthält Chrome v100-Unterstützung für die Überprüfung interaktiver Korrekturabzüge sowie die folgenden Problembehebungen:
 
-* Die Testversand-Version kann jetzt nach der ersten Änderung der Version erneut geändert werden.
-* Links in interaktiven Testsendungen funktionieren jetzt erwartungsgemäß.
-* Mit CSS @layer erstellte Websites werden jetzt korrekt im Desktop-Viewer angezeigt.
-* Markups, die mit Kommentaren verbunden sind, werden jetzt bei der Auswahl korrekt angezeigt.
-* Die Dropdown-Liste für Testversand-Rolle und E-Mail-Warnhinweis funktioniert jetzt erwartungsgemäß.
+* Die Korrekturabzugsversion kann jetzt nach der anfänglichen Änderung der Version erneut geändert werden.
+* Links in interaktiven Korrekturabzügen funktionieren jetzt erwartungsgemäß.
+* Mit CSS erstellte Websites @layer jetzt korrekt im Desktop-Viewer angezeigt.
+* Markierungen, die mit Kommentaren verbunden sind, werden jetzt korrekt angezeigt, wenn sie ausgewählt werden.
+* Die Dropdown-Listen für Rolle des Korrekturabzugs und E-Mail-Warnhinweis funktionieren jetzt erwartungsgemäß.
 
-Informationen zum Herunterladen der Aktualisierung finden Sie unter [Aktualisieren des Desktop Proofing Viewers](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).
+Informationen zum Herunterladen des Updates finden Sie unter [Aktualisieren des Desktop Proofing Viewers](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/update-the-desktop-proofing-viewer.md).

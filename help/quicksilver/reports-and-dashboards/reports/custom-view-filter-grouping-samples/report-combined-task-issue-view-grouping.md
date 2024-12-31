@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Bericht: Kombinierte Aufgaben- und Problemansicht und -gruppierung'
-description: Dieser Arbeitselement-Bericht zeigt sowohl Aufgaben als auch Probleme an, an denen Benutzer die Arbeit in einem Bericht akzeptiert haben. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
+title: 'Bericht: Kombinierte Ansicht und Gruppierung von Aufgaben und Problemen'
+description: Dieser Arbeitsaufgabenbericht zeigt in einem Bericht sowohl Aufgaben als auch Probleme an, die von den Benutzenden bearbeitet wurden. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6eaae772-229d-44ea-b285-cbaf9e46eade
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 ---
 
-# Bericht: kombinierte Aufgabe und Problemansicht und -gruppierung
+# Bericht: Ansicht und Gruppierung von kombinierten Aufgaben und Problemen
 
 <!--Audited: 10/2024-->
 
-Dieser Arbeitselement-Bericht zeigt sowohl Aufgaben als auch Probleme an, an denen Benutzer die Arbeit in einem Bericht akzeptiert haben. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
+Dieser Arbeitsaufgabenbericht zeigt in einem Bericht sowohl Aufgaben als auch Probleme an, die von den Benutzenden bearbeitet wurden. Dies empfiehlt sich am besten in Kombination mit einer benutzerdefinierten Gruppierung.
 
-Dieser Bericht verwendet `sharecol=true` in der Ansicht, um mehrere Felder unter derselben Spaltenüberschrift zu kombinieren. Weitere Informationen zum Tag `sharecol` finden Sie unter [Ansicht: Zusammenführungsinformationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Dieser Bericht verwendet `sharecol=true` in der Ansicht, um mehrere Felder unter derselben Spaltenüberschrift zu kombinieren. Weitere Informationen zum `sharecol`-Tag finden Sie unter [Ansicht: Zusammenführungsinformationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 >[!TIP]
 >
->  In der Ansicht &quot;Work Item&quot;werden nur Aufgaben und Probleme angezeigt, die von den ihnen zugewiesenen Benutzern akzeptiert wurden. Dieser Bericht zeigt keine Arbeitselemente an, die nicht aus den Listen &quot;Arbeitsanforderungen&quot;oder &quot;Team-Anforderungen&quot;in die Liste &quot;Arbeitsaufgaben&quot;des Benutzers verschoben wurden.
+>  In der Arbeitsaufgabenansicht werden nur Aufgaben und Probleme angezeigt, die von den ihnen zugewiesenen Benutzern akzeptiert wurden. Dieser Bericht zeigt keine Arbeitselemente an, die nicht aus den Listen Arbeitsaufträge oder Teamanfragen in die Liste „Arbeiten an“ des Benutzers verschoben wurden.
 
 ![work_item_report.png](assets/work-item-report-350x46.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -39,47 +39,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen eines Berichts mit einer kombinierten Aufgabe und Problemansicht und -gruppierung
+## Erstellen eines Berichts mit kombinierter Aufgaben- und Problemansicht und Gruppierung
 
 So erstellen Sie einen Bericht mit dieser Ansicht:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts oder, falls verfügbar, auf das Symbol **Hauptmenü** oben links, das Symbol ![](assets/lines-main-menu.png) und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte**.
 
-1. Klicken Sie im Dropdownmenü auf **Neuer Bericht** > **Mehr** > **Arbeitselement** .
+1. Klicken Sie **Dropdown** Menü auf „Neuer Bericht **> Mehr** > **Arbeitselement**.
 
-1. Klicken Sie im Bereich **Spaltenvorschau** auf die Kopfzeile der einzigen angezeigten Spalte. Dies ist die Spalte **Ext Ref** .
-1. Klicken Sie auf **Wechseln zum Textmodus**.
-1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Textmodus bearbeiten** .
-1. Entfernen Sie den Text, den Sie im Textfeld finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Klicken Sie **Bereich „Spaltenvorschau** auf die Kopfzeile der einzigen angezeigten Spalte. Dies ist die Spalte **Ext Ref**.
+1. Klicken Sie **In Textmodus wechseln**.
+1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld Textmodus und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.description=Task or Issue 
@@ -270,10 +270,10 @@ So erstellen Sie einen Bericht mit dieser Ansicht:
    column.15.width=1
    ```
 
-1. Klicken Sie auf **Fertig**.
-1. (Optional) Klicken Sie auf **Gruppierungen** , um dem Bericht eine Gruppierung hinzuzufügen.
-1. (Optional und bedingt) Wenn Sie eine Gruppierung hinzufügen, klicken Sie auf **In den Textmodus wechseln**.
-1. (Optional) Ersetzen Sie den Text im Textmodusbereich der Gruppierung durch den folgenden Code:
+1. Klicken Sie **Fertig**.
+1. (Optional) Klicken Sie auf **Gruppierungen**, um dem Bericht eine Gruppierung hinzuzufügen.
+1. (Optional und bedingt) Wenn Sie eine Gruppierung hinzufügen, klicken Sie auf **In Textmodus wechseln**.
+1. (Optional) Ersetzen Sie den Text im Bereich des Textmodus für die Gruppierung durch folgenden Code:
 
    ```
    group.0.name=
@@ -282,7 +282,7 @@ So erstellen Sie einen Bericht mit dieser Ansicht:
    textmode=true
    ```
 
-   Diese Gruppierung fasst alle Aufgaben zusammen und alle Probleme zusammen.
+   In dieser Gruppierung werden alle Aufgaben und alle Probleme gruppiert.
 
 1. Klicken Sie auf **Speichern + schließen**.
-1. (Optional) Aktualisieren Sie den Namen des Berichts und klicken Sie dann auf **Anwenden**.
+1. (Optional) Aktualisieren Sie den Namen des Berichts und klicken Sie dann auf **Übernehmen**.

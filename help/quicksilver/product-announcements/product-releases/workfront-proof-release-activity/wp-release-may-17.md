@@ -2,8 +2,8 @@
 content-type: release-notes
 product-area: Workfront Proof
 navigation-topic: proof-release-activity
-title: 'Workfront Proof-Release-Aktivität: Woche vom 17. Mai 2021'
-description: Auf dieser Seite werden Änderungen an der Workfront Proof (eigenständige Testversand-Anwendung) beschrieben. Die hier beschriebenen Änderungen gelten nicht für die Testfunktion in der Adobe Workfront-Anwendung.
+title: 'Workfront Proof-Veröffentlichungsaktivität: Woche vom 17. Mai 2021'
+description: Auf dieser Seite werden Änderungen beschrieben, die an Workfront Proof (eigenständige Proofing-Anwendung) vorgenommen wurden. Die hier beschriebenen Änderungen gelten nicht für die Proofing-Funktion in der Adobe Workfront-Anwendung.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -15,22 +15,22 @@ ht-degree: 0%
 
 ---
 
-# Workfront Proof-Release-Aktivität: Woche vom 17. Mai 2021
+# Workfront Proof-Veröffentlichungsaktivität: Woche vom 17. Mai 2021
 
-Auf dieser Seite werden Änderungen an der Workfront Proof (eigenständige Testversand-Anwendung) beschrieben. Die hier beschriebenen Änderungen gelten nicht für die Testfunktion in der Adobe Workfront-Anwendung.
+Auf dieser Seite werden Änderungen beschrieben, die an Workfront Proof (eigenständige Proofing-Anwendung) vorgenommen wurden. Die hier beschriebenen Änderungen gelten nicht für die Proofing-Funktion in der Adobe Workfront-Anwendung.
 
-## Benutzerprofilmenüs in Workfront Proof verwenden jetzt Typeahead-Felder, um nach Benutzern zu suchen
+## Benutzerprofilmenüs in Workfront Proof verwenden jetzt automatische Textvervollständigungsfelder, um nach Benutzern zu suchen
 
 >[!NOTE]
 >
->Diese Funktion wurde am 20. Mai 2021 in der Vorschau-Umgebung veröffentlicht. Am 16. September 2021 wird es in der Produktionsumgebung veröffentlicht.
+>Diese Funktion wurde am 20. Mai 2021 in der Vorschau-Umgebung veröffentlicht. Die Version wird am 16. September 2021 in der Produktionsumgebung veröffentlicht.
 
-Um die Verwaltung großer Dropdown-Menüs zu erleichtern, in denen alle Benutzer im System aufgelistet sind, haben wir alle Benutzerprofilsuchmenüs durch eine Typensuche in Adobe Workfront Proof-Standalone ersetzt. Beispiele für Suchmenüs von Benutzerprofilen sind
+Um Ihnen bei der Verwaltung großer Dropdown-Menüs zu helfen, in denen alle Benutzenden im System aufgelistet sind, haben wir alle Menüs für die Benutzerprofilsuche in Adobe Workfront-Korrekturabzug eigenständig durch eine Suche mit automatischer Textvervollständigung ersetzt. Beispiele für Benutzerprofil-Suchmenüs
 
-* Besitzer von Testsendungen
+* Testversand-Verantwortliche
 * Abwesenheitskontakte
 * Vorlagenbesitzer
 
-Zuvor wurden in allen Dropdown-Listen für die Profilsuche alle Benutzer im System aufgelistet, was zu einem großen Menü führte.
+Zuvor wurden in allen Dropdown-Listen für die Profilsuche alle Benutzenden im System aufgelistet, was zu einem großen Menü führte.
 
 ![](assets/user-profile-typeahead-350x142.png)

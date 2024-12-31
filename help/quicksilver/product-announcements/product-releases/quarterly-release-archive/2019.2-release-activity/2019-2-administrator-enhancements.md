@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Verbesserungen für Administratoren in Version 2019.2
-description: Auf dieser Seite werden alle Verbesserungen für Administratoren in Version 2019.2 beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
+title: Verbesserungen bei Administratoren in 2019.2
+description: Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Administratorverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen für Administratoren in Version 2019.2
+# Verbesserungen bei Administratoren in 2019.2
 
-Auf dieser Seite werden alle Verbesserungen für Administratoren in Version 2019.2 beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
+Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Administratorverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 
 >[!IMPORTANT]
 >
->Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
+>Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller in Version 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
-## Festlegen von Auftragsrollen für stündliche Einträge
+## Festlegen von Aufgabengebieten für Stundeneinträge
 
-Sie können jetzt beim Anmelden in Workfront eine Auftragsrolle angeben. Um diese Funktion verwenden zu können, muss Ihr Workfront-Administrator eine Einstellung unter &quot;Zeitblatt &amp; Stunden > Voreinstellungen&quot;aktivieren.
+Sie können jetzt ein Aufgabengebiet angeben, wenn Sie die Zeit in Workfront protokollieren. Um diese Funktion verwenden zu können, muss der Workfront-Administrator eine Einstellung unter Arbeitszeittabelle &amp; Stunden > Voreinstellungen aktivieren.
 
-Weitere Informationen zum Angeben einer Auftragsrolle während der Protokollierung finden Sie im Artikel [Protokollzeit](../../../../timesheets/create-and-manage-timesheets/log-time.md).
+Weitere Informationen dazu, wie Sie ein Aufgabengebiet beim Protokollieren der Zeit angeben, finden Sie im Artikel [Zeit protokollieren](../../../../timesheets/create-and-manage-timesheets/log-time.md).

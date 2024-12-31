@@ -3,7 +3,7 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Verwalten von Ressourcen
-description: Das Ressourcenmanagement ist wichtig, um Ihre Arbeit ordnungsgemäß zu verwalten und die Verfügbarkeit von Prognosen zu gewährleisten. In den folgenden Artikeln erfahren Sie, wie Sie Ihre Ressourcen für die Arbeit planen und planen.
+description: Ressourcenverwaltung ist wichtig für die ordnungsgemäße Verwaltung Ihrer Arbeit und die Prognose der Verfügbarkeit. In den folgenden Artikeln erfahren Sie, wie Sie Ihre Ressourcen für die Arbeit planen und planen.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
@@ -15,11 +15,11 @@ ht-degree: 4%
 
 ---
 
-# Ressourcen verwalten
+# Verwalten von Ressourcen
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Ressourcenverwaltung](../resource-mgmt/resource-mgmt-overview/resource-management-overview.md)
 * [Ressourcenplanung: Artikelindex](../resource-mgmt/resource-planning/resource-planning-overview.md)
 * [Ressourcenauslastung](../resource-mgmt/resource-utilization/resource-utilization.md)
-* [Der Lastenausgleich: Artikelindex](../resource-mgmt/workload-balancer/workload-balancer.md)
+* [Der Workload Balancer: Artikelindex](../resource-mgmt/workload-balancer/workload-balancer.md)

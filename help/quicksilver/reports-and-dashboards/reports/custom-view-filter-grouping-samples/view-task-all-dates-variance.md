@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Aufgabe mit Varianz aller Daten'
-description: Diese Aufgabenansicht ähnelt der Ansicht "Alle Daten", die mit Ihrem Adobe Workfront-Konto bereitgestellt wird. Diese spezielle Ansicht enthält Varianzspalten, die die Differenz in Tagen zwischen den Daten berechnen.
+title: 'Ansicht: Aufgabe mit allen Datumsabweichungen'
+description: Diese Aufgabenansicht ähnelt der Ansicht „Alle Daten“, die mit Ihrem Adobe Workfront-Konto bereitgestellt wird. Diese Ansicht enthält Spalten vom Typ Abweichung , mit denen die Differenz in Tagen zwischen den Datumsangaben berechnet wird.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# Ansicht: Aufgabe mit Varianz &quot;Alle Daten&quot;
+# Ansicht: Aufgabe mit allen Datumsabweichungen
 
 <!--Audited: 11/2024-->
 
-Diese Aufgabenansicht ähnelt der Ansicht &quot;Alle Daten&quot;, die mit Ihrem Adobe Workfront-Konto bereitgestellt wird. Diese Ansicht enthält *Varianz* -Spalten, die den Unterschied in Tagen zwischen den folgenden Daten berechnen:
+Diese Aufgabenansicht ähnelt der Ansicht „Alle Daten“, die mit Ihrem Adobe Workfront-Konto bereitgestellt wird. Diese Ansicht enthält *Varianz*-Spalten, mit denen die Differenz in Tagen zwischen den folgenden Datumsangaben berechnet wird:
 
-* Geplante und geplante Startdaten
+* Geplante und voraussichtliche Startdaten
 * Geplante und tatsächliche Startdaten
-* Geplante und geplante Abschlussdaten
+* Geplante und voraussichtliche Abschlussdaten
 * Geplante und tatsächliche Abschlussdaten
 
-Diese Ansicht zeigt ein Beispiel für berechnete Spalten, in denen Sie die Werte aus zwei verschiedenen Spalten mithilfe einer Berechnung miteinander verbinden und so einen dritten Wert erhalten können. In diesem Fall wird Datum 1 von Datum 2 abgezogen.
+Diese Ansicht zeigt ein Beispiel für berechnete Spalten, bei denen Sie die Werte aus zwei verschiedenen Spalten durch eine Berechnung verbinden können, um einen dritten Wert zu erhalten. In diesem Fall ziehen Sie das Datum 1 vom Datum 2 ab.
 
-Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie im Abschnitt [Überblick über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md) unter  [Überblick über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
+Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie [ Abschnitt „Übersicht über häufig verwendete Anwendungen für ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)&quot; in  [Übersicht über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
 ![](assets/view-task-with-all-dates-variance.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,48 +42,48 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen von Aufgaben mit Varianz &quot;Alle Daten&quot;
+## Aufgaben mit allen Datumsabweichungen anzeigen
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
+1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
 1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.1.descriptionkey=name
@@ -295,4 +295,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    row.0.styledef.case.0.comparison.usefield=false
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.

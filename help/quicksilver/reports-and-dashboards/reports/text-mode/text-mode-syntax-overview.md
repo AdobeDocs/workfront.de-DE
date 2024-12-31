@@ -1,8 +1,8 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Übersicht über die Syntax der Textmodi
-description: Sie können die Textmodus-Oberfläche verwenden, um komplexere Ansichten, Filter, Gruppierungen und benutzerdefinierte Eingabeaufforderungen in Listen und Berichten zu erstellen. Mithilfe des Textmodus können Sie auf Felder und deren Attribute zugreifen, die in der Benutzeroberfläche des Standardmodus nicht verfügbar sind.
+title: Übersicht über die Textmodussyntax
+description: Sie können die Benutzeroberfläche des Textmodus verwenden, um komplexere Ansichten, Filter, Gruppierungen und benutzerdefinierte Eingabeaufforderungen in Listen und Berichten zu erstellen. Durch die Verwendung des Textmodus können Sie auf Felder und ihre Attribute zugreifen, die nicht in der Standardmodus-Benutzeroberfläche verfügbar sind.
 author: Nolan
 feature: Reports and Dashboards
 role: User
@@ -14,89 +14,89 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über die Syntax der Textmodi
+# Übersicht über die Textmodussyntax
 
 <!--Audited: 12/2023-->
 
-Sie können die Textmodus-Oberfläche verwenden, um komplexere Ansichten, Filter, Gruppierungen und benutzerdefinierte Eingabeaufforderungen in Listen und Berichten zu erstellen. Mithilfe des Textmodus können Sie auf Felder und deren Attribute zugreifen, die in der Benutzeroberfläche des Standardmodus nicht verfügbar sind.
+Sie können die Benutzeroberfläche des Textmodus verwenden, um komplexere Ansichten, Filter, Gruppierungen und benutzerdefinierte Eingabeaufforderungen in Listen und Berichten zu erstellen. Durch die Verwendung des Textmodus können Sie auf Felder und ihre Attribute zugreifen, die nicht in der Standardmodus-Benutzeroberfläche verfügbar sind.
 
-Informationen und Überlegungen zum Textmodus vor dem Start finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+Informationen und Überlegungen zum Textmodus vor dem Start finden Sie unter [Übersicht über den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Eine vollständige Liste aller in Berichten enthaltenen Felder und deren Attribute finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
+Eine vollständige Liste aller unserer berichtspflichtigen Felder und ihrer Attribute finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
 
-Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt &quot;Lernen&quot;auf der Adobe Experience League-Site.
+Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt Lernen auf der Adobe Experience League-Site.
 
-## Überlegungen zur Syntax des Textmodus
+## Überlegungen zur Textmodussyntax
 
-* Sie müssen die Adobe Workfront-Syntax verstehen, bevor Sie mit der Erstellung von Berichterstellungselementen im Textmodus beginnen können. Die Workfront-Syntax für den Textmodus ist für diese Anwendung eindeutig und weist eindeutige Merkmale auf, mit denen Sie vertraut sein müssen.
-* Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir dringend, unsere Klassen für erweiterte Berichte zu verwenden, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
-* Sie können Ansichten, Filter und Gruppierungen mithilfe der Benutzeroberfläche des Standardmodus anpassen. Sie können jedoch nur im Textmodus benutzerdefinierte Eingabeaufforderungen erstellen.
+* Sie müssen die Adobe Workfront-Syntax verstehen, bevor Sie mit dem Erstellen von Berichterstellungselementen im Textmodus beginnen können. Die Workfront-Syntax für den Textmodus ist in dieser Anwendung eindeutig und weist eindeutige Merkmale auf, mit denen Sie vertraut sein müssen.
+* Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir Ihnen dringend, unsere Kurse über erweiterte Berichte zu absolvieren, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Sie können Ansichten, Filter und Gruppierungen über die Standardmodus-Benutzeroberfläche anpassen. Sie können jedoch benutzerdefinierte Eingabeaufforderungen nur im Textmodus erstellen.
 
 ## Allgemeine Richtlinien zum Erstellen von Berichterstellungselementen im Textmodus
 
-Die folgenden allgemeinen Richtlinien gelten beim Erstellen von Berichterstellungs- oder Listenelementen im Textmodus:
+Im Folgenden finden Sie allgemeine Richtlinien zum Erstellen von Reporting- oder Listenelementen im Textmodus:
 
-* Verwenden Sie beim Referenzieren von Objekten oder Attributen in der Workfront-Datenbank immer die Binnenmajuskel-Schreibweise.
-* Beachten Sie die Hierarchie der Objekte in Workfront. Die folgenden Unterschiede bestehen zwischen Ansichten, Filtern und Gruppierungen:
+* Verwenden Sie immer Groß-/Kleinschreibung beim Referenzieren von Objekten oder Attributen in der Workfront-Datenbank.
+* Beachten Sie die Objekthierarchie in Workfront. Die folgenden Unterschiede bestehen zwischen Ansichten, Filtern und Gruppierungen:
 
-   * Sie können ein Objekt anzeigen, das sich in einer Ansicht aus drei Objekten außerhalb des Berichts oder Listenobjekts befindet.
+   * Sie können ein -Objekt anzeigen, das drei Objekte vom Bericht entfernt ist, oder ein Listenobjekt in einer Ansicht.
    * Sie können in einer Gruppierungs-, Filter- oder benutzerdefinierten Eingabeaufforderung nicht auf Objekte verweisen, die mehr als zwei Objekte vom Hauptobjekt entfernt sind.
 
-  **Beispiel:** Sie können den Namen oder die GUID des Portfolio-Eigentümers in einer Aufgabenansicht anzeigen:
+  **Beispiel** Sie können den Namen oder die GUID des Portfolio-Inhabers in einer Aufgabenansicht anzeigen:
 
 
   `valuefield=project:portfolio:ownerID`
 
-  Sie können in einer Aufgabenansicht keine Portfolio Owner gruppieren, filtern oder auffordern:
+  Sie können den Verantwortlichen für das Portfolio nicht in einer Aufgabenansicht gruppieren, filtern oder dazu auffordern:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
 
 
-  In diesen Beispielen befindet sich die Portfolio Owner ID drei Objekte vom Listenobjekt entfernt.
+  In diesen Beispielen ist die Portfolio-Eigentümer-ID drei Objekte vom Objekt der Liste entfernt.
 
-  Informationen zur Hierarchie von Objekten in Workfront finden Sie unter:
+  Informationen zur Objekthierarchie in Workfront finden Sie unter:
 
-   * [Objekte in Adobe Workfront verstehen](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
+   * [Verstehen von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md)
    * [API Explorer](../../../wf-api/general/api-explorer.md)
 
-* Verwenden Sie nach Möglichkeit Platzhalter, um Ihre Berichte und Listen dynamischer zu gestalten und zu vermeiden, dass sie für verschiedene Benutzer und ähnliche Zeitpläne dupliziert werden.
+* Verwenden Sie nach Möglichkeit Platzhalter, um Ihre Berichte und Listen dynamischer zu gestalten und um zu vermeiden, dass sie für verschiedene Benutzer und ähnliche Timelines dupliziert werden.
 
-## Überblick über Fälle in Camel
+## Fallübersicht
 
-Beim Referenzieren von Workfront-Feldern oder ihren Attributen im Textmodus müssen Sie in Workfront deren Namen in Binnenmajuskel-Schreibweise eingeben. In diesem Fall werden die Felder mit einem Namen in Kleinbuchstaben geschrieben. Zusammengesetzte Felder werden nach folgendem Muster geschrieben:
+Beim Referenzieren von Workfront-Feldern oder deren Attributen im Textmodus verlangt Workfront, dass Sie deren Namen in Binnenmajuskel-Schreibweise eingeben. In diesem Fall werden die Felder mit dem einzelnen Namen in Kleinbuchstaben geschrieben. Zusammengesetzte Felder werden nach dem folgenden Muster geschrieben:
 
 `camelCaseSyntax`
 
 >[!IMPORTANT]
 >
->Alle Berichterstellungselemente folgen diesem Groß-/Kleinschreibung.
+>Alle Berichtselemente folgen diesem Groß-/Kleinschreibung.
 
-Die Eigenschaften des Kamelschachtes sind:
+Die Merkmale des Camel Case sind:
 
 * Das erste Wort beginnt immer mit einem Kleinbuchstaben.
 * Die folgenden Wörter beginnen immer mit einem Großbuchstaben.
 * Zwischen den Wörtern gibt es keine Leerzeichen.
 
-**Beispiel:** Um auf das tatsächliche Abschlussdatum eines Projekts zu verweisen, lautet der Name des Felds, das Sie beim Erstellen von Berichterstellungselementen im Textmodus verwenden würden
+**Beispiel** Um auf das tatsächliche Abschlussdatum eines Projekts zu verweisen, würde der Name des Felds, den Sie beim Erstellen von Berichtselementen im Textmodus verwenden würden, lauten
 
 `actualCompletionDate`
 
-## Textmodussyntax für verschiedene Berichterstellungselemente
+## Textmodus-Syntax für verschiedene Berichterstellungselemente
 
-Die folgenden Syntaxsätze der unten aufgeführten Berichterstellungselemente weisen bei ihrer Erstellung im Textmodus Ähnlichkeiten auf:
+Die Syntax der unten aufgeführten Sätze von Reporting-Elementen weist beim Erstellen im Textmodus die folgenden Ähnlichkeiten auf:
 
-* Die Zeilen des Codes und der Syntax sind für Ansichten und Gruppierungen ähnlich.
+* Die Code- und Syntaxzeilen für Ansichten und Gruppierungen sind ähnlich.
 
-  Informationen zu den wichtigsten Codezeilen für Ansichten und Gruppierungen beim Erstellen im Textmodus finden Sie unter:
+  Informationen zu den Schlüsselzeilen von Codes für Ansichten und Gruppierungen beim Erstellen im Textmodus finden Sie unter:
 
    * [Bearbeiten einer Ansicht im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
    * [Textmodus in einer Gruppierung bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
-* Die Codezeilen und die Syntax sind für Filter und benutzerdefinierte Eingabeaufforderungen ähnlich.
+* Die Code- und Syntaxzeilen für Filter und benutzerdefinierte Eingabeaufforderungen sind ähnlich.
 
-  Weitere Informationen finden Sie unter
+  Weitere Informationen finden Sie unter:
 
-   * [Bearbeiten eines Filters mit dem Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+   * [Bearbeiten eines Filters im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
    * [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
 ### Syntax für Ansichten und Gruppierungen
@@ -105,147 +105,147 @@ Die Codezeilen beim Erstellen von Ansichten und Gruppierungen sind ähnlich.
 
 Informationen zum Erstellen von Ansichten und Gruppierungen finden Sie in den folgenden Artikeln:
 
-* [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
-* [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md)
+* [Übersicht über Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 
-Die wichtigste Codezeile für eine Ansicht oder Gruppierung ist die Zeile, die das in der Ansichtsspalte oder in der Gruppierung referenzierte Objekt angibt. Diese Codezeile kann mit `valuefield` oder `valueexpression` beginnen, je nachdem, ob dieses Feld eine direkte Referenz auf ein Workfront-Datenbankfeld oder eine Berechnung zwischen mehreren Feldern ist.
+Die wichtigste Codezeile für eine Ansicht oder eine Gruppierung ist die Zeile, die das Objekt identifiziert, auf das in der Spalte der Ansicht oder in der Gruppierung verwiesen wird. Diese Codezeile kann mit `valuefield` oder `valueexpression` beginnen, je nachdem, ob dieses Feld ein direkter Verweis auf ein Workfront-Datenbankfeld oder eine Berechnung zwischen mehreren Feldern ist.
 
-In der folgenden Tabelle sind die gängigsten Codezeilen in einer Ansicht oder Gruppierung aufgeführt:
+In der folgenden Tabelle sind die häufigsten Codezeilen in einer Ansicht oder Gruppierung aufgeführt:
 
 | Codezeile | Beschreibung |
 |-----------------|------------------------------------------------------------------------------------------------------------------------------|
-| `valuefield` | Identifiziert das in der Ansichtsspalte oder Gruppierung referenzierte Objekt. Dies ist ein direkter Verweis auf das referenzierte Objekt. |
-| `valueexpression` | Identifiziert das in der Ansichtsspalte oder Gruppierung referenzierte Objekt. Dies ist eine Berechnung zwischen mehreren Feldern. |
-| `valueformat` | Gibt das Format an, in dem Workfront den Wert zurückgibt, der in den Ausdruckszeilen &quot;value&quot;oder &quot;value&quot;angegeben ist. |
+| `valuefield` | Identifiziert das Objekt, auf das in der Spalte der Ansicht oder in der Gruppierung verwiesen wird. Dies ist ein direkter Verweis auf das referenzierte Objekt. |
+| `valueexpression` | Identifiziert das Objekt, auf das in der Spalte der Ansicht oder in der Gruppierung verwiesen wird. Dies ist eine Berechnung zwischen mehreren Feldern. |
+| `valueformat` | Gibt das Format an, in dem Workfront den in den Zeilen valueField oder valueExpression angegebenen Wert zurückgibt. |
 | `width` | Gibt die Breite einer Spalte in Pixel an. |
-| `stretch` | Gibt an, welche Spalten zusätzlichen Speicherplatz belegen, der für die Ansicht nicht benötigt wird. |
+| `stretch` | Gibt an, welche Spalten zusätzlichen Platz belegen, der für die Ansicht nicht benötigt wird. |
 
 >[!TIP]
 >
->* Obwohl die Codezeilen in den Beispielen unten zwischen Ansichten und Gruppierungen ähnlich sind, sollten Sie immer daran denken, dass jede Codezeile für eine Gruppierung mit der Gruppierungsnummer beginnt.
+>* Obwohl die Codezeilen in den folgenden Beispielen zwischen Ansichten und Gruppierungen ähnlich sind, sollten Sie immer daran denken, dass jede Codezeile für eine Gruppierung mit der Gruppierungsnummer beginnt.
 >
->  Um in einer Projektliste oder einem Bericht nach Projektname zu gruppieren, verwenden Sie die folgende Zeile für die Gruppierung der ersten Ebene:
+>  Um in einer Projektliste oder einem Bericht nach Projektnamen zu gruppieren, verwenden Sie die folgende Zeile für die Gruppierung der ersten Ebene:
 >
 >  `group.0.valuefield=name`
 >  
->* Wenn Sie mehrere Spalten in einer Ansicht in derselben Spalte bearbeiten (wie es bei gemeinsamen Spalten der Fall ist), beachten Sie, dass jede Codezeile für jede Spalte mit der Spaltennummer beginnt.
+>* Wenn Sie mehrere Spalten in einer Ansicht in derselben Spalte bearbeiten (wie dies bei gemeinsam genutzten Spalten der Fall ist), denken Sie daran, dass jede Codezeile für jede Spalte mit der Spaltennummer beginnt.
 >
->  Verwenden Sie das folgende Format, um die erste Spalte einer Ansicht zu identifizieren:
+>  Verwenden Sie das folgende Format, um die erste Spalte einer Ansicht anzugeben:
 >
 >  `column.0.valuefield=name`
 >  
->  Informationen zum Freigeben von Spalten finden Sie unter [Anzeigen: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>  Informationen zur gemeinsamen Nutzung von Spalten finden Sie unter [Anzeigen: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 >
 
-#### `Valuefield` Syntaxübersicht für Ansichten und Gruppierungen
+#### Übersicht über die `Valuefield` für Ansichten und Gruppierungen
 
-`Valuefield=` ist eine Schlüsselzeile des Codes in Ansichten und Gruppierungen, die das Objekt identifiziert, auf das Sie direkt verweisen.
+`Valuefield=` ist eine Schlüsselzeile von Code in Ansichten und Gruppierungen, die das Objekt identifiziert, auf das Sie direkt verweisen.
 
-Die Syntax für direkt referenzierende Felder ist für Gruppierungen und Ansichten identisch.
+Die Syntax für den direkten Verweis auf Felder ist für Gruppierungen und Ansichten identisch.
 
-Die folgenden Regeln gelten beim Referenzieren von Workfront-Objekten mit einer Zeile `valuefield` :
+Die folgenden Regeln gelten für den Verweis auf Workfront-Objekte mithilfe einer `valuefield`:
 
-* Verwenden Sie die Binnenmajuskel-Groß-/Kleinschreibung, um direkt auf Felder zu verweisen.
+* Verwenden Sie Groß-/Kleinschreibung, um direkt auf Felder zu verweisen.
 
-  **Beispiel:** Verwenden Sie die folgende Zeile, um auf das tatsächliche Abschlussdatum der Aufgabe in einer Aufgabenansicht zu verweisen:
+  **Beispiel** Verwenden Sie die folgende Zeile, um in einer Aufgabenansicht auf das tatsächliche Abschlussdatum der Aufgabe zu verweisen:
 
   `valuefield=actualCompletionDate`
 
-* Verwenden Sie die Groß-/Kleinschreibung und Doppelpunkte, um Felder zu trennen, die für dasselbe Objekt miteinander in Beziehung stehen.
+* Verwenden Sie Binnenmajuskeln und Doppelpunkte, um Felder für dasselbe Objekt zu trennen, die miteinander verknüpft sind.
 
-  **Beispiel:** Verwenden Sie die folgende Zeile, um auf das geplante Abschlussdatum des Projekts in einer Aufgabenansicht zu verweisen:
+  **Beispiel** Verwenden Sie die folgende Zeile, um in einer Aufgabenansicht auf das geplante Abschlussdatum des Projekts zu verweisen:
 
   `valuefield=project:plannedCompletionDate`
 
-  Informationen dazu, wie Objekte in der Workfront-Datenbank aufeinander verweisen, finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
+  Weitere Informationen dazu, wie Objekte in der Workfront-Datenbank aufeinander verweisen, finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 * Verwenden Sie beim Referenzieren eines benutzerdefinierten Felds den Namen des Felds genau so, wie er in der Benutzeroberfläche angezeigt wird.
 
-  **Beispiel:** Verwenden Sie die folgende Zeile, um auf ein benutzerdefiniertes Projekt mit der Bezeichnung Zusätzliche Details in einer Aufgabenansicht zu verweisen:
+  **Beispiel** Verwenden Sie die folgende Zeile, um in einer Aufgabenansicht auf ein benutzerdefiniertes Feld des Projekts mit der Bezeichnung „Zusätzliche Details“ zu verweisen:
 
   `valuefield=project:Additional Details`
 
-#### `Valueexpression` Syntaxübersicht für Ansichten und Gruppierungen
+#### Übersicht über die `Valueexpression` für Ansichten und Gruppierungen
 
-Sie können die Codezeile `valuefield=` durch `valueexpression=` ersetzen, wenn Sie Ansichten und Gruppierungen im Textmodus erstellen und eine Berechnung zwischen zwei oder mehr Feldern referenzieren möchten.
+Sie können die `valuefield=` Codezeile beim Erstellen von Ansichten und Gruppierungen im Textmodus durch `valueexpression=` ersetzen, wenn Sie auf eine Berechnung zwischen zwei oder mehr Feldern verweisen möchten.
 
 >[!TIP]
 >
->Sie können berechnete Felder erstellen, die in Berichten angezeigt werden können. Berechnete Ansichten und Gruppierungen sind jedoch dynamischer. Berechnete Ansichten und Gruppierungen werden jedes Mal, wenn Sie den Bericht ausführen oder eine Liste anzeigen, mit neuen Informationen aktualisiert.
+>Sie können zwar berechnete Felder erstellen, die Sie in Berichten anzeigen können, berechnete Ansichten und Gruppierungen sind jedoch dynamischer. Berechnete Ansichten und Gruppierungen werden bei jeder Ausführung des Berichts oder der Anzeige einer Liste mit neuen Informationen aktualisiert.
 >
->Informationen zum Erstellen berechneter Spalten in einer Ansicht finden Sie unter [Berechnete benutzerdefinierte Felder vs. berechnete Spalten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
+>Informationen zum Erstellen berechneter Spalten in einer Ansicht finden Sie unter [Berechnete benutzerdefinierte Felder im Vergleich zu berechneten Spalten](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-fields-calculated-columns.md).
 
 Das Erstellen einer berechneten Gruppierung ähnelt dem Erstellen einer berechneten Spalte in einer Ansicht.
 
-Die folgenden Regeln gelten beim Referenzieren von Workfront-Objekten mit einer Zeile `valueexpression` :
+Die folgenden Regeln gelten für den Verweis auf Workfront-Objekte mithilfe einer `valueexpression`:
 
-* Verwenden Sie die Binnenmajuskel-Schreibweise, um direkt auf Felder zu verweisen und jedes Feld in geschweifte Klammern einzuschließen.
+* Verwenden Sie Groß-/Kleinschreibung, um Felder direkt zu referenzieren und jedes Feld in geschweifte Klammern einzuschließen.
 
-  **Beispiel:** Verwenden Sie die folgende Zeile, um das Feld &quot;Task Name&quot;in einer Aufgabenspalte mit `valueexpression` anzuzeigen:
+  **Beispiel:** Um das Feld „Aufgabenname“ in einer Aufgabenspalte mithilfe von &quot;`valueexpression`&quot; anzuzeigen, verwenden Sie die folgende Zeile:
 
   `valueexpression={name}`
 
 
-* Verwenden Sie Kamelgehäuse und Punkte, um miteinander verknüpfte Felder voneinander zu trennen.
+* Verwenden Sie Binnenmajuskeln und Punkte, um miteinander verknüpfte Felder voneinander zu trennen.
 
-  **Beispiel:** Verwenden Sie die folgenden Zeilen, um den Namen eines mit dem Namen der Aufgabe verketteten Projekts in einem Aufgabenbericht anzuzeigen:
+  **Beispiel** Um den Namen eines Projekts in Verbindung mit dem Namen der Aufgabe in einem Aufgabenbericht anzuzeigen, verwenden Sie die folgenden Zeilen:
 
    * In einer Ansicht:
 
      `valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-   * Gruppierung:
+   * In einer Gruppierung:
 
      `group.0.valueexpression=CONCAT({project}.{name},' - ',{name})`
 
-  Informationen dazu, wie Objekte in der Workfront-Datenbank aufeinander verweisen, finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
+  Weitere Informationen dazu, wie Objekte in der Workfront-Datenbank aufeinander verweisen, finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 * Verwenden Sie beim Referenzieren eines benutzerdefinierten Felds die folgenden Regeln:
 
    * Verwenden Sie den Namen des Felds genau so, wie er in der Benutzeroberfläche angezeigt wird.
-   * Stellen Sie dem Namen des Felds &quot;DE:&quot;voran.
-   * Schließen Sie das Feld in geschweifte Klammern ein.
-   * Trennen Sie die mit dem Objekt verknüpften Felder durch Punkte.
+   * Stellen Sie dem Namen des Felds „DE:“ voran.
+   * Schließen Sie das Feld in geschweiften Klammern ein.
+   * Trennen Sie die mit dem Objekt verbundenen Felder durch Punkte.
 
-  **Beispiel:** Verwenden Sie die folgende Zeile, um das benutzerdefinierte Feld &quot;Zusätzliches Detailprojekt&quot;in einer Aufgabenansicht in einer Ausdruckszeile für Werte anzuzeigen:
+  **Beispiel:** Um das benutzerdefinierte Feld „Projekt Zusätzliche Details“ in einer Aufgabenansicht in einer Ausdruckszeile für Werte anzuzeigen, verwenden Sie die folgende Zeile:
 
   `valueexpression={project}.{DE:Additional Details}`
 
-* Sie können einen Platzhalter in einer `valueexpression`-Zeile, aber nicht in einer `valuefield`-Zeile verwenden.
+* Sie können einen Platzhalter in einem `valueexpression`, aber nicht in einer `valuefield` verwenden.
 
-  Informationen zu Platzhaltern finden Sie unter [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+  Informationen zu Platzhaltern finden Sie unter [Übersicht über Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
 
-#### `Valueformat` Übersicht über Ansichten und Gruppierungen
+#### `Valueformat` für Ansichten und Gruppierungen
 
-Die zweitwichtigste Codezeile in einer Ansicht oder Gruppierung ist die Zeile `valueformat=`. Dadurch wird Workfront mitgeteilt, in welchem Format der in den Zeilen `valuefield` oder `valueexpression` angegebene Wert zurückgegeben werden soll. Obwohl Sie für die `valueformat` -Zeilen verschiedene Formate verwenden können, sollten Sie bei Verwendung von `valueexpression` immer den folgenden Wert verwenden:
+Die zweitwichtigste Codezeile in einer Ansicht oder Gruppierung ist die `valueformat=`. Dadurch wird Workfront mitgeteilt, in welchem Format der Wert zurückgegeben werden soll, den Sie in den `valuefield` oder `valueexpression` Zeilen angeben. Obwohl Sie verschiedene Formate für die `valueformat` verwenden können, empfehlen wir, bei der Verwendung von `valueexpression` immer den folgenden Wert zu verwenden:
 
 `valueformat=HTML`
 
-Weitere `valueformat` -Werte finden Sie in den folgenden Artikeln:
+Weitere `valueformat` finden Sie in den folgenden Artikeln:
 
-* [Datumsangaben in Textmodusberichten formatieren](../../reports/text-mode/format-dates-in-text-mode-reports.md)
-* [Formatnummern, Währungs- und Prozentwerte in Textmodusberichten](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
+* [Formatieren von Datumsangaben in Berichten im Textmodus](../../reports/text-mode/format-dates-in-text-mode-reports.md)
+* [Formatieren von Zahlen, Währungs- und Prozentwerten in Textmodusberichten](../../reports/text-mode/format-numbers-in-text-mode-reports.md)
 
-#### `width` Übersicht für Ansichten
+#### `width` für Ansichten
 
-`width=` ist die Codezeile, in der Sie die Breite jeder Spalte in Pixel angeben können. Workfront bietet für jedes Feld eine empfohlene Breite. Je nach Feldtyp und -format können Sie jedoch Anpassungen vornehmen.
+`width=` ist die Codezeile, in der Sie die Breite jeder Spalte in Pixel angeben können. Workfront bietet eine empfohlene Breite für jedes Feld. Je nach Feldtyp und Format können Sie jedoch Anpassungen vornehmen.
 
-Sie müssen die zusätzliche Codezeile `usewidths=true` verwenden, um die für die Spalte angegebene Breite zu erzwingen.
+Sie müssen die zusätzliche `usewidths=true` Codezeile verwenden, um die für die Spalte angegebene Breite zu erzwingen.
 
-**Beispiel:** Verwenden Sie die folgenden Zeilen, um eine Spalte mit einer Breite von 80 Pixel anzuzeigen:
+**Beispiel:** Um eine Spalte mit einer Breite von 80 Pixel anzuzeigen, verwenden Sie die folgenden Zeilen:
 
 `width=80`
 
 `usewidths=true`
 
-#### `stretch` Übersicht für Ansichten
+#### `stretch` für Ansichten
 
-Mit dem `stretch` wird ermittelt, welche Spalten zusätzlichen Platz belegen, der für die Ansicht nicht benötigt wird. Die Breite der Benutzeroberfläche des Arbeitsbereichs für einen typischen Benutzer beträgt etwa 850 Pixel. Das bedeutet, dass Ihre Ansicht bei einer Ansicht mit vier Spalten (jeweils 150 Pixel) 600 von 850 Pixel umfasst. Die Benutzeroberfläche enthält 250 zusätzliche Pixel, die zu den Spalten hinzugefügt werden, für die ein gestreckter Prozentsatz bereitgestellt wird.
+Mit dem `stretch` wird ermittelt, welche Spalten zusätzlichen Platz belegen, der für die Ansicht nicht benötigt wird. Die Breite der Benutzeroberfläche des Arbeitsbereichs beträgt für einen typischen Benutzer etwa 850 Pixel. Das bedeutet, dass bei einer Ansicht mit vier Spalten (je 150 Pixel) die Ansicht 600 von 850 Pixel ausfüllt. Die Benutzeroberfläche von enthält 250 zusätzliche Pixel, die den Spalten hinzugefügt werden, für die ein Dehnungsprozentsatz angegeben ist.
 
-Der Abschnitt einer Spalte wird erzwungen, wenn Sie die zusätzliche Codezeile verwenden: `usewidths=true` für mindestens eine der Spalten in der Ansicht.
+Die Ausdehnung einer Spalte wird erzwungen, wenn Sie die zusätzliche Codezeile verwenden: `usewidths=true` für mindestens eine der Spalten in der Ansicht.
 
-**Beispiel:** Verwenden Sie die folgenden Zeilen, um anzugeben, dass eine Spalte 70 % des leeren Bereichs in einer Ansicht verwenden kann:
+**Beispiel:** Verwenden Sie die folgenden Zeilen, um anzugeben, dass eine Spalte 70 % des leeren Bereichs in einer Ansicht verwenden könnte:
 
 `stretch=70`
 
@@ -253,29 +253,29 @@ Der Abschnitt einer Spalte wird erzwungen, wenn Sie die zusätzliche Codezeile v
 
 ### Syntax für Filter und benutzerdefinierte Eingabeaufforderungen
 
-Die Syntax zum Erstellen von Filtern ähnelt der zum Erstellen von benutzerdefinierten Aufforderungen.
+Die Syntax zum Erstellen von Filtern ähnelt der Syntax zum Erstellen benutzerdefinierter Eingabeaufforderungen.
 
 >[!TIP]
 >
->Sie können eine benutzerdefinierte Eingabeaufforderung erstellen, indem Sie zunächst einen Filter für die Anweisung erstellen, die Sie in die Eingabeaufforderung aufnehmen möchten. Verbinden Sie alle Codezeilen in einem Filter mit &quot;&amp;&quot;ohne Leerzeichen zwischen den Zeilen und der benutzerdefinierten Eingabeaufforderung.
+>Sie können eine benutzerdefinierte Eingabeaufforderung erstellen, indem Sie zunächst einen Filter für die Anweisung erstellen, die Sie in die Eingabeaufforderung aufnehmen möchten. Verbinden Sie alle Codezeilen in einem Filter mit &quot;&amp;&quot;, ohne dass Leerzeichen zwischen den Zeilen vorhanden sind. Daraus wird dann Ihre benutzerdefinierte Eingabeaufforderung.
 
 Informationen zum Erstellen von Filtern und benutzerdefinierten Eingabeaufforderungen finden Sie unter:
 
-* [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
 * [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md)
 
-Informationen zum Erstellen von Filtern im Textmodus finden Sie unter [Bearbeiten eines Filters mit dem Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
+Weitere Informationen zum Erstellen von Filtern im Textmodus finden Sie unter [Bearbeiten eines Filters im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md).
 
 Sie können die folgenden Elemente verwenden, um Filter und benutzerdefinierte Eingabeaufforderungen im Textmodus zu erstellen:
 
-* Eine Codezeile, die auf das Objekt der Filteranweisung verweist. Verwenden Sie die Binnenmajuskel-Schreibweise für das Filterobjekt.
-* Eine Codezeile, die auf das Filterobjekt und den Modifikator für den Wert des Filterobjekts verweist. Verwenden Sie für das Filterobjekt in dieser Zeile die Binnenmajuskel-Schreibweise.
+* Eine Codezeile, die auf das Objekt der Filteranweisung verweist. Verwenden Sie Binnenmajuskeln für das Filterobjekt.
+* Eine Codezeile, die auf das Filterobjekt und den Modifikator für den Wert des Filterobjekts verweist. Verwenden Sie Binnenmajuskeln für das Filterobjekt in dieser Zeile.
 
   >[!TIP]
   >
-  >Beim Referenzieren von Bereichen sind dafür 2 Modifikatorlinien erforderlich.
+  >Beim Referenzieren von Bereichen sind hierfür zwei Modifikatorzeilen erforderlich.
 
-* Ein Statement-Connector, der mehrere Filteranweisungen verbindet:
+* Ein Anweisungs-Connector, der mehrere Filteranweisungen verbindet:
 
    * UND
 
@@ -285,6 +285,6 @@ Sie können die folgenden Elemente verwenden, um Filter und benutzerdefinierte E
 
      >[!TIP]
      >
-     >Bei Anweisungs-Connectoren wird zwischen Groß- und Kleinschreibung unterschieden. &quot;AND&quot;kann im Textmodus weggelassen werden.
+     >Bei Anweisungs-Connectoren wird zwischen Groß- und Kleinschreibung unterschieden. „AND“ kann im Textmodus weggelassen werden.
 
-* Platzhalter, um Filter dynamischer zu gestalten und für die aktuelle Zeit oder den angemeldeten Benutzer anzupassen. Informationen zu Platzhaltern finden Sie unter [Übersicht über Wildcard-Filtervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
+* Platzhalter, um Filter dynamischer zu gestalten und sie für die aktuelle Zeit oder den angemeldeten Benutzer anzupassen. Informationen zu Platzhaltern finden Sie unter [Übersicht über Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).

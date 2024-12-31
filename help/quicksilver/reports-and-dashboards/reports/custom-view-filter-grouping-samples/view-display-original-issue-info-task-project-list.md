@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Informationen zum ursprünglichen Problem in Aufgaben- oder Projektlisten anzeigen'
-description: Sie können Informationen aus dem ursprünglichen Problem in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem das Problem in die Aufgaben und Projekte in der Liste konvertiert wurde.
+title: 'Anzeigen : Zeigt ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten an'
+description: Sie können Informationen zum ursprünglichen Problem in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem das Problem in die Aufgaben und Projekte in der Liste konvertiert wurde.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 235156b6-a9b6-484e-b126-54874da705c8
@@ -14,19 +14,19 @@ ht-degree: 5%
 
 ---
 
-# Ansicht: Zeigt Informationen zu ursprünglichen Problemen in Aufgaben- oder Projektlisten an
+# Anzeigen: ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten anzeigen
 
-Sie können die folgenden Informationen aus dem ursprünglichen Problem in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem das Problem in die Aufgaben und Projekte in der Liste konvertiert wurde:
+Sie können die folgenden Informationen aus der ursprünglichen Anfrage in einer Ansicht von Aufgaben- und Projektlisten anzeigen, nachdem die Anfrage in die Aufgaben und Projekte in der Liste konvertiert wurde:
 
 * Name des konvertierten Problems
 * Problem-Eingabedatum konvertiert
-* Name des konvertierten Emittenten
+* Name des Urhebers des konvertierten Problems
 
-Informationen zum Erstellen einer Ansicht mit dem standardmäßigen ReportBuilder finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Informationen zum Erstellen einer Ansicht mit dem standardmäßigen Report Builder finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ![task_and_project_list_with_original_issue_info.png](assets/task-and-project-list-with-original-issue-info-350x59.png)
 
-Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekt- und Aufgabenlisten finden Sie auch unter [Ansicht: Details zu Ausgangsproblemen für Aufgaben und Projekte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
+Weitere Informationen zum Einschließen zusätzlicher Probleminformationen in Projekte und Aufgabenlisten finden Sie auch unter [Anzeigen: Problemdetails für Aufgaben und Projekte ](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-originating-issue-details-tasks-projects.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

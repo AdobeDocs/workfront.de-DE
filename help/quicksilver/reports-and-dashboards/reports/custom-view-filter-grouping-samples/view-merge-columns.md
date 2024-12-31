@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte'
+title: 'Ansicht: Informationen aus mehreren Spalten in einer gemeinsamen Spalte zusammenführen'
 description: Sie können die Informationen, die in mehreren separaten Spalten angezeigt werden, zusammenführen und in einer gemeinsamen Spalte anzeigen.
 author: Nolan
 feature: Reports and Dashboards
@@ -22,7 +22,7 @@ Sie können die Informationen, die in mehreren separaten Spalten angezeigt werde
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,84 +31,84 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Überlegungen beim Freigeben oder Zusammenführen von Spalten
 
-* Sie können zwei nebeneinander liegende Spalten zusammenführen und die Informationen aus den einzelnen Spalten durch einen Zeilenumbruch trennen. Alternativ können Sie die Informationen in zwei benachbarten Spalten ohne Trennzeichen zwischen den Informationen aus den einzelnen Spalten zusammenführen.
-* Sie können die Informationen aus mehr als zwei Spalten zusammenführen, indem Sie die in diesem Artikel beschriebene Syntax auf eine bereits gemeinsam genutzte Spalte und eine angrenzende Spalte anwenden.
-* Die Zeile `valueformat=HTML` ist in einer freigegebenen Spalte obligatorisch. Andernfalls enthalten die Spalten keine Informationen (sie sind leer), wenn der Bericht aus Adobe Workfront exportiert wird.
-* Die bedingte Formatierung wird in zusammengeführten Spalten möglicherweise nicht unterstützt.
+* Sie können zwei benachbarte Spalten zusammenführen und die Informationen aus jeder Spalte anzeigen, die durch einen Zeilenumbruch getrennt sind, oder Sie können die Informationen in zwei benachbarten Spalten zusammenführen, ohne ein Trennzeichen zwischen den Informationen aus jeder Spalte zu verwenden.
+* Sie können die Informationen aus mehr als zwei Spalten zusammenführen, indem Sie die in diesem Artikel beschriebene Syntax auf eine bereits freigegebene Spalte und eine angrenzende Spalte anwenden.
+* Die `valueformat=HTML` ist in einer freigegebenen Spalte obligatorisch. Andernfalls enthalten die Spalten keine Informationen (sie sind leer), wenn der Bericht aus Adobe Workfront exportiert wird.
+* Bedingte Formatierung wird in zusammengeführten Spalten möglicherweise nicht unterstützt.
 
-  Es gibt die folgenden Ausnahmen:
+  Die folgenden Ausnahmen sind vorhanden:
 
-   * Bei der Anzeige von Informationen in Workfront wird die Formatierung der ersten Spalte beibehalten und die Formatierung für alle anderen Spalten wird ignoriert, wenn die Spalten, aus denen eine zusammengeführte Spalte besteht, unterschiedliche Formatierungen aufweisen.
-   * Beim Exportieren der Ansicht in eine PDF-Datei gilt die bedingte Formatierung für die erste Spalte einer zusammengeführten Spalte.
+   * Beim Anzeigen von Informationen in Workfront wird die Formatierung der ersten Spalte beibehalten und die Formatierung für alle anderen Spalten wird ignoriert, wenn die Spalten, aus denen eine zusammengeführte Spalte besteht, unterschiedliche Formatierungen aufweisen.
+   * Beim Exportieren der Ansicht in eine PDF-Datei gilt die bedingte Formatierung für die erste Spalte in einer zusammengeführten Spalte.
    * Beim Exportieren der Ansicht in eine Excel-Datei werden zusammengeführte Spalten als separate Spalten angezeigt. Die einzelnen Spalten zeigen auch ihre jeweiligen bedingten Formatierungsregeln an.
 
-* Spalten mit dem Attribut **viewalias** können die Anzahl der Spalten einschränken, die Sie zusammenführen können. Um diese Einschränkungen zu vermeiden, sollten Sie das Attribut **viewalias** nicht verwenden. Wenn Sie das Attribut **viewalias** in eine Spalte aufnehmen müssen, stellen Sie sicher, dass es sich um das letzte Element handelt, das in der Spalte aufgeführt ist.
+* Spalten mit dem **viewAlias**-Attribut können die Anzahl der Spalten begrenzen, die zusammengeführt werden können. Um diese Einschränkungen zu vermeiden, vermeiden Sie die Verwendung des **viewalias**-Attributs. Wenn Sie das Attribut **viewalias** in eine Spalte einbeziehen müssen, stellen Sie sicher, dass dies das letzte in der Spalte aufgeführte Element ist.
 
-* Wenn Sie eine Liste mit gemeinsamen Spalten in ein Excel- oder Tabulator-Format exportieren, werden diese Spalten in der exportierten Datei getrennt.
+* Wenn Sie eine Liste mit freigegebenen Spalten in ein durch Excel- oder Tabulatoren getrenntes Format exportieren, werden diese Spalten in der exportierten Datei getrennt.
 
-* Wenn eine oder beide Spalten ein Feld vom Typ `tile` anzeigen, wird automatisch ein erzwungener Zeilenumbruch in die zusammengeführte Spalte eingefügt. Beispielsweise sind Textfelder mit Formatierung vom Typ `tile`. In diesem Fall gibt es einen Zeilencode von `type=tile`, wenn die Spalten im Textmodus angezeigt werden.
+* Wenn eine oder beide Spalten ein Feld vom Typ `tile` anzeigen, wird automatisch ein erzwungener Zeilenumbruch in die zusammengeführte Spalte eingefügt. Beispielsweise sind Textfelder mit Formatierung Felder vom Typ `tile`. In diesem Fall gibt es einen Zeilen-Code von `type=tile`, wenn die Spalten im Textmodus angezeigt werden.
 
 ## Zusammenführen von Daten aus zwei Spalten ohne Zeilenumbruch
 
-Sie können die Daten aus mehreren separaten Spalten zusammenführen, um sie in einer Spalte ohne Umbrüche oder Leerzeichen zwischen den Werten der einzelnen Spalten anzuzeigen.
+Sie können die Daten aus mehreren separaten Spalten zusammenführen, um sie in einer Spalte ohne Umbrüche oder Leerzeichen zwischen den Werten aus den einzelnen Spalten anzuzeigen.
 
 >[!TIP]
 >
->Dieser Ansatz wird empfohlen, wenn Sie zwei Spalten zusammenführen, die nie einen Wert für denselben Datensatz gleichzeitig anzeigen können. Beispielsweise können in einem Arbeitselement-Bericht die Spalten &quot;Problemname&quot;und &quot;Aufgabenname&quot;ohne Zeilenumbruch zusammengeführt werden, da ein Arbeitselement nie einen Problemnamen und einen Aufgabennamen gleichzeitig haben kann. Ein Arbeitselement kann in Workfront entweder ein Problem oder eine Aufgabe sein.
+>Dieser Ansatz wird empfohlen, wenn Sie zwei Spalten zusammenführen, die nie gleichzeitig einen Wert für denselben Datensatz anzeigen können. Beispielsweise können in einem Arbeitsaufgabenbericht die Spalten „Anfragename“ und „Aufgabenname“ ohne Zeilenumbruch zusammengeführt werden, da ein Arbeitselement nie gleichzeitig einen Anfragenamen und einen Aufgabennamen haben kann. Ein Arbeitselement kann in Workfront entweder ein Problem oder eine Aufgabe sein.
 
 So führen Sie Daten aus zwei Spalten ohne Zeilenumbruch zusammen:
 
 1. Navigieren Sie zu einer Liste von Objekten.
-1. Wählen Sie aus der Dropdownliste **Ansicht** eine Ansicht aus und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png), um die Ansicht zu bearbeiten.
-1. Wechseln Sie zur ersten Spalte, die Sie zusammenführen möchten, und klicken Sie dann auf **In Textmodus wechseln** > **Textmodus bearbeiten** .
-1. Fügen Sie der ersten Spalte, die Sie zusammenführen möchten, den folgenden Text hinzu:
+1. Wählen Sie aus **Dropdown** Liste „Ansicht“ eine Ansicht aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png), um die Ansicht zu bearbeiten.
+1. Wechseln Sie zur ersten Spalte, die Sie zusammenführen möchten, und klicken Sie dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
+1. Fügen Sie der ersten Spalte, die Sie zusammenführen möchten, folgenden Text hinzu:
 
    `sharecol=true`
 
-   Wenn Sie die ersten beiden Spalten einer Liste oder eines Berichts zusammenführen, setzt Workfront jeder Textzeile voraus, die Informationen über das Objekt in der ersten Spalte mit `column.0.` enthält, und den Textzeilen, die Informationen über die zweite Spalte enthalten, mit `column.1.` .
+   Wenn Sie die ersten beiden Spalten einer Liste oder eines Berichts zusammenführen, geht Workfront jeder Textzeile, die Informationen über das -Objekt in der ersten Spalte enthält, mit `column.0.` und den Textzeilen, die Informationen über die zweite Spalte enthalten, mit `column.1.` voran.
 
-   Sie müssen der Spaltennummer der ersten Spalte die Nummer dieser Spalte voranstellen. Die Spaltenzählung beginnt immer mit der Spalte ganz links in der Liste oder im Bericht mit der Bezeichnung &quot;`column.0.`&quot;.
+   Sie müssen der Spaltennummer der ersten Spalte die Nummer dieser Spalte voranstellen. Die Spaltenzählung beginnt immer mit der Spalte ganz links in der Liste oder dem Bericht, die bzw. der als `column.0.` gekennzeichnet ist.
 
-   Wenn Sie mehr als eine Spalte freigeben, stellen Sie sicher, dass Sie die Spaltennummer in den Codezeilen hinzufügen, die die Freigabeinformationen für jede Spalte enthalten.
+   Wenn Sie mehr als eine Spalte gemeinsam verwenden, fügen Sie die Spaltennummer unbedingt in die Codezeilen ein, die die Freigabeinformationen für jede Spalte enthalten.
 
 
-   **BEISPIEL:** Der folgende Textmoduscode für eine zusammengeführte Spalte, die drei separate Spalten enthält, beginnend mit der zweiten Spalte der Liste. Die zusammengeführten Werte sind &quot;Projektname&quot;, &quot;Geplantes Startdatum&quot;und &quot;Name des Projekteigentümers&quot;. Zwischen den drei Werten gibt es keinen Umbruch:
+   **Beispiel:** Im Folgenden finden Sie den Textmodus-Code für eine zusammengeführte Spalte, die drei separate Spalten enthält, beginnend mit der zweiten Spalte der Liste. Die zusammengeführten Werte sind Projektname, Geplantes Startdatum und Name des Projektbesitzers. Es gibt keinen Bruch zwischen den drei Werten:
 
    ```
    column.1.valuefield=name
@@ -124,22 +124,22 @@ So führen Sie Daten aus zwei Spalten ohne Zeilenumbruch zusammen:
    ![](assets/shared-column-no-line-breaks-350x142.png)
 
 
-1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
+1. Klicken Sie **Fertig** und dann **Ansicht speichern**.
 
 ## Zusammenführen von Daten aus zwei Spalten mit einem Zeilenumbruch
 
-Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusammenzuführen und in einer gemeinsamen Spalte mit einem Zeilenumbruch zwischen den Werten der einzelnen Spalten anzuzeigen:
+Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusammenzuführen und in einer gemeinsamen Spalte mit einem Zeilenumbruch zwischen den Werten jeder Spalte anzuzeigen:
 
 1. Navigieren Sie zu einer Liste von Objekten.
-1. Wählen Sie aus der Dropdownliste **Ansicht** eine Ansicht aus und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png), um die Ansicht zu bearbeiten.
+1. Wählen Sie aus **Dropdown** Liste „Ansicht“ eine Ansicht aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png), um die Ansicht zu bearbeiten.
 1. Fügen Sie zwischen den beiden Spalten, die Sie zusammenführen möchten, eine dritte Spalte hinzu.
 
    >[!TIP]
    >
-   >* Die Spalten, die Sie zusammenführen möchten, müssen nebeneinander liegen.
+   >* Die Spalten, die zusammengeführt werden sollen, müssen nebeneinander liegen.
    >* Sie müssen auf die erste Spalte klicken, die Sie zusammenführen möchten.
 
-1. Klicken Sie auf **Wechseln zum Textmodus** > **Textmodus bearbeiten** und fügen Sie den folgenden Code in die mittlere Spalte hinzu, den Sie in Schritt 1 hinzugefügt haben:
+1. Klicken Sie **Wechseln Sie in den Textmodus** > **Textmodus bearbeiten** und fügen Sie den folgenden Code in der mittleren Spalte hinzu, die Sie in Schritt 1 hinzugefügt haben:
 
    ```
    value=<br>
@@ -148,17 +148,17 @@ Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusamm
    sharecol=true
    ```
 
-1. Klicken Sie auf die erste Spalte und klicken Sie auf **In Textmodus wechseln** > **Textmodus bearbeiten**. Fügen Sie dann der Spalte den folgenden Text hinzu:
+1. Klicken Sie auf die erste Spalte und klicken Sie **Wechseln in den Textmodus** > **Textmodus bearbeiten** und fügen Sie dann der Spalte den folgenden Text hinzu:
 
    `sharecol=true`
 
-   Wenn Sie die ersten beiden Spalten einer Liste oder eines Berichts zusammenführen, setzt Workfront jeder Textzeile voraus, die Informationen über das Objekt in der ersten Spalte mit `column.0.`, die Spalte mit den Freigabeinformationen mit `column.1.` und die Textzeilen, die Informationen über die zweite Spalte enthalten, mit `column.2.`.
+   Wenn Sie die ersten beiden Spalten einer Liste oder eines Berichts zusammenführen, geht Workfront jeder Textzeile, die Informationen über das Objekt in der ersten Spalte enthält, mit `column.0.`, der Spalte mit den Freigabeinformationen für `column.1.` und den Textzeilen, die Informationen über die zweite Spalte mit `column.2.` enthalten, voran.
 
-   Wenn sich die kombinierte Spalte in der Mitte der Ansicht befindet, werden die Spalten entsprechend ihrer Position in der Ansicht nummeriert. Die Spaltenzählung beginnt immer mit der Spalte ganz links in der Liste oder im Bericht mit der Bezeichnung &quot;`column.0.`&quot;.
+   Wenn sich die kombinierte Spalte in der Mitte der Ansicht befindet, werden die Spalten entsprechend ihrer Position in der Ansicht nummeriert. Die Spaltenzählung beginnt immer mit der Spalte ganz links in der Liste oder dem Bericht, die bzw. der als `column.0.` gekennzeichnet ist.
 
-   Wenn Sie mehr als eine Spalte freigeben, stellen Sie sicher, dass Sie die Spaltennummer in den Codezeilen hinzufügen, die die Freigabeinformationen enthalten.
+   Wenn Sie mehr als eine Spalte gemeinsam verwenden, fügen Sie die Spaltennummer unbedingt in die Codezeilen ein, die die Freigabeinformationen enthalten.
 
-   **BEISPIEL:** Der folgende Textmoduscode für eine freigegebene Spalte enthält den Projektnamen, das geplante Startdatum und den Namen des Projektinhabers mit einem Zeilenumbruch. Die freigegebene Spalte ist die zweite Spalte einer Projektansicht.
+   **Beispiel:** Im Folgenden finden Sie den Textmodus-Code für eine freigegebene Spalte, die den Projektnamen, das geplante Startdatum und den Namen des Projektbesitzers mit einem Zeilenumbruch enthält. Die Spalte Freigegeben ist die zweite Spalte einer Projektansicht.
 
    ```
    column.1.displayname=Project_StartDate_Owner
@@ -184,4 +184,4 @@ Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusamm
 
    ![](assets/shared-column-with-line-breaks-350x199.png)
 
-1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
+1. Klicken Sie **Fertig** und dann **Ansicht speichern**.

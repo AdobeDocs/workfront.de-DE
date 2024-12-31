@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Vorschau 4
-description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1.4-Version verfügbar sind. Die Funktionalität auf dieser Seite wurde am 15. Februar 2017 in der Vorschau-Umgebung bereitgestellt.
+title: R1-Vorschau 4
+description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.4 verfügbar sind. Die Funktion auf dieser Seite wurde am 15. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# R1 Vorschau 4
+# R1-Vorschau 4
 
-Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1.4-Version verfügbar sind. Die Funktionalität auf dieser Seite wurde am 15. Februar 2017 in der Vorschau-Umgebung bereitgestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.4 verfügbar sind. Die Funktion auf dieser Seite wurde am 15. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 
 Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [Workfront R1-Version](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/workfront-r1-release.md).
 
-## Aktualisierte Projekt-, Aufgaben- und Problemvalidierungen
+## Aktualisierte Projekt-, Aufgaben- und Problem-Genehmigungen
 
-Beim Erstellen von Genehmigungsprozessen für Projekt-, Aufgaben- und Problemgenehmigungen sind jetzt die folgenden Verbesserungen und Änderungen verfügbar: 
+Beim Erstellen von Genehmigungsprozessen für Projekt-, Aufgaben- und Problem-Genehmigungen sind jetzt die folgenden Verbesserungen und Änderungen verfügbar: 
 
-* Die Genehmigung &quot;Schritte&quot;wird jetzt als Genehmigung &quot;Phasen&quot;bezeichnet.
-* Mehrere Arten von Genehmigern pro Phase einschließen.\
-  Dazu gehören Benutzer, Teams und Arbeitsplatzrollen.\
-  Vor dieser Änderung könnten Sie mehrere Genehmiger desselben Typs einbeziehen. Sie können beispielsweise mehrere Jobrollen einbeziehen, jedoch keine Auftrags- und Team-Rolle.
+* Die „Genehmigungsschritte“ werden jetzt als „Genehmigungsschritte“ bezeichnet.
+* Schließen Sie mehrere Arten von Genehmigern pro Schritt ein.\
+  Dazu gehören Benutzer, Teams und Aufgabengebiete.\
+  Vor dieser Änderung konnten Sie mehrere genehmigende Personen desselben Typs einbeziehen. Sie können beispielsweise mehrere Aufgabengebiete einbeziehen, jedoch kein Aufgabengebiet und kein Team.
 
-* Die folgenden bereits bestehenden Einschränkungen bei der Änderung bestehender globaler Genehmigungsprozesse wurden entfernt:
+* Die folgenden bereits bestehenden Einschränkungen im Zusammenhang mit der Änderung vorhandener globaler Genehmigungsprozesse wurden entfernt:
 
-   * Der geänderte Validierungsprozess wird nur auf Objekten im gesamten System angewendet, bei denen der Validierungsprozess noch nicht gestartet oder der Validierungsprozess nicht geändert wurde. Objekte, bei denen der Validierungsprozess bereits gestartet oder der Validierungsprozess geändert wurde, werden nicht mit Ihren Änderungen aktualisiert.
-   * Sie können den Status, der den Beginn der Genehmigung bestimmt, nicht ändern.
+   * Der geänderte Genehmigungsprozess wird nur für Objekte im System übernommen, bei denen der Genehmigungsprozess noch nicht gestartet wurde oder der Genehmigungsprozess nicht geändert wurde. Objekte, bei denen der Genehmigungsprozess bereits gestartet oder geändert wurde, werden nicht mit den Änderungen aktualisiert.
+   * Sie können den Status, der bestimmt, wann die Genehmigung beginnt, nicht ändern.
 
 * Das Erscheinungsbild wurde aktualisiert.
 
@@ -41,62 +41,62 @@ Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [
 Beim Verknüpfen eines Genehmigungsprozesses mit einem Projekt, einer Aufgabe oder einem Problem sind jetzt die folgenden Verbesserungen und Änderungen verfügbar:
 
 * Das Erscheinungsbild wurde aktualisiert.
-* Auf der Registerkarte Genehmigungen wird ein Genehmigungsdiagramm mit einer visuellen Darstellung der vorherigen, aktuellen und künftigen Genehmigungsschritte angezeigt.
+* Das Genehmigungsdiagramm wird auf der Registerkarte Genehmigungen angezeigt, die frühere, aktuelle und künftige Genehmigungsschritte visuell darstellt.
 
-Weitere Informationen zum Verknüpfen von Genehmigungen mit Projekten, Aufgaben und Problemen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Weitere Informationen zum Verknüpfen von Genehmigungen mit Projekten, Aufgaben und Problemen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Ändern des Status eines Projekts direkt auf der Projektseite
 
 Sie müssen ein Projekt nicht mehr bearbeiten, um den Projektstatus zu ändern. Sie können jetzt den Status eines Projekts direkt auf der Hauptseite des Projekts ändern.
 
-Weitere Informationen finden Sie unter [Status eines Projekts ändern](../../../../manage-work/projects/manage-projects/change-project-status.md).
+Weitere Informationen finden Sie unter [Ändern des Status eines Projekts](../../../../manage-work/projects/manage-projects/change-project-status.md).
 
 ## Planen von Benutzern für die Deaktivierung
 
-Sie können jetzt planen, dass Benutzer zu einem späteren Zeitpunkt deaktiviert werden.
+Sie können jetzt festlegen, dass Benutzer zu einem späteren Zeitpunkt deaktiviert werden.
 
-Vor dieser Verbesserung konnten Sie einen Benutzer nur manuell sofort deaktivieren.
+Vor dieser Verbesserung konnten Sie einen Benutzer nur sofort manuell deaktivieren.
 
-Die Planung der Deaktivierung eines Benutzers kann in verschiedenen Szenarien nützlich sein. Wenn Sie beispielsweise Benutzer in Workfront erstellen, die vorübergehend eingestellt werden, können Sie diese so einrichten, dass sie bei Vertragsende deaktiviert werden.
+Die Deaktivierung von Benutzenden kann in verschiedenen Szenarien nützlich sein. Wenn Sie beispielsweise in Workfront Benutzende erstellen, die vorübergehend eingestellt werden, können Sie diese so einrichten, dass sie bei Vertragsende deaktiviert werden.
 
 Diese Funktion ist auch bei der Massenbearbeitung von Benutzern verfügbar. 
 
-Weitere Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Deaktivieren oder Reaktivieren eines Benutzers](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) und [Benutzer hinzufügen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Weitere Informationen zum Planen von Benutzern für die Deaktivierung finden Sie unter [Deaktivieren oder Reaktivieren eines ](../../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md) und [Benutzer hinzufügen](../../../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
-## Neue E-Mail-Digest-Optionen für &quot;Erforderliche Aktionen&quot;
+## Neue E-Mail-Digest-Optionen für „Aktionen erforderlich“
 
-Die Option Täglicher Digest-Versand ist jetzt im Bereich &quot;Erforderliche Aktion&quot;Ihrer Benachrichtigungseinstellungen verfügbar.
+Die Versandoption Daily Digest ist jetzt im Bereich „Aktion erforderlich“ in den Benachrichtigungseinstellungen verfügbar.
 
-Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+Weitere Informationen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können. Dies ist erforderlich, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht.
 
-## Verbesserung des Papierkorbs: Wird im Aktualisierungs-Stream aufgezeichnet und erhält E-Mail-Benachrichtigung
+## Verbesserung des Papierkorbs: Wird im Aktualisierungsverlauf aufgezeichnet und erhält E-Mail-Benachrichtigungen
 
 Die folgenden Verbesserungen wurden beim Wiederherstellen gelöschter Projekte, Aufgaben und Probleme hinzugefügt:
 
-* Nach dem Wiederherstellen eines Objekts erhalten Sie jetzt eine E-Mail-Benachrichtigung.\
+* Sie erhalten jetzt eine E-Mail-Benachrichtigung, nachdem Sie ein Objekt wiederhergestellt haben.\
   Als Workfront-Administrator erhalten Sie jetzt eine E-Mail-Benachrichtigung, nachdem Sie ein zuvor gelöschtes Projekt, eine Aufgabe oder ein Problem wiederhergestellt haben. Die E-Mail-Benachrichtigung informiert Sie über den Status des Wiederherstellungsprozesses.\
-  Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie unter [Wiederherstellen gelöschter Elemente](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-* Wenn das Objekt wiederhergestellt wird, wird das Löschen und Wiederherstellen des Objekts jetzt im Aktualisierungsstream des Objekts selbst und im Aktualisierungsstream des übergeordneten Objekts aufgezeichnet.\
-  Zuvor wurde nur der Löschvorgang im Aktualisierungsstream des übergeordneten Objekts aufgezeichnet.\
-  Wenn die Aufgabe beispielsweise wiederhergestellt wird, wird eine Meldung zum Aktualisierungsstream des Projekts und der Aufgabe selbst hinzugefügt, die angibt, dass die Aufgabe wiederhergestellt wurde. (Löschungen und Wiederherstellungen werden nicht bei Unteraufgaben aufgezeichnet. Informationen zum Löschen und Wiederherstellen von Unteraufgaben sind nur für übergeordnete Aufgaben verfügbar.)\
-  Weitere Informationen finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
-
- 
-
-## Aktualisiertes Dialogfeld für die Verwaltung der Gruppenmitgliedschaft
-
-Es gibt eine neue Benutzeroberfläche für die Verwaltung von Gruppen und Untergruppen, die ein einfacheres, benutzerfreundlicheres Erlebnis bietet.
-
-Das Feld Gruppeneigentümer und das Feld Gruppenmitglieder werden jetzt in ein einzelnes Feld mit einer Liste von Gruppenmitgliedern kombiniert, die unten aufgeführt sind. Darüber hinaus können Sie die Liste der Gruppenmitglieder filtern und ändern, ob sie Inhaber oder Mitglied sind. 
-
-Weitere Informationen zum Hinzufügen von Untergruppen zu Gruppen sowie zum Benennen von Benutzern als Mitglieder oder Gruppeneigentümer von Gruppen finden Sie unter [Erstellen einer Gruppe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Erstellen einer Gruppe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+* Wenn das Objekt wiederhergestellt wird, wird das Löschen und Wiederherstellen des Objekts jetzt im Aktualisierungsstrom des Objekts selbst und im Aktualisierungsstrom des übergeordneten Objekts aufgezeichnet.\
+  Zuvor wurde nur der Löschvorgang im Aktualisierungsverlauf des übergeordneten Objekts aufgezeichnet.\
+  Wenn die Aufgabe beispielsweise wiederhergestellt wird, wird eine Meldung zum Aktualisierungsverlauf sowohl des Projekts als auch der Aufgabe selbst hinzugefügt, die angibt, dass die Aufgabe wiederhergestellt wurde. (Löschungen und Wiederherstellungen werden nicht in Teilaufgaben aufgezeichnet. Informationen zum Löschen und Wiederherstellen von Teilaufgaben sind nur für übergeordnete Aufgaben verfügbar.)\
+  Weitere Informationen finden Sie unter [Wiederherstellen gelöschter Elemente](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
  
 
-## Text in die mobile App kopieren
+## Das Dialogfeld zum Verwalten der Gruppenmitgliedschaft wurde aktualisiert
+
+Es gibt eine neue Benutzeroberfläche für die Verwaltung von Gruppen und Untergruppen , die eine einfachere, benutzerfreundlichere Oberfläche bietet.
+
+Das Feld Gruppeneigentümer und das Feld Gruppenmitglieder sind jetzt in einem einzigen Feld zusammengefasst, mit einer Liste der Gruppenmitglieder, die unten aufgeführt ist. Darüber hinaus können Sie die Liste der Gruppenmitglieder filtern und ändern, ob sie Inhaber oder Mitglied sind. 
+
+Weitere Informationen zum Hinzufügen von Untergruppen zu Gruppen sowie zum Festlegen von Benutzern als Mitglieder oder Gruppenbesitzer von Gruppen finden Sie unter [Erstellen einer Gruppe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Erstellen einer Gruppe](../../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md). 
+
+ 
+
+## Kopieren von Text in die Mobile App
 
 Sie können Text in die folgenden Felder aller Objekte kopieren, die in der Mobile App sichtbar sind:
 
@@ -105,4 +105,4 @@ Sie können Text in die folgenden Felder aller Objekte kopieren, die in der Mobi
 * Referenznummer
 * Kommentare
 
-Diese Funktion sollte sowohl für die iOS- als auch für Android-Appstores in der Woche des 13. Februar veröffentlicht werden.
+Diese Funktion sollte in der Woche vom 13. Februar sowohl für die iOS- als auch für die Android-App-Stores veröffentlicht werden.

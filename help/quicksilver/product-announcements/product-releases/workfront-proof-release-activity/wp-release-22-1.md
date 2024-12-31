@@ -1,6 +1,6 @@
 ---
-title: Workfront Proof-Release-Aktivität:&nbsp;Woche vom 29. November 2021
-description: Workfront Proof-Release-Aktivität:&nbsp;Woche vom 29. November 2021
+title: Workfront Proof-Versionsaktivität:&nbsp;Woche vom 29. November 2021
+description: Workfront Proof-Versionsaktivität:&nbsp;Woche vom 29. November 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
@@ -13,14 +13,14 @@ ht-degree: 0%
 
 ---
 
-# Workfront Proof-Release-Aktivität: Woche vom 29. November 2021
+# Workfront Proof-Veröffentlichungsaktivität: Woche vom 29. November 2021
 
-Auf dieser Seite werden Änderungen an der Workfront Proof (eigenständige Testversand-Anwendung) beschrieben. Die hier beschriebenen Änderungen gelten nicht für die Testfunktion in der Adobe Workfront-Anwendung.
+Auf dieser Seite werden Änderungen beschrieben, die an Workfront Proof (eigenständige Proofing-Anwendung) vorgenommen wurden. Die hier beschriebenen Änderungen gelten nicht für die Proofing-Funktion in der Adobe Workfront-Anwendung.
 
-## Neues Berechtigungsprofil in Workfront Proof
+## Neues Berechtigungsprofil für Korrekturabzüge in Workfront Proof
 
-In Workfront Proof wurde ein neues Profil für die Zugriffsberechtigung für Besucherprofile hinzugefügt. Dieses neue Profil ähnelt dem vorhandenen Beobachterprofil.
+Wir haben in Workfront Proof ein neues Berechtigungsprofil für Besuchernachweise hinzugefügt. Dieses neue Profil ähnelt dem vorhandenen Beobachterprofil.
 
-Benutzer mit einem Besucherprofil können für sie freigegebene Testsendungen überprüfen und genehmigen. Sie können jedoch keine Kontakte oder Gruppen anzeigen, wie es die Beobachter können.
+Benutzer mit einem Besucherprofil können Korrekturabzüge, die für sie freigegeben wurden, überprüfen und genehmigen. Sie können jedoch keine Kontakte oder Gruppen wie Beobachter anzeigen.
 
-Weitere Informationen finden Sie unter [Profile für Testberechtigungen in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+Weitere Informationen finden Sie unter [Profile für Korrekturabzugsberechtigungen in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).

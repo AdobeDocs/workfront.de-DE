@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Vorschau 5
-description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit der R1-Vorschau-Version 5 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 16. März 2017 in der Vorschau-Umgebung bereitgestellt.
+title: R1-Vorschau 5
+description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1 Preview 5-Version verfügbar sind. Die Funktion auf dieser Seite wurde am 16. März 2017 in der Vorschau-Umgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,62 +14,62 @@ ht-degree: 13%
 
 ---
 
-# R1 Vorschau 5
+# R1-Vorschau 5
 
-Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschauumgebung mit der R1-Vorschau-Version 5 verfügbar sind. Die Funktionalität auf dieser Seite wurde am 16. März 2017 in der Vorschau-Umgebung bereitgestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1 Preview 5-Version verfügbar sind. Die Funktion auf dieser Seite wurde am 16. März 2017 in der Vorschau-Umgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die in R1 vorgenommen wurden, finden Sie unter [R1 - Übersicht über die Release-Aktivität](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
+Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [R1-Versionsaktivität - Übersicht](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
 ## Verfolgen des Projektfortschritts mit einem Nutzungsbericht
 
-Jetzt kann ein Benutzer mit Zugriff auf ein Projekt verwalten den Fortschritt des Projekts mit einem Nutzungsbericht verfolgen.
+Jetzt kann ein Benutzer mit der Rolle „Zugriff auf ein Projekt verwalten“ den Fortschritt des Projekts mit einem Auslastungsbericht verfolgen.
 
-Der Nutzungsbericht ermöglicht es Ihnen, Ihr Projekt innerhalb des Budgets zu halten, indem Sie schnell sehen können, wie die tatsächlichen Stunden im Vergleich zu den geplanten Stunden oder Stunden für eine bestimmte Woche oder einen bestimmten Monat oder für das gesamte Projekt nachverfolgt werden. Darüber hinaus können Sie detaillierte Informationen zur Anzahl der Stunden in jeder Kategorie (geplant, geplant und aktuell) anzeigen, die nach der Rolle des Auftrags oder dem einzelnen Benutzer kategorisiert sind.
+Der Auslastungsbericht ermöglicht es Ihnen, Ihr Projekt im Rahmen des Budgets zu halten, indem Sie schnell feststellen können, wie die tatsächlichen Stunden in Bezug auf die budgetierten Stunden oder geplanten Stunden für eine bestimmte Woche oder einen bestimmten Monat oder für das gesamte Projekt verfolgt werden. Darüber hinaus können Sie detaillierte Informationen zur Anzahl der Stunden in jeder Kategorie (budgetiert, geplant und tatsächlich) anzeigen, kategorisiert nach Aufgabengebiet oder einzelner Person.
 
-Weitere Informationen zur Tracking-Nutzung in einem Projekt finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen zum Nachverfolgen der Ressourcenauslastung in einem Projekt finden Sie [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-Als Systemadministrator können Sie konfigurieren, ob die Registerkarte &quot;Nutzung&quot;für Benutzer verfügbar ist. Standardmäßig befindet sich die Registerkarte &quot;Nutzung&quot;im Dropdown-Menü &quot;Mehr&quot;innerhalb eines Projekts. Sie können die Registerkarte &quot;Nutzung&quot;an eine andere Position verschieben oder sie vollständig ausblenden. Wenn Sie benutzerdefinierte Layoutvorlagen für Benutzer in Ihrer Organisation definiert haben, müssen Sie den Tab Nutzung manuell zu den benutzerdefinierten Layoutvorlagen hinzufügen.
+Als Systemadministrator können Sie konfigurieren, ob die Registerkarte Nutzung für Benutzer verfügbar ist. Standardmäßig befindet sich die Registerkarte Auslastung im Dropdown-Menü Mehr innerhalb eines Projekts. Sie können die Registerkarte Auslastung an eine andere Position verschieben oder vollständig ausblenden. Wenn Sie benutzerdefinierte Layout-Vorlagen für Benutzer in Ihrer Organisation definiert haben, müssen Sie die Registerkarte Nutzung manuell zu den benutzerdefinierten Layout-Vorlagen hinzufügen.
 
-Weitere Informationen zum Konfigurieren des Speicherorts der Registerkarte &quot;Nutzung&quot;finden Sie unter &quot;Anpassen von Registerkarten&quot;in &quot;Erstellen und Verwalten von Layoutvorlagen&quot;.
+Weitere Informationen zum Konfigurieren des Speicherorts der Registerkarte „Nutzung“ finden Sie unter „Registerkarten anpassen“ unter „Erstellen und Verwalten von Layout-Vorlagen“.
 
-## Vorhandenen globalen Genehmigungsprozess für ein einzelnes Objekt ändern
+## Ändern eines vorhandenen globalen Genehmigungsprozesses für ein einzelnes Objekt
 
-Jetzt können Sie einen vorhandenen globalen Genehmigungsprozess ändern, wenn Sie diesen globalen Genehmigungsprozess mit einem Objekt verknüpfen. Die vorgenommenen Änderungen gelten nur für den Validierungsprozess des Objekts, dem Sie das Objekt zuordnen.
+Jetzt können Sie einen vorhandenen globalen Genehmigungsprozess ändern, wenn Sie diesen globalen Genehmigungsprozess mit einem Objekt verknüpfen. Die von Ihnen vorgenommenen Änderungen gelten nur für den Genehmigungsprozess für das Objekt, mit dem Sie es verknüpfen.
 
-Weitere Informationen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
+Weitere Informationen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit ](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md) in [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeit](../../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md)
 
-## Berichte konfigurieren, um das neue Gantt-Diagramm standardmäßig anzuzeigen
+## Konfigurieren Sie Berichte so, dass das neue Gantt-Diagramm standardmäßig angezeigt wird
 
-Sie können die von Ihnen erstellten Projekt- und Aufgabenberichte so konfigurieren, dass das neue Gantt-Diagramm standardmäßig mit der neuen Option &quot;Diesen Bericht standardmäßig in einer Gantt-Ansicht anzeigen&quot;angezeigt wird.
+Sie können die von Ihnen erstellten Projekt- und Aufgabenberichte so konfigurieren, dass das neue Gantt-Diagramm standardmäßig mit der neuen Option „Diesen Bericht standardmäßig in einer Gantt-Ansicht anzeigen“ angezeigt wird.
 
 Weitere Informationen zum Konfigurieren von Berichten zur Anzeige des neuen Gantt-Diagramms finden Sie unter [Berichteinstellungen bearbeiten](../../../../reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md).
 
-Weitere Informationen zum Anzeigen des Gantt-Diagramms in Projekt- und Aufgabenberichten finden Sie unter [Anzeigen von Informationen im Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md)&quot;in [Anzeigen von Informationen im Gantt-Diagramm](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
+Weitere Informationen zum Anzeigen des Gantt-Diagramms in Projektberichten und Aufgabenberichten finden Sie [Informationen im Gantt-Diagramm anzeigen](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md) unter [Informationen im Gantt-Diagramm anzeigen](../../../../manage-work/gantt-chart/use-the-gantt-chart/view-info-in-gantt.md).
 
-## Verbesserung des Papierkorbs: Aufgaben und Unteraufgaben werden in ihrer vorherigen Reihenfolge wiederhergestellt
+## Verbesserung des Papierkorbs: Aufgaben und Unteraufgaben werden in der vorherigen Reihenfolge wiederhergestellt
 
-Wenn Sie jetzt eine Aufgabe oder Unteraufgabe nach dem Löschen wiederherstellen, wird die Aufgabe oder Unteraufgabe an ihrem vorherigen Speicherort (entweder in der Aufgabenliste oder unter der übergeordneten Aufgabe) in derselben Reihenfolge wiederhergestellt, in der sie vor dem Löschen erschien.
+Wenn Sie eine Aufgabe oder Teilaufgabe jetzt nach dem Löschen wiederherstellen, wird die Aufgabe oder Teilaufgabe an ihrem vorherigen Speicherort (entweder in der Aufgabenliste oder unter der übergeordneten Aufgabe) in der gleichen Reihenfolge wiederhergestellt, in der sie vor dem Löschen erschienen ist.
 
-Vor dieser Änderung wurden Aufgaben und Unteraufgaben, die wiederhergestellt wurden, immer als letzte Aufgabe wiederhergestellt (entweder in der Aufgabenliste oder unter der übergeordneten Aufgabe), unabhängig von der Reihenfolge, in der sie vor dem Löschen erschienen.
+Vor dieser Änderung wurden wiederhergestellte Aufgaben und Teilaufgaben immer als letzte Aufgabe wiederhergestellt (entweder in der Aufgabenliste oder unter der übergeordneten Aufgabe), unabhängig von der Reihenfolge, in der sie vor dem Löschen erschienen sind.
 
-Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie unter [Gelöschte Elemente wiederherstellen](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Weitere Informationen zum Wiederherstellen von Objekten in Workfront finden Sie unter [Wiederherstellen gelöschter Elemente](../../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-## Verbesserungen der Milestone-Ansicht
+## Verbesserungen bei der Meilensteinansicht
 
-Die folgenden Verbesserungen sind jetzt verfügbar, wenn Sie eine Projektliste oder einen Projektbericht in der Milestone-Ansicht anzeigen:
+Die folgenden Verbesserungen sind jetzt beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -Ansicht verfügbar:
 
-* **Konfigurieren Sie, ob Fortschrittsstatus und Prozent abgeschlossen in der Ansicht angezeigt werden:** Es gibt eine neue Option, mit der Sie konfigurieren können, ob in der Meilensteinansicht Symbole für den Fortschrittsstatus angezeigt werden. Darüber hinaus können Sie auch konfigurieren, ob die Informationen zu &quot;Percent Complete&quot;im Zusammenhang mit Projekten und Aufgaben angezeigt werden.\
+* **Konfigurieren, ob Fortschrittsstatus und Prozent abgeschlossen in der Ansicht angezeigt werden** Es gibt eine neue Option, mit der Sie konfigurieren können, ob Fortschrittsstatus-Symbole in der Meilenstein -Ansicht angezeigt werden. Darüber hinaus können Sie auch konfigurieren, ob die Informationen unter Prozent abgeschlossen zu Projekten und Aufgaben angezeigt werden.\
   Weitere Informationen finden Sie unter [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
 
-* **Bearbeiten Sie den Prozentwert abgeschlossen direkt in der Milestone-Ansicht:** Jetzt können Sie den Prozentsatz Abgeschlossen von Projekten und Aufgaben direkt in der Milestone-Ansicht bearbeiten.\
+* **Prozent abgeschlossen direkt über die Ansicht Meilenstein bearbeiten** Jetzt können Sie den Prozentsatz abgeschlossen von Projekten und Aufgaben direkt über die Ansicht Meilenstein bearbeiten.\
   Weitere Informationen finden Sie unter [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md) in [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md). 
 
-## Aktualisiertes Erscheinungsbild und Verhalten mehrerer Seiten zur Systemeinrichtung
+## Erscheinungsbild mehrerer Seiten des System-Setups aktualisiert
 
-Das Erscheinungsbild der folgenden Seiten im Menü &quot;System&quot;im Bereich &quot;Setup&quot;wurde aktualisiert (die Funktionalität bleibt unverändert):
+Das Erscheinungsbild der folgenden Seiten im Menü System des Bereichs Setup wurde aktualisiert (die Funktionalität bleibt gleich):
 
 * Diagnose
-* Single Sign-On (SSO), das Folgendes umfasst:
+* Single Sign-On (SSO), einschließlich:
 
    * Active Directory
    * LDAP
@@ -78,28 +78,28 @@ Das Erscheinungsbild der folgenden Seiten im Menü &quot;System&quot;im Bereich 
 
 * Benutzer für SSO aktualisieren
 
-## Aktualisierte Gruppierungen für Ereignisbenachrichtigungen im E-Mail-Setup-Bereich
+## Aktualisierte Gruppierungen für Ereignisbenachrichtigungen im Bereich „E-Mail-Setup“
 
-Die Organisationskopfzeilen der Ereignisbenachrichtigungen im Bereich E-Mail-Einrichtung stimmen jetzt mit den Abschnittsüberschriften überein, die im Bereich für Benutzerprofileinstellungen verwendet werden.
+Die Organisationskopfzeilen der Ereignisbenachrichtigungen im Bereich „E-Mail-Setup“ stimmen jetzt mit den Abschnittsüberschriften überein, die im Bereich „Benutzerprofileinstellungen“ verwendet werden.
 
-Weitere Informationen zu Ereignisbenachrichtigungen finden Sie unter  [Konfigurieren Sie Ereignisbenachrichtigungen für alle Benutzer im System](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Weitere Informationen zu Ereignisbenachrichtigungen finden Sie unter  [Konfigurieren Sie Ereignisbenachrichtigungen für alle Personen im System](../../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-## Sofortige Benachrichtigungen abmelden: Digest-Konfiguration im Kontext
+## Opt-out von sofortigen Benachrichtigungen: Konfiguration des kontextbezogenen Auszugs
 
-Die folgenden Optionen sind jetzt in Instant-E-Mail-Benachrichtigungen verfügbar. Diese Optionen stehen nur für Instant-Benachrichtigungen zur Verfügung, die auch ein tägliches Digest-Gegenstück aufweisen:
+Die folgenden Optionen sind jetzt in sofortigen E-Mail-Benachrichtigungen verfügbar. Diese Optionen sind nur für sofortige Benachrichtigungen verfügbar, die auch ein Gegenstück zur täglichen Zusammenfassung haben:
 
-* &quot;Add This to a Daily Digest&quot;
-* &quot;E-Mails dieses Typs anhalten&quot;
+* „Dies zu einem täglichen Digest hinzufügen“
+* „E-Mails dieses Typs stoppen“
 
-Wenn Sie jetzt eine sofortige E-Mail-Benachrichtigung erhalten, können Sie diese Benachrichtigung entweder zu einer täglichen Digest-Benachrichtigung hinzufügen oder Sie können sich vollständig von dieser Benachrichtigung abmelden.
+Wenn Sie jetzt eine sofortige E-Mail-Benachrichtigung erhalten, können Sie diese Benachrichtigung entweder zu einer täglichen Digest-Benachrichtigung hinzufügen oder sich vollständig von dieser Benachrichtigung abmelden.
 
 Diese Optionen sind in der E-Mail-Benachrichtigung verfügbar. Weitere Informationen zum Empfang von E-Mail-Benachrichtigungen finden Sie unter [Adobe Workfront-Benachrichtigungen](../../../../workfront-basics/using-notifications/wf-notifications.md)
 
-## Verschiedene E-Mail-Benachrichtigungen wurden vom Abschnitt &quot;Erforderliche Aktion&quot;in andere projektbezogene Abschnitte verschoben
+## Verschiedene E-Mail-Benachrichtigungen wurden vom Abschnitt „Aktion erforderlich“ in andere projektbezogene Abschnitte verschoben
 
-Mehrere Benachrichtigungen wurden vom Abschnitt &quot;Erforderliche Aktion&quot;der Benutzerprofilseite in andere Abschnitte verschoben, wie im Folgenden gezeigt:
+Mehrere Benachrichtigungen wurden wie folgt aus dem Abschnitt „Aktion erforderlich“ auf der Benutzerprofilseite in andere Abschnitte verschoben:
 
-Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
+Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -108,7 +108,7 @@ Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie
  <thead> 
   <tr> 
    <th><strong>Benachrichtigung</strong> </th> 
-   <th><strong>alter Abschnitt</strong> </th> 
+   <th><strong>Alter Abschnitt</strong> </th> 
    <th><strong>Neuer Abschnitt</strong> </th> 
   </tr> 
  </thead> 
@@ -161,32 +161,32 @@ Weitere Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie
  </tbody> 
 </table>
 
-## Neue Planungsfunktion für Ressourcen (nicht in der Produktion in R1 verfügbar)
+## Neue Ressourcenplanungsfunktion (in R1 nicht in der Produktion verfügbar)
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit in der Vorschau -Umgebung verfügbar. Sie wird etwa einen Monat vor der R1-Version in der Produktionsumgebung aus der Vorschau entfernt. Sie wird dann in der Vorschau-Umgebung in R2-Vorschau 1 erneut eingeführt.
+>Diese Funktion ist derzeit in der Vorschau-Umgebung verfügbar. Es wird etwa einen Monat vor der Veröffentlichung der R1 in der Produktionsumgebung aus der Vorschau-Umgebung entfernt. Anschließend wird sie in der Vorschau-Umgebung in R2-Vorschau 1 erneut eingeführt.
 
  
 
-Die folgenden Änderungen wurden hinzugefügt, um die künftige Funktion für die Ressourcenplanung zu unterstützen:
+Die folgenden Änderungen wurden hinzugefügt, um die zukünftige Ressourcenplanungsfunktion zu unterstützen:
 
-* Die aktuelle Registerkarte &quot;Ressourcenplanung&quot;wurde im Bereich &quot;Personen&quot;in &quot;Alte Ressourcenplanung&quot;umbenannt. 
-* Im Bereich Personen wurde eine neue Registerkarte &quot;Ressourcenplanung&quot;eingeführt, auf der die neue Funktion entwickelt werden soll.\
-  Weitere Informationen zur neuen Registerkarte &quot;Ressourcenplanung&quot;finden Sie unter [Erste Schritte mit der Ressourcenplanung](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
+* Die aktuelle Registerkarte „Ressourcenplanung“ wurde im Bereich Personen in „Alte Ressourcenplanung“ umbenannt. 
+* Im Bereich Personen wurde eine neue Registerkarte „Ressourcenplanung“ eingeführt, auf der die neuen Funktionen entwickelt werden sollen.\
+  Weitere Informationen zur neuen Registerkarte Ressourcenplanung finden Sie unter [Erste Schritte mit der Ressourcenplanung](../../../../resource-mgmt/resource-planning/get-started-resource-planning.md) 
 
-* Das aktuelle Objekt &quot;Resource Pool&quot;wurde in &quot;Legacy Resource Pool&quot;umbenannt.\
-  Weitere Informationen zum Erstellen der neuen benutzerdefinierten Ressourcen-Pools finden Sie unter [Überblick über Ressourcenpools](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
+* Das aktuelle Objekt „Ressourcenpool“ wurde in „Alter Ressourcenpool“ umbenannt.\
+  Weitere Informationen zum Erstellen der neuen benutzerbasierten Ressourcenpools finden Sie unter [Ressourcenpools - Übersicht](../../../../resource-mgmt/resource-planning/resource-pools/work-with-resource-pools.md)
 
-* Ein neues &quot;Resource Pool&quot;-Objekt wurde erstellt, um die neuen (benutzerbasierten) Ressourcen-Pools zu unterstützen.
+* Ein neues Objekt „Ressourcenpool“ wurde erstellt, um die neuen (benutzerbasierten) Ressourcenpools zu unterstützen.
 
   >[!NOTE]
   >
   >
   >   
   >   
-  >   * Wenn Sie derzeit Berichte für die vorhandenen Ressourcen-Pools ausführen, bleiben die vorhandenen Berichte unverändert.
-  >   * Wenn Sie einen neuen Bericht für die vorhandenen (rollenbasierten) Legacy-Ressourcen-Pools erstellen möchten, müssen Sie &quot;Legacy-Ressourcen-Pools&quot;als Ihr Objekt für den Bericht auswählen.
-  >   * Wenn Sie einen neuen Bericht für die neuen (anwenderbasierten) Ressourcenpools erstellen möchten, müssen Sie &quot;Ressourcenpools&quot;als Ihr Objekt für den Bericht auswählen.
+  >   * Wenn Sie derzeit Berichte zu den vorhandenen alten Ressourcenpools ausführen, ändern sich die vorhandenen Berichte nicht.
+  >   * Wenn Sie einen neuen Bericht für die vorhandenen (auftragsrollenbasierten) Legacy-Ressourcenpools erstellen möchten, müssen Sie „Legacy-Ressourcenpools“ als Objekt für den Bericht auswählen.
+  >   * Wenn Sie einen neuen Bericht für die neuen (benutzerbasierten) Ressourcenpools erstellen möchten, müssen Sie „Ressourcenpools“ als Objekt für den Bericht auswählen.
   >   
   >

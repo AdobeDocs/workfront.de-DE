@@ -1,8 +1,8 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: 'Berichtselemente: Filter, Ansichten und Gruppierungen'
-description: Die Hauptelemente, die jede Liste und jeder Bericht in Workfront aufweisen muss, sind Filter, Ansichten und Gruppierungen. Jedes Element liefert unterschiedliche Informationen in jedem Bericht.
+title: 'Berichterstellungselemente: Filter, Ansichten und Gruppierungen'
+description: Die Hauptelemente, die jede Liste und jeder Bericht in Workfront haben muss, sind ein Filter, eine Ansicht und eine Gruppierung. Jedes Element liefert verschiedene Informationen innerhalb eines Berichts.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5697905e-42c0-403b-85d4-798a1a3a2e7f
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Berichtselemente: Filter, Ansichten und Gruppierungen
+# Berichterstellungselemente: Filter, Ansichten und Gruppierungen
 
 <!-- Audited: 11/2024 -->
 
@@ -23,77 +23,77 @@ ht-degree: 0%
 <p>- share a filter</p>
 <p>ALL in Reporting elements but the Shared ones should be linked to Basics> Sharing; some of the articles in the Basics> Navigation> Use lists might beed to link here as well-->
 
-Es gibt mehrere Elemente, die eine Liste oder einen Bericht in Adobe Workfront ermöglichen. Die wichtigsten Elemente jeder Liste und jedes Berichts sind ein Filter, eine Ansicht und eine Gruppierung. Jedes Element liefert unterschiedliche Informationen in jedem Bericht.
+Es gibt mehrere Elemente, die eine Liste oder einen Bericht in Adobe Workfront ermöglichen. Die Hauptelemente, die jede Liste und jeder Bericht aufweisen muss, sind ein Filter, eine Ansicht und eine Gruppierung. Jedes Element liefert verschiedene Informationen innerhalb eines Berichts.
 
-## Überlegungen zu Berichterstellungselementen
+## Überlegungen zu Reporting-Elementen
 
 Beachten Sie beim Arbeiten mit Filtern, Ansichten und Gruppierungen Folgendes:
 
-* Berichterstellungselemente sind die Bausteine für die Berichterstellung. Sie definieren das Erscheinungsbild eines Berichts oder einer Liste sowie die im Bericht oder in der Liste enthaltenen Informationen.
-* Berichte in Workfront sind für ein Objekt spezifisch. Sie müssen Ihr Hauptobjekt für einen Bericht definieren, bevor Sie den Bericht erstellen können. Daher sind alle Berichterstellungselemente objektspezifisch.
-* Ihr Workfront-Administrator muss Ihnen Zugriff auf Filter, Ansichten und Gruppierungen in Ihrer Zugriffsebene gewähren, damit Sie diese in Listen und Berichten anzeigen oder bearbeiten können.
+* Berichterstellungselemente dienen als Bausteine von Berichten. Sie definieren das Erscheinungsbild eines Berichts oder einer Liste sowie die im Bericht oder der Liste enthaltenen Informationen.
+* Berichte in Workfront sind jeweils für ein Objekt spezifisch. Sie müssen Ihr Hauptobjekt für einen Bericht definieren, bevor Sie den Bericht erstellen können. Daher sind alle Berichterstellungselemente objektspezifisch.
+* Ihr Workfront-Administrator muss Ihnen Zugriff auf Filter, Ansichten und Gruppierungen auf Ihrer Zugriffsebene gewähren, um sie in Listen und Berichten anzeigen oder bearbeiten zu können.
 
   Informationen zum Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen finden Sie unter [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Ihr Workfront-Administrator muss Ihnen Zugriff auf Berichte, Dashboards und Kalender in Ihrer Zugriffsebene gewähren, damit Sie Berichte anzeigen oder bearbeiten können.
+* Ihr Workfront-Administrator muss Ihnen Zugriff auf Berichte, Dashboards und Kalender in Ihrer Zugriffsebene gewähren, um Berichte anzeigen oder bearbeiten zu können.
 
-  Informationen zur Gewährung des Zugriffs auf Berichte, Dashboards und Kalender finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+  Informationen zum Gewähren des Zugriffs auf Berichte, Dashboards und Kalender finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
-* Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung in einem Bericht oder einer Liste auswählen, behält Workfront diese Auswahl für die Listen dieses Objekts auch dann bei, wenn Sie sich abmelden oder Ihren Browser schließen. Wenn Sie beispielsweise eine bestimmte Ansicht für einen Aufgabenbericht auswählen, wird diese Auswahl für andere Aufgabenlisten angezeigt, z. B. die Liste der Aufgaben für ein Projekt.
+* Wenn Sie einen Filter, eine Ansicht oder eine Gruppierung in einem Bericht oder einer Liste auswählen, behält Workfront diese Auswahl für die Listen dieses Objekts auch nach dem Abmelden oder Schließen des Browsers bei. Wenn Sie beispielsweise eine bestimmte Ansicht für einen Aufgabenbericht auswählen, wird diese Auswahl für andere Aufgabenlisten angezeigt, z. B. für die Liste der Aufgaben für ein Projekt.
 
 ## Filter
 
-Der Filter steuert die Ergebnisse, die in einem Bericht angezeigt werden, und schränkt die Ergebnisse in der Regel von Allgemein zu Spezifisch ein. Es funktioniert wie ein Sieb, das nur die benötigten Informationen erfasst und diese Informationen in Ihren Bericht zurückbringt.
+Der Filter steuert die Ergebnisse, die in einem Bericht angezeigt werden, und grenzt die Ergebnisse in der Regel von „Allgemein“ auf „Spezifisch“ ein. Es funktioniert wie ein Sieb, das nur die benötigten Informationen erfasst und an Ihren Bericht zurückgibt.
 
-Wenn Sie beispielsweise nur Aufgaben sehen möchten, die dem angemeldeten Benutzer zugewiesen sind, können Sie einen Filter mit dem Titel &quot;Meine Aufgaben&quot;erstellen, die Kriterien definieren, die für den Filter erfüllt sein müssen, und den Bericht ausführen, um nur die dem angemeldeten Benutzer zugewiesenen Aufgaben anzuzeigen.
+Wenn Sie beispielsweise nur Aufgaben anzeigen möchten, die dem angemeldeten Benutzer zugewiesen sind, können Sie einen Filter mit dem Titel „Meine Aufgaben“ erstellen, die Kriterien definieren, die für den Filter erfüllt sein müssen, und den Bericht ausführen, um nur Aufgaben anzuzeigen, die dem angemeldeten Benutzer zugewiesen sind.
 
 Einige Attribute von Filtern sind:
 
 * Workfront bietet standardmäßig eine Reihe von Filtern für verschiedene Objekte.
-* Sie können Filter anpassen, die Ihnen gehören oder die Sie verwalten.
+* Sie können Filter anpassen, die Sie besitzen oder verwalten.
 
-  Weitere Informationen zu Filtern finden Sie im Artikel [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+  Weitere Informationen zu Filtern finden Sie im Artikel [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 ## Ansichten
 
-Durch Definition der Ansicht eines Berichts legen Sie fest, welche Informationen Sie in den Bericht aufnehmen. Wie alle Berichterstellungselemente basieren Ansichten auf einem Objekttyp.
+Indem Sie die Ansicht eines Berichts definieren, definieren Sie, welche Informationen Sie in den Bericht aufnehmen. Wie alle Berichterstellungselemente basieren Ansichten auf einem Objekttyp.
 
-Beispielsweise könnte eine Ansicht für einen Aufgabenbericht Fälligkeitsdaten anzeigen, wichtige Finanzdetails wie Kosten einschließen oder zur Anzeige von Zuweisungen und Versanddatumsdetails verwendet werden. Ansichten können verwendet werden, um eine Vielzahl von Details zu den Daten im Bericht bereitzustellen.
+Beispielsweise kann eine Ansicht für einen Aufgabenbericht Fälligkeitsdaten anzeigen, wichtige finanzielle Details wie Kosten enthalten oder verwendet werden, um Zuweisungen und Lieferdatumsdetails anzuzeigen. Ansichten können verwendet werden, um eine Vielzahl von Details zu den Daten im Bericht bereitzustellen.
 
 Einige Attribute von Ansichten sind:
 
 * Sie können eine standardmäßige Workfront-Ansicht verwenden oder eine eigene erstellen.
-* Sie können nach Ausführung eines Berichts über das Dropdown-Feld Ansicht weitere Ansichten anwenden.
-* Zusätzliche Ansichten ersetzen vorübergehend die bei der Berichterstellung definierte Ansicht. Die Standardansicht wird jedoch angezeigt, wenn Sie das nächste Mal zum Bericht zurückkehren.
+* Sie können nach dem Ausführen eines Berichts zusätzliche Ansichten aus dem Dropdown-Feld Ansicht anwenden.
+* Zusätzliche Ansichten ersetzen vorübergehend die Ansicht, die beim Erstellen des Berichts definiert wurde. Die Standardansicht wird jedoch angezeigt, wenn Sie das nächste Mal zum Bericht zurückkehren.
 
-  Weitere Informationen zu Ansichten finden Sie im Artikel [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+  Weitere Informationen zu Ansichten finden Sie im Artikel [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ## Gruppierungen
 
-Durch eine Gruppierung wird gesteuert, wie Sie Daten organisieren, was das Lesen und Verstehen erleichtert. Gruppierungen erstellen horizontale Balken in einem Bericht, die die Ergebnisse nach gemeinsamen Attributen zusammenführen. Sie definieren die Kriterien dafür, wie Sie die Ergebnisse Ihres Berichts bei der Erstellung der Gruppierung gruppieren möchten.
+Eine Gruppierung steuert, wie Sie Daten organisieren, sodass sie leichter zu lesen und zu verstehen sind. Gruppierungen erstellen horizontale Balken innerhalb eines Berichts, in denen die Ergebnisse nach gemeinsamen Attributen aufgelistet werden. Sie definieren die Kriterien dafür, wie die Ergebnisse Ihres Berichts bei der Gruppierung gruppiert werden sollen.
 
-Wenn Sie z. B. eine Liste von Aufgaben, die sich über mehrere Projekte erstrecken, nach ihrem Projektnamen gruppieren, werden alle entsprechenden Aufgaben organisiert, die zu einem einzigen Projekt unter diesem Namen gehören.
+Wenn Sie beispielsweise eine Liste von Aufgaben gruppieren, die mehrere Projekte umfassen, werden alle entsprechenden Aufgaben, die zu einem einzelnen Projekt gehören, unter diesem Namen organisiert.
 
 Einige Attribute von Gruppierungen sind:
 
-* Gruppierungen sind ein obligatorisches Berichterstellungselement, wenn Sie Ihrem Bericht zu einem späteren Zeitpunkt ein Diagramm hinzufügen möchten.
-* Die Gruppierungen zeigen einen aggregierten Wert in den Ergebnissen an. &#x200B;
+* Gruppierungen sind ein obligatorisches Berichtselement, wenn Sie Ihrem Bericht später ein Diagramm hinzufügen möchten.
+* Gruppierungen zeigen in den Ergebnissen einen Aggregatwert an&#x200B;
 * Gruppierungen bestimmen die Achse in Diagrammen.
-* Gruppierungen bestimmen die Header-Identifizierung in Matrix-Berichten.\
-  Weitere Informationen zu Matrix-Berichten finden Sie im Artikel [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+* Gruppierungen bestimmen die Kopfzeilenidentifizierung in Matrixberichten.\
+  Weitere Informationen zu Matrixberichten finden Sie im Artikel [Erstellen eines Matrixberichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-* Mithilfe von Gruppierungen können Sie die Registerkarte &quot;Zusammenfassung&quot;eines Berichts erstellen und die aggregierten Werte des Berichts angeben.
+* Gruppierungen helfen beim Erstellen der Registerkarte Zusammenfassung eines Berichts, wobei die aggregierten Werte des Berichts bereitgestellt werden.
 * Workfront bietet standardmäßig eine Reihe von Gruppierungen für verschiedene Objekte.
-* Sie können Gruppen anpassen, deren Inhaber Sie sind oder die Sie verwalten.
+* Sie können Gruppierungen anpassen, die Sie besitzen oder verwalten.
 
-  Weitere Informationen zu Gruppierungen finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+  Weitere Informationen zu Gruppierungen finden Sie unter [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-## Sonstige Berichterstattungselemente
+## Sonstige Berichterstellungselemente
 
-Zusätzlich zu Filtern, Ansichten und Gruppierungen können Sie auch die folgenden Elemente zu einem Bericht hinzufügen:
+Zusätzlich zu Filtern, Ansichten und Gruppierungen können Sie einem Bericht auch die folgenden Elemente hinzufügen:
 
-* **Eingabeaufforderung**: Ein offener Filter, der bei jeder Ausführung eines Berichts unterschiedlich angepasst und angewendet werden kann.\
-  Weitere Informationen zu Eingabeaufforderungen finden Sie im Artikel [Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
+* **Prompt**: Ein offener Filter, der bei jeder Ausführung eines Berichts anders angepasst und angewendet werden kann.\
+  Weitere Informationen zu Eingabeaufforderungen finden Sie im Artikel [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).
 
-* **Diagramm**: Sie können Ihre Berichte erweitern, indem Sie ihnen ein Diagramm hinzufügen und die Informationen visuell darstellen.\
+* **Diagramm**: Sie können Ihre Berichte verbessern, indem Sie ihnen ein Diagramm hinzufügen und die Informationen visuell anzeigen.\
   Weitere Informationen zu Diagrammen in Berichten finden Sie im Artikel [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).

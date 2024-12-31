@@ -28,7 +28,7 @@ After a report is cached, it is available for the next 12 hours. Any user who ru
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -56,53 +56,53 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender anzeigen</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards, Kalender</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht anzeigen</p></td> 
+   <td> <p>Anzeigen von Berechtigungen für einen Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Bericht ausführen
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Berichte]**.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Berichte]**.
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
-   * **Meine Berichte:** Von Ihnen erstellte Berichte.
-   * **Für mich freigegeben:** Berichte, die von anderen Benutzern für Sie freigegeben wurden.
+   * **Meine Berichte:** von Ihnen erstellte Berichte.
+   * **Für mich freigegeben:** Berichte, die andere Benutzer für Sie freigegeben haben.
    * **Alle Berichte:** Alle Berichte im System, auf die Sie Zugriff haben.
 
 1. Klicken Sie auf den Namen des Berichts, den Sie ausführen möchten.\
    Oder\
-   Wenn der Bericht mit Eingabeaufforderungen erstellt wurde, wählen Sie die entsprechenden Informationen aus den Dropdown-Menüs aus und klicken Sie dann auf **Bericht ausführen**.\
-   Weitere Informationen zu Eingabeaufforderungen finden Sie unter [Eine Eingabeaufforderung zu einem Bericht hinzufügen](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
-   Der Inhalt des Berichts wird mit einem Zeitstempel in der oberen rechten Ecke des Berichts angezeigt, der das Datum, die Uhrzeit und die Zeitzone enthält, zu der der Bericht aus dem Kontext des Benutzers ausgeführt wurde, der den Bericht ausgeführt hat.
+   Wenn der Bericht anhand von Eingabeaufforderungen erstellt wurde, wählen Sie die entsprechenden Informationen aus den Dropdown-Menüs aus und klicken Sie dann auf **Bericht ausführen**.\
+   Weitere Informationen zu Eingabeaufforderungen finden Sie unter [Hinzufügen einer Eingabeaufforderung zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-prompt-report.md).\
+   Der Inhalt des Berichts wird mit einem Zeitstempel in der oberen rechten Ecke des Berichts angezeigt, der das Datum, die Uhrzeit und die Zeitzone enthält, zu der der Bericht im Kontext des Benutzers ausgeführt wurde, der den Bericht ausgeführt hat.
 
-1. (Optional) Klicken Sie auf das Symbol **Neu laden** ![Neu laden](assets/unshimmed-report-refresh-icon.png) , um die Ergebnisse in einem Bericht zu aktualisieren, wenn der Bericht bereits seit einiger Zeit in Ihrem Browser angezeigt wird.
+1. (Optional) Klicken Sie auf **Neu laden** Symbol ![Neu laden](assets/unshimmed-report-refresh-icon.png), um die Ergebnisse in einem Bericht zu aktualisieren, wenn der Bericht seit einiger Zeit in Ihrem Browser angezeigt wird.
 
-1. (Bedingt) Wenn der Bericht Filter oder Eingabeaufforderungen verwendet, klicken Sie auf **Filter und Eingabeaufforderungen anzeigen** , um eine Liste mit Filtern und Eingabeaufforderungen anzuzeigen, die für den angezeigten Bericht verwendet werden. Wenn der Bericht nur Filter oder nur Eingabeaufforderungen enthält, wird stattdessen **Filter anzeigen** oder **Eingabeaufforderungen anzeigen** angezeigt.
+1. (Bedingt) Wenn der Bericht Filter oder Eingabeaufforderungen verwendet, klicken Sie auf **Filter und Eingabeaufforderungen anzeigen** um eine Liste der Filter und Eingabeaufforderungen anzuzeigen, die für den angezeigten Bericht verwendet werden. Wenn der Bericht nur Filter oder nur Eingabeaufforderungen enthält, wird **Filter anzeigen** oder **Eingabeaufforderungen anzeigen** angezeigt.
 
    ![Filter und Eingabeaufforderungen anzeigen](assets/unshimmed-show-filters-and-prompts.png)
 
-   Informationen werden unter dem Berichtnamen auf der linken Seite der Seite angezeigt. Bei Eingabeaufforderungen handelt es sich um Informationen zu den Eingabeaufforderungen, die zum Zeitpunkt der Berichterstellung getroffen wurden, wie in Schritt 3 beschrieben.
+   Informationen werden unter dem Berichtsnamen links auf der Seite angezeigt. Bei Eingabeaufforderungen handelt es sich um Informationen zu den Eingabeaufforderungen, die zum Zeitpunkt der Berichtsausführung ausgewählt wurden, wie in Schritt 3 beschrieben.
 
-1. Wenn Sie benutzerdefinierte Eingabeaufforderungen verwenden, werden diese nicht angezeigt. Nur die Systemaufforderungen werden angezeigt. Benutzerdefinierte Filter werden immer angezeigt.
+1. Wenn Sie benutzerdefinierte Eingabeaufforderungen verwenden, werden diese nicht angezeigt. Nur das System fordert zur Anzeige auf. Benutzerdefinierte Filter werden immer angezeigt.
 
 ## Zwischengespeicherten Bericht anzeigen
 
-Ihr Bericht kann zwischengespeichert werden, wenn er bereits seit einiger Zeit in Ihrem Browser angezeigt wird. Sie können das Neuladen eines zwischengespeicherten Berichts erzwingen, wenn Sie eine der folgenden Aktionen durchführen:
+Ihr Bericht wird möglicherweise zwischengespeichert, wenn er in Ihrem Browser eine Weile angezeigt wird. Sie können das Neuladen eines zwischengespeicherten Berichts erzwingen, wenn Sie eine der folgenden Aktionen ausführen:
 
-* Bearbeiten Sie die Berichtseinstellungen und speichern Sie den Bericht.
-* Ändern Sie die Ansicht, Gruppe oder den Filter.
-* Klicken Sie auf das Symbol **Neu laden** ![Neuladungssymbol](assets/unshimmed-report-refresh-icon.png)
-Diese Option ist rechts oben auf der Seite im Meldungsfeld verfügbar, das die Speicherzeit des Berichts angibt, oder in der oberen rechten Ecke des Dashboards, in dem der Bericht platziert wird. Weitere Informationen zum Neuladen von Dashboards finden Sie im Abschnitt &quot;Dashboards anzeigen&quot;im Artikel [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md) .
+* Bearbeiten Sie die Berichteinstellungen und speichern Sie den Bericht.
+* Ändern der Ansicht, Gruppe oder des Filters.
+* Klicken Sie auf **Neu laden** Symbol ![Neu laden](assets/unshimmed-report-refresh-icon.png)
+Diese Option ist in der rechten oberen Ecke der Seite innerhalb des Meldungsfelds verfügbar, das den Zeitpunkt angibt, zu dem der Bericht gespeichert wurde, oder sie ist in der rechten oberen Ecke des Dashboards verfügbar, in dem der Bericht platziert wird. Weitere Informationen zum Neuladen von Dashboards finden Sie im Abschnitt „Anzeigen von Dashboards“ im Artikel [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md).
 
-* Greifen Sie über die erste Seite hinaus auf eine beliebige Seite des Berichts zu, indem Sie zu den Registerkarten &quot;Zusammenfassung&quot;, &quot;Matrix&quot;oder &quot;Diagramm&quot;navigieren.
+* Greifen Sie auf eine beliebige Seite des Berichts zu, die über die erste Seite hinausgeht, indem Sie zu den Registerkarten Zusammenfassung, Matrix oder Diagramm navigieren.

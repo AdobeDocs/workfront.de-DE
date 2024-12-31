@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: Gruppieren eines Berichts mit einem aus mehreren Auswahlen bestehenden benutzerdefinierten Feld
-description: Sie können in einem Adobe Workfront-Bericht nur mithilfe des Textmodus nach dem Wert in einem benutzerdefinierten Mehrfachfeld gruppieren.
+title: Gruppieren eines Berichts nach einem benutzerdefinierten Mehrfachauswahlfeld
+description: Sie können in einem Adobe Workfront-Bericht nur im Textmodus nach dem Wert in einem benutzerdefinierten Mehrfachauswahlfeld gruppieren.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 530dff59-0d4c-490e-b464-1d3bb1d0f36f
@@ -14,32 +14,32 @@ ht-degree: 0%
 
 ---
 
-# Gruppieren eines Berichts nach einem benutzerdefinierten Mehrfachfeld
+# Gruppieren eines Berichts nach einem benutzerdefinierten Mehrfachauswahlfeld
 
 <!--Audited: 10/2024-->
 
-Sie können in einem Adobe Workfront-Bericht nur mithilfe des Textmodus nach dem Wert in einem benutzerdefinierten Mehrfachfeld gruppieren.
+Sie können in einem Adobe Workfront-Bericht nur im Textmodus nach dem Wert in einem benutzerdefinierten Mehrfachauswahlfeld gruppieren.
 
-Beispiele für benutzerdefinierte Mehrfachauswahl-Felder:
+Beispiele für benutzerdefinierte Felder mit Mehrfachauswahl:
 
 * Kontrollkästchen
-* Dropdown-Menüs mit Mehrfachauswahl
+* Mehrfachauswahl-Dropdownmenüs
 
-Informationen zur Verwendung des Textmodus finden Sie im Artikel [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md) .
+Informationen zur Verwendung des Textmodus finden Sie im Artikel [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-## Überlegungen beim Gruppieren nach einem benutzerdefinierten Mehrfachfeld
+## Überlegungen beim Gruppieren nach einem benutzerdefinierten Mehrfachauswahlfeld
 
-* Ein Bericht, der eine Textmodellgruppierung verwendet, kann nicht grafisch dargestellt werden. Sie müssen ein zusätzliches berechnetes Feld erstellen, das auf das benutzerdefinierte Mehrfachauswahlfeld verweist, um den Bericht auch nach dem Wert des benutzerdefinierten Mehrfachfelds zu kartieren.
+* Sie können keinen Bericht grafisch darstellen, der eine Textmodusgruppierung verwendet. Sie müssen ein zusätzliches berechnetes Feld erstellen, das auf das benutzerdefinierte Feld mit Mehrfachauswahl verweist, um den Bericht auch nach dem Wert des benutzerdefinierten Felds mit Mehrfachauswahl zu diagrammen.
 
-  Weitere Informationen finden Sie unter [Bericht durch ein benutzerdefiniertes Mehrfachauswahlfeld grafisch darstellen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
-* Elemente mit einer der ausgewählten Optionen werden nur einmal gezählt.
+  Weitere Informationen finden Sie unter [Erstellen eines Diagramms für einen Bericht mit einem benutzerdefinierten Mehrfachauswahlfeld](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/chart-report-by-multi-select-custom-field.md).
+* Elemente, für die eine der ausgewählten Optionen ausgewählt ist, werden nur einmal gezählt.
 
-  Wenn Sie beispielsweise über ein benutzerdefiniertes Kontrollkästchen mit Auswahl 1 und Auswahl 2 als Optionen verfügen und das Formular an Aufgaben anhängen, werden die Aufgaben, für die sowohl Auswahl 1 als auch Auswahl 2 ausgewählt sind, getrennt von den Aufgaben gruppiert, für die nur Auswahl 1 oder Auswahl 2 ausgewählt ist.
+  Wenn Sie beispielsweise ein benutzerdefiniertes Kontrollkästchen mit Auswahl 1 und Auswahl 2 als Optionen haben und das Formular an Aufgaben anhängen, werden die Aufgaben, für die sowohl Auswahl 1 als auch Auswahl 2 ausgewählt sind, getrennt von den Aufgaben gruppiert, für die nur Auswahl 1 oder Auswahl 2 ausgewählt ist.
 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -48,70 +48,70 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Gruppieren eines Berichts nach benutzerdefinierten Feldern mit Mehrfachauswahl
 
-Um eine Gruppierung nach einem benutzerdefinierten Mehrfachfeld zu ermöglichen, müssen folgende Voraussetzungen erfüllt sein:
+Um nach einem benutzerdefinierten Feld mit mehreren Auswahlmöglichkeiten gruppieren zu können, müssen Sie die folgenden Voraussetzungen erfüllen:
 
-* Erstellen Sie das benutzerdefinierte Mehrfachauswahlfeld in einem benutzerdefinierten Formular.\
-  Informationen zum Erstellen benutzerdefinierter Formulare und zum Hinzufügen benutzerdefinierter Felder finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+* Erstellen Sie das benutzerdefinierte Feld mit Mehrfachauswahl in einem benutzerdefinierten Formular.\
+  Informationen zum Erstellen benutzerdefinierter Formulare und Hinzufügen benutzerdefinierter Felder zu ihnen finden Sie im Artikel [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 * Hängen Sie das benutzerdefinierte Formular an Objekte an.
-* Füllen Sie das benutzerdefinierte Feld mit Mehrfachauswahl mit einem Wert für jedes Objekt.
+* Füllen Sie das benutzerdefinierte Feld mit mehreren Auswahlmöglichkeiten mit einem Wert für jedes Objekt.
 
-So gruppieren Sie ein benutzerdefiniertes Feld mit Mehrfachauswahl in einem Bericht:
+So gruppieren Sie nach einem benutzerdefinierten Feld mit Mehrfachauswahl in einem Bericht:
 
-1. Erstellen Sie einen Bericht oder bearbeiten Sie einen vorhandenen Bericht, in dem Sie eine Gruppierung für ein benutzerdefiniertes Feld mit Mehrfachauswahl hinzufügen möchten.\
-   Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
-1. Klicken Sie auf **Berichtaktionen** und dann auf **Bearbeiten**.
-1. Wählen Sie die Registerkarte **Gruppierungen** aus.
-1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Erstellen Sie einen Bericht oder bearbeiten Sie einen vorhandenen Bericht, in dem Sie eine Gruppierung für ein benutzerdefiniertes Mehrfachauswahl-Feld hinzufügen möchten.\
+   Informationen zum Erstellen von Berichten finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+1. Klicken Sie **Berichtsaktionen** und dann **Bearbeiten**.
+1. Wählen Sie die **Gruppierungen** aus.
+1. Klicken Sie **In Textmodus wechseln**.
 
 1. Wählen Sie den Text im Feld **Gruppieren nach** aus und ersetzen Sie ihn durch den folgenden Code:
 
    <pre>
-   group.0.displayName=Multi-select Custom Field Name
+   group.0.displayName=Benutzerdefinierter Mehrfachauswahl-Feldname
    group.0.valueExpression={DE:Multi-select Custom Field Name}
    group.0.valueFormat=HTML
-   group.0.textmode=true
+   group.0.textMode=true
    </pre>
 
-1. Ersetzen Sie &quot;Benutzerdefinierter Feldname mit Mehrfachauswahl&quot;durch den tatsächlichen Namen Ihres benutzerdefinierten Mehrfachauswahlfelds, wie er in Ihrer Workfront-Instanz angezeigt wird.
-1. Klicken Sie auf **Speichern und schließen**.
+1. Ersetzen Sie „Benutzerdefinierter Feldname mit Mehrfachauswahl“ durch den tatsächlichen Namen des benutzerdefinierten Felds mit Mehrfachauswahl, wie er in Ihrer Workfront-Instanz angezeigt wird.
+1. Klicken Sie **Speichern und schließen**.
 
-   Die Objekte im Bericht werden nach den Werten des benutzerdefinierten Mehrfachauswahlfelds gruppiert.
+   Die Objekte im Bericht werden nach den Werten des benutzerdefinierten Mehrfachauswahl-Felds gruppiert.
 
    ![](assets/grouping-by-multi-select-field-text-mode-ui-example.png)
 
-   Der Name der Gruppierungen des Berichts entspricht den Namen des benutzerdefinierten Mehrfachfelds, gefolgt von den im Feld ausgewählten Werten.
+   Die Gruppierungen des Berichts entsprechen den Namen des benutzerdefinierten Mehrfachauswahlfelds, gefolgt von den im Feld ausgewählten Werten.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

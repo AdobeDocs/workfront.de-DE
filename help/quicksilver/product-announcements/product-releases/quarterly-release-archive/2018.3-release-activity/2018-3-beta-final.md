@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Beta endgültig 2018.3
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit der endgültigen Beta-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 10. Oktober 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Beta-Endspiel 2018.3
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.3 verfügbar waren. Die Funktion wird am 10. Oktober 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,135 +14,135 @@ ht-degree: 0%
 
 ---
 
-# Beta endgültig 2018.3
+# Beta-Endspiel 2018.3
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschauumgebung mit der endgültigen Beta-Version 2018.3 verfügbar waren. Die Funktion ist ab dem 10. Oktober 2018 in der Vorschau-Umgebung verfügbar. Sie wird im November 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit der Beta-Endversion 2018.3 verfügbar waren. Die Funktion wird am 10. Oktober 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird im November 2018 in der Produktionsumgebung bereitgestellt.
 
 >[!NOTE]
 >
-> Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
+> Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.3 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
+Eine Liste aller Änderungen in Version 2018.3 finden Sie unter  [Übersicht über die Versionsaktivität 2018.3](../../../../product-announcements/product-releases/quarterly-release-archive/2018.3-release-activity/2018-3-release-activity-overview.md).
 
-Die endgültige Version 2018.3 von Beta enthält folgende Verbesserungen:
+Die Beta-Endversion 2018.3 enthält die folgenden Verbesserungen:
 
-* [Zweiwege-Synchronisation zwischen Home Calendar und Outlook Calendar](#two-way-sync-between-home-calendar-and-outlook-calendar)
+* [Zwei-Wege-Synchronisation zwischen Startseiten-Kalender und Outlook-Kalender](#two-way-sync-between-home-calendar-and-outlook-calendar)
 * [Aktualisierungen für das Hinzufügen neuer Aufgaben auf der Startseite](#updates-for-adding-new-tasks-in-home)
-* [Markup-Tools für die Überprüfung jetzt standardmäßig erweitert](#proofing-markup-tools-now-expanded-by-default)
-* [Microsoft OneDrive Document Integration](#microsoft-onedrive-document-integration)
-* [Workfront für Microsoft Teams-Integration](#workfront-for-microsoft-teams-integration)
-* [Workfront für Adobe Creative Cloud-Integration aktualisiert](#updated-workfront-for-adobe-creative-cloud-integration)
-* [Verbesserungen bei der mobilen Workfront-App](#workfront-mobile-app-improvements)
+* [Proofing-Markup-Tools sind jetzt standardmäßig erweitert](#proofing-markup-tools-now-expanded-by-default)
+* [Microsoft OneDrive-Dokumentintegration](#microsoft-onedrive-document-integration)
+* Integration von [Workfront für Microsoft Teams ](#workfront-for-microsoft-teams-integration)
+* [Aktualisierte Integration von Workfront für Adobe Creative Cloud](#updated-workfront-for-adobe-creative-cloud-integration)
+* [Verbesserungen an Workfront Mobile Apps](#workfront-mobile-app-improvements)
 
-## Zwei-Wege-Synchronisation zwischen Home Calendar und Outlook Calendar {#two-way-sync-between-home-calendar-and-outlook-calendar}
+## Zwei-Wege-Synchronisation zwischen Startseiten-Kalender und Outlook-Kalender {#two-way-sync-between-home-calendar-and-outlook-calendar}
 
-Wenn Sie Ihren Home-Kalender so konfigurieren, dass er mit Ihrem Outlook-Kalender synchronisiert wird, werden Elemente aus Ihrem Home-Kalender jetzt in Ihrem Outlook-Kalender angezeigt.
+Wenn Sie Ihren Startseiten -Kalender so konfigurieren, dass er mit Ihrem Outlook-Kalender synchronisiert wird, werden jetzt Elemente aus Ihrem Startseiten -Kalender in Ihrem Outlook-Kalender angezeigt.
 
-Zuvor war es nur möglich, Elemente aus dem Outlook-Kalender mit dem Home-Kalender zu synchronisieren.
+Zuvor konnten Sie Elemente nur aus Ihrem Outlook-Kalender mit Ihrem Startseiten-Kalender synchronisieren.
 
-## Aktualisierungen für das Hinzufügen neuer Aufgaben auf der Startseite {#updates-for-adding-new-tasks-in-home}
+## Aktualisierungen für das Hinzufügen neuer Aufgaben in der Startseite {#updates-for-adding-new-tasks-in-home}
 
 * Sie können jetzt das geplante Abschlussdatum für eine persönliche Aufgabe aktualisieren.
-* Sie können jetzt Teams und Rollen Anforderungen und Projektaufgaben zuweisen, die auf der Startseite erstellt wurden.
+* Sie können jetzt in der Startseite erstellte Anfragen und Projektaufgaben Teams und Rollen zuweisen.
 
-Weitere Informationen zu den oben genannten Aktualisierungen finden Sie unter  [Erstellen Sie Arbeitselemente aus dem Startbereich](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+Weitere Informationen zu den oben genannten Aktualisierungen finden Sie unter  [Erstellen Sie Arbeitselemente über den Bereich „Startseite](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-## Markup-Tools für die Überprüfung werden jetzt standardmäßig erweitert {#proofing-markup-tools-now-expanded-by-default}
+## Proofing-Markup-Tools sind jetzt standardmäßig erweitert {#proofing-markup-tools-now-expanded-by-default}
 
-Wenn Sie jetzt einen Testversand im Testversand-Viewer öffnen, werden die Markup-Tools horizontal über den oberen Bereich des Viewers hinweg erweitert.
+Wenn Sie jetzt einen Korrekturabzug im Proofing Viewer öffnen, werden die Markup-Tools horizontal über den oberen Rand des Viewers erweitert.
 
 Zuvor mussten Sie auf klicken, um diese Tools in einem vertikalen Menü zu erweitern.
 
-Weitere Informationen finden Sie unter  [Konfigurieren Sie die Testversand-Viewer-Einstellungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Weitere Informationen finden Sie unter  [Konfigurieren der Einstellungen für die Proofing-Anzeige](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 ## Microsoft OneDrive-Dokumentintegration {#microsoft-onedrive-document-integration}
 
-Sie können jetzt Ihr Microsoft OneDrive-Konto in Workfront integrieren und OneDrive-Dokumente und -Ordner mit Workfront-Elementen verknüpfen.
+Sie können jetzt Ihr Microsoft OneDrive-Konto mit Workfront integrieren und OneDrive-Dokumente und -Ordner mit Workfront-Elementen verknüpfen.
 
-Vor dieser Verbesserung könnten Sie die folgenden Dokumentenspeicheranbieter von Drittanbietern mit Workfront verknüpfen:
+Vor dieser Verbesserung konnten Sie die folgenden Dokumentenspeicheranbieter von Drittanbietern mit Workfront verknüpfen:
 
 * Google Drive
 * Box
 * Dropbox
 * WebDAM
 
-Weitere Informationen zu Dokumentintegrationen finden Sie unter [Dokumentintegrationen konfigurieren](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Informationen zu Dokumentintegrationen finden Sie unter [Konfigurieren von Dokumentintegrationen](../../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-## Workfront für Microsoft Teams-Integration {#workfront-for-microsoft-teams-integration}
+## Integration von Workfront für Microsoft Teams {#workfront-for-microsoft-teams-integration}
 
 Sie können jetzt Microsoft Teams und Workfront mit einer neuen vordefinierten Integration integrieren.
 
 Die Integration bietet die folgenden Funktionen:
 
 * Neue persönliche Aufgaben erstellen
-* Entscheidungsfindung bei der Genehmigung
-* Workfront-Elemente suchen und an eine Nachricht anhängen
-* Kommentare zu Workfront-Elementen und Antworten auf Benachrichtigungen
-* Neue Arbeit akzeptieren
+* Genehmigungsentscheidungen treffen
+* Suchen nach Workfront-Elementen und Anhängen an eine Nachricht
+* Kommentar zu Workfront-Elementen und Antworten auf Benachrichtigungen
+* Neue Arbeit annehmen
 
-Die Integration steht allen Kunden mit einem Workfront Professional-Abo oder höher kostenlos zur Verfügung.
+Die Integration ist für alle Kunden, die einen Workfront Professional-Plan oder höher besitzen, kostenlos verfügbar.
 
 >[!NOTE]
 >
-> Einige Bereiche der Integration, die im folgenden Video beschrieben werden, wurden geändert. Die neuesten Informationen zu Workfront für Microsoft Teams finden Sie im Abschnitt [[!DNL Adobe Workfront for Microsoft Teams]: Artikelindex](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) .
+> Einige Bereiche der im folgenden Video beschriebenen Integration wurden geändert. Die neuesten Informationen zu Workfront für Microsoft Teams finden Sie im Abschnitt [[!DNL Adobe Workfront for Microsoft Teams]: ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md) .
 
-## Workfront für Adobe Creative Cloud-Integration aktualisiert {#updated-workfront-for-adobe-creative-cloud-integration}
+## Aktualisierte Integration von Workfront für Adobe Creative Cloud {#updated-workfront-for-adobe-creative-cloud-integration}
 
-Neben der neu gestalteten und verbesserten Funktionalität bietet die Integration von Workfront für Adobe Creative Cloud die folgenden Verbesserungen:
+Zusätzlich zu den neu gestalteten und verbesserten Funktionen bietet die Integration von Workfront für Adobe Creative Cloud die folgenden Verbesserungen:
 
 * Melden Sie sich mit Ihren Workfront- oder SAML-Anmeldeinformationen an
 * Hochladen von Assets in Workfront
 * Hinzufügen von Kommentaren und Versionen zu hochgeladenen Dokumenten
-* Navigieren Sie direkt über die Adobe-Anwendungen zu Ihren Arbeitselementen und Dokumenten.
-* Zugriff auf die Arbeitsliste
-* Dokumentgenehmigung anfordern
-* Führen Sie eine allgemeine Suche für alle Projekte, Aufgaben oder Probleme durch, auf die Sie Zugriff haben
+* Navigieren Sie direkt aus den Adobe-Anwendungen zu Ihren Arbeitselementen und Dokumenten
+* Zugriff auf Ihre Auftragsliste
+* Dokumentengenehmigung anfordern
+* Führen Sie eine allgemeine Suche nach Projekten, Aufgaben oder Problemen durch, auf die Sie Zugriff haben
 
-Die Integration steht allen Kunden mit einem Workfront Professional-Abo oder höher kostenlos zur Verfügung.
+Die Integration ist für alle Kunden, die einen Workfront Professional-Plan oder höher besitzen, kostenlos verfügbar.
 
-## Verbesserungen bei der mobilen Workfront-App {#workfront-mobile-app-improvements}
+## Verbesserungen an Workfront Mobile Apps {#workfront-mobile-app-improvements}
 
-Die folgenden neuen Funktionen werden zum Zeitpunkt der Produktionsversion 2018.3 für die iOS- und Android-App Stores veröffentlicht:
+Die folgenden neuen Funktionen werden zum Zeitpunkt der Produktionsversion 2018.3 in den iOS- und Android-App-Stores veröffentlicht:
 
-* Erstmaliges Benutzererlebnis
+* Erstes Anwendererlebnis
 
-  Wenn sich ein Benutzer zum ersten Mal bei der mobilen Workfront-App anmeldet, wird er durch eine Reihe von Tipps zur Funktionalität der App geführt. Dies ist ab dieser Version nur für iOS-Geräte verfügbar.
+  Wenn sich ein(e) Benutzende(r) zum ersten Mal bei der Workfront Mobile App anmeldet, wird er/sie durch eine Reihe von Tipps zur Funktionalität der App geführt. Dies ist mit dieser Version nur für iOS-Geräte verfügbar.
 
-* Einfache Aufgabenerstellung über die Seiten &quot;Projekte&quot;, &quot;Aufgaben&quot;, &quot;Startseite&quot;und &quot;Meine Arbeit&quot;für die mobile iOS-App
+* Einfache Aufgabenerstellung über die Seiten „Projekte“, „Aufgaben“, „Startseite“ und „Meine Arbeit“ für die iOS Mobile App
 
   Sie können jetzt beim Zugriff auf diese Seiten schnell eine Aufgabe hinzufügen.
 
-* Tastaturbefehle der App auf dem Startbildschirm:
+* Tastaturbefehle der -App auf dem Startbildschirm:
 
-  Sie können jetzt die folgenden Aktionen ausführen, indem Sie die Workfront-App lange auf Ihrem Startbildschirm drücken:
+  Sie können jetzt die folgenden Aktionen ausführen, indem Sie lange auf dem Startbildschirm auf die Workfront-App klicken:
 
    * Suchen
-   * Zugriffsbenachrichtigungen
+   * Zugriff auf Benachrichtigungen
    * Zugriff auf das zuletzt aufgerufene Projekt 
-   * Zugriff auf zuletzt aufgerufene Aufgaben oder Probleme
+   * Zugriff auf die zuletzt aufgerufene Aufgabe oder Anfrage
 
-* Neue Push-Benachrichtigungen und Einführung von Aktionen aus Push-Benachrichtigungen
+* Neue Push-Benachrichtigungen und neue Aktionen aus Push-Benachrichtigungen
 
-  Weitere Ereignisse generieren jetzt Push-Benachrichtigungen in der mobilen Workfront-App.
+  Mehr Ereignisse generieren jetzt Push-Benachrichtigungen in der Mobile App von Workfront.
 
-  Sie können jetzt auch direkt in der Benachrichtigung auf eine Benachrichtigung reagieren.
+  Sie können jetzt auch direkt über die Benachrichtigung selbst auf eine Benachrichtigung reagieren.
 
-  Sie können Folgendes tun, indem Sie eine Push-Benachrichtigung lang drücken, ohne zur App oder zum Element navigieren zu müssen, das sie generiert hat:
+  Sie können Folgendes tun, indem Sie eine Push-Benachrichtigung lange drücken, ohne zur App oder zu dem Element gehen zu müssen, das sie generiert hat:
 
    * Kommentar zu einem Element
-   * Annehmen, daran zu arbeiten
-   * Entscheidungsfindung für die Genehmigung
+   * Akzeptieren, um daran zu arbeiten
+   * Genehmigungsentscheidung treffen
 
-* Unterstützung der Ausrichtung im Querformat für iOS-Geräte
+* Unterstützung der Querformat-Ausrichtung für iOS-Geräte
 
-  Die Ausrichtung im Querformat und Hochformat wird jetzt sowohl für die iOS- als auch für die Android-Apps vollständig unterstützt, mit Ausnahme der folgenden iPhone-Größen:
+  Wir unterstützen jetzt sowohl Querformat- als auch Hochformat-Ausrichtungen für iOS und Android Mobile Apps mit Ausnahme der folgenden iPhone-Größen:
 
    * IPHONE 5
    * iPhone 5S
    * IPHONE SE\
-     Vor dieser Verbesserung wurde die Ausrichtung im Querformat nur für Android-Geräte unterstützt.
+     Vor dieser Verbesserung wurde die Querformat-Ausrichtung nur für Android-Geräte unterstützt.
 
 * Unterstützung für iOS 12- und Android P-Plattformen
 * Unterstützung für iOS- und Android-Tablets
 
-  Sie können jetzt dieselbe Workfront-Mobile-App auf Ihrem Tablet verwenden, die zuvor nur für Smartphones verfügbar war.
+  Sie können jetzt auf Ihrem Tablet dieselbe Workfront-Mobile-App verwenden, die zuvor nur für Smartphones verfügbar war.

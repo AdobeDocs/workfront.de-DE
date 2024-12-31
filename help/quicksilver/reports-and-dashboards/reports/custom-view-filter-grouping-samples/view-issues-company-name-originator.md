@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Probleme mit dem Firmennamen des Urhebers'
-description: In dieser Problemansicht wird der Unternehmensname angezeigt, der mit dem Benutzer verknüpft ist, der das Problem gesendet hat.
+title: 'Anzeigen: Probleme mit dem Firmennamen des Absenders'
+description: In dieser Anfrageansicht wird der Firmenname angezeigt, der dem Benutzer zugeordnet ist, der das Problem gesendet hat.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e628f7cf-4a7b-4125-bea6-348c72477bd7
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Anzeigen: Probleme mit dem Firmennamen des Originators
+# Anzeigen: Probleme mit dem Firmennamen des Absenders
 
 <!--Audit: 11/2024-->
 
-In dieser Problemansicht wird der Unternehmensname angezeigt, der mit dem Benutzer verknüpft ist, der das Problem gesendet hat.
+In dieser Anfrageansicht wird der Firmenname angezeigt, der dem Benutzer zugeordnet ist, der das Problem gesendet hat.
 
 ![custom_view_for_issues_with_originator_company_name.png](assets/custom-view-for-issues-350x33.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,35 +33,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu:<ul><li>Mitwirkender beim Ändern einer Ansicht</li><li>Standard zum Ändern eines Berichts</li></ul></p><p>Oder</p>Aktuell:<ul><li>Anforderung zum Ändern einer Ansicht</li><li>Berichtänderung planen</li></ul></p> </td> 
+   <td> <p>Neu:<ul><li>Mitwirkende zum Ändern einer Ansicht</li><li>Standard zum Ändern eines Berichts</li></ul></p><p>Oder</p>Aktuell:<ul><li>Änderung einer Ansicht anfordern</li><li>Planen der Änderung eines Berichts</li></ul></p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr>  
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen von Problemen mit dem Firmennamen des Originators
+## Probleme mit dem Firmennamen des Absenders anzeigen
 
-1. Gehen Sie zu einer Liste von Problemen.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, klicken Sie auf **In Textmodus wechseln** und dann auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Zu einer Problemliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
+1. Entfernen Sie im Bereich **Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, klicken Sie auf **Wechseln in den Textmodus** und klicken Sie dann auf **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
 
    ```
@@ -130,5 +130,5 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    column.5.width=151
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.
 1. (Optional) Aktualisieren Sie den Ansichtsnamen und klicken Sie dann auf **Ansicht speichern**.

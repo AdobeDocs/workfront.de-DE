@@ -2,7 +2,7 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Anzeigen des Ergebnisses einer Berechnung zwischen zwei Feldern einer Spalte'
+title: 'Ansicht: Ergebnis einer Berechnung zwischen zwei Feldern in einer Spalte anzeigen'
 description: Sie können den Textmodus in einer Spalte verwenden, um eine Berechnung zwischen zwei Feldern anzuzeigen.
 author: Lisa and Nolan
 feature: Reports and Dashboards
@@ -14,21 +14,21 @@ ht-degree: 0%
 
 ---
 
-# Ansicht: Anzeigen des Ergebnisses einer Berechnung zwischen zwei Feldern einer Spalte
+# Ansicht: Ergebnis einer Berechnung zwischen zwei Feldern in einer Spalte anzeigen
 
 <!--Audited: 11/2024-->
 
 Sie können den Textmodus in einer Spalte verwenden, um eine Berechnung zwischen zwei Feldern anzuzeigen.
 
-Wenn Sie beispielsweise die Anzahl der Wochentage zwischen zwei Daten ermitteln möchten, können Sie diese Differenz mithilfe der Textmodussyntax und Datenausdrücken berechnen.\
-Sie können beispielsweise die Wochentagsdifferenz zwischen dem geplanten Abschlussdatum und dem tatsächlichen Abschlussdatum einer Aufgabe berechnen und das Ergebnis in einer Spalte anzeigen.
+Wenn Sie beispielsweise die Anzahl der Wochentage ermitteln möchten, die zwischen zwei Datumsangaben verstrichen sind, können Sie die Textmodussyntax und Datenausdrücke verwenden, um diese Differenz zu berechnen.\
+Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum und dem tatsächlichen Abschlussdatum einer Aufgabe berechnen und das Ergebnis in einer Spalte anzeigen.
 
-Sie können in dieser Berechnung zwei andere Daten verwenden (Tatsächlicher Start, tatsächlicher Abschluss, Voraussichtlicher Start, voraussichtlicher Abschluss usw.).\
+Sie können in dieser Berechnung beliebige andere zwei Datumsangaben verwenden (tatsächlicher Beginn, tatsächlicher Abschluss, voraussichtlicher Beginn, voraussichtlicher Abschluss usw.).\
 Weitere Informationen zu berechneten Datenausdrücken finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -37,45 +37,45 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-## Anzeigen des Ergebnisses einer Berechnung zwischen zwei Feldern einer Spalte
+## Ergebnis einer Berechnung zwischen zwei Feldern in einer Spalte anzeigen
 
 So fügen Sie diese Spalte einer Aufgabenansicht hinzu:
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
+1. Zu einer Aufgabenliste gehen.
+1. Klicken Sie **Dropdown** Menü „Ansicht“ auf **Neue Ansicht**.
 
-1. Klicken Sie auf **Spalte hinzufügen** und dann auf **Wechseln zum Textmodus** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Klicken Sie **Spalte hinzufügen** und dann **In Textmodus wechseln** > **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    displayname=Week Day Difference
@@ -84,5 +84,5 @@ So fügen Sie diese Spalte einer Aufgabenansicht hinzu:
    valueformat=HTML
    ```
 
-1. (Optional) Um die in der Ansicht angezeigten Werte in einer Gruppierung zu aggregieren, führen Sie die unter [Gruppierung: Zeigen Sie das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md) beschriebenen Schritte an.
-1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
+1. (Optional) Um die in der Ansicht angezeigten Werte in einer Gruppierung zu aggregieren, gehen Sie wie unter [Gruppierung: Anzeigen des Ergebnisses der Aggregation mehrerer berechneter Werte in einer Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md) beschrieben vor.
+1. Klicken Sie **Fertig** und dann **Ansicht speichern**.

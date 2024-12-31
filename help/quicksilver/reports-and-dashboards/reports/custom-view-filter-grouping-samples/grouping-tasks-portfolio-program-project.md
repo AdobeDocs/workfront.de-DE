@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Gruppierung: Aufgaben nach Portfolio, Programm und Projekt'
-description: Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und dann nach dem Projekt zu gruppieren, mit dem sie verknüpft sind.
+description: Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und Projekt zu gruppieren, dem sie zugeordnet sind.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und dann nach dem Projekt zu gruppieren, mit dem sie verknüpft sind.
+Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und Projekt zu gruppieren, dem sie zugeordnet sind.
 
 ![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,45 +33,45 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Gruppenaufgaben nach Portfolio, Programm und Projekt
+## Aufgaben nach Portfolio, Programm und Projekt gruppieren
 
-So wenden Sie diese Gruppierung an:
+Um diese Gruppierung anzuwenden:
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Gruppierung** die Option **Neue Gruppierung** aus.
-1. Klicken Sie auf **Gruppierung hinzufügen**.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown-Menü** Gruppierung“ **Neue Gruppierung** aus.
+1. Klicken Sie **Gruppierung hinzufügen**.
 
-1. Klicken Sie auf **Wechseln zum Textmodus**.
-1. Entfernen Sie den Text im Bereich **Gruppieren nach** .
+1. Klicken **Wechseln Sie in den Textmodus**.
+1. Entfernen Sie den Text im Bereich **Gruppieren nach**.
 1. Ersetzen Sie den Text durch den folgenden Code:
 
    ```
@@ -91,6 +91,6 @@ So wenden Sie diese Gruppierung an:
    textmode=true
    ```
 
-1. Klicken Sie auf **Fertig** > **Gruppierung speichern**.
+1. Klicken Sie **Fertig** > **Gruppierung speichern**.
 1. (Optional) Aktualisieren Sie den Gruppierungsnamen und klicken Sie dann auf **Gruppierung speichern**.
 

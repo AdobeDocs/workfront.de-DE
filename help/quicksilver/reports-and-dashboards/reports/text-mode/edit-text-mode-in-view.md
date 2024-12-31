@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Bearbeiten einer Ansicht im Textmodus
-description: "HINWEIS: Fügen Sie einen Abschnitt in diesem Artikel hinzu: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Entwerfen Sie diesen Bereich auch im Artikel Textmodus-Übersicht ."
+description: 'HINWEIS: Fügen Sie einen Abschnitt in diesem Artikel hinzu: /content/reports and dashboards/reports/reporting Elements/create-customize-views.html *** (Entwerfen Sie diesen Bereich auch im Artikel Textmodus - Übersicht )'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
@@ -21,11 +21,11 @@ ht-degree: 1%
 <add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-views.html *** Also, draft this area in the Text Mode overview article) </p>
 -->
 
-Sie können eine Ansicht in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die nicht in der Standardoberfläche verfügbar sind, und komplexere Ansichten zu erstellen.
+Sie können eine Ansicht in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardbenutzeroberfläche nicht verfügbar sind, und komplexere Ansichten zu erstellen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -43,67 +43,67 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Berichterstellungselemente in einem Bericht zu bearbeiten</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Berichtselemente in einem Bericht zu bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Ansichten in einem Bericht verwalten</p> <p>Berechtigungen für eine Ansicht verwalten</p> </td> 
+   <td> <p>Verwalten der Berechtigungen für einen Bericht zum Bearbeiten von Ansichten in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Ansicht, um sie zu bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
-Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Bevor Sie mit der Verwendung des Textmodus in einem Bericht oder einer Liste beginnen, sollten Sie stets sicherstellen, dass Sie mit der Syntax des Workfront-Textmodus vertraut sind.
+Bevor Sie mit der Verwendung des Textmodus in einem Bericht oder einer Liste beginnen, stellen Sie immer sicher, dass Sie mit der Workfront-Textmodussyntax vertraut sind.
 
-Weitere Informationen finden Sie unter
+Weitere Informationen finden Sie unter:
 
 * [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md)
-* [Übersicht über die Syntax im Textmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
-* [Beispiele für benutzerdefinierte Ansicht, Filter und Gruppierung: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Übersicht über die Textmodus-Syntax](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
+* [Beispiele für benutzerdefinierte Ansichten, Filter und Gruppierungen: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
 ## Textmodus in einer Ansicht bearbeiten
 
-Die Bearbeitung einer Ansicht im Textmodus ist für Berichte und Listen identisch. Der Zugriff auf die Ansicht erfolgt über einen Bericht oder eine Liste.
+Das Bearbeiten einer Ansicht im Textmodus ist für Berichte und Listen identisch. Der Zugriff auf die Ansicht über einen Bericht oder eine Liste unterscheidet sich.
 
 >[!TIP]
 >
->Es wird empfohlen, möglichst viele Ansichten im Standardmodus zu erstellen und sie dann in den Textmodus zu konvertieren, um sie zu bearbeiten.
+>Es wird empfohlen, so viel Ansicht wie möglich im Standardmodus zu erstellen und sie dann in den Textmodus zu konvertieren, um sie zu bearbeiten.
 
-Informationen zum Erstellen von Ansichten finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Weitere Informationen zum Erstellen von Ansichten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   1. Um von einem Bericht aus auf die Ansicht zuzugreifen, wechseln Sie zum Bericht und klicken Sie dann auf die Registerkarte **Berichtaktionen** > **Bearbeiten** > **Spalten (Ansicht)** .
-   1. Um von einer Liste aus auf die Ansicht zuzugreifen, navigieren Sie zur Liste und bewegen Sie im Dropdownmenü **Ansicht** den Mauszeiger über die Ansicht, die Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+   1. Um von einem Bericht aus auf die Ansicht zuzugreifen, gehen Sie zum Bericht und klicken Sie dann auf **Berichtsaktionen** > **Bearbeiten** > **Spalten (Ansicht)**.
+   1. Um auf die Ansicht aus einer Liste zuzugreifen, gehen Sie zur Liste und klicken Sie im Dropdown-Menü **Ansicht** mit der Maus auf die Ansicht, die Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 
-      Der Ansichtsgenerator wird geöffnet.
+      Der View Builder wird geöffnet.
 
-1. Wählen Sie eine Spalte in der Ansicht aus.
+1. Eine Spalte in der Ansicht auswählen.
 
    Oder
 
-   Wählen Sie die Registerkarte **Spalten (Ansicht)** des ReportBuilder und dann eine Spalte aus.
+   Wählen Sie die **Spalten (Ansicht)** des Report Builders aus und wählen Sie dann eine Spalte aus.
 
    >[!TIP]
    >
-   >Um eine Ansicht im Textmodus zu bearbeiten, müssen Sie jeweils eine Spalte bearbeiten.
+   >Um eine Ansicht im Textmodus zu bearbeiten, müssen Sie jeweils nur eine Spalte bearbeiten.
 
-1. Klicken Sie oben rechts im Builder auf **In den Textmodus wechseln** und klicken Sie dann auf **Textmodus bearbeiten**.
+1. Klicken **oben rechts** Builder auf „Zum Textmodus wechseln“ und dann auf **Textmodus bearbeiten**.
 
    >[!NOTE]
    >
-   >Wenn Sie eine Spalte im Textmodus bearbeiten, fügt Workfront die Codezeile `textmode=true` zur Spalte hinzu. Dies bedeutet, dass die Spalte im Textmodus geändert wird.
+   >Wenn Sie eine Spalte im Textmodus bearbeiten, fügt Workfront die `textmode=true` Codezeile zur Spalte hinzu. Dies bedeutet, dass die Spalte im Textmodus geändert wird.
 
-   In der folgenden Tabelle werden die wichtigsten Zeilen in einer Textmodus-Ansicht beschrieben:
+   In der folgenden Tabelle sind die wichtigsten Zeilen in einer Textmodusansicht aufgeführt:
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make this a snippet and add it to the grouping article too)</p>
@@ -114,7 +114,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifische
     <col> 
     <thead> 
      <tr> 
-      <th>Beispielzeile</th> 
+      <th>Probeleitung</th> 
       <th>Beschreibung</th> 
      </tr> 
     </thead> 
@@ -199,15 +199,15 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifische
        </div>
 
    <div>
-      Die <code>aggregator. </code>Zeilen können einen <code>valuefield </code>oder einen <code>valueexpression</code> enthalten.
+      Die <code>aggregator. </code>Zeilen können ein <code>valuefield </code>oder ein <code>valueexpression</code> enthalten.
        </div> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Anwenden** , wenn Sie Ihre Änderungen speichern und mit der Bearbeitung der Ansicht fortfahren möchten.
-1. Klicken Sie auf **Speichern + Schließen** , um Ihren Bericht zu speichern.
+1. Klicken Sie **Übernehmen**, wenn Sie Ihre Änderungen speichern und mit der Bearbeitung der Ansicht fortfahren möchten.
+1. Klicken Sie **Speichern + Schließen**, um Ihren Bericht zu speichern.
 
    Oder
 
-   Klicken Sie auf **Ansicht speichern** , um die Ansicht in einer Liste zu speichern.
+   Klicken Sie **Ansicht speichern**, um die Ansicht in einer Liste zu speichern.

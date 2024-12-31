@@ -1,8 +1,8 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Datumsangaben in Textmodusberichten formatieren
-description: Datumswerte können so konfiguriert werden, dass sie in Adobe Workfront in verschiedenen Formaten in Berichten und Listen angezeigt werden. Um ein Datumsformat festzulegen, müssen Sie die Zeile valueFormat des Textmoduscodes in der Spalte ändern.
+title: Formatieren von Datumsangaben in Berichten im Textmodus
+description: Datumsangaben können so konfiguriert werden, dass sie in Berichten und Listen in Adobe Workfront in einer Vielzahl von Formaten angezeigt werden. Um ein Datumsformat festzulegen, müssen Sie die Zeile valueFormat des Textmodus-Codes in der Spalte ändern.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
@@ -13,27 +13,27 @@ ht-degree: 0%
 
 ---
 
-# Datumsangaben in Textmodusberichten formatieren
+# Formatieren von Datumsangaben in Berichten im Textmodus
 
-Datumswerte können so konfiguriert werden, dass sie in Adobe Workfront in verschiedenen Formaten in Berichten und Listen angezeigt werden. Um ein Datumsformat festzulegen, müssen Sie die Zeile `valueformat` des Textmoduscodes in der Spalte ändern.
+Datumsangaben können so konfiguriert werden, dass sie in Berichten und Listen in Adobe Workfront in einer Vielzahl von Formaten angezeigt werden. Um ein Datumsformat festzulegen, müssen Sie die `valueformat` Zeile des Textmodus-Codes in der Spalte ändern.
 
-`valueformat= [new date format]` Wenn Sie beispielsweise möchten, dass das geplante Abschlussdatum als MM/TT/JJ angezeigt wird, würde der Code wie folgt aussehen:
+`valueformat= [new date format]` Wenn Sie beispielsweise das voraussichtliche Abschlussdatum als MM/TT/JJ anzeigen möchten, würde der Code wie folgt aussehen:
 
 ```
 valueformat=atDate
 valuefield=projectedCompletionDate
 ```
 
-Wenn Sie das geplante Abschlussdatum als *Mth, DD, Year* anzeigen möchten, würde der Code wie folgt aussehen:
+Wenn Sie das geplante Abschlussdatum als (*, TT, Jahr)* möchten, würde der Code wie folgt aussehen:
 
 ```
 valueformat=mediumAtdate
 valuefield=plannedCompletionDate
 ```
 
-Weitere Informationen zum Anwenden der bedingten Formatierung in Workfront-Berichten und -Listen im Textmodus finden Sie unter [Bedingte Formatierung im Textmodus verwenden](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
+Weitere Informationen zum Anwenden der bedingten Formatierung in Workfront-Berichten und -Listen im Textmodus finden Sie unter [Verwenden der bedingten Formatierung im Textmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-Sie können Datumsangaben wie folgt formatieren:
+Sie können Datumswerte wie folgt formatieren
 
 ```
 valueformat
@@ -41,11 +41,11 @@ valueformat
 
  Textmoduswerte:
 
-| **Format** | Beispiel  | ***valueFormat=*** |
+| **format** | Beispiel  | ***valueFormat=*** |
 |---|---|---|
-| MM/TT/JJ | 11.10.18 | `atDate` |
-| MM/TT/JJJ Zeit | 11.10.18 12:00 pm | `longAtDate` |
-| MM/TT/JJ | 11.10.18 | `shortAtDate` |
-| Mth, DD, YR | 11. Oktober 2018 | `mediumAtDate` |
-| DW, Mth, Day, YR | Mo., 11. Oktober 2018 | `partialAtDate` |
-| DW, Mth, Day, YR Time | Mo., 11. Oktober 2018 12:00 pm | `fullAtDate` |
+| MM/TT/JJ | 10/11/18 | `atDate` |
+| MM/TT/JJ Zeit | 10/11/18 12:00 | `longAtDate` |
+| MM/TT/JJ | 10/11/18 | `shortAtDate` |
+| Math, TT, JR | 11. Oktober 2018 | `mediumAtDate` |
+| DW, Math, Tag, JR | Mo, 11. Oktober 2018 | `partialAtDate` |
+| DW, Math, Tag, YR-Zeit | Mo, 11. Oktober 2018 12:00 Uhr | `fullAtDate` |

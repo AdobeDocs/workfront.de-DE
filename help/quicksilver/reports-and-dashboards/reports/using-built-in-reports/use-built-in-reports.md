@@ -1,7 +1,7 @@
 ---
 product-area: reporting
 navigation-topic: reports
-title: Verwenden integrierter Berichte
+title: Verwenden von integrierten Berichten
 description: Erfahren Sie, wie Sie integrierte Berichte verwenden.
 author: Nolan
 feature: Reports and Dashboards
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Verwenden integrierter Berichte
+# Verwenden von integrierten Berichten
 
 <!-- Audited: 11/2024 -->
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Integrierte Statussymbole in Ansichten](../../../reports-and-dashboards/reports/using-built-in-reports/built-in-status-icons-views.md)
-* [Verwenden der integrierten Adobe Workfront-Berichte](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
-* [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
-* [Grundlegendes Berichtserstellungsprogramm für das neue Workfront-Erlebnis](https://one.workfront.com/s/basic-report-creation-program)
+* [Verwenden von integrierten Adobe Workfront-Berichten](../../../reports-and-dashboards/reports/using-built-in-reports/use-workfront-built-in-reports.md)
+* [Überblick über den Bericht zur Ressourcenauslastung](../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md)
+* [Grundlegendes Programm zur Berichterstellung für das neue Workfront-Erlebnis](https://one.workfront.com/s/basic-report-creation-program)

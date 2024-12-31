@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: 2019.1 Projektverbesserungen
-description: Auf dieser Seite werden alle in Version 2019.1 enthaltenen Projektverbesserungen beschrieben. Die Funktion ist derzeit in der Vorschauumgebung verfügbar. Sie wird in der Produktionsumgebung im bereitgestellt.
+title: Projektverbesserungen in 2019.1
+description: Auf dieser Seite werden alle in der Version 2019.1 enthaltenen Projektverbesserungen beschrieben. Die Funktion ist derzeit in der Vorschau-Umgebung verfügbar. Sie wird in der Produktionsumgebung im verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,53 +14,53 @@ ht-degree: 1%
 
 ---
 
-# 2019.1 Projektverbesserungen
+# Projektverbesserungen in 2019.1
 
-Auf dieser Seite werden alle in Version 2019.1 enthaltenen Projektverbesserungen beschrieben. Die Funktion ist derzeit in der Vorschauumgebung verfügbar. Sie wird in der Produktionsumgebung im bereitgestellt.
+Auf dieser Seite werden alle in der Version 2019.1 enthaltenen Projektverbesserungen beschrieben. Die Funktion ist derzeit in der Vorschau-Umgebung verfügbar. Sie wird in der Produktionsumgebung im verfügbar gemacht.
 
 >[!IMPORTANT]
 >
->Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
+>Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die in Version 2019.1 vorgenommen wurden, finden Sie unter &quot;Übersicht über die Veröffentlichungsaktivität 2019.1&quot;.
+Eine Liste aller Änderungen in 2019.1 finden Sie unter „Übersicht über die Versionsaktivität 2019.1“.
 
 **Für Administratoren**
 
-* [Wiederherstellen von Vorlagen aus dem Papierkorb](#restore-templates-from-the-recycle-bin)
-* [Zeitstempel für Datumsfelder in Startseite anzeigen](#show-timestamps-for-date-fields-in-home)
-* [Alle unter den Projekteigenschaften verfügbaren Durationstypen](#all-duration-types-available-under-project-preferences)
+* [Vorlagen aus dem Papierkorb wiederherstellen](#restore-templates-from-the-recycle-bin)
+* [Zeitstempel für Datumsfelder auf der Startseite anzeigen](#show-timestamps-for-date-fields-in-home)
+* [Alle unter Projektvoreinstellungen verfügbaren Dauertypen](#all-duration-types-available-under-project-preferences)
 
 **Für alle Benutzer**
 
-* [Agile Verbesserungen](#agile-improvements)
+* [Agile-Verbesserungen](#agile-improvements)
 * [Aufgaben und Probleme aus einer Liste zu einer Iteration hinzufügen](#add-tasks-and-issues-from-a-list-to-an-iteration)
-* [Neue Papiergrößen für den Export von Gantt-Diagrammen](#new-paper-sizes-for-gantt-chart-export)
-* [Entfernen des Zugriffs auf Dialogfelder im Gantt-Diagramm im Bearbeitungsmodus](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
-* [Anzeigen von Aufgabeninformationen im Gantt-Diagramm für Projektlisten in einem Programm oder Portfolio](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
-* [Zugriff auf das Gantt-Diagramm für Aufgabenlisten auf Vorlagen](#access-the-task-list-gantt-chart-on-templates)
+* [Neue Papiergrößen für den Gantt-Diagrammexport](#new-paper-sizes-for-gantt-chart-export)
+* [Der Zugriff auf Dialogfelder im Gantt-Diagramm wurde im Bearbeitungsmodus entfernt](#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode)
+* [Aufgabeninformationen im Gantt-Diagramm der Projektliste in einem Programm oder Portfolio anzeigen](#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio)
+* [Zugriff auf das Gantt-Diagramm der Aufgabenliste in Vorlagen](#access-the-task-list-gantt-chart-on-templates)
 * [Die Projektansicht im Gantt-Diagramm wurde umbenannt](#renamed-the-project-view-on-the-gantt-chart)
-* [Was-Wenn-Szenarios im Aufgabenlisten-Gantt-Diagramm](#what-if-scenarios-in-the-task-list-gantt-chart)
-* [Verbesserungen der Aufgabenliste](#task-list-improvements)
+* [Was-wäre-wenn-Szenarien im Gantt-Diagramm der Aufgabenliste](#what-if-scenarios-in-the-task-list-gantt-chart)
+* [Verbesserungen an der Aufgabenliste](#task-list-improvements)
 * [Listen im Vollbildmodus anzeigen](#display-lists-in-full-screen)
 * [Neue Listen in zusätzlichen Bereichen](#new-lists-in-additional-areas)
-* [Versenden eines gelieferten Berichts im XLSX-Format](#send-a-delivered-report-in-xlsx-format)
-* [Audit-Protokolle exportieren](#export-audit-logs)
+* [Senden eines zugestellten Berichts im XLSX-Format](#send-a-delivered-report-in-xlsx-format)
+* [Auditprotokolle exportieren](#export-audit-logs)
 
-## Wiederherstellen von Vorlagen aus dem Papierkorb {#restore-templates-from-the-recycle-bin}
+## Vorlagen aus dem Papierkorb wiederherstellen {#restore-templates-from-the-recycle-bin}
 
-Workfront-Administratoren können jetzt Vorlagen aus dem Papierkorb wiederherstellen. Wie bei anderen gelöschten Elementen können Sie eine Vorlage bis zu 30 Tage nach dem Zeitpunkt des Löschens wiederherstellen.
+Workfront-Administratoren können jetzt Vorlagen aus dem Papierkorb wiederherstellen. Wie bei anderen gelöschten Elementen können Sie eine Vorlage bis zu 30 Tage nach dem Zeitpunkt wiederherstellen, zu dem sie gelöscht wurde.
 
-Weitere Informationen finden Sie unter &quot;Wiederherstellen gelöschter Elemente&quot;.
+Weitere Informationen finden Sie unter „Wiederherstellen gelöschter Elemente“.
 
-## Anzeigen von Zeitstempeln für Datumsfelder auf der Startseite {#show-timestamps-for-date-fields-in-home}
+## Zeitstempel für Datumsfelder auf der Startseite anzeigen {#show-timestamps-for-date-fields-in-home}
 
-Als Workfront-Administrator können Sie jetzt mithilfe von Layoutvorlagen festlegen, ob Zeitstempel für Fälligkeitsdaten in der Arbeitsliste und im Kalender angezeigt oder ausgeblendet werden sollen. Standardmäßig sind Zeitstempel sowohl für Vorlagen- als auch für Nicht-Vorlagenbenutzer sichtbar.
+Als Workfront-Administrator können Sie jetzt mithilfe von Layout-Vorlagen Zeitstempel für Fälligkeitsdaten in der Arbeitsliste und im Kalender anzeigen oder ausblenden. Standardmäßig sind Zeitstempel sowohl für Vorlagenbenutzer als auch für Nicht-Vorlagenbenutzer sichtbar.
 
-Weitere Informationen finden Sie unter &quot;Anpassen des Startbereichs&quot;im Artikel &quot;Erstellen und Verwalten von Layoutvorlagen&quot;.
+Weitere Informationen finden Sie unter „Anpassen des Bereichs „Startseite“ im Artikel „Erstellen und Verwalten von Layout-Vorlagen“.
 
-## Alle unter den Projekteigenschaften verfügbaren Durationstypen {#all-duration-types-available-under-project-preferences}
+## Alle unter Projektvoreinstellungen verfügbaren Dauertypen {#all-duration-types-available-under-project-preferences}
 
-Beim Festlegen des Standardtyps für Aufgaben und Problemlaufzeit unter Einrichtung > Projekteinstellungen können Sie eine der folgenden Optionen verwenden:
+Beim Festlegen des Standardtyps für die Dauer von Aufgaben und Problemen unter Setup > Projektvoreinstellungen können Sie eine der folgenden Optionen verwenden:
 
 Einfach
 
@@ -70,49 +70,49 @@ Berechnete Zuweisung
 
 Berechnete Arbeit
 
-Wenn Sie zuvor entweder &quot;Einfach&quot;oder &quot;Aufwandsgesteuert&quot;als Standarddauer festgelegt haben, konnten Sie weder &quot;Berechnete Zuweisung&quot;noch &quot;Berechnete Arbeit&quot;auswählen.
+Wenn Sie zuvor als Standarddauertyp entweder Einfach oder Arbeitsaufwand gesteuert festgelegt haben, konnten Sie keine berechnete Zuweisung und keine berechnete Arbeit auswählen.
 
-Weitere Informationen zum Festlegen der Standardeinstellungen für Aufgaben und Ausgabedauer finden Sie unter &quot;Voreinstellungen für Aufgaben und Probleme&quot;
+Weitere Informationen zum Festlegen der Standardeinstellungen für den Aufgaben- und Problemdauertyp finden Sie unter „Voreinstellungen für Aufgaben und Probleme“
 
-## Agile Verbesserungen {#agile-improvements}
+## Agile-Verbesserungen {#agile-improvements}
 
 Die folgenden Verbesserungen sind jetzt im Agile-Tool verfügbar:
 
 Kanban
 
-Fügen Sie Aufgaben und Probleme einem Kanban-Board aus einer beliebigen Aufgabenliste oder einem beliebigen Bericht hinzu.
+Aufgaben und Probleme von einer Aufgabenliste oder einem Bericht zu einem Kanban-Board hinzufügen.
 
-Zuvor konnten Sie nur aus dem Rückstand Aufgaben zum Kanban-Board hinzufügen. Es konnten keine Probleme hinzugefügt werden.
+Zuvor konnten Sie dem Kanban-Board nur Aufgaben aus dem Rückstand hinzufügen. Es konnten keine Probleme hinzugefügt werden.
 
-Filtern Sie die Kanban-Pinnwand nach einzelnen Benutzern im Team.
+Filtern Sie das Kanban-Board nach einzelnen Benutzern im Team.
 
-Weitere Informationen finden Sie unter &quot;Verwenden des Kanban-Board&quot;.
+Weitere Informationen finden Sie unter „Verwenden des Kanban-Boards“.
 
-Anzeigen und Verwalten von Problemen im Kanban-Backlog.
+Probleme im Kanban-Rückstand anzeigen und verwalten.
 
-Weitere Informationen finden Sie unter &quot;Verwenden des Kanban Board&quot;.
+Weitere Informationen finden Sie unter „Verwenden des Kanban-Boards“.
 
 Zuvor war es nicht möglich, Probleme auf einem Kanban-Board hinzuzufügen oder zu verwalten.
 
 Scrum
 
-Filtern Sie das Traumboard nach einzelnen Benutzern im Team.
+Filtern Sie das Iterations-Story-Board nach einzelnen Benutzern im Team.
 
-Weitere Informationen finden Sie unter &quot;Verwenden des Scrum Agile Story Board&quot;.
+Weitere Informationen finden Sie unter „Verwenden des Agile-Story-Boards für Scrum“.
 
-Zuvor war es nicht möglich, nach Benutzern auf Kanban- oder Trommelboards zu filtern.
+Zuvor konnten Sie auf den Kanban- oder Scrum-Boards nicht nach Benutzenden filtern.
 
-## Hinzufügen von Aufgaben und Problemen aus einer Liste zu einer Iteration {#add-tasks-and-issues-from-a-list-to-an-iteration}
+## Aufgaben und Probleme aus einer Liste zu einer Iteration hinzufügen {#add-tasks-and-issues-from-a-list-to-an-iteration}
 
-Sie können jetzt eine Aufgaben- oder Problemliste, einen Bericht oder ein Dashboard verwenden, um einer Iteration Meldungen hinzuzufügen. Sie können auch mehrere Teams in einer Iteration Geschichten zuweisen lassen.
+Sie können jetzt eine Aufgaben- oder Problemliste, einen Bericht oder ein Dashboard verwenden, um einer Iteration Stories hinzuzufügen. In einer Iteration können Ihnen auch mehrere Teams Storys zuweisen.
 
-Zuvor konnten Sie einer Iteration nur auf der Seite mit den Aufgaben- oder Problemdetailseiten eine Geschichte hinzufügen und Sie konnten Geschichten nur zu Iterationen hinzufügen, die von Ihrem Team erstellt wurden.
+Zuvor konnten Sie eine Story nur über die Seite mit den Aufgaben- oder Problemdetails zu einer Iteration hinzufügen und Stories nur zu Iterationen hinzufügen, die von Ihrem Team erstellt wurden.
 
-Weitere Informationen finden Sie unter &quot;Erstellen und Verwalten von Agile Iterationen&quot;.
+Weitere Informationen finden Sie unter „Erstellen und Verwalten von Agile-Iterationen“.
 
-## Versand eines zugestellten Berichts im XLSX-Format {#send-a-delivered-report-in-xlsx-format}
+## Gesendeten Bericht im XLSX-Format senden {#send-a-delivered-report-in-xlsx-format}
 
-Jetzt können Sie die Bereitstellung eines Berichts im MS Excel-Format (.xlsx) planen, zusätzlich zu allen anderen aktuellen Formaten.
+Zusätzlich zu allen anderen aktuellen Formaten können Sie jetzt die Bereitstellung eines Berichts im MS Excel-Format (.xlsx) planen.
 
 Zuvor konnten Sie einen Bericht nur in den folgenden Formaten bereitstellen:
 
@@ -124,33 +124,33 @@ MS Excel (.xls)
 
 TSV
 
-Informationen zur Planung von Berichten für die Bereitstellung finden Sie unter &quot;Einrichten von Berichtbereitstellungen&quot;.
+Informationen zum Planen von Berichten für den Versand finden Sie unter „Einrichten von Berichtsendungen“.
 
-## Verbesserungen der Aufgabenliste {#task-list-improvements}
+## Verbesserungen bei der Aufgabenliste {#task-list-improvements}
 
-[Aktualisieren Sie 18.3 Beta 4, wobei dies aus ] entfernt wurde.
+[Update 18.3 Beta 4, aus dem dieses entfernt wurde]
 
-Die neu entworfenen Aufgabenlisten wurden nach einer kurzen Entfernung während der Beta-Version 18.3 von neu aktiviert. Wir haben außerdem die folgenden zusätzlichen Funktionen zu den Aufgabenlisten hinzugefügt, die nicht Teil der ursprünglichen Version waren:
+Die neu entworfenen Aufgabenlisten wurden nach einer kurzen Entfernung während der Beta-4-Version 18.3 neu aktiviert. Wir haben außerdem die folgenden zusätzlichen Funktionen in die Aufgabenlisten eingefügt, die nicht Teil der ursprünglichen Version waren:
 
-Ersetzen des Kontextmenüs durch ein Mehr -Symbol beim Inline-Bearbeiten einer Aufgabe.
+Ersetzen des Kontextmenüs durch ein Mehr-Symbol, wenn eine Aufgabe inline bearbeitet wird.
 
-Die Optionen, die beim Inline-Bearbeiten mehrerer Aufgaben im Kontextmenü verfügbar waren, wurden jetzt in die Symbole oben in der Aufgabenliste verschoben.
+Die Optionen, die bei der Inline-Bearbeitung mehrerer Aufgaben im Kontextmenü verfügbar waren, wurden nun in die Symbole verschoben, die oben in der Aufgabenliste angezeigt werden.
 
-Standardmäßig werden in Aufgabenlisten 2000 Aufgaben angezeigt.
+Standardmäßig werden in Aufgabenlisten 2.000 Aufgaben angezeigt.
 
-Wenn Workfront die Zeitpläne neu berechnet, wurden die Fragezeichen neben den Aufgaben, deren Daten aktualisiert werden, durch graue Bereiche ersetzt.
+Wenn Workfront die Zeitleisten neu berechnet, werden die Fragezeichen neben den Aufgaben, deren Daten aktualisiert werden, durch Grauzonen ersetzt.
 
-Weitere Informationen zum Inline-Bearbeiten von Aufgaben finden Sie unter &quot;Kopieren und Duplizieren von Aufgaben&quot;und unter &quot;Erstellen von Vorgängerbeziehungen durch Verketten von Aufgaben&quot;.
+Informationen zur Inline-Bearbeitung von Aufgaben finden Sie unter „Aufgaben kopieren und duplizieren“ und „Vorgängerbeziehungen durch Verketten von Aufgaben erstellen“.
 
-Weitere Informationen zur Neuberechnung von Projektzeitplänen finden Sie unter &quot;Neuberechnung von Zeitplänen für Projekte&quot;.
+Informationen zur Neuberechnung der Projektzeitleisten finden Sie unter „Neuberechnen der Zeitleisten für Projekte“.
 
-## Anzeigen von Listen im Vollbildmodus {#display-lists-in-full-screen}
+## Listen im Vollbildmodus anzeigen {#display-lists-in-full-screen}
 
-Wenn eine Liste von Projekten oder Aufgaben größer ist als die Größe Ihres Bildschirms, wird die Liste beim Bildlauf automatisch im gesamten Browserfenster angezeigt. Dadurch erhöht sich die Anzahl an Informationen, die Sie gleichzeitig sehen, und Sie können Listen einfacher verwalten.
+Wenn eine Liste von Projekten oder Aufgaben größer ist als der Bildschirm, wird die Liste jetzt beim Scrollen automatisch im gesamten Browserfenster angezeigt. Dies erhöht die Menge der gleichzeitig angezeigten Informationen und ermöglicht Ihnen die Verwaltung von Listen.
 
-Sie können die folgenden Listen im Vollbildmodus anzeigen:
+Die folgenden Listen können im Vollbildmodus angezeigt werden:
 
-Eine Liste der Projekte in den folgenden Registerkarten und Unterregisterkarten:
+Eine Liste von Projekten auf den folgenden Registerkarten und Unterregisterkarten:
 
 Projekte, an denen ich mitwirke
 
@@ -158,43 +158,43 @@ Projekte in meinem Besitz
 
 Alle Projekte
 
-Registerkarte &quot;Projekte&quot;in einem Portfolio
+Registerkarte „Projekte“ in einem Portfolio
 
-Registerkarte &quot;Projekte&quot;im Programm
+Registerkarte „Projekte“ in einem Programm
 
-Eine Liste der Aufgaben in den folgenden Registerkarten:
+Liste der Aufgaben auf den folgenden Registerkarten:
 
-Registerkarte &quot;Aufgaben&quot;in einem Projekt
+Registerkarte „Aufgaben“ in einem Projekt
 
-Registerkarte &quot;Unteraufgaben&quot;in einer Aufgabe
+Registerkarte „Teilaufgaben“ in einer Aufgabe
 
-Informationen zum Anzeigen von Objekten in Listen finden Sie unter &quot;Anzeigen von Elementen in einer Liste&quot;.
+Informationen zum Anzeigen von Objekten in Listen finden Sie unter „Elemente in einer Liste anzeigen“.
 
 ## Neue Listen in zusätzlichen Bereichen {#new-lists-in-additional-areas}
 
-Wir haben die Leistung verbessert und das Erscheinungsbild des Projekts und der Aufgabenlisten in den folgenden Bereichen verbessert:
+Wir haben die Leistung verbessert und das Erscheinungsbild der Projekt- und Aufgabenlisten in den folgenden Bereichen verbessert:
 
-Registerkarte &quot;Portfolios und Programme&quot;im Bereich &quot;Projekte&quot;
+Registerkarten &quot;Portfolio&quot; und „Programme“ im Bereich „Projekte“
 
-Registerkarte &quot;Unteraufgaben&quot;auf Aufgabenebene
+Registerkarte „Teilaufgaben“ auf Aufgabenebene
 
 Vor dieser Verbesserung waren die neuen Listen nur in den folgenden Bereichen verfügbar:
 
-Registerkarte &quot;Projekte&quot;im Projektbereich
+Registerkarte Projekte im Bereich Projekte
 
-Registerkarte &quot;Aufgaben&quot;auf Projektebene
+Registerkarte „Aufgaben“ auf Projektebene
 
-Informationen zum Anzeigen von Objekten in Listen finden Sie unter &quot;Anzeigen von Elementen in einer Liste&quot;.
+Informationen zum Anzeigen von Objekten in Listen finden Sie unter „Elemente in einer Liste anzeigen“.
 
-## Anzeigen von Aufgabeninformationen im Gantt-Diagramm für die Projektliste in einem Programm oder Portfolio {#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio}
+## Aufgabeninformationen in einem Programm oder Portfolio im Gantt-Diagramm der Projektliste anzeigen {#view-task-information-in-the-project-list-gantt-chart-in-a-program-or-portfolio}
 
-Sie können jetzt Informationen zu den Aufgaben eines Projekts im Gantt-Diagramm für die Projektliste in einem Programm oder Portfolio anzeigen.
+Sie können jetzt Informationen zu den Aufgaben eines Projekts in der Projektliste im Gantt-Diagramm innerhalb eines Programms oder Portfolios anzeigen.
 
-Zuvor konnten Sie Informationen zu Aufgaben nur im Gantt-Diagramm für die Projektliste auf der Registerkarte Projekte anzeigen.
+Zuvor konnten Sie Informationen zu Aufgaben nur im Gantt-Diagramm der Projektliste auf der Registerkarte Projekte anzeigen.
 
-Weitere Informationen finden Sie unter &quot;Anzeigen von Informationen im Gantt-Diagramm&quot;.
+Weitere Informationen finden Sie unter „Anzeigen von Informationen im Gantt-Diagramm“.
 
-## Was-wenn-Szenarios im Gantt-Diagramm für Aufgabenliste {#what-if-scenarios-in-the-task-list-gantt-chart}
+## Was-wäre-wenn-Szenarien im Gantt-Diagramm der Aufgabenliste {#what-if-scenarios-in-the-task-list-gantt-chart}
 
 Sie können jetzt die folgenden Aktionen für die Aufgaben in einem Projekt ausführen, wenn sie im Bearbeitungsmodus des Gantt-Diagramms angezeigt werden:
 
@@ -202,52 +202,52 @@ Sie können jetzt die folgenden Aktionen für die Aufgaben in einem Projekt ausf
 
 Aufgaben entfernen
 
-Inline-Bearbeitungsaufgaben
+Aufgaben inline bearbeiten
 
 Aufgaben duplizieren
 
 Aufgaben neu anordnen
 
-Unteraufgaben ändern
+Teilaufgaben ändern
 
-Sie können zwar sehen, wie sich Ihre Änderungen auf die Timeline des Projekts auswirken, sie werden jedoch nicht sofort gespeichert. Sie können sie speichern, um die Projekt-Timeline dauerhaft zu aktualisieren, oder Sie können sie abbrechen.
+Obwohl Sie sehen können, wie sich Ihre Änderungen auf die Zeitleiste des Projekts auswirken, werden sie nicht sofort gespeichert. Sie können sie speichern, um die Zeitleiste des Projekts dauerhaft zu aktualisieren, oder sie abbrechen.
 
-Zuvor war es nicht möglich, eine Vorschau der Aufgabenlistenänderungen im Gantt-Diagramm anzuzeigen.
+Zuvor konnten Sie keine Aufgabenlistenänderungen im Gantt-Diagramm in der Vorschau anzeigen.
 
-Informationen zu Bearbeitungsaufgaben im Gantt-Diagramm finden Sie unter &quot;Aktualisieren von Informationen im Gantt-Diagramm für Aufgabenlisten&quot;.
+Informationen zum Bearbeiten von Aufgaben im Gantt-Diagramm finden Sie unter „Aktualisieren von Informationen im Gantt-Diagramm der Aufgabenliste“.
 
-## Gantt-Diagramm für Aufgabenlisten in Vorlagen aufrufen {#access-the-task-list-gantt-chart-on-templates}
+## Zugriff auf das Gantt-Diagramm der Aufgabenliste in Vorlagen {#access-the-task-list-gantt-chart-on-templates}
 
-Sie können jetzt auf das Gantt-Diagramm für Aufgabenlisten in einer Projektvorlage zugreifen.
+Sie können jetzt in einer Projektvorlage auf das Gantt-Diagramm für die Aufgabenliste zugreifen.
 
-Zuvor war es nicht möglich, das Gantt-Diagramm in der Aufgabenliste in einer Vorlage anzuzeigen.
+Zuvor konnten Sie das Gantt-Diagramm nicht in der Aufgabenliste innerhalb einer Vorlage anzeigen.
 
-Weitere Informationen finden Sie unter &quot;Erste Schritte mit dem Gantt-Diagramm&quot;.
+Weitere Informationen finden Sie unter Erste Schritte mit dem Gantt-Diagramm .
 
-## Neue Papiergrößen für den Export von Gantt-Diagrammen {#new-paper-sizes-for-gantt-chart-export}
+## Neue Papierformate für den Export von Gantt-Diagrammen {#new-paper-sizes-for-gantt-chart-export}
 
-Jetzt können Sie die Gantt-Grafik in Papiergrößen A1 und A2 drucken.
+Sie können jetzt das Gantt-Diagramm auf Papierformaten A1 und A2 drucken.
 
 Zuvor konnten Sie nur nach Brief, Legal, Ledger, A3 (nur für einige Sprachen verfügbar) und A4 exportieren.
 
-Weitere Informationen finden Sie unter &quot;Exportieren des Gantt-Diagramms zu PDF&quot;.
+Weitere Informationen finden Sie unter „Exportieren des Gantt-Diagramms nach PDF&quot;.
 
-## Die Projektansicht im Gantt-Diagramm wurde umbenannt. {#renamed-the-project-view-on-the-gantt-chart}
+## Projektansicht im Gantt-Diagramm umbenannt {#renamed-the-project-view-on-the-gantt-chart}
 
-Wir haben die Option &quot;Projekt&quot;-Ansicht im Gantt-Diagramm in &quot;Alle anpassen&quot;umbenannt. Die Ansichtsoption funktioniert weiterhin wie zuvor. Der neue Name soll beschreibender darüber sein, was Sie bei Auswahl der Option anzeigen.
+Die Ansichtsoption „Projekt“ im Gantt-Diagramm wurde in „Fit All“ umbenannt. Die Ansichtsoption funktioniert weiterhin wie zuvor. Der neue Name soll beschreibender sein, was Sie sehen, wenn die Option ausgewählt ist.
 
-Weitere Informationen finden Sie unter &quot;Anzeigen von Informationen im Gantt-Diagramm&quot;.
+Weitere Informationen finden Sie unter „Anzeigen von Informationen im Gantt-Diagramm“.
 
-## Der Zugriff auf Dialogfelder im Gantt-Diagramm während des Bearbeitungsmodus wurde entfernt. {#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode}
+## Der Zugriff auf Dialogfelder im Gantt-Diagramm wurde im Bearbeitungsmodus entfernt {#removed-access-to-dialog-boxes-in-the-gantt-chart-while-in-edit-mode}
 
-Sie können nicht mehr auf das Dialogfeld Erweiterte Zuweisungen zugreifen, während sich das Gantt-Diagramm im Bearbeitungsmodus befindet. Sie können nur Inline-Änderungen vornehmen, während sich das Gantt-Diagramm für die Aufgabenliste im Bearbeitungsmodus befindet.
+Sie können nicht mehr auf das Dialogfeld Erweiterte Zuweisungen zugreifen, während sich das Gantt-Diagramm im Bearbeitungsmodus befindet. Sie können nur Inline-Bearbeitungen vornehmen, während sich die Aufgabenliste Gantt-Diagramm im Bearbeitungsmodus befindet.
 
-Zuvor konnten Sie auf das Dialogfeld Erweiterte Zuweisungen zugreifen, während sich das Gantt-Diagramm im Bearbeitungsmodus befand, es jedoch die im Gantt-Diagramm vorgenommenen Änderungen speicherte und den Bearbeitungsmodus beendete.
+Zuvor konnten Sie auf das Dialogfeld Erweiterte Zuweisungen zugreifen, während sich das Gantt-Diagramm im Bearbeitungsmodus befand. Die im Gantt-Diagramm und im geschlossenen Bearbeitungsmodus vorgenommenen Änderungen wurden jedoch gespeichert.
 
-Weitere Informationen zum Bearbeiten des Gantt-Diagramms &quot;Aufgabenliste&quot;finden Sie unter &quot;Aktualisieren von Informationen im Gantt-Diagramm für Aufgabenliste&quot;.
+Weitere Informationen zum Bearbeiten des Aufgabenlisten-Gantt-Diagramms finden Sie unter „Aktualisieren von Informationen im Aufgabenlisten-Gantt-Diagramm“.
 
-## Audit-Protokolle exportieren {#export-audit-logs}
+## Auditprotokolle exportieren {#export-audit-logs}
 
-Sie können nun Auditprotokolleinträge in eine CSV-Datei exportieren. Sie können bis zu 50.000 Auditprotokolleinträge gleichzeitig in eine CSV-Datei exportieren.
+Auditprotokolleinträge können jetzt in eine CSV-Datei exportiert werden. Sie können bis zu 50.000 Auditprotokolleinträge gleichzeitig in eine CSV-Datei exportieren.
 
-Weitere Informationen finden Sie unter &quot;Verwalten von Auditprotokollen&quot;.
+Weitere Informationen finden Sie unter „Verwalten von Auditprotokollen“.

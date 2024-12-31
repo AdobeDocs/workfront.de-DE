@@ -2,7 +2,7 @@
 content-type: overview
 product-area: reporting
 navigation-topic: reporting-elements
-title: Gruppierungsübersicht in Adobe Workfront
+title: Übersicht über Gruppierungen in Adobe Workfront
 description: Sie können Gruppierungen hinzufügen, um das Layout der Informationen in Ihren Berichten und Listen zu verwalten.
 author: Nolan
 feature: Reports and Dashboards
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Gruppierungsübersicht in Adobe Workfront
+# Übersicht über Gruppierungen in Adobe Workfront
 
 <!-- Audited: 11/2024 -->
 
@@ -22,65 +22,65 @@ ht-degree: 0%
 
 Sie können Gruppierungen hinzufügen, um das Layout der Informationen in Ihren Berichten und Listen zu verwalten.
 
-Es gibt folgende Möglichkeiten, Berichte mit Gruppierungen zu versehen:
+Sie können wie folgt Gruppierungen zu Berichten hinzufügen:
 
-* Gruppierungen lassen sich durch die Bearbeitung vorhandener Gruppierungen erstellen.
+* Sie können Gruppierungen erstellen, indem Sie vorhandene Gruppierungen bearbeiten.
 
-  Informationen zum Anpassen einer vorhandenen Gruppierung finden Sie unter [Vorhandene Gruppierungen bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md).
+  Informationen zum Anpassen einer vorhandenen Gruppierung finden Sie unter [Bearbeiten vorhandener Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md).
 
-* Sie können Gruppierungen von Grund auf neu erstellen.
+* Sie können Gruppierungen von Grund auf erstellen.
 
-  Informationen zum Erstellen einer neuen Gruppierung finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+  Informationen zum Erstellen einer neuen Gruppierung finden Sie unter [Gruppierungen in Adobe Workfront erstellen](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
 
-Standardmäßig werden Gruppierungen in einem grau hervorgehobenen Bericht oder einer Liste angezeigt. Die Ergebnisse des Berichts bzw. der Liste werden ohne Hervorhebung in ihrer individuellen Gruppierung aufgelistet.
+Gruppierungen werden in Ihrem Bericht oder Ihrer Liste standardmäßig mit einer grauen Hervorhebung angezeigt. Die Ergebnisse des Berichts oder der Liste werden unter ihrer jeweiligen Gruppierung ohne Hervorhebung aufgelistet.
 
 ![Gruppierungsbeispiel](assets/grouping-example-blue.png)
 
-Sie können einem Bericht bis zu drei Gruppierungen hinzufügen. Sie können Ihre Informationen mit bis zu vier Gruppierungen organisieren, indem Sie einen Matrix-Bericht erstellen. Weitere Informationen zu Matrix-Berichten finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+Sie können einem Bericht bis zu drei Gruppierungen hinzufügen. Sie können Ihre Informationen mit bis zu vier Gruppierungen organisieren, indem Sie einen Matrixbericht erstellen. Weitere Informationen zu Matrixberichten finden Sie unter [Erstellen eines Matrixberichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-Die Zahl in Klammern hinter dem Gruppierungsnamen stellt die Anzahl der Ergebnisse unter dieser Gruppierung dar. Wenn Ihr Bericht mehrere Seiten umfasst, stellen Sie sicher, dass Sie die Ergebnisse im Bericht oder in der Liste mit &quot;*Alle*&quot; anzeigen, um unter jeder Gruppierung eine genaue Anzahl Ihrer Ergebnisse zu erhalten.
+Die Zahl in Klammern nach dem Namen der Gruppierung gibt die Anzahl der Ergebnisse unter dieser Gruppierung an. Wenn Ihr Bericht mehrere Seiten umfasst, stellen Sie sicher, dass Sie *Alle* Ergebnisse im Bericht oder in der Liste anzeigen, um eine genaue Anzahl für Ihre Ergebnisse unter jeder Gruppierung zu erhalten.
 
 Beachten Sie beim Arbeiten mit Gruppierungen Folgendes:
 
-* Sie können die Informationen in bestehenden Gruppierungen anpassen. Alle Benutzer, die die Gruppierungen anzeigen können, können Ihre Änderungen ebenfalls sehen.
-* Ihr Workfront-Administrator muss Ihnen Zugriff auf die Optionen Filter, Ansichten und Gruppierungen bearbeiten gewähren, um Gruppierungen erstellen zu können.
+* Sie können die Informationen in vorhandenen Gruppierungen anpassen. Alle Benutzer, die die Gruppierungen anzeigen können, können auch Ihre Änderungen sehen.
+* Ihr Workfront-Administrator muss Ihnen Zugriff auf das Bearbeiten von Filtern, Ansichten und Gruppierungen gewähren, um Gruppierungen zu erstellen.
 
   Informationen zum Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen finden Sie unter [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md).
 
-* Ihre Berechtigungen für eine Gruppierung bestimmen, wie eine Gruppierung gespeichert wird. Wenn Sie die Gruppierung ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine Version der Gruppierung zu speichern. Wenn Sie Änderungen an einer Gruppierung vornehmen, die Sie für andere freigegeben haben, wirkt sich dies auch auf diese aus.
-* Sie können eine Gruppierung anpassen, die nur dann für Sie freigegeben wurde, wenn Ihnen der Benutzer, der sie freigegeben hat, Zugriff auf Verwalten gewährt hat. Informationen zum Freigeben einer Gruppierung finden Sie unter [Freigeben eines Filters, einer Ansicht oder einer Gruppierung](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
-* Eine inline-Gruppierung kann nicht bearbeitet werden.
-* Sie können keine Gruppierung nach benutzerdefinierten Feldern mit Mehrfachauswahl (z. B. Kontrollkästchen) oder nach Feldern vornehmen, die mehrere Werte aufweisen können (z. B. Resource Manager).
+* Die Berechtigungsstufe einer Gruppierung bestimmt, wie eine Gruppierung gespeichert wird. Wenn Sie die Gruppierung ursprünglich erstellt haben, können Sie die Änderungen speichern. Andernfalls werden Sie aufgefordert, eine Version der Gruppierung zu speichern. Wenn Sie Änderungen an einer Gruppierung vornehmen, die Sie für andere freigegeben haben, wirkt sich dies auch auf sie aus.
+* Sie können eine Gruppierung, die für Sie freigegeben wurde, nur dann anpassen, wenn Ihnen der Benutzer, der sie freigegeben hat, Zugriff verwalten gewährt hat. Informationen zur Freigabe einer Gruppierung finden Sie unter [Freigeben eines Filters, einer Ansicht oder einer Gruppierung](../../../reports-and-dashboards/reports/reporting-elements/share-filter-view-grouping.md).
+* Eine Gruppierung kann nicht inline bearbeitet werden.
+* Sie können nicht nach benutzerdefinierten Feldern mit Mehrfachauswahl (z. B. Kontrollkästchen) oder nach Feldern gruppieren, die mehrere Werte haben können (z. B. Ressourcen-Manager).
 
 ## Zusätzliche Informationen zu Gruppierungen
 
-Bei der Verwendung von Gruppierungen können Sie die Berichtinformationen weiter verwalten, indem Sie die Werte in den einzelnen Spalten der Gruppierungszeile aggregieren und Ihre Daten nach dem Feld Ihrer Gruppierung sortieren. Sie können eine Gruppierung auch entfernen, wenn sie nicht mehr benötigt wird.
+Sie können Berichtsinformationen bei der Verwendung von Gruppierungen weiter verwalten, indem Sie die Werte in den einzelnen Spalten der Gruppierungszeile aggregieren und Ihre Informationen nach dem Feld Ihrer Gruppierung sortieren. Sie können eine Gruppierung auch entfernen, wenn sie nicht mehr benötigt wird.
 
 * [Aggregierte Werte in Gruppierungen](#aggregate-values-in-groupings)
-* [Sortieren nach einer Gruppierung](#sort-by-a-grouping)
+* [Nach Gruppierung sortieren](#sort-by-a-grouping)
 * [Gruppierung entfernen](#remove-a-grouping)
 
 ### Aggregierte Werte in Gruppierungen {#aggregate-values-in-groupings}
 
-Sie können die in Ihrem Bericht angezeigten Daten in Ihrer Gruppierungszeile aggregieren, indem Sie die Werte in den einzelnen Spalten des Berichts zusammenfassen. Weitere Informationen zur Zusammenfassung von Spaltendaten in einer Gruppierung finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Sie können die im Bericht angezeigten Daten in Ihrer Gruppierungszeile aggregieren, indem Sie die Werte in den einzelnen Spalten des Berichts zusammenfassen. Weitere Informationen über die Zusammenfassung von Spaltendaten in einer Gruppierung finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 >[!NOTE]
 >
 >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
 >
->* Alle Zahlungs- und Währungsfelder außer &quot;Tatsächliche Stunden&quot;(z. B. geplante/tatsächliche Arbeitskosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante/tatsächliche Kosten, Geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Elemente der übergeordneten Aufgaben.
->* Die tatsächlichen Stunden aggregieren die Werte für die Hauptaufgaben und Einzelaufgaben; sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
->* Benutzerdefinierte Datenfelder für Zahlungs- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern und eigenständige Aufgaben.
+>* Alle Zahlen- und Währungsfelder mit Ausnahme der tatsächlichen Stunden (z. B. geplante/Ist-Arbeitskosten, geplante/Ist-Ausgaben-Kosten, geplante/Ist-Kosten, geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Aufgaben.
+>* Tatsächliche Stunden aggregieren die Werte für die übergeordnete Hauptaufgabe und die eigenständigen Aufgaben. Sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
+>* Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben.
 
 ### Nach Gruppierung sortieren {#sort-by-a-grouping}
 
-Gruppierungen können nicht sortiert werden. Ansichten können sortiert werden. Um eine Liste nach dem in der Gruppierung erfassten Wert zu sortieren, müssen Sie denselben Wert in eine der Spalten der Ansicht einfügen und die Sortierung in der Ansicht anwenden. Auf diese Weise sortiert die Liste indirekt nach dem Wert in der Gruppierung (sie sortiert nach dem Wert in der Ansicht, der auch in der Gruppierung erfasst wird). Weitere Informationen zum Erstellen von Ansichten und Sortieren nach Werten in den Ansichten finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+Gruppierungen können nicht sortiert werden. Ansichten können sortiert werden. Um eine Liste nach dem in der Gruppierung erfassten Wert zu sortieren, müssen Sie denselben Wert in eine der Spalten der Ansicht aufnehmen und die Sortierung in der Ansicht anwenden. Auf diese Weise sortiert die Liste indirekt nach dem Wert in der Gruppierung (sie sortiert nach dem Wert in der Ansicht, der auch in der Gruppierung erfasst wird). Weitere Informationen zum Erstellen von Ansichten und Sortieren nach Werten in den Ansichten finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
 ### Gruppierung entfernen {#remove-a-grouping}
 
-Wie Sie eine Gruppierung entfernen, hängt davon ab, ob Sie die Gruppierung ursprünglich erstellt haben oder ob die Gruppierung für Sie freigegeben wurde. Eine Standardgruppierung kann nicht entfernt werden.
+Wie Sie eine Gruppierung entfernen, hängt davon ab, ob Sie die Gruppierung ursprünglich erstellt haben oder ob die Gruppierung für Sie freigegeben wurde. Standardgruppierung kann nicht entfernt werden.
 
-* **Wenn Sie die Gruppierung erstellt und entfernt haben**, wird die Gruppierung aus dem Workfront-System entfernt. Die Gruppierung steht Benutzern, für die Sie sie zuvor freigegeben haben, nicht mehr zur Verfügung.
-* **Wenn die Gruppierung für Sie freigegeben wurde und Sie sie entfernen**, wird die Gruppierung nur für Sie entfernt. Der Benutzer, der die Gruppe ursprünglich erstellt hat, und alle anderen Benutzer, für die sie freigegeben wurde, haben weiterhin Zugriff auf die Gruppierung.
+* **Wenn Sie die Gruppierung erstellt und entfernt haben** wird die Gruppierung aus dem Workfront-System entfernt. Die Gruppierung steht Benutzern, für die Sie sie zuvor freigegeben haben, nicht mehr zur Verfügung.
+* **Wenn die Gruppierung für Sie freigegeben wurde und Sie sie entfernen** wird die Gruppierung nur für Sie entfernt. Der Benutzer, der sie ursprünglich erstellt hat, und alle anderen Benutzer, für die sie freigegeben wurde, haben weiterhin Zugriff auf die Gruppierung.
 
-Informationen zum Entfernen einer Gruppierung finden Sie im Artikel [Filter, Ansichten und Gruppierungen entfernen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+Informationen zum Entfernen einer Gruppierung finden Sie im Artikel [Entfernen von Filtern, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).

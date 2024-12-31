@@ -17,6 +17,6 @@ ht-degree: 23%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Überblick](../../proofhq-api/general/overview.md)
+* [Übersicht](../../proofhq-api/general/overview.md)
 <!--* [Code Samples](../../proofhq-api/general/code-samples.md) -->
-* [Häufig gestellte Fragen zu SOAP API](../../proofhq-api/general/soap-api-faqs.md)
+* [Häufig gestellte Fragen zur SOAP-API](../../proofhq-api/general/soap-api-faqs.md)

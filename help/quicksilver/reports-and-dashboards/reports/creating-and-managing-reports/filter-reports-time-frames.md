@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Berichte nach Zeitrahmen filtern
-description: Sie können einen Bericht nach dem Zeitrahmen eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitrahmen filtern, in dem die Stunden eingegeben wurden.
+description: Sie können einen Bericht nach dem Zeitrahmen eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitraum filtern, in dem die Stunden eingegeben wurden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
@@ -17,11 +17,11 @@ ht-degree: 5%
 
 <!-- Audited: 11/2024 -->
 
-Sie können einen Bericht nach dem Zeitrahmen eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitrahmen filtern, in dem die Stunden eingegeben wurden.
+Sie können einen Bericht nach dem Zeitrahmen eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitraum filtern, in dem die Stunden eingegeben wurden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -48,38 +48,38 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p></td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Der Bericht muss erstellt werden, bevor die Ergebnisse gefiltert werden.
+Der Bericht muss erstellt werden, bevor Sie seine Ergebnisse filtern.
 
 Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Bericht nach Zeitrahmen eines Datums filtern {#filter-a-report-by-the-time-frame-of-a-date}
+## Filtern eines Berichts nach dem Zeitrahmen eines Datums {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Klicken Sie auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Berichterstellung**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Reporting**.
 
-1. Klicken Sie auf **Neuer Bericht** und wählen Sie dann den gewünschten Berichtstyp aus.\
-   Wählen Sie beispielsweise **Stündlicher Bericht** aus.
+1. Klicken Sie **Neuer Bericht** und wählen Sie dann den gewünschten Berichtstyp aus.\
+   Wählen Sie beispielsweise **Stundenbericht**.
 
-1. Wählen Sie die Registerkarte **Filter** aus.
-1. Klicken Sie auf **Filterregel hinzufügen** und wählen Sie dann **Stündliches Einstiegsdatum** aus.\
+1. Wählen Sie die **Filter** aus.
+1. Klicken Sie **Filterregel hinzufügen** und wählen Sie dann **Stundeneintragsdatum** aus.\
    ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
-1. Wählen Sie im folgenden Dropdownmenü eine der folgenden Optionen aus:
+1. Wählen Sie im folgenden Dropdown-Menü eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -87,35 +87,35 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
     <tbody> 
      <tr> 
       <td role="rowheader">Gleich</td> 
-      <td>Geben Sie nach Auswahl dieses Modifikators das Datum an, an dem die Stunden eingegeben wurden.</td> 
+      <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie das Datum an, an dem die Stunden eingegeben wurden.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ungleich</td> 
-      <td>Geben Sie nach Auswahl dieses Modifikators das Datum an, an dem die Stunden eingegeben wurden, um dieses Datum aus Ihrem Bericht auszuschließen. Der Bericht zeigt Stunden, die in allen Daten angemeldet sind, erwartet für das von Ihnen angegebene Datum.</td> 
+      <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie das Datum an, an dem die Stunden eingegeben wurden, um dieses Datum aus Ihrem Bericht auszuschließen. Der Bericht zeigt die in allen Datumsangaben protokollierten Stunden an. Erwarten Sie für das angegebene Datum.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Null</td> 
-      <td>Wählen Sie diesen Modifikator aus, um nur Stunden anzuzeigen, in denen das Einstiegsdatum fehlt.</td> 
+      <td>Wählen Sie diesen Modifikator, um nur Stunden anzuzeigen, in denen das Eingabedatum fehlt.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Nicht Null</td> 
-      <td>Wählen Sie diesen Modifikator aus, um nur Stunden anzuzeigen, in denen das Entrypdatum einen Wert aufweist.</td> 
+      <td>Wählen Sie diesen Modifikator, um nur Stunden anzuzeigen, für die das Eingabedatum einen Wert aufweist.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Zwischen</td> 
-      <td>Geben Sie nach Auswahl dieses Modifikators einen Datumsbereich an, in dem die Stunden eingegeben wurden. Der Bericht zeigt die Stunden an, die zwischen den angegebenen Daten eingegeben wurden.</td> 
+      <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie einen Datumsbereich an, in dem die Stunden eingegeben wurden. Der Bericht zeigt die Stunden an, die zwischen den angegebenen Daten eingegeben wurden.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kleiner als</td> 
-      <td>Geben Sie nach Auswahl dieses Modifikators ein Datum an, vor dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die vor dem angegebenen Datum eingegeben wurden, ohne das angegebene Datum einzuschließen.</td> 
+      <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie ein Datum an, vor dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die vor dem angegebenen Datum eingegeben wurden, ohne das angegebene Datum einzubeziehen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Kleiner gleich</td> 
-      <td>Geben Sie nach Auswahl dieses Modifikators ein Datum an, vor dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die vor dem angegebenen Datum eingegeben wurden, einschließlich des angegebenen Datums.</td> 
+      <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie ein Datum an, vor dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die vor dem angegebenen Datum eingegeben wurden, einschließlich des angegebenen Datums.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Größer als</td> 
-      <td>Geben Sie nach Auswahl dieses Modifikators ein Datum an, nach dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die nach dem angegebenen Datum eingegeben wurden, ohne das angegebene Datum einzuschließen.</td> 
+      <td>Geben Sie nach Auswahl dieses Modifikators ein Datum an, nach dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die nach dem angegebenen Datum eingegeben wurden, ohne das angegebene Datum einzubeziehen.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Größer gleich</td> 
@@ -124,18 +124,18 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
     </tbody> 
    </table>
 
-1. Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder für eine Eingabeaufforderung in einem beliebigen Bericht zur Verfügung.
+1. Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder eine Eingabeaufforderung in jedem Bericht zur Verfügung.
 1. Klicken Sie auf **Speichern + schließen**.
 
 ## Integrierte Zeitrahmen-Modifikatoren {#built-in-time-frame-modifiers}
 
-Adobe Workfront verfügt über integrierte Zeitrahmen-Modifikatoren, die Sie verwenden können, ohne ein bestimmtes Datum zu definieren. 
+Adobe Workfront verfügt über integrierte Zeitrahmen-Modifikatoren, die Sie ohne Definition eines bestimmten Datums verwenden können. 
 
-Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder für eine Eingabeaufforderung in einem beliebigen Bericht zur Verfügung. 
+Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder eine Eingabeaufforderung in jedem Bericht zur Verfügung. 
 
-Weitere Informationen zum Filtern eines Berichts nach einem Zeitrahmen, der mit einem Datum verknüpft ist, finden Sie unter  [Filtern eines Berichts nach dem Zeitrahmen eines Datums](#filter-a-report-by-the-time-frame-of-a-date).
+Weitere Informationen zum Filtern eines Berichts nach einem mit einem Datum verknüpften Zeitrahmen finden Sie unter  [Filtern eines Berichts nach dem Zeitrahmen eines Datums](#filter-a-report-by-the-time-frame-of-a-date).
 
-Wenn Sie beispielsweise einen Stundenbericht erstellen und in einem bestimmten Zeitrahmen eingegebene Stunden anzeigen möchten, können Sie aus den folgenden integrierten Filter für Zeitrahmen wählen:
+Wenn Sie beispielsweise einen Stundenbericht erstellen und Stunden anzeigen möchten, die in einem bestimmten Zeitrahmen eingegeben wurden, können Sie aus den folgenden integrierten Zeitrahmen-Filteroptionen wählen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -143,35 +143,35 @@ Wenn Sie beispielsweise einen Stundenbericht erstellen und in einem bestimmten Z
  <tbody> 
   <tr> 
    <td role="rowheader">Heute</td> 
-   <td>Zeigt Stunden an, in denen das Einstiegsdatum heute liegt.</td> 
+   <td>Zeigt Stunden an, in denen das Eingabedatum heute ist.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Diese Woche</td> 
-   <td>Zeigt Stunden an, in denen das Einstiegsdatum ein Datum in der aktuellen Woche ist, in dem die Woche an einem Sonntag beginnt und an einem Samstag endet.</td> 
+   <td>Zeigt Stunden an, in denen das Eingabedatum ein Datum in der aktuellen Woche ist, in der die Woche an einem Sonntag beginnt und an einem Samstag endet.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nächste Woche</td> 
-   <td>Zeigt Stunden an, in denen das Datum der Einsendung ein Datum in der Woche ist, die auf die aktuelle Woche folgt, wobei die Woche an einem Sonntag beginnt und an einem Samstag endet. </td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in der Woche ist, die auf die aktuelle Woche folgt, wobei die Woche an einem Sonntag beginnt und an einem Samstag endet. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Letzte Woche</td> 
-   <td>Zeigt Stunden an, in denen das Einstiegsdatum ein Datum in der Woche vor der aktuellen Woche ist, in dem die Woche an einem Sonntag beginnt und an einem Samstag endet. </td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in der Woche vor der aktuellen Woche ist, wobei die Woche an einem Sonntag beginnt und an einem Samstag endet. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Diesen Monat</td> 
-   <td>Zeigt Stunden an, in denen das Einstiegsdatum ein Datum im aktuellen Monat ist.</td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum im aktuellen Monat ist.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Nächsten Monat</td> 
-   <td>Zeigt Stunden an, in denen das Datum der Einsendung ein Datum im Monat ist, der auf den aktuellen Monat folgt.</td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum im Monat nach dem aktuellen Monat ist.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Letzter Monat</td> 
-   <td>Zeigt Stunden an, in denen das Einstiegsdatum ein Datum im Monat vor dem aktuellen Monat ist</td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum des Monats ist, der dem aktuellen Monat vorausgeht</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Dieses Quartal</td> 
-   <td> <p>Zeigt Stunden an, in denen das Einstiegsdatum ein Datum im aktuellen Quartal ist, wobei Quartale wie folgt definiert sind:</p> 
+   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum im aktuellen Quartal ist, wobei Quartale wie folgt definiert sind:</p> 
     <ul> 
      <li>Erstes Quartal: 1. Januar - 30. März</li> 
      <li>Zweites Quartal: 1. April - 30. Juni</li> 
@@ -181,23 +181,23 @@ Wenn Sie beispielsweise einen Stundenbericht erstellen und in einem bestimmten Z
   </tr> 
   <tr> 
    <td role="rowheader">Nächstes Quartal</td> 
-   <td>Zeigt Stunden an, in denen das Einstiegsdatum ein Datum im Quartal ist, das auf das aktuelle Quartal folgt, wobei Quartale oben definiert sind.</td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in dem Quartal ist, das auf das aktuelle Quartal folgt, in dem oben Quartale definiert sind.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Letztes Quartal</td> 
-   <td> <p>Zeigt Stunden an, in denen das Einstiegsdatum ein Datum im Quartal vor dem aktuellen Quartal ist, wobei Quartale oben definiert sind.</p> <p>Hinweis: Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale für Ihr System aktiviert und definiert hat, werden die integrierten Filter für Quartale durch Ihre benutzerdefinierten Quartalsinformationen ersetzt. Weitere Informationen zum Aktivieren benutzerdefinierter Quartale finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Benutzerdefinierte Quartale für Projekte aktivieren</a>.</p> </td> 
+   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum in dem Quartal ist, das dem aktuellen Quartal vorausgeht, in dem oben Quartale definiert sind.</p> <p>Hinweis: Wenn Ihr Workfront-Administrator benutzerdefinierte Quartale für Ihr System aktiviert und definiert hat, werden die integrierten Filter für Quartale durch Ihre benutzerdefinierten Quartalsinformationen ersetzt. Weitere Informationen zur Aktivierung benutzerdefinierter Quartale finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref">Benutzerdefinierte Quartale für Projekte aktivieren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Dieses Jahr</td> 
-   <td>Zeigt Stunden an, in denen das Entrypdatum ein Datum im aktuellen Jahr ist, in dem das aktuelle Jahr am 1. Januar beginnt und am 31. Dezember endet.</td> 
+   <td>Zeigt Stunden an, in denen das Eingabedatum ein Datum im aktuellen Jahr ist, in dem das aktuelle Jahr am 1. Januar beginnt und am 31. Dezember endet.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Vergangenes Jahr</td> 
-   <td>Zeigt Stunden an, in denen das Einstiegsdatum ein Datum im letzten Jahr ist, in dem das vergangene Jahr 12 Monate vor dem aktuellen Datum beginnt.</td> 
+   <td>Zeigt Stunden an, bei denen das Eingabedatum ein Datum im letzten Jahr ist, wobei das vergangene Jahr 12 Monate vor dem aktuellen Datum beginnt.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Letztes Jahr</td> 
-   <td> <p>Zeigt Stunden an, in denen das Datum der Einsendung ein Datum im letzten Jahr ist, in dem das letzte Jahr am 1. Januar beginnt und am 31. Dezember des Jahres endet, das dem aktuellen Jahr vorausgeht.</p> <p>Hinweis: Für das Geschäftsjahr gibt es keinen integrierten Zeitraum. Sie können einen Bericht erstellen und die Informationen anhand eines benutzerdefinierten Modifikators für den Datumsbereich des Geschäftsjahres nach Datum filtern, wie in Ihrer Organisation definiert. Wenn Sie einen Zeitraum für ein Geschäftsjahr vor Ort auswählen möchten, sollten Sie anstelle eines Filters eine Eingabeaufforderung verwenden. </p> </td> 
+   <td> <p>Zeigt Stunden an, bei denen das Eingabedatum ein Datum im letzten Jahr ist, wobei das letzte Jahr am 1. Januar beginnt und am 31. Dezember des Jahres endet, das dem aktuellen Jahr vorausgeht.</p> <p>Hinweis: Es gibt keinen integrierten Zeitraum für das Geschäftsjahr. Sie können einen Bericht erstellen und die Informationen mithilfe eines benutzerdefinierten Modifikators für den Datumsbereich des Geschäftsjahres filtern, wie er in Ihrer Organisation definiert ist. Wenn Sie einen Zeitrahmen für ein Geschäftsjahr vor Ort auswählen möchten, sollten Sie eine Eingabeaufforderung anstelle eines Filters verwenden. </p> </td> 
   </tr> 
  </tbody> 
 </table>

@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Tatsächliche Stunden über geplante Stunden in derselben Spalte einer Aufgabenansicht'
-description: In dieser Aufgabenansicht wird die tatsächlich aufgezeichnete Anzahl von Stunden für eine Aufgabe über die für jede Aufgabe geplanten Stunden hinweg angezeigt. Die Stundenvarianz zwischen der geplanten und der tatsächlichen Stunde wird ebenfalls in einer separaten Spalte angezeigt.
+description: In dieser Aufgabenansicht wird die tatsächliche Anzahl von Stunden, die für eine Aufgabe aufgezeichnet wurden, über die für jede Aufgabe geplanten Stunden angezeigt. Die Stundenabweichung zwischen den geplanten und den tatsächlichen Stunden wird ebenfalls in einer separaten Spalte angezeigt.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c1179283-dc2e-40d3-b8e0-4b1b79f83ad3
@@ -16,15 +16,15 @@ ht-degree: 0%
 
 # Ansicht: Tatsächliche Stunden über geplante Stunden in derselben Spalte einer Aufgabenansicht
 
-In dieser Aufgabenansicht wird die tatsächlich aufgezeichnete Anzahl von Stunden für eine Aufgabe über die für jede Aufgabe geplanten Stunden hinweg angezeigt. Die Stundenvarianz zwischen der geplanten und der tatsächlichen Stunde wird ebenfalls in einer separaten Spalte angezeigt.
+In dieser Aufgabenansicht wird die tatsächliche Anzahl von Stunden, die für eine Aufgabe aufgezeichnet wurden, über die für jede Aufgabe geplanten Stunden angezeigt. Die Stundenabweichung zwischen den geplanten und den tatsächlichen Stunden wird ebenfalls in einer separaten Spalte angezeigt.
 
-![IST_vs_scheduled_in_task_report.png](assets/actual-vs-planned-in-task-report-350x58.png)
+![ACTUAL_VS_PLANED_IN_TASK_REPORT.png](assets/actual-vs-planned-in-task-report-350x58.png)
 
 ## Zugriffsanforderungen
 
 <!--Audited: 10/2024-->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,45 +33,45 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Tatsächliche Stunden über geplante Stunden in einer Aufgabenansicht anzeigen
 
-So wenden Sie diese Ansicht an:
+Um diese Ansicht anzuwenden:
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
+1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
 1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In Textmodus wechseln**.
-1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Textmodus bearbeiten** .
-1. Entfernen Sie den Text, den Sie im Textfeld finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Bewegen Sie den Mauszeiger über den Textmodusbereich und klicken Sie auf **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld Textmodus und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.descriptionkey=name
@@ -116,4 +116,4 @@ So wenden Sie diese Ansicht an:
    column.3.valueformat=customNumberAsString
    ```
 
-1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
+1. Klicken Sie **Fertig** und dann **Ansicht speichern**.

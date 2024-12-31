@@ -2,8 +2,8 @@
 content-type: reference;overview
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: Ressourcenverwaltung - Überblick
-description: Ressourcenmanagement ermöglicht es Ressourcenmanagern, geschäftliche Entscheidungen zu treffen, die sicherstellen, dass die heute verfügbaren Mitarbeiter mit der höchsten Priorität in den Haushalt aufgenommen werden. Obwohl es auf der Ebene der Job-Rolle beginnen kann, befasst sich das Resource Management letztendlich mit Benutzern und deren unzureichender Nutzung oder Überbindung.
+title: Ressourcenverwaltung - Übersicht
+description: Ressourcenmanagement ermöglicht es Ressourcenmanagern, Geschäftsentscheidungen zu treffen, die sicherstellen, dass die einzelnen heute verfügbaren Arbeitskräfte für die Arbeit mit der höchsten Priorität budgetiert werden. Während es auf der Aufgabengebiet-Ebene beginnen kann, beschäftigt sich das Ressourcenmanagement letztendlich mit den Benutzern und deren unzureichender oder übermäßiger Nutzung.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 <!--Audited: 01/2024-->
 
-Ressourcenmanagement ermöglicht es Ressourcenmanagern, geschäftliche Entscheidungen zu treffen, die sicherstellen, dass die heute verfügbaren Mitarbeiter mit der höchsten Priorität in den Haushalt aufgenommen werden.
+Ressourcenmanagement ermöglicht es Ressourcenmanagern, Geschäftsentscheidungen zu treffen, die sicherstellen, dass die einzelnen heute verfügbaren Arbeitskräfte für die Arbeit mit der höchsten Priorität budgetiert werden.
 
-Obwohl es auf der Ebene der Auftragsrollen beginnen kann, befasst sich das Ressourcen-Management letztendlich mit Benutzern, deren Zuweisung zu tatsächlicher Arbeit und deren Unterauslastung oder Überbindung.
+Während es auf der Aufgabengebiet-Ebene beginnen kann, befasst sich das Ressourcenmanagement letztendlich mit den Benutzern, ihrer Zuweisung zur tatsächlichen Arbeit und ihrer Unterauslastung oder Überlastung.
 
 Dieser Abschnitt enthält die folgenden Artikel und Unterabschnitte:
 
 * [Erste Schritte mit der Ressourcenverwaltung](../../resource-mgmt/resource-mgmt-overview/get-started-resource-management.md)
 * [Ressourcenplanung: Artikelindex](/help/quicksilver/resource-mgmt/resource-planning/resource-planning-overview.md)
-* [Der Lastenausgleich: Artikelindex](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
+* [Der Workload Balancer: Artikelindex](/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md)
 * [Ressourcenauslastung](/help/quicksilver/resource-mgmt/resource-utilization/resource-utilization.md)
-* [Adobe Workfront-Szenario-Planer](/help/quicksilver/scenario-planner/scenario-planning.md)
+* [Adobe Workfront-Szenarioplaner](/help/quicksilver/scenario-planner/scenario-planning.md)
 
 
 

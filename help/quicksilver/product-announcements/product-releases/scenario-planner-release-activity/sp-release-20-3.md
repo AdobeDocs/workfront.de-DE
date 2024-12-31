@@ -3,8 +3,8 @@ product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
-title: Workfront-Szenario-Planer mit Version 20.3 - 14. August 2020
-description: Der Workfront-Szenario-Planer ist mit Version 20.3 nur für die Produktion verfügbar, wenn das neue Adobe Workfront-Erlebnis verfügbar ist.
+title: Workfront Scenario Planner mit der Version 20.3 - 14. August 2020
+description: Workfront Scenario Planner ist ab Version 20.3 nur noch mit dem neuen Adobe Workfront-Erlebnis verfügbar.
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 9f89b6d6-8ca7-4b03-a8fe-fddb4c0c750b
@@ -15,32 +15,32 @@ ht-degree: 0%
 
 ---
 
-# Workfront-Szenario-Planer mit Version 20.3 - 14. August 2020
+# Workfront Scenario Planner mit der Version 20.3 - 14. August 2020
 
-Der Workfront-Szenario-Planer ist mit Version 20.3 nur für die Produktion verfügbar, wenn das neue Adobe Workfront-Erlebnis verfügbar ist.
+Workfront Scenario Planner ist ab Version 20.3 nur noch mit dem neuen Adobe Workfront-Erlebnis verfügbar.
 
-Erstellen und vergleichen Sie mit dem Szenario-Planer mehrere Was-Wenn-Szenarien, um den besten Pfad für die Zukunft auszuwählen. Und wenn sich Ihre Prioritäten ändern, planen Sie sie iterativ neu, ohne dass sich dies auf die laufende Arbeit auswirkt.
+Mit dem Szenario-Planer können Sie mehrere Was-wäre-wenn-Szenarien erstellen und vergleichen, um den besten Weg für die Zukunft auszuwählen. Wenn sich Ihre Prioritäten ändern, führen Sie iterative Neuplanung durch, ohne dass sich dies auf die laufenden Arbeiten auswirkt.
 
 Mit dem Szenario-Planer können Sie:
 
 * Erstellen und Vergleichen von Szenarien
 
-  Erstellen und sehen Sie einfach verschiedene Szenarien nebeneinander mit minimalen Daten, die von Ihnen benötigt werden.
+  Einfaches Erstellen und Anzeigen verschiedener Szenarien nebeneinander mit minimalen Daten, die von Ihnen benötigt werden.
 
-* Engpässe bei Ressourcen hervorheben
+* Ressourcenengpässe hervorheben
 
-  Sehen Sie, wo Sie bereits Personen oder Budgets für bestehende oder geplante Arbeiten gebunden haben.
+  Hier können Sie sehen, wo Sie bereits Personen oder Budgets für bestehende oder geplante Arbeiten bereitgestellt haben.
 
-* Ermitteln eines zukunftsweisenden Pfads
+* Bestimmen eines Pfads nach vorne
 
-  Erstellen und vergleichen Sie Szenarien, erleichtern Sie Zusammenarbeit und Konsens, führen Sie sie aus und planen Sie sie dann bei Bedarf neu.
+  Erstellen und vergleichen Sie Szenarien, erleichtern Sie Zusammenarbeit und Konsens, führen Sie sie aus und planen Sie sie bei Bedarf neu.
 
-Mit dem Szenario-Planer können Sie Ihre Planung flexibler gestalten. Unabhängig davon, ob Sie den strategischen Plan für Ihr Unternehmen besitzen oder ob Sie die vierteljährliche Planung für eine einzige Geschäftseinheit, Abteilung oder Team durchführen, kann Scenario Planer Ihnen helfen. Erstellen und vergleichen Sie schnell und einfach mehrere Szenarien anhand von Einschränkungen wie Budgets oder Teamressourcen.
+Der Szenario-Planer hilft Ihnen, Ihre Planung agiler zu gestalten. Egal, ob Sie den strategischen Plan für Ihr Unternehmen besitzen oder die vierteljährliche Planung für eine einzelne Geschäftseinheit, Abteilung oder ein einzelnes Team durchführen, der Szenarioplaner kann Ihnen helfen. Schnelles und einfaches Erstellen und Vergleichen mehrerer Szenarien auf der Grundlage von Einschränkungen wie Budgets oder Team-Ressourcen.
 
-Mit dem Szenario-Planer können Sie Szenarien nach Ziel oder Initiative im Szenario-Planer modellieren, um Fragen zu beantworten, z. B.:
+Mit dem Szenario-Planer können Sie Szenarien nach Ziel oder Initiative im Szenario-Planer modellieren, um Fragen wie die folgenden zu beantworten:
 
-* Wenn wir Wachstum und Rentabilität optimieren, welche Unterschiede gibt es bei den Investitionsszenarien?
-* Benötigen wir für die Erreichung eines Ziels der Wachstumsoptimierung zusätzliche Ressourcen innerhalb eines bestimmten Qualifikationsrahmens?
-* Um ein Rentabilitätsziel zu erreichen, müssen wir bestimmte Initiativen auf einen späteren Zeitpunkt vorantreiben
+* Wenn wir für Wachstum im Vergleich zu Rentabilität optimieren, was sind dann die Unterschiede in den Anlageszenarien?
+* Benötigen wir zusätzliche Ressourcen innerhalb eines bestimmten Kompetenzsatzes, um ein Ziel zur Wachstumsoptimierung zu erreichen?
+* Um ein Rentabilitätsziel zu erreichen, müssen wir bestimmte Initiativen auf einen späteren Zeitpunkt verschieben
 
-Weitere Informationen zum Szenario-Planer finden Sie unter [Übersicht über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+Weitere Informationen zum Szenario-Planer finden Sie unter [Szenario-Planer - Übersicht](../../../scenario-planner/scenario-planner-overview.md).

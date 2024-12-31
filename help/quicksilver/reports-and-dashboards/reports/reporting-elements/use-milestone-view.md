@@ -1,8 +1,8 @@
 ---
 product-area: reporting
 navigation-topic: reporting-elements
-title: Verwenden der Milestone-Ansicht
-description: Sie können die Meilensteinansicht auf eine Projektliste oder einen Bericht anwenden.
+title: Meilenstein-Ansicht verwenden
+description: Sie können die Meilenstein -Ansicht auf eine Projektliste oder einen Bericht anwenden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Verwenden der Milestone-Ansicht
+# Meilenstein-Ansicht verwenden
 
 <!-- Audited: 11/2024 -->
 
-Sie können die Meilensteinansicht auf eine Projektliste oder einen Bericht anwenden.
+Sie können die Meilenstein -Ansicht auf eine Projektliste oder einen Bericht anwenden.
 
-Bevor Sie die Meilensteinansicht verwenden können, müssen Meilensteine konfiguriert werden, Meilensteinpfade müssen zu Projekten hinzugefügt werden und Meilensteine müssen mit Aufgaben verknüpft werden, wie in den Artikeln [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Meilensteine mit Aufgaben verknüpfen](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) beschrieben.
+Bevor Sie die Ansicht Meilenstein verwenden können, müssen Meilensteine konfiguriert, Meilensteinpfade zu Projekten hinzugefügt und Meilensteine mit Aufgaben verknüpft werden, wie in den Artikeln [Erstellen eines Meilensteinpfads](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Zuordnen von Meilensteinen zu Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) beschrieben.
 
-Die Meilensteinansicht ist verfügbar, wenn Sie eine Projektliste oder einen Projektbericht anzeigen. In den folgenden Abschnitten wird beschrieben, wie Sie die Meilensteinansicht anzeigen und verwenden.
+Die Meilenstein -Ansicht ist beim Anzeigen einer Projektliste oder eines Projektberichts verfügbar. In den folgenden Abschnitten wird beschrieben, wie Sie die Meilenstein -Ansicht anzeigen und verwenden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -36,8 +36,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
@@ -53,77 +53,77 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender oder höher anzeigen</p></td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
+   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Berichte, Dashboards, Kalender</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Anzeigen von Berechtigungen für einen Projektbericht zum Anwenden der Meilensteinansicht auf einen Bericht</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für einen Projektbericht, um die Meilenstein -Ansicht auf einen Bericht anzuwenden</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Wechseln zur Meilensteinansicht {#switch-to-the-milestone-view}
+## Zur Ansicht Meilenstein wechseln {#switch-to-the-milestone-view}
 
 {{step1-to-projects}}
 
-1. Klicken Sie auf das Dropdownmenü **Ansicht** und dann auf **Milestone**.
+1. Klicken Sie auf **Dropdown** Menü „Ansicht“ und dann auf **Meilenstein**.
 
-   Die Liste oder der Bericht wird in einer Meilensteinansicht angezeigt.
+   Die Liste oder der Bericht wird in einer Meilenstein -Ansicht angezeigt.
 
-   Informationen zur Meilensteinansicht finden Sie im Abschnitt [Übersicht über die Meilensteinansicht](#milestone-view-overview) in diesem Artikel.
+   Weitere Informationen zur Meilenstein-Ansicht finden Sie im Abschnitt [Meilenstein-Ansicht - Übersicht](#milestone-view-overview) in diesem Artikel.
 
-## Übersicht zur Meilensteinansicht {#milestone-view-overview}
+## Meilenstein-Ansicht - Übersicht {#milestone-view-overview}
 
-Die Meilensteinansicht ist in Projektlisten und Projektberichten verfügbar. Diese Ansicht ermöglicht es Ihnen, alle Meilensteine, die mit Aufgaben in den angezeigten Projekten verknüpft sind, schnell anzuzeigen.
+Die Meilenstein -Ansicht ist in Projektlisten und Projektberichten verfügbar. In dieser Ansicht können Sie schnell alle Meilensteine anzeigen, die mit Aufgaben innerhalb der angezeigten Projekte verknüpft sind.
 
 
 >[!NOTE]
 >
->Die Meilensteinansicht ist in den folgenden Bereichen nicht verfügbar:
+>Die Ansicht Meilenstein ist in den folgenden Bereichen nicht verfügbar:
 >
->* Timesheets beim Hinzufügen eines Projekts in der Projektliste.
+>* Arbeitszeittabellen, in der Projektliste beim Hinzufügen eines Projekts.
 
 
-Informationen zum Wechseln zur Meilensteinansicht finden Sie im Abschnitt [Zur Meilensteinansicht wechseln](#switch-to-the-milestone-view) in diesem Artikel.
+Informationen zum Wechseln zur Meilenstein -Ansicht finden Sie im Abschnitt [Wechseln zur Meilenstein -](#switch-to-the-milestone-view) in diesem Artikel.
 
-![Projekt mit Meilensteinansicht](assets/project-with-milestone-view-with-complete.png)
+![Projekt mit Meilenstein-Ansicht](assets/project-with-milestone-view-with-complete.png)
 
-### Milestone-Ansichtsabschnitte
+### Meilenstein-Ansichtsabschnitte
 
-Wenn Sie die Meilensteinansicht auf eine Liste von Projekten anwenden, werden die Projekte in den folgenden Abschnitten angezeigt:
+Beim Anwenden der Meilenstein -Ansicht auf eine Liste von Projekten werden die Projekte in den folgenden Abschnitten angezeigt:
 
-* Die Projekte, die mit einem Meilensteinpfad verknüpft sind, werden zuerst angezeigt, und zwar unter dem Namen der jeweiligen Meilensteinpfade.
+* Die Projekte, die mit einem Meilensteinpfad verknüpft sind, werden zuerst angezeigt und unter dem Namen des jeweiligen Meilensteinpfads aufgeführt.
 
-  Workfront sortiert die Projekte im ersten Abschnitt nach folgenden Kriterien in dieser Reihenfolge:
+  Workfront sortiert die Projekte im ersten Abschnitt anhand der folgenden Kriterien in der folgenden Reihenfolge:
 
-   1. Milestone Path ID. Sie können die Meilensteinpfad-ID in einem Meilensteinpfad -Bericht anzeigen.
+   1. Meilensteinpfad-ID. Sie können die Meilensteinpfad-ID in einem Meilensteinpfadbericht anzeigen.
 
-   2. Das Feld, das in der zuvor auf die Projektliste angewendeten Ansicht als erstes Sortierfeld für die Projektliste ausgewählt wurde, bevor Sie die Meilensteinansicht ausgewählt haben.
+   2. Das als erstes Sortierfeld für die Projektliste ausgewählte Feld in der Ansicht, die zuvor auf die Projektliste angewendet wurde, bevor Sie die Meilenstein -Ansicht ausgewählt haben.
 
-* Die Projekte, die keinem Milestobe-Pfad zugeordnet sind, werden als Nächstes im Abschnitt Nicht zugewiesen angezeigt. Workfront sortiert die Projekte im Abschnitt Nicht zugewiesen nach dem Feld, das als erstes Sortierfeld für die Projektliste ausgewählt wurde, in der zuvor auf die Projektliste angewendeten Ansicht, bevor Sie die Meilensteinansicht ausgewählt haben.
+* Die Projekte, die keinem Meilensteinpfad zugeordnet sind, werden als Nächstes im Abschnitt Nicht zugewiesen angezeigt. Workfront sortiert die Projekte im Bereich Nicht zugewiesen nach dem Feld, das als erstes Sortierfeld für die Projektliste in der Ansicht ausgewählt wurde, die zuvor auf die Projektliste angewendet wurde, bevor Sie die Meilenstein -Ansicht ausgewählt haben.
 
-### Projektinformationen in der Milestone-Ansicht
+### Projektinformationen in der Meilenstein -Ansicht
 
-Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilensteinansicht sind die folgenden Informationen verfügbar:
+Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -Ansicht sind die folgenden Informationen verfügbar:
 
-* **Geplante Datumswerte oder geplante Daten:** Geben Sie an, ob geplante Datumswerte oder geplante Daten in der Meilensteinansicht angezeigt werden sollen.\
-  Die Daten werden für den Start und den Abschluss sowie für jeden Meilenstein im Meilensteinpfad angezeigt.\
-  Wenn Sie &quot;Geplante Datumswerte&quot;anzeigen und außerdem Zugriff auf das Projekt verwalten haben, können Sie die folgenden Daten direkt in der Meilensteinansicht bearbeiten: (Wenn Sie &quot;Angezeigte Daten&quot;anzeigen, können die Daten nicht bearbeitet werden, da die geplanten Datumswerte berechnet werden und nicht manuell geändert werden können.)
+* **Geplante Termine oder Voraussichtliche Termine:** Geben Sie an, ob Sie geplante Termine oder Voraussichtliche Termine in der Ansicht „Meilenstein“ anzeigen möchten.\
+  Die Daten werden für Start und Abschluss sowie für jeden Meilenstein im Meilensteinpfad angezeigt.\
+  Wenn Sie geplante Termine anzeigen und außerdem Verwaltungszugriff auf das Projekt haben, können Sie die folgenden Termine direkt in der Meilenstein -Ansicht bearbeiten: (Wenn Sie „Voraussichtliche Termine“ anzeigen, können die Termine nicht bearbeitet werden, da die voraussichtlichen Termine berechnet werden und nicht manuell geändert werden können.)
 
-   * **Projektstartdaten:** Wenn ein Projekt ab dem Startdatum geplant ist, können Sie das Startdatum des Projekts manuell ändern und anschließend das Abschlussdatum berechnen.
-   * **Projektabschlussdaten:** Wenn ein Projekt ab dem Abschlussdatum geplant ist, können Sie das Abschlussdatum des Projekts manuell ändern und anschließend das Startdatum berechnen.
-   * **Task-Abschlussdatum:** Sie können den Abschluss für Aufgaben manuell direkt über die Milestone-Ansicht aktualisieren.
+   * **Projektstartdaten:** Wenn ein Projekt ab dem Startdatum geplant wird, können Sie das Startdatum des Projekts manuell ändern. Anschließend wird das Abschlussdatum berechnet.
+   * **Projektabschlussdaten:** Wenn ein Projekt auf Basis des Abschlussdatums geplant wird, können Sie das Abschlussdatum des Projekts manuell ändern. Anschließend wird das Startdatum berechnet.
+   * **Abschlussdaten von Aufgaben:** Sie können den Abschluss von Aufgaben manuell direkt in der Ansicht Meilenstein aktualisieren.
 
-* **Prozent abgeschlossen:** Zeigt den Abschlussprozentsatz jeder Aufgabe und jedes Projekts an.\
-  Sie können die Anzeige des Fertigstellungsprozentsatzes deaktivieren, wie im Abschnitt [Konfigurieren der in der Meilensteinansicht angezeigten Informationen](#configure-what-information-displays-in-the-milestone-view) in diesem Artikel beschrieben.\
-  Sie können den Fertigungsprozentsatz direkt in der Meilensteinansicht anpassen, wie im Abschnitt [Prozentwert für Aufgaben in der Meilensteinansicht anpassen](#adjust-percent-complete-for-tasks-in-the-milestone-view) in diesem Artikel beschrieben.
+* **Prozent abgeschlossen:** Zeigt den Prozentsatz der Fertigstellung jeder Aufgabe und jedes Projekts an.\
+  Sie können die Anzeige des Prozentsatzes der Fertigstellung deaktivieren, wie im Abschnitt [Konfigurieren der in der Meilenstein-Ansicht angezeigten Informationen](#configure-what-information-displays-in-the-milestone-view) in diesem Artikel beschrieben.\
+  Sie können den Prozentsatz der Fertigstellung direkt in der Ansicht Meilenstein anpassen, wie im Abschnitt [Anpassen des Prozentsatzes der Fertigstellung für Aufgaben in der Ansicht Meilenstein](#adjust-percent-complete-for-tasks-in-the-milestone-view) in diesem Artikel beschrieben.
 
-* **Symbol für Aufgabenstatus:** Neben jedem Projekt und jeder Aufgabe wird in der Meilensteinansicht ein Statussymbol angezeigt.
+* **Aufgabenstatussymbole:** neben jedem Projekt und jeder Aufgabe wird in der Meilenstein -Ansicht ein Statussymbol angezeigt.
 
    * Im Zeitplan\
      ![](assets/gantt-ontime.png)
@@ -137,55 +137,55 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilensteinan
    * Verspätet\
      ![](assets/gantt-late.png)
 
-  Sie können die Anzeige dieser Statussymbole deaktivieren, wie im Abschnitt [Konfigurieren der in der Meilensteinansicht angezeigten Informationen](#configure-what-information-displays-in-the-milestone-view) in diesem Artikel beschrieben.\
-  Weitere Informationen zu den einzelnen Statustypen finden Sie im Artikel [Aufgabenfortschrittsstatus - Übersicht](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Sie können die Anzeige dieser Statussymbole deaktivieren, wie im Abschnitt [Konfigurieren, welche Informationen in der Meilenstein-Ansicht angezeigt werden](#configure-what-information-displays-in-the-milestone-view) in diesem Artikel beschrieben.\
+  Weitere Informationen zu den einzelnen Statustypen finden Sie im Artikel [Übersicht über den Aufgabenstatus](../../../manage-work/tasks/task-information/task-progress-status.md).
 
-* **Tab-Statusschattierung für abgeschlossene Aufgaben**: Nachdem eine Aufgabe als abgeschlossen markiert wurde, wird der Hintergrund der Aufgabe in der Meilensteinansicht schattiert, um anzugeben, ob die Aufgabe rechtzeitig oder zu spät abgeschlossen wurde:
+* **Aufgabenstatusschattierung für abgeschlossene Aufgaben**: Nachdem eine Aufgabe als „Abgeschlossen“ markiert wurde, wird der Hintergrund der Aufgabe in der Meilenstein -Ansicht schattiert, um anzugeben, ob die Aufgabe termingerecht oder zu spät abgeschlossen wurde:
 
-   * **Rote Schattierung für Aufgabenspalte**: Der Hintergrund einer Aufgabe ist rot, wenn der Fortschrittsstatus **Verspätet** ist.
+   * **Rote Schattierung für**: Der Hintergrund einer Aufgabe ist rot, wenn der Fortschrittsstatus &quot;**&quot;**.
 
-   * **Grüne Schattierung für Aufgabenspalte**: Der Hintergrund einer Aufgabe ist grün, wenn der Fortschrittsstatus **Einschaltzeit** lautet.
+   * **Grüne Schattierung für Aufgabenspalte**: Der Hintergrund einer Aufgabe ist grün, wenn der Fortschrittsstatus &quot;**&quot;**.
 
-* **Projektstatusschattierung für die Spalten Projektstart und -abschluss**:
+* **Projektstatusschattierung für die Spalten Projektstart und Projektabschluss**:
 
-   * **Spalte &quot;Projektstart&quot;**: Der Hintergrund der Spalte &quot;Projektstart&quot;ist nur rot oder grün, wenn das tatsächliche Startdatum ausgefüllt ist:
+   * **Spalte Projektstart**: Der Hintergrund der Spalte Projektstart ist nur dann rot oder grün, wenn das tatsächliche Startdatum angegeben wird:
 
-      * **Rote Schattierung für Spalte &quot;Projektstart&quot;**: Der Hintergrund der Spalte &quot;Projektstart&quot;ist rot, wenn der Fortschrittsstatus des Projekts **spät** ist.
+      * **Rote Schattierung für Projektstartspalte**: Der Hintergrund der Projektstartspalte ist rot, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
 
-      * **Grüne Schattierung für Spalte &quot;Projektstart&quot;**: Der Hintergrund der Spalte &quot;Projektstart&quot;ist grün, wenn der Fortschrittsstatus des Projekts **Einschaltzeit** lautet.
+      * **Grüne Schattierung für Projektstartspalte**: Der Hintergrund der Projektstartspalte ist grün, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
 
-   * **Spalte &quot;Projektabschluss&quot;**: Der Hintergrund der Spalte &quot;Projektabschluss&quot;ist nur rot oder grün, wenn das tatsächliche Abschlussdatum ausgefüllt ist:
+   * **Spalte für den Projektabschluss**: Der Hintergrund der Spalte für den Projektabschluss ist nur dann rot oder grün, wenn das tatsächliche Abschlussdatum angegeben wird:
 
-      * **Rote Schattierung für Spalte &quot;Projektabschluss&quot;**: Der Hintergrund der Spalte &quot;Projektabschluss&quot;ist rot, wenn der Fortschrittsstatus des Projekts **spät** ist.
+      * **Rote Schattierung für**: Der Hintergrund der Spalte „Projektabschluss“ ist rot, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
 
-      * **Grüne Schattierung für die Spalte &quot;Projektabschluss&quot;**: Der Hintergrund der Spalte &quot;Projektabschluss&quot;ist grün, wenn der Fortschrittsstatus des Projekts **Einschaltzeit** lautet.
+      * **Grüne Schattierung für die Spalte Projektabschluss**: Der Hintergrund der Spalte Projektabschluss ist grün, wenn der Fortschrittsstatus des Projekts &quot;**&quot;**.
 
-   * Den Spalten &quot;Start&quot;und &quot;Abschluss&quot;wird keine Farbschattierung zugewiesen, wenn die Aufgaben den Fortschrittsstatus &quot;Risiko&quot;oder &quot;Hinter&quot;aufweisen.
+   * Den Spalten Start und Abschluss wird keine Farbschattierung zugewiesen, wenn die Aufgaben den Verlaufsstatus Gefährdet oder Hinten aufweisen.
 
-  ![Milestone-Ansicht mit Schattierung](assets/milestone-view-with-shading.png)
+  ![Meilensteinansicht mit Schattierung](assets/milestone-view-with-shading.png)
 
 * **Projektname**: Der Projektname wird mit einem Link zum Projekt angezeigt.
-* **Symbol für Projektbedingung**: Neben dem Projektnamen wird ein Symbol angezeigt, das die Bedingung des Projekts angibt.
+* **Projektbedingungssymbol**: Neben dem Projektnamen wird ein Symbol angezeigt, das den Zustand des Projekts angibt.
 
-## Konfigurieren der in der Meilensteinansicht angezeigten Informationen {#configure-what-information-displays-in-the-milestone-view}
+## Konfigurieren, welche Informationen in der Meilenstein -Ansicht angezeigt werden {#configure-what-information-displays-in-the-milestone-view}
 
-Sie können konfigurieren, ob die folgenden Elemente in der Meilensteinansicht angezeigt werden:
+Sie können konfigurieren, ob die folgenden Elemente in der Ansicht Meilenstein angezeigt werden:
 
-* Symbole für Fortschrittsstatus
-* Prozentualer Abschluss der Projekte und Aufgaben
+* Symbole für den Fortschrittsstatus
+* Prozent abgeschlossen von Projekten und Aufgaben
 
-Standardmäßig werden die Symbole für den Projektstatus und der prozentuale Abschluss der Projekte angezeigt.
+Standardmäßig werden Projektstatus-Symbole und „Prozent abgeschlossen“ von Projekten angezeigt.
 
-Alle Änderungen, die Sie an diesen Optionen vornehmen, gelten nur für Sie. Andere Benutzer sind davon nicht betroffen. Die Änderungen, die Sie vornehmen, werden beim nächsten Anmelden bei Adobe Workfront beibehalten.
+Alle Änderungen, die Sie an diesen Optionen vornehmen, gelten nur für Sie. Andere Benutzende sind davon nicht betroffen. Die von Ihnen vorgenommenen Änderungen werden beibehalten, wenn Sie sich das nächste Mal bei Adobe Workfront anmelden.
 
-So konfigurieren Sie, ob die Symbole für den Projektstatus und der Prozentsatz der Projektabschlüsse angezeigt werden:
+So konfigurieren Sie, ob Projektstatussymbole und der Prozentsatz der Projektabschlüsse angezeigt werden:
 
 {{step1-to-projects}}
 
-1. Klicken Sie auf das Dropdownmenü **Ansicht** und dann auf **Milestone**.\
-   Wenn Sie eine Projektliste innerhalb eines Portfolios oder Programms anzeigen, wählen Sie die Unterregisterkarte **Milestone** aus.
+1. Klicken Sie auf **Dropdown** Menü „Ansicht“ und dann auf **Meilenstein**.\
+   Wenn Sie eine Liste von Projekten in einem Portfolio oder Programm anzeigen, wählen Sie die Unterregisterkarte **Meilenstein** aus.
 
-1. Klicken Sie oben rechts in der Meilensteinansicht auf **Optionen** .\
+1. Klicken Sie **Optionen** in der oberen rechten Ecke der Ansicht Meilenstein .\
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
@@ -196,25 +196,25 @@ So konfigurieren Sie, ob die Symbole für den Projektstatus und der Prozentsatz 
     <tbody> 
      <tr> 
       <td role="rowheader">Fortschrittsstatus</td> 
-      <td> <p>Wählen Sie diese Option aus, um neben jedem Projekt und jeder Aufgabe Symbole für den Fortschrittsstatus anzuzeigen.</p> <p>Diese Option ist standardmäßig aktiviert.</p> </td> 
+      <td> <p>Wählen Sie diese Option, um Fortschrittsstatus-Symbole neben jedem Projekt und jeder Aufgabe anzuzeigen.</p> <p>Diese Option ist standardmäßig aktiviert.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Prozent abgeschlossen</td> 
-      <td> <p>Wählen Sie diese Option aus, um den Fertigstellungsprozentsatz neben jedem Projekt und jeder Aufgabe anzuzeigen.</p> <p>Diese Option ist standardmäßig aktiviert.</p> </td> 
+      <td> <p>Wählen Sie diese Option, um den Prozentsatz der Fertigstellung neben jedem Projekt und jeder Aufgabe anzuzeigen.</p> <p>Diese Option ist standardmäßig aktiviert.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## Anpassen des Prozentsatzes Abgeschlossen für Aufgaben in der Meilensteinansicht {#adjust-percent-complete-for-tasks-in-the-milestone-view}
+## Anpassen des Prozentsatzes für abgeschlossene Aufgaben in der Ansicht Meilenstein {#adjust-percent-complete-for-tasks-in-the-milestone-view}
 
-Sie können den Prozentsatz der Abgeschlossen für Aufgaben in der Meilensteinansicht anpassen. Sie können den &quot;Percent Complete&quot;für eine übergeordnete Aufgabe (eine Aufgabe, die Unteraufgaben enthält) nicht anpassen.
+Sie können den abgeschlossenen Prozentsatz für Aufgaben in der Ansicht Meilenstein anpassen. Sie können den abgeschlossenen Prozentsatz für eine übergeordnete Aufgabe (eine Aufgabe, die Teilaufgaben enthält) nicht anpassen.
 
-So passen Sie den Prozentsatz an, der für eine Aufgabe in der Meilensteinansicht abgeschlossen ist:
+So passen Sie den abgeschlossenen Prozentsatz für eine Aufgabe in der Ansicht Meilenstein an:
 
 {{step1-to-projects}}
 
-1. Klicken Sie auf das Dropdownmenü **Ansicht** und dann auf **Milestone**.
+1. Klicken Sie auf **Dropdown** Menü „Ansicht“ und dann auf **Meilenstein**.
 
-1. (Bedingt) Wenn die Fertigstellungsprozentsätze in der Meilensteinansicht nicht aktuell angezeigt werden, klicken Sie oben rechts in der Meilensteinansicht auf **Optionen** und stellen Sie sicher, dass **Prozent abgeschlossen** aktiviert ist.
+1. (Bedingt) Wenn in der Meilenstein-Ansicht keine aktuellen Abschlussprozentsätze angezeigt werden, klicken Sie oben rechts in der Meilenstein-Ansicht auf **Optionen** und stellen Sie sicher, dass **Prozent abgeschlossen** aktiviert ist.
 
-1. Klicken Sie auf den Fertigstellungsprozentsatz unterhalb einer Aufgabe, geben Sie einen neuen Prozentsatz an und drücken Sie die Eingabetaste.
+1. Klicken Sie unter einer Aufgabe auf den Fertigstellungsprozentsatz, geben Sie einen neuen Prozentsatz an und drücken Sie dann die Eingabetaste.

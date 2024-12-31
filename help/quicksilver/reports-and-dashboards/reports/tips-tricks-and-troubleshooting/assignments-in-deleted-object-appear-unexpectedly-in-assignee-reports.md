@@ -1,6 +1,6 @@
 ---
-title: Zuweisungen in einem gelöschten Objekt werden in den Bevollmächtigten-Berichten unerwartet angezeigt
-description: Zuweisungen in einem gelöschten Objekt werden in den Bevollmächtigten-Berichten unerwartet angezeigt
+title: Zuweisungen in einem gelöschten Objekt werden unerwartet in Empfängerberichten angezeigt
+description: Zuweisungen in einem gelöschten Objekt werden unerwartet in Empfängerberichten angezeigt
 author: Nolan
 draft: Probably
 source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
@@ -10,14 +10,14 @@ ht-degree: 0%
 
 ---
 
-# Zuweisungen in einem gelöschten Objekt werden in den Bevollmächtigten-Berichten unerwartet angezeigt
+# Zuweisungen in einem gelöschten Objekt werden unerwartet in Empfängerberichten angezeigt
 
 ## Problem
 
-Nachdem Sie ein Objekt gelöscht haben, das über eine Zuweisung verfügt, werden sowohl das Objekt als auch die Zuweisung gelöscht. Die Zuweisung wird jedoch möglicherweise noch in einigen Berichten angezeigt.
+Nachdem Sie ein Objekt gelöscht haben, das über eine Zuweisung verfügt, werden sowohl das Objekt als auch die Zuweisung gelöscht. Aber die Zuweisung kann immer noch in einigen Berichten angezeigt werden.
 
-Wenn Sie beispielsweise eine Aufgabe löschen, die einem Benutzer zugewiesen wurde, wird auch die Zuweisung zum Benutzer gelöscht. Wenn Sie jedoch später einen Aufgabenbericht ausführen, der nach Verantwortlichen gefiltert wird und der Benutzer angegeben ist, wird die gelöschte Aufgabe im Bericht weiterhin aufgeführt, wenn sich die Aufgabe noch im Papierkorb befindet.
+Wenn Sie beispielsweise eine Aufgabe löschen, die einem Benutzer zugewiesen wurde, wird auch die Zuweisung an den Benutzer gelöscht. Wenn Sie später jedoch einen Aufgabenbericht ausführen, der nach Verantwortlichem gefiltert wird, wobei dieser Benutzer angegeben ist, wird die gelöschte Aufgabe weiterhin im Bericht aufgeführt, wenn sich die Aufgabe noch im Papierkorb befindet.
 
 ## Ursache
 
-Dies ist auf architektonische Einschränkungen des Papierkorbs zurückzuführen. Es gibt derzeit keine Pläne für die Lösung dieses Problems, da die architektonische Neugestaltung notwendig wäre.
+Dies liegt an den architektonischen Einschränkungen des Papierkorbs. Es gibt derzeit keine Pläne, dieses Problem anzugehen, da eine Umgestaltung der Architektur notwendig wäre.

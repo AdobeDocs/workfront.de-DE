@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Gruppierung: Organisieren Sie die Listenergebnisse anhand eines berechneten Werts, der allen Objekten in der Gruppierung gemeinsam ist.'
-description: Möglicherweise möchten Sie Ihre Aufgaben nach Prozent Abgeschlossen in Bereichen von 0-25, 26-50, 51-75, 75-99 und 100 gruppieren. Sie können hierzu mithilfe des Textmodus eine Gruppierung erstellen.
+title: 'Gruppierung: Organisieren Sie die Listenergebnisse nach einem berechneten Wert, der für alle Objekte in der Gruppierung gleich ist'
+description: Sie können Ihre Aufgaben gruppiert nach Prozent abgeschlossen in den Bereichen 0-25, 26-50, 51-75, 75-99 und 100 anzeigen. Dazu können Sie im Textmodus eine Gruppierung erstellen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 93b743ce-7e54-4a96-933b-912e2107a84f
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Gruppierung: Sortieren Sie die Ergebnisse der Liste nach einem berechneten Wert, der allen Objekten der Gruppierung entspricht.
+# Gruppierung: Organisieren Sie die Listenergebnisse nach einem berechneten Wert, der für alle Objekte in der Gruppierung gleich ist
 
 <!--Audited: 10/2024-->
 
-Möglicherweise möchten Sie Ihre Aufgaben nach Prozent Abgeschlossen in Bereichen von 0-25, 26-50, 51-75, 75-99 und 100 gruppieren. Sie können hierzu mithilfe des Textmodus eine Gruppierung erstellen.
+Sie können Ihre Aufgaben gruppiert nach Prozent abgeschlossen in den Bereichen 0-25, 26-50, 51-75, 75-99 und 100 anzeigen. Dazu können Sie im Textmodus eine Gruppierung erstellen.
 
 ![](assets/grouping-calculated-value-column-to-all-objects.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,43 +33,43 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Organisieren Sie die Listenergebnisse anhand eines berechneten Werts, der allen Objekten in der Gruppierung gemein ist.
+## Organisieren der Listenergebnisse nach einem berechneten Wert, der für alle Objekte in der Gruppierung gleich ist
 
 So wenden Sie diese Gruppierung auf eine Aufgabenliste an:
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Gruppierung** die Option **Neue Gruppierung** aus.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie aus dem **Gruppierung** Dropdown-Menü **Neue Gruppierung** aus.
 
-1. Klicken Sie auf **Wechseln zum Textmodus**.
+1. Klicken Sie **In Textmodus wechseln**.
 1. Fügen Sie im verfügbaren Bereich den folgenden Code hinzu:
 
    ```
@@ -80,5 +80,5 @@ So wenden Sie diese Gruppierung auf eine Aufgabenliste an:
    group.0.namekey=percentComplete
    ```
 
-1. Klicken Sie auf **Fertig** und dann auf **Gruppierung speichern**.
+1. Klicken Sie **Fertig** und dann **Gruppierung speichern**.
 1. (Optional) Aktualisieren Sie den Gruppierungsnamen und klicken Sie dann auf **Gruppierung speichern**.

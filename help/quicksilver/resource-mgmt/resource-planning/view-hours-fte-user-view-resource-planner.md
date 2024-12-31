@@ -2,8 +2,8 @@
 content-type: reference
 product-area: resource-management;user-management
 navigation-topic: resource-planning
-title: Anzeigen der verfügbaren, geplanten und tatsächlichen Stunden oder der FTE im Ressourcenplaner bei Verwendung der Benutzeransicht
-description: Zeigen Sie verfügbare, geplante und tatsächliche Stunden oder VZÄ im Ressourcenplaner an, wenn Sie die User viewPlanning-Funktion im RP verwenden. Vielleicht "budgeting resources in the RP"oder "Managing Resources in the RP". usw. - oder müssen Sie möglicherweise von einem anderen POV umgeleitet werden?!)"
+title: Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden
+description: Verfügbare, geplante und tatsächliche Stunden oder FTEs im Ressourcenplaner anzeigen, wenn Sie die „User view Planning“ im Ressourcenplaner verwenden. Dies kann z. B. „Budgetieren von Ressourcen im Ressourcenplaner“ oder „Verwalten von Ressourcen im Ressourcenplaner“ sein. etc… - oder ggf. von einem anderen POV umgewidmet werden müssen?!“
 author: LIsa
 feature: Resource Management
 exl-id: 6b532aa2-435f-4fda-b7ce-abe0a785638f
@@ -14,33 +14,33 @@ ht-degree: 1%
 
 ---
 
-# Anzeigen der verfügbaren, geplanten und tatsächlichen Stunden oder der FTE im Ressourcenplaner bei Verwendung der Benutzeransicht
+# Verfügbare, geplante und tatsächliche Stunden oder FTE im Ressourcenplaner anzeigen, wenn Sie die Benutzeransicht verwenden
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Consider renaming this article (probably split already) to something other than "Planning" in the RP" - maybe "budgeting resources in the RP" or "Managing Resources in the RP." etc... - or might need to be repurposed from another POV?!)</p>
 -->
 
-Zusätzlich zu den Budgeteinträgen in den Projekt- und Rollenansichten können Sie über die Benutzeransicht des Adobe Workfront-Ressourcenplaners Informationen zu den geplanten, verfügbaren und tatsächlichen Stunden- oder FTE-Werten für Projekte und Ressourcen anzeigen.
+Zusätzlich zur Budgetierung von Ressourcen in den Projekt- und Rollenansichten können Sie auch die Benutzeransicht des Adobe Workfront-Ressourcenplaners verwenden, um Informationen zu den geplanten, verfügbaren und Ist-Stunden- oder VZÄ-Werten für Projekte und Ressourcen anzuzeigen.
 
-## Überblick über die Benutzeransicht im Ressourcenplaner
+## Übersicht über die Benutzeransicht im Ressourcenplaner
 
 Beachten Sie beim Anzeigen der Stunden- oder FTE-Informationen im Ressourcenplaner Folgendes:
 
-* Sie können die verfügbaren und geplanten Stunden oder die FTE-Informationen für Benutzer, Arbeitsplatzrollen und Projekte in allen Ansichten des Resource Planers anzeigen.
-* Sie können die folgenden Informationen nur in der Benutzeransicht anzeigen:
+* Sie können die verfügbaren und geplanten Stunden oder die FTE-Informationen für Benutzer, Aufgabengebiete und Projekte in allen Ansichten des Ressourcenplaners anzeigen.
+* Die folgenden Informationen können nur in der Benutzeransicht angezeigt werden:
 
-   * Differenz zwischen der geplanten Stundenzahl oder VZÄ und der Menge der verfügbaren Stunden oder VZÄ. Anschließend können Sie die Zuordnung Ihrer Benutzer entsprechend dieser Differenz in den Ansichten &quot;Projekt&quot;und &quot;Rolle&quot;planen.
-   * Die tatsächlichen Stunden oder die VZÄ.
+   * Die Differenz zwischen der Menge der geplanten Stunden oder FTE und der Menge der verfügbaren Stunden oder FTE. Sie können dann die Zuordnung Ihrer Benutzer entsprechend diesem Unterschied in der Projekt- und Rollenansicht budgetieren.
+   * Die tatsächlichen Stunden für FTE.
 
-* Sie können die Differenz zwischen dem verfügbaren Benutzer und der Anzahl der geplanten Stunden oder FTE entweder als Zahl oder als Prozentwert in der Benutzeransicht anzeigen.
-* Sie können die Informationen nicht in der Ansicht Benutzer nach Kosten anzeigen.
-* Adobe Workfront füllt Verfügbare Stunden oder VZÄ entsprechend der Arbeitszeit aus, die den Benutzern in ihren Zeitplänen zugewiesen ist.\
-  Benutzer, die keinem Zeitplan zugeordnet sind, zeigen die Verfügbarkeit gemäß dem Standardplan an.\
-  Weitere Informationen zum Standardzeitplan finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+* Sie können die Differenz zwischen dem verfügbaren Benutzer und der Anzahl der geplanten Stunden oder VZÄ entweder als Zahl oder als Prozentwert in der Ansicht „Benutzer“ anzeigen.
+* Sie können die Informationen nicht in der Benutzeransicht nach Kosten anzeigen.
+* Adobe Workfront füllt verfügbare Stunden oder FTEs entsprechend der Arbeitszeit, die mit den Benutzenden in ihren Zeitplänen verknüpft ist.\
+  Benutzende, die keinem Zeitplan zugeordnet sind, zeigen die Verfügbarkeit gemäß dem Standardzeitplan an.\
+  Weitere Informationen über den Standardzeitplan finden Sie unter [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
-* Workfront füllt geplante Stunden oder VZÄ aus den Informationen zu den Aufgaben und Problemstellungen der Projekte aus.
-* Workfront füllt &quot;Tatsächliche Stunden&quot;mit der tatsächlichen Zeit, die Aufgaben und Problemen von den ihnen zugewiesenen Benutzern zugewiesen wurde. Dies umfasst die Zeit, die bei einem Projekt angemeldet ist.
-* In der Ansicht &quot;User&quot;haben Sie folgende Möglichkeiten:
+* Workfront füllt die Informationen zu den geplanten Stunden für die Aufgaben und Probleme in den Projekten aus den Informationen zu den geplanten Stunden (Planstunden oder FTE).
+* Workfront füllt „Tatsächliche Stunden“ mit der tatsächlichen Zeit, die von den Benutzenden, die diesen Aufgaben und Problemen zugewiesen sind, protokolliert wird. Dies umfasst die für ein Projekt protokollierte Zeit.
+* In der Benutzeransicht können Sie Folgendes tun:
 
    * Erweitern Sie jeden Benutzer, um eine Liste der Projekte anzuzeigen, denen dieser Benutzer zugewiesen ist.
 
@@ -48,21 +48,21 @@ Beachten Sie beim Anzeigen der Stunden- oder FTE-Informationen im Ressourcenplan
      >
      >Nur Benutzer, die mit den in den Filtern enthaltenen Projekten verknüpft sind, können erweitert werden.
 
-   * Erweitern Sie jedes Projekt, um eine Liste der Vorgangsrollen anzuzeigen, die der Benutzer für diese Projekte ausführen kann.
+   * Erweitern Sie jedes Projekt, um eine Liste der Aufgabengebiete anzuzeigen, die der Benutzer in diesen Projekten erfüllen kann.
    * Erweitern Sie jede Rolle, um eine Liste der Aufgaben anzuzeigen, denen der Benutzer in dieser Rolle zugewiesen ist.
 
-  Wenn den Benutzern keine Vorgangsrollen zugeordnet sind, werden ihre Verfügbaren, Geplanten und tatsächlichen Stunden oder FTE im Abschnitt **Keine Rolle** aufgelistet.\
-  Informationen dazu, welche Felder und Elemente beim Anwenden der Benutzeransicht auf den Ressourcenplaner angezeigt werden, finden Sie im Abschnitt &quot;Auswahl der Projekt-/Rolle-/Benutzeransicht&quot;in der Navigationsübersicht für den Ressourcenplaner ](../../resource-mgmt/resource-planning/resource-planner-navigation.md).[
+  Wenn Benutzenden keine Aufgabengebiete zugeordnet sind, werden die verfügbaren, geplanten und tatsächlichen Stunden bzw. FTE im Abschnitt **Keine Funktion** aufgeführt.\
+  Informationen dazu, welche Felder und Elemente beim Anwenden der Benutzeransicht auf den Ressourcenplaner angezeigt werden, finden Sie im Abschnitt „Projekt/Rolle/Benutzeransichtsauswahl“ in [Übersicht zur Ressourcenplaner-](../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-## Übersicht über die Felder, die in der Benutzeransicht des Ressourcen-Planers angezeigt werden
+## Übersicht über die in der Benutzeransicht des Ressourcenplaners sichtbaren Felder
 
-In den folgenden Tabellen finden Sie Informationen zu den Informationen, die in der Ansicht &quot;User&quot;des Ressourcenplaners angezeigt werden. Die Informationen werden in Stunden- oder FTE-Werten angezeigt.
+In den folgenden Tabellen finden Sie Informationen zu den in der Benutzeransicht des Ressourcenplaners angezeigten Informationen. Die Informationen werden in Stunden oder FTE-Werten angezeigt.
 
-* [Die (verfügbare) AVL Spalte](#the-avl-available-column)
-* [Die Spalte PLN (Geplant)](#the-pln-planned-column)
-* [Die (tatsächliche) Spalte ACT](#The%C2%A0ACT)
-* [Die DIF-Spalte (Differenz)](#the-dif-difference-column)
-* [Die Spalte % (Prozentsatz der geplanten Stundenzuordnung)](#the-planned-hours-allocation-percentage-column)
+* [Die Spalte AVL (verfügbar)](#the-avl-available-column)
+* [Die Spalte „GPL (Geplant)](#the-pln-planned-column)
+* [Die Spalte „ACT (Actual)“](#The%C2%A0ACT)
+* [Die Spalte DIF (Differenz)](#the-dif-difference-column)
+* [Die Spalte % (Geplante Stunden Zuordnung Prozentsatz)](#the-planned-hours-allocation-percentage-column)
 
 ### Die Spalte AVL (verfügbar) {#the-avl-available-column}
 
@@ -71,12 +71,12 @@ In den folgenden Tabellen finden Sie Informationen zu den Informationen, die in 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Angezeigt von</strong> </td> 
+   <td><strong>angezeigt von</strong> </td> 
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Benutzerin oder Benutzer</td> 
-   <td>Die Gesamtanzahl verfügbarer Stunden oder FTE für den Benutzer gemäß seinem Zeitplan. </td> 
+   <td>Die Gesamtzahl der verfügbaren Stunden (VZÄ) für den Benutzer gemäß seinem Zeitplan. </td> 
   </tr> 
   <tr> 
    <td>Projekt</td> 
@@ -84,7 +84,7 @@ In den folgenden Tabellen finden Sie Informationen zu den Informationen, die in 
   </tr> 
   <tr> 
    <td>Funktion</td> 
-   <td> <p>Die Gesamtanzahl verfügbarer Stunden oder FTE für die Rolle gemäß dem Benutzerplan und dem <strong>Prozentsatz der FTE-Verfügbarkeit</strong> der Rolle.</p> </td> 
+   <td> <p>Die Gesamtzahl der verfügbaren Stunden oder VZÄ für die Rolle gemäß dem Zeitplan des Benutzers und dem <strong>Prozentsatz der VZÄ-Verfügbarkeit</strong> der Rolle.</p> </td> 
   </tr> 
   <tr> 
    <td>Aufgabe oder Problem</td> 
@@ -93,112 +93,112 @@ In den folgenden Tabellen finden Sie Informationen zu den Informationen, die in 
  </tbody> 
 </table>
 
-Weitere Informationen dazu, wie die Verfügbarkeit von Benutzern und Rollen basierend auf dem Zeitplan des Benutzers und dem Prozentsatz der Verfügbarkeit der Rolle in der VZÄ berechnet wird, finden Sie unter [Übersicht über die Berechnungsstunden und die VZÄ für Benutzer und Rollen im Ressourcenplaner](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+Weitere Informationen dazu, wie die Benutzer- und Rollenverfügbarkeit basierend auf dem Zeitplan des Benutzers und dem Prozentsatz der FTE-Verfügbarkeit der Rolle berechnet wird, finden Sie unter [Übersicht über die Berechnung von Stunden und FTE für Benutzer und Rollen im Ressourcenplaner](../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-### Die Spalte PLN (Geplant) {#the-pln-planned-column}
+### Die Spalte „GEPLANT“ {#the-pln-planned-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Angezeigt von</strong> </td> 
+   <td><strong>angezeigt von</strong> </td> 
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Benutzerin oder Benutzer</td> 
-   <td> Die Gesamtanzahl aller geplanten Stunden oder FTE aus allen Aufgaben oder Ausgaben, die dem Benutzer für alle Projekte zugewiesen wurden.<br><p>Dazu gehören Aufgaben und Probleme, die dem Benutzer zugewiesen sind, aber keiner Auftragsrolle und Aufgaben oder Probleme zugeordnet sind, die sich nicht auf Projekte beziehen, auf die Sie Zugriff auf "Verwalten"haben.</p><p>Wenn die Benutzerzuordnung für Stunden mithilfe des Lastenausgleichs geändert wurde, können die Daten im Ressourcenplaner beeinträchtigt werden, wenn die ausgewählten Daten nur einen Teil einer Aufgabe oder eines Problems enthalten. Informationen zum Ändern der Zuordnungen für Benutzer finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a> . </p></td> 
+   <td> Die Gesamtzahl der geplanten Stunden (FTE) aus allen Aufgaben oder Problemen, die dem Benutzer in allen Projekten zugewiesen wurden.<br><p>Dazu gehören Aufgaben und Probleme, die dem/der Benutzenden zugewiesen sind, aber keinem Aufgabengebiet zugeordnet sind, sowie Aufgaben oder Probleme, die nicht in Projekten enthalten sind, auf die Sie Zugriff haben, um sie zu verwalten.</p><p>Wenn die Benutzerzuordnung für Stunden mithilfe des Workload Balancer geändert wurde, können die Daten im Ressourcenplaner beeinflusst werden, wenn die ausgewählten Datumsangaben nur einen Teil einer Aufgabe oder eines Problems enthalten. Informationen zum Ändern der Zuweisungen für -Benutzer finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload-Balancer</a> . </p></td> 
   </tr> 
   <tr> 
    <td>Projekt</td> 
-   <td> Die Gesamtanzahl aller geplanten Stunden oder FTE aus allen Aufgaben und Problemen, die einem bestimmten Benutzer im Projekt zugewiesen sind.<br><p>Hinweis: Dies umfasst nicht die geplanten Stunden oder die FTE aus Aufgaben oder Problemen, die Benutzern nicht zugewiesen sind. </p></td> 
+   <td> Die Gesamtzahl der geplanten Stunden (FTE) aus allen Aufgaben und Problemen, die einem bestimmten Benutzer im Projekt zugewiesen wurden.<br><p>Hinweis: Dies umfasst nicht die geplanten Stunden oder VZÄ aus Aufgaben oder Problemen, die keinem Benutzer zugewiesen sind. </p></td> 
   </tr> 
   <tr> 
    <td>Funktion</td> 
-   <td> <p>Die Gesamtanzahl aller geplanten Stunden oder FTE aus allen Aufgaben und Problemen, die dem Benutzer mit dieser Rolle im Projekt zugewiesen sind.</p> <p> <p>Hinweis: Dies umfasst nicht die geplanten Stunden oder die FTE aus Aufgaben oder Problemen, die dieser Rolle, aber nicht diesem Benutzer in dieser Rolle zugewiesen sind. </p> </p> </td> 
+   <td> <p>Die Gesamtzahl der geplanten Stunden oder VZÄ aus allen Aufgaben und Problemen, die dem Benutzer in dieser Funktion im Projekt zugewiesen wurden.</p> <p> <p>Hinweis: Dies umfasst nicht die geplanten Stunden oder FTEs aus Aufgaben oder Problemen, die dieser Rolle, aber nicht diesem Benutzer in dieser Rolle zugewiesen sind. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Aufgabe oder Problem</td> 
-   <td>Die geplanten Stunden oder die FTE, die mit der Aufgabe oder dem Problem im Projekt verbunden sind.</td> 
+   <td>Die geplanten Stunden oder VZÄ, die mit der Aufgabe oder dem Problem im Projekt verknüpft sind.</td> 
   </tr> 
  </tbody> 
 </table>
 
-Beachten Sie bei der Anzeige der geplanten Stunden Folgendes:
+Beachten Sie beim Anzeigen der geplanten Stunden Folgendes:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is a snippet converted to text because there are difference from project/ role views and the user view (users with no pools DO show in user view)</p>
 -->
 
-* Die geplanten Stunden werden für jede ihnen zugewiesene Ressource innerhalb der Dauer der Aufgaben und Probleme gleichmäßig auf jeden Tag verteilt. Die Aufgaben- oder Problemdauer basiert auf ihren geplanten Start- und Abschlussdaten und umfasst jeden Kalendertag innerhalb dieses Zeitraums.\
-  Workfront berücksichtigt den Zeitplan des Benutzers oder des Projekts bei der Verteilung von geplanten Stunden an Benutzer oder Projekte. In diesem Fall werden geplante Stunden innerhalb der Dauer von Aufgaben oder Problemen, ausgenommen Wochenenden, Vertreibungen und geplante Ausnahmen, gleichmäßig auf jeden Tag verteilt.
+* Geplante Stunden werden innerhalb der Dauer von Aufgaben und Problemen gleichmäßig auf jeden Tag für jede Ressource verteilt, die ihnen zugewiesen wurde. Die Dauer der Aufgabe oder Anfrage basiert auf dem geplanten Start- und Abschlussdatum und umfasst jeden Kalendertag innerhalb dieses Zeitraums.\
+  Workfront berücksichtigt den Zeitplan des Benutzers oder Projekts beim Verteilen der geplanten Stunden an Benutzer oder Projekte. In diesem Fall werden die geplanten Stunden innerhalb der Dauer von Aufgaben oder Problemen gleichmäßig auf jeden Tag verteilt, mit Ausnahme von Wochenenden, Urlaubstagen und Zeitplanausnahmen.
 
-  Wenn Sie beispielsweise den Ressourcenplaner nach Woche anzeigen und Aufgaben mit mehreren Wochen Projektdauer haben, hängt die Anzahl der geplanten Stunden pro Woche davon ab, wie viele Tage innerhalb dieser Woche Teil der Aufgabendauer sind. Dies funktioniert auf ähnliche Weise, wenn der Ressourcenplaner nach Monat oder Quartal angezeigt wird und Aufgaben mehrere Monate oder Quartale umfassen.\
-  Wochenendtage, zeitgesteuerte Ausnahmen und Verfallstage sind von dieser Verteilung ausgeschlossen.
+  Wenn Sie beispielsweise den Ressourcenplaner nach Woche anzeigen und Vorgänge haben, die sich über mehrere Wochen in Projekten erstrecken, hängt die Anzahl der geplanten Stunden pro Woche davon ab, wie viele Tage innerhalb dieser Woche Teil der Vorgangsdauer sind. Dies funktioniert ähnlich, wenn der Ressourcenplaner nach Monat oder Quartal angezeigt wird und wenn Vorgänge mehrere Monate oder Quartale umfassen.\
+  Wochenendtage, Zeitplanausnahmen und Urlaubstage sind von dieser Verteilung ausgeschlossen.
 
-* Die folgenden Aufgabenkategorien werden bei der Berechnung der geplanten Stunden für jede Ressource berücksichtigt:
+* Die folgenden Aufgabenkategorien sind in der Berechnung der geplanten Stunden für jede Ressource enthalten:
 
-   * Aufgaben, die Benutzern in Ressourcen-Pools, Jobrollen oder Teams im Projekt zugewiesen wurden.
+   * Aufgaben, die Benutzern in Ressourcenpools, Aufgabengebieten oder Teams im Projekt zugewiesen sind.
 
      >[!TIP]
      >
-     >Wenn Teams Aufgaben zugewiesen sind, wird ihre Zuordnung unter den Abschnitten **Keine Rolle** und **Kein Benutzer** angezeigt. Sie können die mit Teams verknüpften geplanten Stunden sehen, aber Sie können die Stunden nicht einplanen, da weder Rollen noch Benutzer mit den Aufgaben verbunden sind.
+     >Wenn Teams Aufgaben zugewiesen werden, wird ihre Zuordnung in den Abschnitten **Keine**&quot; und **Kein Benutzer** angezeigt. Sie können die geplanten Stunden sehen, die mit Teams verknüpft sind, Sie können die Stunden jedoch nicht budgetieren, da den Aufgaben weder Rollen noch Benutzer zugeordnet sind.
 
-* Geplante Stunden im Ressourcenplaner enthalten keine geplanten Stunden, die mit den folgenden Punkten verknüpft sind:
+* Geplante Stunden im Ressourcenplaner enthalten keine geplanten Stunden, die mit Folgendem verknüpft sind:
 
    * Übergeordnete Aufgaben
-   * nicht zugewiesene Aufgaben
-   * Probleme, wenn die Einstellung **Stunden aus Problemen einschließen** deaktiviert ist.
+   * Nicht zugewiesene Aufgaben
+   * Probleme, wenn die Einstellung **Stunden aus Problemen einbeziehen** deaktiviert ist.
 
-* Geplante Stunden werden nicht im Ressourcenplaner angezeigt, wenn die Aufgaben- oder Problemdauer null ist.
-* Für deaktivierte Benutzer zugeordnete geplante Stunden werden nicht angezeigt.
+* Geplante Stunden werden nicht im Ressourcenplaner angezeigt, wenn die Dauer der Aufgabe oder des Problems null ist.
+* Mit deaktivierten Benutzern verknüpfte geplante Stunden werden nicht angezeigt.
 
-Weitere Informationen zu geplanten Stunden und FTE im Ressourcenplaner finden Sie unter [Übersicht über Stunden, FTE und Kosten-Informationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
+Weitere Informationen zu den geplanten Stunden und VZÄ im Ressourcenplaner finden Sie unter [Übersicht über Stunden, VZÄ und Kosteninformationen in den Projekt- und Rollenansichten des Ressourcenplaners](../../resource-mgmt/resource-planning/overview-of-planner-hour-fte-cost-information-in-role-project-views.md).
 
-### Die Spalte ACT (Tatsächlich)
+### Die Spalte „ACT“ (Actual)
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Angezeigt von</strong> </td> 
+   <td><strong>angezeigt von</strong> </td> 
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Benutzerin oder Benutzer </td> 
-   <td> <p>Die Zeit, die der Benutzer bei allen ihm zugewiesenen Aufgaben oder Problemen protokolliert.</p> <p>Dazu gehört Folgendes:</p> 
+   <td> <p>Die Zeit, die der Benutzer bei allen ihm zugewiesenen Aufgaben oder Problemen protokolliert hat.</p> <p>Dazu gehört Folgendes:</p> 
     <ul> 
-     <li>Aufgaben und Probleme, die dem Benutzer zugewiesen, aber keiner Auftragsrolle zugeordnet sind.</li> 
-     <li>Aufgaben und Probleme, die sich nicht auf Projekte beziehen, für die Sie Zugriff auf "Verwalten"haben. </li> 
-    </ul> <p>Dies umfasst die im Projekt angemeldete Zeit nur, wenn der Benutzer Aufgaben oder Problemen in diesem Projekt zugewiesen ist.  </p> </td> 
+     <li>Aufgaben und Probleme, die dem/der Benutzenden zugewiesen sind, aber keinem Aufgabengebiet zugeordnet sind.</li> 
+     <li>Aufgaben und Probleme, die sich nicht in Projekten befinden, für die Sie Zugriff auf „Verwalten“ haben. </li> 
+    </ul> <p>Dazu gehört die für das Projekt protokollierte Zeit, die nur dann erfasst wird, wenn der/die Benutzende Aufgaben oder Problemen in diesem Projekt zugewiesen ist.  </p> </td> 
   </tr> 
   <tr> 
    <td>Projekt </td> 
-   <td> <p>Die Zeit, die der Benutzer bei allen Aufgaben und Problemen protokolliert, die ihm im Projekt zugewiesen sind.</p> <p>Dies umfasst jede Zeit, in der sie sich direkt beim Projekt angemeldet haben.</p> <p>Dies umfasst nicht Folgendes:</p> 
+   <td> <p>Die Zeit, die Benutzende für alle Aufgaben und Probleme protokollieren, die ihnen im Projekt zugewiesen wurden.</p> <p>Dazu gehören alle Zeitpunkte, zu denen sie sich direkt am Projekt angemeldet haben.</p> <p>Dies umfasst nicht Folgendes:</p> 
     <ul> 
-     <li> <p>Zeit protokolliert für Aufgaben und Probleme, die Benutzern nicht zugewiesen sind. </p> </li> 
-     <li> <p>Zeit, die bei übergeordneten Aufgaben protokolliert wird. </p> </li> 
+     <li> <p>Protokollierte Zeit für Aufgaben und Probleme, die keinem Benutzer zugewiesen sind. </p> </li> 
+     <li> <p>Zeit, die für übergeordnete Aufgaben protokolliert wird. </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Funktion</td> 
-   <td> <p>Die Zeit, die bei allen Aufgaben oder Problemen protokolliert wird, die dem Benutzer in dieser Rolle zugewiesen sind. </p> <p>Dies umfasst nicht Folgendes:</p> 
+   <td> <p>Die Zeit, die für alle Aufgaben oder Probleme protokolliert wurde, die dem Benutzer in dieser Rolle zugewiesen wurden. </p> <p>Dies umfasst nicht Folgendes:</p> 
     <ul> 
-     <li>Zeit protokolliert für Aufgaben und Probleme, die dieser Rolle zugewiesen sind, aber nicht diesem Benutzer in dieser Rolle.</li> 
-     <li>Die direkt für das Projekt oder die übergeordneten Aufgaben protokollierte Zeit. </li> 
+     <li>Zeit, die für Aufgaben und Probleme protokolliert wurde, die dieser Rolle, aber nicht diesem Benutzer in dieser Rolle zugewiesen wurden.</li> 
+     <li>Direkt für das Projekt oder übergeordnete Aufgaben erfasste Zeit </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aufgabe oder Problem </td> 
-   <td> <p>Die Zeit, die von dem Benutzer, der ihnen auch zugewiesen ist, bei Aufgaben und Problemen protokolliert wird. </p> </td> 
+   <td> <p>Die Zeit, die der Benutzer für Aufgaben und Probleme aufgezeichnet hat und die ihm auch zugewiesen ist. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 >[!IMPORTANT]
 >
->Die protokollierte Zeit wird in dem Zeitrahmen angezeigt, der dem Startdatum des Stundeneintrags entspricht, unabhängig vom Zeitrahmen der Aufgabe, des Problems oder des Projekts, in dem die Stunden protokolliert werden.
+>Die protokollierte Zeit wird im Zeitrahmen angezeigt, der dem Eingabedatum des Stundeneintrags entspricht, unabhängig vom Zeitrahmen der Aufgabe, des Problems oder des Projekts, in dem die Stunden protokolliert werden.
 
 Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächliche Stunden anzeigen](../../manage-work/tasks/task-information/actual-hours.md).
 
@@ -209,12 +209,12 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Angezeigt von</strong> </td> 
+   <td><strong>angezeigt von</strong> </td> 
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Benutzerin oder Benutzer</td> 
-   <td> <p>Der Unterschied zwischen den verfügbaren und geplanten Stunden oder der FTE des Benutzers. </p> <p>Die Differenz zwischen Stunde und FTE wird anhand der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Hinweis: Wenn der Wert in negativen roten Zahlen angezeigt wird, wird der Benutzer übergeordnet. </p> </p> </td> 
+   <td> <p>Die Differenz zwischen der verfügbaren und der geplanten Stunde oder FTE des Benutzers. </p> <p>Die Differenz zwischen Stunde und FTE wird nach folgender Formel berechnet:</p> <p><code style="font-style: normal;">User Hour or FTE Difference = User Available Hours or FTE - User Planned Hours or FTE</code> </p> <p> <p>Hinweis: Wenn der Wert in negativen roten Zahlen angezeigt wird, ist der Benutzer überlastet. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Projekt</td> 
@@ -222,28 +222,28 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
   </tr> 
   <tr> 
    <td>Funktion</td> 
-   <td> <p>Der Unterschied zwischen den verfügbaren und geplanten Stunden oder der FTE der Stellenfunktion. </p> <p>Die Differenz zwischen Stunde und FTE wird anhand der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Hinweis: Wenn der Wert in negativen roten Zahlen angezeigt wird, wird die Rolle übergeordnet. </p> </p> </td> 
+   <td> <p>Die Differenz zwischen der verfügbaren und der geplanten Stunde (FTE) des Aufgabengebiets. </p> <p>Die Differenz zwischen Stunde und FTE wird nach folgender Formel berechnet:</p> <p><code style="font-style: normal;">Role Hour or FTE Difference = Role Available Hours or FTE - Role Planned Hours or FTE</code> </p> <p> <p>Hinweis: Wenn der Wert in negativen roten Zahlen angezeigt wird, ist die Rolle überlastet. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Aufgabe oder Problem</td> 
-   <td>Diese Informationen sind nicht für die Aufgabe, das Problem oder das Projekt verfügbar. </td> 
+   <td>Diese Informationen sind für die Aufgabe, das Problem oder das Projekt nicht verfügbar. </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Die Spalte % (Prozentsatz der geplanten Stundenzuordnung) {#the-planned-hours-allocation-percentage-column}
+### Die Spalte % (Geplante Stunden Zuordnung Prozentsatz) {#the-planned-hours-allocation-percentage-column}
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td><strong>Angezeigt von</strong> </td> 
+   <td><strong>angezeigt von</strong> </td> 
    <td> <p><strong>Beschreibung</strong> </p> </td> 
   </tr> 
   <tr> 
    <td>Benutzerin oder Benutzer</td> 
-   <td> <p>Die Zuweisung der geplanten Stunden oder der VZÄ in Prozent der verfügbaren Stunden. Der Prozentsatz der geplanten Stundenzuweisung wird anhand der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>Dieselbe Berechnung wird für FTE-Werte verwendet. </p> </td> 
+   <td> <p>Die Zuordnung der geplanten Stunden oder FTE als Prozentsatz der verfügbaren Stunden. Der Prozentsatz der geplanten Stundenzuweisung wird anhand der folgenden Formel berechnet:</p> <p><code style="font-style: normal;">User Planned Hours Allocation Percentage = (User Planned Hours/ User Available Hours) * 100</code> </p> <p>Für VZÄ-Werte wird dieselbe Berechnung verwendet. </p> </td> 
   </tr> 
   <tr> 
    <td>Projekt</td> 
@@ -251,18 +251,18 @@ Weitere Informationen zu den tatsächlichen Stunden finden Sie unter [Tatsächli
   </tr> 
   <tr> 
    <td>Funktion</td> 
-   <td> Die Zuweisung der geplanten Stunden oder der VZÄ in Prozent der verfügbaren Stunden. <p>Der Prozentsatz der geplanten Stundenzuweisung wird anhand der folgenden Formel berechnet:</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>Dieselbe Berechnung wird für FTE-Werte verwendet.</p></td> 
+   <td> Die Zuordnung der geplanten Stunden oder FTE als Prozentsatz der verfügbaren Stunden. <p>Der Prozentsatz der geplanten Stundenzuweisung wird anhand der folgenden Formel berechnet:</p><p><code style="font-style: normal;">Role Planned Hours Allocation Percentage = (Role Planned Hours/ Role Available Hours) * 100</code></p><p>Für VZÄ-Werte wird dieselbe Berechnung verwendet.</p></td> 
   </tr> 
   <tr> 
    <td>Aufgabe oder Problem</td> 
-   <td>Diese Informationen sind nicht für die Aufgabe, das Problem oder das Projekt verfügbar. </td> 
+   <td>Diese Informationen sind für die Aufgabe, das Problem oder das Projekt nicht verfügbar. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenn der Wert der geplanten Stunden oder VZÄ null ist, beträgt die Prozentzuweisung 0 %. Wenn der Wert der Verfügbaren Stunden oder VZÄ null ist, kann die Prozentzuweisung nicht berechnet werden.
+Wenn der Wert der geplanten Stunden oder VZÄ null ist, beträgt die prozentuale Zuordnung 0 %. Wenn der Wert der verfügbaren Stunden oder FTE null ist, kann die prozentuale Zuordnung nicht berechnet werden.
 
-Weitere Informationen zu geplanten Stunden und FTE sowie dazu, wie sie im Ressourcenplaner angezeigt werden, finden Sie unter [Budgetressourcen im Ressourcenplaner unter Verwendung der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+Weitere Informationen zu den geplanten Stunden und FTEs und wie sie im Ressourcenplaner angezeigt werden, finden Sie [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Aufgabenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;this table is ideal but it does not render in Markdown) </p>

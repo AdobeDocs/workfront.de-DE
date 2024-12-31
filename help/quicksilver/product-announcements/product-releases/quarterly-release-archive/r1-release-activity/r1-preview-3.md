@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: R1 Vorschau 3
-description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1.3-Version verfügbar sind. Die Funktionalität auf dieser Seite wurde am 1. Februar 2017 in der Vorschau-Umgebung bereitgestellt.
+title: R1-Vorschau 3
+description: Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.3 verfügbar sind. Die Funktion auf dieser Seite wurde am 1. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,82 +14,82 @@ ht-degree: 2%
 
 ---
 
-# R1 Vorschau 3
+# R1-Vorschau 3
 
-Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der R1.3-Version verfügbar sind. Die Funktionalität auf dieser Seite wurde am 1. Februar 2017 in der Vorschau-Umgebung bereitgestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die in der Vorschau-Umgebung mit der Version R1.3 verfügbar sind. Die Funktion auf dieser Seite wurde am 1. Februar 2017 in der Vorschau-Umgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die in R1 vorgenommen wurden, finden Sie unter [R1 - Übersicht über die Release-Aktivität](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
+Eine Liste aller in R1 vorgenommenen Änderungen finden Sie unter [R1-Versionsaktivität - Übersicht](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md). 
 
-## Verbesserte Methode zum Verknüpfen externer Dateien
+## Verbessertes Verfahren zum Verknüpfen externer Dateien
 
-Die Option zum Verknüpfen von Dokumenten aus einer externen Quelle (z. B. Google Drive, Box, Dropbox) befindet sich jetzt an einer auffälligeren Stelle im Bereich &quot;Dokumente&quot;. 
+Die Option zum Verknüpfen von Dokumenten aus einer externen Quelle (z. B. Google Drive, Box, Dropbox usw.) befindet sich jetzt an einer prominenteren Stelle im Bereich Dokumente . 
 
-Darüber hinaus ist die erstmalige Autorisierung eines Dokumentanbieters vor der Verknüpfung von Dateien von diesem Anbieter nun intuitiver (es handelt sich lediglich um einen zusätzlichen Schritt bei der Verknüpfung von Dateien von einem externen Anbieter).
+Darüber hinaus ist die Aktion, einen Dokumentanbieter vor der erstmaligen Verknüpfung von Dateien von diesem Anbieter zu autorisieren, jetzt intuitiver (es ist einfach ein zusätzlicher Schritt beim Verknüpfen von Dateien von einem externen Anbieter).
 
-Vor diesen Änderungen befand sich die Option zum Verknüpfen von Dateien aus einer externen Quelle im Dialogfeld &quot;Dokumente hinzufügen&quot;im Bereich &quot;Dokumente&quot;. Vor dem erstmaligen Verknüpfen eines Dokuments aus einer externen Quelle musste der Benutzer, der das Dokument verknüpft hat, diesen Dokumentanbieter im Bereich &quot;Einrichtung&quot;autorisieren.
+Vor diesen Änderungen befand sich die Option zum Verknüpfen von Dateien aus einer externen Quelle im Dialogfeld Dokumente hinzufügen im Bereich Dokumente . Vor dem erstmaligen Verknüpfen eines Dokuments aus einer externen Quelle musste der Benutzer, der das Dokument verknüpft, diesen Dokumentanbieter im Bereich „Setup“ autorisieren.
 
 Weitere Informationen finden Sie unter  [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-## Aktualisiertes Team zur Kalenderarbeit
+## Aktualisiertes Team, das am Kalender arbeitet
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools zur Ressourcenplanung werden nicht mehr unterstützt und mit Version 23.1 aus Workfront entfernt. Informationen zur Planung von Ressourcen mit dem Workload Balancer finden Sie unter [Übersicht über den Workload Balancer](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Der für Teams verfügbare Arbeitskalender enthält jetzt zusätzliche Funktionen und ein aktualisiertes Erscheinungsbild. Das Team, das mit dem Kalender arbeitet, funktioniert jetzt ähnlich wie das Tool zur Ressourcenplanung für Projekte.
+Der für Teams verfügbare Arbeitskalender enthält jetzt zusätzliche Funktionen und ein aktualisiertes Erscheinungsbild. Das Team, das im Kalender arbeitet, funktioniert jetzt ähnlich wie das Tool zur Ressourcenplanung für Projekte.
 
-Das aktualisierte Team, das am Kalender arbeitet, enthält die folgenden Verbesserungen:
+Der aktualisierte Kalender des Team-Arbeitskalenders enthält die folgenden Verbesserungen:
 
-* Benutzer alphabetisch anzeigen oder nach Rolle gruppieren.
-* Filtern Sie die Planung nach Projektprioritäten, Status und einzelnen Projekten. Sie können die Planung auch nach Rollen und Benutzern filtern. (Der Bereich Filter enthält weniger Optionen als bei der Planung von Ressourcen für Projekte.)
-* Schließen Sie Probleme in die Planung ein.
-* Zeigen Sie die Benutzerzuordnungen an und ändern Sie die Anzahl der Stunden, die den Benutzern für jeden Tag bestimmte Aufgaben und Probleme zugewiesen werden.
-* Anzeigen von Indikatoren, die anzeigen, wann Benutzer an einem bestimmten Tag zu viel zugeordnet sind.
-* Konfigurieren Sie, ob abgeschlossene Arbeiten in der Planung angezeigt werden.
+* Benutzer alphabetisch oder nach Rolle gruppiert anzeigen.
+* Filtern Sie die Zeitleiste nach Projektprioritäten, Status und einzelnen Projekten. Sie können die Zeitleiste auch nach Rollen und Benutzern filtern. (Der Filterbereich enthält weniger Optionen als bei der Planung von Ressourcen für Projekte.)
+* Probleme in die Zeitplanung einbeziehen.
+* Zeigen Sie Benutzerzuweisungen an und ändern Sie die Anzahl der Stunden, die Benutzenden bestimmten Aufgaben und Problemen pro Tag zugewiesen sind.
+* Anzeigen von Indikatoren, die anzeigen, wenn Benutzende an einem bestimmten Tag überlastet sind.
+* Konfigurieren Sie, ob abgeschlossene Arbeiten in der Zeitplanleiste angezeigt werden.
 
-Unterschiede zum Ressourcen-Planungstool bei der Planung von Ressourcen für Projekte:
+Unterschiede zum Tool Ressourcenplanung bei der Planung von Ressourcen für Projekte:
 
-* Alle Teammitglieder werden im Team angezeigt, das am Kalender arbeitet.\
-  Beim Planen von Ressourcen für Projekte werden nur Benutzer angezeigt, denen eine Rolle zugeordnet ist, die mit einer Rolle übereinstimmt, die einer oder mehreren Aufgaben im Bereich Nicht zugewiesen zugewiesen zugewiesen zugewiesen ist.
-* Das Swap-Tool ist nicht im Team, das am Kalender arbeitet, enthalten.
-* Jedes Teammitglied kann Änderungen am Team vornehmen, das am Kalender arbeitet.\
-  Beim Planen von Ressourcen für Projekte können nur Ressourcen-Manager Ressourcenentscheidungen für das Projekt treffen.
-* Probleme werden standardmäßig im Team angezeigt, das am Kalender arbeitet.\
+* Alle Team-Mitglieder werden im Kalender Team-Arbeit an angezeigt.\
+  Bei der Planung von Ressourcen für Projekte werden nur Benutzer angezeigt, denen eine Rolle zugeordnet ist, die einer Rolle von einer oder mehreren Aufgaben im Bereich Nicht zugewiesen entspricht.
+* Das Swap-Tool ist nicht verfügbar und ist nicht im Team-Arbeitskalender enthalten.
+* Jedes Teammitglied kann Änderungen am Arbeitskalender des Teams vornehmen.\
+  Bei der Planung von Ressourcen für Projekte können nur Ressourcenmanager Ressourcenentscheidungen für das Projekt treffen.
+* Probleme werden standardmäßig im Kalender des Teams angezeigt, das an ihnen arbeitet.\
   Beim Planen von Ressourcen für Projekte werden Probleme nicht standardmäßig angezeigt.
 
-Weitere Informationen zur Verwendung des aktualisierten Teams, das am Kalender arbeitet, finden Sie unter &quot;Ressourcenplanung&quot;.
+Weitere Informationen zur Verwendung des aktualisierten Kalenders für Team-Arbeitsaufgaben finden Sie unter „Ressourcenplanung“.
 
-## Verbesserungen bei der Ressourcenplanung
+## Verbesserungen der Ressourcenplanung
 
-Die Planung umfasst die folgenden Erweiterungen:
+Die Zeitplanung umfasst die folgenden Verbesserungen:
 
-* &quot;Verwenden Sie den Filter, um zu steuern, welche Benutzer in der Zeitleiste der Planung angezeigt werden.&quot;
-* &quot;Benutzer bleiben nach der Zuweisung einer Aufgabe in der Timeline.&quot;
+* „Verwenden Sie den Filter, um zu steuern, welche Benutzer in der Zeitplanleiste angezeigt werden.“
+* „Benutzende bleiben nach dem Zuweisen einer Aufgabe in der Zeitleiste“
 
-### Verwenden Sie den Filter, um zu steuern, welche Benutzer in der Zeitleiste der Planung angezeigt werden. {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
+### Verwenden Sie den Filter, um zu steuern, welche Benutzer in der Zeitplanleiste angezeigt werden {#use-the-filter-to-control-which-users-are-displayed-on-the-scheduling-timeline}
 
 >[!NOTE]
 >
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
+>Die Tools zur Ressourcenplanung werden nicht mehr unterstützt und mit Version 23.1 aus Workfront entfernt. Informationen zur Planung von Ressourcen mit dem Workload Balancer finden Sie unter [Übersicht über den Workload Balancer](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Der Filter kann jetzt verwendet werden, um zu steuern, welche Benutzer in der Planung angezeigt werden und welche Aufgaben und Probleme im Bereich Nicht zugewiesen angezeigt werden. Wenn Benutzer im Filter ausgewählt sind, werden nur die ausgewählten Benutzer angezeigt, unabhängig davon, ob sie über eine Rollenzuweisung verfügen, die der Rollenzuweisung für Aufgaben im Bereich Nicht zugewiesen entspricht. Alle Aufgaben, die diesem Benutzer derzeit zugewiesen sind, werden ebenfalls angezeigt.
+Mit dem Filter können Sie jetzt steuern, welche Benutzenden in der Zeitplanleiste angezeigt werden und welche Aufgaben und Probleme im Bereich Nicht zugewiesen angezeigt werden. Wenn Benutzende im Filter ausgewählt sind, werden nur die von Ihnen ausgewählten Benutzenden angezeigt, unabhängig davon, ob sie über eine Rollenzuweisung verfügen, die der Rollenzuweisung von Aufgaben im Bereich „Nicht zugewiesen“ entspricht. Alle Aufgaben, die diesem Benutzer derzeit zugewiesen sind, werden ebenfalls angezeigt.
 
-Vor dieser Änderung kontrollierte der Filter nur, welche Aufgaben und Probleme im Bereich Nicht zugewiesen angezeigt wurden. Benutzer wurden nur dann in der Planung angezeigt, wenn der Benutzer der Rollenzuweisung einer Aufgabe im Bereich &quot;Nicht zugewiesen&quot;entsprach.
+Vor dieser Änderung hat der Filter nur gesteuert, welche Aufgaben und Probleme im Bereich Nicht zugewiesen angezeigt wurden. Benutzende wurden nur dann in der Zeitplanleiste angezeigt, wenn der/die Benutzende mit der Rollenzuweisung einer Aufgabe im Bereich Nicht zugewiesen übereingestimmt hat.
 
-Weitere Informationen zur Verwendung des Filters zur Steuerung der Anzeige in der Zeitleiste der Planung finden Sie unter &quot;Informationen im Planungsbereich filtern&quot;und &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
+Weitere Informationen zur Verwendung des Filters zur Steuerung dessen, was auf der Zeitplanübersicht angezeigt wird, finden Sie unter „Informationen im Zeitplanbereich filtern“ und „Nicht zugewiesene Aufgaben und Probleme in den Zeitplanbereichen manuell zuweisen“.
 
-### Benutzer bleiben nach der Zuweisung einer Aufgabe in der Timeline. {#users-remain-on-the-timeline-after-being-assigned-a-task}
+### Benutzer bleiben auf der Zeitleiste, nachdem sie einer Aufgabe zugewiesen wurden {#users-remain-on-the-timeline-after-being-assigned-a-task}
 
-Benutzer verbleiben auf der Planung, nachdem ihnen eine Aufgabe oder ein Problem zugewiesen wurde, selbst wenn keine weiteren Aufgaben oder Probleme mit einer übereinstimmenden Rollenzuweisung vorhanden sind. Auf diese Weise können Sie alle erforderlichen Änderungen vornehmen, nachdem Benutzer zugewiesen wurden.
+Benutzer bleiben auch dann in der Zeitleiste für die Planung, wenn ihnen eine Aufgabe oder ein Problem zugewiesen wurde, selbst wenn es keine verbleibenden Aufgaben oder Probleme gibt, denen eine entsprechende Rollenzuweisung zugewiesen wurde. Auf diese Weise können Sie nach der Zuweisung von Benutzern alle erforderlichen Änderungen vornehmen.
 
-Vor dieser Änderung verschwanden die Benutzer unmittelbar nach der Zuweisung einer Aufgabe oder eines Problems aus der Planung, wenn keine weiteren Aufgaben oder Probleme im Bereich Nicht zugewiesen mit übereinstimmender Rollenzuweisung vorhanden waren.
+Vor dieser Änderung verschwanden Benutzer unmittelbar nach der Zuweisung einer Aufgabe oder eines Problems aus der Zeitplanleiste, wenn im Bereich Nicht zugewiesen mit einer entsprechenden Rollenzuweisung keine verbleibenden Aufgaben oder Probleme mehr vorhanden waren.
 
-Weitere Informationen finden Sie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
+Weitere Informationen finden Sie unter „Manuelles Zuweisen nicht zugewiesener Aufgaben und Probleme in den Zeitplanbereichen“.
 
-## Workfront-Terminologie durch Ändern von Objektnamen anpassen
+## Anpassen der Workfront-Terminologie durch Ändern von Objektnamen
 
-Sie können jetzt die Workfront-Terminologie anpassen, indem Sie die Namen bestimmter Objekte ändern.\
-Mithilfe einer Layout-Vorlage können Sie jetzt die Namen der folgenden Arbeitsobjekte an die Anforderungen in Ihrer Organisation anpassen:
+Sie können die Terminologie von Workfront jetzt anpassen, indem Sie die Namen bestimmter Objekte ändern.\
+Mithilfe einer Layout-Vorlage können Sie jetzt die Namen der folgenden Arbeitsobjekte ändern, um sie an die Anforderungen in Ihrem Unternehmen anzupassen:
 
 * Portfolio
 * Programm
@@ -97,14 +97,14 @@ Mithilfe einer Layout-Vorlage können Sie jetzt die Namen der folgenden Arbeitso
 * Aufgabe
 * Problem
 
-Wenn Sie beispielsweise in Ihrer Organisation mit Kampagnen anstelle von Projekten arbeiten, können Sie den Namen des Objekts &quot;Projekt&quot;durch &quot;Kampagne&quot;ersetzen.
+Wenn Sie in Ihrer Organisation beispielsweise mit Kampagnen anstelle von Projekten arbeiten, können Sie den Namen des Objekts „Projekt“ durch „Kampagne“ ersetzen.
 
 Wenn Sie diese Ersetzung vornehmen, wird in den folgenden Bereichen der Anwendung der aktualisierte Name der Objekte angezeigt:
 
 * Globale Navigationsleiste
 * Alle Registerkarten
 * Alle Menüs 
-* Berichterstellung und Berichterstellungselemente (Ansichten, Filter und Gruppierungen)
+* Report Builder- und Berichterstellungselemente (Ansichten, Filter und Gruppierungen)
 * Schaltflächen speichern
 * Exportierte Dateien
 * E-Mails
@@ -120,50 +120,50 @@ In den folgenden Bereichen wird der aktualisierte Name der Objekte nicht angezei
 * Mobile Apps
 * Outlook-Add-in
 
-Weitere Informationen zum Anpassen der Workfront-Terminologie mithilfe einer Layoutvorlage finden Sie im Abschnitt &quot;Terminologie anpassen&quot;unter &quot;Erstellen und Verwalten von Layoutvorlagen&quot;und im Abschnitt &quot;Grundlegendes zu den Auswirkungen des Anpassens von Objektnamen&quot;in [Grundlegendes zu Objekten in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+Weitere Informationen zum Anpassen der Workfront-Terminologie mithilfe einer Layout-Vorlage finden Sie im Abschnitt „Anpassen der Terminologie“ in „Erstellen und Verwalten von Layout-Vorlagen“ und im Abschnitt „Auswirkungen der Anpassung von Objektnamen“ in [Grundlegendes zu Objekten in Adobe Workfront](../../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-## Aufnahme von Start- und Enddaten für die Genehmigung in Berichte
+## Start- und Enddatum der Genehmigung in Berichte einschließen
 
-Beim Erstellen oder Ändern von Berichten können jetzt die folgenden Felder eingeschlossen werden:
+Beim Erstellen oder Ändern von Berichten können Sie jetzt die folgenden Felder einbeziehen:
 
 * Genehmigungspfad – Startdatum
-* Abschlussdatum des Genehmigungspfads
+* Genehmigungspfad - Abschlussdatum
 
-Mit diesen Feldern erhalten Sie einen Einblick in den Beginn des aktuellen oder letzten Genehmigungspfads und den Zeitpunkt, zu dem er als abgeschlossen markiert wurde.
+In diesen Feldern können Sie sehen, wann der aktuelle oder letzte Genehmigungspfad gestartet und als abgeschlossen markiert wurde.
 
 Weitere Informationen zu diesen Feldern finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-Weitere Informationen zu Genehmigungspfaden, ihrer Erstellung und Auslösung sowie zu der Funktion, die sie in Genehmigungsprozessen verwenden, finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+Weitere Informationen zu Validierungspfaden, wie sie erstellt und ausgelöst werden und welche Funktion sie in Validierungsprozessen erfüllen, finden Sie unter [Erstellen eines Validierungsprozesses für Arbeitselemente](../../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Die folgenden Felder wurden aus Workfront entfernt und können nicht mehr in Berichte aufgenommen werden (diese Felder enthielten Informationen zum Projekt und nicht Informationen über die Genehmigungen selbst, und wurden häufig falsch verwendet):
+Die folgenden Felder wurden aus Workfront entfernt und können nicht mehr in Berichte aufgenommen werden (diese Felder enthielten Informationen über das Projekt anstatt Informationen über die Genehmigungen selbst und wurden oft missbraucht):
 
-* Geplantes Anfangsdatum der Genehmigungen
+* Validierungen geplantes Startdatum
 * Voraussichtlicher Genehmigungsstarttermin
 * Voraussichtlicher Genehmigungsstarttermin
 
-## Neue E-Mail-Digest-Optionen für &quot;Anforderungen, die ich gestellt habe&quot;
+## Neue E-Mail-Digest-Optionen für „Von mir eingereichte Anfragen“
 
-Die Option Täglicher Digest-Versand wurde zum Bereich &quot;Anforderungen, die ich durchgeführt habe&quot;in Ihren Benachrichtigungseinstellungen hinzugefügt.
+Die Option Täglicher Digest-Versand wurde zum Bereich „Von mir durchgeführte Anfragen“ in Ihren Benachrichtigungseinstellungen hinzugefügt.
 
-Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
-
-Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können. Dies ist erforderlich, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht.
-
-## Aktualisierte E-Mail-Benachrichtigungen zur Dokumentgenehmigung
-
-Das Erscheinungsbild der Benachrichtigung für &quot;Dokumentgenehmigung&quot;wurde mit einer neuen Benutzeroberfläche aktualisiert:
-
-Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [Adobe Workfront-Benachrichtigungen](../../../../workfront-basics/using-notifications/wf-notifications.md).
+Weitere Informationen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](../../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können. Dies ist erforderlich, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht.
 
-## Verbesserungen in der Milestone-Ansicht
+## Aktualisiertes Erscheinungsbild der E-Mail-Benachrichtigungen zur Dokumentgenehmigung
 
-Die Meilensteinansicht, die beim Anzeigen einer Projektliste oder eines Projektberichts verfügbar ist, enthält jetzt die folgenden Verbesserungen:
+Das Erscheinungsbild der Benachrichtigung für die „Dokumentgenehmigung“ wurde mit einer neuen Benutzeroberfläche aktualisiert:
 
-* Geplante Datumswerte können bearbeitet werden
+Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [Adobe Workfront-](../../../../workfront-basics/using-notifications/wf-notifications.md).
+
+Denken Sie daran, die mit Ihrem Konto verknüpfte E-Mail-Adresse zu aktualisieren, um diese Funktion testen zu können. Dies ist erforderlich, da die Vorschau-Sandbox die E-Mail-Adressen für alle Benutzer löscht.
+
+## Verbesserungen in der Meilenstein -Ansicht
+
+Die Meilenstein -Ansicht, die beim Anzeigen einer Projektliste oder eines Projektberichts verfügbar ist, enthält jetzt die folgenden Verbesserungen:
+
+* Geplante Termine können bearbeitet werden
 * Prozent abgeschlossen für Projekte und Aufgaben wird angezeigt
 
-Vor dieser Änderung mussten Sie zur Änderung der Daten oder zum Anzeigen des Prozentsatzes zum Abschluss der einzelnen Aufgaben gehen.
+Um vor dieser Änderung die Daten bearbeiten oder den abgeschlossenen Prozentsatz anzeigen zu können, mussten Sie zu der einzelnen Aufgabe gehen.
 
-Weitere Informationen finden Sie unter [Verwenden der Meilensteinansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).
+Weitere Informationen finden Sie unter [Verwenden der Meilenstein -Ansicht](../../../../reports-and-dashboards/reports/reporting-elements/use-milestone-view.md).

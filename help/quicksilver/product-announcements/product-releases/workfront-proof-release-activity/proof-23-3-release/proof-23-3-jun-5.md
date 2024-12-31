@@ -2,8 +2,8 @@
 product-previous: workfront-proof
 content-type: release-notes
 navigation-topic: proof-release-activity
-title: Adobe Workfront Testversand 23.3 - Release-Aktivität Woche vom 5. Juni 2023
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 23.3 für Adobe Workfront Testversand in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 5. Juni 2023 verfügbar sein.
+title: Adobe Workfront-Korrekturabzug 23.3 Freigabeaktivität Woche vom 5. Juni 2023
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.3 für Adobe Workfront vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 5. Juni 2023 in der Produktionsumgebung verfügbar gemacht.
 author: Nolan
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -15,22 +15,22 @@ ht-degree: 0%
 
 ---
 
-# Adobe Workfront-Testversion 23.3: Woche vom 5. Juni 2023
+# Aktivität der Adobe Workfront-Version 23.3 vom 5. Juni 2023
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.3 für Adobe Workfront Testversand in der Vorschau-Umgebung am 5. Juni 2023 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 23.3 für den Adobe Workfront-Testversand in der Vorschau-Umgebung am 5. Juni 2023 vorgenommen wurden.
 
-Sofern nicht anders angegeben, werden diese Verbesserungen in der Produktionsumgebung mit Version 23.3 bereitgestellt.
+Sofern nicht anders angegeben, werden diese Verbesserungen mit Version 23.3 in der Produktionsumgebung verfügbar gemacht.
 
-## Ändern der Unterstützung für Microsoft Office-Testsendungen
+## Ändern der Unterstützung für Microsoft Office-Korrekturabzüge
 
-Um eine robuste und skalierbare Testversandlösung zu erhalten, ändern wir die unterstützten Microsoft Office-Dateitypen und -Dateigrößenbeschränkungen.
+Um eine robuste und skalierbare Korrekturabzugslösung zu erhalten, ändern wir unsere unterstützten Microsoft Office-Dateitypen und Dateigrößenbeschränkungen.
 
-Die folgenden Office-Dateitypen werden nicht mehr als Testsendungen unterstützt:
+Die folgenden Office-Dateitypen werden nicht mehr als Korrekturabzüge unterstützt:
 XLT, XLTX, DOT, DOTX, POT, POTX, PPS, PPSX
 
-Benutzer können mit der Erstellung von Testsendungen für die folgenden Office-Dateitypen fortfahren:
+Benutzer können mit dem Erstellen von Korrekturabzügen für die folgenden Office-Dateitypen fortfahren:
 DOC, DOCX, PPT, PPTX, XLS, XLSX
 
-Die Dateigrößenbeschränkung für PowerPoint- und Word-Dateien beträgt jetzt 512 MB.
+Die Dateigrößenbeschränkung von PowerPoint- und Word-Dateien beträgt jetzt 512 MB.
 
-Weitere Informationen finden Sie unter [Übersicht über unterstützte Testversand-Dateitypen und Größenbeschränkungen](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).
+Weitere Informationen finden Sie unter [Unterstützte Proofing-Dateitypen und Größenbeschränkungen - Übersicht](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md).

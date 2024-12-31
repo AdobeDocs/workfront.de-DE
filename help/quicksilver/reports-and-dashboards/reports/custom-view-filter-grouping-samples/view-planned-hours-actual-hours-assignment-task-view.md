@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Geplante Stunden im Vergleich zu tatsächlichen Stunden pro Zuweisung in einer Aufgabenansicht"
-description: In dieser Aufgabenansicht werden die Gesamtanzahl der geplanten Stunden einer Aufgabe, die Anzahl der geplanten Stunden, die jedem Verantwortlichen zugewiesen werden (wenn die Aufgabe mehreren Benutzern zugewiesen wird), die Gesamtzahl der tatsächlichen Stunden der Aufgabe und die Anzahl der tatsächlichen Stunden angezeigt, die von jedem Verantwortlichen protokolliert werden.
+title: 'Ansicht: Geplante Stunden im Vergleich zu tatsächlichen Stunden pro Zuweisung in einer Aufgabenansicht'
+description: Diese Aufgabenansicht zeigt die geplanten Gesamtstunden einer Aufgabe, die Anzahl der jedem Verantwortlichen zugewiesenen geplanten Stunden (wenn die Aufgabe mehreren Benutzern zugewiesen ist), die tatsächlichen Gesamtstunden der Aufgabe und die Anzahl der tatsächlichen Stunden an, die von jedem Verantwortlichen protokolliert wurden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f249ff57-50c7-4aa9-a563-cb7f5562b96a
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-In dieser Aufgabenansicht werden die Gesamtanzahl der geplanten Stunden einer Aufgabe, die Anzahl der geplanten Stunden, die jedem Verantwortlichen zugewiesen werden (wenn die Aufgabe mehreren Benutzern zugewiesen wird), die Gesamtzahl der tatsächlichen Stunden der Aufgabe und die Anzahl der tatsächlichen Stunden angezeigt, die von jedem Verantwortlichen protokolliert werden.
+Diese Aufgabenansicht zeigt die geplanten Gesamtstunden einer Aufgabe, die Anzahl der jedem Verantwortlichen zugewiesenen geplanten Stunden (wenn die Aufgabe mehreren Benutzern zugewiesen ist), die tatsächlichen Gesamtstunden der Aufgabe und die Anzahl der tatsächlichen Stunden an, die von jedem Verantwortlichen protokolliert wurden.
 
-![multi_assignment_budget_vs_IST_for_tasks.png](assets/multi-assignment-budget-vs-actual-for-tasks-350x66.png)
+![multi_assignment_budget_vs_actual_for_tasks.png](assets/multi-assignment-budget-vs-actual-for-tasks-350x66.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,48 +33,48 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen geplanter Stunden im Vergleich zu tatsächlichen Stunden pro Zuweisung in einer Aufgabenansicht
+## Ansicht „Geplante Stunden vs. Tatsächliche Stunden pro Zuweisung“ in einer Aufgabenansicht
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und klicken Sie auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **Wechseln in den Textmodus** > **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.descriptionkey=name
@@ -139,4 +139,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    column.4.width=300
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.

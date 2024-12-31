@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: 2019.1 Testversandverbesserungen
-description: Auf dieser Seite werden alle in Version 2019.1 enthaltenen Verbesserungen bei der Überprüfung beschrieben. Die Funktion ist jetzt in der Produktionsumgebung verfügbar.
+title: Korrekturabzug-Verbesserungen für 2019.1
+description: Auf dieser Seite werden alle in der Version 2019.1 enthaltenen Proofing-Verbesserungen beschrieben. Die Funktion ist jetzt in der Produktionsumgebung verfügbar.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -14,98 +14,98 @@ ht-degree: 0%
 
 ---
 
-# 2019.1 Testversandverbesserungen
+# Korrekturabzug-Verbesserungen für 2019.1
 
-Auf dieser Seite werden alle in Version 2019.1 enthaltenen Verbesserungen bei der Überprüfung beschrieben. Die Funktion ist jetzt in der Produktionsumgebung verfügbar.
+Auf dieser Seite werden alle in der Version 2019.1 enthaltenen Proofing-Verbesserungen beschrieben. Die Funktion ist jetzt in der Produktionsumgebung verfügbar.
 
-Eine Liste aller Änderungen, die in Version 2019.1 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2019.1}.](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
+Eine Liste aller in 2019.1 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität von 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md).
 
 ## Für Administratoren
 
-* [Konfigurieren der standardmäßigen Testversand-Rolle für Nicht-Empfänger, die einen Testversand öffnen](#configure-default-proofing-role-for-non-recipients-who-open-a-proof)
+* [Standard-Proofing-Rolle für Nicht-Empfänger konfigurieren, die einen Korrekturabzug öffnen](#configure-default-proofing-role-for-non-recipients-who-open-a-proof)
 
 ## Für alle Benutzer
 
-* [Testen interaktiver Inhalte im Web Proofing Viewer](#proof-interactive-content-in-the-web-proofing-viewer)
-* [Die standardmäßige Sortierreihenfolge für Kommentare im Testversand-Viewer ist jetzt von alt auf neu](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
-* [Verbesserte Überprüfung für Kommentare im Testversand-Viewer, der mit einem Videobereich verknüpft ist](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
-* [Link zu Dokumentdetails von einer Benachrichtigung zum Testversand oder dem Testversand-Viewer](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
-* [Ändern Ihrer E-Mail-Benachrichtigungen im Testversand-Viewer](#change-your-email-notifications-in-the-proofing-viewer)
+* [Korrekturabzug für interaktive Inhalte in der Web-Korrekturabzugsanzeige](#proof-interactive-content-in-the-web-proofing-viewer)
+* [Die standardmäßige Sortierreihenfolge für Kommentare im Proofing Viewer ist jetzt von „Von alt nach aktuell“](#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest)
+* [Verbesserte Überprüfung von Kommentaren im Proofing Viewer, der mit einer Reihe von Videos verknüpft ist](#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video)
+* [Link zu Dokumentdetails aus einer Korrekturabzugsbenachrichtigung oder der Proofing Viewer](#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer)
+* [Ändern von E-Mail-Benachrichtigungen im Proofing Viewer](#change-your-email-notifications-in-the-proofing-viewer)
 * [Ändern der Hintergrundfarbe im Desktop Proofing Viewer](#change-the-background-color-in-the-desktop-proofing-viewer)
-* [Löschen zwischengespeicherter Browserdaten aus einem Testversand im Desktop Testversand-Viewer](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
+* [Löschen zwischengespeicherter Browser-Daten aus einem Korrekturabzug im Desktop Proofing Viewer](#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer)
 
-## Konfigurieren der standardmäßigen Testversand-Rolle für Nicht-Empfänger, die einen Testversand öffnen {#configure-default-proofing-role-for-non-recipients-who-open-a-proof}
+## Standard-Proofing-Rolle für Nicht-Empfänger konfigurieren, die einen Korrekturabzug öffnen {#configure-default-proofing-role-for-non-recipients-who-open-a-proof}
 
-Workfront-Administratoren können jetzt die standardmäßige Testversandrolle für Benutzer konfigurieren, die im Testversand-Workflow nicht als Zielgruppe bestimmt wurden, aber über ihr Workfront-Objekt (z. B. Projekt, Aufgabe oder Problem) auf den Testversand zugreifen können.
+Workfront-Admins können jetzt die standardmäßige Proofing-Rolle für Benutzende konfigurieren, die keine designierten Empfängerinnen und Empfänger im Workflow des Korrekturabzugs sind, aber über das zugehörige Workfront-Objekt (z. B. Projekt, Aufgabe oder Problem) Zugriff auf den Korrekturabzug haben.
 
-Bisher war die standardmäßige Testfunktion von Benutzern und Gästen, die Zugriff auf einen Testversand hatten, ohne zum Workflow hinzugefügt zu werden, &quot;Überprüfer&quot;.
+Zuvor war die standardmäßige Proofing-Rolle von Benutzern und Gästen, die Zugriff auf einen Korrekturabzug hatten, ohne zum Workflow hinzugefügt zu werden, „Prüfer“.
 
-Diese Funktion gilt nur für Testsendungen, die in Workfront und nicht in Workfront Proof erstellt wurden.
+Diese Funktion gilt nur für Korrekturabzüge, die in Workfront und nicht in Workfront Proof erstellt wurden.
 
-## Testen interaktiver Inhalte im Web Proofing-Viewer {#proof-interactive-content-in-the-web-proofing-viewer}
+## Korrekturabzug für interaktive Inhalte in der Web-Korrekturabzugsanzeige {#proof-interactive-content-in-the-web-proofing-viewer}
 
-Wenn die Sicherheitsrichtlinien Ihres Unternehmens die Verwendung der Standalone Desktop Proofing Viewer App nicht zulassen, kann Ihr Workfront-Administrator jetzt interaktive Inhalte im Web Proofing Viewer aktivieren. Der Inhalt muss in einer ZIP-Datei gebündelt werden, bevor Sie den Testversand erstellen.
-
-Weitere Informationen finden Sie im Artikel .
-
-VIDEO
-
-## Die standardmäßige Sortierreihenfolge für Kommentare im Testversand-Viewer ist jetzt von alt auf neu  {#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest}
-
-Im Testversand-Viewer ist die standardmäßige Sortierreihenfolge für Kommentare zu einem Testversand jetzt von alt zu neueste, wie in einer verbalen Konversation.
-
-Zuvor war die standardmäßige Sortierreihenfolge von Neueste zu Älteste.
-
-Sie können eine andere Sortieroption auswählen, die für alle anderen Testsendungen gespeichert wird, die Sie öffnen.
-
-Weitere Informationen finden Sie im Abschnitt im Artikel .
-
-## Erweiterte Überprüfung für Kommentare im Testversand-Viewer, der mit einem Videobereich verknüpft ist {#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video}
-
-Wenn Sie einen Kommentar überprüfen, der mit einer Reihe von Videobildern im Proofing-Viewer verknüpft ist, können Sie jetzt auf Abspielen klicken, um den gesamten Bereich des Filmmaterials anzuzeigen. Die Wiedergabe wird angehalten, wenn sie das Ende des Bereichs erreicht. Der Kommentar bleibt offen, damit Sie nicht verlieren, wo Sie sind.
-
-Zuvor mussten Sie beim Öffnen eines Kommentars für eine Reihe von Videobildern manuell den Anfang des Bereichs finden, indem Sie sich die im Kommentar angezeigten Bildnummern ansehen, bevor Sie auf Abspielen klicken. Andernfalls begann die Wiedergabe des Testversand-Viewers überall dort, wo Sie zuletzt in der Video-Timeline geklickt haben, und sie wurde am Ende des Bereichs nicht angehalten. Außerdem wurde der Kommentar beim Klicken auf Abspielen ausgeblendet, sodass nicht mehr klar war, welcher Kommentar Sie überprüft haben.
-
-Informationen zum Überprüfen von Videoproofs finden Sie unter .
-
-VIDEO
-
-## Link zu Dokumentdetails über eine Testbenachrichtigung oder den Testversand-Viewer {#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer}
-
-Wenn Sie eine E-Mail erhalten, in der Sie zur Überprüfung eines Testversands eingeladen werden, oder Sie einen Testversand im Testversand-Viewer durchführen, können Sie jetzt schnell auf die Seite mit den Dokumentdetails für den Testversand zugreifen. Auf dieser Seite können Sie das Workfront-Objekt (z. B. eine Aufgabe, ein Projekt oder ein Problem) sehen, das mit dem Testversand verknüpft ist. Dies bietet Kontext, der Ihnen dabei hilft, die Arbeit zu verstehen, die Sie für den Testversand benötigen.
-
-Diese Funktion funktioniert möglicherweise nur für neue Benutzer, die Sie Ihrem System hinzufügen. Dieses Problem ist vorübergehend.
+Wenn die Sicherheitsrichtlinien Ihres Unternehmens die Verwendung der eigenständigen Desktop Proofing Viewer-App nicht zulassen, kann Ihr Workfront-Administrator jetzt interaktive Inhalte im Web Proofing Viewer aktivieren. Der Inhalt muss in einer ZIP-Datei gebündelt werden, bevor Sie den Korrekturabzug erstellen.
 
 Weitere Informationen finden Sie im Artikel .
 
 VIDEO
 
-## E-Mail-Benachrichtigungen im Testversand-Viewer ändern {#change-your-email-notifications-in-the-proofing-viewer}
+## Die standardmäßige Sortierreihenfolge für Kommentare im Proofing Viewer ist jetzt von „Von alt nach aktuell“  {#default-sorting-order-for-comments-in-the-proofing-viewer-is-now-oldest-to-latest}
 
-Jetzt können alle Testversandvalidierer angeben, welche Testversandbenachrichtigungen sie für einen Testversand erhalten möchten. Dies ist besonders wichtig bei der Zusammenarbeit mit externen Interessengruppen.
+In der Proofing Viewer ist die standardmäßige Sortierreihenfolge für Kommentare zu einem Korrekturabzug jetzt von Alt nach Neu , wie in einer verbalen Konversation.
 
-Zuvor konnte nur der Testversand-Eigentümer oder Traffic-Manager die E-Mail-Warnungen eines Testversands für die Validierer konfigurieren, die er zum Testversand hinzugefügt hat. Externe Mitarbeiter konnten nicht steuern, welche E-Mail-Warnungen sie über den Testversand erhalten haben, da sie weder über den erforderlichen Zugriff auf Workfront noch über die entsprechende Berechtigungsstufe verfügten.
+Zuvor war die Standard-Sortierreihenfolge Spätestes zu Ältestes.
 
-Diese Einstellungen unterscheiden sich von den E-Mail-Warnhinweiseinstellungen, die Sie in Workfront konfigurieren können.
+Sie können eine andere Sortieroption auswählen. Diese wird für alle anderen von Ihnen geöffneten Korrekturabzüge gespeichert.
 
-Weitere Informationen finden Sie unter [Benachrichtigungen für Testversand-Kommentare und -Entscheidungen verwalten](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+Weitere Informationen finden Sie im Abschnitt des Artikels .
+
+## Die Überprüfung von Kommentaren im Proofing Viewer, die mit einer Reihe von Videos verknüpft sind, wurde verbessert {#enhanced-reviewing-for-comments-in-the-proofing-viewer-associated-with-a-range-of-video}
+
+Wenn Sie einen Kommentar durchgehen, der mit einer Reihe von Videomaterial in der Proofing Viewer verknüpft ist, können Sie jetzt auf Abspielen klicken, um das gesamte Spektrum von Filmmaterial anzuzeigen. Die Wiedergabe wird angehalten, wenn sie das Ende des Bereichs erreicht. Der Kommentar bleibt offen, sodass Sie nicht den Überblick verlieren, wo Sie sind.
+
+Zuvor mussten Sie beim Öffnen eines Kommentars für eine Reihe von Videomaterial den Anfang des Bereichs manuell finden, indem Sie sich die im Kommentar angezeigten Framenummern ansahen, bevor Sie auf Abspielen klicken. Andernfalls begann die Korrekturabzugsanzeige mit der Wiedergabe an den Stellen, an denen Sie das letzte Mal in der Video-Zeitleiste geklickt haben, und wurde am Ende des Bereichs nicht angehalten. Außerdem wurde der Kommentar ausgeblendet, wenn Sie auf „Abspielen“ geklickt haben, sodass nicht mehr klar war, welchen Kommentar Sie geprüft haben.
+
+Informationen zum Überprüfen von Videoprüfungen finden Sie unter .
+
+VIDEO
+
+## Link zu Dokumentdetails aus einer Korrekturabzugsbenachrichtigung oder der Korrekturabzugsanzeige {#link-to-document-details-from-a-proof-notification-or-the-proofing-viewer}
+
+Wenn Sie eine E-Mail erhalten, in der Sie eingeladen werden, einen Korrekturabzug zu prüfen, oder einen Korrekturabzug in der Korrekturabzugsansicht prüfen, können Sie jetzt schnell auf die Dokumentdetailseite für den Korrekturabzug zugreifen. Auf dieser Seite wird das Workfront-Objekt (z. B. eine Aufgabe, ein Projekt oder ein Problem) angezeigt, das mit dem Korrekturabzug verknüpft ist. Dies bietet Kontext, der Ihnen dabei hilft, die Arbeit zu verstehen, die Sie am Korrekturabzug durchführen müssen.
+
+Diese Funktion funktioniert möglicherweise nur für neue Benutzer, die Sie Ihrem System hinzufügen. Dieses Problem ist temporär.
+
+Weitere Informationen finden Sie im Artikel .
+
+VIDEO
+
+## E-Mail-Benachrichtigungen in der Proofing-Anzeige ändern {#change-your-email-notifications-in-the-proofing-viewer}
+
+Jetzt können alle Proofing-Reviewer angeben, welche Proofing-Benachrichtigungen sie für einen Korrekturabzug erhalten möchten. Dies ist besonders wichtig bei der Zusammenarbeit mit externen Stakeholdern.
+
+Zuvor konnten nur der Testversand-Verantwortliche oder der Traffic-Manager die E-Mail-Warnungen für Testsendungen für die Prüfer konfigurieren, die sie zum Testversand hinzugefügt haben. Externe Mitwirkende konnten nicht steuern, welche E-Mail-Warnungen sie bezüglich des Korrekturabzugs erhalten haben, da sie weder über den erforderlichen Zugriff auf Workfront noch über die entsprechende Berechtigungsstufe verfügten.
+
+Diese Einstellungen sind unabhängig von den E-Mail-Warnhinweiseinstellungen, die Sie in Workfront konfigurieren können.
+
+Weitere Informationen finden Sie unter [Verwalten von Benachrichtigungen für Kommentare und Entscheidungen zu Korrekturabzügen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
 
 VIDEO
 
 ## Ändern der Hintergrundfarbe im Desktop Proofing Viewer {#change-the-background-color-in-the-desktop-proofing-viewer}
 
-Jetzt können Sie die Hintergrundfarbe des Desktop Proofing-Viewers von der standardmäßigen nahezu schwarzen Farbe in Weiß ändern. Dies erleichtert die Anzeige von Testsendungen mit transparentem Hintergrund.
+Jetzt können Sie die Hintergrundfarbe des Desktop Proofing Viewers von der Standardfarbe für Beinahe-Schwarz in Weiß ändern. Dies erleichtert die Anzeige von Korrekturabzugsinhalten mit transparentem Hintergrund.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Testversand-Viewer-Einstellungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen für Proofing Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 VIDEO
 
-## Löschen zwischengespeicherter Browserdaten aus einem Testversand im Desktop Testversand-Viewer {#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer}
+## Löschen zwischengespeicherter Browser-Daten aus einem Korrekturabzug im Desktop Proofing Viewer {#clear-cached-browser-data-from-a-proof-in-the-desktop-proofing-viewer}
 
-Wenn die Cookie- und Cache-Einstellungen Ihres Browsers so eingestellt sind, dass Inhalte wie Popups blockiert werden, kann dieses Blockierungsverhalten auch im Desktop Proofing Viewer auftreten, sodass Prüfer den Popup-Inhalt in Ihrem Testversand nicht sehen und kommentieren können.
+Wenn die Cookie- und Cache-Einstellungen Ihres Browsers so eingestellt sind, dass Inhalte wie Popups blockiert werden, kann dieses Blockierverhalten auch im Desktop Proofing Viewer auftreten, sodass es für Prüfer unmöglich ist, den Popup-Inhalt in Ihrem Korrekturabzug zu sehen und zu kommentieren.
 
-Jetzt können Sie die Browser-Cache-Daten löschen, die möglicherweise mit einem Testversand gespeichert werden, sodass alle Inhalte im Desktop Proofing Viewer angezeigt werden und Überprüfer sie sehen und kommentieren können.
+Jetzt können Sie die Browser-Cache-Daten löschen, die mit einem Korrekturabzug gespeichert werden können, damit alle Inhalte im Desktop Proofing Viewer angezeigt werden und Prüfer sie sehen und kommentieren können.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Testversand-Viewer-Einstellungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
+Weitere Informationen finden Sie unter [Konfigurieren der Einstellungen für Proofing Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md).
 
 VIDEO

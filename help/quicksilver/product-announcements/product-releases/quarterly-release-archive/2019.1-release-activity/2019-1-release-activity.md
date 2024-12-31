@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-1-release-activity
-title: Aktivität "Version 2019.1"
-description: 2019.1 Testversandverbesserungen
+title: Aktivität „Version 2019.1“
+description: Korrekturabzug-Verbesserungen für 2019.1
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,10 +14,10 @@ ht-degree: 0%
 
 ---
 
-# Aktivität &quot;Version 2019.1&quot;
+# Aktivität „Version 2019.1“
 
-* [Übersicht über die Veröffentlichungsaktivität 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
-* [Projektverbesserungen 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
-* [Verbesserungen der Ressourcenverwaltung 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
-* [Verbesserungen bei der Prüfung für 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
-* [Verbesserungen bei Mobile und Integration in 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)
+* Übersicht über die Versionsaktivität [2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-release-activity-overview.md)
+* [2019.1 - Projektverbesserungen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-project-enhancements.md)
+* [2019.1 Verbesserungen beim Ressourcenmanagement](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-rsrc-mngmnt-enhncmnts.md)
+* [2019.1 Proofing-Verbesserungen](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-proofing-enhancements.md)
+* [Verbesserungen bei Mobile und Integration 2019.1](../../../../product-announcements/product-releases/quarterly-release-archive/2019.1-release-activity/2019-1-mbl-intgrtn-enhncmnts.md)

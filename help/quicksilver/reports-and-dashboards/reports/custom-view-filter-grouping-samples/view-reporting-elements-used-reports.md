@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: In Berichten verwendete Berichterstellungselemente'
-description: Diese Ansicht zeigt die Ansicht, den Filter und die Gruppierung an, die zum Erstellen der einzelnen Berichte in Adobe Workfront verwendet werden, wenn Sie sie in einer Berichtsliste verwenden.
+title: 'Anzeigen: In Berichten verwendete Berichterstellungselemente'
+description: In dieser Ansicht werden die Ansicht, der Filter und die Gruppierung angezeigt, die zum Erstellen jedes Berichts in Adobe Workfront verwendet werden, wenn Sie ihn in einer Liste von Berichten verwenden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 67f86523-e136-4768-af93-586a107b106f
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Ansicht: In Berichten verwendete Berichterstellungselemente
+# Anzeigen: in Berichten verwendete Berichterstellungselemente
 
 <!--Audited: 11/2024-->
 
-Diese Ansicht zeigt die Ansicht, den Filter und die Gruppierung an, die zum Erstellen der einzelnen Berichte in Adobe Workfront verwendet werden, wenn Sie sie in einer Berichtsliste verwenden.
+In dieser Ansicht werden die Ansicht, der Filter und die Gruppierung angezeigt, die zum Erstellen jedes Berichts in Adobe Workfront verwendet werden, wenn Sie ihn in einer Liste von Berichten verwenden.
 
-Sie können sehen, dass in jedem Element des Berichts `valuefields` oder `valueexpressions` verwendet wird.
+Sie können die `valuefields` oder `valueexpressions` sehen, die in jedem Element des Berichts verwendet werden.
 
 ![report_with_elements_definitions.png](assets/report-with-elements-definitions-350x130.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,47 +35,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## In Berichten verwendete Berichtselemente anzeigen
+## Anzeigen der in Berichten verwendeten Berichterstellungselemente
 
-1. Gehen Sie zu einer Liste von Berichten.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
+1. Navigieren Sie zu einer Liste mit Berichten.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
+1. Entfernen Sie im Bereich **Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
 1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
 
    ```
@@ -119,4 +119,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    column.5.valueformat=HTML
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.

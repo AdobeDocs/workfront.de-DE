@@ -20,18 +20,18 @@ ht-degree: 0%
 
 In dieser Projektansicht haben Sie folgende Möglichkeiten:
 
-* Zeigen Sie Projektinformationen im mehrzeiligen Format an.\
-  Die Ansicht verwendet das Tag `sharecol=true` , um mehrere Felder unter derselben Spaltenüberschrift zu kombinieren. Weitere Informationen zu diesem Tag finden Sie unter [Anzeigen: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+* Zeigt Projektinformationen in einem mehrzeiligen Format an.\
+  Die Ansicht verwendet das Tag `sharecol=true` , um mehrere Felder unter derselben Spaltenüberschrift zu kombinieren. Weitere Informationen zu diesem Tag finden Sie unter [Anzeigen: Zusammenführungsinformationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-* Verwenden Sie eine Platzhalterspalte mit einem HTML-Zeilenumbruch-Tag (`<br>`), um die Anzeige der Beschreibung unter dem Projektnamen zu erzwingen, z. B. .
-* Zeigen Sie den Projektinhaber in Klammern nach dem Projektnamen an.
-* Zeigen Sie den Projektnamen als Link zum Projekt an.
+* Verwenden Sie eine Platzhalterspalte, die ein HTML-Zeilenumbruch-Tag (`<br>`) enthält, um beispielsweise die Anzeige der Beschreibung unter dem Projektnamen zu erzwingen.
+* Zeigt den Projektbesitzer in Klammern nach dem Projektnamen an.
+* Zeigt den Projektnamen als Link zum Projekt an.
 
 ![](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -40,47 +40,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Erstellen einer mehrzeiligen Projektansicht
 
-1. Gehen Sie zu einer Projektliste.
-1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
-1. Entfernen Sie alle Spalten in der Ansicht, mit Ausnahme einer.
-1. Wählen Sie die verbleibende Spalte aus und klicken Sie auf **Wechseln zum Textmodus** und dann auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text im **Textmodus bearbeiten** -Modus, kopieren Sie den Textmodus und fügen Sie ihn in die Spalte ein:
+1. Zu einer Projektliste gehen.
+1. Klicken Sie **Dropdown** Menü „Ansicht“ auf **Neue Ansicht**.
+1. Entfernen Sie alle Spalten in der Ansicht mit Ausnahme einer.
+1. Wählen Sie die verbleibende Spalte aus und klicken Sie auf **Wechseln in den Textmodus** und dann **Textmodus bearbeiten**.
+1. Entfernen Sie den Text im **Textmodus“,** kopieren Sie dann den Textmodus unter und fügen Sie ihn in die Spalte ein:
 
    ```
    column.0.linkedname=direct
@@ -192,4 +192,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    ```
 
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.

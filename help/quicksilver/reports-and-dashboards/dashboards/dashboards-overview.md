@@ -19,5 +19,5 @@ ht-degree: 6%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Dashboards verstehen](../../reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
+* [Grundlegendes zu Dashboards](../../reports-and-dashboards/dashboards/understanding-dashboards/understand-dashboards.md)
 * [Erstellen und Verwalten von Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-and-manage-dashboards.md)

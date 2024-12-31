@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Report: Budgeted Hour"
-description: "Report: Budgeted Hour"
+title: 'Bericht: Budgetierte Stunde'
+description: 'Bericht: Budgetierte Stunde'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
@@ -22,17 +22,17 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: From&nbsp;Alina: This is my article, but since it's about building a report, it is in the Reporting section. Please don't remove it -it's linked to Resource Management and it is super important.) </p>
 -->
 
-Wenn Sie Budgeted Hour-Informationen mit anderen Benutzern teilen möchten, die keinen Zugriff auf den Resource Planer haben, können Sie dies tun, indem Sie einen Budgeted Hour-Bericht erstellen. Sie können den Bericht dann für sie freigeben.
+Wenn Sie Informationen zu budgetierten Stunden für andere Benutzer freigeben möchten, die keinen Zugriff auf den Ressourcenplaner haben, können Sie dies tun, indem Sie einen Bericht zu budgetierten Stunden erstellen. Anschließend können Sie den Bericht für sie freigeben.
 
 >[!IMPORTANT]
 >
->Budgetierte Stunden werden in der Adobe Workfront-Datenbank in der Regel stündlich aktualisiert (selten kann dies bis zu drei Stunden dauern). Beim Aktualisieren des Berichts werden die Stundeninformationen nicht unbedingt aktualisiert. Sie können die seit der letzten Aktualisierung verstrichene Zeit in der rechten oberen Ecke eines jeden Berichts zur budgetierten Stunde anzeigen. Beim Aktualisieren des Berichts werden die darin enthaltenen Informationen nur aktualisiert, wenn seit der letzten Aktualisierung mehr als eine Stunde vergangen ist.
+>Budgetierte Stunden werden in der Adobe Workfront-Datenbank normalerweise stündlich aktualisiert (selten, es kann maximal drei Stunden dauern). Durch Aktualisieren des Berichts werden die darin enthaltenen Stundeninformationen nicht unbedingt aktualisiert. Sie können die seit der letzten Aktualisierung verstrichene Zeit in der oberen rechten Ecke jedes Berichts Budgetierte Stunde anzeigen. Durch die Aktualisierung des Berichts werden die darin enthaltenen Informationen nur dann aktualisiert, wenn seit der letzten Aktualisierung mehr als eine Stunde vergangen ist.
 >
 >![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,67 +41,67 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen eines budgetierten Stundenberichts
+## Erstellen eines Berichts zur budgetierten Stunde
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts oder, falls verfügbar, auf das Symbol **Hauptmenü** oben links, das Symbol ![](assets/lines-main-menu.png) und klicken Sie dann auf **Berichte**.![](assets/main-menu-icon.png)
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte**.
 
 1. Klicken Sie auf **Neuer Bericht** > **Mehr** > **Budgetierte Stunde**.
 
    Die Standardansicht wird auf den Bericht angewendet.
 
-1. (Optional) Um den Bericht leichter zu lesen, klicken Sie auf den **Bud. Stunden** , dann **in den Textmodus wechseln** und dann auf **Textmodus bearbeiten** klicken.
-1. Ändern Sie die Zeile `valuefield` in `valueexpreesion` und geben Sie den Rundungsausdruck ein.
+1. (Optional) Um die Lesbarkeit des Berichts zu vereinfachen, klicken Sie auf **Bud. Stunden** Spalte, **Wechseln Sie in den Textmodus** und klicken Sie dann auf **Textmodus bearbeiten**.
+1. Ändern Sie die `valuefield` in `valueexpreesion` und geben Sie den Rundungsausdruck ein.
 
-   Dadurch wird die Anzahl der geplanten Stunden auf eine Anzahl von Dezimalstellen gerundet, die Sie angeben.
+   Dadurch wird die Anzahl der budgetierten Stunden auf eine von Ihnen angegebene Anzahl von Dezimalstellen gerundet.
 
-   Weitere Informationen zum Umrunden einer Zahl in Workfront finden Sie im Artikel [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+   Informationen zum Runden einer Zahl in Workfront finden Sie im Artikel [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-1. Klicken Sie auf **Fertig**.
-1. (Optional) Klicken Sie auf **Spalte hinzufügen** , um zusätzliche Spalten hinzuzufügen.
-1. (Optional) Um das Lesen des Berichts zu vereinfachen, wird empfohlen, ihm eine Gruppierung hinzuzufügen. Wir empfehlen die folgende Gruppierung:
+1. Klicken Sie **Fertig**.
+1. (Optional) Klicken Sie auf **Spalte hinzufügen**, um weitere Spalten hinzuzufügen.
+1. (Optional) Um die Lesbarkeit des Berichts zu vereinfachen, wird empfohlen, eine Gruppierung hinzuzufügen. Wir schlagen folgende Gruppierung vor:
 
-   Klicken Sie auf die Registerkarte **Gruppierungen** und führen Sie dann einen oder mehrere der folgenden Schritte aus:
+   Klicken Sie auf **Registerkarte** Gruppierungen“ und führen Sie dann einen oder mehrere der folgenden Schritte aus:
 
-   * Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Projektname&quot;. Wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
-   * Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe von &quot;Auftragsrollenname&quot;. Wählen Sie ihn dann aus, wenn er in der Liste angezeigt wird.
-   * Klicken Sie auf **Gruppierung hinzufügen** und beginnen Sie mit der Eingabe &quot;Zuordnungsdatum&quot;, wählen Sie es aus, wenn es in der Liste angezeigt wird, und wählen Sie dann den Zeitrahmen aus, nach dem Sie die Gruppe im Feld **Datumsgruppen nach** gruppieren möchten.
+   * Klicken Sie auf **Gruppierung hinzufügen** und geben Sie „Projektname“ ein. Wählen Sie dann aus, wenn er in der Liste angezeigt wird.
+   * Klicken Sie auf **Gruppierung hinzufügen** und geben Sie zunächst „Name des Aufgabengebiets“ ein. Wählen Sie diesen aus, wenn er in der Liste angezeigt wird.
+   * Klicken Sie auf **Gruppierung hinzufügen** und geben Sie „Zuteilungsdatum“ ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und wählen Sie dann den Zeitrahmen, nach dem Sie gruppieren möchten, aus dem Feld **Gruppierungsdatum nach** aus.
 
-1. (Optional) Klicken Sie auf **Filter** , um dem Bericht Filter hinzuzufügen.
-1. (Optional) Klicken Sie auf **Diagramm** , um dem Bericht ein Diagramm hinzuzufügen.
+1. (Optional) Klicken Sie auf **Filter**, um dem Bericht Filter hinzuzufügen.
+1. (Optional) Klicken Sie auf **Diagramm**, um dem Bericht ein Diagramm hinzuzufügen.
 1. Klicken Sie auf **Speichern + schließen**.
 
-## Überprüfung des Berichts über die budgetierte Stunde
+## Bericht zur budgetierten Stunde prüfen
 
-Standardmäßig sind im Bericht &quot;Budgetierte Stunde&quot;folgende Informationen verfügbar:
+Im Bericht „Budgetierte Stunde“ sind standardmäßig die folgenden Informationen verfügbar:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -109,11 +109,11 @@ Standardmäßig sind im Bericht &quot;Budgetierte Stunde&quot;folgende Informati
  <tbody> 
   <tr> 
    <td role="rowheader">Projekt </td> 
-   <td>Dies ist der Name des Projekts, das mit der budgetierten Stunde verbunden ist.</td> 
+   <td>Dies ist der Name des Projekts, das mit der budgetierten Stunde verknüpft ist.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Auftragsrolle</p> </td> 
-   <td>Dies ist der Name der Stellenfunktion, die mit der budgetierten Stunde verbunden ist. </td> 
+   <td role="rowheader"> <p>Aufgabengebiet</p> </td> 
+   <td>Dies ist der Name des Aufgabengebiets, das mit der budgetierten Stunde verknüpft ist. </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Benutzerin oder Benutzer</td> 
@@ -121,15 +121,15 @@ Standardmäßig sind im Bericht &quot;Budgetierte Stunde&quot;folgende Informati
   </tr> 
   <tr> 
    <td role="rowheader">Zuteilungsdt.</td> 
-   <td> <p>Dies ist das Zuordnungsdatum. Es ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden geplant haben.</p> <p>Tipp:  <p>Wenn sich eine Woche über zwei Monate erstreckt, werden im Bericht zwei Zeilen generiert: eine Zeile, die dem ersten Wochentag (dem Sonntag der Woche, der im ersten Monat stattfindet) entspricht, und eine zweite Zeile, die dem ersten Tag des zweiten Monats entspricht (und möglicherweise einem beliebigen Wochentag entspricht).</p> <p>Wenn Sie z. B. für einen Benutzer einen Etat von 8 Stunden für die Woche vom 30. Juni (Sonntag) bis 6. Juli (Samstag) anlegen, zeigen die beiden Zeilen das Zuordnungsdatum 30. Juni und 1. Juli an.</p> </p> </td> 
+   <td> <p>Dies ist das Zuteilungsdatum. Es ist der erste Tag (ein Sonntag) der Woche, für die Sie die Stunden budgetiert haben.</p> <p>Tipp:  <p>Wenn sich eine Woche über zwei Monate erstreckt, werden zwei Zeilen im Bericht generiert: eine Zeile, die dem ersten Tag der Woche entspricht (der Sonntag der Woche, der während des ersten Monats liegt), und eine zweite, die dem ersten Tag des zweiten Monats entspricht (und der ein beliebiger Tag der Woche sein kann).</p> <p>Wenn Sie beispielsweise 8 Stunden für einen Benutzer für die Woche vom 30. Juni (Sonntag) bis zum 6. Juli (Samstag) budgetieren, zeigen die beiden Zeilen das Zuordnungsdatum 30. Juni und 1. Juli an.</p> </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Bdg. Stunden</td> 
-   <td>Dies sind die budgetierten Stunden, die dem Benutzer im Ressourcenplaner zugewiesen werden.</td> 
+   <td>Dies sind die budgetierten Stunden, die dem Benutzer im Ressourcenplaner zugeordnet sind.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Pln. Bdg. Stunden</td> 
-   <td>Dies sind die budgetierten Stunden, die der Stellenrolle oder dem Projekt im Ressourcenplaner zugewiesen werden.</td> 
+   <td role="rowheader">Gpl. Bdg. Stunden</td> 
+   <td>Dies sind die budgetierten Stunden, die dem Aufgabengebiet oder Projekt im Ressourcenplaner zugeordnet sind.</td> 
   </tr> 
  </tbody> 
 </table>

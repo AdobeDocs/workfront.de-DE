@@ -2,8 +2,8 @@
 product-previous: mobile
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: Verbesserungen der Integration und Mobile 2019.3
-description: Auf dieser Seite werden alle Änderungen beschrieben, die mit Version 2019.3 vorgenommen wurden. Es wurde in der Produktionsumgebung in der Woche vom 19. August 2019 zur Verfügung gestellt.
+title: 2019.3 Verbesserungen bei der Integration und Mobilgeräten
+description: Auf dieser Seite werden alle Integrationsänderungen und Verbesserungen an Mobilgeräten beschrieben, die mit der Version 2019.3 vorgenommen wurden. Es wurde in der Woche vom 19. August 2019 in der Produktionsumgebung zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
@@ -15,93 +15,93 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen der Integration und Mobile 2019.3
+# 2019.3 Verbesserungen bei der Integration und Mobilgeräten
 
-Auf dieser Seite werden alle Änderungen beschrieben, die mit Version 2019.3 vorgenommen wurden. Es wurde in der Produktionsumgebung in der Woche vom 19. August 2019 zur Verfügung gestellt.
+Auf dieser Seite werden alle Integrationsänderungen und Verbesserungen an Mobilgeräten beschrieben, die mit der Version 2019.3 vorgenommen wurden. Es wurde in der Woche vom 19. August 2019 in der Produktionsumgebung zur Verfügung gestellt.
 
-Eine Liste aller Änderungen, die in Version 2019.3 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Eine Liste aller in 2019.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
 ## Unterstützung freigegebener Elemente in der MS OneDrive-Integration
 
 Jetzt können Sie Ihre freigegebenen OneDrive-Dateien und -Ordner mit Workfront-Objekten verknüpfen. Umgekehrt können Sie Dateien in Workfront in freigegebene Ordner in OneDrive hochladen.
 
-Weitere Informationen finden Sie in den Abschnitten [Verknüpfen eines externen Dokuments mit Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Verknüpfen eines oder mehrerer externer Ordner](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) und [Aktualisieren und Verknüpfen eines Dokuments von Workfront mit einem externen Cloud-Anbieter](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) im Artikel [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen finden Sie in den Abschnitten [Verknüpfen eines externen Dokuments mit Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents), [Verknüpfen von einem oder mehreren externen Ordnern](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-a-folder) und [Aktualisieren und Verknüpfen eines Dokuments aus Workfront mit einem externen Cloud-Anbieter](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#sending-documents) im Artikel [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Weitere Informationen finden Sie im Abschnitt &quot;[Verknüpfen eines externen Dokuments mit Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents)&quot;im Artikel &quot;[Verknüpfen von Dokumenten aus externen Anwendungen&quot;](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md)&quot;.
+Weitere Informationen finden Sie im Abschnitt [Verknüpfen eines externen Dokuments mit Workfront](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md#linking-existing-documents) im Artikel [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-## Domänenspezifikation für alle Workfront-Anmeldungen erforderlich
+## Für alle Workfront-Anmeldungen erforderliche Domain-Spezifikation
 
-Bei allen Workfront-Anmeldungen muss der Benutzer jetzt die Domäne angeben, wenn die Domäne nicht bereits in der Workfront-URL angegeben ist. Wenn Sie diese Informationen benötigen, wird die Sicherheit Ihrer Workfront-Instanz erhöht. Wenn Ihre Implementierung von Workfront mehrere Instanzen aufweist, können Sie mit dieser Verbesserung außerdem denselben Benutzer zu jeder Instanz von Workfront in Ihrer Implementierung hinzufügen.
+Bei allen Workfront-Anmeldungen muss der Benutzer jetzt die Domain angeben, wenn diese nicht bereits in der Workfront-URL angegeben ist. Wenn Sie diese Informationen benötigen, wird Ihre Workfront-Instanz sicherer. Wenn Ihre Workfront-Implementierung mehrere Instanzen hat, können Sie mit dieser Verbesserung außerdem denselben Benutzer zu jeder Instanz von Workfront innerhalb Ihrer Implementierung hinzufügen.
 
 Diese Änderung kann sich sowohl auf Benutzeranmeldungen als auch auf API-Integrationen auswirken:
 
 * **Benutzeranmeldungen**
 
-  Wenn Ihre Unternehmensdomäne nicht in der Workfront-URL enthalten ist, wird jetzt auf dem Anmeldebildschirm neben den Feldern Benutzername und Kennwort ein neues Feld Domäne angezeigt.
+  Wenn Ihre Unternehmens-Domain nicht in der Workfront-URL enthalten ist, wird jetzt auf dem Anmeldebildschirm neben den Feldern Benutzername und Kennwort ein neues Feld Domain angezeigt.
 
-  Für die meisten Kunden ist keine Änderung erforderlich, da die Domäneninformationen bereits in der Workfront-URL enthalten sind. Beispiel: &quot;*domain*.my.workfront.com&quot;.
+  Für die meisten Kunden ist keine Änderung erforderlich, da die Domain-Informationen bereits in der Workfront-URL enthalten sind. Beispiel: &quot;*domain*.my.workfront.com.“
 
 * **API-Integrationen**
 
-  Wenn ein API-Code an eine Adresse gesendet wird, die Ihren Domänennamen nicht enthält, funktioniert dieser API-Code nicht mehr.
+  Wenn Sie API-Code an eine Adresse senden, die Ihren Domain-Namen nicht enthält, funktioniert dieser API-Code nicht mehr.
 
 Weitere Informationen finden Sie unter [Bei Adobe Workfront anmelden](../../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
 
-## Konvertieren von Aufgaben und Problemen in Projekte mit der mobilen App in iOS
+## Konvertieren von Aufgaben und Problemen in Projekte mithilfe der Mobile App in iOS
 
-Sie können jetzt einzelne Aufgaben und Probleme in der mobilen Workfront-App in iOS in Projekte konvertieren.
+Sie können jetzt einzelne Aufgaben und Probleme in der Mobile App von Workfront in iOS in Projekte konvertieren.
 
-## Melden Sie sich mit der Fingerabdruck- oder Gesicht-ID bei der mobilen App an
+## Melden Sie sich mit Fingerabdruck oder Gesicht-ID bei der Mobile App an
 
-Je nach Gerät können Sie sich mit der Fingerabdruck- oder Gesicht-ID-Technologie bei der mobilen Workfront-App anmelden. Wenn Sie sich bei der Mobile App anmelden, werden Sie gefragt, ob Sie sich mit der von Ihrem Telefon unterstützten Authentifizierungsmethode anmelden möchten.
+Je nach Gerät können Sie sich mit der Fingerabdruck- oder Gesichtstechnologie bei der Mobile App von Workfront anmelden. Wenn Sie sich bei der App anmelden, werden Sie gefragt, ob Sie sich mit der von Ihrem Telefon unterstützten Authentifizierungsmethode anmelden möchten.
 
-Weitere Informationen zum Verwalten dieser Funktion finden Sie unter [Adobe Workfront für iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) oder [Adobe Workfront für Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
+Weitere Informationen zur Verwaltung dieser Funktion finden Sie unter [Adobe Workfront für iOS](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) oder [Adobe Workfront für Android](../../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
-## Neue Einstellung für die automatische Abmeldung von Benutzern auf einem Mobilgerät
+## Neue Einstellung zum automatischen Abmelden von Benutzern auf Mobilgeräten
 
-Damit die mobile Workfront-App für Sie und Ihr Unternehmen sicherer wird, werden Benutzer nach 15 Tagen Inaktivität automatisch abgemeldet. Workfront-Administratoren können diese Zeitbeschränkung in der Webanwendung unter Einrichtung > System > Voreinstellungen anpassen.
+Um die Sicherheit der Mobile App von Workfront für Sie und Ihr Unternehmen zu erhöhen, werden Benutzer nach 15 Tagen Inaktivität automatisch abgemeldet. Workfront-Administratoren können dieses Zeitlimit in der Web-Anwendung unter „Setup“ > „System“ > „Voreinstellungen“ anpassen.
 
-Weitere Informationen finden Sie unter [Systemsicherheitsvoreinstellungen konfigurieren](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Weitere Informationen finden Sie unter [Systemsicherheitseinstellungen konfigurieren](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-## Mobile App erfordert Domäne beim Anmelden
+## Mobile App erfordert beim Anmelden die Domäne .
 
-Zur Verbesserung der Sicherheit müssen Sie bei der Workfront Mobile App jetzt Ihre Domäne angeben, wenn Sie sich nicht mit Single-Sign-On-Anmeldedaten anmelden.
+Zur Verbesserung der Sicherheit erfordert die Workfront Mobile App jetzt die Angabe Ihrer Domain, wenn Sie sich nicht mit Single Sign-On-Anmeldeinformationen anmelden.
 
 >[!NOTE]
 >
->iOS-Verfügbarkeit: 12. Juni 2019
+>Verfügbarkeit von iOS: 12. Juni 2019
 >
 >Produktionsverfügbarkeit: 17. Juni 2019
 
-## Löschen von Objekten mithilfe der Mobile App in iOS
+## Löschen von Objekten mit der Mobile App in iOS
 
 >[!NOTE]
 >
->Diese Funktion wurde am 19. August 2019 in den App Stores für iOS zur Verfügung gestellt.
+>Diese Funktion wurde in den App Stores für iOS in der Woche vom 19. August 2019 zur Verfügung gestellt.
 
-Sie können jetzt Objekte wie Aufgaben, Probleme und Timesheets in der mobilen iOS-App löschen. Sie müssen über die richtigen Berechtigungen für das Objekt verfügen, um es zu löschen.
+Sie können jetzt Objekte wie Aufgaben, Probleme und Arbeitszeittabellen in der iOS Mobile App löschen. Sie müssen über die richtigen Berechtigungen für das Objekt verfügen, um es löschen zu können.
 
-## Filtern nach &quot;Dead Projects&quot;in der Mobile App
+## Filtern nach eingestellten Projekten in der Mobile App
 
 >[!NOTE]
 >
->Diese Funktion ist ab der 19. August 2019 in den App Stores für iOS und Android verfügbar.
+>Diese Funktion wird in den App-Stores sowohl für iOS als auch für Android in der Woche vom 19. August 2019 verfügbar sein.
 
-&quot;Inaktive Projekte&quot;wurde auf der Registerkarte &quot;Projekte&quot;der Mobile App als Filteroption hinzugefügt.
+Wir haben auf der Registerkarte „Projekte“ in der Mobile App die Option „Inaktive Projekte“ als Filter hinzugefügt.
 
-## Zurücksetzen Ihres Kennworts mithilfe der Mobile App
+## Zurücksetzen des Kennworts mithilfe der Mobile App
 
-Sie können die Workfront Mobile App verwenden, um Ihr Kennwort zurückzusetzen, wenn Sie es vergessen haben. Tippen Sie auf Kennwort vergessen? und folgen Sie den Anweisungen auf dem Bildschirm. Sie können Ihr SSO-Kennwort in der Mobile App nicht zurücksetzen.
+Sie können die Workfront Mobile App verwenden, um Ihr Kennwort zurückzusetzen, wenn Sie es vergessen haben. Tippen Sie auf Kennwort vergessen? und folgen Sie den Anweisungen auf dem Bildschirm. Sie können Ihr SSO-Passwort in der Mobile App nicht zurücksetzen.
 
 ## Neues Erscheinungsbild für Mobilgeräte
 
-Wir haben die folgenden Verbesserungen hinsichtlich Aussehen und Verhalten hinzugefügt, um Ihr Erlebnis in der mobilen Workfront-App zu verbessern.
+Wir haben die folgenden Verbesserungen des Erscheinungsbilds hinzugefügt, um Ihr Erlebnis mit der Workfront Mobile App zu verbessern.
 
-* Die folgenden Bereiche wurden aus der oberen Leiste der Detailseite in markantere Bereiche auf dem Bildschirm verschoben:
+* Folgender Eintrag wurde aus der oberen Leiste auf der Seite „Details“ in hervorgehobene Bereiche auf dem Bildschirm verschoben:
 
-   * Das Pluszeichen befindet sich jetzt in der unteren linken Ecke des Bildschirms
-   * Das Häkchen, mit dem ein Element bearbeitet werden soll, ist jetzt die Schaltfläche &quot;Work On It&quot;(Bearbeiten auf einem Element) in der oberen Mitte des Bildschirms.
+   * Das Pluszeichen befindet sich jetzt in der linken unteren Ecke des Bildschirms
+   * Das Häkchen, um mit der Arbeit an einem Element zu beginnen, ist jetzt eine Schaltfläche Bearbeiten in der oberen Mitte des Bildschirms
 
 * Sie können jetzt angehängte benutzerdefinierte Formulare anzeigen, indem Sie unten auf der Detailseite auf Mehr anzeigen tippen.
-* Das Erscheinungsbild der Seiten, die Sie zum Senden von Aufgaben, Problemen und Anforderungen verwenden, wurde geändert.
+* Das Erscheinungsbild der Seiten zum Senden von Aufgaben, Problemen und Anfragen wurde geändert.
 

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-3-release-activity
-title: Verbesserungen der Ressourcenplanung 2019.3
-description: Auf dieser Seite werden alle Änderungen beschrieben, die mit Version 2019.3 vorgenommen wurden. Es wurde in der Produktionsumgebung in der Woche vom 19. August 2019 zur Verfügung gestellt.
+title: Verbesserungen bei der Ressourcenplanung für 2019.3
+description: Auf dieser Seite werden alle Änderungen und Verbesserungen bei der Ressourcenplanung beschrieben, die mit der Version 2019.3 vorgenommen wurden. Es wurde in der Woche vom 19. August 2019 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,37 +14,37 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen der Ressourcenplanung 2019.3
+# Verbesserungen bei der Ressourcenplanung für 2019.3
 
-Auf dieser Seite werden alle Änderungen beschrieben, die mit Version 2019.3 vorgenommen wurden. Es wurde in der Produktionsumgebung in der Woche vom 19. August 2019 zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen und Verbesserungen bei der Ressourcenplanung beschrieben, die mit der Version 2019.3 vorgenommen wurden. Es wurde in der Woche vom 19. August 2019 in der Produktionsumgebung bereitgestellt.
 
-Eine Liste aller Änderungen, die in Version 2019.3 vorgenommen wurden, finden Sie unter [Übersicht über die Release-Aktivität 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
+Eine Liste aller in 2019.3 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2019.3](../../../../product-announcements/product-releases/quarterly-release-archive/2019.3-release-activity/2019-3-release-activity-overview.md).
 
-## Erstellen eines Berichts für geplante Stunden
+## Erstellen eines Berichts zu budgetierten Stunden
 
-Sie können jetzt einen Bericht erstellen, um außerhalb des Ressourcenplaners budgetierte Stunden anzuzeigen.
+Sie können jetzt einen Bericht erstellen, um budgetierte Stunden außerhalb des Ressourcenplaners anzuzeigen.
 
-Wenn Sie einen Bericht für geplante Stunden erstellen, können Sie im Ressourcenplaner (im Feld &quot;Geplante Stunden&quot;) mit Benutzern verknüpfte Budgetzeiten und im Feld mit Projekten oder Auftragsrollen (im Feld Geplante budgetierte Stunden ) mit Budgetierungszeiten anzeigen.
+Wenn Sie einen Bericht zu budgetierten Stunden erstellen, können Sie budgetierte Stunden, die mit Benutzern verknüpft sind, im Ressourcenplaner (im Feld „Budgetierte Stunden„) und budgetierte Stunden, die mit Projekten oder Aufgabengebieten verknüpft sind (im Feld „Geplante budgetierte Stunden„) anzeigen.
 
-Weitere Informationen zum Anzeigen von Budgetzeit in einem Bericht finden Sie unter [Bericht über die geplanten Stunden im Ressourcenplaner](../../../../resource-mgmt/resource-planning/report-on-budgeted-hours.md).
+Informationen zur Anzeige budgetierter Stunden in einem Bericht finden Sie unter [Bericht zu Ressourcenplaner budgetierten Stunden](../../../../resource-mgmt/resource-planning/report-on-budgeted-hours.md).
 
-## Neue Einstellungen zum Ausblenden der Spalte &quot;Tatsächliche Stunden&quot;im Ressourcenplaner
+## Neue Einstellungen zum Ausblenden der Spalte Tatsächliche Stunden im Ressourcenplaner
 
-Sie können jetzt die Spalte &quot;Tatsächliche Stunden&quot;ein- oder ausblenden, wenn Sie Informationen nach Benutzer im Ressourcenplaner anzeigen.
+Sie können jetzt die Spalte Tatsächliche Stunden ein- oder ausblenden, wenn Sie Informationen nach Benutzer im Ressourcenplaner anzeigen.
 
-Informationen zu den Einstellungen im Ressourcenplaner finden Sie im Abschnitt [Einstellungen](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) der Navigationsübersicht für den [Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Informationen zu den Einstellungen im Ressourcenplaner finden Sie im Abschnitt [Einstellungen](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) der [Übersicht zum Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-## Ressourcen-Pools sind im Bereich Ressourcenbudgetierung des Geschäftsfalles persistent.
+## Ressourcenpools sind im Bereich „Ressourcenbudgetierung“ des Business Case persistent
 
-Wenn Sie nun Ihre Ressourcen im Bereich &quot;Ressourcenbudgetierung&quot;des Geschäftsszenarios einplanen, sind die Ressourcen, die Sie bereits im Projekt gespeichert haben, persistent, wenn Sie von der Seite weg navigieren und wieder zurückkehren.
+Wenn Sie jetzt Ihre Ressourcen im Bereich Ressourcenbudgetierung des Business Case budgetieren, bleiben die bereits im Projekt gespeicherten Ressourcenpools erhalten, wenn Sie die Seite verlassen und wiederkommen.
 
-Informationen zu Budgeteinträgen im Geschäftsfall finden Sie unter [Budgetressourcen im Geschäftsfall](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Informationen zur Budgetierung von Ressourcen im Business Case finden Sie unter [Budgetressourcen im Business Case](../../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-## Der Zugriff auf Finanzdaten auf Kostenraten wirkt sich auf Informationen im Ressourcenplaner aus, die nach Kosten angezeigt werden
+## Finanzdaten Der Zugriff auf Kostensätze wirkt sich auf Informationen im Ressourcenplaner aus, die nach Kosten angezeigt werden
 
-Workfront-Administratoren können jetzt festlegen, welche Benutzer Zugriff auf Kostendaten für Rollen, Benutzer oder Projekte im Ressourcenplaner haben, um sie anzuzeigen oder zu bearbeiten. Diese Funktion ist im Bereich Finanzdaten der Zugriffsebene verfügbar.
+Workfront-Admins können jetzt festlegen, welche Benutzenden Zugriff haben, um Kosteninformationen für Rollen, Benutzende oder Projekte im Ressourcenplaner anzuzeigen oder zu bearbeiten. Diese Funktion ist im Bereich Finanzdaten der Zugriffsebene verfügbar.
 
-Vor dieser Änderung standen alle Kosteninformationen stets allen Benutzern im Resource Planer zur Verfügung.
+Vor dieser Änderung standen im Ressourcenplaner alle Kosteninformationen für alle Benutzer immer zur Verfügung.
 
-Weitere Informationen zu Kosteninformationen im Ressourcenplaner finden Sie unter [Berechnen der Kosten im Ressourcenplaner](../../../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
+Weitere Informationen zu Kosteninformationen im Ressourcenplaner finden Sie unter [Kosten im Ressourcenplaner berechnen](../../../../resource-mgmt/resource-planning/calculate-costs-resource-planner.md).
 

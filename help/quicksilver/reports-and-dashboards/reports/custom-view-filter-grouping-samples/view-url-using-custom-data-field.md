@@ -3,7 +3,7 @@ content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Ansicht: Externe URL mit benutzerdefiniertem Datenfeld'
-description: Sie können einen Link zu einer internen benutzerdefinierten URL anzeigen, indem Sie in einer Aufgabenansicht ein berechnetes benutzerdefiniertes Feld namens "Benutzerdefinierte URL"verwenden.
+description: Sie können einen Link zu einer internen benutzerdefinierten URL anzeigen, indem Sie ein berechnetes benutzerdefiniertes Feld namens „Benutzerdefinierte URL“ in einer Aufgabenansicht verwenden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
@@ -18,19 +18,19 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Sie können einen Link zu einer internen benutzerdefinierten URL anzeigen, indem Sie ein **berechnetes benutzerdefiniertes Feld** mit dem Namen &quot;Benutzerdefinierte URL&quot;in einer **Aufgabenansicht** verwenden.
+Sie können einen Link zu einer internen benutzerdefinierten URL mithilfe eines **berechneten benutzerdefinierten Felds** namens „Benutzerdefinierte URL“ in einer **Aufgabenansicht“**.
 
-Auf diese Weise können Sie bestimmte Objekte in einer Ansicht schnell und direkt aus Ihren Berichten zu bestimmten Bereichen der Anwendung verknüpfen.
+So können Sie direkt aus Ihren Berichten schnell Verknüpfungen von bestimmten Objekten in einer Ansicht zu bestimmten Bereichen der Anwendung erstellen.
 
-Beim Erstellen eines berechneten benutzerdefinierten Felds müssen Sie zunächst das Feld erstellen und dann die Ansicht erstellen.
+Beim Erstellen eines berechneten benutzerdefinierten Felds müssen Sie zunächst das Feld und dann die Ansicht erstellen.
 
-Die folgenden Abschnitte sind ein Beispiel für ein berechnetes benutzerdefiniertes Feld für Aufgaben. Das benutzerdefinierte Feld heißt &quot;Benutzerdefinierte URL&quot;. Die benutzerdefinierte Ansicht zeigt den Wert des Felds sowie das Feld **URL** für Aufgaben an.
+Die folgenden Abschnitte sind ein Beispiel für ein berechnetes benutzerdefiniertes Feld für Aufgaben. Das benutzerdefinierte Feld wird als benutzerdefinierte URL bezeichnet. In der benutzerdefinierten Ansicht werden der Wert des Felds sowie das Feld **URL** für Aufgaben angezeigt.
 
 Mit denselben Schritten können Sie ähnliche berechnete benutzerdefinierte Felder und benutzerdefinierte Ansichten für alle Objekte im System erstellen, die über ein benutzerdefiniertes Formular verfügen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -39,69 +39,69 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen Sie das berechnete benutzerdefinierte Feld &quot;Benutzerdefinierte URL&quot;
+## Erstellen des berechneten benutzerdefinierten Feldes „Benutzerdefinierte URL“
 
-Informationen zum Erstellen eines berechneten benutzerdefinierten Felds finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Informationen zum Erstellen eines berechneten benutzerdefinierten Felds finden Sie unter [Hinzufügen berechneter Felder zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-Wenn Sie Zugriff haben, um ein benutzerdefiniertes Formular zu erstellen, können Sie ein berechnetes benutzerdefiniertes Feld für Aufgaben namens &quot;Benutzerdefinierte URL&quot;erstellen. Dieses Feld verknüpft direkt mit der Unterregisterkarte **Übersicht** auf der Registerkarte **Aufgabendetails** .
+Wenn Sie Zugriff auf das Erstellen eines benutzerdefinierten Formulars haben, können Sie ein berechnetes benutzerdefiniertes Feld für Aufgaben namens „Benutzerdefinierte URL“ erstellen. Dieses Feld ist direkt mit der Unterregisterkarte **Übersicht** in der Registerkarte **Aufgabendetails** verknüpft.
 
 1. Erstellen Sie ein berechnetes benutzerdefiniertes Feld.
-1. Geben Sie im Feld Berechnung folgenden Code ein:
+1. Geben Sie im Feld Berechnung den folgenden Code ein:
 
-   CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com&quot;,&quot;/&quot;,&quot;task/&quot;,ID,&quot;/overview&#39;&#39;)
+   CONCAT(&#39;&#39;https://`<domain>`.my.workfront.com“,“/&quot;,„task/&quot;,ID,“/overview&#39;&#39;&#39;)
 
-1. Ersetzen Sie &quot;`<domain>`&quot; durch Ihren tatsächlichen Domänennamen ohne die Klammern. Der Abschnitt `/overview` dieser URL leitet den Link zum Abschnitt **Übersicht** im linken Bereich der Aufgabe weiter.
+1. Ersetzen Sie &quot;`<domain>`&quot; durch den tatsächlichen Domain-Namen (ohne die Klammern). Der `/overview` Teil dieser URL leitet den Link zum Abschnitt **Übersicht** im linken Bedienfeld der Aufgabe weiter.
 
-1. Fügen Sie nach der Erstellung Ihres **berechneten benutzerdefinierten Felds** das Feld **Benutzerdefiniertes Formular** mit diesem Feld an mehrere Aufgaben in Adobe Workfront an, die in Ihrer neuen Ansicht angezeigt werden sollen.
+1. Fügen Sie nach dem Erstellen **berechneten benutzerdefinierten Felds** das **benutzerdefinierte Formular** mit diesem Feld an mehrere Aufgaben in Adobe Workfront an, die in der neuen Ansicht angezeigt werden sollen.
 
-## Erstellen Sie die Ansicht, die die Felder &quot;Benutzerdefinierte URL&quot;und &quot;URL&quot;der Aufgabe anzeigt
+## Erstellen Sie die Ansicht, die die Felder „Benutzerdefinierte URL“ und „URL“ der Aufgabe anzeigt
 
-Die Aufgabe **Anzeigen** im folgenden Beispiel zeigt das **berechnete benutzerdefinierte Feld** mit dem Namen &quot;Benutzerdefinierte URL&quot;als direkten Link zur Unterregisterkarte **Überblick** auf der Registerkarte **Details** der Aufgabe sowie das Feld **URL** der Aufgabe an.
+Die Aufgabe **Ansicht** im folgenden Beispiel zeigt das **Berechnetes benutzerdefiniertes Feld** namens „Benutzerdefinierte URL“ als direkten Link zur Unterregisterkarte **Übersicht** innerhalb der Registerkarte **Details** sowie das **URL**-Feld der Aufgabe.
 
 ![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 So passen Sie diese Ansicht an:
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Erweitern Sie das Dropdown-Menü **Ansicht** oben in der Aufgabenliste.
-1. Klicken Sie auf **Ansicht anpassen**.
-1. Entfernen Sie alle Spalten in der Ansicht, mit Ausnahme der ersten Spalte.
+1. Zu einer Aufgabenliste gehen.
+1. Erweitern Sie **Dropdown** Ansicht“ oben in der Aufgabenliste.
+1. Klicken Sie **Ansicht anpassen**.
+1. Entfernen Sie alle Spalten in der Ansicht mit Ausnahme der ersten Spalte.
 1. Klicken Sie auf die Kopfzeile der ersten Spalte.
-1. Klicken Sie auf **Wechseln zum Textmodus** > **Textmodus bearbeiten**.
+1. Klicken Sie **In Textmodus wechseln** > **Textmodus bearbeiten**.
 1. Entfernen Sie den Text im Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
 
@@ -146,6 +146,6 @@ So passen Sie diese Ansicht an:
    column.2.width=150
    ```
 
-   In diesem Beispiel ist &quot;column.1&quot;. -Zeilen zeigen den Wert im Feld &quot;Benutzerdefinierte URL&quot;als Link in den Abschnitt **Überblick** der Aufgabe; &quot;Spalte.2&quot;an. zeigt den Wert an, der im **URL-Feld** der Aufgabe gespeichert ist.
+   In diesem Beispiel ist die Spalte „Column.1“ In Zeilen wird der Wert im Feld „Benutzerdefinierte URL“ als Link zum Abschnitt „Übersicht **der Aufgabe angezeigt** „Spalte.2.“ zeigt den im Feld **URL** der Aufgabe gespeicherten Wert an.
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.

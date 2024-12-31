@@ -1,6 +1,6 @@
 ---
-title: Bericht in Berichtsarbeitsfläche exportieren
-description: Bericht in Berichtsarbeitsfläche exportieren
+title: Exportieren eines Berichts auf der Reporting-Arbeitsfläche
+description: Exportieren eines Berichts auf der Reporting-Arbeitsfläche
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
@@ -11,9 +11,9 @@ ht-degree: 2%
 
 ---
 
-# Bericht in Berichtsarbeitsfläche exportieren
+# Exportieren eines Berichts auf der Reporting-Arbeitsfläche
 
-Sie können einen ganzen Bericht - oder einen bestimmten Block - in ein Dateiformat exportieren, das Ihren Anforderungen entspricht. Sie können Folgendes exportieren:
+Sie können einen gesamten Bericht oder einen bestimmten Block in ein Dateiformat exportieren, das Ihren Anforderungen entspricht. Sie können exportieren nach:
 
 * PDF (derzeit deaktiviert)
 * CSV
@@ -22,20 +22,20 @@ Sie können einen ganzen Bericht - oder einen bestimmten Block - in ein Dateifor
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Arbeitsfläche für die Berichterstellung Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsfläche registrieren. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Betaversion: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
-## Bericht exportieren
+## Exportieren eines Berichts
 
 1. Navigieren Sie zu dem Bericht, den Sie exportieren möchten.
-1. Klicken Sie in der Kopfzeile des Berichts auf das Symbol **Mehr** ![](assets/more-icon-27x15.png), klicken Sie auf **Exportieren** und wählen Sie dann das Dateiformat aus, das Sie erstellen möchten.
+1. Klicken Sie in der Berichtskopfzeile auf das Symbol **Mehr**, klicken Sie ![](assets/more-icon-27x15.png) auf **Exportieren** und wählen Sie dann das Dateiformat aus, das Sie erstellen möchten.
 
    >[!NOTE]
    >
-   >Beachten Sie Folgendes bezüglich Ihrer exportierten Dateien:
+   >Beachten Sie Folgendes für Ihre exportierten Dateien:
    >
    >   * Wenn Sie einen Bericht mit mehreren Tabellen in ein XLSX-Format exportieren, enthält die exportierte Datei für jede Tabelle ein separates Blatt.
    >   * Wenn Sie einen Bericht mit mehreren Tabellen in ein CSV-Format exportieren, ist das exportierte Ergebnis ein komprimierter Ordner, der eine separate Datei für jede Tabelle enthält.
-   >   * Wenn Sie eine Tabelle mit gruppierten Zeilen in ein CSV-Format exportieren, enthält die CSV-Datei alle Zeilen, die jedoch nicht in Gruppen angezeigt werden.
+   >   * Wenn Sie eine Tabelle, die gruppierte Zeilen enthält, in ein CSV-Format exportieren, enthält die CSV-Datei alle Zeilen, sie werden jedoch nicht in Gruppen angezeigt.
    >   
 
 <!-- 1. (Conditional) If you selected **PDF**, configure the fields below to format the exported file, then click **Download PDF**.

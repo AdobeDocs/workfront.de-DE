@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: manage-canvas-dashboards
-title: Verwalten von Canvas-Dashboards
-description: Artikelindex von Arbeitsfläche-Dashboards verwalten
+title: Arbeitsflächen-Dashboards verwalten
+description: Artikelindex für Canvas-Dashboards verwalten
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -14,14 +14,14 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Canvas-Dashboards: Artikelindex
+# Arbeitsflächen-Dashboards verwalten: Artikelindex
 
 >[!IMPORTANT]
 >
->Auf dieser Seite werden die Funktionen beschrieben, die als Teil der Beta-Version der Canvas-Dashboards verfügbar sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [ finden Sie unter ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-* [Hinzufügen, Entfernen oder Anordnen von Berichten in einem Leinwand-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-* [Freigeben eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+* [Hinzufügen, Entfernen oder Anordnen von Berichten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+* [Freigeben eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)

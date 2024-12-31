@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
-title: Andere Workfront Classic-Funktionen, die vor Version 2019.4 für die Produktion freigegeben wurden
-description: Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Version 2019.4 für die Produktion bereitgestellt.
+title: Andere Workfront Classic-Funktionen, die vor der Version 2019.4 in der Produktionsumgebung veröffentlicht wurden
+description: Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Veröffentlichung der Version 2019.4 in der Produktionsumgebung zur Verfügung gestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 4%
 
 ---
 
-# Andere Workfront Classic-Funktionen, die vor Version 2019.4 für die Produktion freigegeben wurden
+# Andere Workfront Classic-Funktionen, die vor der Version 2019.4 in der Produktionsumgebung veröffentlicht wurden
 
-Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Version 2019.4 für die Produktion bereitgestellt.
+Die folgenden Funktionen wurden der Workfront Classic-Produktionsumgebung vor der Veröffentlichung der Version 2019.4 in der Produktionsumgebung zur Verfügung gestellt.
 
-Informationen zum Veröffentlichungszeitrahmen und zu allen in Version 2019.4 verfügbaren Funktionen finden Sie in der Versionshinweise für 2019.4 [2019.4 - Übersicht](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md) .
+Informationen zum Veröffentlichungszeitrahmen und allen mit der Version 2019.4 verfügbaren Funktionen finden Sie unter Übersicht über die Version [2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>Fügen Sie einem Feld vom TypAhead in einem benutzerdefinierten Formular einen Filter hinzu</strong> <p>Wenn Sie jetzt ein Feld vom Typ "Vorwärts"zu einem benutzerdefinierten Formular hinzufügen, können Sie einen Filter hinzufügen, um die Objekte zu beschränken, die verfügbar sind, wenn jemand das Feld verwendet. Sie können beispielsweise das Feld so einschränken, dass der Benutzer nur Mitglieder der Marketing- und Verkaufsteams in Ihrer Organisation auswählen kann.</p> <p>Weitere Informationen finden Sie im Abschnitt Neues Feld erstellen und hinzufügen im Artikel Erstellen benutzerdefinierter Forms .</p> 
+   <td> <strong>Hinzufügen eines Filters zu einem Feld mit automatischer Textvervollständigung in einem benutzerdefinierten Formular</strong> <p>Wenn Sie nun einem benutzerdefinierten Formular ein Feld mit automatischer Textvervollständigung hinzufügen, können Sie einen Filter hinzufügen, um die Objekte zu begrenzen, die verfügbar sind, wenn jemand das Feld verwendet. Sie können beispielsweise das Feld so beschränken, dass der Benutzer nur Mitglieder des Marketing- und Verkaufsteams in Ihrer Organisation auswählen kann.</p> <p>Weitere Informationen finden Sie im Abschnitt Erstellen und Hinzufügen eines neuen Felds im Artikel Erstellen einer benutzerdefinierten Forms .</p> 
     <div class="workfront_plans"> 
      <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
      <ul> 
@@ -42,9 +42,9 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen in Version 2019.4 ve
     <div> 
      <strong>Ändern des Anzeigetyps eines Felds in einem benutzerdefinierten Formular</strong> 
      <p>Jetzt können Sie den Anzeigetyp eines Felds in einem benutzerdefinierten Formular ändern.</p> 
-     <p>Wenn Sie beispielsweise ein Kontrollkästchen-Feld erstellt haben, können Sie es in ein Dropdown-Feld oder ein Optionsfeld ändern. Diese drei Feldanzeigetypen sind austauschbar.</p> 
-     <p>Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es in ein Absatztext -Feld ändern. Diese beiden Feldanzeigetypen sind austauschbar.</p> 
-     <p>Bisher mussten Sie zum Ändern des Anzeigetyps eines benutzerdefinierten Felds ein neues Feld erstellen und das alte löschen. Dies erforderte die Übertragung von Daten, die häufig zeitaufwendig waren.</p> 
+     <p>Wenn Sie beispielsweise ein Kontrollkästchen erstellt haben, können Sie es in ein Dropdown-Feld oder ein Optionsfeld ändern. Diese drei Anzeigetypen für Felder sind austauschbar.</p> 
+     <p>Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es auch in ein Absatztextfeld ändern. Diese beiden Feldanzeigetypen sind austauschbar.</p> 
+     <p>Um den Anzeigetyp eines benutzerdefinierten Felds zu ändern, mussten Sie zuvor ein neues Feld erstellen und das alte löschen. Dies erforderte die Übertragung von Daten, was häufig zeitaufwendig war.</p> 
      <div class="workfront_plans"> 
       <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
       <ul> 
@@ -61,8 +61,8 @@ Informationen zum Veröffentlichungszeitrahmen und zu allen in Version 2019.4 ve
   <tr> 
    <td> 
     <div> 
-     <strong>Erstellen einer Zeitdauer für Kalender und Berichte</strong> 
-     <p>Sie können nun die Zeitdauer des Benutzers für eine bessere Planung und Ausführung sehen. Sie können Ihren Dashboards auch neue Zeiträume für Berichte und Kalender hinzufügen, um einen Echtzeitüberblick über die Benutzerverfügbarkeit zu erhalten.</p> 
+     <strong>Erstellen von Urlaubskalendern und -berichten</strong> 
+     <p>Sie können jetzt die Ausfallzeiten der Benutzenden für eine bessere Planung und Ausführung sehen. Sie können Ihren Dashboards auch neue Berichte und Kalender hinzufügen, um eine Echtzeitansicht der Benutzerverfügbarkeit zu erhalten.</p> 
      <div class="workfront_plans"> 
       <p><strong>In diesen Umgebungen verfügbar:</strong> </p> 
       <ul> 

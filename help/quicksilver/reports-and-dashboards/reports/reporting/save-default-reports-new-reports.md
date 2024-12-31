@@ -19,6 +19,6 @@ ht-degree: 0%
 
 Sie können eine Kopie eines Standardberichts, der in Ihrer Adobe Workfront-Instanz enthalten ist, ändern und als neuen Bericht speichern.
 
-Nachdem Sie einen Standardbericht kopiert haben, werden Sie zum Eigentümer des kopierten Berichts. Dieser wird im Bereich Meine Berichte im Bereich Berichte angezeigt.
+Nachdem Sie einen Standardbericht kopiert haben, werden Sie Eigentümer des kopierten Berichts und er wird im Bereich Meine Berichte im Bereich Berichte angezeigt.
 
-Informationen zum Kopieren eines Berichts finden Sie unter [Erstellen einer Kopie eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+Informationen zum Kopieren eines Berichts finden Sie [Erstellen einer Berichtskopie](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).

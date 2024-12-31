@@ -2,7 +2,7 @@
 content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
-title: Dashboards verstehen
+title: Grundlegendes zu Dashboards
 description: Lesen Sie diese Artikel, um die Grundlagen von Dashboards in Adobe Workfront zu verstehen.
 author: Nolan
 feature: Reports and Dashboards
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ---
 
-# Dashboards verstehen
+# Grundlegendes zu Dashboards
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erste Schritte mit Dashboards](../../../reports-and-dashboards/dashboards/understanding-dashboards/get-started-dashboards.md)
-* [So werden Berichte in einem Dashboard angezeigt](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)
+* [Anzeige von Berichten in einem Dashboard](../../../reports-and-dashboards/dashboards/understanding-dashboards/understand-how-reports-display-dashboard.md)

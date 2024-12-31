@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen
-description: Wenn in Adobe Workfront mehrere Wechselkurse konfiguriert wurden, können Sie Finanzwerte in Berichten und Listen so festlegen, dass sie in einer anderen Währung als der Standardwährung angezeigt werden.
+description: Wenn in Adobe Workfront mehrere Wechselkurse konfiguriert wurden, können Sie Finanzwerte in Berichten und Listen so einstellen, dass sie in einer anderen Währung als der Standardwährung angezeigt werden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-Wenn in Adobe Workfront mehrere Wechselkurse konfiguriert wurden, können Sie Finanzwerte in Berichten und Listen so festlegen, dass sie in einer anderen Währung als der Standardwährung angezeigt werden.
+Wenn in Adobe Workfront mehrere Wechselkurse konfiguriert wurden, können Sie Finanzwerte in Berichten und Listen so einstellen, dass sie in einer anderen Währung als der Standardwährung angezeigt werden.
 
 >[!IMPORTANT]
 >
->Wenn Sie in einer Ansicht eine andere Währung als die Standardwährung auswählen, werden die Links &quot;**Weitere Aufgaben hinzufügen**&quot;und &quot;**Weitere Probleme hinzufügen**&quot;nicht mehr unten in der Projektliste angezeigt.
+>Wenn Sie in einer Ansicht eine andere Währung als die Standardwährung auswählen, werden die Links **Weitere Aufgaben hinzufügen** und **Weitere Probleme hinzufügen** unten in einer Projektliste nicht mehr angezeigt.
 
-Informationen zum Ändern der Standardwährung für ein bestimmtes Projekt finden Sie unter [Ändern der Projektwährung](../../../manage-work/projects/project-finances/change-project-currency.md).
+Informationen zum Ändern der Standardwährung für ein bestimmtes Projekt finden Sie unter [Ändern der ](../../../manage-work/projects/project-finances/change-project-currency.md).
 
-Wenn es im Bericht Projekte mit einer einheitlichen Währung gibt, werden die Summen in Gruppierungen auch in der Standardwährung des Systems angezeigt.
+Wenn der Bericht Projekte mit einer einzigen Währung enthält, werden die Summen in Gruppierungen auch in der Standardwährung des Systems angezeigt.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -55,39 +55,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen*</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p></td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Bevor Sie alternative Währungen wie in diesem Abschnitt beschrieben anzeigen können, muss der Workfront-Administrator zunächst mehrere Währungen im Setup-Bereich von Workfront aktivieren und konfigurieren. Weitere Informationen finden Sie unter [Einrichten von Wechselkursen](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+Bevor Sie alternative Währungen wie in diesem Abschnitt beschrieben anzeigen können, muss der Workfront-Administrator zunächst mehrere Währungen im Bereich „Einrichten“ von Workfront aktivieren und konfigurieren. Weitere Informationen finden Sie [Einrichten von Wechselkursen](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
 
-## Anwenden von Finanzwerten auf einen Bericht {#apply-financial-values-to-a-report}
+## Finanzwerte auf einen Bericht anwenden {#apply-financial-values-to-a-report}
 
-So konvertieren Sie bei der Arbeit mit Berichten Finanzwerte zwischen Währungen:
+So konvertieren Sie Finanzwerte bei der Arbeit mit Berichten zwischen Währungen:
 
-1. Gehen Sie zum Bericht, in den Sie Finanzwerte in eine andere Währung konvertieren möchten.
-1. Klicken Sie auf die Dropdownliste **Anzeigen**, klicken Sie auf **Währung ändern** und wählen Sie dann eine der folgenden Währungen aus, in denen Finanzwerte angezeigt werden sollen:
+1. Wechseln Sie zu dem Bericht, in dem Sie Finanzwerte in eine andere Währung umrechnen möchten.
+1. Klicken Sie auf **Ansicht** Dropdown-Liste, klicken Sie auf **Währung ändern** und wählen Sie dann eine der folgenden Währungen aus, in der Sie Finanzwerte anzeigen möchten:
 
    * Originalwährung des Projekts
    * Eine der anderen Währungen
 
      >[!TIP]
      >
-     >Sie können nur die Währungen auswählen, die zuvor in der Einrichtung ausgewählt wurden.
+     >Sie können nur Währungen auswählen, die zuvor in „Setup“ ausgewählt wurden.
 
-   Mit dieser Option können Sie Finanzwerte in einem Bericht schnell zwischen den Kurswerten konvertieren.
+   Mit dieser Option können Sie Finanzwerte in einem Bericht schnell zwischen Kurswerten konvertieren.
 
    ![Währung ändern](assets/qs-change-currency-2022-350x257.png)
 
@@ -105,13 +105,13 @@ So konvertieren Sie bei der Arbeit mit Berichten Finanzwerte zwischen Währungen
    </note>
    -->
 
-## Anzeigen der Standardwährung für mehrere Projekte mit unterschiedlichen Währungen
+## Standardwährung für mehrere Projekte mit unterschiedlichen Währungen anzeigen
 
 Wenn Sie die Währung auf Projektebene anpassen und Informationen aus allen Projekten im selben Bericht anzeigen möchten, gibt es die folgenden Szenarien:
 
-* Wenn Sie einen Bericht erstellen, der Finanzinformationen aus zwei oder mehr Projekten mit unterschiedlichen Währungen enthält, spiegelt die Gruppierungszusammenfassung standardmäßig die Standardwährung des Systems wider, die vom Workfront-Administrator ausgewählt wurde.
-* Wenn Sie einen Bericht für zwei oder mehr Projekte erstellen, die dieselbe Währung haben, aber von der Standardwährung des Systems abweichen, werden die Summen in den Gruppierungen unter Verwendung der Standardwährung des Systems angezeigt.
-* Wenn Sie einen Bericht für zwei oder mehr Projekte erstellen, denen mit einer Währungsüberschreibung eine Aufgabenrollenzuweisung zugeordnet ist, wandelt Workfront die Finanzinformationen aus den überschriebenen Währungskursen der Auftragsrolle entweder in die Projektwährung (wenn Sie in der Ansicht die Originalwährung des Projekts auswählen) oder in eine andere Währung um, die Sie beim Anzeigen des Berichts auswählen. Weitere Informationen zum Überschreiben der Währung einer Auftragsrolle finden Sie unter [Erstellen und Verwalten von Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Wenn Sie einen Bericht erstellen, der Finanzinformationen aus zwei oder mehr Projekten mit unterschiedlichen Währungen enthält, spiegelt die Gruppierungsübersicht standardmäßig die Standardwährung des Systems wider, die vom Workfront-Administrator ausgewählt wurde.
+* Wenn Sie einen Bericht für zwei oder mehr Projekte erstellen, die dieselbe Währung haben, sich aber von der Standardwährung des Systems unterscheiden, werden die Summen in den Gruppierungen in der Standardwährung des Systems angezeigt.
+* Wenn Sie einen Bericht für zwei oder mehr Projekte erstellen, denen Aufgabengebietszuweisungen mit einer Währungsüberschreibungen verknüpft sind, konvertiert Workfront die Finanzinformationen aus den überschriebenen Währungskursen des Aufgabengebiets entweder in die Projektwährung (wenn Sie die Originalwährung des Projekts in der Ansicht auswählen) oder in eine andere Währung, die Sie beim Anzeigen des Berichts auswählen. Informationen zum Außerkraftsetzen der Währung eines Aufgabengebiets finden Sie unter [Erstellen und Verwalten von ](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md)&quot;.
 
 So zeigen Sie zwei Projekte mit benutzerdefinierten Währungen in einem Bericht an:
 
@@ -119,69 +119,69 @@ So zeigen Sie zwei Projekte mit benutzerdefinierten Währungen in einem Bericht 
 
    ![](assets/qs-currency-350x217.png)
 
-1. Melden Sie Stunden für beide Projekte an.
+1. Stunden für beide Projekte protokollieren.
 
-   Weitere Informationen zur Protokollierungszeit finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Weitere Informationen zur Zeitprotokollierung finden Sie unter [Zeit protokollieren](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Klicken Sie auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Berichterstellung**.
-1. Klicken Sie auf **Neuer Bericht** und dann auf **Projektbericht**.
-1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die Spalte **Tatsächliche Kosten** hinzu und fassen Sie sie anhand von **Summe** zusammen.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Reporting**.
+1. Klicken Sie **Neuer Bericht**, dann **Projektbericht**.
+1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die Spalte **Istkosten** hinzu und fassen Sie sie nach **Summe** zusammen.
 
-   Informationen zum Erstellen einer Spalte finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+   Informationen zum Erstellen einer Spalte finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Wenden Sie auf der Registerkarte **Gruppierungen** eine Gruppierung des Typs **Vorgesehenes Abschlussdatum** an.
+1. Wenden Sie auf **Registerkarte** eine Gruppierung **Geplantes Abschlussdatum** an.
 
-   Informationen zum Erstellen einer Gruppierung finden Sie unter [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+   Informationen zum Erstellen einer Gruppierung finden Sie unter ([ Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
-1. Fügen Sie auf der Registerkarte **Filter** einen Filter für **Projektname** hinzu und wählen Sie die beiden Projekte mit den verschiedenen Währungen aus.
+1. Fügen Sie auf **Registerkarte** einen Filter für **Projektname** hinzu und wählen Sie die beiden Projekte mit den verschiedenen Währungen aus.
 
-   Informationen zum Erstellen eines Filters finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+   Informationen zum Erstellen eines Filters finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
 1. Klicken Sie auf **Speichern + schließen**.
 
-   Die Gesamtsumme der **tatsächlichen Kosten** wird in der Gruppierung unter Verwendung der Standardwährung des Systems angezeigt, unabhängig von der Währung der Projekte im Bericht.
+   Die Summe der **Ist-Kosten** wird in der Gruppierung unter Verwendung der Systemstandardwährung angezeigt, unabhängig von der Währung der Projekte im Bericht.
 
    Wenn die beiden Projekte unterschiedliche Währungen haben, wird die Standardwährung des Systems auch in der Gruppierung des Berichts angezeigt.
 
-## Anzeigen der Projektwährung in einem Bericht auf Projektebene
+## Zeigen Sie die Projektwährung in einem Bericht auf Projektebene an
 
-Wenn eine Gruppierung auf eine Aufgaben- oder Stundenliste innerhalb eines Projekts angewendet wird, werden die Summen in der Gruppierung in der Währung des Projekts angezeigt.
+Wenn innerhalb eines Projekts eine Gruppierung auf eine Aufgaben- oder Stundenliste angewendet wird, werden die Summen in der Gruppierung in der Projektwährung angezeigt.
 
 1. Erstellen Sie ein Projekt mit einer benutzerdefinierten Währung, die sich von der Standardwährung des Systems unterscheidet.
 1. Wechseln Sie zum Projekt und stellen Sie sicher, dass es Stunden enthält, die für Aufgaben protokolliert wurden.
 
-   Weitere Informationen zur Protokollierungszeit finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+   Weitere Informationen zur Zeitprotokollierung finden Sie unter [Zeit protokollieren](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
    >[!NOTE]
    >
-   >Die Aufgaben sollten Benutzern oder Auftragsrollen mit Kostensätzen pro Stunde zugewiesen werden.
+   >Die Aufgaben sollten Benutzern oder Aufgabengebieten mit Kostensätzen pro Stunde zugewiesen werden.
 
 1. Klicken Sie auf **Aufgaben**.
-1. Erweitern Sie das Dropdownmenü **Ansicht** und wählen Sie **Neue Ansicht** aus.
-1. Fügen Sie **Tatsächliche Kosten** in die neue Ansicht als neue Spalte ein und fassen Sie sie anhand von **Summe** zusammen.
-1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
-1. Erweitern Sie das Dropdownmenü **Gruppierung** und wählen Sie **Neue Gruppierung** aus.
-1. Fügen Sie **Tatsächliches Abschlussdatum** in der neuen Gruppierung als neues Feld hinzu und klicken Sie dann auf **Gruppierung speichern**.
+1. Erweitern Sie das **Ansicht** Dropdown-Menü und wählen Sie **Neue Ansicht**.
+1. Fügen Sie **Istkosten** in der neuen Ansicht als neue Spalte hinzu und fassen Sie sie nach &quot;**&quot;**.
+1. Klicken Sie **Fertig** und dann auf **Ansicht speichern**.
+1. Erweitern Sie das **Gruppierung** Dropdown-Menü und wählen Sie **Neue Gruppierung**.
+1. Fügen Sie **neue Gruppierung das** Tatsächliches Abschlussdatum“ als neues Feld hinzu und klicken Sie dann auf **Gruppierung speichern**.
 
-   Die Spalte **Tatsächliche Kosten** fasst die neue Gruppierung zusammen und zeigt die Gesamtsumme in der Währung des Projekts an.
+   Die Spalte **Istkosten** wird in der neuen Gruppierung zusammengefasst und zeigt den Gesamtbetrag in der Währung des Projekts an.
 
 ## Berichte mit eindeutigen Währungen bearbeiten
 
-Die Finanzfelder in einem Bericht können erst bearbeitet werden, wenn Sie die Berichtseinstellung so ändern, dass die ursprüngliche Währung für Projekte angezeigt wird.
+Die Finanzfelder in einem Bericht können erst bearbeitet werden, wenn die Berichtseinstellung so geändert wurde, dass die Originalwährung für Projekte angezeigt wird.
 
-So bearbeiten Sie ein Finanzfeld in einem Bericht:
+So bearbeiten Sie ein Finanzfeld in einem Bericht inline:
 
 1. Navigieren Sie zu einem Bericht.
 
    >[!NOTE]
    >
-   >Wenn die Standardwährung für eine Liste in keinem anderen Bereich angezeigt wird, können Sie die Ansicht bearbeiten, um die Standardwährung anzuzeigen.\
+   >Wenn die Standardwährung für eine Liste in keinem anderen Bereich angezeigt wird, können Sie die Ansicht so bearbeiten, dass die Standardwährung angezeigt wird.\
    >Informationen zum Ändern der Währung in einer Ansicht finden Sie im Abschnitt in diesem Artikel [Anwenden von Finanzwerten auf einen Bericht](#apply-financial-values-to-a-report).
 
-1. Klicken Sie auf **Berichtaktionen** und wählen Sie dann **Bearbeiten** aus.
-1. Klicken Sie auf **Berichtseinstellungen**.
-1. Klicken Sie auf die Dropdownliste **Standardwährung** und wählen Sie dann die Originalwährung des Projekts **3} aus.**
+1. Klicken Sie **Berichtsaktionen** und wählen Sie dann **Bearbeiten**.
+1. Klicken Sie **Berichteinstellungen**.
+1. Klicken Sie auf **Dropdown-** „Standardwährung“ und wählen Sie dann **Originalwährung des Projekts**.
 
    ![](assets/qs-report-settings-default-currency-350x370.png)
 
-1. Klicken Sie auf **Fertig**.
+1. Klicken Sie **Fertig**.

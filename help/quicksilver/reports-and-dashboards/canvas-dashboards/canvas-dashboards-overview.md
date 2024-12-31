@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards
-title: Übersicht über Canvas-Dashboards
-description: Informationen zu Canvas-Dashboards
+title: Arbeitsflächen-Dashboards - Übersicht
+description: Informationen zu Dashboards der Arbeitsfläche
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Canvas-Dashboards
+# Arbeitsflächen-Dashboards - Übersicht
 
 >[!IMPORTANT]
 >
->Auf dieser Seite werden die Funktionen beschrieben, die als Teil der Beta-Version der Canvas-Dashboards verfügbar sind. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) .
+>Auf dieser Seite werden Funktionen beschrieben, die als Teil der Beta-Version von Canvas Dashboards verfügbar sind. Weitere [ finden Sie unter ](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md) zu Canvas-Dashboards - Betaversion .
 
-Mit Leinwanddashboards können Sie Ihre Adobe Workfront-Daten einfach visualisieren, indem Sie verschiedene Berichtstypen auf eine anpassbare Arbeitsfläche hinzufügen. Grundlegende Anweisungen zur Verwendung von Canvas-Dashboards finden Sie im Artikel [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md) . Andernfalls finden Sie im unten stehenden Artikelindex weitere Informationen zu einem bestimmten Thema.
+Arbeitsflächen-Dashboards ermöglichen es Ihnen, Ihre Adobe Workfront-Daten einfach zu visualisieren, indem Sie verschiedene Berichtstypen zu einer anpassbaren Arbeitsfläche hinzufügen. Grundlegende Anweisungen zur Verwendung von Arbeitsflächen-Dashboards finden Sie im Artikel [Erste Schritte mit Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md). Andernfalls finden Sie im Artikelindex unten weitere Informationen zu einem bestimmten Thema.
 
-## Arbeitsfläche-Dashboards: Artikelindex
+## Arbeitsflächen-Dashboards: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Verwalten von Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
+* [Arbeitsflächen-Dashboards verwalten](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/manage-canvas-dashboards.md)
    * [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md)
-   * [Hinzufügen, Entfernen oder Anordnen von Berichten in einem Leinwand-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
-   * [Freigeben eines Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
-* [Dashboard-Berichtstypen im Arbeitsbereich](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
-   * [Existierenden Bericht zu einem Dashboard auf der Arbeitsfläche hinzufügen](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-   * [Erstellen eines KPI-Berichts in einem Leinwand-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-   * [Erstellen eines Diagrammberichts in einem Dashboard auf der Arbeitsfläche](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-   * [Erstellen eines Tabellenberichts in einem Dashboard auf der Arbeitsfläche](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-   * [Einen Bericht über ausstehende Genehmigungen zu einem Dashboard auf der Arbeitsfläche hinzufügen](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+   * [Hinzufügen, Entfernen oder Anordnen von Berichten in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/add-remove-arrange-reports.md)
+   * [Freigeben eines Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/share-canvas-dashboard.md)
+* [Berichtstypen für das Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
+   * [Hinzufügen eines vorhandenen Berichts zu einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
+   * [Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+   * [Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+   * [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+   * [Hinzufügen eines Berichts über ausstehende Genehmigungen zu einem Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
 

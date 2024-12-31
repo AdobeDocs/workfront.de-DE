@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Von Zeitplanausnahmen betroffene Aufgaben'
-description: In dieser Aufgabenansicht werden Aufgaben identifiziert, die aufgrund von Wochenenden, persönlicher Zeitüberschreitung oder anderen Zeitplanausnahmen zu spät abgeschlossen werden müssen.
+title: 'Ansicht: Aufgaben, die von Zeitplanausnahmen betroffen sind'
+description: Diese Aufgabenansicht identifiziert Aufgaben, die aufgrund von Wochenenden, Freizeiten oder anderen Zeitplanausnahmen zu spät abgeschlossen werden müssen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7d7c77fa-d9a7-4e91-8dae-ad3aaca6f1da
@@ -14,25 +14,25 @@ ht-degree: 0%
 
 ---
 
-# Ansicht: Von Zeitplanausnahmen betroffene Aufgaben
+# Ansicht: Aufgaben, die von Zeitplanausnahmen betroffen sind
 
 <!--Audited: 11/2024-->
 
-In dieser Aufgabenansicht werden Aufgaben identifiziert, die aufgrund von Wochenenden, persönlicher Zeitüberschreitung oder anderen Zeitplanausnahmen zu spät abgeschlossen werden müssen.
+Diese Aufgabenansicht identifiziert Aufgaben, die aufgrund von Wochenenden, Freizeiten oder anderen Zeitplanausnahmen zu spät abgeschlossen werden müssen.
 
-Diese Ansicht zeigt Folgendes an:
+Diese Ansicht zeigt Folgendes:
 
-* Dauer von Aufgaben
-* Geplante Start- und geplante Abschlussdaten der Aufgaben
-* Die Dauer der Aufgaben in Abhängigkeit von der Anzahl der Tage zwischen dem geplanten Start- und dem geplanten Abschlussdatum der Aufgaben (Kalenderdauer)
-* Die Nummer des Tages im Zeitplan des Projekts, an dem die Aufgabe beginnt (Startdatum des Kalenders)
+* Die Dauer von Aufgaben
+* Der geplante Start und das geplante Abschlussdatum der Aufgaben
+* Die Dauer der Aufgaben entsprechend der Anzahl der Tage zwischen dem geplanten Start- und dem geplanten Abschlussdatum der Aufgaben (Kalenderdauer)
+* Die Nummer des Tages im Projektplan, an dem die Aufgabe beginnt (Startdatum des Kalenders)
 * Die Wochentagsdauer der Aufgaben entsprechend der Anzahl der Wochentage zwischen dem geplanten Start- und dem geplanten Abschlussdatum der Aufgaben (Wochentagsdauer)
-* Wenn die Wochentagsdauer die Dauer der Aufgaben überschreitet, was darauf hindeutet, dass die Dauer der Aufgaben Ausnahmetage umfasst, werden die Aufgaben als &quot;Ausnahme&quot;markiert.\
-  ![tasks_with_calendar_failures.png](assets/tasks-with-calendar-exceptions-350x51.png)
+* Wenn die Wochentagsdauer länger ist als die Dauer der Aufgaben, was darauf hindeutet, dass es Ausnahmetage in der Dauer der Aufgaben gibt, werden die Aufgaben als „Ausnahme“ markiert.\
+  ![tasks_with_calendar_exception.png](assets/tasks-with-calendar-exceptions-350x51.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,47 +41,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen von Aufgaben, die von planmäßigen Ausnahmen betroffen sind
+## Von Zeitplanausnahmen betroffene Aufgaben anzeigen
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
+1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
 1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.descriptionkey=name
@@ -195,4 +195,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    column.7.width=80
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.

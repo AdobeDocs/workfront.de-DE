@@ -1,6 +1,6 @@
 ---
-title: Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche
-description: Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche
+title: Hinzufügen oder Bearbeiten eines Visualisierungsblocks auf der Reporting-Arbeitsfläche
+description: Hinzufügen oder Bearbeiten eines Visualisierungsblocks auf der Reporting-Arbeitsfläche
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
@@ -11,11 +11,11 @@ ht-degree: 1%
 
 ---
 
-# Hinzufügen oder Bearbeiten eines Visualisierungsbausteins in der Berichtsarbeitsfläche
+# Hinzufügen oder Bearbeiten eines Visualisierungsblocks auf der Reporting-Arbeitsfläche
 
-Eine Visualisierung kann Ihnen dabei helfen, eine Geschichte mit Ihren Daten zu erzählen, indem wichtige Informationen auf leicht verständliche Weise hervorgehoben werden.
+Eine Visualisierung kann Ihnen helfen, eine Geschichte mit Ihren Daten zu erzählen, indem wichtige Informationen auf leicht verständliche Weise hervorgehoben werden.
 
-Sie können die folgenden Visualisierungstypen zu einem Bericht hinzufügen:
+Sie können die folgenden Arten von Visualisierungen zu einem Bericht hinzufügen:
 
 * Balken
 * Spalte
@@ -24,36 +24,36 @@ Sie können die folgenden Visualisierungstypen zu einem Bericht hinzufügen:
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfläche anmelden. Weitere Informationen finden Sie unter [Arbeitsfläche für die Berichterstellung Beta: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
+Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsfläche registrieren. Weitere Informationen finden Sie unter [Reporting-Arbeitsfläche - Betaversion: Übersicht](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/reporting-canvas-beta-overview.md).
 
-## Visualisierungsbausteine hinzufügen oder bearbeiten
+## Hinzufügen oder Bearbeiten von Visualisierungsblöcken
 
 >[!TIP]
 >
 >Alle Ihre Änderungen werden automatisch gespeichert, wenn Sie die Blöcke in Ihrem Bericht erstellen und bearbeiten.
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und dann auf **Berichterstellung**.![](assets/main-menu-icon.png)
-1. Klicken Sie auf **Neuer Bericht** und erstellen Sie dann einen Bericht mit Tabellen, die Daten enthalten, wie unter [Erstellen eines Berichts auf der Berichtarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) und [Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Berichtarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) beschrieben.
+1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
+1. Klicken Sie auf **Neuer Bericht** und erstellen Sie dann einen Bericht mit Tabellen, die Daten enthalten, wie in [Erstellen eines Berichts auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) und [Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) beschrieben.
 
    Oder
 
-   Klicken Sie in einem vorhandenen Bericht mit Tabellen, die Daten enthalten, auf das Symbol **Mehr Menü** im Berichtkopf ![](assets/more-icon.png) und wählen Sie dann **Bearbeiten** aus.
+   Klicken Sie in einem vorhandenen Bericht mit Tabellen, die Daten enthalten, auf das **Mehr Menü**-Symbol ![](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten**.
 
-1. Fügen Sie rechts im Bildschirm unter **Baustein hinzufügen** einen der folgenden Schritte ein:
+1. Klicken Sie auf der rechten Seite des Bildschirms unter **Block hinzufügen** entweder auf:
 
-   Ziehen Sie das Symbol **Visualisierung** **** auf die Arbeitsfläche direkt an die gewünschte Position.
-
-   Oder
-
-   Doppelklicken Sie auf das Symbol **Visualisierung** ***, um oben auf der Arbeitsfläche eine Visualisierung hinzuzufügen.
+   Ziehen Sie das Symbol **Visualisierung** **** direkt an die gewünschte Position auf der Arbeitsfläche.
 
    Oder
 
-   Wählen Sie das Symbol **Visualisieren** **** oben in einer vorhandenen Tabelle auf der Arbeitsfläche aus.
+   Doppelklicken Sie auf die **** **Visualisierung**, um oben auf der Arbeitsfläche eine Visualisierung hinzuzufügen.
+
+   Oder
+
+   Wählen Sie das **Visualisieren**-Symbol **** oben in einer vorhandenen Tabelle auf der Arbeitsfläche aus.
 
    >[!TIP]
    >
-   >Sie können die Größe des Blocks nach seiner Platzierung durch Ziehen der Ecken-Griffe ändern.
+   >Sie können die Größe des Blocks nach der Platzierung durch Ziehen an den Eckgriffen ändern.
 
 1. (Bedingt) Wenn der Bericht mehr als eine Tabelle enthält, wählen Sie im angezeigten Feld **Visualisierung erstellen** die Quelltabelle für die Visualisierung aus.
 
@@ -61,21 +61,21 @@ Bevor Sie beginnen, müssen Sie sich in der Beta-Version der Reporting-Arbeitsfl
 
    >[!NOTE]
    >
-   >Wenn Sie **+ Neue Tabelle hinzufügen** auswählen, wird unter dem Visualisierungsblock ein neuer Tabellenblock erstellt. Sie müssen die Tabelle mit Daten füllen, bevor Sie eine Visualisierung hinzufügen können. Weitere Informationen zum Erstellen und Bearbeiten von Tabellen finden Sie unter [ [Hinzufügen oder Bearbeiten eines Tabellenblocks in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
+   >Wenn Sie **+ Neue Tabelle hinzufügen auswählen** wird unter dem Visualisierungsblock ein neuer Tabellenblock erstellt. Sie müssen die Tabelle mit Daten füllen, bevor Sie eine Visualisierung dafür hinzufügen können. Weitere Informationen zum Erstellen und Bearbeiten von Tabellen finden Sie unter [ [Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md)
 
 1. Wählen Sie den Visualisierungstyp aus, den Sie hinzufügen möchten.
 
    ![](assets/select-vis-type-350x205.png)
 
-   Ihre Visualisierung wird angezeigt, die die Daten der ausgewählten Tabelle darstellt.
+   Ihre Visualisierung wird angezeigt und stellt die Daten der ausgewählten Tabelle dar.
 
    >[!TIP]
    >
-   >Die Farben der Punkte neben dem Visualisierungstitel und dem Titel der Quelltabelle stimmen überein. In einem Bericht mit mehreren Tabellen hilft Ihnen dies bei der einfachen Zuordnung von Visualisierungen zu den zugehörigen Tabellen.
+   >Die Farben der Punkte neben dem Visualisierungstitel und dem Quelltabellentitel stimmen überein. In einem Bericht mit mehreren Tabellen können Sie auf diese Weise Visualisierungen einfach mit den zugehörigen Tabellen abgleichen.
 
 1. Fahren Sie mit der Konfiguration Ihrer Visualisierung fort:
 
-   * **Balken** -Visualisierung: Anweisungen finden Sie unter [Konfigurieren einer Balkenvisualisierung auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
-   * **Spaltenvisualisierung**: Anweisungen finden Sie unter [Konfigurieren einer Spaltenvisualisierung auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
-   * **Tortenvisualisierung**: Anweisungen finden Sie unter [Konfigurieren der Kreisvisualisierung in der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
-   * **KPI**-Visualisierung: Anweisungen finden Sie unter [Konfigurieren einer KPI-Visualisierung auf der Berichtsarbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).
+   * **Balkenvisualisierung** Anweisungen finden Sie unter [Konfigurieren einer Balkenvisualisierung auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-bar-visualization.md#bar).
+   * **Spalte** Visualisierung: Anweisungen finden Sie unter [Konfigurieren einer Spaltenvisualisierung auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-column-visualization.md).
+   * **Kreis**-Visualisierung: Anweisungen finden Sie unter [Konfigurieren der Kreisvisualisierung auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-pie-visualization.md).
+   * **KPI**-Visualisierung: Anweisungen finden Sie unter [Konfigurieren einer KPI-Visualisierung auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/configure-kpi-visualization.md).

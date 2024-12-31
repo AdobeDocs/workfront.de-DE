@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Anzeigen: Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht'
-description: Diese Aufgabenansicht zeigt das Programm und das Portfolio an, die mit dem Aufgabenprojekt verknüpft sind. Diese Informationen sind in ReportBuilder beim Erstellen einer Aufgabenansicht nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
+title: 'Anzeigen : Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht'
+description: Diese Aufgabenansicht zeigt das Programm und das Portfolio an, die mit dem Projekt der Aufgabe verknüpft sind. Diese Informationen sind beim Erstellen einer Aufgabenansicht in Report Builder nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Anzeigen: Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht
+# Anzeigen : Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht
 
-Diese Aufgabenansicht zeigt das Programm und das Portfolio an, die mit dem Aufgabenprojekt verknüpft sind. Diese Informationen sind in ReportBuilder beim Erstellen einer Aufgabenansicht nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
+Diese Aufgabenansicht zeigt das Programm und das Portfolio an, die mit dem Projekt der Aufgabe verknüpft sind. Diese Informationen sind beim Erstellen einer Aufgabenansicht in Report Builder nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
 
-Die Ansicht enthält auch Links zum Projekt, Programm und Portfolio aus einer Aufgabenliste.
+Die Ansicht enthält auch Links zum Projekt, zum Programm und zum Portfolio aus einer Aufgabenliste.
 
 ![](assets/view--program-and-portfolio-350x116.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,43 +33,43 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, klicken Sie auf **In Textmodus wechseln** und dann auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte, klicken Sie auf **Wechseln in den Textmodus** und dann **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.descriptionkey=name
@@ -140,4 +140,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    column.3.width=150 
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.

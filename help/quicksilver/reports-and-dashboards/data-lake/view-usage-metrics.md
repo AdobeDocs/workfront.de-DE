@@ -2,20 +2,21 @@
 content-type: overview;reference
 product-area: reports and dashboards
 navigation-topic: data connect
-title: Anzeigen der Workfront Data Connect-Nutzungsmetriken
-description: Auf der Registerkarte Workfront-Datenverbindungs-Metriken können Sie die Nutzungsmetriken Ihres Unternehmens sowohl nach den monatlichen Berechnungsstunden als auch nach der Anzahl der durchgeführten Abfragen anzeigen.
+title: Anzeigen von Workfront Data Connect-Nutzungsmetriken
+description: Auf der Registerkarte Workfront Data Connect-Metriken können Sie die Nutzungsmetriken Ihres Unternehmens sowohl nach den monatlichen Rechenstunden als auch nach der Anzahl der durchgeführten Abfragen anzeigen.
 author: Nolan
 feature: Reports and Dashboards
-source-git-commit: 4c8b7e7f33ec593b2942725eb9160f7fbe2962e3
+exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
+source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
 workflow-type: tm+mt
 source-wordcount: '346'
 ht-degree: 1%
 
 ---
 
-# Anzeigen der [!DNL Workfront Data Connect]-Nutzungsmetriken
+# Anzeigen [!DNL Workfront Data Connect] Nutzungsmetriken
 
-Auf der Registerkarte [!DNL Workfront Data Connect] [!UICONTROL Metriken] können Sie die Nutzungsmetriken Ihres Unternehmens sowohl in Bezug auf die verwendeten Berechnungsstunden als auch auf die Anzahl der durchgeführten Abfragen anzeigen. Unternehmen haben eine begrenzte Anzahl monatlicher Berechnungsstunden, die auf der Grundlage ihres Lizenztyps und der Data Connect-Add-on-Käufe verfügbar sind. Auf der Registerkarte [!UICONTROL Metriken] werden Informationen zu den verfügbaren monatlichen Berechnungsstunden in Bezug auf den verwendeten Wert angezeigt.
+Auf der Registerkarte [!DNL Workfront Data Connect] [!UICONTROL Metriken] können Sie die Nutzungsmetriken Ihres Unternehmens sowohl nach verwendeten Rechenstunden als auch nach der Anzahl der durchgeführten Abfragen anzeigen. Unternehmen verfügen je nach Lizenztyp und Add-on-Käufen für Data Connect über eine begrenzte Anzahl monatlicher Rechenstunden. Auf [!UICONTROL  Registerkarte ]Metriken“ werden Informationen zu den verfügbaren monatlichen Berechnungsstunden im Verhältnis zu den verwendeten Werten angezeigt.
 
 ## Zugriffsanforderungen
 
@@ -28,17 +29,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td><p>In den folgenden Plänen enthalten:</p>
     <ul>
         <li>Ultimativ</li> 
     </ul>    
-   <p>Kann als Zusatzprodukt zu den folgenden Plänen erworben werden:</p> 
+   <p>Kann als Add-on zu den folgenden Plänen erworben werden:</p> 
     <ul>
         <li>Auswählen</li> 
         <li>Erstklassig</li>
     </ul> 
-    <p>Workfront Data Connect ist nicht für ältere Workfront-Pläne verfügbar.</p> 
+    <p>Workfront Data Connect ist nicht für veraltete Workfront-Pläne verfügbar.</p> 
    </td> </td> 
   </tr> 
   <tr> 
@@ -46,29 +47,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Nutzungsmetriken und verfügbare Berechnungsstunden anzeigen
+## Anzeigen von Nutzungsmetriken und verfügbaren Berechnungsstunden
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf [!UICONTROL **Setup**].
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf [!UICONTROL **Setup**].
 
-1. Klicken Sie im linken Bereich auf [!UICONTROL **System**] > [!UICONTROL **Datenzugriff**].
+1. Klicken Sie im linken Bedienfeld auf [!UICONTROL **System**] > [!UICONTROL **Datenzugriff**].
 
-1. Klicken Sie auf die Registerkarte [!UICONTROL **Metriken**]. Ihre Nutzungsmetriken werden im Diagramm **Nutzung berechnen** angezeigt, während die Anzahl der durchgeführten Abfragen im Diagramm **Abfrageanzahl** angezeigt wird.
+1. Klicken Sie auf die Registerkarte [!UICONTROL **Metriken**]. Ihre Nutzungsmetriken werden im Diagramm **Nutzung berechnen** angezeigt, während die Anzahl der durchgeführten Abfragen im Diagramm **Abfragenanzahl** angezeigt wird.
 
-   ![Nutzungsmetriken zur Datenverbindung](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
+   ![Metriken zur Datennutzung](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-usage-metrics.png)
 
-1. (Optional) Sie können das Dropdown-Menü [!UICONTROL **Ansicht auswählen**] verwenden, um den Zeitraum für die in beiden Diagrammen enthaltenen Informationen zu ändern.
+1. (Optional) Sie können das Dropdown-Menü [!UICONTROL **Ansicht auswählen**] verwenden, um den Zeitbereich für die in beiden Diagrammen enthaltenen Informationen zu ändern.
 
-1. (Optional) Sie können die Kontrollkästchen über dem Diagramm **Nutzung berechnen** verwenden, um Folgendes ein- oder auszublenden:
-   * [!UICONTROL **Tägliche Berechnungsstunden**] - Die Anzahl der Berechnungsstunden, die Ihr Unternehmen täglich verwendet.
-   * [!UICONTROL **Monatliche kumulative Berechnungsstunden**] - Die Gesamtzahl der Berechnungsstunden, die Ihr Unternehmen in einem Monat verwendet hat. Setzt jeden Monat auf null zurück.
-   * [!UICONTROL **Monatlicher Compute Hour Allowance**] - Die Anzahl der Berechnungsstunden, die Ihrem Unternehmen aufgrund von Lizenz- und/oder Add-On-Käufen zur Verfügung stehen.
+1. (Optional) Sie können die Kontrollkästchen über dem Diagramm **Nutzung berechnen** zum Ein- oder Ausblenden verwenden:
+   * [!UICONTROL **Tägliche Berechnungsstunden**] - Die Anzahl der von Ihrem Unternehmen täglich verwendeten Berechnungsstunden.
+   * [!UICONTROL **Kumulative monatliche**]: Die Gesamtzahl der von Ihrer Organisation in einem Monat verwendeten Berechnungsstunden. Setzt jeden Monat auf null zurück.
+   * [!UICONTROL **Monatliches Compute-Stundenkontingent**] - Die Anzahl der Compute-Stunden, die Ihrem Unternehmen auf der Grundlage von Lizenz- und/oder Add-on-Käufen zur Verfügung stehen.

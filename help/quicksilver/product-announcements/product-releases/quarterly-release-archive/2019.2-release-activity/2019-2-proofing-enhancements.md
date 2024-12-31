@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: 2019.2 Testversandverbesserungen
-description: Auf dieser Seite werden alle in Version 2019.2 enthaltenen Verbesserungen bei der Prüfung beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
+title: Korrekturabzug-Verbesserungen für 2019.2
+description: Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Proofing-Verbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -14,36 +14,36 @@ ht-degree: 0%
 
 ---
 
-# 2019.2 Testversandverbesserungen
+# Korrekturabzug-Verbesserungen für 2019.2
 
-Auf dieser Seite werden alle in Version 2019.2 enthaltenen Verbesserungen bei der Prüfung beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
+Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Proofing-Verbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 
-Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller in Version 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
-## Benutzern ohne Testlizenz erlauben, Aktionen anzuwenden und Kommentare aufzulösen
+## Benutzern ohne Proofing-Lizenz erlauben, Aktionen anzuwenden und Kommentare aufzulösen
 
-Jetzt können Benutzer ohne Testlizenz Aktionen auf Kommentare anwenden und Kommentare auflösen. Sie können Berechtigungen für diese Aktivitäten erteilen, wenn Sie einen Benutzer zu einem Testversand hinzufügen.
+Benutzende ohne Proofing-Lizenz können jetzt Aktionen auf Kommentare anwenden und Kommentare auflösen. Sie können Berechtigungen für diese Aktivitäten erteilen, wenn Sie eine Benutzerin bzw. einen Benutzer zu einem Korrekturabzug hinzufügen.
 
-Zuvor konnten nur Benutzer mit einer Testlizenz und der Testerrolle von Autor oder Moderator Aktionen anwenden und Kommentare zu einem Testversand auflösen.
+Zuvor konnten nur Benutzende mit einer Proofing-Lizenz und der Proofing-Rolle des Autors oder Moderators Aktionen anwenden und Kommentare zu einem Korrekturabzug auflösen.
 
-## Tagging von Benutzern bei Kommentaren zu einem Testversand im Testversand-Viewer
+## Jeden Benutzer beim Kommentieren eines Korrekturabzugs in der Korrekturabzugsansicht taggen
 
-Wenn Sie einen Testversand kommentieren und über Bearbeitungsrechte für den Testversand verfügen, können Sie jetzt jeden mit einer von Workfront erkannten E-Mail-Adresse mit einem Tag oder einer &quot;@mention&quot;versehen. Dazu gehören:
+Wenn Sie einen Korrekturabzug kommentieren und Bearbeitungsrechte für ihn haben, können Sie jetzt jeden mit einer von Workfront erkannten E-Mail-Adresse taggen oder &quot;@mention“. Dazu gehören:
 
-* Jeder, der über die E-Mail-Adresse zu einem Testversand im Workfront-Konto Ihres Unternehmens hinzugefügt wurde.
-* Jeder, der über die E-Mail-Adresse einen Testversand im Workfront-Konto Ihres Unternehmens abonniert hat.
+* Alle Personen, die einem Korrekturabzug im Workfront-Konto Ihres Unternehmens unter Verwendung der E-Mail-Adresse hinzugefügt wurden.
+* Alle Personen, die die E-Mail-Adresse zum Abonnieren eines Korrekturabzugs im Workfront-Konto Ihres Unternehmens verwendet haben.
 
-Zuvor konnten Sie nur Benutzer taggen, die dem Testversand-Workflow hinzugefügt wurden. Auf diese Weise funktioniert Tagging auch dann, wenn Sie nicht über die Berechtigung zum Bearbeiten beim Testversand verfügen.
+Zuvor konnten Sie nur Benutzer taggen, die zum Workflow des Korrekturabzugs hinzugefügt wurden. So funktioniert das Tagging auch dann, wenn Sie keine Bearbeitungsrechte für den Korrekturabzug haben.
 
-## Filtern des Berichts zur Testbestätigung , um frühere Testversandversionen auszuschließen
+## Filtern Sie den Genehmigungsbericht für Korrekturabzüge, um frühere Korrekturabzugsversionen wegzulassen
 
 >[!NOTE]
 >
->Diese Funktion wurde während des Zeitrahmens der Vorschau 2019.2 direkt in der Produktionsumgebung veröffentlicht.
+>Diese Funktion wurde im Vorschauzeitrahmen 2019.2 direkt in der Produktionsumgebung veröffentlicht.
 
-Sie können jetzt in jedem Bericht zur Bestätigung des Testversands den neuen Filter Ist aktuelle Dokumentversion verwenden, um nur die aktuellen Testversionen aufzunehmen, die auf Ihre Genehmigung warten.
+Für jeden Bericht zu Korrekturabzugsgenehmigungen können Sie jetzt den neuen Filter Ist aktuelle Dokumentversion verwenden, um nur die aktuellen Versionen von Korrekturabzügen einzubeziehen, die auf Ihre Genehmigung warten.
 
-Dies ist beispielsweise nützlich, wenn Sie aufgefordert wurden, Testsendungen mit mehreren Versionen zu genehmigen. Wenn Sie den Bericht über die Validierung des Testversands mit dem Filter Ist aktuelle Dokumentversion ausführen, listet der Bericht nur die aktuelle Version jedes Testversands auf, der auf Ihre Genehmigung wartet, wobei frühere Versionen weggelassen werden, an denen Sie nicht mehr arbeiten müssen.
+Dies ist beispielsweise nützlich, wenn Sie aufgefordert wurden, Korrekturabzüge zu genehmigen, die mehrere Versionen haben. Wenn Sie den Bericht zu Korrekturabzugsgenehmigungen mit dem Filter Ist aktuelle Dokumentversion ausführen, listet der Bericht nur die aktuelle Version jedes Korrekturabzugs auf, der auf Ihre Genehmigung wartet, wobei frühere Versionen weggelassen werden, an denen Sie nicht mehr arbeiten müssen.
 
-Weitere Informationen finden Sie unter [Filter: Bericht zur Testbestätigung , um frühere Testversandversionen wegzulassen](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
+Weitere Informationen finden Sie unter [Filter: Bericht zu Korrekturabzugsgenehmigungen zum Auslassen früherer Korrekturabzugsversionen](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-proof-approval-report.md).
 

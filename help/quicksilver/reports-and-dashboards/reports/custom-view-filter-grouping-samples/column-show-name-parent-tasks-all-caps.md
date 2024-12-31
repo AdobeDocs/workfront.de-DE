@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Name übergeordneter Aufgaben als "Alle Karten"anzeigen'
-description: Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der übergeordneten Aufgaben in allen Großbuchstaben anzuzeigen.
+title: 'Ansicht: Namen der übergeordneten Aufgaben in Großbuchstaben anzeigen'
+description: Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der übergeordneten Aufgaben in Großbuchstaben anzuzeigen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Ansicht: Zeigt den Namen der übergeordneten Aufgaben als Großbuchstaben an
+# Ansicht: Namen der übergeordneten Aufgaben mit allen Obergrenzen anzeigen
 
 <!--Audited: 10/2024-->
 
-Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der übergeordneten Aufgaben in allen Großbuchstaben anzuzeigen.
+Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der übergeordneten Aufgaben in Großbuchstaben anzuzeigen.
 
 ![](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,47 +33,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Name der übergeordneten Aufgaben als Großbuchstaben anzeigen
+## Namen der übergeordneten Aufgaben in Großbuchstaben anzeigen
 
-So erstellen Sie diese Spalte in einer Aufgabenansicht:
+Diese Spalte in einer Aufgabenansicht erstellen:
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** eine Ansicht aus und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Zu einer Aufgabenliste gehen.
+1. Wählen **aus dem Dropdown** Menü „Ansicht“ eine Ansicht aus und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
 Oder\
-   Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
+   Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
 1. Klicken Sie im Bereich **Spaltenvorschau** auf die Kopfzeile der Spalte, die den Aufgabennamen in der Liste anzeigt.
-1. Klicken Sie auf **Wechseln Sie in den Textmodus** und klicken Sie dann auf **Textmodus bearbeiten** .
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Klicken Sie **Wechseln Sie in den Textmodus** und klicken Sie dann auf **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    linkedname=direct
@@ -91,4 +91,4 @@ Oder\
    valueformat=HTML
    ```
 
-1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
+1. Klicken Sie **Fertig** und dann auf **Ansicht speichern**.

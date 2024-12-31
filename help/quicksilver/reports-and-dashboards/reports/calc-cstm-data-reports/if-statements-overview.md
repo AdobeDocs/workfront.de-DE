@@ -2,8 +2,8 @@
 content-type: overview
 product-area: reporting
 navigation-topic: calculate-custom-data-reports
-title: Übersicht über IF-Anweisungen
-description: Sie können "IF"-Anweisungen in allgemeinen Programmiersprachen verwenden. In Adobe Workfront ermöglichen Ihnen "IF"-Anweisungen den Vergleich, die Formatierung und die Zeichenfolge von Datenfeldern für Berichterstellungs- und benutzerdefinierte Datenzwecke. Außerdem führt das mathematische Denken über "IF"-Anweisungen zu einem besseren konzeptionellen Verständnis, da Variablen für Ausdrücke häufig verwendet werden.
+title: IF-Anweisungen - Übersicht
+description: Sie können „IF“-Anweisungen in allgemeinen Programmiersprachen verwenden. In Adobe Workfront können Sie mit „IF“-Anweisungen Datenfelder sowohl für Reporting- als auch für benutzerdefinierte Datenzwecke vergleichen, formatieren und zeichenfolgen. Mathematisch über „IF“-Aussagen nachzudenken führt außerdem zu einem besseren konzeptionellen Verständnis, da häufig Variablen für Ausdrücke verwendet werden.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 090a85fd-fdbe-4507-8bad-ce8c29bf8fc9
@@ -14,77 +14,77 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über &quot;IF&quot;-Anweisungen
+# „IF“-Anweisungen - Übersicht
 
 <!-- Audited: 1/2024 -->
 
-Sie können &quot;IF&quot;-Anweisungen in allgemeinen Programmiersprachen verwenden. In Adobe Workfront ermöglichen Ihnen &quot;IF&quot;-Anweisungen den Vergleich, die Formatierung und die Zeichenfolge von Datenfeldern für Berichterstellungs- und benutzerdefinierte Datenzwecke. Außerdem führt das mathematische Denken über &quot;IF&quot;-Anweisungen zu einem besseren konzeptionellen Verständnis, da Variablen für Ausdrücke häufig verwendet werden.
+Sie können „IF“-Anweisungen in allgemeinen Programmiersprachen verwenden. In Adobe Workfront können Sie mit „IF“-Anweisungen Datenfelder sowohl für Reporting- als auch für benutzerdefinierte Datenzwecke vergleichen, formatieren und zeichenfolgen. Mathematisch über „IF“-Aussagen nachzudenken führt außerdem zu einem besseren konzeptionellen Verständnis, da häufig Variablen für Ausdrücke verwendet werden.
 
-## Recommendations für &quot;IF&quot;-Anweisungen
+## Recommendations für „IF“-Anweisungen
 
-Beachten Sie Folgendes, bevor Sie eine &quot;IF&quot;-Anweisung erstellen:
+Beachten Sie Folgendes, bevor Sie eine „IF“-Anweisung erstellen:
 
-* Wir empfehlen ein grundlegendes Verständnis jeder allgemeinen Programmiersprache, aber wir benötigen sie nicht für diesen Leitfaden.
-* Wir benötigen ein erweitertes Verständnis der Syntax des Workfront-Textmodus. Dies hilft beim Verständnis der Terminologie der Workfront-API und beim Verständnis der Syntax benutzerdefinierter Daten in diesen spezifischen Formaten.
+* Wir empfehlen ein grundlegendes Verständnis einer allgemeinen Programmiersprache, aber wir benötigen es nicht, für dieses Handbuch.
+* Wir benötigen ein fortgeschrittenes Verständnis der Workfront-Textmodussyntax. Dies hilft beim Verständnis der Terminologie der Workfront-API und beim Verständnis der Syntax von benutzerdefinierten Daten in diesen spezifischen Formaten.
 
   Weitere Informationen zur Workfront-API finden Sie unter [API-Grundlagen](../../../wf-api/general/api-basics.md).
 
-  Informationen zur Verwendung des Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
+  Weitere Informationen zur Verwendung des Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-* Sie können &quot;IF&quot;-Anweisungen für die folgenden Workfront-Elemente erstellen:
+* Sie können „IF“-Anweisungen für die folgenden Workfront-Elemente erstellen:
 
    * Ansichten
    * Gruppierungen
    * Berechnete benutzerdefinierte Felder
 
-* Sie können keine &quot;IF&quot;-Anweisungen für Filter erstellen. Dies führt zu einem &quot;UUPS&quot;-Fehler in Workfront.
-* Das Supportteam hilft nicht beim Erstellen benutzerdefinierter Daten. Sie können sich nach dem Erstellen der benutzerdefinierten Felder oder Spalten an das Supportteam wenden, ohne dass die gewünschten Ergebnisse angezeigt werden. Wenden Sie sich für die Erstellung eines Ausdrucks an Ihren Kundenbetreuer, um sich über unsere Beratungsoptionen zu informieren.
-* Es wird empfohlen, diese Ausdrücke zuerst in einen Texteditor wie Sublime oder Visual Studio Code zu schreiben, da dies Ihnen dabei hilft, Daten deutlicher anzuzeigen, als es in Workfront der Fall wäre.
+* Für Filter können keine „IF“-Anweisungen erstellt werden. Dies führt zu einem Hoppla-Fehler in Workfront.
+* Das Support-Team hilft nicht beim Erstellen benutzerdefinierter Daten. Sie können sich an das Support-Team wenden, nachdem Sie die benutzerdefinierten Felder oder Spalten erstellt haben und die gewünschten Ergebnisse nicht angezeigt werden. Wenn Sie Hilfe bei der Erstellung eines Ausdrucks benötigen, wenden Sie sich an Ihren Kundenbetreuer, um sich über unsere Beratungsoptionen zu informieren.
+* Es wird empfohlen, diese Ausdrücke zunächst in einem Texteditor zu schreiben, z. B. in Sublime oder Visual Studio Code, da so die Daten klarer angezeigt werden können, als dies in Workfront der Fall wäre.
 
-## Komponenten einer &quot;IF&quot;-Anweisung
+## Komponenten einer „IF“-Anweisung
 
-Sie können &quot;IF&quot;-Anweisungen in Workfront im folgenden Format erstellen:
-<pre>IF(Bedingung, True Expression, False Expression)</pre>Die Komponenten einer "IF"-Anweisung sind:
+Sie können „IF“-Anweisungen in Workfront in folgendem Format erstellen:
+<pre>IF(Bedingung,True-Ausdruck,False-Ausdruck)</pre>Eine „IF“-Anweisung umfasst folgende Komponenten:
 
-* **IF** = Dies ist der berechnete Workfront-Datenausdruck für &quot;function&quot;. Ähnlich wie die SUM- und PROD-Ausdrücke weist dieses zuerst das System an, die Funktion als &quot;IF&quot;-Anweisung zu verstehen. Verwenden Sie für &quot;IF&quot;immer Großbuchstaben in dieser Anweisung.\
+* **IF** = Dies ist der von Workfront berechnete Datenausdruck für „function“. Ähnlich wie bei den SUM- und PROD-Ausdrücken wird dem System zunächst mitgeteilt, dass es die Funktion als „IF“-Anweisung verstehen soll. Verwenden Sie in dieser Anweisung immer Großbuchstaben für „IF“.\
   Eine Liste aller berechneten Datenausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
-* **Bedingung** = Dies ist die Bedingung, die die Workfront-Variable erfüllen muss, und die Grundlage für diese Gleichung. Alles, was später in der Gleichung angegeben werden kann, hängt von der Bedingung ab. Sie können eine Reihe von Verweisen, Vergleichen oder mathematischen Ausdrücken verwenden, um eine Gleichung zu beginnen. Beispiele für Bedingungen:
+* **Bedingung** = Dies ist die Bedingung, die die Workfront-Variable erfüllen muss, und sie ist die Grundlage für diese Gleichung. Alles, was später in der Gleichung angegeben werden kann, hängt von der Bedingung ab. Sie können mehrere Verweise, Vergleiche oder mathematische Ausdrücke verwenden, um eine Gleichung zu starten. Beispiele für Bedingungen:
 
-   * Ein Datum ist größer als ein anderes Datum für ein bestimmtes Objekt.
-   * Der Status entspricht einem der verfügbaren Status für ein bestimmtes Objekt.
-   * Der prozentuale Abschluss einer Aufgabe ist kleiner oder größer als ein bestimmter Prozentsatz.
+   * Ein Datum ist größer als ein anderes Datum für ein angegebenes Objekt.
+   * Ein Status entspricht einem der verfügbaren Status für ein angegebenes Objekt.
+   * Prozent abgeschlossen einer Aufgabe ist kleiner oder größer als ein bestimmter Prozentsatz.
 
-* **Bedingungsoperator** = Dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer &quot;IF&quot;-Anweisung hilft. Beispielsweise sind Bedingungsoperatoren &quot;ist gleich&quot;oder &quot;ist größer als&quot;. Eine Liste der Bedingungsoperatoren, die Sie in -Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
+* **Bedingungsoperator** = Dies ist der Operator, der Ihnen beim Erstellen der Bedingung Ihrer „IF“-Anweisung hilft. Beispielsweise sind „ist gleich“ oder „ist größer als“ Bedingungsoperatoren. Eine Liste der Bedingungsoperatoren, die Sie in Anweisungen verwenden können, finden Sie unter [Bedingungsoperatoren in berechneten benutzerdefinierten Ausdrücken](../../../reports-and-dashboards/reports/calc-cstm-data-reports/condition-operators-calculated-custom-expressions.md).
 
-* **True****Expression** = Dies ist die &quot;True&quot;-Variable, die die Gleichung angibt, welcher Indikator angezeigt werden soll, sobald die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
+* **True****Expression** = Dies ist die Variable „True“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung erfüllt sind (wahre Indikatoren).
 
-* **Falscher Ausdruck** = Dies ist die Variable &quot;False&quot;, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung nicht erfüllt sind (falsche Indikatoren).
+* **Falscher Ausdruck** = Dies ist die Variable „Falsch“, die der Gleichung mitteilt, welcher Indikator angezeigt werden soll, wenn die Kriterien der Bedingung nicht erfüllt sind (falsche Indikatoren).
 
-Im folgenden Beispiel wird das ursprüngliche Anweisungsformat verwendet, um einen einfachen Datenausdruck für eine &quot;IF&quot;-Anweisung zu schreiben. Der Ausdruck vergleicht zwei verschiedene Datumsfelder in Workfront , gefolgt von einem True-/False-Ergebnis als Datenzeichenfolge:
+Im folgenden Beispiel wird das ursprüngliche Anweisungsformat verwendet, um einen einfachen Datenausdruck für eine „IF“-Anweisung zu schreiben. Der Ausdruck vergleicht zwei verschiedene Datumsfelder in Workfront, gefolgt von einem Ergebnis „true/false“ als Datenzeichenfolge:
 
 ```
 IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track","On Track")
 ```
 
-In Alltagsreden würde diese Aussage bedeuten: Wenn das voraussichtliche Abschlussdatum meines Objekts &quot;größer als&quot;ist, das geplante Abschlussdatum meines gleichen Objekts, dann zeigen Sie in diesem Feld die Wörter &quot;Off Track&quot;an. Wenn nicht, zeigen Sie die Wörter &quot;Auf Track&quot;an.
+Im Alltag würde diese Aussage bedeuten: Wenn das voraussichtliche Abschlussdatum meines Objekts „größer als“ das geplante Abschlussdatum meines gleichen Objekts ist, dann sollten Sie in diesem Feld die Wörter „Aus dem Weg“ anzeigen. Ist dies nicht der Fall, werden die Wörter „On Track“ angezeigt.
 
-## Erstellen Sie berechnete Felder in benutzerdefinierten Formularen oder benutzerdefinierten Spalten mithilfe von &quot;IF&quot;-Anweisungen.
+## Erstellen von berechneten Feldern in benutzerdefinierten Formularen oder benutzerdefinierten Spalten mithilfe von „IF“-Anweisungen
 
-Sie können &quot;IF&quot;-Anweisungen in einem berechneten Feld entweder in einem benutzerdefinierten Formular oder in einer benutzerdefinierten Spalte erstellen.
+Sie können „IF“-Anweisungen in einem berechneten Feld entweder in einem benutzerdefinierten Formular oder in einer benutzerdefinierten Spalte erstellen.
 
-Es gibt einen Unterschied in der Syntax, die Sie in einem berechneten benutzerdefinierten Formular verwenden, im Vergleich zu einer berechneten benutzerdefinierten Spalte. Siehe folgende Beispiele:
+Die Syntax, die Sie in einem berechneten benutzerdefinierten Formular verwenden, unterscheidet sich von der berechneten benutzerdefinierten Spalte. Siehe die folgenden Beispiele:
 
-* [Einzelne &quot;IF&quot;-Anweisungen](#single-if-statements)
-* [Mehrere &quot;IF&quot;-Anweisungen](#multiple-if-statements)
+* [Einzelne „IF“-Anweisungen](#single-if-statements)
+* [Mehrere „IF“-Anweisungen](#multiple-if-statements)
 
-### Einzelne &quot;IF&quot;-Anweisungen {#single-if-statements}
+### Einzelne „IF“-Anweisungen {#single-if-statements}
 
-Im Folgenden finden Sie Beispiele für ein berechnetes benutzerdefiniertes Feld und dessen entsprechende Spalte mit der Anweisung &quot;IF&quot;:
+Im Folgenden finden Sie Beispiele für ein berechnetes benutzerdefiniertes Feld und die entsprechende Spalte mit einer „IF“-Anweisung:
 
 * Berechnetes benutzerdefiniertes Feld:
 
-Verwenden Sie beim Erstellen eines benutzerdefinierten Felds die folgende Syntax für eine &quot;IF&quot;-Anweisung:
+Verwenden Sie beim Erstellen eines benutzerdefinierten Felds die folgende Syntax für eine „IF“-Anweisung:
 
 ```
 IF({Projected Completion Date}>{Planned Completion Date},"Off Track","On Track")
@@ -92,19 +92,19 @@ IF({Projected Completion Date}>{Planned Completion Date},"Off Track","On Track")
 
 * Berechnete benutzerdefinierte Spalte:
 
-Beim Erstellen einer benutzerdefinierten Spalte sollten Sie die folgende Syntax für die &quot;IF&quot;-Anweisung in der Wertausdruckszeile verwenden:
+Beim Erstellen einer benutzerdefinierten Spalte sollten Sie die folgende Syntax für die „IF“-Anweisung in der Ausdruckszeile für den Wert verwenden:
 
 ```
 valueexpression=IF({projectedCompletionDate}>{plannedCompletionDate},"Off Track","On Track")
 ```
 
-### Mehrere &quot;IF&quot;-Anweisungen {#multiple-if-statements}
+### Mehrere „IF“-Anweisungen {#multiple-if-statements}
 
-Sie können mehrere &quot;IF&quot;-Anweisungen mit der folgenden Anweisung zusammenstellen, um einen komplexeren und dynamischeren Ausdruck zu erstellen:
+Sie können mehrere „IF“-Anweisungen mit der folgenden Anweisung zusammenstellen, um einen komplexeren und dynamischeren Ausdruck zu erstellen:
 
-<pre>IF(Condition1, True Expression, IF(Condition2, True Expression, False Expression))</pre>Beachten Sie, dass es jetzt keine falsche Aussage für das erste "IF"gibt. Stattdessen haben wir ihn durch den Beginn einer zweiten "IF" ersetzt.
+<pre>IF(Bedingung1,Ausdruck wahr,IF(Bedingung2,Ausdruck wahr,Ausdruck falsch))</pre>Beachten Sie, dass es jetzt keine Falschaussage für das erste „IF“ gibt. Stattdessen haben wir es durch den Beginn eines zweiten „IF“ ersetzt.
 
-Im Folgenden finden Sie Beispiele für ein berechnetes benutzerdefiniertes Feld und die zugehörige benutzerdefinierte Spalte mit mehreren &quot;IF&quot;-Anweisungen:
+Im Folgenden finden Sie Beispiele für ein berechnetes benutzerdefiniertes Feld und die entsprechende benutzerdefinierte Spalte mit mehreren „IF“-Anweisungen:
 
 * Berechnetes benutzerdefiniertes Feld:
 
@@ -118,9 +118,9 @@ Im Folgenden finden Sie Beispiele für ein berechnetes benutzerdefiniertes Feld 
 valueexpression=IF({"projectedCompletionDate"}>{"plannedCompletionDate"},"Off Track",IF({plannedCompletionDate}>{projectedCompletionDate},"Off Track","On Track"))
 ```
 
-In diesem Beispiel wurde dasselbe erreicht, indem zwei verschiedene Kriterienvariablen zusammengefügt wurden.\
+In diesem Beispiel wurde dasselbe erreicht, indem zwei verschiedene Kriterienvariablen zusammengestellt wurden.\
 Sie können diese Optionen weiter untersuchen, indem Sie diese Beispiele in Ihrer eigenen Umgebung neu erstellen.
 
-Die beste Möglichkeit, dies zu erfahren, besteht darin, mit verschiedenen Feldern und Szenarien zu experimentieren. Machen Sie sich auch mit dem API Explorer vertraut, der die zu verwendenden Feldnamen anzeigt. Informationen zum API Explorer finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
+Am einfachsten erfahren Sie dies, indem Sie mit verschiedenen Feldern und Szenarien experimentieren. Machen Sie sich auch mit dem API Explorer vertraut, der die Feldnamen anzeigt, die verwendet werden können. Informationen zum API-Explorer finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
 
 Weitere Informationen zur Workfront-Syntax für berechnete Datenausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](../../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).

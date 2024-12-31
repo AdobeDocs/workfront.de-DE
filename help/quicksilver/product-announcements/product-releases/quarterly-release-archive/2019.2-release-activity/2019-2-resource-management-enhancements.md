@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Verbesserungen der Ressourcenverwaltung in 2019.2
-description: Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die in Version 2019.2 enthalten sind. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
+title: Verbesserungen beim Ressourcenmanagement 2019.2
+description: Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Verbesserungen beim Ressourcen-Management beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,57 +14,57 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen der Ressourcenverwaltung in 2019.2
+# Verbesserungen beim Ressourcenmanagement 2019.2
 
-Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die in Version 2019.2 enthalten sind. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
+Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Verbesserungen beim Ressourcen-Management beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 
-Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller in Version 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
-## Anzeigen der Portfolio-Priorität im Ressourcenplaner
+## Portfolio-Priorität im Ressourcenplaner anzeigen
 
-Sie können jetzt eine Einstellung im Ressourcenplaner aktivieren, mit der Sie die Priorität des Projekts entsprechend dem Portfolio anzeigen können, dem es zugewiesen ist. Die Portfoliopriorität wird neben der Priorität des Ressourcenplaners des Projekts angezeigt.
+Sie können jetzt im Ressourcenplaner eine Einstellung aktivieren, mit der Sie die Priorität des Projekts entsprechend dem Portfolio anzeigen können, dem es zugewiesen ist. Die Portfoliopriorität wird neben der Ressourcenplaner-Priorität des Projekts angezeigt.
 
 Vor dieser Verbesserung konnten Sie die Portfoliopriorität eines Projekts nicht im Ressourcenplaner anzeigen.
 
-Informationen zum Aktivieren dieser Einstellung finden Sie im Abschnitt [Einstellungen](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings) des Abschnitts [Grundlegendes zu den Bereichen des Ressourcenplaners](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Informationen zur Aktivierung dieser Einstellung finden Sie [ Abschnitt ](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md#settings)Einstellungen“ von [Grundlegendes zu den Bereichen des Ressourcenplaners](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-## Freigeben von Filtern im Ressourcenplaner
+## Filter im Ressourcenplaner freigeben
 
-Sie können jetzt Filter, die Sie im Ressourcenplaner erstellen, für ausgewählte Benutzer, Teams, Gruppen, Rollen oder Unternehmen freigeben.
+Sie können jetzt im Ressourcenplaner erstellte Filter für ausgewählte Benutzer, Teams, Gruppen, Aufgabengebiete oder Unternehmen freigeben.
 
-Vor dieser Verbesserung waren die von Ihnen erstellten Filter für alle Benutzer sichtbar, die auf den Ressourcenplaner zugreifen konnten.
+Vor dieser Verbesserung waren die von Ihnen erstellten Filter für alle Benutzenden sichtbar, die auf den Ressourcenplaner zugreifen konnten.
 
-Informationen zum Filtern im Ressourcen-Planer finden Sie unter [Filtern von Inhalten im Ressourcen-Planer](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
+Informationen zum Filtern im Ressourcenplaner finden Sie unter [Filtern von Inhalten im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 
-## Neue Zugriffsebene für das Ressourcen-Management
+## Neue Ressourcenverwaltungs-Zugriffsebene
 
-Wir führen eine neue Zugriffsstufe für die Ressourcenverwaltung ein. Benutzer mit einer Planungslizenz erhalten Zugriff auf die Option &quot;Bearbeiten&quot;im Ressourcen-Management, sodass sie folgende Aufgaben ausführen können:
+Wir führen eine neue Zugriffsebene für das Ressourcenmanagement ein. Benutzende mit einer Planlizenz können Bearbeitungszugriff auf das Ressourcen-Management erhalten, wodurch sie Folgendes tun können:
 
 * Priorisieren von Projekten im Ressourcenplaner
-* Budgetressourcen in den Tools für die Ressourcenplanung
+* Budgetressourcen in den Ressourcenplanungs-Tools
 * Ressourcenpools verwalten
 
-Benutzer mit einer Arbeits- und Überprüfungslizenz haben Zugriff auf diese Zugriffsebene auf Ansicht .
+Benutzende mit einer Arbeits- und Überprüfungslizenz haben Zugriff auf diese Zugriffsebene.
 
-Mit dieser Änderung ist die Verwaltung von Ressourcen-Pools jetzt Teil der Zugriffsebene von Resource Management. Vor dieser Aktualisierung wurde der Zugriff auf die Verwaltung von Ressourcen-Pools als Teil des Administratorzugriffs für die Planner-Lizenz aufgelistet.
+Mit dieser Änderung ist die Verwaltung von Ressourcenpools nun Teil der Zugriffsebene „Ressourcenmanagement“. Vor diesem Update wurde der Zugriff auf die Verwaltung von Ressourcenpools als Teil des administrativen Zugriffs für die Planner-Lizenz aufgeführt.
 
-Auch mit dieser Änderung ist es nicht mehr erforderlich, als Ressourcen-Manager für ein Projekt benannt zu werden. Es ist jedoch erforderlich, über den richtigen Zugriff auf Resource Management zu verfügen, um Ressourcen verwalten zu können.
+Auch mit dieser Änderung ist es nicht mehr erforderlich, als Ressourcenmanager für ein Projekt benannt zu werden. Um Ressourcen verwalten zu können, ist jedoch der richtige Zugriff auf das Ressourcenmanagement erforderlich.
 
-Weitere Informationen über den neuen Zugriff, der für Budgetierungsressourcen erforderlich ist, finden Sie unter [Für Budgeteinnahmen benötigter Zugriff](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
+Informationen zum neuen Zugriff, der für die Budgetierung von Ressourcen erforderlich ist, finden Sie unter [Zugriff auf die Budgetressourcen erforderlich](../../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md).
 
-Informationen zur neuen Zugriffsebene für Resource Management finden Sie unter [Grundlegendes zum Zugriff auf Resource Management](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Informationen zur neuen Zugriffsebene für das Ressourcen-Management finden Sie unter [Grundlegendes zum Zugriff auf das Ressourcen-Management](../../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-## Bestellen von Portfolios nach Prioritäten im Ressourcenplaner
+## Ordnen von Projekten nach Portfolio-Prioritäten im Ressourcenplaner
 
-Sie können jetzt Projekte nach ihrer Portfoliopriorität im Ressourcen-Planer bestellen.
+Sie können jetzt Projekte nach ihrer Portfoliopriorität im Ressourcenplaner sortieren.
 
-Vor dieser Verbesserung konnten Sie nur die Portfoliopriorität im Ressourcen-Planer anzeigen und die Projekte nur nach ihrer Planerpriorität bestellen.
+Vor dieser Verbesserung konnten Sie die Portfoliopriorität nur im Ressourcenplaner anzeigen und die Projekte nur nach ihrer Planerpriorität sortieren.
 
-Informationen zum Sortieren von Projekten nach Portfoliopriorität im Resource Planer finden Sie unter [Priorisieren von Projekten im Resource Planer](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
+Informationen zum Sortieren von Projekten nach Portfoliopriorität im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
-## Filterverbesserung für Ressourcenplaner
+## Verbesserung des Ressourcenplaner-Filters
 
-Das Filtererlebnis im Ressourcenplaner ist jetzt einfacher, wenn Sie den integrierten Filterkriterien ein neues Feld (Gruppe) hinzufügen. Die am häufigsten verwendeten Filter finden Sie jetzt in den integrierten Optionen.
+Das Filtern im Ressourcenplaner ist jetzt einfacher, wenn Sie ein neues Feld (eine neue Gruppe) zu den integrierten Filterkriterien hinzufügen. Die am häufigsten verwendeten Filter finden Sie jetzt in den integrierten Optionen.
 
 Informationen zu Filtern im Ressourcenplaner finden Sie unter [Filtern von Inhalten im Ressourcenplaner](../../../../resource-mgmt/resource-planning/filter-resource-planner.md).
 

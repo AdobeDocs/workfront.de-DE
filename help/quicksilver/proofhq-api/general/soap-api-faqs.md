@@ -1,6 +1,6 @@
 ---
-title: Häufig gestellte Fragen zu SOAP API
-description: Häufig gestellte Fragen zu SOAP API
+title: Häufig gestellte Fragen zur SOAP-API
+description: Häufig gestellte Fragen zur SOAP-API
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
@@ -13,60 +13,60 @@ ht-degree: 0%
 
 ---
 
-# Häufig gestellte Fragen zu SOAP API
+# Häufig gestellte Fragen zur SOAP-API
 
-## Wie erstelle ich meinen ersten Dateiversand?
+## Wie erstelle ich meinen ersten Korrekturabzug?
 
-Es werden drei einfache Schritte ausgeführt:
+Dazu sind drei einfache Schritte erforderlich:
 
-**Schritt 1**: Laden Sie die Datei in Workfront Proof hoch, indem Sie sie über eine POST-Anfrage an senden.  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Wir werden Ihnen den Datei-Hash zurückgeben - das ist sehr wichtig! Beachten Sie, dass Sie in dieser Phase nichts in Ihrem Konto sehen werden, alles was Sie bisher getan haben, ist uns die Datei zu schicken, aber nicht gesagt, was wir damit tun sollen.
+**Schritt 1**: Laden Sie die Datei in Workfront Proof hoch, indem Sie sie über eine POST-Anfrage an senden.  [https://soap.proofhq.com/upload.php](https://soap.proofhq.com/upload.php). Wir geben Ihnen den Datei-Hash zurück - das ist sehr wichtig! Beachten Sie, dass Sie in diesem Stadium nichts in Ihrem Konto sehen werden, alles was Sie bisher getan haben, ist uns die Datei zu senden, aber nicht gesagt, was wir damit tun sollen.
 
-**Schritt 2**: Wenn Sie noch keine Sitzungs-ID haben, können Sie eine mit den Methoden doLogin() oder getSessionID() abrufen. Verwenden Sie die erste Methode, um sich mit der E-Mail-Adresse und dem Passwort eines Benutzers anzumelden, oder die zweite Methode, wenn Sie über die E-Mail-Adresse und das Authentifizierungstoken des Benutzers verfügen.
+**Schritt 2**: Wenn Sie noch keine Sitzungs-ID haben, erhalten Sie eine mit den Methoden doLogin() oder getSessionID(). Verwenden Sie die erste Methode, um sich mit der E-Mail-Adresse und dem Kennwort eines Benutzers anzumelden, oder die zweite Methode, wenn Sie die E-Mail-Adresse und das Authentifizierungs-Token des Benutzers haben.
 
-**Schritt 3:** Jetzt ist es an der Zeit, Ihren Testversand zu erstellen. Verwenden Sie die Methode createProof() und senden Sie uns mindestens die erforderlichen Felder (derzeit gibt es nur 5 davon). Stellen Sie sicher, dass Sie den Hash-Parameter auf den Datei-Hash setzen, der während &quot;Schritt 1&quot;zurückgegeben wurde, da wir so feststellen können, welche Datei bei der Erstellung Ihres Testversands verwendet werden soll.
-
-Wenn Sie sich jetzt bei Ihrem Konto anmelden, sehen Sie den Testversand.
-
-## Wie erstelle ich meinen ersten Web-Schnappschuss-Testversand?
-
-Es umfasst zwei einfache Schritte:
-
-**Schritt 1**: Wenn Sie noch keine Sitzungs-ID haben, können Sie eine mit den Methoden doLogin() oder getSessionID() abrufen. Verwenden Sie die erste Methode, um sich mit der E-Mail-Adresse und dem Passwort eines Benutzers anzumelden, oder die zweite Methode, wenn Sie über die E-Mail-Adresse und das Authentifizierungstoken des Benutzers verfügen.
-
-**Schritt 2:**Jetzt ist es an der Zeit, Ihren Testversand zu erstellen. Verwenden Sie die Methode createProof() und senden Sie uns mindestens die erforderlichen Felder (derzeit gibt es nur 5 davon). Stellen Sie sicher, dass der Hash-Parameter auf &quot;web&quot;und der SourceName-Parameter als URL der Webseite festgelegt ist, die Sie erfassen möchten.
+**Schritt 3:** Jetzt ist es an der Zeit, den Testversand zu erstellen. Verwenden Sie die Methode createProof() und senden Sie uns mindestens die erforderlichen Felder (derzeit gibt es nur 5 davon). Stellen Sie sicher, dass Sie den Hash-Parameter auf den Datei-Hash setzen, der während „Schritt 1“ zurückgegeben wurde, da dies uns ermöglicht, zu bestimmen, welche Datei beim Erstellen Ihres Korrekturabzugs verwendet werden soll.
 
 Wenn Sie sich jetzt bei Ihrem Konto anmelden, sehen Sie den Testversand.
 
-## Was ist der Unterschied zwischen einem Testversand und einer Version?
+## Wie erstelle ich meinen ersten Web-Schnappschuss-Korrekturabzug?
 
-In Workfront Proof werden Versionen als ein Testversand angezeigt. Wenn Sie auf eine bestimmte Version in der Web-Benutzeroberfläche klicken, werden die Details dieser Version angezeigt. In Wirklichkeit ist jede Version ein separater Testversand, und die Web-Benutzeroberfläche zeigt diese zusammen an.
+Dazu sind zwei einfache Schritte erforderlich:
 
-Aus Sicht der API ist jede Version ein separater Testversand und die Testsendungen werden anhand ihrer Kennungen verknüpft.
+**Schritt 1**: Wenn Sie noch keine Sitzungs-ID haben, erhalten Sie eine mit der doLogin()- oder getSessionID()-Methode. Verwenden Sie die erste Methode, um sich mit der E-Mail-Adresse und dem Kennwort eines Benutzers anzumelden, oder die zweite Methode, wenn Sie die E-Mail-Adresse und das Authentifizierungs-Token des Benutzers haben.
 
-**createProof()** erstellt stets die Version 1 **des Testversands.** Nehmen wir als Beispiel die für diesen Testversand zurückgegebene ID &quot;100&quot;.
+**Schritt 2:**Jetzt ist es an der Zeit, den Korrekturabzug zu erstellen. Verwenden Sie die Methode createProof() und senden Sie uns mindestens die erforderlichen Felder (derzeit gibt es nur 5 davon). Stellen Sie sicher, dass Sie den Hash-Parameter auf „web“ und den SourceName-Parameter als URL der Web-Seite festlegen, die Sie erfassen möchten.
 
-Bei Verwendung von **createProofVersion()** wird immer die ID der vorherigen Version gesendet. Wenn wir **Version 2** für den Testversand &quot;100&quot;erstellen möchten, übergeben wir **&quot;100&quot;für den Parameter ParentFileID** . Dadurch wird dem System mitgeteilt, dass dieser Testversand Version 2 des Sets sein sollte. Die -Methode gibt eine eindeutige Testversand-ID zurück. Nehmen wir in unserem Beispiel an, dass dies &quot;101&quot;ist.
+Wenn Sie sich jetzt bei Ihrem Konto anmelden, sehen Sie den Testversand.
 
-Wenn eine dritte Version erforderlich ist, d. h. **Version 3**, rufen Sie **createProofVersion()** erneut auf und geben Sie dieses Mal **den Wert &quot;101&quot;für die ParentFileID** an, um sicherzustellen, dass die verknüpfte Liste der Versionen ordnungsgemäß erstellt wird.
+## Was ist der Unterschied zwischen einem Korrekturabzug und einer Version?
 
-## Muss ich vor jedem Aufruf eine neue Sitzungs-ID erhalten?
+In Workfront Proof werden Versionen als einzelner Korrekturabzug angezeigt. Durch Klicken auf eine bestimmte Version in der Web-Benutzeroberfläche werden die Details dieser Version angezeigt. In Wirklichkeit ist jede Version ein separater Korrekturabzug, und die Web-Benutzeroberfläche zeigt diese zusammen an.
 
-Es ist wichtig darauf hinzuweisen, dass jede Sitzungs-ID im Wesentlichen ein Benutzer ist, der die Aktionen durchführt. 
+Aus Sicht der API ist jede Version ein separater Korrekturabzug, und die Korrekturabzüge werden durch ihre IDs miteinander verknüpft.
 
-Sie müssen vor jedem Aufruf der API keine neue Sitzungs-ID abrufen, die 24 Stunden lang gültig bleibt. Die Ablaufzeit wird jedes Mal zurückgesetzt, wenn Sie die API aufrufen.
+**createProof()** erstellt immer **Version 1** des Korrekturabzugs. Nehmen wir für unser Beispiel die ID an, die für diesen Korrekturabzug „100“ zurückgegeben wurde.
 
-## Was ist ein Testversand/eine persönliche URL?
+Bei Verwendung von **createProofVersion()** immer die ID der vorherigen Version gesendet. Wenn wir Version 2 **Korrekturabzug** „100“ erstellen möchten, **wir „100“ für den Parameter ParentFileID** übergeben. Dadurch wird dem System mitgeteilt, dass dieser Korrekturabzug Version 2 des Sets sein sollte. Die Methode gibt eine eindeutige Korrekturabzugs-ID zurück. In unserem Beispiel lautet diese „101“.
 
-**Team/Public**: Jede Testversion verfügt über eine eindeutige Team-URL (Public). Wenn diese Option aktiviert ist, wird der Testversand im schreibgeschützten Modus geöffnet. Sie können die Team-URL mit der Methode [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) abrufen.
+Wenn eine dritte Version, d. h. **Version 3**, erforderlich ist, rufen Sie **createProofVersion()** erneut auf und geben Sie diesmal **101“ für die ParentFileID ein** um sicherzustellen, dass die verknüpfte Liste der Versionen ordnungsgemäß erstellt wird.
 
-**Persönlich**: Eine persönliche URL ist für jede Reviewer- und Testversion eindeutig. Wenn ein Testversand 3 Versionen enthält und sich ein Validierer auf allen Versionen befindet, verfügt der Validierer über 3 eindeutige persönliche URLs. Eine persönliche URL öffnet die Testversand-Version, wobei der Validierer bereits identifiziert wurde und daher sicher und nicht freigegeben werden sollte. Persönliche URLs können abgerufen werden, indem die Methode [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) aufgerufen und dann für jede  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) und Abrufen des Parameters &quot;proof_url&quot;.
+## Muss ich vor jedem Aufruf eine neue Sitzungs-ID abrufen?
 
-## >Wie werden benutzerdefinierte Parameter beim Öffnen des minimierten Fensters einbezogen?
+Es ist wichtig darauf hinzuweisen, dass jede Sitzungs-ID im Wesentlichen ein Benutzer ist, der die Aktionen ausführt. 
 
-Mit dem miniproof-Werkzeug können Sie das Testwerkzeug in Ihre eigene Seite einbetten. Ein &quot;referer&quot;-Parameter kann als Teil des miniproof-Parameters enthalten sein, um eine Umleitungs-URL bereitzustellen, wenn ein Benutzer auf die Schließen-Schaltfläche im miniproof klickt. Sie können eine beliebige Anzahl benutzerdefinierter Parameter als Teil dieser Umleitungs-URL angeben, indem Sie sie mit dem Escape-Zeichen &quot;&amp;&quot;anhängen, z. B. %26.
+Sie müssen nicht vor jedem Aufruf der API eine neue Sitzungs-ID abrufen und diese bleibt 24 Stunden lang gültig. Die Ablaufzeit wird jedes Mal zurückgesetzt, wenn Sie die -API aufrufen.
 
-Beispielsweise die URL für die minimierte Suche
-`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` muss als 
-`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=`, damit die benutzerdefinierten Parameter weitergegeben werden.
+## Was ist eine Korrekturabzugs-/persönliche URL?
+
+**Team/Öffentlich**: Jede Korrekturabzugsversion verfügt über eine eindeutige Team (Öffentlich)-URL. Wenn aktiviert, wird der Korrekturabzug im schreibgeschützten Modus geöffnet. Sie können die Team-URL mit der Methode [getProofURL()](https://api.proofhq.com/home/proofs/getproofurl.html) abrufen.
+
+**Persönlich**: Eine persönliche URL ist für jede Reviewer- und Korrekturabzugsversion eindeutig. Wenn ein Korrekturabzugssatz drei Versionen enthält und bei allen Versionen ein Prüfer vorhanden ist, verfügt der Prüfer über drei eindeutige persönliche URLs. Eine persönliche URL öffnet die Korrekturabzugsversion mit dem bereits identifizierten Prüfer und sollte daher sicher aufbewahrt und nicht freigegeben werden. Persönliche URLs können durch Aufruf der Methode [getProofReviewers()](https://api.proofhq.com/home/proofs/getproofreviewers.html) und anschließende Iteration über jede URL abgerufen werden  [SOAPRecepientObject](https://api.proofhq.com/home/objects/soaprecipientobject.html) und den Parameter „proof_url“ abrufen.
+
+## >Wie lassen sich beim Öffnen des Mini-Korrekturabzugs benutzerdefinierte Parameter einbeziehen?
+
+Mit dem Miniproof können Sie das Proofing-Tool in Ihre eigene Seite einbetten. Ein Parameter „referer“ kann als Teil des Mini-Korrekturabzugs eingeschlossen werden, um eine Umleitungs-URL bereitzustellen, wenn ein Benutzer im Mini-Korrekturabzug auf die Schaltfläche „Schließen“ klickt. Sie können beliebig viele benutzerdefinierte Parameter als Teil dieser Umleitungs-URL einbeziehen, indem Sie sie mit dem Escape-Zeichen &quot;&amp;&quot; anhängen, z. B. %26.
+
+Beispiel: die miniproof URL
+`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com&customparam1=somevalue&customparam2=` muss wie folgt codiert sein 
+`https://app.proofhq.com/viewer/proofingcode?referer=closingurl.com%26customparam1=somevalue%26customparam2=`, damit die benutzerdefinierten Parameter weitergeleitet werden.
 
 

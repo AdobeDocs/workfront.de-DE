@@ -21,14 +21,14 @@ ht-degree: 1%
 (NOTE: Alina: this article might need to be split in its sections. Tony asked that numbers and dates should be in separate articles (??))
 -->
 
-Der standardmäßige Interface Builder bietet eine große Flexibilität bei der Erstellung von Berichterstellungselementen, die den Anforderungen Ihres Unternehmens gerecht werden.
+Der standardmäßige Interface Builder bietet eine große Flexibilität bei der Erstellung von Berichterstellungselementen, um die Anforderungen in Ihrer Organisation zu erfüllen.
 
-Mithilfe der Standardoberfläche können Sie bedingte Formatierungen in einer Ansicht anwenden.\
-Weitere Informationen zum Anwenden der bedingten Formatierung auf eine Ansicht finden Sie unter [Bedingte Formatierung in Ansichten verwenden](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Mithilfe der Standardschnittstelle können Sie eine bedingte Formatierung in einer Ansicht anwenden.\
+Weitere Informationen zum Anwenden der bedingten Formatierung auf eine Ansicht finden Sie unter [Verwenden der bedingten Formatierung in Ansichten](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -37,8 +37,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -48,79 +48,79 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
    <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Ansichten in einem Bericht zu bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht zum Bearbeiten von Ansichten in einem Bericht verwalten</p> <p>Berechtigungen für eine Ansicht verwalten</p> </td> 
+   <td> <p>Verwalten der Berechtigungen für einen Bericht zum Bearbeiten von Ansichten in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Ansicht, um sie zu bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
 ## Bedingte Formatierung im Textmodus
 
-Im Textmodus können Sie komplexere Ansichten, Filter, Gruppierungen und Eingabeaufforderungen erstellen, indem Sie Felder verwenden, die in der Standardoberfläche nicht verfügbar sind.
+Im Textmodus können Sie komplexere Ansichten, Filter, Gruppierungen und Eingabeaufforderungen erstellen, indem Sie Felder verwenden können, die in der Standardbenutzeroberfläche nicht verfügbar sind.
 
-Eine vollständige Liste aller berichtspflichtigen Felder finden Sie im [API-Explorer](../../../wf-api/general/api-explorer.md).
+Eine vollständige Liste aller unserer berichtspflichtigen Felder finden Sie im [API Explorer](../../../wf-api/general/api-explorer.md).
 
-Weitere Informationen zur Verwendung der Textmodussyntax finden Sie unter [Textmodussyntax-Übersicht](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Weitere Informationen zur Verwendung der Textmodussyntax finden Sie unter [Übersicht über die Textmodussyntax](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-Sie können auch den Textmodus verwenden, um Ansichten in Berichten und Listen zu formatieren. Mithilfe der bedingten Formatierung können Sie die Ansichten Ihrer Berichte ändern, indem Sie den Schrifttyp und den Hintergrund der Ergebnisse im Bericht sowie Symbole und Flags ändern. Es wird empfohlen, dass Sie Ihre Ansichten immer zuerst über die Standardschnittstelle erstellen und nur dann zur Textmodus-Oberfläche wechseln, wenn dies unbedingt erforderlich ist.
+Sie können auch den Textmodus verwenden, um Ansichten in Berichten und Listen zu formatieren. Mithilfe der bedingten Formatierung können Sie die Ansichten Ihrer Berichte ändern, indem Sie die Schriftart und den Hintergrund der Ergebnisse im Bericht sowie Symbole und Markierungen ändern. Es wird empfohlen, Ansichten immer zuerst über die Standardschnittstelle zu erstellen und nur dann in den Textmodus zu wechseln, wenn dies unbedingt erforderlich ist.
 
 >[!NOTE]
 >
 > Die Verwendung von CSS-Stilen zum Anpassen der bedingten Formatierung wird nicht unterstützt. Stattdessen müssen Sie die vordefinierten Formatierungsoptionen verwenden, die in Adobe Workfront verfügbar sind.
 
-## Bedingte Formatierung zu Ansichten hinzufügen
+## Hinzufügen bedingter Formatierung zu Ansichten
 
-Weitere Informationen zum Anwenden der bedingten Formatierung auf eine Ansicht in der Standard-Builder-Oberfläche finden Sie unter [Bedingte Formatierung in Ansichten verwenden](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+Weitere Informationen zum Anwenden der bedingten Formatierung auf eine Ansicht in der Standard Builder-Benutzeroberfläche finden Sie unter [Verwenden der bedingten Formatierung in Ansichten](../../../reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
-So fügen Sie einer Ansicht in der Textmodus-Oberfläche bedingte Formatierungen hinzu:
+So fügen Sie einer Ansicht in der Textmodus-Benutzeroberfläche bedingte Formatierung hinzu:
 
 1. Navigieren Sie zu einer Liste von Objekten.
 1. Erweitern Sie das Dropdown-Menü einer Ansicht, der Sie bedingte Formatierung hinzufügen möchten.
-1. Klicken Sie auf **Ansicht anpassen**.
-1. Klicken Sie auf die Spalte in der Ansicht, auf die Sie die bedingte Formatierung anwenden möchten.
-1. Klicken Sie auf **Wechseln zum Textmodus**.
-1. Klicken Sie im Bereich **In dieser Spalte anzeigen:** auf **Klicken Sie, um Text zu bearbeiten**.
-1. Fügen Sie die Codebeispiele hinzu, die unter [Formatansichten mit Textmodus formatieren](#format-views-using-text-mode) am unteren Rand des Textes in der ausgewählten Spalte bereitgestellt werden.
-1. Klicken Sie auf **Speichern** und dann auf **Ansicht speichern**.
+1. Klicken Sie **Ansicht anpassen**.
+1. Klicken Sie auf die Spalte in der Ansicht, auf die Sie eine bedingte Formatierung anwenden möchten.
+1. Klicken Sie **In Textmodus wechseln**.
+1. Klicken Sie im Bereich **In dieser Spalte anzeigen:** auf **Klicken, um Text zu bearbeiten**.
+1. Fügen Sie die Code-Beispiele [ „Formatansichten im Textmodus](#format-views-using-text-mode) am unteren Rand des Texts in der ausgewählten Spalte hinzu.
+1. Klicken Sie **Speichern** und dann auf **Ansicht speichern**.
 
 ## Ansichten im Textmodus formatieren {#format-views-using-text-mode}
 
-Sie können die folgenden Komponenten zu einer Spalte hinzufügen, um sie im Textmodus bedingt zu formatieren:
+Sie können die folgenden Komponenten zu einer Spalte in einer Ansicht hinzufügen, um sie im Textmodus bedingt zu formatieren:
 
 * [Spalteneinstellungen](#column-settings)
 * [Spaltenregeln](#column-rules)
-* [Bedingtes Formatieren eines Werteausdrucks](#conditionally-format-a-valueexpression)
+* [Bedingtes Formatieren eines Ausdruckswerts](#conditionally-format-a-valueexpression)
 
 ### Spalteneinstellungen {#column-settings}
 
-Sie müssen mit der Benutzeroberfläche des Textmodus vertraut sein, bevor Sie Ihren Ansichten bedingte Formatierungen hinzufügen können.
+Sie müssen mit der Oberfläche des Textmodus vertraut sein, bevor Sie Ihren Ansichten bedingte Formatierung hinzufügen können.
 
-Sie können die folgenden Elemente einer Spalte anpassen, wenn Sie die bedingte Formatierung in einer Ansicht verwenden:
+Sie können die folgenden Elemente einer Spalte anpassen, wenn Sie bedingte Formatierung in einer Ansicht verwenden:
 
 * [Spaltenüberschriften](#column-headers)
-* [Datumsformat formatieren](#format-dates)
-* [Formatnummern](#format-numbers)
+* [Daten formatieren](#format-dates)
+* [Zahlen formatieren](#format-numbers)
 
 #### Spaltenüberschriften {#column-headers}
 
-Fügen Sie Ihrer Spalte den folgenden Code hinzu, um die angezeigte Spaltenüberschrift zu ändern: `displayname= [Name of column]`. Um beispielsweise eine Spalte &quot;Projekteigentümer&quot;zu benennen, würde der Textcode wie folgt aussehen:
+Um die angezeigte Spaltenüberschrift zu ändern, fügen Sie der Spalte den folgenden Code hinzu: `displayname= [Name of column]`. Um beispielsweise eine Spalte als Projektbesitzerin bzw. -besitzer zu benennen, würde der Text-Code wie folgt aussehen:
 
 `displayname=Project Owner`
 
-#### Datumsangaben formatieren {#format-dates}
+#### Datum formatieren {#format-dates}
 
-Daten können so konfiguriert werden, dass sie in verschiedenen Formaten angezeigt werden.
+Datumsangaben können so konfiguriert werden, dass sie in verschiedenen Formaten angezeigt werden.
 
-Weitere Informationen finden Sie unter [Datumsformat in Textmodusberichten formatieren](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
+Weitere Informationen finden Sie unter [Formatieren von Datumsangaben in Textmodusberichten](../../../reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -179,11 +179,11 @@ Weitere Informationen finden Sie unter [Datumsformat in Textmodusberichten forma
 </div>
 -->
 
-#### Formatnummern {#format-numbers}
+#### Zahlen formatieren {#format-numbers}
 
-Sie können numerische Werte formatieren, um Informationen anzuzeigen, die Ihren Berichtsanforderungen am besten entsprechen.
+Sie können numerische Werte formatieren, um Informationen anzuzeigen, die Ihren Reporting-Anforderungen am besten entsprechen.
 
-Weitere Informationen finden Sie unter [Formatieren von Zahlen, Währung und Prozentwerten in Textmodusberichten](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
+Weitere Informationen finden Sie unter [Zahlen, Währungen und Prozentwerte formatieren in Textmodusberichten](../../../reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -245,9 +245,9 @@ Weitere Informationen finden Sie unter [Formatieren von Zahlen, Währung und Pro
 
 ### Spaltenregeln {#column-rules}
 
-Mithilfe von Spaltenregeln können Bilder, Farben, Formatierungen und Textüberschreibungen in einer Ansicht hinzugefügt werden. Spaltenregeln können unabhängig erstellt werden oder mehrere Bedingungen für eine Spalte enthalten.
+Spaltenregeln ermöglichen das Hinzufügen von Bildern, Farben, Formatierungen und Textüberschreibungen innerhalb einer Ansicht. Spaltenregeln können unabhängig voneinander festgelegt werden oder mehrere Bedingungen für eine Spalte enthalten.
 
-* [ Bedingte Formatierung](#conditional-formatting)
+* [Bedingte Formatierung](#conditional-formatting)
 * [Mehrere bedingte Formate](#multiple-conditional-formats)
 * [Text anwenden](#apply-text)
 * [Anwenden von Zeilenformaten](#apply-row-formats)
@@ -255,14 +255,14 @@ Mithilfe von Spaltenregeln können Bilder, Farben, Formatierungen und Textübers
 
 #### Bedingte Formatierung {#conditional-formatting}
 
-Beim Einbinden von Farbe oder Formatierungstext muss eine bestimmte Textmodusanweisung angewendet werden.
+Beim Einbinden von Farb- oder Formatierungstext muss eine bestimmte Textmodusanweisung angewendet werden.
 
 >[!NOTE]
 >
->Die bedingte Formatierung wird in zusammengeführten Spalten möglicherweise nicht unterstützt.\
->Weitere Informationen zum Zusammenführen von Spalten mit dem Textmodus finden Sie unter [Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+>Bedingte Formatierung wird in zusammengeführten Spalten möglicherweise nicht unterstützt.\
+>Weitere Informationen zum Zusammenführen von Spalten mit dem Textmodus finden Sie unter [Ansicht: Zusammenführungsinformationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
-Fügen Sie den folgenden Code in jede Spalte ein, der Sie bedingte Formatierungen hinzufügen möchten:
+Fügen Sie den folgenden Code in eine Spalte ein, der Sie eine bedingte Formatierung hinzufügen möchten:
 
 ```
 styledef.case.0.comparison.leftmethod= [field name]
@@ -278,13 +278,13 @@ styledef.case.0.comparison.trueproperty.0.value= [format style]
 
 >[!NOTE]
 >
->Die Zeile `styledef.case.0.comparison.icon` ist immer falsch, es sei denn, sie arbeitet mit Symbolen.
+>Die `styledef.case.0.comparison.icon` ist immer falsch, es sei denn, Sie arbeiten mit Symbolen.
 >
->Die Zeile &quot;`styledef.case.0.comparison.truetext`&quot;bleibt immer leer, bis Sie mit dem Überschreiben von Text arbeiten.
+>Die `styledef.case.0.comparison.truetext` bleibt immer leer, bis Sie Text überschreiben.
 >
->Die Zeile `styledef.case.0.comparison.righttext` ist leer, wenn der Qualifizierer nicht leer ist.
+>Die `styledef.case.0.comparison.righttext` ist leer, wenn der Qualifizierer nicht leer ist.
 
-Wenn Sie beispielsweise den Unternehmensnamen in grünem Text in einem Projektbericht anzeigen möchten, können Sie den folgenden Code verwenden:
+Wenn wir beispielsweise den Firmennamen in einem Projektbericht im grünen Text anzeigen möchten, können Sie den folgenden Code verwenden:
 
 ```
 styledef.case.0.comparison.leftmethod=company:name
@@ -300,16 +300,16 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 
 >[!NOTE]
 >
->* Diese Anweisung kann zwar auf eine Spalte mit dem Unternehmensnamen angewendet werden, kann aber auch auf jede andere Spalte im Bericht angewendet werden. Grüner Text wird nur angezeigt, wenn dem Projekt ein Unternehmen zugeordnet ist. Denken Sie daran, dass das Laufwerk `[field name]`, `[value]` und `[qualifier]` unabhängig davon, ob die Konditionierung letztendlich in der Spalte angezeigt wird oder nicht.
->* Beim Arbeiten mit Qualifikatoren wird empfohlen, `cicontains` anstelle von `equal` zu verwenden. Standardmäßig sucht `equal` nach ID-Nummern. Mit dem `cicontains` -Qualifizierer können Sie auf Elemente nach ihrem Namen zugreifen.
+>* Diese Anweisung kann zwar auf eine Spalte mit dem Firmennamen angewendet werden, aber auch auf jede andere Spalte im Bericht. Grüner Text wird nur angezeigt, wenn dem Projekt eine Firma zugeordnet ist. Denken Sie an die `[field name]`, `[value]` und `[qualifier]`, unabhängig davon, ob die Konditionierung letztendlich in der Spalte angezeigt wird oder nicht.
+>* Bei der Arbeit mit Kriterien empfehlen wir die Verwendung von `cicontains` anstelle von `equal`. Standardmäßig sucht `equal` nach ID-Nummern. Mithilfe des `cicontains` können Sie auf Elemente anhand ihres Namens zugreifen.
 
 ![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png)
 
 ![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png)
 
-Unabhängig davon, ob Textfarbe, Ausrichtung, Schriftstil oder Hintergrundfarbe auf einen Textmodus angewendet werden, wird dieselbe Anweisung (wie oben gezeigt) verwendet.
+Unabhängig davon, ob Textfarbe, Ausrichtung, Schriftstil oder Hintergrundfarbe auf einen Textmodus angewendet werden, wird dieselbe Anweisung (siehe oben) verwendet.
 
-Die folgenden Zeilen müssen entsprechend der für die Spalte benötigten Formatierung geändert werden:
+Die folgenden Zeilen müssen geändert werden, um die entsprechende Formatierung widerzuspiegeln, die für die Spalte erforderlich ist:
 
 ```
 styledef.case.0.comparison.trueproperty.0.name= [format option]
@@ -322,7 +322,7 @@ Verwenden Sie die folgenden Tabellen, um zu bestimmen, welche Zeilen geändert w
 |---|---|
 | Schwarz | `000000` |
 | Dunkelblau | `0c6aca` |
-| Tee | `1b878c` |
+| Knäkente | `1b878c` |
 | Grün | `03a219` |
 | Lila | `6408c4` |
 | Grau | `767676` |
@@ -331,11 +331,11 @@ Verwenden Sie die folgenden Tabellen, um zu bestimmen, welche Zeilen geändert w
 
 {style="table-layout:auto"}
 
-| **Ausrichtung** | **Linie: align=** |
+| **Ausrichtung** | **Zeile: align=** |
 |---|---|
-| Linksausrichtung | `left` |
-| Rechtsausrichtung | `right` |
-| Ausrichtung zentrieren | `center` |
+| Linksbündig | `left` |
+| Rechtsbündig | `right` |
+| Zentriert | `center` |
 
 {style="table-layout:auto"}
 
@@ -346,9 +346,9 @@ Verwenden Sie die folgenden Tabellen, um zu bestimmen, welche Zeilen geändert w
 
 {style="table-layout:auto"}
 
-| **Hintergrundfarbe** | **Linie: bgcolor=** |
+| **Hintergrundfarbe** | **Zeile: bgcolor=** |
 |---|---|
-| Tee | `dcf6f7` |
+| Knäkente | `dcf6f7` |
 | Grün | `def6e2` |
 | Grau | `e8e8e8` |
 | Blau | `e8f1ff` |
@@ -361,9 +361,9 @@ Verwenden Sie die folgenden Tabellen, um zu bestimmen, welche Zeilen geändert w
 
 #### Mehrere bedingte Formate {#multiple-conditional-formats}
 
-Sie können mehrere Formatierungsstile auf eine Anweisung anwenden. Die Core-Anweisung bleibt unverändert und alle zusätzlichen Formatierungsausdrücke werden zur -Anweisung hinzugefügt.
+Sie können mehrere Formatierungsstile auf eine Anweisung anwenden. Die Kernanweisung bleibt unverändert und alle zusätzlichen Formatierungsausdrücke werden der Anweisung hinzugefügt.
 
-Verwenden Sie beispielsweise die frühere Anweisung, um den Firmennamen in grün gefalteten Text einzuschließen. Die Anweisung würde mit dem folgenden Code geschrieben:
+Verwenden Sie beispielsweise die frühere Anweisung, um den Firmennamen in einen fett gedruckten grünen Text einzuschließen. Die Anweisung wird mit dem folgenden Code geschrieben:
 
 ```
 styledef.case.0.comparison.leftmethod=company:name
@@ -381,13 +381,13 @@ styledef.case.0.comparison.trueproperty.1.value=bold
 
 >[!NOTE]
 >
->Wenn Sie mehr als einen bedingten Formatierungsausdruck einschließen, müssen Sie jeden Ausdruck in der Anweisung numerisch identifizieren. Beachten Sie, dass Ausdruck 0 und Ausdruck 1 identifiziert wurden.
+>Wenn mehrere bedingte Formatierungsausdrücke einbezogen werden, ist es erforderlich, jeden Ausdruck in der Anweisung numerisch zu identifizieren. Beachten Sie, dass Ausdruck 0 und Ausdruck 1 identifiziert wurden.
 
 #### Text anwenden {#apply-text}
 
-Wenn Sie die Standardwerte, die in einer Spalte enthalten sind, durch einen Wert Ihrer Wahl ersetzen möchten, ist es möglich, Text auf die Spalte anzuwenden.
+Wenn Sie die Standardwerte, die in eine Spalte eingefügt werden, durch einen Wert Ihrer Wahl ersetzen möchten, ist es möglich, Text auf die Spalte anzuwenden.
 
-Legen Sie beispielsweise in einem Projektbericht den Wert für die Spalte &quot;Geplantes Startdatum&quot;fest, um nicht das geplante Startdatum für das Projekt anzuzeigen, sondern den Text &quot;Nicht heute&quot;. Verwenden Sie den folgenden Code für die Spalte &quot;Geplantes Startdatum&quot;:
+Stellen Sie beispielsweise in einem Projektbericht den Wert der Spalte Geplantes Startdatum so ein, dass nicht das geplante Startdatum für das Projekt, sondern der Text „Heute nicht“ angezeigt wird. Verwenden Sie den folgenden Code für die Spalte „Geplantes Startdatum“:
 
 ```
 case.0.comparison.leftmethod=plannedStartDate
@@ -408,7 +408,7 @@ styledef.case.0.comparison.truetext=not today
 
 >[!NOTE]
 >
->Die Zeilen, die mit dem Anwendungsfall `case.0.` beginnen, vergleichen die Verwendung von Text. Die Zeilen, die mit `styledef.case.0.` beginnen, sind frühere bedingte Formatierungsanweisungen, bei denen wir die Verwendung von Text über den Ausdruck `truetext` identifizieren. Stellen Sie sicher, dass Sie &quot;`truetext`&quot;auf einen Wert setzen, anstatt ihn leer zu lassen.
+>Die Zeilen, die mit `case.0.` Anwendungsfall beginnen, vergleichen zur Identifizierung der Verwendung von Text. Die Zeilen, die mit `styledef.case.0.` beginnen, sind frühzeitige Anweisungen zur bedingten Formatierung, bei denen wir die Verwendung von Text durch den `truetext`-Ausdruck identifizieren. Stellen Sie sicher, dass Sie `truetext` auf einen Wert setzen, anstatt ihn leer zu lassen.
 
 ![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png)
 
@@ -446,7 +446,7 @@ row.0.styledef.case.0.comparison.truetext=
 
 #### Bilder anwenden {#apply-images}
 
-Ähnlich wie bei der Textformatierung können auch Bilder verwendet werden, um Informationen in Berichten anzuzeigen. Workfront verfügt über eine Reihe integrierter Bilder, die visuelle Informationen in einer Berichtseinstellung vermitteln. Um Bilder in der Einstellung für die bedingte Formatierung zu verwenden, ist die folgende Anweisung erforderlich:
+Ähnlich wie bei der Formatierung mit Text können auch Bilder verwendet werden, um Informationen in Berichten anzuzeigen. Workfront verfügt über eine Reihe integrierter Bilder, um visuelle Informationen in einer Berichteinstellung zu vermitteln. Um Bilder in der Einstellung „Bedingte Formatierung“ zu verwenden, ist die folgende Anweisung erforderlich:
 
 ```
 image.case.0.comparison.leftmethod= [field name]
@@ -458,7 +458,7 @@ image.case.0.comparison.icon=true
 image.case.0.comparison.truetext=
 ```
 
-Beispielsweise möchten Sie in einem Projektbericht eine Spalte erstellen, in der Sie für jedes geplante Abschlussdatum, das nicht dem heutigen Datum entspricht, ein ungefärbtes Gesicht anzeigen. Verwenden Sie den folgenden Textmoduscode, um das Symbol zu Ihrer Spalte hinzuzufügen:
+Angenommen, Sie möchten in einem Projektbericht eine Spalte erstellen, in der für jedes geplante Abschlussdatum, das nicht dem heutigen Datum entspricht, eine Stirnseite angezeigt wird. Verwenden Sie den folgenden Textmodus-Code, um das Symbol zu Ihrer Spalte hinzuzufügen:
 
 
 ```
@@ -473,7 +473,7 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 >[!NOTE]
 >
->Beachten Sie, dass die Anweisung den Ausdruck `icon=true` verwendet. Diese Anweisung unterscheidet sich auch von anderen Anweisungen zur bedingten Formatierung insofern, als sie nicht das Format `style.def`, sondern ein eindeutiges Bildformat verwendet.
+>Beachten Sie, dass die Anweisung den `icon=true`-Ausdruck verwendet. Diese Anweisung unterscheidet sich auch insofern von anderen bedingten Formatierungsanweisungen, als sie nicht das `style.def` Format, sondern ein eindeutiges Bildformat verwendet.
 
 ![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png)
 
@@ -481,40 +481,40 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 
 Um die verfügbaren Bilder zu verwenden, wenden Sie den folgenden Code und die folgenden Werte an:
 
-| **Symbol** | **Zeile: image.case.0.compare.truetext=** |
+| **Symbol** | **Line: image.case.0.compare.trueText=** |
 |---|---|
-| Frohes Gesicht ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
 | Happy Face ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Blaue Markierung ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Grüne Markierung ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| Rotes Flag ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Gelbe Markierung ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| Schwarzer Kreis ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Blue Circle ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| Grauer Kreis ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Blaue ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Grüne ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Gelbe ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Blauer Kreis ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
 | Grüner Kreis ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| Orange Circle ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| rosa Kreis ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Purple Circle ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Roter Kreis ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| Rosa Kreis ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Violette ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Roter ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
 | Weißer Kreis ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
 | Gelber Kreis ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 
-### Bedingtes Formatieren von `valueexpression` {#conditionally-format-a-valueexpression}
+### Bedingtes Formatieren einer `valueexpression` {#conditionally-format-a-valueexpression}
 
-Um einen berechneten Wert in einer Spalte anzuzeigen, können Sie die Codezeile `valuefield` in der Spalte durch eine `valueexpression` ersetzen. Mit einem berechneten Wert können Sie einen neuen Wert für ein Objekt anzeigen, der auf der Berechnung zwischen zwei vorhandenen Feldern desselben Objekts basiert.
+Um einen berechneten Wert in einer Spalte anzuzeigen, können Sie die `valuefield` Codezeile in der Spalte durch eine `valueexpression` ersetzen. Mit einem berechneten Wert können Sie einen neuen Wert für ein Objekt anzeigen, der auf der Berechnung zwischen zwei vorhandenen Feldern für dasselbe Objekt basiert.
 
-Weitere Informationen zum Formatieren des `valueexpression line` finden Sie unter [Textmodussyntax-Übersicht](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+Weitere Informationen zum Formatieren der `valueexpression line` finden Sie unter [Übersicht über die Textmodussyntax](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
 
-Sie können eine Spalte mit der Codezeile `valueexpression` nicht bedingt formatieren. Stattdessen können Sie einem benutzerdefinierten Formular ein berechnetes benutzerdefiniertes Feld hinzufügen und es mit den Objekten verknüpfen, die Sie im Bericht anzeigen. Anschließend können Sie die Spalten, in denen dieses Feld angezeigt wird, bedingt formatieren.
+Eine Spalte, die eine `valueexpression` Codezeile enthält, kann nicht mit Bedingungen formatiert werden. Stattdessen können Sie ein berechnetes benutzerdefiniertes Feld zu einem benutzerdefinierten Formular hinzufügen und es mit den Objekten verknüpfen, die Sie im Bericht anzeigen. Anschließend können Sie die Spalten, die dieses Feld anzeigen, mit Bedingungen formatieren.
 
-Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Weitere Informationen zu berechneten benutzerdefinierten Feldern finden Sie unter [Hinzufügen berechneter Felder zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 
-## Aggregatorwert in einer Spalte vom Typ Textmodus hinzufügen
+## Hinzufügen eines Aggregatorwerts in einer Textmodusspalte
 
-Es wird empfohlen, zuerst die Spalte in der Erstellungsoberfläche zu erstellen, dort den Aggregatorwert hinzuzufügen und dann die Spalte im Textmodus zu bearbeiten.
+Es wird empfohlen, die Spalte zuerst in der Builder-Benutzeroberfläche zu erstellen, dort den Aggregatorwert hinzuzufügen und dann die Spalte im Textmodus zu bearbeiten.
 
 Beachten Sie beim Hinzufügen von Aggregatoren zu einer Spalte im Textmodus Folgendes:
 
@@ -524,20 +524,20 @@ Beachten Sie beim Hinzufügen von Aggregatoren zu einer Spalte im Textmodus Folg
    * Datum
    * Währung
 
-* Sie können einer Spalte, die eine Berechnung anzeigt, einen Aggregator hinzufügen. Der aggregierte Wert wird in der Gruppierung der Ansicht oder des Berichts angezeigt. Weitere Informationen finden Sie unter [Gruppierung: Zeigen Sie das Ergebnis der Aggregation mehrerer berechneter Werte in einer Gruppierung an](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
-* Die Codezeilen für die Spaltendefinition müssen mit den Codezeilen übereinstimmen, die den Aggregator einführen, und dem &quot;Aggregator&quot;vorangehen. Wenn Sie beispielsweise eine Spalte haben, in der Sie geplante Stunden für ein Projekt anzeigen, lautet der Textmodus der Hauptzeilen der Spalte:
+* Sie können einer Spalte, die eine Berechnung anzeigt, einen Aggregator hinzufügen. Der aggregierte Wert wird in der Gruppierung der Ansicht oder des Berichts angezeigt. Weitere Informationen finden Sie unter [Gruppierung: Anzeigen des Ergebnisses zum Aggregieren mehrerer berechneter Werte in einer Gruppierung](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/grouping-calculation-between-two-fields-aggregated-in-grouping.md).
+* Die Codezeilen für die Definition der Spalte müssen mit den Codezeilen identisch sein, die den Aggregator einführen und denen „Aggregator“ vorangestellt ist. Wenn Sie beispielsweise eine Spalte haben, in der die geplanten Stunden für ein Projekt angezeigt werden, lautet der Textmodus der Hauptzeilen der Spalte:
 
 ```
   valuefield=workRequired
   valueformat=compound
 ```
 
-Wenn Sie die Werte aller Zeilen in der Gruppierung der Ansicht aggregieren möchten, können wir den folgenden Code hinzufügen, um die Aggregatorwerte hinzuzufügen:
+Wenn Sie die Werte aller Zeilen in der Gruppierung der Ansicht aggregieren möchten, können Sie den folgenden Code hinzufügen, um die Aggregatorwerte hinzuzufügen:
 
-`aggregator.valuefield=workRequired` (Die Zeile `aggregator.valuefield` muss mit der Zeile `valuefield` übereinstimmen, die die Spalte beschreibt)
+`aggregator.valuefield=workRequired` (Die `aggregator.valuefield` muss mit der `valuefield` übereinstimmen, die die Spalte beschreibt)
 
-`aggregator.valueformat=compound` (Die Zeile `aggregator.valueformat` muss denselben Wert wie die Zeile `valueformat` haben, die die Spalte beschreibt)
+`aggregator.valueformat=compound` (Die `aggregator.valueformat` muss denselben Wert aufweisen wie der `valueformat`, der die Spalte beschreibt.)
 
-`aggregator.function=SUM` (Dies ist eine obligatorische Zeile, die angibt, wie Sie die Spalte aggregieren möchten. In diesem Fall möchten Sie alle geplanten Stunden zu einer Zahl in der Gruppierungszeile hinzufügen.)
+`aggregator.function=SUM` (Dies ist eine obligatorische Zeile, die angibt, wie die Spalte aggregiert werden soll. In diesem Fall sollen alle einzelnen geplanten Stunden in der Gruppierungsposition zu einer Zahl hinzugefügt werden.)
 
-`aggregator.displayformat=minutesAsHoursString` (da Stunden in Workfront in Minuten gespeichert werden, möchten wir den `displayformat` für Stunden angeben, wenn sie in Minuten gespeichert werden.)
+`aggregator.displayformat=minutesAsHoursString` (Da Stunden in Workfront in Minuten gespeichert werden, sollten Sie die `displayformat` für Stunden angeben, wenn sie in Minuten gespeichert werden.)

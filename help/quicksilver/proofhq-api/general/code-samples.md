@@ -1,6 +1,6 @@
 ---
-title: Codebeispiele
-description: Codebeispiele
+title: Code-Beispiele
+description: Code-Beispiele
 author: Becky
 draft: Probably
 feature: Workfront API, Workfront Proof
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# Codebeispiele
+# Code-Beispiele
 
-UNTER BAU
+IM BAU
 
-Codebeispiele für die ProofHQ-API werden derzeit erstellt.
+Code-Beispiele für die ProofHQ-API werden derzeit erstellt.

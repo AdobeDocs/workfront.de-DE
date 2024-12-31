@@ -1,8 +1,8 @@
 ---
 product-area: dashboards
 navigation-topic: create-and-manage-dashboards
-title: Einbetten einer Anforderungswarteschlange in ein Dashboard
-description: Sie können eine neue Anforderungswarteschlange in ein Dashboard einbetten, um Ihren Benutzern direkten Zugriff auf die Anforderungswarteschlange zu ermöglichen, ohne zum Bereich Anforderungen wechseln zu müssen.
+title: Einbetten einer Anfrage-Warteschlange in ein Dashboard
+description: Sie können eine neue Anfrage-Warteschlange in ein Dashboard einbetten, um Ihren Benutzern direkten Zugriff auf die Anfrage-Warteschlange zu ermöglichen, ohne den Bereich Anfragen aufrufen zu müssen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Einbetten einer Anforderungswarteschlange in ein Dashboard
+# Einbetten einer Anfrage-Warteschlange in ein Dashboard
 
-Sie können eine neue Anforderungswarteschlange in ein Dashboard einbetten, um Ihren Benutzern direkten Zugriff auf die Anforderungswarteschlange zu ermöglichen, ohne zum Bereich Anforderungen wechseln zu müssen. 
+Sie können eine neue Anfrage-Warteschlange in ein Dashboard einbetten, um Ihren Benutzern direkten Zugriff auf die Anfrage-Warteschlange zu ermöglichen, ohne den Bereich Anfragen aufrufen zu müssen. 
 
-Wenn Sie beispielsweise über eine Anforderungswarteschlange verfügen, die für Ihr gesamtes Unternehmen geöffnet ist, z. B. eine Help Desk Queue oder eine PTO Request-Warteschlange, auf die jeder regelmäßig zugreifen muss, kann es praktisch sein, die Anforderungswarteschlange direkt in eines seiner Dashboards einzufügen, um schnellen und einfachen Zugriff zu erhalten. Die Einrichtung erfolgt ähnlich wie die Erstellung einer externen Seite in einem Dashboard.
+Wenn Sie beispielsweise über eine Anfrage-Warteschlange verfügen, die für Ihr gesamtes Unternehmen offen ist, z. B. eine Helpdesk-Warteschlange oder eine PTO-Anfrage-Warteschlange, auf die alle Benutzer regelmäßig zugreifen müssen, kann es praktisch sein, die Anfrage-Warteschlange direkt in eines ihrer Dashboards einzufügen, um einen schnellen und einfachen Zugriff zu ermöglichen. Der Prozess der Einrichtung ähnelt dem Prozess der Erstellung einer externen Seite in einem Dashboard.
 
-Zunächst müssen Sie eine URL für die Anforderungswarteschlange abrufen. Zweitens können Sie die URL in ein Dashboard einbetten, indem Sie eine externe Seite hinzufügen.
+Zunächst müssen Sie eine URL für die Anfrage-Warteschlange abrufen. Zweitens können Sie die URL in ein Dashboard einbetten, indem Sie eine externe Seite hinzufügen.
 
 ## Zugriffsanforderungen
 
@@ -31,92 +31,92 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen für das Dashboard verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Dashboard</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Voraussetzungen
 
-Bevor Sie eine Anforderungswarteschlange in ein Dashboard einbetten können, müssen Sie beide folgenden Elemente erstellen:
+Beide der folgenden Schritte müssen erstellt werden, bevor Sie eine Anfrage-Warteschlange in ein Dashboard einbetten können:
 
-* **Dashboard**: Informationen zum Erstellen von Dashboards finden Sie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-* **Anforderungswarteschlange**: Informationen zum Erstellen von Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* **Das Dashboard**: Informationen zum Erstellen von Dashboards finden Sie unter [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+* **Die Anfrage-Warteschlange**: Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
-## URL der Anforderungswarteschlange abrufen {#obtain-the-url-of-the-request-queue}
+## Abrufen der URL der Anfrage-Warteschlange {#obtain-the-url-of-the-request-queue}
 
-Sie können die URL einer Anforderungswarteschlange auf verschiedene Weise abrufen, je nachdem, welcher Teil der Anforderungswarteschlange den Benutzern angezeigt werden soll, wenn sie über ein Dashboard darauf zugreifen.
+Sie können die URL einer Anfrage-Warteschlange auf verschiedene Arten abrufen, je nachdem, welchen Teil der Anfrage-Warteschlange Sie den Benutzern bereitstellen möchten, wenn sie über ein Dashboard darauf zugreifen.
 
-* [Link zu einem bestimmten Warteschlangenthema mit der Möglichkeit, den Anfragetyp zu ändern](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
-* [Link zu einer Anforderungswarteschlange erhalten und Möglichkeit, den Anfragetyp zu ändern](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
-* [Link zu einer Anforderungswarteschlange ohne Möglichkeit zum Ändern des Anfragetyps abrufen](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
+* [Erhalten Sie einen Link zu einem bestimmten Warteschlangen-Thema mit der Möglichkeit, den Anfragetyp zu ändern](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+* [Erhalten Sie einen Link zu einer Anfrage-Warteschlange und die Möglichkeit, den Anfragetyp zu ändern](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+* [Abrufen eines Links zu einer Anfrage-Warteschlange ohne Möglichkeit, den Anfragetyp zu ändern](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
-### Link zu einem bestimmten Warteschlangenthema mit der Möglichkeit, den Anfragetyp zu ändern {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
+### Abrufen eines Links zu einem bestimmten Warteschlangenthema mit der Möglichkeit, den Anfragetyp zu ändern {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
 
-Wenn Sie einen Link zu einem bestimmten Warteschlangenthema für andere Benutzer freigeben, wird das Anforderungsformular im exakten Warteschlangenthema geöffnet, das zum Senden der Anforderung verwendet werden muss. Dies ist hilfreich, wenn Benutzer möglicherweise nicht sicher sind, welches Warteschlangenthema beim Protokollieren von Anforderungen für eine bestimmte Anforderungswarteschlange ausgewählt werden soll.
+Wenn Sie einen Link zu einem bestimmten Warteschlangenthema für andere Benutzer freigeben, wird das Anfrageformular mit genau dem Warteschlangenthema geöffnet, das diese Benutzer zum Senden der Anfrage verwenden müssen. Dies ist hilfreich, wenn Benutzende möglicherweise nicht sicher sind, welches Warteschlangen-Thema beim Protokollieren von Anfragen für eine bestimmte Anfragewarteschlange ausgewählt werden soll.
 
-Benutzer können den Anfragetyp ändern oder bei Bedarf ein anderes Thema auswählen. Auch die Navigation im Bereich Anforderungen wird angezeigt.
+Benutzer können bei Bedarf den Anfragetyp ändern oder ein anderes Thema auswählen. Die Navigation im Bereich Anfragen wird ebenfalls angezeigt.
 
-1. Klicken Sie auf das Menü **Hauptmenü** > **Anforderungen** > **Neue Anforderung**.
-1. Wenn Sie bestimmte Warteschlangen freigeben möchten, wählen Sie weiterhin Themengruppen und Warteschlangenthemen aus, bis Sie die Warteschlange erreichen, die Sie im Dashboard freigeben möchten. Informationen zum Senden von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+1. Klicken Sie auf **Hauptmenü** > **Anfragen** > **Neue Anfrage**.
+1. Wählen Sie weiterhin Themengruppen und Warteschlangenthemen aus, bis Sie die Warteschlange erreichen, die Sie im Dashboard freigeben möchten, falls Sie eine bestimmte Warteschlange freigeben möchten. Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
    >[!TIP]
    >
-   >Die Auswahl von Themengruppen und Themen in der Warteschlange ist optional.
+   >Die Auswahl von Themengruppen und Warteschlangenthemen ist optional.
 
-1. Klicken Sie oben rechts im Bereich &quot;Neue Anforderung&quot;auf **Pfad freigeben** .
+1. Klicken Sie **Freigabepfad** in der oberen rechten Ecke des Bereichs Neue Anfrage .
 
-   Dadurch wird der Link in die Anforderungswarteschlange oder das Warteschlangenthema kopiert, während Sie ihn auf dem Bildschirm anzeigen. Benutzer können den Anfragetyp oder eine der verfügbaren Themengruppen und Warteschlangenthemen aktualisieren.
+   Dadurch wird der Link in die Anfrage-Warteschlange oder das Warteschlangen-Thema so kopiert, wie Sie es auf dem Bildschirm anzeigen. Benutzer können den Anfragetyp oder eine beliebige Themengruppe und Warteschlangenthemen aktualisieren, die verfügbar sind.
 
    ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
-### Link zu einer Anforderungswarteschlange abrufen und Anfragetyp ändern {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
+### Anforderungswarteschlange und Möglichkeit zum Ändern des Anforderungstyps verknüpfen {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
-Wenn Sie einen Link für einen Anfragetyp freigeben, wird der Anfragetyp für den Benutzer ausgewählt. Dies ist hilfreich, wenn Benutzer aus mehreren Themengruppen oder Themen in der Warteschlange für denselben Anfragetyp wählen müssen. Benutzer können den Anfragetyp ändern und einen anderen wählen. Auch die Navigation im Bereich Anforderungen wird angezeigt.
+Wenn Sie einen Link für einen Anfragetyp freigeben, wird der Anfragetyp für den Benutzer ausgewählt. Dies ist hilfreich, wenn Benutzende aus mehreren Themengruppen oder Warteschlangenthemen für denselben Anfragetyp auswählen müssen. Benutzer können den Anfragetyp ändern und einen anderen auswählen. Die Navigation im Bereich Anfragen wird ebenfalls angezeigt.
 
-1. Wechseln Sie zu einem Projekt, das als Anforderungswarteschlange bezeichnet wurde.
+1. Zu einem Projekt gehen, das als Anfrage-Warteschlange bezeichnet wird.
 
-   Informationen zum Erstellen einer Anforderungswarteschlange aus einem Projekt finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Informationen zum Erstellen einer Anfrage-Warteschlange aus einem Projekt finden Sie unter [Erstellen einer Anfrage-](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Wechseln Sie zu **Warteschlangendetails**.
-1. Kopieren Sie den Code, den Sie im Feld **Direct Access URL** finden.
+1. Navigieren Sie zu **Warteschlangendetails**.
+1. Kopieren Sie den Code, den Sie im Feld **URL für den direkten Zugriff** finden.
 
-   Der Code sollte in etwa wie folgt aussehen:
+   Der Code sollte etwa wie folgt aussehen:
 
    `https://<yourdomain>.my.workfront.com/requests/new?activeTab=tab-new-helpRequest&projectID=50062d6f000849c95ab3513c0e84a51e&path=`
 
-   Dies ist der Link zur Anforderungswarteschlange, die mit dem ausgewählten Projekt verknüpft ist. Der Anfragetyp ist vorausgewählt.
+   Dies ist der Link zur Anfrage-Warteschlange, die mit dem ausgewählten Projekt verknüpft ist. Der Anfragetyp ist vorausgewählt.
 
-   Benutzer können eine beliebige Themengruppe oder ein beliebiges Warteschlangenthema auswählen oder einen anderen Anfragetyp auswählen.
+   Benutzende können eine beliebige Themengruppe oder ein Warteschlangen-Thema auswählen oder einen anderen Anfragetyp auswählen.
 
    ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
-### Link zu einer Anforderungswarteschlange ohne Möglichkeit zum Ändern des Anfragetyps abrufen {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
+### Abrufen eines Links zu einer Anfrage-Warteschlange ohne Möglichkeit, den Anfragetyp zu ändern {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
-Wenn Sie einen Link für einen vorab ausgewählten Anfragetyp freigeben, wird der Anfragetyp für den Benutzer ausgewählt und kann nicht geändert werden (abgeblendet). Benutzer können die Themengruppen oder Themen in der Warteschlange auswählen, die sie benötigen. Dies ist hilfreich, wenn Sie nicht möchten, dass Benutzer andere Anfragetypen anzeigen und auswählen können. Die Navigation des Anforderungsbereichs wird nicht angezeigt.
+Wenn Sie einen Link für einen vorab ausgewählten Anfragetyp freigeben, ist der Anfragetyp für den Benutzer ausgewählt und kann nicht geändert werden (er ist abgeblendet). Benutzer können die Themengruppen oder Warteschlangenthemen auswählen, die sie benötigen. Dies ist hilfreich, wenn Sie nicht möchten, dass Benutzer andere Anfragetypen anzeigen und auswählen. Die Navigation im Bereich Anfragen wird nicht angezeigt.
 
-1. Wechseln Sie zu einem Projekt, das als Anforderungswarteschlange bezeichnet wurde.
+1. Zu einem Projekt gehen, das als Anfrage-Warteschlange bezeichnet wird.
 
-   Informationen zum Erstellen einer Anforderungswarteschlange aus einem Projekt finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Informationen zum Erstellen einer Anfrage-Warteschlange aus einem Projekt finden Sie unter [Erstellen einer Anfrage-](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Wechseln Sie zu **Warteschlangendetails**.
+1. Navigieren Sie zu **Warteschlangendetails**.
 1. Kopieren Sie den Code, den Sie im Feld **Eingebetteter Code** finden.
 
-   Der Code sollte in etwa wie folgt aussehen:
+   Der Code sollte etwa wie folgt aussehen:
 
    `<iframe src="https://<yourdomain>my.workfront.com/requests/newRequestEmbedded?projectID=612518c7000404462d3bc9a0bc09fa71" frameborder="0" width="500" height="600"></iframe>`
 
@@ -126,30 +126,30 @@ Wenn Sie einen Link für einen vorab ausgewählten Anfragetyp freigeben, wird de
 
    >[!TIP]
    >
-   >Sie können ein `<samp>iframe </samp>` -Tag hinzufügen, wenn Sie den Code in eine andere Anwendung als Workfront einbetten.
+   >Sie können ein `<samp>iframe </samp>`-Tag hinzufügen, wenn Sie den Code in eine andere Anwendung als Workfront einbetten.
 
-   Dies ist der Link zur Anforderungswarteschlange, die mit dem ausgewählten Projekt verknüpft ist. Der Anfragetyp ist vorausgewählt und kann nicht geändert werden.
+   Dies ist der Link zur Anfrage-Warteschlange, die mit dem ausgewählten Projekt verknüpft ist. Der Anfragetyp ist vorausgewählt und kann nicht geändert werden.
 
-   Benutzer können eine beliebige Themengruppe oder ein beliebiges Thema für die Warteschlange auswählen, die für den ausgewählten Anfragetyp erforderlich sind. Benutzer können keinen anderen Anfragetyp auswählen.
+   Benutzende können eine beliebige Themengruppe oder ein Warteschlangenthema auswählen, das sie für den ausgewählten Anfragetyp benötigen. Benutzende können keinen anderen Anfragetyp auswählen.
 
    ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
-## Einbetten einer Anforderungswarteschlange in ein Dashboard
+## Einbetten einer Anfrage-Warteschlange in ein Dashboard
 
-Sie können einen Link zur Anforderungswarteschlange oder zu einem Warteschlangenthema, das unter einer Anforderungswarteschlange verschachtelt ist, in ein Dashboard einbetten, um Benutzern direkten Zugriff auf die Eingabe von Anforderungen zu ermöglichen.
+Sie können einen Link zur Anfragewarteschlange oder zu einem Warteschlangen-Thema, das unter einer Anfragewarteschlange verschachtelt ist, in ein Dashboard einbetten, um Benutzern direkten Zugriff auf eingegebene Anfragen zu gewähren.
 
-1. Rufen Sie eine Anforderungswarteschlange-URL mit einer der Methoden ab, die im Abschnitt &quot;[URL der Anforderungswarteschlange abrufen](#obtain-the-url-of-the-request-queue)&quot;dieses Artikels beschrieben sind.
-1. Klicken Sie auf das Menü **Hauptmenü** > **Dashboards** > **Neues Dashboard**.
-1. Geben Sie einen **Namen** für das Dashboard ein. Dies ist ein Pflichtfeld.
-1. Klicken Sie auf **Externe Seite hinzufügen**.
+1. Rufen Sie eine URL für die Anforderungswarteschlange mit einer der Methoden ab, die im Abschnitt [Abrufen der URL ](#obtain-the-url-of-the-request-queue) Anforderungswarteschlange“ dieses Artikels beschrieben sind.
+1. Klicken Sie auf **Hauptmenü** > **Dashboards** > **Neues Dashboard**.
+1. Geben Sie **Dashboard** Name“ ein. Dies ist ein Pflichtfeld.
+1. Klicken Sie **Externe Seite hinzufügen**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
 
-1. Bearbeiten Sie im Feld **Externe Seite hinzufügen** die folgenden Felder:
+1. Bearbeiten **im Feld** Externe Seite hinzufügen“ die folgenden Felder:
 
-   * **Name**: Geben Sie den Namen der Anforderungswarteschlange so ein, wie er im Dashboard angezeigt werden soll. Dies ist ein Pflichtfeld.
+   * **Name**: Geben Sie den Namen der Anfrage-Warteschlange ein, wie er im Dashboard angezeigt werden soll. Dies ist ein Pflichtfeld.
 
-   * **Beschreibung**: Geben Sie eine Beschreibung ein, die diese externe Seite anzeigt. Dies ist kein erforderliches Feld und nur für Berichtszwecke wichtig. Sie wird nicht im Dashboard angezeigt.
+   * **Beschreibung**: Geben Sie eine Beschreibung ein, über die diese externe Seite angezeigt wird. Dies ist kein Pflichtfeld und nur für Berichtszwecke wichtig. Er wird nicht im Dashboard angezeigt.
    * **URL**: Fügen Sie die URL ein, die Sie mit einer der in Schritt 1 beschriebenen Methoden erhalten haben.
 
      <!--   
@@ -160,17 +160,17 @@ Sie können einen Link zur Anforderungswarteschlange oder zu einem Warteschlange
      </MadCap:conditionalText>   
      -->
 
-   * **Höhe**: Geben Sie die Höhe der externen Seite ein. Dadurch wird festgelegt, wie viel Platz die externe Seite, die die Anforderungswarteschlange enthält, im Dashboard belegt. Dies ist ein erforderliches Feld und der Standardwert ist 500.
+   * **Höhe**: Geben Sie die Höhe der externen Seite ein. Dadurch wird festgelegt, wie viel Platz die externe Seite, die die Anfrage-Warteschlange enthält, im Dashboard belegt. Dies ist ein Pflichtfeld und der Standardwert ist 500.
 
 1. Klicken Sie auf **Speichern**.
-1. Klicken Sie auf **Speichern + Schließen**. 
+1. Klicken Sie **Speichern + Schließen**. 
 
-   Die Anforderungswarteschlange wird im Dashboard als separate Dashboard-Komponente angezeigt.
+   Die Anfrage-Warteschlange wird im Dashboard als separate Dashboard-Komponente angezeigt.
 
    ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
 
-1. (Optional) Klicken Sie auf **Dashboard-Aktionen** und dann auf **Bearbeiten** , um dem Dashboard Berichte, Kalender oder zusätzliche externe Seiten hinzuzufügen.\
-   Informationen zum Hinzufügen von Komponenten zu einem Dashboard finden Sie unter [Dashboard erstellen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+1. (Optional) Klicken Sie auf **Dashboard-Aktionen** und dann **Bearbeiten**, um Berichte, Kalender oder zusätzliche externe Seiten zum selben Dashboard hinzuzufügen.\
+   Informationen zum Hinzufügen von Komponenten zu einem Dashboard finden Sie unter [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
 
  
 

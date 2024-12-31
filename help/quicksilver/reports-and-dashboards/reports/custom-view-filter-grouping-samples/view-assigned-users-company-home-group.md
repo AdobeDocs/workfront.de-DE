@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Unternehmen und Startseite des zugewiesenen Benutzers'
-description: In dieser Aufgabenansicht werden das Unternehmen und die Home-Gruppe des Primären Eigentümers der Aufgabe angezeigt. Hierbei handelt es sich um Werte, die in der Standardoberfläche nicht verfügbar sind, aber über den Textmodus auf sie zugegriffen werden kann.
+title: 'Anzeigen: Firma und Hauptgruppe des zugewiesenen Benutzers'
+description: Diese Aufgabenansicht zeigt das Unternehmen und die Hauptgruppe des Primären Aufgabenbesitzers an. Hierbei handelt es sich um Werte, die nicht in der Standardschnittstelle verfügbar sind, auf die jedoch über den Textmodus zugegriffen werden kann.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 818c1f3a-4e82-4dc3-af86-4f9dcf5c11a4
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Ansicht: Unternehmen und Startseite des zugewiesenen Benutzers
+# Anzeigen: Firma und Hauptgruppe des zugewiesenen Benutzers
 
 <!--Audited: 11/2024-->
 
-In dieser Aufgabenansicht werden das Unternehmen und die Home-Gruppe des Primären Eigentümers der Aufgabe angezeigt. Hierbei handelt es sich um Werte, die in der Standardoberfläche nicht verfügbar sind, aber über den Textmodus auf sie zugegriffen werden kann.
+Diese Aufgabenansicht zeigt das Unternehmen und die Hauptgruppe des Primären Aufgabenbesitzers an. Hierbei handelt es sich um Werte, die nicht in der Standardschnittstelle verfügbar sind, auf die jedoch über den Textmodus zugegriffen werden kann.
 
 ![](assets/view--assigned-user-s-company-and-home-group-350x80.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,44 +33,44 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen des Unternehmens und der Startseite des zugewiesenen Benutzers
+## Firma und Hauptgruppe des zugewiesenen Benutzers anzeigen
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
+1. Entfernen Sie im Bereich **Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
 1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In Textmodus wechseln**.
-1. Klicken Sie auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Klicken Sie **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.descriptionkey=name
@@ -129,5 +129,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    column.3.width=150
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.
 1. (Optional) Aktualisieren Sie den Ansichtsnamen und klicken Sie dann auf **Ansicht speichern**.

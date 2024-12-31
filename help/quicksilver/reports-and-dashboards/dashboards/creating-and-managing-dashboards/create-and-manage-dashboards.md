@@ -3,7 +3,7 @@ content-type: reference
 product-area: dashboards
 navigation-topic: dashboards-navigation-topic
 title: Dashboads erstellen und verwalten
-description: Lesen Sie diese Artikel, um zu erfahren, wie Sie Dashboards in Adobe Workfront erstellen.
+description: In diesen Artikeln erfahren Sie, wie Sie Dashboards in Adobe Workfront erstellen.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -20,14 +20,14 @@ ht-degree: 10%
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md)
-* [Einen Bericht zu einem Dashboard hinzufügen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
+* [Bericht zu einem Dashboard hinzufügen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/add-report-dashboard.md)
 * [Kopieren eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/copy-dashboard.md)
 * [Bearbeiten eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/edit-dashboard.md)
 * [Löschen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/delete-dashboard.md)
-* [Drucken eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
-* [Exportieren eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
-* [Dashboard freigeben](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
-* [Einbetten einer externen Webseite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
-* [Einbetten einer Anforderungswarteschlange in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
-* [Externe Seite aus einem Dashboard entfernen](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
-* [Übersicht über Canvas-Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Dashboard drucken](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/print-dashboard.md)
+* [Dashboard exportieren](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/export-dashboard.md)
+* [Freigeben eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md)
+* [Einbetten einer externen Web-Seite in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md)
+* [Anfrage-Warteschlange in Dashboard einbetten](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md)
+* [Entfernen einer externen Seite aus einem Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md)
+* [Arbeitsflächen-Dashboards - Übersicht](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)

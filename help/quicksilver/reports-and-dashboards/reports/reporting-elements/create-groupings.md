@@ -2,7 +2,7 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Erstellen von Gruppierungen in Adobe Workfront
-description: Sie können eine benutzerdefinierte Gruppierung von Grund auf neu erstellen oder eine bestehende Gruppierung anpassen.
+description: Sie können eine benutzerdefinierte Gruppierung von Grund auf neu erstellen oder eine vorhandene Gruppierung anpassen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 64cc52b7-d97b-4b41-9101-530e7db2d26e
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 <!--(NOTE: This is a third part of an article split in 3 about creating and customizing groupings (2 how-tos and one reference)-->
 
-Die Ergebnisse eines Berichts oder einer Liste können in Form einer Gruppierung zusammengefasst werden. Gruppierungen kategorisieren Informationen basierend auf einer bestimmten Information.
+Die Ergebnisse eines Berichts oder einer Liste können mit einer Gruppierung organisiert werden. Gruppierungen kategorisieren Informationen anhand einer bestimmten Information.
 
-Sie können eine benutzerdefinierte Gruppierung von Grund auf neu erstellen oder eine bestehende Gruppierung anpassen. Gehen Sie wie folgt vor, um eine neue Gruppierung zu erstellen.
+Sie können eine benutzerdefinierte Gruppierung von Grund auf neu erstellen oder eine vorhandene Gruppierung anpassen. Gehen Sie wie folgt vor, um eine neue Gruppierung zu erstellen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,52 +35,52 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
    <td> 
       <p>Neu:</p>
          <ul>
-         <li><p>Mitwirkende oder höher</p></li>
+         <li><p>Mitwirkender oder höher</p></li>
          </ul>
       <p>Aktuell:</p>
          <ul>
-         <li><p>Anforderung oder höher</p></li>
+         <li><p>Anfrage oder höher</p></li>
          </ul>
    </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen auf Zugriffsebene*</strong></td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
    <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um eine Gruppierung in einem Bericht zu erstellen</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td><p>Berechtigungen für einen Bericht zum Bearbeiten einer Gruppierung in einem Bericht verwalten</p></td> 
+   <td><p>Verwalten der Berechtigungen für einen Bericht zum Bearbeiten einer Gruppierung in einem Bericht</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Gruppierung erstellen
+## Erstellen einer Gruppierung
 
-1. Gehen Sie zum Bericht oder zur Liste, in der Sie Ihre benutzerspezifische Gruppierung erstellen möchten.
-1. Klicken Sie auf das Symbol **Gruppierung** .
+1. Navigieren Sie zum Bericht oder zur Liste, in der Sie die benutzerdefinierte Gruppierung erstellen möchten.
+1. Klicken Sie auf das **Gruppierung**-Symbol .
 
    ![Neue Gruppierung auswählen](assets/newgrouping-nwe-standard-350x304.png)
 
 1. Klicken Sie auf **+ Neue Gruppierung**.
 Der Interface Builder zum Erstellen der Gruppierungsstarts.
 
-1. Klicken Sie im Bereich **Gruppierungsvorschau** auf **Gruppierung hinzufügen** , um festzulegen, wie die Informationen im Bericht organisiert werden sollen. Unten finden Sie eine Vorschau der Gruppierung im Bericht.
+1. Klicken Sie im Bereich **Gruppierungsvorschau** auf **Gruppierung hinzufügen**, um festzulegen, wie die Informationen im Bericht organisiert werden sollen. Nachfolgend finden Sie eine Vorschau der Gruppierung im Bericht.
 
-1. Beginnen Sie mit der Eingabe des Namens des Felds, das die Art und Weise darstellt, wie Sie Informationen im Bericht organisieren möchten, und klicken Sie dann darauf, wenn es in der Dropdown-Liste angezeigt wird.
-1. (Optional und bedingt) Wenn Sie eine Gruppierung in einer aktualisierten Liste erstellen, wählen Sie **Diese Gruppierung standardmäßig ausblenden** aus, wenn die Ergebnisse in der Gruppierung ausgeblendet statt erweitert angezeigt werden sollen. Diese Einstellung ist standardmäßig deaktiviert und die Ergebnisse der Gruppierung werden immer in der erweiterten Liste angezeigt.
+1. Geben Sie den Namen des Felds ein, das die Art und Weise darstellt, wie Sie Informationen im Bericht organisieren möchten, und klicken Sie dann auf den Bericht, wenn er in der Dropdown-Liste angezeigt wird.
+1. (Optional und bedingt) Wählen Sie beim Erstellen einer Gruppierung in einer aktualisierten Liste **Diese Gruppierung standardmäßig reduzieren**, wenn die Ergebnisse in der Gruppierung reduziert anstatt erweitert angezeigt werden sollen. Diese Einstellung ist standardmäßig deaktiviert und die Ergebnisse der Gruppierung werden immer in der erweiterten Liste angezeigt.
 
-   Informationen zu aktualisierten und alten Listen finden Sie im Abschnitt [Der Unterschied zwischen den aktualisierten und den alten Listen](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) im Artikel [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
+   Informationen zu aktualisierten und veralteten Listen finden Sie im Abschnitt [Der Unterschied zwischen aktualisierten und veralteten Listen](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) im Artikel [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: the tips repeat in the Edit existing grouping article and Common uses of text mode)</p>
@@ -88,21 +88,21 @@ Der Interface Builder zum Erstellen der Gruppierungsstarts.
 
    >[!TIP]
    >
-   >* Wenn Sie Gruppierungen bei der Anzeige einer Liste manuell anpassen, behält sich Workfront Ihre manuellen Voreinstellungen vor, bis Sie sich abmelden. Wenn Sie sich wieder anmelden, wird die Liste entsprechend dieser Einstellung angezeigt.
-   >* Die Ergebnisse einer Gruppierung werden immer erweitert, nachdem sie über ein Diagrammelement oder eine veraltete Liste aufgerufen wurden. In diesen Fällen wird diese Einstellung ignoriert.
+   >* Wenn Sie beim Anzeigen einer Liste Gruppierungen manuell anpassen, speichert Workfront Ihre manuellen Einstellungen, bis Sie sich abmelden. Beim erneuten Anmelden wird die Liste entsprechend dieser Einstellung angezeigt.
+   >* Die Ergebnisse einer Gruppierung werden immer erweitert angezeigt, nachdem über ein Diagrammelement oder in einer Legacy-Liste darauf zugegriffen wurde. In diesen Fällen wird diese Einstellung ignoriert.
 
-1. Wiederholen Sie die Schritte 4, 5 und 6, um weitere Gruppierungen zu definieren.\
-   Sie können bis zu drei Gruppierungen definieren, um Informationen zu organisieren. Sie können Ihre Informationen mithilfe von bis zu vier Gruppierungen weiter organisieren, indem Sie einen Matrix-Bericht erstellen. Weitere Informationen zu Matrix-Berichten finden Sie unter [Erstellen eines Matrix-Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
+1. Wiederholen Sie die Schritte 4, 5 und 6, um zusätzliche Gruppierungen zu definieren.\
+   Sie können bis zu drei Gruppierungen zum Organisieren von Informationen definieren. Sie können Ihre Informationen mit bis zu vier Gruppierungen weiter organisieren, indem Sie einen Matrixbericht erstellen. Weitere Informationen zu Matrixberichten finden Sie unter [Erstellen eines Matrixberichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-matrix-report.md).
 
-1. Klicken Sie auf **Gruppierung speichern**.
+1. Klicken Sie **Gruppierung speichern**.
 
 ## Weitere Informationen
 
 Siehe auch:
 
-* [Gruppierungsübersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
+* [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md)
 * [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md)
-* [Bestehende Gruppierungen bearbeiten](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
+* [Bearbeiten vorhandener Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/edit-existing-groupings.md)
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

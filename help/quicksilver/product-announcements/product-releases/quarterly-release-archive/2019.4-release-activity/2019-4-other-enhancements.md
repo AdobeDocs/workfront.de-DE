@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-4-release-activity
-title: Weitere Verbesserungen in Version 2019.4
-description: Auf dieser Seite werden verschiedene Verbesserungen beschrieben, die mit Version 2019.4 vorgenommen wurden. Sie wird in der Woche vom 11. November 2019 in der Produktionsumgebung zur Verfügung gestellt.
+title: 2019.4 Weitere Verbesserungen
+description: Auf dieser Seite werden verschiedene Verbesserungen beschrieben, die mit der Version 2019.4 vorgenommen wurden. Es wird in der Woche vom 11. November 2019 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Weitere Verbesserungen in Version 2019.4
+# 2019.4 Weitere Verbesserungen
 
-Auf dieser Seite werden verschiedene Verbesserungen beschrieben, die mit Version 2019.4 vorgenommen wurden. Sie wird in der Woche vom 11. November 2019 in der Produktionsumgebung zur Verfügung gestellt.
+Auf dieser Seite werden verschiedene Verbesserungen beschrieben, die mit der Version 2019.4 vorgenommen wurden. Es wird in der Woche vom 11. November 2019 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die in Version 2019.4 vorgenommen wurden, finden Sie unter [Versionsübersicht 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
+Eine Liste aller Änderungen in Version 2019.4 finden Sie unter [Übersicht über die Version 2019.4](../../../../product-announcements/product-releases/quarterly-release-archive/2019.4-release-activity/2019-4-release-activity-overview.md).
 
 <table style="table-layout:auto"> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <strong>Starten eines automatisierten Testversand-Workflows aus einem Adobe CC-Dokument</strong> <p>Ohne Adobe CC verlassen zu müssen, können Sie einen automatisierten Testversand-Workflow für ein von Ihnen erstelltes Adobe CC-Dokument starten. Weitere Informationen finden Sie im Abschnitt <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Erstellen eines Testversands von Illustrator oder InDesign</a> im Artikel <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Verwenden der Workfront-Erweiterung für Illustrator und InDesign</a>.</p> </td> 
+   <td> <strong>Starten eines automatisierten Proofing-Workflows von einem Adobe-CC-Dokument aus</strong> <p>Ohne Adobe CC verlassen zu müssen, können Sie einen automatisierten Proofing-Workflow für ein von Ihnen erstelltes Adobe CC-Dokument starten. Weitere Informationen finden Sie im Abschnitt <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md#generate" class="MCXref xref" xrefformat="{para}">Erstellen eines Korrekturabzugs von Illustrator oder InDesign</a> im Artikel <a href="../../../../documents/workfront-for-adobe-creative-cloud/use-wf-adobe-cc.md" class="MCXref xref" xrefformat="{para}">Verwenden der Workfront-Erweiterung für Illustrator und InDesign</a>.</p> </td> 
   </tr> 
   <!--
    <tr data-mc-conditions="QuicksilverOrClassic.Draft mode"> 
@@ -50,37 +50,37 @@ Eine Liste aller Änderungen, die in Version 2019.4 vorgenommen wurden, finden S
    </tr>
   --> 
   <tr> 
-   <td> <strong>Duplizieren von E-Mail-Adressen verhindern</strong> <p>Sie können nicht mehr dieselbe E-Mail-Adresse verwenden, wenn Sie mehrere Benutzer in Workfront erstellen, auch wenn diese E-Mail-Adressen von Fall zu Fall variieren. Sie können beispielsweise keinen Benutzer mit der E-Mail-Adresse JohnDoe@example.com und einen anderen Benutzer mit der E-Mail-Adresse johndoe@example.com erstellen. </p> <p>Vor dieser Änderung wurde die Erstellung von Benutzern mit übereinstimmenden E-Mail-Adressen unterstützt, die sich nur von Fall zu Fall unterscheiden. </p> <p>Hinweis: Vorhandene Benutzer mit übereinstimmenden E-Mail-Adressen, die sich nur von Fall zu Fall unterscheiden, müssen an einem zukünftigen Datum aktualisiert werden. Wenn Sie Benutzer in einer Workfront-Instanz haben, deren E-Mail-Adressen nur von Fall zu Fall verschieden sind, kontaktiert Workfront Sie mit zusätzlichen Informationen und einer Zeitleiste, wenn diese aktualisiert werden müssen.</p> </td> 
+   <td> <strong>Verhindern doppelter E-Mail-Adressen</strong> <p>Sie können dieselbe E-Mail-Adresse nicht mehr verwenden, wenn Sie mehrere Benutzende in Workfront erstellen, auch wenn diese E-Mail-Adressen von Fall zu Fall unterschiedlich sind. Sie können beispielsweise keinen Benutzer mit der E-Mail-Adresse JohnDoe@example.com und keinen anderen Benutzer mit der E-Mail-Adresse johndoe@example.com erstellen. </p> <p>Vor dieser Änderung wurde das Erstellen von Benutzern mit übereinstimmenden E-Mail-Adressen, die sich nur nach Groß-/Kleinschreibung unterschieden, unterstützt. </p> <p>Hinweis: Vorhandene Benutzer mit übereinstimmenden E-Mail-Adressen, die sich nur durch die Groß-/Kleinschreibung unterscheiden, müssen zu einem zukünftigen Datum aktualisiert werden. Wenn sich Benutzende in einer Workfront-Instanz mit übereinstimmenden E-Mail-Adressen befinden, die sich nur von Fall zu Fall unterscheiden, wird Workfront Sie mit zusätzlichen Informationen und einem Zeitplan kontaktieren, wenn diese aktualisiert werden müssen.</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>Zusätzliche Objekttypen, die für die Felder vom Typ voraus in einem benutzerdefinierten Formular verfügbar sind</strong> 
-     <p>Wenn Sie jetzt ein benutzerdefiniertes "TypeAhead"-Feld erstellen, können Sie die folgenden Objekttypen mit dem Feld verknüpfen: Benutzer, Firma, Gruppe, Auftragsrolle, Portfolio, Programm, Projekt und Vorlage.</p> 
-     <p>Zuvor konnten Sie nur den User-Objekttyp mit einem benutzerdefinierten Feld "TypeAhead"verknüpfen.</p> 
+     <strong>Zusätzliche Objekttypen für Typeahead-Felder in einem benutzerdefinierten Formular verfügbar</strong> 
+     <p>Wenn Sie jetzt ein benutzerdefiniertes Feld mit automatischer Textvervollständigung erstellen, können Sie die folgenden Objekttypen mit dem Feld verknüpfen: Benutzer, Unternehmen, Gruppe, Aufgabengebiet, Portfolio, Programm, Projekt und Vorlage.</p> 
+     <p>Zuvor konnten Sie nur den Benutzerobjekttyp mit einem benutzerdefinierten Feld mit automatischer Textvervollständigung verknüpfen.</p> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Dateiname der neuesten Version eines angezeigten Dokuments</strong> <p>Wenn Sie jetzt eine Dokumentversion mit einem anderen Dateinamen als die vorhandene Version hochladen, wird der neue Dateiname in Workfront angezeigt.</p> <p>Wenn Sie zuvor eine neue Version mit einem anderen Dateinamen hinzugefügt haben, wurde der Dateiname der vorherigen Version weiterhin in Workfront angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Hochladen einer neuen Version eines Dokuments</a>.</p> </td> 
+   <td> <strong>Dateiname der zuletzt angezeigten Version eines Dokuments</strong> <p>Wenn Sie jetzt eine Dokumentversion hochladen, deren Dateiname sich von dem der bestehenden Version unterscheidet, wird der neue Dateiname in Workfront angezeigt.</p> <p>Wenn Sie bisher eine neue Version mit einem anderen Dateinamen hinzugefügt haben, wird der Dateiname der vorherigen Version weiterhin in Workfront angezeigt.</p> <p>Weitere Informationen finden Sie unter <a href="../../../../documents/managing-documents/upload-new-document-version.md" class="MCXref xref" xrefformat="{para}">Hochladen einer neuen Version eines Dokuments</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td> <strong>Fügen Sie einem Feld vom TypAhead in einem benutzerdefinierten Formular einen Filter hinzu</strong> <p>Wenn Sie jetzt ein Feld vom Typ "Vorwärts"zu einem benutzerdefinierten Formular hinzufügen, können Sie einen Filter hinzufügen, um die Objekte zu beschränken, die verfügbar sind, wenn jemand das Feld verwendet. Sie können beispielsweise das Feld so einschränken, dass der Benutzer nur Mitglieder der Marketing- und Verkaufsteams in Ihrer Organisation auswählen kann.</p> <p>Weitere Informationen finden Sie im Abschnitt Neues Feld erstellen und hinzufügen im Artikel Erstellen benutzerdefinierter Forms .</p> </td> 
+   <td> <strong>Hinzufügen eines Filters zu einem Feld mit automatischer Textvervollständigung in einem benutzerdefinierten Formular</strong> <p>Wenn Sie nun einem benutzerdefinierten Formular ein Feld mit automatischer Textvervollständigung hinzufügen, können Sie einen Filter hinzufügen, um die Objekte zu begrenzen, die verfügbar sind, wenn jemand das Feld verwendet. Sie können beispielsweise das Feld so beschränken, dass der Benutzer nur Mitglieder des Marketing- und Verkaufsteams in Ihrer Organisation auswählen kann.</p> <p>Weitere Informationen finden Sie im Abschnitt Erstellen und Hinzufügen eines neuen Felds im Artikel Erstellen einer benutzerdefinierten Forms .</p> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
      <strong>Ändern des Anzeigetyps eines Felds in einem benutzerdefinierten Formular</strong> 
      <p>Jetzt können Sie den Anzeigetyp eines Felds in einem benutzerdefinierten Formular ändern.</p> 
-     <p>Wenn Sie beispielsweise ein Kontrollkästchen-Feld erstellt haben, können Sie es in ein Dropdown-Feld oder ein Optionsfeld ändern. Diese drei Feldanzeigetypen sind austauschbar.</p> 
-     <p>Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es in ein Absatztext -Feld ändern. Diese beiden Feldanzeigetypen sind austauschbar.</p> 
-     <p>Bisher mussten Sie zum Ändern des Anzeigetyps eines benutzerdefinierten Felds ein neues Feld erstellen und das alte löschen. Dies erforderte die Übertragung von Daten, die häufig zeitaufwendig waren.</p> 
+     <p>Wenn Sie beispielsweise ein Kontrollkästchen erstellt haben, können Sie es in ein Dropdown-Feld oder ein Optionsfeld ändern. Diese drei Anzeigetypen für Felder sind austauschbar.</p> 
+     <p>Wenn Sie ein einzeiliges Textfeld erstellt haben, können Sie es auch in ein Absatztextfeld ändern. Diese beiden Feldanzeigetypen sind austauschbar.</p> 
+     <p>Um den Anzeigetyp eines benutzerdefinierten Felds zu ändern, mussten Sie zuvor ein neues Feld erstellen und das alte löschen. Dies erforderte die Übertragung von Daten, was häufig zeitaufwendig war.</p> 
     </div> </td> 
   </tr> 
   <tr> 
    <td> 
     <div> 
-     <strong>Erstellen einer Zeitdauer für Kalender und Berichte</strong> 
-     <p>Sie können nun die Zeitdauer des Benutzers für eine bessere Planung und Ausführung sehen. Sie können Ihren Dashboards auch neue Zeiträume für Berichte und Kalender hinzufügen, um einen Echtzeitüberblick über die Benutzerverfügbarkeit zu erhalten.</p> 
+     <strong>Erstellen von Urlaubskalendern und -berichten</strong> 
+     <p>Sie können jetzt die Ausfallzeiten der Benutzenden für eine bessere Planung und Ausführung sehen. Sie können Ihren Dashboards auch neue Berichte und Kalender hinzufügen, um eine Echtzeitansicht der Benutzerverfügbarkeit zu erhalten.</p> 
     </div> </td> 
   </tr> 
  </tbody> 

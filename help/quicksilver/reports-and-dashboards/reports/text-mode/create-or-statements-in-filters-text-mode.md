@@ -1,8 +1,8 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Erstellen von "OR"-Anweisungen in Textmodusfiltern
-description: Sie können beim Erstellen eines Filters in Listen und Berichten mehrere Anweisungen hinzufügen.
+title: Erstellen von „OR“-Anweisungen in Textmodusfiltern
+description: Sie können mehrere -Anweisungen einfügen, wenn Sie einen Filter in Listen und Berichten erstellen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: be145e22-d66c-4a74-af0e-8bb0598b4d67
@@ -13,66 +13,66 @@ ht-degree: 0%
 
 ---
 
-# Erstellen von &quot;OR&quot;-Anweisungen in Textmodusfiltern
+# Erstellen von „OR“-Anweisungen in Textmodusfiltern
 
-Sie können beim Erstellen eines Filters in Listen und Berichten mehrere Anweisungen hinzufügen.
+Sie können mehrere -Anweisungen einfügen, wenn Sie einen Filter in Listen und Berichten erstellen.
 
 Informationen zum Erstellen von Filtern finden Sie in den folgenden Artikeln:
 
-* [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
-* [Filter im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
+* [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md)
+* [Bearbeiten eines Filters im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
 
 ## Textmodus-Filteroperatoren
 
-Informationen zu Adobe Workfront-Filteroperatoren in der Standardfilteroberfläche finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
+Weitere Informationen zu Adobe Workfront-Filteroperatoren in der Standardfilterschnittstelle finden Sie unter [Filterübersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
-Workfront verfügt über zwei Filteroperatoren, die jede Filteranweisung miteinander verbinden:
+Workfront verfügt über zwei Filteroperatoren, die jede Filteranweisung verbinden:
 
-* **AND**: Wenn Sie zwei Filteranweisungen durch den UND-Operator verknüpfen, geben Sie an, dass beide Filteranweisungen gleichzeitig erfüllt werden sollen.
+* **AND**: Wenn Sie zwei Filteranweisungen durch den AND-Operator verbinden, geben Sie an, dass beide Filteranweisungen gleichzeitig erfüllt werden sollen.
 
-  Standardmäßig werden die Anweisungen in einem Filter durch den UND -Operator verbunden.
+  Standardmäßig werden die Anweisungen in einem Filter durch den AND-Operator verbunden.
 
-  Beim Erstellen eines UND-Filters in der Textmodus-Benutzeroberfläche müssen Sie den UND-Operator nicht verwenden. Es wird angenommen.
+  Beim Erstellen eines AND-Filters in der Textmodus-Benutzeroberfläche müssen Sie den AND-Operator nicht verwenden. Es wird angenommen.
 
-  **Beispiel:** Verwenden Sie zum Filtern nach Aufgaben mit dem geplanten Abschlussdatum &quot;Heute&quot;und dem Prozentwert &quot;Vollständig&quot;unter 100 % den folgenden Textmoduscode:
+  **Beispiel:** Um nach Aufgaben zu filtern, die ein geplantes Abschlussdatum von heute und einen Prozentsatz von Fertigstellungen unter 100 % haben, verwenden Sie den folgenden Textmodus-Code:
 
-  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
+  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mode=eq</pre><pre>percentComplete=100</pre><pre>percentComplete_Mod=lt</pre>
 
-* **OR**: Wenn Sie zwei Filteranweisungen des ODER-Operators verknüpfen, geben Sie an, dass eine der beiden Anweisungen erfüllt werden soll.
-
-  >[!TIP]
-  >
-  >Wenn Sie Ihre AND-Anweisungen in OR-Anweisungen ändern, sollte die Anzahl der Elemente in Ihrem Bericht erhöht werden.
-
-  Beim Erstellen eines ODER-Filters mit der Textmodus-Benutzeroberfläche müssen Sie den ODER-Operator verwenden.
-
-  **Beispiel:** Verwenden Sie zum Filtern nach Aufgaben mit einem geplanten Abschlussdatum von heute oder einem Prozentwert von weniger als 100 % den folgenden Textmoduscode:
-
-  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre>
-
-## Textmodussyntax für OR-Filter
-
-Die Textmodussyntax für einen ODER-Filter muss Folgendes enthalten:
-
-* Der ODER -Operator gefolgt von einem Doppelpunkt, einer Zahl und einem weiteren Doppelpunkt am Anfang jeder Filterzeile, die auf das Objekt in der OR-Anweisung verweist. Dazu gehören die Zeile, die auf das Filterfeld oder Attribut verweist, und die Zeile, die auf den Filtermodifikator verweist.
-
-  Gehen Sie beim Erstellen eines ODER-Filters wie folgt vor:
-
-  <pre><field name in camel case>=<value></pre><pre><field name in camel case>_Mod=<modifier value></pre><pre>ODER:1:<field name in camel case>=<value></pre><pre>ODER:1:<field name in camel case>_Mod=<modifier value></pre>
+* **OR**: Wenn Sie zwei Filteranweisungen mit dem OR-Operator verbinden, geben Sie an, dass eine der beiden Anweisungen erfüllt sein soll.
 
   >[!TIP]
   >
-  >Beim ODER-Operator wird zwischen Groß- und Kleinschreibung unterschieden.
+  >Wenn Sie Ihre AND-Anweisungen in OR-Anweisungen ändern, sollte die Anzahl der Elemente in Ihrem Bericht steigen.
 
-  Ein Filter kann mehrere OR-Anweisungen enthalten. In diesem Fall erhält jede OR-Anweisung eine Zahl in der Reihenfolge, in der die Anweisungen angewendet werden sollen.
+  Beim Erstellen eines OR-Filters mithilfe der Textmodus-Oberfläche müssen Sie den OR-Operator verwenden.
 
-  **Beispiel:** Verwenden Sie den folgenden Textmoduscode, um nach Aufgaben zu filtern, die das geplante Abschlussdatum heute ODER einen Prozentsatz unter 100 % ODER den Status Neu aufweisen:
+  **Beispiel:** Um nach Aufgaben zu filtern, deren geplantes Abschlussdatum auf heute oder weniger als 100 % fällt, verwenden Sie den folgenden Textmodus-Code:
 
-  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mod=eq</pre><pre>OR:1:status=NEW</pre><pre>OR:1:status_Mod=in</pre><pre>OR:2:percentComplete=100</pre><pre>OR:2:percentComplete_Mod=lt</pre>
+  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mode=eq</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre>
 
-* Der Name der Felder oder Attribute, auf die Sie in einem Filter verweisen, muss in Binnenmajuskel-Schreibweise geschrieben sein. Informationen zur Binnenmajuskel-Schreibweise finden Sie unter [Übersicht über die Syntax des Textmodus](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
-* Wenn Sie in einem ODER-Filter auf benutzerdefinierte Felder verweisen, müssen Sie DE: zwischen der ODER-Modifikatorsyntax und dem Namen des benutzerdefinierten Felds einfügen. Sie müssen den Namen des benutzerdefinierten Felds so buchstabieren, wie er in der Benutzeroberfläche von Workfront angezeigt wird.
+## Textmodus-Syntax für OR-Filter
 
-  **Beispiel:** Verwenden Sie den folgenden Textmoduscode, um nach Aufgaben zu filtern, die den Status &quot;Neu&quot;ODER den Wert &quot;Prozent abgeschlossen&quot;unter 100 % ODER ein benutzerdefiniertes Feld namens &quot;Kontotyp&quot;mit dem Wert &quot;Gleich&quot;aufweisen:
+Die Textmodussyntax für einen OR-Filter muss Folgendes enthalten:
 
-  <pre>status=NEW</pre><pre>status_Mod=in</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre><pre>OR:2:DE:Account type=Capital</pre><pre>OR:2:DE:Account Type_Mod=in</pre>
+* Der OR-Operator, gefolgt von einem Doppelpunkt, einer Zahl und einem weiteren Doppelpunkt am Anfang jeder Filterzeile, die auf das Objekt in der OR-Anweisung verweist. Dazu gehören die Zeile, die auf das Filterfeld oder -attribut verweist, und die Zeile, die auf den Filtermodifikator verweist.
+
+  Befolgen Sie dieses Muster beim Erstellen eines OR-Filters:
+
+  <pre><field name in camel case>=<value></pre><pre><field name in camel case>_mod=<modifier value></pre><pre>ODER:1:<field name in camel case>=<value></pre><pre>ODER:1:<field name in camel case>_mod=<modifier value></pre>
+
+  >[!TIP]
+  >
+  >Beim OR-Operator wird zwischen Groß- und Kleinschreibung unterschieden.
+
+  Ein Filter kann mehrere OR-Anweisungen enthalten. In diesem Fall erhält jede OR-Anweisung eine Nummer in der Reihenfolge, in der die Anweisungen angewendet werden sollen.
+
+  **Beispiel:** Um nach Aufgaben zu filtern, deren geplantes Abschlussdatum weniger als 100 % oder aber weniger als das geplante Abschlussdatum beträgt, oder den Status Neu verwenden Sie den folgenden Textmodus-Code:
+
+  <pre>scheduledCompletionDate=$$TODAY</pre><pre>scheduledCompletionDate_Mode=eq</pre><pre>OR:1:status=NEW</pre><pre>OR:1:status_mod=in</pre><pre>OR:2:percentComplete=100</pre><pre>OR:2:percentComplete_Mod=lt</pre>
+
+* Der Name der Felder oder Attribute, auf die Sie in einem Filter verweisen, muss in Binnenmajuskel-Schreibweise geschrieben werden. Weitere Informationen zur Groß-/Kleinschreibung finden Sie unter [Übersicht über die Textmodus-Syntax](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md).
+* Wenn Sie auf benutzerdefinierte Felder in einem OR-Filter verweisen, müssen Sie zwischen der OR-Modifikatorsyntax und dem Namen des benutzerdefinierten Felds „DE:“ einfügen. Sie müssen den Namen des benutzerdefinierten Felds so buchstabieren, wie er in der Benutzeroberfläche von Workfront angezeigt wird.
+
+  **Beispiel:** Verwenden Sie den folgenden Textmodus-Code, um nach Aufgaben zu filtern, deren Status „Neu“ oder „Prozent abgeschlossen“ weniger als 100 % beträgt, ODER nach einem benutzerdefinierten Feld namens „Kontotyp“ mit dem Wert „Gleich“:
+
+  <pre>status=NEW</pre><pre>status_mod=in</pre><pre>OR:1:percentComplete=100</pre><pre>OR:1:percentComplete_Mod=lt</pre><pre>OR:2:DE:account type=capital</pre><pre>OR:2:DE:account type_mod=in</pre>

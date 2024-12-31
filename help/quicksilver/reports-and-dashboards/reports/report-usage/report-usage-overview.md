@@ -2,8 +2,8 @@
 content-type: overview;reference
 product-area: reporting
 navigation-topic: reports
-title: Berichtnutzung - Übersicht
-description: Erfahren Sie mehr über die Berichtverwendung.
+title: Berichtsnutzung - Übersicht
+description: Informationen zur Verwendung von Berichten.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -15,12 +15,12 @@ ht-degree: 0%
 
 ---
 
-# Berichtnutzung - Übersicht
+# Berichtsnutzung - Übersicht
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Grundlegendes Berichtserstellungsprogramm für das neue Workfront-Erlebnis](https://one.workfront.com/s/basic-report-creation-program)
-* [Zugriff auf und Organisieren von Berichten](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
-* [Erstellen eines Berichts über Berichterstellungsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
-* [So organisieren Sie Berichte in einem Dashboard](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
-* [Berichtverwendung anzeigen](../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)
+* [Grundlegendes Programm zur Berichterstellung für das neue Workfront-Erlebnis](https://one.workfront.com/s/basic-report-creation-program)
+* [Zugriff und Organisation von Berichten](../../../reports-and-dashboards/reports/report-usage/access-organize-reports.md)
+* [Erstellen eines Berichts zu Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md)
+* [Verstehen, wie Berichte in einem Dashboard organisiert werden](../../../reports-and-dashboards/reports/report-usage/understand-how-organize-reports-dashboard.md)
+* [Berichtsnutzung anzeigen](../../../reports-and-dashboards/reports/report-usage/view-report-usage.md)

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2019-2-release-activity
-title: Verbesserungen der Integration und Mobile 2019.2
-description: Auf dieser Seite werden alle Verbesserungen bei Integration und Mobile beschrieben, die in Version 2019.2 enthalten sind. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
+title: 2019.2 Verbesserungen bei Integration und Mobilgeräten
+description: Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Integrations- und Mobilgeräteverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
@@ -14,31 +14,31 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen der Integration und Mobile 2019.2
+# 2019.2 Verbesserungen bei Integration und Mobilgeräten
 
-Auf dieser Seite werden alle Verbesserungen bei Integration und Mobile beschrieben, die in Version 2019.2 enthalten sind. Die Funktion soll in der Produktionsumgebung ab der Woche des 20. Mai 2019 verfügbar sein.
+Auf dieser Seite werden alle in der Version 2019.2 enthaltenen Integrations- und Mobilgeräteverbesserungen beschrieben. Die Funktion soll in der Produktionsumgebung ab der Woche vom 20. Mai 2019 verfügbar sein.
 
-Eine Liste aller Änderungen, die in Version 2019.2 vorgenommen wurden, finden Sie unter [Übersicht über die Veröffentlichungsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
+Eine Liste aller in Version 2019.2 vorgenommenen Änderungen finden Sie unter [Übersicht über die Versionsaktivität 2019.2](../../../../product-announcements/product-releases/quarterly-release-archive/2019.2-release-activity/2019-2-release-activity-overview.md).
 
 ## Verbesserungen bei Workfront für Microsoft Teams
 
-Sie können jetzt Folgendes ausführen, wenn Sie Workfront für Microsoft Teams verwenden:
+Bei der Verwendung von Workfront für Microsoft Teams können Sie jetzt Folgendes tun:
 
-* Übermitteln von Workfront-Anforderungen
+* Workfront-Anfragen senden
 
-  Weitere Informationen finden Sie unter &quot;Senden von Workfront-Anfragen von Microsoft Teams&quot;.
+  Weitere Informationen finden Sie unter „Senden von Workfront-Anfragen über Microsoft Teams&quot;.
 
 * Workfront-Benachrichtigungseinstellungen für Microsoft Teams verwalten
 
   Vor dieser Verbesserung konnten Sie keine der Workfront-Benachrichtigungen in Microsoft Teams deaktivieren.
 
-  Weitere Informationen finden Sie unter [Verwalten von Workfront-Benachrichtigungen und -Genehmigungsanfragen in Microsoft Teams](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+  Weitere Informationen finden Sie unter [Verwalten von Workfront-Benachrichtigungen und Genehmigungsanfragen in Microsoft Teams ](../../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
-## Workfront für Adobe Creative Cloud-Integration aktualisiert
+## Aktualisierte Integration von Workfront für Adobe Creative Cloud
 
-Die Workfront für Adobe Creative Cloud-Erweiterung umfasst jetzt die Integration mit der Workfront-Bibliothek. Sie können jetzt über Adobe Creative Cloud-Anwendungen mit der Workfront for Adobe Creative Cloud-Erweiterung auf in der Workfront-Bibliothek gespeicherte Assets zugreifen.
+Die Erweiterung &quot;Workfront for Adobe Creative Cloud&quot; umfasst jetzt die Integration mit der Workfront Library. Sie können jetzt über Adobe Creative Cloud-Programme mithilfe der Erweiterung Workfront for Adobe Creative Cloud auf Assets zugreifen, die in der Workfront-Bibliothek gespeichert sind.
 
 ## Verbessertes Listenerlebnis in iOS und Android
 
-Das Erscheinungsbild für alle Listenansichten wird jetzt sowohl in den iOS- als auch in Android-Apps aktualisiert. Dieser neue Look ermöglicht es Ihnen, die Elemente in Ihrer Liste auf den einzelnen Registerkarten schnell zu identifizieren und die Gruppierungen über die Registerkarte Startseite zu erweitern.
+Das Erscheinungsbild für alle Listenansichten wird jetzt sowohl in der iOS- als auch in der Android-Mobile-App aktualisiert. Dieser neue Look ermöglicht es Ihnen, die Elemente in Ihrer Liste auf jeder Registerkarte schnell zu identifizieren sowie Gruppierungen auf der Registerkarte Startseite zu erweitern und zu reduzieren.
 

@@ -3,8 +3,8 @@ product-previous: enterprise-scenario-planner
 content-type: release-notes
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: scenario-planner-release-activity
-title: Adobe Workfront-Szenario-Planer mit Version 21.1
-description: Der Adobe Workfront-Szenario-Planer ist nur mit dem neuen Adobe Workfront-Erlebnis verfügbar.
+title: Adobe Workfront Scenario Planner mit Version 21.1
+description: Adobe Workfront Scenario Planner ist nur mit dem neuen Adobe Workfront-Erlebnis verfügbar.
 author: Luke
 feature: Product Announcements, Workfront Scenario Planner
 exl-id: 2e507c0c-76e2-4335-9682-df4f1940ff88
@@ -15,39 +15,39 @@ ht-degree: 0%
 
 ---
 
-# Adobe Workfront-Szenario-Planer mit Version 21.1
+# Adobe Workfront Scenario Planner mit Version 21.1
 
-Der Adobe Workfront-Szenario-Planer ist nur mit dem neuen Adobe Workfront-Erlebnis verfügbar.
+Adobe Workfront Scenario Planner ist nur mit dem neuen Adobe Workfront-Erlebnis verfügbar.
 
-Die folgenden Funktionen sind in Version 21.1 enthalten:
+Die folgenden Funktionen sind in der Version 21.1 von enthalten:
 
-## Auftrags- und Kosten für die Konfliktlösung im Szenario-Planer
+## Aufgabengebiet und Kosten für die Konturierung zur Lösung von Konflikten im Szenario-Planer
 
-Wir haben die Erfahrung zur Lösung von Aufgaben- und Budgetkonflikten im Szenario-Planer neu gestaltet. Einige der neuen Funktionen dieser Neugestaltung sind:
+Wir haben das Erlebnis zur Lösung von Aufgabengebiet- und Budgetkonflikten im Szenario-Planer neu gestaltet. Einige der neuen Funktionen, die in diesem Redesign enthalten sind:
 
-* Möglichkeit, die Anzahl der Rollen in der Initiative und die Höhe der Fixkosten pro Monat zu aktualisieren.
-* Mehr Sichtbarkeit in der Zeitleiste des Plans für Konfliktsituationen, damit Sie schneller Einblicke darüber erhalten, wo Sie mögliche unzureichende Ressourcen ansprechen müssen.
-* Ein verbessertes Benutzererlebnis, das neue QuickInfos, Informationsfelder und Highlights enthält, die Sie durch die Lösung von Konflikten zwischen den Ressourcen, die Ihre Initiativen benötigen, und dem Budget, das Ihr Plan zur Verfügung hat, schneller und einfacher führen.
+* Möglichkeit, die Anzahl der Aufgabengebiete der Initiative und den Betrag der Fixkosten nach Monat zu aktualisieren.
+* Mehr Sichtbarkeit in der Timeline des Plans für den Fall eines Konflikts, um Ihnen einen schnelleren Einblick darüber zu geben, wo Sie möglicherweise unzureichende Ressourcen ansprechen müssen.
+* Ein verbessertes Benutzererlebnis, das neue QuickInfos, Informationsfelder und Highlights umfasst, die Sie schneller und einfacher durch die Lösung von Konflikten zwischen den benötigten Ressourcen Ihrer Initiativen und dem verfügbaren Budget Ihres Plans führen.
 
 Informationen zum Beheben von Konflikten im Szenario-Planer finden Sie unter [Beheben von Initiativkonflikten im Szenario-Planer](../../../scenario-planner/resolve-conflicts-in-sp.md).
 
 >[!NOTE]
 >
->**Verfügbar zu diesen Datumsangaben:**
+>**Verfügbar zu diesen Daten:**
 >
 >Beta-Vorschau-Version: 13. Januar 2021
 >
->Produktionsversion: Mit Version 21.1
+>Produktionsversion: Mit der Version 21.1
 
 ## Neues Menü zur Massenverwaltung von Initiativen
 
-Um Ihnen mehr Flexibilität bei der Verwaltung von Planungsinitiativen im Workfront-Szenario-Planer zu geben, haben wir ein neues Menü mit Aktionen zum Löschen, Kopieren und Priorisieren von Initiativen eingeführt. Sie können jetzt eine oder mehrere Initiativen auswählen und sie für einen Plan löschen, kopieren oder priorisieren.
+Um Ihnen mehr Flexibilität beim Verwalten von Initiativen für einen Plan im Workfront-Szenarioplaner zu bieten, haben wir ein neues Menü mit Aktionen zum Löschen, Kopieren und Priorisieren von Initiativen eingeführt. Sie können jetzt eine oder mehrere Initiativen auswählen und sie in einem Plan löschen, kopieren oder priorisieren.
 
-Vor dieser Änderung konnten Sie eine Initiative nicht kopieren und konnten nur jeweils eine Initiative löschen oder priorisieren.
+Vor dieser Änderung konnten Sie keine Initiative kopieren und nur jeweils eine Initiative löschen oder priorisieren.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
 * [Löschen von Initiativen im Szenario-Planer](../../../scenario-planner/delete-initiatives.md)
 * [Kopieren von Initiativen im Szenario-Planer](../../../scenario-planner/copy-initiatives.md)
-* [Aktualisierung der Initiativprioritäten im Szenario-Planer](../../../scenario-planner/prioritize-initiatives.md)
+* [Aktualisieren der Initiativen-Prioritäten im Szenario-Planer](../../../scenario-planner/prioritize-initiatives.md)
 

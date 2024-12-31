@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Grundlegende Varianz für Dauer und geplante Arbeit in einer Aufgabenansicht'
-description: Zeigen Sie die Grundlinienvarianz für Dauer und geplante Arbeit an.
+title: 'Ansicht: Baseline-Abweichung für Dauer und geplante Arbeit in einer Aufgabenansicht'
+description: Baseline-Abweichung für Dauer und geplante Arbeiten anzeigen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2a1eef9c-016c-4a04-acda-6070fcb0e23d
@@ -14,25 +14,25 @@ ht-degree: 1%
 
 ---
 
-# Ansicht: Grundlegende Varianz für Dauer und geplante Arbeit in einer Aufgabenansicht
+# Ansicht: Baseline-Abweichung für Dauer und geplante Arbeit in einer Aufgabenansicht
 
 <!--Audited: 11/2024-->
 
 Diese Ansicht zeigt Folgendes in einer Aufgabenansicht an:
 
-* Aufgabeninformationen mit Grundlinien-Aufgabeninformationen.
-* Die Differenz zwischen der Dauer und der standardmäßigen Basisdauer.
-* Der Unterschied zwischen der geplanten und der standardmäßigen geplanten Arbeit in der Grundlinie.
+* Aufgabeninformationen mit grundlegenden Aufgabeninformationen.
+* Der Unterschied zwischen Dauer und der standardmäßigen Baseline-Dauer.
+* Unterschied zwischen den geplanten Arbeiten und den standardmäßigen geplanten Arbeiten.
 
 >[!NOTE]
 >
->Die in der folgenden Ansicht angezeigten Daten vergleichen die tatsächlichen Aufgabenwerte mit den Werten, die mit den Standardgrundaufgaben verknüpft sind.
+>Die in der folgenden Ansicht angezeigten Daten vergleichen die tatsächlichen Aufgabenwerte mit den Werten, die mit den standardmäßigen Baseline-Aufgaben verknüpft sind.
 
 ![baseline_variance_in_a_task_view.png](assets/baseline-variance-in-a-task-view-350x38.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,41 +41,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Grundlegende Varianz für Dauer und geplante Arbeit in einer Aufgabenansicht anzeigen
+## Baseline-Abweichung für Dauer und geplante Arbeit in einer Aufgabenansicht anzeigen
 
-1. Gehen Sie zu einer Liste von Aufgaben.
-1. Wählen Sie im Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus oder bearbeiten Sie eine vorhandene Ansicht.
-1. Entfernen Sie alle Spalten in der Ansicht, mit Ausnahme der ersten.
-1. Klicken Sie bei ausgewählter erster Spalte auf **In den Textmodus wechseln** und dann auf **Textansicht bearbeiten**.
+1. Zu einer Aufgabenliste gehen.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht** oder bearbeiten Sie eine vorhandene Ansicht.
+1. Entfernen Sie alle Spalten in der Ansicht mit Ausnahme der ersten.
+1. Klicken Sie bei ausgewählter erster Spalte auf **Wechseln in den Textmodus** und klicken Sie dann auf **Textansicht bearbeiten**.
 1. Kopieren Sie den unten stehenden Text und fügen Sie ihn in die erste Spalte der Ansicht ein:
 
    ```

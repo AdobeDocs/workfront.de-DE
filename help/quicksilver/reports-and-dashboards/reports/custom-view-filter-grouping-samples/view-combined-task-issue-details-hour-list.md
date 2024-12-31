@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Kombinierte Aufgaben- und Problemdetails in einer Stundenliste"
-description: In dieser Stundenansicht werden die Spalten "Aufgabe"und "Problemname"sowie die Spalten "Aufgabe"und "Problemplanstunden"mit dem sharecol -Tag kombiniert. Da ein Stundeneintrag nur einer Aufgabe oder einem Problem zugeordnet werden kann, können beide Objekte nicht gleichzeitig in derselben Spalte angezeigt werden. Jede Zeile der Ansicht enthält die Informationen aus einer Aufgabe oder einem Problem.
+title: 'Anzeigen: Kombinierte Aufgaben- und Problemdetails in einer Stundenliste'
+description: In dieser Stundenansicht werden die Spalten „Aufgaben“ und „Anfragename“ sowie die geplanten Stunden für Aufgaben und Probleme mit dem Tag „sharecol“ kombiniert. Da ein Stundeneintrag nur zu einer Aufgabe oder einem Problem gehören kann, können nicht beide Objekte gleichzeitig in derselben Spalte angezeigt werden. Jede Zeile der Ansicht enthält die Informationen entweder einer Aufgabe oder eines Problems.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cf1137fd-c26a-4907-afe9-2373d3434631
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Ansicht: kombinierte Aufgaben- und Problemdetails in einer Stundenliste
+# Anzeigen: kombinierte Aufgaben- und Problemdetails in einer Stundenliste
 
 <!--Audited:11/2024-->
 
-In dieser Stundenansicht werden die Spalten &quot;Aufgabe&quot;und &quot;Problemname&quot;sowie die Spalten &quot;Aufgabe&quot;und &quot;Geplante Problemzeiten&quot;mit dem Tag &quot;`sharecol`&quot;kombiniert. Da ein Stundeneintrag nur einer Aufgabe oder einem Problem zugeordnet werden kann, können beide Objekte nicht gleichzeitig in derselben Spalte angezeigt werden. Jede Zeile der Ansicht enthält die Informationen aus einer Aufgabe oder einem Problem.
+In dieser Stundenansicht werden die Spalten „Aufgaben“ und „Anfragename“ sowie die geplanten Stunden für Aufgaben und Probleme mit dem Tag &quot;`sharecol`&quot; kombiniert. Da ein Stundeneintrag nur zu einer Aufgabe oder einem Problem gehören kann, können nicht beide Objekte gleichzeitig in derselben Spalte angezeigt werden. Jede Zeile der Ansicht enthält die Informationen entweder einer Aufgabe oder eines Problems.
 
-Weitere Informationen zum Tag `sharecol` finden Sie unter [Ansicht: Zusammenführen von Informationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
+Weitere Informationen zum `sharecol`-Tag finden Sie unter [Anzeigen: Zusammenführungsinformationen aus mehreren Spalten in einer gemeinsamen Spalte](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-merge-columns.md).
 
 ![custom_view_hours_with_task_and_issue_information.png](assets/custom-view-hours-with-350x48.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,42 +35,42 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> 
     <p>Neu:</p>
-   <ul><li><p>Mitwirkende bei der Änderung eines Filters </p></li>
+   <ul><li><p>Mitwirkender zum Ändern eines Filters </p></li>
    <li><p>Standard zum Ändern eines Berichts</p></li> </ul>
 
 <p>Aktuell:</p>
-   <ul><li><p>Filteranforderung </p></li>
-   <li><p>Berichtänderung planen</p></li> </ul></td> 
+   <ul><li><p>Filter ändern </p></li>
+   <li><p>Planen der Änderung eines Berichts</p></li> </ul></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um einen Filter zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen kombinierter Aufgaben- und Problemdetails in einer Stundenliste
+## Kombinierte Aufgaben- und Problemdetails in einer Stundenliste anzeigen
 
-1. Rufen Sie eine Liste der Stunden auf.
-1. Klicken Sie im Dropdownmenü **Ansicht** auf **Neue Ansicht**.
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
+1. Zu einer Stundenliste gehen.
+1. Klicken Sie **Dropdown** Menü „Ansicht“ auf **Neue Ansicht**.
+1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
 1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.1.querysort=project:name
@@ -164,5 +164,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    column.8.width=150
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.
 1. (Optional) Aktualisieren Sie den Ansichtsnamen und klicken Sie dann auf **Ansicht speichern**.

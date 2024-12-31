@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: persönliche Zeitdauer des Benutzers'
-description: 'Ansicht: Persönliche Zeit des Benutzers aus'
+title: 'Anzeigen: Freizeit des Benutzers'
+description: 'Anzeigen: Arbeitsfreie Zeit des Benutzers'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
@@ -14,7 +14,7 @@ ht-degree: 5%
 
 ---
 
-# Ansicht: persönliche Zeitdauer des Benutzers
+# Anzeigen: Freizeit des Benutzers
 
 <!--Audited: 11/2024-->
 
@@ -22,11 +22,11 @@ ht-degree: 5%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: consider hiding this article because this is not a custom view anymore.)</p>
 -->
 
-Sie können einen Zeitabstandsbericht erstellen, um die Zeitdauer der Benutzerinformationen zu erfassen.
+Sie können einen Bericht zu Ausfallzeiten erstellen, um die Urlaubszeiten der Benutzer zu erfassen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,67 +35,67 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Persönliche Zeit des Benutzers anzeigen
+## Freizeit des Benutzers anzeigen
 
-1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Berichte > Neuer Bericht**.
-1. Wählen Sie aus dem Dropdown-Menü **Ausschaltzeit** aus.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Berichte > Neuer Bericht**.
+1. Wählen Sie aus dem Dropdown-Menü **Ausfallzeit** aus.
 1. Klicken Sie auf **Speichern + schließen**.
 
-   Der Bericht zeigt die folgenden Felder standardmäßig in der Ansicht an:
+   Der Bericht zeigt standardmäßig die folgenden Felder in der Ansicht an:
 
-   | Benutzerin oder Benutzer | Der Name des Benutzers, der in seinem Profil die Zeitüberschreitung angegeben hat. |
+   | Benutzerin oder Benutzer | Der Name des Benutzers, der die Urlaubszeit in seinem Profil angegeben hat. |
    |---|---|
-   | Startdatum | Das Startdatum des Zeitraums, in dem der Benutzer angegeben hat. |
-   | Enddatum | Das Enddatum des Zeitraums, in dem der Benutzer angegeben hat. |
+   | Startdatum | Das Startdatum des Zeitraums der Ausfallzeit, den der Benutzer angegeben hat. |
+   | Enddatum | Das Enddatum des von der Benutzerin bzw. dem Benutzer angegebenen Urlaubzeitraums. |
 
    {style="table-layout:auto"}
 
-1. (Optional) Schließen Sie die Erstellung des Berichts mit der Bearbeitung der folgenden Registerkarten ab:
+1. (Optional) Schließen Sie die Erstellung des Berichts ab, indem Sie eine der folgenden Registerkarten bearbeiten:
 
    * Spalten (Ansicht)
    * Gruppierungen
    * Filter
    * Diagramm
 
-   Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Informationen zum Erstellen von Berichten finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    >[!TIP]
    >
-   >Es wird empfohlen, eine Gruppierung für das User -Objekt hinzuzufügen, damit der Bericht leichter zu lesen ist.
+   >Es wird empfohlen, eine Gruppierung für das Benutzerobjekt hinzuzufügen, um die Lesbarkeit des Berichts zu vereinfachen.
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Add Time Off information to a user report</h2>

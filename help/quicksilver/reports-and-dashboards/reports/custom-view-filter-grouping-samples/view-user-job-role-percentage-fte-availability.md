@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;user-management
 navigation-topic: custom-view-filter-and-grouping-samples
-title: "Ansicht: Prozentsatz der FTE-Verfügbarkeit der Benutzerauftragsrolle"
-description: Sie können der Ansicht einer Benutzerliste eine Spalte hinzufügen, um eine Liste der mit dem Benutzer verknüpften Vorgangsrollen sowie den Prozentsatz der FTE-Verfügbarkeit für jede Vorgangsrolle anzuzeigen, wie im Benutzerprofil definiert.
+title: 'Ansicht: Prozentsatz der FTE-Verfügbarkeit für Benutzeraufgabengebiet'
+description: Sie können der Ansicht einer Benutzerliste eine Spalte hinzufügen, um eine Liste der Aufgabengebiete anzuzeigen, mit denen der Benutzer verknüpft ist, sowie den Prozentsatz der FTE-Verfügbarkeit für jedes Aufgabengebiet, wie im Benutzerprofil definiert.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d479b0b1-8ad5-47d6-8ef8-80261b46ecea
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Ansicht: Prozentsatz der FTE-Verfügbarkeit der Benutzerauftragsrolle
+# Anzeigen: Prozentsatz der FTE-Verfügbarkeit für das Aufgabengebiet des Benutzers
 
 <!--Audited: 11/2024-->
 
-Sie können der Ansicht einer Benutzerliste eine Spalte hinzufügen, um eine Liste der mit dem Benutzer verknüpften Vorgangsrollen sowie den Prozentsatz der FTE-Verfügbarkeit für jede Vorgangsrolle anzuzeigen, wie im Benutzerprofil definiert.
+Sie können der Ansicht einer Benutzerliste eine Spalte hinzufügen, um eine Liste der Aufgabengebiete anzuzeigen, mit denen der Benutzer verknüpft ist, sowie den Prozentsatz der FTE-Verfügbarkeit für jedes Aufgabengebiet, wie im Benutzerprofil definiert.
 
-Informationen zum Definieren des Prozentsatzes der FTE-Verfügbarkeit für Benutzer finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Informationen zum Definieren des Prozentsatzes der FTE-Verfügbarkeit für -Benutzer finden Sie [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
 ![user_with_percent_available_per_role.png](assets/user-with-percent-avialbility-per-role-350x138.png)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,49 +35,49 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Prozentsatz der FTE-Verfügbarkeit für Benutzerauftragsrolle anzeigen
+## Prozentualen Anteil der FTE-Verfügbarkeit für Benutzeraufgabengebiet anzeigen
 
-1. Navigieren Sie zu einer Liste von Benutzern.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
+1. Zu einer Benutzerliste wechseln.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 
 1. Klicken Sie im Bereich **Spaltenvorschau** auf **Spalte hinzufügen**.
 
-1. Klicken Sie auf die Kopfzeile der neuen Spalte und dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Klicken Sie auf die Kopfzeile der neuen Spalte und dann auf **Wechseln in den Textmodus** > **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    displayname=Roles Time Percentage
@@ -89,6 +89,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    valueformat=HTML
    ```
 
-1. Klicken Sie auf **Fertig** und dann auf **Ansicht speichern**.
+1. Klicken Sie **Fertig** und dann **Ansicht speichern**.
 
 1. (Optional) Aktualisieren Sie den Ansichtsnamen und klicken Sie dann auf **Ansicht speichern**.

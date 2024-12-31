@@ -18,17 +18,17 @@ ht-degree: 2%
 
 Diese Webinare konzentrierten sich auf die in der R1-Version enthaltenen Funktionen. 
 
-Die R1-Version steht derzeit zum Testen in der Vorschau zur Verfügung; R1 veröffentlicht am 26. April 2017 in der Produktionsumgebung.
+Die R1-Version ist derzeit zum Testen in der Vorschau verfügbar; R1-Versionen werden am 26. April 2017 in der Produktionsumgebung veröffentlicht.
 
-Weitere Informationen zu den in den Webinaren behandelten Funktionen finden Sie auf der Seite [R1-Versionsübersicht](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md) .
+Weitere Informationen zu den in den Webinaren behandelten Funktionen finden Sie auf der Seite Übersicht über die [R1-](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-release-activity-overview.md).
 
-Die folgenden Webinaraufnahmen sind verfügbar:
+Die folgenden Webinar-Aufzeichnungen sind verfügbar:
 
-## R1 Release Webinar (29. März 2017)
+## Webinar zur R1-Version (29. März 2017)
 
-Das Workfront R1 Release Webinar 2017 wurde vom Workfront-Produktteam am 29. März vorgestellt.  
+Das Workfront R1 2017-Versions-Webinar wurde am 29. März vom Workfront-Produktteam vorgestellt.  
 
-Das Webinar ist aus praktischen Gründen in folgende Themen unterteilt:
+Zur Vereinfachung ist das Webinar in die folgenden Themen unterteilt:
 
 * [Einführung](#introduction)
 * [Projekte](#projects)
@@ -38,53 +38,53 @@ Das Webinar ist aus praktischen Gründen in folgende Themen unterteilt:
 
 ### Einführung {#introduction}
 
-Dieser Teil des Webinars enthält Informationen zum Veröffentlichungsprozess, zur Sandbox-Vorschau-Umgebung und dazu, wie Sie weitere Informationen zur Version erhalten.
+Dieser Teil des Webinars enthält Informationen zum Veröffentlichungsprozess, zur Sandbox-Vorschau-Umgebung und dazu, wie Sie weitere Informationen zur Version finden.
 
 ### Projekte {#projects}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
 * Papierkorb
-* Nutzungsbericht
+* Auslastungsbericht
 * Genehmigungsdiagramm
-* Aktualisierte Projekt-, Aufgaben- und Problemvalidierungen
-* Vorhandenen globalen Genehmigungsprozess ändern
-* Zu aktualisierende Objekte konfigurieren, die noch nicht genehmigt wurden
-* Aufgaben oder Probleme bearbeiten, für die eine Genehmigung aussteht
-* Ändern des Status eines Projekts
+* Aktualisierte Projekt-, Aufgaben- und Problem-Genehmigungen
+* Ändern eines vorhandenen globalen Genehmigungsprozesses
+* Zu aktualisierende Objekte konfigurieren, für die die Genehmigung aussteht
+* Aufgaben oder Probleme bearbeiten, für die die Genehmigung aussteht
+* Status eines Projekts ändern
 * Verbesserte Methode zum Verknüpfen von Dateien
-* Verbesserungen der Milestone-Ansicht
+* Verbesserungen bei der Meilenstein-Ansicht
 * Berichte zeigen standardmäßig das Gantt-Diagramm an
 
 ### Benutzerverwaltung {#user-management}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
-* Neudesign der Gruppenbenutzeroberfläche
-* Als Gruppe veröffentlichen
-* Eine Layoutvorlage an eine Gruppe anhängen
+* Neugestaltung der Benutzeroberfläche von Group
+* Gruppe öffentlich machen
+* Layout-Vorlage an eine Gruppe anhängen
 * Planen von Benutzern für die Deaktivierung
-* Aktualisierter Team-Kalender &quot;Working On&quot;
-* Benutzerzuordnungen in der Zeitleiste für die Planung
-* Verbesserungen bei der Ressourcenplanung
-* Verbesserungen bei der Überprüfung
+* Aktualisierter Team-Kalender „Wird bearbeitet“
+* Benutzerzuweisungen in der Zeitplanleiste
+* Verbesserungen der Ressourcenplanung
+* Proofing-Verbesserungen
 
 ### Konfiguration {#configuration}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
-* Terminologieanpassung
+* Terminologieanpassungen
 * E-Mail-Digest-Optionen
-* Verbesserungen bei E-Mail-Look und Feel
-* Abmelden von sofortigen Benachrichtigungen
+* Verbesserungen des E-Mail-Looks
+* Opt-out von Sofortige Benachrichtigungen
 * Massenbearbeitung von Benutzerbenachrichtigungen
 * Neu organisiert, wo sich bestimmte Benachrichtigungen befinden
-* Aktualisierte Gruppierungen für Ereignisbenachrichtigungen im E-Mail-Setup-Bereich
-* Aktualisiertes Erscheinungsbild und Verhalten mehrerer Seiten zur Systemeinrichtung
+* Aktualisierte Gruppierungen für Ereignisbenachrichtigungen im Bereich „E-Mail-Setup“
+* Erscheinungsbild mehrerer Seiten des System-Setups aktualisiert
 
 ### Mobile und Outlook {#mobile-and-outlook}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
-* Mobile Verbesserungen
+* Verbesserungen für Mobilgeräte
 * Outlook für Office 365

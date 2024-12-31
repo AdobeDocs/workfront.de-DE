@@ -2,8 +2,8 @@
 content-type: reference
 product-area: reporting;projects
 navigation-topic: custom-view-filter-and-grouping-samples
-title: 'Ansicht: Informationen zum ursprünglichen Problem für Aufgaben und Projekte'
-description: Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine aufgelöste Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. Diese Ansicht zeigt die Felder des Problems an, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist.
+title: 'Ansicht: Problemdetails für Aufgaben und Projekte werden generiert'
+description: Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine auflösende Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. In dieser Ansicht werden die Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5fefb174-3a18-408f-aa12-3f4aff23acfa
@@ -14,27 +14,27 @@ ht-degree: 3%
 
 ---
 
-# Ansicht: Informationen zu Ausgangsthemen für Aufgaben und Projekte
+# Anzeigen: Ursprüngliche Problemdetails für Aufgaben und Projekte
 
 <!--Audited: 11/2024-->
 
-Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine aufgelöste Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. In dieser Ansicht werden die folgenden Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist:
+Wenn ein Problem in eine Aufgabe oder ein Projekt konvertiert wird, wird eine auflösende Objektbeziehung zwischen der Aufgabe oder dem Projekt und dem Problem hergestellt. In dieser Ansicht werden die folgenden Felder des Problems angezeigt, die automatisch abgeschlossen werden, wenn die Aufgabe oder das Projekt abgeschlossen ist:
 
 * Name
 * Eingabedatum
 * Geplantes Abschlussdatum
 * Tatsächliches Abschlussdatum
 * Anfragetyp
-* Urheber-Name
+* Name des Absenders
 * Dem Benutzer zugewiesen
 
 ![task_with_resolving_issue_fields.png](assets/task-with-resolving-issue-fields-350x38.png)
 
-Weitere Informationen finden Sie auch unter [Anzeigen: Informationen zu ursprünglichen Problemen in Aufgaben- oder Projektlisten anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Weitere Informationen finden Sie auch unter [Anzeigen: ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten anzeigen](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,47 +43,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p> Aktuell: 
    <ul>
-   <li>Anforderung zum Ändern einer Ansicht</li> 
-   <li>Berichtänderung planen</li>
+   <li>Änderung einer Ansicht anfordern</li> 
+   <li>Planen der Änderung eines Berichts</li>
    </ul>
      </p>
      <p> Neu: 
    <ul>
-   <li>Mitwirkender beim Ändern einer Ansicht</li> 
+   <li>Mitwirkende zum Ändern einer Ansicht</li> 
    <li>Standard zum Ändern eines Berichts</li>
    </ul>
      </p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten und Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um einen Bericht zu ändern</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten, um eine Ansicht zu ändern</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für einen Bericht verwalten</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Details zu Ausgangsthemen für Aufgaben und Projekte anzeigen
+## Ursprungsdetails von Problemen für Aufgaben und Projekte anzeigen
 
-1. Gehen Sie zu einer Liste von Aufgaben oder einer Liste von Projekten.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Neue Ansicht** aus.
-1. Im Bereich **Spaltenvorschau** werden alle Spalten mit Ausnahme einer entfernt.
-1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und klicken Sie auf **In Textmodus wechseln** und dann auf **Textmodus bearbeiten**.
-1. Entfernen Sie den Text, den Sie im Feld **Textmodus bearbeiten** finden, und ersetzen Sie ihn durch den folgenden Code:
+1. Navigieren Sie zu einer Liste von Aufgaben oder einer Liste von Projekten.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
+1. Entfernen Sie **Bereich „Spaltenvorschau** alle Spalten mit Ausnahme einer Spalte.
+1. Klicken Sie auf die Kopfzeile der verbleibenden Spalte und anschließend auf **Wechseln in den Textmodus** und dann **Textmodus bearbeiten**.
+1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
    column.0.textmode=false
@@ -152,4 +152,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    column.7.width=150
    ```
 
-1. Klicken Sie auf **Fertig** > **Ansicht speichern**.
+1. Klicken Sie **Fertig** > **Ansicht speichern**.
