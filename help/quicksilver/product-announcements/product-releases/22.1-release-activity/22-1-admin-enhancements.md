@@ -15,7 +15,7 @@ ht-degree: 0%
 
 # 22.1 Verbesserungen für Administratoren
 
-Auf dieser Seite werden alle Verbesserungen für Administratoren beschrieben, die mit Version 22.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
+Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit Version 22.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -25,23 +25,23 @@ in January 2022
 
 die Woche vom 17. Januar 2022.
 
-Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie unter [22.1 - Versionsübersicht](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
+Eine Liste aller in Version 22.1 verfügbaren Änderungen finden Sie in der Übersicht über die Version [22.1](../../../product-announcements/product-releases/22.1-release-activity/22-1-release-overview.md).
 
-## Dokumentdownloads, die im Bereich Updates protokolliert wurden
+## Dokument-Downloads, die im Bereich Aktualisierungen protokolliert sind
 
-Um Ihren Benutzern zu helfen, Downloads von Dokumenten zu verfolgen, die sie in Workfront speichern, protokolliert das System jetzt einen Eintrag im Bereich Updates für ein Dokument, wenn ein Benutzer es herunterlädt.
+Damit Benutzerinnen und Benutzer Downloads von Dokumenten verfolgen können, die sie in Workfront speichern, protokolliert das System jetzt einen Eintrag im Bereich Aktualisierungen für ein Dokument, wenn es von jemandem heruntergeladen wird.
 
 >[!NOTE]
 >
 >Es wird empfohlen, diese Funktion in der Vorschau für ein neu hochgeladenes Dokument zu testen.
 
-Informationen dazu, wie Workfront automatische Aktualisierungen von Objekten protokolliert, finden Sie unter [Vom System getrackte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
+Informationen dazu, wie Workfront automatische Aktualisierungen von Objekten protokolliert, finden Sie unter [Vom System verfolgte Aktualisierungen](../../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-update-feeds.md).
 
-## Gewähren des Zugriffs auf Teams über Zugriffsebenen
+## Gewähren von Zugriff für Teams, die Zugriffsebenen verwenden
 
-Ein neuer Abschnitt im Bereich Zugriffsebenen bietet Ihnen detailliertere Steuerelemente für die Verwaltung des Zugriffs Ihrer Benutzer auf Teams. Jetzt können Sie bestimmen, wer Teams erstellen, bearbeiten und anzeigen kann.
+Ein neuer Abschnitt im Bereich Zugriffsebenen bietet Ihnen detailliertere Steuerelemente zum Verwalten des Zugriffs Ihrer Benutzer auf Teams. Jetzt können Sie festlegen, wer Teams erstellen, bearbeiten und anzeigen kann.
 
-Dadurch wird der vorhandene Zugriff Ihrer Benutzer auf Teams nicht geändert.
+Dies ändert nichts am bestehenden Zugriff Ihrer Benutzer auf Teams.
 
 <!--
 For more information, see [Grant access to teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md).
@@ -49,118 +49,118 @@ For more information, see [Grant access to teams](../../../administration-and-se
 
 ## Gruppenzuordnung jetzt in Blueprints verfügbar
 
-Einige Blueprints enthalten jetzt Gruppen, die Sie anpassen können, bevor Sie den Blueprint installieren. Sie können eine Gruppe im Blueprint einer vorhandenen Gruppe in Ihrer Workfront-Instanz zuordnen oder bei Bedarf eine neue Gruppe erstellen.
+Einige Blueprints enthalten jetzt Gruppen, die Sie vor der Installation der Blueprint anpassen können. Sie können eine Gruppe im Blueprint einer vorhandenen Gruppe in Ihrer Workfront-Instanz zuordnen oder bei Bedarf eine neue Gruppe erstellen.
 
 Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-## Formatierungsaktualisierungen im Bereich &quot;Benutzerdefinierte Forms&quot;
+## Formatierungsaktualisierungen im Bereich Benutzerdefinierte Forms
 
-Der Bereich &quot;Benutzerdefinierte Forms&quot;hat ein neues Erscheinungsbild, das ihn mit vielen anderen Bereichen des neuen Workfront-Erlebnisses auf den neuesten Stand bringt.
+Der benutzerdefinierte Forms-Bereich hat ein neues Erscheinungsbild, das ihn mit vielen anderen Bereichen der neuen Workfront-Version auf den neuesten Stand bringt.
 
 ## Viele Verbesserungen beim Erstellen von berechneten benutzerdefinierten Feldern
 
-Das Erstellen berechneter benutzerdefinierter Felder ist jetzt mit diesen Hinzufügungen im neuen Berechnungs-Editor viel einfacher:
+Das Erstellen berechneter benutzerdefinierter Felder ist jetzt mit diesen Ergänzungen im neuen Berechnungs-Editor viel einfacher:
 
-* Sie können den Mauszeiger über einen beliebigen Ausdruck in Ihrer Berechnung bewegen, um Informationen dazu anzuzeigen, einschließlich einer Beschreibung, eines Beispiels für dessen Verwendung und eines Links zu weiteren Informationen in einem Hilfeartikel.
-* Jeder hinzugefügte Ausdruck ist je nach Typ farbcodiert. Dies erleichtert das Auffinden von Ausdrücken und die sofortige Erkennung ihrer Art.
-* Mithilfe von Zeilennummern können Sie Funktionen in einer langen Berechnung identifizieren und referenzieren.
-* Wenn Sie mit der Eingabe eines Ausdrucks oder Feldnamens beginnen, wird eine Liste der verfügbaren Elemente angezeigt, damit Sie den gewünschten eingeben können. Wenn Sie eine offene Klammer eingeben, wird die schließende Klammer automatisch hinzugefügt.
-* Sie können das Ergebnis Ihrer Berechnung mithilfe eines vorhandenen Objekts in der Vorschau anzeigen, ohne den Berechnungs-Editor verlassen zu müssen.
+* Sie können den Mauszeiger über einen beliebigen Ausdruck in Ihrer Berechnung bewegen, um Informationen darüber anzuzeigen, einschließlich einer Beschreibung, eines Beispiels für dessen Verwendung und eines Links zu weiteren Informationen in einem Hilfeartikel.
+* Jeder hinzugefügte Ausdruck ist farbcodiert, je nach Typ. Dadurch können Sie Ihre Ausdrücke leichter erkennen und ihren Typ sofort erkennen.
+* Zeilennummern helfen Ihnen, Funktionen in einer langen Berechnung zu identifizieren und zu referenzieren.
+* Wenn Sie mit der Eingabe eines Ausdrucks oder Feldnamens beginnen, wird eine Liste der verfügbaren Elemente angezeigt, sodass Sie den gewünschten auswählen können. Und wenn Sie eine offene Klammer eingeben, wird die schließende Klammer automatisch hinzugefügt.
+* Sie können das Ergebnis Ihrer Berechnung mit einem vorhandenen Objekt in der Vorschau anzeigen, ohne den Berechnungs-Editor zu verlassen.
 
-Außerdem können Sie im anpassbaren Text &quot;Anweisungen&quot;für ein berechnetes benutzerdefiniertes Feld die Formel des Felds ein- oder ausblenden. Dies ist nützlich, wenn Sie glauben, dass die Benutzer, die das benutzerdefinierte Formular ausfüllen, diese Informationen nicht benötigen.
+Außerdem können Sie in den anpassbaren „Anweisungen“ über dem Text für ein berechnetes benutzerdefiniertes Feld die Formel des Felds anzeigen oder ausblenden. Dies ist nützlich, wenn Sie der Meinung sind, dass die Benutzer, die das benutzerdefinierte Formular ausfüllen werden, diese Informationen nicht benötigen.
 
-## Audit-Protokollinformationen zu Status und Unternehmen anzeigen
+## Anzeigen von Auditprotokollinformationen zu Status und Unternehmen
 
-Sie können jetzt einfacher Probleme mit Statusangaben und Unternehmen beheben, indem Sie Informationen dazu im Bereich Auditprotokolle unter Einrichtung anzeigen.
+Sie können jetzt einfacher eine Fehlerbehebung bei Vorfällen durchführen, die Status und Unternehmen betreffen, indem Sie Informationen dazu im Bereich Audit-Protokolle im Setup anzeigen.
 
 Beispiel:
 
-* Sie können feststellen, wer einen Status umbenannt, gesperrt oder ausgeblendet hat und wann er dies getan hat.
-* Sie können herausfinden, wer einige Mitglieder oder Stellenrollen aus einem Unternehmen entfernt hat und wann sie dies getan haben.
+* Sie können feststellen, wer einen Status umbenannt, gesperrt oder ausgeblendet hat und wann dies der Fall war.
+* Sie können herausfinden, wer einige Mitglieder oder Aufgabengebiete aus einem Unternehmen entfernt hat und wann.
 
-Informationen zum Anzeigen von Auditprotokollinformationen finden Sie unter [Audit-Protokolle anzeigen und exportieren](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
+Informationen zum Anzeigen von Administratorprotokollinformationen finden Sie unter [Anzeigen und Exportieren von Administratorprotokollen](../../../administration-and-setup/add-users/create-and-manage-users/view-and-export-audit-logs.md).
 
-## Blueprints-Unternehmenszuordnung und andere Verbesserungen
+## Blueprints - Unternehmenszuordnung und andere Verbesserungen
 
 Die folgenden Blueprints-Verbesserungen sind jetzt verfügbar:
 
-* Einige Blueprints beinhalten jetzt Unternehmen, die Sie anpassen können, bevor Sie den Blueprint installieren. Sie können ein Unternehmen im Blueprint einem bestehenden Unternehmen in Ihrer Workfront-Instanz zuordnen oder bei Bedarf ein neues Unternehmen erstellen.
-* Ein neuer Blueprint-Typ, die Organisationsstruktur, ist jetzt verfügbar. Einige Blueprints enthalten Elemente von mehreren Typen (z. B. Projektvorlage und Organisationsstruktur). Sie können auf der Katalogseite nach Blueprint-Typ filtern.
-* Die Abschnitte &quot;Install Preferences&quot; und &quot;Template Ownership&quot; auf der Konfigurationsseite wurden zur Vereinfachung in &quot;Template Preferences&quot; kombiniert.
+* Einige Blueprints umfassen jetzt Unternehmen, die Sie vor der Installation der Blueprint anpassen können. Sie können ein Unternehmen in der Blueprint einem bestehenden Unternehmen in Ihrer Workfront-Instanz zuordnen oder bei Bedarf ein neues Unternehmen erstellen.
+* Ein neuer Blueprint-Typ, Organisationsstruktur , ist jetzt verfügbar. Einige Blueprints enthalten Elemente aus mehreren Typen (z. B. Projektvorlage und Organisationsstruktur). Sie können auf der Katalogseite nach Blueprint-Typ filtern.
+* Die Abschnitte „Installationsvoreinstellungen“ und „Vorlageneigentümerschaft“ auf der Konfigurationsseite wurden aus Gründen der Einfachheit in „Vorlagenvoreinstellungen“ zusammengefasst.
 
 Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-## Verwaltung von Firmenmitgliedschaften einfacher
+## Einfache Verwaltung von Unternehmensmitgliedschaften
 
-Im Bereich &quot;Unternehmen&quot;ermöglicht eine aktualisierte Symbolleiste das einfache Hinzufügen vorhandener Workfront-Benutzer zu einem Unternehmen und das Entfernen von Unternehmensmitgliedern.
+Im Bereich Firmen erleichtert eine aktualisierte Symbolleiste das Hinzufügen vorhandener Workfront-Benutzender zu einer Firma und das Entfernen von Firmenmitgliedern.
 
-Zuvor waren diese Aktionen nur im Feld Unternehmen bearbeiten verfügbar.
+Zuvor waren diese Aktionen nur im Feld Firma bearbeiten verfügbar.
 
-Die aktualisierte Symbolleiste enthält auch alle Aktionen, die in der vorherigen Symbolleiste verfügbar waren, z. B. das Bearbeiten der Benutzerprofilinformationen der Mitglieder und das Deaktivieren dieser Informationen im System.
+Die aktualisierte Symbolleiste enthält auch alle Aktionen, die in der vorherigen Symbolleiste verfügbar waren, z. B. das Bearbeiten der Benutzerprofilinformationen von Mitgliedern und deren Deaktivierung im System.
 
 Weitere Informationen finden Sie unter [Verwalten von Unternehmensmitgliedschaften](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).
 
-## Ausdrücke und Felder im Fenster des neuen berechneten Felds auswählen
+## Auswählen von Ausdrücken und Feldern im neuen Fenster für berechnete Felder
 
 Wir machen es weiterhin einfacher, ein berechnetes Feld in einem benutzerdefinierten Formular zu erstellen. Wenn Sie nun auf Maximieren klicken, um den neuen Berechnungs-Editor zu öffnen, können Sie die benötigten Ausdrücke und Felder suchen und auswählen.
 
-## Gruppen können ihre eigenen Voreinstellungen für das Zeitblatt und die Stunde konfigurieren
+## Gruppen können ihre eigenen Arbeitszeittabellen- und Stundeneinstellungen konfigurieren
 
 >[!NOTE]
 >
->Diese Funktion war ursprünglich nur als Teil eines schrittweisen Rollouts für Kunden auf Cluster 4 als Teil der Version 21.4 verfügbar. Diese Funktion ist für alle verbleibenden Cluster in der Produktion ab dem 8. November 2021 verfügbar.
+>Diese Funktion war ursprünglich als Teil eines schrittweisen Rollouts nur für Kunden auf Cluster 4 als Teil der Version 21.4 verfügbar. Diese Funktion ist ab dem 8. November 2021 für alle verbleibenden Cluster in Produktion verfügbar.
 
-In einer großen Organisation müssen einige Gruppen möglicherweise die Voreinstellungen für das Zeitblatt und die Stunde unabhängig voneinander konfigurieren, um ihren individuellen Workflows anzupassen, anstatt die von einem Administrator auf Systemebene konfigurierten Voreinstellungen zu übernehmen. Jetzt können Workfront-Administratoren für alle Gruppen im System die Voreinstellungen für ein Zeitblatt und eine Stunde aufheben, damit sie es selbst konfigurieren können.
+In einem großen Unternehmen müssen einige Gruppen möglicherweise die Arbeitszeittabellen- und Stundeneinstellungen unabhängig voneinander konfigurieren, um sie an ihre spezifischen Workflows anzupassen, anstatt die von einem Administrator auf Systemebene konfigurierten Einstellungen zu übernehmen. Jetzt können Workfront-Administratoren eine Arbeitszeittabelle und Stundenvoreinstellungen für alle Gruppen im System entsperren, sodass sie sie selbst konfigurieren können.
 
-Diese Möglichkeit wurde kürzlich auch für Projektvoreinstellungen sowie für Aufgaben- und Problemeinstellungen hinzugefügt.
+Diese Funktion wurde kürzlich für Projektvoreinstellungen sowie für Aufgaben- und Problemvoreinstellungen hinzugefügt.
 
-Informationen dazu, wie ein Workfront-Administrator die Voreinstellung für ein Zeitblatt und eine Stunde entsperrt, finden Sie im Abschnitt [Zeitblatt- und Stundeneinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Zeitblatt und Stundeneinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md) .
+Informationen dazu, wie Workfront-Admins eine Arbeitszeittabelle und Stundeneinstellungen entsperren, finden Sie im Abschnitt [Arbeitszeittabelle und Stundeneinstellungen für Gruppen entsperren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md#lock) im Artikel [Arbeitszeittabelle und Stundeneinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-Informationen dazu, wie ein Gruppenadministrator entsperrte Aufgaben konfiguriert und Voreinstellungen für eine Gruppe ausgibt, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Informationen dazu, wie Gruppenadmins die Einstellungen für entsperrte Aufgaben und Probleme für eine Gruppe konfigurieren, finden [ unter „Arbeitszeittabelle und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-## Auswählen mehrerer Benachrichtigungen, die Sie für Gruppen entsperren oder erneut sperren möchten
+## Wählen Sie mehrere Benachrichtigungen aus, die Sie für Gruppen entsperren oder erneut sperren möchten
 
-E-Mail-Benachrichtigungen für Gruppen lassen sich jetzt schneller und einfacher entsperren oder erneut sperren. Jetzt können Sie mehrere Benachrichtigungen auswählen, Ihre Auswahl überprüfen, um sicherzustellen, dass sie korrekt sind, und dann auf die neue Schaltfläche Entsperren oder Sperren klicken, die in der Symbolleiste angezeigt wird.
+E-Mail-Benachrichtigungen für Gruppen können jetzt schneller und einfacher entsperrt oder erneut gesperrt werden. Jetzt können Sie mehrere Benachrichtigungen auswählen, Ihre Auswahl überprüfen, um sicherzustellen, dass sie korrekt sind, und dann auf die neue Schaltfläche Entsperren oder Sperren klicken, die in der Symbolleiste angezeigt wird.
 
-Zuvor mussten Sie Benachrichtigungen einzeln entsperren und erneut sperren. Workfront verfügt derzeit über 95 Benachrichtigungen. Dies hat also eine Weile gedauert, wenn Sie dies für alle oder viele davon tun mussten.
+Zuvor mussten Sie Benachrichtigungen einzeln entsperren und erneut sperren. Workfront verfügt derzeit über 95 Benachrichtigungen. Es hat also eine Weile gedauert, bis Sie diese für alle oder viele von ihnen einrichten mussten.
 
-Weitere Informationen finden Sie unter [Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+Weitere Informationen finden Sie unter [Konfiguration von Ereignisbenachrichtigungen für alle Gruppen entsperren oder sperren](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
 
-## Für Gruppenadministratoren: Einfachere Auswahl einer Ersatzgruppe beim Löschen einer Gruppe
+## Für Gruppenadministratoren: Einfachere Auswahl einer Ersatzgruppe, wenn eine Gruppe gelöscht wird
 
-Wenn Sie eine Gruppe löschen, können Sie mit zwei Verbesserungen im Feld Gruppe löschen die Ersatzgruppe einfacher auswählen, für die Sie die Benutzer, Arbeitselemente und Untergruppen der gelöschten Gruppe beibehalten möchten:
+Beim Löschen einer Gruppe erleichtern zwei Verbesserungen im Feld Gruppe löschen die Auswahl der Ersatzgruppe, bei der die Benutzer, Arbeitselemente und Untergruppen der gelöschten Gruppe erhalten bleiben sollen:
 
-* Sie können damit beginnen, den Namen der Gruppe einzugeben, um sie schnell zu finden. Zuvor gab es nur eine Dropdown-Liste, in die Sie nicht eingeben konnten. Dies war für Organisationen mit vielen Gruppen problematisch, da Sie durch die Liste blättern mussten, um die gewünschte Gruppe zu finden. Außerdem hatte die Dropdown-Liste eine Elementbegrenzung, sodass die gewünschte Gruppe möglicherweise nicht angezeigt wurde.
-* Sie können das neue Infosymbol verwenden, um sicherzustellen, dass Sie die gewünschte Ersatzgruppe auswählen. Wenn Sie den Mauszeiger über das Symbol bewegen, wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und die Namen der Administratoren.
+* Sie können den Namen der Gruppe eingeben, um sie schnell zu finden. Zuvor gab es nur eine Dropdown-Liste, die Sie nicht eingeben konnten. Dies war für Organisationen mit vielen Gruppen problematisch, da Sie durch die Liste scrollen mussten, um die gewünschte Gruppe zu finden. Außerdem hatte die Dropdown-Liste eine Elementbegrenzung, sodass es möglich war, dass die gewünschte Gruppe nicht angezeigt wurde.
+* Sie können das Symbol Neue Informationen verwenden, um sicherzustellen, dass Sie die gewünschte Ersatzgruppe auswählen. Wenn Sie den Mauszeiger über das Symbol bewegen, wird eine QuickInfo mit Informationen über die Gruppe angezeigt, wie z. B. die Hierarchie der darüber liegenden Gruppen und die Namen der Administratoren.
 
-Weitere Informationen finden Sie unter [Eine Gruppe löschen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
+Weitere Informationen finden Sie unter [Gruppe löschen](../../../administration-and-setup/manage-groups/create-and-manage-groups/delete-a-group.md).
 
 ## Größerer Bereich zum Erstellen berechneter Felder
 
-Jetzt ist es einfacher, komplexe berechnete Felder in einem benutzerdefinierten Formular zu erstellen. Klicken Sie auf die neue Schaltfläche Maximieren , um ein großes Bearbeitungsfenster zum Erstellen Ihrer Berechnung zu öffnen. Wenn Sie fertig sind, klicken Sie auf Minimieren , um mit der Arbeit an Ihrem benutzerdefinierten Formular fortzufahren.
+Jetzt ist es einfacher, komplexe berechnete Felder in einem benutzerdefinierten Formular zu erstellen. Klicken Sie auf die neue Schaltfläche Maximieren , um ein großes Bearbeitungsfenster für die Erstellung Ihrer Berechnung zu öffnen. Wenn Sie fertig sind, klicken Sie auf Minimieren , um mit der Arbeit an Ihrem benutzerdefinierten Formular fortzufahren.
 
 ## Hinzufügen benutzerdefinierter Formulare zu Gruppen
 
-Benutzerdefinierte Formulare werden jetzt für das Gruppenobjekt unterstützt. Dies erleichtert es Gruppen in Ihrer Organisation, Informationen zu erfassen und freizugeben, die ihren spezifischen Anforderungen und Workflows entsprechen. Benutzer können für eine Gruppe Folgendes tun, genau wie für andere Workfront-Objekte:
+Benutzerdefinierte Formulare werden jetzt für das Gruppenobjekt unterstützt. Dies erleichtert es Gruppen in Ihrer Organisation, Informationen zu erfassen und freizugeben, die ihren spezifischen Anforderungen und Workflows entsprechen. Benutzer können Folgendes für eine Gruppe tun, genau wie für andere Workfront-Objekte:
 
-* Benutzerdefiniertes Formular erstellen
+* Erstellen eines benutzerdefinierten Formulars
 * Benutzerdefiniertes Formular anhängen
-* Benutzerdefinierte Formulardaten speichern
-* Benutzerdefiniertes Formular entfernen
-* Bearbeiten benutzerdefinierter Daten aus Listen und, im neuen Workfront-Erlebnis, von der Seite Gruppe
+* Speichern benutzerdefinierter Formulardaten
+* Entfernen eines benutzerdefinierten Formulars
+* Bearbeiten Sie benutzerdefinierte Daten aus Listen und im neuen Workfront-Erlebnis über die Seite Gruppe .
 
-Weitere Informationen zu benutzerdefinierten Formularen finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+Informationen zu benutzerdefinierten Formularen finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-## Erstellen von OAuth2-Apps zur Integration von Anwendungen in Workfront
+## Erstellen von OAuth2-Apps zur Integration von Programmen mit Workfront
 
-Jetzt können Sie Workfront mit anderen Anwendungen integrieren, für die Workfront keine integrierte Integration bietet. Wenn Sie eine OAuth2-App für die Anwendung erstellen, in die Sie integrieren möchten, können Sie dieser Anwendung den Zugriff auf Workfront erlauben, wobei Sie wissen, dass Ihre Daten durch das sichere OAuth2-Authentifizierungsprotokoll des Industriestandards geschützt sind.
+Jetzt können Sie Workfront mit anderen Programmen integrieren, für die Workfront keine integrierte Integration bietet. Durch Erstellen einer OAuth2-App für die Anwendung, mit der Sie eine Integration durchführen möchten, können Sie dieser Anwendung den Zugriff auf Workfront ermöglichen, wobei Sie wissen, dass Ihre Daten durch das sichere, dem Industriestandard entsprechende OAuth2-Authentifizierungsprotokoll geschützt sind.
 
-Zuvor war die Integration mit anderen Anwendungen nur über integrierte Integrationen, Workfront Fusion oder die Workfront-API möglich.
+Zuvor konnten Sie nur über integrierte Integrationen, Workfront Fusion oder die Workfront-API mit anderen Programmen integrieren.
 
-Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Programmen für Workfront-Integrationen](../../../administration-and-setup/configure-integrations/create-oauth-application.md).
 
-## Verbesserungen am Schnittstellentext im Unternehmensbereich
+## Verbesserungen der Benutzeroberfläche im Bereich Unternehmen
 
-Im Bereich &quot;Unternehmen&quot;im Setup erleichtern neue Bestätigungsnachrichten und leichte Textänderungen die Verwaltung von Firmenmitgliedschaften. Beispielsweise lautet der Abschnittsname &quot;Personen&quot;im linken Bedienfeld jetzt &quot;Unternehmensmitglieder&quot;.
+Im Bereich Firmen im Setup erleichtern neue Bestätigungsnachrichten und geringfügige redaktionelle Änderungen die Verwaltung der Firmenmitgliedschaft. Beispielsweise lautet der Abschnittsname „Personen“ im linken Bereich jetzt „Firmenmitglieder“.
 
 Informationen zur Verwaltung von Unternehmensmitgliedschaften finden Sie unter [Verwalten von Unternehmensmitgliedschaften](../../../administration-and-setup/set-up-workfront/organizational-setup/manage-company-memberships.md).

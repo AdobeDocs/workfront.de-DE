@@ -1,6 +1,6 @@
 ---
-title: 23.2 Verbesserungen bei der Ressourcenverwaltung
-description: 23.2 Verbesserungen bei der Ressourcenverwaltung
+title: 23.2 Verbesserungen beim Ressourcenmanagement
+description: 23.2 Verbesserungen beim Ressourcenmanagement
 author: Courtney
 draft: Probably
 feature: Product Announcements
@@ -13,33 +13,33 @@ ht-degree: 0%
 
 ---
 
-# 23.2 Verbesserungen bei der Ressourcenverwaltung
+# 23.2 Verbesserungen beim Ressourcenmanagement
 
-Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die mit Version 23.2 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen beim Ressourcenmanagement beschrieben, die mit Version 23.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit Version 23.2 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die derzeit im 23.2-Versionszyklus verfügbar sind, finden Sie unter [23.2 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.2 verfügbar sind, finden Sie unter Übersicht über Version [23.2](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-release-overview.md).
 
-## Einführung des Felds Arbeitszeit zur genauen Berechnung der Benutzerkapazität
+## Einführung in das Feld Arbeitszeit zur korrekten Berechnung der Benutzerkapazität
 
 >[!NOTE]
 >
 >Vorschau-Version: 16. Februar 2023; geplante Produktionsversion: 2. März 2023
 
-Damit Ressourcenmanager die Verfügbarkeit ihrer Benutzer genau berechnen und die Zeit berücksichtigen können, die Benutzer tatsächlich projektbezogener Arbeit widmen, führen wir das Arbeitszeitkonzept für Adobe Workfront ein.
+Damit Ressourcenmanager die Verfügbarkeit ihrer Benutzer genau berechnen und die Zeit berücksichtigen können, die Benutzer für die tatsächliche, projektbezogene Arbeit aufwenden, führen wir das Arbeitszeitkonzept in Adobe Workfront ein.
 
-Sie können den Wert des Felds &quot;Arbeitszeit&quot;für jeden Benutzer definieren, wenn Sie sein Profil erstellen oder bearbeiten. Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Sie können den Wert des Felds Arbeitszeit für jeden Benutzer definieren, wenn Sie dessen Profil erstellen oder bearbeiten. Weitere Informationen finden Sie [Bearbeiten des Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-Das Feld &quot;Arbeitszeit&quot;stellt den Prozentsatz der Vollzeitäquivalenzzeit (FTE) dar, die der Benutzer für die tatsächliche Arbeit zur Verfügung hat, ohne dass der Mehraufwand eingeschlossen ist. Die Arbeitszeit muss eine Dezimalzahl mit einem Wert zwischen 0 und 1 sein. Eine Verfügbarkeit von 20 % für tatsächliche Arbeit wäre beispielsweise 0,2.
+Das Feld Arbeitszeit gibt den Prozentsatz der Vollzeitäquivalenzzeit (FTE) an, die der Benutzer für die tatsächliche Arbeit zur Verfügung hat, ohne Gemeinkosten. Die Arbeitszeit muss eine Dezimalzahl mit einem Wert zwischen 0 und 1 sein. So würde beispielsweise eine Verfügbarkeit von 20 % für die tatsächliche Arbeit 0,2 betragen.
 
-Der Standardwert des Felds ist 1, was bedeutet, dass ein Benutzer seine gesamte FTE für tatsächliche, projektbezogene Arbeiten ausgibt.
+Der Standardwert des Feldes ist 1. Dies bedeutet, dass ein Benutzer sein gesamtes FTE für die tatsächliche, projektbezogene Arbeit verwendet.
 
-Aufgrund dieser Aktualisierung berechnet Workfront die Verfügbarkeit des Benutzers anhand der unten stehenden Formeln, abhängig von Ihrer Auswahl im Bereich Voreinstellungen für die Ressourcenverwaltung:
+Als Ergebnis dieser Aktualisierung berechnet Workfront die Verfügbarkeit der Benutzenden anhand der unten stehenden Formeln und hängt von der Auswahl im Bereich „Voreinstellungen für die Ressourcenverwaltung“ ab:
 
 * Standardzeitplan:
-* Benutzerkapazität = [(Stunden planen - Ausnahmen planen) * FTE - Zeit ab ] * Arbeitszeit
-* Benutzerzeitplan:
-* Benutzerkapazität = (Zeitplanzeiten - Ausnahmen planen - Zeitlimit) * Arbeitszeit.
+* Benutzerkapazität = [(Geplante Stunden - Zeitplanausnahmen) * VZÄ - Auszeiten] * Arbeitszeit
+* Zeitplan des Benutzers:
+* Benutzerkapazität = (Geplante Stunden - Zeitplanausnahmen - Auszeiten) * Arbeitszeit.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für die Ressourcenverwaltung]](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).[!UICONTROL 
+Weitere Informationen finden Sie unter [Konfigurieren von [!UICONTROL Ressourcenverwaltung] Einstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3415608/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3415608/){target=_blank}

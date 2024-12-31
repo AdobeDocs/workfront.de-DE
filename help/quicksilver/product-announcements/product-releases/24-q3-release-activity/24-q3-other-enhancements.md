@@ -1,6 +1,6 @@
 ---
-title: Weitere Verbesserungen während des Zeitrahmens der Version 2024 im dritten Quartal
-description: Weitere Verbesserungen während des Zeitrahmens der Version 2024 im dritten Quartal
+title: Weitere Verbesserungen während des Veröffentlichungszeitraums des dritten Quartals 2024
+description: Weitere Verbesserungen im Zeitraum der Veröffentlichung im dritten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,55 +12,55 @@ ht-degree: 0%
 
 ---
 
-# Weitere Verbesserungen während des Zeitrahmens der Version 2024 im dritten Quartal
+# Weitere Verbesserungen während des Veröffentlichungszeitraums des dritten Quartals 2024
 
-Auf dieser Seite werden Verbesserungen beschrieben, die mit der Version 2024 des dritten Quartals in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden die Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht des dritten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [ zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Backend-Änderung an produktinternen Handbüchern
 
 >[!NOTE]
 >
->Produktion für alle Kunden: schrittweise bis Mitte August 2024
+>Produktion für alle Kunden: Inkrementell bis Mitte August 2024
 
-In den nächsten Wochen führen wir für unsere produktinternen Leitfäden eine Technologieänderung durch. Während wir versucht haben, die Auswirkungen dieser Transition zu minimieren, können einige Benutzer auf Leitfäden stoßen, die sie zuvor gesehen haben.
+Wir implementieren in den nächsten Wochen einen Technologiewechsel für unsere produktinternen Handbücher. Obwohl wir versucht haben, die Auswirkungen dieser Umstellung zu minimieren, können einige Benutzer auf Anleitungen stoßen, die sie zuvor gesehen haben.
 
-## Adobe Unified Experience ist jetzt für mehr Workfront-Organisationen verfügbar
+## Adobe Unified Experience ist jetzt für weitere Workfront-Organisationen verfügbar
 
 >[!NOTE]
 >
->* Die Adobe Unified Shell wird in einem stufenweisen Rollout zur Verfügung gestellt. Weitere Organisationen werden mit den Versionen 24.10 und 25.1 in die Adobe Unified Shell integriert.
->* Vorschau-Version: 20. Juni 2024; Produktionsversion für bestimmte Kunden: Mit Version 24.7 (18. Juli 2024)
+>* Die Adobe Unified Shell wird in einem schrittweisen Rollout zur Verfügung gestellt. Weitere Unternehmen werden mit den Versionen 24.10 und 25.1 in die Adobe Unified Shell integriert.
+>* Vorschau-Version: 20. Juni 2024; Produktionsversion für bestimmte Kunden: Mit der Version 24.7 (18. Juli 2024)
 
-Um Unternehmen den Zugriff auf die Vorteile des Adobe Unified Experience zu ermöglichen, haben wir begonnen, es bestehenden Workfront-Kunden zur Verfügung zu stellen.
+Um Unternehmen den Zugriff auf die Vorteile des einheitlichen Adobe-Erlebnisses zu ermöglichen, haben wir begonnen, dieses für bestehende Workfront-Kunden verfügbar zu machen.
 
-Das Adobe Unified Experience umfasst:
+Das einheitliche Adobe-Erlebnis umfasst:
 
-* Eine Anmeldung für alle Adobe-Anwendungen über Adobe Experience Cloud
-* Ein &quot;Organisationswechsel&quot; für den Wechsel zwischen Workfront-Organisationen und -Umgebungen
+* Eine einzige Anmeldung für alle Adobe-Anwendungen über Adobe Experience Cloud
+* Ein „Organisationswechsel“, um zwischen Workfront-Organisationen und -Umgebungen zu wechseln
 * Navigation mit Optionen für Workfront-Seiten, Adobe Experience Cloud-Voreinstellungen und Ihr Workfront-Profil
 
-Wenn Ihr Unternehmen mit Version 24.7 auf das Adobe Unified Experience umstellt, hat Ihr Workfront-Administrator eine Mitteilung über die Änderung erhalten.
+Wenn Ihr Unternehmen zum einheitlichen Adobe-Erlebnis mit Version 24.7 wechselt, hat Ihr Workfront-Administrator eine Ankündigungscenter-Nachricht über die Änderung erhalten.
 
-Zuvor war das Adobe Unified Experience nur für neue Workfront-Kunden verfügbar.
+Zuvor war Adobe Unified Experience nur für neue Workfront-Kunden verfügbar.
 
-Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412388/){target=_blank}
 
-## Schaltfläche &quot;Hilfe&quot;aus der Hauptnavigationsleiste entfernt
+## Aus der Hauptnavigationsleiste entfernte Schaltfläche „Hilfe“
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Juni 2024; Produktion für alle Kunden: Mit Version 24.7 (18. Juli 2024)
+>Vorschau-Version: 6. Juni 2024; Produktion für alle Kunden: Mit der Version 24.7 (18. Juli 2024)
 
-Um das Erlebnis für Benutzer zu vereinheitlichen, die nicht Unified Shell verwenden, wurde die Schaltfläche Hilfe in der Hauptnavigationsleiste entfernt. Diese Schaltfläche, die nicht für Unified Shell-Benutzer vorhanden ist und mit der Workfront-Dokumentation verknüpft ist, war redundant und mit einer ähnlichen Schaltfläche für alle Benutzer im Hauptmenü verfügbar.
+Um das Erlebnis für Benutzende, die nicht in Unified Shell arbeiten, zu vereinheitlichen, wurde die Schaltfläche Hilfe in der Hauptnavigationsleiste entfernt. Diese Schaltfläche, die für Benutzende von Unified Shell nicht vorhanden, mit der Workfront-Dokumentation verknüpft und mit einer ähnlichen Schaltfläche „Hilfe“ redundant war, die für alle Benutzenden im Hauptmenü verfügbar ist.
 
-## Verbesserte Benutzeroberfläche für Benutzer mit eingeschränktem Objektzugriff
+## Verbesserte Benutzeroberfläche für Benutzende mit eingeschränktem Objektzugriff
 
-Wenn ein Benutzer keinen Zugriff auf ein Objekt hat, wird ihm überall dort &quot;Kein Zugriff&quot;angezeigt, wo der Objektname in Workfront angezeigt wird. Dieses verbesserte Erlebnis gilt auch für die Workfront-API.
+Wenn ein(e) Benutzende(r) keinen Zugriff auf ein Objekt hat, wird „Kein Zugriff“ überall dort angezeigt, wo der Objektname in Workfront angezeigt wird. Dieses verbesserte Erlebnis gilt auch für die Workfront-API.
 
-Teams und Benutzer sind von dieser Änderung nicht betroffen. Benutzer können weiterhin Team- und Benutzernamen anzeigen.
+Teams und Benutzer sind nicht in dieser Änderung enthalten. Benutzer können weiterhin Team- und Benutzernamen anzeigen.
 
-Weitere Informationen finden Sie im Abschnitt [Eingeschränkter Zugriff auf Objekte](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) im Artikel [!DNL Adobe Workfront] Objektübersicht .
+Weitere Informationen finden Sie im Abschnitt [Eingeschränkter Zugriff auf Objekte](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#restricted-access-to-objects) im Artikel Übersicht über [!DNL Adobe Workfront].

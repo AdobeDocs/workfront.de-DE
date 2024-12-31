@@ -15,29 +15,29 @@ ht-degree: 0%
 
 # 23.1 Verbesserungen für Mobilgeräte
 
-Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 23.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 16. Januar 2023 verfügbar sein.
+Auf dieser Seite werden alle mit Version 23.1 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 16. Januar 2023 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 23.1 verfügbaren Änderungen finden Sie unter [23.1 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 23.1 verfügbar sind, finden Sie unter [23.1 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-## Pinnwände sind jetzt in der App verfügbar
+## Pinnwände sind jetzt in der mobilen App verfügbar
 
 >[!NOTE]
 >
->Diese Funktionen werden Mitte bis Ende Januar 2023 im Apple App Store- und Google Play-Store allgemein verfügbar sein.
+>Diese Funktionen werden Mitte bis Ende Januar 2023 im Apple App Store und Google Play Store allgemein verfügbar sein.
 
-Adobe Workfront-Pinnwände sind jetzt in der App verfügbar! Sie können direkt vom Startbildschirm aus auf die Pinnwände zugreifen und alle Pinnwände anzeigen, auf die Sie Zugriff haben, in der Desktop-Version von Workfront. In einer bestimmten Pinnwand können Sie alle zugehörigen Spalten und Karten anzeigen und bearbeiten. Zu den Kartendetails gehören Name, Beschreibung, Spalte, Bevollmächtigte, Status, Fälligkeitsdatum, Schätzung, Tags und Checklisten-Elemente. Auf der Pinnwand sind sowohl Ad-hoc-Karten als auch verbundene Karten sichtbar.
+Adobe Workfront-Boards sind jetzt in der Mobile App verfügbar! Sie können direkt über den Startbildschirm auf Pinnwände zugreifen und alle Pinnwände anzeigen, auf die Sie in der Desktop-Version von Workfront Zugriff haben. Auf einer bestimmten Pinnwand können alle Spalten und Karten angezeigt und bearbeitet werden. Zu den Kartendetails gehören Name, Beschreibung, Spalte, Bevollmächtigte, Status, Fälligkeitsdatum, Schätzung, Tags und Checklistenelemente. Auf der Pinnwand sind sowohl Ad-hoc- als auch verbundene Karten sichtbar.
 
-Zu den weiteren Funktionen gehören:
+Zu den zusätzlichen Funktionen gehören:
 
 * Hinzufügen einer Ad-hoc-Karte zu einer Spalte
-* Auswählen und Ziehen von Karten zwischen Spalten
-* Durchsuchen der Pinnwand
-* Filtern der Pinnwand nach Mitglied oder Tag
-* Zeigen Sie die Annahmespalte an und verschieben Sie die Karten aus der Annahmespalte auf die Pinnwand.
+* Karten zwischen Spalten auswählen und ziehen
+* In der Pinnwand suchen
+* Pinnwand nach Mitglied oder Tag filtern
+* Die Aufnahmespalte anzeigen und Karten aus der Aufnahmespalte auf die Pinnwand verschieben
 
-Alle Änderungen, die Sie an Spalten und Karten im Programm vornehmen, werden auch in der Desktop-Version der Pinnwand übernommen. Derzeit können Sie nur Ihre Desktop-Motherboards öffnen und keine neuen Pinnwände im Programm erstellen.
+Alle Änderungen, die Sie an Spalten und Karten in der App vornehmen, werden auch in der Desktop-Version des Boards übernommen. Derzeit können Sie nur Ihre Desktop-Motherboards öffnen und keine neuen Motherboards in der App erstellen.
 
-Die folgenden Artikel werden aktualisiert, wenn die App in den Appstores veröffentlicht wird:
+Die folgenden Artikel werden aktualisiert, wenn die App in den App Stores veröffentlicht wird:
 
 * [Adobe Workfront für Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 * [Adobe Workfront für iOS](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)

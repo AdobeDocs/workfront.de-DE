@@ -1,6 +1,6 @@
 ---
-title: 2.4 Projektverbesserungen
-description: 2.4 Projektverbesserungen
+title: 22.4 Projektverbesserungen
+description: 22.4 Projektverbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,31 +13,31 @@ ht-degree: 2%
 
 ---
 
-# 2.4 Projektverbesserungen
+# 22.4 Projektverbesserungen
 
-Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 22.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 verfügbar gemacht.
+Auf dieser Seite werden alle mit Version 22.4 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Details zu Vorgängern jetzt verfügbar
+## Vorgängerdetails jetzt verfügbar
 
-Um die Details der Vorgänger einer Aufgabe anzuzeigen, können Sie jetzt in der Spalte &quot;Vorgänger&quot;den Mauszeiger über die Vorgängernummer bewegen. Im Detailfeld werden die referenzierte Vorgängeraufgabe und das referenzierte Projekt, die geplanten Start- und Enddaten für die Vorgängeraufgabe sowie die Anzahl der Vorgängeraufgaben und Nachfolger angezeigt. Sie können die Projektdetails erweitern, um weitere Informationen zum Projekt anzuzeigen. Zusätzliche Informationen sind für projektübergreifende Vorgänger enthalten.
+Um die Details der Vorgänger einer Aufgabe anzuzeigen, können Sie jetzt den Mauszeiger über die Vorgängernummer in der Spalte Vorgänger bewegen. Das Detailfeld zeigt die Vorgängeraufgabe und das Projekt an, auf die verwiesen wird, sowie die geplanten Start- und Enddaten für die Vorgängeraufgabe und die Anzahl der Vorgängeraufgaben und Nachfolger. Sie können die Projektdetails erweitern, um weitere Informationen zum Projekt anzuzeigen. Weitere Informationen sind für projektübergreifende Vorgänger enthalten.
 
-Weitere Informationen finden Sie unter [Erstellen einer Vorgängerbeziehung in der Aufgabenliste](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
+Weitere Informationen finden Sie unter [Erstellen einer Vorgängerbeziehung auf der Aufgabenliste](/help/quicksilver/manage-work/tasks/use-prdcssrs/create-predecessors-on-task-list.md).
 
-## Zuweisen mehrerer Teams zu einer Aufgabe oder einem Problem
+## Mehrere Teams einer Aufgabe oder einem Problem zuweisen
 
-Um Ihnen viel mehr Flexibilität bei der Verwaltung von Aufgaben und Problemen zu geben, haben wir es ermöglicht, mehrere Teams einer Aufgabe oder einem Problem zuzuweisen. Zuvor konnte nur ein Team einer Aufgabe oder einem Problem zugewiesen werden.
+Wir haben es Ihnen ermöglicht, einer Aufgabe oder einem Problem mehrere Teams zuzuweisen, um Ihnen viel mehr Flexibilität bei der Verwaltung von Aufgaben und Problemen zu bieten. Zuvor konnte nur ein Team einer Aufgabe oder einem Problem zugewiesen werden.
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit im Arbeitslastausgleich im Bereich Teams nicht verfügbar.
+>Diese Funktion ist derzeit nicht im Workload Balancer im Bereich Teams verfügbar.
 
-Weitere Informationen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) und [Zuweisen von Problemen](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
+Weitere Informationen finden Sie unter [Aufgaben zuweisen](/help/quicksilver/manage-work/tasks/assign-tasks/assign-tasks.md) und [Probleme zuweisen](/help/quicksilver/manage-work/issues/manage-issues/assign-issues.md).
 
-## Smart-Benutzerauswahl für Projektrollen in den Bereichen Bearbeiten und Details
+## Intelligente Benutzerauswahl für Projektrollen in den Bereichen Bearbeiten und Details
 
-Die Anzeige der Benutzer beim Hinzufügen zu den folgenden Projektfeldern im Feld Bearbeiten und im Abschnitt Details des Projekts wurde verbessert:
+Wir haben die Art und Weise verbessert, wie Benutzende angezeigt werden, wenn Sie sie den folgenden Projektfeldern aus dem Feld Bearbeiten und dem Abschnitt Details des Projekts hinzufügen:
 
 * Projektbesitzer
 
@@ -45,88 +45,88 @@ Die Anzeige der Benutzer beim Hinzufügen zu den folgenden Projektfeldern im Fel
 
 * Ressourcenmanager
 
-Wenn Sie nun einen Benutzer zu einem dieser Felder in den Bereichen Bearbeiten oder Details hinzufügen, werden neben seinem Namen und Avatar auch dessen Primäre Rolle und die E-Mail-Adresse angezeigt. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.
+Wenn Sie jetzt Benutzende zu einem dieser Felder im Bereich Bearbeiten oder Details hinzufügen, werden neben ihrem Namen und Avatar auch ihre Primäre Rolle und ihre E-Mail-Adresse angezeigt. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.
 
-Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+Weitere Informationen finden Sie unter [Projekte ](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
 
-HINWEIS: Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden in zukünftigen Versionen mit dieser Funktion aktualisiert.
+HINWEIS: Zusätzliche Benutzerfelder für Projekte, Aufgaben und Probleme werden mit dieser Funktion in zukünftigen Versionen aktualisiert.
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412390/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412390/){target=_blank}
 
-## Berechnete Datumsfelder werden immer basierend auf der koordinierten Weltzeit (UTC) gespeichert.
+## Berechnete Datumsfelder werden immer basierend auf der koordinierten Weltzeit (UTC) gespeichert
 
-Jetzt können Sie sicher sein, dass alle Datumsfunktionen in berechneten Feldern konsistent funktionieren und für alle dasselbe Ergebnis liefern, unabhängig davon, wie ein benutzerdefinierter Datenausdruck aktualisiert wird oder wo Benutzer weltweit an dem Objekt zusammenarbeiten.
+Jetzt können Sie sicherstellen, dass alle Datumsfunktionen in berechneten Feldern konsistent funktionieren und für alle dasselbe Ergebnis liefern, unabhängig davon, wie ein benutzerdefinierter Datenausdruck aktualisiert wird oder wo Benutzende auf der ganzen Welt am -Objekt zusammenarbeiten.
 
-Alle Berechnungen werden jetzt nach einem Standard - koordinierte Weltzeit (UTC) - und nicht nach den Zeitzonenkonfigurationen berechnet und gespeichert, die für die Instanz Ihres Unternehmens und Ihr individuelles Benutzerprofil festgelegt sind. Berechnungen werden jedoch in einem benutzerdefinierten Formular angezeigt, das auf den individuellen Zeitzonen der einzelnen Benutzer in ihrem Browser basiert.
+Alle Berechnungen werden jetzt von einem Standard - Coordinated Universal Time (UTC) - berechnet und gespeichert, nicht von den Zeitzonenkonfigurationen, die für die Instanz Ihres Unternehmens und Ihr individuelles Benutzerprofil festgelegt wurden. Berechnungen werden jedoch in einem benutzerdefinierten Formular angezeigt, das auf den individuellen Zeitzonen der einzelnen Benutzenden basiert, die in ihrem Browser festgelegt wurden.
 
-Zuvor führten die Zeiteinstellungen in Berechnungen zu Verwirrung, wenn sie in diesen Situationen variierten:
+Zuvor führten Zeiteinstellungen in Berechnungen zu Verwirrung, wenn sie in diesen Situationen variierten:
 
-* Wenn ein berechneter Feldausdruck mithilfe von &quot;Frühere Berechnungen aktualisieren&quot;im Formular-Builder neu berechnet wurde, wurden die Ergebnisse der Datumsfunktionen anhand der UTC-Zeitzone Ihres Unternehmens ermittelt.
+* Wenn jemand einen berechneten Feldausdruck mithilfe von „Vorherige Berechnungen aktualisieren“ im Formular-Builder neu berechnet hat, wurden die Ergebnisse der Datumsfunktion durch die UTC-Zeitzone Ihrer Organisation bestimmt.
 
-* Wenn jemand das Objekt bearbeitet hat und der dazu geführt hat, dass der berechnete Feldausdruck neu berechnet wurde, wurden die Ergebnisse der Datumsfunktion durch die lokale Zeitzone des Benutzers bestimmt. Die Ergebnisse des berechneten Datumsfelds in diesem Szenario werden ebenfalls auf der Grundlage der UTC berechnet.
+* Wenn jemand das -Objekt bearbeitet hat und dies dazu geführt hat, dass der Ausdruck für das berechnete Feld neu berechnet wurde, wurden die Ergebnisse der Datumsfunktion anhand der lokalen Zeitzone des Benutzers bestimmt. Die Ergebnisse der berechneten Datumsfelder in diesem Szenario werden ebenfalls auf der Grundlage der UTC berechnet.
 
 Weitere Informationen finden Sie unter [Arbeiten über Zeitzonen hinweg](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md).
 
-## Verbesserungen beim benutzerdefinierten Formular: Adobe XD und der Schnellfilter
+## Verbesserungen bei benutzerdefinierten Formularen: Adobe XD und der Schnellfilter
 
-Basierend auf Ihrem Feedback haben wir die folgenden Verbesserungen eingeführt, um Ihr Benutzererlebnis bei der Verwaltung benutzerdefinierter Formulare zu verbessern:
+Basierend auf Ihrem Feedback haben wir die folgenden Verbesserungen eingeführt, um Ihr Erlebnis beim Verwalten von benutzerdefinierten Formularen zu verbessern:
 
-* Fügen Sie eine Adobe XD-Datei hinzu, um ein benutzerdefiniertes Formular visueller und informativer zu gestalten. Wenn das Formular an ein Objekt angehängt wird, können Benutzer, die mit dem Objekt arbeiten, die XD Datei im Formular anzeigen und damit interagieren.
+* Fügen Sie eine Adobe XD-Datei hinzu, um ein benutzerdefiniertes Formular visueller und informativer zu gestalten. Wenn das Formular an ein Objekt angehängt ist, können Benutzende, die mit dem Objekt arbeiten, die XD-Datei im Formular anzeigen und mit ihr interagieren.
 
 
-* Verwenden Sie den Schnellfilter , um Elemente in der Liste modernisierter benutzerdefinierter Formulare und Felder einfach zu finden. Genießen Sie außerdem ein verbessertes Erscheinungsbild bei der Verwaltung Ihrer Formulare und Felder.
+* Verwenden Sie den Schnellfilter, um Elemente in der modernisierten Liste der benutzerdefinierten Formulare und Felder einfach zu finden. Sie erhalten außerdem ein verbessertes Erscheinungsbild bei der Verwaltung Ihrer Formulare und Felder.
 
   Weitere Informationen zum Schnellfilter finden Sie unter [Anwenden des Schnellfilters auf eine Liste](/help/quicksilver/workfront-basics/navigate-workfront/use-lists/apply-quick-filter-list.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412469/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412469/){target=_blank}
 
 ## Öffentliche Beta - Neues Filtererlebnis für Projekte, Aufgaben und Probleme
 
-Das Filtern in Projekt-, Aufgaben- und Problemlisten wurde neu gestaltet, um Ihnen das schnelle Erstellen und Freigeben von Filtern zu erleichtern. Zu den Funktionen gehören:
+Die Filterung von Projekt-, Aufgaben- und Problemlisten wurde neu gestaltet, damit Sie Filter schnell erstellen und freigeben können. Zu den Funktionen gehören:
 
-* Eine intuitive &quot;Beta-Builder&quot;-Oberfläche zum Erstellen eines neuen Filters
+* Eine intuitive „Beta Builder“-Oberfläche zum Erstellen eines neuen Filters
 
-* Die Fähigkeit, einen Filter als Favoriten zu kennzeichnen
+* Die Möglichkeit, einen Filter als Favoriten zu markieren
 
-* Filterstapelung (Anwenden von mehr als einem gespeicherten Filter)
+* Filterstapelung (Anwenden mehrerer gespeicherter Filter)
 
 * Filter duplizieren
 
 * Filter freigeben
 
-* Für Sie freigegebene Filter entfernen
+* Mit Ihnen geteilte Filter entfernen
 
 
-Das neue Filtererlebnis ist auch in den Timesheet-Listen und im Szenario-Planer verfügbar.
+Das neue Filtererlebnis ist auch in Arbeitszeittabellenlisten und im Szenario-Planer verfügbar.
 
-Der Textmodus bleibt für die erweiterte Filterbearbeitung verfügbar, und Systemadministratoren können allen Benutzern über die Layoutvorlagen weiterhin Standardfilter zuweisen.
+Der Textmodus bleibt für die erweiterte Filterbearbeitung verfügbar, und Systemadministratoren können weiterhin Standardfilter für alle Benutzer über die Layout-Vorlagen zuweisen.
 
 ### Wo wird dies verfügbar sein?
 
-* Projekt-/Aufgaben-/Problemlisten
+* Liste der Projekte/Aufgaben/Probleme
 
 * Szenarienplaner
 
 * Arbeitszeit- tabellen
 
 
-### Wir wollen Ihr Feedback!
+### Wir möchten Ihr Feedback!
 
-Mit dieser Funktion erhalten Benutzer von Public Beta die Möglichkeit, Feedback direkt an das Team zu senden, das an dem Filtererlebnis arbeitet, indem sie auf die Feedback-Schaltfläche klicken. Wir freuen uns darauf, von Ihnen und Ihren Benutzern über die neue Filtererfahrung in der öffentlichen Beta-Phase zu erfahren. Wenn Ihr Team mit einem Produkt direkt zusammentreffen möchte, um zusätzliches Feedback zu geben, können Sie ein Meeting hier planen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
+Mit diesem Public Beta erhalten Anwender die Möglichkeit, Feedback direkt an das Team zu senden, das am Filtererlebnis arbeitet, indem sie auf die Feedback-Schaltfläche klicken. Wir freuen uns, von Ihnen und Ihren Benutzern über das neue Filtererlebnis in der öffentlichen Beta-Version zu hören. Wenn Ihr Team sich direkt mit dem Produkt treffen möchte, um zusätzliches Feedback zu geben, können Sie hier ein Meeting planen: https://calendly.com/wf-product-and-design-research/filtersfeedbackpublicbeta?month=2022-08&amp;date=2022-08-25
 
 ### Wie geht es weiter?
 
-* Neues Gruppierungs- und Ansichtserlebnis (auch Spalten genannt)
+* Neues Erlebnis bei Gruppierungen und Ansichten (auch als Spalten bezeichnet)
 
-  Wir werden mit der Arbeit an dem neuen Erlebnis für Gruppierungen und Ansichten (auch als Spalten bezeichnet) beginnen, damit es mit dem neuen Filtererlebnis konsistent ist und einige der gleichen großartigen Funktionen wie die neuen Filter aufweist.
+  Wir werden mit der Arbeit am neuen Erlebnis für Gruppierungen und Ansichten (auch als Spalten bezeichnet) beginnen, damit es mit dem neuen Filtererlebnis konsistent ist und einige der großartigen Funktionen des neuen Filtererlebnisses hat.
 
-* Neue Filter in andere Bereiche von Adobe Workfront implementieren
+* Neue Filter in anderen Bereichen von Adobe Workfront implementieren
 
-  Wir werden mit Teams aus dem gesamten Produkt zusammenarbeiten, um die neuen Filtererfahrungen in anderen Bereichen in Workfront zu implementieren.
+  Wir werden mit Teams aus allen Produktbereichen zusammenarbeiten, um die neuen Filter in anderen Bereichen von Workfront zu implementieren.
 
 
-Wir möchten Ihnen einen Mehrwert bieten, damit wir auch weiterhin mit den neuen Erfahrungen und anderen Bereichen zur Verfügung stehen. Bleiben Sie auf dem Laufenden für spannendere Updates.
+Wir möchten Ihnen iterativ einen Mehrwert bieten, sodass wir weiterhin liefern können, wenn die neuen Erlebnisse und andere Bereiche bereit sind. Bleiben Sie dran für weitere spannende Updates.
 
 Weitere Informationen finden Sie unter [Filterübersicht](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/filters-overview.md) und [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412391/)
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412391/)

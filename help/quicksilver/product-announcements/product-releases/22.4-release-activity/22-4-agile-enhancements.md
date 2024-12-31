@@ -1,6 +1,6 @@
 ---
-title: 2.4 Agile Verbesserungen
-description: 2.4 Agile Verbesserungen
+title: 22.4 Agile-Verbesserungen
+description: 22.4 Agile-Verbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,90 +13,90 @@ ht-degree: 0%
 
 ---
 
-# 2.4 Agile Verbesserungen
+# 22.4 Agile-Verbesserungen
 
-Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit Version 22.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 verfügbar gemacht.
+Auf dieser Seite werden alle Agile-Verbesserungen beschrieben, die mit der Version 22.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Auf Pinnwänden verfügbare Einzugsspalte
+## Auf Pinnwänden verfügbare Aufnahmespalte
 
-HINWEIS: Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+HINWEIS: Diese Funktion ist nur über das frühe Funktions-Opt-in für Workfront-Boards verfügbar.
 
-Sie können einer Pinnwand jetzt eine Aufnahmespalte hinzufügen. Diese Spalte ruft automatisch Aufgaben und Probleme in die Pinnwand auf, wenn sie in Workfront hinzugefügt werden, basierend auf von Ihnen definierten Filtern.
+Sie können einer Pinnwand jetzt eine Aufnahmespalte hinzufügen. In dieser Spalte werden Aufgaben und Probleme automatisch auf der Grundlage der von Ihnen definierten Filter abgerufen, sobald sie in Workfront hinzugefügt werden.
 
-Die Ansauspalte kann als Rückstau für ein Kanban-Team dienen, als Aufnahmeort für ein Support-Team, um Probleme zu sehen, wenn sie einer Anfragewarteschlange hinzugefügt werden, oder zu einem anderen Zweck, den Sie benötigen.
+Die Aufnahmespalte kann als Rückstandsspalte für ein Kanban-Team, als Aufnahmeposition für ein Support-Team dienen, um Probleme beim Hinzufügen zu einer Anfrage-Warteschlange oder für einen anderen von Ihnen benötigten Zweck anzuzeigen.
 
-Nur eine Aufnahmesäule ist an Bord erlaubt.
+Auf einer Pinnwand ist nur eine Aufnahmespalte zulässig.
 
 Weitere Informationen finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412867/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412867/){target=_blank}
 
 ## Aktualisiertes Filterbedienfeld in Pinnwänden
 
-HINWEIS: Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+HINWEIS: Diese Funktion ist nur über das frühe Funktions-Opt-in für Workfront-Boards verfügbar.
 
-Die Filter- und Suchsymbole auf einer Pinnwand wurden nach links vom Bildschirm verschoben. Wenn Sie auf das Filtersymbol klicken, wird links ein Bedienfeld geöffnet, in dem alle Filteroptionen angezeigt werden. Zuvor wurden die Filter in einer Dropdown-Liste auf der rechten Seite der Pinnwand angezeigt.
+Die Filter- und Suchsymbole auf einer Pinnwand wurden nach links verschoben. Wenn Sie auf das Filtersymbol klicken, wird auf der linken Seite ein Bedienfeld geöffnet, in dem alle Filteroptionen angezeigt werden. Zuvor wurden die Filter in einer Dropdown-Liste auf der rechten Seite der Pinnwand angezeigt.
 
 Weitere Informationen finden Sie unter [Filtern und Suchen in einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/filter-search-in-board.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412868/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412868/){target=_blank}
 
-## Verwenden Sie Gruppen auf einer Pinnwand, um Swimlanes zu erstellen
+## Verwenden von Gruppen auf einem Board zum Erstellen von Swimlines
 
-Sie können Karten auf einer Pinnwand nun nach Verantwortlichen oder Tag gruppieren. Wenn Sie eine Gruppierungsoption auswählen, werden die Karten im Swimlane-Format angezeigt. Nicht zugewiesene Karten oder Karten ohne Tags werden in ihrer eigenen Swimlane angezeigt.
+Sie können jetzt Karten auf einer Pinnwand nach Verantwortlichem oder nach Tag gruppieren. Wenn Sie eine Option auswählen, nach der gruppiert werden soll, werden die Karten im SWMLANE-Format angezeigt. Nicht zugewiesene Karten oder Karten ohne Tags werden in ihrem eigenen Swimlane angezeigt.
 
-Sie können auch definieren, was passiert, wenn eine Karte von einer Gruppe in eine andere verschoben wird. Der Bevollmächtigte oder das Tag in der Gruppe, in die die Karte verschoben wird, kann den vorhandenen Bevollmächtigten/Tags hinzugefügt oder die anderen Bevollmächtigten/Tags auf der Karte überschrieben werden.
+Sie können auch festlegen, was passiert, wenn eine Karte von einer Gruppe in eine andere verschoben wird. Der Verantwortliche oder das Tag in der Gruppe, in die die Karte verschoben wird, kann den vorhandenen Verantwortlichen/Tags hinzugefügt werden oder die anderen Verantwortlichen/Tags auf der Karte überschreiben.
 
-Alle Karten in der Ansaugspalte sind nicht in einer Gruppe enthalten.
+Karten in der Aufnahmespalte sind nicht in einer Gruppe enthalten.
 
 Weitere Informationen finden Sie unter [Verwenden von Gruppen auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412869/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412869/){target=_blank}
 
 ## Verbesserungen bei Checklisten-Elementen auf Pinnwänden
 
 >[!NOTE]
 >
->Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+>Diese Funktion ist nur über das frühzeitige Opt-in für Workfront-Boards verfügbar.
 
-Durch das Öffnen eines Checklisten-Elements auf einer Karte können Sie jetzt detailliertere Informationen zum Element hinzufügen, einschließlich einer Beschreibung, des Fälligkeitsdatums, der Bevollmächtigten und der Schätzung. Sie können auch ein Checklisten-Element kopieren, das zuvor nicht verfügbar war.
+Wenn Sie ein Checklisten-Element auf einer Karte öffnen, können Sie jetzt detailliertere Informationen über das Element hinzufügen, einschließlich einer Beschreibung, eines Fälligkeitsdatums, der Verantwortlichen und einer Schätzung. Sie können auch ein Checklisten-Element kopieren, das zuvor nicht verfügbar war.
 
-Weitere Informationen finden Sie unter [Verwalten von Checklisten-Elementen auf Karten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
+Weitere Informationen finden Sie unter [Checklisten-Elemente auf Karten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-checklist-items.md).
 
 ## Team zu einer Pinnwand oder Karte hinzufügen
 
 >[!NOTE]
 >
->Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+>Diese Funktion ist nur über das frühzeitige Opt-in für Workfront-Boards verfügbar.
 
-Sie können jetzt ein Team als Mitglied der Pinnwand hinzufügen. Die einzelnen Teammitglieder werden nicht mehr hinzugefügt, wenn Sie ein Team zum Board hinzufügen, obwohl alle Teammitglieder Zugriff auf das Forum haben.
+Sie können jetzt ein Team als Mitglied des Board hinzufügen. Die einzelnen Team-Mitglieder werden nicht mehr hinzugefügt, wenn Sie ein Team zur Pinnwand hinzufügen, obwohl alle Team-Mitglieder Zugriff auf die Pinnwand haben.
 
-Nachdem Sie das Team zur Pinnwand hinzugefügt haben, können Sie das Team Karten zuweisen. Auf verbundenen Karten ist nur eine Teamzuweisung zulässig. Auf Ad-hoc-Karten können Sie mehr als ein Team zuweisen.
+Nachdem Sie das Team der Pinnwand hinzugefügt haben, können Sie das Team Karten zuweisen. Auf verbundenen Karten ist nur ein Team-Arbeitsauftrag zulässig. Auf Ad-hoc-Karten können Sie mehr als ein Team zuweisen.
 
-Weitere Informationen finden Sie unter [Hinzufügen oder Entfernen von Mitgliedern aus einer Pinnwand](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
+Weitere Informationen finden Sie unter [Mitglieder zu einer Pinnwand hinzufügen oder daraus entfernen](/help/quicksilver/agile/get-started-with-boards/add-members-to-board.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412870/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412870/){target=_blank}
 
-## Option zur Begrenzung der laufenden Bearbeitung ist jetzt in integrierten Spalten verfügbar
+## Limit für laufende Arbeiten ist jetzt in den Spalten der Pinnwand verfügbar
 
 >[!NOTE]
 >
->Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+>Diese Funktion ist nur über die frühzeitige Funktionsaktivierung für Workfront-Boards verfügbar.
 
-Sie können jetzt für jede Spalte auf einer Pinnwand eine Grenze für laufende Arbeit (Work In Progress, WIP) festlegen. Wenn Sie eine WIP-Begrenzung aktivieren, wird in der Spalte ein Zähler mit der aktuellen Kartenanzahl und der Begrenzung angezeigt. Der Zähler wird rot, wenn die Spalte mehr Karten als den Grenzwert enthält. Dies ist lediglich eine visuelle Warnung und Sie werden nicht daran gehindert, mehr Karten als die Grenze hinzuzufügen.
+Sie können jetzt für jede Spalte einer Pinnwand ein Limit für laufende Arbeiten (Work In Progress, WIP) festlegen. Wenn Sie eine WIP-Beschränkung aktivieren, wird ein Zähler in der Spalte mit der aktuellen Anzahl von Karten und der Begrenzung angezeigt. Der Zähler wird rot, wenn die Spalte mehr Karten als das Limit enthält. Dies ist lediglich eine visuelle Warnung und Sie werden nicht daran gehindert, mehr Karten als das Limit hinzuzufügen.
 
-Weitere Informationen finden Sie unter [Pinnwandspalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
+Weitere Informationen finden Sie unter [Pinnwand-Spalten verwalten](/help/quicksilver/agile/get-started-with-boards/manage-board-columns.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412871/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412871/){target=_blank}
 
 ## Zu Karten hinzugefügtes Schätzfeld
 
 >[!NOTE]
 >
->Diese Funktion ist nur über die frühe Funktion des Opt-ins für Workfront-Pinnwände verfügbar.
+>Diese Funktion ist nur über das frühzeitige Opt-in für Workfront-Boards verfügbar.
 
-Ein neues Feld für die Schätzung auf Ad-hoc- und verbundenen Karten ermöglicht die Angabe der geschätzten Anzahl der Stunden, die für das Ausfüllen der Karte erforderlich sind. Dies ist ein manueller Eintrag, kein berechneter Wert, und der Wert darf nicht mehr als 99 betragen. Die Schätzung wird sowohl auf der Karte auf der Pinnwand als auch in den Kartendetails angezeigt.
+In einem neuen Feld Schätzung auf sowohl Ad-hoc- als auch verbundenen Karten können Sie die geschätzte Anzahl der Stunden eingeben, die für die Karte ausgeführt werden soll. Dies ist ein manueller Eintrag, kein berechneter Wert, und der Wert darf nicht mehr als 99 sein. Der Schätzwert wird auf der Karte auf der Pinnwand sowie in den Kartendetails angezeigt.
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3412872/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3412872/){target=_blank}

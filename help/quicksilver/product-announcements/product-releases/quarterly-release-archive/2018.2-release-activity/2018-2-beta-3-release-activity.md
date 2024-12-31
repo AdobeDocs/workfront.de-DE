@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Beta 3-Release-Aktivität 2018.2
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.2 verfügbar waren. Die Funktion wurde am 19. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Versionsaktivität von Beta 3 2018.2
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.2 verfügbar waren. Die Funktion wurde am 19. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,56 +14,56 @@ ht-degree: 0%
 
 ---
 
-# Beta 3-Release-Aktivität 2018.2
+# Versionsaktivität von Beta 3 2018.2
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.2 verfügbar waren. Die Funktion wurde am 19. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 3 Version 2018.2 verfügbar waren. Die Funktion wurde am 19. April 2018 in der Vorschau-Umgebung bereitgestellt. Sie wird im Juni 2018 in der Produktionsumgebung bereitgestellt.
 
 >[!IMPORTANT]
 >
-> Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
+> Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller Änderungen in Version 2018.2 finden Sie unter  Übersicht über die Versionsaktivität [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Beta 3 Version 2018.2 umfasst die folgenden Erweiterungen:
+Die Beta-Version 3 von 2018.2 enthält die folgenden Verbesserungen:
 
-* [Verwalten von Lizenzen in Ihrem System](#manage-licenses-in-your-system)
-* [Legen Sie Flags für Geschichten auf der Kanban-Pinnwand fest](#set-flags-for-stories-on-the-kanban-board)
-* [Felder direkt auf einer Agile Story Card bearbeiten](#edit-fields-directly-on-an-agile-story-card)
+* [Lizenzen in Ihrem System verwalten](#manage-licenses-in-your-system)
+* [Festlegen von Flags für Geschichten auf dem Kanban-Board](#set-flags-for-stories-on-the-kanban-board)
+* [Bearbeiten von Feldern direkt auf einer Agile-Story-Karte](#edit-fields-directly-on-an-agile-story-card)
 * [Verbesserte Suchrelevanz für mehrere Wörter](#improved-search-relevancy-for-multiple-words)
 
 ## Verwalten von Lizenzen in Ihrem System {#manage-licenses-in-your-system}
 
-Wir haben eine neue Lizenzseite für Workfront-Administratoren erstellt, auf der sie die Anzahl der derzeit verwendeten Lizenzen anzeigen oder Lizenzen nach der Gruppe &quot;Home Group&quot;verwalten können. 
+Wir haben eine neue Lizenzseite für Workfront-Administratoren erstellt, auf der sie die Anzahl der aktuell verwendeten Lizenzen anzeigen oder Lizenzen nach Hauptgruppe verwalten können. 
 
-Vor dieser Änderung konnten Workfront-Administratoren die Lizenzanzahl nur im Lizenzabschnitt der Seite &quot;Kundeninformationen&quot;anzeigen.
+Vor dieser Änderung konnten Workfront-Administratoren die Lizenzanzahl nur im Abschnitt Lizenz der Seite Kundeninformationen anzeigen.
 
 Weitere Informationen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](../../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
 
-## Festlegen von Flags für Geschichten auf dem Kanban Board {#set-flags-for-stories-on-the-kanban-board}
+## Festlegen von Flags für Storys auf dem Kanban-Board {#set-flags-for-stories-on-the-kanban-board}
 
-Jede Story-Kachel auf dem Kanban-Story-Board enthält jetzt eine Markierung, die Teammitglieder manuell festlegen können, um anzugeben, wann eine Story On Track (Standard), Blocked oder Ready to Pull ist.
+Jede Story-Kachel im Kanban-Story-Board enthält jetzt eine Markierung, die Team-Mitglieder manuell festlegen können, um anzugeben, wann eine Story auf dem richtigen Weg (Standard), blockiert oder bereit zum Abrufen ist.
 
-Flags bieten einen visuellen Hinweis darauf, wann eine Geschichte bereit ist, zum nächsten Status zu wechseln. Dies ermöglicht Kanban-Teams, einen &quot;Pull&quot;-Ansatz anstelle eines &quot;Push&quot;-Ansatzes zu verwenden, wenn Geschichten über Status auf dem Kanban-Board bewegt werden.
+Die Flags geben visuell an, wann eine Story bereit ist, zum nächsten Status zu wechseln. Dies ermöglicht es Kanban-Teams, beim Verschieben von Storys über Status auf der Kanban-Pinnwand hinweg einen „Pull“-Ansatz anstelle eines „Push“-Ansatzes zu verwenden.
 
-Informationen zur Verwendung von Flags auf dem Kanban-Board finden Sie unter &quot;Verwenden von Flags auf Geschichten&quot;im Artikel .
+Informationen zur Verwendung von Flags auf dem Kanban-Board finden Sie unter „Verwenden von Flags auf Stories“ im Artikel .
 
-Informationen zum Einschließen von Flags in Aufgabenberichte finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
+Informationen zur Verwendung von Flags in Aufgabenberichten finden Sie im [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).  
 
-## Felder direkt auf einer Agile Story-Karte bearbeiten {#edit-fields-directly-on-an-agile-story-card}
+## Bearbeiten von Feldern direkt auf einer Agile-Story-Karte {#edit-fields-directly-on-an-agile-story-card}
 
-Beim Anzeigen des agilen Forums für ein agiles Team können Sie jetzt Felder inline bearbeiten, direkt auf der Storykarte. Sie können alle Felder bearbeiten, auf die Sie Zugriff haben, wenn Sie die ursprüngliche Aufgabe oder das Problem anzeigen.
+Beim Anzeigen des Agile-Story-Boards für ein Agile-Team können Sie jetzt Felder direkt auf der Story-Karte inline bearbeiten. Sie können alle Felder bearbeiten, auf die Sie beim Anzeigen der ursprünglichen Aufgabe oder des ursprünglichen Problems Zugriff haben.
 
-Vor dieser Änderung konnten Informationen auf der Storykarte nur angezeigt, nicht bearbeitet werden.
+Vor dieser Änderung konnten Informationen auf der Story-Karte nur angezeigt, nicht bearbeitet werden.
 
 Weitere Informationen finden Sie in den folgenden Abschnitten:
 
-* Für Kanban Teams: &quot;Anzeigen und Bearbeiten von Informationen über eine Geschichte&quot; in . 
-* Für Scrum-Teams: &quot;Anzeigen und Bearbeiten von Informationen zu einer Meldung&quot;in
+* Für Kanban-Teams: „Anzeigen und Bearbeiten von Informationen zu einer Story“ in . 
+* Für Scrum-Teams: „Anzeigen und Bearbeiten von Informationen zu einer Story“ in
 
 ## Verbesserte Suchrelevanz für mehrere Wörter {#improved-search-relevancy-for-multiple-words}
 
-Wir haben die Art und Weise geändert, wie Suchvorgänge bei der Verwendung mehrerer Suchbegriffe durchgeführt werden. Mit der neuen Aktualisierung sucht die Suche nach mehreren Wörtern nach Elementen, die alle von Ihnen angegebenen Wörter enthalten. Wenn Sie nach einem der Wörter in den Suchbegriffen suchen möchten, müssen Sie zwischen den Suchbegriffen &quot;OR&quot;(ohne Anführungszeichen) einfügen. 
+Wir haben eine Änderung in der Art und Weise eingeführt, wie Suchvorgänge bei der Verwendung mehrerer Keywords durchgeführt werden. Bei der neuen Aktualisierung findet die Suche bei der Suche nach mehreren Wörtern Elemente, die alle angegebenen Wörter enthalten. Wenn Sie nach einem der Wörter in den Keywords suchen möchten, müssen Sie zwischen den Suchbegriffen „OR“ (ohne Anführungszeichen) einfügen. 
 
-Vor dieser Änderung würde die Suche nach mehreren Wörtern auf einmal Elemente finden, die beliebige oder alle Wörter im Satz enthalten. 
+Vor dieser Änderung wurden bei der Suche nach mehreren Wörtern gleichzeitig Elemente gefunden, die eines oder alle Wörter im Satz enthalten. 
 
-Weitere Informationen zur Suche finden Sie unter [Adobe Workfront durchsuchen](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).
+Weitere Informationen zum Suchen finden Sie unter [Adobe Workfront durchsuchen](../../../../workfront-basics/navigate-workfront/search/search-workfront.md).

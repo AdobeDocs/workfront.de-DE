@@ -1,35 +1,36 @@
 ---
-title: Verbesserungen für das erste Quartal 2024 - Startseite
-description: Verbesserungen für das erste Quartal 2024 - Startseite
+title: Home-Verbesserungen für das erste Quartal 2024
+description: Home-Verbesserungen für das erste Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 145dd86575951d837e66e18ceb235dc3694571cc
+exl-id: 30867b75-ec33-486e-acfa-b8bab6ccf23c
+source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
 
 ---
 
-# Verbesserungen für das erste Quartal 2024 - Startseite
+# Home-Verbesserungen für das erste Quartal 2024
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
+Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom ersten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2024 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-## Neues Widget für ausstehende Genehmigungen verfügbar
+## Neues Widget „Ausstehende Genehmigungen“ verfügbar
 
-Damit Sie den Status von Genehmigungen und Überprüfungen von Projekten, die Ihnen gehören, leichter erkennen können, haben wir ein neues Widget &quot;Ausstehende Genehmigungen&quot;zu &quot;Home&quot;hinzugefügt. Hier können Sie eine Liste der Benutzer sehen, die zum Genehmigen oder Überprüfen von Dokumenten über Projekte, deren Eigentümer Sie sind, zugewiesen sind, den Status ihrer Überprüfung oder Genehmigung anzeigen und Prüfer und Genehmiger daran erinnern, ihre Überprüfung oder Genehmigung abzuschließen.
+Um Ihnen die Anzeige des Status von Genehmigungen und Überprüfungen für Projekte, deren Inhaber Sie sind, zu erleichtern, haben wir zur Startseite ein neues Widget Ausstehende Genehmigungen hinzugefügt. Hier sehen Sie eine Liste der Benutzer, denen die Genehmigung oder Prüfung von Dokumenten zu Projekten zugewiesen wurde, deren Inhaber Sie sind. Sie können den Status der Prüfung oder Genehmigung einsehen und Prüfer und genehmigende Personen daran erinnern, die Prüfung oder Genehmigung abzuschließen.
 
 
-## Administratorsteuerelemente für die neue Startseite mit Layoutvorlagen
+## Administratorsteuerelemente für neue Startseite mithilfe von Layout-Vorlagen
 
-Administratoren können jetzt die neue Startseite für Benutzer mithilfe von Layoutvorlagen anpassen. Zu den Anpassungsoptionen gehören die Auswahl obligatorischer Widgets und ihrer Position, die Auswahl eines Hintergrunds und widget-spezifische Optionen zur Auswahl verfügbarer Filter und Gruppen (sowie die Festlegung von Standardeinstellungen).
+Administratoren können jetzt die neue Startseite für Benutzer mithilfe von Layout-Vorlagen anpassen. Zu den Anpassungsoptionen gehören die Auswahl obligatorischer Widgets und ihrer Position, die Auswahl eines Hintergrunds und Widget-spezifische Optionen für die Auswahl verfügbarer Filter und Gruppen (und das Festlegen von Standardwerten).
 
-Beachten Sie, dass die Auswahl der Vorlage für das Layout des Administrators die Anpassung der einzelnen Benutzer außer Kraft setzt. Wenn also Änderungen an einer Layoutvorlage gespeichert werden, wird die neue Startseite für Benutzer dieser Layoutvorlage entsprechend der Layoutvorlage geändert und die vorhandenen Widget-Auswahlen werden an den unteren Rand der Seite verschoben. Widgets, die vom Administrator ausgewählt wurden, können zwar von einem Benutzer neu positioniert werden, aber nicht entfernt werden.
+Beachten Sie, dass die Layoutvorlagenoptionen von Administratoren die Anpassung der einzelnen Benutzer überschreiben. Wenn also Änderungen an einer Layout-Vorlage gespeichert werden, wird die neue Startseite der Benutzer in dieser Layout-Vorlage geändert, sodass sie der Layout-Vorlage entspricht, und ihre vorhandenen Widget-Auswahlen werden an das Ende der Seite verschoben. Vom Administrator ausgewählte Widgets können zwar von einem Benutzer neu positioniert werden, sie können jedoch nicht entfernt werden.
 
-Weitere Informationen finden Sie unter [Anpassen der neuen Startseite mit einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Weitere Informationen finden Sie unter [Neue Startseite mithilfe einer Layout-Vorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
 
-## Die Schnellaktion-Schaltflächen für &quot;Arbeit&quot;wurden geändert, sodass sie nur auf dem Mauszeiger angezeigt werden
+## Die Schnellzugriffs-Schaltflächen für „Meine Arbeit“ wurden so geändert, dass sie nur beim Bewegen der Maus angezeigt werden
 
-Um die Leistung zu verbessern, werden die im Widget Meine Arbeit verfügbaren Schnellaktion-Schaltflächen jetzt nur angezeigt, wenn mit der Maus auf ein Arbeitselement gezeigt wird.
+Um die Leistung zu verbessern, werden die im Widget Meine Arbeit verfügbaren Schnellaktionsschaltflächen jetzt nur angezeigt, wenn mit der Maus auf ein Arbeitselement gezeigt wird.

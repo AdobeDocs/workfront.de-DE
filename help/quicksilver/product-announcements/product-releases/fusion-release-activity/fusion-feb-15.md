@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 15. Februar 2021
-description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 15. Februar 2021
+title: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 15. Februar 2021
+description: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 15. Februar 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -14,32 +14,32 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 15. Februar 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 15. Februar 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 15. Februar 2021 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 15. Februar 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-Diese Version enthielt auch eine oder mehrere Wartungsupdates. Informationen zu den Aktualisierungen der Workfront Fusion 2.0-Wartung finden Sie unter [Workfront-Wartungsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Diese Version enthielt auch ein oder mehrere Wartungs-Updates. Informationen zu Wartungsupdates für Workfront Fusion 2.0 finden Sie unter [Workfront-Wartungsupdates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
-## Teams geben jetzt E-Mail-Benachrichtigungseinstellungen frei
+## Teams teilen jetzt E-Mail-Benachrichtigungseinstellungen
 
-E-Mail-Benachrichtigungen werden jetzt nicht mehr vom Benutzer, sondern vom Team festgelegt. Jetzt können Sie sicherstellen, dass alle Mitglieder des Teams die gleichen Informationen erhalten.
+Wir haben E-Mail-Benachrichtigungen so geändert, dass sie vom Team und nicht vom Benutzer festgelegt werden. Jetzt können Sie sicherstellen, dass jedes Teammitglied dieselben Informationen erhält.
 
 Zuvor haben Benutzer ihre eigenen E-Mail-Benachrichtigungseinstellungen festgelegt.
 
 >[!NOTE]
 >
->Fusion wendet die Einstellungen für Organisationsbenachrichtigungen auf die Teamebene für jedes Team in der Organisation an. Um sicherzustellen, dass Ihre Teams die neue Benachrichtigungsfunktion nutzen, aktualisieren Sie die E-Mail-Benachrichtigungseinstellungen auf Teamebene.
+>Fusion wendet Benachrichtigungseinstellungen der Organisation für jedes Team in der Organisation auf Team-Ebene an. Um sicherzustellen, dass Ihre Teams die neue Benachrichtigungsfunktion nutzen, aktualisieren Sie die E-Mail-Benachrichtigungseinstellungen auf Team-Ebene.
 
 Weitere Informationen finden Sie unter [Adobe Workfront Fusion-Organisationen und -Teams](../../../workfront-fusion/organizations/organizations-and-teams.md).
 
-## Wählen Sie API-Version in Workfront > Benutzerdefiniertes API-Aufrufmodul aus.
+## Wählen Sie API-Version im Modul Workfront > Benutzerdefinierter API-Aufruf aus.
 
-Um Ihre API-Aufrufe anpassbarer zu gestalten, haben wir es Ihnen ermöglicht, die Version der Workfront-API auszuwählen, auf die das Modul Workfront > Benutzerdefinierte API-Aufrufe zugreifen soll. Sie können zwischen Version 11, Version 12 oder der internen Workfront-API wählen.
+Um Ihre API-Aufrufe anpassbarer zu gestalten, können Sie die Version der Workfront-API auswählen, auf die das Modul Workfront > Benutzerdefinierter API-Aufruf zugreifen soll. Sie können aus Version 11, Version 12 oder der internen API von Workfront wählen.
 
-Zuvor war es nicht möglich, die Workfront-API-Version für dieses Modul auszuwählen.
+Zuvor konnten Sie die Workfront-API-Version für dieses Modul nicht auswählen.
 
 Weitere Informationen finden Sie unter [Adobe Workfront-Module](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

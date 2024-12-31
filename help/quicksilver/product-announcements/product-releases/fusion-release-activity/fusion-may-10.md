@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 10. Mai 2021'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 10. Mai 2021 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 10. Mai 2021'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 10. Mai 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 10. Mai 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 10. Mai 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 10. Mai 2021 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 10. Mai 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Wählen Sie die Workfront API-Version im Workfront > Benutzerdefiniertes API-Aufrufmodul aus.
+## Wählen Sie die Workfront-API-Version im Modul Workfront > Benutzerdefinierter API-Aufruf aus
 
-Um den Zugriff auf die Workfront-API flexibler zu gestalten, haben wir es ermöglicht, die Version der Workfront-API auszuwählen, die das Workfront > Benutzerdefinierte API-Aufrufmodul verwenden soll. Auf diese Weise können Sie zuvor verfügbare API-Funktionen verwenden, die für die Anforderungen Ihres Unternehmens möglicherweise noch relevant sind.
+Um den Zugriff auf die Workfront-API flexibler zu gestalten, haben wir die Auswahl der Version der Workfront-API ermöglicht, die das Modul Workfront > Benutzerdefinierter API-Aufruf verwenden soll. Auf diese Weise können Sie zuvor verfügbare API-Funktionen verwenden, die möglicherweise noch für die Anforderungen Ihres Unternehmens relevant sind.
 
 Weitere Informationen finden Sie unter [Adobe Workfront-Module](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

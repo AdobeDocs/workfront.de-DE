@@ -1,6 +1,6 @@
 ---
-title: Verbesserungen des Finanzmanagements im vierten Quartal 2023
-description: Verbesserungen des Finanzmanagements im vierten Quartal 2023
+title: Verbesserungen beim Finanzmanagement für das vierte Quartal 2023
+description: Verbesserungen beim Finanzmanagement für das vierte Quartal 2023
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen des Finanzmanagements im vierten Quartal 2023
+# Verbesserungen beim Finanzmanagement für das vierte Quartal 2023
 
-Auf dieser Seite werden alle Verbesserungen des Finanzmanagements beschrieben, die mit der Version vom vierten Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen des Finanzmanagements beschrieben, die mit der Vorschau-Umgebung im vierten Quartal 2023 vorgenommen wurden. Diese Verbesserungen wurden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Überblick über das vierte Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2023 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-## Datum der tatsächlichen Kosten- und Abrechnungskurse
+## Datum des Wirksamwerdens der Kosten und Abrechnungssätze
 
 >[!NOTE]
 >
->Diese Funktionen wurden am 29. Juni 2023 in der Vorschau-Umgebung veröffentlicht. Ab Version 23.10 wird in der Produktionsumgebung die Angabe der effektiven Kosten- und Abrechnungsraten für Unternehmen, Benutzer und Rollen verfügbar sein. Zusätzliche Funktionen für das Finanzmanagement wie Ratenkarten bleiben in der Vorschau verfügbar und werden zu einem späteren Zeitpunkt für die Produktion freigegeben.
+>Diese Funktionen wurden am 29. Juni 2023 in der Vorschau-Umgebung veröffentlicht. Die ab dem Datum geltenden Kosten- und Abrechnungssätze für Unternehmen, Benutzer und Aufgabengebiete werden mit Version 23.10 in der Produktionsumgebung verfügbar sein. In der Vorschau sind weitere Funktionen des Finanzmanagements wie z. B. Tarifkarten verfügbar, die zu einem späteren Zeitpunkt für die Produktion freigegeben werden.
 
-Auf den Unternehmens-, Benutzer- und Jobrollenobjekten in Workfront sind jetzt datumswirksame Kosten- und Abrechnungskurse verfügbar. Wenn auf ein Projekt Datumswerte angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden die Kosten und Einnahmen anhand der für jeden Zeitraum festgelegten Beträge berechnet.
+Datumswirksame Kosten- und Abrechnungssätze sind jetzt für die Objekte „Unternehmen“, „Benutzer“ und „Aufgabengebiet“ in Workfront verfügbar. Wenn Datumseffektive Sätze auf ein Projekt angewendet werden und Stunden für Projektaufgaben protokolliert werden, werden Kosten und Umsatz anhand der angegebenen Sätze für jeden Zeitraum berechnet.
 
-Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Auftragsrollen erstellen und verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) und [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md), [Aufgabengebiete erstellen und verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md) und [Übersicht über Abrechnung und Umsatz](/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3424915/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3424915/){target=_blank}

@@ -1,6 +1,6 @@
 ---
-title: 21.3 Verbesserungen bei Anforderungen
-description: 21.3 Verbesserungen bei Anforderungen
+title: 21.3 Verbesserungen bei Anfragen
+description: 21.3 Verbesserungen bei Anfragen
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 ---
 
-# 21.3 Verbesserungen bei Anforderungen
+# 21.3 Verbesserungen bei Anfragen
 
-Auf dieser Seite werden alle Anfragen-Verbesserungen beschrieben, die mit Version 21.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 21. Juli 2021 bereitgestellt.
+Auf dieser Seite werden alle mit Version 21.3 vorgenommenen Verbesserungen der Anforderungen an die Vorschauumgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 21. Juli 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 - Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Eine Liste aller mit Version 21.3 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
-## Suchen nach Anforderungen anhand aktueller Pfade oder durch Suchen anhand eines Suchbegriffs
+## Suchen nach Anfragen anhand aktueller Pfade oder durch Suchen mit einem Keyword
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Um Ihnen zu helfen, die richtige Anforderungswarteschlange schneller zu finden, indem Sie auf kürzlich protokollierte Anforderungen verweisen, haben wir folgende Verbesserungen eingeführt, um eine kürzlich verwendete Warteschlange zu finden:
+Damit Sie die richtige Anfragewarteschlange schneller finden können, indem Sie sich auf kürzlich protokollierte Anfragen beziehen, haben wir die folgenden Verbesserungen beim Auffinden einer kürzlich verwendeten Warteschlange eingeführt:
 
-* Eine Liste der letzten Pfade, für die Sie Anforderungen eingegeben haben
-* Die Möglichkeit, nach einem beliebigen Suchbegriff in einem Pfad nach einem Anfragetyp zu suchen.
+* Eine Liste der zuletzt verwendeten Pfade, für die Sie Anforderungen eingegeben haben
+* Die Möglichkeit, nach einem Anfragetyp anhand eines beliebigen in einem Pfad enthaltenen Keywords zu suchen.
 
-Ein Pfad enthält die Anforderungswarteschlange sowie alle Themengruppen und Warteschlangenthemen, die Sie vor dem Senden einer Anforderung ausgewählt haben.
+Ein Pfad enthält die Anfrage-Warteschlange und alle Themengruppen und Warteschlangenthemen, die Sie beim Senden einer Anfrage zuvor ausgewählt haben.
 
-Weitere Informationen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Weitere Informationen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 

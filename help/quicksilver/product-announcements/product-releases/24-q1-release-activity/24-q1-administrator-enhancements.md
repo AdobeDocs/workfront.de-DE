@@ -14,14 +14,14 @@ ht-degree: 0%
 
 # Verbesserungen für Administratoren im ersten Quartal 2024
 
-Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
+Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom ersten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2024 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-## Entscheidungen über die Prüfung/das Dokument stehen nun für die letzten 12 Monate zur Verfügung
+## Korrekturabzugs-/Dokumentenentscheidungen sind jetzt für die letzten 12 Monate verfügbar
 
-Die Berichte Benutzerentscheidungen für neue und ältere Lizenztypen zeigen jetzt die Anzahl der Entscheidungen für den aktuellen Monat sowie die letzten 12 Monate an.
+Die Berichte zu Benutzerentscheidungen für neue und veraltete Lizenztypen zeigen jetzt die Anzahl der Entscheidungen für den aktuellen Monat sowie die vorherigen 12 Monate an.
 
 Zuvor wurden nur die Entscheidungen für den aktuellen Monat angezeigt.
 
-Weitere Informationen finden Sie unter [Anzahl der Testsendungen und Dokumententscheidungen für alle Benutzer anzeigen](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).
+Weitere Informationen finden Sie unter [Anzeigen der Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzer](/help/quicksilver/review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md).

@@ -1,6 +1,6 @@
 ---
-title: Verbesserungen für das zweite Quartal 2024 - Startseite
-description: Verbesserungen für das zweite Quartal 2024 - Startseite
+title: Home-Verbesserungen für das zweite Quartal 2024
+description: Home-Verbesserungen für das zweite Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,18 +12,18 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen für das zweite Quartal 2024 - Startseite
+# Home-Verbesserungen für das zweite Quartal 2024
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom zweiten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom zweiten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom zweiten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des zweiten Quartals 2024 verfügbar sind, finden Sie unter [Übersicht über die Version des zweiten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2024 verfügbar sind, finden Sie unter [Versionsübersicht 2024](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md).
 
-## Zu Administratorsteuerelementen hinzugefügte Spaltenoptionen mit Layoutvorlagen für neues Startseiten
+## Spaltenoptionen zu Administratorsteuerelementen für neue Startseiten mithilfe von Layout-Vorlagen hinzugefügt
 
 >[!NOTE]
 >
->Vorschau-Version: 2. Januar 2024; Produktion für schnelle Veröffentlichung: Mit Version 24.2 (15. Februar 2024); Produktion für alle Kunden: Mit Version 24.4 (11. April 2024)
+>Vorschau-Version: 2. Januar 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.2 (15. Februar 2024); Produktion für alle Kunden: Mit der Version 24.4 (11. April 2024)
 
-Administratoren können jetzt mithilfe von Layoutvorlagen anpassen, welche Spalten für Benutzer in bestimmten neuen Home-Widgets verfügbar sind. Zu den Optionen gehören das Ausblenden oder Anzeigen von Standardspalten und das Hinzufügen vorhandener Felder als neue Spalten.
+Admins können jetzt mithilfe von Layout-Vorlagen anpassen, welche Spalten in bestimmten neuen Startseiten-Widgets für Benutzende verfügbar sind. Zu den Optionen gehören das Ausblenden oder Anzeigen von Standardspalten und das Hinzufügen vorhandener Felder als neue Spalten.
 
-Weitere Informationen finden Sie unter [Anpassen der neuen Startseite mit einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).
+Weitere Informationen finden Sie unter [Neue Startseite mithilfe einer Layout-Vorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md).

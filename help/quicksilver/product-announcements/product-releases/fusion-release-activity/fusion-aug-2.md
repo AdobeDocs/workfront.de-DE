@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 2. August 2021
-description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 2. August 2021
+title: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 2. August 2021
+description: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 2. August 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 2. August 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 2. August 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 2. August 2021 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 2. August 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -47,21 +47,21 @@ Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der
 
 ## Neue Funktionen im Zuordnungsbereich verfügbar
 
-Zwei neue Funktionen sind jetzt im Zuordnungsbereich verfügbar.
+Im Bedienfeld Zuordnung stehen jetzt zwei neue Funktionen zur Verfügung.
 
 * Neue Datums- und Uhrzeitfunktion: dateDifference
 
-  Um die Berechnung der Zeiträume in Ihren Szenarien zu vereinfachen, haben wir die neue Datums- und Uhrzeitfunktion &quot;dateDifference&quot;hinzugefügt. Diese Funktion akzeptiert zwei Daten oder Uhrzeiten sowie eine Zeiteinheit und gibt die Zeit zwischen den Daten oder Uhrzeiten zurück, ausgedrückt in der ausgewählten Zeiteinheit.
+  Um die Berechnung von Zeitspannen in Ihren Szenarien zu vereinfachen, haben wir die neue Datums- und Uhrzeitfunktion „dateDifference“ hinzugefügt. Diese Funktion nimmt zwei Daten oder Uhrzeiten und eine Zeiteinheit und gibt die Zeit zwischen den Daten oder Uhrzeiten zurück, ausgedrückt in der ausgewählten Zeiteinheit.
 
-  Bisher konnte die Differenz zwischen Datum und Uhrzeit nur anhand einer vom Benutzer eingegebenen Formel berechnet werden.
+  Zuvor konnte die Datums- und Zeitdifferenz nur durch eine vom Benutzer eingegebene Formel berechnet werden.
 
   Weitere Informationen finden Sie unter [Datums- und Uhrzeitfunktionen in Adobe Workfront Fusion](../../../workfront-fusion/functions/date-and-time-functions.md).
 
 * Neue Array-Funktion: arrayDifference
 
-  Diese Funktion akzeptiert zwei Arrays und gibt ein neues Array zurück. Sie können den Typ des neuen Arrays auswählen, das das Modul zurückgibt:
+  Diese Funktion akzeptiert zwei Arrays und gibt ein neues Array zurück. Sie können den Typ des neuen Arrays auswählen, den das Modul zurückgibt:
 
    * Ein Array von Elementen eines Arrays, die nicht im anderen enthalten sind
-   * Ein Array von Elementen, die in einem Array oder dem anderen enthalten sind, jedoch nicht in beiden.
+   * Ein Array von Elementen, die in einem Array oder dem anderen enthalten sind, aber nicht in beiden.
 
   Weitere Informationen finden Sie unter [Array-Funktionen in Adobe Workfront Fusion](../../../workfront-fusion/functions/array-functions.md).

@@ -1,28 +1,29 @@
 ---
-title: Integrationsverbesserungen für das vierte Quartal 2024
-description: Integrationsverbesserungen für das vierte Quartal 2024
+title: Verbesserungen bei der Integration im vierten Quartal 2024
+description: Verbesserungen bei der Integration im vierten Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: f5db7d32242ca11bf9e13dcd49b7e93369c03cab
+exl-id: 1559312e-2e51-4075-b9a9-923211abd125
+source-git-commit: c69a855e189863852ab7eaecc5c4f791564cd8f4
 workflow-type: tm+mt
 source-wordcount: '136'
 ht-degree: 0%
 
 ---
 
-# Integrationsverbesserungen für das vierte Quartal 2024
+# Verbesserungen bei der Integration im vierten Quartal 2024
 
-Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit der Version vom 4. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit der Version vom vierten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2024-Veröffentlichungszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
-## Verbesserungen bei der Anmeldung bei Outlook-Integration
+## Verbesserungen bei der Outlook-Integrationsanmeldung
 
 >[!NOTE]
 >
 >Vorschau-Version: 6. August 2024; Produktionsversion: 6. August 2024
 
-Die Anmeldeerfahrung für die Outlook-Integration wurde optimiert, sodass alle Kunden dieselbe Schaltfläche sehen, um sich bei Workfront anzumelden, unabhängig davon, ob sie IMS-fähig sind oder nicht. Die nachfolgenden Anmeldeschritte bleiben für IMS- und Nicht-IMS-Instanzen unterschiedlich, die Anfangsseite ist jedoch für alle Benutzer gleich.
+Die Integration der Anmeldung für Outlook wurde optimiert, sodass alle Kunden dieselbe Schaltfläche für die Anmeldung bei Workfront sehen, unabhängig davon, ob sie IMS-fähig sind oder nicht. Die nachfolgenden Anmeldeschritte unterscheiden sich zwischen IMS- und Nicht-IMS-Instanzen, aber die Anfangsseite ist für alle Benutzer gleich.
 
 Weitere Informationen finden Sie unter [Einrichten von Adobe Workfront für Outlook](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-outlook/set-up-workfront-for-outlook.md).

@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 27. Juni 2022'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 27. Juni 2022 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 27. Juni 2022'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 27. Juni 2022 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,29 +17,29 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 27. Juni 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 27. Juni 2022
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 27. Juni 2022 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 27. Juni 2022 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## FTP-Verbindung und -Module jetzt verfügbar
+## FTP-Verbindung und Module jetzt verfügbar
 
-Jetzt können Sie mit Adobe Workfront Fusion Dateien via FTP übertragen. Mit den FTP-Modulen können Sie:
+Jetzt können Sie Adobe Workfront Fusion verwenden, um Dateien via FTP zu übertragen. Mit den FTP-Modulen können Sie:
 
-* Trigger eines Szenarios beim Einfügen einer Datei in einen Ordner auf dem FTP-Server
+* Trigger : Ein Szenario, in dem eine Datei in einen Ordner auf dem FTP-Server eingefügt wird
 
 * Erstellen von Ordnern auf dem Server
 
-* Hochladen, Löschen oder Abrufen von Dateien
+* Dateien hochladen, löschen oder abrufen
 
 * Auflisten von Dateien in einem bestimmten Ordner
 
 * Dateien oder Ordner verschieben
 
-* Berechtigungen für Ordner ändern
+* Ändern der Berechtigungen für einen Ordner
 
 
 Weitere Informationen finden Sie unter [FTP-Module](../../../workfront-fusion/apps-and-their-modules/ftp-modules.md).

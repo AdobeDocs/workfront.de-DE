@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Beta-Version 2017.3
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4-Version 2017.3 verfügbar waren. Die Funktionalität auf dieser Seite wurde in der Vorschau-Umgebung in der Woche vom 25. September 2017 bereitgestellt. Sie wird Anfang November 2017 in der Produktionsumgebung zur Verfügung gestellt.
+title: Versionsaktivität von Beta 4 2017.3
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde in der Woche vom 25. September 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,171 +14,171 @@ ht-degree: 0%
 
 ---
 
-# Beta-Version 2017.3
+# Versionsaktivität von Beta 4 2017.3
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4-Version 2017.3 verfügbar waren. Die Funktionalität auf dieser Seite wurde in der Vorschau-Umgebung in der Woche vom 25. September 2017 bereitgestellt. Sie wird Anfang November 2017 in der Produktionsumgebung zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2017.3 verfügbar waren. Die Funktion auf dieser Seite wurde in der Woche vom 25. September 2017 in der Vorschau-Umgebung verfügbar gemacht. Sie wird Anfang November 2017 in der Produktionsumgebung bereitgestellt.
 
 >[!IMPORTANT]
 >
-> Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
+> Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller 2017.3 vorgenommenen Änderungen finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
+Eine Liste aller Änderungen in Version 2017.3 finden Sie unter  [Übersicht über die Versionsaktivität 2017.3](../../../../product-announcements/product-releases/quarterly-release-archive/2017.3-release-activity/2017-3-release-activity-overview.md).
 
-Die Version 2017.3 von Beta 4 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Beta 4-Version 2017.3 enthält Verbesserungen für Workfront-Administratoren und andere Benutzende:
 
 **Für Administratoren**
 
-* [Neuer Bereich &quot;Voreinstellungen für die Ressourcenverwaltung&quot;im Setup-Bereich](#new-resource-management-preferences-area-in-the-setup-area)
+* [Neuer Bereich „Voreinstellungen für Ressourcenverwaltung“ im Bereich „Setup“](#new-resource-management-preferences-area-in-the-setup-area)
 
 **Für alle Benutzer**
 
 * [Aufgaben duplizieren](#duplicate-tasks)
-* [Automatisieren von Zuweisungen bei der Planung von Ressourcen](#automate-assignments-when-scheduling-resources)
-* [Ändern von Zuweisungen für mehrere Aufgaben bei der Planung von Ressourcen](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
-* [Wenden Sie die FTE-Verteilung auf den Ressourcenplaner an](#apply-fte-distribution-to-the-resource-planner)
-* [Aufgabenrollenabschnitt für Benutzereinstellungen enthält den Prozentsatz der FTE-Verfügbarkeit](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
-* [Speichern und Verwalten von Filtern im Nutzungsbericht für ein Projekt](#save-and-manage-filters-in-the-utilization-report-on-a-project)
-* [Zusätzliche Filteroptionen im Nutzungsbericht](#additional-filtering-options-in-the-utilization-report)
-* [Anzeigen des Nutzungsberichts nach Programm oder Portfolio](#view-the-utilization-report-by-program-or-portfolio)
-* [Informationen zum ursprünglichen Problem in Projekt- und Aufgabenberichten anzeigen](#show-original-issue-information-in-project-and-task-reports)
-* [Filtern von Systemaktualisierungen im Aktualisierungs-Stream ist jetzt über Objekte hinweg persistent](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
-* [Bericht zu aktiven Testsendungen in Workfront](#report-on-active-proof-stages-within-workfront)
-* [Benutzerdefinierte Workfront Proof-Berechtigungsprofile Benutzern in Workfront zuweisen](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
-* [Stündliche Ressource zu Ereignisabonnements hinzugefügt](#hour-resource-added-to-event-subscriptions)
+* [Automatisieren von Zuweisungen beim Planen von Ressourcen](#automate-assignments-when-scheduling-resources)
+* [Ändern von Zuweisungen für mehrere Aufgaben beim Planen von Ressourcen](#modify-assignments-for-multiple-tasks-when-scheduling-resources)
+* [FTE-Verteilung auf den Ressourcenplaner anwenden](#apply-fte-distribution-to-the-resource-planner)
+* [Abschnitt „Aufgabengebiet“ für Benutzereinstellungen enthält Prozentsatz der FTE-Verfügbarkeit](#job-role-section-for-user-settings-includes-percentage-of-fte-availability)
+* [Speichern und Verwalten von Filtern im Auslastungsbericht für ein Projekt](#save-and-manage-filters-in-the-utilization-report-on-a-project)
+* [Zusätzliche Filteroptionen im Auslastungsbericht](#additional-filtering-options-in-the-utilization-report)
+* [Anzeigen des Auslastungsberichts nach Programm oder Portfolio ](#view-the-utilization-report-by-program-or-portfolio)
+* [Ursprüngliche Anfrageinformationen in Projekt- und Aufgabenberichten anzeigen](#show-original-issue-information-in-project-and-task-reports)
+* [Filtersystemaktualisierungen im Aktualisierungsstrom sind jetzt objektübergreifend persistent](#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects)
+* [Berichte zu aktiven Korrekturabzugsschritten in Workfront](#report-on-active-proof-stages-within-workfront)
+* [Zuweisen benutzerdefinierter Workfront Proof-Berechtigungsprofile zu Benutzenden in Workfront](#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront)
+* [Stundenressource wurde zu Ereignisabonnements hinzugefügt](#hour-resource-added-to-event-subscriptions)
 
 ## Aufgaben duplizieren {#duplicate-tasks}
 
-Sie können jetzt eine Aufgabe oder eine Reihe von Aufgaben in einem Projekt schnell duplizieren. Diese Aktion erstellt eine identische Aufgabe wie die ursprüngliche. Während des Duplizierungsvorgangs gibt es keine zusätzlichen Optionen, mit denen Sie Änderungen an der neu erstellten Aufgabe vornehmen können.  
+Sie können jetzt eine Aufgabe oder eine Reihe von Aufgaben innerhalb eines Projekts schnell duplizieren. Diese Aktion erstellt eine Aufgabe, die mit der ursprünglichen Aufgabe identisch ist. Während des Duplizierungsprozesses gibt es keine zusätzlichen Optionen, mit denen Sie Änderungen an der neu erstellten Aufgabe vornehmen können.  
 
-Vor dieser Änderung können Sie eine Aufgabe in ein neues Projekt oder das vorhandene Projekt kopieren und Informationen beim Kopieren ändern.
+Vor dieser Änderung konnten Sie eine Aufgabe entweder in ein neues Projekt oder in das vorhandene Projekt kopieren und einige Informationen ändern, während Sie sie kopiert haben.
 
-Für  Weitere Informationen zum Duplizieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+für  Weitere Informationen zum Duplizieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-## Automatisieren von Zuweisungen bei der Planung von Ressourcen {#automate-assignments-when-scheduling-resources}
-
->[!NOTE]
->
->Die Tools für die Ressourcenplanung wurden mit Version 23.1 eingestellt und aus Workfront entfernt. Weitere Informationen zum Planen von Ressourcen mit dem Lastenausgleich finden Sie unter [Übersicht über den Lastenausgleich](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
-
-Sie können jetzt zulassen, dass Workfront automatisch Zuweisungen für nicht zugewiesene Aufgaben und Probleme vorschlägt, wenn Ressourcen für mehrere Projekte geplant werden (auf der Registerkarte Planung ) oder wenn Ressourcen für ein einzelnes Projekt geplant werden (auf der Registerkarte Strukturierung ).
-
-Workfront analysiert aktuelle Arbeitsaufgaben für alle Benutzer und schlägt intelligente, logische Zuweisungen für Aufgaben oder Probleme vor, die noch nicht zugewiesen sind. Sie können alle vorgeschlagenen oder vorhandenen Zuweisungen ändern, bevor Sie die Zuweisungen abschließen.
-
-Weitere Informationen finden Sie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
-
-## Ändern von Zuweisungen für mehrere Aufgaben bei der Planung von Ressourcen {#modify-assignments-for-multiple-tasks-when-scheduling-resources}
-
-Beim Zuweisen, Austauschen oder Aufheben der Zuweisung von Benutzern in großen Mengen beim Planen von Ressourcen (entweder auf der Registerkarte Planung oder auf der Registerkarte Strukturierung ) können Sie jetzt Zuweisungen für bestimmte Aufgaben ändern, die Sie in einem oder mehreren Projekten (einschließlich aller Unteraufgaben und zugehörigen Probleme) festlegen.
-
-Vor dieser Änderung konnten Sie Zuweisungen zu Aufgaben und Problemen nur in ganzen Projekten ändern (Sie konnten innerhalb eines Projekts keine bestimmten Aufgaben bestimmen).
-
-Weitere Informationen finden Sie unter &quot;Nicht zugewiesene Aufgaben und Probleme manuell in den Planungsbereichen zuweisen&quot;.
-
-## Anwenden der FTE-Verteilung auf den Ressourcenplaner {#apply-fte-distribution-to-the-resource-planner}
+## Zuweisungen beim Planen von Ressourcen automatisieren {#automate-assignments-when-scheduling-resources}
 
 >[!NOTE]
 >
->Diese Funktion ist derzeit nicht in der Vorschau für alle Cluster verfügbar.
+>Die Tools zur Ressourcenplanung werden nicht mehr unterstützt und mit Version 23.1 aus Workfront entfernt. Informationen zur Planung von Ressourcen mit dem Workload Balancer finden Sie unter [Übersicht über den Workload Balancer](../../../../resource-mgmt/workload-balancer/overview-workload-balancer.md).
 
-Sie können jetzt die korrekte Anzahl der verfügbaren Stunden für jede Benutzerrolle basierend auf dem Prozentsatz der FTE-Verfügbarkeit für jede Rolle anzeigen, wenn Benutzer mehr als eine Rolle haben.
+Sie können jetzt Workfront erlauben, automatisch Arbeitsaufträge für nicht zugewiesene Aufgaben und Probleme vorzuschlagen, wenn Ressourcen für mehrere Projekte geplant werden (über die Registerkarte Planung ) oder wenn Ressourcen für ein einzelnes Projekt geplant werden (über die Registerkarte Personal ).
 
-Wenn beispielsweise der Zeitplan eines Benutzers angibt, dass er 100 Stunden in einem Monat arbeiten kann und der Prozentsatz der FTE-Verfügbarkeit für die Primäre Rolle 75 % beträgt und der Prozentsatz der FTE-Verfügbarkeit seiner anderen Rolle 25 % beträgt, wird der Benutzer im Ressourcenplaner unter der Primären Rolle 75 Stunden und unter seiner anderen Rolle 25 Stunden aufgeführt. einnehmen.
+Workfront analysiert aktuelle Arbeitszuweisungen Ihrer verfügbaren Anwender und schlägt intelligente, logische Zuweisungen für alle Aufgaben oder Probleme vor, die noch nicht zugewiesen sind. Sie können alle vorgeschlagenen oder vorhandenen Zuweisungen ändern, bevor Sie die Zuweisungen abschließen.
 
-Vor dieser Änderung wurde der Benutzername, der nur für die Primäre Rolle im Ressourcenplaner angezeigt wurde, und die vollständige Verfügbarkeit des Benutzers basierend auf seinem Zeitplan (100 Stunden) nur mit der Primären Rolle verknüpft. Die &quot;Andere Rolle&quot;des Benutzers wird nur dann im Ressourcenplaner angezeigt, wenn dem Benutzer eine Aufgabe mit dieser Rolle zugewiesen wurde und die &quot;Verfügbare Stunden&quot;für den Benutzer in der &quot;Andere Rolle&quot;null waren.
+Weitere Informationen finden Sie unter „Manuelles Zuweisen nicht zugewiesener Aufgaben und Probleme in den Zeitplanbereichen“.
 
-Weitere Informationen dazu, wie Verfügbare Stunden und verfügbare FTEs für Benutzer und Rollen im Resource Planer berechnet werden, finden Sie unter [Übersicht über die Berechnung von Stunden und FTE für Benutzer und Rollen im Resource Planer](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
+## Ändern von Zuweisungen für mehrere Aufgaben beim Planen von Ressourcen {#modify-assignments-for-multiple-tasks-when-scheduling-resources}
 
-## Aufgabenbereich für Benutzereinstellungen enthält den Prozentsatz der FTE-Verfügbarkeit {#job-role-section-for-user-settings-includes-percentage-of-fte-availability}
+Beim Massenzuweisen, Austauschen oder Aufheben der Zuweisung von Benutzern bei der Ressourcenplanung (entweder über die Registerkarte Planung oder die Registerkarte Personal) können Sie jetzt Zuordnungen für bestimmte Aufgaben ändern, die Sie in einem oder mehreren Projekten festlegen (einschließlich aller Unteraufgaben und zugehörigen Probleme).
+
+Vor dieser Änderung konnten Sie Zuweisungen zu Aufgaben und Problemen nur projektübergreifend ändern (Sie konnten keine spezifischen Aufgaben innerhalb eines Projekts festlegen).
+
+Weitere Informationen finden Sie unter „Manuelles Zuweisen nicht zugewiesener Aufgaben und Probleme in den Zeitplanbereichen“.
+
+## FTE-Verteilung auf Ressourcenplaner anwenden {#apply-fte-distribution-to-the-resource-planner}
 
 >[!NOTE]
 >
 >Diese Funktion ist derzeit nicht in der Vorschau für alle Cluster verfügbar.
 
-Bei der Aktualisierung eines Benutzerprofils können Sie nun einem Benutzer zusätzliche Vorgangsrollen hinzufügen und den Prozentsatz der FTE definieren, der jeder Auftragsrolle zugewiesen ist.
+Sie können jetzt für jede Rolle des Benutzers die richtige Anzahl verfügbarer Stunden basierend auf dem Prozentsatz der FTE-Verfügbarkeit für jede Rolle anzeigen, wenn Benutzer mehr als eine Rolle haben.
 
-Vor dieser Änderung konnten Sie keiner der Auftragsrollen, mit denen der Benutzer verknüpft war, eine bestimmte FTE zuweisen.
+Wenn beispielsweise der Zeitplan eines Benutzers angibt, dass er in einem Monat 100 Stunden arbeiten kann und sein Prozentsatz der FTE-Verfügbarkeit für die Primäre Rolle 75 % und der Prozentsatz der FTE-Verfügbarkeit für die andere Rolle 25 % beträgt, listet der Ressourcenplaner den Benutzer mit 75 verfügbaren Stunden für die Primäre Rolle und mit 25 verfügbaren Stunden für die andere Rolle auf.
 
-Weitere Informationen zum Aktualisieren des Prozentsatzes der FTE-Verfügbarkeit für die Benutzerrollen finden Sie unter [Profil eines Benutzers bearbeiten](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) oder [Meine Einstellungen konfigurieren](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Vor dieser Änderung wurde der Name des/r Benutzenden, der/die nur für die Primäre Rolle im Ressourcenplaner angezeigt wurde, und die vollständige Verfügbarkeit des/r Benutzenden auf der Grundlage des Zeitplans (100 Stunden) nur mit der Primären Rolle verknüpft. Die Funktion „Sonstige“ des Benutzers wird nur dann im Ressourcenplaner angezeigt, wenn der Benutzer einer Aufgabe in dieser Funktion zugewiesen wurde und die verfügbaren Stunden für den Benutzer in der Funktion „Andere“ gleich null waren.
 
-## Neuer Bereich &quot;Voreinstellungen für die Ressourcenverwaltung&quot;im Setup-Bereich {#new-resource-management-preferences-area-in-the-setup-area}
+Weitere Informationen dazu, wie verfügbare Stunden und verfügbare VZÄ für Benutzer und Funktionen im Ressourcenplaner berechnet werden, finden Sie unter [Übersicht über die Berechnung von Stunden und VZÄ für Benutzer und Funktionen im Ressourcenplaner](../../../../resource-mgmt/resource-planning/calculate-hours-fte-for-users-roles-resource-planner.md).
 
-Sie können jetzt einen neuen Bereich unter Einrichtung finden, der &quot;Ressourcenverwaltung&quot;heißt. In diesem Bereich haben wir eine Einstellung eingeführt, mit der Sie angeben können, wie die Benutzerverfügbarkeit im Ressourcenplaner berechnet werden soll. Sie können sie mit den folgenden Methoden berechnen:
+## Aufgabengebiet für Benutzereinstellungen Enthält Prozentsatz der FTE-Verfügbarkeit {#job-role-section-for-user-settings-includes-percentage-of-fte-availability}
 
-* Manuell: Der Standardzeitplan des Systems zusätzlich zur individuellen FTE des Benutzers wird verwendet, um die Stundenverfügbarkeit des Benutzers im Ressourcenplaner zu bestimmen. Der Zeitplan des Benutzers wird ignoriert.
-* Automatisch: Der Zeitplan des Benutzers wird verwendet, um die Stundenverfügbarkeit des Benutzers im Ressourcenplaner zu bestimmen. Die FTE-Verfügbarkeit wird auf der Basis des Benutzerzeitplans und des Standardzeitplans berechnet. Der Wert der FTE des Benutzers wird ignoriert. 
+>[!NOTE]
+>
+>Diese Funktion ist derzeit nicht in der Vorschau für alle Cluster verfügbar.
 
-Weitere Informationen zum Konfigurieren der Voreinstellungen für die Ressourcenverwaltung für Ihr System finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+Beim Aktualisieren eines Benutzerprofils können Sie jetzt einem Benutzer zusätzliche Aufgabengebiete hinzufügen und den Prozentsatz des VZÄ definieren, der jedem Aufgabengebiet zugewiesen ist.
 
-## Filter im Nutzungsbericht für ein Projekt speichern und verwalten {#save-and-manage-filters-in-the-utilization-report-on-a-project}
+Vor dieser Änderung konnten Sie keinem der Aufgabengebiete, mit denen der Benutzer verknüpft war, eine bestimmte FTE-Menge zuweisen.
 
-Jetzt können Sie Filter speichern, die Sie im Bericht &quot;Nutzung&quot;erstellen. Darüber hinaus können Sie einen gespeicherten Filter umbenennen, einen gespeicherten Filter duplizieren, einen gespeicherten Filter löschen oder einen gespeicherten Filter ändern.
+Weitere Informationen zum Aktualisieren des Prozentsatzes der VZÄ-Verfügbarkeit für die Aufgabengebiete der Benutzenden finden Sie unter [Bearbeiten des Benutzerprofils](../../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) oder [Konfigurieren meiner Einstellungen](../../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 
-Zuvor mussten Sie jedes Mal, wenn Sie den Bericht &quot;Nutzung&quot;gefiltert haben, einzelne Filteroptionen angeben.
+## Neuer Bereich „Voreinstellungen für Ressourcenverwaltung“ im Bereich „Setup“ {#new-resource-management-preferences-area-in-the-setup-area}
 
-Weitere Informationen zum Speichern und Verwalten von Filtern im Bericht &quot;Nutzung&quot;finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Im Setup finden Sie jetzt einen neuen Bereich namens Ressourcenverwaltung. In diesem Bereich haben wir eine Einstellung eingeführt, mit der Sie angeben können, wie die Benutzerverfügbarkeit im Ressourcenplaner berechnet werden soll. Sie können ihn mithilfe der folgenden Methoden berechnen:
 
-## Zusätzliche Filteroptionen im Nutzungsbericht {#additional-filtering-options-in-the-utilization-report}
+* Manuell: Der Standardzeitplan des Systems wird zusätzlich zum individuellen FTE des Benutzers verwendet, um die Stundenverfügbarkeit des Benutzers im Ressourcenplaner zu bestimmen. Der Zeitplan des Benutzers wird ignoriert.
+* Automatisch: Der Zeitplan des Benutzers wird verwendet, um die Stundenverfügbarkeit des Benutzers im Ressourcenplaner zu bestimmen. Die FTE-Verfügbarkeit wird anhand des Zeitplans des Benutzers und des Standardzeitplans berechnet. Der Wert des Vollzeitäquivalents (FTE) des Benutzers wird ignoriert. 
 
-Beim Ausführen des Nutzungsprogramms-Berichts stehen jetzt beim Erstellen des Filters neue Filterfelder für Portfolios, Programme und Projekte zur Verfügung, zusätzlich zu den zuvor verfügbaren Feldern Aufgaben, Probleme und Rollen .
+Weitere Informationen zum Konfigurieren der Ressourcenverwaltungseinstellungen für das System finden Sie unter [Ressourcenverwaltungseinstellungen konfigurieren](../../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
+
+## Speichern und Verwalten von Filtern im Nutzungsbericht für ein Projekt {#save-and-manage-filters-in-the-utilization-report-on-a-project}
+
+Jetzt können Sie Filter speichern, die Sie im Auslastungsbericht erstellen. Darüber hinaus können Sie einen gespeicherten Filter umbenennen, einen gespeicherten Filter duplizieren, einen gespeicherten Filter löschen oder einen gespeicherten Filter ändern.
+
+Zuvor mussten Sie jedes Mal, wenn Sie den Auslastungsbericht filterten, einzelne Filteroptionen angeben.
+
+Weitere Informationen zum Speichern und Verwalten von Filtern im Auslastungsbericht finden Sie unter [Übersicht über den ](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Übersicht über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+
+## Zusätzliche Filteroptionen im Auslastungsbericht {#additional-filtering-options-in-the-utilization-report}
+
+Beim Ausführen des Auslastungsberichts sind jetzt beim Erstellen des Filters neue Filterfelder für Portfolios, Programme und Projekte verfügbar, zusätzlich zu den zuvor verfügbaren Feldern „Aufgaben“, „Probleme“ und „Rollen“.
 
 Vor dieser Änderung konnten Sie nur durch Hinzufügen einer neuen Filterregel nach Portfolio, Programm und Projekt filtern.
 
-Weitere Informationen finden Sie unter [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) in [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
+Weitere Informationen finden Sie [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md) unter [Übersicht über den Ressourcenauslastungsbericht](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md).
 
-## Anzeigen des Nutzungsberichts nach Programm oder Portfolio {#view-the-utilization-report-by-program-or-portfolio}
+## Auslastungsbericht nach Programm oder Portfolio anzeigen {#view-the-utilization-report-by-program-or-portfolio}
 
-Sie können jetzt einen Nutzungsbericht nach Programm oder Portfolio anzeigen. Auf diese Weise können Sie Informationen aus mehreren Projekten in einem einzigen Nutzungsbericht anzeigen.
+Sie können jetzt einen Auslastungsbericht nach Programm oder Portfolio anzeigen. Auf diese Weise können Sie Informationen aus mehreren Projekten in einem einzigen Auslastungsbericht anzeigen.
 
-Um diese Änderung zu erleichtern, ist die Registerkarte &quot;Nutzung&quot;jetzt sowohl im Bereich &quot;Berichterstellung&quot;in Workfront als auch in einem einzelnen Projekt verfügbar.
+Um diese Änderung zu erleichtern, ist die Registerkarte Nutzung jetzt sowohl im Bereich Reporting in Workfront als auch in einem einzelnen Projekt verfügbar.
 
-Vor dieser Änderung konnte nur innerhalb eines Projekts auf Nutzungsberichte zugegriffen werden.
+Vor dieser Änderung konnten Nutzungsberichte nur innerhalb eines Projekts aufgerufen werden.
 
-Weitere Informationen finden Sie unter  [Überblick über den Bericht &quot;Ressourcenauslastung&quot;](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
+Weitere Informationen finden Sie unter  [Überblick über den Bericht zur Ressourcenauslastung](../../../../reports-and-dashboards/reports/using-built-in-reports/resource-utilization-report.md). 
 
-## Informationen zum ursprünglichen Problem in Projekt- und Aufgabenberichten anzeigen {#show-original-issue-information-in-project-and-task-reports}
+## Ursprüngliche Anfrageinformationen in Projekt- und Aufgabenberichten anzeigen {#show-original-issue-information-in-project-and-task-reports}
 
 >[!NOTE]
 >
 >Diese Funktion ist derzeit nicht in der Vorschau für alle Cluster verfügbar.
 
-Sie finden jetzt die folgenden Informationen zum ursprünglichen Problem in einem Projekt- oder Aufgabenbericht für die Projekte und Aufgaben, die durch Konvertieren eines Problems erstellt wurden:
+Die folgenden Informationen zur ursprünglichen Anfrage finden Sie jetzt in einem Projekt- oder Aufgabenbericht für die Projekte und Aufgaben, die durch die Konvertierung einer Anfrage erstellt wurden:
 
-* Ursprüngliches Ausgabedatum
-* Ursprünglicher Name des Problems
-* Ursprüngliche Ausgabe - Urheber-ID
+* Ursprüngliches Problem-Eingabedatum
+* Name der ursprünglichen Anfrage
+* Ursprüngliche Anfrage-Urheber-ID
 
 Diese Informationen können in einem Aufgaben- oder Projektbericht oder einer Liste angezeigt werden, indem eine benutzerdefinierte Ansicht im Textmodus erstellt wird.
 
 Vor dieser Änderung konnten Sie keine Berichte zu diesen Informationen erstellen.
 
-Weitere Informationen zum Erstellen der benutzerdefinierten Textmodusansicht, in der die Informationen aus dem ursprünglichen Problem erfasst werden, finden Sie unter [Ansicht: Informationen zu ursprünglichen Problemen in Aufgaben- oder Projektlisten anzeigen](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
+Weitere Informationen zum Erstellen der benutzerdefinierten Textmodusansicht, in der die Informationen des ursprünglichen Problems erfasst werden, finden Sie unter [Ansicht: ursprüngliche Probleminformationen in Aufgaben- oder Projektlisten anzeigen](../../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-display-original-issue-info-task-project-list.md).
 
-## Filtern von Systemaktualisierungen im Aktualisierungs-Stream ist jetzt über Objekte hinweg persistent {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
+## Filtersystemaktualisierungen im Aktualisierungsstrom sind jetzt objektübergreifend persistent {#filter-system-updates-in-the-update-stream-is-now-persistent-across-objects}
 
 >[!NOTE]
 >
->Diese Funktion wurde in der Vorschauumgebung mit Beta 4 nicht veröffentlicht. Sie wird in der ersten Oktober-Jahreshälfte in der Vorschau verfügbar sein.
+>Diese Funktion wurde nicht in der Vorschau-Umgebung mit Beta 4 veröffentlicht. Es wird in der ersten Oktoberhälfte in der Vorschau verfügbar sein.
 
-Die Option &quot;Systemaktualisierungen filtern&quot;ist jetzt auf der gesamten Workfront-Site über Objekte hinweg persistent. Auf diese Weise können Sie Systemaktualisierungen ausblenden und nur Benutzerkommentare im Update-Stream eines Objekts anzeigen. Diese Einstellung bleibt erhalten, wenn Sie zu anderen Objekten navigieren.
+Die Option Systemaktualisierungen filtern ist jetzt objektübergreifend auf der gesamten Workfront-Site persistent. Auf diese Weise können Sie Systemaktualisierungen ausblenden und nur Benutzerkommentare im Aktualisierungsverlauf für ein Objekt anzeigen. Diese Einstellung bleibt erhalten, wenn Sie zu anderen Objekten navigieren.
 
-Vor dieser Änderung mussten Sie bei der Navigation auf der Workfront-Site Systemaktualisierungen für jedes Objekt herausfiltern.
+Vor dieser Änderung mussten Sie beim Durchsuchen der Workfront-Site für jedes Objekt Systemaktualisierungen herausfiltern.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-## Bericht zu aktiven Testsendungen in Workfront {#report-on-active-proof-stages-within-workfront}
+## Berichte zu aktiven Korrekturabzugsschritten in Workfront {#report-on-active-proof-stages-within-workfront}
 
-Beim Erstellen eines Berichts &quot;Dokumentversion&quot;in Workfront gibt es jetzt eine Spalte namens &quot;Aktive Testsendungen&quot;. In dieser Spalte können Sie die Testversand-Phase einsehen, die derzeit für jede Dokumentversion des Berichts aktiv ist. Der Name der Bühne wird in der Spalte &quot;Aktive Testsendungen&quot;angezeigt. Wenn in der Dokumentversion derzeit keine Bühne aktiv ist, ist die Spalte leer.
+Beim Erstellen eines Dokumentversionsberichts in Workfront gibt es jetzt eine Spalte mit der Bezeichnung „Aktive Korrekturabzugsschritte“. In dieser Spalte können Sie die Phase des Korrekturabzugs anzeigen, die derzeit für jede Dokumentversion im Bericht aktiv ist. Der Name des Schritts wird in der Spalte „Aktive Korrekturabzugsschritte“ angezeigt. Wenn derzeit kein Schritt in der Dokumentversion aktiv ist, ist die Spalte leer.
 
-Weitere Informationen zu verfügbaren Feldern in Ansichten und Berichten finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Weitere Informationen zu den verfügbaren Feldern in Ansichten und Berichten finden Sie im [Glossar der Adobe Workfront-Terminologie](../../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-## Benutzerdefinierte Workfront Proof-Berechtigungsprofile Benutzern in Workfront zuweisen {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
+## Zuweisen benutzerdefinierter Workfront Proof-Berechtigungsprofile zu Benutzenden in Workfront {#assign-custom-workfront-proof-permission-profiles-to-users-within-workfront}
 
-Wenn Sie jetzt Testversandfunktionen für einen Benutzer in Workfront aktivieren, können Sie ein benutzerdefiniertes Workfront Proof-Berechtigungsprofil zuweisen. 
+Beim Aktivieren der Proofing-Funktionen für Benutzende in Workfront können Sie jetzt ein benutzerdefiniertes Workfront Proof-Berechtigungsprofil zuweisen. 
 
 Vor dieser Änderung waren nur die folgenden Berechtigungsprofile verfügbar: Supervisor, Manager, Administrator.
 
-## Stündliche Ressource zu Ereignisabonnements hinzugefügt {#hour-resource-added-to-event-subscriptions}
+## Stundenressource wurde zu Ereignisabonnements hinzugefügt {#hour-resource-added-to-event-subscriptions}
 
-Mit der neuen Ressource Stunde können Sie jetzt ein Ereignisabonnement erstellen, um Ihre Abrechnungsanwendung mit Workfront synchronisieren zu können.
+Mit der neuen Stundenressource können Sie jetzt ein Ereignisabonnement erstellen, um Ihre Abrechnungsanwendung mit Workfront synchronisiert zu halten.
 
-Weitere Informationen zu Ereignisanmeldungen finden Sie unter [Ereignis-Abonnement-API](../../../../wf-api/general/event-subs-api.md).
+Weitere Informationen zu Ereignisabonnements finden Sie unter [Ereignisabonnement-API](../../../../wf-api/general/event-subs-api.md).

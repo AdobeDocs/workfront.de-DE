@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Verbesserungen für Administratoren im dritten Quartal 2024
 
-Auf dieser Seite werden alle Administratorverbesserungen beschrieben, die mit der Version vom 3. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht des dritten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [ zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
 ## Geschäftsregeln sind jetzt verfügbar
 
@@ -24,9 +24,9 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des drit
 >
 >Vorschau-Version: 4. Juli 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024).
 
-Administratoren können nun im Einrichtungsbereich von Workfront Geschäftsregeln hinzufügen.
+Administratoren können jetzt im Bereich „Setup“ von Workfront Geschäftsregeln hinzufügen.
 
-Mit einer Geschäftsregel können Sie eine Validierung auf Workfront-Objekte anwenden und verhindern, dass Benutzer ein Objekt erstellen, bearbeiten oder löschen, wenn bestimmte Bedingungen erfüllt sind. Die Regeln werden mit einer Formel erstellt, die der berechneten Feldern in benutzerdefinierten Formularen ähnelt.
+Mit einer Geschäftsregel können Sie Validierungen auf Workfront-Objekte anwenden und Benutzer daran hindern, ein Objekt zu erstellen, zu bearbeiten oder zu löschen, wenn bestimmte Bedingungen erfüllt sind. Die Regeln werden mithilfe einer Formel erstellt, die den berechneten Feldern in benutzerdefinierten Formularen ähnelt.
 
 Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
 
@@ -34,71 +34,71 @@ Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsr
 >
 >Geschäftsregeln sind nur für Organisationen mit dem neuen Ultimate-Plan verfügbar.
 
-## Benutzerdefinierter Formularentwickler, der allgemein in Adobe Workfront verfügbar ist
+## Benutzerdefinierter Formular-Designer allgemein verfügbar in Adobe Workfront
 
 >[!NOTE]
 >
 >Vorschau-Version: 19. Juni 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024).
 
-Der benutzerdefinierte Formularentwickler wurde im April 2023 (Version 23.2) zur Beta-Version freigegeben. Seitdem wurden weitere Funktionen hinzugefügt, z. B. externe Suchfelder und native Workfront-Felder. Im Jahr 2024 hat der Formularentwickler die funktionale Parität mit dem alten Formular-Builder erreicht.
+Der Designer für benutzerdefinierte Formulare wurde im April 2023 (Version 23.2) in die Beta-Version veröffentlicht und hat seitdem weitere Funktionen hinzugefügt, wie externe Suchfelder und native Workfront-Felder. Im Jahr 2024 hat der Formular-Designer funktionale Parität mit dem alten Formular-Builder erreicht.
 
-Mit Version 24.7 ist der Formularentwickler allgemein verfügbar und wird zum Standarderlebnis beim Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Wenn Sie ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular öffnen, wird der Arbeitsbereich im Arbeitsbereich des Formulardesigners angezeigt.
+Ab Version 24.7 ist der Formular-Designer allgemein verfügbar und wird zum Standarderlebnis für das Erstellen und Bearbeiten benutzerdefinierter Formulare in Adobe Workfront. Wenn Sie ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular öffnen, wird der Arbeitsbereich im Arbeitsbereich-Stil des Formular-Designers angezeigt.
 
-Nach dieser Version haben Sie nicht mehr die Möglichkeit, zum alten Formular-Builder zurückzukehren.
+Nach dieser Version haben Sie keine Möglichkeit mehr, zum alten Formular-Builder zurückzukehren.
 
-Weitere Informationen zum Formularentwickler und eine Videodemonstration finden Sie in der Beta-Version von [Formularentwickler](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
+Weitere Informationen zum Formular-Designer und eine Videodemonstration finden Sie unter [Versionshinweise zu Form Designer Beta](/help/quicksilver/product-announcements/product-releases/23.2-release-activity/23-2-admin-enhancements.md).
 
-## Verschieben von Objekten zwischen Workfront-Umgebungen mit Umgebungsförderung
+## Verschieben von Objekten zwischen Workfront-Umgebungen mit Umgebungs-Promotion
 
 >[!NOTE]
 >
->Mit Version 24.6 (13. Juni 2024) wird die Umgebungsförderung in Sandbox-, Vorschau- und Produktionsumgebungen verfügbar sein.
+>Die Umgebungs-Promotion ist mit Version 24.6 (13. Juni 2024) in Sandbox-, Vorschau- und Produktionsumgebungen verfügbar.
 
-Mit der Umgebungsförderung können Sie Objekte von einer Workfront-Umgebung in eine andere verschieben, z. B. von einer Sandbox-Umgebung in eine Produktionsumgebung. Sie können Objekte so konfigurieren und testen, dass die Daten und Datensätze Ihrer Organisation nicht gefährdet werden. Sie können diese Objekte dann in die Produktion verschieben, ohne sie neu konfigurieren zu müssen, was Zeit und Mühe spart.
+Umgebungs-Promotion ermöglicht es Ihnen, Objekte von einer Workfront-Umgebung in eine andere zu verschieben, z. B. von einer Sandbox-Umgebung in eine Produktionsumgebung. Sie können Objekte ohne Risiko für die Daten und Datensätze Ihres Unternehmens konfigurieren und testen. Sie können diese Objekte dann in die Produktion verschieben, ohne sie neu konfigurieren zu müssen, was Zeit und Aufwand spart.
 
-Zuvor mussten Objekte in Produktionsumgebungen separat von Sandbox- oder Vorschauumgebungen konfiguriert werden.
+Zuvor mussten Objekte in Produktionsumgebungen getrennt von Sandbox- oder Vorschau-Umgebungen konfiguriert werden.
 
-Weitere Informationen zur Umgebungsförderung finden Sie unter [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungsförderung)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+Weitere Informationen zur Umgebungs-Promotion finden Sie unter [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
 >[!IMPORTANT]
 >
->Die Förderung der Umwelt steht nur Organisationen zur Verfügung, die die neuen Pläne von Prime oder Ultimate verfolgen.
+>Die Umgebungsförderung ist nur für Organisationen verfügbar, die über die neuen Prime- oder Ultimate-Pläne verfügen.
 >
 
-## Benutzerdefinierte Formulare und benutzerdefinierte Felder im benutzerdefinierten Formularentwickler freigeben
+## Freigeben benutzerdefinierter Formulare und Felder im Designer für benutzerdefinierte Formulare
 
 >[!NOTE]
 >
 >Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: 13. Juni
 
-Sie können jetzt sowohl benutzerdefinierte Formulare als auch benutzerdefinierte Felder im neuen Formularentwickler freigeben. Dies ermöglicht eine bessere Zusammenarbeit zwischen Benutzern bei benutzerdefinierten Formularen.
+Sie können jetzt sowohl benutzerdefinierte Formulare als auch benutzerdefinierte Felder im neuen Formular-Designer freigeben. Dies ermöglicht eine bessere Zusammenarbeit zwischen Benutzern in benutzerdefinierten Formularen.
 
-Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) und [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets für den Formularentwickler](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
+Weitere Informationen finden Sie unter [Freigeben eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md) und [Freigeben für benutzerdefinierte Felder und Widgets konfigurieren mit dem Formular-Designer](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md).
 
-## Neues benutzerdefiniertes Feld aus dem Bereich &quot;Felder&quot;hinzufügen
+## Hinzufügen eines neuen benutzerdefinierten Felds aus dem Bereich Felder
 
 >[!NOTE]
 >
 >Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024)
 
-Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zum Erstellen des Felds zu öffnen. Auf diese Weise können Sie schnell wiederverwendbare benutzerdefinierte Felder erstellen.
+Sie können jetzt ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zu öffnen, um das Feld zu erstellen. Auf diese Weise können Sie schnell wiederverwendbare benutzerdefinierte Felder erstellen.
 
-Diese Funktion ist sowohl mit dem benutzerdefinierten Formularentwickler als auch mit dem älteren benutzerdefinierten Formularersteller verfügbar.
+Diese Funktion ist sowohl mit dem Designer für benutzerdefinierte Formulare als auch mit dem Legacy-Formular-Builder verfügbar.
 
-Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten von benutzerdefinierten Feldern, Abschnittspausen oder Widgets](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
+Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines benutzerdefinierten Felds, eines Abschnittsumbruchs oder Widgets](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/edit-a-custom-field.md).
 
-## Dropdown-Feldtyp mit Mehrfachauswahl, der im Formularentwickler verfügbar ist
+## Mehrfachauswahl-Dropdown-Feldtyp, der im Formular-Designer verfügbar ist
 
 >[!NOTE]
 >
 >Vorschau-Version: 4. Juni 2024; Produktionsversion für alle Kunden: 4. Juni 2024
 
-Um Ihnen zu helfen, Dropdown-Felder einfacher zu definieren, haben wir das Dropdown-Feld Mehrfachauswahl zum benutzerdefinierten Formularentwickler hinzugefügt. Mit diesem Feldtyp können Benutzer aus einer Dropdown-Liste mehrere Optionen auswählen.
+Um Ihnen die Definition von Dropdown-Feldern zu erleichtern, haben wir das Dropdown-Feld Mehrfachauswahl zum benutzerdefinierten Formular-Designer hinzugefügt. Bei diesem Feldtyp können Benutzer mehr als eine Option aus einer Dropdown-Liste auswählen.
 
-Sie können weiterhin ein Dropdown-Feld mit nur einer Auswahl erstellen und den Anzeigetyp in Dropdown-Liste mit Mehrfachauswahl ändern.
+Sie können weiterhin ein Dropdown-Feld mit Einzelauswahl erstellen und den Anzeigetyp in Mehrfachauswahl-Dropdown ändern.
 
-Diese Option ist im alten Formular-Builder nicht verfügbar.
+Diese Option ist im Legacy-Formular-Builder nicht verfügbar.
 
-Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Beta-Version 2018.2
-description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4-Version 2018.2 verfügbar waren. Die Funktion ist ab dem 17. Mai 2018 in der Vorschau-Umgebung verfügbar. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
+title: Versionsaktivität von Beta 4 2018.2
+description: Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.2 verfügbar waren. Die Funktion wird am 17. Mai 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Beta-Version 2018.2
+# Versionsaktivität von Beta 4 2018.2
 
-Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4-Version 2018.2 verfügbar waren. Die Funktion ist ab dem 17. Mai 2018 in der Vorschau-Umgebung verfügbar. Sie wird im Juli 2018 im Produktionsumfeld zur Verfügung gestellt.
+Auf dieser Seite werden alle Änderungen beschrieben, die zuletzt in der Vorschau-Umgebung mit Beta 4 Version 2018.2 verfügbar waren. Die Funktion wird am 17. Mai 2018 in der Vorschau-Umgebung verfügbar sein. Sie wird ab Juli 2018 in der Produktionsumgebung verfügbar sein.
 
 >[!IMPORTANT]
 >
-> Die auf dieser Seite beschriebene Funktionalität kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
+> Die auf dieser Seite beschriebene Funktion kann sich vor der Verfügbarkeit in der Produktionsumgebung ändern.
 
-Eine Liste aller Änderungen, die 2018.2 vorgenommen wurden, finden Sie unter  [Übersicht über die Veröffentlichungsaktivität 2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
+Eine Liste aller Änderungen in Version 2018.2 finden Sie unter  Übersicht über die Versionsaktivität [2018.2](../../../../product-announcements/product-releases/quarterly-release-archive/2018.2-release-activity/2018-2-release-activity-overview.md).
 
-Die Beta 4-Version 2018.2 enthält Verbesserungen für Workfront-Administratoren und andere Benutzer:
+Die Beta 4-Version 2018.2 enthält die Verbesserungen für Workfront-Administratoren und andere Benutzende:
 
 **Für Administratoren**
 
@@ -32,187 +32,187 @@ Die Beta 4-Version 2018.2 enthält Verbesserungen für Workfront-Administratoren
 
 **Für alle Benutzer**
 
-* [Verbesserungen bei der laufenden Arbeit (WIP) - Limit für Verbesserungen am Kanban-Board](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
+* [Verbesserungen am Limit für laufende Arbeiten (Work In Progress, WIP) auf dem Kanban-Board](#work-in-progress-wip-limit-enhancements-on-the-kanban-board)
 * [Verbesserte Benutzeroberfläche zum Konfigurieren von Status für ein Agile-Team](#improved-interface-for-configuring-statuses-for-an-agile-team)
-* [Aktualisierte Arbeitsliste (linker Bereich) im Startbereich](#updated-work-list-left-panel-in-the-home-area)
-* [Neuer Desktop Proofing Viewer für den Proof von interaktiven (Rich Media-)Inhalten](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
-* [Exportieren der Benutzeransicht im Ressourcenplaner](#export-the-user-view-in-the-resource-planner)
-* [Support für Google-Team-Laufwerke](#support-for-google-team-drives)
-* [Neue Exportbeschränkung für das Gantt-Diagramm](#new-export-limit-for-the-gantt-chart)
-* [Option &quot;Aus Zwischenablage einfügen&quot;wird jetzt bei Verwendung von Internet Explorer oder Safari als ausgeblendet angezeigt](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
+* [Aktualisierte Arbeitsliste (linker Bereich) im Bereich Startseite](#updated-work-list-left-panel-in-the-home-area)
+* [Neuer Desktop Proofing Viewer für das Proofing interaktiver (Rich-Media-)Inhalte](#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content) 
+* [Exportieren Sie die Benutzeransicht im Ressourcenplaner](#export-the-user-view-in-the-resource-planner)
+* [Support für Google Team Drives](#support-for-google-team-drives)
+* [Neue Exportbegrenzung für das Gantt-Diagramm](#new-export-limit-for-the-gantt-chart)
+* [Die Option Aus Zwischenablage einfügen wird jetzt bei Verwendung von Internet Explorer oder Safari als abgeblendet angezeigt](#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari)
 * [Neue Beta-Umgebung für Android zusammen mit neuen Funktionen](#new-beta-environment-for-android-along-with-new-features)
-* [Beispiele für Filter für Meldungen zu Ereignisabonnements](#examples-of-filters-for-event-subscriptions-messages)
+* [Beispiele für Filter für Nachrichten zu Ereignisabonnements](#examples-of-filters-for-event-subscriptions-messages)
 
-## Laufende Arbeiten (WIP) - Verbesserungen bei der Beschränkung auf das Kanban-Board {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
+## Verbesserte Grenzwerte für laufende Arbeiten (Work In Progress, WIP) auf dem Kanban-Board {#work-in-progress-wip-limit-enhancements-on-the-kanban-board}
 
-### Konfigurieren der Einschränkungen für laufende Arbeiten (WIP) für jede Spalte auf dem Kanban-Board
+### Konfigurieren Sie Work In Progress (WIP)-Beschränkungen für jede Spalte auf dem Kanban-Board
 
-Jetzt können Sie die Work in Progress (WIP)-Beschränkungen für jede Spalte auf dem Kanban-Board konfigurieren. 
+Jetzt können Sie die Work In Progress (WIP)-Beschränkungen für jede Spalte auf der Kanban-Pinnwand konfigurieren. 
 
-Vor dieser Änderung konnten Sie nur eine WIP-Begrenzung konfigurieren, die für alle Spalten auf der Kanban-Pinnwand galt. 
+Vor dieser Änderung konnten Sie nur eine WIP-Beschränkung konfigurieren, die für alle Spalten auf dem Kanban-Board galt. 
 
-Weitere Informationen finden Sie im Abschnitt .  [Konfigurieren der Grenze für laufende Arbeit (WIP)](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) im Artikel  [Konfigurieren Sie Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
+Weitere Informationen finden Sie in diesem Abschnitt .  [Konfigurieren des Work In Progress (WIP)-Limits](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md#configur4) im Artikel  [Kanban konfigurieren](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md).
 
-### Direkte Aktualisierung des Grenzwerts für laufende Arbeiten (WIP) durch das Kanban-Board
+### Aktualisieren Sie das Work In Progress (WIP)-Limit direkt über das Kanban-Board
 
-Jetzt können Teammitglieder mit Bearbeitungsrechten für das Team die WIP-Grenze direkt über das Kanban-Board aktualisieren.
+Jetzt können Team-Mitglieder mit Bearbeitungsrechten für das Team die WIP-Beschränkung direkt über das Kanban-Board aktualisieren.
 
-Vor dieser Änderung können Sie die WIP-Beschränkung nur im Bereich Team Settings aktualisieren.
+Vor dieser Änderung konnten Sie die WIP-Beschränkung nur im Bereich Team-Einstellungen aktualisieren.
 
-Weitere Informationen finden Sie unter  im Artikel .
+Weitere Informationen finden Sie unter  Im Artikel .
 
 ## Verbesserte Benutzeroberfläche zum Konfigurieren von Status für ein Agile-Team {#improved-interface-for-configuring-statuses-for-an-agile-team}
 
-Die Benutzeroberfläche zum Konfigurieren von Status für ein agiles Team wurde mit folgenden Verbesserungen aktualisiert:
+Die Benutzeroberfläche zum Konfigurieren von Status für ein agiles Team wurde mit den folgenden Verbesserungen aktualisiert:
 
 * Neues Erscheinungsbild
-* Neuanordnen von Statusspalten per Drag &amp; Drop 
+* Statusspalten per Drag &amp; Drop neu anordnen 
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Konfigurieren von Kanban](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
+* [Kanban konfigurieren](../../../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
 * [Konfigurieren von Scrum](../../../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
 
-## Arbeitsliste (linker Bereich) im Startbereich aktualisiert {#updated-work-list-left-panel-in-the-home-area}
+## Aktualisierte Arbeitsliste (linker Bereich) im Bereich Startseite {#updated-work-list-left-panel-in-the-home-area}
 
-Die Arbeitsliste im Bereich &quot;Startseite&quot;enthält folgende Verbesserungen:
+Die Arbeitsliste im Bereich Startseite enthält die folgenden Verbesserungen:
 
-* Ungelesene Elemente lassen sich jetzt durch Fettdruck und einen blauen Punkt hervorheben.
+* Ungelesene Gegenstände stechen jetzt durch fett gedruckte und blaue Punkte hervor.
 
-  Elemente, die außerhalb des Startbereichs angezeigt werden, werden weiterhin im Startbereich als Ungelesen angezeigt.
+  Elemente, die außerhalb des Home-Bereichs angezeigt werden, werden im Home-Bereich weiterhin als Ungelesen angezeigt.
 
-  Weitere Informationen finden Sie unter [Elemente in der Arbeitsliste im Startbereich anzeigen](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Weitere Informationen finden Sie unter [Elemente in der Arbeitsliste im Bereich Startseite anzeigen](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-* Probleme werden jetzt durch ein Symbol für ein Problem unterschieden, das neben dem Problem angezeigt wird.
-* Genehmigungen werden nun nach Genehmigungstyp unterschieden, wobei der Typ der Genehmigung angezeigt wird. Mögliche Validierungstypen sind &quot;Aufgabe&quot;, &quot;Projekt&quot;, &quot;Problem&quot;, &quot;Zugriff&quot;, &quot;Dokument&quot;, &quot;Datenblatt&quot;und &quot;Testversand&quot;.
+* Probleme werden jetzt durch ein Problem-Symbol gekennzeichnet, das neben dem Problem angezeigt wird.
+* Genehmigungen werden nun nach Validierungstyp unterschieden, wobei der Typ der Genehmigung angezeigt wird. Zu den möglichen Validierungstypen gehören Aufgabe, Projekt, Problem, Zugriff, Dokument, Arbeitszeittabelle und Testversand.
 
-  Vor dieser Änderung wurden Genehmigungen nur durch das Wort &quot;Genehmigung&quot;unterschieden.
+  Vor dieser Änderung wurden Genehmigungen nur durch das Wort „Genehmigung“ gekennzeichnet.
 
-* Elemente werden nun danach unterschieden, ob sie startbereit sind. Mögliche Optionen sind &quot;Bereit zum Start&quot;, &quot;Nicht bereit&quot;oder &quot;Arbeiten am&quot;.
+* Elemente werden jetzt danach unterschieden, ob sie startbereit sind. Mögliche Optionen sind „Bereit zum Start“, „Nicht bereit“ oder „Bearbeiten“.
 
-  Diese Informationen werden nicht für Genehmigungen angezeigt, da Genehmigungen immer startbereit sind.
+  Diese Informationen werden für Genehmigungen nicht angezeigt, da Genehmigungen immer startbereit sind.
 
 * Jedes Mal, wenn ein Dokument an das Element angehängt wird, wird unter dem Namen des Elements ein Dokumentsymbol angezeigt.
-* Sie können jetzt Gruppierungen innerhalb der Arbeitsliste reduzieren und erweitern, um besser steuern zu können, welche Informationen sichtbar sind. Die Gruppierungen sind &quot;Verspätet&quot;, &quot;Projekte&quot;, &quot;Datumsangaben&quot;und &quot;Abgeschlossen&quot;.
+* Sie können jetzt Gruppierungen innerhalb der Arbeitsliste reduzieren und erweitern, um besser steuern zu können, welche Informationen sichtbar sind. Die Gruppierungen sind „Verspätet“, „Projekte“, „Daten“ und „Abgeschlossen“.
 
   Standardmäßig wird der Abschnitt Diese Woche erweitert und alle anderen Gruppierungen werden reduziert.
 
-* Wählen Sie aus, ob die Elemente nach dem geplanten Abschlussdatum oder dem Veröffentlichungsdatum sortiert werden sollen.
-* Die Anzahl der Elemente in jeder Gruppierung wird nun in Klammern neben dem Gruppierungstitel angezeigt.
+* Wählen Sie aus, ob Elemente nach dem geplanten Abschlussdatum oder dem Commit-Datum sortiert werden sollen.
+* Die Anzahl der Elemente in jeder Gruppierung wird jetzt in Klammern neben dem Gruppierungstitel angezeigt.
 
-  Diese Zahl steht für die Gruppe Abgeschlossen nicht zur Verfügung.
+  Diese Zahl ist für die abgeschlossene Gruppierung nicht verfügbar.
 
-  Weitere Informationen finden Sie unter [Elemente in der Arbeitsliste im Startbereich anzeigen](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
+  Weitere Informationen finden Sie unter [Elemente in der Arbeitsliste im Bereich Startseite anzeigen](../../../../workfront-basics/using-home/using-the-home-area/display-items-in-home-work-list.md).
 
-* Passen Sie die Größe der Arbeitsliste per Drag &amp; Drop an. Sie können die Größe der Arbeitsliste ändern, um bis zu die Hälfte des Bildschirms zu verbrauchen. Die von Ihnen festgelegte Größe wird beibehalten, wenn Sie das nächste Mal auf Home zugreifen.
+* Ändern der Größe der Arbeitsliste per Drag &amp; Drop. Sie können die Größe der Arbeitsliste so ändern, dass sie bis zu die Hälfte des Bildschirms einnimmt. Die eingestellte Größe wird bei Ihrem nächsten Zugriff auf die Startseite beibehalten.
 
   Vor dieser Änderung konnte die Größe der Arbeitsliste nicht geändert werden.
 
-* Bei Anfragen wird nun der Benutzeravatar des Benutzers angezeigt, der die Anfrage gestellt hat. Der Text &quot;[Genehmiger_Name]&quot; soll Ihre Genehmigung einholen.
-* Bei der Erstellung einer neuen persönlichen Aufgabe wird die Schaltfläche &quot;Aufgaben&quot;jetzt als &quot;persönlich&quot;bezeichnet.
+* Bei Anfragen wird jetzt der Benutzeravatar des Benutzers angezeigt, der die Anfrage gestellt hat, mit dem Text &quot;[Genehmiger_name] für den Ihre Genehmigung erforderlich ist.“
+* Beim Erstellen einer neuen persönlichen Aufgabe wird die Schaltfläche „Aufgaben“ jetzt als „Persönlich“ gekennzeichnet.
 
-  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem Startbereich](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md) im Artikel [Erstellen von Arbeitselementen aus dem Startbereich](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
+  Weitere Informationen finden Sie unter [Erstellen von Arbeitselementen aus dem ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md)) im Artikel [Erstellen von Arbeitselementen aus dem ](../../../../workfront-basics/using-home/using-the-home-area/create-work-items-in-home.md).
 
-* Verspätete Elemente werden nur als spät angegeben, nachdem eine Stunde nach dem geplanten Abschlussdatum vergangen ist.
+* Verspätete Elemente werden erst nach einer Stunde nach dem geplanten Abschlussdatum als verspätet angezeigt.
 
-Weitere Informationen zum Startbereich finden Sie unter [Verwenden des Startbereichs](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
+Weitere Informationen zum Bereich „Startseite“ finden Sie unter [Verwenden des Bereichs „Startseite](../../../../workfront-basics/using-home/using-the-home-area/use-the-home-area.md).
 
-## Neuer Desktop Proofing Viewer für den Proofing interaktiver (Rich Media) Inhalte {#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content}
+## Neuer Desktop Proofing Viewer für Proofing von interaktiven Inhalten (Rich-Media) {#new-desktop-proofing-viewer-for-proofing-interactive-rich-media-content}
 
-Mit dem neuen Desktop Proofing Viewer können Sie interaktive Inhalte testen. Im Gegensatz zum vorhandenen alten Testversand-Viewer und dem neuen Testversand-Viewer, der im Browser ausgeführt wird, ist der Desktop Proofing Viewer eine Anwendung, die auf Ihrer Workstation ausgeführt wird.
+Mit dem neuen Desktop Proofing Viewer können Sie interaktive Inhalte prüfen. Im Gegensatz zur vorhandenen Proofing Viewer- und der neuen Proofing Viewer-Komponente, die im Browser ausgeführt werden, ist der Desktop Proofing Viewer eine Anwendung, die auf Ihrer Workstation ausgeführt wird.
 
-Vor dem neuen Desktop Proofing Viewer konnten Sie interaktive Inhalte nur im alten Testversand-Viewer testen. 
+Vor dem neuen Desktop Proofing Viewer konnten Sie interaktive Inhalte nur im alten Proofing Viewer prüfen. 
 
-Der Desktop Proofing Viewer enthält die folgenden Verbesserungen gegenüber dem alten Proofing-Viewer für das Testen interaktiver Inhalte:
+Der Desktop Proofing Viewer bietet folgende Verbesserungen gegenüber dem alten Proofing Viewer für das Proofing interaktiver Inhalte:
 
-* Überprüfen nicht gesicherter (HTTP) Sites
+* Überprüfen von ungesicherten (HTTP-)Sites
 
-  Mit dem alten Testversand-Viewer konnten Sie nur sichere (HTTPS) Sites überprüfen
+  Mit dem alten Proofing Viewer konnten Sie nur sichere (HTTPS-)Sites überprüfen
 
-* Überprüfen Sie iframe-geschützte Sites (Sites, die vor der Anzeige in einem iframe geschützt sind).
+* Überprüfen Sie iframe-geschützte Websites (Websites, die davor geschützt sind, in einem iframe angezeigt zu werden).
 
-  Der alte Testversand-Viewer unterstützte keine Überprüfung für Sites, die vor der Anzeige in einem iframe geschützt sind.
+  Der alte Proofing Viewer unterstützte keine Überprüfung für Sites, die davor geschützt sind, in einem iFrame angezeigt zu werden.
 
-* Anzeigen von Inhalten mit vorkonfigurierten Auflösungen für verschiedene Geräte Sie können beispielsweise sehen, wie Inhalte auf verschiedenen Desktop-Auflösungen oder auf einzelnen Geräten wie iPhone 8 angezeigt werden. 
+* Anzeigen von Inhalten mit vorkonfigurierten Auflösungen für verschiedene Geräte Sie können beispielsweise sehen, wie Inhalte auf verschiedenen Standard-Desktop-Auflösungen oder auf einzelnen Geräten wie einem iPhone 8 angezeigt werden. 
 
 Weitere Informationen zum Herunterladen, Installieren und Verwenden des Desktop Proofing Viewers finden Sie unter .
 
-Informationen zu Funktionsunterschieden zwischen dem Desktop Proofing Viewer und den browserbasierten Proofing-Viewern finden Sie unter [Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
+Weitere Informationen zu den Funktionsunterschieden zwischen dem Desktop Proofing Viewer und den browserbasierten Proofing Viewern finden Sie unter [Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht](../../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md).
 
-## Exportieren der Benutzeransicht in den Ressourcenplaner {#export-the-user-view-in-the-resource-planner}
+## Exportieren der Benutzeransicht im Ressourcenplaner {#export-the-user-view-in-the-resource-planner}
 
-Der Export der Daten aus dem Ressourcen-Planer wurde vorübergehend deaktiviert, wenn er in der Benutzeransicht angezeigt wurde, um einige Leistungsprobleme zu beheben. Mit dieser Version wird der Export von Daten erneut aktiviert, wenn der Ressourcen-Planer in der Benutzeransicht angezeigt wird.
+Der Export der Daten aus dem Ressourcenplaner wurde vorübergehend deaktiviert, während sie in der Benutzeransicht angezeigt wurden, um Leistungsprobleme zu beheben. Mit dieser Version aktivieren wir den Datenexport erneut, wenn der Ressourcenplaner in der Benutzeransicht angezeigt wird.
 
-Weitere Informationen zum Exportieren der Ressourcenplandaten in Excel finden Sie im Abschnitt &quot;Exportoption&quot;in der Navigationsübersicht für den [Ressourcenplaner](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
+Weitere Informationen zum Exportieren der Ressourcenplaner-Daten nach Excel finden Sie im Abschnitt „Exportoption“ in [Übersicht über die Ressourcenplaner-](../../../../resource-mgmt/resource-planning/resource-planner-navigation.md).
 
-Informationen zur Teilnahme an unserem aktuellen Betaprogramm für den Ressourcen-Planer finden Sie unter [Performance-Beta für den Ressourcenplaner](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520) .
+Informationen zur Teilnahme an unserem aktuellen Beta-Programm für den Ressourcenplaner finden Sie unter [Resource Planner Performance Beta.](http://community.workfront.com/discussions/community-home/digestviewer/viewthread?GroupId=457&amp;MessageKey=8b018ed9-97a2-4f9d-a93b-01a7b09b6350&amp;CommunityKey=0425cafc-f0ec-47fc-be20-a21dc073d520&amp;tab=digestviewer&amp;ReturnUrl=%2fdiscussions%2fcommunity-home%2fdigestviewer%3fCommunityKey%3d0425cafc-f0ec-47fc-be20-a21dc073d520)
 
 ## Systemeinstellung: Sitzungsinformationen auf externen Seiten {#system-setting-session-information-in-external-pages}
 
 Der Workfront-Administrator kann jetzt die Verwendung von Sitzungsinformationen (z. B. Sitzungs-ID) beim Erstellen einer externen Seite einschränken.
 
-Vor dieser Änderung konnten Benutzer, die externe Seiten erstellen konnten, beim Einbetten anderer Sites in ein Workfront-Dashboard alle Sitzungsinformationen verwenden. 
+Vor dieser Änderung konnten Benutzende, die externe Seiten erstellen konnten, beliebige Sitzungsinformationen verwenden, wenn sie andere Sites in ein Workfront-Dashboard einbetteten. 
 
-Weitere Informationen zum Konfigurieren der Systemeinstellungen in Workfront finden Sie unter [Systemsicherheitsvoreinstellungen konfigurieren](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
+Weitere Informationen zum Konfigurieren Ihrer Systemeinstellungen in Workfront finden Sie unter [Konfigurieren von Systemsicherheitseinstellungen](../../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md).
 
-## Support für Google-Team-Laufwerke {#support-for-google-team-drives}
+## Unterstützung für Google Team Drives {#support-for-google-team-drives}
 
 Sie können jetzt ein Dokument oder einen Ordner auf einem Google Team Drive von Workfront aus verknüpfen.
 
-Vor dieser Verbesserung könnten Sie ein Dokument oder einen Ordner verknüpfen, der sich nur auf dem Google My Drive befindet.
+Vor dieser Verbesserung konnten Sie ein Dokument oder einen Ordner verknüpfen, der sich nur auf dem Google My Drive befindet.
 
-Weitere Informationen zum Verknüpfen von Dokumenten und Ordnern aus verschiedenen Anwendungen mit Workfront finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Weitere Informationen zum Verknüpfen von Dokumenten und Ordnern aus verschiedenen Programmen mit Workfront finden Sie unter [Verknüpfen von Dokumenten aus externen Programmen](../../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 ## Neue Exportbeschränkung für das Gantt-Diagramm {#new-export-limit-for-the-gantt-chart}
 
-Sie können nun bis zu 500 Aufgaben in die Gantt-Grafik exportieren.
+Im Gantt-Diagramm können Sie jetzt bis zu 500 Aufgaben exportieren.
 
 Zuvor konnten Sie nur bis zu 250 Aufgaben exportieren.
 
-Weitere Informationen finden Sie unter [Exportieren des Gantt-Diagramms in PDF](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
+Weitere Informationen finden Sie unter [Gantt-Diagramm nach PDF exportieren](../../../../manage-work/gantt-chart/use-the-gantt-chart/export-gantt-chart-to-pdf.md).
 
-## Option &quot;Aus Zwischenablage einfügen&quot;wird jetzt bei Verwendung von Internet Explorer oder Safari als ausgeblendet angezeigt {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
+## Die Option Aus Zwischenablage einfügen wird jetzt bei Verwendung von Internet Explorer oder Safari als abgeblendet angezeigt {#paste-from-clipboard-option-now-displays-as-dimmed-when-using-internet-explorer-or-safari}
 
-Die Option Aus Zwischenablage einfügen wird jetzt bei Verwendung des Internet Explorer- oder Safari-Browsers als abgeblendet angezeigt. Eine QuickInfo erklärt, dass nur die Chrome- und Firefox-Browser für diese Funktion unterstützt werden.
+Die Option Aus Zwischenablage einfügen wird jetzt abgeblendet angezeigt, wenn der Internet Explorer oder Safari verwendet werden, mit einer QuickInfo, die erklärt, dass nur die Browser Chrome und Firefox für diese Funktion unterstützt werden.
 
-Vor dieser Änderung wurde diese Option bei Verwendung von Internet Explorer oder Safari nicht angezeigt. 
+Vor dieser Änderung wurde diese Option bei der Verwendung von Internet Explorer oder Safari nicht angezeigt. 
 
 Weitere Informationen zum Einfügen von Bildern aus der Zwischenablage finden Sie unter [Einfügen von Bildern aus der Zwischenablage](../../../../documents/managing-documents/paste-image-clipboard.md).
 
-## Neue Beta-Umgebung für Android und neue Funktionen {#new-beta-environment-for-android-along-with-new-features}
+## Neue Beta-Umgebung für Android zusammen mit neuen Funktionen {#new-beta-environment-for-android-along-with-new-features}
 
-Sie können jetzt die neuesten Funktionen, an denen unser Team für die mobile App arbeitet, erleben, bevor sie der allgemeinen Öffentlichkeit zugänglich gemacht werden, indem Sie sich als Beta-Tester anmelden. Diese Umgebung wird derzeit nur für Android-Smartphones für die Workfront-Mobile-App unterstützt.
+Sie können jetzt die neuesten Funktionen erleben, an denen unser Team für die Mobile App arbeitet, bevor sie für die allgemeine Öffentlichkeit freigegeben werden, indem Sie sich als Betatester anmelden. Diese Umgebung wird derzeit nur für Android-Smartphones für die Workfront-Mobile-App unterstützt.
 
-Weitere Informationen dazu, wie Sie sich als Beta-Tester für die mobile Workfront-App anmelden, finden Sie unter .
+Weitere Informationen dazu, wie Sie sich als Betatester für die Workfront Mobile App anmelden, finden Sie unter .
 
-Die folgenden Verbesserungen sind jetzt in der Betaversion der Mobile App verfügbar:
+Die folgenden Verbesserungen sind jetzt in der Beta-Version der Mobile App verfügbar:
 
 * Neue Kontoseite
 
-  Sie können jetzt Ihre Kontoinformationen anzeigen sowie Ihre Mobile-Einstellungen verwalten, Feedback senden oder sich von der neuen Kontoseite abmelden.
+  Sie können jetzt auf der neuen Kontoseite Ihre Kontoinformationen anzeigen sowie Ihre Mobile-Einstellungen verwalten, Feedback senden oder sich abmelden.
 
-  Vor dieser Verbesserung konnten Sie Ihre Kontoinformationen nicht in der Mobile App anzeigen und auf Ihre Einstellungen zugreifen, Feedback senden und sich über das Workfront-Hauptmenü abmelden.
+  Vor dieser Verbesserung konnten Sie Ihre Kontoinformationen in der Mobile App nicht anzeigen und über das Workfront-Hauptmenü auf Ihre Einstellungen zugreifen, Feedback senden und sich abmelden.
 
-* Neues Navigationsfenster unten
+* Neues unteres Navigationsfenster
 
-  Unten im Bildschirm ist jetzt eine auffälligere Navigationsleiste verfügbar, die alle Bereiche der App startet.
+  Unten im Bildschirm ist jetzt eine hervorgehobene Navigationsleiste verfügbar, mit der alle Bereiche der Mobile App gestartet werden können.
 
-  Vor dieser Verbesserung wurden die Funktionsbereiche im Hauptmenü von Workfront aufgelistet. Das Hauptmenü von Workfront wurde entfernt und durch die neue untere Navigationsleiste ersetzt.
+  Vor dieser Verbesserung wurden die Funktionsbereiche im Hauptmenü von Workfront aufgeführt. Das Workfront-Hauptmenü wurde entfernt und durch die neue untere Navigationsleiste ersetzt.
 
-  Weitere Informationen zum Konfigurieren der neuen Navigationsleiste finden Sie im Abschnitt &quot;Konfigurieren Ihrer Mobile App&quot;in .
+  Weitere Informationen zum Konfigurieren der neuen Navigationsleiste finden Sie im Abschnitt „Konfigurieren Ihrer Mobile App“ in .
 
-* Neue Listenansicht für Benachrichtigungen
+* Neue Benachrichtigungslistenansicht
 
-  Durch ein verbessertes Erscheinungsbild der Benachrichtigungsliste können Sie die Benachrichtigungen in Ihrer Liste einfach danach unterscheiden, welche Art sie sind und ob sie gelesen wurden.
+  Ein verbessertes Erscheinungsbild der Benachrichtigungsliste ermöglicht es Ihnen, die Benachrichtigungen in Ihrer Liste einfach danach zu unterscheiden, welche Art von Benachrichtigungen sie sind und ob sie gelesen wurden.
 
-* Das Suchfeld wurde an eine auffälligere Position verschoben.
+* Das Suchfeld wurde an eine markantere Position verschoben.
 
-* Neues AnmeldeerlebnisEs gibt ein neues, optimiertes Anmeldeerlebnis.
+* Neue AnmeldeerfahrungEs gibt eine neue, optimierte Anmeldeerfahrung.
 
 * Neues Tutorial-Erlebnis
 
-  Es stehen jetzt neue Tutorials zur Verfügung, mit denen Benutzer bei der ersten Anmeldung kurz durch die App geführt werden können. Vor diesem Erlebnis wurden die Tutorials nur gestartet, wenn Benutzer auf bestimmte Funktionsbereiche zugegriffen haben.
+  Neue Tutorials stehen jetzt zur Verfügung, die Benutzer beim ersten Anmelden kurz durch die App führen. Vor diesem Erlebnis wurden die Tutorials nur gestartet, wenn Benutzer auf bestimmte Funktionsbereiche zugegriffen haben.
 
-## Beispiele für Filter für Meldungen zu Ereignisabonnements {#examples-of-filters-for-event-subscriptions-messages}
+## Beispiele für Filter für Nachrichten zu Ereignisabonnements {#examples-of-filters-for-event-subscriptions-messages}
 
-Um zu demonstrieren, wie Sie Ereignisabos filtern können, um nur die für Ihr Unternehmen relevanten Nachrichten zu erhalten, stehen jetzt Beispielcode-Snippets zum Filtern des Ereignisflusses, der zu Ihren Endpunkten kommt, zur Verfügung. Weitere Informationen zum Anzeigen der Filterbeispiele finden Sie unter [Abonnementmeldungen für Ereignisse filtern](../../../../wf-api/api/filter-event-sub-messages.md).
+Um zu demonstrieren, wie Sie Ereignisabonnements so filtern können, dass nur die für Ihr Unternehmen relevanten Nachrichten empfangen werden, sind jetzt Beispiel-Code-Snippets zum Filtern des Flusses von Ereignissen verfügbar, die zu Ihren Endpunkten kommen. Weitere Informationen zum Anzeigen der Filterbeispiele finden Sie unter [Filtern von Ereignisabonnementnachrichten](../../../../wf-api/api/filter-event-sub-messages.md).

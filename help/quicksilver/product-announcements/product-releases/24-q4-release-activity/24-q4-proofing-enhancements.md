@@ -1,6 +1,6 @@
 ---
-title: Verbesserungen bei der Testprüfung im vierten Quartal 2024
-description: Verbesserungen bei der Testprüfung im vierten Quartal 2024
+title: Verbesserungen beim Proofing im vierten Quartal 2024
+description: Verbesserungen beim Proofing im vierten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen bei der Testprüfung im vierten Quartal 2024
+# Verbesserungen beim Proofing im vierten Quartal 2024
 
-Auf dieser Seite werden alle Verbesserungen beim Testen beschrieben, die mit der Version vom 4. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom vierten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Proofing-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom vierten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2024-Veröffentlichungszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
-## Fehlerbehebung beim Kopieren/Einfügen für den Desktop Proofing Viewer
+## Problembehebung für Desktop Proofing Viewer kopieren/einfügen
 
-Es wurde ein Problem behoben, bei dem Inhalte im Abschnitt Updates des Desktop Proofing-Viewers falsch eingefügt wurden.
+Es wurde ein Problem behoben, bei dem Inhalte im Abschnitt Aktualisierungen der Desktop Proofing Viewer falsch eingefügt wurden.
 
 Neue Version: 2.1.39
 
-## Leere Bildschirmkorrektur für Desktop Proofing Viewer Windows-Benutzer
+## Fehlerbehebung bei leerem Bildschirm für Windows-Benutzer des Desktop Proofing Viewers
 
 >[!NOTE]
 >
 >Vorschau-Version: 30. August 2024; Produktionsversion für alle Kunden: 30. August 2024.
 
-Es wurde ein Problem mit der neuen Version 2.1.36 des Desktop Proofing-Viewers behoben, bei dem einige Windows-Benutzer nach dem Öffnen des Viewers einen leeren Bildschirm angezeigt haben.
+Es wurde ein Problem mit der neuen Desktop Proofing Viewer-Version 2.1.36 behoben, das dazu führte, dass einige Windows-Benutzer nach dem Öffnen des Viewers einen leeren Bildschirm sahen.
 
 Neue Version für Windows-Benutzer: 2.1.37
 
@@ -41,6 +41,6 @@ Neue Version für Windows-Benutzer: 2.1.37
 >
 >Vorschau-Version: 29. August 2024; Produktionsversion für alle Kunden: 29. August 2024.
 
-Wir aktualisieren den Desktop Proofing Viewer, um Chromium 126.0.6478.127 zu unterstützen, das Probleme mit UI-Elementen in interaktiven Testsendungen behebt.
+Wir aktualisieren den Desktop Proofing Viewer, um Chromium-126.0.6478.127 zu unterstützen, die Probleme mit Benutzeroberflächenelementen in interaktiven Korrekturabzügen beheben.
 
 Neue Version: 2.1.36

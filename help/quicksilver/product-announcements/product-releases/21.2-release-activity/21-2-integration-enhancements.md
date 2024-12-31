@@ -1,9 +1,9 @@
 ---
 content-type: release-notes
-keywords: notes,vierteljährlich,update,release
+keywords: Hinweise,vierteljährlich,Aktualisierung,Freigabe
 navigation-topic: 2021-2-release-activity
-title: 21.2 Integrationsverbesserungen
-description: Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
+title: 21.2 Verbesserungen bei der Integration
+description: Auf dieser Seite werden alle mit Version 21.2 vorgenommenen Integrationsverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie in der Übersicht über die Version 21.2.
 author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 ---
 
-# 21.2 Integrationsverbesserungen
+# 21.2 Verbesserungen bei der Integration
 
-Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle mit Version 21.2 vorgenommenen Integrationsverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Adobe Workfront für XD
+## Einführung in Adobe Workfront für XD
 
-Wir freuen uns, die Einführung unseres neuen Plug-ins Adobe Workfront für XD bekannt geben zu können. Mit diesem Plug-in können Sie auf Details von Arbeitselementen zugreifen, mit Kollegen im Bereich Updates zusammenarbeiten und Testsendungen zur Überprüfung einreichen - alles ohne XD zu verlassen. Gehen Sie zum Adobe XD Marketplace, um das Plug-in heute herunterzuladen.
+Wir freuen uns, die Einführung unseres neuen Plug-ins ankündigen zu können: Adobe Workfront für XD. Mit diesem Plug-in können Sie auf Details zu Arbeitselementen zugreifen, mit Kollegen im Bereich „Updates“ zusammenarbeiten und Korrekturabzüge zur Überprüfung einreichen - und das alles, ohne die XD verlassen zu müssen. Gehen Sie zum Adobe XD-Marktplatz, um das Plug-in noch heute herunterzuladen.
 
 Weitere Informationen dazu, was Sie mit Adobe Workfront für XD tun können, finden Sie unter [Verwalten der Arbeit mit dem Adobe Workfront-Plug-in für Creative Cloud-Anwendungen](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-manage-work-toc.md).
 
 
 ## Suchen nach Ordnern in Dokumentintegrationen
 
-Um Ihnen die Navigation in Ihren Dokumentintegrationen zu erleichtern, haben wir die Suche nach Ordnern ermöglicht. Wenn Sie jetzt einen Begriff in die Suchleiste eingeben, gibt Workfront Dokumente, Ordner und Unterordner zurück, die den Suchbegriff in ihrem Namen enthalten.
+Um Ihnen die Navigation in Ihren Dokumentenintegrationen zu erleichtern, haben wir die Suche nach Ordnern ermöglicht. Wenn Sie jetzt einen Begriff in die Suchleiste eingeben, gibt Workfront Dokumente, Ordner und Unterordner zurück, die den Suchbegriff im Namen enthalten.
 
 Zuvor konnten Unterordner nur durch Öffnen der übergeordneten Ordner gefunden werden.
 
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie unter [Verknüpfen von Dokumenten aus externen 
 
 Die Google Drive-Integration unterstützt jetzt neue Google-Sicherheitsprotokolle.
 
-Beim Verknüpfen, Hochladen oder Erstellen von Dateien auf dem Google-Laufwerk im Bereich &quot;Dokumente&quot;eines Adobe Workfront-Objekts greift Workfront jetzt über die Dateiauswahl von Google auf Ihre Google-Dateien zu. Dadurch wird der Zugriff und die Sichtbarkeit von Workfront nur auf die Google-Dateien beschränkt, die Sie mit Workfront verknüpfen.
+Beim Verknüpfen mit, Hochladen oder Erstellen von Dateien auf dem Google-Laufwerk über den Abschnitt Dokumente eines Adobe Workfront-Objekts greift Workfront jetzt über die Dateiauswahl von Google auf Ihre Google-Dateien zu. Dadurch wird der Zugriff und die Sichtbarkeit von Workfront nur auf die Google-Dateien beschränkt, die Sie mit Workfront verknüpfen.
 
-Zuvor wurde der Zugriff auf Dateien über ein Dateidialogfeld auf der Basis von Workfront durchgeführt.
+Zuvor wurde auf Dateien über ein Dateidialogfeld zugegriffen, das auf Workfront basiert.
 

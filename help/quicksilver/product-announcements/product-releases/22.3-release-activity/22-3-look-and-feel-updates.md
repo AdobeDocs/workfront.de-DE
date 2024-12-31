@@ -1,6 +1,6 @@
 ---
-title: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 22.3
-description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 22.3
+title: Lookand-Feel-Aktualisierungen während des Zeitrahmens der Version 22.3
+description: Lookand-Feel-Aktualisierungen während des Zeitrahmens der Version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,36 +13,36 @@ ht-degree: 14%
 
 ---
 
-# Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 22.3
+# Lookand-Feel-Aktualisierungen während des Zeitrahmens der Version 22.3
 
-Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Veröffentlichungszeitrahmens von 22.3 vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung mindestens 2 Wochen nach Veröffentlichung in der Vorschau bereitgestellt.
+Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms beschrieben, die innerhalb des Zeitrahmens der Version 22.3 vorgenommen wurden. Diese Verbesserungen wurden mindestens 2 Wochen nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Eine Liste aller mit Version 22.3 verfügbaren Änderungen finden Sie unter Übersicht über die Version [22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
-## Globale Erscheinungsbild-Updates
+## Aktualisierungen des globalen Erscheinungsbilds
 
 >[!NOTE]
 >
 >Vorschau-Version: 21. April 2022; Produktionsversion: 5. Mai 2022
 
-Um Adobe-Produkte besser auszurichten und die Konsistenz in der Workfront-Anwendung zu verbessern, werden in der Workfront-Benutzeroberfläche geringfügige Änderungen an der kosmetischen Formatierung veröffentlicht.
+Um Adobe-Produkte besser abzustimmen und die Konsistenz im gesamten Workfront-Programm zu verbessern, veröffentlichen wir kleinere Änderungen am kosmetischen Stil in der gesamten Workfront-Benutzeroberfläche.
 
-Schaltflächen, Farben und Schriftarten werden jetzt in der gesamten Workfront-Anwendung aktualisiert.
+Schaltflächen, Farben und Schriftarten werden jetzt im gesamten Workfront-Programm aktualisiert.
 
-Diese Aktualisierungen sind lediglich visuelle Änderungen. Die zugrunde liegende Funktionalität bleibt unverändert.
+Bei diesen Aktualisierungen handelt es sich ausschließlich um visuelle Änderungen. Die zugrunde liegende Funktionalität bleibt unverändert.
 
 ## Aktualisierte Listen und Berichte
 
-Die Symbolleisten in den folgenden Listen und Berichten haben jetzt ein modernes Erscheinungsbild, sodass Sie Objekte in Adobe Workfront schnell verwalten können.
+Die Symbolleisten in den folgenden Listen und Berichten sind jetzt modern gestaltet, sodass Sie Objekte in Adobe Workfront schnell verwalten können.
 
-### Vorschau-Version: 26. März 2022; Produktionsversion: mit Version 2.3
+### Vorschau-Version: 26. März 2022; Produktionsversion: mit Version 22.3
 
-* Zeitplanberichte
+* Arbeitszeittabellen-Berichte
 
 ## Aktualisierte Breadcrumb-Trennzeichen
 
 >[!NOTE]
 >
->Diese Änderung wurde in der Produktion am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie im [Wartungs-Update vom 26. Mai 2022](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022) .
+>Diese Änderung wurde in der Produktionsumgebung am 23. Mai 2022 aktualisiert. Weitere Informationen finden Sie [ „Wartungs-Update vom 26. Mai 2022](https://one.workfront.com/s/article/Maintenance-Update-on-May-26-2022).
 
 Wir haben die Breadcrumb-Trennzeichen in allen Bereichen aktualisiert, in denen Breadcrumbs verfügbar sind. Jetzt werden die Objekte in den Breadcrumbs durch senkrechte Striche (|) getrennt. Vor dieser Aktualisierung wurden sie durch Schrägstriche (/) getrennt.

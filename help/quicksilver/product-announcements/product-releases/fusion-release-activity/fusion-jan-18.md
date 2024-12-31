@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 18. Januar 2021'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 18. Januar 2021 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 18. Januar 2021'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 18. Januar 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,54 +17,54 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 18. Januar 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 18. Januar 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 18. Januar 2021 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 18. Januar 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Debugging-Szenarien mit dem Workfront Fusion DevTool
+## Debugging-Szenarien mit dem Workfront Fusion-DevTool
 
-Um das Debugging Ihrer Szenarien zu vereinfachen, haben wir eine Workfront Fusion 2.0 DevTool Chrome-Erweiterung erstellt. Mit dieser Erweiterung können Sie manuelle Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und Details zu jedem API-Aufruf anzeigen. Das DevTool bietet außerdem Tools, mit denen Sie Ihr Szenario ändern können, ohne Module einzeln ändern oder filtern zu müssen.
+Um Ihnen das Debugging Ihrer Szenarien zu erleichtern, haben wir eine Chrome-Erweiterung für Workfront Fusion 2.0 DevTool erstellt. Mit dieser Erweiterung können Sie manuelle Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und Details jedes API-Aufrufs anzeigen. Das DevTool bietet auch Tools, mit denen Sie Ihr Szenario ändern können, ohne Module oder Filter einzeln ändern zu müssen.
 
-Anweisungen und Informationen zum Herunterladen des Workfront Fusion 2.0-Entwicklungstools finden Sie unter [Debugszenarien mit dem Adobe Workfront Fusion DevTool](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
+Anleitungen und Informationen zum Herunterladen von Workfront Fusion 2.0 DevTool finden Sie unter [Debugging-Szenarien mit dem Adobe Workfront Fusion DevTool](../../../workfront-fusion/scenarios/debug-scenarios-with-dev-tool.md).
 
-## Azure Active Directory-Connectoren und -Module sind jetzt verfügbar
+## Azure Active Directory-Connector und -Module jetzt verfügbar
 
-Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihren Azure Active Directory-Anwendungen herzustellen. Mit den Azure Active Directory-Modulen können Sie:
+Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihren Azure Active Directory-Programmen herzustellen. Mit den Azure Active Directory-Modulen haben Sie folgende Möglichkeiten:
 
-* Trigger eines Szenarios bei der Erstellung oder Aktualisierung eines Datensatzes.
-* Erstellen Sie Datensätze.
-* Rufen Sie Daten aus vorhandenen Datensätzen ab.
-* Suchdatensätze basierend auf von Ihnen angegebenen Kriterien.
-* Führen Sie einen benutzerdefinierten API-Aufruf durch.
+* Trigger Ein Szenario, wenn ein Datensatz erstellt oder aktualisiert wird.
+* Einträge erstellen.
+* Abrufen von Daten aus vorhandenen Datensätzen.
+* Suche nach Datensätzen anhand von angegebenen Kriterien.
+* Durchführen eines benutzerdefinierten API-Aufrufs.
 
 Weitere Informationen finden Sie unter [Azure Active Directory-Module](../../../workfront-fusion/apps-and-their-modules/azure-ad-modules.md).
 
 ## Azure DevOps-Connector und -Module jetzt verfügbar
 
-Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihren Azure DevOps-Anwendungen herzustellen. Mit den Azure DevOps-Modulen können Sie:
+Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihren Azure DevOps-Programmen herzustellen. Mit den Azure DevOps-Modulen können Sie:
 
-* Trigger eines Szenarios beim Hinzufügen, Aktualisieren oder Löschen eines Datensatzes.
-* Erstellen oder aktualisieren Sie Datensätze.
-* Rufen Sie Daten aus vorhandenen Datensätzen ab.
-* Herunterladen oder Hochladen von Anlagen.
-* Verknüpfen Sie Arbeitselemente miteinander.
-* Rufen Sie eine Liste der Arbeitselemente ab.
-* Führen Sie einen benutzerdefinierten API-Aufruf durch.
+* Trigger : Ein Szenario, in dem ein Datensatz hinzugefügt, aktualisiert oder gelöscht wird.
+* Einträge erstellen oder aktualisieren.
+* Abrufen von Daten aus vorhandenen Datensätzen.
+* Herunterladen oder Hochladen von Anhängen.
+* Arbeitselemente miteinander verknüpfen.
+* Abrufen einer Liste von Arbeitselementen.
+* Durchführen eines benutzerdefinierten API-Aufrufs.
 
 Weitere Informationen finden Sie unter [Azure DevOps-Module](../../../workfront-fusion/apps-and-their-modules/azure-dev-ops.md).
 
-## Qualtrics-Connector und -Module sind jetzt verfügbar
+## Qualtrics-Connector und -Module jetzt verfügbar
 
-Sie können jetzt mit Workfront Fusion 2.0 eine Verbindung zu Ihrem Qualtrics-Konto herstellen. Mit den Qualtrics-Modulen können Sie:
+Sie können jetzt Workfront Fusion 2.0 verwenden, um eine Verbindung zu Ihrem Qualtrics-Konto herzustellen. Mit den Qualtrics-Modulen können Sie:
 
-* Trigger eines Szenarios bei der Erstellung einer neuen Umfrageantwort
-* Verzeichniskontakte erstellen, abrufen, aktualisieren, löschen oder auflisten.
+* Trigger : Ein Szenario, in dem eine neue Umfrageantwort erstellt wird.
+* Erstellen, Abrufen, Aktualisieren, Löschen oder Auflisten von Verzeichniskontakten.
 * Erstellen Sie eine neue Umfrageverteilung für SMS.
-* Verteilen einer Umfrage per E-Mail
-* Führen Sie einen benutzerdefinierten API-Aufruf durch.
+* Verteilen Sie eine Umfrage per E-Mail.
+* Durchführen eines benutzerdefinierten API-Aufrufs.
 
-Weitere Informationen finden Sie unter [Qualtrics modules](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).
+Weitere Informationen finden Sie unter [Qualtrics-Module](../../../workfront-fusion/apps-and-their-modules/qualtrics-modules.md).

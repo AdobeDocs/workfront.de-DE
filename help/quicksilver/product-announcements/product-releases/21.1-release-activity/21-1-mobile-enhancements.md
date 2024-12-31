@@ -15,20 +15,20 @@ ht-degree: 0%
 
 # 21.1 Verbesserungen für Mobilgeräte
 
-Auf dieser Seite werden alle mobilen Verbesserungen der Version 21.1 beschrieben. Diese Verbesserungen werden in der Mobile Stores-Woche vom 15. Februar 2021 verfügbar gemacht.
+Auf dieser Seite werden alle Mobile-Verbesserungen der Version 21.1 beschrieben. Diese Verbesserungen werden in den mobilen Stores in der Woche vom 15. Februar 2021 zur Verfügung gestellt.
 
-Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [21.1 - Versionsübersicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Eine Liste aller mit Version 21.1 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
 ## Neue Navigations-Breadcrumbs in der Adobe Workfront-App
 
-Wir haben der mobilen Workfront-App die Breadcrumb-Navigation hinzugefügt. Jetzt können Sie mit dieser Funktion zu übergeordneten Arbeitselementen innerhalb eines Projekts navigieren.
+Die Breadcrumb-Navigation wurde zur Mobile App von Workfront hinzugefügt. Jetzt können Sie diese Funktion verwenden, um zu übergeordneten Arbeitselementen innerhalb eines Projekts zu navigieren.
 
-## Rich-Text wird in benutzerdefinierten Formularen in der Workfront-App unterstützt
+## Unterstützter Rich-Text in benutzerdefinierten Formularen in der Workfront-App
 
-Sie können jetzt Rich-Text-Formatierungen in benutzerdefinierten Formulartextfeldern in der mobilen Workfront-App verwenden.
+Sie können jetzt Rich-Text-Formatierung in benutzerdefinierten Formulartextfeldern in der Workfront Mobile App verwenden.
 
-## SSO-Benutzer können sich jetzt mit der Face ID oder der Fingerabdruck-Technologie erneut bei der Workfront-App anmelden
+## SSO-Benutzer können sich jetzt mit Face ID oder Fingerprint-Technologie erneut bei der Workfront-App anmelden
 
-Wenn Ihr Unternehmen SSO verwendet, können Sie sich jetzt mit Ihrer Face ID oder Ihrem Fingerabdruck nach Ablauf der Sitzung bei der mobilen Workfront-App anmelden. Sie müssen sich jedoch zunächst mit Ihren SSO-Anmeldeinformationen anmelden.
+Wenn Ihr Unternehmen SSO verwendet, können Sie sich jetzt mit Ihrer Gesicht-ID oder Ihrem Fingerabdruck nach Ablauf der Zeit bei der Workfront-Mobile-App anmelden. Sie müssen sich jedoch zunächst mit Ihren SSO-Anmeldedaten anmelden.
 
-Informationen zum Anmelden bei der mobilen Workfront-App mit SSO finden Sie unter [Bei Adobe Workfront anmelden](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).
+Informationen zum Anmelden bei der Workfront Mobile App mit SSO finden Sie unter [Bei Adobe Workfront anmelden](../../../workfront-basics/manage-your-account-and-profile/managing-your-workfront-account/log-in-to-workfront.md).

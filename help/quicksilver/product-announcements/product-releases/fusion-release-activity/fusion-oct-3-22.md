@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 3. Oktober 2022'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 3. Oktober 2022 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 3. Oktober 2022'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 3. Oktober 2022 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 3. Oktober 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 3. Oktober 2022
 
-## Neue Operatoren und Funktionen für Ereignisfilter in Workfront > Modul &quot;Überwachungsereignisse&quot;
+## Neue Operatoren und Funktionen für Ereignisfilter in Workfront > Modul Ereignisse beobachten verfügbar
 
-Um beim Erstellen von Ereignisfiltern im Modul Workfront > Ereignisse überwachen mehr Flexibilität und Spezifität zu ermöglichen, haben wir einige Aktualisierungen am Modul Workfront > Ereignisse überwachen vorgenommen:
+Um beim Erstellen von Ereignisfiltern im Modul Workfront > Ereignisse beobachten mehr Flexibilität und Spezifität zu ermöglichen, wurden einige Aktualisierungen am Modul Workfront > Ereignisse beobachten vorgenommen:
 
-Wir haben einige neue Operatoren zum Ereignisfilter hinzugefügt. Jetzt können Sie Folgendes verwenden:
+Wir haben dem Ereignisfilter einige neue Operatoren hinzugefügt. Jetzt können Sie eine der folgenden Optionen verwenden:
 
 * Ist gleich
 * Ungleich
 * Größer als
 * Kleiner als
 
-Wir haben außerdem die Möglichkeit hinzugefügt, auszuwählen, ob der Filter auf den alten Status des Felds oder den neuen Status angewendet werden soll. Wenn Sie beispielsweise ausgewählt haben, den alten Status eines Felds zu überwachen, und den Filter so einstellen, dass er auf die Status überwacht, die in Bearbeitung sind, wird das Modul Trigger, wenn sich der Status von In Bearbeitung in einen neuen Status ändert.
+Wir haben auch die Möglichkeit hinzugefügt, auszuwählen, ob der Filter auf den alten oder den neuen Status des Felds angewendet werden soll. Wenn Sie beispielsweise ausgewählt haben, dass der alte Status eines Felds überwacht werden soll, und den Filter so einstellen, dass auf laufende Status gefiltert wird, wird das Modul in einen Trigger versetzt, wenn sich der Status von In Bearbeitung in einen neuen Status ändert.
 
 Weitere Informationen zu den Adobe Workfront-Modulen finden Sie unter [Adobe Workfront-Module](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md).

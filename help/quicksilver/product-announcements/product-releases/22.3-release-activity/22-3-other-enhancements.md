@@ -1,6 +1,6 @@
 ---
-title: sonstige Aktualisierungen während des Zeitrahmens der Version 22.3
-description: sonstige Aktualisierungen während des Zeitrahmens der Version 22.3
+title: Weitere Updates während des Zeitrahmens der Version 22.3
+description: Weitere Updates während des Zeitrahmens der Version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,61 +13,61 @@ ht-degree: 0%
 
 ---
 
-# 2.3 Weitere Verbesserungen
+# 22.3 Weitere Verbesserungen
 
-Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.3 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 22.3 verfügbaren Änderungen finden Sie unter Übersicht über die Version [22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
-## Aktualisierte Timesheets
+## Aktualisierte Arbeitszeittabellen
 
-Wir verbessern und aktualisieren Ihr Erlebnis bei der Arbeit mit Timesheets weiter. Die folgenden Funktionen sind in diesem Update enthalten:
+Wir verbessern und aktualisieren Ihr Erlebnis bei der Arbeit mit Arbeitszeittabellen kontinuierlich. Im Folgenden finden Sie einige der Funktionen, die in diesem Update enthalten sind:
 
-* Ein neues Erscheinungsbild, das dem neuen Workfront-Erlebnis entspricht.
+* Ein neues Look-and-Feel, das dem neuen Workfront-Erlebnis entspricht.
 
-* Autosave-Funktion, um Ihre angemeldeten Stunden und Stunden-Kommentare automatisch zu speichern, wenn Sie sie in der Sekunde hinzufügen.
+* Funktion zum automatischen Speichern der protokollierten Stunden und Stundenkommentare, sobald diese hinzugefügt werden.
 
-* Ein intuitiveres Seitenlayout für die Übereinstimmung mit anderen Objektseiten. Zum Beispiel haben wir dem Timesheet einen linken Bereich hinzugefügt. Die Timesheet-Aktualisierungen werden jetzt im Abschnitt Updates im linken Bereich angezeigt. Sie können auch ein Timesheet aus der Timesheet-Seite löschen und das Timesheet zu Ihrer Favoritenliste hinzufügen.
+* Ein intuitiveres Seiten-Layout für andere Objektseiten. Beispielsweise haben wir der Arbeitszeittabelle ein linkes Bedienfeld hinzugefügt. Die Aktualisierungen der Arbeitszeittabelle werden jetzt im Abschnitt Aktualisierungen im linken Bereich angezeigt. Sie können auch eine Arbeitszeittabelle aus der Arbeitszeittabellen-Seite löschen und die Arbeitszeittabelle zur Favoritenliste hinzufügen.
 
-* Ein besseres Erlebnis beim Suchen und Hinzufügen von Projekten, Aufgaben oder Problemen zum Timesheet. Dies entspricht dem Erlebnis in allen anderen Listen in Workfront.
+* Ein besseres Erlebnis bei der Suche und beim Hinzufügen von Projekten, Aufgaben oder Problemen zur Arbeitszeittabelle. Dies entspricht dem Erlebnis in allen anderen Listen in Workfront.
 
-* Das Bedienfeld Zusammenfassung steht für Aufgaben und Probleme zum Hinzufügen von Kommentaren oder zum Aktualisieren von Informationen direkt vom Timesheet aus zur Verfügung.
+* Das Bedienfeld Zusammenfassung steht direkt über die Arbeitszeittabelle für Aufgaben und Probleme zum Hinzufügen von Kommentaren oder Aktualisieren von Informationen zur Verfügung.
 
 
-Mit der aktuellen Aktualisierung wurden auch die folgenden Funktionen eingestellt:
+Mit dem aktuellen Update haben wir auch die folgenden Funktionen eingestellt:
 
-* Das Erstellen einer Aufgabe aus einer Aktualisierung wurde entfernt. Diese Funktion wurde seit der Version 2018.2 aus den Aktualisierungsbereichen aller anderen Objekte entfernt, war jedoch weiterhin im Aktualisierungsstream des Zeitplans verfügbar.
+* Das Erstellen einer Aufgabe aus einer Aktualisierung wurde entfernt. Diese Funktion wurde seit der Version 2018.2 aus den Bereichen Aktualisierungen aller anderen Objekte entfernt, war jedoch weiterhin im Arbeitszeittabellen-Aktualisierungsverlauf verfügbar.
 
-* Die &quot;Aufwendungen aus einem Zeitblatt hinzufügen. &quot;Die Voreinstellung wurde aus dem Bereich &quot;Zeitblatt &amp; Stunden Voreinstellungen&quot;des Setups entfernt und Sie können die Ausgaben nicht mehr aus dem Zeitblatt protokollieren. Sie können die Ausgaben weiterhin über die Aufgaben- und Projektseiten protokollieren.
+* Die Option „Kosten aus einer Arbeitszeittabelle hinzufügen“. „Die Voreinstellung wurde aus dem Bereich Arbeitszeittabellen- und Stunden-Voreinstellungen von Setup entfernt, und Sie können keine Ausgaben mehr in der Arbeitszeittabelle protokollieren. Sie können Ausgaben weiterhin auf den Aufgaben- und Projektseiten protokollieren.
 
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Grundlegendes zum Layout des Zeitplans](/help/quicksilver/timesheets/timesheets/timesheet-layout.md)
+* [Arbeitszeittabellen-Layout verstehen](/help/quicksilver/timesheets/timesheets/timesheet-layout.md)
 
-* [Zeitblatt- und Stundenvoreinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
+* [Arbeitszeittabelle und Stundeneinstellungen konfigurieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
 
 
 ## Verbesserungen am linken Navigationsbereich
 
-Das linke Navigationsfenster in Adobe Workfront wurde um einige Verbesserungen erweitert.
+Das linke Navigationsfenster in Adobe Workfront wurde mehrfach verbessert.
 
-* Das Erscheinungsbild des linken Navigationsfensters wurde auf Adobe-Design-Standards aktualisiert, einschließlich Farben und Schriftarten.
+* Das Erscheinungsbild des linken Navigationsbereichs wurde auf die Adobe-Designstandards aktualisiert, einschließlich Farben und Schriftarten.
 
-* Der Link &quot;Benutzerspezifischen Abschnitt hinzufügen&quot;am unteren Rand des Bedienfelds wurde in &quot;Dashboard hinzufügen&quot;umbenannt, um dessen Funktion besser zu erklären.
+* Der Link „Benutzerdefinierten Abschnitt hinzufügen“ am unteren Rand des Bedienfelds wurde in „Dashboard hinzufügen“ umbenannt, um die Funktion besser zu erklären.
 
-## Automatische Aktualisierung der Token-Rotation in Ihren benutzerdefinierten OAuth2-Anwendungen aktivieren
+## Aktivieren der automatischen Token-Rotation in Ihren benutzerdefinierten OAuth2-Anwendungen
 
-Um Ihnen mehr Kontrolle über die Sicherheit Ihrer benutzerdefinierten OAuth2-Anwendungen zu ermöglichen, haben wir die Option hinzugefügt, um die Rotation des Aktualisierungs-Tokens zu aktivieren. Wenn diese Option aktiviert ist, erstellt und sendet Ihre Anwendung jedes Mal, wenn ein Aktualisierungstoken verwendet wird, automatisch ein neues Aktualisierungstoken und deaktiviert das alte.
+Um Ihnen mehr Kontrolle über die Sicherheit Ihrer benutzerdefinierten OAuth2-Programme zu ermöglichen, haben wir die Option hinzugefügt, die Token-Rotation zu aktualisieren. Wenn diese Option aktiviert ist, erstellt und sendet Ihre Anwendung jedes Mal, wenn ein Aktualisierungstoken verwendet wird, automatisch ein neues Aktualisierungstoken und deaktiviert das alte.
 
-Ihr Programm muss das neue Aktualisierungstoken nach jeder Aktualisierung speichern. Workfront speichert dieses Aktualisierungstoken nicht.
+Die Anwendung muss das neue Aktualisierungstoken nach jeder Aktualisierung speichern. Workfront speichert dieses Aktualisierungstoken nicht.
 
-Zuvor liefen Aktualisierungstoken nach einer bestimmten Zeitdauer ab, die in den benutzerdefinierten OAuth2-Anwendungseinstellungen konfiguriert war.
+Zuvor waren Aktualisierungstoken abgelaufen, nachdem eine bestimmte Zeitdauer in den benutzerdefinierten OAuth2-Anwendungseinstellungen konfiguriert wurde.
 
-Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Programmen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
 
-## Verwenden Sie PKCE in Ihren benutzerdefinierten OAuth2-Integrationen für Einzelseiten-Webanwendungen.
+## Verwenden von PKCE in Ihren benutzerdefinierten OAuth2-Integrationen für Single-Page-Web-Anwendungen
 
-Sie können jetzt Single-Page-Webanwendungen in Ihren benutzerdefinierten Integrationen mit PKCE erstellen. PKCE ist ein sicherer Autorisierungsfluss, der gut mit dynamisch aktualisierten Anwendungen wie Apps funktioniert, aber für alle OAuth2-Clients nützlich ist. Statt eines statischen Client-Geheimnisses verwendet PKCE eine dynamisch generierte Zeichenfolge, wodurch das Risiko eines durchgesickerten Client-Geheimnisses entfällt.
+Sie können jetzt Single Page Applications (SPAs) in Ihren benutzerdefinierten Integrationen mithilfe von PKCE erstellen. PKCE ist ein sicherer Autorisierungsfluss, der gut mit dynamisch aktualisierten Programmen wie mobilen Apps funktioniert, aber für alle OAuth2-Clients nützlich ist. Anstelle eines statischen Client-Geheimnisses verwendet PKCE eine dynamisch generierte Zeichenfolge, wodurch das Risiko eines Lecks des Client-Geheimnisses vermieden wird.
 
 Zuvor verwendeten die verfügbaren Optionen für benutzerdefinierte OAuth2-Anwendungen entweder den Namen und das Kennwort eines Benutzers oder ein Client-Geheimnis.
 
-Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).
+Weitere Informationen finden Sie unter [Erstellen von OAuth2-Programmen für Workfront-Integrationen](/help/quicksilver/administration-and-setup/configure-integrations/create-oauth-application.md).

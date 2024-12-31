@@ -1,6 +1,6 @@
 ---
-title: mobile Aktualisierungen während des Veröffentlichungszeitrahmens 22.3
-description: mobile Aktualisierungen während des Veröffentlichungszeitrahmens 22.3
+title: Mobile-Updates im Zeitrahmen der Version 22.3
+description: Mobile-Updates im Zeitrahmen der Version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 # 22.3 Verbesserungen für Mobilgeräte
 
-Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Auf dieser Seite werden alle mit Version 22.3 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 22.3 verfügbaren Änderungen finden Sie unter Übersicht über die Version [22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
-## Verbesserungen bei der Testprüfung in der mobilen App
+## Proofing-Verbesserungen in der Mobile App
 
 >[!NOTE]
 >
->Diese Funktionen sind ab Mitte bis Ende Juli 2022 im Apple App Store- und Google Play-Store allgemein verfügbar.
+>Diese Funktionen werden Mitte bis Ende Juli 2022 im Apple App Store und Google Play Store allgemein verfügbar sein.
 
 
-Mit der mobilen Adobe Workfront-App können Sie jetzt Anhänge zu Testkommentaren anzeigen und neue Anhänge hinzufügen. Unterstützte Dateitypen für Anhänge sind Bilder, Dokumente und Videos.
+Mit der Mobile App von Adobe Workfront können Sie jetzt Anhänge zu Korrekturabzugskommentaren anzeigen und neue Anhänge hinzufügen. Unterstützte Dateitypen für Anhänge sind Bilder, Dokumente und Videos.
 
-Sie können auch andere Testversand-Benutzer in Kommentaren und Antworten taggen. Jeder, den Sie taggen, erhält eine E-Mail-Benachrichtigung.
+Sie können auch andere Korrekturabzugsbenutzende in Kommentaren und Antworten taggen. Jeder, den Sie taggen, erhält eine E-Mail-Benachrichtigung.
 
-Die folgenden Artikel werden aktualisiert, wenn die App in den Appstores veröffentlicht wird:
+Die folgenden Artikel werden aktualisiert, wenn die App in den App Stores veröffentlicht wird:
 
 * [Kommentar zu Testsendungen in Android](/help/quicksilver/workfront-basics/mobile-apps/using-the-workfront-mobile-app/comment-on-proofs-android.md)
 

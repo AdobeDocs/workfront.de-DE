@@ -1,6 +1,6 @@
 ---
-title: 2.4 Verbesserungen bei der Ressourcenverwaltung
-description: 2.4 Verbesserungen bei der Ressourcenverwaltung
+title: 22.4 Verbesserungen beim Ressourcenmanagement
+description: 22.4 Verbesserungen beim Ressourcenmanagement
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,47 +13,47 @@ ht-degree: 0%
 
 ---
 
-# 2.4 Verbesserungen bei der Ressourcenverwaltung
+# 22.4 Verbesserungen beim Ressourcenmanagement
 
-Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 22.4 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 22.4 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 3. Oktober 2022 zur Verfügung gestellt.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Anzeigen aller Benutzer für den Lastenausgleich eines Projekts
+## Alle Benutzer für den Workload-Balancer eines Projekts anzeigen
 
-Damit Sie alle Benutzer im System und deren Kapazität einsehen können, ohne den Arbeitslast-Balancer eines Projekts verlassen zu müssen, haben wir die Option &quot;Alle Benutzer anzeigen&quot;hinzugefügt. Wenn diese Option aktiviert ist, zeigt der Lastenausgleich des Projekts alle Benutzer im System im Bereich Zugewiesene Arbeit an. Mit dieser Verbesserung können Sie leicht erkennen, wer Aufgaben zugewiesen werden muss, die im nicht zugewiesenen Arbeitsbereich aufgeführt sind.
+Damit Sie Einblicke in alle Benutzenden im System und deren Kapazität erhalten, ohne den Workload-Balancer eines Projekts verlassen zu müssen, haben wir die Option „Alle Benutzenden anzeigen“ hinzugefügt. Wenn diese Option aktiviert ist, zeigt der Workload-Balancer des Projekts alle Benutzenden im System im Bereich Zugewiesene Arbeit an. Mit dieser Verbesserung können Sie ganz einfach feststellen, wer der Arbeit zugewiesen werden muss, die im Bereich Nicht zugewiesene Arbeit aufgelistet ist.
 
-Weitere Informationen finden Sie unter [Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen von ](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
+Weitere Informationen finden Sie unter [Zuweisen von Arbeit im Workload Balancer durch Ziehen und Ablegen](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412873/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412873/){target=_blank}
 
-## Anzeigen aller Benutzer mit einer ausgewählten Auftragsrolle im Arbeitslastausgleich bei der Zuweisung von Arbeitsaufgaben in Stapeln
+## Alle Benutzer mit einem ausgewählten Aufgabengebiet im Workload Balancer anzeigen, wenn gleichzeitig mehrere Arbeitsaufgaben zugewiesen werden
 
-Um die richtige Person beim Ersetzen von Stellenrollen durch Benutzer im Arbeitslastausgleich in großen Mengen leichter zu finden, haben wir die Art und Weise verbessert, wie die Liste der verfügbaren Benutzer ausgefüllt wird. Jetzt können Sie alle Benutzer im System anzeigen, die die ausgewählte Rolle in zwei separaten Bereichen in derselben Benutzerliste erfüllen können:
+Um es einfacher zu machen, die richtige Person zu finden, wenn Sie Aufgabengebiete im Workload Balancer per Massenaustausch durch Benutzende ersetzen, wurde die Auffüllung der Liste der verfügbaren Benutzenden verbessert. Jetzt können Sie alle Benutzenden im System, die die ausgewählte Rolle erfüllen können, in zwei separaten Bereichen in derselben Benutzerliste anzeigen:
 
-* Im ersten Bereich (Vorgeschlagene Zuweisungen) werden Benutzer angezeigt, die durch die Logik der intelligenten Zuweisungen identifiziert wurden. Weitere Informationen finden Sie unter [Übersicht über Smart-Zuweisungen](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
+* Im ersten Bereich (Vorgeschlagene Zuweisungen) werden Benutzer angezeigt, die durch die Logik für intelligente Zuweisungen identifiziert werden. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
 * Im zweiten Bereich (Andere Zuweisungen) werden alle Benutzer angezeigt, die die ausgewählte Rolle erfüllen können.
 
-Vor dieser Verbesserung konnten Sie nur die Liste der Benutzer anzeigen, die für die Zuweisung gemäß der Logik der intelligenten Zuweisungen verfügbar sind.
+Vor dieser Verbesserung konnten Sie nur die Liste der Benutzer anzeigen, die für die Zuweisung gemäß der Logik für intelligente Zuweisungen verfügbar waren.
 
-Informationen zum Zuweisen von Arbeitsaufgaben in Stapeln mithilfe des Workload-Balancers finden Sie unter [Zuweisen von Arbeitsaufgaben in Stapeln mithilfe des Workload-Balancers](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
+Informationen zum Massenzuweisen von Arbeit mit dem Workload Balancer finden Sie unter [Massenzuweisung von Arbeit mit dem Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3412874/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3412874/){target=_blank}
 
-## Verbesserungen beim Arbeitslade-Balancer für Benutzer von Arbeits-Lizenzen und Problemeinstellungen
+## Verbesserungen am Workload-Balancer für Benutzende mit Arbeitslizenz und Problemeinstellungen
 
-Zur Vorbereitung auf die Einstellung der Planungswerkzeuge wurden die folgenden Verbesserungen zum Arbeitslastausgleich hinzugefügt:
+Die folgenden Verbesserungen wurden zum Workload-Balancer hinzugefügt, um die Einstellung der Zeitplan-Tools vorzubereiten:
 
-* Benutzer von Arbeitslizenzen können jetzt Zuordnungen anpassen, wenn sie den Arbeitslade-Balancer eines Projekts verwenden
+* Benutzende mit Arbeitslizenzen können jetzt Zuweisungen anpassen, wenn sie den Workload-Balancer eines Projekts verwenden
 
-* Probleme werden im Arbeitsbereich &quot;Nicht zugewiesen&quot;angezeigt, wenn die Einstellung &quot;Stunden von Problemen einschließen&quot;aktiviert wird
+* Probleme werden im Bereich Nicht zugewiesene Arbeit angezeigt, wenn die Einstellung „Stunden aus Problemen einbeziehen“ aktiviert wird
 
-Vor diesen Verbesserungen konnten nur Benutzer mit einer Planlizenz Benutzerzuordnungen und Probleme anpassen, die nur im Bereich Zugewiesene Arbeit angezeigt wurden.
+Vor diesen Verbesserungen konnten nur Benutzer mit Planlizenz die Benutzerzuweisungen und -probleme anpassen, die nur im Bereich Zugewiesene Arbeit angezeigt wurden.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Navigieren Sie zum Lastenausgleich](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+* [Navigieren im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-* [Verwalten Sie Benutzerzuordnungen im Arbeitslade-Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+* [Verwalten von Benutzerzuweisungen im Workload Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 

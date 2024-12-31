@@ -1,6 +1,6 @@
 ---
-title: Verbesserungen für das vierte Quartal 2024 - Startseite
-description: Verbesserungen für das vierte Quartal 2024 - Startseite
+title: Home-Verbesserungen für das vierte Quartal 2024
+description: Home-Verbesserungen für das vierte Quartal 2024
 author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,71 +12,71 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen für das vierte Quartal 2024 - Startseite
+# Home-Verbesserungen für das vierte Quartal 2024
 
-Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom 4. Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2024 verfügbar sind, finden Sie unter [Überblick über die Version des vierten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2024-Veröffentlichungszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).
 
-## Aktualisierungen des Widgets &quot;Auf meine Genehmigung warten&quot;in der neuen Startseite
+## Aktualisierungen des Widgets Warten auf meine Genehmigung in der neuen Startseite
 
 >[!NOTE]
 >
 >Vorschau-Version: 10. Oktober 2024; Produktionsversion für alle Kunden: 10. Oktober 2024.
 
-Wir haben die folgenden Änderungen am Widget Erwartung meiner Genehmigung vorgenommen:
+Wir haben die folgenden Änderungen am Widget „Warten auf meine Genehmigung“ vorgenommen:
 
-* **Das Widget wurde umbenannt**: Der Name dieses Widgets lautet jetzt Meine Genehmigungen .
-* **Hinzugefügte Genehmigungen, die ich als Filteroption gesendet habe**: Sie können jetzt mit diesem Widget auf der neuen Startseite gesendete Genehmigungen anzeigen.
-* **Deadline**: Sie können jetzt den Testversand-Deadline sehen, wenn einer festgelegt wurde. Wenn kein Termin festgelegt ist, wird als Frist standardmäßig das Erstellungsdatum verwendet.
+* **Widget umbenannt**: Der Name dieses Widgets lautet jetzt „Meine Genehmigungen“.
+* **Es wurden Genehmigungen hinzugefügt, die ich als Filteroption übermittelt habe**: Mit diesem Widget können Sie jetzt Genehmigungen anzeigen, die Sie auf der neuen Startseite gesendet haben.
+* **Frist**: Wenn eine Frist für Korrekturabzüge festgelegt wurde, wird sie jetzt angezeigt. Wenn kein Termin festgelegt ist, wird für den Termin standardmäßig das Erstellungsdatum verwendet.
 
 Weitere Informationen finden Sie unter [Erste Schritte mit der Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-## Vereinfachung der Workfront-Erfahrung für Aufgabeneigentümer mit Prioritäten
+## Vereinfachen des Workfront-Erlebnisses für Aufgabenbesitzer mit Prioritäten
 
 >[!NOTE]
 >
 >Vorschau-Version: 3. Oktober 2024; Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024).
 
-Einführung von Prioritäten: ein einfacheres, optimiertes und intuitiveres Workfront-Erlebnis für Aufgabeneigentümer.
+Einführung von Prioritäten: Ein einfacheres, optimiertes und intuitiveres Workfront-Erlebnis für Aufgabenbesitzer.
 
-Prioritätensetzung verbessert Fokus und Produktivität, um Kunden zu helfen, in kürzerer Zeit mehr zu erreichen.
+Prioritäten verbessern die Fokussierung und Produktivität, damit Kunden in kürzerer Zeit mehr erreichen können.
 
-Mit Prioritäten können Sie
+Mit Prioritäten können Sie Folgendes genießen
 
-* Verwaltung und Priorisierung von täglichen Aufgaben: Organisieren Sie Ihren Tag oder Ihre Woche mit konsolidierter Navigation, um mehr Klarheit zu schaffen
-* Höhere Produktivität: Zugriff auf den Projektkontext und schnellere Ausführung von Aufgaben mit weniger Klicks
-* Personalisierte Funktionen: Profitieren Sie von einzigartigen Funktionen für Aufgabenbesitzer
+* Tägliche Aufgaben verwalten und priorisieren: Organisieren Sie Ihren Tag oder Ihre Woche mit konsolidierter Navigation für mehr Klarheit
+* Höhere Produktivität: Schnellerer Zugriff auf den Projektkontext und schnellere Ausführung von Aufgaben mit weniger Klicks
+* Personalisierte Funktionen: Profitieren Sie von Funktionen, die speziell für Aufgabenbesitzer entwickelt wurden
 
-Die Prioritätensetzung soll das alte Home ersetzen, und die neuen Funktionen werden in Phasen veröffentlicht.
+Die Prioritäten sollen die alte Startseite ersetzen, und neue Funktionen werden in Phasen veröffentlicht.
 
 Weitere Informationen finden Sie unter [Erste Schritte mit Prioritäten](/help/quicksilver/workfront-basics/priorities/get-started-with-priorities.md)
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3434848/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3434848/){target=_blank}
 
-## Veraltetes Home-Erlebnis mit Version 24.10
+## Einstellung des alten Startseiten-Erlebnisses mit 24.10
 
-Mit der Version 24.10 werden wir offiziell das alte Home-Erlebnis einstellen.
+Mit der Version 24.10 werden wir das veraltete Startseiten-Erlebnis offiziell einstellen.
 
-Mit dieser Änderung werden die folgenden Bereiche betroffen sein:
+Mit dieser Änderung sind die folgenden Bereiche betroffen:
 
-**Layout-Vorlage**
+**Layoutvorlage**
 
-* Der Bereich _Home workspace_ wird in _Home_ umbenannt.
-* Der Bereich _Home und Summary_ wird in _Summary panel_ umbenannt. Anpassungen in diesem Bereich gelten weiterhin für das Bedienfeld &quot;Zusammenfassung&quot;im neuen Startseite. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
-* Die folgenden Registerkarten werden aus dem Bedienfeld Startseite und Zusammenfassung entfernt:
+* Der Bereich _Startseite_ wird in &quot;_&quot;_.
+* Der Bereich _Startseite und Zusammenfassung_ wird in _Zusammenfassungsbereich“_. Anpassungen in diesem Bereich gelten weiterhin für das Bedienfeld Zusammenfassung in der neuen Startseite. Weitere Informationen finden Sie unter [Anpassen von Startseite und Zusammenfassung mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md).
+* Wir werden die folgenden Registerkarten aus dem Bedienfeld Startseite und Zusammenfassung entfernen:
    * Projekte
    * Dokumente
    * Dokumentversionen
 
-Hinweis: Die Dokument- und Dokumentversionen wurden nur auf die alte Startseite angewendet. Sie haben es nicht ermöglicht, die Zusammenfassung im Bereich &quot;Dokumente&quot;anzupassen.
+Hinweis: Die Dokument- und Dokumentversionen gelten nur für die alte Startseite. Sie ermöglichten es nicht, die Zusammenfassung im Bereich Dokumente anzupassen.
 
 **Genehmigungen verwalten**
 
-* Sie können Benutzer nicht mehr in der Startseite von den eingereichten Genehmigungen abrufen, daran erinnern oder sie daraus entfernen. Stattdessen können Sie dies in der Validierung selbst verwalten.
+* Sie können Benutzer nicht mehr von gesendeten Genehmigungen im Bereich Startseite zurückrufen, erinnern oder entfernen. Stattdessen können Sie dies in der Genehmigung selbst verwalten.
 
-Es wird empfohlen, dass Benutzer mit der Verwendung des neuen Home beginnen, das vor der Einstellung weiter um zusätzliche Funktionen erweitert wird.
+Die Benutzer werden ermutigt, mit der Verwendung der neuen Startseite zu beginnen, die vor der Einstellung weiterhin durch zusätzliche Funktionen erweitert wird.
 
 >[!NOTE]
 >
->Nachdem die veraltete Startseite veraltet ist, wird _neues Startseite_ in Workfront als _Startseite_ bezeichnet. Alle _neuen Home_-Dokumentationen werden in _Home_ umbenannt.
+>Nachdem die veraltete Startseite veraltet ist _wird_ neue Startseite“ in Workfront _Startseite_ genannt. Alle _neue Startseite_-Dokumentationen werden in &quot;_&quot;_.

@@ -1,9 +1,9 @@
 ---
 content-type: release-notes
-keywords: notes,vierteljährlich,update,release
+keywords: Hinweise,vierteljährlich,Aktualisierung,Freigabe
 navigation-topic: 2021-2-release-activity
 title: 21.2 Verbesserungen für Mobilgeräte
-description: Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
+description: Auf dieser Seite werden alle mit Version 21.2 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie in der Übersicht über die Version 21.2.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -17,25 +17,25 @@ ht-degree: 3%
 
 # 21.2 Verbesserungen für Mobilgeräte
 
-Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle mit Version 21.2 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Kommentare zum Datenblatt
+## Kommentare zur Arbeitszeittabelle
 
 >[!NOTE]
 >
->Diese Funktion ist in der Apple App Store ab der Produktionsversion 21.2 am 10. Mai 2021 allgemein verfügbar.
+>Diese Funktion wird in Apple App Store ab dem 10. Mai 2021 mit dem Produktionsrelease 21.2 allgemein verfügbar sein.
 
-Mit der Mobile App können Sie jetzt Kommentare zu Ihren Timesheets eingeben.
+Mit der Mobile App können Sie jetzt Kommentare in Ihre Arbeitszeittabellen eingeben.
 
 Weitere Informationen finden Sie unter [Adobe Workfront für iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) und [Adobe Workfront für Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
-## Zusätzliche Objekte, die mit typeahead unterstützt werden - nur für iOS-Benutzer
+## Zusätzliche Objekte mit automatischer Textvervollständigung - nur für iOS-Benutzer
 
 >[!NOTE]
 >
->Diese Funktion ist in der Apple App Store ab dem 27. April 2021 allgemein verfügbar.
+>Diese Funktion ist in Apple App Store ab dem 27. April 2021 allgemein verfügbar.
 
-Die Mobile App unterstützt jetzt die folgenden Objekte in benutzerdefinierten Formulartypvorgangsfeldern:
+Die Mobile App unterstützt jetzt die folgenden Objekte in Feldern mit automatischer Textvervollständigung für benutzerdefinierte Formulare:
 
 * Firma
 * Gruppe
@@ -46,12 +46,12 @@ Die Mobile App unterstützt jetzt die folgenden Objekte in benutzerdefinierten F
 * Team
 * Vorlage
 
-## Speichern von Anforderungen als Entwürfe in der mobilen Workfront-App
+## Anfragen als Entwürfe in der Workfront Mobile App speichern
 
 >[!NOTE]
 >
->Diese Funktion ist in der Apple App Store ab dem 27. April 2021 allgemein verfügbar. Es wird mit der Produktionsversion 21.2 in der Woche vom 10. Mai 2021 im Google Play Store allgemein verfügbar sein.
+>Diese Funktion ist in Apple App Store ab dem 27. April 2021 allgemein verfügbar. Sie wird ab dem 10. Mai 2021 mit dem 21.2 Production Release im Google Play Store allgemein verfügbar sein.
 
-Sie können jetzt teilweise ausgefüllte Anforderungen als Entwürfe in der Mobile App speichern. Im Bereich &quot;Anforderung&quot;haben wir einen neuen Bereich &quot;Entwürfe&quot;hinzugefügt, in dem Sie Ihre Entwürfe einfach finden können.
+Sie können jetzt teilweise ausgefüllte Anfragen als Entwürfe in der Mobile App speichern. Im Anfragebereich wurde ein neuer Abschnitt Entwürfe hinzugefügt, in dem Sie alle Entwürfe leicht finden können.
 
 Weitere Informationen finden Sie unter [Adobe Workfront für Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md) oder [Adobe Workfront für iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md).

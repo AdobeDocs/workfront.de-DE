@@ -16,39 +16,39 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 23.3 vorgenommen wurden. Diese Verbesserungen wurden mit der Version 23.3 vom 20. und 21. Juli 2023 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die derzeit im 23.3-Versionszyklus verfügbar sind, finden Sie unter [23.3 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.3 verfügbar sind, finden Sie unter Übersicht über Version [23.3](/help/quicksilver/product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
 ## Neues Starterlebnis
 
-Um es Benutzern aller Typen zu ermöglichen, Workfront für ihre spezifischen Anforderungen zu nutzen, hat Home ein umfangreiches Update erhalten! Das neue Starterlebnis bietet visuelle und inhaltliche Anpassungen für Ihre Startseite und bietet die Flexibilität, nur die Informationen anzuzeigen, die für Ihre Arbeit am relevantesten sind. Mit der neuen Startseite können Sie:
+Damit Benutzer aller Typen Workfront besser für ihre spezifischen Anforderungen nutzen können, hat Home ein umfangreiches Update erhalten! Die neue Startseite bietet visuelle und inhaltsbezogene Anpassungen für Ihre Startseite und bietet die Flexibilität, nur die Informationen anzuzeigen, die für Ihre Arbeit am relevantesten sind. Mit der neuen Startseite können Sie:
 
-* Wählen Sie aus einer Reihe von Produktivitäts-Widgets aus, die die für Sie wichtigsten Informationen enthalten, sowie entsprechende Tools, auf die Sie direkt über bestimmte Widgets zugreifen können.
-* Passen Sie das Erscheinungsbild und Layout Ihrer Startseite an. Personalisieren Sie Ihre Startseite mit einem farbigen Banner oder indem Sie Widgets auf der dynamischen Arbeitsfläche nach Belieben verschieben und die Größe ändern.
-* Filtern Sie Widget-Informationen danach, wann die Arbeit fällig ist, erstellen Sie benutzerdefinierte Aufgabenlisten und mehr!
+* Wählen Sie aus einer Reihe von Produktivitäts-Widgets, die die für Sie wichtigsten Informationen enthalten, sowie aus den relevanten Tools, auf die Sie direkt über bestimmte Widgets zugreifen können
+* Passen Sie das Erscheinungsbild und Layout Ihrer Startseite an, personalisieren Sie Ihre Startseite mit einem farbigen Banner oder durch Verschieben und Ändern der Größe von Widgets auf der dynamischen Arbeitsfläche nach Belieben
+* Filtern Sie Widget-Informationen nach dem Zeitpunkt der anstehenden Arbeit, erstellen Sie benutzerdefinierte Aufgabenlisten und vieles mehr!
 
-Das neue Zuhause ist ein wichtiges neues Merkmal, das wir gerne weiter entwickeln und verbessern werden. Geben Sie über die In-App-Feedback-Schaltfläche Ihre Erfahrungen mit der neuen Startseite mit uns frei.
+New Home ist eine wichtige neue Funktion, die wir weiter entwickeln und verbessern möchten. Bitte teilen Sie uns Ihre Erfahrungen mit der neuen Startseite über die In-App-Feedback-Schaltfläche mit.
 
-Die neue Startseite wird bei ihrer Veröffentlichung für alle Benutzer das Standarderlebnis sein. Sie können jedoch während der weiteren Entwicklung der Funktionen auf das vorhandene Starterlebnis zurückgreifen.
+Die neue Startseite wird ab ihrer Veröffentlichung das Standarderlebnis für alle Benutzer sein. Sie können sich jedoch dafür entscheiden, zum vorhandenen Startseiten-Erlebnis zurückzukehren, während wir dessen Funktionen weiter entwickeln.
 
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3420969/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3420969/){target=_blank}
 
 ## Neues Kommentierungserlebnis für zusätzliche Objekte
 
-Die neue Kommentarfunktion steht für die folgenden Objekte kurz nach der Version 23.3 in der Produktion zur Verfügung: Vorlagenaufgaben, Vorlagen, Timesheets, Teams, Benutzer, Programme, Portfolios.
+Das neue Kommentierungserlebnis steht kurz nach der Veröffentlichung von Version 23.3 in der Produktion für die folgenden Objekte zur Verfügung: Vorlagenaufgaben, Vorlagen, Arbeitszeittabellen, Teams, Benutzer, Programme, Portfolios.
 
-Dies ist das einzige Kommentarerlebnis für diese Objekte, da das veraltete Kommentarerlebnis entfernt wird.
+Dies ist das einzige Kommentierungserlebnis für diese Objekte, da das alte Kommentierungserlebnis entfernt wird.
 
-Weitere Informationen finden Sie unter [Neue Kommentarerlebnis-Veröffentlichungsaktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Weitere Informationen finden Sie unter [Neue Kommentar-Aktivität zum Erlebnis-Release](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Neues Kommentieren von Beta-Erfahrungen für Projekte, Aufgaben und Probleme
+## Neues Beta-Kommentierungserlebnis für Projekte, Aufgaben und Probleme
 
-Das neue Kommentierungserlebnis in Beta ist jetzt für Projekte, Aufgaben und Dokumente verfügbar. Vor dieser Aktualisierung war das kommentierende Beta-Erlebnis nur für Probleme und Ziele verfügbar.
+Das neue Beta-Kommentierungserlebnis ist jetzt für Projekte, Aufgaben und Dokumente verfügbar. Vor diesem Update war das Beta-Kommentierungserlebnis nur für Probleme und Ziele verfügbar.
 
-Informationen zu den derzeit verfügbaren Funktionen im kommentierenden Beta-Erlebnis finden Sie unter [Neue Kommentarthema-Beta-Erlebnisveröffentlichungsaktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
+Weitere Informationen zu den derzeit in der Beta-Kommentar-Funktion verfügbaren Funktionen finden Sie unter [Neue Beta-Kommentar-Experience-Release-Aktivität](/help/quicksilver/product-announcements/betas/new-commenting-experience-beta/new-commenting-beta-experience-release-activity.md).
 
-## Benutzerinitialen werden jetzt in Profilen ohne Avatare angezeigt
+## Profile ohne Avatare zeigen jetzt Benutzerinitialen an
 
-Um das Auffinden bestimmter Benutzer in großen Listen zu vereinfachen, werden die Benutzerinitialen in Profilen ohne benutzerdefinierte Avatare jetzt in Listen und Legacy-Berichten farbig hinterlegt. Dies ist eine geringfügige kosmetische Änderung und gilt nicht, wenn bereits ein Avatar-Foto verwendet oder der Benutzer deaktiviert wird.
+Um das Auffinden bestimmter Benutzer in großen Listen zu vereinfachen, werden in Profilen ohne benutzerdefinierte Avatare in Listen und Legacy-Berichten jetzt die Initialen der Benutzer auf farbigem Hintergrund angezeigt. Dies ist eine kleine kosmetische Änderung und gilt nicht, wenn bereits ein Avatar-Foto verwendet wird oder der Benutzer deaktiviert ist.
 
-Weitere Informationen zum Bearbeiten von Benutzerprofilen finden Sie unter [Profil eines Benutzers bearbeiten](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+Weitere Informationen zum Bearbeiten von Benutzerprofilen finden Sie [Bearbeiten eines Benutzerprofils](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

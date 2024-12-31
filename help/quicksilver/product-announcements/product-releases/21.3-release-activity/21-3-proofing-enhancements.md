@@ -1,6 +1,6 @@
 ---
-title: 21.3 Verbesserungen bei der Prüfung
-description: 21.3 Verbesserungen bei der Prüfung
+title: 21.3 Proofing-Verbesserungen
+description: 21.3 Proofing-Verbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
@@ -13,24 +13,24 @@ ht-degree: 0%
 
 ---
 
-# 21.3 Verbesserungen bei der Prüfung
+# 21.3 Proofing-Verbesserungen
 
-Auf dieser Seite werden alle Verbesserungen bei der Prüfung beschrieben, die mit Version 21.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 21. Juli 2021 bereitgestellt.
+Auf dieser Seite werden alle Proofing-Verbesserungen beschrieben, die mit der Version 21.3 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 21. Juli 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 - Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Eine Liste aller mit Version 21.3 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
-## Möglichkeit zum Erstellen eines neuen Dokuments oder einer Testversand-Version in einem verknüpften Ordner entfernen
+## Möglichkeit zum Erstellen einer neuen Dokument- oder Korrekturabzugsversion in einem verknüpften Ordner wurde entfernt
 
-Es wurde die Möglichkeit entfernt, eine neue Version eines Dokuments oder Testversands in einem verknüpften Ordner zu erstellen. Sie können auch dann eine neue Version eines verknüpften Dokuments oder Testversands erstellen, wenn sie sich außerhalb eines verknüpften Ordners befinden.
+Wir haben die Möglichkeit entfernt, eine neue Version eines Dokuments oder Korrekturabzugs in einem verknüpften Ordner zu erstellen. Sie können dennoch eine neue Version eines verknüpften Dokuments oder Korrekturabzugs erstellen, wenn diese sich außerhalb eines verknüpften Ordners befinden.
 
-Zuvor wurde diese Option weiterhin für Dokumente und Testsendungen in verknüpften Ordnern angezeigt, Benutzer konnten jedoch keine neue Version eines Dokuments erstellen.
+Zuvor wurde diese Option noch für Dokumente und Korrekturabzüge in verknüpften Ordnern angezeigt, Benutzende konnten jedoch keine neue Version eines Dokuments erstellen.
 
-## Benutzer, die zu einem Testversand hinzugefügt wurden, erhalten automatisch Zugriff auf ein Dokument anzeigen
+## Benutzende, die zu einem Korrekturabzug hinzugefügt wurden, haben automatisch Lesezugriff auf ein Dokument gewährt
 
 >[!NOTE]
 >
->Diese Funktion wurde am 20. Mai 2021 in der Vorschau-Umgebung veröffentlicht. Es wurde am 17. Juni 2021 in die Produktionsumgebung freigegeben.
+>Diese Funktion wurde am 20. Mai 2021 in der Vorschau-Umgebung veröffentlicht. Es wurde am 17. Juni 2021 in der Produktionsumgebung veröffentlicht.
 
-Benutzern mit der Rolle &quot;Überprüfer&quot;oder &quot;Schreibgeschützt&quot;wird automatisch der Zugriff auf das Dokument angezeigt, wenn sie zuvor keinen Zugriff hatten.
+Benutzenden mit der Rolle Prüfer oder Schreibgeschützt als Korrekturabzug wird automatisch Zugriff auf das Dokument gewährt, wenn sie zuvor keine hatten.
 
-Zuvor mussten Benutzer mit den oben genannten Testversandrollen beim Hinzufügen zum Testversand Zugriff auf Dokumente anfordern.
+Zuvor mussten Benutzende mit den oben genannten Korrekturabzug-Rollen Zugriff auf Dokumente anfordern, wenn sie zum Korrekturabzug hinzugefügt wurden.

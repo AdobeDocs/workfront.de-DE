@@ -4,7 +4,8 @@ description: Verbesserungen für Boards im ersten Quartal 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
+source-git-commit: c0a7e84bd63fb15fde62a83c7313674a629c6c7b
 workflow-type: tm+mt
 source-wordcount: '173'
 ht-degree: 0%

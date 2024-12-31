@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 18. April 2022
-description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 18. April 2022
+title: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 18. April 2022
+description: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 18. April 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -14,16 +14,16 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 18. April 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 18. April 2022
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 18. April 2022 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 18. April 2022 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Neue Fusion-Anmeldeoption für Unternehmen, die Adobe Identity Management verwenden
+## Neue Fusion-Anmeldeoption für Organisationen, die Adobe Identity Management verwenden
 
-Wenn Sie sich bei Workfront Fusion anmelden, sehen Sie jetzt die Option &quot;Mit Adobe ID anmelden&quot;. Diese Option ist nur für Unternehmen verfügbar, die Adobe Identity Management als Single-Sign-On-Lösung für Workfront Fusion verwenden.
+Wenn Sie sich bei Workfront Fusion anmelden, sehen Sie jetzt die Option „Anmelden mit Adobe ID&quot;. Diese Option ist nur für Unternehmen verfügbar, die Adobe Identity Management als Single Sign-On-Lösung für Workfront Fusion verwenden.
 
-Bestehende Fusion-Kunden müssen die neue Anmeldeoption nicht verwenden. Wenn Ihr Unternehmen zukünftig zu Adobe Identity Management wechselt, benachrichtigt Sie Ihr Workfront Fusion-Administrator über die Änderung.
+Bestehende Fusion-Kunden müssen die neue Anmeldeoption nicht verwenden. Wenn Ihr Unternehmen in Zukunft zum Adobe von Identity Management wechselt, wird Ihr Workfront Fusion-Administrator Sie über die Änderung informieren.

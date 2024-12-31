@@ -1,9 +1,9 @@
 ---
 content-type: release-notes
-keywords: notes,vierteljährlich,update
+keywords: Anmerkungen,vierteljährlich,aktualisieren
 navigation-topic: product-releases
 title: 21.1 Weitere Verbesserungen
-description: Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
+description: Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 15. Februar 2021 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -17,80 +17,80 @@ ht-degree: 0%
 
 # 21.1 Weitere Verbesserungen
 
-Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
+Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 15. Februar 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [21.1 - Versionsübersicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Eine Liste aller mit Version 21.1 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-## Aktualisierungen der Anforderungen an Ereignisabonnements
+## Aktualisierungen der Fehleranforderungen für Ereignisabonnements
 
-Wir aktualisieren die Soft-disable-Anforderungen für Fehler bei der Ereignisabonnement-Funktion. Zusätzlich zu den bestehenden Anforderungen wird die Option Ereignisabonnements jetzt deaktiviert, wenn sie innerhalb von 2000 Versuchen keinen erfolgreichen Versand erzielen. Damit soll die bestehende 70-%-Ausfallregel verschärft werden, die unter bestimmten Bedingungen zu übermäßigen Fehlschlägen führen kann.
+Die Anforderungen für die Soft-Deaktivierung von Ereignisabonnementfehlern werden aktualisiert. Zusätzlich zu den bestehenden Anforderungen werden Ereignisabonnements jetzt vorläufig deaktiviert, wenn sie nicht innerhalb von 2000 Versuchen einen erfolgreichen Versand erreichen. Damit soll die bestehende 70 %-Regel für Fehlschläge gestärkt werden, die unter bestimmten Bedingungen zu übermäßig vielen Fehlern führen kann.
 
-Darüber hinaus werden wir ab Februar 2021 in den Anforderungen für die Deaktivierung von Daten hinzufügen.
+Darüber hinaus werden ab Februar 2021 auch die Anforderungen für die harte Deaktivierung hinzugefügt.
 
-Weitere Informationen zu den neuen Anforderungen für Soft-Deaktivierung und Deaktivierung finden Sie unter [FAQs - Ereignisabonnements](../../../wf-api/general/event-subs-faq.md).
+Weitere Informationen zu den neuen Anforderungen für Soft-Disabled und Hard-Disable finden Sie unter [FAQs - Ereignisabonnements](../../../wf-api/general/event-subs-faq.md).
 
-## Neue Teamfelder für den täglichen Digest verfügbar
+## Neue Team-Felder für die tägliche Zusammenfassung verfügbar
 
-Wir haben der E-Mail &quot;Action Needed Daily Digest&quot;Teamgenehmigung und Zuweisungsfelder hinzugefügt.
+Wir haben die Felder Team-Genehmigung und Zuweisungen zur E-Mail „Tägliche Auswahl der Aktion erforderlich“ hinzugefügt.
 
-Weitere Informationen finden Sie unter [Benachrichtigungen: Erforderliche Aktion](../../../workfront-basics/using-notifications/notifications-action-needed.md).
+Weitere Informationen finden Sie unter [Benachrichtigungen: Aktion erforderlich](../../../workfront-basics/using-notifications/notifications-action-needed.md).
 
-## Ersetzen der POP-E-Mail-Option in Anforderungswarteschlangen
+## POP-E-Mail-Option in Anfrage-Warteschlangen ersetzen
 
-Wir ersetzen die POP-E-Mail-Option für Anforderungswarteschlangen durch ein neues Workfront-verwaltetes System. Sie können zwar weiterhin Anfragen per E-Mail senden, müssen aber stattdessen eine neue von Adobe Workfront verwaltete E-Mail-Adresse im Bereich &quot;Anforderungswarteschlange&quot;einrichten.
+Wir ersetzen die POP-E-Mail-Option für Anfrage-Warteschlangen durch ein neues Workfront-verwaltetes System. Sie können Anfragen weiterhin per E-Mail senden, müssen jedoch stattdessen eine neue von Adobe Workfront verwaltete E-Mail-Adresse im Bereich Anfrage-Warteschlange einrichten.
 
 Diese Änderungen können in der Vorschau getestet werden.
 
-E-Mail wird automatisch in allen Vorschauumgebungen deaktiviert. Informationen zum Aktivieren von E-Mails für Testzwecke finden Sie unter [Aktivieren des Versands von E-Mails aus der Vorschau-Sandbox-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+E-Mail wird in allen Vorschauumgebungen automatisch deaktiviert. Informationen zum Aktivieren von E-Mails für Testzwecke finden Sie unter [Aktivieren des E-Mail-Versands aus der Sandbox-Vorschau-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-Weitere Informationen finden Sie unter [Aktivieren von Benutzern, ein Problem per E-Mail an ein Projekt in der Anforderungswarteschlange zu senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Weitere Informationen finden Sie unter [Benutzer können ein Problem per E-Mail an ein Anfrage-Warteschlangenprojekt senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
-Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues von Adobe Workfront verwaltetes System, das POP-E-Mails für Anforderungswarteschlangen durch 21.1.1 ersetzt.](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md)
+Weitere Informationen dazu, warum wir diese Änderung vornehmen, finden Sie unter [Neues verwaltetes Adobe Workfront-System, um POP-E-Mails für Anfrage-Warteschlangen durch 21.1 zu ](../../../product-announcements/announcements/announcement-archive/pop-removal-request-queue.md).
 
-Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE)-Lernpfad auf Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Warteschlangenverwaltung im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath4/queue-management-MCYCJRWK36QZBP7PGMNDMSPRN3LE) auf Workfront One enthalten.
 
-## Einschränken der Stundenbearbeitung in Timesheets
+## Stundenbearbeitung auf Arbeitszeittabellen beschränken
 
-Um eine bessere Kontrolle über Timesheets und die Stundenbearbeitung zu ermöglichen, haben wir eine Einstellung hinzugefügt, mit der Sie die Stundenbearbeitung auf Timesheet-Inhaber und Systemadministratoren beschränken können.
+Um mehr Kontrolle über Arbeitszeittabellen und die Stundenbearbeitung zu erhalten, haben wir eine Einstellung hinzugefügt, mit der Sie die Bearbeitung von Arbeitszeittabellen auf Arbeitszeittabellen-Besitzer und Systemadministratoren beschränken können.
 
-Zuvor konnten Benutzer, für die die Option Timesheets &amp; Stunden in ihrer Zugriffsebene aktiviert war, Stunden auf einem beliebigen Zeitblatt bearbeiten.
+Zuvor konnten Benutzende, bei denen die Option Arbeitszeittabellen und Stunden in ihrer Zugriffsebene aktiviert war, Stunden in jeder Arbeitszeittabelle bearbeiten.
 
-Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunde](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+Weitere Informationen finden Sie unter [Arbeitszeittabelle und Stundenvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-## Verbesserte Filter und Ansichten im Bereich Timesheets
+## Verbesserte Filter und Ansichten im Arbeitszeittabellen-Bereich
 
-Beim Hinzufügen eines Projekts, einer Aufgabe oder eines Problems zu einem Timesheet wurden die folgenden Verbesserungen hinzugefügt:
+Wir haben die folgenden Verbesserungen hinzugefügt, wenn Sie ein Projekt, eine Aufgabe oder ein Problem zu einer Arbeitszeittabelle hinzufügen:
 
-* Filter: Wir haben Filter für Projekte und Probleme hinzugefügt. Klicken Sie auf Mehr Optionen , um diese Filter anzuzeigen. Zuvor waren nur Aufgaben mit Filterung verfügbar.
-* Ansichten: Zur Suchseite wurden Ansichts- und Gruppierungsoptionen hinzugefügt.
+* Filter: Wir haben Filter für Projekte und Probleme hinzugefügt. Klicken Sie auf Weitere Optionen , um diese Filter anzuzeigen. Zuvor waren nur für Aufgaben Filter verfügbar.
+* Ansichten: Auf der Suchseite wurden Ansicht- und Gruppierungsoptionen hinzugefügt.
 
-Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Weitere Informationen finden Sie unter [Zeit erfassen](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-## Ausblenden des Zeitverlaufsfeldes in Timesheets
+## Überstundenfeld in Arbeitszeittabellen ausblenden
 
-Sie können jetzt die Zeitüberschreitungsbox ausblenden, um die Verwirrung der Benutzer zu verringern, wenn Sie Überstunden in Workfront nicht verfolgen. Sie können die Zeitüberschreitungsbox für ein einmalig verwendetes Zeitblatt oder im Timesheet-Profil ausblenden:
+Sie können jetzt das Feld „Überstunden“ ausblenden, um Benutzerverwirrung zu stillen, wenn Sie die Überstunden in Workfront nicht verfolgen. Sie können das Überstundenfeld für eine Arbeitszeittabelle zur einmaligen Verwendung oder im Arbeitszeittabellen-Profil ausblenden:
 
-* Einmaliges Datenblatt: Wenn Sie die Überstunden-Box in einem einzelnen Zeitblatt ausblenden, wird sie nur für dieses Zeitblatt ausgeblendet. Weitere Informationen finden Sie unter [Einmaliges Erstellen eines Timesheets](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
-* Datenblatt-Profil: Wenn Sie das Feld für die Überstunden im Timesheet-Profil ausblenden, wird für alle zukünftigen Timesheets, die für die diesem Profil zugewiesenen Benutzer erstellt werden, die Überstunden-Komponente nicht angezeigt. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Zeitleistenprofilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
+* Arbeitszeittabelle zur einmaligen Verwendung: Wenn Sie das Feld „Überstunden“ in einer einzelnen Arbeitszeittabelle ausblenden, wird es nur für diese Arbeitszeittabelle ausgeblendet. Weitere Informationen finden Sie [Erstellen einer Arbeitszeittabelle zur einmaligen Verwendung](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+* Arbeitszeittabellen-Profil: Wenn Sie das Feld „Überstunden“ im Arbeitszeittabellen-Profil ausblenden, wird das Feld „Überstunden“ für alle zukünftigen Arbeitszeittabellen, die für den/die diesem Profil zugewiesenen Benutzer erstellt wurden, nicht angezeigt. Weitere Informationen finden Sie unter [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-Zuvor war es nicht möglich, die Zeitverlaufsbox auf Zeitleisten auszublenden.
+Zuvor konnten Sie das Feld „Überstunden“ auf Arbeitszeittabellen nicht ausblenden.
 
-## Erweitern oder Reduzieren von Elementen in der Breadcrumb-Navigation
+## Ein- oder Ausblenden von Elementen in der Breadcrumb-Navigation
 
-Um die Anzeige des vollständigen Breadcrumb-Pfads zu vereinfachen, haben wir die Funktion zum Erweitern und Reduzieren hinzugefügt.
+Um die Anzeige des vollständigen Breadcrumb-Pfads zu vereinfachen, haben wir Funktionen zum Erweitern und Reduzieren hinzugefügt.
 
-Jetzt werden alle abgeschnittenen Elemente vor dem Projekt mit dem Text &quot;mehr&quot;gruppiert. Beispielsweise gibt &quot;3 weitere&quot;an, dass es 3 Objekte gibt, die nicht angezeigt werden.
+Jetzt werden alle abgeschnittenen Elemente vor dem Projekt mit dem Text „more“ gruppiert. „3 More“ zeigt beispielsweise an, dass drei Objekte nicht angezeigt werden.
 
-Zuvor mussten Sie auf die Auslassungspunkte klicken, um abgeschnittene Objekte in einem Dropdown-Menü anzuzeigen.
+Zuvor mussten Sie auf die Auslassungszeichen klicken, um abgeschnittene Objekte in einem Dropdown-Menü anzuzeigen.
 
-Um alle Elemente im Breadcrumb anzuzeigen, klicken Sie am Anfang des Breadcrumbs auf &quot;Mehr&quot;, um die Elemente zu erweitern. Nach der Erweiterung können Sie auf &quot;Weniger&quot;klicken, um die Elemente erneut zu reduzieren.
+Um alle Elemente im Breadcrumb anzuzeigen, klicken Sie auf „Mehr“ am Anfang des Breadcrumbs, um die Elemente zu erweitern. Nach dem Erweitern können Sie auf „Weniger“ klicken, um die Elemente erneut auszublenden.
 
 ## Neues Erscheinungsbild für die Breadcrumb-Navigation
 
-Damit Benutzer leichter erkennen können, wo sie sich in Workfront befinden, und einfacher zwischen Objekten navigieren können, haben wir die folgenden Verbesserungen an der Breadcrumb-Navigation vorgenommen:
+Damit Benutzende besser erkennen können, wo sie sich in Workfront befinden, und einfacher zwischen Objekten navigieren können, haben wir die folgenden Verbesserungen bei der Breadcrumb-Navigation vorgenommen:
 
 * Jedes Element im Breadcrumb enthält jetzt eine Objektbeschriftung.
-* Die aktuelle Seite ist jetzt im Breadcrumb enthalten und kursiv dargestellt.
-* Die Tastaturnavigation und die Bildschirmlesehilfen-Navigation sind jetzt für die Breadcrumbs verfügbar.
-* Weitere geringfügige Stiländerungen
+* Die aktuelle Seite ist jetzt im Breadcrumb enthalten und wird kursiv angezeigt.
+* Für die Breadcrumbs sind jetzt die Tastaturnavigation und die Navigation durch die Sprachausgabe verfügbar.
+* Zusätzliche kleinere Stiländerungen
 

@@ -1,6 +1,6 @@
 ---
-title: 2.2 Verbesserungen für Mobilgeräte
-description: 2.2 Verbesserungen für Mobilgeräte
+title: 22.2 Verbesserungen für Mobilgeräte
+description: 22.2 Verbesserungen für Mobilgeräte
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 2.2 Verbesserungen für Mobilgeräte
+# 22.2 Verbesserungen für Mobilgeräte
 
-Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 22.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
+Auf dieser Seite werden alle mit Version 22.2 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -25,18 +25,18 @@ in January 2022
 
 die Woche vom 4. April 2022.
 
-Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 22.2 verfügbar sind, finden Sie unter Übersicht über Version [22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
-## Zeichnungen und Kommentare zu Testdokumenten in der App
+## Zeichnungen und Kommentare zu Korrekturabzugsdokumenten in der Mobile App
 
 >[!NOTE]
 >
->Diese Funktion wird Mitte April 2022 im Apple App Store- und Google Play-Store allgemein verfügbar sein.
+>Diese Funktion wird Mitte April 2022 im Apple App Store und Google Play Store allgemein verfügbar sein.
 
-Mit der mobilen Adobe Workfront-App können Sie jetzt Zeichnungen und Kommentare zu Testdokumenten hinzufügen. Eine neue Symbolleiste am Testversand enthält Zeichenwerkzeuge für Formen. Sie können Einstellungen wie Farbe und Linienstärke für jede Form auswählen. Wenn Sie eine Form auf den Testversand zeichnen, wird Ihr Kommentar mit diesem Bereich des Testversands verbunden.
+Mit der Adobe Workfront-Mobile-App können Sie jetzt Zeichnungen und Kommentare zu Korrekturabzugsdokumenten hinzufügen. Eine neue Symbolleiste im Korrekturabzug enthält Zeichenwerkzeuge für Shapes. Sie können für jede Form Einstellungen wie Farbe und Linienstärke auswählen. Wenn Sie ein Shape auf dem Korrekturabzug zeichnen, wird Ihr Kommentar mit diesem Bereich des Korrekturabzugsdokuments verbunden.
 
-Sie können auch auf die Kommentare anderer Personen zu dem Testversand antworten.
+Sie können auch auf Kommentare antworten, die andere zu dem Korrekturabzug gemacht haben.
 
-Der folgende Artikel wird aktualisiert, wenn die App in den Appstores veröffentlicht wird:
+Der folgende Artikel wird aktualisiert, wenn die App in den App Stores veröffentlicht wird:
 
-[Überprüfen und treffen Sie Entscheidungen über Testsendungen in der mobilen Adobe Workfront-App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)
+[Überprüfen und Treffen von Entscheidungen über Korrekturabzüge in der Adobe Workfront Mobile App](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/work-with-proofs-in-mobile-app.md)

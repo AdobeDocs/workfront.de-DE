@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 23. August 2021
-description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 23. August 2021
+title: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 23. August 2021
+description: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 23. August 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -14,34 +14,34 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 23. August 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 23. August 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Woche vom 23. August 2021 in Adobe Workfront Fusion vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 23. August 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Felder für die Typvorbereitung sind jetzt in Workfront-Modulen verfügbar.
+## Typeahead-Felder sind jetzt in Workfront-Modulen verfügbar
 
-Um die Verwendung von Modulen zu vereinfachen, wurden einige Dropdown-Listen durch Typeahead-Felder ersetzt. Anstatt Elemente aus langen Listen auszuwählen, können Sie nun mit der Eingabe des Elements beginnen und dann darauf klicken, wenn es angezeigt wird.
+Um die Verwendung von Modulen zu vereinfachen, haben einige Dropdown-Listen durch Felder mit automatischer Textvervollständigung ersetzt. Jetzt können Sie, anstatt Elemente aus langen Listen auszuwählen, mit der Eingabe des Elements beginnen und dann auf das Element klicken, wenn es angezeigt wird.
 
-Zuvor haben Benutzer Elemente aus Dropdown-Listen ausgewählt. Je nach Objekt können diese Listen lang sein und es kann unpraktisch sein, Elemente zu scrollen und zu finden.
+Zuvor haben Benutzer Elemente aus Dropdown-Listen ausgewählt. Je nach Objekt können diese Listen lang sein und das Scrollen und Suchen von Elementen kann sich ungünstig gestalten.
 
-Weitere Informationen zu Workfront-Modulen finden Sie unter [Adobe Workfront-Module](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
+Weitere Informationen zu Workfront-Modulen finden Sie unter [Adobe Workfront-](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 
-## Rechnungsdatensatzobjekt ist jetzt in Workfront-Modulen verfügbar
+## Rechnungsnachweisobjekt jetzt in Workfront-Modulen verfügbar
 
-Das Datensatzobjekt &quot;Rechnungsstellung&quot;ist in Dropdown-Objektauswahllisten in den folgenden Modulen verfügbar:
+Das Rechnungsnachweisobjekt ist in Dropdown-Objektauswahllisten in den folgenden Modulen verfügbar:
 
-* Aufzeichnen von Daten
+* Überwachungsdatensatz
 * Datensatz löschen
 * Datensatz erstellen
 * Datensatz lesen
-* Datensatz aktualisieren
-* Suchdatensatz
+* Eintrag aktualisieren
+* Eintrag suchen
 
-Zuvor war das Rechnungsdatensatzobjekt nur über die Zuordnung verfügbar.
+Zuvor war das Rechnungsnachweisobjekt nur über die Zuordnung verfügbar.
 
 Weitere Informationen finden Sie unter [Adobe Workfront-Module](../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).
 

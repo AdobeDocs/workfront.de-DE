@@ -1,6 +1,6 @@
 ---
-title: Übersicht über die Version des ersten Quartals 2025
-description: Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom ersten Quartal 2025 enthalten sind. Diese Verbesserungen sollen während des gesamten Quartals in der Produktionsumgebung verfügbar sein.
+title: Übersicht über die Version im ersten Quartal 2025
+description: Diese Seite enthält Informationen zur Funktionalität, die in der Version vom ersten Quartal 2025 enthalten ist. Diese Verbesserungen werden voraussichtlich im gesamten Quartal in der Produktionsumgebung verfügbar sein.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,32 +14,32 @@ ht-degree: 2%
 
 ---
 
-# Übersicht über die Version des ersten Quartals 2025 - Test
+# Versionsübersicht 1. Quartal 2025 - Test
 
-Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version vom ersten Quartal 2025 enthalten sind. Diese Verbesserungen sollen während des gesamten Quartals in der Produktionsumgebung verfügbar sein.
+Diese Seite enthält Informationen zur Funktionalität, die in der Version vom ersten Quartal 2025 enthalten ist. Diese Verbesserungen werden voraussichtlich im gesamten Quartal in der Produktionsumgebung verfügbar sein.
 
 
 >[!IMPORTANT]
 >
 >
->Die monatlichen und vierteljährlichen Versionen sollen am Donnerstag der zweiten vollen Woche des Monats verfügbar sein, sofern nichts anderes angegeben ist.
+>Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen am Donnerstag der zweiten vollen Woche des Monats verfügbar.
 >
->| Monatliche Version | Quartalsversion |
+>| Monatliche Version | Vierteljährliche Veröffentlichung |
 >|----|----|
 >| <ul><li>24.11 (14. November 2024)</li><li>24.12 (12. Dezember 2024)</li><li>25.1 (15. Januar 2025)</li></ul> | <ul><li>25.1 (16. Januar 2025)</li></ul> |
 >
->Beachten Sie, dass für die endgültige Version jedes Quartals (25.1 in diesem Quartal) die Benutzer des Zeitplans für die schnelle Veröffentlichung die Version einen Tag früher erhalten.
+>Beachten Sie, dass die Benutzer des Zeitplans für die schnelle Veröffentlichung jedes Quartals (25.1 in diesem Quartal) die Veröffentlichung einen Tag früher erhalten werden.
 >
->Weitere Informationen zum Prozess der schnellen Veröffentlichung finden Sie unter [Aktivieren oder Deaktivieren des Prozesses der schnellen Veröffentlichung](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
+>Weitere Informationen zum Schnellfreigabeprozess finden Sie unter [Aktivieren oder Deaktivieren des Schnellfreigabeprozesses](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).
 
 
 ## Workfront-Verbesserungen
 
 
 * [Verbesserungen für Administratoren](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
-* [Verbesserungen bei der Dokumentenverwaltung](#document-management-enhancements)
+* [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
 
-### Administratorverbesserungen
+### Administrator-Verbesserungen
 
 <table>
 <col style="width: 55%;" />
@@ -58,9 +58,9 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Verwendung des Projekt- oder Benutzerzeitplans für Einzelzuweisungsaufgaben</a></p>
+            Voreinstellung zur Verwendung von Projekt- oder Benutzerzeitplänen für Aufgaben mit einfacher Zuweisung</a></p>
             [!BADGE New in Preview ]{type=Negative}
-            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
+            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Einstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden soll, um den Zeitplan des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
         </td>
         <td>21. November 2024</td>
         <td>Dezember 2024</td>
@@ -70,8 +70,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
-            [!BADGE Out-of-Cycle ]{type=Caution}
-            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.</p>
+            [!BADGE Out of cycle ]{type=Achtung}
+            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um Benutzende dabei zu unterstützen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern. Die statische URL könnte eine Verknüpfung zu Dokumentationen oder anderen Seiten aufweisen, die für den Benutzer hilfreich wären.</p>
         </td>
         <td>Freitag, 14. November 2024</td>
         <td>Freitag, 14. November 2024</td>
@@ -80,8 +80,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Filtern nach nativen Typeahead-Feldern ist jetzt verfügbar</a></p>
-            <p>Wenn Sie einen nativen Feldverweis zu einem benutzerdefinierten Formular hinzufügen und auf ein Typeahead-Feld verweisen (z. B. Portfolio, Firma oder Eigentümer), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes typeahead-Feld, wobei der Textmodus zum Definieren des Filters verwendet wird.</p>
+            Filtern von Feldern mit nativer automatischer Textvervollständigung ist jetzt verfügbar</a></p>
+            <p>Wenn Sie einem benutzerdefinierten Formular einen nativen Feldverweis hinzufügen und es auf ein Feld mit automatischer Textvervollständigung verweist (z. B. Portfolio, Unternehmen oder Inhaber), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzerinnen und Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes Feld mit automatischer Textvervollständigung, wobei der Textmodus zum Definieren des Filters verwendet wird.</p>
         </td>
         <td>21. November</td>
         <td>25,12</td>
@@ -92,7 +92,7 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
 </table>
 
 
-### Verbesserungen bei der Dokumentenverwaltung
+### Verbesserungen beim Dokumentenmanagement
 
 
 <table>
@@ -112,8 +112,8 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Verwendung des Projekt- oder Benutzerzeitplans für Einzelzuweisungsaufgaben</a></p>
-            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Voreinstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden sollte, um die Timeline des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
+            Voreinstellung zur Verwendung von Projekt- oder Benutzerzeitplänen für Aufgaben mit einfacher Zuweisung</a></p>
+            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Einstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden soll, um den Zeitplan des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
         </td>
         <td><p>16. November 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
         <td><p>24,12</p></td>
@@ -123,37 +123,37 @@ Auf dieser Seite finden Sie Informationen zu den Funktionen, die in der Version 
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
-            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um den Benutzer darauf hinzuweisen, wie er seine Aktion innerhalb der Beschränkung der Regel ändern kann. Die statische URL kann mit der Dokumentation oder anderen Seiten verknüpft werden, die für den Benutzer hilfreich sind.</p>
+            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um Benutzende dabei zu unterstützen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern. Die statische URL könnte eine Verknüpfung zu Dokumentationen oder anderen Seiten aufweisen, die für den Benutzer hilfreich wären.</p>
         </td>
         <td><p>14. November</p> </td>
-        <td><p>Dezember 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
+        <td><p>Dez. 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
         <td><p>25,1</p> </td>
     </tr>    
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
+            Symbol „Verschieben nach“ zu benutzerdefinierten Feldern hinzugefügt</a></p>
+            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Zu jedem Feld wurde das Symbol „Verschieben nach“ hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert werden soll.</p>
         </td>
         <td><p>5. Dezember</p></td>
           <td><p>15. Dezember</p><p> [!BADGE Available ]{type=Positive}</p></td>
-        <td><p>15. Dezember</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Out-of-Cycle ]{type=Caution}</p></td>
+        <td><p>15. Dezember</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Out-of-cycle ]{type=Caution}</p></td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
+            Symbol „Verschieben nach“ zu benutzerdefinierten Feldern hinzugefügt</a></p>
+            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Zu jedem Feld wurde das Symbol „Verschieben nach“ hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert werden soll.</p>
         </td>
-        <td><p>5. Dezember</p><p>[!BADGE Out-of-Cycle ]{type=Caution}</p></td>
+        <td><p>5. Dezember</p><p>[!BADGE Out-of-cycle ]{type=Caution}</p></td>
           <td><p>15. Dezember</p><p> [!BADGE Available ]{type=Positive}</p></td>
         <td><p>15. Dezember</p> <p> [!BADGE Available ]{type=Positive}</p></td>
     </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol "Verschieben nach"zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Jedem Feld wurde das Symbol "Verschieben nach"hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert wird.</p>
+            Symbol „Verschieben nach“ zu benutzerdefinierten Feldern hinzugefügt</a></p>
+            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Zu jedem Feld wurde das Symbol „Verschieben nach“ hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert werden soll.</p>
         </td>
         <td><p>1. November</p></td>
           <td><p>24,11</p><p> [!BADGE Available ]{type=Positive}</p></td>
@@ -170,10 +170,10 @@ The following functionality is soon to be removed from Workfront:
 
 ## Versionshinweise für andere Bereiche
 
-* [Adobe Workfront Fusion-Release-Aktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
-* [Adobe Workfront-Planung - Aktivität vom ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
+* [Versionsaktivität von Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+* [Adobe Workfront-Planungs-Aktivität für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md).
 
-Zu diesem Zeitpunkt in der Version gibt es keine Aktualisierungen für Folgendes:
+Für Folgendes gibt es derzeit keine Aktualisierungen in der Version:
 
 * Szenarienplaner
 * Korrekturabzug
@@ -182,16 +182,16 @@ Zu diesem Zeitpunkt in der Version gibt es keine Aktualisierungen für Folgendes
 
 ### API-Version 19
 
-Für API Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere vereinfachen die Verwendung der über die API verfügbaren Informationen.
+Für API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige der Änderungen unterstützen neue Funktionen, andere erleichtern Ihnen die Verwendung der über die API verfügbaren Informationen.
 
-Weitere Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
+Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
 Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungsupdates, die während der Version vom ersten Quartal 2025 vorgenommen wurden, finden Sie unter [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
+Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html).
 
 ### Schulungsaktualisierungen
 
-Informieren Sie sich über die neuesten Updates zu Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt &quot;Neue Funktionen&quot;auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).

@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 3. Januar 2022
-description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 3. Januar 2022
+title: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 3. Januar 2022
+description: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 3. Januar 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -14,23 +14,23 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 3. Januar 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 3. Januar 2022
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 3. Januar 2022 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 3. Januar 2022 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Frame.io-Module sind jetzt in Workfront Fusion verfügbar
+## Frame.io-Module jetzt in Workfront Fusion verfügbar
 
-Jetzt können Sie mit Workfront Fusion eine Verbindung zu Ihrem Frame.io-Konto herstellen.
+Jetzt können Sie Workfront Fusion verwenden, um eine Verbindung zu Ihrem Frame.io-Konto herzustellen.
 
 Mit dem Frame.io-Connector können Sie:
 
-* Starten Sie ein Szenario, wenn ein Asset oder ein Kommentar erstellt, aktualisiert oder gelöscht wird.
+* Szenario starten, wenn ein Asset oder Kommentar erstellt, aktualisiert oder gelöscht wird
 * Erstellen, Lesen, Aktualisieren, Löschen oder Auflisten von Assets oder Kommentaren.
-* Auflisten von Projekten für ein bestimmtes Team.
-* Führen Sie einen benutzerdefinierten API-Aufruf durch.
+* Projekte für ein bestimmtes Team auflisten.
+* Erstellen eines benutzerdefinierten API-Aufrufs.
 
 Weitere Informationen finden Sie unter [Frame.io-Module](../../../workfront-fusion/apps-and-their-modules/frame-io-modules.md).

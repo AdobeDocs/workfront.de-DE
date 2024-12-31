@@ -1,6 +1,6 @@
 ---
-title: 21.4 Anforderungsverbesserungen
-description: 21.4 Anforderungsverbesserungen
+title: 21.4 Verbesserungen bei Anfragen
+description: 21.4 Verbesserungen bei Anfragen
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,29 +13,29 @@ ht-degree: 0%
 
 ---
 
-# 21.4 Anforderungsverbesserungen
+# 21.4 Verbesserungen bei Anfragen
 
-Auf dieser Seite werden alle Anfragen-Verbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
+Auf dieser Seite werden alle mit Version 21.4 vorgenommenen Verbesserungen bei Anfragen an die Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie in der Übersicht über die Version [21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
-## Verbesserte Suche für Anforderungen enthält jetzt Sonderzeichen
+## Die verbesserte Suche nach -Anfragen enthält jetzt Sonderzeichen
 
-Damit Suchanfragewarteschlangen beim Senden von Anforderungen schneller und einfacher werden, wurde der Suchalgorithmus dahingehend verbessert, dass jetzt Warteschlangen gefunden werden, die möglicherweise Sonderzeichen enthalten.
+Um das Auffinden von Anfragewarteschlangen beim Senden von Anfragen zu beschleunigen und zu vereinfachen, haben wir den Suchalgorithmus verbessert, sodass jetzt Warteschlangen gefunden werden, die Sonderzeichen enthalten können.
 
-Sie können beispielsweise eine Anforderungswarteschlange mit dem Namen &quot;&#42;Workfront&quot;finden, indem Sie im Feld &quot;Anfragetyp&quot;entweder &quot;&#42;Workfront&quot;oder &quot;Workfront&quot;eingeben.
+Sie können beispielsweise eine Anfrage-Warteschlange mit dem Namen &quot;&#42;Workfront&quot; finden, indem Sie entweder &quot;&#42;Workfront&quot; oder &quot;Workfront&quot; in das Feld Anfragetyp eingeben.
 
 Alle Sonderzeichen werden unterstützt.
 
-Informationen zum Senden von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
-## Neues Erscheinungsbild für eingebettete Anfragewarteschlangen im neuen Workfront-Erlebnis
+## Neues Erscheinungsbild für eingebettete Anforderungswarteschlangen in der neuen Workfront-Version
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Um das Erscheinungsbild für das Senden von Anforderungen überall im neuen Workfront-Erlebnis zu erhalten, haben wir die Oberfläche zum Hinzufügen von Anforderungen zu einer eingebetteten Anforderungswarteschlange neu gestaltet. Vor dieser Verbesserung entsprach die Oberfläche zum Hinzufügen von Anforderungen aus einem Dashboard der klassischen Workfront-Umgebung.
+Um das Erscheinungsbild für die Übermittlung von Anfragen überall in der neuen Workfront-Version gleich zu halten, haben wir die Benutzeroberfläche neu gestaltet, um Anfragen zu einer eingebetteten Anfragewarteschlange hinzuzufügen. Vor dieser Verbesserung entsprach die Oberfläche zum Hinzufügen von Anfragen aus einem Dashboard der Workfront Classic-Umgebung.
 
-Weitere Informationen finden Sie unter [Einbetten einer Anforderungswarteschlange in ein Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
+Weitere Informationen finden Sie unter [Anforderungswarteschlange in ein Dashboard einbetten](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-request-queue-dashboard.md).
 

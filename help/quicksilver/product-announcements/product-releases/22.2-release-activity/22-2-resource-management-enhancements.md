@@ -1,6 +1,6 @@
 ---
-title: 2.2 Verbesserungen bei der Ressourcenverwaltung
-description: 2.2 Verbesserungen bei der Ressourcenverwaltung
+title: 22.2 Verbesserungen beim Ressourcenmanagement
+description: 22.2 Verbesserungen beim Ressourcenmanagement
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 2.2 Verbesserungen bei der Ressourcenverwaltung
+# 22.2 Verbesserungen beim Ressourcenmanagement
 
-Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 22.2 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
+Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 22.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -25,35 +25,35 @@ in January 2022
 
 die Woche vom 4. April 2022.
 
-Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 22.2 verfügbar sind, finden Sie unter Übersicht über Version [22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
-## Verbesserungen der Navigation des Workload Balancer
+## Verbesserungen an der Workload Balancer-Navigation
 
-Um Ihr Erlebnis bei der Verwendung des Workload Balancer zu verbessern, haben wir die folgenden Verbesserungen eingeführt:
+Um die Verwendung des Workload Balancer zu verbessern, haben wir die folgenden Verbesserungen eingeführt:
 
-* Die Schaltflächen Abbrechen und Speichern beim Anpassen der Zuordnungen sind jetzt fixierbar, selbst wenn die Aufgabe länger ist als der auf dem Bildschirm angegebene Zeitraum oder wenn das Bedienfeld Zusammenfassung angezeigt wird.
-* Das linke Bedienfeld, das die Namen der Benutzer und Arbeitselemente anzeigt, ist jetzt fixierbar, damit Sie einen horizontalen Bildlauf über längere Zeiträume durchführen können und weiterhin die Namen der im Bedienfeld aufgelisteten Elemente lesen können.
-* Sie können alle im linken Bereich aufgelisteten Elemente mit einem Klick reduzieren und erweitern, anstatt sie auf Benutzer- oder Projektebene zu verwenden.
+* Die Schaltflächen Abbrechen und Speichern beim Anpassen der Zuweisungen bleiben jetzt erhalten, auch wenn die Aufgabe länger ist als der auf dem Bildschirm angezeigte Zeitraum oder wenn das Bedienfeld Zusammenfassung angezeigt wird.
+* Das linke Bedienfeld, das die Namen der Benutzer und Arbeitselemente anzeigt, bleibt jetzt erhalten, damit Sie über längere Zeiträume horizontal scrollen und die Namen der im Bedienfeld aufgelisteten Elemente weiterhin lesen können.
+* Sie können alle im linken Bedienfeld aufgelisteten Elemente mit einem Klick reduzieren und erweitern, anstatt auf Benutzer- oder Projektebene.
 * Die Größe des linken Bedienfelds kann jetzt ebenfalls geändert werden.
-* Es gibt jetzt einen Vollbildmodus für den Arbeitslastausgleich.
+* Es gibt jetzt einen Vollbildmodus für den Workload-Balancer.
 
-Weitere Informationen zum Navigieren in den Lastenausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Weitere Informationen zum Navigieren im Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Zugriff auf erweiterte Zuweisungen im Arbeitslastausgleich
+## Zugriff auf erweiterte Zuweisungen im Workload Balancer
 
-Um das Zuweisen von Arbeitselementen zu vereinfachen und genauer zu gestalten, können Sie jetzt erweiterte Zuweisungen vornehmen, wenn Sie Arbeitselemente manuell im Arbeitslastausgleich zuweisen. Vor dieser Verbesserung konnten Sie beim Bearbeiten von Elementen über die Kopfzeilen der Elemente oder in Listen auf erweiterte Zuweisungen zugreifen.
+Um die Zuweisung von Arbeitselementen einfacher und genauer zu gestalten, können Sie jetzt erweiterte Zuweisungen vornehmen, wenn Sie Arbeitselemente manuell im Workload Balancer zuweisen. Vor dieser Verbesserung konnten Sie beim Bearbeiten von Elementen, in den Kopfzeilen von Elementen oder in Listen auf erweiterte Zuweisungen zugreifen.
 
-Weitere Informationen finden Sie unter [Manuelles Zuweisen der Arbeit mit dem Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
+Weitere Informationen finden Sie unter [Arbeiten manuell über den Workload Balancer zuweisen](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md).
 
-## Neue Formel zur Berechnung der Benutzerverfügbarkeit bei Auswahl der Voreinstellung Standardzeitplan
+## Neue Formel zur Berechnung der Benutzerverfügbarkeit, wenn die Voreinstellung Standardzeitplan ausgewählt ist
 
-Um genauere Informationen in den Tools zur Ressourcenverwaltung bereitzustellen, wurde die Formel, die Workfront verwendet, um die Benutzerverfügbarkeit zu berechnen, geändert, wenn der Workfront-Administrator unter &quot;Voreinstellungen für die Ressourcenverwaltung&quot;die Option &quot;Standardzeitplan&quot;auswählt. Mit der neuen Aktualisierung berechnet Workfront die Benutzerverfügbarkeit anhand der folgenden Formel:
+Um genauere Informationen in den Tools für das Ressourcen-Management bereitzustellen, haben wir die Formel geändert, mit der Workfront die Benutzerverfügbarkeit berechnet, wenn der Workfront-Administrator in den Voreinstellungen für das Ressourcen-Management den Standardzeitplan auswählt. Mit dem neuen Update verwendet Workfront die folgende Formel zur Berechnung der Benutzerverfügbarkeit:
 
-Verfügbare Stunden für Benutzer = (Standardzeiträume - Ausnahmen) &#42; FTE - Zeitdauer
+Verfügbare Stunden für Benutzer = (Standardzeitplan - Stunden - Ausnahmen) &#42; VZÄ - Ausfallzeiten
 
-Vor dieser Aktualisierung verwendete Workfront die folgende Formel, um die Benutzerverfügbarkeit bei Auswahl des Standardzeitplans zu berechnen:
+Vor diesem Update hat Workfront die folgende Formel zur Berechnung der Benutzerverfügbarkeit bei Auswahl des Standardzeitplans verwendet:
 
-User Available Hours = (Standard Schedule Hours - (Schedule Exceptions + Time of hours) &#42; User FTE value
+Verfügbare Stunden des Benutzers = (Standardzeitplan - Stunden für Zeitplanausnahmen + Ausfallzeiten) &#42; Wert für VZÄ des Benutzers
 
 Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 

@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 16. November 2020'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 16. November 2020 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 16. November 2020'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 16. November 2020 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,61 +17,61 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 16. November 2020
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 16. November 2020
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 16. November 2020 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 16. November 2020 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Aktualisierungen des Jira Cloud-Connectors
+## Aktualisierungen des Jira-Cloud-Connectors
 
 Um die Möglichkeiten zur Verwendung des Jira Cloud-Connectors zu erweitern, haben wir drei neue Module hinzugefügt:
 
 * Problem zum Sprint hinzufügen
-* Listen-Datensätze
-* Datensätze suchen
+* Einträge auflisten
+* Nach Datensätzen suchen
 
-Wir haben auch vorhandene Module aktualisiert, um den Objekttyp &quot;Sprint&quot;zu unterstützen. Zuvor konnte auf das Objekt &quot;Sprint&quot;nur über das Modul &quot;Benutzerspezifischer API-Aufruf&quot;zugegriffen werden.
+Wir haben auch vorhandene Module aktualisiert, um den Objekttyp „Sprint“ zu unterstützen. Zuvor war der Zugriff auf das „Sprint“-Objekt nur über das Modul für benutzerdefinierte API-Aufrufe möglich.
 
-Weitere Informationen finden Sie unter [Jira-Softwaremodule](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
+Weitere Informationen finden Sie unter [Jira Software-Module](../../../../../workfront-fusion/apps-and-their-modules/jira-software-modules.md).
 
-## Die Ausführungs-ID ist jetzt für die Zuordnung in Szenarien verfügbar.
+## Die Ausführungs-ID ist jetzt für die Zuordnung in Szenarien verfügbar
 
-Die Ausführungs-ID für ein Szenario ist jetzt im Zuordnungsbereich verfügbar. Diese ID stellt eine bestimmte Ausführung des Szenarios dar und kann als Metadaten verwendet werden. Beispielsweise kann die Ausführungs-ID mit einem Datensatz gespeichert werden, den Fusion erstellt, sodass Sie später feststellen können, durch welche Fusion-Ausführung der Datensatz erstellt wurde. Die Ausführungs-ID finden Sie im Zuordnungsbereich unter Allgemeine Funktionen.
+Die Ausführungs-ID für ein Szenario ist jetzt im Zuordnungsbereich verfügbar. Diese ID stellt eine bestimmte Ausführung des Szenarios dar und kann als Metadaten verwendet werden. Beispielsweise kann die Ausführungs-ID mit einem von Fusion erstellten Datensatz gespeichert werden, sodass Sie später feststellen können, mit welcher Fusion-Ausführung der Datensatz erstellt wurde. Die Ausführungs-ID finden Sie im Zuordnungsbereich unter Allgemeine Funktionen.
 
-Weitere Informationen zu Szenario-Ausführungen finden Sie unter [Ausführung, Zyklen und Phasen eines Szenarios in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
+Weitere Informationen zu Szenario-Ausführungen finden Sie unter [Szenario-Ausführung, Zyklen und Phasen in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md).
 
 ## Tastaturbefehle für Workfront Fusion 2.0-Szenarien
 
-Um das Erstellen eines Szenarios einfacher zu gestalten, haben wir einige Tastaturbefehle hinzugefügt:
+Um die Erstellung von Szenarien zu vereinfachen, wurden einige Tastaturbefehle hinzugefügt:
 
-* Strg/Befehl+Umschalt+Eingabetaste: Ein Szenario einmal ausführen
-* Strg/Befehl + Umschalt + S: Szenario speichern
+* Strg/Befehl+Umschalt+Eingabe: Ein Szenario einmal ausführen
+* Strg/Befehl + Umsch + S: Szenario speichern
 
 Weitere Informationen zum Erstellen von Workfront Fusion 2.0-Szenarien finden Sie unter [Erstellen eines Szenarios in Adobe Workfront Fusion](../../../../../workfront-fusion/scenarios/create-a-scenario.md).
 
-## Aktualisierungen für Office 365 Excel Connector
+## Aktualisierungen des Office 365 Excel-Connectors
 
-Um die Möglichkeiten zur Verwendung des Office 365 Excel Connectors zu erweitern, haben wir einige neue Module hinzugefügt. Jetzt können Sie:
+Um die Möglichkeiten zur Verwendung des Office 365 Excel-Connectors zu erweitern, haben wir einige neue Module hinzugefügt. Jetzt können Sie:
 
-* Trigger eines Moduls von Änderungen in Arbeitsmappen
+* Trigger eines Moduls aus Änderungen in Arbeitsmappen
 * Arbeitsmappen suchen oder herunterladen
-* Arbeitsblätter, Arbeitsblattzeilen, Tabellen oder Tabellenzeilen auflisten
-* Tabellen- oder Arbeitsblattzeilen aktualisieren
-* Tabellen- oder Arbeitsblattzeilen löschen
+* Auflisten von Arbeitsblättern, Arbeitsblattzeilen, Tabellen oder Tabellenzeilen
+* Aktualisieren einer Tabelle oder Arbeitsblattzeile
+* Löschen einer Tabelle oder Arbeitsblattzeile
 * Abrufen von Metadaten für eine Tabelle
-* Benutzerdefinierte API-Aufrufe durchführen
+* Erstellen eines benutzerdefinierten API-Aufrufs
 
 Zuvor verfügbare Module sind weiterhin in der App vorhanden.
 
 Weitere Informationen finden Sie unter [Microsoft Office 365 Excel-Module](../../../../../workfront-fusion/apps-and-their-modules/microsoft-365-excel-modules.md).
 
-## Verwenden von OAuth 2.0 in Ihren Workfront-App-Verbindungen
+## Verwenden von OAuth 2.0 in Verbindungen Ihrer Workfront-App
 
-Wir haben den Workfront-Connector aktualisiert, um OAuth 2.0 zu verwenden. Diese Aktualisierung bedeutet, dass es einfacher ist, Änderungen an Ihren Workfront-App-Verbindungen vorzunehmen. Wenn sich beispielsweise etwas an Ihrer Verbindung ändert (z. B. ein Kennwort), müssen Sie nicht mehr jede einzelne Verbindung in Ihren Szenarien aktualisieren. Darüber hinaus bietet OAuth2 weitere Vorteile wie verbesserte Sicherheit und die Möglichkeit, Single Sign-on (SSO) zu verwenden.
+Wir haben den Workfront-Connector aktualisiert, um OAuth 2.0 verwenden zu können. Durch dieses Update ist es einfacher, Änderungen an den Verbindungen Ihrer Workfront-App vorzunehmen. Wenn sich beispielsweise etwas an Ihrer Verbindung ändert (z. B. ein Kennwort), müssen Sie in Ihren Szenarien nicht mehr jede einzelne Verbindung aktualisieren. Darüber hinaus bietet OAuth2 weitere Vorteile, z. B. verbesserte Sicherheit und die Möglichkeit, Single Sign-on (SSO) zu verwenden.
 
-Vorhandene Verbindungen erfordern derzeit keine Änderungen. Sie können jedoch vorhandene Verbindungen neu autorisieren, wenn Sie die Vorteile von OAuth 2.0 nutzen möchten.
+Für bestehende Verbindungen sind derzeit keine Änderungen erforderlich. Sie können jedoch vorhandene Verbindungen erneut autorisieren, wenn Sie die Vorteile von OAuth 2.0 nutzen möchten.
 
 Weitere Informationen finden Sie unter [Adobe Workfront-Module](../../../../../workfront-fusion/apps-and-their-modules/workfront-modules.md).

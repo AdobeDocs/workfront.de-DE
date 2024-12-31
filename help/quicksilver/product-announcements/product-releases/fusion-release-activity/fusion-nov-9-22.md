@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 7. November 2022'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 7. November 2022 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 7. November 2022'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 7. November 2022 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,24 +17,24 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 7. November 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 7. November 2022
 
-**Optimierung der Webhook-Warteschlange**
+**Webhook-Warteschlangen-Optimierung**
 
-Die Webhook-Warteschlange von Fusion wurde mit dieser Version optimiert. Der Dienst, der Webhooks akzeptiert, ist jetzt von Warteschlangen- und anderen Prozessen getrennt. Diese Änderung ermöglicht es Fusion, Webhook-Warteschlangen schneller und konsistenter zu verarbeiten.
+Die Webhook-Warteschlange von Fusion wurde mit dieser Version optimiert. Der Service, der Webhooks akzeptiert, ist jetzt von Warteschlangen- und anderen Prozessen getrennt. Diese Änderung ermöglicht es Fusion, Webhook-Warteschlangen schneller und konsistenter zu verarbeiten.
 
-Während der Implementierung dieser Änderung konnten wir die erwartete Protokollverarbeitungszeit für Webhook-Ereignisse in der Warteschlange besser verstehen. Die Web-Hook-Viewer-Seite von Fusion wird voraussichtlich nicht älter als 1 Minute sein.
+Während der Implementierung dieser Änderung konnten wir die erwartete Protokollverarbeitungszeit für Webhook-Ereignisse in der Warteschlange besser verstehen. Es wird erwartet, dass die Webhook-Viewer-Seite von Fusion nicht älter als 1 Minute ist.
 
-Um die aktuellen Webhook-Ereignisse in der Warteschlange anzuzeigen, navigieren Sie in der linken Navigation zu Webhooks. Lkw-Symbole mit einer Zahl im Zähler zeigen Warteschlangenereignisse für diesen Webhook an. Klicken Sie auf das LKW-Symbol, um die Ereignisse in der Warteschlange anzuzeigen.
+Um die aktuell in der Warteschlange befindlichen Webhook-Ereignisse anzuzeigen, navigieren Sie in der linken Navigationsleiste zu Webhooks . LKW-Symbole mit einer Zahl im Zähler zeigen Warteschlangenereignisse für diesen Webhook an. Klicken Sie auf das LKW-Symbol, um die Ereignisse in der Warteschlange anzuzeigen.
 
 ![](assets/fusion-webhook-queue-1866x567.png)
 
 
 **Nicht verwendete Webhooks werden jetzt deaktiviert oder gelöscht**
 
-Wir haben einige Änderungen an der Handhabung nicht verwendeter Webhooks durch Workfront Fusion vorgenommen. Jetzt werden Webhooks automatisch deaktiviert, wenn eine der folgenden Aktionen zutrifft:
+An der Art und Weise, wie Workfront Fusion mit nicht verwendeten Webhooks umgeht, haben wir einige Änderungen vorgenommen. Jetzt werden Webhooks automatisch deaktiviert, wenn einer der folgenden Punkte zutrifft:
 
-* Der Webhook ist seit mehr als 5 Tagen mit keinem Szenario verbunden.
+* Der Webhook wurde seit mehr als 5 Tagen mit keinem Szenario verbunden.
 * Der Webhook wird nur in inaktiven Szenarien verwendet, die seit mehr als 30 Tagen inaktiv sind.
 
-Deaktivierte Webhooks werden automatisch gelöscht und abgemeldet, wenn sie mit keinem Szenario verbunden sind und seit über 30 Tagen den Status deaktiviert haben.
+Deaktivierte Webhooks werden automatisch gelöscht und von der Registrierung entfernt, wenn sie mit keinem Szenario verbunden sind und sich seit mehr als 30 Tagen im Status Deaktiviert befinden.

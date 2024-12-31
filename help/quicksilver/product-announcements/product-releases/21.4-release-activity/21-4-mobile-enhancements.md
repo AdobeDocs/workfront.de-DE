@@ -15,32 +15,32 @@ ht-degree: 0%
 
 # 21.4 Verbesserungen für Mobilgeräte
 
-Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
+Auf dieser Seite werden alle mit Version 21.4 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie in der Übersicht über die Version [21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
-## Überprüfen und genehmigen Sie Testsendungen in der mobilen App
+## Testsendungen in der Mobile App überprüfen und genehmigen
 
 >[!NOTE]
 >
->Diese Funktion ist ab dem 4. Oktober 2021 im Apple App Store- und Google Play Store allgemein verfügbar.
+>Diese Funktion ist ab dem 4. Oktober 2021 im Apple App Store und Google Play Store allgemein verfügbar.
 
-Die mobile Adobe Workfront-App zeigt jetzt alle Testversandgenehmigungen an, die Ihnen in Ihrer Zulassungsliste in &quot;Meine Arbeit&quot;zugewiesen sind. Sie können ein Dokument zum Testversand direkt in der App überprüfen und eine Entscheidung darüber treffen.
+Die Adobe Workfront-Mobile-App zeigt jetzt alle Korrekturabzugs-Genehmigungen, die Ihnen zugewiesen wurden, in Ihrer Liste der Genehmigungen in Meine Arbeit an. Sie können ein Korrekturabzugsdokument direkt in der App überprüfen und eine Entscheidung darüber treffen.
 
-Die folgenden Artikel werden aktualisiert, wenn die App in den Appstores veröffentlicht wird:
+Die folgenden Artikel werden aktualisiert, wenn die App in den App Stores veröffentlicht wird:
 
 * [Adobe Workfront für iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront für Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
-## Erstellen einer neuen Anforderung über den Startbereich der mobilen App
+## Erstellen einer neuen Anfrage im Bereich „Startseite“ der Mobile App
 
 >[!NOTE]
 >
->Diese Funktion ist ab dem 2. August im Apple App Store- und Google Play Store allgemein verfügbar.
+>Diese Funktion ist ab der Woche des 2. August im Apple App Store und Google Play Store allgemein verfügbar.
 
-Sie können jetzt eine neue Anforderung aus dem Startbereich der mobilen Adobe Workfront-App erstellen. Durch Tippen auf die Schaltfläche &quot;Hinzufügen&quot;in der schwebenden Navigationsleiste wird eine Option für &quot;Anforderung zusätzlich zu Aufgabe&quot;angezeigt. Zuvor mussten Sie zur Seite Anforderungen navigieren, um eine Anforderung zu erstellen.
+Sie können jetzt eine neue Anfrage über den Startbereich in der Adobe Workfront-Mobile-App erstellen. Durch Tippen auf die Schaltfläche „Hinzufügen“ in der unverankerten Navigationsleiste wird zusätzlich zur Aufgabe eine Option für Anfrage angezeigt. Zuvor mussten Sie zur Seite „Anfragen“ navigieren, um eine Anfrage zu erstellen.
 
-Die folgenden Artikel werden aktualisiert, wenn die App in den Appstores veröffentlicht wird:
+Die folgenden Artikel werden aktualisiert, wenn die App in den App Stores veröffentlicht wird:
 
 * [Adobe Workfront für iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront für Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)

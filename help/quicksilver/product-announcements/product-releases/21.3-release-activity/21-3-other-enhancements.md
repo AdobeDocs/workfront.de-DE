@@ -15,33 +15,33 @@ ht-degree: 0%
 
 # 21.3 Weitere Verbesserungen
 
-Auf dieser Seite werden alle sonstigen Verbesserungen beschrieben, die mit Version 21.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 21. Juli 2021 bereitgestellt.
+Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.3 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 21. Juli 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 - Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Eine Liste aller mit Version 21.3 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
-## Neugestaltung des Startbereichs für mobile Apps
+## Home Area Redesign für mobile App
 
 >[!NOTE]
 >
->Diese Funktion ist ab der Produktionsversion 21.3 in der Woche vom 21. Juni 2021 im Apple App Store- und Google Play-Store allgemein verfügbar.
+>Diese Funktion wird mit der Produktionsversion 21.3 vom 21. Juni 2021 im Apple App Store und Google Play Store allgemein verfügbar sein.
 
-Die folgenden Verbesserungen wurden dem Startbereich der mobilen Adobe Workfront-App hinzugefügt:
+Die folgenden Verbesserungen wurden im Bereich Startseite in der Adobe Workfront-Mobile-App hinzugefügt:
 
-* Neu gestaltete Arbeitselement-Widgets und ein größeres Suchfeld helfen Ihnen dabei, schnell das zu finden, was Sie benötigen.
-* Die Navigationsleiste für Startseite, virtuelle Assistenten, Schnellaufgaben, Benachrichtigungen und Benutzerprofile &quot;schwebt&quot;nun über dem Startbereich, um einfachen Zugriff zu erhalten.
-* Im Menü &quot;Meine Arbeit&quot;wird ein horizontaler Bildlauf durchgeführt und die folgenden Elemente werden angezeigt: Projekte, Aufgaben und Probleme, Anforderungen, Genehmigungen und Timesheets. Unter dem Menü werden bis zu drei Karten für das ausgewählte Element angezeigt.
+* Neu gestaltete Arbeitselement-Widgets und ein größeres Suchfeld helfen Ihnen, schnell das zu finden, was Sie benötigen.
+* Die Navigationsleiste für Startseite, virtuellen Assistenten, Schnellaufgaben, Benachrichtigungen und Benutzerprofile „schwebt“ jetzt über den Startbereich, um einen einfachen Zugriff zu ermöglichen.
+* Das Menü Meine Arbeit scrollt horizontal und zeigt die folgenden Elemente an: Projekte, Aufgaben und Probleme, Anfragen, Genehmigungen und Arbeitszeittabellen. Unter dem Menü werden bis zu drei Karten für das ausgewählte Element angezeigt.
 
-Die folgenden Artikel werden aktualisiert, wenn die App in den Appstores veröffentlicht wird:
+Die folgenden Artikel werden aktualisiert, wenn die App in den App Stores veröffentlicht wird:
 
 * [Adobe Workfront für iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront für Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
-## Ereignisabonnementfilter
+## Filter für Ereignisabonnements
 
 >[!NOTE]
 >
->Diese Funktion wurde am 20. Mai 2021 in der Vorschau-Umgebung veröffentlicht. Es wird am 3. Juni 2021 in der Produktionsumgebung veröffentlicht.
+>Diese Funktion wurde am 20. Mai 2021 in der Vorschau-Umgebung veröffentlicht. Die Version wird am 3. Juni 2021 in der Produktionsumgebung veröffentlicht.
 
-Abonnementfilter für Ereignisse sind jetzt in Vorschauumgebungen aktiviert. Die Filterung der Ereignisabonnements kann verwendet werden, um sicherzustellen, dass Sie nur relevante Nachrichten erhalten. Das Erstellen von Filtern für Ihre Abonnements kann die Anzahl der Nachrichten, die Ihr Endpunkt verbrauchen muss, erheblich verringern.
+Ereignisabonnementfilter sind jetzt in Vorschauumgebungen aktiviert. Mit der Filterung der Ereignisabonnements können Sie sicherstellen, dass Sie nur relevante Nachrichten erhalten. Das Erstellen von Filtern für Ihre Abonnements kann die Anzahl der Nachrichten, die Ihr Endpunkt verarbeiten muss, erheblich verringern.
 
-Weitere Informationen zu Abonnements für Ereignisse finden Sie unter [Ereignis-Abonnement-API](../../../wf-api/general/event-subs-api.md) und [FAQs - Ereignisabonnements](../../../wf-api/general/event-subs-faq.md).
+Weitere Informationen zu Ereignisabonnements finden Sie unter [Ereignisabonnement-API](../../../wf-api/general/event-subs-api.md) und [FAQs - Ereignisabonnements](../../../wf-api/general/event-subs-faq.md).

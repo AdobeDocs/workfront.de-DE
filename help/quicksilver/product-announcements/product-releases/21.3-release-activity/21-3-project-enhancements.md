@@ -15,146 +15,146 @@ ht-degree: 0%
 
 # 21.3 Projektverbesserungen
 
-Auf dieser Seite werden alle Projektverbesserungen beschrieben, die mit Version 21.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 21. Juli 2021 bereitgestellt.
+Auf dieser Seite werden alle mit Version 21.3 vorgenommenen Projektverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 21. Juli 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.3 verfügbaren Änderungen finden Sie unter [21.3 - Versionsübersicht](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
+Eine Liste aller mit Version 21.3 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.3](../../../product-announcements/product-releases/21.3-release-activity/21-3-release-overview.md).
 
-## Verknüpfen einer Vorlage mit einer Gruppe
-
->[!NOTE]
->
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
-
-Um Ihnen bei der Optimierung des Projekterstellungsprozesses zu helfen und Sie einfacher zu identifizieren und darüber zu berichten, welchen Gruppen welche Projektvorlagen gehören, haben wir die Möglichkeit hinzugefügt, einer Projektvorlage eine Gruppe zuzuweisen.
-
-Wenn Sie einer Projektvorlage eine Gruppe zuweisen, werden alle aus der Vorlage erstellten Projekte automatisch der Gruppe der Vorlage zugeordnet. Weitere Informationen finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
-
-Sie können auch einen Gruppengenehmigungsprozess an eine Vorlage und ihre Vorlagenaufgaben anhängen, wenn die Vorlage Ihrer Gruppe zugeordnet ist. Weitere Informationen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
-
-## Einfachere Bearbeitung von Feldern im Bereich Details
+## Zuordnen einer Vorlage zu einer Gruppe
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Mit den folgenden Verbesserungen können Sie Informationen im Abschnitt Details eines Objekts einfacher bearbeiten:
+Um den Prozess der Projekterstellung zu optimieren und Ihnen zu helfen, leichter zu identifizieren und Berichte dazu zu erstellen, welchen Gruppen welche Projektvorlagen gehören, haben wir die Möglichkeit hinzugefügt, einer Projektvorlage eine Gruppe zuzuweisen.
 
-* Eine graue Umrisslinie um ein Feld, wenn der Mauszeiger darüber bewegt wird, zeigt an, dass es bearbeitbar ist.
-* Sie können Felder durch einmaliges Klicken bearbeiten.
+Wenn Sie einer Projektvorlage eine Gruppe zuweisen, werden alle aus der Vorlage erstellten Projekte automatisch mit der Gruppe der Vorlage verknüpft. Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-Vor dieser Verbesserung war nicht klar, welche Felder bearbeitbar waren und Sie mussten doppelklicken, um ein Feld zu bearbeiten.
+Außerdem können Sie einen Gruppengenehmigungsprozess an eine Vorlage und ihre Vorlagenaufgaben anhängen, wenn die Vorlage mit Ihrer Gruppe verknüpft ist. Weitere Informationen finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeiten](../../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
-## Bei der Berechnung der Übergabe-Daten sollten Sie projektübergreifende Vorfälle berücksichtigen
-
-Mit einer neuen Verbesserung der Art und Weise, wie Adobe Workfront Übergabedaten für Aufgaben berechnet, werden die projektübergreifenden Abhängigkeiten nun berücksichtigt.
-
-Zuvor wurden die Übergabe-Daten nur anhand der Vorgänger der Aufgabe desselben Projekts berechnet.
-
-Um nun sicherzustellen, dass Sie immer ein genaues Übermittlungsdatum für eine Aufgabe mit einem projektübergreifenden Vorgänger haben, müssen Sie die Zeitleiste des Projekts der Nachfolgeaufgabe neu berechnen. Nach der Neuberechnung der Zeitleiste werden die Übergabedaten der Aufgabe unter Berücksichtigung der projektübergreifenden Abhängigkeiten der Aufgaben berechnet.
-
-Weitere Informationen zu Übergabe-Daten finden Sie unter [Übersicht über das Übergabedatum für Aufgaben](../../../manage-work/tasks/task-information/handoff-task-date.md).
-
-## Hinzufügen vorhandener Meldungen und Probleme aus der Scrum-Pinnwand
+## Einfachere Bearbeitung von Feldern im Abschnitt Details
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Sie können jetzt eine vorhandene Meldung oder ein Problem direkt über das Scrum-Forum hinzufügen. Dies erleichtert das Hinzufügen vorhandener Meldungen zu Ihrer aktuellen Iteration, ohne zur Backlog-Seite wechseln zu müssen.
+Mit den folgenden Verbesserungen können Sie Informationen im Abschnitt Details eines beliebigen Objekts leichter bearbeiten:
 
-Weitere Informationen finden Sie unter [Hinzufügen von Meldungen und Problemen aus der Scrum-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+* Ein grauer Umriss um ein Feld, wenn Sie den Mauszeiger darüber bewegen, zeigt an, dass es bearbeitbar ist.
+* Sie können Felder bearbeiten, indem Sie einmal darauf klicken.
 
-## Hinzufügen neuer Meldungen und Probleme über das Scrum-Forum
+Vor dieser Verbesserung war nicht klar, welche Felder bearbeitbar waren, und Sie mussten doppelklicken, um ein Feld zu bearbeiten.
 
->[!NOTE]
->
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+## Bei der Berechnung des Übergabedatums sollten projektübergreifende Vorgänger berücksichtigt werden
 
-Sie können jetzt eine neue Meldung oder ein neues Problem direkt über das Scrum-Forum erstellen. Dies erleichtert das schnelle Hinzufügen einer neuen Geschichte zu Ihrer aktuellen Iteration.
+Mit einer neuen Verbesserung bei der Berechnung von Übergabeterminen für Aufgaben in Adobe Workfront werden nun die projektübergreifenden Abhängigkeiten berücksichtigt.
 
-Weitere Informationen finden Sie unter [Hinzufügen von Meldungen und Problemen aus der Scrum-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+Zuvor wurden die Übergabedaten nur anhand der Vorgänger der Aufgabe aus demselben Projekt berechnet.
 
-## Geschichte oder Ausgabe aus dem Kanban-Board löschen
+Um sicherzustellen, dass Sie immer über ein genaues Übergabedatum für eine Aufgabe mit einem projektübergreifenden Vorgänger verfügen, müssen Sie jetzt die Zeitleiste des Projekts der Nachfolgeaufgabe neu berechnen. Nach der Neuberechnung der Zeitleiste werden die Übergabedaten der Aufgabe unter Berücksichtigung der projektübergreifenden Abhängigkeiten der Aufgaben berechnet.
 
->[!NOTE]
->
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+Weitere Informationen zu Übergabedaten finden Sie unter [Übersicht über das Übergabedatum einer Aufgabe](../../../manage-work/tasks/task-information/handoff-task-date.md).
 
-Sie können jetzt eine Geschichte oder ein Problem direkt aus Ihrem Kanban-Board löschen, indem Sie auf das Symbol Mehr auf einer Geschichte oder Ausgabekarte klicken und Löschen auswählen. Wenn Sie einen Artikel oder ein Problem löschen, wird er 30 Tage lang in den Papierkorb verschoben und kann nur vom Systemadministrator abgerufen werden.
-
-Weitere Informationen finden Sie unter [Meldungen oder Probleme aus der Kanban-Pinnwand löschen](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
-
-## Aktualisierungen der Kartenkopfzeile und des Storyboards
+## Hinzufügen vorhandener Stories und Probleme aus dem Scrum-Board
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Auf Kanban- und Scrum-Pinnwänden sind jetzt die folgenden Verbesserungen verfügbar:
+Sie können jetzt eine vorhandene Story oder ein vorhandenes Problem direkt über das Scrum-Board hinzufügen. Dies erleichtert das Hinzufügen vorhandener Stories zu Ihrer aktuellen Iteration, ohne zur Backlog-Seite gehen zu müssen.
 
-* Die Storykarten und Pinnwände haben eine feste Breite, sodass sich die Kartengrößen nicht ändern, wenn Sie die Größe des Browser-Fensters anpassen.
-* Die Spalte &quot;Geschichten&quot;wurde in &quot;Übergeordnete Meldung&quot;umbenannt.
-* Oben auf jeder Karte befindet sich eine Beschriftung, mit der sie als übergeordnete Meldung, Unteraufgabe (die mit einer übergeordneten Meldung verknüpft ist), Meldung (die nicht mit einer übergeordneten Meldung verknüpft ist) oder Problem identifiziert werden kann.
-* Die Hintergrundschattierung trennt die Spalten visuell.
+Weitere Informationen finden Sie unter [Hinzufügen von Storys und Problemen vom Scrum-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
 
-Weitere Informationen finden Sie unter [Iterations overview](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
+## Hinzufügen neuer Stories und Probleme aus dem Scrum-Board
+
+>[!NOTE]
+>
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
+
+Sie können jetzt eine neue Story oder ein neues Problem direkt über das Scrum-Board erstellen. Dies erleichtert das schnelle Hinzufügen einer neuen Story zu Ihrer aktuellen Iteration.
+
+Weitere Informationen finden Sie unter [Hinzufügen von Storys und Problemen vom Scrum-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md).
+
+## Story oder Problem aus dem Kanban-Board löschen
+
+>[!NOTE]
+>
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
+
+Sie können eine Story oder ein Problem jetzt direkt aus Ihrem Kanban-Board löschen, indem Sie auf das Mehr -Symbol auf einer Story oder Problemkarte klicken und Löschen auswählen. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
+
+Weitere Informationen finden Sie unter [Löschen von Storys oder Problemen vom Kanban-Board](../../../agile/use-kanban-in-an-agile-team/delete-story-from-kanban-board.md).
+
+## Aktualisierungen der Kopfzeile und des Story Boards von Agile-Karten
+
+>[!NOTE]
+>
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
+
+Auf Kanban- und Scrum-Boards sind jetzt die folgenden Verbesserungen verfügbar:
+
+* Die Storykarten und Pinnwand-Spalten haben eine feste Breite, sodass sich die Kartengrößen nicht ändern, wenn Sie die Browser-Fenstergröße anpassen.
+* Die Spalte Storys wurde in Übergeordnete Story umbenannt.
+* Jede Karte weist oben einen Titel auf, um sie als übergeordnete Story, Unteraufgabe (mit einer übergeordneten Story verknüpft), Story (nicht mit einer übergeordneten Story verknüpft) oder Problem zu identifizieren.
+* Die Spalten werden durch Hintergrundschattierungen visuell getrennt.
+
+Weitere Informationen finden Sie unter [Übersicht über Iterationen](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md).
 
 ## Voreinstellungen für Gruppenprojekte, Aufgaben und Probleme
 
-Wie wir bereits zuvor kommuniziert haben, haben wir in Phasen bis zum 24. Juni 2021 Gruppenanpassungen für Projekt-, Aufgaben- und Problempräferenzen eingeführt. Jetzt ist der Rollout abgeschlossen und steht allen Kunden in der Produktion zur Verfügung.
+Wie wir bereits kommuniziert haben, haben wir in den Phasen bis zum 24. Juni 2021 Anpassungen auf Gruppenebene für Projekt-, Aufgaben- und Problemeinstellungen eingeführt. Jetzt ist der Rollout abgeschlossen und sie stehen allen Kunden in der Produktionsumgebung zur Verfügung.
 
 Weitere Informationen finden Sie in den folgenden Artikeln:
 
-* [Konfigurieren der Projektanforderungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
-* [Konfigurieren von Aufgaben- und Problemeinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
+* [Projektvoreinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md)
+* [Konfigurieren der Voreinstellungen für Aufgaben und Probleme für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md)
 
-## Zulassen der Genehmigung eines Dokuments durch externe Benutzer
+## Zulassen, dass externe Benutzer ein Dokument genehmigen
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Sie können jetzt externe E-Mail-Adressen verwenden, um Genehmiger im neuen Workfront-Erlebnis einem Dokument zuzuweisen.
+Sie können jetzt externe E-Mail-Adressen verwenden, um in der neuen Workfront-Version genehmigende Personen einem Dokument zuzuweisen.
 
-Zuvor konnten externe Benutzer nur in Workfront Classic nach E-Mail-Adresse hinzugefügt werden.
+Zuvor konnten Sie in Workfront Classic nur externe Benutzer nach E-Mail-Adresse hinzufügen.
 
 Weitere Informationen finden Sie unter [Dokumentgenehmigungen anfordern](../../../review-and-approve-work/manage-approvals/request-document-approvals.md).
 
-## Exportieren von Informationen aus dem Bereich Details eines Portfolios oder Programms
+## Exportieren von Informationen aus dem Abschnitt Details eines Portfolios oder Programms
 
 >[!NOTE]
 >
->Diese Funktion wurde am 20. Mai 2021 in der Vorschau-Umgebung veröffentlicht. Es wird am 3. Juni 2021 in der Produktionsumgebung veröffentlicht.
+>Diese Funktion wurde am 20. Mai 2021 in der Vorschau-Umgebung veröffentlicht. Die Version wird am 3. Juni 2021 in der Produktionsumgebung veröffentlicht.
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Sie können jetzt Informationen aus dem Bereich Details der Portfolios und Programme in eine PDF-Datei exportieren. Vor dieser Verbesserung konnten Sie Informationen aus dem Abschnitt Details nur aus Projekten, Aufgaben und Problemen exportieren.
+Sie können jetzt Informationen aus dem Abschnitt Details von Portfolios und Programmen in eine PDF-Datei exportieren. Vor dieser Verbesserung konnten Sie Informationen aus dem Abschnitt Details nur aus Projekten, Aufgaben und Problemen exportieren.
 
-Informationen zum Exportieren benutzerdefinierter Formulare aus einem Objekt finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
+Informationen zum Exportieren von benutzerdefinierten Formularen aus einem Objekt finden Sie unter [Exportieren von benutzerdefinierten Formularen und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-## Der Zeitstempel für das geplante Abschlussdatum wurde in der Kopfzeile des Objekts hinzugefügt.
-
->[!NOTE]
->
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
-
-Um den Zugriff, die Einfachheit und die Genauigkeit zu erleichtern, haben wir die Option hinzugefügt, einen Zeitstempel im geplanten Abschlussdatum des Headers von Projekten, Aufgaben oder Problemen auszuwählen.
-
-Vor dieser Verbesserung hat Workfront bei der Aktualisierung des geplanten Abschlussdatums eines Objekts Mitternacht als Standardzeit ausgewählt. Jetzt können Sie die Zeit sowie das Abschlussdatum anpassen.
-
-Informationen zu den Objektüberschriften im neuen Workfront-Erlebnis finden Sie unter [Neue Objektüberschriften](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
-
-## Benutzerdefiniertes Formular zu einem Objekt hinzufügen, ohne es zu bearbeiten
+## Zeitstempel für geplantes Abschlussdatum wurde in der Kopfzeile des Objekts hinzugefügt
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
 
-Wir haben es einfacher gemacht, einem Objekt ein benutzerdefiniertes Formular hinzuzufügen, das jemand anderes ausfüllt - oder das Sie später ausfüllen werden. Das Formular wird beim Hinzufügen nicht mehr automatisch in den Bearbeitungsmodus versetzt. Sie können das leere Formular einfach im Objekt speichern.
+Um den einfachen Zugriff, die Benutzerfreundlichkeit und die Genauigkeit zu erleichtern, haben wir die Option hinzugefügt, einen Zeitstempel im geplanten Abschlussdatum der Kopfzeile von Projekten, Aufgaben oder Problemen auszuwählen.
 
-Wenn Sie zuvor ein benutzerdefiniertes Formular zu einem Objekt hinzugefügt haben, wurde die Seite in den Bearbeitungsmodus versetzt und Sie mussten alle erforderlichen Felder im Formular ausfüllen, bevor Sie es im Objekt speichern konnten. Dies war unpraktisch, wenn das Formular von einem anderen Benutzer ausgefüllt werden sollte oder Sie noch nicht wussten, was in ein erforderliches Feld eingegeben werden sollte.
+Vor dieser Verbesserung hat Workfront beim Aktualisieren des geplanten Abschlussdatums eines Objekts Mitternacht als Standardzeit ausgewählt. Jetzt können Sie die Zeit sowie das Abschlussdatum anpassen.
 
-Weitere Informationen zum Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
+Weitere Informationen zu den Objektkopfzeilen in der neuen Workfront-Version finden Sie unter [Neue Objektkopfzeilen](../../../workfront-basics/the-new-workfront-experience/new-object-headers.md).
+
+## Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt, ohne es zu bearbeiten
+
+>[!NOTE]
+>
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar.
+
+Wir haben das Hinzufügen eines benutzerdefinierten Formulars, das ein anderer Benutzer ausfüllt oder das Sie später ausfüllen werden, zu einem Objekt erleichtert. Das Formular wechselt beim Hinzufügen nicht mehr automatisch in den Bearbeitungsmodus. Sie können das leere Formular einfach im -Objekt speichern.
+
+Wenn Sie ein benutzerdefiniertes Formular zu einem Objekt hinzugefügt haben, wurde die Seite zuvor in den Bearbeitungsmodus versetzt, und Sie mussten alle erforderlichen Felder im Formular ausfüllen, bevor Sie es im -Objekt speichern konnten. Dies war umständlich, wenn das Formular von einem anderen Benutzer ausgefüllt werden sollte oder wenn Sie noch nicht wussten, was Sie in ein Pflichtfeld im Formular einfügen sollten.
+
+Informationen zum Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt finden Sie unter [Hinzufügen eines benutzerdefinierten Formulars zu einem Objekt](../../../workfront-basics/work-with-custom-forms/add-a-custom-form-to-an-object.md).
 

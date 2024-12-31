@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 17. Oktober 2022'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 17. Oktober 2022 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 17. Oktober 2022'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 17. Oktober 2022 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 17. Oktober 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 17. Oktober 2022
 
-## Adobe Creative Cloud-Bibliotheken > Das Modul zum Hochladen von Assets ermöglicht jetzt größere Dateien
+## Adobe Creative Cloud Libraries > Asset-Modul hochladen ermöglicht jetzt das Hochladen größerer Dateien
 
-Da Assets in Ihren Adobe Creative Cloud-Bibliotheken häufig detailliert und komplex sind und daher große Dateien sein können, haben wir es Ihnen ermöglicht, größere Dateien in Ihre Adobe Creative Cloud-Bibliotheken hochzuladen. Sie können jetzt das Modul Adobe Creative Cloud-Bibliotheken > Assets hochladen verwenden, um Dateien mit einer Größe von bis zu 1 GB in Ihre Adobe Creative Cloud-Bibliotheken hochzuladen.
+Da Assets in Ihren Adobe Creative Cloud-Bibliotheken häufig sehr detailliert und komplex sind und daher große Dateien sein können, haben wir es Ihnen ermöglicht, größere Dateien in Ihre Adobe Creative Cloud-Bibliotheken hochzuladen. Sie können jetzt das Modul Adobe Creative Cloud-Bibliotheken > Assets hochladen verwenden, um Dateien mit bis zu 1 GB in Ihre Adobe Creative Cloud-Bibliotheken hochzuladen.
 
-Bisher waren die Datei-Uploads in diesem Modul auf 5 MB beschränkt.
+Zuvor waren Datei-Uploads in diesem Modul auf 5 MB beschränkt.
 
 Weitere Informationen zu den Adobe Creative Cloud-Bibliotheksmodulen finden Sie unter [Adobe Creative Cloud-Bibliotheksmodule](/help/quicksilver/workfront-fusion/apps-and-their-modules/creative-cloud-libraries-modules.md).
 
-Weitere Informationen zu anderen Workfront Fusion-Leistungsgarantien, einschließlich Dateigrößenbeschränkungen, finden Sie unter [Adobe Workfront Fusion-Leistungsgarantien](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).
+Weitere Informationen zu anderen Leistungs-Schutzmechanismen von Workfront Fusion, einschließlich Dateigrößenbeschränkungen, finden Sie unter [Leistungs-Schutzmechanismen von Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/fusion-performance-guardrails.md).

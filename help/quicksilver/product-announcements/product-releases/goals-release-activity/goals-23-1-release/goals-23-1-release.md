@@ -2,8 +2,8 @@
 product-previous: workfront-goals
 content-type: release-notes
 navigation-topic: goals-release-activity
-title: Adobe Workfront-Ziele mit Version 23.1
-description: Auf dieser Seite finden Sie Informationen zur Funktionalität der Adobe Workfront-Ziele im neuen Adobe Workfront-Erlebnis, das mit Version 23.1 für die Produktionsumgebung veröffentlicht wird.
+title: Adobe Workfront-Ziele in Version 23.1
+description: Diese Seite enthält Informationen zur Funktionalität für Adobe Workfront Goals in der neuen Adobe Workfront-Version, die mit Version 23.1 in der Produktionsumgebung veröffentlicht wird.
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: d6a3e048-3f55-4954-9b65-f7f55c77d1a3
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Adobe Workfront-Ziele mit Version 23.1
+# Adobe Workfront-Ziele in Version 23.1
 
-Auf dieser Seite finden Sie Informationen zu den Funktionen für Adobe Workfront-Ziele, die mit Version 23.1, die für die Woche vom 16. Januar 2023 geplant ist, in der Produktionsumgebung veröffentlicht werden.
+Diese Seite enthält Informationen zur Funktionalität für Adobe Workfront Goals, die mit Version 23.1, die für den 16. Januar 2023 geplant ist, in die Produktionsumgebung veröffentlicht wird.
 
-Eine Liste aller Änderungen, die für alle Bereiche von Workfront derzeit im 23.1-Versionszyklus verfügbar sind, finden Sie unter [23.1 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus 23.1 für alle Bereiche von Workfront verfügbar sind, finden Sie unter Übersicht über Version [23.1](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
 <table>
             <col style="width: 50%;" />
@@ -36,30 +36,30 @@ Eine Liste aller Änderungen, die für alle Bereiche von Workfront derzeit im 23
                 </tr>
                 <tr>
                     <td>
-                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Aktualisierungen der Workfront-Ziele</a></p>
-                        <p>Um ein konsistenteres Erlebnis mit dem Rest von Workfront zu schaffen und die Ansicht und Arbeit mit Ihren Zielen zu vereinfachen, haben wir die Workfront-Ziele aktualisiert. Das Erscheinungsbild von Workfront-Zielen ist jetzt eher mit anderen Bereichen in Workfront vergleichbar. </p>
-                        <p>Jetzt sind Bereiche wie die Kopfzeilen-, Listen- und Detailkarten mit Ihrem Workfront-Erlebnis vertraut und konsistent.
-Einzelne Ziele werden auf ihrer eigenen Seite geöffnet. Im linken Bereich haben wir die folgenden Abschnitte hinzugefügt, um die Navigation und Aktualisierung zu erleichtern:</p>
+                        <a href="/help/quicksilver/product-announcements/product-releases/goals-release-activity/goals-23-1-release/goals-jan.md">Updates für Workfront-Ziele</a></p>
+                        <p>Um ein konsistenteres Erlebnis mit dem Rest von Workfront zu schaffen und die Anzeige und Arbeit mit Ihren Zielen zu erleichtern, haben wir die Workfront-Ziele aktualisiert. Das Erscheinungsbild von Workfront Goals ähnelt nun mehr anderen Bereichen in Workfront. </p>
+                        <p>Jetzt sind Bereiche wie die Kopfzeile, Listen und Detailkarten mit Ihrer Erfahrung in Workfront vertraut und stimmen mit ihnen überein.
+Einzelne Ziele werden auf ihrer eigenen Seite geöffnet. Wir haben die folgenden Abschnitte im linken Bedienfeld hinzugefügt, um die Navigation und Aktualisierung zu vereinfachen:</p>
                         <ul>
-                        <li><b>Zieldetails</b>: Zieldetails: Informationen wie die Beschreibung, den Fortschritt, die Daten und die Informationen des übergeordneten Ziels anzeigen.</li>
-                        <li><b>Fortschrittsanzeigen</b>: Zeigt Fortschrittsanzeigen in einer Liste an. Sie können diese Indikatoren inline bearbeiten, Bearbeitungsfenster öffnen oder die Indikatoren aus diesem Bereich löschen.</li>
-                        <li><b>Aktualisierungen</b>: Anzeigen, Veröffentlichen oder Antworten auf Aktualisierungen des Ziels, ähnlich dem Bereich "Updates"in anderen Workfront-Objekten. 
-Das Freigeben, Bearbeiten, Löschen oder Kopieren eines Ziels ähnelt der Art und Weise, wie Sie diese Aktionen für andere Objekte in Workfront durchführen.</li>    
+                        <li><b>Zieldetails</b>: Zieldetails: Informationen wie die Beschreibung des Ziels, den Fortschritt, Daten und Informationen zum übergeordneten Ziel anzeigen.</li>
+                        <li><b>Fortschrittsanzeigen</b>: Zeigen Sie Fortschrittsanzeigen in einer Liste an. Sie können diese Indikatoren inline bearbeiten, Bearbeitungsfenster öffnen oder die Indikatoren aus diesem Bereich löschen.</li>
+                        <li><b>Aktualisierungen</b>: Anzeigen, Posten oder Antworten auf Aktualisierungen des Ziels, ähnlich dem Bereich „Aktualisierungen“ in anderen Workfront-Objekten. 
+Das Freigeben, Bearbeiten, Löschen oder Kopieren eines Ziels funktioniert ähnlich wie diese Aktionen für andere Objekte in Workfront.</li>    
                         </ul>
                         </p>
-                        <p>Das Freigeben, Bearbeiten, Löschen oder Kopieren eines Ziels ähnelt der Art und Weise, wie Sie diese Aktionen für andere Objekte in Workfront durchführen.
-Darüber hinaus wurde im Abschnitt Aktualisierungen eines Ziels ein neues Kommentarerlebnis eingeführt, in dem jetzt Benutzerkommentare und Anmerkungen zu Systemaktivitäten auf zwei separaten Registerkarten angezeigt werden.</p>
-                        <p><b>WICHTIG</b>: Mit dieser Aktualisierung haben wir die Abschnitte "Check-in"und "Pulse"im Bereich "Ziele"entfernt. </p>
+                        <p>Das Freigeben, Bearbeiten, Löschen oder Kopieren eines Ziels funktioniert ähnlich wie diese Aktionen für andere Objekte in Workfront.
+Darüber hinaus haben wir im Abschnitt Aktualisierungen eines Ziels ein neues Kommentierungserlebnis eingeführt, das jetzt Benutzerkommentare und Notizen zur Systemaktivität auf zwei separaten Registerkarten anzeigt.</p>
+                        <p><b>WICHTIG</b>: Mit diesem Update haben wir die Abschnitte Check-in und Pulse im Bereich Ziele entfernt. </p>
                     </td>
-                    <td><p><b>Verfügbar zu diesen Terminen:</b></p>
+                    <td><p><b>Verfügbar zu diesen Daten:</b></p>
                      <p>
                         </p>
                         <ul>
                             <li>
-                                <p>Vorschau-Version: 5. Januar 2023<br /></p>
+                                <p>Vorschau der Version: 5. Januar 2023<br /></p>
                             </li>
                             <li>
-                                <p>Produktionsversion: Mit Version 23.1</p>
+                                <p>Produktionsversion: Mit der Version 23.1</p>
                             </li>
                         </ul>
                     </td>

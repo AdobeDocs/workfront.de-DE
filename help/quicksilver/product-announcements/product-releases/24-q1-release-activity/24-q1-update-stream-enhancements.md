@@ -1,6 +1,6 @@
 ---
-title: Verbesserungen am Datenstrom und der Benachrichtigung im ersten Quartal 2024
-description: Verbesserungen am Datenstrom und der Benachrichtigung im ersten Quartal 2024
+title: Verbesserungen bei Aktualisierungen und Benachrichtigungen für das erste Quartal 2024
+description: Verbesserungen bei Aktualisierungen und Benachrichtigungen für das erste Quartal 2024
 author: Lisa
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,42 +12,42 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen am Datenstrom und der Benachrichtigung im ersten Quartal 2024
+# Verbesserungen bei Aktualisierungen und Benachrichtigungen für das erste Quartal 2024
 
-Auf dieser Seite werden alle Verbesserungen am Aktualisierungsstream und an Benachrichtigungen beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom ersten Quartal 2024 verfügbar gemacht.
+Auf dieser Seite werden alle Aktualisierungen und Verbesserungen der Benachrichtigung beschrieben, die mit der Version vom ersten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom ersten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des ersten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht für das erste Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im ersten Quartal 2024 verfügbar sind, finden Sie unter [Versionsübersicht 1. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-## Ziehen Sie ein Bild in einen Kommentar im Abschnitt Updates .
+## Ziehen Sie ein Bild per Drag-and-Drop in einen Kommentar im Abschnitt Aktualisierungen .
 
-Um den Inhalt Ihrer Kommentare zu verbessern, können Sie jetzt im Abschnitt Aktualisierungen eines Objekts ein Bild in einen Kommentar oder eine Antwort ziehen und dort ablegen.
+Um den Inhalt Ihrer Kommentare zu verbessern, können Sie jetzt ein Bild schnell per Drag-and-Drop in einen Kommentar ziehen oder im Abschnitt Aktualisierungen eines Objekts antworten.
 
-Sie können Bilder hinzufügen, die nur in den folgenden Formaten auf Ihrem Computer gespeichert sind: .jpg, .jpeg, .png, .gif.
+Bilder, die auf dem Computer gespeichert sind, können nur in den folgenden Formaten hinzugefügt werden: .jpg, .jpeg, .png, .gif.
 
-Diese Funktion existierte im alten Kommentar-Stream und wurde nun zum neuen Kommentar-Erlebnis hinzugefügt.
+Diese Funktion gab es bereits im alten Kommentar-Stream, und sie wurde jetzt zum neuen Kommentar-Erlebnis hinzugefügt.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Das neue Kommentierungserlebnis erfasst alle Informationen für Projekte, Aufgaben, Probleme und Dokumente
 
-Projekte, Aufgaben, Probleme und Dokumente zeigen alle Aktualisierungen im neuen Kommentarerlebnisbereich an, die seit dem Beginn Ihrer Workfront-Instanz vorgenommen wurden. Vor dieser Verbesserung hat das neue Kommentierungserlebnis nur Aktualisierungen erfasst, die mit Januar 2019 für diese Objekte beginnen.
+Projekte, Aufgaben, Probleme und Dokumente werden seit dem Beginn der Workfront-Instanz im neuen Kommentarbereich angezeigt. Vor dieser Verbesserung wurden für diese Objekte nur Aktualisierungen ab Januar 2019 in den neuen Kommentaren erfasst.
 
-## Suchen Sie im Abschnitt Updates nach einem Kommentar oder Benutzer.
+## Suchen Sie nach einem Kommentar oder Benutzer im Abschnitt „Aktualisierungen“
 
-Um schnell Informationen im Abschnitt &quot;Aktualisierungen&quot;eines Objekts zu finden, können Sie jetzt in einem Kommentar nach einem Suchbegriff oder nach einem beliebigen Benutzer suchen, der mit einem Kommentar verknüpft ist.
+Um im Abschnitt Aktualisierungen eines Objekts schnell Informationen zu finden, können Sie jetzt in einem Kommentar nach einem Keyword suchen oder nach einem Benutzer, der mit einem Kommentar verknüpft ist.
 
-Die für Ihre Suche relevanten Kommentare werden gefiltert und die Suchbegriffe werden hervorgehoben, sodass Sie sie leicht finden können.
+Die für Ihre Suche relevanten Kommentare werden gefiltert und die Keywords werden hervorgehoben, sodass Sie sie leicht finden können.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3425730/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3425730/){target=_blank}
 
-## Kopieren Sie ein Bild und fügen Sie es in einen Kommentar im Abschnitt Updates ein
+## Kopieren Sie ein Bild und fügen Sie es in einen Kommentar im Abschnitt Aktualisierungen ein
 
-Um Kontext zum Inhalt einer Nachricht bereitzustellen, können Sie Ihren Kommentaren jetzt schnell Bilder anhängen, indem Sie sie von Ihrem Computer kopieren und in eine neue Aktualisierung oder Antwort einfügen. Diese Funktion ist nur auf der Registerkarte Kommentare im Abschnitt Updates eines Objekts verfügbar.
+Um den Kontext für den Inhalt einer Nachricht bereitzustellen, können Sie jetzt schnell Bilder an Ihre Kommentare anhängen, indem Sie sie von Ihrem Computer kopieren und in ein neues Update oder eine neue Antwort einfügen. Diese Funktion ist nur auf der Registerkarte Kommentare im Abschnitt Aktualisierungen eines Objekts verfügbar.
 
 Die folgenden Dateiformate werden unterstützt: .jpg, .jpeg, .png, .gif.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an.](https://video.tv.adobe.com/v/3425731/){target=_blank}
+[Sehen Sie sich eine Videodemonstration zu dieser Funktion an.](https://video.tv.adobe.com/v/3425731/){target=_blank}

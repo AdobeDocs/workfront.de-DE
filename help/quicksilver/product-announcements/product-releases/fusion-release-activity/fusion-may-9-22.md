@@ -4,8 +4,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 9. Mai 2022'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 9. Mai 2022 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 9. Mai 2022'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 9. Mai 2022 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -18,25 +18,25 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 9. Mai 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 9. Mai 2022
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 9. Mai 2022 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 9. Mai 2022 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
 
-## Verbesserungen der Suchfunktion für den Ausführungsverlauf von Szenarien
+## Verbesserungen der Suchfunktion für den Ausführungsverlauf eines Szenarios
 
-Um die Suche nach den benötigten Daten im Ausführungsverlauf eines Szenarios zu vereinfachen, haben wir die folgenden Verbesserungen an der Volltextsuche im Ausführungsverlauf vorgenommen:
+Um die Suche nach den benötigten Daten im Ausführungsverlauf des Szenarios zu vereinfachen, wurden die folgenden Verbesserungen an der Volltextsuche im Ausführungsverlauf vorgenommen:
 
-* Begrenzen Sie die Suche auf bestimmte Daten im 30-Tage-Archiv des Ausführungsverlaufs.
-* Begrenzen Sie die Suche auf bestimmte Ausführungsstatus wie Erfolg oder Fehler.
-* Ausführen-ID mit einem Klick kopieren
-* Überprüfen Sie auf einen Blick, ob eine bestimmte Ausführung geplant, unmittelbar oder manuell ausgelöst wurde.
-* Verwenden Sie Ihre Tastatur, um das Suchfenster zu öffnen und durch die Ergebnisse zu navigieren
+* Suche auf bestimmte Daten im 30-tägigen Archiv des Ausführungsverlaufs beschränken
+* Suche auf bestimmte Ausführungsstatus wie Erfolg oder Fehler beschränken
+* Kopieren der Ausführungs-ID mit einem Klick
+* Auf einen Blick erkennen, ob eine bestimmte Ausführung geplant, sofort oder manuell ausgelöst wurde
+* Verwenden Sie die Tastatur, um das Suchfenster zu öffnen und durch die Ergebnisse zu navigieren
 
-Zuvor konnten Benutzer nur nach Text suchen und Filter nur in der vollständigen Liste der Ausführungen verwenden.
+Zuvor konnten Benutzende nur nach Text suchen und Filter nur in der vollständigen Liste der Ausführungen verwenden.
 
 Weitere Informationen finden Sie unter [Anzeigen des Ausführungsverlaufs eines Szenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/view-scenario-execution-history.md).

@@ -16,10 +16,10 @@ ht-degree: 0%
 
 Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit der Version vom vierten Quartal 2023 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden mit Version 23.10 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die an dieser Stelle im Versionszyklus des vierten Quartals 2023 verfügbar sind, finden Sie unter [Überblick über das vierte Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2023 des Versionszyklus verfügbar sind, finden Sie unter [Versionsübersicht für das vierte Quartal 2023](/help/quicksilver/product-announcements/product-releases/23-q4-release-activity/23-q4-release-overview.md).
 
-## Änderungen am Hauptmenü des Beitragenden
+## Änderungen am Hauptmenü des Mitwirkenden
 
-Um Mitarbeiter/Antragsteller besser über die Funktionen zu informieren, die mit einem gebührenpflichtigen Workfront-Lizenztyp verfügbar sind, können sie jetzt alle verfügbaren Optionen im Hauptmenü sehen. Die Optionen, die Beitragenden nicht zur Verfügung stehen, sind ausgegraut.
+Um Mitwirkende/Anfordernde besser über die Funktionen zu informieren, die mit einem gebührenpflichtigen Workfront-Lizenztyp verfügbar sind, können sie jetzt alle im Hauptmenü verfügbaren Optionen sehen. Optionen, die Mitwirkenden nicht zur Verfügung stehen, sind ausgegraut.
 
-Weitere Informationen zum Hauptmenü finden Sie unter [Übersicht über die oberste Navigationsleiste](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+Weitere Informationen über das Hauptmenü finden Sie unter [Übersicht über die obere Navigationsleiste](/help/quicksilver/workfront-basics/the-new-workfront-experience/global-navigation-overview.md).

@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 4. Januar 2021'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 4. Januar 2021 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 4. Januar 2021'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 4. Januar 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,27 +17,27 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 4. Januar 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 4. Januar 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 4. Januar 2021 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 4. Januar 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Aktualisierungen für Microsoft 365 Email Connector
+## Updates für Microsoft 365 Email Connector
 
-Um die Möglichkeiten zur Verwendung des Microsoft 365 Email Connectors zu erweitern, haben wir einige neue Module hinzugefügt:
+Um die Möglichkeiten zur Verwendung des E-Mail-Connectors für Microsoft 365 zu erweitern, haben wir einige neue Module hinzugefügt:
 
-* Suchmeldungen
+* Nachrichten suchen
 * Nachricht abrufen
-* Nachricht löschen
-* Nachricht aktualisieren
-* Anlagen auflisten
-* Anlage herunterladen
+* Löschen einer Nachricht
+* Aktualisieren einer Nachricht
+* Anhänge auflisten
+* Herunterladen eines Anhangs
 * Anlage hinzufügen
-* API-Aufruf
+* Durchführen eines API-Aufrufs
 
-Wir haben auch das Modul Iterate attachments entfernt. Sie können das Modul &quot;List attachments&quot;mit dem Iterator-Modul kombinieren, um Anlagen zu iterieren.
+Wir haben auch das Modul Iterate Attachments entfernt. Sie können das Modul „Listenanhänge“ mit dem Modul „Iterator“ kombinieren, um Anhänge zu iterieren.
 
-Weitere Informationen finden Sie unter [Microsoft Office 365 Email](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md).
+Weitere Informationen finden Sie unter [Microsoft Office 365-E-Mail](../../../workfront-fusion/apps-and-their-modules/microsoft-365-email-modules.md).

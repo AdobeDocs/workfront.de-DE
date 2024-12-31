@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 1. Februar 2021'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 1. Februar 2021 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 1. Februar 2021'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 1. Februar 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 1. Februar 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 1. Februar 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 1. Februar 2021 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 1. Februar 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -40,21 +40,21 @@ Sie können jetzt Workfront Fusion verwenden, um eine Verbindung zu Ihrem MariaD
 Mit den MariaDB-Modulen können Sie:
 
 * Ausführen einer Abfrage
-* Auswählen von Zeilen aus einer Tabelle
+* Zeilen aus einer Tabelle auswählen
 
 Weitere Informationen finden Sie unter [MariaDB-Module](../../../workfront-fusion/apps-and-their-modules/mariadb-modules.md).
 
-## Marketo-Connector und -Module sind jetzt verfügbar
+## Marketo-Connector und -Module jetzt verfügbar
 
-* Jetzt können Sie mit Workfront Fusion eine Verbindung zu Ihrem Marketo-Konto herstellen. Mit dem Marketo-Connector können Sie
-* Trigger eines Szenarios bei der Erstellung oder Aktualisierung eines Datensatzes.
-* Datensätze erstellen, lesen oder aktualisieren
-* Hochladen oder Herunterladen von Dateien
-* Listen- oder Suchdatensätze eines bestimmten Typs
-* Leads zur Liste hinzufügen oder daraus entfernen
-* Eine Kampagne planen
-* Programm kopieren
-* Benutzerdefinierte API-Aufrufe durchführen
+* Jetzt können Sie Workfront Fusion verwenden, um eine Verbindung zu Ihrem Marketo-Konto herzustellen. Mit dem Marketo-Connector können Sie
+* Trigger Ein Szenario, wenn ein Datensatz erstellt oder aktualisiert wird.
+* Erstellen, Lesen oder Aktualisieren von Datensätzen
+* Dateien hochladen oder herunterladen
+* Liste oder Suche nach Datensätzen eines bestimmten Typs
+* Leads zu einer Liste hinzufügen oder aus einer Liste entfernen
+* Planen einer Kampagne
+* Kopieren eines Programms
+* Erstellen eines benutzerdefinierten API-Aufrufs
 
 Weitere Informationen finden Sie unter [Marketo-Module](../../../workfront-fusion/apps-and-their-modules/marketo-modules.md).
 

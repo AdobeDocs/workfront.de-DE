@@ -1,6 +1,6 @@
 ---
-title: 2.2 Weitere Verbesserungen
-description: 2.2 Weitere Verbesserungen
+title: 22.2 Weitere Verbesserungen
+description: 22.2 Weitere Verbesserungen
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# 2.2 Weitere Verbesserungen
+# 22.2 Weitere Verbesserungen
 
-Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
+Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 22.2 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung verfügbar gemacht
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -25,26 +25,26 @@ in January 2022
 
 die Woche vom 4. April 2022.
 
-Eine Liste aller in Version 22.2 verfügbaren Änderungen finden Sie unter [22.2 Versionsübersicht](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 22.2 verfügbar sind, finden Sie unter Übersicht über Version [22.2](../../../product-announcements/product-releases/22.2-release-activity/22-2-release-overview.md).
 
-## Verbesserungen der oberen Navigationsleiste
+## Verbesserungen an der oberen Navigationsleiste
 
-Die Navigationsleiste am oberen Bildschirmrand von Adobe Workfront wurde verbessert.
+An der oberen Navigationsleiste von Adobe Workfront wurden mehrere Verbesserungen vorgenommen.
 
-* Favoriten und Letzte haben in der oberen Navigationsleiste jetzt separate Symbole. Jede Seite zeigt weiterhin denselben Inhalt an (Seiten, die Sie als Favoriten gekennzeichnet haben, und Seiten, die Sie kürzlich besucht haben), und Sie können weiterhin beliebte Seiten auf die gleiche Weise hinzufügen und entfernen.
-* Das Erscheinungsbild der Pins und des Hauptmenüs wurde auf Adobe-Design-Standards aktualisiert, einschließlich Farben und Schriften. Die Art und Weise, wie Sie Pins hinzufügen und entfernen und auf welche Bereiche Sie im Hauptmenü zugreifen können, hat sich nicht geändert.
-* Die Symbole auf der rechten Seite der oberen Navigationsleiste wurden neu angeordnet, um intuitiver zu sein. Die Symbolreihenfolge lautet: Hilfelink, Benachrichtigungen, Favoriten, Neuigkeiten, Suche, Hauptmenü.
+* Favoriten und Letzte haben jetzt separate Symbole in der oberen Navigationsleiste. Alle Seiten zeigen weiterhin denselben Inhalt an (Seiten, die Sie als Favoriten gekennzeichnet haben, und Seiten, die Sie kürzlich besucht haben), und Sie können weiterhin Favoriten-Seiten auf die gleiche Weise hinzufügen und entfernen.
+* Das Erscheinungsbild der beiden Pins und das Hauptmenü wurde auf Adobe-Design-Standards aktualisiert, einschließlich Farben und Schriftarten. Die Art und Weise, wie Sie Pins hinzufügen und entfernen, sowie die Bereiche, auf die Sie im Hauptmenü Zugriff haben, haben sich nicht geändert.
+* Die Symbole auf der rechten Seite der oberen Navigationsleiste wurden neu angeordnet, um die Benutzerfreundlichkeit zu verbessern. Die Reihenfolge der Symbole ist: Hilfe-Link, Benachrichtigungen, Favoriten, Zuletzt verwendet, Suche, Hauptmenü.
 
-Weitere Informationen finden Sie unter [Übersicht über die oberste Navigationsleiste](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über die obere Navigationsleiste](../../../workfront-basics/the-new-workfront-experience/global-navigation-overview.md).
 
-## Neu entworfene Listen von Zeitblättern
+## Neu gestaltete Arbeitszeittabellen-Listen
 
-Um Ihre Nutzung von Workfront mit dem neuen Adobe Workfront-Erlebnis in Einklang zu bringen, haben wir die Timesheet-Listen im Bereich &quot;Timesheets&quot;neu gestaltet. Dieselbe Funktionalität in der Timesheet-Liste erwartet Sie nur mit einer saubereren, optimierten Benutzererfahrung.
+Um die Verwendung von Workfront mit der neuen Adobe Workfront-Version konsistent zu machen, haben wir die Arbeitszeittabellenlisten im Bereich Arbeitszeittabellen neu gestaltet. Die gleiche Funktionalität ist in der Arbeitszeittabellenliste nur mit einem saubereren, optimierten Benutzererlebnis zu erwarten.
 
-Zu den Highlights dieser Neugestaltung gehören:
+Zu den Highlights dieses Redesigns gehören:
 
-* Die Timesheet-Liste entspricht nun dem Erlebnis in allen anderen Listen in Workfront.
-* Das Filtererlebnis entspricht nun den Filtern in allen anderen Listen. Sie haben mehr Flexibilität bei der Erstellung eigener Filter mit den Feldern und Attributen, die für Sie am sinnvollsten sind, und bei der Freigabe für andere Benutzer.
+* Die Arbeitszeittabellenliste entspricht nun dem Erlebnis in allen anderen Listen in Workfront.
+* Das Filtererlebnis stimmt nun mit den Filtern in allen anderen Listen überein. Sie haben mehr Flexibilität, eigene Filter mit den Feldern und Attributen zu erstellen, die für Sie am sinnvollsten sind, und sie für andere Benutzer freizugeben.
 
-Weitere Informationen zum Erstellen von Timesheets mit den neuen Listen finden Sie unter [Erstellen eines Zeitplans für die einmalige Verwendung](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
+Weitere Informationen zum Erstellen von Arbeitszeittabellen mithilfe der neuen Listen [ Sie unter „Erstellen einer Einmal-Arbeitszeittabelle](../../../timesheets/create-and-manage-timesheets/create-tmshts.md).
 

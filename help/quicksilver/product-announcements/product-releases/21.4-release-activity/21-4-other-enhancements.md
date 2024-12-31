@@ -15,20 +15,20 @@ ht-degree: 0%
 
 # 21.4 Weitere Verbesserungen
 
-Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
+Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 21.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie in der Übersicht über die Version [21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
-## Neue Tastaturbefehle für Einzüge und Ausgänge in Listen
+## Neue Tastaturbefehle zum Einrücken und Ausrücken in Listen
 
-Um allen Systembenutzern ein barrierefreies Erlebnis zu bieten und die Standardgrundsätze für die Tastaturnavigation einzuhalten, wurden die Einzug-/Ausstiegstastaturbefehle geändert.
+Um allen Systembenutzern ein barrierefreies Erlebnis zu bieten und den standardmäßigen Tastaturnavigationsprinzipien zu entsprechen, wurden die Tastaturbefehle zum Einrücken/Ausrücken geändert.
 
-Drücken Sie für Mac die Tastenkombination Option + > , um ein Listenelement einzufügen, und die Option + &lt;, um es auszublenden.
+Drücken Sie für Mac Option + >, um ein Listenelement einzuziehen, und Option + &lt;, um es einzuziehen.
 
-Drücken Sie unter Windows die Tastenkombination Alt + > , um ein Listenelement einzufügen, und Alt + &lt;, um es auszublenden.
+Drücken Sie unter Windows Alt + >, um ein Listenelement einzuziehen, und Alt + &lt;, um es einzuziehen.
 
-Zuvor war der Tastaturbefehl zum Einzug in eine Liste Tab und Ausrücken Umschalt + Tab. Die Verwendung der Tabulatortaste für Einzüge und Ausgänge führte jedoch dazu, dass nicht alle aktiven Felder in der Benutzeroberfläche durchlaufen werden konnten.
+Zuvor war der Tastaturbefehl für das Einrücken in einer Liste die Tabulatortaste und für das Ausrücken die Umschalttaste + Tabulatortaste. Die Verwendung der Tabulatortaste für das Einrücken und Ausrücken bedeutete jedoch, dass es nicht möglich war, alle aktiven Felder in der Benutzeroberfläche mit der Tabulatortaste zu durchlaufen.
 
 Diese Änderung gilt nur für aktualisierte Listen und nicht für veraltete Listen.
 
-Weitere Informationen finden Sie unter [Unteraufgaben erstellen](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+Weitere Informationen finden Sie unter [Erstellen von Teilaufgaben](../../../manage-work/tasks/create-tasks/create-subtasks.md).

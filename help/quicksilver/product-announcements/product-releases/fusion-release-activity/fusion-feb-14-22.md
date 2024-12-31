@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 14. Februar 2022
-description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 14. Februar 2022
+title: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 14. Februar 2022
+description: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 14. Februar 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 14. Februar 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 14. Februar 2022
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 14. Februar 2022 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 14. Februar 2022 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
 ## Aktualisierungen des Workfront Fusion Anaplan-Connectors
 
-Um die Funktionalität des Anaplan-Connectors zu erweitern, haben wir folgende Aktualisierungen vorgenommen:
+Um die Funktionalität des Anaplan-Connectors zu erweitern, haben wir die folgenden Aktualisierungen vorgenommen:
 
-* Verwenden Sie ein dediziertes Modul, um eine Datei in Anaplan hochzuladen. Jetzt können Sie eine Datei in Anaplan nehmen und sie in zusätzliche Arbeitsbereiche und Modelle hochladen.
-* Rufen Sie Anaplan-Ansichten mit dem Modul Datensatz abrufen ab. Jetzt können Sie alle Ansichten eines Anaplan-Moduls oder -Modells auflisten.
+* Verwenden Sie ein dediziertes Modul, um eine Datei in Anaplan hochzuladen. Jetzt können Sie eine Datei in Anaplan in zusätzliche Arbeitsbereiche und Modelle hochladen.
+* Abrufen von Anaplan-Ansichten mit dem Modul Datensatz abrufen . Jetzt können Sie alle Ansichten eines Anaplan-Moduls oder -Modells auflisten.
 
 Weitere Informationen finden Sie unter [Anaplan-Module](../../../workfront-fusion/apps-and-their-modules/anaplan-modules.md).

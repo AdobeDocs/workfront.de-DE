@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 21. März 2022
-description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 21. März 2022
+title: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 21. März 2022
+description: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 21. März 2022
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 21. März 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 21. März 2022
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 21. März 2022 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 21. März 2022 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Verbindung mit OAuth2-PKCE im Workfront Fusion Frame.io-Connector herstellen
+## Verbinden mit OAuth2 PKCE im Workfront Fusion Frame.io-Connector
 
-Beim Erstellen einer Verbindung in einem Frame.io-Modul können Sie jetzt die Option auswählen, eine Verbindung mit OAuth2 PKCE, einer sicheren Authentifizierungsmethode nach Industriestandard, zu erstellen. Der vorhandene API-Token-Verbindungstyp ist weiterhin für den Frame.io-Connector verfügbar.
+Wenn Sie jetzt eine Verbindung in einem Frame.io-Modul erstellen, können Sie die Option zum Erstellen einer Verbindung mit OAuth2 PKCE auswählen, einer sicheren, branchenüblichen Authentifizierungsmethode. Der vorhandene API-Token-Verbindungstyp ist weiterhin für den Frame.io-Connector verfügbar.
 
 Zuvor war nur die API-Token-Verbindungsmethode für den Frame.io-Connector verfügbar.
 

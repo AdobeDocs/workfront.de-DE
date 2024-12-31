@@ -1,9 +1,9 @@
 ---
 content-type: release-notes
-keywords: notes,vierteljährlich,update
+keywords: Anmerkungen,vierteljährlich,aktualisieren
 navigation-topic: product-releases
-title: 21.1 Verbesserungen bei der Ressourcenverwaltung
-description: Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 21.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
+title: 21.1 Verbesserungen beim Ressourcenmanagement
+description: Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 21.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 15. Februar 2021 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 ---
 
-# 21.1 Verbesserungen bei der Ressourcenverwaltung
+# 21.1 Verbesserungen beim Ressourcenmanagement
 
-Auf dieser Seite werden alle Verbesserungen an der Ressourcenverwaltung beschrieben, die mit Version 21.1 der Vorschaufunktion vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche des 15. Februar 2021 verfügbar sein.
+Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 21.1 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 15. Februar 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.1 verfügbaren Änderungen finden Sie unter [21.1 - Versionsübersicht](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
+Eine Liste aller mit Version 21.1 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.1](../../../product-announcements/product-releases/21.1-release-activity/21-1-release-overview.md).
 
-## Lastenausgleich für Projekte
+## Workload Balancer für Projekte
 
-Der Lastenausgleich ist jetzt in einem Projekt verfügbar. Jetzt haben Sie die Möglichkeit, zwischen der Verwendung des Workload Balancer oder des Planungs-Tools zur Verwaltung Ihrer Projektressourcen auszuwählen.
+Der Workload Balancer ist jetzt in einem Projekt verfügbar. Jetzt haben Sie die Möglichkeit, zwischen der Verwendung des Workload-Balancer oder des Zeitplanungstools zur Verwaltung Ihrer Projektressourcen zu wählen.
 
-Informationen darüber, wo sich der Lastenausgleich in Adobe Workfront befinden kann, finden Sie unter [Suchen des Lastenausgleichs](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Informationen dazu, wo sich der Workload-Balancer in Adobe Workfront befinden kann, finden Sie unter [Suchen des Workload-Balancer](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-## Workfront Balancer für Teams verfügbar
+## Workfront-Balancer für ein Team verfügbar
 
-Der Lastenausgleich ist jetzt in einem Team verfügbar. Jetzt können Sie zwischen der Verwendung des Workload Balancer oder des Planungs-Tools zur Verwaltung Ihrer Team-Ressourcen wählen.
+Der Workload Balancer ist jetzt in einem Team verfügbar. Jetzt haben Sie die Möglichkeit, zwischen der Verwendung des Workload-Balancer oder des Zeitplanungstools zur Verwaltung Ihrer Team-Ressourcen zu wählen.
 
-Informationen darüber, wo sich der Lastenausgleich in Workfront befinden kann, finden Sie unter [Suchen des Lastenausgleichs](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Informationen dazu, wo sich der Workload-Balancer in Workfront befinden kann, finden Sie unter [Suchen des Workload-Balancer](../../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 

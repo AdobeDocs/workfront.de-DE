@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 2. November 2020'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 2. November 2020 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 2. November 2020'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 2. November 2020 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 2. November 2020
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 2. November 2020
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 2. November 2020 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 2. November 2020 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
 ## Allocadia-Connector und -Module jetzt verfügbar
 
@@ -31,9 +31,9 @@ Sie können jetzt Workfront Fusion 2.0 verwenden, um eine Verbindung zu Ihrem Al
 
 Mit den Allocadia-Modulen können Sie:
 
-* Trigger eines Szenarios beim Hinzufügen oder Aktualisieren von Datensätzen in Allocadia
+* Trigger eines Szenarios, bei dem Datensätze in Allocadia hinzugefügt oder aktualisiert werden
 * Erstellen, Lesen, Aktualisieren oder Löschen eines Allocadia-Datensatzes
-* Ausführen eines benutzerdefinierten API-Aufrufs
+* Durchführen eines benutzerdefinierten API-Aufrufs
 
 Informationen zu verfügbaren Allocadia-Modulen finden Sie unter [Allocadia-Module](../../../../../workfront-fusion/apps-and-their-modules/allocadia-modules.md).
 
@@ -41,12 +41,12 @@ Informationen zu verfügbaren Allocadia-Modulen finden Sie unter [Allocadia-Modu
 
 Sie können jetzt Workfront Fusion 2.0 verwenden, um eine Verbindung zu Ihrem DocuSign-Konto herzustellen. Mit den DocuSign-Modulen können Sie:
 
-* Trigger eines Szenarios, in dem ein Umschlag seinen Status ändert
-* Umschlag erstellen
-* Empfänger lesen, senden oder einem bestehenden Umschlag hinzufügen
+* Trigger : Ein Szenario, in dem ein Envelope seinen Status ändert
+* Erstellen eines Briefumschlags
+* Lesen, Senden oder Hinzufügen eines Empfängers zu einem vorhandenen Umschlag
 * Hinzufügen oder Ändern benutzerdefinierter Felder in Dokumenten
-* Herunterladen eines Dokuments als Feld
-* Datei in einen Umschlag hochladen
-* Ausführen eines benutzerdefinierten API-Aufrufs
+* Dokument als Feld herunterladen
+* Datei in einen Briefumschlag hochladen
+* Durchführen eines benutzerdefinierten API-Aufrufs
 
-Weitere Informationen finden Sie unter [DocuSign modules](../../../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).
+Weitere Informationen finden Sie unter [DocuSign-Module](../../../../../workfront-fusion/apps-and-their-modules/docusign-modules.md).

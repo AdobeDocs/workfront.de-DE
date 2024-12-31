@@ -1,6 +1,6 @@
 ---
-title: Reporting-Aktualisierungen während des Veröffentlichungszeitrahmens 22.3
-description: Reporting-Aktualisierungen während des Veröffentlichungszeitrahmens 22.3
+title: Reporting-Updates während des Zeitrahmens der Version 22.3
+description: Reporting-Updates während des Zeitrahmens der Version 22.3
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,27 +13,27 @@ ht-degree: 3%
 
 ---
 
-# 2.3 Verbesserungen bei der Berichterstellung
+# 22.3 Verbesserungen bei der Berichterstellung
 
-Auf dieser Seite werden alle Berichterstellungsverbesserungen beschrieben, die mit Version 22.3 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Juli 2022 bereitgestellt. Eine Liste aller in Version 22.3 verfügbaren Änderungen finden Sie unter [22.3 - Versionsübersicht](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
+Auf dieser Seite werden alle Berichtsverbesserungen beschrieben, die mit Version 22.3 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 11. Juli 2022 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 22.3 verfügbaren Änderungen finden Sie unter Übersicht über die Version [22.3](../../../product-announcements/product-releases/22.3-release-activity/22-3-release-overview.md).
 
-## Entfernung und Hinzufügung von Ressourcen-Budgeting-Feldern in Listen und Berichten
+## Entfernen und Hinzufügen von Ressourcenbudgetierungsfeldern in Listen und Berichten
 
-Um Ressourcenbudgeting-Informationen aus dem Ressourcenplaner widerzuspiegeln, haben wir das folgende Feld zu Listen und Berichten hinzugefügt:
+Um die Ressourcenbudgetierungsinformationen aus dem Ressourcenplaner widerzuspiegeln, wurde das folgende Feld zu Listen und Berichten hinzugefügt:
 
 * Ressourcenplaner – budgetierte Stunden
 
-  Da sie auf veraltete Tools verweisen, die in früheren Versionen aus Workfront entfernt wurden, haben wir die folgenden Ressourcen-Budgetierungsfelder aus Listen und Berichten entfernt:
+  Da es sich um veraltete Tools handelt, die in früheren Versionen aus Workfront entfernt wurden, haben wir die folgenden Ressourcenbudgetierungsfelder aus Listen und Berichten entfernt:
 
 
-Die folgenden Ressourcen-Budgetierungsfelder wurden aus Listen und Berichten entfernt, da sie auf veraltete Tools verweisen, die in früheren Versionen aus Workfront entfernt wurden:
+Die folgenden Ressourcenbudgetierungsfelder wurden aus Listen und Berichten entfernt, da sie auf veraltete Tools verweisen, die in früheren Versionen aus Workfront entfernt wurden:
 
 * Budgetierte Stunden
 
-* Veranschlagte Arbeitskosten
+* Budgetierte Arbeitskosten
 
-* Veranschlagte Kosten
+* Budgetierte Kosten
 
 
-Weitere Informationen finden Sie unter [Grundlegendes zu den budgetierten Arbeitskosten und den geplanten Arbeitszeiten für Projekte](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
+Weitere Informationen finden Sie unter [Budgetierte Lohnkosten und budgetierte Stunden für Projekte](/help/quicksilver/manage-work/projects/project-finances/budgeted-labor-cost.md).
 

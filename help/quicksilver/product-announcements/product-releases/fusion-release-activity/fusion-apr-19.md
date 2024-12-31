@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 19. April 2021'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 19. April 2021 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 19. April 2021'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 19. April 2021 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,27 +17,27 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 19. April 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 19. April 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 19. April 2021 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 19. April 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Aktualisierung des Workfront Fusion Slack-Connectors
+## Update auf Workfront Fusion Slack-Connector
 
 Wir haben dem Slack-Connector in Workfront Fusion weitere Module hinzugefügt. Jetzt können Sie dedizierte Module verwenden, um:
 
-* Trigger eines Szenarios, in dem Sie eine Direktnachricht für mehrere Parteien erhalten, wenn einem Kanal eine Datei hinzugefügt wird oder wenn ein Benutzer zu Ihrem Arbeitsbereich hinzugefügt wird.
+* Trigger : Ein Szenario, in dem Sie eine Mehrparteien-Direktnachricht erhalten, eine Datei zu einem Kanal hinzugefügt wird oder Benutzende zu Ihrem Arbeitsbereich hinzugefügt werden.
 * Nach Nachrichten suchen
-* Erstellen, lesen, laden, laden oder löschen Sie Dateien, die mit Nachrichten verbunden sind.
-* Hinzufügen von Sternen zu Kanälen oder Entfernen von Sternen aus Kanälen
+* An Nachrichten angehängte Dateien erstellen, lesen, hochladen, herunterladen oder löschen.
+* Sterne zu Kanälen hinzufügen oder daraus entfernen
 * Abrufen von Informationen zu einem Benutzer oder Entfernen eines Benutzers aus einem Kanal
-* Erstellen, Lesen, Abschließen oder Löschen von Erinnerungen
-* Benutzerstatus festlegen
-* Ausführen eines benutzerdefinierten API-Aufrufs
+* Erinnerungen erstellen, lesen, abschließen oder löschen
+* Festlegen des Status eines Benutzers
+* Durchführen eines benutzerdefinierten API-Aufrufs
 
 Alle vorhandenen Module sind weiterhin verfügbar.
 
-Weitere Informationen finden Sie unter [Slack modules](../../../workfront-fusion/apps-and-their-modules/slack-modules.md).
+Weitere Informationen finden Sie unter [Slack-Module](../../../workfront-fusion/apps-and-their-modules/slack-modules.md).

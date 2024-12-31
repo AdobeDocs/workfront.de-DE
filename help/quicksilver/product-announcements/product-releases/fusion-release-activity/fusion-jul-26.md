@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 26. Juli 2021
-description: Workfront Fusion-Release-Aktivität:&nbsp;Woche vom 26. Juli 2021
+title: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 26. Juli 2021
+description: Workfront Fusion-Versionsaktivität:&nbsp;Woche vom 26. Juli 2021
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Fusion
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 26. Juli 2021
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 26. Juli 2021
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 26. Juli 2021 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 26. Juli 2021 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
 ## Vereinfachte Module im Salesforce-Connector
 
-Um Ihnen die Einrichtung des Salesforce-Moduls in Ihrem Szenario zu erleichtern, haben wir einige Änderungen an den Modulen Salesforce > Datensatz erstellen und Salesforce > Datensatz aktualisieren vorgenommen. Jetzt können Sie die Felder auswählen, für die Sie Werte bereitstellen möchten. Felder sind deutlich als Pflichtfelder oder optional gekennzeichnet und nur die ausgewählten Felder werden im Modul angezeigt.
+Um Ihnen das Einrichten von Salesforce-Modulen in Ihrem Szenario zu erleichtern, haben wir einige Änderungen an Salesforce > Erstellen eines Datensatzes und Salesforce > Aktualisieren eines Datensatzmoduls vorgenommen. Jetzt können Sie die Felder auswählen, für die Sie Werte angeben möchten. Felder werden eindeutig als erforderlich oder optional markiert, und nur die ausgewählten Felder werden im Modul angezeigt.
 
-Zuvor wurden alle verfügbaren Felder eines Datensatzes im -Modul angezeigt, was die Suche nach gewünschten Feldern erschweren und die Leistung beeinträchtigen konnte, da große Mengen nicht benötigter Daten an Workfront gesendet wurden.
+Zuvor wurden alle verfügbaren Felder eines Datensatzes im Modul angezeigt, was das Auffinden der gewünschten Felder erschweren und die Leistung beeinträchtigen konnte, da große Mengen nicht benötigter Daten an Workfront gesendet wurden.
 
-Die Funktionalität vorhandener Szenarien, die die zuvor verfügbaren Module verwenden, ändert sich nicht, obwohl diese Module in neuen Szenarien nicht zur Verfügung stehen.
+Die Funktionalität vorhandener Szenarien, in denen die zuvor verfügbaren Module verwendet werden, ändert sich nicht, obwohl diese Module nicht für die Verwendung in neuen Szenarien verfügbar sind.
 
 Weitere Informationen finden Sie unter [Salesforce-Module](../../../workfront-fusion/apps-and-their-modules/salesforce-modules.md).
 
-## Detaillierte Informationen zum Kontozugriff bei der Zustimmung zu Adobe Workfront Fusion Connectors finden Sie
+## Genauere Informationen zum Kontozugriff bei der Erteilung der Zustimmung zu Adobe Workfront Fusion-Connectoren
 
-Die Bildschirme zur Zustimmung für Verbindungen zu Adobe Workfront Fusion werden jetzt aktualisiert. Jetzt können Sie die spezifischen Aktionen und Bereiche sehen, auf die die Verbindungen Zugriff haben, sodass Sie besser verstehen können, was Sie der Anwendung erlauben.
+Die Einverständnisbildschirme für Verbindungen mit Adobe Workfront Fusion wurden aktualisiert. Jetzt können Sie die spezifischen Aktionen und Bereiche sehen, auf die die Verbindungen Zugriff haben, damit Sie besser verstehen können, auf was Sie der Anwendung Zugriff gewähren.
 
-Weitere Informationen finden Sie im Abschnitt [Verbinden der App oder des Webdiensts des Moduls mit Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) in [Erstellen eines Szenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
+Weitere Informationen finden Sie im Abschnitt [Verbinden der App oder des Webservices des Moduls mit Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md#connect) in [Erstellen eines Szenarios in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/create-a-scenario.md).
 

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: product-releases-archive
-title: Webinare der Version 2017.2
-description: Diese Webinare konzentrierten sich auf die Funktionen der Version 2017.2.
+title: Webinare zur Version 2017.2
+description: Diese Webinare konzentrierten sich auf die in der Version 2017.2 enthaltenen Funktionen.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,92 +14,92 @@ ht-degree: 2%
 
 ---
 
-# Webinare der Version 2017.2
+# Webinare zur Version 2017.2
 
-Diese Webinare konzentrierten sich auf die Funktionen der Version 2017.2. 
+Diese Webinare konzentrierten sich auf die in der Version 2017.2 enthaltenen Funktionen. 
 
-Die Version 2017.2 steht derzeit zum Testen in der Vorschau zur Verfügung. Die Version 2017.2 wird Ende Juli oder Anfang August 2017 in der Produktionsumgebung auf verfügbar sein.
+Die Version 2017.2 kann derzeit in der Vorschau getestet werden. Die Version 2017.2 wird Ende Juli oder Anfang August 2017 in der Produktionsumgebung verfügbar sein.
 
-Weitere Informationen zu den in den Webinaren behandelten Funktionen finden Sie auf der Seite [Übersicht über die Veröffentlichungsaktivität 2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md) .
+Weitere Informationen zu den in den Webinaren behandelten Funktionen finden Sie auf der Seite Übersicht über die Versionsaktivität [2017.2](../../../../product-announcements/product-releases/quarterly-release-archive/2017.2-release-activity/2017-2-release-activity-overview.md).
 
-Die folgenden Webinaraufnahmen sind verfügbar:
+Die folgenden Webinar-Aufzeichnungen sind verfügbar:
 
-* [Veröffentlichungs-Webinar 2017.2 (27. Juni 2017)](#2017-2-release-webinar-june-27-2017)
+* Webinar zur Version [2017.2 (27. Juni 2017)](#2017-2-release-webinar-june-27-2017)
 * [2017.2 Beta 1 und 2 (24. Mai 2017)](#2017-2-beta-1-and-2-may-24-2017)
 
-## Webinar zur Version 27.2 (27. Juni 2017) {#2017-2-release-webinar-june-27-2017}
+## Webinar zur Version 2017.2 (27. Juni 2017) {#2017-2-release-webinar-june-27-2017}
 
-Das Workfront Release Webinar 2017.2 wurde vom Workfront-Produktteam am 27. Juni vorgestellt.  
+Das Workfront-Versions-Webinar 2017.2 wurde am 27. Juni vom Workfront-Produktteam vorgestellt.  
 
-Das Webinar ist aus praktischen Gründen in folgende Themen unterteilt:
+Zur Vereinfachung ist das Webinar in die folgenden Themen unterteilt:
 
 * [Einführung](#introduction)
 * [Ressourcenverwaltung](#resource-management)
 * [Proofing](#proofing)
 * [Weitere Verbesserungen](#other-enhancements)
 * [Mobil](#mobile)
-* [Entfernte Funktionalität](#functionality-being-removed)
+* [Funktion wird entfernt](#functionality-being-removed)
 * [Administratoren und Entwickler](#administrators-and-developers)
 
 ### Einführung {#introduction}
 
-Dieser Teil des Webinars enthält Informationen zum Veröffentlichungsprozess, zur Sandbox-Vorschau-Umgebung und dazu, wie Sie weitere Informationen zur Version erhalten.
+Dieser Teil des Webinars enthält Informationen zum Veröffentlichungsprozess, zur Sandbox-Vorschau-Umgebung und dazu, wie Sie weitere Informationen zur Version finden.
 
 ### Ressourcenverwaltung {#resource-management}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
 * Ressourcenplanung
-* Verbesserungen bei der Ressourcenplanung
+* Verbesserungen der Ressourcenplanung
 
 ### Proofing {#proofing}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
-* Benutzerinformationen synchronisiert von Workfront mit ProofHQ
-* Anzeigen von Testgenehmigungen im Arbeitsbereich
-* Testsendungen vergleichen
-* Anzeigen von Versionen von Testdokumenten
-* Neues Objekt &quot;Antragsteller&quot;im Bericht über die Genehmigung von Testsendungen
-* Neues Objekt &quot;Ersteller des Testversands&quot;im Bericht &quot;Dokumentversion&quot;
-* Verbesserter Testversand-Viewer (für Videosendungen)
-* Anzeigen von Rich-Media-Testsendungen in alternativen Auflösungen
-* Anzeigen von URLs zu Unterseiten in Kommentaren zu Rich-Media-Testsendungen
-* Benutzerdefinierte Ansichten basierend auf Standardansichten erstellen
-* Berichtsverbesserungen
+* Benutzerinformationen von Workfront zu ProofHQ synchronisiert
+* Genehmigungen von Korrekturabzügen werden im Bereich Meine Arbeit angezeigt
+* Korrekturabzüge vergleichen
+* Anzeigen von Versionen von geprüften Dokumenten
+* Neues Objekt „Anforderer“ im Bericht zur Genehmigung von Korrekturabzügen
+* Neues Objekt vom Typ „Korrekturabzug-Ersteller“ im Bericht zur Dokumentversion
+* Verbesserter Proofing-Viewer (für Videoprüfungen)
+* Rich-Media-Korrekturabzüge in alternativen Auflösungen anzeigen
+* Anzeigen von URLs zu Unterseiten in Kommentaren zu Rich-Media-Korrekturabzügen
+* Erstellen von benutzerdefinierten Ansichten basierend auf Standardansichten
+* Verbesserungen beim Reporting
 
 ### Weitere Verbesserungen {#other-enhancements}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
-* In-App-Benachrichtigung für ausstehende Validierung des Testversands
-* Abonnieren von Elementen:Aufgaben, Probleme, Projekte
-* Exportieren Sie den Nutzungsbericht als TSV und PDF
+* In-App-Benachrichtigung für ausstehende Genehmigungen von Korrekturabzügen
+* Elemente abonnieren: Aufgaben, Probleme, Projekte
+* Exportieren des Auslastungsberichts als TSV und PDF
 * Mein Arbeitskalender wurde aktualisiert
-* Gantt-Diagrammverbesserungen
-* Schrägstrich zum Filtern von Anweisungen für Feldwerte mit Kommas hinzugefügt
-* Verschiedene Abrechnungsraten
-* Die Anzeige in der Dashboard-Liste wurde aktualisiert.
+* Verbesserungen am Gantt-Diagramm
+* Schrägstrich wurde zu Filteranweisungen für Feldwerte hinzugefügt, die Kommas enthalten
+* Mehrere Abrechnungssätze
+* Aktualisiertes Erscheinungsbild in der Dashboard-Liste
 * Neue Informationen zum Vorschau-Banner
 
 ### Funktion wird entfernt {#functionality-being-removed}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
-* Neuanordnen von Spalten in einem Listenbericht mit Drag &amp; Drop
-* Veraltete Endgeräte
+* Spalten in einem Listenbericht durch Ziehen und Ablegen neu anordnen
+* Verwerfen von Empfehlungen
 
 ### Administratoren und Entwickler {#administrators-and-developers}
 
-Dieser Teil des Webinars enthält folgende Themen:
+Dieser Teil des Webinars umfasst die folgenden Themen:
 
-* Papierkorb wiederherstellen - Dokumente wiederherstellen
-* Zurücksetzen von Objekten in Stapeln
-* Zuordnen von Attributfeldern in Typ-Ahead-Typ geändert
+* Papierkorb - Dokumente wiederherstellen
+* Stapelweises Wiederherstellen von Objekten
+* Felder mit Zuordnungsattributen wurden in Typ mit automatischer Textvervollständigung geändert
 * Unterstützung von SHA-256-Zertifikaten für SAML 2.0
 * API-Änderungen
 * API-Version 7 (und andere Änderungen)
 
 ## 2017.2 Beta 1 und 2 (24. Mai 2017) {#2017-2-beta-1-and-2-may-24-2017}
 
-Das Veröffentlichungs-Webinar wurde am 24. Mai 2017 vorgestellt. In diesem Webinar wurden Funktionen behandelt, die in den Versionen 2017.2 von Beta 1 und Beta 2 verfügbar gemacht wurden.
+Das Veröffentlichungs-Webinar wurde am 24. Mai 2017 vorgestellt. In diesem Webinar wurden Funktionen behandelt, die mit den Versionen 2017.2 von Beta 1 und Beta 2 verfügbar gemacht wurden.

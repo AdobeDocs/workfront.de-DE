@@ -1,6 +1,6 @@
 ---
-title: Workfront Fusion Release-Aktivitätswoche vom 12. Dezember 2022
-description: Workfront Fusion Release-Aktivitätswoche vom 12. Dezember 2022
+title: Workfront Fusion-Aktivität Woche vom 12. Dezember 2022
+description: Workfront Fusion-Aktivität Woche vom 12. Dezember 2022
 author: Becky
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 12. Dezember 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 12. Dezember 2022
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 12. Dezember 2022 vorgenommen wurden.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 12. Dezember 2022 vorgenommen wurden.
 
-Eine Liste aller letzten Änderungen finden Sie unter [Adobe Workfront Fusion-Release-Aktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Eine Liste aller aktuellen Änderungen finden Sie unter [Adobe Workfront Fusion-Versionsaktivität](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
 
-Eine Liste der aktuellen Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront Maintenance Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Aktualisierungen, die als Workfront Fusion Maintenance Update bezeichnet werden.
+Eine Liste der letzten Fehlerbehebungen in Workfront Fusion finden Sie auf der Seite [Workfront-Wartungs-Updates](https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html) und suchen Sie nach Updates mit der Bezeichnung Workfront Fusion-Wartungs-Update.
 
-## Fusionsverbesserungen für künftiges Wachstum
+## Fusionsverbesserungen für zukünftiges Wachstum
 
-Wir arbeiten hinter den Kulissen, um Fusion auf das erwartete Wachstum im kommenden Jahr vorzubereiten. Die meisten dieser Änderungen sind nicht für Sie sichtbar, sondern sorgen für eine zuverlässige und effiziente Leistung für aktuelle und zukünftige Kunden.
+Wir arbeiten hinter den Kulissen, um die Fusion auf das erwartete Wachstum im kommenden Jahr vorzubereiten. Die meisten dieser Änderungen sind für Sie nicht sichtbar, stellen jedoch eine zuverlässige und effiziente Leistung für aktuelle und zukünftige Kunden sicher.
 
 
-Wir arbeiten derzeit an folgenden Themen:
+Wir arbeiten zurzeit an:
 
-* Weitere Informationen zur Verwendung von Adobe Identity Management System (IMS) für zukünftige Workfront Fusion-Authentifizierung.
-* Änderung der Art und Weise, wie Workfront Fusion nicht verwendete Webhooks verarbeitet, um zu verhindern, dass sie die Leistung beeinträchtigen, wenn Fusion größer wird.
-* Weitere Verbesserungen der Infrastruktur.
+* Weiter geht es mit der Verwendung des Adobe Identity Management Systems (IMS) für die zukünftige Authentifizierung bei Workfront Fusion.
+* Ändern der Art und Weise, wie Workfront Fusion mit nicht verwendeten Webhooks umgeht, um zu verhindern, dass sie die Leistung beeinträchtigen, wenn Fusion skaliert wird.
+* Weitere Infrastrukturverbesserungen.

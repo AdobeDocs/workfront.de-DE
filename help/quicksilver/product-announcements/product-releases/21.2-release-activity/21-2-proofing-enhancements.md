@@ -1,9 +1,9 @@
 ---
 content-type: release-notes
-keywords: notes,vierteljährlich,update,release
+keywords: Hinweise,vierteljährlich,Aktualisierung,Freigabe
 navigation-topic: 2021-2-release-activity
-title: 21.2 Verbesserungen bei der Prüfung
-description: Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie in der Versionshinweise 21.2 .
+title: 21.2 Proofing-Verbesserungen
+description: Auf dieser Seite werden alle Proofing-Verbesserungen beschrieben, die mit Version 21.2 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie in der Übersicht über die Version 21.2.
 author: Luke
 feature: Product Announcements, Workfront Proof, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,46 +15,46 @@ ht-degree: 0%
 
 ---
 
-# 21.2 Verbesserungen bei der Prüfung
+# 21.2 Proofing-Verbesserungen
 
-Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 21.2 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab der Woche vom 10. Mai 2021 verfügbar sein. Eine Liste aller in Version 21.2 verfügbaren Änderungen finden Sie unter [21.2 - Versionsübersicht](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
+Auf dieser Seite werden alle Proofing-Verbesserungen beschrieben, die mit Version 21.2 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 10. Mai 2021 in der Produktionsumgebung verfügbar gemacht. Eine Liste aller mit Version 21.2 verfügbaren Änderungen finden Sie unter Übersicht über Version [21.2](../../../product-announcements/product-releases/21.2-release-activity/21-2-release-overview.md).
 
-## Testbestätigungsentscheidung jetzt in der Dokumentenliste sichtbar
+## Korrekturabzugsentscheidung jetzt in der Liste „Dokumente“ sichtbar
 
 >[!NOTE]
 >
->Nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Nur in der neuen Adobe Workfront-Version verfügbar.
 
-Die Entscheidung zum Testversand ist jetzt in der standardmäßigen Dokumentlistenansicht sichtbar.
+Die gesamte Korrekturabzugsentscheidung ist jetzt in der Standardansicht der Dokumentliste sichtbar.
 
-Mit dieser Verbesserung können Sie alle Testsendungen, für die eine Gesamtentscheidung gilt, direkt in der Standardlistenansicht anzeigen. Dadurch ist es sehr einfach, Ihren Testfortschritt zu erkennen, ohne zu verschiedenen Seiten zu navigieren.
+Mit dieser Verbesserung können Sie alle Korrekturabzüge, die eine Gesamtentscheidung haben, direkt in der Standardlistenansicht sehen. Dadurch können Sie den Fortschritt des Korrekturabzugs sehr einfach erkennen, ohne zu verschiedenen Seiten navigieren zu müssen.
 
-Zuvor mussten Sie zum Workflow für Dokumentdetails und Testsendungen wechseln, um die Testversandentscheidung anzuzeigen, für die mehrere Klicks erforderlich waren.
+Zuvor mussten Sie zum Workflow Dokumentdetails und Korrekturabzug gehen, um die gesamte Korrekturabzugsentscheidung anzuzeigen, was mehrere Klicks erforderte.
 
-Weitere Informationen zu Testversandentscheidungen finden Sie unter [Bereich &quot;Dokumente&quot;](../../../documents/managing-documents/documents-area.md).
+Weitere Informationen zu Korrekturabzugsentscheidungen finden Sie [Bereich Dokumente](../../../documents/managing-documents/documents-area.md).
 
-Diese Funktion ist jetzt im Lernpfad [Testsendungen und Versionen verwalten des neuen Workfront-Erlebnisses](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Testsendungen und Versionen verwalten im neuen Workfront-Erlebnis](https://one.workfront.com/s/learningpath3/manage-proofs-and-versions-in-the-new-workfront-experience-MCPBYNLTQSS5H4NG7C27IPCVR5YA) auf Workfront One enthalten.
 
-## Neue Felder im Bericht zur Bestätigung des Testversands
+## Neue Felder im Bericht zu Korrekturabzugsgenehmigungen
 
-Um nützliche Informationen zu Testsendungen aufzudecken, haben wir die folgenden Felder zum Bericht über die Validierung von Testsendungen hinzugefügt:
+Um nützliche Proofing-Informationen aufdecken zu können, haben wir die folgenden Felder zum Bericht über Korrekturabzugsgenehmigungen hinzugefügt:
 
-* **Entscheidungsdatum:** Zeigt das Datum an, an dem ein Genehmiger eine Entscheidung über einen Testversand trifft. Dieses Datum finden Sie auch in der Druckzusammenfassung des Testversands.
-* **Phase des Genehmigers:** Zeigt die aktuellen Informationen zur Bühne an.
-* **Workflow-Vorlage:** Zeigt alle an den Testversand angehängten Workflow-Vorlagen an. Wenn keine Vorlage angehängt ist, ist die Spalte leer.
+* **Entscheidungsdatum:** Zeigt das Datum an, an dem eine genehmigende Person eine Entscheidung über einen Korrekturabzug trifft. Dieses Datum finden Sie auch in der Druckzusammenfassung des Testversands.
+* **Genehmiger-Phase** Zeigt die aktuellen Schrittinformationen an.
+* **Workflow-Vorlage:** Zeigt alle Workflow-Vorlagen an, die an den Korrekturabzug angehängt sind. Wenn keine Vorlage angehängt ist, ist die Spalte leer.
 
 Diese Felder sind nicht Teil des Standardberichts. Sie müssen sie hinzufügen, wenn Sie sie sehen möchten.
 
-Diese Funktion ist jetzt im Lernpfad [Testversand-System-Setups, Teil 2: Workflow-Management](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Testsystem-Setups, Teil 2: Workflow-Management](https://one.workfront.com/s/learningpath3/proof-system-setups-part-2-workflow-management-MCKUF6NTIJ6BGMXHBCXXX6NN53EA) Lernpfad in Workfront One enthalten.
 
-## Den bestehenden Testversand-Workflow bei der Generierung einer neuen Version übernehmen
+## Übernehmen des vorhandenen Korrekturabzugs-Workflows beim Generieren einer neuen Version
 
 >[!NOTE]
 >
->Diese Funktion wurde am 30. März 2021 aus der Vorschau-Umgebung und am 1. April 2021 aus der Produktionsumgebung entfernt. Sie wird in Version 21.1 nicht enthalten sein.
+>Diese Funktion wurde am 30. März 2021 aus der Vorschau -Umgebung und am 1. April 2021 aus der Produktionsumgebung entfernt. Es wird nicht in Version 21.1 enthalten sein.
 
-Jetzt wird der bestehende Testversand-Workflow auf alle neuen Versionen übertragen, die Sie erstellen, unabhängig von der Methode, in der sie erstellt werden.
+Jetzt wird der vorhandene Korrekturabzugs-Workflow auf alle neuen Versionen übertragen, die Sie erstellen, unabhängig von der Methode, in der sie generiert werden.
 
-Zuvor gab es einen geringfügigen Unterschied in der Art und Weise, wie der Testversand-Workflow übertragen wurde, je nachdem, wo Sie ihn in Workfront generiert haben.
+Zuvor gab es einen geringfügigen Unterschied in der Übertragung des Korrekturabzugs-Workflows, je nachdem, wo Sie ihn in Workfront generiert haben.
 
-Weitere Informationen finden Sie unter [Erstellen einer neuen Version eines Testversands](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+Weitere Informationen finden Sie unter [Erstellen einer neuen Version eines Korrekturabzugs](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).

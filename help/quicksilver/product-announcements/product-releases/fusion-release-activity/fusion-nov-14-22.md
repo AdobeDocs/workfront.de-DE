@@ -3,8 +3,8 @@ product-previous: workfront-fusion
 content-type: release-notes
 product-area: workfront-integrations
 navigation-topic: fusion-release-activity
-title: 'Workfront Fusion-Release-Aktivität: Woche vom 14. November 2022'
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in der Adobe Workfront Fusion-Woche vom 14. November 2022 vorgenommen wurden.
+title: 'Workfront Fusion-Veröffentlichungsaktivität: Woche vom 14. November 2022'
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die in Adobe Workfront Fusion in der Woche vom 14. November 2022 vorgenommen wurden.
 author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Workfront Fusion-Release-Aktivität: Woche vom 14. November 2022
+# Workfront Fusion-Veröffentlichungsaktivität: Woche vom 14. November 2022
 
 **Microsoft Power BI-Connector und -Module jetzt verfügbar**
 
@@ -25,10 +25,10 @@ Jetzt können Sie Adobe Workfront Fusion mit Ihrem Microsoft Power BI-Konto verb
 
 Mit den Microsoft Power BI-Modulen können Sie:
 
-* Erstellen, Lesen oder Auflisten von Dashboards und Dashboard-Kacheln
-* Berichte abrufen, kopieren, löschen oder auflisten
+* Dashboards und Dashboard-Kacheln erstellen, lesen oder auflisten
+* Abrufen, Kopieren, Löschen oder Auflisten von Berichten
 * Erstellen, Lesen, Löschen, Auflisten oder Aktualisieren von Datensätzen
 * Hinzufügen oder Löschen von Zeilen in einer Datensatztabelle
 * Erstellen eines benutzerdefinierten API-Aufrufs an die Microsoft Power BI-API
 
-Weitere Informationen finden Sie unter [Microsoft Power BI modules](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).
+Weitere Informationen finden Sie unter [Microsoft Power BI-Module](../../../workfront-fusion/apps-and-their-modules/powerbi-modules.md).

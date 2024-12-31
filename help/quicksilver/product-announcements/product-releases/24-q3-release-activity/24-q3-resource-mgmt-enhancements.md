@@ -1,6 +1,6 @@
 ---
-title: Verbesserungen der Ressourcenverwaltung im dritten Quartal 2024
-description: Verbesserungen der Ressourcenverwaltung im dritten Quartal 2024
+title: Verbesserungen beim Ressourcenmanagement im dritten Quartal 2024
+description: Verbesserungen beim Ressourcenmanagement im dritten Quartal 2024
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -12,20 +12,20 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen der Ressourcenverwaltung im dritten Quartal 2024
+# Verbesserungen beim Ressourcenmanagement im dritten Quartal 2024
 
-Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mit der Version vom dritten Quartal 2024 verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version vom dritten Quartal 2024 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom dritten Quartal 2024 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die zu diesem Zeitpunkt im Versionszyklus des dritten Quartals 2024 verfügbar sind, finden Sie unter [Versionsübersicht des dritten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
+Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2024 verfügbar sind, finden Sie in der [ zum dritten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md).
 
-## Die Auszeit wird jetzt im Lastenausgleich angezeigt.
+## Die Ausfallzeit wird jetzt im Workload Balancer angezeigt
 
 >[!NOTE]
 >
 >Vorschau-Version: 6. Juni 2024; Produktionsversion für alle Kunden: Mit Version 24.7 (18. Juli 2024)
 
-Um die Arbeit nahtlos anzupassen, wenn der primäre Verantwortliche für eine Aufgabe eine geplante Zeitüberschreitung aufweist, weist der Arbeitslastausgleich jetzt sowohl den primären als auch den sekundären Benutzern Stunden zu, wenn die Projekt-Timeline neu berechnet wird. (Diese Funktion ist nur verfügbar, wenn der Workfront-Administrator die Einstellung Benutzerzeit deaktivieren im Bereich Einrichtung aktiviert hat, um die Zeitüberschreitung des Benutzers zu berücksichtigen.)
+Um die Arbeit nahtlos anzupassen, wenn der primäre Zugewiesene für eine Aufgabe Ausfallzeiten geplant hat, weist der Workload Balancer jetzt beim Neuberechnen der Projekt-Zeitleiste sowohl dem primären als auch dem sekundären Benutzer Stunden neu zu. (Diese Funktion ist nur verfügbar, wenn der Workfront-Administrator die Einstellung „Ausfallzeit des Benutzers“ im Bereich „Setup“ aktiviert hat, um die Ausfallzeit des Benutzers zu berücksichtigen.)
 
-Zuvor wurden die Stunden bei der Neuberechnung der Timeline nicht neu zugeordnet.
+Zuvor wurden die Stunden bei der Neuberechnung der Timeline nicht neu zugewiesen.
 
-Weitere Informationen finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslade-Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Weitere Informationen finden Sie unter [Verwalten von Benutzerzuweisungen im Workload-Balancer](/help/quicksilver/resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

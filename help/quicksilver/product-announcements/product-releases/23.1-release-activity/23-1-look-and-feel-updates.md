@@ -13,99 +13,99 @@ ht-degree: 3%
 
 ---
 
-# Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 23.1
+# Lookand-Feel-Aktualisierungen während des Zeitrahmens der Version 23.1
 
-Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Veröffentlichungszeitrahmens von 23.1 vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mindestens 2 Wochen nach Veröffentlichung in der Vorschau verfügbar gemacht.
+Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms beschrieben, die innerhalb des Zeitrahmens der Version 23.1 vorgenommen wurden. Diese Verbesserungen werden mindestens 2 Wochen nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 23.1 verfügbaren Änderungen finden Sie unter [23.1 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
+Eine Liste aller Änderungen, die mit Version 23.1 verfügbar sind, finden Sie unter [23.1 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/23.1-release-activity/23-1-release-overview.md).
 
-## Aktualisierte Listen im Bereich Einrichtung > Benutzeroberfläche
-
->[!NOTE]
->
->Vorschau-Version: 1. Dezember 2022; geplante Produktionsversion: 15. Dezember 2022
-
-Die Seiten &quot;Filter&quot;, &quot;Ansichten&quot;und &quot;Gruppierungen&quot;unter &quot;Einrichtung&quot;> &quot;Benutzeroberfläche&quot;haben jetzt das modernere Aussehen, das in den meisten anderen Listen in Workfront zu finden ist.
-
-## Neues Feld &quot;Vorlage bearbeiten&quot;
+## Aktualisierte Listen im Bereich Setup > Schnittstelle
 
 >[!NOTE]
 >
->Vorschau-Version: 8. Dezember 2022; geplante Produktionsversion: Mit Version 23.1
+>Vorschau-Version: 1. Dezember 2022; Geplante Produktionsversion: 15. Dezember 2022
 
-Im Zuge der Aktualisierung des Erscheinungsbilds von Workfront haben wir das Feld &quot;Vorlage bearbeiten&quot;überarbeitet. Der Zugriff auf das neue Feld Vorlage bearbeiten erfolgt über eine Vorlage oder eine Vorlagenliste.
+Die Seiten „Filter“, „Ansichten“ und „Gruppierungen“ unter „Einrichtung“ > „Benutzeroberfläche“ haben jetzt das modernere Erscheinungsbild, das in den meisten anderen Listen in Workfront zu finden ist.
 
-Zusätzlich zu einem aktualisierten Erscheinungsbild sind im Feld &quot;Neue Vorlage&quot;auch die folgenden Änderungen verfügbar:
+## Neues Feld Vorlage bearbeiten
 
-* Sie können Ihre Layoutvorlage einmalig anpassen und diese Anpassungen sowohl auf der Detailseite als auch im Feld &quot;Vorlage bearbeiten&quot;widerspiegeln.
-* Im linken Bereich im Feld &quot;Vorlage bearbeiten&quot;sind nun individuelle benutzerdefinierte Formularnamen verfügbar, von denen Sie schnell auf jedes Formular zugreifen können.
-* Die Kommentarfunktion wurde aus dem Feld Vorlage bearbeiten entfernt, um Redundanz im Abschnitt Aktualisierungen zu vermeiden.
-* Das Kontrollkästchen &quot;Ist aktiv&quot;wurde entfernt, um Redundanz mit den Menüoptionen Mehr auf der Vorlagenseite zu vermeiden.
-* Der Abschnitt Kommentar wurde entfernt, um Redundanz im Abschnitt Updates zu vermeiden.
+>[!NOTE]
+>
+>Vorschau-Version: 8. Dezember 2022; Geplante Produktionsversion: Mit der Version 23.1
 
-Weitere Informationen finden Sie unter [Bearbeiten von Projektvorlagen](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
+Im Zuge der Aktualisierung des Erscheinungsbilds von Workfront haben wir das Feld Vorlage bearbeiten neu gestaltet. Sie können das Feld Neue Vorlage bearbeiten über eine einzelne Vorlage oder eine Vorlagenliste aufrufen.
+
+Neben einem aktualisierten Erscheinungsbild sind auch die folgenden Änderungen im Feld Neue Vorlage verfügbar:
+
+* Sie können Ihre Layout-Vorlage einmal anpassen und diese Anpassungen sowohl auf der Detailseite als auch im Feld Vorlage bearbeiten berücksichtigen.
+* Einzelne benutzerdefinierte Formularnamen sind jetzt im linken Bereich innerhalb des Felds Vorlage bearbeiten verfügbar und Sie können von dort aus schnell auf jedes Formular zugreifen.
+* Die Funktion zum Kommentieren im Feld Vorlage bearbeiten wurde entfernt, um Redundanz im Abschnitt Aktualisierungen zu vermeiden.
+* Das Kontrollkästchen „Ist aktiv“ wurde entfernt, um Redundanz mit den Menüoptionen „Mehr“ auf der Vorlagenseite zu beseitigen.
+* Der Abschnitt „Kommentar“ wurde entfernt, um Redundanz beim Abschnitt „Aktualisierungen“ zu vermeiden.
+
+Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](/help/quicksilver/manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Neues Erscheinungsbild für die Integration von Workfront for Jira
 
 >[!NOTE]
 >
->Vorschauversion: nicht zutreffend; geplante Produktionsversion: 14. November 2022.
+>Vorschau-Version: Nicht verfügbar; Geplante Produktionsversion: 14. November 2022.
 
-Um innerhalb von Jira ein konsistenteres Erlebnis zu erzielen, haben wir die Integration von Workfront for Jira aktualisiert. Das Erscheinungsbild der Workfront for Jira-Integration entspricht jetzt dem Erscheinungsbild von Jira.
+Um ein konsistenteres Erlebnis in Jira zu schaffen, haben wir die Integration von Workfront for Jira aktualisiert. Das Erscheinungsbild der Workfront for Jira-Integration entspricht nun dem Erscheinungsbild von Jira.
 
-Die Funktionalität der Workfront für die Jira-Integration wurde nicht geändert.
+Die Funktionalität der Integration von Workfront für Jira hat sich nicht geändert.
 
 Weitere Informationen zur Integration von Workfront für Jira finden Sie unter [Adobe Workfront für Jira](/help/quicksilver/workfront-integrations-and-apps/use-workfront-with-jira/workfront-for-jira.md).
 
-## Smart-Benutzerauswahl beim Aktualisieren von Benutzerfeldern
+## Intelligente Benutzerauswahl beim Aktualisieren von Benutzerfeldern
 
 >[!NOTE]
 >
->Vorschau-Version: 27. Oktober 2022; geplante Produktionsversion: 10. November 2022.
+>Vorschau-Version: 27. Oktober 2022; Geplante Produktionsversion: 10. November 2022.
 >
->Nachdem diese Felder am 10. November in der Produktion aktualisiert wurden, werden alle verbleibenden Benutzerfelder in Workfront im Rahmen wöchentlicher Patches direkt in der Produktion aktualisiert.
+>Nachdem diese Felder am 10. November in der Produktionsumgebung aktualisiert wurden, werden alle verbleibenden Benutzerfelder in Workfront im Rahmen der wöchentlichen Patches direkt in der Produktionsumgebung aktualisiert.
 
 Es gibt zusätzliche Benutzerinformationen, die angezeigt werden, wenn Sie Benutzer zu den folgenden Feldern hinzufügen:
 
-* Bereich &quot;Aufgaben&quot;und &quot;Problemzuweisungen&quot;in den Kopfzeilen
+* Aufgaben- und Problemzuweisungen in den Kopfzeilen
 
-* Bedienfeld &quot;Aufgabe und Problemzusammenfassung&quot;
+* Bedienfeld „Aufgaben- und Problemzusammenfassung“
 
-* Aufgabe und Problem - Feld für erweiterte Zuweisung
+* Feld für erweiterte Zuweisung von Aufgaben und Problemen
 
-* Aufgaben- und Problemzuweisungen im Lastenausgleich
+* Aufgaben- und Problemzuweisungen im Workload Balancer
 
-* Aufgaben und Problemlisten und Berichte beim Inline-Hinzufügen von Zuweisungen
+* Aufgaben und Problemlisten und Berichte beim Hinzufügen von Zuweisungen inline
 
-* Projekteigentümer in der Projektheader
+* Projektbesitzer im Projekt-Header
 
-* Benutzerdefinierte Felder manuell definieren
+* Benutzerdefinierte Felder mit automatischer Textvervollständigung für Benutzer
 
-Wenn Sie nun einen Benutzer zu den oben aufgeführten Benutzerfeldern hinzufügen, werden neben dem Benutzernamen und dem Avatar auch dessen Primäre Rolle und deren E-Mail-Adresse angezeigt. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.
+Wenn Sie jetzt einen Benutzer zu den oben aufgeführten Benutzerfeldern hinzufügen, werden neben dem Namen und Avatar des Benutzers auch seine Primäre Rolle und seine E-Mail-Adresse angezeigt. Dies hilft bei der Unterscheidung zwischen mehreren Benutzenden mit ähnlichen oder identischen Namen.
 
-Weitere Informationen und eine Videodemonstration zu einer ähnlichen Funktion finden Sie unter &quot;Smart-User-Auswahl für Projektrollen in den Bereichen Bearbeiten und Details&quot;in den [22.4 Projektverbesserungen](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
+Weitere Informationen und eine Videodemonstration einer ähnlichen Funktion finden Sie unter „Intelligente Benutzerauswahl für Projektrollen in den Bereichen Bearbeiten und Details“ in den Projektverbesserungen von [22.4](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-project-enhancements.md).
 
-## Änderungen an der Benachrichtigungsseite erkennen
+## Look-and-Feel-Aktualisierungen auf der Seite Benachrichtigungen
 
 >[!NOTE]
 >
->Vorschau-Version: 20. Oktober 2022; geplante Produktionsversion: TBD <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
+>Vorschau-Version: 20. Oktober 2022; Geplante Produktionsversion: <!-- Phased rollout beginning on November 3, with availability for all customers by November 17, 2022. -->
 
-Die Benachrichtigungsseite hat jetzt ein modernes Erscheinungsbild, das mit anderen Bereichen von Workfront in Einklang steht.
+Die Benachrichtigungsseite bietet jetzt ein modernes Erscheinungsbild, das mit anderen Bereichen von Workfront übereinstimmt.
 
-## Filtern von Aktualisierungen während des Zeitrahmens der Version 23.1
+## Filtern von Aktualisierungen innerhalb des Zeitrahmens der Version 23.1
 
-Das Beta-Filtererlebnis wurde am 4. August 2022 den Projekt-, Aufgaben- und Problemlisten hinzugefügt. Die neuen Filter sind auch in den Timesheet-Listen und im Szenario-Planer verfügbar.
+Der Beta-Filter wurde am 4. August 2022 zu Projekt-, Aufgaben- und Problemlisten hinzugefügt. Die neuen Filter sind auch in Arbeitszeittabellenlisten und im Szenario-Planer verfügbar.
 
-Auf dieser Seite wird aufgezeichnet, wann die neuen Filter während des Veröffentlichungszeitrahmens von 23.1 zu anderen Bereichen der Adobe Workfront-Anwendung hinzugefügt werden.
+Auf dieser Seite wird aufgezeichnet, wann die neuen Filter während des Zeitrahmens der Version 23.1 zu anderen Bereichen der Adobe Workfront-Anwendung hinzugefügt werden.
 
-Informationen zur Verwendung der neuen Filter finden Sie unter [Filter in Adobe Workfront erstellen oder bearbeiten](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
+Informationen zur Verwendung der neuen Filter finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
 ### Mit den neuen Filtern aktualisierte Listen
 
-Die hier gezeigten Listen bieten jetzt zusätzlich zum standardmäßigen Filter-Builder das Beta-Filtererlebnis.
+Die hier angezeigten Listen bieten jetzt zusätzlich zum standardmäßigen Filter-Builder das Beta-Filtererlebnis.
 
-#### Vorschau-Version: 13. Oktober 2022; geplante Produktionsversion: 27. Oktober 2022
+#### Vorschau-Version: 13. Oktober 2022; Geplante Produktionsversion: 27. Oktober 2022
 
 * Portfolios
 
@@ -121,36 +121,36 @@ Die hier gezeigten Listen bieten jetzt zusätzlich zum standardmäßigen Filter-
 
 * Projektaufgaben
 
-* Personen des Projekts
+* Projektmitarbeiter
 
-* Task Hours
+* Aufgaben-Stunden
 
 * Vorlagen
 
 * Vorlagenaufgaben
 
-* Aufzeichnungen zur Projektabrechnung
+* Projekt-Rechnungsnachweise
 
-* Abrechnungszeiten von Projektabrechnungen
+* Fakturierbare Stunden für Projekt-Rechnungsnachweise
 
 * Projektausgaben
 
 * Vorlagenausgaben
 
-* Ausgaben für Vorlagenaufgaben
+* Ausgaben für Vorlagenaufgabe
 
 * Aufwendungen für Aufgabe
 
-* Problemzeiten
+* Anfragestunden
 
 * Gruppenprojekte
 
 * Gruppenmitglieder
 
-* Gruppenuntergruppen
+* Untergruppen gruppieren
 
-* Gruppenvorlagen
+* Vorlagen gruppieren
 
-* Gruppenunternehmen
+* Konzerngesellschaften
 
-* Gruppenteams
+* Gruppen-Teams

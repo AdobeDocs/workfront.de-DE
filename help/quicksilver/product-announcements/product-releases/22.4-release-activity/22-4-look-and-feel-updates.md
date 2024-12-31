@@ -1,6 +1,6 @@
 ---
-title: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 22.4
-description: Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 22.4
+title: Look-and-Feel-Aktualisierungen innerhalb des Zeitrahmens der Version 22.4
+description: Look-and-Feel-Aktualisierungen innerhalb des Zeitrahmens der Version 22.4
 author: Luke
 draft: Probably
 feature: Product Announcements
@@ -13,52 +13,52 @@ ht-degree: 0%
 
 ---
 
-# Look-and-Feel-Aktualisierungen während des Zeitrahmens der Version 22.4
+# Lookand-Feel-Aktualisierungen während des Zeitrahmens der Version 22.4
 
-Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Veröffentlichungszeitrahmens von 22.4 vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung mindestens 2 Wochen nach Veröffentlichung in der Vorschau verfügbar gemacht.
+Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms beschrieben, die innerhalb des Zeitrahmens der Version 22.4 vorgenommen wurden. Diese Verbesserungen werden mindestens 2 Wochen nach der Veröffentlichung in der Vorschau in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie unter [22.4 - Versionsübersicht](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
+Eine Liste aller in Version 22.4 verfügbaren Änderungen finden Sie in der Übersicht über [ Version 22.4 ](/help/quicksilver/product-announcements/product-releases/22.4-release-activity/22-4-release-overview.md).
 
-## Look-and-Feel-Updates für die Lizenzseite
+## Look-and-Feel-Aktualisierungen auf der Lizenzseite
 
-Wir haben wichtige Lizenzinformationen in die obere rechte Ecke der Seite verschoben und das Erscheinungsbild des Textes und der Schaltflächen so aktualisiert, dass es mit anderen Bereichen von Workfront übereinstimmt.
+Wir haben wichtige Lizenzinformationen in die obere rechte Ecke der Seite verschoben und das Erscheinungsbild des Texts und der Schaltflächen aktualisiert, sodass sie mit anderen Bereichen von Workfront übereinstimmen.
 
 Weitere Informationen finden Sie unter [Verfügbare Lizenzen in Ihrem System verwalten](/help/quicksilver/administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
-## Aktualisierte Listen im Bereich &quot;Benutzerdefinierter Forms&quot;
+## Aktualisierte Listen im Bereich Benutzerdefinierte Forms
 
 >[!NOTE]
 >
 >Vorschau-Version: 21. Juli 2022; Produktionsversion: 18. August 2022
 
-Im Bereich &quot;Benutzerdefinierte Forms&quot;haben Listen jetzt das modernere Aussehen, das in den meisten anderen Listen in Workfront zu finden ist. Durch diese Aktualisierung wird der Schnellfilter hinzugefügt, mit dem Sie nur die benutzerdefinierten Formulare auflisten können, die Sie überprüfen, bearbeiten oder freigeben müssen.
+Im Bereich Benutzerdefinierte Forms haben Listen jetzt das modernere Erscheinungsbild, das in den meisten anderen Listen in Workfront zu finden ist. Durch diese Aktualisierung wird der Schnellfilter hinzugefügt, mit dem Sie nur die benutzerdefinierten Formulare auflisten können, die Sie überprüfen, bearbeiten oder freigeben müssen.
 
 ## Aktualisierte Listen und Berichte
 
-Die Symbolleisten in den folgenden Listen und Berichten haben jetzt ein modernes Erscheinungsbild, sodass Sie Objekte in Adobe Workfront schnell verwalten können.
+Die Symbolleisten in den folgenden Listen und Berichten sind jetzt modern gestaltet, sodass Sie Objekte in Adobe Workfront schnell verwalten können.
 
 ### Vorschau-Version: 28. Juli 2022; Produktionsversion: mit Version 22.4
 
-Themenliste für Projektwarteschlangen
+Liste der Projektwarteschlangen-Themengruppen
 
 ### Vorschau-Version: 21. Juli 2022; Produktionsversion: mit Version 22.4
 
-Liste der Problemzeiten
+Liste der Problemstunden
 
-Liste der Task Hours
+Aufgabenstundenliste
 
-Liste der Task Predecessors
+Liste der Aufgabenvorgänger
 
-Liste der Projektwarteschlangenthemen
+Projektwarteschlangen-Themenliste
 
-Liste der Projektabrechnungsdatensätze
+Liste der Projekt-Rechnungsnachweise
 
-Liste der Projekt-Routing-Regeln
+Liste der Projekt-Routingregeln
 
-Liste der Abrechnungsdaten von Projekten
+Fakturierbare Stunden - Liste der Projekt-Rechnungsnachweise
 
-Liste der Projektgrundlagen
+Projektgrundlagen-Liste
 
 Liste der Projektrisiken
 
-Themenliste für Projektwarteschlangen
+Liste der Projektwarteschlangen-Themengruppen

@@ -1,6 +1,6 @@
 ---
-title: 21.4 Integrationsverbesserungen
-description: 21.4 Integrationsverbesserungen
+title: 21.4 Verbesserungen bei der Integration
+description: 21.4 Verbesserungen bei der Integration
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Integrations and Apps
@@ -13,45 +13,45 @@ ht-degree: 0%
 
 ---
 
-# 21.4 Integrationsverbesserungen
+# 21.4 Verbesserungen bei der Integration
 
-Auf dieser Seite werden alle Integrationsverbesserungen beschrieben, die mit Version 21.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden ab der Woche des 4. Oktober 2021 in der Produktionsumgebung verfügbar sein.
+Auf dieser Seite werden alle mit Version 21.4 vorgenommenen Integrationsverbesserungen in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 4. Oktober 2021 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie unter [21.4 - Versionsübersicht](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
+Eine Liste aller in Version 21.4 verfügbaren Änderungen finden Sie in der Übersicht über die Version [21.4](../../../product-announcements/product-releases/21.4-release-activity/21-4-release-overview.md).
 
-## Verknüpfen von Dokumenten von Dropbox Business
+## Dokumente aus Dropbox Business verknüpfen
 
-Wir haben Dropbox Business als verfügbare Dokumentenintegration hinzugefügt. Jetzt können Sie direkt von Workfront aus auf Dokumente zugreifen, die Sie im Dropbox Business gespeichert haben.
+Wir haben Dropbox Business als verfügbare Dokumentenintegration hinzugefügt. Jetzt können Sie direkt von Workfront aus auf Dokumente zugreifen, die Sie in Dropbox Business gespeichert haben.
 
-Mit Dropbox Business können Sie freigegebene Dokumente verknüpfen und Dokumente in freigegebene Ordner hochladen. Dropbox (nicht Dropbox Business) ermöglicht es nur dem Dokumenteigentümer, das Dokument in Workfront anzuzeigen.
+Mit Dropbox Business können Sie freigegebene Dokumente verknüpfen und Dokumente in freigegebene Ordner hochladen. Beim Dropbox (nicht beim Dropbox-Business) kann nur der Eigentümer der Dokumente das Dokument in Workfront anzeigen.
 
 Ihr Workfront-Administrator kann diese Integration für Ihr Unternehmen aktivieren.
 
 Weitere Informationen finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
-Informationen dazu, wie ein Workfront-Administrator diese Option aktivieren kann, finden Sie unter [Dokumentintegrationen konfigurieren](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
+Informationen dazu, wie Workfront-Admins diese Option aktivieren können, finden Sie unter [Konfigurieren von Dokumentintegrationen](../../../administration-and-setup/configure-integrations/configure-document-integrations.md).
 
-## Updates für Workfront für Slack
+## Updates für Workfront zum Slack
 
-Die folgenden Updates sind jetzt in der Workfront für die Slack-Integration sichtbar:
+Die folgenden Aktualisierungen sind jetzt in der Workfront für Slack-Integration sichtbar:
 
-* Workfront for Slack hat ein neues Aussehen und Gefühl.
+* Workfront für Slack hat ein neues Look-and-Feel.
 * Jetzt erhalten Sie Ihre Workfront für Slack-Benachrichtigungen in Echtzeit.
 
-  Wenn Sie beispielsweise einer Aufgabe zugewiesen sind, erhalten Sie diese Benachrichtigung, sobald Sie zugewiesen sind. Zuvor konnte es zu einer Verzögerung kommen, bevor die Benachrichtigung auf Slack angezeigt wurde.
+  Wenn Sie beispielsweise einer Aufgabe zugewiesen sind, erhalten Sie diese Benachrichtigung, sobald Sie zugewiesen sind. Zuvor konnte es zu einer Verzögerung kommen, bevor die Benachrichtigung auf Slack erschien.
 
-Für dieses Update müssen Sie Ihre Workfront für die Slack-Integration neu autorisieren. Informationen zum Autorisieren der Integration finden Sie unter [Adobe Workfront für Slack konfigurieren](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
+Dieses Update erfordert, dass Sie Ihre Workfront für die Slack-Integration erneut autorisieren. Informationen zum Autorisieren der Integration finden Sie unter [Konfigurieren von Adobe Workfront für Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/configure-workfront-for-slack.md).
 
-Weitere Informationen zu Workfront für Slack-Benachrichtigungen finden Sie unter [Empfangen von Adobe Workfront-Benachrichtigungen in Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
+Weitere Informationen zu Workfront für Slack-Benachrichtigungen finden Sie unter [Empfangen von Adobe Workfront-Benachrichtigungen auf Slack](../../../workfront-integrations-and-apps/using-workfront-with-slack/receive-workfront-notifications-in-slack.md).
 
-## Detaillierte Informationen zum Kontozugriff bei der Zustimmung zu Adobe Workfront-Integrationen
+## Genauere Anzeige der Details zum Kontozugriff bei der Erteilung der Zustimmung zu Adobe Workfront-Integrationen
 
-Die Einwilligungsbildschirme für Adobe Workfront-Integrationen werden jetzt aktualisiert. Jetzt können Sie sehen, auf welche spezifischen Aktionen und Bereiche die Integrationen zugreifen können, sodass Sie besser verstehen können, was der Integration oder Anwendung der Zugriff erlaubt.
+Die Einverständnisbildschirme für Adobe Workfront-Integrationen werden jetzt aktualisiert. Jetzt können Sie die spezifischen Aktionen und Bereiche sehen, auf die die Integrationen Zugriff haben, damit Sie besser verstehen können, auf was Sie der Integration oder Anwendung Zugriff gewähren.
 
 Dieser neue Einverständnisbildschirm gilt für alle Adobe Workfront-Integrationen, die OAuth 2.0 verwenden.
 
-Weitere Informationen zu bestimmten Integrationen finden Sie in der Dokumentation dieser Integration.
+Einzelheiten zu bestimmten Integrationen finden Sie in der Dokumentation dieser Integration.
 
 ## API-Schlüsselauthentifizierung für Integrationen nicht mehr erforderlich
 
-Workfront-Integrationen haben vor kurzem begonnen, OAuth2 für mehr Sicherheit und Benutzerfreundlichkeit zu verwenden. Im Rahmen dieses Schritts benötigt Workfront keine API-Schlüssel mehr für die Integrationsauthentifizierung.
+Workfront-Integrationen verwenden seit kurzem OAuth2, um die Sicherheit und Benutzerfreundlichkeit zu erhöhen. Als Teil dieser Umstellung erfordert Workfront keine API-Schlüssel mehr für die Authentifizierung von Integrationen.
