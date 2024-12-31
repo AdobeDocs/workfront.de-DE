@@ -1,6 +1,6 @@
 ---
-title: Übersicht über die Objektbeschränkungen für die Adobe Workfront-Planung
-description: Die Adobe Workfront-Planung hat Einschränkungen dafür, wie viele Objekte Sie in Ihrer Instanz erstellen können. Es gibt Objektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit der Workfront-Planung zu verbessern.
+title: Übersicht über Adobe Workfront Planning-Objektbeschränkungen
+description: In Adobe Workfront Planning gibt es Beschränkungen für die Anzahl der Objekte, die Sie in Ihrer Instanz erstellen können. Es gibt Objektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit Workfront Planning zu verbessern.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -15,42 +15,42 @@ ht-degree: 1%
 
 <!--check the workfront.com/plans article linked below to see if there is content in there about Planning - after August 28, 2024-->
 
-# Übersicht über die Objektbeschränkungen für Adobe Workfront Planung
+# Übersicht über Adobe Workfront Planning-Objektbeschränkungen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
 
-Die Adobe Workfront-Planung hat Einschränkungen dafür, wie viele Objekte Sie in Ihrer Instanz erstellen können. Es gibt Objektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit der Workfront-Planung zu verbessern.
+In Adobe Workfront Planning gibt es Beschränkungen für die Anzahl der Objekte, die Sie in Ihrer Instanz erstellen können. Es gibt Objektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit Workfront Planning zu verbessern.
 
-Die folgende Tabelle zeigt die Einschränkungen für die Anzahl der Objekte, die Sie in der Workfront-Planung erstellen können. Die Einschränkungen können sich ändern, wenn wir in die nächsten Entwicklungsphasen eintreten.
+In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte aufgeführt, die Sie in Workfront Planning erstellen können. Die Einschränkungen können sich ändern, wenn wir in die nächsten Entwicklungsphasen eintreten.
 
-| Adobe Workfront Planning-Objekt | Limit |
+| Adobe Workfront Planning-Objekt | Grenze |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
-| Anzahl der Arbeitsbereiche für eine Workfront-Instanz | unlimited* |
+| Anzahl der Arbeitsbereiche für eine Workfront-Instanz | Unbegrenzt* |
 | Anzahl der Abschnitte für einen Arbeitsbereich | 50 |
-| Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Datensatztypen aus allen Abschnitten und solche, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
-| Datensatzanzahl für einen Datensatztyp | 25.000 |
-| Datensatzanzahl für einen Arbeitsbereich | 25.000 für Kunden mit Planung <br> 500.000 für Kunden mit Planung Plus |
-| Anzahl der Datensätze für eine Instanz der Workfront-Planung | 500.000 für Kunden mit Planungsplan <br>2 Mio. für Kunden mit Planning Plus |
+| Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Datensatztypen aus allen Bereichen sowie aus denjenigen, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
+| Anzahl von Datensätzen für einen Datensatztyp | 25.000 |
+| Anzahl von Datensätzen für einen Arbeitsbereich | 25.000 für Kunden mit Planning <br> 500.000 für Kunden mit Planning Plus |
+| Gesamtzahl der Datensätze für eine Instanz von Workfront Planning | 500.000 für Kunden mit dem Planungsplan <br>2 Millionen für Kunden mit Planning Plus |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein einzeiliges Textfeld | 1.000 Zeichen |
 | Anzahl der Zeichen für ein Absatzfeld | 10.000 Zeichen |
 | Anzahl der Absatzfelder für einen Datensatztyp | 20 Absatzfelder |
-| Dateigröße, die Sie in eine Datensatztyp-Tabelle einfügen können | 1 MB |
-| Dateigröße, die Sie über die API für eine Datentyptabelle importieren können | 1,5 MB |
+| Größe der Datei, die Sie in eine Datensatztyptabelle einfügen können | 1 MB |
+| Größe der Datei, die Sie über die API für eine Datensatztyptabelle importieren können | 1,5 MB |
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
 | Anzahl der Ansichten, die ein Benutzer für einen Datensatztyp erstellen kann | 100 |
-| Größe der CSV-Datei von Excel, die Sie importieren können, um Datensatztypen zu erstellen | 5 MB |
+| CSV-Größe der Excel-Datei, die Sie importieren können, um Datensatztypen zu erstellen | 5 MB |
 | <span class="preview">Anzahl der Zeilen, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen</span> | 10.000 |
 | <span class="preview">Anzahl der Spalten, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen</span> | 500 |
 
-*Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese sich als schwierig erweisen könnten und Ihre Arbeitsabläufe zu fragmentiert sein könnten.
+*Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.
 
-Informationen zu Preisen und Verpackungen für die Workfront-Planung finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
+Informationen zu Preisen und Paketierungen für Workfront Planning finden Sie unter [Preise und Paketierung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 <!--
 ****************KEEP THIS COMMENTED OUT:

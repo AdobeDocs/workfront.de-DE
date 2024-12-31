@@ -2,8 +2,8 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Verwalten von Arbeits- und Team-Anforderungen
-description: Eine Anfrage stellt eine ausstehende Aufgabe oder Problemzuweisung dar. Arbeitsanfragen werden an Einzelpersonen gesendet und Team-Anfragen werden an Teams gesendet.
+title: Arbeits- und Teamanfragen verwalten
+description: Eine Anfrage stellt eine ausstehende Aufgaben- oder Problemzuweisung dar. Arbeitsanfragen werden an Einzelpersonen und Teamanfragen an Teams gesendet.
 author: Lisa
 feature: People Teams and Groups, Work Management
 exl-id: ef96e520-0d5f-4180-a27a-1fbbffff8f2b
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Arbeits- und Teamanfragen
+# Arbeits- und Teamanfragen verwalten
 
-Eine Anfrage stellt eine ausstehende Aufgabe oder Problemzuweisung dar. Arbeitsanfragen werden an Einzelpersonen gesendet und Team-Anfragen werden an Teams gesendet.
+Eine Anfrage stellt eine ausstehende Aufgaben- oder Problemzuweisung dar. Arbeitsanfragen werden an Einzelpersonen und Teamanfragen an Teams gesendet.
 
 >[!NOTE]
 >
->Agile Teams verfügen nicht über Teamanfragen.
+>Agile-Teams haben keine Teamanfragen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,17 +33,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
-   <p>So weisen Sie eine Anforderung zu oder bearbeiten sie sie:
+   <p>So weisen Sie eine Anforderung zu oder bearbeiten sie:
    <p>Neu: Licht oder höher</br>
     oder</br>
-   Aktuell: Überprüfen oder höher</p>
-   <p>So weisen Sie eine Anforderung erneut zu:
+   Aktuell: Überprüfung oder höher</p>
+   <p>So weisen Sie eine Anfrage neu zu:
    <p>Neu: Standard</br>
     oder</br>
    Aktuell: Arbeit oder höher</p></td>
@@ -51,50 +51,50 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Zuweisen einer Anforderung zu einem Team {#assign-a-request-to-a-team}
+## Anforderung einem Team zuweisen {#assign-a-request-to-a-team}
 
-Projektmanager und Problemanfragen können Teams Arbeit zuweisen, wenn sie nicht wissen, welche Ressource für die Arbeit geeignet ist oder wenn es nicht wichtig ist, wer die Arbeit abschließt.
+Projektmanager und Problemanfragende können Teams Arbeit zuweisen, wenn sie nicht wissen, welche Ressource die richtige für die Arbeit ist, oder wenn es unerheblich ist, wer die Arbeit abschließt.
 
-Die dem Team zugewiesenen Aufgaben verbleiben auf der Registerkarte [!UICONTROL Team-Anforderungen] , bis ein Benutzer des Teams sich bereit erklärt, an der Anfrage zu arbeiten.
+Aufgaben, die dem Team zugewiesen wurden, bleiben auf der Registerkarte [!UICONTROL Teamanfragen], bis ein(e) Benutzende(r) im Team die Anfrage freiwillig bearbeitet.
 
-Wenn eine Anforderung sowohl einem Team als auch einem Benutzer zugewiesen wird, der nicht Mitglied des Teams ist, ist die Anforderung sowohl auf der Registerkarte [!UICONTROL Team-Anforderungen] als auch im Arbeitsanforderungsbereich des Benutzers sichtbar. Wenn der Benutzer, der nicht im Team ist, sich bereit erklärt, an der Aufgabe zu arbeiten, bleibt die Aufgabe auf der Registerkarte [!UICONTROL Team-Anforderungen], bis ein Benutzer des Teams sich bereit erklärt, daran zu arbeiten.
+Wenn eine Anfrage sowohl einem Team als auch einem Benutzer zugewiesen wird, der nicht zum Team gehört, ist die Anfrage sowohl auf der Registerkarte [!UICONTROL Team-Anfragen] als auch im Bereich für Arbeitsanfragen des Benutzers sichtbar. Wenn der/die Benutzende, der/die nicht zum Team gehört, freiwillig an der Aufgabe arbeitet, bleibt die Aufgabe weiterhin auf der Registerkarte [!UICONTROL Team-Anfragen], bis ein(e) Benutzende(r) im Team die Aufgabe freiwillig übernimmt.
 
-Teams können Aufgaben und Problemen auf eine der folgenden Arten zugewiesen werden:
+Teams können auf eine der folgenden Arten Aufgaben und Problemen zugewiesen werden:
 
-* Durch das [!UICONTROL Gantt-Diagramm]
-* Über eine Aufgaben- oder Problemliste (einzeln oder in Stapeln)
+* Über das [!UICONTROL Gantt-Diagramm]
+* Aus einer Aufgaben- oder Problemliste (einzeln oder in großen Mengen)
 * Wenn eine Aufgabe oder ein Problem erstellt oder geändert wird
-* Über Routing-Regeln für eine Anfrage (nur Probleme)
+* Durch Routing-Regeln für eine Anfrage (nur Probleme)
 
-Sie können eine Anforderung manuell über die Team-Seite einem Team zuweisen, wie in diesem Abschnitt beschrieben.
+Sie können eine Anforderung manuell einem Team über die Seite „Team“ zuweisen, wie in diesem Abschnitt beschrieben.
 
-So weisen Sie einem Team manuell über die Team-Seite eine Anforderung zu:
+So weisen Sie einem Team manuell eine Anforderung über die Seite „Team“ zu:
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Arbeitserfordernis senden]** aus.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Arbeitsauftrag senden]** aus.
 
    ![](assets/edit-team-settings-350x205.png)
 
-1. Füllen Sie die Informationen in dem sich öffnenden Feld aus.
-1. Klicken Sie auf **[!UICONTROL Anfrage senden]**.\
-   Dem Team wird nun eine neue Aufgabe zugewiesen, die auf der Registerkarte Team-Anforderungen angezeigt wird. Diese Aufgabe ist derzeit nicht mit einem Projekt verknüpft, kann jedoch verschoben werden, wie unter [Aufgaben verschieben](../../manage-work/tasks/manage-tasks/move-tasks.md) beschrieben.
+1. Füllen Sie die Informationen in das sich öffnende Feld ein.
+1. Klicken Sie **[!UICONTROL Anfrage senden]**.\
+   Dem Team wird jetzt eine neue Aufgabe zugewiesen, die auf der Registerkarte Team-Anfragen angezeigt wird. Diese Aufgabe ist derzeit keinem Projekt zugeordnet, kann jedoch verschoben werden, wie unter [Aufgaben verschieben](../../manage-work/tasks/manage-tasks/move-tasks.md) beschrieben.
 
 ## Anforderungen neu zuweisen {#reassign-requests}
 
-Sie können Anforderungen, die Ihrem Team zugewiesen wurden, neu zuweisen:
+Sie können Anfragen, die Ihrem Team zugewiesen wurden, neu zuweisen:
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Wählen Sie im linken Navigationsbereich **[!UICONTROL Team Requests]** aus.
-1. Klicken Sie auf das Symbol **[!UICONTROL Neu zuweisen]** .
+1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Wählen Sie im linken Navigationsbereich die Option **[!UICONTROL Teamanfragen]** aus.
+1. Klicken Sie auf **[!UICONTROL Symbol „Neu zuweisen]**.
 
-1. Beginnen Sie mit der Eingabe des Namens des Benutzers, der Gruppe oder des Teams, dem Sie die Anforderung neu zuweisen möchten, und klicken Sie dann auf **[!UICONTROL Zuweisen]**.\
-   Die Anfrage wird neu zugewiesen.
+1. Geben Sie den Namen des Benutzers, der Gruppe oder des Teams ein, dem bzw. dem Sie die Anfrage neu zuweisen möchten, und klicken Sie dann auf **[!UICONTROL Zuweisen]**.\
+   Die Anfrage wurde neu zugewiesen.

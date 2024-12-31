@@ -1,6 +1,6 @@
 ---
-title: Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung
-description: Ihr Zugriff auf die Adobe Workfront-Planung hängt von Ihrem Lizenztyp ab, zusätzlich zu Ihren Berechtigungen für Objekte. Nicht alle Benutzer in der Organisation haben denselben Zugriff und dieselben Berechtigungen für die Verwendung von Adobe Workfront Planning. In diesem Artikel werden die Zugriffsstufen beschrieben, die Benutzer für die Adobe Workfront-Planung haben können.
+title: Lizenztyp-Übersicht bei Verwendung von Adobe Workfront Planning
+description: Ihr Zugriff auf Adobe Workfront Planning hängt von Ihrem Lizenztyp ab, zusätzlich zu Ihren Berechtigungen für Objekte. Nicht alle Benutzenden in der Organisation haben dieselben Berechtigungen für die Verwendung von Adobe Workfront Planning. In diesem Artikel werden die Zugriffsebenen beschrieben, die Benutzende für Adobe Workfront Planning haben können.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -14,34 +14,34 @@ ht-degree: 0%
 ---
 
 
-# Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung
+# Lizenztyp-Übersicht bei Verwendung von Adobe Workfront Planning
 
 {{planning-important-intro}}
 
-Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront Planning-Berechtigungen zusammen, um folgenden Zugriff zu gewähren:
+Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront Planning-Berechtigungen zusammen, um den folgenden Zugriff zu gewähren:
 
-* Arbeitsbereiche anzeigen, einbringen oder verwalten
-* Anzeigen oder Verwalten von Ansichten
+* Arbeitsbereiche anzeigen, beitragen oder verwalten
+* Ansichten anzeigen oder verwalten.
 
-Informationen zu Berechtigungen für Objekte in der Workfront-Planung finden Sie unter [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+Informationen zu Berechtigungen für Objekte in Workfront Planning finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
-Informationen zum Zugriff auf die Workfront-Planung finden Sie unter [Übersicht über den Zugriff auf die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
+Informationen zum Zugriff auf Workfront Planning finden Sie unter [Adobe Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
-## Beziehung zwischen Workfront-Lizenztypen und Workfront-Planungsberechtigungen
+## Die Beziehung zwischen Workfront-Lizenztypen und Workfront Planning-Berechtigungen
 
-In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutzers in Adobe Workfront und der Höhe der Berechtigungen beschrieben, die Sie ihm für Adobe Workfront Planning-Objekte auf der Grundlage dieser Lizenz gewähren können.
+In der folgenden Tabelle wird die Beziehung zwischen dem Lizenztyp eines Benutzers in Adobe Workfront und der Ebene der Berechtigungen beschrieben, die Sie ihm auf der Grundlage dieser Lizenz für Adobe Workfront Planning-Objekte gewähren können.
 
-Wenn Sie einem Benutzer Berechtigungen für einen Arbeitsbereich erteilen, erhalten diese auch Berechtigungen zum Aufzeichnen von Typen, Datensätzen und Feldern.
+Durch das Gewähren von Benutzerberechtigungen für einen Arbeitsbereich werden auch Berechtigungen für Datensatztypen, Datensätze und Felder gewährt.
 
-Sie müssen Benutzern neben den Berechtigungen für Arbeitsbereiche separate Berechtigungen für Ansichten gewähren, damit sie auf Ansichten zugreifen und diese verwalten können.
+Sie müssen Benutzenden zusätzlich zu den für Arbeitsbereiche separate Berechtigungen für Ansichten gewähren, damit sie auf Ansichten zugreifen und diese verwalten können.
 
-| Adobe Workfront-Lizenztyp* | Höchste in der Adobe Workfront-Planung zulässige Berechtigungen |
+| Adobe Workfront Lizenztyp* | Höchste in Adobe Workfront Planning zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Benutzer können Arbeitsbereiche und Ansichten verwalten. Sie können Arbeitsbereiche, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p> <br> <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
-| Light oder Contributor | <p>Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen.</p> <br> <p>Benutzer können die für sie freigegebenen Ansichten anzeigen, jedoch keine eigenen erstellen. </p><br> <p>Benutzer können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen.</p> |
+| Standard | <p>Benutzer können Arbeitsbereiche und Ansichten verwalten. Sie können Workspaces, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p> <br> <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
+| Licht oder Mitwirkender | <p>Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen.</p> <br> <p>Benutzer können die Ansichten anzeigen, die für sie freigegeben wurden, sie können jedoch keine eigenen erstellen. </p><br> <p>Benutzende können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen.</p> |
 
-*Die Workfront-Planung ist nicht für ältere Workfront-Lizenzen verfügbar.
-Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 <!--OLD 
@@ -56,31 +56,31 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-D
 
 ### Lizenztypen und Workspace-Berechtigungen
 
-Nur Benutzer mit einer Standardlizenz können über Contribute- oder Verwaltungsberechtigungen für Arbeitsbereiche verfügen. Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Arbeitsbereiche verfügen, die für sie freigegeben sind.
+Nur Benutzer mit einer Standardlizenz können über Contribute- oder Verwaltungsberechtigungen für Arbeitsbereiche verfügen. Benutzer aller anderen Lizenztypen können Ansichtsberechtigungen für Arbeitsbereiche haben, die für sie freigegeben wurden.
 
-Systemadministratoren können alle Arbeitsbereiche im System anzeigen, selbst die Arbeitsbereiche, die sie nicht erstellt haben.
+Systemadministratoren können alle Arbeitsbereiche im System anzeigen, auch die, die sie nicht erstellt haben.
 
 >[!INFO]
 >
 >**BEISPIEL:**
 >
->Mitarbeiter oder Benutzer mit Light-Lizenz können nicht zu Arbeitsbereichen und deren Objekten beitragen oder diese verwalten.
+>Mitwirkende oder Light-License-Benutzende können nicht zu Arbeitsbereichen und deren Objekten beitragen oder diese verwalten.
 >
->Es gibt einen Hinweis im Freigabefeld, dass Benutzern keine Berechtigungen zum Beitrag zu oder zur Verwaltung eines Arbeitsbereichs erteilt werden können, wenn sie über eine Lizenz der unteren Ebene verfügen, da diese Berechtigungsebenen abgeblendet sind.
+>Im Freigabefeld gibt es einen Hinweis darauf, dass Benutzenden keine Berechtigungen zum Bereitstellen oder Verwalten eines Arbeitsbereichs erteilt werden können, wenn sie über eine Lizenz auf niedrigerer Ebene verfügen, da diese Berechtigungsebenen abgeblendet sind.
 >
 >![](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
 ### Lizenztypen und Anzeigeberechtigungen
 
-Nur Benutzer mit einer Standardlizenz können über die Berechtigung zum Verwalten von Ansichten verfügen. Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Ansichten verfügen, die für sie freigegeben sind.
+Nur Benutzer mit einer Standardlizenz können über Verwaltungsberechtigungen für Ansichten verfügen. Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Ansichten verfügen, die für sie freigegeben wurden.
 
 >[!INFO]
 >
 >**BEISPIEL:**
 >
->Mitarbeiter oder Benutzer mit Light-Lizenz können keine Ansichten verwalten. Sie können temporäre Filter, Sorten oder Gruppierungen auf Ansichten anwenden, auf die sie zugreifen können.
+>Mitwirkende oder Light-License-Benutzende können Ansichten nicht verwalten. Sie können temporäre Filter, Sortierungen oder Gruppierungen auf Ansichten anwenden, auf die sie zugreifen können.
 >
->Es gibt einen Hinweis im Freigabefeld, dass Benutzern keine Berechtigungen zum Verwalten einer Ansicht erteilt werden können, wenn sie eine Lizenz der unteren Ebene besitzen, da diese Berechtigungsebenen abgeblendet sind.
+>Im Freigabefeld wird angegeben, dass Benutzenden keine Berechtigungen zum Verwalten einer Ansicht erteilt werden können, wenn sie Inhaber einer Lizenz auf niedrigerer Ebene sind, da diese Berechtigungsebenen abgeblendet sind.
 >
 >![](assets/permissions-grayed-out-for-light-user.png)

@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-constraints
-title: Übersicht über Aufgabenbegrenzungen
-description: Aufgabenbegrenzungen bestimmen, wann eine Aufgabe in einem Projekt gestartet und beendet werden soll.
+title: Aufgabenbeschränkung - Übersicht
+description: Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Projekt beginnen und enden soll.
 author: Alina
 feature: Work Management
 exl-id: 91b0844b-95a3-4d18-9fdb-a907dd42e1bf
@@ -14,25 +14,25 @@ ht-degree: 6%
 
 ---
 
-# Übersicht über Aufgabenbegrenzungen
+# Aufgabenbeschränkung - Übersicht
 
 <!-- Audited: 12/2023 -->
 
-Aufgabenbegrenzungen bestimmen, wann eine Aufgabe in einem Projekt gestartet und beendet werden soll.
+Aufgabenbeschränkungen bestimmen, wann eine Aufgabe in einem Projekt beginnen und enden soll.
 
 ## Übersicht über Aufgabenbeschränkungen
 
-Beim Erstellen Ihres Projektplans treffen Sie Entscheidungen über die Reihenfolge und den Zeitrahmen Ihrer Aufgaben im Projekt. Aufgaben können unabhängig von jeder Aufgabensequenz funktionieren, können sich jedoch auf die Projekt-Timeline auswirken. Aufgabenbeschränkungen ermöglichen es einem Projektmanager, zu planen, wann bestimmte Aufgaben in einem Projekt gestartet oder abgeschlossen werden können.
+Während Sie Ihren Projektplan erstellen, treffen Sie Entscheidungen über die Reihenfolge und den Zeitrahmen Ihrer Aufgaben im Projekt. Aufgaben können unabhängig von einer Aufgabensequenz funktionieren, sie können sich jedoch auf die Projektzeitleiste auswirken. Aufgabenbeschränkungen ermöglichen es einem Projektmanager zu planen, wann bestimmte Aufgaben in einem Projekt beginnen oder abgeschlossen werden können.
 
-Abhängig von der verwendeten Einschränkung müssen Sie möglicherweise ein geplantes Startdatum, ein geplantes Abschlussdatum oder beides für die Aufgabe angeben.
+Abhängig von der von Ihnen verwendeten Einschränkung müssen Sie möglicherweise ein geplantes Startdatum, ein geplantes Abschlussdatum oder beides für die Aufgabe angeben.
 
-Begrenzungstypen, für die definierte Daten erforderlich sind, wirken sich auf Vorgängerbeziehungen aus.
+Einschränkungstypen, für die ein definiertes Datum erforderlich ist, wirken sich auf Vorgängerbeziehungen aus.
 
 >[!TIP]
 >
->Erwägen Sie die Verwendung eines Beschränkungstyps, der keine bestimmten Daten erfordert, wenn Sie Vorgängerbeziehungen zwischen Aufgaben verwenden.
+>Erwägen Sie die Verwendung eines Einschränkungstyps, für den keine bestimmten Daten erforderlich sind, wenn Sie Vorgängerbeziehungen zwischen Aufgaben verwenden.
 
-In der folgenden Tabelle werden die einzelnen Einschränkungen und ihre Abkürzung angezeigt. Abkürzungen werden für Aufgabenlisten und beim Erstellen von Kick-Start-Importdateien verwendet. Klicken Sie auf den verknüpften Titel jeder Aufgabenbegrenzung, um weitere Informationen zu dieser Art von Beschränkung zu erhalten.
+In der folgenden Tabelle werden jede Einschränkung und ihre Abkürzungen angezeigt. Die Abkürzungen werden in Aufgabenlisten und beim Erstellen von Kickstart-Importdateien verwendet. Klicken Sie auf den verknüpften Titel jeder Aufgabenbeschränkung, um weitere Informationen zu diesem Einschränkungstyp zu erhalten.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -40,96 +40,96 @@ In der folgenden Tabelle werden die einzelnen Einschränkungen und ihre Abkürzu
  <col>
  <thead> 
   <tr> 
-   <th> <p><strong>Beschränkungsname</strong> </p> </th> 
+   <th> <p><strong>Einschränkungsname</strong> </p> </th> 
    <th> <p><strong>Abkürzung</strong> </p> </th> 
    <th> <p><strong>Beschreibung</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Sofort wie möglich</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-soon-as-possible.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: So bald wie möglich</a> </p> </td> 
    <td scope="col"> <p>SBWM</p> </td>
    <td scope="col"> <p>Platziert die Startzeit der Aufgabe so nah wie möglich am Anfang des Projekts.</p> 
-   <p>Dies ist die Standardeinschränkung, wenn das Projekt einen Planungsmodus vom Startdatum verwendet und das standardmäßige Startdatum des Systems für eine neue Aufgabe auf Basierend auf dem geplanten Projektdatum festgelegt ist. </p>
+   <p>Dies ist die standardmäßige Einschränkung, wenn das Projekt den Planungsmodus ab dem Startdatum verwendet und wenn das standardmäßige Startdatum des Systems für eine neue Aufgabe auf Basierend auf dem geplanten Datum des Projekts festgelegt ist. </p>
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: So spät wie möglich </a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/as-late-as-possible.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: So spät wie möglich </a> </p> </td> 
    <td scope="col"> <p>SSWM</p> </td> 
-   <td scope="col"> <p>Platziert die Fertigstellungszeit der Aufgabe so nah wie möglich am Ende des Projekts.</p> 
-   <p>Dies ist die Standardeinschränkung, wenn der Projektplanmodus vom Abschlussdatum ist und das System- oder Gruppenstandarddatum für das Startdatum einer Aufgabe auf "Basierend auf dem geplanten Projektdatum"eingestellt ist. </p>
+   <td scope="col"> <p>Platziert die Abschlusszeit der Aufgabe so nah wie möglich am Ende des Projekts.</p> 
+   <p>Dies ist die Standardeinschränkung, wenn der Projektzeitplanmodus auf „Ab Abschlussdatum“ und der System- oder Gruppenstandard für das Startdatum einer Aufgabe auf „Basierend auf dem geplanten Projektdatum“ festgelegt ist. </p>
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Früheste verfügbare Zeit</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/earliest-available-time.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Früheste verfügbare Zeit</a> </p> </td> 
    <td scope="col"> <p>FVZ</p> </td> 
- <td scope="col"> <p>Planung einer Aufgabe, die zum frühestmöglichen Zeitpunkt nach Berücksichtigung von Vorgängerbeziehungen beginnt.</p> </td>
+ <td scope="col"> <p>Plant eine Aufgabe, um zum frühestmöglichen verfügbaren Zeitpunkt zu beginnen, nachdem alle Vorgängerbeziehungen berücksichtigt wurden.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Neueste verfügbare Zeit</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/latest-available-time.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Letzte verfügbare Zeit</a> </p> </td> 
    <td scope="col"> <p>SMZ</p> </td> 
-   <td scope="col"> <p>Planung einer Aufgabe, die spätestens zum verfügbaren Zeitpunkt nach der Prüfung von Beziehungen zwischen Vorgänger und Nachfolger im Projekt beginnt.</p> </td>
+   <td scope="col"> <p>Legt fest, dass eine Aufgabe zum spätestens verfügbaren Zeitpunkt beginnt, nachdem Vorgänger-Nachfolger-Beziehungen im Projekt berücksichtigt wurden.</p> </td>
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Start nicht früher als</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-earlier-than.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Nicht früher starten als</a> </p> </td> 
    <td scope="col"> <p>NFAA</p> </td> 
-   <td scope="col"> <p>Zeitt den Beginn einer Aufgabe nach dem von Ihnen angegebenen Datum.</p> 
-   <p>Dies ist die Standardeinschränkung, wenn der Projektplanmodus vom Startdatum ist und das standardmäßige Startdatum des Systems oder der Gruppe für eine neue Aufgabe auf Heute gesetzt ist.   </td> 
+   <td scope="col"> <p>Plant eine Aufgabe, die nach dem von Ihnen angegebenen Datum beginnt.</p> 
+   <p>Dies ist die Standardeinschränkung, wenn der Projektzeitplanmodus vom Startdatum ist und wenn das standardmäßige Startdatum des Systems oder der Gruppe für eine neue Aufgabe auf Heute festgelegt ist.   </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Start nicht später als</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/start-no-later-than.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Spätestens starten nach</a> </p> </td> 
    <td scope="col"> <p>NSAA</p> </td> 
-   <td scope="col"> <p>Planung einer Aufgabe, die vor dem angegebenen Datum beginnt.</p> 
-   <p>Dies ist die Standardeinschränkung, wenn der Projektplanmodus vom Abschlussdatum ist und das System oder die Gruppe die Standardeinstellung für das Startdatum einer Aufgabe auf Heute gesetzt hat. 
+   <td scope="col"> <p>Plant eine Aufgabe, die vor dem angegebenen Datum beginnt.</p> 
+   <p>Dies ist die Standardeinschränkung, wenn der Projektzeitplanmodus vom Abschlussdatum ist und wenn der System- oder Gruppenstandard für das Startdatum einer Aufgabe auf Heute gesetzt ist. 
    </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Keine Fertigstellung früher als </a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-earlier-than.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Beenden nicht früher als</a> </p> </td> 
    <td scope="col"> <p>NFBA</p> </td>
-   <td scope="col"> <p>Zeitt den Abschluss einer Aufgabe nach dem von Ihnen angegebenen Datum.</p> </td> 
+   <td scope="col"> <p>Plant eine Aufgabe, die nach dem von Ihnen angegebenen Datum abgeschlossen werden soll.</p> </td> 
   </tr> 
   <tr> 
-   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Beenden Sie nicht später als</a> </p> </td> 
+   <td scope="col"> <p><a href="../../../manage-work/tasks/task-constraints/finish-no-later-than.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Spätestes Beenden</a> </p> </td> 
    <td scope="col"> <p>NSBA</p> </td> 
-   <td scope="col"> <p>Zeitt den Abschluss einer Aufgabe vor dem angegebenen Datum.</p> </td> 
+   <td scope="col"> <p>Plant eine Aufgabe, die vor dem angegebenen Datum abgeschlossen werden soll.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen: Muss am </a> beginnen </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-start-on.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Muss beginnen am</a> </p> </td> 
    <td scope="col"> <p>MAA</p> </td> 
-   <td scope="col"> <p>Zeitt eine Aufgabe so ein, dass sie genau an einem bestimmten Datum beginnt.</p> </td> 
+   <td scope="col"> <p>Legt fest, dass eine Aufgabe genau an einem bestimmten Datum beginnt.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Muss am </a> abgeschlossen sein </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/must-finish-on.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Muss abgeschlossen sein am</a> </p> </td> 
    <td scope="col"> <p>MBWA</p> </td> 
-   <td scope="col"> <p>Planung einer Aufgabe, die an einem bestimmten Datum endet.</p> </td>
+   <td scope="col"> <p>Plant eine Aufgabe, die an einem bestimmten Datum endet.</p> </td>
   </tr> 
   <tr> 
-   <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht: Feste Datumswerte</a> </p> </td> 
+   <td> <p><a href="../../../manage-work/tasks/task-constraints/fixed-dates.md" class="MCXref xref">Übersicht über die Aufgabenbeschränkung: Feste Datumswerte</a> </p> </td> 
    <td> <p>FIXT</p> </td> 
-   <td> <p>Planung einer Aufgabe zum Beginn und Ende an bestimmten Daten.</p> </td> 
+   <td> <p>Plant eine Aufgabe, die an einem bestimmten Datum beginnt und endet.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Übersicht über die Standardbeschränkungen
+## Übersicht über Standardeinschränkungen
 
-Wenn Sie neue Aufgaben erstellen, wird Workfront automatisch eine Aufgabenbegrenzung auswählen.
+Beim Erstellen neuer Aufgaben wird von Workfront automatisch eine Aufgabenbeschränkung ausgewählt.
 
-Workfront verwendet zwei Variablen, um zu entscheiden, welche Aufgabenbegrenzung standardmäßig für eine neue Aufgabe ausgewählt ist:
+Workfront verwendet zwei Variablen, um zu entscheiden, welche Aufgabenbeschränkung standardmäßig für eine neue Aufgabe ausgewählt wird:
 
-* Das Feld **Projektplan ab** im Projekt.
+* Das Feld **Projektzeitplan ab** im Projekt.
 
-  Weitere Informationen zum Feld &quot;Projektplan ab&quot;finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+  Weitere Informationen über das Feld Projektzeitplan aus finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* Die von Ihrem Workfront- oder Gruppenadministrator konfigurierte Voreinstellung für das **Startdatum** im Bereich **Aufgaben und Probleme** von **Einrichtung**.
+* Die **Startdatum**, die von Ihrem Workfront- oder Gruppenadministrator im Bereich **Aufgaben und Probleme** von &quot;**&quot;** wurde.
 
-  Weitere Informationen zu den Voreinstellungen für Aufgaben und Probleme finden Sie im Abschnitt [Neue Aufgabenstandardeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) in [Systemweite Aufgaben und Ausgabevoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Informationen zu den Voreinstellungen für Aufgaben und Probleme finden Sie im Abschnitt [Neue Aufgaben](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md#new-task-defaults) in [Konfigurieren von systemweiten Aufgaben- und Problem-Voreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Die folgende Tabelle zeigt die standardmäßige Task-Beschränkung bei der Auswahl verschiedener Variablen für Ihr Projekt und Ihre neuen Aufgaben:
+Die folgende Tabelle zeigt die standardmäßige Aufgabenbeschränkung bei der Auswahl verschiedener Variablen für Ihr Projekt und Ihre neuen Aufgaben:
 
-| Projektzeitplan ab | Task Start Date | Task Constraint Default |
+| Projektzeitplan von | Startdatum der Aufgabe | Standard für Aufgabenbeschränkung |
 |---|---|---|
 | Startdatum | Auf Basis des geplanten Projektdatums | So bald wie möglich (SBWM) |
 | Startdatum | Heute | Nicht früher anfangen als |
-| Abschlussdatum | Auf Basis des geplanten Projektdatums | So bald wie möglich |
+| Abschlussdatum | Auf Basis des geplanten Projektdatums | So spät wie möglich |
 | Abschlussdatum | Heute | Nicht später anfangen als |

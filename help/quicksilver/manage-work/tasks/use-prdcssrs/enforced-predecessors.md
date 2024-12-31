@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: use-predecessors
-title: Durchsetzen von Vorgängern
-description: Vorläufer sind Aufgaben, von denen andere Aufgaben zur Erfüllung abhängen. Vorgängerbeziehungen wirken sich auf das Start- und Fertigstellungsdatum der Aufgaben aus und beeinflussen letztendlich die Zeitleiste des Projekts.
+title: Erzwungene Vorgänger
+description: Vorgänger sind Aufgaben, von deren Abschluss andere Aufgaben abhängen. Vorgängerbeziehungen wirken sich auf die Start- und Abschlussdaten der Aufgaben aus und wirken sich letztendlich auf die Timeline des Projekts aus.
 author: Alina
 feature: Work Management
 exl-id: c3242b92-9036-4770-a073-2a9c393b97fd
@@ -13,31 +13,31 @@ ht-degree: 0%
 
 ---
 
-# Durchsetzen von Vorgängern
+# Erzwungene Vorgänger
 
 <!-- Audited: 2/2024 -->
 
-Vorläufer sind Aufgaben, von denen andere Aufgaben zur Erfüllung abhängen. Vorgängerbeziehungen wirken sich auf das Start- und Fertigstellungsdatum der Aufgaben aus und beeinflussen letztendlich die Zeitleiste des Projekts.
+Vorgänger sind Aufgaben, von deren Abschluss andere Aufgaben abhängen. Vorgängerbeziehungen wirken sich auf die Start- und Abschlussdaten der Aufgaben aus und wirken sich letztendlich auf die Timeline des Projekts aus.
 
-Weitere Informationen zu Vorgängern finden Sie unter [Übersicht über Aufgabenverfasser](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Informationen zu Vorgängern finden Sie unter [Übersicht über Aufgabenvorgänger](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
-Durch das Festlegen von Vorgängerbeziehungen zwischen Aufgaben definieren Sie, wie der Start oder die Fertigstellung einer abhängigen Aufgabe vom Start oder der Fertigstellung ihrer Vorgängeraufgaben abhängt. Dazu werden verschiedene Abhängigkeitstypen verwendet.
+Durch das Festlegen von Vorgängerbeziehungen zwischen Vorgängen legen Sie fest, wie der Beginn oder das Ende eines abhängigen Vorgangs vom Beginn oder Ende des Vorgängervorgangs abhängt. Dies geschieht mithilfe verschiedener Abhängigkeitstypen.
 
-Weitere Informationen zu Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+Informationen zu Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
 ## Übersicht über erzwungene Vorgänger
 
 >[!IMPORTANT]
 >
->Sie müssen Vorgänger dazu zwingen, die Achtung von Vorgängerbeziehungen zu verlangen. Ohne Erzwingen der Vorgänger können abhängige Aufgaben unabhängig von ihren Abhängigkeitstypen unabhängig vom Start und Ende ihrer Vorgänger starten und beenden.
+>Sie müssen Vorgänger erzwingen, damit Vorgängerbeziehungen respektiert werden. Ohne Erzwingung der Vorgänger können abhängige Aufgaben unabhängig vom Beginn und Ende der Vorgänger beginnen und enden, unabhängig von ihren Abhängigkeitstypen.
 
 Sie können die Vorgängerbeziehung erzwingen, wenn Sie Vorgänger für ein Projekt festlegen.
 
-Wenn ein Vorgänger erzwungen wird, kann die Nachfolgeaufgabe nicht gestartet werden, bevor der Vorgänger abgeschlossen ist. Beispielsweise bedeutet das Erzwingen einer Finish-Start-Beziehung zwischen Aufgabe A und Aufgabe B, dass Aufgabe B nicht starten kann (der Status muss neu bleiben und der Prozentsatz Complete muss 0 % bleiben), bis Aufgabe A als abgeschlossen markiert ist. Die Durchsetzung von Beziehungen gilt für alle Vorgängertypen.
+Wenn ein Vorgänger erzwungen wird, kann die Nachfolgeaufgabe nicht gestartet werden, bevor der Vorgänger abgeschlossen ist. Wenn Sie z. B. eine Fertigstellungs-Start-Beziehung zwischen Aufgabe A und Aufgabe B erzwingen, kann Aufgabe B nicht gestartet werden (der Status muss Neu bleiben und der Prozentwert für Fertigstellungen muss 0 % bleiben), bis Aufgabe A als abgeschlossen markiert ist. Das Erzwingen von Beziehungen gilt für alle Vorgängertypen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,8 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -58,41 +58,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td><p>Berechtigungen für die Aufgaben und das Projekt verwalten</p></td> 
+   <td><p>Verwalten der Berechtigungen für die Aufgaben und das Projekt</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Erzwingen eines Vorgängers auf Aufgabenebene
 
-1. Gehen Sie zur Nachfolgeaufgabe, deren Vorgänger Sie erzwingen möchten.
-1. Klicken Sie im linken Bereich auf **Vorgänger** und dann auf **Vorgänger hinzufügen**. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
-1. (Bedingt) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, entfernen Sie den Namen des Projekts im Feld **Übergeordnetes Projekt** und ersetzen Sie es durch ein anderes Projekt.
-1. Geben Sie den Namen der Vorgängeraufgabe(en) im Feld **Aufgaben** an.
+1. Wechseln Sie zur Nachfolgeaufgabe, deren Vorgänger Sie erzwingen möchten.
+1. Klicken Sie **linken Bereich auf** Vorgänger“ und dann auf **Vorgänger hinzufügen**. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+1. (Bedingt) Wenn Sie einen projektübergreifenden Vorgänger hinzufügen möchten, entfernen Sie den Namen des Projekts im Feld **Übergeordnetes Projekt** und ersetzen Sie ihn durch ein anderes Projekt.
+1. Geben Sie den Namen der Vorgängeraufgabe(n) im Feld **Aufgaben** an.
 1. Geben Sie den **Abhängigkeitstyp** zwischen diesen beiden Aufgaben an.
 
-   Der standardmäßige **Abhängigkeitstyp** ist **Finish-Start**.
+   Der standardmäßige **Abhängigkeitstyp** ist **Beenden-Start**.
 
 1. Wählen Sie das Feld **Erzwungen** aus, um den Vorgänger zu erzwingen.
 1. Klicken Sie auf **Speichern**.
 
 ## Erzwingen eines Vorgängers in einer Aufgabenliste
 
-1. Rufen Sie eine Aufgabenliste für ein Projekt auf.
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die **Standardansicht** aus.
+1. Gehe zu einer Aufgabenliste in einem Projekt.
+1. Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Standardansicht**.
 
 1. Notieren Sie sich die Anzahl der Aufgaben, die Sie als Vorgänger festlegen werden.
 1. Suchen Sie die Nachfolgeaufgabe, deren Vorgänger Sie erzwingen möchten.
-1. Geben Sie in der Spalte **Vorgänger** die Nummer der Vorgängeraufgabe gefolgt von &quot;e&quot;ein. Geben Sie beispielsweise &quot;1e&quot;ein, um die Aufgabe Nr. 1 als Vorgänger zur ausgewählten Aufgabe hinzuzufügen.
+1. Geben Sie in **Spalte** die Nummer der Vorgängeraufgabe ein, gefolgt von „e“. Geben Sie beispielsweise „1e“ ein, um die Aufgabennummer 1 als Vorgänger der ausgewählten Aufgabe hinzuzufügen.
 1. Klicken Sie auf die Eingabetaste , um Ihre Vorgängerinformationen für die Aufgabe zu speichern.
 
-   ![predecessor_enforced_in_list.png](assets/predecessor-enforced-in-list-350x308.png)
+   ![PREDECESSOR_ENFORCED_IN_LIST.png](assets/predecessor-enforced-in-list-350x308.png)

@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Datensatzkommentaren
-description: Sie können an Adobe Workfront-Planungsdatensätzen zusammenarbeiten, indem Sie im rechten Bereich eines Datensatzes Kommentare oder Antworten hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
+description: Sie können an Adobe Workfront Planning-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im rechten Bedienfeld eines Datensatzes hinzufügen. Sie können auch andere Änderungen am Datensatz anzeigen, die vom System in diesem Bereich aufgezeichnet wurden.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -19,16 +19,16 @@ ht-degree: 0%
 
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
 
-Sie können an Adobe Workfront-Planungsdatensätzen zusammenarbeiten, indem Sie im rechten Bereich eines Datensatzes Kommentare oder Antworten hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
+Sie können an Adobe Workfront Planning-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im rechten Bedienfeld eines Datensatzes hinzufügen. Sie können auch andere Änderungen am Datensatz anzeigen, die vom System in diesem Bereich aufgezeichnet wurden.
 
 Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
-* **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen.
-* **Verlauf**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen. Weitere Informationen finden Sie in der [Verlaufsübersicht](/help/quicksilver/planning/records/history-section-overview.md).
+* **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzende zu Datensätzen hinzufügen.
+* **History**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen. Weitere Informationen finden Sie unter [Übersicht über den Verlauf](/help/quicksilver/planning/records/history-section-overview.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,116 +49,116 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p> Mitwirkende, Licht oder Standard</p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <td><p> Mitwirkender, Licht oder Standard</p>
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Anzeigen oder höherer Berechtigungen für einen Arbeitsbereich</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p> </td> 
+   <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Überlegungen zum Kommentieren eines Datensatzes
 
-* Sie können in der Workfront-Planung im Abschnitt Kommentare eines Datensatzes Kommentare und Antworten zu Datensätzen hinzufügen.
+* In Workfront Planning können Sie im Abschnitt „Kommentare“ eines Datensatzes Kommentare und Antworten zu Datensätzen hinzufügen.
 
-* Kommentare zu verknüpften Datensätzen werden nicht in den Datensätzen angezeigt, von denen Sie eine Verknüpfung herstellen. Wenn Sie beispielsweise einen Workfront Planning-Produktdatensatz kommentieren, der mit einem Campaign-Datensatz verknüpft ist, wird der Kommentar nur im Produktdatensatz in der Workfront-Planung und nicht im Campaign-Datensatz angezeigt, mit dem Sie eine Verknüpfung herstellen.
+* Kommentare, die verknüpften Datensätzen hinzugefügt wurden, werden nicht in den Datensätzen angezeigt, mit denen Sie verknüpfen. Wenn Sie beispielsweise einen Workfront Planning-Produktdatensatz kommentieren, der mit einem Kampagnendatensatz verknüpft ist, wird der Kommentar nur für den Produktdatensatz in Workfront Planning angezeigt und nicht für den Kampagnendatensatz, von dem aus Sie ihn verknüpfen.
 
-* Sie können Workfront-Planungsdatensätzen Kommentare hinzufügen, die durch eine Verbindung zwischen einem Datensatz und einem Objekt aus einer anderen Anwendung erstellt wurden.
+* Sie können Workfront Planning-Datensätzen, die als Ergebnis einer Verbindung zwischen einem Datensatz und einem Objekt aus einer anderen Anwendung erstellt wurden, Kommentare hinzufügen.
 
-  Beispielsweise können Sie den Datensatz &quot;Projekt-Workfront-Planung&quot;kommentieren, nachdem Sie Workfront-Projekte mit Workfront-Planungsdatensätzen verbunden haben. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+  Sie können beispielsweise den Projekt-Workfront-Planungsdatensatz kommentieren, nachdem Sie Workfront-Projekte mit Workfront-Planungsdatensätzen verbunden haben. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 
-* Kommentare zu verknüpften Objekten in anderen Anwendungen werden nicht in der Workfront-Planung angezeigt und Kommentare, die zu verknüpften Objekten in der Workfront-Planung hinzugefügt wurden, werden in anderen Anwendungen nicht angezeigt.
+* Kommentare, die in anderen Programmen zu verknüpften Objekten hinzugefügt wurden, werden in Workfront Planning nicht angezeigt und Kommentare, die in Workfront Planning zu verknüpften Objekten hinzugefügt wurden, werden in anderen Programmen nicht angezeigt.
 
-  Beispielsweise werden zu Projekten in Workfront hinzugefügte Kommentare nicht im selben Projekt angezeigt, das mit einer Kampagne in der Workfront-Planung verknüpft ist, und Kommentare, die zum Projekt Workfront Planning Record hinzugefügt wurden, werden nicht in Workfront angezeigt.
+  So werden beispielsweise Kommentare, die Projekten in Workfront hinzugefügt wurden, nicht im selben Projekt angezeigt, das mit einer Kampagne in Workfront Planning verknüpft ist, und Kommentare, die zum Projekt-Workfront Planning-Datensatz hinzugefügt wurden, werden in Workfront nicht angezeigt.
 
-* Sie können Benutzer taggen, um sie auf eine Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten keine In-App-Benachrichtigung oder E-Mail über Ihre Aktualisierung. <!--this might change??-->
+* Sie können Benutzer taggen, um ihre Aufmerksamkeit auf ein Update zu lenken. Getaggte Benutzende erhalten keine In-App-Benachrichtigung oder E-Mail zu Ihrem Update. <!--this might change??-->
 
-* Sie können Benutzer taggen, um sie auf eine Aktualisierung aufmerksam zu machen. Mit Tags versehene Benutzer erhalten eine In-App-Benachrichtigung oder eine E-Mail-Benachrichtigung über Ihre Aktualisierung.
+* Sie können Benutzer taggen, um ihre Aufmerksamkeit auf ein Update zu lenken. Getaggte Benutzende erhalten eine In-App-Benachrichtigung oder eine E-Mail-Benachrichtigung über Ihr Update.
 
   >[!NOTE]
   >
-  >   Nur Benutzer von Kunden, die mit Adobe Unified Experience integriert sind, erhalten sowohl eine In-App-Benachrichtigung als auch eine E-Mail-Benachrichtigung. Informationen dazu, ob Ihr Unternehmen das Adobe Unified Experience verwendet, finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Nur Benutzer von Kunden, die sich für das einheitliche Adobe-Erlebnis entschieden haben, erhalten sowohl eine In-App-Benachrichtigung als auch eine E-Mail-Benachrichtigung. Informationen dazu, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis verwendet, finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-* Sie können Datensätze aktualisieren und den Verlauf von Änderungen in den folgenden Bereichen der Workfront-Planung überprüfen:
+* Sie können eine Aktualisierung zu Datensätzen hinzufügen und den Änderungsverlauf aus den folgenden Bereichen von Workfront Planning überprüfen:
 
    * Auf der Seite mit den Datensatzdetails .
-   * In einer Ansicht im Feld &quot;Datensatzdetails&quot;.
+   * Aus einer Ansicht im Feld Datensatzdetails .
 
-### Kommentare zu Datensätzen verwalten
+### Verwalten von Kommentaren zu Datensätzen
 
 {{step1-to-planning}}
 
 1. Klicken Sie auf die Karte eines Arbeitsbereichs.
 
-   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden auf Karten angezeigt.
+   Der Arbeitsbereich wird geöffnet, und die Datensatztypen werden auf Karten angezeigt.
 
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
-Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs werden angezeigt.
+Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs werden angezeigt.
 
-1. Wählen Sie eine Tabellenansicht aus dem Dropdownmenü **Ansicht** aus.
-1. Klicken Sie in der Tabellenansicht auf den Namen eines Datensatzes.
+1. Wählen Sie eine Tabellenansicht aus dem Dropdown **Menü** Ansicht“ aus.
+1. Klicken Sie auf den Namen eines Datensatzes in der Tabellenansicht.
 
-   Die Seite **Details** des Datensatzes wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
+   Die Seite „Details **des** wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bedienfeld geöffnet.
 
-1. (Bedingt) Wenn das rechte Bedienfeld nicht standardmäßig geöffnet ist, klicken Sie oben rechts auf das Symbol **Kommentare anzeigen** ![](assets/show-comments-icon.png) , um den Abschnitt &quot;Kommentare&quot;zu öffnen.
+1. (Bedingt) Wenn der rechte Bereich nicht standardmäßig geöffnet wird, klicken Sie auf das Symbol **Kommentare anzeigen** ![](assets/show-comments-icon.png) in der oberen rechten Ecke, um den Abschnitt „Kommentare“ zu öffnen.
 
-1. Geben Sie einen Kommentar in das Feld **Neuer Kommentar** ein.
+1. Beginnen Sie mit der Eingabe eines Kommentars in das Feld **Neuer Kommentar**.
 
    ![](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
-   >Wenn Sie den Abschnitt Kommentare verlassen, bevor Sie mit der Eingabe und dem Senden eines Kommentars fertig sind, bleibt der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich abmelden und wieder anmelden. Bilder, die dem Kommentar hinzugefügt werden, werden ebenfalls im Entwurf gespeichert. Entwürfe werden sieben Tage lang gespeichert und können nicht wiederhergestellt werden. Entworfene Kommentare sind nur für den Benutzer sichtbar, der sie eingibt.
+   >Wenn Sie den Abschnitt Kommentare verlassen, bevor Sie mit dem Eingeben und Senden eines Kommentars fertig sind, befindet sich der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich ab- und wieder anmelden. Alle Bilder, die dem Kommentar hinzugefügt werden, werden ebenfalls im Entwurf gespeichert. Entwürfe werden 7 Tage lang gespeichert, danach werden sie verworfen und können nicht wiederhergestellt werden. Kommentare in Entwürfen sind nur für Benutzende sichtbar, die sie eingeben.
 
-1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um eine Änderung rückgängig zu machen oder wiederherzustellen:
-   * STRG + Z ( ⌘ + z für Mac) zum Rückgängigmachen einer Änderung
-   * STRG + Y ( ⌘ + y für Mac) zum Wiederholen einer Änderung
-1. (Optional und bedingt) Wenn Ihre Workfront-Instanz Teil des Adobe Unified Experience ist, fügen Sie **@** hinzu, gefolgt vom Namen eines Benutzers, der eine Person in der Aktualisierung mit Tags versehen soll. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
+1. (Optional) Um eine Änderung rückgängig zu machen oder wiederherzustellen, verwenden Sie die folgenden Tastenkombinationen:
+   * Strg+Z (⌘+Z für Mac), um eine Änderung rückgängig zu machen
+   * Strg+Y (⌘+Y für Mac), um eine Änderung wiederherzustellen
+1. (Optional und bedingt) Wenn Ihre Workfront-Instanz Teil von Adobe Unified Experience ist, fügen Sie **@** und anschließend den Namen eines Benutzers hinzu, um jemanden in der Aktualisierung zu taggen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
 
-1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis, Links oder Bilder zu Ihrer Aktualisierung hinzuzufügen und Ihren Inhalt zu verbessern.
+1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Ihrer Aktualisierung Emojis, Links oder Bilder hinzuzufügen, um Ihren Inhalt zu verbessern.
 
-1. Fügen Sie dem Datensatz weiterhin Kommentare hinzu.
+1. Fügen Sie dem Datensatz weitere Kommentare hinzu.
 
-   Weitere Informationen zum Aktualisieren von Objekten, einschließlich Workfront-Planungsprotokollen, finden Sie unter [Aktualisieren der Arbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+   Weitere Informationen zum Aktualisieren von Objekten, einschließlich Workfront-Planungsdatensätzen, finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
       >[!TIP]
@@ -204,11 +204,11 @@ Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs w
 
     For more information, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md). -->
 
-1. (Optional) Klicken Sie oben rechts im Kommentar auf das Symbol **Mehr** ![](assets/more-menu.png) und dann auf **Löschen** , um den Kommentar zu löschen.
-1. (Optional) Klicken Sie auf das Symbol **Kommentare ausblenden** ![](assets/hide-comments-icon.png) , um den rechten Bereich zu schließen.
+1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![](assets/more-menu.png) in der oberen rechten Ecke des Kommentars und dann auf **Löschen**, um den Kommentar zu löschen.
+1. (Optional) Klicken Sie auf das Symbol **Kommentare ausblenden**, ![](assets/hide-comments-icon.png) das rechte Bedienfeld zu schließen.
 
 ## Übersicht über den Verlaufsabschnitt
 
-Sie können die am Datensatz vorgenommenen Änderungen im Abschnitt Verlauf des rechten Bereichs eines Datensatzes überprüfen.
+Sie können die am Datensatz vorgenommenen Änderungen im Abschnitt Verlauf des rechten Bedienfelds eines Datensatzes überprüfen.
 
-Weitere Informationen finden Sie in der [Verlaufsübersicht](/help/quicksilver/planning/records/history-section-overview.md).
+Weitere Informationen finden Sie unter [Übersicht über den Verlauf](/help/quicksilver/planning/records/history-section-overview.md).

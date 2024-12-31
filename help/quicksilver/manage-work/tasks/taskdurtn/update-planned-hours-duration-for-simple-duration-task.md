@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: task-duration
-title: Aktualisieren der geplanten Stunden und Dauer einer Aufgabe mit dem einfachen Typ Dauer
-description: Standardmäßig berechnet Adobe Workfront die Dauer einer Aufgabe mit dem Typ Einfache Dauer basierend auf der geplanten Dauer. In bestimmten Bereichen von Workfront können Sie jedoch auch die geplante Stundenzeit und die Dauer einer einfachen Dauer manuell bearbeiten.
+title: Geplante Stunden und Dauer einer Aufgabe mit einem einfachen Dauertyp aktualisieren
+description: Standardmäßig berechnet Adobe Workfront die Dauer einer Aufgabe mit einem einfachen Dauertyp auf der Grundlage der geplanten Stunden. Sie können jedoch in bestimmten Bereichen von Workfront auch manuell die Anzahl der geplanten Stunden und die Dauer einer Aufgabe vom Typ Einfache Dauer bearbeiten.
 author: Alina
 feature: Work Management
 exl-id: 47a9b095-2b7d-4ed0-8cb6-e6bd5e37ce9c
@@ -13,15 +13,15 @@ ht-degree: 1%
 
 ---
 
-# Aktualisieren der geplanten Stunden und Dauer einer Aufgabe mit dem einfachen Typ Dauer
+# Geplante Stunden und Dauer einer Aufgabe mit einem einfachen Dauertyp aktualisieren
 
-Standardmäßig berechnet Adobe Workfront die Dauer einer Aufgabe mit dem Typ Einfache Dauer basierend auf der geplanten Dauer. In bestimmten Bereichen von Workfront können Sie jedoch auch die geplante Stundenzeit und die Dauer einer einfachen Dauer manuell bearbeiten.
+Standardmäßig berechnet Adobe Workfront die Dauer einer Aufgabe mit einem einfachen Dauertyp auf der Grundlage der geplanten Stunden. Sie können jedoch in bestimmten Bereichen von Workfront auch manuell die Anzahl der geplanten Stunden und die Dauer einer Aufgabe vom Typ Einfache Dauer bearbeiten.
 
-Sie können entweder die geplante Stunde und Dauer einer Aufgabe mit einem einfachen Dauer-Typ inline oder auf Aufgabenebene im Bereich &quot;Zuweisungen&quot;bearbeiten.
+Sie können „Geplante Stunden“ und „Dauer“ einer Aufgabe mit einem einfachen Dauertyp entweder inline oder auf Aufgabenebene im Bereich „Zuweisungen“ bearbeiten.
 
-Weitere Informationen zum Bearbeiten von Informationen inline finden Sie unter [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+Weitere Informationen zur Inline-Bearbeitung von Informationen finden Sie unter [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-In diesem Artikel wird beschrieben, wie Sie die geplante Stunde und Dauer für eine Aufgabe mit dem einfachen Typ Dauer auf Aufgabenebene im Bereich Zuweisungen aktualisieren können.
+In diesem Artikel wird beschrieben, wie Sie die geplanten Stunden und die Dauer für eine Aufgabe mit einem einfachen Dauertyp auf Aufgabenebene im Bereich Zuweisungen aktualisieren können.
 
 ## Zugriffsanforderungen
 
@@ -33,41 +33,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Aufgaben bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für die Aufgabe verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten der Berechtigungen für die Aufgabe</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Aktualisieren der geplanten Stunden und Dauer einer Aufgabe mit dem einfachen Typ Dauer
+## Geplante Stunden und Dauer einer Aufgabe mit einem einfachen Dauertyp aktualisieren
 
 >[!IMPORTANT]
 >
->Nachdem Sie die Dauer einer Aufgabe mit einfacher Dauer manuell aktualisiert haben, stoppt Workfront die Berechnung anhand der geplanten Stunden.
+>Nachdem Sie die Dauer für eine Aufgabe vom Typ Einfache Dauer manuell aktualisiert haben, berechnet Workfront sie nicht mehr anhand der geplanten Stunden.
 
-So bearbeiten Sie im Feld &quot;Erweiterte Zuweisungen&quot;die geplante Stunde und Dauer einer Aufgabe mit einem einfachen Typ für die Dauer:
+So bearbeiten Sie die geplanten Stunden und die Dauer einer Aufgabe mit einem einfachen Dauertyp im Feld Erweiterte Zuweisungen:
 
-1. Klicken Sie in einer Aufgabenliste auf den Namen der Aufgabe, deren Dauer Sie ändern möchten.
+1. Klicken Sie in einer Aufgabenliste auf den Namen der Aufgabe, für die Sie den Dauertyp ändern möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das Symbol **Mehr** ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe, klicken Sie auf **Bearbeiten** und dann auf **Zuweisungen**.
-   * Klicken Sie auf &quot;**Zugeordnet zu**&quot;oder auf den Namen der Zuweisungen im Bereich &quot;Zuweisungen&quot;der Aufgabenkopfzeile und klicken Sie dann auf &quot;**Erweitert**&quot;.
+   * Klicken Sie auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe, klicken Sie auf **Bearbeiten** und dann auf **Arbeitsaufträge**.
+   * Klicken Sie auf **Zugewiesen an** oder den Namen der Zuweisungen im Bereich „Zuweisungen“ der Aufgabenkopfzeile und dann auf **Erweitert**.
 
-1. Geben Sie einen Gesamtwert für die **geplanten Stunden** für alle Zuweisungen ein, z. B. 10 Stunden. Die Gesamtzahl der geplanten Stunden wird gleichmäßig auf alle Ressourcen verteilt, die der Aufgabe zugewiesen sind.
-1. (Optional) Passen Sie die geplanten Stunden jeder Ressource, die der Aufgabe zugewiesen ist, manuell an. Die Gesamtzahl der geplanten Stunden für die Aufgabe wird entsprechend den neuen Stunden aktualisiert, die Ihren Ressourcen zugewiesen sind.
+1. Geben Sie einen Gesamtwert für die **geplanten Stunden** für alle Zuweisungen ein, z. B. 10 Stunden. Die Gesamtzahl der geplanten Stunden wird gleichmäßig auf alle Ressourcen aufgeteilt, die der Aufgabe zugewiesen sind.
+1. (Optional) Passen Sie die geplanten Stunden für jede Ressource, die der Aufgabe zugewiesen wurde, manuell an. Die Gesamtzahl der geplanten Stunden für die Aufgabe wird aktualisiert, um die neuen Stunden widerzuspiegeln, die Ihren Ressourcen einzeln zugewiesen wurden.
 1. Geben Sie einen Wert für die Aufgabe **Dauer** ein, z. B. 2 Tage.
 
    ![](assets/advanced-assignments-simple-duration-multiple-resources-nwe-350x198.png)

@@ -1,28 +1,29 @@
 ---
 navigation-topic: announcements
-title: Verbessertes Handbuch zur Einstellung von Analytics
+title: Handbuch zur Einstellung von Enhanced Analytics
 description: Diese Seite enthält Informationen zur bevorstehenden Einstellung von Enhanced Analytics.
 author: Nolan
 feature: Product Announcements
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
+source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
 workflow-type: tm+mt
 source-wordcount: '353'
 ht-degree: 0%
 
 ---
 
-# Verbessertes Handbuch zur Einstellung von Analytics
+# Handbuch zur Einstellung von Enhanced Analytics
 
-Aufgrund der rückläufigen Verwendung und eingeschränkter Funktionalität wird Enhanced Analytics bald nicht mehr von Adobe Workfront unterstützt. Workfront Data Connect wurde als Alternative zur Replikation der von Ihnen derzeit verwendeten erweiterten Analytics-Visualisierungen veröffentlicht. Zusätzlich können leistungsstarke neue Visualisierungen erstellt werden, die mit Enhanced Analytics nicht möglich waren. Um eine erfolgreiche Umstellung für Ihre Organisation sicherzustellen, enthält diese Seite Informationen darüber, was sich genau ändern wird, Ratschläge zur Vorbereitung der Umstellung und Antworten auf häufig gestellte Fragen.
+Aufgrund der sinkenden Nutzung und der eingeschränkten Funktionalität wird Enhanced Analytics in Kürze von Adobe Workfront entfernt. Wir haben Workfront Data Connect als Alternative veröffentlicht, die die derzeit verwendeten erweiterten Analytics-Visualisierungen replizieren kann, und gleichzeitig leistungsstarke neue Visualisierungen erstellt, die mit Enhanced Analytics nicht möglich waren. Um einen erfolgreichen Übergang für Ihr Unternehmen sicherzustellen, enthält diese Seite Informationen darüber, was sich genau ändern wird, Ratschläge zur Vorbereitung auf den Übergang und Antworten auf häufig gestellte Fragen.
 
-## Veraltete Informationen
+## Informationen zur Einstellung
 
 **Was wird sich ändern?**
 
-* Die erweiterte Analyse ist nicht mehr verfügbar.
+* Enhanced Analytics ist nicht mehr verfügbar.
 
 **Wann?**
 
@@ -30,25 +31,25 @@ Aufgrund der rückläufigen Verwendung und eingeschränkter Funktionalität wird
 
 **Was kann ich stattdessen verwenden?**
 
-* Workfront Data Connect kann erweiterte Analytics-Visualisierungen replizieren. Weitere Informationen finden Sie unten unter [Replizieren von erweiterten Analytics-Visualisierungen in Workfront Data Connect](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect) .
+* Workfront Data Connect kann Visualisierungen von Enhanced Analytics replizieren. Weitere Informationen finden [ unter „Replizieren von Visualisierungen von erweiterten Analysen in Workfront Data ](#replicate-enhanced-analytics-visualizations-in-workfront-data-connect)&quot;.
 
-## Vorbereitung auf die Einstellung
+## Vorbereiten der Einstellung
 
-Um Störungen für Sie und Ihr Unternehmen zu minimieren, haben wir nachfolgend Empfehlungen bereitgestellt, die den Übergang von Enhanced Analytics zu Workfront Data Connect erleichtern.
+Um Unterbrechungen für Sie und Ihr Unternehmen zu minimieren, haben wir unten Empfehlungen gegeben, die den Übergang von Enhanced Analytics zu Workfront Data Connect erleichtern.
 
-### Erste Schritte mit Workfront Data Connect
+### Verwenden von Workfront Data Connect
 
-Als Erstes empfehlen wir Ihnen, sicherzustellen, dass Ihr Unternehmen Zugriff auf Workfront Data Connect hat, und sich so bald wie möglich mit dessen Verwendung vertraut zu machen. Weitere Informationen zu den Data Connect-Funktionen und zu deren Verwendung finden Sie unter [Übersicht über Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
+Unsere erste Empfehlung lautet, sicherzustellen, dass Ihr Unternehmen Zugriff auf Workfront Data Connect hat, und sich so schnell wie möglich mit dessen Verwendung vertraut zu machen. Weitere Informationen zu den Data Connect-Funktionen und dazu, wie Sie sie verwenden können, finden Sie unter [Übersicht über Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-lake-overview.md).
 
-Data Connect ist im neuen Ultimate-Plan enthalten und kann als Add-on zu den neuen Select- und Prime-Plänen erworben werden. Beachten Sie, dass Data Connect nicht für Organisationen mit älteren Workfront-Plänen verfügbar ist. Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um zu erfahren, welchen Plan Ihr Unternehmen derzeit durchführt und wie Sie Data Connect erwerben.
+Data Connect ist im neuen Ultimate-Plan enthalten und kann als Add-on zu den neuen Select- und Prime-Plänen erworben werden. Beachten Sie, dass Data Connect für Unternehmen mit älteren Workfront-Plänen nicht verfügbar ist. Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um herauszufinden, welchen Plan Ihr Unternehmen derzeit durchführt und wie Data Connect erworben werden kann.
 
-### Replizieren von erweiterten Analytics-Visualisierungen
+### Replizieren von Visualisierungen für erweiterte Analysen
 
-Sie können Workfront Data Connect verwenden, um die erweiterten Analytics-Visualisierungen zu replizieren, die Ihnen zusätzlich zu vielen neuen Visualisierungsoptionen am nützlichsten sind. Wenn wir uns der veralteten Version nähern, werden wir der Seite [Workfront Data Connect-Beispielabfragen](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) spezifische Beispiele für Abfragen hinzufügen, die erweiterte Analytics-Visualisierungen replizieren.
+Sie können Workfront Data Connect verwenden, um die erweiterten Analytics-Visualisierungen zu replizieren, die Sie zusätzlich zu vielen neuen Visualisierungsoptionen als am wertvollsten erachten. Je näher wir der Einstellung kommen, desto mehr fügen wir spezifische Beispiele für Abfragen, die Visualisierungen von Enhanced Analytics replizieren, zur Seite [Workfront Data Connect-Beispielabfragen](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) hinzu.
 
 ### Hilfe anfordern
 
-Sollten während der Umstellung Probleme auftreten, wenden Sie sich an Ihren Kundenbetreuer oder das Supportteam.
+Wenn während der Umstellung Probleme auftreten, wenden Sie sich an Ihren Kundenbetreuer oder an das Support-Team, um Hilfe zu erhalten.
 
 <!--
 ## FAQ

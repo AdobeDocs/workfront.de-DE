@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Task Slack Date - Übersicht
-description: Aufgaben können manchmal erst spät beginnen und abgeschlossen werden, ohne dass sich dies auf das Abschlussdatum des Projekts auswirkt.
+title: Übersicht über das Slack-Datum der Aufgabe
+description: Aufgaben können manchmal beginnen und abgeschlossen werden, ohne dass sich dies auf das Abschlussdatum des Projekts auswirkt.
 author: Alina
 feature: Work Management
 exl-id: ccdaa27d-e212-45dc-afca-08539f2b4001
@@ -14,28 +14,28 @@ ht-degree: 0%
 
 ---
 
-# Task Slack Date - Übersicht
+# Übersicht über das Slack-Datum der Aufgabe
 
-Aufgaben können manchmal erst spät beginnen und abgeschlossen werden, ohne dass sich dies auf das Abschlussdatum des Projekts auswirkt.
+Aufgaben können manchmal beginnen und abgeschlossen werden, ohne dass sich dies auf das Abschlussdatum des Projekts auswirkt.
 
-Das Slack-Datum zeigt das genaue Datum an, an dem eine Aufgabe das Abschlussdatum des Projekts definitiv beeinflussen könnte.
+Das Slack-Datum zeigt das genaue Datum an, an dem sich eine Aufgabe auf jeden Fall auf das Abschlussdatum des Projekts auswirken könnte.
 
 ## Übersicht über das Slack-Datum
 
-Das Slack-Datum unterscheidet sich vom geplanten Abschlussdatum, da die Vorgängerbeziehungen und Aufgabenbegrenzungen die Lähmungszeit erhöhen.
+Das Slack-Datum unterscheidet sich vom voraussichtlichen Abschlussdatum, da die Vorgängerbeziehungen und Aufgabenbeschränkungen die Slack-Zeit erhöhen.
 
-Beachten Sie die folgenden Szenarien, je nachdem, ob sich eine Aufgabe im kritischen Pfad eines Projekts befindet oder nicht:
+Betrachten Sie die folgenden Szenarien, je nachdem, ob sich eine Aufgabe auf dem kritischen Pfad eines Projekts befindet oder nicht:
 
-* Für Aufgaben, die sich im kritischen Pfad des Projekts befinden oder Nachfolger im kritischen Pfad haben, stimmt das Slack-Datum mit dem geplanten Abschlussdatum der Aufgabe überein, es sei denn, der Fortschrittsstatus der Aufgabe ist bereits spät oder hinten.
+* Bei Aufgaben, die sich auf dem kritischen Pfad des Projekts befinden oder Nachfolger haben, die sich auf dem kritischen Pfad befinden, entspricht das Slack-Datum dem erwarteten Abschlussdatum der Aufgabe, es sei denn, der Fortschrittsstatus der Aufgabe ist bereits in Verzug oder in Verzug.
 
-  Weitere Informationen zum kritischen Pfad finden Sie unter [Überblick über den kritischen Pfad des Projekts](../../../manage-work/tasks/manage-tasks/critical-path.md).
+  Informationen zum kritischen Pfad finden Sie unter [Übersicht über den projektkritischen Pfad](../../../manage-work/tasks/manage-tasks/critical-path.md).
 
-  Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übersicht über den Aufgabenfortschritt](../../../manage-work/tasks/task-information/task-progress-status.md).
+  Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übersicht über den ](../../../manage-work/tasks/task-information/task-progress-status.md).
 
-* Bei Aufgaben, die sich nicht auf dem kritischen Pfad befinden, erhöht sich die Ausfallzeit, je früher die Aufgabe geplant ist. Für diese Aufgaben bleibt das Slack-Datum in der Zukunft, bis die Aufgaben so spät werden, dass sie sich auf das Abschlussdatum des Projektes auswirken.
+* Bei Aufgaben, die sich nicht auf dem kritischen Pfad befinden, erhöht sich die Pufferzeit um so früher, je früher die Aufgabe geplant ist. Für diese Aufgaben bleibt das Slack-Datum in der Zukunft, bis sich die Aufgaben so spät auf das Abschlussdatum des Projekts auswirken.
 
 ## Suchen des Slack-Datums einer Aufgabe
 
-Um das Slack-Datum einer Aufgabe anzuzeigen, können Sie das Feld Slack-Datum zu einer Aufgabenansicht oder einem Bericht hinzufügen.
+Um das Slack-Datum einer Aufgabe anzuzeigen, können Sie das Slack-Datumsfeld zu einer Aufgabenansicht oder einem Bericht hinzufügen.
 
-Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

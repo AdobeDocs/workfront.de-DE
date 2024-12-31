@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
 title: 2020.1 Weitere Verbesserungen
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 2020.1 an den allgemeinen Bereichen von Workfront vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 2020.1 an allgemeinen Bereichen von Workfront vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,51 +16,51 @@ ht-degree: 0%
 
 # 2020.1 Weitere Verbesserungen
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 2020.1 an den allgemeinen Bereichen von Workfront vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 2020.1 an allgemeinen Bereichen von Workfront vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die mit Version 2020.1 verfügbar sind, finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Eine Liste aller mit Version 2020.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
-## Zum Hinzufügen von Testsendungen zur Zulassungsliste erforderliche Änderung
+## Zum Hinzufügen von Korrekturabzügen zur Zulassungsliste erforderliche Änderung
 
 >[!NOTE]
 >
 >Diese Funktion wurde aus der Version 2020.1 entfernt. Sie wird zu einem späteren Zeitpunkt zur Verfügung gestellt.
 
-Die Testversanddomäne ändert sich from proofhq.com in workfront.com.
+Die Proofing-Domain wird von proofhq.com in workfront.com geändert.
 
-Wenn Ihre Firewall- oder Mailserver so konfiguriert ist, dass nur bestimmte Anbieter Zugriff erhalten, müssen Sie Ihrer Zulassungsliste die folgende zusätzliche URL hinzufügen, um sicherzustellen, dass Benutzer in Ihrer Organisation Testsendungen in Workfront sowohl im Browser-Testversand-Viewer als auch im Desktop-Testversand-Viewer anzeigen können:
+Wenn Ihre Firewall oder Ihr E-Mail-Server so konfiguriert ist, dass er nur bestimmten Anbietern Zugriff gewährt, müssen Sie die folgende zusätzliche URL zu Ihrer Zulassungsliste hinzufügen, um sicherzustellen, dass Benutzende in Ihrem Unternehmen Korrekturabzüge in Workfront sowohl im Proofing-Viewer als auch im Desktop-Proofing-Viewer anzeigen können:
 
 &#42;.workfront.com
 
-Die URL &#42;proofhq.com ist weiterhin erforderlich.
+Die URL &#42;proofhq.com ist ebenfalls weiterhin erforderlich.
 
-Weitere Informationen zum Aktualisieren Ihrer Zulassungsliste finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen zum Aktualisieren der Zulassungsliste finden Sie [Zulassungsliste zur Firewall konfigurieren](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 >[!NOTE]
 >
->Diese Aktualisierung gilt nur für Testsendungen in Workfront. Sie gilt nicht für die Verwendung der eigenständigen Workfront Proof-Anwendung.
+>Dieses Update gilt nur für das Proofing innerhalb von Workfront. Es gilt nicht für die Verwendung der eigenständigen Workfront Proof-Anwendung.
 
-## Das Cookie-Verhalten von Workfront wurde aktualisiert, um die Kompatibilität mit Chrome zu gewährleisten
+## Das Workfront-Cookie-Verhalten wurde aktualisiert, um die Kompatibilität mit Chrome zu gewährleisten
 
-Um die Kompatibilität mit einem bevorstehenden Google Chrome-Update (Chrome v80) zu gewährleisten, haben wir die Workfront-Plattform aktualisiert, um sicherzustellen, dass Cookies mit Anforderungen ordnungsgemäß gesendet werden.
+Um die Kompatibilität mit einem bevorstehenden Google Chrome-Update (Chrome v80) zu gewährleisten, haben wir die Workfront-Plattform aktualisiert, um sicherzustellen, dass Cookies mit Anfragen ordnungsgemäß gesendet werden.
 
-Durch diese Chrome-Aktualisierung wird der Standardwert des SameSite-Cookie-Attributs geändert. Wenn Sie testen möchten, wie sich Ihre Workfront-Instanz nach der Aktualisierung von Google Chrome verhält, passen Sie die Flags in Chrome an und aktivieren Sie die folgenden Optionen:
+Diese Chrome-Aktualisierung ändert den Standardwert des SameSite-Cookie-Attributs. Wenn Sie testen möchten, wie sich Ihre Workfront-Instanz nach der Aktualisierung von Google Chrome verhält, passen Sie die Flags in Chrome an und aktivieren Sie die folgenden Optionen:
 
-* &quot;Standard-SameSite-Cookies&quot;
-* &quot;Cookies ohne SameSite müssen sicher sein&quot;
+* „Standard-SameSite-Cookies“
+* „Cookies ohne SameSite müssen sicher sein“
 
-## Synchronisation von Workfront-Kommentaren mit Jira
+## Synchronisierung von Workfront-Kommentaren mit Jira
 
-Die Integration von Workfront für Jira synchronisiert Ihre Workfront-Kommentare jetzt mit dem nativen Kommentar-Stream von Jira.
+Die Integration von Workfront für Jira synchronisiert jetzt Ihre Workfront-Kommentare mit dem nativen Jira-Kommentar-Stream.
 
-Zuvor konnten Sie Kommentare von Jira mit Workfront synchronisieren, nicht aber von Workfront mit Jira.
+Zuvor konnten Sie Kommentare von Jira mit Workfront synchronisieren, aber nicht von Workfront mit Jira.
 
-Weitere Informationen finden Sie unter [Adobe Workfront für Jira konfigurieren](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
+Weitere Informationen finden Sie unter [Konfigurieren von Adobe Workfront für Jira](../../../workfront-integrations-and-apps/use-workfront-with-jira/configure-workfront-for-jira.md).
 
 ## Der Flash Portfolio Optimizer wurde entfernt
 
-Wir haben die Möglichkeit entfernt, für alle Kunden zwischen dem neuen und dem alten (auf Flash basierenden) Portfolio Optimizer aus der Workfront Classic-Umgebung zu wechseln. Der ältere Portfolio Optimizer ist eine veraltete Funktion und die neuen Tools bieten heute die gleichen Funktionen.
+Die Möglichkeit, aus der Workfront Classic-Umgebung für alle Kunden zwischen dem neuen und dem alten (auf Flash basierenden) Portfolio Optimizer zu wechseln, wurde entfernt. Der Legacy Portfolio Optimizer ist eine veraltete Funktion, und die neuen Tools bieten heute dieselben Funktionen.
 
-Informationen zum Portfoliooptimierer finden Sie unter https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
+Informationen zum Portfolio-Optimizer finden Sie unter https://experience.workfront.com/s/article/Understanding-the-Portfolio-Optimizer-356650079
 
-Weitere Informationen zur Einstellung von Flash-basierten Tools in Workfront finden Sie unter [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).
+Informationen zur Einstellung von Flash-basierten Tools in Workfront finden Sie [Ersetzen von Flash-basierten Tools in Adobe Workfront](../../../product-announcements/announcements/announcement-archive/replace-flash-tools.md).

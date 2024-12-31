@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Übersicht über den Task Tracking Mode
-description: Sie können die Einstellung des Tracking-Modus einer Aufgabe beim Erstellen oder Bearbeiten einer Aufgabe anpassen, um zu steuern, wie und wann die Fortschrittsstatus-Indikatoren einer Aufgabe angezeigt werden. In Adobe Workfront werden beim Konfigurieren bestimmter Einstellungen zum Verfolgen des Fortschritts bei Aufgaben Statusflags angezeigt.
+title: Übersicht über den Aufgabenverfolgungsmodus
+description: Beim Erstellen oder Bearbeiten einer Aufgabe können Sie die Einstellung für den Überwachungsmodus einer Aufgabe anpassen, um zu steuern, wie und wann die Fortschrittsstatusanzeigen einer Aufgabe angezeigt werden. Adobe Workfront zeigt Statusanzeigen an, wenn Sie bestimmte Einstellungen für das Verfolgen des Aufgabenfortschritts konfigurieren.
 author: Alina
 feature: Work Management
 exl-id: 397b5593-ac01-40cf-b683-fcf671a53d26
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 ---
 
-# Übersicht über den Task Tracking Mode
+# Übersicht über den Aufgabenverfolgungsmodus
 
 <!-- Audited: 01/2024 -->
 
-Sie können die Einstellung des Tracking-Modus einer Aufgabe beim Erstellen oder Bearbeiten einer Aufgabe anpassen, um zu steuern, wie und wann die Fortschrittsstatus-Indikatoren einer Aufgabe angezeigt werden. In Adobe Workfront werden beim Konfigurieren bestimmter Einstellungen zum Verfolgen des Fortschritts bei Aufgaben Statusflags angezeigt.
+Beim Erstellen oder Bearbeiten einer Aufgabe können Sie die Einstellung für den Überwachungsmodus einer Aufgabe anpassen, um zu steuern, wie und wann die Fortschrittsstatusanzeigen einer Aufgabe angezeigt werden. Adobe Workfront zeigt Statusanzeigen an, wenn Sie bestimmte Einstellungen für das Verfolgen des Aufgabenfortschritts konfigurieren.
 
-Weitere Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übersicht über den Aufgabenfortschritt](../../../manage-work/tasks/task-information/task-progress-status.md).
+Weitere Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übersicht über den Aufgabenstatus](../../../manage-work/tasks/task-information/task-progress-status.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -36,45 +36,45 @@ Weitere Informationen zum Fortschrittsstatus von Aufgaben finden Sie unter [Übe
 </div>
 -->
 
-## Optionen für den Tracking-Modus {#tracking-mode-options}
+## Tracking-Modus-Optionen {#tracking-mode-options}
 
-Als Aufgabenbesitzer oder Projektmanager können Sie festlegen, wie Workfront den Fortschrittsstatus für jede Aufgabe anzeigt. Informationen zum Festlegen des Tracking-Modus für Ihre Aufgaben finden Sie unter [Tracking-Modus für Aufgaben festlegen](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
+Als Aufgabenbesitzer oder Projekt-Manager können Sie auswählen, wie Workfront den Fortschrittsstatus für jede Aufgabe anzeigt. Informationen zum Festlegen des Tracking-Modus für Aufgaben finden Sie unter [Festlegen des Tracking-Modus für Aufgaben](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md).
 
 Sie können aus den folgenden Optionen auswählen:
 
 * [Benutzer muss aktualisieren](#user-must-update)
-* [Einschaltzeit annehmen](#assume-on-time)
-* [Verspätete Warnungen ignorieren](#ignore-late-warnings)
-* [Auto Complete](#auto-complete)
+* [Annahme: Pünktlich](#assume-on-time)
+* [Späte Warnungen ignorieren](#ignore-late-warnings)
+* [Automatisch vervollständigen](#auto-complete)
 * [Vorgänger](#predecessor)
 
 ### Benutzer muss aktualisieren {#user-must-update}
 
-Wenn diese Option aktiviert ist, verwendet Workfront die &quot;Percent Complete&quot;und die &quot;Actual Hours&quot;der Aufgabe, um den Fortschrittsstatus der Aufgabe zu ermitteln. Dies ist die Standardoption.
+Wenn diese Option ausgewählt ist, verwendet Workfront die protokollierten Werte für „Prozent abgeschlossen“ und „Tatsächliche Stunden“, um den Fortschrittsstatus der Aufgabe zu ermitteln. Dies ist die Standardoption.
 
 ### Annahme: Im Zeitplan {#assume-on-time}
 
-Workfront geht davon aus, dass eine Aufgabe unabhängig vom aktuellen Fertigstellungsstatus rechtzeitig abgeschlossen wird. Wenn die Aufgabe nicht rechtzeitig abgeschlossen wird (am geplanten Abschlussdatum), nimmt Workfront automatisch das geplante Abschlussdatum des nächsten Arbeitstags an. Sie müssen weiterhin angeben, wann die Aufgabe abgeschlossen ist. Verwenden Sie diese Option, wenn Benutzer ihre Aufgaben nicht regelmäßig aktualisieren.
+Workfront geht davon aus, dass eine Aufgabe unabhängig vom aktuellen Abschlussstatus termingerecht abgeschlossen wird. Wenn die Aufgabe nicht rechtzeitig (am geplanten Abschlussdatum) abgeschlossen wird, geht Workfront automatisch von einem geplanten Abschlussdatum des nächsten Arbeitstages aus. Sie müssen weiterhin angeben, wann die Aufgabe abgeschlossen ist. Verwenden Sie diese Option, wenn Benutzer ihre Aufgaben nicht regelmäßig aktualisieren.
 
 ### Späte Warnungen ignorieren {#ignore-late-warnings}
 
-Der Fortschrittsstatus einer Aufgabe lautet &quot;Einschaltzeit&quot;, bis er zu spät wird. Wenn Sie beispielsweise eine Aufgabe für 10 Tage planen und an dem Tag, an dem sie abgeschlossen werden soll, die Aufgabe den Prozentwert &quot;Abgeschlossen&quot;von 60 % anzeigt, aktualisiert Workfront das geplante Abschlussdatum, indem vier Tage hinzugefügt werden und der Fortschrittsstatus der Aufgabe zu &quot;spät&quot; wird.
+Der Fortschrittsstatus einer Aufgabe ist Pünktlich, bis es zu spät ist. Wenn Sie beispielsweise eine Aufgabe so planen, dass sie 10 Tage dauert und an dem Tag, an dem sie abgeschlossen werden soll, 60 % der abgeschlossenen Aufgaben angezeigt werden, aktualisiert Workfront das voraussichtliche Abschlussdatum, indem vier Tage hinzugefügt werden. Der Fortschrittsstatus der Aufgabe wird zu „spät“.
 
 ### Automatisch abschließen {#auto-complete}
 
-Workfront geht davon aus, dass Aufgaben plangemäß abgeschlossen werden und kennzeichnet sie als abgeschlossen am Fälligkeitsdatum oder an dem geplanten Abschlussdatum. Bis dahin nutzt Workfront die &quot;Percent Complete&quot;und die &quot;Actual Hours&quot;, um den Fortschrittsstatus zu ermitteln. Unabhängig vom Fortschrittsstatus vor dem geplanten Abschlussdatum markiert Workfront die Aufgabe jedoch weiterhin als abgeschlossen.
+Workfront geht davon aus, dass Aufgaben wie geplant erledigt werden, und markiert sie als erledigt am fälligen oder geplanten Abschlussdatum. Bis dahin verwendet Workfront die Protokollierung von Prozent abgeschlossen und Tatsächliche Stunden, um den Fortschrittsstatus zu bestimmen. Unabhängig vom Fortschrittsstatus vor dem geplanten Abschlussdatum markiert Workfront die Aufgabe jedoch weiterhin als abgeschlossen.
 
-Es gibt die folgenden Ausnahmen:
+Die folgenden Ausnahmen sind vorhanden:
 
-* Wenn die Aufgabe unvollständige Vorgänger aufweist, wird sie erst automatisch abgeschlossen, wenn alle Vorgänger abgeschlossen sind. Vorfahren müssen durchgesetzt werden.
-* Wenn die Aufgabe die Beschränkung &quot;Festes Datum&quot;hat, wird die Aufgabe immer am geplanten Abschlussdatum abgeschlossen, unabhängig davon, ob ihre Vorgänger abgeschlossen sind.
+* Wenn die Aufgabe unvollständige Vorgänger hat, wird sie erst automatisch abgeschlossen, wenn alle ihre Vorgänger abgeschlossen sind. Vorgänger müssen durchgesetzt werden.
+* Wenn für den Vorgang ein festes Datum gilt, wird der Vorgang immer am geplanten Abschlussdatum abgeschlossen, unabhängig davon, ob die Vorgänger abgeschlossen sind.
 
 >[!IMPORTANT]
 >
->Wenn Sie auswählen, dass Aufgaben automatisch abgeschlossen werden sollen, wird die Aufgabe Abgeschlossen, wenn die Projektzeit neu berechnet wird. Wenn der Aktualisierungstyp des Projekts auf Automatisch oder Automatisch und Bei Änderung eingestellt ist, wird die Projekt-Timeline täglich berechnet. Weitere Informationen zu Timeline-Neuberechnungen für Projekte finden Sie unter [Projekt-Timelines neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Wenn Sie auswählen, dass Aufgaben automatisch abgeschlossen werden sollen, wird die Aufgabe als abgeschlossen markiert, wenn die Projektzeit neu berechnet wird. Wenn der Aktualisierungstyp des Projekts auf „Automatisch“ oder „Automatisch“ und „Bei Änderung“ festgelegt ist, wird die Zeitleiste des Projekts täglich berechnet. Informationen zu Neuberechnungen der Zeitleiste für Projekte finden Sie unter [Neuberechnen von Projektzeitleisten](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 >
->Die Uhrzeit des tatsächlichen Abschlussdatums ist Mitternacht des Tages, an dem die Timeline automatisch berechnet wird. Die für die Generierung dieses Zeitstempels verwendete Zeit ist die Zeitzone Ihres Systems, die vom Workfront-Administrator im Abschnitt &quot;Kundeninformationen&quot;der Einrichtung definiert wurde. Informationen zum Festlegen der Zeitzone Ihres Systems finden Sie unter [Konfigurieren grundlegender Informationen für Ihr System](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+>Der Zeitpunkt des tatsächlichen Abschlussdatums ist Mitternacht des Tages, an dem die Timeline automatisch berechnet wird. Die Zeit, die zum Generieren dieses Zeitstempels verwendet wird, ist die Zeitzone Ihres Systems, wie sie von Ihrem Workfront-Administrator im Abschnitt „Kundeninformationen“ von Setup definiert wurde. Informationen zum Festlegen der Zeitzone Ihres Systems finden Sie unter [Konfigurieren grundlegender Informationen für Ihr System](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
 
 ### Vorgänger {#predecessor}
 
-Workfront schätzt das voraussichtliche Abschlussdatum einer Aufgabe entsprechend ihrer Vorgängerbeziehung. Der Fortschrittsstatus einer Aufgabe wird anhand dieser Schätzung ermittelt. Beispielsweise hat Aufgabe B eine Dauer von 1 Tag und soll zwei Tage nach ihrer Vorgängerin, Aufgabe A, ausgeführt werden, die fünf Tage dauern sollte. Ein Benutzer aktualisiert dann die Aufgabe B auf 50 % &quot;Abgeschlossen&quot;, aber die Vorgängerin, Aufgabe A, hat noch nicht gestartet. Workfront plant die abhängige Aufgabe B für den Abschluss sechs Tage nach dem Startdatum der Vorgängeraufgabe, wobei 5 Tage für Aufgabe A und 1 Tag für Aufgabe B vorgesehen sind.
+Workfront schätzt das voraussichtliche Abschlussdatum einer Aufgabe entsprechend ihrer Vorgängerbeziehung. Der Fortschrittsstatus einer Aufgabe wird auf Grundlage dieser Schätzung bestimmt. Beispielsweise hat Aufgabe B eine Dauer von 1 Tag und soll zwei Tage nach dem Vorgänger von Aufgabe A abgeschlossen werden, was fünf Tage dauern sollte. Ein Benutzer aktualisiert dann Aufgabe B auf 50 % abgeschlossen, aber der Vorgänger, Aufgabe A, hat noch nicht begonnen. Workfront plant den Abschluss der abhängigen Aufgabe B sechs Tage nach dem Startdatum der Vorgängeraufgabe. Dabei werden 5 Tage für Aufgabe A und 1 Tag für Aufgabe B eingeräumt.

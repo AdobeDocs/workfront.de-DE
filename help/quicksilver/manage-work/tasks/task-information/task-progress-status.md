@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Übersicht über den Task Progress Status
-description: Adobe Workfront ermittelt den Fortschrittsstatus einer Aufgabe, indem es den Fortschritt der Aufgabe über ihre Zeitleiste hinweg betrachtet. Sie können Workfront so konfigurieren, dass die Bedingung eines Projekts basierend auf dem Wert des Fortschrittsstatus der Aufgaben bestimmt wird. Weitere Informationen zum Konfigurieren der Bedingung des Projekts finden Sie im Artikel Überblick über Projektbedingungen und Bedingungstyp.
+title: Übersicht über den Aufgabenstatus
+description: Adobe Workfront ermittelt den Fortschrittsstatus einer Aufgabe, indem es den Fortschritt der Aufgabe über die gesamte Zeitleiste hinweg betrachtet. Sie können Workfront so konfigurieren, dass die Bedingung eines Projekts auf der Grundlage des Fortschrittsstatus der Aufgaben bestimmt wird. Weitere Informationen zum Konfigurieren der Bedingung des Projekts finden Sie im Artikel Übersicht über Projektbedingung und Bedingungstyp .
 author: Alina
 feature: Work Management
 exl-id: 38e5f89e-bdfa-433c-9371-3c3003ada3a3
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über den Task Progress Status
+# Übersicht über den Aufgabenstatus
 
 <!-- Audited: 1/2024 -->
 
-Adobe Workfront ermittelt den Fortschrittsstatus einer Aufgabe, indem es den Fortschritt der Aufgabe über ihre Zeitleiste hinweg betrachtet. Sie können Workfront so konfigurieren, dass die Bedingung eines Projekts basierend auf dem Wert des Fortschrittsstatus der Aufgaben bestimmt wird. Weitere Informationen zum Konfigurieren der Bedingung des Projekts finden Sie im Artikel [Überblick über Projektbedingungen und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Adobe Workfront ermittelt den Fortschrittsstatus einer Aufgabe, indem es den Fortschritt der Aufgabe über die gesamte Zeitleiste hinweg betrachtet. Sie können Workfront so konfigurieren, dass die Bedingung eines Projekts auf der Grundlage des Fortschrittsstatus der Aufgaben bestimmt wird. Weitere Informationen zum Konfigurieren der Bedingung des Projekts finden Sie im Artikel [Übersicht über Projektbedingung und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
 ## Kriterien, die den Fortschrittsstatus von Aufgaben bestimmen
 
-Informationen zum Fortschrittsstatus eines Projekts finden Sie unter [Überblick über den Projektfortschritt](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+Informationen zum Fortschrittsstatus eines Projekts finden Sie unter [Übersicht über den Projektfortschritt](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
-Informationen zum Tracking des Fortschritts Ihrer Aufgaben finden Sie unter [Übersicht über den Task Tracking Mode](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Informationen zum Nachverfolgen des Fortschritts Ihrer Aufgaben finden Sie unter [Übersicht über den Aufgabenverfolgungsmodus](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 Die folgenden Kriterien bestimmen den Fortschrittsstatus einer Aufgabe:
 
@@ -34,29 +34,29 @@ Die folgenden Kriterien bestimmen den Fortschrittsstatus einer Aufgabe:
  <thead> 
   <tr> 
    <th> <p><strong>Fortschrittsstatus</strong> </p> </th> 
-   <th> <p><strong>Bestimmen von Kriterien</strong> </p> </th> 
+   <th> <p><strong>Bestimmungskriterien</strong> </p> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr valign="top"> 
    <td scope="col"> <p> </p> <p><strong>Einschaltzeit</strong> </p> </td> 
-   <td scope="col"> <p>Eine Aufgabe wird als <strong>Einschaltzeit</strong> betrachtet, wenn alle geplanten Daten mit den geplanten Daten übereinstimmen. Dieser Fortschrittsstatus könnte auch bedeuten, dass das Projekt planmäßig überholt ist und die geplanten Daten vor den geplanten Daten liegen könnten.</p> <p>Weitere Informationen zu den prognostizierten Daten finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Überblick über das geplante Abschlussdatum für Projekte, Aufgaben und Probleme</a>.</p> <p>Weitere Informationen zum geplanten Abschlussdatum der Aufgabe finden Sie in den folgenden Artikeln:</p> 
+   <td scope="col"> <p>Eine Aufgabe gilt als <strong>Einschaltzeit</strong> wenn alle geplanten Termine mit den geplanten Terminen übereinstimmen. Dieser Fortschrittsstatus kann auch bedeuten, dass das Projekt dem Zeitplan voraus ist und die voraussichtlichen Termine vor den geplanten Terminen liegen.</p> <p>Weitere Informationen zu voraussichtlichen Terminen finden Sie unter <a href="../../../manage-work/projects/planning-a-project/project-projected-completion-date.md" class="MCXref xref">Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme</a>.</p> <p>Weitere Informationen zum geplanten Abschlussdatum der Aufgabe finden Sie in den folgenden Artikeln:</p> 
     <ul> 
-     <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Überblick über die geplante Aufgabe, Startdatum</a> </p> </li> 
+     <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-start-date.md" class="MCXref xref">Übersicht über das geplante Startdatum der Aufgabe</a> </p> </li> 
      <li> <p><a href="../../../manage-work/tasks/task-information/task-planned-completion-date.md" class="MCXref xref">Übersicht über das geplante Abschlussdatum der Aufgabe</a> </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td><p></p> <p><strong>Risiko</strong> </p> </td> 
-   <td><p>Eine Aufgabe wird als <strong>Risiko</strong> betrachtet, wenn das geschätzte Abschlussdatum nach dem geplanten Abschlussdatum und nach dem geplanten Abschlussdatum liegt. Dies kann vorkommen, wenn eine Aufgabe die Beschränkung <strong>Must Finish On</strong> oder <strong>Must Start On</strong> hat, aber der Prozentsatz complete oder die Vorgängerbeziehungen der Aufgabe zeigen, dass sie nicht an den angegebenen Daten beendet oder gestartet werden kann. </p><p> Durch manuelles Festlegen der Aufgabenbegrenzung auf <strong>Must Finish on</strong> wird das geplante Abschlussdatum auf ein bestimmtes Datum gesetzt. Das vorgeschlagene Abschlussdatum stimmt in diesem Fall mit dem geplanten Abschlussdatum überein. Im Falle dieser Einschränkung analysiert Workfront die Aufgabe, um anhand des abgeschlossenen Prozentsatzes zu berechnen, wann sie abgeschlossen sein wird. Diese Berechnung wird als geschätztes Fälligkeitsdatum gespeichert. Wenn das geschätzte Fälligkeitsdatum nach dem geplanten Abschlussdatum liegt, besteht die Gefahr, dass die Aufgabe verspätet ist. </p> <p> Wenn Sie die Aufgabenbegrenzung auf <strong>Muss am</strong> manuell festlegen, wird das geplante Startdatum auf ein bestimmtes Datum gesetzt. Das vorgeschlagene Startdatum entspricht in diesem Fall dem geplanten Startdatum. Im Falle dieser Einschränkung analysiert Workfront die Aufgabe, um zu berechnen, wann sie basierend auf ihren Vorgängerbeziehungen starten wird. Diese Berechnung wird als geschätztes Startdatum gespeichert. Wenn es einen erzwungenen Vorgänger gibt, der nicht zulässt, dass die Aufgabe am angegebenen Startdatum beginnt, kann das geschätzte Startdatum nach dem geplanten Abschlussdatum liegen. Die Aufgabe wird als zu spät angesehen. </p> <p>Hinweis: In der Regel stimmen die geschätzten Datumswerte mit den prognostizierten Datumswerten überein, außer wenn <strong>am</strong> beginnen muss oder <strong>am</strong> beendet werden muss. In diesen Fällen werden die geschätzten Datumswerte weiterhin auf der Grundlage der prozentualen Vollständigkeit und anderer Faktoren (Vorgängerbeziehungen) berechnet, während die prognostizierten Datumswerte gezwungen sind, die manuell festgelegten geplanten Datumswerte abzugleichen.</p> </td> 
+   <td><p></p> <p><strong>Gefährdet</strong> </p> </td> 
+   <td><p>Eine Aufgabe gilt als <strong>gefährdet</strong> wenn das geschätzte Abschlussdatum nach dem geplanten Abschlussdatum und nach dem erwarteten Abschlussdatum liegt. Dies kann vorkommen, wenn eine Aufgabe die Beschränkung <strong>Muss beendet sein am</strong> oder <strong>Muss beginnen am</strong> aufweist, aber der abgeschlossene Prozentwert oder die Vorgängerbeziehungen der Aufgabe zeigen, dass sie nicht zu den angegebenen Daten enden oder beginnen kann. </p><p> Wenn Sie die Aufgabenbeschränkung auf <strong>Muss abgeschlossen sein am</strong> setzen, wird das geplante Abschlussdatum manuell auf ein bestimmtes Datum festgelegt. Das voraussichtliche Abschlussdatum stimmt in diesem Fall mit dem geplanten Abschlussdatum überein. Im Falle dieser Einschränkung analysiert Workfront die Aufgabe und berechnet anhand des abgeschlossenen Prozentsatzes, wann sie abgeschlossen sein wird. Diese Berechnung wird als geschätztes Fälligkeitsdatum gespeichert. Wenn das voraussichtliche Fälligkeitsdatum nach dem voraussichtlichen Abschlussdatum liegt, besteht die Gefahr, dass die Aufgabe in Verzug gerät. </p> <p> Wenn Sie die Aufgabenbeschränkung auf <strong>Muss beginnen am</strong> setzen, wird das geplante Startdatum manuell auf ein bestimmtes Datum festgelegt. Das voraussichtliche Startdatum entspricht in diesem Fall dem geplanten Startdatum. Im Falle dieser Einschränkung analysiert Workfront die Aufgabe, um zu berechnen, wann sie auf der Grundlage der Vorgängerbeziehungen beginnen wird. Diese Berechnung wird als geschätztes Startdatum gespeichert. Wenn es einen erzwungenen Vorgänger gibt, der nicht zulässt, dass die Aufgabe am angegebenen Startdatum beginnt, kann das geschätzte Startdatum nach dem voraussichtlichen Abschlussdatum liegen. Es besteht die Gefahr, dass diese Aufgabe in Verzug gerät. </p> <p>Hinweis: In der Regel entsprechen die geschätzten Daten den voraussichtlichen Terminen, außer wenn <strong>Start erforderlich am</strong> oder <strong>Ende erforderlich am</strong> verwendet werden. In diesen Fällen werden die geschätzten Termine weiterhin auf der Grundlage des Prozentsatzes der Fertigstellung und anderer Faktoren (Vorgängerbeziehungen) berechnet, während die erwarteten Termine gezwungen sind, mit den geplanten Terminen übereinzustimmen, die manuell festgelegt wurden.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Hinter</strong> </p> </td> 
-   <td> <p>Eine Aufgabe gilt als <strong>Hinter </strong>, wenn das geschätzte Abschlussdatum später oder gleich dem geplanten Abschlussdatum und früher als das prognostizierte Abschlussdatum liegt.</p> <p>Das geplante Abschlussdatum ist eine Echtzeitansicht des Zeitpunkts, zu dem die Aufgabe auf der Grundlage des vorherigen Fortschritts abgeschlossen wird. Obwohl die Aufgabe verspätet gestartet wurde, wird sie noch nicht als spät betrachtet, da die geplanten und geplanten Abschlussdaten noch in der Zukunft liegen und die Aufgabe möglicherweise noch rechtzeitig abgeschlossen werden kann.</p> <p>Hinweis: Die Fortschrittsstatus <strong>hinter</strong> und <strong>auf Risiko</strong> sind fast identisch. <strong>Risiko</strong> gibt jedoch an, dass einige erzwungene Aufgabenbegrenzungen (Muss abgeschlossen werden, Muss am, Feste Datumswerte beginnen) an einem oder beiden der geplanten Daten vorhanden sind. Wenn für die Aufgabe keine erzwungenen Beschränkungen bestehen, sind die prognostizierten Datumswerte mit den geschätzten Datumswerten identisch und spiegeln die Systemberechnung des Abschlussdatums basierend auf dem aktuellen Fortschritt der Aufgabe wider. Die Aufgabe wird noch nicht als spät angesehen, da die geplanten und geplanten Abschlussdaten noch in der Zukunft liegen und die Aufgabe möglicherweise noch rechtzeitig abgeschlossen werden kann.<br>Weitere Informationen zu den prognostizierten und geschätzten Datumswerten finden Sie unter <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Überblick über die prognostizierten und geschätzten Datumswerte </a>.</p> </td> 
+   <td> <p><strong>hinter</strong> </p> </td> 
+   <td> <p>Eine Aufgabe gilt als "<strong>", </strong> das voraussichtliche Abschlussdatum nach oder vor dem geplanten Abschlussdatum liegt.</p> <p>Das voraussichtliche Abschlussdatum ist eine Echtzeitansicht des Zeitpunkts, zu dem die Aufgabe je nach vorherigem Fortschritt abgeschlossen wird. Obwohl die Aufgabe verspätet gestartet wurde, wird dies noch nicht als verspätet betrachtet, da die geplanten und geplanten Abschlussdaten noch in der Zukunft liegen und die Aufgabe möglicherweise noch rechtzeitig abgeschlossen wird.</p> <p>Hinweis: Der <strong>Behind</strong>- und <strong>at</strong>-Fortschrittsstatus sind nahezu identisch. "<strong> Risiko“ </strong> jedoch an, dass es einige erzwungene Aufgabeneinschränkungen (Muss beendet sein am, Muss beginnen am, Feste Termine) für eines oder beide der geplanten Termine gibt. Wenn keine erzwungenen Einschränkungen für die Aufgabe vorhanden sind, sind die voraussichtlichen Termine mit den voraussichtlichen Terminen identisch und spiegeln die Systemberechnung des Abschlussdatums auf der Grundlage des aktuellen Fortschritts der Aufgabe wider. Die Aufgabe wird noch nicht als zu spät erachtet, da die geplanten und geplanten Abschlussdaten noch in der Zukunft liegen und die Aufgabe möglicherweise noch rechtzeitig abgeschlossen wird.<br>Weitere Informationen über das voraussichtliche und das voraussichtliche Datum finden Sie unter <a href="../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md" class="MCXref xref">Übersicht über das voraussichtliche und das voraussichtliche Datum </a>.</p> </td> 
   </tr> 
   <tr valign="top"> 
-   <td> <p><strong>Late</strong> </p> </td> 
-   <td> <p>Eine Aufgabe ist <strong>überfällig</strong>, wenn das geplante Abschlussdatum vor dem heutigen Datum liegt.<br></p> </td> 
+   <td> <p><strong>spät</strong> </p> </td> 
+   <td> <p>Eine Aufgabe ist <strong>spät</strong> wenn das geplante Abschlussdatum vor dem heutigen Datum liegt.<br></p> </td> 
   </tr> 
  </tbody> 
 </table>

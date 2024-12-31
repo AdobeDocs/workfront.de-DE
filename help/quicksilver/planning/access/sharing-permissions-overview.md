@@ -1,6 +1,6 @@
 ---
-title: Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung
-description: Nicht alle Benutzer in der Organisation haben denselben Zugriff und dieselben Berechtigungen für die Verwendung von Adobe Workfront Planning. In diesem Artikel werden allgemeine Informationen zum Freigeben oder Entfernen von Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich oder eine Ansicht beschrieben.
+title: Übersicht über Freigabeberechtigungen in Adobe Workfront Planning
+description: Nicht alle Benutzenden in der Organisation haben dieselben Berechtigungen für die Verwendung von Adobe Workfront Planning. In diesem Artikel werden allgemeine Informationen zum Freigeben oder Entfernen von Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich oder eine Ansicht beschrieben.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -16,11 +16,11 @@ ht-degree: 6%
 
 <!--over time, this article should look like this one does: https://eperienceleague.adobe.com/docs/workfront/using/basics/grant-request-object-permissions/sharing-permissions-on-objects-overview.html?lang=en-->
 
-# Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung
+# Übersicht über Freigabeberechtigungen in Adobe Workfront Planning
 
 {{planning-important-intro}}
 
-Sie können Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich oder eine Ansicht freigeben oder daraus entfernen.
+Sie können Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich oder eine Ansicht freigeben oder entfernen.
 
 In diesem Artikel werden die Berechtigungsebenen für Workfront Planning-Objekte beschrieben.
 
@@ -30,73 +30,73 @@ Informationen zum Freigeben von Arbeitsbereichen oder Ansichten finden Sie in de
 
 * [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
 
-## Objekte, die Sie in der Adobe Workfront-Planung freigeben können
+## Objekte, die Sie in Adobe Workfront Planning freigeben können
 
-Sie können die folgenden Objekte freigeben:
+Sie können die folgenden Objekte gemeinsam nutzen:
 
 * Arbeitsbereiche
 
-   * Sie können Arbeitsbereiche für Personen in Ihrem Unternehmen freigeben.
-   * Wenn Sie einen Arbeitsbereich freigeben, werden auch alle Datensatztypen, Datensätze und Felder freigegeben, die mit den Arbeitsbereichen verknüpft sind.
+   * Sie können Arbeitsbereiche für Personen innerhalb Ihrer Organisation freigeben.
+   * Wenn Sie einen Arbeitsbereich freigeben, werden alle Datensatztypen, Datensätze und Felder, die mit den Arbeitsbereichen verknüpft sind, ebenfalls freigegeben.
 
      Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Ansichten werden separat freigegeben.
 
 * Ansichten
 
-   * Sie müssen Benutzern, einschließlich Systemadministratoren, Berechtigungen erteilen, unabhängig von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche auf Ansichten zuzugreifen.
+   * Sie müssen Benutzenden, einschließlich Systemadministratoren, Berechtigungen für den Zugriff auf Ansichten erteilen, getrennt von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche.
    * Wenn Sie eine Ansicht freigeben, werden alle Ansichtselemente freigegeben, einschließlich Filter, Gruppierung, Sortierung oder Einstellungen.
 
      Wenn Sie eine Ansicht freigeben, werden die in der Ansicht sichtbaren Datensätze nicht freigegeben. Datensätze müssen durch die Freigabe von Arbeitsbereichen freigegeben werden.
-   * Sie können eine Ansicht öffentlich für Personen außerhalb Ihres Unternehmens freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren. Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und deren Felder, einschließlich verbundener Datensätze und Felder, anzeigen.
+   * Sie können eine Ansicht öffentlich für Personen außerhalb Ihres Unternehmens freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren. Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und ihre Felder anzeigen, einschließlich der verbundenen Datensätze und Felder.
 
-  Weitere Informationen finden Sie unter [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md).
+  Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).
 
 Intern können Sie einen Arbeitsbereich oder eine Ansicht für die folgenden Workfront-Entitäten freigeben:
 
 * Benutzende
 * Gruppen
 
-## Überlegungen zum Freigeben von Objekten in der Adobe Workfront-Planung
+## Überlegungen zur Freigabe von Objekten in Adobe Workfront Planning
 
-* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront Planning-Berechtigungen zusammen, um Ihnen Zugriff auf die Ansicht, den Beitrag und die Verwaltung von Arbeitsbereichen und deren Objekten zu gewähren.
+* Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Workfront Planning-Berechtigungen zusammen, um Ihnen Zugriff zum Anzeigen, Bereitstellen oder Verwalten von Arbeitsbereichen und deren Objekten zu gewähren.
 
-  Informationen dazu, wie sich Lizenztypen auf die Berechtigungsstufen für die Workfront-Planung auswirken, finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
-* Systemadministratoren können alle Arbeitsbereiche im System verwalten, einschließlich derjenigen, die sie nicht erstellt haben.
-* Andere Benutzer, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Systemadministratoren können nur Berechtigungen zum Verwalten einer Ansicht erhalten.
-* Sie können einen Link zu einem Arbeitsbereich oder einer Ansicht für andere freigeben.
+  Informationen dazu, wie sich Lizenztypen auf Berechtigungsebenen für Workfront Planning auswirken, finden Sie [Lizenztypübersicht bei Verwendung von Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
+* Systemadministratoren können alle Arbeitsbereiche im System verwalten, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.
+* Andere Benutzende, einschließlich Systemadministratoren, können nur auf Ansichten zugreifen, die sie erstellt haben oder die für sie freigegeben wurden. Systemadministratoren können nur Berechtigungen zum Verwalten einer Ansicht erteilen.
+* Sie können einen Link zu einem Arbeitsbereich oder zu einer Ansicht für andere freigeben.
 
-  Die folgenden Szenarien existieren:
+  Die folgenden Szenarien sind vorhanden:
    * Benutzer, die den Link zu einem Arbeitsbereich erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf den Arbeitsbereich zugreifen zu können.
-   * Benutzer, die den Link zu einer Ansicht erhalten, können wie folgt auf die Ansicht zugreifen:
+   * Benutzende, die den Link zu einer Ansicht erhalten, können auf folgende Weise auf die Ansicht zugreifen:
 
-      * Muss aktive Benutzer sein und sich bei Workfront anmelden, wenn der Link zur Ansicht intern freigegeben wurde.
-      * Kann externe Benutzer in Workfront sein und über einen öffentlich freigegebenen Link auf die Ansicht zugreifen, ohne sich bei Workfront anzumelden.
+      * Muss aktive Benutzende sein und sich bei Workfront anmelden, wenn der Link zur Ansicht intern freigegeben wurde.
+      * Kann externe Benutzer von Workfront sein und über einen öffentlich freigegebenen Link auf die Ansicht zugreifen, ohne sich bei Workfront anzumelden.
 
-## Berechtigungen für Adobe Workfront Planning-Objekte freigeben
+## Freigeben von Berechtigungen für Adobe Workfront Planning-Objekte
 
-Die Tabellen in den folgenden Abschnitten veranschaulichen den Umfang der Berechtigungen, die Sie beim Freigeben eines Arbeitsbereichs oder einer Ansicht auswählen können, und welche Funktionen jede Ebene zulässt.
+Die Tabellen in den folgenden Abschnitten veranschaulichen die Berechtigungsebenen, die Sie beim Freigeben eines Arbeitsbereichs oder einer Ansicht auswählen können, und geben an, welche Funktionen jede Ebene zulässt.
 
 >[!IMPORTANT]
 >
->Nicht alle Benutzer können über die unten beschriebenen Berechtigungsstufen verfügen. Die individuelle Lizenz eines Benutzers legt fest, welche Berechtigungen er für Workfront Planning-Objekte erhalten kann.
+>Nicht alle Benutzer können über die unten beschriebenen Berechtigungsebenen verfügen. Die individuelle Lizenz eines Benutzers bestimmt, welche Berechtigungsstufe er für Workfront Planning-Objekte erhalten kann.
 >
->Nur Standardlizenzbenutzer (oder -planbenutzer) können über Contribute- oder Verwaltungsberechtigungen für Arbeitsbereiche verfügen und Berechtigungen für Ansichten verwalten.
+>Nur Benutzer mit Standard- (oder Plan-) Lizenzen können über die Berechtigungen &quot;Contribute&quot; oder „Verwalten“ für Arbeitsbereiche und „Verwalten“ für Ansichten verfügen.
 > 
->Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Arbeitsbereiche und Ansichten verfügen.
+>Benutzer mit allen anderen Lizenztypen können Ansichtsberechtigungen für Arbeitsbereiche und Ansichten haben.
 >
->Weitere Informationen finden Sie unter [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md).
+>Weitere Informationen finden Sie unter [Lizenztyp - Übersicht bei Verwendung von Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
 
 ### Workspace-Berechtigungen
 
-Sie müssen Benutzern Berechtigungen für Arbeitsbereiche erteilen, damit sie Zugriff auf die folgenden Entitäten haben können:
+Sie müssen Benutzern Berechtigungen für Arbeitsbereiche erteilen, damit sie Zugriff auf die folgenden Entitäten erhalten:
 
 * Arbeitsbereiche
 * Datensatztypen
-* Datensätze
+* Einträge
 * Felder
 
-Im Folgenden finden Sie die Berechtigungsstufen für Arbeitsbereiche:
+Im Folgenden finden Sie die Berechtigungsebenen für Arbeitsbereiche:
 
 |        | Verwalten | Mitwirken | Anzeigen |
 |--------|--------|------------|-------|
@@ -105,9 +105,9 @@ Im Folgenden finden Sie die Berechtigungsstufen für Arbeitsbereiche:
 | Löschen | ✓ |            |       |
 | Anzeigen | ✓ | ✓ | ✓ |
 
-### Berechtigungen für Datentypen
+### Berechtigungen für Datensatztyp
 
-Berechtigungen für Datensatztypen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+Berechtigungen vom Typ Datensatz werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
 
 Im Folgenden finden Sie die Berechtigungsebenen für Datensatztypen:
 
@@ -119,11 +119,11 @@ Im Folgenden finden Sie die Berechtigungsebenen für Datensatztypen:
 | Bearbeiten | ✓ |            |       |
 | Anzeigen | ✓ | ✓ | ✓ |
 
-### Berechtigungen aufzeichnen
+### Datensatzberechtigungen
 
 Datensatzberechtigungen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
 
-Im Folgenden finden Sie die Berechtigungsstufen für Datensätze:
+Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 
 
 |        | Verwalten | Mitwirken | Anzeigen |
@@ -135,8 +135,8 @@ Im Folgenden finden Sie die Berechtigungsstufen für Datensätze:
 
 ### Feldberechtigungen
 
-Feldberechtigungen werden übernommen, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
-Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf die Werte, die den Feldern zugeordnet sind. Um Feldwerte zu bearbeiten, müssen Sie über die Berechtigung zum Bearbeiten von Datensätzen verfügen.
+Feldberechtigungen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf die mit den einzelnen Feldern verknüpften Werte. Zum Bearbeiten von Feldwerten benötigen Sie Berechtigungen zum Bearbeiten von Datensätzen.
 
 |        | Verwalten | Mitwirken | Anzeigen |
 |--------|--------|------------|-------|
@@ -148,22 +148,22 @@ Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf d
 
 ### Berechtigungen anzeigen
 
-Sie müssen separate Berechtigungen zum Aufzeichnen von Ansichten gewähren. Wenn Sie Berechtigungen für den Arbeitsbereich erteilen, erhalten Sie keine Berechtigungen für die Datensatzansichten im Arbeitsbereich.
+Für Datensatzansichten müssen Sie separate Berechtigungen erteilen. Bei der Erteilung von Berechtigungen für den Arbeitsbereich werden keine Berechtigungen für die Datensatzansichten im Arbeitsbereich gewährt.
 
-Sie müssen Benutzern Berechtigungen für Ansichten erteilen, damit sie Zugriff auf die folgenden Ansichtselemente haben können:
+Sie müssen Benutzern die Berechtigung für Ansichten erteilen, damit sie Zugriff auf die folgenden Ansichtselemente haben:
 
 * Filter
-* Feldsichtbarkeit
+* Sichtbarkeit der Felder
 * Sortieren
 * Gruppierung
 * Zeilenhöhe
 * Einstellungen
 
-Sie können Ansichten intern oder öffentlich freigeben.
+Sie können Ansichten intern oder öffentlich austauschen.
 
 Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtselemente:
 
-| Interne Freigabe | Verwalten (nur eingeladene Personen können darauf zugreifen) | Anzeigen (nur eingeladene Personen können darauf zugreifen) | Jeder im Arbeitsbereich kann anzeigen* |
+| Interne Freigabe | Verwalten (nur eingeladene Personen können darauf zugreifen) | Anzeigen (nur eingeladene Personen können darauf zugreifen) | Alle Personen im Arbeitsbereich können* |
 |--------|--------|-------|------------------------------|
 | Bearbeiten | ✓ |       |                            |
 | Löschen | ✓ |       |                            |
@@ -176,7 +176,7 @@ Im Folgenden finden Sie die Berechtigungsebenen für Ansichten und Ansichtseleme
 | Anzeigen | ✓ |
 | Anwenden | ✓ |
 
-*Benutzer müssen über Ansicht oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
+*Benutzer müssen über Ansichtsberechtigungen oder höhere Berechtigungen für einen Arbeitsbereich verfügen, um Zugriff auf diese Ansicht zu erhalten.
 
 <!--old view permissions, before sharing View permissions to a view through a workspace:
 |        | Manage | View  |

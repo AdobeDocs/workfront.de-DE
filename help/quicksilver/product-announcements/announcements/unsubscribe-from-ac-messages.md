@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Abmeldung von Nachrichten in Ankündigungs-Center
-description: Nachrichten von Announcement Center sind Nachrichten, die von Adobe Workfront an die Workfront-Kundenbasis gesendet werden. Sie können sich von Nachrichten des Announcement-Zentrums abmelden.
+title: Abo von Nachrichten im Ankündigungscenter kündigen
+description: Nachrichten aus dem Ankündigungs-Center werden von Adobe Workfront an den Workfront-Kundenstamm gesendet. Sie können das Abonnement von Nachrichten aus dem Ankündigungscenter kündigen.
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
@@ -13,29 +13,29 @@ ht-degree: 0%
 
 ---
 
-# Abmeldung von Nachrichten in Ankündigungs-Center
+# Abo von Nachrichten im Ankündigungscenter kündigen
 
-Nachrichten von Announcement Center sind Nachrichten, die von Adobe Workfront an die Workfront-Kundenbasis gesendet werden. Sie können sich von den folgenden Arten von Mitteilungen des Interaction Center abmelden:
+Nachrichten aus dem Ankündigungs-Center werden von Adobe Workfront an den Workfront-Kundenstamm gesendet. Sie können das Abonnement für die folgenden Arten von Nachrichten im Announcement Center kündigen:
 
-* Mitteilungen zu Funktionen, die außerhalb dieser Hauptversionen für jede einzelne Funktion veröffentlicht werden.
+* Ankündigungen zu Funktionen, die außerhalb dieser Hauptversionen nach Funktionen veröffentlicht werden.
 
-  Die meisten neuen Funktionen, die in der Workfront-Plattform eingeführt wurden, werden jedes Jahr in Verbindung mit einer der vier Hauptversionen veröffentlicht. Einige Funktionen werden jedoch außerhalb dieser Hauptversionen nach Funktionen veröffentlicht. Jedes Mal, wenn eine Funktion außerhalb einer Hauptversion veröffentlicht wird, erhalten Sie über das Ankündigungszentrum eine Nachricht. (Weitere Informationen zum Ankündigungs-Center finden Sie unter [Ankündigungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
+  Die meisten neuen Funktionen, die in der Workfront-Plattform eingeführt werden, werden in Verbindung mit einer der vier Hauptversionen jedes Jahr veröffentlicht. Einige Funktionen werden jedoch außerhalb dieser Hauptversionen je Funktion veröffentlicht. Jedes Mal, wenn eine Funktion außerhalb einer Hauptversion veröffentlicht wird, erhalten Sie eine Nachricht über das Announcement Center. (Weitere Informationen zum Ankündigungscenter finden Sie unter [Ankündigungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md).)
 
-* Ankündigungen zu bevorstehenden Schulungsangeboten und -veranstaltungen.
+* Ankündigungen bevorstehender Schulungsangebote und Veranstaltungen.
 
-So melden Sie sich vom Empfang von Mitteilungen des Announcement Center ab:
+Abmeldung vom Erhalt von Nachrichten des Ankündigungscenters:
 
-1. Klicken Sie oben rechts in Workfront auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) , um Ihre Benachrichtigungsliste zu öffnen.
-1. Klicken Sie unten in der Liste auf **Alle Mitteilungen** .
+1. Klicken Sie auf das nummerierte Symbol oben rechts in Workfront, ![](assets/notifications-icon-jewel.jpg) Ihre Benachrichtigungsliste zu öffnen.
+1. Klicken **unten** der Liste auf „Alle Ankündigungen“.
 
-   Die Seite **Mitteilungen** wird mit einer Liste aller Mitteilungen angezeigt.
+   Die **Ankündigungen** wird angezeigt, auf der alle Ihre Ankündigungen aufgelistet sind.
 
    ![](assets/announcements-page-qs-350x210.png)
 
-1. Klicken Sie oben rechts auf der Seite &quot;Mitteilungen&quot;auf **Einstellungen** und wählen Sie dann **Neue Versionen** oder **Training** aus, je nachdem, welcher Typ von Mitteilungen Sie nicht mehr erhalten möchten.
+1. Klicken Sie **oben rechts** der Ankündigungs-Seite auf „Einstellungen“ und wählen Sie dann **Neue Versionen** oder **Schulung** je nach dem Typ der Ankündigungen, die Sie nicht mehr erhalten möchten.
 
    ![](assets/announcementcenter-settings-350x187.png)
 
-1. Klicken Sie auf **Einstellungen speichern**.
+1. Klicken Sie **Einstellungen speichern**.
 
-   Sie erhalten für diese Art von Mitteilung keine Mitteilungen mehr vom Ankündigungszentrum.
+   Sie erhalten für diesen Ankündigungstyp keine Ankündigungscenter-Nachrichten mehr.

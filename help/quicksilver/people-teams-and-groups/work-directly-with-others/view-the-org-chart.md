@@ -1,8 +1,8 @@
 ---
 product-area: user-management
 navigation-topic: collaboration
-title: Organizations-Diagramm anzeigen
-description: Mit der Organisationsdiagrammfunktion können Sie die mit einem bestimmten Adobe Workfront-Benutzer verknüpfte Organisationstabelle anzeigen. Organizative Diagramme eignen sich hervorragend, um die Struktur einer bestimmten Abteilung zu visualisieren.
+title: Organigramm anzeigen
+description: Mit der Organigrammfunktion können Sie das Organigramm anzeigen, das einem bestimmten Adobe Workfront-Benutzer zugeordnet ist. Organigramme sind eine gute Möglichkeit, die Struktur einer bestimmten Abteilung zu visualisieren.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 10c1fc55-8df4-4c2a-9251-ee6db9ee6c0d
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Organigramm anzeigen
 
-Mit der Organisationsdiagrammfunktion können Sie die mit einem bestimmten [!DNL Adobe Workfront] -Benutzer verknüpfte Organisationstabelle anzeigen. Organizative Diagramme eignen sich hervorragend, um die Struktur einer bestimmten Abteilung zu visualisieren.
+Mit der Funktion Organigramm können Sie das Organigramm anzeigen, das einem bestimmten [!DNL Adobe Workfront] Benutzer zugeordnet ist. Organigramme sind eine gute Möglichkeit, die Struktur einer bestimmten Abteilung zu visualisieren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -28,26 +28,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Neu: Licht oder höher</p>
    <p>oder</p>
-   <p>Aktuell: Überprüfen oder höher</p></td>
+   <p>Aktuell: Überprüfung oder höher</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Organigramm eines Benutzers suchen
+## Suchen des Organigramms eines Benutzers
 
 {{step1-click-profile-pic}}
 
-1. Klicken Sie im linken Bereich auf **[!UICONTROL Org Chart]**.\
-   ![Organisationsdiagramm](assets/org-chart.png)
+1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Organigramm]**.\
+   ![Organigramm](assets/org-chart.png)

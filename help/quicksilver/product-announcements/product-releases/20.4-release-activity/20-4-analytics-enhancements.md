@@ -15,18 +15,18 @@ ht-degree: 0%
 
 # 20. 4 Analytics-Verbesserungen
 
-Auf dieser Seite werden alle Analyseverbesserungen beschrieben, die mit Version 20.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
+Auf dieser Seite werden alle Analytics-Verbesserungen beschrieben, die mit Version 20.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [20.4 - Versionsübersicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Eine Liste aller mit Version 20.4 verfügbaren Änderungen finden Sie unter Übersicht über Version [20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Paginierung und Sortierung zu erweiterten Analysen hinzugefügt
+## Paginierung und Sortierung zu Enhanced Analytics hinzugefügt
 
-Damit Sie die gewünschten Informationen anzeigen können, ohne restriktive Filter anwenden zu müssen, haben wir folgende Änderungen vorgenommen:
+Damit Sie die gewünschten Informationen anzeigen können, ohne einschränkende Filter anwenden zu müssen, haben wir die folgenden Änderungen vorgenommen:
 
-* Die Projektzahl in der oberen rechten Ecke des Bildschirms zeigt nur die Gesamtanzahl der Projekte innerhalb der angewendeten Filter an.
-* Mit jedem Diagramm können Sie jetzt zusätzliche Projekte in Gruppen von 50 (z. B. 51-100, 150-200 usw.) anzeigen, indem Sie eine Seitennummer auswählen, um zu einem bestimmten Satz von Projekten zu springen, oder mithilfe der Pfeile zwischen Seiten navigieren. Wenn Sie eine neue Seite in einem Diagramm auswählen, werden die Projekte für den gesamten Bildschirm aktualisiert.
-* Jedes Diagramm verfügt nun über ein Menü Sortieren nach , mit dem Sie eine alphabetische Sortierung nach dem geplanten Startdatum oder dem geplanten Abschlussdatum vornehmen können.
+* Die Projektanzahl in der oberen rechten Ecke des Bildschirms zeigt nur die Gesamtanzahl der Projekte innerhalb der angewendeten Filter an.
+* Jedes Diagramm ermöglicht es Ihnen jetzt, zusätzliche Projekte in Gruppen zu 50 anzuzeigen (z. B. 51-100, 150-200 usw.), indem Sie eine Seitenzahl auswählen, um zu einem bestimmten Satz von Projekten zu springen, oder die Pfeile verwenden, um zwischen den Seiten vorwärts und rückwärts zu navigieren. Wenn Sie eine neue Seite in einem Diagramm auswählen, werden Projekte für den gesamten Bildschirm aktualisiert.
+* Jedes Diagramm verfügt jetzt über ein Menü Sortieren nach , mit dem Sie alphabetisch, nach dem geplanten Startdatum oder nach dem geplanten Abschlussdatum sortieren können.
 
-Zuvor wurde die Anzahl der Projekte, die Sie ansehen konnten, im Bereich &quot;Erweiterte Analyse&quot;auf 50 begrenzt.
+Zuvor wurde im Bereich Erweiterte Analyse die Anzahl der Projekte, die Sie betrachten können, auf 50 begrenzt.
 
-Diese Funktion ist jetzt im Lernpfad [Verbesserte Analytics, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [Erweiterte Analyse, Teil 1“ ](https://one.workfront.com/s/learningpath2/enhanced-analytics-part-1-overview-20Y0z000000bmgOEAQ) Workfront One enthalten.

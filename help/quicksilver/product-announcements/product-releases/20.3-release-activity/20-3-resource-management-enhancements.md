@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Verbesserungen bei der Ressourcenverwaltung
-description: Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
+title: 20.3 Verbesserungen beim Ressourcenmanagement
+description: Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 20.3 in der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,85 +14,85 @@ ht-degree: 0%
 
 ---
 
-# 20.3 Verbesserungen bei der Ressourcenverwaltung
+# 20.3 Verbesserungen beim Ressourcenmanagement
 
-Auf dieser Seite werden alle Verbesserungen der Ressourcenverwaltung beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
+Auf dieser Seite werden alle Verbesserungen des Ressourcen-Managements beschrieben, die mit der Version 20.3 in der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Eine Liste aller mit Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
-## Einbeziehen von Stunden aus Problemen in den Bereich &quot;Zugewiesene Arbeit&quot;des Workload Balancer
+## Stunden aus Problemen in den Bereich Zugewiesene Arbeit des Workload-Balancer einbeziehen
 
-Damit Sie ein vollständiges Bild aller Arbeitslasten Ihrer Personen erhalten, haben wir eine Einstellung eingeführt, mit der Sie Stunden aus Problemen im Bereich &quot;Zugewiesene Arbeit&quot;des Arbeitsladerausgleichs einbeziehen können.
+Damit Sie sich ein vollständiges Bild von der Arbeitslast aller Ihrer Mitarbeiter machen können, haben wir eine Einstellung eingeführt, mit der Sie Stunden aus Problemen in den Bereich Zugewiesene Arbeit des Workload-Balancer einbeziehen können.
 
-Weitere Informationen zum Arbeiten mit dem Lastenausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Weitere Informationen zum Arbeiten mit dem Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Anpassen der Zuordnungen für Nicht-Arbeitstage im Arbeitslastausgleich
+## Anpassen von Zuweisungen für arbeitsfreie Tage im Workload Balancer
 
-Sie können mithilfe des Workload Balancer die Zuordnungen für Ihre Ressourcen für Nicht-Arbeitstage anpassen.
+Mit dem Workload-Balancer können Sie Zuweisungen für Ihre Ressourcen für arbeitsfreie Tage anpassen.
 
-Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Informationen zum Verwalten von Zuweisungen im Workload Balancer finden Sie unter [Verwalten von Benutzerzuweisungen im Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-## Variablenfilter im Lastenausgleich verfügbar
+## Im Workload Balancer verfügbare Variablenfilter
 
-Um Ihr Erlebnis zu verbessern und Ihnen mehr Flexibilität beim Austausch von Informationen zu bieten, haben wir nun Variablenfilter für den Arbeitslastausgleich implementiert. Die folgenden Filter wurden zum Lastenausgleich hinzugefügt:
+Um Ihr Erlebnis zu verbessern und Ihnen mehr Flexibilität beim Austausch von Informationen zu bieten, haben wir jetzt Variablenfilter für den Workload Balancer implementiert. Die folgenden Filter wurden zum Workload-Balancer hinzugefügt:
 
-* &quot;Me&quot;(beim Filtern nach Benutzern)
-* &quot;Meine Primäre Rolle&quot;(beim Filtern nach Rollen)
-* &quot;My Home Team&quot; oder &quot;All My Teams&quot; (bei der Filterung nach Teams).
+* „Ich“ (beim Filtern nach Benutzern)
+* „Meine Primäre Rolle“ (beim Filtern nach Rollen)
+* „Mein Home-Team“ oder „Alle meine Teams“ (beim Filtern nach Teams).
 
-Diese Filter ersetzen die Platzhalterfiltervariablen von $$USER.ID, $$USER.roleID, $$USER.homeTeamID und $$USER.teamID.
+Diese Filter ersetzen die Platzhalterfiltervariablen $$USER.ID, $$USER.roleID, $$USER.homeTeamID und $$USER.teamIDs
 
-Wenn Sie einen dieser Filter anwenden und dann den Lastenausgleich freigeben oder ihn in einem Dashboard platzieren, sehen alle anderen Benutzer ihre eigenen Informationen.
+Wenn Sie einen dieser Filter anwenden und dann den Workload-Balancer freigeben oder in einem Dashboard platzieren, sehen alle anderen Benutzer ihre eigenen Informationen.
 
-Weitere Informationen zum Anwenden von Filtern auf den Arbeitslastausgleich finden Sie unter [Filterinformationen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
+Informationen zum Anwenden von Filtern auf den Workload Balancer finden Sie unter [Filtern von Informationen im Workload Balancer](../../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-## Neue Sortierung für Projekte im Arbeitslastausgleich
+## Neue Sortierung für Projekte im Workload Balancer
 
-Der Lastenausgleich sortiert die Projekte jetzt zunächst nach dem frühesten geplanten Startdatum und dann nach dem neuesten geplanten Abschlussdatum der Aufgaben im Projekt, die während des Zeitrahmens auftreten, den der Benutzer auf dem Bildschirm anzeigt. Auf diese Weise können Sie Arbeiten in einer baumähnlichen Hierarchie organisieren, mit der Sie die Arbeit für einen Tag leichter identifizieren können.
+Workload Balancer sortiert die Projekte nun nach dem frühesten geplanten Startdatum und nach dem neuesten geplanten Abschlussdatum der Aufgaben im Projekt, die während des vom Benutzer auf dem Bildschirm angezeigten Zeitraums auftreten. So können Sie die Arbeit in einer hierarchischen Struktur organisieren, sodass Sie die Arbeit für einen Tag leichter identifizieren können.
 
-Weitere Informationen zum Anzeigen von Projekten und Arbeitselementen im Arbeitslastausgleich finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Weitere Informationen zum Anzeigen von Projekten und Arbeitselementen im Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Tatsächlichen Arbeitsfortschritt im Arbeitslastausgleich anzeigen
+## Anzeigen des tatsächlichen Arbeitsfortschritts im Workload Balancer
 
-Um Ihnen einen genauen Überblick über den Fortschritt Ihrer Arbeitslast zu geben, haben wir eine neue Einstellung im Arbeitslastausgleich eingeführt, die den Zeitrahmen von Aufgaben und Problemen entsprechend den prognostizierten Daten anzeigt. Sie können die Einstellung Vorgeschlagene Daten anzeigen aktivieren, um die geplante Timeline des Arbeitselements zusätzlich zur geplanten Timeline anzuzeigen.
+Um Ihnen einen genauen Überblick über den Fortschritt Ihrer Arbeitslast zu geben, haben wir im Workload Balancer eine neue Einstellung eingeführt, die den zeitlichen Ablauf von Aufgaben und Problemen entsprechend ihrem voraussichtlichen Datum anzeigt. Sie können die Einstellung Voraussichtliche Termine anzeigen aktivieren, um die voraussichtliche Zeitleiste des Arbeitselements zusätzlich zur geplanten Zeitleiste anzuzeigen.
 
-Mit dieser Verbesserung werden bei einer Aufgabe oder einem Problem, die vor dem geplanten Abschlussdatum abgeschlossen wurde, die zugewiesenen Stunden der verbleibenden Tage durchlaufen, um anzuzeigen, dass sie nicht mit der Gesamtzuordnung des Benutzers angerechnet werden.
+Mit dieser Verbesserung wird außerdem angezeigt, dass zugewiesene Stunden aus den verbleibenden Tagen durchgestrichen werden, wenn eine Aufgabe oder ein Problem vor dem geplanten Abschlussdatum abgeschlossen wird. Dies bedeutet, dass diese Stunden nicht auf die Gesamtzuweisung des Benutzers angerechnet werden.
 
-Informationen zum Navigieren im Arbeitslastausgleich und Aktivieren von Einstellungen finden Sie unter [Navigieren im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Informationen zum Navigieren im Workload Balancer und Aktivieren der Einstellungen finden Sie unter [Navigieren im Workload Balancer](../../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-## Funktionen des Arbeitslastausgleichs, die zuvor mit Version 20.2 als veröffentlicht kommuniziert wurden
+## Workload Balancer-Funktionen, die zuvor mit Version 20.2 als veröffentlicht kommuniziert wurden
 
-* [Passen Sie die tägliche und wöchentliche Zuordnung im Lastenausgleich an](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
-* [Aktualisieren der geplanten Aufgaben im Arbeitslastausgleich](#update-task-planned-hours-in-the-workload-balancer)
-* [Eine einfachere Möglichkeit, die Zuordnungen im Arbeitslastausgleich zu aktualisieren](#a-more-convenient-way-to-update-allocations-in-the-workload-balancer)
+* [Anpassen der täglichen und wöchentlichen Zuordnung im Workload Balancer](#adjust-daily-and-weekly-allocation-in-the-workload-balancer)
+* [Aktualisieren der geplanten Stunden für die Aufgabe im Workload Balancer](#update-task-planned-hours-in-the-workload-balancer)
+* [Eine bequemere Methode zur Aktualisierung von Zuweisungen im Workload Balancer](#a-more-convenient-way-to-update-allocations-in-the-workload-balancer)
 
-### Passen Sie die tägliche und wöchentliche Zuordnung im Lastenausgleich an. {#adjust-daily-and-weekly-allocation-in-the-workload-balancer}
+### Tägliche und wöchentliche Zuordnung im Workload Balancer anpassen {#adjust-daily-and-weekly-allocation-in-the-workload-balancer}
 
-Um das Ausbrechen Ihrer Ressourcen zu vermeiden, können Sie jetzt die tägliche und wöchentliche Zuordnung Ihrer Benutzer mithilfe des Workload Balancer anpassen, um zu funktionieren.
+Um ein Burnout Ihrer Ressourcen zu vermeiden, können Sie jetzt die tägliche und wöchentliche Zuordnung Ihrer Benutzer für die Arbeit mit dem Workload Balancer anpassen.
 
 Vor dieser Verbesserung war dies nur mit den Tools für die Ressourcenplanung möglich.
 
-Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Informationen zum Verwalten von Zuweisungen im Workload Balancer finden Sie unter [Verwalten von Benutzerzuweisungen im Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
 **In diesen Umgebungen verfügbar:**
 
 * Adobe Workfront Classic
-* Die neue Adobe Workfront-Erfahrung
+* Das neue Adobe Workfront-Erlebnis
 
-### Aktualisieren der geplanten Stunden im Arbeitslastausgleich {#update-task-planned-hours-in-the-workload-balancer}
+### Geplante Stunden für Aufgaben im Workload Balancer aktualisieren {#update-task-planned-hours-in-the-workload-balancer}
 
 >[!NOTE]
 >
->Diese Verbesserung ist in der Produktion bald nach der Version 2020.2 verfügbar.
+>Diese Verbesserung wird kurz nach der Veröffentlichung von Version 2020.2 in der Produktion verfügbar sein.
 
-Eine neue Option im Bereich Ressourcenverwaltung der Zugriffsebene ermöglicht es Benutzern mit diesem Zugriff nun, geplante Stunden über den Lastenausgleich zu bearbeiten. Wenn Sie die Zuordnungen im Arbeitslastausgleich anpassen, muss die Gesamtanzahl der täglichen Zuweisungen nicht mit der Anzahl der geplanten Stunden der Aufgaben übereinstimmen. Nachdem Sie Ihre Zuordnungen gespeichert haben, werden die gesamten Zuordnungszeiten zu den geplanten Stunden der Aufgabe. Dies ist nur bei Aufgaben mit einem einfachen Durationstyp möglich.
+Eine neue Option im Bereich Ressourcen-Management der Zugriffsebene ermöglicht es Benutzenden mit diesem Zugriff jetzt, die geplanten Stunden über den Workload Balancer zu bearbeiten. Wenn Sie Zuweisungen im Workload Balancer anpassen, muss die Gesamtzahl der täglichen Zuweisungen nicht mit der Anzahl der geplanten Stunden der Aufgaben übereinstimmen. Nachdem Sie die Zuteilungen gespeichert haben, wird die Summe der Zuteilungsstunden zu den geplanten Stunden der Aufgabe. Dies ist nur für Aufgaben mit dem Typ Einfache Dauer möglich.
 
-Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Informationen zum Verwalten von Zuweisungen im Workload Balancer finden Sie unter [Verwalten von Benutzerzuweisungen im Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-Informationen zur Gewährung des Zugriffs auf die Ressourcenverwaltung finden Sie unter [Gewähren des Zugriffs auf die Ressourcenverwaltung](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
+Informationen zum Gewähren des Zugriffs auf die Ressourcenverwaltung finden Sie unter [Zugriff auf die Ressourcenverwaltung gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md).
 
-### Eine einfachere Möglichkeit, die Zuordnungen im Arbeitslastausgleich zu aktualisieren {#a-more-convenient-way-to-update-allocations-in-the-workload-balancer}
+### Eine bequemere Methode zur Aktualisierung von Zuweisungen im Workload Balancer {#a-more-convenient-way-to-update-allocations-in-the-workload-balancer}
 
-Um die Zuordnung eines Benutzers zu einem Arbeitselement im Arbeitslastausgleich einfacher zu verwalten, können Sie jetzt auf das Arbeitselement doppelklicken. Sie können auch die vorhandene Menüoption Zuordnung bearbeiten verwenden. Darüber hinaus müssen Sie die Anzeige von Zuordnungen nicht mehr aktivieren, um sie aktualisieren zu können.
+Um die Zuordnung von Benutzenden zu einem Arbeitselement im Workload Balancer zu verwalten, können Sie jetzt auf das Arbeitselement doppelklicken. Sie können auch weiterhin die Menüoption Zuordnungen bearbeiten verwenden. Außerdem müssen Sie die Anzeige von Zuordnungen nicht mehr aktivieren, um sie aktualisieren zu können.
 
-Informationen zum Verwalten von Zuordnungen im Arbeitslastausgleich finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+Informationen zum Verwalten von Zuweisungen im Workload Balancer finden Sie unter [Verwalten von Benutzerzuweisungen im Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).

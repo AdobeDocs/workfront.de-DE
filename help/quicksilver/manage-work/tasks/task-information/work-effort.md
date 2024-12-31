@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-information
-title: Übersicht über den Arbeitsaufwand
-description: Übersicht über den Arbeitsaufwand
+title: Work Effort - Übersicht
+description: Work Effort - Übersicht
 author: Alina
 feature: Work Management
 exl-id: 70f51e4b-43cc-427a-99e4-ebb056bb1070
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über den Arbeitsaufwand
+# Work Effort - Übersicht
 
 <!--Audited: 01/2024-->
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 (NOTE: Linked to the UI >> in the Project/ Template edit box > Tasks area> Learn more)
 -->
 
-Als Projektmanager können Sie entscheiden, wie Sie den für die Ausführung von Aufgaben in einem Projekt benötigten Arbeitsaufwand schätzen möchten. Schätzen Sie anhand eines der folgenden Indikatoren den für die Durchführung der Aufgaben erforderlichen Arbeitsaufwand:
+Als Projekt-Manager können Sie entscheiden, wie Sie den Arbeitsaufwand schätzen möchten, den Aufgaben in einem Projekt erledigen. Schätzen Sie den Arbeitsaufwand für die Durchführung von Aufgaben anhand eines der folgenden Indikatoren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,36 +30,36 @@ Als Projektmanager können Sie entscheiden, wie Sie den für die Ausführung von
  <tbody> 
   <tr> 
    <td role="rowheader">Geplante Stunden</td> 
-   <td> <p> Ein manueller numerischer Eintrag oder eine Adobe Workfront-Berechnung, die anzeigt, wie viele Stunden es dauern würde, bis die einer Aufgabe zugewiesenen Ressourcen abgeschlossen sind. </p> <p>Beachten Sie Folgendes zu geplanten Stunden: </p> 
+   <td> <p> Ein manueller numerischer Eintrag oder eine Adobe Workfront-Berechnung, die die Anzahl der Stunden anzeigt, die für die Fertigstellung einer Aufgabe durch die einer Aufgabe zugewiesenen Ressourcen erforderlich wären. </p> <p>Beachten Sie Folgendes zum Thema „Geplante Stunden“: </p> 
     <ul> 
      <li>Dies ist die Standardmethode. </li> 
-     <li>Sie können geplante Stunden nur für Aufgaben mit dem Typ "Berechnete Zuweisung"oder "Einfach"manuell aktualisieren. </li> 
-    </ul> <p>Informationen zu geplanten Stunden finden Sie unter <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Übersicht über geplante Stunden</a>. </p> </td> 
+     <li>Geplante Stunden können nur für Aufgaben mit dem Dauertyp „Berechnete Zuweisung“ oder „Einfach“ manuell aktualisiert werden. </li> 
+    </ul> <p>Informationen zu den geplanten Stunden finden Sie unter <a href="../../../manage-work/tasks/task-information/planned-hours.md" class="MCXref xref">Übersicht über die geplanten Stunden</a>. </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Work Effort </td> 
-   <td> <p>Eine manuelle Bezeichnung, die definiert, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand für die Ausführung einer Aufgabe benötigt. <!--
+   <td> <p>Eine manuelle Beschriftung, die definiert, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen. <!--
       <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
        The level of effort is estimated to be a percentage of the daily amount of working time. (NOTE: keep this drafted. Vazgen said it's not needed, but waiting for feedback from users)
       </MadCap:conditionalText>
-     --> </p> <p>Beachten Sie Folgendes zum Arbeitsaufwand:</p> 
+     --> </p> <p>Beachten Sie Folgendes zum Work Effort:</p> 
     <ul> 
      <li>Dieses Feld ist nur für Aufgaben mit dem Typ Einfache Dauer verfügbar. </li> 
-     <li>Sie können die Verwendung dieses Titels aktivieren und den Prozentsatz der damit verbundenen Arbeitszeit auf Projektebene definieren. </li> 
+     <li>Sie können die Verwendung dieser Kennzeichnung aktivieren und den Prozentsatz der damit verbundenen Arbeitszeit auf Projektebene definieren. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-In diesem Artikel wird beschrieben, was Arbeitsaufwand ist und wie Sie es bei der Schätzung des Arbeitsaufwands für Ihre Aufgaben verwenden sollten.
+In diesem Artikel wird beschrieben, was Work Effort ist und wie Sie ihn zur Schätzung des Arbeitsaufwands für Ihre Aufgaben verwenden sollten.
 
 >[!NOTE]
 >
->Geplante Stunden und Arbeitsaufwand beeinflussen einander. Durch die Aktualisierung der geplanten Stunden kann der Arbeitsaufwand aktualisiert werden, und durch die Aktualisierung des Arbeitsaufwands können die geplanten Stunden der Aufgabe aktualisiert werden.
+>Geplante Stunden und Arbeitsaufwand beeinflussen sich gegenseitig. Durch die Aktualisierung der geplanten Stunden kann der Arbeitsaufwand aktualisiert werden, während durch die Aktualisierung des Arbeitsaufwands die geplanten Stunden der Aufgabe aktualisiert werden können.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -68,8 +68,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -84,63 +84,63 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt und dessen Aufgaben verwalten</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für ein Projekt und dessen Aufgaben</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Überlegungen zur Verwendung von Arbeitsaufwand
+## Überlegungen zur Verwendung von Work Effort
 
-* Wenn die Projektaufgaben 0 geplante Stunden haben und Sie die Einstellung &quot;Arbeitsaufwand verwenden&quot;aktivieren, um die geplante Aufgabe für das Projekt automatisch zu berechnen, ist der ihnen zugeordnete Arbeitsaufwand standardmäßig Medium. Die Aufgaben &quot;Geplante Stunden&quot;werden automatisch für die einfache Dauer aktualisiert. Weitere Informationen finden Sie im Abschnitt [Arbeitsebenen](#levels-of-work-effort) in diesem Artikel.
-* Wenn für die Projektaufgaben geplante Stunden größer als 0 sind und Sie die Option &quot;Use Work Effort&quot;aktivieren, um die Einstellung für geplante Aufgaben im Projekt automatisch zu berechnen, wird der Arbeitsaufwand entsprechend der Anzahl der geplanten Stunden aktualisiert, ohne dass sich die Anzahl der geplanten Stunden für einfache Dauer ändert. Weitere Informationen finden Sie in diesem Artikel im Abschnitt [Wie Workfront Arbeitsaufwand basierend auf geplanten Stunden berechnet](#how-workfront-calculates-work-effort-based-on-planned-hours).
-* Wenn die Projektaufgaben 0 geplante Stunden haben und Sie die Option &quot;Use Work Effort&quot;aktivieren, um die für das Projekt geplante Aufgabe automatisch zu berechnen, und dann die Arbeitszeitebene von Medium auf &quot;Small&quot;oder &quot;Large&quot;aktualisieren, werden auch die geplanten Stunden aktualisiert. Weitere Informationen finden Sie im Abschnitt [Wie Workfront geplante Stunden basierend auf Arbeitsaufwand berechnet](#how-workfront-calculates-planned-hours-based-on-work-effort) in diesem Artikel.
-* Wenn Sie Aufgaben inline bearbeiten und gleichzeitig sowohl das Feld &quot;Geplante Stunden&quot;als auch das Feld &quot;Arbeitsaufwand&quot;für die Aufgabe ändern, werden die geplanten Stunden mit dem von Ihnen angegebenen Wert aktualisiert, während der Wert für Arbeitsaufwand auf der Grundlage der aktualisierten geplanten Stunden berechnet wird.
-* Wenn Sie den Arbeitsaufwand einer Aufgabe aktualisieren, wird die Dauer nicht mehr automatisch auf der Grundlage der geplanten Stunden berechnet. Weitere Informationen zur Berechnung der Dauer für Aufgaben mit einfacher Dauer finden Sie unter [Übersicht über den Dauer-Typ: Einfach](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
-* Wenn Sie die Dauer einer Aufgabe von &quot;Einfach&quot;in einen anderen Typ ändern, wird das Feld &quot;Arbeitsaufwand&quot;für die Aufgabe ausgeblendet. Die geplanten Stunden bleiben unverändert.
-* Sie können die Arbeitsaufwand-Ebene für eine übergeordnete Aufgabe nicht aktualisieren. Der Arbeitsaufwand für eine übergeordnete Aufgabe wird automatisch anhand der Anzahl der geplanten Stunden für die Aufgaben berechnet, bei denen es sich um eine Datenaggregation aller untergeordneten Aufgaben handelt. Weitere Informationen zu übergeordneten Aufgaben finden Sie unter [Unteraufgaben erstellen](../../../manage-work/tasks/create-tasks/create-subtasks.md).
+* Wenn die Projektaufgaben 0 geplante Stunden haben und Sie die Einstellung Work Effort verwenden aktivieren, um die geplanten Stunden für die Aufgabe automatisch für das Projekt zu berechnen, ist der standardmäßige Arbeitsaufwand, der ihnen zugeordnet ist, Medium. Die „Geplante Stunden“ werden für Aufgaben vom Typ „Einfache Dauer“ automatisch aktualisiert. Weitere Informationen finden Sie im Abschnitt [Arbeitsaufwand](#levels-of-work-effort) in diesem Artikel.
+* Wenn die Projektaufgaben über Stunden verfügen, die größer als 0 sind, und Sie die Einstellung Work Effort verwenden aktivieren, um die geplanten Stunden für die Aufgabe automatisch für das Projekt zu berechnen, wird die Arbeitsaufwand-Ebene entsprechend der Anzahl der geplanten Stunden aktualisiert, ohne dass der Betrag der geplanten Stunden für Aufgaben vom Typ „Einfache Dauer“ geändert wird. Weitere Informationen finden Sie im Abschnitt [Wie Workfront den Arbeitsaufwand anhand der geplanten Stunden berechnet](#how-workfront-calculates-work-effort-based-on-planned-hours) in diesem Artikel.
+* Wenn die Projektaufgaben 0 Geplante Stunden aufweisen und Sie die Einstellung Work Effort verwenden aktivieren, um die geplanten Stunden für die Aufgabe automatisch für das Projekt zu berechnen, und dann den Arbeitsaufwand von Medium auf „Klein“ oder „Groß“ ändern, werden auch die geplanten Stunden aktualisiert. Weitere Informationen finden Sie im Abschnitt [Wie Workfront die geplanten Stunden basierend auf dem Arbeitsaufwand berechnet](#how-workfront-calculates-planned-hours-based-on-work-effort) in diesem Artikel.
+* Wenn Sie Aufgaben inline bearbeiten und gleichzeitig die Felder „Geplante Stunden“ und „Arbeitsaufwand“ für die Aufgabe ändern, werden die geplanten Stunden mit dem von Ihnen angegebenen Wert aktualisiert, während der Wert für „Arbeitsaufwand“ auf der Grundlage Ihrer aktualisierten geplanten Stunden berechnet wird.
+* Wenn Sie den Work Effort-Wert einer Aufgabe aktualisieren, wird die Dauer nicht mehr automatisch auf der Grundlage der geplanten Stunden berechnet. Weitere Informationen zur Berechnung der Dauer für Aufgaben mit einfacher Dauer finden Sie unter [Duration Type overview: Simple](../../../manage-work/tasks/taskdurtn/simple-duration-type.md).
+* Wenn Sie den Dauertyp einer Aufgabe von „Einfach“ in einen anderen Typ ändern, wird das Work Effort-Feld in der Aufgabe ausgeblendet. Die geplanten Stunden bleiben unverändert.
+* Sie können die Work Effort-Ebene für eine übergeordnete Aufgabe nicht aktualisieren. Der Work Effort Level für eine übergeordnete Aufgabe wird automatisch auf Basis der geplanten Stunden für die Aufgaben berechnet, wobei es sich um eine Zusammenfassung aller untergeordneten Aufgaben handelt. Informationen zu übergeordneten Aufgaben finden Sie unter [Unteraufgaben erstellen](../../../manage-work/tasks/create-tasks/create-subtasks.md).
 
-## Aktivieren Sie die Verwendung von Arbeitsaufwand anstelle von geplanten Stunden.
+## Work Effort anstelle von „Geplante Stunden“ aktivieren
 
-1. Wechseln Sie zu einem Projekt, klicken Sie auf das Menü **Mehr** ![](assets/more-icon.png) und dann auf **Bearbeiten**.
-1. Klicken Sie auf **Aufgabeneinstellungen** und wählen Sie dann die Option **Arbeitsaufwand verwenden, um die geplanten Aufgaben automatisch zu berechnen**. Diese Option ist standardmäßig deaktiviert.
+1. Gehen Sie zu einem Projekt und klicken Sie auf das **Mehr**-![](assets/more-icon.png) und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie auf **Aufgabeneinstellungen** und wählen Sie dann die Option **Work Effort verwenden , um die geplanten Stunden für die Aufgabe automatisch zu berechnen**. Diese Option ist standardmäßig deaktiviert.
 
    ![](assets/nwe-work-effort-on-projects-350x182.png)
 
-   Weitere Informationen zum Aktivieren der Verwendung von Work Effort für ein Projekt finden Sie im Abschnitt &quot;Aufgabeneinstellungen&quot;im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md) .
+   Weiterführende Informationen dazu, wie Sie Work Effort für ein Projekt aktivieren, finden Sie im Abschnitt „Aufgabeneinstellungen“ im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Klicken Sie im linken Bereich auf **Aufgaben** und dann auf den Namen einer Aufgabe, um darauf zuzugreifen.
-1. Klicken Sie auf das Menü **Mehr** ![](assets/more-icon.png) und dann auf **Bearbeiten**. Stellen Sie sicher, dass die Aufgabe einen einfachen Dauerhaltungstyp aufweist.
+1. Klicken Sie **linken** auf „Aufgaben“ und dann auf den Namen einer Aufgabe, um darauf zuzugreifen.
+1. Klicken Sie auf die ![](assets/more-icon.png) **Mehr** und dann auf **Bearbeiten**. Stellen Sie sicher, dass die Aufgabe einen einfachen Dauertyp aufweist.
 
    >[!TIP]
    >
-   >Sie können den Arbeitsaufwand für eine Aufgabe auch im Abschnitt Aufgabendetails aktualisieren.
+   >Sie können den Work Effort für eine Aufgabe auch im Abschnitt „Aufgabendetails“ aktualisieren.
 
-1. Klicken Sie im Bereich **Überblick** auf das Dropdown-Menü &quot;Arbeitsaufwand&quot;, um den für den Abschluss der Aufgabe erforderlichen Aufwand zu korrigieren.
+1. Klicken Sie im Bereich **Übersicht** auf das Dropdown-Menü Work Effort , um den für die Ausführung der Aufgabe erforderlichen Arbeitsaufwand zu korrigieren.
 
    ![](assets/work-effort-on-edit-task-page-350x239.png)
 
-   Weitere Informationen zum Aktualisieren des Felds &quot;Arbeitsaufwand&quot;für eine Aufgabe finden Sie in den folgenden Artikeln:
+   Weitere Informationen zum Aktualisieren des Work Effort-Felds in einer Aufgabe finden Sie in den folgenden Artikeln:
 
-   * Der Abschnitt &quot;Übersicht&quot;im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
-   * [Verwalten von Aufgabeninformationen im Bereich &quot;Aufgabendetails - Übersicht&quot;](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+   * Der Abschnitt „Übersicht“ im Artikel [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
+   * [Verwalten von Aufgabeninformationen im Bereich „Aufgabendetails - Übersicht“](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
 
-## Arbeitsumfang {#levels-of-work-effort}
+## Arbeitsaufwand {#levels-of-work-effort}
 
-Als Projektmanager können Sie drei Arbeitsebenen für Ihre Projekte identifizieren. Jede Aufwandsstufe entspricht einem Prozentsatz der täglichen Zeit, die Benutzer zum Abschließen der Aufgabe benötigen.
+Als Projekt-Manager können Sie drei Arbeitsebenen für Ihre Projekte identifizieren. Jeder Aufwand entspricht einem Prozentsatz der täglichen Zeit, die Benutzende benötigen, um die Aufgabe abzuschließen.
 
-Beim Einrichten des Arbeitsaufwands müssen Sie sich die Frage stellen: &quot;Wie viel Zeit sollte ein Benutzer dieser Aufgabe täglich zuweisen, um sie rechtzeitig zu erledigen?&quot;
+Beim Einrichten des Arbeitsaufwands müssen Sie sich die Frage stellen: „Wie viel Zeit sollte ein Benutzer, der dieser Aufgabe zugewiesen ist, täglich darauf verwenden, um sie rechtzeitig zu erledigen?“
 
-Die folgende Tabelle zeigt die möglichen Stufen des Arbeitsaufwands und die entsprechenden Standardprozentsätze. Als Projektmanager können Sie die Prozentsätze entsprechend den Anforderungen Ihres Unternehmens aktualisieren. Dies erfolgt beim Bearbeiten eines Projekts. Weitere Informationen zum Bearbeiten von Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+Die folgende Tabelle zeigt den möglichen Arbeitsaufwand und die entsprechenden Standardprozentsätze. Als Projekt-Manager können Sie die Prozentsätze an die Bedürfnisse Ihrer Organisation anpassen. Dies geschieht beim Bearbeiten eines Projekts. Informationen zum Bearbeiten von Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-Als Workfront-Administrator definieren Sie die typischen Arbeitszeiten pro Arbeitstag im Bereich &quot;Projekteinstellungen&quot;von &quot;Einrichtung&quot;. Dies ist die tägliche Arbeitszeit, die als Arbeitszeit betrachtet wird. Informationen zum Konfigurieren von Projekteinstellungen für Ihre Instanz von Workfront finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Als Workfront-Administrator definieren Sie unter „Setup“ im Bereich „Projektvoreinstellungen“ die Anzahl der typischen Arbeitsstunden pro Arbeitstag. Dies ist die tägliche Arbeitszeit, die als Arbeitszeit gilt. Informationen zum Konfigurieren von Projektvoreinstellungen für Ihre Workfront-Instanz finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 >[!NOTE]
 >
->In den folgenden Beispielen gehen wir davon aus, dass der Workfront-Administrator die typischen Arbeitsstunden pro Arbeitstag auf 8 Stunden festgelegt hat.
+>In den folgenden Beispielen gehen wir davon aus, dass der Workfront-Administrator die typischen Stunden pro Arbeitstag auf 8 Stunden festgelegt hat.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -152,42 +152,42 @@ Als Workfront-Administrator definieren Sie die typischen Arbeitszeiten pro Arbei
   </tr> 
   <tr> 
    <td>Klein </td> 
-   <td>Ein geringer Aufwand für das Abschließen einer Aufgabe ist auf 25 % der typischen Arbeitsstunden pro Arbeitstag festgelegt. Dies bedeutet, dass eine Aufgabe, der diese Arbeitsbelastung zugewiesen wurde, bis zu zwei Stunden am Tag in einem Tag abgeschlossen sein sollte. <code>(0.25*8=2)</code></td> 
+   <td>Ein geringer Aufwand zum Erledigen einer Aufgabe ist auf 25 % der typischen Stunden pro Arbeitstag festgelegt. Das bedeutet, dass es bei einer Aufgabe mit diesem Arbeitsaufwand bis zu 2 Stunden pro Tag dauern sollte, bis sie an einem Tag erledigt ist. <code>(0.25*8=2)</code></td> 
   </tr> 
   <tr> 
    <td>Mittel</td> 
-   <td> <p>Der Arbeitsaufwand in Medium zum Ausführen einer Aufgabe wird auf 50 % der typischen Arbeitsstunden pro Arbeitstag festgelegt. Dies bedeutet, dass eine Aufgabe, der dieser Arbeitsaufwand zugewiesen wird, mehr als 2 bis weniger als 6 Stunden in Anspruch nehmen sollte, um sie an einem Tag abzuschließen. <code>(0.50*80=4)</code> </p> <p>Hinweis: Wenn die Einstellung "Arbeitsaufwand zur automatischen Berechnung der geplanten Aufgaben verwenden"für das Projekt aktiviert ist, ist dies die Standardeinstellung für eine Aufgabe, wenn für die Aufgabe vor Aktivierung dieser Einstellung 0 geplante Stunden vorgesehen waren. Dadurch wird die Aufgabe Geplante Stunden auf 4 Stunden aktualisiert. </p> </td> 
+   <td> <p>Der Aufwand für die Erfüllung einer Aufgabe in Medium beträgt 50 % der typischen Arbeitszeit pro Arbeitstag. Das bedeutet, dass es bei einer Aufgabe mit diesem Arbeitsaufwand mehr als 2 und weniger als 6 Stunden dauern sollte, bis sie an einem Tag erledigt ist. <code>(0.50*80=4)</code> </p> <p>Hinweis: Wenn die Einstellung Work Effort zur automatischen Berechnung der geplanten Stunden für die Aufgabe verwenden für das Projekt aktiviert ist, ist dies die Standardeinstellung für eine Aufgabe, wenn die Aufgabe 0 geplante Stunden hatte, bevor diese Einstellung aktiviert wurde. Dies führt dazu, dass die geplanten Stunden für die Aufgabe auf 4 Stunden aktualisiert werden. </p> </td> 
   </tr> 
   <tr> 
    <td>Groß</td> 
-   <td>Ein großer Aufwand für das Abschließen einer Aufgabe ist auf 75 % der typischen Arbeitsstunden pro Arbeitstag festgelegt. Dies bedeutet, dass eine Aufgabe, der diese Arbeitsleistung zugewiesen wurde, innerhalb eines Tages mindestens sechs Stunden dauern sollte, bis sie abgeschlossen ist. <code>(0.75*8=6)</code></td> 
+   <td>Ein hoher Aufwand für die Ausführung einer Aufgabe wird auf 75 % der typischen Stunden pro Arbeitstag festgelegt. Das bedeutet, dass es 6 Stunden oder mehr dauern sollte, bis eine Aufgabe mit diesem Arbeitsaufwand an einem Tag erledigt ist. <code>(0.75*8=6)</code></td> 
   </tr> 
  </tbody> 
 </table>
 
-## Berechnung der geplanten Arbeitsstunden durch Workfront auf der Grundlage der Arbeitsbelastung {#how-workfront-calculates-planned-hours-based-on-work-effort}
+## Wie Workfront die geplanten Stunden basierend auf dem Work Effort berechnet {#how-workfront-calculates-planned-hours-based-on-work-effort}
 
-Wenn Sie die Einstellung &quot;Arbeitsaufwand verwenden&quot;aktivieren, um Aufgaben, die für ein Projekt geplant sind, automatisch zu berechnen, berechnet Workfront die Anzahl der geplanten Stunden für eine Aufgabe mit dem Typ Einfache Dauer anhand der folgenden Formel:
+Wenn Sie die Einstellung Work Effort zum automatischen Berechnen der geplanten Stunden für eine Aufgabe in einem Projekt verwenden, berechnet Workfront die Anzahl der geplanten Stunden für eine Aufgabe mit einem einfachen Dauertyp anhand der folgenden Formel:
 
 ```
 Task Planned Hours = Number of days in task Duration * Work Effort percentage * Typical hours per work day
 ```
 
-Beispielsweise hat eine Aufgabe mit einer Dauer von 3 Tagen und einer Arbeitsaufgabe von Medium 12 geplante Stunden:
+Eine Aufgabe mit einer Dauer von 3 Tagen und einem Arbeitsaufwand von Medium hat beispielsweise 12 geplante Stunden:
 
 ```
 Planned Hours = 3*4=12
 ```
 
-wobei der typische Wert für Stunden pro Arbeitstag 8 Stunden beträgt.
+wobei der Wert für „Typische Stunden pro Arbeitstag“ 8 Stunden beträgt.
 
 >[!TIP]
 >
->Wenn eine Aufgabe mehreren Ressourcen zugewiesen wird, werden die geplanten Stunden für jeden Tag der Dauer der Aufgabe gleichmäßig auf jede Ressource verteilt.
+>Wenn ein Vorgang mehreren Ressourcen zugewiesen wird, werden die geplanten Stunden für jeden Tag der Aufgabendauer gleichmäßig auf jede Ressource verteilt.
 
-## Berechnung des Arbeitsaufwands durch Workfront auf der Grundlage geplanter Arbeitszeiten {#how-workfront-calculates-work-effort-based-on-planned-hours}
+## Wie Workfront den Arbeitsaufwand anhand der geplanten Stunden berechnet {#how-workfront-calculates-work-effort-based-on-planned-hours}
 
-Wenn Sie die Einstellung &quot;Arbeitsaufwand verwenden&quot;aktivieren, um Aufgaben, die für ein Projekt geplant sind, automatisch zu berechnen, und Sie bereits über geplante Stunden für die Aufgabe verfügen oder die Anzahl der geplanten Stunden für die Aufgabe bearbeiten, aktualisiert Workfront den Wert für Arbeitsaufwand.
+Wenn Sie die Einstellung Work Effort verwenden aktivieren, um die geplanten Stunden für eine Aufgabe automatisch zu berechnen, und bereits geplante Stunden für die Aufgabe vorhanden sind, oder die Anzahl der geplanten Stunden für die Aufgabe bearbeiten, aktualisiert Workfront den Work Effort-Wert.
 
 Workfront verwendet die folgende Formel, um den Arbeitsaufwand entsprechend den geplanten Stunden zu aktualisieren:
 
@@ -195,7 +195,7 @@ Workfront verwendet die folgende Formel, um den Arbeitsaufwand entsprechend den 
 Work Effort level = Task Planned Hours / Duration / Typical hours per work day
 ```
 
-Wenn Sie beispielsweise eine Aufgabe mit einer Dauer von 2 Tagen haben und die geplanten Stunden von 8 auf 20 Stunden aktualisieren, wird der Arbeitsaufwand für die Aufgabe von Medium auf &quot;Groß&quot;aktualisiert:
+Wenn Sie beispielsweise eine Aufgabe mit einer Dauer von 2 Tagen haben und die geplanten Stunden von 8 auf 20 Stunden aktualisieren, wird der Arbeitsaufwand für die Aufgabe von Medium auf „Groß“ aktualisiert:
 
 ```
 Work Effort level = 20 / 2 / 8 = 125 % = Large
@@ -203,19 +203,19 @@ Work Effort level = 20 / 2 / 8 = 125 % = Large
 
 ## Arbeitsaufwand für Aufgaben und Projekte suchen
 
-* [Arbeitsaufwand für Projekte](#work-effort-for-projects)
-* [Arbeitsaufwand für Aufgaben](#work-effort-for-tasks)
+* [Work Effort für Projekte](#work-effort-for-projects)
+* [Work Effort für Aufgaben](#work-effort-for-tasks)
 
-### Arbeitsaufwand für Projekte {#work-effort-for-projects}
+### Work Effort für Projekte {#work-effort-for-projects}
 
-Sie finden den Abschnitt &quot;Arbeitsaufwand&quot;für ein Projekt in folgendem Bereich:
+Sie können den Abschnitt Work Effort (Arbeitsaufwand) eines Projekts in folgendem Bereich suchen:
 
-* Bereich &quot;Aufgabeneinstellungen&quot;im Feld &quot;Projekt bearbeiten&quot;
+* Der Bereich Aufgabeneinstellungen im Feld Projekt bearbeiten
 
-### Arbeitsaufwand für Aufgaben {#work-effort-for-tasks}
+### Work Effort für Aufgaben {#work-effort-for-tasks}
 
-Sie können das Feld &quot;Arbeitsaufwand&quot;für eine Aufgabe in den folgenden Bereichen finden:
+Sie können das Work Effort -Feld für eine Aufgabe in den folgenden Bereichen suchen:
 
-* Der Übersichtsbereich im Feld &quot;Aufgabe bearbeiten&quot;
-* Der Übersichtsbereich des Abschnitts &quot;Aufgabendetails&quot;im Arbeitszeitbereich
+* Der Bereich Überblick im Feld Aufgabe bearbeiten
+* Der Bereich „Übersicht“ im Abschnitt „Aufgabendetails“ im Arbeitszeitbereich
 * Aufgabenliste oder Bericht

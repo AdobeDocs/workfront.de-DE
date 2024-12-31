@@ -1,6 +1,6 @@
 ---
 title: 'Felder: Artikelindex'
-description: Sie können neue Felder in der Adobe Workfront-Planung hinzufügen, die den Lebenszyklus Ihres Unternehmens widerspiegeln. Felder sind Attribute von Datensatztypen.
+description: Sie können in Adobe Workfront Planning neue Felder hinzufügen, die den Lebenszyklus Ihres Unternehmens widerspiegeln. Felder sind Attribute von Datensatztypen.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -22,14 +22,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren. In der Workfront-Planung können Sie die Architektur Ihrer Workflows vollständig anpassen, einschließlich des Hinzufügens benutzerdefinierter Felder für alle von Ihnen erstellten benutzerdefinierten Datensatztypen.
+Als Leiter von Marketing-Abläufen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus hinweg für alle Ihre Teams organisieren. In Workfront Planning können Sie die Architektur Ihrer Workflows vollständig anpassen, einschließlich des Hinzufügens benutzerdefinierter Felder für alle benutzerdefinierten Datensatztypen, die Sie erstellen.
 
-In den folgenden Artikeln wird beschrieben, wie Sie Workfront-Planungsfelder erstellen und konfigurieren können:
+In den Artikeln in den folgenden Abschnitten wird beschrieben, wie Sie Workfront Planning-Felder erstellen und konfigurieren können:
 
 * [Feldübersicht](/help/quicksilver/planning/fields/fields-overview.md)
 * [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md)
-  <span class="preview">[Importieren von Feldern aus Adobe Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md)</span>
-* [Feldeinstellungen bearbeiten](/help/quicksilver/planning/fields/edit-fields.md)
+  <span class="preview">[Felder aus Adobe Workfront importieren](/help/quicksilver/planning/fields/import-fields-from-workfront.md)</span>
+* [Bearbeiten von Feldeinstellungen](/help/quicksilver/planning/fields/edit-fields.md)
 * [Felder löschen](/help/quicksilver/planning/fields/delete-fields.md)
 * [Formelfelder](/help/quicksilver/planning/fields/formula-fields.md)
-* [Primäre Feldübersicht](/help/quicksilver/planning/fields/primary-field-overview.md)
+* [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md)

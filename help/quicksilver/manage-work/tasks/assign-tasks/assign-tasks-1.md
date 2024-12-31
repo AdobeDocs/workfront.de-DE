@@ -2,8 +2,8 @@
 content-type: reference
 product-area: projects;user-management
 navigation-topic: tasks
-title: Aufgaben zuweisen
-description: Aufgabenzuweisungen können in Adobe Workfront auf unterschiedliche Weise verwaltet werden. In den Methoden in diesem Abschnitt werden die verschiedenen Möglichkeiten beschrieben, wie Sie Benutzern, Teams und Auftragsrollen Aufgaben zuweisen können.
+title: Zuweisen von Aufgaben
+description: Aufgabenzuweisungen können in Adobe Workfront auf verschiedene Weise verwaltet werden. Die Methoden in diesem Abschnitt beschreiben die verschiedenen Möglichkeiten, wie Sie Benutzern, Teams und Aufgabengebieten Aufgaben zuweisen können.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -17,19 +17,19 @@ ht-degree: 0%
 
 # Aufgaben zuweisen
 
-Aufgabenzuweisungen können in Adobe Workfront auf unterschiedliche Weise verwaltet werden. In den Methoden in diesem Abschnitt werden die verschiedenen Möglichkeiten beschrieben, wie Sie Benutzern, Teams und Auftragsrollen Aufgaben zuweisen können.
+Aufgabenzuweisungen können in Adobe Workfront auf verschiedene Weise verwaltet werden. Die Methoden in diesem Abschnitt beschreiben die verschiedenen Möglichkeiten, wie Sie Benutzern, Teams und Aufgabengebieten Aufgaben zuweisen können.
 
 >[!NOTE]
 >
->Das Zuweisen von Aufgaben und das Zuweisen von Problemen sind in Workfront ähnlich.
+>Die Zuweisung von Aufgaben und die Zuweisung von Problemen ist in Workfront ähnlich.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über die Änderung von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
+* [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md)
 * [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md)
 * [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
-* [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
 * [Smart-Zuweisungen vornehmen](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
 * [Ändern mehrerer Benutzerzuweisungen in einer Aufgabenliste](../../../manage-work/tasks/assign-tasks/modify-multiple-assignments-in-task-list.md)
-* [Verwalten der Benutzer- und Rollenzuordnungsstunden für Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
-* [Verwalten des Prozentsatzes für Benutzer- oder Rollenzuweisung für Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)
+* [Verwalten von Stunden für die Zuordnung von Benutzern und Rollen zu Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-hours-on-tasks.md)
+* [Verwalten des Prozentsatzes der Benutzer- oder Rollenzuweisung bei Aufgaben](../../../manage-work/tasks/assign-tasks/manage-allocation-percentage-on-tasks.md)

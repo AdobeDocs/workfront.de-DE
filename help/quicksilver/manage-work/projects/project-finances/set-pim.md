@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Leistungsindex-Methode (PIM) festlegen
-description: Die Leistungsindex-Methode (PIM) für das Projekt steuert die Methode, die Adobe Workfront zur Berechnung von Projektleistungsmetriken verwendet, z. B. den Kosten Performance Index (CPI), den Cost Schedule Performance Index (CSI), Schedule Performance Index (SPI) und Estimate At Completion (EAC).
+title: Festlegen der Performance-Index-Methode (PIM)
+description: Die Leistungsindexmethode (PIM) für das Projekt steuert die Methode, die Adobe Workfront verwendet, um Projektleistungsmetriken wie Kostenentwicklungsindex (Cost Performance Index, CPI), Kostenplanleistungsindex (Cost Schedule Performance Index, CSI), Zeitplan-Leistungsindex (SPI) und Schätzung bei Abschluss (EAC) zu berechnen.
 author: Lisa
 feature: Work Management
 exl-id: de628881-c016-4521-bc33-3bcfba19a88f
@@ -13,9 +13,9 @@ ht-degree: 1%
 
 ---
 
-# Leistungsindex-Methode (PIM) festlegen
+# Festlegen der Performance-Index-Methode (PIM)
 
-Die Leistungsindex-Methode (PIM) für das Projekt steuert die Methode, die Adobe Workfront zur Berechnung von Projektleistungsmetriken verwendet, z. B. den Kosten Performance Index (CPI), den Cost Schedule Performance Index (CSI), Schedule Performance Index (SPI) und Estimate At Completion (EAC).
+Die Leistungsindexmethode (PIM) für das Projekt steuert die Methode, die Adobe Workfront verwendet, um Projektleistungsmetriken wie Kostenentwicklungsindex (Cost Performance Index, CPI), Kostenplanleistungsindex (Cost Schedule Performance Index, CSI), Zeitplan-Leistungsindex (SPI) und Schätzung bei Abschluss (EAC) zu berechnen.
 
 Workfront berechnet diese Werte wie folgt:
 
@@ -24,7 +24,7 @@ Workfront berechnet diese Werte wie folgt:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,8 +33,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -44,41 +44,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>Zugriff auf Projekte und Finanzdaten bearbeiten</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten der Finanzen</td> 
+   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Überlegungen zu PIM in Workfront
+## Überlegungen zum PIM in Workfront
 
-* Ihr Workfront-Administrator oder ein Gruppenadministrator legt die Standardeinstellung für fest, ob die Performance Index Method (PIM) stundenbasiert oder kostenbasiert sein soll. Die Berechnungen für die Leistungsmetriken ändern sich entsprechend der Einstellung dieses Standards. Weitere Informationen zum Ändern der Standardeinstellung für die Berechnung des PIM finden Sie unter [Konfigurieren der systemweiten Projektanvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-* Projektmanager können auch die Einstellung für PIM auf Projektebene für einzelne Projekte auf der Unterregisterkarte Finanzen des Projekts ändern. Sie müssen über Verwaltungsberechtigungen für das Projekt verfügen, um die Unterregisterkarte &quot;Finanzen&quot;des Projekts zu bearbeiten.
+* Ihr Workfront-Administrator oder ein Gruppenadministrator richtet den Standard ein, um festzulegen, ob die Leistungsindexmethode (PIM) stundenbasiert oder kostenbasiert sein soll. Die Berechnungen für die Leistungsmetriken ändern sich je nach Einstellung dieses Standardwerts. Weitere Informationen zum Ändern der Standardeinstellung für die Berechnung des PIM finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Projektmanager können auf Projektebene auch die Einstellung für das PIM für einzelne Projekte auf der Unterregisterkarte Finanzen des Projekts ändern. Sie müssen über Verwaltungsberechtigungen für das Projekt verfügen, um die Unterregisterkarte Finanzen des Projekts bearbeiten zu können.
 
-## Leistungsindex-Methode (PIM) für ein Projekt festlegen
+## Festlegen der Leistungsindexmethode (PIM) für ein Projekt
 
-1. Gehen Sie zu einem Projekt, dessen Eigentümer Sie sind.
+1. Wechseln Sie zu einem Projekt, dessen Besitzer Sie sind.
 
    >[!IMPORTANT]
    >
-   >Für die folgenden Schritte benötigen Sie die Berechtigung zum Verwalten des Projekts. Wir empfehlen auch, dass nur der Projekteigentümer Änderungen am Finanzbereich des Projekts vornehmen sollte.
+   >Sie müssen Berechtigungen verwalten für das Projekt, um die folgenden Schritte ausführen zu können. Wir empfehlen auch, dass nur der Projektinhaber Änderungen am Finanzierungsbereich des Projekts vornehmen sollte.
 
-1. Klicken Sie im linken Bereich auf **Projektdetails** und gehen Sie dann zum Bereich **Finanzen** .
-1. Doppelklicken Sie auf den Wert im Feld **Leistungsindex-Methode** , um ihn zu bearbeiten.
-1. Wählen Sie aus den folgenden Optionen im Feld **Leistungsindex-Methode** aus:
+1. Klicken Sie **linken Bereich auf** Projektdetails“ und navigieren Sie dann zum Bereich **Finanzen**.
+1. Doppelklicken Sie auf den Wert im Feld **Leistungsindexmethode**, um ihn zu bearbeiten.
+1. Wählen Sie im Feld **Leistungsindexmethode“ eine der folgenden** aus:
 
-   | Stundenbasiert | Workfront verwendet die geplanten Stunden zur Berechnung des CPI und des EAC des Projekts, und der EAC des Projekts wird als Zahl in Stunden angezeigt. |
+   | Stundenbasiert | Workfront berechnet den CPI und die EAC des Projekts anhand der geplanten Stunden. Die EAC des Projekts wird als eine Zahl in Stunden angezeigt. |
    |---|---|
-   | Kostenbasiert | Workfront verwendet die geplanten Arbeitskosten zur Berechnung des CPI und des EAC des Projekts, und der EAC wird als Währungswert angezeigt. Wenn Sie diese Option auswählen, stellen Sie sicher, dass Ihre Aufgabenverantwortlichen (Auftragsrollen oder Benutzer) den Kostenstellen zugeordnet sind. |
+   | Kostenbasiert | Workfront verwendet die geplanten Lohnkosten bei der Berechnung des CPI und der EAC des Projekts, und die EAC wird als Währungswert angezeigt. Wenn Sie diese Option auswählen, stellen Sie sicher, dass Ihre Aufgabenzugewiesenen (Aufgabengebiete oder Benutzer) mit Kostensätzen verknüpft sind. |
 
    {style="table-layout:auto"}
 
-1. Klicken Sie auf **Speichern** **Änderungen**.
+1. Klicken Sie **Speichern** **Änderungen**.

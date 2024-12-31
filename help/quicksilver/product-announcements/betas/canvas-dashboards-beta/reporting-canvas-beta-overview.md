@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: Reporting-Arbeitsfläche - Beta-Übersicht
-description: Informationen zum Betaprogramm für das bevorstehende Tool zur Berichtsarbeitsfläche für Adobe Workfront
+title: 'Reporting-Arbeitsfläche - Betaversion: Übersicht'
+description: Informationen zum Beta-Programm des kommenden Reporting-Canvas-Tools für Adobe Workfront
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
@@ -15,89 +15,89 @@ ht-degree: 1%
 
 ---
 
-# Reporting-Arbeitsfläche - Beta-Übersicht
+# Reporting-Arbeitsfläche - Betaversion: Übersicht
 
-## Berichtsarbeitsfläche
+## Reporting-Arbeitsfläche
 
-Eine komplette Neuerung der Berichterstellung in Workfront, dem neuen Tool für die Berichtsarbeitsfläche, befindet sich derzeit in der Entwicklung. Bei der Erstellung von Reporting-Arbeitsflächen haben wir hart daran gearbeitet, ein Erlebnis zu bieten, das maximale Flexibilität bietet, verbunden mit einem intuitiven, modularen Design, sodass Benutzer wie Sie Ihre eigenen Daten am effektivsten für die Erstellung und Freigabe von Berichten nutzen können. Durch einen neuen, einheitlichen Berichtstyp, mit dem Sie nahezu jedes Element auf eine grenzenlose Arbeitsfläche ziehen und ablegen können, wird die Erstellung eines visuellen Daten-Master-Elements bald einfacher denn je sein.
+Das neue Arbeitsflächen-Tool für Berichte in Workfront befindet sich derzeit in der Entwicklung. Bei der Gestaltung der Reporting-Arbeitsfläche haben wir uns sehr darum bemüht, ein Erlebnis bereitzustellen, das maximale Flexibilität in Kombination mit einem intuitiven, modularen Design bietet, sodass Benutzer wie Sie Ihre eigenen Daten am effektivsten bei der Erstellung und Freigabe von Berichten nutzen können. Durch einen neuen, einheitlichen Berichtstyp, mit dem Sie nahezu jedes Element auf eine unbegrenzte Arbeitsfläche ziehen und ablegen können, wird die Erstellung eines visuellen Daten-Meisterwerks bald einfacher sein als je zuvor.
 
-Dieser Artikel enthält Informationen zur aktuellen privaten Beta-Version, die auf bestimmte Kunden beschränkt ist. Neue Reporting-Arbeitsflächenfunktionen werden jetzt über Canvas-Dashboards bereitgestellt. Weitere Informationen finden Sie unten unter **Entwicklungsplan** .
+Dieser Artikel enthält Informationen zur aktuellen privaten Beta-Version, die auf bestimmte Kunden beschränkt ist. Neue Funktionen der Reporting-Arbeitsfläche werden jetzt über Arbeitsflächen-Dashboards bereitgestellt. Weitere Informationen finden **im** „Entwicklungsplan“.
 
 ### Entwicklungsplan
 
-Wir befinden uns in der letzten Phase der Lösung eines Problems mit der Datenqualität, das wir frühzeitig in der Beta-Phase der Reporting-Arbeitsfläche beobachtet haben. Wir werden in Kürze die Arbeit fortsetzen, um neue Visualisierungen bereitzustellen, die Auswahl der berichtspflichtigen Workfront-Objekte zu erweitern und die Erlebnisse bei der Berichterstellung und -verteilung zu verbessern, die allesamt von zentraler Bedeutung für die Erreichung unserer Ziele für die Reporting-Arbeitsfläche sind.
+Wir befinden uns in der letzten Phase der Behebung eines Datenqualitätsproblems, das wir am Anfang der Beta-Phase der Reporting-Arbeitsfläche beobachtet haben. Wir werden bald unsere Arbeit fortsetzen, um neue Visualisierungen bereitzustellen, die Auswahl an berichtspflichtigen Workfront-Objekten zu erweitern und die Berichterstellung und -verteilung zu verbessern, die alle von entscheidender Bedeutung für die Verwirklichung unserer Ziele für die Reporting-Arbeitsfläche sind.
 
-Wir werden diese neuen Erlebnisse schrittweise bereitstellen, beginnend mit Version 23.2, über die neue Seite &quot;Canvas-Dashboards&quot;, die jetzt in Ihrer Vorschau-Umgebung verfügbar ist. Mit Leinwanddashboards können Sie neben den neuen, von uns erstellten Berichtsfunktionen vorhandene Berichte anzeigen. Diese Funktion dient als primäre Umgebung für die Bereitstellung und Prüfung neuer Funktionen für die Berichtarbeitsfläche. Weitere Informationen zum Aktivieren und Verwenden von Canvas-Dashboards finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Wir stellen diese neuen Erlebnisse schrittweise bereit, beginnend mit Version 23.2, über die neue Seite „Canvas-Dashboards“, die jetzt in Ihrer Vorschau-Umgebung verfügbar ist. Arbeitsflächen-Dashboards ermöglichen es Ihnen, neben den neuen Berichtsfunktionen, die wir erstellen, vorhandene Berichte anzuzeigen. Sie dienen als primäre Umgebung für die Bereitstellung und das Testen neuer Funktionen für die Reporting-Arbeitsfläche. Weitere Informationen zur Aktivierung und Verwendung von Arbeitsflächen-Dashboards finden Sie unter [Arbeitsflächen-Dashboards - Übersicht](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
-## Beta-Teilnahme
+## Beta-Version verwenden
 
 >[!IMPORTANT]
 >
->Die unten stehenden Beta-Informationen richten sich an Administratoren, die bereits in der Beta-Version der Reporting-Arbeitsfläche enthalten waren und keine neuen Teilnehmer mehr akzeptieren. Wenn Sie neue Funktionen der Reporting-Arbeitsfläche testen möchten, während sie hinzugefügt werden, finden Sie oben unter **Entwicklungsplan** Informationen zur Aktivierung der Canvas-Dashboards.
+>Die folgenden Beta-Informationen richten sich an Administratoren, die bereits in die Beta-Version der Reporting-Arbeitsfläche aufgenommen wurden, welche keine neuen Teilnehmer mehr akzeptiert. Wenn Sie neue Funktionen der Reporting-Arbeitsfläche beim Hinzufügen testen möchten, finden Sie oben unter **Entwicklungsplan** Informationen zum Aktivieren von Arbeitsflächen-Dashboards.
 
 ### Verfügbarkeit
 
-Die Beta-Version der Reporting-Arbeitsfläche steht allen Unternehmen in AWS zur Verfügung, unabhängig von der Region.
+Die Beta-Version der Reporting-Arbeitsfläche steht allen Organisationen zur Verfügung, die sich in AWS befinden, unabhängig von der Region.
 
-### Betaversion
+### Beta-Version
 
 Die Beta-Version der Reporting-Arbeitsfläche ist vollständig optional, kann jedoch nur von einem Workfront-Administrator aktiviert werden. So melden Sie sich als Systemadministrator an:
 
-1. Wählen Sie im Hauptmenü Ihrer Workfront-Instanz das Symbol **Berichterstellung (Beta)** aus.
-1. Klicken Sie auf **Akzeptieren** , um die Bedingungen zu akzeptieren.
-1. Lassen Sie zu, dass die Daten Ihres Unternehmens der Berichtsarbeitsfläche hinzugefügt werden (dies kann bis zu einigen Stunden dauern).
-1. Verwendung der Berichtsarbeitsfläche.
+1. Wählen Sie **Hauptmenü Ihrer Workfront-Instanz das Symbol** Reporting (Betaversion) aus.
+1. Klicken Sie **Akzeptieren**, um die Nutzungsbedingungen zu akzeptieren.
+1. Zulassen, dass die Daten Ihres Unternehmens zur Reporting-Arbeitsfläche hinzugefügt werden (dies kann bis zu einigen Stunden dauern).
+1. Beginnen Sie mit der Verwendung der Reporting-Arbeitsfläche.
 
-Nachdem die Daten Ihres Unternehmens der Arbeitsfläche für die Berichterstellung hinzugefügt wurden, können andere Systemadministratoren auf die gleiche Weise individuelle Zugriffe auswählen (ohne darauf zu warten, dass die Daten erneut hinzugefügt werden).
+Nachdem die Daten Ihrer Organisation zur Reporting-Arbeitsfläche hinzugefügt wurden, können andere Systemadministratoren auf die gleiche Weise einzeln beitreten (ohne darauf zu warten, dass die Daten erneut hinzugefügt werden).
 
-So aktivieren Sie andere Benutzer, die keine Workfront-Administratoren sind:
+Opt-in für andere Benutzende, die keine Workfront-Administratoren sind:
 
-1. Wählen Sie im Hauptmenü Ihrer Workfront-Instanz das Symbol **Berichterstellung (Beta)** aus.
-1. Klicken Sie auf **Berechtigungen für die Berichtarbeitsfläche**.
-1. Suchen Sie nach bestimmten Benutzern, die Sie teilnehmen möchten, und wählen Sie sie aus.
+1. Wählen Sie **Hauptmenü Ihrer Workfront-Instanz das Symbol** Reporting (Betaversion) aus.
+1. Klicken Sie auf **Berichterstellungs-Arbeitsfläche - Berechtigungen**.
+1. Suchen Sie nach den Benutzern, an denen Sie teilnehmen möchten, und wählen Sie sie aus.
 
    >[!IMPORTANT]
    >
-   >Benutzer, denen Sie Zugriff auf die Berichtarbeitsfläche gewähren, haben - unabhängig von den Standardberechtigungen für die Anzeige dieser Daten - Zugriff auf **alle** Daten im System in schreibgeschützter Kapazität.
+   >Benutzer, denen Sie Zugriff auf die Reporting-Arbeitsfläche gewähren, haben unabhängig von ihren Standardberechtigungen zum Anzeigen **Daten** schreibgeschützt Zugriff auf alle Daten im System.
 
 1. Klicken Sie auf **Speichern**.
-1. Fügen Sie das Symbol **Berichterstellung (Beta)** in die Vorlage für das Hauptlayout jedes ausgewählten Benutzers ein. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
-1. Jeder Benutzer muss dann einzeln zum Symbol **Berichterstellung (Beta)** in seinem Hauptmenü navigieren und die Geschäftsbedingungen akzeptieren.
+1. Fügen Sie das Symbol **Reporting (Betaversion** in die Haupt-Layout-Vorlage jedes ausgewählten Benutzers ein. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+1. Jeder Benutzer muss dann einzeln zum Symbol **Reporting (Betaversion)** im Hauptmenü navigieren und die Nutzungsbedingungen akzeptieren.
 
 ### Feedback senden
 
-So senden Sie Feedback zur Beta-Version:
+Feedback zur Beta-Version senden:
 
-1. Klicken Sie auf der Berichtsarbeitsfläche in Workfront auf die Schaltfläche **Feedback senden** .
+1. Klicken Sie auf der Reporting-Arbeitsfläche in Workfront auf die Schaltfläche **Feedback senden**.
 1. Füllen Sie das Formular aus und klicken Sie dann auf **Senden**.
 
 ## Häufig gestellte Fragen zu Beta
 
-++ Kann ich meine alten Berichte auf die Berichtarbeitsfläche migrieren?
++++Kann ich meine alten Berichte zur Reporting-Arbeitsfläche migrieren?
 
-Kurz gesagt, die Migration von Legacy-Berichten ist während der Beta-Phase nicht verfügbar. Es handelt sich jedoch um eine geplante Funktion (mit einigen unten beschriebenen Einschränkungen) für den offiziellen Start.
+Kurz gesagt: Die Migration veralteter Berichte wird während der Beta-Phase nicht verfügbar sein. Es ist jedoch eine geplante Funktion (mit einigen Einschränkungen, die unten beschrieben werden) für den offiziellen Launch.
 
-Die Hürde zum Erstellen neuer Berichte wurde mit der Berichtsarbeitsfläche zwar erheblich verringert, wir wissen jedoch, dass die Übernahme einiger Ihrer vorhandenen Berichte und Dashboards den Adoptionsvorgang beschleunigen wird. Daher möchten wir die erforderlichen Tools und Ressourcen bereitstellen, um sicherzustellen, dass Sie alle relevanten Legacy-Elemente übernehmen können, um sicherzustellen, dass Sie in der Reporting-Arbeitsfläche auf dem richtigen Fuß beginnen. Da die Berichtsarbeitsfläche eine derart radikale Änderung an der Funktionsweise der aktuellen Berichterstellung darstellt, wäre es jedoch nicht möglich, jeden Bericht oder jedes Dashboard genau so zu migrieren, wie es heute der Fall ist.
+Auch wenn die Barriere für die Erstellung neuer Berichte durch die Reporting-Arbeitsfläche erheblich gesenkt wurde, wissen wir, dass die Übertragung einiger Ihrer vorhandenen Berichte und Dashboards dazu beitragen wird, den Annahmeprozess zu beschleunigen. Daher möchten wir die Tools und Ressourcen bereitstellen, die erforderlich sind, um sicherzustellen, dass Sie alle relevanten Legacy-Elemente übernehmen können, um sicherzustellen, dass Sie auf der Reporting-Arbeitsfläche mit dem richtigen Fuß beginnen. Da die Reporting-Arbeitsfläche eine so radikale Änderung der Funktionsweise des aktuellen Reportings darstellt, wäre es jedoch unmöglich, jeden Bericht oder jedes Dashboard genau so zu migrieren, wie es heute ist.
 
-Unsere aktuelle Migrationsstrategie in der offiziellen Version ermöglicht Ihnen Folgendes:
+Unsere aktuelle Migrationsstrategie in den offiziellen -Versionen ermöglicht Ihnen Folgendes:
 
 1. Relevante Berichte und Dashboards identifizieren
 
-   1. Sie erhalten die Möglichkeit, eine CSV-Datei mit allen Berichten und Dashboards im System zusammen mit allen relevanten Tracking-Informationen zu exportieren (Anzahl der Ansichten, wann und von wem).
-   1. Erstellen Sie einen Export von Berichten, die mit geplanten Sendungen mit den Empfängern eingerichtet wurden.
+   1. Ermöglicht den Export einer CSV-Datei aller Berichte und Dashboards im System zusammen mit allen relevanten Tracking-Informationen (Anzahl der Ansichten, Zeitpunkt und von wem).
+   1. Export von Berichten, die mit terminierten Sendungen eingerichtet wurden, zusammen mit den Empfängern bereitstellen
 
-1. Wählen Sie die Berichte und Dashboards aus, die Sie migrieren möchten, und klicken Sie dann auf **Migrieren** .
+1. Wählen Sie die zu migrierenden Berichte und Dashboards aus und klicken Sie auf **Migrieren**
 
-   Dies ist eine einmalige Migration. Es wird eine Kopie der ausgewählten Berichte und Dashboards auf die Berichtsarbeitsfläche erstellt, sodass der alte Bericht oder das Dashboard im aktuellen Reporting-Tool intakt bleiben.
+   Dies ist eine Einwegmigration. Dadurch wird eine Kopie der ausgewählten Berichte und Dashboards in die Reporting-Arbeitsfläche erstellt, sodass der alte Bericht oder das alte Dashboard im aktuellen Reporting-Tool intakt bleibt.
 
    Sie können denselben Bericht oder dasselbe Dashboard beliebig oft migrieren.
 
-1. Stellen Sie sicher, dass in der Berichtsarbeitsfläche alle ausgewählten Berichte und Dashboards migriert wurden.
+1. Stellen Sie in der Reporting-Arbeitsfläche sicher, dass alle ausgewählten Berichte und Dashboards migriert wurden.
 +++
 
-+++ Warum kann ich nicht alle Objekte sehen, die ich normalerweise mache?
++++Warum kann ich nicht alle Objekte sehen, die ich normalerweise mache?
 
-Um unseren Kunden die Beta so früh wie möglich bereitzustellen, haben wir sie nur mit einer Untergruppe der vielen Objekttypen veröffentlicht, die heute in Workfront verfügbar sind. Nachfolgend finden Sie die Objekttypen, die derzeit in der Beta-Version unterstützt werden:
+Um unseren Kunden die Beta-Version so früh wie möglich zur Verfügung zu stellen, haben wir sie nur mit einer Teilmenge der vielen heute in Workfront verfügbaren Objekttypen veröffentlicht. Im Folgenden finden Sie die derzeit in der Beta-Version unterstützten Objekttypen:
 
 * Zuweisung
 * Dokument
@@ -114,18 +114,18 @@ Um unseren Kunden die Beta so früh wie möglich bereitzustellen, haben wir sie 
 * Arbeitselement
 +++
 
-+++ Wenn während der Beta-Phase in der Arbeitsfläche für die Berichterstellung etwas schiefgeht, werden dann die Daten meiner Organisation betroffen sein?
++++Wenn während der Beta-Phase auf der Reporting-Arbeitsfläche ein Fehler auftritt, sind dann die Daten meiner Organisation betroffen?
 
-Nein. Die Beta-Version verwendet eine Kopie der Daten Ihres Unternehmens, die in die Arbeitsfläche für die Berichterstellung eingetragen sind. Dies bedeutet zwar, dass Sie während der Beta-Phase sicher experimentieren können, ohne dass die Gefahr besteht, dass wichtige Daten beeinträchtigt werden. Gleichzeitig bedeutet dies, dass die Inline-Bearbeitung von Daten in der Reporting-Arbeitsfläche bis zum offiziellen Start nicht verfügbar sein wird.
+Nein. Die Beta-Version verwendet eine Kopie der Daten Ihrer Organisation, die in die Reporting-Arbeitsfläche eingefügt wird. Das bedeutet, dass Sie zwar während der Beta-Phase sicher experimentieren können, ohne das Risiko, dass sich dies auf wichtige Daten auswirkt, es bedeutet aber auch, dass die Inline-Bearbeitung von Daten auf der Reporting-Arbeitsfläche bis zum offiziellen Start nicht verfügbar ist.
 +++
 
-+++ Kann ich mich von der Beta-Version abmelden, nachdem ich beigetreten bin?
++++Kann ich die Beta-Version deaktivieren, sobald ich Mitglied bin?
 
-Ein Workfront-Administrator kann die Beta-Version nicht deaktivieren. Es können jedoch Nicht-Systemadministratoren wie folgt entfernt werden:
+Ein Workfront-Administrator kann die Beta-Version nicht deaktivieren. Dagegen können Nicht-Systemadministratoren wie folgt entfernt werden:
 
 1. Melden Sie sich als Systemadministrator an.
-1. Navigieren Sie zur Berichtsarbeitsfläche.
-1. Klicken Sie auf Berichterstellungsarbeitsfläche **Berechtigungen**.
-1. Entfernen Sie die Benutzer, die Sie aus der Beta-Liste ausschließen möchten, aus der Liste, für die Sie sich angemeldet haben.
+1. Navigieren Sie zur Reporting-Arbeitsfläche.
+1. Klicken Sie auf Reporting-Arbeitsfläche **Berechtigungen**.
+1. Entfernen Sie die Benutzer, die Sie von der Beta-Version abmelden möchten, aus der Liste, die abgemeldet wurden.
 1. Klicken Sie auf **Speichern**.
 +++

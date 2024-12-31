@@ -2,8 +2,8 @@
 content-type: reference
 product-area: requests
 navigation-topic: requests-navigation-topic
-title: Erstellen und Verwalten von Anforderungswarteschlangen
-description: Sie können Anforderungswarteschlangen in Adobe Workfront erstellen, um ungeplante Arbeiten in Ihrem Unternehmen zu erfassen. In den folgenden Artikeln wird beschrieben, wie Sie Projekte so konfigurieren können, dass sie als Anforderungswarteschlangen funktionieren.
+title: Anfrage-Warteschlangen erstellen und verwalten
+description: Sie können Anfrage-Warteschlangen in Adobe Workfront erstellen, um ungeplante Arbeiten in Ihrem Unternehmen zu erfassen. In den folgenden Artikeln wird beschrieben, wie Sie Projekte so konfigurieren können, dass sie als Anforderungswarteschlangen funktionieren.
 author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 ---
 
-# Erstellen und Verwalten von Anforderungswarteschlangen
+# Anfrage-Warteschlangen erstellen und verwalten
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
+* [Anfrage-Warteschlange erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 * [Anforderungstypen für ein Projekt definieren](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md)
-* [Stellen Sie Zugriff auf Anforderungswarteschlangen bereit](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
+* [Zugriff auf Anfrage-Warteschlangen gewähren](../../../manage-work/requests/create-and-manage-request-queues/provide-access-to-request-queues.md)
 * [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md)
-* [Erstellen von Warteschlangenthemen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
-* [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+* [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md)
+* [Routingregeln erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
   <!--
   <li><a href="../../../manage-work/requests/create-and-manage-request-queues/queue-details-tab-overview.md" class="MCXref xref" xrefformat="{para}">Overview of the Queue Details tab in a project</a> </li>

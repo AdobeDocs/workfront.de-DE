@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint Overview: Früheste verfügbare Zeit"
-description: Die früheste verfügbare Zeit ist eine Aufgabenbegrenzung, mit der eine Aufgabe so geplant wird, dass sie zum frühestmöglichen Zeitpunkt nach Berücksichtigung von Vorgängerbeziehungen beginnt.
+title: 'Übersicht über die Aufgabenbeschränkung: Früheste verfügbare Zeit'
+description: Die früheste verfügbare Zeit ist eine Aufgabenbeschränkung, die eine Aufgabe so plant, dass sie zum frühestmöglichen verfügbaren Zeitpunkt beginnt, nachdem alle Vorgängerbeziehungen berücksichtigt wurden.
 author: Alina
 feature: Work Management
 exl-id: 9c01e4bd-c6ca-4540-a0f1-ecdd44df84e0
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Aufgabenbegrenzung - Übersicht über die früheste verfügbare Zeit
+# Übersicht über die Aufgabenbeschränkung: Früheste verfügbare Zeit
 
-Die früheste verfügbare Zeit ist eine Aufgabenbegrenzung, mit der eine Aufgabe so geplant wird, dass sie zum frühestmöglichen Zeitpunkt nach Berücksichtigung von Vorgängerbeziehungen beginnt.
+Die früheste verfügbare Zeit ist eine Aufgabenbeschränkung, die eine Aufgabe so plant, dass sie zum frühestmöglichen verfügbaren Zeitpunkt beginnt, nachdem alle Vorgängerbeziehungen berücksichtigt wurden.
 
-Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Informationen zum Aktualisieren der Aufgabenbeschränkung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbeschränkung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above) </p>
@@ -52,32 +52,32 @@ Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden 
    <li value="5" data-mc-conditions="QuicksilverOrClassic.Draft mode">Click <strong>Save Changes</strong>.</li>
    -->
 
-## Differenz zwischen der frühesten verfügbaren Zeit und so bald wie möglich
+## Die Differenz zwischen der frühesten verfügbaren Zeit und so bald wie möglich
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])</p>
 -->
 
-Die früheste Zeitbeschränkung unterscheidet sich von der so bald wie möglich geltenden Beschränkung, wenn alle folgenden Kriterien vorhanden sind:
+Die frühestmögliche verfügbare Zeitbeschränkung unterscheidet sich von der so bald wie möglich -Beschränkung, wenn alle folgenden Kriterien vorhanden sind:
 
-* Das Projekt wird nach Abschluss geplant
+* Das Projekt ist für den Abschluss geplant
 * Aufgaben im Projekt haben eine Vorgängerbeziehung
-* Die Vorgängeraufgabe hat eine flexible Aufgabenbegrenzung
+* Die Vorgängeraufgabe weist eine flexible Aufgabenbeschränkung auf
 
-In diesem Fall:
+In dieser Situation:
 
-* **Früheste verfügbare Zeit:** Durch Verwendung der Beschränkung &quot;Früheste verfügbare Zeit&quot;für die Nachfolgeaufgabe erhält die flexible Beschränkung des Vorgängers Priorität.
-
-  **BEISPIEL**
-
-  Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die früheste verfügbare Zeitbeschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird die Aufgabe B so kurz wie möglich am Ende des Projekts geplant.
-
-  ![Die früheste Zeitbeschränkung, wenn die Aufgabe die Daten nahe dem Abschlussdatum des Projekts hat](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
-
-* **Sobald wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So bald wie möglich für die Nachfolgeaufgabe der Nachfolgeaufgabe die Priorität der Nachfolgeaufgabe ein.
+* **Früheste verfügbare Zeit** Bei Verwendung der Zeitbeschränkung „Früheste verfügbare Zeit“ für die Nachfolgeaufgabe wird der flexiblen Zeitbeschränkung des Vorgängers Priorität eingeräumt.
 
   **BEISPIEL**
 
-  Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat so bald wie möglich die Beschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird Aufgabe B so nahe wie möglich am Projektstart geplant.
+  Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die frühestmögliche verfügbare Zeitbeschränkung und Aufgabe A hat die so spät wie möglich-Beschränkung. In diesem Fall wird Aufgabe B so nah wie möglich am Abschluss des Projekts geplant.
 
-  ![Sobald wie möglich Beschränkung, wenn die Aufgabe die Daten nahe dem Startdatum des Projekts hat](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)
+  ![Früheste verfügbare Zeitbeschränkung, wenn die Termine der Aufgabe nahe am Abschlussdatum des Projekts liegen](assets/earliest-available-constraint-dates-closer-to-project-completion-350x137.png)
+
+* **So bald wie möglich** In diesem Szenario wird bei Verwendung der Einschränkung So bald wie möglich für die Nachfolgeaufgabe die Priorität der Nachfolgeaufgabe zugewiesen.
+
+  **BEISPIEL**
+
+  Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B unterliegt der Beschränkung „So bald wie möglich“ und Aufgabe A der Beschränkung „So spät wie möglich“. In diesem Fall wird Aufgabe B so nahe wie möglich am Beginn des Projekts geplant.
+
+  ![Sobald wie möglich Einschränkung, wenn die Termine der Aufgabe nahe am Startdatum des Projekts liegen](assets/as-soon-as-possible-dates-closer-to-project-start-350x126.png)

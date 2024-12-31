@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Beta-Programme
 
-Die auf dieser Seite verlinkten Artikel beschreiben die aktuellen Betaprogramme, die in Adobe Workfront verfügbar sind. In der Beta-Version verfügbare Funktionen stehen möglicherweise nicht allen Kunden zur Verfügung.
+Die auf dieser Seite verlinkten Artikel beschreiben die aktuellen Beta-Programme, die in Adobe Workfront verfügbar sind. Funktionen, die in der Beta-Version verfügbar sind, stehen möglicherweise nicht allen Kunden zur Verfügung.
 
 Die folgenden Artikel enthalten Informationen zu Funktionen, die sich derzeit in der Beta-Phase befinden:
 
-* [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Arbeitsflächen-Dashboards - Übersicht](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 
 
 <!--

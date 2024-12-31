@@ -1,6 +1,6 @@
 ---
-title: Tipps, Tricks und Fehlerbehebung für Aufgaben
-description: Tipps, Tricks und Fehlerbehebung für Aufgaben
+title: Tipps, Tricks und Fehlerbehebung bei Aufgaben
+description: Tipps, Tricks und Fehlerbehebung bei Aufgaben
 author: Alina
 draft: Probably
 feature: Work Management
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Tipps, Tricks und Fehlerbehebung für Aufgaben
+# Tipps, Tricks und Fehlerbehebung bei Aufgaben
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [FAQs zu Aufgaben](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
-* [Die projizierte Dauer stimmt nicht mit der geplanten Dauer überein](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)
+* [Häufig gestellte Fragen zu Aufgaben](../../../manage-work/tasks/tips-tricks-and-troubleshooting/tasks-faqs.md)
+* [Projizierte Dauer stimmt nicht mit geplanter Dauer überein](../../../manage-work/tasks/tips-tricks-and-troubleshooting/projected-and-planned-durations-dont-match.md)

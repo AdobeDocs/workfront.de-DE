@@ -2,7 +2,7 @@
 content-type: release-notes
 navigation-topic: product-releases
 title: Übersicht über die Version 20.3
-description: Die Version 20.3 wurde in der Produktionsumgebung in der Woche von bereitgestellt. Auf dieser Seite finden Sie Informationen zu den Funktionen der Version 20.3.
+description: Die Version 20.3 wurde in der Woche vom in der Produktionsumgebung bereitgestellt. Diese Seite enthält Informationen über die Funktionen, die in Version 20.3 enthalten sind.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -20,13 +20,13 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">The 20.3 release was made available in the Production environment the week of . This page provides information about the functionality included in the 20.3 release.</p>
 -->
 
-Auf dieser Seite finden Sie Informationen zur Funktionalität von Adobe Workfront Classic und dem neuen Adobe Workfront-Erlebnis, das in Version 20.3 enthalten ist. Diese neuen Produkte und Funktionen sollen Ihnen dabei helfen, während dieser Unterbrechungszeit Veränderungen in Ihrer Organisation vorzunehmen.
+Auf dieser Seite finden Sie Informationen zur Funktionalität von Adobe Workfront Classic und zum neuen Adobe Workfront-Erlebnis, das in Version 20.3 enthalten ist. Diese neuen Produkte und Funktionen sollen Ihnen dabei helfen, in dieser Zeit der Unterbrechungen transformative Veränderungen in Ihrem Unternehmen zu bewirken.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">As the 20.3 release nears its planned Production release, this page will be updated with all functionality included with 20.3.</p>
 -->
 
-Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und wurden in der Produktionsumgebung in der Woche vom 10. August 2020 verfügbar gemacht.
+Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und wurden in der Woche vom 10. August 2020 in der Produktionsumgebung bereitgestellt.
 
 <!--
 <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -35,7 +35,7 @@ For specific release dates and times for each cluster, see the
 </MadCap:conditionalText>
 -->
 
-## Verbesserungen für Administratoren
+## Verbesserungen für Admins
 
 <table style="table-layout:auto"> 
  <col> 
@@ -43,55 +43,55 @@ For specific release dates and times for each cluster, see the
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#workfron" class="MCXref xref">Workfront Fusion 2.0 ist da!</a> </p> <p>Workfront hat vor kurzem Technologie für eine völlig neue Generation von Workfront Fusion erworben - der leistungsstarken Integrationsplattform, die es ermöglicht, über praktisch jede webbasierte Anwendung frei zu arbeiten.</p> <p>Vorherige Kunden von Workfront Fusion können in Workfront Fusion 2.0 höhere Leistung, Geschwindigkeit, Benutzerfreundlichkeit und Berechenbarkeit erwarten. Wir migrieren derzeit die aktuellen Workfront Fusion-Kunden zu Workfront Fusion 2.0. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Datumsangaben:</strong> </p> <p>Beta-Vorschau-Version: nicht verfügbar</p> <p>Produktionsversion: 1. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#workfron" class="MCXref xref">Workfront Fusion 2.0 ist hier!</a> </p> <p>Workfront hat vor kurzem Technologie für eine völlig neue Generation von Workfront Fusion erworben - die leistungsstarke Integrationsplattform, mit der Arbeit in praktisch jedem Web-basierten Programm frei fließen kann.</p> <p>Bisherige Workfront Fusion-Kunden können mit mehr Leistung, Geschwindigkeit, Benutzerfreundlichkeit und Vorhersehbarkeit in Workfront Fusion 2.0 rechnen. Wir sind dabei, aktuelle Workfront Fusion-Kunden auf Workfront Fusion 2.0 zu migrieren. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.</p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Daten:</strong> </p> <p>Beta-Vorschauversion: Nicht zutreffend</p> <p>Produktionsversion: 1. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#updates" class="MCXref xref">Aktualisierungen für die Registrierung im neuen Workfront-Erlebnis</a> </p> <p>Damit die Benutzereinanmeldung in der neuen Workfront besser verwaltet werden kann, haben Gruppenadministratoren jetzt Zugriff auf die Möglichkeit, Benutzer, die zu den von ihnen verwalteten Gruppen gehören, zu registrieren und die Registrierung aufzuheben.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#updates" class="MCXref xref">Aktualisierungen der Registrierung in der neuen Workfront-Version</a> </p> <p>Um die Benutzerregistrierung in der neuen Workfront-Version überschaubarer zu gestalten, haben Gruppenadministratoren jetzt Zugriff auf die Registrierung und das Aufheben der Registrierung von Benutzenden, die zu den von ihnen verwalteten Gruppen gehören.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#for" class="MCXref xref">Für Administratoren: Die Seite "Neue Gruppen"erleichtert die Erstellung und Verwaltung von Gruppen</a> </p> <p>Gruppenadministratoren können Gruppen jetzt einfacher verwalten, da sich alles, was sie benötigen, auf der neuen Seite "Gruppen"befindet. Es ist nicht mehr erforderlich, zwischen verschiedenen Überlagerungsfeldern und Einrichtungsseiten zu navigieren, um Gruppen zu erstellen und zu ändern.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Datumsangaben:</strong> </p> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#for" class="MCXref xref">Für Administratoren: Die Seite Neue Gruppen erleichtert die Erstellung und Verwaltung von Gruppen</a> </p> <p>Gruppenadministratoren können jetzt, da alles, was sie benötigen, auf der neuen Seite Gruppen angezeigt wird, Gruppen einfacher verwalten. Es ist nicht mehr erforderlich, zwischen verschiedenen Überlagerungsfeldern und Setup-Seiten zu navigieren, um Gruppen zu erstellen und zu ändern.</p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Daten:</strong> </p> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#set" class="MCXref xref">Für Administratoren: Festlegen von Projekteigenschaften auf Gruppenebene</a> </p> <p>Damit Ihre Gruppenadministratoren mehr Autonomie erhalten und Ihre Workflows auf Gruppenebene stärker angepasst werden können, können Sie jetzt Ihre Projektvoreinstellungen für die von Ihnen verwalteten Gruppen auf Gruppenebene definieren. Wenn Sie ein Projekt erstellen, werden die Voreinstellungen der Gruppe vor denen des Systems wirksam.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Datumsangaben:</strong> </p> <p>Beta-Vorschau: 10. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3 <strong>(vorübergehend nicht für die meisten Kunden mit Clustern 1, 2, 3 und 5 verfügbar)</strong></p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#set" class="MCXref xref">Für Administratoren: Legen Sie Projektvoreinstellungen auf Gruppenebene fest</a> </p> <p>Um Ihren Gruppenadministratoren mehr Autonomie zu geben und eine umfassendere Anpassung Ihrer Workflows auf Gruppenebene zu ermöglichen, können Sie jetzt Ihre Projektvoreinstellungen für von Ihnen verwaltete Gruppen auf Gruppenebene definieren. Wenn Sie ein Projekt erstellen, werden die Voreinstellungen der Gruppe vor denen des Systems wirksam.</p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Daten:</strong> </p> <p>Beta-Vorschau-Version: 10. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3 <strong>(für die meisten Kunden auf den Clustern 1, 2, 3 und 5 vorübergehend nicht verfügbar)</strong></p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#group" class="MCXref xref">Gruppenadministratoren können Genehmigungsprozesse erstellen und verwalten</a> </p> <p>Um mehr Autonomie und Kontrolle über die Workflows ihrer Gruppen zu ermöglichen, kann ein Gruppenadministrator jetzt auf den Bereich Validierungsprozess unter Einrichtung zugreifen und Validierungsprozesse für eine von ihm verwaltete Gruppe erstellen und bearbeiten. Diese Genehmigungsprozesse basieren auf den Status dieser Gruppe.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 10. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#group" class="MCXref xref">Gruppenadministratoren können Genehmigungsprozesse erstellen und verwalten</a> </p> <p>Um eine größere Autonomie und Kontrolle über die Workflows ihrer Gruppen zu ermöglichen, kann ein Gruppenadministrator jetzt auf den Bereich Genehmigungsprozess unter Einrichten zugreifen und Genehmigungsprozesse für eine Gruppe erstellen und bearbeiten, die er verwaltet. Diese Genehmigungsprozesse basieren auf den Status dieser Gruppe.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 10. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new" class="MCXref xref">Neu für Administratoren: Erstellen Sie sowohl einen internen Namen als auch eine benutzerdefinierte Beschriftung für ein Feld mit benutzerdefiniertem Formular</a> </p> <p>Um Ihnen mehr Flexibilität bei der Beschriftung und Umbenennung von benutzerdefinierten Formularfeldern zu bieten, können Sie jetzt einen internen Namen für ein Feld erstellen, der zusätzlich zu der von Ihnen verwendeten benutzerdefinierten Beschriftung verwendet wird.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new" class="MCXref xref">Neu für Admins: Erstellen Sie sowohl einen internen Namen als auch eine benutzerfreundliche Beschriftung für ein benutzerdefiniertes Formularfeld</a> </p> <p>Um Ihnen mehr Flexibilität bei der Kennzeichnung und Neubeschriftung von Feldern in benutzerdefinierten Formularen zu bieten, können Sie jetzt zusätzlich zu der von Ihnen verwendeten Beschriftung für die jeweilige Person einen internen Namen für ein Feld erstellen.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new2" class="MCXref xref">Neu für Administratoren: Brand Workfront für bestimmte Gruppen, Teams, Jobrollen und Benutzer</a> </p> <p>Jetzt können Sie eine Layout-Vorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Jobrollen und Benutzer mit ihrem eigenen Branding zu ändern.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 19. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new2" class="MCXref xref">Neu für Administratoren: Brand Workfront für bestimmte Gruppen, Teams, Aufgabengebiete und Benutzer</a> </p> <p>Jetzt können Sie eine Layout-Vorlage verwenden, um die Logos im oberen Navigationsbereich und im Hauptmenü für bestimmte Gruppen, Teams, Aufgabengebiete und Benutzende zu ändern, die über ein eigenes Branding verfügen.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 19. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new3" class="MCXref xref">Neu für Administratoren: Erstellen Sie bis zu 14 Ebenen von Untergruppen</a> </p> <p>Um die Organisation Ihrer Workfront-Gruppen an Ihre Organisationshierarchie anzupassen, haben wir die Ebenen der Untergruppen, die Sie in einer Gruppe erstellen können, von 3 auf 15 erhöht.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 19. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new3" class="MCXref xref">Neu für Admins: Bis zu 14 Untergruppenebenen erstellen</a> </p> <p>Um die Organisation Ihrer Workfront-Gruppen entsprechend Ihrer Organisationshierarchie zu erleichtern, haben wir die Anzahl der Untergruppen, die Sie innerhalb einer Gruppe erstellen können, von 3 auf 15 erhöht.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 19. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new2" class="MCXref xref">Neu für Administratoren: Erstellen Sie benutzerdefinierte Formularfelder, in denen Benutzer Text formatieren können</a> </p> <p>In einem benutzerdefinierten Formular können Sie jetzt Felder erstellen, die Textformatierungsschaltflächen enthalten. Wenn Benutzer diese Felder eingeben, können sie ihren Text fett, kursiv und unterstrichen markieren und organisieren. Die hohe Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 18. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new2" class="MCXref xref">Neu für Administratoren: Erstellen Sie benutzerdefinierte Formularfelder, in denen Benutzer Text formatieren können</a> </p> <p>In einem benutzerdefinierten Formular können Sie jetzt Felder erstellen, die Textformatierungsschaltflächen enthalten. Wenn Benutzende etwas in diese Felder eingeben, können sie ihren Text durch fett, kursiv und unterstrichen markieren und organisieren. Die hohe Zeichenbegrenzung von 15.000 ermöglicht viel Text und Formatierung.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 18. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new5" class="MCXref xref">Neu für Administratoren: Neue Setup-Seitenleiste</a> </p> <p>Die linke Seitenleiste unter Einrichtung ist jetzt schneller und einfacher zu verwenden und nutzt das grundlegende Layout und die Funktionalität, die Sie bereits kennen.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Datumsangaben:</strong> </p> <p>Beta-Vorschau: 22. Mai 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new5" class="MCXref xref">Neu für Administratoren: Neue Setup-Seitenleiste</a> </p> <p>Die linke Seitenleiste im Setup ist jetzt schneller und einfacher zu verwenden und nutzt das grundlegende Layout und die Funktionalität, die Sie bereits kennen.</p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Daten:</strong> </p> <p>Beta-Vorschau-Version: 22. Mai 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#include" class="MCXref xref">Fügen Sie die Cluster-Nummer im Bereich "Kundeninformationen"ein</a> </p> <p>Als Workfront-Administrator können Sie jetzt die Cluster-Nummer in Workfront einfach finden, ohne zusätzliche Zeit und Mühe darauf verwenden zu müssen, sie von unserem Support-Team zu erhalten. Im Bereich "Kundeninformationen"der Einrichtung wurde das Feld Cluster-Setup hinzugefügt.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 10. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#include" class="MCXref xref">Cluster-Nummer im Bereich „Kundeninformationen“ </a> </p> <p>Als Workfront-Administrator können Sie die Cluster-Nummer jetzt einfach in Workfront finden, ohne zusätzliche Zeit und Mühe darauf verwenden zu müssen, sie von unserem Support-Team zu erhalten. Wir haben im Bereich „Kundeninformationen“ von „Setup“ ein Feld „Cluster-Setup“ hinzugefügt.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 10. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#removed" class="MCXref xref">Die Möglichkeit, doppelte Ereignisanmeldungen zu erstellen, wurde entfernt</a> </p> <p>Um den Versand doppelter Nachrichten zu verhindern, können Sie keine doppelten Abonnements mehr erstellen. Darüber hinaus wurden alle zuvor erstellten doppelten Abonnements entfernt.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Datumsangaben:</strong> </p> <p>Beta-Vorschau: 14. April 2020</p> <p>Produktionsversion: 22. Mai 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#removed" class="MCXref xref">Die Möglichkeit zum Erstellen doppelter Ereignisabonnements wurde entfernt</a> </p> <p>Um den Versand doppelter Nachrichten zu verhindern, können Sie keine doppelten Abonnements mehr erstellen. Darüber hinaus wurden alle zuvor erstellten doppelten Abonnements entfernt.</p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Daten:</strong> </p> <p>Beta-Vorschau-Version: 14. April 2020</p> <p>Produktionsversion: 22. Mai 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -100,15 +100,15 @@ For specific release dates and times for each cluster, see the
 
 Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 
-* [Workfront Goals](#workfront-goals) New!
+* [Workfront-Ziele](#workfront-goals) Neu!
 
-* [Szenario-Planer](#scenario-planner) Neu!
+* [Szenarienplaner](#scenario-planner) Neu!
 
 * [Analytics-Verbesserungen](#analytics-enhancements)
-* [Agile Verbesserungen](#agile-enhancements)
-* [Verbesserungen bei der Ressourcenverwaltung](#resource-management-enhancements)
-* [Verbesserungen bei der Projektverwaltung](#project-management-enhancements)
-* [Verbesserungen beim Testversand](#proof-enhancements)
+* [Agile-Verbesserungen](#agile-enhancements)
+* [Verbesserungen beim Ressourcen-Management](#resource-management-enhancements)
+* [Verbesserungen beim Projektmanagement](#project-management-enhancements)
+* [Korrekturabzug-Verbesserungen](#proof-enhancements)
 * [Verbesserungen bei Integration und Mobilgeräten](#integration-and-mobile-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
@@ -116,14 +116,14 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 
 >[!NOTE]
 >
->Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebene Funktion verwenden zu können:
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
 >
->* Pro oder höher [Adobe Workfront-Plan](https://www.workfront.com/plans).
->* Eine Adobe Workfront Goals-Lizenz zusätzlich zu einer Workfront-Lizenz.
+>* Ein Pro- oder höher [Adobe Workfront-Plan](https://www.workfront.com/plans).
+>* Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
 >
->  Wenden Sie sich an Ihren Workfront-Kundenbetreuer, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>  Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
 >
->  Workfront-Ziele sind nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>  Workfront Goals ist nur in der neuen Adobe Workfront-Version verfügbar.
 >
 >Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
@@ -133,11 +133,11 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/goals-release-activity/goals-release-20-3.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Workfront verfolgt die Version 20.3 - 14. August 2020</a> </p> <p>Mit Workfront-Zielen können Sie Strategie, Ziele und Arbeiten zur Förderung der unternehmensweiten Ausführung sowie messbare Geschäftsergebnisse koordinieren. Definieren Sie, was Sie erreichen werden und warum es wichtig ist.</p> </td> 
-   <td> <p>Beta-Vorschau-Version: nicht verfügbar</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/goals-release-activity/goals-release-20-3.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Workfront-Ziele in Version 20.3 - 14. August 2020</a> </p> <p>Mit Workfront Goals können Sie Strategie, Ziele und Arbeit aufeinander abstimmen, um die Ausführung im gesamten Unternehmen voranzutreiben und messbare Geschäftsergebnisse zu erzielen. Definieren Sie, was Sie erreichen werden und warum es wichtig ist.</p> </td> 
+   <td> <p>Beta-Vorschauversion: Nicht zutreffend</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -146,7 +146,7 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 
 >[!NOTE]
 >
->## Zugriffsanforderungen >
+>## Zugriffsanforderungen>
 >Sie müssen über Folgendes verfügen:
 >
 ><table style="table-layout:auto"> 
@@ -159,23 +159,23 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
 &gt;  </tr> 
 &gt;  <tr> 
 &gt;   <td role="rowheader"> <p>Lizenztyp*</p> </td> 
-&gt;   <td> <p>Überprüfen oder höher. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td> 
+&gt;   <td> <p>Überprüfen Sie oder höher. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td> 
 &gt;  </tr> 
 &gt;  <tr> 
 &gt;   <td role="rowheader">Produkt</td> 
-&gt;   <td>Workfront-Szenarienplaner <p>Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Überblick über den Szenario-Planer</a>.</p> </td> 
+&gt;   <td>Workfront-Szenarienplaner <p>Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter <a href="../../../scenario-planner/scenario-planner-overview.md" class="MCXref xref">Szenarioplaner - Übersicht</a>.</p> </td> 
 &gt;  </tr> 
 &gt;  <tr data-mc-conditions=""> 
 &gt;   <td role="rowheader"><strong>Zugriffsebene*</strong> </td> 
-&gt;   <td> <p>Zugriff auf den Szenario-Planer anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+&gt;   <td> <p>Anzeigen des Zugriffs auf den Szenario-Planer oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
 &gt;  </tr> 
 &gt;  <tr data-mc-conditions=""> 
 &gt;   <td role="rowheader"> <p><strong>Objektberechtigungen</strong> </p> </td> 
-&gt;   <td> <p>Berechtigungen oder höher für einen Plan anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im Szenario-Planer</a>.</p> </td> 
+&gt;   <td> <p>Anzeigen von Berechtigungen oder höher für einen Plan</p> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../../../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im Szenario-Planer</a>.</p> </td> 
 &gt;  </tr> 
 &gt; </tbody> 
 &gt;</table>
-&gt;*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&gt;*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
  
 
@@ -185,11 +185,11 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Workfront-Szenario-Planer mit Version 20.3 - 14. August 2020</a> </p> <p>Erstellen und vergleichen Sie mit dem Szenario-Planer mehrere Was-Wenn-Szenarien, um den besten Pfad für die Zukunft auszuwählen. Und wenn sich Ihre Prioritäten ändern, planen Sie sie iterativ neu, ohne dass sich dies auf die laufende Arbeit auswirkt.</p> </td> 
-   <td> <p>Beta-Vorschau-Version: nicht verfügbar</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/scenario-planner-release-activity/sp-release-20-3.md" class="MCXref xref" data-mc-conditions="QuicksilverOrClassic.Quicksilver">Workfront Scenario Planner mit Version 20.3 - 14. August 2020</a> </p> <p>Mit dem Szenario-Planer können Sie mehrere Was-wäre-wenn-Szenarien erstellen und vergleichen, um den besten Weg für die Zukunft auszuwählen. Wenn sich Ihre Prioritäten ändern, führen Sie iterative Neuplanung durch, ohne dass sich dies auf die laufenden Arbeiten auswirkt.</p> </td> 
+   <td> <p>Beta-Vorschauversion: Nicht zutreffend</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -202,16 +202,16 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md#enhanced" class="MCXref xref">Verbesserte Analyse ist verfügbar!</a> </p> <p>Erweiterte Analysen sind jetzt in Workfront verfügbar. Diese Funktion gibt Ihnen einen allgemeinen Überblick über Ihre Arbeit mit Visualisierungen, die Ihnen zeigen, was in einem Projekt passiert ist, welche Projekte den größten Fokus erhalten und vieles mehr!</p> </td> 
-   <td> <p>Beta-Vorschau: 13. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p>Hinweis: Nur für Kunden mit Geschäfts- oder Unternehmensplänen in Clustern 1-5 verfügbar.</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-analytics-enhancements.md#enhanced" class="MCXref xref">Erweiterte Analyse ist hier!</a> </p> <p>Erweiterte Analyse ist jetzt in Workfront verfügbar. Diese Funktion bietet Ihnen einen allgemeinen Überblick über Ihre Arbeit mit Visualisierungen, die Ihnen zeigen, was in einem Projekt passiert ist, welche Projekte den meisten Fokus erhalten und vieles mehr!</p> </td> 
+   <td> <p>Beta-Vorschau-Version: 13. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p>Hinweis: Nur für Kunden mit Geschäfts- oder Unternehmensplänen in den Clustern 1-5 verfügbar.</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Agile Verbesserungen {#agile-enhancements}
+### Agile-Verbesserungen {#agile-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -219,20 +219,20 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#choose" class="MCXref xref">Legen Sie fest, wie lange Karten auf der Kanban-Pinnwand bleiben.</a> </p> <p>Jetzt können Sie wählen, wie lange die fertigen Karten auf dem Kanban-Board bleiben.</p> <p>Zuvor wurden die Karten nach 14 Tagen vom Kanban-Board abgesetzt.</p> </td> 
-   <td> <p>Beta-Vorschau: 17. Juni 2020</p> <p>Produktionsversion: 2. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#choose" class="MCXref xref">Wählen Sie aus, wie lange Karten auf dem Kanban-Board bleiben sollen</a> </p> <p>Jetzt können Sie auswählen, wie lange abgeschlossene Karten auf dem Kanban-Board bleiben sollen.</p> <p>Zuvor fielen die Karten nach 14 Tagen vom Kanban-Board.</p> </td> 
+   <td> <p>Beta-Vorschau-Version: 17. Juni 2020</p> <p>Produktionsversion: 2. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile Pinnwände laden 50 Arbeitselemente gleichzeitig.</a> </p> <p>Um die Geschwindigkeit und Leistung der agilen Tools zu erhöhen, werden jetzt bis zu 50 Karten an verschiedenen Stellen geladen. Wenn sich mehr als 50 Arbeitselemente auf einer agilen Pinnwand befinden, wird am unteren Rand der Pinnwand oder des Rückstands eine Schaltfläche angezeigt, über die Sie zusätzliche Arbeitselemente laden können.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 19. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-agile-enhancements.md#agile" class="MCXref xref">Agile-Boards laden 50 Arbeitselemente gleichzeitig</a> </p> <p>Um die Geschwindigkeit und Leistung der agilen Tools zu erhöhen, werden jetzt bis zu 50 Karten an verschiedenen Stellen geladen. Wenn sich auf einem Agile-Board mehr als 50 Arbeitselemente befinden, wird unten auf dem Board oder Rückstand eine Schaltfläche angezeigt, mit der Sie zusätzliche Arbeitselemente laden können.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 19. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Verbesserungen bei der Ressourcenverwaltung {#resource-management-enhancements}
+### Verbesserungen beim Ressourcen-Management {#resource-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -240,36 +240,36 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#display" class="MCXref xref">Einbeziehen von Stunden aus Problemen im Bereich "Zugewiesene Arbeit"des Arbeitslastausgleichs</a> </p> <p>Damit Sie ein vollständiges Bild aller Arbeitslasten Ihrer Personen erhalten, haben wir eine Einstellung eingeführt, mit der Sie Stunden aus Problemen im Bereich "Zugewiesene Arbeit"des Arbeitsladerausgleichs einbeziehen können.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 19. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#display" class="MCXref xref">Stunden aus Problemen im Bereich Zugewiesene Arbeit des Workload-Balancer einbeziehen</a> </p> <p>Damit Sie sich ein vollständiges Bild von der Arbeitslast aller Ihrer Mitarbeiter machen können, haben wir eine Einstellung eingeführt, mit der Sie Stunden aus Problemen in den Bereich Zugewiesene Arbeit des Workload-Balancer einbeziehen können.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 19. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#adjust2" class="MCXref xref">Anpassen der Zuordnungen für Nicht-Arbeitstage im Arbeitslastausgleich</a> </p> <p>Sie können mithilfe des Workload Balancer die Zuordnungen für Ihre Ressourcen für Nicht-Arbeitstage anpassen. </p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau-Version: 2. Juli bis 22. September (in einem schrittweisen Rollout)</p> <p>Produktionsversion: 2. bis 21. Juli 2020 (in einem stufenweisen Rollout)</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#adjust2" class="MCXref xref">Anpassen von Zuweisungen für arbeitsfreie Tage im Workload Balancer</a> </p> <p>Mit dem Workload-Balancer können Sie Zuweisungen für Ihre Ressourcen für arbeitsfreie Tage anpassen. </p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli bis 22. September (schrittweiser Rollout)</p> <p>Produktionsversion: 2.-21. Juli 2020 (in einem schrittweisen Rollout)</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#variable" class="MCXref xref">Variablenfilter, die im Lastenausgleich verfügbar sind</a> </p> <p>Um Ihr Erlebnis zu verbessern und Ihnen mehr Flexibilität beim Austausch von Informationen zu bieten, haben wir nun Variablenfilter für den Arbeitslastausgleich implementiert.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 5. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#variable" class="MCXref xref">Im Workload Balancer verfügbare Variablenfilter</a> </p> <p>Um Ihr Erlebnis zu verbessern und Ihnen mehr Flexibilität beim Austausch von Informationen zu bieten, haben wir jetzt Variablenfilter für den Workload Balancer implementiert.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 5. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#new" class="MCXref xref">Neue Sortierung für Projekte im Arbeitslastausgleich</a> </p> <p>Der Lastenausgleich sortiert die Projekte jetzt zunächst nach dem frühesten geplanten Startdatum und dann nach dem neuesten geplanten Abschlussdatum der Aufgaben im Projekt, die während des Zeitrahmens auftreten, den der Benutzer auf dem Bildschirm anzeigt. Auf diese Weise können Sie Arbeiten in einer baumähnlichen Hierarchie organisieren, mit der Sie die Arbeit für einen Tag leichter identifizieren können.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 5. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#new" class="MCXref xref">Neue Sortierung für Projekte im Workload Balancer</a> </p> <p>Workload Balancer sortiert die Projekte nun nach dem frühesten geplanten Startdatum und nach dem neuesten geplanten Abschlussdatum der Aufgaben im Projekt, die während des vom Benutzer auf dem Bildschirm angezeigten Zeitraums auftreten. So können Sie die Arbeit in einer hierarchischen Struktur organisieren, sodass Sie die Arbeit für einen Tag leichter identifizieren können.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 5. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#display2" class="MCXref xref">Anzeigen des tatsächlichen Arbeitsfortschritts im Arbeitslastausgleich</a> </p> <p>Um Ihnen einen genauen Überblick über den Fortschritt Ihrer Arbeitslast zu geben, haben wir eine neue Einstellung im Arbeitslastausgleich eingeführt, die den Zeitrahmen von Aufgaben und Problemen entsprechend den prognostizierten Daten anzeigt. Sie können die Einstellung Vorgeschlagene Daten anzeigen aktivieren, um die geplante Timeline des Arbeitselements zusätzlich zur geplanten Timeline anzuzeigen.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#display2" class="MCXref xref">Anzeigen des tatsächlichen Arbeitsfortschritts im Workload Balancer</a> </p> <p>Um Ihnen einen genauen Überblick über den Fortschritt Ihrer Arbeitslast zu geben, haben wir im Workload Balancer eine neue Einstellung eingeführt, die den zeitlichen Ablauf von Aufgaben und Problemen entsprechend ihrem voraussichtlichen Datum anzeigt. Sie können die Einstellung Voraussichtliche Termine anzeigen aktivieren, um die voraussichtliche Zeitleiste des Arbeitselements zusätzlich zur geplanten Zeitleiste anzuzeigen.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#workload" class="MCXref xref">Funktionen des Lastenausgleichs, die zuvor mit Version 20.2 als veröffentlicht kommuniziert wurden</a> </p> <p>Einige Funktionen wurden ursprünglich als Teil der Version 20.2 in der Vorschau-Umgebung veröffentlicht und später entfernt. Diese Funktionen werden jetzt in einer schrittweisen Einführung in die Vorschau und Produktion veröffentlicht.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau-Version: Mit Version 20.2</p> <p>Produktionsversion: Mit Version 20.3 in einer stufenweisen Einführung</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-resource-management-enhancements.md#workload" class="MCXref xref">Workload-Balancer-Funktionen, die zuvor mit Version 20.2 als veröffentlicht kommuniziert wurden</a> </p> <p>Einige Funktionen wurden ursprünglich als Teil der Version 20.2 in der Vorschau-Umgebung veröffentlicht und später entfernt. Diese Funktionen werden jetzt in einem schrittweisen Rollout für Vorschau und Produktion veröffentlicht.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschauversion: Mit Version 20.2</p> <p>Produktionsversion: Mit der Version 20.3 erfolgt der Rollout schrittweise</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Verbesserungen bei der Projektverwaltung {#project-management-enhancements}
+### Verbesserungen beim Projekt-Management {#project-management-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -277,32 +277,32 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#custom" class="MCXref xref">Benutzerdefinierte Feldformatierung in Listen</a> </p> <p>Wenn der Systemadministrator jetzt benutzerdefinierte Formularfelder erstellt, die für die Formatierung konfiguriert sind, können Sie den Text in den Feldern formatieren, in denen Sie ihn am häufigsten verwenden: in Listen in Workfront. Anstatt in den Bereich "Details"zu wechseln, um Text im benutzerdefinierten Formular zu formatieren, können Sie auf ein Feld in einer Liste klicken und dort "Fett", "Kursiv"und "Unterstrichen"auf Text anwenden.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic (für einige Listen verfügbar, jedoch nicht unterstützt)</p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#custom" class="MCXref xref">Benutzerdefinierte Feldformatierung in Listen</a> </p> <p>Wenn der Systemadministrator jetzt benutzerdefinierte Formularfelder erstellt, die für die Formatierung konfiguriert sind, können Sie Text in den Feldern formatieren, in denen Sie ihn am häufigsten verwenden: in Listen in Workfront. Anstatt in den Bereich Details zu wechseln, um Text im benutzerdefinierten Formular zu formatieren, können Sie auf ein Feld in einer Liste klicken und dort fett, kursiv und unterstrichen Text anwenden.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic (für einige Listen verfügbar, aber nicht unterstützt)</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">Das Erscheinungsbild verschiedener globaler Header wurde aktualisiert</a> </p> <p>Die globalen Bereiche von Projekten, Portfolios, Programmen und Vorlagen verfügen jetzt über einen aktualisierten Header, der den Platz auf dem Bildschirm besser nutzt. Diese Aktualisierung bietet mehr Platz für die Informationen, auf die Sie sich konzentrieren müssen. </p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 19. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#updated" class="MCXref xref">Das Erscheinungsbild mehrerer globaler Kopfzeilen wurde aktualisiert</a> </p> <p>Die globalen Bereiche Projekte, Portfolios, Programme und Vorlagen verfügen nun über eine aktualisierte Kopfzeile, die den Platz auf dem Bildschirm besser nutzt. Dieses Update bietet mehr Platz für die Informationen, mit denen Sie arbeiten und auf die Sie sich konzentrieren müssen. </p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 19. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new3" class="MCXref xref">Feld "Neues Projekt bearbeiten"</a> </p> <p>Im Zuge der Aktualisierung des Erscheinungsbilds des neuen Workfront-Erlebnisses haben wir das Feld "Projekt bearbeiten"neu gestaltet. Sie können über ein einzelnes Projekt oder beim Bearbeiten eines einzelnen Projekts aus einer Liste auf das neue Feld "Projekt bearbeiten"zugreifen.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 19. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new3" class="MCXref xref">Feld Neues Projekt bearbeiten</a> </p> <p>Im Zuge der Aktualisierung des Erscheinungsbilds des neuen Workfront-Erlebnisses haben wir das Feld Projekt bearbeiten neu gestaltet. Sie können über ein einzelnes Projekt oder beim Bearbeiten eines einzelnen Projekts aus einer Liste auf das Feld Neues Projekt bearbeiten zugreifen.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 19. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new4" class="MCXref xref">Neues Bedienfeld "Zusammenfassung"und Verbesserungen für die Dokumentliste "Aktualisierungen"</a> </p> <p>Das neue Zusammenfassungsfenster rechts neben der Dokumentliste ist jetzt mit einem verbesserten Design im neuen Workfront-Erlebnis verfügbar. Dieses Bedienfeld enthält dieselben Aktionen und Informationen, die im Bedienfeld auf der rechten Seite verfügbar sind, wenn Sie ein Dokument in Workfront Classic auswählen, einschließlich Dokumentdetails, Aktualisierungen, benutzerdefinierter Forms, Genehmigungen und Dokumentversionen.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#new4" class="MCXref xref">Neues Bedienfeld Zusammenfassung und Aktualisierungen - Verbesserungen für die Dokumentenliste</a> </p> <p>Das neue Bedienfeld Zusammenfassung rechts neben der Liste Dokumente ist jetzt in der neuen Workfront-Version mit verbessertem Design verfügbar. In diesem Bedienfeld finden Sie dieselben Aktionen und Informationen wie im Bedienfeld rechts, wenn Sie in Workfront Classic ein Dokument auswählen, einschließlich Dokumentdetails, Aktualisierungen, benutzerdefinierter Forms, Genehmigungen und Dokumentversionen.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#improvem" class="MCXref xref">Verbesserungen der Dokumentdetails</a> </p> <p>Suchen Sie auf der Seite "Dokumentdetails"nach verschiedenen Verbesserungen, einschließlich neuer Versionsoptionen, die in ein Dropdown-Menü verschoben werden, größerer Miniaturansichten und mehr.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-project-management-enhancements.md#improvem" class="MCXref xref">Verbesserungen bei Dokumentdetails</a> </p> <p>Achten Sie auf der Seite Dokumentdetails auf verschiedene Verbesserungen, darunter neue Versionsoptionen, die in ein Dropdown-Menü verschoben wurden, größere Vorschauminiaturen und mehr.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Verbesserungen bei Testsendungen {#proof-enhancements}
+### Verbesserungen bei Korrekturabzügen {#proof-enhancements}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -310,23 +310,23 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#improved" class="MCXref xref">Verbesserte Sichtbarkeit zwischen der Registerkarte "Aktualisierungen"und den Kommentaren zum Testversand</a> </p> <p>Im Bereich Dokumente stehen verschiedene Verbesserungen zur Verfügung. Wenn auf der Registerkarte Aktualisieren ein Testversand-Kommentar angezeigt wird, erscheint eine neue Schaltfläche Im Testversand antworten , über die Sie in den Testversand-Viewer wechseln können. </p> <p>Wenn ein Testversand-Kommentar mit einer Aktion innerhalb des Testversand-Viewers getaggt wird, wird die Aktion auf der Registerkarte Aktualisieren angezeigt. </p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 13. Juli 2020</p> <p>Produktionsversion: 9. Oktober 2020 (ursprünglich für Version 20.3 geplant)</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#improved" class="MCXref xref">Verbesserte Sichtbarkeit zwischen der Registerkarte „Aktualisierungen“ und Korrekturabzugskommentaren</a> </p> <p>Im Bereich Dokumente sind verschiedene Verbesserungen verfügbar, u. a. wenn auf der Registerkarte Aktualisieren ein Kommentar zu einem Korrekturabzug angezeigt wird, wird die Schaltfläche Im Korrekturabzug antworten angezeigt, sodass Sie zur Antwort in die Korrekturabzugsansicht wechseln können. </p> <p>Wenn ein Kommentar zu einem Korrekturabzug innerhalb der Korrekturabzugsansicht mit einer Aktion getaggt wird, wird die Aktion außerdem auf der Registerkarte Aktualisieren angezeigt. </p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 13. Juli 2020</p> <p>Produktionsversion: 9. Oktober 2020 (ursprünglich mit Version 20.3 geplant)</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#update" class="MCXref xref">Aktualisieren von benutzerdefinierten Testfeldern in Dokumentdetails</a> </p> <p>Um den Testversand zu optimieren, können Sie jetzt in Workfront Proof eingerichtete benutzerdefinierte Felder auf der Seite "Dokumentdetails"in Workfront anzeigen und bearbeiten, wenn Sie im Testversand-Workflow enthalten sind.</p> <p>Zuvor war es nur möglich, benutzerdefinierte Felder im Testversand-Viewer anzuzeigen.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#update" class="MCXref xref">Aktualisieren von benutzerdefinierten Proofing-Feldern in Dokumentdetails</a> </p> <p>Um den Proofing-Prozess zu optimieren, können Sie jetzt in Workfront Proof eingerichtete benutzerdefinierte Felder auf der Seite „Dokumentdetails“ in Workfront anzeigen und bearbeiten, wenn Sie im Korrekturabzugs-Workflow enthalten sind.</p> <p>Zuvor konnten Sie nur benutzerdefinierte Felder im Proofing Viewer anzeigen.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#new" class="MCXref xref">Neuer Look for the Document toolbar</a> </p> <p>Die Symbolleiste im Dokumentbereich hat jetzt dasselbe Erscheinungsbild wie die Symbolleiste für Projekte, Aufgaben und Probleme im neuen Workfront-Erlebnis.</p> <p>Darüber hinaus befindet sich die Option Neue Version jetzt im Dropdown-Menü Neue Version hinzufügen sowohl im neuen Workfront-Erlebnis als auch in Classic.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#new" class="MCXref xref">Neuer Look für die Dokument-Symbolleiste</a> </p> <p>Die Symbolleiste im Dokumentbereich hat jetzt dasselbe Erscheinungsbild wie die Symbolleiste für Projekte, Aufgaben und Probleme in der neuen Workfront-Version.</p> <p>Darüber hinaus befindet sich die Option Neue Version jetzt sowohl in der neuen Workfront-Version als auch in Classic unter dem Dropdown-Menü Neue hinzufügen .</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#create" class="MCXref xref">Erstellen eines erweiterten Testversands aus der Dokumentliste</a> </p> <p>Um die Einrichtung eines Workflows beim Umschalten eines vorhandenen Dokuments in einen Testversand zu vereinfachen, konfigurieren Sie in der Dokumentliste über das neue Dropdown-Menü Testversand erstellen den Testversand-Workflow.</p> <p>Zuvor mussten Sie den Testversand generieren und dann zum Bereich Testversand-Workflow wechseln, um den Workflow einzurichten.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-proof-enhancements.md#create" class="MCXref xref">Erstellen eines erweiterten Korrekturabzugs über die Dokumentliste</a> </p> <p>Um das Einrichten eines Workflows beim Drehen eines vorhandenen Dokuments in einem Korrekturabzug zu vereinfachen, konfigurieren Sie den Workflow für Korrekturabzüge über die Dokumentliste im Dropdown-Menü Neuer Korrekturabzug erstellen .</p> <p>Zuvor mussten Sie den Korrekturabzug generieren und dann in den Bereich Proofing-Workflow wechseln, um den Workflow einzurichten.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -339,19 +339,19 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#introduc" class="MCXref xref">Einführung in Workfront für MobileIron</a> <span style="color: #dc143c; font-weight: bold;">Neu!</span></p> <p>Workfront arbeitet mit der Mobile Device Management (MDM)-Plattform MobileIron zusammen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau-Version: nicht verfügbar</p> <p>Produktionsversion: 21. August 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#introduc" class="MCXref xref">Einführung von Workfront für MobileIron</a> <span style="color: #dc143c; font-weight: bold;">Neu!</span></p> <p>Workfront ist eine Partnerschaft mit MobileIron eingegangen, einer MDM-Plattform (Mobile Device Management), um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschauversion: Nicht zutreffend</p> <p>Produktionsversion: 21. August 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#zoom" class="MCXref xref">Zoom-Integration im Bereich "Updates"</a> </p> <p>Machen Sie Ihre Videokonferenzen zu einem Teil Ihrer Arbeit in Workfront, indem Sie Zoom-Meetings über den Bereich Updates starten. Klicken Sie auf das Zoom -Symbol, um eine Meeting-URL in einen Kommentar einzufügen und Mitarbeiter mit Tags zu versehen, um sie über das Meeting zu benachrichtigen. Um Mitglied zu werden, können sie einfach auf den Link klicken.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 20. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#zoom" class="MCXref xref">Zoom-Integration im Bereich Updates</a> </p> <p>Machen Sie Ihre Videobesprechungen zu einem Teil Ihrer Arbeit in Workfront, indem Sie Zoom-Besprechungen über den Bereich Aktualisierungen starten. Klicken Sie auf das Zoom -Symbol, um eine Besprechungs-URL in einen Kommentar einzufügen, und markieren Sie Kollegen, um sie über das Meeting zu benachrichtigen. Um teilzunehmen, können sie einfach auf den Link klicken.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 20. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#new" class="MCXref xref">Neuer mobiler virtueller Assistent</a> </p> <p>Der neue virtuelle Assistent für die mobile Workfront-App kommt mit dieser Version sowohl zu Android als auch zu iOS.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 1. Juni 2020</p> <p>Produktionsversion: Mit Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-mobile-enhancements.md#new" class="MCXref xref">Neuer mobiler virtueller Assistent</a> </p> <p>Mit dieser Version wird der neue virtuelle Assistent für die Workfront-Mobile-App sowohl für Android als auch für iOS bereitgestellt.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 1. Juni 2020</p> <p>Produktionsversion: Mit der Version 20.3</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -364,46 +364,46 @@ Die Version 2020.3 enthält die folgenden Verbesserungen für alle Benutzer:
  <tbody> 
   <tr> 
    <td> <p><strong>Funktion</strong> </p> </td> 
-   <td> <p><strong>Veröffentlichungstermine und -umgebungen</strong> </p> </td> 
+   <td> <p><strong>Veröffentlichungstermine und Umgebungen</strong> </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#share" class="MCXref xref">Einen Kalender mit einem privaten Link teilen</a> </p> <p>Um die Freigabe von Kalendern in Workfront zu erleichtern, können Sie einen privaten Link freigeben, über den Benutzer direkt zum Kalender gelangen. Der Kalender muss für den Benutzer freigegeben werden und muss sich anmelden, um ihn anzuzeigen.</p> <p>Zuvor konnten Sie eine öffentliche URL freigeben, für die keine Anmeldung erforderlich war.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: 16. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#share" class="MCXref xref">Kalender über einen privaten Link freigeben</a> </p> <p>Um die Kalenderfreigabe in Workfront zu erleichtern, können Sie einen privaten Link freigeben, über den Benutzer direkt zum Kalender gelangen. Der Kalender muss für den Benutzer freigegeben sein und er muss sich anmelden, um ihn anzuzeigen.</p> <p>Zuvor konnten Sie eine öffentliche URL freigeben, für deren Anzeige keine Anmeldung erforderlich war.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: 16. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new" class="MCXref xref">Neuer Entwurfsbereich beim Erstellen von Anforderungen</a> </p> <p>Um Ihnen mehr Flexibilität beim Arbeiten mit Anforderungen zu geben, speichert Workfront jetzt automatisch alle von Ihnen erstellten Anforderungen als Entwurf im neuen Entwurfsbereich. Wenn Sie nicht über alle zum Abschließen der neuen Anforderung erforderlichen Informationen verfügen, können Sie sie als Entwurf hinterlassen, später erneut darauf zugreifen und abschließen. Workfront speichert eine Anforderung pro Warteschlangenthema im neuen Bereich "Entwürfe". Die Entwurfsanfragen können so lange gespeichert werden, wie Sie sie benötigen, bis Sie sie abschließen und übermitteln können. Sie können den Bereich "Entwürfe"auch mithilfe einer Layout-Vorlage im linken Bereich entfernen oder neu positionieren.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: Mit Version 20.3 </p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#new" class="MCXref xref">Neuer Entwurfsbereich beim Erstellen von Anfragen</a> </p> <p>Um Ihnen bei der Arbeit mit Anfragen mehr Flexibilität zu bieten, speichert Workfront jetzt automatisch jede Anfrage, die Sie erstellen, als Entwurf im neuen Entwurfsbereich. Wenn Sie nicht über alle Informationen verfügen, die zum Abschließen der neuen Anfrage erforderlich sind, können Sie sie als Entwurf hinterlassen, zu ihr zurückkehren und sie später abschließen. Workfront speichert eine Anfrage pro Warteschlangenthema im Bereich „Neue Entwürfe“. Die Anforderungsentwürfe können so lange gespeichert werden, wie Sie sie benötigen, bis Sie bereit sind, sie abzuschließen und zu übermitteln. Sie können den Bereich „Entwürfe“ im linken Bereich auch mithilfe einer Layout-Vorlage entfernen oder neu positionieren.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: Mit der Version 20.3 </p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#expand" class="MCXref xref">Erweitern oder Reduzieren von Elementen auf dem Zeitblatt</a> </p> <p>Um die einfache Verwaltung von Timesheets mit mehreren Elementen zu erleichtern, können Sie jetzt alle Elemente durch Klicken auf eine Schaltfläche erweitern oder reduzieren.</p> <p>Zuvor musste jedes Element einzeln angeklickt werden.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 2. Juli 2020</p> <p>Produktionsversion: 16. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#expand" class="MCXref xref">Elemente auf der Arbeitszeittabelle ein- oder ausblenden</a> </p> <p>Um Arbeitszeittabellen mit mehreren Elementen einfach verwalten zu können, können Sie jetzt alle Elemente mit einem Klick ein- oder ausblenden.</p> <p>Zuvor mussten Sie auf jedes Element einzeln klicken.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 2. Juli 2020</p> <p>Produktionsversion: 16. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#ignore" class="MCXref xref">Tatsächliche Daten in Workfront-Kalendern ignorieren</a> </p> <p>Um Ihnen mehr Kontrolle darüber zu geben, wie Objekte in Kalenderberichten angezeigt werden, können Sie die tatsächlichen Daten ignorieren, selbst wenn sie verfügbar sind.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 3. Juni 2020</p> <p>Produktionsversion: 18. Juni 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#ignore" class="MCXref xref">Tatsächliche Termine in Workfront-Kalendern ignorieren</a> </p> <p>Damit Sie besser steuern können, wie Objekte in Kalenderberichten angezeigt werden, können Sie festlegen, dass tatsächliche Datumsangaben ignoriert werden, selbst wenn sie verfügbar sind.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 3. Juni 2020</p> <p>Produktionsversion: 18. Juni 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#use" class="MCXref xref">Verwenden Sie benutzerdefinierte Datumsfelder in Kalenderberichten</a> </p> <p>Um Ihre tägliche Arbeit mit Kalendern besser zu visualisieren und zu verwalten, stehen jetzt benutzerdefinierte Datumsfelder als Datumsoption zur Verfügung.</p> <p>Zuvor konnten Sie Ihren Kalender nur mit projizierten, geplanten Datumsangaben verwalten.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Datumsangaben:</strong> </p> <p>Beta-Vorschau: 29. Mai 2020</p> <p>Produktionsversion: 18. Juni 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#use" class="MCXref xref">Verwenden von benutzerdefinierten Datumsfeldern in Kalenderberichten</a> </p> <p>Um Ihre tägliche Arbeit mit Kalendern besser visualisieren und verwalten zu können, stehen jetzt benutzerdefinierte Datumsfelder als Datumsoption zur Verfügung.</p> <p>Zuvor konnten Sie Ihren Kalender nur mit projizierten, geplanten Terminen verwalten, wenn keine tatsächlichen Termine verfügbar waren.</p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Daten:</strong> </p> <p>Beta-Vorschau-Version: 29. Mai 2020</p> <p>Produktionsversion: 18. Juni 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#email" class="MCXref xref">E-Mail-Änderungen</a> </p> <p> Alle E-Mails von Workfront stammen von notifications@my.workfront.com und Systemadministratoren können keinen benutzerdefinierten POP-E-Mail-Server mehr für eingehende E-Mail-Antworten auf Benachrichtigungen konfigurieren.</p> </td> 
-   <td> <p><strong>Verfügbar zu diesen Datumsangaben:</strong> </p> <p>Beta-Vorschau-Version: 9. Juli 2020</p> <p>Produktionsversion: Ab Version 20.3 in einem stufenweisen Rollout und für alle Kunden bis zum 1. September 2020 verfügbar.</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#email" class="MCXref xref">E-Mail-Änderungen</a> </p> <p> Alle E-Mails von Workfront stammen von notifications@my.workfront.com, und Systemadministratoren haben nicht mehr die Möglichkeit, einen benutzerdefinierten POP-E-Mail-Server für eingehende E-Mail-Antworten auf Benachrichtigungen zu konfigurieren.</p> </td> 
+   <td> <p><strong>Verfügbar zu diesen Daten:</strong> </p> <p>Beta-Vorschau-Version: 9. Juli 2020</p> <p>Produktionsversion: Ab Version 20.3 erfolgt ein schrittweiser Rollout und steht allen Kunden bis zum 1. September 2020 zur Verfügung.</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">DomainKeys Identified Mail (DKIM) ist jetzt in ausgehenden Workfront-E-Mails enthalten</a> </p> <p>In allen ausgehenden E-Mails wird eine E-Mail-Authentifizierungstechnik (DKIM) eingesetzt. Diese DKIM-Signatur ist für den Endbenutzer nicht sichtbar, ermöglicht jedoch die Validierung auf Serverebene und stärkt unser vorhandenes Authentifizierungs-Framework.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 29. Juli 2020</p> <p>Produktionsversion: Ab Version 20.3 in einem stufenweisen Rollout und für alle Kunden bis zum 1. September 2020 verfügbar.</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#domainke" class="MCXref xref">DomainKeys Identified Mail (DKIM) ist jetzt in ausgehenden Workfront-E-Mails enthalten</a> </p> <p>Alle ausgehenden E-Mails enthalten eine E-Mail-Authentifizierungstechnik (DKIM). Diese DKIM-Signatur ist für den Endbenutzer nicht sichtbar, ermöglicht jedoch die Validierung auf Serverebene und stärkt unser bestehendes Authentifizierungs-Framework.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 29. Juli 2020</p> <p>Produktionsversion: Ab Version 20.3 erfolgt ein schrittweiser Rollout und steht allen Kunden bis zum 1. September 2020 zur Verfügung.</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#base64" class="MCXref xref">Base64-Kodierung für Ereignis-Abonnements</a> </p> <p>Das Feld base64Encoding ist ein optionales Feld, das verwendet wird, um die Base64-Kodierung von Payloads für Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem base64Encoding -Feld auf true gestellt wird, werden die Objekte newState und oldState in der Payload als Base64-Kodierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisanmeldungen nicht zulässig sind.</p> </td> 
-   <td><strong>Verfügbar zu diesen Datumsangaben:</strong> <p>Beta-Vorschau: 8. Juli 2020</p> <p>Produktionsversion: 10. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Die neue Adobe Workfront-Erfahrung </p> <p>Adobe Workfront Classic </p> </td> 
+   <td> <p><a href="../../../product-announcements/product-releases/20.3-release-activity/20-3-other-enhancements.md#base64" class="MCXref xref">Base64-Codierung für Ereignisabonnements</a> </p> <p>Das Feld base64encoding ist ein optionales Feld, das verwendet wird, um die Base64-Codierung von Payloads von Ereignisabonnements zu aktivieren. Wenn eine Anfrage mit dem Feld base64Encoding gestellt wird, das auf „true“ gesetzt ist, werden die newState- und oldState-Objekte in der Payload als Base64-Codierungszeichenfolgen bereitgestellt. Diese Funktion kann nützlich sein, wenn Ihr Netzwerk so konfiguriert ist, dass Sonderzeichen in Ereignisabonnements nicht zulässig sind.</p> </td> 
+   <td><strong>Verfügbar zu diesen Daten:</strong> <p>Beta-Vorschau-Version: 8. Juli 2020</p> <p>Produktionsversion: 10. Juli 2020</p> <p><strong>In diesen Umgebungen verfügbar:</strong> </p> <p>Das neue Adobe Workfront-Erlebnis </p> <p>Adobe Workfront Classic </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ## API-Verbesserungen
 
-API-Version 11, die mit der Version 2020.1 veröffentlicht wurde. Weitere Informationen zu den neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in API-Version 11](../../../wf-api/api/new-api-version-11.md)
+API-Version 11, veröffentlicht mit der Version 2020.1. Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 11](../../../wf-api/api/new-api-version-11.md)
 
 <!--
 <a href="https://experience.workfront.com/s/article/What-s-new-in-API-version-11-1760875145" target="_blank" data-mc-conditions="OnlineOrPDF.PrintOnly,QuicksilverOrClassic.Draft mode">What's new in API version 11</a>
@@ -421,40 +421,40 @@ Weitere Informationen zu API-Versionen finden Sie unter [API-Versionierung und S
 
 ## Wartungs-Updates für Workfront 
 
-Informationen zu den Wartungsupdates, die während der Version 20.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungsupdates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
+Informationen zu den Wartungs-Updates, die während der Version 20.3 vorgenommen wurden, finden Sie unter [Workfront-Wartungs-Updates](https://experience.workfront.com/s/article/Workfront-Maintenance-Updates-1882317350).
 
 ## Ankündigungen
 
-* [Änderung in der Vorschau-Release-Kadenz](#change-in-preview-release-cadence)
-* [Zulassungsliste der zusätzlichen Domänen, die für den Zugriff auf Workfront erforderlich sind](#allowlist-of-additional-domains-required-for-accessing-workfront)
+* [Änderung des Veröffentlichungsintervalls für die Vorschau](#change-in-preview-release-cadence)
+* [Zulassungsliste der zusätzlichen Domains, die für den Zugriff auf Workfront erforderlich sind](#allowlist-of-additional-domains-required-for-accessing-workfront)
 * [Workfront One](#workfront-one)
-* [20.3 Release Webinar](#20-3-release-webinar)
-* [Webinar zur Produktübersicht für Q1](#q1-product-roadmap-webinar)
+* Webinar zur Version [.20.3](#20-3-release-webinar)
+* [Webinar zur Produkt-Roadmap im 1. Quartal](#q1-product-roadmap-webinar)
 
-### Änderung der Vorschau der Release-Kadenz {#change-in-preview-release-cadence}
+### Änderung des Veröffentlichungsintervalls für die Vorschau {#change-in-preview-release-cadence}
 
-Ab dem 20. Mai 2020 begann Workfront, die Funktionalität wöchentlich in der Vorschau-Umgebung verfügbar zu machen. Vor dieser Änderung wurde die Funktionalität in der Regel alle zwei Wochen in der Vorschau-Umgebung veröffentlicht.
+Seit dem 20. Mai 2020 stellt Workfront wöchentlich Funktionen in der Vorschau-Umgebung bereit. Vor dieser Änderung wurden die Funktionen normalerweise alle zwei Wochen in der Vorschau-Umgebung veröffentlicht.
 
-Weitere Informationen finden Sie in den häufig gestellten Fragen zum Ändern der Workfront-Vorschauversion ](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)[
+Weitere Informationen finden Sie unter [Häufig gestellte Fragen zur Änderung der Workfront-Vorschauversion](https://one.workfront.com/s/article/Change-in-Workfront-Preview-release-cadence)
 
-### Zulassungsliste der für den Zugriff auf Workfront erforderlichen zusätzlichen Domänen {#allowlist-of-additional-domains-required-for-accessing-workfront}
+### Zulassungsliste der zusätzlichen Domains, die für den Zugriff auf Workfront erforderlich sind {#allowlist-of-additional-domains-required-for-accessing-workfront}
 
-Wenn Ihr Unternehmen eine Firewall verwendet, müssen Sie die folgenden zusätzlichen Domänen zu Ihrer Zulassungsliste hinzufügen, um einen unterbrechungsfreien Zugriff auf Workfront sicherzustellen:
+Wenn Ihr Unternehmen eine Firewall verwendet, müssen Sie die folgenden zusätzlichen Domains zu Ihrer Zulassungsliste hinzufügen, um einen unterbrechungsfreien Zugriff auf Workfront sicherzustellen:
 
 * event.split.io
 * sdk.split.io
 
-Weitere Informationen finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall-](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Weitere Informationen finden Sie [Zulassungsliste zum Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
 
 ### Workfront One {#workfront-one}
 
-Mit Workfront One werden Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront entdecken - alles an einem Ort, mit nur einer Anmeldung. Wir haben die Sites für Erlebnisse, Community und Schulungen vereinheitlicht, um Ihnen die Suche nach dem, was Sie suchen, zu erleichtern.
+Mit Workfront One entdecken Sie die wichtigsten Inhalte, Ressourcen und Neuigkeiten aus Workfront - alles an einem Ort, mit einer Anmeldung. Wir haben die Sites für Erlebnis, Community und Schulung zusammengeführt, damit Sie leichter finden können, wonach Sie suchen.
 
-[Erfahren Sie mehr über Workfront One](https://www.workfront.com/campaigns/workfront-one).
+[Weitere Informationen zu Workfront One](https://www.workfront.com/campaigns/workfront-one).
 
 ### Webinar zur Version 20.3 {#20-3-release-webinar}
 
-Sehen Sie sich das Webinar zur Produktversion 20.3 [hier](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY) an.
+Sehen Sie sich das Webinar zur Produktversion 20.3 an [hier](https://one.workfront.com/s/managed-content-event/20-3-product-release-webinar-20Y0z000000bmRJEAY).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

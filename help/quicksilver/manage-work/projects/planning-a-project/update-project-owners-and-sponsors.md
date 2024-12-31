@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Projekteigentümer und -sponsoren aktualisieren
-description: Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie automatisch als Projekteigentümer des Projekts festgelegt. Sie können dieses Feld mit einem anderen Benutzer aktualisieren. Sie können auch das Feld Projektsponsor eines Projekts aktualisieren.
+title: Projektbesitzer und Sponsoren aktualisieren
+description: Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie automatisch als Projektbesitzer des Projekts festgelegt. Sie können dieses Feld mit einem anderen Benutzer aktualisieren. Sie können auch das Feld Projektsponsor eines Projekts aktualisieren.
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
@@ -14,21 +14,21 @@ ht-degree: 0%
 ---
 
 
-# Projekteigentümer und -sponsoren aktualisieren
+# Projektbesitzer und Sponsoren aktualisieren
 
 <!--Audited: 07/2024-->
 
-Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie automatisch als Projekteigentümer des Projekts festgelegt. Sie können dieses Feld mit einem anderen Benutzer aktualisieren. Sie können auch das Feld Projektsponsor eines Projekts aktualisieren.
+Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie automatisch als Projektbesitzer des Projekts festgelegt. Sie können dieses Feld mit einem anderen Benutzer aktualisieren. Sie können auch das Feld Projektsponsor eines Projekts aktualisieren.
 
-Weitere Informationen zu Projekteigentümern und Sponsoren finden Sie unter [Überblick über Projekteigentümer und Sponsoren](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
+Informationen zu Projektbesitzern und Sponsoren finden Sie unter [Übersicht über Projektbesitzer und Sponsoren](../../../manage-work/projects/planning-a-project/project-owners-and-sponsors.md).
 
 >[!TIP]
 >
->Sie können einen Inhaber und einen Sponsor für eine Vorlage identifizieren. Wenn Sie ein Projekt aus dieser Vorlage erstellen, wird der Vorlageninhaber zum Projekteigentümer und der Vorlagen-Sponsor zum Projektsponsor.
+>Sie können einen Eigentümer und einen Sponsor für eine Vorlage identifizieren. Wenn Sie ein Projekt aus dieser Vorlage erstellen, wird der Vorlagenbesitzer zum Projektbesitzer und der Vorlagensponsor zum Projektsponsor.
 >
->Wenn die Vorlage keinen Eigentümer hat, wird der Benutzer, der das Projekt aus der Vorlage erstellt, zum Projektinhaber.
+>Wenn die Vorlage keinen Eigentümer hat, wird der Benutzer, der das Projekt aus der Vorlage erstellt, zum Projektbesitzer.
 >
->Weitere Informationen zum Bearbeiten von Vorlagen finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Informationen zum Bearbeiten von Vorlagen finden Sie unter [Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ## Zugriffsanforderungen
 
@@ -63,15 +63,15 @@ Weitere Informationen zu Projekteigentümern und Sponsoren finden Sie unter [Üb
 </table>
 -->
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> <p>  </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> <p>  </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -79,56 +79,56 @@ Weitere Informationen zu Projekteigentümern und Sponsoren finden Sie unter [Üb
    <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt bearbeiten</p> </td> 
+   <td> <p>Bearbeiten von Berechtigungen für ein Projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Aktualisieren des Projekteigentümers eines Projekts
+## Aktualisieren des Projektbesitzers eines Projekts
 
-Wenn Sie einen Benutzer als Projekteigentümer eines Projekts hinzufügen, gewährt Workfront ihm automatisch Berechtigungen zum Anzeigen des Projekts.
+Wenn Sie einen Benutzer als Projektbesitzer eines Projekts hinzufügen, erteilt Workfront ihm automatisch die Berechtigungen zum Anzeigen des Projekts.
 
 1. Wechseln Sie zu dem Projekt, das Sie aktualisieren möchten.
-1. Klicken Sie im linken Bereich auf **Projektdetails** .
-1. Klicken Sie oben rechts im Bereich &quot;Projektdetails&quot;auf das Symbol **Bearbeiten** ![](assets/qs-edit-icon.png) und klicken Sie dann auf **Überblick**.
+1. Klicken Sie **linken** auf „Projektdetails“.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails und dann auf **Übersicht**.
 
-1. Geben Sie den Namen eines Benutzers für das Feld **Projekteigentümer** an.
+1. Geben Sie den Namen eines Benutzers für das Feld **Projektbesitzer** an.
 
-   Nur aktive Benutzer können als Projekteigentümer angegeben werden.
+   Nur aktive Benutzer können als Projektbesitzer angegeben werden.
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie **Änderungen speichern**.
 
-   Der Projekteigentümer wird im Projektheader und im Bereich Projektdetails aktualisiert.
+   Der Projektbesitzer wird im Projekt-Header und im Bereich Projektdetails aktualisiert.
 
    ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Aktualisieren des Projektsponsors eines Projekts
 
-Wenn Sie einen Benutzer als Projektsponsor eines Projekts hinzufügen, gewährt Workfront ihm automatisch die Berechtigung zum Anzeigen des Projekts.
+Wenn Sie einen Benutzer als Projektsponsor eines Projekts hinzufügen, erteilt Workfront ihm automatisch die Berechtigungen zum Anzeigen des Projekts.
 
 >[!TIP]
 >
->Wenn der Benutzer, den Sie als Projekt-Sponsor hinzufügen, ein Systemadministrator ist, wird er nicht zur Freigabeliste des Projekts hinzugefügt.
+>Wenn der Benutzer, den Sie als Projektsponsor hinzufügen, Systemadministrator ist, wird er nicht zur Freigabeliste des Projekts hinzugefügt.
 
 1. Wechseln Sie zu dem Projekt, das Sie aktualisieren möchten.
-1. Klicken Sie im linken Bereich auf **Projektdetails** .
-1. Klicken Sie oben rechts im Bereich &quot;Projektdetails&quot;auf das Symbol **Bearbeiten** ![](assets/qs-edit-icon.png) und klicken Sie dann auf **Überblick**.
+1. Klicken Sie **linken** auf „Projektdetails“.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails und dann auf **Übersicht**.
 
 1. Geben Sie den Namen eines Benutzers für das Feld **Projektsponsor** an.
 
-   Als Projektsponsoren können nur aktive Benutzer angegeben werden.
+   Nur aktive Benutzer können als Projektsponsoren angegeben werden.
 
-1. Klicken Sie auf **Änderungen speichern**.
+1. Klicken Sie **Änderungen speichern**.
 
-   Der Projektsponsor aktualisiert den Bereich Projektdetails .
+   Der Projektsponsor aktualisiert sich im Bereich Projektdetails .
 
    ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

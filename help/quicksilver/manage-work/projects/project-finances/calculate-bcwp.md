@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Berechnung der veranschlagten Arbeitskosten (BCWP)
-description: Die als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die den Betrag der Aufgabe darstellt, die zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossen wurde.
+title: Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA)
+description: Die budgetierten Kosten der geleisteten Arbeit (BCWP), auch als Ertragswert bezeichnet, sind eine Projektleistungsmetrik, die den Betrag der Aufgabe darstellt, der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossen wurde.
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
@@ -14,29 +14,29 @@ ht-degree: 2%
 
 ---
 
-# Berechnung der veranschlagten Arbeitskosten (BCWP)
+# Budgetierte Kosten der geleisteten Arbeit berechnen (SKAA)
 
-## Übersicht über die veranschlagten Arbeitskosten (BCWP)
+## Übersicht über die budgetierten Kosten der geleisteten Arbeit (SKAA)
 
-Die als Earned Value (Earned Value, Earned Value, Budgeted Cost of Work Performed, BCWP) bezeichnete Metrik zur Projektleistung, die den Betrag der Aufgabe darstellt, die zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossen wurde.
+Die budgetierten Kosten der geleisteten Arbeit (BCWP), auch als Ertragswert bezeichnet, sind eine Projektleistungsmetrik, die den Betrag der Aufgabe darstellt, der zum Zeitpunkt der Berechnung dieser Metrik tatsächlich abgeschlossen wurde.
 
-Adobe Workfront berechnet die budgetierten Kosten der durchgeführten Arbeit (BCWP) für Projekte und Aufgaben.
+Adobe Workfront berechnet die budgetierten Kosten der geleisteten Arbeit (BCWP) für Projekte und Aufgaben.
 
-Beachten Sie bei der Überprüfung der Werte für das BCWP für eine Aufgabe oder ein Projekt Folgendes:
+Beachten Sie bei der Überprüfung der Werte für den SKAA für eine Aufgabe oder ein Projekt Folgendes:
 
-* Workfront berechnet das BCWP für eine Aufgabe basierend auf Ihrer Konfiguration für die Leistungsindex-Methode (PMI) des Projekts.
+* Workfront berechnet den SKAA für eine Aufgabe auf Grundlage Ihrer Konfiguration für die Leistungsindexmethode (PMI) des Projekts.
 
-  Sie können Ihr Projekt so konfigurieren, dass die PMI anhand von Stunden oder Kosten berechnet wird und der BCWP auch anhand der gleichen Werte berechnet wird.
+  Sie können Ihr Projekt so konfigurieren, dass die PMI anhand von Stunden oder Kosten berechnet wird, und der SKAA-Wert wird auch anhand derselben Werte berechnet.
 
-  Informationen zum Konfigurieren der Berechnung des BCWP finden Sie im Abschnitt [Konfigurieren der Berechnung des BCWP](#configure-how-bcwp-is-calculated) in diesem Artikel.
+  Informationen zur Konfiguration der Berechnung des BCWP finden Sie im Abschnitt [Konfigurieren der Berechnung des BCWP](#configure-how-bcwp-is-calculated) in diesem Artikel.
 
-* Workfront berechnet das BCWP für ein Projekt, indem es alle BCWP-Werte aus allen übergeordneten Aufgaben und Aufgaben des Projekts hinzufügt.
+* Workfront berechnet den SKAA-Wert für ein Projekt, indem es alle SKAA-Werte aus allen übergeordneten Aufgaben und einzelnen Aufgaben des Projekts hinzufügt.
 
-  Die Werte aus untergeordneten Aufgaben werden nicht zum BCWP des Projekts hinzugefügt.
+  Die Werte aus untergeordneten Aufgaben werden nicht zum SKAA des Projekts hinzugefügt.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,8 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -56,43 +56,43 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>Zugriff auf Projekte bearbeiten</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Berechtigungen für das Projekt verwalten</td> 
+   <td>Verwalten von Berechtigungen für das Projekt</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Konfiguration der BCWP-Berechnung {#configure-how-bcwp-is-calculated}
+## Konfigurieren der Berechnung des BCWP {#configure-how-bcwp-is-calculated}
 
-Sie können konfigurieren, ob das BCWP in Stunden oder Kosten berechnet wird, indem Sie konfigurieren, wie die Performance Index Method (PIM) des Projekts berechnet wird.
+Sie können konfigurieren, ob der SKAA in Stunden oder Kosten berechnet wird, indem Sie konfigurieren, wie die Leistungsindexmethode (PIM) des Projekts berechnet wird.
 
-1. Wechseln Sie zu einem Projekt und erweitern Sie im linken Bereich **Projektdetails** .
-1. Suchen Sie im Bereich **Finanzen** das Feld **Leistungsindex-Methode** und doppelklicken Sie auf , um es zu bearbeiten.
+1. Gehen Sie zu einem Projekt und erweitern **Projektdetails** im linken Bereich.
+1. Suchen Sie im Bereich **Finanzen** das Feld **Leistungsindexmethode** und doppelklicken Sie darauf, um es zu bearbeiten.
 
    ![](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
-   | Option | Durchführung der Berechnung |
+   | Option | Wie die Berechnung durchgeführt wird |
    |---|---|
-   | Stundenbasiert | Workfront berechnet das BCWP mithilfe der geplanten Stunden der Aufgaben. |
-   | Kostenbasiert | Workfront berechnet das BCWP mithilfe der Plankosten der Aufgaben. |
+   | Stundenbasiert | Workfront berechnet den SKAA-Wert anhand der geplanten Stunden für die Aufgaben. |
+   | Kostenbasiert | Workfront berechnet den SKAA-Wert anhand der geplanten Kosten der Aufgaben. |
 
 1. Klicken Sie auf **Änderungen speichern**.
 
-Der BCWP der Aufgaben im Projekt wird anhand von Stunden oder Kosten berechnet.
+Der SKAA der Aufgaben im Projekt wird anhand der Stunden oder Kosten berechnet.
 
 ## BCWP berechnen
 
-Workfront berechnet die budgetierten Kosten der durchgeführten Arbeit (BCWP) für eine Aufgabe oder ein Projekt anhand der folgenden Formeln:
+Workfront berechnet die budgetierten Kosten der geleisteten Arbeit (BCWP) für eine Aufgabe oder ein Projekt anhand der folgenden Formeln:
 
 ```
 Task BCWP = Actual Percent Complete x Task Budget
@@ -102,28 +102,28 @@ Task BCWP = Actual Percent Complete x Task Budget
 Project BCWP = SUM(BCWP values of all parent and individual tasks)
 ```
 
-In dieser Berechnung werden die folgenden Werte verwendet:
+Die folgenden Werte werden bei dieser Berechnung verwendet:
 
 | Verwendeter Wert | Beschreibung des verwendeten Werts |
 |---|---|
-| Tatsächlicher Prozentsatz abgeschlossen | Dies ist der tatsächliche Prozentsatz des Abschlusses der Aufgabe, wie er in Workfront angezeigt wird. |
+| Tatsächlicher Prozentsatz abgeschlossen | Dies ist der tatsächliche abgeschlossene Prozentsatz der Aufgabe, wie er in Workfront angezeigt wird. |
 | Aufgabenbudget | Dies ist der Wert für die geplanten Stunden oder geplanten Kosten der Aufgabe. |
 
-Wenn der tatsächliche Prozentsatz des Abschlusses der Aufgabe beispielsweise 25 % beträgt und das Aufgabenbudget oder die geplanten Kosten 10.000 $ beträgt, lautet der BCWP für die Aufgabe:
+Wenn beispielsweise der tatsächliche abgeschlossene Prozentsatz der Aufgabe 25 % beträgt und das Aufgabenbudget oder die geplanten Kosten 10.000 USD betragen, lautet der SKAA für die Aufgabe wie folgt:
 
 ```
 BCWP = 25% x $10,000 = $2,500
 ```
 
-## Suchen Sie den BCWP für ein Projekt oder eine Aufgabe.
+## Suchen des SKAA für ein Projekt oder eine Aufgabe
 
-Sie können den Wert der in einem Bericht oder in einer Liste ausgeführten budgetierten Arbeitskosten anzeigen, indem Sie die Spalte BCWP zu Ihrer Ansicht hinzufügen.
+Sie können den Wert der budgetierten Kosten der geleisteten Arbeit in einem Bericht oder einer Liste anzeigen, indem Sie die Spalte SKAA zu Ihrer Ansicht hinzufügen.
 
-1. Gehen Sie zu einer Liste von Aufgaben oder Projekten.
-1. Erweitern Sie das Menü **Ansicht** und wählen Sie **Neue Ansicht** oder **Ansicht anpassen** aus.
+1. Navigieren Sie zu einer Liste mit Aufgaben oder Projekten.
+1. Erweitern Sie das **Ansicht**-Menü und wählen Sie **Neue Ansicht** oder **Ansicht anpassen**.
 
 1. Klicken Sie auf **Spalte hinzufügen**.
-1. Geben Sie in der Spalte **In dieser Spalte anzeigen:** das Feld **BCWP** ein und klicken Sie auf , um es auszuwählen, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie im Feld **In dieser Spalte anzeigen** mit der Eingabe **BCWP** und klicken Sie, um es auszuwählen, wenn es in der Liste angezeigt wird.
 
    ![](assets/bcwp-project-view.png)
 

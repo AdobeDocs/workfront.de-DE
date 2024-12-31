@@ -1,6 +1,6 @@
 ---
 title: Verwalten von Datensätzen im Planungsabschnitt von Adobe Workfront-Objekten
-description: Sie können die mit Adobe Workfront-Objekten verknüpften Workfront-Planungsdatensätze im Planungsabschnitt eines Workfront-Objekts im linken Bereich anzeigen.
+description: Sie können die Workfront-Planungsdatensätze, die mit Adobe Workfront-Objekten verbunden sind, im Planungsabschnitt eines Workfront-Objekts im linken Bereich anzeigen.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -16,22 +16,22 @@ ht-degree: 1%
 
 <!--add also Group and Company when they are available-->
 
-# Datensatzverbindungen über Workfront-Objekte verwalten
+# Verwalten von Datensatzverbindungen aus Workfront-Objekten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md)</span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
-Sie können Workfront-Planungsdatensätze und die mit Adobe Workfront-Objekten verbundenen Datensätze in den folgenden Bereichen in Workfront anzeigen:
+Sie können Workfront-Planungsdatensätze und die zugehörigen Datensätze, die mit Adobe Workfront-Objekten verbunden sind, in Workfront in den folgenden Bereichen anzeigen:
 
-* Planungsabschnitt eines Workfront-Objekts: Zeigt alle Datensatztypen an, die mit einem Objekt und den zugehörigen Datensätzen verbunden sind.
-* <span class="preview">Ein benutzerdefiniertes Feld für die Planung einer Verbindung: Zeigt einen Datensatztyp und die entsprechenden verbundenen Datensätze an. </span>
+* Der Abschnitt Planung eines Workfront-Objekts: Zeigt alle mit einem Objekt verbundenen Datensatztypen und die entsprechenden verbundenen Datensätze an.
+* <span class="preview">Benutzerdefiniertes Feld für Planning-Verbindung: Zeigt einen Datensatztyp und die entsprechenden verbundenen Datensätze an. </span>
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -52,25 +52,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tr>
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td>
    <td>
-<p>Die folgenden Workfront-Pläne:</p>
+<p>Einer der folgenden Workfront-Pläne:</p>
 <ul><li>Auswählen</li>
 <li>Erstklassig</li>
 <li>Ultimativ</li></ul>
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p>
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p>
    </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td>
    <td>
-<p>Alle</p>
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p>
+<p>Beliebig</p>
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p>
    </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
    <td>
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p>
    </td>
 
 </tr>
@@ -79,37 +79,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
    <p>Standard</p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p>
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p>
   </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Anzeigen oder Aufrufen von Projekten, Programmen und Portfolios</p>  
+   <td> <p>Zugriff auf Projekte, Programme und Portfolios anzeigen oder höher anzeigen</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
-   <p>Zeigen Sie in Workfront die Berechtigungen für ein Projekt, Portfolio oder Programm an oder höher</a> </p> 
-   <p>Zeigen Sie in der Workfront-Planung die Berechtigungen für einen Arbeitsbereich an, um verbundene Datensätze oder Contribute oder höhere Berechtigungen für einen Arbeitsbereich zum Verbinden oder Trennen von Datensätzen anzuzeigen</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche der Workfront-Planung, einschließlich derjenigen, die sie nicht erstellt haben</p> 
+   <p>Zeigen Sie in Workfront Berechtigungen oder höhere Berechtigungen für ein Projekt, ein Portfolio oder ein Programm an</a> </p> 
+   <p>In Workfront Planning können Sie Berechtigungen für einen Arbeitsbereich anzeigen , um verbundene Datensätze anzuzeigen, oder Contribute oder höhere Berechtigungen für einen Arbeitsbereich anzeigen , um Datensätze zu verbinden oder zu trennen</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Workfront Planning-Arbeitsbereiche, einschließlich der nicht erstellten</p> 
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Um den Planungsbereich oder den Planungsabschnitt für ein Workfront-Objekt anzuzeigen, müssen allen Benutzern, einschließlich Workfront-Administratoren, eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü und den Planungsbereich für Projekte, Portfolios und Programme enthält. </p> Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Übersicht über den Zugriff auf die Adobe-Planung</a>. </p>  </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Um den Planungsbereich oder den Planungsabschnitt für ein Workfront-Objekt anzeigen zu können, muss allen Benutzenden, einschließlich Workfront-Administratoren, eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü und den Planungsbereich für Projekte, Portfolios und Programme enthält. </p> Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Übersicht über den Adobe Planning-Zugriff</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Verwalten von Datensätzen im Abschnitt &quot;Planung&quot;
+## Verwalten von Datensätzen im Abschnitt Planung
 
-Sie können den Abschnitt Planung eines Workfront-Objekts verwenden, um alle mit dem Workfront-Objekt verbundenen Datensatztypen und die entsprechenden Datensätze anzuzeigen.
+Sie können den Abschnitt Planung eines Workfront-Objekts verwenden, um alle Datensatztypen und deren jeweilige Datensätze anzuzeigen, die mit dem Workfront-Objekt verbunden sind.
 Der Abschnitt Planung ist für die folgenden Workfront-Objekte verfügbar:
 
 * Projekt
@@ -118,19 +118,19 @@ Der Abschnitt Planung ist für die folgenden Workfront-Objekte verfügbar:
 <!--* Group
 * Company-->
 
-### Überlegungen zum Abschnitt &quot;Planung&quot;von Workfront-Objekten
+### Überlegungen zum Planungsabschnitt von Workfront-Objekten
 
-Beachten Sie Folgendes, wenn Sie Workfront Planning-Datensätze im Planungsabschnitt eines Workfront-Objekts anzeigen:
+Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze im Planungsabschnitt eines Workfront-Objekts anzeigen:
 
-* Die Datensatztypen für die Workfront-Planung müssen zunächst mit den Workfront-Objekttypen verbunden werden.
+* Workfront Planning-Datensatztypen müssen zunächst mit Workfront-Objekttypen verbunden werden.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
-* Sie können den Planungsabschnitt von einem Workfront-Objekt aus anzeigen, selbst wenn dem Workfront-Objekt keine Datensätze zugeordnet sind.
+* Sie können den Planungsabschnitt über ein Workfront-Objekt anzeigen, selbst wenn keine Datensätze mit dem Workfront-Objekt verknüpft sind.
 
-### Datensatzverbindungen im Abschnitt Planung verwalten
+### Verwalten von Datensatzverbindungen über den Abschnitt Planung
 
 {{step1-to-planning}}
 
@@ -139,56 +139,56 @@ Beachten Sie Folgendes, wenn Sie Workfront Planning-Datensätze im Planungsabsch
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
 1. Klicken Sie auf die Karte eines Datensatztyps, der mit einem Workfront-Projekt, -Portfolio oder -Programm verbunden ist.
-1. Wechseln Sie zu einem verbundenen Datensatzfeld, das über eine Verbindung mit einem Workfront-Objekt verfügt, entweder in der Tabellenansicht oder auf der Detailseite eines Datensatzes. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
-1. Klicken Sie im Feld &quot;Verbundener Datensatz&quot;auf den Namen eines Workfront-Objekts.
-Die Seite des Objekts wird in Workfront geöffnet.
+1. Wechseln Sie zu einem verbundenen Datensatzfeld, das über eine Verbindung mit einem Workfront-Objekt verfügt, entweder in der Tabellenansicht oder auf der Detailseite eines Datensatzes. Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
+1. Klicken Sie auf den Namen eines Workfront-Objekts im Feld Verbundener Datensatz .
+Die Seite des -Objekts wird in Workfront geöffnet.
 
    >[!NOTE]
    >
-   >  Wenn Sie ein Workfront-Objekt kennen, das bereits mit einem Planungsdatensatz verbunden ist, können Sie vom Workfront-Objekt aus zum Abschnitt Planung navigieren.
+   >  Wenn Sie wissen, dass ein Workfront-Objekt bereits mit einem Planning-Datensatz verbunden ist, können Sie vom Workfront-Objekt zum Planning-Abschnitt navigieren.
 
-1. Klicken Sie im linken Bereich auf **Planung** .
+1. Klicken **im linken** auf „Planung“.
 
    >[!NOTE]
    >
-   >   Ihr Workfront- oder Gruppenadministrator muss den Bereich Planung zu Ihrer Layoutvorlage hinzufügen, bevor er für ein Workfront-Projekt, -Portfolio oder -Programm angezeigt wird.
+   >   Ihr Workfront- oder Gruppenadministrator muss der Layoutvorlage den Abschnitt Planung hinzufügen, bevor sie für ein Workfront-Projekt, -Portfolio oder -Programm angezeigt wird.
 
    Der Abschnitt Planung wird mit den folgenden Informationen angezeigt:
 
-   * Die verbundenen Datensätze werden auf einzelnen Karten angezeigt, die die folgenden Informationen enthalten:
+   * Die verbundenen Datensätze werden auf einzelnen Karten mit den folgenden Informationen angezeigt:
       * Name des Datensatzes
       * Die Miniaturansicht des Datensatzes
-      * Der Name des verbundenen Datensatzfelds, wie er in der Workfront-Planung angezeigt wird.
+      * Der Name des verbundenen Datensatzfelds, wie er in Workfront Planning angezeigt wird.
    * Datensätze werden unter ihrem jeweiligen Arbeitsbereich und Datensatztyp angezeigt.
 
    ![](assets/planning-section-on-project.png)
 
-1. (Optional) Klicken Sie auf **Alle Verbindungen anzeigen** , um alle verbundenen Datensatztypen anzuzeigen, einschließlich der Typen ohne verbundene Datensätze. Standardmäßig werden Datensatztypen ohne verbundene Datensätze nicht angezeigt.
-1. Klicken Sie auf eine Datensatzkarte, um weitere Informationen zum Datensatz anzuzeigen. Das Vorschaufeld für Datensätze wird angezeigt.
-1. (Optional) Beginnen Sie mit der Änderung der Felder im Vorschaufeld des Datensatzes. Ihre Änderungen werden automatisch gespeichert.
-1. (Optional) Klicken Sie oben rechts im Vorschaufenster auf das Symbol **In einer neuen Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) , um die Detailseite des Datensatzes zu öffnen. Die Detailseite des Datensatzes wird in der Workfront-Planung geöffnet.
-1. (Optional) Bewegen Sie den Mauszeiger über eine Datensatzkarte, klicken Sie auf das Symbol zum Trennen des Datensatzes **-** und klicken Sie dann auf **Trennen**.
+1. (Optional) Klicken Sie auf **Alle Verbindungen anzeigen** um alle verbundenen Datensatztypen anzuzeigen, einschließlich der Typen ohne verbundene Datensätze. Standardmäßig werden Datensatztypen ohne verbundene Datensätze nicht angezeigt.
+1. Klicken Sie auf eine Datensatzkarte, um weitere Informationen zum Datensatz anzuzeigen. Das Datensatzvorschau-Feld wird angezeigt.
+1. (Optional) Beginnen Sie mit der Bearbeitung von Feldern im Vorschaufeld des Datensatzes. Ihre Änderungen werden automatisch gespeichert.
+1. (Optional) Klicken Sie auf **In einer neuen Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) Symbol oben rechts im Vorschaufeld, um die Detailseite des Datensatzes zu öffnen. Die Detailseite des Datensatzes wird in Workfront Planning geöffnet.
+1. (Optional) Bewegen Sie den Mauszeiger über eine Datensatzkarte und klicken Sie dann auf das Symbol zum Trennen des Datensatzes **-** und anschließend auf **Trennen**.
 Folgendes geschieht:
    * Der Datensatz ist nicht mehr mit dem Workfront-Objekt verbunden.
-   * Das Workfront-Objekt wird auch aus dem verbundenen Feld des Datensatzes aus der Workfront-Planung entfernt.
+   * Das Workfront-Objekt wird auch aus dem verknüpften Feld des Datensatzes aus Workfront Planning entfernt.
    * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden ebenfalls gelöscht.
-1. Klicken Sie auf **Verbinden** , um weitere Datensätze für die verbundenen Datensatztypen zu verbinden. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+1. Klicken Sie **Verbinden**, um weitere Datensätze für die verbundenen Datensatztypen zu verbinden. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 
    Folgendes geschieht:
 
-   * Die Datensätze sind sofort mit dem Workfront-Objekt verbunden und werden im Abschnitt Planung angezeigt.
-   * Das Workfront-Objekt wird dem Verbindungsfeld des Workfront-Planungsdatensatzes hinzugefügt.
-   * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden in der Workfront-Planung ausgefüllt.
+   * Die Datensätze werden sofort mit dem Workfront-Objekt verbunden und im Abschnitt Planung angezeigt.
+   * Das Workfront-Objekt wird dem verbundenen Feld des Workfront-Planungsdatensatzes hinzugefügt.
+   * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden in Workfront Planning ausgefüllt.
 
 <div class="preview">
 
-## Verwalten von Datensätzen im Feldtyp Planen der Verbindung
+## Verwalten von Datensätzen im Verbindungs-Feldtyp „Planung“
 
-Sie können ein benutzerdefiniertes Verbindungsfeld für ein Workfront-Objekt verwenden, um einen Datensatztyp und die entsprechenden mit dem Workfront-Objekt verbundenen Datensätze anzuzeigen.
+Sie können ein benutzerdefiniertes Feld für Planning-Verbindungen in einem Workfront-Objekt verwenden, um einen Datensatztyp und die entsprechenden Datensätze anzuzeigen, die mit dem Workfront-Objekt verbunden sind.
 
-Sie können steuern, welche Datensatztypen für das Workfront-Objekt geplant werden, wenn Sie benutzerdefinierte Felder für die Planungsverbindung erstellen.
+Sie können steuern, welche Planning-Datensatztypen für das Workfront-Objekt angezeigt werden, wenn Sie benutzerdefinierte Felder für die Planning-Verbindung erstellen.
 
-* Im Feld Verbindungsplanung werden die Planungsdatensätze angezeigt, nachdem eine Verbindung hergestellt wurde und das Feld an Formulare für die folgenden Workfront-Objekte angehängt ist:
+* Das Feld Planning-Verbindung zeigt Planungsdatensätze an, nachdem eine Verbindung hergestellt wurde und wenn das Feld für die folgenden Workfront-Objekte an Formulare angehängt wird:
 
    * Projekt
    * Portfolio
@@ -196,22 +196,22 @@ Sie können steuern, welche Datensatztypen für das Workfront-Objekt geplant wer
    * Gruppe
    * Firma
 
-Weitere Informationen finden Sie unter [Erstellen eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen finden Sie unter [Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ### Überlegungen zum Planungs-Verbindungs-Feldtyp
 
-Beachten Sie Folgendes, wenn Sie Workfront Planning-Datensätze aus einem Verbindungsfeld für ein Workfront-Objekt anzeigen:
+Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld für die Planning-Verbindung eines Workfront-Objekts anzeigen:
 
-* Sie können nur einen Datensatztyp mit einem Verbindungsfeld Planung verknüpfen.
-* Sie müssen ein benutzerdefiniertes Formular mit einem benutzerdefinierten Feld für die Planungsverbindung an ein Workfront-Objekt anhängen, das über die Workfront-Planung verbunden werden kann, wenn Sie über den richtigen Zugriff verfügen.
-* Die Datensatztypen für die Workfront-Planung müssen zunächst mit den Workfront-Objekttypen verbunden werden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Sie können Datensätze nur für Objekte mit Workfront-Planungs-Verbindungen über das Verbindungsfeld Planen eines Workfront-Objekts verbinden oder trennen.
-* Sie müssen über Contribute-Berechtigungen für einen Arbeitsbereich in der Workfront-Planung verfügen, um Datensätze über das Verbindungsfeld Planung eines Workfront-Objekts verbinden oder trennen zu können.
-* Sie können ein Verbindungsfeld für die Planung nicht bearbeiten, wenn Sie Workfront-Objekte stapelweise bearbeiten.
+* Es kann nur ein Datensatztyp mit einem Planning-Verbindungsfeld verknüpft werden.
+* Sie müssen ein benutzerdefiniertes Formular mit einem benutzerdefinierten Feld für die Planning-Verbindung an ein Workfront-Objekt anhängen, das über Workfront Planning verbunden werden kann, wenn Sie den richtigen Zugriff haben.
+* Workfront Planning-Datensatztypen müssen zunächst mit Workfront-Objekttypen verbunden werden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Sie können Datensätze nur für Objekte, die Workfront Planning-Verbindungen aufweisen können, mit dem Feld Planning-Verbindung eines Workfront-Objekts verbinden oder davon trennen.
+* Sie müssen über Contribute-Berechtigungen für einen Arbeitsbereich in Workfront Planning verfügen, um Datensätze mit dem Feld Planning-Verbindung eines Workfront-Objekts verbinden oder trennen zu können.
+* Ein Planning-Verbindungsfeld kann nicht bearbeitet werden, wenn Workfront-Objekte stapelweise bearbeitet werden.
 
 ### Verwalten von Datensatzverbindungen über den Feldtyp Planungsverbindung
 
-1. Wechseln Sie zu einem der folgenden Objektarten, die mit einem Workfront Planning-Record-Typ verbunden sind:
+1. Wechseln Sie zu einem der folgenden Objekttypen, die mit einem Workfront Planning-Datensatztyp verbunden wurden:
 
    * Projekt
    * Portfolio
@@ -219,40 +219,40 @@ Beachten Sie Folgendes, wenn Sie Workfront Planning-Datensätze aus einem Verbin
    * Firma
    * Gruppe
 
-1. Klicken Sie im linken Bereich auf **&lt; Objekt > Details** .
-1. (Bedingt) Fügen Sie ein benutzerdefiniertes Formular mit mindestens einem Verbindungsfeld Planen für das ausgewählte Objekt hinzu, falls eines nicht vorhanden ist.
+1. Klicken Sie im linken Bedienfeld auf **&lt; Objekt**> Details.
+1. (Bedingt) Fügen Sie ein benutzerdefiniertes Formular mit mindestens einem Planning-Verbindungsfeld für das ausgewählte Objekt hinzu, wenn kein solches Feld vorhanden ist.
 
    >[!NOTE]
    >
-   >Ihr Workfront- oder Gruppenadministrator muss zunächst das Formular erstellen und ein Verbindungsfeld für die Planung hinzufügen, bevor Sie es zu einem Objekt hinzufügen können.
+   >Ihr Workfront- oder Gruppenadministrator muss zunächst das Formular erstellen und ein Feld für die Planning-Verbindung hinzufügen, bevor Sie es einem Objekt hinzufügen können.
 
 
-1. Klicken Sie in das Feld, um verbundene Datensätze hinzuzufügen, und klicken Sie dann auf den Pfeil nach unten innerhalb des Felds, um Datensätze aus der Liste auszuwählen.
+1. Klicken Sie in das Feld, um verbundene Datensätze hinzuzufügen, und klicken Sie dann auf den nach unten zeigenden Pfeil innerhalb des Felds, um Datensätze aus der Liste auszuwählen.
 
    ![](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
-   >Es ist nicht möglich, Datensätze zu Verbindungsfeldern der Planung hinzuzufügen, die mit anderen Workfront-Objekten als dem bei der Feldkonfiguration ausgewählten Objekt verknüpft sind.
+   >Sie können keine Datensätze zu Planning-Verbindungsfeldern hinzufügen, die mit anderen Workfront-Objekten als dem Objekt verknüpft sind, das Sie beim Konfigurieren des Felds ausgewählt haben.
    >
-   >Beispielsweise können Sie keinem Verbindungsfeld Planung Datensätze hinzufügen, das für eine Projektverbindung über das benutzerdefinierte Formular eines Portfolios erstellt wurde.
+   >Sie können beispielsweise keine Datensätze zu einem Planning-Verbindungsfeld hinzufügen, das für eine Portfolio-Verbindung aus dem benutzerdefinierten Formular eines Projekts erstellt wurde.
    >
-   >Es gibt einen Hinweis darauf, dass das Objekt des Felds und das von Ihnen ausgewählte Objekt nicht übereinstimmen.
+   >Es gibt einen Hinweis darauf, dass das Objekt des Felds und das ausgewählte Objekt nicht übereinstimmen.
    >
    >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
-1. Klicken Sie außerhalb der Liste, um sie zu schließen.
+1. Klicken Sie auf eine Stelle außerhalb der Liste, um sie zu schließen.
 
    Folgendes geschieht:
 
-   * Die Datensätze sind sofort mit dem Workfront-Objekt verbunden und werden im Feld Planen der Verbindung sowie im Abschnitt Planung des Workfront-Objekts angezeigt.
-   * Das Workfront-Objekt wird dem Verbindungsfeld des Workfront-Planungsdatensatzes hinzugefügt.
-   * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden in der Workfront-Planung ausgefüllt.
-1. (Optional) Klicken Sie im Feld Verbindung planen auf den Namen eines Datensatzes, um ihn in der Workfront-Planung zu öffnen.
-Die Registerkarte Datensatzdetails wird in der Workfront-Planung geöffnet.
-Sie können Informationen zum Datensatz überprüfen oder zur Seite mit dem Datensatztyp navigieren.
+   * Die Datensätze werden sofort mit dem Workfront-Objekt verbunden und im Feld Planning-Verbindung sowie im Abschnitt Planning des Workfront-Objekts angezeigt.
+   * Das Workfront-Objekt wird dem verbundenen Feld des Workfront-Planungsdatensatzes hinzugefügt.
+   * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden in Workfront Planning ausgefüllt.
+1. (Optional) Klicken Sie auf den Namen eines Datensatzes im Feld Planning-Verbindung , um ihn in Workfront Planning zu öffnen.
+Die Registerkarte „Datensatzdetails“ wird in Workfront Planning geöffnet.
+Sie können Informationen zum Datensatz überprüfen oder zur Seite Datensatztyp navigieren.
 
-1. (Optional) Klicken Sie im benutzerdefinierten Formular in Workfront auf das Symbol **Entfernen** ![](assets/remove-icon.png) für einen Datensatz, um ihn aus dem Feld Planungs-Verbindung zu entfernen und vom Workfront-Objekt zu trennen.
-Das Workfront-Objekt wird vom Planungsdatensatz getrennt und alle Lookup-Informationen aus Workfront werden aus dem Datensatz entfernt.
+1. (Optional) Klicken Sie im benutzerdefinierten Formular in Workfront auf das Symbol **Entfernen**, das in einem Datensatz ![](assets/remove-icon.png) wird, um es aus dem Feld „Planning-Verbindung“ zu entfernen und vom Workfront-Objekt zu trennen.
+Das Workfront-Objekt wird vom Planungsdatensatz getrennt und alle Suchinformationen aus Workfront werden aus dem Datensatz entfernt.
 
 </div>

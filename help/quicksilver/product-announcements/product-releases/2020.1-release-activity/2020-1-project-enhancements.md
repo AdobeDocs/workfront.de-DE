@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: 2020.1 Projektverbesserungen
-description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 2020.1 an Projekten vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
+title: Projektverbesserungen in 2020.1
+description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 2020.1 an Projekten vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,54 +14,54 @@ ht-degree: 0%
 
 ---
 
-# 2020.1 Projektverbesserungen
+# Projektverbesserungen in 2020.1
 
-Auf dieser Seite werden alle Verbesserungen beschrieben, die mit Version 2020.1 an Projekten vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen beschrieben, die mit der Version 2020.1 an Projekten vorgenommen wurden. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die mit Version 2020.1 verfügbar sind, finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Eine Liste aller mit Version 2020.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
-## In einer Aktualisierung leichter erkennbar, wer mit Tags versehen ist
+## Einfacher festzustellen, wer in einem Update getaggt ist
 
-Es ist jetzt einfacher zu sehen, welche Benutzer bei einer Aktualisierung mit Tags versehen sind. Die Anzeige des mit Tags versehenen Benutzernamens in Blau und der Link zum Benutzerprofil.
+Es ist jetzt einfacher zu sehen, welche Benutzer in einem Update getaggt sind. Die Anzeige des Benutzernamens mit Tags in Blau und der Link zum Benutzerprofil.
 
-Tagging-Benutzer werden auch unter dem Kommentarfeld aufgeführt.
+Getaggte Benutzende werden auch unter dem Kommentarfeld aufgeführt.
 
-Vor dieser Verbesserung wurden die zuvor mit Tags versehenen Benutzer nicht im Feld &quot;Benachrichtigen&quot;angezeigt.
+Vor dieser Verbesserung wurden die Benutzenden, die zuvor mit Tags versehen waren, nicht im Benachrichtigungsfeld angezeigt.
 
-Weitere Informationen finden Sie unter [Taggen anderer Benutzer bei Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Weitere Informationen finden Sie unter [Andere bei Updates taggen](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
-## Einschließen und Identifizieren von zitiertem Text in einen Aktualisierungskommentar oder eine Antwort
+## Einschließen und Identifizieren von zitiertem Text in einem Aktualisierungskommentar oder einer Antwort
 
-Wenn Sie einen Kommentar eingeben, können Sie einen Teil Ihres Kommentars als zitierten Text markieren, um ihn von Ihrem eigenen Kommentar zu unterscheiden. Verwenden Sie die Schaltfläche Blockangebot im HTML-Editor.
+Wenn Sie einen Kommentar eingeben, können Sie einen Teil des Kommentars als zitierten Text markieren, um ihn von Ihrem eigenen Kommentar zu unterscheiden. Verwenden Sie die Schaltfläche Blockzitat im HTML-Editor.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 
-## Vorherigen Kommentar in einem Aktualisierungskommentar oder einer Antwort zitieren
+## Einen vorherigen Kommentar in einen Aktualisierungskommentar oder eine Antwort zitieren
 
-Wenn Sie Kommentare in einem Aktualisierungs-Thread erstellen, können Sie schnell Text aus einem vorherigen Kommentar in den Thread einfügen. Suchen Sie im Menü Mehr neben dem Kommentar, den Sie zitieren möchten, nach der Option Antwort zitieren .
+Wenn Sie einen Kommentar in einem Aktualisierungs-Thread einfügen, können Sie schnell Text aus einem vorherigen Kommentar in den Thread einbeziehen. Suchen Sie im Menü Mehr neben dem Kommentar, den Sie zitieren möchten, nach der Option Antwort auf das Angebot.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Zusätzliche Informationen zu Risiken
 
-Damit Sie die Risiken Ihrer Projekte besser verstehen können, können Sie jetzt sehen, wer und wann ein Risiko eingegangen ist und wann es über ein Projekt aktualisiert wurde. Sie können auf diese Informationen in einer Risikoansicht und über die öffentliche Workfront-API zugreifen. Diese Felder sind mit der API-Version 11 verfügbar, die für die Produktion 2020.1 veröffentlicht wird.
+Damit Sie die Risiken Ihrer Projekte besser verstehen können, können Sie jetzt sehen, wer und wann ein Risiko eingegeben und wann es bei einem Projekt aktualisiert wurde. Sie können auf diese Informationen in einer Risikoansicht und über die öffentliche Workfront-API zugreifen. Diese Felder sind ab API-Version 11 verfügbar, die mit der Produktion 2020.1 veröffentlicht wird.
 
-Informationen zu Risiken in Workfront finden Sie unter [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+Informationen zu Risiken in Workfront finden Sie unter [Erstellen und Bearbeiten von Risiken in Projekten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
-## Zusätzliche Felder zu Grundlinien und Grundlinien-Aufgaben hinzugefügt
+## Zusätzliche Felder zu Baselines und Baseline-Aufgaben hinzugefügt
 
-Um den finanziellen Fortschritt Ihrer Projekte besser zu verstehen, können Sie jetzt zusätzliche Kosten- und Umsatzinformationen in einen Baseline- oder einen Baseline-Aufgabenbericht aufnehmen. Die zusätzlichen Finanzinformationen werden nicht zu den Grundlinien hinzugefügt, die Sie derzeit gespeichert haben, sondern für neue Grundlinien hinzugefügt.
+Damit Sie den finanziellen Fortschritt Ihrer Projekte besser verstehen können, können Sie jetzt zusätzliche Kosten- und Umsatzinformationen in einen Baseline- oder einen Baseline-Aufgabenbericht aufnehmen. Die zusätzlichen Finanzinformationen werden nicht zu den Baselines hinzugefügt, die Sie derzeit gespeichert haben, sondern zu neuen Baselines.
 
-Informationen zu Projekt- und Aufgabenfinanzfeldern, auf die über die Objekte &quot;Baseline&quot;und &quot;Baseline Task&quot;zugegriffen werden kann, finden Sie unter [Projektfinanzierungen in den Projektgrundlagen](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+Informationen zu Projekt- und Aufgabenfinanzfeldern, auf die über die Basisobjekte und Basisobjekte für Aufgaben zugegriffen werden kann, finden Sie unter [Projektfinanzen in Projektbasislinien enthalten](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
-## Probleme mit dem Status &quot;Abgeschlossene/ausstehende Genehmigung&quot;werden als unvollständig betrachtet
+## Probleme mit dem Status „Geschlossene bis ausstehende Genehmigung“ werden als unvollständig betrachtet
 
-Die Art und Weise, wie Workfront Probleme mit dem Status &quot;Vollständige Genehmigung ausstehend&quot;behandelt, wurde geändert. Diese Probleme werden jetzt als offen wahrgenommen und das Projekt kann erst als abgeschlossen markiert werden, wenn die Genehmigung abgeschlossen ist.
+Die Art und Weise, wie Workfront Probleme mit dem Status „Ausstehende Genehmigung abschließen“ behandelt, wurde geändert. Diese Probleme werden nun als offen wahrgenommen und das Projekt kann erst als abgeschlossen markiert werden, wenn die Genehmigung erledigt ist.
 
-Vor dieser Änderung wurden Probleme mit dem Status &quot;Geschlossene Genehmigung&quot; als geschlossen betrachtet.
+Vor dieser Änderung wurden Probleme mit dem Status „Ausstehende Genehmigung geschlossen“ als geschlossen betrachtet.
 
-Alle Probleme, die vor dieser Änderung in den Status Geschlossen - Ausstehende Genehmigung eingetragen wurden, verhalten sich genauso wie zuvor, werden als abgeschlossen betrachtet und ermöglichen auch den Abschluss des Projekts. Alle Probleme, die nach dieser Änderung in diesem Status auftreten, werden als unvollständig betrachtet.
+Alle Probleme, die vor dieser Änderung in den Status Geschlossen - Ausstehende Genehmigung versetzt wurden, verhalten sich genauso wie zuvor. Sie werden als abgeschlossen betrachtet, sodass das Projekt ebenfalls abgeschlossen werden kann. Alle Probleme, die nach dieser Änderung in diesen Status aufgenommen werden, werden als unvollständig betrachtet.
 
-Weitere Informationen zum Projektstatus finden Sie unter [Zugriff auf die Liste der Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+Informationen zum Projektstatus finden Sie unter [Zugriff auf die Liste der Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
 

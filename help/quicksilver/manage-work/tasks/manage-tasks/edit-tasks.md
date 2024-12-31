@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Aufgaben bearbeiten
-description: Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über Contribute- oder Verwaltungsberechtigungen verfügen. In diesem Artikel wird beschrieben, wie Sie eine Aufgabe suchen, suchen und bearbeiten können, wenn Sie dazu über die entsprechenden Berechtigungen verfügen.
+description: Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über Contribute- oder Verwaltungsberechtigungen verfügen. In diesem Artikel wird beschrieben, wie Sie nach einer Aufgabe suchen, diese suchen und bearbeiten können, wenn Sie dazu berechtigt sind.
 author: Alina
 feature: Work Management, Tasks
 role: User
@@ -31,15 +31,15 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -54,13 +54,13 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
    <td role="rowheader">Objektberechtigungen</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute berechtigt eine Aufgabe, die folgenden Informationen im Bereich "Aufgabendetails"zu bearbeiten: </p>
+     <li> <p>Contribute-Berechtigungen für eine Aufgabe , um die folgenden Informationen im Bereich „Aufgabendetails“ zu bearbeiten: </p>
      <ul>
      <li>Beschreibung</li>
      <li>Status</li>
      </ul>  
       </li> 
-     <li> <p>Berechtigungen für eine Aufgabe verwalten, um alle Informationen im Bereich Details und im Feld Aufgabe bearbeiten zu bearbeiten</p> </li> 
+     <li> <p>Verwalten Sie die Berechtigungen für eine Aufgabe, um alle Informationen im Bereich Details und im Feld Aufgabe bearbeiten zu bearbeiten</p> </li> 
     </ul> 
     <ul> 
      <li> <p>Contribute oder höhere Berechtigungen für das Projekt</p> </li> 
@@ -69,83 +69,83 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Einschränkungen bei der Bearbeitung von Aufgaben
+## Einschränkungen bei der Aufgabenbearbeitung
 
-Es gibt einige Einschränkungen, die Sie daran hindern können, Aufgaben zu bearbeiten.
+Es gibt einige Einschränkungen, die Sie möglicherweise daran hindern, Aufgaben zu bearbeiten.
 
 Beachten Sie beim Bearbeiten von Aufgaben Folgendes:
 
-* Aktualisieren von Benachrichtigungen für Trigger zu Aufgaben, die einen aktuellen Status aufweisen. Um Verwirrung bei Benutzern zu vermeiden, die den Aufgaben zugewiesen sind, begrenzen Sie Bearbeitungsaufgaben so weit wie möglich, wenn das Projekt den Status Aktuell aufweist.
-* Sie können keine Aufgaben bearbeiten, die sich in einem Genehmigungsprozess befinden. Sie können die Zeit nur protokollieren oder den Status einer Aufgabe in einem Genehmigungsprozess aktualisieren.
+* Trigger Aufgabenstatusbenachrichtigungen für Projekte mit dem Status „Aktuell“ werden aktualisiert. Um Verwirrung bei den Benutzern zu vermeiden, die den Aufgaben zugewiesen sind, sollten Sie die Bearbeitung von Aufgaben so weit wie möglich einschränken, wenn das Projekt den Status „Aktuell“ aufweist.
+* Aufgaben, die sich in einem Genehmigungsprozess befinden, können nicht bearbeitet werden. Sie können nur die Zeit protokollieren oder den Status für eine Aufgabe in einem Genehmigungsprozess aktualisieren.
 
   ![](assets/edit-task-in-approval-process-nwe-350x148.png)
 
-* Sie können Dokumente nur dann bearbeiten und Aufgaben in einem Projekt hinzufügen, für das der Status &quot;Abgeschlossen&quot;, &quot;Dead&quot;oder &quot;Ausstehende Genehmigung&quot;lautet, wenn der Workfront-Administrator oder ein Gruppenadministrator diese Funktion im Bereich &quot;Projekteinstellungen&quot;aktiviert hat. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Konfigurieren von systemweiten Projekteigenschaften](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Sie können Dokumente nur dann zu Aufgaben in einem Projekt mit dem Status „Abgeschlossen“, „Eingestellt“ oder „Genehmigung steht aus“ bearbeiten oder hinzufügen, wenn diese Funktion von Ihrem Workfront-Administrator oder einem Gruppenadministrator im Bereich „Projektvoreinstellungen“ aktiviert wurde. Informationen zum Festlegen von Projektvoreinstellungen finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-* Sie können die folgenden Informationen zu einer Aufgabe jederzeit bearbeiten, wenn das Projekt als abgeschlossen, ungültig oder in einem Genehmigungsprozess markiert wurde:
+* Sie können jederzeit die folgenden Informationen zu einer Aufgabe bearbeiten, wenn das Projekt als abgeschlossen, eingestellt oder in einem Genehmigungsprozess ist:
 
    * Zeit erfassen
    * Bestehende Ausgaben bearbeiten
    * Benutzerdefiniertes Formular anhängen
 
-* Andere Benutzer müssen ihre Seiten aktualisieren, bevor sie die Aktualisierungen anzeigen können, die Sie an einer Aufgabe vornehmen.
+* Andere Benutzer müssen ihre Seiten aktualisieren, bevor sie die Aktualisierungen sehen können, die Sie an einer Aufgabe vornehmen.
 
 ## Aufgabe in einer Liste bearbeiten
 
-Sie können Aufgabeninformationen in einer Liste von Aufgaben bearbeiten, indem Sie in der Ansicht der Liste angezeigte Inline-Bearbeitungsfelder verwenden.
+Sie können Aufgabeninformationen in einer Aufgabenliste bearbeiten, indem Sie die in der Listenansicht angezeigten Felder inline bearbeiten.
 
-Informationen zum Bearbeiten von Aufgaben in Listen finden Sie unter [Aufgaben in einer Liste bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Informationen zum Bearbeiten von Aufgaben in Listen finden Sie unter [Bearbeiten von Aufgaben in einer Liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-## Bearbeiten einer Aufgabe in einer Liste mithilfe der Zusammenfassung
+## Aufgabe in einer Liste mithilfe der Zusammenfassung bearbeiten
 
-Sie können eine Aufgabe in einer Liste über das Bedienfeld &quot;Zusammenfassung&quot;bearbeiten. Informationen zum Bearbeiten einer Aufgabe im Bereich &quot;Zusammenfassung&quot;finden Sie im Abschnitt &quot;Aufgabe in der Zusammenfassung bearbeiten&quot;im Artikel [Aufgaben in einer Liste bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md) .
+Sie können eine Aufgabe in einer Liste mithilfe des Bedienfelds Zusammenfassung bearbeiten. Informationen zum Bearbeiten einer Aufgabe im Zusammenfassungsbereich finden Sie im Abschnitt „Bearbeiten einer Aufgabe in der Zusammenfassung“ im Artikel [Bearbeiten von Aufgaben in einer Liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
-## Bearbeiten einer Aufgabe im Feld &quot;Aufgabe bearbeiten&quot;
+## Aufgabe bearbeiten im Feld Aufgabe bearbeiten
 
-Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetails bearbeiten. Die folgenden Schritte beschreiben die Bearbeitung einer Aufgabe im Feld &quot;Aufgabe bearbeiten&quot;.
+Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendetails bearbeiten. Die folgenden Schritte beschreiben das Bearbeiten einer Aufgabe im Feld Aufgabe bearbeiten .
 
 {{step1-click-main-menu}}
 
-1. Klicken Sie auf **Projekte** und dann auf den Namen eines Projekts, um es zu öffnen.
-1. Klicken Sie im linken Bereich auf **Aufgaben** .
+1. Klicken Sie **Projekte** und anschließend auf den Namen eines Projekts, um es zu öffnen.
+1. Klicken Sie **linken** auf „Aufgaben“.
 1. Klicken Sie auf die Aufgabe, die Sie bearbeiten möchten.
-1. (Bedingt) Um beschränkte Informationen zu einer Aufgabe zu bearbeiten, klicken Sie im linken Bereich auf **Aufgabendetails** .
+1. (Bedingt) Um eingeschränkte Informationen zu einer Aufgabe zu bearbeiten, klicken Sie **linken Bereich auf** Aufgabendetails“.
 
    ![](assets/nwe-task-details-expanded-350x273.png)
 
-   Bearbeiten Sie Informationen in den folgenden Bereichen im Abschnitt Aufgabendetails :
+   Erwägen Sie, Informationen in den folgenden Bereichen im Abschnitt „Aufgabendetails“ zu bearbeiten:
 
-   * **Überblick**
+   * **Übersicht**
 
-     Dieser Bereich wird standardmäßig erweitert.
+     Dieser Bereich ist standardmäßig erweitert.
 
    * **Benutzerdefinierte Formulare**
 
-     Namen von Zollformularen werden nur angezeigt, wenn benutzerdefinierte Formulare an das Objekt angehängt sind.
+     Namen von benutzerdefinierten Formularen werden nur angezeigt, wenn dem -Objekt benutzerdefinierte Formulare beigefügt sind.
 
-   * **Finance**
+   * **Finanzen**
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layout-Vorlage geändert hat, werden die Felder im Bereich &quot;Aufgabendetails&quot;möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layout-Vorlage geändert hat, werden die Felder im Bereich Aufgabendetails möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Informationen zu den Feldern, die im Abschnitt &quot;Aufgabendetails&quot;angezeigt werden, erhalten Sie, wenn Sie die Aufgabe im Feld &quot;Aufgabe bearbeiten&quot;bearbeiten möchten, wie unten beschrieben.
+   Um Informationen zu den Feldern zu erhalten, die im Abschnitt Aufgabendetails sichtbar sind, fahren Sie mit dem Bearbeiten der Aufgabe im Feld Aufgabe bearbeiten wie unten beschrieben fort.
 
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
-   1. (Optional) Klicken Sie oben rechts auf das Symbol **Alle reduzieren** ![](assets/collapse-all-icon.png) , um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich ausgeblendet wird, klicken Sie neben jedem Bereich auf den Pfeil **rechts zeigen** ![](assets/right-pointing-arrow.png) , um den zu bearbeitenden Bereich zu erweitern.
-   1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte &quot;Aufgabendetails&quot;finden Sie in den folgenden Artikeln:
+   1. (Optional) Klicken Sie auf das **Alle reduzieren**-Symbol ![](assets/collapse-all-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** ![](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
+   1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte „Aufgabendetails“ finden Sie in den folgenden Artikeln:
 
-      * [Verwalten von Aufgabeninformationen im Übersichtsbereich &quot;Aufgabendetails&quot;](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
-      * [Verwalten von Aufgabenfinanzen im Abschnitt &quot;Aufgabendetails&quot;](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+      * [Verwalten von Aufgabeninformationen im Bereich Aufgabendetails - Übersicht](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+      * [Verwalten der Aufgabenfinanzen im Abschnitt Aufgabendetails](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
 
-   1. (Optional) Wenn der Aufgabe keine benutzerdefinierten Formulare angehängt sind, geben Sie den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
-   1. (Optional) Klicken Sie auf das Symbol **Exportieren** ![](assets/export.png), um die Übersicht und die benutzerdefinierten Formulardaten in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
+   1. (Optional) Wenn keine benutzerdefinierten Formulare an die Aufgabe angehängt sind, geben Sie den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
+   1. (Optional) Klicken Sie auf das **Exportieren**-Symbol ![](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
 
       * Alle auswählen (wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular angehängt ist)
       * Übersicht
@@ -157,52 +157,52 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
 
       Weitere Informationen finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
-1. (Bedingt) Um alle Informationen über die Aufgabe zu bearbeiten, klicken Sie als Benutzer mit Verwaltungsberechtigungen für die Aufgabe auf das Menü **Mehr** neben dem Namen der Aufgabe und klicken Sie dann auf **Bearbeiten**.![](assets/more-icon.png)
+1. (Bedingt) Um alle Informationen zu der Aufgabe zu bearbeiten, klicken Benutzende mit der Berechtigung Verwalten für die Aufgabe auf das Menü **Mehr** ![](assets/more-icon.png) neben dem Namen der Aufgabe und anschließend auf **Bearbeiten**.
 
    Oder
 
-   Wählen Sie aus einer Aufgabenliste eine Aufgabe aus und klicken Sie dann oben in der Liste auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) .
+   Wählen Sie aus einer Aufgabenliste eine Aufgabe aus und klicken Sie dann oben in **Liste auf** Bearbeiten![](assets/edit-icon.png).
 
    Das Feld Aufgabe bearbeiten wird geöffnet.
 
    >[!IMPORTANT]
    >
-   >Sie müssen über Verwaltungsberechtigungen für die Aufgabe verfügen, um die Option &quot;Bearbeiten&quot;zu sehen.
+   >Sie müssen über Verwaltungsberechtigungen für die Aufgabe verfügen, um die Option Bearbeiten anzuzeigen.
 
    Alle Aufgabenfelder sind im Feld Aufgabe bearbeiten verfügbar und werden nach den im linken Bereich aufgelisteten Bereichen gruppiert.
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layout-Vorlage geändert hat, werden die Felder im Bereich &quot;Aufgabendetails&quot;möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layout-Vorlage geändert hat, werden die Felder im Bereich Aufgabendetails möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-   Ziehen Sie in Erwägung, Informationen in einem der folgenden Abschnitte anzugeben:
+   Erwägen Sie, Informationen in einem der folgenden Abschnitte anzugeben:
 
    * [Aufgabenname](#task-name)
-   * [Überblick](#overview)
+   * [Übersicht](#overview)
    * [Arbeitsaufträge](#assignments)
    * [Benutzerdefinierte Formulare](#Custom%C2%A0F)
-   * [Finance](#finance)
+   * [Finanzen](#finance)
    * [Einstellungen](#settings)
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr Workfront-Administrator oder Gruppenadministrator Ihre Layout-Vorlage einrichtet, werden die Felder im Feld &quot;Aufgabe bearbeiten&quot;möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
+   >Je nachdem, wie Workfront-Admins oder Gruppenadmins Ihre Layout-Vorlage einrichten, werden die Felder im Feld Aufgabe bearbeiten möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
 ### Aufgabenname {#task-name}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe wie oben beschrieben.
-1. Klicken Sie im linken Bereich auf **Task Name** .
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
+1. Klicken Sie **linken** auf „Aufgabenname“.
 
    ![](assets/nwe-task-name-section-edit-task-box-350x122.png)
 
 1. Aktualisieren Sie den Namen der Aufgabe.
 
-1. Klicken Sie auf **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicken **auf &quot;**&quot; oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Übersicht {#overview}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe wie oben beschrieben.
-1. Klicken Sie im linken Bereich auf **Überblick** .
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
+1. Klicken Sie **linken** auf „Übersicht“.
 
    ![](assets/nwe-overview-section-edit-task-box-350x257.png)
 
@@ -214,80 +214,80 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
     <tbody> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td>Fügen Sie zusätzliche Informationen zur Aufgabe hinzu. </td> 
+      <td>Fügen Sie zusätzliche Informationen über die Aufgabe hinzu. </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Abschnitt mit grundlegenden Informationen</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Abschnitt „Grundlegende Informationen“</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Status</td> 
-      <td> <p>Wählen Sie den Status der Aufgabe aus, der angibt, in welcher Entwicklungsphase sich die Aufgabe befindet.</p> <p><b>TIPP</b>
+      <td> <p>Wählen Sie den Status der Aufgabe aus, der angibt, in welchem Entwicklungsstadium sich die Aufgabe befindet.</p> <p><b>TIPP</b>
 
    Sie können den Aufgabenstatus in der Aufgabenkopfzeile aktualisieren. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Priorität</td> 
-      <td> <p>Dies ist eine visuelle Kennzeichnung, mit der Sie Ihre Aufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <td> <p>Dies ist eine visuelle Markierung, mit der Sie Ihre Aufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
       <li> <p> Keine</p> </li> 
       <li> <p> Niedrig </p> </li> 
       <li> <p>Normal </p> </li> 
       <li> <p>Hoch </p> </li> 
       <li> <p> Dringend </p> </li> 
-       </ul> <p>Je nach den von Ihrem Workfront-Administrator ausgewählten Projekteinstellungen können die Prioritätsnamen für Sie unterschiedlich sein. Informationen zu Aufgabenprioritäten finden Sie unter <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Aufgabenpriorität aktualisieren</a>. </p> </td> 
+       </ul> <p>Je nach den vom Workfront-Administrator ausgewählten Projektvoreinstellungen können die Namen der Prioritäten für Sie unterschiedlich sein. Informationen zu Aufgabenprioritäten finden Sie unter <a href="../../../manage-work/tasks/task-information/task-priority.md" class="MCXref xref">Aufgabenpriorität aktualisieren</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Abschnitt "Aufgabendaten und Einschränkungen"</span> </td> 
+      <td colspan="2" role="rowheader"><span style="font-weight: bold;">Abschnitt „Aufgabendaten und -begrenzungen“</span> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Aufgabenbeschränkung</td> 
-      <td> <p>Entscheiden Sie, wann die Aufgabe abgeschlossen sein muss, indem Sie eine Aufgabenbegrenzung angeben. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <td> <p>Legen Sie durch Angabe einer Aufgabenbeschränkung fest, wann die Aufgabe abgeschlossen werden muss. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
-      <li> <p><span>Feste Datumswerte</span> </p> <p>Geben Sie einen <strong>geplanten Start</strong> und ein <strong>geplantes Abschlussdatum</strong> an. </p> </li> 
-      <li> <p><span>Muss am</span> beginnen </p> <p>Geben Sie ein <strong>geplantes Startdatum</strong> an. </p> </li> 
-      <li> <p><span>Muss am</span> beendet werden </p> <p>Geben Sie ein <strong>geplantes Abschlussdatum</strong> an. </p> </li> 
+      <li> <p><span>Feste Daten</span> </p> <p>Geben Sie <strong>Geplanter Start</strong> und ein <strong>Geplantes Abschlussdatum</strong> an. </p> </li> 
+      <li> <p><span>Muss beginnen am</span> </p> <p>Geben Sie <strong>Geplantes Startdatum“ </strong>. </p> </li> 
+      <li> <p><span>Muss beendet werden am</span> </p> <p>Geben Sie <strong> „Geplantes Abschlussdatum“ </strong>. </p> </li> 
        </ul> 
        <ul> 
       <li> <p><span>So bald wie möglich</span></p> </li> 
-      <li> <p><span>So bald wie möglich</span></p> </li> 
+      <li> <p><span>So spät wie möglich</span></p> </li> 
       <li> <p><span>Frühestmögliche Zeit</span></p> </li> 
-      <li> <p> <span>Neueste verfügbare Zeit</span></p> </li> 
-      <li> <p><span>Anfang nicht später als</span> </p> </li> 
-      <li> <p>Angeben eines geplanten Startdatums</p> </li> 
-      <li> <p><span>Anfang nicht früher als</span> </p> <p>Geben Sie ein <strong>geplantes Startdatum</strong> an. </p> </li> 
-      <li> <p> Beenden Sie <span>nicht später als</span></p> <p>Geben Sie ein <strong>geplantes Abschlussdatum</strong> an. </p> </li> 
-      <li> <p> Beenden Sie <span>nicht früher als</span></p> <p>Angeben eines <strong>geplanten Abschlussdatums</strong></p> </li> 
-       </ul> <p>Weitere Informationen zur Aufgabenbegrenzung finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Aufgabenbegrenzung - Übersicht</a>.</p> </td> 
+      <li> <p> <span>Letzte verfügbare Zeit</span></p> </li> 
+      <li> <p><span>Start spätestens</span> </p> </li> 
+      <li> <p>Geplantes Startdatum angeben</p> </li> 
+      <li> <p><span>Start nicht früher als</span> </p> <p>Geben Sie <strong>Geplantes Startdatum“ </strong>. </p> </li> 
+      <li> <p> Beenden <span>spätestens</span></p> <p>Geben Sie <strong> „Geplantes Abschlussdatum“ </strong>. </p> </li> 
+      <li> <p> Beenden <span>nicht früher als</span></p> <p>Geben Sie <strong>Geplantes Abschlussdatum“ </strong></p> </li> 
+       </ul> <p>Weitere Informationen zur Aufgabenbeschränkung finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Aufgabenbeschränkung - Übersicht</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Datum und Uhrzeit der Veröffentlichung</td> 
-      <td> <p>Dies ist das Datum, bis zu dem der Aufgabe zugewiesene Benutzer verpflichtet, sie abzuschließen. Dies kann vom geplanten Abschlussdatum abweichen. Nur Bevollmächtigte können dieses Feld bearbeiten. Weitere Informationen zu den Zusendedaten in Workfront finden Sie unter <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Übersicht über das Veröffentlichungsdatum</a>. </p> </td> 
+      <td role="rowheader">Commit-Datum und -Uhrzeit</td> 
+      <td> <p>Dies ist das Datum, zu dem sich der Benutzer, der der Aufgabe zugewiesen wurde, verpflichtet, sie abzuschließen. Dies kann vom geplanten Abschlussdatum abweichen. Nur Beauftragte können dieses Feld bearbeiten. Informationen zu Commit-Daten in Workfront finden Sie unter <a href="../../../manage-work/projects/updating-work-in-a-project/overview-of-commit-dates.md" class="MCXref xref">Übersicht über Commit-Datum</a>. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Geplantes Startdatum und geplante Startzeit</td> 
-      <td> <p>Wann die Aufgabe beginnen soll. Das geplante Startdatum einer Aufgabe wird durch eine Reihe von Faktoren bestimmt und beeinflusst:</p> 
+      <td role="rowheader">Geplantes Startdatum und Uhrzeit</td> 
+      <td> <p>Wann die Aufgabe geplant ist. Das geplante Startdatum einer Aufgabe wird durch eine Reihe von Faktoren festgelegt und beeinflusst:</p> 
        <ul> 
-      <li>Je nach systemweiter Voreinstellung für das geplante Startdatum der Aufgabe kann das Anfangsdatum einer neuen Aufgabe für ein Projekt entweder heute oder standardmäßig das Anfangsdatum des Projekts sein. <span>Der Gruppenadministrator für die mit dem Projekt verknüpfte Gruppe kann diese Voreinstellung auch für die Gruppe festlegen.</span> Weitere Informationen zu den Aufgabenvoreinstellungen auf Systemebene oder Gruppenebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Aufgaben und Ausgabevoreinstellungen</a>.</li> 
-      <li>Je nach den Vorgängern der Aufgabe wählt Workfront das geplante Startdatum als nächstes Verfügbarkeitsdatum aus, nachdem die Vorgängerbeziehung beendet oder begonnen hat. Weitere Informationen zu Vorgängerbeziehungen finden Sie unter <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Übersicht über Aufgabenvorherigen</a>.</li> 
-      <li>Der Projektmanager oder Aufgabenbesitzer kann das geplante Startdatum manuell festlegen, wenn die Aufgabenbegrenzung entweder "Feste Datumswerte"oder "Muss am"lautet. Weitere Informationen zu Aufgabenbegrenzungen finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen</a>.</li> 
+      <li>Je nach der systemweiten Voreinstellung für das geplante Startdatum der Aufgabe kann das Startdatum einer neuen Aufgabe für ein Projekt standardmäßig entweder heute oder das Startdatum des Projekts sein. <span>Der Gruppenadministrator bzw. die Gruppenadministratorin für die mit dem Projekt verknüpfte Gruppe kann diese Einstellung auch für die Gruppe festlegen.</span> Weitere Informationen zu den Voreinstellungen für Aufgaben auf Systemebene oder Gruppenebene finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md" class="MCXref xref">Systemweite Voreinstellungen für Aufgaben und Probleme konfigurieren</a>.</li> 
+      <li>Abhängig von den Vorgängern der Aufgabe wählt Workfront das geplante Startdatum als nächstes verfügbares Datum nach dem Ende der Vorgänger oder als Startdatum, je nach der Vorgängerbeziehung. Weitere Informationen zu Vorgängerbeziehungen finden Sie unter <a href="../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md" class="MCXref xref">Übersicht über Aufgabenvorgänger</a>.</li> 
+      <li>Der Projektmanager oder Aufgabenbesitzer kann das geplante Startdatum manuell festlegen, wenn die Aufgabenbeschränkung entweder Feste Termine oder Muss beginnen am lautet. Weitere Informationen zu Aufgabenbeschränkungen finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbeschränkungen</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Geplantes Abschlussdatum und -zeit</td> 
-      <td> <p>Das erwartete Abschlussdatum, wie zum Zeitpunkt der Aufgabenplanung angezeigt. Workfront legt das geplante Abschlussdatum mithilfe der folgenden Faktoren fest:</p> 
+      <td> <p>Das voraussichtliche Abschlussdatum, wie es bei der Planung der Aufgabe angezeigt wird. Workfront legt das geplante Abschlussdatum anhand der folgenden Faktoren fest:</p> 
        <ul> 
-      <li>Das geplante Abschlussdatum wird ausgehend vom geplanten Startdatum berechnet, indem die Dauer der Aufgabe zum geplanten Startdatum hinzugefügt wird. Wenn der Projektmanager oder Workfront die Dauer der Aufgabe angibt, kann dieser Trigger das geplante Abschlussdatum aktualisieren. Wenn sich das geplante Datum ändert, liegt dies häufig daran, dass die Dauer der Aufgabe aktualisiert wurde.</li> 
-      <li>Der Projektmanager oder Aufgabenbesitzer kann das geplante Abschlussdatum manuell festlegen, wenn die Aufgabenbegrenzung entweder "Feste Datumswerte"oder "Muss abgeschlossen am"lautet. Weitere Informationen zu Aufgabenbegrenzungen finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbegrenzungen</a>.</li> 
-      <li>Wenn sich der Dauer-Typ der Aufgabe ändert und sich die Anzahl der Ressourcen für die Aufgaben gleichzeitig ändert, ändert sich auch das geplante Abschlussdatum. Weitere Informationen zu Dauer-Typen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und -dauer</a>.</li> 
+      <li>Das geplante Abschlussdatum wird anhand des geplanten Startdatums berechnet, indem die Dauer der Aufgabe zum geplanten Startdatum hinzugefügt wird. Wenn der Projekt-Manager oder die Workfront die Dauer der Aufgabe angibt, wird dadurch eine Aktualisierung des geplanten Abschlussdatums Trigger. Wenn sich das geplante Datum ändert, liegt das oft daran, dass die Dauer der Aufgabe aktualisiert wurde.</li> 
+      <li>Der Projektmanager oder Aufgabenbesitzer kann das geplante Abschlussdatum manuell festlegen, wenn die Aufgabenbeschränkung entweder Feste Termine oder Muss abgeschlossen sein muss. Weitere Informationen zu Aufgabenbeschränkungen finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref">Übersicht über Aufgabenbeschränkungen</a>.</li> 
+      <li>Wenn sich der Dauertyp der Aufgabe ändert und sich gleichzeitig die Anzahl der Ressourcen für die Aufgaben ändert, ändert sich auch das geplante Abschlussdatum. Weitere Informationen zu Dauertypen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und Dauertyp</a>.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Tatsächliches Startdatum und -zeit</td> 
-      <td> <p>Geben Sie ein tatsächliches Startdatum für die Aufgabe an. Der Standardwert wird normalerweise automatisch ausgefüllt, wenn Sie den Status der Aufgabe in "Wird ausgeführt"ändern. Das tatsächliche Startdatum kann auch vom Projektmanager oder Aufgabenbesitzer manuell geändert werden. </p> </td> 
+      <td role="rowheader">Tatsächliches Startdatum und Uhrzeit</td> 
+      <td> <p>Geben Sie ein tatsächliches Startdatum für die Aufgabe an. Der Standardwert wird in der Regel automatisch ausgefüllt, wenn Sie den Status der Aufgabe in „In Bearbeitung“ ändern. Das tatsächliche Startdatum kann auch manuell vom Projektmanager oder dem Aufgabenbesitzer geändert werden. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Datum und Uhrzeit des tatsächlichen Abschlusses</td> 
-      <td> <p>Geben Sie das Datum und die Uhrzeit an, zu der die Aufgabe abgeschlossen ist. Das Standarddatum und die Standardzeit, zu der eine Aufgabe abgeschlossen wird, entsprechen immer dem Zeitpunkt, zu dem der Status Abgeschlossen wird. Das tatsächliche Abschlussdatum kann auch manuell vom Projektmanager oder Aufgabenbesitzer geändert werden. </p> </td> 
+      <td role="rowheader">Tatsächliches Abschlussdatum und -uhrzeit</td> 
+      <td> <p>Geben Sie Datum und Uhrzeit des tatsächlichen Abschlusses der Aufgabe an. Der standardmäßige Zeitpunkt (Datum und Uhrzeit), zu dem eine Aufgabe abgeschlossen wird, entspricht immer dem tatsächlichen Zeitpunkt, zu dem der Status zu „Abgeschlossen“ wird. Das tatsächliche Abschlussdatum kann auch manuell vom Projektmanager oder dem Aufgabenbesitzer geändert werden. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><b>Arbeitszeitabschnitt</b></td> 
@@ -296,54 +296,54 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
       <td role="rowheader">Work Effort </td> 
       <td>
 
-   <p>Der für die Ausführung der Aufgabe erforderliche Arbeitsaufwand. Ihr Projektmanager kann beschließen, dieses Feld anstelle von "Geplante Stunden"zu verwenden, um den Aufwand abzuschätzen, der zum Abschließen einer Aufgabe erforderlich ist. Dieses Feld ist nur sichtbar, wenn die folgenden Bedingungen erfüllt sind:</p> 
+   <p>Der erforderliche Aufwand zum Abschließen der Aufgabe. Möglicherweise verwendet der Projektmanager dieses Feld anstelle der geplanten Stunden, um den für die Erfüllung einer Aufgabe erforderlichen Arbeitsaufwand einzuschätzen. Dieses Feld ist nur sichtbar, wenn die folgenden Bedingungen erfüllt sind:</p> 
       <ul> 
-      <li> <p>Die Aufgabe hat einen einfachen Dauerhaltungstyp. </p> <p><b>TIPP</b>
+      <li> <p>Die Aufgabe hat einen einfachen Dauertyp. </p> <p><b>TIPP</b>
 
-   Wenn Sie den Aufgabentyp ändern, wird dieses Feld abgeblendet. </p> </li>
-   <li>Ihr Projektmanager hat die Option "Use Work Effort"aktiviert, um die Aufgabe "Geplante Stunden"für das Projekt automatisch zu berechnen. </li> 
+   Wenn Sie den Dauertyp der Aufgabe ändern, wird dieses Feld abgeblendet. </p> </li>
+   <li>Ihr Projektmanager hat das Feld „Arbeitsaufwand verwenden“ zur automatischen Berechnung der geplanten Stunden für die Aufgabe im Projekt aktiviert. </li> 
       </ul> 
       <p>Wählen Sie aus den folgenden Optionen aus:</p> 
       <ul> 
       <li>Klein</li> 
-      <li>Medium <span style="font-weight: normal;"> (dies ist der Standardwert für eine neue Aufgabe)</span></li> 
+      <li>Medium <span style="font-weight: normal;">(dies ist der Standardwert für eine neue Aufgabe)</span></li> 
       <li>Groß</li> 
       </ul> 
       <p><b>NOTIZ</b>
 
-   Durch die Aktualisierung des Aufwands kann die Aufgabe &quot;Geplante Stunden&quot;aktualisiert werden. Die Aktualisierung ist sofort möglich, wenn der Projektaktualisierungstyp Automatisch ist. Wenn der Projektaktualisierungstyp manuell ist, müssen Sie die Timeline neu berechnen, um die aktualisierten geplanten Stunden anzuzeigen. </p>
+   Durch die Aktualisierung des Aufwands kann die geplante Arbeitszeit der Aufgabe aktualisiert werden. Die Aktualisierung erfolgt sofort, wenn der Projektaktualisierungstyp Automatisch ist. Wenn der Projektaktualisierungstyp „Manuell“ ist, müssen Sie die Zeitleiste neu berechnen, um die aktualisierten geplanten Stunden anzuzeigen. </p>
 
-   <p>Informationen zur Verwendung von "Arbeitsaufwand"anstelle von "Geplante Stunden"zur Schätzung des Aufgabenaufwands finden Sie unter <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Arbeitsaufwand - Übersicht</a>. </p> 
+   <p>Informationen zur Verwendung des Work Effort anstelle der geplanten Stunden zur Schätzung des Task Effort finden Sie <a href="../../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort Overview</a>. </p> 
     </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicken **auf &quot;**&quot; oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Arbeitsaufträge {#assignments}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe wie oben beschrieben.
-1. Klicken Sie im linken Bereich auf **Zuweisungen** .
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie oben beschrieben.
+1. Klicken Sie **linken** auf „Arbeitsaufträge“.
 
    ![](assets/nwe-assignments-section-edit-task-box-350x217.png)
 
-1. Klicken Sie auf **Personen, Rollen und Teams durchsuchen** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten, und klicken Sie dann auf die Aufgabe oder drücken Sie die Eingabetaste , wenn sie in der Liste angezeigt wird.
+1. Klicken Sie auf **Personen, Rollen und Teams suchen** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen oder drücken Sie die Eingabetaste, wenn er/sie in der Liste angezeigt wird.
 
    >[!NOTE]
    >
-   >Wenn der Name des Benutzers ein Sonderzeichen enthält, müssen Sie das Sonderzeichen in das Suchfeld einfügen.
+   >Wenn der Name des Benutzers ein Sonderzeichen enthält, müssen Sie das Sonderzeichen in das Suchfeld einschließen.
 
    >[!TIP]
    >
-   >Sie können mehrere Benutzer, Auftragsrollen oder Teams zuweisen. Sie können nur aktive Benutzer, Stellenrollen und Teams zuweisen.
+   >Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
    >
-   >Wenn ein Benutzer, eine Rolle oder ein Team zugewiesen wurde, bevor sie deaktiviert wurden, bleiben sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+   >Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
    >
-   >* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
-   >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
+   >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
+   >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-1. (Optional) Geben Sie an, ob ein Bevollmächtigter der Aufgabe der primäre Bevollmächtigte ist, indem Sie neben seinem Namen das Optionsfeld **Inhaber** auswählen. Ein Team kann nicht der Hauptverantwortliche einer Aufgabe sein.
+1. (Optional) Geben Sie an, ob ein Verantwortlicher der primäre Verantwortliche für die Aufgabe ist, indem Sie die **Verantwortlicher** neben seinem Namen auswählen. Ein Team kann nicht der primäre Zugewiesene einer Aufgabe sein.
 1. (Bedingt und optional) Aktualisieren Sie die folgenden Felder:
 
    <table style="table-layout:auto"> 
@@ -355,9 +355,9 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
       <td> <p>Dadurch wird die Beziehung zwischen folgenden Elementen identifiziert: </p> 
        <ul> 
       <li> <p>Die Anzahl der Ressourcen, die einer Aufgabe zugewiesen sind </p> </li> 
-      <li> <p>Der zum Abschließen der Aufgabe erforderliche Gesamtaufwand </p> </li> 
+      <li> <p>Der Gesamtaufwand, der zum Abschließen der Aufgabe erforderlich ist </p> </li> 
       <li> <p> Die Gesamtdauer der Aufgabe. </p> </li> 
-       </ul> <p>Ihr Workfront-Administrator oder Gruppenadministrator wählt die Standardeinstellung für den Dauerhaltungstyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Weitere Informationen zum Festlegen der Projektnormen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projekteigenschaften konfigurieren</a>. </p> <p>Mit den Ereignistypen können Sie konsistente Ressourcenzuweisungen entsprechend den Anforderungen der Aufgabe festlegen. Weitere Informationen zum Dauer-Typ einer Aufgabe finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und -dauer</a>. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+       </ul> <p>Ihr Workfront-Administrator oder ein Gruppenadministrator wählt die Standardeinstellung für den Dauertyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>. </p> <p>Mit Dauertypen können Sie konsistente Ressourcenzuweisungen auf der Grundlage der Anforderungen der Aufgabe festlegen. Weitere Informationen zum Dauertyp einer Aufgabe finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die Aufgabendauer und den Dauertyp</a>. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
       <li> <p>Berechnete Zuweisung </p> </li> 
       <li> <p> Berechnete Arbeit </p> </li> 
@@ -367,26 +367,26 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
      </tr> 
      <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
       <td role="rowheader">Dauer pro Termin</td> 
-      <td> <p>Dies wird nur bei den übergeordneten wiederkehrenden Aufgaben angezeigt. Er zeigt die Dauer jeder wiederkehrenden Aufgabe an, wie sie bei der Erstellung der Aufgabe definiert wurde. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>. </p> <p> <b>NOTE</b>
+      <td> <p>Wird nur für das übergeordnete Element der wiederkehrenden Aufgaben angezeigt. Sie zeigt die Dauer jeder wiederkehrenden Aufgabe an, wie sie bei der Erstellung der Aufgabe definiert wurde. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>. </p> <p> <b>HINWEIS</b>
 
-   Die in einzelnen wiederkehrenden Aufgaben geänderten Zeiträume zeigen nicht den in diesem Feld angegebenen Wert an. </p> </td>
+   In einzelnen wiederkehrenden Aufgaben geänderte Dauer zeigt nicht den in diesem Feld angegebenen Wert an. </p> </td>
    </tr> 
      <tr> 
       <td role="rowheader">Dauer</td> 
       <td> 
       <div> 
       <div> 
-      <p>Dies ist der Zeitraum, in dem Sie einer Aufgabe erlauben, offen zu bleiben, bevor sie abgeschlossen wird. </p> 
+      <p>Dies ist der Zeitraum, den Sie einer Aufgabe erlauben, offen zu bleiben, bevor sie abgeschlossen ist. </p> 
       <p><b>WICHTIG</b>
 
-   Da die Aufgabendauer normalerweise die Zeit zwischen dem geplanten Start und dem geplanten Abschlussdatum ist, wirkt sich dies auf die Zeitleiste des Projekts aus.</p>
+   Da die Aufgabendauer in der Regel die Zeit zwischen dem geplanten Start- und dem geplanten Abschlussdatum ist, wirkt sich dies auf die Zeitleiste des Projekts aus.</p>
 
    <p>Gehen Sie wie folgt vor, um die Dauer der Aufgabe und die Zeiteinheit anzugeben:</p> 
       <ul> 
-      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Geben Sie die Zeitdauer ein und wählen Sie aus den im Dropdown-Menü verfügbaren Zeiteinheiten aus.</p> <p><b>TIPP</b></p>
+      <li> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Geben Sie die Zeitdauer ein und wählen Sie aus den verfügbaren Zeiteinheiten im Dropdown-Menü aus.</p> <p><b>TIPP</b></p>
       Wenn Sie die Dauer von Aufgaben in einer Aufgabenliste aktualisieren, können Sie die Abkürzung für die Zeiteinheit verwenden. </p> </li> 
       </ul> 
-      <p> In der folgenden Tabelle können Sie aus den Optionen für die reguläre Zeit oder die verstrichene Zeit auswählen: </p> 
+      <p> In der folgenden Tabelle können Sie zwischen den Optionen „Reguläre Zeit“ und „Verstrichene Zeit“ wählen: </p> 
       <table style="table-layout:auto"> 
       <col> 
       <col data-mc-conditions=""> 
@@ -404,7 +404,7 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
       <td>H</td> 
       </tr> 
       <tr> 
-      <td>Tage. Dies ist die Standardeinstellung. </td> 
+      <td>Tage. Dies ist der Standardwert. </td> 
       <td>D</td> 
       </tr> 
       <tr> 
@@ -440,67 +440,67 @@ Sie können eine Aufgabe in den Bereichen Aufgabe bearbeiten oder Aufgabendetail
 
    <p><b>NOTIZ</b>
 
-   <p>Die verstrichene Zeit ist eine Zeiteinheit für die Dauer einer Aufgabe. Dies ist die Zeit zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe, die Feiertage, Wochenenden und eine Verspätung umfasst. Mit anderen Worten, vergangene Zeit ist der Durchgang von Kalendertagen.
+   <p>Verstrichene Zeit ist eine Zeiteinheit für die Dauer einer Aufgabe. Dies ist die Zeit zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe, die Feiertage, Wochenenden und Ausfallzeiten umfasst. Mit anderen Worten: Verstrichene Zeit ist der Ablauf von Kalendertagen.
 
-   Bei der regulären Zeit werden Feiertage, Wochenenden und eine Zeitüberschreitung berücksichtigt und von der Dauer der Aufgabe ausgeschlossen. Weitere Informationen zur Aufgabendauer finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und -dauer</a>. </p>
+   Die reguläre Zeit berücksichtigt Feiertage, Wochenenden und Auszeiten und schließt sie von der Dauer der Aufgabe aus. Weitere Informationen zur Aufgabendauer finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über die Aufgabendauer und den </a>). </p>
    </div> 
    </div> </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Geplante Stunden</td> 
-   <td> <p>Geben Sie die Anzahl der geplanten Stunden für die Aufgabe in Stunden an. Dies ist die tatsächliche Zeit, die die Bevollmächtigten der Aufgabe benötigen würden, um sie abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn für den Typ der Dauer die Option "Berechnete Zuweisung"ausgewählt ist. Weitere Informationen zu Dauer-Typen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und -dauer</a>.</p> 
-   <b>NOTE</b>
+   <td> <p>Anzahl der geplanten Stunden für die Aufgabe angeben (in Stunden) Dies ist die tatsächliche Zeit, die die Verantwortlichen für die Aufgabe benötigen würden, um diese abzuschließen. Sie können die Anzahl der geplanten Stunden für eine Aufgabe nur angeben, wenn als Dauertyp Berechnete Zuweisung festgelegt ist. Weitere Informationen zu Dauertypen finden Sie unter <a href="../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md" class="MCXref xref">Übersicht über Aufgabendauer und Dauertyp</a>.</p> 
+   <b>HINWEIS</b>
    <p>
-   Bei der Erstellung wiederkehrender Aufgaben sind die geplanten Stunden die Aufgaben jedes Vorkommens. Die geplanten Stunden der übergeordneten Aufgaben entsprechen der Gesamtzahl aller geplanten Stunden von allen Vorkommen. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Erstellen wiederkehrender Aufgaben</a>.
+   Beim Erstellen wiederkehrender Aufgaben sind die geplanten Stunden die Stunden für jedes Vorkommen. Die geplanten Stunden der übergeordneten Aufgaben sind die Summe aller geplanten Stunden aus allen Vorfällen. Informationen zum Erstellen wiederkehrender Aufgaben finden Sie unter <a href="../../../manage-work/tasks/create-tasks/create-recurring-tasks.md" class="MCXref xref">Wiederkehrende Aufgaben erstellen</a>.
    </p>
 
    </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Zuteilung</td> 
-   <td> <p>Wenn Ihre Aufgabenbegrenzung "Berechnete Arbeit"oder "Aufwand gesteuert"ist, geben Sie für jeden Bevollmächtigten den Wert <strong>Zuordnung %</strong> (Zuordnungsprozentsatz) an. Dies ist die Zeit ab dem Zeitplan des Bevollmächtigten, die er für diese Aufgabe verbringen kann. Wenn Sie den Zuordnungsprozentsatz für einen Verantwortlichen ändern, ändern sich die geplanten Stunden einer Aufgabe. </p> <p>Wenn die Aufgabenbegrenzung einfach ist, können Sie Folgendes angeben:</p> 
+   <td> <p>Wenn Ihre Aufgabenbeschränkung auf „Berechnete Arbeit“ oder „Arbeitsaufwand“ basiert, geben Sie <strong>Zuordnung %</strong> (Zuordnungsprozentsatz) für jeden Zugewiesenen an. Dies ist die Zeit aus dem Zeitplan des Verantwortlichen, die er für diese Aufgabe aufwenden kann. Wenn Sie den Zuordnungsprozentsatz für einen Verantwortlichen ändern, werden auch die geplanten Stunden einer Aufgabe geändert. </p> <p>Wenn die Aufgabenbeschränkung einfach ist, können Sie Folgendes angeben:</p> 
       <ul> 
-      <li> <p>Zuweisungszeiten für jeden Bevollmächtigten.</p> </li> 
+      <li> <p>Zuweisungsstunden jedes Zugewiesenen.</p> </li> 
       <li> <p>Geplante Stunden der Aufgabe</p> </li> 
       <li> <p>Dauer der Aufgabe</p> </li> 
       </ul> </td> 
    </tr> 
    <tr> 
    <td role="rowheader">Rolle des Zugewiesenen</td> 
-   <td> <p>Wählen Sie eine Rolle aus dem Dropdownmenü <strong>Rolle des Bevollmächtigten</strong> aus, wenn Sie eine Person als Bevollmächtigten ausgewählt haben. Dies ist die Rolle, die der Bevollmächtigte für diese Aufgabe erfüllen kann. </p> <p><b>TIPP</b>
+   <td> <p>Wählen Sie eine Rolle aus dem Dropdown<strong>Menü „Rolle des Verantwortlichen</strong> aus, wenn Sie eine Person als Verantwortlicher ausgewählt haben. Dies ist die Rolle, die der Verantwortliche bei dieser Aufgabe erfüllen kann. </p> <p><b>TIPP</b>
 
-   Im Dropdown-Menü werden nur die mit jedem Bevollmächtigten in seinem Profil verknüpften Vorgangsrollen angezeigt.</p> </td>
+   Im Dropdown-Menü werden nur die Aufgabengebiete angezeigt, die jedem Bearbeiter in seinem Profil zugeordnet sind.</p> </td>
    </tr> 
       </tbody> 
       </table>
 
-1. Klicken Sie auf **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicken **auf &quot;**&quot; oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Benutzerdefinierte Formulare
 
-Sie können benutzerdefinierte Standardformulare definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben einem Projekt hinzugefügt werden. Weitere Informationen zum Einrichten des Projekts, das benutzerdefinierte Standardformulare für Aufgaben für alle neuen Aufgaben enthält, finden Sie im Abschnitt &quot;Aufgaben&quot;im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+Sie können benutzerdefinierte Standardformulare definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben zu einem Projekt hinzugefügt werden. Informationen dazu, wie Sie das Projekt so einrichten, dass für alle neuen Aufgaben benutzerdefinierte Standardformulare für Aufgaben einbezogen werden, finden Sie im Abschnitt „Aufgaben“ im Artikel [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Beginnen Sie mit der Bearbeitung der Aufgabe wie oben beschrieben.
-1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** oder klicken Sie auf den Namen eines benutzerdefinierten Formulars, falls es bereits angehängt ist.
+1. Beginnen Sie mit der Bearbeitung der Aufgabe, wie oben beschrieben.
+1. Klicken Sie **linken** auf „Benutzerdefinierte Forms&quot; oder klicken Sie auf den Namen eines benutzerdefinierten Formulars, wenn es bereits angehängt ist.
 
    ![](assets/nwe-custom-forms-section-edit-task-box-350x127.png)
 
-1. Klicken Sie auf **Benutzerdefiniertes Formular hinzufügen** und wählen Sie das benutzerdefinierte Formular oder die Formulare aus, die Sie mit der Aufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
+1. Klicken Sie **Benutzerdefiniertes Formular hinzufügen** und wählen Sie das oder die benutzerdefinierten Formulare aus, die Sie mit der Aufgabe verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt.
 
-   Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einer Aufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen.
+   Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können einer Aufgabe bis zu zehn benutzerdefinierte Formulare hinzufügen
 
 1. (Bedingt) Wenn Sie ein benutzerdefiniertes Formular an die Aufgabe angehängt haben, bearbeiten Sie alle Felder im Formular. Sie müssen alle erforderlichen Felder angeben, bevor Sie die Aufgabe speichern können.
 
    >[!NOTE]
    >
-   >Je nachdem, wie Ihr Workfront-Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle die gleichen Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern in einem Abschnitt eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für die Aufgabe selbst haben. Weitere Informationen zum Festlegen von Aufgabenberechtigungen finden Sie unter [Freigeben einer Aufgabe](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
+   >Je nachdem, wie der Workfront-Administrator die Berechtigungen für die Abschnitte in Ihrem benutzerdefinierten Formular festgelegt hat, können nicht alle dieselben Felder in einem bestimmten benutzerdefinierten Formular anzeigen oder bearbeiten. Die Berechtigungen zum Bearbeiten von Feldern innerhalb eines Abschnitts eines benutzerdefinierten Formulars hängen von den Berechtigungen ab, die Sie für die Aufgabe selbst haben. Informationen zum Festlegen von Aufgabenberechtigungen finden Sie unter [Freigeben einer Aufgabe](../../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md).
 
-1. Klicken Sie auf **Speichern** oder fahren Sie mit den folgenden Abschnitten fort.
+1. Klicken **auf &quot;**&quot; oder fahren Sie mit den folgenden Abschnitten fort.
 
 ### Finanzielle Details {#finance}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie im Abschnitt [Aufgaben bearbeiten](#Edit2) in diesem Artikel beschrieben.
-1. Klicken Sie im linken Bereich auf **Finance** .
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Klicken Sie **linken** auf „Finanzen“.
 
    ![](assets/nwe-finance-section-edit-task-box-350x298.png)
 
@@ -512,17 +512,17 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
     <tbody> 
      <tr> 
       <td role="rowheader">Kostenart</td> 
-      <td> <p>Geben Sie den Kostentyp für die Aufgabe an. Auf diese Weise wird bestimmt, wie die Kosten der Aufgabe basierend auf der Anzahl der Stunden für die Aufgaben berechnet werden. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <td> <p>Geben Sie den Kostentyp für die Aufgabe an. Dadurch wird bestimmt, wie die Kosten der Aufgabe basierend auf der Anzahl der Stunden für die Aufgaben berechnet werden. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
         <li> <p>Keine Kosten</p> </li> 
         <li> <p>Festgelegt pro Stunde </p> </li> 
         <li> <p> Benutzer pro Stunde </p> </li> 
         <li> <p> Stundensatz nach Funktion</p> </li> 
-       </ul> <p>Weitere Informationen zu Tracking-Kosten finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Tracking-Kosten</a> . Ihr Workfront-Administrator oder Gruppenadministrator wählt die Standardeinstellung für den Kostentyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Weitere Informationen zum Festlegen der Projektnormen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projekteigenschaften konfigurieren</a> .</p> </td> 
+       </ul> <p>Weitere Informationen zur Kostennachverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a> . Ihr Workfront-Administrator oder ein Gruppenadministrator wählt die Standardkostenart für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a> .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Umsatztyp</td> 
-      <td> <p>Geben Sie den Umsatztyp für die Aufgabe an. Auf diese Weise wird bestimmt, wie der Umsatz aus der Aufgabe basierend auf der Anzahl der Stunden für die Aufgaben berechnet wird. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <td> <p>Geben Sie den Umsatztyp für die Aufgabe an. Dadurch wird bestimmt, wie der Umsatz für die Aufgabe basierend auf der Anzahl der Stunden für die Aufgaben berechnet wird. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
       <li> <p> Nicht fakturierbar </p> </li> 
       <li> <p>Benutzer pro Stunde </p> </li> 
@@ -533,17 +533,17 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
       <li> <p>Benutzer pro Stunde plus festgelegt </p> </li> 
       <li> <p>Stundensatz nach Funktion plus fest </p> </li> 
       <li> <p>Festeinnahmen </p> </li> 
-       </ul> <p>Weitere Informationen zum Tracking von Umsätzen finden Sie unter<a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Rechnungsstellung und Umsatz</a> . </p> <p>Ihr Workfront-Administrator oder Gruppenadministrator wählt die standardmäßige Einstellung "Umsatztyp"für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Weitere Informationen zum Festlegen der Projektnormen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Systemweite Projekteigenschaften konfigurieren</a>.</p> </td> 
+       </ul> <p>Weitere Informationen zur Umsatzverfolgung finden Sie unter <a href="../../../manage-work/projects/project-finances/billing-and-revenue-overview.md" class="MCXref xref">Übersicht über Abrechnung und Umsatz</a> . </p> <p>Ihr Workfront-Administrator oder Gruppenadministrator wählt die Standardeinstellung für den Umsatztyp für die Aufgaben in Ihrem System oder Ihrer Gruppe aus. Informationen zum Festlegen von Projektstandards finden Sie <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md" class="MCXref xref">Konfigurieren von systemweiten Projektvoreinstellungen</a>.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Speichern** oder fahren Sie mit dem folgenden Abschnitt fort.
+1. Klicken **auf &quot;**&quot; oder fahren Sie mit dem folgenden Abschnitt fort.
 
 ### Einstellungen {#settings}
 
-1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie im Abschnitt [Aufgaben bearbeiten](#Edit2) in diesem Artikel beschrieben.
-1. Klicken Sie im linken Bereich auf **Einstellungen** .
+1. Beginnen Sie mit der Bearbeitung Ihrer Aufgabe, wie [ Abschnitt ](#Edit2)Aufgaben bearbeiten“ in diesem Artikel beschrieben.
+1. Klicken Sie **linken** auf „Einstellungen“.
 
    ![](assets/nwe-settings-section-edit-task-box-350x304.png)
 
@@ -555,45 +555,45 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
     <tbody> 
      <tr> 
       <td role="rowheader">Überwachungsmodus</td> 
-      <td> <p>Geben Sie an, wie der Fortschritt der Aufgabe verfolgt werden soll. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
+      <td> <p>Geben Sie an, wie der Fortschrittsstatus der Aufgabe verfolgt wird. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 
        <ul> 
       <li> <p> Benutzer muss aktualisieren </p> </li> 
-      <li> <p>Zeitliche Annahme </p> </li> 
+      <li> <p>Annahme: pünktlich </p> </li> 
       <li> <p>Späte Warnungen ignorieren</p> </li> 
-      <li> <p> Automatische Vervollständigung </p> </li> 
+      <li> <p> AutoVervollständigen </p> </li> 
       <li> <p>Vorgänger </p> </li> 
-       </ul> <p>Weitere Informationen zum Tracking-Modus für Aufgaben finden Sie unter <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Übersicht über den Task Tracking Mode</a>.</p> </td> 
+       </ul> <p>Weitere Informationen zum Tracking-Modus für Aufgaben finden Sie unter <a href="../../../manage-work/tasks/task-information/task-tracking-mode.md" class="MCXref xref">Übersicht über den Tracking-Modus für Aufgaben</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ressourcenabgleich</td> 
-      <td> <p>Wählen Sie das Feld <strong>Von Ressourcenebene ausschließen</strong> aus, wenn die der Aufgabe zugewiesenen Ressourcen von der Leerung ausgeschlossen werden sollen.</p> </td> 
+      <td> <p>Wählen Sie das Feld <strong>Aus Ressourcenabgleich ausschließen</strong>, wenn Sie möchten, dass die dem Vorgang zugewiesenen Ressourcen vom Abgleich ausgeschlossen werden.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Abgleichsverzögerung</td> 
-      <td> <p>Geben Sie die Verzögerung auf Stundenbasis an. </p> <p> Weitere Informationen zu Levelverzögerungen finden Sie unter <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Verzögerung auf Aufgabenebene aktualisieren</a>. </p> </td> 
+      <td> <p>Angabe der Abgleichsverzögerung in Stunden. </p> <p> Weitere Informationen zu Abgleichsverzögerungen finden Sie unter <a href="../../../manage-work/tasks/task-information/task-leveling-delay.md" class="MCXref xref">Abgleichsverzögerung für Aufgaben aktualisieren</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Genehmigungsprozess</td> 
-      <td> <p>Wählen Sie einen Validierungsprozess aus, den Sie mit der Aufgabe verknüpfen möchten. Ihr Workfront-Administrator muss Validierungsprozesse auf Systemebene definieren, bevor Sie sie mit Aufgaben verknüpfen können. Benutzer mit Administratorzugriff auf Genehmigungsprozesse können auch gruppenspezifische Validierungsprozesse erstellen. </p> <p>Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Erstellen eines Genehmigungsprozesses für Arbeitselemente</a>. Beachten Sie beim Hinzufügen von Validierungsprozessen Folgendes: </p> 
+      <td> <p>Wählen Sie einen Genehmigungsprozess aus, den Sie mit der Aufgabe verknüpfen möchten. Ihr Workfront-Administrator muss Genehmigungsprozesse auf Systemebene definieren, bevor Sie sie mit Aufgaben verknüpfen können. Ein Benutzer mit administrativem Zugriff auf Genehmigungsprozesse kann auch gruppenspezifische Genehmigungsprozesse erstellen. </p> <p>Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md">Erstellen eines Genehmigungsprozesses für Arbeitselemente</a>. Beachten Sie beim Hinzufügen von Genehmigungsprozessen Folgendes: </p> 
        <ul>
 
-   <li> <p>In der Liste werden nur aktive Validierungsprozesse angezeigt. </p> </li>
+   <li> <p>In der Liste werden nur aktive Genehmigungsprozesse angezeigt. </p> </li>
 
-   <li> <p>Systemweite und gruppenspezifische Validierungsprozesse werden in der Liste angezeigt. Ein Genehmigungsprozess, der mit einer anderen Gruppe als der des Projekts verknüpft ist, wird nicht in der Liste angezeigt. </p>
+   <li> <p>In der Liste werden systemweite und gruppenspezifische Genehmigungsprozesse angezeigt. Ein Genehmigungsprozess, der mit einer anderen Gruppe als der des Projekts verknüpft ist, wird nicht in der Liste angezeigt. </p>
 
    <p><b>WICHTIG</b>
 
-   Wenn sich die Gruppe des Projekts ändert, wird der zuvor angehängte gruppenspezifische Validierungsprozess zu einem Validierungsprozess für die einmalige Verwendung. Weitere Informationen dazu, wie sich Änderungen an der Gruppe des Projekts oder am Genehmigungsprozess auf die Genehmigungseinstellungen auswirken, finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Auswirkungen von Änderungen am Gruppen- und Genehmigungsprozess auf zugewiesene Genehmigungsprozesse</a>. </p>
+   Wenn sich die Gruppe des Projekts ändert, wird der zuvor angehängte gruppenspezifische Genehmigungsprozess zu einem einmaligen Genehmigungsprozess. Weitere Informationen darüber, wie sich Änderungen an der Projektgruppe oder Änderungen im Genehmigungsprozess auf die Genehmigungseinstellungen auswirken, finden Sie unter <a href="../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/how-changes-affect-group-approvals.md">Wie sich Änderungen an Gruppen- und Genehmigungsprozessen auf zugewiesene Genehmigungsprozesse auswirken</a>. </p>
 
    </li>
 
-   <li> <p>Sie können Standardgenehmigungsverfahren definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben einem Projekt hinzugefügt werden. Weitere Informationen zum Einrichten des Projekts, um standardmäßige Aufgabengenehmigungsprozesse einzuschließen, finden Sie im Abschnitt "Aufgaben"im Artikel <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projekte bearbeiten</a>. </p> </li>
+   <li> <p>Sie können standardmäßige Genehmigungsprozesse definieren, die automatisch an Aufgaben angehängt werden, wenn die Aufgaben zu einem Projekt hinzugefügt werden. Informationen dazu, wie Sie das Projekt so einrichten, dass Standardaufgaben-Genehmigungsprozesse einbezogen werden, finden Sie im Abschnitt „Aufgaben“ im Artikel <a href="../../../manage-work/projects/manage-projects/edit-projects.md" class="MCXref xref">Projekte bearbeiten</a>. </p> </li>
 
    <li> <p>Bei der Massenbearbeitung von Aufgaben gibt es die folgenden Szenarien: </p> 
       <ul> 
-      <li> <p>Wenn Sie mehrere Aufgaben aus derselben Gruppe auswählen, werden in diesem Feld sowohl Validierungsprozesse auf Systemebene als auch auf Gruppenebene angezeigt. </p> </li> 
-      <li> <p>Wenn Sie mehrere Aufgaben aus verschiedenen Gruppen auswählen, werden in diesem Feld nur Validierungsprozesse auf Systemebene angezeigt. </p> </li> 
-      <li> <p>Wenn an eine der Aufgaben ein Validierungsprozess für die einmalige Verwendung angehängt wird, wird dieser durch den von Ihnen ausgewählten Validierungsprozess auf Systemebene oder Gruppenebene ersetzt. </p> </li>
+      <li> <p>Wenn Sie mehrere Aufgaben aus derselben Gruppe auswählen, werden in diesem Feld sowohl Genehmigungsprozesse auf Systemebene als auch auf Gruppenebene angezeigt. </p> </li> 
+      <li> <p>Wenn Sie mehrere Aufgaben aus verschiedenen Gruppen auswählen, werden in diesem Feld nur Genehmigungsprozesse auf Systemebene angezeigt. </p> </li> 
+      <li> <p>Wenn an eine der Aufgaben ein Genehmigungsprozess für den einmaligen Gebrauch angehängt ist, wird sie durch den von Ihnen ausgewählten Genehmigungsprozess auf Systemebene oder Gruppenebene ersetzt. </p> </li>
 
    </ul> </li> 
       </ul> </td> 
@@ -606,16 +606,16 @@ Sie können benutzerdefinierte Standardformulare definieren, die automatisch an 
 
 <!--notes from the table: <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays here although the sections it might appear in are QS only, so we can use the snippet for both Qs and classic)</p>       -->
 
-## Bearbeiten einer Aufgabe in der Aufgabenkopfzeile (begrenzt)
+## Aufgabe in der Aufgabenkopfzeile bearbeiten (eingeschränkt)
 
-Sie können eine begrenzte Anzahl von Informationen in der Aufgabenüberschrift bearbeiten.
+Sie können in der Aufgabenkopfzeile eine begrenzte Menge an Informationen bearbeiten.
 
-Ihr System- oder Gruppenadministrator kann die in der Aufgabenüberschrift angezeigten Felder anpassen. Weitere Informationen finden Sie unter [Anpassen von Objektüberschriften mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
+Ihr System- oder Gruppenadministrator kann die Felder anpassen, die Sie in der Aufgabenkopfzeile sehen. Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
 
 ![](assets/qs-task-header-without-approvals-and-with-dependecies-350x17.png)
 
-Die folgenden Felder sind standardmäßig in der Aufgabenüberschrift enthalten:
+Die folgenden Felder sind standardmäßig in der Aufgabenkopfzeile enthalten:
 
 * Name der Aufgabe
 * Prozent abgeschlossen
@@ -624,13 +624,13 @@ Die folgenden Felder sind standardmäßig in der Aufgabenüberschrift enthalten:
 
   >[!CAUTION]
   >
-  >Einige Aufgabenbeschränkungen und andere Abhängigkeiten können die Bearbeitung dieses Felds verhindern. Informationen zu Aufgabenbeschränkungen finden Sie unter [Aufgabenbegrenzung - Übersicht](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+  >Einige Aufgabenbeschränkungen und andere Abhängigkeiten können die Bearbeitung dieses Felds verhindern. Informationen zu Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbeschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
 * Status
-* Entscheidungsfindung bei Genehmigungseinstellungen, wenn Sie in einem aktuellen Genehmigungsprozess als Genehmiger festgelegt sind
+* Treffen von Genehmigungsentscheidungen, wenn Sie in einem aktuellen Genehmigungsprozess als genehmigende Person festgelegt sind
 
-## Stapelweises Bearbeiten von Aufgaben
+## Aufgaben stapelweise bearbeiten
 
-Sie können Aufgaben stapelweise in einer Liste bearbeiten und alle zugehörigen Informationen gleichzeitig aktualisieren, wenn Sie die Änderungen, die Sie an Aufgaben in der Liste vornehmen, automatisch speichern.
+Sie können Aufgaben in einer Liste stapelweise bearbeiten und alle zugehörigen Informationen gleichzeitig aktualisieren, indem Sie auswählen, dass die Änderungen, die Sie an Aufgaben in der Liste vornehmen, automatisch gespeichert werden.
 
-Informationen zum Speichern von Aufgaben in großen Mengen finden Sie im Abschnitt &quot;Aufgaben stapelweise bearbeiten&quot;im Artikel [Aufgaben in einer Liste bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Informationen zum Massenspeichern von Aufgaben finden Sie im Abschnitt „Aufgaben stapelweise bearbeiten“ im Artikel [Aufgaben in einer Liste bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).

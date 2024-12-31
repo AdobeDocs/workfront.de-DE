@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint Overview: so spät wie möglich"
-description: So spät wie möglich (ALAP) ist eine Adobe Workfront-Aufgabenbegrenzung, die die Fertigstellungszeit der Aufgabe so nah wie möglich am Projektende platziert.
+title: 'Aufgabenbeschränkung - Übersicht: So spät wie möglich'
+description: So spät wie möglich (ALAP) ist eine Adobe Workfront-Aufgabenbeschränkung, die die Abschlusszeit der Aufgabe so nah wie möglich am Ende des Projekts platziert.
 author: Alina
 feature: Work Management
 exl-id: 475427d0-020b-4851-a614-c9931659e07d
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbegrenzungen: so spät wie möglich
+# Aufgabenbeschränkung - Übersicht: So spät wie möglich
 
-So spät wie möglich (ALAP) ist eine Adobe Workfront-Aufgabenbegrenzung, die die Fertigstellungszeit der Aufgabe so nah wie möglich am Projektende platziert.
+So spät wie möglich (ALAP) ist eine Adobe Workfront-Aufgabenbeschränkung, die die Abschlusszeit der Aufgabe so nah wie möglich am Ende des Projekts platziert.
 
-Die Verwendung dieser Einschränkung kann dazu führen, dass Vorgänger- oder abhängige Aufgaben neu geplant werden.
+Die Verwendung dieser Einschränkung kann dazu führen, dass Vorgänger oder abhängige Aufgaben neu geplant werden.
 
 Weitere Informationen zu Vorgängerbeziehungen finden Sie unter [Verwenden von Aufgabenvorgängen](../../../manage-work/tasks/use-prdcssrs/use-task-predecessors.md).
 
-So spät wie möglich ist die Standardbegrenzung, wenn ein Projekt den Planungsmodus Planen ab Abschlussdatum verwendet und das System oder die Gruppenstandardeinstellung für das Startdatum einer Aufgabe auf Basis des geplanten Projektzeitraums ist.
+So spät wie möglich ist die Standardbedingung, wenn für ein Projekt der Planungsmodus „Abschlussdatum“ verwendet wird und der System- oder Gruppenstandard für das Startdatum einer Aufgabe auf dem geplanten Projektdatum basiert.
 
-Informationen darüber, wo die Standardbegrenzung für eine neue Aufgabe festgelegt werden soll, finden Sie unter [Systemweite Aufgaben konfigurieren und Ausgabeeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Informationen dazu, wo die Standardeinschränkung für eine neue Aufgabe festgelegt werden soll, finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Informationen zum Aktualisieren der Aufgabenbeschränkung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbeschränkung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -43,29 +43,29 @@ Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden 
 </div>
 -->
 
-## Differenz zwischen der neuesten verfügbaren Zeit und so spät wie möglich
+## Die Differenz zwischen der neuesten verfügbaren Zeit und so spät wie möglich
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;[! This section is duplicated in "Latest Available Time"] - inserted a snippet for both articles (Alina)) </p>
 -->
 
-Die aktuelle Zeitbeschränkung unterscheidet sich von der so spät wie möglich Beschränkung, wenn die folgenden Kriterien vorhanden sind:
+Die Zeitbeschränkung „Zuletzt verfügbar“ unterscheidet sich von der Beschränkung „So spät wie möglich“, wenn die folgenden Kriterien vorliegen:
 
-* Das Projekt ist ab dem Startdatum geplant.
+* Das Projekt ist ab dem Startdatum geplant
 * Aufgaben im Projekt haben eine Vorgängerbeziehung
-* Die Nachfolgeaufgabe hat eine flexible Aufgabenbegrenzung
+* Die Nachfolgeaufgabe weist eine flexible Aufgabenbeschränkung auf
 
-In diesem Fall:
+In dieser Situation:
 
-* **Neueste verfügbare Zeit:** Durch die Verwendung der Zeitbegrenzung &quot;Neueste verfügbare Zeit&quot;für die Vorgängeraufgabe erhält die flexible Beschränkung des Nachfolgers Priorität.
+* **Letzte verfügbare Zeit**: Bei Verwendung der Zeitbeschränkung „Letzte verfügbare Zeit“ für die Vorgängeraufgabe hat die flexible Beschränkung des Nachfolgers Priorität.
 
-  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die neueste verfügbare Zeitbegrenzung und Aufgabe B die so bald wie möglich einschränkende Funktion. In diesem Fall wird Aufgabe A so nah wie möglich am Projektstart geplant.
+  **Beispiel:** Zum Beispiel ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die neueste verfügbare Zeitbeschränkung und Aufgabe B hat die so bald wie möglich-Beschränkung. In diesem Fall wird Aufgabe A so nahe wie möglich am Beginn des Projekts geplant.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **So spät wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So spät wie möglich für die Vorgängeraufgabe der Vorgängeraufgabe die Priorität der Vorgängeraufgabe ein.
+* **So spät wie möglich:** In diesem Szenario wird bei Verwendung der Einschränkung So spät wie möglich für die Vorgängeraufgabe die Priorität der Vorgängeraufgabe zugewiesen.
 
-  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die so spät wie möglich Beschränkung und Aufgabe B hat die so bald wie möglich Einschränkung. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
+  **Beispiel:** Zum Beispiel ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die Einschränkung So spät wie möglich und Aufgabe B hat die Einschränkung So bald wie möglich. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
 
   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 

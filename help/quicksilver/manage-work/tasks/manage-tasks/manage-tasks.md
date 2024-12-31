@@ -2,8 +2,8 @@
 content-type: reference
 product-area: projects
 navigation-topic: tasks
-title: Verwalten von Aufgaben
-description: Informationen zur Verwaltung von Aufgaben finden Sie in den folgenden Artikeln.
+title: Aufgaben verwalten
+description: Informationen zum Verwalten von Aufgaben finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -15,24 +15,24 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Aufgaben
+# Aufgaben verwalten
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md)
 * [Aufgaben in einer Liste bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md)
-* [Übersicht über das Speichern gleichzeitiger Änderungen in einer Aufgabenliste](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
+* [Überblick über das Speichern gleichzeitiger Änderungen in einer Aufgabenliste](../../../manage-work/tasks/manage-tasks/save-concurrent-changes-in-a-task-list.md)
 
   <!--
   <li><a href="../../../manage-work/tasks/manage-tasks/manage-task-details-forms-finances.md" class="MCXref xref" xrefformat="{para}">Manage task details, custom forms, and finances</a> (drafted not to lose the TOC spot, but the article is in draft)</li>
   -->
 
-* [Verwalten von Aufgabeninformationen im Übersichtsbereich &quot;Aufgabendetails&quot;](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
-* [Verwalten von Aufgabenfinanzen im Abschnitt &quot;Aufgabendetails&quot;](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
-* [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
+* [Verwalten von Aufgabeninformationen im Bereich Aufgabendetails - Übersicht](../../../manage-work/tasks/manage-tasks/task-information-in-overview.md)
+* [Verwalten der Aufgabenfinanzen im Abschnitt „Aufgabendetails“](../../../manage-work/tasks/manage-tasks/task-finances-in-details.md)
+* [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md)
 * [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md)
 * [Aufgaben löschen](../../../manage-work/tasks/manage-tasks/delete-tasks.md)
-* [Überblick über das Projekt - Kritischer Pfad](../../../manage-work/tasks/manage-tasks/critical-path.md)
+* [Überblick über den projektkritischen Pfad](../../../manage-work/tasks/manage-tasks/critical-path.md)
 * [Übersicht über wiederkehrende Aufgaben](../../../manage-work/tasks/manage-tasks/recurring-tasks-overview.md)
-* [Verknüpfen von Meilensteinen mit Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
+* [Meilensteine mit Aufgaben verknüpfen](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md)
 * [Konvertieren einer Aufgabe in ein Projekt](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)

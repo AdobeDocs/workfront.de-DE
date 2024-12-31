@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: task-information
 title: Unterschied zwischen geplanter Dauer und Dauer für Aufgaben
-description: Die Dauer ist die Zeit zwischen dem geplanten Start- und dem geplanten Abschlussdatum eines Arbeitselements. Aufgaben haben je nach Aufgabendauer eine Dauer und eine geplante Dauer in Adobe Workfront.
+description: Die Dauer ist der Zeitraum zwischen dem geplanten Start- und dem geplanten Abschlussdatum eines Arbeitselements. Die Aufgaben haben in Adobe Workfront je nach Art der Dauer eine Dauer und eine geplante Dauer.
 author: Alina
 feature: Work Management
 exl-id: 183a3334-b4af-4f45-8e72-9e82ff3862a0
@@ -16,23 +16,23 @@ ht-degree: 0%
 
 # Unterschied zwischen geplanter Dauer und Dauer für Aufgaben
 
-Die Dauer ist die Zeit zwischen dem geplanten Start- und dem geplanten Abschlussdatum eines Arbeitselements. Aufgaben haben je nach Aufgabendauer eine Dauer und eine geplante Dauer in Adobe Workfront.
+Die Dauer ist der Zeitraum zwischen dem geplanten Start- und dem geplanten Abschlussdatum eines Arbeitselements. Die Aufgaben haben in Adobe Workfront je nach Art der Dauer eine Dauer und eine geplante Dauer.
 
-Probleme und Projekte können nicht mit einem Dauer-Typ verknüpft werden und haben nur eine Dauer.
+Probleme und Projekte können nicht mit einem Dauertyp verknüpft werden und haben nur eine Dauer.
 
 ## Aufgabendauer
 
-Für Aufgaben zeigen die Dauer und die geplante Dauer in der Regel denselben Wert an: die Zeitdauer zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe.
+Für Aufgaben weisen die Dauer und die geplante Dauer normalerweise denselben Wert auf: die Zeitdauer zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum einer Aufgabe.
 
-Wenn der Aufgabentyp &quot;Aufwandsgesteuert&quot;lautet, wird die geplante Dauer beim Hinzufügen von Ressourcen zur Aufgabe reduziert.
+Wenn der Dauertyp der Aufgabe leistungsgesteuert ist, verringert sich die geplante Dauer, wenn Sie Ressourcen zur Aufgabe hinzufügen.
 
-**Beispiel:** Wenn eine Aufgabe mit dem Typ Dauer des Aufwands Driven eine Dauer von 3 Tagen hat und Sie der Aufgabe eine Ressource mit einem Vollzeitplan zuweisen, beträgt die geplante Dauer ebenfalls 3 Tage.
+**Beispiel** Wenn ein Vorgang mit dem Dauertyp „Arbeitsaufwand gesteuert“ eine Dauer von 3 Tagen hat und Sie dem Vorgang eine Ressource mit einem Vollzeitplan zuweisen, beträgt die geplante Dauer ebenfalls 3 Tage.
 
-Wenn Sie derselben Aufgabe drei Ressourcen mit einem vollen Zeitplan zuweisen, bleibt die Dauer 3 Tage, die geplante Dauer wird jedoch 1 Tag. Die geplante Dauer ändert außerdem das geplante Start- und das geplante Abschlussdatum der Aufgabe, um die neue geplante Dauer widerzuspiegeln. Daher ist auch die Timeline des Projekts betroffen.
-Sie können den Typ Ermüdungsgesteuerte Dauer verwenden, wenn Sie eine Aufgabe mehreren Ressourcen zuweisen. Auf diese Weise wird der Zeitaufwand für die Fertigstellung der Arbeit an der Aufgabe verringert.
+Wenn Sie derselben Aufgabe drei Ressourcen mit einem Vollzeitplan zuweisen, bleibt die Dauer 3 Tage, aber die geplante Dauer wird zu 1 Tag. Die geplante Dauer ändert auch die geplanten Start- und Abschlussdaten der Aufgabe, um die neue geplante Dauer widerzuspiegeln. Daher ist auch die Zeitleiste des Projekts betroffen.
+Sie können den leistungsgesteuerten Dauertyp verwenden, wenn Sie eine Aufgabe mehreren Ressourcen zuweisen. Dadurch wird der Zeitaufwand für den Abschluss der Arbeit an der Aufgabe reduziert.
 
-Weitere Informationen zum Typ &quot;Dynamische Dauer&quot;finden Sie unter [Übersicht über den Dehnungstyp: Dynamische Dauer](../../../manage-work/tasks/taskdurtn/effort-driven.md).
+Weitere Informationen über den Typ der leistungsgesteuerten Dauer finden Sie unter [Übersicht über den Dauertyp: Leistungsgesteuert](../../../manage-work/tasks/taskdurtn/effort-driven.md).
 
-## Problem und Projektdauer
+## Anfrage- und Projektdauer
 
-Probleme und Projekte haben nur einen Wert für die Dauer, was der Unterschied zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum des Problems bzw. des Projekts ist.
+Anfragen und Projekte haben nur einen einzigen Wert für die Dauer, nämlich die Differenz zwischen dem geplanten Startdatum und dem geplanten Abschlussdatum der Anfrage bzw. des Projekts.

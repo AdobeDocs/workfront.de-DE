@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Team erstellen
-description: Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Team-Inhaber.
+title: Erstellen eines Teams
+description: Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambesitzer.
 author: Lisa
 feature: People Teams and Groups
 exl-id: 4bef734c-de86-4c58-a0e8-fbb3c5785f4c
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Team erstellen
+# Erstellen eines Teams
 
-Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Team-Inhaber.
+Wenn Sie ein Team erstellen, werden Sie standardmäßig zum Teambesitzer.
 
-Sie können Team-Inhaber für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen und das Feld [!UICONTROL Eigentümername] in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
+Sie können Teambesitzer für alle Teams anzeigen, wenn Sie einen Bericht für Teams erstellen, und das Feld [!UICONTROL Name des ]&quot; in Ihren Bericht aufnehmen. (Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).)
 
-Informationen dazu, wie ein [!DNL Adobe Workfront] -Administrator ein Team aus dem Bereich [!UICONTROL Einrichten] erstellen kann, finden Sie unter [Erstellen eines Teams aus dem Bereich [!UICONTROL Einrichten]](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
+Informationen dazu, wie ein [!DNL Adobe Workfront]-Administrator ein Team im Bereich [!UICONTROL Setup] erstellen kann, finden Sie [Erstellen eines Teams im Bereich [!UICONTROL Setup]](../../administration-and-setup/add-users/create-and-manage-teams/create-a-team-from-setup.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,8 +32,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -45,45 +45,45 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Team erstellen
+## Erstellen eines Teams
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und dann auf **[!UICONTROL Neues Team erstellen]**.
+1. Klicken Sie auf das Symbol **[!UICONTROL Teams wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und klicken Sie dann auf **[!UICONTROL Neues Team erstellen]**.
 
-   ![Wählen Sie Neues Team erstellen.](assets/create-new-team.png)
+   ![Wählen Sie Neues Team erstellen aus.](assets/create-new-team.png)
 
-1. Geben Sie in das Feld **[!UICONTROL Neues Team]** die folgenden Informationen ein:
+1. Geben Sie in **[!UICONTROL angezeigten]** Neues Team“ die folgenden Informationen ein:
 
-   * **[!UICONTROL Teamname]:** Geben Sie einen Namen für das neue Team ein.
+   * **[!UICONTROL Team-Name]:** Geben Sie einen Namen für das neue Team ein.
    * **[!UICONTROL Gruppe]**: Wenn Sie das Team einer zugehörigen Gruppe zuweisen möchten, geben Sie den Namen der Gruppe ein und wählen Sie den Namen aus, wenn er angezeigt wird.
 
-     Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol &quot;![](assets/info-icon.png)&quot; klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.
+     Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol ![](assets/info-icon.png) neben dem Team klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.
 
      >[!NOTE]
      >
-     >Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können im Hauptmenü den Bereich Teams aufrufen und auf den Pfeil &quot;Switch Teams&quot;![Team icon](assets/switch-team-icon.png) klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.
+     >Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können alle Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied sein zu müssen. Gruppenadministratoren können im Hauptmenü zum Bereich Teams gehen und auf den Pfeil Teams wechseln ![Symbol Team wechseln](assets/switch-team-icon.png) klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.
 
-   * **[!UICONTROL Dies ist ein Agile-Team]:** Wählen Sie diese Option, wenn Sie dieses neue Team als agiles Team konfigurieren möchten.
+   * **[!UICONTROL Dies ist ein agiles Team]:** Wählen Sie diese Option, wenn Sie dieses neue Team als ein agiles Team konfigurieren möchten.
 
      Weitere Informationen zu agilen Teams finden Sie unter [Erstellen eines agilen Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-   * **[!UICONTROL Team-Mitglieder]:** Geben Sie den Namen eines Benutzers ein, der zum Team hinzugefügt werden soll, und wählen Sie dann den Namen aus, wenn er in der Dropdown-Liste angezeigt wird.
+   * **[!UICONTROL Team-Mitglieder]:** Beginnen Sie mit der Eingabe des Namens eines Benutzers, der dem Team hinzugefügt werden soll, und wählen Sie dann den Namen aus, wenn er in der Dropdown-Liste angezeigt wird.
 
-     Wiederholen Sie diesen Vorgang, um mehrere Benutzer zum Team hinzuzufügen.
+     Wiederholen Sie diesen Vorgang, um dem Team mehrere Benutzer hinzuzufügen.
 
-     Es gibt keine Beschränkung dafür, wie viele Benutzer Sie einem Team hinzufügen können. Es wird jedoch empfohlen, nicht zu viele Benutzer in einem Team zu haben, da Ihr Arbeitsmanagement für diese Teams zu komplex werden könnte.
+     Es gibt keine Begrenzung dafür, wie viele Benutzer Sie einem Team hinzufügen können. Wir empfehlen jedoch, nicht zu viele Benutzer in einem Team zu haben, da Ihr Arbeitsmanagement für diese Teams zu komplex werden könnte.
 
    * **[!UICONTROL Beschreibung]:** Geben Sie eine Beschreibung für das Team ein.
 
-     Die Beschreibung wird bei Auswahl des Teams oben rechts im Bereich Teams angezeigt.
+     Die Beschreibung wird oben rechts im Bereich Teams angezeigt, wenn das Team ausgewählt wird.
 
      >[!NOTE]
      >
-     >Wenn die Beschreibung lang ist, können Sie darauf klicken, um die vollständige Beschreibung in einem Popup-Fenster anzuzeigen. Wenn Sie Zugriff haben, um die Teameinstellungen zu bearbeiten, können Sie die Beschreibung auch direkt im Popup-Fenster bearbeiten.
+     >Wenn die Beschreibung lang ist, können Sie darauf klicken, um sie in einem Popup anzuzeigen. Wenn Sie Zugriff haben, um die Team-Einstellungen zu bearbeiten, können Sie die Beschreibung auch direkt im Popup-Fenster bearbeiten.
 
 1. Klicken Sie auf **[!UICONTROL Erstellen]**.

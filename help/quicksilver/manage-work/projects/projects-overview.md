@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: "Projekte: Artikelindex"
+title: 'Projekte: Artikelindex'
 description: Informationen zu Projekten finden Sie in den folgenden Abschnitten.
 author: Alina
 feature: Work Management
@@ -23,9 +23,9 @@ Dieser Abschnitt enthält die Artikel in den folgenden Unterabschnitten:
 
 * [Projekt planen: Artikelindex](../../manage-work/projects/planning-a-project/plan-project-overview.md)
 * [Erstellen von Projekten: Artikelindex](../../manage-work/projects/create-projects/create-projects-overview.md)
-* [Arbeit an einem Projekt aktualisieren: Artikelindex](../../manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
+* [Projektarbeit aktualisieren: Artikelindex](../../manage-work/projects/updating-work-in-a-project/update-work-on-project.md)
 * [Projekte verwalten: Artikelindex](../../manage-work/projects/manage-projects/manage-projects-overview.md)
 * [Erstellen und Verwalten von Projektvorlagen: Artikelindex](../../manage-work/projects/create-and-manage-templates/create-manage-templates.md)
-* [Geschäftsfall definieren: Artikelindex](../../manage-work/projects/define-a-business-case/define-business-case.md)
+* [Business Case definieren: Artikelindex](../../manage-work/projects/define-a-business-case/define-business-case.md)
 * [Projektfinanzen: Artikelindex](../../manage-work/projects/project-finances/project-finances-overview.md)
 * [Tipps, Tricks und Fehlerbehebung: Artikelindex](../../manage-work/projects/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-for-projects.md)

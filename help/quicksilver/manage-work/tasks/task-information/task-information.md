@@ -3,7 +3,7 @@ content-type: reference
 product-area: projects
 navigation-topic: tasks
 title: Aufgabeninformationen
-description: Aufgaben sind Arbeitselemente, die zur Fertigstellung eines Projekts in Adobe Workfront beitragen. Informationen zu Aufgabeninformationen finden Sie in den folgenden Artikeln.
+description: Aufgaben sind Arbeitselemente, die zum Abschluss eines Projekts in Adobe Workfront beitragen. Informationen zu Aufgabeninformationen finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -19,24 +19,24 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Aufgabenübersicht](../../../manage-work/tasks/task-information/tasks-overview.md)
+* [Aufgaben - Übersicht](../../../manage-work/tasks/task-information/tasks-overview.md)
 * [Tatsächliche Stunden anzeigen](../../../manage-work/tasks/task-information/actual-hours.md)
-* [Übersicht über den Task Tracking Mode](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+* [Übersicht über den Aufgabenverfolgungsmodus](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 * [Aufgabenpriorität aktualisieren](../../../manage-work/tasks/task-information/task-priority.md)
-* [Projekt-Prozent-Gesamtübersicht](../../../manage-work/tasks/task-information/project-percent-complete.md)
-* [Übersicht über geplante Stunden](../../../manage-work/tasks/task-information/planned-hours.md)
-* [Übersicht über den Arbeitsaufwand](../../../manage-work/tasks/task-information/work-effort.md)
-* [Übersicht über den Aufgabenfortschrittsstatus](../../../manage-work/tasks/task-information/task-progress-status.md)
-* [Überblick über die geplante Aufgabe, Startdatum](../../../manage-work/tasks/task-information/task-planned-start-date.md)
+* [Projektprozentsatz - Vollständigkeit - Übersicht](../../../manage-work/tasks/task-information/project-percent-complete.md)
+* [Geplante Stunden - Übersicht](../../../manage-work/tasks/task-information/planned-hours.md)
+* [Work Effort - Übersicht](../../../manage-work/tasks/task-information/work-effort.md)
+* [Übersicht über den Aufgabenstatus](../../../manage-work/tasks/task-information/task-progress-status.md)
+* [Übersicht über das geplante Startdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-start-date.md)
 * [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md)
-* [Übersicht über das Task Handoff-Datum](../../../manage-work/tasks/task-information/handoff-task-date.md)
-* [Task Slack Date - Übersicht](../../../manage-work/tasks/task-information/task-slack-date.md)
-* [ Übersicht über &quot;Can Start&quot; für Aufgaben](../../../manage-work/tasks/task-information/can-start-task-overview.md)
-* [Tracking-Modus für Aufgaben festlegen](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
-* [Verzögerung der Aufgabenebene aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md)
-* [Aktualisierung des Aufgabenkosten-Typs](../../../manage-work/tasks/task-information/update-task-cost-type.md)
-* [Überblick über die prognostizierten und geschätzten Datumswerte](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
-* [Übersicht über die ursprüngliche Dauer der Aufgabe und die ursprünglich geplanten Stunden](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
+* [Übersicht über das Datum der Aufgabenübergabe](../../../manage-work/tasks/task-information/handoff-task-date.md)
+* [Übersicht über das Slack-Datum der Aufgabe](../../../manage-work/tasks/task-information/task-slack-date.md)
+* [ „Kann starten“-Übersicht für Aufgaben](../../../manage-work/tasks/task-information/can-start-task-overview.md)
+* [Überwachungsmodus für Aufgaben festlegen](../../../manage-work/tasks/task-information/set-tracking-mode-for-tasks.md)
+* [Abgleichsverzögerung für Aufgabe aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md)
+* [Aufgabenkostentyp aktualisieren](../../../manage-work/tasks/task-information/update-task-cost-type.md)
+* [Übersicht über geplante und geschätzte Termine](../../../manage-work/tasks/task-information/differentiate-projected-estimated-dates.md)
+* [Übersicht über die ursprüngliche Aufgabendauer und die ursprünglich geplanten Stunden](../../../manage-work/tasks/task-information/task-original-duration-and-original-planned-hours.md)
 * [Unterschied zwischen geplanter Dauer und Dauer für Aufgaben](../../../manage-work/tasks/task-information/planned-duration-vs-duration-for-tasks.md)
 
   <!--

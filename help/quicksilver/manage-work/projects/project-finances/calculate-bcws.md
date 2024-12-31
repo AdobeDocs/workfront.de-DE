@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Geplante Arbeitskosten berechnen (BCWS)
-description: Die geplante Arbeitsaufgabe (BCWS), auch als geplanter Wert bezeichnet, ist eine Metrik zur Projektleistung, die den Umfang der Aufgabe darstellt, die zum Zeitpunkt der Berechnung dieser Metrik abgeschlossen sein sollte.
+title: Budgetierte Kosten für geplante Arbeiten berechnen (BCWS)
+description: Die budgetierten Kosten der geplanten Arbeit (BCWS), auch als Geplanter Wert bezeichnet, sind eine Projektleistungskennzahl, die den Betrag der Aufgabe darstellt, der zum Zeitpunkt der Berechnung dieser Kennzahl hätte abgeschlossen sein sollen.
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
@@ -14,29 +14,29 @@ ht-degree: 2%
 
 ---
 
-# Geplante Arbeitskosten berechnen (BCWS)
+# Budgetierte Kosten für geplante Arbeiten berechnen (BCWS)
 
-## Übersicht über die geplanten Arbeitskosten (BCWS)
+## Übersicht über die budgetierten Kosten der geplanten Arbeit (BCWS)
 
-Die geplante Arbeitsaufgabe (BCWS), auch als geplanter Wert bezeichnet, ist eine Metrik zur Projektleistung, die den Umfang der Aufgabe darstellt, die zum Zeitpunkt der Berechnung dieser Metrik abgeschlossen sein sollte.
+Die budgetierten Kosten der geplanten Arbeit (BCWS), auch als Geplanter Wert bezeichnet, sind eine Projektleistungskennzahl, die den Betrag der Aufgabe darstellt, der zum Zeitpunkt der Berechnung dieser Kennzahl hätte abgeschlossen sein sollen.
 
-Adobe Workfront berechnet die geplanten Arbeitskosten (BCWS) für Projekte und Aufgaben.
+Adobe Workfront berechnet die budgetierten Kosten der geplanten Arbeit (BCWS) für Projekte und Aufgaben.
 
-Beachten Sie bei der Überprüfung der Werte für die BCWS für eine Aufgabe oder ein Projekt Folgendes:
+Beachten Sie bei der Überprüfung der Werte für den SKBA für eine Aufgabe oder ein Projekt Folgendes:
 
-* Workfront berechnet die BCWS für eine Aufgabe basierend auf Ihrer Konfiguration für die Leistungsindex-Methode (PIM) des Projekts.
+* Workfront berechnet den BCWS für eine Aufgabe anhand Ihrer Konfiguration für die Leistungsindexmethode (PIM) des Projekts.
 
-  Sie können Ihr Projekt so konfigurieren, dass die PIM anhand von Stunden oder Kosten berechnet wird und die BCWS auch anhand derselben Werte berechnet werden.
+  Sie können Ihr Projekt so konfigurieren, dass die PIM anhand von Stunden oder Kosten berechnet wird, und der SKBA wird ebenfalls anhand derselben Werte berechnet.
 
-  Informationen zum Konfigurieren der Berechnung der BCWS finden Sie im Abschnitt [Konfigurieren der Berechnung der BCWS](#configure-how-bcws-is-calculated) in diesem Artikel.
+  Informationen zum Konfigurieren der BCWS-Berechnung finden Sie im Abschnitt [Konfigurieren der BCWS](#configure-how-bcws-is-calculated) in diesem Artikel.
 
-* Workfront berechnet die BCWS für ein Projekt, indem alle BCWS-Werte aus allen übergeordneten Aufgaben und Aufgaben des Projekts hinzugefügt werden.
+* Workfront berechnet den SKBA für ein Projekt, indem es alle SKBA-Werte aus allen übergeordneten Aufgaben und einzelnen Aufgaben des Projekts hinzufügt.
 
-  Die Werte von untergeordneten Aufgaben werden nicht zum BCWS des Projekts hinzugefügt.
+  Die Werte aus untergeordneten Aufgaben werden nicht zum SKBA des Projekts hinzugefügt.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,8 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -56,44 +56,44 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>Zugriff auf Projekte bearbeiten</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Berechtigungen für das Projekt verwalten</td> 
+   <td>Verwalten von Berechtigungen für das Projekt</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Konfiguration der BCWS-Berechnung {#configure-how-bcws-is-calculated}
+## Konfigurieren der BCWS-Berechnung {#configure-how-bcws-is-calculated}
 
-Sie können konfigurieren, ob die BCWS in Stunden oder Kosten berechnet wird, indem Sie konfigurieren, wie die Performance Index Method (PIM) des Projekts berechnet wird.
+Sie können konfigurieren, ob der SKBA in Stunden oder Kosten berechnet wird, indem Sie konfigurieren, wie die Leistungsindexmethode (PIM) des Projekts berechnet wird.
 
-1. Wechseln Sie zu einem Projekt und klicken Sie im linken Bereich auf **Projektdetails** .
-1. Suchen Sie im Bereich **Finance** das Feld **Performance Index Method** und doppelklicken Sie darauf, um es zu bearbeiten.
+1. Gehen Sie zu einem Projekt und klicken **im linken Bereich** Projektdetails“.
+1. Suchen Sie im Bereich **Finanzen** das Feld **Leistungsindexmethode** und doppelklicken Sie darauf, um es zu bearbeiten.
 
    ![](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
-   | Option | Durchführung der Berechnung |
+   | Option | Wie die Berechnung durchgeführt wird |
    |---|---|
-   | Stundenbasiert | Workfront berechnet die BCWS mithilfe der geplanten Stunden der Aufgaben. |
-   | Kostenbasiert | Workfront berechnet die BCWS mithilfe der Plankosten der Aufgaben. |
+   | Stundenbasiert | Workfront berechnet den SKBA mithilfe der geplanten Stunden der Aufgaben. |
+   | Kostenbasiert | Workfront berechnet den SKBA anhand der geplanten Kosten der Aufgaben. |
 
 
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Die BCWS der Aufgaben im Projekt werden anhand von Stunden oder Kosten berechnet.
+   Der SKBA der Aufgaben im Projekt wird anhand der Stunden oder Kosten berechnet.
 
 ## BCWS berechnen
 
-Workfront berechnet die geplanten Arbeitskosten (BCWS) für Aufgaben oder Projekte anhand der folgenden Formeln:
+Workfront berechnet die budgetierten Kosten der geplanten Arbeit (BCWS) für Aufgaben oder Projekte anhand der folgenden Formeln:
 
 ```
 Task BCWS = Planned Percent Complete x Task Budget
@@ -103,30 +103,30 @@ Task BCWS = Planned Percent Complete x Task Budget
 Project BCWS = SUM(BCWS values of all parent and individual tasks)
 ```
 
-In dieser Berechnung werden die folgenden Werte verwendet:
+Die folgenden Werte werden bei dieser Berechnung verwendet:
 
-| Verwendeter Wert | Beschreibung des verwendeten Werts |
+| Verwendeter Wert | Beschreibung des verwendeten Wertes |
 |---|---|
-| Geplanter Prozentsatz abgeschlossen | Dies ist der prozentuale Abschluss der Aufgabe, indem man sich die Zeit ansieht, die zwischen dem Beginn der Aufgabe und dem heutigen Tag verstrichen ist. |
+| Geplanter Prozentsatz abgeschlossen | So sollte der Prozentsatz der abgeschlossenen Aufgabe aussehen, indem Sie sich die Zeit ansehen, die zwischen dem Beginn der Aufgabe und heute vergangen ist. |
 | Aufgabenbudget | Dies ist der Wert für die geplanten Stunden oder geplanten Kosten der Aufgabe. |
 
-Wenn es beispielsweise heute den 12. Februar ist und eine Aufgabe vom 10. Februar bis zum 20. Februar dauern soll, sollte die Aufgabe heute zu 20 % abgeschlossen sein. Wenn das Aufgabenbudget (Geplante Kosten) 10.000 USD beträgt, lautet das BCWS für die Aufgabe:
+Wenn es heute beispielsweise der 12. Februar ist und eine Aufgabe vom 10. bis zum 20. Februar dauern soll, sollte die Aufgabe heute zu 20 % abgeschlossen sein. Wenn das Budget der Aufgabe (geplante Kosten) 10.000 USD beträgt, lautet der SKBA für die Aufgabe:
 
 ```
 Task BCWS = 20% x $10,000 = $2,000
 ```
 
-## Suchen Sie die BCWS für ein Projekt oder eine Aufgabe
+## Suchen des BCWS für ein Projekt oder eine Aufgabe
 
-Sie können den Wert der in einem Bericht oder in einer Liste geplanten budgetierten Arbeitskosten anzeigen, indem Sie die Spalte BCWS zu Ihrer Ansicht hinzufügen.
+Sie können den Wert der budgetierten Kosten geplanter Arbeit in einem Bericht oder einer Liste anzeigen, indem Sie die Spalte BCWS zu Ihrer Ansicht hinzufügen.
 
-1. Gehen Sie zu einer Liste von Aufgaben oder Projekten.
-1. Erweitern Sie das Menü **Ansicht** und wählen Sie **Neue Ansicht** oder **Ansicht anpassen** aus.
+1. Navigieren Sie zu einer Liste mit Aufgaben oder Projekten.
+1. Erweitern Sie das **Ansicht**-Menü und wählen Sie **Neue Ansicht** oder **Ansicht anpassen**.
 
 1. Klicken Sie auf **Spalte hinzufügen**.
-1. Geben Sie in der Spalte **In dieser Spalte anzeigen:** das Feld **BCWS** ein und klicken Sie auf , um es auszuwählen, wenn es in der Liste angezeigt wird.
+1. Beginnen Sie im Feld **In dieser Spalte anzeigen** mit der Eingabe **BCWS** und klicken Sie, um es auszuwählen, wenn es in der Liste angezeigt wird.
 
    ![](assets/bcws-in-project-view.png)
 
 1. Klicken Sie auf **Ansicht speichern**.
-1. Das Feld **BCWS** wird in der Ansicht angezeigt.
+1. Das **BCWS**-Feld wird in der Ansicht angezeigt.

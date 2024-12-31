@@ -1,6 +1,6 @@
 ---
-title: 20.4 Verbesserungen beim Testversand
-description: 20.4 Verbesserungen beim Testversand
+title: 20.4 Verbesserungen bei Korrekturabzügen
+description: 20.4 Verbesserungen bei Korrekturabzügen
 author: Luke
 draft: Probably
 feature: Product Announcements, Workfront Proof
@@ -13,36 +13,36 @@ ht-degree: 0%
 
 ---
 
-# 20.4 Verbesserungen beim Testversand
+# 20.4 Verbesserungen bei Korrekturabzügen
 
-Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 20.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
+Auf dieser Seite werden alle Korrekturabzugsverbesserungen beschrieben, die mit Version 20.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [20.4 - Versionsübersicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Eine Liste aller mit Version 20.4 verfügbaren Änderungen finden Sie unter Übersicht über Version [20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Den bestehenden Testversand-Workflow bei der Generierung einer neuen Version übernehmen
+## Übernehmen des vorhandenen Korrekturabzugs-Workflows beim Generieren einer neuen Version
 
 >[!NOTE]
 >
 >Diese Funktion wurde für die Version 20.4 aus der Produktion entfernt. Es wird zu einem späteren Zeitpunkt für die Produktion freigegeben.
 
-Jetzt wird der bestehende Testversand-Workflow auf alle neuen Versionen übertragen, die Sie erstellen, unabhängig von der Methode, in der sie erstellt werden.
+Jetzt wird der vorhandene Korrekturabzugs-Workflow auf alle neuen Versionen übertragen, die Sie erstellen, unabhängig von der Methode, in der sie generiert werden.
 
-Zuvor gab es einen geringfügigen Unterschied in der Art und Weise, wie der Testversand-Workflow übertragen wurde, je nachdem, wo Sie ihn in Workfront generiert haben.
+Zuvor gab es einen geringfügigen Unterschied in der Übertragung des Korrekturabzugs-Workflows, je nachdem, wo Sie ihn in Workfront generiert haben.
 
-Weitere Informationen finden Sie unter [Erstellen einer neuen Version eines Testversands](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
+Weitere Informationen finden Sie unter [Erstellen einer neuen Version eines Korrekturabzugs](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md).
 
-## Dokumentgenehmigungsschaltflächen im Proofing-Viewer
+## Schaltflächen für die Dokumentgenehmigung im Proofing Viewer verfügbar
 
-Um das Testen in Classic zu gewährleisten, sind im neuen Adobe Workfront-Erlebnis jetzt im Testversand-Viewer die Dokumentvalidierungsschaltflächen verfügbar.
+Zur Anpassung an das Proofing-Erlebnis in Classic sind die Schaltflächen für die Dokumentgenehmigung jetzt in der Proofing-Anzeige in der neuen Adobe Workfront-Version verfügbar.
 
-Zuvor war es nur möglich, ein Dokument im Bereich &quot;Dokumentdetails&quot;zu genehmigen.
+Zuvor konnten Sie ein Dokument nur über den Bereich Dokumentdetails genehmigen.
 
-Weitere Informationen finden Sie unter [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
+Weitere Informationen finden Sie unter [Festlegen einer Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md).
 
-## Beim Hochladen einer standardmäßig deaktivierten Dokumenteinstellung automatisch einen Testversand generieren
+## Beim Hochladen eines Dokuments automatisch einen Korrekturabzug erstellen - Einstellung standardmäßig deaktiviert
 
-Die Option im Benutzerprofil zum automatischen Generieren von Testsendungen beim Hochladen von Dokumenten ist jetzt für neue Testversand-Benutzer standardmäßig deaktiviert. Diese Änderung betrifft nicht die aktuellen Benutzer. Wenn Sie diese Einstellung aktiviert haben, bleibt sie so.
+Die Option im Benutzerprofil zum automatischen Generieren von Korrekturabzügen beim Hochladen von Dokumenten ist jetzt für neue Proofing-Benutzer standardmäßig deaktiviert. Diese Änderung hat keine Auswirkungen auf aktuelle Benutzer. Wenn diese Einstellung aktiviert ist, bleibt sie erhalten.
 
 Zuvor war diese Einstellung standardmäßig für neue Benutzer aktiviert.
 
-Weitere Informationen zur Funktionsweise dieser Einstellung finden Sie unter [Meine Einstellungen konfigurieren](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+Weitere Informationen zur Funktionsweise dieser Einstellung finden Sie unter [Konfigurieren meiner Einstellungen](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).

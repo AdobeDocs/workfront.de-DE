@@ -1,6 +1,6 @@
 ---
 title: Primäre Feldübersicht
-description: In der Tabellenansicht eines Datensatztyps in der Adobe Workfront-Planung können Sie ein einzeiliges Text-, Zahlen- oder Formelfeld als primäres Feld festlegen. Das primäre Feld wird zum Titel der Datensätze dieses Typs.
+description: In der Tabellenansicht eines Datensatztyps in Adobe Workfront Planning können Sie ein einzeiliges Text-, Zahlen- oder Formelfeld als Primärfeld festlegen. Das primäre Feld wird zum Titel der Datensätze dieses Typs.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -14,13 +14,13 @@ ht-degree: 1%
 ---
 
 
-# Primäre Feldübersicht
+# Übersicht über Primäre Felder
 
 {{planning-important-intro}}
 
-Das primäre Feld ist das Feld, das in der ersten Spalte einer Tabellenansicht vom Typ Datensatz in der Adobe Workfront-Planung angezeigt wird.
+Das Primärfeld ist das Feld, das in der ersten Spalte einer Datensatztyp-Tabellenansicht in Adobe Workfront Planning angezeigt wird.
 
-Standardmäßig ist das Feld Name das primäre Feld. Sie können jedoch alle Felder der folgenden Typen als primäre Felder der Datensätze festlegen:
+Standardmäßig ist das Namensfeld das primäre Feld. Sie können jedoch alle Felder der folgenden Typen als primäre Felder der Datensätze festlegen:
 
 * Einzeiliges Textfeld
 * Zahl
@@ -28,25 +28,25 @@ Standardmäßig ist das Feld Name das primäre Feld. Sie können jedoch alle Fel
 
 ![](assets/another-text-field-as-a-primary-field-highlighted.png)
 
-Informationen dazu, wie Sie ein Feld als primäres Feld bestimmen, finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+Weitere Informationen zum Bestimmen eines Felds als primäres Feld finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-## Übersicht über die primären Felder
+## Übersicht über Primärfelder
 
-* Die Informationen in dem Feld, das als primär bezeichnet wird, werden zum Datensatztitel.
+* Die Informationen in dem als primär gekennzeichneten Feld werden zum Titel eines Datensatzes.
 
   >[!NOTE]
   >
-  >    Die Namen &quot;primäres Feld&quot;und &quot;Datensatztitel&quot;sind Synonyme für die Workfront-Planung. Bei der Anzeige des Datensatzes in der Tabellenansicht wird &quot;Primäres Feld&quot;bevorzugt.
+  >    Die Namen „Primärfeld“ und „Datensatztitel“ sind in Workfront Planning synonym. Bei der Anzeige des Datensatzes in der Tabellenansicht wird das &quot;Primäre Feld“ bevorzugt.
 
 
 * Der Titel eines Datensatzes wird in den folgenden Bereichen angezeigt:
 
-   * Der Kopfzeilenbereich der Datensatzseite und des Vorschaufeldes
+   * Der Kopfzeilenbereich der Seite und des Vorschaufelds des Datensatzes
    * Verbundene Datensatzfelder
    * Ansichten
-* Sie können das primäre Feld in der Tabellenansicht nur verschieben, ausblenden oder löschen, wenn Sie ein anderes Feld als primäres Feld festlegen.
-* Das primäre Feld ist immer gesperrt und nicht Teil des horizontalen Bildlaufs der Tabellenansicht.
-* Das Ändern des Primärfelds in der Tabellenansicht wirkt sich auf die Ansicht aller anderen Benutzer aus, die das Feld auswählen.
-* Das Ändern des primären Felds in einer Tabellenansicht wirkt sich auf alle Tabellenansichten des Datensatztyps aus.
-* Der im primären Feld angegebene Wert ist immer per Hyperlink zur Datensatzseite gekennzeichnet.
-* Wenn Sie über Contribute oder höhere Berechtigungen für einen Arbeitsbereich verfügen, können Sie den Wert der primären Felder bearbeiten, mit Ausnahme der Formelfelder. Formeln sind Berechnungen, die automatisch aktualisiert werden.
+* Das Primärfeld in der Tabellenansicht kann nicht verschoben, ausgeblendet oder gelöscht werden, es sei denn, Sie haben ein anderes Feld als Primärfeld festgelegt.
+* Das primäre Feld ist immer gesperrt und es ist nicht Teil des horizontalen Bildlaufs der Tabellenansicht.
+* Das Ändern des primären Felds in der Tabellenansicht wirkt sich auf die Ansicht für alle anderen Benutzenden aus, die es auswählen.
+* Das Ändern des Primärfelds in einer Tabellenansicht wirkt sich auf alle Tabellenansichten des Datensatztyps aus.
+* Der im primären Feld aufgeführte Wert ist immer mit der Seite des Datensatzes per Hyperlink verbunden.
+* Wenn Sie für einen Arbeitsbereich über Contribute- oder höhere Berechtigungen verfügen, können Sie den Wert von Primärfeldern (mit Ausnahme von Formelfeldern) bearbeiten. Formeln sind Berechnungen, die automatisch aktualisiert werden.

@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Verbesserungen beim Projekt-Management
-description: Auf dieser Seite werden alle Verbesserungen des Projektmanagements beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
+title: 20.3 Verbesserungen beim Projektmanagement
+description: Auf dieser Seite werden alle mit Version 20.3 vorgenommenen Verbesserungen des Projektmanagements für die Produktionsumgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -14,101 +14,101 @@ ht-degree: 0%
 
 ---
 
-# 20.3 Verbesserungen beim Projekt-Management
+# 20.3 Verbesserungen beim Projektmanagement
 
-Auf dieser Seite werden alle Verbesserungen des Projektmanagements beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
+Auf dieser Seite werden alle mit Version 20.3 vorgenommenen Verbesserungen des Projektmanagements für die Produktionsumgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Eine Liste aller mit Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
 ## Benutzerdefinierte Feldformatierung in Listen
 
 >[!NOTE]
 >
->Diese Funktion wird nur im neuen Adobe Workfront-Erlebnis unterstützt. Es ist für einige Listen in Adobe Workfront Classic verfügbar, wird aber in Adobe Workfront Classic nicht unterstützt.
+>Diese Funktion wird nur in der neuen Adobe Workfront-Version unterstützt. Sie ist für einige Listen in Adobe Workfront Classic verfügbar, wird jedoch in Adobe Workfront Classic nicht unterstützt.
 
-Wenn der Systemadministrator jetzt benutzerdefinierte Formularfelder erstellt, die für die Formatierung konfiguriert sind, können Sie den Text in den Feldern formatieren, in denen Sie ihn am häufigsten verwenden: in Listen in Workfront. Anstatt in den Bereich &quot;Details&quot;zu wechseln, um Text im benutzerdefinierten Formular zu formatieren, können Sie auf ein Feld in einer Liste klicken und dort &quot;Fett&quot;, &quot;Kursiv&quot;und &quot;Unterstrichen&quot;auf Text anwenden.
+Wenn der Systemadministrator jetzt benutzerdefinierte Formularfelder erstellt, die für die Formatierung konfiguriert sind, können Sie Text in den Feldern formatieren, in denen Sie ihn am häufigsten verwenden: in Listen in Workfront. Anstatt in den Bereich Details zu wechseln, um Text im benutzerdefinierten Formular zu formatieren, können Sie auf ein Feld in einer Liste klicken und dort fett, kursiv und unterstrichen Text anwenden.
 
 Beachten Sie, dass diese Funktion nur in den aktualisierten Listen verfügbar ist. Weitere Informationen zu aktualisierten Listen finden Sie unter [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-## Aktualisiertes Erscheinungsbild verschiedener globaler Kopfzeilen
+## Das Erscheinungsbild mehrerer globaler Kopfzeilen wurde aktualisiert
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar
 
-Die globalen Bereiche von Projekten, Portfolios, Programmen und Vorlagen verfügen jetzt über einen aktualisierten Header, der den Platz auf dem Bildschirm besser nutzt. Diese Aktualisierung bietet mehr Platz für die Informationen, auf die Sie sich konzentrieren müssen.
+Die globalen Bereiche Projekte, Portfolios, Programme und Vorlagen verfügen nun über eine aktualisierte Kopfzeile, die den Platz auf dem Bildschirm besser nutzt. Dieses Update bietet mehr Platz für die Informationen, mit denen Sie arbeiten und auf die Sie sich konzentrieren müssen.
 
-Der Link Vorlagen aus dem Bereich Projekte wurde entfernt. Der Zugriff auf den Bereich Vorlagen erfolgt weiterhin über das Hauptmenü.
+Der Link Vorlagen aus dem Bereich Projekte wurde entfernt. Sie können weiterhin über das Hauptmenü auf den Bereich Vorlagen zugreifen.
 
-## Neues Feld &quot;Projekt bearbeiten&quot;
+## Feld Neues Projekt bearbeiten
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar
 
-Im Zuge der Aktualisierung des Erscheinungsbilds des neuen Workfront-Erlebnisses haben wir das Feld &quot;Projekt bearbeiten&quot;neu gestaltet. Sie können über ein einzelnes Projekt oder beim Bearbeiten eines einzelnen Projekts aus einer Liste auf das neue Feld &quot;Projekt bearbeiten&quot;zugreifen.
+Im Zuge der Aktualisierung des Erscheinungsbilds des neuen Workfront-Erlebnisses haben wir das Feld Projekt bearbeiten neu gestaltet. Sie können über ein einzelnes Projekt oder beim Bearbeiten eines einzelnen Projekts aus einer Liste auf das Feld Neues Projekt bearbeiten zugreifen.
 
-Zusätzlich zu einem aktualisierten Erscheinungsbild sind im Feld Projekt bearbeiten die folgenden Verbesserungen verfügbar:
+Neben einem aktualisierten Erscheinungsbild sind im Feld Projekt bearbeiten auch die folgenden Verbesserungen verfügbar:
 
-* Passen Sie die Layout-Vorlage einmal an und spiegeln Sie diese Anpassungen sowohl auf der Seite &quot;Details&quot;als auch im Feld &quot;Objekt bearbeiten&quot;wider.
-* Im linken Bereich im Feld &quot;Projekt bearbeiten&quot;sind nun individuelle benutzerdefinierte Formularnamen verfügbar, von denen Sie schnell auf jedes Formular zugreifen können.
-* Die Kommentierungsfunktion wird im Bildschirm &quot;Projekt bearbeiten&quot;entfernt, um Redundanz im Abschnitt &quot;Aktualisierungen&quot;zu vermeiden.
+* Passen Sie Ihre Layout-Vorlage einmal an und spiegeln Sie diese Anpassungen sowohl auf der Detailseite als auch im Feld Objekt bearbeiten wider.
+* Einzelne benutzerdefinierte Formularnamen sind jetzt im linken Bereich innerhalb des Felds Projekt bearbeiten verfügbar und Sie können von dort aus schnell auf jedes Formular zugreifen.
+* Die Funktion zum Kommentieren wird aus dem Bildschirm Projekt bearbeiten entfernt, um Redundanz mit dem Abschnitt Aktualisierungen zu beseitigen.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For information about the new Edit Box box, see "New Edit Object box" (NEW ARTICLE, LINK LATER!!).</p>
 -->
 
-Weitere Informationen zum neuen Feld &quot;Projekt bearbeiten&quot;finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+Weitere Informationen über das neue Feld Projekt bearbeiten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-## Neue Verbesserungen im Bereich &quot;Zusammenfassung&quot;und &quot;Aktualisierungen&quot;für die Dokumentliste
-
->[!NOTE]
->
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
-
-Das neue Zusammenfassungsfenster rechts neben der Dokumentliste ist jetzt mit einem verbesserten Design im neuen Workfront-Erlebnis verfügbar. Dieses Bedienfeld enthält dieselben Aktionen und Informationen, die im Bedienfeld auf der rechten Seite verfügbar sind, wenn Sie ein Dokument in Workfront Classic auswählen, einschließlich Dokumentdetails, Aktualisierungen, benutzerdefinierter Forms, Genehmigungen und Dokumentversionen.
-
-Einige Aktionen sind derzeit nicht verfügbar, werden aber in einer zukünftigen Version hinzugefügt. Diese Aktionen umfassen den Testversand-Workflow.
-
-Weitere Informationen finden Sie unter [Überblick über Dokumente](../../../documents/managing-documents/summary-for-documents.md).
-
-## Verbesserungen bei den Dokumentdetails
+## Neues Zusammenfassungsfenster und Verbesserungen bei Aktualisierungen der Dokumentenliste
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar
 
-Suchen Sie auf der Seite &quot;Dokumentdetails&quot;nach den folgenden Verbesserungen:
+Das neue Bedienfeld Zusammenfassung rechts neben der Liste Dokumente ist jetzt in der neuen Workfront-Version mit verbessertem Design verfügbar. In diesem Bedienfeld finden Sie dieselben Aktionen und Informationen wie im Bedienfeld rechts, wenn Sie in Workfront Classic ein Dokument auswählen, einschließlich Dokumentdetails, Aktualisierungen, benutzerdefinierter Forms, Genehmigungen und Dokumentversionen.
 
-* Neue Versionsoptionen wurden in ein Dropdown-Menü neben dem linken Bedienfeld verschoben, wodurch der Zugriff erleichtert wird.
-* Das Symbol &quot;Testversand öffnen&quot;wurde in einen Titel &quot;Testversand öffnen&quot;geändert, was die Anzeige auf der Seite erleichtert.
-* Größere Vorschauminiatur, mit der Sie das Dokument leicht identifizieren können
-* Das globale Bearbeitungssymbol wurde hinzugefügt, sodass Sie mehrere Felder gleichzeitig bearbeiten können.
+Einige Aktionen sind derzeit nicht verfügbar, werden aber in einer zukünftigen Version hinzugefügt. Zu diesen Aktionen gehört der Proofing-Workflow.
+
+Weitere Informationen finden Sie unter [Übersicht über Dokumente](../../../documents/managing-documents/summary-for-documents.md).
+
+## Verbesserungen bei Dokumentdetails
+
+>[!NOTE]
+>
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar
+
+Achten Sie auf der Seite Dokumentdetails auf die folgenden Verbesserungen:
+
+* Neue Versionsoptionen wurden in ein Dropdown-Menü im linken Bereich verschoben, um den Zugriff zu erleichtern.
+* Das Symbol „Korrekturabzug öffnen“ wurde in eine Bezeichnung „Korrekturabzug öffnen“ geändert, sodass Sie sie leichter auf der Seite sehen können.
+* Größere Vorschauminiaturansicht, mit der Sie das Dokument leicht identifizieren können
+* Globales Bearbeitungssymbol hinzugefügt, sodass Sie mehrere Felder gleichzeitig bearbeiten können.
 
 Weitere Informationen finden Sie unter [Dokumentdetails - Übersicht](../../../documents/managing-documents/document-details-overview.md).
 
-## Für Administratoren: Festlegen von Projektvoreinstellungen auf Gruppenebene
+## Für Admins: Festlegen von Projektvoreinstellungen auf Gruppenebene
 
 >[!NOTE]
 >
->Diese Funktion ist für die meisten Kunden in Clustern 1, 2, 3 und 5 vorübergehend nicht verfügbar. Diese Seite wird aktualisiert, sobald die Funktion für alle Kunden wieder aktiviert wird.
+>Diese Funktion ist für die meisten Kunden auf den Clustern 1, 2, 3 und 5 vorübergehend nicht verfügbar. Diese Seite wird aktualisiert, wenn die Funktion für alle Kunden wieder aktiviert wird.
 
-Damit Ihre Gruppenadministratoren mehr Autonomie erhalten und Ihre Workflows auf Gruppenebene stärker angepasst werden können, können Sie jetzt Ihre Projektvoreinstellungen für die von Ihnen verwalteten Gruppen auf Gruppenebene definieren. Wenn Sie ein Projekt erstellen, werden die Voreinstellungen der Gruppe vor denen des Systems wirksam.
+Um Ihren Gruppenadministratoren mehr Autonomie zu geben und eine umfassendere Anpassung Ihrer Workflows auf Gruppenebene zu ermöglichen, können Sie jetzt Ihre Projektvoreinstellungen für von Ihnen verwaltete Gruppen auf Gruppenebene definieren. Wenn Sie ein Projekt erstellen, werden die Voreinstellungen der Gruppe vor denen des Systems wirksam.
 
-Alle Projektvoreinstellungen können auf Gruppenebene angepasst werden, mit Ausnahme von Timeline-Berechnungen und benutzerdefinierten Quartalen.
+Alle Projektvoreinstellungen können mit Ausnahme von Zeitleistenberechnungen und benutzerdefinierten Quartalen auf Gruppenebene angepasst werden.
 
-Weitere Informationen zu den Voreinstellungen für Gruppenprojekte finden Sie unter [Konfigurieren von Projekteigenschaften für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+Weitere Informationen zu den Voreinstellungen für Gruppenprojekte finden Sie unter [Projektvoreinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
 ## Neu für Administratoren: Erstellen Sie benutzerdefinierte Formularfelder, in denen Benutzer Text formatieren können
 
-In einem benutzerdefinierten Formular können Sie jetzt Felder erstellen, die Textformatierungsschaltflächen enthalten. Wenn Benutzer diese Felder eingeben, können sie ihren Text fett, kursiv und unterstrichen markieren und organisieren. Die hohe Zeichenbeschränkung von 15.000 ermöglicht viel Text und Formatierung.
+In einem benutzerdefinierten Formular können Sie jetzt Felder erstellen, die Textformatierungsschaltflächen enthalten. Wenn Benutzende etwas in diese Felder eingeben, können sie ihren Text durch fett, kursiv und unterstrichen markieren und organisieren. Die hohe Zeichenbegrenzung von 15.000 ermöglicht viel Text und Formatierung.
 
-Weitere Informationen finden Sie unter Benutzerdefiniertes Formular erstellen im neuen Workfront-Erlebnis.
+Weitere Informationen finden Sie unter Erstellen eines benutzerdefinierten Formulars in der neuen Workfront-Version.
 
-## Neu für Administratoren: Erstellen Sie sowohl einen internen Namen als auch eine Beschriftung für ein Feld mit benutzerdefiniertem Formular
+## Neu für Admins: Erstellen Sie sowohl einen internen Namen als auch eine benutzerseitige Beschriftung für ein benutzerdefiniertes Formularfeld
 
-Um Ihnen mehr Flexibilität bei der Beschriftung und Umbenennung von benutzerdefinierten Formularfeldern zu bieten, können Sie jetzt zusätzlich zu der von Ihnen verwendeten benutzerseitigen *Beschriftung* einen internen *Namen* für ein Feld erstellen. Dadurch haben Sie die Möglichkeit, die Feldbeschriftung zu ändern, die Ihre Benutzer sehen, ohne den Feldnamen zu ändern, den das System sieht.
+Um Ihnen mehr Flexibilität bei der Kennzeichnung und Neubeschriftung von benutzerdefinierten Formularfeldern zu bieten, können Sie jetzt zusätzlich zu dem von Ihnen verwendeten benutzerfreundlichen *label* einen internen *name* für ein Feld erstellen. Dadurch haben Sie die Möglichkeit, die Feldbezeichnung zu ändern, die Ihre Benutzerinnen und Benutzer sehen, ohne den Feldnamen zu ändern, den das System sieht.
 
-In der Vergangenheit wurde die Beschriftung sowohl über dem Feld für Benutzer angezeigt als auch vom System verwendet, um das Feld zu identifizieren. Das Ändern der Beschriftung für Benutzer führte dazu, dass das Feld überall dort fehlschlug, wo es verwendet wurde, da es vom System nicht mehr identifiziert werden konnte.
+In der Vergangenheit wurde die Bezeichnung sowohl über dem Feld für Benutzer angezeigt als auch vom System zur Identifizierung des Felds verwendet. Das Ändern der Beschriftung für Benutzende führte also dazu, dass das Feld überall dort nicht mehr funktionierte, wo es verwendet wurde, da das System es nicht mehr identifizieren konnte.
 
 

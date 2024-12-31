@@ -3,7 +3,7 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: people-teams-and-groups
 title: Erstellen und Verwalten von Teams
-description: Lesen Sie diese Artikel, um zu erfahren, wie Sie Teams in Adobe Workfront erstellen und verwalten.
+description: In diesen Artikeln erfahren Sie, wie Sie Teams in Adobe Workfront erstellen und verwalten.
 author: Lisa
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Überblick über Teams](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
+* [Team-Übersicht](../../people-teams-and-groups/create-and-manage-teams/teams-overview.md)
 * [Team erstellen](../../people-teams-and-groups/create-and-manage-teams/create-a-team.md)
 * [Erstellen und Verwalten von Agile-Teams](../../people-teams-and-groups/create-and-manage-teams/create-and-manage-agile-teams.md)
-* [Team-Einstellungen bearbeiten](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
-* [Verwalten der Arbeit Ihres Teams](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
-* [Deaktivieren eines Teams](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
+* [Teameinstellungen bearbeiten](../../people-teams-and-groups/create-and-manage-teams/edit-team-settings.md)
+* [Verwalten Sie, woran Ihr Team arbeitet](../../people-teams-and-groups/create-and-manage-teams/manage-what-your-team-is-working-on.md)
+* [Team deaktivieren](../../people-teams-and-groups/create-and-manage-teams/deactivate-a-team.md)
 * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)
 * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Probleme](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-issues.md)
-* [Ersetzen Sie die Schaltfläche [!UICONTROL Bearbeiten ] durch eine Schaltfläche [!UICONTROL Starten] .](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)
+* [Ersetzen Sie [!UICONTROL  Schaltfläche „Bearbeiten] durch eine Schaltfläche [!UICONTROL Starten].](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md)

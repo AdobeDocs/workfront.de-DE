@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+exl-id: 058148db-1795-4d39-be87-271008ae3d47
+source-git-commit: 9bb02e7b54f76a3323039f2c82748a909a71692c
 workflow-type: tm+mt
 source-wordcount: '766'
 ht-degree: 1%
 
 ---
-
 
 # Hinzufügen einer Genehmigung zu einem Anforderungsformular in Adobe Workfront Planning
 
@@ -161,4 +161,3 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 
    Informationen zum Genehmigen von Anfragen finden Sie unter [Genehmigen einer Anfrage](/help/quicksilver/planning/requests/approve-request.md).
-

@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Schätzung nach Abschluss berechnen (EAC)
-description: Als Leistungsmetrik stellt die Schätzung bei Abschluss (EAC) die voraussichtlichen Gesamtkosten Ihres Projekts oder Ihrer Aufgabe nach Abschluss dar.
+title: Schätzung bei Abschluss berechnen (EAC)
+description: Als Leistungskennzahl gibt die Kalkulation bei Abschluss (BK) die erwarteten Gesamtkosten Ihres Projekts oder Ihrer Aufgabe zum Zeitpunkt der Fertigstellung an.
 author: Lisa
 feature: Work Management
 exl-id: 9061fa56-cff3-4fe2-866e-1fdda9d43efc
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Schätzung nach Abschluss berechnen (EAC)
+# Schätzung bei Abschluss berechnen (EAC)
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link!) </p>
 -->
 
-Als Leistungsmetrik stellt die Schätzung bei Abschluss (EAC) die voraussichtlichen Gesamtkosten Ihres Projekts oder Ihrer Aufgabe nach Abschluss dar.
+Als Leistungskennzahl gibt die Kalkulation bei Abschluss (BK) die erwarteten Gesamtkosten Ihres Projekts oder Ihrer Aufgabe zum Zeitpunkt der Fertigstellung an.
 
-Als Einstellung können Sie damit festlegen, wie der EAC-Wert berechnet werden soll. 
+Als Einstellung können Sie festlegen, wie der EAC-Wert berechnet werden soll. 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,68 +35,68 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Neu: Licht oder höher</p>
    <p>oder</p>
-   <p>Aktuell: Überprüfen oder höher</p></td>  
+   <p>Aktuell: Überprüfung oder höher</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td>Zugriff auf Projekte und Finanzdaten anzeigen</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Anzeigen des Zugriffs auf Projekte und Finanzdaten</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzen</td> 
+   <td>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzdaten</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Definieren der EAC-Berechnung
+## Definieren, wie EAC berechnet wird
 
-Im Rahmen der Voreinstellungen des Projektsystems kann der Adobe Workfront-Administrator definieren, wie die EAC berechnet werden soll. Die EAC kann auf eine der folgenden beiden Arten berechnet werden:
+Im Rahmen der Voreinstellungen für das Projektsystem kann der Adobe Workfront-Administrator festlegen, wie die EAC berechnet wird. EAC kann auf eine der beiden folgenden Arten berechnet werden:
 
-* [Berechnen auf Projektebene](#calculate-at-the-project-level)
-* [Zusammenführen von Aufgaben und Unteraufgaben](#roll-up-from-tasks-and-subtasks)
+* [Berechnung auf Projektebene](#calculate-at-the-project-level)
+* [Rollup aus Aufgaben und Teilaufgaben](#roll-up-from-tasks-and-subtasks)
 
-Weitere Informationen zum Einrichten von Projektvoreinstellungen in Workfront, einschließlich der Berechnung der Schätzung nach Abschluss, finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Weitere Informationen zum Einrichten von Projektvoreinstellungen in Workfront, einschließlich der Berechnung der Kalkulation bei Abschluss, finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Als Projektmanager können Sie diese Voreinstellung auch auf Projektebene im Untertab Finanzen des Projekts ändern. Weitere Informationen zum Bearbeiten der Unterregisterkarte &quot;Finanzen&quot;eines Projekts finden Sie unter [Verwalten von Informationen im Bereich &quot;Projekt-Finanzen&quot;](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
+Als Projekt-Manager können Sie diese Einstellung auch auf Projektebene auf der Unterregisterkarte Finanzen des Projekts ändern. Weitere Informationen zum Bearbeiten der Unterregisterkarte „Finanzen“ eines Projekts finden Sie unter [Informationen im Projektfinanzierungsbereich verwalten](../../../manage-work/projects/project-finances/manage-project-finance-area.md).
 
 ### Auf Projektebene berechnen {#calculate-at-the-project-level}
 
-Die EAC für die übergeordnete Aufgabe und das Projekt werden durch Eingabe der tatsächlichen Stunden/tatsächlichen Arbeitskosten in die EAC-Formeln bestimmt. Diese Berechnung umfasst die tatsächlichen Stunden/ Kosten und Ausgaben, die direkt zur übergeordneten Aufgabe oder zum übergeordneten Projekt hinzugefügt werden.
+Die BK für die übergeordnete Aufgabe und das übergeordnete Projekt werden durch Eingabe der tatsächlichen Stunden/tatsächlichen Arbeitskosten in die BK-Formeln bestimmt. Diese Berechnung beinhaltet die tatsächlichen Stunden/Kosten und Ausgaben, die direkt zur übergeordneten Aufgabe oder zum übergeordneten Projekt hinzugefügt werden.
 
-### Zusammenführen von Aufgaben und Unteraufgaben {#roll-up-from-tasks-and-subtasks}
+### Rollup aus Aufgaben und Teilaufgaben {#roll-up-from-tasks-and-subtasks}
 
-Die EAC für die übergeordnete Aufgabe und das Projekt werden durch Addieren der EAC für jede untergeordnete Aufgabe bestimmt. Diese Berechnung schließt tatsächliche Stunden/-kosten und -aufwendungen aus, die direkt zur übergeordneten Aufgabe oder zum übergeordneten Projekt hinzugefügt werden.
+Die BK für die übergeordnete Aufgabe und das übergeordnete Projekt werden bestimmt, indem die BK für jede untergeordnete Aufgabe zusammengefasst werden. Diese Berechnung schließt die tatsächlichen Stunden/Kosten und Ausgaben aus, die direkt zur übergeordneten Aufgabe oder zum übergeordneten Projekt hinzugefügt werden.
 
-## Berechnung der EAC auf Grundlage der Leistungsindex-Methode (PIM)
+## So berechnen Sie die EAC anhand der Performance-Index-Methode (PIM)
 
-In Workfront hängt die EAC-Berechnung von der ausgewählten Leistungsindex-Methode (PIM) des Projekts ab. Weitere Informationen zum Festlegen des PIM für Ihr System oder Ihr Projekt finden Sie unter [Festlegen der Leistungsindex-Methode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+In Workfront hängt die Berechnung für EAC von der ausgewählten Leistungsindexmethode (PIM) des Projekts ab. Weitere Informationen zum Festlegen des PIM für Ihr System oder Projekt finden Sie unter [Festlegen der Leistungsindexmethode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
-* [Berechnen der EAC mithilfe der stündbasierten PIM](#calculate-eac-using-hour-based-pim)
-* [Berechnung der EAC mit kostenbasiertem PIM](#calculate-eac-using-cost-based-pim)
+* [EAC mit stundenbasiertem PIM berechnen](#calculate-eac-using-hour-based-pim)
+* [EAC mit kostenbasiertem PIM berechnen](#calculate-eac-using-cost-based-pim)
 
-### Berechnung der EAC mit stündbasiertem PIM {#calculate-eac-using-hour-based-pim}
+### EAC mit stundenbasiertem PIM berechnen {#calculate-eac-using-hour-based-pim}
 
 ```
 EAC = Total Planned Hours / CPI*
 ```
 
-&#42;Wenn der Kosten-Leistungs-Index [ den Kosten-Leistungs-Index (CPI) berechnen](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Gesamtgeplante Stunden + tatsächliche Stunden. Dies tritt auf, wenn Stunden erfasst wurden, das Projekt/die Aufgabe jedoch zu 0 % abgeschlossen ist.
+&#42;If Cost Performance Index [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md) = 0, EAC = Gesamte geplante Stunden + Tatsächliche Stunden. Dies tritt auf, wenn Stunden erfasst wurden, das Projekt/die Aufgabe jedoch zu 0 % abgeschlossen ist.
 
-Weitere Informationen zur Berechnung des CPI finden Sie unter [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Weitere Informationen zur Berechnung des CPI finden Sie [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-### Berechnung der EAC mit kostenbasiertem PIM {#calculate-eac-using-cost-based-pim}
+### EAC mit kostenbasiertem PIM berechnen {#calculate-eac-using-cost-based-pim}
 
 Die EAC eines Projekts wird anhand der folgenden Formel berechnet:
 
@@ -104,11 +104,11 @@ Die EAC eines Projekts wird anhand der folgenden Formel berechnet:
 EAC = EAC Labor + EAC Expense 
 ```
 
-<pre>EAC-Arbeit =  <em>IF</em> CPI-Arbeit &lt;&gt; 0 DANN EAC-Arbeit = geplante Arbeitskosten/CPI-Arbeit</pre><pre><em>ELSE</em> EAC  Arbeit = Geplante Arbeitskosten + tatsächliche Arbeitskosten</pre><pre>CPI-Arbeit = WENN tatsächliche Arbeitskosten &lt;&gt; 0 DANN CPI-Arbeitskosten = TotalBudgetedCostWorkPerformed / Tatsächliche Arbeitskosten</pre><pre>ELSE CPI Labour = 1 </pre>Bei der Berechnung des EAC werden die folgenden Felder berücksichtigt:
+<pre>EAC-Arbeitszeit =  <em>IF</em> CPI Arbeit &lt;&gt; 0 DANN EAC Arbeit = Geplante Lohnkosten / CPI Arbeit</pre><pre><em>ELSE</em> EAC  Arbeit = Geplante Arbeitskosten + Ist-Arbeitskosten</pre><pre>CPI Arbeit = WENN Ist-Lohnkosten &lt;&gt; 0 DANN CPI Arbeit = TotalBudgetedCostWorkPerformed / Ist-Lohnkosten</pre><pre>SONST CPI Arbeit = 1 </pre>Die folgenden Felder werden bei der Berechnung der EAC berücksichtigt:
 
-* Gesamtsumme der durchgeführten budgetierten Kosten (BCWP) = Ergebnis der Multiplikation der veranschlagten Kosten der geplanten Arbeit (veranschlagte Kosten) und des Prozentsatzes der bisher abgeschlossenen Aufgabe.
+* Gesamte budgetierte Kosten Abgeschlossene Arbeit (SKAA) = Ergebnis der Multiplikation der budgetierten Kosten der geplanten Arbeit (budgetierte Kosten) mit dem Prozentsatz der Aufgabe, der bisher abgeschlossen wurde.
 
-  Weitere Informationen über die insgesamt durchgeführten budgetierten Kosten (BCWP) finden Sie unter [Berechnung der durchgeführten budgetierten Kosten (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
+  Informationen über die insgesamt budgetierten Kosten der durchgeführten Arbeit (SKAA) finden Sie unter [Budgetierte Kosten der durchgeführten Arbeit (SKAA) berechnen](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
    * **Für eine nicht übergeordnete Aufgabe:**
 
@@ -117,26 +117,26 @@ EAC = EAC Labor + EAC Expense
      ```
 
    * **Für eine übergeordnete Aufgabe:**
-Gesamtsumme der durchgeführten budgetierten Kostenarbeit = die Summe des Felds Gesamtsumme der durchgeführten budgetierten Kosten für alle direkten untergeordneten Aufgaben.
+Gesamte budgetierte Kosten Ausgeführte Arbeit = Summe der insgesamt budgetierten Kosten Ausgeführte Arbeit für alle direkt untergeordneten Aufgaben.
 
    * **Für ein Projekt:**
-Gesamtsumme der durchgeführten budgetierten Kostenarbeit = die Summe des Felds &quot;Gesamtkostenarbeit&quot;für alle Aufgaben auf oberster Ebene (Eltern und eigenständige Aufgaben). 
+Gesamte budgetierte Kosten Ausgeführte Arbeit = Summe der insgesamt budgetierten Kosten Ausgeführte Arbeit für alle Aufgaben der obersten Ebene (übergeordnete und eigenständige Aufgaben). 
 
-* EAC-Ausgaben = das Ergebnis der Hinzufügung der tatsächlichen Aufwendungen zu den nicht anfallenden geplanten Kosten. Sie wird mit der folgenden Formel berechnet:
+* EAC-Kosten = das Ergebnis der Hinzufügung der angefallenen Ist-Kosten zu den nicht angefallenen geplanten Kosten. Sie wird nach folgender Formel berechnet:
 
   ```
   EAC Expense = Incurred Actual Expense Cost + Not Incurred Planned Expense
   ```
 
-   * Incurred Tatsächliche Kosten = Die Summe des Felds &quot;Geplanter Betrag&quot;für alle Ausgaben, für die das Feld &quot;Tatsächlicher Betrag&quot;> 0 ist. Wenn Sie beispielsweise eine Ausgabe für Aufgabe 1 erstellen und 500,00 USD im Feld &quot;Geplanter Betrag&quot;und einen Betrag > 0 im Feld &quot;Tatsächlicher Betrag&quot;eingeben (d. h. 600,00 USD), belaufen sich die Kosten für geplante geplante Ausgaben für diese Aufgabe auf 500,00 USD.
-   * Nicht eingeplante Ausgaben = Die Summe des Felds &quot;Geplanter Betrag&quot;für alle Ausgaben, für die das Feld &quot;Tatsächlicher Betrag&quot;= 0 ist. Wenn Sie beispielsweise zwei Ausgaben für Aufgabe 1 erstellen, wobei der Wert im Feld Geplanter Betrag für die erste Ausgabe 500,00 USD und der Wert im tatsächlichen Betrag 600,00 USD und für die zweite Ausgabe der Wert im Feld Geplanter Betrag 300,00 USD und der Wert des Felds &quot;Tatsächlicher Betrag&quot;0,00 USD beträgt, lautet der Wert des Nicht eingeplante Kosten für diese Aufgabe belaufen sich auf 300,00 USD. 
+   * Angefallene Istkosten = Summe des Felds „Geplanter Betrag“ für alle Ausgaben, bei denen das Feld „Tatsächlicher Betrag“ > 0 ist. Beispiel: Wenn Sie eine Ausgabe für Aufgabe 1 erstellen und im Feld Geplanter Betrag 500,00 $ und im Feld Tatsächlicher Betrag einen Betrag > 0 (d. h. 600,00 $) eingeben, betragen die Kosten für geplante Ausgaben für diese Aufgabe 500,00 $.
+   * Nicht angefallene geplante Ausgaben = Summe des Felds Geplanter Betrag für alle Ausgaben, bei denen das Feld Tatsächlicher Betrag = 0 ist. Beispiel: Wenn Sie zwei Ausgaben für Aufgabe 1 erstellen, bei denen für die erste Ausgabe der Wert im Feld Geplanter Betrag $500.00 und der Wert im Istbetrag $600.00 ist und für die zweite Ausgabe der Wert im Feld Geplanter Betrag $300.00 ist und der Wert im Feld Tatsächlicher Betrag $0.00 ist, lautet der Wert der nicht angefallenen geplanten Ausgabe für diese Aufgabe $300.00. 
 
-## Suchen Sie die EAC in einem Projekt oder einer Aufgabe
+## Suchen der EAC in einem Projekt oder einer Aufgabe
 
-1. Wechseln Sie zu dem Projekt oder der Aufgabe, in dem/der Sie die EAC anzeigen möchten.
+1. Wechseln Sie zu dem Projekt oder der Aufgabe, in dem bzw. der Sie die EAC anzeigen möchten.
 1. Erweitern Sie **Projektdetails** oder **Aufgabendetails** im linken Bereich des Projekts oder der Aufgabe, je nachdem, wo Sie die EAC anzeigen.
 
-1. Klicken Sie auf **Finance**. 
+1. Klicken Sie auf **Finanzen**. 
 
    Der EAC-Wert wird im Feld **Schätzung bei Abschluss** angezeigt.
 

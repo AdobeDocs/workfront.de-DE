@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
 title: Übersicht über die Projektdauer
-description: Adobe Workfront berechnet die Projektdauer unter Berücksichtigung des Anfangsdatums der frühesten Aufgabe und des Abschlussdatums der letzten Aufgabe und zählt die Anzahl der Tage zwischen den beiden Daten.
+description: Adobe Workfront berechnet die Dauer eines Projekts anhand des Startdatums der ersten Aufgabe und des Abschlussdatums der letzten Aufgabe und zählt die Anzahl der Tage zwischen den beiden Terminen.
 author: Alina
 feature: Work Management
 exl-id: b558eaad-669b-4079-b61a-07df227edfa2
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 # Übersicht über die Projektdauer
 
-Adobe Workfront berechnet die Projektdauer unter Berücksichtigung des Anfangsdatums der frühesten Aufgabe und des Abschlussdatums der letzten Aufgabe und zählt die Anzahl der Tage zwischen den beiden Daten.
+Adobe Workfront berechnet die Dauer eines Projekts anhand des Startdatums der ersten Aufgabe und des Abschlussdatums der letzten Aufgabe und zählt die Anzahl der Tage zwischen den beiden Terminen.
 
 ## Projektdauer
 
-Die Projektdauer wird nach folgender Formel berechnet:
+Die Dauer des Projekts wird nach folgender Formel berechnet:
 
 ```
 Project Duration = Completion Date of the latest task - Start Date of the earliest task
@@ -28,38 +28,38 @@ Project Duration = Completion Date of the latest task - Start Date of the earlie
 
 >[!NOTE]
 >
->Die Dauer des Projekts hat keine Auswirkungen auf die Dauer des Projekts.
+>Die Dauer von Problemen im Projekt wirkt sich nicht auf die Dauer des Projekts aus.
 
-Die Dauer des Projekts zählt die Anzahl der Tage zwischen den beiden Aufgabendaten basierend auf dem mit dem Projekt verknüpften Zeitplan oder den den Aufgaben zugewiesenen Benutzern. Informationen dazu, welchen Zeitplan Workfront zur Berechnung der Dauer verwendet, finden Sie unter [Zeitplanübersicht](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
+Die Dauer des Projekts zählt die Anzahl der Tage zwischen den beiden Aufgabendaten auf der Grundlage des mit dem Projekt verknüpften Zeitplans oder der den Aufgaben zugewiesenen Benutzer. Informationen dazu, welchen Zeitplan Workfront für die Berechnung der Dauer verwendet, finden Sie unter [Zeitpläne - Übersicht](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md).
 
 ## Typen der Projektdauer
 
-Es gibt zwei Arten von Projektdauer und die Formeln, anhand derer Workfront sie berechnet:
+Es gibt zwei Arten der Projektdauer und die Formeln, nach denen sie von Workfront berechnet werden:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Check these formulas? Should they be divided by the hours per day?!) </p>
 -->
 
-* **Geplante Dauer**: 
+* **Geplante**: 
 
   ```
   Project Planned Duration = Planned Completion Date of the latest task - Planned Start Date of the earliest task / Typical hour per day
   ```
 
-* **Tatsächliche Dauer**: 
+* **Tatsächliche**: 
 
   ```
   Project Actual Duration = Actual Completion Date of the latest task - Actual Start Date of the earliest task / Typical hour per day
   ```
 
-## Projektdauer ermitteln
+## Suchen der Projektdauer
 
-Sie können die geplanten und tatsächlichen Dauer des Projekts in den folgenden Bereichen von Workfront ermitteln:
+Die geplante Projektdauer und die tatsächliche Projektdauer finden Sie in den folgenden Bereichen von Workfront:
 
 * . Im Bereich Projektdetails im Abschnitt Übersicht .
 
-  Weitere Informationen zur Unterregisterkarte &quot;Überblick&quot;eines Projekts finden Sie im Artikel [Informationen verwalten im Bereich &quot;Projektübersicht&quot;](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
+  Weitere Informationen zur Unterregisterkarte Überblick eines Projekts finden Sie im Artikel [Verwalten von Informationen im Bereich Projektübersicht](../../../manage-work/projects/manage-projects/understand-project-overview-area.md).
 
-* in einem Projektbericht, indem die Felder Dauer oder tatsächliche Dauer in den Bericht aufgenommen werden.
+* In einem Projektbericht, indem Sie die Felder Dauer oder Tatsächliche Dauer in den Bericht aufnehmen.
 
-  Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

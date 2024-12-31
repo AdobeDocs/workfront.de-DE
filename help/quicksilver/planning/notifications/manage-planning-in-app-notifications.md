@@ -1,6 +1,6 @@
 ---
-title: Verwalten von In-App-Benachrichtigungen zur Adobe Workfront-Planung
-description: Wenn Sie von jemandem in einem Datensatz-Kommentar markiert werden, erhalten Sie eine E-Mail-Benachrichtigung für dieses Tag.
+title: Verwalten von Adobe Workfront Planning-In-App-Benachrichtigungen
+description: Wenn Sie in einem Datensatzkommentar getaggt werden, erhalten Sie eine E-Mail-Benachrichtigung für dieses Tag.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -14,21 +14,21 @@ ht-degree: 1%
 ---
 
 
-# Verwalten von Adobe Workfront-Planungs-In-App-Benachrichtigungen
+# Verwalten von In-App-Benachrichtigungen in Adobe Workfront Planning
 
 {{planning-important-intro}}
 
-Sie können In-App-Benachrichtigungen von der Workfront-Planung erhalten, wenn die folgenden Szenarien vorliegen:
+In-App-Benachrichtigungen von Workfront Planning können empfangen werden, wenn die folgenden Szenarien vorliegen:
 
-* Jemand markiert Sie in einem Datensatz-Kommentar
+* Jemand versieht Sie mit Tags in einem Datensatzkommentar
 
-  Weitere Informationen zum Tagging anderer Kommentare in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* Jemand bittet um Ihre Erlaubnis, auf eine Ansicht oder einen Arbeitsbereich zuzugreifen
-* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen Arbeitsbereich gewährt wurde <!--Isk confirmed there is no notification for denying permissions - did not test-->
+  Informationen zum Tagging anderer Personen in einem Datensatzkommentar finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
+* Jemand fragt nach Ihrer Berechtigung für den Zugriff auf eine Ansicht oder einen Arbeitsbereich
+* Jemand bestätigt, dass Ihr Zugriff für eine Ansicht oder einen <!--Isk confirmed there is no notification for denying permissions - did not test--> gewährt wurde
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,51 +49,51 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.</p> 
-<p>Die Benutzer in Ihrem Unternehmen erhalten nur Benachrichtigungen von Workfront Planning, wenn Ihr Unternehmen mit dem Adobe Unified Experience integriert ist. </p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Die Workfront-Instanz Ihres Unternehmens muss in das einheitliche Adobe-Erlebnis integriert werden.</p> 
+<p>Die Benutzenden in Ihrem Unternehmen erhalten nur dann Benachrichtigungen von Workfront Planning, wenn Ihr Unternehmen zum einheitlichen Adobe-Erlebnis hinzugefügt wird. </p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
-   <td><p> Standard, Light oder Contributor</p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <td><p> Standard, Licht oder Mitwirkende</p>
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Anzeigen oder höherer Berechtigungen für einen Arbeitsbereich</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>  </td> 
+   <td>   <p>Anzeigen oder Erweitern von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -158,23 +158,23 @@ OLD:
 +++
 -->
 
-## In-App-Benachrichtigungen verwalten, wenn Sie von einem Benutzer mit einem Kommentar markiert werden
+## Verwalten von In-App-Benachrichtigungen, wenn jemand Sie in einem Kommentar taggt
 
-1. (Bedingt) Nachdem ein Benutzer einen Kommentar zu einem Datensatz mit einem Tags versehen hat, gehen Sie zum In-App-Symbol **Benachrichtigungen** ![](assets/experience-cloud-notifications-icon.png) in Adobe Experience Cloud.
+1. (Bedingt) Nachdem Sie von einer Person in einem Kommentar zu einem Datensatz getaggt wurden, navigieren Sie zum In-App **Benachrichtigungssymbol** Adobe Experience Cloud ![](assets/experience-cloud-notifications-icon.png).
 
    ![](assets/in-app-notification-example.png)
 
 1. Klicken Sie auf die Benachrichtigung.
 
-   Die Seite mit den Datensatzdetails wird in der Workfront-Planung geöffnet. Sie können den Datensatz aktualisieren oder auf den Kommentar antworten.
+   Die Seite mit den Datensatzdetails wird in Workfront Planning geöffnet. Sie können Aktualisierungen am Datensatz vornehmen oder auf den Kommentar antworten.
 
-1. (Optional) Klicken Sie auf **Alle als gelesen markieren** , um anzugeben, dass Sie alle Benachrichtigungen gelesen haben.
-1. (Optional) Klicken Sie auf **Alle anzeigen** , um zur Seite **Benachrichtigungen** in Adobe Experience Cloud zu wechseln.
+1. (Optional) Klicken Sie auf **Alle als gelesen markieren** um anzugeben, dass Sie alle Benachrichtigungen gelesen haben.
+1. (Optional) Klicken Sie auf **Alle anzeigen**, um die Seite **Benachrichtigungen** in Adobe Experience Cloud aufzurufen.
 
-## In-App-Benachrichtigungen beim Anfordern und Gewähren von Berechtigungen verwalten
+## Verwalten von In-App-Benachrichtigungen beim Anfordern und Gewähren von Berechtigungen
 
-Sie erhalten In-App-Benachrichtigungen, wenn jemand Ihnen Berechtigungen für eine Ansicht oder einen Arbeitsbereich erteilt.
+Sie erhalten In-App-Benachrichtigungen, wenn jemand Sie um Berechtigungen für eine Ansicht oder einen Arbeitsbereich bittet oder Ihnen Berechtigungen erteilt.
 
-Informationen zum Anfordern, Gewähren oder Ablehnen von Berechtigungen für eine Ansicht oder einen Arbeitsbereich finden Sie unter [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md).
+Informationen zum Anfordern, Gewähren oder Verweigern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich finden Sie [Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern](/help/quicksilver/planning/access/request-permissions.md).
 
-Informationen zum Verwalten von Workfront-Planungs-Benachrichtigungen finden Sie unter [Voreinstellungen für Adobe Workfront-Planungs-Benachrichtigungen verwalten](/help/quicksilver/planning/notifications/manage-notification-preferences.md).
+Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden Sie unter [Verwalten von Adobe Workfront Planning-Benachrichtigungseinstellungen](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

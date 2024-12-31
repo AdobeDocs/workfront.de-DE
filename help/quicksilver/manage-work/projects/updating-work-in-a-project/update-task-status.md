@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: update-work-in-a-project
 title: Aufgabenstatus aktualisieren
-description: Sie können den Status einer Aufgabe aktualisieren, um andere darüber zu informieren, wo sich die Aufgabe befindet (und wie das Gesamtprojekt) und wie sie vorankommt.
+description: Sie können den Status einer Aufgabe aktualisieren, um andere darüber zu informieren, wo sich die Aufgabe (und das gesamte Projekt) befindet und wie sie voranschreitet.
 author: Alina
 feature: Work Management
 exl-id: e1efc676-e110-486e-91dc-f521421575e8
@@ -13,19 +13,19 @@ ht-degree: 1%
 
 ---
 
-# Aktualisierung des Aufgabenstatus
+# Aufgabenstatus aktualisieren
 
 <!--Audited: 10/2024-->
 
-Sie können den Status einer Aufgabe aktualisieren, um andere darüber zu informieren, wo sich die Aufgabe befindet (und wie das Gesamtprojekt) und wie sie vorankommt.
+Sie können den Status einer Aufgabe aktualisieren, um andere darüber zu informieren, wo sich die Aufgabe (und das gesamte Projekt) befindet und wie sie voranschreitet.
 
-Die Standardstatus sind &quot;Neu&quot;, &quot;In Bearbeitung&quot;und &quot;Abgeschlossen&quot;. Ihr Adobe Workfront-Administrator kann benutzerdefinierte Status für Ihre Organisation hinzufügen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Die Standardstatus sind „Neu“, „In Bearbeitung“ und „Abgeschlossen“. Ihr Adobe Workfront-Administrator kann benutzerdefinierte Status für Ihr Unternehmen hinzufügen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
-Sie können den Aufgabenstatus manuell aktualisieren oder Workfront automatisch aktualisieren lassen, wenn bestimmte Aktionen ausgeführt werden.
+Sie können den Aufgabenstatus manuell aktualisieren oder zulassen, dass Workfront ihn automatisch aktualisiert, wenn bestimmte Aktionen ausgeführt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren zu können:
 
@@ -34,8 +34,8 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -45,26 +45,26 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Aufgaben bearbeiten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für die Aufgabe verwalten</p> </td> 
+   <td> <p>Verwalten der Berechtigungen für die Aufgabe</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Überlegungen zum Aktualisieren des Status von Aufgaben
+## Überlegungen zur Aktualisierung des Aufgabenstatus
 
-* Wenn Sie eine Aufgabe als &quot;Abgeschlossen&quot;markieren, wird der prozentuale Abschluss der Aufgabe auf 100 % aktualisiert.
-* Für übergeordnete Aufgaben gibt es die folgenden Szenarien:
-   * Sie können den Status einer übergeordneten Aufgabe nicht auf &quot;Abgeschlossen&quot;aktualisieren, wenn der Zusammenfassungsabschlussmodus des Projekts auf &quot;Automatisch&quot;eingestellt ist und die Unteraufgaben nicht abgeschlossen sind.
-   * Sie können den Status einer übergeordneten Aufgabe auf &quot;Abgeschlossen&quot;aktualisieren, wenn der Zusammenfassungsabschlussmodus des Projekts auf &quot;Manuell&quot;festgelegt ist und die Unteraufgaben abgeschlossen oder unvollständig sind.
+* Wenn Sie eine Aufgabe als abgeschlossen markieren, wird der Prozentsatz der Fertigstellung der Aufgabe auf 100 % aktualisiert.
+* Die folgenden Szenarien existieren für übergeordnete Aufgaben:
+   * Sie können den Status einer übergeordneten Aufgabe nicht auf „Abgeschlossen“ aktualisieren, wenn der Fertigstellungsmodus Zusammenfassung des Projekts auf „Automatisch“ eingestellt ist und die Teilaufgaben nicht abgeschlossen sind.
+   * Sie können den Status einer übergeordneten Aufgabe auf Abgeschlossen aktualisieren, wenn der Fertigstellungsmodus Zusammenfassung des Projekts auf Manuell festgelegt ist und die Teilaufgaben abgeschlossen oder unvollständig sind.
 
   Weitere Informationen finden Sie unter [Projekte bearbeiten](../manage-projects/edit-projects.md).
 
@@ -72,37 +72,37 @@ Sie müssen über folgenden Zugriff verfügen, um Aufgaben manuell aktualisieren
 
 Sie können den Aufgabenstatus in den folgenden Bereichen von Workfront aktualisieren:
 
-* Die Kopfzeile der Aufgabe auf der Aufgabenseite.
-* das Feld Aufgabe bearbeiten beim Bearbeiten einer Aufgabe.
-* den Abschnitt &quot;Aufgabendetails&quot;auf der Aufgabenseite.
+* Die Aufgabenkopfzeile auf der Aufgabenseite
+* Das Feld Aufgabe bearbeiten beim Bearbeiten einer Aufgabe.
+* Der Abschnitt Aufgabendetails auf der Aufgabenseite.
 * Wenn in einer Aufgabenliste oder einem Bericht das Feld Status in der Ansicht sichtbar ist.
-* Im Bereich Zusammenfassung der Aufgabe.
+* Im Bedienfeld Zusammenfassung der Aufgabe.
 
-So aktualisieren Sie den Aufgabenstatus in der Aufgabenüberschrift manuell:
+So aktualisieren Sie den Aufgabenstatus in der Aufgabenkopfzeile manuell:
 
-1. Gehen Sie zu einer Aufgabe, für die Sie den Status aktualisieren möchten.
-1. Klicken Sie in der Aufgabenkopfzeile auf das Feld **Status** und wählen Sie einen neuen Status aus.
-1. Um einen visuellen Hinweis zum Abschluss der Aufgabe anzuzeigen, ziehen Sie die Blase unter **Prozent abgeschlossen** in die Kopfzeile der Aufgabe
+1. Wechseln Sie zu einer Aufgabe, für die Sie den Status aktualisieren möchten.
+1. Klicken Sie auf **Status** in der Aufgabenkopfzeile und wählen Sie einen neuen Status aus.
+1. Um einen visuellen Hinweis zum Abschluss der Aufgabe zu geben, ziehen oder doppelklicken Sie auf den Kreis unter **Prozent abgeschlossen** in der Kopfzeile der Aufgabe
 
    Oder
 
-   Klicken Sie in die Blase in der Kopfzeile der Aufgabe, um einen Prozentsatz einzugeben.
+   Klicken Sie in die Sprechblase in der Aufgabenkopfzeile, um einen Prozentsatz einzugeben.
 
    ![](assets/percent-complete-status-widgets-task-header.png)
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um zusätzliche Informationen über die Aktualisierung bereitzustellen:
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um zusätzliche Informationen zur Aktualisierung bereitzustellen:
 
-   * Um einen Hinweis zur Aktualisierung hinzuzufügen, gehen Sie zum Abschnitt **Aktualisierungen** und klicken Sie auf **Neuer Kommentar**. Geben Sie dann einen Hinweis ein.
+   * Um einen Hinweis zur Aktualisierung hinzuzufügen, gehen Sie zum Abschnitt **Aktualisierungen** und klicken Sie auf **Neuer Kommentar** und geben Sie dann einen Hinweis ein.
 
      ![](assets/add-update-to-task.png)
 
-   * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie deren Namen in das Feld **Personen oder Teams taggen** ein, das angezeigt wird, wenn Sie einen Kommentar eingeben. Weitere Informationen finden Sie unter [Taggen anderer Benutzer bei Updates](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
-   * Klicken Sie zum Aktualisieren des Übermittlungsdatums der Aufgabe auf **Aufgabendetails** und bearbeiten Sie dann das Feld **Übermittlungsdatum** . Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
+   * Um bestimmte Benutzer über die Aktualisierung zu benachrichtigen, geben Sie ihre Namen in das Feld **Personen oder Teams taggen** ein, das angezeigt wird, wenn Sie einen Kommentar eingeben. Weitere Informationen finden Sie unter [Andere bei Updates taggen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+   * Um das Commit-Datum der Aufgabe zu aktualisieren, klicken Sie auf **Aufgabendetails** und bearbeiten Sie dann das Feld **Commit-Datum**. Weitere Informationen finden Sie unter [Aufgaben bearbeiten](/help/quicksilver/manage-work/tasks/manage-tasks/edit-tasks.md).
 
 
    >[!IMPORTANT]
    >
-   >  Nur Aufgabenverantwortliche können das Veröffentlichungsdatum aktualisieren.
+   >  Nur Aufgabenzugewiesene können das Commit-Datum aktualisieren.
 
 <!--old functionality in old commenting: 
 
@@ -119,13 +119,13 @@ So aktualisieren Sie den Aufgabenstatus in der Aufgabenüberschrift manuell:
    * To provide a visual indication of task completion, drag the bubble under Percent Complete or double-click it to enter a percent value.   
      ![](assets/drag-the-progress-bar-350x155.png)-->
 
-## Automatisches Aktualisieren des Aufgabenstatus
+## Aufgabenstatus automatisch aktualisieren
 
-Workfront aktualisiert den Status einer Aufgabe automatisch in einen anderen Status, wenn die in der folgenden Tabelle aufgelisteten Aktionen ausgeführt werden.
+Workfront aktualisiert automatisch den vorhandenen Aufgabenstatus auf einen anderen Status, wenn die in der folgenden Tabelle aufgeführten Aktionen ausgeführt werden.
 
 >[!NOTE]
 >
->Die Status in der folgenden Tabelle sind standardmäßige Systemstatus. Ihr Workfront-Administrator oder ein Gruppenadministrator kann die Status in Ihrer Workfront-Instanz umbenennen. Informationen zum Erstellen und Verwalten von Status in Workfront finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>Die in der folgenden Tabelle aufgeführten Statuswerte sind standardmäßige Systemstatus. Ihr Workfront-Administrator oder ein Gruppenadministrator kann die Status in Ihrer Workfront-Instanz umbenennen. Informationen zum Erstellen und Verwalten von Status in Workfront finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -134,23 +134,23 @@ Workfront aktualisiert den Status einer Aufgabe automatisch in einen anderen Sta
  <tbody> 
   <tr> 
    <td><b>Aktion</b></td> 
-   <td><b>Originalstatus</b></td> 
+   <td><b>Originalzustand</b></td> 
    <td><b>Neuer Status</b></td> 
   </tr> 
   <tr> 
-   <td>Aktualisieren Sie den Prozentsatz der abgeschlossenen Aufgaben auf 100 %</td> 
+   <td>Prozentuale Fertigstellung der Aufgabe auf 100 % aktualisieren</td> 
    <td>Neu oder in Bearbeitung</td> 
    <td>Abgeschlossen</td> 
   </tr> 
   <tr> 
-   <td>Aktualisieren Sie den Prozentsatz der abgeschlossenen Aufgaben von 100 % auf eine niedrigere Zahl.</td> 
+   <td>Prozentuale Fertigstellung der Aufgabe von 100 % auf eine niedrigere Zahl aktualisieren</td> 
    <td>Abgeschlossen</td> 
    <td>In Arbeit</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>Klicken Sie auf die Schaltfläche Aufgabe starten , um die Arbeit an einer Aufgabe zu akzeptieren, die Ihnen zugewiesen ist</span> </td> 
+   <td><span>Klicken Sie auf die Schaltfläche Aufgabe starten , um die Bearbeitung einer Ihnen zugewiesenen Aufgabe anzunehmen</span> </td> 
    <td><span>Neu</span> </td> 
-   <td> <p>Jeder Status, der mit der Schaltfläche Aufgabe starten in den Einstellungen des Home-Teams verknüpft ist.</p> <p>Weitere Informationen zum Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start Task"finden Sie unter <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start"</a></span>.</p> <p>Tipp: <span>Durch Klicken auf die Schaltfläche "Rückgängig"<span data-mc-conditions="QuicksilverOrClassic.Quicksilver">nach dem Klicken auf "Aufgabe starten"wird der Status auf "Neu"zurückgesetzt.</span></span> </p> </td> 
+   <td> <p>Jeder Status, der mit der Schaltfläche Aufgabe starten in den Einstellungen Ihres Home-Teams verknüpft ist.</p> <p>Informationen zum Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Aufgabe starten“ finden Sie <span href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md"><a href="../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“</a></span>.</p> <p>Tipp: <span>Klicken</span> <span data-mc-conditions="QuicksilverOrClassic.Quicksilver">auf die Schaltfläche „Rückgängig“</span>nach dem Klicken auf „Aufgabe starten“ wird der Status auf „Neu“ zurückgesetzt. </p> </td> 
   </tr> 
  </tbody> 
 </table>

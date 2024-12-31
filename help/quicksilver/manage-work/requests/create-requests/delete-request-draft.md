@@ -1,8 +1,8 @@
 ---
 product-area: requests
 navigation-topic: create-requests
-title: Anforderungsentwurf löschen
-description: Sie können Anfrageentwürfe während der Erstellung löschen, indem Sie sie verwerfen.
+title: Löschen eines Anfrageentwurfs
+description: Anfrageentwürfe können während der Erstellung gelöscht werden, indem Sie sie verwerfen.
 author: Lisa
 feature: Work Management
 exl-id: 9098ada7-0e6b-4de2-97ad-5c6e590fbba3
@@ -13,20 +13,20 @@ ht-degree: 0%
 
 ---
 
-# Anforderungsentwurf löschen
+# Löschen eines Anfrageentwurfs
 
-Sie können Anfrageentwürfe während der Erstellung löschen, indem Sie sie verwerfen.
+Anfrageentwürfe können während der Erstellung gelöscht werden, indem Sie sie verwerfen.
 
 Weitere Informationen finden Sie unter:
 
-* [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md)
+* [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md)
 * [Anforderungen aus Entwürfen erstellen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md)
 
-Sie können entworfene Anforderungen löschen, nachdem sie als Entwürfe gespeichert wurden, falls Sie sie nicht mehr für relevant halten. Gelöschte Entwurfsanforderungen können nicht abgerufen werden.
+Entworfene Anfragen können gelöscht werden, nachdem sie als Entwürfe gespeichert wurden, falls sie für Sie nicht mehr relevant sind. Gelöschte Entwurfsanfragen können nicht wiederhergestellt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,45 +35,45 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu: Mitarbeiter oder höher</p>
+   <td> <p>Neu: Mitwirkender oder höher</p>
    Oder
    <p>Aktuell: Anforderung oder höher</p>
     </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p>  </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Anfragen bearbeiten</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen für das Löschen von Anfrageentwürfen
 
-Sie müssen Folgendes tun, bevor Sie einen Anforderungsentwurf löschen können:
+Sie müssen Folgendes tun, bevor Sie einen Anfrageentwurf löschen können:
 
-* Erstellen Sie eine Anforderung. Dadurch wird die Anforderung automatisch als Entwurf im Abschnitt Entwürfe gespeichert.
+* Erstellen Sie eine Anfrage. Dadurch wird die Anfrage automatisch im Abschnitt Entwürfe als Entwurf gespeichert.
 
-  Informationen zum Erstellen von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Informationen zum Erstellen von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-## Anforderungsentwurf löschen
+## Löschen eines Anfrageentwurfs
 
 {{step1-to-requests}}
 
-1. Wählen Sie im linken Bereich **Entwürfe** aus.
+1. Wählen **Entwürfe** im linken Bedienfeld aus.
 
-   Alle Entwürfe für alle Anforderungswarteschlangen werden in dieser Liste angezeigt.
+   In dieser Liste werden alle Entwürfe für alle Anforderungswarteschlangen angezeigt.
 
-1. (Optional) Klicken Sie oben rechts in der Entwurfsliste auf **Nach Anfragetyp filtern** und wählen Sie dann die Anforderungswarteschlange mit den Entwürfen aus, die Sie anzeigen möchten.
-1. Wählen Sie einen Entwurf in der Liste aus und klicken Sie dann oben in der Liste auf **Löschen** .
-1. Klicken Sie auf **Ja, löschen Sie es**.
+1. (Optional) Klicken Sie **Nach Anfragetyp filtern** in der rechten oberen Ecke der Entwurfsliste und wählen Sie dann die Anfragewarteschlange aus, die die Entwürfe enthält, die Sie anzeigen möchten.
+1. Wählen Sie einen Entwurf in der Liste aus und klicken **oben in** Liste auf „Löschen“.
+1. Klicken Sie **Ja, löschen**.
 
    Der Entwurf wird gelöscht und kann nicht wiederhergestellt werden.

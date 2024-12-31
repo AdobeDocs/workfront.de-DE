@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Übersicht über das geplante Projektstartdatum
-description: Übersicht über das geplante Projektstartdatum
+title: Übersicht über das geplante Startdatum des Projekts
+description: Übersicht über das geplante Startdatum des Projekts
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über das geplante Projektstartdatum
+# Übersicht über das geplante Startdatum des Projekts
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -25,17 +25,17 @@ ht-degree: 0%
 </div>
 -->
 
-Der geplante Beginn und die geplanten Abschlussdaten eines Projekts basieren auf den Daten der Aufgaben für das Projekt. In diesem Artikel wird das geplante Startdatum eines Projekts beschrieben. Informationen zum geplanten Startdatum der Aufgabe finden Sie unter [Übersicht über das geplante Startdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-start-date.md).
+Der geplante Start und die geplanten Abschlussdaten eines Projekts hängen von den Daten der Aufgaben im Projekt ab. In diesem Artikel wird das geplante Startdatum eines Projekts beschrieben. Informationen zum geplanten Startdatum der Aufgabe finden Sie unter [Übersicht über das geplante Startdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 
-Das geplante Startdatum eines Projekts kann manuell oder automatisch festgelegt werden, je nachdem, ob Sie das Projekt vom Beginn oder vom Abschlussdatum an planen.
+Das geplante Startdatum eines Projekts kann manuell oder automatisch festgelegt werden, je nachdem, ob Sie das Projekt vom Start- oder vom Abschlussdatum aus planen.
 
 ## Manuelles Festlegen des geplanten Startdatums eines Projekts
 
-Sie müssen das geplante Startdatum eines Projekts manuell festlegen, wenn Sie das Projekt vom Startdatum an planen.
+Sie müssen das geplante Startdatum eines Projekts manuell festlegen, wenn Sie das Projekt ab dem Startdatum planen.
 
 >[!NOTE]
 >
->Wenn Sie das geplante Projektstartdatum manuell festlegen, berechnet Workfront automatisch das geplante Abschlussdatum des Projekts basierend auf der Dauer aller Aufgaben.
+>Wenn Sie das geplante Abschlussdatum eines Projekts manuell festlegen, berechnet Workfront automatisch das geplante Abschlussdatum des Projekts auf der Grundlage der Dauer aller Aufgaben.
 
 Weitere Informationen zum Festlegen des geplanten Startdatums des Projekts finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -56,27 +56,27 @@ Weitere Informationen zum Festlegen des geplanten Startdatums des Projekts finde
 
 ## Automatisches Festlegen des geplanten Startdatums eines Projekts
 
-Das geplante Startdatum eines Projekts wird automatisch festgelegt, wenn Sie das Projekt auf folgende Weise erstellen:
+Das geplante Startdatum eines Projekts wird automatisch festgelegt, wenn Sie das Projekt wie folgt erstellen:
 
-* von Grund auf neu und wenn Sie das Projekt vom Abschlussdatum planen.
+* von Grund auf neu erstellt und wenn Sie das Projekt ab dem Abschlussdatum planen.
 
-  Das geplante Startdatum wird von Adobe Workfront automatisch basierend auf dem Datum, das Sie für das Abschlussdatum auswählen, und der Dauer aller Projektaufgaben berechnet.
+  Das geplante Startdatum wird von Adobe Workfront automatisch anhand des von Ihnen für das Abschlussdatum gewählten Datums und der Dauer aller Aufgaben im Projekt berechnet.
 
-  Weitere Informationen zum Erstellen eines neuen Projekts finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
+  Informationen zum Erstellen eines Projekts von Grund auf finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-* importieren Sie es aus Microsoft Project.
+* aus Microsoft Project importieren.
 
-  Das geplante Startdatum ist das Startdatum des Projekts im Microsoft-Projekt.
+  Das geplante Startdatum ist das Startdatum des Projekts in Microsoft Project.
 
   Informationen zum Importieren eines Projekts aus Microsoft Project finden Sie unter [Importieren eines Projekts aus Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-* Importieren Sie es mit Workfront Kick-Starts, wenn Sie Workfront-Administrator sind.
+* Importieren Sie es mit Workfront Kickstarts, wenn Sie Workfront-Administrator sind.
 
-  Das geplante Startdatum stimmt immer mit der Uhrzeit und dem Datum des Computers überein, es sei denn, Sie geben im Feld setPlannedStartDate im Projektblatt der Kick-Start-Datei etwas Anderes an.
+  Das geplante Startdatum entspricht immer der Uhrzeit und dem Datum Ihres Computers, sofern Sie im Feld setPlannedStartDate auf dem Projektblatt der Kickstart-Datei nichts anderes angeben.
 
-  Informationen zum Importieren von Daten mithilfe von Kick-Start-Schritten finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kick-Start-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Informationen zum Importieren von Daten mit Kickstarts finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Weitere Informationen zum Importieren von Projekten mit Kick-Start finden Sie unter [Kick-Starts-Szenario: Vorbereitung des einfachen Projekts und des Aufgabenimports](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Informationen zum Importieren von Projekten mithilfe von Kickstarts finden Sie unter [Kickstartszenario: Einfache Vorbereitung für den Projekt- und Aufgabenimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -95,7 +95,7 @@ Das geplante Startdatum eines Projekts wird automatisch festgelegt, wenn Sie das
 
 ## Das geplante Startdatum einer Aufgabe
 
-Sie können entweder das geplante Startdatum einer Aufgabe angeben oder es Workfront überlassen, sie nach bestimmten Kriterien zu berechnen.
+Sie können entweder das geplante Startdatum einer Aufgabe angeben oder es Workfront überlassen, es nach bestimmten Kriterien zu berechnen.
 
 Informationen zum geplanten Startdatum einer Aufgabe finden Sie unter [Übersicht über das geplante Startdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-start-date.md).
 

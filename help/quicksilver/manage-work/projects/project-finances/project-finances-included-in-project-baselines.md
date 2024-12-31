@@ -2,8 +2,8 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Projektfinanzierung in Projektgrundlagen
-description: Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem bestimmten Zeitpunkt aussah. Sie speichern wichtige Informationen zum Projekt, wie z. B. Schlüsseldaten, Fortschritt, Kosten und Umsatzwerte.
+title: In Projektgrundlagen enthaltene Projektfinanzen
+description: Baselines sind Momentaufnahmen der Leistung eines Projekts zu einem bestimmten Zeitpunkt. Sie speichern wichtige Informationen über das Projekt, wie wichtige Daten, Fortschritt, Kosten und Umsatzwerte.
 author: Lisa
 feature: Work Management
 exl-id: 705156d0-0daa-40bf-a511-144d56316136
@@ -14,28 +14,28 @@ ht-degree: 14%
 
 ---
 
-# Projektfinanzen in Projektgrundlagen
+# In Projektgrundlagen enthaltene Projektfinanzen
 
-Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem bestimmten Zeitpunkt aussah. Sie speichern wichtige Informationen zum Projekt, wie z. B. Schlüsseldaten, Fortschritt, Kosten und Umsatzwerte.
+Baselines sind Momentaufnahmen der Leistung eines Projekts zu einem bestimmten Zeitpunkt. Sie speichern wichtige Informationen über das Projekt, wie wichtige Daten, Fortschritt, Kosten und Umsatzwerte.
 
-Wenn Sie eine Grundlinie erstellen, werden die Aufgabeninformationen auch in den Grundaufgaben dieser Grundlinie erfasst.
+Wenn Sie eine Baseline erstellen, werden die Aufgabeninformationen auch in den Baseline-Aufgaben dieser Baseline erfasst.
 
-Informationen zum Erstellen von Projekt-Grundlinien finden Sie unter [Erstellen von Projekt-Grundlinien](../../../manage-work/projects/create-projects/create-baselines.md).
+Informationen zum Erstellen von Projekt-Baselines finden Sie unter [Erstellen von Projekt-Baselines](../../../manage-work/projects/create-projects/create-baselines.md).
 
-## Finanzinformationen in den Grundlinien
+## In Baselines enthaltene Finanzinformationen
 
-Sie können Baseline- oder Baseline-Aufgabenberichte erstellen, um Informationen anzuzeigen, die über das Projekt oder die Aufgaben zu einem bestimmten Zeitpunkt erfasst wurden.
+Sie können Baseline- oder Baseline-Aufgabenberichte erstellen, um Informationen anzuzeigen, die zu einem bestimmten Zeitpunkt über das Projekt oder die Aufgaben erfasst wurden.
 
-Neben den Namen- und Datumsangaben enthalten Grundlinien und Grundaufgaben auch Finanzinformationen zu den Projekten oder Aufgaben. Die folgenden Listen zeigen die finanziellen Informationen des Projekts und der Aufgaben an, auf die über die Objekte &quot;Baseline&quot;oder &quot;Baseline Task&quot;zugegriffen werden kann.
+Neben Namen und Datumsangaben enthalten Baselines und Baseline-Aufgaben auch Finanzinformationen zum Projekt oder zu den Aufgaben. In den folgenden Listen werden die Finanzinformationen des Projekts und der Aufgaben angezeigt, auf die über die Baseline oder die Baseline-Aufgabenobjekte zugegriffen werden kann.
 
-Weitere Informationen dazu, was in den einzelnen Feldern angezeigt wird, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Weitere Informationen zu den einzelnen Feldern finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-* [In Basisberichten enthaltene Finanzinformationen](#financial-information-included-in-baseline-reports)
-* [Finanzinformationen in Baseline-Aufgabenberichten](#financial-information-included-in-baseline-task-reports)
+* [In Baseline-Berichten enthaltene Finanzinformationen](#financial-information-included-in-baseline-reports)
+* [In Baseline-Aufgabenberichten enthaltene Finanzinformationen](#financial-information-included-in-baseline-task-reports)
 
-### Finanzinformationen in Basisberichten {#financial-information-included-in-baseline-reports}
+### In Baseline-Berichten enthaltene Finanzinformationen {#financial-information-included-in-baseline-reports}
 
-Die folgenden finanziellen Informationen des Projekts sind über das Baseline-Objekt in einem Baseline-Bericht verfügbar:
+Die folgenden Finanzinformationen für das Projekt sind über das Baseline -Objekt in einem Baseline -Bericht zugänglich:
 
 * Geplante Ausgaben
 * Geplante Lohnkosten
@@ -45,22 +45,22 @@ Die folgenden finanziellen Informationen des Projekts sind über das Baseline-Ob
 * Budgetierte Kosten
 * Ressourcenplaner – budgetierte Lohnkosten
 
-  Die im Ressourcenplaner veranschlagten Arbeitskosten sind die Arbeitskosten des Projekts basierend auf den für das Projekt im Ressourcenplaner zum Zeitpunkt der Erstellung der Grundlinie vorgesehenen Stunden.
+  Die budgetierten Lohnkosten des Ressourcenplaners sind die Lohnkosten des Projekts auf der Basis der für das Projekt im Ressourcenplaner zum Zeitpunkt der Erstellung des Basisplans budgetierten Stunden.
 
 * Fixkosten
 * Geplante Einnahmen
 * Tatsächliche Einnahmen
-* Fester Projektumsatz
+* Festeinnahmen des Projekts
 * Geplanter Gewinn
 * EAC
 * Geplante Kosten
-* Kosten-Performance-Index (SPI)
-* CSI (Cost Schedule Performance Index)
+* Kostenentwicklungsindex (SPI)
+* Kostenplan-Leistungsindex (CSI)
 * Zeitplan-Leistungsindex (CPI)
 
-### Finanzinformationen in Baseline-Aufgabenberichten {#financial-information-included-in-baseline-task-reports}
+### In Baseline-Aufgabenberichten enthaltene Finanzinformationen {#financial-information-included-in-baseline-task-reports}
 
-Die folgenden finanziellen Informationen zu Aufgaben sind über das Objekt &quot;Baseline Task&quot;in einem Baseline-Bericht verfügbar:
+Die folgenden Finanzinformationen für die Aufgabe sind über das Objekt „Geplante Aufgabe“ in einem Bericht „Geplante Aufgabe“ zugänglich:
 
 * Geplante Ausgaben
 * Geplante Lohnkosten
@@ -69,9 +69,9 @@ Die folgenden finanziellen Informationen zu Aufgaben sind über das Objekt &quot
 * Kostenart
 * Geplante Einnahmen
 * Tatsächliche Einnahmen
-* Task Revenue Type
+* Aufgabenumsatztyp
 * EAC
 * Geplante Kosten
-* Kosten-Performance-Index (SPI)
-* CSI (Cost Schedule Performance Index)
+* Kostenentwicklungsindex (SPI)
+* Kostenplan-Leistungsindex (CSI)
 * Zeitplan-Leistungsindex (CPI)

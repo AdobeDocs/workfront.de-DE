@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: create-tasks
-title: Erstellen von Unteraufgaben
-description: In Workfront können Aufgaben über Beziehungen zwischen über- und untergeordneten Aufgaben verfügen. Untergeordnete Aufgaben werden als Unteraufgaben bezeichnet. Sie können in der Aufgabenliste Unteraufgaben erstellen, indem Sie eine Hauptaufgabe zu einer Unteraufgabe machen. Sie können eine Unteraufgabe auch zu einer Hauptaufgabe machen.
+title: Teilaufgaben erstellen
+description: In Workfront können Aufgaben über hierarchische Beziehungen verfügen. Untergeordnete Aufgaben werden als Teilaufgaben bezeichnet. Sie können Teilaufgaben in der Aufgabenliste erstellen, indem Sie eine Hauptaufgabe zu einer Teilaufgabe machen. Sie können eine Teilaufgabe auch zu einer Hauptaufgabe machen.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Erstellen von Unteraufgaben
+# Teilaufgaben erstellen
 
 <!-- Audited: 1/2024 -->
 
-In Workfront können Aufgaben über Beziehungen zwischen über- und untergeordneten Aufgaben verfügen. Untergeordnete Aufgaben werden als Unteraufgaben bezeichnet. Sie können in der Aufgabenliste Unteraufgaben erstellen, indem Sie eine Hauptaufgabe zu einer Unteraufgabe machen. Sie können eine Unteraufgabe auch zu einer Hauptaufgabe machen.
+In Workfront können Aufgaben über hierarchische Beziehungen verfügen. Untergeordnete Aufgaben werden als Teilaufgaben bezeichnet. Sie können Teilaufgaben in der Aufgabenliste erstellen, indem Sie eine Hauptaufgabe zu einer Teilaufgabe machen. Sie können eine Teilaufgabe auch zu einer Hauptaufgabe machen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -40,67 +40,67 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
    <td> <p>Zugriff auf Aufgaben und Projekte bearbeiten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute-Berechtigungen für das Projekt und die übergeordnete Aufgabe mit der Möglichkeit, Aufgaben hinzuzufügen oder höher</p> <p>Sie erhalten nach der Erstellung automatisch Verwaltungsberechtigungen für die Aufgabe.</p>  </td> 
+   <td> <p>Contribute-Berechtigungen für das Projekt und die übergeordnete Aufgabe mit der Möglichkeit, Aufgaben oder höher hinzuzufügen</p> <p>Sie erhalten nach der Erstellung automatisch Verwaltungsberechtigungen für die Aufgabe.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen von Unteraufgaben
+## Teilaufgaben erstellen
 
-Sie können Unteraufgaben aus der Aufgabenliste oder dem Aufgabenunterabschnitt erstellen.
+Sie können Teilaufgaben aus der Aufgabenliste oder dem Abschnitt Teilaufgaben erstellen.
 
-### Erstellen von Unteraufgaben aus der Aufgabenliste {#create-subtasks-from-the-task-list}
+### Erstellen von Teilaufgaben aus der Aufgabenliste {#create-subtasks-from-the-task-list}
 
-1. Wechseln Sie zu dem Projekt, in dem Sie Unteraufgaben erstellen möchten.
-1. Klicken Sie im linken Bereich auf den Abschnitt **Aufgaben** .
-1. (Bedingt) Wenn sich die Aufgabe, die Sie für die untergeordnete Aufgabe verwenden möchten, nicht bereits direkt unter der Aufgabe befindet, die Sie als übergeordnete Aufgabe festlegen möchten, ziehen Sie sie an die gewünschte Position in der Aufgabenliste.
-1. Wählen Sie die Aufgabe aus, die Sie einer Unteraufgabe unterziehen möchten, und führen Sie einen der folgenden Schritte aus:
+1. Wechseln Sie zu dem Projekt, in dem Sie Teilaufgaben erstellen möchten.
+1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.
+1. (Bedingt) Wenn sich die Aufgabe, die Sie zu einer untergeordneten Aufgabe machen möchten, nicht bereits direkt unter der Aufgabe befindet, die Sie zu einer übergeordneten Aufgabe machen möchten, ziehen Sie sie an die entsprechende Position in der Aufgabenliste.
+1. Wählen Sie die Aufgabe aus, die Sie zu einer Teilaufgabe machen möchten, und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das Symbol **Einzug** ![](assets/indent-icon-nwe-33x29.png), um die ausgewählte Aufgabe direkt über der Aufgabe zu einer Unteraufgabe zu machen.
-   * Drücken Sie bei Verwendung einer standardmäßigen englischen QWERTY-Tastatur die Tastenkombination Wahltaste + > (Mac) oder Alt + > (Windows) auf Ihrer Tastatur. Andere Sprachen können die Befehle Option + , (Mac) oder Alt + , (Windows) zum Einzug verwenden.
+   * Klicken Sie auf das **Einzug**-Symbol ![](assets/indent-icon-nwe-33x29.png), um die ausgewählte Aufgabe zu einer Unteraufgabe der direkt darüber liegenden Aufgabe zu machen.
+   * Wenn Sie eine standardmäßige englische QWERTY-Tastatur verwenden, drücken Sie Wahltaste + > (Mac) oder Alt + > (Windows) auf der Tastatur. In anderen Sprachen können Sie die Befehle + , (Mac) oder Alt + , (Windows) zum Einrücken verwenden.
 
      >[!TIP]
      >
-     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben in der Inline-Bearbeitung bearbeiten. Verwenden Sie in diesem Fall das Symbol &quot;Einzug&quot;![](assets/cs1.png), um Unteraufgaben zu erstellen.
+     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben im Inline-Bearbeitungsmodus bearbeiten. Verwenden Sie in diesem Fall das Einrückungssymbol ![](assets/cs1.png), um Teilaufgaben zu erstellen.
 
-   * Ziehen Sie die Aufgabe per Drag-and-Drop über die Aufgabe, die Sie als übergeordnete Aufgabe festlegen möchten.
+   * Ziehen Sie die Aufgabe per Drag-and-Drop auf die Aufgabe, die Sie als übergeordnete Aufgabe festlegen möchten.
 
      >[!NOTE]
      >
-     >Aufgaben können nur eingezogen werden, wenn die Aufgabenliste nach Aufgabennummer sortiert ist und keine Gruppierungen auf die Aufgabenliste angewendet werden.
+     >Aufgaben können nur dann eingezogen werden, wenn die Aufgabenliste nach Aufgabennummer sortiert ist und auf die Aufgabenliste keine Gruppierungen angewendet wurden.
 
-### Erstellen von Unteraufgaben aus dem Abschnitt &quot;Unteraufgaben&quot; {#create-subtasks-from-the-task-subtasks-section}
+### Erstellen von Teilaufgaben aus dem Abschnitt „Aufgaben-Teilaufgaben“ {#create-subtasks-from-the-task-subtasks-section}
 
-1. Wechseln Sie zu dem Projekt, in dem Sie Unteraufgaben erstellen möchten.
-1. Klicken Sie im linken Bereich auf den Abschnitt **Aufgaben** .
-1. Klicken Sie auf den Namen der Aufgabe, in der Sie eine Unteraufgabe erstellen möchten.
-1. Klicken Sie im linken Bereich auf den Abschnitt **Unteraufgaben** .
+1. Wechseln Sie zu dem Projekt, in dem Sie Teilaufgaben erstellen möchten.
+1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.
+1. Klicken Sie auf den Namen der Aufgabe, für die Sie eine Unteraufgabe erstellen möchten.
+1. Klicken Sie auf **Abschnitt** Teilaufgaben“ im linken Bedienfeld.
 1. Klicken Sie auf **Neue Aufgabe.**
 
-   Führen Sie die Schritte im folgenden Artikel aus, um mit der Erstellung der Unteraufgabe fortzufahren: [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
+   Gehen Sie wie im folgenden Artikel beschrieben vor, um mit dem Erstellen der Unteraufgabe fortzufahren[ „Aufgaben in einem Projekt erstellen](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
 1. Klicken Sie auf **Aufgabe speichern.**
 
 ## Teilaufgabe zu einer Hauptaufgabe machen
 
-1. Wechseln Sie zu dem Projekt, in dem Sie eine Unteraufgabe zur Hauptaufgabe machen möchten.
-1. Klicken Sie im linken Bereich auf den Abschnitt **Aufgaben** .
-1. Wählen Sie die Unteraufgabe aus, die Sie als Hauptaufgabe durchführen möchten.
-1. Klicken Sie auf das Symbol **Ausrücken** ![](assets/outdent-icon-nwe-31x29.png), um die Unteraufgabe zu einer Hauptaufgabe zu machen.
+1. Wechseln Sie zu dem Projekt, in dem eine Teilaufgabe zu einer Hauptaufgabe gemacht werden soll.
+1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.
+1. Wählen Sie die Teilaufgabe aus, die Sie zu einer Hauptaufgabe machen möchten.
+1. Klicken Sie auf das **Ausrücken**-Symbol ![](assets/outdent-icon-nwe-31x29.png) , um die Unteraufgabe zu einer Hauptaufgabe zu machen.
 
    Oder
 
-   Drücken Sie auf einer standardmäßigen englischen QWERTY-Tastatur die Tastenkombination Option + &lt; (Mac) oder Alt + &lt; (Windows). Andere Sprachen können die Befehle Option + verwenden. (Mac) oder Alt + . (Windows) zu &quot;outdent&quot;.
+   Drücken Sie auf einer standardmäßigen englischen QWERTY-Tastatur die Wahltaste + &lt; (Mac) oder Alt + &lt; (Windows). Andere Sprachen können die Befehle Option + verwenden. (Mac) oder Alt + . (Windows) zum Ausrücken.
 
    >[!NOTE]
    >
-   >Sie können Aufgaben nur dann ausblenden, wenn die Aufgabenliste nach Aufgabennummer sortiert ist und keine auf die Aufgabenliste angewendeten Gruppierungen vorhanden sind.
+   >Sie können Aufgaben nur dann ausrücken, wenn die Aufgabenliste nach Aufgabennummer sortiert ist und wenn auf die Aufgabenliste keine Gruppierungen angewendet werden.

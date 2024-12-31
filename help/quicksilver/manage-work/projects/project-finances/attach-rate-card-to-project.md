@@ -1,6 +1,6 @@
 ---
-title: Eine Ratenkarte an ein Projekt anhängen
-description: Wenn Sie einem Projekt eine Ratenkarte anhängen, werden alle Rollen nach Standort und die zugehörigen Abrechnungsraten zum Projekt hinzugefügt.
+title: Hinzufügen einer Tarifkarte zu einem Projekt
+description: Wenn Sie einem Projekt eine Tarifkarte beifügen, werden alle Funktionen nach Standort und die zugehörigen Abrechnungssätze zum Projekt hinzugefügt.
 author: Lisa
 feature: Work Management
 role: User
@@ -12,27 +12,27 @@ ht-degree: 0%
 
 ---
 
-# Eine Ratenkarte an ein Projekt anhängen
+# Tarifkarte an ein Projekt anhängen
 
 {{highlighted-preview-article-level}}
 
-Ratenkarten speichern mehrere Abrechnungsraten pro Auftragsrolle basierend auf dem Standort. Sie könnten eine berufliche Rolle mit Designer mit Sitz in Paris und eine zweite Designer mit Sitz in New York mit jeweils unterschiedlichen Abrechnungsraten haben. Für Auftragsrollen auf einer Ratenkarte ist jedoch kein Ort erforderlich. Eine Abrechnungsrate für eine Stellenrolle (und möglicherweise einen Ort) auf einer Ratenkarte kann auch effektive Daten enthalten.
+Tarifkarten speichern mehrere Abrechnungssätze pro Aufgabengebiet, basierend auf dem Standort. Sie könnten ein Aufgabengebiet für Designer mit Sitz in Paris und ein zweites Designer mit Sitz in New York haben, jedes mit unterschiedlichen Abrechnungssätzen. Für Aufgabengebiete auf einer Tarifkarte ist jedoch kein Standort erforderlich. Ein Abrechnungssatz für ein Aufgabengebiet (und möglicherweise den Standort) auf einer Tarifkarte kann auch Gültigkeitsdaten enthalten.
 
-Wenn Sie einem Projekt eine Ratenkarte anhängen, werden alle Rollen nach Standort und die zugehörigen Abrechnungsraten zum Projekt hinzugefügt.
+Wenn Sie einem Projekt eine Tarifkarte beifügen, werden alle Funktionen nach Standort und die zugehörigen Abrechnungssätze zum Projekt hinzugefügt.
 
 >[!NOTE]
 >
->Wenn Sie eine Preiskarte anhängen, werden die bestehenden Abrechnungsraten für das Projekt überschrieben.
+>Durch das Anhängen einer Tarifkarte werden alle vorhandenen Abrechnungssätze für das Projekt überschrieben.
 
-Sie können die Abrechnungsraten von der Preiskarte direkt im Projekt bearbeiten. Dies wirkt sich nicht auf die auf der Standardratenkarte gespeicherten Tarife aus.
+Sie können die Abrechnungssätze direkt im Projekt über die Tarifkarte bearbeiten. Dies hat keinen Einfluss auf die auf der Standardtarifkarte gespeicherten Tarife.
 
-Informationen zum Erstellen von Ratenkarten finden Sie unter [Ratenkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+Weitere Informationen zum Erstellen von Tarifkarten finden Sie [Verwalten von Tarifkarten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
 
-Allgemeine Informationen zum Außerkraftsetzen der Abrechnungssätze für Stellenrollen für Projekte und zur Berechnung der Projekterlöse finden Sie unter [Übersicht über die Außerbetriebnahme von Auftragsrollenabrechnungen und Berechnung der Umsätze für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Allgemeine Informationen zum Überschreiben von Abrechnungssätzen für Aufgabengebiete für Projekte und zur Berechnung des Projektumsatzes finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](/help/quicksilver/manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,8 +41,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -52,34 +52,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p>Administratorzugriff auf Stellenrollen</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p>Administratorzugriff für Aufgabengebiete</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten der Finanzen </td> 
+   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Eine Ratenkarte an ein Projekt anhängen
+## Tarifkarte an ein Projekt anhängen
 
-1. Wechseln Sie zum Projekt.
-1. Klicken Sie im linken Bereich auf **Abrechnungsraten**. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
-1. Klicken Sie auf **Abrechnungsrate hinzufügen > Eine Ratenkarte anhängen**.
+1. Gehen Sie zum Projekt.
+1. Klicken **im linken** auf „Abrechnungssätze“. Möglicherweise müssen Sie zunächst auf &quot;**anzeigen“**.
+1. Klicken Sie **Abrechnungssatz hinzufügen > Tarifkarte anhängen**.
 
-   Die Seite Ratenkarte anhängen wird geöffnet. Weitere Informationen finden Sie unter [Verwalten von Ratenkarten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
+   Die Seite Tarifkarte anhängen wird geöffnet. Weitere Informationen finden Sie unter [Tarifkarten verwalten](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).
 
-1. Wählen Sie die Ratenkarte aus, die dem Projekt hinzugefügt werden soll, und klicken Sie auf **Anhängen**.
+1. Wählen Sie die Tarifkarte aus, die dem Projekt hinzugefügt werden soll, und klicken Sie auf **Anhängen**.
 
-   Die Ratenkarte und alle ihre Auftragseingangsraten werden der Liste der Abrechnungssätze hinzugefügt.
+   Die Tarifkarte und alle zugehörigen Tarife für Aufgabengebiete werden der Liste Abrechnungssätze hinzugefügt.
 
-   ![Dem Projekt hinzugefügte Ratenkarte](assets/billing-rates-added-from-rate-card.png)
+   ![Tarifkarte zum Projekt hinzugefügt](assets/billing-rates-added-from-rate-card.png)
 
    >[!NOTE]
    >
-   >Auf der Liste der Abrechnungssätze können Sie eine oder mehrere Auftragsrollen entfernen, die von einer Ratenkarte stammten. Wenn Sie eine Abrechnungsrate für Auftragsrollen aus dem Projekt entfernen, wird sie nicht von der Standardratenkarte entfernt.
+   >In der Liste Abrechnungssätze können Sie ein oder mehrere Aufgabengebiete entfernen, die aus einer Tarifkarte stammen. Wenn Sie einen Abrechnungssatz für das Aufgabengebiet aus dem Projekt entfernen, wird er nicht aus der Standardratenkarte entfernt.

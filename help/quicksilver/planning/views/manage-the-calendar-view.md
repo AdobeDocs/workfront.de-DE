@@ -1,6 +1,6 @@
 ---
 title: Kalenderansicht verwalten
-description: Sie können Datensätze und ihre Felder in einer Kalenderansicht anzeigen. In diesem Artikel wird beschrieben, wie Sie eine Kalenderansicht erstellen und eine vorhandene bearbeiten oder löschen können.
+description: Sie können Datensätze und ihre Felder in einer Kalenderansicht anzeigen. Dieser Artikel beschreibt, wie Sie eine Kalenderansicht erstellen und eine vorhandene bearbeiten oder löschen können.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 # Kalenderansicht verwalten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-Sie können Datensätze und ihre Felder in einer Kalenderansicht auf der Seite vom Typ Datensatz anzeigen.
+Auf der Seite Datensatztyp können Sie Datensätze und ihre Felder in einer Kalenderansicht anzeigen.
 
-Weitere Informationen zu Adobe Workfront-Planungsansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen zu Adobe Workfront Planning-Ansichten und deren Verwaltung finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -48,50 +48,50 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td><p> Standard </p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Berechtigungen für eine Ansicht verwalten</p>  
-   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
+   <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
+   <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -153,44 +153,44 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
-## Kalenderansicht verwalten {#manage-a-calendar-view}
+## Verwalten einer Kalenderansicht {#manage-a-calendar-view}
 
 <!--insert screen shot of calendar view-->
 
 Beachten Sie Folgendes:
 
-* Sie können eine Kalenderansicht nur erstellen, wenn einem Datensatztyp mindestens zwei Datumsfelder zugeordnet sind. Wenn einem Datensatztyp ein oder keine Datumsfelder zugeordnet sind, ist die Kalenderansichtsoption abgeblendet.
+* Eine Kalenderansicht kann nur erstellt werden, wenn mindestens zwei Datumsfelder mit einem Datensatztyp verknüpft sind. Wenn Sie ein oder kein Datumsfeld mit einem Datensatztyp verknüpft haben, ist die Option Kalenderansicht abgeblendet.
 
-  Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensätzen oder Objekttypen suchen.
-* Die folgenden Szenarien existieren:
+  Sie können aus Datensatzdatumsfeldern auswählen oder Datumsfelder aus verbundenen Datensatz- oder Objekttypen nachschlagen.
+* Die folgenden Szenarien sind vorhanden:
 
-   * Wenn das Start- und das Enddatum keine Werte aufweisen, werden die Datensätze nicht im Kalender angezeigt
-   * Wenn das Start- oder das Enddatum keinen Wert haben, wird der Datensatz als ein eintägiges Ereignis angezeigt
+   * Wenn sowohl das Start- als auch das Enddatum keine Werte haben, werden die Datensätze nicht im Kalender angezeigt
+   * Wenn das Start- oder Enddatum keinen Wert hat, wird der Datensatz als eintägiges Ereignis angezeigt
    * Wenn das Startdatum nach dem Enddatum liegt, wird der Datensatz nicht im Kalender angezeigt.
 
-So verwalten Sie eine Kalenderansicht:
+Verwalten einer Kalenderansicht:
 
-1. Rufen Sie die Seite mit dem Datensatztyp auf, für die Sie den Kalender anzeigen möchten.
-1. Erstellen Sie eine Kalenderansicht, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Wechseln Sie zur Seite „Datensatztyp“, für die Sie den Kalender anzeigen möchten.
+1. Erstellen Sie eine Kalenderansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
    ![](assets/calendar-view-example.png)
 
-   Die Datensätze, die dem von Ihnen ausgewählten Datensatztyp zugeordnet sind, werden in einem Kalender als Balken angezeigt. Die Farbe der Balken entspricht der Farbe des Datensatzsymbols.
+   Die Datensätze, die mit dem ausgewählten Datensatztyp verknüpft sind, werden als Balken in einem Kalender angezeigt. Die Farbe der Balken entspricht der Farbe des Datensatzsymbols.
 
 1. Führen Sie einen der folgenden Schritte aus, um durch den Kalender zu navigieren:
 
-   * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um im Kalender rückwärts und vorwärts zu gehen.
-   * Klicken Sie auf **Heute** , um den Kalender auf das aktuelle Datum zu zentrieren.
-   * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü für den Zeitrahmen aus, um die Zeitabstände zu aktualisieren:
+   * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um im Kalender vor- und rückwärts zu blättern.
+   * Klicken Sie **Heute**, um den Kalender auf das heutige Datum zu zentrieren.
+   * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü Zeitrahmen aus, um die Zeitinkremente zu aktualisieren:
 
-      * **Monat**: Die Datensätze werden in einem monatlichen Kalender angezeigt.
+      * **Monat**: Datensätze werden in einem monatlichen Kalender angezeigt.
 
      <div class="preview">
 
-      * **Woche**: Datensätze werden in den folgenden Bereichen angezeigt:
+      * **Woche**: Die Datensätze werden in den folgenden Bereichen angezeigt:
 
          * Datensätze, die sich über mehrere Tage erstrecken, werden oben im Kalender angezeigt.
-         * Datensätze, die einen Tag oder weniger dauern, werden in der unteren Hälfte der Kalenderansicht angezeigt. Wenn Sie ausgewählt haben, um die Stunde der Start- und Enddaten anzuzeigen, wird der Datensatz zu der gewünschten Zeit innerhalb des Tages angezeigt, an dem er auftritt.
+         * Datensätze, die einen Tag oder weniger dauern, werden in der unteren Hälfte der Kalenderansicht angezeigt. Wenn Sie ausgewählt haben, die Stunde des Start- und Enddatums anzuzeigen, wird der Datensatz zum entsprechenden Zeitpunkt innerhalb des Tages angezeigt, an dem er auftritt.
      </div>
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
@@ -201,7 +201,7 @@ So verwalten Sie eine Kalenderansicht:
 
 ### Filter hinzufügen
 
-Mithilfe von Filtern können Sie die Anzahl der auf dem Bildschirm angezeigten Informationen verringern.
+Mithilfe von Filtern können Sie die Informationsmenge reduzieren, die auf dem Bildschirm angezeigt wird.
 
 Beachten Sie beim Arbeiten mit Filtern in der Kalenderansicht Folgendes:
 
@@ -209,24 +209,24 @@ Beachten Sie beim Arbeiten mit Filtern in der Kalenderansicht Folgendes:
 
 * Die Filter, die Sie für eine Kalenderansicht erstellen, funktionieren unabhängig von den Filtern in jeder anderen Ansicht, die auf denselben Datensatztyp angewendet wird.
 
-* Die Filter sind für die ausgewählte Ansicht eindeutig. Für zwei Kalenderansichten desselben Datensatztyps können unterschiedliche Filter angewendet werden.
+* Die Filter sind für die ausgewählte Ansicht eindeutig. Auf zwei Kalenderansichten desselben Datensatztyps können unterschiedliche Filter angewendet werden.
 
-* Zwei Benutzer, die sich dieselbe Kalenderansicht ansehen, sehen denselben Filter, der derzeit angewendet wird.
+* Zwei Benutzer, die dieselbe Kalenderansicht betrachten, sehen denselben Filter, der derzeit angewendet wird.
 
-* Sie können die von Ihnen erstellten Filter nicht für eine Kalenderansicht benennen.
+* Die Filter, die Sie für eine Kalenderansicht erstellen, können nicht benannt werden.
 
-* Wenn Sie Filter entfernen, werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
+* Das Entfernen von Filtern entfernt sie von allen, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
 
 * Das Hinzufügen von Filtern in der Kalenderansicht entspricht dem Hinzufügen von Filtern in der Tabellenansicht.
 
-  Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Weitere Informationen finden Sie im Abschnitt „Filter hinzufügen“ im Artikel &quot;[ der Tabellenansicht ](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
 
 * Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.
 
-### Einstellungen der Kalenderansicht bearbeiten
+### Bearbeiten der Einstellungen für die Kalenderansicht
 
-Das Bearbeiten der Kalenderansichtseinstellungen ähnelt dem Bearbeiten der Einstellungen einer Timeline-Ansicht.
+Das Bearbeiten der Einstellungen der Kalenderansicht ähnelt dem Bearbeiten der Einstellungen einer Zeitleisten -Ansicht.
 
-Weitere Informationen finden Sie im Abschnitt &quot;Einstellungen für die Timeline-Ansicht bearbeiten&quot;im Artikel [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Weitere Informationen finden Sie im Abschnitt „Bearbeiten der Einstellungen für die Zeitleisten-Ansicht“ im Artikel [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).

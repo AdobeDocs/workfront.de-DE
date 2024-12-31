@@ -15,57 +15,57 @@ ht-degree: 0%
 
 # 20.4 Weitere Verbesserungen
 
-Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
+Auf dieser Seite werden alle anderen Verbesserungen beschrieben, die mit Version 20.4 an der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [20.4 - Versionsübersicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Eine Liste aller mit Version 20.4 verfügbaren Änderungen finden Sie unter Übersicht über Version [20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Neu für Administratoren: Option der Workfront-Umgebung wechseln verfügbar
+## Neu für Administratoren: Option &quot;Workfront-Umgebung wechseln“ verfügbar
 
-Für ein effizienteres und bequemeres Erlebnis können Gruppenadministratoren und Workfront-Administratoren jetzt schnell zwischen verschiedenen Workfront-Umgebungen von jeder Seite in Workfront wechseln, ohne sich abmelden zu müssen.
+Für ein effizienteres und bequemeres Erlebnis können Gruppenadministratoren und Workfront-Administratoren jetzt schnell von einer beliebigen Seite in Workfront aus zwischen verschiedenen Workfront-Umgebungen wechseln, ohne sich abmelden zu müssen.
 
-Im neuen Workfront-Erlebnis wird die Option Zu Classic wechseln im Hauptmenü angezeigt.
+In der neuen Workfront-Version wird die Option Zu Classic wechseln im Hauptmenü angezeigt.
 
-In Workfront Classic wird die Option Zum neuen Erlebnis wechseln im Menü angezeigt, das angezeigt wird, wenn Sie auf das Profilbild in der oberen rechten Ecke der Leiste für globale Navigation klicken.
+In Workfront Classic wird die Option Zum neuen Erlebnis wechseln im Menü angezeigt, das beim Klicken auf das Profilbild oben rechts in der globalen Navigationsleiste angezeigt wird.
 
-Diese Funktion ist jetzt im Lernpfad [Administrator-Grundlagen, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
+Diese Funktion ist jetzt in den [Administrator-Grundlagen, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
 
 ## Verbesserte Verschlüsselung für Workfront Proof
 
-Wir nehmen einige Änderungen vor, um die Datenverschlüsselung der Workfront-Testversand-Anwendung für die Dateneingabe in Bewegung zu verbessern. Die schwachen TLS-Chiffren werden am 11. November 2020 eingestellt.
+Wir nehmen einige Änderungen vor, um die Verschlüsselung von Daten in Bewegung durch die Workfront Proofing Application zu verbessern. Die schwachen TLS-Chiffren werden am 11. November 2020 eingestellt.
 
-Stellen Sie sicher, dass Sie beim Zugriff auf Workfront einen unterstützten Browser verwenden. Weitere Informationen zu unterstützten Browsern finden Sie unter [Browseranforderungen für Adobe Workfront](../../../workfront-basics/workfront-browser-requirements.md).
+Bitte stellen Sie sicher, dass Sie beim Zugriff auf Workfront einen unterstützten Browser verwenden. Weitere Informationen zu unterstützten Browsern finden Sie unter [Adobe Workfront-Browser-Anforderungen](../../../workfront-basics/workfront-browser-requirements.md).
 
-## Neues Erscheinungsbild für 3 E-Mail-Vorlagen
+## Neues Erscheinungsbild für drei E-Mail-Vorlagen
 
 Um die Lesbarkeit und das Gesamterlebnis zu verbessern, haben die folgenden E-Mail-Vorlagen ein neues Erscheinungsbild:
 
 * Neue Arbeitsanfrage
-* Eine abhängige Aufgabe, der Sie zugewiesen sind, kann jetzt gestartet werden
-* Team-E-Mail-Benachrichtigung mit Vorgänger-Abschluss
+* Eine Ihnen zugewiesene abhängige Aufgabe ist jetzt startbereit
+* E-Mail-Benachrichtigung des Teams mit Vorgänger abgeschlossen
 
-Um E-Mails für Testzwecke in Ihrer Vorschauumgebung zu aktivieren, lesen Sie den Abschnitt Verwalten von E-Mails in der Vorschau in [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md) .
+Informationen zum Aktivieren von E-Mails für Testzwecke in der Vorschau-Umgebung finden Sie im Abschnitt Verwalten von E-Mails in der Vorschau unter [Eigene E-Mail-Benachrichtigungen ändern](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
 ## Neue E-Mail-Benachrichtigungen für Teams
 
 Wir haben die folgende E-Mail-Benachrichtigung für Teams hinzugefügt:
 
-* Ein Vorgänger einer Aufgabe, die meinem Team zugewiesen wurde, ist abgeschlossen: Das zugewiesene Team erhält eine E-Mail-Benachrichtigung, wenn ein Vorgänger einer seiner Aufgaben als abgeschlossen markiert wurde.
-* Alle Vorgänger einer Aufgabe, die meinem Team zugewiesen wurde, sind abgeschlossen: Das zugewiesene Team erhält eine E-Mail-Benachrichtigung für jeden Vorgänger, der als abgeschlossen gekennzeichnet ist.
+* Ein Vorgänger einer meinem Team zugewiesenen Aufgabe ist abgeschlossen: Das zugewiesene Team erhält eine E-Mail-Benachrichtigung, wenn ein Vorgänger einer seiner Aufgaben als abgeschlossen markiert ist.
+* Alle Vorgänger einer meinem Team zugewiesenen Aufgabe sind abgeschlossen: Das zugewiesene Team erhält für jeden Vorgänger, der als abgeschlossen markiert ist, eine E-Mail-Benachrichtigung.
 
-Weitere Informationen finden Sie unter [Benachrichtigungen: Informationen über die mir zugewiesenen Aufgaben](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
+Weitere Informationen finden Sie unter [Benachrichtigungen: Informationen zu meiner Arbeit](../../../workfront-basics/using-notifications/notifications-information-about-work-assigned-to-me.md).
 
 ## Neu für Administratoren: Verbesserungen bei E-Mail-Benachrichtigungen
 
-Jetzt können Sie mit einem einzigen Klick eine Ereignis-E-Mail-Benachrichtigung in der Einrichtung aktivieren oder deaktivieren. Klicken Sie einfach auf den Ein/Aus-Schalter neben dem Namen der Benachrichtigung.
+Jetzt können Sie mit einem einzigen Klick in Setup eine Ereignis-E-Mail-Benachrichtigung aktivieren oder deaktivieren. Klicken Sie einfach auf den Ein-/Aus-Schalter neben dem Namen der Benachrichtigung.
 
-Beachten Sie außerdem, dass unser moderner Stil jetzt die Konfiguration von Ereignisbenachrichtigungen im Bereich E-Mail-Benachrichtigungen verbessert.
+Beachten Sie außerdem, dass unser moderner Stil die Konfiguration von Ereignisbenachrichtigungen im Bereich E-Mail-Benachrichtigungen jetzt verbessert.
 
-Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+Informationen zum Konfigurieren von E-Mail-Benachrichtigungen finden [ unter „Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
 
-Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) in Workfront One enthalten.
+Diese Funktion ist jetzt im Lernpfad [E-Mail- und In-App-Benachrichtigungen“ ](https://one.workfront.com/s/learningpath2/email-and-in-app-notifications-in-the-new-workfront-experience-20Y4X000000CaZGUA0) Workfront One enthalten.
 
-## Neue API-Objekte, die die Trigger-Ereignisabonnement-Aktualisierung durchführen
+## Neue API-Objekte, die Trigger-Ereignisabonnement-Aktualisierungen aufweisen
 
-Zwei neue API-Objekte, documentVersion und proofApproval, wurden erstellt und sind so konfiguriert, dass Trigger-Abonnementaktualisierungen durchgeführt werden, wenn ein Dokument versioniert oder genehmigt wird.
+Zwei neue API-Objekte, DocumentVersion und ProofApproval, wurden erstellt und sind so konfiguriert, dass Ereignisabonnementaktualisierungen beim Versionieren oder Genehmigen eines Dokuments Trigger werden.
 
-Eine vollständige Liste der Felder, die mit den einzelnen Objekten verknüpft sind, finden Sie unter [Felder der Ereignisabonnement-Ressource](../../../wf-api/api/event-sub-resource-fields.md).
+Eine vollständige Liste der mit jedem Objekt verknüpften Felder finden Sie unter [Ressourcenfelder für Ereignisabonnements](../../../wf-api/api/event-sub-resource-fields.md).

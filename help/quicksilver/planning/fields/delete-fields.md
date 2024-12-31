@@ -1,6 +1,6 @@
 ---
 title: Felder löschen
-description: In der Adobe Workfront-Planung können Sie nicht mehr relevante benutzerdefinierte Felder löschen.
+description: In Adobe Workfront Planning können Sie benutzerdefinierte Felder löschen, die nicht mehr relevant sind.
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
@@ -19,24 +19,24 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-In der Adobe Workfront-Planung können Sie benutzerdefinierte Felder erstellen, um Informationen zu Datensätzen zu speichern.
+In Adobe Workfront Planning können Sie benutzerdefinierte Felder erstellen, um Informationen über Datensätze zu speichern.
 
-Informationen zum Erstellen von benutzerdefinierten Feldern in der Workfront-Planung finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+Informationen zum Erstellen benutzerdefinierter Felder in Workfront Planning finden Sie unter [Erstellen von Feldern](/help/quicksilver/planning/fields/create-fields.md).
 
-Sie können nicht mehr relevante Workfront-Planungsfelder löschen.
+Sie können Workfront Planning-Felder löschen, die nicht mehr relevant sind.
 
-## Überlegungen zum Löschen von Workfront-Planungsfeldern:
+## Überlegungen zum Löschen von Workfront Planning-Feldern:
 
-* Sie können ein Feld nur in der Tabellenansicht des Datensatztyps löschen.
+* Ein Feld kann nur in der Tabellenansicht vom Typ Datensatz gelöscht werden.
 * Das primäre Feld eines Datensatzes kann nicht gelöscht werden.
-* Alle im Feld gespeicherten Informationen werden gelöscht und können nicht abgerufen werden.
-* Wenn Sie ein verbundenes Datensatzfeld löschen, werden auch alle verbundenen Suchfelder aus dem Datensatztyp gelöscht, von dem Sie eine Verbindung herstellen. Die verbundenen Datensatzfelder der Datensatztypen, mit denen Sie eine Verbindung herstellen, werden ebenfalls aus dem Datensatz gelöscht, mit dem Sie eine Verbindung herstellen.
+* Alle im Feld gespeicherten Informationen werden gelöscht und können nicht wiederhergestellt werden.
+* Wenn Sie ein verbundenes Datensatzfeld löschen, werden auch alle verbundenen Lookup-Felder aus dem Datensatztyp gelöscht, von dem aus Sie eine Verbindung herstellen. Die verbundenen Datensatzfelder der Datensatztypen, mit denen Sie eine Verbindung herstellen, werden auch aus dem Datensatz gelöscht, mit dem Sie eine Verbindung herstellen.
 
-  Wenn Sie beispielsweise Kampagnen mit einem anderen Datensatztyp namens &quot;product&quot;verbinden und das Feld Produktverbindung und das Suchfeld Produktstatus aus der Kampagne löschen, werden folgende Elemente gelöscht:
+  Wenn Sie beispielsweise Kampagnen mit einem anderen Datensatztyp namens „Produkt“ verbinden und das Feld „Produktverbindung“ und das Suchfeld „Produktstatus“ aus der Kampagne löschen, werden die folgenden Elemente gelöscht:
 
-   * Feld Produktgebunden in der Kampagne
-   * Das Suchfeld Produktstatus in der Kampagne
-   * Das Feld Verbindung mit Kampagne des Produkts.
+   * Das Feld Mit Produkt verbunden der Kampagne
+   * Das Suchfeld „Produktstatus“ in der Kampagne
+   * Das Feld der mit dem Produkt verbundenen Kampagne.
 
   Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
@@ -44,7 +44,7 @@ Sie können nicht mehr relevante Workfront-Planungsfelder löschen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -65,50 +65,50 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td><p> Standard </p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p></td> 
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -183,18 +183,18 @@ OLD:
 
 1. Klicken Sie auf die Karte eines Datensatztyps.
 
-1. (Bedingt) Klicken Sie, falls noch nicht ausgewählt, auf die Registerkarte einer **Tabellenansicht** auf der Seite vom Typ &quot;Datensatz&quot;.
+1. (Bedingt) Klicken Sie, falls noch nicht ausgewählt, auf der Seite „Datensatztyp **auf die Registerkarte** Tabellenansicht“.
 
    Alle vorhandenen Datensätze, die mit dem Datensatztyp verknüpft sind, werden in den Zeilen der Tabellenansicht angezeigt.
 
-1. Suchen Sie das zu löschende Feld in den Spaltenüberschriften, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen.
+1. Suchen Sie das Feld, das Sie löschen möchten, in den Spaltenüberschriften, bewegen Sie den Mauszeiger über die Spaltenüberschrift und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen.
 
    ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
-1. Klicken Sie auf **Löschen**. <!-- check this: they might replace it with **Delete field**-->
+1. Klicken Sie **Löschen**. <!-- check this: they might replace it with **Delete field**-->
 
    <!--insert screen shot when finalized-->
 
-1. Klicken Sie zur Bestätigung auf **Löschen** .
+1. Klicken Sie **Löschen** zur Bestätigung.
 
-   Das Feld wird gelöscht, kann nicht wiederhergestellt werden und kann keinem Datensatz mehr zugeordnet werden.
+   Das Feld wird gelöscht, kann nicht wiederhergestellt werden und kann mit keinen Datensätzen mehr verknüpft werden.

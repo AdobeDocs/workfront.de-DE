@@ -1,8 +1,8 @@
 ---
 product-area: betas
 navigation-topic: new-commenting-exprience-beta
-title: Neue Kommentarerlebnis-Release-Aktivität
-description: Überprüfen Sie die wöchentliche Release-Aktivität für das neue Kommentierungserlebnis in Adobe Workfront.
+title: Neue Aktivität zum Kommentieren von Erlebnisveröffentlichungen
+description: Sehen Sie sich die wöchentliche Veröffentlichungsaktivität für das neue Adobe Workfront-Kommentierungserlebnis an.
 author: Alina
 feature: Product Announcements
 hide: true
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# Neue Kommentarerlebnis-Release-Aktivität
+# Neue Aktivität zum Kommentieren von Erlebnisveröffentlichungen
 
 <!--take the badge out when it comes to production GA for everyone-->
 
@@ -29,38 +29,38 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf Funktionen, die während der Beta-Phase für das neue Kommentarerlebnis veröffentlicht wurden.
+>Die Informationen in diesem Artikel beziehen sich auf Funktionen, die während der Beta-Phase für das neue Kommentar-Erlebnis veröffentlicht wurden.
 >
->Das Betaprogramm für die neue Kommentarerfahrung begann im April 2023 und endete im Oktober 2023 mit der Version Oktober 2023.
+>Das Beta-Programm für das neue Kommentierungserlebnis begann im April 2023 und endete im Oktober 2023 mit der Version Oktober 2023.
 > 
->Seit dem 11. April 2024 stehen alle in der neuen Kommentierungserfahrung enthaltenen Funktionen allen Kunden in der Produktionsumgebung zur Verfügung.
->Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+>Alle in der neuen Kommentarfunktion enthaltenen Funktionen stehen seit dem 11. April 2024 allen Kunden in der Produktionsumgebung zur Verfügung.
+>Weitere Informationen finden Sie unter [Neues Kommentarerlebnis](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 >
 
-## Neuer Speicherort für Kommentar-Erlebnis und Veröffentlichungszeitleiste
+## Neuer Kommentar zu Erlebnisort und Veröffentlichungszeitplan
 
-Das neue Kommentarerlebnis bringt ein neues Design in den Abschnitt &quot;Aktualisierungen&quot;von Workfront-Objekten.
+Das neue Kommentierungserlebnis bietet ein neues Design für den Abschnitt „Aktualisierungen“ von Workfront-Objekten.
 
-Informationen dazu, welche Workfront-Objekte den Abschnitt &quot;Aktualisierungen&quot;anzeigen, finden Sie unter [Übersicht über den Abschnitt &quot;Aktualisierungen&quot;](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Informationen dazu, welche Workfront-Objekte den Abschnitt Updates anzeigen, finden Sie unter [Übersicht über Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
-Informationen zur Zeitleiste der Veröffentlichung für das neue Kommentarerlebnis finden Sie unter [Neues Kommentarerlebnis](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Informationen zum Veröffentlichungszeitplan für das neue Kommentierungserlebnis finden Sie unter [Neues Kommentierungserlebnis](../../betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 
 ## Während der Beta-Phase veröffentlichte Funktionen
 
-Die in diesem Abschnitt beschriebenen Funktionen stehen jetzt allen Kunden und in allen Umgebungen zur Verfügung.
+Die in diesem Abschnitt dokumentierten Funktionen sind jetzt für alle Kunden und in allen Umgebungen verfügbar.
 
-Die folgenden Funktionen wurden während der Beta-Phase zwischen der Version 23.2 (6. April 2023) und der Version vom 4. Quartal 2023 (26. Oktober 2023) zum Kommentierungserlebnis hinzugefügt.
+Die folgenden Funktionen wurden der Kommentar-Erfahrung während der Beta-Phase zwischen der Version 23.2 (6. April 2023) und der Version 4. Quartal 2023 (26. Oktober 2023) hinzugefügt.
 
-Nach Abschluss des Betaprogramms veröffentlichte Funktionen wurden zum Zeitpunkt ihrer Veröffentlichung auf den aktuellen Versionsseiten angezeigt.
+Nach dem Abschluss des Beta-Programms veröffentlichte Funktionen wurden zum Zeitpunkt ihrer Veröffentlichung auf den aktuellen Versionsseiten angezeigt.
 
-Die folgenden Informationen beziehen sich wöchentlich auf die Veröffentlichungsaktivität, beginnend mit der letzten Aktualisierung.
+Die folgenden Informationen beziehen sich auf die wöchentliche Veröffentlichungsaktivität, beginnend mit der neuesten Aktualisierung.
 
 ### Woche vom 16. Oktober 2023
 
-#### Fügen Sie die Informationen &quot;im Namen von &lt; Benutzername >&quot; hinzu, wenn Sie kommentieren, während Sie als ein anderer Benutzer angemeldet sind
+#### Fügen Sie die Informationen „im Namen von &lt; Benutzername >&quot; hinzu, wenn Sie einen Kommentar abgeben, während Sie als ein anderer Benutzer angemeldet sind
 
-Bei der Neugestaltung des Kommentarerlebnisses hatten wir den Indikator &quot;im Namen von &lt; Benutzername >&quot;entfernt, als ein Workfront- oder Gruppenadministrator Kommentare hinzugefügt hatte, während er sich als anderer Benutzer angemeldet hatte. Diese Informationen wurden nun wiederhergestellt.
+Bei der Neugestaltung des Kommentierungserlebnisses hatten wir die Anzeige „im Namen von &lt; Benutzername >&quot; entfernt, wenn ein Workfront- oder Gruppen-Administrator bzw. eine Administratorin Kommentare hinzugefügt hatte, während er bzw. sie als eine andere Benutzerin angemeldet war. Diese Informationen wurden jetzt wiederhergestellt.
 
 Vorschau und Produktion für alle Kunden: 19. Oktober 2023.
 
@@ -70,20 +70,20 @@ Vorschau und Produktion für alle Kunden: 19. Oktober 2023.
 
 >[!NOTE]
 >
->Diese Einschränkung wurde nach dem 28. November 2023 aufgehoben. Weitere Informationen finden Sie unter [Übersicht über die Version des ersten Quartals 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>Diese Einschränkung wurde nach dem 28. November 2023 entfernt. Weitere Informationen finden Sie unter [Versionsübersicht 1. Quartal 2024](../../product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
 
-Projekte, Aufgaben, Probleme und Dokumente zeigen Aktualisierungen ab dem 1. Januar 2019 an. Vor dieser Verbesserung wurde das neue Kommentierungserlebnis erst ab Juni 2022 für diese Objekte aktualisiert.
+Projekte, Aufgaben, Probleme und Dokumente zeigen Aktualisierungen ab dem 1. Januar 2019 an. Vor dieser Verbesserung wurden für das neue Kommentierungserlebnis nur Aktualisierungen ab Juni 2022 für diese Objekte erfasst.
 
-Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../new-commenting-experience-beta/unified-commenting-experience.md).
+Weitere Informationen finden Sie unter [Neues Kommentarerlebnis](../new-commenting-experience-beta/unified-commenting-experience.md).
 
 Vorschau und Produktion für alle Kunden: 11. September 2023.
 
 ### Woche vom 21. August 2023
 
-#### Ändern des Zeitstempelformats auf der Registerkarte &quot;Kommentare&quot;
+#### Ändern des Zeitstempelformats auf der Registerkarte „Kommentare“
 
-Das Zeitstempelformat der Benutzerkommentare wurde auf der Registerkarte Kommentare des neuen Kommentar-Streams aktualisiert. Im Rahmen dieser Änderung wird bei Kommentaren aus dem laufenden Jahr das Jahr nicht mehr im Zeitstempel angezeigt. Wenn Sie den Mauszeiger über einen Zeitstempel bewegen, wird das vollständige Datum einschließlich des Jahres angezeigt.
+Das Zeitstempelformat der Benutzerkommentare auf der Registerkarte Kommentare des neuen Kommentar-Streams wurde aktualisiert. Im Zuge dieser Änderung wird in Kommentaren aus dem aktuellen Jahr das Jahr nicht mehr im Zeitstempel angezeigt. Wenn Sie den Mauszeiger über einen Zeitstempel bewegen, wird das vollständige Datum angezeigt, einschließlich des Jahres.
 
 Die Änderungen wirken sich nicht auf Systemaktualisierungen auf der Registerkarte Systemaktivität aus.
 
@@ -99,43 +99,43 @@ Vorschau und Produktion für alle Kunden: 24. August 2023
 [!BADGE In production for Fast Release ]{type=Positive}
 -->
 
-Die neue Kommentarfunktion steht für die folgenden Objekte kurz nach der Version 23.3 in der Produktion zur Verfügung: Vorlagenaufgaben, Vorlagen, Timesheets, Teams, Benutzer, Programme, Portfolios.
+Das neue Kommentierungserlebnis steht kurz nach der Veröffentlichung von Version 23.3 in der Produktion für die folgenden Objekte zur Verfügung: Vorlagenaufgaben, Vorlagen, Arbeitszeittabellen, Teams, Benutzer, Programme, Portfolios.
 
-Dies ist das einzige Kommentarerlebnis für diese Objekte, da das veraltete Kommentarerlebnis beim Zugriff auf sie entfernt wird.
+Dies ist das einzige Kommentierungserlebnis für diese Objekte, da das alte Kommentierungserlebnis entfernt wird, wenn Sie auf sie zugreifen.
 
-Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
+Weitere Informationen finden Sie unter [Neues Kommentarerlebnis](../../../product-announcements/betas/new-commenting-experience-beta/unified-commenting-experience.md).
 
 Vorschau-Version: 17. August 2023
 
-Produktionsversion für schnelle Veröffentlichung: Mit der Version 23.8 (31. August 2023)
+Produktionsversion für die Schnellversion: Mit der Version 23.8 (31. August 2023)
 
 Produktionsversion für alle Kunden: Mit der Version 23.10 (Oktober 2023)
 
-#### Neues Design-Update für den neuen Kommentarstream
+#### Neues Design-Update für den neuen Kommentar-Stream
 
 <!--
 [!BADGE In production for Fast Release ]{type=Positive}
 -->
 
-Wir haben den neuen Kommentar-Stream neu gestaltet, um ihn mit einem aktuelleren Look-and-Feel zu versehen. Einige der Verbesserungen sind:
+Wir haben den neuen Kommentar-Stream neu gestaltet, um ihm ein aktualisierteres Erscheinungsbild zu verleihen. Einige der Verbesserungen sind:
 
-* Der Inhalt des Kommentar-Streams wird auf der Seite zentriert, anstatt dass er die gesamte Breite der Seite einnimmt.
+* Der Inhalt des Kommentar-Streams zentriert sich auf die Seite und nimmt nicht die gesamte Breite der Seite ein.
 
-* Das Menüsymbol Mehr befindet sich in der oberen rechten Ecke des Kommentars und nicht neben der Schaltfläche Gefällt mir .
+* Das Menüsymbol Mehr wird in die obere rechte Ecke des Kommentars verschoben und nicht neben die Schaltfläche Gefällt mir .
 
-* Die Schaltflächen &quot;Gefällt mir&quot; und &quot;Antwort&quot; sind jetzt nebeneinander positioniert.
+* Die Schaltflächen „Like“ und „Antwort“ sind nun nebeneinander platziert.
 
-* Die Schaltfläche &quot;Log Time&quot;wurde in der oberen rechten Ecke des Kommentarbereichs neu positioniert.
+* Die Schaltfläche Zeit protokollieren wurde in der oberen rechten Ecke des Kommentarbereichs verschoben.
 
-* Die Eingabeaufforderung Antwort hinzufügen wurde hinzugefügt, um die Benutzer aufzufordern, einer vorhandenen Antwort eine Antwort hinzuzufügen.
+* Die Eingabeaufforderung Antwort hinzufügen wurde hinzugefügt, um Benutzer aufzufordern, eine Antwort zu einer vorhandenen hinzuzufügen.
 
 * Es gibt eine Trennlinie zwischen jedem Kommentar-Thread
 
-Weitere Informationen finden Sie unter [Übersicht über die Registerkarte &quot;Aktualisierungen&quot;](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Weitere Informationen finden Sie unter [Registerkarte „Aktualisierungen“ - Übersicht](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Vorschau-Version: 17. August 2023
 
-Produktion für schnelle Veröffentlichung: Mit der Version 23.8 (31. August 2023)
+Produktion für die schnelle Veröffentlichung: Mit der Version 23.8 (31. August 2023)
 
 Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10 (Oktober 2023)
 
@@ -145,25 +145,25 @@ Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10 (
 [!BADGE In production for Fast Release ]{type=Positive}
 -->
 
-Wir machen das neue Kommentierungserlebnis zum Standarderlebnis für die folgenden Objekte: Projekte, Aufgaben, Probleme und Dokumente.  Das veraltete Kommentierungserlebnis bleibt beim Zugriff auf diese Objekte als Alternative erhalten.
+Wir machen das neue Kommentierungserlebnis zum Standarderlebnis für die folgenden Objekte: Projekte, Aufgaben, Probleme und Dokumente.  Das alte Kommentierungserlebnis bleibt als alternative Option beim Zugriff auf diese Objekte erhalten.
 
-Um diese Änderung zu unterstützen, wurde auch der Umschalter &quot;Kommentieren von Beta&quot;in &quot;Neue Kommentierung&quot;umbenannt.
+Um diese Änderung zu unterstützen, haben wir auch den Umschalter „Kommentierender Beta&quot; in „Neuer Kommentar“ umbenannt.
 
-Weitere Informationen finden Sie unter [Neues Kommentierungserlebnis](../new-commenting-experience-beta/unified-commenting-experience.md).
+Weitere Informationen finden Sie unter [Neues Kommentarerlebnis](../new-commenting-experience-beta/unified-commenting-experience.md).
 
 Vorschau-Version: 17. August 2023
 
-Produktion für schnelle Veröffentlichung: Mit der Version 23.8 (31. August 2023)
+Produktion für die schnelle Veröffentlichung: Mit der Version 23.8 (31. August 2023)
 
 Produktion für die vierteljährliche Veröffentlichung: Mit der Version 23.10 (Oktober 2023)
 
-#### Avatare Verbesserungen beim Tagging von Benutzern in einer Aktualisierung
+#### Avatar-Verbesserungen beim Tagging von Benutzenden in einer Aktualisierung
 
-Damit Sie besser erkennen können, welche Benutzer in einer Aktualisierung mit Tags versehen sind, werden jetzt die Namen der Benutzer (bis zu zwei Benutzer) angezeigt, die in einer Aktualisierung mit Tags versehen sind. Weitere Informationen finden Sie unter [Tagging anderer Benutzer in Updates](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
+Um Ihnen einen besseren Überblick darüber zu geben, welche Benutzer in einer Aktualisierung getaggt sind, zeigen wir jetzt die Namen der Benutzer (bis zu zwei Benutzer) an, die in einer Aktualisierung getaggt sind. Weitere Informationen finden Sie unter [Andere in Updates taggen](../../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
 Vorschau-Version: 17. August 2023
 
-Produktion für schnelle Veröffentlichung: Mit der Version 23.8 (31. August 2023)
+Produktion für die schnelle Veröffentlichung: Mit der Version 23.8 (31. August 2023)
 
 Produktion für alle Kunden: Mit der Version 23.10 (Oktober 2023)
 
@@ -171,41 +171,41 @@ Produktion für alle Kunden: Mit der Version 23.10 (Oktober 2023)
 
 #### Hinzufügen von Emojis zu einer Aktualisierung
 
-Sie können jetzt einem Kommentar Emojis hinzufügen, indem Sie eine Symbolleistenoption &quot;Rich-Text&quot;im neuen Kommentarerlebnis verwenden.
+Sie können einem Kommentar jetzt Emojis mithilfe einer Rich-Text-Symbolleistenoption in der neuen Kommentarfunktion hinzufügen.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md). Die Dokumentation wird zum Zeitpunkt der Veröffentlichung aktualisiert.
 
 Vorschau und Produktion: 10. August 2023
 
 ### Woche vom 10. Juli 2023
 
-#### Automatisch alle Thread-Teilnehmer taggen
+#### Alle Thread-Teilnehmer automatisch taggen
 
-Ein Kommentar-Eigentümer wird jetzt automatisch in einem Thread getaggt. Vor dieser Aktualisierung wurden nur die Benutzer mit Tags versehen, die entweder mit &quot;@name&quot;-Tags versehen wurden oder sie zum Abschnitt &quot;Personen oder Teams taggen&quot;hinzugefügt wurden, der in der Liste der getaggten Benutzer angezeigt wurde. Damit können Sie jetzt bei Bedarf den Eigentümer eines Kommentars aus dem Thread entfernen, selbst wenn diese zuvor nicht manuell getaggt wurden.
+Ein Kommentarbesitzer wird jetzt automatisch in einem Thread mit Tags versehen. Vor diesem Update wurden nur die Benutzer, die über die Tags &quot;@name“ getaggt wurden, oder durch Hinzufügen zum Abschnitt „Personen oder Teams taggen“ in der Liste der getaggten Benutzer angezeigt. Damit können Sie jetzt bei Bedarf den Eigentümer eines Kommentars aus dem Thread entfernen, auch wenn er zuvor noch nicht manuell getaggt wurde.
 
-Vorschau-Version: 12. Juli 2023
+Vorschau der Version: 12. Juli 2023
 
 Produktionsversion: 13. Juli 2023
 
 ### Woche vom 3. Juli 2023
 
-#### Neue Benutzeroberfläche für die Protokollierungszeit
+#### Neue Benutzeroberfläche zur Zeiterfassung
 
-Die Benutzeroberfläche für die Protokollierung der Zeit im Bereich Updates wurde im neuen Kommentar-Erlebnis neu gestaltet.
+Die Benutzeroberfläche für das Protokollieren der Zeit im Bereich Aktualisierungen in der neuen Kommentarfunktion wurde neu gestaltet.
 
-Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Weitere Informationen finden Sie unter [Zeit erfassen](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-Vorschau-Version: 5. Juli 2023
+Vorschau der Version: 5. Juli 2023
 
 Produktionsversion: mit Version 23.3 (Juli 2023)
 
 ### Woche vom 26. Juni 2023
 
-#### Angeben von Kommentar-Inhalt in einer neuen Antwort
+#### Kommentarinhalt in einer neuen Antwort zitieren
 
-Jetzt können Sie den Inhalt eines Kommentars kopieren und ihn als neues Anführungszeichen zu einer Antwort im selben Thread hinzufügen, wenn Sie das neue Kommentarerlebnis verwenden.
+Jetzt haben Sie die Möglichkeit, den Inhalt eines Kommentars zu kopieren und ihn als neues Zitat zu einer Antwort im selben Thread hinzuzufügen, wenn Sie das neue Kommentarerlebnis verwenden.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Vorschau: 28. Juni 2023
 
@@ -213,21 +213,21 @@ Produktionsversion: 29. Juni 2023
 
 ### Woche vom 12. Juni 2023
 
-#### Neue Kommentierungserfahrungen für Karten im Bereich &quot;Foren&quot;
+#### Neues Kommentierungserlebnis für Karten im Bereich Pinnwände
 
-Die neue Kommentarfunktion ist jetzt für Karten im Bereich Karten verfügbar. Dies ist das einzige Erlebnis, das für Karten verfügbar ist. Weitere Informationen finden Sie unter [23.3 - Versionsübersicht](../../product-releases/23.3-release-activity/23-3-release-overview.md).
+Das neue Kommentierungserlebnis ist jetzt für Karten im Bereich Pinnwände verfügbar. Dies ist das einzige Erlebnis, das für Karten verfügbar ist. Weitere Informationen finden Sie unter [23.3 - Übersicht](../../product-releases/23.3-release-activity/23-3-release-overview.md).
 
 Vorschau: 15. Juni 2023
 
-Produktionsversion für frühe Anmeldung: 22. Juni 2023
+Produktionsversion für frühzeitiges Opt-in: 22. Juni 2023
 
 Produktion für alle Kunden: mit Version 23.3 (Juli 2023)
 
-#### Hinzufügen von Blockzitaten zu einem Kommentar
+#### Hinzufügen von Blockanführungszeichen zu einem Kommentar
 
-Sie können jetzt Blockanführungszeichen zu einem Kommentar hinzufügen, indem Sie im neuen Kommentar-Beta-Erlebnis eine Rich-Text-Symbolleistenoption verwenden.
+Sie können jetzt in der neuen Beta-Kommentar-Version mithilfe einer Rich-Text-Symbolleistenoption Blockanführungszeichen zu einem Kommentar hinzufügen.
 
-Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Vorschau: 14. Juni 2023
 
@@ -235,13 +235,13 @@ Produktion: 15. Juni 2023
 
 #### Verbessertes Erlebnis beim Bearbeiten von Kommentaren
 
-Beim Bearbeiten von Kommentaren können Sie jetzt die folgenden Tastaturbefehle verwenden:
+Beim Bearbeiten von Kommentaren können jetzt die folgenden Tastaturbefehle verwendet werden:
 
-* STRG + Z (CMD + Z für Mac) zum Rückgängigmachen einer Änderung
+* Strg+Z (Befehlstaste+Z für Mac), um eine Änderung rückgängig zu machen
 
-* STRG + Y (CMD + Y für Mac) zum Wiederholen einer Änderung
+* Strg+Y (Befehlstaste+Y für Mac) zum Wiederherstellen einer Änderung
 
-Vor diesen Verbesserungen konnten Sie Änderungen beim Bearbeiten eines Kommentars weder rückgängig machen noch wiederholen. Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Vor diesen Verbesserungen konnten Sie Änderungen beim Bearbeiten eines Kommentars nicht rückgängig machen oder wiederherstellen. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Vorschau: 13. Juni 2023
 
@@ -251,9 +251,9 @@ Produktion: 13. Juni 2023
 
 ### Woche vom 29. Mai 2023
 
-#### Neues Kommentieren von Beta-Erfahrungen für Projekte, Aufgaben und Dokumente
+#### Neues Beta-Kommentierungserlebnis für Projekte, Aufgaben und Dokumente
 
-Das neue Kommentierungserlebnis in Beta ist jetzt für Projekte, Aufgaben und Dokumente verfügbar. Vor dieser Aktualisierung war das kommentierende Beta-Erlebnis nur für Probleme und Ziele verfügbar.
+Das neue Beta-Kommentierungserlebnis ist jetzt für Projekte, Aufgaben und Dokumente verfügbar. Vor diesem Update war das Beta-Kommentierungserlebnis nur für Probleme und Ziele verfügbar.
 
 Vorschau: 1. Juni 2023
 
@@ -261,27 +261,27 @@ Produktion: mit Version 23.3 (Juli 2023)
 
 >[!NOTE]
 >
->Ab dem 1. Juni 2023 stehen alle Funktionen, die für die neue Kommentarfunktion in Beta veröffentlicht wurden, in der Produktion für Projekte, Aufgaben und Dokumente nach der Produktionsversion 23.3 zur Verfügung. Weitere Informationen finden Sie unter [23.3 - Versionsübersicht](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
+>Alle Funktionen, die für das neue Beta-Kommentierungserlebnis ab dem 1. Juni 2023 veröffentlicht wurden, stehen nach der Veröffentlichung der Version 23.3 in der Produktionsumgebung für Projekte, Aufgaben und Dokumente zur Verfügung. Weitere Informationen finden Sie unter [23.3 - Übersicht](../../../product-announcements/product-releases/23.3-release-activity/23-3-release-overview.md).
 
-#### Neues Erscheinungsbild des &quot;bearbeiteten&quot; Tags nach der Bearbeitung eines Kommentars
+#### Neues Erscheinungsbild des Tags „bearbeitet“ nach der Bearbeitung eines Kommentars
 
-Beim Bearbeiten eines Kommentars im neuen Kommentar-Beta-Erlebnis wird dem Kommentar ein &quot;bearbeitetes&quot;Tag hinzugefügt. Dieses Tag hat jetzt ein neues Erscheinungsbild von dem, das ursprünglich veröffentlicht wurde. Die Datums- und Uhrzeitstempel des Kommentars sind die des ursprünglichen Kommentars. Sie sind nicht die Datums- und Uhrzeitstempel des Bearbeitungsvorgangs.  Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Beim Bearbeiten eines Kommentars in der neuen Beta-Kommentar-Version wird dem Kommentar das Tag „bearbeitet“ hinzugefügt. Dieses Tag hat jetzt ein neues Erscheinungsbild von dem ursprünglich veröffentlichten. Datum und Uhrzeit des Kommentars entsprechen denen des ursprünglichen Kommentars. Sie sind nicht das Datum und die Uhrzeit der Bearbeitung.  Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Vorschau: 31. Mai 2023
 
 Produktion: 1. Juni 2023
 
-#### Kommentare von untergeordneten Objekten werden zu einem übergeordneten Objekt aggregiert
+#### Kommentare von untergeordneten Objekten werden zu einem übergeordneten Objekt hochgerechnet
 
-Beim Aktivieren des Beta-Kommentarerlebnisses werden die mit einem untergeordneten Objekt verknüpften Kommentare jetzt in das übergeordnete Objekt aggregiert. Beispielsweise werden jetzt Kommentare aus Dokumenten zu dem Problem angezeigt, in dem die Dokumente angehängt sind. Weitere Informationen finden Sie unter [Übersicht über Aktualisierungsabschnitt](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
+Beim Aktivieren des Beta-Kommentierungserlebnisses werden die mit einem untergeordneten Objekt verknüpften Kommentare jetzt dem übergeordneten Objekt zugeordnet. Beispielsweise werden jetzt Kommentare aus Dokumenten zu dem Problem angezeigt, bei dem die Dokumente angehängt sind. Weitere Informationen finden Sie [Update-Abschnitt - Übersicht](../../../workfront-basics/updating-work-items-and-viewing-updates/updates-tab-overview.md).
 
 Vorschau: 1. Juni 2023
 
 Produktion: 1. Juni 2023
 
-#### Anmeldungszeit im neuen Kommentar-Beta-Erlebnis
+#### Zeit in der neuen Beta-Kommentar-Funktion protokollieren
 
-Sie können die Zeit für Probleme, Aufgaben und Projekte im Bereich Updates protokollieren, wenn Sie die neue Kommentarfunktion in Beta verwenden. Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md).
+Sie können die Zeit für Probleme, Aufgaben und Projekte im Bereich Aktualisierungen protokollieren, wenn Sie die neue Beta-Kommentierungserfahrung verwenden. Weitere Informationen finden Sie unter [Zeit erfassen](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
 Vorschau: 1. Juni 2023
 
@@ -291,12 +291,12 @@ Produktion: mit Version 23.3 (Juli 2023)
 
 #### Verbessertes Erlebnis beim Hinzufügen von Hyperlinks zu Kommentaren
 
-Sie können nun mithilfe der folgenden Tastaturbefehle Hyperlinks zu Kommentaren hinzufügen:
+Sie können jetzt mithilfe der folgenden Tastaturbefehle Hyperlinks zu Kommentaren hinzufügen:
 
-* STRG + V (CMD + V für Mac) fügt einen Link über den ausgewählten Text ein
-* STRG + K (CMD + K für Mac) öffnet das Feld Verknüpfungen hinzufügen .
+* Strg+V (Befehl+V für Mac) Fügt einen Link über dem markierten Text ein
+* Strg + K (Befehl + K für Mac) öffnet das Feld Links hinzufügen .
 
-Vor diesen Verbesserungen konnten Sie Hyperlinks nur hinzufügen, indem Sie in der Rich-Text-Symbolleiste auf das Link-Symbol klicken. Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Vor diesen Verbesserungen konnten Sie Hyperlinks nur hinzufügen, indem Sie in der Rich-Text-Symbolleiste auf das Link-Symbol klicken. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 Vorschau: 17. Mai 2023
 
@@ -304,35 +304,35 @@ Produktion: 18. Mai 2023
 
 ### Woche vom 1. Mai 2023
 
-#### Bilder werden aus dem Bereich &quot;Dokumente&quot;entfernt, wenn Anlagen aus Kommentaren entfernt werden oder wenn Kommentare, die eine Anlage enthalten, entfernt werden
+#### Bilder werden aus dem Bereich Dokumente entfernt, wenn Anhänge aus Kommentaren entfernt werden oder wenn Kommentare, die einen Anhang enthalten, entfernt werden
 
-Wir ändern die Funktionsweise von Anlagen beim Entfernen oder Bearbeiten eines Kommentars, der einen Anhang enthält. Wenn Sie jetzt einen Kommentar bearbeiten und den Anhang entfernen oder einen Kommentar löschen, der einen Anhang enthält, wird der Anhang auch aus dem Bereich &quot;Dokumente&quot;entfernt. Vor dieser Änderung blieben die Anlagen im vorherigen Kommentarerlebnis im Bereich Dokumente. Weitere Informationen finden Sie unter [Funktionsweise aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+Wir ändern die Funktionsweise von Anhängen beim Entfernen oder Bearbeiten eines Kommentars, der eine Anlage enthält. Wenn Sie nun einen Kommentar bearbeiten und die Anlage entfernen oder wenn Sie einen Kommentar löschen, der eine Anlage enthält, wird die Anlage auch aus Ihrem Dokumentbereich entfernt. Vor dieser Änderung blieben in den vorherigen Kommentaren die Anlagen im Bereich Dokumente . Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-Verfügbar für die Problemkommentierung des Beta-Erlebnisses und für Workfront-Ziele standardmäßig an den folgenden Daten:
+Verfügbar für Probleme, die Beta-Erlebnisse kommentieren, und standardmäßig für Workfront-Ziele an den folgenden Daten:
 
 * Vorschau und Produktion: 4. Mai 2023
 
 
 ### 27. April 2023
 
-Das folgende Wartungsupdate wurde für die Beta-Ausgabe von Problemkommentaren und für Ziele veröffentlicht:
+Das folgende Wartungs-Update wurde veröffentlicht, um Probleme mit Beta-Kommentaren zu beheben und Ziele zu definieren:
 
-Bearbeiten Sie angehängte Bilder beim Bearbeiten eines Kommentars. Weitere Informationen finden Sie im Abschnitt &quot;Wartungs-Update am 27. April&quot;im Artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Aktualisierungen im April 2023</a>.
+Bearbeiten von angehängten Bildern beim Bearbeiten eines Kommentars. Weitere Informationen finden Sie im Abschnitt „Wartungs-Update vom 27. April“ im Artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates im April 2023</a>.
 
 ### 20. April 2023
 
-Das folgende Wartungsupdate wurde für die Beta-Ausgabe von Problemkommentaren und für Ziele veröffentlicht:
+Das folgende Wartungs-Update wurde veröffentlicht, um Probleme mit Beta-Kommentaren zu beheben und Ziele zu definieren:
 
-Bewahren Sie Bilder als Entwurf auf, wenn Sie von einer Aktualisierung für Ziele und Probleme in der Kommentar-Beta-Erfahrung abweichen. Weitere Informationen finden Sie im Abschnitt &quot;Wartungs-Update am 20. April&quot;im Artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Aktualisierungen im April 2023</a>.
+Bilder werden als Entwurf beibehalten, wenn Sie mit der Beta-Kommentar-Funktion von einer Aktualisierung wegnavigieren. Weitere Informationen finden Sie im Abschnitt „Wartungs-Update vom 20. April“ im Artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates vom April 2023</a>.
 
 ### 17. April 2023
 
-Das folgende Wartungsupdate wurde für die Beta-Ausgabe von Problemkommentaren und für Ziele veröffentlicht:
+Das folgende Wartungs-Update wurde veröffentlicht, um Probleme mit Beta-Kommentaren zu beheben und Ziele zu definieren:
 
-Zeigen Sie neue Kommentare außerhalb des sichtbaren Bildschirmbereichs im Abschnitt &quot;Aktualisierungen&quot;von Problemen (neuer Kommentar zu Beta) und Zielen an. Weitere Informationen finden Sie im Abschnitt &quot;Wartungs-Update am 17. April&quot;im Artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Aktualisierungen im April 2023</a>.
+Anzeige neuer Kommentare außerhalb des sichtbaren Bildschirmbereichs im Abschnitt Aktualisierungen von Problemen (neue Beta-Kommentierungserfahrung) und im Abschnitt Ziele. Weitere Informationen finden Sie im Abschnitt „Wartungs-Update vom 17. April“ im Artikel <a href="https://experienceleague.adobe.com/docs/workfront-known-issues/releases/current-updates.html?lang=en#updates-in-april-2023">Updates im April 2023</a>.
 
 
 ### Woche vom 6. April 2023
 
-Das neue Beta-Erlebnis für Kommentare wurde für Probleme gestartet.
-Dieselben Funktionen, die für die Beta-Kommentarvorlage für Workfront-Objekte veröffentlicht werden, werden für alle Benutzer, die Zugriff auf Workfront-Ziele haben, gleichzeitig veröffentlicht. Weitere Informationen finden Sie unter [23.2 - Versionsübersicht](../../product-releases/23.2-release-activity/23-2-release-overview.md).
+Die neue Beta-Kommentar-Funktion für Probleme wurde gestartet.
+Die gleichen Funktionen, die für die Beta-Kommentar-Funktion für Workfront-Objekte veröffentlicht wurden, werden gleichzeitig für alle Benutzerinnen und Benutzer veröffentlicht, die Zugriff auf Workfront-Ziele haben. Weitere Informationen finden Sie unter [23.2 - Übersicht](../../product-releases/23.2-release-activity/23-2-release-overview.md).

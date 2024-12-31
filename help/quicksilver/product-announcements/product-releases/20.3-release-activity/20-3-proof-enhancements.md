@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-3-release-activity
-title: 20.3 Verbesserungen beim Testversand
-description: Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
+title: 20.3 Verbesserungen bei Korrekturabzügen
+description: Auf dieser Seite werden alle Korrekturabzugsverbesserungen beschrieben, die mit Version 20.3 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -14,52 +14,52 @@ ht-degree: 0%
 
 ---
 
-# 20.3 Verbesserungen beim Testversand
+# 20.3 Verbesserungen bei Korrekturabzügen
 
-Auf dieser Seite werden alle Verbesserungen beim Testversand beschrieben, die mit Version 20.3 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 10. August 2020 bereitgestellt.
+Auf dieser Seite werden alle Korrekturabzugsverbesserungen beschrieben, die mit Version 20.3 an der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Woche vom 10. August 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
+Eine Liste aller mit Version 20.3 verfügbaren Änderungen finden Sie unter [20.3 - Versionsübersicht](../../../product-announcements/product-releases/20.3-release-activity/20-3-release-overview.md).
 
-## Verbesserte Sichtbarkeit zwischen der Registerkarte Aktualisierungen und Kommentaren zum Testversand
-
->[!NOTE]
->
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
-
-Die folgenden Verbesserungen sind im Dokumentbereich verfügbar:
-
-* Wenn auf der Registerkarte Aktualisieren ein Testversand-Kommentar angezeigt wird, erscheint eine neue Schaltfläche Im Testversand antworten , über die Sie in den Testversand-Viewer wechseln können.
-* Wenn ein Testversand-Kommentar mit einer Aktion innerhalb des Testversand-Viewers getaggt wird, wird die Aktion auf der Registerkarte Aktualisieren angezeigt.
-
-Weitere Informationen finden Sie unter [Hinzufügen eines Updates zu einem Dokument](../../../documents/managing-documents/add-update-documents.md).
-
-## Aktualisieren von benutzerdefinierten Testfeldern in den Dokumentdetails
+## Verbesserte Sichtbarkeit zwischen der Registerkarte Aktualisierungen und Kommentaren zu Korrekturabzügen
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar
 
-Um den Testversand zu optimieren, können Sie jetzt in Workfront Proof eingerichtete benutzerdefinierte Felder auf der Seite &quot;Dokumentdetails&quot;in Workfront anzeigen und bearbeiten, wenn Sie im Testversand-Workflow enthalten sind.
+Folgende Verbesserungen sind im Bereich Dokumente verfügbar:
 
-Zuvor war es nur möglich, benutzerdefinierte Felder im Testversand-Viewer anzuzeigen.
+* Wenn auf der Registerkarte Aktualisieren ein Kommentar zu einem Korrekturabzug angezeigt wird, wird die Schaltfläche Im Korrekturabzug antworten angezeigt, über die Sie zur Antwort in die Korrekturabzugsansicht wechseln können.
+* Wenn ein Kommentar zu einem Korrekturabzug mit einer Aktion im Proofing Viewer getaggt wird, wird die Aktion auf der Registerkarte Aktualisieren angezeigt.
+
+Weitere Informationen finden Sie unter [Hinzufügen einer Aktualisierung zu einem Dokument](../../../documents/managing-documents/add-update-documents.md).
+
+## Aktualisieren von benutzerdefinierten Proofing-Feldern in Dokumentdetails
+
+>[!NOTE]
+>
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar
+
+Um den Proofing-Prozess zu optimieren, können Sie jetzt in Workfront Proof eingerichtete benutzerdefinierte Felder auf der Seite „Dokumentdetails“ in Workfront anzeigen und bearbeiten, wenn Sie im Korrekturabzugs-Workflow enthalten sind.
+
+Zuvor konnten Sie nur benutzerdefinierte Felder im Proofing Viewer anzeigen.
 
 Weitere Informationen finden Sie unter [Dokumentdetails - Übersicht](../../../documents/managing-documents/document-details-overview.md).
 
-## Neuer Look für die Symbolleiste &quot;Dokument&quot;
+## Neues Erscheinungsbild der Dokument-Symbolleiste
 
-Die Symbolleiste im Dokumentbereich hat jetzt dasselbe Erscheinungsbild wie die Symbolleiste für Projekte, Aufgaben und Probleme im neuen Workfront-Erlebnis.
+Die Symbolleiste im Dokumentbereich hat jetzt dasselbe Erscheinungsbild wie die Symbolleiste für Projekte, Aufgaben und Probleme in der neuen Workfront-Version.
 
-Darüber hinaus befindet sich die Option Neue Version jetzt im Dropdown-Menü Neue Version hinzufügen sowohl im neuen Workfront-Erlebnis als auch in Classic.
+Darüber hinaus befindet sich die Option Neue Version jetzt sowohl in der neuen Workfront-Version als auch in Classic unter dem Dropdown-Menü Neue hinzufügen .
 
-## Erweiterte Testsendungen aus der Dokumentliste erstellen
+## Erstellen eines erweiterten Korrekturabzugs aus der Dokumentliste
 
 >[!NOTE]
 >
->Diese Funktion ist nur im neuen Adobe Workfront-Erlebnis verfügbar.
+>Diese Funktion ist nur in der neuen Adobe Workfront-Version verfügbar
 
-Um die Einrichtung eines Workflows beim Umschalten eines vorhandenen Dokuments in einen Testversand zu vereinfachen, konfigurieren Sie in der Dokumentliste über das neue Dropdown-Menü Testversand erstellen den Testversand-Workflow.
+Um das Einrichten eines Workflows beim Drehen eines vorhandenen Dokuments in einem Korrekturabzug zu vereinfachen, konfigurieren Sie den Workflow für Korrekturabzüge über die Dokumentliste im Dropdown-Menü Neuer Korrekturabzug erstellen .
 
-Zuvor mussten Sie den Testversand generieren und dann zum Bereich Testversand-Workflow wechseln, um den Workflow einzurichten.
+Zuvor mussten Sie den Korrekturabzug generieren und dann in den Bereich Proofing-Workflow wechseln, um den Workflow einzurichten.
 
-Weitere Informationen finden Sie unter [Erstellen eines Testversands für ein Dokument](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
+Weitere Informationen finden Sie unter [Erstellen eines Korrekturabzugs für ein Dokument](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md).
 

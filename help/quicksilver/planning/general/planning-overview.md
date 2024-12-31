@@ -1,6 +1,6 @@
 ---
-title: Übersicht über die Adobe Workfront-Planung
-description: Die Adobe Workfront-Planung ist eine zusätzliche Funktion von Adobe Workfront. Sie können vollständig anpassbare Arbeitsbereiche erstellen, um Workflows zu definieren, die den Anforderungen jeder Organisationseinheit in Ihrem Unternehmen entsprechen.
+title: Adobe Workfront - Planungsübersicht
+description: Adobe Workfront Planning ist eine zusätzliche Funktion von Adobe Workfront. Sie können vollständig anpassbare Arbeitsbereiche erstellen, um Workflows zu definieren, die den Anforderungen der einzelnen Organisationseinheiten in Ihrem Unternehmen entsprechen.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -27,39 +27,39 @@ ht-degree: 2%
 
 >[!IMPORTANT]
 >
->Die Informationen in diesem Artikel beziehen sich auf die Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
 >
->Für den Zugriff auf die Workfront-Planung benötigen Sie Folgendes:
+>Für den Zugriff auf Workfront Planning sind folgende Voraussetzungen erforderlich:
 >
->* Ein neues Workfront-Paket und eine neue -Lizenz. Die Workfront-Planung ist nicht für ältere Workfront-Pakete oder -Lizenzen verfügbar.
+>* Ein neues Workfront-Paket und eine neue Lizenz. Workfront Planning ist nicht für ältere Workfront-Pakete oder -Lizenzen verfügbar.
 >* Ein Workfront-Planungspaket.
->* Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein.
+>* Die Workfront-Instanz Ihres Unternehmens muss in das einheitliche Adobe-Erlebnis integriert werden.
 >
-> Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht für die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
+> Eine vollständige Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Adobe Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 > 
 
-Dieser Artikel enthält allgemeine Informationen zur Workfront-Planung.
+Dieser Artikel enthält allgemeine Informationen zur Planung von Workfront.
 
-Eine vollständige Liste der Artikel mit Dokumentation zur Workfront-Planung finden Sie unter [Adobe Workfront Planning: article index](/help/quicksilver/planning/planning-information.md).
+Eine vollständige Liste der Artikel mit der Dokumentation für Workfront Planning finden Sie unter [Adobe Workfront Planning: Artikelindex](/help/quicksilver/planning/planning-information.md).
 
-## Einführung in die Adobe Workfront-Planung
+## Einführung in Adobe Workfront Planning
 
-Die Adobe Workfront-Planung ist eine zusätzliche Funktion von Adobe Workfront. Die Workfront-Planung ermöglicht es, umfassende Einblicke in die Betriebsdetails einer Organisation zu erhalten und wichtige Geschäftsfragen in jeder Phase des Lebenszyklus der Arbeitsverwaltung zu beantworten.
+Adobe Workfront Planning ist eine zusätzliche Funktion von Adobe Workfront. Workfront Planning dient dazu, einen umfassenden Überblick über die betrieblichen Details eines Unternehmens zu erhalten und wichtige geschäftliche Fragen in jeder Phase des Work-Management-Lebenszyklus zu beantworten.
 
-Die Workfront-Planung kann Fragen wie folgende beantworten:
+Workfront Planning kann zum Beispiel folgende Fragen beantworten:
 
-* Wie viele Kampagnen führen wir in EMEA für das 4. Quartal aus?
+* Wie viele Kampagnen führen wir in EMEA im 4. Quartal durch?
 * Gibt es Zielgruppenüberschneidungen zwischen gleichzeitigen Kampagnen?
-* Wie gut laufen die Sensibilisierungsprogramme derzeit?
+* Wie gut sind die Aufklärungsprogramme im Moment?
 * Wie sehen die Assets für eine bestimmte Kampagne aus? Welche von ihnen müssen noch genehmigt werden?
 
-Um diese Fragen zu beantworten, braucht Führungskräfte eine Lösung, die einen ganzheitlichen Überblick über alle Arbeitsschritte von der Planung über die Ausführung bis zur Messung der Ergebnisse liefert. Derzeit verfügen Unternehmen über Tools, die einige Teile des Prozesses abdecken können, aber viele verfügen nicht über gute Verbindungen zu allen Phasen der Arbeit und können auch keine zuverlässigen Ergebnisse liefern.
+Um diese Fragen zu beantworten, benötigen Führungskräfte eine Lösung, die einen ganzheitlichen Überblick über alle Phasen der Arbeit bietet, von der Planung bis zur Ausführung, von der Bereitstellung bis zur Messung der Ergebnisse. Derzeit verfügen Unternehmen über Tools, die einige Teile des Prozesses abdecken können, aber viele haben keine gute Verbindung zu allen Arbeitsphasen und können auch keine zuverlässigen Ergebnisse liefern.
 
-Im Folgenden finden Sie einige der wichtigsten Funktionen:
+Im Folgenden finden Sie einige der Hauptfunktionen:
 
-* Lösung des Problems der Verwaltung der Arbeit in allen Phasen und für alle am Arbeitsprozess beteiligten Akteure.
-* Passen Sie Ihre Workflows vollständig an, indem Sie entscheiden, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, und konfigurieren Sie, wie diese Objekte miteinander verknüpft werden.
-* Relation zu Objektarten aus anderen Systemen, Erstellung eines kohärenten Frameworks für alle Ihre Prozesse.
+* Lösen Sie das Problem der Verwaltung der Arbeit über alle Phasen und für alle Stakeholder, die am Arbeitsprozess teilnehmen.
+* Passen Sie Ihre Workflows vollständig an, von der Entscheidung, welche Objekttypen (oder Datensatztypen) Ihr Unternehmen verwendet, bis zur Konfiguration, wie diese Objekte miteinander verknüpft werden.
+* Verknüpfen Sie Objekttypen aus anderen Systemen und erstellen Sie so ein kohärentes Framework für alle Ihre Prozesse.
 
 <!--
 ## Currently available Workfront Planning features
@@ -164,41 +164,41 @@ The following features are currently available in Workfront Planning:
 |     Reporting on Workfront Planning information (Canvas Dashboard)                              |                               |       ✓                           |                 |
 -->
 
-## Aktivieren der Workfront-Planung für Benutzer in Ihrer Workfront-Instanz
+## Aktivieren von Workfront Planning für die Benutzer in Ihrer Workfront-Instanz
 
-Nachdem Ihr Unternehmen ein Workfront-Planungspaket erworben hat, müssen Sie als Workfront-Administrator sicherstellen, dass Folgendes vorhanden ist, bevor Benutzer auf die Workfront-Planung zugreifen können:
+Nachdem Ihr Unternehmen ein Workfront Planning-Paket erworben hat, müssen Sie als Workfront-Administrator Folgendes sicherstellen, bevor Benutzerinnen und Benutzer auf Workfront Planning zugreifen können:
 
-* Weisen Sie die Benutzer zu, die Zugriff auf eine Layoutvorlage benötigen, die die Planung im Hauptmenü enthält. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Zuweisen von Benutzern zu einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+* Weisen Sie den Benutzern, die Zugriff auf Planning benötigen, eine Layout-Vorlage zu, die Planning im Hauptmenü enthält. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Zuweisen von Benutzern zu einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-* Weisen Sie Benutzern eine Workfront-Lizenz und Planungsberechtigungen für Workfront zu, damit sie Objekte in der Workfront-Planung anzeigen oder erstellen können. Weitere Informationen zum Gewähren von Zugriff auf und zum Aktivieren anderer Benutzer für die Verwendung von Workfront Planning finden Sie unter [Zugriffsübersicht für die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
+* Weisen Sie Benutzenden eine Workfront-Lizenz und Workfront Planning-Berechtigungen zu, mit denen sie in Workfront Planning Objekte anzeigen oder erstellen können. Weitere Informationen zum Gewähren des Zugriffs auf und zum Aktivieren anderer für die Verwendung von Workfront Planning finden Sie unter [Adobe Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
-## Terminologie der Workfront-Planung
+## Workfront-Planungsterminologie
 
-Workfront Planning ist zwar Teil von Workfront, enthält jedoch proprietäre Konzepte und Terminologie. Stellen Sie sicher, dass Sie mit diesen Konzepten vertraut sind, bevor Sie mit der Einrichtung der Workfront-Planung für Ihr Unternehmen beginnen.
+Obwohl Workfront Planning Teil von Workfront ist, enthält es proprietäre Konzepte und Terminologie. Machen Sie sich mit diesen Konzepten vertraut, bevor Sie Workfront Planning für Ihr Unternehmen einrichten.
 
-Das Framework für die Workfront-Planung ist vollständig anpassbar. Sie können alle Datensatztypen, ihre Attribute und alle mit ihnen verknüpften Felder entsprechend den Anforderungen Ihrer Organisation erstellen.
+Das Framework für Workfront Planning ist vollständig anpassbar. Sie können alle Datensatztypen, ihre Attribute und alle ihnen zugeordneten Felder für die exakten Anforderungen Ihres Unternehmens erstellen.
 
-Es gibt Einschränkungen dafür, wie viele Workfront Planning-Objekte Sie erstellen können. Weitere Informationen finden Sie unter [Übersicht über die Objektbeschränkungen bei der Adobe Workfront-Planung](/help/quicksilver/planning/general/limitations-overview.md).
+Es gibt Einschränkungen für die Anzahl der Workfront Planning-Objekte, die Sie erstellen können. Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Planning-Objektbeschränkungen](/help/quicksilver/planning/general/limitations-overview.md).
 
-Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planung:
+Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
-* **Workspace**: Eine Sammlung von Datensatztypen, die den Betriebslebenszyklus eines bestimmten Unternehmens definieren. Ein Arbeitsbereich ist der Arbeitsbereich einer Organisationseinheit.
+* **Workspace**: Eine Sammlung von Datensatztypen, die den Betriebslebenszyklus eines bestimmten Unternehmens definieren. Ein Arbeitsbereich ist der Arbeitsrahmen einer Organisationseinheit.
 
   ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-* **Record Type**: Der Name der Objekttypen in der Workfront-Planung.
+* **Datensatztyp**: Der Name von Objekttypen in Workfront Planning.
 
-  Arbeitsbereiche werden durch Datensatztypen aufgefüllt.
+  Datensatztypen befüllen Arbeitsbereiche.
 
-  Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in der Workfront-Planung eigene Objekttypen erstellen.
+  Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in Workfront Planning Ihre eigenen Objekttypen erstellen.
 
-  Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
+  In Workfront werden beispielsweise die Objekttypen „Programm“, &quot;Portfolio&quot;, „Projekt“, „Aufgabe“ oder „Problem“ bereits erstellt.
 
-  In der Workfront-Planung können Sie beliebige Datensatztypen erstellen, die den Workflows Ihres Unternehmens entsprechen. Später können Sie definieren, wie sich die Datensatztypen untereinander oder mit Formularabhängigkeiten verhalten.
+  In Workfront Planning können Sie beliebige Datensatztypen erstellen, die den Workflows Ihres Unternehmens entsprechen. Später können Sie definieren, wie die Datensatztypen miteinander oder mit Formularabhängigkeiten in Beziehung stehen.
 
-  Weitere Informationen finden Sie unter [Übersicht über Datensatztypen](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+  Weitere Informationen finden Sie unter [Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/overview-of-record-types.md).
 
 * **Record**: Eine Instanz eines Datensatztyps.
 
@@ -206,41 +206,41 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
 
   Nachdem Sie einem Arbeitsbereich einen Datensatztyp hinzugefügt haben, können Sie damit beginnen, Datensätze dieses Typs auf der Seite des Datensatztyps hinzuzufügen.
 
-  Beispielsweise kann &quot;Campaign&quot;ein Datensatztyp sein und &quot;Summer Campaign for EMEA&quot;ist ein Datensatz vom Typ &quot;Campaign-Datensatz&quot;.
+  Beispiel: „Kampagne“ kann ein Datensatztyp sein und „Sommerkampagne für EMEA“ ist ein Datensatz des Datensatztyps der Kampagne.
 
-  Weitere Informationen finden Sie unter [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
+  Weitere Informationen finden Sie unter [Einträge erstellen](/help/quicksilver/planning/records/create-records.md).
 
-* **Workspace-Vorlage**: Sie können einen Arbeitsbereich mit vordefinierten Vorlagen erstellen. Sie können die vordefinierten Datensatztypen und -felder, die in einer Vorlage enthalten sind, verwenden oder eigene hinzufügen.
+* **Workspace-Vorlage**: Sie können einen Arbeitsbereich mithilfe vordefinierter Vorlagen erstellen. Sie können die vordefinierten Datensatztypen und Felder in einer Vorlage verwenden oder eigene hinzufügen.
 
   ![](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning enthält die folgenden Vorlagen:
 
-   * Allgemein: Marketing-Management
-   * Erweitert: Marketing-Management
+   * Einfach: Marketing-Verwaltung
+   * Erweitert: Marketing-Verwaltung
    * Unternehmen: Marketing-Management
-   * Sales Management
+   * Vertriebsleitung
    * Produktverwaltung
 
-  Weitere Informationen finden Sie unter [Liste der Workspace-Vorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
+  Weitere Informationen finden Sie unter [Liste der Arbeitsbereichsvorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
 
-* **Felder**: Felder sind Attribute, die Sie zu Datensatztypen hinzufügen können. Felder enthalten Informationen zum Datensatztyp. <!--check the shot below, "Connection" needs to be in lowercase-->
+* **Felder**: Felder sind Attribute, die Sie Datensatztypen hinzufügen können. Felder enthalten Informationen über den Datensatztyp. <!--check the shot below, "Connection" needs to be in lowercase-->
 
   ![](assets/drop-down-list-of-record-fields.png)
 
-  Hinweise zu Datensatzfeldern:
+  Überlegungen zu Datensatzfeldern:
 
-   * Die Felder, die Sie für einen Datensatztyp hinzufügen, werden automatisch allen Datensätzen dieses Typs zugeordnet und können zum Erfassen von Daten zu diesen Datensätzen verwendet werden.
+   * Die Felder, die Sie für einen Datensatztyp hinzufügen, werden automatisch mit allen Datensätzen dieses Typs verknüpft und können verwendet werden, um Daten über diese Datensätze zu erfassen.
 
-   * Felder werden in der Tabellenansicht als Spalten angezeigt, die auf eine Seite vom Typ Datensatz angewendet werden. Sie werden auch auf der Datensatzseite angezeigt.
+   * Felder werden als Spalten in der Tabellenansicht angezeigt, die auf eine Datensatztypseite angewendet wird. Sie werden auch auf der Datensatzseite angezeigt.
 
-   * Felder sind für einen Datensatztyp eindeutig und werden nicht von einem Datensatztyp zum anderen übertragen.
+   * Felder sind für einen Datensatztyp eindeutig und werden nicht von einem Datensatztyp in einen anderen übertragen.
 
-   * Die Felder können vollständig angepasst werden und stehen nur in der Workfront-Planung zur Verfügung. Sie können nicht über Workfront auf die Planungsfelder für Workfront zugreifen.
+   * Felder können vollständig angepasst werden und sind nur in Workfront Planning verfügbar. Sie können über Workfront nicht auf Workfront Planning-Felder zugreifen.
 
   Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
-  Ein neuer Datensatztyp ist standardmäßig mit den folgenden vordefinierten Feldern verknüpft:
+  Standardmäßig ist ein neuer Datensatztyp mit den folgenden vordefinierten Feldern verknüpft:
 
    * Name
    * Beschreibung
@@ -266,132 +266,132 @@ Im Folgenden finden Sie die wichtigsten Objekte und Konzepte der Workfront-Planu
    * Zuletzt geändert von
    * Zuletzt geändert am
 
-* **Connected record types**, **Connected records** und **Connected fields**: Sie können eine Verbindung zwischen den folgenden Entitäten in der Workfront-Planung erstellen:
+* **Verbundene Datensatztypen**, **Verbundene Datensätze** und **Verbundene Felder**: In Workfront Planning können Sie eine Verbindung zwischen den folgenden Entitäten erstellen:
 
-   * Zwei Datensatztypen für die Workfront-Planung.
-   * Ein Datensatztyp und ein Workfront-Projekt-, Programm-, Portfolio-, Unternehmens- oder Gruppenobjekttyp.
-   * Ein Datensatztyp und ein Adobe Experience Manager-Asset oder -Ordner.
+   * Zwei Workfront Planning-Datensatztypen.
+   * Ein Datensatztyp und ein Workfront-Projekt-, -Programm-, -Portfolio-, -Unternehmens- oder -Gruppenobjekttyp.
+   * Einen Datensatztyp und ein Adobe Experience Manager-Asset oder -Ordner.
 
-     Sie müssen über eine Adobe Experience Manager-Lizenz verfügen, um Datensatztypen mit Experience Manager-Objekten zu verknüpfen.
+     Sie benötigen eine Adobe Experience Manager-Lizenz, um Datensatztypen mit Experience Manager-Objekten zu verknüpfen.
 
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Nachdem Sie eine Verbindung zwischen den Datensatztypen hergestellt haben, können Sie einzelne Datensätze dieser Typen miteinander verbinden. Die Verbindung zwischen den Datensätzen wird als verknüpftes Datensatzfeld angezeigt.
 
-* **Verknüpfte Felder** (oder Suchfelder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze verknüpft haben, können Sie auf die Felder der verknüpften Datensätze in dem Datensatz verweisen, aus dem Sie die Verbindung herstellen.
+* **Verknüpfte Felder** (oder Suchfelder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verknüpft haben, können Sie die Felder der verknüpften Datensätze in dem Datensatz referenzieren, von dem aus Sie eine Verbindung herstellen.
 
-  Wenn Sie beispielsweise einen Campaign-Datensatz mit einem Workfront-Projektobjekttyp verbinden, können Sie das Feld Budget der verbundenen Projekte in den Kampagnensätzen anzeigen.
+  Wenn Sie beispielsweise einen Campaign-Datensatztyp mit einem Workfront-Projektobjekttyp verbinden, können Sie das Budgetfeld der verbundenen Projekte in den Kampagnendatensätzen anzeigen.
 
   ![](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
-  > Sie können die folgenden Feldtypen nicht als Suchfelder aus den verbundenen Datensätzen oder Objekttypen hinzufügen:
+  > Die folgenden Feldtypen können nicht als Suchfelder aus den verbundenen Datensatz- oder Objekttypen hinzugefügt werden:
   >
   >* Personen
   >* Erstellt von
   >* Zuletzt geändert von
-  >* Workfront typeahead-Felder (einschließlich Feldern wie Projekteigentümer oder Projektsponsor)
+  >* Workfront-Felder mit automatischer Textvervollständigung (einschließlich Feldern wie Projektbesitzer oder Projektsponsor)
 
-  Informationen zum Verknüpfen von Datensatztypen und Datensätzen sowie zum Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
+  Informationen zum Verknüpfen von Datensatztypen, Datensätzen und Erstellen verknüpfter Felder finden Sie in den folgenden Artikeln:
 
-   * [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
 
 <!--not yet:* Fields are reusable across Record Types.  -->
 
-* **Ansichten**: Datensätze werden unter der jeweiligen Datensatztypseite in verschiedenen Ansichten angezeigt.
+* **Ansichten**: Datensätze werden auf verschiedenen Ansichtstypen unter der entsprechenden Seite für den Datensatztyp angezeigt.
 
   ![](assets/view-types-drop-down-from-record-type-list.png)
 
-  Ansichten enthalten personalisierte Einstellungen eines bestimmten Ansichtstyps, z. B. die Liste der Felder (Spalten), eine Liste von Datensätzen (Zeilen), ihre Reihenfolge (Sortierung), einen angewendeten oder anwendbaren Filter und eine Gruppierung.
+  Ansichten enthalten personalisierte Einstellungen eines bestimmten Ansichtstyps, z. B. die Liste von Feldern (Spalten), eine Liste von Datensätzen (Zeilen), ihre Reihenfolge (Sortierung), einen angewendeten oder anwendbaren Filter und eine Gruppierung.
 
-  Im Folgenden finden Sie Ansichtstypen, die Sie auf die Seite vom Typ Datensatz anwenden können:
+  Im Folgenden finden Sie Ansichtstypen, die Sie auf die Seite „Datensatztyp“ anwenden können:
 
-   * **Tabellenansicht**: Zeigt Datensätze und deren Felder, einschließlich Verbindungs- und Suchfelder, im Tabellenformat an. Die Tabellenzeilen enthalten die einzelnen Datensätze und die Spalten die Datensatzfelder. Die Tabellenansicht ist die Standardansicht.
+   * **Tabellenansicht** Zeigt Datensätze und ihre Felder, einschließlich verbundener und Lookup-Felder, in einem Tabellenformat an. Die Zeilen der Tabelle sind die einzelnen Datensätze, und die Spalten sind die Datensatzfelder. Die Tabellenansicht ist die Standardansicht.
 
      ![](assets/table-view-example.png)
 
-   * **Timeline-Ansicht**: Zeigt Datensätze an, die mindestens zwei Datumsfeld-Felder in einer chronologischen Timeline aufweisen. In der Timeline-Ansicht können Sie bis zu fünf verbundene Datensatztypen und deren Datensätze anzeigen.
+   * **Zeitleisten-Ansicht**: Zeigt Datensätze an, die mindestens zwei Datumsfelder in einer chronologischen Zeitleiste aufweisen. In der Zeitleisten -Ansicht können bis zu 5 miteinander verbundene Datensatztypen und deren Datensätze angezeigt werden.
 
      ![](assets/grouping-applied-in-timeline-view.png)
 
-   * **Kalenderansicht**: Zeigt Datensätze mit mindestens zwei Datumsfeldern im Kalenderformat an.
+   * **Kalenderansicht** Zeigt Datensätze mit mindestens zwei Feldern vom Typ Datum in einem Kalenderformat an.
      ![](assets/calendar-view-example.png)
 
 
-Weitere Informationen finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Adobe Workfront-Planung suchen
 
-Um die Adobe Planning zu finden, stellen Sie sicher, dass Ihr Unternehmen Zugriff auf die Workfront-Planung hat und dass Ihr System- oder Gruppenadministrator den Planungsbereich zu Ihrem Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Übersicht über den Zugriff auf die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
+Um Adobe Planning zu finden, stellen Sie sicher, dass Ihr Unternehmen Zugriff auf Workfront Planning erhalten hat und dass Ihr System- oder Gruppenadministrator den Bereich Planning zum Hauptmenü hinzugefügt hat. Weitere Informationen finden Sie unter [Adobe Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
-So suchen Sie die Workfront-Planung:
+So suchen Sie Workfront Planning:
 
 1. Melden Sie sich bei Workfront an.
 
 {{step1-click-main-menu}}
 
-1. Klicken Sie auf **Planung** ![](assets/planning-icon.png).
+1. Klicken Sie **Planung** ![](assets/planning-icon.png).
 
-   Die Hauptseite Workfront-Planung wird geöffnet.
+   Die Hauptseite von Workfront Planning wird geöffnet.
 
    ![](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >
-   >    Ihr Workfront-Administrator kann den Planungsbereich zur Option Landingpage auswählen in Ihrer Layoutvorlage hinzufügen, damit Sie die Planung öffnen können, sobald Sie sich bei Workfront anmelden. Weitere Informationen finden Sie unter [Landingpage mithilfe einer Layoutvorlage anpassen](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
+   >    Ihr Workfront-Administrator kann der Option Landingpage auswählen in Ihrer Layout-Vorlage den Bereich Planung hinzufügen, sodass Sie Planning öffnen können, sobald Sie sich bei Workfront anmelden. Weitere Informationen finden Sie unter [Anpassen der Landingpage mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-landing-page.md).
 
 1. (Bedingt und optional) Wenn Sie Workfront-Administrator sind, klicken Sie auf eine der folgenden Registerkarten:
-   * **Arbeitsbereiche, die ich verwende**: Zeigt Arbeitsbereiche an, die Sie erstellt haben, oder Arbeitsbereiche, die für Sie freigegeben sind.
+   * **Arbeitsbereiche, an denen ich mitwirke**: Zeigt von Ihnen erstellte Arbeitsbereiche oder Arbeitsbereiche an, die für Sie freigegeben sind.
    * **Andere Arbeitsbereiche**: Zeigt alle anderen Arbeitsbereiche im System an.
 
-   Für alle anderen Benutzer werden beide Arbeitsbereiche, die sie erstellt haben oder für sie freigegeben wurden, im Bereich **Arbeitsbereiche** angezeigt.
+   Für alle anderen Benutzer werden die von ihnen erstellten oder für sie freigegebenen Arbeitsbereiche im Bereich **Arbeitsbereiche** angezeigt.
 
 1. (Optional und empfohlen) Fahren Sie mit einigen der folgenden Aktionen fort, um Ihre Arbeitsstruktur zu erstellen:
 
-   1. Erstellen Sie einen neuen Arbeitsbereich oder verwenden Sie eine Vorlage. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+   1. Erstellen Sie einen neuen Arbeitsbereich mithilfe einer Vorlage. Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
    1. Fügen Sie dem neuen Arbeitsbereich Abschnitte hinzu. Weitere Informationen finden Sie unter [Arbeitsbereiche bearbeiten](/help/quicksilver/planning/architecture/edit-workspaces.md).
-   1. Benennen Sie die vorhandenen Abschnitte in den neuen Arbeitsbereich um.
-   1. Fügen Sie dem neuen Arbeitsbereich Datensatztypen hinzu. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+   1. Umbenennen der vorhandenen Abschnitte im neuen Arbeitsbereich.
+   1. Datensatztypen zum neuen Arbeitsbereich hinzufügen. Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   1. Klicken Sie auf den Namen eines Datensatztyps, um die Seite des Datensatztyps zu öffnen. Die Seite mit dem Datensatztyp wird standardmäßig in der Tabellenansicht geöffnet.
+   1. Klicken Sie auf den Namen eines Datensatztyps, um die Seite des Datensatztyps zu öffnen. Die Seite „Datensatztyp“ wird standardmäßig in der Tabellenansicht geöffnet.
 
       Sie können auch eine Timeline- oder eine Kalenderansicht erstellen. Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
-   1. Fügen Sie in der Tabellenansicht Datensätze hinzu, indem Sie Zeilen hinzufügen
+   1. Beginnen Sie in der Tabellenansicht mit dem Hinzufügen von Datensätzen, indem Sie Zeilen hinzufügen
 
       Oder
 
-      Beginnen Sie mit dem Hinzufügen von Datensatzfeldern durch Hinzufügen von Spalten.
+      Datensatzfelder durch Hinzufügen von Spalten hinzufügen.
 
       Weitere Informationen finden Sie in den folgenden Artikeln:
 
-      * [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md)
-      * [Erstellen Sie Felder](/help/quicksilver/planning/fields/create-fields.md).
+      * [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md)
+      * [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
-## Workfront-Planungs-Release-Aktivität
+## Workfront Planning-Versionsaktivität
 
 <!--update this with the new release activity page - the article index for all Planning releases-->
 
-Wir veröffentlichen regelmäßig neue Funktionen für die Workfront-Planung.
+Wir veröffentlichen regelmäßig neue Funktionen für Workfront Planning.
 
-Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning-Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Eine aktuelle Liste der veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Zusätzliche Ressourcen für die Workfront-Planung
 
-* [Adobe Workfront-Planung: Artikelindex](/help/quicksilver/planning/planning-information.md): Ein Index aller Artikel, die Dokumentation zur Workfront-Planung enthalten, gruppiert nach Interessensgebieten.
-* [Adobe Workfront Planning AI Assistant Overview](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront AI Assistant for Planning können Sie über Befehle nach Datensätzen suchen oder Datensätze erstellen, aktualisieren und löschen und dem Assistenten die Arbeit überlassen.
+* [Adobe Workfront Planning: Artikelindex](/help/quicksilver/planning/planning-information.md): Ein Index aller Artikel, die Dokumentationen zu Workfront Planning enthalten, gruppiert nach Interessenbereich.
+* [Übersicht über den Adobe Workfront Planning AI-Assistenten](/help/quicksilver/planning/general/planning-ai-assistant-overview.md): Mit dem Workfront AI-Assistenten für Planning können Sie nach Datensätzen suchen oder Datensätze erstellen, aktualisieren und löschen, indem Sie Befehle verwenden und den Assistenten die Arbeit für Sie erledigen lassen.
   <!--
     >[!NOTE]
     >
     >    The Workfront AI Assistant has been temporarily removed and it will be available at a later date.-->
 
-* [Adobe Workfront-Planungsmodule für Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Mit den Adobe Workfront-Planungsmodulen können Sie ein Szenario bei Ereignissen in der Workfront-Planung Trigger haben. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf für Ihr Adobe Workfront Planning-Konto ausführen.
+* [Adobe Workfront-Planungsmodule für Workfront Fusion](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md): Mit den Adobe Workfront-Planungsmodulen können Sie Trigger erstellen, wenn in Workfront Planning Ereignisse auftreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr Adobe Workfront Planning-Konto durchführen.
 
-* [Grundlagen der Adobe Workfront Planning-API](/help/quicksilver/planning/general/planning-api-basics.md): Ziel der Adobe Workfront Planning-API ist es, die Erstellung von Integrationen mit der Planung zu vereinfachen, indem eine REST-basierte Architektur eingeführt wird, die über HTTP funktioniert.
+* [Grundlagen der Adobe Workfront Planning-](/help/quicksilver/planning/general/planning-api-basics.md): Ziel der Adobe Workfront Planning-API ist es, die Erstellung von Integrationen mit Planning zu vereinfachen, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird.
 
-* **Workfront-Planungs-Berichterstellungsfunktionen**: Sie können jetzt Workfront-Planungsinformationen in einem Bericht in Workfront mithilfe des Workfront Canvas-Dashboards anzeigen. Weitere Informationen finden Sie unter [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+* **Berichterstellungsfunktionen für Workfront Planning**: Sie können jetzt mithilfe des Workfront Canvas-Dashboards Workfront-Planungsinformationen in einem Bericht in Workfront anzeigen. Weitere Informationen finden Sie [Erste Schritte mit Leinwand-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
 

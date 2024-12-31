@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!--Audited: 10/2024-->
 
-Sie können Aufgaben in einem bestimmten Projekt in Adobe Workfront erstellen.
+In Adobe Workfront können Sie Aufgaben in einem bestimmten Projekt erstellen.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über die Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
+* [Erstellen von Aufgaben - Übersicht](../../../manage-work/tasks/create-tasks/create-tasks-overview.md)
 * [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md)
-* [Erstellen von Unteraufgaben](../../../manage-work/tasks/create-tasks/create-subtasks.md)
+* [Teilaufgaben erstellen](../../../manage-work/tasks/create-tasks/create-subtasks.md)
 * [Wiederkehrende Aufgaben erstellen](../../../manage-work/tasks/create-tasks/create-recurring-tasks.md)

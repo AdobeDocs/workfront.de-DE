@@ -1,6 +1,6 @@
 ---
-title: API-Grundlagen zur Adobe Workfront-Planung
-description: Das Ziel der Adobe Workfront Planning API besteht darin, das Erstellen von Integrationen mit der Planung zu vereinfachen, indem eine REST-fähige Architektur eingeführt wird, die über HTTP ausgeführt wird. In diesem Dokument wird davon ausgegangen, dass Sie mit REST- und JSON-Antworten vertraut sind, und der von der Planungs-API verfolgte Ansatz beschrieben.
+title: Grundlagen zur Adobe Workfront-Planungs-API
+description: Das Ziel der Adobe Workfront Planning-API besteht darin, die Erstellung von Integrationen mit Planning zu vereinfachen, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird. In diesem Dokument wird davon ausgegangen, dass Sie mit REST- und JSON-Antworten vertraut sind, und der von der Planungs-API verfolgte Ansatz beschrieben.
 author: Becky
 feature: Workfront Planning
 role: User, Admin
@@ -14,34 +14,34 @@ ht-degree: 1%
 ---
 
 
-# Grundlagen der Adobe Workfront-Planungs-API
+# Grundlagen zur Adobe Workfront Planning-API
 
 {{planning-important-intro}}
 
-Das Ziel der Adobe Workfront Planning API besteht darin, das Erstellen von Integrationen mit der Planung zu vereinfachen, indem eine REST-fähige Architektur eingeführt wird, die über HTTP ausgeführt wird. In diesem Dokument wird davon ausgegangen, dass Sie mit REST- und JSON-Antworten vertraut sind, und der von der Planungs-API verfolgte Ansatz beschrieben.
+Das Ziel der Adobe Workfront Planning-API besteht darin, die Erstellung von Integrationen mit Planning zu vereinfachen, indem eine REST-ful-Architektur eingeführt wird, die über HTTP ausgeführt wird. In diesem Dokument wird davon ausgegangen, dass Sie mit REST- und JSON-Antworten vertraut sind, und der von der Planungs-API verfolgte Ansatz beschrieben.
 
-Die Kenntnis des Workfront-Planungs-Schemas hilft Ihnen dabei, die Datenbankbeziehungen zu verstehen, die zum Abrufen von Daten aus der Workfront-Planung für Integrationszwecke genutzt werden können.
+Wenn Sie mit dem Workfront-Planungsschema vertraut sind, können Sie die Datenbankbeziehungen besser verstehen, die Sie zum Abrufen von Daten aus Workfront Planning zu Integrationszwecken verwenden können.
 
-Sie können die Planungs-API über ein externes Suchfeld in einem benutzerdefinierten Workfront-Formular aufrufen.
+Sie können die Planning-API aus einem externen Suchfeld in einem benutzerdefinierten Workfront-Formular aufrufen.
 
 Weitere Informationen zu externen Suchfeldern finden Sie unter [Beispiele für das externe Suchfeld in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md).
 
-## API-URL für die Workfront-Planung
+## Workfront Planning-API-URL
 
 <!--For more details and examples of each operation, see the [Workfront Planning API developer documentation](https://developer.adobe.com/wf-planning/).-->
 
 ### Vorgänge
 
-Objekte werden bearbeitet, indem eine HTTP-Anfrage an ihren eindeutigen URI gesendet wird. Der auszuführende Vorgang wird durch die HTTP-Methode angegeben.
+Objekte werden durch Senden einer HTTP-Anfrage an den eindeutigen URI bearbeitet. Der auszuführende Vorgang wird durch die HTTP-Methode angegeben.
 
 Die standardmäßigen HTTP-Methoden entsprechen den folgenden Vorgängen:
 
-* **GET** - Ruft ein Objekt nach ID ab, sucht mithilfe einer Abfrage nach allen Objekten
+* **GET** - Ruft ein Objekt nach ID ab und sucht anhand einer Abfrage nach allen Objekten
 * **POST** - Fügt ein neues Objekt ein
-* **PUT** - Bearbeiten eines vorhandenen Objekts
+* **PUT** - Bearbeitet ein vorhandenes Objekt
 * **DELETE** - Löscht ein Objekt
 
-Weitere Informationen und Beispiele zu den einzelnen Vorgängen finden Sie in der [Dokumentation zur Workfront Planning API für Entwickler](https://developer.adobe.com/wf-planning/) .
+Weitere Details und Beispiele für jeden Vorgang finden Sie in der Entwicklerdokumentation zur [Workfront Planning API](https://developer.adobe.com/wf-planning/).
 
 ### Feldtypen und Suchmodifikatoren, die mit ihnen verwendet werden
 
@@ -63,26 +63,26 @@ Workfront Planning unterstützt die folgenden Suchmodifikatoren:
     <tr>
         <td>$contains </td>
         <td><code>"fieldId": { "$contains": "product" } </code> </td>
-        <td>Gibt Datensätze aus, deren Feldwert den Filter enthält  </td>
-        <td>"New Product Launch"  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert den Filter enthält  </td>
+        <td>„Neue Produkteinführung“  </td>
     </tr>
     <tr>
-        <td>$doesNotContain</td>
+        <td>$doesNotContains</td>
         <td><code>"fieldId": { "$doesNotContain": "product" } </code> </td>
-        <td>Gibt Datensätze aus, für die der Feldwert den Filter nicht enthält  </td>
-        <td>"New Launch"  </td>
+        <td>Gibt Datensätze zurück, bei denen der Feldwert den Filter nicht enthält  </td>
+        <td>„Neue Einführung“  </td>
     </tr>
     <tr>
         <td>$is </td>
         <td><ul><li><code>"fieldId" : { "$is": "new product launch" } </code></li><li><code>"fieldId" : { "new product launch" } </code></li><ul> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert exakt mit dem Filter übereinstimmt  </td>
-        <td>"New Product Launch"  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert genau mit dem Filter übereinstimmt  </td>
+        <td>„Neue Produkteinführung“  </td>
     </tr>
     <tr>
         <td>$isNot </td>
         <td><code>"fieldId": { "$isNot": "product" } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert exakt nicht mit dem Filter übereinstimmt  </td>
-        <td>"New Product Launch"  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert genau nicht mit dem Filter übereinstimmt  </td>
+        <td>„Neue Produkteinführung“  </td>
     </tr>
     <tr>
         <td>$isEmpty </td>
@@ -94,22 +94,22 @@ Workfront Planning unterstützt die folgenden Suchmodifikatoren:
         <td>$isNotEmpty </td>
         <td><ul><li><code>"fieldId": "$isNotEmpty"  </code></li><li><code>"fieldId": { "$isNotEmpty": null } </code></li><ul> </td>
         <td>Gibt Datensätze zurück, deren Feldwert nicht leer ist  </td>
-        <td>"New Product Launch"  </td>
+        <td>„Neue Produkteinführung“  </td>
     </tr>
     <tr>
-        <td>$greaterThan </td>
+        <td>$größer als </td>
         <td><code>"fieldId": { "$greaterThan": 10 } </code> </td>
         <td>Gibt Datensätze zurück, deren Feldwert größer als der Filter ist  </td>
         <td><ul><li>20</li><li>25</li><ul> </td>
     </tr>
     <tr>
-        <td>$greaterThanOrEqual </td>
+        <td>$größeralsOderGleich </td>
         <td><code>"fieldId": { "$greaterThanOrEqual": 10 } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert größer oder gleich dem Filter ist  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert größer oder gleich dem Filter ist.  </td>
         <td><ul><li>10</li><li>20</li><li>25</li> </ul></td>
     </tr>
     <tr>
-        <td>$lessThan </td>
+        <td>$kleiner als </td>
         <td><code>"fieldId": { "$lessThan": 10 } </code> </td>
         <td>Gibt Datensätze zurück, deren Feldwert kleiner als der Filter ist  </td>
         <td><ul><li>5</li><li>9</li></td></ul> 
@@ -117,99 +117,99 @@ Workfront Planning unterstützt die folgenden Suchmodifikatoren:
     <tr>
         <td>$lessThanOrEqual </td>
         <td><code>"fieldId": { "$lessThanOrEqual": 10 } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert kleiner oder gleich dem Filter ist </td>
+        <td>Gibt Datensätze zurück, deren Feldwert kleiner oder gleich dem Filter ist. </td>
         <td><ul><li>5</li><li>9</li><ul><li>10</li> </td>
     </tr>
     <tr>
         <td>$isAfter </td>
         <td><code>"fieldId": { "$isAfter": "2024-05-14T20:00:00.000Z" } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert hinter dem Filter liegt  </td>
-        <td>"2024-05-15T20:00:00.000Z"  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert nach dem Filter liegt.  </td>
+        <td>„2024-05-15T20:00:00.000Z“  </td>
     </tr>
     <tr>
         <td>$isBefore </td>
         <td><code>"fieldId": { "$isBefore": "2024-05-14T20:00:00.000Z" } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert vor dem Filter liegt </td>
-        <td>"2024-05-12T20:00:00.000Z" </td>
+        <td>Gibt Datensätze zurück, deren Feldwert vor dem Filter liegt. </td>
+        <td>„2024-05-12T20:00:00.000Z“ </td>
     </tr>
     <tr>
         <td>$isBetween </td>
         <td><code>"fieldId": { "$isBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert zwischen dem Filter liegt  </td>
-        <td><ul><li>"2024-05-12T20:00:00.000Z" </li><li>"2024-05-14T20:00:00.000Z" </li><ul>  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert zwischen dem Filter liegt.  </td>
+        <td><ul><li>„2024-05-12T20:00:00.000Z“ </li><li>„2024-05-14T20:00:00.000Z“ </li><ul>  </td>
     </tr>
     <tr>
         <td>$isNotBetween </td>
         <td><code>"fieldId": { "$isNotBetween": ["2024-05-10T20:00:00.000Z", "2024-05-15T20:00:00.000Z"] } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert nicht zwischen dem Filter liegt  </td>
-        <td><ul><li>"2024-05-09T20:00:00.000Z"  </li><li>"2024-05-17T20:00:00.000Z"  </li><ul>  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert nicht zwischen den Filtern liegt  </td>
+        <td><ul><li>„2024-05-09T20:00:00.000Z“  </li><li>„2024-05-17T20:00:00.000Z“  </li><ul>  </td>
     </tr>
     <tr>
         <td>$isAnyOf </td>
         <td><code>"fieldId": { "$isAnyOf": ["active", "completed"] } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert einem der Filter entspricht  </td>
-        <td><ul><li>"active" </li><li>"completed" </li><ul> </td>
+        <td>Gibt Datensätze zurück, deren Feldwert einer der Filter ist  </td>
+        <td><ul><li>„Aktiv“ </li><li>„Abgeschlossen“ </li><ul> </td>
     </tr>
     <tr>
         <td>$isNoneOf </td>
         <td><code>"fieldId": { "$isNoneOf": ["active", "completed"] } </code> </td>
         <td>Gibt Datensätze zurück, deren Feldwert keiner der Filter ist </td>
-        <td><ul><li>"finished"  </li><li>"fixed"  </li><ul> </td>
+        <td><ul><li>„Fertig gestellt“  </li><li>„Behoben“  </li><ul> </td>
     </tr>
     <tr>
         <td>$hasAnyOf </td>
         <td><code>"fieldId": { "$hasAnyOf": ["active", "completed"] } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert einen der Filter aufweist  </td>
-        <td><ul><li>["active", "fixed"]  </li><li>["fixed", "completed", "finished"]  </li><ul> </td>
+        <td>Gibt Datensätze zurück, deren Feldwert einen der folgenden Werte aufweist:  </td>
+        <td><ul><li>[„aktiv“, „fest“]  </li><li>[„behoben“, „abgeschlossen“, „abgeschlossen“]  </li><ul> </td>
     </tr>
     <tr>
         <td>$hasAllOf </td>
         <td><code>"fieldId": { "$hasAllOf": ["active", "completed"] } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert den gesamten Filter aufweist  </td>
-        <td><ul><li>["active", "completed"]   </li><li>["active", "completed", "finished"]   </li><ul> </td>
+        <td>Gibt Datensätze zurück, deren Feldwert den gesamten Filter enthält  </td>
+        <td><ul><li>[„Aktiv“, „Abgeschlossen“]   </li><li>[„Aktiv“, „Abgeschlossen“, „Abgeschlossen“]   </li><ul> </td>
     </tr>
     <tr>
         <td>$hasNoneOf </td>
         <td><code>"fieldId": { "$hasNoneOf": ["active", "completed"] } </code> </td>
-        <td>Gibt Datensätze zurück, deren Feldwert keinen Filter enthält </td>
-        <td>["fixed", "finished"]  </td>
+        <td>Gibt Datensätze zurück, deren Feldwert keinen Filter enthält. </td>
+        <td>[„behoben“, „fertig“]  </td>
     </tr>
     <tr>
         <td>$isExactly </td>
         <td><code>"fieldId": { "$isExactly": ["active", "completed"] } </code> </td>
         <td>Gibt Datensätze zurück, deren Feldwert genau dem Filter entspricht  </td>
-        <td>["active", "completed"]  </td>
+        <td>[„Aktiv“, „Abgeschlossen“]  </td>
     </tr>
 </table>
 
 #### Feldtypen
 
-Nachstehend finden Sie eine Liste der unterstützten Feldtypen und darüber, welche Suchmodifikatoren mit jedem dieser Feldtypen verwendet werden können
+Nachfolgend finden Sie eine Liste der unterstützten Feldtypen und darüber, welche Suchmodifikatoren mit den einzelnen Feldtypen verwendet werden können
 
 | Feldtyp | Unterstützte Suchmodifikatoren |
 |---|---|
-| text | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| long-text | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| number | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| Prozentsatz | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
-| currency | $is, $isNot, $greaterThan, $greaterThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| Text | $contains, $doesNotContainer, $is, $isNot, $isEmpty, $isNotEmpty |
+| Langtext | $contains, $doesNotContainer, $is, $isNot, $isEmpty, $isNotEmpty |
+| Zahl | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| Prozentsatz | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
+| Währung | $is, $isNot, $größerThan, $größerThanOrEqual, $lessThan, $lessThanOrEqual, $isEmpty, $isNotEmpty |
 | Datum | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
 | Einzelauswahl | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
 | Mehrfachauswahl | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
 | Boolescher Wert | $is |
 | Benutzer | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
-| Formel | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
-| url | $contains, $doesNotContain, $is, $isNot, $isEmpty, $isNotEmpty |
+| Formel | $contains, $doesNotContainer, $is, $isNot, $isEmpty, $isNotEmpty |
+| URL | $contains, $doesNotContainer, $is, $isNot, $isEmpty, $isNotEmpty |
 | created-by | $is, $isNot, $isAnyOf, $isNoneOf |
 | created-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween |
-| aktualisiert von | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
+| Aktualisiert von | $is, $isNot, $isAnyOf, $isNoneOf, $isEmpty, $isNotEmpty |
 | updated-at | $is, $isNot, $isAfter, $isBefore, $isBetween, $isNotBetween, $isEmpty, $isNotEmpty |
-| reference | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
-| Nachschlagen | Hängt vom verknüpften Feld ab |
+| Verweis | $hasAnyOf, $hasAllOf, $isExactly, $hasNoneOf, $isEmpty, $isNotEmpty |
+| Lookup | Hängt vom verknüpften Feld ab |
 
-### Verwenden von &quot;And&quot;- und &quot;Or&quot;-Anweisungen
+### Verwendung der Anweisungen „Und“ und „Oder“
 
-Im API-Aufruf können Sie Filter haben, die auf mehreren Kriterien basieren, die durch die Anweisungen $and&quot; und &quot;$or&quot;kombiniert werden
+Im API-Aufruf können Filter enthalten sein, die auf mehreren Kriterien basieren und durch $and“- und &quot;$or“-Anweisungen kombiniert werden
 
 ```
 {
@@ -263,11 +263,11 @@ Im API-Aufruf können Sie Filter haben, die auf mehreren Kriterien basieren, die
 }
 ```
 
-### Verwenden des Feldanfrageparameters
+### Verwenden des Anforderungsparameters „fields“
 
-Mit dem Feldanforderungsparameter können Sie eine kommagetrennte Liste bestimmter Felder angeben, die zurückgegeben werden sollen. Bei diesen Feldnamen wird zwischen Groß- und Kleinschreibung unterschieden.
+Mit dem Anforderungsparameter fields können Sie eine kommagetrennte Liste bestimmter Felder angeben, die zurückgegeben werden sollen. Bei diesen Feldnamen wird zwischen Groß- und Kleinschreibung unterschieden.
 
-Beispielsweise die Anfrage
+Beispiel: die Anfrage
 
 `/v1/records/search?attributes=data,createdBy`
 
@@ -293,7 +293,7 @@ Beispielsweise die Anfrage
 ....
 ```
 
-gibt eine Antwort ähnlich der folgenden zurück:
+Gibt eine Antwort ähnlich der folgenden zurück:
 
 
 ```
@@ -307,12 +307,12 @@ gibt eine Antwort ähnlich der folgenden zurück:
 
 ### Sortieren von Abfrageergebnissen in der API
 
-Sie können Ihre Ergebnisse nach jedem Feld sortieren, wenn Sie Folgendes an Ihren API-Aufruf anhängen:
+Sie können Ihre Ergebnisse nach einem beliebigen Feld sortieren, wenn Sie Folgendes an Ihren API-Aufruf anhängen:
 
 
 `/v1/records/search`
 
-Anfrageinhalt:
+Anfragetext:
 
 ```
 {
@@ -337,17 +337,17 @@ Anfrageinhalt:
 
 ### Abfragebeschränkungen und paginierte Antworten
 
-Standardmäßig geben API-Anfragen zur Planung 500 Ergebnisse zurück, beginnend mit dem Anfang der Liste. Um die Standardbegrenzung für die Anzahl der Ergebnisse zu überschreiben, können Sie den Parameter `limit` in Ihren Anforderungen verwenden und ihn auf eine andere Zahl mit bis zu 2000 Ergebnissen setzen.
+Standardmäßig geben Planning-API-Anfragen 500 Ergebnisse zurück, beginnend mit dem Anfang der Liste. Um die standardmäßige Begrenzung für die Anzahl der Ergebnisse zu überschreiben, können Sie den `limit`-Parameter in Ihren Anfragen verwenden und auf eine andere Zahl festlegen, bis zu 2.000 Ergebnisse.
 
-Es wird empfohlen, paginierte Antworten für große Datensätze zu verwenden, indem Sie den Parameter `offset` zu Ihren Anforderungen hinzufügen. Paginierte Antworten ermöglichen es Ihnen, den Speicherort des ersten zurückzugebenden Ergebnisses anzugeben.
+Es wird empfohlen, die Verwendung von paginierten Antworten für große Datensätze zu erwägen, indem Sie den `offset`-Parameter zu Ihren Anfragen hinzufügen. Mit paginierten Antworten können Sie den Speicherort des ersten Ergebnisses angeben, das zurückgegeben werden soll.
 
-Wenn Sie beispielsweise die Ergebnisse 2001-4000 zurückgeben möchten, können Sie die folgende Anfrage verwenden. In diesem Beispiel werden seit dem 2001. Ergebnis 2000 Datensätze zurückgegeben, die sich im aktiven Status befinden:
+Wenn Sie beispielsweise die Ergebnisse 2001-4000 zurückgeben möchten, können Sie die folgende Anfrage verwenden. In diesem Beispiel werden 2.000 Datensätze im Status Aktiv zurückgegeben, beginnend mit dem Ergebnis 2001:
 
 `POST /v1/records/search `
 
 
 
-Anfrageinhalt:
+Anfragetext:
 
 ```
 { 
@@ -360,6 +360,6 @@ Anfrageinhalt:
 } 
 ```
 
-Verwenden Sie einen Sortierparameter, um sicherzustellen, dass Ihre Ergebnisse korrekt paginiert werden. Dadurch können die Ergebnisse in derselben Reihenfolge zurückgegeben werden, sodass die Paginierung die Ergebnisse nicht wiederholt oder überspringt.
+Um sicherzustellen, dass Ihre Ergebnisse ordnungsgemäß paginiert werden, verwenden Sie einen Sortierparameter. Dadurch können die Ergebnisse in derselben Reihenfolge zurückgegeben werden, sodass die Paginierung die Ergebnisse nicht wiederholt oder überspringt.
 
 Weitere Informationen zum Sortieren finden Sie unter [Sortieren von Abfrageergebnissen in der API](#sorting-query-results-in-the-api) in diesem Artikel.

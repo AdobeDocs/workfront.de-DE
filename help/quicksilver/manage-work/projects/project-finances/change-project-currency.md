@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Ändern der Projektwährung
-description: Als Projektmanager können Sie ein Projekt so konfigurieren, dass eine andere Währung als die Standardwährung für Ihr Adobe Workfront-System verwendet wird. Auf diese Weise können Sie bei der Berechnung von Arbeitskosten und Einnahmen Finanzinformationen zu Ihrem Projekt in der gewünschten Währung anzeigen.
+title: Projektwährung ändern
+description: Als Projekt-Manager können Sie ein Projekt so konfigurieren, dass es eine andere Währung als die Standardwährung für Ihr Adobe Workfront-System verwendet. Auf diese Weise können Sie bei der Berechnung von Arbeitskosten und Umsatz Finanzinformationen zu Ihrem Projekt in der gewünschten Währung anzeigen.
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Ändern der Projektwährung
+# Projektwährung ändern
 
-Als Projektmanager können Sie ein Projekt so konfigurieren, dass eine andere Währung als die Standardwährung für Ihr Adobe Workfront-System verwendet wird. Auf diese Weise können Sie bei der Berechnung von Arbeitskosten und Einnahmen Finanzinformationen zu Ihrem Projekt in der gewünschten Währung anzeigen.
+Als Projekt-Manager können Sie ein Projekt so konfigurieren, dass es eine andere Währung als die Standardwährung für Ihr Adobe Workfront-System verwendet. Auf diese Weise können Sie bei der Berechnung von Arbeitskosten und Umsatz Finanzinformationen zu Ihrem Projekt in der gewünschten Währung anzeigen.
 
 Bevor Sie alternative Währungen wie in diesem Abschnitt beschrieben verwenden können, muss der Workfront-Administrator zunächst mehrere Währungen aktivieren und konfigurieren, wie im Artikel [Einrichten von Wechselkursen](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md) beschrieben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -41,28 +41,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>Zugriff auf Projekte bearbeiten</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Berechtigungen für ein Projekt verwalten</td> 
+   <td>Verwalten von Berechtigungen für ein Projekt</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Überlegungen beim Ändern der Währung eines Projekts in Workfront
+## Überlegungen zum Ändern der Projektwährung in Workfront
 
-* Sie können die Währung eines Projekts nicht ändern, wenn das Projekt finanzielle Informationen enthält.
-* Die Sätze werden für Arbeitskosten, Umsatzberechnungen und in Zukunft für Berichtszwecke verwendet.
-* Wenn Sie für ein Projekt keine andere Währung angeben, geht Workfront davon aus, dass die Währung des Projekts die Standardwährung des Systems ist. Informationen zur Standardwährung auf Systemebene finden Sie unter [Einrichten von Wechselkursen](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
-* Standardmäßig haben alle Benutzer mit voller Lizenz Zugriff auf Währungen und Wechselkurse. Der Workfront-Administrator muss zusätzlichen Administratorzugriff für **Wechselkurse** gewähren, damit Benutzer bestimmte Kurse für Projekte festlegen können.
-* Die Wechselkurse in Workfront sind nicht dynamisch. Der Wert wird von einem Administrator festgelegt und muss bei Wechselkursänderungen aktualisiert werden.
-* Wenn Sie einen Bericht erstellen, der die Währung eines Projekts widerspiegelt, werden alle Berichte standardmäßig nach der Standardwährung des Projekts gruppiert. Wenn Sie einen Bericht mit mehreren Projekten erstellen, die unterschiedliche Wechselkurse haben, spiegeln alle auf das Projekt angewendeten Gruppierungen den Standardwechselkurs auf Systemebene wider. Weitere Informationen finden Sie im Artikel [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
+* Sie können die Währung eines Projekts nicht ändern, wenn im Projekt Finanzinformationen vorhanden sind.
+* Die Sätze werden für Arbeitskosten, Einnahmenberechnungen und in Zukunft für Berichtszwecke verwendet.
+* Wenn Sie für ein Projekt keine andere Währung angeben, geht Workfront davon aus, dass die Projektwährung die Standardwährung des Systems ist. Informationen zur Standardwährung auf Systemebene finden Sie unter [Einrichten von Wechselkursen](../../../administration-and-setup/manage-workfront/exchange-rates/set-up-exchange-rates.md).
+* Standardmäßig haben alle Benutzer mit Volllizenz Zugriff auf Währungen und Wechselkurse. Der Workfront-Administrator muss zusätzlichen administrativen Zugriff für **Wechselkurse“ gewähren** damit Benutzende bestimmte Kurse für Projekte festlegen können.
+* Die Wechselkurse in Workfront sind nicht dynamisch. Der Wert wird von einem Administrator festgelegt und muss aktualisiert werden, wenn Wechselkursänderungen auftreten.
+* Wenn Sie einen Bericht erstellen, der die Währung eines Projekts widerspiegelt, werden standardmäßig alle Berichte nach der Standardwährung des Projekts gruppiert. Wenn Sie einen Bericht mit mehreren Projekten mit unterschiedlichen Wechselkursen erstellen, spiegeln alle auf das Projekt angewendeten Gruppierungen den Standardwechselkurs auf Systemebene wider. Weitere Informationen finden Sie im Artikel [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
 ## Währung für ein Projekt konfigurieren
 
@@ -70,12 +70,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    >[!TIP]
    >
-   >Stellen Sie sicher, dass das Projekt nicht bereits über finanzielle Informationen verfügt. Stellen Sie beispielsweise sicher, dass mit dem Projekt keine geplanten oder tatsächlichen Kosten verbunden sind.
+   >Stellen Sie sicher, dass das Projekt noch über keine Finanzinformationen verfügt. Stellen Sie beispielsweise sicher, dass mit dem Projekt keine geplanten Kosten oder Istkosten verknüpft sind.
 
-1. Klicken Sie im linken Bereich auf **Projektdetails** und gehen Sie dann zum Bereich **Finanzen** .
-1. Klicken Sie im Feld **Währung** auf **Hinzufügen** und wählen Sie die Währung aus, die Sie als Standardwährung für das Projekt verwenden möchten. Alle Währungen, die Ihr Workfront-Administrator für Ihre Workfront-Instanz festgelegt hat, werden angezeigt.
+1. Klicken Sie **linken Bereich auf** Projektdetails“ und navigieren Sie dann zum Bereich **Finanzen**.
+1. Klicken Sie **** Feld **Währung** auf „Hinzufügen“ und wählen Sie die Währung aus, die Sie als Standardwährung für das Projekt verwenden möchten. Alle Währungen, die Ihr Workfront-Administrator für Ihre Workfront-Instanz festgelegt hat, werden angezeigt.
 
    ![](assets/currency-on-project-expanded-nwe.png)
 
-1. (Bedingt) Wenn Sie eine andere Währung als die für Ihr Workfront-System festgelegte Standardwährung auswählen, geben Sie den Wechselkurs für die gewählte Währung an, da dieser sich auf die Währung bezieht, die im System als Basiswährung festgelegt ist.
+1. (Bedingt) Wenn Sie eine andere Währung als die Standardwährung auswählen, die für Ihr Workfront-System festgelegt wurde, geben Sie den Kurs für die ausgewählte Währung an, da sie sich auf die Währung bezieht, die im System als Basiswährung festgelegt wurde.
 1. Klicken Sie auf **Änderungen speichern**.

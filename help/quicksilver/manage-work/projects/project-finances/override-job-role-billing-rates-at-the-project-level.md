@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: financials
-title: Außerkraftsetzen der Abrechnungsraten für Auftragsrollen auf Projektebene
-description: Als Projektmanager können Sie festlegen, welcher Abrechnungskurs für eine Auftragsrolle in einem bestimmten Projekt gilt. Diese Abrechnungsrate auf Projektebene überschreibt die Abrechnungsrate auf Systemebene für diese Arbeitsplatzrolle. Workfront verwendet zur Berechnung des Umsatzes die Abrechnungsrate auf Projektebene der Auftragsrolle, anstatt die Abrechnungsrate auf Systemebene zu verwenden.
+title: Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
+description: Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in einem bestimmten Projekt angeben. Dieser Abrechnungssatz auf Projektebene überschreibt den Abrechnungssatz auf Systemebene für dieses Aufgabengebiet. Workfront verwendet zur Berechnung des Umsatzes den Abrechnungssatz auf Projektebene des Aufgabengebiets, anstatt den Abrechnungssatz auf Systemebene zu verwenden.
 author: Lisa
 feature: Work Management
 exl-id: b7a33459-6929-4611-8546-06ca979e5dbe
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 ---
 
-# Außerkraftsetzen der Abrechnungsraten für Auftragsrollen auf Projektebene
+# Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
 
-Als Projektmanager können Sie festlegen, welcher Abrechnungskurs für eine Auftragsrolle in einem bestimmten Projekt gilt. Diese Abrechnungsrate auf Projektebene überschreibt die Abrechnungsrate auf Systemebene für diese Arbeitsplatzrolle. Workfront verwendet zur Berechnung des Umsatzes die Abrechnungsrate auf Projektebene der Auftragsrolle, anstatt die Abrechnungsrate auf Systemebene zu verwenden.
+Als Projekt-Manager können Sie den Abrechnungssatz für ein Aufgabengebiet in einem bestimmten Projekt angeben. Dieser Abrechnungssatz auf Projektebene überschreibt den Abrechnungssatz auf Systemebene für dieses Aufgabengebiet. Workfront verwendet zur Berechnung des Umsatzes den Abrechnungssatz auf Projektebene des Aufgabengebiets, anstatt den Abrechnungssatz auf Systemebene zu verwenden.
 
-In diesem Artikel wird beschrieben, wie Sie die Abrechnungsraten für Systemaufträge für ein Projekt überschreiben können.
+In diesem Artikel wird beschrieben, wie Sie die Abrechnungssätze für Systemaufgaben für ein Projekt überschreiben können.
 
-Allgemeine Informationen zum Außerkraftsetzen der Abrechnungssätze für Stellenausschreibungen für Projekte und zur Berechnung des Projektertrags finden Sie unter [Übersicht über die Außerbetriebnahme von Auftragsrollenabrechnungen und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
+Allgemeine Informationen zum Überschreiben von Abrechnungssätzen für Aufgabengebiete für Projekte und zur Berechnung des Projektumsatzes finden Sie unter [Übersicht über das Überschreiben von Abrechnungssätzen für Aufgabengebiete und die Berechnung des Umsatzes für ein Projekt](../../../manage-work/projects/project-finances/override-role-billing-rates-and-calculate-project-revenue.md).
 
-Weitere Informationen dazu, welche Auftragsrolle zur Berechnung des Umsatzes für das Projekt verwendet wird, finden Sie im Abschnitt &quot;Verstehen der Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen&quot;im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
+Weitere Informationen dazu, welches Aufgabengebiet zur Berechnung des Umsatzes für das Projekt verwendet wird, finden Sie im Abschnitt „Grundlagen zu Umsatzberechnungen für Aufgaben basierend auf Benutzer- und Rollenzuweisungen“ im Artikel [Übersicht über Abrechnung und Umsatz](../../../manage-work/projects/project-finances/billing-and-revenue-overview.md).
 
 >[!NOTE]
 >
->Im Falle des tatsächlichen Umsatzes sollten die Abrechnungsraten, die auf Stunden angewendet werden, die zu einem Abrechnungsdatensatz hinzugefügt werden, der als Abrechnung gekennzeichnet ist, nicht durch Überschreibungen des Abrechnungskurses beeinträchtigt werden, die nach Abrechnung des Abrechnungsdatensatzes auftreten.
+>Bei tatsächlichen Einnahmen sollten die Abrechnungssätze, die auf Stunden angewendet werden, die einem als „In Rechnung gestellt“ markierten Abrechnungs-Datensatz hinzugefügt werden, nicht von Abrechnungssatz-Überschreibungen beeinflusst werden, die nach der Abrechnung des Abrechnungs-Datensatzes auftreten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -38,8 +38,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -49,70 +49,70 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p>Administratorzugriff auf Stellenrollen</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p>Administratorzugriff für Aufgabengebiete</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Berechtigungen für das Projekt verwalten, das die Bearbeitung von Finanzdaten enthält </td> 
+   <td>Verwalten Sie Berechtigungen für das Projekt, das die Option Finanzdaten bearbeiten enthält. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Außerkraftsetzen der Abrechnungsraten für Auftragsrollen auf Projektebene
+## Aufgabengebiet-Abrechnungssätze auf Projektebene überschreiben
 
-Sie können die Abrechnungsrate einer Auftragsrolle in einem Projekt wie folgt überschreiben:
+Sie können den Abrechnungssatz eines Aufgabengebiets für ein Projekt wie folgt überschreiben:
 
-* Einmalig durch Auswahl einer neuen Rate für die Auftragsrolle.\
-  Der neue Satz wird für die gesamte Dauer des Projekts verwendet, um den Umsatz zu berechnen.
+* Einmal durch Auswahl eines neuen Tarifs für das Aufgabengebiet.\
+  Der neue Satz wird für die gesamte Laufzeit des Projekts zur Berechnung des Umsatzes verwendet.
 
-* Mehrmals durch Auswahl mehrerer neuer Raten für bestimmte Datumsbereiche.\
-  Für jeden angegebenen Datumsbereich kann eine andere Rate verwendet werden.
+* Mehrere Male, indem Sie mehrere neue Kurse für bestimmte Datumsbereiche auswählen.\
+  Für jeden angegebenen Datumsbereich kann ein anderer Satz verwendet werden.
 
 >[!TIP]
 >
->Sie können die Abrechnungsraten von Benutzern für ein Projekt nicht überschreiben.
+>Benutzer-Abrechnungssätze für ein Projekt können nicht überschrieben werden.
 
-So überschreiben Sie die Abrechnungsrate für ein Projekt:
+So überschreiben Sie einen Abrechnungssatz für ein Projekt:
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Abrechnungssätze außer Kraft setzen möchten.
-1. Klicken Sie im linken Bereich auf **Abrechnungsraten**. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
-1. Klicken Sie auf **Abrechnungsrate hinzufügen** > **Neuer Abrechnungskurs**.
+1. Wechseln Sie zu dem Projekt, für das Sie die Abrechnungssätze überschreiben möchten.
+1. Klicken **im linken** auf „Abrechnungssätze“. Möglicherweise müssen Sie zunächst auf &quot;**anzeigen“**.
+1. Klicken Sie **Abrechnungssatz hinzufügen** > **Neuer Abrechnungssatz**.
 
-   Das Feld &quot;Neue Abrechnungsrate&quot;wird geöffnet.
+   Das Feld „Neuer Abrechnungssatz“ wird geöffnet.
 
-1. Wählen Sie im Feld **Auftragsrolle** die Auftragsrolle aus, für die Sie die Abrechnungsrate ändern möchten.
+1. Wählen **im Feld** das Aufgabengebiet aus, für das Sie den Abrechnungssatz ändern möchten.
 
    ![](assets/override-billing-rate-on-project-nwe-350x310.png)
 
-   Das Feld **Standardabrechnungsrate** zeigt die Systemebene der Auftragsrolle an.
+   Das Feld **Standard-Abrechnungssatz** zeigt den Satz auf Systemebene für dieses Aufgabengebiet an.
 
-1. Geben Sie im Feld **Abrechnungsraten 1** die einmalige Außerkraftsetzung der Abrechnungsrate ein und klicken Sie dann auf **Speichern** , um die Abrechnungsrate ein Mal zu überschreiben.
+1. Geben Sie im Feld **Abrechnungssätze 1** die einmalige Überschreibung des Abrechnungssatzes ein und klicken Sie dann auf **Speichern**, um den Abrechnungssatz einmal zu überschreiben
 
    Oder
 
-   Klicken Sie auf **Rate hinzufügen** , um weitere Überschreibung der Abrechnungsrate hinzuzufügen.
+   Klicken Sie **Abrechnungssatz hinzufügen**, um weitere Abrechnungssatz-Überschreibungen hinzuzufügen.
 
-1. (Bedingt) Wenn Sie mehr als eine Überschreibung der Abrechnungsrate hinzufügen, geben Sie die folgenden Informationen an:
+1. (Bedingt) Wenn Sie mehr als eine Abrechnungssatz-Überschreibung hinzufügen, geben Sie die folgenden Informationen an:
 
-   * **Abrechnungsraten 1**: der Wert der Abrechnungsrate vom Anfang des Projekts bis zum ersten Datum der ersten Außerkraftsetzung. Dies ist normalerweise derselbe Betrag wie die **Standardrate**.
-   * **Startdatum**: Dies ist das Datum, an dem die Standardrate endet.
-   * **Enddatum**: Das Datum, an dem die neue Abrechnungsrate endet.
+   * **Abrechnungssätze 1**: Der Wert des Abrechnungssatzes vom Beginn des Projekts bis zum ersten Datum der ersten Überschreibung. Dies ist in der Regel der gleiche Betrag wie die **Standardrate**.
+   * **Startdatum**: Dies ist das Datum, an dem der Standardsatz endet.
+   * **Enddatum**: Das Datum, an dem die neue Überschreibung des Abrechnungssatzes endet.
 
-   ![new_billing_rate_with_Adjustment_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
+   ![new_billing_rate_with_adjust_dates.png](assets/new-billing-rate-with-adjustment-dates-350x266.png)
 
-1. Die Zeitzone für die ausgewählten Daten wird unten im Feld &quot;Neue Abrechnungsrate&quot;angezeigt. Dies ist die Zeitzone, die mit Ihrer Workfront-Instanz verknüpft ist, wie im Bereich &quot;Kundeninformationen&quot;unter &quot;Einrichtung&quot;angezeigt. Weitere Informationen finden Sie unter [Grundlegende Informationen für Ihr System konfigurieren](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
-1. Workfront wendet die Rollenrate für Aufträge überschreiben auf die Stunden an, die während der bei der Berechnung des Projektumsatzes festgelegten Zeiträume auftreten.
-1. Zwischen den Zeitrahmen von zwei Überschreibungsraten sollten keine Lücken bestehen. Das **Startdatum** einer Überschreibungsrate sollte der Tag sein, der unmittelbar auf das **Enddatum** des vorherigen Überschreibungsdatums folgt.
+1. Die Zeitzone für die von Ihnen ausgewählten Daten wird unten im Feld „Neuer Abrechnungssatz“ angezeigt. Dies ist die Zeitzone, die mit Ihrer Workfront-Instanz verknüpft ist, wie im Bereich Kundeninformationen von Setup gezeigt. Weitere Informationen finden Sie [Konfigurieren der grundlegenden Informationen für Ihr System](../../../administration-and-setup/get-started-wf-administration/configure-basic-info.md).
+1. Workfront wendet den Tarif für Aufgabengebiete außer Kraft setzen auf die Stunden an, die während der bei der Berechnung des Umsatzes für das Projekt angegebenen Zeitrahmen auftreten.
+1. Zwischen den Zeitrahmen zweier Außerkraftsetzungsraten sollte es keine Lücken geben. Das **Startdatum** einer Überschreibungsrate sollte der Tag sein, der unmittelbar auf das **Enddatum** des vorherigen Überschreibungsdatums folgt.
 
-1. Sie können weder ein Startdatum für die erste Überschreibungsrate noch ein Enddatum für die letzte Überschreibungsrate angeben.\
-   Es wird empfohlen, die Standardrate für die erste Überschreibungsrate zu verwenden.\
-   Workfront geht davon aus, dass die erste Überschreibungsrate für alle Stunden angewendet wird, deren Datum älter als das Enddatum der ersten Außerkraftsetzung ist, und dass die letzte Überschreibungsrate für alle Stunden mit einem Datum angewendet wird, das neuer als das Anfangsdatum der letzten Überschreibung ist.\
-   Wenn eine Stunde vor dem geplanten Startdatum des Projekts protokolliert wird, wird die allererste Abrechnungsrate verwendet.\
-   Wenn eine Stunde nach dem geplanten Abschlussdatum des Projekts protokolliert wird, wird die letzte Abrechnungsrate verwendet.
+1. Sie können weder ein Startdatum für den ersten Überschreibungssatz noch ein Enddatum für den letzten Überschreibungssatz angeben.\
+   Es wird empfohlen, den Standardsatz für die erste Überschreibungsrate zu verwenden.\
+   Workfront geht davon aus, dass die erste Überschreibungsrate auf alle Stunden angewendet wird, deren Datum älter als das Enddatum der ersten Überschreibungsrate ist, und dass die letzte Überschreibungsrate auf alle Stunden angewendet wird, deren Datum neuer als das Startdatum der letzten Überschreibung ist.\
+   Wird eine Stunde vor dem geplanten Startdatum des Projekts protokolliert, wird der allererste Abrechnungssatz verwendet.\
+   Wird eine Stunde nach dem geplanten Abschlussdatum des Projekts protokolliert, wird der letzte Abrechnungssatz verwendet.
 
 1. Klicken Sie auf **Speichern**.

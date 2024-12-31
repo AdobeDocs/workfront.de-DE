@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: task-information
-title: Aktualisierungstyp für Aufgaben
-description: Die Planungs- und tatsächlichen Kosten der Aufgaben und ihre Arbeitskosten werden durch den Kostentyp jeder Aufgabe bestimmt.
+title: Aufgabenkostentyp aktualisieren
+description: Die geplanten Kosten und Istkosten der Aufgaben sowie deren Lohnkosten werden durch den Kostentyp jeder Aufgabe bestimmt.
 author: Alina
 feature: Work Management
 exl-id: bc30ecab-7347-4dff-8e06-e8ea3f50d5b3
@@ -13,13 +13,13 @@ ht-degree: 3%
 
 ---
 
-# Aktualisierungstyp für Aufgaben
+# Aufgabenkostentyp aktualisieren
 
-Die Planungs- und tatsächlichen Kosten der Aufgaben und ihre Arbeitskosten werden durch den Kostentyp jeder Aufgabe bestimmt.
+Die geplanten Kosten und Istkosten der Aufgaben sowie deren Lohnkosten werden durch den Kostentyp jeder Aufgabe bestimmt.
 
-Sie können den Kostentyp für einzelne Aufgaben innerhalb des Projekts konfigurieren. Jeder Kostentyp wirkt sich auf die Werte für geplante Kosten und tatsächliche Kosten aus.
+Sie können den Kostentyp für einzelne Aufgaben innerhalb des Projekts konfigurieren. Jeder Kostentyp wirkt sich auf die Werte der geplanten Kosten und Istkosten aus.
 
-Informationen zu den Tracking-Kosten in Adobe Workfront finden Sie unter [Kosten-Tracking](../../../manage-work/projects/project-finances/track-costs.md).
+Informationen zur Kostennachverfolgung in Adobe Workfront finden Sie unter [Kosten nachverfolgen](../../../manage-work/projects/project-finances/track-costs.md).
 
 ## Zugriffsanforderungen
 
@@ -31,29 +31,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte, Aufgaben und Finanzdaten bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Projekte, Aufgaben und Finanzdaten bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen für ein Projekt</p> <p>Berechtigungen für eine Aufgabe verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Contribute oder höhere Berechtigungen für ein Projekt</p> <p>Verwalten der Berechtigungen für eine Aufgabe</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Konfigurieren des Kostentyps einer einzelnen Aufgabe
 
-1. Gehen Sie zu der Aufgabe, in der Sie den Kostentyp konfigurieren möchten.
-1. Klicken Sie im linken Bereich auf **Aufgabendetails** und erweitern Sie dann den Bereich **Finanzen** .
+1. Wechseln Sie zu der Aufgabe, für die Sie den Kostentyp konfigurieren möchten.
+1. Klicken Sie **linken** auf „Aufgabendetails“ und erweitern Sie dann den Bereich **Finanzen**.
 1. Doppelklicken Sie auf **Kostentyp** und wählen Sie den Kostentyp aus, den Sie auf die Aufgabe anwenden möchten.
 
    ![](assets/task-cost-type-options-in-tasks-details-nwe-350x233.png)
@@ -65,6 +65,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Benutzer pro Stunde
    * Stundensatz nach Funktion
 
-   Weitere Informationen zu den einzelnen Aufgabenkostentypen finden Sie unter [Kosten-Tracking](../../../manage-work/projects/project-finances/track-costs.md).
+   Weitere Informationen zu den einzelnen Vorgangstypen finden Sie unter [Kosten ](../../../manage-work/projects/project-finances/track-costs.md).
 
 1. Klicken Sie auf **Speichern** **Änderungen** **.**

@@ -15,8 +15,8 @@ ht-degree: 13%
 
 # Produktankündigungen
 
-Dieser Abschnitt enthält die folgenden Unterabschnitte, in denen bevorstehende Produktversionen, Ankündigungen und aktuelle Betaprogramme beschrieben werden.
+Dieser Abschnitt enthält die folgenden Unterabschnitte, die bevorstehende Produktversionen, Ankündigungen und aktuelle Beta-Programme beschreiben.
 
 * [Produktversionen](../product-announcements/product-releases/product-releases.md)
-* [Mitteilungen](../product-announcements/announcements/announcements.md)
+* [Ankündigungen](../product-announcements/announcements/announcements.md)
 * [Beta-Programme](../product-announcements/betas/betas.md)

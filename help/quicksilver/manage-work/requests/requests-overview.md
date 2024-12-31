@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: requests
 navigation-topic: projects-navigation-topic
 title: Anforde- rungen
-description: Informationen zum Erstellen von Anforderungen und Anforderungswarteschlangen finden Sie in den folgenden Abschnitten.
+description: Informationen zum Erstellen von Anfragen und Anfrage-Warteschlangen finden Sie in den folgenden Abschnitten.
 author: Lisa
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -19,5 +19,5 @@ ht-degree: 7%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Erstellen und Verwalten von Anforderungswarteschlangen](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
-* [Anforderungen erstellen](../../manage-work/requests/create-requests/create-requests.md)
+* [Anfrage-Warteschlangen erstellen und verwalten](../../manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
+* [Anfragen erstellen](../../manage-work/requests/create-requests/create-requests.md)

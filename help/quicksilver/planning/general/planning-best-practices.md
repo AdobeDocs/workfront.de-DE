@@ -1,292 +1,292 @@
 ---
 title: Best Practices für die Adobe Workfront-Planung
-description: Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren. Dies sind einige Best Practices, die wir für die ersten Schritte mit der Workfront-Planung empfehlen.
+description: Als Leiter von Marketing-Abläufen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus hinweg für alle Ihre Teams organisieren. Dies sind einige Best Practices, die wir für den Einstieg in die Workfront-Planung empfehlen.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+exl-id: 6e039b80-e3bf-412c-8c86-8f801f5861e3
+source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
 workflow-type: tm+mt
 source-wordcount: '3225'
 ht-degree: 0%
 
 ---
 
-
 <!--drafted because Kari Woolf will write something for Field Readiness instead, nothing for ExL, public-facing documentation-->
 
-# Best Practices für die Planung von Adobe Workfront
+# Best Practices für die Adobe Workfront-Planung
 
 <!-- add to TOC and mini TOC-->
 
 {{planning-important-intro}}
 
-Als Leiter von Marketingvorgängen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus für alle Ihre Teams organisieren.
+Als Leiter von Marketing-Abläufen können Sie mit Adobe Workfront Planning die Arbeit über den gesamten Marketing-Lebenszyklus hinweg für alle Ihre Teams organisieren.
 
-In diesem Artikel werden einige häufig gestellte Fragen und Best Practices beschrieben, die wir beim Einstieg in die Workfront-Planung empfehlen.
+In diesem Artikel werden einige häufig gestellte Fragen und Best Practices beschrieben, die wir für den Einstieg in Workfront Planning empfehlen.
 
-## Best Practices bei der Konfiguration
+## Best Practices für die Konfiguration
 
 ### Arbeitsbereiche
 
-Arbeitsbereiche sind zentrale Stellen, an denen Teams ihre Arbeit planen können. Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen.
+Arbeitsbereiche sind zentrale Orte, an denen Teams ihre Arbeit planen können. Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitszyklus des Teams darstellen.
 
-Im Folgenden finden Sie einige häufig gestellte Fragen zur Konfiguration der Workfront-Planung.
+Im Folgenden finden Sie einige häufig gestellte Fragen zur Konfiguration von Workfront Planning.
 
-#### Wie soll ich anfangen?
+#### Wie sollte ich beginnen?
 
-* ✅ Wenn Sie sich zum ersten Mal bei der Planung anmelden, folgen Sie unserem Onboarding-Prozess in der App, der den Wert der Planung deutlich vermittelt und Sie auf die effektive Navigation und Nutzung des Produkts hinweist. Dadurch wird sichergestellt, dass Sie die Funktionen des Workflows verstehen und Ihre Arbeit problemlos aufnehmen können.
-* ✅ Sie zunächst unsere vordefinierten Workspace-Vorlagen, um Ideen zu bestehenden ähnlichen Anwendungsfällen zu erhalten. Sie können die vordefinierten Datensatztypen und -felder, die in einer Vorlage enthalten sind, verwenden oder eigene hinzufügen.
-* ✅ Identifizieren Sie die wichtigsten Anwendungsfälle, die Sie mit der Workfront-Planung lösen möchten. Die meisten Organisationen möchten beispielsweise die Sichtbarkeit strategischer Aktivitäten verbessern, wozu auch der Aufbau eines besseren &quot;Kampagnenkalenders&quot;gehören kann. Für diesen Anwendungsfall möchten Sie zunächst einige Fragen beantworten:
+* ✅ Wenn Sie sich zum ersten Mal bei Planning anmelden, folgen Sie unserem In-App-Onboarding-Prozess, der den Wert von Planning klar vermittelt und Sie bei der Navigation und der effektiven Verwendung des Produkts führt. Dadurch wird sichergestellt, dass Sie die Funktionen von verstehen und leicht mit Ihrer Arbeit beginnen können.
+* ✅ Erkunden Sie zunächst unsere vordefinierten Arbeitsbereich-Vorlagen, um Ideen für vorhandene ähnliche Anwendungsfälle zu erhalten. Sie können die vordefinierten Datensatztypen und Felder in einer Vorlage verwenden oder eigene hinzufügen.
+* ✅ Identifizieren Sie die wichtigsten Anwendungsfälle, die Sie mit Workfront Planning lösen möchten. Die meisten Unternehmen möchten zum Beispiel den Überblick über strategische Aktivitäten verbessern, wozu auch die Erstellung eines besseren „Kampagnenkalenders“ gehören kann. Für diesen Anwendungsfall sollten Sie also zunächst einige Fragen beantworten:
 
-   * Wer bittet darum?
-   * Wie nennen sie die Dinge, die sie in den Kalender stellen wollen?
+   * Wer fragt danach?
+   * Wie nennen sie die Dinge, die sie in den Kalender aufnehmen wollen?
 Kampagnen? Taktik? Initiativen? Aktivitäten? Ereignisse?
-   * Welche Fragen wollen sie mit diesem Kalender beantworten?
-   * Haben wir für dieselbe Zielgruppe Kampagnen, die sich überschneiden?
+   * Welche Fragen möchten sie mit diesem Kalender beantworten?
+   * Gibt es überlappende Kampagnen für dieselbe Zielgruppe?
    * Wie hoch ist unser Budget für diese Kampagne, Taktik, Aktivität oder Veranstaltung?
 
-  Die Antworten auf diese Fragen würden bestimmen, was Sie in der Workfront-Planung erstellen müssen.
+  Die Antworten auf diese Fragen legen fest, was Sie in Workfront Planning erstellen müssen.
 
-  Beachten Sie außerdem, dass es möglicherweise andere Planer gibt, die derzeit nicht von Workfront verwendet werden. Diese Planer können aus Excel-Tabellen, Word-Dokumenten, PowerPoints usw. ausgeführt werden. Überlegen Sie, wie sie auf Ihre Informationen in der Workfront-Planung zugreifen können.
+  Beachten Sie außerdem, dass es möglicherweise andere Planende gibt, die derzeit keine Workfront-Benutzer sind. Diese Planer können mit Excel-Tabellen, Word-Dokumenten, PowerPoints usw. arbeiten. Überlegen Sie, wie sie in Workfront Planning auf Ihre Informationen zugreifen können.
 
-* ✅ Um die Workfront-Planung optimal zu nutzen, sollten Sie die Verwendung von Portfolios und Programmen im Workfront-Workflow durch eine andere übergeordnete Struktur in der Workfront-Planung ersetzen.
+* ✅ Um die Vorteile von Workfront Planning voll auszuschöpfen, sollten Sie in Workfront Planning die Verwendung von Portfolios und Programmen im Workfront Workflow durch eine andere Oberstufenstruktur ersetzen.
 
-  Heute stellen Workfront-Kunden ihre strategische Arbeit durch Portfolios und Programme dar, in einigen Fällen als Projekte unterschiedlicher Art. Mit der Einführung der Planung sollte all diese strategische Arbeit über benutzerdefinierte Datensatztypen in der Workfront-Planung abgewickelt werden, während sich Workfront auf die Ausführungsphase der Arbeiten konzentriert, die als Projekte und Aufgaben dargestellt werden.
+  Heute präsentieren Workfront-Kunden ihre strategische Arbeit durch Portfolios und Programme, in einigen Fällen als Projekte unterschiedlicher Art. Mit der Einführung von Planning sollte all diese strategische Arbeit durch benutzerdefinierte Datensatztypen in Workfront Planning abgewickelt werden, während Workfront sich auf die Ausführungsphase von Arbeit konzentriert, die als Projekte und Aufgaben dargestellt wird.
 
 
-#### Wann sollte ich einen neuen Arbeitsbereich erstellen oder einen vorhandenen Arbeitsbereich ändern?
+#### Wann sollte ich einen neuen Arbeitsbereich erstellen anstatt einen vorhandenen zu ändern?
 
-* ✅ Design für die geringste Anzahl von Arbeitsbereichen auf Unternehmensebene. Sie können Arbeitsbereiche für bestimmte betriebliche Organisationseinheiten erstellen, die der einzigartigen Funktionsweise jeder Einheit entsprechen.
+* ✅ Design für die geringste Anzahl von Arbeitsbereichen auf Unternehmensebene. Sie können Arbeitsbereiche für bestimmte operative Organisationseinheiten entsprechend der individuellen Funktionsweise der einzelnen Einheiten erstellen.
 
-  Die Informationen in einer einzigen Workspace, um sicherzustellen, dass die Beziehungen zwischen allen Daten einfach verwaltet werden können.
+  Informationen in einem einzigen Workspace zu haben, um sicherzustellen, dass Beziehungen zwischen allen Daten einfach verwaltet werden können.
 
-  Versuchen Sie beispielsweise, einen einzigen Arbeitsbereich für alle Bereiche von Marketing zu erstellen.
+  Versuchen Sie beispielsweise, einen einzigen Arbeitsbereich für die gesamte Marketing-Abteilung zu erstellen.
 
-  Es ist in Ordnung, einen neuen Arbeitsbereich für ein Team zu erstellen, das über eine völlig andere operative Struktur verfügt:
+  Es ist in Ordnung, einen neuen Arbeitsbereich für ein Team zu erstellen, das eine völlig andere Betriebsstruktur hat:
 
-  Beispielsweise sollte ein Arbeitsbereich für die **Produktentwicklung** sich von einem Arbeitsbereich für **Marketing** unterscheiden.
+  Beispielsweise sollte sich ein Arbeitsbereich **Produktentwicklung** von einem Arbeitsbereich **Marketing** unterscheiden.
 
 * ⛔ Erstellen Sie keine eindeutigen Arbeitsbereiche für jedes Team oder jeden Prozess innerhalb einer Organisation.
 
-  Die Marketing-Organisation sollte sich bemühen, nur einen Arbeitsbereich zu verwalten, um die Sichtbarkeit zu wahren und eine Datenaggregation auf globaler Planungs-Ebene zu ermöglichen.
+  Die Marketing-Organisation sollte sich bemühen, nur einen Arbeitsbereich zu verwalten, um die Sichtbarkeit zu erhalten und Daten auf globaler Planungsebene aggregieren zu können.
 
-  Vermeiden Sie die Erstellung ähnlicher oder doppelter Arbeitsbereiche für Teams, die ähnlichen Prozessen folgen (z. B. EMEA Marketing im Vergleich zu APAC Marketing), insbesondere dort, wo diese Teams Arbeiten durchführen können, die gemeinsame strategische Kampagnen durchführen.
+  Vermeiden Sie die Erstellung ähnlicher oder doppelter Arbeitsbereiche für Teams, die ähnlichen Prozessen folgen (z. B. EMEA-Marketing oder APAC-Marketing), insbesondere wenn diese Teams Arbeiten erledigen können, die den üblichen strategischen Kampagnen entsprechen.
 
 #### Wie sollte ich Workspace-Abschnitte verwenden?
 
-* ✅ Erstellen und beschriften Sie Abschnitte, damit Ihre Benutzer verstehen können, wie Sie Ihren Betriebslebenszyklus organisieren.
+* ✅ Erstellen und beschriften Sie die Abschnitte, um Ihren Benutzern zu zeigen, wie Sie Ihren Betriebslebenszyklus organisieren.
 
-  Sie können beispielsweise einen Abschnitt mit dem Namen **Core records** erstellen, in dem Sie Ihre Kampagnen, Taktiken und Lieferziele in Ihren Arbeitsbereich platzieren.
-* ✅ Gruppieren Sie die &quot;like&quot;-Datensatztypen zusammen.
+  Sie können beispielsweise einen Abschnitt mit dem Namen **Core-Datensätze** erstellen, in dem Sie Ihre Kampagnen, Taktiken und Ergebnisse in Ihrem Arbeitsbereich platzieren.
+* Datensatztypen „wie“ ✅ gruppieren.
 
-  Sie können beispielsweise einen Abschnitt mit dem Namen **Geografie** erstellen, der Datensatztypen wie Region, Land und Stadt enthält.
+  Sie können beispielsweise einen Abschnitt mit dem Namen &quot;**&quot; erstellen** der Datensatztypen wie „Region“, „Land“ und „Stadt“ enthält.
 
 ### Datensatztypen
 
-Datensatztypen sind die Bausteine einer Workfront Planning Workspace. Sie können definieren, wie Datensatztypen miteinander verbunden werden.
+Datensatztypen sind die Bausteine einer Workfront Planning-Workspace. Sie können festlegen, wie Datensatztypen miteinander verbunden werden.
 
 
-#### Wie soll ich in meinem Arbeitsbereich Datensatztypen definieren?
+#### Wie sollte ich Datensatztypen in meinem Arbeitsbereich definieren?
 
-* ✅ Sie sich etwas Zeit nehmen, um herauszufinden, welche Informationen Sie nachverfolgen müssen (welche Datensatztypen ich benötige) und wie diese Informationen verbunden werden müssen. Sprechen Sie mit den Interessengruppen, die den Arbeitsbereich verwenden werden, um alle ihre Anforderungen zu berücksichtigen. Sie können auch benutzerdefinierte Abschnitte mit verschiedenen Datensatztypen erstellen, um die Informationen auf sehr praktische Weise darzustellen.
+* ✅ Nehmen Sie sich etwas Zeit, um zu ermitteln, welche Informationen Sie verfolgen müssen (welche Datensatztypen ich benötige) und wie diese Informationen verbunden werden müssen. Sprechen Sie mit den Stakeholdern, die den Arbeitsbereich verwenden werden, um alle ihre Anforderungen zu berücksichtigen. Sie können auch benutzerdefinierte Abschnitte mit verschiedenen Datensatztypen erstellen, um die Informationen auf sehr benutzerfreundliche Weise darzustellen.
 
 
-* ⛔ Sie keine Datensatztypen für einen anderen Zeitraum duplizieren (erstellen Sie beispielsweise keine separaten Datensatztypen für **Kampagnen 2024** und **Kampagnen 2025**).
+* ⛔ Duplizieren Sie keine Datensatztypen für einen anderen Zeitraum (erstellen Sie beispielsweise keine separaten Datensatztypen für &quot;**2024“** &quot;**2025**).
 
-  Das Erstellen verschiedener Datensatztypen unterbricht den Datenfluss, wann immer Sie Daten über mehrere Jahre hinweg vergleichen möchten. Die Ansichten von heute sind pro Datensatztyp. Sobald das Jahr endet, werden in der Ansicht dieses Datensatztyps keine zukünftigen Elemente mehr angezeigt. Es empfiehlt sich, einen Datensatztyp für den Arbeitstyp zu verwenden und die Daten bei Bedarf mithilfe von Filtern zu segmentieren oder zu archivieren.
+  Wenn Sie verschiedene Datensatztypen erstellen, unterbricht dies den Datenfluss, wenn Sie Daten über mehrere Jahre hinweg vergleichen möchten. Die Ansichten heute sind pro Datensatztyp. Sobald das Jahr endet, zeigt die Ansicht dieses Datensatztyps nicht mehr die zukünftigen Elemente an. Es empfiehlt sich, für die Art der Arbeit einen einzigen Datensatztyp zu verwenden und die Daten mithilfe von Filtern zu segmentieren oder bei Bedarf zu archivieren.
 
-#### Wann sollte ich ein einzelnes oder Mehrfachauswahlfeld oder einen verknüpften Datensatztyp verwenden?
+#### Wann sollte ich ein einzelnes oder Mehrfachauswahlfeld gegenüber einem verknüpften Datensatztyp verwenden?
 
-* ✅ Fügen Sie einen neuen Datensatztyp hinzu, wenn das Objekt in Verbindung mit mehreren anderen Datensatztypen verwendet wird.
+* ✅ Einen neuen Datensatztyp hinzufügen, wenn das Objekt in Verbindung mit mehreren anderen Datensatztypen verwendet wird
 
-  Eine Kampagne kann beispielsweise über eine Verbindung zu mehreren Target-Zielgruppen verfügen und eine Tactik kann über eine Verbindung zu einer einzelnen Target-Zielgruppe verfügen. Daher sollten Campaign, Tactic und Audience keine Mehrfachauswahlfelder sein, sondern Datensatztypen.
+  Eine Kampagne kann beispielsweise eine Verbindung zu mehreren Target-Zielgruppen haben, und eine Taktik kann eine Verbindung zu einer einzelnen Target-Zielgruppe haben. Daher sollten Campaign, Taktik und Audience Datensatztypen und keine Felder mit Mehrfachauswahl sein.
 
-* ✅ Fügen Sie einen neuen Datensatztyp hinzu, wenn das Objekt zusätzliche Metadatenwerte speichern muss, die bei Suchen nützlich sein könnten
+* ✅ Fügen Sie einen neuen Datensatztyp hinzu, wenn das Objekt zusätzliche Metadatenwerte speichern muss, die bei der Suche nützlich sein können
 
-  Beispielsweise kann ein Kanaldatensatztyp wie **E-Mail** eine Liste unterstützender Lieferziele entweder als native Metadaten oder als Verbindung zu einem eigenständigen **Lieferziele** -Datensatztyp speichern.
-* ⛔ Fügen Sie keinen neuen Datensatztyp hinzu, wenn die von Ihnen gespeicherten Daten nur für einen einzelnen Datensatztyp relevant sind.
+  Beispielsweise kann ein Kanaldatensatztyp wie **E-Mail** eine Liste unterstützender Ergebnisse speichern, entweder als native Metadaten oder als Verbindung zu einem eigenständigen Datensatztyp **Ergebnisse**.
+* ⛔ Fügen Sie keinen neuen Datensatztyp hinzu, wenn die Daten, die Sie speichern, nur für einen einzelnen Datensatztyp relevant sind.
 
-  Beispielsweise kann ein Datensatz vom Typ **Kampagne** ein einzelnes Auswahlfeld namens **Kampagnengröße** aufweisen, das nur relevant ist, wenn er einer bestimmten Kampagne direkt zugeordnet ist.
+  Ein Datensatztyp **Kampagne** kann beispielsweise über ein Einzelauswahlfeld namens „Kampagnengröße **verfügen,** nur relevant ist, wenn er direkt mit einer bestimmten Kampagne verknüpft ist.
 
 #### Wie sollte ich meine Datensatztypen beschriften?
 
 * ✅ Erstellen und beschriften Sie Datensatztypen, die ein einzelnes Konstrukt oder Substantiv darstellen, z. B. **Kampagnen**.
 * ⛔ Erstellen Sie keinen Datensatztyp, der besser als Ansicht dargestellt wird.
 
-  Beispielsweise ist **Kalender** eine schlechte Wahl für einen Datensatztyp, da es sich nicht um den Datensatztyp selbst, sondern um eine Ansicht von Datensätzen handelt.
+  Beispielsweise ist **Kalender** eine schlechte Wahl für einen Datensatztyp, da es nicht der Datensatztyp selbst ist, sondern eine Ansicht von Datensätzen.
 
-### Feldverwaltung
+### Außendienstverwaltung
 
-Felder sind Attribute von Datensatztypen und werden in der Tabellenansicht als Spalten angezeigt. Sie können benutzerdefinierte Felder für Datensatztypen erstellen und diese dann mit Workfront-Planungsdatensätzen verknüpfen, um die Datensatzinformationen zu verbessern.
-
-
-#### Welches Feld wird als Primäres Feld empfohlen?
+Felder sind Attribute von Datensatztypen und werden in der Tabellenansicht als Spalten angezeigt. Sie können benutzerdefinierte Felder für Datensatztypen erstellen und diese Felder dann mit Workfront Planning-Datensätzen verknüpfen, um Datensatzinformationen zu verbessern.
 
 
-* ✅ Verwenden Sie eindeutige Primärfeldwerte, um diese Datensätze beim Herstellen von Verbindungen leichter zu finden und zu &quot;wählen&quot;. 
+#### Welches Feld sollte als Primäres Feld definiert werden?
 
-  Bei der Herstellung einer Verbindung durchsuchen die Benutzer die Werte im Primären Feld. Wenn sie nicht eindeutig sind, wissen die Benutzer nicht, welche ausgewählt werden soll. 
-* ⛔ Vermeiden Sie die Verwendung nicht eindeutiger Werte als primäres Feld, da dies für Benutzer, die beim Verwenden des Verbindungsauswahl-Menüs nach dem primären Feld suchen müssen, Verwirrung verursachen kann. 
+
+* ✅ Verwenden Sie keine eindeutigen primären Feldwerte, um das Auffinden und „Auswählen“ dieser Datensätze bei Verbindungen zu erleichtern. 
+
+  Beim Herstellen einer Verbindung suchen Benutzende nach den Werten im Primären Feld. Wenn die Werte nicht eindeutig sind, wissen die Benutzenden nicht, welche ausgewählt werden sollen. 
+* ⛔ Verwenden Sie nicht eindeutige Werte nicht als primäres Feld, da dies zu Verwirrung bei Benutzenden führen kann, die beim Verwenden des Menüs „Verbindungsauswahl“ im primären Feld suchen müssen. 
 
 #### Wie sollte ich Formeln verwenden?
 
-* ✅ Verwenden Sie Formelfeldtypen, um manuelle Eingaben zu reduzieren. Wenn Sie Informationen eingeben, die auf bereits in Ihrer Tabellenansicht vorhandenen Daten basieren, können Sie möglicherweise etwas Aufwand sparen, indem Sie diese Informationen automatisch mit Formeln berechnen.
+* ✅ Verwenden Sie Formelfeldtypen, um manuelle Eingaben zu reduzieren. Wenn Sie Informationen eingeben, die auf Daten basieren, die sich bereits in Ihrer Tabellenansicht befinden, können Sie möglicherweise etwas Aufwand sparen, indem Sie diese Informationen automatisch mithilfe von Formeln berechnen.
 
-#### Wie sollte ich anfangen, die Daten in meinem Arbeitsbereich zu verbinden?
+#### Wie sollte ich die Daten in meinem Arbeitsbereich verbinden?
 
-* ✅ Erstellen von Verbindungen ist eine der leistungsstärksten Funktionen der Workfront-Planung. Sie können Datensatztypen miteinander oder mit Datensatztypen über Objekttypen aus anderen Anwendungen wie Adobe Workfront (Verbindung zu Projekten, Portfolios, Programmen, Unternehmen und Gruppen) und mit Adobe Experience Manager Assets (Verbindung zu Assets und Ordnern) verbinden.
+* ✅ Das Erstellen von Verbindungen ist eine der leistungsfähigsten Funktionen von Workfront Planning. Sie können Datensatztypen miteinander oder Datensatztypen mit Objekttypen aus anderen Programmen wie Adobe Workfront (Verbindung zu Projekten, Portfolios, Programmen, Unternehmen und Gruppen) und mit Adobe Experience Manager Assets (Verbindung zu Assets und Ordnern) verbinden.
 
-  Durch das Verbinden von Objekt- und Datensatztypen erhalten Sie einen vollständigen Überblick darüber, wie alles in Ihrem Unternehmen verbunden ist.
+  Das Verbinden von Objekt- und Datensatztypen gibt Ihnen einen vollständigen Überblick darüber, wie alles in Ihrem Unternehmen verbunden ist.
 
-  Beispielsweise verfügen Sie über einen Datensatz vom Typ **Kampagne** und einen Datensatz vom Typ **Tactics** und können eine Verbindung zwischen diesen beiden Datensatztypen herstellen, um zu sehen, welche **Tactics** mit einer bestimmten **Kampagne** verknüpft sind.
+  Sie haben beispielsweise einen Datensatztyp **Kampagne** und einen Datensatztyp **Taktik** und Sie können eine Verbindung zwischen diesen beiden Datensatztypen erstellen, um zu sehen, welche **Taktiken** einer bestimmten **Kampagne** zugeordnet sind.
 
-  Nachdem Sie die Verbindung definiert haben, können alle Personen im Arbeitsbereich beginnen, Werte für **Kampagnen** hinzuzufügen, indem sie auf das Verbindungsfeld doppelklicken, wo ihnen eine Liste aller verfügbaren **Taktiken** angezeigt wird. So können Sie schnell ermitteln, welche Taktiken mit Ihren Kampagnen verknüpft werden müssen.
+  Nachdem Sie die Verbindung definiert haben, können alle Personen im Arbeitsbereich mit dem Hinzufügen von Werten für **Kampagnen** beginnen, indem sie in das Verbindungsfeld doppelklicken, wo eine Liste aller **Taktiken** verfügbar angezeigt wird. Auf diese Weise können Sie schnell herausfinden, welche Taktiken mit Ihren Kampagnen verknüpft werden müssen.
 
 #### Wie sollte ich Suchfelder verwenden?
 
-* ✅ Nachdem Sie die Verbindung zwischen Datensätzen oder Objekttypen hergestellt haben, können Sie einzelne Datensätze miteinander verbinden und Felder aus den verknüpften Datensätzen oder Objekttypen in einem Workfront Planning-Datensatz anzeigen. Sie reduzieren die Anzahl der Orte, an denen Sie dieselbe Information aktualisieren müssen, und stellen sicher, dass sie perfekt übereinstimmen.
+* ✅ Nachdem Sie die Verbindung zwischen Datensätzen oder Objekttypen hergestellt haben, können Sie einzelne Datensätze miteinander verbinden und Felder aus den verknüpften Datensatz- oder Objekttypen in einem Workfront Planning-Datensatz anzeigen. Sie werden die Anzahl der Stellen reduzieren, an denen Sie dieselbe Information aktualisieren müssen, und sicherstellen, dass sie perfekt übereinstimmen.
 
-  Wenn Sie beispielsweise eine Verbindung zwischen einem **Kampagnen** -Record-Typ und einem **Tactics** -Record-Typ haben, sehen Sie die primären Feldinformationen. Wenn Sie jedoch Lookup-Felder hinzufügen, können Sie zusätzliche Informationen aus diesem Record-Typ mitbringen, z. B. das **Launch-Datum** für diesen **Tactic**. Die Daten für diese Suchfelder werden automatisch ausgefüllt, nachdem die Datensätze hinzugefügt wurden.
+  Wenn Sie beispielsweise eine Verbindung zwischen einem Datensatztyp **Kampagne** und einem Datensatztyp **Taktik** haben, werden die primären Feldinformationen angezeigt. Wenn Sie jedoch Suchfelder hinzufügen, können Sie zusätzliche Informationen aus diesem Datensatztyp hinzufügen, z. B. das **Startdatum** für **Taktik**. Die Daten für diese Suchfelder werden automatisch ausgefüllt, nachdem die Datensätze hinzugefügt wurden.
 
 #### Welcher Feldtyp wird für URLs empfohlen? 
 
-* ✅ Verwenden Sie ein einzeiliges Textfeld, um einem Datensatz URL-Daten hinzuzufügen.
+* ✅ Verwenden Sie kein einzeiliges Textfeld, um einem Datensatz URL-Daten hinzuzufügen.
 
 ### Ansichten
 
-#### Wie entscheide ich, was eine Ansicht oder ein Datensatztyp sein soll?
+#### Wie entscheide ich zwischen einer Ansicht und einem Datensatztyp?
 
-* ✅ Erstellen Sie für Elemente, die ein einzelnes Konstrukt oder Substantiv darstellen (z. B. **Kampagnen**), einen Datensatztyp. 
+* ✅Erstellen Sie für Elemente, die ein einzelnes Konstrukt oder Substantiv darstellen (z **B** Kampagnen), einen Datensatztyp. 
 
 * ⛔ Erstellen Sie keinen Datensatztyp, der besser als Ansicht dargestellt wird.
 
-  Beispielsweise ist **Kalender** eine schlechte Wahl für einen Datensatztyp, da es sich nicht um den Datensatztyp selbst, sondern um eine Ansicht von Datensätzen handelt. 
+  Beispielsweise ist **Kalender** eine schlechte Wahl für einen Datensatztyp, da es nicht der Datensatztyp selbst ist, sondern eine Ansicht von Datensätzen. 
 
-#### Sollte ich die für mich nicht relevanten Felder ausblenden oder löschen?
+#### Sollte ich Felder ausblenden oder löschen, die für mich nicht relevant sind?
 
-* ✅ Sie die Spalte ausblenden, anstatt sie zu löschen, wenn diese Informationen für eine andere Person relevant sein könnten, die denselben Datensatztyp verwendet. Wenn Sie das Feld in einer bestimmten Tabellenansicht löschen, wird dieses Feld auch im Rest der Ansichten dieses Datensatzes gelöscht, ebenso wie überall, wo dieser Datensatztyp verknüpft ist.
+* ✅ Spalte ausblenden, anstatt sie zu löschen, wenn diese Informationen für eine andere Person mit demselben Datensatztyp relevant sein könnten. Wenn Sie das Feld in einer bestimmten Tabellenansicht löschen, wird dieses Feld auch in den übrigen Ansichten dieses Datensatzes sowie überall dort gelöscht, wo dieser Datensatztyp verknüpft ist.
 
-#### Wie sollte ich Filter und Gruppierungen in den Tabellen- und Timeline-Ansichten verwenden?
+#### Wie sollte ich Filter und Gruppierungen in den Tabellen- und Zeitleisten-Ansichten verwenden?
 
-* ✅ Verwenden Sie Ansichten mit Filtern und Gruppierungen, um eine Momentaufnahme dessen anzuzeigen, was Sie sehen müssen. Sie können die Daten filtern und gruppieren, um leichter nachvollziehbar zu machen, was geplant ist. Sie können die Datensätze nach Metadatenfeldern gruppieren.
+* ✅ Verwenden Sie Ansichten mit Filtern und Gruppierungen, um einen Schnappschuss dessen anzuzeigen, was Sie sehen müssen. Sie können die Daten filtern und gruppieren, um besser verstehen zu können, was geplant ist. Sie können die Datensätze nach Metadatenfeldern gruppieren.
 
-  Sie können beispielsweise eine Timeline-Ansicht für Ihren **Kampagnen**-Record-Typ haben, die Sie nach **Target-Zielgruppen** gruppieren und nach **Datum** filtern können, um nur das aktuelle Jahr anzuzeigen.
+  Sie können beispielsweise eine Zeitleisten -Ansicht für Ihren Datensatztyp **Kampagne** verwenden, die Sie nach „Zielgruppen **gruppieren** nach **Datum** filtern können, um nur das aktuelle Jahr anzuzeigen.
 
-#### Warum werden nicht alle Datensätze in meiner Timeline-Ansicht angezeigt?
+#### Warum sehe ich nicht alle Datensätze in meiner Zeitleisten-Ansicht?
 
-* ✅ Denken Sie daran, für Ihre Datensätze zwei Datumsfelder zu definieren. Sie können eine Timeline-Ansicht nur erstellen, wenn mindestens zwei Datumsfelder mit einem Datensatztyp verknüpft sind. Einige Datensätze werden möglicherweise nicht in der Timeline-Ansicht angezeigt, wenn entweder das Start- oder das Enddatum oder beide keine Werte aufweisen und das Startdatum nach dem Enddatum liegt.
+* ✅ Denken Sie daran, zwei Datumsfelder für Ihre Datensätze zu definieren. Sie können eine Zeitleisten -Ansicht nur erstellen, wenn Sie mindestens zwei Datumsfelder mit einem Datensatztyp verknüpft haben. Einige Datensätze werden möglicherweise nicht in der Zeitleisten -Ansicht angezeigt, wenn entweder das Start- oder Enddatum oder beide keine Werte aufweisen und das Startdatum nach dem Enddatum liegt.
 
-#### Wie sollte ich Einstellungen für die Timeline-Ansicht verwenden?
+#### Wie sollte ich die Einstellungen für die Zeitleisten-Ansicht verwenden?
 
-* ✅ Definieren Sie die Einstellungen Ihrer Timeline-Ansicht, z. B. den **Balkenstil** und die **Farbe**, um eine visuell anreicherendere Ansicht zu erhalten. Sie können den **Balkenstil** anpassen, indem Sie festlegen, ob eine Miniaturansicht mit einem aussagekräftigen Bild angezeigt werden soll, und zusätzliche Felder hinzufügen, die auf der Leiste angezeigt werden sollen (z. B. **Inhaber** oder **Status**).
+* ✅ Definieren Sie die Einstellungen Ihrer Zeitleistenansicht, z. B. den **Balkenstil** und die **Farbe**, um eine visuell ansprechendere Ansicht zu erhalten. Sie können den **Balkenstil** anpassen, indem Sie festlegen, ob eine Miniaturansicht mit einem aussagekräftigen Bild angezeigt werden soll, und weitere Felder hinzufügen, die auf der Leiste angezeigt werden sollen (z. B. **Inhaber** oder **Status**).
 
-  Standardmäßig wird nur das primäre Feld angezeigt. Sie können die Farbe der Leiste auch nach Feldwerten definieren (beispielsweise können Sie die Farben Ihrer Balken anpassen, indem Sie sie mit dem Feld Status abgleichen) oder durch die angewendete Gruppierung. Standardmäßig entspricht die Farbe der Farbe des Datensatztyps.
+  Standardmäßig wird nur das primäre Feld angezeigt. Sie können die Farbe Ihres Balkens auch nach Feldwerten (Sie können beispielsweise die Farben Ihrer Balken anpassen, indem Sie sie mit dem Feld Status abgleichen) oder nach der angewendeten Gruppierung definieren. Standardmäßig entspricht die Farbe der Farbe des Datensatztyps.
 
-  Nur Farben vom Typ Datensatz oder Felder mit Optionen, die Farben zugeordnet sind, können sich auf die Farben der Datensatzbalken in der Timeline auswirken.
+  Nur Farben des Datensatztyps oder Felder mit Optionen, die mit Farben verknüpft sind, können sich auf die Farben der Datensatzleisten in der Zeitleiste auswirken.
 
 ### Berechtigungen und Freigabe
 
 Verwenden Sie die Freigabefunktion, um Mitarbeitern die entsprechenden Berechtigungen für Ansichten und Arbeitsbereiche zu erteilen.
 
-#### Wie kann ich Berechtigungen für Arbeitsbereiche verwalten?
+#### Wie sollte ich Berechtigungen für Arbeitsbereiche verwalten?
 
-* ✅ Wenn Sie einen **Arbeitsbereich** erstellen, steht dieser nur Ihnen zur Verfügung. Außer den Systemadministratoren kann niemand ihn finden. Sobald der Arbeitsbereich definiert wurde und Sie bereit sind, Ihr Team für den Beginn der Zusammenarbeit zu gewinnen, müssen Sie ihn für sie freigeben und deren Berechtigungsstufe festlegen.
+* ✅ Wenn Sie einen **Arbeitsbereich** erstellen, steht er nur Ihnen zur Verfügung. Jeder andere außer den Systemadministratoren wird es nicht finden können. Sobald der Arbeitsbereich definiert ist und Sie bereit sind, Ihr Team für die Zusammenarbeit hinzuzuziehen, müssen Sie ihn für es freigeben und seine Berechtigungsstufe definieren.
 
-  Sie können aus den folgenden Berechtigungsstufen wählen:
+  Sie können aus den folgenden Berechtigungsebenen auswählen:
 
-   * **Verwalten**: Personen können den Arbeitsbereich bearbeiten, löschen und freigeben.
+   * **Verwalten**: Benutzer können den Arbeitsbereich bearbeiten, löschen und freigeben.
    * **Contribute**: Benutzer können Datensätze erstellen, bearbeiten und löschen.
-   * **Anzeigen**: Personen können Datensätze anzeigen.
+   * **Anzeigen**: Benutzer können Datensätze anzeigen.
 
-* ✅ viele Kunden denken, dass sie den meisten Benutzern **Arbeitsbereiche verwalten** -Berechtigungen gewähren würden, beschränken Sie jedoch die **Verwalten** -Berechtigungen auf eine ausgewählte Gruppe vertrauenswürdiger Personen, die einen Datensatztyp nicht versehentlich löschen oder anderweitig unnötige Datensatztypen und -felder erstellen. Sie können den Arbeitsbereich bearbeiten, freigeben und sogar löschen. Mit dieser Berechtigungsstufe erhalten sie vollen Administratorzugriff auf die Workspace.
+* ✅ Obwohl viele Kunden den Eindruck haben, dass sie Workspaces **Verwalten**-Berechtigungen für die meisten Benutzer erteilen würden, beschränken Sie die **Verwalten**-Berechtigungen auf eine ausgewählte Gruppe vertrauenswürdiger Personen, die keinen Datensatztyp versehentlich löschen oder anderweitig unnötige Datensatztypen und -felder erstellen. Sie können den Arbeitsbereich bearbeiten, freigeben und sogar löschen. Mit dieser Berechtigungsstufe erhalten sie vollständigen administrativen Zugriff auf die Workspace.
 
-  Eine Standardbenutzerlizenz ist erforderlich, damit jemand über Verwaltungsberechtigungen für einen Arbeitsbereich verfügen kann.
+  Für die Verwaltung von Berechtigungen für einen Arbeitsbereich ist eine Standardbenutzerlizenz erforderlich.
 
-* ✅ Sie Benutzern **Contribute** -Berechtigungen erteilen, wenn Sie möchten, dass sie nur Datensätze erstellen, bearbeiten und löschen können. Sie möchten jedoch nicht, dass sie die Struktur und das Schema des Arbeitsbereichs ändern. Mit **Contribute** -Berechtigungen können sie keine Datensatztypen erstellen oder die Felder der vorhandenen Datensatztypen ändern.
+* ✅ Erteilen Sie Benutzern **Contribute**-Berechtigungen, wenn Sie möchten, dass sie nur Datensätze erstellen, bearbeiten und löschen können, sie aber nicht die Struktur und das Schema des Arbeitsbereichs ändern sollen. Mit **Contribute**-Berechtigungen können sie keine Datensatztypen erstellen oder die Felder für die vorhandenen Datensatztypen ändern.
 
-  Eine Standardbenutzerlizenz ist erforderlich, damit jemand **Contribute** -Berechtigungen für einen Arbeitsbereich besitzt.
+  Eine Standardbenutzerlizenz ist erforderlich, damit eine Person über **Contribute**-Berechtigungen für einen Arbeitsbereich verfügt.
 
-* ✅ Erteilen Sie Benutzern **Anzeigeberechtigungen**, wenn Sie möchten, dass sie nur Datensätze anzeigen können.
-
-  >[!NOTE]
-  >
-  >Derzeit verfügen wir nicht über spezifische Berechtigungen für Datensatztypen oder -datensätze. Das bedeutet, dass alle Datensätze in einem der Datensatztypen sichtbar sind, wenn Sie jemandem **Ansicht** Zugriff auf den Arbeitsbereich gewähren.
-
-#### Wie kann ich Berechtigungen für Ansichten verwalten?
-
-* ✅ beschränken Sie die **Verwalten** -Berechtigungen auf Personen, die Sie bearbeiten, löschen und die Ansicht freigeben können möchten. Dies bedeutet, dass sie die Filter ändern, Felder gruppieren oder eine Konfiguration der Ansicht vornehmen können. Diese Änderungen wirken sich auf die Hauptkonfiguration der Ansicht für alle anderen Benutzer aus, die auch die Ansicht verwenden.
-
-  Eine Standardbenutzerlizenz ist erforderlich, damit jemand über Verwaltungsberechtigungen für eine Ansicht verfügen kann.
-
-* ✅ Erteilen Sie Benutzern **Zugriff auf Ansicht**, um die Ansicht anwenden zu können. Sie können einige Filter oder Gruppierungen und Sortierungen ändern. Diese Änderungen sind jedoch nur temporär. Die Änderungen werden nicht für alle anderen Benutzer gespeichert, die auf die Ansicht zugreifen. Diese Änderungen wirken sich nicht auf die Hauptkonfiguration der Ansicht für alle anderen aus, die auch die Ansicht verwenden.  Ihre Änderungen sind nur für den Benutzer sichtbar, der die geänderten Einstellungen anwendet. Nach dem Aktualisieren des Bildschirms werden die Änderungen auf den Standardwert zurückgesetzt.
-
-* ✅ Sie &quot;**Jeder im Arbeitsbereich&quot;kann** -Berechtigungen anzeigen, wenn jeder, der den Arbeitsbereich anzeigen kann, die Datensätze und deren Felder in dieser spezifischen Ansicht sehen soll. Auf diese Weise müssen Sie niemanden manuell zum Freigabeberechtigungsfeld für die Ansicht hinzufügen.
+* ✅ Erteilen Sie Benutzern **Anzeigen**-Berechtigungen, wenn sie nur Datensätze anzeigen sollen.
 
   >[!NOTE]
   >
-  >Wenn eine Ansicht nicht freigegeben wurde und Sie einen Link mit anderen Benutzern teilen, können sie die Datensätze in der **standardmäßigen Tabellenansicht** sehen. Wenn sie über eine Standard-Workfront-Lizenz verfügen, können sie ihre eigene Ansicht erstellen.
+  >Derzeit haben wir keine spezifischen Berechtigungen für Datensatztypen oder Datensätze. Dies bedeutet, dass alle Datensätze in einem der Datensatztypen sichtbar sind, wenn Sie jemandem (**)** Zugriff auf den Arbeitsbereich gewähren.
+
+#### Wie sollte ich Berechtigungen für Ansichten verwalten?
+
+* ✅ Beschränken Sie **Verwalten** auf Personen, die die Ansicht bearbeiten, löschen und freigeben können sollen. Das bedeutet, dass sie die Filter, Gruppierungsfelder oder eine Konfiguration der Ansicht ändern können. Diese Änderungen wirken sich auf die Hauptkonfiguration der Ansicht für alle anderen aus, die ebenfalls die Ansicht verwenden.
+
+  Für die Verwaltung von Berechtigungen für eine Ansicht ist eine Standardbenutzerlizenz erforderlich.
+
+* ✅ Erteilen Sie Benutzern **Ansicht** Zugriff, um die Ansicht anwenden zu können. Sie können einige Filter oder Gruppierungen und die Sortierung ändern, diese Änderungen sind jedoch nur temporär. Die Änderungen werden nicht für alle anderen Benutzer gespeichert, die auf die Ansicht zugreifen. Diese Änderungen wirken sich nicht auf die Hauptkonfiguration der Ansicht für alle anderen aus, die ebenfalls die Ansicht verwenden.  Ihre Änderungen sind nur für den Benutzer sichtbar, der die geänderten Einstellungen anwendet. Nach Aktualisierung des Bildschirms werden die Änderungen auf den Standardwert zurückgesetzt.
+
+* ✅ Erteilen Sie **Jeder im Arbeitsbereich kann anzeigen** Berechtigungen, wenn jeder, der den Arbeitsbereich anzeigen kann, die Datensätze und deren Felder in dieser spezifischen Ansicht sehen soll. Auf diese Weise müssen Sie für die Ansicht niemanden manuell zum Feld für die Freigabeberechtigung hinzufügen.
+
+  >[!NOTE]
+  >
+  >Wenn eine Ansicht nicht freigegeben wurde und Sie einen Link dazu für andere Personen freigeben, können diese die Datensätze in der &quot;**Tabellenansicht“**. Wenn sie über eine Standard-Workfront-Lizenz verfügen, können sie ihre eigene Ansicht erstellen.
 
 
-#### Wie unterscheidet sich die **Workspace-Freigabe** von der **Freigabe der Ansicht**?
+#### Wie unterscheidet sich die Freigabe von **Workspace** der **Ansichtsfreigabe**?
 
-* **Workspace-Freigabe** definiert den Zugriff von Personen auf den Arbeitsbereich, seine Datensatztypen, Datensätze und deren Felder.
+* **Workspace-Freigabe** Definiert den Zugriff von Personen auf den Arbeitsbereich, seine Datensatztypen, Datensätze und deren Felder.
 
-* **Freigabe anzeigen** definiert, ob der Benutzer die von Ihnen erstellte Ansicht sehen kann und ob er den Filter, die Gruppierungsfelder oder eine andere Konfiguration der Ansicht ändern kann. Die Anzeige der in der Ansicht angezeigten Datensätze wird durch die Freigabe in Workspace und nicht durch die Freigabe in der Ansicht gesteuert.
+* **Ansichtsfreigabe** legt fest, ob der/die Benutzende die von Ihnen erstellte Ansicht sehen kann und ob er/sie den Filter, die Gruppierungsfelder oder eine andere Konfiguration der Ansicht ändern kann. Die Sichtbarkeit der in der Ansicht angezeigten Datensätze wird durch die Freigabe von Workspace und nicht durch die Freigabe von Ansichten gesteuert.
 
-#### Wie wirken sich die Workfront-Lizenztypen auf die Planungsberechtigungen für Workfront aus?
+#### Wie wirken sich Workfront-Lizenztypen auf Workfront Planning-Berechtigungen aus?
 
-* Für **Workspace-Freigabe**: Leichte und Contribute-Lizenzanwender können nur Anzeigezugriff auf einen Arbeitsbereich erhalten. Um jemandem Contribute oder Verwalten Berechtigungen für einen Arbeitsbereich zu erteilen, muss er über eine Standardlizenz verfügen.
+* Für die **Freigabe von Workspace**: Benutzende mit Light- und Contribute-Lizenzen können nur Ansichtszugriff auf einen Arbeitsbereich erhalten. Um jemandem die Berechtigung &quot;Contribute&quot; oder „Verwalten“ für einen Arbeitsbereich zu erteilen, muss er über eine Standardlizenz verfügen.
 
-* **Freigabe von Ansichten**: Standardlizenzbenutzer, die über Verwaltungsberechtigungen für einen Arbeitsbereich verfügen, können eine Ansicht erstellen. Benutzer von Light- und Contribute-Lizenzen können nur die Ansichten verwenden, die Standardbenutzer erstellt und für sie freigegeben haben. Andernfalls können Benutzer die **standardmäßige Tabellenansicht** sehen, wenn nichts freigegeben wurde.
+* **Ansichtsfreigabe**: Benutzer von Standardlizenzen, die Verwaltungsberechtigungen für einen Arbeitsbereich haben, können eine Ansicht erstellen. Benutzende mit Light- und Contribute-Lizenz können nur die Ansichten nutzen, die Standardbenutzende erstellt und für sie freigegeben haben. Andernfalls können Benutzende, wenn nichts freigegeben wurde, die &quot;**Tabellenansicht“**.
 
 
-#### Was sollte ich tun, wenn sich ein Workspace-Eigentümer ändert?
+#### Was sollte ich tun, wenn ein Workspace-Besitzer wechselt?
 
-* Workfront legt den Ersteller des Arbeitsbereichs als Eigentümer fest. Funktionell weist der Eigentümer jedoch dieselben Berechtigungen wie alle Benutzer mit Verwaltungsberechtigungen auf.
-* Wenn der Eigentümer deaktiviert ist, können andere Mitglieder seine Arbeit im Arbeitsbereich ohne Unterbrechungen fortsetzen.
-* Systemadministratoren haben Zugriff auf jeden beliebigen Arbeitsbereich. Wenn der Eigentümer also die einzige Person mit Verwaltungsberechtigungen war, können Administratoren eine weitere Person hinzufügen und ihnen Berechtigungen zum Verwalten des Arbeitsbereichs erteilen.
+* Workfront legt den Workspace-Ersteller als Eigentümer fest, der Eigentümer hat jedoch funktionell dieselben Berechtigungen wie jeder andere Benutzer mit der Berechtigung „Verwalten“.
+* Wenn der Eigentümer deaktiviert ist, können andere Mitglieder ihre Arbeit im Arbeitsbereich ohne Unterbrechung fortsetzen.
+* Systemadministratoren haben Zugriff auf jeden Arbeitsbereich. Wenn also der Eigentümer die einzige Person mit der Berechtigung „Verwalten“ ist, können Administratoren eine weitere Person hinzufügen und ihr die Berechtigung „Verwalten“ für die Verwaltung des Arbeitsbereichs erteilen.
 
-### Übermitteln von Anforderungen in der Workfront-Planung
+### Übermitteln von Anfragen in Workfront Planning
 
-Sie können für jeden Datensatztyp ein Anfrageformular erstellen, wenn Sie möchten, dass Benutzer Datensätze außerhalb der Seite eines Datensatztyps hinzufügen. Durch das Senden des Formulars wird dem Datensatztyp ein neuer Datensatz hinzugefügt.
+Sie können für jeden Datensatztyp ein Anfrageformular erstellen, wenn Benutzer Datensätze außerhalb der Seite eines Datensatztyps hinzufügen sollen. Durch Senden des Formulars wird dem Datensatztyp ein neuer Datensatz hinzugefügt.
 
 #### Wann sollte ich mit der Erstellung eines Anfrageformulars für einen Datensatztyp beginnen?
 
 * ✅ Sie sollten sicherstellen, dass die Struktur des Datensatztyps zuerst eingerichtet wird, indem Sie die erforderlichen Felder zur Tabelle hinzufügen. Diese Felder beschreiben Ihre Datensätze und stehen im Formular-Builder zur Verfügung.
 
-  Idealerweise sollten Sie das Anfrageformular oder das Annahmeformular nach Fertigstellung der Datensatztypstruktur erstellen, um zu vermeiden, dass wichtige Felder fehlen.
+  Idealerweise sollten Sie das Anfrage- oder Aufnahmeformular erstellen, nachdem Ihre Datensatztypstruktur finalisiert wurde, um zu vermeiden, dass Schlüsselfelder fehlen.
 
-#### Wer kann Anforderungsformulare erstellen?
+#### Wer kann Anfrageformulare erstellen?
 
-* ✅ Benutzer mit Zugriff auf den Arbeitsbereich verwalten können ein Anforderungsformular erstellen oder bearbeiten. Stellen Sie sicher, dass die Berechtigungen des Benutzers ordnungsgemäß zugewiesen sind, um diese Funktion zu ermöglichen.
+* ✅ Jeder Benutzer mit der Zugriffsberechtigung Verwalten auf den Arbeitsbereich kann ein Anfrageformular erstellen oder bearbeiten. Stellen Sie sicher, dass die Benutzerberechtigungen ordnungsgemäß zugewiesen sind, um diese Funktion zuzulassen.
 
-#### Wie kann ich ein Anfrageformular für einen Datensatztyp erstellen oder bearbeiten?
+#### Wie sollte ich ein Anfrageformular für einen Datensatztyp erstellen oder bearbeiten?
 
-* ✅ Benutzer mit Zugriff auf den Arbeitsbereich verwalten können die im Artikel [Erstellen und Verwalten eines Anfrageformulars in der Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md) beschriebenen Schritte ausführen.
+* ✅ Jeder Benutzer mit der Rolle „Zugriff auf den Arbeitsbereich verwalten“ kann die Schritte ausführen, die im Artikel [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md) beschrieben werden.
 
 
-#### Wer kann mithilfe des Anfrageformulars neue Datensätze senden?
+#### Wer kann neue Datensätze mithilfe des Anfrageformulars einreichen?
 
-* ✅ Sendeberechtigungen hängen von den Einstellungen ab, die Sie für jedes Formular konfigurieren.
+* ✅ Übermittlungsberechtigungen hängen von den Einstellungen ab, die Sie für jedes Formular konfigurieren.
 
-  Im Formular-Builder können Sie nach der Veröffentlichung des Formulars Berechtigungen verwalten, um zu steuern, wer Anforderungen senden kann.
+  Im Formular-Builder können Sie nach der Veröffentlichung des Formulars Berechtigungen verwalten, um zu steuern, wer Anfragen senden kann.
 
   Sie können aus den folgenden drei Freigabeoptionen wählen:
 
-   * **Jeder mit Ansicht oder höherem Zugriff auf den Arbeitsbereich:** Ermöglicht allen Benutzern mit View- oder höheren Berechtigungen für den Arbeitsbereich das Senden einer Anfrage, mit der ein Datensatz erstellt wird.
-   * **Jeder mit Beitrag oder höherem Zugriff auf den Arbeitsbereich**: Beschränkt Übermittlungen für Benutzer mit Contribute oder höheren Berechtigungen für den Arbeitsbereich.
-   * **Jeder mit dem Link:** Ermöglicht jedem, der über den Formular-Link verfügt, eine Anforderung zu senden.
-   * **Ablaufdatum:** Stellen Sie sicher, dass Sie ein Ablaufdatum für den öffentlichen Link festgelegt haben, um die Sicherheit zu erhöhen.
+   * **Jeder mit Ansicht oder Zugriff auf den Arbeitsbereich:** Alle Benutzer mit Ansicht oder höheren Berechtigungen für den Arbeitsbereich können eine Anfrage senden, die einen Datensatz erstellt.
+   * **Jeder, der Zugriff auf den Arbeitsbereich hat oder darüber**: Schränkt die Übermittlung auf Benutzende mit Contribute- oder höheren Berechtigungen für den Arbeitsbereich ein.
+   * **Jeder mit dem Link:** Ermöglicht jedem, der den Formular-Link hat, eine Anfrage zu senden.
+   * **Ablaufdatum:** Stellen Sie sicher, dass Sie ein Ablaufdatum für den öffentlichen Link festlegen, um die Sicherheit zu erhöhen.
 
-### Best Practices für die Verwaltung von Anforderungsformularen
+### Best Practices für die Verwaltung von Anfrageformularen
 
-Im Folgenden finden Sie Empfehlungen für die Verwaltung von Anforderungsformularen:
+Im Folgenden finden Sie Empfehlungen für die Verwaltung von Anfrageformularen:
 
-* Vorausplanen: Definieren Sie vor dem Erstellen des Formulars klar, welche Informationen von Anforderern benötigt oder erforderlich sind, um übermäßige Revisionen später zu vermeiden.
-* Verwenden Sie klare Beschriftungen: Stellen Sie sicher, dass Feldbeschriftungen und Beschreibungen für alle Benutzer klar und verständlich sind.
-* Testformulare: Bevor Sie neue Formulare für eine größere Zielgruppe bereitstellen, testen Sie sie mithilfe der Formularverknüpfungs- und der Formularvorschau-Option, um sicherzustellen, dass alle Felder und Logiken erwartungsgemäß funktionieren.
-* Formulare aktualisieren: Überprüfen Sie regelmäßig Formulare und aktualisieren Sie sie, um Änderungen an der Datensatztypstruktur oder den operativen Prozessen anzupassen.
+* Planen Sie im Voraus: Definieren Sie klar, welche Informationen von den Anfragenden benötigt oder benötigt werden, bevor Sie das Formular erstellen, um zu vermeiden, dass später übermäßige Revisionen vorgenommen werden.
+* Klare Beschriftungen verwenden: Stellen Sie sicher, dass Feldbeschriftungen und Beschreibungen für alle Benutzer klar und verständlich sind.
+* Testen von Formularen: Testen Sie Formulare vor dem Rollout neuer Formulare für eine breitere Zielgruppe mithilfe der Option Formular-Link und Formularvorschau , um sicherzustellen, dass alle Felder und Logiken wie erwartet funktionieren.
+* Formulare auf dem neuesten Stand halten: Formulare werden regelmäßig überprüft und aktualisiert, damit sie etwaigen Änderungen in der Struktur des Datensatztyps oder in betrieblichen Prozessen entsprechen.
 
 <!-- this is hidden, per Andrea:  
 

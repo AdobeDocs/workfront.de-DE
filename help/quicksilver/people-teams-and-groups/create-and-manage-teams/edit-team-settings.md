@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: create-and-manage-teams
-title: Bearbeiten von Team-Einstellungen
-description: Workfront-Administratoren und Benutzer mit einer Plan- oder Arbeitslizenz können die Team-Einstellungen bearbeiten.
+title: Teameinstellungen bearbeiten
+description: Workfront-Admins und Benutzende mit einer Plan- oder Arbeitslizenz können Teameinstellungen bearbeiten.
 author: Lisa
 feature: People Teams and Groups
 exl-id: b6761188-8630-446e-bc70-70fe272881ce
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Team-Einstellungen bearbeiten
+# Teameinstellungen bearbeiten
 
-Als [!DNL Adobe Workfront] Administrator oder Benutzer mit der Lizenz [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Arbeit] können Sie [!UICONTROL Teameinstellungen] bearbeiten.
+Als [!DNL Adobe Workfront] oder Benutzer mit einer [!UICONTROL Standard]-, [!UICONTROL Plan]- oder [!UICONTROL Work]-Lizenz können Sie [!UICONTROL Team-Einstellungen] bearbeiten.
 
-Sie können Benutzer zu einem Team hinzufügen, die Vorlage für das Teamlayout festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
+Sie können Benutzer zu einem Team hinzufügen, die Team-Layout-Vorlage festlegen und festlegen, wie der Status aufgezeichnet wird, wenn Arbeitselemente von einem Team abgeschlossen werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -43,48 +43,48 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Team-Einstellungen bearbeiten
+## Teameinstellungen bearbeiten
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder aus dem Dropdown-Menü ein neues Team aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![](assets/more-icon.png) und wählen Sie dann **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie auf die ![](assets/more-icon.png) **[!UICONTROL Mehr]** und wählen Sie dann **[!UICONTROL Bearbeiten]** aus.
 
-   Nur Teammitglieder mit einer [!UICONTROL Standard]-, [!UICONTROL Plan]- oder [!UICONTROL Work]-Lizenz sehen diese Option.
+   Nur Team-Mitglieder mit entweder einer [!UICONTROL Standard], [!UICONTROL Plan] oder [!UICONTROL Work]-Lizenz sehen diese Option.
 
-   Wenn Sie die Option [!UICONTROL Bearbeiten] haben sollten, sie jedoch nicht sehen, bitten Sie Ihren Workfront-Administrator, sicherzustellen, dass [!UICONTROL Team Settings] in der Layoutvorlage für [!UICONTROL Scrum Team], [!UICONTROL Kanban Team] oder [!UICONTROL Waterfall Team] sichtbar ist.
+   Wenn Sie die Option [!UICONTROL Bearbeiten] haben sollten, sie jedoch nicht sehen, bitten Sie Ihren Workfront-Administrator sicherzustellen, dass [!UICONTROL Team-Einstellungen] in der Layout-Vorlage für [!UICONTROL Scrum-Team], [!UICONTROL Kanban-Team] oder [!UICONTROL Waterfall-Team] angezeigt wird.
 
    ![](assets/edit-team-settings.png)
 
-1. In den Teameinstellungen können Sie die folgenden Änderungen vornehmen:
+1. In Team-Einstellungen können Sie die folgenden Arten von Änderungen vornehmen:
 
-   * Ändern des Teamnamens
-   * Deaktivieren des Teams
+   * Team-Namen ändern
+   * Team deaktivieren
    * Team mit einer Gruppe verknüpfen
 
      >[!NOTE]
      >
-     >Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied zu sein. Gruppenadministratoren können über das Hauptmenü zum Bereich Teams wechseln und auf den Pfeil ![Team-Symbol wechseln](assets/switch-team-icon.png) [!UICONTROL Teams wechseln] klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.
+     >Wenn ein Team einer Gruppe oder Untergruppe zugewiesen wird, können alle Gruppenadministratoren dieser Gruppe oder Untergruppe das Team verwalten, ohne Mitglied sein zu müssen. Gruppenadministratoren können im Hauptmenü zum Bereich „Teams“ wechseln und auf den Pfeil [!UICONTROL Teams wechseln] (![Symbol „Team wechseln](assets/switch-team-icon.png) klicken, um alle Teams aufzulisten, die den von ihnen verwalteten Gruppen zugewiesen sind.
 
-     Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol &quot;![](assets/info-icon.png)&quot; klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.
+     Sie können sicherstellen, dass Sie die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol ![](assets/info-icon.png) neben dem Team klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.
 
-   * Teaminhaber bestimmen
-   * Team-Mitglieder hinzufügen und entfernen
-   * Beschreibung des Teams hinzufügen
-   * Anwenden einer Layoutvorlage auf das Team
+   * Teambesitzer bestimmen
+   * Teammitglieder hinzufügen und entfernen
+   * Fügen Sie eine Beschreibung des Teams hinzu
+   * Anwenden einer Layout-Vorlage auf das Team
 
-     Weitere Informationen zum Anwenden einer benutzerdefinierten Layoutvorlage auf ein Team finden Sie im Abschnitt &quot;Anwenden einer benutzerdefinierten Vorlage auf ein Team&quot;unter Ändern der Bereiche [!UICONTROL My Work] und [!UICONTROL Work Requests] mit Layout-Vorlagen.
+     Weitere Informationen zum Anwenden einer benutzerdefinierten Layout-Vorlage auf ein Team finden Sie im Abschnitt „Anwenden einer benutzerdefinierten Vorlage auf ein Team“ in den Bereichen [!UICONTROL Meine Arbeit] und [!UICONTROL Arbeitsanfragen] mit Layout-Vorlagen.
 
-   * Entscheiden Sie, ob dieses Team ein agiles Team ist, indem Sie die Option **[!UICONTROL Dies ist ein Agile Team]** auswählen.
+   * Entscheiden Sie, ob dieses Team ein agiles Team ist, indem Sie die Option **[!UICONTROL Dies ist ein agiles Team]** auswählen.
 
-     Weitere Informationen zu agilen Teams und zum Verwalten der Arbeit in einem agilen Team finden Sie unter [Erstellen eines agilen Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
+     Weitere Informationen zu agilen Teams und zur Verwaltung der Arbeit in einem agilen Team finden Sie unter [Erstellen eines agilen Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md).
 
-   * Ändern Sie die Schaltfläche [!UICONTROL Bearbeiten] in eine Schaltfläche [!UICONTROL Starten] . Weitere Informationen zum Konfigurieren der Schaltfläche [!UICONTROL Starten] finden Sie unter [Ersetzen der Schaltfläche &quot;Work On It&quot;durch eine Schaltfläche [!UICONTROL Starten]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
+   * Ändern Sie die Schaltfläche [!UICONTROL Bearbeiten] in eine Schaltfläche [!UICONTROL Starten]. Weitere Informationen zum Konfigurieren der Schaltfläche [!UICONTROL Starten] finden Sie unter [Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche [!UICONTROL Starten]](../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
    * Passen Sie die Schaltfläche **[!UICONTROL Fertig]** an. Weitere Informationen zum Anpassen der Schaltfläche [!UICONTROL Fertig] finden Sie unter:
 
       * [Konfigurieren der Schaltfläche [!UICONTROL Fertig] für Aufgaben](../../people-teams-and-groups/create-and-manage-teams/configure-the-done-button-for-tasks.md)

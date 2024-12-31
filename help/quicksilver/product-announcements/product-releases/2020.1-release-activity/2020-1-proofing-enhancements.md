@@ -1,8 +1,8 @@
 ---
 content-type: release-notes
 navigation-topic: 2020-1-release-activity
-title: 2020.1 - Verbesserungen bei der Prüfung
-description: Auf dieser Seite werden alle Verbesserungen beim Testversand mit Version 2020.1 beschrieben. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
+title: Verbesserungen bei der Korrekturabzugsfunktion 2020.1
+description: Auf dieser Seite werden alle Proofing-Verbesserungen mit der Version 2020.1 beschrieben. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
@@ -14,42 +14,42 @@ ht-degree: 0%
 
 ---
 
-# 2020.1 - Verbesserungen bei der Prüfung
+# Verbesserungen bei der Korrekturabzugsfunktion 2020.1
 
-Auf dieser Seite werden alle Verbesserungen beim Testversand mit Version 2020.1 beschrieben. Diese Verbesserungen sind derzeit in der Vorschau-Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Proofing-Verbesserungen mit der Version 2020.1 beschrieben. Diese Verbesserungen sind derzeit in der Vorschau -Umgebung verfügbar und werden Ende März oder Anfang April 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die mit Version 2020.1 verfügbar sind, finden Sie unter [Versionsübersicht 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
+Eine Liste aller mit Version 2020.1 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2020.1](../../../product-announcements/product-releases/2020.1-release-activity/2020-1-release-overview.md).
 
-## Aktualisierungen des Messungstools im Testversand-Viewer
+## Aktualisierungen des Mess-Tools im Proofing Viewer
 
-Um die Anforderungen von Benutzern in Compliance- und regulierten Branchen, in denen strenge Richtlinien gelten, zu erfüllen, sind jetzt folgende Verbesserungen im Testversand-Viewer verfügbar:
+Um die Anforderungen von Benutzern in Compliance- und regulierten Branchen zu erfüllen, für die strenge Richtlinien gelten, sind die folgenden Verbesserungen im Proofing Viewer verfügbar:
 
-* Bearbeitbares diagonales Auswahlfeld: Ermöglicht Ihnen mehr Kontrolle über die Größe der Bereichsauswahl
-* Neues Feld zur Bereichsauswahl: Ermöglicht die Eingabe eines bestimmten zu messenden Bereichs.
-* Neu Berechnen des Prozentsatzes einer Auswahlbereichsoption: Ermöglicht die Messung eines exakten Prozentsatzes des ausgewählten Bereichs
+* Bearbeitbares diagonales Auswahlfeld: Ermöglicht mehr Kontrolle über die Größe der Bereichsauswahl
+* Neues Flächenauswahlfeld: Ermöglicht die Eingabe eines bestimmten zu messenden Bereichs
+* Neu Option Berechnung des Prozentsatzes eines Auswahlbereichs : Ermöglicht die Messung eines exakten Prozentsatzes des ausgewählten Bereichs
+
+Weitere Informationen finden Sie unter in .
+
+## Verbesserte Beschriftungseinstellung in Bereichen des automatisierten Workflows
+
+Wenn Sie jetzt die Staging-Frist und die Aktivierungseinstellungen für einen automatisierten Workflow festlegen, sind die Beschriftungen in der Benutzeroberfläche leichter zu verstehen.
+
+Außerdem sind die Namen der Staging-Einstellungen jetzt von einer automatisierten Workflow-Aktivität zur anderen konsistent. Zuvor unterschieden sich einige Einstellungen des automatisierten Workflow-Schritts für die Konfiguration eines neuen Korrekturabzugs von den entsprechenden Einstellungen für einen vorhandenen Korrekturabzug.
+
+Weitere Informationen finden Sie unter und [Erstellen oder Bearbeiten eines automatisierten Workflows für einen vorhandenen Korrekturabzug](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
+
+## Hinzufügen einer Zeitzone zu einer Automated Workflow-Vorlage
+
+Wenn Sie jetzt eine automatisierte Workflow-Vorlage für die Korrekturabzüge Ihrer Benutzer erstellen oder ändern, können Sie die Zeitzone der Benutzer angeben, die die Korrekturabzüge erstellen oder bearbeiten werden. Dadurch wird sichergestellt, dass die Staging-Fristen für diese Benutzer zum richtigen Zeitpunkt festgelegt werden.
+
+Zuvor hatte das System die Zeitzone auf die Zeitzone des Workfront-Administrators festgelegt, der die Vorlage erstellt hatte, und konnte nicht geändert werden.
 
 Weitere Informationen finden Sie unter .
 
-## Verbesserte Einstellungsbeschriftungen in Bereichen des automatisierten Workflows
+## Symbol „Dokument“ aus der Proofing-Anzeige entfernt
 
-Wenn Sie jetzt die Staging-Deadline und Aktivierungseinstellungen für einen automatisierten Workflow festlegen, sind die Beschriftungen in der Benutzeroberfläche leichter verständlich.
+Das Dokumentsymbol inline mit dem Namen des Korrekturabzugs in der Korrekturabzugsansicht wurde entfernt. Über dieses Symbol gelangen Sie zu den Dokumentdetails.
 
-Außerdem sind die Namen für die Staging-Einstellungen jetzt von einer automatisierten Workflow-Aktivität zur anderen konsistent. Zuvor waren einige Einstellungen für die automatisierte Workflow-Phase zum Konfigurieren eines neuen Testversands von den entsprechenden Einstellungen für einen vorhandenen Testversand unterschiedlich.
+Jetzt können Sie auf den Namen des Korrekturabzugs klicken, um zur Seite mit den Dokumentdetails zu gelangen.
 
-Weitere Informationen finden Sie unter und [Erstellen oder Bearbeiten eines automatisierten Workflows für einen vorhandenen Testversand](../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-edit-automated-workflow-existing-proof.md)
-
-## Zeitzone zu einer Vorlage für automatisierten Workflow hinzufügen
-
-Wenn Sie jetzt eine Vorlage für den automatisierten Workflow für Testsendungen Ihrer Benutzer erstellen oder ändern, können Sie die Zeitzone der Benutzer angeben, die Testsendungen erstellen oder daran arbeiten werden. Dadurch wird sichergestellt, dass die Bereitstellungsfristen für diese Benutzer zum richtigen Zeitpunkt festgelegt werden.
-
-Zuvor hat das System die Zeitzone auf den Workfront-Administrator gesetzt, der die Vorlage erstellt hat, und konnte nicht geändert werden.
-
-Weitere Informationen finden Sie unter .
-
-## Dokumentsymbol aus dem Viewer für die Prüfung entfernt
-
-Das Dokumentsymbol wurde inline mit dem Testversandnamen im Testversand-Viewer entfernt. Mit diesem Symbol gelangen Sie zu den Dokumentdetails.
-
-Sie können nun auf den Namen des Testversands klicken, um zur Seite mit den Dokumentdetails zu gelangen.
-
-Dieses Symbol wurde aufgrund einer Änderung des neuen Workfront-Erlebnisses entfernt: Versionshinweis Link zu Breadcrumbs
+Dieses Symbol wurde aufgrund einer Änderung in der neuen Workfront-Version entfernt: Link zu Breadcrumbs - Versionshinweisen

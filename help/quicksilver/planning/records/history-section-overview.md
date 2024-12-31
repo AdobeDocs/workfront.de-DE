@@ -1,6 +1,6 @@
 ---
 title: Übersicht über den Verlaufsabschnitt
-description: Sie können Änderungen am Datensatz überprüfen, die vom System im rechten Bereich eines Datensatzes in der Adobe Workfront-Planung vorgenommen und aufgezeichnet wurden.
+description: Änderungen am Datensatz, die vom System aufgezeichnet wurden, können in Adobe Workfront Planning im rechten Bereich eines Datensatzes eingesehen werden.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -19,47 +19,47 @@ ht-degree: 3%
 
 <!--update the system updates articles when we release to open beta - check the long commenting stream article list and see articles that document where in the system we have system updates; "Workfront Planning records" should be there-->
 
-Sie können an Adobe Workfront-Planungsdatensätzen zusammenarbeiten, indem Sie im rechten Bereich eines Datensatzes Kommentare oder Antworten hinzufügen. Sie können auch andere Änderungen anzeigen, die am Datensatz vorgenommen und vom System in diesem Bereich aufgezeichnet wurden.
+Sie können an Adobe Workfront Planning-Datensätzen zusammenarbeiten, indem Sie Kommentare oder Antworten im rechten Bedienfeld eines Datensatzes hinzufügen. Sie können auch andere Änderungen am Datensatz anzeigen, die vom System in diesem Bereich aufgezeichnet wurden.
 
 Im rechten Bereich eines Datensatzes werden die folgenden Abschnitte angezeigt:
 
-* **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzer zu Datensätzen hinzufügen. Weitere Informationen zum Verwalten von Kommentaren in Workfront-Planungsprotokollen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
-* **Verlauf**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen.
+* **Kommentare**: Zeigt Kommentare und Antworten an, die Benutzende zu Datensätzen hinzufügen. Weitere Informationen zum Verwalten von Kommentaren in Workfront-Planungsdatensätzen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
+* **History**: Zeigt systemaufgezeichnete Änderungen an, die Benutzer an den Datensatzfeldern vornehmen.
 
-## Suchen Sie den Abschnitt Verlauf eines Datensatzes
+## Suchen des Abschnitts „Verlauf“ eines Datensatzes
 
 {{step1-to-planning}}
 
 1. Klicken Sie auf die Karte eines Arbeitsbereichs.
 
-   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden auf Karten angezeigt.
+   Der Arbeitsbereich wird geöffnet, und die Datensatztypen werden auf Karten angezeigt.
 
 1. Klicken Sie auf eine Karte vom Typ Datensatz.
-Die Seite mit dem Datensatztyp wird geöffnet und alle Datensätze dieses Typs werden angezeigt.
+Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs werden angezeigt.
 
 1. Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes.
 
-   Die Seite des Datensatzes wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bereich geöffnet.
-1. Klicken Sie auf das Symbol **Verlauf anzeigen** ![](assets/show-history-icon.png). Alle Änderungen an den Feldern des Datensatzes werden im rechten Bereich angezeigt, beginnend mit dem letzten.
-1. (Optional) Klicken Sie auf das Symbol **Verlauf ausblenden** ![](assets/hide-history-icon.png) , um das rechte Bedienfeld zu schließen.
+   Die Seite des Datensatzes wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bedienfeld geöffnet.
+1. Klicken Sie auf **Symbol** Verlauf anzeigen![](assets/show-history-icon.png). Alle Änderungen, die an den Feldern des Datensatzes vorgenommen wurden, werden im rechten Bereich angezeigt, beginnend mit dem letzten.
+1. (Optional) Klicken Sie auf das ![](assets/hide-history-icon.png) **Verlauf ausblenden**, um das rechte Bedienfeld zu schließen.
 
-## Überlegungen zum Abschnitt Verlauf
+## Überlegungen zum Abschnitt „Verlauf“
 
-Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt Verlauf des rechten Bereichs der Datensatzseite überprüfen.
+Die an den Datensatzfeldern vorgenommenen Änderungen können Sie im Abschnitt Verlauf des rechten Bedienfelds der Datensatzseite überprüfen.
 
 ![](assets/history-area-in-comments.png)
 
-* Die Workfront-Planung zeichnet die folgenden Informationen im Abschnitt Verlauf auf:
+* Workfront Planning zeichnet die folgenden Informationen im Abschnitt History auf:
 
    * Alle Feldänderungen
 
-   * Die alten und neuen Werte der Felder, wenn sich die Werte ändern. Die alten Werte werden im Durchstreichen-Format angezeigt.
+   * Die alten und neuen Werte von Feldern, wenn sich die Werte ändern. Die alten Werte werden im durchgestrichenen Format angezeigt.
 
    * Der vollständige Name des Benutzers, der die Änderung vorgenommen hat
 
-   * Ein Datum und ein Zeitstempel für den Zeitpunkt der Änderung.
+   * Ein Datums- und Zeitstempel, der angibt, wann die Änderung vorgenommen wurde.
 
-* In den Feldern der folgenden Typen werden immer der alte Wert (im Durchstreichen-Format) und der neue Wert angezeigt:
+* In Feldern der folgenden Typen werden immer der alte Wert (im Durchgestrichenformat) und der neue Wert angezeigt:
 
    * Text
    * Absatz
@@ -69,25 +69,25 @@ Sie können die Änderungen, die an den Feldern vorgenommen wurden, im Abschnitt
    * Prozentsatz
    * Einzelauswahl
 
-* Felder der folgenden Typen zeigen den alten Wert nur dann im Durchstreichen-Format an, wenn mindestens einer der mehreren Werte entfernt wurde:
+* Felder der folgenden Typen zeigen den alten Wert nur dann im durchgestrichenen Format an, wenn mindestens einer der mehreren Werte entfernt wurde:
 
    * Mehrfachauswahl
    * Verknüpfte Datensatzfelder
    * Personen
 
-  Wenn durch die Änderung nur Werte zum Feld hinzugefügt werden, wird der alte Wert nicht angezeigt und nur der neue Feldwert wird angezeigt.
+  Wenn durch die Änderung nur Werte zum Feld hinzugefügt werden, wird der alte Wert nicht angezeigt und nur der neue Feldwert.
 
-* Felder vom Typ Kontrollkästchen zeigen den alten Wert nie im Durchstreichen-Format an. Wenn das Feld bearbeitet wird, wird nur der aktuelle Status zum Zeitpunkt der Änderung angezeigt.
+* Bei Feldern vom Typ „Kontrollkästchen“ wird der alte Wert nie im Durchgestrichenformat angezeigt. Wenn das Feld bearbeitet wird, wird nur der aktuelle Status zum Zeitpunkt der Änderung angezeigt.
 
-  Weitere Informationen zu Workfront-Planungsfeldern finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+  Weitere Informationen zu Workfront Planning-Feldern finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
 * Änderungen an Feldern der folgenden Typen werden nicht im Abschnitt Verlauf angezeigt:
 
-   * Verknüpfte (Lookup) Felder
+   * Verknüpfte (Lookup-)Felder
    * Formel
    * Erstellt von
-   * Erstellt am Datum
+   * Erstellt am
    * Zuletzt geändert von
    * Zuletzt geändert am
 
-* Wenn ein Feld aus dem System entfernt wird, bleiben die in diesem Feld vorgenommenen Aktualisierungen im Abschnitt Verlauf . Es gibt keinen Hinweis darauf, dass das Feld im Abschnitt Verlauf eines Datensatzes entfernt wurde.
+* Wenn ein Feld aus dem System entfernt wird, bleiben die in diesem Feld vorgenommenen Aktualisierungen im Abschnitt Verlauf erhalten. Es gibt keinen Hinweis darauf, dass das Feld im Abschnitt Verlauf eines Datensatzes entfernt wurde.

@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Aufgabenbegrenzung - Übersicht: Beenden nicht früher als'
-description: '"Finish No Previlier Than (FNET)"ist eine Aufgabenbegrenzung, die den Abschluss einer Aufgabe nach dem von Ihnen angegebenen Datum plant.'
+title: 'Aufgabenbeschränkung - Übersicht: Beenden nicht früher als'
+description: „Nicht früher als“ (FNET) ist eine Aufgabenbeschränkung, die den Abschluss einer Aufgabe nach dem von Ihnen angegebenen Datum plant.
 author: Alina
 feature: Work Management
 exl-id: b1dbf5c9-34b6-4c25-b582-ce9454501e03
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Aufgabenbegrenzung - Übersicht: Beenden nicht früher als
+# Aufgabenbeschränkung - Übersicht: Beenden nicht früher als
 
-&quot;Finish No Previlier Than (FNET)&quot;ist eine Aufgabenbegrenzung, die den Abschluss einer Aufgabe nach dem von Ihnen angegebenen Datum plant.
+„Nicht früher als“ (FNET) ist eine Aufgabenbeschränkung, die den Abschluss einer Aufgabe nach dem von Ihnen angegebenen Datum plant.
 
-## Übersicht über die Beschränkung &quot;Keine frühere Beschränkung als&quot;
+## Übersicht der Endbearbeitung Nicht früher als Bedingung
 
-Beachten Sie Folgendes bei der Verwendung der Beschränkung &quot;Fertigstellen nicht früher als (FNET)&quot;für eine Aufgabe:
+Beachten Sie Folgendes, wenn Sie die Bedingung „Beenden nicht früher als (FNET)“ für eine Aufgabe verwenden:
 
-* Sie sollten diese Einschränkung verwenden, wenn das Projekt ab dem Abschlussdatum geplant ist. In diesem Fall können Sie eine weiche Einschränkung für die Aufgabe festlegen, bevor Sie andere abhängige Aufgaben zwingen, &quot;Risiko&quot;anzuzeigen.
-* Wenn Sie FNET für ein Projekt verwenden, das geplant ist **Vom Startdatum**, dann plant die Beschränkung die Aufgabe so, wie sie es planen würde, wenn die Beschränkung so bald wie möglich wäre.
-* Wenn Sie eine Aufgabe mit einer FNET-Einschränkung in ein anderes Projekt verschieben oder kopieren, können sich die Beschränkung der Aufgabe oder die Daten des Projekts je nach dem, was die Beschränkungsdaten sind und was die Start- und Abschlussdaten des Projekts sind, ändern. Die folgenden Szenarien existieren:
+* Sie sollten diese Einschränkung verwenden, wenn das Projekt ab Abschlussdatum geplant ist. In diesem Fall können Sie eine weiche Begrenzung für die Aufgabe festlegen, bevor Sie andere abhängige Aufgaben zwingen, „Gefährdet“ anzuzeigen.
+* Wenn Sie FNET für ein Projekt verwenden, **vom Startdatum**, wird die Aufgabe durch die Begrenzung so geplant, wie sie geplant wäre, wenn die Begrenzung so bald wie möglich festgelegt würde.
+* Wenn Sie einen Vorgang mit einer FNET-Einschränkung in ein anderes Projekt verschieben oder kopieren, kann sich die Einschränkung für den Vorgang oder die Termine des Projekts ändern, je nachdem, welche Einschränkungstermine es gibt und welches Start- und Abschlussdatum das Projekt hat. Die folgenden Szenarien sind vorhanden:
 
    * Wenn das Zielprojekt von Anfang an geplant ist:
 
-      * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in So bald wie möglich.
-      * Wenn das Beschränkungsdatum der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegt, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Abschlussdatum der Aufgabe.
+      * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So bald wie möglich.
+      * Wenn das Einschränkungsdatum der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegt, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Einschränkungsdatum der Aufgabe.
 
-   * Wenn das Zielprojekt nach Abschluss geplant wird:
+   * Wenn das Zielprojekt für den Abschluss geplant ist:
 
-      * Wenn das Beschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
-      * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts entsprechend dem Startbegrenzungsdatum der Aufgabe.
+      * Wenn das Einschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So spät wie möglich.
+      * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts, sodass es dem Starteinschränkungsdatum der Aufgabe entspricht.
 
-   * Wenn das Beschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Zeitplan des Projekts keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten.
+   * Wenn das Einschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Projektplan keine Änderungen an der Aufgabenbeschränkung oder den Projektdaten.
 
-  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-  Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+  Informationen zum Aktualisieren der Aufgabenbeschränkung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbeschränkung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

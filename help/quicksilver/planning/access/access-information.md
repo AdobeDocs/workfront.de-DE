@@ -1,6 +1,6 @@
 ---
-title: 'Adobe Workfront Planning Access Information: Article Index'
-description: Als Workfront-Administrator müssen Sie Ihren Benutzern Zugriff auf die Adobe Workfront-Planung gewähren. Die folgenden Artikel enthalten Informationen dazu, welchen Zugriff Ihre Benutzer für die Verwendung der Workfront-Planung benötigen, sowie Informationen zum Anfordern und Gewähren von Berechtigungen, wenn Benutzer keinen Zugriff haben.
+title: 'Adobe Workfront Planning-Zugriffsinformationen: Artikelindex'
+description: Als Workfront-Administrator müssen Sie Ihren Benutzenden Zugriff gewähren, damit sie Adobe Workfront Planning verwenden können. Die folgenden Artikel enthalten Informationen darüber, welchen Zugriff Ihre Benutzerinnen und Benutzer für die Verwendung von Workfront Planning benötigen und wie Berechtigungen angefordert und gewährt werden, wenn Benutzerinnen und Benutzer keinen Zugriff haben.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -14,19 +14,19 @@ ht-degree: 0%
 ---
 
 
-# Adobe Workfront Planen der Zugriffsinformationen: Artikelindex
+# Adobe Workfront Planning-Zugriffsinformationen: Artikelindex
 
 {{planning-important-intro}}
 
-Als Workfront-Administrator müssen Sie Ihren Benutzern Zugriff auf die Adobe Workfront-Planung gewähren.
+Als Workfront-Administrator müssen Sie Ihren Benutzenden Zugriff gewähren, damit sie Adobe Workfront Planning verwenden können.
 
-Die folgenden Artikel enthalten Informationen darüber, welchen Zugriff Ihre Benutzer über die Planungsfunktionen von Workfront benötigen:
+Die folgenden Artikel enthalten Informationen darüber, welchen Zugriff Ihre Benutzerinnen und Benutzer benötigen, um Workfront Planning-Funktionen verwenden zu können:
 
-* [Adobe Planen des Zugriffs - Übersicht](/help/quicksilver/planning/access/access-overview.md)
-* [Übersicht über die Freigabe von Berechtigungen in der Adobe Workfront-Planung](/help/quicksilver/planning/access/sharing-permissions-overview.md)
+* [Adobe Planning - Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md)
+* [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md)
 * [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
 * [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
-* [Übersicht über den Lizenztyp bei Verwendung der Adobe Workfront-Planung](/help/quicksilver/planning/access/license-type-overview.md)
+* [Lizenztyp-Übersicht bei Verwendung von Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md)
 * [Anfordern von Berechtigungen für eine Ansicht oder einen Arbeitsbereich](/help/quicksilver/planning/access/request-permissions.md)
 
 

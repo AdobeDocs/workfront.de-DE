@@ -2,7 +2,7 @@
 filename: _outlook-365-add-in
 content-type: release-notes
 navigation-topic: announcements
-title: Outlook 365 Add-In
+title: Outlook 365-Add-in
 recommendations: noDisplay, noCatalog
 description: Die folgenden Artikel sind in diesem Abschnitt verfügbar.
 author: Luke
@@ -14,9 +14,9 @@ ht-degree: 0%
 ---
 
 
-# Outlook 365 Add-In
+# Outlook 365-Add-in
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Das Outlook 365-Add-In ist jetzt verfügbar.](../../product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
+* [Das Outlook 365-Add-in ist jetzt verfügbar](../../product-announcements/outlook-365-add-in/outlook-365-add-in-now-available.md)
 

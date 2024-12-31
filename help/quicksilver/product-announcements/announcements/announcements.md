@@ -2,7 +2,7 @@
 content-type: reference
 navigation-topic: product-announcements
 title: Ankündigungen
-description: Siehe Workfront-Mitteilungen
+description: Siehe Workfront-Ankündigungen
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -16,13 +16,13 @@ ht-degree: 5%
 
 # Ankündigungen
 
-Im Folgenden finden Sie Ankündigungen, mit denen Sie möglicherweise vertraut sein möchten:
+Im Folgenden finden Sie Ankündigungen, die Sie kennen sollten:
 
 <!--* [Enhanced Analytics deprecation guide](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)-->
 * [Häufig gestellte Fragen zum Wartungsfenster](../../product-announcements/announcements/maintenance-window-faq.md)
-* [Abmeldung von Nachrichten in Ankündigungs-Center](unsubscribe-from-ac-messages.md)
-* [Zum Hinzufügen von Testsendungen zu Ihrer Zulassungsliste erforderliche Änderung](proofhq-domain-change-workfront.md)
+* [Abo von Nachrichten im Ankündigungscenter kündigen](unsubscribe-from-ac-messages.md)
+* [Zum Hinzufügen von Korrekturabzügen zur Zulassungsliste erforderliche Änderung](proofhq-domain-change-workfront.md)
 
 
 
-Ältere Ankündigungen finden Sie im Archiv [Ankündigung](announcement-archive/announcement-archive.md) .
+Ältere Ankündigungen finden Sie im [Ankündigungsarchiv](announcement-archive/announcement-archive.md).

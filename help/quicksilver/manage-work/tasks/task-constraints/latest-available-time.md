@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Übersicht über Aufgabenbeschränkungen: Aktuelle verfügbare Zeit'
-description: Die neueste verfügbare Zeit (LAT) ist eine Art von Aufgabenbegrenzung in Adobe Workfront.
+title: 'Übersicht über die Aufgabenbeschränkung: Letzte verfügbare Zeit'
+description: Latest Available Time (LAT) ist eine Art von Aufgabenbeschränkung in Adobe Workfront.
 author: Alina
 feature: Work Management
 exl-id: acf55004-9424-4e24-9ff5-90f6fd7f72a6
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbeschränkungen: Aktuelle verfügbare Zeit
+# Übersicht über die Aufgabenbeschränkung: Letzte verfügbare Zeit
 
-Die neueste verfügbare Zeit (LAT) ist eine Art von Aufgabenbegrenzung in Adobe Workfront.
+Latest Available Time (LAT) ist eine Art von Aufgabenbeschränkung in Adobe Workfront.
 
-## Verwenden der aktuellen Zeitaufgabenbegrenzung
+## Letzte verfügbare Zeitaufgabenbeschränkung verwenden
 
-Sie können die LAT-Beschränkung verwenden, wenn Sie planen möchten, dass eine Aufgabe zum neuesten verfügbaren Zeitpunkt beginnt, nachdem Sie Beziehungen zwischen Vorgänger und Nachfolger im Projekt in Betracht gezogen haben.
+Sie können die letzte Einschränkung verwenden, wenn Sie einen Vorgang so planen möchten, dass er zum spätestens verfügbaren Zeitpunkt beginnt, nachdem Sie Vorgänger-Nachfolger-Beziehungen im Projekt berücksichtigt haben.
 
-Diese Einschränkung unterscheidet sich von So bald wie möglich insofern, als sie keine Neuplanung von Vorgängern oder Nachfolgern erzwingt. Stattdessen wirkt sich dies nur auf den Zeitplan der Aufgabe aus, der sie zugeordnet ist, und setzt sie basierend auf ihrer Beziehung zu anderen Aufgaben auf die neueste verfügbare Zeit.
+Diese Einschränkung unterscheidet sich von So bald wie möglich insofern, als sie keine Neuplanung von Vorgängern oder Nachfolgern erzwingt. Stattdessen wirkt sich dies nur auf den Zeitplan der Aufgabe aus, mit der es verknüpft ist, und setzt sie auf die neueste verfügbare Zeit, basierend auf ihrer Beziehung zu anderen Aufgaben.
 
-Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Informationen zum Aktualisieren der Aufgabenbeschränkung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbeschränkung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -40,29 +40,29 @@ Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden 
 </div>
 -->
 
-## Differenz zwischen der neuesten verfügbaren Zeit und so spät wie möglich
+## Die Differenz zwischen der neuesten verfügbaren Zeit und so spät wie möglich
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "As Late As Possible"] - inserted snippet in both (Alina)) </p>
 -->
 
-Die aktuelle Zeitbeschränkung unterscheidet sich von der so spät wie möglich Beschränkung, wenn die folgenden Kriterien vorhanden sind:
+Die Zeitbeschränkung „Zuletzt verfügbar“ unterscheidet sich von der Beschränkung „So spät wie möglich“, wenn die folgenden Kriterien vorliegen:
 
-* Das Projekt ist ab dem Startdatum geplant.
+* Das Projekt ist ab dem Startdatum geplant
 * Aufgaben im Projekt haben eine Vorgängerbeziehung
-* Die Nachfolgeaufgabe hat eine flexible Aufgabenbegrenzung
+* Die Nachfolgeaufgabe weist eine flexible Aufgabenbeschränkung auf
 
-In diesem Fall:
+In dieser Situation:
 
-* **Neueste verfügbare Zeit:** Durch die Verwendung der Zeitbegrenzung &quot;Neueste verfügbare Zeit&quot;für die Vorgängeraufgabe erhält die flexible Beschränkung des Nachfolgers Priorität.
+* **Letzte verfügbare Zeit**: Bei Verwendung der Zeitbeschränkung „Letzte verfügbare Zeit“ für die Vorgängeraufgabe hat die flexible Beschränkung des Nachfolgers Priorität.
 
-  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die neueste verfügbare Zeitbegrenzung und Aufgabe B die so bald wie möglich einschränkende Funktion. In diesem Fall wird Aufgabe A so nah wie möglich am Projektstart geplant.
+  **Beispiel:** Zum Beispiel ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die neueste verfügbare Zeitbeschränkung und Aufgabe B hat die so bald wie möglich-Beschränkung. In diesem Fall wird Aufgabe A so nahe wie möglich am Beginn des Projekts geplant.
 
   ![](assets/latest-available-time-task-constraint-in-task-list-350x116.png)
 
-* **So spät wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So spät wie möglich für die Vorgängeraufgabe der Vorgängeraufgabe die Priorität der Vorgängeraufgabe ein.
+* **So spät wie möglich:** In diesem Szenario wird bei Verwendung der Einschränkung So spät wie möglich für die Vorgängeraufgabe die Priorität der Vorgängeraufgabe zugewiesen.
 
-  **Beispiel:** Beispielsweise ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die so spät wie möglich Beschränkung und Aufgabe B hat die so bald wie möglich Einschränkung. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
+  **Beispiel:** Zum Beispiel ist Aufgabe A ein Vorgänger von Aufgabe B. Aufgabe A hat die Einschränkung So spät wie möglich und Aufgabe B hat die Einschränkung So bald wie möglich. In diesem Fall wird Aufgabe A so nah wie möglich am Ende des Projekts geplant.
 
   ![](assets/as-late-as-possible-task-constraint-in-task-list-350x104.png)
 

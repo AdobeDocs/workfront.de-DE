@@ -1,6 +1,6 @@
 ---
 title: 'Ansichten: Artikelindex'
-description: Sie können Adobe Workfront-Planungsdatensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen. Dieser Artikel enthält Links zu Artikeln, in denen beschrieben wird, wie Sie Ansichten erstellen und vorhandene Ansichten bearbeiten oder löschen können.
+description: Sie können Adobe Workfront-Planungsdatensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen. Dieser Artikel enthält Links zu Artikeln, in denen beschrieben wird, wie Sie Ansichten erstellen und vorhandene bearbeiten oder löschen können.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -20,9 +20,9 @@ ht-degree: 0%
 
 Sie können Adobe Workfront-Planungsdatensätze in einer Tabellen-, Timeline- oder Kalenderansicht anzeigen.
 
-In den folgenden Artikeln wird beschrieben, wie Sie Datensatzansichten in der Adobe Workfront-Planung erstellen und verwalten können:
+In den folgenden Artikeln wird beschrieben, wie Sie Datensatzansichten in Adobe Workfront Planning erstellen und verwalten können:
 
-* [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md)
-* [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md)
+* [Datensatzansichten verwalten](/help/quicksilver/planning/views/manage-record-views.md)
+* [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [Zeitleisten-Ansicht verwalten](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 * [Kalenderansicht verwalten](/help/quicksilver/planning/views/manage-the-calendar-view.md)

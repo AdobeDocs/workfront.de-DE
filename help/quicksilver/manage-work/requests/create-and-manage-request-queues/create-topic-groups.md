@@ -2,7 +2,7 @@
 product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Themengruppen erstellen
-description: Themengruppen sind mit Anforderungswarteschlangen verknüpft. Sie können Ihre Anforderungswarteschlangen je nach Art der Anforderungen in mehrere Kategorien unterteilen.
+description: Themengruppen sind mit Anfrage-Warteschlangen verknüpft. Sie ermöglichen es Ihnen, Ihre Anfrage-Warteschlangen je nach Art der Anfrage in mehrere Kategorien zu unterteilen.
 author: Lisa
 feature: Work Management, Requests
 topic: Collaboration
@@ -19,11 +19,11 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Themengruppen sind mit Anforderungswarteschlangen verknüpft. Sie können Ihre Anforderungswarteschlangen je nach Art der Anforderungen in mehrere Kategorien unterteilen.
+Themengruppen sind mit Anfrage-Warteschlangen verknüpft. Sie ermöglichen es Ihnen, Ihre Anfrage-Warteschlangen je nach Art der Anfrage in mehrere Kategorien zu unterteilen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,8 +32,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p role="rowheader">Adobe Workfront-Lizenz</p> </td> 
@@ -44,53 +44,53 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Berechtigungen für das Projekt verwalten</p> </td> 
+   <td> <p> Verwalten von Berechtigungen für das Projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Übersicht über Themengruppen
 
-Wenn Sie beispielsweise über eine Anforderungswarteschlange für Marketing-Anforderungen verfügen, können Sie eine Themengruppe &quot;Muttertagskampagne&quot;mit einer Themengruppe der zweiten Ebene &quot;Digital Media&quot;und eine zusätzliche Themengruppe der zweiten Ebene &quot;Print Media&quot;haben. Anschließend können Sie innerhalb jeder Themengruppe mehrere Warteschlangenthemen haben. Beispielsweise können &quot;Banneranzeige&quot;und &quot;Blog&quot;Themen der Warteschlange für die Themengruppe &quot;Digitale Medien&quot;sein.
+Wenn Sie beispielsweise über eine Anfrage-Warteschlange für Marketing-Anfragen verfügen, können Sie eine Themengruppe „Muttertagskampagne“, eine Themengruppe der zweiten Ebene „Digitale Medien“ und eine zusätzliche Themengruppe der zweiten Ebene „Druckmedien“ verwenden. Anschließend können sich in jeder Themengruppe mehrere Warteschlangenthemen befinden. Beispielsweise können „Banner-Anzeige“ und „Blog“ Warteschlangenthemen für die Themengruppe „Digitale Medien“ sein.
 
-Weitere Informationen zum Erstellen von Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Weitere Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 >[!TIP]
 >
->* Sie können bis zu 10 Stufen von Themengruppen in einer Anforderungswarteschlange erstellen.
+>* Sie können innerhalb einer Anfrage-Warteschlange bis zu 10 Ebenen von Themengruppen erstellen.
 >* Die Anzahl der Warteschlangenthemen, die einer Themengruppe zugeordnet werden können, ist unbegrenzt.
->* Themengruppen sind ein berichtspflichtiges Objekt.
+>* Themengruppen sind meldepflichtige Objekte.
 >
 
 ## Themengruppen erstellen
 
-Es wird empfohlen, Themengruppen zu erstellen, bevor Sie ein Warteschlangenthema erstellen. Eine Themengruppe kann jedoch im Queue Topic Builder erstellt werden. Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie unter [Themen für Warteschlangen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Es wird empfohlen, Themengruppen zu erstellen, bevor Sie ein Warteschlangenthema erstellen. Eine Themengruppe kann jedoch im Warteschlangenthema-Builder erstellt werden. Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie unter [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 Erstellen einer Themengruppe:
 
 1. Wechseln Sie zu dem Projekt, das Sie als Warteschlange für Hilfeanfragen veröffentlicht haben.\
-   Weitere Informationen zum Veröffentlichen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   Weitere Informationen zum Veröffentlichen eines Projekts als Warteschlange für Hilfeanfragen finden Sie unter [Erstellen einer Anfragewarteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicken Sie im linken Bereich auf **Themengruppen** . Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Themengruppen** klicken.
-1. Klicken Sie auf **Neue Themengruppe**.
+1. Klicken Sie **linken Bereich** Themengruppen“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Themengruppen** klicken.
+1. Klicken Sie **Neue Themengruppe**.
 
    ![](assets/new-topic-group-box-nwe-350x306.png)
 
 1. Geben Sie die folgenden Informationen an:
 
-   * **Name**: Der Name ist für Benutzer sichtbar, die Anforderungen an diese Anforderungswarteschlange senden.
-   * **Beschreibung**: Die Beschreibung wird angezeigt, wenn Benutzer die Themengruppe im Prozess der Übermittlung einer neuen Anforderung auswählen.
+   * **Name**: Der Name ist für Benutzer sichtbar, die Anfragen an diese Anfrage-Warteschlange senden.
+   * **Beschreibung**: Die Beschreibung wird angezeigt, wenn Benutzende die Themengruppe auswählen, um eine neue Anfrage zu senden.
    * **Zu Themengruppe hinzufügen**: Sie können die neue Themengruppe zu einer vorhandenen Themengruppe hinzufügen oder sie direkt zum Projekt hinzufügen, das als Warteschlange für Hilfeanfragen veröffentlicht wurde.
 
 1. Klicken Sie auf **Speichern**.\
-   Dadurch wird eine neue Themengruppe in Ihrer Anforderungswarteschlange erstellt. Sie können jetzt zusätzliche Kategorien aus dem ersten Dropdownmenü unter einer Anforderungswarteschlange auswählen.\
-   Weitere Informationen zum Senden von Anforderungen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+   Dadurch wird eine neue Themengruppe in Ihrer Anfragewarteschlange erstellt. Sie können jetzt zusätzliche Kategorien aus dem ersten Dropdown-Menü unter einer Anfrage-Warteschlange auswählen.\
+   Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).

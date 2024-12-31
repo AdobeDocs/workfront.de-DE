@@ -1,6 +1,6 @@
 ---
 title: Erstellen von Feldern
-description: In der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für jeden Datensatztyp erstellen. Anschließend können Sie das Feld mit Workfront-Planungsdatensätzen verknüpfen.
+description: In Adobe Workfront Planning können Sie benutzerdefinierte Felder für jede Art von Datensatztyp erstellen. Anschließend können Sie das Feld mit Workfront Planning-Datensätzen verknüpfen.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -20,34 +20,34 @@ ht-degree: 1%
 
 <!--Do we need this for FORMULAS: when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula - not sure is needed??-->
 
-# Felder erstellen
+# Erstellen von Feldern
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
 
-In der Adobe Workfront-Planung können Sie benutzerdefinierte Felder für Datensatztypen erstellen. Anschließend können Sie die Felder mit Workfront-Planungsdatensätzen verknüpfen, um die Datensatzinformationen zu verbessern.
+In Adobe Workfront Planning können Sie benutzerdefinierte Felder für Datensatztypen erstellen. Anschließend können Sie die Felder mit Workfront Planning-Datensätzen verknüpfen, um die Datensatzinformationen zu verbessern.
 
-Sie müssen Datensatztypen erstellen, bevor Sie Felder erstellen können, die mit ihnen verknüpft werden sollen. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+Sie müssen Datensatztypen erstellen, bevor Sie Felder erstellen können, die mit ihnen verknüpft werden sollen. Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-In der Workfront-Planung können Sie Felder auf folgende Weise erstellen:
+Sie können Felder in Workfront Planning auf folgende Weise erstellen:
 
 * Neu
 * Durch Verbinden von Datensatztypen
-* Erstellen eines Datensatztyps
-* Erstellen eines Arbeitsbereichs aus einer Vorlage
-* <span class="preview">Durch Importieren von Datensatztypen mit einer Excel- oder CSV-Datei</span>
-* <span class="preview">Durch Importieren von Kopien vorhandener Workfront-Felder</span>
+* Durch Erstellen eines Datensatztyps
+* Durch Erstellen eines Arbeitsbereichs aus einer Vorlage
+* <span class="preview">Durch Importieren von Datensatztypen mithilfe einer Excel- oder CSV-Datei</span>
+* <span class="preview">Durch Importieren von Kopien bestehender Workfront-Felder</span>
 
 
-Weitere Informationen zu Workfront-Planungsfeldern finden Sie unter [Feldübersicht](/help/quicksilver/planning/fields/fields-overview.md).
+Weitere Informationen zu Workfront Planning-Feldern finden Sie unter [Feldübersicht](/help/quicksilver/planning/fields/fields-overview.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -68,50 +68,50 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td><p> Standard </p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> </td> 
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -177,7 +177,7 @@ OLD:
 -->
 
 
-## Felder von Grund auf neu erstellen {#create-fields-from-scratch}
+## Erstellen neuer Felder {#create-fields-from-scratch}
 
 <!--in a table (not sure if this can be done elsewhere?!-->
 
@@ -185,7 +185,7 @@ OLD:
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, für den die Datensätze erstellt werden sollen.
+1. Klicken Sie auf den Arbeitsbereich, für dessen Datensätze Sie Felder erstellen möchten.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden angezeigt.
 
@@ -195,26 +195,26 @@ OLD:
 
    >[!TIP]
    >
-   >    Wenn keine Datensätze angezeigt werden, sind möglicherweise noch keine Datensätze vorhanden oder es wird ein Filter angewendet, der die Anzeige auf dem Bildschirm einschränkt.
+   >    Wenn keine Datensätze angezeigt werden, haben Sie möglicherweise noch keine Datensätze, oder Sie haben einen Filter angewendet, der begrenzt, was Sie auf dem Bildschirm sehen.
 
    Alle vorhandenen Felder, die mit dem Datensatztyp verknüpft sind, werden in den Spalten der Tabellenansicht angezeigt.
 
    >[!TIP]
    >
-   >    Einige Felder sind möglicherweise ausgeblendet. Klicken Sie auf Felder und aktivieren Sie den Umschalter der Felder, die in der Tabellenansicht als Spalten angezeigt werden sollen.
+   >    Einige Felder sind möglicherweise ausgeblendet. Klicken Sie auf Felder und aktivieren Sie den Umschalter der Felder, die als Spalten in der Tabellenansicht angezeigt werden sollen.
 
 1. Klicken Sie oben rechts in der Tabellenansicht auf das Symbol **+** .
 
    Oder
 
-   Bewegen Sie den Mauszeiger über die Kopfzeile einer Spalte, klicken Sie auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Links einfügen** oder **Rechts einfügen** , um das neue Feld hinzuzufügen.
-1. Suchen Sie auf der Registerkarte **Neues Feld** im Feld **Feldtyp** nach einem Feldtyp oder wählen Sie aus den folgenden Feldtypen aus:
+   Bewegen Sie den Mauszeiger über die Kopfzeile einer Spalte, klicken Sie auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Links einfügen** oder **Rechts einfügen** um das neue Feld hinzuzufügen.
+1. Suchen Sie auf **Registerkarte** Neues Feld“ im Feld **Feldtyp** nach einem Feldtyp, oder wählen Sie einen der folgenden Feldtypen aus:
 
-   Suchen Sie auf der Registerkarte **Neues Feld** im Feld **Feldtyp** nach einem Feldtyp mit einem verwandten Suchbegriff oder wählen Sie aus den unten aufgeführten Feldtypen aus.
+   Suchen Sie auf der Registerkarte **Neues** mithilfe eines beliebigen zugehörigen Keywords im Feld **Feldtyp** nach einem Feldtyp, oder wählen Sie einen der unten aufgeführten Feldtypen aus.
 
    >[!TIP]
    >
-   >    Sie können &quot;Budget&quot;eingeben und die Feldtypen Zahl und Währung in einer kurzen Liste anzeigen.
+   >    Sie können „Budget“ eingeben und die Feldtypen „Zahl“ und „Währung“ werden in einer Auswahlliste angezeigt.
 
 
 
@@ -223,10 +223,10 @@ OLD:
    * [Mehrfachauswahl](#multi-select)
    * [Einzelauswahl](#single-select)
    * [Datum](#date)
-   * [Nummer](#number)
+   * [Zahl](#number)
    * [Prozentsatz](#percentage)
    * [Währung](#currency)
-   * [Kontrollkästchen](#checkbox)
+   * [checkbox](#checkbox)
    * [Formel](#formula)
    * [Personen](#people)
    * [Erstellt von](#created-by)
@@ -236,24 +236,24 @@ OLD:
 
    >[!IMPORTANT]
    >
-   >    Der Feldtyp kann nach dem Speichern nicht mehr geändert werden.
+   >    Sie können den Feldtyp nach dem Speichern des Felds nicht mehr ändern.
 
    <!--Add this to the IMPORTANT above and make it a NOTE - should do directly to Prod:
     * You can use any keyword that might be related to any of the field type names. For example, a search for "Budget" will display the Number or Currency field type.-->
 
-1. Fahren Sie mit dem Hinzufügen der einzelnen Felder fort, wie in den folgenden Abschnitten beschrieben.
+1. Fahren Sie mit dem Hinzufügen jedes Felds fort, wie in den folgenden Abschnitten beschrieben.
 
 ### Einzeiliger Text {#single-line-text}
 
-Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie können beispielsweise die Informationen zu Eigentümern, Interessenvertretern, Teams oder Organisationseinheiten in einem einzeiligen Textfeld erfassen. Der Inhalt eines einzeiligen Textfelds kann bis zu 1.000 Zeichen enthalten. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
+Einzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie können beispielsweise die Informationen zu Verantwortlichen, Verantwortlichen, Teams oder Organisationseinheiten in einem einzeiligen Textfeld erfassen. Der Inhalt eines einzeiligen Textfelds kann bis zu 1.000 Zeichen lang sein. <!-- used to be 250 but just tested with 1000 and it allowed this as a maximum. -->
 
-1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Felder von Grund auf erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzeiliger Text** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzeiliger Text** aus.
 
    ![](assets/single-line-text-field-type.png)
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger in einer Tabelle über die Spaltenüberschrift des Felds bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spaltenüberschrift des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
 1. Klicken Sie auf **Erstellen**.
 
    Das neue einzeilige Feld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
@@ -261,25 +261,25 @@ Einzelzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie k
 
 ### Absatz {#paragraph}
 
-Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datensatz, ähnlich dem Feld Beschreibung .
+Absatzfelder erfassen zusätzliche alphanumerische Informationen über einen Datensatz, ähnlich dem Feld Beschreibung .
 
 >[!TIP]
 >
->* Sie können für einen Datensatztyp maximal 20 Absatzfelder verwenden.
+>* Sie können maximal 20 Absatzfelder für einen Datensatztyp haben.
 >
 >* Der Inhalt eines Absatzfelds kann bis zu 10.000 Zeichen lang sein.
 >* Sie können die Rich-Text-Formatierung verwenden, um den Inhalt von Absatzfeldern zu verbessern, wenn sie in der Tabellenansicht oder auf der Detailseite eines Datensatzes angezeigt werden. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 >
 
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Absatz** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den **Absatz**-Feldtyp aus.
 
    ![](assets/paragraph-field-type.png)
 
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Absatzfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
@@ -287,89 +287,89 @@ Absatzfelder erfassen zusätzliche alphanumerische Informationen zu einem Datens
 
 ### Mehrfachauswahl {#multi-select}
 
-Sie können ein Mehrfachauswahlfeld verwenden, um zusätzliche Informationen in einem beliebigen Format zu erfassen, indem Sie mehrere Optionen aus einem Dropdown-Menü auswählen.
+Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informationen in einem beliebigen Format zu erfassen, indem Sie mehr als eine Option aus einem Dropdown-Menü auswählen.
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Mehrfachauswahl** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann **Feldtyp Mehrfachauswahl** aus.
 
    ![](assets/multi-select-field-type.png)
 
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Auswahlmöglichkeiten**: Die Optionen, die Benutzer beim Aktualisieren dieses Felds auswählen können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Wahl verwenden.
-1. Klicken Sie auf **Auswahl hinzufügen** , um weitere Auswahlmöglichkeiten hinzuzufügen. Es gibt keine Beschränkung dafür, wie viele Auswahlmöglichkeiten Sie einem Mehrfachauswahlfeld hinzufügen können.
-1. (Optional) Ziehen Sie die einzelnen Auswahlmöglichkeiten manuell in die gewünschte Reihenfolge oder wählen Sie die
-   **Sortieren Sie die Optionen A-Z** , wenn die Auswahl automatisch in alphabetischer Reihenfolge aufgeführt werden soll. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts davon.
-1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Wahlen**: Die Optionen, die Benutzende beim Aktualisieren dieses Felds auswählen können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Auswahl verwenden.
+1. Klicken Sie **Auswahl hinzufügen**, um weitere Auswahlmöglichkeiten hinzuzufügen. Es gibt keine Begrenzung dafür, wie viele Auswahlmöglichkeiten Sie einem Mehrfachauswahlfeld hinzufügen können.
+1. (Optional) Ziehen Sie jede Auswahl manuell in die gewünschte Reihenfolge oder wählen Sie sie aus.
+   **Auswahl sortieren A-Z** Option, wenn die Auswahl automatisch in alphabetischer Reihenfolge aufgeführt werden soll. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts neben ihr.
+1. Klicken Sie links neben einer Auswahl auf das Farbfeld, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
 
-1. <span class="preview">Klicken Sie auf **Farbfelder** , um eine vordefinierte Farbe auszuwählen</span>
+1. <span class="preview">Klicken Sie auf **Farbfelder**, um eine vordefinierte Farbe auszuwählen</span>
 
-   <span class="preview">Oder</span>
+   <span class="preview">ODER</span>
 
-   <span class="preview">Klicken Sie auf **Benutzerdefiniert** , um eine benutzerdefinierte Farbe mit einer Farbauswahl oder einem Hexadezimalcode auszuwählen.
+   <span class="preview">Klicken Sie **Benutzerdefiniert**, um eine benutzerdefinierte Farbe mithilfe eines Farbwählers oder eines Hexadezimalcodes auszuwählen.
    </span>
-1. Klicken Sie außerhalb des Farbfelds, um es zu schließen.
+1. Klicken Sie auf eine Stelle außerhalb des Farbfelds, um es zu schließen.
 1. Klicken Sie auf **Erstellen**.
 
-   Das neue Mehrfachauswahlfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
+   Das neue Mehrfachauswahlfeld wird als Spalte zum Datensatztyp hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
 ### Einzelauswahl {#single-select}
 
-Felder mit einmaliger Auswahl erfassen zusätzliche Informationen in einem beliebigen Format, indem Sie eine Option aus einem Dropdown-Menü auswählen.
+Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebigen Format erfassen, indem Sie eine Option aus einem Dropdown-Menü auswählen.
 
-1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Felder von Grund auf erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzelauswahl** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzelauswahl** aus.
 
    ![](assets/single-select-field-type.png)
 
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Auswahlmöglichkeiten**: Die Optionen, die nach dem Speichern des Felds aus dem Dropdownmenü ausgewählt werden können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Wahl haben.
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Wahlen**: Die Optionen, die nach dem Speichern des Felds aus dem Dropdown-Menü ausgewählt werden können. Sie können sowohl Zahlen als auch Buchstaben für den Namen jeder Auswahl haben.
 
-1. Klicken Sie auf **Auswahl hinzufügen** , um weitere Auswahlmöglichkeiten hinzuzufügen. Es gibt keine Beschränkung dafür, wie viele Auswahlmöglichkeiten Sie einem Feld mit Einzelauswahl hinzufügen können.
-1. (Optional) Ziehen Sie jede Auswahl manuell in die gewünschte Reihenfolge oder wählen Sie die Option **Sortieroptionen A-Z** aus, wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
-1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts davon.
-1. Klicken Sie auf das Farbfeld links neben einer Auswahl, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
-1. <span class="preview">Klicken Sie auf **Farbfelder** , um eine vordefinierte Farbe auszuwählen</span>
+1. Klicken Sie **Auswahl hinzufügen**, um weitere Auswahlmöglichkeiten hinzuzufügen. Es gibt keine Begrenzung dafür, wie viele Auswahlmöglichkeiten Sie einem Feld mit nur einer Auswahl hinzufügen können.
+1. (Optional) Ziehen Sie die einzelnen Auswahlmöglichkeiten manuell in die gewünschte Reihenfolge oder wählen Sie die Option **Auswahl sortieren A-Z** aus, wenn die Auswahlmöglichkeiten automatisch in alphabetischer Reihenfolge aufgeführt werden sollen. <!--Add this if they added this functionality: You cannot edit this option after you save the field.-->
+1. (Optional) Um eine Auswahl zu entfernen, klicken Sie auf das Symbol **x** rechts neben ihr.
+1. Klicken Sie links neben einer Auswahl auf das Farbfeld, um die Farbauswahl zu erweitern und die Farbe der einzelnen Optionen anzupassen.
+1. <span class="preview">Klicken Sie auf **Farbfelder**, um eine vordefinierte Farbe auszuwählen</span>
 
-   <span class="preview">Oder</span>
+   <span class="preview">ODER</span>
 
-   <span class="preview">Klicken Sie auf **Benutzerdefiniert** , um eine benutzerdefinierte Farbe mit einer Farbauswahl oder einem Hexadezimalcode auszuwählen.
+   <span class="preview">Klicken Sie **Benutzerdefiniert**, um eine benutzerdefinierte Farbe mithilfe eines Farbwählers oder eines Hexadezimalcodes auszuwählen.
    </span>
-1. Klicken Sie außerhalb des Farbfelds, um es zu schließen.
+1. Klicken Sie auf eine Stelle außerhalb des Farbfelds, um es zu schließen.
 1. Klicken Sie auf **Erstellen**.
 
-   Das neue Einzelauswahlfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
+   Das neue Einzelauswahlfeld wird als Spalte zum Datensatztyp hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
 ### Datum {#date}
 
 Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- und Uhrzeitformat zu erfassen.
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Datum** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Datum** aus.
 
    ![](assets/date-field-type.png)
 
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Datumsformat**: Der Typ des Datumsformats, das in diesem Feld angezeigt werden soll. <!--update this casing - submitted bug for it-->
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Datumsformat**: Der Typ des Datumsformats, das Sie in diesem Feld anzeigen möchten. <!--update this casing - submitted bug for it-->
 
      Wählen Sie aus den folgenden Formaten aus:
       * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 16.05.2023
+      * **Standard**: 05/16/2023
       * **Long**: 16. Mai 2023
-      * **europäisch**: 16.05.2023
-      * **ISO**: 2023-05-16
-      * **Zeit einschließen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einschließen möchten. Diese Option ist standardmäßig deaktiviert. Sie können keine Zeit einschließen, nachdem Sie das Feld abgesichert haben.
+      * **Europäisch**: 16/05/2023
+      * **ISO**: 16.05.2023
+      * **Zeit einbeziehen**: Wählen Sie diese Option aus, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. Nach dem Speichern des Felds kann keine Zeit angegeben werden.
 
      Wählen Sie aus den folgenden Optionen aus:
 
       * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:00 PM
+      * **12**: Beispiel: 18:00 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -377,21 +377,21 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
 
 ### Zahl {#number}
 
-Zahlenfeldtypen erfassen Informationen im Zahlenformat.
+Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zahl** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zahl** aus.
 
    ![](assets/number-field-type.png)
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Präzision**: Die Anzahl der Dezimalstellen, die für das Feld aufgezeichnet werden sollen. Sie können bis zu 6 Dezimalstellen anzeigen.
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Genauigkeit**: Die Anzahl der Dezimalstellen, die Sie für das Feld aufzeichnen möchten. Sie können bis zu 6 Dezimalstellen anzeigen.
    * **Negative Zahlen zulassen**: Wählen Sie diese Option aus, wenn Sie negative Zahlen in diesem Feld zulassen möchten. Diese Option ist standardmäßig deaktiviert.
 
    >[!NOTE]
    >
-   >    Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
+   >    Wenn Sie Negative Zahlen zulassen auswählen und negative Werte in den Datensätzen gespeichert werden, mit denen das Feld verknüpft ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -399,57 +399,57 @@ Zahlenfeldtypen erfassen Informationen im Zahlenformat.
 
 ### Prozentsatz {#percentage}
 
-Prozentfeldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem Prozentzeichen.
+Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem Prozentzeichen.
 
-1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Felder von Grund auf erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus. <!--change screen shot for preview-->
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus. <!--change screen shot for preview-->
 
    ![](assets/percentage-field-type.png)
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Präzision**: Die Anzahl der Dezimalstellen, die für das Feld aufgezeichnet werden sollen. Sie können bis zu 6 Dezimalstellen anzeigen.
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Genauigkeit**: Die Anzahl der Dezimalstellen, die Sie für das Feld aufzeichnen möchten. Sie können bis zu 6 Dezimalstellen anzeigen.
    * **Negative Zahlen zulassen**: Wählen Sie diese Option aus, wenn Sie negative Prozentwerte in diesem Feld zulassen möchten. Diese Option ist standardmäßig deaktiviert.
 
      >[!NOTE]
      >
-     >Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
+     >Wenn Sie Negative Zahlen zulassen auswählen und negative Werte in den Datensätzen gespeichert werden, mit denen das Feld verknüpft ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
    <div class="preview">
 
-   * **Anzeigen als**: Wählen Sie aus dem Dropdownmenü aus, wie die Prozentwerte in der Tabellenansicht angezeigt werden sollen. Wählen Sie aus den folgenden Optionen aus:
-      * **Zahl**: Der Prozentwert wird als Zahl gefolgt vom Prozentzeichen angezeigt.
+   * **Anzeigen als**: Wählen Sie aus dem Dropdown-Menü aus, wie die Prozentwerte in der Tabellenansicht angezeigt werden sollen. Wählen Sie aus den folgenden Optionen aus:
+      * **Zahl**: Der Prozentwert wird als Zahl angezeigt, gefolgt vom Prozentzeichen.
       * **Balken**: Der Prozentwert wird als Balken neben der Prozentzahl angezeigt. Die Füllfarbe des Balkens gibt den Prozentwert an. Dies ist die Standardauswahl.
       * **Kreis**: Der Prozentwert wird als Umriss eines Kreises neben der Prozentzahl angezeigt. Die Füllfarbe des Umrisses des Kreises gibt den Prozentwert an.
 
    >[!NOTE]
    >
-   >* Die Auswahl, die Sie im Feld Anzeigen als vornehmen, gilt nur für den Prozentwert, der in der Tabellenansicht angezeigt wird. Der Prozentwert des Felds wird als Zahl angezeigt, gefolgt vom Prozentzeichen an allen anderen Stellen in der Workfront-Planung. Dies gilt auch für das Feld vom Typ Prozentsatz , wenn es in den Tabellenansichten anderer Datensätze als Suchfeld angezeigt wird.
-   >* Sie können die Option Als Auswahl anzeigen ändern, wenn Sie das Feld später bearbeiten.
+   >* Die Auswahl, die Sie im Feld Anzeigen als treffen, gilt nur für den in der Tabellenansicht sichtbaren Prozentwert. Der Prozentwert des Felds wird als Zahl angezeigt, gefolgt vom Prozentzeichen überall sonst in Workfront Planning. Dies gilt auch für das Feld des Typs Prozentsatz, wenn es in den Tabellenansichten anderer Datensätze als Suchfeld angezeigt wird.
+   >* Sie können die Auswahl Anzeigen als ändern, wenn Sie das Feld später bearbeiten.
    </div>
 
 1. Klicken Sie auf **Erstellen**.
 
-   Das neue Prozentfeld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
+   Das neue Prozentfeld wird als Spalte zum Datensatztyp hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
 ### Währung {#currency}
 
-Währungsfeldtypen erfassen Informationen in einem Zahlenformat, dem ein Währungssymbol vorangestellt ist.
+Währungs -Feldtypen erfassen Informationen in einem Zahlenformat mit vorangestelltem Währungssymbol.
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Währung** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Währung** aus.
 
    ![](assets/currency-field-type.png)
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Währung**: Der Typ der Währung, die in diesem Feld angezeigt werden soll. Dies ist eine Liste der Währungen gemäß der Internationalen Organisation für Normung (ISO).
-   * **Präzision**: Die Anzahl der Dezimalstellen, die für das Feld aufgezeichnet werden sollen. Sie können bis zu 6 Dezimalstellen anzeigen.
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Währung**: Der Währungstyp, der in diesem Feld angezeigt werden soll. Dies ist eine Liste der Währungen nach der Internationalen Organisation für Normung (ISO).
+   * **Genauigkeit**: Die Anzahl der Dezimalstellen, die Sie für das Feld aufzeichnen möchten. Es können bis zu 6 Dezimalstellen angezeigt werden.
    * **Negative Zahlen zulassen**: Wählen Sie diese Option aus, wenn Sie negative Währungswerte in diesem Feld zulassen möchten. Diese Option ist standardmäßig deaktiviert.
 
    >[!NOTE]
    >
-   >    Wenn Sie negative Zahlen zulassen auswählen und negative Werte auf den Datensätzen gespeichert werden, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
+   >    Wenn Sie Negative Zahlen zulassen auswählen und negative Werte in den Datensätzen gespeichert werden, mit denen das Feld verknüpft ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -457,36 +457,36 @@ Währungsfeldtypen erfassen Informationen in einem Zahlenformat, dem ein Währun
 
 ### Kontrollkästchen
 
-Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine einzelne Kontrollkästchen-Option hinzuzufügen. Sie können dieses Feld verwenden, um ein bestimmtes Attribut oder einen bestimmten Status für diesen Datensatz anzugeben. Sie können sie beispielsweise als Markierung zum Tracking der Fertigstellung, Genehmigung oder eines anderen Binärattributs für jeden Datensatz verwenden.
+Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine einzelne Kontrollkästchen-Option hinzuzufügen. Sie können dieses Feld verwenden, um ein bestimmtes Attribut oder einen bestimmten Status für diesen Datensatz anzugeben. Sie können sie beispielsweise als Markierung für das Tracking von Fertigstellung, Genehmigung oder anderen binären Attributen für jeden Datensatz verwenden.
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Kontrollkästchen** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Kontrollkästchen** aus.
 
    ![](assets/checkbox-field-type.png)
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
 1. Klicken Sie auf **Erstellen**.
 
-   Das neue Kontrollkästchen wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
+   Das neue Kontrollkästchen-Feld wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
 ### Formel
 
-Formelfelder generieren einen neuen Wert anhand vorhandener Werte aus anderen Feldern eines Datensatztyps und einer Funktion, die angibt, wie die vorhandenen Werte berechnet werden sollen.
+Formelfelder generieren einen neuen Wert anhand vorhandener Werte aus anderen Feldern in einem Datensatztyp und einer Funktion, die angibt, wie die vorhandenen Werte berechnet werden sollen.
 
 Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Formel** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Formel** aus.
 
    ![](assets/new-formula-field-with-list-of-expressions.png)
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
    * **Name**: Geben Sie einen Namen für das neue Feld ein.
-   * **Beschreibung**: Fügen Sie Informationen zum neuen Feld hinzu. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Formel**: Beginnen Sie mit der Eingabe von mindestens einem Zeichen, um auf einen Ausdruck zuzugreifen, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
+   * **Beschreibung**: Hinzufügen von Informationen zum neuen Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Formel**: Beginnen Sie mit der Eingabe mindestens eines Zeichens, um auf einen Ausdruck zuzugreifen, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
-1. Klicken Sie auf den ausgewählten Ausdruck, um die Definition anzuzeigen und die Formatierung anzuzeigen.
+1. Klicken Sie auf den ausgewählten Ausdruck, um die Definition anzuzeigen und ihre Formatierung anzuzeigen.
 
    ![](assets/description-of-formula-expression.png)
 
@@ -495,26 +495,26 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
    >[!TIP]
    >
-   ><span class="preview">Sie erhalten eine Warnmeldung, wenn Sie ein Formelfeld bearbeiten oder erstellen, das einen Zirkelverweis auf sich selbst oder freigegebene Felder verursachen kann. Sie können kein Formelfeld speichern, das sich entweder auf sich selbst oder auf Elemente bezieht, auf die in der Berechnung verwiesen wird.  </span>
+   ><span class="preview">Sie erhalten beim Bearbeiten oder Erstellen eines Formelfelds eine Warnmeldung, die möglicherweise zu einem Zirkelbezug auf sich selbst oder auf freigegebene Felder führt. Sie können kein Formelfeld speichern, das entweder auf sich selbst oder auf Elemente verweist, auf die in seiner Berechnung verwiesen wird.  </span>
 
 
-1. Fügen Sie Feldnamen hinzu, wie sie in der Workfront-Planung angezeigt werden, um sie in einer Formel zu referenzieren.
+1. Fügen Sie Feldnamen so hinzu, wie sie in Workfront Planning angezeigt werden, um in einer Formel darauf zu verweisen.
 
    >[!NOTE]
    >
-   >* Es ist nicht möglich, Felder vom Typ Mehrfachauswahl in einer Formel hinzuzufügen.
+   >* Sie können keine Felder vom Typ Mehrfachauswahl zu einer Formel hinzufügen.
    >
-   >* Sie können ein Feld referenzieren, das bis zu 4 Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise ein Formelfeld für einen Aktivitäts-Record-Typ (1) erstellen und die Aktivität mit dem Campaign-Record-Typ (2) verbunden ist, der mit einem Workfront-Projekt (3) verbunden ist, können Sie das Feld Budget (4) des Projekts in der für den Aktivitäts-Record-Typ erstellten Formel referenzieren.
+   >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
    >![](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
-1. Wählen Sie im Feld **Format** aus den folgenden Optionen aus, um das Format des Ergebnisses anzugeben, das im Feld Formeltyp angezeigt wird:
+1. Wählen Sie im Feld **Format** eine der folgenden Optionen, um das Format des im Feld „Formeltyp“ angezeigten Ergebnisses zu bestimmen:
 
-   * **Text**: Das Ergebnis des Formelfelds wird als normaler Text angezeigt.
+   * **Text**: Das Ergebnis des Formelfelds wird als einfacher Text angezeigt.
    * **Zahl**: Das Ergebnis des Formelfelds wird als Zahl angezeigt.
-   * **Prozent**: Das Ergebnis des Formelfelds wird als Zahl gefolgt von einem Prozentzeichen angezeigt.
-   * **Währung**: Das Ergebnis des Formelfelds wird als Zahl angezeigt, der ein Währungssymbol vorangestellt oder gefolgt ist.
+   * **Prozent**: Das Ergebnis des Formelfelds wird als Zahl angezeigt, gefolgt von einem Prozentsymbol.
+   * **Währung**: Das Ergebnis des Formelfelds wird als Zahl angezeigt, der ein Währungssymbol vorangestellt oder gefolgt wird.
    * **Tags**: Das Ergebnis des Formelfelds wird als Tag mit dem Namen des Objekts angezeigt.
 
      >[!TIP]
@@ -525,11 +525,11 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
    * **Datum**: Das Ergebnis des Formelfelds wird als Datum angezeigt.
 
-     Eine Vorschau des Ergebnisses wird unter dem Feld **Format** angezeigt.
+     Eine Vorschau davon, wie das Ergebnis aussehen wird, wird unter dem Feld **Format** angezeigt.
 
      >[!WARNING]
      >
-     >Wenn das Ergebnis der Formel nicht dem ausgewählten Format entspricht, wird im Feld eine Fehlermeldung angezeigt.
+     >Wenn das Ergebnis der Formel nicht mit dem ausgewählten Format übereinstimmt, wird im Feld an der Stelle, an der es angezeigt wird, eine Fehlermeldung angezeigt.
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -537,37 +537,37 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
 ### Personen
 
-Sie können den Typ Personen verwenden, um einem Datensatz den Benutzer <!--, job role, or team--> hinzuzufügen. Es handelt sich um ein Feld vom Typ &quot;head&quot;. Sie können nur Benutzer<!--, roles, or teams--> hinzufügen, die bereits in Ihrer Workfront-Instanz vorhanden sind.
+Sie können den Feldtyp Personen verwenden, um eine <!--, job role, or team--> zu einem Datensatz hinzuzufügen. Dies ist ein Feld mit automatischer Textvervollständigung, in dem Sie nur Benutzer hinzufügen können<!--, roles, or teams--> die bereits in Ihrer Workfront-Instanz vorhanden sind.
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Personen** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Personen** aus.
 
    ![](assets/people-field-type.png)
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Mehrere Werte zulassen**: Wählen Sie diese Option, wenn Sie zulassen möchten, dass Benutzer mehr als einen Benutzer in dieses Feld hinzufügen können. Diese Option ist standardmäßig deaktiviert.
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Mehrere Werte zulassen**: Wählen Sie diese Option aus, wenn Sie Benutzern das Hinzufügen mehrerer Benutzer zu diesem Feld ermöglichen möchten. Diese Option ist standardmäßig deaktiviert.
 
    >[!NOTE]
    >
-   >    Wenn Sie die Option Mehrere Werte zulassen auswählen und mehrere Benutzer in den Datensätzen gespeichert sind, an die das Feld angehängt ist, können Sie die Auswahl der Einstellung bei der Bearbeitung dieses Felds in Zukunft nicht mehr aufheben.
+   >    Wenn Sie Mehrere Werte zulassen auswählen und mehrere Benutzende in den Datensätzen gespeichert werden, mit denen das Feld verbunden ist, können Sie die Auswahl der Einstellung in Zukunft nicht mehr aufheben, wenn Sie dieses Feld bearbeiten.
 
 1. Klicken Sie auf **Erstellen**.
 
-   Das neue Feld vom Typ Personen wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
+   Das neue Feld vom Typ „Personen“ wird dem Datensatztyp als Spalte hinzugefügt und seine Werte können Datensätzen zugeordnet werden.
 
 ### Erstellt von
 
-Sie können den Feldtyp Erstellt nach verwenden, um den Benutzer, der den Datensatz erstellt hat, einem Datensatz hinzuzufügen. Dies ist ein schreibgeschütztes Feld, in dem automatisch der Name des Benutzers eingetragen wird, der bei der Erstellung des Datensatzes angemeldet war.
+Mit dem Feldtyp Erstellt von können Sie den Benutzer, der den Datensatz erstellt hat, zu einem Datensatz hinzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Namen des Benutzers ausgefüllt wird, der beim Erstellen des Datensatzes angemeldet war.
 
-1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Felder von Grund auf erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellt von** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellt von** aus.
 
    ![](assets/created-by-field-type.png)
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
 
 1. Klicken Sie auf **Erstellen**.
 
@@ -576,101 +576,101 @@ Sie können den Feldtyp Erstellt nach verwenden, um den Benutzer, der den Datens
 
 ### Erstellungsdatum
 
-Sie können den Feldtyp Erstellungsdatum verwenden, um das Datum der Erstellung des Datensatzes zu einem Datensatz hinzuzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) ausgefüllt wird, an dem der Datensatz erstellt wurde.
+Mit dem Feldtyp Erstellungsdatum können Sie das Datum, an dem der Datensatz erstellt wurde, zu einem Datensatz hinzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) gefüllt wird, an dem der Datensatz erstellt wurde.
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
 
    ![](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Datumsformat**: Wählen Sie aus den folgenden Formaten aus:
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
 
       * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 16.05.2023
+      * **Standard**: 05/16/2023
       * **Long**: 16. Mai 2023
-      * **europäisch**: 16.05.2023
-      * **ISO**: 2023-05-16
-   * **Ein Zeitfeld einschließen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einschließen möchten. Diese Option ist standardmäßig deaktiviert. <!--submitted a UI text change for this - check the UI-->
+      * **Europäisch**: 16/05/2023
+      * **ISO**: 16.05.2023
+   * **Zeitfeld einbeziehen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. <!--submitted a UI text change for this - check the UI-->
 
      Wählen Sie aus den folgenden Optionen aus:
 
       * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:00 PM
+      * **12**: Beispiel: 18:00 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
-   Das neue Feld Erstelltes Datum wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) zum Zeitpunkt der Erstellung des Datensatzes vorausgefüllt.
+   Das neue Feld vom Typ Erstelltes Datum wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem der Datensatz erstellt wurde.
 
 
 ### Zuletzt geändert von
 
-Mit dem Feldtyp Letzte Änderung können Sie den Benutzer, der den Datensatz zuletzt geändert hat, zu einem Datensatz hinzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Namen des Benutzers gefüllt wird, der bei der letzten Aktualisierung des Datensatzes angemeldet war.
+Mit dem Feldtyp Zuletzt geändert von können Sie den Benutzer, der den Datensatz zuletzt geändert hat, zu einem Datensatz hinzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Namen des Benutzers ausgefüllt wird, der beim letzten Aktualisieren des Datensatzes angemeldet war.
 
-1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Felder von Grund auf erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zuletzt geändert von** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zuletzt geändert von** aus.
 
    ![](assets/last-modified-by-field-type.png)
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created by"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
 
 1. Klicken Sie auf **Erstellen**.
 
-   Das neue Feld Letzte Änderung nach Typ wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz zuletzt geändert hat.
+   Das neue Feld Letzte Änderung nach Typ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Namen des Benutzers vorausgefüllt, der jeden Datensatz zuletzt geändert hat.
 
 
 ### Zuletzt geändert am
 
-Sie können den Feldtyp Letzte Änderung des Datums verwenden, um das Datum hinzuzufügen, an dem ein Datensatz zuletzt in einen Datensatz geändert wurde. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) gefüllt wird, an dem der Datensatz zuletzt geändert wurde.
+Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datum der letzten Änderung eines Datensatzes hinzufügen. Dies ist ein schreibgeschütztes Feld, das automatisch mit dem Datum (und optional mit der Uhrzeit) der letzten Änderung des Datensatzes ausgefüllt wird.
 
-1. Erstellen Sie ein Feld wie im Abschnitt [Felder von Grund auf neu erstellen](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
+1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
 
    ![](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
-1. Fügen Sie auf der Registerkarte **Neues Feld** die folgenden Informationen hinzu:
+1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--this might change and they might prepopulate it with "Created date"-->
-   * **Beschreibung**: Zusätzliche Informationen zum Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte eines Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
-   * **Datumsformat**: Wählen Sie aus den folgenden Formaten aus:
+   * **Beschreibung**: Zusätzliche Informationen über das Feld. Die Beschreibung eines Felds wird angezeigt, wenn Sie den Mauszeiger über die Spalte des Felds in einer Tabelle bewegen, oder <span class="preview">, wenn Sie auf das Informationssymbol neben dem Feldnamen auf der Detailseite des Datensatzes klicken.</span>
+   * **Datumsformat**: Wählen Sie aus den folgenden Formaten:
 
       * **Locale**: Entspricht dem Gebietsschema Ihres Browsers.
-      * **Standard**: 16.05.2023
+      * **Standard**: 05/16/2023
       * **Long**: 16. Mai 2023
-      * **europäisch**: 16.05.2023
-      * **ISO**: 2023-05-16
+      * **Europäisch**: 16/05/2023
+      * **ISO**: 16.05.2023
 
-   * **Ein Zeitfeld einschließen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einschließen möchten. Diese Option ist standardmäßig deaktiviert. <!--submitted a UI text change for this - check the UI-->
+   * **Zeitfeld einbeziehen**: Wählen Sie diese Option, wenn Sie einen Zeitstempel einbeziehen möchten. Diese Option ist standardmäßig deaktiviert. <!--submitted a UI text change for this - check the UI-->
 
      Wählen Sie aus den folgenden Optionen aus:
 
       * **24hr**: Beispiel: 18:00
-      * **12hr**: Beispiel: 18:00 PM
+      * **12**: Beispiel: 18:00 Uhr
 
 1. Klicken Sie auf **Erstellen**.
 
-   Das neue Feld Letzte Änderung des Datentyps wird dem Datensatztyp als Spalte hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) der letzten Änderung des Datensatzes vorausgefüllt.
+   Das neue Feld vom Typ „Zuletzt geändert“ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem der Datensatz zuletzt geändert wurde.
 
 ## Erstellen von Feldern durch Verbinden von Datensatztypen
 
-Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Datensatztypen oder einen Datensatztyp und einen Objekttyp aus anderen Anwendungen hinzufügen.
+Sie können verknüpfte Datensatzfelder erstellen, wenn Sie eine neue Verbindung zwischen zwei Datensatztypen oder einem Datensatztyp und einem Objekttyp aus anderen Anwendungen hinzufügen.
 
-Informationen zum Verbinden von Workfront-Planungs-Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+Informationen zum Verbinden von Workfront Planning-Datensatztypen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 <!--## Create fields by importing record types using an Excel or CSV file
 
 For more information, see [Create record types](/help/quicksilver/planning/architecture/create-record-types.md).-->
 
-## Erstellen von Feldern durch Erstellung eines Datensatztyps
+## Erstellen von Feldern durch Erstellen eines Datensatztyps
 
-Beim Erstellen eines Datensatztyps werden standardmäßig auch mehrere mit dem neuen Datensatztyp verknüpfte Felder erstellt. Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+Beim Erstellen eines Datensatztyps werden standardmäßig auch mehrere mit dem neuen Datensatztyp verknüpfte Felder erstellt. Weitere Informationen finden Sie unter [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Erstellen von Feldern durch Erstellen eines Arbeitsbereichs aus einer Vorlage
 
@@ -680,20 +680,20 @@ Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/qu
 
 <div class="preview">
 
-## Erstellen von Feldern beim Import von Datensatztypen aus einer CSV- oder Excel-Datei
+## Erstellen von Feldern beim Importieren von Datensatztypen aus einer CSV- oder Excel-Datei
 
 Sie können Felder importieren, wenn Sie Datensatztypen mithilfe einer CSV- oder Excel-Datei importieren.
 
-Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 ## Erstellen von Feldern durch Importieren aus Workfront
 
-Sie können Kopien vorhandener Workfront-Felder importieren.
+Sie können Kopien bestehender Workfront-Felder importieren.
 
-Beim Importieren von Feldern aus Workfront wird eine Kopie jedes Felds für den Datensatztyp Workfront Planning erstellt.
+Beim Importieren von Feldern aus Workfront wird von jedem Feld eine Kopie für einen Workfront Planning-Datensatztyp erstellt.
 
-Nachdem Sie die Felder kopiert haben, sind die Felder unabhängig voneinander und tauschen keine Informationen aus.
+Nachdem Sie die Felder kopiert haben, sind sie voneinander unabhängig und tauschen keine Informationen aus.
 
-Weitere Informationen finden Sie unter [Importieren von Feldern aus Workfront](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
+Weitere Informationen finden Sie unter [Felder aus Workfront ](/help/quicksilver/planning/fields/import-fields-from-workfront.md).
 
 </div>

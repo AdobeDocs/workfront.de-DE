@@ -1,6 +1,6 @@
 ---
-title: Verwalten der Timeline-Ansicht
-description: Rufen Sie Datensätze in einer Timeline-Ansicht auf der Seite Adobe Workfront Planning record type auf und bearbeiten Sie sie. In diesem Artikel wird beschrieben, wie Sie eine Timeline-Ansicht erstellen und eine vorhandene bearbeiten oder löschen können. Passen Sie die Timeline mit Filtern, Gruppierungen und Einstellungen an. Mit der Aufschlüsselungsfunktion können Sie verbundene Datensätze anzeigen.
+title: Zeitleisten-Ansicht verwalten
+description: Aufrufen und Bearbeiten von Datensätzen in einer Zeitleisten -Ansicht auf der Datensatztypseite für Adobe Workfront Planning. In diesem Artikel wird beschrieben, wie Sie eine Zeitleiste erstellen und eine vorhandene anzeigen und bearbeiten oder löschen können. Anpassen der Zeitleiste mit Filtern, Gruppierungen und Einstellungen. Verwenden Sie die Aufschlüsselungsfunktion, um verbundene Datensätze anzuzeigen.
 feature: Workfront Planning
 role: User
 author: Alina
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Verwalten der Timeline-Ansicht
+# Zeitleisten-Ansicht verwalten
 
 {{planning-important-intro}}
 
-Sie können Datensätze in einer Timeline-Ansicht anzeigen, wenn Sie auf die Seite vom Typ Datensatz in der Adobe Workfront-Planung zugreifen.
+In Adobe Workfront Planning können Sie beim Zugriff auf die Seite „Datensatztyp“ Datensätze in einer Zeitleisten-Ansicht anzeigen.
 
-Weitere Informationen zu Datensatzansichten finden Sie unter [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md).
+Weitere Informationen zu Datensatzansichten finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,50 +44,50 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td><p> Standard </p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Berechtigungen für eine Ansicht verwalten</p>  
-   <p>Berechtigungen für eine Ansicht anzeigen, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
+   <td>   <p>Verwalten der Berechtigungen für eine Ansicht</p>  
+   <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -150,72 +150,72 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 *For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
 
 
-## Verwalten einer Timeline-Ansicht {#manage-a-timeline-view}
+## Verwalten einer Zeitleisten-Ansicht {#manage-a-timeline-view}
 
 <!--insert screen shot of timeline view-->
 
-Beim Erstellen einer Timeline-Ansicht werden alle Datensätze des ausgewählten Datensatztyps in einer chronologischen Timeline angezeigt.
+Beim Erstellen einer Zeitleisten -Ansicht werden alle Datensätze des ausgewählten Datensatztyps in einer chronologischen Zeitleiste angezeigt.
 
 Beachten Sie Folgendes:
 
-* Sie können eine Timeline-Ansicht nur erstellen, wenn mindestens zwei Datumsfelder mit einem Datensatztyp verknüpft sind. Wenn einem Datensatztyp ein oder keine Datumsfelder zugeordnet sind, ist die Option Timeline-Ansicht abgeblendet.
+* Sie können eine Zeitleisten -Ansicht nur erstellen, wenn Sie mindestens zwei Datumsfelder mit einem Datensatztyp verknüpft haben. Wenn Sie ein oder kein Datumsfeld mit einem Datensatztyp verknüpft haben, ist die Option Zeitleisten-Ansicht abgeblendet.
 
-  Sie können beim Erstellen einer Timeline-Ansicht aus den folgenden Datumsfeldern auswählen:
+  Beim Erstellen einer Zeitleisten-Ansicht können Sie aus den folgenden Datumsfeldern auswählen:
 
    * Datensatzdaten
    * Systemgenerierte Felder aufzeichnen: Erstellungsdatum, Datum der letzten Änderung
-   * Sucht Daten aus verbundenen Datensätzen oder Objekttypen.
-* Je nach Datum, das mit den Datensätzen verknüpft ist, werden in den folgenden Szenarien einige Datensätze möglicherweise nicht in der Timeline-Ansicht angezeigt:
+   * Daten aus verbundenen Datensatz- oder Objekttypen nachschlagen.
+* Je nach den mit den Datensätzen verknüpften Daten werden in den folgenden Szenarien einige Datensätze möglicherweise nicht in der Zeitleisten -Ansicht angezeigt:
 
-   * Wenn Start- und Enddaten keine Werte haben
-   * Wenn das Start- oder das Enddatum keinen Wert haben
+   * Wenn das Start- und Enddatum keine Werte aufweisen
+   * Wenn das Start- oder Enddatum keinen Wert hat
    * Wenn das Startdatum nach dem Enddatum liegt
 
-So verwalten Sie eine Timeline-Ansicht:
+So verwalten Sie eine Zeitleisten -Ansicht:
 
-1. Rufen Sie die Seite mit dem Datensatztyp auf, für die Sie die Timeline anzeigen möchten.
-1. Erstellen Sie eine Timeline-Ansicht, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Navigieren Sie zur Seite für den Datensatztyp, für den Sie die Zeitleiste anzeigen möchten.
+1. Erstellen Sie eine Zeitleisten -Ansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
    ![](assets/timeline-view-example.png)
 
-   Die Datensätze, die dem von Ihnen ausgewählten Datensatztyp zugeordnet sind, werden in einer Timeline als Balken angezeigt und sind standardmäßig in chronologischer Reihenfolge ihres Startdatums sortiert.
+   Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden standardmäßig als Balken in einer Zeitleiste angezeigt und in chronologischer Reihenfolge ihres Startdatums sortiert.
 
    >[!TIP]
    >
-   >    Die Sortierung der Datensätze in der Timeline ist in der Ansicht &quot;Kompakt&quot;nicht sichtbar.
+   >    Die Sortierung der Datensätze in der Zeitleiste ist in der kompakten Ansicht nicht sichtbar.
 
-1. (Optional und bedingt) Wenn der Datensatzname abgeschnitten ist, halten Sie den Mauszeiger über eine Datensatzleiste, um den vollständigen Namen des Datensatzes und zusätzliche Informationen anzuzeigen.
+1. (Optional und bedingt) Wenn der Datensatzname abgeschnitten ist, bewegen Sie den Mauszeiger über eine Datensatzleiste, um den vollständigen Namen des Datensatzes und zusätzliche Informationen anzuzeigen.
 
-1. Führen Sie einen der folgenden Schritte aus, um durch die Timeline zu navigieren:
+1. Führen Sie einen der folgenden Schritte aus, um durch die Zeitleiste zu navigieren:
 
-   * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um in der Timeline rückwärts und vorwärts zu wechseln. Beim Aktualisieren der Seite wird der ausgewählte Zeitraum beibehalten.
-   * Klicken Sie auf **Heute** , um die Timeline auf das aktuelle Datum zu zentrieren.
-   * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü für Zeitrahmen aus, um die Zeitabstände zu aktualisieren:
+   * Klicken Sie auf die Symbole links und rechts oder verwenden Sie den horizontalen Bildlauf, um sich in der Zeitleiste vor- und rückwärts zu bewegen. Beim Aktualisieren der Seite wird der ausgewählte Zeitrahmen beibehalten.
+   * Klicken Sie **Heute**, um die Zeitleiste auf das heutige Datum zu zentrieren.
+   * Wählen Sie eine der folgenden Optionen aus dem Dropdown-Menü Zeitrahmen aus, um die Zeitinkremente zu aktualisieren:
 
       * Jahr
       * Quartal
       * Monat
-1. Klicken Sie auf die Ansicht **Zur Standardansicht wechseln** , um Datensätze in separaten Zeilen anzuzeigen <!--check to see if they updated the name of the setting here-->
+1. Klicken Sie **Zur Standardansicht wechseln**, um Datensätze in separaten Zeilen anzuzeigen <!--check to see if they updated the name of the setting here-->
 
    Oder
 
-   Klicken Sie auf **Zur Kompaktansicht wechseln** , um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile überschneiden. <!--check to see if they updated the name of the setting here-->
+   Klicken Sie **Zur Kompaktansicht wechseln**, um die Datensätze anzuzeigen, deren Daten sich nicht in derselben Zeile schneiden. <!--check to see if they updated the name of the setting here-->
 
-   Datensätze werden standardmäßig in der Compact-Ansicht angezeigt.
+   Standardmäßig werden Datensätze in der kompakten Ansicht angezeigt.
 
-1. Führen Sie die folgenden Schritte aus, um schnell nach Datensätzen zu suchen, die einem Keyword entsprechen:
+1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Klicken Sie auf das Symbol **Suchen** ![](assets/search-icon.png) und beginnen Sie mit der Eingabe eines Suchbegriffs, das mit einem Feld eines Datensatzes verknüpft ist, das auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben.
+   1. Klicken Sie auf **Suchen**-Symbol ![](assets/search-icon.png) und geben Sie ein Keyword ein, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und der Datensatz mit der richtigen Übereinstimmung wird hervorgehoben.
 
       ![](assets/search-box-and-results-timeline-view.png)
 
-      Sie können beliebige Wörter oder Sonderzeichen verwenden, die auf dem Bildschirm sichtbar sind.
+      Sie können jedes Wort oder jedes Sonderzeichen verwenden, das auf dem Bildschirm sichtbar ist.
 
-      Sie können keine Suchbegriffe verwenden, die Feldern zugeordnet sind, die nicht in der Timeline-Ansicht angezeigt werden.
+      Sie können keine Keywords verwenden, die mit Feldern verknüpft sind, die in der Zeitleisten -Ansicht nicht angezeigt werden.
 
-   1. Drücken Sie die Eingabetaste auf Ihrer Tastatur, um zum nächsten gefundenen Feld zu wechseln.
-   1. (Optional) Wenn mehrere Übereinstimmungen vorliegen, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
-   1. Klicken Sie im Suchfeld auf das Symbol **x** , um den Suchbegriff zu löschen.
+   1. Drücken Sie die Eingabetaste auf der Tastatur, um zum nächsten gefundenen Feld zu wechseln.
+   1. (Optional) Wenn mehr als eine Übereinstimmung vorliegt, klicken Sie auf die Pfeile nach oben und unten rechts neben dem Suchbegriff, um alle Übereinstimmungen in der Tabelle zu finden.
+   1. Klicken Sie auf das **x**-Symbol im Suchfeld, um den Suchbegriff zu löschen.
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)
@@ -223,31 +223,31 @@ So verwalten Sie eine Timeline-Ansicht:
    * [Einstellungen](#edit-the-timeline-view-settings)
      <!--* [Sort](#add-sort) not yet in timeline; also check the anchor and make sure it's correct-->
 
-1. (Optional) Klicken Sie auf **Aufschlüsselung** , um verbundene Datensätze in der Timeline anzuzeigen.
+1. (Optional) Klicken Sie auf **Aufschlüsselung**, um verbundene Datensätze in der Zeitleiste anzuzeigen.
 
-   Weitere Informationen finden Sie im Abschnitt [Verwenden der Aufschlüsselungsfunktion, um verbundene Datensätze in der Timeline-Ansicht anzuzeigen](#break-down-connected-records-in-the-timeline-view)
+   Weitere Informationen finden Sie im Abschnitt [Verwenden der Aufschlüsselungsfunktion zum Anzeigen verbundener Datensätze in der Zeitleisten-Ansicht](#break-down-connected-records-in-the-timeline-view)
 
 ### Filter hinzufügen
 
-Mithilfe von Filtern können Sie die Anzahl der auf dem Bildschirm angezeigten Informationen verringern.
+Mithilfe von Filtern können Sie die Informationsmenge reduzieren, die auf dem Bildschirm angezeigt wird.
 
-Beachten Sie beim Arbeiten mit Filtern in der Timeline-Ansicht Folgendes:
+Beachten Sie beim Arbeiten mit Filtern in der Zeitleisten -Ansicht Folgendes:
 
 <!-- this list is almost identical to the one for the table view - update both-->
 
-* Die Filter, die Sie für eine Timeline-Ansicht erstellen, funktionieren unabhängig von den Filtern in jeder anderen Ansicht, die auf denselben Datensatztyp angewendet wird.
+* Die Filter, die Sie für eine Zeitleisten -Ansicht erstellen, funktionieren unabhängig von den Filtern in jeder anderen Ansicht, die auf denselben Datensatztyp angewendet wird.
 
-* Die Filter sind für die ausgewählte Ansicht eindeutig. Bei zwei Timeline-Ansichten desselben Datensatztyps können unterschiedliche Filter angewendet werden.
+* Die Filter sind für die ausgewählte Ansicht eindeutig. Auf zwei Zeitleisten-Ansichten desselben Datensatztyps können unterschiedliche Filter angewendet werden.
 
-* Zwei Benutzer, die sich dieselbe Timeline-Ansicht ansehen, sehen denselben Filter, der derzeit angewendet wird.
+* Zwei Benutzer, die dieselbe Zeitleisten -Ansicht betrachten, sehen denselben Filter, der derzeit angewendet wird.
 
-* Sie können die von Ihnen erstellten Filter nicht für eine Timeline-Ansicht benennen.
+* Die Filter, die Sie für eine Zeitleisten -Ansicht erstellen, können nicht benannt werden.
 
-* Wenn Sie Filter entfernen, werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
+* Das Entfernen von Filtern entfernt sie von allen, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
 
-* Das Hinzufügen von Filtern in der Timeline-Ansicht ist mit dem Hinzufügen von Filtern in der Tabellenansicht identisch.
+* Das Hinzufügen von Filtern in der Zeitleisten -Ansicht entspricht dem Hinzufügen von Filtern in der Tabellenansicht.
 
-  Weitere Informationen finden Sie im Abschnitt &quot;Filter hinzufügen&quot;im Artikel [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+  Weitere Informationen finden Sie im Abschnitt „Filter hinzufügen“ im Artikel &quot;[ der Tabellenansicht ](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern filtern.
 * Sie können nach Suchfeldern filtern, die mehrere Werte anzeigen.
@@ -257,35 +257,35 @@ Beachten Sie beim Arbeiten mit Filtern in der Timeline-Ansicht Folgendes:
 
 <!-- groupings are almost identical between this view and table  but they display a little differently, so I kept the steps for both; update in both places if they make changes to groupings-->
 
-Sie können Datensätze nach ähnlichen Informationen gruppieren, wenn Sie eine Gruppierung auf eine Ansicht anwenden.
+Beim Anwenden einer Gruppierung auf eine Ansicht können Sie Datensätze anhand ähnlicher Informationen gruppieren.
 
-Das Hinzufügen von Gruppierungen in der Timeline-Ansicht ähnelt dem Hinzufügen von Gruppierungen zur Tabellenansicht.
+Das Hinzufügen von Gruppierungen in der Zeitleisten -Ansicht ähnelt dem Hinzufügen von Gruppierungen zur Tabellenansicht.
 
-Beachten Sie beim Arbeiten mit Gruppierungen in der Timeline-Ansicht Folgendes:
+Beachten Sie beim Arbeiten mit Gruppierungen in der Zeitleisten -Ansicht Folgendes:
 
-* Sie können Gruppierungen sowohl in der Tabellen- als auch in der Timeline-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Timeline-Ansicht desselben Datensatztyps.
-* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der von Ihnen ausgewählten Reihenfolge gruppiert.
-&lt;!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen verwenden. —jetzt mit diesem hier abgleichen—>
-* Die Gruppierungen unterscheiden sich je nach ausgewählter Ansicht. Bei zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzer, die sich dieselbe Tabellenansicht ansehen, sehen dieselbe Gruppierung, die derzeit angewendet wird.
-* Sie können die für eine Tabellenansicht erstellten Gruppierungen nicht benennen.
-* Durch das Entfernen von Gruppierungen werden diese von allen Benutzern entfernt, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht wie Sie anzeigen.
+* Sie können Gruppierungen sowohl in der Tabellen- als auch in der Zeitleisten-Ansicht anwenden. Die Gruppierungen der Tabellenansicht sind unabhängig von denen in der Zeitleisten -Ansicht desselben Datensatztyps.
+* Sie können in einer Ansicht drei Gruppierungsebenen anwenden. Die Datensätze werden in der Reihenfolge der ausgewählten Gruppierungen gruppiert.
+&lt;!—* Bei Verwendung der API können Sie bis zu 4 Gruppierungsebenen anwenden. —Diese wird vorerst überprüft—>
+* Die Gruppierungen sind für die ausgewählte Ansicht eindeutig. Auf zwei Tabellenansichten desselben Datensatztyps können unterschiedliche Gruppierungen angewendet werden. Zwei Benutzende, die dieselbe Tabellenansicht betrachten, sehen dieselbe Gruppierung, die derzeit angewendet wird.
+* Die von Ihnen erstellten Gruppierungen können nicht für eine Tabellenansicht benannt werden.
+* Das Entfernen von Gruppierungen entfernt sie von allen Benutzern, die auf denselben Datensatztyp zugreifen wie Sie und die dieselbe Ansicht anzeigen wie Sie.
 * Sie können die unter einer Gruppierung aufgelisteten Datensätze bearbeiten.
 * Sie können nach verbundenen Datensatzfeldern oder Suchfeldern gruppieren.
-* Wenn Sie nach Suchfeldern mit mehreren Werten gruppieren (die nicht von einem Aggregator zusammengefasst wurden), werden Datensätze nach jeder eindeutigen Kombination von Feldwerten gruppiert.
-* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie beispielsweise eine Gruppierung für einen Aktivitäts-Record-Typ erstellen und die Aktivität mit dem Produktdatensatz-Typ verbunden ist, der mit dem Campaign-Datensatz-Typ verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der für den Aktivitäts-Record-Typ erstellten Gruppierung referenzieren.
+* Wenn Sie nach Suchfeldern mit mehreren Werten (die nicht von einem Aggregator zusammengefasst wurden) gruppieren, werden die Datensätze nach jeder eindeutigen Kombination von Feldwerten gruppiert.
+* Sie können auf ein Feld verweisen, das bis zu vier Ebenen vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. eine Gruppierung für einen Aktivitätsdatensatztyp erstellen und die Aktivität mit dem Produktdatensatztyp verbunden ist, der mit dem Kampagnendatensatztyp verbunden ist, der mit einem Workfront-Projekt verbunden ist, können Sie den Projektstatus in der Gruppierung referenzieren, die Sie für den Aktivitätsdatensatztyp erstellen.
 <!--checking into this: * You can apply up to 4 levels of grouping when using the API. -->
 <!-- checking also into this: * You cannot group by a Paragraph-type field.-->
 
-So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
+So fügen Sie eine Gruppierung in der Zeitleisten -Ansicht hinzu:
 
-1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie oben rechts in der Timeline-Ansicht auf **Gruppierung** .
+1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken Sie **Gruppierung** in der oberen rechten Ecke der Zeitleisten -Ansicht.
 
    ![](assets/grouping-ui-timeline-view-with-linked-fields.png)
 
-1. Klicken Sie auf eines der vorgeschlagenen Felder oder auf **Ein anderes Feld auswählen**, suchen Sie nach einem anderen Feld und klicken Sie dann auf dieses Feld, wenn es in der Liste angezeigt wird.
+1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** suchen Sie nach einem anderen Feld und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
-   Die Gruppierung wird automatisch auf die Timeline angewendet und Datensätze werden innerhalb des Gruppierungsfelds angezeigt.
+   Die Gruppierung wird automatisch auf die Zeitleiste angewendet und die Datensätze werden im Gruppierungsfeld angezeigt.
 
    <!-- add a step that you can rearrange the groupings here, when this will be possible-->
 
@@ -297,14 +297,14 @@ So fügen Sie eine Gruppierung in der Timeline-Ansicht hinzu:
 
    ![](assets/grouping-applied-in-timeline-view.png)
 
-1. (Optional) Klicken Sie im Feld **Datensatz gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen.
+1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
    Oder
 
-   Klicken Sie auf **Alle löschen** , um alle Felder zu entfernen.
+   Klicken Sie auf **Alle löschen**, um alle Felder zu entfernen.
 
-1. Klicken Sie auf außerhalb des Felds **Gruppeneinträge nach** , um sie zu schließen.
-1. (Optional) Klicken Sie auf **Einstellungen** und dann auf **Farbe** , um Farbcode-Gruppierungen vorzunehmen. Weitere Informationen finden Sie im Abschnitt [Einstellungen für die Timeline-Ansicht bearbeiten](#edit-the-timeline-view-settings) in diesem Artikel.
+1. Klicken Sie außerhalb des Felds **Datensätze gruppieren nach**, um es zu schließen.
+1. (Optional) Klicken Sie auf **Einstellungen** und dann **Farbe**, um Gruppierungen mit Farbcode zu kennzeichnen. Weitere Informationen finden Sie [ Abschnitt „Bearbeiten der Zeitleisten](#edit-the-timeline-view-settings)Anzeigeeinstellungen in diesem Artikel.
 
 <!-- 
 
@@ -314,130 +314,130 @@ this is not possible right now; if this is the same functionality as the table v
 
 -->
 
-### Einstellungen der Timeline-Ansicht bearbeiten {#edit-the-timeline-view-settings}
+### Einstellungen für die Zeitleisten-Ansicht bearbeiten {#edit-the-timeline-view-settings}
 
-Aktualisieren Sie die Einstellungen der Timeline-Ansicht, um anzugeben, welche Informationen im Timeline-Abschnitt der Ansicht angezeigt werden.
+Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, welche Informationen wie im Abschnitt „Zeitleiste“ der Ansicht angezeigt werden sollen.
 
-1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Einstellungen**.
-1. Klicken Sie im linken Bereich auf **Datum und Uhrzeit** und wählen Sie dann ein **Startdatum** und ein **Enddatum** aus, die in der Timeline angezeigt werden sollen. Sie können das standardmäßige Start- und Enddatum oder ein beliebiges Datumsfeld auswählen. Die den Datensätzen entsprechenden Balken beginnen am Datum, das Sie für das Startdatum angeben, und enden an dem Datum, das dem Enddatum entspricht.
-
-   >[!NOTE]
-   >
-   >Datensätze, die keine Werte für das Start- oder Enddatum oder ein Startdatum nach dem Enddatum haben, werden nicht in der Timeline-Ansicht angezeigt.
-
-1. Klicken Sie im linken Bereich auf **Balkenstil** , um anzugeben, welche Felder in den Datensatzbalken angezeigt werden sollen.
-
-   Das in der Tabellenansicht des Datensatzes definierte primäre Feld (oder Titel) wird standardmäßig ausgewählt. <!--adjust this when the primary field is released??-->
-
-1. (Optional und bedingt) Wenn Sie den Datensätzen Miniaturansichten hinzugefügt haben, wählen Sie die Option Miniatur aus, um das den Datensätzen zugeordnete Bild in der Symbolleiste anzuzeigen.
+1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. Klicken Sie **Einstellungen**.
+1. Klicken Sie **linken Bereich auf** Datum und Uhrzeit“ und wählen Sie dann ein **Startdatum** und ein **Enddatum** aus, die in der Zeitleiste angezeigt werden sollen. Sie können das standardmäßige Start- und Enddatum oder ein beliebiges verfügbares Datumsfeld auswählen. Die Balken, die die Datensätze darstellen, beginnen an dem Datum, das Sie als Startdatum angeben, und enden an dem Datum, das dem Enddatum entspricht.
 
    >[!NOTE]
    >
-   >    Sie müssen zuerst Miniaturansichten in der Tabellenansicht hinzufügen, bevor Sie sie in der Timeline-Ansicht anzeigen können. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+   >Datensätze, die keine Werte für das Start- oder Enddatum haben oder deren Startdatum nach dem Enddatum liegt, werden nicht in der Zeitleisten -Ansicht angezeigt.
 
-1. Klicken Sie auf **Feld hinzufügen** , um den Datensatzleisten bis zu 4 Felder hinzuzufügen.
+1. Klicken Sie **linken Bereich auf** Balkenstil“, um anzugeben, welche Felder in den Datensatzbalken angezeigt werden sollen.
+
+   Das primäre Feld (oder der Titel) des Datensatzes, wie in der Tabellenansicht des Datensatzes definiert, ist standardmäßig ausgewählt. <!--adjust this when the primary field is released??-->
+
+1. (Optional und bedingt) Wenn Sie den Datensätzen Miniaturen hinzugefügt haben, wählen Sie die Option Miniaturen aus, um das mit den Datensätzen verknüpfte Bild in der Datensatzleiste anzuzeigen.
+
+   >[!NOTE]
+   >
+   >    Sie müssen zunächst Miniaturen in der Tabellenansicht hinzufügen, bevor Sie sie in der Zeitleisten -Ansicht anzeigen können. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+
+1. Klicken Sie **Feld hinzufügen**, um bis zu 4 Felder zu den Datensatzleisten hinzuzufügen.
 1. Klicken Sie in das Feld **Suchfelder** und klicken Sie auf das Feld, das Sie hinzufügen möchten.
 
    >[!TIP]
    >
-   >   * Sie müssen die Felder erstellen, bevor Sie sie zu den Datensatzbalken hinzufügen können.
+   >   * Sie müssen die Felder erstellen, bevor Sie sie den Datensatzleisten hinzufügen können.
    > 
-   >   * Sie müssen mindestens ein Feld ausgewählt haben. **Name** ist standardmäßig ausgewählt.
+   >   * Es muss mindestens ein Feld ausgewählt sein. **Name** ist standardmäßig ausgewählt.
 
-   Eine Vorschau der Balken wird auf der rechten Seite angezeigt.
+   Eine Vorschau davon, wie die Balken in der Zeitleiste aussehen werden, wird auf der rechten Seite angezeigt.
 
    ![](assets/record-details-panel-timeline-settings-with-preview.png)
 
-1. Klicken Sie im linken Bereich auf **Farbe** , um die Farben der Datensätze und Gruppierungen in der Timeline anzupassen.
+1. Klicken Sie **linken** auf „Farbe“, um die Farben der Datensätze und Gruppierungen in der Zeitleiste anzupassen.
 
    ![](assets/color-tab-timeline-view.png)
 
-1. (Bedingt und optional) Wenn Sie der Timeline-Ansicht eine Gruppierung hinzugefügt haben, wählen Sie aus den folgenden Optionen aus, um eine Farbe für die Gruppierung im Abschnitt **Gruppierungsfarbe festlegen** festzulegen:
+1. (Bedingt und optional) Wenn Sie der Zeitleisten -Ansicht eine Gruppierung hinzugefügt haben, wählen Sie eine der folgenden Optionen aus, um eine Farbe für die Gruppierung im Abschnitt **Gruppierungsfarbe festlegen** festzulegen:
 
-   * **Standard (grau)**: Die Farbe der Gruppierungen ist auf grau eingestellt. Dies ist die Standardeinstellung.
-   * **Feldwerte**: Die Farbe der Gruppierungen stimmt mit der Farbe des Felds überein, nach dem Sie die Gruppe bilden.
+   * **Standard (Grau)**: Die Farbe der Gruppierungen wird als Grau festgelegt. Dies ist der Standardwert.
+   * **Feldwerte**: Die Farbe der Gruppierungen entspricht der Farbe des Felds, nach dem Sie gruppieren.
 
      >[!NOTE]
      >
-     >    * Sie können die Farbe nur mit Feldern mit farbcodierten Optionen abgleichen. Beispielsweise können Sie die Farbe mit Statusfeldern oder Feldern mit Optionen, die Farben zugeordnet sind, abgleichen.
+     >    * Sie können die Farbe nur Feldern mit farbcodierten Optionen zuordnen. Sie können beispielsweise die Farbe mit Statusfeldern oder Feldern mit Optionen abgleichen, die mit Farben verknüpft sind.
      >    
-     >    * Sie können die Farbe nicht mit Suchfeldern aus verknüpften Datensätzen oder Objekttypen abgleichen.
+     >    * Die Farbe kann nicht mit Suchfeldern aus verknüpften Datensatz- oder Objekttypen abgeglichen werden.
 
 
-   Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbkodierte Optionen aufweisen.
+   Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbcodierte Optionen haben.
 
-   Wenn Sie eine Gruppierung nach Feldern ohne farbkodierte Optionen durchführen, bleibt die Gruppierungsfarbe grau.
+   Wenn Sie nach Feldern ohne farbcodierte Optionen gruppieren, bleibt die Gruppierungsfarbe grau.
 
    >[!TIP]
    >
-   >Wenn Sie der Timeline-Ansicht keine Gruppierungen hinzugefügt haben, wird dieser Abschnitt nicht angezeigt.
+   >Wenn Sie in der Zeitleisten -Ansicht keine Gruppierungen hinzugefügt haben, wird dieser Abschnitt nicht angezeigt.
 
-1. Wählen Sie im Abschnitt **Datensatzfarbe festlegen** aus den folgenden Optionen aus, um eine Farbe für die Datensätze festzulegen:
+1. Wählen Sie im **Datensatzfarbe festlegen** eine der folgenden Optionen aus, um eine Farbe für die Datensätze festzulegen:
 
-   * **Record type**: Die Farbe der Datensätze entspricht der Farbe des von Ihnen ausgewählten Datensatztyps. Dies ist die Standardoption.
+   * **Datensatztyp**: Die Farbe der Datensätze entspricht der Farbe des ausgewählten Datensatztyps. Dies ist die Standardoption.
    * **Feldwerte**: Die Farbe der Datensätze entspricht der Farbe eines von Ihnen angegebenen Felds. Fahren Sie mit Schritt 10 fort. <!--ensure this stays accurate-->
-   * **Gruppierung**: Die Farbe der Datensätze entspricht der Farbe, die Sie für die Gruppierungen angegeben haben. Diese Option ist abgeblendet, wenn Sie keine Gruppierungen auf die Timeline-Ansicht angewendet haben.
-   * **None**: Datensätze werden in einer weißen Leiste angezeigt.
+   * **Gruppierung**: Die Farbe der Datensätze entspricht der Farbe, die Sie für die Gruppierungen angegeben haben. Diese Option ist abgeblendet, wenn auf die Zeitleisten -Ansicht keine Gruppierungen angewendet wurden.
+   * **Keine**: Die Datensätze werden in einem weißen Balken angezeigt.
 
-1. (Bedingt) Wenn Sie **Feldwerte** für die Datensatzfarben ausgewählt haben, wählen Sie ein Feld aus dem Dropdownmenü **Datensatzfarbe mit** abgleichen aus.
+1. (Bedingt) Wenn Sie **Feldwerte** für die Datensatzfarben ausgewählt haben, wählen Sie ein Feld aus dem Dropdown-Menü **Übereinstimmung der Datensatzfarbe mit** aus.
 
    ![](assets/field-selector-drop-down-menu-timeline-view.png)
 
-   Im Dropdown-Menü werden nur Felder mit farbcodierten Optionen angezeigt.
+   Nur Felder mit farbcodierten Optionen werden im Dropdown-Menü angezeigt.
 
-   Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbkodierte Optionen aufweisen.
+   Beispielsweise können Felder mit Mehrfachauswahl oder Einzelauswahl farbcodierte Optionen haben.
 
    Wenn Sie kein Feld mit farbcodierten Optionen für den ausgewählten Datensatztyp haben, ist diese Option abgeblendet.
 
 1. Klicken Sie auf **Speichern**.
 
-   Die Datensätze werden in der Timeline-Ansicht mit den von Ihnen ausgewählten Spezifikationen angezeigt.
+   Die Datensätze werden in der Zeitleisten -Ansicht mit den von Ihnen ausgewählten Spezifikationen angezeigt.
 
-### Verwenden Sie die Aufschlüsselungsfunktion, um verbundene Datensätze in der Timeline-Ansicht anzuzeigen.
+### Verwenden der Aufschlüsselungsfunktion, um verbundene Datensätze in der Zeitleisten -Ansicht anzuzeigen
 
-Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der Timeline-Ansicht eines Datensatzes anzeigen. Wenn Sie Datensätze nach ihren Verbindungen aufschlüsseln, können Sie die Zeitpläne anderer verbundener Datensätze anzeigen und verstehen, wie sich diese auf die Performance und die Fristen Ihrer Datensätze auswirken können.
+Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der Zeitleisten -Ansicht eines Datensatzes anzeigen. Wenn Sie Datensätze anhand ihrer Verbindungen aufschlüsseln, können Sie die Timelines anderer verbundener Datensätze anzeigen und verstehen, wie sich diese auf die Leistung und die Fristen Ihrer Datensätze auswirken können.
 
 #### Überlegungen zur Verwendung der Aufschlüsselungsfunktion
 
-* Sie können verbundene Datensätze oder Objekte in der Timeline-Ansicht unter den Datensätzen des ausgewählten Datensatztyps anzeigen.
-* Mithilfe der Aufschlüsselungsfunktion können Sie Folgendes in der Timeline-Ansicht anzeigen:
-   * Workfront Planning-Datensätze, die mit dem ausgewählten Datensatztyp verbunden sind.
+* Sie können verbundene Datensätze oder Objekte unter den Datensätzen des ausgewählten Datensatztyps in der Zeitleisten -Ansicht anzeigen.
+* Mithilfe der Aufschlüsselungsfunktion können Sie Folgendes in der Zeitleisten -Ansicht anzeigen:
+   * Mit dem ausgewählten Datensatztyp verknüpfte Workfront-Planungsdatensätze
    * Workfront-Objekttypen oder Experience Manager-Assets, die mit dem ausgewählten Datensatztyp verbunden sind.
-   * Workfront Planning speichert Datensätze oder Objekte aus anderen Anwendungen, die mit Datensätzen verbunden sind, die mit dem ausgewählten Datensatztyp verbunden sind.
+   * Workfront Planning-Datensätze oder -Objekte aus einem anderen Programm, die mit Datensätzen verbunden sind, die mit dem ausgewählten Datensatztyp verbunden sind.
 
-     Sie können beispielsweise Kampagnen mit Portfolios verknüpfen. Darüber hinaus können Sie einen anderen Datensatztyp, Produkte, Projekte sowie Kampagnen, miteinander verbinden. Beim Erstellen der Kampagnen-Timeline-Ansicht können Sie die Kampagnen nach Portfolios, Produkten und Projekten aufschlüsseln.
+     Sie können beispielsweise Kampagnen mit Portfolios verbinden. Darüber hinaus können Sie einen anderen Datensatztyp, nämlich Produkte, mit Projekten sowie mit Kampagnen verbinden. Wenn Sie die Ansicht Kampagnen-Zeitleiste erstellen, können Sie die Kampagnen nach Portfolios, Produkten und Projekten aufschlüsseln.
 
-* Es ist nicht möglich, Objekttypen anzuzeigen, die nur mit Workfront-Objekten in Workfront verbunden sind, aber nicht mit einem Workfront-Planungs-Datensatztyp verbunden sind. Sie können nur Objekt- oder Datensatztypen anzeigen, die mit der Workfront-Planung verbunden sind.
+* Sie können keine Objekttypen anzeigen, die nur mit Workfront-Objekten in Workfront verbunden sind, aber nicht mit einem Workfront Planning-Datensatztyp. Sie können nur Objekt- oder Datensatztypen anzeigen, die in Workfront Planning verbunden sind.
 
-  Beispielsweise sind Aufgaben mit Projekten in Workfront verbunden. Mithilfe der Aufschlüsselungsfunktion können Sie Projekte anzeigen, die mit Kampagnen in der Planung verbunden sind, aber keine mit Projekten in Workfront verbundenen Aufgaben.
+  Beispielsweise sind Aufgaben mit Projekten in Workfront verbunden. Mit der Aufschlüsselungsfunktion können Sie Projekte anzeigen, die mit Kampagnen in Planning verbunden sind, aber keine Aufgaben, die mit Projekten in Workfront verbunden sind.
 
-  Wenn Sie sowohl Portfolios als auch Projekte in der Timeline-Ansicht eines Datensatztyps für die Workfront-Planung anzeigen möchten, müssen sowohl die Portfolios als auch die Projekte mit dem Planungsdatensatz oder einem Datensatz verbunden sein, der mit dem Planungsdatensatz verbunden ist, dessen Timeline-Ansicht Sie verwalten.
-* Sie können nur Datensatztypen anzeigen, die mindestens zwei Datumsfeldern zugeordnet sind.
-* Die Datumsfelder für die Datensatztypen, die in der Timeline-Ansicht angezeigt werden sollen, müssen in der Tabellenansicht des ausgewählten Datensatztyps als Lookup-Felder angezeigt werden.
-* Die Start- und Enddaten der Datensätze, die in der Timeline-Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge aufgeführt werden. Wenn ein Datensatz beispielsweise das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Timeline-Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Timeline-Ansicht](#manage-a-timeline-view) in diesem Artikel.
-* Es gibt maximal 5 Datensatztypen, die Sie in die Aufschlüsselung eines Datensatzes aufnehmen können.
+  Wenn Sie sowohl Portfolios als auch Projekte in der Zeitleistenansicht eines Workfront Planning-Datensatztyps anzeigen möchten, müssen sowohl die Portfolios als auch die Projekte mit dem Planning-Datensatz oder mit einem Datensatz verbunden sein, der mit dem Planning-Datensatz verknüpft ist, dessen Zeitleistenansicht Sie verwalten.
+* Sie können nur Datensatztypen anzeigen, die mit mindestens zwei Datumsfeldern verknüpft sind.
+* Die Datumsfelder für die Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in der Tabellenansicht des ausgewählten Datensatztyps als Nachschlagefelder sichtbar sein.
+* Das Start- und Enddatum der Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge sortiert sein. Wenn beispielsweise ein Datensatz das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Zeitleisten -Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Zeitleisten-Ansicht](#manage-a-timeline-view) in diesem Artikel.
+* Es gibt eine Begrenzung von fünf Datensatztypen, die Sie in die Aufschlüsselung eines Datensatzes einbeziehen können.
 
-#### Aufschlüsseln von verbundenen Datensätzen in der Timeline-Ansicht
+#### Aufschlüsseln verbundener Datensätze in der Zeitleisten-Ansicht
 
-1. Erstellen Sie eine Timeline-Ansicht für einen Datensatztyp, wie im Artikel [Ansichten von Datensätzen verwalten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. (Bedingt) Wenn Sie die Timeline-Ansicht im Standardmodus anzeigen, klicken Sie auf **Aufschlüsselung**.
-1. Erweitern Sie das Feld **Einen verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
+1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
+1. (Bedingt) Wenn Sie die Zeitleisten -Ansicht im Standardmodus anzeigen, klicken Sie auf **Aufschlüsselung**.
+1. Erweitern Sie das **Verknüpften Datensatztyp auswählen** und wählen Sie einen verbundenen Datensatztyp aus. <!--add a new screen shot - submitted a bug to remove the "the"-->
 
    ![](assets/breakdown-picker-and-button-on-timeline.png)
 
    >[!TIP]
    >
-   >    Wenn keine verbundenen Datensätze vorhanden sind oder die verbundenen Datensätze nicht mindestens zwei Datumsfelder aufweisen, ist das Feld **Verknüpften Datensatztyp auswählen** nicht verfügbar.
+   >    Wenn Sie keine verbundenen Datensätze haben oder die verbundenen Datensätze nicht über mindestens zwei Datumsfelder verfügen, ist das Feld **Verknüpften Datensatztyp auswählen** nicht verfügbar.
 
-1. Wählen Sie ein **Startdatum** und ein **Enddatumsfeld** aus.
+1. Wählen Sie ein **Startdatum** und ein **Enddatumsfeld**.
 
    >[!TIP]
    >
-   >    Das Start- und das Enddatum müssen sequenziell sein. Wenn das Enddatum vor dem Startdatum liegt, werden in der Timeline keine Datensätze angezeigt.
+   >    Das Start- und Enddatum müssen sequenziell sein. Wenn das Enddatum vor dem Startdatum liegt, werden in der Zeitleiste keine Datensätze angezeigt.
 
-   Auf der Symbolleiste des ausgewählten Datensatzes in der Timeline wird ein nach rechts zeigender Pfeil angezeigt, wenn sie mit anderen Datensätzen verbunden sind.
-1. Klicken Sie auf den Rechtspfeil, um einen Datensatztyp und seine Verbindungen anzuzeigen.
+   Ein nach rechts zeigender Pfeil wird auf der Leiste des ausgewählten Datensatzes in der Zeitleiste angezeigt, wenn sie mit anderen Datensätzen verbunden sind.
+1. Klicken Sie auf den nach rechts zeigenden Pfeil, um einen Datensatztyp zu erweitern und dessen Verbindungen anzuzeigen.
 
    ![](assets/campaigns-broken-down-by-programs-in-timeline-highlighted.png)
 

@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: betas
-title: 'Canvas Dashboards Beta-Version: Veröffentlichungsaktivität'
-description: Aktivität "Wöchentliche Veröffentlichung"für die Beta-Version der Adobe Workfront Canvas-Dashboards
+title: 'Arbeitsflächen-Dashboards - Beta-Version: Aktivität'
+description: Wöchentliche Veröffentlichungsaktivität für die Beta-Version der Adobe Workfront Canvas-Dashboards
 author: Nolan
 feature: Product Announcements
 hidefromtoc: true
@@ -15,20 +15,20 @@ ht-degree: 0%
 
 ---
 
-# Canvas Dashboards Beta-Version: Veröffentlichungsaktivität
+# Arbeitsflächen-Dashboards - Beta-Version: Aktivität
 
-Auf dieser Seite werden wöchentlich Entwicklungsaktualisierungen aufgelistet, die für die Beta-Version der Canvas-Dashboards veröffentlicht wurden.
+Auf dieser Seite werden wöchentlich Entwicklungs-Updates für die Beta-Version der Canvas-Dashboards aufgelistet.
 
-Allgemeine Informationen zur Beta-Version der Canvas-Dashboards finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+Allgemeine Informationen zur Beta-Version von Canvas-Dashboards finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
 
 ## Woche vom 14. August
 
-* **Steuerelemente auf Zugriffsebene für Canvas-Dashboards**
+* **Steuerelemente der Zugriffsebene für Arbeitsflächen-Dashboards**
 
-  Der Zugriff auf Canvas-Dashboards kann jetzt über die Einrichtung der Zugriffsebene gesteuert werden, die die vorhandene Dashboard-Funktion steuert.
+  Der Ansichts- und Bearbeitungszugriff auf Arbeitsflächen-Dashboards kann jetzt über die Zugriffsebenen-Einrichtung gesteuert werden, die die vorhandenen Dashboard-Funktionen steuert.
 
-## Woche vom 5. Juni
+## Woche des 5. Juni
 
 * **Diagrammberichte**
 
-  Zusätzlich zu Listenberichten können Sie nun auch Diagrammberichte zu einer Arbeitsfläche hinzufügen. Weitere Informationen zum Hinzufügen eines Diagrammberichts zu einem Dashboard auf der Arbeitsfläche finden Sie unter [Übersicht über Dashboards auf der Arbeitsfläche](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).
+  Zusätzlich zu den Listenberichten können Sie nun auch Diagrammberichte zu einer Arbeitsfläche hinzufügen. Weitere Informationen zum Hinzufügen eines Diagrammberichts zu einem Arbeitsflächen-Dashboard finden Sie unter [Arbeitsflächen-Dashboards - Übersicht](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md).

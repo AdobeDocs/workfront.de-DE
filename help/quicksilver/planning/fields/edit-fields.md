@@ -1,6 +1,6 @@
 ---
 title: Feldeinstellungen bearbeiten
-description: In der Adobe Workfront-Planung können Sie die Feldeinstellungen für bereits erstellte Felder bearbeiten. In diesem Artikel wird beschrieben, wie Sie die Einstellungen für die Workfront-Planungsfelder bearbeiten können.
+description: In Adobe Workfront Planning können Sie die Feldeinstellungen für Felder bearbeiten, die bereits erstellt wurden. Dieser Artikel beschreibt, wie Sie die Einstellungen für Workfront Planning-Felder bearbeiten können.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -14,19 +14,19 @@ ht-degree: 1%
 ---
 
 
-# Feldeinstellungen bearbeiten
+# Bearbeiten von Feldeinstellungen
 
 {{planning-important-intro}}
 
-Sie können die Feldeinstellungen für Felder bearbeiten, die bereits in der Adobe Workfront-Planung erstellt wurden.
+Sie können die Feldeinstellungen für Felder bearbeiten, die bereits in Adobe Workfront Planning erstellt wurden.
 
-Informationen zum Erstellen von Adobe Workfront-Planungsfeldern finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+Informationen zum Erstellen von Adobe Workfront Planning-Feldern finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
-In diesem Artikel wird beschrieben, wie Sie die Einstellungen für die Workfront-Planungsfelder bearbeiten können. Informationen zum Bearbeiten von Feldwerten für Datensätze finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+Dieser Artikel beschreibt, wie Sie die Einstellungen für Workfront Planning-Felder bearbeiten können. Informationen zum Bearbeiten von Feldwerten für Datensätze finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,50 +47,50 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td><p> Standard </p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Berechtigungen für einen Arbeitsbereich verwalten</a> </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p></td> 
+   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich</a> </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -157,32 +157,32 @@ OLD
 
 ## Überlegungen zum Bearbeiten von Feldeinstellungen
 
-Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds vornehmen:
+Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
 
-* Sie können von Ihnen erstellte Felder oder von anderen Benutzern erstellte Felder bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem die Felder gehören.
-* Sie können ein Feld in der Tabelle vom Typ Datensatz bearbeiten.
-* Sie können ein Feld auf der Datensatzseite oder in einer anderen Ansicht außerhalb der Tabellenansicht nicht bearbeiten.
-* Nach dem Speichern des Felds können Sie den Feldtyp nicht mehr bearbeiten.
-* Die Auswahl der zuvor ausgewählten Einstellung Negative Zahlen zulassen für ein Feld vom Typ Zahl, Prozentsatz oder Währung kann nicht aufgehoben werden, wenn bereits negative Werte in den Datensätzen gespeichert sind, an die das Feld angehängt ist.
-* Nach dem Speichern des Felds können Sie die Konfiguration der folgenden Feldelemente bearbeiten:
+* Sie können von Ihnen erstellte Felder oder Felder, die von anderen Benutzern erstellt wurden, bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem die Felder gehören.
+* Sie können ein Feld in der Datensatztyp-Tabelle bearbeiten.
+* Ein Feld kann weder auf der Datensatzseite noch in einer anderen Ansicht außerhalb der Tabellenansicht bearbeitet werden.
+* Nach dem Speichern des Felds ist keine Bearbeitung des Feldtyps möglich.
+* Sie können die Auswahl der Einstellung Negative Zahlen zulassen , die zuvor für ein Feld vom Typ Zahl, Prozentsatz oder Währung ausgewählt wurde, nicht aufheben, wenn bereits negative Werte für die Datensätze gespeichert sind, an die sie angehängt ist.
+* Sie können die Konfiguration der folgenden Feldelemente bearbeiten, nachdem Sie das Feld gespeichert haben:
 
    * Der Name oder die Beschreibung eines beliebigen Felds
-   * Die Optionen eines Einzelauswahl- oder eines Mehrfachauswahlfelds.
+   * Die Optionen eines Einzelauswahl- oder Mehrfachauswahl-Felds.
    * Der Ausdruck eines Formelfelds.
 
   >[!WARNING]
   >
-  >Wenn sich Formelausdrücke ändern oder Optionen aus einem Auswahlfeld hinzugefügt oder entfernt werden, gehen Daten für die Datensätze verloren, die bereits über Informationen verfügen, die in den Feldern gespeichert sind, deren Konfiguration geändert wird.
+  >Wenn Formelausdrücke geändert werden oder Optionen einem Feld vom Typ Auswahl hinzugefügt oder daraus entfernt werden, gehen Daten für die Datensätze verloren, die bereits Informationen in den Feldern enthalten, deren Konfiguration geändert wird.
   >
-  >Es gibt keine Warnung oder Hinweise darauf, dass dieser Datenverlust auftreten kann, wenn Sie die Konfiguration der Felder ändern.
+  >Es gibt keine Warnung oder Anzeige dafür, dass dieser Datenverlust auftreten könnte, wenn Sie die Konfiguration von Feldern ändern.
   >
-  >Es gibt keine Benachrichtigung für andere Benutzer, dass die Feldkonfiguration geändert wurde.
+  >Andere Benutzer werden nicht darüber informiert, dass sich die Feldkonfiguration geändert hat.
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
 -->
 
-## Feldeinstellungen bearbeiten
+## Bearbeiten von Feldeinstellungen
 
 {{step1-to-planning}}
 
@@ -197,7 +197,7 @@ Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds v
 1. (Bedingt) Klicken Sie auf die Registerkarte einer **Tabellenansicht**.
 
    Alle vorhandenen Datensätze, die mit dem Datensatztyp verknüpft sind, werden in den Zeilen der Tabellenansicht angezeigt.
-1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift eines Felds, das Sie bearbeiten möchten, und klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Feld bearbeiten**
+1. Bewegen Sie den Mauszeiger über die Spaltenüberschrift eines Felds, das Sie bearbeiten möchten, klicken Sie dann auf den nach unten zeigenden Pfeil nach dem Feldnamen und dann auf **Feld bearbeiten**
 
    Oder
 
@@ -209,13 +209,13 @@ Beachten Sie Folgendes, bevor Sie Änderungen an der Konfiguration eines Felds v
 
    >[!TIP]
    >
-   >* Nach dem Speichern des Felds kann der Feldtyp nicht mehr aktualisiert werden.
+   >* Sie können den Feldtyp nach dem Speichern des Felds nicht mehr aktualisieren.
    >
-   >* Wenn Sie Feldkonfigurationen ändern (Feldoptionen oder Formelausdrücke), werden Datensätze, die bereits Informationen in den geänderten Feldern enthalten, ihre Werte in Echtzeit aktualisieren. Es gibt keine Warnung und kein Prüfprotokoll für die Wertänderungen, die durch Feldkonfigurationsänderungen ausgelöst werden. Alle Benutzer, die die Felder anzeigen, sehen die neuen Werte mit den Änderungen sofort.
+   >* Wenn Sie Feldkonfigurationen ändern (Feldoptionen oder Formelausdrücke), werden die Werte von Datensätzen, die bereits Informationen in den geänderten Feldern enthalten, in Echtzeit aktualisiert. Es gibt keine Warnung und kein Administratorprotokoll für die Wertänderungen, die durch Änderungen der Feldkonfiguration ausgelöst werden. Alle Benutzer, die die Felder anzeigen, sehen sofort die neuen Werte mit den Änderungen.
 
-   Die Feldinformationen werden für alle Benutzer mit Zugriff auf den Arbeitsbereich aktualisiert.
+   Die Feldinformationen werden für alle Benutzer aktualisiert, die Zugriff auf den Arbeitsbereich haben.
 
-1. (Bedingt) Klicken Sie für verknüpfte Datensatzfelder auf **Suchfelder bearbeiten** und fügen Sie eines der Felder aus dem verknüpften Datensatztyp hinzu oder entfernen Sie es.
+1. (Bedingt) Klicken Sie bei verknüpften Datensatzfeldern auf **Suchfelder bearbeiten** und fügen Sie dem verknüpften Datensatztyp beliebige Felder hinzu oder entfernen Sie sie.
 
    Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 

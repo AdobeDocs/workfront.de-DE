@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Übersicht über Aufgabenbegrenzungen: Sofort wie möglich'
-description: Sofort wie möglich ist eine Aufgabenbegrenzung, die die Startzeit der Aufgabe so nah wie möglich am Anfang des Projekts platziert.
+title: 'Aufgabenbeschränkung - Übersicht: So bald wie möglich'
+description: So bald wie möglich ist eine Aufgabenbeschränkung, die die Startzeit der Aufgabe so nah wie möglich am Anfang des Projekts platziert.
 author: Alina
 feature: Work Management
 exl-id: 9cb232fe-bc74-4433-afac-88be69514c88
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbegrenzungen: Sofort wie möglich
+# Aufgabenbeschränkung - Übersicht: So bald wie möglich
 
-Sofort wie möglich ist eine Aufgabenbegrenzung, die die Startzeit der Aufgabe so nah wie möglich am Anfang des Projekts platziert.
+So bald wie möglich ist eine Aufgabenbeschränkung, die die Startzeit der Aufgabe so nah wie möglich am Anfang des Projekts platziert.
 
-## Überlegungen zur Verwendung der Beschränkung So bald wie möglich
+## Überlegungen zur Verwendung der Einschränkung So bald wie möglich
 
-* Sofort wie möglich ist die Standardeinschränkung, wenn ein Projekt den Planungsmodus vom Startdatum verwendet und das standardmäßige Startdatum des Systems für eine neue Aufgabe auf Basierend auf dem geplanten Projektdatum festgelegt ist.
+* So bald wie möglich ist die Standardeinschränkung, wenn ein Projekt den Planungsmodus vom Startdatum aus verwendet und wenn das standardmäßige Startdatum des Systems für eine neue Aufgabe auf Basierend auf dem geplanten Datum des Projekts festgelegt ist.
 
-* Wenn ein Projekt den Planungsmodus &quot;Vom Startdatum planen&quot;verwendet und das standardmäßige Startdatum des Systems oder der Gruppe für eine neue Aufgabe auf &quot;Heute&quot;festgelegt ist, ist die standardmäßige Aufgabenbegrenzung &quot;Start nicht früher als&quot;.
+* Wenn ein Projekt den Zeitplanmodus vom Startdatum aus verwendet und das standardmäßige Startdatum des Systems oder der Gruppe für eine neue Aufgabe auf Heute festgelegt ist, lautet die standardmäßige Vorgangseinschränkung „Start erst nach“.
 
-  Informationen darüber, wo die Standardbegrenzung für eine neue Aufgabe festgelegt werden soll, finden Sie unter [Systemweite Aufgaben konfigurieren und Ausgabeeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Informationen dazu, wo die Standardeinschränkung für eine neue Aufgabe festgelegt werden soll, finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Informationen zum Aktualisieren der Aufgabenbeschränkung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbeschränkung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -42,24 +42,24 @@ Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden 
 </div>
 -->
 
-## Differenz zwischen der frühesten verfügbaren Zeit und so bald wie möglich
+## Die Differenz zwischen der frühesten verfügbaren Zeit und so bald wie möglich
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: [! This section is duplicated in "Earliest Available Time"])&nbsp;</p>
 -->
 
-Die früheste Zeitbeschränkung unterscheidet sich von der so bald wie möglich geltenden Beschränkung, wenn alle folgenden Kriterien vorhanden sind:
+Die frühestmögliche verfügbare Zeitbeschränkung unterscheidet sich von der so bald wie möglich -Beschränkung, wenn alle folgenden Kriterien vorhanden sind:
 
-* Das Projekt wird nach Abschluss geplant.
+* Das Projekt ist für den Abschluss geplant.
 * Aufgaben im Projekt haben eine Vorgängerbeziehung.
-* Die Vorgängeraufgabe hat eine flexible Aufgabenbegrenzung.
+* Die Vorgängeraufgabe weist eine flexible Aufgabenbeschränkung auf.
 
-In diesem Fall:
+In dieser Situation:
 
-* **Früheste verfügbare Zeit:** Durch Verwendung der Beschränkung &quot;Früheste verfügbare Zeit&quot;für die Nachfolgeaufgabe erhält die flexible Beschränkung des Vorgängers Priorität.
+* **Früheste verfügbare Zeit** Bei Verwendung der Zeitbeschränkung „Früheste verfügbare Zeit“ für die Nachfolgeaufgabe wird der flexiblen Zeitbeschränkung des Vorgängers Priorität eingeräumt.
 
-  Angenommen, Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die früheste verfügbare Zeitbeschränkung und Aufgabe A hat die so spät wie möglich Beschränkung. In diesem Fall wird die Aufgabe so nahe wie möglich am Ende des Projekts geplant.
+  Angenommen, Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die frühestmögliche verfügbare Zeitbeschränkung und Aufgabe A hat die so spät wie möglich-Beschränkung. In diesem Fall wird die Aufgabe so nah wie möglich am Abschluss des Projekts geplant.
 
-* **Sobald wie möglich:** In diesem Szenario räumt die Verwendung der Beschränkung So bald wie möglich für die Nachfolgeaufgabe der Nachfolgeaufgabe die Priorität der Nachfolgeaufgabe ein.
+* **So bald wie möglich** In diesem Szenario wird bei Verwendung der Einschränkung So bald wie möglich für die Nachfolgeaufgabe die Priorität der Nachfolgeaufgabe zugewiesen.
 
-  Angenommen, Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat so bald wie möglich die Beschränkung und Aufgabe A hat die Beschränkung So spät wie möglich. In diesem Fall wird die Aufgabe so nah wie möglich am Projektstart geplant.
+  Angenommen, Aufgabe A ist ein Vorgänger von Aufgabe B. Aufgabe B hat die Einschränkung So bald wie möglich und Aufgabe A hat die Einschränkung So spät wie möglich. In diesem Fall wird die Aufgabe so nah wie möglich am Beginn des Projekts geplant.

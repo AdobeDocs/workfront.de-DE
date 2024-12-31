@@ -1,6 +1,6 @@
 ---
-title: Liste der Workspace-Vorlagen
-description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Adobe Workfront Planning verfügt über eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen und Feldern beginnen können.
+title: Liste der Arbeitsbereich-Vorlagen
+description: Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitszyklus des Teams darstellen. Adobe Workfront Planning verfügt über eine Reihe von Vorlagen, die Ihnen bei der Erstellung Ihres Arbeitsbereichs die ersten Schritte mit grundlegenden Datensatztypen und Feldern erleichtern.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -14,25 +14,25 @@ ht-degree: 0%
 ---
 
 
-# Liste der Workspace-Vorlagen
+# Liste der Arbeitsbereich-Vorlagen
 
 {{planning-important-intro}}
 
-In der Adobe Workfront-Planung ist ein Arbeitsbereich eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen.
+In Adobe Workfront Planning ist ein Arbeitsbereich eine Sammlung von Datensatztypen, die von einem Team verwendet werden, und stellt den Arbeitslebenszyklus des Teams dar.
 
-Workfront Planning verfügt über eine Reihe von Vorlagen, mit denen Sie beim Erstellen Ihres Arbeitsbereichs mit grundlegenden Datensatztypen und Feldern beginnen können. Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+Workfront Planning verfügt über eine Reihe von Vorlagen, die Ihnen bei der Erstellung Ihres Arbeitsbereichs die ersten Schritte mit grundlegenden Datensatztypen und Feldern erleichtern. Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-In diesem Artikel werden die in der Adobe Workfront-Planung verfügbaren Arbeitsbereichsvorlagen beschrieben.
+In diesem Artikel werden die in Adobe Workfront Planning verfügbaren Arbeitsbereichsvorlagen beschrieben.
 
 ## Überlegungen zu Adobe Workfront-Planungsvorlagen
 
-* Jede Vorlage enthält eine Reihe von Datensatztypen. Weitere Informationen finden Sie unter [Übersicht über Datensatztypen](/help/quicksilver/planning/architecture/overview-of-record-types.md).
-* Die in den einzelnen Vorlagen enthaltenen Datensätze sind in die folgenden Abschnitte unterteilt:
+* Jede Vorlage verfügt über eine Reihe von Datensatztypen. Weitere Informationen finden Sie unter [Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/overview-of-record-types.md).
+* Die Datensatztypen in den einzelnen Vorlagen sind in die folgenden Abschnitte unterteilt:
 
    * Operative Datensatztypen
    * Taxonomien
-* Jeder Datensatztyp enthält eine Reihe von Feldern. Einige dieser Felder sind Verbindungen zu anderen Datensatztypen der Workfront-Planung.
-* Sie können jede Vorlage anpassen und den vorhandenen Typen und Feldern weitere Datensätze hinzufügen.
+* Jeder Datensatztyp enthält einen Satz von Feldern. Einige dieser Felder sind Verbindungen zu anderen Workfront Planning-Datensatztypen.
+* Sie können jede Vorlage anpassen und den vorhandenen Datensatztypen und Feldern weitere hinzufügen.
 
 <!-- I modeled this article by the "List of available Blueprints" and that articles does not have an Access area
 
@@ -87,11 +87,11 @@ You must have the following:
 
 ## Workfront Planning Workspace-Vorlagen
 
-Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anzahl der darin enthaltenen Felder:
+Im Folgenden finden Sie Arbeitsbereichsvorlagen in Workfront Planning und die Anzahl der darin enthaltenen Felder:
 
-* **Allgemein: Marketing-Management**: Ideal für Unternehmen, die die Grundlage eines grundlegenden Marketing-Systems schaffen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Basic: Marketing Management**: Ideal für Organisationen, die die Grundlage für ein grundlegendes Marketing-System schaffen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Betriebliche Datensatztypen:
+   * Operative Datensatztypen:
 
       * **Kampagne**: 15 Felder
    * Taxonomien:
@@ -100,23 +100,23 @@ Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anza
       * **Marken**: 6 Felder
       * **Produkte**: 5 Felder
 
-* **Erweitert: Marketing-Management**: Geeignet für Teams, die bereit sind, erweiterte Marketing-Strategien zu erkunden. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Erweitert: Marketing-**: Geeignet für Teams, die bereit sind, differenziertere Marketing-Strategien zu erkunden. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Betriebliche Datensatztypen:
+   * Operative Datensatztypen:
 
       * **Kampagnen**: 14 Felder
       * **Programme**: 23 Felder
 
    * Taxonomien:
-      * **Regionen**: 1-Feld
-      * **Customer Journey Stages**: 4 Felder
+      * **Regions**: 1 Feld
+      * **Kunden-Journey-Stadien**: 4 Felder
       * **Zielgruppen**: 8 Felder
-      * **Lieferziele**: 12 Felder
+      * **Ergebnisse**: 12 Felder
       * **Marken**: 6 Felder
 
-* **Unternehmen: Marketing-Management**: Für große oder ausgereifte Unternehmen mit komplexen Marketing-Systemen entwickelt. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Enterprise: Marketing-**: Konzipiert für große oder reife Organisationen mit komplexen Marketing-Systemen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Betriebliche Datensatztypen:
+   * Operative Datensatztypen:
 
       * **Kampagnen**: 15 Felder
       * **Programme**: 15 Felder
@@ -126,19 +126,19 @@ Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anza
    * Taxonomien:
 
       * **Produkte**: 10 Felder
-      * **Lieferziele**: 18 Felder
-      * **Target Audiences**: 8 Felder
+      * **Ergebnisse**: 18 Felder
+      * **Target-Zielgruppen**: 8 Felder
       * **Regionen**: 8 Felder
-      * **Unterbereiche**: 7 Felder
+      * **Unterregionen**: 7 Felder
       * **Partner**: 7 Felder
       * **Anwendungsfälle**: 7 Felder
-      * **Customer Journey Stages**: 3 Felder
+      * **Kunden-Journey-Stadien**: 3 Felder
 
-* **Verkaufsverwaltung**: Sie können ein umfassendes Verkaufssystem erstellen, das Ihren Verkaufsprozess optimiert und die Effizienz erhöht. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Vertriebsmanagement**: Sie können ein umfassendes Vertriebssystem erstellen, das Ihren Verkaufsprozess optimiert und die Effizienz erhöht. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Betriebliche Datensatztypen:
+   * Operative Datensatztypen:
 
-      * **Chancen**: 11 Felder
+      * **Opportunity**: 11 Felder
       * **Aktivität**: 9 Felder
       * **Kampagne**: 8 Felder
    * Taxonomien:
@@ -146,14 +146,14 @@ Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anza
       * **Lead**: 14 Felder
       * **Kontakt**: 12 Felder
       * **Region**: 3 Felder
-      * **Branche**: 2-Feld
+      * **Branche**: 2 Feld
       * **Einkaufszentrum**: 1 Feld
-      * **Produkt/ Dienst**: 1 Feld
-      * **Konkurrenz**: 1 Feld
+      * **Produkt/Service**: 1 Feld
+      * **Wettbewerb**: 1 Feld
 
-* **Produktverwaltung**: Mit dieser Vorlage können Sie einen effizienten und strukturierten Produktverwaltungsprozess erstellen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
+* **Produktmanagement** Mit dieser Vorlage können Sie einen effizienten und strukturierten Produktmanagementprozess erstellen. Die Vorlage enthält die folgenden Datensatztypen und die Anzahl der Felder, einschließlich der Felder, die mit anderen Datensatztypen verbunden sind:
 
-   * Betriebliche Datensatztypen:
+   * Operative Datensatztypen:
 
       * **Design**: 10 Felder
       * **Initiative**: 10 Felder
@@ -164,6 +164,6 @@ Im Folgenden finden Sie Workspace-Vorlagen in der Workfront-Planung und die Anza
 
       * **Kunde**: 8 Felder
       * **Sprint**: 9 Felder
-      * **Produktteam**: 4 Felder
-      * **Funktionsanforderungen**: 9 Felder
+      * **Produkt-Team**: 4 Felder
+      * **Funktionsanfragen**: 9 Felder
       * **Branche**: 2 Felder

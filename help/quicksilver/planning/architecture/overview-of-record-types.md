@@ -1,6 +1,6 @@
 ---
 title: Übersicht über Datensatztypen
-description: Datensatztypen sind die Bausteine eines Arbeitsbereichs für die Adobe Workfront-Planung.
+description: Datensatztypen sind die Bausteine eines Adobe Workfront Planning Workspace.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -18,25 +18,25 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in der Adobe Workfront-Planung eigene Objekttypen erstellen. Beispielsweise sind in Workfront die Objektarten &quot;Programm&quot;, &quot;Portfolio&quot;, &quot;Projekt&quot;, &quot;Aufgabe&quot;oder &quot;Problem&quot;bereits erstellt.
+Im Gegensatz zu Workfront, wo die Objekttypen vordefiniert sind, können Sie in Adobe Workfront Planning Ihre eigenen Objekttypen erstellen. In Workfront werden beispielsweise die Objekttypen „Programm“, &quot;Portfolio&quot;, „Projekt“, „Aufgabe“ oder „Problem“ bereits erstellt.
 
-Workfront-Planungs-Objekttypen werden als &quot;Datensatztypen&quot;bezeichnet und sind nur vorhanden, wenn sie von Benutzern erstellt werden. Datensatztypen sind die Bausteine eines Arbeitsbereichs für die Workfront-Planung. Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
+Workfront Planning-Objekttypen werden als „Datensatztypen“ bezeichnet und existieren nur, wenn sie von Benutzenden erstellt werden. Datensatztypen sind die Bausteine eines Workfront Planning Workspace. Weitere Informationen zu Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-## Übersicht über Datentypen
+## Übersicht über den Datensatztyp
 
-In der Workfront-Planung können Sie benutzerdefinierte Datensatztypen erstellen, die den Anforderungen Ihres Unternehmens entsprechen.
+In Workfront Planning können Sie benutzerdefinierte Datensatztypen erstellen, die den Anforderungen Ihres Unternehmens entsprechen.
 
-Informationen zum Erstellen von Datensatztypen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen zum Erstellen von Datensatztypen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-* Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen, werden Datensatztypen in den folgenden Arbeitsbereich-Abschnitten erstellt:
+* Wenn Sie einen Arbeitsbereich aus einer Vorlage erstellen, werden Datensatztypen in den folgenden Abschnitten des Arbeitsbereichs erstellt:
 
-   * **Operative Datensatztypen**: Datensatztypen, die strategische Pläne, Initiativen oder geplante Arbeiten darstellen. Beispielsweise sind Kampagnen-, Aktivitäts-, Tactik- und Opportunity-Datensätze operationell.
-   * **Taxonomies**: Record types, die Attribute über einen betrieblichen Datensatztyp erfassen. Beispiel: Region, Adresse, Zielgruppe sind Taxonomien.
+   * **Operative Datensatztypen**: Datensatztypen, die strategische Pläne, Initiativen oder geplante Arbeiten darstellen. Beispielsweise sind Kampagne, Aktivität, Taktik und Opportunity operative Datensatztypen.
+   * **Taxonomien**: Datensatztypen, die Attribute über einen betrieblichen Datensatztyp erfassen. Beispielsweise sind Region, Adresse und Zielgruppe Taxonomien.
 
-* Wenn Sie einen Datensatztyp in einem von Ihnen erstellten Arbeitsbereich erstellen, können Sie den Datensatztyp in einem beliebigen Abschnitt platzieren, den Sie im Arbeitsbereich erstellen.
-* Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, die Sie für den Zugriff auf den Arbeitsbereich berechtigen, den Datensatztyp anzeigen.
+* Wenn Sie einen Datensatztyp in einem Arbeitsbereich erstellen, den Sie von Grund auf neu erstellt haben, können Sie den Datensatztyp in jedem Abschnitt platzieren, den Sie im Arbeitsbereich erstellen.
+* Wenn Sie einen Datensatztyp erstellen, können nur Sie und diejenigen, denen Sie Zugriff auf den Arbeitsbereich gewähren, den Datensatztyp anzeigen.
 * Sie müssen einen Arbeitsbereich erstellen, bevor Sie Datensatztypen für den Arbeitsbereich erstellen können.
-* Einschränkungen hinsichtlich der Anzahl von Datensatztypen, die in einer Workspace- oder Workfront-Instanz verfügbar sind, finden Sie unter [Übersicht über die Objektbeschränkungen bei der Adobe Workfront-Planung](/help/quicksilver/planning/general/limitations-overview.md).
+* Einschränkungen dazu, wie viele Datensatztypen Sie in einer Workspace- oder Workfront-Instanz haben können, finden Sie unter [Übersicht über Adobe Workfront Planning-Objektbeschränkungen](/help/quicksilver/planning/general/limitations-overview.md).
 
 
 <!--

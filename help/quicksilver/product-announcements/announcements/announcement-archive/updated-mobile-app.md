@@ -3,7 +3,7 @@ product-previous: mobile
 content-type: reference
 navigation-topic: announcements
 title: Aktualisierte Mobile App für iOS und Android (Anfang August 2017)
-description: Die mobile Adobe Workfront-App sollte Anfang August 2017 in den Apple App- und Google Play Stores aktualisiert werden.
+description: Die Mobile App von Adobe Workfront sollte Anfang August 2017 in der Apple App und den Google Play Stores aktualisiert werden.
 author: Luke
 feature: Product Announcements
 exl-id: bcd61b1f-1566-404d-8c73-f05173b90a8d
@@ -16,25 +16,25 @@ ht-degree: 1%
 
 # Aktualisierte Mobile App für iOS und Android (Anfang August 2017)
 
-Die mobile Adobe Workfront-App sollte Anfang August 2017 in den Apple App- und Google Play Stores aktualisiert werden. 
+Die Mobile App von Adobe Workfront sollte Anfang August 2017 in der Apple App und den Google Play Stores aktualisiert werden. 
 
-Das Update umfasst die folgenden Verbesserungen für die mobilen Plattformen Android und iOS :
+Das Update enthält die folgenden Verbesserungen für die Android- und die iOS-Mobilplattformen:
 
 ## Anfragen senden
 
-Ab der neuen Version der Mobile App können Sie mit Ihrem Mobilgerät Anforderungen an Warteschlangen-Anfragen senden. Sie können auf dieselben Anforderungswarteschlangen zugreifen, auf die Sie über die Webanwendung Zugriff haben. 
+Ab der neuen Version der Mobile App können Sie mit Ihrem Mobilgerät Anfragen an Warteschlangen senden. Sie können auf dieselben Anforderungswarteschlangen zugreifen, auf die Sie über die Web-Anwendung Zugriff haben. 
 
-Sie können eine Anforderung senden, sie der richtigen Ressource zuweisen und sie aktualisieren, wenn Sie unterwegs sind. 
+Sie können eine Anfrage senden, sie der richtigen Ressource zuweisen und sie aktualisieren, wenn Sie unterwegs sind. 
 
-Weitere Informationen zum Übermitteln von Anforderungen an die Mobile App finden Sie im Abschnitt &quot;Anforderungen senden&quot;in .
+Weitere Informationen zum Senden von Anfragen in der Mobile App finden Sie im Abschnitt „Senden von Anfragen“ in .
 
 
 
-## Hinzufügen neuer Einträge zu Timesheets
+## Neue Einträge zu Arbeitszeittabellen hinzufügen
 
-Ab der neuen Version der Mobile App können Sie Ihren Timesheets neue Einträge (Projekte, Aufgaben und Probleme) hinzufügen und die Zeit für die Anmeldung festlegen.
+Ab der neuen Version der Mobile App können Sie neue Einträge (Projekte, Aufgaben und Probleme) zu Ihren Arbeitszeittabellen hinzufügen und die Zeit für diese protokollieren.
 
-Vor dieser Aktualisierung war es nur möglich, allgemeine Stunden auf dem Timesheet anzumelden und Zeitpunkte zu Elementen hinzuzufügen, die sich bereits auf Ihrem Timesheet befanden. 
+Vor diesem Update konnten Sie nur allgemeine Stunden in die Arbeitszeittabelle eintragen und Zeit zu Elementen hinzufügen, die bereits auf Ihrer Arbeitszeittabelle waren. 
 
 ## Benutzerdefinierte Formulare bearbeiten
 
@@ -45,14 +45,14 @@ Ab der neuen Version der Mobile App können Sie benutzerdefinierte Formulare fü
 * Probleme
 * Dokumente 
 
-Vor dieser Aktualisierung konnten Sie nur Informationen zu benutzerdefinierten Formularen auf dem Mobilgerät anzeigen. 
+Vor diesem Update konnten Sie nur Informationen zu benutzerdefinierten Formularen auf dem Mobilgerät anzeigen. 
 
-Weitere Informationen zum Bearbeiten benutzerdefinierter Formulare in der Mobile App finden Sie im Abschnitt &quot;Bearbeiten benutzerdefinierter Forms&quot;in .
+Weitere Informationen zum Bearbeiten benutzerdefinierter Formulare in der Mobile App finden Sie im Abschnitt „Bearbeiten benutzerdefinierter Forms&quot; in .
 
-## Sichtbarkeit der Testgenehmigungen in der Mobile App
+## Sichtbarkeit von Korrekturabzugsgenehmigungen in der Mobile App
 
-Ab der neuen Version der Mobile App können Sie Testsendungen von Dokumenten auf Ihrem Mobilgerät genehmigen. Sie erhalten auch eine Benachrichtigung im Bereich Benachrichtigungen, wenn Sie als Genehmiger für einen Testversand benannt sind. 
+Ab der neuen Version der Mobile App können Sie Korrekturabzüge von Dokumenten auf Ihrem Mobilgerät genehmigen. Sie erhalten auch eine Benachrichtigung im Bereich Benachrichtigungen , wenn Sie als genehmigende Person für einen Korrekturabzug angegeben werden. 
 
-Vor dieser Aktualisierung konnten Sie mithilfe der Mobile App Projekt-, Aufgaben-, Problem- und Dokumentgenehmigungen durchführen. Sie benötigen eine Proof HQ-Lizenz, um Dokumentsendungen in der mobilen App zu genehmigen. 
+Vor diesem Update konnten Sie mit der Mobile App Projekt-, Aufgaben-, Problem- und Dokumentengenehmigungen durchführen. Sie benötigen eine Proof HQ-Lizenz, um Korrekturabzüge für die Mobile App zu genehmigen. 
 
-Weitere Informationen zum Testen in Workfront finden Sie im Abschnitt [Testversand](../../../review-and-approve-work/proofing/proofing.md) . 
+Weitere Informationen zum Proofing in Workfront finden Sie [ Abschnitt ](../../../review-and-approve-work/proofing/proofing.md)Proofing“. 

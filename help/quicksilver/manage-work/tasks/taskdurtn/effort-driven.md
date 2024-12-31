@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: task-duration
-title: 'Übersicht über den Durationstyp: Aufwandsorientiert'
-description: '"Anstrengung gesteuert"ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Durationstypen in Workfront finden Sie unter Übersicht über die Aufgabendauer und -dauer.'
+title: 'Übersicht über den Dauertyp: Leistungsgesteuert'
+description: Aufwandsgesteuert ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Dauertypen in Workfront finden Sie unter Übersicht über die Aufgabendauer und den Dauertyp.
 author: Alina
 feature: Work Management
 exl-id: 3c8534f7-02d0-4404-a37b-0ef6360e8efc
@@ -14,31 +14,31 @@ ht-degree: 1%
 
 ---
 
-# Übersicht über den Durationstyp: Aufwandsorientiert
+# Übersicht über den Dauertyp: Leistungsgesteuert
 
-&quot;Anstrengung gesteuert&quot;ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Durationstypen in Workfront finden Sie unter [Übersicht über die Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+Aufwandsgesteuert ist ein Dauertyp, den Sie für eine Aufgabe in Adobe Workfront festlegen können. Allgemeine Informationen zu den Dauertypen in Workfront finden Sie unter [Übersicht über die Aufgabendauer und den Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
 
-## Übersicht über die Dauer des Aufwands
+## Übersicht über den Typ der leistungsgesteuerten Dauer
 
-Ihr Workfront- oder Gruppenadministrator kann den Standardtyp für die Dauer Ihres Systems oder Ihrer Gruppe auf &quot;Aufwandsgesteuert&quot;festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Typ Dauer erstellt. Informationen zum Ändern der Aufgaben- und Ausgabevoreinstellungen als Teil Ihrer Projektanforderungen auf System- oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Ihr Workfront-Administrator oder ein Gruppenadministrator kann den Standarddauertyp Ihres Systems oder Ihrer Gruppe als leistungsgesteuert festlegen. In diesem Fall werden alle neuen Aufgaben mit diesem Dauertyp erstellt. Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme als Teil der Voreinstellungen für Projekte auf Systemebene oder Gruppenebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-In diesem Szenario besteht die Gefahr, den Projektplan willkürlich zu verkürzen, es sei denn, Sie als Projektmanager sollten sich die Zeit nehmen, um zu überlegen, ob es sich bei der Aufgabe tatsächlich um eine Aufgabe handelt, die von Effort geleitet wird.
+In diesem Szenario besteht die Gefahr einer willkürlichen Verkürzung des Projektplans, es sei denn, Sie als Projektmanager nehmen sich die Zeit zu überlegen, ob die Aufgabe tatsächlich eine leistungsgesteuerte Aufgabe ist.
 
-Verwenden Sie die Aufwandsanalyse für Folgendes:
+Nutzung von Effort Driven für:
 
-* Bestimmen Sie die geplante Dauer basierend auf der Anzahl der Ressourcen, die für die Bearbeitung der Aufgabe verfügbar sind. Die Dauer entspricht den geplanten Stunden. Die geplante Dauer entspricht der Anzahl der geplanten Stunden dividiert durch die Anzahl der Bevollmächtigten.
+* Bestimmen Sie die geplante Dauer anhand der Anzahl der für die Arbeit an der Aufgabe verfügbaren Ressourcen. Dauer ist gleich den geplanten Stunden. Die geplante Dauer ist gleich der geplanten Stunden dividiert durch die Anzahl der zugewiesenen Personen.
 
-  Der auf die Aufgabe angewendete Aufwand bestimmt die Arbeitsteilung und Dauer.
+  Die Arbeitsteilung und die Dauer hängen von dem Aufwand für die Aufgabe ab.
 
-* Verfolgen Sie die Gesamtzahl der Stunden, die für eine Aufgabe verbracht wurden, wenn mehrere Ressourcen zugewiesen sind.
+* Verfolgen Sie die Gesamtzahl der Stunden, die mit einer Aufgabe verbracht wurden, wenn mehrere Ressourcen zugewiesen sind.
 
-  Wenn Ressourcen hinzugefügt werden, nimmt die geplante Dauer der Aufgabe ab. (Der Grundsatz &quot;Viele Hände machen Licht funktionieren&quot;zeigt die Auswirkungen dieses Typs auf die geplante Dauer einer Aufgabe.)
+  Durch das Hinzufügen von Ressourcen verringert sich die geplante Dauer der Aufgabe. (Das Prinzip „Viele Hände machen leichte Arbeit“ veranschaulicht den Effekt, den dieser Dauertyp auf die geplante Dauer einer Aufgabe hat.)
 
-In den folgenden Abschnitten finden Sie detailliertere Informationen dazu, wie Workfront die geplante Dauer einer anstrengenden Aufgabe berechnet und wie sich das Hinzufügen von Ressourcen auf die Aufgabe mit diesem Dauerhaltungstyp auswirkt.
+In den folgenden Abschnitten finden Sie genauere Informationen darüber, wie Workfront die geplante Dauer eines leistungsgesteuerten Vorgangs berechnet und welche Auswirkung das Hinzufügen von Ressourcen zu dem Vorgang mit diesem Dauertyp hat.
 
-## Übersicht über die Formel für die Aufwandsgesteuerte Dauer
+## Übersicht über die Formel für den leistungsgesteuerten Dauertyp
 
-Die Formel zur Berechnung der geplanten Dauer einer Aufgabe mit dem Typ Dauer des Aufwands hängt vom Zuordnungsprozentsatz jeder Ressource ab, die der Aufgabe zugewiesen ist. Im Falle einer anstrengenden Aufgabe berechnet Workfront die geplanten Stunden der Aufgabe und sie entsprechen immer der Dauer der Aufgabe:
+Die Formel zur Berechnung der geplanten Dauer für einen Vorgang mit dem Typ „Dauer“ des leistungsgesteuerten Vorgangs hängt vom Zuordnungsprozentsatz jeder Ressource ab, die dem Vorgang zugewiesen ist. Bei einem leistungsgesteuerten Vorgang berechnet Workfront die geplanten Stunden des Vorgangs, wobei diese immer mit der Aufgabendauer übereinstimmen:
 
 ```
 Planned Hours (in hours) = Duration (in days)
@@ -46,20 +46,20 @@ Planned Hours (in hours) = Duration (in days)
 
 Sie können die Dauer der Aufgabe manuell anpassen.
 
-Workfront geht davon aus, dass ein Arbeitstag acht Arbeitsstunden umfasst. Ihr Workfront- oder Gruppenadministrator definiert die Arbeitsstunden pro Arbeitstag mit der Einstellung &quot;Typische Stunden pro Arbeitstag&quot;in den Projektanvoreinstellungen im Setup. Weitere Informationen zum Ändern der Aufgaben- und Problemvoreinstellungen als Teil Ihrer Projektanforderungen auf Systemebene finden Sie unter [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Workfront geht davon aus, dass ein Arbeitstag acht Arbeitsstunden hat. Der Workfront- oder Gruppenadministrator definiert die Stunden pro Arbeitstag mit der Einstellung „Typische Stunden pro Arbeitstag“ in den Projektvoreinstellungen im Setup. Weitere Informationen zum Ändern der Voreinstellungen für Aufgaben und Probleme im Rahmen der Projektvoreinstellungen auf Systemebene finden Sie unter [Konfigurieren von systemweiten Voreinstellungen für Aufgaben und Probleme](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!TIP]
 >
->Workfront berücksichtigt den Zeitplan für jede der Aufgabe zugewiesene Ressource, um den Prozentsatz der Zuordnung für jede Ressource für die Aufgabe zu bestimmen. Informationen zum Erstellen und Zuweisen von Zeitplänen für Benutzer finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+>Workfront berücksichtigt den Zeitplan für jede Ressource, die dem Vorgang zugeordnet ist, um den Prozentsatz der Zuordnung für jede Ressource für den Vorgang zu bestimmen. Informationen zum Erstellen und Zuweisen von Zeitplänen zu Benutzern finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 Betrachten Sie die folgenden Szenarien:
 
-* [Die Ressourcen werden zu 100 % der Aufgabe zugewiesen](#resources-are-allocated-100-to-the-task)
-* [Ressourcen werden für verschiedene Zeitprozentsätze für die Aufgabe zugewiesen](#resources-are-allocated-for-various-percentages-of-time-to-the-task)
+* [Ressourcen werden zu 100 % der Aufgabe zugewiesen](#resources-are-allocated-100-to-the-task)
+* [Die Ressourcen werden der Aufgabe zu unterschiedlichen Prozentsätzen zugewiesen](#resources-are-allocated-for-various-percentages-of-time-to-the-task)
 
-### Die Ressourcen werden zu 100% der Aufgabe zugewiesen. {#resources-are-allocated-100-to-the-task}
+### Ressourcen werden zu 100 % der Aufgabe zugewiesen {#resources-are-allocated-100-to-the-task}
 
-Bei dieser Formel wird davon ausgegangen, dass der Aufgabe alle Ressourcen zu 100 % zugewiesen sind.
+Bei dieser Formel wird davon ausgegangen, dass alle Ressourcen zu 100 % der Aufgabe zugewiesen sind.
 
 ```
 Planned Duration = (Planned Hours / Number of Resources) / 8
@@ -67,9 +67,9 @@ Planned Duration = (Planned Hours / Number of Resources) / 8
 
 Bei dieser Berechnung wird davon ausgegangen, dass die Anzahl der Stunden an einem normalen Arbeitstag 8 beträgt. Die Gleichung enthält diesen Wert, sodass die geplante Dauer in Tagen angezeigt wird.
 
-### Ressourcen werden für verschiedene Zeitprozentsätze für die Aufgabe zugewiesen {#resources-are-allocated-for-various-percentages-of-time-to-the-task}
+### Die Ressourcen werden der Aufgabe zu unterschiedlichen Prozentsätzen zugewiesen {#resources-are-allocated-for-various-percentages-of-time-to-the-task}
 
-Da jede zugewiesene Ressource über eine eindeutige Zuordnungsebene verfügen kann, berücksichtigt die aktuelle Formel die folgenden Zuordnungswerte:
+Da jede zugewiesene Ressource über eine eindeutige Zuordnungsebene verfügen kann, berücksichtigt die tatsächliche Formel diese Zuordnungswerte:
 
 ```
 Planned Duration = (Planned Hours / SUM(Percent allocation for each resource for the task)) / 8
@@ -77,17 +77,17 @@ Planned Duration = (Planned Hours / SUM(Percent allocation for each resource for
 
 Bei dieser Berechnung wird davon ausgegangen, dass die Anzahl der Stunden an einem normalen Arbeitstag 8 beträgt. Die Gleichung enthält diesen Wert, sodass die geplante Dauer in Tagen angezeigt wird.
 
-## Das Hinzufügen von mehr Ressourcen zu einer Aufgabe
+## Das Hinzufügen weiterer Ressourcen zu einer Aufgabe
 
-Beim Hinzufügen oder Entfernen von Bevollmächtigten zu einer Aufgabe mit dem Typ &quot;Aufwandsgesteuerte Dauer&quot;, &quot;Dauer&quot;und &quot;Geplante Stunden&quot;ändern sich nicht. Die geplante Dauer ändert sich jedoch.
+Beim Hinzufügen oder Entfernen von Zugewiesenen zu einer Aufgabe mit dem Typ „Arbeitsgesteuerte Dauer“ ändern sich die Dauer und die geplanten Stunden nicht. Die geplante Dauer ändert sich jedoch.
 
-Im folgenden Beispiel ist die Standardzeit pro Arbeitstag in den Projekteinstellungen in Ihrem System-Setup auf 8 gesetzt. Da die Dauer 3 Tage beträgt, wird die geplante Stunde auf 24 Tage eingestellt (3 Tage x 8 Stunden pro Arbeitstag = 24 geplante Stunden).
+Im folgenden Beispiel ist die Option Typische Stunden pro Arbeitstag in den Projektvoreinstellungen in Ihrem System-Setup auf 8 festgelegt. Da die Dauer 3 Tage beträgt, wird die geplante Stunde auf 24 festgelegt (3 Tage x 8 Stunden pro Arbeitstag = 24 geplante Stunden).
 
 >[!NOTE]
 >
->Bei der Verwendung der Task-Beschränkung &quot;Feste Datumswerte&quot;bleibt die geplante Dauer beim Hinzufügen oder Entfernen von Bevollmächtigten gleich. Stattdessen werden die Dauer und die geplanten Stunden angepasst. Bei Verwendung einer anderen Aufgabenbegrenzung als &quot;Feste Datumswerte&quot;wird die geplante Dauer angepasst.
+>Bei Verwendung der Aufgabenbeschränkung Feste Daten bleibt die geplante Dauer beim Hinzufügen oder Entfernen von Beauftragten gleich. Stattdessen werden die Dauer und die geplanten Stunden angepasst. Bei Verwendung einer anderen Aufgabenbeschränkung als „Festes Datum“ wird die geplante Dauer angepasst.
 
-Die folgende Tabelle zeigt, wie sich die geplante Dauer ändert, indem Ressourcen zur Aufgabe hinzugefügt werden:
+Die folgende Tabelle zeigt, wie sich die geplante Dauer durch das Hinzufügen von Ressourcen zur Aufgabe ändert:
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -98,7 +98,7 @@ Die folgende Tabelle zeigt, wie sich die geplante Dauer ändert, indem Ressource
  <thead> 
   <tr> 
    <th> </th> 
-   <th> <p><strong>Anzahl der zugewiesenen Personen (jeweils 100 %)</strong> </p> </th> 
+   <th> <p><strong>Anzahl der Zugewiesenen (jeweils 100 % zugewiesen)</strong> </p> </th> 
    <th> <p><strong>Dauer</strong> </p> </th> 
    <th> <p><strong>Geplante Stunden</strong> </p> </th> 
    <th><strong>Geplante Dauer</strong> </th> 
@@ -110,28 +110,28 @@ Die folgende Tabelle zeigt, wie sich die geplante Dauer ändert, indem Ressource
    <td> <p>1</p> </td> 
    <td> <p>3 Tage</p> </td> 
    <td> <p>24 Stunden</p> <p>(3 Tage x 8 Stunden pro Arbeitstag = 24 geplante Stunden)</p> </td> 
-   <td> <p>3 Tage</p> <p>(24 geplante Stunden / 1 Bevollmächtigter = 3 Tage)</p> </td> 
+   <td> <p>3 Tage</p> <p>(24 geplante Stunden / 1 Verantwortlicher = 3 Tage)</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> <p>2</p> </td> 
    <td> <p>3 Tage</p> </td> 
    <td> <p>24 Stunden</p> <p>(3 Tage x 8 Stunden pro Arbeitstag = 24 geplante Stunden)</p> </td> 
-   <td> <p>1,5 Tage</p> <p>(24 geplante Stunden/ 2 Zuweisung = 12 Stunden oder 1,5 Tage)</p> </td> 
+   <td> <p>1,5 Tage</p> <p>(24 geplante Stunden / 2 Empfänger = 12 Stunden oder 1,5 Tage)</p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> <p>3</p> </td> 
    <td> <p>3 Tage</p> </td> 
    <td> <p>24 Stunden</p> <p>(3 Tage x 8 Stunden pro Arbeitstag = 24 geplante Stunden)</p> </td> 
-   <td> <p>1 Tag</p> <p>(24 geplante Stunden/ 3 Zuweisung = 8 Stunden oder 1 Tag)</p> </td> 
+   <td> <p>1 Tag</p> <p>(24 geplante Stunden / 3 Bevollmächtigte = 8 Stunden oder 1 Tag)</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Ändern Sie die Dauer einer Aufgabe in &quot;Anstrengung gesteuert&quot;
+## Ändern des Dauertyps einer Aufgabe in „Leistungsgesteuert“
 
-Weitere Informationen zum Ändern des Dauer-Typs einer Aufgabe finden Sie unter [Aktualisieren des Dauer-Typs einer Aufgabe](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
+Informationen zum Ändern des Dauertyps einer Aufgabe finden Sie unter [Aktualisieren des Dauertyps einer Aufgabe](../../../manage-work/tasks/taskdurtn/update-duration-type-of-task.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: replaced with new article linked above)</p>

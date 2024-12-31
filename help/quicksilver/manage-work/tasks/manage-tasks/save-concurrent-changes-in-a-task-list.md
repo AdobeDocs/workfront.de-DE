@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-tasks
-title: Übersicht über das Speichern gleichzeitiger Änderungen in einer Aufgabenliste
-description: Wenn Sie Aufgaben in einer Liste bearbeiten, können Sie separate Speichereinstellungen verwenden, um anzugeben, ob Ihre Änderungen beim Bearbeiten von Aufgaben in einer Liste automatisch gespeichert werden sollen.
+title: Überblick über das Speichern gleichzeitiger Änderungen in einer Aufgabenliste
+description: Wenn Sie Aufgaben in einer Liste bearbeiten, können Sie separate Speichereinstellungen verwenden, um anzugeben, ob Ihre Änderungen beim Bearbeiten von Aufgaben in einer Liste manuell gespeichert werden sollen.
 author: Alina
 feature: Work Management
 exl-id: dff52425-4711-40a8-8f40-205d75c506ef
@@ -13,32 +13,32 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über das Speichern gleichzeitiger Änderungen in einer Aufgabenliste
+# Überblick über das Speichern gleichzeitiger Änderungen in einer Aufgabenliste
 
-Wenn Sie Aufgaben in einer Liste bearbeiten, können Sie separate Speichereinstellungen verwenden, um anzugeben, ob Ihre Änderungen beim Bearbeiten von Aufgaben in einer Liste automatisch gespeichert werden sollen.
+Wenn Sie Aufgaben in einer Liste bearbeiten, können Sie separate Speichereinstellungen verwenden, um anzugeben, ob Ihre Änderungen beim Bearbeiten von Aufgaben in einer Liste manuell gespeichert werden sollen.
 
-Informationen zum Bearbeiten von Aufgaben in einer Aufgabenliste finden Sie im Artikel [Aufgaben in einer Liste bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
+Informationen zum Bearbeiten von Aufgaben in einer Aufgabenliste finden Sie im Artikel [Bearbeiten von Aufgaben in einer Liste](../../../manage-work/tasks/manage-tasks/edit-tasks-in-a-list.md).
 
 Manchmal können Konflikte auftreten, wenn zwei Benutzer Änderungen an denselben Aufgaben vornehmen.
 
 Beachten Sie beim Bearbeiten von Aufgaben in einer Aufgabenliste Folgendes:
 
-* Adobe Workfront speichert die Änderungen, die Sie an Aufgaben vornehmen, sofort, wenn Sie auswählen, Ihre Änderungen automatisch zu speichern, wenn der Projektaktualisierungstyp automatisch oder Automatisch oder Bei Änderung ist. Weitere Informationen zum Projektaktualisierungstyp finden Sie unter [Auswählen des Aktualisierungstyps für das Projekt](../../../manage-work/projects/manage-projects/select-project-update-type.md).
-* Workfront aktualisiert die Informationen in der Liste, an der Sie jede Minute arbeiten, mit Änderungen, die andere Benutzer an einer anderen Stelle im System vornehmen können. Dadurch wird sichergestellt, dass Sie stets die neuesten Informationen zu den Aufgaben erhalten.
+* Adobe Workfront speichert die Änderungen, die Sie an Aufgaben vornehmen, sofort, wenn Sie Ihre Änderungen automatisch speichern möchten, falls der Projektaktualisierungstyp „Automatisch“, „Automatisch“ oder „Bei Änderung“ ist. Informationen zum Projektaktualisierungstyp finden Sie unter [Auswahl des Projektaktualisierungstyps](../../../manage-work/projects/manage-projects/select-project-update-type.md).
+* Workfront aktualisiert die Informationen auf der Liste, an der Sie arbeiten, minütlich mit Änderungen, die andere Benutzer an einer anderen Stelle im System vornehmen könnten. Dadurch wird sichergestellt, dass Sie immer die neuesten Informationen zu den Aufgaben erhalten.
 
-Die folgenden Szenarien existieren, wenn mehrere Benutzer dieselben Aufgaben bearbeiten:
+Die folgenden Szenarien bestehen, wenn mehrere Benutzer dieselben Aufgaben bearbeiten:
 
-* **Ein Benutzer speichert die Änderungen automatisch in einer Aufgabenliste und ein anderer manuell**: Wenn ein Benutzer (Benutzer A) die Änderungen manuell speichert, während Benutzer B dieselben Aufgaben bearbeitet, aber die Änderungen automatisch speichert, werden die von Benutzer B vorgenommenen Live-Änderungen jede Minute in der Liste für Benutzer A aktualisiert. Wenn es Konflikte zwischen den von den beiden Benutzern vorgenommenen Änderungen gibt, wird dem Benutzer beim manuellen Speichern (Benutzer A) eine Warnmeldung angezeigt, bevor er seine Änderungen speichern kann. Die Warnmeldung zeigt die Elemente an, bei denen der Konflikt auftritt. Zu diesem Zeitpunkt kann Benutzer A auswählen, ob er seine Änderungen beibehalten (wodurch die von Benutzer B vorgenommenen Änderungen überschrieben werden) oder sie verwerfen soll (wodurch die von Benutzer B vorgenommenen Änderungen beibehalten werden).
+* **Ein(e) Benutzende(r) speichert die Änderungen in einer Aufgabenliste automatisch und ein(e) andere(r) manuell**: Wenn ein(e) Benutzende(r) (Benutzer A) Änderungen manuell speichert, während Benutzer B dieselben Aufgaben bearbeitet, seine Änderungen jedoch automatisch speichert, werden die von Benutzer B vorgenommenen Live-Änderungen jede Minute in der Liste für Benutzer A aktualisiert. Wenn es Konflikte zwischen den Änderungen gibt, die von den beiden Benutzern vorgenommen wurden, wird beim manuellen Speichern (Benutzer A) eine Warnmeldung angezeigt, bevor die Änderungen gespeichert werden können. Die Warnmeldung zeigt die Elemente an, bei denen die Änderungen widersprüchlich sind. Zu diesem Zeitpunkt kann Benutzer A wählen, ob seine Änderungen beibehalten (wodurch die von Benutzer B vorgenommenen Änderungen überschrieben werden) oder verworfen werden sollen (wodurch die von Benutzer B vorgenommenen Änderungen beibehalten werden).
 
 >[!NOTE]
 >
->Wenn Sie die vorgenommenen Änderungen verwerfen, gilt dies für alle Änderungen und nicht nur für Änderungen, die in Konflikt mit den von einem anderen Benutzer vorgenommenen Änderungen stehen.
+>Wenn Sie die von Ihnen vorgenommenen Änderungen verwerfen, gilt dies für alle Änderungen und nicht nur für die Änderungen, die mit den von einem anderen Benutzer vorgenommenen Änderungen in Konflikt stehen.
 
-* **Mehrere Benutzer speichern die Änderungen manuell in einer Aufgabenliste**: Wenn mehrere Benutzer, die Änderungen an Aufgaben in einer Liste vornehmen, gleichzeitig manuell speichern, speichert Workfront die Änderungen, die von dem Benutzer vorgenommen wurden, der zuerst speichert. Das Speichern dieser Änderungen sollte keine Konflikte verursachen. Workspace vergleicht dann die von allen anderen Benutzern vorgenommenen Änderungen mit den bereits gespeicherten Informationen und zeigt eine Warnung zu den widersprüchlichen Änderungen an den anderen Benutzern an, bevor diese ihre Informationen speichern können.
+* **Mehrere Benutzer speichern die Änderungen in einer Aufgabenliste manuell**: Wenn mehrere Benutzer, die Änderungen an Aufgaben in einer Liste vornehmen, gleichzeitig manuell speichern, speichert Workfront die Änderungen, die von dem Benutzer vorgenommen wurden, der zuerst speichert. Beim Speichern dieser Änderungen sollten keine Konflikte auftreten. Workfront vergleicht dann die von allen anderen Benutzern vorgenommenen Änderungen mit den bereits gespeicherten Informationen und zeigt eine Warnung zu den widersprüchlichen Änderungen an den anderen Benutzern an, bevor diese ihre Informationen speichern können.
 
 >[!IMPORTANT]
 >
->Wenn Sie festlegen, dass Ihre Änderungen über alle anderen Änderungen hinweg beibehalten werden sollen, werden alle Ihre Änderungen gespeichert, es sei denn, die Aufgaben, an denen Sie Änderungen vorgenommen haben, wurden von einem anderen Benutzer gelöscht. In diesem Fall werden Sie in der Warnmeldung darüber informiert, dass die Änderungen, die Sie an den gelöschten Aufgaben vorgenommen haben, verloren gehen.
+>Wenn Sie auswählen, dass Ihre Änderungen über allen anderen Änderungen bleiben sollen, werden alle Ihre Änderungen gespeichert, es sei denn, die Aufgaben, an denen Sie Änderungen vorgenommen haben, wurden von einem anderen Benutzer gelöscht. In diesem Fall werden Sie durch die Warnmeldung darüber informiert, dass die von Ihnen an den gelöschten Aufgaben vorgenommenen Änderungen verloren gehen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode"> 

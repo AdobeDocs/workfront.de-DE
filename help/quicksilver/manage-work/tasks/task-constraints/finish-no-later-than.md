@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint overview: Finish No Later Than"
-description: '"Finish No Later Than (FNLT)"ist eine Aufgabenbegrenzung, die den Abschluss einer Aufgabe vor dem angegebenen Datum plant.'
+title: 'Aufgabenbeschränkung - Übersicht: spätestens beenden'
+description: „Spätestes Ende“ (FNLT) ist eine Aufgabenbeschränkung, die einen Vorgang so terminiert, dass er vor dem angegebenen Datum abgeschlossen wird.
 author: Alina
 feature: Work Management
 exl-id: ea0e74fb-45a0-4466-b57d-294a9babb340
@@ -14,33 +14,33 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbegrenzungen: Später beenden
+# Aufgabenbeschränkung - Übersicht: spätestens beenden
 
-&quot;Finish No Later Than (FNLT)&quot;ist eine Aufgabenbegrenzung, die den Abschluss einer Aufgabe vor dem angegebenen Datum plant.
+„Spätestes Ende“ (FNLT) ist eine Aufgabenbeschränkung, die einen Vorgang so terminiert, dass er vor dem angegebenen Datum abgeschlossen wird.
 
-## Übersicht über die Beschränkung &quot;Nicht später als&quot;beenden
+## Übersicht über die Bedingung „Spätestens am“
 
-Beachten Sie Folgendes bei Verwendung der Beschränkung &quot;Finish No Later Than (FNLT)&quot;für eine Aufgabe:
+Beachten Sie Folgendes, wenn Sie die Einschränkung Beenden nicht später als (FNLT) für eine Aufgabe verwenden:
 
-* Sie sollten diese Einschränkung verwenden, wenn das Projekt ab Startdatum geplant ist. In diesem Fall können Sie eine weiche Einschränkung für eine Aufgabe festlegen, bevor andere abhängige Aufgaben als &quot;Risiko&quot;angezeigt werden.
-* Wenn Sie die FNLT-Einschränkung mit einem Projekt &quot;Zeitplan ab Abschlussdatum&quot;verwenden, plant diese Einschränkung die Aufgabe so wie eine Aufgabe, die so spät wie möglich ist.
-* Wenn Sie eine Aufgabe mit einer FNET-Einschränkung in ein anderes Projekt verschieben oder kopieren, können sich die Beschränkung der Aufgabe oder die Daten des Projekts je nach dem, was die Beschränkungsdaten sind und was die Start- und Abschlussdaten des Projekts sind, ändern. Die folgenden Szenarien existieren:
+* Sie sollten diese Einschränkung verwenden, wenn das Projekt ab Startdatum geplant wird. In diesem Fall können Sie eine weiche Begrenzung für eine Aufgabe bereitstellen, bevor andere abhängige Aufgaben als gefährdet angezeigt werden.
+* Wenn Sie die FNLT-Beschränkung mit einem Projekt „Zeitplan ab Abschlussdatum“ verwenden, plant diese Beschränkung die Aufgabe so, wie es bei einer Aufgabe mit möglichst spätem Datum der Fall wäre.
+* Wenn Sie einen Vorgang mit einer FNET-Einschränkung in ein anderes Projekt verschieben oder kopieren, kann sich die Einschränkung für den Vorgang oder die Termine des Projekts ändern, je nachdem, welche Einschränkungstermine es gibt und welches Start- und Abschlussdatum das Projekt hat. Die folgenden Szenarien sind vorhanden:
 
    * Wenn das Zielprojekt von Anfang an geplant ist:
 
-      * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in So bald wie möglich.
-      * Wenn das Beschränkungsdatum der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegt, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Abschlussdatum der Aufgabe.
+      * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So bald wie möglich.
+      * Wenn das Einschränkungsdatum der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegt, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Einschränkungsdatum der Aufgabe.
 
-      * Wenn das Zielprojekt nach Abschluss geplant wird:
+      * Wenn das Zielprojekt für den Abschluss geplant ist:
 
-         * Wenn das Beschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
-         * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts entsprechend dem Startbegrenzungsdatum der Aufgabe.
+         * Wenn das Einschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So spät wie möglich.
+         * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts, sodass es dem Starteinschränkungsdatum der Aufgabe entspricht.
 
-      * Wenn das Beschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Zeitplan des Projekts keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten.
+      * Wenn das Einschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Projektplan keine Änderungen an der Aufgabenbeschränkung oder den Projektdaten.
 
-  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Informationen zum Aktualisieren der Aufgabenbeschränkung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbeschränkung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

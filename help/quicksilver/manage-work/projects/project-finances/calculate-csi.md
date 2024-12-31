@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Calculate Cost Schedule Performance Index (CSI)
-description: Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die den Cost Performance Index (CPI) und Schedule Performance Index (SPI) in einer allgemeinen Metrik kombiniert, die Kosten und Zeitplan ausgleicht.
+title: Kostenplan-Leistungsindex (CSI) berechnen
+description: Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die den Cost Performance Index (CPI) und den Schedule Performance Index (SPI) zu einer allgemeinen Kennzahl kombiniert, die Kosten und Zeitplan ausgleicht.
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
@@ -14,55 +14,55 @@ ht-degree: 0%
 
 ---
 
-# Calculate Cost Schedule Performance Index (CSI)
+# Kostenplan-Leistungsindex (CSI) berechnen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.) </p>
 -->
 
-## Übersicht über den CSI (Cost Schedule Performance Index)
+## Übersicht über den Kostenplan-Leistungsindex (CSI)
 
-Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die den Cost Performance Index (CPI) und Schedule Performance Index (SPI) in einer allgemeinen Metrik kombiniert, die Kosten und Zeitplan ausgleicht. Durch Multiplikation dieser Werte kann eine einzelne Metrik einen längeren Zeitplan mit einem niedrigeren Budget berücksichtigen oder umgekehrt. Projektmanager können dies verwenden, um den allgemeinen Projekt- oder Aufgabenstatus zu bestimmen, wenn Kosten geopfert werden, um die Planung während des Projekts voranzutreiben.
+Der Cost Schedule Performance Index (CSI) ist eine automatische Berechnung, die den Cost Performance Index (CPI) und den Schedule Performance Index (SPI) zu einer allgemeinen Kennzahl kombiniert, die Kosten und Zeitplan ausgleicht. Indem Sie diese Werte miteinander multiplizieren, kann eine einzelne Metrik einen längeren Zeitplan mit einem niedrigeren Budget berücksichtigen oder umgekehrt. Projektmanager können dies verwenden, um den allgemeinen Projekt- oder Aufgabenzustand zu bestimmen, wenn Kosten geopfert werden, um den Zeitplan während des Projekts zu erstellen.
 
 >[!TIP]
 >
->Adobe Workfront berechnet CSI für Aufgaben und Projekte. Workfront berechnet keinen CSI-Wert für Probleme.
+>Adobe Workfront berechnet CSI sowohl für Aufgaben als auch für Projekte. Workfront berechnet keinen CSI-Wert für Probleme.
 
-Sie können von den Informationen dieser Metrik nur profitieren, wenn in Ihrer Organisation Folgendes vorhanden ist:
+Sie können von den von dieser Metrik bereitgestellten Informationen nur profitieren, wenn in Ihrem Unternehmen Folgendes vorhanden ist:
 
-* Ihre Benutzer protokollieren die Zeit für die Arbeit, die sie abgeschlossen haben.\
-  Dies berechnet CSI auf der Grundlage von Stunden.
-* Ihren Benutzern oder Auftragseinheiten sind die Kosten pro Stunde zugeordnet. 
+* Ihre Benutzer protokollieren Zeit für die Arbeit, die sie abschließen.\
+  CSI wird anhand der Stunden berechnet.
+* Ihren Benutzern oder Aufgabengebieten sind Kosten pro Stunde zugeordnet. 
 
-  Dies berechnet CSI auf der Grundlage der Kosten.
+  Diese berechnet CSI auf der Grundlage der Kosten.
 
-## Berechnung des CSI (Cost Schedule Performance Index) durch Workfront
+## So berechnet Workfront den Kostenplan-Leistungsindex (CSI)
 
-Workfront berechnet den CSI (Cost Performance Index) eines Projekts oder einer Aufgabe mithilfe der folgenden Formel:
+Workfront berechnet den Kostenentwicklungsindex (Cost Performance Index, CSI) eines Projekts oder einer Aufgabe anhand der folgenden Formel:
 
 `CSI = CPI x SPI`
 
-Weitere Informationen zu CPI finden Sie im Artikel [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
+Informationen zum CPI finden Sie im Artikel [Calculate Cost Performance Index (CPI)](../../../manage-work/projects/project-finances/calculate-cpi.md).
 
-Weitere Informationen zu SPI finden Sie im Artikel [Calculate Schedule Performance Index (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
+Informationen zu SPI finden Sie im Artikel [Calculate Schedule Performance Index (SPI)](../../../manage-work/projects/project-finances/calculate-spi.md).
 
 CSI hat die folgenden drei möglichen Werte:
 
-* 1 = entspricht dem Gesamtplan
-* \>1 = Unter Budgetplankombination
-* &lt;1) Kombination aus Budgetplankombinationen
+* 1= Folgt dem Gesamtplan
+* \>1 = Kombination aus Unterbudgetplan
+* &lt;1 = Kombination aus überbudgetiertem Zeitplan
 
 ![](assets/csi-highlighted.png)
 
-## Suchen Sie den CSI (Cost Schedule Performance Index).
+## Suchen Sie den Kostenplan-Leistungsindex (CSI)
 
 >[!CAUTION]
 >
->Sie müssen Zugriff auf &quot;Finanzdaten anzeigen&quot;in Ihrer Zugriffsebene haben und berechtigt sein, das Projekt oder die Aufgabe anzuzeigen, um den CSI-Wert eines Projekts oder einer Aufgabe sehen zu können.
+>Sie müssen Zugriff auf die Anzeige von Finanzdaten in Ihrer Zugriffsebene und auf die Berechtigungen zum Anzeigen des Projekts oder der Aufgabe haben, um den CSI-Wert eines Projekts oder einer Aufgabe sehen zu können.
 
-Sie finden CSI in den folgenden Bereichen von Workfront:
+Sie können CSI in den folgenden Bereichen von Workfront finden:
 
-* Finanzbereich im Abschnitt Projektdetails .
-* Finanzbereich im Abschnitt &quot;Aufgabendetails&quot;.
+* Finanzbereich im Abschnitt Projektdetails.
+* Finanzbereich im Abschnitt „Aufgabendetails“
 * Projekt- oder Aufgabenansicht
-* Projekt- oder Aufgabenbericht
+* Ein Projekt- oder Aufgabenbericht

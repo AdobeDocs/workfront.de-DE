@@ -15,51 +15,51 @@ ht-degree: 0%
 
 # 20.4 Verbesserungen bei Mobile und Integration
 
-Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 20.4 der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden in der Produktionsumgebung ab dem 9. November 2020 verfügbar sein.
+Auf dieser Seite werden alle mit Version 20.4 vorgenommenen Verbesserungen an Mobilgeräten in der Vorschau-Umgebung beschrieben. Diese Verbesserungen werden in der Woche vom 9. November 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller in Version 20.4 verfügbaren Änderungen finden Sie unter [20.4 - Versionsübersicht](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
+Eine Liste aller mit Version 20.4 verfügbaren Änderungen finden Sie unter Übersicht über Version [20.4](../../../product-announcements/product-releases/20.4-release-activity/20-4-release-overview.md).
 
-## Funktion in Benachrichtigungen zu Microsoft Teams hinzugefügt
+## Funktion in Microsoft Teams-Benachrichtigungen hinzugefügt
 
 >[!NOTE]
 >
->Diese Funktion ist noch nicht verfügbar, wird aber in Kürze in die Vorschau-Umgebung übernommen. Es wird mit Version 20.4 in der Produktion verfügbar gemacht.
+>Diese Funktion ist noch nicht verfügbar, wird aber bald in der Vorschau-Umgebung verfügbar sein. Es wird mit Version 20.4 in der Produktionsumgebung verfügbar gemacht.
 
 Um die Verwendung von Workfront über Microsoft Teams zu vereinfachen, haben wir einige neue Funktionen zu Microsoft Teams-Benachrichtigungen hinzugefügt, die von Workfront gesendet werden.
 
-* Wir haben die Arten von Benachrichtigungen erweitert, die Sie in Microsoft Teams empfangen können. Jetzt können Sie Benachrichtigungen über eine größere Vielfalt von Ereignissen erhalten, z. B. wenn jemand auf Ihrem Timesheet Kommentare abgibt oder Sie ein Dokument genehmigen möchten.
-* Sie können nun direkt in der Benachrichtigung Kommentare und Antworten senden. Ihre Kommentare und Antworten werden in Workfront im Aktualisierungsstream des Arbeitselements angezeigt.
-* Wir haben es Ihnen ermöglicht, die benutzerdefinierten Formulare eines Arbeitselements in der Benachrichtigung anzuzeigen und das benutzerdefinierte Formular zu erweitern, um seine Felder anzuzeigen.
+* Die Benachrichtigungstypen, die Sie in Microsoft Teams erhalten können, wurden erweitert. Jetzt können Sie Benachrichtigungen über eine größere Vielfalt von Ereignissen erhalten, z. B. wenn jemand Ihre Arbeitszeittabelle kommentiert oder Sie ein Dokument genehmigen möchten.
+* Jetzt können Sie direkt in der Benachrichtigung Kommentare eingeben und antworten. Ihre Kommentare und Antworten werden in Workfront im Aktualisierungsverlauf des Arbeitselements angezeigt.
+* Wir haben es Ihnen ermöglicht, die benutzerdefinierten Formulare eines Arbeitselements in der Benachrichtigung zu sehen und das benutzerdefinierte Formular zu erweitern, um die Felder zu sehen.
 * Wenn Sie eine Benachrichtigung über ein Projekt, eine Aufgabe oder ein Problem erhalten, können Sie jetzt den Status des Arbeitselements direkt in der Benachrichtigung ändern.
 
-Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrichtigungen in Microsoft Teams](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
+Weitere Informationen finden Sie unter [Verwalten von Adobe Workfront-Benachrichtigungen in Microsoft Teams ](../../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/manage-wf-notifications-approval-requests-ms-teams.md).
 
 ## Einführung in Workfront für MobileIron
 
-Workfront arbeitet mit der Mobile Device Management (MDM)-Plattform MobileIron zusammen, um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.
+Workfront ist eine Partnerschaft mit MobileIron eingegangen, einer MDM-Plattform (Mobile Device Management), um Unternehmen ein sichereres und kontrollierteres mobiles Erlebnis zu bieten.
 
-Mit Workfront für MobileIron können Administratoren die Funktionen zum Kopieren/Einfügen und die Bildschirmaufzeichnung einschränken. Sie können die App Workfront for MobileIron unter [https://marketplace.mobileiron.com/listing/workfront](https://marketplace.mobileiron.com/listing/workfront) herunterladen.
+Mit Workfront für MobileIron können Admins Funktionen wie Kopieren/Einfügen und Bildschirmaufnahmen einschränken. Sie können die App &quot;Workfront for MobileIron“ unter [https://marketplace.mobileiron.com/listing/workfront herunterladen](https://marketplace.mobileiron.com/listing/workfront).
 
 Informationen zum Konfigurieren der App finden Sie unter [Konfigurieren von Adobe Workfront für MobileIron](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/wf-mobileiron-configs.md).
 
-## Schnelles Erstellen einer Aufgabe in der mobilen Workfront-App
+## Schnelles Erstellen einer Aufgabe in der Workfront Mobile App
 
-Verwenden Sie die neue Schnellzugriffsoption in der mobilen Workfront-App, um schnell Aufgaben zu erstellen. Geben Sie einfach den Namen der Aufgabe ein und fügen Sie eventuell vorhandene Dokumente hinzu. Sie können bei Bedarf weitere Felder wie Beschreibungen und Zuweisungen ausfüllen. Klicken Sie einfach auf den Pfeil rechts neben dem Aufgabennamen.
+Verwenden Sie die neue Schnellaufgabenoption in der Workfront-Mobile-App, um schnell Aufgaben zu erstellen. Geben Sie einfach den Aufgabennamen ein und fügen Sie die Dokumente bei. Sie können bei Bedarf weitere Felder wie Beschreibungen und Zuweisungen ausfüllen. Klicken Sie einfach auf den Pfeil rechts neben dem Aufgabennamen.
 
-Zuvor waren die Beschreibungen und Zuweisungsfelder beim Erstellen einer Aufgabe immer sichtbar.
+Zuvor waren die Felder Beschreibung und Zuweisungen beim Erstellen einer Aufgabe immer sichtbar.
 
 Weitere Informationen finden Sie unter
 
 * [Adobe Workfront für iOS](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md)
 * [Adobe Workfront für Android](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md)
 
-## Hilfe mit den virtuellen Assistenzbefehlen von Workfront Mobile
+## Hilfe zu den virtuellen Assistentenbefehlen von Workfront Mobile
 
-In der Mobile App können Sie den virtuellen Assistenten bitten, Ihnen mit den folgenden Befehlen zu helfen:
+Während Sie in der Mobile App sind, können Sie den virtuellen Assistenten bitten, Ihnen bei Befehlen zu helfen, indem Sie Folgendes sagen:
 
-* &quot;Was kann ich tun?&quot;
-* &quot;Hilf mir mit Befehlen.&quot;
+* „Was kann ich tun?“
+* „Hilf mir mit Befehlen.“
 
-Diese Befehle zeigen eine Liste der verschiedenen Dinge an, über die Sie den Assistenten fragen können.
+Diese Befehle zeigen eine Liste der verschiedenen Fragen an, die Sie dem Assistenten stellen können.
 
-**Hinweis: Der mobile virtuelle Assistent für Mobilgeräte wird seit April 2024 nicht mehr unterstützt.**
+**Hinweis: Der mobile virtuelle Assistent wird seit April 2024 nicht mehr unterstützt.**

@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: task-information
-title: Tracking-Modus für Aufgaben festlegen
-description: Der Tracking-Modus einer Aufgabe bestimmt, wie der Status des Aufgabenfortschritts in Adobe Workfront aktualisiert wird.
+title: Festlegen des Überwachungsmodus für Aufgaben
+description: Der Überwachungsmodus einer Aufgabe bestimmt, wie der Aufgabenstatus in Adobe Workfront aktualisiert wird.
 author: Alina
 feature: Work Management
 exl-id: 751071b4-3716-4153-97fe-4fe0ebc7cbb0
@@ -13,11 +13,11 @@ ht-degree: 2%
 
 ---
 
-# Tracking-Modus für Aufgaben festlegen
+# Festlegen des Überwachungsmodus für Aufgaben
 
-Der Tracking-Modus einer Aufgabe bestimmt, wie der Status des Aufgabenfortschritts in Adobe Workfront aktualisiert wird.
+Der Überwachungsmodus einer Aufgabe bestimmt, wie der Aufgabenstatus in Adobe Workfront aktualisiert wird.
 
-Informationen zum Tracking-Modus für Aufgaben finden Sie unter [Übersicht über den Task Tracking Mode](../../../manage-work/tasks/task-information/task-tracking-mode.md).
+Informationen zum Tracking-Modus für Aufgaben finden Sie unter [Übersicht über den Tracking-Modus für Aufgaben](../../../manage-work/tasks/task-information/task-tracking-mode.md).
 
 ## Zugriffsanforderungen
 
@@ -60,46 +60,46 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a>*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
    <td> <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben bearbeiten </p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a></p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Aufgaben bearbeiten </p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Adobe Workfront-Lizenzen - Übersicht</a></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für eine Aufgabe verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für eine Aufgabe</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Tracking-Modus für Aufgaben festlegen
+## Festlegen des Überwachungsmodus für Aufgaben
 
 So legen Sie den Tracking-Modus fest:
 
 1. Gehen Sie zu der Aufgabe, für die Sie den Tracking-Modus festlegen möchten.
-1. Klicken Sie auf das Symbol **Mehr** ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Aufgabe und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie auf **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)neben dem Namen der Aufgabe und dann auf **Bearbeiten**.
 
    Das Dialogfeld Aufgabe bearbeiten wird geöffnet.
 
-1. Wählen Sie im Abschnitt **Einstellungen** im Dropdown-Menü **Tracking-Modus** den Tracking-Modus für die Aufgabe aus.
+1. Wählen Sie **Abschnitt** im Dropdown-Menü **Überwachungsmodus** den Überwachungsmodus für die Aufgabe aus.
 
    ![](assets/tracking-mode-field-in-edit-task-settings-nwe-350x233.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
    * Benutzer muss aktualisieren (dies ist die Standardoption)
-   * Einschaltzeit
+   * Annahme: Pünktlich
    * Späte Warnungen ignorieren
-   * Auto Complete
+   * Automatisch vervollständigen
    * Vorgänger
 
-   Weitere Informationen zu den Optionen für den Tracking-Modus finden Sie unter [Übersicht über den Task Tracking Mode](../../../manage-work/tasks/task-information/task-tracking-mode.md)
+   Weitere Informationen zu den Optionen für den Tracking-Modus finden Sie unter [Übersicht über den Tracking-Modus für Aufgaben](../../../manage-work/tasks/task-information/task-tracking-mode.md)
 
 1. Klicken Sie auf **Speichern**.

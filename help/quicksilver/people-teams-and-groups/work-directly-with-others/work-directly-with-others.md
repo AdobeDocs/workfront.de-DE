@@ -2,8 +2,8 @@
 content-type: reference
 product-area: user-management
 navigation-topic: people-teams-and-groups
-title: Direkte Zusammenarbeit mit anderen
-description: Lesen Sie diese Artikel, um zu erfahren, wie Sie direkt mit anderen in Workfront zusammenarbeiten.
+title: Direkt mit anderen arbeiten
+description: Lesen Sie diese Artikel, um zu erfahren, wie Sie in Workfront direkt mit anderen arbeiten können.
 author: Lisa
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ---
 
-# Direkte Arbeit mit anderen
+# Direkt mit anderen zusammenarbeiten
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Direktnachrichten an andere Benutzer senden](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
+* [Senden von Direktnachrichten an andere Benutzer](/help/quicksilver/people-teams-and-groups/work-directly-with-others/send-direct-messages-to-other-users.md)
 * [Organigramm anzeigen](../../people-teams-and-groups/work-directly-with-others/view-the-org-chart.md)

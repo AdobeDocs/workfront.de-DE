@@ -2,7 +2,7 @@
 content-type: overview
 product-area: projects
 navigation-topic: plan-a-project
-title: Festlegen des geplanten Abschlussdatums des Projekts
+title: Geplantes Abschlussdatum für das Projekt festlegen
 description: Das geplante Abschlussdatum eines Projekts ist das Datum, bis zu dem das Projekt abgeschlossen sein soll.
 author: Alina
 feature: Work Management, Projects
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 ---
 
-# Festlegen des geplanten Abschlussdatums des Projekts
+# Geplantes Abschlussdatum für das Projekt festlegen
 
 Das geplante Abschlussdatum eines Projekts ist das Datum, bis zu dem das Projekt abgeschlossen sein soll.
 
-Der geplante Beginn und die geplanten Abschlussdaten eines Projekts basieren auf den Daten der Aufgaben für das Projekt. Dieser Artikel beschreibt, wie Sie das geplante Abschlussdatum eines Projekts manuell oder automatisch festlegen können. Weitere Informationen zum geplanten Abschlussdatum einer Aufgabe finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
+Der geplante Start und die geplanten Abschlussdaten eines Projekts hängen von den Daten der Aufgaben im Projekt ab. Dieser Artikel beschreibt, wie Sie das geplante Abschlussdatum eines Projekts manuell oder automatisch festlegen können. Weitere Informationen zum geplanten Abschlussdatum einer Aufgabe finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
-Das geplante Abschlussdatum eines Projekts kann manuell oder automatisch festgelegt werden, je nachdem, ob Sie das Projekt vom Beginn oder vom Abschlussdatum an planen.
+Das geplante Abschlussdatum eines Projekts kann manuell oder automatisch festgelegt werden, je nachdem, ob Sie das Projekt vom Start- oder vom Abschlussdatum aus planen.
 
 ## Zugriffsanforderungen
 
@@ -64,26 +64,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Manuelles Festlegen des geplanten Abschlussdatums eines Projekts
 
@@ -91,50 +91,50 @@ Sie müssen das geplante Abschlussdatum eines Projekts manuell festlegen, wenn S
 
 >[!NOTE]
 >
->Wenn Sie das geplante Abschlussdatum eines Projekts manuell festlegen, berechnet Workfront automatisch das geplante Startdatum des Projekts basierend auf der Dauer aller Aufgaben.
+>Wenn Sie das geplante Abschlussdatum eines Projekts manuell festlegen, berechnet Workfront automatisch das geplante Startdatum des Projekts auf der Grundlage der Dauer aller Aufgaben.
 
 
 So planen Sie ein Projekt ab dem Abschlussdatum:
 
-1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Projekte**.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Projekte**.
 
-1. Klicken Sie auf **Neues Projekt** und dann auf **Neues Projekt**.
+1. Klicken Sie **Neues Projekt** und dann **Neues Projekt**.
 
    Weitere Informationen zum Erstellen von Projekten finden Sie im Artikel [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Wählen Sie im linken Bereich **Projektdetails** und klicken Sie dann oben rechts auf das Symbol **Projekt bearbeiten** .
+1. Wählen **Projektdetails** im linken Bereich aus und klicken Sie dann oben rechts auf **Projekt** bearbeiten“.
 
-1. Wählen Sie im Feld **Planmodus** die Option **Abschlussdatum** aus.
+1. Wählen Sie im **Zeitplanmodus** die Option **Abschlussdatum** aus.
 
-1. Geben Sie das **geplante Abschlussdatum** des Projekts an.
+1. Geben Sie **„Geplantes Abschlussdatum** des Projekts an.
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Wenn Sie mit dem Hinzufügen von Aufgaben zu Ihrem Projekt beginnen, wird das **geplante Startdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet. 
+   Wenn Sie beginnen, Ihrem Projekt Aufgaben hinzuzufügen, wird **„Geplantes Startdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet. 
 
 ## Automatisches Festlegen des geplanten Abschlussdatums eines Projekts
 
-Das geplante Abschlussdatum eines Projekts wird von Workfront automatisch berechnet, wenn Sie das Projekt vom Startdatum an planen. 
+Das geplante Abschlussdatum eines Projekts wird automatisch von Workfront berechnet, wenn Sie das Projekt ab dem Startdatum planen. 
 
-So planen Sie ein Projekt vom Startdatum aus:
+So planen Sie ein Projekt ab dem Startdatum:
 
-1. Klicken Sie oben rechts auf das Symbol **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Projekte**.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Projekte**.
 
-1. Klicken Sie auf **Neues Projekt** und dann auf **Neues Projekt**.
+1. Klicken Sie **Neues Projekt** und dann **Neues Projekt**.
 
    Weitere Informationen zum Erstellen von Projekten finden Sie im Artikel [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Wählen Sie im linken Bereich **Projektdetails** und klicken Sie dann oben rechts auf das Symbol **Projekt bearbeiten** .
+1. Wählen **Projektdetails** im linken Bereich aus und klicken Sie dann oben rechts auf **Projekt** bearbeiten“.
 
-1. Wählen Sie im Feld **Planmodus** die Option **Startdatum** aus.
+1. Wählen Sie im **Zeitplanmodus** die Option **Startdatum**.
 
-1. Geben Sie das **geplante Startdatum** des Projekts an.
+1. Geben Sie **„Geplantes Startdatum** des Projekts an.
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Wenn Sie mit dem Hinzufügen von Aufgaben zu Ihrem Projekt beginnen, basiert das **geplante Abschlussdatum** des Projekts auf der Gesamtdauer aller Aufgaben. 
+   Wenn Sie beginnen, Ihrem Projekt Aufgaben hinzuzufügen, wird **Geplantes Abschlussdatum** des Projekts auf der Grundlage der Gesamtdauer aller Aufgaben berechnet. 
 
-   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Überblick über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md).
+   Weitere Informationen zur Aufgabendauer finden Sie im Artikel [Übersicht über die Aufgabendauer und den ](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)).
 
-   Das geplante Abschlussdatum des Projekts fällt in diesem Fall mit dem geplanten Abschlussdatum der letzten Aufgabe des Projekts zusammen.
+   Das geplante Abschlussdatum des Projekts fällt in diesem Fall mit dem geplanten Abschlussdatum der letzten Aufgabe im Projekt zusammen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-tasks
-title: Überblick über das Projekt - Kritischer Pfad
-description: Das Bestimmen des kritischen Pfads eines Projekts ist eine automatische Möglichkeit für Adobe Workfront, eine Reihe von Aufgaben in einem Projekt zu kennzeichnen, die sich auf die Timeline des Projekts auswirken können. Aufgaben, die sich auf die Timeline des Projekts auswirken können, werden als Aufgaben des kritischen Pfads gekennzeichnet.
+title: Übersicht über den kritischen Projektpfad
+description: Das Bestimmen des kritischen Pfads eines Projekts ist eine automatische Möglichkeit für Adobe Workfront, eine Abfolge von Aufgaben in einem Projekt zu kennzeichnen, die sich auf die Zeitleiste des Projekts auswirken können. Aufgaben, die sich auf die Zeitleiste des Projekts auswirken können, werden als „Kritische Pfadaufgaben“ gekennzeichnet.
 author: Alina
 feature: Work Management
 exl-id: 9cbc84bf-d02b-4bb7-8d5d-922554d1262e
@@ -14,36 +14,36 @@ ht-degree: 0%
 
 ---
 
-# Überblick über das Projekt - Kritischer Pfad
+# Übersicht über den kritischen Projektpfad
 
-Das Bestimmen des kritischen Pfads eines Projekts ist eine automatische Möglichkeit für Adobe Workfront, eine Reihe von Aufgaben in einem Projekt zu kennzeichnen, die sich auf die Timeline des Projekts auswirken können. Aufgaben, die sich auf die Timeline des Projekts auswirken können, werden als Aufgaben des kritischen Pfads gekennzeichnet.
+Das Bestimmen des kritischen Pfads eines Projekts ist eine automatische Möglichkeit für Adobe Workfront, eine Abfolge von Aufgaben in einem Projekt zu kennzeichnen, die sich auf die Zeitleiste des Projekts auswirken können. Aufgaben, die sich auf die Zeitleiste des Projekts auswirken können, werden als „Kritische Pfadaufgaben“ gekennzeichnet.
 
 Die folgenden Funktionen können sich auf den kritischen Pfad eines Projekts auswirken:
 
-* Die Arbeitsaufschlüsselungsstruktur des Projekts.
+* Die Projektstrukturplan-Struktur.
 
-  Weitere Informationen zur Arbeitsaufschlüsselungsstruktur finden Sie unter [Arbeitsaufschlüsselungsstruktur in einem Projekt bestimmen](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
+  Weitere Informationen zur Projektaufschlüsselungsstruktur finden Sie unter [Bestimmen der Projektaufschlüsselungsstruktur in einem Projekt](../../../manage-work/projects/planning-a-project/determine-project-work-breakdown-structure.md)
 
-* Die Zeit (Dauer), die der Abschluss jeder Aufgabe benötigt.
+* Die Zeit (Dauer), die zum Abschluss jeder Aufgabe benötigt wird.
 * Die Abhängigkeiten zwischen den Aufgaben.
 
   Beachten Sie Folgendes:
 
-   * Wenn eine Aufgabe auf dem Kritischen Pfad eine Vorgängerbeziehung hat, befinden sich ihre Vorgänger und Nachfolger auch auf dem kritischen Pfad, wenn sich die Datumsänderungen der Vorgänger oder Nachfolger direkt auf ihre abhängigen Personen auswirken.
+   * Wenn eine Aufgabe auf dem kritischen Pfad eine Vorgängerbeziehung hat, befinden sich ihre Vorgänger und Nachfolger auch auf dem kritischen Pfad, wenn sich die Änderungen am Datum der Vorgänger oder der Nachfolger direkt auf ihre Angehörigen auswirken.
 
      >[!TIP]
      >
-     >Wenn sich das Datum des Nachfolgers einer Aufgabe nicht direkt auf das Datum ihrer abhängigen Aufgaben auswirkt und sich dies nicht auf die Daten des Projekts auswirkt, befindet sich die Nachfolgeaufgabe nicht auf dem kritischen Pfad.
+     >Wenn sich das Datum des Nachfolgers einer Aufgabe nicht direkt auf das Datum der von ihr abhängigen Aufgaben auswirkt und es sich nicht auf die Daten des Projekts auswirkt, befindet sich die Nachfolgeaufgabe nicht auf dem kritischen Pfad.
      >
      >
      >![](assets/successor-not-on-critical-path-350x150.png)     >
      >
 
-   * Wenn eine Unteraufgabe als Aufgabe &quot;Kritischer Pfad&quot;identifiziert wird, wird die übergeordnete Aufgabe auch als Aufgabe &quot;Kritischer Pfad&quot;identifiziert, wenn das voraussichtliche Anfangsdatum und die voraussichtliche Uhrzeit der übergeordneten Aufgabe mit denen der Unteraufgabe übereinstimmen.
+   * Wenn eine Teilaufgabe als Aufgabe mit kritischem Pfad identifiziert wird, wird die übergeordnete Aufgabe auch als Aufgabe mit kritischem Pfad identifiziert, wenn das voraussichtliche Startdatum und die voraussichtliche Startzeit des übergeordneten Elements mit dem der Teilaufgabe übereinstimmen.
 
-Unter Berücksichtigung dieser Funktionen berechnet das System den kritischen Pfad anhand des längsten Pfads zwischen der frühesten Aufgabe und der Aufgabe, die das Ende des Projekts bestimmt. Bei der Berechnung des kritischen Pfads wird berücksichtigt, wann die einzelnen Aufgaben zum frühesten und letzten Mal gestartet und beendet werden können, ohne das Projekt zu verlängern. Dieser Prozess bestimmt, welche Aufgaben &quot;kritisch&quot;sind (und zum längsten Pfad gehören) und welche Aufgaben über &quot;Gesamt-Float&quot;verfügen (kann verzögert werden, ohne das Projekt länger zu machen).
+Unter Berücksichtigung dieser Funktionen berechnet das System den kritischen Pfad anhand des längsten Pfads zwischen der frühesten Aufgabe und der Aufgabe, die das Ende des Projekts bestimmt. Bei der Berechnung des kritischen Pfads wird der früheste und letzte Zeitpunkt berücksichtigt, zu dem jede Aufgabe gestartet und beendet werden kann, ohne dass das Projekt verlängert wird. Dieser Prozess bestimmt, welche Aufgaben „kritisch“ sind (und zum längsten Pfad gehören) und welche den „Total Float“ haben (kann verzögert werden, ohne das Projekt zu verlängern).
 
-Jede Verzögerung in der Aktivität einer Aufgabe auf dem kritischen Pfad wirkt sich direkt auf das geplante Abschlussdatum des Projekts aus (es gibt keinen Float auf dem kritischen Pfad).
+Jede Verzögerung bei der Aktivität einer Aufgabe auf dem kritischen Pfad wirkt sich direkt auf das voraussichtliche Abschlussdatum des Projekts aus (es gibt keinen Gleitkommazahl auf dem kritischen Pfad).
 
 ## Zugriffsanforderungen
 
@@ -55,69 +55,69 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Aufgaben anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Aufgaben anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Aufgabe </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Aufgabe </p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Kritischen Pfad anzeigen
+## Anzeigen des kritischen Pfads
 
-Sie können die Aufgaben, die zum kritischen Pfad gehören, in den folgenden Bereichen der Workfront-Anwendung anzeigen:
+Sie können die Aufgaben, die zum kritischen Pfad gehören, in den folgenden Bereichen des Workfront-Programms anzeigen:
 
-* [Kritischen Pfad im Gantt-Diagramm anzeigen](#view-the-critical-path-in-the-gantt-chart)
-* [Kritischen Pfad in einer Aufgabenliste oder einem Bericht anzeigen](#view-the-critical-path-in-a-task-list-or-report)
+* [Anzeigen des kritischen Pfads im Gantt-Diagramm](#view-the-critical-path-in-the-gantt-chart)
+* [Anzeigen des kritischen Pfads in einer Aufgabenliste oder einem Bericht](#view-the-critical-path-in-a-task-list-or-report)
 
-### Kritischen Pfad im Gantt-Diagramm anzeigen {#view-the-critical-path-in-the-gantt-chart}
+### Anzeigen des kritischen Pfads im Gantt-Diagramm {#view-the-critical-path-in-the-gantt-chart}
 
-So zeigen Sie Aufgaben auf dem kritischen Pfad in der Gantt-Grafik an:
+So zeigen Sie Aufgaben auf dem kritischen Pfad im Gantt-Diagramm an:
 
 1. Wechseln Sie zu einem Projekt, für das Sie den kritischen Pfad anzeigen möchten.
-1. Klicken Sie im linken Bereich auf **Aufgaben** .
-1. Klicken Sie oben rechts in der Aufgabenliste auf das Symbol **Gantt-Diagramm** .
+1. Klicken Sie **linken** auf „Aufgaben“.
+1. Klicken Sie **oben rechts in der Aufgabenliste** das Symbol „Gantt-Diagramm“.
 
-   ![gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
+   ![Gantt_chart_icon__1_.png](assets/gantt-chart-icon--1-.png)
 
-1. Erweitern Sie das Menü **Optionen** und aktivieren Sie dann die Option **Kritischer Pfad** .
+1. Erweitern Sie das Menü **Optionen** und aktivieren Sie dann die Option **Kritischer Pfad**.
 
-   Die Aufgaben, die sich auf dem kritischen Pfad befinden, haben eine rote Linie über ihrer Zeitleiste im Gantt-Diagramm.
+   Die Aufgaben im kritischen Pfad haben eine rote Linie über ihrer Zeitleiste im Gantt-Diagramm.
 
-   ![crtitical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
+   ![critical_path_on_gantt__1_.png](assets/crtitical-path-on-gantt--1--350x137.png)
 
-### Kritischen Pfad in einer Aufgabenliste oder einem Bericht anzeigen {#view-the-critical-path-in-a-task-list-or-report}
+### Anzeigen des kritischen Pfads in einer Aufgabenliste oder einem Bericht {#view-the-critical-path-in-a-task-list-or-report}
 
 So zeigen Sie in einer Aufgabenliste an, welche Aufgaben sich auf dem kritischen Pfad befinden:
 
 1. Wechseln Sie zu einem Projekt, für das Sie den kritischen Pfad anzeigen möchten.
-1. Klicken Sie im linken Bereich auf **Aufgaben** .
-1. Wählen Sie aus dem Dropdownmenü **Ansicht** die Option **Status** aus.
+1. Klicken Sie **linken** auf „Aufgaben“.
+1. Wählen Sie im **-**-Menü die Option **Status** aus.
 
-   Die Aufgaben, die sich auf dem kritischen Pfad befinden, haben in der Spalte **Flags** der Liste die Markierung **Kritischer Pfad** .
+   Die Aufgaben im kritischen Pfad verfügen über eine Markierung **Kritischer Pfad** in der Spalte **Flags** der Liste.
 
    Sie können dieselbe Ansicht auf einen Aufgabenbericht anwenden.
 
-   Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+   Weitere Informationen zum Erstellen von Berichten finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
    Oder
 
-   Wählen Sie aus dem Dropdownmenü **Filter** die Option **Neuer Filter** aus.
+   Wählen Sie **Dropdown** Menü „Filter“ die Option **Neuer Filter**.
 
-1. Klicken Sie auf **Filterregel hinzufügen** und beginnen Sie mit der Eingabe von **Is Critical** im Feld **Only show me Tasks , in denen das Feld ...** .
+1. Klicken Sie auf **Filterregel hinzufügen** und geben Sie **Ist** in das Feld **Nur Aufgaben anzeigen, in denen …** ein.
 
-1. Wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
+1. Auswählen, wenn es in der Liste angezeigt wird.
 1. Klicken Sie auf **Filter speichern**.
 
-   Die Liste sollte nur Aufgaben anzeigen, die sich auf dem kritischen Pfad befinden.
+   In der Liste sollten nur Aufgaben angezeigt werden, die sich auf dem kritischen Pfad befinden.

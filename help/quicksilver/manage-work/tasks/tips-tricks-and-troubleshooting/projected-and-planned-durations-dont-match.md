@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
-title: Die projizierte Dauer stimmt nicht mit der geplanten Dauer überein
-description: 'Sie erhalten die folgende Fehlermeldung: "Die projizierte Dauer einer Aufgabe/eines Problems wurde auf 0 festgelegt und entspricht nicht der geplanten Dauer."'
+title: Projizierte Dauer stimmt nicht mit geplanter Dauer überein
+description: 'Sie erhalten die folgende Fehlermeldung: „Die projizierte Dauer einer Aufgabe/eines Problems ist auf 0 gestiegen und stimmt nicht mit der geplanten Dauer überein.“'
 author: Alina
 feature: Work Management
 exl-id: ef135d44-3138-457d-b54a-3f1102ce3116
@@ -14,26 +14,26 @@ ht-degree: 0%
 
 ---
 
-# Die projizierte Dauer stimmt nicht mit der geplanten Dauer überein
+# Projizierte Dauer stimmt nicht mit geplanter Dauer überein
 
 ## Problem
 
-Sie erhalten die folgende Fehlermeldung: &quot;Die projizierte Dauer einer Aufgabe/eines Problems wurde auf 0 festgelegt und entspricht nicht der geplanten Dauer.&quot;
+Sie erhalten die folgende Fehlermeldung: „Die projizierte Dauer einer Aufgabe/eines Problems ist auf 0 gestiegen und stimmt nicht mit der geplanten Dauer überein.“
 
 ## Ursache
 
-Dies wird verursacht, wenn das geplante Startdatum mit dem geplanten Abschlussdatum übereinstimmt.
+Dies liegt daran, dass das voraussichtliche Startdatum mit dem voraussichtlichen Abschlussdatum übereinstimmt.
 
 ## Lösung
 
-Es gibt viele Faktoren, die dazu führen können, dass die geplanten Start- und Abschlussdaten übereinstimmen. Dieses Problem ist weitgehend an die Zeitverteilung der Aufgabe bzw. des Problems gebunden.
+Es gibt viele Faktoren, die dazu führen können, dass das voraussichtliche Start- und Abschlussdatum übereinstimmen. Dieses Problem hängt weitgehend mit der Zeitzuweisung für die betreffende Aufgabe oder das betreffende Problem zusammen.
 
-In den meisten Fällen sollte die Zuordnung je nach Dauer-Typ und Aufgabenbegrenzung für die Aufgabe das geplante Abschlussdatum wesentlich weiter verlängern als erwartet. In einigen Fällen kann es jedoch, je nach Konfiguration des Duration Type und der Task Constraint, möglich sein, dass dies stattdessen auf null gesetzt wird.
+In den meisten Fällen sollte die Zuordnung je nach Dauertyp und Aufgabenbeschränkung für die Aufgabe das voraussichtliche Abschlussdatum viel weiter als erwartet ausdehnen. In einigen Fällen jedoch, die auf der Art und Weise basieren, wie der Dauertyp und die Aufgabenbeschränkung konfiguriert sind, ist es möglich, dass dies stattdessen null ist.
 
-Im Folgenden finden Sie die Best Practices, die Sie in diesen Fällen mit Links zu ihren unterstützenden Artikeln überprüfen sollten:
+Hier finden Sie die besten Informationen, die Sie in diesen Fällen mit Links zu den zugehörigen unterstützenden Artikeln überprüfen können:
 
-* Projiziertes Abschlussdatum: [Überblick über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
-* Aufgabenbegrenzung: [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
-* Dauer: [Übersicht über Aufgabendauer und -dauer](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
+* Voraussichtliches Abschlussdatum: [Übersicht über das voraussichtliche Abschlussdatum für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md)
+* Aufgabenbeschränkung: [Übersicht über Aufgabenbeschränkung](../../../manage-work/tasks/task-constraints/task-constraint-overview.md)
+* Dauertyp: [Übersicht über Aufgabendauer und Dauertyp](../../../manage-work/tasks/taskdurtn/task-duration-and-duration-type.md)
 
-Wenn das geplante Abschlussdatum, die Aufgabenbegrenzung oder der Typ Dauer erwartungsgemäß funktionieren, wenden Sie sich an den Support, um eine tiefgehendere Fehlerbehebung zu erhalten.
+Wenn das voraussichtliche Abschlussdatum, die Aufgabenbeschränkung oder der Dauertyp erwartungsgemäß funktionieren, wenden Sie sich an den Support, um eine eingehendere Fehlerbehebung zu erhalten.

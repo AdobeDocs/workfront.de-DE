@@ -1,6 +1,6 @@
 ---
 title: Arbeitsbereiche bearbeiten
-description: Sie können die Informationen eines vorhandenen Arbeitsbereichs bearbeiten, z. B. um ihn umzubenennen.
+description: Sie können die Informationen eines vorhandenen Arbeitsbereichs bearbeiten, z. B. umbenennen.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -18,17 +18,17 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-In der Adobe Workfront-Planung sind Arbeitsbereiche zentrale Standorte für Teams zur Arbeitsplanung.
+In Adobe Workfront Planning sind Arbeitsbereiche zentrale Orte, an denen Teams ihre Arbeit planen.
 
-Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitslebenszyklus des Teams darstellen. Sie können die Arbeitsbereiche in der Adobe Workfront-Planung vollständig anpassen.
+Ein Arbeitsbereich ist eine Sammlung von Datensatztypen, die von einem Team verwendet werden und den Arbeitszyklus des Teams darstellen. Sie können Arbeitsbereiche in Adobe Workfront Planning vollständig anpassen.
 
 Informationen zum Erstellen von Arbeitsbereichen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-Alle Änderungen, die Sie an einem Arbeitsbereich vornehmen, sind für alle sichtbar, die mindestens über Anzeigeberechtigungen für den Arbeitsbereich verfügen.
+Alle Änderungen, die Sie an einem Arbeitsbereich vornehmen, sind für alle sichtbar, die zumindest über Anzeigeberechtigungen für den Arbeitsbereich verfügen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -49,49 +49,49 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td><p> Standard</p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>   
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>   
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>  <p>Berechtigungen für den Arbeitsbereich verwalten </p>   </td> 
+   <td>  <p>Verwalten von Berechtigungen für den Arbeitsbereich </p>   </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -158,64 +158,64 @@ For more information about access requirements, see [Access requirements in Work
 
 {{step1-to-planning}}
 
-1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Arbeitsbereiche, die ich verwende, um auf die erstellten Arbeitsbereiche zuzugreifen, oder auf** Andere Arbeitsbereiche **, um auf Arbeitsbereiche zuzugreifen, die für Sie freigegeben wurden.**
+1. (Bedingt) Wenn Sie Workfront-Administrator sind, klicken Sie auf **Arbeitsbereiche, an denen ich**, um auf von Ihnen erstellte Arbeitsbereiche zuzugreifen, oder auf **Andere Arbeitsbereiche**, um auf Arbeitsbereiche zuzugreifen, die von anderen für Sie freigegeben wurden.
 
 <!--***********Replace the steps from the next below till the "Update the following information in the Edit workspace box:" (but keep this last step)*******-->
 
-1. (Optional) Klicken Sie auf **Alle anzeigen** , um weitere Arbeitsbereiche anzuzeigen. Der Link **Alle anzeigen** wird nur angezeigt, wenn Sie mehr als zwei Zeilen Workspace-Karten haben.
-1. (Optional) Klicken Sie auf K **Anzeigen weniger** , um die Anzahl der auf dem Bildschirm angezeigten Arbeitsbereiche zu begrenzen.
+1. (Optional) Klicken Sie auf **Alle anzeigen**, um zusätzliche Arbeitsbereiche anzuzeigen. Der **Alle anzeigen** wird nur angezeigt, wenn Sie mehr als zwei Zeilen Arbeitsbereichskarten haben.
+1. (Optional) Klicken Sie auf **Weniger anzeigen**, um die Anzahl der Arbeitsbereiche zu begrenzen, die auf dem Bildschirm angezeigt werden.
 1. Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:
 
-   * Bewegen Sie den Mauszeiger über die Workspace-Karte und klicken Sie dann oben rechts auf der Karte auf das Menü **Mehr** ![](assets/more-menu.png) .
-Oder
-   * Klicken Sie auf eine Workspace-Karte, um den Arbeitsbereich zu öffnen, und klicken Sie dann auf das Menü **Mehr** rechts neben dem Arbeitsbereichnamen.![](assets/more-menu.png)
-1. Klicken Sie auf **Bearbeiten**.
+   * Bewegen Sie den Mauszeiger über die Arbeitsbereichskarte und klicken Sie dann auf **Mehr**-![](assets/more-menu.png) in der oberen rechten Ecke der Karte
+oder
+   * Klicken Sie auf eine Arbeitsbereichskarte, um den Arbeitsbereich zu öffnen, und klicken Sie dann auf **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Arbeitsbereichsnamen.
+1. Klicken Sie **Bearbeiten**.
 
-   Das Feld **Arbeitsbereich bearbeiten** wird angezeigt.
+   Das **Arbeitsbereich bearbeiten** wird angezeigt.
 
    ![](assets/edit-workspace-box.png)
 
-1. Aktualisieren Sie die folgenden Informationen im Feld **Arbeitsbereich bearbeiten** :
+1. Aktualisieren Sie die folgenden Informationen im Feld **Arbeitsbereich bearbeiten**:
 
    * Fügen Sie einen Namen für den Arbeitsbereich hinzu. <!--did they add a label for this field?-->
-   * **Beschreibung**: Fügen Sie Informationen zum Arbeitsbereich hinzu.
+   * **Beschreibung**: Fügen Sie Informationen über den Arbeitsbereich hinzu.
    * Wählen Sie ein Symbol aus, das mit dem Arbeitsbereich verknüpft werden soll.
 
-1. Klicken Sie auf **Speichern** , um das Feld &quot;Arbeitsbereich bearbeiten&quot;zu schließen und Ihre Änderungen anzuwenden.
+1. Klicken Sie **Speichern**, um das Feld Arbeitsbereich bearbeiten zu schließen und Ihre Änderungen anzuwenden.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen neuen Workspace-Abschnitt hinzuzufügen:
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen neuen Arbeitsbereich hinzuzufügen:
 
-   * Klicken Sie unten im Arbeitsbereich auf **Abschnitt hinzufügen** .
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Abschnitt über** hinzufügen oder auf **Abschnitt unter** hinzufügen .
+   * Klicken **unten** Arbeitsbereich auf „Abschnitt hinzufügen“.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die ![](assets/more-menu.png) **Mehr** und klicken Sie dann **Abschnitt hinzufügen oben** oder **Abschnitt hinzufügen unten**.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Speicherort eines Abschnitts zu ändern:
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Position eines Abschnitts zu ändern:
 
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Symbol **Grab** ![](assets/grab-icon.png) und ziehen Sie es dann an die rechte Stelle.
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Nach oben verschieben** oder **Nach unten**. Der Abschnitt wird innerhalb des Arbeitsbereichs nach oben oder unten verschoben.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das **grab**-Symbol ![](assets/grab-icon.png) und ziehen Sie ihn dann per Drag-and-Drop an die rechte Stelle.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die ![](assets/more-menu.png) **Mehr** und klicken Sie dann auf **Nach oben** oder **Nach unten**. Der Abschnitt wird innerhalb des Arbeitsbereichs nach oben oder unten verschoben.
 
-1. (Optional) Gehen Sie wie folgt vor, um einen Arbeitsbereich zu löschen:
+1. (Optional) Gehen Sie wie folgt vor, um einen Workspace-Abschnitt zu löschen:
 
-   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf das Menü **Mehr** ![](assets/more-menu.png) und dann auf **Löschen**. <!--add screen shot when UI is final?-->
-   1. Wählen Sie einen neuen Abschnitt aus, um alle Datensatztypen darauf zu verschieben, und klicken Sie dann auf **Löschen** <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->.
+   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf die ![](assets/more-menu.png) **Mehr** und anschließend auf **Löschen**. <!--add screen shot when UI is final?-->
+   1. Wählen Sie einen neuen Abschnitt aus, in den alle Datensatztypen verschoben werden sollen, und klicken Sie auf **Löschen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
-      Alle Datensatztypen werden in den Auswahlabschnitt verschoben und der Abschnitt wird gelöscht.
+      Alle Datensatztypen werden in den Auswahlabschnitt verschoben, und der Abschnitt wird gelöscht.
 
-1. (Optional) Klicken Sie auf **Hinzufügen des Datensatztyps** , um dem Arbeitsbereich Datensatztypen hinzuzufügen.
+1. (Optional) Klicken Sie auf **Datensatztyp hinzufügen**, um Datensatztypen zum Arbeitsbereich hinzuzufügen.
 
-   Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+   Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie oben rechts auf das Menü **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Bearbeiten** , um das Erscheinungsbild eines Datensatztyps zu ändern.
+1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ Datensatz und klicken Sie auf das ![](assets/more-menu.png) **Mehr** in der oberen rechten Ecke und dann auf **Bearbeiten**, um das Erscheinungsbild eines Datensatztyps zu ändern.
 
-   Weitere Informationen finden Sie unter [Bearbeiten von Datensatztypen](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Weitere Informationen finden Sie [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ &quot;Record&quot;, klicken Sie oben rechts auf das Menü **Mehr** ![](assets/more-menu.png) und dann auf **Löschen** , um einen Datensatztyp zu löschen.
+1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ Datensatz und klicken Sie auf das **Mehr**-![](assets/more-menu.png) in der oberen rechten Ecke und dann auf **Löschen**, um einen Datensatztyp zu löschen.
 
-   Weitere Informationen finden Sie unter [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md).
+   Weitere Informationen finden Sie [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md).
 
-1. (Optional) Klicken Sie auf eine Karte vom Typ Datensatz, um sie zu ziehen und an einer neuen Stelle abzulegen. Sie können Datensatztypen per Drag-and-Drop von einem Arbeitsbereich in einen anderen Arbeitsbereich ziehen.
+1. (Optional) Klicken Sie auf eine Karte vom Typ Datensatz, um sie per Drag-and-Drop an eine neue Position zu ziehen. Sie können Datensatztypen per Drag-and-Drop von einem Workspace-Abschnitt in einen anderen ziehen.
 
    ![](assets/drag-and-drop-record-types-in-a-workspace.png)
 
-1. (Optional) Klicken Sie oben rechts im Arbeitsbereich auf **Freigeben** , um den Arbeitsbereich für andere freizugeben.
+1. (Optional) Klicken Sie **Freigeben** in der oberen rechten Ecke des Arbeitsbereichs, um den Arbeitsbereich für andere freizugeben.
 
    Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md).

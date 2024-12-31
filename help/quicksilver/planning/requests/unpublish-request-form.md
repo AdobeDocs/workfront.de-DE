@@ -1,36 +1,36 @@
 ---
-title: Rückgängigmachen der Veröffentlichung eines Anforderungsformulars in der Adobe Workfront-Planung
-description: Sie können die Veröffentlichung eines Anfrageformulars rückgängig machen, wenn es nicht mehr benötigt oder relevant ist. Wenn Sie die Veröffentlichung rückgängig machen, entfernen Sie die Berechtigungen aller Benutzer für den Zugriff auf das Formular.
+title: Veröffentlichung eines Anfrageformulars in Adobe Workfront Planning aufheben
+description: Sie können die Veröffentlichung eines Anfrageformulars aufheben, wenn es nicht mehr benötigt wird oder nicht mehr relevant ist. Durch das Rückgängigmachen der Veröffentlichung entfernen Sie die Berechtigungen aller Benutzer für den Zugriff auf das Formular.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
+source-git-commit: ab8daa47449962f336a77bfb0e25dba68da6a517
 workflow-type: tm+mt
 source-wordcount: '718'
 ht-degree: 1%
 
 ---
 
-
-# Veröffentlichung eines Anfrageformulars in der Adobe Workfront-Planung rückgängig machen
+# Veröffentlichung eines Anfrageformulars in Adobe Workfront Planning aufheben
 
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-Sie können die Veröffentlichung eines Anfrageformulars rückgängig machen, wenn es nicht mehr benötigt oder relevant ist. Wenn Sie die Veröffentlichung rückgängig machen, entfernen Sie die Berechtigungen aller Benutzer für den Zugriff auf das Formular.
+Sie können die Veröffentlichung eines Anfrageformulars aufheben, wenn es nicht mehr benötigt wird oder nicht mehr relevant ist. Durch das Rückgängigmachen der Veröffentlichung entfernen Sie die Berechtigungen aller Benutzer für den Zugriff auf das Formular.
 
-Sie können auch die Entitäten ändern, für die Sie ein Anfrageformular freigeben, wenn Sie es für eine kleinere Personengruppe verfügbar halten möchten.
+Sie können auch die Entitäten ändern, für die Sie ein Anfrageformular freigeben, wenn Sie es für eine kleinere Gruppe von Personen verfügbar halten möchten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -51,24 +51,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tr>
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td>
    <td>
-<p>Die folgenden Workfront-Pläne:</p>
+<p>Einer der folgenden Workfront-Pläne:</p>
 <ul><li>Auswählen</li>
 <li>Erstklassig</li>
 <li>Ultimativ</li></ul>
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p>
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p>
    </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td>
    <td>
-<p>Alle </p>  
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </td>
+<p>Beliebig </p>  
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </td>
 
 <tr>
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
    <td>
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p>
    </td>
 
 </tr>
@@ -77,84 +77,84 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td>
    <td>
    <p>Standard</p>
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p>
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p>
   </td>
   </tr>
   <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p>  
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <ul>
-   <li><p>Berechtigungen für einen Arbeitsbereich verwalten</p></li>
-    <li><p>Systemadministratoren können nicht erstellte Arbeitsbereiche verwalten. </p></li>
+   <li><p>Verwalten von Berechtigungen für einen Arbeitsbereich</p></li>
+    <li><p>Systemadministratoren können Arbeitsbereiche verwalten, die sie nicht erstellt haben. </p></li>
     </ul>
-   <p>Informationen zum Freigeben von Berechtigungen für Workfront Planning-Objekte finden Sie unter  
-   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Überblick über die Freigabe von Berechtigungen in der Adobe Workfront-Planung</a> 
+   <p>Informationen zu Freigabeberechtigungen für Workfront Planning-Objekte finden Sie unter  
+   <a href="/help/quicksilver/planning/access/sharing-permissions-overview.md">Übersicht über Freigabeberechtigungen in Adobe Workfront Planning</a> 
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Layout-Vorlage</p></td>
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p>  
+   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p>  
 </td>
   </tr>
  </tbody>
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Ändern der Freigabe eines Anfrageformulars
 
-Wenn Sie eine Anfrage für die Öffentlichkeit mit allen Benutzern, einschließlich Benutzern aus Nicht-Unternehmen, teilen, sollten Sie in Erwägung ziehen, diesen Zugriff auf bestimmte Benutzer zu beschränken, die den Arbeitsbereich, mit dem das Formular verknüpft ist, anzeigen oder verwalten.
+Wenn Sie eine Anfrage für öffentlich mit allen Personen teilen, einschließlich Benutzern von außerhalb Ihrer Organisation, sollten Sie diesen Zugriff auf bestimmte Benutzer beschränken, die den Arbeitsbereich, mit dem das Formular verknüpft ist, entweder anzeigen oder verwalten.
 
 So ändern Sie die Freigabe eines Anfrageformulars:
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, in den Sie Datensätze hinzufügen möchten.
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze hinzufügen möchten.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
-1. Klicken Sie auf eine Karte vom Typ Datensatz. Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   Die Seite mit dem Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite vom Typ Datensatz in der Tabellenansicht geöffnet.
+   Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
 
-1. Klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Datensatztyps in der Kopfzeile der Seite und klicken Sie dann auf **Anforderungsformular aktualisieren**.![](assets/more-menu.png)
-1. Klicken Sie oben rechts im Bildschirm auf **Freigabe** und aktualisieren Sie dann die Freigabeoptionen. Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anforderungsformulars in der Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md).
-1. (Optional) Klicken Sie auf **Link kopieren**, wenn Sie die Freigabe des Anfrageformulars geändert haben und es für die neue Personengruppe mit einem neuen Link freigeben möchten.
+1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile der Seite und dann auf **Anfrageformular aktualisieren**.
+1. Klicken **oben rechts** Bildschirm auf „Freigeben“ und aktualisieren Sie dann die Freigabeoptionen. Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+1. (Optional) Klicken Sie auf **Link kopieren**, wenn Sie die Freigabe des Anfrageformulars geändert haben und es für die neue Personengruppe über einen neuen Link freigeben möchten.
 
-## Veröffentlichung eines Anfrageformulars für einen Datensatztyp rückgängig machen
+## Veröffentlichung eines Anfrageformulars für einen Datensatztyp aufheben
 
-Wenn ein Anfrageformular irrelevant wird und Sie nicht möchten, dass jemand mehr darauf zugreifen kann, können Sie die Veröffentlichung rückgängig machen.
+Wenn ein Anfrageformular irrelevant wird und Sie nicht mehr möchten, dass jemand darauf zugreift, können Sie die Veröffentlichung aufheben.
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, in den Sie Datensätze hinzufügen möchten.
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze hinzufügen möchten.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
-1. Klicken Sie auf eine Karte vom Typ Datensatz. Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   Die Seite mit dem Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite vom Typ Datensatz in der Tabellenansicht geöffnet.
+   Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
 
-1. Klicken Sie auf das Menü **Mehr** rechts neben dem Namen des Datensatztyps in der Kopfzeile der Seite und klicken Sie dann auf **Anforderungsformular aktualisieren**.![](assets/more-menu.png)
-1. Klicken Sie oben rechts auf **Veröffentlichung rückgängig machen** .
+1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile der Seite und dann auf **Anfrageformular aktualisieren**.
+1. Klicken **oben** auf „Veröffentlichung rückgängig machen“.
 
    ![](assets/unpublish-button-highlighted.png)
 
-   Unten im Bildschirm wird eine Bestätigung angezeigt, die Sie darüber informiert, dass die Veröffentlichung des Formulars rückgängig gemacht wurde.
+   Unten im Bildschirm wird eine Bestätigung angezeigt, die Sie darüber informiert, dass die Veröffentlichung des Formulars aufgehoben wurde.
 
-   Die Schaltfläche **Veröffentlichung rückgängig machen** ändert sich in **Publish**.
+   Die Schaltfläche **Veröffentlichung aufheben** ändert sich in **Publish**.
 
 1. Klicken Sie auf **Speichern**.
 
-   Der Zugriff auf das Formular über einen Link <!--or from the request queue in the Requests area of Workfront--> ist nicht mehr möglich.
+   Der Zugriff auf das Formular ist über einen Link <!--or from the request queue in the Requests area of Workfront--> nicht mehr möglich.
 
-   Alle Datensätze, die zuvor über das Anfrageformular hinzugefügt wurden, verbleiben auf der Seite vom Typ Datensatz .
+   Alle zuvor über das Anfrageformular hinzugefügten Datensätze verbleiben auf der Seite „Datensatztyp“.
 
-   <span class="preview">Alle zuvor hinzugefügten Anforderungen verbleiben auf der Registerkarte &quot;Planung&quot;im Bereich &quot;Anforderungen&quot;von Workfront.</span>
+   <span class="preview">Alle zuvor hinzugefügten Anfragen verbleiben im Bereich Anfragen von Workfront auf der Registerkarte Planung.</span>

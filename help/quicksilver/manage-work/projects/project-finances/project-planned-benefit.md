@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: financials
-title: Übersicht über den geplanten Nutzen des Projekts
-description: Der geplante Nutzen ist der geschätzte Geldbetrag, den eine Organisation im Falle des Abschlusses eines Projekts erhalten könnte.
+title: Übersicht über den geplanten Projektgewinn
+description: Der geplante Nutzen ist der geschätzte Geldbetrag, den eine Organisation nach Abschluss eines Projekts erhalten könnte.
 author: Lisa
 feature: Work Management
 exl-id: 1ded9d16-57be-40e0-b083-ee5273fd9b56
@@ -14,18 +14,18 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über den geplanten Nutzen des Projekts
+# Übersicht über den geplanten Projektgewinn
 
-Der geplante Nutzen ist der geschätzte Geldbetrag, den eine Organisation im Falle des Abschlusses eines Projekts erhalten könnte.
+Der geplante Nutzen ist der geschätzte Geldbetrag, den eine Organisation nach Abschluss eines Projekts erhalten könnte.
 
-Der geplante Vorteil wird von Adobe Workfront nicht berechnet. Als Projekteigentümer geben Sie den geplanten Nutzen eines Projekts manuell im Geschäftsfall an. Es wird empfohlen, dass jede Organisation eine Richtlinie zur Bestimmung dieses Werts festlegt.
+Der geplante Nutzen wird von Adobe Workfront nicht berechnet. Als Projektbesitzer geben Sie den geplanten Nutzen eines Projekts im Business Case manuell an. Es wird empfohlen, dass jede Organisation eine Richtlinie dazu erstellt, wie dieser Wert bestimmt wird.
 
 Der geplante Nutzen eines Projekts wirkt sich auf den Nettowert eines Projekts aus.\
 Weitere Informationen zur Berechnung des Nettowerts eines Projekts finden Sie im Artikel [Nettowert berechnen](../../../manage-work/projects/project-finances/calculate-net-value.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,8 +34,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -45,37 +45,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>Zugriff auf Projekte und Finanzdaten bearbeiten</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten der Finanzen</td> 
+   <td>Verwalten von Berechtigungen für das Projekt mit Berechtigungen zum Verwalten von Finanzen</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Suchen Sie den geplanten Nutzen eines Projekts
+## Suchen des geplanten Vorteils eines Projekts
 
-Sie können den geplanten Nutzen eines Projekts in den folgenden Bereichen in Workfront anzeigen oder aktualisieren:
+Sie können die geplanten Vorteile eines Projekts in den folgenden Bereichen in Workfront anzeigen oder aktualisieren:
 
-* In der Zusammenfassung der Geschäftsszenarios.\
-  Weitere Informationen zum Geschäftsfall eines Projekts finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* In der Zusammenfassung eines Business-Case.\
+  Weitere Informationen zum Business Case eines Projekts finden Sie im Artikel [Erstellen eines Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 * Wenn Sie in einem Projektbericht die Spalte Geplanter Nutzen zur Ansicht des Berichts hinzufügen.\
-  Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Im Portfolio Optimizer.\
-  Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+* Im Portfolio-Optimizer.\
+  Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über den Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-## Aktualisieren des geplanten Nutzens eines Projekts
+## Geplanten Nutzen eines Projekts aktualisieren
 
-1. Gehen Sie zu einem Projekt, für das Sie den geplanten Nutzen aktualisieren möchten.
-1. Klicken Sie im linken Bereich auf **Geschäftsszenario** .
-1. Klicken Sie auf **Projektinfo bearbeiten** und geben Sie den geplanten Nutzen im Feld **Geplanter Nutzen** an.
+1. Gehe zu einem Projekt, für das du den geplanten Gewinn aktualisieren möchtest.
+1. Klicken Sie **linken Bedienfeld** Business Case“.
+1. Klicken Sie **Projektinfo bearbeiten** und geben Sie den geplanten Leistungsbetrag im Feld **Geplanter**&quot; an.
 
 1. Klicken Sie auf **Speichern**.

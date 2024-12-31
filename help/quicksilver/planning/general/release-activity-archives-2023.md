@@ -1,6 +1,6 @@
 ---
-title: Adobe Workfront - Planung der Release-Aktivität für 2023
-description: Adobe Workfront-Planungsfunktionen stehen derzeit ausgewählten Workfront-Kunden zur Verfügung. Lesen Sie diesen Artikel oft, um mehr über die kürzlich für die Planungsfunktionen veröffentlichten Funktionen zu erfahren.
+title: Adobe Workfront - Planungsversionstätigkeit für 2023
+description: Adobe Workfront Planning-Funktionen sind derzeit für ausgewählte Workfront-Kunden verfügbar. Lesen Sie diesen Artikel oft, um mehr über die Funktionen zu erfahren, die kürzlich für die Planungsfunktionen veröffentlicht wurden.
 author: Alina
 feature: Workfront Planning
 role: User, Admin
@@ -14,114 +14,114 @@ ht-degree: 0%
 ---
 
 
-# Adobe Workfront - Planung der Release-Aktivität für 2023
+# Adobe Workfront-Planungsversionstätigkeit für 2023
 
 <!--this article is linked to the WF Planning landing page - do not change URL or move it; send the team a new URL after we add the redirects for this page-->
 
 >[!IMPORTANT]
 >
-><span class="preview">In diesem Artikel werden die Funktionen aufgelistet, die während der Beta-Phase der Workfront-Planung 2023 veröffentlicht wurden.</span>
->Die Informationen in diesem Artikel beziehen sich auf die Adobe Workfront-Planung, eine zusätzliche Funktion von Adobe Workfront.
+><span class="preview">In diesem Artikel werden die Funktionen aufgelistet, die während der Beta-Phase für Workfront Planning im Jahr 2023 veröffentlicht wurden.</span>
+>Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, eine zusätzliche Funktion von Adobe Workfront.
 >
->Zusätzlich zu einem Workfront-Plan müssen Sie einen Workfront-Planungsplan erwerben, um auf Workfront-Planungsfunktionen zugreifen und diese verwenden zu können.
+>Sie müssen zusätzlich zu einem Workfront-Plan einen Workfront-Planungsplan erwerben, um auf Workfront-Planungsfunktionen zugreifen und diese verwenden zu können.
 >
->Eine vollständige Liste der Anforderungen für den Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht für die Adobe-Planung](/help/quicksilver/planning/access/access-overview.md).
->Einen Überblick über die Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
+>Eine vollständige Liste der Anforderungen für den Zugriff auf Workfront Planning finden Sie unter [Adobe Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+>Einen Überblick über Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
 >
 
-Weitere Informationen zu Release-Aktivitäten finden Sie auch in den folgenden Artikeln:
+Weitere Informationen zur Versionsaktivität finden Sie in den folgenden Artikeln:
 
-* [Adobe Workfront Planning-Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) für Informationen zur aktuellen Release-Aktivität für die Workfront-Planung.
+* [Adobe Workfront Planning-Versionsaktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md) für Informationen zur aktuellen Versionsaktivität für Workfront Planning.
 
-* [Adobe Workfront Planning-Release-Aktivität für 2024](/help/quicksilver/planning/general/release-activity.md) für Informationen zu den Funktionen, die 2024, also vor der allgemeinen Verfügbarkeit am 28. August 2024, veröffentlicht wurden.
+* [Adobe Workfront-Planungsversion für 2024. ](/help/quicksilver/planning/general/release-activity.md) Informationen zu den Funktionen, die im Jahr 2024 veröffentlicht wurden, bevor sie am 28. August 2024 allgemein verfügbar waren.
 
-## Veröffentlichungszeitplan für die Workfront-Planung
+## Workfront Planning-Veröffentlichungszeitplan
 
 <!-- this section is also duplicated in the 2024 release notes article-->
 
-Die folgende Tabelle zeigt den Zeitplan für die Veröffentlichung der Workfront-Planung:
+Die folgende Tabelle zeigt den Zeitrahmen für die Veröffentlichung von Workfront Planning:
 
-| Uhrzeit | Version |
+| Uhrzeit | -Version |
 |--------------------|-----------------------------------------|
-| August - Dezember 2023 | Beta-Version für die Workfront-Planung* |
-| Januar - August 2024 | Workfront-Planung für eine frühe Veröffentlichung* |
-| Donnerstag, 28. August 2024 | Allgemeine Verfügbarkeit der Workfront-Planung |
+| August - Dezember 2023 | Workfront Planning - Beta-Version* |
+| Januar bis August 2024 | Frühzeitige Veröffentlichung von Workfront Planning* |
+| Donnerstag, 28. August 2024 | Workfront Planning - allgemeine Verfügbarkeit |
 
-*Die Beta- und Frühversionsphasen waren für eine begrenzte Gruppe von Kunden verfügbar.
+*Die Beta- und Frühversionsphasen standen einer begrenzten Gruppe von Kunden zur Verfügung.
 
 ## Woche vom 25. Dezember 2023
 
-### Suchen in der Timeline-Ansicht
+### Suche in der Zeitleisten-Ansicht
 
 Vorschau und Produktion: 27. Dezember 2023
 
-Sie können jetzt nach einem Keyword suchen, um schnell einen Datensatz in der Timeline-Ansicht zu finden. Sie können Suchbegriffe und Sonderzeichen aus allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Sie können jetzt nach einem Keyword suchen, um einen Datensatz in der Zeitleisten-Ansicht schnell zu finden. Sie können Keywords und Sonderzeichen aus allen Feldern verwenden, die auf dem Bildschirm sichtbar sind, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Woche vom 18. Dezember 2023
 
-### Kommentare zu Datensätzen von der Datensatzseite hinzufügen
+### Hinzufügen von Kommentaren zu Datensätzen auf der Datensatzseite
 
 Vorschau und Produktion für alle Kunden: 18. Dezember 2023
 
 >[!NOTE]
 >
->Die folgenden Funktionen werden in der Produktion mit der Version vom Januar 2024 verfügbar sein:
+>Mit der Version vom Januar 2024 werden die folgenden Funktionen in der Produktionsumgebung verfügbar sein:
 >
 >* Nach Kommentaren suchen
 >
->* Bilder kopieren und einfügen
+>* Kopieren und Einfügen von Bildern
 >
->* Bilder per Drag &amp; Drop verschieben
+>* Drag-and-Drop von Bildern
 >
->Weitere Informationen finden Sie unter [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
+>Weitere Informationen finden Sie unter [Versionsübersicht 1. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md).
 
-Sie können jetzt mit anderen an einzelnen Datensätzen zusammenarbeiten, indem Sie Kommentare hinzufügen oder auf andere antworten, während Sie die Seite eines Datensatzes anzeigen.
+Sie können jetzt mit anderen an einzelnen Datensätzen zusammenarbeiten, indem Sie Kommentare hinzufügen oder anderen antworten, während Sie die Seite eines Datensatzes anzeigen.
 
-Das Kommentierungserlebnis für die Aufzeichnung von Planungsfunktionen entspricht dem neuen Kommentierungserlebnis für Workfront-Objekte.
+Das Kommentierungserlebnis für Planungsfunktionsdatensätze entspricht dem neuen Kommentierungserlebnis für Workfront-Objekte.
 
 Weitere Informationen finden Sie unter [Verwalten von Datensatzkommentaren](/help/quicksilver/planning/records/manage-record-comments.md).
 
-### Workfront Planning Connector für Adobe Workfront Fusion
+### Workfront Planning-Connector für Adobe Workfront Fusion
 
 Produktion: 21. Dezember 2023
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss Adobe Workfront Fusion erwerben, um Verbindungen mit Adobe Workfront-Planungsfunktionen aufbauen zu können.
+>Ihr Unternehmen muss Adobe Workfront Fusion erwerben, um Verbindungen mit Adobe Workfront Planning-Funktionen herstellen zu können.
 >
->Weitere Informationen finden Sie unter [Adobe Workfront Fusion - Übersicht](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
 
-Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu den Planungsfunktionen herzustellen. Mit der neuen Fusion-Verbindung können Sie:
+Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu den Planungsfunktionen herzustellen. Mit der neuen Fusion-Verbindung haben Sie folgende Möglichkeiten:
 
-* Datensätze erstellen, lesen, aktualisieren und löschen
+* Erstellen, Lesen, Aktualisieren und Löschen von Datensätzen
 
-* Datensatzliste nach Datensatztyp abrufen
+* Abrufen einer Liste von Datensätzen nach Datensatztyp
 
 * Löschen oder Abrufen einer Liste von Datensatztypen
 
-* Suchdatensätze
+* Datensätze suchen
 
-* API-Aufruf
+* Durchführen eines API-Aufrufs
 
-* Trigger eines Szenarios bei einer Änderung der Planungsfunktionen
+* Trigger : Ein Szenario, in dem eine Änderung an den Planungsfunktionen vorgenommen wird
 
 Weitere Informationen finden Sie unter [Adobe Workfront-Planungsmodule](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
 
 ## Woche vom 11. Dezember 2023
 
-### Primärfeld in Tabellenansicht eines Datensatztyps aktualisieren
+### Aktualisieren des Primärfelds in einer Tabellenansicht eines Datensatztyps
 
 Vorschau und Produktion: 14. Dezember 2023
 
-Jetzt können Sie das Feld auswählen, das in der ersten Spalte einer Tabellenansicht angezeigt werden soll. Dieses Feld wird jetzt als primäres Feld bezeichnet.
+Jetzt können Sie das Feld auswählen, das Sie in der ersten Spalte einer Tabellenansicht anzeigen möchten. Dieses Feld wird jetzt als Primärfeld bezeichnet.
 
-Vor dieser Verbesserung wurde das Feld Name eines Datensatzes immer in der ersten Spalte der Tabellenansicht angezeigt und es konnte nicht an einer anderen Position platziert werden.
+Vor dieser Verbesserung wurde das Feld Name eines Datensatzes immer in der ersten Spalte der Tabellenansicht angezeigt und konnte nicht an einer anderen Position platziert werden.
 
 Beachten Sie bei dieser Verbesserung Folgendes:
 
-* Die Spalte &quot;Name&quot;oder das Feld ist standardmäßig weiterhin die erste Spalte einer Tabelle.
+* Die Spalte oder das Feld Name ist standardmäßig weiterhin die erste Spalte einer Tabelle.
 
-* Sie können jedes Feld der folgenden Typen als primäres Feld auswählen und das Feld Name in der ersten Spalte ersetzen:
+* Sie können ein beliebiges Feld der folgenden Typen als primäres Feld auswählen und das Feld Name in der ersten Spalte ersetzen:
 
    * Einzeiliger Text
 
@@ -129,45 +129,45 @@ Beachten Sie bei dieser Verbesserung Folgendes:
 
    * Formel
 
-* Das primäre Feld einer Tabellenansicht wird immer gesperrt und kann nicht verschoben werden, es sei denn, Sie legen ein anderes Feld als primäres Feld fest.
+* Das primäre Feld einer Tabellenansicht ist immer eingefroren und kann nicht verschoben werden, es sei denn, Sie legen ein anderes Feld als primäres Feld fest.
 
-* Sie können das Primärfeld in einer Spaltenüberschrift ändern, die nicht primär ist.
+* Sie können das Primärfeld von einer nicht primären Spaltenüberschrift aus ändern.
 
-* Alle Tabellenansichten eines Datensatztyps haben dasselbe Primärfeld, das Sie auswählen.
+* Alle Tabellenansichten eines Datensatztyps haben dasselbe primäre Feld, das Sie auswählen.
 
 Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
-### Verbinden von Datensätzen in Planungsfunktionen mit Adobe Experience Manager Assets
+### Verbinden von Planungsfunktionsdatensätzen mit Adobe Experience Manager Assets
 
-Vorschau: 14. Dezember 2023
+Vorschau-Version: 14. Dezember 2023
 
 Produktionsversion: 21. Dezember 2023
 
 >[!IMPORTANT]
 >
->Die Workfront-Instanz Ihres Unternehmens muss mit der Adobe Business Platform oder der Adobe Admin Console integriert sein, damit Adobe Workfront Planning-Leistungsdatensätze mit Adobe Experience Manager Assets verbunden werden können.
+>Die Workfront-Instanz Ihres Unternehmens muss in die Adobe-Geschäftsplattform oder die Adobe Admin Console integriert sein, um Datensätze der Adobe Workfront-Planungsfunktionen mit Adobe Experience Manager Assets verbinden zu können.
 >
->Wenn Sie Fragen zum Einstieg in Adobe Admin Console haben, lesen Sie die [FAQ zum einheitlichen Erlebnis für Adobe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+>Wenn Sie Fragen zum Onboarding in der Adobe Admin Console haben, lesen Sie die häufig gestellten Fragen zum [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
-Sie können jetzt eine Verbindung zwischen den Datensatztypen der Adobe Workfront-Planungsfunktionen und Adobe Experience Manager Assets herstellen.
+Sie können jetzt eine Verbindung zwischen den Datensatztypen der Adobe Workfront Planning-Funktionen und Adobe Experience Manager Assets herstellen.
 
-Nachdem Sie die Verbindung hergestellt haben, ist mit diesem Update die folgende Funktion verfügbar:
+Nachdem Sie die Verbindung hergestellt haben, sind mit diesem Update die folgenden Funktionen verfügbar:
 
-* Sie können Experience Manager-Assets und -Ordner mit einem Datensatz mit Planungsfunktionen aus einem bestimmten Repository in Experience Manager Assets verknüpfen, auf das sie Zugriff haben. In diesem Prozess können Sie Asset-Felder mit Planungsfunktionsfeldern verbinden.
+* Sie können Experience Manager-Assets und -Ordner mit einem Planungsfunktionsdatensatz aus einem bestimmten Repository in Experience Manager Assets verknüpfen, auf das sie Zugriff haben. In diesem Prozess können Sie Asset-Felder mit Feldern der Planungsfunktion verbinden.
 
-* Planungsfunktion Benutzer können den Namen der verbundenen Assets sowie die Werte der verbundenen Felder in den Planungsfunktionen anzeigen.
+* Planungsfunktionen : Benutzer können den Namen der verbundenen Assets sowie die Werte der verbundenen Felder in den Planungsfunktionen anzeigen.
 
 <!--removed per PM, for now: 
 * An Experience Manager Assets record type is automatically created in Planning after you establish the connection. Connected assets are visible in the table and timeline views of this new record type.  
 -->
 
-* Sie können im Feld &quot;Verbundener Datensatz&quot;in der Tabellenansicht des Planungsfunktionsdatensatzes auf den Asset-Namen klicken und ein Popup-Fenster mit der Asset-Miniaturansicht und mehreren Schlüsselfeldern anzeigen. Im Popup-Fenster können Sie in Experience Manager zum Asset-Viewer navigieren und alle Details dazu anzeigen.
+* Sie können auf den Asset-Namen in der Tabellenansicht des Datensatzes der Planungsfunktion im Feld Verbundener Datensatz klicken und ein Popup-Fenster mit der Miniaturansicht des Assets und mehreren Schlüsselfeldern anzeigen. Vom Popup-Fenster aus können Sie zum Asset-Viewer im Experience Manager navigieren und alle zugehörigen Details anzeigen.
 
 Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Woche vom 4. Dezember 2023
 
-### Kopieren Sie Informationen aus einem Feld in ein anderes und fügen Sie sie in der Tabellenansicht der Planungfähigkeitstabelle für Personen- und verknüpfte Datensatzfelder ein.
+### Kopieren Sie Informationen aus einem Feld in ein anderes in der Tabellenansicht der Planungsfunktion für Felder vom Typ „Personen“ und „Verknüpfte Datensätze“
 
 Vorschau und Produktion: 5. Dezember 2023
 
@@ -180,13 +180,13 @@ Beachten Sie Folgendes:
 
 * Das Kopieren und Einfügen von Feldwerten von einem Feld in ein anderes wird für Felder unterstützt, die mehrere Werte anzeigen.
 
-* Es ist nicht möglich, Informationen aus anderen Quellen als einem Planungsfunktionsfeld zu kopieren, das dem Feld entspricht, in das Sie die Informationen einfügen.
+* Es ist nicht möglich, Informationen aus einer anderen Quelle zu kopieren, es sei denn, es handelt sich um ein Feld für die Planungsfunktion desselben Typs wie das Feld, in das Sie die Informationen einfügen.
 
-* Es ist nicht möglich, Feldwerte für Felder zu kopieren und einzufügen, die im Detailbereich eines Datensatzes angezeigt werden.
+* Sie können keine Feldwerte für Felder kopieren und einfügen, die im Detailbereich eines Datensatzes angezeigt werden.
 
 Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
-Weitere Informationen zu verknüpften Feldern finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+Informationen zu verknüpften Feldern finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 
 ## Woche vom 27. November 2023
 
@@ -194,21 +194,21 @@ Weitere Informationen zu verknüpften Feldern finden Sie unter [Verbinden von Da
 
 Vorschau und Produktion: 28. November 2023
 
-Sie können jetzt Informationen aus einem Feld in ein anderes Feld desselben Typs kopieren und in eine Tabellenansicht vom Typ Datensatz der Planungsfunktion einfügen.
+Sie können jetzt Informationen aus einem Feld in ein anderes Feld desselben Typs in einer Tabellenansicht vom Typ Datensatzaufnahme der Planungsfunktion kopieren und einfügen.
 
 Beachten Sie Folgendes:
 
-* Es ist nicht möglich, Informationen aus anderen Quellen als einem Planungsfunktionsfeld zu kopieren, das dem Feld entspricht, in das Sie die Informationen einfügen.
+* Es ist nicht möglich, Informationen aus einer anderen Quelle zu kopieren, es sei denn, es handelt sich um ein Feld für die Planungsfunktion desselben Typs wie das Feld, in das Sie die Informationen einfügen.
 
-* Es ist nicht möglich, Feldwerte für Felder zu kopieren und einzufügen, die im Detailbereich eines Datensatzes angezeigt werden.
+* Sie können keine Feldwerte für Felder kopieren und einfügen, die im Detailbereich eines Datensatzes angezeigt werden.
 
-* Für die folgenden Feldtypen können Sie keine Feldwerte kopieren und einfügen:
+* Feldwerte für die folgenden Feldtypen können nicht kopiert und eingefügt werden:
 
    * Personen
 
    * Systemfelder
 
-   * Verknüpfte Felder, die durch das Verbinden von Datensätzen erstellt wurden
+   * Verknüpfte Felder, die als Ergebnis der Verknüpfung von Datensätzen erstellt wurden
 
 Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
@@ -218,17 +218,17 @@ Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilve
 
 Vorschau und Produktion: 7. November 2023
 
-Sie können Datensätze nun in der Tabellenansicht einer Seite vom Typ Datensatz gruppieren. Sie können in der Planungsfunktionsoberfläche<!--checking into this for now: and by four fields when using the API--> nach drei eindeutigen Feldern gruppieren.
+Sie können jetzt Datensätze in der Tabellenansicht einer Datensatztypseite gruppieren. Sie können in der Benutzeroberfläche der Planungsfunktion nach drei eindeutigen Feldern gruppieren<!--checking into this for now: and by four fields when using the API-->.
 
 Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Woche vom 30. Oktober 2023
 
-### Neue Feldtypen für Benutzer und Datumsfelder zum Erfassen, wer einen Datensatz erstellt oder zuletzt geändert hat oder zu welchem Datum
+### Neue Feldtypen für Benutzer- und Datumsfelder, um zu erfassen, wer einen Datensatz erstellt oder zuletzt geändert hat oder an welchem Datum
 
 Vorschau und Produktion: 30. Oktober 2023
 
-Wir haben die folgenden Feldtypen für Datensätze der Adobe Workfront-Planungsfunktionen eingeführt:
+Für Datensätze mit Adobe Workfront-Planungsfunktionen haben wir die folgenden Feldtypen eingeführt:
 
 * Erstellt von
 
@@ -238,7 +238,7 @@ Wir haben die folgenden Feldtypen für Datensätze der Adobe Workfront-Planungsf
 
 * Zuletzt geändert am
 
-Die Feldwerte der aus diesen Feldtypen erstellten Felder sind schreibgeschützt und erfassen den Namen des Benutzers, der einen Datensatz erstellt oder zuletzt geändert hat, oder das Datum, an dem der Datensatz erstellt oder zuletzt geändert wurde.
+Die Feldwerte der Felder, die aus diesen Feldtypen erstellt wurden, sind schreibgeschützt und erfassen den Namen des Benutzers, der einen Datensatz erstellt oder zuletzt geändert hat, oder das Datum, an dem der Datensatz erstellt oder zuletzt geändert wurde.
 
 Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -246,9 +246,9 @@ Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/plan
 
 Vorschau und Produktion: 31. Oktober 2023
 
-Sie können die Workfront-Objektseiten jetzt aus den folgenden Bereichen in der Workfront-Planung öffnen:
+Sie können jetzt die Workfront-Objektseiten aus den folgenden Bereichen in Workfront Planning öffnen:
 
-* Die schreibgeschützte verknüpfte Tabellenansicht der Workfront-Objektdatensätze
+* Die schreibgeschützte verknüpfte Tabellenansicht des Workfront-Objekts
 
 * Die schreibgeschützte Workfront-Objektaufzeichnungsseite
 
@@ -258,68 +258,68 @@ Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver
 
 Vorschau und Produktion: 2. November 2023
 
-Wir haben die Navigation in der Tabellenansicht einer Seite vom Typ Datensatz verbessert.
+Die Navigation in der Tabellenansicht einer Datensatztypseite wurde verbessert.
 
-Im Folgenden finden Sie einige Verbesserungen:
+Im Folgenden finden Sie einige der Verbesserungen:
 
-* Navigieren Sie mithilfe der Tabulatortaste auf der Tastatur durch die Spalten und Zeilen der Tabelle.
+* Verwenden Sie die Tabulatortaste auf der Tastatur, um durch die Spalten und Zeilen der Tabelle zu navigieren
 
-* Fügen Sie an jeder Spaltenposition einen neuen Datensatz hinzu. Vor dieser Verbesserung können Sie einen Datensatz nur aus der ersten Spalte hinzufügen.
+* Einen neuen Datensatz aus einer beliebigen Spaltenposition hinzufügen. Vor dieser Verbesserung konnten Sie einen Datensatz nur aus der ersten Spalte hinzufügen.
 
-* Verwenden Sie die Tastenkombination Umschalt + Eingabetaste , um einen neuen Datensatz (oder eine neue Zeile) zur Tabelle hinzuzufügen.
+* Verwenden Sie die Tastenkombination Umschalt+Eingabe , um einen neuen Datensatz (oder eine neue Zeile) in die Tabelle einzufügen.
 
 Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 
 ## Woche vom 16. Oktober 2023
 
-### Neuer Benutzerfeldtyp
+### Feldtyp „Neue Personen“
 
 Vorschau und Produktion: 16. Oktober 2023
 
-Sie können jetzt ein Feld vom Typ Personen zu den Datensätzen der Planungsfunktionen hinzufügen. Sie können Felder vom Typ Personen verwenden, um vorhandene Benutzer einem Datensatz zuzuordnen. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
+Sie können jetzt ein Feld vom Typ „Personen“ zu Datensatztypen von Planning-Funktionen hinzufügen. Sie können Felder vom Typ „Personen“ verwenden, um vorhandene Benutzer mit einem Datensatz zu verknüpfen. Weitere Informationen finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
-### Rich-Text-Format für Absatzfelder
+### Rich-Text - Format für Absatzfelder
 
 Vorschau und Produktion: 16. Oktober 2023
 
-Für Absatzfelder wurden Steuerelemente im Rich-Text-Format hinzugefügt. Sie können Absatzfelder mit Rich Text formatieren, entweder in der Tabellenansicht eines Datensatztyps oder auf der Datensatzseite. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+Wir haben Steuerelemente im Rich-Text-Format für Felder vom Typ Absatz hinzugefügt. Sie können Ihre Absatzfelder mit Rich-Text entweder in der Tabellenansicht eines Datensatztyps oder auf der Datensatzseite formatieren. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
 
-### Farbkodierung für die Timeline-Ansicht aufzeichnen und gruppieren
+### Aufzeichnen und Gruppieren der Farbcodierung für die Zeitleisten -Ansicht
 
 Vorschau und Produktion: 19. Oktober 2023
 
-Sie können jetzt die Datensatzleisten und die Gruppierungen in der Timeline-Ansicht farbcodieren.
+Sie können jetzt die Datensatzleisten und Gruppierungen in der Zeitleisten -Ansicht farblich codieren.
 
-Im Folgenden finden Sie Optionen für die Farben, die Sie in der Timeline-Ansicht für Datensatzbalken und -gruppierungen anzeigen möchten:
+Im Folgenden finden Sie Optionen für die Farben, die Sie für Datensatzbalken und Gruppierungen in der Zeitleisten -Ansicht anzeigen können:
 
-* Die Gruppierungen können die folgenden Farben aufweisen:
+* Gruppierungen können mit den folgenden Farben übereinstimmen:
 
    * Grau (Standard)
 
-   * Die Farbe des Felds, nach dem Sie eine Gruppierung vornehmen
+   * Die Farbe des Felds, nach dem Sie gruppieren
 
-* Balken können die folgenden Farben aufweisen:
+* Balken können mit den folgenden Farben übereinstimmen:
 
    * Die Farbe des Datensatztyps
 
-   * Die Farbe eines ausgewählten Felds
+   * Die Farbe eines von Ihnen ausgewählten Felds
 
    * Die Farbe der Gruppierung
 
    * Keine Farbe (Standard)
 
-Beim Abgleich von Farben mit einem bestimmten Feld können Sie nur Felder mit farbcodierten Optionen auswählen.
+Wenn Sie Farben einem bestimmten Feld zuordnen, können Sie nur Felder mit farbcodierten Optionen auswählen.
 
-Weitere Informationen finden Sie unter [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
+Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Woche vom 9. Oktober 2023
 
-### In Tabellenansicht suchen
+### Suche in Tabellenansicht
 
 Vorschau und Produktion: 9. Oktober 2023
 
-Sie können jetzt nach einem Suchbegriff suchen, um schnell einen Datensatz in der Tabellenansicht zu finden. Sie können Suchbegriffe und Sonderzeichen aus allen auf dem Bildschirm sichtbaren Feldern verwenden, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
+Sie können jetzt nach einem Keyword suchen, um einen Datensatz in der Tabellenansicht schnell zu finden. Sie können Keywords und Sonderzeichen aus allen Feldern verwenden, die auf dem Bildschirm sichtbar sind, um einen Datensatz zu finden. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
 ## Woche vom 18. September 2023
 
@@ -331,36 +331,36 @@ Sie können jetzt eine oder mehrere Zeilen (oder Datensätze) in der Tabellenans
 
 ## Woche vom 4. September 2023
 
-### Datensätze zu Planungsfunktionen mit Workfront-Unternehmen und -Gruppen verbinden
+### Verbinden von Planungsfunktionsdatensätzen mit Workfront-Unternehmen und -Gruppen
 
 Vorschau und Produktion: 5. September 2023
 
-Jetzt können Sie einen Datensatz mit Planungsfunktionen mit Workfront-Unternehmen und -Gruppen verbinden. Sie müssen zunächst eine Verbindung zwischen einem Datensatz vom Typ Planungsfunktion und den Objekttypen von Workfront-Unternehmen und -Gruppen herstellen. Anschließend können Sie einen einzigen Datensatz mit Planungsfunktionen des ausgewählten Datensatztyps mit einzelnen Workfront-Unternehmen und -Gruppen verbinden.
+Sie können jetzt einen Datensatz mit Planungsfunktionen mit Workfront-Unternehmen und -Gruppen verbinden. Zunächst müssen Sie eine Verbindung zwischen einem Datensatztyp der Planungsfunktion und den Objekttypen von Workfront Companies und Gruppen herstellen. Anschließend können Sie einen einzelnen Planungsfunktionsdatensatz des ausgewählten Datensatztyps mit einzelnen Workfront-Unternehmen und -Gruppen verbinden.
 
 Beachten Sie Folgendes:
 
-* Sie müssen für jede Workspace eine Verbindung zwischen den Datensatztypen der Planungsfunktionen und den Objekttypen Workfront Company und Group herstellen.
+* Sie müssen für jede Workspace eine Verbindung zwischen den Datensatztypen der Planungsfunktionen und den Objekttypen &quot;Workfront-Unternehmen“ und „Gruppe“ herstellen.
 
 * Es ist nicht möglich, Taxonomie-Datensatztypen mit Workfront-Objekttypen zu verbinden.
 
-* Sie können mehrere Planungsfunktionsdatensätze mit demselben Unternehmen oder derselben Workfront-Gruppe sowie mehrere Unternehmen oder Gruppen mit demselben Planungsfähigkeitsdatensatz verbinden.
+* Sie können mehrere Datensätze für die Planungsfunktion mit derselben Workfront-Firma oder -Gruppe und mehrere Unternehmen oder Gruppen mit demselben Datensatz für die Planungsfunktion verbinden.
 
-* Sie können keine Unternehmen oder Gruppen in den Planungsfunktionen bearbeiten. Alle in Workfront durchgeführten Unternehmens- oder Gruppenänderungen sind in den Planungsfunktionen sichtbar, wenn die Planungsfunktionen verknüpfte Datensätze überprüft werden.
+* In den Planungsfunktionen können keine Unternehmen oder Gruppen bearbeitet werden. Alle in Workfront durchgeführten Unternehmens- oder Gruppenänderungen sind in den Planungsfunktionen sichtbar, wenn die verknüpften Datensätze der Planungsfunktionen überprüft werden.
 
   Weitere Informationen finden Sie in den folgenden Artikeln:
 
-   * [Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types.md)
+   * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
    * [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
 
 ### URL-Unterstützung für einzeilige Textfelder
 
 Vorschau und Produktion: 7. September 2023
 
-Für eine bessere Sichtbarkeit beim Arbeiten mit Links in der Tabellenansicht wurde Unterstützung für URLs in einzeiligen Textfeldern hinzugefügt. Durch die Verwendung von URLs zu anderen Websites oder externen Laufwerken beim Aktualisieren eines einzeiligen Textfelds werden diese jetzt als Links identifiziert und Sie können in der Tabelle auf sie klicken. Vor dieser Verbesserung wurden Links als Text angezeigt.
+Für eine bessere Sichtbarkeit beim Arbeiten mit Links in der Tabellenansicht wurden URLs in einzeiligen Textfeldern unterstützt. Durch die Verwendung von URLs zu anderen Websites oder externen Laufwerken beim Aktualisieren eines einzeiligen Textfelds werden diese nun als Links identifiziert und Sie können in der Tabelle darauf klicken. Vor dieser Verbesserung wurden Links als Text angezeigt.
 
 ## Woche vom 28. August 2023
 
-### Menü für die Feldanzeige in der Symbolleiste &quot;Tabellenansicht&quot;
+### Menü für die Feldsichtbarkeit in der Tabellenansichts-Symbolleiste
 
 Vorschau und Produktion: 31. August 2023
 
@@ -372,86 +372,86 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 ## Woche vom 21. August 2023
 
-### Verbinden von Adobe Workfront-Planungsfunktionsdatensätzen mit Programmen und Portfolios
+### Verbinden von Adobe Workfront Planning-Funktionsdatensätzen mit Programmen und Portfolios
 
 Vorschau und Produktion: 24. August 2023
 
-Sie können jetzt einen Datensatz mit Planungsfunktionen mit Workfront-Programmen und -Portfolios verbinden. Sie müssen eine Verbindung zwischen einem Datensatz vom Typ Planungsfähigkeiten und einem Programm oder Portfolio herstellen, das bzw. das ein verknüpftes Feld erstellt. Anschließend können Sie alle Datensätze der Planungsfunktionen aus allen anderen Datensatztypen innerhalb desselben Arbeitsbereichs mit spezifischen Programmen und Portfolios verbinden, wodurch ein schreibgeschützter Workfront-Programm- oder Workfront-Portfolio-Datensatztyp im selben Arbeitsbereich erstellt wird. Beachten Sie Folgendes:
+Sie können jetzt einen Datensatz mit Planungsfunktionen mit Workfront-Programmen und -Portfolios verbinden. Sie müssen eine Verbindung zwischen einem Datensatztyp für Planungsfunktionen und einem Programm oder Portfolio herstellen, das ein verbundenes Feld erstellt. Anschließend können Sie beliebige Planungsfunktionsdatensätze aus allen anderen Datensatztypen innerhalb desselben Arbeitsbereichs mit bestimmten Programmen und Portfolios verbinden, wodurch im selben Arbeitsbereich ein schreibgeschützter Workfront-Programm- oder Workfront-Portfolio-Datensatztyp erstellt wird. Beachten Sie Folgendes:
 
-* Die Datensatztypen des Workfront-Connectors sind für jeden Arbeitsbereich eindeutig.
-* Sie können mehrere Planungsfunktionsdatensätze mit demselben Workfront-Programm oder -Portfolio sowie mehrere Programme und Portfolios mit demselben Datensatz für Planungsfunktionen verbinden.
-* Programme und Portfolios können nicht in den Planungsfunktionen bearbeitet werden. Alle in Workfront durchgeführten Programm- und Portfolioänderungen sind bei der Überprüfung der verknüpften Datensätze in den Planungsfunktionen sichtbar.
+* Workfront Connector-Datensatztypen sind für jeden Arbeitsbereich eindeutig.
+* Sie können mehrere Planungsfunktionsdatensätze mit demselben Workfront-Programm oder -Portfolio verbinden und mehrere Programme und Portfolios mit demselben Planungsfunktionsdatensatz verbinden.
+* In den Planungsfunktionen können Sie keine Programme und Portfolios bearbeiten. Alle in Workfront durchgeführten Programm- und Portfolioänderungen werden bei der Überprüfung der verknüpften Datensätze in den Planungsfunktionen angezeigt.
 
 ### Neue Sortierfunktion für die Tabellenansicht
 
 Vorschau und Produktion: 24. August 2023
 
-Sie können Datensätze nun in der Tabellenansicht einer Seite vom Typ Datensatz sortieren.
+Sie können jetzt Datensätze in der Tabellenansicht einer Datensatztypseite sortieren.
 Die folgenden Funktionen sind jetzt verfügbar:
 
-* Sortierung auf Tabellenebene, wobei mehrere Felder gleichzeitig sortiert werden können.
-* Sortierung auf Spalten- oder Feldebene, wo Sie einzelne Felder sortieren können.
+* Sortierung auf Tabellenebene, wo Sie nach mehreren Feldern gleichzeitig sortieren können.
+* Sortierung auf Spalten- oder Feldebene, wo Sie nach einem einzelnen Feld auf einmal sortieren können.
 
-### Verbesserungen an der Timeline-Ansicht: neues Erscheinungsbild für Gruppierungen und der Umschalter für Kompakt-/Standardansicht
+### Verbesserungen der Zeitleisten -Ansicht: Neues Erscheinungsbild für Gruppierungen und der Umschalter für die Kompakt-/Standardansicht
 
 Vorschau und Produktion: 24. August 2023
 
-Die Timeline-Ansicht wurde folgendermaßen verbessert:
+In der Zeitleisten -Ansicht wurden die folgenden Verbesserungen eingeführt:
 
-* Sie können die Timeline-Ansicht jetzt in den folgenden Modi anzeigen:
+* Sie können die Zeitleisten -Ansicht jetzt in den folgenden Modi anzeigen:
 
    * Standard: Zeigt Datensätze in separaten Zeilen an.
-   * Kompakt: Zeigt die Datensätze an, deren Daten sich nicht in derselben Zeile überschneiden.
+   * Kompakt: Zeigt die Datensätze an, deren Daten sich nicht in derselben Zeile schneiden.
 
-* Das Erscheinungsbild der Gruppierungslinien in der Timeline-Ansicht wurde geändert, sodass sie über der Timeline der darin enthaltenen Datensätze angezeigt werden. Vor dieser Verbesserung wurden die Gruppierungslinien über die gesamte Zeitleistenlänge hinweg angezeigt.
+* Das Erscheinungsbild der Gruppierungslinien in der Zeitleisten -Ansicht wurde geändert, sodass sie über der Zeitleiste der enthaltenen Datensätze angezeigt werden. Vor dieser Verbesserung wurden die Gruppierungslinien über die gesamte Länge der Timeline angezeigt.
 
 ## Woche vom 14. August 2023
 
-### Neuanordnen von Spalten in der Tabellenansicht
+### Spalten in der Tabellenansicht neu anordnen
 
-Sie können Spalten in der Tabellenansicht jetzt neu anordnen. Beachten Sie bei der Neuanordnung von Spalten Folgendes:
+Sie können Spalten jetzt in der Tabellenansicht neu anordnen. Beachten Sie bei der Neuanordnung von Spalten Folgendes:
 
-* Das Feld Name ist immer das erste Feld in der Tabellenansicht einer Seite vom Typ Datensatz
+* Das Feld Name ist immer das erste Feld in der Tabellenansicht einer Datensatztypseite
 
-* Sie können das Feld &quot;Name&quot;nicht an eine andere Position verschieben
+* Das Feld Name kann nicht an eine andere Position verschoben werden
 
 * Das Feld Name ist eingefroren und nicht Teil des horizontalen Bildlaufs
 
-### Horizontaler Bildlauf für die Timeline-Ansicht
+### Horizontaler Bildlauf für Zeitleisten-Ansicht
 
-Sie können jetzt einen horizontalen Bildlauf in der Timeline-Ansicht eines Datensatztyps durchführen.
+Sie können jetzt in der Zeitleisten -Ansicht eines Datensatztyps horizontal scrollen.
 
 ## Woche vom 7. August 2023
 
-### Import von Datensatztypen aus einer Excel-Datei
+### Datensatztypen aus einer Excel-Datei importieren
 
 Vorschau und Produktion: 10. August 2023
 
-Sie können jetzt eine Excel-Datei importieren, um in einem Arbeitsbereich Datensatztypen zu erstellen. Die Dateiblätter werden zu den Datensatztypen, und die Spalten der Datei werden zu ihren jeweiligen Feldern.
+Sie können jetzt eine Excel-Datei importieren, um Datensatztypen in einem Arbeitsbereich zu erstellen. Die Blätter der Datei werden zu Datensatztypen, und die Spalten der Datei werden zu ihren jeweiligen Feldern.
 
 ### Verbessertes Erlebnis beim Verbinden von Datensatztypen und Projekten
 
 Vorschau und Produktion: 10. August 2023
 
-Wir haben die Art und Weise verbessert, wie Sie Datensatztypen verbinden, einschließlich der Verbindung zu Workfront-Projekten. Im Rahmen dieser Verbesserung haben wir beim Hinzufügen eines Felds für einen Datensatztyp aus der Tabellenansicht folgende Änderungen vorgenommen:
+Die Art und Weise, wie Sie Datensatztypen verbinden, einschließlich der Verbindung zu Workfront-Projekten, wurde verbessert. Im Rahmen dieser Verbesserung haben wir beim Hinzufügen eines Felds für einen Datensatztyp aus der Tabellenansicht die folgenden Änderungen vorgenommen:
 
-* Das Feld Beziehungstyp wurde aus der Registerkarte &quot;Neues Feld&quot;entfernt.
+* Das Feld Beziehungstyp wurde aus der Registerkarte „Neues Feld“ entfernt.
 
-* Fügen Sie eine Registerkarte &quot;Neue Verbindung&quot;hinzu, auf der Sie direkt den Datensatz oder den Objekttyp auswählen können, mit dem Sie eine Verbindung herstellen möchten, sodass kein Feld vom Typ Beziehung erforderlich ist.
+* Fügen Sie eine Registerkarte „Neue Verbindung“ hinzu, auf der Sie den Datensatz oder Objekttyp, mit dem Sie eine Verbindung herstellen möchten, direkt auswählen können, sodass kein Feld vom Typ Beziehung erforderlich ist.
 
 ## Woche vom 10. Juli 2023
 
-### Erscheinungsbild eines Datensatztyps aktualisieren
+### Aktualisieren des Erscheinungsbilds eines Datensatztyps
 
 Vorschau und Produktion: 13. Juli 2023
 
-Sie können jetzt ein benutzerdefiniertes Symbol für einen Datensatztyp und eine benutzerdefinierte Farbe für das Symbol für den Datensatztyp auswählen.
+Sie können jetzt ein benutzerdefiniertes Symbol für einen Datensatztyp und eine benutzerdefinierte Farbe für das Datensatztyp-Symbol auswählen.
 
-### Neuer Feldtyp für Kontrollkästchen
+### Neuer Checkbox-Feldtyp
 
 Vorschau und Produktion: 13. Juli 2023
 
-Sie können jetzt einen Kontrollkästchen-Feldtyp zu den Datensätzen der Planungsfunktion hinzufügen. Sie können ein Feld vom Typ Kontrollkästchen verwenden, um einem Datensatz eine einzige Kontrollkästchen-Option hinzuzufügen. Sie können dieses Feld verwenden, um ein bestimmtes Attribut oder einen bestimmten Status für diesen Datensatz anzugeben. Sie können sie beispielsweise als Markierung zum Tracking der Fertigstellung, Genehmigung oder eines anderen Binärattributs für jeden Datensatz verwenden.
+Sie können jetzt den Datensatztypen der Planungsfunktion einen Checkbox-Feldtyp hinzufügen. Sie können ein Feld vom Typ „Kontrollkästchen“ verwenden, um einem Datensatz eine einzelne Kontrollkästchen-Option hinzuzufügen. Sie können dieses Feld verwenden, um ein bestimmtes Attribut oder einen bestimmten Status für diesen Datensatz anzugeben. Sie können sie beispielsweise als Markierung für das Tracking von Fertigstellung, Genehmigung oder anderen binären Attributen für jeden Datensatz verwenden.
 
 ## Woche vom 26. Juni 2023
 
@@ -459,30 +459,30 @@ Sie können jetzt einen Kontrollkästchen-Feldtyp zu den Datensätzen der Planun
 
 Vorschau und Produktion: 28. Juni 2023
 
-Wir haben die Aktivierung des Kontextmenüs ermöglicht, indem wir mit der rechten Maustaste auf eine beliebige Zeile eines Datensatzes klicken, wenn wir die Datensätze in der Tabellenansicht oder in einem Datensatztyp anzeigen. Sie können jetzt einen Link zur Datensatzseite schnell anzeigen, löschen oder kopieren, wenn Sie das Kontextmenü von einer beliebigen Stelle in der Tabellenansicht eines Datensatztyps aus aufrufen. Vor dieser Verbesserung war das Kontextmenü nur über das Menü Mehr in der Spalte Name eines Datensatzes zugänglich.
+Wir haben die Möglichkeit, das Kontextmenü zu aktivieren, indem Sie mit der rechten Maustaste auf eine beliebige Stelle in einer Datensatzzeile klicken, wenn Sie die Datensätze in der Tabellenansicht oder in einem Datensatztyp anzeigen. Sie können jetzt einen Link zur Datensatzseite schnell anzeigen, löschen oder kopieren, wenn Sie von einer beliebigen Stelle in der Tabellenansicht eines Datensatztyps auf das Kontextmenü zugreifen. Vor dieser Verbesserung war das Kontextmenü nur über das Menü Mehr in der Spalte Name eines Datensatzes zugänglich.
 
 ## Woche vom 19. Juni 2023
 
-### Namen von Datensatzfeldern sind eindeutig
+### Datensatzfeldnamen sind eindeutig
 
-Wir haben jetzt eine Anforderung eingeführt, dass die Feldnamen eines Datensatztyps für Planungsfähigkeiten eindeutige Namen haben müssen. Felder, die zu verschiedenen Datensatztypen gehören, müssen keine eindeutigen Namen haben.
+Wir haben jetzt eine Anforderung eingeführt, dass die Feldnamen eines Datensatztyps für die Planungsfunktion eindeutige Namen haben müssen. Felder, die zu verschiedenen Datensatztypen gehören, müssen keine eindeutigen Namen haben.
 
 ## Woche vom 5. Juni 2023
 
-### Verbinden von Datensätzen der Adobe Workfront-Planungsfunktion mit Workfront-Projekten
+### Verbinden von Datensätzen zu Adobe Workfront-Planungsfunktionen mit Workfront-Projekten
 
 Vorschau und Produktion: 5. Juni 2023
 
-Jetzt können Sie einen Datensatz mit Planungsfunktionen mit Workfront-Projekten verbinden. Sie müssen einen Datensatz vom Typ Connector-Planung erstellen, um die Verbindung zwischen den Datensätzen der Planungsfunktionen und den Workfront-Projekten herzustellen. Anschließend können Sie über das Feld Beziehung alle Datensätze der Planungsfunktionen aus allen anderen Datensatztypen mit dem Connector-Datensatz verbinden. Beachten Sie Folgendes:
+Sie können jetzt einen Datensatz mit Planungsfunktionen mit Workfront-Projekten verbinden. Sie müssen einen Connector-Datensatztyp für Planungsfunktionen erstellen, um die Verbindung zwischen den Planungsfunktionsdatensätzen und Workfront-Projekten herzustellen. Anschließend können Sie über das Feld Beziehung beliebige Datensätze der Planungsfunktionen aus allen anderen Datensatztypen mit dem Connector-Datensatz verbinden. Beachten Sie Folgendes:
 
-* Sie müssen für jede Workspace über einen Connector-Record-Typ für Workfront verfügen.
-* Sie können mehrere Datensätze zu Planungsfunktionen mit demselben Workfront-Projekt und mehrere Projekte mit demselben Datensatz zu Planungsfunktionen verbinden.
-* Projekte können nicht in Planungsfunktionen bearbeitet werden. Alle in Workfront durchgeführten Projektänderungen sind in den Planungsfunktionen sichtbar, wenn die verknüpften Datensätze überprüft werden.
+* Sie müssen für jede Workspace einen Connector-Datensatztyp für Workfront haben.
+* Sie können mehrere Planungsfunktionsdatensätze mit demselben Workfront-Projekt und mehrere Projekte mit demselben Planungsfunktionsdatensatz verbinden.
+* Sie können Projekte in Planungsfunktionen nicht bearbeiten. Alle in Workfront durchgeführten Projektänderungen sind bei der Überprüfung der verknüpften Datensätze in den Planungsfunktionen sichtbar.
 
 ## Woche vom 29. Mai 2023
 
-### Zweitdatumsanforderung für das Erstellen einer Timeline-Ansicht
+### Zwei Datumsangaben sind zum Erstellen einer Zeitleisten-Ansicht erforderlich
 
 Vorschau und Produktion: 31. Mai 2023
 
-Sie müssen mindestens zwei Datumsfelder mit einem Datensatztyp verknüpfen, um eine Timeline-Ansicht zu erstellen.
+Zum Erstellen einer Zeitleisten-Ansicht müssen mindestens zwei Datumsfelder mit einem Datensatztyp verknüpft sein.

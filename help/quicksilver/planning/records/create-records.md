@@ -1,6 +1,6 @@
 ---
-title: Datensätze erstellen
-description: Bei Verwendung der Adobe Workfront-Planung ist ein Datensatz eine Instanz eines Datensatztyps. In der Workfront-Planung können Sie für jeden Datensatztyp eindeutige Datensätze erstellen, indem Sie diese manuell zur Tabellenansicht hinzufügen, aus einer Liste importieren, duplizieren oder erstellen, während Sie ihn mit anderen Datensätzen verbinden.
+title: Erstellen von Datensätzen
+description: Bei Verwendung von Adobe Workfront Planning ist ein Datensatz eine Instanz eines Datensatztyps. Sie können in Workfront Planning für jeden Datensatztyp eindeutige Datensätze erstellen, indem Sie diese manuell zur Tabellenansicht hinzufügen, aus einer Liste importieren, duplizieren oder beim Verbinden mit anderen Datensätzen erstellen.
 feature: Workfront Planning
 role: User, Admin
 author: Alina
@@ -15,34 +15,34 @@ ht-degree: 0%
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Datensätze erstellen
+# Erstellen von Datensätzen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
-In der Adobe Workfront-Planung ist ein Datensatz eine Instanz eines Datensatztyps.
+In Adobe Workfront Planning ist ein Datensatz eine Instanz eines Datensatztyps.
 
-Sie können Datensätze anhand einer der folgenden Methoden erstellen:
+Sie können Datensätze wie folgt erstellen:
 
-* [Hinzufügen von Datensätzen auf der Seite &quot;Record Type&quot;in der Tabellenansicht](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
-* [Datensätze aus einer externen Liste kopieren und einfügen](#create-records-by-copying-and-pasting-them-from-an-external-list)
-* [Datensätze aus einer Tabellenansicht duplizieren](#create-records-by-duplicating-them)
-* [Erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
+* [Hinzufügen von Datensätzen von der Seite „Datensatztyp“ in der Tabellenansicht](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Kopieren und Einfügen einer Liste von Datensätzen aus einer externen Liste](#create-records-by-copying-and-pasting-them-from-an-external-list)
+* [Duplizieren von Datensätzen aus einer Tabellenansicht](#create-records-by-duplicating-them)
+* [Datensätze erstellen, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
 * [Erstellen Sie sie, indem Sie ein Anfrageformular an einen Datensatztyp senden](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Erstellen von Datensätzen beim Import von Datensatztypen aus einer CSV- oder Excel-Datei](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+* <span class="preview">[Erstellen von Datensätzen beim Importieren von Datensatztypen aus einer CSV- oder Excel-Datei](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
 
 
-Informationen zum Verwalten von Datensätzen in der Tabellen- oder Timeline-Ansicht finden Sie in den folgenden Artikeln:
+Informationen zum Verwalten von Datensätzen in der Tabellen- oder Zeitleisten -Ansicht finden Sie in den folgenden Artikeln:
 
-* [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md)
-* [Verwalten der Timeline-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md)
+* [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md)
+* [Zeitleisten-Ansicht verwalten](/help/quicksilver/planning/views/manage-the-timeline-view.md)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Workfront-Planung anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -63,118 +63,118 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
    <td> 
-<p>Die folgenden Workfront-Pläne:</p> 
+<p>Einer der folgenden Workfront-Pläne:</p> 
 <ul><li>Auswählen</li> 
 <li>Erstklassig</li> 
 <li>Ultimativ</li></ul> 
-<p>Die Workfront-Planung ist für veraltete Workfront-Pläne nicht verfügbar</p> 
+<p>Workfront Planning ist nicht für ältere Workfront-Pläne verfügbar</p> 
    </td> 
 <tr> 
    <td role="rowheader"><p>Adobe Workfront-Planungspaket*</p></td> 
    <td> 
-<p>Alle </p> 
-<p>Weitere Informationen zu den Funktionen der einzelnen Workfront-Planungspläne erhalten Sie von Ihrem Workfront-Kundenbetreuer. </p> 
+<p>Beliebig </p> 
+<p>Weitere Informationen zu den einzelnen Workfront-Planungsplänen erhalten Sie von Ihrem Workfront Account Manager. </p> 
    </td> 
  <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
-<p>Die Workfront-Instanz Ihres Unternehmens muss in das Adobe Unified Experience integriert sein, damit Sie auf alle Funktionen der Workfront-Planung zugreifen können.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
+<p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td> Standard
-   <p>Für ältere Workfront-Lizenzen ist die Workfront-Planung nicht verfügbar.</p> 
+   <p>Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Für die Adobe Workfront-Planung gibt es keine Zugriffssteuerungselemente</p> 
+   <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p> 
    <p>Bearbeiten Sie den Zugriff in Workfront für die Objekttypen, die Sie erstellen möchten (Projekte und Portfolios), während Sie die Datensätze mit ihnen verbinden. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td> <p>Verwalten Sie Berechtigungen für den Arbeitsbereich, dem Sie Datensätze hinzufügen möchten. </p>  
-   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich derjenigen, die sie nicht erstellt haben</p>
+   <td> <p>Verwalten Sie die Berechtigungen für den Arbeitsbereich, dem Sie Datensätze hinzufügen möchten. </p>  
+   <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layout-Vorlage</p></td> 
-   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält </p> </td> 
+   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält </p> </td> 
   </tr> 
 </tbody> 
 </table>
 
-*Weitere Informationen zu den Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen von Datensätzen durch Hinzufügen zu einem Datensatztyp in einer Tabelle vom Typ Datensatz
+## Erstellen von Datensätzen durch Hinzufügen zu einem Datensatztyp in einer Datensatztyptabelle
 
-Sie können Datensätze in der Tabellenansicht einer Seite vom Typ Datensatz erstellen.
+Sie können Datensätze in der Tabellenansicht einer Datensatztypseite erstellen.
 
-Informationen zum Bearbeiten von Datensatzinformationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+Informationen zum Bearbeiten von Datensatzinformationen finden Sie unter [Bearbeiten von Datensätzen](/help/quicksilver/planning/records/edit-records.md).
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, in den Sie Datensätze hinzufügen möchten.
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze hinzufügen möchten.
 
    Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
 
-1. Klicken Sie auf eine Karte vom Typ Datensatz. Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-   Die Seite mit dem Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite vom Typ Datensatz in der Tabellenansicht geöffnet.
+   Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
 Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
 1. (Bedingt) Führen Sie je nach angezeigter Ansicht einen der folgenden Schritte aus:
 
    * In der Tabellenansicht:
 
-      * Klicken Sie in der letzten Zeile der Tabelle auf **Neuer Datensatz** .
+      * Klicken Sie **Neuer Datensatz** in der letzten Zeile der Tabelle
 
-      * Klicken Sie in einer beliebigen Spalte oder Zeile der Tabelle auf die Tastenkombination **Umschalt + Eingabetaste**. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, aus dem Sie beginnen.
-      * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes, klicken Sie auf das Menü **Mehr** Menü ![](assets/more-menu.png) rechts neben dem Feld und klicken Sie dann auf **Datensatz über** einfügen oder **Datensatz unter** einfügen .
+      * Klicken Sie **einer beliebigen Spalte oder Zeile** Tabelle auf der Tastatur auf „Umschalt+Eingabe“. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, von dem aus Sie beginnen.
+      * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes und klicken Sie auf das Menü **Mehr** rechts ![](assets/more-menu.png) dem Feld und dann auf **Datensatz oben einfügen** oder **Datensatz unten einfügen**.
 
      ![](assets/adding-a-new-campaign-in-table-row.png)
 
-   * Aus jeder Sicht:
+   * Aus jeder Ansicht:
 
-      * Klicken Sie oben rechts auf der Seite auf **Neuer Datensatz** . Das Vorschaufeld für Datensätze wird geöffnet.
+      * Klicken **oben rechts** der Seite auf „Neuer Datensatz“. Das Feld für die Datensatzvorschau wird geöffnet.
 
-     Workfront lädt automatisch eine Miniaturansicht und ein Titelbild in jeden neuen Datensatz hoch. Sie können diese Bilder später ändern. Weitere Informationen finden Sie in den folgenden Artikeln:
+     Workfront lädt für jeden neuen Datensatz automatisch eine Miniaturansicht und ein Titelbild hoch. Sie können diese Bilder später ändern. Weitere Informationen finden Sie in den folgenden Artikeln:
 
-      * [Hinzufügen eines Titelbilds zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
+      * [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
       * [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
 
-1. Geben Sie in die im Vorschaufenster angezeigten Felder Informationen zum neuen Datensatz ein.
+1. Beginnen Sie mit der Eingabe von Informationen über den neuen Datensatz in die Felder, die Sie im Vorschaufeld sehen.
 
    >[!NOTE]
    >
-   >  * Es gibt keine Pflichtfelder für Datensätze. Es wird jedoch empfohlen, Informationen für das primäre Feld eines Datensatzes hinzuzufügen, da es beim Verknüpfen von Datensätzen hilfreich ist, Datensätze zu identifizieren. Weitere Informationen zu Primärfeldern finden Sie unter [Tabellenansicht verwalten](/help/quicksilver/planning/views/manage-the-table-view.md) und [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
+   >  * Es gibt keine Pflichtfelder für Datensätze. Es wird jedoch empfohlen, Informationen für das Primärfeld eines Datensatzes hinzuzufügen, da es hilfreich ist, Datensätze zu identifizieren, wenn Datensätze miteinander verknüpft werden. Weitere Informationen zu Primärfeldern finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md) und [Übersicht über Primäre Felder](/help/quicksilver/planning/fields/primary-field-overview.md).
    >
-   >  * Felder, die auf andere Datensatztypen oder berechnete Felder verweisen, sind schreibgeschützte Felder.
+   >  * Felder, die auf andere Datensatztypen oder berechnete Felder verweisen, sind schreibgeschützt.
 
-1. (Bedingt) Wenn Sie Datensätze in die Tabelle einfügen, fügen Sie weiterhin Informationen zu jeder Zeile hinzu und klicken Sie dann auf der Tastatur auf **Enter** , um Ihre Änderungen zu speichern.
+1. (Bedingt) Wenn Sie der Tabelle Datensätze hinzufügen, fügen Sie weitere Informationen in jeder Zeile hinzu und klicken Sie dann auf **Eingabetaste** auf der Tastatur, um die Änderungen zu speichern.
 
    Oder
 
-   Klicken Sie auf den Namen des neuen Datensatzes oder auf das Symbol **Details öffnen** ![](assets/open-details-icon-in-table-name-field.png) links neben dem Datensatznamen. Eine Vorschau mit den detaillierten Informationen des Datensatzes wird in der Tabelle geöffnet.
+   Klicken Sie auf den Namen des neuen Datensatzes oder auf **Symbol** Details öffnen![](assets/open-details-icon-in-table-name-field.png) links neben dem Datensatznamen. In der Tabelle wird eine Vorschau mit den detaillierten Informationen des Datensatzes geöffnet.
 
    >[!TIP]
    >
-   >Sie können nur dann auf das Symbol **Details öffnen** zugreifen, wenn das Feld &quot;Name&quot;ein primäres Feld ist.
+   >Sie können auf das Symbol **Details öffnen** nur über das Namensfeld des Datensatzes zugreifen, wenn das Namensfeld ein primäres Feld ist.
 
-1. Bearbeiten Sie die Datensatzinformationen in der Vorschau des Datensatzes. Workfront speichert Ihre Änderungen automatisch.
-1. (Optional) Klicken Sie oben rechts in der Vorschau des Datensatzes auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) , um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Bearbeiten Sie den Datensatz auf der Datensatzseite weiter. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+1. Beginnen Sie mit der Bearbeitung der Datensatzinformationen in der Vorschau des Datensatzes. Workfront speichert Ihre Änderungen automatisch.
+1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen. Bearbeitung des Datensatzes auf der Datensatzseite fortsetzen. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
-1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze oder ihrer Informationen rückgängig zu machen oder wiederherzustellen, wenn Sie sie in der Tabellenansicht hinzufügen:
+1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze oder deren Informationen rückgängig zu machen oder wiederherzustellen, wenn Sie sie in der Tabellenansicht hinzufügen:
 
-   * STRG + Z ( ⌘ + Z für Mac) zum Rückgängigmachen einer Änderung
-   * STRG + Umschalt + Z ( ⌘ + Umschalt + Z für Mac) zum Wiederholen einer Änderung
+   * STRG + Z (⌘ + Z für Mac), um eine Änderung rückgängig zu machen
+   * Strg+Umsch+Z (⌘+Umschalt+Z für Mac), um eine Änderung wiederherzustellen
 
 <!-- this is not possible anymore: 
 
@@ -198,91 +198,91 @@ You can import records from other applications by linking them to existing recor
    
 -->
 
-## Datensätze durch Kopieren und Einfügen aus einer externen Liste erstellen
+## Erstellen von Datensätzen durch Kopieren und Einfügen aus einer externen Liste
 
-1. Beginnen Sie mit der Erstellung von Datensätzen in der Tabellenansicht, wie im Abschnitt [Erstellen von Datensätzen beschrieben, indem Sie sie manuell zu einem Datensatztyp hinzufügen](#create-records-by-manually-adding-them-to-a-record-type) in diesem Artikel.
+1. Beginnen Sie mit der Erstellung von Datensätzen in der Tabellenansicht, wie im Abschnitt [Erstellen von Datensätzen durch manuelles Hinzufügen zu einem Datensatztyp](#create-records-by-manually-adding-them-to-a-record-type) in diesem Artikel beschrieben.
 
-   Stellen Sie sicher, dass die Tabellenansicht über die Spalten (oder Felder) verfügt, die mit den neuen Datensatzinformationen gefüllt werden sollen.
+   Stellen Sie sicher, dass die Tabellenansicht über die Spalten (oder Felder) verfügt, die Sie mit den neuen Datensatzinformationen füllen möchten.
 
-1. Klicken Sie in der letzten Zeile der Tabelle auf **Neu &lt; Name des Datensatztyps >** , um der Tabelle so viele neue Zeilen hinzuzufügen, wie die neuen Datensätze sein sollen.
+1. Klicken Sie **Neu &lt; Name des Datensatztyps >** in der letzten Zeile der Tabelle, um der Tabelle so viele neue Zeilen hinzuzufügen, wie Sie möchten.
 
-   Fügen Sie der Tabellenansicht beispielsweise 10 Zeilen hinzu, wenn Sie die Informationen für 10 neue Datensätze aus einer anderen Anwendung einfügen möchten.
+   Fügen Sie beispielsweise 10 Zeilen zur Tabellenansicht hinzu, wenn Sie die Informationen für 10 neue Datensätze aus einer anderen Anwendung einfügen möchten.
 
-1. Erstellen Sie in einer anderen Anwendung eine Liste von Datensätzen, die Sie importieren möchten.
+1. Erstellen Sie in einem anderen Programm eine Liste von Datensätzen, die Sie importieren möchten.
 
    Sie können beispielsweise eine Excel-Tabelle verwenden, um Ihre Liste zu erstellen.
 
-   Die Liste sollte Informationen im Tabellenformat enthalten.
+   Die Liste sollte Informationen in tabellarischer Form enthalten.
 
    >[!TIP]
    >
-   > Die Spalten der Liste sollten Informationen zu den in Workfront vorhandenen Feldern enthalten.
+   > Die Spalten der Liste sollten Informationen zu den vorhandenen Feldern enthalten, die Sie in Workfront haben.
    >
-   > Vergewissern Sie sich, dass die gewünschten Felder bereits in Workfront erstellt wurden und dass die Informationen in Ihrem Arbeitsblatt im richtigen Format angezeigt werden, das dem der Felder in Workfront entspricht.
+   > Stellen Sie sicher, dass Sie die gewünschten Felder bereits in Workfront erstellt haben und dass die Informationen im Blatt im richtigen Format angezeigt werden, das dem Format der einzelnen Felder in Workfront entspricht.
 
-1. Wählen Sie in einer anderen Anwendung mehrere Zeilen und Spalten aus und fügen Sie dann die Informationen in die Tabellenansicht des Datensatztyps ein, beginnend mit dem ersten neuen Datensatz.
+1. Wählen Sie in einer anderen Anwendung mehrere Zeilen und Spalten aus und fügen Sie dann die Informationen in die Tabellenansicht „Datensatztyp“ ein, beginnend mit dem ersten neuen Datensatz.
 
-   Die folgenden Informationen werden in den Workfront-Planungsbereich importiert:
+   Die folgenden Informationen werden in den Workfront Planning-Bereich importiert:
 
    * Die Zeilen enthalten die neuen Datensätze
-   * Die Spalten enthalten Informationen zu den Feldern der Datensätze.
+   * Die Spalten füllen Informationen für die Felder der Datensätze aus.
 
-## Datensätze durch Duplizierung erstellen
+## Erstellen von Datensätzen durch Duplizieren
 
 Informationen zum Duplizieren von Datensätzen finden Sie unter [Duplizieren von Datensätzen](/help/quicksilver/planning/records/copy-or-duplicate-records.md).
 
-## Erstellen von Datensätzen während der Verbindung
+## Datensätze erstellen, während Sie sie verbinden
 
 Sie können Datensätze oder Workfront-Objekte erstellen, während Sie sie mit anderen Datensätzen verbinden.
 
-Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze oder Workfront-Objekte hinzufügen können, indem Sie sie aus vorhandenen Datensätzen verbinden:
+Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze oder Workfront-Objekte hinzufügen können, indem Sie sie mit vorhandenen Datensätzen verbinden:
 
-* Verbundene Datensatztypen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Verbundene Datensätze. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
-* Die korrekten Zugriffs- und Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen](#access-requirements) in diesem Artikel beschrieben.
+* Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Verbundene Datensätze. Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 >[!NOTE]
 >
->Das Erstellen von Workfront-Projekten und -Portfolios während Sie sie mit Workfront-Planungsdatensätzen verbinden, ähnelt dem Erstellen von Datensätzen für die Planung , während Sie sie mit anderen Datensätzen verbinden.
+>Das Erstellen von Workfront-Projekten und -Portfolios beim Verbinden mit Workfront-Planungsdatensätzen ähnelt dem Erstellen von Planungsdatensätzen beim Verbinden aus anderen Datensätzen.
 
-So erstellen Sie Datensätze, während Sie sie aus anderen Datensätzen verbinden:
+So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 
-1. Beginnen Sie mit dem Verbinden von Workfront-Planungsprotokollen, wie im Artikel [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md) beschrieben.
-1. (Bedingt) Wenn Sie beim Versuch, einen Datensatz aus dem verbundenen Datensatzfeld eines anderen Datensatzes hinzuzufügen, keinen Eintrag finden können, suchen Sie nach einem Datensatz und klicken Sie auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, aus dem Sie eine Verbindung herstellen.
+1. Verbinden Sie Workfront-Planungsdatensätze, wie im Artikel [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md) beschrieben.
+1. (Bedingt) Wenn Sie einen Datensatz beim Versuch, ihn aus dem Feld Verbundener Datensatz eines anderen Datensatzes hinzuzufügen, nicht finden können, suchen Sie nach einem Datensatz und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, von dem aus Sie eine Verbindung herstellen.
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
-   Der Datensatz wird erstellt und dem Feld des verbundenen Datensatzes hinzugefügt.
+   Der Datensatz wird erstellt und dem verbundenen Datensatzfeld hinzugefügt.
 
    >[!IMPORTANT]
    >
-   >* Sie können nur Projekte und Portfolios in Workfront erstellen, wenn Sie sie aus einem Datensatz verbinden.
+   >* Sie können nur Projekte und Portfolios in Workfront erstellen, wenn Sie sie über einen Datensatz verbinden.
    >
-   >* Sie können keine Programme, Gruppen oder Unternehmen erstellen, wenn Sie sie aus einem Datensatz in der Workfront-Planung verbinden.
+   >* Sie können keine Programme, Gruppen oder Unternehmen erstellen, wenn Sie sie über einen Datensatz in Workfront Planning verbinden.
    >
-   >* Sie können ein Projekt nicht aus einer Vorlage erstellen, wenn Sie Projekte durch Verbinden aus einem Datensatz erstellen. Sie müssen dem neuen Projekt manuell Aufgaben und Projektinformationen oder eine Vorlage hinzufügen, nachdem Sie sie zum Datensatz hinzugefügt haben.
+   >* Beim Erstellen von Projekten können Sie kein Projekt über eine Vorlage erstellen, indem Sie es über einen Datensatz verbinden. Sie müssen dem neuen Projekt manuell Aufgaben und Projektinformationen oder eine Vorlage hinzufügen, nachdem Sie sie zum Datensatz hinzugefügt haben.
 
-1. (Optional) Rufen Sie die Tabellenansicht des Datensatztyps auf, dessen Datensatz Sie erstellt haben. In der letzten Zeile der Ansicht wird ein neuer Datensatz angezeigt.
-1. (Optional) Beginnen Sie mit dem Hinzufügen von Informationen für den neuen Datensatz in der Tabellenansicht.
-Oder
-Klicken Sie auf seinen Namen, um die Detailseite zu öffnen und dort Informationen hinzuzufügen.
+1. (Optional) Wechseln Sie zur Tabellenansicht des Datensatztyps, dessen Datensatz Sie erstellt haben. Ein neuer Datensatz wird in der letzten Zeile der Ansicht angezeigt.
+1. (Optional) Mit dem Hinzufügen von Informationen für den neuen Datensatz in der Tabellenansicht beginnen
+oder
+Klicken Sie auf den Namen, um die Detailseite zu öffnen und dort Informationen hinzuzufügen.
 
-## Erstellen von Datensätzen durch Senden eines Anfrageformulars an einen Datensatztyp
+## Erstellen von Datensätzen durch Senden eines Anforderungsformulars an einen Datensatztyp
 
-Nachdem ein Benutzer ein Anfrageformular für einen Datensatztyp erstellt und einen Link mit Ihnen geteilt hat, können Sie eine Anfrage senden, die einen Datensatz für diesen Datensatztyp erstellt.
+Nachdem jemand ein Anfrageformular für einen Datensatztyp erstellt und einen Link dazu für Sie freigegeben hat, können Sie eine Anfrage senden, die einen Datensatz für diesen Datensatztyp erstellt.
 
-Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anforderungsformulars in der Adobe Workfront-Planung](/help/quicksilver/planning/requests/create-request-form.md).
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-Sowohl Workfront-Benutzer als auch externe Benutzer Ihrer Organisation können Anfragen an die Planung von Datensatztypen senden und Datensätze erstellen, sofern sie über eine Verknüpfung mit dem Anfrageformular verfügen.
+Sowohl Workfront-Benutzer als auch externe Benutzer Ihres Unternehmens können Anfragen an Planning-Datensatztypen senden und Datensätze erstellen, wenn sie einen Link zum Anfrageformular haben.
 
-Weitere Informationen finden Sie unter [Planungsanfragen zur Erstellung von Datensätzen mit Adobe Workfront senden](/help/quicksilver/planning/requests/submit-requests.md).
+Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
 <div class="preview">
 
-## Erstellen von Datensätzen beim Import von Datensatztypen aus einer CSV- oder Excel-Datei
+## Erstellen von Datensätzen beim Importieren von Datensatztypen aus einer CSV- oder Excel-Datei
 
-Datensätze können beim Import von Datensatztypen mithilfe einer CSV- oder Excel-Datei importiert werden.
+Sie können Datensätze importieren, wenn Sie Datensatztypen mithilfe einer CSV- oder Excel-Datei importieren.
 
-Weitere Informationen finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
 </div>

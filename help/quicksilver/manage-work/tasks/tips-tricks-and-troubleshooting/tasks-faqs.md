@@ -2,8 +2,8 @@
 content-type: faq
 product-area: projects
 navigation-topic: tips-tricks-and-troubleshooting-tasks
-title: FAQs zu Aufgaben
-description: Standardmäßig erhält ein Aufgabenanforderer/-deditor keine E-Mail-Benachrichtigungen zu den Änderungen an den Aufgaben, die er anderen Benutzern zuweist. Die Anzahl der Benachrichtigungen zu diesen Aufgaben wäre für jemanden, der routinemäßig eine große Anzahl von Aufgaben zuweist, überwältigend.
+title: Häufig gestellte Fragen zu Aufgaben
+description: Standardmäßig erhält ein Aufgabenanfragender/-zuweiser keine E-Mail-Benachrichtigungen über die Änderungen an den Aufgaben, die er anderen Benutzern zuweist. Die Anzahl der Benachrichtigungen zu diesen Aufgaben wäre für jemanden, der regelmäßig eine große Anzahl von Aufgaben zuweist, überwältigend.
 author: Alina
 feature: Work Management
 exl-id: 6463efdd-02e0-42e1-8fe6-18a88f74db7b
@@ -14,24 +14,24 @@ ht-degree: 1%
 
 ---
 
-# FAQs zu Aufgaben
+# Häufig gestellte Fragen zu Aufgaben
 
-## Erhält der Benutzer, der anderen Benutzern Aufgaben zuweist, Benachrichtigungen zu Änderungen oder Aktualisierungen der Aufgaben, die er zuweist?
-
-### Antwort
-
-Standardmäßig erhält ein Aufgabenanforderer/-deditor keine E-Mail-Benachrichtigungen zu den Änderungen an den Aufgaben, die er anderen Benutzern zuweist. Die Anzahl der Benachrichtigungen zu diesen Aufgaben wäre für jemanden, der routinemäßig eine große Anzahl von Aufgaben zuweist, überwältigend.
-
-## Warum wird die Schaltfläche &quot;Neue Aufgabe&quot;nicht im Abschnitt &quot;Unteraufgaben&quot;angezeigt?
-
-Die Schaltfläche Neue Aufgabe wird nicht im Unteraufgaben-Abschnitt angezeigt, wenn eine Genehmigung für die Hauptaufgabe vorliegt.
+## Erhält der Benutzer, der anderen Benutzern Aufgaben zuweist, Benachrichtigungen über Änderungen oder Aktualisierungen zu den von ihm zugewiesenen Aufgaben?
 
 ### Antwort
 
-Die Schaltfläche &quot;Neue Aufgabe&quot;wird nicht angezeigt, da Adobe Workfront nicht zulässt, dass eine Aufgabe mit einer Genehmigung zu einer übergeordneten Aufgabe wird.
+Standardmäßig erhält ein Aufgabenanfragender/-zuweiser keine E-Mail-Benachrichtigungen über die Änderungen an den Aufgaben, die er anderen Benutzern zuweist. Die Anzahl der Benachrichtigungen zu diesen Aufgaben wäre für jemanden, der regelmäßig eine große Anzahl von Aufgaben zuweist, überwältigend.
 
-## Welches ist das Zuordnungsdatum?
+## Warum wird die Schaltfläche Neue Aufgabe im Abschnitt Unteraufgaben nicht angezeigt?
+
+Die Schaltfläche Neue Aufgabe wird nicht im Abschnitt Teilaufgabe angezeigt, wenn eine Genehmigung für die Hauptaufgabe vorliegt.
 
 ### Antwort
 
-Das Zuordnungsdatum ist der erste Tag (Sonntag) einer Woche, in dem die Zuordnung einer Auftragsrolle zu einer Aufgabe beginnt. Weitere Informationen finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+Die Schaltfläche Neue Aufgabe wird nicht angezeigt, da Adobe Workfront nicht zulässt, dass eine Aufgabe mit einer Genehmigung zu einer übergeordneten Aufgabe wird.
+
+## Wie lautet das Zuteilungsdatum?
+
+### Antwort
+
+Das Zuordnungsdatum ist der erste Tag (Sonntag) einer Woche, in der die Zuordnung eines Aufgabengebiets zu einer Aufgabe beginnt. Weitere Informationen finden Sie [Glossar der Terminologie von Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

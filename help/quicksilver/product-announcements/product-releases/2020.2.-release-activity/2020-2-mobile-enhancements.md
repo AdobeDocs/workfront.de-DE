@@ -2,8 +2,8 @@
 product-previous: mobile
 content-type: release-notes
 navigation-topic: 2020-2-release-activity
-title: Verbesserungen für Mobilgeräte 2020.2
-description: Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 2020.2 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Mai 2020 bereitgestellt.
+title: Verbesserungen an Mobilgeräten in 2020.2
+description: Auf dieser Seite werden alle mit der Version 2020.2 vorgenommenen Verbesserungen an Mobilgeräten in der Produktionsumgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 11. Mai 2020 in der Produktionsumgebung verfügbar gemacht.
 author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
@@ -15,23 +15,23 @@ ht-degree: 0%
 
 ---
 
-# Verbesserungen für Mobilgeräte 2020.2
+# Verbesserungen an Mobilgeräten in 2020.2
 
-Auf dieser Seite werden alle Verbesserungen für Mobilgeräte beschrieben, die mit Version 2020.2 der Produktionsumgebung vorgenommen wurden. Diese Verbesserungen wurden in der Produktionsumgebung in der Woche vom 11. Mai 2020 bereitgestellt.
+Auf dieser Seite werden alle mit der Version 2020.2 vorgenommenen Verbesserungen an Mobilgeräten in der Produktionsumgebung beschrieben. Diese Verbesserungen wurden in der Woche vom 11. Mai 2020 in der Produktionsumgebung verfügbar gemacht.
 
-Eine Liste aller Änderungen, die mit Version 2020.2 verfügbar sind, finden Sie unter [Versionsübersicht 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
+Eine Liste aller mit Version 2020.2 verfügbaren Änderungen finden Sie unter [Übersicht über die Version 2020.2](../../../product-announcements/product-releases/2020.2.-release-activity/2020-2-release-overview.md).
 
-## Testen Sie den neuen virtuellen Assistenten für mobile Geräte in der Beta-Phase.
+## Helfen Sie uns, den neuen mobilen virtuellen Assistenten in der Beta-Phase zu testen.
 
-Wir veröffentlichen einen neuen virtuellen Assistenten für die mobile Workfront-App, sowohl für Android- als auch für iOS-Betatester.
+Wir veröffentlichen einen neuen virtuellen Assistenten für die Workfront Mobile App für Android- und iOS-Betatester.
 
-Im Folgenden finden Sie einige Beispiele für Sprachbefehle, mit denen Sie mit der App interagieren können:
+Im Folgenden finden Sie einige Beispiele für Sprachbefehle, die Sie für die Interaktion mit der Mobile App verwenden können:
 
-* Zeigen Sie mir meine letzten Artikel
-* Aufgabe löschen
-* Suche nach dem Herbstmarketing-Projekt 2020
+* Meine verspäteten Artikel anzeigen
+* Diese Aufgabe löschen
+* Suche nach dem Herbst-Marketing-Projekt 2020
 
-Informationen zum Beitritt zur Beta-Version finden Sie unter
+Um an der Beta-Version teilzunehmen, siehe
 
-* [Sei ein iOS-Betatest](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
-* [Sei ein Android-Betatester](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)
+* [iOS-Betatester sein](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/ios-beta-tester.md)
+* [Android-Betatester sein](../../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/android-beta-tester.md)

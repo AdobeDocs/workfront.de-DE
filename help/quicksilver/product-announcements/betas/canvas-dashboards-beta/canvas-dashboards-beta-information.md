@@ -1,8 +1,8 @@
 ---
 product-area: Canvas Dashboards
 navigation-topic: canvas-dashboards-beta
-title: Beta-Informationen zu Canvas Dashboards
-description: Allgemeine Informationen zur Beta-Version der Canvas Dashboards
+title: Beta-Informationen für Canvas-Dashboards
+description: Allgemeine Informationen zur Beta-Version von Canvas-Dashboards
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
@@ -14,48 +14,48 @@ ht-degree: 0%
 
 ---
 
-# Beta-Informationen zu Canvas Dashboards
+# Beta-Informationen für Canvas-Dashboards
 
-Canvas-Dashboards sind eine derzeit in Entwicklung befindliche Funktion, mit der Sie Ihre Adobe Workfront-Daten einfach visualisieren können, indem Sie verschiedene Berichtstypen auf eine anpassbare Arbeitsfläche hinzufügen. Bitte beachten Sie, dass wir zwar für Ihre Teilnahme während der Beta-Testphase dankbar sind, dass jedoch Teile der Funktion möglicherweise nicht vollständig sind oder wie gewünscht funktionieren. Senden Sie Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](#provide-feedback) unten befolgen.
+Arbeitsflächen-Dashboards sind eine Funktion, die derzeit entwickelt wird und es Ihnen ermöglicht, Ihre Adobe Workfront-Daten einfach zu visualisieren, indem verschiedene Berichtstypen zu einer anpassbaren Arbeitsfläche hinzugefügt werden. Bitte beachten Sie, dass wir zwar für Ihre Teilnahme an unserer Beta-Testphase dankbar sind, aber Teile der Funktion möglicherweise nicht vollständig sind oder nicht wie beabsichtigt funktionieren. Bitte senden Sie uns Feedback zu Ihrem Erlebnis, indem Sie die Anweisungen im Abschnitt [Feedback geben](#provide-feedback) unten befolgen.
 
-Grundlegende Informationen zur Verwendung von Canvas-Dashboards finden Sie unter [Erste Schritte mit Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
-Eine Liste aller Dokumentation zu Canvas-Dashboards finden Sie unter [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
+Grundlegende Informationen zur Verwendung von Arbeitsflächen-Dashboards finden Sie unter [Erste Schritte mit Arbeitsflächen-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/manage-canvas-dashboards/get-started-canvas-dashboards.md).
+Eine Liste der gesamten Dokumentation zu Canvas-Dashboards finden Sie unter [Übersicht zu Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/canvas-dashboards/canvas-dashboards-overview.md).
 
-**Beta status**
+**Beta-Status**
 
-Canvas-Dashboards befinden sich derzeit in einer geschlossenen Beta-Testphase und unterliegen daher häufigen Änderungen. Unten finden Sie Anweisungen zum Anmelden in der Beta-Version.
+Canvas-Dashboards befinden sich derzeit in einer geschlossenen Beta-Testphase und unterliegen daher häufigen Änderungen. Unten finden Sie Anweisungen zur Registrierung für die Beta-Version.
 
-## Beta-Teilnahme
+## Beta-Version verwenden
 
 >[!IMPORTANT]
 >
->Canvas-Dashboards befinden sich derzeit in der geschlossenen Beta-Phase und stehen daher nur bestimmten Organisationen zur Verfügung. Wir laden weiterhin Organisationen direkt aus einer Warteliste derjenigen, die Interesse geäußert haben, zur Beta-Phase ein. Sie können Ihre Organisation zur Kellnerliste hinzufügen, indem Sie [dieses Adobe-Feedback-Programmformular](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta) senden. Darüber hinaus erhalten Unternehmen, die Workfront Planning als Teil ihres Packages erworben haben, Beta-Zugriff, um produktübergreifende Reporting-Funktionen zu testen.
+>Canvas-Dashboards befinden sich derzeit in der geschlossenen Beta-Phase und stehen daher nur bestimmten Organisationen zur Verfügung. Wir laden Organisationen weiterhin direkt zur Beta-Version von einer Warteliste derer ein, die Interesse gezeigt haben. Sie können Ihr Unternehmen auf die Warteliste setzen, indem Sie [dieses Adobe-Feedback-Programmformular](https://www.feedbackprogram.adobe.com/c/r/Workfront-Canvas-Dashboards-Visualizations-Beta) senden. Darüber hinaus erhalten Organisationen, die Workfront Planning als Teil ihres Pakets erworben haben, Beta-Zugriff, um produktübergreifende Reporting-Funktionen zu testen.
 >
->Schließlich werden wir zu einer offenen Beta-Phase übergehen, an der der Registrierungsprozess für alle Organisationen verfügbar sein wird.
+>Schließlich werden wir auf eine offene Beta-Version umstellen, ab der der Registrierungsprozess allen Organisationen zur Verfügung steht.
 
-### Anmelden
+### Registrieren
 
-Anmeldung in der Beta-Version:
+So registrieren Sie sich für die Beta-Version:
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Dashboards**.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Dashboards**.
 
-1. Klicken Sie oben rechts auf der Seite auf die Beta-Schaltfläche **Beitritt zur Canvas-Dashboards-Beta** . Beachten Sie, dass diese Schaltfläche nur verfügbar ist, wenn Ihre Organisation zur geschlossenen Beta-Phase eingeladen wurde.
+1. Klicken Sie **oben rechts auf der Seite auf die Beta** Schaltfläche „An der Arbeitsflächen-Dashboards-Beta teilnehmen“. Beachten Sie, dass diese Schaltfläche nur verfügbar ist, wenn Ihr Unternehmen zur geschlossenen Beta-Version eingeladen wurde.
 
-1. Lesen Sie die Begriffe und klicken Sie dann auf **Akzeptieren**. Sie sind jetzt in der Beta-Phase eingeschrieben. Beachten Sie jedoch, dass es einige Minuten dauern wird, bis Ihre Workfront-Daten in den Canvas-Dashboards vollständig verfügbar sind.
+1. Lesen Sie die Bedingungen und klicken Sie dann auf **Akzeptieren**. Sie sind jetzt für die Beta-Version registriert. Es wird jedoch einige Minuten dauern, bis Ihre Workfront-Daten in den Arbeitsflächen-Dashboards vollständig verfügbar sind.
 
 ### Feedback geben
 
-Feedback wird bei der Entwicklung dieses Tools im Laufe der Beta-Phase geschätzt. Bitte folgen Sie den unten stehenden Anweisungen, um Ihre Erfahrungen mit uns zu teilen.
+Feedback wird geschätzt, da wir dieses Tool im Laufe der Beta-Phase entwickeln. Bitte befolgen Sie die unten stehenden Anweisungen, um Ihre Erfahrungen mit uns zu teilen.
 
-1. Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **Dashboards**.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Dashboards**.
 
-1. Klicken Sie im linken Bereich auf **Arbeitsfläche-Dashboards**.
+1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 
-1. Klicken Sie auf die Schaltfläche **Feedback senden** unten rechts auf der Seite, geben Sie Ihr Feedback in das angezeigte Formular ein und klicken Sie auf **Senden**.
+1. Klicken Sie auf **Feedback senden** unten rechts auf der Seite, geben Sie dann Ihr Feedback in das angezeigte Formular ein und klicken Sie auf **Senden**.
 
 ## Geplante Funktionen
 
-Nachstehend finden Sie eine Liste der aktuell in der Beta-Version unterstützten Berichtstypen sowie eine Liste weiterer Funktionen, die wir im Laufe der Beta-Phase und darüber hinaus zu Canvas-Dashboards hinzufügen möchten.
+Nachfolgend finden Sie eine Liste der derzeit in der Beta-Version unterstützten Berichtstypen sowie eine Liste weiterer Funktionen, die wir im Laufe der Beta-Phase und darüber hinaus zu den Arbeitsflächen-Dashboards hinzufügen möchten.
 
 ### Unterstützte Berichtstypen
 
@@ -63,19 +63,19 @@ Nachstehend finden Sie eine Liste der aktuell in der Beta-Version unterstützten
 * Diagrammberichte
 * KPI-Berichte
 * Tabellenberichte
-* Ausstehende Validierungsberichte
+* Berichte zu ausstehenden Genehmigungen
 
-### Entwicklungsfunktionen
+### Funktionen in Entwicklung
 
-* Datumsbasierte und benutzerbasierte Platzhalter für Filter
+* Datums- und benutzerbasierte Platzhalter für Filter
 * Workfront-Planungsberichte
 * Zusätzliche Workfront-Objekttypen
-* Berichte zu Foren
+* Boards-Berichte
 * Weitere Verbesserungen der Benutzerfreundlichkeit
 * Arbeitsblätter
-* Eingebetteter Webinhalt
+* Eingebettete Webinhalte
 
 ### Zukünftige Roadmap-Funktionen
 
-* Aufforderungen auf Dashboard-Ebene
+* Eingabeaufforderungen auf Dashboard-Ebene
 * Währungsunterstützung

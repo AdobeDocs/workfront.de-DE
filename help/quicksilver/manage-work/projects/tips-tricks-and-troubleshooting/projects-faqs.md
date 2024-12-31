@@ -16,89 +16,89 @@ ht-degree: 1%
 
 Im Folgenden finden Sie häufig gestellte Fragen zu Projekten.
 
-## Warum fehlt &quot;Aufgabe oben/unten einfügen&quot;, wenn ich mit der rechten Maustaste auf eine Aufgabe in der Aufgabenliste klicke?
+## Warum fehlt die Option Aufgabe oben/unten einfügen, wenn ich mit der rechten Maustaste auf eine Aufgabe in der Aufgabenliste klicke?
 
 ### Antwort
 
-Um die Einfügeoptionen verwenden zu können, muss die Aufgabenliste nach Anzahl sortiert sein. Um die Spalte nach Zahl zu sortieren, klicken Sie in der Spaltenüberschrift links von **Aufgabenname** auf **#** , um die Aufgabe nach Zahl neu zu ordnen.
+Um die Einfügeoptionen verwenden zu können, muss die Aufgabenliste nach Anzahl sortiert werden. Um die Spalte nach Zahl zu sortieren, klicken Sie auf **#** in der Spaltenüberschrift links neben **Aufgabenname**, um die Aufgabe nach Zahl zu sortieren.
 
-## Welches ist das tatsächliche Abschlussdatum?
-
-### Antwort
-
-Das Datum des tatsächlichen Abschlusses stellt das Datum und die Uhrzeit des Abschlusses der Arbeit dar. Weitere Informationen finden Sie unter [Übersicht über das tatsächliche Abschlussdatum des Projekts](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
-
-## Warum fehlt die Einzug-/Ausschlussschaltfläche?
+## Was ist das tatsächliche Abschlussdatum?
 
 ### Antwort
 
-Um die Schaltfläche &quot;Einzug/Ausrücken&quot;verwenden zu können, müssen Sie sicherstellen, dass die Aufgaben nach der Aufgabennummer sortiert sind und keine Gruppierungen angewendet werden.
+Das tatsächliche Abschlussdatum gibt das Datum und die Uhrzeit des Abschlusses der Arbeit an. Weitere Informationen finden Sie unter [Übersicht über das tatsächliche Abschlussdatum des Projekts](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-## Warum kann ich den Projektstatus nicht in Abgeschlossen ändern?
+## Warum fehlt die Einrückungs-/Ausrückungsschaltfläche?
 
-Ich erhalte die folgende Fehlermeldung, wenn ich versuche, mein Projekt als abgeschlossen zu kennzeichnen:
+### Antwort
+
+Um die Schaltfläche zum Einrücken/Ausrücken zu verwenden, stellen Sie sicher, dass die Aufgaben nach der Aufgabennummer sortiert sind und keine Gruppierungen angewendet werden.
+
+## Warum kann ich den Projektstatus nicht in „Abgeschlossen“ ändern?
+
+Wenn ich versuche, mein Projekt als abgeschlossen zu markieren, erhalte ich die folgende Fehlermeldung:
 
 ![Project_FAQ_Complete_Error_message.png](assets/project-faq-complete-error-message-350x138.png)
 
 ### Antwort
 
-Sie können den Status eines zu beendenden Projekts nicht ändern, wenn Sie Folgendes in Ihrem Projekt haben:
+Sie können den Status eines Projekts nicht in „Abgeschlossen“ ändern, wenn Sie eine der folgenden Funktionen in Ihrem Projekt haben:
 
 * Unvollständige Aufgaben oder Probleme
-* Aufgabe oder Probleme im Status der ausstehenden Genehmigung
+* Aufgabe(n) oder Probleme im Status Ausstehende Genehmigung
 
-## Warum kann ich den Projektstatus nicht von Fertig stellen in Aktuell ändern?
-
-### Antwort
-
-Wenn der Abschlussmodus des Projekts auf Automatisch eingestellt ist, wechselt der Status des Projekts nach Abschluss aller Aufgaben und Probleme automatisch zu Abgeschlossen und Sie können ihn nicht in einen anderen Status ändern. Der Abschlussmodus des Projekts muss auf Manuell eingestellt sein, damit ein komplettes Projekt in &quot;Aktuell&quot;umgewandelt werden kann. Weitere Informationen finden Sie unter [Der Projektstatus ändert sich nicht von &quot;Complete&quot;in &quot;Current](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md)&quot;.
-
-## Warum kann ich einem Portfolio kein Projekt hinzufügen, obwohl ich über die entsprechenden Berechtigungen verfügt?
-
-Ich habe zwar die richtigen Berechtigungen, aber die Schaltfläche Projekte hinzufügen fehlt auf der Registerkarte Projekte des Portfolios.
+## Warum kann ich den Projektstatus nicht von „Abgeschlossen“ in „Aktuell“ ändern?
 
 ### Antwort
 
-Die Ursache liegt darin, dass der Portfolio-Status inaktiv ist. So ändern Sie den Status des Portfolios:
+Wenn der Fertigstellungsmodus des Projekts auf „Automatisch“ festgelegt ist und alle Aufgaben und Probleme abgeschlossen sind, wird der Status des Projekts automatisch auf „Abgeschlossen“ gesetzt, sodass Sie ihn nicht in einen anderen Status ändern können. Der Fertigstellungsmodus des Projekts muss auf Manuell festgelegt werden, damit ein vollständiges Projekt in „Aktuell“ umgewandelt werden kann. Weitere Informationen finden Sie unter [Der Projektstatus ändert sich nicht von Abgeschlossen in Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
-1. Klicken Sie auf **Portfolio Details > Übersicht**.
-1. Ändern Sie den **Status** in **Aktiv.**
+## Warum kann ich ein Projekt nicht zu einem Portfolio hinzufügen, obwohl ich dazu über die richtigen Berechtigungen verfüge?
+
+Obwohl ich über die richtigen Berechtigungen verfüge, fehlt die Schaltfläche Projekte hinzufügen auf der Registerkarte Projekte des Portfolios.
+
+### Antwort
+
+Dies liegt daran, dass der Portfolio-Status „Inaktiv“ ist. So ändern Sie den Status des Portfolios:
+
+1. Klicken Sie auf **Portfolio-Details > Übersicht**.
+1. Ändern Sie **Status** in **Aktiv.**
 
 1. Klicken Sie auf **Speichern**.\
-   Die Schaltfläche **Projekte hinzufügen** sollte jetzt auf der Registerkarte **Projekte** angezeigt werden.
+   Die **Projekte hinzufügen**-Schaltfläche sollte jetzt auf der Registerkarte **Projekte** angezeigt werden.
 
-## Welchen Zugriff erhält ein Ressourcen-Manager beim Hinzufügen zu einem Projekt?
-
-### Antwort
-
-Ressourcen-Manager erhalten automatisch Zugriff auf Projekte verwalten. Wenn Sie den Benutzer aus der Rolle &quot;Ressourcen-Manager&quot;entfernen, wird der Zugriff auf &quot;Freigabe verwalten&quot;nicht entfernt.
-
-## Warum ändert sich der Projektstatus beim Hinzufügen einer Gruppe?
+## Welchen Zugriff erhält ein Ressourcen-Manager, wenn er zu einem Projekt hinzugefügt wird?
 
 ### Antwort
 
-Der Projektstatus ändert sich aufgrund des Standardstatus der Gruppe. Wenn Sie eine Gruppe zu einem Projekt hinzufügen, wird die Liste der Status zu den für die Gruppe festgelegten Standardstatus geändert.
+Ressourcenmanager erhalten automatisch Verwaltungszugriff auf Projekte. Wenn Sie den Benutzer aus der Rolle „Ressourcen-Manager“ entfernen, wird nicht sein Zugriff auf die Verwaltungsfreigabe entfernt.
 
-Weitere Informationen finden Sie im Artikel [Status erstellen oder bearbeiten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) .
+## Warum ändert sich der Projektstatus, wenn ich eine Gruppe hinzufüge?
+
+### Antwort
+
+Die Projektstatus ändern sich aufgrund der Standardstatus der Gruppe. Wenn Sie eine Gruppe zu einem Projekt hinzufügen, wird die Liste der Status auf die für die Gruppe festgelegten Standardstatus geändert.
+
+Weitere Informationen finden Sie im Artikel [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 ## Was ist der Budgetstatus?
 
 ### Antwort
 
-Der Budgetstatus zeigt an, ob das Projekt derzeit dem Kapazitätsplaner hinzugefügt wird und ob die Budgetberechnung abgeschlossen ist.
+Der Budgetstatus gibt an, ob das Projekt derzeit zum Kapazitätsplaner hinzugefügt wurde und ob die Budgetberechnung abgeschlossen wurde.
 
 Im Folgenden finden Sie Budgetstatus:
 
-* Nicht eingeschlossen - Das Projekt wird nicht zum Kapazitätsplaner hinzugefügt.
-* Einbezogen, aber nicht berechnet - Das Projekt wird dem Kapazitätsplaner hinzugefügt, ist jedoch von der Budgetberechnung ausgeschlossen.
-* Einbezogen und berechnet - Das Projekt wird zum Kapazitätsplaner hinzugefügt und in die Budgetberechnung einbezogen.
+* Nicht enthalten : Das Projekt wird nicht zum Kapazitätsplaner hinzugefügt.
+* Eingeschlossen, aber nicht berechnet - Das Projekt wird zum Kapazitätsplaner hinzugefügt, aber von der Budgetberechnung ausgeschlossen.
+* Eingeschlossen und berechnet : Das Projekt wird zum Kapazitätsplaner hinzugefügt und in die Budgetberechnung einbezogen.
 
-## Warum kann ich ein Projekt, für das ich Eigentümer bin und für das ich Verwaltungsberechtigungen für ein Team habe, nicht freigeben? Ich kann das Team einfach nicht im Freigabedialogfeld des Projekts finden.
+## Warum kann ich ein Projekt, dessen Eigentümer ich bin und für das ich Verwaltungsberechtigungen habe, nicht für ein Team freigeben? Ich kann das Team einfach nicht im Freigabedialogfeld des Projekts finden.
 
 ### Antwort
 
-Der Adobe Workfront-Administrator beschränkte sich auf die Anzeige von Unternehmen, Gruppen und Teams, denen Sie in Ihrer Zugriffsebene der angehören. Das Team, das Sie suchen, gehört nicht zu den Teams, denen Sie angehören.
+Der Adobe Workfront-Administrator hat Sie darauf beschränkt, nur Unternehmen, Gruppen und Teams anzuzeigen, denen Sie in Ihrer Zugriffsebene des s angehören. Das gesuchte Team gehört nicht zu den Teams, denen Sie angehören.
 
 ![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
-Informationen dazu, wie Sie einem Benutzer die Anzeige aller Teams im System ermöglichen, finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
+Informationen dazu, wie Sie es einem Benutzer ermöglichen, alle Teams im System anzuzeigen, finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

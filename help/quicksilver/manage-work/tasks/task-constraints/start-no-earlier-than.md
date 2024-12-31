@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: 'Übersicht über Aufgabenbegrenzungen: Start nicht früher als'
-description: Verwenden Sie die Task-Beschränkung Start nicht früher als (SNET) , um eine Aufgabe so zu planen, dass sie nach dem von Ihnen angegebenen Datum beginnt.
+title: 'Aufgabenbeschränkung - Übersicht: Nicht früher beginnen als'
+description: Verwenden Sie die Aufgabenbeschränkung Nicht früher als (SNET) starten , um den Start einer Aufgabe nach dem von Ihnen angegebenen Datum zu planen.
 author: Alina
 feature: Work Management
 exl-id: 857859fb-87ee-4397-b292-239ed9dc8281
@@ -14,36 +14,36 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbegrenzungen: Start nicht früher als
+# Aufgabenbeschränkung - Übersicht: Nicht früher beginnen als
 
-Verwenden Sie die Task-Beschränkung Start nicht früher als (SNET) , um eine Aufgabe so zu planen, dass sie nach dem von Ihnen angegebenen Datum beginnt.
+Verwenden Sie die Aufgabenbeschränkung Nicht früher als (SNET) starten , um den Start einer Aufgabe nach dem von Ihnen angegebenen Datum zu planen.
 
-## Übersicht über die Startbeschränkung &quot;Keine frühere Aufgabe als Task&quot;
+## Übersicht über den Start bei Einschränkung „Nicht früher als Aufgabe“
 
-Beachten Sie Folgendes bei Verwendung der Beschränkung &quot;Start nicht früher als Aufgabe&quot;:
+Beachten Sie Folgendes, wenn Sie die Einschränkung Keine frühere als Aufgabe verwenden:
 
-* Sie sollten die Beschränkung Start nicht früher als verwenden, wenn das Projekt ab Startdatum geplant ist. In diesem Fall können Sie eine weiche Einschränkung für eine Aufgabe festlegen, bevor andere abhängige Aufgaben als &quot;Risiko&quot;angezeigt werden.
-* &quot;Anfang nicht früher&quot;ist die Standardeinschränkung, wenn ein Projekt vom Startdatum geplant ist und das standardmäßige Start-Datum des Systems oder der Gruppe für eine neue Aufgabe auf &quot;Heute&quot;festgelegt ist. Weitere Informationen zum Konfigurieren von Standardeinstellungen für Aufgaben finden Sie unter [Konfigurieren von systemweiten Aufgaben und Ausgabevoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+* Sie sollten die Einschränkung Start No Earlier Than verwenden, wenn das Projekt ab Startdatum geplant ist. In diesem Fall können Sie eine weiche Begrenzung für eine Aufgabe bereitstellen, bevor andere abhängige Aufgaben als gefährdet angezeigt werden.
+* Beginn Nicht früher als ist die Standardeinschränkung, wenn ein Projekt ab Startdatum geplant ist und wenn das standardmäßige Startdatum des Systems oder der Gruppe für eine neue Aufgabe auf Heute festgelegt ist. Informationen zur Konfiguration der Standardeinstellungen für Aufgaben finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
-* Wenn Sie das Projekt vom Startdatum planen und das standardmäßige Startdatum des Systems für eine neue Aufgabe auf &quot;Basierend auf dem geplanten Projektdatum&quot;festgelegt ist, ist die Standardeinschränkung für eine neue Aufgabe so bald wie möglich.
-* Wenn Sie das Projekt vom Abschlussdatum planen und das standardmäßige Startdatum des Systems für eine neue Aufgabe auf Heute festgelegt ist, wird die Aufgabe durch die Einstellung &quot;Anfang nicht früher als Begrenzung&quot;so geplant, wie es für eine möglichst späte Aufgabe wäre.
-* Wenn Sie eine Aufgabe mit einer SNET-Einschränkung in ein anderes Projekt verschieben oder kopieren, können sich die Beschränkung der Aufgabe oder die Daten des Projekts je nach den Einschränkungsdaten und den Start- und Abschlussdaten des Projekts ändern. Die folgenden Szenarien existieren:
+* Wenn Sie das Projekt vom Startdatum aus planen und das standardmäßige Startdatum für eine neue Aufgabe auf Basierend auf dem geplanten Datum des Projekts festgelegt ist, lautet die standardmäßige Einschränkung für eine neue Aufgabe So bald wie möglich .
+* Wenn Sie für das Projekt das standardmäßige Startdatum ab Fertigstellungsdatum festlegen und das System für eine neue Aufgabe das Standardstartdatum auf Heute festlegt, wird die Aufgabe durch die Einschränkung Start Nicht früher als geplant, da dies eine Aufgabe mit dem Status „So spät wie möglich“ wäre.
+* Wenn Sie eine Aufgabe mit einer SNET-Einschränkung in ein anderes Projekt verschieben oder kopieren, kann sich die Einschränkung für die Aufgabe oder das Datum des Projekts ändern, je nachdem, welche Einschränkungstermine gelten und welches Start- und Abschlussdatum das Projekt hat. Die folgenden Szenarien sind vorhanden:
 
    * Wenn das Zielprojekt von Anfang an geplant ist:
 
-      * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in So bald wie möglich.
-      * Wenn das Beschränkungsdatum der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegt, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Abschlussdatum der Aufgabe.
+      * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So bald wie möglich.
+      * Wenn das Einschränkungsdatum der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegt, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Einschränkungsdatum der Aufgabe.
 
-      * Wenn das Zielprojekt nach Abschluss geplant wird:
+      * Wenn das Zielprojekt für den Abschluss geplant ist:
 
-         * Wenn das Beschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
-         * Wenn das Beschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts entsprechend dem Startbegrenzungsdatum der Aufgabe.
+         * Wenn das Einschränkungsdatum der Aufgabe nach dem Abschlussdatum des Projekts liegt, ändert sich die Aufgabenbeschränkung in So spät wie möglich.
+         * Wenn das Einschränkungsdatum der Aufgabe vor dem geplanten Startdatum des Projekts liegt, ändert sich das geplante Startdatum des Projekts, sodass es dem Starteinschränkungsdatum der Aufgabe entspricht.
 
-      * Wenn das Beschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Zeitplan des Projekts keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten.
+      * Wenn das Einschränkungsdatum der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegt, gibt es unabhängig vom Projektplan keine Änderungen an der Aufgabenbeschränkung oder den Projektdaten.
 
-  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Informationen zum Aktualisieren der Aufgabenbeschränkung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbeschränkung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

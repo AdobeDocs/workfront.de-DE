@@ -2,8 +2,8 @@
 content-type: reference
 product-area: projects
 navigation-topic: financials
-title: Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen
-description: Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen
+title: Budgetierte Lohnkosten und budgetierte Stunden für Projekte verstehen
+description: Budgetierte Lohnkosten und budgetierte Stunden für Projekte verstehen
 author: Lisa
 feature: Work Management
 exl-id: 01020bbb-7cf9-4461-b0b6-dcbbc537c616
@@ -14,51 +14,51 @@ ht-degree: 0%
 
 ---
 
-# Budgetierte Arbeitskosten und budgetierte Stunden für Projekte verstehen
+# Budgetierte Lohnkosten und budgetierte Stunden für Projekte verstehen
 
 <!--
 <(NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)</p>
 -->
 
-Sie können Ihre Ressourcen für die Arbeit mit dem Adobe Workfront Resource Planer einplanen.
+Mit dem Adobe Workfront-Ressourcenplaner können Sie Ihre Ressourcen für die Arbeit budgetieren.
 
-Während Sie Ihre Ressourcen für die Projektarbeit einplanen, berechnet Workfront die budgetierten Arbeitskosten für die Rollen, Projekte und Benutzer anhand der Kosten pro Stunde.
+Wenn Sie Ihre Ressourcen für die Arbeit an Projekten budgetieren, berechnet Workfront die budgetierten Lohnkosten für die Funktionen, Projekte und Benutzenden auf der Grundlage von Werten für „Kosten pro Stunde“.
 
-Der Resource Planer Budgeted Labour Cost of a project ist eine Berechnung zwischen den Kosten, die mit den zugewiesenen Auftragsrollen verbunden sind, um die Arbeit an dem Projekt abzuschließen, und der geschätzten Anzahl der Stunden (Resource Planer Budgeted Hours), die für den Abschluss der Arbeit in jeder Rolle benötigt werden können.
+Der Ressourcenplaner budgetierte Lohnkosten eines Projekts ist eine Berechnung zwischen den Kosten, die mit den Aufgabengebieten verbunden sind, die für die Fertigstellung der Arbeit am Projekt zugewiesen wurden, und der geschätzten Anzahl der Stunden (budgetierte Stunden des Ressourcenplaners), die jede Funktion benötigen könnte, um die Arbeit abzuschließen.
 
 >[!IMPORTANT]
 >
->Die im Ressourcenplaner veranschlagten Arbeitskosten für Benutzer wirken sich nicht auf die Kosten des Projekts aus. Nur die Arbeitskosten für Stellenangebote beeinflussen die Kosten des Projekts.
+>Der Ressourcenplaner hat keine Auswirkungen auf die budgetierten Lohnkosten der Benutzer. Nur die Lohnkosten für Aufgabengebiete wirken sich auf die Projektkosten aus.
 
-## Übersicht über die budgetierten Arbeitskosten für Job Roles und das Projekt
+## Übersicht über die budgetierten Lohnkosten für Aufgabengebiete und das Projekt
 
-Workfront verwendet die budgetierten Arbeitskosten der Arbeitsplatzrollen im Projekt, um die budgetierten Arbeitskosten des Projekts zu berechnen.
+Workfront verwendet die budgetierten Lohnkosten der Aufgabengebiete des Projekts, um die budgetierten Lohnkosten des Projekts zu berechnen.
 
 >[!TIP]
 >
->Die budgetierten Arbeitskosten eines Projekts im Geschäftsfall werden in Berichten und Listen als Ressourcenplaner mit budgetierten Arbeitskosten angezeigt.
+>Die budgetierten Lohnkosten eines Projekts im Business Case werden in Berichten und Listen als Ressourcenplaner „budgetierte Lohnkosten“ angezeigt.
 
-Die **budgetierten Arbeitskosten** (oder die im Ressourcenplaner veranschlagten Arbeitskosten) eines Projekts werden anhand der folgenden Formel berechnet:
+Die **budgetierten Lohnkosten** (oder Ressourcenplaner - budgetierte Lohnkosten) eines Projekts werden nach folgender Formel berechnet:
 
 `Resource Planner Budgeted Labor Cost = SUM ( Resource Planner Budgeted Hours for each job role on the project * Cost per Hour rate of each job role on the project)`
 
 Die in der obigen Berechnung verwendeten Felder beziehen sich auf Folgendes:
 
-* Die für Stellenrollen im Ressourcenbudgeting-Bereich des Projekts oder im Ressourcenplaner geplanten Stunden.
+* Die budgetierten Stunden für Aufgabengebiete im Bereich Ressourcenbudgetierung des Projekts oder des Ressourcenplaners.
 
-  Weitere Informationen zu Budgetierungsressourcen im Ressourcenplaner finden Sie im Abschnitt &quot;Budgetierung von Ressourcen im Ressourcenplaner&quot;im Artikel [Ressourcenplanerübersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  Weitere Informationen zur Budgetierung von Ressourcen im Ressourcenplaner finden Sie im Abschnitt „Budgetierung von Ressourcen im Ressourcenplaner“ im Artikel [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-  Weitere Informationen zu Budgetierungsressourcen im Bereich Ressourcenbudgetierung des Geschäftsszenarios finden Sie unter [Budgetressourcen im Geschäftsfall](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+  Weitere Informationen zur Budgetierung von Ressourcen im Bereich Ressourcenbudgetierung des Business Case finden Sie [Budgetressourcen im Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-* Die **Kosten pro Stunde-Rate einer Auftragsrolle** in der obigen Berechnung bezieht sich auf die Kosten, die den einzelnen Auftragsrollen im Projekt zugeordnet sind.\
-  Weitere Informationen zum Erstellen und Verwalten von Auftrags-Rollen und deren Zuordnung zu Kostensätzen finden Sie im Artikel [Erstellen und Verwalten von Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+* Der **Kosten pro Stunde eines Aufgabengebiets** in der obigen Berechnung bezieht sich auf die Kosten, die mit jedem Aufgabengebiet im Projekt verbunden sind.\
+  Weitere Informationen zum Erstellen und Verwalten von Aufgabengebieten sowie zum Verknüpfen dieser Aufgabengebiete mit Kostensätzen finden Sie im Artikel [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 >[!NOTE]
 >
->Workfront berechnet alle Kosteninformationen unter Verwendung der Projektwährung. Wenn Sie im Ressourcenplaner Budgetzeit für Ihre Ressourcen angeben, ist die Option zum Ändern der Projektwährung deaktiviert.\
+>Workfront berechnet alle Kosteninformationen anhand der Projektwährung. Wenn Sie im Ressourcenplaner budgetierte Stunden für Ihre Ressourcen angeben, ist die Option zum Ändern der Projektwährung deaktiviert.\
 >Weitere Informationen zum Ändern der Währung eines Projekts finden Sie im Artikel [Ändern der Projektwährung](../../../manage-work/projects/project-finances/change-project-currency.md).
 
-## Übersicht über die budgetierten Arbeitskosten für Benutzer
+## Übersicht über die budgetierten Lohnkosten für Benutzer
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Update the following section in the Create a Business Case article, as well, when you update it here.)</p>
@@ -66,102 +66,102 @@ Die in der obigen Berechnung verwendeten Felder beziehen sich auf Folgendes:
 
 >[!IMPORTANT]
 >
->Die Kosten für die von den Nutzern in den Haushaltsplan eingestellte Arbeit wirken sich nicht auf die budgetären Arbeitskosten des Projekts aus. Nur die Arbeitskosten der Arbeitsplatzrollen in einem Projekt wirken sich auf den Ressourcenplaner aus.
+>Die vom Benutzer budgetierten Lohnkosten wirken sich nicht auf die budgetierten Lohnkosten des Projekts aus. Nur die Lohnkosten der Aufgabengebiete eines Projekts wirken sich auf die budgetierten Lohnkosten des Ressourcenplaners aus.
 > 
->Die Gesamtkosten aller Benutzer für die Arbeit können mit den im Ressourcenplaner veranschlagten Arbeitskosten der den Benutzern zugeordneten Arbeitsplatzrollen übereinstimmen.
+>Die Summe aller Arbeitskosten aller Benutzer kann mit den budgetierten Arbeitskosten des Ressourcenplaners für die mit den Benutzern verknüpften Aufgabengebiete übereinstimmen oder nicht.
 >
->Wenn Sie im Ressourcenplaner die budgetierten Stunden für Benutzer schätzen, sind die damit verbundenen Kosten die der mit den Benutzern verbundenen Stellenrollen. Es handelt sich nicht um Kosten, die mit den Nutzern oder ihren Tarifen verbunden sind.
+>Wenn Sie im Ressourcenplaner budgetierte Stunden für Benutzer schätzen, sind die damit verbundenen Kosten die Kosten der den Benutzern zugeordneten Aufgabengebiete. Es handelt sich dabei nicht um Kosten, die mit den Benutzenden oder ihren Tarifen verbunden sind.
 
-Wenn Benutzer mit den Stellenrollen des Projekts verknüpft sind und ihre Arbeitszeiten im Ressourcenplaner einberechnet werden, werden ihre budgetierten Arbeitskosten je nach Ansicht in Workfront mit den folgenden Namen angezeigt:
+Wenn Benutzende den Aufgabengebieten im Projekt zugeordnet sind und ihre Stunden im Ressourcenplaner budgetiert sind, werden ihre budgetierten Lohnkosten je nach Anzeige in Workfront wie folgt angezeigt:
 
-* [!UICONTROL **Budgetierte Arbeitskosten**]: Der Ressourcenbudgeting-Bereich des Geschäftsszenarios unter den jeweiligen Rollen.
+* [!UICONTROL **Budgetierte Arbeitskosten**]: Der Bereich Ressourcenbudgetierung des Business Case unter den jeweiligen Rollen.
 
   ![](assets/budgeted-labor-cost-for-users-in-business-case-highlighted-350x73.png)
 
-* [!UICONTROL **BDG**]: Der Ressourcenplaner beim Anzeigen von Informationen in der Projekt- und Rollenansicht nach Kosten.
+* [!UICONTROL **BDG**]: Der Ressourcenplaner bei der Anzeige von Informationen in der Projekt- und Funktionsansicht nach Kosten.
 
   ![](assets/budgeted-labor-cost-for-users-in-rp-project-view-cost--highlighted-350x115.png)
 
-Benutzer werden im Bereich Ressourcenbudgetierung des Geschäftsfalls unter ihren jeweiligen Rollen oder im Ressourcenplaner angezeigt, wenn sie die folgenden Anforderungen erfüllen:
+Benutzer werden im Bereich Ressourcenbudgetierung des Business Case unter ihren jeweiligen Rollen oder im Ressourcenplaner angezeigt, wenn sie die folgenden Anforderungen erfüllen:
 
-* Sie sind mit einer der Auftragsrollen im Projekt verknüpft.
-* Sie haben im Ressourcenplaner die budgetierten Stunden angegeben.
-* Ihrem Profil ist die Kosten pro Stunde zugeordnet.
+* Sie sind mit einem der Aufgabengebiete des Projekts verknüpft.
+* Sie haben im Ressourcenplaner budgetierte Stunden angegeben.
+* Mit ihrem Profil ist ein Stundensatz „Kosten pro Stunde“ verknüpft.
 
-  Weitere Informationen zum Hinzufügen von Kosten pro Stunde zu Benutzern finden Sie im Artikel [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) .
+  Weitere Informationen zum Hinzufügen von Stundensätzen zu Benutzenden finden Sie im Artikel [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Der Benutzer ist Teil eines der Ressourcen-Pools, die mit dem Projekt verknüpft sind.
+* Der Benutzer ist Teil eines der mit dem Projekt verknüpften Ressourcenpools.
 
-Die budgetierten Arbeitskosten eines Benutzers werden anhand der folgenden Formel berechnet:
+Die budgetierten Lohnkosten eines Benutzers werden nach folgender Formel berechnet:
 
 `User Budgeted Labor Cost = Budgeted hours for the user on the project * Cost per Hour rate of the user`
 
-## Finden Sie die budgetierten Arbeitskosten eines Projekts
+## Budgetierte Lohnkosten eines Projekts suchen
 
-Die im Ressourcenbudgeting-Bereich des Geschäftsszenarios oder des Ressourcenplaners ausgewiesenen budgetierten Arbeitskosten werden in den folgenden Bereichen von Workfront unter folgenden Namen angezeigt:
+Die budgetierten Lohnkosten, wie sie im Bereich Ressourcenbudgetierung des Business Case oder des Ressourcenplaners angezeigt werden, werden in den folgenden Bereichen von Workfront unter den folgenden Namen angezeigt:
 
 <table style="table-layout:auto"> 
    <col> 
    <col> 
    <tbody> 
     <tr> 
-     <td><strong>Anzeigename der budgetierten Arbeitskosten</strong></td> 
+     <td><strong>Anzeigename der budgetierten Lohnkosten</strong></td> 
      <td><strong>Gebiet von Workfront</strong></td> 
     </tr> 
     <tr> 
      <td>Budgetierte Lohnkosten</td> 
-     <td>Ressourcen-Budgeting-Bereich des Geschäftsfalles</td> 
+     <td>Bereich „Ressourcenbudgetierung“ des Business Case</td> 
     </tr> 
     <tr> 
      <td>Budgetierte Kosten</td> 
-     <td><p>Kostenansicht des Nutzungsberichts</p><p>Weitere Informationen finden Sie unter <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">Anzeigen von Nutzungsinformationen</a> .</p></td> 
+     <td><p>Auslastungsbericht - Kostenansicht</p><p>Weitere Informationen finden Sie unter <a href="../../../resource-mgmt/resource-utilization/view-utilization-information.md">Nutzungsinformationen anzeigen</a> .</p></td> 
     </tr> 
     <tr> 
      <td>BDG </td> 
-     <td>Projekt- oder Rollenansichten des Ressourcenplaners nach Kosten</td> 
+     <td>Ressourcenplaner - Projekt- oder Rollenansichten, nach Kosten</td> 
     </tr> 
     <tr> 
-     <td>Ressourcenplaner Projekt budgetierte Arbeitskosten</td> 
-     <td> <p>Projektbericht</p> <p>Bericht über das Projekt (Finanzdaten)</p> <p>Aufgabenbericht</p> <p>Problembericht</p> <p>Bericht "Budgetierte Stunde"</p> <p>Informationen zum Erstellen eines Berichts finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Benutzerspezifischen Bericht erstellen</a>.</p> </td> 
+     <td>Ressourcenplaner-Projekt - budgetierte Lohnkosten</td> 
+     <td> <p>Projektbericht</p> <p>Bericht zu Projekten (Finanzdaten)</p> <p>Aufgabenbericht</p> <p>Problembericht</p> <p>Bericht zu budgetierten Stunden</p> <p>Informationen zum Erstellen eines Berichts finden Sie im Artikel <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md" class="MCXref xref">Erstellen eines benutzerdefinierten Berichts</a>.</p> </td> 
     </tr> 
    </tbody> 
   </table>
 
 >[!NOTE]
 >
->Wenn Sie den Adobe Workfront-Szenario-Planer zum Budget von Projektressourcen verwenden, entsprechen die im Bereich Ressourcenbudgetierung des Geschäftsfalls veranschlagten Arbeitskosten den Kosten der mit dem Projekt verknüpften Initiative für Personen. Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md). Informationen zu Budgeteinträgen mit dem Szenario-Planer finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+>Wenn Sie den Adobe Workfront-Szenarioplaner verwenden, um Projektressourcen zu budgetieren, sind die budgetierten Lohnkosten im Bereich Ressourcenbudgetierung des Business Case mit den Personalkosten der mit dem Projekt verknüpften Initiative identisch. Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md). Informationen zur Budgetierung von Ressourcen mit dem Szenarienplaner finden Sie unter [Budgetieren von Ressourcen im Business Case mit dem Szenarienplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-## Suchen Sie die budgetierten Stunden eines Projekts
+## Suchen der budgetierten Stunden eines Projekts
 
 <!--
 (NOTE: Keep the structure of this article similar to Calculating Budgeted Cost)
 -->
 
-Budgetierte Stunden beeinflussen den Wert der budgetierten Arbeitskosten (oder der im Ressourcenplaner veranschlagten Kosten) des Projekts.
+Budgetierte Stunden wirken sich auf den Wert der budgetierten Lohnkosten (oder der budgetierten Ressourcenplaner-Kosten) des Projekts aus.
 
-Die budgetierten Arbeitskosten eines Projekts sind die Kosten im Zusammenhang mit den zugewiesenen Aufgaben für die Durchführung der Arbeit am Projekt und die geschätzte Anzahl der Stunden (veranschlagte Stunden), die jede Rolle für die Fertigstellung der Arbeit in Anspruch nehmen kann.
+Die budgetierten Lohnkosten eines Projekts sind die Kosten, die den Aufgabengebieten zugeordnet sind, die für die Fertigstellung der Arbeit am Projekt zugewiesen wurden, sowie die geschätzte Anzahl der Stunden (budgetierte Stunden), die jede Funktion benötigen könnte, um die Arbeit abzuschließen.
 
-Sie können die budgetierten Stunden in Workfront in den unten aufgelisteten Feldern anzeigen.
+Sie können die budgetierten Stunden in Workfront in den Feldern der folgenden Tabelle anzeigen.
 
 >[!NOTE]
 >
->Jede andere Erwähnung von &quot;Budgeting Hours&quot;in Workfront bezieht sich auf die geplanten Stunden mit veralteten Funktionen, die aus Workfront entfernt wurden. Diese Felder sind schreibgeschützt und werden nicht mit aktuellen Informationen aktualisiert, wenn Sie die aktuellen Tools für die Ressourcenbudgetierung verwenden.
+>Jede andere Erwähnung von „Budgetierte Stunden“ in Workfront bezieht sich auf Stunden, die mit veralteten Funktionen budgetiert wurden, die aus Workfront entfernt wurden. Diese Felder sind schreibgeschützt und werden nicht mit aktuellen Informationen aktualisiert, wenn Sie die aktuellen Tools für die Ressourcenbudgetierung verwenden.
 
-Die im Ressourcenbudgeting-Bereich des Business Case oder des Resource Planers im Haushaltsplan veranschlagten Stunden werden in den folgenden Bereichen von Workfront und unter folgenden Namen angezeigt:
+Die budgetierten Stunden im Bereich Ressourcenbudgetierung des Business Case oder des Ressourcenplaners werden in den folgenden Bereichen von Workfront und unter den folgenden Namen angezeigt:
 
-* **Stunden**: Bereich &quot;Ressourcenbudgetierung&quot;des Geschäftsfalls
-* **BDG**:Ressourcen-Planer, der von Stunden angezeigt wird
-* **Budgetierte Stunden**: Ansicht des Nutzungsberichts Stunden
-Weitere Informationen finden Sie unter [Anzeigen von Informationen zur Ressourcenauslastung](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
-* **Bud. Hours**: Bericht zur budgetierten Stunde
+* **Stunden**: Bereich „Ressourcenbudgetierung“ des Business Case
+* **BDG**:Ressourcenplaner nach Stunden angezeigt
+* **Budgetierte Stunden**: Ansicht „Stunden“ im Auslastungsbericht
+Weitere Informationen finden Sie unter [Informationen zur Ressourcenauslastung anzeigen](../../../resource-mgmt/resource-utilization/view-utilization-information.md).
+* **Bud. Stunden**: Bericht „Budgetierte Stunde“
 
-  Das Objekt &quot;Budgetierte Stunde&quot;im Bericht &quot;Budgetierte Stunde&quot;bezieht sich auf Informationen zu einem veralteten Tool für die Ressourcenverwaltung. Nur der &quot;Bud. Das Feld &quot;Stunden&quot;in diesem Bericht bezieht sich auf die im Ressourcenplaner oder im Bereich &quot;Ressourcenbudgetierung&quot;des Projektgeschäftes veranschlagten Stunden.
+  Das Objekt „Budgetierte Stunde“ im Bericht „Budgetierte Stunde“ bezieht sich auf Informationen zu einem veralteten Ressourcenverwaltungstool. Nur der „Bud. Das Feld „Stunden“ in diesem Bericht bezieht sich auf die budgetierten Stunden im Ressourcenplaner oder im Bereich „Ressourcenbudgetierung“ des Business Case des Projekts.
 
-  Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel **Benutzerspezifischen Bericht erstellen**.
-* **Ressourcenplaner - Budgetierte Stunden**: In den folgenden Berichten:
+  Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel **Erstellen eines benutzerdefinierten Berichts**.
+* **Ressourcenplaner - Budgetierte**: in den folgenden Berichten:
 
    * Projektbericht
-   * Bericht über das Projekt (Finanzdaten)
+   * Bericht zu Projekten (Finanzdaten)
    * Aufgabenbericht
    * Problembericht
-   * Bericht &quot;Budgetierte Stunde&quot;
+   * Bericht zu budgetierten Stunden

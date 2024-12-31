@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: CPI (Cost Performance Index) berechnen
-description: Der Cost Performance Index (CPI) beschreibt die Beziehung auf Projekt- oder Aufgabenebene zwischen den geplanten und den tatsächlichen Kosten. Projektmanager überprüfen diese Metrik, um Aufgaben oder Projekte zu identifizieren, die derzeit unter oder über den Kosten an einem bestimmten Punkt nachverfolgen.
+title: Kostenentwicklungsindex (CPI) berechnen
+description: Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreibt die Beziehung zwischen den geplanten Kosten und den Ist-Kosten auf Projekt- oder Vorgangsebene. Projektmanager überprüfen diese Metrik, um Aufgaben oder Projekte zu identifizieren, die zu einem bestimmten Zeitpunkt unter oder über den Kosten liegen.
 author: Lisa
 feature: Work Management
 exl-id: 7f2efe26-7292-482d-986c-2d2077a7ca52
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# CPI (Cost Performance Index) berechnen
+# Kostenentwicklungsindex (CPI) berechnen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Linked to the product. Do not change link.)</p>
 -->
 
-Der Cost Performance Index (CPI) beschreibt die Beziehung auf Projekt- oder Aufgabenebene zwischen den geplanten und den tatsächlichen Kosten. Projektmanager überprüfen diese Metrik, um Aufgaben oder Projekte zu identifizieren, die derzeit unter oder über den Kosten an einem bestimmten Punkt nachverfolgen. Die Kosten können in Stunden oder Dollar gemessen werden, je nach Performance Index Method (PIM). Weitere Informationen zum Festlegen der Leistungsindex-Methode finden Sie unter [Festlegen der Leistungsindex-Methode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+Der Kostenentwicklungsindex (Cost Performance Index, CPI) beschreibt die Beziehung zwischen den geplanten Kosten und den Ist-Kosten auf Projekt- oder Vorgangsebene. Projektmanager überprüfen diese Metrik, um Aufgaben oder Projekte zu identifizieren, die zu einem bestimmten Zeitpunkt unter oder über den Kosten liegen. Die Kosten können je nach Leistungsindexmethode (PIM) in Stunden oder Dollar angegeben werden. Weitere Informationen zum Festlegen der Leistungsindexmethode finden Sie unter [Festlegen der Leistungsindexmethode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
-Nur Organisationen, die eine Zeiteingabe benötigen, können CPI verwenden. Darüber hinaus sind kostenbasierte PIM-Werte nur in Unternehmen exakt, die über definierte Kostensätze für Aufgabenverantwortliche verfügen (Stellenrollen oder Benutzer).
+Nur Organisationen, die eine Zeiteingabe benötigen, können CPI verwenden. Darüber hinaus sind kostenbasierte PIM-Werte nur in Organisationen korrekt, die Kostensätze für Aufgabenzugewiesene (Aufgabengebiete oder Benutzer) definiert haben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,55 +35,55 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
    <p>Neu: Licht oder höher</p>
    <p>oder</p>
-   <p>Aktuell: Überprüfen oder höher</p></td>  
+   <p>Aktuell: Überprüfung oder höher</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td>Zugriff auf Projekte und Finanzdaten anzeigen</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Anzeigen des Zugriffs auf Projekte und Finanzdaten</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzen</td> 
+   <td>Anzeigen von oder höheren Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen von Finanzdaten</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Übersicht über den CPI (Cost Performance Index)
+## Überblick über den Kostenentwicklungsindex (Cost Performance Index, CPI)
 
 * [Der CPI-Wert](#the-cpi-value)
-* [Berechnung des CPI](#how-cpi-is-calculated)
+* [So wird der CPI berechnet](#how-cpi-is-calculated)
 
-### CPI-Wert {#the-cpi-value}
+### Der CPI-Wert {#the-cpi-value}
 
-Projektmanager wissen, dass ein CPI-Wert von 1 bedeutet, dass das Projekt genau im Budget liegt. Werte, die größer als 1 sind, weisen darauf hin, dass ein Projekt im Budget liegt (weniger Stunden oder Ausgaben wurden als ursprünglich geplant verzeichnet), und Werte unter 1 bedeuten, dass ein Projekt über dem Budget liegt (mehr Stunden oder Ausgaben wurden verzeichnet als ursprünglich geplant). Je weiter von 1, desto größer ist die Abweichung vom Plan.
+Projektmanager wissen, dass ein CPI-Wert von 1 bedeutet, dass das Projekt exakt im Budget liegt. Werte über 1 zeigen an, dass ein Projekt unter dem Budget liegt (es wurden weniger Stunden oder Ausgaben erfasst als ursprünglich geplant), und Werte unter 1 bedeuten, dass ein Projekt das Budget überschreitet (es wurden mehr Stunden oder Ausgaben erfasst als ursprünglich geplant). Je weiter von 1, desto größer die Abweichung vom Plan.
 
-| **CPI-Wert** | **Anzeige für Budget** |
+| **CPI-Wert** | **Angaben zum Budget** |
 |---|---|
-| 1 | Über Plan oder Budget |
-| > 1 (größer als 1) | Haushaltsmittel |
-| &lt; 1 (weniger als 1) | Budget |
+| 1 | Auf Plan oder Budget |
+| > 1 (größer als 1) | Unter Budget |
+| &lt; 1 (weniger als 1) | Über Budget |
 
 
-### Berechnung des CPI {#how-cpi-is-calculated}
+### So wird der CPI berechnet {#how-cpi-is-calculated}
 
-In Adobe Workfront hängt die Berechnung des CPI von der für das Projekt ausgewählten Leistungsindex-Methode ab. Weitere Informationen zum Festlegen der Leistungsindex-Methode finden Sie unter [Festlegen der Leistungsindex-Methode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
+In Adobe Workfront hängt die Berechnung des VPI von der für das Projekt ausgewählten Leistungsindexmethode ab. Weitere Informationen zum Festlegen der Leistungsindexmethode finden Sie unter [Festlegen der Leistungsindexmethode (PIM)](../../../manage-work/projects/project-finances/set-pim.md).
 
-* [CPI-Berechnungen bei Verwendung von stündbasiertem PIM](#cpi-calculations-when-using-hour-based-pim)
+* [CPI-Berechnungen bei Verwendung eines stundenbasierten PIM](#cpi-calculations-when-using-hour-based-pim)
 * [CPI-Berechnungen bei Verwendung kostenbasierter PIM](#cpi-calculations-when-using-cost-based-pim)
 
-#### CPI-Berechnungen bei Verwendung von stündbasiertem PIM {#cpi-calculations-when-using-hour-based-pim}
+#### CPI-Berechnungen bei Verwendung eines stundenbasierten PIM {#cpi-calculations-when-using-hour-based-pim}
 
 Wenn
 
@@ -91,7 +91,7 @@ Wenn
 Actual Hours > 0 THEN CPI = Total Budgeted Cost Work Performed / Actual Hours
 ```
 
-Sonst
+Andernfalls
 
 ```
 CPI = 1
@@ -104,12 +104,12 @@ CPI = 1
   ```
 
 * **Für eine übergeordnete Aufgabe:**
-Gesamtsumme der durchgeführten budgetierten Kostenarbeit = die Summe des Felds Gesamtsumme der durchgeführten budgetierten Kosten für alle direkten untergeordneten Aufgaben.
+Gesamte budgetierte Kosten Ausgeführte Arbeit = Summe der insgesamt budgetierten Kosten Ausgeführte Arbeit für alle direkt untergeordneten Aufgaben.
 
 * **Für ein Projekt:**
-Gesamtsumme der durchgeführten budgetierten Kostenarbeit = die Summe des Felds &quot;Gesamtkostenarbeit&quot;für alle Aufgaben auf oberster Ebene (Eltern und eigenständige Aufgaben).
+Gesamte budgetierte Kosten Ausgeführte Arbeit = Summe der insgesamt budgetierten Kosten Ausgeführte Arbeit für alle Aufgaben der obersten Ebene (übergeordnete und eigenständige Aufgaben).
 
-Weitere Informationen über die insgesamt durchgeführten budgetierten Kosten (BCWP) finden Sie unter [Berechnung der durchgeführten budgetierten Kosten (BCWP)](../../../manage-work/projects/project-finances/calculate-bcwp.md).
+Informationen über die insgesamt budgetierten Kosten der durchgeführten Arbeit (SKAA) finden Sie unter [Budgetierte Kosten der durchgeführten Arbeit (SKAA) berechnen](../../../manage-work/projects/project-finances/calculate-bcwp.md).
 
 #### CPI-Berechnungen bei Verwendung kostenbasierter PIM {#cpi-calculations-when-using-cost-based-pim}
 
@@ -129,7 +129,7 @@ Actual Labor Cost + Incurred Actual Expense Cost <> 0 THEN CPI = (Total Budgeted
 
 
 
-Sonst
+Andernfalls
 
 ```
 CPI = 1
@@ -139,7 +139,7 @@ CPI = 1
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"><code>(NOTE: above: this used to say: CPI = CPI Labor, but Anna had me fix it on July 21, 2021)</code> </p>
 -->
 
-Die in dieser Berechnung enthaltenen Felder werden im Folgenden beschrieben:
+Die Felder in dieser Berechnung werden nachfolgend beschrieben:
 
 ```
 Total Actual Cost = Actual (logged) Hours * Hourly Rate of assignees
@@ -149,7 +149,7 @@ Total Actual Cost = Actual (logged) Hours * Hourly Rate of assignees
 Incurred Actual Expense Cost = Actual Cost
 ```
 
-Versicherungsbezogene Ausgaben sind die Ausgaben, auf die sich tatsächliche Kosten > 0 belaufen
+Aufgetretene Ausgaben sind die Ausgaben, für die die Ist-Kosten > 0 sind.
 
 ```
 Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expenses
@@ -161,13 +161,13 @@ Planned Cost of Incurred Expenses = Total of Planned Cost of all incurred expens
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: Old calculation - taken out by Lilit and replaced below: Planned Cost of Work Performed= (planned labor cost) * (percent complete) / 100 where planned labor cost is the planned hours allocated to assignees * their rates.)</p>
   -->
 
-* Geplante Kosten der durchgeführten Arbeit werden anhand der folgenden Formel berechnet:
+* Die geplanten Kosten der geleisteten Arbeit werden nach folgender Formel berechnet:
 
   ```
   Planned Cost of Work Performed = Planned cost * Percent Complete / 100
   ```
 
-Die Gesamtsumme der durchgeführten budgetierten Kosten wird für Folgendes berechnet:
+Die insgesamt budgetierten Kosten der durchgeführten Arbeit werden für Folgendes berechnet:
 
 * **Für eine nicht übergeordnete Aufgabe:**
 
@@ -191,12 +191,12 @@ Die Gesamtsumme der durchgeführten budgetierten Kosten wird für Folgendes bere
 
 ## CPI in einem Projekt oder einer Aufgabe suchen
 
-Sie können den CPI eines Projekts oder einer Aufgabe in einer Projekt-, Aufgabenliste oder einem Bericht anzeigen. Darüber hinaus können Sie sie auf Projekt- oder Aufgabenebene anzeigen.
+Sie können den CPI eines Projekts oder einer Aufgabe in einem Projekt, einer Aufgabenliste oder einem Bericht anzeigen. Darüber hinaus können Sie sie auf Projekt- oder Aufgabenebene anzeigen.
 
-1. Wechseln Sie zu dem Projekt oder der Aufgabe, in dem/der die CPI angezeigt werden soll.
-1. Erweitern Sie im linken Bereich **Projektdetails** oder **Aufgabendetails**, je nachdem, ob Sie die CPI für ein Projekt oder eine Aufgabe anzeigen.
+1. Wechseln Sie zu dem Projekt oder der Aufgabe, in dem bzw. der Sie den CPI anzeigen möchten.
+1. Erweitern Sie **Projektdetails** oder **Aufgabendetails** im linken Bereich, je nachdem, ob Sie den CPI für ein Projekt oder eine Aufgabe anzeigen.
 
-1. Klicken Sie auf **Finance**.
+1. Klicken Sie auf **Finanzen**.
 
    Der CPI wird im Feld **CPI/SPI/CSI** angezeigt.
 

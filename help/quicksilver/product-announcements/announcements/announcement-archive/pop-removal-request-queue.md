@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: announcements
-title: Neues von Adobe Workfront verwaltetes System zum Ersetzen von POP-E-Mails für Anforderungswarteschlangen durch 21.1
-description: Wir ersetzen die POP-E-Mail-Option für Anforderungswarteschlangen durch ein neues Adobe Workfront-verwaltetes System. Sie können zwar weiterhin Anfragen per E-Mail senden, müssen aber stattdessen eine neue von Workfront verwaltete E-Mail-Adresse im Bereich "Anforderungswarteschlange"einrichten.
+title: Neues verwaltetes System von Adobe Workfront ersetzt POP-E-Mail für Anfrage-Warteschlangen durch 21.1
+description: Wir ersetzen die POP-E-Mail-Option für Anfrage-Warteschlangen durch ein neues Adobe Workfront-verwaltetes System. Sie können Anfragen weiterhin per E-Mail senden, müssen jedoch stattdessen eine neue von Workfront verwaltete E-Mail-Adresse im Bereich Anfrage-Warteschlange einrichten.
 author: Luke
 feature: Product Announcements
 exl-id: d7147641-ba36-422b-a9b2-3c2f4ab609d8
@@ -13,26 +13,26 @@ ht-degree: 0%
 
 ---
 
-# Neues von Adobe Workfront verwaltetes System zum Ersetzen von POP-E-Mails für Anforderungswarteschlangen durch 21.1
+# Neues verwaltetes System von Adobe Workfront ersetzt POP-E-Mail für Anfrage-Warteschlangen durch 21.1
 
-Wir ersetzen die POP-E-Mail-Option für Anforderungswarteschlangen durch ein neues Adobe Workfront-verwaltetes System. Sie können zwar weiterhin Anfragen per E-Mail senden, müssen aber stattdessen eine neue von Workfront verwaltete E-Mail-Adresse im Bereich &quot;Anforderungswarteschlange&quot;einrichten.
+Wir ersetzen die POP-E-Mail-Option für Anfrage-Warteschlangen durch ein neues Adobe Workfront-verwaltetes System. Sie können Anfragen weiterhin per E-Mail senden, müssen jedoch stattdessen eine neue von Workfront verwaltete E-Mail-Adresse im Bereich Anfrage-Warteschlange einrichten.
 
 ## Warum entfernen Sie die POP-E-Mail-Option?
 
-POP-Technologie ist eine unzuverlässige, weniger sichere E-Mail-Option. Darüber hinaus sehen wir viele Kundenprobleme, die speziell mit POP-E-Mails zusammenhängen. Die Umstellung auf ein von Workfront verwaltetes System wird zu einem zuverlässigeren Erlebnis führen.
+POP-Technologie ist eine unzuverlässige, weniger sichere E-Mail-Option. Darüber hinaus sehen wir viele Kundenprobleme speziell im Zusammenhang mit POP-E-Mails. Die Änderung an einem von Workfront verwalteten System führt zu einem zuverlässigeren Erlebnis.
 
 ## Welche Maßnahmen muss ich ergreifen?
 
-Sie müssen für jede Anforderungswarteschlange, die Sie mit POP-E-Mails in Ihrer Produktionsumgebung eingerichtet haben, eine neue E-Mail-Adresse einrichten und die neue E-Mail-Adresse nach Bedarf verteilen. Weitere Informationen finden Sie unter [Aktivieren von Benutzern, ein Problem per E-Mail an ein Projekt in der Anforderungswarteschlange zu senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
+Für jede Anfrage-Warteschlange, die Sie mit POP-E-Mails in Ihrer Produktionsumgebung eingerichtet haben, müssen Sie eine neue E-Mail-Adresse einrichten und die neue E-Mail-Adresse nach Bedarf verteilen. Weitere Informationen finden Sie unter [Benutzer können ein Problem per E-Mail an ein Anfrage-Warteschlangenprojekt senden](/help/quicksilver/manage-work/requests/create-requests/enable-email-issues-into-projects.md).
 
 ## Was ist der Übergangsplan?
 
-Ab der Version 21.1 Anfang Februar haben Sie 60 Tage Zeit, Ihre Benutzer auf die neue E-Mail-Adresse *@take.workfront.com* umzustellen, die Sie erstellen. Während des 60-tägigen Zeitraums funktioniert die zuvor verwendete POP-E-Mail weiterhin.
+Ab Version 21.1 Anfang Februar haben Sie 60 Tage Zeit, um Ihre Benutzer auf die von Ihnen erstellte neue *@intake.workfront.com*-E-Mail-Adresse umzustellen. Während des Zeitraums von 60 Tagen funktioniert die zuvor verwendete POP-E-Mail weiterhin.
 
 ## Wie kann ich dies in der Vorschau testen?
 
-Um diese Änderung in der Vorschau zu testen, müssen Sie E-Mails in Ihrer Vorschau-Umgebung aktivieren. Befolgen Sie dazu die Anweisungen im Abschnitt Verwalten von E-Mails in der Vorschau in [Aktivieren des Versands von E-Mails aus der Vorschau-Sandbox-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
+Um diese Änderung in der Vorschau zu testen, müssen Sie E-Mails in Ihrer Vorschau-Umgebung aktivieren. Befolgen Sie dazu die Anweisungen im Abschnitt Verwalten von E-Mails in der Vorschau in [Aktivieren des Versands von E-Mails aus der Sandbox-Vorschau-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
 >[!IMPORTANT]
 >
->Was Sie hier festlegen, wird nicht in Ihre Produktionsumgebung übernommen. Sie müssen diesen Vorgang erneut ausführen, nachdem die Funktion für die Produktion freigegeben wurde.
+>Was Sie hier festgelegt haben, wird nicht in Ihre Produktionsumgebung übertragen. Sie müssen diesen Prozess erneut durchlaufen, nachdem die Funktion für die Produktion freigegeben wurde.

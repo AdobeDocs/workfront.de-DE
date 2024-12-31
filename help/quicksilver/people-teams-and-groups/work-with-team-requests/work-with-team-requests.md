@@ -2,8 +2,8 @@
 content-type: reference
 product-area: user-management;agile-and-teams
 navigation-topic: people-teams-and-groups
-title: Arbeiten mit Team-Anforderungen
-description: Lesen Sie diese Artikel, um zu erfahren, wie Sie mit Team-Anforderungen in Workfront arbeiten.
+title: Arbeiten mit Teamanfragen
+description: Lesen Sie diese Artikel, um zu erfahren, wie Sie mit Teamanfragen in Workfront arbeiten.
 author: Lisa
 feature: People Teams and Groups
 recommendations: noDisplay, noCatalog
@@ -19,5 +19,5 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über Team-Anforderungen](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
-* [Verwalten von Arbeits- und Teamanfragen](../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)
+* [Teamanfragen - Übersicht](../../people-teams-and-groups/work-with-team-requests/team-requests-overview.md)
+* [Arbeits- und Teamanfragen verwalten](../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md)

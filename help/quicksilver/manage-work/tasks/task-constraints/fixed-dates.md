@@ -2,8 +2,8 @@
 content-type: reference;how-to-procedural
 product-area: projects
 navigation-topic: task-constraints
-title: "Task Constraint Overview: Fixed Dates"
-description: Sie können die Aufgabenbegrenzung Feste Datumswerte verwenden, wenn Sie für das genaue Start- und Enddatum Ihrer Aufgaben spezifisch sein möchten. Weitere Informationen zu Aufgabenbegrenzungen finden Sie unter Übersicht über Aufgabenbegrenzungen .
+title: 'Aufgabenbeschränkung - Übersicht: Feste Termine'
+description: Sie können die Aufgabenbeschränkung Feste Termine verwenden, wenn Sie das genaue Start- und Enddatum Ihrer Aufgaben genau angeben möchten. Weitere Informationen zu Aufgabenbeschränkungen finden Sie unter Übersicht über Aufgabenbeschränkungen.
 author: Alina
 feature: Work Management
 exl-id: 084f54a6-e757-405c-b388-5d5f61608e71
@@ -14,34 +14,34 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Aufgabenbegrenzungen: Feste Datumswerte
+# Aufgabenbeschränkung - Übersicht: Feste Termine
 
-Sie können die Aufgabenbegrenzung Feste Datumswerte verwenden, wenn Sie für das genaue Start- und Enddatum Ihrer Aufgaben spezifisch sein möchten. Weitere Informationen zu Aufgabenbegrenzungen finden Sie unter [Übersicht über Aufgabenbegrenzungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
+Sie können die Aufgabenbeschränkung Feste Termine verwenden, wenn Sie das genaue Start- und Enddatum Ihrer Aufgaben genau angeben möchten. Weitere Informationen zu Aufgabenbeschränkungen finden Sie unter [Übersicht über Aufgabenbeschränkungen](../../../manage-work/tasks/task-constraints/task-constraint-overview.md).
 
-## Übersicht über die Beschränkung &quot;Feste Datumswerte&quot;
+## Übersicht über die Beschränkung Feste Daten
 
-Beachten Sie Folgendes bei Verwendung der Beschränkung &quot;Feste Datumswerte&quot;:
+Beachten Sie bei Verwendung der Beschränkung Feste Daten Folgendes:
 
-* Wenn Sie die Aufgabenbegrenzung Feste Datumswerte (FIXT) auswählen, müssen Sie das geplante Startdatum und das geplante Abschlussdatum der Aufgabe angeben. In diesem Fall wird die Vorgängerbeziehung der Aufgabe ignoriert.
+* Wenn Sie die Aufgabenbeschränkung Feste Termine (FIXT) auswählen, müssen Sie das geplante Startdatum und das geplante Abschlussdatum der Aufgabe angeben. In diesem Fall wird die Vorgängerbeziehung der Aufgabe ignoriert.
 * Das Feld Dauer der Aufgabe kann bei Verwendung der FIXT-Beschränkung nicht bearbeitet werden. Die Dauer wird als Differenz zwischen dem geplanten Start- und dem geplanten Abschlussdatum der Aufgabe berechnet.
-* Wenn der Aufgabentyp Effort gesteuert ist, wirkt sich die Anzahl der Zuweisung der Aufgabe auch auf die Dauer der Aufgabe aus.
-* Wenn Sie eine Aufgabe mit einer FIXT-Einschränkung in ein anderes Projekt verschieben oder kopieren, können sich die Beschränkung der Aufgabe oder die Daten des Projekts je nach den Einschränkungsdaten und den Start- und Abschlussdaten des Projekts ändern. Die folgenden Szenarien existieren:
+* Wenn der Dauertyp der Aufgabe vom Aufwand gesteuert wird, wirkt sich die Anzahl der Beauftragten für die Aufgabe auch auf die Dauer der Aufgabe aus.
+* Wenn Sie eine Aufgabe mit einer FIXT-Beschränkung in ein anderes Projekt verschieben oder kopieren, kann sich die Begrenzung der Aufgabe oder die Termine des Projekts ändern, je nachdem, welche Einschränkungstermine gelten und welches Start- und Abschlussdatum das Projekt hat. Die folgenden Szenarien sind vorhanden:
 
    * Wenn das Zielprojekt von Anfang an geplant ist:
 
-      * Wenn ein Beschränkungsdatum der Aufgabe vor dem Projektstartdatum liegt, ändert sich die Aufgabenbegrenzung in So bald wie möglich.
-      * Wenn ein oder beide Beschränkungsdaten der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegen, ändert sich das geplante Abschlussdatum des Projekts entsprechend dem Abschlussdatum der Aufgabe.
+      * Wenn ein Einschränkungsdatum der Aufgabe vor dem Projektstartdatum liegt, wird die Aufgabenbeschränkung auf „So bald wie möglich“ geändert.
+      * Wenn ein oder beide Einschränkungstermine der Aufgabe nach dem geplanten Abschlussdatum des Projekts liegen, ändert sich das geplante Abschlussdatum des Projekts, sodass es dem Fertigstellungseinschränkungsdatum der Aufgabe entspricht.
 
-   * Wenn das Zielprojekt nach Abschluss geplant wird:
+   * Wenn das Zielprojekt für den Abschluss geplant ist:
 
-      * Wenn ein Beschränkungsdatum der Aufgabe nach dem Projektabschlussdatum liegt, ändert sich die Aufgabenbegrenzung in &quot;So spät wie möglich&quot;.
-      * Wenn ein oder beide Beschränkungsdaten der Aufgabe vor dem geplanten Startdatum des Projekts liegen, wird das geplante Startdatum des Projekts an das Startdatum der Aufgabe angepasst.
+      * Wenn ein Einschränkungstermin der Aufgabe nach dem Projektabschlussdatum liegt, wird die Aufgabenbeschränkung auf So spät wie möglich geändert.
+      * Wenn ein oder beide Einschränkungstermine des Vorgangs vor dem geplanten Startdatum des Projekts liegen, ändert sich das geplante Startdatum des Projekts, sodass es dem Starteinschränkungsdatum des Vorgangs entspricht.
 
-   * Unabhängig vom Zeitplan des Projekts gibt es keine Änderungen an der Aufgabenbegrenzung oder den Projektzeitpunkten, wenn die Beschränkungsdaten der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegen.
+   * Wenn die Einschränkungstermine der Aufgabe innerhalb des Start- und Abschlussdatums des Projekts liegen, gibt es unabhängig vom Projektplan keine Änderungen an der Aufgabenbeschränkung oder den Projektterminen.
 
-  Informationen zum Verschieben von Aufgaben finden Sie unter [Verschieben von Aufgaben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Kopieren und Duplizieren von Aufgaben](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
+  Informationen zum Verschieben von Aufgaben finden Sie unter [Aufgaben verschieben](../../../manage-work/tasks/manage-tasks/move-tasks.md). Informationen zum Kopieren von Aufgaben finden Sie unter [Aufgaben kopieren und duplizieren](../../../manage-work/tasks/manage-tasks/copy-and-duplicate-tasks.md).
 
-Informationen zum Aktualisieren der Aufgabenbegrenzung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbegrenzung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
+Informationen zum Aktualisieren der Aufgabenbeschränkung für eine Aufgabe finden Sie unter [Aktualisieren der Aufgabenbeschränkung einer Aufgabe](../../../manage-work/tasks/task-constraints/update-task-constraint-of-task.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

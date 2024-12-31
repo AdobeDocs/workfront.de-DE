@@ -1,8 +1,8 @@
 ---
 product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
-title: Definieren von Anforderungstypen für ein Projekt
-description: Sie können die Art der in Adobe Workfront protokollierten Probleme oder Anforderungen nach Anfragetypen organisieren.
+title: Anforderungstypen für ein Projekt definieren
+description: Sie können die Art der Probleme oder Anfragen, die in Adobe Workfront protokolliert werden, nach Anfragetypen organisieren.
 author: Lisa
 feature: Work Management
 exl-id: 627749bb-a8d7-4cc2-9d11-237811f82eb8
@@ -15,9 +15,9 @@ ht-degree: 2%
 
 # Anforderungstypen für ein Projekt definieren
 
-Sie können die Art der in Adobe Workfront protokollierten Probleme oder Anforderungen nach Anfragetypen organisieren.
+Sie können die Art der Probleme oder Anfragen, die in Adobe Workfront protokolliert werden, nach Anfragetypen organisieren.
 
-Diese Organisation ist nützlich, um Berichterstellungsgründe zu berücksichtigen und Benutzern zu helfen, zu verstehen, welche Art von unerwarteter Arbeit während der Lebensdauer eines Projekts auftreten kann.
+Diese Organisation ist aus Reporting-Gründen nützlich und hilft Benutzenden zu verstehen, welche Art von unerwarteter Arbeit während der Lebensdauer eines Projekts auftreten kann.
 
 ## Zugriffsanforderungen
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -41,17 +41,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <p>Aktuell: Plan</p></td>  
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt verwalten</p></td> 
+   <td> <p>Verwalten von Berechtigungen für ein Projekt</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,29 +59,29 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Bevor Sie beginnen, müssen Sie Folgendes tun:
 
-* Projekt verwenden oder erstellen
+* Ein Projekt haben oder erstellen
 
-  Weitere Informationen zum Erstellen von Projekten finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
+  Informationen zum Erstellen von Projekten finden Sie unter [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-## Überlegungen zu Anforderungstypen
+## Überlegungen zu Anfragetypen
 
-* Sie können den Typ der Probleme oder Anforderungen angeben, die bei einem Projekt protokolliert werden können, wenn Sie den Bereich **Warteschlangendetails** für das Projekt konfigurieren.
-* Sie müssen das Projekt nicht als Anforderungswarteschlange aktivieren, um Anforderungstypen für ein Projekt definieren zu können. Alle für ein Projekt protokollierten Probleme können mit einem anderen Anforderungstyp gekennzeichnet werden.
-* Wenn Sie Ihrem Projekt Warteschlangenthemen hinzufügen, müssen Sie Anfragetypen für jedes Warteschlangenthema definieren, damit sie beim Hinzufügen eines neuen Problems oder einer neuen Anforderung angezeigt werden. Weitere Informationen finden Sie unter [Themen für Warteschlangen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Sie können die Art der Probleme oder Anfragen, die für ein Projekt protokolliert werden können, angeben, wenn Sie den Bereich **Warteschlangendetails** für das Projekt konfigurieren.
+* Sie müssen das Projekt nicht aktivieren, um eine Anfrage-Warteschlange zu sein, um Anfragetypen für ein Projekt definieren zu können. Alle für ein Projekt protokollierten Probleme können mit einem anderen Anfragetyp gekennzeichnet werden.
+* Wenn Sie Ihrem Projekt Warteschlangenthemen hinzufügen, müssen Sie für jedes Warteschlangenthema Anfragetypen definieren, um diese beim Hinzufügen eines neuen Problems oder einer neuen Anfrage anzuzeigen. Weitere Informationen finden Sie unter [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-## Problem- oder Anfragetypen für ein Projekt definieren
+## Anfrage- oder Anfragetypen für ein Projekt definieren
 
 {{step1-to-projects}}
 
 1. Klicken Sie auf den Namen des Projekts, um es zu öffnen.
-1. Klicken Sie im linken Bereich auf **Warteschlangendetails**.
-1. Wählen Sie im Abschnitt **Eigenschaften der Warteschlange** die **Anforderungstypen** aus, die Sie für das Projekt benötigen.
+1. Klicken Sie im linken Bedienfeld auf **Warteschlangendetails**.
+1. Wählen Sie **Abschnitt** die **Anfragetypen“ aus** die Sie für das Projekt verwenden möchten.
 
    >[!NOTE]
    >
-   >Sie müssen mindestens einen Anfragetyp ausgewählt haben. Sie können mehrere Anfragetypen auswählen.
+   >Mindestens ein Anfragetyp muss ausgewählt sein. Sie können mehrere Anfragetypen auswählen.
 
-   Wählen Sie aus den folgenden Typen aus:
+   Wählen Sie aus den folgenden Typen:
 
    * Fehlerbericht
    * Änderungsanforderung
@@ -90,8 +90,8 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 
    >[!TIP]
    >
-   >Möglicherweise hat Ihr Workfront-Administrator einige dieser Optionen umbenannt. Weitere Informationen finden Sie unter [Konfigurieren von Anfragetypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >Möglicherweise hat Ihr Workfront-Administrator einige dieser Optionen umbenannt. Weitere Informationen finden Sie [Konfigurieren von Anfragetypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
 1. Klicken Sie auf **Speichern**.
 
-   Die von Ihnen angegebenen Anforderungstypen können ausgewählt werden, wenn Sie ein neues Problem in einer Aufgabe oder einem Projekt eingeben oder wenn Sie eine neue Anforderung an das Projekt senden, wenn das Projekt als Anforderungswarteschlange aktiviert ist.
+   Die angegebenen Anfragetypen stehen zur Auswahl, wenn Sie eine neue Anfrage für eine Aufgabe oder ein Projekt eingeben oder wenn Sie eine neue Anfrage an das Projekt senden, falls das Projekt als Anfrage-Warteschlange aktiviert ist.

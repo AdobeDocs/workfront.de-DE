@@ -2,7 +2,7 @@
 product-area: projects
 navigation-topic: use-predecessors
 title: Erstellen von projektübergreifenden Vorgängern
-description: Ein projektübergreifender Vorgänger ist eine Aufgabe, von der eine andere Aufgabe (als Nachfolgeaufgabe bezeichnet) in einem anderen Projekt abhängt. Der Vorgänger ist die Aufgabe, die Vorrang vor der abhängigen (Nachfolger-)Aufgabe hat. Sie können beispielsweise eine Abhängigkeit erstellen, bei der die Vorgängeraufgabe zuerst als Fertig gestellt markiert werden muss, bevor die abhängige Aufgabe beginnen kann.
+description: Ein projektübergreifender Vorgänger ist eine Aufgabe, von der eine andere Aufgabe (eine so genannte Nachfolgeaufgabe) in einem anderen Projekt abhängt. Der Vorgänger ist die Aufgabe, die Priorität vor der abhängigen Aufgabe (Nachfolger) hat. Sie können beispielsweise eine Abhängigkeit erstellen, bei der die Vorgängeraufgabe als abgeschlossen markiert werden muss, bevor die abhängige Aufgabe gestartet werden kann.
 author: Alina
 feature: Work Management
 exl-id: 7e29e589-e0a5-437e-935d-d5bc1b268594
@@ -13,29 +13,29 @@ ht-degree: 0%
 
 ---
 
-# Erstellen projektübergreifender Vorgänger
+# Erstellen von projektübergreifenden Vorgängern
 
 <!--Audited: 12/2024-->
 
-Ein projektübergreifender Vorgänger ist eine Aufgabe, von der eine andere Aufgabe (als Nachfolgeaufgabe bezeichnet) in einem anderen Projekt abhängt. Der Vorgänger ist die Aufgabe, die Vorrang vor der abhängigen (Nachfolger-)Aufgabe hat. Sie können beispielsweise eine Abhängigkeit erstellen, bei der die Vorgängeraufgabe zuerst als Fertig gestellt markiert werden muss, bevor die abhängige Aufgabe beginnen kann.
+Ein projektübergreifender Vorgänger ist eine Aufgabe, von der eine andere Aufgabe (eine so genannte Nachfolgeaufgabe) in einem anderen Projekt abhängt. Der Vorgänger ist die Aufgabe, die Priorität vor der abhängigen Aufgabe (Nachfolger) hat. Sie können beispielsweise eine Abhängigkeit erstellen, bei der die Vorgängeraufgabe als abgeschlossen markiert werden muss, bevor die abhängige Aufgabe gestartet werden kann.
 
-Adobe Workfront ermöglicht es, Aufgaben von Aufgaben in anderen Projekten abhängig zu machen, so wie es Vorgänger in einem einzelnen Projekt ermöglicht.
+Adobe Workfront ermöglicht es, dass Aufgaben von Aufgaben in anderen Projekten abhängig sind, genau wie es Vorgänger innerhalb eines einzigen Projekts ermöglicht.
 
 >[!INFO]
 >
->So verfügt beispielsweise ein Grabunternehmen nur über einen Hintergrund und zwei Projekte haben Aufgaben, die die Verwendung des Backhofs erfordern. Der Projektmanager kann die Aufgabe im ersten Projekt als Vorgänger der Aufgabe im zweiten Projekt festlegen. Dies zeigt, dass das zweite Projekt mit der Verwendung des Backhofs beginnen kann, wenn das erste Projekt damit fertig ist.
+>Beispielsweise verfügt ein Baggerunternehmen nur über einen Bagger, und zwei Projekte haben Aufgaben, die die Verwendung des Baggers erfordern. Der Projektmanager kann die Aufgabe im ersten Projekt zu einem Vorgänger der Aufgabe im zweiten Projekt machen. Dies zeigt, dass das zweite Projekt mit der Verwendung des Backhores beginnen kann, wenn das erste Projekt damit abgeschlossen ist.
 
-Bei der Verknüpfung von Projekten über projektübergreifende Vorläufer wirken sich die Daten des Primärprojekts (das Datum, an dem die Vorgängeraufgabe erfolgt) auf das sekundäre Projekt aus (das Projekt, das die Nachfolgeaufgabe hat).
+Wenn Sie Projekte über projektübergreifende Vorgänger verknüpfen, wirken sich die Daten des primären Projekts (das mit der Vorgängeraufgabe) auf das sekundäre Projekt aus (das mit der Nachfolgeaufgabe).
 
 >[!TIP]
 >
->Sie müssen die Zeitpläne für die Projekte neu berechnen, damit die Daten für das sekundäre Projekt aktualisiert werden. Weitere Informationen zur Neuberechnung von Zeitleisten finden Sie unter [Konfigurieren von Timeline-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
+>Sie müssen die Zeitleisten für die Projekte neu berechnen, damit die Daten für das sekundäre Projekt aktualisiert werden. Weitere Informationen zur Neuberechnung von Zeitleisten finden Sie unter [Konfigurieren von Zeitleisten-Neuberechnungen für Projekte](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-timeline-recalculations-projects.md).
 
-Weitere Informationen zu Vorgängerbeziehungen finden Sie unter [Übersicht über Aufgabenvorherigen](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
+Weitere Informationen zu Vorgängerbeziehungen finden Sie unter [Übersicht über Aufgabenvorgänger](../../../manage-work/tasks/use-prdcssrs/predecessors-overview.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,8 +44,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -60,56 +60,56 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für Aufgaben und Projekte verwalten</p> </td> 
+   <td> <p>Verwalten der Berechtigungen für die Aufgaben und Projekte</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Erstellen eines projektübergreifenden Vorgängers
 
-1. Wechseln Sie zu der Aufgabe, die Ihr Nachfolger ist (abhängige Aufgabe).
-1. Klicken Sie im linken Bereich auf **Vorgänger** . Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
+1. Wechseln Sie zu der Aufgabe, die Ihr Nachfolger sein wird (abhängige Aufgabe).
+1. Klicken Sie **linken Bedienfeld auf** Vorgänger“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Vorgänger** klicken.
 
    >[!TIP]
    >
-   >   Ihr Workfront- oder Gruppenadministrator kann den Abschnitt **Vorgänger** oder andere Abschnitte aus dem linken Bereich entfernen.
+   >   Ihr Workfront- oder Gruppenadministrator kann den Abschnitt **Vorgänger** oder andere Abschnitte aus dem linken Bedienfeld entfernen.
 
-1. Klicken Sie auf **Vorgänger hinzufügen**.
-1. Geben Sie im Feld **Übergeordnetes Projekt** den Namen des Projekts ein, das die Aufgabe enthält, die Sie der aktuellen Aufgabe voranstellen möchten.
+1. Klicken Sie auf **Vorgänger hinzufügen.**
+1. Beginnen Sie **Feld Übergeordnetes Projekt** den Namen des Projekts einzugeben, das die Aufgabe enthält, deren Vorgänger Sie Ihrer aktuellen Aufgabe sein möchten.
 1. Klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Geben Sie im Feld **Aufgaben** den Namen der Aufgabe ein, die der Vorgänger der aktuellen Aufgabe sein soll.
+1. Beginnen Sie **Feld Aufgaben** mit der Eingabe des Namens der Aufgabe, die Sie als Vorgänger Ihrer aktuellen Aufgabe verwenden möchten.
 1. Geben Sie die folgenden Informationen zum Definieren der Beziehung zwischen dem Vorgänger und der abhängigen Aufgabe an:
 
 
-   * **Abhängigkeitstyp:** Wählen Sie die Beziehung aus, die die Vorgängeraufgabe mit der abhängigen Aufgabe haben soll. Die Standardbeziehung lautet &quot;Finish-Start&quot;. Das bedeutet, dass die Vorgängeraufgabe beendet werden muss, bevor die abhängige Aufgabe beginnen kann. Weitere Informationen zu den verschiedenen Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
+   * **Abhängigkeitstyp** Wählen Sie die Beziehung aus, die die Vorgängeraufgabe mit der abhängigen Aufgabe haben soll. Die Standardbeziehung ist „Beenden-Start“, was bedeutet, dass die Vorgängeraufgabe abgeschlossen sein muss, bevor die abhängige Aufgabe beginnen kann. Weitere Informationen zu den verschiedenen Abhängigkeitstypen finden Sie unter [Übersicht über Aufgabenabhängigkeitstypen](../../../manage-work/tasks/use-prdcssrs/task-dependency-types.md).
 
-   * **lange:** Geben Sie die Zeit an, die nach Abschluss eines erzwungenen Vorgängers verstreichen muss, bis die abhängige Aufgabe beginnen kann. Weitere Informationen zu den verschiedenen Arten von Verzögerung finden Sie unter [Übersicht über die Lag-Typen](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
+   * **Verzögerung** Geben Sie die Zeit an, die nach Abschluss eines erzwungenen Vorgängers vergehen muss, bis die abhängige Aufgabe beginnen kann. Weitere Informationen zu den verschiedenen Verzögerungsarten finden Sie unter [Verzögerungsarten - Übersicht](../../../manage-work/tasks/use-prdcssrs/lag-types.md).
 
-   * **Erzwungen:** Wenn diese Option ausgewählt ist, kann die Abhängigkeitsbeziehung zwischen den beiden Aufgaben nicht umgangen werden, indem Benutzer Aufgaben frühzeitig starten. Wenn Sie beispielsweise eine Beziehung zwischen Aufgabe A und Aufgabe B erzwingen, kann Aufgabe B erst gestartet werden, wenn Aufgabe A abgeschlossen ist. Weitere Informationen zum Erzwingen von Vorgängern finden Sie unter [Erzwingen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
+   * **Erzwungen:** Wenn diese Option aktiviert ist, kann die Abhängigkeitsbeziehung zwischen den beiden Aufgaben nicht dadurch umgangen werden, dass Benutzer die Aufgaben frühzeitig beginnen. Wenn Sie beispielsweise eine Beziehung zwischen Aufgabe A und Aufgabe B erzwingen, kann Aufgabe B erst gestartet werden, wenn Aufgabe A abgeschlossen ist. Weitere Informationen zum Erzwingen von Vorgängern finden Sie unter [Erzwingen von Vorgängern](../../../manage-work/tasks/use-prdcssrs/enforced-predecessors.md).
 
-     Wenn diese Option nicht ausgewählt ist, wird die Abhängigkeit wie ein Vorschlag für Benutzer behandelt. Beispielsweise können Benutzer Aufgabe B starten, bevor Aufgabe A abgeschlossen ist.
+     Wenn diese Option nicht ausgewählt ist, wird die Abhängigkeit für die Benutzer wie ein Vorschlag behandelt. Beispielsweise können Benutzer Aufgabe B starten, bevor Aufgabe A abgeschlossen ist.
 
 1. Klicken Sie auf **Speichern**.
 
-   Aufgaben mit einem projektübergreifenden Vorgänger zeigen die Referenznummer des Projekts an, zu dem der Vorgänger gehört, und die Nummer der Aufgabe, durch einen Doppelpunkt getrennt, in der Spalte &quot;Vorgänger&quot;einer Aufgabenliste an.
+   Aufgaben mit einem projektübergreifenden Vorgänger zeigen die Referenznummer des Projekts, zu dem der Vorgänger gehört, und die Nummer der Aufgabe, getrennt durch einen Doppelpunkt, in der Spalte Vorgänger in einer Aufgabenliste an.
 
    ![Projektübergreifender Vorgänger](assets/cross-project-predecessor-in-list-view.png)
 
-   Das Vorgängersymbol wird grün, wenn die Vorgängeraufgabe als abgeschlossen markiert ist. Dies signalisiert, dass die abhängige Aufgabe einsatzbereit ist.
+   Das Symbol Vorgänger wird grün, wenn die Vorgängeraufgabe als abgeschlossen markiert ist. Dies signalisiert, dass die abhängige Aufgabe arbeitsbereit ist.
 
-   Bewegen Sie den Mauszeiger über diesen Wert, um weitere Informationen zum Vorgänger, zum Projekt und zu den Daten zu erhalten. Klicken Sie im Detailfeld auf den projektübergreifenden Vorgänger, um die Aufgabe zu öffnen.
+   Bewegen Sie den Mauszeiger über diesen Wert, um weitere Informationen über den Vorgänger, das Projekt und die Daten zu erhalten. Klicken Sie auf den projektübergreifenden Vorgänger im Feld Details , um die Aufgabe zu öffnen.
 
-   Klicken Sie oben im Mauszeiger-Fenster auf , um weitere Informationen zum Projekt des Vorgängers anzuzeigen.
+   Klicken Sie oben im Fenster, um weitere Informationen zum Vorgängerprojekt anzuzeigen.
 
-   Klicken Sie auf **Siehe Projekt** , um das Projekt des Vorgängers zu öffnen.
+   Klicken Sie **Projekt anzeigen**, um das Projekt des Vorgängers zu öffnen.
 
    ![Projektübergreifende Vorgängerdetails](assets/cross-project-predecessor-details.png)
 
    >[!TIP]
    >
-   >   Die Option **Siehe Projekt** wird nur angezeigt, wenn ein projektübergreifender Vorgänger angezeigt wird.
+   >   Die Option **Projekt anzeigen** wird nur angezeigt, wenn ein projektübergreifender Vorgänger angezeigt wird.
 

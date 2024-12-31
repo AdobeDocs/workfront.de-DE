@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
+source-git-commit: 9bb02e7b54f76a3323039f2c82748a909a71692c
 workflow-type: tm+mt
 source-wordcount: '945'
 ht-degree: 1%
 
 ---
-
 
 # Genehmigen einer Anforderung in Adobe Workfront Planning
 
@@ -168,4 +168,3 @@ So validieren Sie eine Anfrage:
    * **Abgelehnt**: Die Anfrage wird abgelehnt.
 
    Die Anfrage verbleibt auf der Registerkarte Planung im Abschnitt Gesendet im Bereich Anfragen in Workfront.
-

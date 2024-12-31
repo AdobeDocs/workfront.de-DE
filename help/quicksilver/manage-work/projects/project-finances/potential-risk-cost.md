@@ -2,8 +2,8 @@
 content-type: overview;how-to-procedural
 product-area: projects
 navigation-topic: financials
-title: Potenzielle Risikokosten berechnen
-description: Die potenziellen Risikokosten eines Projekts berücksichtigen die potenziellen Kosten der Projektrisiken und deren Wahrscheinlichkeit des Auftretens.
+title: Mögliche Risikokosten berechnen
+description: Die potenziellen Risikokosten eines Projekts berücksichtigen die potenziellen Kosten der Projektrisiken und deren Eintrittswahrscheinlichkeit.
 author: Lisa
 feature: Work Management
 exl-id: f4dc1950-efd8-4936-83fd-1280ee465923
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Potenzielle Risikokosten berechnen
+# Mögliche Risikokosten berechnen
 
-Die potenziellen Risikokosten eines Projekts berücksichtigen die potenziellen Kosten der Projektrisiken und deren Wahrscheinlichkeit des Auftretens.
+Die potenziellen Risikokosten eines Projekts berücksichtigen die potenziellen Kosten der Projektrisiken und deren Eintrittswahrscheinlichkeit.
 
-## Überblick über potenzielle Risikokosten eines Projekts
+## Überblick über die potenziellen Risikokosten eines Projekts
 
 Adobe Workfront berechnet die potenziellen Risikokosten eines Projekts anhand der folgenden Formel:
 
@@ -26,25 +26,25 @@ Adobe Workfront berechnet die potenziellen Risikokosten eines Projekts anhand de
 Potential Risk Cost =SUM(Potential Risk Costs * Risk Probability)
 ```
 
-Beachten Sie bei der Überprüfung der potenziellen Risikokosten eines Projekts Folgendes:
+Berücksichtigen Sie bei der Prüfung der potenziellen Risikokosten eines Projekts Folgendes:
 
-* Die geplanten Risikokosten eines Projekts entsprechen den potenziellen Risikokosten.
-* Die potenziellen Risikokosten werden nicht in die geplanten Kosten eines Projekts einbezogen. Stattdessen wird er zur Bestimmung seines Nettowerts verwendet.
+* Die geplanten Risikokosten eines Projekts sind mit den potenziellen Risikokosten identisch.
+* Die potenziellen Risikokosten sind nicht in den geplanten Kosten eines Projekts enthalten. Stattdessen wird er zur Ermittlung seines Nettowerts verwendet.
 
-## Potenzielle Risikokosten eines Projekts ermitteln
+## Identifizieren der potenziellen Risikokosten eines Projekts
 
-Sie finden die Risiken für ein Projekt und die potenziellen Kosten in den folgenden Bereichen in Workfront:
+Die Risiken für ein Projekt und deren potenzielle Kosten finden Sie in den folgenden Bereichen in Workfront:
 
 * Auf der Registerkarte Risiken des Projekts.
-* In der Zusammenfassung der Geschäftsszenarios.\
-  Weitere Informationen zum Geschäftsfall eines Projekts finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
-* In einem Projektbericht, wenn Sie das Feld &quot;Geplante Risikokosten&quot;zu den Spalten des Berichts hinzufügen.\
-  Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+* In der Zusammenfassung eines Business-Case.\
+  Weitere Informationen zum Business Case eines Projekts finden Sie im Artikel [Erstellen eines Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+* In einem Projektbericht, wenn Sie das Feld Geplante Risikokosten zu den Spalten des Berichts hinzufügen.\
+  Weitere Informationen zum Erstellen von Berichten in Workfront finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-* Wenn das Portfolio-Optimizer mit einem Portfolio verknüpft ist, in der Spalte Risiko .\
-  Die Summe aller potenziellen Risikokosten aller Projekte im Portfolio erhöht das Risiko des Portfolios.\
-  Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+* Wenn das Projekt in Portfolio Optimizer mit einem Portfolio verknüpft ist, wird es in der Spalte Risiko angezeigt.\
+  Die Summe aller potenziellen Risikokosten aller Projekte im Portfolio summiert sich zum Risiko des Portfolios.\
+  Weitere Informationen zum Portfolio Optimizer finden Sie im Artikel [Übersicht über den Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-Weitere Informationen zum Erstellen von Risiken für ein Projekt finden Sie im Artikel [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
+Weitere Informationen zum Erstellen von Risiken in einem Projekt finden Sie im Artikel [Erstellen und Bearbeiten von Risiken in Projekten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
 
-Weitere Informationen zum Geschäftsfall eines Projekts finden Sie im Artikel [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Weitere Informationen zum Business Case eines Projekts finden Sie im Artikel [Erstellen eines Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).

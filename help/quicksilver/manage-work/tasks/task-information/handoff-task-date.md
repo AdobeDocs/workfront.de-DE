@@ -3,7 +3,7 @@ content-type: overview
 product-area: projects
 navigation-topic: task-information
 title: Übersicht über das Datum der Aufgabenübergabe
-description: Das Übergabedatum ist das Datum, an dem eine Aufgabe zur Arbeit verfügbar wird. Dies bedeutet in der Regel, dass die Vorgänger die Aufgabe gelöst haben und der Verantwortliche der Aufgabe damit beginnen kann, daran zu arbeiten.
+description: Das Übergabedatum ist das Datum, an dem eine Aufgabe für die Arbeit verfügbar wird. Dies bedeutet in der Regel, dass die Vorgänger aufgelöst wurden und der Verantwortliche der Aufgabe mit der Bearbeitung beginnen kann.
 author: Alina
 feature: Work Management
 exl-id: caf2dbba-5311-418d-8c82-ddcc256f9926
@@ -16,17 +16,17 @@ ht-degree: 2%
 
 # Übersicht über das Datum der Aufgabenübergabe
 
-Das Übergabedatum ist das Datum, an dem eine Aufgabe zur Arbeit verfügbar wird. Dies bedeutet in der Regel, dass die Vorgänger die Aufgabe gelöst haben und der Verantwortliche der Aufgabe damit beginnen kann, daran zu arbeiten.
+Das Übergabedatum ist das Datum, an dem eine Aufgabe für die Arbeit verfügbar wird. Dies bedeutet in der Regel, dass die Vorgänger aufgelöst wurden und der Verantwortliche der Aufgabe mit der Bearbeitung beginnen kann.
 
 >[!TIP]
 >
->Für Probleme und Projekte gibt es keine Übergabedaten.
+>Für Probleme und Projekte sind keine Übergabedaten vorhanden.
 
-## Berechnung des Übergabedatums durch Adobe Workfront
+## So berechnet Adobe Workfront das Übergabedatum
 
 >[!NOTE]
 >
->Das Übergabedatum wird nur berechnet, wenn der Projektstatus den folgenden Status aufweist:
+>Das Übergabedatum wird nur berechnet, wenn der Projektstatus folgenden Status entspricht:
 >
 >* Zurückgestellt
 >* Aktuell
@@ -34,38 +34,38 @@ Das Übergabedatum ist das Datum, an dem eine Aufgabe zur Arbeit verfügbar wird
 >* Eingestellt
 >
 
-Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums einer Aufgabe:
+Workfront berechnet das Übergabedatum einer Aufgabe anhand der folgenden Regeln:
 
 * **Wenn die Aufgabe einen unvollständigen Vorgänger hat**: Das Übergabedatum für die Aufgabe ist null.
-* **Wenn die Aufgabe einen vollständigen Vorgänger hat**: Das Übermittlungsdatum entspricht dem tatsächlichen Abschlussdatum der Vorgängeraufgabe. Wenn der Vorgänger über eine Verzögerung verfügt, berechnet Workfront das Übergabedatum der Nachfolgeaufgabe anhand der folgenden Formel:
+* **Wenn die Aufgabe einen vollständigen Vorgänger hat**: Das Übergabedatum entspricht dem tatsächlichen Abschlussdatum der Vorgängeraufgabe. Wenn der Vorgänger eine Verzögerung aufweist, berechnet Workfront das Übergabedatum der Nachfolgeaufgabe mithilfe der folgenden Formel:
 
   `Successor Handoff Date = Predecessor Actual Completion Date + Lag`
 
-  Weitere Informationen zur Latenzzeit finden Sie unter [Übersicht über Lag-Typen](../use-prdcssrs/lag-types.md).
+  Informationen zu Verzögerungszeiten finden Sie unter [Übersicht über Verzögerungsarten](../use-prdcssrs/lag-types.md).
 
-  Wenn die Nachfolgeaufgabe mehr als einen Vorgänger aufweist, wird das Übermittlungsdatum auf der Grundlage des letzten tatsächlichen Abschlussdatums der Vorgänger berechnet. Wenn die tatsächlichen Abschlussdaten der beiden Vorgänger beispielsweise der 8. November 2022 und der 20. November 2022 sind, ist das Übergabedatum des Nachfolgers der 20. November 2022.
+  Wenn die Nachfolgeaufgabe mehr als einen Vorgänger hat, wird das Übergabedatum auf der Grundlage des letzten tatsächlichen Abschlussdatums der Vorgänger berechnet. Wenn beispielsweise die tatsächlichen Abschlussdaten der beiden Vorgänger der 8. November 2022 und der 20. November 2022 sind, ist das Übergabedatum des Nachfolgers der 20. November 2022.
 
   >[!NOTE]
   >
-  >   Das Übermittlungsdatum einer Nachfolgeaufgabe basierend auf dem tatsächlichen Abschlussdatum oder einer Vorläuferaufgabe wird unabhängig davon, ob der Vorgänger erzwungen wird oder nicht, auf die gleiche Weise berechnet. Weitere Informationen zu erzwungenen Vorgängern finden Sie unter [Erzwingen von Vorgängern](../use-prdcssrs/enforced-predecessors.md).
+  >   Die Berechnung des Übergabedatums einer Nachfolgeaufgabe auf der Grundlage des tatsächlichen Abschlussdatums oder einer Vorgängeraufgabe ist unabhängig davon, ob der Vorgänger erzwungen wird oder nicht, identisch. Weitere Informationen zu erzwungenen Vorgängern finden Sie unter [Erzwungene Vorgänger](../use-prdcssrs/enforced-predecessors.md).
 
 
-* **Wenn die Aufgabe keinen Vorgänger und** aufweist:
+* **Wenn die Aufgabe keinen Vorgänger hat und**:
 
-   * **Das geplante Startdatum liegt in der Vergangenheit**: Das Übermittlungsdatum entspricht dem geplanten Startdatum des Projekts, wenn für die Aufgabe keine erzwungene Beschränkung festgelegt wurde. Informationen zu den Fällen, in denen Aufgaben Zwänge erzwungen haben, finden Sie im Abschnitt &quot;Wenn die Aufgabe eine erzwungene Beschränkung für die geplanten Datumswerte hat&quot;unten.
-   * **Das geplante Startdatum liegt in der Zukunft (ein beliebiges Datum nach dem aktuellen Datum)**: Das Übergabedatum ist dasselbe wie das geplante Startdatum der Aufgabe, wenn für die Aufgabe keine erzwungene Beschränkung festgelegt ist. Informationen zu den Fällen, in denen Aufgaben Zwänge erzwungen haben, finden Sie im Abschnitt &quot;Wenn die Aufgabe eine erzwungene Beschränkung für die geplanten Datumswerte hat&quot;unten.
+   * **Das geplante Startdatum liegt in der Vergangenheit**: Das Übergabedatum entspricht dem geplanten Startdatum des Projekts, wenn für die Aufgabe keine erzwungene Begrenzung festgelegt ist. Die Fälle, in denen Aufgaben erzwungene Einschränkungen aufweisen, finden Sie unten im Abschnitt „Wenn die Aufgabe für die geplanten Termine eine erzwungene Einschränkung aufweist“.
+   * **Das geplante Startdatum liegt in der Zukunft (beliebiges Datum nach dem aktuellen Datum)**: Das Übergabedatum entspricht dem geplanten Startdatum der Aufgabe, wenn für die Aufgabe keine erzwungene Einschränkung festgelegt ist. Die Fälle, in denen Aufgaben erzwungene Einschränkungen aufweisen, finden Sie unten im Abschnitt „Wenn die Aufgabe für die geplanten Termine eine erzwungene Einschränkung aufweist“.
 
 >[!NOTE]
 >
->Wenn die Aufgabe einen projektübergreifenden Vorgänger hat, wird das Übermittlungsdatum des Nachfolgers nur dann neu berechnet, wenn eine der folgenden Ereignisse eintritt:
+>Wenn die Aufgabe einen projektübergreifenden Vorgänger hat, wird das Übergabedatum des Nachfolgers nur neu berechnet, wenn einer der folgenden Fälle eintritt:
 >
->* Sie berechnen die Timeline des Nachfolger-Projekts manuell neu. Sie müssen über Verwaltungsberechtigungen für das Projekt verfügen, um die Timeline neu zu berechnen.
+>* Sie berechnen die Timeline des Nachfolgeprojekts manuell neu. Sie müssen über Verwaltungsberechtigungen für das Projekt verfügen, um die Zeitleiste neu zu berechnen.
 >* Die Zeitleiste des Nachfolgeprojekts wird nachts automatisch neu berechnet.
 >
->Weitere Informationen zur Neuberechnung der Zeitleiste des Projekts finden Sie unter [Projektzeitpläne neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
+>Informationen zur Neuberechnung der Zeitleiste des Projekts finden Sie unter [Neuberechnen von Projektzeitleisten](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md).
 
-* **Wenn die Aufgabe eine erzwungene Beschränkung für die geplanten Datumswerte hat**: Das Übergabedatum variiert je nach Art der Beschränkung und abhängig davon, ob die Aufgabe über ein tatsächliches Startdatum verfügt oder nicht.\
-  Die folgenden erzwungenen Einschränkungen gelten für Aufgaben:
+* **Wenn die Aufgabe eine erzwungene Einschränkung für die geplanten Termine aufweist**: Das Übergabedatum variiert je nach Art der Einschränkung und abhängig davon, ob die Aufgabe ein tatsächliches Startdatum hat oder nicht.\
+  Im Folgenden werden erzwungene Einschränkungen für Aufgaben beschrieben:
 
    * Muss beginnen am
    * Muss beendet werden am
@@ -73,11 +73,11 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
    * Nicht später anfangen als
    * Festes Datum
 
-  Die folgenden Szenarien existieren:
+  Die folgenden Szenarien sind vorhanden:
 
-   * **Wenn die Aufgabe die Beschränkung Muss beginnen am oder Anfang nicht früher als** hat: Wenn das Zeitlimit für die Aufgabeneinschränkung in der Vergangenheit liegt und kein tatsächliches Startdatum für die Aufgabe vorhanden ist (die Aufgabe hat noch nicht gestartet), ist das Übergabedatum das nächstmögliche Datum, an dem die Aufgabe gestartet werden kann, um bearbeitet zu werden. Wenn die Aufgabe gestartet wurde, entspricht das Übergabedatum dem Startdatum des Projekts.
-   * **Wenn die Aufgabe die Beschränkung Must Finish On oder Start No Later Than** hat: Wenn das Aufgabenbegrenzungsdatum in der Zukunft liegt und es kein aktuelles Startdatum für die Aufgabe gibt (die Aufgabe hat noch nicht gestartet), ist das Übergabedatum das geplante Startdatum der Aufgabe. Wenn für die Aufgabe das tatsächliche Startdatum angegeben ist, ist das Übergabedatum das Anfangsdatum des Projekts.
-   * **Wenn die Aufgabe eine Beschränkung von &quot;Feste Datumswerte&quot;hat**: Das Übergabedatum ist das geplante Startdatum der Aufgabe, unabhängig davon, ob es einen Vorgänger hat oder nicht und ob der Vorgänger abgeschlossen ist oder nicht.
+   * **Wenn die Aufgabe eine Einschränkung aufweist, die auf „Start am“ oder „Start nicht früher als“**: Wenn die Vorgangseinschränkung in der Vergangenheit liegt und es kein tatsächliches Startdatum für die Aufgabe gibt (die Aufgabe wurde noch nicht gestartet), ist das Übergabedatum das nächstmögliche Datum, an dem die Aufgabe gestartet werden kann. Wenn die Aufgabe gestartet wurde, ist das Übergabedatum gleich dem Startdatum des Projekts.
+   * **Wenn für den Vorgang der Wert „Ende am“ oder „Beginn nicht später als“ festgelegt ist**: Wenn der Einschränkungstermin für den Vorgang in der Zukunft liegt und es kein tatsächliches Startdatum für den Vorgang gibt (der Vorgang wurde noch nicht gestartet), ist das Übergabedatum das geplante Startdatum des Vorgangs. Wenn für die Aufgabe ein tatsächliches Startdatum vorhanden ist, ist das Übergabedatum das Startdatum des Projekts.
+   * **Wenn die Aufgabe eine Einschränkung fester Datumswerte aufweist**: Das Übergabedatum ist das geplante Startdatum der Aufgabe, unabhängig davon, ob sie einen Vorgänger hat oder nicht und ob der Vorgänger abgeschlossen ist oder nicht.
 
 <!--these are old descriptions, edited by Anna As. on August 25, 2023 in this issue - https://experience.adobe.com/#/@adobeinternalworkfront/so:hub-Hub/workfront/issue/64c0032500018fabd4fc484167eb10dc/updates
    * When the task has a constraint of Must Start On or Start No Earlier Than, the Handoff Date is the Constraint date, unless there is an Actual Start Date on the task. If there is an Actual Start Date on the task, the Handoff Date is the Actual Completion Date of the predecessor.
@@ -86,7 +86,7 @@ Workfront verwendet die folgenden Regeln zur Berechnung des Übergabedatums eine
 
 -->
 
-## Suchen Sie das Übermittlungsdatum.
+## Suchen des Übergabedatums
 
-Sie können das Übergabedatum einer Aufgabe in einem Aufgabenbericht oder die Ansicht einer Aufgabenliste anzeigen.\
-Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Sie können das Übergabedatum einer Aufgabe in einem Aufgabenbericht oder in der Ansicht einer Aufgabenliste anzeigen.\
+Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
