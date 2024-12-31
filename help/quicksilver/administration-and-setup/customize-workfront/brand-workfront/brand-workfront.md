@@ -13,7 +13,7 @@ exl-id: 8a733194-f99b-4066-949f-755046b8d515
 source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
 workflow-type: tm+mt
 source-wordcount: '45'
-ht-degree: 0%
+ht-degree: 11%
 
 ---
 
@@ -21,5 +21,5 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [ Brand your Adobe Workfront instance](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
+* [Branding Ihrer Adobe Workfront-Instanz](../../../administration-and-setup/customize-workfront/brand-workfront/brand-your-workfront-instance.md)
 * [Benutzerdefinierte Hilfe-URL konfigurieren](../../../administration-and-setup/customize-workfront/brand-workfront/configure-custom-help-url.md)

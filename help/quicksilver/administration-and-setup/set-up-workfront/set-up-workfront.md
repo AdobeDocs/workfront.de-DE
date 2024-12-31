@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;setup
 navigation-topic: administration-and-setup
 title: Einrichten [!DNL Adobe Workfront]
-description: Als [!DNL Workfront] Administrator können Sie die Systemstandards, Zeitpläne, Zeitpläne, Zeitpläne, die Organisation Ihrer Benutzer im System, automatische Systemaktualisierungen und die von Ihnen verwendeten [!DNL Workfront] Testumgebungen konfigurieren.
+description: Als  [!DNL Workfront]  können Sie die Systemstandards, Arbeitszeittabellen, Zeitpläne, die Art und Weise, wie Ihre Benutzer im System organisiert sind, automatische Systemaktualisierungen und die von  [!DNL Workfront]  verwendeten Testumgebungen konfigurieren.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -17,16 +17,16 @@ ht-degree: 0%
 
 ---
 
-# Einrichten von [!DNL Adobe Workfront]: Artikelindex
+# [!DNL Adobe Workfront] einrichten: Artikelindex
 
 <!--Audited: 01/2024-->
 
-Als [!DNL Adobe Workfront] -Administrator können Sie die Systemstandards, Zeitpläne, Zeitpläne, Zeitpläne, die Organisation Ihrer Benutzer im System, automatische Systemaktualisierungen und die von Ihnen verwendeten [!DNL Workfront] Testumgebungen konfigurieren.
+Als [!DNL Adobe Workfront] können Sie die Systemstandardwerte, Arbeitszeittabellen, Zeitpläne, die Art und Weise, wie Ihre Benutzer im System organisiert sind, automatische Systemaktualisierungen und die von Ihnen verwendeten [!DNL Workfront]-Testumgebungen konfigurieren.
 
-Die folgenden Unterabschnitte enthalten Artikel zum Konfigurieren Ihrer Workfront-Instanz und zum Festlegen der Systemvoreinstellungen:
+Die folgenden Unterabschnitte enthalten Artikel zum Konfigurieren Ihrer Workfront-Instanz und zum Festlegen der Systemeinstellungen:
 
-* [Systemstandardwerte konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
-* [Konfigurieren von Timesheets und Zeitplänen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
-* [Organisatorische Einrichtung](../../administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
-* [Vom System getrackte Aktualisierungs-Feeds](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
+* [Systemstandardeinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-system-defaults.md)
+* [Arbeitszeittabellen und Zeitpläne konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/configure-timesheets-and-schedules.md)
+* [Organisations-Setup](../../administration-and-setup/set-up-workfront/organizational-setup/organizational-setup.md)
+* [Systemgetrackte Aktualisierungs-Feeds](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/system-tracked-updates-feeds.md)
 * [[!DNL Adobe Workfront] Testumgebungen](../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-testing-environments.md)

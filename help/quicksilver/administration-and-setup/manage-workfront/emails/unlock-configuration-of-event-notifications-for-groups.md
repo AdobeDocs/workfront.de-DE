@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen
-description: Wenn Sie Adobe Workfront-Administrator sind, können Sie Gruppenadministratoren die Möglichkeit erschließen oder erneut sperren, eine Ereignisbenachrichtigung für von ihnen verwaltete Gruppen der obersten Ebene zu konfigurieren. Die Konfiguration einer Ereignisbenachrichtigung besteht darin, sie zu aktivieren oder zu deaktivieren.
+title: Konfiguration von Ereignisbenachrichtigungen für alle Gruppen entsperren oder sperren
+description: Wenn Sie Adobe Workfront-Administrator sind, können Sie die Möglichkeit für Gruppenadministratoren, eine Ereignisbenachrichtigung für von ihnen verwaltete Gruppen der obersten Ebene zu konfigurieren, entsperren oder erneut sperren. Bei der Konfiguration einer Ereignisbenachrichtigung wird diese aktiviert oder deaktiviert.
 author: Lisa, Nolan
 feature: System Setup and Administration
 role: Admin
@@ -15,23 +15,23 @@ ht-degree: 0%
 
 ---
 
-# Entsperren oder Sperren der Konfiguration von Ereignisbenachrichtigungen für alle Gruppen
+# Konfiguration von Ereignisbenachrichtigungen für alle Gruppen entsperren oder sperren
 
-Wenn Sie Adobe Workfront-Administrator sind, können Sie Gruppenadministratoren die Möglichkeit erschließen oder erneut sperren, eine Ereignisbenachrichtigung für von ihnen verwaltete Gruppen der obersten Ebene zu konfigurieren. Die Konfiguration einer Ereignisbenachrichtigung besteht darin, sie zu aktivieren oder zu deaktivieren.
+Wenn Sie Adobe Workfront-Administrator sind, können Sie die Möglichkeit für Gruppenadministratoren, eine Ereignisbenachrichtigung für von ihnen verwaltete Gruppen der obersten Ebene zu konfigurieren, entsperren oder erneut sperren. Bei der Konfiguration einer Ereignisbenachrichtigung wird diese aktiviert oder deaktiviert.
 
-Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
+Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
-Wenn ein Administrator eine Ereignisbenachrichtigung für eine Gruppe konfiguriert, wirkt sich die Konfiguration auf Benutzer aus, für die diese Gruppe oder eine ihrer Untergruppen ihre Startseite ist. In ihren Benutzerprofilen sehen diese Benutzer die Ereignisbenachrichtigungen, die für ihre Startseite aktiviert sind, anstelle der systemweit aktivierten Ereignisbenachrichtigungen. Weitere Informationen finden Sie unter [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
+Wenn Admins eine Ereignisbenachrichtigung für eine Gruppe konfigurieren, wirkt sich die Konfiguration auf Benutzende aus, für die diese Gruppe oder eine ihrer Untergruppen ihre Hauptgruppe ist. In ihren Benutzerprofilen sehen diese Benutzer die Ereignisbenachrichtigungen, die für ihre Hauptgruppe aktiviert sind, anstelle der Ereignisbenachrichtigungen, die systemweit aktiviert sind. Weitere Informationen finden Sie unter [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).
 
 >[!NOTE]
 >
->* Ein Workfront-Administrator kann die Konfiguration für eine Ereignisbenachrichtigung sowohl in Adobe Workfront Classic als auch im neuen Adobe Workfront-Erlebnis entsperren und erneut sperren. Ein Gruppenadministrator kann diese Ereignisbenachrichtigung für eine Gruppe jedoch nur im neuen Adobe Workfront-Erlebnis konfigurieren. Gruppenadministratoren, die Adobe Workfront Classic verwenden, können zum neuen Adobe Workfront-Erlebnis wechseln, um entsperrte Ereignisbenachrichtigungen für eine Gruppe zu konfigurieren, und dann zurück zu Adobe Workfront Classic wechseln, um die Änderungen zu sehen.
->* Untergruppen übernehmen Ereignisbenachrichtigungskonfigurationen auf Gruppenebene von den übergeordneten Gruppen, die über ihnen stehen.
+>* Ein Workfront-Administrator kann die Konfiguration für eine Ereignisbenachrichtigung sowohl in Adobe Workfront Classic als auch in der neuen Adobe Workfront-Version entsperren und erneut sperren. Ein Gruppenadministrator bzw. eine Gruppenadministratorin kann diese Ereignisbenachrichtigung jedoch nur in der neuen Adobe Workfront-Version für eine Gruppe konfigurieren. Gruppenadministratoren, die Adobe Workfront Classic verwenden, können zum neuen Adobe Workfront-Erlebnis wechseln, um entsperrte Ereignisbenachrichtigungen für eine Gruppe zu konfigurieren, und dann zurück zu Adobe Workfront Classic wechseln, um die Änderungen zu sehen.
+>* Untergruppen übernehmen Ereignisbenachrichtigungskonfigurationen auf Gruppenebene von den darüber liegenden Gruppen der obersten Ebene.
 >
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -40,15 +40,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Systemadministrator</p> </td> 
   </tr> 
  </tbody> 
@@ -56,25 +56,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## Die Möglichkeit, eine Ereignisbenachrichtigung zu konfigurieren, entsperren oder erneut sperren
+## Die Möglichkeit zum Konfigurieren einer Ereignisbenachrichtigung entsperren oder erneut sperren
 
 >[!IMPORTANT]
 >
->Wenn Sie eine Benachrichtigung erneut sperren, erben alle Gruppen im System die Benachrichtigung genau so, wie Sie sie festgelegt haben. Dadurch werden alle Änderungen überschrieben, die Gruppenadministratoren möglicherweise für ihre Gruppen vorgenommen haben. Daher ist es empfehlenswert, sie zuerst zu konsultieren.
+>Wenn Sie eine Benachrichtigung erneut sperren, erben alle Gruppen im System die Benachrichtigung genau so, wie Sie sie festgelegt haben. Dadurch werden alle Änderungen überschrieben, die Gruppenadministratoren möglicherweise für ihre Gruppen vorgenommen haben. Daher empfiehlt es sich, sich zuerst mit ihnen zu beraten.
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **E-Mail** > **Benachrichtigungen**.
+1. Klicken Sie auf **E** > **Benachrichtigungen**.
 
-1. Stellen Sie sicher, dass die Registerkarte **Ereignisbenachrichtigungen** geöffnet ist.
-1. Klicken Sie auf das Symbol rechts neben der Benachrichtigung, um sie zur gesperrten Position ![Sperrsymbol](assets/lock-toggle-button.png) oder entsperrten ![Entsperrungssymbol](assets/unlock-toggle-button.png) zu wechseln.
+1. Stellen Sie sicher **dass die Registerkarte** Ereignisbenachrichtigungen“ geöffnet ist.
+1. Klicken Sie auf das Symbol rechts neben der Benachrichtigung, um es auf die Position Gesperrtes ![Sperrsymbol](assets/lock-toggle-button.png) oder Entsperrtes ![Entsperrsymbol](assets/unlock-toggle-button.png) zu ändern.
 
    Oder
 
-   Wenn Sie mehrere Benachrichtigungen gleichzeitig entsperren oder sperren möchten, wählen Sie sie aus und klicken Sie dann auf die Schaltfläche Entsperren ![Entsperren](assets/unlock-icon-toolbar.png) oder Sperren ![Sperrsymbol](assets/lock-icon-locked-qs.png) , die in der Symbolleiste über der Liste angezeigt wird.
+   Wenn Sie mehrere Benachrichtigungen gleichzeitig entsperren oder sperren möchten, wählen Sie diese aus und klicken Sie dann auf die Schaltfläche Entsperren ![Entsperrsymbol](assets/unlock-icon-toolbar.png) oder Sperrsymbol ![Sperrsymbol](assets/lock-icon-locked-qs.png), die in der Symbolleiste über der Liste angezeigt wird.
 
 1. Klicken Sie auf **Speichern**.
-1. (Optional) Wenn Sie die Ereignisbenachrichtigung für eine Gruppe der obersten Ebene konfigurieren möchten, anstatt diese Aufgabe dem Gruppenadministrator zu überlassen, können Sie einen der folgenden Schritte ausführen:
+1. (Optional) Wenn Sie die Ereignisbenachrichtigung für eine Gruppe der obersten Ebene konfigurieren möchten, anstatt diese Aufgabe dem Gruppenadministrator zu überlassen, haben Sie folgende Möglichkeiten:
 
-   * Löschen Sie **Systemereignisbenachrichtigungen** im Suchfeld über der Benachrichtigungsliste, suchen Sie nach dem Namen der Gruppe der obersten Ebene, um deren Benachrichtigungen aufzulisten, und wählen Sie ihn aus. Aktivieren oder deaktivieren Sie dann die entsperrten Benachrichtigungen in der angezeigten Liste.
-   * Klicken Sie im linken Menü auf **Gruppen** und dann auf den Namen der Gruppe der obersten Ebene. Klicken Sie im linken Bereich auf **Ereignisbenachrichtigungen** und konfigurieren Sie dann die Benachrichtigung zum entsperrten Ereignis, wie unter [Ereignisbenachrichtigungen für eine Gruppe anzeigen und konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md) beschrieben.
+   * Löschen Sie **Systemereignis** Benachrichtigungen) im Suchfeld über der Benachrichtigungsliste, suchen Sie nach dem Namen der Gruppe der obersten Ebene, um deren Benachrichtigungen aufzulisten, und aktivieren oder deaktivieren Sie dann die entsperrten Benachrichtigungen in der angezeigten Liste.
+   * Klicken **im linken** auf „Gruppen“ und dann auf den Namen der Gruppe der obersten Ebene. Klicken Sie **linken Bereich auf** Ereignisbenachrichtigungen“ und konfigurieren Sie dann die entsperrte Ereignisbenachrichtigung, wie in [Anzeigen und Konfigurieren von Ereignisbenachrichtigungen für eine Gruppe“ ](../../../administration-and-setup/manage-groups/create-and-manage-groups/view-and-configure-event-notifications-group.md).

@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Hinzufügen oder Bearbeiten eines benutzerdefinierten Felds, einer Abschnittspause oder eines Widgets
-description: Sie können die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in Ihrer Adobe Workfront-Instanz im benutzerdefinierten Formular verwendet wird. Dazu gehören der Titel, der Name, Anweisungen usw. des Elements.
+title: Hinzufügen oder Bearbeiten eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets
+description: Sie können die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in einem benutzerdefinierten Formular in Ihrer Adobe Workfront-Instanz verwendet wird. Dazu gehören die Beschriftung, der Name, die Anweisungen usw. des Elements.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -15,27 +15,27 @@ ht-degree: 0%
 
 ---
 
-# Benutzerdefiniertes Feld, Abschnittsumbruch oder Widget hinzufügen oder bearbeiten
+# Hinzufügen oder Bearbeiten eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets
 
-Sie können ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zum Erstellen des Felds zu öffnen.
+Sie können ein neues benutzerdefiniertes Feld oder Widget direkt aus dem Bereich Felder in Workfront hinzufügen, ohne ein benutzerdefiniertes Formular zu öffnen, um das Feld zu erstellen.
 
-Sie können auch die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in benutzerdefinierten Formularen verwendet wird. Dazu gehören der Titel, der Name, Anweisungen usw. des Elements.
+Sie können auch die Eigenschaften eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets bearbeiten, das in benutzerdefinierten Formularen verwendet wird. Dazu gehören die Beschriftung, der Name, die Anweisungen usw. des Elements.
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -45,13 +45,13 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <p>Aktuell: Plan</p></td>
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -59,24 +59,24 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Benutzerdefinierter Forms**.
-1. Klicken Sie auf **Felder** , um den Bereich Felder zu öffnen.
+1. Klicken Sie **Benutzerdefinierte Forms**.
+1. Klicken Sie auf **Felder**, um den Bereich Felder zu öffnen.
 1. Klicken Sie auf **Neues benutzerdefiniertes Feld**.
-1. Geben Sie in das angezeigte Feld die erforderlichen und optionalen Informationen für das Element ein, das Sie hinzufügen möchten.
+1. Geben Sie im angezeigten Feld die erforderlichen und optionalen Informationen für das Element ein, das Sie hinzufügen möchten.
 
-   Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Klicken Sie auf **Erstellen**.
 
-## Bearbeiten eines benutzerdefinierten Felds, Abschnittsumbruchs oder Widgets, das in einem benutzerdefinierten Formular verwendet wird
+## Benutzerdefiniertes Feld, Abschnittsumbruch oder Widget bearbeiten, das in einem benutzerdefinierten Formular verwendet wird
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Benutzerdefinierter Forms**.
-1. Klicken Sie auf &quot;**Felder**&quot;, um den Bereich &quot;Felder&quot;zu öffnen, oder auf &quot;**Abschnitte**&quot;, um den Bereich &quot;Abschnitte&quot;zu öffnen.
-1. Wählen Sie das benutzerdefinierte Feld, den Abschnittsumbruch oder das Widget aus und klicken Sie dann auf ![Symbol &quot;Bearbeiten&quot;](assets/edit-icon.png).
-1. Ändern Sie in dem angezeigten Feld die verfügbaren Optionen für das Element, das Sie bearbeiten.
+1. Klicken Sie **Benutzerdefinierte Forms**.
+1. Klicken Sie auf **Felder**, um den Bereich Felder zu öffnen, oder **Abschnitte**, um den Bereich Abschnitte zu öffnen.
+1. Wählen Sie das benutzerdefinierte Feld, den Abschnittsumbruch oder das Widget aus und klicken Sie dann auf ![Symbol bearbeiten](assets/edit-icon.png).
+1. Ändern Sie im angezeigten Feld eine der Optionen, die für das Element verfügbar sind, das Sie bearbeiten.
 
-   Weitere Informationen finden Sie unter [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+   Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 1. Wenn Sie fertig sind, klicken Sie auf **Bearbeiten**.

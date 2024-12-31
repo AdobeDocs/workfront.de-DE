@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;documents
 navigation-topic: security
 title: Dateiverschlüsselung
-description: Informationen zur Adobe Workfront-Dateiverschlüsselung finden Sie auf der Startseite Workfront-Sicherheit . Wenn Sie weitere Informationen benötigen, wenden Sie sich an Ihren Kundenbetreuer.
+description: Informationen zur Adobe Workfront-Dateiverschlüsselung finden Sie auf der Startseite von Workfront Security . Wenn Sie weitere Informationen benötigen, wenden Sie sich an Ihren Kundenbetreuer.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -18,4 +18,4 @@ ht-degree: 0%
 
 # Dateiverschlüsselung
 
-Informationen zur Adobe Workfront-Dateiverschlüsselung finden Sie auf der Startseite für die Workfront-Sicherheit ](https://www.workfront.com/workfront-security). [ Wenn Sie weitere Informationen benötigen, wenden Sie sich an Ihren Kundenbetreuer.
+Informationen zur Adobe Workfront-Dateiverschlüsselung finden Sie auf der Startseite von [Workfront Security](https://www.workfront.com/workfront-security). Wenn Sie weitere Informationen benötigen, wenden Sie sich an Ihren Kundenbetreuer.

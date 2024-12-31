@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;timesheets
 navigation-topic: configure-timesheets-and-schedules
-title: Konfigurieren der Voreinstellungen für das Datenblatt und die Stunde
-description: Als [!DNL Adobe Workfront] Administrator können Sie in [!DNL Workfront] Voreinstellungen für Timesheets und Stunden festlegen, um zu definieren, mit welchen Elementen die Timesheets vorbelegt werden können und zu welchen Elementen Benutzer die Zeit protokollieren können.
+title: Arbeitszeittabelle und Stundeneinstellungen konfigurieren
+description: Als  [!DNL Adobe Workfront]  können Sie Voreinstellungen für Arbeitszeittabellen und Stunden in festlegen [!DNL Workfront]  um festzulegen, mit welchen Elementen die Arbeitszeittabellen vorab ausgefüllt werden können und welchen Elementen Benutzer Zeit protokollieren können.
 author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
@@ -21,23 +21,23 @@ ht-degree: 0%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als [!DNL Adobe Workfront] -Administrator können Sie in [!DNL Workfront] Voreinstellungen für Timesheets und Stunden festlegen, um zu definieren, mit welchen Elementen die Timesheets vorbelegt werden können und zu welchen Elementen Benutzer die Zeit protokollieren können.
+Als [!DNL Adobe Workfront] können Sie Voreinstellungen für Arbeitszeittabellen und Stunden in [!DNL Workfront] festlegen, mit welchen Elementen die Arbeitszeittabellen vorab ausgefüllt werden können und welchen Elementen Benutzer Zeit protokollieren können.
 
 >[!IMPORTANT]
 >
->Zusätzlich zu den Artikeln, die ein Timesheet gemäß den in diesem Artikel beschriebenen Bedingungen vorab ausfüllen, werden die folgenden Elemente standardmäßig auch auf Timesheets angezeigt:
+>Zusätzlich zu den Elementen, die eine Arbeitszeittabelle gemäß den in diesem Artikel beschriebenen Bedingungen vorab ausfüllen, werden standardmäßig auch die folgenden Elemente auf Arbeitszeittabellen angezeigt:
 >
->* Elemente, bei denen Sie die Zeit im Zeitrahmen des Zeitblatts protokolliert haben
->* Elemente, die auf das Zeitblatt geschrieben sind
->* Elemente, nach denen Sie suchen und die Sie manuell zum Timesheet hinzufügen. Manuell hinzugefügte Elemente werden standardmäßig fixiert.
+>* Elemente, für die Sie die Zeit im Zeitrahmen der Arbeitszeittabelle protokolliert haben
+>* Elemente, die an die Arbeitszeittabelle angeheftet sind
+>* Elemente, nach denen Sie suchen und die Sie manuell zur Arbeitszeittabelle hinzufügen. Manuell hinzugefügte Elemente werden standardmäßig angeheftet.
 >
->Weitere Informationen finden Sie unter [Protokollzeit](../../../timesheets/create-and-manage-timesheets/log-time.md) und [Übersicht über das Timesheet](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
+>Weitere Informationen finden Sie unter [Zeit protokollieren](../../../timesheets/create-and-manage-timesheets/log-time.md) und [Arbeitszeittabellen-Übersicht](/help/quicksilver/timesheets/timesheets/timesheets-overview.md).
 
-Alle Änderungen, die Sie an Timesheets vornehmen, wirken sich auf alle in der Zukunft erstellten Timesheets aus.
+Alle Änderungen an Arbeitszeittabellen wirken sich auf alle Arbeitszeittabellen aus, die in der Zukunft erstellt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -57,31 +57,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
 </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Festlegen von Zeitblatt- und Stundenvoreinstellungen
+## Arbeitszeittabelle und Stundeneinstellungen festlegen
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Zeitblatt &amp; Stunden]** > **[!UICONTROL Voreinstellungen]**.
+1. Klicken Sie **[!UICONTROL Arbeitszeittabelle und Stunden]** > **[!UICONTROL Voreinstellungen]**.
 
-   Die Seite mit den Voreinstellungen für Timesheets und Stunden wird angezeigt.
+   Die Seite Arbeitszeittabellen und Stunden-Voreinstellungen wird angezeigt.
 
-1. (Optional) Beginnen Sie im Suchfeld **Voreinstellungen für Systemzeiten und Voreinstellungen** mit der Eingabe des Namens einer Gruppe und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.
+1. (Optional) Geben Sie **Suchfeld „Systemzeittabellen und**&quot; den Namen einer Gruppe ein und wählen Sie diese aus, wenn sie in der Liste angezeigt wird.
 
    ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
-   Auf der Seite &quot;Timesheet- und Stundeneinstellungen&quot;werden die Voreinstellungen für die ausgewählte Gruppe aktualisiert. Die Voreinstellungen auf Systemebene müssen entsperrt sein, damit Sie die Voreinstellungen auf Gruppenebene ändern können. Weitere Informationen finden Sie im Abschnitt [Zeitblatt- und Stundeneinstellungen für Gruppen entsperren](#unlock-timesheet-and-hour-preferences-for-groups) in diesem Artikel.
+   Die Seite mit den Arbeitszeittabellen- und Stundeneinstellungen wird mit den Einstellungen für die ausgewählte Gruppe aktualisiert. Voreinstellungen auf Systemebene müssen entsperrt werden, um Einstellungen auf Gruppenebene ändern zu können. Weitere Informationen finden Sie im Abschnitt [Entsperren von Arbeitszeittabellen und Stundeneinstellungen für Gruppen](#unlock-timesheet-and-hour-preferences-for-groups) in diesem Artikel.
 
-1. Konfigurieren Sie im Abschnitt **[!UICONTROL Allgemeine Voreinstellungen]** eine der folgenden Optionen:
+1. Konfigurieren Sie **[!UICONTROL Abschnitt]** Allgemeine Voreinstellungen“ eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -89,83 +89,83 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Protokollzeit für zukünftige Daten]</td> 
-      <td> <p>Ermöglicht Benutzern, die Zeit für zukünftige Daten im gesamten System zu protokollieren in:</p> 
+      <td> <p>Ermöglicht es Benutzenden, die Zeit für zukünftige Datumsangaben im gesamten System in folgenden Bereichen zu erfassen:</p> 
        <ul> 
-        <li>Alle Projekte, Aufgaben und Probleme, auf die sie Zugriff auf die Protokollzeit haben</li> 
-        <li>Ihre Timesheets als "Allgemeine Zeit"</li> 
-       </ul> <p>Dies ist nützlich, wenn Benutzer planen, außerhalb des Büros zu sein, und diese Zeit vorher protokollieren möchten.</p> <p><b>NOTE</b>:</p> 
-       <p>Sie können Benutzer nicht daran hindern, die Zeit für Aufgaben oder Probleme zu protokollieren, die geschlossen oder abgebrochen werden. Sie können Benutzer nur daran hindern, die Zeit für komplette oder tote Projekte zu protokollieren. Es wird empfohlen, Filter in Listen mit Aufgaben und Problemen zu verwenden, um auszuschließen, dass abgeschlossene oder abgebrochene Aufgaben für Benutzer nicht sichtbar sind.</p> </td> 
+        <li>Alle Projekte, Aufgaben und Probleme, bei denen sie Zugriff auf die Zeitprotokollierung haben</li> 
+        <li>Ihre Arbeitszeittabellen als allgemeine Zeit</li> 
+       </ul> <p>Dies ist nützlich, wenn Benutzer planen, nicht im Büro zu sein und diese Zeit im Voraus protokollieren möchten.</p> <p><b>HINWEIS</b>:</p> 
+       <p>Sie können nicht verhindern, dass Benutzer Zeit für Aufgaben oder Probleme protokollieren, die geschlossen oder abgebrochen wurden. Sie können nur verhindern, dass Benutzer die Zeit bei abgeschlossenen oder inaktiven Projekten protokollieren. Es wird empfohlen, in Listen von Aufgaben und Problemen Filter zu verwenden, um abgeschlossene oder abgebrochene Aufgaben von der Sichtbarkeit für Benutzer auszuschließen.</p> </td> 
      </tr>
 
    <tr> 
-      <td role="rowheader">[!UICONTROL Manuelles Zuweisen von Auftragsrollen zu Stundeneinträgen]</td> 
-      <td> <p>Benutzern die manuelle Auswahl von Aufgaben ermöglichen, die in ihrem Benutzerprofil zugewiesen oder dem Objekt zugewiesen sind.</p> <p><b>WICHTIG</b>:  
+      <td role="rowheader">[!UICONTROL Aufgabengebiete manuell Stundeneinträgen zuweisen]</td> 
+      <td> <p>Benutzerinnen und Benutzern erlauben, manuell ein beliebiges Aufgabengebiet auszuwählen, das in ihrem Benutzerprofil oder dem Objekt zugewiesen ist.</p> <p><b>WICHTIG</b>:  
         <ul> 
-         <li>Wenn Sie diese Einstellung deaktivieren, nachdem Sie Stundeneinträgen Auftragsrollen zugewiesen haben, müssen die Benutzer die Stunden anpassen, die auf der Registerkarte [!UICONTROL Hours] des Projekts, der Aufgabe oder des Problems unter verschiedenen Rollen protokolliert wurden.</li> 
-         <li>Wenn dem Benutzer in seinem Profil keine Auftragsrolle zugewiesen ist und im Dialogfeld [!UICONTROL Erweiterte Zuweisungen] eine Aufgabe als [!UICONTROL Aufgabenbesitzer] zugewiesen ist, wird diese Auftragsrolle angezeigt, wenn der Benutzer die Zeit für die Aufgabe angibt.</li> 
+         <li>Wenn Sie diese Einstellung deaktivieren, nachdem Sie Stundeneinträgen Aufgabengebiete zugewiesen haben, müssen Benutzer die Stunden anpassen, die unter verschiedenen Rollen in der Registerkarte [!UICONTROL Stunden] des Projekts, der Aufgabe oder des Problems protokolliert sind.</li> 
+         <li>Wenn dem Benutzer in seinem Profil kein Aufgabengebiet zugewiesen ist und im Dialogfeld [!UICONTROL Erweiterte Zuweisungen] eine Aufgabe als [!UICONTROL Aufgabenbesitzer] zugewiesen ist, wird dieses Aufgabengebiet angezeigt, wenn der Benutzer die Zeit bei der Aufgabe protokolliert.</li> 
         </ul> </p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Eingrenzen der Bearbeitung von Zeitblättern an Eigentümer und Administratoren]</td> 
-      <td> <p>Beschränken Sie die Bearbeitung auf die Inhaber von Zeitblättern und die Administratoren von [!DNL Workfront]. Wenn diese Option deaktiviert ist, können Timesheets auch wie folgt bearbeitet werden:</p> 
+      <td role="rowheader">[!UICONTROL Bearbeitung von Arbeitszeittabellen auf Eigentümer und Administratoren beschränken]</td> 
+      <td> <p>Bearbeitung auf Arbeitszeittabellen-Besitzer und [!DNL Workfront] beschränken. Wenn diese Option deaktiviert ist, können Arbeitszeittabellen auch wie folgt bearbeitet werden:</p> 
        <ul> 
-        <li> <p>Benutzer mit administrativem Zugriff auf Timesheets und Stunden in ihrer Zugriffsebene</p> </li> 
-        <li> <p>Timesheet-Genehmiger, wenn auf dem Timesheet "Kann Stunden bearbeiten"aktiviert ist</p> </li> 
-        <li> <p>Manager des Timesheet-Eigentümers</p> </li> 
+        <li> <p>Benutzer mit administrativem Zugriff auf Arbeitszeittabellen und Stunden in ihrer Zugriffsebene</p> </li> 
+        <li> <p>Arbeitszeittabellen-Genehmiger, wenn „Kann Stunden bearbeiten“ in der Arbeitszeittabelle aktiviert ist</p> </li> 
+        <li> <p>Der Manager des Arbeitszeittabellen-Besitzers</p> </li> 
        </ul> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
-      <td role="rowheader">[!UICONTROL Eingeschränkte Stundenbearbeitung für Eigentümer und Administratoren]</td> 
-      <td>Beschränken Sie die Bearbeitung auf den Benutzer, der die Stunden eingibt, und auf [!DNL Workfront] Administratoren. Diese Einstellung gilt für die Registerkarte [!UICONTROL Hours] in einem Projekt oder in einem Stundenbericht.</td> 
+      <td role="rowheader">[!UICONTROL Stundenbearbeitung auf Eigentümer und Administratoren beschränken]</td> 
+      <td>Bearbeitung auf die Benutzenden beschränken, die die Stunden eingeben, und Administratoren [!DNL Workfront]. Diese Einstellung gilt für die Registerkarte [!UICONTROL Stunden] in einem Projekt oder einem Stundenbericht.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Konfigurieren Sie im Abschnitt &quot;**[!UICONTROL Wo Benutzer die Zeit protokollieren können]**&quot;eine der folgenden Optionen:
+1. Konfigurieren **[!UICONTROL im Abschnitt „Wo Benutzer die Zeit]** können“ eine der folgenden Optionen:
 
    <table style="table-layout:auto">
     <tr>
-        <td>[!UICONTROL Direkt über Projekte]</td>
-        <td>Ermöglicht Benutzern die Protokollierung der Zeit im Projekt (sowohl auf der Registerkarte [!UICONTROL Updates] als auch auf dem Timesheet). Wenn Benutzer keine Zeit auf Projektebene aufzeichnen, sollten diese Optionen deaktiviert bleiben.</td>
+        <td>[!UICONTROL Direkt bei Projekten]</td>
+        <td>Ermöglicht es den Benutzern, die Zeit für das Projekt zu protokollieren (sowohl auf der Registerkarte [!UICONTROL Updates] als auch in der Arbeitszeittabelle). Wenn Benutzer die Zeit nicht auf Projektebene erfassen, sollten diese Optionen deaktiviert bleiben.</td>
     </tr>
     <tr>
         <td>[!UICONTROL Bei abgeschlossenen Projekten]</td>
-        <td>Ermöglicht Benutzern das Aufzeichnen der Zeit für ein Projekt, das als abgeschlossen gekennzeichnet wurde. Wenn diese Option deaktiviert ist, können Benutzer die Zeit für die Arbeit, die sie an Projekten abgeschlossen haben, nicht im Status [!UICONTROL Abgeschlossen] aufzeichnen.</td>
+        <td>Ermöglicht Benutzern das Aufzeichnen der Zeit für ein Projekt, das als abgeschlossen markiert wurde. Wenn diese Option deaktiviert ist, können Benutzer die Zeit nicht für die Arbeit aufzeichnen, die sie an Projekten mit dem Status [!UICONTROL Abgeschlossen] abgeschlossen haben.</td>
     </tr>
     <tr>
-        <td>[!UICONTROL Über verstorbene Projekte]</td>
-        <td>Wenn diese Option aktiviert ist, können Benutzer Stunden für Projekte mit dem Status [!UICONTROL Dead] protokollieren.</td>
+        <td>[!UICONTROL Für eingestellte Projekte]</td>
+        <td>Wenn diese Option aktiviert ist, können Benutzer Stunden in Projekten mit dem Status [!UICONTROL Dead] protokollieren.</td>
     </tr>
    </table>
 
-1. Konfigurieren Sie im Abschnitt **[!UICONTROL Vorfüllen von Timesheets]** eine der folgenden Optionen:
+1. Konfigurieren **[!UICONTROL im Abschnitt]** vorab ausfüllen eine der folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Arbeit, die innerhalb von] &lt;Anzahl der Wochen&gt; [!UICONTROL Arbeitsumfang des Zeitplans]</td> 
-      <td> <p>Definiert die Anzahl der Wochen vor und nach dem Datumsbereich des Zeitblatts, das Datum der dem Benutzer zugewiesenen Aufgaben und Probleme enthält.</p> 
+      <td role="rowheader">[!UICONTROL Arbeit, die innerhalb von] &lt;Anzahl der Wochen&gt; [!UICONTROL des Arbeitsbereichs der Arbeitszeittabelle] liegt</td> 
+      <td> <p>Definiert die Anzahl der Wochen vor und nach dem Datumsbereich der Arbeitszeittabelle, die dem Benutzer zugewiesene Daten von Aufgaben und Problemen enthält.</p> 
       <p>Die Standardeinstellung ist 1 Woche, und Sie können diesen Bereich auf 4 Wochen erweitern.</p> 
-      <p>Das bedeutet, dass das Timesheet mit Aufgaben und Problemen vorausgefüllt ist, die zwischen vier Wochen vor dem Datumsbereich des Zeitblatts und bis zu vier Wochen nach dem Datumsbereich des Zeitblatts liegen, wenn Sie für Ihren Bereich vier Wochen auswählen. </p> </td> 
+      <p>Das bedeutet, dass die Arbeitszeittabelle vorab mit Aufgaben und Problemen ausgefüllt wird, deren Termine zwischen vier Wochen vor dem Datumsbereich der Arbeitszeittabelle und bis zu vier Wochen nach dem Datumsbereich der Arbeitszeittabelle liegen, wenn Sie für Ihren Bereich 4 Wochen auswählen. </p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Aufgaben und abgeschlossene Probleme]</td> 
-      <td>Wenn normalerweise mehrere Ressourcen einer einzelnen Aufgabe zugewiesen sind, empfehlen wir diese Einstellung. Das bedeutet, dass die anderen Ressourcen, die der Aufgabe zugewiesen sind, die Aufgabe bzw. das Problem in ihrem Timesheet finden können, um ihre Stunden aufzuzeichnen, wenn eine Ressource die Zeit für die Aufgabe aufzeichnet und sie als abgeschlossen kennzeichnet.</td> 
+      <td role="rowheader">[!Abgeschlossene UICONTROL-Aufgaben und -Probleme]</td> 
+      <td>Wenn einer einzelnen Aufgabe normalerweise mehrere Ressourcen zugewiesen sind, empfehlen wir diese Einstellung. Wenn also eine Ressource die Zeit für einen Vorgang aufzeichnet und ihn als abgeschlossen markiert, können die anderen Ressourcen, die dem Vorgang zugewiesen sind, den Vorgang oder das Problem weiterhin in ihrer Arbeitszeittabelle finden, um ihre Stunden aufzuzeichnen.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Aufgaben und Probleme, bei denen im Datumsbereich des Datenblatts geplante Daten angegeben sind]</td> 
-      <td> <p>Wenn diese Option aktiviert ist, enthält das Timesheet Aufgaben und Probleme mit einem geplanten Startdatum oder einem geplanten Abschlussdatum, das in den Datumsbereich des Zeitblatts fällt.</p> </td> 
+      <td role="rowheader">[!UICONTROL Aufgaben und Probleme, für die im Datumsbereich der Arbeitszeittabelle geplante Termine liegen]</td> 
+      <td> <p>Wenn diese Option aktiviert ist, enthält die Arbeitszeittabelle Aufgaben und Probleme, die entweder ein geplantes Startdatum oder ein Abschlussdatum haben, das in den Datumsbereich der Arbeitszeittabelle fällt.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> [!UICONTROL Aufgaben, bei denen im Datumsbereich des Datenblatts die geplanten Daten angegeben sind]</td> 
-      <td> <p>Wenn diese Option aktiviert ist, enthält das Timesheet Aufgaben mit einem geplanten Startdatum oder Abschlussdatum, die innerhalb des Zeitrahmens des Projekts liegen, selbst wenn das geplante Datum des Problems oder der Aufgabe außerhalb des Zeitblatt-Datumsbereichs liegt.</p> </td> 
+      <td role="rowheader"> [!UICONTROL Aufgaben mit möglichen Terminen im Datumsbereich der Arbeitszeittabelle]</td> 
+      <td> <p>Wenn diese Option aktiviert ist, enthält die Arbeitszeittabelle Aufgaben mit einem voraussichtlichen Start- oder Abschlussdatum, die innerhalb des Zeitrahmens des Projekts liegen, auch wenn das geplante Datum des Problems oder der Aufgabe außerhalb des Datumsbereichs der Arbeitszeittabelle liegt.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Geben Sie im Abschnitt **[!UICONTROL Gelöschte Projekte, Aufgaben und Probleme]** Folgendes an:
+1. Geben **[!UICONTROL im Abschnitt „Gelöschte Projekte, Aufgaben und]**&quot; Folgendes an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -175,16 +175,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td role="rowheader"> Beim Löschen von Projekten</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Behalten Sie die bereits zu Timesheets hinzugefügte Protokollzeit als allgemeine Zeit bei]</strong>: Wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, bleibt die Zeit auf dem Timesheet.</li> 
-        <li><strong>[!UICONTROL Beliebige Zeit löschen]</strong>: Wenn dieses Projekt später wiederhergestellt wird, wird die bereits protokollierte Zeit wieder in das Projekt eingefügt.</li> 
+        <li><strong>[!UICONTROL Protokollierte Zeit beibehalten, die Arbeitszeittabellen bereits als allgemeine Zeit hinzugefügt wurde]</strong>: Wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, verbleibt die Zeit in der Arbeitszeittabelle.</li> 
+        <li><strong>[!UICONTROL Protokollierte Zeit löschen]</strong>: Wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, wird bereits protokollierte Zeit im Projekt wiederhergestellt.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beim Löschen von Aufgaben oder Problemen</td> 
       <td> 
        <ul> 
-        <li><strong>[!UICONTROL Verschieben Sie eine protokollierte Zeit in das Projekt]</strong>, in dem sich die Aufgabe oder das Problem befindet: Wenn diese Aufgabe oder dieses Problem später wiederhergestellt wird, bleibt die Zeit im Projekt.<br></li> 
-        <li> <p><strong>[!UICONTROL Beliebige Zeit löschen]</strong>: Wenn diese Aufgabe oder dieses Problem später wiederhergestellt wird, wird die protokollierte Zeit für die Aufgabe oder das Problem wiederhergestellt.</p> <p>Weitere Informationen zu diesen Optionen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL Auswirkungen konfigurieren] für Stunden, in denen ein Objekt gelöscht und wiederhergestellt wird</a>.</p> </li> 
+        <li><strong>[!UICONTROL Beliebige protokollierte Zeit in das Projekt verschieben]</strong> in dem sich die Aufgabe oder das Problem befindet: Wenn diese Aufgabe oder dieses Problem zu einem späteren Zeitpunkt wiederhergestellt wird, bleibt die Zeit im Projekt.<br></li> 
+        <li> <p><strong>[!UICONTROL Protokollierte Zeit löschen]</strong>: Wenn diese Aufgabe oder dieses Problem zu einem späteren Zeitpunkt wiederhergestellt wird, wird protokollierte Zeit in der Aufgabe oder dem Problem wiederhergestellt.</p> <p>Detailliertere Informationen zu diesen Optionen finden Sie unter <a href="../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md" class="MCXref xref">[!UICONTROL configure impact] für Stunden, an denen ein Objekt gelöscht und wiederhergestellt wird</a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
@@ -192,33 +192,33 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-## Zeitblatt- und Stundenvoreinstellungen für Gruppen entsperren
+## Arbeitszeittabelle und Stundeneinstellungen für Gruppen entsperren
 
-Gruppen in Ihrer Organisation benötigen möglicherweise Timesheets oder Stundenvoreinstellungen, die für ihre individuellen Workflows unterschiedlich konfiguriert sind. Sie können die Voreinstellungen für alle Gruppen in der Organisation entsperren, damit sie sie selbst konfigurieren können.
+Gruppen in Ihrer Organisation benötigen möglicherweise Arbeitszeittabellen oder Stundeneinstellungen, die für ihre spezifischen Workflows anders konfiguriert sind. Sie können die Voreinstellungen für alle Gruppen im gesamten Unternehmen entsperren, damit sie sie selbst konfigurieren können.
 
-Wenn eine Voreinstellung entsperrt ist und ein Gruppenadministrator sie ändert, wirkt sich dies auf die Inhaber von Zeitblättern aus, wenn es sich bei der Gruppe um ihre Startseite handelt.
+Wenn eine Voreinstellung entsperrt wird und ein Gruppenadministrator sie ändert, wirkt sich dies auf Arbeitszeittabellen-Besitzer aus, wenn die Gruppe ihre Hauptgruppe ist.
 
-Informationen dazu, wie ein Gruppenadministrator die Voreinstellungen für das Zeitblatt und die Stunde für eine Gruppe konfiguriert, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Informationen zum Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen durch Gruppenadmins für eine Gruppe finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
 >[!NOTE]
 >
->Nachdem ein [!DNL Workfront] -Administrator eine Voreinstellung auf Systemebene entsperrt hat, kann jeder Gruppenadministrator sie konfigurieren und sie dann sperren, um sicherzustellen, dass alle Mitglieder ihrer Gruppe und der unten stehenden Untergruppen dieselbe Konfiguration verwenden. Dies entspricht der Möglichkeit, dass ein [!DNL Workfront] -Administrator eine Voreinstellung für alle Benutzer im System konfigurieren und sperren muss. Weitere Informationen finden Sie unter [Vorgabe zum Sperren oder Entsperren eines Gruppen-Timesheets und einer Stunde](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
+>Nachdem ein [!DNL Workfront] eine Voreinstellung auf Systemebene entsperrt hat, kann sie jeder Gruppenadministrator konfigurieren und dann sperren, um sicherzustellen, dass alle Benutzer in seiner Gruppe und den Untergruppen unten dieselbe Konfiguration verwenden. Dies geschieht parallel zu der Möglichkeit, dass ein [!DNL Workfront]-Administrator eine Voreinstellung für alle im System konfigurieren und sperren muss. Weitere Informationen finden Sie unter [Sperren oder Entsperren einer Gruppenarbeitszeittabelle und Stundenvoreinstellung](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-timesheet-hour-preference.md).
 
 So entsperren Sie eine Projektvoreinstellung, damit Gruppen sie konfigurieren können:
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **[!UICONTROL Timesheets und Stunden]** und klicken Sie dann auf **[!UICONTROL Voreinstellungen]**.
+1. Klicken Sie im linken Bereich auf **[!UICONTROL Arbeitszeittabellen und Stunden]** und dann auf **[!UICONTROL Voreinstellungen]**.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, klicken Sie auf den Umschalter **Entsperren** , um sie zu entsperren.![](assets/unlock-toggle-button.png)
-   * Wenn Sie möchten, dass alle Gruppen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass der Umschalter &quot;![](assets/locked-preference-toggle.png)&quot;ist (dies ist die Standardeinstellung).
+   * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, klicken Sie auf den Umschalter **Entsperren** , um ![](assets/unlock-toggle-button.png) zu entsperren.
+   * Wenn alle Gruppen Ihre Konfiguration für eine Voreinstellung verwenden sollen, stellen Sie sicher, dass der Umschalter ![](assets/locked-preference-toggle.png) gesperrt ist (dies ist die Standardeinstellung).
 
      >[!IMPORTANT]
      >
-     >Es wird empfohlen, mit den Administratoren und Benutzern in Gruppen im gesamten System zu kommunizieren, um sicherzustellen, dass alle Anforderungen so berücksichtigt werden, wie Sie eine gesperrte Voreinstellung konfigurieren.
+     >Es wird empfohlen, mit den Administratoren und Benutzern in Gruppen im gesamten System zu kommunizieren, um sicherzustellen, dass alle Anforderungen in der Art und Weise berücksichtigt werden, wie Sie eine gesperrte Voreinstellung konfigurieren.
      >
-     >Wenn Sie sie sperren, wird Ihre Konfiguration für sie von allen Gruppen im System übernommen. Wenn die Voreinstellung für einen beliebigen Zeitraum entsperrt wurde, ersetzt Ihre Konfiguration die Einstellungen, die von Gruppenadministratoren vorgenommen wurden.
+     >Wenn Sie ihn sperren, wird die entsprechende Konfiguration von allen Gruppen im System übernommen. Und wenn die Voreinstellung für einen beliebigen Zeitraum entsperrt wurde, ersetzt Ihre Konfiguration die Konfigurationen, die Gruppenadministratoren möglicherweise vorgenommen haben.
 
 1. Klicken Sie auf **[!UICONTROL Speichern]**.

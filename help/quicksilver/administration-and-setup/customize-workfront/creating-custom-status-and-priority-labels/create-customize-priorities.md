@@ -1,6 +1,6 @@
 ---
 title: Erstellen und Anpassen von Prioritäten
-description: Im Einrichtungsbereich von Workfront können Sie die Prioritäten für Projekte, Aufgaben und Probleme festlegen. Prioritäten geben Ihren Projekten, Aufgaben oder Problemen in Adobe Workfront Priorität.
+description: Sie können die Prioritäten für Projekte, Aufgaben und Probleme im Bereich Setup von Workfront steuern. Prioritäten geben Ihren Projekten, Aufgaben oder Problemen in Adobe Workfront Bedeutung.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -18,11 +18,11 @@ ht-degree: 2%
 DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-Im Einrichtungsbereich von Workfront können Sie die Prioritäten für Projekte, Aufgaben und Probleme festlegen. Prioritäten geben Ihren Projekten, Aufgaben oder Problemen in Adobe Workfront Priorität.
+Sie können die Prioritäten für Projekte, Aufgaben und Probleme im Bereich Setup von Workfront steuern. Prioritäten geben Ihren Projekten, Aufgaben oder Problemen in Adobe Workfront Bedeutung.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,8 +31,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -43,28 +43,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anpassung vorhandener Prioritäten
+## Anpassen vorhandener Prioritäten
 
 Als Workfront-Administrator können Sie die folgenden Änderungen an den in Workfront bereitgestellten Standardprioritäten vornehmen:
 
-* Umbenennen von Prioritäten.
-* Neuordnung der Prioritäten.
+* Prioritäten umbenennen.
+* Die Prioritäten neu anordnen.
 
-  Weitere Informationen zum Neuanordnen von Prioritäten finden Sie unter [Erstellen einer Priorität für eine Projektaufgabe oder Problem](#create-a-priority-for-a-project-task-or-issue).
+  Weitere Informationen zur Neuanordnung von Prioritäten finden Sie unter [Erstellen einer Priorität für eine Projektaufgabe oder ein Problem](#create-a-priority-for-a-project-task-or-issue).
 
-* Ändern Sie die Standardpriorität.
+* Standardpriorität ändern.
 
-  Weitere Informationen zur Funktion zum Ändern der Standardpriorität finden Sie unter [Erstellen einer Priorität für eine Projektaufgabe oder Problem](#create-a-priority-for-a-project-task-or-issue).
+  Weitere Informationen zur Funktionalität zum Ändern der Standardpriorität finden Sie unter [Erstellen einer Priorität für eine Projektaufgabe oder ein Problem](#create-a-priority-for-a-project-task-or-issue).
 
 * Bearbeiten Sie die Beschreibung der Prioritäten.
 * Legen Sie für jede Priorität eine Farbe fest.
@@ -77,13 +77,13 @@ Als Workfront-Administrator können Sie die folgenden Änderungen an den in Work
 
   Wenn Sie eine vorhandene Priorität löschen, müssen Sie eine Ersatzpriorität auswählen.
 
-* Ausblenden von Prioritäten.
+* Prioritäten ausblenden.
 
-  Weitere Informationen zur Funktion zum Ausblenden von Prioritäten finden Sie unter [Erstellen einer Priorität für eine Projektaufgabe oder Problem](#create-a-priority-for-a-project-task-or-issue).
+  Weitere Informationen zur Funktion zum Ausblenden von Prioritäten finden Sie unter [Erstellen einer Priorität für eine Projektaufgabe oder ein Problem](#create-a-priority-for-a-project-task-or-issue).
 
   >[!NOTE]
   >
-  >Sie müssen für jedes Objekt mindestens eine Priorität in Ihrem Workfront-Konto haben.
+  >In Ihrem Workfront-Konto muss für jedes Objekt mindestens eine Priorität vorhanden sein.
 
 Die standardmäßig für jeden Objekttyp (Projekt, Aufgabe und Problem) bereitgestellten Prioritäten sind identisch:
 
@@ -95,15 +95,15 @@ Die standardmäßig für jeden Objekttyp (Projekt, Aufgabe und Problem) bereitge
 
 ## Erstellen einer Priorität für eine Projektaufgabe oder ein Problem {#create-a-priority-for-a-project-task-or-issue}
 
-Zusätzlich zu den Standardprioritäten, die in Workfront bereitgestellt werden, können Sie Ihre eigenen Prioritäten hinzufügen, um die Anforderungen Ihres Unternehmens zu berücksichtigen.
+Zusätzlich zu den in Workfront bereitgestellten Standardprioritäten können Sie entsprechend den Anforderungen Ihres Unternehmens eigene Prioritäten hinzufügen.
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Projekteinstellungen** > **Prioritäten**.
+1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen** > **Prioritäten**.
 
 1. Klicken Sie auf die Registerkarte für den Objekttyp, für den Sie eine Priorität erstellen möchten (**Projekt**, **Aufgabe** oder **Problem**).
-1. Klicken Sie auf **Neue Priorität hinzufügen**.
-1. Geben Sie die folgenden Informationen für die neue Priorität an:
+1. Klicken Sie **Neue Priorität hinzufügen**.
+1. Geben Sie folgende Informationen für die neue Priorität an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -115,25 +115,25 @@ Zusätzlich zu den Standardprioritäten, die in Workfront bereitgestellt werden,
      </tr> 
      <tr> 
       <td role="rowheader">Wichtigkeit</td> 
-      <td> <p>Beim Hinzufügen einer neuen Priorität wird ihr standardmäßig eine Zahl zugewiesen. Bearbeiten Sie diese Zahl, wenn sie nicht Ihren Anforderungen entspricht.</p> <p>Die Nummer <strong>Wichtigkeit</strong> für jede Priorität muss für das ausgewählte Objekt eindeutig sein.<br>Die Prioritätsnummer spiegelt die Wichtigkeit des Projekts, der Aufgabe oder des Problems wider: Die höchste Zahl entspricht der höchsten Priorität.</p> <p><b>HINWEIS</b>: Sie können die Wichtigkeitsnummer nach dem Speichern der Priorität nicht bearbeiten. </p> </td> 
+      <td> <p>Beim Hinzufügen einer neuen Priorität wird ihr standardmäßig eine Zahl zugewiesen. Bearbeiten Sie diese Nummer, wenn sie nicht Ihren Anforderungen entspricht.</p> <p>Die <strong>Wichtigkeit</strong> für jede Priorität muss für das ausgewählte Objekt eindeutig sein.<br>Die Zahl der Priorität spiegelt die Bedeutung des Projekts, der Aufgabe oder des Problems wider: Die höchste Zahl entspricht der höchsten Priorität.</p> <p><b>HINWEIS</b>: Die Wichtigkeitsnummer kann nach dem Speichern der Priorität nicht mehr bearbeitet werden. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Farbe</td> 
-      <td> <p>Wählen Sie eine Farbe für Ihre Priorität aus.</p> <p>Die Farbe der Priorität wird in Diagrammberichten und Agile Team Settings verwendet. Weitere Informationen zu Diagrammberichten finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Hinzufügen eines Diagramms zu einem Bericht</a>.</p> <p>Weitere Informationen zu den Agile-Team-Einstellungen finden Sie unter .</p> </td> 
+      <td> <p>Wählen Sie eine Farbe für Ihre Priorität.</p> <p>Die Farbe der Priorität wird in Diagrammberichten und Agile-Team-Einstellungen verwendet. Weitere Informationen zu Diagrammberichten finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Hinzufügen eines Diagramms zu einem Bericht</a>.</p> <p>Weitere Informationen zu Agile-Team-Einstellungen finden Sie unter in .</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Standardpriorität</td> 
-      <td> <p>Entscheiden Sie, ob dies eine Standardpriorität sein soll, indem Sie das Optionsfeld auswählen.</p> <p>Wenn eine Priorität als <strong>Standardpriorität</strong> festgelegt ist, wird sie automatisch für alle Projekte, Aufgaben oder Probleme in Workfront ausgewählt. <strong>Normal</strong> ist die Standardpriorität für alle Objekte in Workfront.</p> </td> 
+      <td> <p>Entscheiden Sie, ob dies eine Standardpriorität sein soll, indem Sie das Optionsfeld auswählen.</p> <p>Wenn eine Priorität als <strong>Standardpriorität“ festgelegt </strong>, wird sie automatisch für alle Projekte, Aufgaben oder Probleme in Workfront ausgewählt. <strong>Normal</strong> ist die Standardpriorität für alle Objekte in Workfront.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td>Fügen Sie eine Beschreibung für Ihre Priorität hinzu, um ihre Funktion zu erläutern.</td> 
+      <td>Fügen Sie eine Beschreibung für Ihre Priorität hinzu, um ihre Funktion zu erklären.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ausblenden</td> 
-      <td> <p>Aktivieren Sie dieses Kontrollkästchen, wenn Sie die Priorität ausblenden möchten.</p><p>Wenn Sie die Option <b>Ausblenden</b> auswählen, wird die Priorität nirgendwo in Workfront angezeigt und die Benutzer können sie nicht für ihre Projekte, Aufgaben und Probleme auswählen.</p> 
-      <p><b>WICHTIG</b>: Wir empfehlen, die Prioritäten, die Sie nicht mehr verwenden möchten, auszublenden, anstatt sie zu löschen. Wenn Sie sie ausblenden, behalten Sie immer noch alle historischen Daten von Objekten, die mit dieser Priorität ausgefüllt wurden, und verhindern gleichzeitig, dass Menschen diese Priorität in Zukunft wählen. </p>
-      <p>Optional können Sie die Reihenfolge der Prioritäten ändern, indem Sie sie in die gewünschte Reihenfolge ziehen und dort ablegen. Dadurch wird die Reihenfolge geändert, in der sie für Projekte, Aufgaben und Probleme angezeigt werden. Die Zahl <b>Wichtigkeit</b> wird dadurch nicht geändert. </p></td> 
+      <td> <p>Aktivieren Sie dieses Kontrollkästchen, wenn Sie die Priorität ausblenden möchten.</p><p>Wenn Sie die Option <b>Ausblenden</b> auswählen, wird die Priorität an keiner Stelle in Workfront angezeigt und die Benutzenden können sie nicht für ihre Projekte, Aufgaben und Probleme auswählen.</p> 
+      <p><b>WICHTIG</b>: Es wird empfohlen, die Prioritäten, die Sie nicht mehr verwenden möchten, auszublenden und nicht zu löschen. Wenn Sie sie ausblenden, behalten Sie alle historischen Daten von Objekten, die mit dieser Priorität abgeschlossen wurden, während Sie die Leute daran hindern, diese Priorität in der Zukunft zu wählen. </p>
+      <p>Optional können Sie die Listenreihenfolge Ihrer Prioritäten ändern, indem Sie sie per Drag-and-Drop in die gewünschte Reihenfolge ziehen. Dadurch wird die Reihenfolge geändert, in der sie für Projekte, Aufgaben und Probleme angezeigt werden. Dies ändert nichts an der Zahl <b>Wichtigkeit</b>. </p></td> 
      </tr> 
     </tbody> 
    </table>
@@ -142,6 +142,6 @@ Zusätzlich zu den Standardprioritäten, die in Workfront bereitgestellt werden,
 
 Anweisungen zur Anwendung von Prioritäten auf Projekte, Aufgaben und Probleme finden Sie in den folgenden Artikeln:
 
-* [Grundlegendes zu und Aktualisieren von Projektprioritäten](../../../manage-work/projects/planning-a-project/project-priority.md)
+* [Projektprioritäten verstehen und aktualisieren](../../../manage-work/projects/planning-a-project/project-priority.md)
 * [Aufgabenpriorität aktualisieren](../../../manage-work/tasks/task-information/task-priority.md)
-* [Priorität von Problemen aktualisieren](../../../manage-work/issues/issue-information/update-issue-priority.md)
+* [Anfragepriorität aktualisieren](../../../manage-work/issues/issue-information/update-issue-priority.md)

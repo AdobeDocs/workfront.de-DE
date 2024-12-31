@@ -3,7 +3,7 @@ title: Deaktivieren oder Reaktivieren eines benutzerdefinierten Formulars
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Sie können ein benutzerdefiniertes Formular reaktivieren oder deaktivieren. Es wird empfohlen, benutzerdefinierte Formulare zu deaktivieren, anstatt Formulare zu löschen, die Sie nicht mehr verwenden, um historische Daten beizubehalten.
+description: Sie können ein benutzerdefiniertes Formular erneut aktivieren oder deaktivieren. Es wird empfohlen, benutzerdefinierte Formulare zu deaktivieren, anstatt Formulare zu löschen, die Sie nicht mehr zur Aufbewahrung historischer Daten verwenden.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -15,27 +15,27 @@ ht-degree: 0%
 
 ---
 
-# Deaktivieren oder reaktivieren Sie ein benutzerdefiniertes Formular
+# Deaktivieren oder Reaktivieren eines benutzerdefinierten Formulars
 
-Sie können ein benutzerdefiniertes Formular reaktivieren oder deaktivieren. Es wird empfohlen, benutzerdefinierte Formulare zu deaktivieren, anstatt Formulare zu löschen, die Sie nicht mehr verwenden, um historische Daten beizubehalten.
+Sie können ein benutzerdefiniertes Formular erneut aktivieren oder deaktivieren. Es wird empfohlen, benutzerdefinierte Formulare zu deaktivieren, anstatt Formulare zu löschen, die Sie nicht mehr zur Aufbewahrung historischer Daten verwenden.
 
 >[!NOTE]
 >
->Wenn ein benutzerdefiniertes Formular deaktiviert ist, aber weiterhin Teil eines Warteschlangenthemas oder einer Anforderungswarteschlangendefinition ist, wird es an neue Anforderungen angehängt. Wenn das Formular nicht in den Anforderungen enthalten sein soll, müssen Sie es manuell aus der Anforderungswarteschlange entfernen.
+>Wenn ein benutzerdefiniertes Formular deaktiviert ist, aber weiterhin Teil eines Warteschlangenthemas oder einer Anfrage-Warteschlangendefinition ist, wird es an neue Anfragen angehängt. Wenn Sie nicht möchten, dass das Formular in den Anfragen enthalten ist, müssen Sie es manuell aus der Anfragewarteschlange entfernen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -45,36 +45,36 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Deaktivieren eines benutzerdefinierten Formulars
 
-Sie können nicht mehr verwendete benutzerdefinierte Formulare deaktivieren, ohne die zugehörigen historischen Daten zu verlieren. Benutzer können Objekten zwar kein inaktives benutzerdefiniertes Formular hinzufügen, sie können jedoch trotzdem Daten zu Objekten, an denen es bereits angehängt war, anzeigen und zu ihren Feldern hinzufügen.
+Sie können benutzerdefinierte Formulare, die Sie nicht mehr verwenden, deaktivieren, ohne die zugehörigen historischen Daten zu verlieren. Benutzende können kein inaktives benutzerdefiniertes Formular zu Objekten hinzufügen, sie können jedoch weiterhin Daten zu den Feldern von Objekten anzeigen und hinzufügen, an die es bereits angehängt war.
 
-Felder in einem inaktiven benutzerdefinierten Formular können auch in einer Ansicht inline bearbeitet werden. Wenn ein Benutzer während einer Inline-Bearbeitung ein Feld aus einem inaktiven benutzerdefinierten Formular hinzufügt, wird das Formular automatisch an das Objekt angehängt, auch wenn das benutzerdefinierte Formular deaktiviert ist.
+Felder in einem inaktiven benutzerdefinierten Formular können in einer Ansicht weiterhin inline bearbeitet werden. Wenn ein(e) Benutzende(r) während einer Inline-Bearbeitung ein Feld aus einem inaktiven benutzerdefinierten Formular hinzufügt, wird das Formular automatisch an das Objekt angehängt, auch wenn das benutzerdefinierte Formular deaktiviert ist.
 
-So deaktivieren Sie ein benutzerdefiniertes Formular:
+Deaktivieren eines benutzerdefinierten Formulars:
 
 {{step-1-to-setup}}
 
-1. Wählen Sie im linken Bereich **Benutzerdefinierter Forms** aus.
+1. Wählen Sie im linken Bedienfeld **Benutzerdefinierte Forms**.
 1. Wählen Sie im Bereich **Forms** das benutzerdefinierte Formular aus, das Sie deaktivieren möchten.
-1. Wählen Sie in der Spalte Ist aktiv die Option **False** aus und klicken Sie aus der Spalte. Das Formular ist nicht mehr aktiv.
+1. Wählen Sie in der Spalte „Ist aktiv **die Option &quot;**&quot; und klicken Sie aus der Spalte heraus. Das Formular ist nicht mehr aktiv.
 
-## Benutzerdefiniertes Formular erneut aktivieren
+## Reaktivieren eines benutzerdefinierten Formulars
 
-Wenn Sie ein benutzerdefiniertes Formular reaktivieren, werden die zuvor vorhandenen Einstellungen beibehalten und die Benutzer können mit dem Formular so interagieren, als wäre es nie deaktiviert.
+Wenn Sie ein benutzerdefiniertes Formular erneut aktivieren, werden die Einstellungen beibehalten, die es zuvor hatte, und Benutzende können mit ihm so interagieren, als ob es nie deaktiviert worden wäre.
 
 {{step-1-to-setup}}
 
-1. Wählen Sie im linken Bereich **Benutzerdefinierter Forms** aus.
-1. Wählen Sie im Bereich **Forms** das benutzerdefinierte Formular aus, das Sie reaktivieren möchten.
-1. Wählen Sie in der Spalte Ist aktiv die Option **True** aus und klicken Sie aus der Spalte. Das Formular ist jetzt aktiv.
+1. Wählen Sie im linken Bedienfeld **Benutzerdefinierte Forms**.
+1. Wählen Sie im Bereich **Forms** das benutzerdefinierte Formular aus, das Sie erneut aktivieren möchten.
+1. Wählen Sie in der Spalte Ist aktiv **True** und klicken Sie aus der Spalte heraus. Das Formular ist jetzt aktiv.

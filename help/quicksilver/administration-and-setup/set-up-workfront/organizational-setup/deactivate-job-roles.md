@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
-title: Bearbeitungsrollen deaktivieren
-description: Als [!DNL Adobe Workfront] Administrator oder Benutzer mit administrativem Zugriff auf "Vorgangsrollen"können Sie Aufgabenrollen deaktivieren, die in Ihrem System veraltet sind. Wenn Sie eine Auftragsrolle deaktivieren, anstatt sie zu löschen, können Sie alle zugehörigen historischen Informationen beibehalten.
+title: Aufgabengebiete deaktivieren
+description: Als  [!DNL Adobe Workfront]  oder Benutzer mit administrativem Zugriff auf Aufgabengebiete können Sie Aufgabengebiete deaktivieren, die in Ihrem System veraltet sind. Wenn Sie ein Aufgabengebiet deaktivieren, anstatt es zu löschen, können Sie alle historischen Informationen beibehalten, die mit ihm verknüpft sind.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 ---
 
-# Deaktivieren von Vorgangsrollen
+# Aufgabengebiete deaktivieren
 
-Als [!DNL Adobe Workfront] -Administrator oder Benutzer mit administrativem Zugriff auf &quot;Vorgangsrollen&quot;können Sie Stellenrollen deaktivieren, die in Ihrem System veraltet sind. Wenn Sie eine Auftragsrolle deaktivieren, anstatt sie zu löschen, können Sie alle zugehörigen historischen Informationen beibehalten.
+Als [!DNL Adobe Workfront] oder Benutzer mit administrativem Zugriff auf Aufgabengebiete können Sie Aufgabengebiete deaktivieren, die in Ihrem System veraltet sind. Wenn Sie ein Aufgabengebiet deaktivieren, anstatt es zu löschen, können Sie alle historischen Informationen beibehalten, die mit ihm verknüpft sind.
 
-Sie können auch zuvor deaktivierte Vorgangsrollen reaktivieren.
+Sie können auch Aufgabengebiete reaktivieren, die zuvor deaktiviert wurden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -43,79 +43,79 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td>Administratorzugriff auf Auftragsrollen</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Administrativer Zugriff auf Aufgabengebiete</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Auswirkungen der Deaktivierung von Vorgangsrollen
+## Die Auswirkungen der Deaktivierung von Aufgabengebieten
 
-Wenn Sie eine Auftragsrolle deaktivieren, wird sie nicht mehr in den folgenden Bereichen angezeigt:
+Wenn Sie ein Aufgabengebiet deaktivieren, wird es nicht mehr in den folgenden Bereichen angezeigt:
 
-* Das typeahead-Feld [!UICONTROL Zuweisungen] (für Aufgaben, Vorlagenaufgaben, Probleme, Genehmigungen und Routing-Regeln)
-* Die Felder [!UICONTROL Zuweisungen] in Listen und Berichten
+* Das Feld [!UICONTROL Arbeitsaufträge] mit automatischer Textvervollständigung (für Aufgaben, Vorlagenaufgaben, Probleme, Genehmigungen und Routing-Regeln)
+* Die [!UICONTROL Arbeitsaufträge] Felder in Listen und Berichten
 * Benutzerprofile
 
   >[!NOTE]
   >
-  >Wenn Sie einem Benutzer eine neue Rolle hinzufügen, wird keine deaktivierte Auftragsrolle angezeigt. Sie wird jedoch weiterhin in den Feldern [!UICONTROL Primäre Rolle] und [!UICONTROL Andere Rollen] angezeigt, wenn der Benutzer mit der Auftragsrolle verknüpft war, bevor sie deaktiviert wurde.
+  >Wenn Sie einem Benutzer eine neue Rolle hinzufügen, wird ein deaktiviertes Aufgabengebiet nicht angezeigt. Er wird jedoch weiterhin in den Feldern [!UICONTROL Primäre Rolle] und [!UICONTROL Andere Rollen] angezeigt, wenn der/die Benutzende mit dem Aufgabengebiet verknüpft war, bevor es deaktiviert wurde.
 
-* Das Dialogfeld [!UICONTROL Freigabe] für Objekte, einschließlich der Zuweisung von Layoutvorlagen
-* Felder mit Schreibvorgängen in benutzerdefinierten Formularen
-* Das Feld [!UICONTROL Poolmitglieder] in [!UICONTROL Ressourcenpools]
-* Das Feld [!UICONTROL Auftragsrolle] auf einem Bearbeitungsbildschirm für die [!UICONTROL Abrechnungsrate] , wenn ein Benutzer die Abrechnungsraten für Projekte außer Kraft setzt
-* Dialogfeld [!UICONTROL Zuweisung zur Kanban-Pinnwand hinzufügen] in einem Projekt
-* Das Feld [!UICONTROL Auftragsrolle] eines Plans oder einer Initiative, wenn jemand die [!DNL Adobe Workfront Scenario Planner] verwendet.
+* Das Dialogfeld [!UICONTROL Freigabe] für Objekte, einschließlich der Zuweisung von Layout-Vorlagen
+* Felder mit automatischer Textvervollständigung in benutzerdefinierten Formularen
+* Das Feld [!UICONTROL Pool-Mitglieder] in [!UICONTROL Ressourcenpools]
+* Das Feld [!UICONTROL Aufgabengebiet] eines Bearbeitungsbildschirms [!UICONTROL Abrechnungssatz], wenn ein Benutzer Abrechnungssätze für Projekte überschreibt
+* Das [!UICONTROL  „Zuweisung zu Kanban-Board hinzufügen] in einem Projekt
+* Das [!UICONTROL Aufgabengebiet] eines Plans oder einer Initiative, wenn jemand die [!DNL Adobe Workfront Scenario Planner] verwendet.
 
-  Die [!DNL Scenario Planner] ist nur im neuen [!DNL Adobe Workfront] -Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum [!DNL Workfront Scenario Planner] finden Sie unter [Überblick [!DNL Scenario Planner] 3}.](../../../scenario-planner/scenario-planner-overview.md)
+  Die [!DNL Scenario Planner] ist nur in der neuen [!DNL Adobe Workfront] verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum [!DNL Workfront Scenario Planner] finden Sie unter [Die [!DNL Scenario Planner] Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
 >[!TIP]
 >
->Deaktivierte Rollen werden immer in Filtern in Listen, Berichten und anderen Werkzeugen wie dem [!UICONTROL Arbeitslast-Ausgleich] angezeigt.
+>Deaktivierte Rollen werden immer in Filtern in Listen, Berichten und anderen Tools wie dem [!UICONTROL Workload Balancer) ].
 
-## Überlegungen zum Deaktivieren einer Stellenrolle
+## Überlegungen vor der Deaktivierung eines Aufgabengebiets
 
-Es ist besser, veraltete Vorgangsrollen zu deaktivieren, anstatt sie zu löschen, damit Sie alle historischen Informationen beibehalten können, die mit Rollen verknüpft sind, die Sie in der Vergangenheit verwendet haben.
+Es ist besser, veraltete Aufgabengebiete zu deaktivieren als zu löschen, damit Sie alle historischen Informationen zu Funktionen behalten können, die Sie in der Vergangenheit möglicherweise verwendet haben.
 
 >[!NOTE]
 >
->Alle Arbeiten, die der Auftragsrolle vor der Deaktivierung zugewiesen wurden, bleiben zugewiesen.
+>Jede Arbeit, die dem Aufgabengebiet vor der Deaktivierung zugewiesen wurde, bleibt zugewiesen.
 
-Es wird empfohlen, folgende Schritte durchzuführen, bevor Sie eine nicht verwendete Vorgangsrolle deaktivieren:
+Es wird empfohlen, Folgendes zu tun, bevor Sie ein nicht verwendetes Aufgabengebiet deaktivieren:
 
-* Erstellen Sie Berichte für alle Objekte, die der Rolle zugewiesen sind, die Sie deaktivieren möchten, und weisen Sie sie einer aktiven Auftragsrolle zu. Informationen zum Erstellen von Berichten finden Sie unter [Erstellen eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
-
-  >[!TIP]
-  >
-  >Sie können einen Bericht erstellen, um nach Aufgaben oder Problemen zu filtern, denen die deaktivierte Rolle zugewiesen ist. Verwenden Sie dann den Bericht, um ausstehende Aufgaben oder Probleme einer aktiven Rolle zuzuweisen.
-
-* Nehmen Sie eine Bestandsaufnahme aller Genehmigungsprozesse, aktuellen Genehmigungspfade, Routing-Regeln oder anderer Objekte vor, die der Stellenrolle zugewiesen sind, die Sie deaktivieren möchten, und weisen Sie sie einer aktiven Rolle zu.
+* Erstellen Sie Berichte für alle Objekte, die der Rolle zugewiesen sind, die Sie deaktivieren möchten, und weisen Sie sie einem aktiven Aufgabengebiet zu. Informationen zum Erstellen von Berichten finden Sie [Erstellen eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
   >[!TIP]
   >
-  >Wenn Sie bei Verwendung von Anforderungswarteschlangen eine Auftragsrolle deaktivieren, die in einer Routing-Regel als Standardverantwortlicher zugewiesen ist, bleibt die Rolle erhalten und die Anforderungen werden weiterhin an die deaktivierte Rolle weitergeleitet. Es wird empfohlen, Routing-Regeln mit aktiven Rollen zu aktualisieren, bevor Sie das Team deaktivieren.
+  >Sie können einen Bericht erstellen, um nach allen Aufgaben oder Problemen zu filtern, denen die deaktivierte Rolle zugewiesen ist. Verwenden Sie dann den Bericht, um ausstehende Aufgaben oder Probleme einer aktiven Rolle zuzuweisen.
+
+* Erfassen Sie eine Bestandsaufnahme aller Genehmigungsprozesse, aktuellen Genehmigungspfade und Routingregeln oder anderer Objekte, die dem Aufgabengebiet zugewiesen sind, das Sie deaktivieren möchten, und weisen Sie sie einer aktiven Funktion zu.
+
+  >[!TIP]
+  >
+  >Wenn Sie bei Verwendung von Anfrage-Warteschlangen ein Aufgabengebiet deaktivieren, das in einer Routing-Regel als standardmäßiger Beauftragter zugewiesen ist, bleibt die Rolle bestehen und Anfragen werden weiterhin an die deaktivierte Rolle weitergeleitet. Es wird empfohlen, Routing-Regeln mit aktiven Rollen zu aktualisieren, bevor Sie das Team deaktivieren.
 
   Informationen zum Erstellen von Genehmigungsprozessen und Routing-Regeln finden Sie in den folgenden Artikeln:
 
    * [Einen Genehmigungsprozess für Arbeitselemente erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md)
-   * [Erstellen von Routing-Regeln](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
+   * [Routingregeln erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md)
 
-## Deaktivieren einer Stellenrolle
+## Aufgabengebiet deaktivieren
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf &#x200B; **[!UICONTROL Vorgangsrollen].**
-1. (Optional) Wählen Sie im Dropdown-Menü **[!UICONTROL Filter]** die Option **[!UICONTROL Aktiv]** aus, um nur aktive Auftragsrollen anzuzeigen.
-1. Klicken Sie auf den Namen der Auftragsrolle, die Sie deaktivieren möchten.
-1. Wählen Sie im Dropdownmenü **[!UICONTROL Ist aktiv]** die Option **[!UICONTROL Nein]** aus.
+1. Klicken Sie im linken Bedienfeld auf &#x200B;**[!UICONTROL Aufgabengebiete].**
+1. (Optional) Wählen Sie im Dropdown **[!UICONTROL Menü]** Filter **[!UICONTROL die Option „Aktiv]** aus, um nur aktive Aufgabengebiete anzuzeigen.
+1. Klicken Sie auf den Namen des Aufgabengebiets, das Sie deaktivieren möchten.
+1. Wählen Sie im Dropdown **[!UICONTROL Menü]** Ist aktiv“ die Option **[!UICONTROL Nein]** aus.
 
    ![](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 
-   Die Auftragsrolle ist deaktiviert und kann nicht mehr der Arbeit zugewiesen werden, mit Layoutvorlagen verknüpft sind usw. Weitere Informationen zu allen Verwendungen von Auftragsrollen in [!DNL Workfront] finden Sie unter [Übersicht über Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).
+   Das Aufgabengebiet ist deaktiviert und kann nicht mehr der Arbeit zugewiesen und mit Layout-Vorlagen verknüpft werden usw. Informationen zu allen Verwendungen von Aufgabengebieten in [!DNL Workfront] finden Sie unter [Aufgabengebiet - Übersicht](../../../administration-and-setup/set-up-workfront/organizational-setup/job-role-overview.md).

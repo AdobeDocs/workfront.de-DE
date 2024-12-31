@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Erstellen und Ändern von Zeitplänen einer Gruppe
-description: Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie die Zeitpläne anzeigen und bearbeiten, auf die die Administratoren der Gruppe oder einer ihrer Untergruppen Administratorzugriff haben.
+title: Erstellen und Ändern der Zeitpläne einer Gruppe
+description: Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie die Zeitpläne anzeigen und mit ihnen arbeiten, für die die Administratoren der Gruppe oder einer ihrer Untergruppen administrativen Zugriff haben.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -17,23 +17,23 @@ ht-degree: 0%
 
 # Erstellen und Ändern der Zeitpläne einer Gruppe
 
-Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie die Zeitpläne anzeigen und bearbeiten, auf die die Administratoren der Gruppe oder einer ihrer Untergruppen Administratorzugriff haben.
+Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie die Zeitpläne anzeigen und mit ihnen arbeiten, für die die Administratoren der Gruppe oder einer ihrer Untergruppen administrativen Zugriff haben.
 
-Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
+Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
 Allgemeine Informationen zum Erstellen und Bearbeiten eines Zeitplans finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
 >[!NOTE]
 >
->Gruppenadministratoren und Benutzer mit einer Planungslizenz, die andere Benutzer bearbeiten können, können einem anderen Benutzer einen Plan auf Systemebene oder Gruppenebene hinzufügen, wenn sie das Profil dieses Benutzers bearbeiten.
+>Gruppenadministratoren und Benutzer mit einer Planlizenz, die andere Benutzer bearbeiten können, können einem anderen Benutzer einen Zeitplan auf Systemebene oder Gruppenebene hinzufügen, wenn sie das Profil dieses Benutzers bearbeiten.
 
-Informationen zur Verwendung von Zeitplänen in der Ressourcenplanung finden Sie unter [Zeitplanübersicht](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) und [Ressourcenplanübersicht](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
+Informationen zur Verwendung von Zeitplänen in der Ressourcenplanung finden Sie unter [Zeitpläne - Übersicht](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/schedules-overview.md) und [Ressourcenplaner - Übersicht](/help/quicksilver/resource-mgmt/resource-planning/get-started-resource-planner.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,31 +41,31 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">einem Benutzer uneingeschränkten Administratorzugriff gewähren</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie wissen möchten, über welchen Plan oder Lizenztyp Sie verfügen.
 
 +++
 
-## Erstellen oder Ändern von Zeitplänen für eine Gruppe
+## Zeitpläne für eine Gruppe erstellen oder ändern
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Gruppen**.
+1. Klicken Sie **Gruppen**.
 
-   In der angezeigten Liste können Sie die von Ihnen verwalteten Gruppen sowie die darin enthaltenen Untergruppen sehen. Adobe Workfront-Administratoren können alle Gruppen sehen.
+   In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
-1. Klicken Sie auf den Namen der Gruppe, in der Sie Zeitpläne anzeigen möchten.
-1. Klicken Sie im linken Bereich auf **Zeitpläne**.
+1. Klicken Sie auf den Namen der Gruppe, für die Sie Zeitpläne anzeigen möchten.
+1. Klicken Sie im linken Bedienfeld auf **Zeitpläne**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **Neuer Zeitplan** , um einen neuen Zeitplan zu erstellen.
-   * Wählen Sie einen Zeitplan aus und verwenden Sie dann die Steuerelemente in der Symbolleiste, um ihn zu **bearbeiten**, **Kopieren** oder **Löschen**.
-   * **Exportieren** Sie die Liste der Zeitpläne für die Gruppe.
+   * Klicken Sie **Neuer Zeitplan**, um einen neuen Zeitplan zu erstellen
+   * Wählen Sie einen Zeitplan aus und verwenden Sie dann die Steuerelemente auf der Symbolleiste **um ihn**, **Kopieren** oder **Löschen**.
+   * **Exportieren** Die Liste der Zeitpläne für die Gruppe.

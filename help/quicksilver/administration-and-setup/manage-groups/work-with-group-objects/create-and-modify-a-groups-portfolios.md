@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Erstellen und Ändern von Portfolios einer Gruppe
-description: Wenn Sie als Gruppenadministrator eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie die zugehörigen Portfolios anzeigen und damit arbeiten.
+title: Erstellen und Ändern der Portfolios einer Gruppe
+description: Wenn Sie als Gruppenadministrator eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie deren Portfolios anzeigen und mit ihnen arbeiten.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -17,15 +17,15 @@ ht-degree: 1%
 
 # Erstellen und Ändern der Portfolios einer Gruppe
 
-Wenn Sie eine Gruppe anzeigen, die Sie im Bereich &quot;Gruppen&quot;verwalten, können Sie deren Portfolios anzeigen und damit arbeiten.
+Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie ihre Portfolios anzeigen und mit ihnen arbeiten.
 
-Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
+Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,31 +33,31 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">einem Benutzer uneingeschränkten Administratorzugriff gewähren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Das Portfolio muss mit der Gruppe oder einer ihrer Untergruppen verknüpft sein.</p> <p>Außerdem müssen Sie über die Berechtigungen zum Anzeigen des Portfolios verfügen, entweder weil Sie es erstellt haben oder es für Sie freigegeben wurde.</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Das Portfolio muss mit der Gruppe oder einer ihrer Untergruppen verknüpft sein.</p> <p>Außerdem müssen Sie über Berechtigungen zum Anzeigen des Portfolios verfügen, entweder weil Sie es erstellt haben oder weil es für Sie freigegeben wurde.</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie wissen möchten, über welchen Plan oder Lizenztyp Sie verfügen.
 
 +++
 
-## Anzeigen, Arbeiten mit und Erstellen von Portfolios für Ihre Gruppe über den Bereich Gruppen
+## Portfolios für Ihre Gruppe im Bereich Gruppen anzeigen, damit arbeiten und erstellen
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
 
-1. Klicken Sie auf den Namen der Gruppe, für die Sie Portfolios erstellen, anzeigen oder verwenden möchten.
-1. Klicken Sie im linken Bereich auf **Portfolio** , um die mit der Gruppe verbundenen Portfolios (und alle Untergruppen darunter) aufzulisten.
+1. Klicken Sie auf den Namen der Gruppe, für die Sie Portfolios erstellen, anzeigen oder mit ihnen arbeiten möchten.
+1. Klicken Sie im linken Bedienfeld auf **Portfolios**, um die mit der Gruppe (und den darunter liegenden Untergruppen) verknüpften Portfolios aufzulisten.
 1. Führen Sie einen der folgenden Schritte aus:
 
    <table style="table-layout:auto"> 
@@ -68,24 +68,24 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
       <td role="rowheader">Portfolio hinzufügen</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Klicken Sie auf <strong>Neues Portfolio</strong>.</p> </li> 
-        <li value="2">Ersetzen Sie <strong>Unbenanntes Portfolio</strong> durch den Namen, den Sie für das Portfolio benötigen.</li>
-        <li value="3"><p>Klicken Sie im linken Bereich auf <strong>Portfolio Details</strong> und aktualisieren Sie die Informationen nach Bedarf im Bereich Übersicht .</p>
+        <li value="1"> <p>Klicken Sie auf <strong>Neues Portfolio </strong>.</p> </li> 
+        <li value="2">Ersetzen <strong>Nicht benanntes Portfolio </strong> durch den Namen, den Sie für das Portfolio verwenden möchten.</li>
+        <li value="3"><p>Klicken Sie im linken Bereich </strong> <strong>Portfolio-Details und aktualisieren Sie die Informationen im Bereich Übersicht nach Bedarf.</p>
         <p>Weitere Informationen zu den Konfigurationsoptionen finden Sie unter <a href="/help/quicksilver/manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios</a>.</p></li>
-        <li value="4">Klicken Sie auf die Zurück -Schaltfläche Ihres Browsers, um zur Liste der Portfolios der Gruppe zurückzukehren.</li> 
+        <li value="4">Klicken Sie im Browser auf die Schaltfläche Zurück , um zur Portfolios-Liste der Gruppe zurückzukehren.</li> 
        </ol> </td>
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Bearbeiten oder Löschen von Portfolios</p> </td> 
-      <td> <p>Wählen Sie mindestens ein Portfolio aus, das Sie bearbeiten dürfen, und verwenden Sie dann die Symbolleistenschaltflächen, um <img src="assets/edit-icon.png"> zu bearbeiten oder <img src="assets/delete.png"> zu löschen.</p> </td> 
+      <td role="rowheader"> <p>Portfolios bearbeiten oder löschen</p> </td> 
+      <td> <p><img src="assets/edit-icon.png"> Wählen Sie mindestens ein Portfolio aus, für das Sie über die Berechtigung zum Bearbeiten verfügen, und verwenden Sie dann die Schaltflächen der Symbolleiste, um es zu bearbeiten oder <img src="assets/delete.png"> löschen.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Portfolios freigeben</td> 
-      <td>Wählen Sie mindestens ein Portfolio aus, das Sie freigeben dürfen, und klicken Sie dann auf das Freigabesymbol <img src="assets/share-icon.png">.</td> 
+      <td role="rowheader">Portfolios teilen</td> 
+      <td>Wählen Sie mindestens ein Portfolio aus, für das Sie die Berechtigung zur Freigabe haben, und klicken Sie dann auf das Symbol Freigeben <img src="assets/share-icon.png">.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"> <p>Liste der Portfolios exportieren</p> </td> 
-      <td>Klicken Sie auf <strong>Export</strong> <img src="assets/export.png"> und wählen Sie dann das Dateiformat aus, das Sie für die exportierte Liste verwenden möchten.</td> 
+      <td role="rowheader"> <p>Portfolioliste exportieren</p> </td> 
+      <td>Klicken <strong> auf </strong>Exportieren<img src="assets/export.png"> und wählen Sie dann das Dateiformat für die exportierte Liste aus.</td> 
      </tr> 
     </tbody> 
    </table>

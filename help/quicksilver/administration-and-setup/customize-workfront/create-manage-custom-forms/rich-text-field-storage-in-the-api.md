@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-title: Rich-Text-Feldspeicher in der API
-description: Wenn ein Objekt wie ein Projekt, ein Problem oder eine Aufgabe Rich-Text enthält, wird es gespeichert und über die Workfront-API als Parameterwert zugänglich gemacht.
+title: Speicherung von Rich-Text-Feldern in der API
+description: Wenn ein Objekt wie ein Projekt, ein Problem oder eine Aufgabe Rich-Text enthält, wird es über die Workfront-API gespeichert und kann als Parameterwert darauf zugegriffen werden.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# Rich-Text-Feldspeicherung in der API
+# Speicherung von Rich-Text-Feldern in der API
 
-Wenn ein Objekt wie ein Projekt, ein Problem oder eine Aufgabe Rich-Text enthält, wird es gespeichert und über die Workfront-API als Parameterwert zugänglich gemacht.
+Wenn ein Objekt wie ein Projekt, ein Problem oder eine Aufgabe Rich-Text enthält, wird es über die Workfront-API gespeichert und kann als Parameterwert darauf zugegriffen werden.
 
 Das Anfordern von Textinformationen aus einem Projektobjekt, das Rich-Text enthält, kann mit dem Feld **parameterValues** erfolgen.
 
-Beispielsweise könnte eine einfache HTTP-Anforderung wie folgt aussehen:
+Eine einfache HTTP-Anfrage könnte beispielsweise der folgenden ähneln:
 
 `https://your-company.workfront.com/attask/api/v11.0/project?ID=your-project-ID&fields=parameterValues:*`
 
-Wenn dieses Beispielprojekt ein benutzerdefiniertes Formular mit 3 benutzerdefinierten Feldern enthielt: Berechnungsfeld, Absatztext und Rich 1. Dann gibt die obige Anfrage eine Antwort zurück, die der folgenden ähnelt, wobei das Feld &quot;rich 1&quot;ein Rich-Text-Parameterfeld und der Textwert &quot;**Hallo** *Welt!*&quot; ist:
+Wenn dieses Beispielprojekt ein benutzerdefiniertes Formular mit drei benutzerdefinierten Feldern enthält: berechnetes Feld, Absatztext und Rich 1. Dann würde die obige Anfrage eine Antwort zurückgeben, die der folgenden ähnelt, wobei das Feld „rich 1“ ein Rich-Text-Parameterfeld ist und der Textwert &quot;**Hello** *World!*&quot; lautet:
 
 ```
 {
@@ -69,4 +69,4 @@ Wenn dieses Beispielprojekt ein benutzerdefiniertes Formular mit 3 benutzerdefin
 }
 ```
 
-Detaillierte Informationen dazu, wie Rich-Text-Informationen gespeichert und über die Adobe Workfront-API abgerufen werden können, finden Sie unter [Rich-Text-Felder in der Adobe Workfront-API](../../../wf-api/general/rich-text-field-api.md).
+Weitere Informationen dazu, wie Rich-Text-Informationen gespeichert und über die Adobe Workfront-API abgerufen werden können, finden Sie unter [Rich-Text-Felder in der Adobe Workfront-API](../../../wf-api/general/rich-text-field-api.md).

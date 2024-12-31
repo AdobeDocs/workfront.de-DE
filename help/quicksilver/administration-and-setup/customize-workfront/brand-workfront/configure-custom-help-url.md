@@ -1,9 +1,9 @@
 ---
-title: Benutzerdefinierte Hilfe-URL konfigurieren
+title: Konfigurieren einer benutzerdefinierten Hilfe-URL
 user-type: administrator
 product-area: system-administration
 navigation-topic: brand-workfront
-description: Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen darüber enthält, wie Ihr Unternehmen Workfront verwendet, können Sie das Hilfesymbol des Hauptmenüs so konfigurieren, dass zu dieser Site navigiert wird.
+description: Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen darüber enthält, wie Ihr Unternehmen Workfront verwendet, können Sie im Hauptmenü das Hilfesymbol so konfigurieren, dass es auf diese Seite verweist.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -17,17 +17,17 @@ ht-degree: 2%
 
 # Benutzerdefinierte Hilfe-URL konfigurieren
 
-Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen darüber enthält, wie Ihr Unternehmen Workfront verwendet, können Sie das Hilfesymbol des Hauptmenüs so konfigurieren, dass zu dieser Site navigiert wird.
+Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen darüber enthält, wie Ihr Unternehmen Workfront verwendet, können Sie im Hauptmenü das Hilfesymbol so konfigurieren, dass es auf diese Seite verweist.
 
 ![](assets/custom-help-button.png)
 
-Dies wirkt sich nicht auf die kontextsensitiven Hilfelinhalte in Workfront aus, die Benutzer zur Workfront-Hilfeseite führen.
+Dies hat keine Auswirkungen auf die kontextabhängigen Hilfelinks in Workfront, über die Benutzende zur Workfront-Hilfeseite gelangen.
 
-Informationen dazu, wie Benutzer auf eine benutzerdefinierte Hilfe-URL zugreifen, die Sie in Workfront konfigurieren, und auf die normale Workfront-Hilfeseite finden Sie unter [Zugriff auf Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
+Informationen dazu, wie Benutzerinnen und Benutzer auf eine benutzerdefinierte Hilfe-URL zugreifen, die Sie in Workfront konfigurieren, und auf die reguläre Workfront-Hilfeseite finden Sie unter [Zugriff auf die Adobe Workfront-Hilfe](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/access-workfront-help.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -36,8 +36,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -48,24 +48,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Benutzerdefinierte Hilfe-URL konfigurieren
+## Konfigurieren einer benutzerdefinierten Hilfe-URL
 
 {{step-1-to-setup}}
 
 1. Klicken Sie auf **System** > **Voreinstellungen**.
-1. Geben Sie im Abschnitt **Allgemeine Voreinstellungen** im Feld **Benutzerdefinierte Hilfe-URL** die URL ein, unter der sich Ihre benutzerspezifische Hilfeseite befindet.
+1. Geben Sie im Abschnitt **Allgemeine**) in das Feld **Benutzerdefinierte Hilfe-URL** die URL ein, unter der sich Ihre benutzerdefinierte Hilfeseite befindet.
 
-   Wenn für Ihren benutzerdefinierten Hilfeort Anmeldeinformationen erforderlich sind, sind diese für Benutzer erforderlich, die über Workfront auf die Site zugreifen. Wenn Sie kein Single Sign-On (SSO) verwenden, müssen die Anmeldedaten für Ihre benutzerdefinierte Hilfeseite möglicherweise getrennt von den Workfront-Anmeldedaten verwaltet werden.
+   Wenn für den Speicherort der benutzerdefinierten Hilfe Anmeldeinformationen erforderlich sind, sind diese Anmeldeinformationen für Benutzende erforderlich, wenn sie über Workfront auf die Website zugreifen. Die Anmeldeinformationen für Ihre benutzerdefinierte Hilfeseite müssen möglicherweise getrennt von den Workfront-Anmeldeinformationen verwaltet werden, wenn Sie kein Single Sign-On (SSO) verwenden.
 
 1. Klicken Sie auf **Speichern**.
 

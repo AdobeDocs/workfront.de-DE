@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-custom-status-and-priority-labels
-title: Auflisten von Objekten mit einem ausstehenden Genehmigungsprozess unter Verwendung eines bestimmten Status
-description: Wenn Sie versuchen, einen Status zu löschen, wird Ihnen möglicherweise eine Fehlermeldung angezeigt, dass dieser nicht gelöscht werden kann, da er in ausstehenden Genehmigungsprozessen für Objekte in Ihrem System verwendet wird. Wenn Sie diese Objekte suchen und überprüfen möchten, um zu entscheiden, was Sie tun müssen, können Sie einen Bericht ausführen, der sie auflistet.
+title: Listen Sie Objekte mit ausstehenden Genehmigungsprozessen mit einem bestimmten Status auf
+description: Wenn Sie versuchen, einen Status zu löschen, wird in einer Fehlermeldung möglicherweise darauf hingewiesen, dass er nicht gelöscht werden kann, da er in ausstehenden Genehmigungsprozessen für Objekte in Ihrem System verwendet wird. Wenn Sie diese Objekte suchen und überprüfen möchten, um zu entscheiden, was Sie tun müssen, können Sie einen Bericht ausführen, in dem sie aufgelistet werden.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# Objekte mit ausstehendem Genehmigungsprozess mit einem bestimmten Status auflisten
+# Listen Sie Objekte mit ausstehendem Genehmigungsprozess mit einem bestimmten Status auf
 
-Wenn Sie versuchen, einen Status zu löschen, wird Ihnen möglicherweise eine Fehlermeldung angezeigt, dass dieser nicht gelöscht werden kann, da er sich in mindestens einem ausstehenden Genehmigungsprozess in Ihrem System befindet. Sie können einen Bericht ausführen, um die Objekte aufzulisten, für die die Genehmigung aussteht, und dann für jedes Objekt entscheiden, was Sie tun müssen.
+Wenn Sie versuchen, einen Status zu löschen, wird in einer Fehlermeldung möglicherweise darauf hingewiesen, dass er nicht gelöscht werden kann, da er sich in mindestens einem ausstehenden Genehmigungsprozess in Ihrem System befindet. Sie können einen Bericht ausführen, um die Objekte aufzulisten, bei denen sich der Bericht in einem ausstehenden Genehmigungsprozess befindet, und dann entscheiden, was Sie für jedes Objekt tun müssen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -42,8 +42,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td><p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p><p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td>
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td><p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p><p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td>
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -52,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,31 +60,31 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-reports}}
 
-1. Klicken Sie auf &quot;**Neuer Bericht**&quot;und wählen Sie dann &quot;**Projektbericht**&quot;, &quot;**Aufgabenbericht**&quot;oder &quot;**Problembericht**&quot;.
-1. Öffnen Sie die Registerkarte **Filter** .
-1. Klicken Sie auf **Filterregel hinzufügen** und führen Sie dann die folgenden Schritte aus, um die Regel einzurichten:
-   1. Beginnen Sie mit der Eingabe von `status` und wählen Sie dann **Status** aus, wenn es angezeigt wird.
-   1. Belassen Sie **Equal** im zweiten Feld.
-   1. Wählen Sie im dritten Feld den Namen des Status aus.
-1. Klicken Sie erneut auf **Filterregel hinzufügen** und führen Sie dann die folgenden Schritte aus, um die Regel einzurichten
-   1. Beginnen Sie mit der Eingabe von `pending status` und wählen Sie dann dieses Element aus, wenn es unter dem Objekttyp angezeigt wird, in dem Sie suchen (**Projekt**, **Aufgabe** oder **Problem**).
-   1. Belassen Sie **Equal** im zweiten Feld.
+1. Klicken Sie **Neuer Bericht** und wählen Sie **Projektbericht**, **Aufgabenbericht** oder **Problembericht**.
+1. Öffnen Sie die **Filter**.
+1. Klicken Sie **Filterregel hinzufügen** und gehen Sie dann wie folgt vor, um die Regel einzurichten:
+   1. Beginnen Sie mit der Eingabe von `status` und wählen Sie **Status** aus, wenn es angezeigt wird.
+   1. Belassen **Gleich** im zweiten Feld.
+   1. Wählen Sie den Namen des Status im dritten Feld aus.
+1. Klicken **erneut auf „Filterregel hinzufügen** und gehen Sie dann wie folgt vor, um die Regel einzurichten
+   1. Beginnen Sie mit der Eingabe von `pending status` und wählen Sie dann dieses Element aus, wenn es unter dem Objekttyp angezeigt wird, in dem Sie suchen **Projekt**, **Aufgabe** oder **Problem**.
+   1. Belassen **Gleich** im zweiten Feld.
    1. Geben Sie `in` in das dritte Feld ein.
-1. Klicken Sie erneut auf **Filterregel hinzufügen** und führen Sie dann die folgenden Schritte aus, um die Regel einzurichten
-   1. Starten Sie den Typisierungsprozess und wählen Sie dann **Gruppen-ID** aus, wenn er unter **Genehmigungsprozess** angezeigt wird.
-   1. Wählen Sie im zweiten Feld **Ist leer** aus.
-1. Klicken Sie auf **Speichern + Schließen** , um den Bericht auszuführen und alle Objekte des Typs aufzulisten, die Sie mit Genehmigungsprozessen im ausstehenden Status basierend auf dem von Ihnen angegebenen Status (**Projekt**, **Aufgabe** oder **Problem**) angegeben haben.
-1. Wiederholen Sie diese Schritte, um dieselben Informationen für die beiden anderen Objektarten zu finden.
+1. Klicken **erneut auf „Filterregel hinzufügen** und gehen Sie dann wie folgt vor, um die Regel einzurichten
+   1. Beginnen Sie mit der Eingabe des Genehmigungsprozesses und wählen Sie **Gruppen-ID** aus, wenn er unter &quot;**&quot;**.
+   1. Wählen Sie **zweite Feld** Ist leer“ aus.
+1. Klicken Sie auf **Speichern + Schließen**, um den Bericht auszuführen und alle Objekte des Typs, den Sie für Genehmigungsprozesse im Status „Ausstehend“ angegeben haben, basierend auf dem von Ihnen angegebenen Status (**Projekt**, **Aufgabe** oder **Problem**) aufzulisten.
+1. Wiederholen Sie diese Schritte, um dieselben Informationen für die beiden anderen Objekttypen zu finden.
 
 
 ## Im Textmodus
 
 {{step1-to-reports}}
 
-1. Klicken Sie auf &quot;**Neuer Bericht**&quot;und wählen Sie dann &quot;**Projektbericht**&quot;, &quot;**Aufgabenbericht**&quot;oder &quot;**Problembericht**&quot;.
-1. Öffnen Sie die Registerkarte **Filter** .
-1. Wählen Sie **In den Textmodus wechseln** aus.
-1. Kopieren Sie Folgendes und fügen Sie es in das Bearbeitungsfenster ein. Ersetzen Sie dabei XXX durch die 3-Buchstaben-Taste für den Status:
+1. Klicken Sie **Neuer Bericht** und wählen Sie **Projektbericht**, **Aufgabenbericht** oder **Problembericht**.
+1. Öffnen Sie die **Filter**.
+1. Wählen Sie **In Textmodus wechseln** aus.
+1. Kopieren Sie Folgendes und fügen Sie es in das Bearbeitungsfenster ein. Ersetzen Sie dabei XXX durch die aus drei Buchstaben bestehende Taste für den Status :
 
    `status=XXX`
 
@@ -92,10 +92,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    `approvalProcess:groupID_Mod=isblank`
 
-   Sie können den Schlüssel in der Liste der Status anzeigen, wie in den folgenden Artikeln dargestellt:
+   Sie können den Schlüssel in der Liste der Status anzeigen, wie in den folgenden Artikeln gezeigt:
    * [Zugriff auf die Liste der Systemprojektstatus](project-statuses.md)
-   * [Zugriff auf die Liste der Systemaufgabenstatus](task-statuses.md)
-   * [Zugriff auf die Liste der Systemfehlerstatus](issue-statuses.md)
+   * [Zugriff auf die Liste der Status von Systemaufgaben](task-statuses.md)
+   * [Zugriff auf die Liste der Systemanfragestatus](issue-statuses.md)
 
-1. Klicken Sie auf **Speichern + Schließen** , um den Bericht auszuführen und alle Objekte des Typs aufzulisten, die Sie mit Genehmigungsprozessen im ausstehenden Status basierend auf dem von Ihnen angegebenen Status (**Projekt**, **Aufgabe** oder **Problem**) angegeben haben.
-1. Wiederholen Sie diese Schritte, um dieselben Informationen für die beiden anderen Objektarten zu finden.
+1. Klicken Sie auf **Speichern + Schließen**, um den Bericht auszuführen und alle Objekte des Typs, den Sie für Genehmigungsprozesse im Status „Ausstehend“ angegeben haben, basierend auf dem von Ihnen angegebenen Status (**Projekt**, **Aufgabe** oder **Problem**) aufzulisten.
+1. Wiederholen Sie diese Schritte, um dieselben Informationen für die beiden anderen Objekttypen zu finden.

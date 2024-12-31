@@ -1,9 +1,9 @@
 ---
-title: Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts
+title: Übertragen von benutzerdefinierten Formulardaten beim Konvertieren eines Objekts
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Wenn die in einem Arbeitselement definierte Arbeit zu groß wird, können Sie sie in ein größeres Arbeitselement konvertieren.
+description: Wenn die in einem Arbeitselement definierte Arbeit zu groß wird, können Sie es in ein größeres Arbeitselement konvertieren.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -15,30 +15,30 @@ ht-degree: 0%
 
 ---
 
-# Übertragen benutzerdefinierter Formulardaten beim Konvertieren eines Objekts
+# Übertragen von benutzerdefinierten Formulardaten beim Konvertieren eines Objekts
 
-Je nach den Geschäftsanforderungen Ihrer Organisation kann die in einer Aufgabe oder einem Problem definierte Arbeit für die Verwaltung innerhalb der Aufgabe oder des Problems zu groß werden. In diesem Fall können Sie sie in ein größeres Arbeitselement konvertieren:
+Je nach den Geschäftsanforderungen Ihres Unternehmens kann die in einer Aufgabe oder einem Problem definierte Arbeit zu groß werden, um innerhalb der Aufgabe oder des Problems verwaltet werden zu können. In diesem Fall können Sie sie in ein größeres Arbeitselement konvertieren:
 
 * Sie können Probleme in Aufgaben oder Projekte konvertieren
 * Sie können Aufgaben in Projekte konvertieren
 
-Um benutzerdefinierte Formulardaten von einem Problem an eine Aufgabe oder ein Projekt zu übertragen, müssen Sie die beiden Aufgaben in diesem Artikel in der folgenden Reihenfolge ausführen.
+Um benutzerdefinierte Formulardaten von einem Problem in eine Aufgabe oder ein Projekt zu übertragen, müssen Sie die beiden Aufgaben in diesem Artikel in der folgenden Reihenfolge ausführen.
 
 Weitere Informationen finden Sie unter [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md) oder [Übersicht über Konvertierungsprobleme in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -48,42 +48,42 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Zuerst: Fügen Sie dem benutzerdefinierten Formular weitere Objekte hinzu
+## Erstens: Hinzufügen zusätzlicher Objekte zum benutzerdefinierten Formular
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Benutzerdefinierter Forms**.
-1. Suchen Sie das benötigte Formular und klicken Sie dann auf das Symbol ![Bearbeiten](assets/edit-icon.png).
+1. Klicken Sie **Benutzerdefinierte Forms**.
+1. Suchen Sie das gewünschte Formular und klicken Sie auf ![Bearbeiten-Symbol](assets/edit-icon.png).
 1. Fügen Sie oben im Formular das Objekt hinzu, in das Sie die Aufgabe oder das Problem konvertieren möchten.
 
    >[!INFO]
    >
-   >**Beispiel**: Wenn Sie die benutzerdefinierten Formulardaten an ein Projekt übertragen möchten, wählen Sie Projekt aus.
+   >**Beispiel**: Wenn Sie die benutzerdefinierten Formulardaten in ein Projekt übertragen möchten, wählen Sie „Projekt“ aus.
 
-1. Klicken Sie unten im Formular auf **Anwenden** .
+1. Klicken **unten** Formular auf „Anwenden“.
 
-1. Fahren Sie mit [Sekunde: Konvertieren Sie das Problem oder die Aufgabe und übertragen Sie die benutzerdefinierten Formulardaten](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
+1. Fahren Sie fort mit [Sekunde: Konvertieren Sie das Problem oder die Aufgabe und übertragen Sie die benutzerdefinierten Formulardaten](#second-convert-the-issue-or-task-and-transfer-the-custom-form-data).
 
-## Zweitens: Konvertieren Sie das Problem oder die Aufgabe und übertragen Sie die benutzerdefinierten Formulardaten {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
+## Zweitens: Konvertieren des Problems oder der Aufgabe und Übertragen der benutzerdefinierten Formulardaten {#second-convert-the-issue-or-task-and-transfer-the-custom-form-data}
 
-1. Fügen Sie dem benutzerdefinierten Formular zusätzliche Objekte zu dem Problem oder der Aufgabe hinzu, das bzw. die Sie konvertieren, wie im Abschnitt [Erste: Fügen Sie dem benutzerdefinierten Formular ](#first-add-additonal-objects-to-the-custom-form) in diesem Artikel beschrieben.
-1. Konvertieren Sie das Problem oder die Aufgabe mithilfe der Option **Benutzerdefinierter Forms** in das Feld, das angezeigt wird, um das benötigte benutzerdefinierte Formular auszuwählen. Anweisungen finden Sie in den folgenden Artikeln:
+1. Fügen Sie dem benutzerdefinierten Formular für das Problem oder die Aufgabe, das bzw. die Sie konvertieren, zusätzliche Objekte hinzu, wie in Abschnitt [Erste: Hinzufügen zusätzlicher Objekte zum benutzerdefinierten Formular](#first-add-additonal-objects-to-the-custom-form) in diesem Artikel erläutert.
+1. Konvertieren Sie das Problem oder die Aufgabe mithilfe **Option „Benutzerdefinierte Forms** in dem Feld, das angezeigt wird, um das gewünschte benutzerdefinierte Formular auszuwählen. Anweisungen finden Sie in den folgenden Artikeln:
 
    * [Konvertieren eines Problems in ein Projekt in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-project.md)
    * [Konvertieren eines Problems in eine Aufgabe in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issue-to-task.md)
    * [Konvertieren einer Aufgabe in ein Projekt](../../../manage-work/tasks/manage-tasks/convert-task-to-project.md)
 
-1. Klicken Sie im daraufhin angezeigten Dialogfeld **Nach (Objekttyp) konvertieren** auf das Dropdown-Menü **Forms hinzufügen** und wählen Sie das Formular aus, das Sie im vorherigen Abschnitt kopiert haben.
+1. Klicken Sie **angezeigten Dialogfeld** In (Objekttyp) auf das Dropdown-Menü **Forms hinzufügen** und wählen Sie das Formular aus, das Sie im vorherigen Abschnitt kopiert haben.
 
    Die in den benutzerdefinierten Feldern des Problems erfassten Informationen werden jetzt in das benutzerdefinierte Formular für die Aufgabe übertragen.
 

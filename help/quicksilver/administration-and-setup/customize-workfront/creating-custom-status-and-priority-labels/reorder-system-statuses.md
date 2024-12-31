@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Neuanordnen der Systemstatus- und Gruppenstatus
-description: Als Workfront-Administrator können Sie die Reihenfolge der Projekte, Aufgaben und Ausgabestatus für alle Benutzer im System oder für eine Gruppe ändern.
+title: Systemebene und Gruppenstatus neu anordnen
+description: Als Workfront-Administrator können Sie die Reihenfolge der Projekt-, Aufgaben- und Problemstatus für jeden Benutzer im System oder für eine einzelne Gruppe ändern.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 ---
 
-# Neuanordnen der Status auf Systemebene und Gruppe
+# Systemebene und Gruppenstatus neu anordnen
 
-Als Workfront-Administrator können Sie die Reihenfolge der Projekte, Aufgaben und Ausgabestatus für alle Benutzer im System oder für eine Gruppe ändern.
+Als Workfront-Administrator können Sie die Reihenfolge der Projekt-, Aufgaben- und Problemstatus für jeden Benutzer im System oder für eine einzelne Gruppe ändern.
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
@@ -25,17 +25,17 @@ Als Workfront-Administrator können Sie die Reihenfolge der Projekte, Aufgaben u
 
 >[!NOTE]
 >
->* Die Neuanordnung der Status auf Systemebene wirkt sich nicht auf die Reihenfolge der Status in Gruppen aus.
+>* Die Neuanordnung der Status auf Systemebene wirkt sich nicht auf die Reihenfolge der Status innerhalb von Gruppen aus.
 >
->  Die Status in einer neu erstellten Gruppe der obersten Ebene übernehmen jedoch die Reihenfolge der Systemstatus. (Eine neue Untergruppe übernimmt die Reihenfolge der Status in der Gruppe um eine Ebene.)
+>  Die Status innerhalb einer neu erstellten Gruppe der obersten Ebene übernehmen jedoch die Reihenfolge der Status auf Systemebene. (Eine neue Untergruppe übernimmt die Reihenfolge der Status in der Gruppe eine Ebene höher.)
 >
->* Sie können gesperrte Status neu anordnen. Weitere Informationen zu gesperrten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
->* Gruppenadministratoren können auch die in ihren Gruppen verwendeten Status neu anordnen. Weitere Informationen finden Sie unter [Neuanordnen von Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
+>* Sie können gesperrte Status neu anordnen. Informationen zu gesperrten Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+>* Gruppenadministratoren können auch die in ihren Gruppen verwendeten Status neu anordnen. Weitere Informationen finden Sie unter [Gruppenstatus neu anordnen](../../../administration-and-setup/manage-groups/manage-group-statuses/reorder-group-statuses-from-groups-area.md).
 >
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,8 +44,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -56,13 +56,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -118,42 +118,42 @@ Standardmäßig werden die Status in der folgenden Reihenfolge angezeigt:
  </tbody> 
 </table>
 
-## Neuanordnen des Status für Aufgaben und Projekte systemweit oder für eine Gruppe
+## Status für Aufgaben und Projekte systemweit oder für eine Gruppe neu anordnen
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Projekteinstellungen > Status**.
-1. (Bedingt) Wenn Sie den Status einer Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein und klicken Sie dann auf den Namen, sobald er angezeigt wird.
+1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen > Status**.
+1. (Bedingt) Wenn Sie den Status für eine Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein. Klicken Sie dann auf den Namen, wenn er angezeigt wird.
 
    ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
-1. Klicken Sie über der angezeigten Liste Status auf die Registerkarte **Projekte** oder **Aufgaben** .
+1. Klicken Sie über der angezeigten Statusliste auf die Registerkarte **Projekte** oder **Aufgaben**.
 
-1. Ziehen Sie die Status in die gewünschte Reihenfolge.
+1. Ziehen Sie die Status per Drag-and-Drop in die gewünschte Reihenfolge.
 
-   Die neue Statusreihenfolge wird automatisch gespeichert.
+   Der neue Bestellstatus wird automatisch gespeichert.
 
-1. Um die neue Statusreihenfolge zu testen, navigieren Sie zu einer Aufgabe oder einem Projekt, klicken Sie auf den Status in der oberen rechten Ecke und stellen Sie sicher, dass die angezeigten Status in der von Ihnen konfigurierten Reihenfolge sind.
+1. Um die neue Statusreihenfolge zu testen, navigieren Sie zu einer Aufgabe oder einem Projekt, klicken Sie auf den Status in der oberen rechten Ecke und stellen Sie sicher, dass die angezeigten Status in der von Ihnen konfigurierten Reihenfolge angezeigt werden.
 
 ## Status für Probleme neu anordnen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
 
-1. Klicken Sie auf **Projekteinstellungen > Status.**
-1. (Bedingt) Wenn Sie den Status einer Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein und klicken Sie dann auf den Namen, sobald er angezeigt wird.
+1. Klicken Sie **Projektvoreinstellungen > Status.**
+1. (Bedingt) Wenn Sie den Status für eine Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein. Klicken Sie dann auf den Namen, wenn er angezeigt wird.
 
    ![](assets/issue-statuses-group-name.png)
 
-1. Klicken Sie auf die Registerkarte **Probleme**.
-1. (Optional) Wählen Sie einen Problemtyp aus (**Fehlerbericht**, **Reihenfolge ändern**, **Problem** oder **Anfrage**).
+1. Klicken Sie auf die **Probleme**.
+1. (Optional) Wählen Sie einen Problemtyp aus **Fehlerbericht**, **Änderungsanforderung**, **Problem** oder **Anfrage**).
 
    >[!NOTE]
    >
-   >* Sie können die Reihenfolge der Status für die Master-Liste nicht anpassen.
-   >* Es wird empfohlen, die Reihenfolge der Status für jeden Ausgabetyp auf die gleiche Weise festzulegen. Weitere Informationen zu Problemtypen finden Sie unter [Anfragetypen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
+   >* Die Reihenfolge der Status für die primäre Liste kann nicht angepasst werden.
+   >* Es wird empfohlen, die Statusreihenfolge für jeden Anfragetyp auf die gleiche Weise zu ändern. Weitere Informationen zu Problemtypen finden Sie unter [Konfigurieren von Anfragetypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-request-types.md).
 
-1. Ziehen Sie die Status in die gewünschte Reihenfolge.
+1. Ziehen Sie die Status per Drag-and-Drop in die gewünschte Reihenfolge.
 
-   Die neue Statusreihenfolge wird automatisch gespeichert.
+   Der neue Bestellstatus wird automatisch gespeichert.
 
-1. Um die neue Statusreihenfolge zu testen, gehen Sie zu einem Problem, klicken Sie auf den Status in der oberen rechten Ecke und stellen Sie sicher, dass die angezeigten Status in der von Ihnen konfigurierten Reihenfolge sind.
+1. Um die neue Statusreihenfolge zu testen, wechseln Sie zu einem Problem, klicken Sie auf den Status in der oberen rechten Ecke und stellen Sie sicher, dass die angezeigten Status in der von Ihnen konfigurierten Reihenfolge angezeigt werden.

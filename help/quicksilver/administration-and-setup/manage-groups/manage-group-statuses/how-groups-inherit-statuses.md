@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: manage-group-statuses
-title: Übernehmen von Status durch Gruppen
+title: So erben Gruppen Status
 description: Wenn Sie die für eine Gruppe verfügbaren Status auflisten, sehen Sie Folgendes
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
@@ -15,22 +15,22 @@ ht-degree: 0%
 
 ---
 
-# Vererben von Status durch Gruppen
+# So erben Gruppen Status
 
 Wenn Sie die für eine Gruppe verfügbaren Status auflisten, sehen Sie Folgendes
 
-* Benutzerdefinierte Status, die für die Gruppe erstellt wurden, wie in [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) beschrieben.
-* Status werden vom System und von höher in der Gruppenhierarchie übernommen, wie in diesem Artikel beschrieben.
+* Benutzerdefinierte Statuswerte, die für die Gruppe erstellt wurden, wie unter [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md) beschrieben.
+* Status, die vom System und von höheren Elementen in der Gruppenhierarchie übernommen wurden, wie in diesem Artikel erläutert.
 
-## Erben von Status
+## Übernehmen von Status
 
-Ihre Gruppe erbt den Status, wenn eines der folgenden Ereignisse eintritt:
+Ihre Gruppe übernimmt Status, wenn eine der folgenden Situationen eintritt:
 
 * Sie erstellen die Gruppe.
-* Ein Administrator sperrt einen Status in einer Gruppe mit höherer Ebene.
-* Ein Administrator löscht eine andere Gruppe und wählt die Gruppe aus, die die gewünschte Position einnimmt.
+* Ein Administrator sperrt einen Status in einer höheren Gruppe.
+* Ein Administrator löscht eine andere Gruppe und wählt Ihre Gruppe als deren Platz aus.
 
-In der folgenden Tabelle werden diese Umstände erläutert.
+In der folgenden Tabelle werden die einzelnen Umstände erläutert.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -38,51 +38,51 @@ In der folgenden Tabelle werden diese Umstände erläutert.
  <tbody> 
   <tr> 
    <td role="rowheader">Wenn Sie eine Gruppe erstellen</td> 
-   <td> <p>Wenn Sie eine neue Gruppe erstellen, erbt sie automatisch Folgendes:</p> 
+   <td> <p>Wenn Sie eine neue Gruppe erstellen, erbt sie automatisch:</p> 
     <ul> 
-     <li>Entsperrt Status in der Gruppe eine Ebene nach oben, wenn die neue Gruppe eine Untergruppe ist.</li> 
+     <li>Entsperrte Status in der Gruppe eine Ebene höher, wenn die neue Gruppe eine Untergruppe ist.</li> 
     </ul> 
     <ul> 
      <li>Gesperrte Status auf Systemebene .</li> 
     </ul> 
      <b>BEISPIEL:</b></span></span> 
-     <p>Angenommen, eine Gruppe namens Marketing hat zwei Untergruppen namens Marketing Communications und Branding.</p> 
-     <p>Ein Gruppenadministrator der Marketing-Gruppe erstellt einen neuen benutzerdefinierten Status namens Discovery.</p> 
-     <p>Später erstellen Sie eine neue Untergruppe unter der Marketinggruppe und nennen sie sie Advertising.</p> 
-     <p>Ihre Untergruppe erbt den Erkennungsstatus, da Sie die Gruppe erstellt haben, nachdem der andere Administrator den Entdeckungsstatus erstellt hat.</p> 
-     <p>Da die Untergruppen Marketing Communications und Branding bereits unter der Marketing-Gruppe existierten, als dies passierte, erben sie nicht den entsperrten Erkennungsstatus.</p> 
+     <p>Angenommen, eine Gruppe mit dem Namen Marketing verfügt über zwei Untergruppen namens Marketing-Kommunikation und -Branding.</p> 
+     <p>Ein Gruppenadministrator der Marketing-Gruppe erstellt einen neuen benutzerdefinierten Status namens „Discovery“.</p> 
+     <p>Später erstellen Sie eine neue Untergruppe unter der Marketing-Gruppe und nennen sie Advertising.</p> 
+     <p>Ihre Untergruppe übernimmt den Erkennungsstatus, da Sie die Gruppe erstellt haben, nachdem der andere Administrator den entsperrten Erkennungsstatus erstellt hat.</p> 
+     <p>Da die Untergruppen Marketing-Kommunikation und -Branding zu diesem Zeitpunkt bereits unterhalb der Marketing-Gruppe existierten, übernehmen sie den Status der entsperrten Erkennung nicht.</p> 
     </div> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Wenn ein Administrator einen Status auf höherer Ebene sperrt</td> 
-   <td> <p>Wenn ein Workfront-Administrator einen Status auf Systemebene sperrt, übernimmt Ihre Gruppe ihn zusammen mit allen anderen Gruppen im System.</p> <p>Wenn ein Administrator einen Status für eine Gruppe oberhalb Ihrer Gruppe sperrt, übernimmt Ihre Gruppe diesen ebenso wie alle anderen Untergruppen unterhalb der höheren Gruppe.</p> <p><b>HINWEIS</b>: Wenn ein Administrator später einen dieser Status auf Systemebene oder in einer Gruppe über Ihrer Gruppe entsperrt, behält Ihre Gruppe den Status, den sie zuvor geerbt hat. Jetzt handelt es sich um eine separate Version des Status und Sie können ihn nur für Ihre Gruppe anpassen.</p> 
-    <p><b>BEISPIEL</b></p>
-    <p>Der Marketing-Gruppenadministrator sperrt den oben genannten Erkennungsstatus, um sicherzustellen, dass alle 3 Untergruppen über diesen Status verfügen.</p> 
-    <p>Zusammen mit Ihrer Advertising-Gruppe haben die Gruppen Marketing Communications und Branding jetzt den Erkennungsstatus. Sie erbten sie, als sie in der obigen Marketinggruppe gesperrt war.</p> 
-    <p>Der Marketing-Gruppenadministrator entsperrt dann den Erkennungsstatus, sodass alle 3 Untergruppen über eine eigene Version des Erkennungsstatus verfügen. Jetzt können Sie und die Administratoren der beiden anderen Gruppen den Erkennungsstatus an die Bedürfnisse Ihrer Gruppen anpassen.</p> 
+   <td role="rowheader">Wenn ein Administrator einen Status auf einer höheren Ebene sperrt</td> 
+   <td> <p>Wenn ein Workfront-Administrator einen Status auf Systemebene sperrt, erbt Ihre Gruppe ihn zusammen mit allen anderen Gruppen im System.</p> <p>Wenn ein Administrator einen Status für eine Gruppe sperrt, die sich über Ihrer Gruppe befindet, erbt Ihre Gruppe diesen Status ebenso wie alle anderen Untergruppen, die sich unterhalb der höheren Gruppe befinden.</p> <p><b>HINWEIS</b>: Wenn ein Administrator später einen dieser Status auf Systemebene oder in einer Gruppe über Ihrer Gruppe freischaltet, behält Ihre Gruppe den Status bei, den sie zuvor geerbt hat. Jetzt ist es eine separate Version des Status und Sie können ihn nur für Ihre Gruppe anpassen.</p> 
+    <p><b>BEISPIEL:</b></p>
+    <p>Der Administrator der Marketing-Gruppe sperrt den oben genannten Erkennungsstatus, um sicherzustellen, dass alle 3 Untergruppen ihn haben.</p> 
+    <p>Zusammen mit Ihrer Advertising-Gruppe haben die Gruppen Marketing-Kommunikation und Branding jetzt den Status Erkennung . Sie haben sie geerbt, wenn sie in der Marketing-Gruppe über ihnen gesperrt war.</p> 
+    <p>Der Administrator der Marketing-Gruppe entsperrt dann den Erkennungsstatus, sodass alle drei Untergruppen ihre eigene Version des Erkennungsstatus haben. Jetzt können Sie und die Administratoren der beiden anderen Gruppen den Erkennungsstatus an die Anforderungen Ihrer Gruppen anpassen.</p> 
   </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Wenn ein Administrator eine Gruppe löscht</td> 
-   <td> <p>Wenn ein Administrator eine Gruppe löscht und Ihre Rolle im System übernimmt, übernimmt Ihre Gruppe die benutzerdefinierten Status der gelöschten Gruppe, sofern diese noch nicht in Ihrer Gruppe vorhanden sind.</p> 
-   <p><b>BEISPIEL </b></p>
-     <p>Eine Gruppe namens Messaging muss mit Ihrer Advertising-Gruppe zusammengeführt werden. Ein Workfront-Administrator löscht also die Messaging-Gruppe und wählt Ihre Gruppe aus, um die Funktion zu übernehmen.</p> 
-     <p>Die Gruppe Messaging hatte einen eindeutigen Status namens In Process. Dieser Status steht nun für Ihre Advertising-Gruppe zur Verfügung.</p> 
+   <td> <p>Wenn ein(e) Administrator(in) eine Gruppe löscht und Ihre auswählt, dass sie ihre Position im System einnimmt, übernimmt Ihre Gruppe die benutzerdefinierten Status der gelöschten Gruppe, wenn diese noch nicht in Ihrer Gruppe vorhanden sind.</p> 
+   <p><b>BEISPIEL: </b></p>
+     <p>Eine Gruppe namens „Messaging“ muss mit Ihrer Advertising-Gruppe zusammengeführt werden. Daher löscht ein Workfront-Administrator die Messaging-Gruppe und wählt Ihre Gruppe als Ersatz aus.</p> 
+     <p>Die Messaging-Gruppe hatte einen eindeutigen Status namens In Bearbeitung. Ihre Advertising-Gruppe kann diesen Status jetzt verwenden.</p> 
     </div> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Statuskonfigurationen übernehmen
+## Übernehmen von Statuskonfigurationen
 
-Wenn Sie eine Gruppe der obersten Ebene erstellen, übernimmt diese die folgenden Konfigurationen von der Systemebene. Wenn Sie eine Untergruppe erstellen, übernimmt diese die folgenden Konfigurationen von der nächsthöheren Gruppe.
+Wenn Sie eine Gruppe der obersten Ebene erstellen, übernimmt sie die folgenden Konfigurationen von der Systemebene. Wenn Sie eine Untergruppe erstellen, übernimmt sie die folgenden Konfigurationen von der nächsthöheren Gruppe.
 
 * Standardstatuskonfigurationen
 
-  Weitere Informationen dazu finden Sie unter [Verwenden benutzerdefinierter Status als Standardstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
+  Weitere Informationen hierzu finden Sie unter [Verwenden benutzerdefinierter Status als Standardstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/use-custom-statuses-as-default-statuses.md).
 
-* Konfigurationen der Anzeigereihenfolge von Status
+* Konfigurationen der Statusanzeigereihenfolge
 
-  Weitere Informationen dazu finden Sie unter [Neuanordnen des Status auf Systemebene und Gruppe ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
+  Weitere Informationen hierzu finden Sie [Neuanordnen von Status auf Systemebene und Gruppenstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/reorder-system-statuses.md).
 
-Wenn jemand diese Konfigurationen ändert, nachdem Ihre Gruppe erstellt wurde, hat dies keine Auswirkungen auf ihren Status.
+Wenn jemand diese Konfigurationen ändert, nachdem Ihre Gruppe erstellt wurde, sind ihre Status nicht betroffen.

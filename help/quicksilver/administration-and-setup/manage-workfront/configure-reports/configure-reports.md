@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;reporting;setup
 navigation-topic: manage-workfront
-title: Berichte konfigurieren
+title: Konfigurieren von Berichten
 description: Der Administrator kann integrierte Workfront-Berichte konfigurieren.
 feature: System Setup and Administration
 role: Admin
@@ -17,8 +17,8 @@ ht-degree: 0%
 
 ---
 
-# Berichte konfigurieren
+# Konfigurieren von Berichten
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Ausblenden integrierter Berichte](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)
+* [Integrierte Berichte ausblenden](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md)

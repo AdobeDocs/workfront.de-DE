@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: start-with-workfront-administration
-title: Verwalten der verfügbaren Lizenzen in Ihrem System
+title: Verfügbare Lizenzen in Ihrem System verwalten
 description: Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfront-Konto zugreifen, einschließlich der Anzahl der für Ihr Unternehmen erworbenen Lizenzen sowie der Anzahl der aktuell verwendeten Lizenzen.
 author: Lisa, Becky
 feature: System Setup and Administration
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Verwalten der verfügbaren Lizenzen in Ihrem System
+# Verfügbare Lizenzen im System verwalten
 
 <!-- Audited: 12/2023 -->
 
@@ -23,7 +23,7 @@ Als Adobe Workfront-Administrator können Sie auf Informationen zu Ihrem Workfro
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,8 +32,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -43,70 +43,70 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Systemadministrator oder Gruppenadministrator sein. Der Gruppenadministrator hat eine eingeschränkte Ansicht der Lizenzinformationen.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen System- oder Gruppenadministrator sein. Der Gruppenadministrator bzw. die Gruppenadministratorin kann die Lizenzinformationen nur eingeschränkt anzeigen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 >[!NOTE]
 >
->Die folgenden Erklärungen gelten nur für die neuen Pläne.
+>Die folgenden Aussagen gelten nur für die neuen Pläne.
 >
->Für den Plan auswählen:
+>Für den ausgewählten Plan:
 >
->1. Systemadministratoren können keine Beschränkungen für Home Groups festlegen.
->2. Systemadministratoren können nur die Gesamtanzahl der in allen Home Groups verwendeten Lizenzen sehen.
+>1. Systemadministratoren können keine Beschränkungen für Hauptgruppen festlegen.
+>2. Systemadministratoren können nur die Gesamtanzahl der Lizenzen sehen, die für alle Hauptgruppen verwendet werden.
 >3. Gruppenadministratoren können überhaupt nicht auf die Seite Lizenzen zugreifen.
 >
->Für die Pläne Prime und Ultimate:
+>Pläne für Prime und Ultimate:
 >
->1. Systemadministratoren können der Lizenzseite Startseiten-Gruppen hinzufügen, um die Nutzung von Lizenzen in diesen Gruppen anzuzeigen, und sie können auch Lizenzbeschränkungen festlegen.
+>1. Systemadministratoren können der Seite „Lizenzen“ Hauptgruppen hinzufügen, um die Lizenznutzung in diesen Gruppen anzuzeigen, und sie können auch Lizenzbeschränkungen festlegen.
 >2. Gruppenadministratoren können auf die Seite Lizenzen zugreifen und die Nutzung von Lizenzen in den von ihnen verwalteten Gruppen anzeigen, die von Systemadministratoren zur Seite Lizenzen hinzugefügt wurden.
->3. Gruppenadministratoren können keine Informationen für andere Home-Gruppen anzeigen oder Maximalwerte hinzufügen.
+>3. Gruppenadministratoren können keine Informationen für andere Hauptgruppen anzeigen oder Höchstwerte hinzufügen.
 
 +++
 
-## Lizenzen Ihres Unternehmens anzeigen
+## Anzeigen der Lizenzen Ihres Unternehmens
 
-Die Anzahl der verwendeten Lizenzen wird automatisch aktualisiert, wenn Sie den Benutzern, die Sie zu Workfront hinzufügen, Zugriffsebenen zuweisen. Weitere Informationen finden Sie unter [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
+Die Anzahl der verwendeten Lizenzen wird automatisch aktualisiert, wenn Sie Benutzenden, die Sie zu Workfront hinzufügen, Zugriffsebenen zuweisen. Weitere Informationen finden Sie unter [Benutzer hinzufügen](../../administration-and-setup/add-users/create-and-manage-users/add-users.md).
 
 So zeigen Sie Lizenzinformationen in Ihrem System an:
 
 {{step-1-to-setup}}
 
-1. Klicken Sie unten im linken Bereich auf **System** > **Lizenzen**.
+1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
-   Weitere Informationen zu den auf dieser Seite aufgelisteten Lizenzen finden Sie unter [Überblick über Lizenzen](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
-
-   >[!NOTE]
-   >
-   >Testlizenzen stehen nur Kunden zur Verfügung, die zusätzlich zu ihrer Workfront-Lizenz das bezahlte Workfront Proof-Add-on erworben haben. Weitere Informationen zu diesem Add-on finden Sie unter [Workfront Proof: Artikelindex](../../workfront-proof/workfront-proof.md).
-
-1. (Bedingt) Wenn die Meldung &quot;**Um ein Maximum festzulegen, müssen Sie eine Home Group**&quot;hinzufügen, fügen Sie eine Home Group in Ihrem System hinzu, wie im Abschnitt &quot;[Hinzufügen oder Entfernen einer Home Group zur Lizenzseite](#add-or-remove-a-home-group-to-the-licenses-page)&quot;in diesem Artikel beschrieben.
+   Weitere Informationen zu den auf dieser Seite aufgelisteten Lizenzen finden Sie unter [Lizenzen - Übersicht](../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md).
 
    >[!NOTE]
    >
-   >Für die neuen Pläne ist es Administratoren nicht möglich, im &quot;Plan auswählen&quot;Lizenzen nach Home Group anzuzeigen. Sie können nur die Gesamtzahl der verwendeten Lizenzen sehen. Die Pläne von Prime und Ultimate bieten die Möglichkeit, die maximale Anzahl von Lizenzen pro Home Group festzulegen.
+   >Proof-Lizenzen sind nur für Kunden verfügbar, die das kostenpflichtige Workfront Proof-Add-on zusätzlich zu ihrer Workfront-Lizenz erworben haben. Weitere Informationen zu diesem Add-on finden Sie unter [Workfront Proof: Artikelindex](../../workfront-proof/workfront-proof.md).
 
-## Anzeigen von Informationen zu Lizenzen für Workfront-Add-ons
+1. (Bedingt) Wenn Sie die Meldung sehen **Um ein Maximum festzulegen, müssen Sie eine Hauptgruppe hinzufügen**, fügen Sie eine Hauptgruppe in Ihrem System hinzu, wie im Abschnitt [Hinzufügen oder Entfernen einer Hauptgruppe zur Seite Lizenzen](#add-or-remove-a-home-group-to-the-licenses-page) in diesem Artikel beschrieben.
 
-Wenn Ihr Unternehmen über das gebührenpflichtige Workfront Proof-Add-on verfügt, werden die Anzahl der verwendeten Lizenzen und die Anzahl der verfügbaren Lizenzen angezeigt. Beispiel: **5 von 10 Testlizenzen** zeigen an, dass das Unternehmen derzeit 5 der 10 von ihm erworbenen Workfront Proof-Lizenzen verwendet.
+   >[!NOTE]
+   >
+   >Für die neuen Pläne erlaubt der Auswahlplan den Administratoren nicht, Lizenzen nach Hauptgruppe anzuzeigen. Sie können nur die Gesamtanzahl der verwendeten Lizenzen sehen. Die Prime- und Ultimate-Pläne bieten die Möglichkeit, die maximale Anzahl von Lizenzen pro Hauptgruppe festzulegen.
+
+## Informationen zu Lizenzen für Workfront-Add-ons anzeigen
+
+Wenn Ihr Unternehmen über das kostenpflichtige Workfront Proof-Add-on verfügt, werden die Anzahl der verwendeten Lizenzen und die Anzahl der verfügbaren Lizenzen angezeigt. Beispiel: **5 von 10 Proof** Lizenzen zeigt an, dass das Unternehmen derzeit 5 der 10 von ihm erworbenen Workfront Proof-Lizenzen verwendet.
 
 ![Lizenz für Workfront-Add-ons](assets/updated-licenses-page.png)
 
-Wenn Ihr Unternehmen Workfront-Ziele erworben hat, werden hier auch die Lizenzinformationen für dieses Produkt angezeigt. In diesem Fall können Sie die folgenden Informationen anzeigen:
+Wenn Ihr Unternehmen Workfront Goals erworben hat, werden hier auch die Lizenzinformationen für dieses Produkt angezeigt. In diesem Fall können Sie die folgenden Informationen anzeigen:
 
-* Gesamtanzahl der Workfront Goals-Lizenzen, die Ihr Unternehmen erworben hat
-* Die Anzahl der Workfront Goals-Lizenzen, die mit Benutzern verknüpft sind. Dies ist die Anzahl der Benutzer, denen in ihrer Zugriffsebene mindestens Zugriff auf Ziele anzeigen gewährt werden soll.
+* Die Gesamtzahl der von Ihrem Unternehmen erworbenen Workfront Goals-Lizenzen
+* Die Anzahl der mit Benutzenden verknüpften Workfront Goals-Lizenzen. Dies ist die Anzahl der Benutzerinnen und Benutzer, denen in ihrer Zugriffsebene mindestens Zugriff auf Ziele gewähren muss.
 
-Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../workfront-goals/goal-management/wf-goals-overview.md). Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Gewähren des Zugriffs auf Adobe Workfront-Ziele](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
+Informationen zu Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../workfront-goals/goal-management/wf-goals-overview.md). Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Zugriff auf Adobe Workfront-Ziele gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md).
 
 >[!NOTE]
 >
->Mit Workfront können Sie weitere Workfront Goals-Lizenzen zuweisen, die Sie erworben haben. Wenn Sie jedoch mehr Lizenzen zuweisen, als Ihr Workfront Goals-Vertrag zulässt, setzt sich ein Workfront-Kundenbetreuer mit Ihnen in Verbindung, um Ihnen mitzuteilen, dass Sie Ihre Vertragsnummer überschritten haben.
+>Mit Workfront können Sie weitere von Ihnen erworbene Workfront Goals-Lizenzen zuweisen. Wenn Sie jedoch mehr Lizenzen zuweisen, als Ihr Workfront Goals-Vertrag zulässt, setzt sich ein Workfront-Kundenbetreuer mit Ihnen in Verbindung, um Ihnen mitzuteilen, dass Sie Ihre Vertragsnummer überschritten haben.
 >
 
 <!--
@@ -115,50 +115,50 @@ If an organization has other paid add-on products, their license information als
 
 >[!TIP]
 >
->Benutzer ohne Administratorzugriff können einen Gruppenbericht verwenden, um die Lizenzanzahl anzuzeigen. Erstellen Sie im Tab Bericht einen neuen Gruppenbericht und fügen Sie die folgenden Spalten hinzu:
+>Benutzende ohne Administratorzugriff können einen Gruppenbericht verwenden, um die Lizenzanzahl anzuzeigen. Erstellen Sie auf der Registerkarte Bericht einen neuen Gruppenbericht und fügen Sie die folgenden Spalten hinzu:
 >
->* Lizenztyp-Limit: Worker Limit
->* Lizenztyp-Limit: Planner Limit
+>* Lizenztyp-Limit: Worker-Limit
+>* Lizenztyp-Limit: Planer-Limit
 >
->Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+>Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Anzeigen von Informationen zu monatlichen Zuweisungen von Testsendungen und Dokumententscheidungen
+## Informationen zu monatlichen Korrekturabzugs- und Dokumentenentscheidungszuteilungen anzeigen
 
 >[!IMPORTANT]
 >
->Die Entscheidungsgrenzen für Beweise und Dokumente gelten nur für Benutzer der neuen Lizenzen. Weitere Informationen finden Sie unter [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Die Beschränkungen für Korrekturabzugs- und Dokumententscheidungen gelten nur für Benutzende mit den neuen Lizenzen. Weitere Informationen finden Sie unter [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
-Die Entscheidung über den Nachweis und die Unterlagen ist auf alle nicht bezahlten Workfront-Lizenzen beschränkt. Die Beschränkungen werden jeden Monat auf Benutzerbasis zurückgesetzt.
+Korrekturabzugs- und Dokumentenentscheidungen sind auf alle nicht gebührenpflichtigen Workfront-Lizenzen beschränkt. Die Limits werden monatlich pro Benutzer zurückgesetzt.
 
-Die Entscheidungsgrenzen für jede Lizenz variieren je nach Plan. Sie können Ihre monatliche Zuteilung unter Einrichtung > Lizenzen anzeigen.
+Die Entscheidungsbeschränkungen für jede Lizenz variieren je nach Plan. Sie können Ihre monatliche Zuteilung unter Setup > Lizenzen einsehen.
 
-Weitere Informationen zu den Entscheidungsbeschränkungen für Beweise und Dokumente finden Sie unter [Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Übersicht](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Weitere Informationen zu Korrekturabzugs- und Dokumentenentscheidungsbeschränkungen finden Sie unter [Eingeschränkte Dokument- und Korrekturabzugsentscheidung für nicht bezahlte Benutzer - Übersicht](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
-![Monatliche Entscheidungszuweisung](assets/monthly-decision-allotment.png)
+![Monatliche Entscheidungszuteilung](assets/monthly-decision-allotment.png)
 
-## Hinzufügen oder Entfernen einer Homepage-Gruppe zur Seite Lizenzen {#add-or-remove-a-home-group-to-the-licenses-page}
+## Hinzufügen oder Entfernen einer Hauptgruppe zur Lizenzseite {#add-or-remove-a-home-group-to-the-licenses-page}
 
 <!--A Business or Enterprise Workfront Plan is required to use this feature. For more information about the various plans available, see [Workfront Plans.](https://www.workfront.com/plans)-->
 
-Jeder Benutzer kann nur einer Home Group zugewiesen werden. Workfront bietet eine gruppenorientierte Lizenzanzahl, indem berechnet wird, wie viele Lizenzen in jeder Home Group zugewiesen und aktuell verwendet werden.
+Jeder Benutzer kann nur einer Hauptgruppe zugewiesen werden. Workfront bietet eine gruppenorientierte Lizenzanzahl, indem berechnet wird, wie viele Lizenzen in den einzelnen Hauptgruppen zugewiesen und aktuell verwendet werden.
 
-Wenn die Meldung &quot;**Um ein Maximum festzulegen, müssen Sie auf der Seite &quot;Lizenzen&quot;eine Home Group** hinzufügen. Fügen Sie dann mindestens eine Home Group zur Seite &quot;Lizenzen&quot;hinzu.
+Wenn die Meldung **Um ein Maximum festzulegen, müssen Sie eine Hauptgruppe hinzufügen** auf der Seite Lizenzen angezeigt wird, müssen Sie mindestens eine Hauptgruppe zur Seite Lizenzen hinzufügen.
 
 >[!IMPORTANT]
 >
->* Um Lizenzen effektiv mit Stammgruppen verwalten zu können, empfehlen wir, spezifische Home Groups für Geschäftseinheiten einzurichten, bevor die maximale Lizenzanzahl aktualisiert wird. Weitere Informationen finden Sie unter [Übersicht über die Startseiten-Gruppen](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
->* Sie können nur Gruppen der obersten Ebene als Startseite und keine Untergruppen hinzufügen. Wenn einem Benutzer eine Untergruppe zugewiesen wurde, wird seine Lizenz zur Lizenzanzahl für die Gruppe der obersten Ebene oberhalb dieser Untergruppe hinzugefügt.
+>* Um Lizenzen mit Hauptgruppen effektiv zu verwalten, empfehlen wir, bestimmte Hauptgruppen für Geschäftseinheiten einzurichten, bevor die maximale Lizenzanzahl aktualisiert wird. Weitere Informationen finden Sie unter [Hauptgruppen - Übersicht](../../administration-and-setup/manage-groups/groups-overview/home-groups.md).
+>* Sie können nur Gruppen der obersten Ebene als Hauptgruppen hinzufügen, nicht als Untergruppen. Wenn eine Benutzerin oder ein Benutzer eine Untergruppe als Hauptgruppe zugewiesen hat, wird seine bzw. seine Lizenz zur Lizenzanzahl für die Gruppe der obersten Ebene über dieser Untergruppe hinzugefügt.
 >
 
-So fügen Sie der Lizenzseite eine Startseite hinzu oder entfernen sie:
+So fügen Sie der Seite „Lizenzen“ eine Hauptgruppe hinzu oder entfernen diese:
 
 {{step-1-to-setup}}
 
-1. Klicken Sie unten im linken Bereich auf **System** > **Lizenzen**.
+1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
-1. Klicken Sie auf **Gruppenliste verwalten**.
-1. Geben Sie den Namen der Gruppe der obersten Ebene in das Feld **Home Groups** ein.
-1. Um die Gruppe hinzuzufügen, klicken Sie auf ihren Namen, sobald sie angezeigt wird.
+1. Klicken Sie **Gruppenliste verwalten**.
+1. Geben Sie den Namen der Gruppe der obersten Ebene in das Feld **Hauptgruppen** ein.
+1. Um die Gruppe hinzuzufügen, klicken Sie auf ihren Namen, wenn sie angezeigt wird.
 
    Oder
 
@@ -166,28 +166,28 @@ So fügen Sie der Lizenzseite eine Startseite hinzu oder entfernen sie:
 
 1. Klicken Sie auf **Speichern**.
 
-Als Workfront-Administrator können Sie für die Home Groups Höchstlizenzen festlegen, um zu verhindern, dass ein Geschäftsbereich Workfront-Lizenzen verwendet, die für andere Geschäftsbereiche erworben wurden. Anweisungen finden Sie unter [Festlegen der maximalen Lizenzanzahl für eine Home Group](#set-the-maximum-license-count-for-a-home-group) in diesem Artikel.
+Als Workfront-Administrator können Sie die maximale Lizenzanzahl für die Hauptgruppen festlegen, um zu verhindern, dass eine Geschäftseinheit Workfront-Lizenzen verwendet, die für andere Geschäftseinheiten erworben wurden. Anweisungen finden Sie unter [Festlegen der maximalen Lizenzanzahl für eine Hauptgruppe](#set-the-maximum-license-count-for-a-home-group) in diesem Artikel.
 
-## Maximale Lizenzanzahl für eine Home Group festlegen {#set-the-maximum-license-count-for-a-home-group}
+## Festlegen der maximalen Lizenzanzahl für eine Hauptgruppe {#set-the-maximum-license-count-for-a-home-group}
 
-Als Workfront-Administrator können Sie die maximale Lizenzanzahl für die Home Groups der obersten Ebene in Ihrem System festlegen. Auf diese Weise können Sie verhindern, dass eine Geschäftseinheit Workfront-Lizenzen verwendet, die für andere Geschäftsbereiche in Ihrem Unternehmen erworben wurden.
+Als Workfront-Administrator können Sie die maximale Lizenzanzahl für die Hauptgruppen der Ebene in Ihrem System festlegen. Auf diese Weise können Sie verhindern, dass eine Geschäftseinheit Workfront-Lizenzen verwendet, die für andere Geschäftseinheiten innerhalb Ihres Unternehmens erworben wurden.
 
-Standardmäßig ist die maximale Lizenzanzahl auf &quot;N/A&quot;gesetzt, was bedeutet, dass es keine Beschränkung gibt.
+Standardmäßig ist die maximale Lizenzanzahl auf „Nicht zutreffend“ festgelegt, was bedeutet, dass es keine Beschränkung gibt.
 
-Gruppenadministratoren können die Anzahl der erteilten und verwendeten Lizenzen in einer von ihnen verwalteten Home Group anzeigen. Weitere Informationen finden Sie unter [Anzeigen der Anzahl der in einer Gruppe zugewiesenen und verwendeten Lizenzen](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
+Gruppenadministratoren können die Anzahl der Lizenzen anzeigen, die ihnen in einer von ihnen verwalteten Hauptgruppe zugewiesen und verwendet wurden. Weitere Informationen finden Sie unter [Anzeigen der Anzahl der zugeordneten und in einer Gruppe verwendeten Lizenzen](../../administration-and-setup/manage-groups/create-and-manage-groups/view-number-licenses-allocated-used-group.md).
 
-So legen Sie die maximale Lizenzanzahl für eine Home Group fest:
+So legen Sie die maximale Lizenzanzahl für eine Hauptgruppe fest:
 
 {{step-1-to-setup}}
 
-1. Klicken Sie unten im linken Bereich auf **System** > **Lizenzen**.
+1. Klicken Sie unten im linken Bedienfeld auf **System** > **Lizenzen**.
 
-1. Suchen Sie die Startseite in der Liste.
-1. Klicken Sie in der Spalte **Max.** der Gruppe auf den Wert, für den Sie ein Maximum festlegen möchten.
-1. Geben Sie die Höchstzahl ein und drücken Sie dann die Eingabetaste.
+1. Suchen Sie die Hauptgruppe in der Liste.
+1. Klicken Sie in **Spalte &quot;**&quot; der Gruppe auf den Wert, für den Sie ein Maximum festlegen möchten.
+1. Geben Sie die maximale Zahl ein, und drücken Sie dann die Eingabetaste.
 
    ![](assets/updated-max.png)
 
    >[!NOTE]
    >
-   >Um den maximalen Lizenzwert einer Gruppe auf den Standardwert zurückzusetzen, geben Sie nicht 0 ein. Löschen Sie stattdessen die Nummer im Feld. Wird der maximale Lizenzwert auf 0 gesetzt, bedeutet dies, dass dieser Gruppe keine Lizenzen zugewiesen sind.
+   >Geben Sie nicht 0 ein, um den maximalen Lizenzwert einer Gruppe auf den Standardwert zurückzusetzen. Löschen Sie stattdessen die Zahl im Feld . Wenn Sie den maximalen Lizenzwert auf 0 setzen, bedeutet dies, dass dieser Gruppe keine Lizenzen zugewiesen sind.

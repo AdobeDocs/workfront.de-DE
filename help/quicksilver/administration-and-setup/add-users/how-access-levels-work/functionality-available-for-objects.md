@@ -2,10 +2,10 @@
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: access,model,funnel,chart,levels,permissions
+keywords: Zugriff,Modell,Trichter,Diagramm,Ebenen,Berechtigungen
 navigation-topic: access-levels
 title: Für jeden Objekttyp verfügbare Funktionen für neue Zugriffsebenen
-description: In den folgenden Tabellen sind die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbaren Funktionen aufgeführt.
+description: In der folgenden Tabelle sind die Funktionen aufgeführt, die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbar sind.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -21,112 +21,112 @@ ht-degree: 11%
 
 {{highlighted-preview}}
 
-In den folgenden Tabellen sind die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbaren Funktionen aufgeführt.
+In der folgenden Tabelle sind die Funktionen aufgeführt, die für jeden Objekttyp in den verschiedenen Zugriffsebenen verfügbar sind.
 
-Sie zeigt außerdem an, welche Aktionen Workfront-Administratoren über eine Zugriffsebene deaktivieren oder aktivieren können.
+Es zeigt auch an, welche Aktionen Workfront-Administratoren mithilfe einer Zugriffsebene deaktivieren oder aktivieren können.
 
 >[!NOTE]
 >
->* In diesem Artikel werden die Funktionen beschrieben, die für den Zugriff auf die Ebenen im neuen Workfront-Planmodell verfügbar sind. Informationen zu den im aktuellen Planmodell verfügbaren Funktionen finden Sie unter [Für jeden Objekttyp verfügbare Funktionen für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
->* Eine Liste der Funktionen, die den verschiedenen Plänen im neuen Planungsmodell zur Verfügung stehen, finden Sie unter [Adobe Workfront-Preise und -Verpackungen](https://business.adobe.com/products/workfront/pricing.html).
+>* In diesem Artikel werden die Funktionen beschrieben, die für Zugriffsebenen im neuen Workfront-Planmodell verfügbar sind. Informationen zur verfügbaren Funktion im aktuellen Planungsmodell finden Sie unter [Funktionalität verfügbar für jeden Objekttyp für verschiedene Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/functionality-available-for-each-object-type.md).
+>* Eine Liste der Funktionen, die den verschiedenen Plänen im neuen Planmodell zur Verfügung stehen, finden Sie unter [Preise und Verpackung für Adobe Workfront](https://business.adobe.com/products/workfront/pricing.html).
 
 ## Projekte
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓&#42; |   |   |   |
-| Kopieren | ✓&#42; |   |   |   |
-| Löschen | ✓&#42; |   |   |   |
-| Freigeben | ✓&#42; |   |   |   |
-| Systemweit freigeben | ✓&#42; |   |   |   |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Erstellen | ✓ &#42; |   |   |   |
+| Kopieren | ✓ &#42; |   |   |   |
+| Löschen | ✓ &#42; |   |   |   |
+| Freigeben | ✓ &#42; |   |   |   |
+| Systemweit freigeben | ✓ &#42; |   |   |   |
+| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
 | Benutzerdefiniertes Formular hinzufügen | ✓ |   |   |   |
 | Benutzerdefinierte Felder aktualisieren | ✓ |   |   |   |
-| Hinzufügen eines Validierungsprozesses | ✓ |   |   |   |
-| Projekt genehmigen | ✓ | ✓ |   |   |
+| Genehmigungsprozess hinzufügen | ✓ |   |   |   |
+| Genehmigen eines Projekts | ✓ | ✓ |   |   |
 | Dokument hinzufügen | ✓ | ✓ | ✓ |   |
 | Problem hinzufügen | ✓ | ✓ | ✓ |   |
 |  Aufgaben hinzufügen | ✓ |   |   |   |
-| Aktualisierungen/Kommentare geben | ✓ | ✓ | ✓ |   |
+| Aktualisierungen/Kommentare abgeben | ✓ | ✓ | ✓ |   |
 | Status ändern | ✓ |   |   |   |
 | Stunden protokollieren | ✓ | ✓ |   |   |
 | Zuweisungen bearbeiten | ✓ |   |   |   |
-| Grundlinie verwalten | ✓ |   |   |   |
-| Risiken verwalten | ✓ |   |   |   |
+| Verwalten einer Grundlinie | ✓ |   |   |   |
+| Risiken managen | ✓ |   |   |   |
 | Finanzen verwalten | ✓ |   |   |   |
-| Aufwendungen hinzufügen/bearbeiten | ✓ |   |   |   |
+| Kosten hinzufügen/bearbeiten | ✓ |   |   |   |
 | Vorlagen anfügen | ✓ |   |   |   |
 | Als Vorlage speichern | ✓ |   |   |   |
-| Geschäftsfall hinzufügen/bearbeiten | ✓ |   |   |   |
-| Bearbeiten von Projektdetails | ✓ |   |   |   |
-| Bearbeitungsbesetzung | ✓ |   |   |   |
+| Hinzufügen/Bearbeiten eines Business Case | ✓ |   |   |   |
+| Projektdetails bearbeiten | ✓ |   |   |   |
+| Personal bearbeiten | ✓ |   |   |   |
 | In MS Project exportieren | ✓ | ✓ |   |   |
-| Finanz-/Zeitleistenskalierung neu berechnen | ✓ |   |   |   |
+| Finanzen/Timeline neu berechnen | ✓ |   |   |   |
 | Festlegen von Warteschlangeneigenschaften | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Aufgaben
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓&#42; |   |   |   |
-| Löschen | ✓&#42; |   |   |   |
-| Freigeben | ✓&#42; |   |   |   |
-| Systemweit freigeben | ✓&#42; |   |   |   |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Vorgänger hinzufügen | ✓ |   |   |   |
+| Erstellen | ✓ &#42; |   |   |   |
+| Löschen | ✓ &#42; |   |   |   |
+| Freigeben | ✓ &#42; |   |   |   |
+| Systemweit freigeben | ✓ &#42; |   |   |   |
+| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Hinzufügen von Vorgängern | ✓ |   |   |   |
 |  Probleme hinzufügen | ✓ | ✓ |   |   |
-| Aufgabe bearbeiten (ohne Status) | ✓ |   |   |   |
+| Aufgabe bearbeiten (Status ausschließen) | ✓ |   |   |   |
 | Aufgabenstatus ändern | ✓ |   |   |   |
 | Dokumente hinzufügen | ✓ | ✓ |   |   |
-| Aufgabe kopieren | ✓ |   |   |   |
-| Verschieben einer Aufgabe | ✓ |   |   |   |
+| Kopieren einer Aufgabe | ✓ |   |   |   |
+| Aufgabe verschieben | ✓ |   |   |   |
 | Stunden protokollieren | ✓ | ✓ |   |   |
-| Zuweisung akzeptieren | ✓ |   |   |   |
+| Zuweisung annehmen | ✓ |   |   |   |
 | Zuweisung vornehmen | ✓ | ✓ |   |   |
 | Benutzerdefiniertes Formular anhängen | ✓ |   |   |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ |   |   |   |
-| Validierungsprozess erstellen | ✓ |   |   |   |
-| Aufgabe validieren | ✓ | ✓ | ✓ |   |
-| Bearbeiten von Finanzen | ✓ |   |   |   |
-| Aufwendungen hinzufügen/bearbeiten | ✓ |   |   |   |
+| Erstellen eines Genehmigungsprozesses | ✓ |   |   |   |
+| Aufgabe genehmigen | ✓ | ✓ | ✓ |   |
+| Finanzen bearbeiten | ✓ |   |   |   |
+| Kosten hinzufügen/bearbeiten | ✓ |   |   |   |
 | Finanzen anzeigen | ✓ | ✓ |   |   |
-| Hinzufügen von Aktualisierungen/Kommentaren | ✓ | ✓ | ✓ |   |
+| Aktualisierungen/Kommentare hinzufügen | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Probleme
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |-------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Erstellen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
 | Bearbeiten | ✓ | ✓ | ✓ |   |
-| Löschen | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Freigeben | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Systemweit freigeben | ✓&#42; |   |   |   |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Löschen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Freigeben | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Systemweit freigeben | ✓ &#42; |   |   |   |
+| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
 | Benutzerdefinierte Formulare anhängen | ✓ | ✓ | ✓ |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ | ✓ | ✓ |   |
-| Genehmigen von Problemen | ✓ | ✓ | ✓ |   |
-| Hinzufügen eines Validierungsprozesses | ✓ |   |   |   |
+| Probleme genehmigen | ✓ | ✓ | ✓ |   |
+| Genehmigungsprozess hinzufügen | ✓ |   |   |   |
 | Dokumente hinzufügen | ✓ | ✓ | ✓ |   |
 | Probleme kopieren | ✓ | ✓ | ✓ |   |
 | Probleme verschieben | ✓ | ✓ | ✓ |   |
 | Stunden protokollieren | ✓ |   |   |   |
-| Konvertieren eines Problems in ein Projekt | ✓ |   |   |   |
-| Konvertieren eines Problems in eine Aufgabe | ✓ |   |   |   |
-| Accept-Zuweisungen | ✓ |   |   |   |
+| Anfrage in ein Projekt konvertieren | ✓ |   |   |   |
+| Anfrage in Aufgabe konvertieren | ✓ |   |   |   |
+| Zuweisungen akzeptieren | ✓ |   |   |   |
 | Zuweisungen vornehmen | ✓ |   |   |   |
 | Hinzufügen von Aktualisierungen und Kommentaren | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Portfolios
 
@@ -134,11 +134,11 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Portfolios habe
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓&#42; |   |   |   |
-| Löschen | ✓&#42; |   |   |   |
-| Freigeben | ✓&#42; |   |   |   |
-| Systemweit freigeben | ✓&#42; |   |   |   |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Erstellen | ✓ &#42; |   |   |   |
+| Löschen | ✓ &#42; |   |   |   |
+| Freigeben | ✓ &#42; |   |   |   |
+| Systemweit freigeben | ✓ &#42; |   |   |   |
+| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
 | Details bearbeiten | ✓ |   |   |   |
 | Benutzerdefinierte Formulare anhängen | ✓ |   |   |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ |   |   |   |
@@ -150,7 +150,7 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Portfolios habe
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Programme
 
@@ -158,11 +158,11 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Programme haben
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓&#42; |   |   |   |
-| Löschen | ✓&#42; |   |   |   |
-| Freigeben | ✓&#42; |   |   |   |
-| Systemweit freigeben | ✓&#42; |   |   |   |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; |   |
+| Erstellen | ✓ &#42; |   |   |   |
+| Löschen | ✓ &#42; |   |   |   |
+| Freigeben | ✓ &#42; |   |   |   |
+| Systemweit freigeben | ✓ &#42; |   |   |   |
+| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
 | Details bearbeiten | ✓ |   |   |   |
 | Benutzerdefinierte Formulare anhängen | ✓ |   |   |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ |   |   |   |
@@ -174,27 +174,27 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Programme haben
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Berichte, Dashboards und Kalender
 
-Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. Alle anderen Zugriffsebenen haben Ansichtszugriff auf Berichte.
+Benutzer mit einer Standardlizenz haben vollen Zugriff auf Berichte. Alle anderen Zugriffsebenen haben Ansichtszugriff auf Berichte.
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓&#42; |   |   |   |
-| Löschen | ✓&#42; |   |   |   |
-| Anzeigen integrierter Berichte | ✓&#42; |   |   |   |
-| Freigeben | ✓&#42; | ✓ |   |   |
-| Öffentliche Freigabe von Kalendern und Berichten | ✓&#42; |   |   |   |
-| Systemweit freigeben | ✓&#42; |   |   |   |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Erstellen | ✓ &#42; |   |   |   |
+| Löschen | ✓ &#42; |   |   |   |
+| Integrierte Berichte anzeigen | ✓ &#42; |   |   |   |
+| Freigeben | ✓ &#42; | ✓ |   |   |
+| Kalender und Berichte öffentlich freigeben | ✓ &#42; |   |   |   |
+| Systemweit freigeben | ✓ &#42; |   |   |   |
+| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; | ✓ &#42; |
 | Bearbeiten | ✓ |   |   |   |
 | Kopieren | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 >[!NOTE]
 >
@@ -204,31 +204,31 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |-------------------|------------|---------|---------------|---------------|
-| Erstellen | ✓* | ✓* | ✓* |   |
-| Löschen | ✓* | ✓* | ✓* |   |
-| Freigeben | ✓* | ✓* | ✓* |   |
-| Systemweit freigeben | ✓* | ✓* | ✓* |   |
+| Erstellen | ✓ | ✓ | ✓ |   |
+| Löschen | ✓ | ✓ | ✓ |   |
+| Freigeben | ✓ | ✓ | ✓ |   |
+| Systemweit freigeben | ✓ | ✓ | ✓ |   |
 | Anzeigen | ✓ | ✓ | ✓ |   |
 | Bearbeiten | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Dokumente
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Löschen (Dokumente und Ordner) | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Freigeben | ✓&#42; | ✓&#42; | ✓&#42; |   |
-| Öffentliche Freigabe (extern) | ✓&#42; |   |   |   |
-| Systemweit freigeben | ✓&#42; |   |   |   |
-| Anzeigen | ✓&#42; | ✓&#42; | ✓&#42; | ✓&#42; |
+| Erstellen | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Löschen (Dokumente und Ordner) | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Freigeben | ✓ &#42; | ✓ &#42; | ✓ &#42; |   |
+| Öffentlich freigeben (extern) | ✓ &#42; |   |   |   |
+| Systemweit freigeben | ✓ &#42; |   |   |   |
+| Anzeigen | ✓ &#42; | ✓ &#42; | ✓ &#42; | ✓ &#42; |
 | Details bearbeiten | ✓ | ✓ | ✓ |   |
 | Download | ✓ | ✓ | ✓ | ✓ |
 | Checkout | ✓ | ✓ | ✓ |   |
-| Hinzufügen von Genehmigern (Dokumente) | ✓ | ✓ | ✓ |   |
+| Genehmigende Personen (Dokumente) hinzufügen | ✓ | ✓ | ✓ |   |
 | Dokumente genehmigen | ✓ | ✓ | ✓ | ✓ |
 | Benutzerdefinierte Formulare anhängen | ✓ | ✓ | ✓ |   |
 | Benutzerdefinierte Felder bearbeiten | ✓ | ✓ | ✓ |   |
@@ -236,34 +236,34 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 | Senden an (Integration) | ✓ | ✓ | ✓ |   |
 | Hinzufügen von Aktualisierungen und Kommentaren | ✓ | ✓ | ✓ |   |
 | Neue Version hochladen | ✓ | ✓ | ✓ |   |
-| Version löschen | ✓ | ✓ | ✓ |   |
+| Löschen einer Version | ✓ | ✓ | ✓ |   |
 | Vorschau | ✓ | ✓ | ✓ | ✓ |
-| Testsendungen genehmigen | ✓ | ✓ | ✓ | ✓ |
-| Testsendungen generieren | ✓ |   |   |   |
-| Testversand durchführen | ✓ | ✓ | ✓ |   |
+| Korrekturabzüge genehmigen | ✓ | ✓ | ✓ | ✓ |
+| Korrekturabzüge generieren | ✓ |   |   |   |
+| Korrekturabzug entfernen | ✓ | ✓ | ✓ |   |
 | Hinzufügen/Entfernen&#42;&#42; | ✓ | ✓ | ✓ |   |
 | Umbenennen&#42;&#42; | ✓ | ✓ | ✓ |   |
-| Link (mit Integration) | ✓ | ✓ | ✓ |   |
+| Relation (mit Integration) | ✓ | ✓ | ✓ |   |
 | Verknüpfung aufheben (mit Integration) | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Benutzende
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer** |
 |----------------------------------------------------------------------------------------------------|----------|--------|-------------|-----------------|
-| Erstellen | ✓* |   |   |   |
-| Löschen | ✓* |   |   |   |
-| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Kennworts für jeden Benutzer | ✓* |   |   |   |
-| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Kennworts für alle Benutzer in einer Gruppe, die sie verwalten | ✓* |   |   |   |
+| Erstellen | ✓ |   |   |   |
+| Löschen | ✓ |   |   |   |
+| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für einen beliebigen Benutzer | ✓ |   |   |   |
+| Bearbeiten, Löschen, Deaktivieren, Anmelden als oder Zurücksetzen des Passworts für alle Benutzenden in der von ihnen verwalteten Gruppe | ✓ |   |   |   |
 | Benutzer anzeigen | ✓ | ✓ | ✓ |   |
-| Kontaktdaten anzeigen | ✓ | ✓ | ✓ |   |
+| Kontaktinformationen anzeigen | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 &#42;&#42;Externe Benutzer können nur nach anderen Benutzern suchen.
 
@@ -271,32 +271,32 @@ Benutzer mit einer Standardlizenz können vollen Zugriff auf Berichte haben. All
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer* |
 |-----------------------------------------|-----------|------------|-------------|------------------|
-| Erstellen | ✓* |   |   |   |
-| Löschen | ✓* |   |   |   |
-| Bearbeiten von Teams, die sie verwenden | ✓* |   |   |   |
-| Bearbeiten von Teams in von ihnen verwalteten Gruppen | ✓* |   |   |   |
+| Erstellen | ✓ |   |   |   |
+| Löschen | ✓ |   |   |   |
+| Teams bearbeiten, denen sie angehören | ✓ |   |   |   |
+| Teams in von ihnen verwalteten Gruppen bearbeiten | ✓ |   |   |   |
 | Alle Teams anzeigen | ✓ | ✓ | ✓ |   |
-| Teams anzeigen, die mit ihren Gruppen verknüpft sind | ✓ | ✓ | ✓ |   |
+| Anzeigen der mit den Gruppen verknüpften Teams | ✓ | ✓ | ✓ |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Vorlagen
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |-----------------------|----------|--------|-------------|---------------|
-| Erstellen | ✓&#42; |   |   |   |
-| Löschen | ✓&#42; |   |   |   |
-| Freigeben | ✓&#42; |   |   |   |
-| Systemweit freigeben | ✓&#42; |   |   |   |
-| Anzeigen | ✓&#42; |   |   |   |
+| Erstellen | ✓ &#42; |   |   |   |
+| Löschen | ✓ &#42; |   |   |   |
+| Freigeben | ✓ &#42; |   |   |   |
+| Systemweit freigeben | ✓ &#42; |   |   |   |
+| Anzeigen | ✓ &#42; |   |   |   |
 | Kopieren | ✓ |   |   |   |
-| Bearbeiten von Vorlagendetails | ✓ |   |   |   |
+| Vorlagendetails bearbeiten | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Finanzdaten
 
@@ -304,67 +304,67 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf Finanzdaten hab
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |--------------------------------------------------------------|----------|--------|-------------|---------------|
-| Bearbeiten der Rollenabrechnung und der Kostensätze | ✓&#42; |   |   |   |
-| Bearbeiten der Benutzerabrechnung und der Kostensätze | ✓&#42; |   |   |   |
-| Anzeigen der Rollenabrechnung und der Kostensätze | ✓&#42; |   |   |   |
-| Anzeigen von Benutzerabrechnungs- und Kostensätzen | ✓&#42; |   |   |   |
+| Funktionsbezogene Abrechnung und Kostensätze bearbeiten | ✓ &#42; |   |   |   |
+| Benutzerfakturierung und Kostensätze bearbeiten | ✓ &#42; |   |   |   |
+| Funktionsbezogene Abrechnung und Kostensätze anzeigen | ✓ &#42; |   |   |   |
+| Benutzerfakturierung und Kostensätze anzeigen | ✓ &#42; |   |   |   |
 | Abrechnungsdatensätze verwalten | ✓ |   |   |   |
 | Ausgaben verwalten | ✓ |   |   |   |
-| Finanzdaten anzeigen | ✓&#42; | ✓&#42; |   |   |
-| <span class="preview">Ratenkarten verwalten</span> | ✓ |   |   |   |
-| Anzeigen von Informationen nach Kosten in den Tools für die Ressourcenplanung | ✓ |   |   |   |
-| Budgetressourcen in den Tools für die Ressourcenplanung&#42;&#42; | ✓ |   |   |   |
-| Anzeigen der Ressourcenzuordnung in den Tools für die Ressourcenplanung&#42; | ✓ | ✓ |   |   |
-| Risiken für Projekte erstellen | ✓ |   |   |   |
+| Finanzdaten anzeigen | ✓ &#42; | ✓ &#42; |   |   |
+| <span class="preview">Tarifkarten verwalten</span> | ✓ |   |   |   |
+| Informationen nach Kosten in den Ressourcenplanungs-Tools anzeigen | ✓ |   |   |   |
+| Budgetressourcen in den Ressourcenplanungs-Tools&#42;&#42; | ✓ |   |   |   |
+| Ressourcenzuordnung in den Ressourcenplanungs-Tools anzeigen&#42; | ✓ | ✓ |   |   |
+| Risiken in Projekten erstellen | ✓ |   |   |   |
 | Risiken in Projekten anzeigen | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
 ## Ressourcenverwaltung
 
-Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenverwaltung haben. Andere Lizenztypen können eingeschränkten oder keinen Zugriff auf Resource Management in Workfront haben.
+Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenverwaltung haben. Andere Lizenztypen können nur eingeschränkten oder gar keinen Zugriff auf die Ressourcenverwaltung in Workfront haben.
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |----------------------------------------------------------------|----------|--------|-------------|---------------|
-| Prioritäten und Budgetstunden im Planer bearbeiten | ✓&#42; |   |   |   |
-| Erstellen, Bearbeiten, Löschen von Ressourcen-Pools&#42;&#42; | ✓&#42; |   |   |   |
-| Geplante Stunden im Arbeitslastausgleich aktualisieren&#42;&#42;&#42; | ✓&#42; |   |   |   |
-| Anzeigen von Projektprioritäten im Ressourcenplaner | ✓&#42; |   |   |   |
-| Anzeigen der Ressourcenzuordnung in den Tools für die Ressourcenplanung | ✓&#42; | ✓&#42; |   |   |
-| Anzeigen von Ressourcen-Pools | ✓&#42; | ✓&#42; |   |   |
-| Budgetressourcen in den Tools für die Ressourcenplanung&#42;&#42; | ✓ |   |   |   |
-| Anhängen von Ressourcen an Projekte, Vorlagen und Benutzer | ✓ |   |   |   |
+| Prioritäten und Budgetstunden im Planer bearbeiten | ✓ &#42; |   |   |   |
+| Ressourcenpools erstellen, bearbeiten und löschen&#42;&#42; | ✓ &#42; |   |   |   |
+| Geplante Stunden im Workload Balancer aktualisieren&#42;&#42;&#42; | ✓ &#42; |   |   |   |
+| Projektprioritäten im Ressourcenplaner anzeigen | ✓ &#42; |   |   |   |
+| Ressourcenzuordnung in den Ressourcenplanungs-Tools anzeigen | ✓ &#42; | ✓ &#42; |   |   |
+| Ressourcenpools anzeigen | ✓ &#42; | ✓ &#42; |   |   |
+| Budgetressourcen in den Ressourcenplanungs-Tools&#42;&#42; | ✓ |   |   |   |
+| Ressourcenpools an Projekte, Vorlagen und Benutzer anhängen | ✓ |   |   |   |
 
 {style="table-layout:auto"}
 
-&#42; Mithilfe einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
+&#42; Mit einer Zugriffsebene können Workfront-Administratoren diese Funktion deaktivieren oder aktivieren.
 
-&#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzierungen. Wenn Sie Ressourcen-Management-Zugriff für einen Benutzer gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuweisungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Geschäftsfall anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Finanzberechtigungen für ein Objekt freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
+&#42;&#42;Erfordert zusätzlichen Zugriff auf Finanzdaten und Berechtigungen für Projektfinanzen. Wenn Sie einem Planer-Benutzer Zugriff auf die Ressourcenverwaltung gewähren, der keinen Zugriff auf Finanzdaten hat, kann der Benutzer die stündlichen Zuordnungen weiterhin im Ressourcenplaner sehen, aber nicht zur Kostenansicht wechseln oder den Business Case anzeigen. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md) und [Finanzberechtigungen für ein Objekt freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-financial-permissions-object.md).
 
-&#42;&#42;&#42;Erfordert Berechtigungen für Contribute für das Objekt, wobei &quot;Zuweisungen vornehmen&quot;unter &quot;Erweiterte Einstellungen&quot;aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Vererbte Berechtigungen und die Hierarchie der Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Überblick über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+&#42;&#42;&#42;Erfordert die Berechtigung für Contribute zum -Objekt, wobei „Zuweisungen vornehmen“ unter „Erweiterte Einstellungen“ aktiviert ist. Weitere Informationen finden Sie im Abschnitt [Vererbte Berechtigungen und die Hierarchie von Objekten](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#sharing-an-object) im Artikel [Übersicht über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-## Bereich &quot;Szenario-Planer&quot;
+## Bereich für Szenarienplaner
 
 | Aktion | Standard | Leicht | Mitwirkender oder Mitwirkende | Externer Benutzer |
 |-----------------------------------------------------------------------|----------|-------|-------------|---------------|
-| Vorhandene Pläne und Initiativen erstellen/bearbeiten | ✓ | ✓ |   |   |
-| Hinzufügen oder Bearbeiten von Informationen zu Aufgabenrollen in Plänen und Initiativen&#42; | ✓ | ✓ |   |   |
+| Erstellen/Bearbeiten vorhandener Pläne und Initiativen | ✓ | ✓ |   |   |
+| Informationen zu Aufgabengebieten in Plänen und Initiativen hinzufügen oder bearbeiten&#42; | ✓ | ✓ |   |   |
 | Hinzufügen oder Bearbeiten von Kosteninformationen zu Plänen und Initiativen&#42; | ✓ | ✓ |   |   |
-| Löschen von Plänen und Initiativen | ✓ | ✓ |   |   |
+| Pläne und Initiativen löschen | ✓ | ✓ |   |   |
 | Szenarien im Hauptmenü anzeigen | ✓ | ✓ |   |   |
-| Anzeigen von Plänen und Initiativen, die der Benutzer erstellt hat&#42; | ✓ | ✓ |   |   |
+| Pläne und Initiativen anzeigen, die der Benutzer erstellt hat&#42; | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}
 
 >[!NOTE]
 >
->Benutzer können einen Plan anzeigen, den ein anderer Benutzer nur erstellt hat, wenn ein Link zum Plan für sie freigegeben ist.
+>Benutzende können einen Plan, den ein anderer Benutzer erstellt hat, nur anzeigen, wenn eine Verknüpfung zum Plan für sie freigegeben wurde.
 
 &#42; Damit Benutzer Finanzdaten in einem Plan oder einer Initiative anzeigen können, benötigen sie Zugriff auf Finanzdaten. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
-## Workfront Goals Area
+## Workfront-Zielbereich
 
 <!-- ask Alina about this section -->
 
@@ -372,22 +372,22 @@ Nur Benutzer mit einer Standardlizenz können vollen Zugriff auf die Ressourcenv
 |---|---|---|
 | Erstellen |   | ✓ |
 | Alle Ziele bearbeiten/löschen |   | ✓ |
-| Ziele anzeigen im Hauptmenü | ✓ | ✓ |
-| Anzeigen des Zielbereichs über einen freigegebenen Link | ✓ | ✓ |
+| Ziele im Hauptmenü anzeigen | ✓ | ✓ |
+| Anzeigen des Bereichs „Ziele“ über einen freigegebenen Link | ✓ | ✓ |
 | Alle Ziele im System anzeigen | ✓ | ✓ |
 | Alle Ziele aktivieren/deaktivieren/schließen |   | ✓ |
 | Aktivitäten erstellen/bearbeiten/löschen |   | ✓ |
 | Ergebnisse erstellen/bearbeiten/löschen |   | ✓ |
-| Hinzufügen eines ausgerichteten Ziels |   | ✓ |
-| Fortschritt eines Ergebnisses oder einer Aktivität aktualisieren |   | ✓ |
-| Ziel, Ergebnis oder Aktivität besitzen | ✓ | ✓ |
+| Abgestimmtes Ziel hinzufügen |   | ✓ |
+| Aktualisieren des Fortschritts eines Ergebnisses oder einer Aktivität |   | ✓ |
+| Ein Ziel, ein Ergebnis oder eine Aktivität besitzen | ✓ | ✓ |
 | Kommentar zu einem Ziel | ✓ | ✓ |
 | Ziele kopieren |   | ✓ |
-| Ansicht des Bereichs &quot;Zielliste&quot;im linken Bereich | ✓ | ✓ |
-| Anzeigen des Bereichs Diagramme im linken Bereich | ✓ | ✓ |
-| Anzeigen der Zielausrichtung im linken Bereich | ✓ | ✓ |
-| Anzeigen des Bereichs Puls im linken Bereich | ✓ | ✓ |
-| Anzeigen des Eincheckbereichs im linken Bereich |   | ✓ |
-| Anzeigen des Einstellungsbereichs im linken Bereich | ✓ | ✓ |
-| Eine Liste von Zielen drucken | ✓ | ✓ |
+| Sehen Sie sich den Abschnitt „Zielliste“ im linken Bereich an | ✓ | ✓ |
+| Rufen Sie den Abschnitt Diagramme im linken Bedienfeld auf | ✓ | ✓ |
+| Rufen Sie im linken Bedienfeld den Abschnitt Zielausrichtung auf | ✓ | ✓ |
+| Sehen Sie sich den Abschnitt Pulse im linken Panel an | ✓ | ✓ |
+| Den Eincheckbereich im linken Bedienfeld anzeigen |   | ✓ |
+| Rufen Sie im linken Bedienfeld den Bereich Einstellungen auf | ✓ | ✓ |
+| Liste der Ziele drucken | ✓ | ✓ |
 

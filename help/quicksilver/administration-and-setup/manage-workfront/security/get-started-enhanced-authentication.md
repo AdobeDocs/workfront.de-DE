@@ -1,6 +1,6 @@
 ---
-title: Verbesserte Authentifizierung - Übersicht
-description: Ausgeblendet aus der Suche und aus der linken Navigationsleiste
+title: Erweiterte Authentifizierung - Übersicht
+description: Ausgeblendet für die Suche und in der linken Navigationsleiste
 hidefromtoc: true
 hide: true
 feature: System Setup and Administration
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Verbesserte Authentifizierung - Übersicht
+# Erweiterte Authentifizierung - Übersicht
 
 <!-- enhanced authentication is no longer available for workfront customers -->
 
 {{important-admin-console-onboard}}
 
-Adobe Workfront ändert die Systemverwaltung von Benutzern und Kennwörtern. Diese Änderungen werden in einer stufenweisen Version mit dem Namen **Erweiterte Authentifizierung** eingeführt. Die erweiterte Authentifizierung bietet Benutzern eine konsistentere und sicherere Anmeldeerfahrung für alle Workfront-Produkte und -Dienste.
+Adobe Workfront verändert die Systemverwaltung von Benutzenden und Kennwörtern. Diese Änderungen werden in einer stufenweisen Veröffentlichung mit der Bezeichnung **Erweiterte Authentifizierung** eingeführt. Die verbesserte Authentifizierung bietet Benutzenden ein konsistenteres und sichereres Anmeldeerlebnis für alle Workfront-Produkte und -Services.
 
-Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionalität:
+Die folgende Tabelle enthält Details zur aktuellen und künftigen Funktionalität:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -42,70 +42,70 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Aktivieren Sie einen einzigen Benutzernamen, der für alle Workfront-Produkte und -Dienste verwendet werden soll, einschließlich Schulung, Support und anderen</p> </td> 
+   <td> <p>Verwendung eines einzigen Benutzernamens für alle Workfront-Produkte und -Services aktivieren, einschließlich Schulung, Support und andere</p> </td> 
    <td>Nicht verfügbar</td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Verwendung derselben E-Mail-Adresse in Workfront-Instanzen zulassen</p> </td> 
-   <td> <p>✓</p> <p>Verfügbar ab Version 2019.3</p> </td> 
-   <td> <p>✓</p> <p>Verfügbar ab Version 2019.3</p> </td> 
-   <td> <p>✓</p> <p>Verfügbar ab Version 2019.3</p> </td> 
+   <td> <p>Verwendung derselben E-Mail-Adresse in allen Workfront-Instanzen zulassen</p> </td> 
+   <td> <p>✓</p> <p>Ab Version 2019.3 verfügbar</p> </td> 
+   <td> <p>✓</p> <p>Ab Version 2019.3 verfügbar</p> </td> 
+   <td> <p>✓</p> <p>Ab Version 2019.3 verfügbar</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Bei E-Mail-Adressen wird nicht zwischen Groß- und Kleinschreibung unterschieden</p> </td> 
-   <td> <p>✓</p> <p>Verfügbar ab Version 2019.3</p> </td> 
-   <td> <p>✓</p> <p>Mehrere Benutzer können nicht dieselbe E-Mail-Adresse haben, wenn sich die Adresse nur von Fall zu Fall unterscheidet. </p> </td> 
-   <td> <p>✓</p> <p>Mehrere Benutzer können nicht dieselbe E-Mail-Adresse haben, wenn sich die Adresse nur von Fall zu Fall unterscheidet. </p> <p>Workfront-Administratoren werden Ende 2019 benachrichtigt, damit sie mit der Behebung doppelter E-Mail-Adressen beginnen können.</p> </td> 
+   <td> <p>✓</p> <p>Ab Version 2019.3 verfügbar</p> </td> 
+   <td> <p>✓</p> <p>Mehrere Benutzer können nicht dieselbe E-Mail-Adresse haben, wenn sich die Adresse nur durch die Groß-/Kleinschreibung unterscheidet. </p> </td> 
+   <td> <p>✓</p> <p>Mehrere Benutzer können nicht dieselbe E-Mail-Adresse haben, wenn sich die Adresse nur durch die Groß-/Kleinschreibung unterscheidet. </p> <p>Workfront-Administratoren werden Ende 2019 benachrichtigt, wenn sie mit der Behebung doppelter E-Mail-Adressen beginnen.</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Optionen für die Kennwortverwaltung</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Kennwortverwaltungsoptionen</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>E-Mail zum Zurücksetzen des Kennworts für einen Benutzer als Workfront-Administrator aktivieren</p> </td> 
+   <td> <p>Initiieren einer E-Mail zum Zurücksetzen des Kennworts für einen Benutzer als Workfront-Administrator</p> </td> 
    <td> <p>Nicht verfügbar </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Festlegen eines temporären Kennworts für einen Benutzer als Workfront-Administrator</p> </td> 
+   <td> <p>Legen Sie ein temporäres Kennwort für einen Benutzer als Workfront-Administrator fest</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p>Nicht geplant</p> <p>Diese Funktion ist keine Best Practice für Sicherheitsmaßnahmen</p> </td> 
-   <td> <p>Nicht geplant</p> <p>Diese Funktion ist keine Best Practice für Sicherheitsmaßnahmen</p> </td> 
+   <td> <p>Nicht geplant</p> <p>Diese Funktion ist keine Best Practice für die Sicherheit</p> </td> 
+   <td> <p>Nicht geplant</p> <p>Diese Funktion ist keine Best Practice für die Sicherheit</p> </td> 
   </tr> 
   <tr> 
-   <td colspan="3"> <p><strong>Passwortrichtlinien-Anforderungen</strong> </p> </td> 
+   <td colspan="3"> <p><strong>Anforderungen an Passwortrichtlinien</strong> </p> </td> 
    <td> <p> </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Benutzer müssen Kennwörter nach einem bestimmten Zeitraum zurücksetzen</p> </td> 
+   <td> <p>Benutzer auffordern, Kennwörter nach einem bestimmten Zeitraum zurückzusetzen</p> </td> 
    <td>✓</td> 
    <td> <p>Nicht geplant</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Benutzer daran hindern, ein vorheriges Kennwort zu verwenden </p> </td> 
+   <td> <p>Benutzer von der Verwendung eines früheren Kennworts abhalten </p> </td> 
    <td>✓</td> 
    <td>Nicht geplant </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Schutz vor falschen Kennworteintragungsversuchen </p> </td> 
-   <td> <p>✓ </p> <p>Sperrt das Konto nach fünf falschen Kennworteintragungsversuchen. Die nach der Sperrung benötigte Wartezeit wird vom Workfront-Administrator konfiguriert</p> </td> 
-   <td> <p>✓</p> <p>Die Wartezeit wird exponentiell nach jedem aufeinander folgenden fehlerhaften Passwort erhöht, das auf Best Practices der Branche basiert. Die erforderliche Zeit kann vom Workfront-Administrator nicht konfiguriert werden.</p> </td> 
-   <td> <p>✓</p> <p>Verwendet einen Sperralgorithmus, der eine Vielzahl verdächtiger Verhaltensweisen proaktiv blockiert.</p> </td> 
+   <td> <p>Schutz vor falschen Passworteingabeversuchen </p> </td> 
+   <td> <p>✓ </p> <p>Sperrt das Konto nach 5 falschen Passworteingabeversuchen. Die nach der Sperrung erforderliche Wartezeit wird vom Workfront-Administrator konfiguriert</p> </td> 
+   <td> <p>✓</p> <p>Die Wartezeit wird nach jedem aufeinander folgenden falschen Kennwort auf der Grundlage von Best Practices der Branche exponentiell erhöht. Die erforderliche Zeit kann vom Workfront-Administrator nicht konfiguriert werden</p> </td> 
+   <td> <p>✓</p> <p>Verwendet einen Sperralgorithmus, der proaktiv eine Vielzahl verdächtiger Verhaltensweisen blockiert.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Muss aus Kleinbuchstaben, Großbuchstaben, Zahlen und Sonderzeichen bestehen</p> </td> 
+   <td> <p>Kombination aus Kleinbuchstaben, Großbuchstaben, Zahlen und Sonderzeichen erforderlich</p> </td> 
    <td>✓</td> 
-   <td> <p>✓ </p> <p>Höhere Flexibilität bei der Auswahl bestimmter Anforderungen</p> </td> 
+   <td> <p>✓ </p> <p>Höhere Flexibilität bei der Auswahl spezifischer Anforderungen</p> </td> 
    <td> <p>✓</p> <p> 
      </p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Mindestens Kennwortlänge festlegen </p> </td> 
+   <td> <p>Festlegen einer Mindestkennwortlänge </p> </td> 
    <td> Nicht verfügbar </td> 
    <td> ✓ </td> 
    <td> <p>✓</p> </td> 
@@ -119,13 +119,13 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
    </tr>
   --> 
   <tr> 
-   <td colspan="3"> <p><strong>Unterstützung des Single Sign-On-Protokolls</strong></p> </td> 
+   <td colspan="3"> <p><strong>Unterstützung des Single Sign-On Protokolls</strong></p> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Unterstützt SSO-Integrationen, die mit Active Directory- und LDAP-Protokollen konform sind</p> </td> 
    <td> ✓ </td> 
-   <td> <p> Veraltet</p> <p>Active Directory-, Azure- und LDAP-Systeme sollten SAML 2.0 verwenden</p> </td> 
+   <td> <p> Veraltet</p> <p>Active Directory-, Azure- und LDAP-Systeme sollten SAML 2.0 verwenden.</p> </td> 
    <td> <p>Veraltet</p> <p>Active Directory-, Azure- und LDAP-Systeme können mit verschlüsseltem SAML 2.0 oder OpenID Connect konfiguriert werden.</p> </td> 
   </tr> 
   <tr> 
@@ -135,19 +135,19 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Unterstützt offene ID Connect-Protokolle</p> </td> 
+   <td> <p>Unterstützt Open ID Connect-Protokolle</p> </td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p> Konfigurieren der Workfront-Anmeldeseite, um immer zur Anmeldeseite des Identitätsanbieters umzuleiten </p> </td> 
-   <td> Standardmäßig aktiviert und kann nicht deaktiviert werden</td> 
-   <td> <p>✓</p> <p>Der Workfront-Administrator kann die Anmeldeseite konfigurieren, um zur Anmeldeseite des Identitätsanbieters umzuleiten, oder eine Anmelde-Schaltfläche oder Schaltflächen konfigurieren.</p> </td> 
-   <td> <p>✓</p> <p> Workfront-Administratoren können die Anmeldeseite so konfigurieren, dass sie zur Anmeldeseite des Identitätsanbieters weitergeleitet wird, oder eine Anmelde-Schaltfläche oder Schaltflächen konfigurieren.</p> </td> 
+   <td> <p> Konfigurieren Sie die Anmeldeseite von Workfront so, dass sie immer zur Anmeldeseite von Identity Provider umgeleitet wird </p> </td> 
+   <td> Standardmäßig aktiviert und nicht deaktiviert werden</td> 
+   <td> <p>✓</p> <p>Workfront-Admins können die Anmeldeseite so konfigurieren, dass sie zur Anmeldeseite des Identitätsanbieters weiterleitet, oder sie können eine Anmelde-Schaltfläche oder Schaltflächen konfigurieren.</p> </td> 
+   <td> <p>✓</p> <p> Workfront-Admins können die Anmeldeseite so konfigurieren, dass sie zur Anmeldeseite des Identitätsanbieters weiterleitet, oder sie können eine Anmelde-Schaltfläche oder Schaltflächen konfigurieren.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Jede Instanz kann mehrere SSO-Anbieter aktivieren</p> </td> 
+   <td> <p>Zulassen, dass jede Instanz mehrere SSO-Provider aktiviert</p> </td> 
    <td> <p>K. A.</p> </td> 
    <td> <p>Nicht geplant</p> </td> 
    <td> <p>✓</p> </td> 
@@ -157,13 +157,13 @@ Die folgende Tabelle enthält Details zur aktuellen und zukünftigen Funktionali
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ein einziger Benutzername und ein Kennwort für die Vorschau von Umgebungen</p> </td> 
+   <td> <p>Ein einzelner Benutzername und ein Passwort für die Vorschau-Umgebung</p> </td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td> <p>Ein einzelner Benutzername und ein Kennwort für Sandbox-Umgebungen</p> </td> 
+   <td> <p>Ein einzelner Benutzername und ein Passwort für Sandbox-Umgebungen</p> </td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>Nicht verfügbar</p> </td> 
    <td> <p>✓</p> </td> 

@@ -21,52 +21,52 @@ Ein externes Suchfeld in einem benutzerdefinierten Formular ruft eine externe AP
 
 Dieser Artikel enthält Beispiele für die Verwendung des externen Suchfelds, um dieselbe Instanz von Workfront oder eine öffentliche API aufzurufen. Sie können die externe Suche auch verwenden, um mit einem externen System wie Jira, Salesforce oder ServiceNow zu kommunizieren.
 
-Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Lookup-Komponenten finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Weitere Informationen zum Hinzufügen eines externen Suchfelds zu einem benutzerdefinierten Formular und zusätzliche Definitionen der externen Suchkomponenten finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-## Richten Sie ein externes Suchfeld für dieselbe Instanz von Workfront ein
+## Einrichten eines externen Suchfelds für dieselbe Instanz von Workfront
 
 Sie können die externe Suche verwenden, um Daten aus Ihrer Workfront-Instanz in das benutzerdefinierte Formular zu übertragen.
 
-### Native Workfront-Feldwerte in der externen Suche verwenden
+### Verwenden von nativen Workfront-Feldwerten in der externen Suche
 
-In diesem Beispiel wird gezeigt, wie die Workfront-API aufgerufen und Daten aus dem vorhandenen Feld &quot;Statusabfrage&quot;in Ihr externes Suchfeld übertragen werden.
+Dieses Beispiel zeigt, wie Sie die Workfront-API aufrufen und Daten aus dem bestehenden Feld „Statusabfrage“ in Ihr externes Suchfeld importieren.
 
 1. Öffnen Sie das benutzerdefinierte Formular.
-1. Suchen Sie auf der linken Seite des Bildschirms nach **Externer Suchvorgang** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
-1. Geben Sie den **Titel** und den **Namen** für das Feld ein.
+1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Geben Sie die **Bezeichnung** und **Name** für das Feld ein.
 1. Wählen Sie das **Format** für das Feld aus.
-1. Geben Sie den API-Aufruf im Feld **Basis-API-URL** ein.
+1. Geben Sie den API-Aufruf in das Feld **Basis-API** URL ein.
 
-   * Verwenden Sie $$HOST für die URL, um auf dieselbe Instanz von Workfront zu verweisen, in der sich das benutzerdefinierte Formular befindet.
-   * Um die Ergebnisse anhand der Abfrage eines anderen Felds zu filtern, fügen Sie $$QUERY hinzu.
+   * Um auf dieselbe Instanz von Workfront zu verweisen, in der sich das benutzerdefinierte Formular befindet, verwenden Sie $$HOST für die URL.
+   * Um die Ergebnisse basierend auf der Abfrage eines anderen Felds zu filtern, fügen Sie $$QUERY hinzu.
 
    **Beispiel**
    `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
 
-1. Überprüfen Sie die **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
+1. Überprüfen Sie **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
 
-   Ein Abhängigkeitsfeld kann ein beliebiges benutzerdefiniertes oder natives Feld sein, das auf der Detailseite des Objekts vorhanden ist.
+   Ein Abhängigkeitsfeld kann jedes benutzerdefinierte oder native Feld sein, das auf der Detailseite des -Objekts vorhanden ist.
 
-   In diesem Beispiel wird der `{DE:StatusQuery}` durch den Wert des benutzerdefinierten Felds StatusQuery ersetzt.
+   In diesem Beispiel wird der `{DE:StatusQuery}` durch den Wert des benutzerdefinierten StatusQuery-Felds ersetzt.
 
-1. Wählen Sie die **HTTP-Methode** aus.
+1. Wählen Sie die **HTTP-Methode**.
 
-   Dies ist meist **Get**.
+   Dies wird höchstwahrscheinlich &quot;**&quot;**.
 
-1. Geben Sie den **JSON-Pfad** ein, um die Ergebnisse aus Ihrem API-Aufruf zu erhalten.
+1. Geben Sie den **JSON-Pfad** ein, um die Ergebnisse aus Ihrem API-Aufruf abzurufen.
 
    **Beispiel**
    `$.data[*].name`
 
    >[!NOTE]
    >
-   >**Kopfzeileninformationen** sind für einen Aufruf an dieselbe Workfront-Instanz nicht erforderlich.
+   >**Header**-Informationen sind für einen Aufruf derselben Workfront-Instanz nicht erforderlich.
 
-1. Klicken Sie auf **Anwenden**.
+1. Klicken Sie **Apply**.
 
-   ![Einrichten des API-Aufrufs für Workfront in benutzerdefiniertem Formular](assets/external-lookup-to-workfront.png)
+   ![Einrichtung eines API-Aufrufs an Workfront in benutzerdefinierter Form](assets/external-lookup-to-workfront.png)
 
-   Wenn das benutzerdefinierte Formular einem Workfront-Objekt (in diesem Beispiel einem Projekt) hinzugefügt wird, sieht es ähnlich aus.
+   Wenn das benutzerdefinierte Formular einem Workfront-Objekt (in diesem Beispiel einem Projekt) hinzugefügt wird, sieht es in etwa wie folgt aus.
 
    ![Benutzerdefiniertes Formular mit externem Suchfeld](assets/external-lookup-project-status-example1.png)
 
@@ -74,128 +74,128 @@ In diesem Beispiel wird gezeigt, wie die Workfront-API aufgerufen und Daten aus 
 
 ### Verwenden benutzerdefinierter Feldwerte in der externen Suche
 
-In diesem Beispiel wird gezeigt, wie Sie die Workfront-API aufrufen und Daten aus einem benutzerdefinierten Feld in Ihr externes Suchfeld übertragen. Das benutzerdefinierte Beispielfeld heißt &quot;Benutzerdefinierte Farben&quot;.
+Dieses Beispiel zeigt, wie Sie die Workfront-API aufrufen und Daten aus einem benutzerdefinierten Feld in Ihr externes Suchfeld einfügen. Das benutzerdefinierte Beispielfeld heißt „Benutzerdefinierte Farben“.
 
 1. Öffnen Sie das benutzerdefinierte Formular.
-1. Suchen Sie auf der linken Seite des Bildschirms nach **Externer Suchvorgang** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
-1. Geben Sie den **Titel** und den **Namen** für das Feld ein.
+1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Geben Sie die **Bezeichnung** und **Name** für das Feld ein.
 1. Wählen Sie das **Format** für das Feld aus.
-1. Geben Sie den API-URL-Aufruf im Feld **Basis-API-URL** ein.
+1. Geben Sie den API-URL-Aufruf in das Feld **Basis-API** URL ein.
 
    **Beispiel**
    `$$HOST/attask/api/v18.0/PORT/search?ID={portfolioID}&fields=parameterValues`
 
-1. Überprüfen Sie die **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
+1. Überprüfen Sie **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
 
-   Ein Abhängigkeitsfeld kann ein beliebiges benutzerdefiniertes oder natives Feld sein, das auf der Detailseite des Objekts vorhanden ist.
+   Ein Abhängigkeitsfeld kann jedes benutzerdefinierte oder native Feld sein, das auf der Detailseite des -Objekts vorhanden ist.
 
-1. Wählen Sie die **HTTP-Methode** aus.
+1. Wählen Sie die **HTTP-Methode**.
 
-   Dies ist meist **Get**.
+   Dies wird höchstwahrscheinlich &quot;**&quot;**.
 
-1. Geben Sie den **JSON-Pfad** ein, um die Ergebnisse aus Ihrem API-Aufruf zu erhalten.
+1. Geben Sie den **JSON-Pfad** ein, um die Ergebnisse aus Ihrem API-Aufruf abzurufen.
 
    **Beispiel**
    `$.data[*].parameterValues.["DE:Combo Colors"]`
 
-   * &quot;parameterValues&quot;bezieht sich auf jedes benutzerdefinierte Feld in Workfront für das Objekt, auf dem Sie sich befinden.
-   * In diesem Beispiel ist &quot;DE:Combo Colors&quot;das spezifische benutzerdefinierte Feld, das die Werte enthält, die Sie abrufen möchten.
+   * „parameterValues“ bezieht sich auf jedes benutzerdefinierte Feld in Workfront für das Objekt, an dem Sie sich befinden.
+   * In diesem Beispiel ist „DE:Combo Colors“ das spezifische benutzerdefinierte Feld, das die abzurufenden Werte enthält.
 
    >[!NOTE]
    >
-   >**Kopfzeileninformationen** sind für einen Aufruf an dieselbe Workfront-Instanz nicht erforderlich.
+   >**Header**-Informationen sind für einen Aufruf derselben Workfront-Instanz nicht erforderlich.
 
-1. Klicken Sie auf **Anwenden**.
+1. Klicken Sie **Apply**.
 
-   Wenn das benutzerdefinierte Formular einem Workfront-Objekt hinzugefügt wird, werden alle Werte im Feld &quot;Kombinationsfarben&quot;in der Dropdown-Liste Externes Suchfeld angezeigt.
+   Wenn das benutzerdefinierte Formular zu einem Workfront-Objekt hinzugefügt wird, werden alle Werte im Feld „Kombinationsfarben“ in der Dropdown-Liste Externes Suchfeld angezeigt.
 
 ## Einrichten eines externen Suchfelds für die Workfront Planning-API
 
-Ein Endpunkt ist in der Workfront Planning-API verfügbar, um Datensätze über die Get-Methode nach Datensatz-Typ-ID zu suchen. Mit diesem Endpunkt können Sie auf Datensätze der Planung in externen Suchfeldern verweisen.
+In der Workfront Planning-API ist ein Endpunkt verfügbar, mit dem Datensätze nach Datensatztyp-ID über die Get-Methode gesucht werden können. Sie können diesen Endpunkt verwenden, um Planungsdatensätze in externen Suchfeldern zu referenzieren.
 
 * **Basis-API-URL:** `$$HOST/maestro/api/v1/records/search?recordTypeId={recordTypeID}`
-* **HTTP-Methode:** Abrufen
+* **HTTP-Methode:** GET
 * **JSON-Pfad:** `$.records[*].data.{fieldID}`
 
-  **{fieldID}** ist das Feld, das in den externen Suchergebnissen im benutzerdefinierten Formular für Endbenutzer angezeigt werden soll.
+  **{fieldID}** ist das Feld, das im benutzerdefinierten Formular für Endbenutzer in den externen Suchergebnissen angezeigt werden soll.
 
 Weitere Informationen finden Sie unter [Workfront Planning API](/help/quicksilver/planning/general/planning-api-basics.md).
 
-## Externes Suchfeld für eine öffentliche API einrichten
+## Einrichten eines externen Suchfelds für eine öffentliche API
 
 Mit der externen Suche können Sie eine externe, öffentliche API aufrufen und Daten abrufen.
 
-In diesem Beispiel wird gezeigt, wie eine -API von Ländern (z. B. <https://api.first.org/data/v1/countries>) aufgerufen wird, damit Sie nicht alle Ländernamen in den Dropdown-Optionen hartcodieren müssen.
+Dieses Beispiel zeigt, wie Sie eine API von Ländern aufrufen (z. B. <https://api.first.org/data/v1/countries>), damit Sie nicht alle Ländernamen in den Dropdown-Optionen hart codieren müssen.
 
 1. Öffnen Sie das benutzerdefinierte Formular.
-1. Suchen Sie auf der linken Seite des Bildschirms nach **Externer Suchvorgang** und ziehen Sie ihn in einen Bereich auf der Arbeitsfläche.
-1. Geben Sie den **Titel** und den **Namen** für das Feld ein.
+1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
+1. Geben Sie die **Bezeichnung** und **Name** für das Feld ein.
 1. Wählen Sie das **Format** für das Feld aus.
-1. Geben Sie den API-URL-Aufruf im Feld **Basis-API-URL** ein.
+1. Geben Sie den API-URL-Aufruf in das Feld **Basis-API** URL ein.
 
    * Sie können $$QUERY hinzufügen, um die Abfragefilterung für Ihre Endbenutzer zu implementieren.
 
    **Beispiele**
 Listet alle Länder auf: <https://api.first.org/data/v1/countries>
 
-   Ermöglicht dem Benutzer die Suche nach einem beliebigen Land im Dropdown-Feld: <https://api.first.org/data/v1/countries?q=$$QUERY>
+   Ermöglicht dem Benutzer, im Dropdown-Feld nach einem beliebigen Land zu suchen: <https://api.first.org/data/v1/countries?q=$$QUERY>
 
-   Ermöglicht dem Benutzer die Suche nach einem Land in einer Region: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
+   Ermöglicht die Suche nach einem Land in einer Region: <https://api.first.org/data/v1/countries?region={DE:Region}&q=$$QUERY>
 
    * Die verfügbaren Regionen werden in Workfront in einem separaten benutzerdefinierten Feld definiert.
-   * Wenn der Benutzer eine Region im Formular auswählt, zeigt das externe Suchfeld nur die Länder in dieser Region an (das Land, in dem sich die Region befindet, die in der API definiert ist). Der Benutzer kann auch nach einem Land in der ausgewählten Region suchen.
+   * Wenn Benutzende im Formular eine Region auswählen, zeigt das Feld Externe Suche nur die Länder in dieser Region an (welches Land sich in welcher Region befindet, wird in der API definiert). Der Benutzer kann auch in der ausgewählten Region nach einem Land suchen.
 
-1. Überprüfen Sie die **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
+1. Überprüfen Sie **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
 
-   Ein Abhängigkeitsfeld kann ein beliebiges benutzerdefiniertes oder natives Feld sein, das auf der Detailseite des Objekts vorhanden ist.
+   Ein Abhängigkeitsfeld kann jedes benutzerdefinierte oder native Feld sein, das auf der Detailseite des -Objekts vorhanden ist.
 
    In diesem Beispiel wird der `{DE:Region}` durch den Wert des benutzerdefinierten Felds Region ersetzt.
 
-1. Wählen Sie die **HTTP-Methode** aus.
+1. Wählen Sie die **HTTP-Methode**.
 
-   Dies ist meist **Get**.
+   Dies wird höchstwahrscheinlich &quot;**&quot;**.
 
-1. Geben Sie den **JSON-Pfad** ein, um die Ergebnisse aus Ihrem API-Aufruf zu erhalten.
+1. Geben Sie den **JSON-Pfad** ein, um die Ergebnisse aus Ihrem API-Aufruf abzurufen.
 
-   Diese Option ermöglicht das Extrahieren von Daten aus der JSON-Datei, die von der API-URL zurückgegeben wird. Es dient dazu, festzulegen, welche Werte aus dem JSON-Bereich in den Dropdown-Optionen angezeigt werden.
+   Diese Option ermöglicht das Extrahieren von Daten aus der von der API-URL zurückgegebenen JSON. Sie dient als Möglichkeit, festzulegen, welche Werte aus dem JSON-Code in den Dropdown-Optionen angezeigt werden.
 
    **Beispiel**
    `$.data[*].country`
 
-1. (Optional) Klicken Sie auf **Kopfzeile hinzufügen** und geben Sie das Schlüssel-Wert-Paar ein oder fügen Sie es ein, das für die Authentifizierung mit der API erforderlich ist.
+1. (Optional) Klicken Sie auf **Kopfzeile hinzufügen** und geben Sie das Schlüssel-Wert-Paar ein, das für die Authentifizierung mit der API erforderlich ist, oder fügen Sie es ein.
 
    >[!NOTE]
    >
-   >Die Felder &quot;Kopfzeile&quot;sind kein sicherer Ort zum Speichern von Anmeldeinformationen. Achten Sie darauf, was Sie eingeben und speichern.
+   >Die Header-Felder sind kein sicherer Ort zum Speichern von Anmeldeinformationen, und Sie sollten darauf achten, was Sie eingeben und speichern.
 
-1. (Optional) Wählen Sie &quot;**Dropdown mit Mehrfachauswahl**&quot;aus, damit der Benutzer mehr als einen Wert in der Dropdown-Liste auswählen kann.
+1. (Optional) Wählen Sie **Mehrfachauswahl-Dropdown** aus, damit Benutzende mehr als einen Wert im Dropdown-Menü auswählen können.
 
-1. Klicken Sie auf **Anwenden**.
+1. Klicken Sie **Apply**.
 
-   ![Einrichtung des API-Aufrufs für die öffentliche API in benutzerdefiniertem Formular](assets/external-lookup-to-api-for-countries.png)
+   ![Einrichtung eines API-Aufrufs an eine öffentliche API in benutzerdefinierter Form](assets/external-lookup-to-api-for-countries.png)
 
-   Wenn das benutzerdefinierte Formular einem Workfront-Objekt (in diesem Beispiel einem Projekt) hinzugefügt wird, sieht es ähnlich aus.
+   Wenn das benutzerdefinierte Formular einem Workfront-Objekt (in diesem Beispiel einem Projekt) hinzugefügt wird, sieht es in etwa wie folgt aus.
 
    ![Benutzerdefiniertes Formular mit externem Suchfeld](assets/external-lookup-countries-example1.png)
 
-   ![Externe Suchoptionen für ein Land basierend auf Region](assets/external-lookup-countries-example2.png)
+   ![Externe Suchoptionen für ein Land basierend auf einer Region](assets/external-lookup-countries-example2.png)
 
 ## Zusätzliche Anwendungsfälle für externe Suchfelder
 
-Es gibt viele weitere Anwendungsfälle zum Erstellen einer externen Suche.
+Es gibt viele weitere Anwendungsfälle für die Erstellung einer externen Suche.
 
-**Anwendungsfall:** Ersetzen Sie typeahead-Felder, da sie Probleme mit der Berichterstellung verursachen können.
-**Lösung:** Verwenden Sie einen API-Aufruf für vorhandene Objekte im System.
+**Anwendungsfall:** Ersetzen Sie Felder mit automatischer Textvervollständigung, da sie Probleme beim Reporting verursachen können.
+**Lösung** Verwenden Sie einen API-Aufruf an vorhandene Objekte im System.
 
-Beispiel einer Basis-API-URL für Vorlagen, um ein typeahead -Feld zu ersetzen:
+Beispiel-Basis-API-URL für Vorlagen, um ein Feld mit automatischer Textvervollständigung zu ersetzen:
 `$$HOST/attask/api/v17.0/tmpl/search?isActive=true&name_Sort=asc`
 
-**Anwendungsfall:** Erstellen Sie Dropdown-Felder mit weiteren Funktionen (z. B. ist eine Zeilenumbruch im Feld Externes Suchfeld vorhanden).
-**Lösung:** Verwenden Sie einen API-Aufruf für vorhandene Objekte im System oder erstellen Sie ein neues Objekt und verwenden Sie einen API-Aufruf für dieses Objekt.
+**Anwendungsfall:** Dropdown-Felder mit mehr Funktionen erstellen (z. B. Zeilenumbruch im externen Suchfeld).
+**Lösung** Verwenden Sie einen API-Aufruf an vorhandene Objekte im System oder erstellen Sie ein neues Objekt und verwenden Sie einen API-Aufruf an dieses Objekt.
 
-**Anwendungsfall:** Definieren Sie eine Möglichkeit für Benutzer, ihre eigenen Felder außerhalb des benutzerdefinierten Formularbereichs zu verwalten. Richten Sie das externe Suchfeld ein und Sie können Benutzern die Objekte des Felds zuweisen. Diese Option eignet sich gut für Felder und Teams mit hoher Wartung.
-**Lösung:** Erstellen Sie ein neues Objekt und verwenden Sie einen API-Aufruf für dieses Objekt.
+**Anwendungsfall:** Definieren Sie eine Möglichkeit für Benutzende, ihre eigenen Felder außerhalb des Bereichs für benutzerdefinierte Formulare zu verwalten. Richten Sie das externe Suchfeld ein, und Sie können den Objekten, aus denen das Feld besteht, Benutzer zuweisen. Diese Option eignet sich gut für Felder und Teams mit hoher Wartung.
+**Lösung:** Erstellen Sie ein neues Objekt und verwenden Sie einen API-Aufruf an dieses Objekt.
 
-**Anwendungsfall:** Integration mit Objekten außerhalb von Workfront. Beispielsweise beim Zugriff auf ein anderes System, um den Namen jedes Benutzers abzurufen, anstatt in einem typeahead -Feld eingeschränkt zu sein.
-**Lösung:** Webhook-/Fusion-Automatisierung zur Verbindung mit anderen Systemen.
+**Anwendungsfall:** Integration mit Objekten außerhalb von Workfront. Beispielsweise den Zugriff auf ein anderes System, um den Namen jedes Benutzers abzurufen, anstatt in einem Feld mit automatischer Textvervollständigung eingeschränkt zu werden.
+**Lösung:** Webhook/Fusion-Automatisierung zur Verbindung mit anderen Systemen.
 

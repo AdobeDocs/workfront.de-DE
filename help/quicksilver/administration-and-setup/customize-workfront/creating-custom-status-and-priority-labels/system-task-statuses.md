@@ -4,7 +4,7 @@ content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
 title: Status von Systemaufgaben
-description: Die drei in Workfront integrierten Systemaufgabenstatus sind erforderlich. Das bedeutet, dass Sie sie entsperren, umbenennen und neu anordnen können, sie jedoch nicht ausblenden oder löschen können. Sie können auch neue Systemaufgabenstatus hinzufügen, die den Anforderungen in Ihrer Organisation entsprechen. Das Ändern des Status einer Aufgabe ist normalerweise ein manueller Prozess, aber manchmal wird der Status einer Aufgabe automatisch geändert, je nach anderen Faktoren, die im System auftreten.
+description: Die drei integrierten Systemaufgabenstatus in Workfront sind erforderlich, d. h. Sie können sie entsperren, umbenennen und neu anordnen, sie jedoch nicht ausblenden oder löschen. Sie können auch neue Systemaufgabenstatus hinzufügen, um sie an die Anforderungen in Ihrem Unternehmen anzupassen. Das Ändern des Status einer Aufgabe ist in der Regel ein manueller Prozess, aber manchmal wird der Status einer Aufgabe automatisch geändert, abhängig von anderen Faktoren, die im System auftreten.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 # Status von Systemaufgaben
 
-Die drei in Workfront integrierten Systemaufgabenstatus sind erforderlich. Das bedeutet, dass Sie sie entsperren, umbenennen und neu anordnen können, sie jedoch nicht ausblenden oder löschen können.
+Die drei integrierten Systemaufgabenstatus in Workfront sind erforderlich, d. h. Sie können sie entsperren, umbenennen und neu anordnen, sie jedoch nicht ausblenden oder löschen.
 
-Sie können auch neue Systemaufgabenstatus hinzufügen, die den Anforderungen in Ihrer Organisation entsprechen.
+Sie können auch neue Systemaufgabenstatus hinzufügen, um sie an die Anforderungen in Ihrem Unternehmen anzupassen.
 
-Das Ändern des Status einer Aufgabe ist normalerweise ein manueller Prozess. Es gibt jedoch in der folgenden Liste Zeiten, in denen der Status einer Aufgabe automatisch geändert wird, abhängig von anderen Faktoren, die im System auftreten.
+Das Ändern des Status einer Aufgabe ist in der Regel ein manueller Prozess. Es gibt jedoch Zeiten, die in der folgenden Liste aufgeführt sind, wenn der Status einer Aufgabe automatisch geändert wird, abhängig von anderen Faktoren, die im System auftreten.
 
-Die folgenden Aufgabenstatus werden Ihrer Workfront-Instanz bereitgestellt:
+Die folgenden Aufgabenstatus werden mit Ihrer Workfront-Instanz bereitgestellt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,26 +32,26 @@ Die folgenden Aufgabenstatus werden Ihrer Workfront-Instanz bereitgestellt:
  <col> 
  <thead> 
   <tr> 
-   <th>Status der Systemaufgaben</th> 
+   <th>Status der Systemaufgabe</th> 
    <th>Wenn dieser Status auftritt</th> 
-   <th>Aktionen, die auftreten, wenn eine Aufgabe diesen Status hat</th> 
+   <th>Aktionen, die ausgeführt werden, wenn eine Aufgabe diesen Status aufweist</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>Neu (erforderlicher Status)</td> 
    <td>Dies ist der Standardstatus für jede neu erstellte Aufgabe.</td> 
-   <td>Wenn sich die Aufgabe in einem Projekt mit dem Status "Aktuell"befindet, wird die Aufgabe auf der Registerkarte "Arbeitsanforderungen"der Benutzer angezeigt, die den Aufgaben zugewiesen sind. Benutzer können nun mit der Arbeit beginnen.</td> 
+   <td>Wenn sich die Aufgabe in einem Projekt mit dem Status „Aktuell“ befindet, wird die Aufgabe auf der Registerkarte Arbeitsaufträge der Benutzer angezeigt, die den Aufgaben zugewiesen sind. Benutzer können jetzt mit der Arbeit an der Aufgabe beginnen.</td> 
   </tr> 
   <tr> 
-   <td>Wird ausgeführt (erforderlicher Status)</td> 
-   <td>Sie können eine Aufgabe in diesen Status einfügen, um anzugeben, dass die Arbeit an dieser Aufgabe begonnen hat.</td> 
-   <td> <p>Wenn Sie eine Aufgabe als In Bearbeitung markieren, zeigt die Aufgabe einen Wert für das tatsächliche Startdatum an.</p> <p>Der Fortschritt der Aufgabe wird erst aufgezeichnet, wenn Sie den Prozentsatz der abgeschlossenen Aufgaben manuell aktualisieren.</p> </td> 
+   <td>In Bearbeitung (erforderlicher Status)</td> 
+   <td>Sie können eine Aufgabe in diesen Status setzen, um anzugeben, dass die Arbeit an dieser Aufgabe begonnen hat.</td> 
+   <td> <p>Wenn Sie eine Aufgabe als In Bearbeitung markieren, zeigt die Aufgabe einen Wert für das tatsächliche Startdatum an.</p> <p>Der Fortschritt der Aufgabe wird erst aufgezeichnet, wenn Sie den abgeschlossenen Prozentsatz der Aufgabe manuell aktualisieren.</p> </td> 
   </tr> 
   <tr> 
    <td>Abgeschlossen (erforderlicher Status)</td> 
-   <td> <p>Sie können eine Aufgabe manuell als abgeschlossen kennzeichnen, wenn die Arbeit daran abgeschlossen ist.</p> <p>Wenn der Tracking-Modus einer Aufgabe auf Automatisch abschließen festgelegt ist, wird die Aufgabe automatisch als abgeschlossen markiert, wenn sie das geplante Abschlussdatum erreicht.</p> </td> 
-   <td> <p>Wenn eine Aufgabe abgeschlossen ist, wird der prozentuale Abschluss der Aufgabe als 100 % markiert. Die Aufgabe wird nach Abschluss aus der Liste "Meine Arbeit"des Verantwortlichen im Bereich "Startseite"entfernt.</p> <p>Wenn Sie eine Aufgabe als abgeschlossen markieren, zeigt die Aufgabe einen Wert für das tatsächliche Abschlussdatum an.</p> <p><b>HINWEIS</b>: Wenn die Aufgabe unvollständige Probleme aufweist und Sie den Aufgabenstatus in "Abgeschlossen"ändern, ändert sich der Status automatisch in "Abgeschlossen - Ausstehende Probleme".</p> </td> 
+   <td> <p>Sie können eine Aufgabe manuell als abgeschlossen markieren, wenn die Bearbeitung abgeschlossen ist.</p> <p>Wenn der Überwachungsmodus einer Aufgabe auf „Automatisch abschließen“ festgelegt ist, wird die Aufgabe automatisch als „Abgeschlossen“ markiert, wenn sie das geplante Abschlussdatum erreicht.</p> </td> 
+   <td> <p>Wenn eine Aufgabe abgeschlossen ist, wird der abgeschlossene Prozentwert der Aufgabe als 100 % markiert. Die Aufgabe wird aus der Liste Meine Arbeit des Verantwortlichen im Bereich Startseite entfernt, wenn sie abgeschlossen ist.</p> <p>Wenn Sie eine Aufgabe als abgeschlossen markieren, wird in der Aufgabe ein Wert für das tatsächliche Abschlussdatum angezeigt.</p> <p><b>HINWEIS</b>: Wenn die Aufgabe unvollständige Probleme aufweist und Sie den Aufgabenstatus in „Abgeschlossen“ ändern, ändert sich der Status automatisch in „Abgeschlossen - Ausstehende Probleme“.</p> </td> 
   </tr> 
  </tbody> 
 </table>

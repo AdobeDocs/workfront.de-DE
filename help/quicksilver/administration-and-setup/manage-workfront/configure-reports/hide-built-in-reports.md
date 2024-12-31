@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;reporting
 navigation-topic: configure-reports-administration
-title: Ausblenden integrierter Berichte
-description: Adobe Workfront verfügt über eine umfassende Liste integrierter Standardberichte, auf die Benutzer zugreifen und diese anzeigen können. Als Workfront-Administrator können Sie die Zugriffsebene eines Benutzers ändern, um integrierte Berichte auszublenden, sodass Benutzer keinen Zugriff darauf haben.
+title: Integrierte Berichte ausblenden
+description: Adobe Workfront verfügt über eine umfangreiche Liste integrierter Standardberichte, auf die Benutzende zugreifen und die sie anzeigen können. Als Workfront-Administrator können Sie die Zugriffsebene von Benutzenden ändern, um integrierte Berichte auszublenden, sodass die Benutzenden keinen Zugriff darauf haben.
 feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 ---
 
-# Ausblenden integrierter Berichte
+# Integrierte Berichte ausblenden
 
-Adobe Workfront verfügt über eine umfassende Liste integrierter Standardberichte, auf die Benutzer zugreifen und diese anzeigen können. Als Workfront-Administrator können Sie die Zugriffsebene eines Benutzers ändern, um integrierte Berichte auszublenden, sodass Benutzer keinen Zugriff darauf haben.
+Adobe Workfront verfügt über eine umfangreiche Liste integrierter Standardberichte, auf die Benutzende zugreifen und die sie anzeigen können. Als Workfront-Administrator können Sie die Zugriffsebene von Benutzenden ändern, um integrierte Berichte auszublenden, sodass die Benutzenden keinen Zugriff darauf haben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -42,23 +42,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ausblenden integrierter Berichte
+## Integrierte Berichte ausblenden
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Zugriffsebenen**.
-1. Wählen Sie die Zugriffsebene aus, für die Sie die integrierten Berichte ausblenden möchten, und klicken Sie dann auf **Bearbeiten**.
-1. Klicken Sie für das Objekt **Berichte** auf das Symbol **Einstellungen** neben der höchsten verfügbaren Zugriffsebene und deaktivieren Sie dann die Option **Integrierte Berichte anzeigen**.
+1. Klicken Sie **Zugriffsebenen**.
+1. Wählen Sie die Zugriffsebene aus, für die Sie integrierte Berichte ausblenden möchten, und klicken Sie dann auf **Bearbeiten**.
+1. Klicken Sie für **Berichte**-Objekt auf das Symbol **Einstellungen** neben der höchsten verfügbaren Zugriffsebene und deaktivieren Sie **Integrierte Berichte anzeigen**.
 
    ![](assets/edit-access-level.png)
 

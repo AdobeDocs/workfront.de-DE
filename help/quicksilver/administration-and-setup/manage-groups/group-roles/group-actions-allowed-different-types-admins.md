@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
 title: Für Gruppenadministratoren zulässige Aktionen
-description: In dieser Tabelle werden die Verwaltungsaktivitäten verglichen, die für einen Adobe Workfront-Administrator, der das Workfront-System verwaltet, einen Gruppenadministrator, der eine Gruppe der obersten Ebene verwaltet, und einen Gruppenadministrator, der eine Untergruppe verwaltet, verfügbar sind.
+description: In dieser Tabelle werden die verfügbaren Verwaltungsaktivitäten für einen Adobe Workfront-Administrator, der das Workfront-System verwaltet, einen Gruppenadministrator, der eine Gruppe auf oberster Ebene verwaltet, und einen Gruppenadministrator, der eine Untergruppe verwaltet, verglichen.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -17,10 +17,10 @@ ht-degree: 3%
 
 # Für Gruppenadministratoren zulässige Aktionen
 
-In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Aufgaben aufgeführt:
+In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgeführt:
 
 * Ein Adobe Workfront-Administrator, der das Workfront-System verwaltet (für Vergleiche)
-* Gruppenadministrator, der eine Gruppe der obersten Ebene verwaltet
+* Einen Gruppenadministrator, der eine Gruppe auf oberster Ebene verwaltet
 * Einen Gruppenadministrator, der eine Untergruppe verwaltet
 
 <table style="table-layout:auto"> 
@@ -33,12 +33,12 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <th> </th> 
    <th>Workfront-Administrator </th> 
    <th>Gruppenadministrator (Aktionen sind auf die vom Administrator verwalteten Gruppen beschränkt)</th> 
-   <th>Untergruppenadministrator (Aktionen sind auf die vom Administrator verwalteten Gruppen beschränkt)</th> 
+   <th>Untergruppen-Administrator (Aktionen sind auf die vom Administrator verwalteten Gruppen beschränkt)</th> 
   </tr> 
  </thead> 
  <tbody>
   <tr> 
-   <td>Kennwort eines Benutzers zurücksetzen</td> 
+   <td>Zurücksetzen des Passworts eines Benutzers</td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
@@ -46,56 +46,56 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
   <tr> 
    <td>Benutzerprofile erstellen und bearbeiten</td> 
    <td>✓</td> 
-   <td>✓*</td> 
-   <td>✓*</td> 
+   <td>✓</td> 
+   <td>✓</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Untergruppen</td>
    <td>✓ </td> 
-   <td>✓***</td> 
-   <td>✓***</td> 
+   <td>✓ ***</td> 
+   <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td>Konfigurieren von Voreinstellungen für Projekte, Aufgaben und Probleme auf Systemebene</td> 
+   <td>Einstellungen für Projekte, Aufgaben und Probleme auf Systemebene konfigurieren</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Projekt-, Aufgaben- und Problemeinstellungen für Gruppen und Untergruppen aktivieren und deaktivieren</td> 
-   <td>✓***</td> 
-   <td>✓***</td> 
-   <td>✓***</td> 
+   <td>Aktivieren und Deaktivieren von Projekt-, Aufgaben- und Problem-Voreinstellungen für Gruppen und Untergruppen</td> 
+   <td>✓ ***</td> 
+   <td>✓ ***</td> 
+   <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td>Konfigurieren von Zeitblatt- und Stundenvoreinstellungen auf Systemebene</td> 
+   <td>Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen auf Systemebene</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Aktivieren und Deaktivieren der Voreinstellungen für Zeitblätter und Stunden für Gruppen und Untergruppen </td> 
-   <td>✓***</td> 
-   <td>✓***</td> 
-   <td>✓***</td> 
+   <td>Arbeitszeittabellen- und Stundeneinstellungen für Gruppen und Untergruppen aktivieren und deaktivieren </td> 
+   <td>✓ ***</td> 
+   <td>✓ ***</td> 
+   <td>✓ ***</td> 
   </tr> 
   <tr> 
-   <td>Ereignisbenachrichtigungs-E-Mails auf Systemebene konfigurieren</td> 
+   <td>Konfigurieren von Ereignis-Benachrichtigungs-E-Mails auf Systemebene</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Aktivieren und Deaktivieren von Ereignis-Benachrichtigungs-E-Mails für Gruppen und Untergruppen</td> 
-   <td>✓*** </td> 
-   <td>✓***</td> 
+   <td>✓ *** </td> 
+   <td>✓ ***</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten benutzerdefinierter Formulare</td> 
    <td>✓ </td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
    <td>Layout-Vorlagen erstellen und verwalten</td> 
@@ -105,9 +105,9 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Genehmigungsprozessen für eine Gruppe</td> 
-   <td>✓*** </td> 
-   <td>✓***</td> 
-   <td>✓***</td> 
+   <td>✓ *** </td> 
+   <td>✓ ***</td> 
+   <td>✓ ***</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Teams</td> 
@@ -116,22 +116,22 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Erstellen und Verwalten von Wechselkursen</td> 
+   <td>Wechselkurse erstellen und verwalten</td> 
    <td>✓ </td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td>Erstellen und Verwalten von Stundentypen</td> 
+   <td>Stundentypen erstellen und verwalten</td> 
    <td>✓ </td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
-   <td>Erstellen und Verwalten von Meilensteinpfaden</td> 
+   <td>Meilensteinpfade erstellen und verwalten</td> 
    <td>✓ </td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Zeitplänen</td> 
@@ -146,16 +146,16 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Erstellen und Verwalten von Timesheet-Profilen</td> 
+   <td>Arbeitszeittabellen-Profile erstellen und verwalten</td> 
    <td>✓ </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Erstellen von Einzelbenutzer-Timesheets</td> 
+   <td>Erstellen von Arbeitszeittabellen für den einmaligen Gebrauch</td> 
    <td>✓</td> 
-   <td>✓**</td> 
-   <td>✓**</td> 
+   <td>✓ **</td> 
+   <td>✓ **</td> 
   </tr> 
   <tr> 
    <td>Erstellen und Verwalten von Aufgabengebieten</td> 
@@ -164,13 +164,13 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Erstellen und Verwalten von Prioritäten, Schwerpunkten und Bedingungen</td> 
+   <td>Erstellen und Verwalten von Prioritäten, Schweregraden und Bedingungen</td> 
    <td>✓</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Erstellung und Verwaltung von Risikotypen</td> 
+   <td>Risikotypen erstellen und verwalten</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
@@ -182,7 +182,7 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Melden Sie sich als jemand anderem an</td> 
+   <td>Melden Sie sich als jemand anderes an</td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
@@ -194,20 +194,20 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td>Anzeigen und Verwalten wiederhergestellter Elemente</td> 
+   <td>Wiederhergestellte Elemente anzeigen und verwalten</td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td>Aktuelle Lizenzzuteilung anzeigen</td> 
+   <td>Aktuelle Lizenzzuordnung anzeigen</td> 
    <td>✓ </td> 
    <td>✓ </td> 
    <td>✓ </td> 
   </tr> 
   <tr> 
-   <td>Maximale Anzahl der Lizenzen zuweisen</td> 
-   <td>✓*** </td> 
+   <td>Maximale Anzahl von Lizenzen zuweisen</td> 
+   <td>✓ *** </td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -218,7 +218,7 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Importieren und Exportieren von Daten mithilfe von Kick-Starts</td> 
+   <td>Importieren und Exportieren von Daten mithilfe von Kickstarts</td> 
    <td>✓ </td> 
    <td> </td> 
    <td> </td> 
@@ -226,16 +226,16 @@ In dieser Tabelle sind die verfügbaren Verwaltungsaktivitäten für folgende Au
  </tbody> 
 </table>
 
-&#42; In der Zugriffsebene des Gruppenadministrators muss für die Einstellung **Benutzer** die Option **Bearbeiten** ausgewählt sein, wobei unter **Feinabstimmung Ihrer Einstellungen** ![](assets/gear-icon-in-access-levels.png) die Option **Benutzeradministrator (Gruppenbenutzer)** ausgewählt sein muss. Weitere Informationen finden Sie im Abschnitt &quot;[Benutzerzugriff konfigurieren, um Benutzer mit einer benutzerdefinierten Zugriffsstufe zu bearbeiten&quot;](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) im Artikel &quot;[Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)&quot;.
+&#42; In der Zugriffsebene des Gruppenadministrators muss **Bearbeiten** für die Einstellung **Benutzer** ausgewählt sein, wobei **Benutzeradmin (Gruppenbenutzer)** unter **Einstellungen optimieren** ![](assets/gear-icon-in-access-levels.png) ausgewählt sein muss. Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Benutzerzugriffs zum Bearbeiten von Benutzern mit einer benutzerdefinierten Zugriffsebene](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) im Artikel [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
-&#42;&#42; Auf der Zugriffsebene des Gruppenadministrators muss der Zugriff auf diese Aktion aktiviert sein. Weitere Informationen finden Sie unter [Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+&#42;&#42; In der Zugriffsebene des Gruppenadministrators muss der Zugriff auf diese Aktion aktiviert sein. Weitere Informationen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-&#42;&#42;&#42; Die folgenden Aktivitäten sind Teil der erweiterten Unternehmenssteuerung und stehen für den Plan &quot;Auswählen&quot;nicht zur Verfügung. Nur Organisationen, die die Prime- oder Ultimate-Pläne erworben haben, können auf diese Funktionen zugreifen.  Weitere Informationen zu Plänen finden Sie auf der Seite [Adobe Workfront-Preise und -Verpackung](https://business.adobe.com/products/workfront/pricing.html) . (Für Organisationen, die die alten Pläne verwenden, zeigt die obige Tabelle die Aktivitäten für Gruppen- und Untergruppenadministratoren an.)
+&#42;&#42;&#42; Die folgenden Aktivitäten sind Teil der erweiterten Unternehmenssteuerung und nicht für den Auswahlplan verfügbar. Nur Organisationen, die Prime- oder Ultimate-Pläne erworben haben, können auf diese Funktionen zugreifen.  Weitere Informationen zu Plänen finden Sie auf der Seite ](https://business.adobe.com/products/workfront/pricing.html) Preisgestaltung und Verpackung von [Adobe Workfront. (Für Organisationen, die die Legacy-Pläne verwenden, zeigt die obige Tabelle die Aktivitäten für Gruppen- und Untergruppenadministratoren an.)
 
-* Konfigurieren der Voreinstellungen für Projekte, Aufgaben und Probleme auf Gruppenebene
-* Konfigurieren von Zeitblatt- und Stundenvoreinstellungen auf Gruppenebene
-* Ereignisbenachrichtigungs-E-Mails auf Gruppenebene konfigurieren
-* Gruppenspezifische Validierungsprozesse erstellen und verwalten
-* Lizenzbeschränkungen zuweisen und deren Nutzung nach Startseite anzeigen
-* Zuweisen von Gruppenadministratoren zu Untergruppen
-* Erstellung von Untergruppen durch Gruppenadministratoren zulassen
+* Einstellungen für Projekte, Aufgaben und Probleme auf Gruppenebene konfigurieren
+* Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen auf Gruppenebene
+* Konfigurieren von Ereignis-Benachrichtigungs-E-Mails auf Gruppenebene
+* Erstellen und Verwalten von gruppenspezifischen Genehmigungsprozessen
+* Lizenzbeschränkungen zuweisen und ihre Nutzung nach Hauptgruppe anzeigen
+* Gruppenadministratoren für Untergruppen zuweisen
+* Gruppenadministratoren erlauben, Untergruppen zu erstellen

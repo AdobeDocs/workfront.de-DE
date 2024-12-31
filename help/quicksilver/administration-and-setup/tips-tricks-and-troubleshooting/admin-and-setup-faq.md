@@ -3,7 +3,7 @@ user-type: administrator
 content-type: faq
 product-area: system-administration;setup
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Häufig gestellte Fragen zu Administration und Einrichtung
+title: Häufig gestellte Fragen zur Administration und Einrichtung
 description: Kann ich einen Bericht erstellen, der den Zugriff der Benutzer auf verschiedene Objekte anzeigt?
 author: Lisa
 feature: System Setup and Administration
@@ -16,7 +16,7 @@ ht-degree: 2%
 
 ---
 
-# Häufig gestellte Fragen zu Administration und Einrichtung
+# Häufig gestellte Fragen zur Administration und Einrichtung
 
 Kann ich einen Bericht erstellen, der den Zugriff der Benutzer auf verschiedene Objekte anzeigt?
 

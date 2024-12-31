@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
 title: 'E-Mail-Benachrichtigungen: Artikelindex'
-description: Als Adobe Workfront-Administrator können Sie die Ereignisbenachrichtigungen, Erinnerungsbenachrichtigungen und E-Mail-Vorlagen für Ihre Benutzer konfigurieren.
+description: Als Adobe Workfront-Administrator können Sie die Ereignisbenachrichtigungen, Erinnerungsbenachrichtigungen und E-Mail-Vorlagen für Ihre Benutzerinnen und Benutzer konfigurieren.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Als Adobe Workfront-Administrator können Sie die Ereignisbenachrichtigungen, Erinnerungsbenachrichtigungen und E-Mail-Vorlagen für Ihre Benutzer konfigurieren.
+Als Adobe Workfront-Administrator können Sie die Ereignisbenachrichtigungen, Erinnerungsbenachrichtigungen und E-Mail-Vorlagen für Ihre Benutzerinnen und Benutzer konfigurieren.
 
-* Informationen zum Konfigurieren von Ereignisbenachrichtigungen finden Sie unter [Ereignisbenachrichtigungen für alle Benutzer im System konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
-* Informationen zum Konfigurieren von Erinnerungsbenachrichtigungen finden Sie unter [Einrichten von Erinnerungsbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
-* Informationen zum Konfigurieren von E-Mail-Vorlagen finden Sie unter [E-Mail-Vorlagen konfigurieren](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
+* Informationen zum Konfigurieren von Ereignisbenachrichtigungen finden Sie unter [Konfigurieren von Ereignisbenachrichtigungen für alle Personen im System](../../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md).
+* Informationen zum Konfigurieren von Erinnerungsnachrichten finden Sie unter [Einrichten von Erinnerungsnachrichten](../../../administration-and-setup/manage-workfront/emails/set-up-reminder-notifications.md).
+* Informationen zum Konfigurieren von E-Mail-Vorlagen finden Sie [Konfigurieren von E-Mail-Vorlagen](../../../administration-and-setup/manage-workfront/emails/configure-email-templates.md).
 
-Diese Links zeigen Ihnen, wie Sie die Hilfeartikel für Adobe Workfront-Benachrichtigungen im Benutzerbereich anzeigen können.
+Diese Links führen zum Benutzerbereich von Hilfeartikeln für Adobe Workfront-Benachrichtigungen.
 
-* Allgemeine Informationen zu Benachrichtigungen finden Sie unter [Adobe Workfront-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
+* Allgemeine Informationen zu Benachrichtigungen finden Sie unter [Adobe Workfront-](/help/quicksilver/workfront-basics/using-notifications/event-notifications.md).
 * Informationen zum Einrichten eigener Benachrichtigungen in Ihrem Profil finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).

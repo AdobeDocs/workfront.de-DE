@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
 title: Erstellen benutzerdefinierter Ausgabentypen
-description: Als [!DNL Adobe Workfront] Administrator können Sie benutzerdefinierte Ausgabentypen erstellen, um die mit Ihren Aufgaben und Projekten verbundenen Ausgaben zu definieren und zu verfolgen. Ausgaben sind Nicht-Arbeitskosten, die mit Aufgaben oder Projekten verknüpft werden können.
+description: Als  [!DNL Adobe Workfront]  können Sie benutzerdefinierte Ausgabentypen erstellen, um die mit Ihren Aufgaben und Projekten verbundenen Ausgaben zu definieren und zu verfolgen. Kosten sind sonstige Kosten, die mit Aufgaben oder Projekten verbunden werden können.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -19,13 +19,13 @@ ht-degree: 4%
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-Als [!DNL Adobe Workfront] -Administrator können Sie benutzerdefinierte Ausgabentypen erstellen, um die mit Ihren Aufgaben und Projekten verbundenen Ausgaben zu definieren und zu verfolgen. Ausgaben sind Nicht-Arbeitskosten, die mit Aufgaben oder Projekten verknüpft werden können.
+Als [!DNL Adobe Workfront] können Sie benutzerdefinierte Ausgabentypen erstellen, um die mit Ihren Aufgaben und Projekten verbundenen Ausgaben zu definieren und zu verfolgen. Kosten sind sonstige Kosten, die mit Aufgaben oder Projekten verbunden werden können.
 
-Sie können von Ihnen erstellte Ausgabetypen bearbeiten oder löschen. Sie können die integrierten [!DNL Workfront] Ausgabetypen nicht löschen oder bearbeiten.
+Sie können alle von Ihnen erstellten Ausgabentypen bearbeiten oder löschen. Die integrierten Ausgabentypen [!DNL Workfront] können nicht gelöscht oder bearbeitet werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -45,22 +45,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Standardausgabetypen
+## Standardausgabentypen
 
-Die Ausgabentypen, die standardmäßig in &quot;[!DNL Workfront]&quot;enthalten sind, können nicht gelöscht oder bearbeitet werden. Dazu gehören:
+Zu den Ausgabentypen, die standardmäßig in [!DNL Workfront] sind, können nicht gelöscht oder bearbeitet werden:
 
 * [!UICONTROL Advertising]
-* [!UICONTROL Consulting]
+* [!UICONTROL Beratung]
 * [!UICONTROL Unterhaltung]
 * [!UICONTROL Allgemein]
 * [!UICONTROL Materialien]
@@ -70,9 +70,9 @@ Die Ausgabentypen, die standardmäßig in &quot;[!DNL Workfront]&quot;enthalten 
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Ausgabetypen]**.
-1. Klicken Sie auf **[!UICONTROL Neuer Ausgabentyp]**.
-1. Geben Sie im angezeigten Feld **[!UICONTROL Neuer Ausgabentyp]** die folgenden Informationen an:
+1. Klicken Sie **[!UICONTROL Ausgabentypen]**.
+1. Klicken Sie **[!UICONTROL Neuer Ausgabentyp]**.
+1. Geben **[!UICONTROL im angezeigten]** „Neuer Ausgabentyp“ die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -80,15 +80,15 @@ Die Ausgabentypen, die standardmäßig in &quot;[!DNL Workfront]&quot;enthalten 
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Name]</td> 
-      <td>Geben Sie einen Namen für die Kosten an.</td> 
+      <td>Geben Sie einen Namen für die Ausgabe an.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Beschreibung]</td> 
-      <td>Geben Sie eine Beschreibung der Kosten an.</td> 
+      <td>Geben Sie eine Beschreibung für die Ausgabe an.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Berechnete Einheit]</td> 
-      <td> <p>Wählen Sie die Maßeinheit für Ihren Ausgabentyp aus der Dropdown-Liste aus.</p> <p>Folgende Maßeinheit ist verfügbar:</p> 
+      <td> <p>Wählen Sie die Maßeinheit für Ihren Ausgabentyp aus der Dropdown-Liste aus.</p> <p>Folgende Maßeinheiten sind verfügbar:</p> 
        <ul> 
         <li>Meile</li> 
         <li>Kilometer</li> 
@@ -96,29 +96,29 @@ Die Ausgabentypen, die standardmäßig in &quot;[!DNL Workfront]&quot;enthalten 
         <li>Dollar</li> 
         <li>Dollar</li> 
         <li>Tag</li> 
-        <li>Andere - Wenn Sie diese Option auswählen, werden Sie aufgefordert, Ihre Maßeinheit zu benennen und die Maßeinheit als etwas zu definieren, das Ihrer Organisation bekannt ist.</li> 
+        <li>Sonstiges - Wenn Sie diese Option wählen, werden Sie aufgefordert, die Maßeinheit zu benennen und diese als eine Ihrer Organisation vertraute Einheit zu definieren.</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Satz</td> 
-      <td> <p>Geben Sie den Preis pro Einheit an. Dies ist ein Feld im Währungsformat und stellt die Kosten jeder Einheit dar, die im Feld <strong>[!UICONTROL Berechnete Einheit]</strong> ermittelt wurde. </p> <p>Die Rate kann einen numerischen Wert mit bis zu 4 Zahlen nach der Dezimalstelle enthalten. Beispiel: 1.0375</p> </td> 
+      <td> <p>Geben Sie den Preis pro Einheit an. Dies ist ein währungsformatiertes Feld, das die Kosten für jede Einheit darstellt, die im Feld <strong>[!UICONTROL Berechnete Einheit]</strong> festgelegt wird. </p> <p>Die Rate kann einen numerischen Wert mit bis zu 4 Zahlen nach dem Dezimaltrennzeichen enthalten. Beispiel: 1.0375</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **[!UICONTROL Ausgabentyp erstellen]**.\
-   Der Ausgabentyp ist jetzt für Benutzer verfügbar, um ihn mit ihren Ausgaben für Projekte und Aufgaben zu verknüpfen.
+1. Klicken Sie **[!UICONTROL Ausgabentyp erstellen]**.\
+   Der Ausgabentyp steht jetzt Benutzenden zur Verfügung, um ihn mit ihren Ausgaben für Projekte und Aufgaben zu verknüpfen.
 
-## Ändern benutzerdefinierter Ausgabentypen
+## Benutzerdefinierte Ausgabentypen ändern
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Ausgabetypen]**.
-1. Wählen Sie den Ausgabentyp aus, den Sie ändern möchten, und klicken Sie dann auf **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie **[!UICONTROL Ausgabentypen]**.
+1. Wählen Sie den zu ändernden Ausgabentyp aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
-   Das Dialogfeld **[!UICONTROL Ausgabentyp bearbeiten]** wird angezeigt.
+   Das **[!UICONTROL Ausgabentyp bearbeiten]** wird angezeigt.
 
 1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.\
-   Der Ausgabentyp ist jetzt für Benutzer verfügbar, um ihn mit ihren Ausgaben für Projekte und Aufgaben zu verknüpfen.
+   Der Ausgabentyp steht jetzt Benutzenden zur Verfügung, um ihn mit ihren Ausgaben für Projekte und Aufgaben zu verknüpfen.
 
-Weitere Informationen zur Verwendung von Ausgaben und dazu, wie sie sich auf die Kosten eines Projekts auswirken können, finden Sie im Artikel [Verwalten von Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md).
+Weitere Informationen zur Verwendung von Ausgaben und dazu, wie sich diese auf die Kosten eines Projekts auswirken können, finden Sie im Artikel [Verwalten von Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md).

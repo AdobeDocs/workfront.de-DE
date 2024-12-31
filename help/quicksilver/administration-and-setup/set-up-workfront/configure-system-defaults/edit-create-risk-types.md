@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: configure-system-defaults
-title: Bearbeiten und Erstellen von Risikotypen
+title: Risikotypen bearbeiten und erstellen
 description: Sie können einem Projekt in der Planungsphase Risiken hinzufügen, um potenzielle Hindernisse vor der Genehmigung von Arbeiten zu identifizieren. Risiken sind mögliche Ereignisse, die den termingerechten oder budgetären Abschluss des Projekts verhindern könnten.
 author: Lisa
 feature: System Setup and Administration
@@ -23,7 +23,7 @@ Sie können einem Projekt in der Planungsphase Risiken hinzufügen, um potenziel
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -43,60 +43,60 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Risikotypen
 
-Risikotypen sind Beschriftungen, die Sie für Ihre Risiken verwenden können, um sie zu Berichtszwecken zu kategorisieren. Sie werden im Bereich **[!UICONTROL Einrichtung]** vom [!DNL Adobe Workfront] -Administrator erstellt. Nachdem die Risikotypen in Ihrem **[!UICONTROL Setup]** -Bereich festgelegt wurden, sind sie universell für Ihr System. Alle Projekteigentümer können für ihre Projekte die gleichen Risikotypen verwenden.
+Risikotypen sind Kennzeichnungen, die Sie Ihren Risiken zuordnen können, um sie zu Berichtszwecken zu kategorisieren. Sie werden im Bereich **[!UICONTROL Setup]** vom [!DNL Adobe Workfront] erstellt. Nachdem Risikotypen in Ihrem **[!UICONTROL Setup) festgelegt wurden]** sind sie für Ihr System universell. Alle Projekteigentümer können für ihre Projekte dieselben Risikotypen verwenden.
 
 ## Risikotypen bearbeiten und erstellen
 
-Einige Risikotypen befinden sich standardmäßig bereits in [!DNL Workfront]. Um die Anforderungen Ihrer Organisation widerzuspiegeln, können Sie entweder die vorhandenen Risikotypen bearbeiten oder neue Risikotypen erstellen.
+Einige Risikotypen sind standardmäßig bereits in [!DNL Workfront]. Um die Anforderungen Ihres Unternehmens widerzuspiegeln, können Sie entweder die vorhandenen Risikotypen bearbeiten oder neue Risikotypen erstellen.
 
-* [Vorhandene Risikotypen bearbeiten](#edit-existing-risk-types)
+* [Bestehende Risikotypen bearbeiten](#edit-existing-risk-types)
 * [Neue Risikotypen erstellen](#create-new-risk-types)
 
-### Vorhandene Risikotypen bearbeiten {#edit-existing-risk-types}
+### Bestehende Risikotypen bearbeiten {#edit-existing-risk-types}
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Risikotypen]**.
+1. Klicken Sie **[!UICONTROL Risikotypen]**.
 1. Wählen Sie den Risikotyp aus, den Sie bearbeiten möchten.
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie **[!UICONTROL Bearbeiten]**.
 1. (Optional) Ändern Sie den Namen und die Beschreibung des Risikotyps.
 
-   Für die Felder **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** gilt eine Zeichenbeschränkung von 50 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
 
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern].**
+1. Klicken Sie **[!UICONTROL Änderungen speichern].**
 
 ### Neue Risikotypen erstellen {#create-new-risk-types}
 
-Sie können neben den Standardrisikokarten auch neue Risikotypen erstellen, die den Anforderungen Ihres Unternehmens gerecht werden.
+Zusätzlich zu den standardmäßigen Risikotypen können Sie neue Risikotypen erstellen, um die Anforderungen Ihres Unternehmens widerzuspiegeln.
 
-So erstellen Sie einen neuen Risikotyp:
+Einen neuen Risikotyp erstellen:
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Risikotypen]**.
-1. Klicken Sie auf **[!UICONTROL Neuer Risikotyp]**.
-1. Geben Sie einen **[!UICONTROL Namen]** (erforderlich) und eine **[!UICONTROL Beschreibung]** (optional) für den Risikotyp ein.
+1. Klicken Sie **[!UICONTROL Risikotypen]**.
+1. Klicken Sie **[!UICONTROL Neuer Risikotyp]**.
+1. Geben Sie **[!UICONTROL Risikotyp einen]** Namen“ (erforderlich) und einen **[!UICONTROL Beschreibung]** (optional) ein.
 
-   Für die Felder **[!UICONTROL Name]** und **[!UICONTROL Beschreibung]** gilt eine Zeichenbeschränkung von 50 Zeichen.
+   Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
 
-1. Klicken Sie auf &quot;**[!UICONTROL Risikotyp erstellen]**&quot;. Wenn Sie die Inline-Bearbeitung zum Hinzufügen Ihres Risikotyps verwendet haben, klicken Sie auf **[!UICONTROL Enter]** , wenn Sie fertig sind.
+1. Klicken Sie **[!UICONTROL Risikotyp erstellen]**. Wenn Sie die Inline-Bearbeitung zum Hinzufügen Ihres Risikotyps verwendet haben, klicken Sie auf **[!UICONTROL Eingabetaste]** wenn Sie fertig sind.
 
    >[!NOTE]
    >
-   >Wenn Sie einen benutzerdefinierten Risikotyp bearbeiten müssen, lesen Sie den Abschnitt [[!UICONTROL Vorhandene ] Risikotypen bearbeiten](#edit-existing-risk-types) in diesem Artikel.
+   >Wenn Sie einen benutzerdefinierten Risikotyp bearbeiten müssen, lesen Sie den Abschnitt [[!UICONTROL Bearbeiten vorhandener] Risikotypen](#edit-existing-risk-types) in diesem Artikel.
 
-## Anhängen von Risiken mit Risikotypen an Projekte
+## Risiken mit Risikotypen an Projekte anhängen
 
-Risikotypen können zur Kennzeichnung von Risiken verwendet werden, die zu Ihren Projekten hinzugefügt werden. Weitere Informationen zum Hinzufügen von Risiken zu Projekten finden Sie unter [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+Risikotypen können zum Beschriften von Risiken verwendet werden, die zu Ihren Projekten hinzugefügt werden. Weitere Informationen zum Hinzufügen von Risiken zu Projekten finden Sie unter [Erstellen und Bearbeiten von Risiken in Projekten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).

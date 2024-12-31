@@ -1,11 +1,11 @@
 ---
-title: Deaktivieren Sie die Option für ein automatisches Upgrade für nicht bezahlte Benutzer im neuen Lizenzplan
+title: Deaktivieren Sie im neuen Lizenzierungsplan die Option für das automatische Upgrade für nicht zahlungspflichtige Benutzer.
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: access,level,system,administrator,standard,light,contributor
+keywords: Zugriff,Ebene,System,Administrator,Standard,Licht,Mitwirkende
 navigation-topic: access-levels
-description: Jeder Benutzer muss über eine Zugriffsstufe verfügen, um sich in Workfront anmelden und arbeiten zu können. Mit der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und tun kann.
+description: Jeder Benutzer muss über eine Zugriffsebene verfügen, um sich anmelden und in Workfront arbeiten zu können. Mithilfe der Zugriffsebene können Sie steuern, was ein Benutzer mit bestimmten Workfront-Objekten und -Bereichen sehen und machen kann.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -17,19 +17,19 @@ ht-degree: 1%
 
 ---
 
-# Deaktivieren Sie die Option für die automatische Aktualisierung für nicht bezahlte Benutzer im neuen Lizenzplan
+# Deaktivieren Sie im neuen Lizenzierungsplan die Option für das automatische Upgrade für nicht bezahlte Benutzer.
 
-Die Entscheidungen über die Prüfung und die Dokumentierung sind auf alle nicht bezahlten Workfront-Lizenzen für die neuen Pläne beschränkt. Wenn Benutzer die zugewiesene Anzahl von Entscheidungen erreichen, werden sie standardmäßig auf eine Light-Lizenz aktualisiert.
+Korrekturabzugs- und Dokumentenentscheidungen sind für alle nicht bezahlten Workfront-Lizenzen in den neuen Plänen beschränkt. Wenn Benutzer die ihnen zugewiesene Anzahl an Entscheidungen erreichen, werden sie standardmäßig auf eine Light-Lizenz aktualisiert.
 
-Sie können die Option für die automatische Aktualisierung im Setup-Bereich deaktivieren. Weitere Informationen zur Funktionsweise von automatischen Aktualisierungen finden Sie unter [Begrenzte Dokument- und Testentscheidung für nicht bezahlte Benutzer - Übersicht](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
+Sie können die Option für das automatische Upgrade im Bereich Setup deaktivieren. Weitere Informationen zur Funktionsweise automatischer Upgrades finden Sie unter [Eingeschränkte Dokument- und Korrekturabzugsentscheidung für nicht zahlende Benutzer - Übersicht](/help/quicksilver/review-and-approve-work/proof-doc-decision-limits.md).
 
 >[!IMPORTANT]
 >
->Nach der Deaktivierung wird jeder nicht bezahlte Benutzer, der die zugewiesene Anzahl von Entscheidungen überschreitet, nicht automatisch aktualisiert.
+>Nach der Deaktivierung wird für nicht bezahlte Benutzende, die die ihnen zugewiesene Anzahl an Entscheidungen überschreiten, kein automatisches Upgrade durchgeführt.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -38,8 +38,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -48,18 +48,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktueller Plan: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Deaktivieren Sie automatische Upgrades für nicht bezahlte Benutzer.
+## Automatische Upgrades für nicht zahlungspflichtige Benutzer deaktivieren
 
 {{step-1-to-setup}}
 
 1. Erweitern Sie [!UICONTROL **System**] im linken Navigationsbereich und klicken Sie dann auf [!UICONTROL **Voreinstellungen**].
-1. Aktivieren Sie im Abschnitt [!UICONTROL **Allgemeine Voreinstellungen**] die Option [!UICONTROL **Automatische Aktualisierung in Zugriffsebenen deaktivieren**] .
+1. Aktivieren [!UICONTROL **im Abschnitt**] das Kontrollkästchen [!UICONTROL **Automatisches Upgrade in Zugriffsebenen deaktivieren**].
 1. Klicken Sie auf [!UICONTROL **Speichern**].

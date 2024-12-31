@@ -4,8 +4,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: administration-and-setup
-title: Workfront-Verwaltung in Adobe Admin Console
-description: Vorbereitung zur Integration Ihres Unternehmens in die Adobe Admin Console
+title: Workfront-Administration in der Adobe Admin Console
+description: Vorbereiten der Integration Ihres Unternehmens in die Adobe Admin Console
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -18,9 +18,9 @@ ht-degree: 0%
 
 ---
 
-# Workfront-Verwaltung in der Adobe Admin Console
+# Workfront-Administration in der Adobe Admin Console
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Vorbereitung zur Integration Ihres Unternehmens in die Adobe Admin Console](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
-* [Informationen zur Migration von Workfront zu Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)
+* [Vorbereiten der Integration Ihres Unternehmens in die Adobe Admin Console](../../administration-and-setup/adobe-admin-console/prep-for-admin-console.md)
+* [Grundlagen der Migration von Workfront zur Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/understand-wf-migration-to-admin-console.md)

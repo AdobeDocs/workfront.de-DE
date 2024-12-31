@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
 title: Benutzerattribute zuordnen
-description: Mit Single Sign-On (SSO) können Sie Attribute aus dem Active Directory Ihres Identitäts-Providers an Ihre Adobe Workfront-Benutzer übergeben.
+description: Mit Single Sign-on (SSO) können Sie Attribute aus dem Active Directory Ihres Identitätsanbieters an Ihre Adobe Workfront-Benutzenden übergeben.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -20,11 +20,11 @@ ht-degree: 1%
 
 <!--Audited 2/2024-->
 
-Mit Single Sign-On (SSO) können Sie Attribute aus dem Active Directory Ihres Identitäts-Providers an Ihre Adobe Workfront-Benutzer übergeben.
+Mit Single Sign-on (SSO) können Sie Attribute aus dem Active Directory Ihres Identitätsanbieters an Ihre Adobe Workfront-Benutzenden übergeben.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,71 +33,71 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p><p>Oder</p><p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Tipps für Zuordnungsattribute
+## Tipps zum Zuordnen von Attributen
 
 Beachten Sie beim Zuordnen von Attributen Folgendes:
 
-* Testen Sie immer in einer Vorschau-Sandbox oder einer Sandbox mit Kundenaktualisierung (CR).
-* Testen Sie mit Administrator- und Nicht-Administrator-Konten, um sicherzustellen, dass Sie Attribute korrekt zuordnen.
-* Zugeordnete Attribute werden jedes Mal angewendet, wenn sich ein Benutzer über Single Sign-on anmeldet.
+* Immer in einer Vorschau-Sandbox oder einer Kunden-Aktualisierungs-Sandbox (CR) testen.
+* Testen Sie sowohl mit Administrator- als auch mit Nicht-Administrator-Konten, um zu bestätigen, dass Sie Attribute korrekt zuordnen.
+* Zugeordnete Attribute werden jedes Mal angewendet, wenn sich ein Benutzer per Single Sign-on anmeldet.
 
-  Beispiel: Wenn Sie &quot;Nachname&quot;zuordnen und ihren Namen in Workfront aktualisieren, ohne den Wert in ihrem Identitätsanbieter zu aktualisieren, wird der Nachname überschrieben, sodass er mit dem Wert übereinstimmt, der im Identitätsanbieter vorhanden ist, wenn sich der Benutzer das nächste Mal anmeldet.
+  Beispiel: Wenn Sie „Nachname“ zuordnen und ihren Namen in Workfront aktualisieren, ohne den Wert in ihrem Identity Provider zu aktualisieren, wird der Nachname überschrieben, sodass er mit dem Wert des entsprechenden Elements im Identity Provider übereinstimmt, wenn sich der Benutzer das nächste Mal anmeldet.
 
-## Zuordnen von Benutzerattributen zu Ihrer Organisation
+## Zuordnen von Benutzerattributen für Ihre Organisation
 
-Das Verfahren für die Zuordnung von Attributen hängt davon ab, ob Ihr Unternehmen über das einheitliche Erlebnis auf Adobe verfügt.
+Das Verfahren zum Zuordnen von Attributen unterscheidet sich, je nachdem, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt.
 
-Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, überprüfen Sie die URL, die Sie für den Zugriff auf Workfront verwenden.
+Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis befindet, überprüfen Sie die URL, die Sie für den Zugriff auf Workfront verwenden.
 
-| URL | Adobe-Erlebnis |
+| URL | Adobe Experience |
 |---|---|
-| (CompanyName).my.workfront.com | Klassisches Erlebnis |
-| experience.adobe.com | Einheitliches Adobe-Erlebnis |
+| (CompanyName).my.workfront.com | Klassische Erfahrung |
+| experience.adobe.com | Adobe Unified Experience |
 
-* [Benutzerattribute im klassischen Erlebnis zuordnen](#map-user-attributes-in-the-classic-experience)
-* [Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis](#map-user-attributes-in-the-adobe-unified-experience)
+* [Zuordnen von Benutzerattributen im klassischen Erlebnis](#map-user-attributes-in-the-classic-experience)
+* [Zuordnen von Benutzerattributen im einheitlichen Adobe-Erlebnis](#map-user-attributes-in-the-adobe-unified-experience)
 
-### Benutzerattribute im klassischen Erlebnis zuordnen
+### Zuordnen von Benutzerattributen im klassischen Erlebnis
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
 
 1. Klicken Sie auf **System** > **Single Sign-On (SSO)**.
 
-1. Klicken Sie in der Dropdown-Liste **Typ** auf **SAML 2.0**.
+1. Klicken Sie in **Dropdown** Typ“ auf **SAML 2.0**.
 
-1. Klicken Sie auf **Benutzerattribute zuordnen**.
+1. Klicken Sie **Benutzerattribute zuordnen**.
 
    ![](assets/map-user-attributes.png)
 
-1. Ordnen Sie in der angezeigten Optionszeile die Attribute zu, die Sie für Ihre Workfront-Benutzer benötigen.
+1. Ordnen Sie in der angezeigten Optionszeile die Attribute zu, die Sie für Ihre Workfront-Benutzenden benötigen.
 
-   Sie können Attribute wie &quot;Adresse&quot;, &quot;Manager&quot;, &quot;Auftragsrolle&quot;, &quot;Homepage-Gruppe&quot;usw. zuordnen.
+   Sie können Attribute wie Adresse, Manager, Aufgabengebiet, Hauptgruppe usw. zuordnen.
 
-   Attributzuordnungen funktionieren mit einem Verhältnis von 1:1. Sie können beispielsweise nicht jede Gruppe festlegen, zu der ein Benutzer gehört. Sie können pro Benutzer nur eine festlegen.
+   Attributzuordnungen funktionieren im Verhältnis 1:1. Sie können beispielsweise nicht jede Gruppe festlegen, zu der ein Benutzer gehört; Sie können nur eine pro Benutzer festlegen.
 
    >[!IMPORTANT]
    >
-   >Es wird nicht empfohlen, Zugriffsebenen in den Attributzuordnungen zuzuordnen. Gehen Sie in diesem Fall beim Festlegen des Standardwerts vorsichtig vor, um sicherzustellen, dass Sie den Admin-Zugriff nicht versehentlich entfernen.
+   >Es wird nicht empfohlen, Zugriffsebenen in den Attributzuordnungen zuzuordnen. Gehen Sie in diesem Fall beim Festlegen des Standardwerts vorsichtig vor, um sicherzustellen, dass Sie den Administratorzugriff nicht versehentlich entfernen.
 
-   In der folgenden Tabelle werden die Felder erläutert, die Sie für die Zuordnung von Attributen verwenden können:
+   In der folgenden Tabelle werden die Felder erläutert, die Sie zum Zuordnen von Attributen verwenden können:
 
    <table style="table-layout:auto"> 
     <col data-mc-conditions=""> 
@@ -105,7 +105,7 @@ Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, übe
     <tbody> 
      <tr> 
       <td role="rowheader">Workfront-Benutzerattribut</td> 
-      <td>Wählen Sie den Namen des Attributs aus, das Sie zuordnen möchten</td> 
+      <td>Namen des Attributs auswählen, das Sie zuordnen</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Verzeichnisattribut</td> 
@@ -113,15 +113,15 @@ Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, übe
      </tr> 
      <tr> 
       <td role="rowheader">Standardwert</td> 
-      <td> <p>Wenn Sie ein Workfront-Benutzerattribut ausgewählt haben und der Wert während der Verbindung NULL ist, wird dieses Feld mit dem entsprechenden Standardwert im System ausgefüllt. Geben Sie hier nur einen Wert ein, wenn Sie Attributzuordnungsregeln anwenden möchten (siehe Schritt 7). Der Standardwert dient als Ausnahme zu diesen Regeln.</td> 
+      <td> <p>Wenn Sie ein Workfront-Benutzerattribut ausgewählt haben und der Wert während der Verbindung NULL ist, wird dieses Feld mit dem entsprechenden Standardwert im System ausgefüllt. Geben Sie hier nur dann einen Wert ein, wenn Sie Attributzuordnungsregeln anwenden möchten (siehe Schritt 7). Der Standardwert bildet eine Ausnahme zu diesen Regeln.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Klicken Sie auf **Regeln** , um dem Attribut eine Regel hinzuzufügen.
+1. (Optional) Klicken Sie auf **Regeln**, um dem Attribut eine Regel hinzuzufügen.
 
    1. Wählen Sie in der Dropdown-Liste den Attributmodifikator aus, den Sie verwenden möchten.
-   1. Geben Sie in die 2 Felder rechts den Wert des Ordnerattributs und den Wert ein, durch den Sie ihn ersetzen möchten.
+   1. Geben Sie in die zwei Felder rechts den Verzeichnisattributwert und den Wert ein, durch den Sie ihn ersetzen möchten.
 
       ![](assets/rule-fields.png)
 
@@ -130,46 +130,46 @@ Um festzustellen, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis nutzt, übe
 1. (Optional) Um weitere Benutzerattribute zuzuordnen, klicken Sie auf **Zuordnung hinzufügen** und wiederholen Sie die Schritte 6 bis 7.
 1. Klicken Sie auf **Speichern**.
 
-### Zuordnen von Benutzerattributen zum einheitlichen Adobe-Erlebnis
+### Zuordnen von Benutzerattributen im einheitlichen Adobe-Erlebnis
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben links in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-left.png)
+1. Klicken Sie auf **Hauptmenü**-Symbol ![](assets/main-menu-left.png) in der linken oberen Ecke von Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
 
 1. Klicken Sie auf **System** > **Single Sign-On (SSO)**.
 
 1. Wählen Sie die Registerkarte **Adobe** aus.
 
-1. (Optional und bedingt) Wenn für Ihr Unternehmen die Zuordnung von Attributen im klassischen Erlebnis konfiguriert wurde und Sie diese Zuordnung in das einheitliche Erlebnis auf Adobe kopieren möchten, klicken Sie auf **Zuordnungen migrieren**. Sie können diese Zuordnungen dann verwerfen, löschen oder bearbeiten.
+1. (Optional und bedingt) Wenn in Ihrem Unternehmen die Attributzuordnung in der klassischen Version konfiguriert war und Sie diese Attributzuordnung in die einheitliche Adobe-Version kopieren möchten, klicken Sie auf **Zuordnungen migrieren**. Sie können diese Zuordnungen dann verwerfen, löschen oder bearbeiten.
 
    >[!NOTE]
    >
-   >Es wird empfohlen, Zuordnungen beim ersten Konfigurieren von Zuordnungen im einheitlichen Erlebnis Adobe zu migrieren. Es schadet nicht, sie später erneut zu migrieren, aber es ist nicht nötig, sie mehr als einmal zu migrieren.
+   >Es wird empfohlen, Zuordnungen beim ersten Konfigurieren von Zuordnungen im einheitlichen Adobe-Erlebnis zu migrieren. Es schadet nicht, sie später erneut zu migrieren, aber sie mehrmals zu migrieren ist unnötig.
 
 1. Um eine neue Attributzuordnung zu erstellen, klicken Sie auf **Zuordnung hinzufügen**.
 
-1. Klicken Sie auf den Pfeil neben dem Workfront-Feldnamen und wählen Sie das Feld [!DNL Workfront] aus, das Sie zuordnen möchten.
+1. Klicken Sie auf den Pfeil neben dem Workfront-Feldnamen und wählen Sie das [!DNL Workfront] aus, dem Sie das Feld zuordnen möchten.
 
 1. (Optional) Wenn Sie mehr als eine Regel für ein bestimmtes Feld erstellen möchten, klicken Sie auf den Pfeil neben **Immer** und wählen Sie den Operator aus, den die Regel verwenden soll.
 
-1. (Bedingt) Wenn Sie neben &quot;Immer&quot;einen Operator ausgewählt haben, wählen Sie das Feld Workfront und den Wert aus, für den der Operator gilt.
+1. (Bedingt) Wenn Sie neben Immer einen Operator ausgewählt haben, wählen Sie das Workfront-Feld und den Wert aus, für die der Operator gilt.
 
    >[!NOTE]
    >
-   >Die Operatoren `Is Truthy` und `Is Falsy` benötigen keine Werte.
+   >Die Operatoren `Is Truthy` und `Is Falsy` erfordern keine Werte.
 
-1. Wählen Sie aus, ob Sie den Wert eines Attributs in Ihrem Identitätsmanager auf das Workfront-Feld anwenden möchten oder ob Sie einen bestimmten Konstantenwert anwenden möchten.
+1. Wählen Sie aus, ob Sie den Wert eines Attributs in Ihrem Identity Manager auf das Workfront-Feld anwenden möchten, oder ob Sie einen bestimmten konstanten Wert anwenden möchten.
 
-1. Geben Sie den Namen des Identitäts-Manager-Felds ein, das Sie anwenden möchten, oder geben Sie den Text der Konstante ein, die Sie anwenden möchten.
+1. Geben Sie den Namen des Identity Manager-Felds ein, das Sie anwenden möchten, oder geben Sie den Text des konstanten Werts ein, den Sie anwenden möchten.
 
 1. (Optional) Um weitere Regeln für dasselbe Workfront-Feld hinzuzufügen, klicken Sie auf **Neue Regel hinzufügen** und führen Sie die Schritte 4 bis 9 aus.
 
    >[!IMPORTANT]
    >
-   > * Jede Regel unterhalb einer Immer -Regel wird ignoriert. Wenn Sie über eine Regel vom Typ Immer verfügen, müssen Sie sie an den unteren Rand der Regelliste verschieben. Sie können Regeln in der Liste verschieben, indem Sie auf das Menü mit den drei Punkten rechts von der Regel klicken und die Regel nach oben oder unten verschieben.
-   > * Um eine Regel in der Mitte der Liste zu erstellen, klicken Sie auf das Menü mit den drei Punkten neben der Regel, die über oder unter der neuen Regel liegen soll, und wählen Sie **Regel über** oder **Regel darunter hinzufügen** aus.
+   > * Jede Regel unterhalb einer Always-Regel wird ignoriert. Wenn Sie eine Regel vom Typ Immer haben, müssen Sie sie an das Ende der Liste der Regeln verschieben. Sie können Regeln in der Liste verschieben, indem Sie auf das Dreipunkt-Menü rechts neben der Regel klicken und die Regel nach oben oder unten verschieben.
+   > * Um eine Regel in der Mitte der Liste zu erstellen, klicken Sie auf das Dreipunkt-Menü neben der Regel, die Sie über oder unter der neuen Regel platzieren möchten, und wählen Sie **Regel über hinzufügen** oder **Regel unten hinzufügen**.
 
-1. Um eine Regel zu löschen, klicken Sie auf das Menü mit drei Punkten neben der Regel, die Sie löschen möchten, und wählen Sie **Löschen** aus.
-1. Um eine Zuordnung zu löschen, klicken Sie auf das Symbol **Löschen** auf der Karte für diese Zuordnung.
+1. Um eine Regel zu löschen, klicken Sie auf das Dreipunkt-Menü neben der zu löschenden Regel und wählen Sie **Löschen**.
+1. Um eine Zuordnung zu löschen, klicken Sie auf das Symbol **Löschen**, das sich auf der Karte für diese Zuordnung befindet.
 
-1. Scrollen Sie zum Speichern zum oberen Rand der Seite und klicken Sie auf **Speichern**.
+1. Scrollen Sie zum Speichern nach oben auf der Seite und klicken Sie auf **Speichern**.
 
 

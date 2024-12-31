@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: administration-and-setup
-title: Verwalten von Adobe Workfront
-description: Als Workfront-Administrator können Sie Testversandfunktionen, Berichte, E-Mails, Sicherheit, Wechselkurse, gelöschte Elemente und Diagnosen konfigurieren.
+title: Adobe Workfront verwalten
+description: Als Workfront-Administrator können Sie die Proofing-Funktionalität, Berichte, E-Mails, Sicherheit, Wechselkurse, gelöschte Elemente und Diagnosen konfigurieren.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
@@ -17,11 +17,11 @@ ht-degree: 2%
 
 ---
 
-# Verwalten von Adobe Workfront
+# Adobe Workfront verwalten
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Konfigurieren der Testversandfunktion](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
+* [Konfigurieren der Proofing-Funktion](../../administration-and-setup/manage-workfront/configure-proofing/configuring-proofing-functionality.md)
 * [Berichte konfigurieren](../../administration-and-setup/manage-workfront/configure-reports/configure-reports.md)
 * [E-Mails](../../administration-and-setup/manage-workfront/emails/emails.md)
 * [Sicherheit](../../administration-and-setup/manage-workfront/security/security.md)

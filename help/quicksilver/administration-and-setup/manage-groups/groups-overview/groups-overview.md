@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: 'Gruppen: Artikelindex'
-description: Gruppen sind ähnlich, unterscheiden sich aber von Teams und Unternehmen. Der Workfront-Administrator gewährt Gruppen Zugriff auf die Bereiche der Workfront, in denen sie arbeiten und kommunizieren müssen.
+description: Gruppen ähneln Teams und Unternehmen, unterscheiden sich aber von ihnen. Der Workfront-Administrator gewährt Gruppen Zugriff auf die Workfront-Bereiche, in denen sie arbeiten und kommunizieren müssen.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 # Gruppen: Artikelindex
 
-Ein Workfront-Administrator kann Benutzergruppen erstellen, die mit Ihrer Abteilungsstruktur übereinstimmen. Gruppen sind ähnlich, unterscheiden sich aber von Teams und Unternehmen.
+Ein Workfront-Administrator kann Benutzergruppen erstellen, die mit Ihrer Abteilungsstruktur übereinstimmen. Gruppen ähneln Teams und Unternehmen, unterscheiden sich aber von ihnen.
 
-Der Workfront-Administrator gewährt Gruppen Zugriff auf die Bereiche der Workfront, in denen sie arbeiten und kommunizieren müssen. Jede Gruppe kann dann ihre Workfront-Informationen wie Benutzer, Vorlagen, benutzerdefinierte Formulare und Projekte von denen anderer Abteilungen trennen.
+Der Workfront-Administrator gewährt Gruppen Zugriff auf die Workfront-Bereiche, in denen sie arbeiten und kommunizieren müssen. Jede Gruppe kann dann ihre Workfront-Informationen wie Benutzer, Vorlagen und benutzerdefinierte Formulare sowie Projekte getrennt von denen anderer Abteilungen aufbewahren.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
-* [Übersicht über Untergruppen](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
-* [Übersicht über Startsegmente](../../../administration-and-setup/manage-groups/groups-overview/home-groups.md)
+* [Gruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md)
+* [Untergruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/subgroups.md)
+* [Hauptgruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/home-groups.md)

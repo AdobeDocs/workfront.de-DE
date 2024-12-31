@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Fehlermeldung: XML Digital Signature konnte nicht überprüft werden'
-description: Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
+title: 'Fehlermeldung: Digitale XML-Signatur konnte nicht validiert werden'
+description: Es kann keine erfolgreiche Verbindung zu ADFS hergestellt werden.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -20,19 +20,19 @@ ht-degree: 1%
 
 ## Problem
 
-Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
+Es kann keine erfolgreiche Verbindung zu ADFS hergestellt werden.
 
 ![error_message.png](assets/error-message.png)
 
 >[!NOTE]
 >
->Wenn Sie eine erfolgreiche Testverbindung herstellen und weiterhin Probleme auftreten, kann es bei Ihnen zu falschen Zuordnungen von Attributen oder zu Problemen mit Verknüpfungs-IDs kommen. Wenden Sie sich bei Fragen an den Support.
+>Wenn Sie eine erfolgreiche Testverbindung herstellen und weiterhin Probleme auftreten, kann es sein, dass falsche Attributzuordnungen oder Probleme mit den Federation IDs vorliegen. Wenden Sie sich bei Fragen an den Support.
 
 ## Zugriffsanforderungen
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -52,13 +52,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -66,20 +66,20 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ### Lösung
 
-Rufen Sie das Signaturzertifikat manuell vom ADFS-Server ab:
+Manuelles Abrufen des Signaturzertifikats vom ADFS-Server:
 
-1. Klicken Sie in [!DNL Windows] auf **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0-Verwaltung]**.\
+1. Klicken Sie [!DNL Windows] auf **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0-Verwaltung]**.\
    Das Dialogfeld ADFS 2.0-Verwaltung wird angezeigt.
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauenswürdige Parteivertrauer]** aus.
+1. Wählen **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauensstellungen der vertrauenden]** im linken Bereich aus.
 
-1. Klicken Sie mit der rechten Maustaste auf **[!UICONTROL Vertrauenswürdigkeit der Partei]** und wählen Sie **[!UICONTROL Eigenschaften]** aus.
+1. Klicken Sie mit der rechten Maustaste auf **[!UICONTROL Vertrauensstellung der vertrauenden Seite]** und wählen Sie **[!UICONTROL Eigenschaften]** aus.
 
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Signatur]**.
-1. Klicken Sie auf den Namen des Signaturzertifikats und dann auf **[!UICONTROL Anzeigen]**.
-1. Klicken Sie auf In **[!UICONTROL Datei]**... kopieren und wählen Sie **[!UICONTROL Weiter]** aus.
+1. Klicken Sie auf den Namen des Signaturzertifikats und anschließend auf **[!UICONTROL Anzeigen]**.
+1. Klicken Sie auf In **[!UICONTROL Datei]**… kopieren und wählen Sie **[!UICONTROL Weiter]**.
 
-1. Wählen Sie **[!UICONTROL Base-64-kodiertes x.509 (CER)]** und klicken Sie auf **[!UICONTROL Next]**.
+1. Wählen Sie **[!UICONTROL Base-64-kodiert x.509 (CER)]** aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
 1. Geben Sie den Dateinamen an und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Klicken Sie auf **[!UICONTROL Beenden]**.
@@ -89,16 +89,16 @@ Rufen Sie das Signaturzertifikat manuell vom ADFS-Server ab:
 
 ### Lösung
 
-Erstellen Sie das Zertifikat neu und verwenden Sie die RSA-Signatur anstelle der DSA.
+Erstellen Sie das Zertifikat neu und verwenden Sie die RSA-Signatur anstelle des DSA.
 
 ## Ursache 3: XML-Daten sind falsch
 
 ### Lösung
 
-Exportieren und importieren Sie die XML-Metadaten erneut aus dem ADFS-Verwaltungssystem.
+Exportieren Sie die XML-Metadaten erneut und importieren Sie sie erneut aus dem ADFS-Verwaltungssystem.
 
-## Ursache 4: Die Anfrage konnte aufgrund eines Fehlers auf der SAML-Seite nicht ausgeführt werden
+## Ursache 4: Die Anfrage konnte aufgrund eines Fehlers auf der SAML-Seite nicht ausgeführt werden.
 
 ### Lösung
 
-Wenden Sie sich an Ihren SAML-Provider.
+Kontaktieren Sie Ihren SAML-Anbieter.

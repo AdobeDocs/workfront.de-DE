@@ -3,8 +3,8 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Objekte von einer Umgebung in eine andere in Workfront verschieben
-description: Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Die Möglichkeit zum Verschieben von Transaktionsobjekten wird nicht unterstützt (mit eingeschränkten Ausnahmen).
+title: Verschieben von Objekten von einer Umgebung in eine andere innerhalb von Workfront
+description: Die Funktion Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Das Verschieben von Transaktionsobjekten wird nicht unterstützt (mit wenigen Ausnahmen).
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -16,33 +16,33 @@ ht-degree: 1%
 
 ---
 
-# Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungsförderung)
+# Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau-Sandbox-Umgebung verfügbar.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
-Mit der Umgebungsförderungsfunktion können Sie Objekte von einer Workfront-Umgebung in eine andere verschieben. Sie können beispielsweise eine Vorlage erstellen und in Ihrer Sandbox-Umgebung konfigurieren, in dem Wissen, dass sich Tests, die Sie durchführen, nicht auf die tatsächlichen Daten Ihrer Organisation auswirken. Nachdem die Vorlage konfiguriert und getestet wurde, können Sie sie in Ihre Produktionsumgebung verschieben, damit sie einsatzbereit ist.
+Mit der Funktion zum Hochstufen der Umgebung können Sie Objekte von einer Workfront-Umgebung in eine andere verschieben. Sie können beispielsweise eine Vorlage erstellen und in Ihrer Sandbox-Umgebung konfigurieren, in dem Wissen, dass Tests, die Sie durchführen, keine Auswirkungen auf die tatsächlichen Daten Ihrer Organisation haben. Nachdem die Vorlage konfiguriert und getestet wurde, können Sie sie in Ihre Produktionsumgebung verschieben, sodass sie verwendet werden kann.
 
-Dieser Prozess wird als &quot;Umweltförderung&quot;bezeichnet.
+Dieser Prozess wird als „Umgebungsförderung“ bezeichnet.
 
-Sie können diesen Vorgang in Workfront durchführen, indem Sie ein Objekt-Package erstellen, das verschoben werden soll, und dieses Package dann in der neuen Umgebung installieren.
+Sie können diesen Prozess in Workfront durchführen, indem Sie ein Paket von zu verschiebenden Objekten erstellen und dieses Paket dann in der neuen Umgebung installieren.
 
-* Spezifische Anweisungen zur Durchführung dieses Prozesses in Workfront finden Sie unter:
+* Spezifische Anweisungen zum Ausführen dieses Prozesses in Workfront finden Sie unter:
 
    * [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-   * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+   * [Installieren eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
-* Anweisungen zum Ausführen dieses Vorgangs über die Workfront-API finden Sie unter [Objekte mithilfe der API [!DNL Workfront] API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md) zwischen [!DNL Workfront] Umgebungen verschieben.
+* Anweisungen zum Ausführen dieses Prozesses über die Workfront-API finden Sie unter [Verschieben von Objekten zwischen  [!DNL Workfront]  mithilfe der  [!DNL Workfront] -API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md).
 
-[Sehen Sie sich eine Videodemonstration für diese Funktion an](https://video.tv.adobe.com/v/3429735/){target=_blank}
+[Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3429735/){target=_blank}
 
-## Unterstützte Objekte für die Umgebungsförderung
+## Unterstützte Objekte für die Umgebungs-Promotion
 
-Die Umgebungsförderungsfunktion soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Dies sind Objekte, die konfiguriert werden können, z. B. Projekte, Teams oder benutzerdefinierte Formulare.
+Die Funktion zum Hochstufen der Umgebung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Hierbei handelt es sich um Objekte, die konfiguriert werden können, z. B. Projekte, Teams oder benutzerdefinierte Formulare.
 
-Da die Umgebungswerbung die Objektkonfiguration behandelt, sind Transaktionsobjekte (Objekte, die sich häufig ändern oder von Anwendungsfällen stark abhängig sind) nicht enthalten. Beispiele für Transaktionsobjekte sind Dokumente, Probleme, Anfragen, Aktualisierungen und Testentscheidungen.
+Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Transaktionsobjekte (Objekte, die sich häufig ändern oder stark vom Anwendungsfall abhängig sind) nicht einbezogen. Beispiele für Transaktionsobjekte sind Dokumente, Probleme, Anfragen, Aktualisierungen und Korrekturabzugsentscheidungen.
 
 * [Arbeitsobjekte](#work-objects)
-* [Reporting-Objekte](#reporting-objects)
+* [Berichterstellungsobjekte](#reporting-objects)
 * [Benutzerdefinierte Datenobjekte](#custom-data-objects)
 * [Organisationsobjekte](#organization-objects)
 * [Andere Konfigurationsobjekte](#other-configuration-objects)
@@ -50,57 +50,57 @@ Da die Umgebungswerbung die Objektkonfiguration behandelt, sind Transaktionsobje
 
 ### Arbeitsobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
+| Promotable-Objekt | Eingeschlossene werbefähige verknüpfte Objekte |
 | --- | --- |
-| Projekt (PROJ) | Projekt<br>Aufgabe<br>Zuweisung<br>Vorgänger<br>Firma<br>Überschreiben der Rate<br>Gruppe<br>Rolle<br>Team<br>Genehmigungsprozess<br>Genehmigungspfad<br>Genehmigungs-Schritt<br>Schritt-Genehmiger<br>Zeitplan<br>Nicht Arbeitstag<br>Warteschlangendefinition<br>Warteschlangenthementgruppe{1 6}Queue Topic<br>Routing Rule<br>Milestone Path<br>Milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik<br> |
-| Vorlage (TMPL) | Vorlage<br>Vorlagenaufgabe<br>Vorlagenaufgabe-Zuweisung<br>Vorlagenaufgaben-Vorgänger<br>Firma<br>Überschreibungsrate<br>Gruppe<br>Rolle<br>Team<br>Genehmigungsprozess<br>Genehmigungspfad<br>Genehmigungsschritt<br>Schritt-Genehmiger<br>Zeitplan<br>Nicht-Arbeitstag<br>Warteschlangendefinition<br>Warteschlange ic group<br>Queue topic<br>Routing rule<br>Milestone path<br>milestone<br>Hour Type<br>Resource Pool<br>Category<br>Category Parameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
+| Projekt (PROJ) | Projekt<br>Aufgabe<br>Zuweisung<br>Vorgänger<br>Unternehmen<br>Überschreibungsrate<br>Gruppe<br>Rolle<br>Team<br>Genehmigungsprozess<br>Genehmigungspfad<br>Genehmigungsschritt<br><br> Zeitplaner<br>Nicht-Arbeitstag<br><br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> <br> Warteschlangendefinition Logik |
+| Vorlage (TMPL) | template<br>template task<br>template task assignment<br>template task precessor<br>company<br>override rate<br>group<br>role<br>team<br>approval path<br>approval step<br>step approver<br>scheduleday<br>queueDefinition<br>Themengruppe<br>queue e Topic<br>route<br><br><br><br><br><br><br><br><br> <br> <br> Option<br>Logik für Kategorieanzeige |
 
-### Reporting-Objekte
+### Berichterstellungsobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
+| Promotable-Objekt | Eingeschlossene werbefähige verknüpfte Objekte |
 | --- | --- |
-| Layout Template (UITMPL) | Layout template<br>Dashboard<br>Calendar<br>Calendar section<br>External Page<br>report<br>filter<br>Grouping<br>view<br>parameter<br>group |
-| Dashboard (PTLTAB) | Dashboard<br>Kalender<br>Kalenderabschnitt<br>Externe Seite<br>Bericht<br>Filter<br>Gruppierung<br>Ansicht<br>Parameter |
-| Kalender (CALEND) | Calendar<br>Kalenderabschnitt |
-| Externe Seite (EXTSEC) | Externe Seite |
-| Bericht (PTLSEC) | Bericht<br>Filter<br>Gruppierung<br>Ansicht<br>Parameter |
-| Filter (UIFT) | Filter<br>Parameter |
-| Gruppierung (UIGB) | Grouping<br>Parameter |
-| Anzeigen (UIVW) | Parameter anzeigen<br> |
+| Layoutvorlage (UTIMPL) | Layout-Vorlage<br>Dashboard<br>Kalender<br>Kalenderabschnitt<br>Externe Seite<br>Bericht<br>Filter<br>Gruppierung<br>Ansicht<br>Parameter<br>group |
+| Dashboard (PTLTAB) | dashboard<br>calendar<br>calendar section<br>external page<br>report<br>filter<br>grouping<br>view<br>parameter |
+| Kalender (KALENDER) | <br> |
+| Externe Seite (EXTEC) | Externe Seite |
+| Bericht (PTLSEC) | report<br>filter<br>grouping<br>view<br>parameter |
+| Filter (UIFT) | <br> |
+| Gruppierung (UIGB) | grouping<br>parameter |
+| Ansicht (UIVW) | <br> |
 
 ### Benutzerdefinierte Datenobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
+| Promotable-Objekt | Eingeschlossene werbefähige verknüpfte Objekte |
 | --- | --- |
-| Kategorie (KG) | Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik<br>Gruppe |
-| Parameter (PARAM) | Parameter<br>Parameteroption |
+| Kategorie (CTG) | category<br>category Parameter<br>parameter<br>parameter group<br>parameter option<br>category display logic<br>group |
+| Parameter (PARAM) | <br> |
 | Parametergruppe (PGRP) | Parametergruppe |
 
 ### Organisationsobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
+| Promotable-Objekt | Eingeschlossene werbefähige verknüpfte Objekte |
 | --- | --- |
-| Gruppe (GRUPPE) | Gruppe <br>Untergruppen (bis zu 5 Ebenen) *<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Logik der Kategorieanzeige |
+| Gruppe (GROUP) | Gruppe <br>Untergruppen (bis zu 5 Ebenen) *<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter Option<br>Kategorie Anzeigelogik |
 | Rolle (ROLE) | Funktion |
-| Team (TEAM) | Team<br>group |
-| Unternehmen (CMPY) | Unternehmen<br>Überschreibungsrate<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameter <br>Kategorieanzeigelogik<br>Gruppe |
-| Portfolio (HAFEN) | Portfolio<br>Programm<br>Gruppe<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
-| Programm (PRGM) | Programm<br>Portfolio<br>Gruppe<br>Kategorie<br>Kategorieparameter<br>Parameter<br>Parametergruppe<br>Parameteroption<br>Kategorieanzeigelogik |
+| Team (Team) | <br> |
+| Firma (COMPY) | Firma<br>Überschreibungsrate<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter <br>Kategorieanzeigelogik<br>Gruppe |
+| Portfolio (PORT) | Portfolio <br>Programm<br>Gruppe<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter Option<br>Kategorieanzeigelogik |
+| Programm (PRGM) | Programm<br>Portfolio <br>Gruppe<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter Option<br>Kategorieanzeigelogik |
 
 ### Andere Konfigurationsobjekte
 
-| Förderbares Objekt | Einbezogene förderfähige verknüpfte Objekte |
+| Promotable-Objekt | Eingeschlossene werbefähige verknüpfte Objekte |
 | --- | --- |
-| Genehmigungsverfahren (ARVVR) | Genehmigungsprozess<br>Genehmigungspfad<br>Genehmigungsschritt<br>Schritt-Genehmiger<br>Rolle<br>Team<br>Gruppe |
-| Zeitplan (SCHED) | Zeitplan<br>Nicht-Arbeitstag<br> Gruppe |
-| Meilensteinpfad (MPATH) | Milestone Path<br>Milestone |
-| Datenblatt-Profil (TSPRO) | Datenblatt-Profil<br>Stündentyp |
+| Genehmigungsprozess (ARVPRC) | Genehmigungsprozess<br>Genehmigungspfad<br>Genehmigungsschritt<br>Schritt Genehmiger<br>Rolle<br>Team<br>Gruppe |
+| Zeitplan (SCHED) | Schedule<br>non-work day<br>group |
+| Meilensteinpfad (MPATH) | Meilensteinpfad<br>Meilenstein |
+| Arbeitszeittabellen-Profil (TSPRO) | Arbeitszeittabellen<br>Profil/Stundentyp |
 | Stundentyp (STUNDE) | Stundentyp |
 | Ausgabentyp (EXPTYP) | Ausgabentyp |
 | Risikotyp (RSKTYP) | Risikotyp |
-| Ressourcen-Pool (RSPL) | Ressourcen-Pool |
-| Zugriffsstufe (ACSLVL) | Zugriffsebene |
-| <span class="preview">Ratenkarte (RTCRD)</span> | <span class="preview">Ratenkarte</span> |
+| Ressourcenpool (RSPL) | Ressourcen-Pool |
+| Zugriffsebene (ACSLV) | Zugriffsebene |
+| <span class="preview">Tarifkarte (RTCRD)</span> | <span class="preview">Tarifkarte</span> |
 
 \* Derzeit nicht verfügbar
 
@@ -117,9 +117,9 @@ Da die Umgebungswerbung die Objektkonfiguration behandelt, sind Transaktionsobje
 
 -->
 
-## Status der Umgebungsförderung
+## Umgebungsförderungsstatus
 
-Förderungspakete für die Umgebung durchlaufen mehrere Status, während sie erstellt und für den Wechsel zwischen Umgebungen vorbereitet werden. Sie können diese Status in Ihrer Paketliste innerhalb von Workfront oder in den API-Antworten sehen, wenn Sie die Workfront-API verwenden.
+Umgebungs-Promotion-Pakete durchlaufen beim Erstellen und Vorbereiten des Wechsels zwischen Umgebungen mehrere Status. Sie können diese Status in Ihrer Paketliste in Workfront oder in den API-Antworten sehen, wenn Sie die Workfront-API verwenden.
 
 Zu diesen Status gehören:
 
@@ -128,39 +128,39 @@ Zu diesen Status gehören:
  <col> 
  <tbody> 
   <tr> 
-   <td>UNASSEMBLED</td> 
+   <td>NICHT MONTIERT</td> 
    <td><p>Dieser Status wird automatisch zugewiesen und stellt ein Paket dar, das gespeichert, aber noch nicht zusammengestellt wurde. </p><p>Dieser Status kann nicht direkt von einem Benutzer festgelegt werden.</p></td> 
   </tr> 
   <tr> 
-   <td>ASSEMBLING</td> 
-   <td><p>Dieser Status wird automatisch zugewiesen, während Objekte assembliert werden. </p><p>Das Assemblieren bezieht sich auf den automatisierten Prozess zum Identifizieren von Objekten und Unterobjekten, die in ein Package aufgenommen werden sollen, und zum Hinzufügen dieser Objekte und ihrer Daten zum Paket.</p><p>Dieser Status kann nicht direkt von einem Benutzer festgelegt werden.</p></td> 
+   <td>ZUSAMMENSTELLEN</td> 
+   <td><p>Dieser Status wird beim Zusammenfügen von Objekten automatisch zugewiesen. </p><p>Das Zusammenstellen bezieht sich auf den automatisierten Prozess der Identifizierung von Objekten und Unterobjekten, die in ein Paket aufgenommen werden sollen, und des Hinzufügens dieser Objekte und ihrer Daten zum Paket.</p><p>Dieser Status kann nicht direkt von einem Benutzer festgelegt werden.</p></td> 
   </tr> 
   <tr> 
    <td>ENTWURF</td> 
-   <td><p>Dieser Status wird beim Abschluss eines Assemblyprozesses oder beim Erstellen eines leeren Promotion-Pakets zugewiesen.</p><p>Es ist möglich, dass ein Benutzer das Promotion-Paket zurück in diesen Status verschiebt.</p><p>In diesem Status kann das Promotion-Paket in keiner Umgebung installiert werden.</p></td> 
+   <td><p>Dieser Status wird bei Abschluss eines Montageprozesses oder bei der Erstellung eines leeren Promotion-Pakets zugewiesen.</p><p>Ein Benutzer kann das Promotion-Paket zurück in diesen Status verschieben.</p><p>In diesem Status kann das Promotion-Paket in keiner Umgebung installiert werden.</p></td> 
   </tr> 
   <tr> 
-   <td>TESTEN</td> 
-   <td><p>Dieser Status ermöglicht die Installation eines Promotion-Pakets in jeder Vorschau- oder benutzerdefinierten Aktualisierungs-Sandbox. In diesem Status kann das Paket nicht in der Produktion installiert werden.</p></td> 
+   <td>TESTING</td> 
+   <td><p>Mit diesem Status kann ein Promotion-Paket in jeder Vorschau- oder benutzerdefinierten Aktualisierungs-Sandbox installiert werden. In diesem Status kann das Paket nicht in der Produktion installiert werden.</p></td> 
   </tr> 
   <tr> 
    <td>AKTIV</td> 
-   <td><p>Dieser Status ermöglicht die Installation eines Promotion-Pakets in einer beliebigen Umgebung, einschließlich der Produktion.</p><p>Wenn ein Paketstatus auf AKTIV gesetzt ist, wird das Datum <code>publishedAt</code> automatisch auf den aktuellen Zeitstempel der Anfrage gesetzt.</p></td> 
+   <td><p>Dieser Status ermöglicht die Installation eines Promotion-Pakets in jeder Umgebung, einschließlich Produktion.</p><p>Wenn der Status eines Pakets auf AKTIV gesetzt ist, wird das <code>publishedAt</code> automatisch auf den aktuellen Zeitstempel der Anfrage festgelegt.</p></td> 
   </tr> 
   <tr> 
    <td>DISABLED</td> 
-   <td><p>Dieser Status wird verwendet, um zuvor verwendete Promotionspakete auszublenden, die in Zukunft in keiner Umgebung installiert werden.</p><p>Wenn ein Paket diesen Status aufweist, kann es in keiner Umgebung installiert werden.</p><p>Wenn ein Paketstatus auf DEAKTIVIERT gesetzt ist, wird das Datum <code>retiredAt</code> automatisch auf den aktuellen Zeitstempel der Anfrage gesetzt.</p><p>Die Verwendung dieses Status wird für die Verwendung des Endpunkts <code>DELETE /package</code> empfohlen, da dieser abgerufen werden kann und der Installationsverlauf für alle Implementierungen, die mit diesem Paket durchgeführt werden, beibehalten wird.</p></td> 
+   <td><p>Dieser Status wird verwendet, um zuvor verwendete Promotion-Pakete auszublenden, die in Zukunft in keiner Umgebung installiert werden.</p><p>Wenn sich ein Paket in diesem Status befindet, kann es in keiner Umgebung installiert werden.</p><p>Wenn ein Paketstatus auf DEAKTIVIERT gesetzt ist, wird das <code>retiredAt</code> automatisch auf den aktuellen Zeitstempel der Anfrage gesetzt.</p><p>Die Verwendung dieses Status wird anstelle des <code>DELETE /package</code>-Endpunkts empfohlen, da er abrufbar ist und der Installationsverlauf für alle Bereitstellungen mit diesem Paket beibehalten wird.</p></td> 
   </tr> 
   <tr> 
    <td>ASSEMBLING_FAILED</td> 
-   <td><p>Wenn die ASSEMBLING-Phase fehlschlägt, wird das Promotionpaket automatisch in diesen Status versetzt.</p><p>Um das Package in die Phase der ASSEMBLING zurückzusetzen, müssen Sie den Assembling-Prozess erneut Trigger haben.</p><p>Weitere Informationen zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenführen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
+   <td><p>Das Promotion-Paket wird automatisch in diesen Status versetzt, wenn die MONTAGE fehlschlägt.</p><p>Um das Paket wieder in die MONTAGE-Phase einzubringen, muss der Zusammenstellungsprozess erneut Trigger werden.</p><p>Einzelheiten zum Zusammenstellen eines Pakets finden Sie im Abschnitt <a href="https://experienceleague.adobe.com/en/docs/workfront/using/administration-and-setup/set-up-wf/testing-environments/environment-promotion-create-package#edit-or-assemble-an-existing-package">Bearbeiten oder Zusammenstellen eines vorhandenen Pakets</a> im Artikel Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets.</td> 
   </tr> 
   </tbody> 
 </table>
 
 ## Ressourcen
 
-* Häufig gestellte Fragen zur Umgebungsförderung finden Sie unter [Häufig gestellte Fragen zur Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-* Informationen zur Fehlerbehebung finden Sie unter [Fehlerbehebung bei der Umgebungspromotion](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+* Häufig gestellte Fragen zur Umgebungsförderung finden Sie unter [FAQ zur Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
+* Empfehlungen zur Fehlerbehebung finden Sie unter [Fehlerbehebung bei der Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
 
 

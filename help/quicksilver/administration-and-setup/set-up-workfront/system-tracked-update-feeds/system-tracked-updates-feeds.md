@@ -3,8 +3,8 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: Systemtrackierte Aktualisierungs-Feeds
-description: Adobe Workfront protokolliert die Aktivität, die auf bestimmten Objekten im Bereich [!UICONTROL Aktualisierungen] stattfindet. Eine Systemaktualisierung enthält einen kurzen Hinweis, in dem beschrieben wird, welche Art von Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Administratoren können im Abschnitt [!UICONTROL Aktualisierungen] festlegen, welche Art von Änderungen das System verfolgen soll.
+title: Systemgesteuerte Aktualisierungs-Feeds
+description: Adobe Workfront protokolliert die Aktivitäten, die an bestimmten Objekten stattfinden, im Bereich [!UICONTROL Updates]. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Administratoren können im Abschnitt „Aktualisierungen“ festlegen, welche Änderungen [!UICONTROL  System ] soll.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 ---
 
-# Vom System getrackte Aktualisierungs-Feeds
+# Systemgetrackte Aktualisierungs-Feeds
 
 <!--Audited: April, 2024-->
 
-Adobe Workfront protokolliert die Aktivität, die auf bestimmten Objekten stattfindet, automatisch in ihrem Abschnitt [!UICONTROL Aktualisierungen] als Systemaktualisierung. Eine Systemaktualisierung enthält einen kurzen Hinweis, in dem beschrieben wird, welche Art von Änderung am Objekt vorgenommen wurde. [!DNL Workfront] -Administratoren können im Abschnitt [!UICONTROL Aktualisierungen] festlegen, welche Art von Änderungen das System verfolgen soll.
+Adobe Workfront protokolliert die Aktivitäten für bestimmte Objekte automatisch im Abschnitt [!UICONTROL Updates] als Systemaktualisierung. Eine Systemaktualisierung enthält einen kurzen Hinweis, der beschreibt, welche Änderung am Objekt vorgenommen wurde. [!DNL Workfront] Admins können im Abschnitt [!UICONTROL Updates“ festlegen, welche Änderungen das System ] soll.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Gruppenrollen
-description: Der Workfront-Administrator gewährt Gruppen Zugriff auf die Bereiche der Workfront, in denen sie arbeiten und kommunizieren müssen. Jede Gruppe kann dann ihre Workfront-Informationen wie Benutzer, Vorlagen, benutzerdefinierte Formulare und Projekte von denen anderer Abteilungen trennen.
+description: Der Workfront-Administrator gewährt Gruppen Zugriff auf die Workfront-Bereiche, in denen sie arbeiten und kommunizieren müssen. Jede Gruppe kann dann ihre Workfront-Informationen wie Benutzer, Vorlagen und benutzerdefinierte Formulare sowie Projekte getrennt von denen anderer Abteilungen aufbewahren.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -23,7 +23,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Gruppenadmins](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md)
 
-* [Weisen Sie einen Benutzer als Gruppenadministrator zu](../../../administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
-* [Für verschiedene Arten von Administratoren zulässige Aktionen](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
+* [Benutzer als Gruppenadministrator zuweisen](../../../administration-and-setup/manage-groups/group-roles/assign-user-as-group-administrator.md)
+* [Für verschiedene Arten von Admins zulässige Aktionen](../../../administration-and-setup/manage-groups/group-roles/group-actions-allowed-different-types-admins.md)
 
 * [Übersicht über Business Leader](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md)

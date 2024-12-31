@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: work-with-a-groups-objects
-title: Erstellen und Ändern von Gruppenprojektvorlagen
-description: Wenn Sie eine Gruppe anzeigen, die Sie im Bereich "Gruppen"verwalten, können Sie Projektvorlagen anzeigen und verwenden, die mit der Gruppe und ihren Untergruppen verknüpft sind.
+title: Erstellen und Ändern der Projektvorlagen einer Gruppe
+description: Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie mit der Gruppe und ihren Untergruppen verknüpfte Projektvorlagen anzeigen und mit ihnen arbeiten.
 author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,17 +15,17 @@ ht-degree: 1%
 
 ---
 
-# Erstellen und Ändern von Gruppenprojektvorlagen
+# Erstellen und Ändern der Projektvorlagen einer Gruppe
 
-Wenn Sie eine Gruppe anzeigen, die Sie im Bereich &quot;Gruppen&quot;verwalten, können Sie Projektvorlagen anzeigen und verwenden, die mit der Gruppe und ihren Untergruppen verknüpft sind.
+Wenn Sie eine Gruppe anzeigen, die Sie im Bereich Gruppen verwalten, können Sie mit der Gruppe und ihren Untergruppen verknüpfte Projektvorlagen anzeigen und mit ihnen arbeiten.
 
-Wenn es Gruppen über Ihrer Gruppe gibt, können ihre Administratoren diese Dinge auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
+Wenn es Gruppen oberhalb Ihrer Gruppe gibt, können deren Administratoren diese Dinge auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,33 +33,33 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr> 
    <td role="rowheader">Workfront-Plan*</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren eines vollen Administratorzugriffs für Benutzer</a>.</p> </td> 
+   <td> <p>Plan </p> <p>Sie müssen Gruppenadministrator der Gruppe oder Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/manage-groups/group-roles/group-administrators.md" class="MCXref xref">Gruppenadministratoren</a> und <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">einem Benutzer uneingeschränkten Administratorzugriff gewähren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff oder höher auf die Vorlagen anzeigen, die Sie anzeigen und verwenden möchten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Zugriff auf die Vorlagen, die angezeigt werden sollen und mit denen Sie arbeiten möchten, anzeigen oder höher</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie herausfinden möchten, welchen Plan oder welchen Lizenztyp Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie wissen möchten, über welchen Plan oder Lizenztyp Sie verfügen.
 
 +++
 
-## Anzeigen, Arbeiten mit und Erstellen von Vorlagen für Ihre Gruppe über den Bereich Gruppen
+## Im Bereich Gruppen können Sie Vorlagen für Ihre Gruppe anzeigen, damit arbeiten und erstellen
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, für die Sie Vorlagen erstellen oder ändern möchten.
-1. Klicken Sie im linken Bereich auf **Vorlagen** , um die Vorlagen aufzulisten, die der Gruppe und etwaigen Untergruppen zugeordnet sind.
+1. Klicken Sie im linken Bereich auf **Vorlagen**, um die Vorlagen aufzulisten, die mit der Gruppe und etwaigen Untergruppen, die sie möglicherweise hat, verknüpft sind.
 
-   Sie müssen Zugriff auf eine Vorlage haben, um sie in dieser Liste sehen zu können. Weitere Informationen zu diesem Zugriff finden Sie unter [Gewähren des Zugriffs auf Vorlagen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
+   Sie müssen Ansichtszugriff auf eine Vorlage haben, um sie in dieser Liste zu sehen. Weitere Informationen zu diesem Zugriff finden Sie unter [Zugriff auf Vorlagen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md).
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -69,56 +69,56 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
     <tbody> 
      <tr> 
       <td role="rowheader">Vorlage hinzufügen</td> 
-      <td> <p>Klicken Sie auf <strong>Neue Vorlage</strong> und konfigurieren Sie sie dann mithilfe der verfügbaren Optionen. Weitere Informationen zu diesen Optionen finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Erstellen einer Projektvorlage</a>.</p> <p>Die Vorlage wird automatisch mit der Gruppe verknüpft.</p> <p>Informationen dazu, wie Gruppenvoreinstellungen auf neue Vorlagen angewendet werden, finden Sie unter <a href="#how-preferences-apply-to-templates-and-template-tasks" class="MCXref xref">Wie Voreinstellungen auf Vorlagen und Vorlagenaufgaben angewendet werden</a> in diesem Artikel.</p> </td> 
+      <td> <p>Klicken Sie <strong>Neue Vorlage</strong> und konfigurieren Sie sie dann mithilfe der verfügbaren Optionen. Weitere Informationen zu diesen Optionen finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/create-template.md" class="MCXref xref">Erstellen einer Projektvorlage</a>.</p> <p>Die Vorlage wird automatisch mit der Gruppe verknüpft.</p> <p>Informationen dazu, wie Gruppenvoreinstellungen auf neue Vorlagen angewendet werden, finden Sie unter <a href="#how-preferences-apply-to-templates-and-template-tasks" class="MCXref xref">Wie Voreinstellungen auf Vorlagen und Vorlagenaufgaben angewendet werden</a> in diesem Artikel.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Eine oder mehrere Vorlagen bearbeiten</td> 
-      <td> <p>Wählen Sie mindestens eine Vorlage aus, klicken Sie auf das Bearbeitungssymbol <img src="assets/edit-icon.png"> und verwenden Sie dann eine der verfügbaren Optionen, um sie zu konfigurieren. Weitere Informationen zu diesen Optionen finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Bearbeiten von Projektvorlagen</a>.</p> <p>Das Symbol Bearbeiten ist nur verfügbar, wenn Sie Zugriff auf alle ausgewählten Vorlagen haben. Weitere Informationen zu diesem Zugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Gewähren des Zugriffs auf Vorlagen</a>.</p> </td> 
+      <td> <p>Wählen Sie mindestens eine Vorlage aus, klicken Sie auf das Symbol Bearbeiten <img src="assets/edit-icon.png"> verwenden Sie dann eine der verfügbaren Optionen, um sie zu konfigurieren. Weitere Informationen zu diesen Optionen finden Sie unter <a href="../../../manage-work/projects/create-and-manage-templates/edit-templates.md" class="MCXref xref">Projektvorlagen bearbeiten</a>.</p> <p>Das Symbol Bearbeiten ist nur verfügbar, wenn Sie Bearbeitungszugriff auf alle ausgewählten Vorlagen haben. Weitere Informationen zu diesem Zugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Eine oder mehrere Vorlagen löschen</td> 
-      <td> <p>Wählen Sie mindestens eine Vorlage aus und klicken Sie dann auf das Löschsymbol <img src="assets/delete.png">.</p> <p>Dieses Symbol ist nur verfügbar, wenn Sie Zugriff auf alle ausgewählten Vorlagen haben. Weitere Informationen zu diesem Zugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Gewähren des Zugriffs auf Vorlagen</a>.</p> </td> 
+      <td> <p>Wählen Sie mindestens eine Vorlage aus und klicken Sie dann auf das Symbol Löschen <img src="assets/delete.png">.</p> <p>Dieses Symbol ist nur verfügbar, wenn Sie Bearbeitungszugriff auf alle ausgewählten Vorlagen haben. Weitere Informationen zu diesem Zugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Vorlagen freigeben</td> 
-      <td> <p>Wählen Sie mindestens eine Vorlage aus, klicken Sie auf das Freigabesymbol <img src="assets/share-icon.png"> und anschließend auf eine der folgenden Optionen im Dropdown-Menü:</p> 
+      <td role="rowheader">Freigeben einer oder mehrerer Vorlagen</td> 
+      <td> <p>Wählen Sie mindestens eine Vorlage aus, klicken Sie auf das Symbol Freigeben <img src="assets/share-icon.png"> dann auf eine der folgenden Optionen im Dropdown-Menü:</p> 
        <ul> 
-        <li> <p><strong>Vorlage</strong>: Fügen Sie im angezeigten Feld <strong>Vorlagenzugriff</strong> Namen hinzu, um anzugeben, wer auf die Vorlage selbst zugreifen soll.</p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Vorlage freigeben</a> im Artikel <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Projektvorlagen freigeben</a>.</p> </li> 
-        <li><strong>Projekt</strong>: Fügen Sie im angezeigten Feld <strong>Projektzugriff</strong> Namen hinzu, um anzugeben, wer auf die Projekte zugreifen soll, die aus der Vorlage erstellt wurden.</li> 
-       </ul> <p>Das Symbol Freigabe ist nur verfügbar, wenn Sie Zugriff auf alle ausgewählten Vorlagen haben. Weitere Informationen zu diesem Zugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Gewähren des Zugriffs auf Vorlagen</a>.</p> </td> 
+        <li> <p><strong>Vorlage</strong>: Fügen Sie im </strong> „Zugriff auf <strong>" Namen hinzu, um anzugeben, wer Zugriff auf die Vorlage selbst haben möchte.</p> <p>Weitere Informationen finden Sie im Abschnitt <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md#share" class="MCXref xref">Freigeben einer Vorlage</a> im Artikel <a href="../../../manage-work/projects/create-and-manage-templates/share-project-template.md" class="MCXref xref">Freigeben von Projektvorlagen</a>.</p> </li> 
+        <li><strong>Projekt</strong> <strong>: Fügen Sie im </strong> „Projektzugriff“ Namen hinzu, um anzugeben, wem Sie Zugriff auf die aus der Vorlage erstellten Projekte gewähren möchten</li> 
+       </ul> <p>Das Symbol Freigeben ist nur verfügbar, wenn Sie Freigabezugriff auf alle ausgewählten Vorlagen haben. Weitere Informationen zu diesem Zugriff finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md" class="MCXref xref">Zugriff auf Vorlagen gewähren</a>.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Liste von Vorlagen exportieren</td> 
-      <td>Klicken Sie auf <strong>Export</strong> <img src="assets/export.png"> und wählen Sie dann das Dateiformat aus, das Sie für die exportierte Liste verwenden möchten.</td> 
+      <td role="rowheader">Liste der Vorlagen exportieren</td> 
+      <td>Klicken <strong> auf </strong>Exportieren<img src="assets/export.png"> und wählen Sie dann das Dateiformat für die exportierte Liste aus.</td> 
      </tr> 
     </tbody> 
    </table>
 
-## Wie werden Voreinstellungen auf Vorlagen und Vorlagenaufgaben angewendet? {#how-preferences-apply-to-templates-and-template-tasks}
+## So werden Voreinstellungen auf Vorlagen und Vorlagenaufgaben angewendet {#how-preferences-apply-to-templates-and-template-tasks}
 
-Wenn Sie eine Projektvorlage erstellen, werden die in den Tabellen unten aufgeführten Einstellungen automatisch durch eine Korrelationsprojekt- oder Aufgabenvoreinstellung konfiguriert.
+Wenn Sie eine Projektvorlage erstellen, werden die in den folgenden Tabellen aufgelisteten Einstellungen automatisch durch eine entsprechende Projekt- oder Aufgabenvoreinstellung konfiguriert.
 
 >[!NOTE]
 >
->Eine Projekt- oder Aufgabenvoreinstellung auf Gruppen- oder Systemebene wirkt sich auf eine Projektvorlage aus, je nachdem, ob Sie die Vorlage bei ihrer Erstellung mit einer Gruppe verknüpft haben.
+>Die Voreinstellung eines Projekts oder einer Aufgabe auf Gruppenebene bzw. Systemebene wirkt sich auf eine Projektvorlage aus, je nachdem, ob Sie die Vorlage zum Zeitpunkt ihrer Erstellung einer Gruppe zugeordnet haben.
 >
->Wenn Sie es mit einer Gruppe verknüpft haben, wird die Voreinstellung auf Gruppenebene wirksam. Dies geschieht in den folgenden Szenarien:
+>Wenn Sie sie mit einer Gruppe verknüpft haben, wird die Einstellung auf Gruppenebene wirksam. Dies geschieht in den folgenden Szenarien:
 >
->* Sie erstellen die Vorlage aus dem Bereich Gruppen , wie in diesem Artikel beschrieben
->* Sie geben eine Gruppe an, wenn Sie die Vorlage mit einer Schnellstartdatei erstellen
->* Sie geben eine Gruppe an, wenn Sie die Vorlage mithilfe der API erstellen
+>* Sie erstellen die Vorlage aus dem Bereich Gruppen , wie in diesem Artikel erläutert
+>* Beim Erstellen der Vorlage mithilfe einer Kickstart-Datei legen Sie eine Gruppe fest
+>* Beim Erstellen der Vorlage mit der API geben Sie eine Gruppe an
 >
->Wenn Sie die neue Vorlage nicht mit einer Gruppe verknüpft haben, wird die Voreinstellung auf Systemebene wirksam. Dies tritt in den unten stehenden Szenarien auf. (Wenn Sie der Vorlage oder Vorlagenaufgabe später eine Gruppe zuweisen, wirken sich die Voreinstellungen der Gruppe nicht darauf aus.)
+>Wenn Sie die neue Vorlage nicht mit einer Gruppe verknüpft haben, wird die Voreinstellung auf Systemebene wirksam. Dies tritt in den folgenden Szenarien auf. (Wenn Sie der Vorlage oder Vorlagenaufgabe später eine Gruppe zuweisen, wirken sich die Einstellungen der Gruppe nicht auf sie aus.)
 >
->* Sie erstellen die Vorlage aus dem Bereich Vorlagen .
->* Sie geben keine Gruppe an, wenn Sie die Vorlage mit einer Schnellstartdatei erstellen
->* Sie geben keine Gruppe an, wenn Sie die Vorlage mit der API erstellen
+>* Die Vorlage wird im Bereich Vorlagen erstellt
+>* Beim Erstellen der Vorlage mit einer Kickstart-Datei geben Sie keine Gruppe an
+>* Beim Erstellen der Vorlage mit der API geben Sie keine Gruppe an
 >
 
-* [Durch Projekt- und Aufgabenvoreinstellungen konfigurierte Projektvorlageneinstellungen](#project-template-settings-configured-by-project-and-task-preferences)
-* [VorlagenAufgabeneinstellungen, die von Aufgabenvoreinstellungen konfiguriert wurden](#template-task-settings-configured-by-task-preferences)
+* [Projektvorlageneinstellungen werden durch Projekt- und Aufgabenvoreinstellungen konfiguriert](#project-template-settings-configured-by-project-and-task-preferences)
+* [Einstellungen der Vorlagenaufgabe nach Aufgabenvoreinstellungen konfiguriert](#template-task-settings-configured-by-task-preferences)
 
-### Von Projekt- und Aufgabenvoreinstellungen konfigurierte Projektvorlageneinstellungen {#project-template-settings-configured-by-project-and-task-preferences}
+### Einstellungen für Projektvorlagen, die durch Projekt- und Aufgabenvoreinstellungen konfiguriert sind {#project-template-settings-configured-by-project-and-task-preferences}
 
 <table style="table-layout:auto"> 
  <col> 
@@ -126,53 +126,53 @@ Wenn Sie eine Projektvorlage erstellen, werden die in den Tabellen unten aufgef�
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Performance-Index-Methode</p> </td> 
-   <td> <p>Wird durch die Gruppenebenenpräferenz "Leistungsindex-Methode"konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder wenn nicht mit einer Projektreferenz auf Systemebene.</p> </td> 
+   <td> <p>Wird von der Gruppenprojektvoreinstellung „Leistungsindexmethode“ konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder dieselbe Projektvoreinstellung auf Systemebene, wenn nicht.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Bedingungstyp</p> </td> 
-   <td> <p>Wird durch die Projektanvoreinstellung auf Gruppenebene konfiguriert: "Legen Sie die Projektbedingung automatisch auf Grundlage des Fortschrittsstatus fest", wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder andernfalls mit der Projektoption auf Systemebene.</p> </td> 
+   <td> <p>Wird über die Voreinstellung des Projekts auf Gruppenebene konfiguriert „Die Projektbedingung wird automatisch anhand des Fortschrittsstatus festgelegt“, wenn die neue Vorlage mit einer Gruppe verknüpft wird, oder dieselbe Voreinstellung des Projekts auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Planen aus</p> </td> 
-   <td> <p>Wird durch die Gruppenebenenpräferenz "Planen von"konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder durch dieselbe Projektanvoreinstellung auf Systemebene, wenn nicht.</p> </td> 
+   <td role="rowheader"> <p>Zeitplan ab</p> </td> 
+   <td> <p>Wird durch die Voreinstellung „Zeitplan ab“ auf Gruppenebene konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder dieselbe Voreinstellung auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Benutzerzeit</p> </td> 
-   <td> <p>Wird durch die Gruppenvorgabe "Benutzerzeit ab"für das Projekt konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder durch die Projektoption auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
+   <td role="rowheader"> <p>Benutzer-Ausfallzeit</p> </td> 
+   <td> <p>Wird über die Voreinstellung „Benutzer-Ausfallzeit“ auf Gruppenebene konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder über dieselbe Voreinstellung auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Aktualisierungstyp</p> </td> 
-   <td> <p>Wird durch die Gruppenpräferenz "Projektzeitpläne werden automatisch neu berechnet"konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder wenn nicht mit der Projektoption auf Systemebene.</p> </td> 
+   <td role="rowheader"> <p>Update-Typ</p> </td> 
+   <td> <p>Konfiguriert durch die Voreinstellung des Projekts auf Gruppenebene „Projektzeitleisten werden automatisch neu berechnet“, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder dieselbe Voreinstellung des Projekts auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Zugriffsparteneinstellungen</p> </td> 
-   <td> <p>Wird durch die Aufgabenvoreinstellungen auf Gruppenebene im Abschnitt "Zugriff"konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder wenn nicht mit der Projektreferenz auf Systemebene.</p> </td> 
+   <td role="rowheader"> <p>Zugriff auf Abschnittseinstellungen</p> </td> 
+   <td> <p>Wird durch die Voreinstellungen für Aufgaben auf Gruppenebene im Abschnitt „Zugriff“ konfiguriert, wenn Sie die neue Vorlage mit einer Gruppe verknüpfen, oder durch die Voreinstellung für Projekte auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Informationen zu den in dieser Tabelle aufgeführten Projektvoreinstellungen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Informationen zu den in dieser Tabelle aufgeführten Projektvoreinstellungen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Weitere Informationen zu den Aufgaben- und Problemeinstellungen finden Sie unter [Systemweite Aufgaben- und Problemeinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Informationen zu den Aufgaben- und Problemvoreinstellungen finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
 >[!NOTE]
 >
->* Wenn Sie die Gruppe ändern, die mit einer vorhandenen Projektvorlage verknüpft ist, bleiben die Einstellungen der Vorlage unverändert.
+>* Wenn Sie die Gruppe ändern, die einer vorhandenen Projektvorlage zugeordnet ist, bleiben die Vorlageneinstellungen unverändert.
 >* Wenn Sie eine vorhandene Vorlagenaufgabe in eine andere Vorlage verschieben, bleiben die folgenden Einstellungen in der Vorlagenaufgabe unverändert, unabhängig von der mit der neuen Vorlage verknüpften Gruppe:>
 >   * Dauertyp
 >   * Umsatztyp
 >   * Kostenart
 >
->  Die Vorlagenaufgabe wird jedoch durch die Einstellung &quot;Wenn einer Aufgabe eine Person zugewiesen ist&quot;in der neuen Vorlage beeinflusst. Weitere Informationen finden Sie im Abschnitt [Zugriff](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) im Artikel [Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>  Die Vorlagenaufgabe ist jedoch von der Einstellung „Wenn jemand einer Aufgabe zugewiesen wird“ in der neuen Vorlage betroffen. Weitere Informationen finden Sie im Abschnitt [Zugriff](../../../manage-work/projects/create-and-manage-templates/edit-templates.md#access) im Artikel [Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 >
->* Wenn ein Administrator ein Projekt als Vorlage speichert, werden alle Einstellungen für die Vorlage vom Projekt übernommen, einschließlich der Gruppe.
+>* Wenn ein(e) Administrator(in) ein Projekt als Vorlage speichert, werden alle Einstellungen für die Vorlage vom Projekt übernommen, einschließlich der Gruppe .
 >
->  Wenn ein Administrator eine Aufgabe oder ein Problem mithilfe einer Vorlage in ein Projekt konvertiert, werden alle Einstellungen für die Vorlage durch die bereits in der Vorlage gespeicherten Einstellungen bestimmt.
+>  Wenn ein(e) Administrator(in) eine Aufgabe oder ein Problem mithilfe einer Vorlage in ein Projekt konvertiert, werden alle Einstellungen für die Vorlage durch das bestimmt, was bereits in der Vorlage gespeichert ist.
 >
 
-### VorlagenAufgabeneinstellungen, die von Aufgabenvoreinstellungen konfiguriert wurden {#template-task-settings-configured-by-task-preferences}
+### Einstellungen der Vorlagenaufgabe nach Aufgabenvoreinstellungen konfiguriert {#template-task-settings-configured-by-task-preferences}
 
-Wenn Sie eine Vorlagenaufgabe erstellen, werden einige ihrer Einstellungen automatisch durch eine Voreinstellung für die korrelierende Aufgabe konfiguriert. Diese Einstellungen sind in der folgenden Tabelle aufgeführt.
+Wenn Sie eine Vorlagenaufgabe erstellen, werden einige ihrer Einstellungen automatisch durch eine entsprechende Aufgabenvoreinstellung konfiguriert. Diese Einstellungen sind in der folgenden Tabelle aufgeführt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -180,17 +180,17 @@ Wenn Sie eine Vorlagenaufgabe erstellen, werden einige ihrer Einstellungen autom
  <tbody> 
   <tr> 
    <td role="rowheader"> <p>Dauertyp </p> </td> 
-   <td> <p>Wird durch die Aufgabenvoreinstellung auf Gruppenebene "Dauer-Typ"konfiguriert, wenn Sie die Vorlage mit einer Gruppe verknüpfen, oder durch dieselbe Aufgabe auf Systemebene und die Ausgabevorgabe, wenn nicht anders.</p> </td> 
+   <td> <p>Wird durch die Voreinstellung für Aufgaben auf Gruppenebene „Dauertyp“ konfiguriert, wenn Sie die Vorlage mit einer Gruppe verknüpfen, oder dieselbe Voreinstellung für Aufgaben und Probleme auf Systemebene, wenn Sie dies nicht tun.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Umsatztyp</p> </td> 
-   <td> <p>Wird durch die Aufgabenvoreinstellung auf Gruppenebene "Umsatztyp"konfiguriert, wenn Sie die Vorlage mit einer Gruppe verknüpfen, oder durch dieselbe Aufgabe auf Systemebene und Ausgabevorgabe, wenn nicht.</p> </td> 
+   <td> <p>Wird von der Aufgabenvoreinstellung auf Gruppenebene „Umsatztyp“ konfiguriert, wenn Sie die Vorlage mit einer Gruppe verknüpfen, oder dieselbe Voreinstellung für Aufgaben und Probleme auf Systemebene, wenn Sie dies nicht tun.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Kostenart </p> </td> 
-   <td> <p> Wird durch die Aufgabenvoreinstellung auf Gruppenebene "Kostentyp"konfiguriert, wenn Sie die Vorlage mit einer Gruppe verknüpfen, oder durch die gleiche Aufgabe auf Systemebene und die Ausgabevorgabe, wenn nicht anders.</p> </td> 
+   <td> <p> Wird über die Voreinstellung „Kostentyp“ auf Gruppenebene konfiguriert, wenn Sie die Vorlage mit einer Gruppe verknüpfen, oder dieselbe Voreinstellung für Aufgaben und Probleme auf Systemebene, wenn dies nicht der Fall ist.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den in dieser Tabelle aufgeführten Aufgabenvoreinstellungen finden Sie unter [Systemweite Aufgaben konfigurieren und Voreinstellungen für Aufgaben festlegen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+Informationen zu den in dieser Tabelle aufgeführten Aufgabenvoreinstellungen finden Sie unter [Systemweite Aufgaben- und Problemvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).

@@ -3,7 +3,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
-title: 'Erste Schritte mit Adobe Workfront Administration: Artikelindex'
+title: 'Erste Schritte mit der Adobe Workfront-Administration: Artikelindex'
 description: In diesem Abschnitt finden Sie Informationen und Anweisungen zur Ersteinrichtung von Adobe Workfront sowie Informationen, die Sie als Workfront-Administrator benötigen.
 author: Lisa
 feature: System Setup and Administration
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 ---
 
-# Erste Schritte mit der Adobe Workfront-Verwaltung: Artikelindex
+# Erste Schritte mit der Adobe Workfront-Administration: Artikelindex
 
 <!--Audited: 12/2023-->
 
@@ -25,12 +25,12 @@ In diesem Abschnitt finden Sie Informationen und Anweisungen zur Ersteinrichtung
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über die Definition von Zielen für Ihre Adobe Workfront-Implementierung](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
-* [Verwalten der verfügbaren Lizenzen in Ihrem System](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
-* [Grundlegende Informationen für Ihr System konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
-* [Firewall - Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
-* [Konfigurieren der Zulassungsliste der Firewall-Konfiguration](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
-* [Konfigurieren der E-Mail-Zulassungsliste ](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
-* [Mitteilungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
-* [Browseranforderungen für Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
-* [Plattformbasierte Verwaltungsunterschiede (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)
+* [Überblick über die Definition von Zielen für Ihre Adobe Workfront-Implementierung](../../administration-and-setup/get-started-wf-administration/define-wf-goals-objectives.md)
+* [Verfügbare Lizenzen in Ihrem System verwalten](../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md)
+* [Konfigurieren Sie grundlegende Informationen für Ihr System](../../administration-and-setup/get-started-wf-administration/configure-basic-info.md)
+* [Firewall-Übersicht](../../administration-and-setup/get-started-wf-administration/firewall-overview.md)
+* [Konfigurieren der Firewall-Zulassungsliste ](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* auf die Zulassungsliste setzen [Konfigurieren Ihrer E-Mail-Adresse](../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md)
+* [Ankündigungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+* [Browser-Anforderungen für Workfront](../../administration-and-setup/get-started-wf-administration/workfront-browser-requirements.md)
+* [Unterschiede bei der plattformbasierten Administration (Adobe Workfront/Adobe Business Platform)](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md)

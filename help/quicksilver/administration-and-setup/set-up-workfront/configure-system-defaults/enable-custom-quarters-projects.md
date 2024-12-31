@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Benutzerdefinierte Quartal für Projekte aktivieren
-description: Zu Berichtszwecken können Sie benutzerdefinierte Quartale erstellen, wenn die Quartale Ihres Unternehmens auf bestimmten Kriterien basieren, die nicht mit Kalenderdaten identisch sind (z. B. Geschäftstage oder Einkaufstage).
+title: Benutzerdefinierte Quartale für Projekte aktivieren
+description: Zu Berichtszwecken können Sie benutzerdefinierte Quartale erstellen, wenn die Quartale Ihres Unternehmens auf bestimmten Kriterien basieren, die keine Kalenderdaten sind (z. B. Geschäftstage oder Einkaufstage).
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -19,13 +19,13 @@ ht-degree: 0%
 
 <!--Audited: 11/2024-->
 
-Zu Berichtszwecken können Sie benutzerdefinierte Quartale erstellen, wenn die Quartale Ihres Unternehmens auf bestimmten Kriterien basieren, die nicht mit Kalenderdaten identisch sind (z. B. Geschäftstage oder Einkaufstage).
+Zu Berichtszwecken können Sie benutzerdefinierte Quartale erstellen, wenn die Quartale Ihres Unternehmens auf bestimmten Kriterien basieren, die keine Kalenderdaten sind (z. B. Geschäftstage oder Einkaufstage).
 
-Sie können bis zu acht benutzerdefinierte Quartale für Ihr [!DNL Adobe Workfront]-System konfigurieren.
+Sie können bis zu acht benutzerdefinierte Quartale für Ihr [!DNL Adobe Workfront] konfigurieren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,7 +35,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -45,38 +45,38 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Benutzerdefinierte Quartale für Ihr [!DNL Workfront] -System einrichten
+## Benutzerdefinierte Quartale für Ihr [!DNL Workfront] einrichten
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Projekteinstellungen]** > **[!UICONTROL Projekte].**
+1. Klicken Sie **[!UICONTROL Projektvoreinstellungen]** > **[!UICONTROL Projekte].**
 
-1. Wählen Sie im Abschnitt **[!UICONTROL Zeitleisten]** die Option **[!UICONTROL Benutzerdefinierte Quartal aktivieren]**.
+1. Wählen **[!UICONTROL Abschnitt &quot;]**&quot; die Option **[!UICONTROL Benutzerdefinierte Quartale aktivieren]**.
 
-1. Geben Sie einen Namen für das benutzerdefinierte Quartal ein, z. B. &quot;Fiscal Q1 2021&quot;.
+1. Geben Sie einen Namen für das benutzerdefinierte Quartal ein, z. B. „Geschäftsjahr 1 2021“.
 1. Wählen Sie das Start- und Enddatum für das benutzerdefinierte Quartal aus.
 
    ![](assets/custom-quarters-nwe.png)
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Benutzerdefiniertes Quartal hinzufügen]** , um dem System weitere benutzerdefinierte Quartale hinzuzufügen.
-1. (Optional) Erstellen Sie ein Berichterstellungselement, das auf die Geschäftsquartale verweist.
+1. (Optional) Klicken Sie **[!UICONTROL Benutzerdefiniertes Quartal hinzufügen]**, um dem System zusätzliche benutzerdefinierte Quartale hinzuzufügen.
+1. (Optional) Erstellen Sie ein Berichterstellungselement, das sich auf das Geschäftsquartal bezieht.
 
-   **Beispiel:** Erstellen Sie einen Filter für eine Liste mit dem Namen [!UICONTROL Projekt] und fügen Sie das geplante Abschlussdatum eines Projekts ein, das auf die benutzerdefinierten Quartale verweist.
+   **Beispiel** Erstellen Sie einen Filter für eine [!UICONTROL Projekt]Liste und geben Sie das geplante Abschlussdatum eines Projekts an, das auf die benutzerdefinierten Quartale verweist.
 
    ![](assets/example-of-project-filter-with-custom-quarters.png)
 
-   Die Verweise auf &quot;Dieses Quartal&quot;, &quot;Nächstes Quartal&quot;und &quot;Letztes Quartal&quot;werden durch neue Verweise auf die benutzerdefinierten Quartale ersetzt.
+   Die Verweise auf „Dieses Quartal“, „Nächstes Quartal“ und „Letztes Quartal“ werden durch neue Verweise auf die benutzerdefinierten Quartale ersetzt.
 
-   Informationen zu Berichterstellungselementen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
+   Informationen zu Berichtselementen finden Sie unter [Berichtselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).
 
    Informationen zum Erstellen von Filtern finden Sie unter [Erstellen oder Bearbeiten von Filtern in [!DNL Adobe Workfront]](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).

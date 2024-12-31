@@ -22,7 +22,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Blueprints - Übersicht](../../administration-and-setup/blueprints/blueprints-overview.md)
 * [Zugriff auf Blueprints konfigurieren](../../administration-and-setup/blueprints/configure-access-to-blueprints.md)
-* [Installieren eines Blueprints](../../administration-and-setup/blueprints/blueprints-install.md)
+* [Blueprint installieren](../../administration-and-setup/blueprints/blueprints-install.md)
 * [Blueprint konfigurieren](../../administration-and-setup/blueprints/configure-template-package.md)
-* [Nach der Installation eines Blueprints zu ergreifende Maßnahmen](../../administration-and-setup/blueprints/best-next-actions-after-install.md)
+* [Nach der Installation eines Blueprints auszuführende Aktionen](../../administration-and-setup/blueprints/best-next-actions-after-install.md)
 * [Liste der verfügbaren Blueprints](/help/quicksilver/administration-and-setup/blueprints/list-of-available-blueprints.md)

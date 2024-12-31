@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: emails-administration
-title: E-Mails aus der Adobe Workfront-Anwendung zulassen
-description: Wenn Sie Ihre Firewall oder Ihren E-Mail-Server so konfiguriert haben, dass nur bestimmte Anbieter Zugriff erhalten, müssen Sie bestimmte Adobe Workfront IP-Adressen zu Ihrer Firewall-Zulassungsliste hinzufügen.
+title: Zulassen von E-Mails aus der Adobe Workfront-Anwendung
+description: Wenn Sie Ihre Firewall oder Ihren Mail-Server so konfiguriert haben, dass nur bestimmte Anbieter Zugriff haben, müssen Sie bestimmte Adobe Workfront-IP-Adressen zu Ihrer Firewall-Zulassungsliste hinzufügen.
 author: Nolan, Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,6 +15,6 @@ ht-degree: 0%
 
 ---
 
-# E-Mails aus der Adobe Workfront-Anwendung zulassen
+# Zulassen von E-Mails aus dem Adobe Workfront-Programm
 
-Wenn Sie Ihre Firewall oder Ihren E-Mail-Server so konfiguriert haben, dass nur bestimmte Anbieter Zugriff erhalten, müssen Sie bestimmte Adobe Workfront IP-Adressen zu Ihrer Firewall-Zulassungsliste hinzufügen. Anweisungen finden Sie unter [Konfigurieren der Zulassungsliste Ihrer Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).
+Wenn Sie Ihre Firewall oder Ihren Mail-Server so konfiguriert haben, dass nur bestimmte Anbieter Zugriff haben, müssen Sie bestimmte Adobe Workfront-IP-Adressen zu Ihrer Firewall-Zulassungsliste hinzufügen. Anweisungen finden Sie [Zulassungsliste zum Konfigurieren der Firewall](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md).

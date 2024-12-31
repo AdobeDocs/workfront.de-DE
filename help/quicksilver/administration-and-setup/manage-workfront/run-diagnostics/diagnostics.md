@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Diagnose
-description: Mithilfe von Diagnostics können Sie automatisierte Prozesse, wie zeitbasierte Skripte, Neuberechnungen und E-Mail-Benachrichtigungen, manuell Trigger.
+description: Sie können Diagnostics verwenden, um automatisierte Prozesse wie zeitbasierte Trigger, Neuberechnungen und E-Mail-Benachrichtigungen manuell zu erstellen.
 feature: System Setup and Administration
 role: Admin
 author: Lisa

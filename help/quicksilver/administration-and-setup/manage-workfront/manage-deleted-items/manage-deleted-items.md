@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: manage-workfront
 title: Gelöschte Elemente verwalten
-description: Als Workfront-Administrator können Sie Workfront-Projekte, -Aufgaben, -Probleme, -Dokumente und -Vorlagen wiederherstellen, wenn sie in den letzten 30 Tagen gelöscht wurden. Beim Wiederherstellen eines Objekts werden auch alle untergeordneten Objekte und Felder wiederhergestellt.
+description: Als Workfront-Administrator können Sie Workfront-Projekte, Aufgaben, Probleme, Dokumente und Vorlagen wiederherstellen, wenn sie in den letzten 30 Tagen gelöscht wurden. Wenn Sie ein -Objekt wiederherstellen, werden auch alle seine untergeordneten Objekte und Felder wiederhergestellt.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
@@ -23,5 +23,5 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md)
 * [Wiederhergestelltes Element anzeigen](../../../administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md)
-* [Konfigurieren beeinflusst die Stunden, in denen ein Objekt gelöscht und wiederhergestellt wird](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
+* [Auswirkungen auf Stunden konfigurieren, in denen ein Objekt gelöscht und wiederhergestellt wird](../../../administration-and-setup/manage-workfront/manage-deleted-items/configure-how-hours-affected-when-obj-deleted-restored.md)
 * [Wiederherstellen einzelner untergeordneter Objekte](../../../administration-and-setup/manage-workfront/manage-deleted-items/restoring-individual-child-objects.md)

@@ -3,8 +3,8 @@ user-type: administrator
 content-type: overview;how-to-procedural
 product-area: system-administration
 navigation-topic: workfront-testing-environments
-title: Objekte von einer Umgebung in eine andere verschieben
-description: Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Die Möglichkeit zum Verschieben von Transaktionsobjekten wird nicht unterstützt (mit eingeschränkten Ausnahmen).
+title: Verschieben von Objekten von einer Umgebung in eine andere
+description: Die Funktion Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Das Verschieben von Transaktionsobjekten wird nicht unterstützt (mit wenigen Ausnahmen).
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -16,14 +16,14 @@ ht-degree: 2%
 
 ---
 
-# Verschieben von Objekten zwischen [!DNL Workfront]-Umgebungen mithilfe der [!DNL Workfront] Umgebungsförderungs-API
+# Verschieben von Objekten zwischen [!DNL Workfront] Umgebungen mithilfe der [!DNL Workfront] Environment Promotion API
 
-Mit der Umgebungsförderungsfunktion können Sie konfigurationsbezogene Objekte von einer Umgebung in eine andere verschieben. Sie können diese Objekte mithilfe der Workfront-API verschieben, wie in diesem Artikel beschrieben.
+Mit der Funktion Umgebungsförderung können Sie konfigurationsbezogene Objekte von einer Umgebung in eine andere verschieben. Sie können diese Objekte mithilfe der Workfront-API verschieben, wie in diesem Artikel beschrieben.
 
-Anweisungen zum Verschieben von Objekten zwischen Umgebungen mithilfe der Workfront-Anwendung finden Sie unter:
+Anweisungen zum Verschieben von Objekten zwischen Umgebungen mithilfe des Workfront-Programms finden Sie unter:
 
 * [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-* [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+* [Installieren eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
 
 
 ## Zugriffsanforderungen
@@ -32,48 +32,48 @@ Sie müssen über Folgendes verfügen:
 
 <table>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] plan</strong>
+   <td><strong>[!DNL Adobe Workfront] Plan</strong>
    </td>
    <td> Prime oder Ultimate (nur neue Pläne)
    </td>
   </tr>
   <tr>
-   <td><strong>[!DNL Adobe Workfront] licenses</strong>
+   <td><strong>[!DNL Adobe Workfront] Lizenzen</strong>
    </td>
    <td> [!UICONTROL Standard]
    </td>
   </tr>
    <tr>
-   <td>Konfigurationen auf Zugriffsebene
+   <td>Konfigurationen der Zugriffsebene
    </td>
-   <td>Sie müssen ein [!DNL Workfront] -Administrator sein.
+   <td>Sie müssen [!DNL Workfront] sein.
    </td>
   </tr>
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
-Der Endpunkt &quot;Promotion Package erstellen&quot;setzt voraus, dass Sie die Quellumgebung bereits konfiguriert haben. Dieser API-Aufruf erfordert das manuelle Erstellen einer Objektzuordnung von [!DNL Workfront] objCodes und Objekt-GUIDs. Die spezifische Struktur dieser Karte wird nachfolgend beschrieben.
+Der Endpunkt Erstellen eines Weiterleitungspakets setzt voraus, dass Sie die Quellumgebung bereits konfiguriert haben. Dieser API-Aufruf erfordert die manuelle Erstellung einer Objektzuordnung mit [!DNL Workfront] objCodes und Objekt-GUIDs. Die spezifische Struktur dieser Zuordnung wird nachfolgend beschrieben.
 
-## Unterstützte Objekte für die Umgebungsförderung
+## Unterstützte Objekte für die Umgebungs-Promotion
 
-Die Funktion zur Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Die Möglichkeit zum Verschieben von Transaktionsobjekten wird nicht unterstützt (mit eingeschränkten Ausnahmen).
+Die Funktion Umgebungsförderung soll die Möglichkeit bieten, konfigurationsbezogene Objekte von einer Umgebung in eine andere zu verschieben. Das Verschieben von Transaktionsobjekten wird nicht unterstützt (mit wenigen Ausnahmen).
 
-Eine Liste der förderfähigen Objekte und der zugehörigen förderfähigen Unterobjekte finden Sie unter [Unterstützte Objekte für die Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion) im Artikel [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Eine Liste der Promotable-Objekte und der darin enthaltenen Promotable-Unterobjekte finden Sie unter [Unterstützte Objekte für die ](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#supported-objects-for-environment-promotion)) im Artikel [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 ## Authentifizierung
 
-Die API authentifiziert jede Anfrage, um sicherzustellen, dass der Client Zugriff auf das Anzeigen oder Ändern eines angeforderten Objekts hat.
+Die API authentifiziert jede Anfrage, um sicherzustellen, dass der Client Zugriff zum Anzeigen oder Ändern eines angeforderten Objekts hat.
 
-Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID oder eines API-Schlüssels, der mit der folgenden Methode gegeben werden kann:
+Die Authentifizierung erfolgt durch Übergabe einer Sitzungs-ID oder eines API-Schlüssels, die mithilfe der folgenden Methode erteilt werden können:
 
-### Authentifizierung des Anforderungsheaders
+### Authentifizierung beim Anforderungsheader
 
-Die bevorzugte Authentifizierungsmethode besteht darin, einen Anforderungsheader namens SessionID zu übergeben, der das Sitzungstoken enthält. Dies hat den Vorteil, dass sie vor [Cross-Site Request Forgery (CSRF)](https://en.wikipedia.org/wiki/Cross-site_request_forgery) -Angriffen geschützt sind und den URI nicht zum Zwischenspeichern stören.
+Die bevorzugte Authentifizierungsmethode besteht darin, einen Anfrage-Header mit dem Namen SessionID zu übergeben, der das Sitzungs-Token enthält. Dies hat den Vorteil, dass es vor [Cross-Site Request Forgery (CSRF)-Angriffen ](https://en.wikipedia.org/wiki/Cross-site_request_forgery) ist und den URI zu Caching-Zwecken nicht beeinträchtigt.
 
-Im Folgenden finden Sie ein Beispiel für eine Anfrage-Kopfzeile:
+Im Folgenden finden Sie ein Beispiel für einen Anfrage-Header:
 
 ```
 GET /attask/api/v15.0/project/search
@@ -82,17 +82,17 @@ SessionID: abc1234
 
 ## API-Endpunkte
 
-* [Package erstellen](#create-a-package)
-* [Eine Liste von Paketen abrufen](#get-a-list-of-packages)
-* [Paket nach ID abrufen](#get-a-package-by-id)
-* [Aktualisieren bestimmter Eigenschaften eines Pakets](#update-specific-properties-of-a-package)
+* [Erstellen eines Pakets](#create-a-package)
+* [Abrufen einer Liste von Paketen](#get-a-list-of-packages)
+* [Abrufen eines Pakets nach ID](#get-a-package-by-id)
+* [Aktualisieren spezifischer Eigenschaften eines Pakets](#update-specific-properties-of-a-package)
 * [Löschen eines Pakets](#delete-a-package)
-* [Ausführen einer Vorab-Ausführung](#execute-a-pre-run)
+* [Ausführen eines Vorlaufs](#execute-a-pre-run)
 * [Ausführen einer Installation](#execute-an-installation)
-* [Liste der Installationen für ein bestimmtes Paket abrufen](#get-a-list-of-installations-for-a-specific-package)
-* [Installationsdetails für eine Installation abrufen](#get-the-installation-details-for-an-installation)
+* [Abrufen einer Liste von Installationen für ein bestimmtes Paket](#get-a-list-of-installations-for-a-specific-package)
+* [Abrufen der Installationsdetails für eine Installation](#get-the-installation-details-for-an-installation)
 
-### Package erstellen
+### Erstellen eines Pakets
 
 <table style="table-layout:auto"> 
  <col> 
@@ -105,20 +105,20 @@ SessionID: abc1234
 
 Dieser Aufruf führt einen mehrstufigen Prozess aus.
 
-Der erste Schritt führt zur Erstellung eines leeren Promotionpakets im Status &quot;ASSEMBLING&quot;.
+Der erste Schritt führt zur Erstellung eines leeren Promotion-Pakets im Status „ASSEMBLING“.
 
-Der zweite Schritt verwendet das im Hauptteil der POST bereitgestellte Array `objectCollections` , um die angeforderten Datensätze aus Workfront zusammenzustellen. Dieser Schritt kann je nach der Anzahl der angeforderten Datensätze und Ihrer Workfront-Konfiguration mehrere Minuten dauern. Am Ende dieses Prozesses wird das leere Promotion-Paket mit dem Wert `packageEntities` aktualisiert und der Status wird automatisch auf &quot;ENTWURF&quot;gesetzt.
+Im zweiten Schritt werden die von Workfront angeforderten Datensätze mithilfe des `objectCollections`-Arrays zusammengestellt, das im Hauptteil der POST bereitgestellt wird. Dieser Schritt kann je nach der Anzahl der angeforderten Datensätze und Ihrer Workfront-Konfiguration mehrere Minuten dauern. Am Ende dieses Prozesses wird das leere Promotion-Paket mit dem `packageEntities` aktualisiert und der Status wird automatisch auf „ENTWURF“ gesetzt.
 
 
 >[!NOTE]
 >
->Beachten Sie die Struktur des `objectCollections` -Arrays.
+>Beachten Sie die Struktur des `objectCollections`-Arrays.
 >
->Jedes Element im Array enthält einen `objCode` -Schlüssel, der dem im Workfront API Explorer dokumentierten Objektcode entspricht.
+>Jedes Element im -Array enthält einen `objCode`, der dem im Workfront-API-Explorer dokumentierten Objekt-Code entspricht.
 >
->Jedes Element enthält auch eine `entities` -Sammlung. Dadurch wird das `ID` -Feld erwartet. Es kann auch ein optionales `name` -Attribut akzeptieren, um leichter zu erkennen, was das `ID` darstellt.
+>Jedes Element enthält auch eine `entities`. Dies erwartet das `ID` Feld. Er kann auch ein optionales `name`-Attribut akzeptieren, um das Erkennen der `ID` zu vereinfachen.
 >
->Eine Liste der zulässigen Objektcodes, die in der Liste `objectCollections` angefordert werden sollen, finden Sie im Abschnitt [Unterstützte Objekte für die Umgebungsförderung](#supported-objects-for-environment-promotion) in diesem Artikel.
+>Die Liste der zulässigen Objekt-Codes, die in der `objectCollections` angefordert werden dürfen, finden Sie im Abschnitt [Unterstützte Objekte für die ](#supported-objects-for-environment-promotion)) in diesem Artikel.
 
 #### URL
 
@@ -187,7 +187,7 @@ Oder
 }
 ```
 
-#### Reaktion
+#### Antwort
 
 ```json
 200
@@ -210,7 +210,7 @@ Oder
 }
 ```
 
-### Eine Liste von Paketen abrufen
+### Abrufen einer Liste von Paketen
 
 <table style="table-layout:auto"> 
  <col> 
@@ -223,7 +223,7 @@ Oder
 
 Dieser Aufruf gibt eine ungefilterte Liste von Promotion-Paketen zurück, die zum Kunden gehören.
 
-Die Antwort umfasst alle Pakete, die aus einer der Sandboxes, Vorschauen oder Produktionsinstanzen des Kunden von Workfront erstellt wurden.
+Die Antwort enthält alle Pakete, die aus einer der Sandbox-, Vorschau- oder Produktionsinstanzen des Kunden von Workfront erstellt wurden.
 
 #### URL
 
@@ -249,9 +249,9 @@ Oder
 
 #### Text
 
-_Empty_
+_leer_
 
-#### Reaktion
+#### Antwort
 
 ```
 200
@@ -273,9 +273,9 @@ _Empty_
 }
 ```
 
-&lt;!—Überprüfen Sie den obigen &quot;Status&quot;— wurde er hinzugefügt?—>
+&lt;!—Überprüfen Sie oben „status“—wurde sie hinzugefügt?—>
 
-### Paket nach ID abrufen
+### Abrufen eines Pakets nach ID
 
 <table style="table-layout:auto"> 
  <col> 
@@ -288,7 +288,7 @@ _Empty_
 
 Dieser Aufruf gibt die Details eines angeforderten Promotion-Pakets zurück.
 
-Die Anfrage kann unabhängig von der ursprünglichen Quelle des Promotion-Pakets über jede Umgebung gesendet werden.
+Die Anfrage kann über jede Umgebung unabhängig von der ursprünglichen Quelle des Promotion-Pakets erfolgen.
 
 #### URL
 
@@ -314,9 +314,9 @@ Oder
 
 #### Text
 
-_Empty_
+_leer_
 
-#### Reaktion
+#### Antwort
 
 ```
 200
@@ -353,7 +353,7 @@ _Empty_
 }
 ```
 
-### Aktualisieren bestimmter Eigenschaften eines Pakets
+### Aktualisieren spezifischer Eigenschaften eines Pakets
 
 <table style="table-layout:auto"> 
  <col> 
@@ -364,15 +364,15 @@ _Empty_
   </tbody> 
 </table>
 
-Dieser Aufruf aktualisiert alle Inhalte des Promotion-Pakets, die im PATCH-Textkörper bereitgestellt werden.
+Dieser Aufruf aktualisiert alle Inhalte des Promotion-Pakets, die im PATCH-Hauptteil bereitgestellt werden.
 
 Die bearbeitbaren Attribute sind:
 
-1. name (string)
-1. description (string)
-1. status (Zeichenfolge mit Wertvalidierung)
+1. Name (Zeichenfolge)
+1. description (String)
+1. Status (Zeichenfolge mit Wertvalidierung)
 
-Eine ausführliche Beschreibung der verfügbaren Status finden Sie unter [Status der Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel [Überblick über das Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
+Eine ausführliche Beschreibung der verfügbaren Status finden Sie unter [Umgebungsförderungsstatus](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md#environment-promotion-statuses) im Artikel „Übersicht [ Verschieben von Objekten zwischen Workfront-Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md).
 
 
 #### URL
@@ -408,7 +408,7 @@ Oder
 }
 ```
 
-#### Reaktion
+#### Antwort
 
 ```
 200
@@ -454,11 +454,11 @@ Oder
   </tbody> 
 </table>
 
-Durch diesen Aufruf wird der Datensatz des Promotion-Pakets gelöscht. Diese Aktion ist unumkehrbar.
+Dieser Aufruf löscht den Datensatz des Promotion-Pakets. Diese Aktion kann nicht rückgängig gemacht werden.
 
 >[!NOTE]
 >
->Im Gegensatz zum Löschen eines Promotion-Pakets wird empfohlen, den Status des Pakets in DEAKTIVIERT zu ändern. Dadurch kann das Paket abgerufen werden und der Installationsverlauf der Bereitstellung wird beibehalten.
+>Anstatt ein Promotion-Paket zu löschen, wird empfohlen, den Status des Pakets in DEAKTIVIERT zu ändern. Dadurch kann das Paket abgerufen werden und der Installationsverlauf wird dort gespeichert, wo es bereitgestellt wurde.
 
 #### URL
 
@@ -484,9 +484,9 @@ Oder
 
 #### Text
 
-_Empty_
+_leer_
 
-#### Reaktion
+#### Antwort
 
 ```
 200
@@ -496,11 +496,11 @@ _Empty_
 Deleted
 ```
 
-### Ausführen einer Vorab-Ausführung
+### Ausführen eines Vorlaufs
 
 >[!IMPORTANT]
 >
->Bevor Sie eine Installation ausführen können, müssen Sie diese Vorab-Ausführung ausführen. Sie verwenden die von diesem Aufruf generierte ID, wenn Sie die Installation ausführen.
+>Bevor Sie eine Installation ausführen können, müssen Sie diesen Pre-Run ausführen. Sie verwenden die bei diesem Aufruf generierte ID, wenn Sie die Installation ausführen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -511,11 +511,11 @@ Deleted
   </tbody> 
 </table>
 
-Dieser Aufruf führt einen Vergleich zwischen der Package-Definition und der in der URL angegebenen Zielumgebung durch.
+Dieser Aufruf führt einen Vergleich zwischen der Paketdefinition und der in der URL identifizierten Zielumgebung durch.
 
-Das Ergebnis ist ein JSON-Hauptteil, der angibt, ob ein Promotion-Objekt in der Zielumgebung gefunden wurde oder nicht.
+Das Ergebnis ist ein JSON-Text, der angibt, ob ein Weiterleitungsobjekt in der Zielumgebung gefunden wurde oder nicht.
 
-Für jedes Promotion-Objekt wird einer der folgenden `actions` festgelegt:
+Für jedes Promotion-Objekt wird eine der folgenden `actions` festgelegt:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -523,24 +523,24 @@ Für jedes Promotion-Objekt wird einer der folgenden `actions` festgelegt:
  <tbody> 
   <tr> 
    <td>ERSTELLEN</td> 
-   <td><p>Wenn ein entsprechender Datensatz nicht in der Zielumgebung gefunden werden kann, ist die Aktion auf CREATE gesetzt.</p><p>Wenn diese Aktion in dem <code>translationmap</code> festgelegt ist, der für den <code>/install</code> -Endpunkt bereitgestellt wird, erstellt der Installationsdienst den Datensatz.</p></td> 
+   <td><p>Wenn in der Zielumgebung kein entsprechender Datensatz gefunden werden kann, wird die Aktion auf ERSTELLEN gesetzt.</p><p>Wenn diese Aktion in der <code>translationmap</code> festgelegt wird, die dem <code>/install</code>-Endpunkt bereitgestellt wird, erstellt der Installations-Service den Datensatz.</p></td> 
   </tr> 
   <tr> 
-   <td>USEEXISCH</td> 
-   <td><p>Wenn ein entsprechender Datensatz in der Zielumgebung gefunden wird, wird die Aktion auf USEXISTING gesetzt und eine <code>targetId</code> wird auch in der <code>translationmap</code> erfasst.</p><p>Wenn diese Aktion in dem <code>translationmap</code> festgelegt ist, der für den <code>/install</code> -Endpunkt bereitgestellt wird, erstellt der Installationsdienst den Datensatz nicht. Sie verwendet jedoch die im Zuordnungseintrag enthaltene <code>targetId</code> für andere Objekte, die möglicherweise einen Verweis auf diesen Datensatz enthalten.</p><p>Beispielsweise kann eine "Standardgruppe"in der Zielumgebung gefunden werden, in der ein Paket bereitgestellt wird. Es ist nicht möglich, zwei Standardgruppendatensätze zu verwenden. Daher verwendet der Installationsdienst die GUID für die bestehende Gruppe in allen anderen Aktionen zur Objekterstellung, die einen Verweis auf die "Standardgruppe"enthalten, z. B. in einem Projekt, einem Formular oder einer anderen Entität, die mit dieser Gruppe verbunden ist.</p><p><b>Hinweis:</b> <ul><li><p>Wenn die Aktion USEXISTING zugewiesen wird, wird der vorhandene Datensatz in der Zielumgebung nicht geändert. </p><p>Wenn sich beispielsweise die Beschreibung für die "Standardgruppe"in der Sandbox geändert hat, aus der das Paket erstellt wurde, und der Beschreibungswert in der Zielumgebung unterschiedlich ist, bleibt der Wert nach einer Installation mit dem Wert <code>translationmap</code> unverändert.</li></ul></td> 
+   <td>VORHANDENE VERWENDEN</td> 
+   <td><p>Wenn ein entsprechender Datensatz in der Zielumgebung gefunden wird, wird die Aktion auf „USEEXISTING“ festgelegt und ein <code>targetId</code> wird ebenfalls in der <code>translationmap</code> erfasst.</p><p>Wenn diese Aktion in der <code>translationmap</code> festgelegt ist, die dem <code>/install</code>-Endpunkt bereitgestellt wird, erstellt der Installations-Service den Datensatz nicht. Sie verwendet jedoch die im Zuordnungseintrag enthaltenen <code>targetId</code> für andere Objekte, die möglicherweise auf diesen Datensatz verweisen.</p><p>Beispielsweise kann sich eine „Standardgruppe“ in der Zielumgebung befinden, in der ein Paket bereitgestellt wird. Es ist nicht möglich, zwei „Standardgruppen“-Datensätze zu verwenden. Daher verwendet der Installations-Service die GUID für die bestehende Gruppe bei allen anderen Objekterstellungsaktionen, die einen Verweis auf die „Standardgruppe“ enthalten, z. B. ein Projekt, ein Formular oder eine andere Entität, die mit dieser Gruppe verbunden ist.</p><p><b>Hinweis:</b> <ul><li><p>Wenn die Aktion „VORHANDEN VERWENDEN“ zugewiesen wird, wird der vorhandene Datensatz in der Zielumgebung nicht geändert. </p><p>Wenn sich beispielsweise die Beschreibung für die „Standardgruppe“ in der Sandbox geändert hat, aus der das Paket erstellt wurde, und der Wert der Beschreibung in der Zielumgebung anders ist, bleibt der Wert nach einer Installation mit dieser <code>translationmap</code> unverändert.</li></ul></td> 
   </tr> 
   <tr> 
-   <td>ÜBERSCHREIBUNG</td> 
-   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Diese Aktion bietet die Möglichkeit, ein Objekt zu aktualisieren, das in der Zielumgebung vorhanden ist. Es bietet die Möglichkeit, eine zugewiesene CREATE - oder USEEXISTING -Aktion manuell zu überschreiben, bevor der <code>/install</code> -Aufruf ausgeführt wird.<ul><li>Ein Benutzer kann ein Objekt in der Testumgebung aktualisieren und dann mithilfe der Aktion ÜBERSCHREIBEN dieses Objekt in der Zielumgebung aktualisieren.</p></li><li><p>Wenn der Benutzer zunächst ein Promotion-Paket installiert und dann in Zukunft ein neues (oder aktualisiertes) Paket Änderungen an Objekten im ursprünglichen Paket enthält, kann der Benutzer mithilfe von OVERWRITING zuvor installierte Objekte ersetzen (überschreiben). </p><p>Weitere Informationen zum Überschreiben finden Sie im Abschnitt [Überschreiben](#overwriting) in diesem Artikel.</li><ul></td> 
+   <td>ÜBERSCHREIBEN</td> 
+   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Diese Aktion bietet die Möglichkeit, ein Objekt zu aktualisieren, das in der Zielumgebung vorhanden ist. Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor der <code>/install</code>-Aufruf ausgeführt wird.<ul><li>Ein Benutzer kann ein Objekt in der Testumgebung aktualisieren und dann die Aktion „ÜBERSCHREIBEN“ verwenden, um dieses Objekt in der Zielumgebung zu aktualisieren.</p></li><li><p>Wenn der Benutzer ein Promotion-Paket anfänglich installiert und dann ein neues (oder aktualisiertes) Paket in der Zukunft Änderungen an Objekten im ursprünglichen Paket enthält, kann der Benutzer OVERWRITING verwenden, um zuvor installierte Objekte zu ersetzen (zu überschreiben). </p><p>Weitere Informationen zum Überschreiben finden Sie im Abschnitt [Überschreiben](#overwriting) in diesem Artikel.</li><ul></td> 
   </tr> 
   <tr> 
-   <td>IGNORE</td> 
-   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Es bietet die Möglichkeit, eine zugewiesene CREATE - oder USEEXISTING -Aktion manuell zu überschreiben, bevor der <code>/install</code> -Aufruf ausgeführt wird.</p><p><b>Hinweise: </b><ul><li><p>Wenn ein Datensatz, der ursprünglich auf CREATE gesetzt wurde, auf IGNORE festgelegt ist, sollten alle untergeordneten Datensätze ebenfalls auf IGNORE gesetzt werden.</p><p>Wenn beispielsweise ein Vorlagendatensatz einer CREATE-Aktion zugeordnet wurde und der Installations-Benutzer ihn von der Bereitstellung ausschließen möchte, kann er die Aktion der Vorlage auf IGNORE setzen.</p><p>In diesem Fall führt die Bereitstellung zu einem fehlgeschlagenen Installationsversuch, wenn der Benutzer nicht auch die Vorlagenaufgaben, Vorlagenaufgaben, Vorlagenaufgaben, Vorlagenaufgaben, Warteschlangendefinition, Warteschlangenthemen, Routing-Regeln usw. auf IGNORE setzt.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf USEEXISTING gesetzt wurde, auf IGNORE gesetzt ist, kann es während des Installationsprozesses zu einigen negativen Auswirkungen kommen.</p><p>Wenn beispielsweise ein Gruppendatensatz der Aktion USEXISTING zugeordnet wurde und der Installations-Benutzer die Aktion zu IGNORE ändert, wird für Objekte, die eine Gruppe erfordern (z. B. ein Projekt kann nicht ohne zugewiesene Gruppe existieren), diesem Projekt die Systemstandardgruppe zugewiesen.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf USEEXISTING festgelegt war, auf CREATE gesetzt ist, kann es während des Installationsprozesses zu einigen negativen Auswirkungen kommen, da viele Workfront-Entitäten über eindeutige Namensbeschränkungen verfügen.</p><p>Wenn beispielsweise ein Eintrag "Standardgruppe"der Aktion USEXISTING zugeordnet wurde und der Installations-Benutzer die Aktion in CREATE ändert, da bereits eine "Standardgruppe"vorhanden ist, schlägt der Installationsprozess fehl, alle Schritte abzuschließen. Gruppennamen müssen eindeutig sein.</p><p>Einige Entitäten haben keine individuelle Namensbeschränkung. Bei diesen Objekten führt diese Änderung zu zwei identischen Datensätzen. Beispielsweise erfordern Vorlagen, Projekte, Ansichten, Filter, Gruppierungen, Berichte und Dashboards keine eindeutigen Namensbeschränkungen. Es empfiehlt sich, eindeutige Namen für diese Datensätze zu verwenden, diese werden jedoch nicht erzwungen.</p></li></ul></p></td> 
+   <td>IGNORIEREN</td> 
+   <td><p>Diese Aktion wird nicht automatisch festgelegt.</p><p>Es bietet die Möglichkeit, eine zugewiesene CREATE- oder USEEXISTING-Aktion manuell zu überschreiben, bevor der <code>/install</code>-Aufruf ausgeführt wird.</p><p><b>Anmerkungen: </b><ul><li><p>Wenn ein Datensatz, der ursprünglich auf ERSTELLEN festgelegt war, auf IGNORIEREN festgelegt ist, sollten auch alle untergeordneten Datensätze auf IGNORIEREN festgelegt werden.</p><p>Wenn beispielsweise ein Vorlagendatensatz einer CREATE-Aktion zugeordnet wurde und die installierenden Benutzenden ihn aus der Bereitstellung ausschließen möchten, können sie die Vorlagenaktion auf IGNORIEREN setzen.</p><p>Wenn der installierende Benutzer in diesem Fall nicht auch die Vorlagenaufgaben, Vorlagenaufgabenzuweisungen, Vorlagenaufgabenvorgänger, Warteschlangendefinition, Warteschlangenthemen, Routing-Regeln usw. auf IGNORIEREN festlegt, führt die Bereitstellung zu einem fehlgeschlagenen Installationsversuch.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf „VORHANDEN VERWENDEN“ festgelegt war, auf „IGNORIEREN“ gesetzt wurde, kann es während des Installationsprozesses zu einigen nachteiligen Auswirkungen kommen.</p><p>Wenn beispielsweise der Aktion „USEEXISTING“ ein Gruppeneintrag zugeordnet wurde und die installierende Person die Aktion in „IGNORE“ ändert, wird diesem Projekt bei Objekten, für die eine Gruppe erforderlich ist (z. B. wenn ein Projekt ohne zugewiesene Gruppe nicht vorhanden sein kann) die Standardgruppe zugewiesen.</p></li><li><p>Wenn ein Datensatz, der ursprünglich auf „USEEXISTING“ festgelegt war, auf „CREATE“ gesetzt ist, kann es während des Installationsprozesses zu unerwünschten Effekten kommen, da viele Workfront-Entitäten über Einschränkungen hinsichtlich eindeutiger Namen verfügen.</p><p>Wenn beispielsweise der Aktion USEEXISTING ein Eintrag „Standardgruppe“ zugeordnet wurde und der installierende Benutzer die Aktion in CREATE ändert, da bereits eine „Standardgruppe“ vorhanden ist, können bei der Installation nicht alle Schritte ausgeführt werden. Gruppennamen müssen eindeutig sein.</p><p>Einige Entitäten verfügen nicht über eine eindeutige Namensbeschränkung. Für diese Objekte führt diese Änderung zu zwei identisch benannten Datensätzen. Für Vorlagen, Projekte, Ansichten, Filter, Gruppierungen, Berichte und Dashboards sind beispielsweise keine Beschränkungen für eindeutige Namen erforderlich. Es empfiehlt sich, eindeutige Namen für diese Datensätze zu haben. Dies wird jedoch nicht erzwungen.</p></li></ul></p></td> 
   </tr> 
   </tbody> 
 </table>
 
-Es gibt derzeit keine Unterstützung für ein UPDATE `action` in den Alpha-Funktionen dieses Dienstes. Die Option, ein UPDATE `action` zuzulassen, ist etwas, das wir untersuchen.
+In den Alpha-Funktionen dieses Service wird derzeit kein UPDATE-`action` unterstützt. Wir forschen an der Option, eine UPDATE-`action` zuzulassen.
 
 #### URL
 
@@ -572,7 +572,7 @@ Oder
 {}
 ```
 
-#### Reaktion
+#### Antwort
 
 ```
 200
@@ -670,17 +670,17 @@ Oder
 
 >[!NOTE]
 >
->Die ID, die Sie zum Ausführen der Installation benötigen, ist das Feld `id` . In diesem Beispiel ist das Feld `id` das dritte Feld von oben und hat einen Wert, der mit `c0bc79bd` beginnt.
+>Die ID, die Sie für die Installation benötigen, ist das Feld `id` . In diesem Beispiel ist das `id` Feld ein drittes von oben und hat einen Wert, der mit `c0bc79bd` beginnt.
 
 ### Ausführen einer Installation
 
 >[!IMPORTANT]
 >
->Bevor Sie eine Installation ausführen können, müssen Sie eine Vorab-Ausführung ausführen. Sie verwenden die ID, die aus der Vorab-Ausführung generiert wurde, wenn Sie die Installation ausführen.
+>Bevor Sie eine Installation ausführen können, müssen Sie einen Pre-Run ausführen. Sie verwenden die ID, die aus der Vorabausführung generiert wurde, wenn Sie die Installation ausführen.
 >
->Wenn Änderungen an der Zielumgebung (der Umgebung, in der das Paket bereitgestellt wird) nach der Ausführung der Vorab-Ausführung vorgenommen wurden, empfehlen wir, die Vorab-Ausführung erneut auszuführen. Wenn Sie die Vorab-Ausführung nicht erneut ausführen, ist die Ausführung möglicherweise nicht ordnungsgemäß abgeschlossen oder die Installation schlägt möglicherweise fehl.
+>Wenn nach dem Ausführen der Vorabausführung Änderungen an der Zielumgebung (der Umgebung, in der das Paket bereitgestellt wird) vorgenommen wurden, empfehlen wir, die Vorabausführung erneut auszuführen. Wenn Sie die Vorabausführung nicht erneut ausführen, wird die Ausführung möglicherweise nicht korrekt abgeschlossen oder die Installation schlägt fehl.
 >
->Anweisungen zum Ausführen einer Vorab-Ausführung finden Sie unter [Ausführen einer Vorab-Ausführung ausführen](#execute-a-pre-run).
+>Anweisungen zum Ausführen eines Vorlaufs finden Sie unter [Ausführen eines Vorlaufs](#execute-a-pre-run).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -691,7 +691,7 @@ Oder
   </tbody> 
 </table>
 
-Dieser Aufruf startet einen Installationsversuch eines Promotion-Pakets in der in der POST-URL angegebenen Zielumgebung.
+Dieser Aufruf startet einen Installationsversuch eines Promotion-Pakets in die Zielumgebung, die in der POST-URL angegeben ist.
 
 #### URL
 
@@ -724,7 +724,7 @@ Oder
 }
 ```
 
-#### Reaktion
+#### Antwort
 
 ```
 202
@@ -735,7 +735,7 @@ Oder
 {}
 ```
 
-### Liste der Installationen für ein bestimmtes Paket abrufen
+### Abrufen einer Liste von Installationen für ein bestimmtes Paket
 
 <table style="table-layout:auto"> 
  <col> 
@@ -747,7 +747,7 @@ Oder
   </tbody> 
 </table>
 
-Die Ergebnisse umfassen Installationsereignisse aus allen Umgebungen, in denen das Paket bereitgestellt wurde. Sie beschränken sich nicht auf die Anlagen für die Umgebung, über die die Anfrage gestellt wird. Auf diese Weise können Sie ermitteln, welche Umgebungen dieses Paket erhalten haben.
+Die Ergebnisse umfassen Installationsereignisse aus allen Umgebungen, in denen das Paket bereitgestellt wurde. Sie beschränken sich nicht auf die Anlagen für die Umgebung, über die die Anforderung erfolgt. Auf diese Weise können Sie feststellen, welche Umgebungen dieses Paket erhalten haben.
 
 #### URL
 
@@ -773,9 +773,9 @@ Oder
 
 #### Text
 
-_Empty_
+_leer_
 
-#### Reaktion
+#### Antwort
 
 ```
 200
@@ -825,7 +825,7 @@ _Empty_
 ]
 ```
 
-### Installationsdetails für eine Installation abrufen
+### Abrufen der Installationsdetails für eine Installation
 
 <table style="table-layout:auto"> 
  <col> 
@@ -836,15 +836,15 @@ _Empty_
   </tbody> 
 </table>
 
-Dieser Aufruf gibt die finale `translationMap` zurück, die vom Installationsdienst für eine bestimmte Installation erzeugt wurde.
+Dieser Aufruf gibt die endgültigen `translationMap` zurück, die vom Installationsdienst für eine bestimmte Installation erzeugt wurden.
 
-Jeder Datensatz gibt an, was die verschriebene `action` war und ob diese Aktion erfolgreich war oder nicht.
+In jedem Datensatz wird angegeben, was die vorgeschriebene `action` war und ob diese Aktion erfolgreich war oder nicht.
 
-Für Datensätze mit CREATE `action` wird das Feld `targetId` mit dem Wert des neu erstellten Datensatzes im Zielsystem festgelegt. Außerdem wird für das Feld `installationStatus` der Wert INSTALLIERT festgelegt.
+Bei Datensätzen mit der `action` ERSTELLEN wird das Feld `targetId` mit dem Wert des neu erstellten Datensatzes im Zielsystem festgelegt. Darüber hinaus wird das Feld `installationStatus` auf INSTALLIERT gesetzt.
 
-Für Datensätze mit dem USEXISTING `action` wird auch das Feld `targetId` festgelegt und das Feld `installationStatus` auf REGISTRIERT. Dies bedeutet, dass der Zuordnungsprozess abgeschlossen ist und der Installationsdienst bestätigt, dass er den Datensatz ausgewertet hat und dass nichts zu tun ist.
+Bei Datensätzen mit der `action` USEEXISTING wird auch das Feld `targetId` festgelegt und das Feld `installationStatus` wird auf REGISTRIERT gesetzt. Dies bedeutet, dass der Zuordnungsprozess abgeschlossen war und der Installations-Service bestätigt, dass er den Datensatz ausgewertet hat und es keine Maßnahmen gibt.
 
-Wenn der Datensatz einen CREATE `action` -Wert hat, der Datensatz jedoch nicht erfolgreich erstellt werden kann, wird der `installationStatus` auf FEHLGESCHLAGEN gesetzt und der Grund für den Fehler wird ebenfalls angegeben.
+Wenn der Datensatz eine CREATE-`action` hat, aber nicht erfolgreich erstellt werden kann, wird die `installationStatus` auf FAILED gesetzt und der Grund für den Fehler wird ebenfalls angegeben.
 
 #### URL
 
@@ -870,9 +870,9 @@ Oder
 
 #### Text
 
-_Empty_
+_leer_
 
-#### Reaktion
+#### Antwort
 
 ```
 200
@@ -917,12 +917,12 @@ _Empty_
 
 Dies ist ein dreistufiger Prozess.
 
-1. Erstellen Sie eine Übersetzungszuordnung (entspricht der Phase &quot;Installation vorbereiten&quot;).
-1. Bearbeiten Sie die generierte Übersetzungszuordnung und legen Sie die Felder `action` und `targetId` für jedes Objekt fest, das überschrieben werden soll. Die Aktion sollte `OVERWRITING` lauten und die `targetId` sollte die UUID des Objekts sein, das überschrieben werden soll
+1. Erstellen eines Übersetzungsdiagramms (analog zur Phase „Installation vorbereiten„)
+1. Bearbeiten Sie die generierte Übersetzungszuordnung und legen Sie die `action`- und `targetId` für alle Objekte fest, die sie überschreiben möchten. Die Aktion sollte `OVERWRITING` sein und der `targetId` sollte die UUID des Objekts sein, das überschrieben werden soll
 1. Führen Sie die Installation aus.
 
 * [Schritt 1: Erstellen einer Übersetzungskarte](#step-1---create-a-translation-map)
-* [Schritt 2: Ändern der Übersetzungskarte](#step-2---modify-the-translation-map)
+* [Schritt 2: Ändern der Übersetzungszuordnung](#step-2---modify-the-translation-map)
 * [Schritt 3: Installieren](#step-3---install)
 
 ### **Schritt 1: Erstellen einer Übersetzungskarte**
@@ -937,9 +937,9 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 Keine
 
-#### Reaktion
+#### Antwort
 
-Eine Übersetzungszuordnung mit dem Status `202 - OK`
+Eine Übersetzungskarte mit einem `202 - OK` Status
 
 ```json
 {
@@ -1012,19 +1012,19 @@ Eine Übersetzungszuordnung mit dem Status `202 - OK`
 }
 ```
 
-### Schritt 2: Ändern der Übersetzungskarte
+### Schritt 2: Ändern der Übersetzungszuordnung
 
 Für diesen Schritt gibt es keinen Endpunkt.
 
-1. Überprüfen Sie in der Übersetzungszuordnung, die in [Schritt 1 - Erstellen einer Übersetzungszuordnung](#step-1---create-a-translation-map) zurückgegeben wird, die Liste der zu installierenden Objekte.
-1. Aktualisieren Sie das Aktionsfeld für jedes Objekt auf die gewünschte Installationsaktion.
-1. Validieren Sie die `targetId` für jedes Objekt. Wenn die festgelegte Aktion `USEEXISTING` oder `OVERWRITING` ist, sollte für die `targetId` die UUID des Zielobjekts in der Zielumgebung festgelegt werden. Bei jeder anderen Aktion sollte targetId eine leere Zeichenfolge sein.
+1. Überprüfen Sie in der Übersetzungszuordnung[ die in Schritt 1 - Erstellen einer ](#step-1---create-a-translation-map) zurückgegeben wird, die Liste der zu installierenden Objekte.
+1. Aktualisieren Sie das Aktionsfeld auf jedem Objekt, um die gewünschte Installationsaktion durchzuführen.
+1. Überprüfen Sie die `targetId` für jedes Objekt. Wenn die Aktion „Festlegen“ `USEEXISTING` oder `OVERWRITING` ist, sollte die `targetId` auf die UUID des Zielobjekts in der Zielumgebung festgelegt werden. Für jede andere Aktion sollte die targetId eine leere Zeichenfolge sein.
 
    >[!NOTE]
    >
-   >Die `targetId` ist bereits ausgefüllt, wenn eine Kollision erkannt wurde.
+   >Der `targetId` wird bereits ausgefüllt, wenn eine Kollision erkannt wurde.
 
-### **Schritt 3 - Installieren**
+### **Schritt 3: Installieren**
 
 #### URL
 
@@ -1034,7 +1034,7 @@ POST https://{domain}.{environment}.workfront.com/environment-promotion/api/v1/p
 
 #### Text
 
-Dies ist ein Objekt mit einem einzelnen Feld `translationMap`, das der geänderten Übersetzungszuordnung aus [Schritt 2 - Übersetzungszuordnung ändern](#step-2---modify-the-translation-map) entsprechen sollte.
+Dies ist ein Objekt mit einem einzelnen `translationMap`, das der geänderten Übersetzungszuordnung aus [Schritt 2 - Übersetzungszuordnung ändern](#step-2---modify-the-translation-map) entsprechen sollte.
 
 ```json
 {
@@ -1111,9 +1111,9 @@ Dies ist ein Objekt mit einem einzelnen Feld `translationMap`, das der geändert
 }
 ```
 
-#### Reaktion
+#### Antwort
 
-Die Antwort enthält den Status `{uuid of the created installation}` und `202 - ACCEPTED`.
+Die Antwort enthält die `{uuid of the created installation}` und einen `202 - ACCEPTED`.
 
 Beispiel: `b6aa0af8-3520-4b25-aca3-86793dff44a6`
 

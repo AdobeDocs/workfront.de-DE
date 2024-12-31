@@ -1,5 +1,5 @@
 ---
-title: Löschen klassischer Layoutvorlagen
+title: Klassische Layoutvorlagen löschen
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
@@ -15,15 +15,15 @@ ht-degree: 51%
 
 ---
 
-# Administratorzugriff für eine Layoutvorlage gewähren
+# Gewähren von administrativem Zugriff für eine Layout-Vorlage
 
 Layout-Vorlagen aus dem klassischen Workfront-Erlebnis sind nicht mehr in der Workfront-Benutzeroberfläche verfügbar, können sich aber dennoch auf Workfront-Daten auswirken. Dies kann zu Inkonsistenzen in Feldern führen, die von Layout-Vorlagen (z. B. „Freigegeben für“) in Berichten oder Dashboards betroffen sind.
 
-Sie können diese Inkonsistenzen beheben, indem Sie die klassischen Layoutvorlagen löschen. Da sie nicht in der Workfront-Benutzeroberfläche verfügbar sind, müssen Sie die Workfront-API verwenden, um sie zu löschen.
+Sie können diese Inkonsistenzen beheben, indem Sie die klassischen Layout-Vorlagen löschen. Da sie in der Workfront-Benutzeroberfläche nicht verfügbar sind, müssen Sie sie mithilfe der Workfront-API löschen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,8 +32,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -42,18 +42,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.
+Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Löschen Sie die klassischen Layoutvorlagen mithilfe eines API-Aufrufs
+## Löschen der klassischen Layout-Vorlagen mithilfe eines API-Aufrufs
 
 Sie können API-Aufrufe in die URL-Leiste Ihres Browsers eingeben und die Eingabetaste drücken. Die API-Antwort wird in Ihrem Browser angezeigt.
 

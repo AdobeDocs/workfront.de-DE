@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: start-with-workfront-administration
-title: Mitteilungen senden
-description: Als Adobe Workfront-Administrator können Sie die Seite "Mitteilungen"verwenden, um Mitteilungen an Benutzer zu senden.
+title: Ankündigungen senden
+description: Als Adobe Workfront-Administrator können Sie die Seite Ankündigungen verwenden, um Ankündigungen an Benutzende zu senden.
 author: Nolan
 feature: System Setup and Administration
 role: Admin
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# Mitteilungen senden
+# Ankündigungen senden
 
-Als Adobe Workfront-Administrator können Sie die Seite &quot;Mitteilungen&quot;verwenden, um Mitteilungen an Benutzer zu senden.
+Als Adobe Workfront-Administrator können Sie die Seite Ankündigungen verwenden, um Ankündigungen an Benutzende zu senden.
 
-Mitteilungen zu Mitteilungen von Workfront enthalten normalerweise Informationen zu neuen Funktionen und Versionen, Prozessänderungen usw.
+Ankündigungen von Workfront enthalten in der Regel Informationen zu neuen Funktionen und Releases, Prozessänderungen usw.
 
-Informationen zum Anzeigen von Mitteilungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
+Weitere Informationen zum Anzeigen von Ankündigungen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,82 +34,82 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollen Administratorzugriffs für einen Benutzer</a>.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein. Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md" class="MCXref xref">Gewähren des vollständigen Administratorzugriffs für einen Benutzer</a>.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Mitteilungen an Benutzer senden
+## Ankündigungen an Benutzer senden
 
-Auf der Seite **Mitteilungen** können Sie mit Benutzern in Ihrem Workfront-System kommunizieren, indem Sie von Workfront gesendete Mitteilungen weiterleiten und neue Ankündigungen erstellen. Sie können Mitteilungen an bestimmte Benutzer, Gruppen, Teams oder Unternehmen in Ihrem Workfront-System senden.
+Sie können die Seite **Ankündigungen** verwenden, um mit Benutzenden in Ihrem Workfront-System zu kommunizieren, indem Sie Ankündigungen weiterleiten, die von Workfront gesendet werden, und indem Sie neue Ankündigungen erstellen. Sie können Ankündigungen an bestimmte Benutzende, Gruppen, Teams oder Unternehmen in Ihrem Workfront-System senden.
 
-* [Weiterleiten von Workfront-Mitteilungen an Benutzer](#forward-workfront-announcements-to-users)
+* [Weiterleiten von Workfront-Ankündigungen an Benutzer](#forward-workfront-announcements-to-users)
 * [Neue Ankündigungen erstellen](#compose-new-announcements)
 
-### Weiterleiten von Workfront-Mitteilungen an Benutzer {#forward-workfront-announcements-to-users}
+### Workfront-Ankündigungen an Benutzer weiterleiten {#forward-workfront-announcements-to-users}
 
-Sie können Nachrichten, die Sie von Workfront erhalten, einfach an Benutzer in Ihrem System weiterleiten.
+Sie können problemlos Nachrichten, die Sie von Workfront erhalten, an Benutzer in Ihrem System weiterleiten.
 
-1. Rufen Sie die Seite &quot;Mitteilungen&quot;auf, indem Sie auf das Symbol **Benachrichtigung** oben rechts in der Workfront-Benutzeroberfläche klicken und dann auf **Alle Mitteilungen** klicken.
+1. Klicken Sie oben rechts auf der Workfront-Benutzeroberfläche auf das **Benachrichtigung**-Symbol und dann auf **Alle Ankündigungen**.
 
    ![](assets/announcement-access-350x212.png)
 
-1. Wählen Sie auf der Seite **Mitteilungen** die Nachricht aus, die Sie weiterleiten möchten.
-1. Klicken Sie auf **Weiterleiten**.
-1. Geben Sie in das Feld **Senden an** den Namen eines Benutzers, einer Gruppe, eines Teams oder eines Unternehmens ein, dem/dem die Nachricht gesendet werden soll, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird. Wiederholen Sie diesen Vorgang, um mehrere Benutzer, Gruppen, Teams oder Unternehmen hinzuzufügen.
+1. Wählen **auf der** Ankündigungen die Nachricht aus, die weitergeleitet werden soll.
+1. Klicken Sie **Weiter**.
+1. Beginnen Sie **Feld „Senden an** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams oder einer Firma, den/die Sie die Ankündigungsnachricht erhalten möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Wiederholen Sie diesen Vorgang, um mehrere Benutzer, Gruppen, Teams oder Unternehmen hinzuzufügen.
 
    Oder
 
-   Um die Mitteilung an alle Benutzer in Ihrem System weiterzuleiten, beginnen Sie mit der Eingabe von **Alle** und klicken Sie dann auf die Mitteilung, wenn sie in der Dropdownliste angezeigt wird.
+   Um die Ankündigung an alle Benutzer in Ihrem System weiterzuleiten, beginnen Sie mit der Eingabe **Alle** und klicken Sie dann auf die Ankündigung, wenn sie in der Dropdown-Liste angezeigt wird.
 
-1. Fahren Sie mit Schritt 3 in [Erstellen neuer Ankündigungen](#compose-new-announcements) fort.
+1. Fahren Sie mit Schritt 3 in [Neue Ankündigungen erstellen](#compose-new-announcements) fort.
 
 ### Neue Ankündigungen erstellen {#compose-new-announcements}
 
-1. Rufen Sie die Seite &quot;Mitteilungen&quot;auf, indem Sie auf das Symbol **Benachrichtigung** oben rechts in der Workfront-Benutzeroberfläche klicken und dann auf **Alle Mitteilungen** klicken.
+1. Klicken Sie oben rechts auf der Workfront-Benutzeroberfläche auf das **Benachrichtigung**-Symbol und dann auf **Alle Ankündigungen**.
 
    ![](assets/announcement-access-350x212.png)
 
-1. Klicken Sie auf der Seite **Mitteilungen** auf **Neue Mitteilung.**
+1. Klicken Sie auf der **Ankündigungen**-Seite auf **Neue Ankündigung.**
 
-1. Geben Sie in das Feld **Senden an** den Namen eines Benutzers, einer Gruppe, eines Teams oder eines Unternehmens ein, dem/dem die Nachricht gesendet werden soll, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird. Wiederholen Sie diesen Vorgang, um mehrere Benutzer, Gruppen, Teams oder Unternehmen hinzuzufügen.
+1. Beginnen Sie **Feld „Senden an** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams oder einer Firma, den/die Sie die Ankündigungsnachricht erhalten möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird. Wiederholen Sie diesen Vorgang, um mehrere Benutzer, Gruppen, Teams oder Unternehmen hinzuzufügen.
 
-   Standardmäßig wird beim Senden einer neuen Ankündigungsnachricht in dieses Feld **Jeder** vorausgefüllt. Wenn Sie nicht möchten, dass alle Benutzer in Ihrem System die Mitteilung erhalten, entfernen Sie **Alle** aus der Liste.
+   Standardmäßig wird beim Senden einer neuen Ankündigungsnachricht **Alle** in diesem Feld vorausgefüllt. Wenn Sie nicht möchten, dass alle Benutzer in Ihrem System die Ankündigungsnachricht erhalten, entfernen Sie **Alle** aus der Liste.
 
 1. Geben Sie die folgenden zusätzlichen Informationen an:
 
-   | Betreff | Geben Sie einen Betreff für die Mitteilung an. |
+   | Betreff | Geben Sie einen Betreff für die Ankündigung an. |
    |---|---|
-   | Nachricht hier eingeben | Geben Sie den Inhalt Ihrer Nachricht an. Mit dem Nachrichten-Editor können Sie allgemeine Markups einfügen, darunter fett, kursiv, unterstrichen, mit Aufzählungszeichen und nummerierten Listen sowie Hyperlinks. |
-   | Anhänge | Klicken Sie auf **Anlage hinzufügen,** und wählen Sie dann die Datei aus, die Sie an die Nachricht anhängen möchten. |
+   | Nachricht hier eingeben | Geben Sie den Inhalt Ihrer Nachricht an. Mit dem Nachrichteneditor können Sie allgemeines Markup, einschließlich fett, kursiv, unterstrichen, Listen mit Aufzählungszeichen und Nummerierungen sowie Hyperlinks, einfügen. |
+   | Anhänge | Klicken **auf Anlage hinzufügen** navigieren Sie dann zu der Datei, die Sie an die Nachricht anhängen möchten, und wählen Sie sie aus. |
 
    {style="table-layout:auto"}
 
-1. (Optional) Klicken Sie auf **Als Entwurf speichern** , um die Nachricht (einschließlich Empfängerliste, Betreff und Anlagen) als Entwurf zu speichern.
+1. (Optional) Klicken Sie **Als Entwurf speichern**, um die Nachricht (einschließlich Empfängerliste, Betreff und Anlagen) als Entwurf zu speichern.
 
-1. (Optional) Um einen Entwurf anzuzeigen, klicken Sie im Bereich **Mitteilungen** auf **Entwürfe**.
+1. (Optional) Um einen Entwurf anzuzeigen, klicken Sie im Bereich **Ankündigungen** auf **Entwürfe**.
 
 1. Klicken Sie auf **Senden.**
 
-   Benutzer können nun die Ankündigungsnachricht anzeigen, wie unter [In-App-Benachrichtigungen anzeigen und verwalten](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md) beschrieben.
+   Benutzer können jetzt die Ankündigungsnachricht anzeigen, wie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md) beschrieben.
 
-## Beschränken Sie die Arten von Workfront-Mitteilungen, die Sie erhalten
+## Beschränken Sie die Typen von Workfront-Ankündigungen, die Sie erhalten
 
-Wenn Sie Workfront-Administrator sind, können Sie sich vom Empfang bestimmter Arten von Nachrichten abmelden.
+Wenn Sie Workfront-Administrator sind, können Sie sich vom Erhalt bestimmter Nachrichtentypen abmelden.
 
 Standardmäßig erhalten Sie alle Nachrichten, die von Workfront gesendet werden. Dies ist die empfohlene Konfiguration.
 
-1. Klicken Sie auf der Seite **Mitteilungen** auf **Einstellungen**.
+1. Klicken Sie auf der **Ankündigungen**-Seite auf **Einstellungen.**
 1. Wählen Sie die Themen aus, für die Sie keine Nachrichten mehr erhalten möchten.
-1. Klicken Sie auf **Einstellungen speichern.**
+1. Klicken Sie **Einstellungen speichern.**

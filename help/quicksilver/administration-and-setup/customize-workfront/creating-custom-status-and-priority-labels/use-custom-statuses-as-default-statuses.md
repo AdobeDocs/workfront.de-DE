@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-title: Verwenden benutzerdefinierter Status als Standardstatus
-description: Wenn ein benutzerdefinierter Status als Standardstatus festgelegt wird, wird der neue Standardstatus im gesamten System auf verschiedene Weise verwendet. Die Art und Weise, wie sie verwendet wird, hängt davon ab, ob sie als Standardstatus auf Systemebene oder als Standardstatus auf Gruppenebene festgelegt ist.
+title: Benutzerdefinierte Status als Standardstatus verwenden
+description: Wenn ein benutzerdefinierter Status als Standardstatus festgelegt wird, wird der neue Standardstatus im gesamten System auf verschiedene Arten verwendet. Die Verwendungsmöglichkeiten hängen davon ab, ob es sich um einen Standardstatus auf Systemebene oder einen Standardstatus auf Gruppenebene handelt.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# Verwenden benutzerdefinierter Status als Standardstatus
+# Benutzerdefinierte Status als Standardstatus verwenden
 
-Wenn ein benutzerdefinierter Status als Standardstatus festgelegt wird, wird der neue Standardstatus im gesamten System auf verschiedene Weise verwendet. Die Art und Weise, wie sie verwendet wird, hängt davon ab, ob sie als Standardstatus auf Systemebene oder als Standardstatus auf Gruppenebene festgelegt ist.
+Wenn ein benutzerdefinierter Status als Standardstatus festgelegt wird, wird der neue Standardstatus im gesamten System auf verschiedene Arten verwendet. Die Verwendungsmöglichkeiten hängen davon ab, ob es sich um einen Standardstatus auf Systemebene oder einen Standardstatus auf Gruppenebene handelt.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -42,57 +42,57 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Benutzerdefinierte Standardstatus auf Systemebene
 
-Wenn Sie einen benutzerdefinierten Status als Standardsystemstatus festlegen, übernehmen alle im System erstellten neuen Gruppen diesen Status.
+Wenn Sie einen benutzerdefinierten Status als Standardsystemstatus festlegen, erben alle neuen Gruppen, die im System erstellt werden, diesen Status.
 
-Gruppen, die bereits beim Festlegen des neuen Standardsystemstatus vorhanden waren, übernehmen diese nicht automatisch.
+Gruppen, die bereits vorhanden waren, als Sie den neuen standardmäßigen Systemstatus festgelegt haben, übernehmen ihn nicht automatisch.
 
-Angenommen, in Ihrer Adobe Workfront-Umgebung wurden bereits zwei Gruppen erstellt (Marketing und Vertrieb). Sie erstellen einen neuen benutzerdefinierten Status, der mit &quot;Aktuell&quot;übereinstimmt, und rufen den Status In Prozess auf. Jetzt erstellen Sie eine neue Gruppe namens Engineering. In diesem Szenario erbt die Engineering-Gruppe den neuen Standardstatus, die Marketing- und Vertriebsgruppen nicht.
+Angenommen, in Ihrer Adobe Workfront-Umgebung wurden bereits zwei Gruppen erstellt (Marketing und Vertrieb). Sie erstellen einen neuen benutzerdefinierten Status, der dem aktuellen entspricht, und rufen den Status In Bearbeitung auf. Jetzt erstellen Sie eine neue Gruppe mit dem Namen Engineering. In diesem Szenario übernimmt die Engineering-Gruppe den neuen Standardstatus. Die Marketing- und Vertriebsgruppen übernehmen ihn nicht.
 
 ## Benutzerdefinierte Standardstatus auf Gruppenebene
 
-Ein benutzerdefinierter Status, den Sie als standardmäßigen Gruppenstatus festlegen, wird unter folgenden Umständen verwendet:
+Ein benutzerdefinierter Status, den Sie als Standardgruppenstatus festlegen, wird unter folgenden Umständen verwendet:
 
-* **Wenn das Workfront-System automatisch einen Status auswählt, wird der standardmäßige Gruppenstatus verwendet:** Der benutzerdefinierte Status, den Sie als Standardgruppenstatus festlegen, wird verwendet, wenn das Workfront-System einem Objekt automatisch einen Status zuweist.
+* **Wenn das Workfront-System automatisch einen Status auswählt, wird der Standardgruppenstatus verwendet:** Der benutzerdefinierte Status, den Sie als Standardgruppenstatus festlegen, wird verwendet, wenn das Workfront-System einem Objekt automatisch einen Status zuweist.
 
-  Beispielsweise kann eine Aufgabe so konfiguriert werden, dass sie automatisch in den Status Abgeschlossen wechselt, wenn der Prozentsatz der Abschlüsse 100 % erreicht. Wenn Sie einen benutzerdefinierten Status erstellen, der dem Status Abgeschlossen entspricht, und diesen benutzerdefinierten Status als Standardstatus festlegen, ändert Workfront den Status der Aufgabe in den neuen Standardstatus.
+  Beispielsweise kann eine Aufgabe so konfiguriert werden, dass sie automatisch in den Status Abgeschlossen wechselt, wenn der abgeschlossene Prozentwert 100 % erreicht. Wenn Sie einen benutzerdefinierten Status erstellen, der mit Abgeschlossen übereinstimmt, und diesen benutzerdefinierten Status als Standardstatus festlegen, ändert Workfront den Status der Aufgabe in den neuen Standardstatus.
 
   Benutzerdefinierte Status werden auf diese Weise nur mit Gruppenstatus verwendet, die mit einer Aufgabe oder einem Problem verknüpft sind. Benutzerdefinierte Status können auf diese Weise nicht für Status verwendet werden, die mit einem Projekt verknüpft sind.
 
-* Der **Status eines Projekts wird von der mit dem Projekt verknüpften Gruppe bestimmt**: Wenn sich die mit einem bestimmten Projekt verknüpfte Gruppe ändert, ändert sich der Status des Projekts in Abhängigkeit von den für die Gruppe definierten Standardstatus. (Eine Gruppe kann beim Bearbeiten des Projekts über das Feld Gruppen mit einem Projekt verknüpft werden.)
+* Der **Status eines Projekts wird durch die mit dem Projekt verknüpfte Gruppe bestimmt**: Wenn sich die mit einem bestimmten Projekt verknüpfte Gruppe ändert, ändert sich der Status des Projekts in Abhängigkeit von den für die Gruppe definierten Standardstatus. (Eine Gruppe kann bei der Bearbeitung des Projekts über das Feld Gruppen mit einem Projekt verknüpft werden.)
 
   Wenn sich diese Gruppe ändert, ändert sich der Status des Projekts, wenn für die neue Gruppe ein anderer Standardstatus definiert ist, der dem aktuellen Status des Projekts entspricht.
 
-  Beispielsweise kann ein Projekt mit der Marketing-Gruppe verknüpft werden und der Status des Projekts ist auf Planung eingestellt. Das Projekt wird so bearbeitet, dass es nun mit der Vertriebsgruppe verknüpft ist. Die Gruppe &quot;Verkauf&quot;verfügt über einen benutzerdefinierten standardmäßigen Gruppenstatus namens &quot;Thinking&quot;(dieser Status entspricht der der Planung). Da die Gruppe für das Projekt geändert wurde, ändert sich der Status des Projekts jetzt in Denken.
+  Beispielsweise kann ein Projekt mit der Marketing-Gruppe verknüpft werden und der Status des Projekts ist „Planung“. Das Projekt wird so bearbeitet, dass es jetzt mit der Vertriebsgruppe verknüpft ist. Die Verkaufsgruppe hat einen benutzerdefinierten Standardgruppenstatus mit der Bezeichnung Denken (dieser Status entspricht Planung). Da die Gruppe im Projekt geändert wurde, ändert sich der Status des Projekts jetzt in „Denken“.
 
 Wenn Sie Gruppenadministrator sind, lesen Sie [Festlegen eines Status als Standardstatus für eine Gruppe](/help/quicksilver/administration-and-setup/manage-groups/manage-group-statuses/use-custom-statuses-as-default-statuses-group.md).
 
-## Problemstatus
+## Status ausgeben
 
-Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Ausgabetypen dafür aktiviert sein (Fehlerbericht, Änderungsreihenfolge, Problem und Anfrage). Beispielsweise kann der Status Neu geöffnet im unten gezeigten Problemstatus nicht als Standardstatus verwendet werden, da der Problemtyp Reihenfolge ändern nicht ausgewählt ist:
+Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Problemtypen dafür aktiviert sein (Fehlerbericht, Änderungsauftrag, Problem und Anfrage). Im folgenden Problemstatus kann beispielsweise der Status Erneut geöffnet nicht als Standardstatus verwendet werden, da der Problemtyp „Änderungsanforderung“ nicht ausgewählt ist:
 
 ![](assets/all-4-issue-types-enabled.png)
 
-## Benutzerdefinierten Status als Standardstatus festlegen
+## Festlegen eines benutzerdefinierten Status als Standardstatus
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Projekteinstellungen** > **Status**.
-1. (Bedingt) Wenn Sie einen Standardstatus für eine Gruppe festlegen, geben Sie im Menü oben rechts den Namen der Gruppe ein und wählen Sie diese dann aus, wenn sie angezeigt wird.
-1. Öffnen Sie je nach dem Statustyp, den Sie als Standardstatus festlegen möchten, die Registerkarte **Projekt**, **Aufgaben** oder **Probleme**.
-1. Klicken Sie auf das Dropdown-Menü **Standardstatus festlegen** .
-1. Wählen Sie im angezeigten Dropdown-Bereich neben dem Status, für den Sie den Standardstatus festlegen möchten, den gewünschten Standardstatus aus.
+1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen** > **Status**.
+1. (Bedingt) Wenn Sie einen Standardstatus für eine Gruppe festlegen, geben Sie den Namen der Gruppe in das Menü oben rechts ein und wählen Sie ihn aus, wenn er angezeigt wird.
+1. Öffnen Sie **Registerkarte**, **Aufgaben** oder **Probleme** je nach dem Typ des Status, den Sie als Standardstatus festlegen möchten.
+1. Klicken Sie auf **Dropdown** Menü Standardstatus festlegen .
+1. Wählen Sie in dem angezeigten Dropdown-Bereich neben dem Status, für den Sie den Standardstatus festlegen möchten, den gewünschten Standardstatus aus.
 1. Klicken Sie auf **Speichern**.
 1. Verknüpfen Sie das Projekt mit der Gruppe, in der sich der Status befindet.
 
@@ -101,6 +101,6 @@ Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Ausg
    >Wenn Sie den benutzerdefinierten Status für eine Gruppe festlegen und das Projekt später einer anderen Gruppe zuweisen, wird der Projektstatus neu geladen und kann sich ändern.
 
    1. Wechseln Sie zu dem Projekt, in dem Sie den benutzerdefinierten Status verwenden möchten.
-   1. Klicken Sie auf das Menü Mehr ![](assets/more-icon.png) und dann auf **Bearbeiten**.
-   1. Wählen Sie im Feld **Projekt bearbeiten** , das im Feld **Gruppe** unter **Projektverknüpfung** angezeigt wird, die Gruppe aus, in der sich der Status befindet.
+   1. Klicken Sie auf die ![](assets/more-icon.png) Mehr und dann auf **Bearbeiten**.
+   1. Wählen Sie in dem **Projekt bearbeiten** angezeigten Feld im Feld **Gruppe** unter **Projektverknüpfung** die Gruppe aus, in der sich der Status befindet.
    1. Klicken Sie auf **Änderungen speichern**.

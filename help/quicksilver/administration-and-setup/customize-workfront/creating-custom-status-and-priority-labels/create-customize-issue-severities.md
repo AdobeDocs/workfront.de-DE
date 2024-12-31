@@ -1,9 +1,9 @@
 ---
-title: Erstellen oder Anpassen von Problemschwerpunkten
+title: Anfrageschweregrade erstellen oder anpassen
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-description: Ihre Benutzer können Prioritätsstufen verwenden, um festzulegen, wie schwerwiegend ein Problem ist. Sie können einen der fünf Standardabstufungen in Adobe Workfront anpassen oder einen neuen Schweregrad für Ihre Benutzer erstellen.
+description: Mithilfe von Schweregraden können Sie festlegen, wie ernst ein Problem ist. Sie können einen der fünf in Adobe Workfront vorhandenen Standardschweregrade anpassen oder einen neuen Schweregrad für Ihre Benutzerinnen und Benutzer erstellen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -23,15 +23,15 @@ DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH T
 Linked to Understanding Issue Severity.
 -->
 
-Ihre Benutzer können Prioritätsstufen verwenden, um festzulegen, wie schwerwiegend ein Problem ist. Sie können einen der fünf Standardabstufungen in Adobe Workfront anpassen oder einen neuen Schweregrad für Ihre Benutzer erstellen.
+Mithilfe von Schweregraden können Sie festlegen, wie ernst ein Problem ist. Sie können einen der fünf in Adobe Workfront vorhandenen Standardschweregrade anpassen oder einen neuen Schweregrad für Ihre Benutzerinnen und Benutzer erstellen.
 
 >[!NOTE]
 >
->Aufgaben und Projekte haben keine Schwerpunkte.
+>Aufgaben und Projekte haben keinen Schweregrad.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -40,8 +40,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -52,19 +52,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Integrierte Problembereiche
+## Integrierte Problemschweregrade
 
-Workfront verfügt über fünf integrierte Problemschwerpunkte:
+Workfront verfügt über fünf integrierte Problemschweregrade:
 
 * Kosmetisch
 * Verwirrend
@@ -72,35 +72,35 @@ Workfront verfügt über fünf integrierte Problemschwerpunkte:
 * Programmfehler ohne Umgehungslösung
 * Schwerer Fehler
 
-<p>Sie können für diese Prioritätsstufen Folgendes bearbeiten:</p>
+<p>Für diese Schweregrade können Sie Folgendes bearbeiten:</p>
 
 * Name
 * Farbe
 
-  Die Farbe eines Schweregrads wird in einem Diagrammbericht beibehalten, wenn Sie Ihre Ergebnisse nach Schweregrad des Problems gruppieren. Informationen zu Diagrammberichten finden Sie unter [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
+  Die Farbe des Schweregrads wird in einem Diagrammbericht beibehalten, wenn Sie die Ergebnisse nach Problemschweregrad gruppieren. Informationen zu Diagrammberichten finden Sie unter [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 
-* Welche Schweregrad ist die Standardeinstellung?
+* Welcher Schweregrad der Standard ist
 
-  Weitere Informationen zu Standardabstufungen finden Sie unter [Erstellen oder Bearbeiten eines Schweregrads eines Problems](#create-or-edit-an-issue-severity) in diesem Artikel.
+  Weitere Informationen zu Standardschweregraden finden Sie unter [Erstellen oder Bearbeiten eines Problemschweregrads](#create-or-edit-an-issue-severity) in diesem Artikel.
 * Beschreibung
-* Ob ein Schweregrad in Workfront ausgeblendet wird
+* Ob ein Schweregrad in Workfront ausgeblendet ist
 
-  Weitere Informationen zum Ausblenden eines Schweregrads finden Sie unter [Erstellen oder Bearbeiten eines Schweregrads für ein Problem](#create-or-edit-an-issue-severity")
+  Weitere Informationen zum Ausblenden eines Schweregrads finden Sie unter [Erstellen oder Bearbeiten eines Schweregrads des Problems](#create-or-edit-an-issue-severity")
 
 * Löschen eines Schweregrads
 
-  In diesem Fall müssen Sie einen Ersatzschwerpunkt auswählen.
+  In diesem Fall müssen Sie einen Ersatzschweregrad auswählen.
 
-## Erstellen oder Bearbeiten eines Schweregrads eines Problems {#create-or-edit-an-issue-severity}
+## Erstellen oder Bearbeiten eines Problemschweregrads {#create-or-edit-an-issue-severity}
 
-Als Workfront-Administrator können Sie Problemabstufungen entsprechend den Anforderungen Ihrer Benutzer erstellen und bearbeiten.
+Als Workfront-Admin können Sie Problemschweregrade erstellen und bearbeiten, um sie an die Anforderungen Ihrer Benutzenden anzupassen.
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Projekteinstellungen** > **Schwerpunkte**.
+1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen** > **Schweregrade**.
 
-1. Wenn Sie einen neuen Schweregrad erstellen, klicken Sie auf **Neuen Schweregrad hinzufügen**.
-1. Konfigurieren Sie die folgenden Optionen für den neuen Schweregrad oder bearbeiten Sie sie für einen vorhandenen.
+1. Wenn Sie einen neuen Schweregrad erstellen, klicken Sie auf &quot;**Schweregrad hinzufügen**.
+1. Konfigurieren Sie die folgenden Optionen für den neuen Schweregrad oder bearbeiten Sie sie für einen vorhandenen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,40 +108,40 @@ Als Workfront-Administrator können Sie Problemabstufungen entsprechend den Anfo
     <tbody> 
      <tr> 
       <td role="rowheader">Name des Schweregrads</td> 
-      <td>Geben Sie einen Namen für den Schweregrad ein.</td> 
+      <td>Geben Sie einen Namen für den Schweregrad ein</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Wichtigkeit</td> 
-      <td>Erhöhen oder verringern Sie den Schweregrad, der ursprünglich von Workfront zugewiesen wurde.
-      <p>Die Wichtigkeitsnummer für jeden Schweregrad muss eindeutig sein. Die höchste Zahl entspricht dem höchsten Schweregrad.</p> <p>Sie können diese Zahl nach dem Speichern der Prioritätsstufe nicht mehr bearbeiten.</p> </td> 
+      <td>Erhöhen oder verringern Sie den Schweregrad der ursprünglich von Workfront zugewiesenen Schwere.
+      <p>Die Wichtigkeitsnummer für jeden Schweregrad muss eindeutig sein. Die höchste Zahl entspricht dem höchsten Schweregrad.</p> <p>Sie können diese Zahl nicht mehr bearbeiten, nachdem Sie den Schweregrad gespeichert haben.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Farbe</td> 
       <td> <p>Wählen Sie eine Farbe für den Schweregrad.</p> 
-      <p>Die Farbe des Schweregrads wird in Diagrammberichten verwendet, wenn Sie Ihre Ergebnisse nach Schweregrad des Problems gruppieren. Informationen zu Diagrammberichten finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Hinzufügen eines Diagramms zu einem Bericht</a>.</p> </td> 
+      <p>Die Farbe des Schweregrads wird in Diagrammberichten verwendet, wenn Sie Ihre Ergebnisse nach Problemschweregrad gruppieren. Informationen zu Diagrammberichten finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md" class="MCXref xref">Hinzufügen eines Diagramms zu einem Bericht</a>.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Standardschweregrad</td> 
-      <td>Wählen Sie den Schweregrad aus, den Workfront automatisch für alle neu erstellten Probleme auswählen soll.</p>
-      <p>Kosmetik ist der Standardschwerpunkt bei Problemen in Workfront.</p></td> 
+      <td>Wählen Sie den Schweregrad aus, für den Workfront automatisch alle neu erstellten Probleme auswählen soll.</p>
+      <p>Kosmetik ist der Standardschweregrad für Probleme in Workfront.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td>Geben Sie eine Beschreibung für den Schweregrad ein, um dessen Funktion zu erläutern.</td> 
+      <td>Geben Sie eine Beschreibung für den Schweregrad ein, um dessen Funktion zu erklären.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ausblenden</td> 
-      <td> Verbergen Sie einen Schweregrad, der nicht mehr benötigt wird. 
-      <p>In Workfront wird kein verborgener Schweregrad angezeigt, sodass Benutzer ihn nicht für ihre Probleme auswählen können.</p> 
-      <p><b>WICHTIG</b>: Statt Prioritätsstufen zu löschen, die Sie nicht mehr verwenden möchten, empfehlen wir, sie zu verbergen. Auf diese Weise bewahren Sie alle historischen Daten zu Objekten auf, die bereits mit der Schwere ausgefüllt sind, und verhindern gleichzeitig, dass Menschen den Schweregrad in Zukunft verwenden.</p> </td> 
+      <td> Ausblenden eines nicht mehr benötigten Schweregrads. 
+      <p>Ein ausgeblendeter Schweregrad wird nirgends in Workfront angezeigt, sodass Benutzende ihn nicht für ihre Probleme auswählen können.</p> 
+      <p><b>WICHTIG</b>: Anstatt Schweregrade zu löschen, die Sie nicht mehr verwenden möchten, empfehlen wir, sie auszublenden. Auf diese Weise behalten Sie alle historischen Daten zu Objekten, die bereits mit dem Schweregrad abgeschlossen wurden, und verhindern gleichzeitig, dass Benutzer den Schweregrad in Zukunft verwenden.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. (Optional) Ändern Sie die Listenreihenfolge Ihrer Prioritätsstufen, indem Sie sie in die gewünschte Reihenfolge ziehen und dort ablegen.
+1. (Optional) Ändern Sie die Auflistungsreihenfolge Ihrer Schweregrade, indem Sie sie in die gewünschte Reihenfolge ziehen und ablegen.
 
-   Dadurch wird die Reihenfolge geändert, in der sie für Probleme angezeigt werden. Die Nummer **Wichtigkeit** wird dadurch nicht geändert.
+   Dadurch wird die Reihenfolge geändert, in der Probleme angezeigt werden. Die Zahl „Wichtigkeit **wird** geändert.
 
 1. Klicken Sie auf **Speichern**.
 
-Weitere Informationen zur Verwendung von Prioritätsstufen bei der Arbeit mit Problemen finden Sie unter [Schweregrad des Problems aktualisieren](../../../manage-work/issues/issue-information/update-issue-severity.md).
+Weitere Informationen zur Verwendung von Schweregraden bei der Arbeit mit Problemen finden Sie unter [Aktualisieren des Problemschweregrads](../../../manage-work/issues/issue-information/update-issue-severity.md).

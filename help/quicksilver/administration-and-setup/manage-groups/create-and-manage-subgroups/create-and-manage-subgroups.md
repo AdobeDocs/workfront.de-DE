@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration;user-management
 navigation-topic: manage-groups
 title: Erstellen und Verwalten von Untergruppen
-description: Als Gruppenadministrator einer Untergruppe können Sie die Untergruppe erstellen, verschieben, anzeigen, bearbeiten, kopieren, umbenennen, exportieren und löschen. Sie können eine Untergruppe auch zu einer Gruppe der obersten Ebene machen, indem Sie sie aus ihrer übergeordneten Gruppe entfernen.
+description: Als Gruppenadministrator einer Untergruppe können Sie die Untergruppe erstellen, verschieben, anzeigen, bearbeiten, kopieren, umbenennen, exportieren und löschen. Sie können eine Untergruppe auch zu einer Gruppe der obersten Ebene machen, indem Sie sie aus der übergeordneten Gruppe entfernen.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -23,4 +23,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erstellen einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/create-a-subgroup.md)
 * [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)
-* [Anzeigen und Verwalten von Untergruppenmitgliedern](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)
+* [Untergruppenmitglieder anzeigen und verwalten](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/view-and-manage-subgroup-members.md)

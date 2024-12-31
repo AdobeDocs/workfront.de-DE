@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
 title: Alle benutzerdefinierten Forms anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
-description: Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld oder Widget verwenden, das Sie ändern oder löschen möchten. Es ist wichtig zu bewerten, ob diese benutzerdefinierten Formulare Anpassungen erfordern, damit sie weiterhin ordnungsgemäß funktionieren oder nach dem Ändern oder Löschen des Felds oder Widgets weiterhin nützlich sind.
+description: Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld oder Widget verwenden, das Sie ändern oder löschen möchten. Es ist wichtig zu beurteilen, ob diese benutzerdefinierten Formulare angepasst werden müssen, damit sie weiterhin ordnungsgemäß funktionieren oder auch nach dem Ändern oder Löschen des Felds oder Widgets weiterhin nützlich sind.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -17,22 +17,22 @@ ht-degree: 0%
 
 # Alle benutzerdefinierten Formulare anzeigen, die ein bestimmtes benutzerdefiniertes Feld oder Widget verwenden
 
-Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld oder Widget verwenden, das Sie ändern oder löschen möchten. Es ist wichtig zu bewerten, ob diese benutzerdefinierten Formulare Anpassungen erfordern, damit sie weiterhin ordnungsgemäß funktionieren oder nach dem Ändern oder Löschen des Felds oder Widgets weiterhin nützlich sind.
+Sie können herausfinden, welche benutzerdefinierten Formulare ein benutzerdefiniertes Feld oder Widget verwenden, das Sie ändern oder löschen möchten. Es ist wichtig zu beurteilen, ob diese benutzerdefinierten Formulare angepasst werden müssen, damit sie weiterhin ordnungsgemäß funktionieren oder auch nach dem Ändern oder Löschen des Felds oder Widgets weiterhin nützlich sind.
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
    <td>
    <p>Neu: Standard</p>
    <p>oder</p>
@@ -43,13 +43,13 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -57,6 +57,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms**.
-1. Klicken Sie auf &quot;**Felder**&quot;, suchen Sie in der Spalte &quot;**Name**&quot;nach dem Feld oder Widget und zeigen Sie dann in der Spalte &quot;**Forms**&quot;an, um zu sehen, welche benutzerdefinierten Formulare das Feld oder Widget verwenden.
-1. (Optional) Klicken Sie auf den Namen eines dieser benutzerdefinierten Formulare, um das Formular aufzurufen und zu überlegen, welche Änderungen Sie dort vornehmen müssen, wenn Sie das Feld oder Widget ändern.
+1. Klicken Sie im linken Bedienfeld auf **Benutzerdefinierte Forms**.
+1. Klicken Sie auf **Felder**, suchen Sie in der Spalte **Name** nach dem Feld oder Widget und zeigen Sie dann die Spalte **Forms** an, um zu sehen, welche benutzerdefinierten Formulare das Feld oder Widget verwenden.
+1. (Optional) Klicken Sie auf den Namen eines dieser benutzerdefinierten Formulare, um zum Formular zu wechseln und zu überlegen, welche Änderungen Sie dort vornehmen müssen, wenn Sie das Feld oder Widget ändern.

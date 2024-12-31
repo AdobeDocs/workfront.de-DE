@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: security
-title: Vermeiden von doppelten Benutzern
-description: Bei der Erstellung eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, selbst wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist (z. B. JohnDoe@example.com und johndoe@example.com). Um sich auf zukünftige Authentifizierungsverbesserungen vorzubereiten, stellen Sie außerdem sicher, dass alle Benutzer über eindeutige E-Mail-Adressen in einer Workfront-Instanz verfügen.
+title: Verhindern von Benutzerduplikaten
+description: Beim Erstellen eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, auch wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist (z. B. JohnDoe@example.com und johndoe@example.com). Um sich auf künftige Authentifizierungsverbesserungen vorzubereiten, stellen Sie außerdem sicher, dass alle Benutzer über eindeutige E-Mail-Adressen in einer Workfront-Instanz verfügen.
 author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# Vermeiden doppelter Benutzer
+# Verhindern von Benutzerduplikaten
 
-Bei der Erstellung eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, selbst wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist (z. B. JohnDoe@example.com und johndoe@example.com). Um sich auf zukünftige Authentifizierungsverbesserungen vorzubereiten, stellen Sie außerdem sicher, dass alle Benutzer über eindeutige E-Mail-Adressen in einer Workfront-Instanz verfügen.
+Beim Erstellen eines neuen Benutzers in Adobe Workfront können Sie keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, auch wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist (z. B. JohnDoe@example.com und johndoe@example.com). Um sich auf künftige Authentifizierungsverbesserungen vorzubereiten, stellen Sie außerdem sicher, dass alle Benutzer über eindeutige E-Mail-Adressen in einer Workfront-Instanz verfügen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,44 +30,44 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Sie müssen Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Sie müssen ein Workfront-Administrator sein.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 +++
 
-## Erstellen von Benutzern mit eindeutigen E-Mail-Adressen
+## Benutzer mit eindeutigen E-Mail-Adressen erstellen
 
-Ab Version 2019.4 können Sie bei der Erstellung eines neuen Benutzers in Workfront keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, selbst wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist. Sie können beispielsweise keinen Benutzer mit der E-Mail-Adresse JohnDoe@example.com erstellen, wenn ein anderer Benutzer die E-Mail-Adresse johndoe@example.com hat.
+Ab Version 2019.4 können Sie bei der Erstellung eines neuen Benutzers in Workfront keine E-Mail-Adresse mehr verwenden, die bereits von einem anderen Benutzer verwendet wird, auch wenn die E-Mail-Adresse von Fall zu Fall unterschiedlich ist. Sie können beispielsweise keinen Benutzer mit der E-Mail-Adresse JohnDoe@example.com erstellen, wenn ein anderer Benutzer die E-Mail-Adresse johndoe@example.com hat.
 
-## E-Mail-Adressen vorhandener Benutzer in Ihrer Workfront-Instanz aktualisieren
+## Aktualisieren der E-Mail-Adressen bestehender Benutzender in Ihrer Workfront-Instanz
 
-Als Workfront-Administrator müssen Sie bestehende Benutzer aktualisieren, deren E-Mail-Adressen nur von Fall zu Fall verschieden sind.
+Als Workfront-Administrator müssen Sie bestehende Benutzende mit übereinstimmenden E-Mail-Adressen aktualisieren, die sich nur durch die Groß-/Kleinschreibung unterscheiden.
 So beheben Sie doppelte E-Mail-Adressen in einer Workfront-Instanz:
 
-1. Untersuchen Sie doppelte Benutzer und entscheiden Sie, welcher Benutzer nicht mehr benötigt wird.
+1. Untersuchen Sie alle doppelten Benutzer und entscheiden Sie, welcher Benutzer nicht mehr benötigt wird.
 
    {{step-1-to-users}}
 
-   1. Wählen Sie im Menü **Filter** die Option **Alle** aus.
+   1. Wählen Sie im **Filter**-Menü **Alle** aus.
 
-   1. Wählen Sie im Menü **Ansicht** die Option **Benutzeranmeldung**.
+   1. Wählen Sie im **Ansicht**-Menü **Benutzeranmeldung** aus.
 
-   1. Wählen Sie im Menü **Gruppierung** die Option **Nichts** aus.
+   1. Wählen Sie im **Gruppierung** die Option **Nichts** aus.
 
-   1. Passen Sie die Ansicht &quot;User Login&quot;an.
+   1. Anpassen der Ansicht „Benutzeranmeldung“.
 
-      1. Klicken Sie auf **Ansicht** > **Ansicht anpassen**.
+      1. Klicken Sie **Ansicht** > **Ansicht anpassen**.
 
       1. Ersetzen Sie die Spalte **ID** durch die Spalte **E-Mail-Adresse** .
 
@@ -75,10 +75,10 @@ So beheben Sie doppelte E-Mail-Adressen in einer Workfront-Instanz:
 
    1. Erstellen Sie eine neue Gruppierung.
 
-      1. Klicken Sie auf **Gruppierung** > **Neue Gruppierung**.
+      1. Klicken Sie **Gruppierung** > **Neue Gruppierung**.
 
-      1. Klicken Sie oben rechts auf der Seite auf **In den Textmodus wechseln** .
-      1. Fügen Sie den folgenden Textmoduscode ein:
+      1. Klicken **oben rechts auf** Seite auf „Zum Textmodus wechseln“.
+      1. Fügen Sie den folgenden Textmodus-Code ein:
 
          `group.0.linkedname=direct`
          `group.0.namekey=emailAddr`
@@ -90,11 +90,11 @@ So beheben Sie doppelte E-Mail-Adressen in einer Workfront-Instanz:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * (Bevorzugte Methode) Fügen Sie für jedes zusätzliche Konto eine + -Adresse zur E-Mail-Adresse des Benutzers hinzu.
+   * (Bevorzugte Methode) Fügen Sie der E-Mail-Adresse des Benutzers für jedes zusätzliche Konto eine + -Adresse hinzu.
 
-     Wählen Sie diese Option, wenn ein einzelner Benutzer in Ihrem Unternehmen Zugriff auf mehr als ein Benutzerkonto benötigt. Wenn die plus-Adresse von Ihrem E-Mail-Anbieter nicht unterstützt wird, müssen Sie für jedes Workfront-Konto ein separates E-Mail-Konto angeben.
+     Wählen Sie diese Option aus, wenn ein einzelner Benutzer in Ihrer Organisation Zugriff auf mehr als ein Benutzerkonto benötigt. Wenn die Plus-Adressierung von Ihrem E-Mail-Anbieter nicht unterstützt wird, müssen Sie für jedes Workfront-Konto ein separates E-Mail-Konto angeben.
 
-     John Doe kann beispielsweise über ein Benutzerkonto für sein tägliches Nutzungskonto und eines für Testzwecke verfügen:
+     John Doe kann beispielsweise ein Benutzerkonto für sein Täglichkeitskonto und eines für Testzwecke haben:
 
       * johndoe@workfront.com
       * johndoe+reviewer@workfront.com
@@ -103,17 +103,17 @@ So beheben Sie doppelte E-Mail-Adressen in einer Workfront-Instanz:
 
      `.inactive`
 
-     John Doe könnte beispielsweise die folgenden Domänen haben: (Diese müssen eindeutig sein.)
+     Beispielsweise könnte Martin Müller die folgenden Domains haben: (Diese müssen eindeutig sein.)
 
       * johndoe@workfront.inactive
       * johndoe@workfront.inactive2
 
-     Sie können sich nicht mehr bei diesen Konten anmelden, da für die Zurücksetzung von Passwörtern eine gültige E-Mail-Adresse erforderlich ist. Auf diese Konten kann nur mit der Funktion Anmelden als zugegriffen werden.
+     Sie können sich nicht mehr bei diesen Konten anmelden, da für das Zurücksetzen des Kennworts eine gültige E-Mail-Adresse erforderlich ist. Auf diese Konten kann nur über die Funktion „Anmelden als“ zugegriffen werden.
 
    * Nicht benötigte Benutzer löschen
 
      >[!IMPORTANT]
      >
-     >Wählen Sie diese Option nur für versehentlich erstellte Konten oder für Testkonten. Diese Option wird normalerweise nur für Konten mit null oder 1 versehentlicher Anmeldung ausgeführt. Regelmäßig verwendete Konten sollten niemals gelöscht werden.
+     >Wählen Sie diese Option nur für Konten aus, die versehentlich erstellt wurden, oder für Testkonten. Diese Option wird in der Regel nur für Konten mit null oder 1 falschen Anmeldung durchgeführt. Konten, die regelmäßig verwendet wurden, sollten niemals gelöscht werden.
 
-Wenn Sie Benutzer in einer Workfront-Instanz haben, deren E-Mail-Adressen nur von Fall zu Fall verschieden sind, kontaktiert Workfront Sie mit zusätzlichen Informationen und einer Zeitleiste, wenn diese aktualisiert werden müssen.
+Wenn sich Benutzende in einer Workfront-Instanz mit übereinstimmenden E-Mail-Adressen befinden, die sich nur von Fall zu Fall unterscheiden, wird Workfront Sie mit zusätzlichen Informationen und einem Zeitplan kontaktieren, wenn diese aktualisiert werden müssen.

@@ -1,5 +1,5 @@
 ---
-title: Benutzerdefinierte Bedingung löschen
+title: Löschen einer benutzerdefinierten Bedingung
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
@@ -15,13 +15,13 @@ ht-degree: 0%
 
 ---
 
-# Benutzerdefinierte Bedingung löschen
+# Löschen einer benutzerdefinierten Bedingung
 
 Sie können eine benutzerdefinierte Bedingung löschen, wenn sie nicht mehr benötigt wird.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -42,39 +42,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Benutzerdefinierte Bedingung löschen
+## Löschen einer benutzerdefinierten Bedingung
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Projekteinstellungen** > **Bedingungen**.
+1. Klicken Sie **Projektvoreinstellungen** > **Bedingungen**.
 
    <!--
    <span data-mc-conditions="QuicksilverOrClassic.Draft mode">Make sure it's this way also in QS</span>
    -->
 
-1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgabe** oder **Problem**), in dem sich die Bedingung befindet, die Sie löschen möchten.
+1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgabe** oder **Problem**), auf der sich die Bedingung befindet, die Sie löschen möchten.
 
-1. Bewegen Sie den Mauszeiger über die Bedingung, die Sie löschen möchten, und klicken Sie dann auf das Symbol **Löschen** ![](assets/delete.png), das ganz rechts angezeigt wird.
+1. Bewegen Sie den Mauszeiger über die Bedingung, die Sie löschen möchten, und klicken Sie dann auf das **Löschen**-Symbol, ![](assets/delete.png) ganz rechts angezeigt wird.
 1. Klicken Sie in der angezeigten Bestätigungsmeldung auf **Bedingung löschen**.
 
-1. Wählen Sie im angezeigten Feld **Bedingung löschen** eine neue Bedingung in der Dropdown-Liste für alle Projekte aus, die die zu löschende Bedingung verwendet haben.
+1. Wählen Sie **angezeigten Feld** Bedingung löschen“ in der Dropdown-Liste für alle Projekte, die die Bedingung verwendet haben, die Sie löschen möchten, eine neue Bedingung aus.
 
-   Benutzerdefinierte Bedingungen sind nur dann in der Dropdownliste verfügbar, wenn sie mit derselben integrierten Bedingung übereinstimmen, die Sie löschen. Wenn Sie beispielsweise eine Bedingung löschen, die mit &quot;Risiko&quot;übereinstimmt, können nur benutzerdefinierte Bedingungen ausgewählt werden, die auch mit &quot;Risiko&quot;übereinstimmen.
+   Benutzerdefinierte Bedingungen sind in der Dropdown-Liste nur verfügbar, wenn sie mit derselben integrierten Bedingung übereinstimmen wie die, die Sie löschen möchten. Wenn Sie beispielsweise eine Bedingung löschen, die der Gefährdungsstufe entspricht, können nur benutzerdefinierte Bedingungen ausgewählt werden, die ebenfalls der Stufe Gefährdet entsprechen.
 
-1. Klicken Sie auf **Bedingung löschen**.
+1. Klicken Sie **Bedingung löschen**.
 
 >[!NOTE]
 >
->Sie können die integrierten Bedingungen, die sich auf Target, Risiko und In Schwierigkeiten befinden, nicht löschen. Sie können jedoch Namen und Farben ändern.
+>Die integrierten Bedingungen „In Target“, „Gefährdet“ und „In Schwierigkeiten“ können nicht gelöscht werden. Sie können jedoch ihren Namen und ihre Farbe ändern.
 
-Weitere Informationen zu benutzerdefinierten Bedingungen finden Sie unter [Benutzerdefinierte Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Informationen zu benutzerdefinierten Bedingungen finden Sie unter [Benutzerdefinierte Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

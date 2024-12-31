@@ -1,9 +1,9 @@
 ---
-title: Administratorzugriff für eine Layout-Vorlage gewähren
+title: Gewähren von administrativem Zugriff für eine Layout-Vorlage
 user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
-description: Als Adobe Workfront-Administrator können Sie den Gruppenadministratoren einer bestimmten Gruppe Administratorrechte für eine Layoutvorlage erteilen, damit sie die Vorlage bearbeiten können. Dadurch wird die Vorlage nicht den Benutzern in der Gruppe zugewiesen.
+description: Als Adobe Workfront-Administrator können Sie Gruppenadministratoren einer bestimmten Gruppe administrativen Zugriff für eine Layout-Vorlage gewähren, damit sie die Vorlage bearbeiten können. Dadurch wird die Vorlage nicht den Benutzenden in der Gruppe zugewiesen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 ---
 
-# Administratorzugriff für eine Layoutvorlage gewähren
+# Gewähren von administrativem Zugriff für eine Layout-Vorlage
 
-Als Adobe Workfront-Administrator können Sie den Gruppenadministratoren einer bestimmten Gruppe Administratorrechte für eine Layoutvorlage erteilen, damit sie die Vorlage bearbeiten können. Dadurch wird die Vorlage nicht den Benutzern in der Gruppe zugewiesen.
+Als Adobe Workfront-Administrator können Sie Gruppenadministratoren einer bestimmten Gruppe administrativen Zugriff für eine Layout-Vorlage gewähren, damit sie die Vorlage bearbeiten können. Dadurch wird die Vorlage nicht den Benutzenden in der Gruppe zugewiesen.
 
-Weitere Informationen zum Zuweisen von Benutzern zu einer Layoutvorlage finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+Informationen zum Zuweisen von Benutzern zu einer Layout-Vorlage finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 
-Weitere Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -36,8 +36,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -46,29 +46,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.
+Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Administratorzugriff für eine Layoutvorlage gewähren
+## Gewähren von administrativem Zugriff für eine Layout-Vorlage
 
-1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie im oberen Abschnitt der Seite auf **Zugriff auf** gewähren.
+1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
+1. Klicken **im oberen Bereich** Seite auf „Zugriff gewähren auf“.
 1. Klicken Sie im angezeigten Feld auf **Gruppe hinzufügen**, geben Sie den Namen der Gruppe ein, klicken Sie auf den Namen, wenn er angezeigt wird, und klicken Sie dann auf **Fertig**.
 
-   Alle Benutzer, die als Gruppenadministratoren für die von Ihnen festgelegte Gruppe bestimmt sind, können die Layoutvorlage verwalten. Die Vorlage wird jedoch nicht dem Gruppenmitglied für die Verwendung zugewiesen. Weitere Informationen zum Zuweisen einer Layoutvorlage zu einer Gruppe finden Sie unter [Zuweisen einer Layoutvorlage zu Benutzern](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) in diesem Artikel.
+   Alle Benutzer, die als Gruppenadministratoren für die von Ihnen angegebene Gruppe festgelegt wurden, können die Layout-Vorlage verwalten. Die Vorlage wird jedoch nicht den Mitgliedern der Gruppe für ihre Verwendung zugewiesen. Informationen zum Zuweisen einer Layout-Vorlage zu einer Gruppe finden Sie unter [Zuweisen einer Layout-Vorlage zu ](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md#assign) in diesem Artikel.
 
    >[!NOTE]
    >
-   >* Wenn ein Gruppenadministrator eine Layoutvorlage erstellt, ist die Zuweisung des Administratorzugriffs obligatorisch. Die Layout-Vorlage ist für die angegebene Gruppe bestimmt und nur für diese sichtbar. Weitere Informationen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). Informationen zu Gruppenadministratoren finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
+   >* Wenn ein(e) Gruppen-Administrator(in) eine Layout-Vorlage erstellt, muss der Administratorzugriff zugewiesen werden. Die Layout-Vorlage ist für die angegebene Gruppe vorgesehen und nur für diese sichtbar. Weitere Informationen finden Sie [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md). Informationen zu Gruppenadministratoren finden Sie unter [Gruppenadministratoren](../../../administration-and-setup/manage-groups/group-roles/group-administrators.md).
    >   
-   >* Wenn Sie den Gruppenadministratoren einer bestimmten Gruppe keinen Administratorzugriff gewähren, haben alle Benutzer, die Benutzerkonten bearbeiten können, Administratorzugriff auf die Layoutvorlage. Einige Workfront-Administratoren haben die Absicht, keinen Administratorzugriff für eine Layoutvorlage zu gewähren, um sie zu einer Layoutvorlage auf Systemebene zu machen.
+   >* Wenn Sie den Gruppenadministratoren in einer bestimmten Gruppe keinen administrativen Zugriff gewähren, haben alle Benutzer, die Benutzerkonten bearbeiten können, administrativen Zugriff auf die Layout-Vorlage. Einige Workfront-Administratoren entscheiden sich absichtlich dafür, keinen administrativen Zugriff auf eine Layout-Vorlage zu gewähren, um sie zu einer Layout-Vorlage auf Systemebene zu machen.
 
-1. Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und die Vorlage dann später weiter ändern.
+1. Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.

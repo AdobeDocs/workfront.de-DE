@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: set-up-workfront
 title: Adobe Workfront-Testumgebungen
-description: Sie können zwei [!DNL Workfront] Testumgebungen verwenden, die Ihre [!DNL Workfront] Produktionsumgebung replizieren. Die Vorschau-Sandbox wird jedes Wochenende von Workfront aktualisiert. Daten, die am Freitag zu Ihrer Live-Umgebung hinzugefügt wurden, werden am folgenden Montag in Ihrer Vorschau-Sandbox angezeigt. Die Sandbox für benutzerdefinierte Aktualisierungen ist eine separate Testumgebung, die von Ihnen manuell aktualisiert wird. Es fallen zusätzliche Kosten an, um die Sandbox "Benutzerdefinierte Aktualisierung"zu erhalten.
+description: Sie können Umgebungen mit zwei  [!DNL Workfront]  verwenden, die Ihre  [!DNL Workfront] -Produktionsumgebung replizieren. Die Sandbox-Vorschau wird jedes Wochenende von Workfront aktualisiert. Daten, die am Freitag zu Ihrer Live-Umgebung hinzugefügt wurden, werden bis zum folgenden Montag in Ihrer Vorschau-Sandbox angezeigt. Die benutzerdefinierte Aktualisierungs-Sandbox ist eine separate Testumgebung, die von Ihnen manuell aktualisiert wird. Es fallen zusätzliche Kosten an, um die benutzerdefinierte Aktualisierungs-Sandbox zu erhalten.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -21,14 +21,14 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Vorschau der Sandbox-Umgebung [!DNL Adobe Workfront] ](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
-* [Die Sandbox-Umgebung  [!DNL Adobe Workfront]  Benutzerdefinierte Aktualisierung](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
-* Umgebungsförderung:
+* [Die  [!DNL Adobe Workfront] -Vorschau-Sandbox-Umgebung](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-preview-sandbox-environment.md)
+* [Die  [!DNL Adobe Workfront] -benutzerdefinierte Sandbox-Umgebung aktualisieren](../../../administration-and-setup/set-up-workfront/workfront-testing-environments/wf-custom-refresh-sandbox-environment.md)
+* Umweltförderung:
 
-   * [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungsförderung)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
+   * [Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-in-wf.md)
    * [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
-   * [Installieren eines Umgebungsförderungspakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
+   * [Installieren eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
    * [Zurücksetzen eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
-   * [Verschieben von Objekten zwischen [!DNL Workfront] Umgebungen mithilfe der [!DNL Workfront] Umgebungsförderungs-API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
+   * [Verschieben von Objekten  [!DNL Workfront]  Umgebungen mithilfe der  [!DNL Workfront] -API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * [Häufig gestellte Fragen zur Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
-   * [Fehlerbehebung bei der Umgebungswerbung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
+   * [Fehlerbehebung bei der Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)

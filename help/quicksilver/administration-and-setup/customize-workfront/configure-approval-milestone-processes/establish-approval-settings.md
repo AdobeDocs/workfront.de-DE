@@ -1,9 +1,9 @@
 ---
-title: Globale Genehmigungseinstellungen konfigurieren
+title: Konfigurieren der globalen Genehmigungseinstellungen
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-approval-and-milestone-processes
-description: Als Adobe Workfront-Administrator können Sie die globalen Einstellungen für Genehmigungsprozesse in Workfront festlegen. Diese Einstellungen wirken sich auf alle Prozesse zur Genehmigung von Arbeitselementen in Ihrem System aus.
+description: Als Adobe Workfront-Administrator können Sie die globalen Einstellungen für Genehmigungsprozesse in Workfront festlegen. Diese Einstellungen wirken sich auf alle Arbeitselementgenehmigungsprozesse in Ihrem System aus.
 author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,13 +15,13 @@ ht-degree: 2%
 
 ---
 
-# Globale Genehmigungseinstellungen konfigurieren
+# Konfigurieren der globalen Validierungseinstellungen
 
-Als Adobe Workfront-Administrator können Sie die globalen Einstellungen für Genehmigungsprozesse in Workfront festlegen. Diese Einstellungen wirken sich auf alle Prozesse zur Genehmigung von Arbeitselementen in Ihrem System aus.
+Als Adobe Workfront-Administrator können Sie die globalen Einstellungen für Genehmigungsprozesse in Workfront festlegen. Diese Einstellungen wirken sich auf alle Arbeitselementgenehmigungsprozesse in Ihrem System aus.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,74 +31,74 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td>Plan</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Sie müssen entweder Systemadministrator sein oder über eine Planungslizenz mit Administratorzugriff auf Genehmigungsprozesse verfügen.</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Sie müssen entweder Systemadministrator sein oder über eine Planlizenz mit administrativem Zugriff auf Genehmigungsprozesse verfügen</p> <p><b>HINWEIS</b>: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
-## Globale Genehmigungseinstellungen konfigurieren
+## Konfigurieren der globalen Validierungseinstellungen
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Prozesse** > **Genehmigungen**.
+1. Klicken Sie **Prozesse** > **Genehmigungen**.
 
-1. Klicken Sie auf das Symbol **Einstellungen** ![](assets/gear-icon-settings.png) neben dem Bereichsnamen **Genehmigungen**.
+1. Klicken Sie auf **Symbol** Einstellungen![](assets/gear-icon-settings.png) neben dem Bereichsnamen **Genehmigungen**.
 
-1. Geben Sie im angezeigten Feld **Genehmigungseinstellungen** die folgenden Informationen an:
+1. Geben **im daraufhin angezeigten** die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Fügen Sie dem geplanten Abschlussdatum &lt;Zahl&gt; Tage hinzu, um Genehmigungsprozesse zu ermöglichen.</td> 
-      <td> <p>Geben Sie die Anzahl der Minuten, Stunden, Tage, Wochen oder Monate an, um dem geplanten Abschlussdatum der Aufgabe, für die eine Genehmigung erforderlich ist, Zeit hinzuzufügen. Wählen Sie "Verstrichene"Minuten, Stunden, Tage oder Wochen aus, um Zeit hinzuzufügen, die alle im Kalender des Systemarbeitszeitplans festgelegten Wochenenden, Feiertage und Arbeitsstunden umfasst.</p> 
-      <p>Wenn beispielsweise eine Aufgabe am Freitag zugewiesen wird und eine Dauer von 3 verstrichenen Tagen hat, wird das Datum für die Aufgabenfertigstellung auf Montag gesetzt (vorausgesetzt Samstag und Sonntag sind Wochenende). Wenn die Aufgabe eine Dauer von 3 Tagen hat (nicht verstrichen), wird das Datum für den Abschluss der Aufgabe auf Mittwoch festgelegt.</p>
-      <p><b>HINWEIS</b>: Wenn Sie das Hinzufügen zusätzlicher Zeit aktivieren, um die Genehmigung für Aufgaben aufzunehmen, wirkt sich dies auf den Zeitrahmen der Aufgabe und des Projekts aus.</p></td> 
+      <td role="rowheader">Fügen Sie &lt;number&gt; Tage zum geplanten Abschlussdatum hinzu, um Genehmigungsprozesse zu berücksichtigen</td> 
+      <td> <p>Geben Sie die Anzahl der Minuten, Stunden, Tage, Wochen oder Monate an, um Zeit zum geplanten Abschlussdatum der Aufgabe hinzuzufügen, die genehmigt werden muss. Wählen Sie „Verstrichene“ Minuten, Stunden, Tage oder Wochen aus, um die Zeit hinzuzufügen, die alle Wochenenden, Feiertage und arbeitsfreien Stunden enthält, die im Systemarbeitszeitplan-Kalender angegeben wurden.</p> 
+      <p>Wenn beispielsweise eine Aufgabe am Freitag zugewiesen wurde und eine Dauer von 3 verstrichenen Tagen hat, wird das Abschlussdatum der Aufgabe auf Montag festgelegt (unter der Annahme, dass Samstag und Sonntag ein Wochenende ist). Wenn die Aufgabe eine Dauer von 3 Tagen hat (nicht abgelaufen), wird das Abschlussdatum der Aufgabe auf Mittwoch festgelegt.</p>
+      <p><b>HINWEIS</b>: Wenn Sie zusätzliche Zeit für die Genehmigung von Aufgaben hinzufügen, wirkt sich dies auf die Zeitleiste der Aufgabe und des Projekts aus.</p></td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Genehmiger muss nicht im Projektteam sein (für Genehmigungsprozesse, die eine Rolle enthalten)</td> 
-      <td> <p>Wählen Sie diese Option aus, wenn ein Genehmiger nicht im Projektteam sein muss, wenn ein Genehmigungsprozess eine Rolle enthält. Bei der Zuweisung der Genehmigungsentscheidung zu einer Auftragsrolle wird nur Benutzern, denen eine Rolle im Projekt zugeordnet ist, die Genehmigung angezeigt. Wenn Sie diese Einstellung aktivieren, erhält jeder Benutzer mit dieser Auftragsrolle die Genehmigungsanfrage, unabhängig davon, ob er sich im Projektteam befindet oder nicht. Informationen zum Bearbeiten der Projektrolle eines Benutzers finden Sie unter <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Verwalten des Projektteams</a>. </p> 
-      <p><b>TIPP</b>: Wenn Sie einer Rolle eine Genehmigung zuweisen und die Option "<b>Genehmiger nicht im Projektteam sein muss (für Genehmigungsprozesse, die eine Rolle enthalten)</b>"deaktiviert ist, es jedoch keine Rollen im Projektteam gibt, die mit der Rolle in der Genehmigung übereinstimmen, wird die Genehmigung dem Projekteigentümer neu zugewiesen. </p> </td> 
+      <td role="rowheader">Genehmigende Person muss nicht Mitglied des Projektteams sein (für Genehmigungsprozesse, die eine Rolle beinhalten)</td> 
+      <td> <p>Wählen Sie diese Option aus, wenn eine genehmigende Person nicht dem Projektteam angehören muss, wenn ein Genehmigungsprozess eine Rolle beinhaltet. Wenn Sie die Genehmigungsentscheidung einem Aufgabengebiet zuweisen, wird die Genehmigung nur Benutzern angezeigt, denen im Projekt eine Rolle zugeordnet ist. Wenn Sie diese Einstellung aktivieren, erhält jeder Benutzer mit diesem Aufgabengebiet die Genehmigungsanfrage, unabhängig davon, ob er zum Projektteam gehört oder nicht. Informationen zum Bearbeiten der Projektrolle eines Benutzers finden Sie unter <a href="../../../manage-work/projects/planning-a-project/manage-project-team.md" class="MCXref xref">Verwalten des Projektteams</a>. </p> 
+      <p><b>TIPP</b>: Wenn Sie eine Genehmigung einer Funktion zuweisen und die Option <b>Genehmigende Person muss nicht dem Projektteam angehören (für Genehmigungsprozesse, die eine Funktion beinhalten)</b> deaktiviert ist, aber es gibt keine Funktionen im Projektteam, die mit der Funktion in der Genehmigung übereinstimmen, wird die Genehmigung dem Projektbesitzer neu zugewiesen. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Genehmigungsdelegierung deaktivieren</td> 
-      <td> <p>Wählen Sie diese Option aus, um die Funktionalität zu deaktivieren, mit der Benutzer in Ihrem System Genehmigungen an einen anderen Benutzer delegieren können. Wenn diese Option aktiviert ist, wird die Option zum Delegieren von Genehmigungen aus Workfront entfernt und alle vorhandenen Genehmigungsdelegationen werden angehalten.</p> <p>Weitere Informationen zum Delegieren von Genehmigungen in Workfront finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Genehmigungsanfrage delegieren</a> .</p> </td> 
+      <td> <p>Wählen Sie diese Option aus, um die Funktion für Benutzer in Ihrem System zu deaktivieren, Genehmigungen an andere Benutzer zu delegieren. Wenn diese Option ausgewählt ist, wird die Option zum Delegieren von Genehmigungen aus Workfront entfernt und alle vorhandenen Genehmigungsdelegierungen werden gestoppt.</p> <p>Weitere Informationen zum Delegieren von Genehmigungen in Workfront finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md" class="MCXref xref">Delegieren von Genehmigungsanfragen</a> .</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Zulassen Die Bearbeitung des benutzerdefinierten Formulars, wenn das Projekt, die Aufgabe oder das Problem den Status "Genehmigung ausstehend"aufweist</td> 
-      <td> <p>Wählen Sie diese Option, damit Benutzer das benutzerdefinierte Formular von Projekten, Aufgaben und Problemen im Status Ausstehende Genehmigung bearbeiten können. Dies ist die Standardeinstellung.</p> 
+      <td role="rowheader">Zulassen, dass das benutzerdefinierte Formular bearbeitet werden kann, wenn das Projekt, die Aufgabe oder das Problem den Status „Ausstehende Genehmigung“ aufweist</td> 
+      <td> <p>Wählen Sie diese Option aus, damit Benutzer das benutzerdefinierte Formular von Projekten, Aufgaben und Problemen bearbeiten können, wenn sie sich im Status Ausstehende Genehmigung befinden. Dies ist die Standardeinstellung.</p> 
       <p>Wenn diese Option ausgewählt ist:</p> 
        <ul> 
-       <li>Alle Genehmiger (und alle anderen Benutzer, die Zugriff auf die Bearbeitung des benutzerdefinierten Formulars haben) können Änderungen am benutzerdefinierten Formular vornehmen, wenn die Genehmigung des Objekts aussteht, unabhängig vom aktuellen Genehmigungspfad oder Genehmigungsschritt.</li> 
-       <li>Änderungen am benutzerdefinierten Formular während eines Genehmigungsprozesses wirken sich nicht auf Genehmigungsentscheidungen aus, die vor der Änderung vorgenommen wurden.</li> 
-       <li> <p>Änderungen am Projekt, an der Aufgabe oder am Problem werden unabhängig von dieser Einstellung auf die gleiche Weise verfolgt. </p> <p>Wenn Sie beispielsweise benutzerdefinierte Formularfelder hinzugefügt haben, die im Aktualisierungsstream verfolgt werden sollen, werden alle Änderungen am Formular im Aktualisierungsstream des Objekts verfolgt.</p> </li> 
+       <li>Alle genehmigenden Personen (und alle anderen Benutzenden, die Zugriff zum Bearbeiten des benutzerdefinierten Formulars haben) können Änderungen am benutzerdefinierten Formular vornehmen, wenn die Genehmigung für das Objekt aussteht, unabhängig vom aktuellen Genehmigungspfad oder Genehmigungsschritt.</li> 
+       <li>Änderungen, die während eines Genehmigungsprozesses am benutzerdefinierten Formular vorgenommen werden, wirken sich nicht auf Genehmigungsentscheidungen aus, die vor der Änderung getroffen wurden.</li> 
+       <li> <p>Alle Änderungen am Projekt, an der Aufgabe oder am Problem werden unabhängig von dieser Einstellung auf die gleiche Weise verfolgt. </p> <p>Wenn Sie beispielsweise benutzerdefinierte Formularfelder hinzugefügt haben, die im Aktualisierungsverlauf verfolgt werden sollen, werden alle Änderungen am Formular im Aktualisierungsverlauf des Objekts verfolgt.</p> </li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Benutzern ermöglichen, neu erstellte Anforderungen mit ausstehender Genehmigung zurückzurufen</td> 
-      <td> <p>Wählen Sie diese Option, um zu konfigurieren, ob Benutzer sich an ein Problem erinnern können oder eine Anfrage bis zur Genehmigung für ihren ersten Status ausstehen. Sie können den ersten Status eines Problems oder einer Anfrage mit einem Genehmigungsprozess verknüpfen, indem Sie Anforderungswarteschlangen konfigurieren. </p> 
-      <p>Weitere Informationen zu Anforderungswarteschlangen finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anforderungswarteschlange</a>.</p> 
+      <td> <p>Wählen Sie diese Option aus, um zu konfigurieren, ob Benutzer ein Problem zurückrufen oder eine Anfrage mit ausstehender Genehmigung für ihren ersten Status stellen können. Sie können den ersten Status eines Problems oder einer Anfrage mit einem Genehmigungsprozess verknüpfen, indem Sie Anforderungswarteschlangen konfigurieren. </p> 
+      <p>Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anfrage-Warteschlange</a>.</p> 
       <p>Führen Sie einen der folgenden Schritte aus:</p> 
        <ul> 
-       <li>Aktivieren Sie diese Option, damit Benutzer eine Genehmigung für den ersten Status eines Problems oder einer Anfrage zurückrufen können. In diesem Fall wird ihnen die Schaltfläche Recall&lt; zu einem neuen Problem oder einer Anfrage angezeigt, die noch nicht genehmigt wurde. Wenn sie sich dafür entscheiden, das Problem erneut aufzudecken, erhalten sie eine Warnung, dass das Problem ebenfalls gelöscht wird. Das Problem wird gelöscht, nachdem der Benutzer seine Erinnerung bestätigt hat. </li> 
-       <li> <p>Deaktivieren Sie diese Option, um zu verhindern, dass Benutzer ein Problem oder eine Anfrage erneut aufrufen, deren erster Status auf die Genehmigung wartet. Sie können die Schaltfläche Recall&lt; für das neue Problem oder die neue Anfrage nicht sehen. Die Genehmigung muss erteilt werden. Dies ist die Standardoption.</p> 
-       <p>Weitere Informationen zum Überprüfen von Elementen, die auf die Genehmigung warten, finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Genehmigungen anzeigen </a>.</p> </li> 
+       <li>Wählen Sie diese Option aus, damit Benutzer eine Genehmigung für den ersten Status eines Problems oder einer Anfrage zurückrufen können. In diesem Fall wird eine Rückruf&lt;-Schaltfläche für ein neues Problem oder eine Anfrage mit dem Status „Genehmigung steht aus“ angezeigt. Wenn er/sie sich dafür entscheidet, das Problem zurückzurufen, erhält er/sie eine Warnung, dass das Problem ebenfalls gelöscht wird. Das Problem wird gelöscht, nachdem der Abruf bestätigt wurde. </li> 
+       <li> <p>Deaktivieren Sie diese Option, um zu verhindern, dass Benutzer ein Problem oder eine Anfrage mit dem ersten Status „Genehmigung ausstehend“ zurückrufen. Für das neue Problem oder die neue Anfrage wird keine Rückruf&lt;-Schaltfläche angezeigt und die Genehmigung muss erteilt werden. Dies ist die Standardoption.</p> 
+       <p>Weitere Informationen zur Überprüfung von Elementen, die auf eine Genehmigung warten, finden Sie unter <a href="../../../review-and-approve-work/manage-approvals/view-approvals.md" class="MCXref xref">Genehmigungen anzeigen </a>.</p> </li> 
        </ul> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Änderungen speichern.**
+1. Klicken Sie **Änderungen speichern.**

@@ -1,10 +1,10 @@
 ---
 user-type: administrator
 product-area: system-administration
-keywords: kickstart,kick-start,kickstarts,kick-starts
+keywords: Kickstart,Kickstart,Kickstarts,Kickstarts
 navigation-topic: use-kick-starts
-title: Kick-Starts Data Importer
-description: Mit Kick-Starts können Adobe Workfront-Administratoren Daten aus externen Datenquellen in Workfront importieren und vorhandene Daten in Workfront exportieren, um sie in anderen Systemen zu verwenden.
+title: Kickstarts für das Datenimportprogramm
+description: Kickstarts ermöglichen es Adobe Workfront-Administratoren, Daten aus externen Datenquellen in Workfront zu importieren und vorhandene Daten in Workfront zu exportieren, um sie in anderen Systemen zu verwenden.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,14 +16,14 @@ ht-degree: 0%
 
 ---
 
-# Kick-Starts-Daten-Importer
+# Kickstarts für das Datenimportprogramm
 
-Mit Kick-Starts können Adobe Workfront-Administratoren Daten aus externen Datenquellen in Workfront importieren und vorhandene Daten in Workfront exportieren, um sie in anderen Systemen zu verwenden.
+Kickstarts ermöglichen es Adobe Workfront-Administratoren, Daten aus externen Datenquellen in Workfront zu importieren und vorhandene Daten in Workfront zu exportieren, um sie in anderen Systemen zu verwenden.
 
-Kick-Starts sind hochformatige Excel-Tabellen, die mit vorhandenen Daten aus Workfront (im Falle eines Exports) oder mit Daten gefüllt sind, die in Workfront importiert werden sollen (im Falle eines Datenimports).
+Kickstarts sind hochformatierte Excel-Tabellen, die mit vorhandenen Daten aus Workfront (im Falle eines Exports) oder mit Daten gefüllt werden, die in Workfront importiert werden sollen (im Falle eines Datenimports).
 
-Das Kick-Start-Importtool ist für die Erstellung neuer Datensätze konzipiert und eignet sich nicht für die Aktualisierung vorhandener Datensätze.
+Das Kickstart-Importtool ist für die Erstellung neuer Datensätze konzipiert; es ist nicht für die Aktualisierung vorhandener Datensätze konzipiert.
 
-Informationen zum Importieren von Daten in Workfront mithilfe von Kick-Starts finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kick-Start-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+Informationen zum Importieren von Daten in Workfront mithilfe von Kickstarts finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-Informationen zum Exportieren von Daten aus Workfront mithilfe von Kick-Starts finden Sie unter [Exportieren von Daten aus Adobe Workfront über Kick-Starts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+Informationen zum Exportieren von Daten aus Workfront mithilfe von Kickstarts finden Sie unter [Exportieren von Daten aus Adobe Workfront über Kickstarts](../../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).

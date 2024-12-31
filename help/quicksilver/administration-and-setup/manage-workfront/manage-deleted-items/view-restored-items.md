@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
 title: Wiederhergestellte Elemente anzeigen
-description: Als Adobe Workfront-Administrator oder Benutzer mit einer Planungslizenz können Sie anzeigen, welche Projekte, Aufgaben, Probleme und Dokumente in den letzten sieben Tagen wiederhergestellt wurden.
+description: Als Adobe Workfront-Administrator oder Anwender mit einer Planlizenz können Sie anzeigen, welche Projekte, Aufgaben, Probleme und Dokumente in den letzten sieben Tagen wiederhergestellt wurden.
 feature: System Setup and Administration
 role: Admin
 author: Lisa
@@ -21,13 +21,13 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **</p>
 -->
 
-Als Adobe Workfront-Administrator oder Benutzer mit einer Planungslizenz können Sie anzeigen, welche Projekte, Aufgaben, Probleme und Dokumente in den letzten sieben Tagen wiederhergestellt wurden.
+Als Adobe Workfront-Administrator oder Anwender mit einer Planlizenz können Sie anzeigen, welche Projekte, Aufgaben, Probleme und Dokumente in den letzten sieben Tagen wiederhergestellt wurden.
 
-Informationen zum Wiederherstellen eines Projekts, einer Aufgabe, eines Problems oder eines Dokuments nach dem Löschen finden Sie unter [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Informationen zum Wiederherstellen eines Projekts, einer Aufgabe, eines Problems oder eines Dokuments nach dem Löschen finden Sie unter [Wiederherstellen gelöschter Elemente](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -36,8 +36,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -48,25 +48,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen von kürzlich gelöschten Elementen
+## Elemente anzeigen, die kürzlich gelöscht wurden
 
 {{step-1-to-setup}}
 
-1. Erweitern Sie **Papierkorb wiederverwenden** und klicken Sie dann auf **Kürzlich wiederhergestellt**.
+1. Erweitern Sie **Papierkorb** und klicken Sie dann auf **Kürzlich wiederhergestellt**.
 
    Elemente werden standardmäßig nach dem Wiederherstellungsdatum sortiert.
 
-1. Klicken Sie je nach wiederhergestelltem Elementtyp auf die Registerkarte **Projekte**, **Aufgaben**, **Probleme** oder **Dokumente**.
+1. Klicken Sie auf **Registerkarte**, **Aufgaben**, **Probleme** oder **Dokumente**, je nach dem Typ des Elements, das wiederhergestellt wurde.
 
 1. Klicken Sie auf den verknüpften Namen des Elements, das Sie anzeigen möchten.
 

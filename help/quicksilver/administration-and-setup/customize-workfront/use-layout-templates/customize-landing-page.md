@@ -1,9 +1,9 @@
 ---
-title: Landingpage mithilfe einer Layoutvorlage anpassen
+title: Anpassen der Landingpage mithilfe einer Layout-Vorlage
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Als Workfront-Administrator können Sie eine Layoutvorlage verwenden, um den Bereich anzugeben, der Benutzern bei jeder Anmeldung bei Workfront angezeigt werden soll.
+description: Als Workfront-Administrator können Sie mithilfe einer Layout-Vorlage festlegen, welchen Bereich Benutzerinnen und Benutzern bei jeder Anmeldung bei Workfront angezeigt werden soll.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -15,28 +15,28 @@ ht-degree: 5%
 
 ---
 
-# Landingpage mithilfe einer Layoutvorlage anpassen
+# Anpassen der Landingpage mithilfe einer Layout-Vorlage
 
-Als Adobe Workfront-Administrator können Sie eine Layoutvorlage verwenden, um den Bereich anzugeben, der Benutzern bei jeder Anmeldung bei Workfront angezeigt werden soll.
+Als Adobe Workfront-Administrator können Sie mithilfe einer Layout-Vorlage festlegen, welchen Bereich Benutzerinnen und Benutzer bei jeder Anmeldung bei Workfront sehen sollen.
 
 Benutzer können eine der folgenden Aktionen öffnen:
 
-* Workfront-Gebiet
+* Ein ausgewiesenes Workfront-Gebiet
 * Ein benutzerdefiniertes Dashboard.
 
-Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
+Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../use-layout-templates/assign-users-to-layout-template.md).
+Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
 >[!NOTE]
 >
->Wenn Anforderungen als Landingpage festgelegt ist, sehen Mitarbeiter- oder Anforderer-Benutzer, die der Layoutvorlage zugewiesen sind, stattdessen die Startseite als Landingpage. Es wird empfohlen, eine andere Landingpage als &quot;Anforderungen für Layoutvorlagen für Mitarbeiter- oder Anforderer-Benutzer&quot;auszuwählen.
+>Wenn Anfragen als Landingpage festgelegt ist, sehen Mitwirkende oder Antragstellende, die der Layout-Vorlage zugewiesen sind, stattdessen die Startseite als Landingpage. Es wird empfohlen, eine andere Landingpage als Anfragen für Layout-Vorlagen für Mitwirkende oder Antragsteller zu wählen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,8 +45,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -55,21 +55,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.
+Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Landingpage anpassen
+## Anpassen der Landingpage
 
-1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie im Bereich **Obere Navigation** auf **Landingpage auswählen** und wählen Sie dann den Bereich aus, den Benutzer sehen sollen, wenn sie sich anmelden.
+1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
+1. Klicken Sie im **oberen Navigationsbereich** auf **Landingpage auswählen** und wählen Sie dann den Bereich aus, der Benutzern bei der Anmeldung angezeigt werden soll.
 
    Wählen Sie aus den folgenden Bereichen aus oder fügen Sie ein benutzerdefiniertes Dashboard hinzu:
 
@@ -96,20 +96,20 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    >[!IMPORTANT]
    >
-   >Für die Anzeige der Bereiche Szenarien, Ziele und Planung sind zusätzliche Lizenzen erforderlich.
+   >Für die Anzeige der Szenarien, Ziele und Planungsbereiche sind zusätzliche Lizenzen erforderlich.
    >
-   >* Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >* Informationen zu Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md).
    >
-   >* Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+   >* Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
    >
-   >* Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
+   >* Weitere Informationen zu Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
 
-1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
+1. Passen Sie die Layout-Vorlage weiter an.
 
    Oder
 
-   Wenn Sie mit dem Anpassen fertig sind, klicken Sie auf **Speichern**.
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
 
    >[!TIP]
    >
-   >Sie können jederzeit auf Speichern klicken, um den Fortschritt zu speichern, und die Vorlage später weiter ändern.
+   >Sie können jederzeit auf Speichern klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.

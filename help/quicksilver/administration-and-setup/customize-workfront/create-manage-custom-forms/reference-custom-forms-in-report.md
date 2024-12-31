@@ -1,9 +1,9 @@
 ---
-title: Verweisen auf benutzerdefinierte Forms in einem Bericht
+title: Referenzieren von benutzerdefinierten Forms in einem Bericht
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Informationen zum Referenzieren von benutzerdefinierten Formularen in einem Bericht finden Sie im Artikel "Referenzieren eines benutzerdefinierten Formulars in einem Bericht".
+description: Informationen zum Referenzieren benutzerdefinierter Formulare in einem Bericht finden Sie im Artikel „Referenzieren eines benutzerdefinierten Formulars in einem Bericht“.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin

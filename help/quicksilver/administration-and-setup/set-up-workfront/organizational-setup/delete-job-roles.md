@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: organization-setup
 title: Aufgabengebiete löschen
-description: Sie können Auftragsrollen löschen, die Ihr Unternehmen nicht mehr verwendet. Es wird empfohlen, keine Auftrags-Rollen zu löschen, wenn sie bereits in der Vergangenheit mit Arbeitselementen verknüpft wurden. Um all Ihre historischen Informationen zu Arbeitsaufträgen zu erhalten, empfehlen wir, Rollen zu deaktivieren, anstatt sie zu löschen, wenn sie veraltet sind. Informationen zum Deaktivieren von Rollen finden Sie unter Deaktivieren von Vorgangsrollen .
+description: Sie können Aufgabengebiete löschen, die Ihr Unternehmen nicht mehr verwendet. Es wird empfohlen, Aufgabengebiete nicht zu löschen, wenn sie in der Vergangenheit mit Arbeitselementen verknüpft waren. Um alle historischen Informationen über Arbeitsaufträge zu speichern, empfehlen wir, Rollen zu deaktivieren und nicht zu löschen, wenn sie veraltet sind. Informationen zum Deaktivieren von Rollen finden Sie unter Deaktivieren von Aufgabengebieten.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 ---
 
-# Löschen von Vorgangsrollen
+# Aufgabengebiete löschen
 
-Sie können Auftragsrollen löschen, die Ihr Unternehmen nicht mehr verwendet. Es wird empfohlen, keine Auftrags-Rollen zu löschen, wenn sie bereits in der Vergangenheit mit Arbeitselementen verknüpft wurden.
+Sie können Aufgabengebiete löschen, die Ihr Unternehmen nicht mehr verwendet. Es wird empfohlen, Aufgabengebiete nicht zu löschen, wenn sie in der Vergangenheit mit Arbeitselementen verknüpft waren.
 
-Um all Ihre historischen Informationen zu Arbeitsaufträgen zu erhalten, empfehlen wir, Rollen zu deaktivieren, anstatt sie zu löschen, wenn sie veraltet sind. Informationen zum Deaktivieren von Rollen finden Sie unter [Deaktivieren von Vorgangsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
+Um alle historischen Informationen über Arbeitsaufträge zu speichern, empfehlen wir, Rollen zu deaktivieren und nicht zu löschen, wenn sie veraltet sind. Informationen zum Deaktivieren von Rollen finden Sie unter [Deaktivieren von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/deactivate-job-roles.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -43,17 +43,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: [!UICONTROL Plan]</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td>Administratorzugriff auf Auftragsrollen</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Administrativer Zugriff auf Aufgabengebiete</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Löschen von Auftragsrollen
+## Aufgabengebiet löschen
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this moved from create and manage job roles)</p>
@@ -61,22 +61,22 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Vorgangsrollen].**
-1. Wählen Sie die Auftragsrolle aus, die Sie löschen möchten, und klicken Sie dann auf **[!UICONTROL Löschen].**
-1. Führen Sie einen der folgenden Schritte aus, wenn der Auftragsrolle Objekte (Benutzer, Aufgaben, Probleme) zugewiesen sind:
+1. Klicken Sie **[!UICONTROL Aufgabengebiete].**
+1. Wählen Sie das Aufgabengebiet aus, das Sie löschen möchten, und klicken Sie dann auf **[!UICONTROL Löschen].**
+1. Wenn Objekte (Benutzer, Aufgaben, Probleme) vorhanden sind, die dem Aufgabengebiet zugewiesen sind, führen Sie einen der folgenden Schritte aus:
 
-   * **Ersetzen Sie die Auftragsrolle durch eine andere Auftragsrolle:** Wählen Sie die neue Auftragsrolle aus der Dropdownliste aus.
+   * **Ersetzen Sie das Aufgabengebiet durch ein anderes Aufgabengebiet:** Wählen Sie das neue Aufgabengebiet aus der Dropdown-Liste aus.
 
-     Sämtliche aktuellen und vergangene Ressourcenzuweisungen, die mit der Rolle &quot;gelöschter Auftrag&quot;verknüpft sind, werden an die von Ihnen ausgewählte Auftragsrolle übertragen.
+     Alle aktuellen und vergangenen Ressourcenzuteilungen, die mit dem gelöschten Aufgabengebiet verknüpft sind, werden in das von Ihnen ausgewählte Aufgabengebiet übertragen.
 
-     Benutzer, denen nur eine Rolle zugewiesen wurde, werden der von Ihnen ausgewählten Rolle als Job zugewiesen. Benutzer, denen eine Rolle als sekundärer Job zugewiesen wurde, werden nicht der von Ihnen ausgewählten Rolle als Job zugewiesen.
+     Benutzende, denen nur ein Aufgabengebiet zugewiesen wurde, werden dem von Ihnen ausgewählten Aufgabengebiet neu zugewiesen. Benutzende, denen ein sekundäres Aufgabengebiet zugewiesen wurde, werden nicht dem von Ihnen ausgewählten Aufgabengebiet neu zugewiesen.
 
-   * **Löschen Sie die Auftrags- und Ressourcenzuordnung:** Wählen Sie **[!UICONTROL Keine]** aus der Dropdownliste aus.
+   * **Aufgabengebiet und Ressourcenzuordnung löschen:** Wählen Sie **[!UICONTROL Keine]** aus der Dropdown-Liste aus.
 
      >[!IMPORTANT]
      >
-     >Durch Löschen einer Auftragsrolle werden alle aktuellen und vergangene Ressourcenzuweisungen, die sich auf diese Stellenrolle beziehen, für alle Projekte gelöscht.
+     >Durch das Löschen eines Aufgabengebiets wird die gesamte aktuelle und frühere Ressourcenzuordnung im Zusammenhang mit diesem Aufgabengebiet für alle Projekte gelöscht.
 
-     &#x200B; z. B. wenn eine Aufgabe oder ein Problem nur dieser Aufgabenrolle zugewiesen ist, wird die Zuweisung der Aufgabe oder des Problems aufgehoben, nachdem die Auftragsrolle gelöscht wurde.
+     &#x200B;Wenn beispielsweise eine Aufgabe oder ein Problem nur diesem Aufgabengebiet zugewiesen ist, wird die Zuweisung der Aufgabe oder des Problems aufgehoben, nachdem das Aufgabengebiet gelöscht wurde.
 
-1. Klicken Sie auf **[!UICONTROL Ja, löschen Sie es]**.
+1. Klicken Sie **[!UICONTROL Ja, löschen]**.

@@ -3,7 +3,7 @@ title: Audit-Protokolle anzeigen und exportieren
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-users
-description: Sie können alle Prüfprotokolle im System oder solche anzeigen, die bestimmte Filterkriterien erfüllen. Sie können auch Prüfprotokolle exportieren. In den Auditprotokollen werden Benutzeränderungen aufgelistet, die in den letzten 90 Tagen im System ausgelöst wurden.
+description: Sie können alle Audit-Protokolle im System oder diejenigen anzeigen, die bestimmte Filterkriterien erfüllen. Sie können auch Auditprotokolle exportieren. Audit-Protokolle enthalten Benutzeränderungen, die in den letzten 90 Tagen im System ausgelöst wurden.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,21 +15,21 @@ ht-degree: 0%
 
 ---
 
-# Audit-Protokolle anzeigen und exportieren
+# Auditprotokolle anzeigen und exportieren
 
 <!--
 **DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS. **
 -->
 
-Sie können alle Prüfprotokolle im System oder solche anzeigen, die bestimmte Filterkriterien erfüllen. Sie können auch Prüfprotokolle exportieren.
+Sie können alle Audit-Protokolle im System oder diejenigen anzeigen, die bestimmte Filterkriterien erfüllen. Sie können auch Auditprotokolle exportieren.
 
-In den Auditprotokollen werden Benutzeränderungen aufgelistet, die in den letzten 90 Tagen im System ausgelöst wurden.
+Audit-Protokolle enthalten Benutzeränderungen, die in den letzten 90 Tagen im System ausgelöst wurden.
 
-Informationen zu allen Auditprotokolltypen und deren Erstellung finden Sie unter [Auditprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+Informationen zu allen Prüfprotokolltypen und deren Generierung finden Sie unter [Prüfprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -38,8 +38,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -50,13 +50,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -64,12 +64,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **System > Audit Logs**.
-1. Wählen Sie im Dropdown-Menü **Protokolltyp** den Typ des Auditprotokolls aus, das Sie anzeigen möchten.
+1. Klicken Sie im linken Bedienfeld auf **System > Auditprotokolle**.
+1. Wählen **im Dropdown-Menü** Protokolltyp“ den Typ des Administratorprotokolls aus, den Sie anzeigen möchten.
 
-   **Alle Protokolltypen** sind standardmäßig ausgewählt.
+   **Alle Protokolltypen** ist standardmäßig ausgewählt.
 
-   Eine Liste aller Prüfprotokolltypen, die Sie anzeigen können, sowie der darin enthaltenen Informationen finden Sie unter [Prüfprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
+   Eine Liste aller Prüfprotokolltypen, die angezeigt werden können, und der darin enthaltenen Informationen finden Sie unter [Prüfprotokolle](../../../administration-and-setup/add-users/create-and-manage-users/audit-logs.md).
 
 1. (Optional) Legen Sie einen der verfügbaren Filter fest.
 
@@ -79,18 +79,18 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    ![](assets/audit-logs.jpg)
 
-1. Klicken Sie auf **Anwenden**.
-1. (Optional) Klicken Sie auf **Filter löschen** , um die an den Filtern vorgenommenen Änderungen zurückzusetzen.
+1. Klicken Sie **Apply**.
+1. (Optional) Klicken Sie auf **Filter löschen**, um die an den Filtern vorgenommenen Änderungen zurückzusetzen.
 
-## Audit-Logs exportieren
+## Auditprotokolle exportieren
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **System > Audit Logs**.
+1. Klicken Sie im linken Bedienfeld auf **System > Auditprotokolle**.
 
-1. Wählen Sie im Dropdown-Menü **Protokolltyp** ein Auditprotokoll aus.
+1. Wählen Sie **Dropdown-Menü** Protokolltyp) ein Administratorprotokoll aus.
 
-   **Alle Protokolltypen** sind standardmäßig ausgewählt.
+   **Alle Protokolltypen** ist standardmäßig ausgewählt.
 
 1. Legen Sie einen der verfügbaren Filter fest und klicken Sie dann auf **Anwenden**.
 
@@ -98,4 +98,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Sie können nicht mehr als 50.000 Protokolle gleichzeitig exportieren. Workfront exportiert Protokolle basierend auf den von Ihnen festgelegten Filtern und nicht auf der Anzahl der auf der Seite angezeigten Protokolle. Sie können die Gesamtzahl der gefilterten Protokolle in der rechten unteren Ecke der Seite anzeigen.
 
-1. Klicken Sie auf **Exportieren**.
+1. Klicken Sie **Exportieren**.

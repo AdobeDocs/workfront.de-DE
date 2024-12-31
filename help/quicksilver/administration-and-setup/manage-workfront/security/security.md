@@ -21,13 +21,13 @@ ht-degree: 2%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Systemsicherheitsvoreinstellungen konfigurieren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
-* [Kennwortrichtlinien für die Authentifizierung konfigurieren](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
-* [Entfernung verschiedener Single Sign-on-Optionen](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
-* [Adobe Workfront SAML 2.0-Metadatenzertifikat erneuern](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
-* [Vermeiden doppelter Benutzer](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
-* [Beschränken des Zugriffs auf Adobe Workfront nach IP-Adresse](../../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
+* [Systemsicherheitseinstellungen konfigurieren](../../../administration-and-setup/manage-workfront/security/configure-security-preferences.md)
+* [Konfigurieren von Passwortrichtlinien für die Authentifizierung](../../../administration-and-setup/manage-workfront/security/configure-password-policies-authentication.md)
+* [Entfernen verschiedener Single-Sign-On-Optionen](../../../administration-and-setup/manage-workfront/security/removal-various-sso-options.md)
+* [Verlängern Sie das Adobe Workfront SAML 2.0-Metadatenzertifikat](../../../administration-and-setup/manage-workfront/security/renew-wf-saml-2-certificate.md)
+* [Verhindern Sie doppelte Benutzer](../../../administration-and-setup/manage-workfront/security/prevent-duplicate-users.md)
+* [Zugriff auf Adobe Workfront nach IP-Adresse beschränken](../../../administration-and-setup/manage-workfront/security/restrict-access-workfront-ip-address.md)
 * [Dateiverschlüsselung](../../../administration-and-setup/manage-workfront/security/file-encryption.md)
-* [Ändern der Adobe Workfront-Domäne](../../../administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
+* [Ändern der Adobe Workfront-Domain](../../../administration-and-setup/manage-workfront/security/change-your-workfront-domain.md)
 * [API-Schlüssel verwalten](../../../administration-and-setup/manage-workfront/security/manage-api-keys.md)
 * [Adobe Workfront-Datenschutzrichtlinie](../../../administration-and-setup/manage-workfront/security/workfront-privacy-policy.md)

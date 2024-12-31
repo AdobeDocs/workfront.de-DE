@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: access-levels
 title: Zugriff auf Objekte und Bereiche durch neue Lizenzen
-description: Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder Anzeigen), die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
+description: In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeigen) angegeben, die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -12,7 +12,7 @@ exl-id: 87fb5673-6e36-4182-958a-d69a56fe7b68
 source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
 workflow-type: tm+mt
 source-wordcount: '391'
-ht-degree: 18%
+ht-degree: 24%
 
 ---
 
@@ -20,14 +20,14 @@ ht-degree: 18%
 
 <!-- Audited: 2/2024 -->
 
-Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder Anzeigen), die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
+In der folgenden Tabelle wird die höchste Zugriffsebene (Bearbeiten oder Anzeigen) angegeben, die jede Adobe Workfront-Lizenz für die Objekte und Bereiche in Workfront zulässt.
 
-* **Ansicht**: Der Benutzer kann Elemente überprüfen und freigeben.
+* **Anzeigen**: Der Benutzer kann Elemente überprüfen und freigeben.
 * **Bearbeiten**: Der Benutzer kann Elemente erstellen, bearbeiten, löschen und freigeben.
 
   >[!NOTE]
   >
-  >Wenn ein anderer Benutzer ein Objekt teilt, kann der Freigebende Berechtigungen festlegen, die dessen Bearbeitung einschränken. Weitere Informationen finden Sie unter [Überblick über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+  >Wenn ein anderer Benutzer ein Objekt freigibt, kann der freigebende Benutzer Berechtigungen festlegen, die seine Möglichkeit zur Bearbeitung einschränken. Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 <table style="table-layout:auto">
     <tr>
@@ -77,7 +77,7 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
         <td>Bearbeiten</td>
         <td>Anzeigen</td>
         <td>Anzeigen*</td>
-        <td>Ansicht (nur für Kalender, keine Freigabeberechtigungen)</td>
+        <td>Anzeigen (nur für Kalender, keine Freigabeberechtigungen)</td>
     </tr>
     <tr>
         <td>Filter, Ansichten und Gruppierungen</td>
@@ -91,7 +91,7 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
         <td>Bearbeiten</td>
         <td>Bearbeiten</td>
         <td>Bearbeiten</td>
-        <td>Anzeigen (keine Freigabeberechtigungen)</td>
+        <td>Ansicht (keine Freigabeberechtigungen)</td>
     </tr>
     <tr>
         <td>Benutzende</td>
@@ -144,28 +144,28 @@ Die nachstehende Tabelle zeigt Ihnen die höchste Zugriffsstufe (Bearbeiten oder
     </tr>
 </table>
 
-&#42; Benutzer mit einer Mitarbeiter-Lizenz können nur Berichte, Dashboards und Kalender anzeigen, die für sie freigegeben sind.
+&#42; Benutzer mit der Lizenz Mitwirkende können nur Berichte, Dashboards und Kalender anzeigen, die für sie freigegeben sind.
 
 >[!NOTE]
 >
->Benutzer mit einer Light-Lizenz oder einer Contributor-Lizenz verfügen über eingeschränkte Freigabemöglichkeiten. Weitere Informationen finden Sie unter [Überblick über Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+>Benutzende mit einer Light-Lizenz oder einer Contributor-Lizenz verfügen über eingeschränkte Freigabefunktionen. Weitere Informationen finden Sie unter [Lizenzen - Übersicht](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 >
->Externe Benutzer können in Workfront nicht nach Elementen suchen. Sie können Dokumente und Kalender anzeigen, die speziell für sie freigegeben wurden. Sie können auch die Benutzer sehen, die Elemente für sie freigeben.
+>Externe Benutzende können in Workfront nicht nach Elementen suchen. Sie können Dokumente und Kalender anzeigen, die speziell für sie freigegeben wurden. Sie können auch die Benutzenden sehen, die Elemente für sie freigeben.
 
-Detaillierte Informationen dazu, was die Zugriffsebenen für jedes Objekt und jeden Bereich zulassen, finden Sie in den folgenden Artikeln:
+Detaillierte Informationen zu den Zugriffsebenen für die einzelnen Objekte und Bereiche finden Sie in den folgenden Artikeln:
 
-* [Gewähren des Zugriffs auf Projekte](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+* [Zugriff auf Projekte gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
 * [Zugriff auf Aufgaben gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md)
-* [Gewähren des Zugriffs auf Probleme](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
+* [Zugriff auf Anfragen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md)
 * [Zugriff auf Dokumente gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md)
-* [Gewähren des Zugriffs auf Portfolios](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
-* [Gewähren des Zugriffs auf Programme](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
-* [Zugriff auf Berichte, Dashboards und Kalender gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
+* [Zugriff auf Portfolios gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md)
+* [Zugriff auf Programme gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md)
+* [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md)
 * [Gewähren des Zugriffs auf Filter, Ansichten und Gruppierungen](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-fvg.md)
-* [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
-* [Gewähren von Zugriff auf Teams](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
+* [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+* [Zugriff auf Teams gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-teams.md)
 * [Zugriff auf Vorlagen gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-templates.md)
 * [Zugriff auf Finanzdaten gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md)
-* [Gewähren des Zugriffs auf die Ressourcenverwaltung](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
-* [Gewähren des Zugriffs auf den Szenario-Planer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
+* [Zugriff auf Ressourcenverwaltung gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md)
+* [Zugriff auf den Szenario-Planer gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-sp.md)
 * [Zugriff auf Adobe Workfront-Ziele gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-goals.md)

@@ -4,7 +4,7 @@ content-type: reference
 product-area: system-administration
 navigation-topic: security
 title: Adobe Workfront-Datenschutzrichtlinie
-description: Adobe Workfront Inc. ("Workfront") nimmt den Schutz der Privatsphäre unserer Kunden ernst. Diese Datenschutzrichtlinie (die "Datenschutzrichtlinie") informiert Sie über unsere Richtlinien bezüglich der Erhebung, Verwendung und Offenlegung aller personenbezogenen Daten ("personenbezogene Daten") und anderer Daten, die uns durch die Nutzung jeder unserer Websites und Apps zur Verfügung gestellt werden, auf denen ein Link zu dieser Datenschutzrichtlinie angezeigt wird, sowie über alle Produkte und Services, die über diese Websites zur Verfügung gestellt werden, einschließlich, ohne Einschränkung unserer SaaS-Angebote (kollektiv, der "Dienst").
+description: Adobe Workfront Inc. (“Workfront„) nimmt den Schutz der Privatsphäre unserer Kunden sehr ernst. Diese Datenschutzrichtlinie (die „Datenschutzrichtlinie„) informiert Sie über unsere Richtlinien bezüglich der Erfassung, Verwendung und Offenlegung aller persönlich identifizierbaren Informationen („personenbezogene Daten„) und anderer Daten, die uns durch die Nutzung jeder unserer Websites und mobilen Anwendungen, auf denen ein Link zu dieser Datenschutzrichtlinie angezeigt wird, bereitgestellt werden, sowie aller Produkte und Dienstleistungen, die über diese Websites zur Verfügung gestellt werden, einschließlich, aber nicht beschränkt auf unsere SaaS-Angebote (zusammen der „Service„).
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -18,6 +18,6 @@ ht-degree: 0%
 
 # Adobe Workfront-Datenschutzrichtlinie
 
-Adobe Workfront Inc. (&quot;Workfront&quot;) nimmt den Schutz der Privatsphäre unserer Kunden ernst. Diese Datenschutzrichtlinie (die &quot;Datenschutzrichtlinie&quot;) informiert Sie über unsere Richtlinien bezüglich der Erhebung, Verwendung und Offenlegung aller personenbezogenen Daten (&quot;personenbezogene Daten&quot;) und anderer Daten, die uns durch die Nutzung jeder unserer Websites und Apps zur Verfügung gestellt werden, auf denen ein Link zu dieser Datenschutzrichtlinie angezeigt wird, sowie über alle Produkte und Services, die über diese Websites zur Verfügung gestellt werden, einschließlich, ohne Einschränkung unserer SaaS-Angebote (kollektiv, der &quot;Dienst&quot;).
+Adobe Workfront Inc. (“Workfront„) nimmt den Schutz der Privatsphäre unserer Kunden sehr ernst. Diese Datenschutzrichtlinie (die „Datenschutzrichtlinie„) informiert Sie über unsere Richtlinien bezüglich der Erfassung, Verwendung und Offenlegung aller persönlich identifizierbaren Informationen („personenbezogene Daten„) und anderer Daten, die uns durch die Nutzung jeder unserer Websites und mobilen Anwendungen, auf denen ein Link zu dieser Datenschutzrichtlinie angezeigt wird, bereitgestellt werden, sowie aller Produkte und Dienstleistungen, die über diese Websites zur Verfügung gestellt werden, einschließlich, aber nicht beschränkt auf unsere SaaS-Angebote (zusammen der „Service„).
 
-Informationen zur Datenschutzrichtlinie von Workfront finden Sie auf unserer Webseite für Datenschutzbestimmungen, [hier](https://www.workfront.com/privacy-notice).
+Weitere Informationen zur Datenschutzrichtlinie von Workfront finden Sie auf unserer Website zu Datenschutzrichtlinien [hier](https://www.workfront.com/privacy-notice).

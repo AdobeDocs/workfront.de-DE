@@ -3,7 +3,7 @@ user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: create-and-manage-groups
 title: Verschieben einer Gruppe
-description: Sie können eine Gruppe unter eine andere Gruppe verschieben, die Sie verwalten.
+description: Sie können eine Gruppe in eine andere Gruppe verschieben, die Sie verwalten.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,13 +15,13 @@ ht-degree: 1%
 
 ---
 
-# Gruppe verschieben
+# Verschieben einer Gruppe
 
-Sie können eine Gruppe unter eine andere Gruppe verschieben, die Sie verwalten.
+Sie können eine Gruppe in eine andere Gruppe verschieben, die Sie verwalten.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,8 +30,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -42,34 +42,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Verschieben einer Gruppe unter einer anderen Gruppe
+## Eine Gruppe in eine andere Gruppe verschieben
 
 >[!NOTE]
 >
->Wenn die Status der verschobenen Gruppe gesperrt sind, übernimmt sie den Status ihrer neuen übergeordneten Gruppe.
+>Wenn die Status der verschobenen Gruppe gesperrt sind, übernimmt sie die Status der neuen übergeordneten Gruppe.
 >
->Wenn die Status der verschobenen Gruppe entsperrt sind, übernimmt sie weder den Status der neuen übergeordneten Gruppe noch übernimmt die neue übergeordnete Gruppe den Status.
+>Wenn die Status der verschobenen Gruppe entsperrt sind, übernimmt die neue übergeordnete Gruppe weder die Status der neuen übergeordneten Gruppe, noch übernimmt die neue übergeordnete Gruppe deren Status.
 >
->Weitere Informationen zu Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) und [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
+>Weitere Informationen zum Gruppenstatus finden Sie unter [Erstellen oder Bearbeiten eines ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) und [Erstellen oder Bearbeiten eines Gruppenstatus](../../../administration-and-setup/manage-groups/manage-group-statuses/create-or-edit-a-group-status.md).
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
 
-1. Wählen Sie die Zielgruppe aus, in die Sie die Gruppe verschieben möchten, und klicken Sie dann auf das Bearbeitungssymbol ![](assets/edit-icon.png).
-1. Geben Sie im angezeigten Feld **Gruppe bearbeiten** unter **Gruppenmitglieder und Gruppenadministratoren** den Namen der Gruppe ein, die Sie verschieben möchten, und klicken Sie dann auf die Gruppe, wenn sie angezeigt wird.
+1. Wählen Sie die Zielgruppe aus, in die Sie die Gruppe verschieben möchten, und klicken Sie dann auf das Symbol Bearbeiten ![](assets/edit-icon.png).
+1. Geben Sie im angezeigten **Gruppe bearbeiten** unter **Gruppenmitglieder und Gruppenadministratoren** den Namen der Gruppe ein, die Sie verschieben möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird.
 1. Klicken Sie auf **Speichern**.
 
 >[!TIP]
 >
->Sie können eine Untergruppe auch zu einer Gruppe der obersten Ebene machen. Anweisungen finden Sie im Abschnitt &quot;[Entfernen einer Untergruppe aus ihrer übergeordneten Gruppe&quot;und machen Sie sie zu einer Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make)&quot;im Artikel &quot;[Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md)&quot;.
+>Sie können eine Untergruppe auch zu einer Gruppe der obersten Ebene machen. Anweisungen finden Sie im Abschnitt [Entfernen einer Untergruppe aus der übergeordneten Gruppe und Festlegen als Gruppe der obersten Ebene](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md#make) im Artikel [Verwalten einer Untergruppe](../../../administration-and-setup/manage-groups/create-and-manage-subgroups/manage-subgroups.md).

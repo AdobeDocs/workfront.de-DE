@@ -1,9 +1,9 @@
 ---
-title: Konfigurieren von Projekteinstellungen für eine Gruppe
+title: Konfigurieren von Projektvoreinstellungen für eine Gruppe
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-description: Wenn Sie Gruppenadministrator und Adobe Workfront-Administrator sind und eine Projektvoreinstellung für alle Gruppen im System freischalten, können Sie diese Voreinstellung so konfigurieren, dass sich diese Voreinstellung auf alle nachfolgenden von Ihrer Gruppe erstellten Projekte auswirkt.
+description: Wenn Sie Gruppenadministrator sind und ein Adobe Workfront-Administrator eine Projektvoreinstellung für alle Gruppen im System freischaltet, können Sie diese Voreinstellung für Ihre Gruppe so konfigurieren, dass sie sich auf alle nachfolgenden Projekte auswirkt, die Ihre Gruppe erstellt.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -15,33 +15,33 @@ ht-degree: 1%
 
 ---
 
-# Konfigurieren von Projektvoreinstellungen für eine Gruppe
+# Projektvoreinstellungen für eine Gruppe konfigurieren
 
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Versionen für die Produktion sind in der Produktionsumgebung dieselben Funktionen auch für Kunden verfügbar, die schnelle Versionen aktiviert haben. </span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
-Wenn Sie Gruppenadministrator und Adobe Workfront-Administrator sind und eine Projektvoreinstellung für alle Gruppen im System freischalten, können Sie diese Voreinstellung so konfigurieren, dass sich diese Voreinstellung auf alle nachfolgenden von Ihrer Gruppe erstellten Projekte auswirkt.
+Wenn Sie Gruppenadministrator sind und ein Adobe Workfront-Administrator eine Projektvoreinstellung für alle Gruppen im System freischaltet, können Sie diese Voreinstellung für Ihre Gruppe so konfigurieren, dass sie sich auf alle nachfolgenden Projekte auswirkt, die Ihre Gruppe erstellt.
 
-Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
+Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
 >[!NOTE]
 >
->* In der Regel bleibt eine entsperrte Voreinstellung auf unbestimmte Zeit entsperrt. Wenn der Workfront-Administrator sie erneut sperrt, wird die Systemeinstellung erneut wirksam und die Einstellungen für die von den Gruppenadministratoren vorgenommene Voreinstellung gehen verloren.
->* Die Voreinstellungen für die Gruppe, die mit einem Projekt verknüpft ist, haben Vorrang vor den Voreinstellungen, die für die Startseite des Benutzers festgelegt wurden, der das Projekt erstellt.
->* Einige Voreinstellungen auf Gruppenebene wirken sich auf Projektvorlagen aus, die Sie für die Gruppe erstellen. Weitere Informationen finden Sie im Abschnitt [Anzeigen, Arbeiten mit und Erstellen von Vorlagen für Ihre Gruppe aus dem Gruppenbereich](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) im Artikel [Erstellen und Ändern von Gruppenprojektvorlagen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
+>* In der Regel bleibt eine entsperrte Voreinstellung auf unbestimmte Zeit entsperrt. Wenn der Workfront-Administrator sie erneut sperrt, wird die Systemeinstellung erneut wirksam und die Einstellungen für die von den Gruppenadministratoren vorgenommenen Voreinstellungen gehen verloren.
+>* Die Voreinstellungen, die für die mit einem Projekt verknüpfte Gruppe festgelegt wurden, haben Vorrang vor den Voreinstellungen, die für die Hauptgruppe des Benutzers festgelegt wurden, der das Projekt erstellt.
+>* Einige Voreinstellungen auf Gruppenebene wirken sich auf Projektvorlagen aus, die Sie für die Gruppe erstellen. Weitere Informationen finden Sie im Abschnitt [Anzeigen, Arbeiten mit und Erstellen von Vorlagen für Ihre Gruppe im Bereich Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md#view) im Artikel [Erstellen und Ändern der Projektvorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-templates.md).
 >
->* Nachdem ein Workfront-Administrator eine Voreinstellung auf Systemebene entsperrt hat, können Sie sie konfigurieren und dann sperren, um sicherzustellen, dass alle Mitglieder Ihrer Gruppe und ihrer Untergruppen dieselbe Konfiguration verwenden. Dies entspricht der Möglichkeit, dass ein Workfront-Administrator eine Voreinstellung für alle Benutzer im System konfigurieren und sperren muss. Weitere Informationen finden Sie unter [Voreinstellungen für Projekte, Aufgaben oder Probleme sperren oder entsperren](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
+>* Nachdem ein Workfront-Administrator eine Voreinstellung auf Systemebene entsperrt hat, können Sie sie konfigurieren und dann sperren, um sicherzustellen, dass alle Personen in Ihrer Gruppe und ihren Untergruppen dieselbe Konfiguration verwenden. Dies geschieht parallel zu der Möglichkeit, dass ein Workfront-Administrator eine Voreinstellung für alle im System konfigurieren und sperren muss. Weitere Informationen finden Sie unter [Projekt, Aufgabe oder Problem für Untergruppen sperren oder entsperren](../../../administration-and-setup/manage-groups/create-and-manage-groups/lock-or-unlock-a-group-preference.md).
 >
 
-Die Konfiguration auf Gruppenebene ist auch für die Voreinstellungen für Aufgaben und Ausgaben sowie für Zeitblatt- und Stundenvoreinstellungen möglich. Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für Aufgaben und Ausgaben für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) und [Konfigurieren der Voreinstellungen für Zeitblätter und Stunden für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
+Die Konfiguration auf Gruppenebene ist auch für Voreinstellungen für Aufgaben und Probleme sowie für Arbeitszeittabellen- und Stundeneinstellungen möglich. Weitere Informationen finden Sie unter [Aufgaben- und Problemeinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-task-issue-preferences-group.md) und [Arbeitszeittabellen- und Stundeneinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-timesheet-hour-preferences-group.md).
 
-Weitere Informationen dazu, wie ein Workfront-Administrator eine Projektvoreinstellung entsperrt, finden Sie unter [Projektvoreinstellungen für alle Gruppen im System sperren oder entsperren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
+Informationen dazu, wie Workfront-Admins eine Projektvoreinstellung entsperren, finden Sie unter [Projektvoreinstellungen für alle Gruppen im System sperren oder entsperren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/lock-or-unlock-project-preferences-for-groups-system.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -50,8 +50,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -62,37 +62,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Konfigurieren einer entsperrten Projektreferenz für eine Gruppe
+## Konfigurieren von Voreinstellungen für entsperrte Projekte für eine Gruppe
 
 >[!TIP]
 >
->Wenn Sie Workfront-Administrator sind, können Sie die Schritte 1 bis 4 umgehen, indem Sie zu Einrichtung > Projekteinstellungen > Projekte navigieren und dann im Feld oben auf der Seite nach dem Gruppennamen suchen.
+>Wenn Sie Workfront-Administrator sind, können Sie die Schritte 1 bis 4 umgehen, indem Sie zu Einrichtung > Projektvoreinstellungen > Projekte wechseln und dann im Feld oben auf der Seite nach dem Namen der Gruppe suchen.
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, deren Projektvoreinstellungen Sie konfigurieren möchten.
-1. Klicken Sie im linken Bereich auf **Projekteinstellungen**.
-1. Fahren Sie auf der angezeigten Seite mit einem der vier unten aufgeführten Abschnitte fort, um die Voreinstellungen für Projektstatus, Zeitpläne, Geschäftsfälle und Lebensdauer nach dem Tod zu konfigurieren.
+1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen**.
+1. Fahren Sie auf der angezeigten Seite mit einem der vier unten aufgeführten Abschnitte fort, um Voreinstellungen für den Projektstatus, Timelines, Business Cases und die Lebensdauer nach dem Tod zu konfigurieren.
 
    >[!TIP]
    >
-   >Wenn Sie den Mauszeiger über eine Voreinstellung bewegen und eine QuickInfo angezeigt wird, um Ihnen mitzuteilen, dass sie gesperrt ist, können Sie Ihren Workfront-Administrator bitten, sie für alle Gruppen in der Organisation zu entsperren.
+   >Wenn Sie den Mauszeiger über eine Voreinstellung bewegen und eine QuickInfo angezeigt wird, die Ihnen mitteilt, dass sie gesperrt ist, können Sie Ihren Workfront-Administrator bitten, sie für alle Gruppen im Unternehmen zu entsperren.
 
 * [Projektstatus](#project-status)
-* [Zeitleisten](#timelines)
-* [Geschäftsszenarios](#business-cases)
+* [Timelines](#timelines)
+* [Business Cases](#business-cases)
 * [Nachdem das Projekt eingestellt wurde](#life-after-death)
 
 ### Projektstatus {#project-status}
@@ -105,59 +105,59 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
  <tbody>
 
 <tr><td>Benutzern erlauben, Projekte ohne Vorlage zu erstellen</td>
-<td><p>Mit dieser Voreinstellung können Benutzer Projekte ohne Verwendung einer Vorlage erstellen, wenn sie ein Projekt aus den folgenden Bereichen erstellen:</p>
+<td><p>Diese Einstellung ermöglicht es Benutzenden, Projekte ohne Vorlage zu erstellen, wenn sie ein Projekt aus den folgenden Bereichen erstellen:</p>
 <ul>
-<li><p>Verwenden der Option "Neues Projekt"in einer Liste von Projekten</p></li>
+<li><p>Verwenden der Option Neues Projekt in einer Projektliste</p></li>
 
-<li><p>Konvertieren eines Problems von der Seite des Problems in ein Projekt</p></li>
+<li><p>Konvertieren eines Problems in ein Projekt über die Problemseite</p></li>
 </ul>
 
-<p>Diese Voreinstellung ist standardmäßig auf Systemebene aktiviert.</p>
+<p>Diese Einstellung ist standardmäßig auf Systemebene aktiviert.</p>
 <p><b>NOTIZ</b></p>
-<p>Wenn ein Benutzer mehreren Gruppen mit unterschiedlichen Voreinstellungen angehört, kann er ein Projekt ohne Vorlage erstellen, wenn mindestens eine seiner Gruppen diese Voreinstellung aktiviert hat.</p>
+<p>Wenn ein(e) Benutzende(r) mehreren Gruppen mit unterschiedlichen Voreinstellungen angehört, kann er/sie ein Projekt ohne Vorlage erstellen, wenn diese Voreinstellung für mindestens eine der Gruppen aktiviert ist.</p>
 </td></tr>
   <tr> 
-   <td role="rowheader">Setzen Sie den Status des neuen Projekts auf</td> 
-   <td> <p>Bestimmen Sie den Status neuer Projekte.</p> <p><b>NOTE</b>   
+   <td role="rowheader">Status des neuen Projekts auf festlegen</td> 
+   <td> <p>Status neuer Projekte ermitteln.</p> <p><b>HINWEIS</b>   
      <ul> 
-      <li>Wenn Sie oder ein anderer Workfront-Administrator den hier ausgewählten Status ausblendet, ändert sich der Standardstatus in den ersten Status in der Statusliste.</li> 
+      <li>Wenn Sie oder ein anderer Workfront-Administrator bzw. eine andere Administratorin den hier ausgewählten Status ausblendet, ändert sich der Standardstatus in den ersten Status in der Statusliste.</li> 
      </ul> 
      <ul> 
-      <li data-mc-conditions="SnippetConditions-wf-groups.groups">Für Gruppenprojektvoreinstellungen können Sie nur einen gesperrten Status oder einen erforderlichen Status als Standardstatus auswählen.</li> 
-      <li> <p>Wenn ein gesperrtes System oder ein Gruppenstatus als Standardstatus festgelegt ist und später von einem anderen entsperrt wird, versucht das System, es durch einen gesperrten Status des gleichen Statustyps zu ersetzen.</p> <p>Wenn er keinen finden kann, sucht er nach einem erforderlichen Status:</p> 
+      <li data-mc-conditions="SnippetConditions-wf-groups.groups">Für die Voreinstellungen für Gruppenprojekte können Sie nur einen gesperrten Status oder einen erforderlichen Status als Standardstatus auswählen.</li> 
+      <li> <p>Wenn ein gesperrter System- oder Gruppenstatus als Standardstatus festgelegt ist und später von jemandem entsperrt wird, versucht das System, ihn durch einen gesperrten Status desselben Statustyps zu ersetzen.</p> <p>Wenn er keinen finden kann, sucht er nach dem erforderlichen Status:</p> 
        <ul> 
-        <li>Wenn ein erforderlicher Status vorhanden ist, der dem entsperrten Standardstatus entspricht, wird der erforderliche Status zum Standardstatus, auch wenn er entsperrt ist.</li> 
+        <li>Wenn ein erforderlicher Status vorhanden ist, der dem entsperrten Standardstatus entspricht, wird der erforderliche Status zum Standardstatus, selbst wenn er entsperrt ist.</li> 
         <li>Wenn keiner der erforderlichen Status dem entsperrten Standardstatus entspricht, wird der erste erforderliche Status in der Statusliste zum Standardstatus.</li> 
-       </ul> <p>Informationen zu den erforderlichen Status finden Sie in den Artikeln <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" data-mc-variable-override="">Zugriff auf die Liste der Systemprojektstatus</a>, <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref" data-mc-variable-override="">Zugriff auf die Liste der Systemaufgabenstatus</a> und <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref" data-mc-variable-override="">Zugriff auf die Liste der Systemfehlerstatus</a>.</p> </li> 
+       </ul> <p>Informationen zu erforderlichen Status finden Sie in den Artikeln <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md" class="MCXref xref" data-mc-variable-override="">Zugriff auf die Liste der Systemprojektstatus</a>, <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/task-statuses.md" class="MCXref xref" data-mc-variable-override="">Zugriff auf die Liste der </a> und <a href="../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/issue-statuses.md" class="MCXref xref" data-mc-variable-override="">Zugriff auf die Liste der Systemanfragestatus</a>.</p> </li> 
      </ul> </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Prozentsatz berechnen Abgeschlossen basierend auf</td> 
-   <td> <p>Der prozentuale Abschluss eines Projekts oder einer übergeordneten Aufgabe basiert auf dem Gesamtfortschritt der Aufgaben. Diese Informationen können entweder anhand der Dauer oder der geplanten Stunden der Aufgaben eines Projekts berechnet werden.</p> <p>Wenn Sie "Dauer"auswählen, bestimmt die Dauer jeder Aufgabe in einem Projekt den Gesamtprozentsatz der Abschlüsse für das Projekt und die Dauer jeder Unteraufgabe bestimmt den Gesamtprozentsatz der Abschlüsse für die übergeordnete Aufgabe.</p> <p>Wenn Sie "Dauer"auswählen, stellen Sie sicher, dass Sie die typischen Stunden pro Arbeitstag und die typischen Arbeitstage pro Woche im Abschnitt Zeitpläne angeben. Workfront verwendet diese Informationen bei der Berechnung des prozentualen Abschlusses einer Aufgabe basierend auf der Dauer. </p> <p>Wenn Sie "Geplante Stunden"auswählen, stellen Sie sicher, dass für alle Aufgaben in jedem Projekt die Anzahl der geplanten Stunden definiert ist und dass der Betrag nicht null ist.</p> </td> 
+   <td role="rowheader">Prozent abgeschlossen berechnen auf Basis von</td> 
+   <td> <p>Der Prozentsatz der Fertigstellung eines Projekts oder einer übergeordneten Aufgabe basiert auf dem Gesamtfortschritt der Aufgaben. Diese Informationen können entweder anhand der Dauer oder der geplanten Stunden der Aufgaben in einem Projekt berechnet werden.</p> <p>Wenn Sie Dauer auswählen, bestimmt die Dauer jeder Aufgabe in einem Projekt den Gesamtprozentsatz der Fertigstellung für das Projekt und die Dauer jeder Teilaufgabe den Gesamtprozentsatz der Fertigstellung für die übergeordnete Aufgabe.</p> <p>Wenn Sie „Dauer“ auswählen, stellen Sie sicher, dass Sie die typischen Stunden pro Arbeitstag und typische Arbeitstage pro Woche im Abschnitt „Timelines“ angeben. Workfront verwendet diese Informationen, wenn der Prozentsatz der Fertigstellung einer Aufgabe auf der Grundlage der Dauer berechnet wird. </p> <p>Wenn Sie „Geplante Stunden“ auswählen, stellen Sie sicher, dass für alle Aufgaben in jedem Projekt die Anzahl der geplanten Stunden definiert ist und dass der Betrag nicht null ist.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Projektbedingungen je nach Fortschrittstatus automatisch setzen</td> 
-   <td> <p>Mit dieser Voreinstellung können Benutzer die Projektbedingung manuell festlegen (On Target, At Risk, In Trouble) oder Workfront die Bedingung (Progress Status) automatisch basierend auf dem Projektfortschritt auf der Timeline festlegen lassen. Weitere Informationen zur Bedingung von Projekten finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Überblick über Projektbedingungen und Bedingungstyp</a>.</p> </td> 
+   <td> <p>Diese Einstellung ermöglicht es Benutzenden, die Bedingung eines Projekts manuell festzulegen (am Ziel, gefährdet, in Schwierigkeiten) oder Workfront die Bedingung (Fortschrittsstatus) automatisch auf der Grundlage des Projektfortschritts auf der Timeline festlegen zu lassen. Weitere Informationen über den Zustand von Projekten finden Sie unter <a href="../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Projektbedingung und Bedingungstyp</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Baselines automatisch erstellen</p> </td> 
-   <td> <p>Diese Voreinstellung erstellt automatisch eine Grundlinie (Momentaufnahme) der Aufgaben- und Projektdetails, wenn sich der Status des Projekts in "Aktuell"ändert. Informationen zum Erstellen von Grundlinien finden Sie unter <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">Erstellen von Projekt-Grundlinien</a>.</p> </td> 
+   <td> <p>Diese Voreinstellung erstellt automatisch eine Baseline (Momentaufnahme) der Aufgaben- und Projektdetails, wenn der Status des Projekts in „Aktuell“ geändert wird. Informationen zum Erstellen von Baselines finden Sie unter <a href="../../../manage-work/projects/create-projects/create-baselines.md" class="MCXref xref" data-mc-variable-override="">Erstellen von Projekt-Baselines</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Performance-Index-Methode </p> </td> 
-   <td> <p>Die Leistungsindex-Methode (PIM) für das Projekt steuert die Methode, die Workfront zur Berechnung von Earned Value-Metriken wie Cost Performance Index (CPI) und Estimate At Completion (EAC) verwendet. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculate Cost Performance Index (CPI)</a>und <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate Estimate at complete (EAC)</a></p> 
+   <td> <p>Die Performance-Index-Methode (PIM) für das Projekt steuert die Methode, die Workfront verwendet, um Earned Value-Metriken wie Cost Performance Index (CPI) und Estimate at Completion (EAC) zu berechnen. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-cpi.md" class="MCXref xref" data-mc-variable-override="">Calculate Cost Performance Index (CPI)</a> und <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Calculate Estimate at Completion (EAC)</a></p> 
     <ul> 
-     <li><strong>Stündbasiert</strong>: Workfront verwendet geplante Stunden zur Berechnung von Leistungsmetriken wie EAC und CPI. Wenn die PIM auf der Grundlage von Stunden berechnet wird, wird die EAC als Anzahl von Stunden angezeigt. Stellen Sie sicher, dass Sie einen Wert für "Geplante Stunden"haben, der nicht null ist.</li> 
-     <li> <p><strong>Kostenbasiert</strong>: Workfront verwendet geplante Arbeitskosten zur Berechnung von Leistungsmetriken wie EAC und CPI. Stellen Sie sicher, dass Ihre Arbeitsplatzrollen oder -benutzer den Kosten pro Stunde zugeordnet sind. Wenn der PIM auf der Grundlage von Kosten berechnet wird, wird der EAC als Währungswert angezeigt.</p> <p>Der Projektmanager kann diese Einstellung auf Projektebene ändern, indem er den Bereich "Finanzen"in den Projektdetails verwendet. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Informationen im Bereich "Projekt-Finanzen verwalten"</a>.</p> </li> 
+     <li><strong>Stundenbasiert</strong>: Workfront verwendet die geplanten Stunden zur Berechnung von Leistungsmetriken wie EAC und CPI. Wenn das PIM auf der Grundlage von Stunden berechnet wird, wird die EAC als Anzahl von Stunden angezeigt. Stellen Sie sicher, dass Sie einen anderen Wert für Geplante Stunden als null haben.</li> 
+     <li> <p><strong>Kostenbasiert</strong>: Workfront verwendet geplante Arbeitskosten, um Leistungsmetriken wie EAC und CPI zu berechnen. Stellen Sie sicher, dass Ihre Aufgabengebiete oder Benutzer den Stundensätzen „Kosten pro Stunde“ zugeordnet sind. Wenn die PIM auf der Grundlage von Kosten berechnet wird, wird die EAC als Währungswert angezeigt.</p> <p>Der Projekt-Manager kann diese Einstellung auf Projektebene ändern, indem er den Bereich Finanzen in den Projektdetails verwendet. Weitere Informationen finden Sie <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Verwalten von Informationen im Bereich Projektfinanzierung</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <p>Schätzung bei Fertigstellung </p> </td> 
-   <td> <p>Bestimmen Sie, welche Daten Workfront zur Berechnung der Schätzung bei Abschluss (EAC) verwendet, die die voraussichtlichen Gesamtkosten eines Projekts darstellt.</p> 
+   <td> <p>Legen Sie fest, welche Daten Workfront für die Schätzung der Kosten bis zur Fertigstellung verwendet, d. h. die erwarteten Gesamtkosten eines Projekts.</p> 
     <ul> 
-     <li><strong>Auf Projektebene berechnen</strong>: Die EAC für die übergeordnete Aufgabe und das Projekt wird durch Eingabe der tatsächlichen Arbeitszeiten oder tatsächlichen Arbeitskosten in die EAC-Formeln bestimmt. Diese Berechnung schließt tatsächliche Stunden oder Kosten und Ausgaben ein, die direkt der übergeordneten Aufgabe oder dem übergeordneten Projekt hinzugefügt werden.</li> 
-     <li> <p><strong>Aufrollen aus Aufgaben/Unteraufgaben</strong>: Die EAC für die übergeordnete Aufgabe und das Projekt wird bestimmt, indem die EAC für jede untergeordnete Aufgabe summiert wird. Diese Berechnung schließt tatsächliche Stunden oder tatsächliche Kosten und Ausgaben aus, die direkt zur übergeordneten Aufgabe oder zum übergeordneten Projekt hinzugefügt werden.</p> <p>Der Projektmanager kann diese Einstellung auf Projektebene ändern, indem er den Bereich "Finanzen"in den Projektdetails verwendet. Weitere Informationen finden Sie unter <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Informationen im Bereich "Projekt-Finanzen verwalten"</a>.</p> </li> 
-    </ul> <p>Weitere Informationen zur Berechnung der EAC finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Schätzung nach Abschluss berechnen (EAC)</a>.</p> </td> 
+     <li><strong>Auf Projektebene berechnen</strong>: Die BK für die übergeordnete Aufgabe und das übergeordnete Projekt wird bestimmt, indem in die BK-Formeln die Ist-Stunden oder die Ist-Lohnkosten eingegeben werden. Diese Berechnung enthält die tatsächlichen Stunden oder Kosten und Ausgaben, die der übergeordneten Aufgabe oder dem übergeordneten Projekt direkt hinzugefügt werden.</li> 
+     <li> <p><strong>Rollup aus Aufgaben/Teilaufgaben</strong>: Die LGR für die übergeordnete Aufgabe und das übergeordnete Projekt wird bestimmt, indem die LGR für jede untergeordnete Aufgabe zusammengefasst werden. Diese Berechnung schließt tatsächliche Stunden oder Istkosten und Ausgaben aus, die direkt zur übergeordneten Aufgabe oder zum übergeordneten Projekt hinzugefügt werden.</p> <p>Der Projekt-Manager kann diese Einstellung auf Projektebene ändern, indem er den Bereich Finanzen in den Projektdetails verwendet. Weitere Informationen finden Sie <a href="../../../manage-work/projects/project-finances/manage-project-finance-area.md" class="MCXref xref" data-mc-variable-override="">Verwalten von Informationen im Bereich Projektfinanzierung</a>.</p> </li> 
+    </ul> <p>Weitere Informationen zur EAC-Berechnung finden Sie unter <a href="../../../manage-work/projects/project-finances/calculate-eac.md" class="MCXref xref" data-mc-variable-override="">Berechnete Schätzung bei Abschluss berechnen (EAC)</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -172,82 +172,82 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
  <tbody> 
   <tr> 
    <td role="rowheader">Planen ab</td> 
-   <td> <p>Bestimmen Sie, ob neue Projekte ab dem Startdatum oder ab dem Abschlussdatum geplant werden, wenn sie erstellt werden.</p> 
+   <td> <p>Legen Sie fest, ob neue Projekte ab dem Startdatum oder ab dem Abschlussdatum geplant werden, wenn sie erstellt werden.</p> 
     <ul> 
-     <li><strong>Startdatum</strong>: Neue Aufgaben werden standardmäßig unter "So bald wie möglich"als Aufgabenbegrenzung festgelegt und Projektmanager werden aufgefordert, ein geplantes Startdatum für das Projekt anzugeben.</li> 
-     <li><strong>Abschlussdatum</strong>: Neue Aufgaben werden standardmäßig unter "So spät wie möglich"-Aufgabenbegrenzung aufgeführt und Projektmanager werden aufgefordert, ein geplantes Abschlussdatum für das Projekt anzugeben.</li> 
+     <li><strong>Startdatum</strong>: Für neue Aufgaben wird die Option „Sobald wie möglich“ ausgewählt, und die Projektverantwortlichen werden aufgefordert, ein geplantes Startdatum für das Projekt anzugeben.</li> 
+     <li><strong>Abschlussdatum</strong>: Für neue Aufgaben wird standardmäßig die Einschränkung So spät wie möglich verwendet, und die Projektverantwortlichen werden aufgefordert, ein geplantes Abschlussdatum für das Projekt anzugeben.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Benutzer-Ausfallzeiten</td> 
-   <td> <p>Bestimmen Sie, ob durch die Zeitabstände des Primären Verantwortlichen einer Aufgabe die für diese Aufgabe geplanten Zeitpunkte für ein Projekt angepasst werden.</p> 
+   <td> <p>Legen Sie fest, ob die Ausfallzeit des Primären Verantwortlichen für eine Aufgabe die geplanten Termine für diese Aufgabe in einem Projekt anpasst.</p> 
     <ul> 
-     <li> <p><strong>Betrachten Sie die Zeitüberschreitung der Aufgabe in den Aufgabendauer </strong>: Jede für den Primären Verantwortlichen einer Aufgabe geplante Zeitüberschreitung passt die geplanten Zeitpunkte der Aufgabe an, wenn die Zeitüberschreitung während der Dauer der Aufgabe eintritt. Dies ist die Standardeinstellung. </p> <p>Wenn beispielsweise eine Aufgabe mit der Beschränkung So bald wie möglich am 1. Juni beginnen und am 3. Juni abgeschlossen sein soll und der Primäre Verantwortliche den 2. Juni für "Zeitlimit"markiert hat, werden die geplanten Zeitpunkte der Aufgabe auf den 1. bis 4. Juni angepasst.</p> <p><b>WICHTIG</b>: Die Dauer der Aufgabe ändert sich nicht, wenn Sie diese Einstellung auswählen. Je nach Aufgabenbegrenzung ändern sich nur die geplanten Datumswerte.</p> </li> 
-     <li><strong>Ignorieren der Benutzerzeit in Aufgabendauern</strong>: Die geplanten Termine jeder Aufgabe in einem Projekt bleiben wie ursprünglich geplant, auch wenn der Primäre Verantwortliche einer Aufgabe während ihrer Dauer eine Zeitspanne hat.</li> 
-    </ul> <p>Beachten Sie bei der Auswahl der Optionen für diese Einstellung Folgendes:</p> 
+     <li> <p><strong>Auszeiten von Benutzern in Aufgabendauer berücksichtigen</strong>: Jede für den Primären Beauftragten einer Aufgabe geplante Auszeit passt die geplanten Termine der Aufgabe an, wenn die Auszeit während der Aufgabendauer eintritt. Dies ist die Standardeinstellung. </p> <p>Wenn beispielsweise eine Aufgabe mit der Einschränkung So bald wie möglich am 1. Juni beginnen und am 3. Juni abgeschlossen werden soll und der Primäre Verantwortliche für den 2. Juni eine Ausfallzeit markiert hat, werden die Termine für die Aufgabe auf den 1. Juni bis zum 4. Juni festgelegt.</p> <p><b>WICHTIG</b>: Die Dauer der Aufgabe ändert sich nicht, wenn Sie diese Einstellung auswählen. Je nach Aufgabenbeschränkung ändern sich nur die geplanten Termine.</p> </li> 
+     <li><strong>Benutzer-Ausfallzeit in Aufgabendauer ignorieren</strong>: Die geplanten Termine jeder Aufgabe in einem Projekt bleiben wie ursprünglich geplant, auch wenn der Primäre Verantwortliche einer Aufgabe während ihrer Laufzeit Ausfallzeiten hat.</li> 
+    </ul> <p>Beachten Sie bei der Auswahl von Optionen für diese Einstellung Folgendes:</p> 
     <ul> 
-     <li>Wenn Sie diese Einstellung ändern, übernehmen nur die nach der Änderung erstellten Projekte und Vorlagen die aktualisierte Einstellung. </li> 
-     <li> <p>Der Wert der Aufgabenbegrenzung bestimmt, welche geplanten Aufgabendaten angepasst werden sollen: </p> 
+     <li>Wenn Sie diese Einstellung ändern, erben nur die Projekte und Vorlagen, die nach der Änderung erstellt wurden, die aktualisierte Einstellung. </li> 
+     <li> <p>Der Wert der Aufgabenbeschränkung der Aufgabe bestimmt, welche geplanten Aufgabendaten angepasst werden sollen: </p> 
       <ul> 
        <li>Das geplante Startdatum</li> 
        <li>Das geplante Abschlussdatum</li> 
-       <li>Beide Datumsangaben</li> 
-       <li>Keines der beiden Datum. </li> 
-      </ul> <p>Wenn eine Aufgabe beispielsweise die Begrenzung fester Datumswerte aufweist, werden die Daten nicht angepasst, wenn der Primäre Verantwortliche eine Zeitüberschreitung hat, selbst wenn die Option Benutzerzeitlimit in Aufgabendauer berücksichtigen ausgewählt ist. Informationen zu Aufgabenbegrenzungen finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Aufgabenbegrenzungen</a>.</p> </li> 
+       <li>Beide Daten</li> 
+       <li>Kein Datum. </li> 
+      </ul> <p>Wenn beispielsweise eine Aufgabe eine Beschränkung für feste Termine aufweist, werden die Termine nicht angepasst, wenn der Primäre Verantwortliche Ausfallzeiten hat, auch wenn die Option Benutzer-Ausfallzeiten in Aufgabendauer berücksichtigen ausgewählt ist. Informationen zu Aufgabenbeschränkungen finden Sie unter <a href="../../../manage-work/tasks/task-constraints/task-constraint-overview.md" class="MCXref xref" data-mc-variable-override="">Übersicht über Aufgabenbeschränkungen</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Projektzeitpläne werden automatisch neu berechnet</strong> </p> </td> 
-   <td> <p>Bestimmen Sie, wann die Timeline eines Projekts neu berechnet wird. Weitere Informationen zur Neuberechnung der Projekt-Timeline finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projekt-Timeline neu berechnen</a>.</p> <p>Die folgenden Optionen sind standardmäßig aktiviert. Sie können eine oder mehrere der folgenden Einstellungen auswählen:</p> 
+   <td role="rowheader"> <p><strong>Projektzeitleisten werden automatisch neu berechnet</strong> </p> </td> 
+   <td> <p>Legen Sie fest, wann die Zeitleiste eines Projekts neu berechnet wird. Informationen zur Neuberechnung der Projekt-Zeitleiste finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Neuberechnen von Projekt-Zeitleisten</a>.</p> <p>Die folgenden Optionen sind standardmäßig aktiviert. Sie können eine oder mehrere der folgenden Einstellungen auswählen:</p> 
     <ul> 
-     <li> <p><strong>Jede Nacht</strong>: Wählen Sie diese Option aus, um die Projektzeitpläne jede Nacht neu zu berechnen. Änderungen, die Sie am Projekt vornehmen und die sich auf die Timeline auswirken können, sind nicht sofort sichtbar. Workfront ​ ​ ​ die Neuberechnung der Fristen nachts nur für Projekte, bei denen beide der folgenden Bedingungen erfüllt sind:</p> <p> 
+     <li> <p><strong>Jede Nacht</strong>: Wählen Sie diese Option, um die Projektzeitleisten jede Nacht neu zu berechnen. Alle Änderungen, die Sie am Projekt vornehmen und die sich auf die Zeitleiste auswirken könnten, sind nicht sofort sichtbar. Workfront​​​ berechnet Timelines nur bei Nacht neu für Projekte, bei denen die beiden folgenden Bedingungen erfüllt sind:</p> <p> 
        <ul> 
-        <li>Der Status Aktuell</li> 
-        <li>In den letzten drei Monaten wurde ein Update durchgeführt</li> 
+        <li>den Status „Aktuell“ haben</li> 
+        <li>In den letzten 3 Monaten ein Update erhalten haben</li> 
        </ul> </p> </li> 
-     <li> <p><strong>Wenn sich der Umfang eines Projekts ändert</strong>: Wählen Sie diese Option aus, um die Projekt-Timelines unmittelbar bei einer Änderung des Projektumfangs neu zu berechnen. Informationen dazu, was eine Änderung des Projektumfangs darstellt, finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Projektzeitpläne neu berechnen</a>.</p> </li> 
+     <li> <p><strong>Wenn sich der Projektumfang ändert</strong>: Wählen Sie diese Option, um die Projektzeitleisten sofort nach einer Änderung des Projektumfangs neu zu berechnen. Informationen dazu, was eine Änderung des Projektumfangs ausmacht, finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref" data-mc-variable-override="">Neuberechnen von Projektzeitleisten</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Wenn mehrere Benutzer einer Aufgabe zugewiesen sind, verwenden Sie den Zeitplan des ...</strong> </p> </td> 
-   <td> <p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern kein Zeitplan zugewiesen wurde, verwendet Workfront den Standardsystemplan, um die Zeitleiste der Aufgaben zu berechnen.</p> <p>Wenn Sie derselben Aufgabe in einem Projekt mehrere Benutzer zuweisen, denen ein Zeitplan zugewiesen ist - und den den Aufgaben zugewiesenen Benutzern auch ein Zeitplan zugewiesen ist - verwendet Workfront die folgenden Zeitpläne:</p> 
+   <td role="rowheader"> <p><strong>Wenn mehrere Benutzer einer Aufgabe zugewiesen sind, verwenden Sie den Zeitplan von …</strong> </p> </td> 
+   <td> <p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern, die seinen Aufgaben zugewiesen sind, kein Zeitplan zugewiesen ist, berechnet Workfront mithilfe des Systemstandardzeitplans den Zeitplan der Aufgaben.</p> <p>Wenn Sie derselben Aufgabe in einem Projekt mehrere Benutzer zuweisen und den Benutzern dieser Aufgaben ebenfalls ein Zeitplan zugewiesen ist, verwendet Workfront die folgenden Zeitpläne:</p> 
     <ul> 
-     <li><strong>Primäre Zuweisung</strong>: Workfront verwendet den Zeitplan der Primären Zuweisung für die Aufgabe zur Berechnung der Zeitpläne.</li> 
+     <li><strong>Primäre Zuweisung</strong>: Workfront verwendet den Zeitplan der Primären Zuweisung für die Aufgabe, um die Zeitleisten zu berechnen.</li> 
      <li><strong>Projekt</strong>: Workfront verwendet den Zeitplan des Projekts, um die Zeitleiste jeder Aufgabe zu berechnen.</li> 
     </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p> </td> 
   </tr> 
  <tr> 
-   <td role="rowheader"> <p><span class="preview"><strong>Wenn ein Benutzer einer Aufgabe zugewiesen ist, verwenden Sie den Zeitplan des ...</strong></span>. </p> </td> 
-   <td> <div class="preview"><p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern kein Zeitplan zugewiesen wurde, verwendet [!DNL Workfront] den standardmäßigen Systemzeitplan zur Berechnung der Zeitleiste der Aufgaben.</p>
+   <td role="rowheader"> <p><span class="preview"><strong>Wenn ein(e) Benutzende(r) einer Aufgabe zugewiesen wird, den Zeitplan verwenden von…</strong></span> </p> </td> 
+   <td> <div class="preview"><p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern, die seinen Aufgaben zugewiesen sind, kein Zeitplan zugewiesen ist, berechnet [!DNL Workfront] anhand des Systemstandardzeitplans den Zeitplan der Aufgaben.</p>
 
-<p>Wenn Sie einem Projekt einen Benutzer zuweisen und sowohl dem Projekt als auch dem Benutzer ein Zeitplan zugeordnet ist, verwendet [!UICONTROL Workfront] die folgenden Zeitpläne:</p> 
+<p>Wenn Sie einer Aufgabe in einem Projekt einen Benutzer zuweisen und sowohl dem Projekt als auch dem Benutzer ein Zeitplan zugeordnet ist, verwendet [!UICONTROL Workfront] die folgenden Zeitpläne:</p> 
     <ul> 
-     <li><strong>[!UICONTROL Benutzer]</strong>: Der Zeitplan des zugewiesenen Benutzers für die Aufgabe zur Berechnung der Zeitpläne.</li> 
-     <li><strong>[!UICONTROL Projekt]</strong>: Der Zeitplan des Projekts zur Berechnung der Zeitleiste der Aufgabe.</li> 
+     <li><strong>[!UICONTROL User]</strong>: Der Zeitplan des zugewiesenen Benutzers für die Aufgabe, um die Zeitleisten zu berechnen.</li> 
+     <li><strong>[!UICONTROL Project]</strong>: Der Zeitplan des Projekts zur Berechnung der Zeitleiste der Aufgabe.</li> 
     </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p></div></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Timeline-Berechnungen </p> </td> 
    <td> 
     <ul> 
-     <li><strong>Typische Stunden pro Arbeitstag</strong>: Legen Sie die Anzahl der Stunden an einem typischen Arbeitstag für die Benutzer fest, die an Projekten arbeiten werden. Der Standardwert ist 8 Stunden.</li> 
+     <li><strong>Typische Stunden pro Arbeitstag</strong>: Legen Sie die Anzahl der Stunden in einem typischen Arbeitstag für die Benutzer fest, die an Projekten arbeiten werden. Der Standardwert ist 8 Stunden.</li> 
     </ul> 
     <ul> 
-     <li><strong>Typische Arbeitstage pro Woche</strong>: Legen Sie die standardmäßige Arbeitswoche für die Benutzer fest, die an Projekten arbeiten. Der Standardwert ist 5 Tage.</li> 
-    </ul> <p>Diese beiden Optionen konvertieren Tage in Stunden oder Wochen in Tage.</p> <p>Wenn Sie beispielsweise eine Aufgabe mit 8 geplanten Stunden haben und die Dauer auf der Grundlage geplanter Stunden berechnet wird, wandelt Workfront diese Stunden in Tage um, um die Dauer als Tage anzuzeigen.</p> <p>Aus dem Feld Typische Arbeitstage pro Woche berechnet Workfront den Vollzeitäquivalenzwert (FTE) für Ihr System. Dies wird von Workfront bei der Berechnung der Benutzerzuweisungen verwendet.</p> <p>Diese Werte werden verwendet, wenn Sie Zeitpläne für Projekte planen, Ressourcen in den Budgets einplanen oder die Zeit für die Projektabwicklung einplanen. </p> <p>Sie werden nicht verwendet, wenn Sie Timesheets für Benutzer im System erstellen, wie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Konfigurieren von Voreinstellungen für Zeitblätter und Stunden</a> beschrieben.</p> <p><b>HINWEIS</b>: Workfront-Administratoren können die Voreinstellungen für Zeitleistenberechnungen nicht entsperren.</p> </td> 
+     <li><strong>Typische Arbeitstage pro Woche</strong>: Legen Sie die Standard-Arbeitswoche für die Benutzer fest, die an Projekten arbeiten werden. Der Standardwert ist 5 Tage.</li> 
+    </ul> <p>Diese zwei Optionen konvertieren Tage in Stunden bzw. Wochen in Tage.</p> <p>Wenn beispielsweise ein Vorgang mit acht geplanten Stunden vorhanden ist und die Dauer auf der Grundlage der geplanten Stunden berechnet wird, wandelt Workfront diese Stunden in Tage um, um die Dauer als Tage anzuzeigen.</p> <p>Aus dem Feld Typische Arbeitstage pro Woche berechnet Workfront den Vollzeitäquivalentwert (VZÄ) für Ihr System. Dies wird von Workfront bei der Berechnung der Zuweisungen für -Benutzer verwendet.</p> <p>Diese Werte werden verwendet, wenn Sie Projektzeitleisten planen, Ressourcen budgetieren oder Zeit für Projekte protokollieren. </p> <p>Sie werden nicht verwendet, wenn Sie Arbeitszeittabellen für Benutzende im System erstellen, wie in <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md" class="MCXref xref" data-mc-variable-override="">Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen</a> beschrieben.</p> <p><b>HINWEIS</b>: Workfront-Administratoren können die Voreinstellungen für Zeitleistenberechnungen nicht entsperren.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p><strong>Benutzerdefinierte Quartal</strong> </p> </td> 
-   <td> <p>Konfigurieren Sie benutzerdefinierte Jahresquartale für die Benutzer, die an Projekten arbeiten werden. Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht mit der herkömmlichen Verteilung der Quartale in einem Kalenderjahr übereinstimmen. Sie können mehrere benutzerdefinierte Quartale hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale für Projekte aktivieren</a>.</p> <p><b>HINWEIS</b>: Workfront-Administratoren können die Voreinstellungen für benutzerdefinierte Quartal nicht entsperren.</p> </td> 
+   <td role="rowheader"> <p><strong>Benutzerdefinierte Quartale</strong> </p> </td> 
+   <td> <p>Konfigurieren Sie benutzerdefinierte jährliche Quartale für die Benutzer, die an Projekten arbeiten werden. Benutzerdefinierte Quartale sind in der Regel Quartale, die nicht der herkömmlichen Aufschlüsselung von Quartalen während eines Kalenderjahres entsprechen. Sie können mehrere benutzerdefinierte Quartale hinzufügen. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-system-defaults/enable-custom-quarters-projects.md" class="MCXref xref" data-mc-variable-override="">Benutzerdefinierte Quartale für Projekte </a>.</p> <p><b>HINWEIS</b>: Workfront-Administratoren können die Voreinstellungen für benutzerdefinierte Quartale nicht entsperren.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
 ### Business Cases {#business-cases}
 
-Sie können ein Geschäftsbeispiel für neu erstellte Projekte erstellen, die mit der Gruppe verknüpft sind, um Projektanfragen zu senden. Sie können Voreinstellungen definieren, um festzulegen, welche Bereiche im Formular **Geschäftsszenario** sichtbar sind. Es wird empfohlen, diese Optionen zu aktivieren, damit andere Tools wie der Portfolio Optimizer ordnungsgemäß aktualisiert werden. Weitere Informationen dazu, was die einzelnen Felder anzeigen, finden Sie unter [Definieren eines Geschäftsfalls: Artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
+Sie können einen Business Case für neu erstellte Projekte erstellen, die mit der Gruppe verknüpft sind, um Projektanfragen zu senden. Sie können Voreinstellungen definieren, um zu bestimmen, welche Bereiche im Formular **Business Case** sichtbar sind. Es wird empfohlen, diese Optionen zu aktivieren, damit andere Tools, wie z. B. Portfolio Optimizer, ordnungsgemäß aktualisiert werden. Weitere Informationen zu den einzelnen Feldern finden Sie unter [Definieren eines Business-Case: Artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
 
-Nachdem der Workfront-Administrator die Abschnitte im Geschäftsfall aktiviert hat, kann ein Projekteigentümer auf Projektebene einen Geschäftsfall erstellen. Informationen zum Erstellen eines Geschäftsfeldes finden Sie unter [Erstellen eines Geschäftsfeldes für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Nachdem der Workfront-Administrator die Abschnitte zum Business Case aktiviert hat, kann ein Projektinhaber dann einen Business Case auf Projektebene erstellen. Informationen zum Erstellen eines Business-Case finden Sie [Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 ### Nachdem das Projekt eingestellt wurde  {#life-after-death}
 
@@ -258,29 +258,29 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <p><strong>Nachdem ein Projekt als abgeschlossen markiert wurde, können Personen dennoch</strong> </p> </td> 
-   <td> <p>Legen Sie die Regeln für Ihre Organisation (oder Gruppe, wenn Sie Projektvoreinstellungen für eine Gruppe konfigurieren) dahingehend fest, ob eine Aufgabe oder ein Problem gelöscht werden kann, nachdem der Projektstatus als Abgeschlossen markiert wurde.</p> 
+   <td role="rowheader"> <p><strong>Nachdem ein Projekt als Abgeschlossen gekennzeichnet wurde, können Benutzer weiterhin</strong> </p> </td> 
+   <td> <p>Legen Sie die Regeln für Ihre Organisation (oder Gruppe, wenn Sie Projektvoreinstellungen für eine Gruppe konfigurieren) fest, die festlegen, ob eine Aufgabe oder ein Problem gelöscht werden kann, nachdem der Projektstatus als „Abgeschlossen“ markiert wurde.</p> 
     <ul> 
-     <li><strong>Aufgaben löschen</strong>: Ermöglicht Benutzern das Löschen von Aufgaben aus einem Projekt, nachdem das Projekt als abgeschlossen markiert wurde.<br></li> 
-     <li><strong>Probleme löschen</strong>: Ermöglicht Benutzern das Löschen von Problemen aus einem Projekt, nachdem das Projekt als abgeschlossen markiert wurde.</li> 
+     <li><strong>Aufgaben löschen</strong>: Ermöglicht Benutzern das Löschen von Aufgaben aus einem Projekt, nachdem das Projekt als „Abgeschlossen“ markiert wurde.<br></li> 
+     <li><strong>Anfragen löschen</strong>: Ermöglicht Benutzern das Löschen von Anfragen aus einem Projekt, nachdem das Projekt als „Abgeschlossen“ markiert wurde.</li> 
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p><strong>Nachdem ein Projekt als abgeschlossen, tot oder ausstehend markiert wurde, können Personen dennoch </strong> </p> </td> 
-   <td> <p>Legen Sie die Regeln für Ihre Organisation (oder Gruppe, wenn Sie Projektvoreinstellungen für eine Gruppe konfigurieren) fest, die festlegen, was mit Aufgaben, Problemen, Dokumenten und anderen Objekten in einem Projekt geschieht, nachdem der Projektstatus mit <strong>Complete</strong>, <strong>Dead</strong> markiert wurde oder den Wert <strong>Ausstehende Genehmigung</strong> aufweist.</p> 
+   <td role="rowheader"> <p><strong>Nachdem ein Projekt als Abgeschlossen, Eingestellt oder mit dem Hinweis Ausstehende Genehmigungen, gekennzeichnet wurde, können Benutzer weiterhin</strong> </p> </td> 
+   <td> <p><strong> Legen Sie die Regeln für Ihre Organisation (oder Gruppe, wenn Sie Projektvoreinstellungen für eine Gruppe konfigurieren) fest, was mit Aufgaben, Problemen, Dokumenten und anderen Objekten in einem Projekt geschieht, nachdem der Projektstatus als „Abgeschlossen</strong>, <strong>Eingestellt</strong> gekennzeichnet wurde oder <strong>Genehmigung steht</strong>.</p> 
     <ul> 
      <li><strong>Aufgaben hinzufügen und bearbeiten</strong> Ermöglicht Benutzern Folgendes: 
       <ul> 
-       <li>Bearbeiten Sie Aufgaben innerhalb eines Projekts, nachdem das Projekt mit "Abgeschlossen", "Dead"oder "Ausstehende Genehmigung"gekennzeichnet wurde. Dazu gehören das Hinzufügen von Stunden und das Ändern von Ausgabeneinträgen für eine Aufgabe.</li> 
+       <li>Aufgaben innerhalb eines Projekts bearbeiten, nachdem das Projekt als „Abgeschlossen“, „Eingestellt“ oder „Genehmigung steht aus“ gekennzeichnet wurde. Dazu gehören das Hinzufügen von Stunden und das Ändern von Kosteneinträgen für eine Aufgabe.</li> 
        <li>Aufgaben zu einem Projekt hinzufügen.</li> 
       </ul></li> 
      <li><strong>Probleme hinzufügen und bearbeiten</strong>: Ermöglicht Benutzern Folgendes: 
       <ul> 
-       <li>Bearbeiten Sie Probleme innerhalb eines Projekts, nachdem das Projekt als "Abgeschlossen", "Unzulässig"oder "Ausstehende Genehmigung"gekennzeichnet wurde.</li> 
-       <li>Fügen Sie einem Projekt Probleme hinzu, nachdem das Projekt als "Fertig"oder "Abgeschlossen"markiert wurde. (Sie können einem Projekt, bei dem die Genehmigung ausstehend ist, keine Probleme hinzufügen.)</li> 
+       <li>Probleme innerhalb eines Projekts bearbeiten, nachdem das Projekt als „Abgeschlossen“, „Eingestellt“ oder „Genehmigung steht aus“ gekennzeichnet wurde.</li> 
+       <li>Probleme zu einem Projekt hinzufügen, nachdem das Projekt als „Abgeschlossen“ oder „Eingestellt“ gekennzeichnet wurde. (Sie können keine Probleme zu einem Projekt hinzufügen, für das die Genehmigung aussteht.)</li> 
       </ul></li> 
-     <li> <p><strong>Hinzufügen von Dokumenten zum Projekt und zu seinen Aufgaben und Problemen</strong>: Ermöglicht Benutzern das Hinzufügen von Dokumenten zu einem Projekt (oder das Hinzufügen von Dokumenten zu Aufgaben und Problemen innerhalb des Projekts), nachdem das Projekt als abgeschlossen oder ungültig markiert wurde.</p> <p>Diese Option gilt nicht für Projekte, die noch nicht genehmigt wurden.</p> </li> 
-     <li> <p><strong>Vorlagen anhängen</strong>: Ermöglicht Benutzern, Vorlagen an ein Projekt anzuhängen, nachdem das Projekt als abgeschlossen oder tot markiert wurde.</p> <p>Diese Option gilt nicht für Projekte, die noch nicht genehmigt wurden.</p> </li> 
+     <li> <p><strong>Dokumente zum Projekt sowie zu seinen Aufgaben und Problemen hinzufügen</strong>: Ermöglicht Benutzern das Hinzufügen von Dokumenten zu einem Projekt (oder das Hinzufügen von Dokumenten zu Aufgaben und Problemen innerhalb des Projekts), nachdem das Projekt als Abgeschlossen oder Eingestellt markiert wurde.</p> <p>Diese Option gilt nicht für Projekte, die noch nicht genehmigt wurden.</p> </li> 
+     <li> <p><strong>Vorlagen anhängen</strong>: Ermöglicht Benutzern, Vorlagen an ein Projekt anzuhängen, nachdem das Projekt als „Abgeschlossen“ oder „Eingestellt“ gekennzeichnet wurde.</p> <p>Diese Option gilt nicht für Projekte, die noch nicht genehmigt wurden.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

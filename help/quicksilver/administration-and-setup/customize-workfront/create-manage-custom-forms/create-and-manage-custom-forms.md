@@ -4,7 +4,7 @@ user-type: administrator
 content-type: reference
 product-area: system-administration
 navigation-topic: customize-workfront
-description: Sie können ein benutzerdefiniertes Formular erstellen, das Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
+description: Sie können ein benutzerdefiniertes Formular erstellen, das Benutzerinnen und Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -21,12 +21,12 @@ ht-degree: 2%
 
 <!-- Audited: 1/2024 -->
 
-Sie können ein benutzerdefiniertes Formular erstellen, das Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
+Sie können ein benutzerdefiniertes Formular erstellen, das Benutzerinnen und Benutzer an ein Workfront-Objekt anhängen können. Benutzer, die an dem Objekt arbeiten, können das benutzerdefinierte Formular ausfüllen, um Informationen über das Objekt bereitzustellen.
 
-Die Anzahl der benutzerdefinierten Formulare, die Sie in Ihrer Workfront-Instanz erstellen können, ist nicht beschränkt. Die Grenze für benutzerdefinierte Formulare, die Sie an ein Objekt anhängen können, beträgt 10.
+Die Anzahl der benutzerdefinierten Formulare, die Sie in Ihrer Workfront-Instanz erstellen können, ist unbegrenzt. Die maximale Anzahl benutzerdefinierter Formulare, die Sie an ein Objekt anhängen können, beträgt 10.
 
 Dieser Abschnitt enthält die folgenden Artikel und Unterabschnitte:
 
 * [Übersicht über benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/custom-forms-overview.md)
-* [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
-* [Benutzerdefinierte Formulare und Felder verwalten](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)
+* [Entwerfen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form-toc.md)
+* [Verwalten von benutzerdefinierten Formularen und Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/manage-custom-forms-toc.md)

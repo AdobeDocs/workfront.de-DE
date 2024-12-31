@@ -1,10 +1,10 @@
 ---
-title: Zugriff auf die Liste der Status von Systemaufgaben
+title: Zugriff auf die Liste der Systemaufgabenstatus
 user-type: administrator
 content-type: reference;how-to-procedural
 product-area: system-administration;projects
 navigation-topic: create-custom-status-and-priority-labels
-description: Sie können den Status einer Aufgabe verwenden, um Benutzern anzuzeigen, in welchem Entwicklungsstadium sich eine Aufgabe zu einem bestimmten Zeitpunkt befindet.
+description: Sie können den Status einer Aufgabe verwenden, um Benutzern zu zeigen, in welchem Entwicklungsstadium sich eine Aufgabe zu einem bestimmten Zeitpunkt befindet.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,13 +16,13 @@ ht-degree: 0%
 
 ---
 
-# Zugriff auf die Liste der Systemaufgabenstatus
+# Zugriff auf die Liste der Status von Systemaufgaben
 
-Sie können den Status einer Aufgabe verwenden, um Benutzern anzuzeigen, in welchem Entwicklungsstadium sich eine Aufgabe zu einem bestimmten Zeitpunkt befindet.
+Sie können den Status einer Aufgabe verwenden, um Benutzern zu zeigen, in welchem Entwicklungsstadium sich eine Aufgabe zu einem bestimmten Zeitpunkt befindet.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,8 +31,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -43,38 +43,38 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Status von Zugriffsaufgaben
+## Zugriff auf Aufgabenstatus
 
 Informationen zum Bearbeiten des Systemstatus oder zum Erstellen neuer benutzerdefinierter Status finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Projekteinstellungen** > **Status**.
+1. Klicken Sie **Projektvoreinstellungen** > **Status**.
 
-1. Klicken Sie auf die Registerkarte **Aufgaben**.
+1. Klicken Sie auf **Registerkarte** Aufgaben“.
 
-   Die in Workfront verfügbaren Aufgabenstatus werden auf dieser Registerkarte aufgelistet.
+   Auf dieser Registerkarte werden die in Workfront verfügbaren Aufgabenstatus aufgeführt.
 
    ![](assets/task-status.png)
 
-   Weitere Informationen zu den einzelnen Status der integrierten Systemaufgaben finden Sie unter [Status der Systemaufgaben](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
+   Einzelheiten zu den einzelnen integrierten Systemaufgabenstatus finden Sie unter [Systemaufgabenstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 
-## Über das Erstellen benutzerdefinierter Aufgabenstatus
+## Informationen zum Erstellen benutzerdefinierter Aufgabenstatus
 
 Als Workfront-Administrator können Sie Workfront benutzerdefinierte Systemaufgabenstatus hinzufügen.
 
-Als Gruppeninhaber können Sie benutzerdefinierte Aufgabenstatus für Ihre Gruppe hinzufügen.
+Als Gruppeneigentümer können Sie benutzerdefinierte Aufgabenstatus für Ihre Gruppe hinzufügen.
 
-Wenn Sie einen benutzerdefinierten Aufgabenstatus erstellen, müssen Sie immer den neuen Status mit einem vorhandenen Systemstatus gleichsetzen. Sie müssen das Verhalten der Systemstatus verstehen, um zu erfahren, welcher Status angemessen ist, um Ihren benutzerspezifischen Status mit anzugleichen. Nachdem Sie Ihren Gleichheitsstatus ausgewählt haben, kann diese Auswahl nicht mehr geändert werden.
+Wenn Sie einen benutzerdefinierten Aufgabenstatus erstellen, müssen Sie den neuen Status immer mit einem vorhandenen Systemstatus gleichsetzen. Sie müssen das Verhalten der Systemstatus verstehen, um herauszufinden, welcher Status für die Gleichsetzung Ihres benutzerdefinierten Status geeignet ist. Nachdem Sie den Status „Gleichgestellt“ ausgewählt haben, kann diese Auswahl nicht mehr geändert werden.
 
 Weitere Informationen zum Erstellen benutzerdefinierter Status, Bearbeiten von Systemstatus oder Auswählen neuer Standardstatus für Ihre Aufgaben finden Sie unter [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

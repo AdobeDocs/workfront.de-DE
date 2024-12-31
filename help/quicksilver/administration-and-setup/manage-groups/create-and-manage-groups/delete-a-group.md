@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management;setup
 navigation-topic: create-and-manage-groups
-title: Eine Gruppe löschen
-description: Sie können eine von Ihnen verwaltete Gruppe löschen. Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
+title: Löschen einer Gruppe
+description: Sie können eine von Ihnen verwaltete Gruppe löschen. Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -17,13 +17,13 @@ ht-degree: 2%
 
 # Löschen einer Gruppe
 
-Sie können eine von Ihnen verwaltete Gruppe löschen. Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
+Sie können eine von Ihnen verwaltete Gruppe löschen. Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe).
 
 Informationen zum Löschen einer Untergruppe finden Sie unter [Verwalten einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/manage-a-group.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,8 +32,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -44,13 +44,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>Sie müssen Gruppenadministrator der Gruppe oder Systemadministrator sein.</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -58,16 +58,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
 
-1. Wählen Sie die Gruppe aus, die Sie löschen möchten, und klicken Sie dann auf das Löschsymbol ![](assets/delete.png).
+1. Wählen Sie die Gruppe aus, die Sie löschen möchten, und klicken Sie dann auf das Symbol Löschen ![](assets/delete.png).
 
    >[!IMPORTANT]
    >
-   >Wenn Sie eine Gruppe oder Untergruppe löschen, müssen Sie die Benutzer, Arbeitselemente und alle Untergruppen, die dieser Gruppe derzeit zugewiesen sind, beibehalten. Um sicherzustellen, dass die Objekte erhalten bleiben, müssen Sie die Objekte der Gruppe im folgenden Schritt einer anderen Gruppe zuweisen.
+   >Wenn Sie eine Gruppe oder Untergruppe löschen, müssen Sie die Benutzenden, Arbeitselemente und alle Untergruppen beibehalten, die ihr derzeit zugewiesen sind. Um sicherzustellen, dass sie erhalten bleiben, müssen Sie bei einer Eingabeaufforderung die Objekte der Gruppe im folgenden Schritt einer anderen Gruppe zuweisen.
 
-1. Geben Sie im angezeigten Feld **Gruppe löschen** mit der Eingabe den Namen der Gruppe ein, in die Sie die Mitglieder, Arbeitselemente und Untergruppen der Gruppe, die Sie löschen möchten, verschieben möchten.
+1. Beginnen Sie mit der Eingabe in das **Gruppe löschen** angezeigte Feld und wählen Sie dann den Namen der Gruppe aus, in die Sie die Mitglieder, Arbeitselemente und Untergruppen der zu löschenden Gruppe verschieben möchten.
 
-   Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol &quot;![](assets/info-icon.png)&quot;klicken, das neben der Gruppe angezeigt wird. Dadurch wird eine QuickInfo mit Informationen zur Gruppe angezeigt, z. B. die Hierarchie der Gruppen darüber und deren Administratoren.
+   Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol ![](assets/info-icon.png) neben der Gruppe klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.
 
-1. Klicken Sie auf **Löschen Sie sie**.
+1. Klicken Sie **Löschen**.

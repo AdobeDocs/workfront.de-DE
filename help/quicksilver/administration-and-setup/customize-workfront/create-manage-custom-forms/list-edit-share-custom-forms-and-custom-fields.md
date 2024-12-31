@@ -1,6 +1,6 @@
 ---
-title: Benutzerdefinierte Formulare und Widgets auflisten und bearbeiten, die benutzerdefinierten Formularen hinzugefügt werden
-description: Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unternehmens sowie der benutzerdefinierten Felder und Widgets anzeigen, die ihnen hinzugefügt wurden, können Sie mithilfe der Optionen in der Symbolleiste deren Eigenschaften bearbeiten, einschränken, für wen sie freigegeben wurden, sie kopieren und löschen. Sie können auch andere Informationen in den angezeigten Spalten anzeigen, z. B. mit welchen Objekttypen die einzelnen benutzerdefinierten Formulare verknüpft sind.
+title: Auflisten und Bearbeiten benutzerdefinierter Formulare und Widgets, die benutzerdefinierten Formularen hinzugefügt wurden
+description: Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unternehmens und der ihnen hinzugefügten benutzerdefinierten Felder und Widgets anzeigen, können Sie Optionen in der Symbolleiste verwenden, um ihre Eigenschaften zu bearbeiten, zu begrenzen, für wen sie freigegeben sind, sie zu kopieren und zu löschen. Sie können auch andere Informationen in den angezeigten Spalten anzeigen, z. B. mit welchen Objekttypen jedes benutzerdefinierte Formular verknüpft ist.
 author: Caroline
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -14,15 +14,15 @@ ht-degree: 0%
 ---
 
 
-# Benutzerdefinierte Formulare und Widgets auflisten und bearbeiten, die benutzerdefinierten Formularen hinzugefügt werden
+# Auflisten und Bearbeiten benutzerdefinierter Formulare und Widgets, die benutzerdefinierten Formularen hinzugefügt wurden
 
-Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unternehmens sowie der benutzerdefinierten Felder und Widgets anzeigen, die ihnen hinzugefügt wurden, können Sie mithilfe der Optionen in der Symbolleiste deren Eigenschaften bearbeiten, einschränken, für wen sie freigegeben wurden, sie kopieren und löschen. Sie können auch andere Informationen in den angezeigten Spalten anzeigen, z. B. mit welchen Objekttypen die einzelnen benutzerdefinierten Formulare verknüpft sind.
+Wenn Sie eine Liste der benutzerdefinierten Formulare Ihres Unternehmens und der ihnen hinzugefügten benutzerdefinierten Felder und Widgets anzeigen, können Sie Optionen in der Symbolleiste verwenden, um ihre Eigenschaften zu bearbeiten, zu begrenzen, für wen sie freigegeben sind, sie zu kopieren und zu löschen. Sie können auch andere Informationen in den angezeigten Spalten anzeigen, z. B. mit welchen Objekttypen jedes benutzerdefinierte Formular verknüpft ist.
 
-Weitere Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten Formularen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -30,46 +30,46 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
  <tbody> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Adobe Workfront-Plan*</p> </td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td>Plan</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von Administratorzugriff für bestimmte Bereiche</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p> <p>Informationen dazu, wie Workfront-Administratoren diesen Zugriff gewähren, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md" class="MCXref xref">Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welche Konfigurationen für Plan, Lizenztyp oder Zugriffsstufe Sie verwenden.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, welchen Plan, Lizenztyp oder welche Zugriffsebenen Sie haben.
 
-## Benutzerdefinierte Formulare und Elemente auflisten und bearbeiten, die benutzerdefinierten Formularen hinzugefügt werden
+## Auflisten und Bearbeiten benutzerdefinierter Formulare und Elemente, die benutzerdefinierten Formularen hinzugefügt wurden
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
 
-1. Klicken Sie auf **Benutzerdefinierter Forms**.
+1. Klicken Sie **Benutzerdefinierte Forms**.
 
-   Wenn die Registerkarte **Forms** ausgewählt ist, werden alle benutzerdefinierten Formulare Ihres Unternehmens zusammen mit ihren Beschreibungen, den ihnen zugeordneten Objekttypen, den Namen der Benutzer, die sie erstellt haben, und ob sie im System aktiv sind oder nicht, aufgelistet.
+   Wenn die Registerkarte **Forms** ausgewählt ist, werden alle benutzerdefinierten Formulare Ihres Unternehmens zusammen mit ihren Beschreibungen, den mit ihnen verknüpften Objekttypen, den Namen der Benutzer, die sie erstellt haben, und unabhängig davon, ob sie im System aktiv sind oder nicht, aufgelistet.
 
    Informationen dazu, was Sie tun können, wenn Sie ein benutzerdefiniertes Formular in der Liste auswählen, finden Sie in den folgenden Artikeln:
 
-   * [Benutzerdefiniertes Formular erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
+   * [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
    * [Freigeben eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/share-access-to-a-custom-form.md)
    * [Kopieren Sie ein benutzerdefiniertes Formular, um ein neues zu erstellen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/list-edit-share-custom-forms-and-custom-fields.md)
    * [Löschen oder Deaktivieren eines benutzerdefinierten Formulars](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-or-deactivate-a-custom-form.md)
 
-1. Klicken Sie auf die Registerkarte **Felder**.
+1. Klicken Sie auf die **Felder**.
 
-   Auf dieser Registerkarte werden die benutzerdefinierten Felder und Widgets aufgelistet, die Benutzer in Ihrem System zu benutzerdefinierten Formularen hinzugefügt haben, sowie Informationen zum Typ der einzelnen Elemente, Anweisungen und Details dazu sowie eine Liste der benutzerdefinierten Formulare, die sie enthalten.
+   Auf dieser Registerkarte werden die benutzerdefinierten Felder und Widgets aufgelistet, die Benutzende in Ihrem System benutzerdefinierten Formularen hinzugefügt haben, zusammen mit Informationen zum Typ jedes Elements, Anweisungen und Details dazu sowie eine Liste der benutzerdefinierten Formulare, die es enthalten.
 
    Diese Liste enthält nur benutzerdefinierte Formularelemente, die mindestens eines der folgenden Kriterien erfüllen:
 
    * Systemweit bearbeitbar
    * Systemweit sichtbar
-   * Erstellt von Ihnen
-   * Für Sie freigegeben, mit Zugriff auf &quot;Anzeigen&quot;oder &quot;Verwalten&quot;
+   * Von Ihnen erstellt
+   * Für Sie freigegeben, mit Zugriff anzeigen oder verwalten
 
    >[!NOTE]
    >
@@ -81,9 +81,9 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    * [Konfigurieren der Freigabe für benutzerdefinierte Felder und Widgets in einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/manage-a-form/share-custom-fields.md)
    * [Löschen eines benutzerdefinierten Felds oder Widgets aus dem System](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/delete-a-custom-field.md)
 
-1. Wählen Sie die Registerkarte **Abschnitte** aus und stellen Sie sicher, dass **Parametergruppe** als **Ansicht** für die Liste ausgewählt ist.
+1. Wählen Sie die **Abschnitte** und stellen Sie sicher, dass **Parametergruppe** als **Ansicht** für die Liste ausgewählt ist.
 
-   In dieser Ansicht werden alle Abschnittsumbrüche zusammen mit einer Liste benutzerdefinierter Formulare mit den einzelnen Abschnittsumbrüchen angezeigt.
+   In dieser Ansicht werden alle Abschnittsumbrüche zusammen mit einer Liste von benutzerdefinierten Formularen, die jeden Abschnittsumbruch enthalten, angezeigt.
 
-   Informationen zum Bearbeiten eines benutzerdefinierten Abschnitts, den Sie in der Liste auswählen, finden Sie unter [Formular organisieren und in der Vorschau anzeigen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
+   Informationen zum Bearbeiten eines benutzerdefinierten Abschnitts, den Sie in der Liste auswählen, finden Sie unter [Organisieren und Vorschau eines Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md).
 

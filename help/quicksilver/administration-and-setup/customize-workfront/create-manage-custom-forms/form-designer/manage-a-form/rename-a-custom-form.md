@@ -3,7 +3,7 @@ title: Umbenennen eines benutzerdefinierten Formulars
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
-description: Sie können vorhandene benutzerdefinierte Formulare mit dem Formularentwickler umbenennen.
+description: Sie können vorhandene benutzerdefinierte Formulare mit dem Formular-Designer umbenennen.
 author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
@@ -17,21 +17,21 @@ ht-degree: 0%
 
 # Umbenennen eines benutzerdefinierten Formulars
 
-Sie können ein benutzerdefiniertes Formular jederzeit umbenennen, nachdem es mit dem Formularentwickler erstellt wurde.
+Sie können ein benutzerdefiniertes Formular jederzeit umbenennen, nachdem es mit dem Formular-Designer erstellt wurde.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzuführen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader"> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td role="rowheader"> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
@@ -41,30 +41,30 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel durchzu
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Administratorzugriff auf benutzerdefinierte Formulare</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Administrativer Zugriff auf benutzerdefinierte Formulare</p></td> 
   </tr>  
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Umbenennen eines benutzerdefinierten Formulars mit dem Formularentwickler
+## Umbenennen eines benutzerdefinierten Formulars mit dem Formular-Designer
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Benutzerdefinierter Forms** .
+1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
 
-   In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihr Unternehmen erstellt wurden. Sie können auch sehen, wer jedes Formular erstellt hat, mit welchem Objekttyp es funktioniert und ob es aktiv ist.
+   In der angezeigten Ansicht können Sie alle benutzerdefinierten Formulare überprüfen, die für Ihre Organisation erstellt wurden. Sie können auch sehen, wer die einzelnen Formulare erstellt hat, mit welchem Objekttyp sie funktionieren und ob sie aktiv sind.
 
-1. Wählen Sie das benutzerdefinierte Formular aus, das Sie umbenennen möchten, und klicken Sie dann auf das Symbol ![Bearbeiten](assets/edit-icon2.png).
+1. Wählen Sie das benutzerdefinierte Formular aus, das Sie umbenennen möchten, und klicken Sie dann auf ![Symbol „Bearbeiten](assets/edit-icon2.png).
 1. Um den Titel zu ändern, klicken Sie auf den Formularnamen.
-1. Um die Beschreibung zu ändern, klicken Sie in das Textfeld &quot;Beschreibung&quot;.
+1. Um die Beschreibung zu ändern, klicken Sie in das Textfeld Beschreibung.
 
-1. Klicken Sie auf **Speichern und schließen**.
+1. Klicken Sie **Speichern und schließen**.
 
    >[!TIP]
    >
-   >Sie können jederzeit während der Erstellung eines benutzerdefinierten Formulars auf **Anwenden** klicken, um Ihre Änderungen zu speichern und das Formular offen zu halten.
+   >Sie können jederzeit auf **Anwenden** klicken, während Sie ein benutzerdefiniertes Formular erstellen, um Ihre Änderungen zu speichern und das Formular offen zu halten.

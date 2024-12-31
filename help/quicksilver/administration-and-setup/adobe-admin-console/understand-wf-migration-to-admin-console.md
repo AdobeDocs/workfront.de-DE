@@ -3,8 +3,8 @@ user-type: Admin
 content-type: reference
 product-area: system-administration;workfront-integrations
 navigation-topic: adobe-admin-console
-title: Informationen zur Migration von Workfront zu Adobe Admin Console
-description: In diesem Artikel wird im Allgemeinen der Prozess der Umstellung eines Unternehmens auf die Adobe Admin Console beschrieben, sodass Sie als Workfront-Administrator wissen, was zu erwarten ist.
+title: Grundlagen der Migration von Workfront zur Adobe Admin Console
+description: In diesem Artikel wird der Prozess des Wechsels eines Unternehmens in die Adobe Admin Console allgemein beschrieben, sodass Sie als Workfront-Administrator wissen, was Sie erwarten können.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -16,86 +16,86 @@ ht-degree: 0%
 
 ---
 
-# Informationen zur Migration von Workfront zu Adobe Admin Console
+# Grundlagen der Migration von Workfront zur Adobe Admin Console
 
-Adobe verändert die Verwaltung Ihrer Adobe Workfront-Benutzer und bringt Ihnen und Ihrem Unternehmen eine höhere Produktivität. Im Rahmen dieser Änderung migriert Adobe Ihre Workfront-Instanz und Ihre Benutzer in die Adobe Admin Console. Dies ist eine erforderliche Migration und hat keine Auswirkungen auf Berichte, Genehmigungspfade, Inhalte oder Assets. Dies wirkt sich auf die Verwaltung des Benutzerzugriffs und die Anmeldung Ihrer Benutzer aus.
+Adobe verändert die Verwaltung Ihrer Adobe Workfront-Benutzenden und steigert so Ihre Produktivität. Im Rahmen dieser Änderung migriert Adobe Ihre Workfront-Instanz und Benutzende zum Adobe Admin Console. Dies ist eine erforderliche Migration und hat keine Auswirkungen auf Berichte, Genehmigungspfade, Inhalte oder Assets. Dies wirkt sich darauf aus, wie Sie den Benutzerzugriff verwalten und wie sich Ihre Benutzer anmelden.
 
-In diesem Artikel wird im Allgemeinen der Prozess der Umstellung eines Unternehmens auf die Adobe Admin Console beschrieben, sodass Sie als Workfront-Administrator wissen, was zu erwarten ist.
+In diesem Artikel wird der Prozess des Wechsels eines Unternehmens in die Adobe Admin Console allgemein beschrieben, sodass Sie als Workfront-Administrator wissen, was Sie erwarten können.
 
-Informationen dazu, wie Sie mit der Adobe Admin Console Ihre Adobe-Berechtigungen in Ihrer gesamten Organisation verwalten können, finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Informationen dazu, wie Sie mit der Adobe Admin Console Ihre Adobe-Berechtigungen im gesamten Unternehmen verwalten können, finden Sie unter [Verwalten von Benutzenden in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 ## Was ändert sich?
 
 Im Rahmen der Migration wechselt Ihre Benutzerverwaltung von der Workfront-Anwendung zur Adobe Admin Console mit den folgenden Administratorrollen:
 
-* **Systemadministratoren** sind Superbenutzer mit Berechtigungen aller Administratoren. Sie weisen alle Administratorrollen zu und verwalten Benutzer für die gesamte Organisation für alle Produkte.
+* **Systemadministratoren** sind Super-Benutzer mit den Berechtigungen aller Administratoren. Sie weisen alle administrativen Rollen zu und verwalten Benutzer für die gesamte Organisation für alle Produkte.
 
-* **Produktprofiladministratoren (Workfront-Systemadministratoren)** verwalten, welche Benutzer in der Organisation Zugriff auf Workfront erhalten.
+* **Produktprofil-Administratoren (Workfront-Systemadministratoren)** verwalten, welche Benutzer in der Organisation Zugriff auf Workfront erhalten.
 
-* **Benutzer melden sich mit Adobe Identity an.** Nachdem Adobe bestehende Benutzer in die Adobe Admin Console migriert wurde, melden sich die Benutzer mit ihrer neuen Adobe-Identität - entweder mit einer Adobe ID- oder Adobe-Federated ID (SSO) - bei ihren Workfront-Instanzen an.
+* **Benutzer melden sich mit Adobe Identity an.** Nach der Adobe-Migration von Bestandskunden zur Adobe Admin Console melden sich diese mit ihrer neuen Adobe-Identität bei ihren Workfront-Instanzen an - entweder als Adobe ID- oder Adobe-Federated ID (SSO).
 
-* **Die Verwaltung aller anderen Funktionen** innerhalb der Workfront-Anwendung selbst, einschließlich der Verwaltung von Funktionen, Benutzerrollen, Arbeitsbereichen, Funktionen und Verhaltensweisen, ändert sich nicht.
+* **Die Verwaltung aller anderen Funktionen, einschließlich der Verwaltung von Funktionen** Benutzerrollen, Arbeitsbereichen, Funktionen und Verhaltensweisen, innerhalb des Workfront-Programms selbst ändert sich nicht.
 
-## Timeline zur Migration Journey
+## Zeitleiste für die Migration von Journey
 
-Adobe migriert zuerst Ihre Workfront-Instanz in die Adobe Admin Console und migriert dann alle vorhandenen Benutzer mit verifizierten E-Mail-Adressen. Wenn Sie Systemadministrator oder Workfront Product Profile-Administrator (Workfront-Systemadministrator) sind, erhalten Sie E-Mails, die Sie durch die Migration-Journey führen. Im Folgenden finden Sie eine Timeline zu den erwarteten Funktionen:
+Adobe migriert zuerst Ihre Workfront-Instanz zur Adobe Admin Console und dann alle bestehenden Benutzerinnen und Benutzer mit verifizierten E-Mail-Adressen. Wenn Sie System- oder Workfront-Produktprofil-Administrator (Workfront-Systemadministrator) sind, erhalten Sie E-Mails, die Sie durch die Migrations-Journey führen. Hier ist eine Zeitleiste dessen, was Sie erwarten können:
 
-### Workfront Migration zu Adobe Admin Console Complete
+### Workfront-Migration zu Adobe Admin Console abgeschlossen
 
-Systemadministratoren erhalten eine E-Mail, wenn die Migration von Workfront zu Adobe Admin Console abgeschlossen ist. Zu diesem Zeitpunkt müssen Systemadministratoren möglicherweise einige erforderliche Schritte **vor Beginn der Benutzermigration durchführen**, um die Auswirkungen auf Workfront-Benutzer zu minimieren.
+Systemadministratoren erhalten eine E-Mail, wenn die Migration von Workfront zu Adobe Admin Console abgeschlossen ist. Zu diesem Zeitpunkt müssen Systemadministratoren möglicherweise einige erforderliche Schritte ausführen **bevor die Benutzermigration gestartet wird** um die Auswirkungen auf Workfront-Benutzer zu minimieren.
 
-* **Wenn sich Ihre Workfront-Benutzer derzeit mit SSO** anmelden, müssen Sie SSO in der Adobe Admin Console einrichten, damit sich Ihre Benutzer weiterhin mit SSO anmelden können. Wenn Ihre Workfront-Benutzer derzeit keine SSO verwenden, Sie sie jedoch in Adobe Admin Console einrichten möchten, können Sie dies an dieser Stelle auf der Journey tun.
-* **Wenn Sie bereits andere Adobe-Produkte in Ihrer Adobe Admin Console** verwalten, kann Adobe Ihre Zustimmung einholen, um Benutzer automatisch in Ihre bestehende Konsole zu migrieren. Klicken Sie in der E-Mail auf die Schaltfläche **Erste Schritte** , um zur Einverständnisseite zu navigieren.
-* **Wenn Sie den Lizenztyp &quot;Anforderer&quot;** bereits gelöscht haben, wird er Ihrem System hinzugefügt. Diesem Lizenztyp werden keine Benutzer zugewiesen, er ist jedoch für die Synchronisation zwischen Workfront und Adobe Admin Console erforderlich. In Bezug auf den Lizenztyp &quot;Anforderer&quot;ist keine Aktion von Ihnen erforderlich.
+* **Wenn sich Ihre Workfront-Benutzer derzeit mit SSO** anmelden, müssen Sie SSO auf der Adobe Admin Console einrichten, damit sich Ihre Benutzer weiterhin mit SSO anmelden können. Wenn Ihre Workfront-Benutzenden derzeit SSO nicht verwenden, es jedoch auf Adobe Admin Console einrichten möchten, können Sie dies an dieser Stelle auf der Migrations-Journey tun.
+* **Wenn Sie bereits andere Adobe-Produkte in Ihrer Adobe Admin Console** verwalten, kann Adobe Ihre Einwilligung einholen, um Benutzerinnen und Benutzer automatisch in Ihre bestehende Konsole zu migrieren. Klicken Sie in **E-Mail auf** Erste Schritte“, um zur Einverständnisseite zu navigieren.
+* **Wenn Sie den Anfordererlizenztyp bereits gelöscht haben** wird er Ihrem System hinzugefügt. Diesem Lizenztyp werden keine Benutzer zugewiesen. Er ist jedoch für die Synchronisierung zwischen Workfront und Adobe Admin Console erforderlich. Sie müssen keine Maßnahmen bezüglich des Lizenztyps des Antragstellers ergreifen.
 
-Die Benutzerverwaltung ändert sich derzeit nicht. Workfront-Administratoren verwalten Benutzer weiterhin in Workfront und Benutzer melden sich weiterhin mit ihrer Workfront ID oder SSO an, bis die Benutzermigration abgeschlossen ist.
+An der Benutzerverwaltung ändert sich derzeit nichts. Workfront-Administratoren verwalten weiterhin Benutzende in Workfront und Benutzende melden sich weiterhin mit ihrer Workfront ID oder SSO an, bis die Benutzermigration abgeschlossen ist.
 
 ### Benutzermigration planen
 
-Nachdem der Systemadministrator die im vorherigen Abschnitt beschriebenen Voraussetzungen erfüllt hat, plant Adobe automatisch die Benutzermigration für 30 Tage, nachdem diese Voraussetzungen erfüllt sind, und kommuniziert mit Workfront-Produktprofiladministratoren (Workfront-Systemadministratoren), um die Benutzermigration zu verwalten.
+Nachdem der Systemadministrator die im vorherigen Abschnitt beschriebenen Voraussetzungen erfüllt hat, plant Adobe Ihre Benutzermigration automatisch für 30 Tage, nachdem diese Voraussetzungen erfüllt sind, und kommuniziert mit Workfront-Produktprofiladministratoren (Workfront-Systemadministratoren), um die Benutzermigration zu verwalten.
 
-Administratoren des Workfront-Produktprofils (Workfront-Systemadministratoren):
+Workfront-Produktprofil-Administratoren (Workfront-Systemadministratoren):
 
-* Erhalten Sie eine E-Mail mit dem geplanten Startdatum für die Benutzermigration (ca. 30 Tage nach Abschluss dieser Voraussetzungen)
-* Rufen Sie die vorgesehene Workfront-Administrator-Konsole auf, in der der Benutzer sein Migrationsdatum ändern kann.
-
-  >[!NOTE]
-  >
-  >Aufgrund der Komplexität der Migration sind Datumsänderungen auf maximal 30 Tage nach dem geplanten Datum beschränkt. Wenden Sie sich an den Support , wenn Sie ein späteres Datum benötigen.
-
-* Erhalten einer Erinnerungsmail 1 Tag vor dem Startdatum der Benutzermigration
-
-### Benutzer für den Migrationstag vorbereiten
-
-Als Workfront-Produktprofiladministrator (Workfront-Systemadministrator) ist dafür verantwortlich, sicherzustellen, dass alle Benutzer auf den Migrationstag vorbereitet sind.
-
-* Bereiten Sie alle Benutzer auf die bevorstehende Migration auf Adobe Identity vor, indem Sie sie über Folgendes informieren:
-
-   * Wenn Benutzer migrieren, erhalten sie eine E-Mail von der Adobe, in der sie über die Änderung der Anmeldung bei Workfront informiert werden. Die Benutzer werden eingeladen, erstmals eine Einladung zur Anmeldung mit Adobe Identity anzunehmen, indem sie sich entweder mit einer bestehenden Adobe ID anmelden oder eine neue mit derselben E-Mail-Adresse einrichten.
-
-### Was erwartet man am Migrationstag?
-
-* **Die Benutzermigration beginnt um Mitternacht des Workfront-Rechenzentrums des Kunden, in dem das Hosting erfolgt.**
-
-* **Adobe migriert zuerst automatisch Workfront-Administratoren.** Wenn Workfront-Administratoren zu Adobe Identity migriert werden, wird ihnen die Administratorrolle für das Adobe-Produktprofil (Workfront-Systemadministrator) zugewiesen. Vorhandene Rollen, die ein Benutzer vor der Migration hat, sind nicht betroffen.
+* Sie erhalten eine E-Mail mit dem geplanten Startdatum der Benutzermigration (etwa 30 Tage nach Abschluss dieser Voraussetzungen)
+* Erhalten Sie Zugriff auf die vorgesehene Workfront-Administratorkonsole, über die sie das Migrationsdatum ändern können
 
   >[!NOTE]
   >
-  >Während der Benutzermigration geht der Zugriff auf das Produkt nicht verloren. Wenn ein Benutzer während der Migration seines Benutzers angemeldet ist, hat dies keine Auswirkungen. Nach der nächsten Anmeldung müssen sie jedoch ihre Adobe Identity verwenden.
+  >Aufgrund der Komplexität der Migration sind Datumsänderungen auf maximal 30 Tage nach dem geplanten Datum beschränkt. Wenden Sie sich an den Support, wenn Sie ein späteres Datum benötigen.
+
+* Eine Erinnerungs-E-Mail 1 Tag vor dem Startdatum der Benutzermigration erhalten
+
+### Vorbereitung der Benutzer auf den Migrationstag
+
+Als Workfront-Produktprofil-Administrator (Workfront-Systemadministrator) sind Sie dafür verantwortlich, sicherzustellen, dass alle Benutzenden auf den Migrationstag vorbereitet sind.
+
+* Bereiten Sie alle Benutzerinnen und Benutzer auf die bevorstehende Migration zu Adobe Identity vor, indem Sie sie über Folgendes informieren:
+
+   * Wenn Benutzer migrieren, erhalten sie eine E-Mail von Adobe, in der sie über die Änderung der Art und Weise ihrer Anmeldung bei Workfront informiert werden. Die Benutzer werden aufgefordert, eine Einladung zur erstmaligen Anmeldung mit Adobe Identity anzunehmen, entweder durch Anmeldung mit einer bestehenden Adobe ID oder durch Einrichtung einer neuen mit derselben E-Mail-Adresse.
+
+### Was am Migrationstag zu erwarten ist
+
+* **Die Benutzermigration beginnt um Mitternacht im Hosting-Rechenzentrum des Kunden in Workfront.**
+
+* **Adobe migriert zuerst automatisch Workfront-Administratoren.** Wenn Workfront-Administratoren auf die Adobe-Identität migriert werden, wird ihnen die Rolle Adobe-Produktprofil-Administrator (Workfront-Systemadministrator) zugewiesen. Vorhandene Rollen, die ein Benutzer vor der Migration möglicherweise hat, sind davon nicht betroffen.
+
+  >[!NOTE]
+  >
+  >Während der Benutzermigration erfolgt kein Verlust des Zugriffs auf das Produkt. Wenn Benutzende während der Migration ihrer Benutzenden angemeldet sind, hat dies keine Auswirkungen. Bei der nächsten Anmeldung müssen sie jedoch ihre Adobe-Identität verwenden.
 
 
 
-* **Wenn Benutzer migriert werden, erhalten sie eine E-Mail von der Adobe, in der sie über die Änderung der Anmeldung bei Workfront informiert werden.** Benutzer werden aufgefordert, erstmals eine Einladung zur Anmeldung mit Adobe Identity anzunehmen, indem sie sich entweder mit einer bestehenden Adobe ID anmelden oder eine neue Adobe ID mit derselben E-Mail-Adresse einrichten.
+* **Wenn Benutzerinnen und Benutzer migriert werden, erhalten sie eine E-Mail von Adobe, in der sie über die Änderung der Art und Weise, wie sie sich bei Workfront anmelden, informiert werden.** Benutzer werden aufgefordert, eine Einladung zur erstmaligen Anmeldung mit Adobe Identity anzunehmen, entweder indem sie sich mit einer bestehenden Adobe ID anmelden oder indem sie eine neue Adobe ID mit derselben E-Mail-Adresse einrichten.
 
   Informationen zum Anmelden bei Workfront mit einer Adobe ID finden Sie unter [Bei Adobe Experience Cloud anmelden](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md#log-in-to-adobe-experience-cloud).
 
 ### Benutzermigration abgeschlossen
 
-Adobe benachrichtigt alle Systemadministratoren und Produktprofiladministratoren (Workfront-Systemadministratoren) per E-Mail, nachdem alle Administratoren und Benutzer migriert wurden. Derzeit melden sich alle Workfront-Benutzer für diese Instanz mit Adobe Identity bei Workfront an. Workfront-Systemadministratoren und Produktprofiladministratoren (Workfront-Systemadministratoren) können den Benutzerzugriff innerhalb der Adobe Admin Console verwalten. Wenn Kunden keine Form der Ordnersynchronisierung innerhalb der Admin Console verwenden, können sie den Zugriff auf Workfront innerhalb der Workfront-Anwendung weiterhin verwalten.
+Adobe benachrichtigt alle System- und Produktprofiladministratoren (Workfront-Systemadministratoren) per E-Mail, nachdem alle Administratoren und Benutzer migriert wurden. Zu diesem Zeitpunkt melden sich alle Workfront-Benutzer für diese Instanz mit Adobe Identity bei Workfront an. Workfront-System- und -Produktprofiladministratoren (Workfront-Systemadministratoren) können den Benutzerzugriff innerhalb von Adobe Admin Console verwalten. Wenn Kundinnen und Kunden keine Form der Ordnersynchronisierung in der Administratorkonsole verwenden, können sie den Zugriff auf Workfront weiterhin in der Workfront-Anwendung verwalten.
 
 ## Support erhalten
 
-Bei Fragen oder Anliegen folgen Sie den Schritten, die im Artikel [Support kontaktieren](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) beschrieben sind.
+Bei Fragen oder Bedenken folgen Sie den Schritten, die im Artikel [Wenden Sie sich an den Support](/help/quicksilver/workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md) beschrieben sind.
 
 
 

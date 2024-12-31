@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: best-practices-catalog
-title: Konfigurieren eines Blueprints
-description: Sie können Details der Projektvorlage oder der Organisationsstruktur konfigurieren, bevor Sie den Blueprint installieren.
+title: Blueprint konfigurieren
+description: Sie können Details zur Projektvorlage oder zur Organisationsstruktur konfigurieren, bevor Sie die Blueprint installieren.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Blueprint konfigurieren
 
-Sie können Details eines Blueprints konfigurieren, bevor Sie ihn installieren. Projektvorlagen und Blueprint-Typen für die Organisationsstruktur erfordern in der Regel, dass einige Voreinstellungen festgelegt und einige Eigenschaften zugeordnet werden. Andere Blueprint-Typen müssen möglicherweise nicht konfiguriert werden, und Sie installieren sie unverändert. Weitere Informationen zur Installation finden Sie unter [Blueprint installieren](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md).
+Sie können Details eines Blueprints konfigurieren, bevor Sie ihn installieren. Für Blueprint-Typen für Projektvorlagen und Organisationsstrukturen müssen in der Regel einige Voreinstellungen festgelegt und einige Eigenschaften zugeordnet werden. Für andere Blueprint-Typen ist möglicherweise keine Konfiguration erforderlich, und Sie werden sie unverändert installieren. Weitere Informationen zur Installation finden Sie unter [Blueprint installieren](/help/quicksilver/administration-and-setup/blueprints/blueprints-install.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -41,20 +41,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td>Sie müssen ein [!DNL Workfront] -Administrator sein. </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td>Sie müssen [!DNL Workfront] sein. </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Projektvorlagen-Blueprint konfigurieren
+## Konfigurieren eines Blueprints für Projektvorlagen
 
-1. Suchen Sie den gewünschten Blueprint.
-1. Klicken Sie auf **[!UICONTROL Installieren]** und wählen Sie dann eine Umgebung aus:
+1. Suchen Sie die Blueprint, die Sie verwenden möchten.
+1. Klicken Sie **[!UICONTROL Installieren]** und wählen Sie dann eine Umgebung aus:
 
    <table style="table-layout:auto">
         <tr>
@@ -63,56 +63,56 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     </tr>
     <tr>
         <td><strong>Sandbox-Vorschau</strong></td>
-        <td>Die Sandbox-Vorschau ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und an jedem Wochenende von Workfront aktualisiert wird.</td>
+        <td>Die Sandbox-Vorschau ist eine Testumgebung, die als Replikation Ihrer Live-Umgebung dient und jedes Wochenende von Workfront aktualisiert wird.</td>
     </tr>
     <tr>
-        <td><strong>Sandbox 1 &amp; 2</strong></td>
-        <td>Die Sandbox für benutzerdefinierte Aktualisierungen ist eine separate Testumgebung, die von Ihnen manuell aktualisiert wird. Es fallen zusätzliche Kosten an, um die Sandbox "Benutzerdefinierte Aktualisierung"zu erhalten.</td>
+        <td><strong>Sandbox 1 und 2</strong></td>
+        <td>Die benutzerdefinierte Aktualisierungs-Sandbox ist eine separate Testumgebung, die von Ihnen manuell aktualisiert wird. Es fallen zusätzliche Kosten an, um die benutzerdefinierte Aktualisierungs-Sandbox zu erhalten.</td>
     </tr>
    </table>
 
 1. Fahren Sie mit den folgenden Abschnitten fort:
 
-   * [[!UICONTROL Vorlagenvoreinstellungen]](#template-preferences)
+   * [[!UICONTROL Vorlageneinstellungen]](#template-preferences)
    * [[!UICONTROL Rollenzuordnung]](#role-mapping)
    * [[!UICONTROL Team-Zuordnung]](#team-mapping)
-   * [[!UICONTROL Firmenzuordnung]g](#company-mapping)
+   * [[!UICONTROL Unternehmenszuordnung]g](#company-mapping)
    * [[!UICONTROL Gruppenzuordnung]](#group-mapping)
 
-## [!UICONTROL Vorlagenvoreinstellungen] {#template-preferences}
+## [!UICONTROL Vorlageneinstellungen] {#template-preferences}
 
-Wählen Sie aus, wie die Vorlage installiert werden soll.
+Wählen Sie aus, wie Sie die Vorlage installieren möchten.
 
-Sie können vor der Installation des Blueprints auch den Vorlagenbesitz festlegen. Sie können Änderungen an diesen Feldern vornehmen, nachdem die Vorlage installiert wurde. Weitere Informationen finden Sie unter [Bearbeiten von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Sie können auch den Vorlagenbesitzer bestimmen, bevor Sie die Blueprint installieren. Sie können Änderungen an diesen Feldern vornehmen, nachdem die Vorlage installiert wurde. Weitere Informationen finden Sie unter [Projektvorlagen bearbeiten](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
 ![[!UICONTROL Vorlageneinstellungen] Abschnitt](assets/Blueprints_TemplatePreferences.png)
 
-1. Geben Sie im Abschnitt [!UICONTROL Vorlageneinstellungen] einen neuen Vorlagennamen an.
+1. Geben [!UICONTROL  im Abschnitt „Vorlageneinstellungen] einen neuen Vorlagennamen an.
 1. Geben Sie Folgendes an:
 
    <table style="table-layout:auto">
     <tr>
-        <td><strong>[!UICONTROL Vorlageneigentümer]<strong></td>
-        <td>Diese Person erhält [!UICONTROL Manager] -Berechtigungen für die Vorlage und wird zum Projekteigentümer, wenn die Vorlage zum Erstellen eines Projekts verwendet wird.</td>
+        <td><strong>[!UICONTROL Vorlagenbesitzer]<strong></td>
+        <td>Diese Person erhält [!UICONTROL Manage]-Berechtigungen für die Vorlage und wird zum Projektbesitzer, wenn die Vorlage zum Erstellen eines Projekts verwendet wird.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Vorlagen-Sponsor]</strong></td>
-        <td>Diese Person ist in der Regel ein Manager, Führungskräfte oder Interessenträger, der wissen muss, was mit dem Projekt geschieht. Der Projektsponsor erhält keinen zusätzlichen Zugriff auf das Projekt, wird aber zu den E-Mail-Benachrichtigungen für das Projekt hinzugefügt.</td>
+        <td><strong>[!UICONTROL Vorlagensponsor]</strong></td>
+        <td>Diese Person ist in der Regel ein Manager, eine Führungskraft oder ein Stakeholder, der wissen muss, was mit dem Projekt geschieht. Der Projektsponsor erhält keinen zusätzlichen Zugriff auf das Projekt, wird aber zu den E-Mail-Benachrichtigungen für das Projekt hinzugefügt.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Portfolio]</strong></td>
-        <td>Dies ist das Portfolio, zu dem das Projekt bei seiner Erstellung gehören wird.</td>
+        <td><strong>[!UICONTROL-Portfolio]</strong></td>
+        <td>Dies ist das Portfolio, dem das Projekt bei seiner Erstellung angehören wird.</td>
     </tr>
     <tr>
-        <td><strong>[!UICONTROL Programm]</strong></td>
-        <td>Dies ist das Programm, zu dem das Projekt bei seiner Erstellung gehören wird.</td>
+        <td><strong>[!UICONTROL-Programm]</strong></td>
+        <td>Dies ist das Programm, zu dem das Projekt gehören wird, wenn es erstellt wird.</td>
     </tr>
    </table>
 
-1. Wählen Sie aus, ob die Vorlage als aktiv oder inaktiv installiert ist.
-1. Wählen Sie aus, ob Sie definierte neue Ausgabevoreinstellungen verwenden möchten, sofern Voreinstellungen verfügbar sind.
+1. Auswählen, ob die Vorlage als aktiv oder inaktiv installiert werden soll.
+1. Wählen Sie aus, ob die Voreinstellungen für definierte neue Probleme verwendet werden sollen, sofern Voreinstellungen verfügbar sind.
 
-   Klicken Sie auf **[!UICONTROL Siehe Problemeinstellungen]** , um die spezifischen Voreinstellungen zu überprüfen, die mit dem Blueprint installiert werden. Projekte, die aus der importierten Vorlage erstellt wurden, verwenden diese Voreinstellungen für neue Probleme, die im Abschnitt [!UICONTROL Probleme] hinzugefügt wurden.
+   Klicken Sie **[!UICONTROL Siehe Problemeinstellungen]**, um die spezifischen Einstellungen zu überprüfen, die mit der Blueprint installiert werden. Projekte, die aus der importierten Vorlage erstellt wurden, verwenden diese Voreinstellungen für neue Probleme, die im Abschnitt [!UICONTROL Probleme] hinzugefügt wurden.
 
    <table style="table-layout:auto"> 
     <col> 
@@ -120,31 +120,31 @@ Sie können vor der Installation des Blueprints auch den Vorlagenbesitz festlege
     <tbody> 
      <tr> 
       <td role="rowheader"><strong>Warteschlangen-Themen-Gruppen</strong></td> 
-      <td> <p>Themengruppen in der Warteschlange definieren die höchste Ebene von Kategorien für die Probleme oder Anforderungen. Benutzer zeigen Themengruppen als Menüoptionen an, wenn sie auswählen, wo Anforderungen gesendet werden sollen. Eine Themengruppe kann mehrere Warteschlangenthemen enthalten. Weitere Informationen finden Sie unter <a href="../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Themengruppen erstellen</a>. </p> </td> 
+      <td> <p>Warteschlangen-Themengruppen definieren die höchste Ebene von Kategorien für die Probleme oder Anfragen. Benutzende zeigen Themengruppen als Menüoptionen an, wenn sie auswählen, wohin sie Anfragen senden sollen. Eine Themengruppe kann mehrere Warteschlangenthemen enthalten. Weitere Informationen finden Sie unter <a href="../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md" class="MCXref xref">Themengruppen erstellen</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Warteschlangen-Themen</strong></td> 
-      <td> <p>Warteschlangenthemen funktionieren in Verbindung mit Routing-Regeln, um Probleme oder Anforderungen zuzuweisen. Dies sind die Menüoptionen, die Benutzer nach Auswahl einer Themengruppe auswählen, wenn sie ein Problem oder eine Anfrage eingeben. Weitere Informationen finden Sie unter <a href="../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Themen für Warteschlangen erstellen</a>. </p> </td> 
+      <td> <p>Warteschlangenthemen arbeiten mit Routing-Regeln zusammen, um Probleme oder Anfragen zuzuweisen. Dies sind die Menüoptionen, die Benutzende bei der Eingabe eines Problems oder einer Anfrage auswählen, nachdem sie eine Themengruppe ausgewählt haben. Weitere Informationen finden Sie unter <a href="../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md" class="MCXref xref">Warteschlangenthemen erstellen</a>. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Routing-Regeln</strong></td> 
-      <td>Routing-Regeln senden Probleme oder Anforderungen an bestimmte Auftragsrollen , Benutzer oder Teams. Sie können die Anforderungen auch an bestimmte Projekte senden, die nicht mit der Anforderungswarteschlange verbunden sind. Weitere Informationen finden Sie unter <a href="../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Erstellen von Routing-Regeln</a>. </td> 
+      <td>Routing-Regeln senden Probleme oder Anfragen an bestimmte Aufgabengebiete , Benutzer oder Teams. Sie können die Anfragen auch an bestimmte Projekte senden, die nicht mit der Anfrage-Warteschlange verknüpft sind. Weitere Informationen finden Sie unter <a href="../../manage-work/requests/create-and-manage-request-queues/create-routing-rules.md" class="MCXref xref">Routing-Regeln erstellen</a>. </td> 
      </tr> 
     </tbody> 
    </table>
 
    >[!INFO]
    >
-   >**Beispiel:** Die neuen Problemvoreinstellungen in diesem Blueprint bieten vier Warteschlangenthemen. Der Benutzer wählt beim Erstellen eines Problems eines dieser Themen aus. (Da nur eine Themengruppe existiert, wird sie automatisch angewendet und der Benutzer muss sie nicht auswählen.) Wenn der Benutzer das Problem abschließt und sendet, bestimmen Routing-Regeln, welcher Auftrags- oder Team-Rolle er zugewiesen ist.
-   >![Beispielhafte neue Voreinstellungen für Probleme](assets/Blueprints_IssuePrefsDetails.png)
-   >![Themen in die Warteschlange für neues Problem](assets/blueprints-newissueqtopicsexample-350x204.png)
-   >![Problem, das zur Auftrags-Rolle weitergeleitet wurde](assets/Blueprints_ProjectShowsIssueAssignment.png)
+   >**Beispiel:** Die Voreinstellungen für neue Probleme in diesem Blueprint enthalten vier Warteschlangenthemen. Der/die Benutzende wählt beim Erstellen eines Problems eines dieser Themen aus. (Da nur eine Themengruppe vorhanden ist, wird sie automatisch angewendet und der/die Benutzende muss sie nicht auswählen.) Wenn der/die Benutzende das Problem abschließt und übermittelt, bestimmen Routing-Regeln, welchem Aufgabengebiet oder Team sie zugewiesen ist.
+   >![Beispieleinstellungen für neue Probleme](assets/Blueprints_IssuePrefsDetails.png)
+   >![Warteschlangenthemen für neues Problem](assets/blueprints-newissueqtopicsexample-350x204.png)
+   >![Problem wurde an Aufgabengebiet weitergeleitet](assets/Blueprints_ProjectShowsIssueAssignment.png)
 
    >[!TIP]
    >
-   >* Die Verwendung der Problemvoreinstellungen trägt dazu bei, die Konsistenz bei der Erfassung neuer Probleme oder Anforderungen in Ihren Projekten zu gewährleisten.
-   >* Durch das Festlegen dieser Voreinstellungen werden die aus der Vorlage erstellten Projekte nicht automatisch in Anfragewarteschlangen umgewandelt. Informationen zum Einrichten einer Anforderungswarteschlange finden Sie unter [Erstellen einer Anforderungswarteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
-   >* Nicht alle Blueprints enthalten neue Ausgabevoreinstellungen.
+   >* Die Verwendung der Problemvoreinstellungen hilft bei der Erstellung von Konsistenz bei der Erfassung neuer Probleme oder Anfragen in Ihren Projekten.
+   >* Durch das Festlegen dieser Voreinstellungen werden die aus der Vorlage erstellten Projekte nicht automatisch in Anfragewarteschlangen umgewandelt. Weitere Informationen zum Einrichten einer Anfrage-Warteschlange finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+   >* Nicht alle Blueprints enthalten Voreinstellungen für neue Probleme.
 
 
 ## [!UICONTROL Rollenzuordnung] {#role-mapping}
@@ -153,30 +153,30 @@ Sie können vor der Installation des Blueprints auch den Vorlagenbesitz festlege
 >
 >Dieser Abschnitt wird in einigen Blueprints möglicherweise nicht angezeigt.
 
-Einige Vorlagen enthalten vorgeschriebene Vorgangsrollen. Mithilfe von Vorgangsrollen können Sie die richtigen Personen zuweisen, wenn die Vorlage in ein Projekt konvertiert wird. Sie können anpassen, wie Rollen zugeordnet werden, bevor Sie den Blueprint installieren. Klicken Sie auf **[!UICONTROL Siehe Rollenbeschreibungen]** , um mehr über die im Blueprint verfügbaren Rollen zu erfahren.
+Einige Vorlagen enthalten vorgeschriebene Aufgabengebiete. Mit Aufgabengebieten können Sie die richtigen Personen zuweisen, wenn die Vorlage in ein Projekt konvertiert wird. Sie können vor der Installation der Blueprint anpassen, wie die Rollen zugeordnet werden. Klicken Sie **[!UICONTROL Siehe Rollenbeschreibungen]**, um mehr über die in der Blueprint verfügbaren Rollen zu erfahren.
 
-Der Blueprint sucht nach dem Rollennamen, um zu sehen, ob vorhandene Rollen übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden. Daher müssen Namen exakt übereinstimmen. Wenn keine der vorhandenen Rollen übereinstimmt, können Sie sie vom Blueprint erstellen lassen.
+Der Blueprint sucht anhand des Rollennamens, um festzustellen, ob vorhandene Rollen übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Rollen übereinstimmen, können Sie sie mit der Blueprint erstellen lassen.
 
 ![[!UICONTROL Rollenzuordnung] Abschnitt](assets/Blueprints_RoleMapping.png)
 
 1. Wenn eine Rolle vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
    1. Erstellen Sie eine neue Rolle mit einem anderen Namen und geben Sie dann den Namen in das Textfeld ein.
-   1. Verwenden Sie die vorhandene Rolle und wählen Sie dann im Auswahlfeld eine Rolle aus.
-   1. Verwenden Sie keine zugeordnete Rolle. Diese Option wird nicht empfohlen, da einigen Aufgaben keine Rollen zugewiesen sind.
+   1. Vorhandene Rolle verwenden und im Auswahlfeld eine Rolle auswählen.
+   1. Keine zugeordnete Rolle verwenden. Diese Option wird nicht empfohlen, da einigen Aufgaben keine Rollen zugewiesen sind.
 
 1. Wenn keine Rolle vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
-   1. Erstellen Sie eine neue Rolle. Diese Option erstellt die Rolle, die der Blueprint empfiehlt.
+   1. Erstellen Sie eine neue Rolle. Mit dieser Option wird die Rolle erstellt, die der Blueprint empfiehlt.
    1. Erstellen Sie eine neue Rolle mit einem anderen Namen und geben Sie dann den Namen in das Textfeld ein.
-   1. Verwenden Sie die vorhandene Rolle und wählen Sie dann im Auswahlfeld eine Rolle aus.
-   1. Verwenden Sie keine zugeordnete Rolle. Diese Option wird nicht empfohlen, da einigen Aufgaben keine Rollen zugewiesen sind.
+   1. Vorhandene Rolle verwenden und im Auswahlfeld eine Rolle auswählen.
+   1. Keine zugeordnete Rolle verwenden. Diese Option wird nicht empfohlen, da einigen Aufgaben keine Rollen zugewiesen sind.
 
 >[!NOTE]
 >
->Der Installationsprozess wendet keine Rollen auf bestimmte Personen an. Sie sollten die Personen in diesen Rollen überprüfen, nachdem Sie die Blueprint-Lösung installiert haben, und bei Bedarf Personen zuweisen. Weitere Informationen finden Sie unter [Aktionen, die nach der Installation eines Blueprints ausgeführt werden sollen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+>Der Installationsprozess gilt nicht für Rollen für bestimmte Personen. Überprüfen Sie die Mitarbeiter in diesen Rollen nach der Installation der Blueprint-Lösung, und weisen Sie ggf. Mitarbeiter zu. Weitere Informationen finden Sie [Aktionen, die nach der Installation eines Blueprints durchgeführt werden sollen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
-Weitere Informationen zu Auftragsrollen in [!DNL Workfront] finden Sie unter [Erstellen und Verwalten von Auftragsrollen](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+Weitere Informationen zu Aufgabengebieten in [!DNL Workfront] finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## [!UICONTROL Team-Zuordnung] {#team-mapping}
 
@@ -184,65 +184,65 @@ Weitere Informationen zu Auftragsrollen in [!DNL Workfront] finden Sie unter [Er
 >
 >Dieser Abschnitt wird in einigen Blueprints möglicherweise nicht angezeigt.
 
-Einige Vorlagen enthalten vorgeschriebene Teams. Die einem Team zugewiesenen Arbeiten können von jedem beliebigen Team-Mitglied abgeschlossen werden. Sie können anpassen, wie Teams zugeordnet werden, bevor Sie den Blueprint installieren. Klicken Sie auf **[!UICONTROL Siehe Teambeschreibungen]** , um mehr über die im Blueprint verfügbaren Teams zu erfahren.
+Einige Vorlagen enthalten vorgeschriebene Teams. Einem Team zugewiesene Arbeiten können von jedem Teammitglied abgeschlossen werden. Sie können vor der Installation der Blueprint anpassen, wie Teams zugeordnet werden. Klicken Sie **[!UICONTROL Siehe Teambeschreibungen]**, um mehr über die in der Blueprint verfügbaren Teams zu erfahren.
 
-Der Blueprint sucht nach dem Teamnamen, um zu sehen, ob vorhandene Teams übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden. Daher müssen Namen exakt übereinstimmen. Wenn keine vorhandenen Teams übereinstimmen, können Sie diese mit dem Blueprint erstellen lassen.
+Der Blueprint sucht nach dem Team-Namen, um festzustellen, ob vorhandene Teams übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Teams übereinstimmen, können Sie sie mit der Blueprint erstellen lassen.
 
-![[!UICONTROL Team-Mapping] section](assets/Blueprints_TeamMapping.png)
+Abschnitt ![[!UICONTROL Team]Zuordnung](assets/Blueprints_TeamMapping.png)
 
 1. Wenn ein Team vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
    1. Erstellen Sie ein neues Team mit einem anderen Namen und geben Sie dann den Namen in das Textfeld ein.
-   1. Verwenden Sie [!UICONTROL vorhandenes Team] und wählen Sie dann im Auswahlfeld ein Team aus.
-   1. Verwenden Sie kein zugeordnetes Team. Diese Option wird nicht empfohlen, da für einige Aufgaben keine Teams zugewiesen sind.
+   1. Verwenden Sie [!UICONTROL Vorhandenes Team] und wählen Sie dann im Auswahlfeld ein Team aus.
+   1. Keine zugeordneten Teams verwenden. Diese Option wird nicht empfohlen, da einigen Aufgaben keine Teams zugewiesen sind.
 
 1. Wenn kein Team vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
-   1. Erstellen Sie ein neues Team. Mit dieser Option wird das Team erstellt, das der Blueprint empfiehlt.
+   1. Erstellen Sie ein neues Team. Mit dieser Option wird das von der Blueprint empfohlene Team erstellt.
    1. Erstellen Sie ein neues Team mit einem anderen Namen und geben Sie dann den Namen in das Textfeld ein.
-   1. Verwenden Sie [!UICONTROL vorhandenes Team] und wählen Sie dann im Auswahlfeld ein Team aus.
-   1. Verwenden Sie kein zugeordnetes Team. Diese Option wird nicht empfohlen, da für einige Aufgaben keine Teams zugewiesen sind.
+   1. Verwenden Sie [!UICONTROL Vorhandenes Team] und wählen Sie dann im Auswahlfeld ein Team aus.
+   1. Keine zugeordneten Teams verwenden. Diese Option wird nicht empfohlen, da einigen Aufgaben keine Teams zugewiesen sind.
 
 >[!NOTE]
 >
->Der Installationsprozess fügt den Teams keine Personen hinzu. Sie sollten die Mitarbeiter der Teams nach der Installation der Blueprint-Lösung überprüfen und bei Bedarf Personen zuweisen. Weitere Informationen finden Sie unter [Aktionen, die nach der Installation eines Blueprints ausgeführt werden sollen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+>Beim Installationsprozess werden den Teams keine Personen hinzugefügt. Überprüfen Sie die Mitarbeiter in den Teams, nachdem Sie die Blueprint-Lösung installiert haben, und weisen Sie ggf. Personen zu. Weitere Informationen finden Sie [Aktionen, die nach der Installation eines Blueprints durchgeführt werden sollen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
 Weitere Informationen zur Funktionsweise von Teams in [!DNL Workfront] finden Sie unter [Erstellen und Verwalten von Teams](../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).
 
-## Unternehmenszuordnung {#company-mapping}
+## Zuordnung von Firmen {#company-mapping}
 
 >[!NOTE]
 >
 >Dieser Abschnitt wird in einigen Blueprints möglicherweise nicht angezeigt.
 
-Einige Blueprints umfassen verschriebene Unternehmen. Ein Unternehmen ist eine Organisationseinheit, die Ihre Organisation, eine Abteilung innerhalb der Organisation oder einen Kunden, mit dem Sie arbeiten, repräsentieren kann. Sie können anpassen, wie Unternehmen zugeordnet werden, bevor Sie den Blueprint installieren. Klicken Sie auf **[!UICONTROL Siehe Firmenbeschreibungen]** , um mehr über die im Blueprint verfügbaren Unternehmen zu erfahren.
+Einige Blueprints umfassen vorgeschriebene Unternehmen. Ein Unternehmen ist eine Organisationseinheit, die Ihre Organisation, eine Abteilung innerhalb der Organisation oder einen Kunden, mit dem Sie zusammenarbeiten, repräsentieren kann. Sie können vor der Installation der Blueprint anpassen, wie Unternehmen zugeordnet werden. Klicken Sie **[!UICONTROL Siehe Unternehmensbeschreibungen]**, um mehr über die in der Blueprint verfügbaren Unternehmen zu erfahren.
 
-Der Blueprint sucht nach dem Unternehmensnamen, um zu sehen, ob vorhandene Unternehmen übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden. Daher müssen Namen exakt übereinstimmen. Wenn keine bestehenden Unternehmen übereinstimmen, können Sie sie mit dem Blueprint für Sie erstellen lassen. Das primäre Unternehmen im Blueprint wird dem primären Unternehmen in Ihrer Umgebung zugeordnet, auch wenn es nicht denselben Namen hat.
+Der Blueprint sucht nach dem Firmennamen, um festzustellen, ob vorhandene Unternehmen übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Unternehmen übereinstimmen, können Sie sie mit der Blueprint erstellen lassen. Die primäre Firma in der Blueprint wird der primären Firma in Ihrer Umgebung zugeordnet, auch wenn diese nicht denselben Namen haben.
 
-![[!UICONTROL Abschnitt &quot;Unternehmenszuordnung]&quot;](assets/Blueprints_CompanyMapping.png)
+Abschnitt ![[!UICONTROL Unternehmenszuordnung] ](assets/Blueprints_CompanyMapping.png)
 
-1. Wenn ein Unternehmen existiert, können Sie eine der folgenden Optionen auswählen:
+1. Wenn eine Firma vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
    1. Erstellen Sie ein neues Unternehmen mit einem anderen Namen und geben Sie dann den Namen in das Textfeld ein.
-   1. Verwenden Sie ein bestehendes Unternehmen und wählen Sie dann im Auswahlfeld ein Unternehmen aus.\
+   1. Verwenden Sie ein vorhandenes Unternehmen und wählen Sie dann im Auswahlfeld ein Unternehmen aus.\
 
-      Das primäre Unternehmen im Blueprint wird dem primären Unternehmen in Ihrer Umgebung zugeordnet, auch wenn es nicht denselben Namen hat.
-   1. Verwenden Sie kein zugeordnetes Unternehmen. Diese Option wird nicht empfohlen, da die Unternehmensreferenzen in anderen Objekten leer sind.
+      Die primäre Firma in der Blueprint wird der primären Firma in Ihrer Umgebung zugeordnet, auch wenn diese nicht denselben Namen haben.
+   1. Keine zugeordnete Firma verwenden. Diese Option wird nicht empfohlen, da die Unternehmensverweise in anderen Objekten leer sind.
 
-1. Wenn kein Unternehmen existiert, können Sie eine der folgenden Optionen auswählen:
+1. Wenn keine Firma vorhanden ist, können Sie eine der folgenden Optionen auswählen:
 
-   1. Erstellen Sie ein neues Unternehmen. Mit dieser Option wird das Unternehmen erstellt, das der Blueprint empfiehlt.
+   1. Erstellen Sie eine neue Firma. Mit dieser Option wird das Unternehmen erstellt, das der Blueprint empfiehlt.
    1. Erstellen Sie ein neues Unternehmen mit einem anderen Namen und geben Sie dann den Namen in das Textfeld ein.
-   1. Verwenden Sie ein bestehendes Unternehmen und wählen Sie dann im Auswahlfeld ein Unternehmen aus.
-   1. Verwenden Sie kein zugeordnetes Unternehmen. Diese Option wird nicht empfohlen, da die Unternehmensreferenzen in anderen Objekten leer sind.
+   1. Verwenden Sie ein vorhandenes Unternehmen und wählen Sie dann im Auswahlfeld ein Unternehmen aus.
+   1. Keine zugeordnete Firma verwenden. Diese Option wird nicht empfohlen, da die Unternehmensverweise in anderen Objekten leer sind.
 
 >[!NOTE]
 >
->Informationen zum Konfigurieren der Unternehmen nach der Installation des Blueprints finden Sie unter [Aktionen, die nach der Installation eines Blueprints ausgeführt werden sollen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+>Informationen zum Konfigurieren der Unternehmen nach der Installation der Blueprint finden Sie unter [Nach der Installation einer Blueprint auszuführende Aktionen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
-Weitere Informationen zum Verknüpfen einer Vorlage mit einem Unternehmen finden Sie unter [Bearbeiten von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+Informationen zum Verknüpfen einer Vorlage mit einer Firma finden Sie unter [Projektvorlagen bearbeiten](../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-Informationen zur Funktionsweise von Unternehmen in [!DNL Workfront] finden Sie unter [Unternehmen erstellen und bearbeiten](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
+Informationen zur Funktionsweise von Unternehmen in [!DNL Workfront] finden Sie unter [Erstellen und Bearbeiten von Unternehmen](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
 ## [!UICONTROL Gruppenzuordnung] {#group-mapping}
 
@@ -250,29 +250,29 @@ Informationen zur Funktionsweise von Unternehmen in [!DNL Workfront] finden Sie 
 >
 >Dieser Abschnitt wird in einigen Blueprints möglicherweise nicht angezeigt.
 
-Einige Blueprints enthalten verschriebene Gruppen. Eine Gruppe ist eine Benutzergruppe, die mit Ihrer Abteilungsstruktur übereinstimmt. Gruppen sind ähnlich, unterscheiden sich aber von Teams und Unternehmen in Workfront. Sie können anpassen, wie Gruppen zugeordnet werden, bevor Sie den Blueprint installieren. Klicken Sie auf **[!UICONTROL Siehe Gruppenbeschreibungen]** , um mehr über die im Blueprint verfügbaren Gruppen zu erfahren.
+Einige Blueprints enthalten vorgeschriebene Gruppen. Eine Gruppe ist eine Benutzergruppe, die mit Ihrer Abteilungsstruktur übereinstimmt. Gruppen ähneln Teams und Unternehmen in Workfront, unterscheiden sich aber von ihnen. Sie können vor der Installation der Blueprint anpassen, wie Gruppen zugeordnet werden. Klicken Sie **[!UICONTROL Siehe Gruppenbeschreibungen]**, um mehr über die in der Blueprint verfügbaren Gruppen zu erfahren.
 
-Der Blueprint sucht nach dem Gruppennamen, um zu sehen, ob vorhandene Gruppen übereinstimmen. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden. Daher müssen Namen exakt übereinstimmen. Wenn keine vorhandenen Gruppen übereinstimmen, können Sie sie mit dem Blueprint erstellen lassen.
+Der Blueprint sucht nach dem Gruppennamen, um festzustellen, ob eine vorhandene Gruppe übereinstimmt. Bei der Suche wird zwischen Groß- und Kleinschreibung unterschieden, sodass die Namen exakt übereinstimmen müssen. Wenn keine vorhandenen Gruppen übereinstimmen, können Sie diese mit der Blueprint erstellen lassen.
 
-![[!UICONTROL Gruppenzuordnung] Abschnitt](assets/Blueprints_GroupMapping.png)
+Abschnitt ![[!UICONTROL Gruppenzuordnung] ](assets/Blueprints_GroupMapping.png)
 
-1. Wenn eine Gruppe vorhanden ist, können Sie **[!UICONTROL Remap Group]** auswählen und eine der folgenden Optionen auswählen:
+1. Wenn eine Gruppe vorhanden ist, können Sie **[!UICONTROL Gruppe neu zuordnen]** und eine der folgenden Optionen auswählen:
 
-   1. **[!UICONTROL Erstellen Sie eine neue Gruppe mit einem anderen Namen]** und geben Sie dann den Namen ein, der dieser Gruppe zugewiesen werden soll. Verweise auf die Gruppe in der Blueprint-Definition werden stattdessen mit dieser neuen Gruppe verknüpft.
-   1. **[!UICONTROL Ersetzen Sie sie durch eine vorhandene Gruppe]**, suchen Sie dann nach einer Gruppe und wählen Sie sie im Auswahlfeld aus.
+   1. **[!UICONTROL Erstellen Sie eine neue Gruppe mit einem anderen Namen]** und geben Sie dann den Namen ein, der dieser Gruppe zugewiesen werden soll. Verweise auf die Gruppe in der Blueprint-Definition werden stattdessen dieser neuen Gruppe zugeordnet.
+   1. **[!UICONTROL Ersetzen Sie durch eine vorhandene Gruppe]** suchen Sie dann im Auswahlfeld nach einer Gruppe und wählen Sie sie aus.
 
       >[!NOTE]
       >
       >Eine bestehende Gruppe kann nicht umbenannt werden.
 
-1. Wenn keine Gruppe vorhanden ist, können Sie:
+1. Wenn keine Gruppe vorhanden ist, haben Sie folgende Möglichkeiten:
 
    1. Ändern Sie den vorgeschlagenen Gruppennamen, indem Sie ihn in das Textfeld eingeben.
-   1. Wählen Sie **[!UICONTROL Gruppe neu zuordnen]** und dann [!UICONTROL Ersetzen durch eine bestehende Gruppe]. Suchen Sie dann nach einer Gruppe und wählen Sie sie im Auswahlfeld aus.
-   1. Wählen Sie **[!UICONTROL Gruppieren neu zuordnen]** und dann **[!UICONTROL Unter einer vorhandenen Gruppe einfügen]** aus. Suchen Sie dann nach einer Gruppe und wählen Sie sie im Auswahlfeld aus. Mit dieser Option wird eine neue Untergruppe unter der vorhandenen Gruppe erstellt.
+   1. Wählen Sie **[!UICONTROL Gruppe neu zuordnen]** und wählen Sie [!UICONTROL Mit vorhandener Gruppe ersetzen] aus. Suchen Sie dann im Auswahlfeld nach einer Gruppe und wählen Sie sie aus.
+   1. Wählen Sie **[!UICONTROL Gruppe neu zuordnen]** und wählen Sie **[!UICONTROL Einfügen unter einer vorhandenen Gruppe]** aus. Suchen Sie dann im Auswahlfeld nach einer Gruppe und wählen Sie sie aus. Diese Option erstellt eine neue Untergruppe unter der vorhandenen Gruppe.
 
 >[!NOTE]
 >
->Informationen zum Konfigurieren der Gruppen nach der Installation des Blueprints finden Sie unter [Aktionen, die nach der Installation eines Blueprints ausgeführt werden sollen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
+>Informationen zum Konfigurieren der Gruppen nach der Installation der Blueprint finden Sie unter [Nach der Installation einer Blueprint auszuführende Aktionen](../../administration-and-setup/blueprints/best-next-actions-after-install.md).
 
-Informationen zur Verwendung von Gruppen in [!DNL Workfront] finden Sie unter [Übersicht über Gruppen](../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Informationen zur Verwendung von Gruppen in [!DNL Workfront] finden Sie unter [Gruppen - Übersicht](../../administration-and-setup/manage-groups/groups-overview/groups.md).

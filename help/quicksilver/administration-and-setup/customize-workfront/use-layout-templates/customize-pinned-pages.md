@@ -1,9 +1,9 @@
 ---
-title: Pinned Pages mithilfe einer Layoutvorlage anpassen
+title: Anpassen von fixierten Seiten mithilfe einer Layout-Vorlage
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: In einer Layoutvorlage können Sie die Seiten veröffentlichen, die Benutzer immer oben in Adobe Workfront zur Verfügung haben sollen. Dabei kann es sich um Seiten handeln, die über das Hauptmenü oder Dashboards aufgerufen werden.
+description: In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über das Hauptmenü oder über Dashboards zugegriffen wird.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -15,23 +15,23 @@ ht-degree: 4%
 
 ---
 
-# Anpassen von fixierten Seiten mithilfe einer Layoutvorlage
+# Anpassen von fixierten Seiten mithilfe einer Layout-Vorlage
 
-In einer Layoutvorlage können Sie die Seiten veröffentlichen, die Benutzer immer oben in Adobe Workfront zur Verfügung haben sollen. Dabei kann es sich entweder um Seiten handeln, die über das Hauptmenü ![](assets/main-menu-icon.png) oder, falls verfügbar, über das Hauptmenü ![](assets/lines-main-menu.png) aufgerufen werden, oder um Dashboards.
+In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über die ![](assets/main-menu-icon.png) Hauptmenü oder die ![](assets/lines-main-menu.png) Hauptmenü zugegriffen wird, sofern verfügbar, oder um Dashboards.
 
-Alle Pins, die Ihre Benutzer selbst hinzugefügt haben, werden rechts neben den Pins angezeigt, die Sie in der Layoutvorlage hinzufügen.
+Alle Pins, die von Ihren Benutzerinnen und Benutzern eigenständig hinzugefügt wurden, werden rechts neben den Pins angezeigt, die Sie der Layout-Vorlage hinzufügen.
 
-Weitere Informationen zu Pinning-Seiten finden Sie unter [Pin-Seiten zum Anpassen Ihres Arbeitsbereichs einfügen](../../../workfront-basics/the-new-workfront-experience/pin-pages.md).
+Weitere Informationen zum Anheften von Seiten finden Sie unter [Seiten anheften, um Ihren Arbeitsbereich anzupassen](../../../workfront-basics/the-new-workfront-experience/pin-pages.md).
 
-Weitere Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../use-layout-templates/assign-users-to-layout-template.md).
+Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -40,8 +40,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -50,25 +50,25 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.
+Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Seiten mit einer Layoutvorlage fixieren
+## Seiten mithilfe einer Layout-Vorlage anheften
 
-1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie unter **oberster Navigationsbereich** auf **Neuen Pin hinzufügen**.
+1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
+1. Klicken **unter &quot;** Navigationsbereich“ auf **Neuen Pin hinzufügen**.
 
 1. Führen Sie im angezeigten Dropdown-Menü einen der folgenden Schritte aus:
 
-   * Wählen Sie aus den folgenden Bereichen aus:
+   * Wählen Sie aus den folgenden Bereichen:
 
       * Analytik
       * Kalender
@@ -93,28 +93,28 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    >[!IMPORTANT]
    >
-   >Für die Anzeige der Bereiche Szenarien, Ziele und Planung sind zusätzliche Lizenzen erforderlich.
+   >Für die Anzeige der Szenarien, Ziele und Planungsbereiche sind zusätzliche Lizenzen erforderlich.
    >
-   >* Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+   >* Informationen zu Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md).
    >
-   >* Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+   >* Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
    >
-   >* Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md).
+   >* Weitere Informationen zu Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
 
-   * Klicken Sie auf **Dashboard hinzufügen**, geben Sie einen beschreibenden Titel für den benutzerdefinierten Abschnitt **3} ein und fügen Sie das Dashboard hinzu.**
+   * Klicken Sie **Dashboard hinzufügen**, geben Sie dann einen beschreibenden **benutzerdefinierten Abschnittstitel** ein und fügen Sie das Dashboard hinzu.
 
-1. Wiederholen Sie den vorherigen Schritt, um alle anderen Seiten zu veröffentlichen.
+1. Wiederholen Sie diesen Schritt, um alle weiteren Seiten anzuheften.
 
-1. (Optional) Um einen Pin umzubenennen, bewegen Sie den Mauszeiger über den Pin, klicken Sie auf den Pfeil neben dem Pin-Namen und wählen Sie **Pin umbenennen**. Geben Sie den Namen des neuen Pins ein und klicken Sie auf das Häkchen oder drücken Sie die Eingabetaste.
+1. (Optional) Um eine Nadel umzubenennen, bewegen Sie den Mauszeiger über die Nadel, klicken Sie auf den Pfeil neben dem Namen der Nadel und wählen Sie **Nadel umbenennen**. Geben Sie den neuen Pin-Namen ein, und klicken Sie auf das Häkchen, oder drücken Sie die Eingabetaste.
 
-   Ein kleines Popup-Fenster wird mehrere Sekunden angezeigt, nachdem Sie auf das Häkchen geklickt oder die Eingabetaste drücken, sodass Sie die Änderung des PIN-Namens vor dem Speichern rückgängig machen können.
+   Nach dem Klicken auf das Häkchen oder dem Drücken der Eingabetaste wird für einige Sekunden ein kleines Popup-Fenster angezeigt, in dem Sie die Änderung des Pinnamens rückgängig machen können, bevor sie gespeichert wird.
 
-1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
+1. Passen Sie die Layout-Vorlage weiter an.
 
    Oder
 
-   Wenn Sie mit dem Anpassen fertig sind, klicken Sie auf **Speichern**.
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
 
    >[!TIP]
    >
-   >Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und die Vorlage dann später weiter ändern.
+   >Sie können jederzeit auf **Speichern** klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.

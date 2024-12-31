@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;user-management
 navigation-topic: group-roles
-title: Business Leader - Überblick
-description: In einer Gruppe ist der Business Leader die Person, die für die Gruppe Entscheidungen über Ziele, Strategien, Budget, Einstellungen usw. trifft. In einer Organisation mit einem Chief Marketing Officer wäre diese Person wahrscheinlich der Geschäftsführer für Marketing.
+title: Übersicht über Business Leader
+description: In einer Gruppe ist der Business Leader die Person, die Entscheidungen für die Gruppe in Bezug auf Ziele, Strategien, Budget, Einstellung usw. trifft. In einer Organisation mit einem Chief Marketing Officer wäre diese Person beispielsweise wahrscheinlich der Business Leader für Marketing.
 author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
@@ -17,11 +17,11 @@ ht-degree: 0%
 
 # Übersicht über Business Leader
 
-In einer Gruppe ist der Business Leader die Person, die für die Gruppe Entscheidungen über Ziele, Strategien, Budget, Einstellungen usw. trifft. In einer Organisation mit einem Chief Marketing Officer wäre diese Person wahrscheinlich der Geschäftsführer für Marketing.
+In einer Gruppe ist der Business Leader die Person, die Entscheidungen für die Gruppe in Bezug auf Ziele, Strategien, Budget, Einstellung usw. trifft. In einer Organisation mit einem Chief Marketing Officer wäre diese Person beispielsweise wahrscheinlich der Business Leader für Marketing.
 
-Als Gruppenadministrator können Sie einen Benutzer als Business Leader für eine Gruppe oder Untergruppe zuweisen, die Sie verwalten. Wenn es Gruppen über der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe). Anweisungen finden Sie unter [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
+Als Gruppenadministrator können Sie einen Benutzer als Business Leader für eine von Ihnen verwaltete Gruppe oder Untergruppe zuweisen. Wenn es Gruppen oberhalb der von Ihnen verwalteten Gruppe gibt, können deren Administratoren dies auch für Ihre Gruppe tun. Dasselbe gilt für Workfront-Administratoren (für jede Gruppe). Anweisungen finden Sie unter [Erstellen einer Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md).
 
-Wenn Sie allgemeine Informationen zu Gruppen benötigen, finden Sie weitere Informationen unter [Gruppenübersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
+Allgemeine Informationen zu Gruppen finden Sie unter [Gruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
 >[!NOTE]
 >
@@ -33,16 +33,16 @@ Wenn Sie allgemeine Informationen zu Gruppen benötigen, finden Sie weitere Info
 >
 -->
 
-## Verwenden des Felds &quot;Business Leader&quot;in Berichten
+## Verwenden des Felds „Business Leader“ in Berichten
 
-Ein Benutzer, der einen Bericht für eine Gruppe erstellt, kann das Feld &quot;Business Leader&quot;in einen Filter, eine Ansicht oder eine Gruppierung aufnehmen.
+Ein Benutzer, der einen Bericht für eine Gruppe erstellt, kann das Feld „Business Leader“ in einen Filter, eine Ansicht oder eine Gruppierung einbeziehen.
 
 Beispiel:
 
 * Filtern Sie nach einem Business Leader, um die Gruppen aufzulisten, denen diese Person als Business Leader zugewiesen ist.
-* Fügen Sie ein Feld &quot;Business Leader&quot;zu einer Ansicht hinzu, um die Namen aller Geschäftsführer aufzulisten, die den Gruppen in einer Liste zugewiesen sind. Sie können auf einen Namen klicken, um zum Benutzerprofil dieses Business Leaders zu wechseln oder den Namen zu bearbeiten.
-* Gruppieren Sie diese nach einem Feld des Business Leaders, um Gruppen entsprechend ihren Geschäftsführern aufzulisten.
+* Fügen Sie in einer Ansicht das Feld Business Leader hinzu, um die Namen aller Business Leader aufzulisten, die den Gruppen in einer Liste zugewiesen sind. Sie können auf einen Namen klicken, um zum Benutzerprofil dieses Business Leaders zu wechseln oder den Namen zu bearbeiten.
+* Nach einem Business Leader gruppieren, um Gruppen entsprechend ihren Business Leaders aufzulisten.
 
-Außerdem ist das Feld &quot;Business Leader&quot;in der Standardansicht in Berichten als Listenspalte enthalten.
+Außerdem wird das Feld „Business Leader“ in der Standardansicht in Berichten als Listenspalte angezeigt.
 
 Weitere Informationen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/reporting-elements-filters-views-groupings.md).

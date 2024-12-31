@@ -1,24 +1,25 @@
 ---
-title: Vergleich der Funktionen über Lizenzmodelle hinweg
+title: Vergleichen der Funktionalität zwischen Lizenzmodellen
 user-type: administrator
 content-type: reference
 product-area: system-administration
-keywords: access,level,system,administrator,standard,light,contributor
+keywords: Zugriff,Ebene,System,Administrator,Standard,Licht,Mitwirkende
 navigation-topic: access-levels
-description: Sehen Sie sich einen Vergleich der Funktionen an, die für verschiedene Lizenzen im alten und neuen Lizenzmodell verfügbar sind.
+description: Hier finden Sie einen Vergleich der Funktionen, die für verschiedene Lizenzen im alten und neuen Lizenzierungsmodell verfügbar sind.
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f2a1d4240f6ddef12daaa352bc46b72199aa21d7
+exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
+source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
 workflow-type: tm+mt
 source-wordcount: '309'
 ht-degree: 0%
 
 ---
 
-# Vergleich der Funktionen über Lizenzmodelle hinweg
+# Vergleichen der Funktionalität zwischen Lizenzmodellen
 
-Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzmodell verfügbar sind.
+In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten und neuen Lizenzierungsmodell verfügbar sind.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -47,7 +48,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th>[!UICONTROL Standard]</th> 
-   <th>[!UICONTROL Light]</th> 
+   <th>[!UICONTROL light]</th> 
    <th>[!UICONTROL Contributor]</th> 
   </tr> 
  </thead> 
@@ -75,7 +76,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Anzeigen dynamischer, integrierter Kalender</td> 
+   <td>Dynamische, integrierte Kalender anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -86,7 +87,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
    <tr> 
-   <td>Pinnwände</td> 
+   <td>Auf Pinnwände zugreifen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -97,7 +98,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Überprüfen und Genehmigen von Arbeitsaufgaben und -problemen</td> 
+   <td>Arbeitsaufgaben und -probleme überprüfen und genehmigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -119,7 +120,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Anzeigen von Berichten zur Ressourcenverwaltung und Kapazitätsplanung</td> 
+   <td>Anzeigen von Berichten zum Ressourcen-Management und zur Kapazitätsplanung</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -141,7 +142,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Verfolgen des Fortschritts und der Zusammenarbeit bei Arbeiten und Anforderungen</td> 
+   <td>Verfolgen Sie den Fortschritt und arbeiten Sie bei Arbeiten und Anfragen zusammen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -152,7 +153,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Anzeigen von Projekt- und Dokumentdetails</td> 
+   <td>Projekt- und Dokumentdetails anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -163,7 +164,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Benachrichtigung bezüglich Arbeitszuweisungen empfangen</td> 
+   <td>Arbeitsauftragsbenachrichtigungen empfangen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -185,7 +186,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Arbeiten über mobile Apps anzeigen</td> 
+   <td>Anzeigen der Arbeit über Mobile Apps</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -196,7 +197,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Anzeigen von Projekt-Plan und Timeline</td> 
+   <td>Projektplan und Zeitplan anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -207,7 +208,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Anzeigen von Portfolios und Programmen</td> 
+   <td>Portfolios und Programme anzeigen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -218,7 +219,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Unbegrenzte Entscheidungen über Inhalte (Testsendungen und Dokumente)</td> 
+   <td>Unbegrenzte Inhaltsentscheidungen (Korrekturabzüge und Dokumente)</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -229,7 +230,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Tracking von Zeit- und Sendezeiten</td> 
+   <td>Zeit nachverfolgen und Arbeitszeittabellen senden</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -240,7 +241,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Zeitpläne genehmigen</td> 
+   <td>Arbeitszeittabellen genehmigen</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -250,7 +251,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td>✓</td> 
    <td></td> 
   </tr> 
-   <td>Erstellen von Arbeitsaufgaben</td> 
+   <td>Arbeitsaufgaben erstellen</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -261,7 +262,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Abschließen zugewiesener Arbeitsaufgaben</td> 
+   <td>Zugewiesene Arbeitsaufgaben abschließen</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -283,7 +284,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Anforderungswarteschlangen erstellen und verwalten</td> 
+   <td>Anfrage-Warteschlangen erstellen und verwalten</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -294,7 +295,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Automatisierte Genehmigungs-Workflows erstellen</td> 
+   <td>Erstellen automatisierter Validierungs-Workflows</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -316,7 +317,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Vorlagen erstellen</td> 
+   <td>Erstellen von Vorlagen</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -327,7 +328,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Verwalten von Portfolios und Programmen</td> 
+   <td>Portfolios und Programme verwalten</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -338,7 +339,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Ressourcenmanagement und Kapazitätsplanung nutzen</td> 
+   <td>Ressourcenmanagement und Kapazitätsplanung verwenden</td> 
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -360,7 +361,7 @@ Diese Tabelle zeigt die Funktionen, die für Lizenzen im alten und neuen Lizenzm
    <td></td> 
   </tr> 
   <tr> 
-   <td>Generieren digitaler Testsendungen</td> 
+   <td>Erstellen digitaler Korrekturabzüge</td> 
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 

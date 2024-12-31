@@ -3,7 +3,7 @@ title: Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layoutvorlage verwenden, um die Optionen zu konfigurieren, die Benutzern beim Öffnen des Hauptmenüs in Workfront angezeigt werden.
+description: Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layout-Vorlage verwenden, um die Optionen zu konfigurieren, die Benutzende sehen, wenn sie das Hauptmenü in Workfront öffnen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -15,29 +15,29 @@ ht-degree: 3%
 
 ---
 
-# Hauptmenü mithilfe einer Layoutvorlage anpassen
+# Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage
 
 <!--Audited: 01/2024-->
 
-Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layoutvorlage verwenden, um die Optionen zu konfigurieren, die Benutzern beim Öffnen des Hauptmenüs in Workfront angezeigt werden.
+Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Layout-Vorlage verwenden, um die Optionen zu konfigurieren, die Benutzende sehen, wenn sie das Hauptmenü in Workfront öffnen.
 
-![Hauptmenüoptionen](assets/main-menu-with-blueprints-no-branding.png)
+![Optionen im Hauptmenü](assets/main-menu-with-blueprints-no-branding.png)
 
 >[!NOTE]
 >
->Die Optionen des Hauptmenüs, die den Benutzern angezeigt werden, hängen vom Lizenztyp und den Einstellungen der jeweiligen Zugriffsstufe ab. Einige Benutzer, die diese Layoutvorlage verwenden werden, sehen möglicherweise nicht alle Optionen, die Sie hier auswählen. Weitere Informationen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) und [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
+>Die Optionen im Hauptmenü, die den Benutzern angezeigt werden, hängen von ihrem Lizenztyp und davon ab, welche Einstellungen in ihrer Zugriffsebene konfiguriert sind. Einige Benutzer, die diese Layoutvorlage verwenden werden, sehen möglicherweise nicht alle hier ausgewählten Optionen. Weitere Informationen finden Sie unter [Wie Zugriffsebenen und Berechtigungen zusammenarbeiten](../../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md) und [Konfigurierbarer Zugriff auf Funktionen für jeden Objekttyp](../../../administration-and-setup/add-users/access-levels-and-object-permissions/configurable-functionality-in-each-access-level-by-object-type.md).
 >
->Möglicherweise werden im Hauptmenü verschiedene Optionen angezeigt, wenn Ihr Unternehmen mit dem einheitlichen Adobe Workfront-Erlebnis integriert wurde. Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Möglicherweise werden im Hauptmenü unterschiedliche Optionen angezeigt, wenn Ihr Unternehmen das einheitliche Adobe Workfront-Erlebnis erhalten hat. Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
-Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
+Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../use-layout-templates/assign-users-to-layout-template.md).
+Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,8 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Abo</strong></td> 
-   <td>Alle</td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
@@ -57,28 +57,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfiguration der Zugriffsebene</strong></td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.</p>
-    <p>Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.</p>
+    <p>Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> 
      </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu Zugriffsanforderungen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Hauptmenü anpassen
+## Anpassen des Hauptmenü
 
-1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie oben rechts in der Vorlage auf **Hauptmenü festlegen** .
+1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
+1. Klicken **oben rechts** der Vorlage auf „Hauptmenü festlegen“.
 
-   Das Feld Hauptmenü wird geöffnet. Es werden die Bereiche angezeigt, die derzeit im Hauptmenü der Vorlage angezeigt werden, sowie die Elemente, die hinzugefügt werden können. Im Folgenden finden Sie alle möglichen Elemente, die Sie hinzufügen können:
+   Das Feld Hauptmenü wird geöffnet. Dort werden die Bereiche angezeigt, die derzeit im Hauptmenü der Vorlage angezeigt werden, sowie die Elemente, die hinzugefügt werden können. Im Folgenden finden Sie alle möglichen Elemente, die Sie hinzufügen können:
    * Startseite
 
      >[!TIP]
      >
-     >Standardmäßig zeigt das Startseiten-Symbol im Hauptmenü den Bereich Meine Updates für Benutzer von Review-Lizenzierungen (im aktuellen Lizenzplan) an, es sei denn, ihnen ist eine Layoutvorlage zugeordnet, die neben dem Startbereich auch den Bereich Meine Updates im Hauptmenü enthält.
+     >Standardmäßig wird das Startseiten -Symbol im Hauptmenü den Bereich Meine Aktualisierungen für Benutzer mit Überprüfungslizenz (im aktuellen Lizenzplan) anzeigen, es sei denn, ihnen ist eine Layoutvorlage mit ihrem Profil zugeordnet, die im Hauptmenü neben dem Bereich Startseite auch den Bereich Meine Aktualisierungen enthält.
 
    * Portfolios
    * Programme
@@ -91,14 +91,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      >[!NOTE]
      >
-     >Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+     >Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
    * Teams
    * Benutzende
 
      >[!NOTE]
      >
-     >Nur Benutzer mit einer Planungslizenz (im aktuellen Lizenzmodell) oder Benutzer mit einer Standardlizenz (im neuen Lizenzmodell) können den Bereich Benutzer ![](assets/users-icon-in-main-menu.png) im Hauptmenü sehen.
+     >Nur Benutzer mit einer Plan -Lizenz (im aktuellen Lizenzmodell) oder Benutzer mit einer Standard -Lizenz (im neuen Lizenzmodell) können den Bereich Benutzer ![](assets/users-icon-in-main-menu.png) im Hauptmenü sehen.
 
    * Anforde- rungen
    * Arbeitszeit- tabellen
@@ -110,7 +110,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      >[!NOTE]
      >
-     >Ziele erfordern eine zusätzliche Lizenz. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >Für Ziele ist eine zusätzliche Lizenz erforderlich. Informationen zu Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
    * Meine Updates
    * Pinnwände
@@ -119,26 +119,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      >[!NOTE]
      >
-     >Für die Planung ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zur Workfront-Planung finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
+     >Für die Planung ist eine zusätzliche Lizenz erforderlich. Informationen zur Workfront-Planung finden Sie unter [Adobe Workfront-Planung - Übersicht](/help/quicksilver/planning/general/planning-overview.md)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Ausblenden von ![](assets/remove-icon---x-in-circle.png) **aktiven Elementen**, die Sie nicht anzeigen möchten
-   * Anzeigen von ![](assets/add-icon-plus-in-circle.png) **Verfügbaren Elementen** , die Sie im Hauptmenü anzeigen möchten.
-   * Ziehen Sie ![](assets/move-icon---dots.png) **Aktive Elemente** , um ihre Anzeigereihenfolge im Hauptmenü zu ändern.
+   * Ausblenden ![](assets/remove-icon---x-in-circle.png) **Aktive Elemente** die nicht angezeigt werden sollen
+   * ![](assets/add-icon-plus-in-circle.png) **Verfügbare Elemente** anzeigen, die nicht im Hauptmenü angezeigt werden sollen.
+   * Ziehen Sie ![](assets/move-icon---dots.png) **Aktive Elemente**, um ihre Anzeigereihenfolge im Hauptmenü zu ändern.
 
-1. Klicken Sie auf **Fertig**.
+1. Klicken Sie **Fertig**.
 
-   Sie können auch jederzeit auf **Abbrechen** klicken, wenn Sie Ihre Änderungen verwerfen möchten.
+   Sie können auch jederzeit **Abbrechen** klicken, wenn Sie Ihre Änderungen verwerfen möchten.
 
-1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
+1. Passen Sie die Layout-Vorlage weiter an.
 
    Oder
 
-   Wenn Sie mit dem Anpassen fertig sind, klicken Sie auf **Speichern**.
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
 
    >[!TIP]
    >
-   >Sie können jederzeit auf Speichern klicken, um den Fortschritt zu speichern, und die Vorlage später weiter ändern.
+   >Sie können jederzeit auf Speichern klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.
 
-Weitere Informationen zu Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).

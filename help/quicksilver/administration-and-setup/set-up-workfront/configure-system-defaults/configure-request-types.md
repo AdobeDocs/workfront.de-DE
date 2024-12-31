@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: configure-system-defaults
-title: Anfragetypen konfigurieren
-description: Bei der Arbeit an einem Projekt können Sie feststellen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine bestimmte Aufgabe protokollieren. Sie können auch Anfragen senden, die als Probleme in einem Projekt aufgezeichnet werden, das als Anforderungswarteschlange bezeichnet wird. Probleme und Anforderungen werden in Adobe Workfront als austauschbar betrachtet.
+title: Konfigurieren von Anfragetypen
+description: Bei der Arbeit an einem Projekt kann es vorkommen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine bestimmte Aufgabe protokollieren. Sie können auch Anfragen senden, die als Probleme in einem Projekt aufgezeichnet werden, das als Anfrage-Warteschlange festgelegt ist. Probleme und Anfragen werden in Adobe Workfront als austauschbar betrachtet.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# Anfragetypen konfigurieren
+# Konfigurieren von Anfragetypen
 
-Bei der Arbeit an einem Projekt können Sie feststellen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine bestimmte Aufgabe protokollieren. Sie können auch Anfragen senden, die als Probleme in einem Projekt aufgezeichnet werden, das als Anforderungswarteschlange bezeichnet wird. Probleme und Anforderungen werden in Adobe Workfront als austauschbar betrachtet.
+Bei der Arbeit an einem Projekt kann es vorkommen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine bestimmte Aufgabe protokollieren. Sie können auch Anfragen senden, die als Probleme in einem Projekt aufgezeichnet werden, das als Anfrage-Warteschlange festgelegt ist. Probleme und Anfragen werden in Adobe Workfront als austauschbar betrachtet.
 
-Informationen zum Erstellen von Problemen in [!DNL Workfront] finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md). Informationen zum Erstellen von Anforderungen in [!DNL Workfront] finden Sie unter [Erstellen und Senden [!DNL Adobe Workfront] von Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md). Informationen zum Verknüpfen von Anfragetypen mit Projekten finden Sie unter [Definieren von Anfragetypen für ein Projekt](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
+Informationen zum Erstellen von Problemen in [!DNL Workfront] finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md). Informationen zum Erstellen von Anfragen in [!DNL Workfront] finden Sie unter [Erstellen und Senden [!DNL Adobe Workfront] Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md). Informationen zum Verknüpfen von Anfragetypen mit Projekten finden Sie [Definieren von Anfragetypen für ein Projekt](../../../manage-work/requests/create-and-manage-request-queues/define-request-types-for-project.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,7 +33,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -43,13 +43,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,33 +72,33 @@ You must have at least one request type selected. You can select multiple reques
 
 ## Anpassen der Namen der Anfragetypen
 
-Als [!DNL Workfront] -Administrator können Sie die Namen der Anfragetypen in Ihrem System konfigurieren. Die neuen Namen sind in jedem Bereich von [!DNL Workfront] sichtbar, in dem die Felder **[!UICONTROL Ausgabetyp]** oder **[!UICONTROL Anforderungstyp]** angezeigt werden:
+Als [!DNL Workfront] können Sie die Namen der Anfragetypen in Ihrem System konfigurieren. Die neuen Namen sind in allen Bereichen von [!DNL Workfront] sichtbar, in denen die Felder **[!UICONTROL Anfragetyp]** oder **[!UICONTROL Anfragetyp]** angezeigt werden:
 
-* Im Bereich **[!UICONTROL Queue Details]** eines Projekts, das die Probleme oder Anforderungen erhält.
-* Wenn für eine Anforderungswarteschlange mehr als ein Anfragetyp ausgewählt ist, wird im Feld **[!UICONTROL Neues Problem] Formular** im Feld **[!UICONTROL Ausgabetyp]** beim Erstellen eines neuen Problems oder Senden einer neuen Anforderung Folgendes angezeigt:
+* Im Bereich **[!UICONTROL Warteschlangendetails]** eines Projekts, das die Probleme oder Anfragen erhält.
+* Wenn für eine Anfrage-Warteschlange mehr als ein Anfragetyp ausgewählt ist, im Formular **[!UICONTROL Neues Problem]** im Feld **[!UICONTROL Anfragetyp]**, wenn Sie ein neues Problem erstellen oder eine neue Anfrage senden.
 
-  Weitere Informationen zum Erstellen von Problemen in [!DNL Workfront] finden Sie unter [Probleme erstellen](../../../manage-work/issues/manage-issues/create-issues.md)
+  Weitere Informationen zum Erstellen von Problemen in [!DNL Workfront] finden Sie unter [Erstellen von Problemen](../../../manage-work/issues/manage-issues/create-issues.md)
 
-  Weitere Informationen zum Erstellen von Anforderungen in [!DNL Workfront] finden Sie unter [Erstellen und Senden [!DNL Adobe Workfront] von Anforderungen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+  Weitere Informationen zum Erstellen von Anfragen in [!DNL Workfront] finden Sie unter [Erstellen und Senden [!DNL Adobe Workfront] Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
-* Wenn Sie im Formular **[!UICONTROL Detail des Warteschlangenthemas]** das Thema &quot;Warteschlange&quot;konfigurieren,\
-   Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie unter [Themen für Warteschlangen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+* Im Formular **[!UICONTROL Warteschlangenthema-Detail]** beim Konfigurieren des Warteschlangenthemas.\
+   Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie unter [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
 So passen Sie die Namen der Anfragetypen an:
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **[!UICONTROL Projekteinstellungen]** > **[!UICONTROL Status]**.
+1. Klicken Sie **[!UICONTROL Projektvoreinstellungen]** > **[!UICONTROL Status]**.
 
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Probleme]**.
-1. Bewegen Sie oben auf der Registerkarte **[!UICONTROL Probleme]** den Mauszeiger über den Namen eines Anfragetyps und klicken Sie dann auf das daraufhin angezeigte Symbol **[!UICONTROL Bearbeiten]** .
+1. Klicken Sie auf die **[!UICONTROL Probleme]**.
+1. Bewegen Sie oben auf der Registerkarte **[!UICONTROL Probleme]** den Mauszeiger über den Namen eines Anfragetyps und klicken Sie dann auf das **[!UICONTROL Bearbeiten]**-Symbol.
 
    ![](assets/edit-request-type-name-nwe.png)
 
-1. Geben Sie in das angezeigte Feld einen neuen Namen ein und drücken Sie dann die Eingabetaste ]**.**[!UICONTROL 
+1. Geben Sie im angezeigten Feld einen neuen Namen ein und drücken Sie dann die **[!UICONTROL Eingabetaste]**.
 
-## Konfigurieren des Problemstatus in verschiedenen Anfragetypen
+## Problemstatus in verschiedenen Anfragetypen konfigurieren
 
-Sie können jeden Anfragetyp mit verschiedenen Problemstatus verknüpfen. Sie können auch die Reihenfolge ändern, in der die Status zu einem Problem angezeigt werden, je nach Art des Problems.
+Sie können jeden Anfragetyp mit verschiedenen Problemstatus verknüpfen. Sie können auch die Reihenfolge ändern, in der die Status eines Problems angezeigt werden, je nachdem, um welche Art von Problem es sich handelt.
 
-Weitere Informationen zum Ändern der Standardreihenfolge der Problemstatus und zum Konfigurieren des Problemstatus finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) in [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).
+Weitere Informationen zum Ändern der Standardreihenfolge von Problemstatus und zum Konfigurieren des Problemstatus finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md) in [Erstellen oder Bearbeiten eines Status](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md).

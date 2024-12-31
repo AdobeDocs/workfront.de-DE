@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;projects
 navigation-topic: configure-system-defaults
-title: Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren
+title: Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation
 description: Sie können auswählen, ob Sie monatlich oder vierteljährlich neue Workfront-Funktionen erhalten möchten.
 author: Becky
 feature: System Setup and Administration
@@ -15,46 +15,46 @@ ht-degree: 0%
 
 ---
 
-# Schnelle Versionen für Ihre Organisation aktivieren oder deaktivieren
+# Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation
 
-Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Updates. Sie können entscheiden, ob Sie neue Funktionen vierteljährlich oder nach einem Zeitplan für eine schnellere Veröffentlichung erhalten möchten.
+Adobe Workfront verfügt über zwei Modelle zur Veröffentlichung neuer Funktionen und Aktualisierungen. Sie können auswählen, ob neue Funktionen vierteljährlich oder nach einem schnelleren Veröffentlichungszeitplan bereitgestellt werden sollen.
 
-Beide Modelle bieten dieselben Funktionen und Updates. Der einzige Unterschied besteht im Timing.
+Beide Modelle bieten dieselben Funktionen und Updates. Der einzige Unterschied ist das Timing.
 
 Beispiel:
 
-* Firma X hat den Prozess der schnellen Veröffentlichung aktiviert. Sie erhalten im August Feature A, im September Feature B und im Oktober Feature C.
-* Firma Y hat den Prozess der schnellen Veröffentlichung deaktiviert. Mit der vierteljährlichen Version im Oktober erhalten sie die Funktionen A, B und C.
+* Unternehmen X hat den Schnellfreigabeprozess aktiviert. Sie erhalten Feature A im August, Feature B im September und Feature C im Oktober.
+* Firma Y hat den Schnellfreigabeprozess deaktiviert. Sie erhalten die Funktionen A, B und C mit der vierteljährlichen Veröffentlichung im Oktober.
 
 >[!NOTE]
 >
->* Kunden, die Workfront nach der Version 23.3 (Juli 2023) erworben haben, haben standardmäßig die Funktion &quot;Schnelle Veröffentlichung&quot;aktiviert und können sich abmelden.
->* Kunden, die Workfront vor Version 23.3 erworben haben, haben standardmäßig die Funktion &quot;Schnelle Veröffentlichung&quot;deaktiviert und können sich anmelden.
+>* Kunden, die Workfront nach der Version 23.3 (Juli 2023) erworben haben, ist der Prozess der schnellen Veröffentlichung standardmäßig aktiviert und können sich abmelden.
+>* Kunden, die Workfront vor der Version 23.3 erworben haben, sind standardmäßig für die schnelle Veröffentlichung deaktiviert und können sich anmelden.
 
-## Überlegungen zum Aktivieren oder Deaktivieren des Schnellversionsprozesses
+## Überlegungen beim Aktivieren oder Deaktivieren des Schnellfreigabeprozesses
 
-Beachten Sie Folgendes beim Aktivieren oder Deaktivieren des Fast-Release-Prozesses:
+Beachten Sie beim Aktivieren oder Deaktivieren des Schnellfreigabeprozesses Folgendes:
 
-* **Durch Aktivierung von** der Schnellversion mitten in einem Quartal erhält Ihr Unternehmen Zugriff auf Funktionen und Funktionen, die bereits für die schnelle Veröffentlichung freigegeben wurden.
+* **Aktivierung** Der Schnellveröffentlichungsprozess mitten in einem Quartal bietet Ihrem Unternehmen Zugriff auf Funktionen und Funktionen, die bereits in der Schnellveröffentlichung veröffentlicht wurden.
 
-  Wenn beispielsweise Funktion A im August veröffentlicht wird und Funktion B im September veröffentlicht wird, hat jede Organisation, die die schnelle Veröffentlichung im September ermöglicht, sofort Zugriff auf die Funktionen A und B.
+  Wenn beispielsweise Funktion A im August veröffentlicht wird und Funktion B im September veröffentlicht wird, hat jedes Unternehmen, das den Schnellveröffentlichungsprozess im September aktiviert, sofort Zugriff auf Funktionen A und B.
 
-* **Deaktivieren** Der Schnellveröffentlichungsprozess wird erst mit der nächsten vierteljährlichen Version wirksam.
+* **Deaktivieren** Der Schnellfreigabeprozess wird erst bei der nächsten vierteljährlichen Veröffentlichung wirksam.
 
-  Wenn beispielsweise eine Organisation, die die schnelle Veröffentlichung aktiviert hat, diese im August deaktiviert, erhält sie weiterhin die Funktionen der schnellen Veröffentlichung im September, da sie erst zur vierteljährlichen Veröffentlichung im Oktober übergegangen ist.
+  Wenn beispielsweise ein Unternehmen, das die Schnellfreigabe aktiviert hat, diese im August deaktiviert, erhält es die Schnellfreigabefunktionen im September weiterhin, da es erst zur vierteljährlichen Freigabe übergeht, wenn die nächste vierteljährliche Freigabe im Oktober erfolgt.
 
-## Aktivieren oder Deaktivieren des Schnellveröffentlichungsprozesses für Ihre Organisation
+## Aktivieren oder Deaktivieren des Schnellfreigabeprozesses für Ihre Organisation
 
-So aktivieren oder deaktivieren Sie den Prozess der schnellen Veröffentlichung:
+So aktivieren oder deaktivieren Sie den Schnellfreigabeprozess:
 
 {{step-1-to-setup}}
 
 1. Erweitern Sie **System** im linken Navigationsbereich und klicken Sie dann auf **Voreinstellungen**.
-1. Um schnelle Versionen zu aktivieren, aktivieren Sie das Kontrollkästchen **Prozess der schnellen Veröffentlichung zulassen** .
+1. Um Schnellveröffentlichungen zu aktivieren, aktivieren Sie das **Schnellfreigabeprozess zulassen**.
 
    Oder
 
-   Um schnelle Versionen zu deaktivieren und zu einem vierteljährlichen Versionszyklus zu wechseln, deaktivieren Sie das Kontrollkästchen **Prozess der schnellen Veröffentlichung zulassen** .
+   Um Schnellveröffentlichungen zu deaktivieren und zu einem vierteljährlichen Veröffentlichungszyklus zu wechseln, deaktivieren Sie das Kontrollkästchen **Schnellveröffentlichungsprozess**.
 
 1. Bestätigen Sie Ihre Auswahl im Popup-Fenster.
 1. Klicken Sie auf **Speichern**.

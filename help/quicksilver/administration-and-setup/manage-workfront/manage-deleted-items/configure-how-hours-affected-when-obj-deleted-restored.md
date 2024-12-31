@@ -2,8 +2,8 @@
 user-type: administrator
 product-area: system-administration
 navigation-topic: manage-deleted-items
-title: Auswirkungen auf Stunden konfigurieren, wenn ein Objekt gelöscht und wiederhergestellt wird
-description: Sie können konfigurieren, was passiert, wenn ein Benutzer ein Projekt, eine Aufgabe oder ein Problem löscht, gegen das die Stunden protokolliert werden. Die gewählte Option bestimmt auch, was mit den Stunden geschieht, wenn das Projekt, die Aufgabe oder das Problem zu einem späteren Zeitpunkt wiederhergestellt wird. (Weitere Informationen zum Wiederherstellen von Elementen in Workfront finden Sie unter Gelöschte Elemente wiederherstellen .)
+title: Konfigurieren der Auswirkungen auf Stunden, wenn ein Objekt gelöscht und wiederhergestellt wird
+description: Sie können konfigurieren, was mit Stunden passiert, wenn jemand ein Projekt, eine Aufgabe oder ein Problem löscht, für das bzw. das die Stunden protokolliert werden. Die von Ihnen gewählte Option bestimmt auch, was mit den Stunden passiert, wenn das Projekt, die Aufgabe oder das Problem zu einem späteren Zeitpunkt wiederhergestellt wird. (Weitere Informationen zum Wiederherstellen von Elementen in Workfront finden Sie unter Wiederherstellen gelöschter Elemente.)
 feature: System Setup and Administration
 role: Admin
 exl-id: 466c3972-8108-49a6-98f6-f65f5fcc3617
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Auswirkungen auf die Stunden konfigurieren, in denen ein Objekt gelöscht und wiederhergestellt wird
+# Auswirkungen auf Stunden konfigurieren, wenn ein Objekt gelöscht und wiederhergestellt wird
 
-Sie können konfigurieren, was passiert, wenn ein Benutzer ein Projekt, eine Aufgabe oder ein Problem löscht, gegen das die Stunden protokolliert werden. Die gewählte Option bestimmt auch, was mit den Stunden geschieht, wenn das Projekt, die Aufgabe oder das Problem zu einem späteren Zeitpunkt wiederhergestellt wird. (Weitere Informationen zum Wiederherstellen von Elementen in Workfront finden Sie unter [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
+Sie können konfigurieren, was mit Stunden passiert, wenn jemand ein Projekt, eine Aufgabe oder ein Problem löscht, für das bzw. das die Stunden protokolliert werden. Die von Ihnen gewählte Option bestimmt auch, was mit den Stunden passiert, wenn das Projekt, die Aufgabe oder das Problem zu einem späteren Zeitpunkt wiederhergestellt wird. (Weitere Informationen zum Wiederherstellen von Elementen in Workfront finden Sie unter [Wiederherstellen gelöschter Elemente](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,8 +29,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -41,13 +41,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,19 +55,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Erweitern Sie **Timesheets und Stunden** und klicken Sie dann auf **Voreinstellungen**.
+1. Erweitern Sie **Arbeitszeittabellen und Stunden** und klicken Sie dann auf **Voreinstellungen**.
 
-1. Suchen Sie den Abschnitt **Voreinstellungen für Projekt-, Aufgaben- oder Problemlöschungen** .
-1. (Bedingt) Um zu konfigurieren, wie Stunden beim Löschen eines Projekts verwaltet werden, wählen Sie eine der folgenden Optionen im Abschnitt **Beim Löschen von Projekten** aus:
+1. Suchen Sie den Abschnitt **Voreinstellungen für die Löschung von Projekten, Aufgaben oder**.
+1. (Bedingt) Um zu konfigurieren, wie Stunden beim Löschen eines Projekts verwaltet werden, wählen Sie eine der folgenden Optionen im Abschnitt **Beim Löschen von Projekten**:
 
-   * Behalten Sie bereits zu Timesheets hinzugefügte protokollierte Stunden als allgemeine Stunden bei (wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, bleiben die Stunden auf dem Timesheet).\
+   * Protokollierte Stunden, die Arbeitszeittabellen bereits hinzugefügt wurden, als allgemeine Stunden beibehalten (Wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, verbleiben die Stunden in der Arbeitszeittabelle)\
      Diese Option ist standardmäßig ausgewählt.
-   * Löschen Sie alle protokollierten Stunden (wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, werden die protokollierten Stunden im Projekt wiederhergestellt).
+   * Protokollierte Stunden löschen. (Wenn dieses Projekt zu einem späteren Zeitpunkt wiederhergestellt wird, werden protokollierte Stunden im Projekt wiederhergestellt.)
 
-1. (Bedingt) Um zu konfigurieren, wie Stunden beim Löschen einer Aufgabe oder eines Problems verwaltet werden, wählen Sie eine der folgenden Optionen im Abschnitt **Beim Löschen von Aufgaben oder Problemen** aus:
+1. (Bedingt) Um zu konfigurieren, wie Stunden beim Löschen einer Aufgabe oder eines Problems verwaltet werden, wählen Sie eine der folgenden Optionen im Abschnitt **Beim Löschen von Aufgaben oder**&quot;:
 
-   * Verschieben Sie die protokollierten Stunden in das Projekt, in dem sich die Aufgabe oder das Problem befindet (wenn diese Aufgabe oder dieses Problem zu einem späteren Zeitpunkt wiederhergestellt wird, bleiben die Stunden im Projekt erhalten).\
+   * Protokollierte Stunden in das Projekt verschieben, in dem sich die Aufgabe oder Anfrage befindet (Wenn diese Aufgabe oder Anfrage zu einem späteren Zeitpunkt wiederhergestellt wird, verbleiben die Stunden im Projekt)\
      Diese Option ist standardmäßig ausgewählt.
-   * Löschen Sie alle protokollierten Stunden (wenn diese Aufgabe oder dieses Problem zu einem späteren Zeitpunkt wiederhergestellt wird, werden die protokollierten Stunden für die Aufgabe oder das Problem wiederhergestellt).
+   * Protokollierte Stunden löschen. (Wenn diese Aufgabe oder Anfrage zu einem späteren Zeitpunkt wiederhergestellt wird, werden protokollierte Stunden in der Aufgabe oder Anfrage wiederhergestellt.)
 
 1. Klicken Sie auf **Speichern**.

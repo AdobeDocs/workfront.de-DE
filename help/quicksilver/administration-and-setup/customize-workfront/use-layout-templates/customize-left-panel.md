@@ -1,9 +1,9 @@
 ---
-title: Anpassen des linken Bereichs mithilfe einer Layout-Vorlage
+title: Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: In einer Layoutvorlage können Sie anpassen, was Benutzer im linken Bedienfeld in Adobe Workfront sehen.
+description: In einer Layout-Vorlage können Sie anpassen, was Benutzende im linken Bereich in Adobe Workfront sehen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -15,29 +15,29 @@ ht-degree: 0%
 
 ---
 
-# Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage
+# Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage
 
 <!--Audited: 10/2024-->
 
-In einer Layoutvorlage können Sie anpassen, was Benutzer im linken Bedienfeldbereich in [!DNL Adobe Workfront] sehen.
+In einer Layout-Vorlage können Sie anpassen, was Benutzende im gesamten Bereich des linken Bedienfelds sehen [!DNL Adobe Workfront].
 
-Sie können beispielsweise bestimmen, welche der folgenden Elemente Benutzern im linken Bereich angezeigt werden, wenn Sie eine Aufgabe anzeigen:
+Sie können beispielsweise bestimmen, welches der folgenden Elemente Benutzern im linken Bereich beim Anzeigen einer Aufgabe angezeigt wird:
 
 ![](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
->An der Bestellung und Sichtbarkeit vorgenommene Änderungen werden in der Mobile App übernommen.
+>Änderungen an der Bestellung und der Sichtbarkeit werden in der Mobile App übernommen.
 
-Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
+Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../use-layout-templates/assign-users-to-layout-template.md).
+Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -46,8 +46,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -56,23 +56,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.
+Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anpassen des linken Bereichs für einen Bereich in [!DNL Workfront]:
+## Passen Sie das linke Bedienfeld für einen Bereich in [!DNL Workfront] an:
 
-1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) unter **[!UICONTROL Anpassen, was Benutzer sehen]**, und klicken Sie dann auf den Namen eines Objekttyps oder eines Bereichs [!DNL Workfront] , dessen linker Bereich Sie anpassen möchten.
+1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
+1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) unter **[!UICONTROL Was Benutzer sehen]** und klicken Sie dann auf den Namen eines Objekttyps oder eines [!DNL Workfront] Bereichs, dessen linker Bereich angepasst werden soll.
 
-   Die Objekttypen und [!DNL Workfront] -Bereiche, deren linker Bereich Sie anpassen können, sind in der folgenden Tabelle aufgeführt:
+   Die Objekttypen und [!DNL Workfront] Bereiche, deren linker Bereich angepasst werden kann, sind in der folgenden Tabelle aufgeführt:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -80,46 +80,46 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
     <col> 
     <thead> 
      <tr> 
-      <th>Objekttyp oder Bereich [!DNL Workfront]</th> 
-      <th>Wenn Benutzer auf Folgendes klicken..</th> 
-      <th>Abschnitte im linken Bereich, die Benutzern angezeigt werden, nachdem Sie sie in der Layoutvorlage angezeigt haben:</th> 
+      <th>Objekttyp oder [!DNL Workfront]</th> 
+      <th>Wenn Benutzer auf Folgendes klicken…</th> 
+      <th>Abschnitte im linken Bereich, die Benutzenden angezeigt werden, nachdem sie in der Layout-Vorlage angezeigt wurden:</th> 
      </tr> 
     </thead> 
     <tbody> 
      <tr> 
-      <td>[!UICONTROL Projekt]</td> 
+      <td>[!UICONTROL-Projekt]</td> 
       <td>Der Name eines Projekts</td> 
-      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Geschäftsfall], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Validierungen], [!UICONTROL Grundlinien], [!UICONTROL Abrechnungsraten], [!UICONTROL Abrechnung], Aufzeichnungen Ausgaben!UICONTROL, [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL People], [!UICONTROL Utilization], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL CONTROL Planning]*</td> 
+      <td>[!UICONTROL Aufgaben], [!UICONTROL Projektdetails], [!UICONTROL Business Case], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Probleme], [!UICONTROL Risiken], [!UICONTROL Genehmigungen], [!UICONTROL Baselines], [!UICONTROL Abrechnungssätze], [!UICONTROL Abrechnungssätze], [!UICONTROL Ausgaben], [!UICONTROL Stunden], [!UICONTROL Workload Balancer], [!UICONTROL Personen], [!UICONTROL Auslastung], [!UICONTROL Auslastung], [!UICONTROL Queue Details], [!UICONTROL Routing Rules], [!UICONTROL Queue Topic], [!UICONTROL Topic Group], [!UICONTROL Metrics], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Task]</td> 
+      <td>[!UICONTROL Aufgabe]</td> 
       <td>Der Name einer Aufgabe</td> 
-      <td> [!UICONTROL Aktualisierungen], [!UICONTROL Dokumente], [!UICONTROL Aufgabendetails], [!UICONTROL Unteraufgabe], [!UICONTROL Probleme], [!UICONTROL Stunden], [!UICONTROL Genehmigungen], [!UICONTROL Ausgaben], [!UICONTROL Vorgänger]</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Aufgabendetails], [!UICONTROL-Unteraufgabe], [!UICONTROL-Probleme], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen], [!UICONTROL-Ausgaben], [!UICONTROL-Vorgänger]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Problem]</td> 
       <td>Der Name eines Problems</td> 
-      <td> [!UICONTROL Aktualisierungen], [!UICONTROL Dokumente], [!UICONTROL Problemdetails], [!UICONTROL Stunden], [!UICONTROL Genehmigungen]</td> 
+      <td> [!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Problemdetails], [!UICONTROL-Stunden], [!UICONTROL-Genehmigungen]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Portfolio]</td> 
+      <td>[!UICONTROL-Portfolio]</td> 
       <td>Der Name eines Portfolios</td> 
-      <td>[!UICONTROL Projekte], [!UICONTROL Programme], [!UICONTROL Portfolio Details], [!UICONTROL Portfolio] [!UICONTROL Optimierung], [!UICONTROL Dokumente], [!UICONTROL Updates], [!UICONTROL Planung]*</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programme], [!UICONTROL-Portfolio-Details], [!UICONTROL-Portfolio] [!UICONTROL-Optimierung], [!UICONTROL-Dokumente], [!UICONTROL-Updates], [!UICONTROL Planning]*</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Programm]</td> 
+      <td>[!UICONTROL-Programm]</td> 
       <td>Der Name eines Programms</td> 
-      <td>[!UICONTROL Projekte], [!UICONTROL Programmdetails], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Planung]*</td> 
+      <td>[!UICONTROL-Projekte], [!UICONTROL-Programmdetails], [!UICONTROL-Updates], [!UICONTROL-Dokumente], [!UICONTROL-Planung]*</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Vorlage]</td> 
+      <td>[!UICONTROL-Vorlage]</td> 
       <td>Der Name einer Projektvorlage</td> 
-      <td>[!UICONTROL Vorlagenaufgaben], [!UICONTROL Vorlagendetails], [!UICONTROL Aktualisierungen], [!UICONTROL Dokumente], [!UICONTROL Risiken], [!UICONTROL Ausgaben], [!UICONTROL Personen], [!UICONTROL Genehmigungen], [!UICONTROL Abrechnungsraten], [!UICONTROL Warteschlangendetails], [!UICONTROL Routing Rules],!UICONTROL Warteschlangenthema], [!UICONTROL Themengruppe]</td> 
+      <td>[!UICONTROL Vorlagenaufgaben], [!UICONTROL Vorlagendetails], [!UICONTROL Updates], [!UICONTROL Dokumente], [!UICONTROL Risiken], [!UICONTROL Ausgaben], [!UICONTROL Personen], [!UICONTROL Genehmigungen], [!UICONTROL Abrechnungssätze], [!UICONTROL Warteschlangendetails], [!UICONTROL Routing-Regeln], [!UICONTROL Warteschlangenthema], [!UICONTROL Themengruppe]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Vorlagenaufgabe]</td> 
       <td>Der Name einer Vorlagenaufgabe</td> 
-      <td>[!UICONTROL Aktualisierungen], [!UICONTROL Dokumente], [!UICONTROL Vorlagenaufgaben], [!UICONTROL Unteraufgaben], [!UICONTROL Ausgaben], [!UICONTROL Genehmigungen], [!UICONTROL Vorgänger]</td>
+      <td>[!UICONTROL-Aktualisierungen], [!UICONTROL-Dokumente], [!UICONTROL-Vorlagenaufgabendetails], [!UICONTROL-Teilaufgaben], [!UICONTROL-Ausgaben], [!UICONTROL-Genehmigungen], [!UICONTROL-Vorgänger]</td>
      </tr>
      <!--
       <tr> 
@@ -129,44 +129,44 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
       </tr>
      --> 
      <tr> 
-      <td> [!UICONTROL Rechnungsdatensatz]</td> 
-      <td>Der Name eines Abrechnungsdatensatzes für ein Projekt</td> 
-      <td>[!UICONTROL Rechnungsdatensätze], [!UICONTROL Rechnungsstunden], [!UICONTROL Abrechenbare Ausgaben], [!UICONTROL Festeinnahmen]</td> 
+      <td> [!UICONTROL Rechnungsnachweis]</td> 
+      <td>Der Name eines Rechnungsnachweises für ein Projekt</td> 
+      <td>[!UICONTROL Rechnungsnachweis-Details], [!UICONTROL Fakturierbare Stunden], [!UICONTROL Fakturierbare Ausgaben], [!UICONTROL Feste Einnahmen]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Projekte]</td> 
-      <td>Projekte <img src="assets/projects-in-main-menu.png"> im [!UICONTROL Hauptmenü] <img src="assets/main-menu-icon.png"></td> 
-      <td>[!UICONTROL Projekte]</td> 
+      <td>[!UICONTROL-Projekte]</td> 
+      <td>Im [!UICONTROL-Hauptmenü] <img src="assets/projects-in-main-menu.png"> Projekte <img src="assets/main-menu-icon.png"></td> 
+      <td>[!UICONTROL-Projekte]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Anforderungen]</td> 
-      <td>Der Name einer Anforderung</td> 
+      <td>[!UICONTROL-Anforderungen]</td> 
+      <td>Der Name einer Anfrage</td> 
       <td>[!UICONTROL Neue Anfrage], [!UICONTROL Gesendete Anfragen], [!UICONTROL Alle Anfragen], [!UICONTROL Entwürfe]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Dashboards]</td> 
       <td>Der Name eines Dashboards</td> 
-      <td>[!UICONTROL My Dashboards], [!UICONTROL Shared Dashboards], [!UICONTROL All Dashboards]<p><b>HINWEIS</b>: Wenn Sie benutzerdefinierte Registerkarten für den Bereich [!UICONTROL Berichte] mit einer Layout-Vorlage in [!DNL Adobe Workfront Classic] erstellt haben, werden diese am unteren Rand dieser Liste angezeigt. Benutzer werden im Bereich [!UICONTROL Dashboards] unten im linken Bereich angezeigt.</p> </td> 
+      <td>[!UICONTROL Eigene Dashboards], [!UICONTROL Freigegebene Dashboards], [!UICONTROL Alle Dashboards]<p><b>HINWEIS</b>: Wenn Sie benutzerdefinierte Registerkarten für den Bereich [!UICONTROL Berichte] mithilfe einer Layout-Vorlage in [!DNL Adobe Workfront Classic] erstellt haben, werden sie unten in dieser Liste angezeigt. Für Benutzer werden sie unten im linken Bereich im Bereich [!UICONTROL Dashboards] angezeigt.</p> </td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Scrum Team]</td> 
+      <td>[!UICONTROL Scrum-Team]</td> 
       <td>Der Name eines Scrum-Teams</td> 
-      <td><p>[!UICONTROL Iterations], [!UICONTROL Current iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Settings]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird nur dann im linken Bereich angezeigt, wenn bei der Iteration mindestens eine Aufgabe oder ein Problem vorliegt.</p></td> 
+      <td><p>[!UICONTROL-Iterationen], [!UICONTROL Aktuelle Iteration], [!UICONTROL Backlog], [!UICONTROL Workload Balancer], [!UICONTROL-Aktualisierungen], [!UICONTROL-Teameinstellungen]</p> <p><strong>HINWEIS:</strong> Das Element <strong>[!UICONTROL Aktuelle Iteration]</strong> wird im linken Bereich nur angezeigt, wenn mindestens eine Aufgabe oder ein Problem bei der Iteration vorliegt.</p></td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Kanban Team]</td> 
+      <td>[!UICONTROL Kanban-Team]</td> 
       <td>Der Name eines Kanban-Teams</td> 
-      <td>[!UICONTROL Workload Balancer], [!UICONTROL Kanban Board], [!UICONTROL Backlog], [!UICONTROL Updates], [!UICONTROL Team Settings]</td> 
+      <td>[!UICONTROL Workload Balancer], [!UICONTROL Kanban-Board], [!UICONTROL Backlog], [!UICONTROL Updates], [!UICONTROL Team-Einstellungen]</td> 
      </tr> 
      <tr> 
-      <td>[!UICONTROL Wasserfallteam]</td> 
-      <td>Der Name eines Wasserfallteams</td> 
+      <td>[!UICONTROL Waterfall-Team]</td> 
+      <td>Der Name eines Waterfall-Teams</td> 
       <td>[!UICONTROL Workload Balancer], [!UICONTROL Updates], [!UICONTROL Team Requests], [!UICONTROL Team Settings]</td> 
      </tr> 
      <tr> 
       <td>[!UICONTROL Iteration]</td> 
       <td>Der Name einer Iteration</td> 
-      <td>[!UICONTROL Meldungen], [!UICONTROL Probleme], [!UICONTROL Meldungsboard], [!UICONTROL Übersicht], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
+      <td>[!UICONTROL Stories], [!UICONTROL Probleme], [!UICONTROL Story Board], [!UICONTROL Overview], [!UICONTROL Custom Forms], [!UICONTROL Updates] </td> 
      </tr> 
      <!--
       <tr> 
@@ -199,47 +199,47 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
     </tbody> 
    </table>
 
-   *Ihr Unternehmen muss eine zusätzliche Lizenz für Workfront Planning erwerben, um diesen Bereich zum linken Bereich von Projekten, Portfolios und Programmen hinzufügen zu können. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
+   *Ihr Unternehmen muss eine zusätzliche Lizenz für Workfront Planning erwerben, um diesen Bereich dem linken Bereich von Projekten, Portfolios und Programmen hinzufügen zu können. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
 
 
-1. Führen Sie in der Liste **[!UICONTROL Linker Bereich]** einen der folgenden Schritte aus, um zu bestimmen, welche Benutzer im linken Bereich für den ausgewählten [!DNL Workfront] -Bereich oder Objekttyp angezeigt werden:
+1. Führen Sie in der **[!UICONTROL Linker Bereich]** einen der folgenden Schritte aus, um zu bestimmen, was Benutzende im linken Bereich für den ausgewählten [!DNL Workfront] Bereich oder Objekttyp sehen werden:
 
-   * Klicken Sie auf die Symbole **Anzeigen** ![](assets/add-secondary-nav-item.png) oder **Ausblenden** ![](assets/delete-secondary-nav-item.png) , um Abschnitte im linken Bereich ein- oder auszublenden. Sie können keine Elemente ausblenden, die kein Symbol **Einblenden** oder **Ausblenden** aufweisen.
+   * Klicken Sie auf **Anzeigen** ![](assets/add-secondary-nav-item.png) oder **Ausblenden** ![](assets/delete-secondary-nav-item.png), um Abschnitte im linken Bedienfeld ein- oder auszublenden. Sie können keine Elemente ausblenden, die kein Symbol **Anzeigen** oder **Ausblenden** aufweisen.
 
-   * Ziehen Sie Elemente ![](assets/move-icon---dots.png) in die Reihenfolge, um sie im linken Bereich zu ändern.
+   * Ziehen Sie Elemente ![](assets/move-icon---dots.png), um ihre Reihenfolge im linken Bereich zu ändern.
 
    >[!NOTE]
    >
-   >Die folgenden Elemente in der Dropdownliste **[!UICONTROL Anpassen, was Benutzer sehen]** beziehen sich auf andere Bereiche als den linken Bereich:
+   >Die folgenden Elemente in der **[!UICONTROL Anpassen, was Benutzer sehen]** Dropdown-Liste beziehen sich auf andere Bereiche als den linken Bereich:
    >* [!UICONTROL Listen]
-   >* [!UICONTROL Bedienfeld &quot;Zusammenfassung&quot;]
+   >* [!UICONTROL Bedienfeld Zusammenfassung]
    >* [!UICONTROL Startseite]
    >* [!UICONTROL Branding]
    > 
    >Informationen zum Anpassen der zusätzlichen Bereiche finden Sie in den folgenden Artikeln:
    >
-   >* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
-   >* [Passen Sie das Bedienfeld [!UICONTROL Zusammenfassung] mithilfe einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
-   >* [Passen Sie die Startseite mit einer Layoutvorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
-   >* [Adobe markieren [!DNL Workfront] mit einer Layoutvorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
+   >* [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >* [Passen Sie den [!UICONTROL Zusammenfassungsbereich] mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-home-summary-layout-template.md)
+   >* [Passen Sie die Startseite mithilfe einer Layout-Vorlage an](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-new-home-layout-template.md)
+   >* [Marken-Adobe [!DNL Workfront] unter Verwendung einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/brand-wf-using-a-layout-template.md)
 
 
-1. (Optional) Wenn Sie ein Element des linken Bedienfelds hinzufügen möchten, das mit einem der Dashboards Ihres Unternehmens verknüpft ist, klicken Sie auf **[!UICONTROL Benutzerspezifischen Abschnitt hinzufügen]**, geben Sie einen **[!UICONTROL Titel des benutzerdefinierten Abschnitts]** für das Element ein und fügen Sie dann das Dashboard hinzu.
+1. (Optional) Wenn Sie ein Element im linken Bedienfeld hinzufügen möchten, das mit einem der Dashboards Ihres Unternehmens verknüpft ist, klicken Sie auf **[!UICONTROL Benutzerdefinierten Abschnitt hinzufügen]** und geben Sie einen **[!UICONTROL benutzerdefinierten Abschnittstitel]** für das Element ein. Fügen Sie dann das Dashboard hinzu.
 
-   Dashboard-Elemente werden unten im linken Bereich angezeigt. Benutzer sehen den Titel des benutzerdefinierten Abschnitts, den Sie neben dem Dashboard-Element eingeben, wenn sie im linken Bereich den Mauszeiger darüber bewegen.
+   Dashboard-Elemente werden am unteren Rand des linken Bedienfelds angezeigt. Benutzern wird der benutzerdefinierte Abschnittstitel angezeigt, den Sie neben dem Dashboard-Element eingeben, wenn sie den Mauszeiger darüber im linken Bedienfeld bewegen.
 
    >[!NOTE]
    >
-   >Benutzer können benutzerdefinierte Dashboard-Elemente zu ihrem eigenen linken Bereich hinzufügen. Wenn Sie benutzerdefinierte Dashboard-Elemente zu einer Layoutvorlage hinzufügen, werden Ihre Elemente zusätzlich zu den von ihnen hinzugefügten Elementen angezeigt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzer einer neuen Layoutvorlage mit benutzerdefinierten Dashboard-Elementen zuweisen. Informationen dazu, wie Benutzer das linke Bedienfeld anpassen können, finden Sie unter [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
+   >Benutzer können benutzerdefinierte Dashboard-Elemente zu ihrem eigenen linken Bedienfeld hinzufügen. Wenn Sie einer Layout-Vorlage benutzerdefinierte Dashboard-Elemente hinzufügen, werden Ihre Elemente zusätzlich zu den hinzugefügten Elementen angezeigt, ohne sie zu überschreiben oder zurückzusetzen. Dies gilt auch, wenn Sie Benutzende einer neuen Layout-Vorlage mit benutzerdefinierten Dashboard-Elementen zuweisen. Informationen zum Anpassen des linken Bedienfelds durch Benutzende finden Sie unter [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md).
    >
    >Weitere Informationen zu Dashboards finden Sie unter [Dashboards](../../../reports-and-dashboards/dashboards/dashboards-overview.md).
 
-1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
+1. Passen Sie die Layout-Vorlage weiter an.
 
    Oder
 
-   Wenn Sie mit dem Anpassen fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **[!UICONTROL Speichern]**.
 
    >[!TIP]
    >
-   >Sie können jederzeit auf [!UICONTROL **Speichern**] klicken, um Ihren Fortschritt zu speichern, wodurch der Layout-Vorlagen-Editor geschlossen wird, und die Vorlage später weiter ändern.
+   >Sie können jederzeit auf [!UICONTROL **Speichern**] klicken, um Ihren Fortschritt zu speichern. Dadurch wird der Layout-Vorlageneditor geschlossen und die Vorlage später weiter geändert.

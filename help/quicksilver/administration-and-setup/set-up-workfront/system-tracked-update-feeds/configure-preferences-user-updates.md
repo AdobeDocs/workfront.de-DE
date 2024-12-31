@@ -2,7 +2,7 @@
 user-type: administrator
 product-area: system-administration;setup
 navigation-topic: system-tracked-update-feeds
-title: Voreinstellungen für Benutzeraktualisierungen konfigurieren
+title: Konfigurieren von Voreinstellungen für Benutzeraktualisierungen
 description: Sie können Voreinstellungen konfigurieren, die auf bestimmte Funktionen zugreifen, wenn Benutzer Kommentare im Bereich [!UICONTROL Aktualisierungen] eines Objekts hinzufügen.
 author: Lisa
 feature: System Setup and Administration
@@ -17,11 +17,11 @@ ht-degree: 1%
 
 # Voreinstellungen für Benutzeraktualisierungen konfigurieren
 
-Sie können Voreinstellungen konfigurieren, die Benutzern Zugriff auf bestimmte Funktionen gewähren, wenn sie Kommentare zum Bereich [!UICONTROL Aktualisierungen] eines Objekts hinzufügen.
+Sie können Voreinstellungen konfigurieren, die Benutzern Zugriff auf bestimmte Funktionen gewähren, wenn sie Kommentare im Bereich [!UICONTROL Aktualisierungen] eines Objekts hinzufügen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,7 +31,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -41,33 +41,33 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr>  
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td><p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsstufe [!UICONTROL Systemadministrator].</p><p>Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p></td>
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td><p>Um diese Schritte auf Systemebene auszuführen, benötigen Sie die Zugriffsebene [!UICONTROL Systemadministrator].</p><p>Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Benutzer können Bilder in Updates hinzufügen
+## Benutzern erlauben, Bilder in Aktualisierungen hinzuzufügen
 
-Standardmäßig können Benutzer keine Bilder in Aktualisierungen hinzufügen. Wenn Sie diese Voreinstellung aktivieren, können Benutzer Bilder in Aktualisierungen anhängen. Die Voreinstellung gilt für alle Aktualisierungen in allen Bereichen Ihrer [!DNL Workfront] -Instanz.
+Standardmäßig können Benutzende in Aktualisierungen keine Bilder hinzufügen. Wenn Sie diese Einstellung aktivieren, können Benutzer Bilder in Aktualisierungen anhängen. Die Voreinstellung gilt für alle Aktualisierungen in allen Bereichen Ihrer [!DNL Workfront].
 
 >[!NOTE]
 >
->* In Updates gespeicherte Bilder werden für die maximale Anzahl an Dokumenten im Speicher gezählt. Weitere Informationen finden Sie unter [Überprüfen der Speicherbeschränkungen für Dokumente](../../../documents/managing-documents/check-document-storage.md).
->* Auf Bilder kann über die Registerkarte [!UICONTROL Aktualisierungen] in einem Objekt zugegriffen werden. Sie sind auch im Bereich [!UICONTROL Dokumente] unter dem Hauptmenü [!UICONTROL  verfügbar.]
+>* In Aktualisierungen gespeicherte Bilder werden in Richtung des Speicherlimits für Dokumente gezählt. Weitere Informationen finden Sie [Überprüfen von Dokumentspeicherbeschränkungen](../../../documents/managing-documents/check-document-storage.md).
+>* Auf Bilder kann über die Registerkarte [!UICONTROL Aktualisierungen] eines Objekts zugegriffen werden. Sie sind auch im Bereich [!UICONTROL Dokumente] unter dem [!UICONTROL Hauptmenü] verfügbar.
 >
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** oben rechts in [!DNL Adobe Workfront] und dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
-1. Wählen Sie im linken Bereich **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]** aus.
-1. Wählen Sie die Registerkarte **[!UICONTROL Voreinstellungen]** aus.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Wählen Sie im linken Bedienfeld **[!UICONTROL Schnittstelle]** > **[!UICONTROL Aktualisierungs-Feeds]**.
+1. Wählen Sie die **[!UICONTROL Voreinstellungen]** aus.
 
-   ![Benutzereinstellungen für Update-Feeds](assets/updatefeeds-preferences-350x137.png)
+   ![Benutzervoreinstellungen für Aktualisierungs-Feeds](assets/updatefeeds-preferences-350x137.png)
 
-1. Aktivieren Sie das Kontrollkästchen **[!UICONTROL Benutzern erlauben, in Aktualisierungen Bilder hinzuzufügen]** .
+1. Aktivieren Sie **[!UICONTROL Kontrollkästchen (Benutzern erlauben, Bilder in Aktualisierungen hinzuzufügen]**.
 1. Wählen Sie **[!UICONTROL Speichern]** aus.
 
-   Wenn diese Voreinstellung aktiviert ist, können Sie sie jederzeit deaktivieren. Alle Bilder, die bereits in Updates veröffentlicht wurden, verbleiben im Bereich [!UICONTROL Updates] des Objekts.
+   Wenn diese Einstellung aktiviert ist, können Sie sie jederzeit deaktivieren. Alle Bilder, die bereits in Aktualisierungen veröffentlicht wurden, verbleiben im Bereich [!UICONTROL Aktualisierungen] des Objekts.

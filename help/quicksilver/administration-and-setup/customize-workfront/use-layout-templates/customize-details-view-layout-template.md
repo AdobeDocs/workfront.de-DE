@@ -1,9 +1,9 @@
 ---
-title: Detailansicht mithilfe einer Layoutvorlage anpassen
+title: Anpassen der Detailansicht mithilfe einer Layout-Vorlage
 user-type: administrator
 product-area: system-administration;templates;setup
 navigation-topic: layout-templates
-description: Als Workfront-Administrator können Sie mit einer Layoutvorlage festlegen, welche Informationen angezeigt werden, wenn ein Benutzer beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder Portfolios den Bereich Details im linken Bereich auswählt.
+description: Als Workfront-Administrator können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn Benutzende beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, Programms oder Portfolios den Abschnitt „Details“ im linken Bereich auswählen.
 author: Alina
 feature: System Setup and Administration
 role: Admin
@@ -15,59 +15,59 @@ ht-degree: 0%
 
 ---
 
-# Detailansicht mithilfe einer Layoutvorlage anpassen
+# Anpassen der Detailansicht mithilfe einer Layout-Vorlage
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Als Adobe Workfront-Administrator können Sie mit einer Layoutvorlage festlegen, welche Informationen angezeigt werden, wenn ein Benutzer beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder Portfolios auf das Detailsymbol (![](assets/project-details-icon.png) ) im linken Bereich klickt.
+Als Adobe Workfront-Administrator können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn ein(e) Benutzende(r) beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios auf das Detailsymbol ![](assets/project-details-icon.png) im linken Bereich klickt.
 
 <!--
 or billing record
 -->
 
-Sie können auch die Reihenfolge der Informationen ändern, in der diese Informationen angezeigt werden. Beispielsweise können Sie für alle Aufgaben, die Ihren Benutzern angezeigt werden, benutzerdefinierte Forms-Informationen für alle Aufgaben, die Ihren Benutzern angezeigt werden, an den Anfang der Detailansicht verschieben.
+Sie können auch die Reihenfolge der Informationen ändern, in der diese Informationen angezeigt werden. Sie können beispielsweise für alle Aufgaben, die Ihren Benutzerinnen und Benutzern angezeigt werden, benutzerdefinierte Forms-Informationen für alle Aufgaben, die Ihren Benutzerinnen und Benutzern angezeigt werden, an den Anfang der Detailansicht verschieben.
 
-Informationen zum Erstellen von Layoutvorlagen finden Sie unter [Erstellen und Verwalten von Layoutvorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
+Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
-Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
-Nachdem Sie eine Layoutvorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layoutvorlage zu Benutzern finden Sie unter [Zuweisen von Benutzern zu einer Layoutvorlage](../use-layout-templates/assign-users-to-layout-template.md).
+Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zuweisen, damit die von Ihnen vorgenommenen Änderungen für andere sichtbar sind. Informationen zum Zuweisen einer Layout-Vorlage an Benutzer finden Sie unter [Zuweisen von Benutzern zu einer Layout-Vorlage](../use-layout-templates/assign-users-to-layout-template.md).
 
-Die Änderungen, die Sie an der Detailansicht für ein Objekt vornehmen, bestimmen auch die Verfügbarkeit und Reihenfolge der Felder, die Benutzer in den folgenden Bereichen sehen:
+Die Änderungen, die Sie an der Detailansicht für ein Objekt vornehmen, bestimmen auch die Verfügbarkeit und Reihenfolge der Felder, die Benutzenden in den folgenden Bereichen angezeigt werden:
 
 
-* &quot;Objekt erstellen&quot;-Felder, z. B. Aufgabe erstellen
+* Felder zum Erstellen eines Objekts, z. B. Aufgabe erstellen
 
   ![](assets/new-task-dialog.png)
 
 
-* Bildschirme vom Typ &quot;Objekt bearbeiten&quot;beim Bearbeiten eines Objekts wie &quot;Aufgabe bearbeiten&quot;, &quot;Problem bearbeiten&quot;und &quot;Projekt bearbeiten&quot;
+* Die Seite „Objekt bearbeiten“ wird beim Bearbeiten eines Objekts angezeigt, z. B. „Aufgabe bearbeiten“, „Problem bearbeiten“ und „Projekt bearbeiten“
 
   ![](assets/edit-task-screen.png)
 
 
-* Bildschirme vom Typ &quot;Objekte bearbeiten&quot;bei der Massenbearbeitung von Objekten Derzeit wird dies für die Bearbeitung von Projekten in großen Mengen unterstützt.
+* Die Bildschirme „Objekte bearbeiten“ werden angezeigt, wenn Objekte stapelweise bearbeitet werden. Derzeit wird dies für die Massenbearbeitung von Projekten unterstützt.
 
   ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* Zusammenfassungsbereich ![](assets/summary-panel-icon.png) für Listen mit Aufgaben und Problemen
+* ![](assets/summary-panel-icon.png) des Zusammenfassungsbereichs für Listen von Aufgaben und Problemen
 
   ![](assets/summary-area.png)
 
   >[!NOTE]
   >
-  >Änderungen an den Layoutvorlagen wirken sich nur für die Aufgaben und Probleme aus, die dem angemeldeten Benutzer zugewiesen sind, und betreffen die Reihenfolge und Verfügbarkeit der Felder im Bereich &quot;Zusammenfassung&quot;.
+  >Änderungen an den Layout-Vorlagen wirken sich nur bei den Aufgaben und Problemen, die dem angemeldeten Benutzer zugewiesen sind, auf die Reihenfolge und Verfügbarkeit der Felder im Zusammenfassungsbereich aus.
 
-* Konversionsfelder, z. B. &quot;Problem in Aufgabe konvertieren&quot;oder &quot;Problem in Projekt konvertieren&quot;.
+* Konvertierungsfelder, wie die Felder „Problem in Aufgabe konvertieren“ oder „Problem in Projekt konvertieren“.
 
   ![Problem in Aufgabenfeld konvertieren](assets/convert-issue-to-task-box.png)
 
-Weitere Informationen zu Layoutvorlagen für Gruppen finden Sie unter [Erstellen und Ändern von Layoutvorlagen für Gruppen](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
+Weitere Informationen zu Layout-Vorlagen für Gruppen finden [ unter „Erstellen und Ändern der Layout-Vorlagen einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-layout-templates.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -76,8 +76,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -86,29 +86,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene des Systemadministrators.
-Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Um diese Schritte auf Systemebene durchzuführen, benötigen Sie die Zugriffsebene „Systemadministrator“.
+Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anpassen der Ansicht der Benutzer in der Detailansicht
+## Anpassen, was Benutzenden in der Detailansicht angezeigt wird
 
-1. Beginnen Sie mit der Arbeit an einer Layoutvorlage, wie in [Erstellen und Verwalten von Layoutvorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow-12x12.png) unter **Anpassen, was Benutzer sehen**, und klicken Sie dann auf **Projekt**, **Aufgabe**, **Problem**, **Programm** oder **Portfolio.**
+1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
+1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow-12x12.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann auf **Projekt**, **Aufgabe**, **Problem**, **Programm** oder **Portfolio.**
 <!--
 , or billing record
 -->
 
-1. Führen Sie im Abschnitt **Details** einen der folgenden Schritte aus, um anzupassen, was Benutzer in der Detailansicht sehen:
+1. Führen Sie im **Details** einen der folgenden Schritte aus, um anzupassen, was Benutzende in der Detailansicht sehen:
 
-   * Ziehen Sie beliebige Abschnittskopfzeilen ![](assets/move-icon---dots.png) , um ihre Reihenfolge zu ändern.
-   * Aktivieren oder deaktivieren Sie Optionen unter den verschiedenen Bereichen (z. B. **Überblick**, **Finanzen** und **Benutzerdefinierter Forms**), um sie ein- oder auszublenden.
+   * Ziehen Sie eine beliebige Abschnittsüberschrift ![](assets/move-icon---dots.png), um ihre Reihenfolge zu ändern.
+   * Aktivieren oder deaktivieren Sie Optionen in den verschiedenen Bereichen (z **B.**, **Finanzen** und **Benutzerdefinierte Forms**), um sie ein- oder auszublenden.
 
      Wenn Sie alle Felder in einem dieser Abschnitte ausblenden, wird der gesamte Abschnitt ausgeblendet.
 
@@ -116,12 +116,12 @@ Um sie für eine Gruppe durchzuführen, müssen Sie ein Manager dieser Gruppe se
 
    ![Detailansicht in Layout-Vorlage](assets/layout-template-details-view.png)
 
-1. Fahren Sie mit der Anpassung der Layoutvorlage fort.
+1. Passen Sie die Layout-Vorlage weiter an.
 
    Oder
 
-   Wenn Sie mit dem Anpassen fertig sind, klicken Sie auf **Speichern**.
+   Wenn Sie mit der Anpassung fertig sind, klicken Sie auf **Speichern**.
 
    >[!TIP]
    >
-   >Sie können jederzeit auf Speichern klicken, um den Fortschritt zu speichern, und die Vorlage später weiter ändern.
+   >Sie können jederzeit auf Speichern klicken, um Ihren Fortschritt zu speichern, und dann später mit dem Ändern der Vorlage fortfahren.

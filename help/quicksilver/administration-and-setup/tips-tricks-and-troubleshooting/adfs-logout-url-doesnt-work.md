@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: ADFS-Abmelde-URL funktioniert nicht
-description: Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in der Adobe Admin Console integriert sind.
+description: Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Admin Console integriert haben.
 author: Becky, Lisa
 feature: System Setup and Administration
 role: Admin
@@ -22,19 +22,19 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in den [!UICONTROL Adobe Admin Console] integriert sind.
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die [!UICONTROL Adobe Admin Console integriert ].
 >
->Wenn Ihr Unternehmen in den [!UICONTROL Adobe Admin Console] integriert wurde, finden Sie weitere Informationen unter [Plattformbasierte Verwaltungsunterschiede ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Wenn Ihre Organisation das Onboarding für die [!UICONTROL Adobe Admin Console] durchgeführt hat, lesen Sie den Abschnitt [Unterschiede bei der plattformbasierten Administration ([!DNL Adobe Workfront]/[!DNL Adobe Business Platform])](../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 ## Problem
 
-Bei Verwendung der ADFS-Abmelde-URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0) erhalten Sie eine Meldungsseite mit dem Fehler: &quot;Beim Zugriff auf die Site ist ein Problem aufgetreten. Versuchen Sie, die Site erneut zu besuchen.&quot;
+Bei Verwendung der ADFS-Abmelde-URL (https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0) erhalten Sie eine Nachrichtenseite mit dem Fehler: „Beim Zugriff auf die Website ist ein Problem aufgetreten. Versuchen Sie erneut, auf die Website zuzugreifen.“
 
 Wenn das Problem weiterhin besteht, wenden Sie sich an den Administrator dieser Website und geben Sie die folgende Referenznummer an, um das Problem zu identifizieren: **57092dfc-751a-4915-8e6a-b4c5d413f8c6**
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -43,8 +43,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe [!DNL Workfront] Lizenz</td> 
@@ -54,22 +54,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>  
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Lösung
 
-1. Wechseln Sie in Ihrem ADFS-Manager-Server zu den Eigenschaften **[!UICONTROL Vertrauensbeziehungen]** > **[!UICONTROL Vertrauenswürdige Parteitreuen]** > `<your party trust>` .
+1. Wechseln Sie auf Ihrem ADFS-Manager-Server zu **[!UICONTROL Vertrauensstellungen]** > **[!UICONTROL Vertrauensstellungen von vertrauenden Parteien]** > `<your party trust>`.
 
-1. Klicken Sie auf der Registerkarte **[!UICONTROL Endpunkte]** auf **[!UICONTROL Hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Endpunkte“ auf **[!UICONTROL Hinzufügen]**.
 
 1. **[!UICONTROL Endpunkttyp]** = SAML-Abmeldung, Bindung = POST, URL = https://myadfsserver.domain.net/adfs/ls/?wa=wsignout1.0
 
-   Sie können eine Antwort-URL festlegen, wenn Sie möchten, dass sie zu einer anderen Seite umgeleitet wird. Wir empfehlen jedoch die ADFS-Website, da sie warnt, dass Sie abgemeldet sind, Sie sollten jedoch weiterhin Ihren Browser schließen.
+   Sie können eine Antwort-URL festlegen, wenn Sie sie auf eine andere Seite umleiten möchten. Wir empfehlen jedoch die ADFS-Website, da sie Sie warnt, dass Sie abgemeldet sind, aber Sie sollten dennoch Ihren Browser schließen.

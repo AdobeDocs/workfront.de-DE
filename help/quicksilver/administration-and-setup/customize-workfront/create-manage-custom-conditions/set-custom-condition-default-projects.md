@@ -3,7 +3,7 @@ title: Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-conditions
-description: Wenn der Bedingungstyp eines Projekts auf Fortschrittsstatus anstelle von Manuell festgelegt ist, zeigt Adobe Workfront automatisch eine von drei integrierten Standardbedingungen für das Projekt (On Target, At Risk oder In Trouble) an, während es weitergeht, wie unter Übersicht über Projektbedingungen und Bedingungstyp beschrieben.
+description: Wenn für die Bedingungsart eines Projekts der Fortschrittsstatus anstelle der manuellen festgelegt wurde, zeigt Adobe Workfront im Verlauf des Vorgangs automatisch eine von drei integrierten Standardbedingungen für das Projekt an (Zielgruppe, Gefährdet oder In Schwierigkeiten), wie unter Übersicht über Projektbedingung und Bedingungstyp erläutert.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -17,15 +17,15 @@ ht-degree: 0%
 
 # Festlegen einer benutzerdefinierten Bedingung als Standard für Projekte
 
-Wenn der Bedingungstyp eines Projekts auf Fortschrittsstatus anstelle von Manuell festgelegt ist, zeigt Adobe Workfront automatisch eine von drei integrierten Standardbedingungen für das Projekt (On Target, At Risk oder In Trouble) an, während es weitergeht, wie unter [Übersicht über Projektbedingungen und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) erläutert.
+Wenn für die Bedingungsart eines Projekts der Fortschrittsstatus anstelle der manuellen festgelegt wurde, zeigt Adobe Workfront automatisch eine von drei integrierten Standardbedingungen für das Projekt an (Zielgruppengerecht, Gefährdet oder In Schwierigkeiten), während es fortgesetzt wird, wie unter [Übersicht über Projektbedingung und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) erläutert.
 
 ![](assets/condition-in-project-header-nwe.png)
 
-Sie können Ihre benutzerdefinierten Bedingungen als Standardbedingungen festlegen, anstatt diese drei integrierten Standardbedingungen zu verwenden. Sie können beispielsweise die Standardbedingung On Target ändern und in allen Projekten als Tracking Well anzeigen.
+Sie können Ihre benutzerdefinierten Bedingungen als Standardbedingungen festlegen, anstatt diese drei integrierten Standardbedingungen zu verwenden. Sie können beispielsweise die Standardbedingung On Target so ändern, dass sie in allen Projekten als Tracking Well angezeigt wird.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,8 +34,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
   <tr> 
@@ -46,13 +46,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -60,16 +60,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie auf **Projekteinstellungen** > **Bedingungen**.
+1. Klicken Sie **Projektvoreinstellungen** > **Bedingungen**.
 
-1. Klicken Sie auf die Registerkarte **Projekt** .
-1. Klicken Sie auf **Standardbedingungen festlegen**.
+1. Klicken Sie auf **Registerkarte** Projekt“.
+1. Klicken Sie **Standardbedingungen festlegen**.
 1. Klicken Sie im Dropdown-Menü neben der Standardbedingung, die Sie ändern möchten, auf die benutzerdefinierte Bedingung, die Sie stattdessen verwenden möchten.
-1. Wiederholen Sie den vorherigen Schritt für alle anderen Standardbedingungen, die Sie ändern möchten.
+1. Wiederholen Sie den vorherigen Schritt für jede andere Standardbedingung, die Sie ändern möchten.
 1. Klicken Sie auf **Speichern**.
 
-Informationen zum Festlegen einer benutzerdefinierten Bedingung als Standardbedingung für Aufgaben und Probleme finden Sie unter [Festlegen einer benutzerdefinierten Bedingung als Standard für Aufgaben und Probleme](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
+Informationen zum Festlegen einer benutzerdefinierten Bedingung als Standardbedingung für Aufgaben und Probleme finden Sie unter [Festlegen einer benutzerdefinierten Bedingung als Standardbedingung für Aufgaben und Probleme](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/set-custom-condition-default-tasks-issues.md).
 
-Informationen zum Einrichten eines Projekts, sodass Benutzer seine Bedingung manuell aktualisieren können, finden Sie unter [Bedingung für Aufgaben und Probleme aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
+Informationen zum Einrichten eines Projekts, damit Benutzer seine Bedingung manuell aktualisieren können, finden Sie unter [Bedingung für Aufgaben und Probleme aktualisieren](../../../manage-work/projects/updating-work-in-a-project/update-condition-for-tasks-and-issues.md).
 
-Weitere Informationen zu benutzerdefinierten Bedingungen finden Sie unter [Benutzerdefinierte Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).
+Informationen zu benutzerdefinierten Bedingungen finden Sie unter [Benutzerdefinierte Bedingungen](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/custom-conditions.md).

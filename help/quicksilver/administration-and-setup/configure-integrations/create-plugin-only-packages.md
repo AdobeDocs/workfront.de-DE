@@ -1,9 +1,9 @@
 ---
-title: Erstellen von reinen Plug-in-Paketen für Ihre Benutzer in der Adobe Admin Console
+title: Erstellen Sie in der Adobe Admin Console Nur-Plug-in-Pakete für Ihre Benutzerinnen und Benutzer
 user-type: administrator
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Ein Adobe Admin Console-Administrator kann ein schlankes, Plug-in-only-Paket erstellen. Durch die Verteilung dieser vorkonfigurierten Pakete können Administratoren sicherstellen, dass die Benutzer über diese Plug-ins verfügen, ohne sich darauf verlassen zu müssen, dass der Benutzer das Plug-in selbst durchsucht. Es wird empfohlen, diese einfachen Plug-ins zu verwenden, um die Adobe Workfront für Creative Cloud-Plug-ins an Benutzer in Ihrem Unternehmen zu verteilen.
+description: Ein Adobe Admin Console-Administrator kann ein schlankes, nur-Plug-in-Paket erstellen. Durch die Verteilung dieser vorkonfigurierten Pakete können Administratoren sicherstellen, dass die Benutzer über diese Plug-ins verfügen, ohne sich darauf zu verlassen, dass die Benutzer das Plug-in selbst suchen. Es wird empfohlen, diese schlanken Plug-ins zu verwenden, um Adobe Workfront for Creative Cloud-Plug-ins an Benutzende in Ihrem Unternehmen zu verteilen.
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
@@ -15,11 +15,11 @@ ht-degree: 4%
 
 ---
 
-# Erstellen Sie [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] -Pakete für Ihre Benutzer in der [!DNL Adobe Admin Console]
+# Erstellen Sie [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Pakete für Ihre Benutzer im [!DNL Adobe Admin Console]
 
-Ein [!DNL Adobe Admin Console] -Administrator kann ein leichtes, Plug-in-only-Paket erstellen. Durch die Verteilung dieser vorkonfigurierten Pakete können Administratoren sicherstellen, dass die Benutzer über diese Plug-ins verfügen, ohne sich darauf verlassen zu müssen, dass der Benutzer das Plug-in selbst durchsucht. Es wird empfohlen, diese einfachen Plug-ins zu verwenden, um die [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] -Plug-ins an Benutzer in Ihrer Organisation zu verteilen.
+Ein [!DNL Adobe Admin Console]-Administrator kann ein schlankes, nur-Plug-in-Paket erstellen. Durch die Verteilung dieser vorkonfigurierten Pakete können Administratoren sicherstellen, dass die Benutzer über diese Plug-ins verfügen, ohne sich darauf zu verlassen, dass die Benutzer das Plug-in selbst suchen. Es wird empfohlen, diese schlanken Plug-ins zu verwenden, um die [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Plug-ins an Benutzer in Ihrer Organisation zu verteilen.
 
-Die folgenden [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] -Plug-ins sind verfügbar:
+Die folgenden [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Plug-ins sind verfügbar:
 
 * [!DNL Adobe Workfront] für Photoshop
 * [!DNL Adobe Workfront] für XD
@@ -30,18 +30,18 @@ Die folgenden [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] -Pl
    * Premiere Pro
    * After Effects
 
-Ihre Benutzer können die Plug-ins [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] verwenden, um
+Ihre Benutzer können die [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Plug-ins verwenden, um
 
 * Zeit erfassen
-* Starten von Überprüfungs- und Genehmigungsprozessen
+* Starten von Prüfungs- und Genehmigungsprozessen
 * Dateien hochladen
-* Anzeigen von Projekten und Aufgaben
-* und mehr
+* Projekte und Aufgaben anzeigen
+* und weitere
 
-Weitere Informationen zu den Plug-ins [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] finden Sie unter [[!DNL Adobe Workfront] plugin für  [!DNL Creative Cloud] Apps](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
+Weitere Informationen zum [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]]-Plug-ins finden Sie unter [[!DNL Adobe Workfront] Plug-in für  [!DNL Creative Cloud] -](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-cc.md).
 
-## Pakete für [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Plug-ins erstellen
+## Erstellen von Paketen für [!UICONTROL [!DNL Adobe Workfront] für [!DNL Creative Cloud]] Plug-ins
 
-Pakete werden mit dem [!DNL Adobe Admin Console] erstellt.
+Pakete werden über die [!DNL Adobe Admin Console] erstellt.
 
 Anweisungen zum Erstellen dieser Pakete finden Sie unter [Verwaltete Pakete](https://helpx.adobe.com/enterprise/using/create-nul-packages.html#managed-packages) in der Adobe Admin Console-Dokumentation.
