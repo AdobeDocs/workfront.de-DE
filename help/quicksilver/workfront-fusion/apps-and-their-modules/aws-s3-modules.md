@@ -73,7 +73,7 @@ Der AWS S3-Connector verwendet Folgendes:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
+   <td>https://s3.&#123;&#123;parameters.region&#125;&#125;.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-Tag</td> 
