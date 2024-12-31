@@ -19,10 +19,10 @@ ht-degree: 0%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this is for QS only. Rest of the article still OK for classic.)</p>
 -->
 
-Als Adobe Workfront-Administrator können Sie mithilfe von Blueprints mehrere vorkonfigurierte Vorlagen in Ihrer Workfront-Instanz herunterladen. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
+Als Adobe Workfront-Administrator können Sie mithilfe von Blueprints mehrere vorkonfigurierte Vorlagen in Ihre Workfront-Instanz herunterladen. Weitere Informationen finden Sie unter [Blueprint konfigurieren](../../../administration-and-setup/blueprints/configure-template-package.md).
 
-Als Benutzer mit einer Workfront-Lizenz können Sie die Installation einer Blueprint-Vorlage anfordern. Weitere Informationen finden Sie unter [Katalog mit Blueprints durchsuchen und Installation von Blueprints anfordern](../../../administration-and-setup/blueprints/browse-catalog.md).
+Als Benutzer mit einer beliebigen Workfront-Lizenz können Sie die Installation einer Blueprint-Vorlage anfordern. Weitere Informationen finden Sie unter [Durchsuchen des Blueprint-Katalogs und Anfordern der Installation von Blueprints](../../../administration-and-setup/blueprints/browse-catalog.md).
 
-Blueprints bietet grundlegende Bausteine, mit denen Sie ein Arbeitsverwaltungssystem erstellen können, das mit Ihnen wächst. Sie können den Blueprints-Katalog durchsuchen und gebrauchsfertige Projektvorlagen installieren.
+Blueprints bieten grundlegende Bausteine, mit denen Sie ein Work-Management-System erstellen können, das mit Ihnen wächst. Sie können den Blueprint-Katalog durchsuchen und einsatzbereite Projektvorlagen installieren.
 
-Jede Vorlage richtet sich an eine Abteilung und ein spezifisches Laufzeitniveau, damit Sie bewährte Best Practices schneller in Ihr System implementieren können.
+Jede Vorlage ist auf eine Abteilung und eine bestimmte Reifegrad-Ebene ausgerichtet, damit Sie bewährte Best Practices schneller in Ihr System implementieren können.

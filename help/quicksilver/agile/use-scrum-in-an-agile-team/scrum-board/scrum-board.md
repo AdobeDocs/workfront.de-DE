@@ -2,8 +2,8 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
-title: Scrum Board
-description: Lesen Sie die Artikel in diesem Abschnitt , um mehr über die Verwendung der Scrum-Pinnwand in Workfront zu erfahren.
+title: Scrum-Board
+description: Lesen Sie die Artikel in diesem Abschnitt, um mehr über die Verwendung des Scrum-Boards in Workfront zu erfahren.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# Pinnwand
+# Scrum-Board
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [[!UICONTROL Scrum] - Überblick über die Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
-* [Fügen Sie einer vorhandenen Meldung auf der [!UICONTROL Scrum]-Pinnwand eine Unteraufgabe hinzu](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
-* [Weisen Sie Benutzer einer Meldung auf der [!UICONTROL Scrum]-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md) zu.
-* [Kategorisieren von Geschichten nach Farbe auf der [!UICONTROL Scrum]-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
-* [Ändern Sie die Reihenfolge der Meldungen auf der [!UICONTROL Scrum]-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
-* [Filtern nach Benutzer auf der Pinnwand [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
-* [Meldungen und Probleme aus der [!UICONTROL Scrum]-Pinnwand hinzufügen](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
-* [Verwalten von Meldungen und Problemen auf der [!UICONTROL Scrum]-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
-* [Aktualisieren Sie den Status von Meldungen und Unteraufgaben auf der Pinnwand [!UICONTROL Scrum]](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
-* [Anzeigen und Bearbeiten von Story-Informationen auf der [!UICONTROL Scrum]-Pinnwand](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)
+* [[!UICONTROL Scrum] Board - Übersicht](../../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board-overview.md)
+* [Eine Unteraufgabe zu einer vorhandenen Story auf dem [!UICONTROL Scrum]-Board hinzufügen](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-a-subtask-to-an-existing-story-scrum.md)
+* [Weisen Sie Benutzer einer Story auf dem [!UICONTROL Scrum]-Board zu](../../../agile/use-scrum-in-an-agile-team/scrum-board/assign-users-to-a-story-scrum.md)
+* [Kategorisieren von Geschichten nach Farbe auf dem [!UICONTROL Scrum]-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/categorize-stories-by-color.md)
+* [Ändern der Reihenfolge von Geschichten auf dem [!UICONTROL Scrum]-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/change-order-of-stories.md)
+* [Filtern Sie nach Benutzer auf dem [!UICONTROL Scrum]-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/filter-by-user-scrum-board.md)
+* [Hinzufügen von Storys und Problemen vom [!UICONTROL Scrum]-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/add-story-from-scrum-board.md)
+* [Verwalten von Storys und Problemen auf dem [!UICONTROL Scrum]-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/manage-scrum-board.md)
+* [Aktualisieren des Status von Storys und Teilaufgaben auf dem [!UICONTROL Scrum]-Board](../../../agile/use-scrum-in-an-agile-team/scrum-board/update-status-of-stories-and-subtasks.md)
+* [Storyinformationen auf dem Board [!UICONTROL Scrum] anzeigen und bearbeiten](../../../agile/use-scrum-in-an-agile-team/scrum-board/view-and-edit-story-info.md)

@@ -2,8 +2,8 @@
 content-type: reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
-title: Erstellen und Verwalten von Portfolios
-description: Ein Portfolio ist eine Sammlung von Projekten, die für dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einem Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden.
+title: Portfolios erstellen und verwalten
+description: Ein Portfolio ist eine Zusammenstellung von Projekten, die um dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einem Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden würden.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# Erstellen und Verwalten von Portfolios
+# Portfolios erstellen und verwalten
 
-Ein Portfolio ist eine Sammlung von Projekten, die für dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einem Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden.
+Ein Portfolio ist eine Zusammenstellung von Projekten, die um dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einem Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden würden.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md)
-* [Löschen und Deaktivieren von Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
-* [Bearbeiten von Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
+* [Portfolios löschen und deaktivieren](../../../manage-work/portfolios/create-and-manage-portfolios/delete-deactivate-portfolios.md)
+* [Portfolios bearbeiten](../../../manage-work/portfolios/create-and-manage-portfolios/edit-portfolios.md)
 * [Projekte zu einem Portfolio hinzufügen](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md)
 * [Entfernen eines Projekts aus einem Portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/remove-project-from-portfolio.md)
-* [Überprüfen angeforderter Projekte](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)
+* [Angeforderte Projekte überprüfen](../../../manage-work/portfolios/create-and-manage-portfolios/review-requested-projects.md)

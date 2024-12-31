@@ -3,7 +3,7 @@ content-type: overview
 product-area: documents
 navigation-topic: manage-documents
 title: Dokumentdetails - Übersicht
-description: Auf der Seite "Dokumentdetails"können Sie die Eigenschaften eines Dokuments anzeigen, darüber kommunizieren und verwalten, das mit einem Adobe Workfront-Objekt verbunden ist.
+description: Auf der Seite „Dokumentdetails“ können Sie die Eigenschaften eines Dokuments, das an ein Adobe Workfront-Objekt angehängt ist, anzeigen, darüber kommunizieren und verwalten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
@@ -16,9 +16,9 @@ ht-degree: 2%
 
 # Dokumentdetails - Übersicht
 
-Auf der Seite &quot;Dokumentdetails&quot;können Sie die Eigenschaften eines Dokuments anzeigen, darüber kommunizieren und verwalten, das mit einem Adobe Workfront-Objekt verbunden ist.
+Auf der Seite „Dokumentdetails“ können Sie die Eigenschaften eines Dokuments, das an ein Adobe Workfront-Objekt angehängt ist, anzeigen, darüber kommunizieren und verwalten.
 
-## Öffnen Sie die Seite &quot;Dokumentdetails&quot;
+## Öffnen der Seite Dokumentdetails
 
 {{step1-to-documents}}
 
@@ -26,18 +26,18 @@ Auf der Seite &quot;Dokumentdetails&quot;können Sie die Eigenschaften eines Dok
 
    ![](assets/document-details-350x179.png)
 
-## Grundlegende Aktionen für Dokumente und Testsendungen durchführen
+## Durchführen grundlegender Aktionen für Dokumente und Korrekturabzüge
 
-Auf der Seite &quot;Dokumentdetails&quot;können Sie die folgenden Aktionen für Dokumente und Profile ausführen:
+Sie können die folgenden Aktionen für Dokumente und Korrekturabzüge auf der Seite Dokumentdetails ausführen:
 
-* Erstellen eines einfachen oder erweiterten Testversands
-* Neue Version erstellen
-* Entscheidungsfindung für die Genehmigung
-* Dokumentvorschau
+* Erstellen eines einfachen oder erweiterten Korrekturabzugs
+* Erstellen einer neuen Version
+* Genehmigungsentscheidung treffen
+* Dokument in der Vorschau anzeigen
 * Dokumentbeschreibung bearbeiten
 * Ein- oder Auschecken eines Dokuments
 
-Darüber hinaus können Sie die folgenden Aktionen mit dem Mehr-Symbol ![](assets/more-icon.png) neben dem Dokumentnamen durchführen:
+Darüber hinaus können Sie das Symbol Mehr ![](assets/more-icon.png) neben dem Dokumentnamen verwenden, um die folgenden Aktionen durchzuführen:
 
 * Freigeben
 * Verschieben
@@ -45,14 +45,14 @@ Darüber hinaus können Sie die folgenden Aktionen mit dem Mehr-Symbol ![](asset
 * Download
 * Senden
 
-## Durchführen von Aktionen speziell für Testsendungen
+## Durchführen von für Korrekturabzüge spezifischen Aktionen
 
-Sie können auf der Seite mit den Dokumentdetails die folgenden Aktionen ausführen, wenn Sie den Testversand-Workflow verwenden:
+Sie können die folgenden Aktionen auf der Seite Dokumentdetails ausführen, wenn Sie über den Korrekturabzugs-Workflow verfügen:
 
-* Informationen zu Gesendet, Geöffnet, Kommentar, Entscheidung (SOCD) anzeigen
-* Testversand öffnen
-* Öffnen Sie die Druckzusammenfassung
-* Testversand sperren oder entsperren
-* Bearbeiten von benutzerdefinierten Testfeldern
+* Details zu Gesendet, Geöffnet, Kommentar, Entscheidung (SOCD) anzeigen
+* Korrekturabzug öffnen
+* Druckzusammenfassung öffnen
+* Korrekturabzug sperren oder entsperren
+* Bearbeiten von benutzerdefinierten Proofing-Feldern
 
-  Testen von benutzerdefinierten Feldern muss in Workfront Proof eingerichtet werden. Weitere Informationen finden Sie unter [Benutzerdefinierte Felder in Workfront Proof erstellen und verwalten](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).
+  Benutzerdefinierte Proofing-Felder müssen in Workfront Proof eingerichtet werden. Weitere Informationen finden Sie unter [Erstellen und Verwalten von benutzerdefinierten Feldern in Workfront Proof](../../workfront-proof/wp-acct-admin/account-settings/create-and-manage-custom-fields.md).

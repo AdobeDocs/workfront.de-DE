@@ -2,7 +2,7 @@
 product-area: programs;projects
 navigation-topic: create and manage programs
 title: Entfernen eines Projekts aus einem Programm
-description: Wenn Sie ein Projekt nicht mehr benötigen, können Sie es aus einem Programm entfernen.
+description: Wenn Sie es nicht mehr benötigen, können Sie ein Projekt aus einem Programm entfernen.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 3dfd10e6-bcd0-48fb-b6aa-6e08cc52b230
@@ -17,15 +17,15 @@ ht-degree: 1%
 
 Sie können ein Projekt aus einem Programm entfernen, indem Sie einen der folgenden Schritte ausführen:
 
-* Verschieben Sie es in ein anderes Programm.
-* Entfernen Sie es dauerhaft aus dem aktuellen Programm und verknüpfen Sie es nicht mit einem anderen Programm.
-* Löschen Sie das Projekt dauerhaft.
+* Verschieben in ein anderes Programm.
+* Sie dauerhaft aus dem aktuellen Programm entfernen und nicht mit einem anderen Programm verknüpfen.
+* Das Projekt dauerhaft löschen.
 
   Informationen zum Löschen von Projekten finden Sie unter [Projekte löschen](../../../manage-work/projects/manage-projects/delete-projects.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -33,38 +33,38 @@ Sie können ein Projekt aus einem Programm entfernen, indem Sie einen der folgen
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] license*</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
    <td><p>Neu: Standard</p> 
    <p>Aktuell: [!UICONTROL Plan] </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
-   <td> <p>Zugriff auf Portfolios, Programme und Projekte bearbeiten</p> <p>Sie müssen Zugriff auf Projekte haben, um Projekte löschen zu können.</p> </td>
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Portfolios, Programme und Projekte</p> <p>Sie müssen über [!UICONTROL Delete]-Zugriff auf Projekte verfügen, um Projekte löschen zu können.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Verwalten] Berechtigungen für das Portfolio, das Programm und das Projekt</p> <p>Sie müssen über [!UICONTROL Löschberechtigungen] für das Projekt verfügen, um es zu löschen. </p> <p>Nachdem Sie ein Programm erstellt haben, verfügen Sie standardmäßig über [!UICONTROL Manager] -Berechtigungen.</p> </td> 
+   <td> <p>[!UICONTROL Manage]-Berechtigungen für das Portfolio, das Programm und das Projekt</p> <p>Sie müssen über [!UICONTROL Delete]-Berechtigungen für das Projekt verfügen, um es zu löschen. </p> <p>Nachdem Sie ein Programm erstellt haben, verfügen Sie standardmäßig über [!UICONTROL Manage]-Berechtigungen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md)
 
 +++
 
 ## Entfernen eines Projekts aus einem Programm
 
-1. Wechseln Sie zu einem Programm und klicken Sie im linken Bereich auf **[!UICONTROL Projekte]** .
+1. Wechseln Sie zu einem Programm und klicken Sie **[!UICONTROL linken Bereich]** Projekte“.
 
-1. Wählen Sie das zu entfernende Projekt aus
-1. Klicken Sie auf das Dropdown-Menü **[!UICONTROL Projekte entfernen]** .
-1. Klicken Sie auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen Sie es]**, um das Projekt aus Workfront zu löschen.
+1. Wählen Sie das Projekt aus, das Sie entfernen möchten
+1. Klicken Sie auf **[!UICONTROL Dropdown-Menü]** Projekte entfernen“.
+1. Klicken Sie auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**, um das Projekt aus Workfront zu löschen.
 
    oder
 
-   Klicken Sie auf **[!UICONTROL Entfernen]** **[!UICONTROL aus Programm]** , um es aus dem ausgewählten Programm zu entfernen.
+   Klicken Sie auf **[!UICONTROL Entfernen]** **[!UICONTROL Aus Programm]**, um es aus dem ausgewählten Programm zu entfernen.
 
    Wenn Sie auf [!UICONTROL Aus Programm entfernen] geklickt haben, ist das Projekt nicht mehr mit dem ausgewählten Programm verknüpft.

@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Anzeigen einer Iteration
-description: Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Meldungen, Problemen und Dokumenten an, die in der Iteration enthalten sind.
+description: Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Geschichten, Problemen und Dokumenten an, die in der Iteration enthalten sind.
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Iteration anzeigen
+# Anzeigen einer Iteration
 
-Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Meldungen, Problemen und Dokumenten an, die in der Iteration enthalten sind.
+Sie können alle Iterationen für ein bestimmtes Team anzeigen oder eine einzelne Iteration anzeigen. Iterationen zeigen Daten zu den Geschichten, Problemen und Dokumenten an, die in der Iteration enthalten sind.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,18 +31,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
-   <td> <p>Neu: [!UICONTROL Light] oder höher</p> 
+   <td> <p>Neu: [!UICONTROL light] oder höher</p> 
    oder
-   <p>Aktuell: [!UICONTROL Review] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Überprüfen] oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -50,18 +50,18 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
 
    ![Iterationsliste](assets/view-iteration-NWE.png)
 
    >[!NOTE]
    >
-   >**[!UICONTROL Aktuelle Iteration]** wird nur im linken Bereich angezeigt, wenn sie der Layoutvorlage zugewiesen ist, und es gibt mindestens eine Aufgabe oder ein Problem bei der Iteration. Weitere Informationen finden Sie unter [Anpassen des linken Bereichs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
+   >**[!UICONTROL Aktuelle Iteration]** wird nur im linken Bereich angezeigt, wenn er der Layout-Vorlage zugewiesen ist und die Iteration mindestens eine Aufgabe oder ein Problem enthält. Weitere Informationen finden Sie unter [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md).
 
 
 1. (Optional) Klicken Sie auf den Namen der spezifischen Iteration, die Sie anzeigen möchten.
-Die Iterationsgeschichten werden angezeigt.
+Die Iterationsverläufe werden angezeigt.
 
-   ![[!UICONTROL Meldungen in der Iteration]](assets/iteration-stories-list-NWE.png)
+   ![[!UICONTROL Geschichten in Iteration]](assets/iteration-stories-list-NWE.png)

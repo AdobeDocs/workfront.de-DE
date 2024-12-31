@@ -1,7 +1,7 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Budgetressourcen im Business Case mithilfe des Resource Planers
-description: Im Rahmen der Ressourcenplanung können Sie den Ressourcen-Planer auf Projektebene verwenden, um beim Erstellen des Geschäftsfalls die für das Abschließen der Arbeit in einem Projekt erforderlichen Arbeitsplatzrollen zu planen.
+title: Budgetressourcen im Business Case mit dem Ressourcenplaner
+description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplaner auf Projektebene die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt beim Erstellen des Business Case erforderlich sind.
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
@@ -12,17 +12,17 @@ ht-degree: 0%
 
 ---
 
-# Budgetressourcen im Business Case mithilfe des Resource Planers
+# Budgetressourcen im Business Case mit dem Ressourcenplaner
 
-Im Rahmen der Ressourcenplanung können Sie den Ressourcen-Planer auf Projektebene verwenden, um beim Erstellen des Geschäftsfalls die für das Abschließen der Arbeit in einem Projekt erforderlichen Arbeitsplatzrollen zu planen.
+Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplaner auf Projektebene die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt beim Erstellen des Business Case erforderlich sind.
 
-Weitere Informationen zum Erstellen eines Geschäftsfalls finden Sie unter [Erstellen eines Geschäftsfeldes für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Weitere Informationen zum Erstellen eines Business-Case finden Sie unter [Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!TIP]
 >
->Die Informationen, die Sie im Ressourcenplaner auf Projektebene eingeben, sind auch im Ressourcenplaner auf Systemebene sichtbar. Das Gegenteil ist auch der Fall. Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+>Die Informationen, die Sie im Ressourcenplaner auf Projektebene eingeben, sind auch im Ressourcenplaner auf Systemebene sichtbar. Auch das Gegenteil ist wahr. Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-Sie können Ressourcen im Geschäftsfall auch mit dem Adobe Workfront-Szenario-Planer einplanen. Weitere Informationen finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenarioplaner budgetieren. Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
 ## Zugriffsanforderungen
 
@@ -38,25 +38,25 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
-   <td> <p>Überprüfen oder höher</p> <p>Wichtig: Sie müssen über eine Planungslizenz verfügen, um Informationen zur Ressourcenbudgetierung zu ändern. </p> </td> 
+   <td> <p>Überprüfen oder höher</p> <p>Wichtig: Sie müssen über eine Planlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Bearbeiten Sie den Zugriff auf Folgendes: </p> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Folgendes bearbeiten: </p> 
     <ul> 
      <li> <p>Projekte</p> </li> 
      <li> <p>Ressourcenverwaltung</p> </li> 
      <li> <p>Finanzielle Daten</p> </li> 
-    </ul> <p>Informationen zum benötigten Zugriff auf Budgetressourcen finden Sie auch unter <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Für Budgetressourcen in Adobe Workfront benötigter Zugriff</a>.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Adobe Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+    </ul> <p>Informationen zum Zugriff auf Budgetressourcen finden Sie auch unter <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Zugriff auf Budgetressourcen in Adobe Workfront erforderlich</a>.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Adobe Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Voraussetzungen
 
@@ -72,116 +72,116 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 
   >[!NOTE]
   >
-  >Sie können keine Ressourcen für Probleme im Geschäftsfall einplanen. Sie können sie im Ressourcenplaner auf Systemebene einplanen. Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
+  >Sie können keine Ressourcen budgetieren, die Problemen im Business Case zugewiesen sind. Sie können sie im Ressourcenplaner auf Systemebene budgetieren. Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-* Obwohl dies keine Voraussetzung ist, empfehlen wir auch, für die Aufgaben im Projekt &quot;Geplante Stunden&quot;anzugeben. Auf diese Weise können Sie nachvollziehen, wie viel Arbeit eine Aufgabe möglicherweise benötigt, was wiederum bei der Entscheidung hilft, für viel Zeit die Ressourcen in den Haushalt eingestellt werden müssen, um die Aufgabe abzuschließen. Informationen zum Zuordnen von Aufgaben zu geplanten Stunden finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
+* Obwohl dies keine Voraussetzung ist, empfehlen wir Ihnen auch, die geplanten Stunden für die Aufgaben im Projekt anzugeben. Auf diese Weise lässt sich erkennen, wie viel Arbeit eine Aufgabe ggf. abschließen muss. Dies erleichtert die Entscheidung, wie viel Zeit die Ressourcen in Anspruch nehmen sollen, um die Aufgabe abzuschließen. Informationen zum Verknüpfen von Aufgaben mit geplanten Stunden finden Sie unter [Aufgaben bearbeiten](../../../manage-work/tasks/manage-tasks/edit-tasks.md).
 
-## Anwenden von Ressourcen-Pools auf ein Projekt und Budgetressourcen im Geschäftsfall
+## Anwenden von Ressourcenpools auf ein Projekt und Budgetressourcen im Business Case
 
 >[!IMPORTANT]
 >
->Sie können Ihre Ressourcen für einen Zeitraum von 15 Jahren einplanen. Wenn Sie Ressourcen für ein Projekt mit einer Dauer von mehr als 15 Jahren einsetzen, sind die Budgetierungsinformationen möglicherweise nicht korrekt.
+>Sie können Ihre Ressourcen für einen Zeitraum von 15 Jahren budgetieren. Wenn Sie Ressourcen für ein Projekt mit einer Laufzeit von mehr als 15 Jahren budgetieren, sind die Budgetierungsinformationen möglicherweise nicht korrekt.
 
-So wenden Sie Ressourcenpools und Budgetprojektressourcen im Geschäftsfall für ein Projekt ohne Ressourcenpool an:
+So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf ein Projekt ohne Ressourcenpool an:
 
-1. Wechseln Sie zu dem Projekt, für das Sie Ressourcen planen möchten.
-1. Klicken Sie im linken Bereich auf **Geschäftsszenario** .
-1. (Bedingt) Wenn Ihr Unternehmen keine Lizenz für den Workfront-Szenario-Planer besitzt, klicken Sie im Abschnitt **Ressourcenbudgeting** auf **Ressourcenbudgeting bearbeiten** und fahren Sie dann mit Schritt 5 fort.
+1. Wechseln Sie zu dem Projekt, für das Sie Ressourcen budgetieren möchten.
+1. Klicken Sie **linken Bedienfeld** Business Case“.
+1. (Bedingt) Wenn Ihr Unternehmen nicht über eine Lizenz für den Workfront-Szenarioplaner verfügt, klicken Sie **Ressourcenbudgetierung bearbeiten** im Abschnitt **Ressourcenbudgetierung** und fahren Sie dann mit Schritt 5 fort.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode,QuicksilverOrClassic.Quicksilver">(NOTE: ensure it stays right - this is 5 instead of 6 because step 2 won't print for nwe)</p>
    -->
 
-1. (Optional und bedingt) Wenn die Projektinformationen aus einer Initiative im Szenario-Planer veröffentlicht wurden, führen Sie einen der folgenden Schritte aus:
+1. (Optional und bedingt) Wenn die Projektinformationen von einer Initiative im Szenario-Planer veröffentlicht wurden, führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie im Feld **Wählen Sie die Stunden aus, die zur Berechnung der budgetierten Arbeitskosten des Projekts verwendet werden sollen, und klicken Sie dann auf** Auswählen > Ressourcenbudgetierung bearbeiten **.**
+   * Wählen Sie Ressourcenplaner im Feld **Wählen Sie die Stunden aus, die zur Berechnung der budgetierten Lohnkosten des Projekts verwendet werden sollen** und klicken Sie dann auf **Wählen > Ressourcenbudgetierung bearbeiten**.
 
      ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
-   * Wenn der Szenario-Planer für die Budgetierung von Ressourcen für das Projekt ausgewählt wurde, klicken Sie auf **Ändern** > **Ressourcen-Budgetierung bearbeiten**.
+   * Wenn der Szenario-Planer für die Budgetierung von Ressourcen für das Projekt ausgewählt wurde, klicken Sie auf **Ändern** > **Ressourcenbudgetierung bearbeiten**.
 
      ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
-   Hierbei werden die budgetierten Stunden des Projekts verwendet, um die für das Projekt veranschlagten Arbeitskosten zu berechnen.
+   Hierbei werden die budgetierten Stunden des Projekts verwendet, um die budgetierten Lohnkosten für das Projekt zu berechnen.
 
-   Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+   Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
    >[!NOTE]
    >
-   >Es wird empfohlen, bei der Arbeit an einem Projekt zu entscheiden, ob Sie den Ressourcen-Planer oder den Szenario-Planer verwenden möchten. Ein häufiger Wechsel zwischen den beiden während der Laufzeit des Projekts kann zu Inkonsistenzen in der Art und Weise führen, wie Sie Ihre Ressourcen für das Projekt einsetzen.
+   >Es wird empfohlen, dass Sie bei Beginn der Arbeit an einem Projekt entscheiden, ob Sie den Ressourcen- oder den Szenario-Planer verwenden. Wenn Sie während der Laufzeit eines Projekts häufig zwischen beiden wechseln, kann dies zu Inkonsistenzen in der Budgetierung Ihrer Ressourcen für das Projekt führen.
 
-1. Geben Sie im Feld **Ressourcenpool auswählen** einen oder mehrere **Ressourcenpools** an.
+1. Geben **im Feld „Ressourcenpool auswählen** einen oder mehrere **Ressourcenpools** an.
 
-   Sie dürfen nur Ressourcen-Pools angeben, die mit aktiven Benutzern gefüllt sind.
+   Sie dürfen nur Ressourcenpools angeben, die mit aktiven Benutzern gefüllt sind.
 
    >[!TIP]
    >
-   >Wenn das Projekt bereits mit Ressourcen-Pools verknüpft ist, wird der Ressourcen-Planer standardmäßig angezeigt. Um dem Projekt weitere Ressourcen-Pools hinzuzufügen, bearbeiten Sie das Projekt. Weitere Informationen zum Bearbeiten eines Projekts finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
+   >Wenn das Projekt bereits mit Ressourcenpools verknüpft ist, wird der Ressourcenplaner standardmäßig angezeigt. Um dem Projekt weitere Ressourcenpools hinzuzufügen, bearbeiten Sie das Projekt. Informationen zum Bearbeiten eines Projekts finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. Klicken Sie auf **Anwenden**.
+1. Klicken Sie **Apply**.
 
-   Der Ressourcen-Planer wird für das ausgewählte Projekt angezeigt.
+   Der Ressourcenplaner wird für das ausgewählte Projekt angezeigt.
 
-   Standardmäßig sind die ersten 20 mit diesem Projekt verknüpften Auftragsrollen im Abschnitt Ressourcenbudgeting in alphabetischer Reihenfolge aufgelistet. 
+   Standardmäßig werden die ersten 20 Aufgabengebiete, die mit diesem Projekt verknüpft sind, im Abschnitt Ressourcenbudgetierung in alphabetischer Reihenfolge aufgeführt. 
 
    Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
    ![BC_resource_budgeting_area.png](assets/bc-resource-budgeting-area-350x276.png)
 
-1. (Optional und bedingt) Erweitern Sie die Auftragsrollen, um die ihnen zugeordneten Benutzer anzuzeigen.
+1. (Optional und bedingt) Erweitern Sie die Aufgabengebiete, um die ihnen zugeordneten Benutzer anzuzeigen.
 
    >[!NOTE]
    >
-   >Aktive Benutzer werden nur dann unter den ihnen zugeordneten Vorgangsrollen angezeigt, wenn sie die folgenden Kriterien erfüllen:
+   >Aktive Benutzer werden nur dann unter den ihnen zugeordneten Aufgabengebieten angezeigt, wenn sie die folgenden Kriterien erfüllen:
    >
    >   
    >   
-   >   * Sie gehören zu einem der Ressourcen-Pools des Projekts.
-   >   * Sie haben ihnen Budgetzeit zugewiesen.
-   >   * Sie sind mit einer der Vorgangsrollen des Projekts verknüpft.
+   >   * Sie gehören zu einem der Ressourcenpools des Projekts.
+   >   * Ihnen wurden budgetierte Stunden zugewiesen.
+   >   * Sie sind mit einem der Aufgabengebiete des Projekts verknüpft.
    >   
    >
 
     
 
-1. Klicken Sie auf **Today** , um zum heutigen Zeitrahmen zurückzukehren.
-1. (Optional) Klicken Sie auf **Woche**, **Monat** oder **Quartal** , um Informationen für das Projekt in verschiedenen Zeitrahmen anzuzeigen.
-1. (Optional) Klicken Sie auf das Dropdownmenü **Stunden** und wählen Sie **Stunden**, **FTE** oder **Kosten** aus, um die Anzeige der Informationen im Ressourcenplaner zu ändern. Stunden werden standardmäßig angezeigt.
+1. Klicken Sie **Heute**, um zum heutigen Zeitrahmen zurückzukehren.
+1. (Optional) Klicken Sie auf **Woche**, **Monat** oder **Quartal**, um Informationen zum Projekt in verschiedenen Zeitrahmen anzuzeigen.
+1. (Optional) Klicken Sie auf das **Stunden** Dropdown-Menü und wählen Sie **Stunden**, **FTE** oder **Kosten**, um die Anzeige von Informationen im Ressourcenplaner zu ändern. Standardmäßig werden Stunden angezeigt.
 
-1. (Optional) Klicken Sie auf **Exportieren** , um den Ressourcenplaner in eine Excel-Datei zu exportieren.
+1. (Optional) Klicken Sie auf **Exportieren**, um den Ressourcenplaner in eine Excel-Datei zu exportieren.
 
    >[!NOTE]
    >
    >Sie können Daten für bis zu 12 Zeiträume gleichzeitig exportieren.
 
-1. (Optional) Klicken Sie auf das Symbol &quot;**Vollbild**&quot;![full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png)&quot;, um den Ressourcenplaner im Vollbildmodus anzuzeigen.
+1. (Optional) Klicken Sie auf das **Vollbild**-Symbol ![full_screen_RP_in_BC.png](assets/full-screen-rp-in-bc.png), um den Ressourcenplaner im Vollbildmodus anzuzeigen.
 
-1. Aktualisieren Sie das Feld **BDG** (Budgetierte Stunden) mit den Werten für Stunde, FTE oder Kosten für die Benutzer, Rollen oder das Projekt, indem Sie einen der folgenden Schritte ausführen:
+1. Aktualisieren Sie das **BDG**-Feld (Budgetierte Stunden) mit Stunden-, FTE- oder Kostenwerten für die Benutzer, Funktionen oder das Projekt, indem Sie einen der folgenden Schritte ausführen:
 
-   * Schätzen Sie manuell die Höhe der Stunden-, FTE- oder Kostenwerte für Rollen, Benutzer oder das Projekt.
+   * Schätzen Sie die Anzahl der Stunden, FTE oder Kostenwerte für Funktionen, Benutzer oder das Projekt manuell.
 
      Oder
 
-   * Klicken Sie auf das Symbol **Optionen** für das Projekt oder die Auftragsrollen und wählen Sie eine Option aus, um die Stunden automatisch für Rollen, Benutzer oder das Projekt zu planen.
+   * Klicken Sie auf **Optionen**-Symbol für das Projekt oder die Aufgabengebiete und wählen Sie eine Option aus, um die Stunden für Rollen, Benutzer oder das Projekt automatisch zu budgetieren.
 
-   Weitere Informationen zum Budgeting in der Projektansicht des Ressourcenplaners finden Sie unter [Budgetressourcen im Ressourcenplaner mit der Projekt- und Rollenansicht](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
+   Weitere Informationen zur Budgetierung in der Projektansicht des Ressourcenplaners finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Aufgabenansichten](../../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
    >[!NOTE]
    >
-   >Sie können Stunden, FTEs oder Kosten für Ihre Ressourcen für jeden beliebigen Zeitrahmen, der im Bereich Ressourcenbudgetierung angezeigt wird, unabhängig von der Zeitleiste des Projekts einplanen. Wenn Sie beispielsweise angeben möchten, dass Ihre Ressourcen während der Planung des Projekts möglicherweise nicht verfügbar sind (wo sie mit geplanten Stunden verknüpft sind), aber zu einem anderen Zeitpunkt verfügbar sein können, können Sie dies tun, indem Sie sie für Zeiträume mit null geplanten Stunden in den Haushaltsplan einbeziehen, sofern diese zur Verfügung stehen.
+   >Sie können Stunden, FTEs oder Kosten für Ihre Ressourcen für jeden Zeitrahmen budgetieren, der im Bereich Ressourcenbudgetierung angezeigt wird, unabhängig von der Zeitleiste des Projekts. Wenn Sie beispielsweise angeben möchten, dass Ihre Ressourcen möglicherweise nicht während der Zeitleiste des Projekts verfügbar sind (wo sie mit den geplanten Stunden verknüpft sind), aber möglicherweise während einer anderen Zeit verfügbar sind, können Sie dies tun, indem Sie sie für Zeitrahmen budgetieren, in denen die geplanten Stunden null sind, wenn diese für die Arbeit verfügbar werden.
 
-1. (Optional) Um zu verstehen, ob Sie die budgetierten Stunden, FTEs oder Kosten in einen anderen Zeitrahmen verschieben können, klicken Sie auf das Symbol **Optionen** und dann auf **Budgetierungsdaten anpassen**.
+1. (Optional) Um zu verstehen, ob Sie die budgetierten Stunden, FTEs oder Kosten in einen anderen Zeitrahmen verschieben können, klicken Sie auf das Symbol **Optionen** und dann **Budgetierungsdaten anpassen**.
 
-   Weitere Informationen zum Anpassen der geplanten Daten finden Sie unter [Anpassen der Budgetierungsdaten im Ressourcenplaner](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
+   Weitere Informationen zum Anpassen budgetierter Termine finden Sie unter [Anpassen von Budgetierungsdaten im Ressourcenplaner](../../../resource-mgmt/resource-planning/adjust-budgeting-dates.md).
 
 1. Klicken Sie auf **Speichern**.
 
-   Wenn Sie die Kosten pro Stunde mit Ihren Stellenrollen verknüpft haben, berechnet das Budgetieren der Ressourcen im Bereich Ressourcenbudgetierung die **budgetierten Arbeitskosten** des Projekts. Die budgetierten Arbeitskosten werden im Bereich Ressourcenbudgetierung des Geschäftsszenarios und in der Zusammenfassung der Geschäftsszenarios angezeigt.
+   Wenn Sie mit Ihren Aufgabengebieten Stundensätze für Kosten pro Stunde verknüpft haben, berechnet die Budgetierung der Ressourcen im Bereich Ressourcenbudgetierung die **budgetierten Lohnkosten** des Projekts. Die budgetierten Lohnkosten werden im Bereich Ressourcenbudgetierung des Business Case und in der Business Case-Zusammenfassung angezeigt.
 
    >[!TIP]
    >
-   >Kosten werden im Geschäftsfall in der Währung des Projekts angezeigt.
+   >Kosten werden im Business Case in der Währung des Projekts angezeigt.
 
-   Die im Geschäftsszenario angegebenen Budgetierungsinformationen werden auch im Ressourcen-Planer angezeigt.
+   Die im Business Case angegebenen Budgetierungsinformationen werden auch im Ressourcenplaner angezeigt.
 
-   Wenn Sie ein Projekt kopieren, haben Sie die Möglichkeit, auch die budgetierten Stunden in das neue Projekt zu kopieren. Nur Stunden, die im Ressourcenplaner veranschlagt sind, werden kopiert. Weitere Informationen finden Sie unter [Kopieren eines Projekts](../manage-projects/copy-project.md).
+   Wenn Sie ein Projekt kopieren, haben Sie die Möglichkeit, auch die budgetierten Stunden in das neue Projekt zu kopieren. Nur im Ressourcenplaner budgetierte Stunden werden kopiert. Weitere Informationen finden Sie unter [Kopieren eines Projekts](../manage-projects/copy-project.md).

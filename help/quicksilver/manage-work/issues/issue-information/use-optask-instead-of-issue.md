@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: issue-information
-title: Verwenden Sie "opTask"und "issue", wenn Sie auf Probleme verweisen
-description: Der Name eines Problems wird als opTask in der Adobe Workfront-Datenbank angezeigt. Obwohl Sie manchmal den Namen des Problemfelds verwenden müssen, um auf Probleme zu verweisen, müssen Sie in den meisten Fällen den Feldnamen opTask anstelle des Problems verwenden, wenn Sie auf Probleme verweisen.
+title: „OpTask“ und „Problem“ beim Referenzieren von Problemen verwenden
+description: Der Name eines Problems wird in der Adobe Workfront-Datenbank als „opTask“ angezeigt. Es gibt zwar Fälle, in denen Sie den Problemfeldnamen verwenden müssen, um auf Probleme zu verweisen, aber in den meisten Fällen müssen Sie beim Verweisen auf Probleme den Feldnamen „opTask“ anstelle von „Problem“ verwenden.
 author: Alina
 feature: Work Management
 exl-id: 91107c04-616c-49b2-aa78-10e373d11f6b
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 ---
 
-# Verwenden Sie &quot;opTask&quot;und &quot;issue&quot;, wenn Sie auf Probleme verweisen
+# „OpTask“ und „Problem“ beim Referenzieren von Problemen verwenden
 
-Der Name eines Problems wird als `opTask` in der Adobe Workfront-Datenbank angezeigt. Es gibt zwar Fälle, in denen Sie den Feldnamen `issue` verwenden müssen, um auf Probleme zu verweisen, aber in den meisten Fällen müssen Sie beim Referenzieren von Problemen den Feldnamen `opTask` anstelle von `issue` verwenden.
+Der Name eines Problems wird in der Adobe Workfront-Datenbank als `opTask` angezeigt. Es gibt zwar Fälle, in denen Sie den `issue` Feldnamen verwenden müssen, um auf Probleme zu verweisen, aber in den meisten Fällen müssen Sie beim Verweisen auf Probleme den `opTask` Feldnamen anstelle von `issue` verwenden.
 
-Weitere Informationen dazu, wie Objekte in der Workfront-Datenbank angezeigt werden, finden Sie im [API-Explorer](https://developer.adobe.com/workfront/api-explorer/).
+Weitere Informationen zum Aussehen von Objekten in der Workfront-Datenbank finden Sie im [API Explorer](https://developer.adobe.com/workfront/api-explorer/).
 
-## `opTask` filename
+## `opTask` Dateiname
 
-Verwenden Sie den Feldnamen `opTask` , wenn Sie in den folgenden Kontexten auf Probleme verweisen:
+Verwenden Sie den `opTask` Feldnamen beim Referenzieren von Problemen in den folgenden Kontexten:
 
-* Wenn Sie einen benutzerspezifischen Textmodus-Bericht für Probleme erstellen und Probleme in Ansichten, Filtern, Gruppierungen oder Eingabeaufforderungen referenzieren möchten.
+* Wenn Sie einen benutzerdefinierten Bericht im Textmodus für Probleme erstellen und auf Probleme in Ansichten, Filtern, Gruppierungen oder Eingabeaufforderungen verweisen möchten.
 
   Weitere Informationen zur Verwendung des Textmodus in einem Bericht finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
 <!--* When you pull information about issues using our API.  
   For more information about the Workfront API, see [Adobe Workfront API](../../../wf-api/workfront-api.md)-->
 
-* Beim Aktualisieren von Problemfeldern in einem Kick-Start-Daten-Importer-Blatt.
+* Beim Aktualisieren von Problemfeldern in einem Kickstart-Datenimportblatt.
 
-  Weitere Informationen zum Importieren von Daten in Workfront mit einem Kick-Start finden Sie unter [Importieren von Daten in Adobe Workfront mit einer Kick-Start-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Weitere Informationen zum Importieren von Daten in Workfront mithilfe einer Kickstart-[ finden Sie unter „Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
 ## `issue` Feldname
 
-Verwenden Sie den Feldnamen `issue` , um Probleme in den folgenden Kontexten zu referenzieren:
+Verwenden Sie den `issue` Feldnamen, um auf Probleme in den folgenden Kontexten zu verweisen:
 
 * Wenn Sie in einem Bericht im Textmodus auf Probleme in einer Sammlung verweisen.
-* Wenn Sie eine Problemkollektion mithilfe der Workfront-API referenzieren.
+* Wenn Sie mit der Workfront-API auf eine Problemsammlung verweisen.
 
-Informationen zum Reporting über Sammlungen finden Sie unter [Verweisen auf Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
+Informationen zum Reporting über Sammlungen finden Sie unter [Referenzieren von Sammlungen in einem Bericht](../../../reports-and-dashboards/reports/text-mode/reference-collections-report.md).
 
 <!--
 <note type="tip">

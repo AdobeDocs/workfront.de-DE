@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: portfolios
 navigation-topic: projects-navigation-topic
 title: 'Portfolio-Management: Artikelindex'
-description: Ein Portfolio ist eine Sammlung von Projekten, die einheitliche Merkmale aufweisen. In den folgenden Abschnitten erfahren Sie mehr über das Portfoliomanagement.
+description: Ein Portfolio ist eine Zusammenstellung von Projekten, die einheitlich wirkende Merkmale aufweisen. Informationen zur Portfolioverwaltung finden Sie in den folgenden Abschnitten.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
@@ -20,6 +20,6 @@ ht-degree: 2%
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
 * [Portfolios](../../manage-work/portfolios/portfolios-overview/portfolio-overview-1.md)
-* [Erstellen und Verwalten von Portfolios](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
-* [Programme erstellen und verwalten](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
+* [Portfolios erstellen und verwalten](../../manage-work/portfolios/create-and-manage-portfolios/create-and-manage-portfolios.md)
+* [Erstellen und Verwalten von Programmen](../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md)
 * [Verwalten von Projekten im [!UICONTROL Portfolio Optimizer]](../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md)

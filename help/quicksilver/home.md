@@ -1,5 +1,5 @@
 ---
-title: '[!DNL Adobe Workfront] documentation'
+title: '[!DNL Adobe Workfront] Dokumentation'
 description: Dokumentation für [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
@@ -10,9 +10,9 @@ ht-degree: 1%
 
 ---
 
-# Dokumentation zu [!DNL Workfront]
+# [!DNL Workfront] Dokumentation
 
-Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe Workfront. Verwenden Sie die folgenden Adobe Workfront-Links, Hilfeartikel und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv verwenden.
+Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Adobe Workfront. Verwenden Sie die folgenden Adobe Workfront-Links, Hilfeartikel und zusätzliche Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv verwenden können.
 
 ## Neue Funktionen
 
@@ -20,29 +20,29 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
 
 >[!TAB Neueste Version]
 
-* [Übersicht über die Version des ersten Quartals 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
-* [Übersicht über die Version 2024 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion-Release-Aktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-* [Adobe Workfront-Planung - Aktivität &quot;Erste Quartal 2025&quot;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+* [Übersicht über die Version im ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Versionsübersicht für das vierte Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+* [Adobe Workfront Fusion-Versionsaktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Adobe Workfront-Planungsaktivität für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
->[!TAB Versionen 2025]
+>Versionen [!TAB 2025]
 
-* [Übersicht über die Version des ersten Quartals 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
-* [Adobe Workfront-Planung - Aktivität &quot;Erste Quartal 2025&quot;](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
+* [Übersicht über die Version im ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Adobe Workfront-Planungsaktivität für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 
->[!TAB Versionen 2024]
+>Versionen [!TAB 2024]
 
-* [Übersicht über die Version des ersten Quartals 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
+* [Übersicht über die Version im ersten Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q1-release-activity/24-q1-release-overview.md)
 * [Übersicht über die Version 2024 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/24-q2-release-activity/24-q2-release-overview.md)
-* [Übersicht über die Version 2024 im dritten Quartal](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
-* [Übersicht über die Version 2024 im vierten Quartal](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
-* [Adobe Workfront Fusion-Release-Aktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
-* [Adobe Workfront-Planung - Aktivität vom vierten Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
+* [Versionsübersicht für das dritte Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q3-release-activity/24-q3-release-overview.md)
+* [Versionsübersicht für das vierte Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
+* [Adobe Workfront Fusion-Versionsaktivität](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md)
+* [Adobe Workfront-Planungs-Aktivität für das vierte Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-24-q4.md)
 
->[!TAB Betas]
+>[!TAB Beta]
 
-* [Übersicht über Canvas-Dashboards](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
+* [Arbeitsflächen-Dashboards - Übersicht](/help/quicksilver/reports-and-dashboards/dashboards/creating-and-managing-dashboards/canvas-dashboards-overview.md)
 
 >[!TAB Bekannte Probleme]
 
@@ -52,7 +52,7 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
 >[!ENDTABS]
 
 
-## Dokumentation lesen
+## Dokumentation anzeigen
 
 <table>
 
@@ -64,14 +64,14 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
   <tr>
     <td>
     <ul>
-    <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Erste Schritte mit Workfront Administration</a></li>
+    <li><a href="/help/quicksilver/administration-and-setup/get-started-wf-administration/get-started-with-wf-administration.md">Erste Schritte mit der Workfront-Administration</a></li>
     <li><a href="/help/quicksilver/workfront-fusion/get-started/get-started.md">Erste Schritte mit Workfront Fusion</li>
     </ul>
  </td>
     <td>
         <ul>
         <li><a href="/help/quicksilver/workfront-basics/workfront-basics.md">Erste Schritte mit Workfront</a></li>
-        <li><a href="/help/quicksilver/manage-work/manage-work.md">Erste Schritte mit der Arbeit</a></li>
+        <li><a href="/help/quicksilver/manage-work/manage-work.md">Erste Schritte mit der Arbeitsverwaltung</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports-and-dashboards-overview.md">Erste Schritte mit Berichten und Dashboards</a></li>
         <li><a href="/help/quicksilver/reports-and-dashboards/reports/text-mode/text-mode-resources.md">Erste Schritte mit dem Textmodus</a></li>
         </ul>
@@ -79,8 +79,8 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
     <td><ul>
         <li><a href="/help/quicksilver/agile/agile-overview.md">Erste Schritte mit Agile</a></li>
         <li><a href="/help/quicksilver/documents/documents-overview.md">Erste Schritte mit Dokumenten</a></li>
-        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">Erste Schritte mit dem Lastenausgleich</a></li>
-        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">Erste Schritte mit Review und Genehmigung</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/workload-balancer.md">Erste Schritte mit dem Workload Balancer</a></li>
+        <li><a href="/help/quicksilver/resource-mgmt/workload-balancer/overview-workload-balancer.md">Erste Schritte mit der Überprüfung und Genehmigung</a></li>
         </ul></td>
     <td><ul>
         <li><a href="/help/quicksilver/wf-api/general/api-basics.md">API-Grundlagen</a></li>
@@ -90,22 +90,22 @@ Willkommen auf der Homepage für Produkte und technische Dokumentation von Adobe
   </tr>
 </table>
 
-## Tipps zum Auffinden von Inhalten im Experience League
+## Tipps zum Auffinden von Inhalten auf Experience League
 
-Die Suche nach Dokumentation kann mit einigen strategischen Ansätzen effizienter sein. Hier finden Sie einige Tipps, wie Sie effektiv finden können, was Sie benötigen:
+Die Dokumentationssuche kann mit einigen strategischen Ansätzen effizienter sein. Hier sind einige Tipps, die Ihnen helfen, das zu finden, was Sie effektiv benötigen:
 
-### Inhaltsverzeichnis und Suchleiste verwenden
+### Verwenden des Inhaltsverzeichnisses und der Suchleiste
 
-* **Inhaltsverzeichnis**: Beginnen Sie mit dem Inhaltsverzeichnis, um einen Überblick über verfügbare Themen zu erhalten und durch die erweiterten Abschnitte auf bestimmte Themen einzugrenzen.
-* **Suchleiste**: Verwenden Sie die Suchleiste, um Dokumentation zu finden. Geben Sie spezifische Begriffe zu Ihrem Problem oder Thema ein. Verwenden Sie anstelle allgemeiner Begriffe wie &quot;Projekt-Management&quot;die &quot;Projekt-Timeline-Einrichtung&quot;oder &quot;Aufgabenabhängigkeiten&quot;.
+* **Inhaltsverzeichnis**: Beginnen Sie mit dem Inhaltsverzeichnis, um einen Überblick über die verfügbaren Themen zu erhalten und durch die erweiterten Abschnitte auf bestimmte Themen einzugrenzen.
+* **Suchleiste**: Verwenden Sie die Suchleiste, um die Dokumentation zu finden. Geben Sie bestimmte Begriffe im Zusammenhang mit Ihrem Problem oder Thema ein. Verwenden Sie anstelle von allgemeinen Begriffen wie „Projekt-Management“ „Projekt-Zeitleisten-Einrichtung“ oder „Aufgabenabhängigkeiten“.
 
 ![](assets/exl-site-nav.png)
 
-### Abschnitte &quot;Lernen und Training&quot;
+### Abschnitte zu Lernen und Schulung durchsuchen
 
-* **Schulungsmaterial**: Navigieren Sie zur Seite [Workfront-Schulungsmaterial](https://experienceleague.adobe.com/en/browse/workfront) , um eine Bibliothek mit Schulungsvideos und Artikeln zu erhalten, die Ihnen dabei helfen sollen, die Funktionen und Einstellungen von Workfront besser zu verstehen. Sie können auch auf bezahlte Schulungsmaterialien unter [learning.adobe.com](https://learning.adobe.com/) zugreifen.
-* **Kurse**: Suchen Sie nach [strukturierten Lernkursen](https://experienceleague.adobe.com/home?Solution=Workfront#courses), die Sie durch die Verwendung verschiedener Workfront-Funktionen in einer logischen Sequenz führen.
+* **Schulungsmaterialien**: Navigieren Sie zur Seite [Workfront-](https://experienceleague.adobe.com/en/browse/workfront)Schulungsvideos und -artikel, die Ihnen dabei helfen, Workfront-Funktionen und -Einstellungen besser zu verstehen. Sie können auch auf bezahlte Schulungsmaterialien unter [learning.adobe.com](https://learning.adobe.com/) zugreifen.
+* **Kurse**: Suchen Sie [strukturierte Lernkurse](https://experienceleague.adobe.com/home?Solution=Workfront#courses) die Sie durch die Verwendung verschiedener Workfront-Funktionen in einer logischen Reihenfolge führen.
 
-### Antworten in Community-Foren suchen
+### Antworten finden in Community-Foren
 
-* **Fragen stellen**: Wenn die Dokumentation Ihre Frage nicht beantwortet, versuchen Sie, Beiträge in den [Workfront-Community-Foren](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) zu posten, wo andere Benutzer und Experten Unterstützung anbieten können.
+* **Fragen stellen**: Wenn die Dokumentation Ihre Frage nicht beantwortet, versuchen Sie, in den [Workfront Community-Foren zu posten](https://experienceleaguecommunities.adobe.com/t5/workfront/ct-p/workfront?profile.language=en) in denen andere Benutzende und Experten Unterstützung bieten können.

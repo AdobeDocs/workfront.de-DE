@@ -1,7 +1,7 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Gelöschte Projekte wiederherstellen
+title: Gelöschtes Projekt wiederherstellen
 description: Wenden Sie sich an Ihren Adobe Workfront-Administrator oder Gruppenadministrator, wenn Sie ein Projekt wiederherstellen müssen. Sie können Projekte, Aufgaben, Probleme und andere Elemente wiederherstellen, die in den letzten 30 Tagen gelöscht wurden. Nach 30 Tagen werden Elemente dauerhaft gelöscht und können nicht wiederhergestellt werden.
 author: Alina
 feature: Work Management
@@ -13,8 +13,8 @@ ht-degree: 0%
 
 ---
 
-# Gelöschte Projekte wiederherstellen
+# Gelöschtes Projekt wiederherstellen
 
 Wenden Sie sich an Ihren Adobe Workfront-Administrator oder Gruppenadministrator, wenn Sie ein Projekt wiederherstellen müssen. Sie können Projekte, Aufgaben, Probleme und andere Elemente wiederherstellen, die in den letzten 30 Tagen gelöscht wurden. Nach 30 Tagen werden Elemente dauerhaft gelöscht und können nicht wiederhergestellt werden.
 
-Weitere Informationen zum Wiederherstellen von Projekten finden Sie unter [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+Weitere Informationen zum Wiederherstellen von Projekten finden Sie unter [Wiederherstellen gelöschter Elemente](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

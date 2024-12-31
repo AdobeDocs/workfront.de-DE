@@ -1,8 +1,8 @@
 ---
-title: Filter in erweiterten Analysen anwenden
+title: Anwenden von Filtern in erweiterten Analysen
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Die Filter im Bereich "Erweiterte Analyse"von Adobe Workfront helfen Ihnen dabei, sich auf bestimmte Projekte oder bestimmte Datentypen zu konzentrieren.
+description: Mit den Filtern im erweiterten Analysebereich von Adobe Workfront können Sie sich auf bestimmte Projekte oder Datentypen konzentrieren.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
@@ -13,21 +13,21 @@ ht-degree: 0%
 
 ---
 
-# Filter in erweiterten Analysen anwenden
+# Anwenden von Filtern in erweiterten Analysen
 
 <!-- Audited: 12/2023 -->
 
-Die Filter im Bereich &quot;Erweiterte Analyse&quot;von Adobe Workfront helfen Ihnen dabei, sich auf bestimmte Projekte oder bestimmte Datentypen zu konzentrieren. Die von Ihnen verwendeten Filtertypen bieten Einblicke in:
+Mit den Filtern im erweiterten Analysebereich von Adobe Workfront können Sie sich auf bestimmte Projekte oder Datentypen konzentrieren. Die Filtertypen, die Sie verwenden, können Ihnen Einblicke geben in:
 
-* Projekte, die Ihnen gehören
+* Projekte in Ihrem Besitz
 * Spezifische Portfolio- oder Programmansichten
 * Wichtige Leistungsindikatoren für einen bestimmten Zeitraum (Woche, Quartal, Geschäftsjahr)
 
-Sie können Filter nach Bedarf hinzufügen und entfernen. Workfront behält die angewendeten Filter bei, selbst wenn Sie sich abmelden.
+Sie können Filter nach Bedarf hinzufügen und entfernen. Workfront behält die Filter bei, die Sie anwenden, auch wenn Sie sich abmelden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -36,23 +36,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td>
       <p>Neu: Beliebig</p>
       <p>oder</p>
-      <p>Aktuell: Business oder höher</p></td> 
+      <p>Aktuell: Unternehmen oder höher</p></td> 
   </tr>
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td>
       <p>Neu: Licht oder höher</p>
       <p>oder</p>
-      <p>Aktuell: Überprüfen oder höher</p>
+      <p>Aktuell: Überprüfung oder höher</p>
    </td> 
   </tr>
   <tr> 
-   <td>Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Sie müssen außerdem Zugriff auf "Anzeigen"auf Aufgaben, Portfolios und Benutzer haben, um bestimmte Filteroptionen für Projektfelder anzuzeigen.</p> <p>Hinweis: Wenn Einschränkungen im Abschnitt <strong>Weitere Einschränkungen festlegen</strong> des Dialogfelds "Zugriffsebene bearbeiten"ausgewählt sind, werden möglicherweise nicht alle Informationen in den Filtern oder auf der Seite "Erweiterte Analysen"angezeigt, nachdem der Filter angewendet wurde.</p> </td> 
+   <td>Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Sie müssen auch Ansichtszugriff auf Aufgaben, Portfolios und Benutzende haben, um bestimmte Projektfeldfilteroptionen anzeigen zu können.</p> <p>Hinweis: Wenn im Abschnitt <strong>Zusätzliche Einschränkungen festlegen</strong> des Dialogfelds „Zugriffsebene bearbeiten“ Einschränkungen ausgewählt sind, werden möglicherweise nicht alle Informationen in den Filtern oder auf der Seite „Erweiterte Analyse“ angezeigt, nachdem der Filter angewendet wurde.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Objektberechtigungen </p> </td> 
@@ -61,71 +61,71 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie unter [Voraussetzungen](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites) in der [Übersicht über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
+Voraussetzungen für die Verwendung der erweiterten Analyse finden Sie unter [Voraussetzungen](../enhanced-analytics/enhanced-analytics-overview.md#prerequisites) in [Übersicht über die erweiterte Analyse](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Datumsbereichfilter ändern {#change-the-date-range-filter}
+## Ändern des Filters für den Datumsbereich {#change-the-date-range-filter}
 
-Standardmäßig zeigen die Visualisierungen im Bereich &quot;Erweiterte Analyse&quot;Daten für die letzten 60 Tage und die nächsten 15 Tage an. Sie können einen neuen Datumsbereich auswählen und ihn auf alle Visualisierungen im Bereich &quot;Erweiterte Analyse&quot;anwenden. Wenn Sie von der Seite weg navigieren, wird der Standarddatumsbereich beim nächsten Navigieren angewendet.
+Standardmäßig zeigen die Visualisierungen im Bereich Erweiterte Analyse Daten der letzten 60 Tage und der nächsten 15 Tage an. Sie können einen neuen Datumsbereich auswählen und ihn auf alle Visualisierungen im erweiterten Analysebereich anwenden. Wenn Sie die Seite verlassen, wird der standardmäßige Datumsbereich angewendet, wenn Sie das nächste Mal zurücknavigieren.
 
 >[!TIP]
 >
->Sie können auch über die Tastatur einen Datumsbereich aus dem Kalender-Widget öffnen, öffnen und auswählen.\
->Weitere Informationen finden Sie im Abschnitt [Tastaturbefehle](../enhanced-analytics/enhanced-analytics-overview.md#keyboard-shortcuts) im Artikel [Überblick über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
+>Sie können auch Tasten auf der Tastatur verwenden, um zu einem Datumsbereich im Kalender-Widget zu navigieren, ihn zu öffnen und ihn auszuwählen.\
+>Weitere Informationen finden Sie im Abschnitt [Tastaturbefehle](../enhanced-analytics/enhanced-analytics-overview.md#keyboard-shortcuts) im Artikel [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
-So wählen Sie einen neuen Datumsbereich aus:
+Einen neuen Datumsbereich auswählen:
 
 {{step1-to-analytics}}
 
 1. Klicken Sie oben rechts auf das Datumsbereichsfeld, um die Kalenderansicht zu öffnen.
-1. Verwenden Sie die Pfeile oberhalb des Kalenders, um den Monat Ihres Startdatums zu suchen, und wählen Sie dann das Startdatum aus.
+1. Verwenden Sie die Pfeile über dem Kalender, um den Monat Ihres Startdatums zu finden, und wählen Sie dann das Startdatum aus.
 
    ![Datumsbereich auswählen](assets/filters-select-date-range-350x344.png)
 
-1. Verwenden Sie die Pfeile über dem Kalender, um den Monat Ihres Enddatums zu suchen, und wählen Sie dann das Enddatum aus.
-1. (Optional) Wenn Sie einen kleineren Datumsbereich vergrößern möchten, ziehen Sie die Maus über eine der Visualisierungen von einem bestimmten Datum zum nächsten.
+1. Verwenden Sie die Pfeile über dem Kalender, um den Monat Ihres Enddatums zu finden, und wählen Sie dann das Enddatum aus.
+1. (Optional) Um einen kleineren Datumsbereich einzoomen, ziehen Sie die Maus von einem bestimmten Datum in eine andere Visualisierung.
 
-   Alle Visualisierungen auf dem Bildschirm werden entsprechend dem ausgewählten Zeitrahmen aktualisiert. Neben allen vorhandenen Filtern wird ein Timeframe-Filter angezeigt. Dieser Filter wird nicht beibehalten, wenn Sie sich abmelden oder aus dem Bereich &quot;Erweiterte Analyse&quot;navigieren.
+   Alle Visualisierungen auf dem Bildschirm werden entsprechend dem ausgewählten Zeitrahmen aktualisiert, und neben allen vorhandenen Filtern wird ein Zeitrahmen-Filter angezeigt. Dieser Filter wird nicht beibehalten, wenn Sie sich abmelden oder den erweiterten Analysebereich verlassen.
 
-   ![Zeitraumfilter](assets/timeframe-filter-350x220.png)
+   ![Zeitrahmen-Filter](assets/timeframe-filter-350x220.png)
 
 ## Filter hinzufügen
 
-Sie können Filter hinzufügen, die auf Standardprojektfeldern, benutzerdefinierten Formularfeldern und den für Projekte zugewiesenen Startseiten basieren.
+Sie können Filter hinzufügen, die auf standardmäßigen Projektfeldern, benutzerdefinierten Formularfeldern und den Projekten zugewiesenen Home-Teams basieren.
 
 >[!TIP]
 >
->Sie können auch die Tastaturbefehle verwenden, um zu einem neuen Filter zu navigieren und ihn hinzuzufügen.\
->Weitere Informationen finden Sie im Abschnitt [Tastaturbefehle](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) im Artikel [Überblick über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
+>Mit den Tasten auf der Tastatur können Sie auch zu navigieren und einen neuen Filter hinzufügen.\
+>Weitere Informationen finden Sie im Abschnitt [Tastaturbefehle](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) im Artikel [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
-* [Hinzufügen eines Projektfeldfilters](#add-a-project-field-filter)
-* [Hinzufügen eines benutzerdefinierten Formularfilters für ein Projekt](#add-a-project-custom-form-filter)
+* [Projektfeldfilter hinzufügen](#add-a-project-field-filter)
+* [Hinzufügen eines benutzerdefinierten Projektformularfilters](#add-a-project-custom-form-filter)
 * [Team-Filter hinzufügen](#add-a-team-filter)
 
 ### Hinzufügen eines Projektfeldfilters {#add-a-project-field-filter}
 
-Mit Projektfeldfiltern können Sie Daten nach Projekten und Aufgaben anhand der in Feldern eingegebenen Werte filtern, die standardmäßig in Projekten enthalten sind.
+Mit Projektfeldfiltern können Sie Daten nach Projekten und Aufgaben anhand der Werte filtern, die in Felder eingegeben wurden, die standardmäßig in Projekten enthalten sind.
 
 Die folgenden Projektfeldfiltertypen sind verfügbar:
 
 | Feld | Angezeigte Daten |
 |---|---|
-| **Projekt** | Zeigt nur Daten für die ausgewählten Projekte an |
-| **Programm** | Zeigt nur Daten für Projekte in den ausgewählten Programmen an |
+| **Projekt** | Zeigt nur Daten für das/die ausgewählte(n) Projekt(e) an |
+| **Programm** | Zeigt Daten nur für Projekte in den ausgewählten Programmen an |
 | **Portfolio** | Zeigt Daten nur für Projekte in den ausgewählten Portfolios an |
-| **Bedingung** | Zeigt Daten nur für Projekte an, bei denen die ausgewählte(n) Bedingung(en) zuletzt ausgewählt wurde(n) (Zielgruppe/n, Risiko/Probleme) |
-| **Status** | Zeigt nur Daten zu Projekten an, die zuletzt den ausgewählten Status hatten (vollständig, aktuell, auf Abruf, abgebrochen usw.) |
-| **Sponsor** | Zeigt nur Daten für Projekte mit den ausgewählten Sponsoren an |
-| **Projektbesitzer** | Zeigt Daten nur für Projekte mit den ausgewählten Projekteigentümern an |
+| **Bedingung** | Zeigt Daten nur für Projekte an, die zuletzt die ausgewählte(n) Bedingung(en) hatten (zielgerichtet, gefährdet oder in Schwierigkeiten) |
+| **Status** | Zeigt Daten nur für Projekte an, die zuletzt die ausgewählten Status hatten (abgeschlossen, aktuell, gehalten, abgebrochen usw.) |
+| **Sponsor** | Zeigt Daten nur für Projekte mit dem/den ausgewählten Sponsor(n) an |
+| **Projektbesitzer** | Zeigt Daten nur für Projekte mit dem/den ausgewählten Projektbesitzer(n) an |
 
-Benutzerdefinierte Formularfilter funktionieren anders. Weitere Informationen finden Sie unter [Hinzufügen eines benutzerdefinierten Formularfilters für ein Projekt](#add-a-project-custom-form-filter).
+Benutzerdefinierte Formularfilter funktionieren anders. Weitere Informationen finden Sie unter [Hinzufügen eines benutzerdefinierten Formularfilters](#add-a-project-custom-form-filter).
 
-So fügen Sie einen Projektfeldfilter hinzu:
+So fügen Sie einen Projektfeldfilter hinzu
 
 {{step1-to-analytics}}
 
@@ -133,39 +133,39 @@ So fügen Sie einen Projektfeldfilter hinzu:
 
    >[!NOTE]
    >
-   >Verschiedene Filtertypen zeigen unterschiedliche Daten an. Sie können nur einen Filtertyp in einem Filter verwenden. Nach der Auswahl ist kein Filtertyp verfügbar, der in einem anderen Projektfeldfilter verwendet werden kann.
+   >Verschiedene Filtertypen zeigen unterschiedliche Daten an. In einem Filter kann nur ein Filtertyp verwendet werden. Nach der Auswahl steht ein Filtertyp nicht mehr zur Verwendung in einem anderen Projektfeldfilter zur Verfügung.
 
-1. Suchen Sie die Werte, für die Sie Daten anzeigen möchten, indem Sie mindestens drei Zeichen Text in das Feld **Suchen** eingeben und dann jeden Wert auswählen, den Sie in den Filter aufnehmen möchten.
+1. Suchen Sie die Werte, für die Sie Daten anzeigen möchten, indem Sie mindestens drei Textzeichen in das Feld **Suchen** eingeben und dann jeden Wert auswählen, den Sie in den Filter aufnehmen möchten.
 
    Um alle aktuellen Werte auszuwählen, klicken Sie auf **Alle auswählen**.
 
    ![Filterwert auswählen](assets/select-filter-value-350x251.png)
 
-1. Nachdem Sie alle gewünschten Werte ausgewählt haben, klicken Sie auf **Filter anwenden**.
+1. Klicken Sie nach Auswahl aller gewünschten Werte auf **Filter anwenden**.
 
-   Die Projektzahl wird oben rechts aktualisiert, um Ihre angewendeten Filter widerzuspiegeln.
+   Die Projektanzahl oben rechts wird aktualisiert und zeigt Ihre angewendeten Filter an.
 
 1. Wiederholen Sie diese Schritte für jeden Filter, den Sie hinzufügen möchten.
 
-   Beim Hinzufügen von Filtern werden Daten in den unten stehenden Visualisierungen für bis zu 50 Projekte angezeigt.
+   Beim Hinzufügen von Filtern werden Daten in den Visualisierungen unten für bis zu 50 Projekte angezeigt.
 
    >[!TIP]
    >
-   >Um Daten für mehr als die 50 standardmäßig angezeigten Projekte anzuzeigen, können Sie:
+   >Um Daten für mehr als die 50 standardmäßig angezeigten Projekte anzuzeigen, haben Sie folgende Möglichkeiten:
    >
    >   * Verwenden Sie die Pfeile unten links, um die nächsten 50 Projekte in dieser Visualisierung anzuzeigen.\
    >     ![Paginierungspfeil](assets/pagination-350x118.png)
    >   
-   >   * Verwenden Sie das Dropdownmenü **Sortieren nach** für eine Visualisierung, um die Projekte in einer anderen Reihenfolge anzuzeigen.\
+   >   * Verwenden Sie das **Sortieren nach** Dropdown-Menü in einer Visualisierung, um die Projekte in einer anderen Reihenfolge anzuzeigen.\
    >     ![Nach Menü sortieren](assets/sort-by-menu-350x247.png)
 
-   Informationen zum Anpassen des Datumsbereichs finden Sie unter [Filter für den Datumsbereich ändern](#change-the-date-range-filter).
+   Informationen zum Anpassen des Datumsbereichs finden Sie unter [Ändern des Datumsbereichsfilters](#change-the-date-range-filter).
 
-### Hinzufügen eines benutzerdefinierten Formularfilters für ein Projekt
+### Hinzufügen eines benutzerdefinierten Projektformularfilters
 
-Mit dem benutzerdefinierten Formularfiltertyp können Sie Daten nach Projekten und Aufgaben anhand der in benutzerdefinierten Formularfeldern in Projekten eingegebenen Werte filtern. Im Gegensatz zu anderen erweiterten Analytics-Filtertypen können Sie mehr als einen benutzerdefinierten Formularfilter hinzufügen. Jeder benutzerdefinierte Formularfilter enthält Werte, die nur in das ausgewählte Feld eines bestimmten benutzerdefinierten Formulars eingegeben werden.
+Mit dem Filtertyp für benutzerdefinierte Formulare können Sie Daten für Projekte und Aufgaben basierend auf den Werten filtern, die in benutzerdefinierte Formularfelder in Projekte eingegeben wurden. Im Gegensatz zu anderen erweiterten Analytics-Filtertypen können Sie mehr als einen benutzerdefinierten Formularfilter hinzufügen. Jeder benutzerdefinierte Formularfilter enthält Werte, die nur innerhalb des ausgewählten Felds in einem bestimmten benutzerdefinierten Formular eingegeben werden.
 
-Hinzufügen eines benutzerdefinierten Formularfilters:
+So fügen Sie einen benutzerdefinierten Formularfilter hinzu:
 
 {{step1-to-analytics}}
 
@@ -174,87 +174,87 @@ Hinzufügen eines benutzerdefinierten Formularfilters:
    ![Benutzerdefinierten Formularfilter auswählen](assets/select-custom-form-filter-350x271.png)
 
 1. Suchen Sie das gewünschte benutzerdefinierte Formular, indem Sie mindestens drei Textzeichen in das Feld **Suche** eingeben und dann das benutzerdefinierte Formular auswählen.
-1. Wählen Sie das gewünschte Feld aus und führen Sie je nach dem Typ des Felds, das Sie zum Filter hinzufügen, eine der folgenden Aktionen aus:
+1. Wählen Sie das gewünschte Feld aus und führen Sie dann eine der folgenden Aktionen je nach dem Feldtyp aus, den Sie dem Filter hinzufügen:
 
    >[!NOTE]
    >
-   >Es können nicht alle benutzerdefinierten Corm-Feldtypen zu einem Filter hinzugefügt werden. Derzeit unterstützt Enhanced Analytics nur die unten aufgeführten Feldtypen.
+   >Nicht alle benutzerdefinierten Formularfeldtypen können einem Filter hinzugefügt werden. Derzeit unterstützt Enhanced Analytics nur die unten aufgeführten Feldtypen.
 
-   * **Kontrollkästchen**, **Dropdown-Liste** oder **Optionsfeld**: Wählen Sie jeden Wert im Feld aus, den Sie in Ihren Filter aufnehmen möchten, oder klicken Sie auf das Kontrollkästchen **Alle auswählen** .\
+   * **Kontrollkästchen**, **Dropdown** oder **Optionsfeld**: Wählen Sie jeden Wert in dem Feld aus, das Sie in Ihren Filter einbeziehen möchten, oder klicken Sie auf das Kontrollkästchen **Alle auswählen**.\
      ![Kontrollkästchenwerte](assets/custom-form-filter-checkbox-350x255.png)
 
-   * **Datum**: Navigieren Sie mit den Pfeilen zu einem bestimmten Monat und wählen Sie dann das Datum im Feld aus, das Sie in Ihren Filter aufnehmen möchten.\
+   * **Datum**: Navigieren Sie mit den Pfeilen zu einem bestimmten Monat und wählen Sie dann das Datum in dem Feld aus, das Sie in Ihren Filter aufnehmen möchten.\
      ![Datumswert](assets/custom-form-filter-date-350x348.png)
 
-   * **Text**: Geben Sie den Text in das Feld ein, das Sie in Ihren Filter aufnehmen möchten.\
+   * **Text**: Geben Sie den Text in dem Feld ein, das Sie in Ihren Filter aufnehmen möchten.\
      ![Textwert](assets/custom-form-filter-text-350x90.png)
 
-   * **Zahl**: Geben Sie die Zahl in das Feld ein, das Sie in Ihren Filter aufnehmen möchten.\
+   * **Zahl**: Geben Sie die Zahl in dem Feld ein, das Sie in Ihren Filter aufnehmen möchten.\
      ![Zahlenwert](assets/custom-form-filter-number-350x93.png)
 
 1. Nachdem Sie die Werte eingegeben oder ausgewählt haben, nach denen Sie filtern möchten, klicken Sie auf **Filter anwenden**.
 
-   Die Projektzahl wird oben rechts aktualisiert, um Ihre angewendeten Filter widerzuspiegeln.
+   Die Projektanzahl oben rechts wird aktualisiert und zeigt Ihre angewendeten Filter an.
 
 1. Wiederholen Sie diese Schritte für jeden Filter, den Sie hinzufügen möchten.
 
-   Beim Hinzufügen von Filtern werden Daten in den unten stehenden Visualisierungen für bis zu 50 Projekte angezeigt.
+   Beim Hinzufügen von Filtern werden Daten in den Visualisierungen unten für bis zu 50 Projekte angezeigt.
 
    >[!TIP]
    >
-   >Um Daten für mehr als die 50 standardmäßig angezeigten Projekte anzuzeigen, können Sie:
+   >Um Daten für mehr als die 50 standardmäßig angezeigten Projekte anzuzeigen, haben Sie folgende Möglichkeiten:
    >  
    >   * Verwenden Sie die Pfeile unten links, um die nächsten 50 Projekte in dieser Visualisierung anzuzeigen.\
    >     ![Paginierungspfeile](assets/pagination-350x118.png)
    >   
-   >   * Verwenden Sie das Dropdownmenü **Sortieren nach** für eine Visualisierung, um die Projekte in einer anderen Reihenfolge anzuzeigen.\
+   >   * Verwenden Sie das **Sortieren nach** Dropdown-Menü in einer Visualisierung, um die Projekte in einer anderen Reihenfolge anzuzeigen.\
    >     ![Nach Menü sortieren](assets/sort-by-menu-350x247.png)
 
-   Informationen zum Anpassen des Datumsbereichs finden Sie unter [Filter für den Datumsbereich ändern](#change-the-date-range-filter).
+   Informationen zum Anpassen des Datumsbereichs finden Sie unter [Ändern des Datumsbereichsfilters](#change-the-date-range-filter).
 
 ### Team-Filter hinzufügen {#add-a-team-filter}
 
 {{step1-to-analytics}}
 
-1. Klicken Sie im linken Bereich auf **Personen**.
+1. Klicken Sie im linken Bedienfeld auf **Personen**.
 
    ![Personen auswählen](assets/people-area-cropped-qs-350x276.png)
 
 1. Klicken Sie oben links im Bildschirm auf **Filter hinzufügen** und wählen Sie dann den Filter **Team** aus.
-1. Suchen Sie die Teams, für die Sie Daten anzeigen möchten, indem Sie mindestens drei Zeichen Text in das Feld **Suchen** eingeben und dann jedes Team auswählen, das Sie in den Filter aufnehmen möchten. Um alle Teams auszuwählen, klicken Sie auf **Alle auswählen**.
+1. Suchen Sie die Teams, für die Sie Daten anzeigen möchten, indem Sie mindestens drei Textzeichen in das Feld **Suchen** eingeben und dann jedes Team auswählen, das Sie in den Filter aufnehmen möchten. Um alle Teams auszuwählen, klicken Sie auf **Alle auswählen**.
 
    ![Teams auswählen](assets/select-team-value-350x253.png)
 
    >[!NOTE]
    >
-   >Alle Teams sind unabhängig von Ihrer Zugriffsstufe als Filteroptionen enthalten.
+   >Alle Teams sind als Filteroptionen enthalten, unabhängig von Ihrer Zugriffsebene.
 
-1. Nachdem Sie alle gewünschten Teams ausgewählt haben, klicken Sie auf **Filter anwenden**.
+1. Klicken Sie nach Auswahl aller gewünschten Teams auf **Filter anwenden**.
 
-   Beim Hinzufügen von Filtern werden die Daten in den unten stehenden Visualisierungen angezeigt.
+   Beim Hinzufügen von Filtern werden Daten in den folgenden Visualisierungen angezeigt.
 
-   Informationen zum Anpassen des Datumsbereichs finden Sie unter [Filter für den Datumsbereich ändern](#change-the-date-range-filter).
+   Informationen zum Anpassen des Datumsbereichs finden Sie unter [Ändern des Datumsbereichsfilters](#change-the-date-range-filter).
 
 ## Filter entfernen
 
-Sie können Filter jederzeit entfernen. Wenn Sie einen Filter entfernen, wird er beim nächsten Besuch des Bereichs &quot;Erweiterte Analyse&quot;nicht angezeigt.
+Sie können einen Filter jederzeit entfernen. Wenn Sie einen Filter entfernen, wird er beim nächsten Besuch des Bereichs Erweiterte Analyse nicht angezeigt.
 
 >[!TIP]
 >
->Sie können auch Tastaturbefehle verwenden, um zu einem vorhandenen Filter zu navigieren und ihn zu entfernen.\
->Weitere Informationen finden Sie im Abschnitt [Tastaturbefehle](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) im Artikel [Überblick über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
+>Sie können auch Tasten auf der Tastatur verwenden, um zu einem vorhandenen Filter zu navigieren und ihn zu entfernen.\
+>Weitere Informationen finden Sie im Abschnitt [Tastaturbefehle](../enhanced-analytics/enhanced-analytics-overview.md#keyboard) im Artikel [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
 So entfernen Sie einen Filter:
 
 {{step1-to-analytics}}
 
-1. Wenn Sie ein Projektfeld oder einen benutzerdefinierten Formularfilter entfernen möchten, verbleiben Sie im Bereich **Arbeit** .
+1. Wenn Sie ein Projektfeld oder einen benutzerdefinierten Formularfilter entfernen möchten, verbleiben Sie im Bereich **Arbeit**.
 
    Oder
 
-   Wenn Sie einen Team-Filter entfernen möchten, wählen Sie im linken Bereich **Personen** aus.
+   Wenn Sie einen Team-Filter entfernen möchten, wählen Sie **linken Bereich** Personen“ aus.
 
-1. Suchen Sie den gewünschten Filter und klicken Sie auf **X** , um ihn zu entfernen.
+1. Suchen Sie den gewünschten Filter und klicken Sie auf das **X**, um ihn zu entfernen.
 
    ![Entfernen](assets/remove-filter-350x213.png)
 

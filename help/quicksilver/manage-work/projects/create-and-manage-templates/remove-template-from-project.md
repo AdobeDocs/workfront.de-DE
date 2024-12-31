@@ -2,7 +2,7 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Entfernen von Vorlageninformationen aus einem Projekt
-description: Sie können eine Vorlage nicht aus einem Projekt entfernen. Sie können Informationen, die zum Projekt hinzugefügt wurden, nur manuell entfernen, nachdem eine Vorlage an das Projekt angehängt wurde. Weitere Informationen zum Anhängen von Vorlagen finden Sie unter Anhängen einer Vorlage an ein Projekt.
+description: Sie können keine Vorlage aus einem Projekt entfernen. Sie können nur manuell Informationen entfernen, die dem Projekt hinzugefügt wurden, nachdem eine Vorlage an das Projekt angehängt wurde. Informationen zum Anhängen von Vorlagen finden Sie unter Anhängen einer Vorlage an ein Projekt.
 author: Alina
 feature: Work Management
 exl-id: a8b6055a-7fac-4f9b-a880-10b2b85299b7
@@ -15,11 +15,11 @@ ht-degree: 1%
 
 # Entfernen von Vorlageninformationen aus einem Projekt
 
-Sie können eine Vorlage nicht aus einem Projekt entfernen. Sie können Informationen, die zum Projekt hinzugefügt wurden, nur manuell entfernen, nachdem eine Vorlage an das Projekt angehängt wurde. Informationen zum Anhängen von Vorlagen finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Sie können keine Vorlage aus einem Projekt entfernen. Sie können nur manuell Informationen entfernen, die dem Projekt hinzugefügt wurden, nachdem eine Vorlage an das Projekt angehängt wurde. Informationen zum Anhängen von Vorlagen finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -28,8 +28,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -37,39 +37,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Aufgaben bearbeiten</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf Aufgaben verwalten </p> <p>Contribute-Zugriff oder höher </p>  </td> 
+   <td> <p>Zugriff auf Aufgaben verwalten </p> <p>Zugriff auf das Projekt über Contribute oder höher </p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Optionen zum Entfernen von Vorlageninformationen aus einem Projekt
 
-Um Vorlageninformationen zu entfernen, die zum Projekt hinzugefügt wurden, führen Sie einen der folgenden Schritte aus:
+Um Vorlageninformationen zu entfernen, die dem Projekt hinzugefügt wurden, haben Sie folgende Möglichkeiten:
 
-* Entfernen Sie Informationen manuell aus dem Projekt, nachdem die Vorlage angehängt wurde.
+* Informationen manuell aus dem Projekt entfernen, nachdem die Vorlage angehängt wurde.
 
   Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-* Löschen Sie die Aufgaben im Projekt, die mit der Vorlage hinzugefügt wurden.
+* Löscht die Aufgaben im Projekt, die mit der Vorlage hinzugefügt wurden.
 
-  Weitere Informationen finden Sie im Abschnitt [Aufgaben löschen, die aus einer Vorlage erstellt wurden](#delete-tasks-created-from-a-template) in diesem Artikel.
+  Weitere Informationen finden Sie [ Abschnitt „Löschen von Aufgaben, die aus einer Vorlage ](#delete-tasks-created-from-a-template) wurden“ in diesem Artikel.
 
-* Löschen Sie die Vorlage aus Workfront. Durch das Löschen der Vorlage aus Workfront werden die aus der Vorlage hinzugefügten Aufgaben nicht aus den Projekten gelöscht.
+* Löschen Sie die Vorlage aus Workfront. Beim Löschen der Vorlage aus Workfront werden die aus der Vorlage hinzugefügten Aufgaben nicht aus den Projekten gelöscht.
 
-  Weitere Informationen finden Sie unter [Löschen von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
+  Weitere Informationen finden Sie unter [Projektvorlagen löschen](../../../manage-work/projects/create-and-manage-templates/delete-templates.md).
 
-## Löschen von Aufgaben, die aus einer Vorlage erstellt wurden {#delete-tasks-created-from-a-template}
+## Aus einer Vorlage erstellte Aufgaben löschen {#delete-tasks-created-from-a-template}
 
-1. Wechseln Sie zum Abschnitt **Aufgaben** des Projekts.
+1. Gehen Sie zum **Aufgaben** des Projekts.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Erstellen Sie einen Filter für die Aufgabenliste, um nur Aufgaben anzuzeigen, die aus einer Vorlage mit der folgenden Anweisung erstellt wurden:
@@ -80,12 +80,12 @@ Um Vorlageninformationen zu entfernen, die zum Projekt hinzugefügt wurden, füh
 
      Informationen zum Erstellen eines Filters finden Sie unter [Erstellen oder Bearbeiten von Filtern in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-filters.md).
 
-     Wenn Sie den Filter anwenden, werden nur Aufgaben in der Liste angezeigt, die mit einer Vorlagenaufgaben-ID verknüpft sind.
+     Wenn Sie den Filter anwenden, werden in der Liste nur Aufgaben angezeigt, die mit einer Vorlagenaufgaben-ID verknüpft sind.
 
-   * Erstellen Sie eine Ansicht für die Aufgabenliste, um die Felder **Vorlagenaufgaben-ID** oder **VorlagenAufgabenname** in einer Spalte anzuzeigen.
+   * Erstellen Sie eine Ansicht für die Aufgabenliste, um die Felder **Vorlagenaufgabe-ID** oder **Vorlagenaufgabenname** in einer Spalte anzuzeigen.
 
-     Wenn Sie die Ansicht anwenden, wurden die Aufgaben, die Informationen in der Spalte &quot;Template Task ID&quot;oder &quot;Template Task Name&quot;enthalten, mithilfe einer Vorlage erstellt.
+     Wenn Sie die Ansicht anwenden, wurden die Aufgaben, die Informationen in der Spalte Vorlagenaufgaben-ID oder Vorlagenaufgabenname enthalten, mithilfe einer Vorlage erstellt.
 
-     Informationen zum Erstellen einer Ansicht finden Sie unter [Übersicht über Ansichten in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
+     Weitere Informationen zum Erstellen einer Ansicht finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
-1. Wählen Sie alle Aufgaben aus, die in Schritt 2 anhand einer Vorlage identifiziert wurden, und klicken Sie dann auf **das Löschsymbol***> Ja, löschen Sie es**. Weitere Informationen finden Sie unter [Aufgaben löschen](../../../manage-work/tasks/manage-tasks/delete-tasks.md).
+1. Wählen Sie alle in Schritt 2 als aus einer Vorlage erstellt identifizierten Aufgaben aus und klicken Sie dann auf **Löschsymbol**> **, Löschen**. Weitere Informationen finden Sie unter [Aufgaben löschen](../../../manage-work/tasks/manage-tasks/delete-tasks.md).

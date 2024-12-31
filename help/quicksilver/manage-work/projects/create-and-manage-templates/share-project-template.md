@@ -2,7 +2,7 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Projektvorlagen freigeben
-description: Sie können eine Vorlage für Benutzer freigeben oder festlegen, wie die aus einer Vorlage erstellten Projekte für Benutzer freigegeben werden, indem Sie die folgenden Freigabeoptionen auf Vorlagenebene verwenden.
+description: Sie können eine Vorlage für Benutzer freigeben oder mithilfe der folgenden Freigabeoptionen auf Vorlagenebene definieren, wie die aus einer Vorlage erstellten Projekte für Benutzer freigegeben werden.
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
@@ -15,13 +15,13 @@ ht-degree: 2%
 
 # Projektvorlagen freigeben
 
-Sie können eine Vorlage für Benutzer freigeben oder festlegen, wie die aus einer Vorlage erstellten Projekte für Benutzer freigegeben werden, indem Sie die folgenden Freigabeoptionen auf Vorlagenebene verwenden.
+Sie können eine Vorlage für Benutzer freigeben oder mithilfe der folgenden Freigabeoptionen auf Vorlagenebene definieren, wie die aus einer Vorlage erstellten Projekte für Benutzer freigegeben werden.
 
-Beim Freigeben eines Objekts in Adobe Workfront können andere Benutzer dieses Objekt anzeigen, dazu beitragen oder bearbeiten.
+Beim Freigeben eines Objekts in Adobe Workfront ermöglichen Sie anderen Benutzenden, dieses Objekt anzuzeigen, zu ihm beizutragen oder zu bearbeiten.
 
-Weitere Informationen zu Workfront-Berechtigungen finden Sie unter [Überblick über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Informationen zu Berechtigungen für Workfront finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-Informationen zu den Berechtigungen, die Sie Benutzern beim Freigeben einer Vorlage gewähren können, finden Sie unter [Freigeben einer Vorlage](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+Informationen zu den Berechtigungen, die Sie Benutzern bei der Freigabe einer Vorlage erteilen können, finden Sie unter [Freigeben einer Vorlage](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 ## Zugriffsanforderungen
 
@@ -33,43 +33,43 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für eine Vorlage verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für eine Vorlage</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Vorlage freigeben {#share-a-template}
+## Freigeben einer Vorlage {#share-a-template}
 
 Sie können Ihre Vorlagen mithilfe der Vorlagenfreigabe für andere Benutzer freigeben. Diese Aktion definiert, wer über Berechtigungen für die Vorlage verfügt.
 
 >[!NOTE]
 >
->Wenn Sie einen aktiven Benutzer als Vorlageneigentümer festlegen, erhält dieser Benutzer automatisch Verwaltungsberechtigungen für die Vorlage. Weitere Informationen zum Benennen einer Person als Vorlageninhaber finden Sie unter [Bearbeiten von Projektvorlagen](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
+>Wenn Sie einen aktiven Benutzer als Inhaber der Vorlage festlegen, erhält dieser Benutzer automatisch Verwaltungsberechtigungen für die Vorlage. Informationen dazu, wie Sie eine Person zum Vorlagenbesitzer bestimmen, finden Sie unter [Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
-So geben Sie eine Vorlage frei:
+Freigeben einer Vorlage:
 
-1. Klicken Sie im Symbol **Hauptmenü** auf ![](assets/main-menu-icon.png) auf **Vorlagen**.
+1. Klicken Sie im **-**-![](assets/main-menu-icon.png) auf **Vorlagen**.
 
 1. Führen Sie einen der folgenden Schritte aus:\
-   Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlagenfreigabe**.
+   Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das **Mehr**-![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlagenfreigabe**.
 
    Oder
 
-   Wählen Sie eine Vorlage aus der Liste aus, klicken Sie auf das Freigabesymbol ![](assets/share-icon.png) und dann auf **Vorlage**.
+   Wählen Sie eine Vorlage aus der Liste aus, klicken Sie auf das Freigabesymbol ![](assets/share-icon.png) dann auf **Vorlage.**
 
    >[!TIP]
    >
@@ -79,34 +79,34 @@ So geben Sie eine Vorlage frei:
 
    Sie können auch auf das Symbol **Optionen** klicken, um die Vorlage systemweit verfügbar zu machen:
 
-1. Wählen Sie aus dem Dropdown-Menü für jede Entität, für die Sie eine Freigabe durchführen, eine der folgenden Optionen aus:
+1. Wählen Sie aus dem Dropdown-Menü für jede Entität, für die Sie Daten freigeben, eine der folgenden Optionen aus:
 
-   * **Anzeigen**: Benutzer mit diesen Berechtigungen können die Vorlage anzeigen und ein Projekt mit ihr erstellen oder sie an ein vorhandenes Projekt anhängen.
+   * **Anzeigen**: Benutzer mit diesen Berechtigungen können die Vorlage anzeigen und ein Projekt damit erstellen oder sie an ein vorhandenes Projekt anhängen.
 
      >[!TIP]
      >
-     >Ihr Workfront-Administrator muss der Bearbeitung von Projekten Zugriff gewähren, damit Sie Projekte erstellen können.
+     >Ihr Workfront-Administrator muss Ihnen Bearbeitungszugriff auf Projekte erteilen, um Projekte erstellen zu können.
 
    * **Verwalten**: Benutzer mit diesen Berechtigungen können die Vorlage bearbeiten oder löschen.
 
-     Informationen zu den hier verfügbaren erweiterten Einstellungen ![](assets/gear-icon-in-access-levels.png) finden Sie im Abschnitt [Erweiterte Einstellungen für die Vorlagenfreigabe](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) im Artikel [Vorlagenfreigabe](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
+     Informationen zu den hier verfügbaren erweiterten Einstellungen ![](assets/gear-icon-in-access-levels.png) Sie im Abschnitt [Erweiterte Einstellungen für die Vorlagenfreigabe](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md#template-permissions) im Artikel [Freigeben einer Vorlage](../../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
 
 1. Klicken Sie auf **Speichern**.
 
-## Freigeben eines Projekts aus einer Vorlage {#share-a-project-from-a-template}
+## Freigeben eines Projekts über eine Vorlage {#share-a-project-from-a-template}
 
-Mit der Vorlagenfreigabe für Projekte können Sie festlegen, wer auf Vorlagenebene für die in der Vorlage erstellten Projekte berechtigt ist.
+Bei der gemeinsamen Nutzung von Vorlagen für Projekte können Sie auf Vorlagenebene festlegen, wer über Berechtigungen für die in der Vorlage erstellten Projekte verfügt.
 
-So geben Sie zukünftige, aus einer Vorlage erstellte Projekte für Benutzer frei:
+So geben Sie zukünftige Projekte, die aus einer Vorlage erstellt wurden, für Benutzer frei:
 
 1. Führen Sie einen der folgenden Schritte aus:\
-   Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlagenfreigabe**.
+   Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das **Mehr**-![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlagenfreigabe**.
 
    ![Projekt aus Vorlage freigeben](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
    Oder
 
-   Wählen Sie eine Vorlage aus der Liste aus, klicken Sie auf **Freigabe** und dann auf **Projekt**.
+   Wählen Sie eine Vorlage aus der Liste aus, klicken Sie auf **Freigeben** und dann auf **Projekt.**
 
 1. Wählen Sie im Feld **Projektzugriff** die Personen, Teams, Rollen, Gruppen oder Unternehmen aus, für die die Vorlage freigegeben ist.
 
@@ -116,13 +116,13 @@ So geben Sie zukünftige, aus einer Vorlage erstellte Projekte für Benutzer fre
 
 1. Wählen Sie aus dem Dropdown-Menü für jede Entität eine der folgenden Optionen aus:
 
-   * **Kein Zugriff**: Sie können angeben, welche Benutzer keinen Zugriff auf die Vorlage haben sollen.\
-     Diese Option ist nur verfügbar, wenn Projekte für die Massenweitergabe aus Vorlagen ausgewählt werden. 
+   * **Kein Zugriff**: Sie können angeben, welche Benutzer keinen Zugriff auf die Vorlage haben.\
+     Diese Option ist nur bei der Massenfreigabe von Projekten aus Vorlagen verfügbar. 
    * **Anzeigen**: Benutzer mit diesen Berechtigungen können Projekte anzeigen, die aus der Vorlage erstellt wurden.
    * **Contribute**: Benutzer mit diesen Berechtigungen können zu Projekten beitragen, die aus der Vorlage erstellt wurden 
    * **Verwalten**: Benutzer mit diesen Berechtigungen können Projekte verwalten oder löschen, die aus dieser Vorlage erstellt wurden.
 
-1. (Optional) Klicken Sie auf das Symbol **Optionen** , um die Projekte systemweit verfügbar zu machen.
+1. (Optional) Klicken Sie auf **Optionen**, um die Projekte systemweit verfügbar zu machen.
 1. Klicken Sie auf **Speichern**.
 
 <!--
@@ -138,15 +138,15 @@ So geben Sie zukünftige, aus einer Vorlage erstellte Projekte für Benutzer fre
 </div>
 -->
 
-## Vorlagen und Projekte aus Vorlagen stapelweise freigeben
+## Stapelweises Freigeben von Vorlagen und Projekten aus Vorlagen
 
 Sie können mehrere Vorlagen sowie Projekte aus mehreren Vorlagen gleichzeitig freigeben.
 
 >[!NOTE]
 >
->Wenn Sie mehrere Vorlagen auswählen, können Sie nicht anzeigen, wer bereits über Berechtigungen für die einzelnen Vorlagen verfügt.
+>Wenn Sie mehrere Vorlagen auswählen, können Sie nicht sehen, wer bereits über Berechtigungen für die einzelnen Vorlagen verfügt.
 
-1. Gehen Sie zu einer Liste von Vorlagen.
+1. Navigieren Sie zu einer Liste von Vorlagen.
 1. Wählen Sie mehrere Vorlagen aus und klicken Sie dann auf ![Freigeben](assets/share-icon.png).
 
    ![Vorlagen oder Projekte stapelweise freigeben](assets/share-templates-projects-in-bulk-link-in-toolbar-nwe-2022.png)
@@ -155,13 +155,13 @@ Sie können mehrere Vorlagen sowie Projekte aus mehreren Vorlagen gleichzeitig f
    >
    >Sie können ein Objekt nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
 
-1. Klicken Sie auf **Vorlage** , um die ausgewählten Vorlagen freizugeben.
+1. Klicken Sie **Vorlage**, um die ausgewählten Vorlagen freizugeben.
 
    Oder
 
-   Klicken Sie auf **Projekt** , um die Projekte freizugeben, die aus den ausgewählten Vorlagen erstellt werden.
+   Klicken Sie **Projekt**, um die Projekte freizugeben, die aus den ausgewählten Vorlagen erstellt werden.
 
-1. Fahren Sie mit der Freigabe der Vorlagen oder Projekte fort, wie in den folgenden Abschnitten in diesem Artikel beschrieben:
+1. Sie können die Vorlagen für die Projekte weiterhin freigeben, wie in den folgenden Abschnitten in diesem Artikel beschrieben:
 
-   * [Vorlage freigeben](#share-a-template)
-   * [Freigeben eines Projekts aus einer Vorlage](#share-a-project-from-a-template)
+   * [Freigeben einer Vorlage](#share-a-template)
+   * [Freigeben eines Projekts über eine Vorlage](#share-a-project-from-a-template)

@@ -1,8 +1,8 @@
 ---
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Berechnung des Nettowertrisikos in einem Portfolio
-description: Im Portfolio Optimizer misst der Indikator "[!UICONTROL Risiko zu Nettowert]"das potenzielle Risiko unter Berücksichtigung des Nettowerts, der von allen im Portfolio Optimizer angezeigten Projekten bereitgestellt wird.
+title: Berechnung des Risikos zum Nettowert in einem Portfolio
+description: In Portfolio Optimizer misst der Indikator [!UICONTROL Risiko auf Nettowert] das potenzielle Risiko unter Berücksichtigung des Nettowerts aller in Portfolio Optimizer angezeigten Projekte.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 9e86f6eb-dd82-4731-aebb-ce8da1df5614
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 ---
 
-# Berechnung des [!UICONTROL Nettowertrisikos] in einem Portfolio
+# Berechnung des [!UICONTROL Risiko/Nettowert] in einem Portfolio
 
-Im Indikator [!UICONTROL Portfolio-Optimizer] misst der Indikator [!UICONTROL Risiko-Nettowert] das potenzielle Risiko unter Berücksichtigung des [!UICONTROL Nettowerts], der von allen im [!UICONTROL Portfolio-Optimizer] angezeigten Projekten bereitgestellt wird. 
+In [!UICONTROL Portfolio Optimizer] misst der Indikator [!UICONTROL Risiko für Nettowert] das potenzielle Risiko unter Berücksichtigung des [!UICONTROL Nettowerts], der von allen in [!UICONTROL Portfolio Optimizer angezeigten Projekten bereitgestellt ]. 
 
-Um die höchste Effizienz im Portfolio zu erzielen, sollten Sie sehen, dass der Indikator [!UICONTROL Risiko] niedrig ist und der Indikator [!UICONTROL Nettowert] hoch ist. 
+Um die größte Effizienz innerhalb des Portfolios zu erzielen, sollten Sie sehen, dass der [!UICONTROL Risiko]-Indikator niedrig und der [!UICONTROL Nettowert]-Indikator hoch ist. 
 
-Die Indikatoren [!UICONTROL Risiko] und [!UICONTROL Nettowert] werden aus der Perspektive dargestellt, wie sie miteinander verbunden sind.
+Die [!UICONTROL Risiko] und [!UICONTROL Nettowert] sind aus der Perspektive ihrer Beziehung zueinander dargestellt.
 
 [!DNL Adobe Workfront] berechnet die Indikatoren [!UICONTROL Risiko] und [!UICONTROL Nettowert] anhand der folgenden Formeln:
 
-* Der Indikator [!UICONTROL Risiko] wird anhand der folgenden Formel berechnet:
+* Der [!UICONTROL Risiko]-Indikator wird anhand der folgenden Formel berechnet:
 
   ```
   Risk indicator = Risk / (Risk + Net Value)
   ```
 
-* Der Indikator [!DNL Net Value] wird anhand der folgenden Formeln berechnet:
+* Der [!DNL Net Value] wird anhand der folgenden Formeln berechnet:
 
   ```
   Net Value indicator = 1 - Risk / (Risk + Net Value)
@@ -43,4 +43,4 @@ Die Indikatoren [!UICONTROL Risiko] und [!UICONTROL Nettowert] werden aus der Pe
 
 >[!NOTE]
 >
->Der Indikator &quot;[!UICONTROL Risiko bis Nettowert]&quot;berechnet sich auf der Grundlage der Projekte, die Sie im [!UICONTROL Portfolio Optimizer] anzeigen, und nicht auf allen mit dem Portfolio verknüpften Projekten. 
+>Der Indikator [!UICONTROL Risiko bis Nettowert] wird anhand der Projekte berechnet, die Sie im [!UICONTROL Portfolio Optimizer] anzeigen, und nicht basierend auf allen Projekten, die mit dem Portfolio verknüpft sind. 

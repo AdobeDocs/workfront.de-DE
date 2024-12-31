@@ -20,28 +20,28 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: similar article exists for tasks)</p>
 -->
 
-Sie können Benutzerzuweisungen gleichzeitig für mehrere Probleme ändern. Weitere Informationen zum Bearbeiten oder Zuweisen von Problemen finden Sie in den folgenden Artikeln:
+Sie können gleichzeitig Benutzerzuweisungen für mehrere Probleme ändern. Informationen zum Bearbeiten oder Zuweisen von Problemen einzeln finden Sie in den folgenden Artikeln:
 
 * [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md)
-* [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md)
+* [Probleme zuweisen](../../../manage-work/issues/manage-issues/assign-issues.md)
 
-Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Überblick über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!NOTE]
 >
->Sie müssen mindestens über Contribute-Berechtigungen für ein Problem verfügen, um dem Problem Zuweisungen zuweisen zu können.
+>Sie müssen mindestens über Contribute-Berechtigungen für ein Problem verfügen, um Zuweisungen an das Problem vornehmen zu können.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
@@ -49,17 +49,17 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Überblick
    <p>Aktuell: Anforderung oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Anzeigen oder höherer Zugriff auf Projekte und Aufgaben zur Zuweisung eines Problems</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Anfragen bearbeiten</p> <p>Zugriff auf Projekte und Aufgaben anzeigen oder höher, um ein Problem zuzuweisen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Problem verwalten</p> <p>Contribute-Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem sich das Problem befindet, bei der Zuweisung mehrerer Probleme.</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Contribute-Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem/der sich das Problem befindet, wenn mehrere Probleme zugewiesen werden.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -76,37 +76,37 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Überblick
 </div>
 -->
 
-## Ändern von Zuweisungen für mehrere Probleme
+## Zuweisung für mehrere Anfragen ändern
 
-1. Gehen Sie zur Problemliste, die die Probleme enthält, deren Zuweisungen Sie ändern möchten.
-1. (Optional) Erstellen Sie einen Filter, um nur die dem Empfänger zugewiesenen Probleme anzuzeigen, den Sie ändern möchten.
+1. Navigieren Sie zur Anfrageliste mit den Anfragen, deren Zuweisungen Sie ändern möchten.
+1. (Optional) Erstellen Sie einen Filter, um nur Probleme anzuzeigen, die dem Verantwortlichen zugewiesen wurden, den Sie ändern möchten.
 
-   Sie können beispielsweise einen Filter erstellen, um nur Probleme mit einer bestimmten Rolle als Verantwortlicher anzuzeigen. Anschließend können Sie die Rolle durch einen bestimmten Benutzer ersetzen. Gehen Sie wie folgt vor:
+   Sie können beispielsweise einen Filter erstellen, um nur Probleme mit einer bestimmten Rolle als Verantwortlicher anzuzeigen. Anschließend können Sie die Rolle durch einen bestimmten Benutzer ersetzen. Gehen Sie folgendermaßen vor:
 
-   1. Klicken Sie auf die Dropdownliste **Filter** und dann auf **Neuer Filter**.
+   1. Klicken Sie auf **Dropdown** Liste Filter und dann auf **Neuer Filter**.
 
       Das Dialogfeld Neuer Filter wird angezeigt.
 
-   1. Klicken Sie auf **Filterregel hinzufügen**.
-   1. Um nach einer bestimmten Rolle zu filtern, erweitern Sie **Zuweisungsrollen** und klicken Sie dann auf **ID**.
+   1. Klicken Sie **Filterregel hinzufügen.**
+   1. Um nach einer bestimmten Rolle zu filtern, erweitern Sie **Arbeitsauftrag - Rollen** klicken Sie dann auf **ID.**
 
       Oder
 
-      Um nach einem bestimmten Benutzer zu filtern, erweitern Sie **Zuweisungsbenutzer** und klicken Sie dann auf **ID**.
+      Um nach einem bestimmten Benutzer zu filtern, erweitern Sie **Arbeitsauftrag - Benutzer** und klicken Sie dann auf **ID.**
 
       >[!TIP]
       >
-      >Verwenden Sie nicht &quot;**Zugeordnet zu**&quot;, da dieses Feld nur auf den Eigentümer des Problems und nicht auf alle Verantwortlichen verweist.
+      >Verwenden Sie nicht **Zugewiesen an** da sich dieses Feld nur auf den Problembesitzer und nicht auf alle Zugewiesenen bezieht.
 
-   1. Wählen Sie in der Dropdownliste **Gleich** als Filterqualifikator aus.
-   1. Beginnen Sie mit der Eingabe des Namens des Benutzers oder der Rolle, nach dem/der Sie filtern möchten, und klicken Sie dann auf den Namen, wenn er/sie in der Dropdown-Liste angezeigt wird.
+   1. Wählen Sie in der Dropdown-Liste **Gleich** als Filterqualifizierer aus.
+   1. Geben Sie den Namen des Benutzers oder der Rolle ein, nach dem bzw. der gefiltert werden soll, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
    1. Klicken Sie auf **Filter speichern.**
 
-1. Wählen Sie die Probleme aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/qs-edit-icon.png).
+1. Wählen Sie die Probleme aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/qs-edit-icon.png).
 
-   Der Eintrag **Probleme bearbeiten** wird angezeigt. Die bearbeiteten Elemente werden in der oberen linken Ecke der Seite angezeigt.
+   Die **Probleme bearbeiten** wird angezeigt. Die bearbeiteten Elemente werden in der oberen linken Ecke der Seite angezeigt.
 
-1. Wechseln Sie zum Abschnitt **Zuweisungen** und wählen Sie dann **Bevollmächtigter** aus.
+1. Gehen Sie zum Abschnitt **Arbeitsaufträge** und wählen Sie dann **Verantwortlicher** aus.
 
    ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
@@ -114,38 +114,38 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Überblick
 
    1. So fügen Sie einen neuen Bevollmächtigten hinzu:
 
-      1. Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Die Zuweisung wird hinzugefügt und ersetzt nicht die aktuellen Zuweisungen zu den ausgewählten Problemen.
+      1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird. Die Zuweisung wird hinzugefügt und ersetzt nicht die aktuellen Zuweisungen in den ausgewählten Problemen.
 
          >[!TIP]
          >
-         >Sie können mehrere Benutzer, Auftragsrollen oder Teams zuweisen. Sie können nur aktive Benutzer, Stellenrollen und Teams zuweisen.
+         >Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
          >
-         >Wenn ein Benutzer, eine Rolle oder ein Team zugewiesen wurde, bevor sie deaktiviert wurden, bleiben sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+         >Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
          >
-         >* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
-         >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
+         >* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
+         >* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-         Informationen, die in allen ausgewählten Problemen gängig sind, werden angezeigt. Wenn beispielsweise derselbe Benutzer allen Problemen zugewiesen ist, wird dieser Benutzer in der Spalte **Zuweisung** angezeigt. Wenn Informationen nicht in allen ausgewählten Problemen gängig sind, werden keine Informationen angezeigt.
+         Es werden Informationen angezeigt, die für alle ausgewählten Probleme gelten. Wenn beispielsweise allen Problemen derselbe Benutzer zugewiesen ist, wird dieser Benutzer in der Spalte &quot;**&quot;**. Wenn die Informationen zu den ausgewählten Problemen nicht gleich sind, werden keine Informationen angezeigt.
 
-   1. So entfernen Sie einzelne Bevollmächtigte:
+   1. So entfernen Sie einzelne Zugewiesene:
 
-      1. Klicken Sie auf das Symbol **X** neben dem Namen des Empfängers, den Sie entfernen möchten, wenn der Verantwortliche in der Liste Zuweisungen angezeigt wird.
+      1. Klicken Sie auf das **X**-Symbol neben dem Namen des Verantwortlichen, den Sie entfernen möchten, wenn der Verantwortliche in der Zuweisungsliste angezeigt wird.
 
          Oder
 
-         (Bedingt) Wenn der zu entfernende Bevollmächtigte nicht im Abschnitt &quot;Zuweisungen&quot;angezeigt wird, da der Bevollmächtigte nur bestimmten von Ihnen ausgewählten Problemen zugewiesen ist, klicken Sie auf **Bevollmächtigten entfernen** und geben Sie den Namen des Bevollmächtigten ein, den Sie entfernen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird.
+         (Bedingt) Wenn der Verantwortliche, den Sie entfernen möchten, nicht im Abschnitt Zuweisungen angezeigt wird, da der Verantwortliche nur einigen der von Ihnen ausgewählten Probleme zugewiesen ist, klicken Sie auf **Verantwortlichen entfernen** und geben Sie den Namen des Verantwortlichen ein, den Sie entfernen möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-      1. Klicken Sie erneut auf **Bevollmächtigten entfernen** , um einen weiteren zu entfernenden Bevollmächtigten hinzuzufügen.
+      1. Klicken Sie **erneut auf &quot;** entfernen“, um einen weiteren zu entfernenden Bevollmächtigten hinzuzufügen.
 
-   1. So entfernen Sie alle vorhandenen Bevollmächtigten:
+   1. So entfernen Sie alle vorhandenen Zugewiesenen:
 
-      1. Klicken Sie auf **Alle vorhandenen Zuweisungen entfernen** und dann auf **Ja, alle Zuweisungen löschen**.
+      1. Klicken Sie **Alle vorhandenen Bevollmächtigten entfernen** und klicken Sie dann auf **Ja, Alle Bevollmächtigten löschen**.
 
-         Dadurch werden nicht nur häufig verwendete Bevollmächtigte (Bevollmächtigte, die im Dialogfeld &quot;Bearbeiten&quot;angezeigt werden), sondern auch alle Bevollmächtigten für alle ausgewählten Probleme entfernt.
+         Dadurch werden nicht nur die allgemeinen Bevollmächtigten (Bevollmächtigte, die im Dialogfeld „Bearbeiten“ angezeigt werden) entfernt, sondern auch alle Bevollmächtigten für alle ausgewählten Probleme.
 
-1. (Optional) Ändern Sie eine der folgenden Optionen für die von Ihnen ausgewählten Bevollmächtigten, die mit den Problemen verknüpft werden sollen:
+1. (Optional) Ändern Sie eine der folgenden Optionen für die Bevollmächtigten, die Sie für die Probleme ausgewählt haben:
 
-   * **Eigentümer des Problems:** Wählen Sie das Optionsfeld aus, um anzugeben, welcher Verantwortliche als Eigentümer der Probleme benannt ist. Wenn diese Option nicht ausgewählt ist, bestimmt Adobe Workfront den ersten Verantwortlichen als Eigentümer des Problems. Dies ist nicht für Teamzuweisungen verfügbar.
-   * **Rolle des Bevollmächtigten**: Wählen Sie eine Rolle aus der Dropdownliste aus. Wenn die Option nicht ausgewählt ist, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
+   * **Anfragebesitzer:** Wählen Sie das Optionsfeld aus, um anzugeben, welcher Bevollmächtigte als Anfragebesitzer bestimmt wird. Wenn diese Option deaktiviert ist, bestimmt Adobe Workfront den ersten Bearbeiter als Anfragebesitzer. Dies ist nicht für Team-Arbeitsaufträge verfügbar.
+   * **Rolle des Verantwortlichen**: Wählen Sie eine Rolle aus der Dropdown-Liste aus. Wenn die Option deaktiviert bleibt, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
 1. Klicken Sie auf **Änderungen speichern**.

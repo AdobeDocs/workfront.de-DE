@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Zuweisen von Problemen
-description: Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für das Abschließen der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter Problemzuweisungen ändern - Übersicht.
+title: Probleme zuweisen
+description: Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für die Behebung der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter Ändern von Problemzuweisungen - Übersicht.
 author: Alina
 feature: Work Management
 role: User
@@ -14,38 +14,38 @@ ht-degree: 0%
 
 ---
 
-# Zuweisen von Problemen
+# Probleme zuweisen
 
 <!--Audited: 07/2024-->
 
-Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für das Abschließen der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Überblick über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
+Sie können Benutzern, Rollen und Teams Probleme zuweisen, um anzugeben, wer für die Behebung der Probleme verantwortlich ist. Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md).
 
 >[!TIP]
 >
->Sie können mehrere Benutzer, Auftragsrollen oder Teams zuweisen. Sie können nur aktive Benutzer, Stellenrollen und Teams zuweisen.
+>Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
 >
->Wenn ein Benutzer, eine Rolle oder ein Team zugewiesen wurde, bevor sie deaktiviert wurden, bleiben sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+>Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
 >
->* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
->* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
+>* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
+>* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
-Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um weitere Informationen zur Problemzuweisung zu erhalten:
+Zusätzlich zu diesem Artikel empfehlen wir, die folgenden Artikel zu lesen, um weitere Informationen zum Zuweisen von Problemen zu erhalten:
 
-* [Überblick über die Änderung von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
+* [Übersicht über das Ändern von Problemzuweisungen](../../../manage-work/issues/manage-issues/modify-issue-assignments-overview.md)
 * [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md)
-* [Ändern der Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
+* [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md)
 * [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md)
 * [Smart-Zuweisungen vornehmen](../../../manage-work/tasks/assign-tasks/make-smart-assignments.md)
-* [Übersicht über Smart-Zuweisungen](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
-* [Übersicht über die Zuweisung von Aufgaben im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md)
+* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
 
-Sie können ein Problem einer oder mehreren Ressourcen auf der Ebene einzelner Probleme zuweisen oder mehrere Ressourcen gleichzeitig mehreren Problemen zuweisen.
+Sie können ein Problem einer oder mehreren Ressourcen auf individueller Anfrageebene zuweisen oder mehrere Ressourcen gleichzeitig mehreren Problemen zuweisen.
 
-Das Zuweisen von Problemen und Aufgaben ist in Adobe Workfront ähnlich. Allgemeine Informationen zum Zuweisen von Aufgaben finden Sie unter [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Die Zuweisung von Problemen und Aufgaben ist in Adobe Workfront ähnlich. Allgemeine Informationen zum Zuweisen von Aufgaben finden Sie unter [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,44 +54,44 @@ Das Zuweisen von Problemen und Aufgaben ist in Adobe Workfront ähnlich. Allgeme
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Neu: Mitarbeiter oder höher</p>
-   <p>Aktuell: Überprüfen oder höher</p> </td> 
+   <td> <p>Neu: Mitwirkender oder höher</p>
+   <p>Aktuell: Überprüfung oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Anzeigen oder höherer Zugriff auf Projekte und Aufgaben zur Zuweisung eines Problems</p> </td> 
+   <td> <p>Zugriff auf Anfragen bearbeiten</p> <p>Zugriff auf Projekte und Aufgaben anzeigen oder höher, um ein Problem zuzuweisen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Problem verwalten</p> <p> Anzeigen von Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem sich das Problem befindet, beim Zuweisen eines Problems</p><p>Contribute-Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem sich das Problem befindet, bei der Zuweisung mehrerer Probleme.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p> Anzeigen von Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem/der sich das Problem befindet, wenn ein Problem zugewiesen wird</p><p>Contribute-Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem/der sich das Problem befindet, wenn mehrere Probleme zugewiesen werden.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Überlegungen zur Mehrfachzuweisung von Stellenrollen, Teams und Benutzern
+## Überlegungen zu mehreren Zuweisungen an Aufgabengebiete, Teams und Benutzer
 
-Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes:
+Beachten Sie Folgendes, wenn Sie einem Arbeitselement mehrere Ressourcen zuweisen:
 
-* Benutzern kann mehr als eine Auftragsrolle mit ihrem Profil zugeordnet sein. Informationen zum Zuordnen von Benutzern zu Vorgangsrollen finden Sie unter [Profil eines Benutzers bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
+* Benutzern kann mehr als ein Aufgabengebiet mit ihrem Profil zugeordnet sein. Informationen zum Verknüpfen von Benutzern mit Aufgabengebieten finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).
 
-* Aufgaben oder Probleme werden normalerweise zuerst einer oder mehreren Auftrags- oder Teams zugewiesen. Wenn Projekte startbereit sind, müssen sie möglicherweise auch Benutzern zugewiesen werden.
+* Aufgaben oder Probleme werden in der Regel zuerst einem oder mehreren Aufgabengebieten oder Teams zugewiesen. Wenn Projekte startbereit sind, müssen sie möglicherweise auch Benutzern zugewiesen werden.
 
-  Wenn eine Aufgabe oder ein Problem einer oder mehreren Rollen zugewiesen ist und Sie dann auch einen Benutzer zuweisen, bestimmt Adobe Workfront gemäß den folgenden Regeln, welche Vorgangsrolle dem zusätzlichen Benutzer zugeordnet werden soll (falls vorhanden):
+  Wenn eine Aufgabe oder ein Problem einer oder mehreren Rollen zugewiesen ist und Sie dann auch einen Benutzer zuweisen, entscheidet Adobe Workfront gemäß den folgenden Regeln, welches Aufgabengebiet mit dem zusätzlichen Benutzer (falls vorhanden) verknüpft werden soll:
 
-   * Wenn nur eine Auftragsrolle zugewiesen ist und sie mit der Primären Rolle des Benutzers übereinstimmt, wird die Aufgabe bzw. das Problem nur dem Benutzer zugewiesen, der seine Primäre Rolle erfüllt.
-   * Wenn mehrere Rollen zugewiesen sind und mindestens eine der Rollen mit den sekundären Rollen des Benutzers übereinstimmt, wird die Aufgabe bzw. das Problem dem Benutzer zugewiesen, der eine seiner &quot;Sonstige Rollen&quot;(die Workfront zufällig auswählt, wenn mehrere Übereinstimmungen vorliegen) erfüllt, sowie allen weiteren zugewiesenen Rollen.
-   * Wenn eine oder mehrere Aufgabenrollen zugewiesen sind und die Benutzerrollen nicht übereinstimmen, wird die Aufgabe bzw. das Problem sowohl den Rollen oder Rollen als auch dem Benutzer zugewiesen.
+   * Wenn nur ein Aufgabengebiet zugewiesen ist und es mit der Primären Rolle des Benutzers übereinstimmt, wird die Aufgabe oder das Problem nur dem Benutzer zugewiesen, der seine Primäre Rolle erfüllt.
+   * Wenn mehrere Rollen zugewiesen sind und mindestens eine der Rollen mit den sekundären Rollen des Benutzers übereinstimmt, wird die Aufgabe oder das Problem dem Benutzer zugewiesen, der eine der anderen Rollen erfüllt (die Workfront zufällig auswählt, wenn mehrere Übereinstimmungen vorliegen), sowie allen zusätzlichen Rollen, die zugewiesen werden.
+   * Wenn mindestens ein Aufgabengebiet zugewiesen ist und es keine Übereinstimmungen mit den Rollen des Benutzers gibt, wird die Aufgabe oder das Problem sowohl der Rolle bzw. den Rollen als auch dem Benutzer zugewiesen.
 
-* Wenn eine Aufgabe oder ein Problem einem Team zugewiesen ist und Sie auch einen Benutzer zuweisen, bleibt die Aufgabe bzw. das Problem sowohl dem Team als auch dem Benutzer zugewiesen.
+* Wenn eine Aufgabe oder ein Problem einem Team zugewiesen wird und Sie auch einen Benutzer zuweisen, bleibt die Aufgabe oder das Problem sowohl dem Team als auch dem Benutzer zugewiesen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -108,67 +108,67 @@ Beachten Sie beim Zuweisen mehrerer Ressourcen zu einem Arbeitselement Folgendes
 </div>
 -->
 
-## Zuweisen eines einzelnen Problems
+## Einzelne Anfrage zuweisen
 
-1. Gehen Sie zu einem Problem, das Sie zuweisen möchten.
-1. Klicken Sie oben rechts in der Kopfzeile des Problems im Bereich **Zuweisungen** auf **Zuweisen zu** .
+1. Navigieren Sie zu einer Anfrage, die Sie zuweisen möchten.
+1. Klicken Sie **Zuweisen zu** in der oberen rechten Ecke der Problem-Kopfzeile im Bereich **Zuweisungen**
 
    Oder
 
-   Klicken Sie auf den Namen der aktuellen Zuweisungen, falls das Problem bereits zugewiesen wurde.
+   Klicken Sie auf den Namen der aktuellen Zuweisungen, wenn das Problem bereits zugewiesen ist.
 
-   ![Zuweisen zu Schaltfläche](assets/assign-to-button-in-header.png)
+   ![Schaltfläche „Zuweisen zu“](assets/assign-to-button-in-header.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie zuweisen möchten, und klicken Sie dann auf den Namen, wenn er/sie in der Liste angezeigt wird.
+   * Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams, den/das Sie zuweisen möchten, und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
 
      ![Zuweisungssuche](assets/smart-assignments-issue-header.png)
 
-   * (Bedingt) Klicken Sie auf einen der Namen, Rollen oder Teams in den verfügbaren Listen.
-   * Klicken Sie auf **Zuweisen** , um es sich selbst zuzuweisen.
+   * (Bedingt) Klicken Sie auf einen Namen, eine Rolle oder ein Team in den verfügbaren Listen
+   * Klicken Sie auf **Mir zuweisen**, um es sich selbst zuzuweisen
    * Klicken Sie auf **Erweitert**.
 
-     Das Erstellen erweiterter Zuweisungen ähnelt dem Erstellen von Aufgaben und Problemen. Informationen zum Erstellen erweiterter Zuweisungen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+     Das Erstellen erweiterter Zuweisungen funktioniert ähnlich für Aufgaben und Probleme. Informationen zum Erstellen erweiterter Zuweisungen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
      >[!TIP]
      >
      >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden.
      >
-     >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+     >Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.
      >
-     >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
+     >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Benutzern Zugriff gewähren](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md)
      >
 
      <!-- this doesn't apply to issues; if it does, add this to the TIP above: 
       ><span class="preview">When adding a job role assignment, you can search for the job role or location. Select a role from the Job roles list to use the default billing rate for the assignment, or select a Rate card job role to use the billing rate from the rate card. For more information on rate cards, see [Manage rate cards](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/manage-rate-cards.md).</span>-->
 
 
-1. Klicken Sie auf **Speichern** , um die Zuweisung des Problems abzuschließen.
-1. (Optional) Klicken Sie auf das Symbol **X** neben dem Namen der Zuweisungen im Bereich &quot;Zuweisungen&quot;in der Kopfzeile des Problems, um eine Zuweisung zu entfernen.
+1. Klicken Sie auf **Speichern**, um die Zuweisung des Problems abzuschließen.
+1. (Optional) Klicken Sie auf das **X**-Symbol neben dem Namen der Zuweisungen im Bereich „Zuweisungen“ in der Kopfzeile des Problems, um eine Zuweisung zu entfernen.
 
-## Zuweisen eines Problems in einer Liste
+## Problem in einer Liste zuweisen
 
-Sie können Probleme in einer Liste oder einem Bericht zuweisen, wenn eines der Zuweisungsfelder in der Listenansicht sichtbar ist. Auf diese Weise können Probleme schneller zugewiesen werden.
+Sie können Probleme in einer Liste oder einem Bericht zuweisen, wenn eines der Zuweisungsfelder in der Listenansicht sichtbar ist. Dies ist eine schnellere Möglichkeit, Probleme zuzuweisen.
 
 Je nachdem, welches Feld in der Ansicht sichtbar ist, können Sie dem Problem die folgenden Entitäten zuweisen:
 
-| Option | Zugewiesene Entitäten |
+| Option | Zugewiesene Einheiten |
 |---|---|
-| **Zuweisen zu** | Benutzer zuweisen |
-| **Zugeordnet** | Benutzer zuweisen |
-| **Arbeitsaufträge** | Weisen Sie Benutzer, Auftragsrollen oder Teams zu. |
+| **Zuweisen zu** | Einen Benutzer zuweisen |
+| **Zugewiesen** | Einen Benutzer zuweisen |
+| **Arbeitsaufträge** | Weisen Sie Benutzer, Aufgabengebiete oder Teams zu. |
 
 So weisen Sie Probleme in einer Liste zu:
 
-1. Rufen Sie eine Liste der Probleme auf, für die in der Ansicht die Felder &quot;Zugeordnet&quot;, &quot;Zugeordnet&quot;oder &quot;Zuweisungen&quot;vorhanden sind.
+1. Navigieren Sie zu einer Liste von Problemen, die die Felder Zugewiesen an, Zugewiesen oder Zuweisungen in der Ansicht enthält.
 1. Führen Sie einen der folgenden Schritte aus, um Probleme zuzuweisen:
 
-   * Klicken Sie in die Felder **Zugeordneter Benutzer** oder **Zugeordneter Benutzer** und geben Sie den Namen eines aktiven Benutzers ein, den Sie dem Problem zuweisen möchten, und klicken Sie dann auf ihn, wenn er in der Liste angezeigt wird.
+   * Klicken Sie in die Felder **Zugewiesen an** oder **Zugewiesen** und geben Sie den Namen eines aktiven Benutzers ein, den Sie dem Problem zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
      ![](assets/assigned-to-field-task-list-nwe.png)
 
-   * Klicken Sie in das Feld **Zuweisungen** und geben Sie den Namen eines aktiven Benutzers, einer aktiven Rolle oder eines aktiven Teams ein, das Sie dem Problem zuweisen möchten, und klicken Sie dann darauf, wenn es in der Liste angezeigt wird.
+   * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets oder eines aktiven Teams ein, den/das Sie dem Problem zuweisen möchten. Klicken Sie dann auf das Problem, wenn es in der Liste angezeigt wird.
 
      ![Zuweisungsfeld](assets/assignments-field-task-list-0424.png)
 
@@ -176,40 +176,40 @@ So weisen Sie Probleme in einer Liste zu:
    >
    >Beachten Sie beim Hinzufügen einer Benutzerzuweisung den Avatar, die Primäre Rolle des Benutzers oder seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden.
    >
-   >Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.
    >
-   >Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Bedingt) Wenn sie im Feld Zuweisungen sichtbar sind, klicken Sie auf das Symbol **Personen** ![](assets/teams.png) in der oberen rechten Ecke des Zuweisungsfelds, um das Feld &quot;Erweiterte Zuweisungen&quot;zu öffnen und erweiterte Zuweisungen zu erstellen. Weitere Informationen finden Sie unter [Erweiterte Zuweisungen erstellen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Bedingt) Wenn im Feld Arbeitsaufträge angezeigt, klicken Sie auf das **Personen** Symbol ![](assets/teams.png) in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Feld Erweiterte Arbeitsaufträge zu öffnen und erweiterte Arbeitsaufträge zu erstellen. Weitere Informationen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
-   >Sie können keine erweiterten Zuweisungen aus den Feldern Zugeordnet oder Zugeordnet vornehmen.
+   >Erweiterte Zuweisungen können nicht über die Felder Zugewiesen an oder Zugewiesen an vorgenommen werden.
 
 1. Nachdem Sie Ihre Bevollmächtigten zum Problem hinzugefügt haben, drücken Sie die Eingabetaste oder klicken Sie auf eine beliebige Stelle auf der Seite, um Ihre Änderungen zu speichern.
 
-## Zuweisen von Problemen in großen Mengen
+## Probleme stapelweise zuweisen
 
-1. Gehen Sie zu einer Liste der Probleme, die Sie stapelweise zuweisen möchten.
+1. Navigieren Sie zu einer Liste von Problemen, die Sie stapelweise zuweisen möchten.
 1. Wählen Sie mehrere Probleme in der Liste aus.
-1. Klicken Sie auf das Symbol **Bearbeiten** ![](assets/qs-edit-icon.png).
+1. Klicken Sie auf **Bearbeiten-Symbol** ![](assets/qs-edit-icon.png).
 
-   Das Dialogfeld **Probleme bearbeiten** wird geöffnet.
+   Das **„Anfragen bearbeiten** wird geöffnet.
 
-1. Wählen Sie im Bereich **Zuweisungen** das Feld **Bevollmächtigter** aus und geben Sie dann den Namen eines Benutzers, einer Rolle oder eines Teams ein, die bzw. das Sie allen Problemen zuweisen möchten.
+1. Wählen Sie im Bereich **Arbeitsaufträge** das Feld **Verantwortlicher** aus und geben Sie dann den Namen eines Benutzers, eines Aufgabengebiets oder Teams ein, das Sie allen Problemen zuweisen möchten.
 
    >[!IMPORTANT]
    >
-   >Wenn eines der Probleme bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Problemen hinzugefügt, anstatt die vorhandenen Ressourcen zu den Problemen zu ersetzen.
+   >Wenn eines der Probleme bereits zugewiesen ist, werden die hier angegebenen Ressourcen zu den Problemen hinzugefügt, anstatt die vorhandenen Ressourcen in den Problemen zu ersetzen.
 
-1. (Optional) Wählen Sie das Optionsfeld in der Spalte **Eigentümer des Problems** aus, um anzugeben, welche Ressource der primäre Verantwortliche oder Eigentümer des Problems ist, wenn Sie dem Problem mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
-1. (Optional) Wählen Sie im Dropdownmenü **Rolle auswählen** in der Spalte **Rolle des Bevollmächtigten** eine Rolle aus, die der Benutzer für das Problem erfüllen soll, wenn Sie Benutzern Probleme zuweisen. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
+1. (Optional) Wählen Sie das Optionsfeld in der Spalte **Problembesitzer** aus, um anzugeben, welche Ressource der primäre Zugewiesene oder der Inhaber des Problems ist, wenn Sie dem Problem mehr als eine Ressource zuweisen. Dies ist nicht für Teams verfügbar.
+1. (Optional) Wählen Sie aus dem Dropdown-Menü **Rolle auswählen** in der Spalte „Rolle des ****&quot; eine Rolle aus, die der Benutzer bei der Problemzuweisung erfüllen soll. Wenn Sie keine Rolle auswählen, wählt Workfront automatisch die Primäre Rolle des Benutzers aus.
 
-1. (Optional) Wenn Sie vorhandene Bevollmächtigte aus allen Problemen entfernen möchten, führen Sie einen der folgenden Schritte aus:
+1. (Optional) Wenn Sie vorhandene Zugewiesene aus allen Problemen entfernen möchten, führen Sie einen der folgenden Schritte aus:
 
-   1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams, den Sie aus dem Problem entfernen möchten, wählen Sie ihn aus, wenn er in der Liste angezeigt wird, und klicken Sie auf **Zuweisung entfernen** , um weitere zu entfernende Bevollmächtigte hinzuzufügen.
-   1. Klicken Sie auf **Alle vorhandenen Zuweisung entfernen** , um alle Bevollmächtigten aus allen ausgewählten Problemen zu entfernen.
+   1. Beginnen Sie mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams, den/das Sie aus dem Problem entfernen möchten, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie auf **Verantwortlichen entfernen**, um weitere Verantwortliche zum Entfernen hinzuzufügen.
+   1. Klicken Sie **Alle vorhandenen Zugewiesenen entfernen**, um alle Zugewiesenen aus allen ausgewählten Problemen zu entfernen.
 
-1. Klicken Sie auf **Änderungen speichern**.
-1. (Optional und bedingt) Wenn die Felder Zugeordnet oder Zuweisungen in Ihrer Liste der Probleme angezeigt werden, klicken Sie in eine dieser Spalten für ein Problem und klicken Sie dann auf das Symbol **X** neben dem Namen eines Empfängers, um es aus dem Problem zu entfernen.
+1. Klicken Sie **Änderungen speichern**.
+1. (Optional und bedingt) Wenn die Felder Zugewiesen an oder Zuweisungen in Ihrer Problemliste angezeigt werden, klicken Sie in eine dieser Spalten für ein Problem, und klicken Sie dann auf das **X-Symbol** neben dem Namen eines Verantwortlichen, um es aus dem Problem zu entfernen.

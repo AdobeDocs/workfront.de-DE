@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-issues
-title: Probleme in einer Liste bearbeiten
-description: Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Problemliste oder einem Bericht bearbeiten. In diesem Artikel wird beschrieben, wie Sie Probleme in Listen bearbeiten.
+title: Anfragen in einer Liste bearbeiten
+description: Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Problemliste oder einem Bericht bearbeiten. In diesem Artikel wird beschrieben, wie Probleme in Listen bearbeitet werden.
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
@@ -13,15 +13,15 @@ ht-degree: 1%
 
 ---
 
-# Probleme in einer Liste bearbeiten
+# Anfragen in einer Liste bearbeiten
 
-Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Problemliste oder einem Bericht bearbeiten. In diesem Artikel wird beschrieben, wie Sie Probleme in Listen bearbeiten.
+Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Problemliste oder einem Bericht bearbeiten. In diesem Artikel wird beschrieben, wie Probleme in Listen bearbeitet werden.
 
 Informationen zum Bearbeiten eines einzelnen Problems finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Aktionen in diesem Artikel durchzuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Aktionen in diesem Artikel auszuführen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,103 +29,103 @@ Sie müssen über folgenden Zugriff verfügen, um die Aktionen in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung oder höher</p> <p>Überprüfen Sie die Lizenz oder eine höhere Lizenz, um Probleme im Abschnitt Probleme eines Projekts zu bearbeiten.</p> </td> 
+   <td> <p>Anfrage oder höher</p> <p>Überprüfen Sie die Lizenz oder eine höhere Lizenz zur Bearbeitung von Problemen im Abschnitt „Probleme“ eines Projekts.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme bearbeiten</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Anfragen bearbeiten</p> <p>Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen für das Problem</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Problem freigeben </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Contribute oder höhere Berechtigungen für das Problem</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Inline-Bearbeitungsprobleme
+## Probleme bei der Inline-Bearbeitung
 
-Sie können die Probleminformationen in einer Liste von Problemen bearbeiten, indem Sie in der Listenansicht angezeigte Inline-Bearbeitungsfelder verwenden.
+Sie können Anfrageinformationen in einer Anfrageliste bearbeiten, indem Sie die in der Listenansicht angezeigten Felder inline bearbeiten.
 
 Beachten Sie beim Bearbeiten von Problemen in einer Liste Folgendes:
 
-* Sie können jedes Problemfeld bearbeiten, das in der Liste angezeigt wird und das Sie aktualisieren können.
+* Sie können jedes Problemfeld bearbeiten, das in der Liste angezeigt wird und für das Sie über die Berechtigung zum Aktualisieren verfügen.
 * Sie können ein Problem in den folgenden Listen bearbeiten:
 
-   * Der Abschnitt Probleme eines Projekts oder einer Aufgabe
-   * Problembericht
+   * Der Abschnitt „Probleme“ eines Projekts oder einer Aufgabe
+   * Anfragebericht
 
 So bearbeiten Sie ein Problem inline:
 
-1. Navigieren Sie zu einer Liste der Probleme in einem Projekt oder einer Aufgabe.
-1. Klicken Sie in jedes Feld, das Sie manuell aktualisieren können. Das Feld wird bearbeitbar und Sie können Ihre Änderungen vornehmen.
+1. Navigieren Sie zu einer Liste von Problemen in einem Projekt oder einer Aufgabe.
+1. Klicken Sie in ein Feld, für das Sie über die Berechtigung zum manuellen Aktualisieren verfügen. Das Feld kann nun bearbeitet werden, und Sie können Ihre Änderungen vornehmen.
 
    ![](assets/edit-issues-inline-350x34.png)
 
 1. Drücken Sie die Eingabetaste, wenn Sie Ihre Änderungen akzeptieren möchten. Änderungen werden sofort gespeichert.
 
-   Weitere Informationen zur Inline-Bearbeitung von Objekten finden Sie unter [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
+   Informationen zur Inline-Bearbeitung von Objekten finden Sie unter [Inline-Bearbeitung von Elementen in einer Liste in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/inline-edit-objects.md).
 
-## Probleme in einer Liste bearbeiten
+## Anfragen in einer Liste bearbeiten
 
-1. Navigieren Sie zu einer Liste der Probleme in einem Projekt oder einer Aufgabe.
+1. Navigieren Sie zu einer Liste von Problemen in einem Projekt oder einer Aufgabe.
 1. Führen Sie einen der folgenden Schritte aus
 
-   * Wählen Sie das Problem in der Liste aus und klicken Sie dann in der Symbolleiste auf das Symbol Bearbeiten ![](assets/qs-edit-icon.png) .
-   * Klicken Sie auf das Menü **Mehr** ![](assets/more-icon-task-list.png) rechts neben dem Namen des Problems und dann auf **In einer neuen Registerkarte öffnen**. Dadurch wird die Seite mit dem Problem in einer neuen Registerkarte geöffnet. Klicken Sie auf der Problemseite auf **Mehr** > **Bearbeiten** .
-   * Klicken Sie auf das Menü **Mehr** ![](assets/more-icon-task-list.png) rechts neben dem Namen des Problems und klicken Sie dann auf **Bearbeiten**.
+   * Wählen Sie das Problem in der Liste aus und klicken Sie dann in der Symbolleiste auf Symbol bearbeiten ![](assets/qs-edit-icon.png).
+   * Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon-task-list.png) rechts neben dem Problemnamen und dann auf **In neuer Registerkarte öffnen**. Dadurch wird die Problemseite in einer neuen Registerkarte geöffnet. Klicken Sie auf **Mehr** > **Bearbeiten** auf der Problemseite.
+   * Klicken Sie auf das **Mehr** Menü ![](assets/more-icon-task-list.png) rechts neben dem Problemnamen und dann auf **Bearbeiten**.
 
-     Mit jeder dieser Aktionen wird das Feld Problem bearbeiten geöffnet.
+     Bei jeder dieser Aktionen wird das Feld „Problem bearbeiten“ geöffnet.
 
-     Informationen zu Bearbeitungsproblemen im Feld &quot;Problem bearbeiten&quot;finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
+     Informationen zum Bearbeiten von Problemen im Feld „Problem bearbeiten“ finden Sie unter [Probleme bearbeiten](../../../manage-work/issues/manage-issues/edit-issues.md).
 
-## Probleme mithilfe der Zusammenfassung bearbeiten
+## Anfragen mithilfe der Zusammenfassung bearbeiten
 
 Sie können ein Problem in einer Liste mithilfe der Zusammenfassung bearbeiten.
 
-1. Wechseln Sie zu dem Projekt, dessen Probleme Sie bearbeiten möchten.
-1. Klicken Sie im linken Bereich auf **Probleme** .
+1. Gehen Sie zum Projekt, dessen Probleme Sie bearbeiten möchten.
+1. Klicken Sie **linken** auf „Probleme“.
 
    Die Liste der Probleme im Projekt wird angezeigt.
 
-1. Wählen Sie ein Problem aus, das Sie bearbeiten möchten, und klicken Sie dann oben rechts in der Problemliste auf das Symbol **Zusammenfassung öffnen** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) .
+1. Wählen Sie ein Problem aus, das Sie bearbeiten möchten, und klicken Sie dann auf **Symbol „Zusammenfassung öffnen** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in der rechten oberen Ecke der Problemliste.
 
    Die **Zusammenfassung** wird geöffnet.
 
-1. (Optional) Beginnen Sie mit der Eingabe eines Updates für das Problem im Bereich **Aktualisierungen** .
-1. Klicken Sie auf eines der folgenden Symbole oder Bereiche, um zum Problem zu gelangen und Informationen auf der Problemebene zu bearbeiten:
+1. (Optional) Beginnen Sie mit der Eingabe einer Aktualisierung für das Problem im Bereich **Updates**.
+1. Klicken Sie auf eines der folgenden Symbole oder Bereiche, um zu dem Problem zu wechseln und Informationen auf Anfrageebene zu bearbeiten:
 
-   | Dokumente | Klicken Sie auf **Klicken Sie hier, um** hinzuzufügen und dem Problem Dokumente hinzuzufügen. |
+   | Dokumente | Klicken Sie **Zum Hinzufügen hier klicken**, um dem Problem Dokumente hinzuzufügen. |
    |---|---|
-   | Details | Klicken Sie auf , um Informationen zum Problem zu aktualisieren. |
-   | Stunden | Klicken Sie auf , um die Stunden zu protokollieren. |
-   | Genehmigungen | Klicken Sie auf , um Problemgenehmigungen hinzuzufügen. |
+   | Details | Klicken, um Informationen zum Problem zu aktualisieren. |
+   | Stunden | Klicken, um Stunden einzutragen. |
+   | Genehmigungen | Klicken, um Problemgenehmigungen hinzuzufügen. |
 
-1. (Optional) Klicken Sie erneut auf das Symbol &quot;**Zusammenfassung öffnen**&quot;oder das Symbol &quot;**X&quot;** oben rechts in der Zusammenfassung, um den Bereich zu schließen und das Problem inline zu bearbeiten.
+1. (Optional) Klicken Sie erneut auf **Zusammenfassung öffnen** oder auf das **X** Symbol oben rechts in der Zusammenfassung, um das Bedienfeld zu schließen und das Problem inline zu bearbeiten.
 
-## Probleme stapelweise bearbeiten
+## Anfragen stapelweise bearbeiten
 
-Sie können Probleme in großen Mengen bearbeiten und alle zugehörigen Informationen gleichzeitig aktualisieren.
+Sie können Probleme stapelweise bearbeiten und alle zugehörigen Informationen gleichzeitig aktualisieren.
 
 So bearbeiten Sie Probleme stapelweise:
 
-1. Wechseln Sie zum **Hauptmenü**.
+1. Navigieren Sie zum **Hauptmenü**.
 1. Klicken Sie auf **Projekte**.
 1. Klicken Sie auf einen Projektnamen, um auf das Projekt zuzugreifen.
-1. Klicken Sie im linken Bereich auf **Probleme** .
+1. Klicken Sie **linken** auf „Probleme“.
 1. Wählen Sie mehrere Probleme in der Liste aus.
-1. Klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie auf **Symbol** Bearbeiten![](assets/edit-icon.png).
 
-   Das Dialogfeld **Probleme bearbeiten** wird geöffnet.
+   Das **„Anfragen bearbeiten** wird geöffnet.
 
-1. Geben Sie Informationen zu allen ausgewählten Problemen an.
+1. Geben Sie die Informationen zu allen ausgewählten Problemen an.
 
-   Die Informationen zu allen Problemen werden bei der Bearbeitung der folgenden Bereiche mit den Informationen zu einem Problem bearbeitet:
+   Die Bearbeitung der Informationen zu allen Problemen ist identisch mit der Bearbeitung von Informationen zu einem Problem bei der Bearbeitung der folgenden Bereiche:
 
    * Übersicht
    * Einstellungen
@@ -136,15 +136,15 @@ So bearbeiten Sie Probleme stapelweise:
 
    >[!NOTE]
    >
-   >Die Informationen, die Sie für alle ausgewählten Probleme ändern, überschreiben die vorhandenen Informationen zu einzelnen Problemen mit Ausnahme des Felds **Zuweisungen** . Durch das Hinzufügen eines neuen Verantwortlichen zur Massenbearbeitung wird dieser Verantwortliche zu allen ausgewählten Problemen hinzugefügt. Wenn den ausgewählten Problemen andere Bevollmächtigte zugewiesen sind, bleiben sie zusätzlich zu dem über die Massenbearbeitung hinzugefügten zugewiesen.
+   >Die Informationen, die Sie zu allen ausgewählten Problemen ändern, überschreiben die vorhandenen Informationen zu einzelnen Problemen, mit Ausnahme des Felds **Arbeitsaufträge**. Wenn Sie einen neuen Verantwortlichen in der Massenbearbeitung hinzufügen, wird dieser Verantwortliche allen ausgewählten Problemen hinzugefügt. Wenn den ausgewählten Problemen andere Bearbeiter zugewiesen sind, bleiben diese zusätzlich zu dem Bearbeiter, der durch Massenbearbeitung hinzugefügt wurde, zugewiesen.
 
-1. Klicken Sie auf **Benutzerdefinierter Forms** , um die benutzerdefinierten Formulare zu bearbeiten, die an alle ausgewählten Probleme angehängt sind.
+1. Klicken Sie **Benutzerdefinierte Forms**, um die benutzerdefinierten Formulare zu bearbeiten, die an alle ausgewählten Probleme angehängt sind.
 
-   Wenn die ausgewählten Probleme keine gemeinsamen benutzerdefinierten Formulare haben, werden in diesem Abschnitt keine Formulare aufgeführt.
+   Wenn die ausgewählten Probleme keine gemeinsamen benutzerdefinierten Formulare haben, werden in diesem Abschnitt keine Formulare aufgelistet.
 
-   Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Probleme angehängt sind und die Sie bearbeiten können.
+   Sie können nur die Felder in den Formularen bearbeiten, die an alle ausgewählten Probleme angehängt sind und für die Sie über die Berechtigung zum Bearbeiten verfügen.
 
-1. (Optional) Wählen Sie im Bereich **Benutzerdefinierte Forms** die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder, die sich im benutzerdefinierten Forms befinden, das den ausgewählten Problemen angehängt ist, aktuell sind.
+1. (Optional) Wählen Sie im Bereich **Benutzerdefinierte Forms** die Option **Benutzerdefinierte Ausdrücke neu berechnen** aus, um sicherzustellen, dass alle berechneten benutzerdefinierten Felder in der benutzerdefinierten Forms, die an die ausgewählten Probleme angehängt sind, auf dem neuesten Stand sind.
 
    >[!IMPORTANT]
    >
@@ -152,4 +152,4 @@ So bearbeiten Sie Probleme stapelweise:
 
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Alle von Ihnen vorgenommenen Änderungen sind jetzt bei allen ausgewählten Problemen sichtbar.
+   Alle von Ihnen vorgenommenen Änderungen sind jetzt für alle ausgewählten Probleme sichtbar.

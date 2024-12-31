@@ -1,7 +1,7 @@
 ---
 navigation-topic: business-case-and-scorecards
-title: Haushaltsmittel im Geschäftsfall
-description: Im Rahmen der Ressourcenplanung können Sie beim Erstellen des Geschäftsszenarios die für das Abschließen der Arbeit in einem Projekt erforderlichen Vorgangsrollen einplanen. Weitere Informationen zum Erstellen eines Geschäftsfeldes finden Sie unter Erstellen eines Geschäftsfeldes für ein Projekt .
+title: Budgetressourcen im Business Case
+description: Im Rahmen der Ressourcenplanung können Sie die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt erforderlich sind, wenn Sie den Business Case erstellen. Weitere Informationen zum Erstellen eines Business-Case finden Sie unter Erstellen eines Business-Case für ein Projekt .
 author: Alina
 feature: Work Management
 exl-id: 85aa13c7-e48d-4b8c-89f7-1ba7f66670b0
@@ -12,25 +12,25 @@ ht-degree: 0%
 
 ---
 
-# Haushaltsmittel im Geschäftsfall
+# Budgetressourcen im Business Case
 
-Im Rahmen der Ressourcenplanung können Sie beim Erstellen des Geschäftsszenarios die für das Abschließen der Arbeit in einem Projekt erforderlichen Vorgangsrollen einplanen. Weitere Informationen zum Erstellen eines Geschäftsszenarios finden Sie unter [Erstellen eines Geschäftsszenarios für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Im Rahmen der Ressourcenplanung können Sie die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt erforderlich sind, wenn Sie den Business Case erstellen. Weitere Informationen zum Erstellen eines Business-Case finden Sie unter [Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
 >[!NOTE]
 >
->Die Budgetierung von Ressourcen entspricht nicht der Planung von Ressourcen für ein Projekt. Wenn Sie Ressourcen mit Budget versehen, schätzen Sie die Rollen, die zum Abschließen der Arbeit an einem Projekt erforderlich sein könnten. Informationen zum Planen oder Zuweisen von Benutzern zur Arbeit an einem Projekt finden Sie unter [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>Die Budgetierung von Ressourcen ist nicht dasselbe wie die Planung von Ressourcen für ein Projekt. Beim Budgetieren von Ressourcen schätzen Sie die Rollen, die möglicherweise zum Abschließen der Arbeit an einem Projekt erforderlich sind. Informationen zum tatsächlichen Planen oder Zuweisen von Benutzern für die Arbeit an einem Projekt finden Sie unter [Verwalten von Benutzerzuweisungen im Workload Balancer](../../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
-Sie müssen dem Projekt Vorgangsrollen zuweisen, bevor Sie die Ressourcen dafür einsetzen können. Im Folgenden finden Sie Möglichkeiten, einem Projekt Vorgangsrollen zuzuweisen:
+Sie müssen dem Projekt Aufgabengebiete zuordnen, bevor Sie die Ressourcen dafür budgetieren können. Im Folgenden finden Sie Möglichkeiten, einem Projekt Aufgabengebiete zuzuweisen:
 
-* Verwenden Sie den Ressourcen-Planer, um Ressourcenpools auf die Projekt- und Budgetauftragsrollen anzuwenden.
+* Verwenden Sie den Ressourcenplaner, um Ressourcenpools auf die Projekt- und Budgetaufgabengebiete anzuwenden.
 
-  Weitere Informationen finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Resource Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+  Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Ressourcenplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-* Verwenden Sie den Szenario-Planer, um Initiativen mit den erforderlichen Arbeitsplatzrollen zu erstellen und sie mit dem Projekt zu verknüpfen. Weitere Informationen finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
+* Verwenden Sie den Szenario-Planer, um Initiativen mit erforderlichen Aufgabengebieten zu erstellen und sie mit dem Projekt zu verknüpfen. Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md) .
 
   >[!NOTE]
   >
-  >Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+  >Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:ALL content below has been moved to another article - we now have two "how to" budget in the business case: one for the resource planner and one of the scenario planner)</p>

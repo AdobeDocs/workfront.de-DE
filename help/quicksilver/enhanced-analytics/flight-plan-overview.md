@@ -1,9 +1,9 @@
 ---
-title: Anzeigen der Visualisierung des Flugplans in der erweiterten Analyse
+title: Anzeigen der Flugplanvisualisierung in Enhanced Analytics
 content-type: overview
 product-area: enhanced-analytics
 navigation-topic: enhanced-analytics-navigation-topic
-description: Die Visualisierung des Flugplans zeigt, wie viele Projekte (innerhalb der angewandten Filterkriterien) abgewickelt wurden, welche Bedingungsänderungen während der gesamten Laufzeit dieser Projekte eingetreten sind und wie eng diese Projekte an die geplanten Fertigstellungsfristen gebunden waren.
+description: Die Flugplan-Visualisierung zeigt, wie viele Projekte (innerhalb der angewendeten Filterkriterien) in Bearbeitung waren, welche Zustandsänderungen während der Laufzeit dieser Projekte eingetreten sind und wie gut diese Projekte die geplanten Fertigstellungsfristen eingehalten haben.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
@@ -14,9 +14,9 @@ ht-degree: 4%
 
 ---
 
-# Anzeigen der Visualisierung des Flugplans in der erweiterten Analyse
+# Anzeigen der Flugplanvisualisierung in Enhanced Analytics
 
-Die Visualisierung des Flugplans zeigt, wie viele Projekte (innerhalb der angewandten Filterkriterien) abgewickelt wurden, welche Bedingungsänderungen während der gesamten Laufzeit dieser Projekte eingetreten sind und wie eng diese Projekte an die geplanten Fertigstellungsfristen gebunden waren.
+Die Flugplan-Visualisierung zeigt, wie viele Projekte (innerhalb der angewendeten Filterkriterien) in Bearbeitung waren, welche Zustandsänderungen während der Laufzeit dieser Projekte eingetreten sind und wie gut diese Projekte die geplanten Fertigstellungsfristen eingehalten haben.
 
 ![](assets/flight-plan-350x132.png)
 
@@ -37,91 +37,91 @@ Sie müssen über Folgendes verfügen:
    <td> <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt.<br>Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat.<br>Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das Projekt anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen des Zugriffs auf das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Voraussetzungen
 
-Voraussetzungen für die Verwendung von Enhanced Analytics finden Sie im Abschnitt &quot;Voraussetzungen&quot;in der [Übersicht über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
+Voraussetzungen für die Verwendung der erweiterten Analyse finden Sie im Abschnitt „Voraussetzungen“ in [Übersicht über die erweiterte Analyse](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Visualisierung des Flugplans
+## Grundlegendes zur Visualisierung des Flugplans
 
-In der tatsächlichen Dauer eines Projekts sehen Sie nur die folgenden Projektbedingungen:
+In der tatsächlichen Dauer eines Projekts können Sie nur die folgenden Projektbedingungen sehen:
 
 * Im Zielbereich
 * Gefährdet
 * In Schwierigkeiten
 
-Weitere Informationen zu Projektbedingungen finden Sie unter [Überblick über Projektbedingungen und Bedingungstyp](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
+Weitere Informationen zu Projektbedingungen finden Sie unter [Übersicht über Projektbedingungen und Bedingungstyp](../manage-work/projects/manage-projects/project-condition-and-condition-type.md).
 
-Die Visualisierung des Flugplans zeigt die folgenden Projektdetails an:
+Die Flugplan-Visualisierung zeigt die folgenden Projektdetails:
 
-* **Geplante Dauer**: Die horizontale blaue Linie stellt die geplante Länge des Projekts dar, wobei die Dreiecke an beiden Enden der Zeile das Start- und Enddatum angeben.
+* **Geplante Dauer**: Die horizontale blaue Linie stellt die geplante Länge des Projekts dar, wobei die Dreiecke an jedem Ende der Linie das Start- und Enddatum angeben.
 
   ![](assets/planned-duration-line-350x37.png)
 
-* **Tatsächliche Dauer**: Die dicke, farbige Linie unterhalb der geplanten Dauer stellt die tatsächliche Länge des Projekts dar. Die Farbe der Linie hängt von der Bedingung des Projekts zu dem bestimmten Zeitpunkt während der Projektlaufzeit ab.
+* **Tatsächliche Dauer**: Die dicke, farbige Linie unterhalb der geplanten Dauer stellt die tatsächliche Länge des Projekts dar. Die Farbe der Linie ändert sich je nach dem Zustand des Projekts zu einem bestimmten Zeitpunkt in der Lebensdauer des Projekts.
 
   ![](assets/actual-duration-line.png)
 
-* **Tatsächliche Bedingung**: Die dicke, farbige Linie zeigt auch die Bedingung eines Projekts zu unterschiedlichen Zeitpunkten an. Die Farbe der Zeile ändert sich je nach Projektbedingung:
+* **Tatsächlicher Zustand**: Die dicke, farbige Linie zeigt auch den Zustand eines Projekts zu verschiedenen Zeitpunkten an. Die Farbe der Linie ändert sich je nach Zustand des Projekts:
 
-   * **grün**: In Target
-   * **Orange**: Risiko
+   * **grün**: am Ziel
+   * **orange**: Gefährdet
    * **Rot**: In Schwierigkeiten
 
   ![](assets/actual-condition-color.png)
 
-Wenn Sie in der Visualisierung des Flugplans mit dem Mauszeiger über eine Projektzeile fahren, werden Informationen zum geplanten Zeitrahmen des Projekts, zur aktuellen Projektbedingung und - falls zutreffend - zur benutzerdefinierten Bedingung angezeigt. Um einen tieferen Überblick darüber zu erhalten, was sich auf die Dauer oder Bedingung ausgewirkt haben könnte, können Sie sich die anderen Visualisierungen im Bereich &quot;Erweiterte Analyse&quot;ansehen.
+Wenn Sie den Mauszeiger über eine Projektzeile in der Flugplanvisualisierung bewegen, können Sie Informationen zum geplanten Zeitrahmen des Projekts, zur aktuellen Projektbedingung und ggf. zur benutzerdefinierten Bedingung anzeigen. Um einen detaillierteren Überblick darüber zu erhalten, was sich auf die Dauer oder Bedingung ausgewirkt haben könnte, können Sie sich die anderen Visualisierungen im Bereich Erweiterte Analyse ansehen.
 
 Anhand dieser Informationen können Sie Folgendes feststellen:
 
-* Welche Ereignisse verlängern ein Projekt über das ursprünglich geplante Abschlussdatum hinaus.
+* Welche Ereignisse erstrecken sich auf ein Projekt, das über das ursprünglich geplante Abschlussdatum hinausgeht?
 * Wann ein Projekt anfängt, Probleme zu machen.
 * Wie viele Projekte im gleichen Zeitraum offen sind.
 * Wie viele Projekte aktiv sind.
 * Welche Projekte besondere Aufmerksamkeit oder Unterstützung benötigen.
 
-Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Überblick über erweiterte Analysen](../enhanced-analytics/enhanced-analytics-overview.md).
+Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie unter [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
-## Visualisierung des Flugplans anzeigen
+## Flugplan-Visualisierung anzeigen
 
-1. Klicken Sie auf das Symbol **Hauptmenü** ![](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics** aus.
-1. (Optional) Wenn Sie einen anderen Datumsbereich verwenden möchten, wählen Sie im Filter für den Datumsbereich die neuen Start- und Enddaten aus.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics** aus.
+1. (Optional) Um einen anderen Datumsbereich zu verwenden, wählen Sie im Datumsbereichsfilter Neues Start- und Enddatum aus.
 
    ![](assets/filters-select-date-range-350x344.png)
 
-   Informationen zur Verwendung des Datumsbereichfilters finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Informationen zur Verwendung des Filters für den Datumsbereich finden Sie unter [Anwenden von Filtern in der erweiterten Analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-1. (Bedingt) Wenn Sie den Projektdatensatz einschränken müssen, wählen Sie die Filter aus, die Sie verwenden möchten, und wenden Sie sie an.
+1. (Bedingt) Wenn Sie den Projektdatensatz einschränken müssen, wählen Sie die gewünschten Filter aus und wenden Sie sie an.
 
-   Weitere Informationen zum Hinzufügen von Filtern in Enhanced Analytics finden Sie unter [Anwenden von Filtern in Enhanced Analytics](../enhanced-analytics/use-enhanced-analytics-filters.md).
+   Weitere Informationen zum Hinzufügen von Filtern in der erweiterten Analyse finden Sie unter [Anwenden von Filtern in der erweiterten Analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
-   Nach dem Hinzufügen von Filtern werden Daten für bis zu 50 Projekte angezeigt und die Filter bleiben auch dann aktiv, wenn Sie die Seite verlassen oder sich von Workfront abmelden.
+   Nachdem Sie Filter hinzugefügt haben, werden Daten für bis zu 50 Projekte angezeigt und die Filter bleiben auch dann aktiv, wenn Sie die Seite verlassen oder sich von Workfront abmelden.
 
-1. (Optional) Wenn Sie einen Datumsbereich vergrößern möchten, wählen Sie einen Punkt auf der Visualisierung für den Anfang Ihres Datumsbereichs aus und ziehen Sie ihn an das Ende Ihres Datumsbereichs.
+1. (Optional) Um einen Datumsbereich heranzuzoomen, wählen Sie einen Punkt auf der Visualisierung für den Beginn Ihres Datumsbereichs und ziehen Sie ihn an das Ende Ihres Datumsbereichs.
 
-   Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und es wird ein Zeitrahmen-Filter erstellt.
+   Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und ein Zeitrahmenfilter wird erstellt.
 
    ![](assets/timeframe-filter-350x220.png)
 
-1. (Optional) Um die Sortierung der Projekte zu ändern, klicken Sie oben rechts in der Visualisierung des Flugplans auf das Menü **Sortieren nach** und wählen Sie dann eine neue Sortieroption aus:
+1. (Optional) Um zu ändern, wie die Projekte sortiert werden, klicken Sie auf **Menü** Sortieren nach“ in der oberen rechten Ecke der Flugplanvisualisierung und wählen Sie dann eine neue Sortieroption aus:
 
    * **A - Z**
    * **Z - A**
    * **Geplantes Abschlussdatum**
    * **Geplantes Startdatum**
 
-   Alle anderen Visualisierungen auf der Seite werden entsprechend Ihrer Sortierungsauswahl aktualisiert.
+   Alle anderen Visualisierungen auf der Seite werden aktualisiert, damit sie Ihrer Sortierauswahl entsprechen.
 
 1. (Bedingt) Wenn Ihr Datensatz mehr als 50 Projekte enthält, können Sie mit den Pfeilen in der linken unteren Ecke der Visualisierung von einer Gruppe von 50 Projekten zur nächsten navigieren.
 
@@ -129,21 +129,21 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    ![](assets/pagination-350x118.png)
 
-1. Bewegen Sie den Mauszeiger über das Diagramm der Projektleiste, um die blaue Datumszeile sowie die folgenden Details anzuzeigen:
+1. Bewegen Sie den Mauszeiger über das Projektbalkendiagramm, um die blaue Datumslinie sowie die folgenden Details anzuzeigen:
 
-   * Geplante Zeitleiste
+   * Geplanter Zeitplan
    * Aktuelle Bedingung
    * Benutzerdefinierte Bedingung (falls zutreffend)
 
    ![](assets/project-bar-graph-350x143.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie oben rechts in der Visualisierung auf das Symbol **Export** ![](assets/export.png) und wählen Sie dann das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf **Exportieren**-Symbol ![](assets/export.png) in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**
 
-1. Um weitere Projektinformationen anzuzeigen, klicken Sie auf ein Projekt in der Visualisierung, um die Aufschlüsselung und Aufgaben in den Flugvisualisierungen zu öffnen.
+1. Um weitere Projektinformationen anzuzeigen, klicken Sie in der Visualisierung auf ein Projekt, um den Burndown und die Aufgaben in Flugvisualisierungen zu öffnen.
 
-   Diese Visualisierungen können Ihnen dabei helfen, tiefere Einblicke in die Gründe zu erhalten, durch die das Projekt aus der Bahn gelaufen ist. Sie machen es auch einfach, in einem laufenden Projekt einzuchecken.\
-   Weitere Informationen zur Aufschlüsselungsvisualisierung finden Sie unter [Anzeigen der Aufschlüsselungsvisualisierung in Enhanced Analytics](../enhanced-analytics/burndown-overview.md). Weitere Informationen zu den Aufgaben in der Flugvisualisierung finden Sie unter [Aufgaben in der Flugvisualisierung in erweiterten Analysen anzeigen](../enhanced-analytics/tasks-in-flight-overview.md).
+   Diese Visualisierungen können Ihnen dabei helfen, tiefere Einblicke zu erhalten, was dazu geführt hat, dass das Projekt aus dem Gleis geraten ist. Außerdem können Sie damit problemlos in ein laufendes Projekt einchecken.\
+   Weitere Informationen zur Burndown-Visualisierung finden Sie unter [Anzeigen der Burndown-Visualisierung in Enhanced Analytics](../enhanced-analytics/burndown-overview.md). Weitere Informationen zu den Aufgaben in der Flugvisualisierung finden Sie unter [Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics](../enhanced-analytics/tasks-in-flight-overview.md).
 

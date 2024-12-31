@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: work-in-an-agile-environment
-title: Verwalten des Agile-Rückprotokolls
-description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem Backlog dieses Teams je nach der vom Team verwendeten agilen Methode als Meldungen hinzugefügt werden.
+title: Verwalten des Agile-Rückstands
+description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem Rückstand dieses Teams als Geschichten hinzugefügt werden, je nach der agilen Methodik, die das Team verwendet.
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
@@ -13,22 +13,22 @@ ht-degree: 0%
 
 ---
 
-# Verwalten des agilen Rückprotokolls
+# Verwalten des agilen Rückstands
 
-Die folgenden Arbeitselemente können einem agilen Team zugewiesen und diesem Team je nach der vom Team verwendeten agilen Methode als Meldungen hinzugefügt werden:
+Die folgenden Arbeitselemente können einem agilen Team zugewiesen und dem Rückstand dieses Teams als Geschichten hinzugefügt werden, je nach der agilen Methodik, die das Team verwendet:
 
-* **[!UICONTROL Trommelteams ]:** Aufgaben und Probleme können dem agilen Team zugewiesen und dem Rückstand hinzugefügt werden.
-* **[!UICONTROL Kanban agile teams]:** Aufgaben können dem agilen Team zugewiesen und dem Rückstand hinzugefügt werden. Benutzer können den Rückstand direkt aus dem agilen Storyboard anzeigen, wie unter [[!UICONTROL Den Rückstand hinzufügen] zum Kanban-Forum hinzufügen](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md) beschrieben. Das Team verwendet diesen Rückstand, um seine Arbeitswarteschlange zu priorisieren und zu verwalten.
+* **[!UICONTROL Scrum-Agile-]:** Aufgaben und Probleme können dem Agile-Team zugewiesen und dem Rückstand hinzugefügt werden.
+* **[!UICONTROL Kanban-Agile]Teams:** Aufgaben können dem Agile-Team zugewiesen und dem Rückstand hinzugefügt werden. Benutzer können den Rückstand direkt vom Agile-Story-Board anzeigen, wie beschrieben in [[!UICONTROL Hinzufügen des Rückstands] zum Kanban-Board](../../agile/use-kanban-in-an-agile-team/view-the-backlog-on-the-kanban-board.md). Das Team verwendet diesen Rückstand, um seine Arbeitswarteschlange zu priorisieren und zu verwalten.
 
-Aufgaben oder Probleme können dem Team zugewiesen (und anschließend dem Team-Backlog hinzugefügt) werden, und zwar von überall aus mit [!DNL Adobe Workfront]. Beispielsweise kann einem einzelnen Team Arbeitszuweisungen aus mehreren Projekten zugewiesen werden.
+Aufgaben oder Probleme können dem Team von überall in [!DNL Adobe Workfront] zugewiesen (und dann zum Team-Rückstand hinzugefügt) werden. Beispielsweise kann einem einzelnen Team Arbeitsaufträge aus mehreren Projekten zugewiesen werden.
 
 >[!NOTE]
 >
->Wenn Sie einem Rückholelement mehrere Teams hinzufügen, wird die Aufgabe bzw. das Problem nur im Rückstand des Hauptteams angezeigt. Das Hauptteam ist das zuerst zugewiesene Team.
+>Wenn Sie einem Rückstandselement mehrere Teams hinzufügen, wird die Aufgabe oder das Problem nur im Rückstand des primären Teams angezeigt. Das primäre Team ist das Team, das zuerst zugewiesen wurde.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -40,97 +40,97 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Verwalten] Zugriff auf das Projekt, auf dem sich die Story befindet </td> 
+   <td>[!UICONTROL Manage] Zugriff auf das Projekt, an dem sich die Story befindet </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen und Verwalten von Storys im Backlog
+## Storys im Rückstand erstellen und verwalten
 
-* [Erstellungsgeschichten](#reorder-stories)
-* [[!UICONTROL  Aufschlüsseln von ] Meldungen](#break-down-stories)
-* [Bearbeitungsgeschichten](#edit-stories)
+* [Storys neu anordnen](#reorder-stories)
+* [[!UICONTROL Geschichten ].](#break-down-stories)
+* [Storys bearbeiten](#edit-stories)
 
-### Erstellungsgeschichten {#reorder-stories}
+### Storys neu anordnen {#reorder-stories}
 
-Mit der Drag &amp; Drop-Methode können Sie die Reihenfolge der Meldungen in der Liste ändern.
+Mithilfe der Drag-and-Drop-Methode können Sie Storys in der Rückstandsliste neu anordnen.
 
-1. Gehen Sie in den agilen Backlog, in dem Sie Meldungen neu anordnen möchten.
-1. Wählen Sie im Dropdown-Menü **[!UICONTROL Ansicht]** die Ansicht **[!UICONTROL Rückprotokoll]** oder eine benutzerdefinierte Ansicht, die die Spalte **[!UICONTROL Bestellung]** enthält.
+1. Navigieren Sie zum agilen Auftragsbestand, in dem Sie Storys neu anordnen möchten.
+1. Wählen Sie **[!UICONTROL Dropdown]** Menü „Ansicht“ die Ansicht **[!UICONTROL Rückstand]** oder eine benutzerdefinierte Ansicht aus, die die Spalte **[!UICONTROL Reihenfolge]** enthält.
 
    >[!NOTE]
    >
-   >Wenn einer Aufgabe oder einem Problem ein agiles Team zugewiesen wurde und das Projekt keinen Status aufweist, der mit Aktuell übereinstimmt, werden sie nicht im Rückstand angezeigt. Sie wirken sich jedoch weiterhin auf die Rückstandsanzahl in der Spalte Bestellung aus.
+   >Wenn einer Aufgabe oder einem Problem ein agiles Team zugewiesen ist und das Projekt nicht den Status „Aktuell“ aufweist, werden sie bzw. es nicht im Rückstand angezeigt. Sie wirken sich jedoch weiterhin auf die Anzahl der Rückstände in der Spalte Bestellung aus.
 
-1. Wählen Sie einen oder mehrere Storys aus und ziehen Sie dann die Meldungen in die Reihenfolge, in der sie im Rückstand angezeigt werden sollen.
-   ![Ziehen Sie die Elemente im Rückstadium per Drag-and-Drop](assets/agile-backlog-drag-and-drop.png)
+1. Wählen Sie eine oder mehrere Storys aus und ziehen Sie die Storys in die Reihenfolge, in der sie im Auftragsbestand angezeigt werden sollen.
+   ![Elemente im Auftragsbestand per Drag-and-Drop verschieben](assets/agile-backlog-drag-and-drop.png)
 
-### Meldungen aufschlüsseln {#break-down-stories}
+### Geschichten aufschlüsseln {#break-down-stories}
 
-Da Geschichten in einem Rückstau unterschiedlich groß sind, können Benutzer sie für eine Iteration in funktionierende Größen unterteilen. Wenn Sie eine Meldung aufschlüsseln, werden Unteraufgaben für die Aufgabe erstellt, die die Meldung darstellt, und die ursprüngliche Aufgabe im Rückstand ersetzt. Sie können eine übergeordnete Aufgabe oder deren Unteraufgaben einem agilen Team zuweisen, aber Sie können nicht beide gleichzeitig einem Team zugewiesen haben.
+Da Storys in einem Rückstand unterschiedlich groß sind, können Benutzer sie für eine Iteration in praktikable Größen aufschlüsseln. Wenn Sie eine Story aufschlüsseln, werden Teilaufgaben für die Aufgabe erstellt, die die Story darstellt, und die ursprüngliche Aufgabe im Auftragsbestand wird ersetzt. Sie können eine übergeordnete Aufgabe oder deren Unteraufgaben einem agilen Team zuweisen lassen, aber Sie können nicht beide gleichzeitig einem Team zuweisen.
 
 >[!NOTE]
 >
->Beachten Sie beim Aufschlüsseln von Meldungen die folgenden Einschränkungen:
+>Beachten Sie beim Aufschlüsseln von Storys die folgenden Einschränkungen:
 >
->* Es können nur Meldungen aufgeschlüsselt werden, die Aufgaben darstellen. Sie können keine Meldungen aufschlüsseln, die Probleme darstellen.
->* Geschichten können nur aufgeschlüsselt werden, wenn sie mit einem Projekt verknüpft sind.
+>* Nur Storys, die Aufgaben darstellen, können aufgeschlüsselt werden. Sie können keine Geschichten aufschlüsseln, die Probleme darstellen.
+>* Storys können nur aufgeschlüsselt werden, wenn sie mit einem Projekt verknüpft sind.
 
 
-So unterteilen Sie eine Geschichte:
+So schlüsseln Sie eine Story auf:
 
-1. Gehen Sie in den Rückstand, der die Meldung enthält, die Sie aufschlüsseln möchten.
-1. Wählen Sie die Geschichte aus, die Sie unterteilen möchten, und klicken Sie dann auf **[!UICONTROL Aufschlüsselungsmeldung]**.
-Das Dialogfeld [!UICONTROL Aufschlüsselungsmeldung] wird angezeigt.
-   ![Dialogfeld &quot;Aufschlüsselungsmeldung&quot;](assets/backlog-breakdown-dialog.png)
+1. Navigieren Sie zum Auftragsbestand, der die Story enthält, die Sie aufschlüsseln möchten.
+1. Wählen Sie die Story aus, die Sie aufschlüsseln möchten, und klicken Sie dann auf **[!UICONTROL Story aufschlüsseln]**.
+Das [!UICONTROL Story aufschlüsseln] wird angezeigt.
+   ![Dialogfeld Story aufschlüsseln](assets/backlog-breakdown-dialog.png)
 
-1. Geben Sie einen Namen und eine Schätzung für die Geschichte ein und wählen Sie aus, ob die Geschichte fertig ist.
-1. Klicken Sie auf **[!UICONTROL Geschichte hinzufügen]** , um eine weitere Geschichte aus der Originalgeschichte zu erstellen.
+1. Geben Sie einen Namen und eine Schätzung für die Story an und wählen Sie aus, ob die Story bereit ist.
+1. Klicken Sie **[!UICONTROL Story hinzufügen]**, um eine weitere Story aus der ursprünglichen Story zu erstellen.
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
-### Bearbeitungsgeschichten {#edit-stories}
+### Storys bearbeiten {#edit-stories}
 
-Sie können Geschichten direkt über die Registerkarten [!UICONTROL Meldungen] oder [!UICONTROL Probleme] im Backlog bearbeiten, da Sie alle Aufgaben oder Probleme innerhalb eines Projekts stapelweise bearbeiten würden, wie unter [Aufgaben stapelweise bearbeiten](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Aufgaben bearbeiten](../../manage-work/tasks/manage-tasks/edit-tasks.md) und [Probleme bearbeiten](../../manage-work/issues/manage-issues/edit-issues.md) beschrieben.
+Sie können Storys direkt über die Registerkarten [!UICONTROL Storys] oder [!UICONTROL Probleme] im Rückstand bearbeiten, wie Sie alle Aufgaben oder Probleme innerhalb eines Projekts stapelweise bearbeiten würden, wie [Aufgaben stapelweise bearbeiten](../../manage-work/tasks/manage-tasks/edit-tasks.md#edit-tasks-in-bulk) in [Aufgaben bearbeiten](../../manage-work/tasks/manage-tasks/edit-tasks.md) und [Probleme bearbeiten](../../manage-work/issues/manage-issues/edit-issues.md) beschrieben.
 
-## Erstellen neuer Meldungen im Backlog {#create-new-stories-on-the-backlog}
+## Neue Storys im Auftragsbestand erstellen {#create-new-stories-on-the-backlog}
 
-Sie können neue Meldungen im Rückstand erstellen, indem Sie die Meldung direkt aus dem Rückstand erstellen oder einem agilen Team eine vorhandene Aufgabe oder ein Problem zuweisen.
+Sie können neue Storys im Rückstand erstellen, indem Sie die Story direkt aus dem Rückstand erstellen oder indem Sie eine vorhandene Aufgabe oder ein vorhandenes Problem einem agilen Team zuweisen.
 
-* [Erstellen Sie eine Geschichte aus dem Rückstand.](#create-a-story-from-the-backlog)
+* [Story aus dem Auftragsbestand erstellen](#create-a-story-from-the-backlog)
 * [Aufgabe oder Problem einem agilen Team zuweisen](#assign-a-task-or-issue-to-an-agile-team)
 
-### Erstellen Sie eine Geschichte aus dem Rückstand. {#create-a-story-from-the-backlog}
+### Story aus dem Auftragsbestand erstellen {#create-a-story-from-the-backlog}
 
-Wenn Sie eine Geschichte aus dem Rückstand erstellen, wird die Geschichte als Aufgabe oder Problem innerhalb eines Projekts erstellt. Es ist nicht möglich, eine Meldung aus dem Rückstand als Problem zu erstellen.
+Wenn Sie eine Story aus dem Rückstand erstellen, wird die Story als Aufgabe oder Problem in einem Projekt erstellt. Aus dem Rückstand kann keine Story als Problem erstellt werden.
 
-So erstellen Sie eine Geschichte aus dem Rückstand:
+So erstellen Sie eine Story aus dem Auftragsbestand:
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Teams]**.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Teams]**.
 
-1. (Optional) Klicken Sie auf das Symbol &quot;**[!UICONTROL Team wechseln]**&quot;![Team-Symbol wechseln](assets/switch-team-icon.png)&quot;. Wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team und wählen Sie es aus, wenn es angezeigt wird.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team und wählen Sie es aus, wenn es angezeigt wird.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Rückprotokoll]** aus.
-1. Führen Sie je nachdem, ob Sie eine Aufgabe oder ein Problem erstellen möchten, einen der folgenden Schritte aus:
+1. Wählen **[!UICONTROL Auftragsbestand]** im linken Bedienfeld aus.
+1. Führen Sie einen der folgenden Schritte aus, je nachdem, ob Sie eine Aufgabe oder ein Problem erstellen möchten:
 
-   * **So erstellen Sie eine Aufgabe:** Klicken Sie auf **[!UICONTROL Meldungen]**.
+   * **So erstellen Sie eine Aufgabe** Klicken Sie auf **[!UICONTROL Storys]**.
 
-   * **Um ein Problem zu erstellen:** Klicken Sie auf **[!UICONTROL Probleme]**.
+   * **So erstellen Sie ein Problem:** Klicken Sie auf **[!UICONTROL Probleme]**.
 
-1. Klicken Sie auf **[!UICONTROL Neue Meldung]** oder **[!UICONTROL Neues Problem]**.
+1. Klicken Sie auf **[!UICONTROL Neue Story]** oder **[!UICONTROL Neues Problem]**.
 
 1. Geben Sie die folgenden Informationen an:
 
@@ -139,84 +139,84 @@ So erstellen Sie eine Geschichte aus dem Rückstand:
     <col>
     <tbody>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Story Name]</strong></td>
-      <td> Geben Sie einen Namen für die Geschichte ein.</td>
+      <td role="rowheader"><strong>[!UICONTROL Story-Name]</strong></td>
+      <td> Geben Sie einen Namen für die Story ein.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Beschreibung]</strong></td>
-      <td>(Optional) Geben Sie eine Beschreibung für den Artikel ein.</td>
+      <td>(Optional) Geben Sie eine Beschreibung für die Story ein.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>[!UICONTROL Bereit]</strong></td>
-      <td> Wählen Sie aus, ob die Geschichte bereit ist, einer Iteration hinzugefügt zu werden. Diese Einstellung ist nur informativ. Meldungen können einer Iteration unabhängig vom Status dieser Einstellung hinzugefügt werden.</td>
+      <td role="rowheader"><strong>[!UICONTROL bereit]</strong></td>
+      <td> Wählen Sie aus, ob die Story bereit zum Hinzufügen zu einer Iteration ist. Diese Einstellung dient nur zu Informationszwecken. Storys können einer Iteration unabhängig vom Status dieser Einstellung hinzugefügt werden.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Schätzung]</strong></td>
-      <td>Geben Sie einen Punkt oder eine stündliche Schätzung für die Geschichte an. Schätzwerte wirken sich auf das Diagramm aus. Die Abbruchgrafik für eine Iteration ist nur dann korrekt, wenn jede Geschichte eine genaue Schätzung enthält. (Wenn Sie eine Punktschätzung angeben, müssen Sie bereits in den Teameinstellungen festgelegt haben, wie viele Stunden jeder Punkt darstellt.)</td>
+      <td>Geben Sie einen Punkt oder eine stündliche Schätzung für die Story an. Schätzungen wirken sich auf das Burndown-Diagramm aus. Das Burndown-Diagramm für eine Iteration ist nur dann korrekt, wenn jede Story eine genaue Schätzung enthält. (Wenn Sie eine Punktschätzung angeben, müssen Sie bereits in den Team-Einstellungen festgelegt haben, wie viele Stunden jeder Punkt repräsentiert.)</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Übergeordnetes Projekt]</strong></td>
-      <td>Beginnen Sie mit der Eingabe des Namens des Projekts, in dem diese Geschichte erstellt werden soll, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.<br>Der Status des Projekts muss auf [!UICONTROL Aktuell] festgelegt sein. Wenn der Projektstatus etwas Anderes als [!UICONTROL Aktuell] ist, wird er nicht im Dropdown-Menü angezeigt.</td>
+      <td>Geben Sie den Namen des Projekts ein, in dem die Story erstellt werden soll, und klicken Sie auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.<br>Der Status des Projekts muss auf [!UICONTROL Current] gesetzt werden. Wenn der Status des Projekts alles andere als [!UICONTROL Current] ist, wird er nicht im Dropdown-Menü angezeigt.</td>
      </tr>
      <tr>
-      <td role="rowheader"><strong>Übergeordnete Aufgabe von [!UICONTROL]</strong></td>
-      <td>(Optional) Beginnen Sie mit der Eingabe des Namens der übergeordneten Aufgabe, der diese Meldung untergeordnet ist, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</td>
+      <td role="rowheader"><strong>[!UICONTROL Übergeordnete Aufgabe]</strong></td>
+      <td>(Optional) Geben Sie den Namen der übergeordneten Aufgabe ein, der diese Story untergeordnet ist, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.</td>
      </tr>
      <tr>
       <td role="rowheader"><strong>[!UICONTROL Custom Forms]</strong></td>
-      <td> (Optional) Wählen Sie benutzerdefinierte Formulare aus, die Sie diesem Artikel hinzufügen möchten.</td>
+      <td> (Optional) Wählen Sie alle benutzerdefinierten Formulare aus, die Sie dieser Story hinzufügen möchten.</td>
      </tr>
     </tbody>
    </table>
 
-1. Klicken Sie auf **[!UICONTROL Geschichte speichern]**.
+1. Klicken Sie **[!UICONTROL Story speichern]**.
 
 ### Aufgabe oder Problem einem agilen Team zuweisen {#assign-a-task-or-issue-to-an-agile-team}
 
-Sie können eine Aufgabe oder ein Problem einem agilen Team zuweisen. Nachdem sie zugewiesen wurde, erscheint die Aufgabe oder das Problem als neue Meldung im Team-Backlog.
+Sie können einem agilen Team eine Aufgabe oder ein Problem zuweisen. Nachdem sie zugewiesen wurde, wird die Aufgabe oder das Problem als neue Story im Team-Rückstand angezeigt.
 
 So weisen Sie einem agilen Team eine Aufgabe oder ein Problem zu:
 
 1. Wechseln Sie zu dem Projekt, das die Aufgabe enthält, die Sie zuweisen möchten.
-1. Wählen Sie die Aufgabe oder das Problem in der Liste aus.
-1. Klicken Sie auf **[!UICONTROL Bearbeiten]**.
-1. Klicken Sie auf **[!UICONTROL Zuweisungen]**.
-1. (Optional) Löschen Sie alle vorhandenen Bevollmächtigten.
-1. Klicken Sie auf **[!UICONTROL Zuweisung hinzufügen]**.
-1. Beginnen Sie mit der Eingabe des Namens des agilen Teams, das Sie der Aufgabe oder dem Problem zuweisen möchten, und klicken Sie dann auf den Teamnamen, wenn er in der Dropdown-Liste angezeigt wird.
-1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
-Die Aufgabe oder das Problem ist jetzt im Team-Backlog verfügbar.
+1. Aufgabe oder Problem in der Liste auswählen.
+1. Klicken Sie **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie **[!UICONTROL Arbeitsaufträge]**.
+1. (Optional) Löschen Sie alle vorhandenen Zugewiesenen.
+1. Klicken Sie **[!UICONTROL Verantwortlichen hinzufügen]**.
+1. Geben Sie den Namen des agilen Teams ein, das der Aufgabe oder dem Problem zugewiesen werden soll, und klicken Sie dann auf den Team-Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Klicken Sie **[!UICONTROL Änderungen speichern]**.
+Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 
-## Verschieben von Meldungen in den oder aus dem Rückstand
+## Storys in den oder aus dem Auftragsbestand verschieben
 
-* [Verschieben von Meldungen aus dem Rückstadium in eine Iteration oder + Pinnwand](#move-stories-from-the-backlog-to-an-iteration-or--board)
-* [Verschieben vorhandener Meldungen in den Backlog](#move-existing-stories-to-the-backlog)
-* [Exportieren von Meldungen aus dem Rückstand](#export-stories-from-the-backlog)
+* [Storys aus dem Rückstand in eine Iteration oder + Pinnwand verschieben](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Vorhandene Storys in den Auftragsbestand verschieben](#move-existing-stories-to-the-backlog)
+* [Stories aus dem Auftragsbestand exportieren](#export-stories-from-the-backlog)
 
-### Verschieben von Meldungen aus dem Rückstadium in eine Iteration oder + Pinnwand
+### Storys aus dem Rückstand in eine Iteration oder + Pinnwand verschieben
 
-1. Gehen Sie zum Rückstand des agile Teams.
-1. Wählen Sie die Geschichten aus, die Sie in eine Iteration oder Kanban-Pinnwand verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
-Wenn Sie die Geschichte auf eine [!UICONTROL Kanban]-Pinnwand verschieben, wird die Pinnwand [!UICONTROL Geschichte in die Kanban]-Pinnwand verschoben.
-Wenn Sie die Geschichte in eine Iteration verschieben, wird das Dialogfeld [!UICONTROL Geschichte in eine Iteration verschieben] angezeigt.
-   ![Dialogfeld &quot;Geschichte verschieben&quot;](assets/agile-backlog-addtoiteration.png)
+1. Rufen Sie den Rückstand des agilen Teams auf.
+1. Wählen Sie die Storys aus, die Sie in eine Iteration oder ein Kanban-Board verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
+Wenn Sie die Story auf ein Kanban[!UICONTROL Board verschieben] wird das [!UICONTROL Story in das Kanban]Board verschieben angezeigt.
+Wenn Sie die Story in eine Iteration verschieben[!UICONTROL  wird das Dialogfeld „Story in eine Iteration ]&quot; angezeigt.
+   ![Dialogfeld „Story verschieben“](assets/agile-backlog-addtoiteration.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * **Für Scrum-Teams:** Wählen Sie im Feld **[!UICONTROL Iteration auswählen]** die Iteration aus, in die Sie die Geschichten verschieben möchten.
+   * **Für Scrum-Teams:** Wählen Sie im Feld **[!UICONTROL Wiederholung auswählen]** die Iteration aus, in die Sie die Storys verschieben möchten.
 
-   * **Für Kanban-Teams:** Wählen Sie im Feld **[!UICONTROL Kanban-Mainboard auswählen]** Ihr Team [!UICONTROL Kanban]-Pinnwand aus. (Kanban-Teams können nur ein [!UICONTROL Kanban]-Board haben.)
+   * **Für Kanban-Teams:** Wählen Sie im Feld **[!UICONTROL Kanban-]** auswählen Ihr Team [!UICONTROL Kanban]Board aus. (Kanban-Teams können nur ein [!UICONTROL Kanban]-Board haben.)
 
-1. Klicken Sie auf **[!UICONTROL Geschichte verschieben]**.
+1. Klicken Sie **[!UICONTROL Story verschieben]**.
 
-### Verschieben vorhandener Meldungen in den Backlog {#move-existing-stories-to-the-backlog}
+### Vorhandene Storys in den Auftragsbestand verschieben {#move-existing-stories-to-the-backlog}
 
-Wenn Sie sich entscheiden, dass Ihr Team noch nicht bereit ist, an einer Geschichte zu arbeiten, können Sie die Geschichte in den Rückstand versetzen.
+Wenn Sie entscheiden, dass Ihr Team noch nicht bereit ist, an einer Story zu arbeiten, können Sie die Story in den Rückstand verschieben.
 
-Weitere Informationen finden Sie unter [Verschieben einer agilen Meldung](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
+Weitere Informationen finden Sie unter [Verschieben einer agilen Story](../../agile/work-in-an-agile-environment/move-an-agile-story.md).
 
-### Exportieren von Meldungen aus dem Rückstand {#export-stories-from-the-backlog}
+### Stories aus dem Auftragsbestand exportieren {#export-stories-from-the-backlog}
 
-Sie können einen oder mehrere Meldungen (einschließlich Aufgaben und Probleme) direkt aus dem Rückstand exportieren.
+Sie können eine oder mehrere Storys (einschließlich Aufgaben und Problemen) direkt aus dem Rückstand exportieren.
 
-Sie exportieren Meldungen aus dem Rückstand auf dieselbe Weise wie andere Daten in [!DNL Workfront], wie in [Daten exportieren](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) beschrieben.
+Der Export von Storys aus dem Auftragsbestand erfolgt auf die gleiche Weise wie der Export anderer Daten in [!DNL Workfront], wie unter [Exportieren von Daten](../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md) beschrieben.

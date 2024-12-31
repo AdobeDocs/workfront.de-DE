@@ -3,7 +3,7 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Burndown
-description: Lesen Sie diese Artikel, um zu erfahren, wie Sie die Dropdownliste verwenden können.
+description: Lesen Sie diese Artikel, um zu erfahren, wie Sie das Burndown-Diagramm verwenden.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
@@ -19,8 +19,8 @@ ht-degree: 4%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Agile Burndown-Diagramm - Übersicht](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
-* [Übersicht über den Iterationsabschluss-Status](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
-* [Größe der Burndown-Grafik ändern und reduzieren](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
-* [Daten im Startdiagramm synchronisieren](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
-* [Verwenden eines alternativen Teamzeitplans für Startdiagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)
+* [Agile-Burndown-Diagramm - Übersicht](../../../agile/use-scrum-in-an-agile-team/burndown/burndown-chart-overview.md)
+* [Übersicht über den Iterationsabschlussstatus](../../../agile/use-scrum-in-an-agile-team/burndown/iteration-completion-status-overview.md)
+* [Größe ändern und Burndown-Diagramm reduzieren](../../../agile/use-scrum-in-an-agile-team/burndown/resize-collapse-burndown-chart.md)
+* [Synchronisieren der Daten im Burndown-Diagramm](../../../agile/use-scrum-in-an-agile-team/burndown/sync-the-burndown-chart.md)
+* [Verwenden eines alternativen Team-Zeitplans für Burndown-Diagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md)

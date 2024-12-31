@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: add-documents-to-workfront
 title: Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem
-description: Sie können in Adobe Workfront in mehreren Bereichen Dokumente zu Projekten, Aufgaben oder Problemen hinzufügen.
+description: Sie können in Adobe Workfront Dokumente zu Projekten, Aufgaben oder Problemen in mehreren Bereichen hinzufügen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 0a5f82b2-f86e-4ffa-b3a6-18221dd0e158
@@ -15,21 +15,21 @@ ht-degree: 1%
 
 # Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem
 
-Sie können in den folgenden Bereichen in Adobe Workfront Dokumente zu Projekten, Aufgaben oder Problemen hinzufügen:
+Sie können in Adobe Workfront Dokumente zu Projekten, Aufgaben oder Problemen in den folgenden Bereichen hinzufügen:
 
-* Der Bereich &quot;Globale Dokumente&quot;
-* Der Dokumentbereich für ein Workfront-Objekt
-* Eine verbundene Karte auf einer Workfront-Pinnwand
+* Der Bereich für globale Dokumente
+* Der Bereich Dokumente für ein Workfront-Objekt
+* Eine verbundene Karte auf einer Workfront-Karte
 
-Sie können auch neue Dokumentversionen hochladen und Links zu Dokumenten von Drittanbieter-Cloud-Anbietern wie Google Drive, Dropbox und Microsoft OneDrive hinzufügen. Weitere Informationen zum Hinzufügen neuer Versionen von Dokumenten finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md). Informationen zum Hinzufügen von Dokumenten von Drittanbieter-Cloud-Anbietern finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
+Sie können auch neue Dokumentversionen hochladen und Links zu Dokumenten von Cloud-Drittanbietern wie Google Drive, Dropbox und Microsoft OneDrive hinzufügen. Informationen zum Hinzufügen neuer Versionen von Dokumenten finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md). Informationen zum Hinzufügen von Dokumenten von Cloud-Anbietern von Drittanbietern finden Sie unter [Verknüpfen von Dokumenten aus externen Programmen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
 Es gibt keine Einschränkungen hinsichtlich der Dateitypen und -größen, die Sie in Workfront hochladen können. Um jedoch erfolgreich zu sein, muss der Upload innerhalb von fünf Minuten abgeschlossen sein und Sie müssen über ausreichend Speicherplatz verfügen.
 
-Informationen zum Hochladen neuer Dokumentversionen in Workfront finden Sie unter [Hochladen einer neuen Dokumentversion](../../documents/managing-documents/upload-new-document-version.md).
+Informationen zum Hochladen neuer Versionen eines Dokuments in Workfront finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -39,41 +39,41 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Alle</p> </td> 
+   <td> <p> Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> <p>Anfrage oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
-## Hinzufügen von Dokumenten zu Workfront
+## Dokumente zu Workfront hinzufügen
 
-Sie können Workfront über das Dateisystem auf Ihrer Workstation neue Dokumente hinzufügen. Sie können auch Dokumente aus Drittanbieteranwendungen wie Google Drive und SharePoint verknüpfen.
+Sie können Workfront neue Dokumente aus dem Dateisystem auf Ihrer Workstation hinzufügen. Sie können auch Dokumente von Drittanbieterprogrammen wie Google Drive und SharePoint verknüpfen.
 
 >[!IMPORTANT]
 >
 >* Sie können bis zu 150 Dokumente gleichzeitig hochladen.
 >* Die Dateigröße ist nicht beschränkt.
->* Dokumentdownloads sind auf 4 GB beschränkt.
+>* Dokument-Downloads sind auf 4 GB beschränkt.
 
 Hinzufügen eines Dokuments:
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, dem Sie ein neues Dokument hinzufügen möchten.
-1. Klicken Sie auf die Registerkarte **Dokumente** und dann auf das Dropdown-Menü **Neu hinzufügen** .
+1. Navigieren Sie zum Projekt, zur Aufgabe oder zum Problem, dem bzw. dem Sie ein neues Dokument hinzufügen möchten.
+1. Klicken Sie auf **Registerkarte** Dokumente“ und dann auf das **Neu hinzufügen** Dropdown-Menü.
 
    ![](assets/add-new-doc.png)
 
-1. Führen Sie je nach dem Dokumenttyp, den Sie hinzufügen möchten, einen der folgenden Schritte aus:
+1. Führen Sie je nach dem hinzuzufügenden Dokumenttyp einen der folgenden Schritte aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -83,49 +83,49 @@ Hinzufügen eines Dokuments:
       <td role="rowheader">Hochladen von Dokumenten aus Ihrem Dateisystem auf Ihre Workstation</td> 
       <td> 
        <ol> 
-        <li value="1">Wählen Sie aus dem Dropdownmenü <strong>Neu hinzufügen</strong> die Option <strong>Dokument.</strong></li> 
-        <li value="2"> <p>Suchen Sie das Dokument, das Sie hinzufügen möchten, und wählen Sie es aus dem Dateisystem auf Ihrer Workstation aus.<br></p> <p>Sie können mehrere Dokumente auswählen, indem Sie die Umschalttaste drücken, während Sie zusätzliche Dateien auswählen.</p> </li> 
-        <li value="3">Klicken Sie auf <strong>Öffnen</strong>.</li> 
+        <li value="1">Wählen Sie <strong> Dropdown-Menü </strong>Neu hinzufügen“ <strong>Dokument.</strong></li> 
+        <li value="2"> <p>Navigieren Sie zu dem Dokument, das Sie aus dem Dateisystem auf Ihrer Workstation hinzufügen möchten, und wählen Sie es aus.<br></p> <p>Sie können mehrere Dokumente auswählen, indem Sie die Umschalttaste gedrückt halten, während Sie zusätzliche Dateien auswählen.</p> </li> 
+        <li value="3">Klicken Sie <strong>Öffnen</strong>.</li> 
        </ol> 
-       <p><b>HINWEIS</b>: Sie können Dateien auch direkt aus Ihrem Dateimanager in die Dokumentliste ziehen.</td> 
+       <p><b>HINWEIS</b>: Sie können Dateien auch direkt aus Ihrem Datei-Manager per Drag-and-Drop in die Dokumentliste ziehen.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Hochladen von Dokumenten von einer Drittanbieteranwendung wie Google Drive oder SharePoint</td> 
+      <td role="rowheader">Hochladen von Dokumenten aus einer Drittanbieteranwendung wie Google Drive oder SharePoint</td> 
       <td> 
        <ol> 
-        <li value="1"> <p>Wählen Sie aus dem Dropdownmenü <strong>Neu hinzufügen</strong> die Option <strong>Aus &lt;Name_der_Drittanbieteranwendung&gt;</strong> aus.</p> <p>Um beispielsweise ein Dokument vom Google Drive hochzuladen, klicken Sie auf <strong>Vom Google Drive</strong>.</p> </li> 
-        <li value="2"> <p>Befolgen Sie die Anweisungen, um das Dokument in der Drittanbieteranwendung auszuwählen.<br></p> <p>Weitere Informationen zu verknüpften Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Verknüpfen von Dokumenten aus externen Anwendungen</a>.</p> </li> 
+        <li value="1"> <p>Wählen Sie <strong> Dropdown-Menü </strong>Neu hinzufügen“ die Option <strong>Von &lt;Name_der_Drittanbieteranwendung&gt;</strong>.</p> <p>Um beispielsweise ein Dokument von Google Drive hochzuladen, klicken Sie auf <strong>Von Google Drive</strong>.</p> </li> 
+        <li value="2"> <p>Befolgen Sie die Anweisungen, um das Dokument im Drittanbieterprogramm auszuwählen.<br></p> <p>Weitere Informationen zu verknüpften Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md" class="MCXref xref">Verknüpfen von Dokumenten aus externen Anwendungen</a>.</p> </li> 
        </ol> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Anfordern eines Dokuments von einem anderen Workfront-Benutzer</td> 
+      <td role="rowheader">Dokument von einem anderen Workfront-Benutzer anfordern</td> 
       <td> 
        <ol> 
-        <li value="1">Wählen Sie aus dem Dropdownmenü <strong>Neu hinzufügen</strong> die Option <strong>Dokument anfordern</strong> aus.</li> 
-        <li value="2">Geben Sie in das Feld <strong>Von wem Sie es von </strong> anfordern, den Namen des Benutzers ein, von dem Sie das Dokument anfordern.</li> 
-        <li value="3">Geben Sie in das Feld <strong>Sagen Sie ihnen, was Sie anfordern</strong> den Namen des Dokuments ein.</li> 
-        <li value="4"> <p>Klicken Sie auf <strong>Anfrage senden</strong>.</p> <p>Ihre Anforderung wird auf der Registerkarte Dokumente angezeigt.</p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Anfordern eines Dokuments</a>.</p> </li> 
+        <li value="1">Wählen Sie <strong> Dropdown-Menü </strong>Neu hinzufügen“ die Option <strong>Dokument anfordern</strong>.</li> 
+        <li value="2">Geben <strong> in das Feld „Von wem wird </strong> angefordert?“ den Namen des Benutzers ein, von dem aus Sie das Dokument anfordern.</li> 
+        <li value="3">Geben <strong> in das Feld „Geben Sie an, was Sie </strong> möchten“ den Namen des Dokuments ein.</li> 
+        <li value="4"> <p>Klicken Sie <strong>Anfrage senden</strong>.</p> <p>Ihre Anfrage wird auf der Registerkarte Dokumente angezeigt.</p> <p>Weitere Informationen zum Anfordern von Dokumenten finden Sie unter <a href="../../documents/adding-documents-to-workfront/request-a-document.md" class="MCXref xref">Dokument anfordern</a>.</p> </li> 
        </ol> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## Document Security
+## Dokumentensicherheit
 
-Die Workfront-Website verhindert, dass Viren und andere schädliche Inhalte über Dokumente auf folgende Weise auf die Site gelangen:
+Die Workfront-Site verhindert auf folgende Weise, dass Viren und andere schädliche Inhalte über Dokumente auf die Site gelangen:
 
 * [So erkennt Workfront beschädigte Dateien](#how-workfront-detects-corrupted-files)
 * [Einschränkungen bei Dateinamen](#file-name-restrictions)
 
 ### So erkennt Workfront beschädigte Dateien {#how-workfront-detects-corrupted-files}
 
-Die Dokumentenprüfung ist für Ihre Organisation nur auf Anfrage aktiviert.
+Die Dokumentüberprüfung ist für Ihr Unternehmen nur auf Anfrage aktiviert.
 
-Wenn die Dokumentprüfung aktiviert ist, werden Dateien unter 25 MB beim Hochladen gescannt. Dateien über 25 MB werden nicht gescannt.
+Wenn die Dokumentüberprüfung aktiviert ist, werden Dateien mit einer Größe von unter 25 MB beim Hochladen überprüft. Dateien über 25 MB werden nicht gescannt.
 
-Wenn Workfront ein beschädigtes Dokument erkennt, setzt Workfront den Upload-Prozess ein und eine Meldung wird angezeigt, die darauf hinweist, dass die Datei beschädigt ist. Sie erhalten auch eine E-Mail-Benachrichtigung, wenn Workfront potenziell schädliche Inhalte erkennt und die Datei entfernt werden soll.
+Wenn Workfront ein beschädigtes Dokument entdeckt, unterbricht Workfront den Upload-Vorgang und es wird eine Meldung angezeigt, die angibt, dass die Datei beschädigt ist. Sie erhalten auch eine E-Mail-Benachrichtigung, wenn Workfront potenziell schadhaften Inhalt entdeckt und die Datei entfernt werden soll.
 
-Beschädigte Dateien werden innerhalb von 24 Stunden nach der Erkennung entfernt, es sei denn, Sie entfernen sie manuell. Wenn Sie eine beschädigte Datei löschen, verfolgt Workfront diese Aktion als Aktualisierung. Wenn Sie zulassen, dass Workfront sie entfernt, werden keine Aktualisierungen aufgezeichnet.
+Beschädigte Dateien werden innerhalb von 24 Stunden nach Erkennung entfernt, es sei denn, Sie entfernen sie manuell. Wenn Sie eine beschädigte Datei löschen, verfolgt Workfront diese Aktion als Aktualisierung. Wenn Sie Workfront erlauben, es zu entfernen, werden keine Aktualisierungen aufgezeichnet.
 
 ### Einschränkungen bei Dateinamen {#file-name-restrictions}
 

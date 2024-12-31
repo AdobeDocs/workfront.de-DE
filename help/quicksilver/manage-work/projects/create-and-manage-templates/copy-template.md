@@ -27,24 +27,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Vorlage</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für eine Vorlage</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 
 ## Überlegungen zum Kopieren von Vorlagen
@@ -52,27 +52,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Die folgenden Elemente werden immer aus einem vorhandenen Projekt in ein neues kopiert:
 
 * Vorlagenaufgaben
-* Standardinformationen für Vorlagenaufgaben (Prozess für die Standardgenehmigung für Aufgaben, Standardbenutzerdefinierter Forms für Aufgaben)
+* Standardinformationen zu Vorlagenaufgaben (Standardgenehmigungsprozess für Aufgaben, Standardaufgabe für benutzerdefinierte Forms)
 * Benutzerdefinierte Formulare
 * Risiken
 * Informationen zur Warteschlangeneinrichtung
 * Portfolio und Programm
 * Genehmigungen
 * Dokumente
-* Die Tage der ursprünglichen Vorlagenaufgaben werden auf die neue Vorlage übertragen. Sie müssen den Start- oder Fertigstag der Vorlage ändern (je nach Planungsmodus), um bei Bedarf die Tage für die Vorlagenaufgaben zu aktualisieren.
+* Die Tage der ursprünglichen Vorlagenaufgaben werden auf die neue Vorlage übertragen. Sie müssen das Anfangs- oder Fertigstellungstag der Vorlage (je nach Planungsmodus) ändern, um die Tage in den Vorlagenaufgaben bei Bedarf zu aktualisieren.
 
-Die folgenden Elemente werden nie aus einem vorhandenen Projekt in ein neues kopiert:
+Die folgenden Elemente werden niemals aus einem vorhandenen Projekt in ein neues kopiert:
 
 * Abrechnungssätze
 * Benutzerkommentare
 
-## Eine Vorlage kopieren
+## Kopieren einer Vorlage
 
-1. Markieren Sie die Vorlage, die Sie kopieren möchten.
-1. Klicken Sie auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) und dann auf **Kopieren**.
-1. Geben Sie im Feld **Neuer Vorlagenname** einen Namen für die Vorlage an.
+1. Wechseln Sie zu der Vorlage, die Sie kopieren möchten.
+1. Klicken Sie auf die ![](assets/qs-more-icon-on-an-object.png) **Mehr** und dann auf **Kopieren**.
+1. Geben Sie einen Namen für die Vorlage im Feld **Neuer Vorlagenname** an.
 
    Standardmäßig lautet der neue Name **Kopie von `<original template name>`.**
 
-1. Wählen Sie aus, ob Sie **Benutzerzuweisungen für Aufgaben und Vorlagen beibehalten** möchten: Wählen Sie diese Option aus, um alle Aufgaben- und Vorlagenzuweisungen aus der ursprünglichen Vorlage in die neue Vorlage zu übertragen.
-1. Klicken Sie auf **Speichern** , um eine Kopie der Vorlage zu erstellen.
+1. Wählen Sie aus, ob **Benutzerzuweisungen für Aufgaben und Vorlagen beibehalten werden sollen**: Wählen Sie diese Option aus, um alle Aufgaben- und Vorlagenzuweisungen von der ursprünglichen Vorlage auf die neue Vorlage zu übertragen.
+1. Klicken Sie **Speichern**, um eine Kopie der Vorlage zu erstellen.

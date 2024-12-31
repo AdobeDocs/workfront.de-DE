@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Hinzufügen von Meldungen und Problemen aus dem Scrum-Forum
-description: Sie können schnell eine neue Geschichte oder ein neues Problem direkt aus dem Forum erstellen oder eine vorhandene Geschichte oder ein Problem aus der Pinnwand hinzufügen.
+title: Stories und Probleme aus dem Scrum-Board hinzufügen
+description: Sie können schnell eine neue Story oder ein Problem direkt über das Scrum-Board erstellen oder eine vorhandene Story oder ein vorhandenes Problem über das Board hinzufügen.
 author: Lisa
 feature: Agile
 exl-id: d4eec3c5-8cea-467f-b1b4-3f9fab57b10f
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Meldungen und Probleme aus der [!UICONTROL Scrum]-Pinnwand hinzufügen
+# Hinzufügen von Storys und Problemen vom [!UICONTROL Scrum]-Board
 
-Sie können schnell eine neue Geschichte oder ein neues Problem direkt aus dem Forum erstellen oder eine vorhandene Geschichte oder ein Problem aus der Pinnwand hinzufügen.
+Sie können schnell eine neue Story oder ein Problem direkt über das Scrum-Board erstellen oder eine vorhandene Story oder ein vorhandenes Problem über das Board hinzufügen.
 
 >[!NOTE]
 >
->Das Arbeitselement [!UICONTROL Vorgesehenes Startdatum] und [!UICONTROL Vorgesehenes Abschlussdatum] sind von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] betroffen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Daten angewendet werden, wenn Arbeitselemente zu einer Iteration hinzugefügt werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,38 +31,38 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL] Zugriff auf das Projekt verwalten, in dem sich die Aufgabe oder das Problem befindet </td> 
+   <td>[!UICONTROL Manage] Zugriff auf das Projekt, an dem sich die Aufgabe oder das Problem befindet </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen Sie eine neue Story oder ein neues Problem über das Scrum-Forum
+## Neue Story oder Anfrage über das Scrum-Board erstellen
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
-1. Klicken Sie auf **[!UICONTROL Hinzufügen]** auf der rechten Seite der Trommelplatine und wählen Sie **[!UICONTROL Neue Meldung]** oder **[!UICONTROL Neues Problem]** aus.
-1. Fügen Sie im Dialogfeld **[!UICONTROL Neu]** die folgenden Informationen hinzu:
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Klicken Sie **[!UICONTROL Hinzufügen]** auf der rechten Seite des Scrum-Boards und wählen Sie **[!UICONTROL Neue Story]** oder **[!UICONTROL Neues Problem]** aus.
+1. Fügen Sie **[!UICONTROL Dialogfeld]** Neu“ die folgenden Informationen hinzu:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Name]</strong></td>
-        <td>(Erforderlich) Der Name der Meldung oder des Problems.</td>
+        <td>(Erforderlich) Der Name der Story oder des Problems.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Beschreibung]</strong></td>
@@ -70,22 +70,22 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
     </tr>
     <tr>
         <td><strong>[!UICONTROL Schätzung]</strong></td>
-        <td>Die geschätzte Anzahl von Stunden oder Punkten für den Artikel.</td>
+        <td>Die geschätzte Anzahl von Stunden oder Punkten für das Element.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Übergeordnetes Projekt]</strong></td>
-        <td>(Erforderlich) Das Projekt, in dem die neue Meldung oder das neue Problem gespeichert wird. Geben Sie den Namen eines Projekts ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.</td>
+        <td>(Erforderlich) Das Projekt, in dem die neue Story oder Anfrage gespeichert wird. Beginnen Sie mit der Eingabe des Namens eines Projekts und wählen Sie es aus, wenn es in der Liste angezeigt wird.</td>
     </tr>
    </table>
 
-1. Klicken Sie auf **[!UICONTROL Meldung hinzufügen]** oder auf **[!UICONTROL Problem hinzufügen]**.
+1. Klicken Sie **[!UICONTROL Story hinzufügen]** oder **[!UICONTROL Problem hinzufügen]**.
 
-## Hinzufügen einer vorhandenen Geschichte oder eines Problems aus der [!UICONTROL Scrum]-Pinnwand
+## Hinzufügen einer vorhandenen Story oder eines vorhandenen Problems aus dem [!UICONTROL Scrum]-Board
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
-1. Klicken Sie auf **[!UICONTROL Hinzufügen]** auf der rechten Seite der Trommelplatine und wählen Sie **[!UICONTROL Vorhandene Meldung]** oder **[!UICONTROL Vorhandenes Problem]** aus.
-1. Geben Sie im Dialogfeld **[!UICONTROL Vorhandenen aus Rückprotokoll hinzufügen]** den Namen eines Verlaufs oder Problems ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-1. Klicken Sie auf **[!UICONTROL Meldung hinzufügen]** oder auf **[!UICONTROL Problem hinzufügen]**.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Klicken Sie **[!UICONTROL Hinzufügen]** auf der rechten Seite des Scrum-Boards und wählen Sie **[!UICONTROL Vorhandene Story]** oder **[!UICONTROL Vorhandenes Problem]**.
+1. Beginnen Sie **[!UICONTROL Dialogfeld „Vorhandenes aus]** hinzufügen“ mit der Eingabe des Namens einer Story oder eines Problems und wählen Sie diese aus, wenn sie in der Liste angezeigt wird.
+1. Klicken Sie **[!UICONTROL Story hinzufügen]** oder **[!UICONTROL Problem hinzufügen]**.

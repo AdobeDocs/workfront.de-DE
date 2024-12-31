@@ -2,8 +2,8 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Übersicht über die Agile Planning Tools
-description: Wenn Sie eine Pinnwand mit Ad-hoc- und vernetzten Karten erstellen, sollten Sie zusätzliche agile Planungswerkzeuge auf Pinnwänden nutzen.
+title: Übersicht über Agile-Planungs-Tools
+description: Wenn Sie eine Pinnwand mit Ad-hoc- und verbundenen Karten erstellen, sollten Sie zusätzliche agile Planungswerkzeuge auf Pinnwänden nutzen.
 author: Lisa
 feature: Agile
 exl-id: c1d28eeb-e920-4f57-a94b-ffd928b384a4
@@ -14,37 +14,37 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über Agile Planungswerkzeuge
+# Übersicht über Agile-Planungstools
 
-Wenn Sie eine Pinnwand mit Ad-hoc- und verbundenen Karten erstellen, sollten Sie zusätzliche agile Planungswerkzeuge nutzen.
+Wenn Sie eine Pinnwand mit Ad-hoc- und verbundenen Karten erstellen, sollten Sie zusätzliche agile Planungstools nutzen.
 
 Zu den nützlichen Tools für Kanban gehören:
 
 * WIP-Beschränkungen für Spalten
-* Gruppieren von Karten in Swimlanes
+* Gruppieren von Karten in SWIFLANES
 * Eine Aufnahmespalte, die für einen Rückstand verwendet werden kann
 
 Zu den für Scrum nützlichen Tools gehören:
 
-* Workflows und Iterationsboards
-* Kartenliste oder Rückstand
+* Arbeitsabläufe und Iterations-Boards
+* Kartenliste oder Auftragsbestand
 * Iterationsmetriken
 
 >[!IMPORTANT]
 >
->Workflows und die zugehörigen Tools stehen nur einer bestimmten Kundengruppe zur Verfügung.
+>Arbeitsabläufe und zugehörige Tools stehen nur einer bestimmten Kundengruppe zur Verfügung.
 
-Sie können diese Tools auf eine Weise verwenden, die für Sie und Ihr Team funktioniert, ohne eine bestimmte agile Methodik einzuhalten.
+Sie können eines oder alle dieser Tools auf eine Weise verwenden, die für Sie und Ihr Team funktioniert, ohne sich auf eine bestimmte agile Methodik festzulegen.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Grenze für laufende Arbeit (WIP) auf einer Pinnwand verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
+* [Verwalten des Work In Progress (WIP)-Limits auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-wip-limit-on-board.md)
 * [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md)
-* [Gruppen auf einer Pinnwand verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
-* [Kartenfalloff konfigurieren](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
-* [Migrieren von agilen Teams Kanban-Karten zu Workfront-Pinnwänden](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
-* [Workflows verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
-* [Kartenliste verwenden](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
-* [Erstellen einer Iteration in einem Workstream](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
-* [Konfigurieren des Rückstands auf einer Arbeitsfläche](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
-* [Iterationsmetriken überprüfen](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)
+* [Verwenden von Gruppen auf einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/group-cards-on-board.md)
+* [Konfigurieren von Karten-Falloff](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-card-falloff.md)
+* [Migrieren von Agile-Team-Kanban-Karten zu Workfront-Boards](/help/quicksilver/agile/use-boards-agile-planning-tools/migrate-kanban-cards-to-boards.md)
+* [Arbeitsabläufe verwalten](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md)
+* [Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md)
+* [Erstellen einer Iteration in einem Arbeitsablauf](/help/quicksilver/agile/use-boards-agile-planning-tools/create-an-iteration-in-workstream.md)
+* [Konfigurieren des Rückstands auf einer Workstream-Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/configure-backlog-workstream-board.md)
+* [Wiederholungsmetriken überprüfen](/help/quicksilver/agile/use-boards-agile-planning-tools/review-iteration-metrics.md)

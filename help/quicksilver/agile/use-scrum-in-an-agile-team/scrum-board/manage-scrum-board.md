@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Verwalten von Meldungen und Problemen auf der Trommelfläche
-description: Sie können eine Meldung oder ein Problem aus dem Scrum-Board in eine andere Iteration oder in den Rückstand verschieben oder aus dem Scrum-Board löschen. Wenn Sie einen Artikel oder ein Problem löschen, wird er 30 Tage lang in den Papierkorb verschoben und kann nur vom Systemadministrator abgerufen werden.
+title: Storys und Probleme auf dem Scrum-Board verwalten
+description: Sie können eine Story oder ein Problem vom Scrum-Board in eine andere Iteration oder in den Rückstand verschieben oder aus dem Scrum-Board löschen. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Meldungen und Probleme auf der [!UICONTROL Scrum]-Pinnwand verwalten
+# Verwalten von Storys und Problemen auf dem [!UICONTROL Scrum]-Board
 
-Sie können eine Meldung oder ein Problem von der [!UICONTROL Scrum]-Pinnwand in eine andere Iteration oder in den Rückstand verschieben oder aus der [!UICONTROL Scrum]-Pinnwand löschen. Wenn Sie einen Artikel oder ein Problem löschen, wird er 30 Tage lang in den Papierkorb verschoben und kann nur vom Systemadministrator abgerufen werden.
+Sie können eine Story oder ein Problem von der [!UICONTROL Scrum]-Pinnwand in eine andere Iteration oder in den Rückstand verschieben oder aus der [!UICONTROL Scrum]-Pinnwand löschen. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -27,62 +27,62 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Zugriff auf die Aufgabe oder das Problem verwalten </td> 
+   <td>[!UICONTROL Manage] Zugriff auf die Aufgabe oder das Problem </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Verschieben Sie eine Geschichte oder ein Problem aus der [!UICONTROL Scrum]-Pinnwand.
+## Story oder Problem vom Scrum[!UICONTROL Board ]
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder aus dem Dropdown-Menü ein Scrum-Team aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
-1. Klicken Sie auf das Symbol **[!UICONTROL Mehr]** für die Meldung oder das Problem und wählen Sie **[!UICONTROL Verschieben nach]** aus.
+1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol in der Story oder im Problem und wählen Sie **[!UICONTROL Verschieben nach]**.
 
-   ![Löschen oder Verschieben einer Geschichte von der Trommelplatine](assets/scrum-delete-move-story.png)
+   ![Story vom Scrum-Board löschen oder verschieben](assets/scrum-delete-move-story.png)
 
-1. Wählen Sie in der Bestätigungsnachricht eine der folgenden Optionen:
+1. Wählen Sie in der Bestätigungsnachricht eine der folgenden Optionen aus:
 
    <table style="table-layout:auto">
     <tr>
         <td><strong>[!UICONTROL Weitere Iteration]</strong></td>
-        <td>Wählen Sie aus, um das Element in eine andere Iteration zu verschieben, und wählen Sie dann aus, zu welcher Iteration die Geschichte oder das Problem verschoben werden soll. Wenn keine zukünftigen Iterationen definiert sind, können Sie das Element nicht verschieben.</td>
+        <td>Wählen Sie diese Option aus, um das Element in eine andere Iteration zu verschieben, und wählen Sie dann aus, in welche Iteration die Story oder das Problem verschoben werden soll. Wenn keine zukünftigen Iterationen definiert sind, können Sie das Element nicht verschieben.</td>
     </tr>
     <tr>
         <td><strong>[!UICONTROL Backlog]</strong></td>
-        <td>Wählen Sie diese Option aus, um die Meldung oder das Problem in den Rückstand des Teams zu verschieben.</td>
+        <td>Wählen Sie aus, ob die Story oder das Problem in den Rückstand des Teams verschoben werden soll.</td>
     </tr>
    </table>
 
    >[!NOTE]
    >
-   >Das Arbeitselement [!UICONTROL Vorgesehenes Startdatum] und [!UICONTROL Vorgesehenes Abschlussdatum] sind von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] betroffen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Daten angewendet werden, wenn Arbeitselemente zu einer Iteration hinzugefügt werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configur5) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Klicken Sie auf **[!UICONTROL Verschieben]**.
+1. Klicken Sie **[!UICONTROL Verschieben]**.
 
-## Löschen Sie eine Geschichte oder ein Problem aus der [!UICONTROL Scrum]-Pinnwand
+## Löschen einer Story oder eines Problems vom [!UICONTROL Scrum]-Board
 
 {{step1-to-team}}
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder aus dem Dropdown-Menü ein Scrum-Team aus oder suchen Sie in der Suchleiste nach einem Team.
-1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
-1. Klicken Sie auf das Symbol **[!UICONTROL Mehr]** für die Meldung oder das Problem und wählen Sie **[!UICONTROL Meldung löschen]** oder **[!UICONTROL Problem löschen]** aus.
+1. Klicken Sie auf **[!UICONTROL Team wechseln]**-Symbol ![Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol in der Story oder dem Problem und wählen Sie **[!UICONTROL Story löschen]** oder **[!UICONTROL Problem löschen]**.
 
-   ![Löschen oder Verschieben einer Geschichte von der Trommelplatine](assets/scrum-delete-move-story.png)
+   ![Story vom Scrum-Board löschen oder verschieben](assets/scrum-delete-move-story.png)
 
-1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Ja, löschen Sie sie]**.
+1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Ja, löschen]**.

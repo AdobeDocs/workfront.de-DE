@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects;user-management
 navigation-topic: scrum-board
-title: Filtern nach Benutzer auf der Scrum-Pinnwand
-description: Sie können den Filter auf der Scroll-Pinnwand verwenden, um zu sehen, welche Arbeitselemente anderen Benutzern zugeordnet sind und welche nicht zugewiesen sind.
+title: Filtern nach Benutzer auf dem Scrum-Board
+description: Sie können den Filter auf dem Scrum-Board verwenden, um zu sehen, welche Arbeitselemente mit anderen Benutzern verknüpft sind und welche nicht zugewiesen sind.
 author: Lisa
 feature: Agile
 exl-id: ccb1dc6e-b6c0-4897-9278-7410f10d40ae
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Filtern nach Benutzer auf der [!UICONTROL Scrum]-Pinnwand
+# Filtern nach Benutzer auf dem [!UICONTROL Scrum]-Board
 
-Sie können den Filter auf der Scroll-Pinnwand verwenden, um zu sehen, welche Arbeitselemente anderen Benutzern zugeordnet sind und welche nicht zugewiesen sind.
+Sie können den Filter auf dem Scrum-Board verwenden, um zu sehen, welche Arbeitselemente mit anderen Benutzern verknüpft sind und welche nicht zugewiesen sind.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -27,33 +27,33 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Filtern nach Benutzer auf der Scroll-Pinnwand
+## Nach Benutzer auf dem Scrum-Board filtern
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Navigieren Sie zu einer aktiven Iteration.
-1. Klicken Sie auf das Dropdown-Menü [!UICONTROL Filter] rechts auf der Pinnwand [!UICONTROL scrum].
-1. Wählen Sie den Namen des Benutzers oder **[!UICONTROL Nicht zugewiesen]** aus.
+1. Klicken Sie auf [!UICONTROL Filter] Dropdown-Menü auf der rechten Seite des [!UICONTROL Scrum]-Boards.
+1. Wählen Sie den Namen des Benutzers oder „Nicht **[!UICONTROL &quot;]**.
 
 >[!NOTE]
 >
->Die Spaltensummen ändern sich nicht basierend auf den gefilterten Ergebnissen. Die Spaltensummen zeigen die Gesamtsummen für alle Arbeitselemente auf der Pinnwand an.
+>Die Spaltensummen ändern sich nicht basierend auf den gefilterten Ergebnissen. Spaltensummen zeigen die Gesamtsummen für alle Arbeitselemente auf der Pinnwand an.
 
-![Filtern nach Benutzer](assets/filter-by-user-agile-nwe.png)
+![Nach Benutzer filtern](assets/filter-by-user-agile-nwe.png)

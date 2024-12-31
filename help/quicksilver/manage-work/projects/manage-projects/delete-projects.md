@@ -2,7 +2,7 @@
 title: Projekte löschen
 product-area: projects
 navigation-topic: manage-projects
-description: Sie können ein Projekt löschen, wenn das Projekt und seine Daten nicht mehr benötigt werden. Als Alternative zum Löschen eines Projekts wird empfohlen, das Projekt zu bearbeiten und den Status in "Abgeschlossen"oder "Dead"zu ändern. Dadurch werden alle aktuellen Aufgaben im Zusammenhang mit dem Projekt aus der Aufgabenliste eines Benutzers entfernt, jedoch alle mit dem Projekt verknüpften Daten gespeichert.
+description: Sie können ein Projekt löschen, wenn das Projekt und seine Daten nicht mehr benötigt werden. Als Alternative zum Löschen eines Projekts empfehlen wir, das Projekt zu bearbeiten und den Status in „Abgeschlossen“ oder „Inaktiv“ zu ändern. Dadurch werden alle aktuellen Aufgaben im Zusammenhang mit dem Projekt aus der Aufgabenliste eines Benutzers entfernt, alle mit dem Projekt verknüpften Daten werden jedoch gespeichert.
 author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
@@ -20,13 +20,13 @@ ht-degree: 1%
 
 Sie können ein Projekt löschen, wenn das Projekt und seine Daten nicht mehr benötigt werden.
 
-Als Alternative zum Löschen eines Projekts wird empfohlen, das Projekt zu bearbeiten und den Status in &quot;Abgeschlossen&quot;oder &quot;Dead&quot;zu ändern. Dadurch werden alle aktuellen Aufgaben im Zusammenhang mit dem Projekt aus der Aufgabenliste eines Benutzers entfernt, jedoch alle mit dem Projekt verknüpften Daten gespeichert.
+Als Alternative zum Löschen eines Projekts empfehlen wir, das Projekt zu bearbeiten und den Status in „Abgeschlossen“ oder „Inaktiv“ zu ändern. Dadurch werden alle aktuellen Aufgaben im Zusammenhang mit dem Projekt aus der Aufgabenliste eines Benutzers entfernt, alle mit dem Projekt verknüpften Daten werden jedoch gespeichert.
 
 Sie können ein Projekt in einer Projektliste oder auf Projektebene löschen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,8 +35,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>Adobe Workfront-Abo</p> </td> 
-   <td>Alle</td> 
+   <td> <p>Adobe Workfront-Plan</p> </td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td> <p>Adobe Workfront-Lizenz*</p> </td> 
@@ -46,33 +46,33 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Konfiguration der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten mit der Möglichkeit, Projekte zu erstellen und zu löschen</p> </td> 
+   <td> <p>Zugriff auf Projekte mit der Möglichkeit zum Erstellen und Löschen von Projekten bearbeiten</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p>Bearbeiten des Zugriffs auf Projekte, Aufgaben, Probleme mit der Möglichkeit, Projekte, Aufgaben und Probleme zu löschen</p> </td> 
+   <td> <p>Zugriff auf Projekte, Aufgaben und Probleme bearbeiten mit der Möglichkeit, Projekte, Aufgaben und Probleme zu löschen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Grundlegendes zum Löschen von Projekten
+## Verstehen des Prozesses zum Löschen von Projekten
 
-* [Einschränkungen beim Löschen von Projekten](#limitations-for-deleting-projects)
+* [Einschränkungen für das Löschen von Projekten](#limitations-for-deleting-projects)
 * [Auswirkungen des Löschens von Projekten](#the-impact-of-deleting-projects)
 
 ### Einschränkungen beim Löschen von Projekten  {#limitations-for-deleting-projects}
 
 * Gelöschte Elemente werden 30 Tage lang in den Papierkorb verschoben und können nur vom Workfront-Administrator wiederhergestellt werden.
 
-  Weitere Informationen zum Wiederherstellen von Objekten finden Sie im Artikel [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
+  Weitere Informationen zum Wiederherstellen von Objekten finden Sie im Artikel [Wiederherstellen gelöschter Elemente](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).
 
-* Wenn das Projekt Aufgaben oder Probleme mit angemeldeten Stunden hat, muss der Workfront- oder Gruppenadministrator das Löschen dieser Aufgaben zulassen, indem er die Voreinstellungen für Aufgaben und Probleme in Ihrer Workfront-Instanz konfiguriert, damit Sie das Projekt, das die Aufgaben enthält, löschen können.
+* Wenn das Projekt Aufgaben oder Probleme mit protokollierten Stunden aufweist, muss der Workfront- oder Gruppenadministrator das Löschen dieser Aufgaben durch Konfigurieren der Voreinstellungen für Aufgaben und Probleme in Ihrer Workfront-Instanz zulassen, damit Sie das Projekt, das die Aufgaben enthält, löschen können.
 
-  Weitere Informationen zum Aktivieren des Löschens von Aufgaben, Problemen oder Projekten, bei denen Stunden protokolliert werden, finden Sie im Abschnitt &quot;Löschung&quot;unter [Systemweite Aufgaben und Ausgabevoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+  Weitere Informationen zum Aktivieren des Löschens von Aufgaben, Problemen oder Projekten, bei denen Stunden protokolliert werden, finden Sie im Abschnitt „Löschen“ in [Konfigurieren von systemweiten Aufgaben- und Problemeinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
 
   <!--
   <p data-mc-conditions="QuicksilverOrClassic.Quicksilver,QuicksilverOrClassic.Draft mode">(NOTE: this bullet stays in NWE only forever)</p>
@@ -80,13 +80,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ### Auswirkungen des Löschens von Projekten {#the-impact-of-deleting-projects}
 
-* Wenn Sie ein Projekt löschen, wirkt sich dies auf andere Objekte aus, die mit dem Projekt verknüpft sind.
+* Wenn Sie ein Projekt löschen, wirkt sich dies auf andere mit dem Projekt verknüpfte Objekte aus.
 
-  Die folgenden Objekte, die an ein Projekt angehängt sind, werden auch beim Löschen eines Projekts gelöscht:
+  Die folgenden an ein Projekt angehängten Objekte werden ebenfalls gelöscht, wenn Sie ein Projekt löschen:
 
    * Dokumente
 
-     Sie können ein Projekt mit einem angehängten Dokument, das ausgecheckt wurde, nicht löschen. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Dokumente auschecken](../../../documents/managing-documents/check-out-documents.md).
+     Sie können ein Projekt, an das ein ausgechecktes Dokument angehängt ist, nicht löschen. Weitere Informationen zum Auschecken von Dokumenten finden Sie unter [Auschecken von Dokumenten](../../../documents/managing-documents/check-out-documents.md).
 
    * Aufgaben
    * Teilaufgaben
@@ -96,62 +96,62 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Ausgaben
    * Risiken
    * Baselines
-   * Informationen zu Geschäftsfällen
-   * Informationen zu Warteschlangendetails
+   * Business Case-Informationen
+   * Warteschlangendetails-Informationen
    * Abrechnungssätze
    * Abrechnungseinträge
 
-     Sie können ein Projekt mit dem Status Rechnungseinträge nicht löschen. Weitere Informationen finden Sie unter [Erstellen von Rechnungsdatensätzen](../../projects/project-finances/create-billing-records.md).
+     Sie können kein Projekt löschen, das Rechnungsnachweise mit dem Status In Rechnung gestellt enthält. Weitere Informationen finden Sie unter [Rechnungsnachweise erstellen](../../projects/project-finances/create-billing-records.md).
 
-* Je nachdem, wie Ihr Workfront-Administrator die Voreinstellungen zum Projekt, zur Aufgabe oder zum Löschen von Problemen in den Voreinstellungen für das Arbeitsblatt und die Stunden Ihrer Workfront-Instanz konfiguriert, werden die für die Aufgaben, Probleme oder das Projekt protokollierten Stunden beim Löschen des Projekts auf eine der folgenden Arten verarbeitet:
+* Je nachdem, wie Ihr Workfront-Administrator die Voreinstellungen für die Projekt-, Aufgaben- oder Problemlöschung in der Arbeitszeittabelle und den Stundeneinstellungen Ihrer Workfront-Instanz konfiguriert, werden die für die Aufgaben, Probleme oder das Projekt protokollierten Stunden beim Löschen des Projekts auf eine der folgenden Arten gehandhabt:
 
-   * Die Stunden bleiben auf dem Timesheet als allgemeine Zeit.
-   * Die Stunden werden gelöscht und wiederhergestellt, wenn das Projekt jemals wiederhergestellt wird.
+   * Die Stunden verbleiben auf der Arbeitszeittabelle als allgemeine Zeit.
+   * Die Stunden werden gelöscht und werden wiederhergestellt, falls das Projekt jemals wiederhergestellt wird.
 
-  Weitere Informationen zum Konfigurieren der Löschvoreinstellungen für Stunden, die bei Problemen protokolliert werden, finden Sie unter [Konfigurieren von Voreinstellungen für Zeitblätter und Stunden](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+  Weitere Informationen zum Konfigurieren der Löschvoreinstellungen für Stunden, die bei Problemen protokolliert sind, finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
-* Wenn das Projekt, das Sie löschen, mit einer Initiative im Workfront-Szenario-Planer verknüpft ist:
+* Wenn das zu löschende Projekt mit einer Initiative im Workfront-Szenarioplaner verknüpft ist:
 
-   * Die Initiative bleibt im Plan, aber die Verknüpfung mit dem Projekt wird entfernt.
-   * Wenn das Projekt, das Sie löschen, mit der einzigen veröffentlichten Initiative aus einem Plan verknüpft ist, wird auch der Hinweis, dass der Plan veröffentlicht wurde, entfernt.
-   * Wenn Sie ein gelöschtes Projekt wiederherstellen, wird das Projekt zwar wiederhergestellt, die Verknüpfung zur Initiative jedoch nicht wiederhergestellt und der Bereich &quot;Szenario-Planer&quot;wird nicht mehr in den Projektdetails angezeigt.
+   * Die Initiative bleibt im Plan, aber die Verknüpfung zum Projekt wird entfernt.
+   * Wenn das zu löschende Projekt mit der einzigen veröffentlichten Initiative aus einem Plan verknüpft ist, wird auch der Hinweis entfernt, dass der Plan veröffentlicht wurde.
+   * Wenn Sie ein gelöschtes Projekt wiederherstellen, wird das Projekt wiederhergestellt, aber sein Link zur Initiative wird nicht wiederhergestellt und der Bereich Szenario-Planer wird nicht mehr in den Projektdetails angezeigt.
 
-     Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+     Für den Szenario-Planer ist eine zusätzliche Lizenz erforderlich. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
-     Informationen zu Projekten, die mit Initiativen im Szenario-Planer verknüpft sind, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
+     Informationen zu Projekten, die mit Initiativen im Szenario-Planer verknüpft sind, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Wenn das Projekt auch eine Aktivität für ein Ziel in Workfront-Zielen ist:
+* Wenn das Projekt auch eine Aktivität für ein Ziel in Workfront Goals ist:
 
-   * Das Projekt wird aus dem Ziel gelöscht. Der durch das Projekt angegebene Fortschritt im Ziel wird ebenfalls entfernt.
+   * Das Projekt wird aus dem Ziel gelöscht. Der vom Projekt für das Ziel angegebene Fortschritt wird ebenfalls entfernt.
 
-   * Wenn Sie das gelöschte Projekt wiederherstellen, wird das Projekt auch als die Aktivität des Ziels wiederhergestellt.
+   * Wenn Sie das gelöschte Projekt wiederherstellen, wird das Projekt auch als Zielaktivität wiederhergestellt.
 
-     Dies erfordert eine zusätzliche Lizenz. Weitere Informationen zu Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     Dies erfordert eine zusätzliche Lizenz. Informationen zu Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-     Informationen zum Verknüpfen von Projekten mit Zielen finden Sie unter [Projekte zu Zielen in Adobe Workfront-Zielen hinzufügen](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
+     Informationen zum Verknüpfen von Projekten mit Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../../../workfront-goals/results-and-activities/connect-projects-to-goals-overview.md).
 
-## Projekt in einer Liste löschen
+## Löschen eines Projekts in einer Liste
 
-Sie können Projekte aus einer Liste von Projekten löschen.
+Sie können Projekte aus einer Projektliste löschen.
 
-1. Gehen Sie zu einer Liste von Projekten oder einem Projektbericht.
-1. Wählen Sie das oder die Projekte aus, die Sie löschen möchten, und klicken Sie dann oben in der Liste auf das Symbol **Löschen** ![](assets/delete-icon.png) .
+1. Navigieren Sie zu einer Liste von Projekten oder einem Projektbericht.
+1. Wählen Sie das bzw. die Projekte aus, die Sie löschen möchten, und klicken Sie dann oben in **Liste auf** Symbol „Löschen“ ![](assets/delete-icon.png).
 
-1. Klicken Sie auf **Ja, löschen Sie es** , um den Löschvorgang zu bestätigen.
+1. Klicken Sie auf **Ja, löschen**, um den Löschvorgang zu bestätigen.
 
-   Die Projekte werden gelöscht und 30 Tage lang im Papierkorb gespeichert. Ihr Workfront-Administrator kann während dieser Zeit gelöschte Projekte aus dem Papierkorb wiederherstellen.
+   Die Projekte werden gelöscht und für 30 Tage im Papierkorb gespeichert. Ihr Workfront-Administrator kann gelöschte Projekte während dieses Zeitraums aus dem Papierkorb wiederherstellen.
 
 ## Löschen eines Projekts auf Projektebene
 
 1. Wechseln Sie zu dem Projekt, das Sie löschen möchten.
-1. Klicken Sie auf das Symbol **Mehr** ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **Projekt löschen**.
+1. Klicken Sie auf **Mehr**-Symbol ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **Projekt löschen**.
 
    ![](assets/more-icon-expanded-delete-project-highlighted.png)
 
-1. Klicken Sie auf **Ja, löschen Sie es**.
+1. Klicken Sie **Ja, löschen**.
 
-   Das Projekt wird gelöscht und 30 Tage lang im Papierkorb gespeichert. Ihr Workfront-Administrator kann ihn während dieser Zeit aus dem Papierkorb wiederherstellen.
+   Das Projekt wird gelöscht und für 30 Tage im Papierkorb gespeichert. Ihr Workfront-Administrator kann sie während dieses Zeitraums aus dem Papierkorb wiederherstellen.
 
-## Wiederherstellen gelöschter Projekte
+## Gelöschte Projekte wiederherstellen
 
-Ein System- oder Gruppenadministrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel [Gelöschte Elemente wiederherstellen](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md) beschrieben.
+Ein System- oder Gruppen-Administrator kann Projekte innerhalb von 30 Tagen nach dem Löschen wiederherstellen, wie im Artikel &quot;[ gelöschter Elemente wiederherstellen“ ](../../../administration-and-setup/manage-workfront/manage-deleted-items/restore-deleted-items.md).

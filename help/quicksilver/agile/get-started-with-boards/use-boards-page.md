@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Verwenden des Dashboards-Dashboards
-description: Das Dashboard [!UICONTROL Pinnwände] enthält die Liste der Pinnwände, auf die Sie Zugriff haben, einschließlich der Pinnwände, die Sie erstellt haben, und der Pinnwände, denen Sie hinzugefügt wurden.
+title: Dashboard-Pinnwände verwenden
+description: Das Dashboard [!UICONTROL Pinnwände] zeigt die Liste der Pinnwände an, auf die Sie Zugriff haben, einschließlich der von Ihnen erstellten Pinnwände und der Pinnwände, denen Sie hinzugefügt wurden.
 author: Lisa
 feature: Agile
 exl-id: bb275f4f-efaf-4dcc-b184-40e015f089b6
@@ -13,29 +13,29 @@ ht-degree: 0%
 
 ---
 
-# Verwenden des Dashboards-Dashboards
+# Dashboard für Pinnwände verwenden
 
 <!-- Audited: 1/2024 -->
 
 >[!IMPORTANT]
 >
->Workflows stehen nur einer bestimmten Kundengruppe zur Verfügung.
+>Arbeitsabläufe stehen nur einer bestimmten Kundengruppe zur Verfügung.
 
-Das Dashboard der Pinnwände zeigt die Liste der Pinnwände und Workflows an, auf die Sie Zugriff haben, einschließlich der Pinnwände, die Sie erstellt haben, und der Pinnwände, denen Sie hinzugefügt wurden. Zuerst werden einzelne Pinnwände angezeigt, auf die Sie Zugriff haben und die nicht Teil eines Workflows sind.
+Das Dashboard „Pinnwände“ zeigt die Liste der Pinnwände und Arbeitsabläufe an, auf die Sie Zugriff haben, einschließlich der von Ihnen erstellten Pinnwände und der Pinnwände, denen Sie hinzugefügt wurden. Einzelne Boards, auf die Sie Zugriff haben und die nicht Teil eines Workflows sind, werden zuerst angezeigt.
 
-Im Dashboard haben Sie folgende Möglichkeiten für Foren und Workflows:
+Im Dashboard haben Sie bei Pinnwänden und Arbeitsabläufen die folgenden Möglichkeiten:
 
-* Pinnwand oder Workstream archivieren
-* Filtern von Pinnwänden und Workflows
-* Sortieren Sie die Pinnwandliste nach Pinnwandnamen oder Änderungsdatum.
-* Suchen Sie nach einer Pinnwand oder einem Workstream.
-* Löschen einer Pinnwand oder eines Workflows
+* Pinnwand oder Arbeitsablauf archivieren
+* Filtern von Dashboards und Workflows
+* Pinnwand-Liste nach Namen oder Änderungsdatum sortieren
+* Nach einer Pinnwand oder einem Arbeitsablauf suchen
+* Pinnwand oder Arbeitsablauf löschen
 
-Informationen zum Erstellen einer neuen Pinnwand oder Bearbeiten einer vorhandenen Pinnwand finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md). Informationen zum Erstellen eines neuen Workflows finden Sie unter [Verwalten von Workflows](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
+Weitere Informationen zum Erstellen einer neuen Pinnwand oder zum Bearbeiten einer vorhandenen Pinnwand finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md). Informationen zum Erstellen eines neuen Arbeitsablaufs finden Sie unter [Verwalten von Arbeitsabläufen](/help/quicksilver/agile/use-boards-agile-planning-tools/manage-collections.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -45,92 +45,92 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront]</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL Anforderung] oder höher</p>
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 
-## Filtern von Foren und Workflows {#filter-boards}
+## Pinnwände und Arbeitsabläufe filtern {#filter-boards}
 
-Sie können das Dashboard der Pinnwände filtern, um aktive, archivierte oder alle Pinnwände oder Workflows anzuzeigen.
+Sie können das Dashboard „Pinnwände“ so filtern, dass aktive, archivierte oder alle Pinnwände oder Arbeitsabläufe angezeigt werden.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie auf [!UICONTROL **Filter**] im Bereich &quot;Pinnwände&quot;oder im Bereich &quot;Workflows&quot;und wählen Sie **[!UICONTROL Alle]**, **[!UICONTROL Aktiv]** oder **[!UICONTROL Archiviert]** aus.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
+1. Klicken Sie [!UICONTROL **Filter**] im Bereich Pinnwände oder Arbeitsabläufe und wählen Sie **[!UICONTROL Alle]**, **[!UICONTROL Aktiv]** oder **[!UICONTROL Archiviert]**.
 
-   Wenn ein anderer als der standardmäßige Filter auf das Dashboard angewendet wird, wird auf dem Filtersymbol ![Auf Dashboard angewendeter Filter](assets/boards-filterapplied-30x30.png) ein Indikator angezeigt.
+   Wenn ein anderer Filter als der Standard im Dashboard angewendet wird, wird ein Indikator auf dem Filtersymbol angezeigt ![Filter angewendet auf Dashboard](assets/boards-filterapplied-30x30.png).
 
-## Pinnwände
+## Pinnwände sortieren
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
-1. Um die Liste der Pinnwände zu sortieren, klicken Sie auf [!UICONTROL **Sortieren**]. Die standardmäßige Sortieroption für die Seite ist **[!UICONTROL Änderungsdatum]**. Sie können die Seite auch nach Pinnwand **[!UICONTROL Name]** sortieren.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
+1. Um die Liste der Pinnwände zu sortieren, klicken Sie auf [!UICONTROL **Sortieren**]. Die Standardsortierungsoption für die Seite ist nach **[!UICONTROL Änderungsdatum]**. Sie können die Seite auch nach Pinnwand (**[!UICONTROL )]**.
 
-   Wählen Sie **[!UICONTROL Reihenfolge umkehren]** aus, um die Pinnwände in umgekehrter Reihenfolge der geänderten oder benannten Daten zu sortieren. Wenn der Pfeil auf dem Sortiersymbol nach oben zeigt, wird die umgekehrte Reihenfolge angewendet. Wenn der Pfeil nach unten zeigt, wird die Standardreihenfolge angewendet.
+   Wählen Sie **[!UICONTROL Reihenfolge umkehren]**, um die Pinnwände in umgekehrter Reihenfolge des Änderungsdatums oder des Namens zu sortieren. Wenn der Pfeil auf dem Sortiersymbol nach oben zeigt, wird die umgekehrte Reihenfolge angewendet. Wenn der Pfeil nach unten zeigt, wird die Standardreihenfolge angewendet.
 
-   Wenn eine andere Sortierung als die Standardsortierung auf das Dashboard angewendet wird, wird auf dem Sortiersymbol ![Angewandte Sortierung](assets/sort-applied-boards.png) ein Indikator angezeigt.
+   Wenn eine andere Sortierung als die Standardsortierung im Dashboard angewendet wird, wird ein Indikator auf dem Sortierungssymbol ![Sortierung angewendet](assets/sort-applied-boards.png) angezeigt.
 
-## Suchen Sie nach einer Pinnwand oder einem Workstream.
+## Nach einer Pinnwand oder einem Arbeitsablauf suchen
 
-Sie können im Bereich &quot;Pinnwände&quot;nach einer bestimmten Pinnwand suchen oder im Bereich &quot;Workflows&quot;nach einem bestimmten Workstream suchen.
+Sie können im Bereich Pinnwände nach einer bestimmten Pinnwand suchen oder im Bereich Arbeitsabläufe nach einem bestimmten Arbeitsablauf suchen.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie auf [!UICONTROL **Suchen**] und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
+1. Klicken Sie [!UICONTROL **Suchen**] und geben Sie einen Suchbegriff ein. Drücken Sie dann die Eingabetaste.
 
-   Alle Pinnwände oder Workflows, die den Suchbegriff im Titel enthalten, werden angezeigt.
+   Alle Boards oder Workflows, die den Suchbegriff im Titel enthalten, werden angezeigt.
 
-   Klicken Sie auf das X, um die Suche zu löschen.
+   Klicken Sie auf X , um die Suche zu löschen.
 
    ![Suchen nach Pinnwänden im Dashboard](assets/boards-searchbox.png)
 
-## Pinnwand oder Workstream archivieren
+## Pinnwand oder Arbeitsablauf archivieren
 
-Durch die Archivierung einer Pinnwand oder eines Workflows wird diese an das Archiv gesendet und kann später wiederhergestellt werden.
-
->[!NOTE]
->
->Wenn Sie eine Pinnwand archivieren, wird sie für alle Mitglieder der Pinnwand archiviert.
->
->Wenn Sie einen Workstream archivieren, werden alle Foren archiviert.
-
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** im Menü ![Mehr Menü](assets/more-icon-spectrum.png) auf der Pinnwand oder im Workstream und wählen Sie **[!UICONTROL Archivieren]** aus.
-
-   In einem Workstream befindet sich das Menü rechts neben der Schaltfläche [!UICONTROL **Workflow anzeigen**] .
-
-   Ein [!UICONTROL Archiv] -Symbol ![Archiv](assets/archive-icon-spectrum-25x20.png) wird auf der Pinnwand oder im Workstream angezeigt. Sie können keine archivierte Pinnwand oder keinen Workstream bearbeiten.
-
-   Archivierte Elemente werden im Dashboard der Pinnwände ausgeblendet, es sei denn, Sie wenden einen Filter an, um sie anzuzeigen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Pinnwände filtern]](#filter-boards) in diesem Artikel.
-
-1. Um eine archivierte Pinnwand oder einen Workstream wiederherzustellen, klicken Sie auf das Menüsymbol **[!UICONTROL Mehr]** im Menü ![Mehr ](assets/more-icon-spectrum.png) auf der Pinnwand oder im Arbeitsablauf und wählen Sie **[!UICONTROL Wiederherstellen]** aus.
-
-## Löschen einer Pinnwand oder eines Workflows
-
-Wenn Sie eine Pinnwand löschen, wird sie dauerhaft aus [!DNL Workfront] entfernt und kann nicht wiederhergestellt werden. Alle Karten auf der Pinnwand werden ebenfalls zusammen mit der Pinnwand gelöscht.
-
-Beim Löschen eines Workflows werden auch alle Pinnwände des Workflows gelöscht.
+Wenn Sie eine Pinnwand oder einen Arbeitsablauf archivieren, wird diese an das Archiv gesendet und Sie können sie später wiederherstellen.
 
 >[!NOTE]
 >
->Sie können nur von Ihnen erstellte Foren und Workflows löschen, nicht aber Pinnwände und Workflows, denen Sie hinzugefügt wurden.
+>Wenn Sie eine Pinnwand archivieren, wird sie für alle Pinnwand-Mitglieder archiviert.
+>
+>Wenn Sie einen Arbeitsablauf archivieren, werden alle zugehörigen Boards archiviert.
 
-1. Klicken Sie auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oben rechts in Adobe Workfront oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]**, das Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
-1. Klicken Sie auf das Menü **[!UICONTROL Mehr]** im Menü ![[!UICONTROL Mehr Menü]](assets/more-icon-spectrum.png) auf der Pinnwand oder im Workstream und wählen Sie **[!UICONTROL Löschen]** aus.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![Mehr](assets/more-icon-spectrum.png) auf der Pinnwand oder im Arbeitsablauf und wählen Sie **[!UICONTROL Archivieren]**.
 
-   In einem Workstream befindet sich das Menü rechts neben der Schaltfläche [!UICONTROL **Workflow anzeigen**] .
+   In einem Arbeitsablauf befindet sich das Menü auf der rechten Seite neben der Schaltfläche [!UICONTROL **Arbeitsablauf anzeigen**].
 
-1. Klicken Sie in der Bestätigungsmeldung auf **[!UICONTROL Pinnwand löschen]** oder auf [!UICONTROL **Arbeitsstream löschen**] .
+   Ein [!UICONTROL Archivieren]-Symbol ![Archivieren](assets/archive-icon-spectrum-25x20.png) wird auf der Pinnwand oder im Arbeitsablauf angezeigt. Archivierte Pinnwände oder Arbeitsabläufe können nicht bearbeitet werden.
+
+   Archivierte Elemente werden im Dashboard der Pinnwände ausgeblendet, es sei denn, Sie wenden einen Filter an, um sie anzuzeigen. Weitere Informationen finden Sie im [[!UICONTROL Filterboards]](#filter-boards) in diesem Artikel.
+
+1. Um eine archivierte Pinnwand oder einen archivierten Arbeitsablauf wiederherzustellen, klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr Menüsymbol](assets/more-icon-spectrum.png) auf der Pinnwand oder dem Arbeitsablauf und wählen Sie **[!UICONTROL Wiederherstellen]**.
+
+## Eine Pinnwand oder einen Arbeitsablauf löschen
+
+Wenn Sie eine Pinnwand löschen, wird sie dauerhaft aus der [!DNL Workfront] entfernt und kann nicht wiederhergestellt werden. Alle Karten auf der Pinnwand werden zusammen mit der Pinnwand gelöscht.
+
+Beim Löschen eines Arbeitsablaufs werden auch alle Boards im Arbeitsablauf gelöscht.
+
+>[!NOTE]
+>
+>Sie können nur von Ihnen erstellte Pinnwände und Arbeitsabläufe löschen, nicht jedoch Pinnwände und Arbeitsabläufe, denen Sie hinzugefügt wurden.
+
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Pinnwände]**.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![[!UICONTROL Mehr]](assets/more-icon-spectrum.png) auf der Pinnwand oder im Arbeitsablauf und wählen Sie **[!UICONTROL Löschen]**.
+
+   In einem Arbeitsablauf befindet sich das Menü auf der rechten Seite neben der Schaltfläche [!UICONTROL **Arbeitsablauf anzeigen**].
+
+1. Klicken Sie **[!UICONTROL der Bestätigungsmeldung auf]** Pinnwand löschen [!UICONTROL **oder**] Arbeitsablauf löschen“.
 
 <!-- ## Move a board to a workstream
 

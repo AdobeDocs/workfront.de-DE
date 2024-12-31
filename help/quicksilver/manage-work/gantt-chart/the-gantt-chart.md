@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: projects-navigation-topic
-title: Gantt-Diagramm
-description: Informationen zum Diagramm [!UICONTROL Gantt] finden Sie im folgenden Unterabschnitt.
+title: Das Gantt-Diagramm
+description: Informationen zum [!UICONTROL Gantt-Diagramm] finden Sie im folgenden Unterabschnitt.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -18,5 +18,5 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [[!UICONTROL Gantt-Diagramm] - Übersicht](../../manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
+* [[!UICONTROL Gantt-Diagramm] Übersicht](../../manage-work/gantt-chart/use-the-gantt-chart/gantt-chart-overview.md)
 

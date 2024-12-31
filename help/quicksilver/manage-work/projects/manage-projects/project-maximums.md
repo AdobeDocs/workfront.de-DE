@@ -1,9 +1,9 @@
 ---
-title: Übersicht über die Projektbeschränkungen
+title: Übersicht über Projektbeschränkungen
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-description: Adobe Workfront hat Beschränkungen dafür, wie viele Objekte mit einem Projekt verknüpft werden können. Es gibt Projektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit Workfront zu verbessern.
+description: In Adobe Workfront gibt es Beschränkungen für die Anzahl der Objekte, die mit einem Projekt verknüpft werden können. Es gibt Projektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit Workfront zu verbessern.
 author: Alina
 feature: Work Management
 exl-id: 60576107-89f1-4328-89e2-5b1e5e243fd9
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über die Projektbeschränkungen
+# Übersicht über Projektbeschränkungen
 
-Adobe Workfront hat Beschränkungen dafür, wie viele Objekte mit einem Projekt verknüpft werden können. Es gibt Projektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit Workfront zu verbessern.
+In Adobe Workfront gibt es Beschränkungen für die Anzahl der Objekte, die mit einem Projekt verknüpft werden können. Es gibt Projektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit Workfront zu verbessern.
 
-Die folgenden Objekte, die mit Projekten verknüpft sind, haben die folgenden Einschränkungen:
+Die folgenden mit Projekten verknüpften Objekte weisen die folgenden Beschränkungen auf:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,18 +26,18 @@ Die folgenden Objekte, die mit Projekten verknüpft sind, haben die folgenden Ei
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Aufgaben</p></td> 
-   <td>  <p>Die maximale Anzahl von Aufgaben pro Projekt beträgt 5.000. Eine Warnmeldung wird angezeigt, wenn die Anzahl der Aufgaben diesem Höchstwert entspricht. Wenn das Maximum erreicht ist, wird eine Fehlermeldung angezeigt und dem Projekt können keine zusätzlichen Aufgaben hinzugefügt werden.</p> <p>Um dieses Maximum zu vermeiden, verschieben Sie Aufgaben, die für geschlossene Aufgaben geschlossen sind, in ein anderes Projekt. Die Berichte über diese Projekte müssen möglicherweise angepasst werden.</p>
+   <td>  <p>Pro Projekt sind maximal 5.000 Aufgaben zulässig. Wenn sich die Anzahl der Aufgaben diesem Maximum nähert, wird eine Warnmeldung angezeigt. Wenn das Maximum erreicht ist, wird eine Fehlermeldung angezeigt und zusätzliche Aufgaben können nicht zum Projekt hinzugefügt werden.</p> <p>Um dieses Maximum zu vermeiden, verschieben Sie Aufgaben, die geschlossen sind, in ein anderes Projekt, das für geschlossene Aufgaben vorgesehen ist. Die Berichte über diese Projekte müssen möglicherweise angepasst werden.</p>
 
 <b>WICHTIG</b>
 
-Bei Projekten mit vielen Abhängigkeiten von Aufgaben kann die Leistung bei der Berechnung der Timeline oder bei der Arbeit im Projekt beeinträchtigt sein.
+Bei Projekten, bei denen Aufgaben stark von Abhängigkeiten abhängig sind, kann es bei der Berechnung der Zeitleiste oder bei der Arbeit im Projekt zu Leistungseinbußen kommen.
 
-Aus diesem Grund empfehlen wir, dass die Anzahl der Aufgaben in Projekten mit komplexen Abhängigkeiten deutlich niedriger sein sollte als die maximal zulässige Anzahl von 5.000 Aufgaben.
+Aus diesem Grund empfehlen wir, dass die Anzahl der Aufgaben in Projekten mit komplexen Abhängigkeiten viel niedriger als die maximal zulässige Anzahl von 5.000 Aufgaben sein sollte.
 
 Beispiele für Aufgabenabhängigkeiten, die die Neuberechnung der Zeitleiste des Projekts beeinflussen oder verhindern können:
 
-<ul><li>Anzahl der untergeordneten Elemente</li>
-   <li>Einzug mehrerer Ebenen von Aufgaben</li>
+<ul><li>Anzahl untergeordneter Elemente</li>
+   <li>Mehrere Einzugsebenen für Aufgaben</li>
    <li>Anzahl der Vorgänger</li>
    <li>Mehrere Zuweisungen</li>
    </ul>
@@ -45,15 +45,15 @@ Beispiele für Aufgabenabhängigkeiten, die die Neuberechnung der Zeitleiste des
   </tr> 
   <tr> 
    <td role="rowheader"><p>Probleme</p></td> 
-   <td>  <p>Die maximale Anzahl von Problemen pro Projekt beträgt 10.000. Eine Warnmeldung wird angezeigt, wenn die Anzahl der Probleme diesem Höchstwert entspricht. Wenn das Maximum erreicht ist, wird eine Fehlermeldung angezeigt und dem Projekt können keine zusätzlichen Probleme hinzugefügt werden.</p> <p>Um dieses Maximum zu vermeiden, verschieben Sie Probleme, die für ein anderes Projekt geschlossen sind, das für geschlossene Probleme vorgesehen ist. Die Berichte über diese Projekte müssen möglicherweise angepasst werden.</p> </td> 
+   <td>  <p>Die maximale Anzahl von Problemen pro Projekt beträgt 10.000. Eine Warnmeldung wird angezeigt, wenn sich die Anzahl der Probleme diesem Maximum nähert. Wenn das Maximum erreicht ist, wird eine Fehlermeldung angezeigt und zusätzliche Probleme können nicht zum Projekt hinzugefügt werden.</p> <p>Um zu vermeiden, dass dieses Maximum erreicht wird, verschieben Sie Probleme, die geschlossen sind, in ein anderes Projekt, das für geschlossene Probleme vorgesehen ist. Die Berichte über diese Projekte müssen möglicherweise angepasst werden.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Dauer</p></td> 
-   <td> <p>Die maximale Dauer eines Projekts muss 15 Jahre betragen, damit Workfront seinen Zeitrahmen automatisch berechnet. Es wird eine Warnmeldung angezeigt, wenn sich die Projektdauer der maximalen Dauer nähert. Wenn das Maximum erreicht ist, wird eine Warnmeldung angezeigt und die automatischen Timeline-Berechnungen treten nicht mehr auf.</p> <p>Die automatischen Timeline-Berechnungen werden fortgesetzt, sobald die Dauer eines Projekts unter 15 Jahre verringert wird, indem die Daten der Aufgaben im Projekt angepasst werden.</p> </td> 
+   <td> <p>Die maximale Dauer eines Projekts muss 15 Jahre betragen, damit Workfront seinen Zeitplan automatisch berechnet. Wenn sich die Projektdauer dem Maximum nähert, wird eine Warnmeldung angezeigt. Wenn das Maximum erreicht ist, wird eine Warnmeldung angezeigt und die automatischen Zeitleistenberechnungen werden nicht mehr angezeigt.</p> <p>Die automatischen Zeitleistenberechnungen werden wieder aufgenommen, sobald die Projektdauer durch eine Anpassung der Termine der Aufgaben im Projekt auf unter 15 Jahre reduziert wird.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><p>Timeline-Berechnungen</p></td> 
-   <td>Workfront führt keine automatischen Timeline-Berechnungen für Projekte durch, die seit 6 Monaten nicht aktualisiert wurden, und wird erst fortgesetzt, wenn eine Aktualisierung vorgenommen wurde.<p>Für Projekte, die seit 3 Monaten nicht aktualisiert wurden, führt Workfront wöchentliche statt nächtliche Zeitleistenberechnungen durch.</p><p>Informationen zum Berechnen der Projekt-Timeline finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitpläne neu berechnen</a>. </p></td> 
+   <td role="rowheader"><p>Zeitleistenberechnungen</p></td> 
+   <td>Workfront führt keine automatischen Zeitleistenberechnungen für Projekte durch, die in den letzten sechs Monaten nicht aktualisiert wurden. Die Zeitleistenberechnungen werden erst fortgesetzt, wenn eine Aktualisierung vorgenommen wurde.<p>Für Projekte, die in den letzten drei Monaten nicht aktualisiert wurden, führt Workfront wöchentlich anstatt nachts Zeitleistenberechnungen durch.</p><p>Informationen zur Berechnung der Projektzeitleiste finden Sie unter <a href="../../../manage-work/projects/manage-projects/recalculate-project-timeline.md" class="MCXref xref">Projektzeitleisten neu berechnen</a>. </p></td> 
   </tr> 
  </tbody> 
 </table>

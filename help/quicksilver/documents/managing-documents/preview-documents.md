@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: manage-documents
 title: Vorschau von Dokumenten
-description: Sie können eine Vorschau eines Dokuments im Bereich "Dokumente"anzeigen. Dies ist besonders für Bilder nützlich.
+description: Sie können eine Vorschau eines Dokuments im Bereich Dokumente anzeigen. Dies ist besonders für Bilder nützlich.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 # Vorschau von Dokumenten
 
-Sie können eine Vorschau eines Dokuments im Bereich &quot;Dokumente&quot;anzeigen. Dies ist besonders für Bilder nützlich.
+Sie können eine Vorschau eines Dokuments im Bereich Dokumente anzeigen. Dies ist besonders für Bilder nützlich.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -31,31 +31,31 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p> Alle</p> </td> 
+   <td> <p> Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenzen*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf das mit dem Dokument verknüpfte Objekt anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen des Zugriffs auf das mit dem Dokument verknüpfte Objekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
-## Dokumentvorschau
+## Dokument in der Vorschau anzeigen
 
-1. Bewegen Sie in einer Dokumentliste den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Dokumentdetails** .
+1. Bewegen Sie in einer Dokumentliste den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Dokumentdetails**.
 1. Klicken Sie auf der angezeigten Seite auf das Miniaturbild des Dokuments.
 
-   * Wenn Sie das Dokument nicht für die Überprüfung vorbereitet haben, wird es in einer neuen Browser-Registerkarte angezeigt.
-   * Wenn Sie das Dokument für die Überprüfung vorbereitet haben, wird der Testversand-Viewer geöffnet, um es anzuzeigen.
+   * Wenn Sie das Dokument nicht zur Überprüfung vorbereitet haben, wird es in einer neuen Browser-Registerkarte angezeigt.
+   * Wenn Sie das Dokument zur Überprüfung vorbereitet haben, wird die Korrekturabzugsansicht geöffnet, um es anzuzeigen.

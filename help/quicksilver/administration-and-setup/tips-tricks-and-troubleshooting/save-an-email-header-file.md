@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: Speichern einer E-Mail-Header-Datei
-description: Gelegentlich kann der Support eine E-Mail-Header-Datei anfordern.  [!DNL Adobe Workfront]  Jede E-Mail-Anwendung hat ihre eigene Methode, diese Datei zu erhalten. Im Folgenden finden Sie einige Anweisungen für E-Mail-Anwendungen zum Suchen und Speichern der Kopfzeile. [!DNL Outlook]
+description: Gelegentlich  [!DNL Adobe Workfront]  der -Support eine E-Mail-Header-Datei angefordert. Jedes E-Mail-Programm hat seine eigene Methode, diese Datei zu erhalten. Im Folgenden finden Sie einige verschiedene Anweisungen zur E-Mail-Anwendung, um den Header zu finden und zu speichern. [!DNL Outlook]
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,47 +16,47 @@ ht-degree: 0%
 
 ---
 
-# E-Mail-Header-Datei speichern
+# Speichern einer E-Mail-Header-Datei
 
-Gelegentlich kann der Support von [!DNL Adobe Workfront] eine E-Mail-Header-Datei anfordern. Jede E-Mail-Anwendung hat ihre eigene Methode, diese Datei zu erhalten. Im Folgenden finden Sie einige Anweisungen für E-Mail-Anwendungen zum Suchen und Speichern der Kopfzeile.
+Gelegentlich fordert [!DNL Adobe Workfront] Support möglicherweise eine E-Mail-Header-Datei an. Jedes E-Mail-Programm hat seine eigene Methode, diese Datei zu erhalten. Im Folgenden finden Sie einige verschiedene Anweisungen zur E-Mail-Anwendung, um den Header zu finden und zu speichern.
 
 ## Outlook
 
-1. Öffnen Sie die E-Mail.
-1. Klicken Sie auf **[!UICONTROL Anzeigen]** und wählen Sie **[!UICONTROL Nachrichtenoptionen]** aus.
+1. Öffnen Sie die E-Mail-Nachricht.
+1. Klicken Sie **[!UICONTROL Anzeigen]** und wählen Sie **[!UICONTROL Nachrichtenoptionen]** aus.
 
 1. Klicken Sie auf **[!UICONTROL Internet-Kopfzeilen]**.
 1. Speichern Sie die vollständige Header-Datei.
 
 ## Outlook für Mac
 
-1. Rechtsklicken Sie auf die E-Mail-Nachricht.
-1. Wählen Sie **[!UICONTROL Source anzeigen]** aus.
+1. Rechtsklick auf die E-Mail-Nachricht.
+1. Wählen **[!UICONTROL Source anzeigen]**.
 1. Speichern Sie die vollständige Header-Datei.
 
 ## Gmail
 
-1. Öffnen Sie die E-Mail.
-1. Klicken Sie auf das Dropdownmenü **[!UICONTROL Antwort]** in der oberen rechten Ecke des Bildschirms.
-1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Original anzeigen]** aus.
+1. Öffnen Sie die E-Mail-Nachricht.
+1. Klicken Sie auf **[!UICONTROL Dropdown]** Menü „Antworten“ in der oberen rechten Ecke des Bildschirms.
+1. Scrollen Sie nach unten und wählen Sie **[!UICONTROL Original anzeigen]**.
 1. Speichern Sie die vollständige Header-Datei.
 
-## Thunderbird
+## Donnervogel
 
-1. Öffnen Sie die E-Mail.
-1. Klicken Sie auf **[!UICONTROL Ansicht]** und wählen Sie **[!UICONTROL Source verwalten]** aus.
+1. Öffnen Sie die E-Mail-Nachricht.
+1. Klicken Sie auf **[!UICONTROL Anzeigen]** und wählen Sie **[!UICONTROL Source verwalten]** aus.
 
 1. Speichern Sie die vollständige Header-Datei.
 
 ## Yahoo Mail
 
 1. Öffnen Sie die Nachricht.
-1. Klicken Sie auf &quot;**[!UICONTROL Aktionen]**&quot;und wählen Sie &quot;**[!UICONTROL Vollständige Kopfzeile anzeigen]**&quot;.
+1. Klicken Sie auf **[!UICONTROL Aktionen]** und wählen Sie **[!UICONTROL Vollständige Kopfzeile anzeigen]**.
 
 1. Speichern Sie die vollständige Header-Datei.
 
 ## Hotmail
 
-1. Gehen Sie zur Nachrichtenliste.
-1. Klicken Sie mit der rechten Maustaste auf die Nachricht und wählen Sie **[!UICONTROL Nachricht Source anzeigen]** aus.
+1. Zur Nachrichtenliste.
+1. Klicken Sie mit der rechten Maustaste auf die Nachricht und wählen Sie **[!UICONTROL Nachricht Source anzeigen]**.
 1. Speichern Sie die vollständige Header-Datei.

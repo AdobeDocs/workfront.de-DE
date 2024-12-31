@@ -2,8 +2,8 @@
 content-type: overview
 product-area: agile-and-teams
 navigation-topic: burndown
-title: Agile Verteilung Diagramm - Übersicht
-description: Das Durchlaufdiagramm bietet eine visuelle Darstellung des Fortschritts von Meldungen durch die Iteration oder das Projekt . Die tatsächliche Abbruchrate wird mit der idealen Abbruchrate für die Iteration oder Projektzeitleiste gemessen.
+title: Agile Burndown-Diagramm - Übersicht
+description: Das Burndown-Diagramm bietet eine visuelle Darstellung des Fortschritts von Storys durch die Iteration oder das Projekt . Die tatsächliche Burndown-Rate wird mit der idealen Burndown-Rate für die Iterations- oder Projektzeitleiste gemessen.
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über die Agile-Burndown-Liste
+# Agile Burndown-Diagramm - Übersicht
 
-Die Abbruchgrafik bietet eine visuelle Darstellung des Fortschritts von Geschichten während der Iteration. Die tatsächliche Abbruchrate wird mit der idealen Abbruchrate für die Iterationszeitleiste gemessen.
+Das Burndown-Diagramm zeigt den Fortschritt der Storys durch die Iteration. Die tatsächliche Burndown-Rate wird mit der idealen Burndown-Rate für die Iterationszeitleiste verglichen.
 
-Das Diagramm passt sich je nach ausgewähltem Tag an. Der aktuelle Tag ist der Standardwert. Wenn ein vorheriger Tag ausgewählt wird, werden alle Daten im Startdiagramm und alle Werte im Abschnitt [!UICONTROL Abschlussstatus] über dem Startdiagramm neu berechnet, um die Daten so darzustellen, wie sie am Ende des ausgewählten Tages waren. (Sie können vergangene Tage oder den aktuellen Tag auswählen; Sie können keine Tage in der Zukunft auswählen.)
+Das Burndown-Diagramm wird entsprechend dem ausgewählten Tag angepasst. Der aktuelle Tag ist der Standard. Wenn ein vorheriger Tag ausgewählt wird, werden alle Daten im Burndown-Diagramm und alle Werte im Abschnitt [!UICONTROL Abschlussstatus] über dem Burndown-Diagramm neu berechnet, um die Daten so darzustellen, wie sie am Ende des ausgewählten Tages waren. (Sie können vergangene oder aktuelle Tage auswählen; Sie können keine Tage in der Zukunft auswählen.)
 
 ![](assets/agile-iteration-burndown-350x88.png)
 
 ## Visuelle Indikatoren
 
-Das Diagramm enthält die folgenden visuellen Indikatoren:
+Das Burndown-Diagramm enthält die folgenden visuellen Indikatoren:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -32,64 +32,64 @@ Das Diagramm enthält die folgenden visuellen Indikatoren:
  <tbody> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
-   <td> <p>Ideale Abbruchrate basierend auf dem Zeitpunkt, zu dem die Iteration begann.</p> <p>Diese Zeile wird nicht angezeigt, wenn sich der Umfang der Iteration nie ändert (Stunden oder Punkte werden nie hinzugefügt oder entfernt).</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird. Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Abblenddiagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Auswirkungen der freien Tage auf das Diagramm für den Abbruch</a>.</p> </td> 
+   <td> <p>Ideale Burndown-Rate basierend auf dem Beginn der Iteration</p> <p>Diese Zeile wird nicht angezeigt, wenn sich der Umfang der Iteration nie ändert (Stunden oder Punkte werden nie hinzugefügt oder entfernt).</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird. Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Burndown-Diagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Wie sich Urlaubstage auf das Burndown-Diagramm auswirken</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
-   <td> <p>Ideal Burndown-Rate basierend auf aktuellen Geschichten oder Aufgaben.</p> <p>Die aktuelle ideale Abbruchrate (solide blaue Linie) unterscheidet sich von der ursprünglichen idealen Abbruchrate (gepunktete blaue Linie), wenn Stunden oder Punkte nach Beginn der Iteration hinzugefügt oder aus der Iteration entfernt werden.</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird.</p> <p>Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Abblenddiagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Auswirkungen der freien Tage auf das Diagramm für den Abbruch</a>.</p> </td> 
+   <td> <p>Ideale Burndown-Rate basierend auf aktuellen Storys oder Aufgaben.</p> <p>Die aktuelle ideale Burndown-Rate (durchgezogene blaue Linie) unterscheidet sich von der ursprünglichen idealen Burndown-Rate (gepunktete blaue Linie), wenn Stunden oder Punkte zu der Iteration hinzugefügt oder aus ihr entfernt werden, nachdem die Iteration beginnt.</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird.</p> <p>Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Burndown-Diagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Wie sich Urlaubstage auf das Burndown-Diagramm auswirken</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
-   <td> <p>Die tatsächliche Abbruchrate wird in Rot angezeigt, wenn die Abbruchrate geringer ist als die ideale (mehr Punkte oder Stunden, die pro Tag verbleiben, als die ideale Abbruchberechnung).</p> <p>Die folgende Formel wird verwendet, um die tatsächliche Abbruchrate zu berechnen:</p> <p>[SUM(Point or Hour Value of In Progress Work * Percent Complete) + Point or Hour Value of Completed Work]</p> </td> 
+   <td> <p>Die tatsächliche Burndown-Rate wird rot angezeigt, wenn die Burndown-Rate geringer ist als das Ideal (es verbleiben mehr Punkte oder Stunden pro Tag als die ideale Burndown-Berechnung).</p> <p>Die folgende Formel wird zur Berechnung der tatsächlichen Burndown-Rate verwendet:</p> <p>[SUM(Punkt- oder Stundenwert in Arbeit * Prozent abgeschlossen) + Punkt- oder Stundenwert der abgeschlossenen Arbeit]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
-   <td> <p>Die tatsächliche Abbruchrate wird grün angezeigt, wenn die Abbruchrate dem Ideal entspricht oder besser ist (entspricht oder weniger Punkten, die pro Tag verbleiben, als die ideale Abbruchberechnung).</p> <p>Die folgende Formel wird verwendet, um die tatsächliche Abbruchrate zu berechnen:</p> <p>[SUM(Point or Hour Value of In Progress Work * Percent Complete) + Point or Hour Value of Completed Work]</p> </td> 
+   <td> <p>Die tatsächliche Burndown-Rate wird grün angezeigt, wenn die Burndown-Rate gleich oder besser als das Ideal ist (gleich oder weniger Punkte pro Tag als die ideale Burndown-Berechnung).</p> <p>Die folgende Formel wird zur Berechnung der tatsächlichen Burndown-Rate verwendet:</p> <p>[SUM(Punkt- oder Stundenwert in Arbeit * Prozent abgeschlossen) + Punkt- oder Stundenwert der abgeschlossenen Arbeit]</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
-   <td> <p>Änderung des Umfangs (Stunden oder Punkte werden aus der Iteration hinzugefügt oder entfernt).</p> <p>Änderungen am Umfang werden immer in der Tagesmitte als vertikale Linie angezeigt. Darüber hinaus wird ein blauer Punkt mitten an jedem Tag angezeigt, an dem eine Bereichsänderung vorgenommen wurde.</p> <p>Die vertikale Achse des Niederschlags zeigt die Story-Punkte oder Stunden an.</p> </td> 
+   <td> <p>Änderung des Umfangs (Stunden oder Punkte werden der Iteration hinzugefügt oder daraus entfernt).</p> <p>Umfangsänderungen werden immer in der Tagesmitte als vertikale Linie angezeigt. Darüber hinaus wird ein blauer Punkt in der Mitte eines beliebigen Tages angezeigt, an dem eine Umfangsänderung stattgefunden hat.</p> <p>Die vertikale Achse des Burndown-Diagramms zeigt die Story-Punkte oder -Stunden an.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
-   <td> <p>Änderung des Datumsbereichs (die Iterationsdauer wird entweder erhöht oder verringert).</p> <p>Mitten an jedem Tag, an dem die Iterationsdauer geändert wurde, wird ein blauer Punkt angezeigt.</p> </td> 
+   <td> <p>Änderung des Datumsbereichs (Dauer der Iteration wird erhöht oder verringert).</p> <p>Ein blauer Punkt in der Mitte eines beliebigen Tages wird angezeigt, an dem die Iterationsdauer geändert wurde.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
-   <td> <p>Bei jedem Abbrennen der Arbeit wird ein grüner oder roter Punkt auf der tatsächlichen Abbruchrate angezeigt. (Wenn die tatsächliche Abbruchrate an diesem Tag rot ist, ist der Punkt rot; wenn die tatsächliche Abbruchrate an diesem Tag grün ist, ist der Punkt grün.)</p> <p>Arbeiten werden verbrannt, wenn eine der folgenden Aktionen eintritt:</p> 
+   <td> <p>Bei jedem Abbrennen der Arbeit wird ein grüner oder roter Punkt auf der tatsächlichen Abbrandrate angezeigt. (Wenn die tatsächliche Burndown-Rate an diesem Tag rot ist, ist der Punkt rot; wenn die tatsächliche Burndown-Rate an diesem Tag grün ist, ist der Punkt grün.)</p> <p>Arbeit wird ausgebrannt, wenn eine der folgenden Situationen eintritt:</p> 
     <ul> 
-     <li> Die [!UICONTROL Prozentzahl der Vollständigkeit] wird auf die Meldung erhöht.<br>[!UICONTROL Prozent abgeschlossen] wird erhöht, wenn: 
+     <li> Der [!UICONTROL Prozent abgeschlossen] wird in der Story erhöht.<br>[!UICONTROL Percent Complete] wird erhöht, wenn: 
       <ul> 
        <li> <p>Manuell geändert</p> </li> 
-       <li> <p>Die Anzahl der Punkte oder Stunden wird über die Meldung aktualisiert.</p> </li> 
+       <li> <p>Die Anzahl der Punkte oder Stunden für die Story wird aktualisiert</p> </li> 
       </ul></li>  
-     <li>Der Status der Geschichte ändert sich in [!UICONTROL Complete]</li> 
+     <li>Der Status der Story wird in [!UICONTROL Complete] geändert.</li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Auswirkungen von Tagen ohne Startdatum auf die Niederschlagskarte {#how-days-off-affect-the-burndown-chart}
+## Wie sich Urlaubstage auf das Burndown-Diagramm auswirken {#how-days-off-affect-the-burndown-chart}
 
-Der in [!DNL Workfront] definierte Standardzeitplan wirkt sich auf das Diagramm aus, indem Tage (Wochenenden und Feiertage) aus dem Abbruch ausgeschlossen werden. Das Diagramm verwendet den Standardzeitplan zur Definition von Arbeitstagen (wie unter  [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
+Der in [!DNL Workfront] definierte Standardzeitplan wirkt sich auf das Burndown-Diagramm aus, indem er Urlaubstage (Wochenenden und Feiertage) vom Burndown ausschließt. Das Burndown-Diagramm verwendet den Standardzeitplan zum Definieren von Arbeitstagen (wie in beschrieben.  [Zeitplan erstellen](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)).
 
-Agile Teams können Team-spezifische, nicht-arbeitstägliche Tage einbinden, indem sie einen alternativen Zeitplan definieren (wie im Artikel [Verwenden Sie einen alternativen Teamzeitplan für Startdiagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md) beschrieben). Dieser alternative Zeitplan spiegelt sich dann in der Abbruchgrafik jeder dem Team zugewiesenen Iteration wider. Der alternative Zeitplan wirkt sich nur auf das Diagramm aus.
+Agile Teams können teamspezifische arbeitsfreie Tage einbeziehen, indem sie einen alternativen Zeitplan definieren (wie im Artikel [Verwenden eines alternativen Teamplans für Burndown-Diagramme](../../../agile/use-scrum-in-an-agile-team/burndown/use-alt-team-schedule-burndown-charts.md) beschrieben). Dieser alternative Zeitplan wird dann im Burndown-Diagramm jeder dem Team zugewiesenen Iteration angezeigt. Der alternative Zeitplan wirkt sich nur auf das Burndown-Diagramm aus.
 
-Die Tage vor dem Start werden nur dann in der Dropdownliste angezeigt, wenn:
+Urlaubstage werden nur dann im Burndown-Diagramm angezeigt, wenn:
 
 * Die Arbeit wurde zuvor an einem freien Tag protokolliert. (Der Tag, an dem die Arbeit protokolliert wurde, wird angezeigt.)
 
-  Wenn die Arbeit an einem freien Tag angemeldet ist:
+  Wenn die Arbeit an einem freien Tag protokolliert wird:
 
-   * Alle protokollierten Arbeiten werden bei der Berechnung des idealen Downloads nicht berücksichtigt, da das Team keine Arbeit erledigen soll.
-   * Die idealen Abbruchlinien (die durchgezogene blaue Linie und die gestrichelte blaue Linie) werden in der Abbruchgrafik für jeden Tag, an dem die Arbeit abgeschlossen ist, oder für den Tag, an dem Sie die Abbruchgrafik anzeigen (wenn Sie an einem freien Tag anzeigen), als flach dargestellt.
-   * Die protokollierten Arbeiten werden bei der Berechnung anderer Aufschlüsselungsstatistiken berücksichtigt, wie etwa der geschätzten Fertigstellung und der durchschnittlichen Tagespunkte oder -stunden.
+   * Protokollierte Arbeiten werden bei der Berechnung des idealen Burndown nicht berücksichtigt, da das Team für keine Arbeit eingeplant ist.
+   * Die idealen Burndown-Linien (durchgezogene blaue Linie und gestrichelte blaue Linie) werden im Burndown-Diagramm als flach für jeden Tag angezeigt, an dem die Arbeit erledigt wurde, oder an dem Tag, an dem Sie das Burndown-Diagramm anzeigen (wenn Sie an einem freien Tag anzeigen).
+   * Protokollierte Arbeit wird bei der Berechnung anderer Burndown-Statistiken wie dem geschätzten Abschluss und den durchschnittlichen Punkten oder Stunden pro Tag einbezogen.
 
-* Sie sehen das Diagramm des Niederschlags an einem freien Tag. (Der Tag, den Sie anzeigen, wird in der Dropdownliste angezeigt.)
-* Sie führen die gesamte für die Iteration verbleibende Arbeit an einem freien Tag durch.
+* Sie zeigen das Burndown-Diagramm an einem freien Tag an. (Der Tag, den Sie anzeigen, wird im Burndown-Diagramm angezeigt.)
+* Sie schließen die gesamte verbleibende Arbeit für die Iteration an einem freien Tag ab.
 
-  Wenn ein Benutzer die gesamte für die Iteration verbleibende Arbeit an einem freien Tag abschließt, zeigt das Feld [!UICONTROL Geschätzter Abschluss] das Datum an, an dem die Iteration abgeschlossen wurde.
+  Wenn ein(e) Benutzende(r) die gesamte verbleibende Arbeit für die Iteration an einem freien Tag erledigt, wird im Feld [!UICONTROL Geschätzter Abschluss] das Datum angezeigt, an dem die Iteration abgeschlossen wurde.
 
-  Wenn Sie bei der Planung der Iteration das Enddatum der Iteration für einen nicht funktionierenden Tag festlegen und die Iteration die pünktliche Fertigstellung verfolgt, wird das Datum für den [!UICONTROL Geschätzten Abschluss] für den letzten Arbeitstag vor dem von Ihnen festgelegten Iterationsenddatum festgelegt (da die Arbeit nicht für Nichtarbeitstage geplant ist).
+  Wenn Sie bei der Planung der Iteration das Enddatum der Iteration für einen arbeitsfreien Tag festgelegt haben und die Iteration so verfolgt, dass sie pünktlich abgeschlossen wird, wird das [!UICONTROL Geschätzte Abschlussdatum] für den letzten Arbeitstag vor dem von Ihnen festgelegten Enddatum der Iteration festgelegt (da die Arbeit nicht an arbeitsfreien Tagen abgebrannt werden soll).
 
-  Das Enddatum für die Iteration wird bei der Planung der Iteration angegeben, wie im Artikel [Iteration erstellen](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) beschrieben.
+  Das Enddatum für die Iteration wird bei der Planung der Iteration angegeben, wie im Artikel [Erstellen einer Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md) beschrieben.

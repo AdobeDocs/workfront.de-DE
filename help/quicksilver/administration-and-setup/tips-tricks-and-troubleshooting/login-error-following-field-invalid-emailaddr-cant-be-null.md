@@ -4,7 +4,7 @@ content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
 title: 'Anmeldefehler: Die folgenden Felder sind ungültig: emailAddr darf nicht null sein'
-description: 'Wenn ich versuche, mich bei der URL für meine Domäne anzumelden, werde ich zum SAML-Anmeldungsportal umgeleitet und dann zurück zu  [!DNL Workfront] umgeleitet. Dabei wird ein Fehler ausgegeben, der besagt, dass das Feld emailAddr nicht null sein darf. [!DNL Adobe Workfront] '
+description: Wenn ich versuche, mich bei der  [!DNL Adobe Workfront] -URL für meine Domain anzumelden, werde ich zum SAML-Anmeldeportal weitergeleitet und dann zurück zu  [!DNL Workfront] , wobei ein Fehler angezeigt wird, der besagt, dass das Feld „emailAddr“ nicht null sein darf.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -20,9 +20,9 @@ ht-degree: 2%
 
 ## Problem
 
-Wenn ich versuche, mich mit meiner URL (https://customerdomain.my.workfront.com) bei [!DNL Adobe Workfront] anzumelden, wird ich zum SAML-Anmeldungsportal umgeleitet und dann mit dem folgenden Fehler zurück zu [!DNL Workfront] geleitet:
+Wenn ich versuche, mich mit meiner URL (https://customerdomain.my.workfront.com) bei [!DNL Adobe Workfront] anzumelden, werde ich zum SAML-Anmeldeportal weitergeleitet und dann mit dem folgenden Fehler zurück zu [!DNL Workfront]:
 
-„Versuchen Sie es erneut. Die folgenden Felder sind ungültig: emailAddr darf nicht null sein.&quot;
+„Versuchen Sie es erneut. Die folgenden Felder sind ungültig: „emailAddr cannot be null.“
 
 ## Ursache
 

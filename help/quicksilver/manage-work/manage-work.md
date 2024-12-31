@@ -2,8 +2,8 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Verwalten von Arbeiten
-description: Sie können Adobe Workfront verwenden, um Ihre Arbeit zu verwalten. Zunächst können Sie bestimmen, welche Arbeitsobjekte Sie verwenden, um Ihre Arbeit zu definieren, abhängig von ihrer Komplexität und den Ressourcen oder dem Budget, die Sie ihr zuweisen. In diesem Abschnitt wird beschrieben, wie Sie Ihre Arbeit in größere Arbeitselemente wie Projekte, Portfolios oder Programme organisieren und wie Sie größere Arbeitsmengen in besser verwaltbare Arbeitselemente wie Aufgaben und Probleme unterteilen können. Darüber hinaus können Sie das Gantt-Diagramm verwenden, um einen Zeitrahmen für Ihre Arbeit zu definieren oder Ihre Arbeit an andere zu delegieren, wenn diese nicht verfügbar sind, um sie abzuschließen.
+title: Arbeit verwalten
+description: Sie können Adobe Workfront zur Verwaltung Ihrer Arbeit verwenden. Sie können zunächst bestimmen, welche Arbeitsobjekte Sie zum Definieren Ihrer Arbeit verwenden, je nach ihrer Komplexität und den Ressourcen oder Budgets, die Sie ihr zuweisen. In diesem Abschnitt wird beschrieben, wie Sie Ihre Arbeit in größere Arbeitselemente wie Projekte, Portfolios oder Programme organisieren und größere Arbeitsmengen in besser verwaltbare Arbeitselemente wie Aufgaben und Probleme unterteilen können. Darüber hinaus können Sie das Gantt-Diagramm verwenden, um eine Zeitleiste Ihrer Arbeit zu definieren oder Ihre Arbeit an andere zu delegieren, wenn diese nicht verfügbar ist, um sie abzuschließen.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -17,13 +17,13 @@ ht-degree: 0%
 
 # Arbeitsinformationen verwalten
 
-Sie können Adobe Workfront verwenden, um Ihre Arbeit zu verwalten.
+Sie können Adobe Workfront zur Verwaltung Ihrer Arbeit verwenden.
 
-Zunächst können Sie bestimmen, welche Arbeitsobjekte Sie verwenden, um Ihre Arbeit zu definieren, abhängig von ihrer Komplexität und den Ressourcen oder dem Budget, die Sie ihr zuweisen.
+Sie können zunächst bestimmen, welche Arbeitsobjekte Sie zum Definieren Ihrer Arbeit verwenden, je nach ihrer Komplexität und den Ressourcen oder Budgets, die Sie ihr zuweisen.
 
-In diesem Abschnitt wird beschrieben, wie Sie Ihre Arbeit in größere Arbeitselemente wie Projekte, Portfolios oder Programme organisieren und wie Sie größere Arbeitsmengen in besser verwaltbare Arbeitselemente wie Aufgaben und Probleme unterteilen können.
+In diesem Abschnitt wird beschrieben, wie Sie Ihre Arbeit in größere Arbeitselemente wie Projekte, Portfolios oder Programme organisieren und größere Arbeitsmengen in besser verwaltbare Arbeitselemente wie Aufgaben und Probleme unterteilen können.
 
-Darüber hinaus können Sie das Gantt-Diagramm verwenden, um einen Zeitrahmen für Ihre Arbeit zu definieren oder Ihre Arbeit an andere zu delegieren, wenn diese nicht verfügbar sind, um sie abzuschließen.
+Darüber hinaus können Sie das Gantt-Diagramm verwenden, um eine Zeitleiste Ihrer Arbeit zu definieren oder Ihre Arbeit an andere zu delegieren, wenn diese nicht verfügbar ist, um sie abzuschließen.
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
@@ -33,4 +33,4 @@ Dieser Abschnitt enthält die folgenden Unterabschnitte:
 * [Das Gantt-Diagramm](../manage-work/gantt-chart/the-gantt-chart.md)
 * [Portfolio-Management](../manage-work/portfolios/portfolio-management-overview.md)
 * [Anforde- rungen](../manage-work/requests/requests-overview.md)
-* [Delegieren von Arbeiten](../manage-work/delegate-work/delegate-work.md)
+* [Arbeit delegieren](../manage-work/delegate-work/delegate-work.md)

@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Externer Lizenztyp Fehlt von Zugriffsebenen
-description: Der Lizenztyp für externe Benutzer wird unter Zugriffsebenen in der Einrichtung nicht mehr angezeigt.
+title: Lizenztyp für externe Benutzer fehlt in den Zugriffsebenen
+description: Ich kann den Lizenztyp Externer Benutzer unter „Zugriffsebenen“ im Setup nicht mehr sehen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,15 +16,15 @@ ht-degree: 1%
 
 ---
 
-# Externer Lizenztyp fehlt in den Zugriffsebenen
+# Lizenztyp für externe Benutzer fehlt in den Zugriffsebenen
 
 ## Problem
 
-Der Lizenztyp für externe Benutzer wird unter Zugriffsebenen in der Einrichtung nicht mehr angezeigt.
+Ich kann den Lizenztyp Externer Benutzer unter „Zugriffsebenen“ im Setup nicht mehr sehen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,7 +34,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -44,20 +44,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Lösung
 
-1. Navigieren Sie zu **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Voreinstellungen]**.
+1. Navigieren Sie **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Voreinstellungen]**.
 
-1. Stellen Sie im Abschnitt **[!UICONTROL Sicherheit]** sicher, dass die Option **[!UICONTROL Mit Personen ohne Workfront-Konten zusammenarbeiten, indem Sie deren E-Mail-Adresse verwenden]** aktiviert ist.
+1. Stellen Sie im Abschnitt **[!UICONTROL Sicherheit]** sicher, dass die Option **[!UICONTROL Mit Personen ohne Workfront-Konto über deren E-Mail-Adresse zusammenarbeiten]** aktiviert ist.
 
-   Wenn diese Option nicht aktiviert ist, wird der externe Benutzer nicht in der Einrichtung der Zugriffsebene angezeigt.
+   Wenn diese Option nicht aktiviert ist, wird der externe Benutzer nicht im Setup der Zugriffsebene angezeigt.

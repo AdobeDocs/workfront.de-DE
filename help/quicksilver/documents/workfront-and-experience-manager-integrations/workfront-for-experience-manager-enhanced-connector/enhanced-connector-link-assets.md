@@ -1,6 +1,6 @@
 ---
 title: Verknüpfen von Assets und Ordnern mit dem erweiterten Connector
-description: Sie können ein Asset oder einen Ordner aus Experience Manager Assets mit einem beliebigen Workfront-Objekt verknüpfen, das Dokumente unterstützt.
+description: Sie können ein Asset oder einen Ordner aus Experience Manager Assets mit jedem Workfront-Objekt verknüpfen, das Dokumente unterstützt.
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -8,14 +8,14 @@ exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
 source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
 workflow-type: tm+mt
 source-wordcount: '582'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
 
 # Verknüpfen von Assets und Ordnern mit dem erweiterten Connector
 
-Sie können ein Asset oder einen Ordner aus Experience Manager Assets mit einem beliebigen Workfront-Objekt verknüpfen, das Dokumente unterstützt. Von Experience Manager Assets gesendete Assets werden nicht auf Ihren gesamten Dokumentenspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Experience Manager Assets gesendet werden, zählen zum Gesamtspeicher.
+Sie können ein Asset oder einen Ordner aus Experience Manager Assets mit jedem Workfront-Objekt verknüpfen, das Dokumente unterstützt. Assets, die von Experience Manager Assets gesendet werden, werden nicht für den gesamten Dokumentenspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Experience Manager Assets gesendet wurden, zählen beim Gesamtspeicher.
 
 
 >[!NOTE]
@@ -24,7 +24,7 @@ Sie können ein Asset oder einen Ordner aus Experience Manager Assets mit einem 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,96 +34,96 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Aktuell: Anforderung oder höher</p> 
    oder
-   <p>Neu: Mitarbeiter oder höher</p> </td> 
+   <p>Neu: Mitwirkender oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
    <td>Experience Manager Assets </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Zugriff auf ein Dokument oder höher anzeigen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Zugriff auf ein Dokument anzeigen oder höher</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 +++
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, müssen Sie
 
-* Workfront für Experience Manager-Connector installieren
+* Installieren des erweiterten Connectors für Workfront for Experience Manager
 
-## Verknüpfen eines Assets mit Experience Manager Assets
+## Verknüpfen von Assets aus Experience Manager Assets
 
-Sie können ein Asset von Experience Manager Assets mit Workfront verknüpfen. Sobald das Asset verknüpft ist, können Sie
+Sie können ein Asset von Experience Manager Assets mit Workfront verknüpfen. Sobald das Asset verknüpft ist, können Sie Folgendes tun
 
-* [ Testen eines verknüpften Assets für Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
-* [Eine neue Version eines Dokuments hochladen](../../../documents/managing-documents/upload-new-document-version.md)
+* [Testen eines verknüpften Assets für Experience Manager Assets](../../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/enhanced-connector-proof-asset.md)
+* [Hochladen einer neuen Version eines Dokuments](../../../documents/managing-documents/upload-new-document-version.md)
 
 So verknüpfen Sie ein Asset mit Experience Manager Assets:
 
-1. Wechseln Sie zum Bereich **Dokumente** in Workfront, in dem Sie das Dokument hinzufügen möchten.
-1. Klicken Sie auf **Neu hinzufügen** und wählen Sie dann die Experience Manager Assets-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
+1. Klicken Sie **Neu hinzufügen** und wählen Sie dann die von Ihrem Administrator eingerichtete Experience Manager Assets-Integration aus.
 
    >[!NOTE]
    >
-   >Für diese Integration kann ein beliebiger Name gewählt werden. Daher wird Experience Manager Assets möglicherweise nicht speziell erwähnt.
+   >Für diese Integration kann ein beliebiger Name ausgewählt werden, sodass Experience Manager Assets nicht explizit erwähnt wird.
 
-1. Wählen Sie die gewünschten Assets aus.
+1. Wählen Sie die gewünschten Assets.
 
    ![](assets/select-an-asset.png)
 
 1. Klicken Sie auf **Link**.
 
-## Ordner aus Experience Manager Assets verknüpfen
+## Verknüpfen von Ordnern aus Experience Manager Assets
 
-Berechtigungen zum Anzeigen einzelner Assets innerhalb eines Ordners hängen von den Experience Manager Assets-Berechtigungen ab.
+Berechtigungen zum Anzeigen einzelner Assets innerhalb eines Ordners sind von Experience Manager Assets-Berechtigungen abhängig.
 
 So verknüpfen Sie einen Ordner mit Experience Manager Assets:
 
-1. Wechseln Sie zum Bereich **Dokumente** in Workfront, in dem Sie das Dokument hinzufügen möchten.
-1. Klicken Sie auf **Neu hinzufügen** und wählen Sie dann die Experience Manager Assets-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
+1. Klicken Sie **Neu hinzufügen** und wählen Sie dann die von Ihrem Administrator eingerichtete Experience Manager Assets-Integration aus.
 
    >[!NOTE]
    >
-   >Für diese Integration kann ein beliebiger Name gewählt werden. Daher wird Experience Manager Assets möglicherweise nicht speziell erwähnt.
+   >Für diese Integration kann ein beliebiger Name ausgewählt werden, sodass Experience Manager Assets nicht explizit erwähnt wird.
 
-1. Wählen Sie die gewünschten Ordner aus.
+1. Wählen Sie die gewünschten Ordner.
 
    ![](assets/select-a-folder.png)
 
 1. Klicken Sie auf **Link**.
 
-## Neue Version von Experience Manager Assets verknüpfen
+## Verknüpfen einer neuen Version aus Experience Manager Assets
 
-Sie können ein neues Asset aus Experience Manager Assets ziehen und es einem vorhandenen Asset als neue Version in Workfront hinzufügen. Wenn das Dokument bereits verknüpft ist und eine neue Version in Experience Manager Assets hinzugefügt wird, wird die neue Version automatisch in Workfront angezeigt.
+Sie können ein neues Asset aus Experience Manager Assets abrufen und es einem vorhandenen Asset als neue Version in Workfront hinzufügen. Wenn das Dokument bereits verknüpft ist und in Experience Manager Assets eine neue Version hinzugefügt wurde, wird die neue Version automatisch in Workfront angezeigt.
 
 >[!TIP]
 >
->Sie können alle Versionen eines Assets anzeigen, wenn Sie zu **Dokumentdetails** > **Versionen** navigieren.
+>Sie können alle Versionen eines Assets anzeigen, indem Sie zu **Dokumentdetails** > **Versionen** gehen.
 
-So verknüpfen Sie eine neue Version von Experience Manager Assets:
+So verknüpfen Sie eine neue Version aus Experience Manager Assets:
 
-1. Wechseln Sie zum Bereich **Dokumente** in Workfront, in dem Sie das Dokument hinzufügen möchten.
+1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
 1. Wählen Sie das Asset aus, das Sie durch eine neue Version ersetzen möchten. Sie können keine neue Version eines Assets in einem verknüpften Ordner erstellen.
-1. Klicken Sie auf **Neu hinzufügen** und wählen Sie dann die Experience Manager Assets-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Klicken Sie **Neu hinzufügen** und wählen Sie dann die von Ihrem Administrator eingerichtete Experience Manager Assets-Integration aus.
 
    >[!NOTE]
    >
-   >Für diese Integration kann ein beliebiger Name gewählt werden. Daher wird Experience Manager Assets möglicherweise nicht speziell erwähnt.
+   >Für diese Integration kann ein beliebiger Name ausgewählt werden, sodass Experience Manager Assets nicht explizit erwähnt wird.
 
 1. Wählen Sie das gewünschte Asset aus.
 

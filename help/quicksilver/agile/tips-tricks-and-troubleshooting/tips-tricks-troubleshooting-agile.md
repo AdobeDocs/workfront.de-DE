@@ -3,7 +3,7 @@ content-type: tips-tricks-troubleshooting
 product-area: agile-and-teams
 navigation-topic: agile
 title: Tipps, Tricks und Fehlerbehebung für Agile
-description: Lesen Sie diesen Artikel, um Tipps zur Fehlerbehebung für agile Apple zu erhalten.
+description: Lesen Sie diesen Artikel für Tipps zur Fehlerbehebung bei Agile.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
@@ -19,4 +19,4 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Benutzerdefinierte Status werden nicht auf der Übersichtskarte angezeigt](../../agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)
+* [Benutzerdefinierte Status werden nicht auf dem Agile-Story-Board angezeigt](../../agile/tips-tricks-and-troubleshooting/custom-status-does-not-show.md)

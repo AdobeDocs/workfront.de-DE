@@ -1,8 +1,8 @@
 ---
 content-type: overview
 navigation-topic: business-case-and-scorecards
-title: Überblick über die Bereiche des Geschäftsfalls
-description: In diesem Artikel werden die Bereiche des Geschäftsfalls eines Projekts beschrieben.
+title: Überblick über die Bereiche des Business Case
+description: In diesem Artikel werden die Bereiche des Business Case eines Projekts beschrieben.
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
@@ -13,17 +13,17 @@ ht-degree: 2%
 
 ---
 
-# Überblick über die Bereiche des Geschäftsfalls
+# Überblick über die Bereiche des Business Case
 
-In diesem Artikel werden die Bereiche des Geschäftsfalls eines Projekts beschrieben.
+In diesem Artikel werden die Bereiche des Business Case eines Projekts beschrieben.
 
-Informationen zum Erstellen eines Geschäftsfeldes für ein Projekt finden Sie unter [Erstellen eines Geschäftsfeldes für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
+Informationen zum Erstellen eines Business Case für ein Projekt finden Sie unter [Erstellen eines Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-Ihr Adobe Workfront-Administrator oder Gruppenadministrator muss alle Abschnitte im Geschäftsfall aktivieren, bevor sie im Projekt sichtbar sind, mit Ausnahme des Bereichs Projektinformationen . Der Bereich Projektinfo ist standardmäßig aktiviert.
+Ihr Adobe Workfront-Administrator oder Gruppenadministrator muss alle Abschnitte des Business Case aktivieren, bevor sie im Projekt sichtbar sind, mit Ausnahme des Abschnitts Projektinformationen . Der Abschnitt Projektinformationen ist standardmäßig aktiviert.
 
-Weitere Informationen zur Aktivierung der Bereiche des Geschäftsfalls finden Sie im Abschnitt &quot;Geschäftsfälle&quot;unter  [Systemweite Projektanvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Weitere Informationen zur Aktivierung von Bereichen des Business-Case finden Sie im Abschnitt „Business-Cases“ in  [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-Im Folgenden werden die Bereiche im Geschäftsfall eines Projekts beschrieben:
+Im Business Case eines Projekts werden die folgenden Bereiche beschrieben:
 
 * Projektinfo
 * Ziele
@@ -36,42 +36,42 @@ Im Folgenden werden die Bereiche im Geschäftsfall eines Projekts beschrieben:
 
 ## Projektinfo
 
-Der Bereich **Projektinfo** im Geschäftsfall kann vom Workfront-Administrator nicht konfiguriert werden. Alle Projekte haben einen Bereich Projektinfo im Business Case. 
+Der **Projektinfo** des Business Case kann vom Workfront-Administrator nicht konfiguriert werden. Alle Projekte verfügen im Business Case über einen Bereich mit Projektinformationen . 
 
-Der Abschnitt &quot;Projektinfo&quot;im Geschäftsfall enthält die grundlegenden Informationen eines Projekts, bevor das Projekt tatsächlich gestartet wurde.
+Der Abschnitt Projektinformationen des Business Case enthält die grundlegenden Informationen zu einem Projekt, bevor das Projekt tatsächlich gestartet wurde.
 
-Bearbeiten Sie die folgenden Felder:
+Erwägen Sie, die folgenden Felder zu bearbeiten:
 
 * **Beschreibung**: Geben Sie eine Beschreibung für Ihr Projekt an.
 * **Projektbesitzer**
 
-  Standardmäßig ist der Benutzer, der das Projekt erstellt, auch der Projekteigentümer. Sie können dieses Feld bearbeiten und einen anderen aktiven Benutzer als Eigentümer des Projekts angeben.
+  Standardmäßig ist der Benutzer, der das Projekt erstellt, auch der Projektbesitzer. Sie können dieses Feld bearbeiten und einen anderen aktiven Benutzer als Eigentümer des Projekts angeben.
 
 * **Projektsponsor**
 
-  Erwägen Sie, neben dem Projekteigentümer auch eine andere Person als den Sponsor des Projekts hinzuzufügen. Der Sponsor erhält die Genehmigung des Geschäftsfalls. 
+  Erwägen Sie, eine andere Person als den Projektbesitzer als Sponsor des Projekts hinzuzufügen. Der Sponsor erhält die Genehmigung des Business Case. 
 
-* **Portfolio**: Geben Sie ein Portfolio für das Projekt an. Sie müssen das Portfolio erstellen und in den Status **Aktiv** setzen, bevor es in diesem Dropdownmenü ausgewählt werden kann.
+* **Portfolio**: Geben Sie ein Portfolio für das Projekt an. Sie müssen das Portfolio erstellen und den Status **Aktiv** annehmen, bevor es in diesem Dropdown-Menü ausgewählt werden kann.
 
-  Weitere Informationen zu Portfolios finden Sie unter [Übersicht über Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie unter Übersicht über das [Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
   Weitere Informationen zum Erstellen von Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
-* **Geplanter Nutzen**: Schätzen Sie, welcher finanzielle Nutzen für Ihre Organisation geplant ist, wenn dieses Projekt abgeschlossen ist. Es kann sich um einen beliebigen Währungsbetrag handeln, und es muss sich um einen positiven Wert handeln. Beispiel: 10.000 $.
-* **Status**: Standardmäßig ist der Status für eine Projektanforderung auf **Idee** festgelegt.
+* **Geplanter Gewinn**: Schätzen Sie, wie hoch der finanzielle Gewinn für Ihr Unternehmen nach Abschluss dieses Projekts sein soll. Es kann eine beliebige Währung sein, und es muss ein positiver Wert sein. Beispiel: 10.000 $.
+* **Status**: Standardmäßig ist der Status für eine Projektanfrage auf &quot;**&quot;**.
 
-  Wenn Sie den Status auf einen anderen Wert als &quot;Idee&quot;oder &quot;Planung&quot;ändern, verschwindet die Schaltfläche &quot;**Senden**&quot;aus dem Bereich &quot;Zusammenfassung der Geschäftsfälle&quot;und Sie können den Geschäftsfall nicht mehr zur Genehmigung einreichen. 
+  Wenn Sie den Status in etwas Anderes als „Idee“ oder „Planung“ ändern **wird die Schaltfläche „Senden** im Bereich „Zusammenfassung des Business-Case“ ausgeblendet, und Sie können den Business-Case nicht mehr zur Genehmigung senden. 
 
 * **Festes Startdatum**: Geben Sie ein Datum an, an dem das Projekt beginnen soll.
 * **Festes Enddatum**: Geben Sie ein Datum an, an dem das Projekt enden soll.
 
   >[!NOTE]
   >
-  >Das feste Start- und Enddatum im Geschäftsfall hat keine Auswirkungen auf die geplanten Start- und Abschlussdaten des Projekts. Diese stellen die Daten dar, die der Projektersteller zum Zeitpunkt der idealen Entwicklung des Projekts anfordert. Stattdessen zeigen die geplanten Start- und Abschlussdaten des Projekts den geplanten Zeitplan für das Projekt an, der auf den Aufgaben des Projekts basiert.
+  >Die festen Start- und Enddaten im Business Case wirken sich nicht auf die geplanten Start- und Abschlussdaten des Projekts aus. Diese stellen die vom Projektersteller angeforderten Daten dar, zu denen das Projekt idealerweise entwickelt werden sollte. Stattdessen werden der geplante Start und das geplante Abschlussdatum des Projekts als geplante Zeitleiste für das Projekt angezeigt, die auf den Aufgaben im Projekt basiert.
 
 ## Ziele
 
-Ziele definieren die Ziele für das Projekt. Dieser Bereich ist standardmäßig im Geschäftsfall aktiviert, aber der Workfront-Administrator kann ihn möglicherweise nicht anzeigen lassen. In diesem Feld werden die Ziele in der Reihenfolge ihrer Priorität angezeigt.
+Ziele definieren die Ziele für das Projekt. Dieser Bereich ist im Business-Case standardmäßig aktiviert, der Workfront-Administrator kann jedoch festlegen, dass er nicht angezeigt wird. Dieses Feld zeigt die Ziele in der Reihenfolge ihrer Priorität an.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -79,26 +79,26 @@ Ziele definieren die Ziele für das Projekt. Dieser Bereich ist standardmäßig 
 
 >[!TIP]
 >
->Sie können strategische Ziele für Ihre Organisation erstellen, die nicht mit dem individuellen Geschäftsszenario eines Projekts verbunden sind. Sie müssen Zugriff auf Adobe Workfront-Ziele haben, um strategische Ziele erreichen zu können. Sie können sie dann mit Projekten außerhalb ihrer Geschäftsfälle verbinden. Informationen zum Erstellen von Zielen mit Workfront-Zielen finden Sie unter [Übersicht über Adobe Workfront-Ziele](../../../workfront-goals/goal-management/wf-goals-overview.md).
+>Sie können strategische Ziele für Ihr Unternehmen erstellen, die nicht mit dem individuellen Business Case eines Projekts verbunden sind. Sie müssen Zugriff auf Adobe Workfront-Ziele haben, um strategische Ziele erstellen zu können. Sie können sie dann mit Projekten außerhalb ihrer Business Cases verbinden. Informationen zum Erstellen von Zielen mithilfe von Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-Die Definition der Ziele ist optional, damit das Portfolio im Projektoptimierer eine Punktzahl erhält. Dieser Abschnitt ist der einzige optionale Abschnitt im Geschäftsfall. Alle anderen Abschnitte des Geschäftsszenarios müssen ausgefüllt werden, bevor das Projekt in Portfolio Optimizer bewertet wird. Sie können beim Erstellen des Ziels eine Prioritätsstufe für ein Ziel angeben.
+Die Definition der Ziele ist optional, damit das Projekt ein Score in Portfolio Optimizer erhalten kann. Dieser Abschnitt ist der einzige optionale Abschnitt im Business Case. Alle anderen Abschnitte des Business Case müssen abgeschlossen sein, bevor das Projekt in Portfolio Optimizer bewertet wird. Sie können bei der Erstellung des Ziels eine Prioritätsstufe für ein Ziel angeben.
 
-Weitere Informationen zu Zielen finden Sie unter  [Erstellen Sie Geschäftsfallziele](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
+Weitere Informationen zu Zielen finden Sie unter  [Erstellen von Business Case-Zielen](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
 ## Ausgaben
 
-Ausgaben stellen die Nichtarbeitskosten dar, die während der Laufzeit eines Projekts anfallen könnten. Dieser Bereich ist standardmäßig im Geschäftsfall aktiviert, aber der Workfront-Administrator kann ihn möglicherweise nicht anzeigen lassen. 
+Aufwendungen stellen die sonstigen Kosten dar, die während der Laufzeit eines Projekts anfallen können. Dieser Bereich ist im Business-Case standardmäßig aktiviert, der Workfront-Administrator kann jedoch festlegen, dass er nicht angezeigt wird. 
 
-Alle Ausgaben, die Sie im Geschäftsfall eingeben, werden auch auf dem Tab Ausgaben des Projekts als &quot;Geplante Ausgaben&quot;angegeben.
+Alle Ausgaben, die Sie im Business-Case eingeben, werden auch auf der Registerkarte „Ausgaben“ des Projekts als geplante Ausgaben eingegeben.
 
-Ausgaben wirken sich auf die folgenden Felder des Projekts aus:
+Kosten wirken sich auf die folgenden Felder des Projekts aus:
 
 * Budgetierte Kosten
 * Nettowert
 
-Weitere Informationen zu den budgetierten Kosten und Nettowerten finden Sie unter [Übersicht über die Finanzfelder für Geschäftsfälle](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Weitere Informationen zu den budgetierten Kosten und Nettowerten finden Sie unter [Übersicht über die Finanzfelder des Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-Weitere Informationen zu Ausgaben finden Sie unter  [Verwalten der Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md) .
+Weitere Informationen zu Ausgaben unter  [Projektausgaben verwalten](../../../manage-work/projects/project-finances/manage-project-expenses.md) .
 
 Ihr Workfront-Administrator kann benutzerdefinierte Ausgabentypen einrichten.
 
@@ -106,30 +106,30 @@ Weitere Informationen zum Erstellen benutzerdefinierter Ausgabentypen finden Sie
 
 ## Ressourcenbudgetierung
 
-Sie können die folgenden Aktionen im Bereich Ressourcenbudgetierung des Geschäftsfalls durchführen:
+Im Bereich Ressourcenbudgetierung des Business-Case können Sie die folgenden Aktionen ausführen:
 
 * Verknüpfen Sie Ressourcenpools mit dem Projekt.
-* Budget Ihrer Ressourcen auf Projektebene.
+* Budgetieren Sie Ihre Ressourcen auf Projektebene.
 
-Die für die Ressourcen im Projekt veranschlagten Stunden werden im Bereich Ressourcenbudgetierung des Business Case angezeigt, wodurch die budgetierten Arbeitskosten des Projekts generiert werden. Dieser Bereich des Geschäftsfalls ist standardmäßig aktiviert.
+Die budgetierten Stunden für die Ressourcen im Projekt werden im Bereich Ressourcenbudgetierung des Business Case angezeigt und erzeugen die budgetierten Lohnkosten des Projekts. Dieser Bereich des Business Case ist standardmäßig aktiviert.
 
-Weitere Informationen zu Budgetierungsressourcen für das Projekt im Geschäftsfall finden Sie unter [Budgetressourcen im Geschäftsfall](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
+Weitere Informationen zur Budgetierung von Ressourcen für das Projekt im Business Case finden Sie [Budgetressourcen im Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
 ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
-Beachten Sie Folgendes bei der Anzeige des Bereichs Ressourcenbudgetierung im Geschäftsfall:
+Beachten Sie beim Anzeigen des Abschnitts „Ressourcenbudgetierung“ des Business Case Folgendes:
 
-* Sie können Ressourceninformationen hier mit den folgenden Tools einplanen:
+* Hier können Sie Ressourceninformationen mit den folgenden Tools budgetieren:
 
-   * Der Ressourcen-Planer
+   * Der Ressourcenplaner
 
-     Weitere Informationen finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Resource Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
+     Weitere Informationen finden Sie [Budgetressourcen im Business Case mit dem Ressourcenplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-   * Der Szenario-Planer , wenn Ihr Unternehmen eine zusätzliche Lizenz für den Adobe-Szenario-Planer erworben hat
+   * Der Szenario-Planer , wenn Ihr Unternehmen eine zusätzliche Lizenz für das Adobe des Szenario-Planers erworben hat
 
-     Weitere Informationen finden Sie unter [Budgetressourcen im Geschäftsfall mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
+     Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-     Der Szenario-Planer ist nur im neuen Adobe Workfront-Erlebnis verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md).
+     Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar und erfordert eine zusätzliche Lizenz. Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
 
 * Die hier angezeigten Informationen werden auch im Ressourcenplaner auf Systemebene oder im Szenario-Planer angezeigt. 
 
@@ -137,85 +137,85 @@ Beachten Sie Folgendes bei der Anzeige des Bereichs Ressourcenbudgetierung im Ge
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the "or" stays in&nbsp;NWE&nbsp;only)<br></p>
   -->
 
-* Nach der Budgetierung Ihrer Ressourcen werden die budgetierten Arbeitskosten des Projekts im Bereich Ressourcenbudgetierung angezeigt, wenn die Rollen mit den Kosten pro Stunde verknüpft sind. Die budgetierten Arbeitskosten werden in der Währung des Projekts angezeigt.
+* Nachdem Sie Ihre Ressourcen budgetiert haben, werden die budgetierten Lohnkosten des Projekts im Bereich Ressourcenbudgetierung angezeigt, wenn die Funktionen mit den Sätzen Kosten pro Stunde verknüpft sind. Die budgetierten Lohnkosten werden in der Währung des Projekts angezeigt.
 
   >[!IMPORTANT]
   >
-  >Die budgetierten Arbeitskosten sind die Kosten, die mit den Rollen im Projekt und nicht mit den Benutzern verbunden sind. Die Summe aller budgetierten Arbeitskosten für die Benutzer kann oder nicht den budgetierten Arbeitskosten der mit den Nutzern verbundenen Stellenfunktion entsprechen. 
+  >Die budgetierten Lohnkosten entsprechen den Kosten, die den Funktionen des Projekts und nicht den Benutzern zugeordnet sind. Die Summe aller budgetierten Lohnkosten für die Benutzer kann den budgetierten Lohnkosten des Aufgabengebiets, das den Benutzern zugeordnet ist, entsprechen oder nicht. 
 
-  Weitere Informationen zu den budgetierten Arbeitskosten finden Sie unter [Übersicht über die Finanzfelder für Geschäftsfälle](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+  Weitere Informationen zu budgetierten Lohnkosten finden Sie unter [Übersicht über die Finanzfelder des Business Case](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-  Weitere Informationen zum Erstellen von Auftragsrollen und zum Zuordnen von Kosten pro Stunde-Raten zu diesen finden Sie unter [Erstellen und Verwalten von Auftragsrollen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
+  Weitere Informationen zum Erstellen von Aufgabengebieten und zum Verknüpfen der Stundensätze mit ihnen finden Sie unter [Erstellen und Verwalten von Aufgabengebieten](../../../administration-and-setup/set-up-workfront/organizational-setup/create-manage-job-roles.md).
 
 ## Risiken
 
-Risiken sind Faktoren, die verhindern können, dass ein Projekt rechtzeitig oder zu einem Budget abgeschlossen wird. Die Definition dieser Faktoren ist wichtig, damit der Portfolio-Manager oder der Projektsponsor eine fundierte Entscheidung über die Projektgenehmigung treffen kann. Dieser Bereich ist standardmäßig im Geschäftsfall aktiviert, aber der Workfront-Administrator kann ihn möglicherweise nicht anzeigen lassen.
+Risiken sind Faktoren, die verhindern können, dass ein Projekt termingerecht oder im Rahmen des Budgets abgeschlossen wird. Die Definition dieser Faktoren ist wichtig, damit der Portfolio-Manager oder Projektsponsor eine fundierte Entscheidung über die Genehmigung des Projekts treffen kann. Dieser Bereich ist im Business-Case standardmäßig aktiviert, der Workfront-Administrator kann jedoch festlegen, dass er nicht angezeigt wird.
 
-Sie können potenzielle Kosten mit den Risiken verknüpfen, die Sie für den Fall definieren, dass sie auftreten sollten. Die Kosten der Risiken eines Projekts beeinflussen den Nettowert des Projekts. 
+Sie können den Risiken, die Sie für den Fall definieren, dass sie eintreten, potenzielle Kosten zuordnen. Die Kosten der Risiken eines Projekts beeinflussen den Nettowert des Projekts. 
 
-Weitere Informationen zum Projekt-Nettowert finden Sie unter [Übersicht über die Finanzfelder für Geschäftsfälle](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Weitere Informationen zum Nettowert des Projekts finden Sie unter [Übersicht über Business Case-Finanzfelder](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-Weitere Informationen zur Risikoerstellung finden Sie unter  [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
+Weitere Informationen zum Erstellen von Risiken finden Sie unter  [Risiken in Projekten erstellen und bearbeiten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md).
 
 Ihr Workfront-Administrator kann benutzerdefinierte Risikotypen einrichten.
 
-Weitere Informationen zum Erstellen und Bearbeiten benutzerdefinierter Risikotypen finden Sie unter [Bearbeiten und Erstellen von Risikotypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+Weitere Informationen zum Erstellen und Bearbeiten benutzerdefinierter Risikotypen finden Sie unter [Risikotypen bearbeiten und erstellen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
 ## Scorecard
 
-Scorecards messen die Ausrichtung des Projekts. Dieser Bereich ist standardmäßig im Geschäftsfall aktiviert, aber der Workfront-Administrator kann ihn möglicherweise nicht anzeigen lassen.
+Scorecards messen die Ausrichtung des Projekts. Dieser Bereich ist im Business-Case standardmäßig aktiviert, der Workfront-Administrator kann jedoch festlegen, dass er nicht angezeigt wird.
 
-Weitere Informationen zum Anwenden einer Scorecard auf ein Projekt und Generieren eines Ausrichtungswerts finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren einer Ausrichtungsbewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+Weitere Informationen zum Anwenden einer Scorecard auf ein Projekt und zum Generieren eines Ausrichtungswerts finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren eines Ausrichtungswerts](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Um eine Scorecard anzuwenden, muss Ihr Workfront-Administrator eine erstellen. Der Bereich **Scorecard** im Geschäftsfall wird nur angezeigt, wenn eine Scorecard erstellt wurde.
+Um eine Scorecard anzuwenden, muss Ihr Workfront-Administrator eine erstellen. Der **Scorecard** des Business Case wird nur angezeigt, wenn eine Scorecard erstellt wird.
 
-Weitere Informationen zum Erstellen einer Scorecard finden Sie unter  [Erstellen Sie eine Scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
+Weitere Informationen zum Erstellen einer Scorecard finden Sie unter  [Erstellen einer Scorecard](../../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
 ## Benutzerdefinierte Formulare
 
-Sie können bei der Definition eines Geschäftsszenarios benutzerdefinierte Forms an ein Projekt anhängen. Dieser Bereich ist im Geschäftsfall nicht standardmäßig aktiviert. Der Workfront-Administrator muss es aktivieren, damit es im Geschäftsfall angezeigt werden kann.
+Sie können beim Definieren eines Business Case eine benutzerdefinierte Forms an ein Projekt anhängen. Dieser Bereich ist im Business Case nicht standardmäßig aktiviert. Der Workfront-Administrator muss sie aktivieren, um sie im Business Case anzuzeigen.
 
-Weitere Informationen zum Aktivieren der Bereiche des Geschäftsfalls finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+Weitere Informationen zur Aktivierung verschiedener Bereiche des Business Case finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 Um ein benutzerdefiniertes Formular anzuwenden, muss Ihr Workfront-Administrator zunächst ein benutzerdefiniertes Formular erstellen.
 
 Weitere Informationen zum Erstellen eines benutzerdefinierten Formulars finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-Sie können benutzerdefinierte Formulare verwenden, um zusätzliche Informationen zu erfassen, die nicht in den anderen Feldern des Geschäftsfalls angezeigt werden.
+Sie können benutzerdefinierte Formulare verwenden, um zusätzliche Informationen zu erfassen, die nicht in den anderen Feldern des Business Case angezeigt werden.
 
-Weitere Informationen zum Anwenden eines benutzerdefinierten Formulars finden Sie unter [Anhängen eines benutzerdefinierten Formulars an einen Geschäftsszenario](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
+Weitere Informationen zum Anwenden eines benutzerdefinierten Formulars finden Sie unter [Anhängen eines benutzerdefinierten Formulars an einen Business-Case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md).
 
 ## Business Case-Zusammenfassung
 
-* [Überblick über die Geschäftsfallzusammenfassung](#overview-of-the-business-case-summary)
-* [Geschäftsfall exportieren](#export-the-business-case)
+* [Überblick über die Business Case-Zusammenfassung](#overview-of-the-business-case-summary)
+* [Business Case exportieren](#export-the-business-case)
 
-### Überblick über die Zusammenfassung der Geschäftsszenarios {#overview-of-the-business-case-summary}
+### Überblick über die Zusammenfassung eines Business-Case {#overview-of-the-business-case-summary}
 
-Eine Zusammenfassung der wichtigsten Projektfinanzierungen sowie Informationen dazu, ob ein Projekt mit einer Scorecard in der Zusammenfassung der Geschäftsfälle in der oberen rechten Ecke des Geschäftsfalls ausgerichtet ist, finden Sie in der Zusammenfassung der Geschäftsfälle .
+Eine Zusammenfassung der wichtigsten Projektfinanzen und dazu, ob ein Projekt mit einer Scorecard abgestimmt ist oder nicht, finden Sie im Bedienfeld Zusammenfassung eines Business-Case in der oberen rechten Ecke des Business-Case .
 
-Sie können die Zusammenfassung der Geschäftsfälle nicht bearbeiten. Dies ist nur ein kurzer Überblick über den Stand des Projekts in Bezug auf die Finanzbereiche und die Scorecard. \
+Sie können die Zusammenfassung eines Business-Case nicht bearbeiten. Dies ist nur ein kurzer Überblick über den Status des Projekts in Bezug auf Finanzfelder und die Scorecard. \
  
 
-Die folgenden Felder werden in der Zusammenfassung der Geschäftsfälle angezeigt:
+Die folgenden Felder werden in der Zusammenfassung eines Business-Case angezeigt:
 
-* Der Netzwert des Projekts
-* Die im Projekt veranschlagten Kosten
+* Der Nettowert des Projekts
+* Die budgetierten Projektkosten
 * Die potenziellen Risikokosten
-* Der geplante Vorteil
-* Die Punktzahl der Ausrichtung
+* Der geplante Nutzen
+* Ausrichtungsbewertung
 
-Weitere Informationen zu diesen Feldern finden Sie unter [Übersicht über die Finanzfelder für Geschäftsfälle](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
+Weitere Informationen zu diesen Feldern finden Sie unter [Übersicht über Business Case-Finanzfelder](../../../manage-work/projects/define-a-business-case/business-case-finances.md).
 
-### Geschäftsfall exportieren {#export-the-business-case}
+### Business Case exportieren {#export-the-business-case}
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: made this into a standalone article, linked in the first paragraph of this section)</p>
 -->
 
-Sie können den Geschäftsfall in eine PDF-Datei exportieren, falls Sie ihn drucken oder an eine E-Mail anhängen müssen. 
+Sie können den Business Case in eine PDF-Datei exportieren, falls Sie ihn drucken müssen oder in einem kürzeren Format an eine E-Mail anhängen. 
 
-Weitere Informationen finden Sie unter [Geschäftsszenario eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
+Weitere Informationen finden [ unter „Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

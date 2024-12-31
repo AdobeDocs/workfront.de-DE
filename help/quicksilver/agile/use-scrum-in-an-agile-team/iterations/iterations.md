@@ -3,7 +3,7 @@ content-type: reference
 product-area: agile-and-teams
 navigation-topic: use-scrum-in-an-agile-team
 title: Wiederholungen
-description: In den folgenden Artikeln wird beschrieben, wie Sie Iterationen beim Arbeiten in einer Scrum-Umgebung verwenden können.
+description: In den folgenden Artikeln wird beschrieben, wie Sie in einer Scrum-Umgebung Iterationen verwenden können.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
@@ -19,9 +19,9 @@ ht-degree: 3%
 
 In den folgenden Artikeln wird beschrieben, wie Sie Iterationen beim Arbeiten in einer Scrum-Umgebung in Adobe Workfront verwenden können:
 
-* [Iterationen - Übersicht](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
-* [Iteration erstellen](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
-* [Erstellen einer agilen Geschichte in einer Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
-* [Hinzufügen von Meldungen zu einer vorhandenen Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
-* [Iteration anzeigen](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
+* [Übersicht über Iterationen](../../../agile/use-scrum-in-an-agile-team/iterations/iterations-overview.md)
+* [Erstellen einer Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-an-iteration.md)
+* [Erstellen einer Agile-Story in einer Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/create-agile-story-in-iteration.md)
+* [Hinzufügen von Storys zu einer vorhandenen Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md)
+* [Anzeigen einer Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/view-iteration.md)
 * [Iteration löschen](../../../agile/use-scrum-in-an-agile-team/iterations/delete-iteration.md)

@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Status von Meldungen und Unteraufgaben auf der Trommelkarte aktualisieren
-description: Sie können den Status einer Geschichte direkt über das agile Storyboard ändern, um zu reflektieren, wie die Geschichten durch die Iteration oder das Projekt weitergehen.
+title: Status von Storys und Teilaufgaben auf dem Scrum-Board aktualisieren
+description: Sie können den Status einer Story direkt im Agile-Story-Board ändern, um den Fortschritt der Storys durch die Iteration oder das Projekt widerzuspiegeln.
 author: Lisa
 feature: Agile
 exl-id: 3f414901-883c-45ac-b30a-60841e883e35
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Status von Meldungen und Unteraufgaben auf der [!UICONTROL Scrum]-Pinnwand aktualisieren
+# Status von Storys und Teilaufgaben auf dem [!UICONTROL Scrum]-Board aktualisieren
 
-Sie können den Status einer Geschichte direkt über das agile Storyboard ändern, um zu reflektieren, wie die Geschichten durch die Iteration oder das Projekt weitergehen.
+Sie können den Status einer Story direkt im Agile-Story-Board ändern, um den Fortschritt der Storys durch die Iteration oder das Projekt widerzuspiegeln.
 
 >[!NOTE]
 >
->Nur Status, die im Bereich [!UICONTROL Meldungsbrett] im Bereich für die Teameinstellungen ausgewählt sind, sind auf der Pinnwand [!UICONTROL Scrum] und im Dropdown-Menü &quot;Status&quot;verfügbar. Weitere Informationen finden Sie unter [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+>Nur Status, die im Abschnitt [!UICONTROL Story Board] im Bereich Team-Einstellungen ausgewählt wurden, sind auf dem [!UICONTROL Scrum]-Board und im Dropdown-Menü Status verfügbar. Weitere Informationen finden Sie unter [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,27 +31,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Status einer Geschichte oder Unteraufgabe aktualisieren
+## Status einer Story oder Teilaufgabe aktualisieren
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Navigieren Sie zu einer aktiven Iteration.
-1. Ziehen Sie eine Geschichte aus einer Statusspalte auf der Storyboard-Karte in eine andere Spalte.\
-   ![Geschichte in eine andere Spalte verschieben](assets/agile-storyboard-progress.png)
+1. Ziehen Sie eine Story aus einer Statusspalte auf dem Storyboard in eine andere Spalte.\
+   ![Story in eine andere Spalte verschieben](assets/agile-storyboard-progress.png)

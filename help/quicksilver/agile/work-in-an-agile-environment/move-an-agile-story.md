@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: work-in-an-agile-environment
-title: Agile Geschichte verschieben
-description: Sie können eine agile Geschichte entweder in eine andere Iteration (für Scrum-Teams) oder in den Rückstand (für Kanban- und Scrum-Teams) verschieben.
+title: Eine Agile-Story verschieben
+description: Sie können eine agile Story entweder in eine andere Iteration verschieben (für Scrum-Teams) oder in den Rückstand (für Kanban- und Scrum-Teams).
 author: Lisa
 feature: Agile
 exl-id: 0058792e-66b8-4e54-8ce3-50171adff875
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Bewegliche Geschichte
+# Eine agile Story verschieben
 
-Sie können eine agile Geschichte entweder in eine andere Iteration (für Scrum-Teams) oder in den Rückstand (für Kanban- und Scrum-Teams) verschieben.
+Sie können eine agile Story entweder in eine andere Iteration verschieben (für Scrum-Teams) oder in den Rückstand (für Kanban- und Scrum-Teams).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,62 +31,62 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>[!UICONTROL Zugriff auf den Artikel verwalten</td> 
+   <td>[!UICONTROL Manage] Zugriff auf die Story</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Verschieben Sie eine Geschichte von einer Iteration oder Kanban-Pinnwand in den Backlog.
+## Story aus einer Iteration oder Kanban-Pinnwand in den Rückstand verschieben
 
-1. Gehen Sie zur Iteration oder Kanban-Pinnwand, die die Geschichte enthält, die Sie in den Backlog verschieben möchten.
-1. Klicken Sie oben auf der Seite auf die Überschrift der Iteration .
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Meldungen]** die Geschichten aus, die Sie verschieben möchten.
+1. Gehen Sie zur Iteration oder zum Kanban-Board, das die Story enthält, die Sie in den Rückstand verschieben möchten.
+1. Klicken Sie oben auf der Seite auf die Überschrift „Iteration“.
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** Storys“ die Storys aus, die Sie verschieben möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
 
-   Das Dialogfeld **[!UICONTROL Geschichte verschieben]** wird angezeigt.
+   Das **[!UICONTROL Story verschieben]** wird angezeigt.
 
-   ![Dialogfeld &quot;Geschichte verschieben&quot;](assets/iteration-story-move.png)
+   ![Dialogfeld „Story verschieben“](assets/iteration-story-move.png)
 
-1. Wählen Sie den Backlog **von**team_name aus.
-Im obigen Beispiel lautet der Teamname **Marketing**.
+1. Wählen Sie **Team_name&#39;s Backlog**.
+Im obigen Beispiel lautet der Name des Teams **Marketing**.
 
-1. Klicken Sie auf **[!UICONTROL Geschichte verschieben]**.
+1. Klicken Sie **[!UICONTROL Story verschieben]**.
 
-## Verschieben einer Geschichte in eine andere Iteration
+## Story in eine andere Iteration verschieben
 
-Sie können eine Geschichte für Ihr Scrum-Team in eine andere Iteration verschieben.
+Sie können eine Story für Ihr Scrum-Team in eine andere Iteration verschieben.
 
 >[!NOTE]
 >
->Die Option **[!UICONTROL Verschieben nach]** ist bei einer Iteration nicht für übergeordnete Meldungen verfügbar. Sie können Unteraufgaben nur in eine andere Iteration verschieben.
+>Die **[!UICONTROL Verschieben nach]** ist nicht für übergeordnete Storys in einer Iteration verfügbar. Sie können Teilaufgaben nur in eine andere Iteration verschieben.
 
-1. Gehen Sie zur Iteration, die die Geschichte enthält, die Sie verschieben möchten.
-1. Klicken Sie oben auf der Seite auf die Überschrift der Iteration .
-1. Wählen Sie auf der Registerkarte **[!UICONTROL Meldungen]** die Geschichten aus, die Sie verschieben möchten.
+1. Wechseln Sie zur Iteration, die die Story enthält, die Sie verschieben möchten.
+1. Klicken Sie oben auf der Seite auf die Überschrift „Iteration“.
+1. Wählen Sie auf **[!UICONTROL Registerkarte]** Storys“ die Storys aus, die Sie verschieben möchten.
 1. Klicken Sie auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
 
-   Das Dialogfeld **[!UICONTROL Geschichte verschieben]** wird angezeigt.
+   Das **[!UICONTROL Story verschieben]** wird angezeigt.
 
-   ![Dialogfeld &quot;Geschichte verschieben&quot;](assets/iteration-story-move.png)
+   ![Dialogfeld „Story verschieben“](assets/iteration-story-move.png)
 
-1. Wählen Sie **[!UICONTROL Eine weitere Iteration]** und wählen Sie dann im Dropdown-Menü die Iteration aus, in die Sie die Geschichte verschieben möchten.
+1. Wählen Sie **[!UICONTROL Weitere Iteration]** und wählen Sie dann im Dropdown-Menü die Iteration aus, in die Sie die Story verschieben möchten.
 
    >[!NOTE]
    >
-   >Das Arbeitselement [!UICONTROL Vorgesehenes Startdatum] und [!UICONTROL Vorgesehenes Abschlussdatum] sind von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] betroffen. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Daten angewendet werden, wenn Arbeitselemente zu einer Iteration hinzugefügt werden](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
+   >Die Einstellungen [!UICONTROL  Arbeitselement ]Geplantes Startdatum) und [!UICONTROL Geplantes Abschlussdatum] werden von einer Einstellung auf der Seite [!UICONTROL Team bearbeiten] beeinflusst. Weitere Informationen finden Sie im Abschnitt [[!UICONTROL Konfigurieren], wie Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration angewendet werden](../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../agile/get-started-with-agile-in-workfront/configure-scrum.md).
 
-1. Klicken Sie auf **[!UICONTROL Geschichte verschieben]**.
+1. Klicken Sie **[!UICONTROL Story verschieben]**.

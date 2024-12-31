@@ -21,7 +21,7 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-Die Projekte stellen einen großen Teil der Arbeit dar, die in Adobe Workfront geleistet werden muss.
+Projekte stellen einen großen Arbeitsaufwand dar, der in Adobe Workfront erledigt werden muss.
 
 ## Zugriffsanforderungen
 
@@ -56,7 +56,7 @@ Die Projekte stellen einen großen Teil der Arbeit dar, die in Adobe Workfront g
 </table>
 
 -->
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -65,8 +65,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -75,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
         <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p> </td> 
   </tr> 
   <tr> 
@@ -85,7 +85,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -93,123 +93,123 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können ein Projekt in Workfront mit einer der folgenden Methoden erstellen:
 
-* Erstellen Sie ein Projekt von Grund auf neu, ohne eine Vorlage zu verwenden. In diesem Artikel wird beschrieben, wie Sie ein Projekt von Grund auf neu erstellen.
+* Erstellen Sie ein Projekt von Grund auf ohne Verwendung einer Vorlage. In diesem Artikel wird beschrieben, wie Sie ein Projekt von Grund auf neu erstellen.
 
-* Ein vorhandenes Projekt kopieren\
+* Kopieren eines vorhandenen Projekts.\
   Weitere Informationen zum Kopieren eines Projekts finden Sie unter [Kopieren eines Projekts](../../../manage-work/projects/manage-projects/copy-project.md).
 
 * Verwenden Sie eine Vorlage.\
-  Weitere Informationen zur Verwendung einer Vorlage zum Erstellen eines neuen Projekts finden Sie unter [Erstellen eines Projekts mit einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
+  Weitere Informationen zur Verwendung einer Vorlage zum Erstellen eines neuen Projekts finden Sie unter [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
 * Importieren Sie ein Projekt aus Microsoft Project.\
-  Weitere Informationen zum Importieren eines Projekts aus einem MS-Projekt finden Sie unter [Importieren eines Projekts aus Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
+  Weitere Informationen zum Importieren eines Projekts aus MS Project finden Sie [Projekt aus Microsoft Project importieren](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
-* Importieren Sie ein Projekt mit Kick-Start.
+* Importieren Sie ein Projekt mithilfe von Kickstarts.
 
-  Als Workfront-Administrator können Sie Projekte mit einem Schnellstart importieren.
+  Als Workfront-Administrator können Sie Projekte über einen Kickstart importieren.
 
-  Informationen zum Importieren von Daten mithilfe von Kick-Start-Schritten in Workfront finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kick-Start-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
+  Informationen zum Importieren von Daten mithilfe von Kickstarts in Workfront finden Sie unter [Importieren von Daten in Adobe Workfront mithilfe einer Kickstart-Vorlage](../../../administration-and-setup/manage-workfront/using-kick-starts/import-data-via-kickstarts.md).
 
-  Weitere Informationen zum Importieren von Projekten mit Kick-Start finden Sie unter [Kick-Starts-Szenario: Vorbereitung des einfachen Projekts und des Aufgabenimports](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
+  Informationen zum Importieren von Projekten mithilfe von Kickstarts finden Sie unter [Kickstartszenario: Einfache Vorbereitung für den Projekt- und Aufgabenimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish eine Initiative aus einem Szenario im Adobe Workfront-Szenario-Planer.
+* Publish ist eine Initiative aus einem Szenario im Adobe Workfront-Szenarioplaner.
 
-  Für den Szenario-Planer ist eine der folgenden Voraussetzungen erforderlich:
+  Der Szenario-Planer erfordert eine der folgenden Aktionen:
 
    * Eine zusätzliche Lizenz für die aktuelle Workfront-Lizenzstruktur.
    * Eine Ultimate-Lizenz für die neue Workfront-Lizenzstruktur.
 
-  Weitere Informationen zum Workfront-Szenario-Planer finden Sie unter [Überblick über den Szenario-Planer](../../../scenario-planner/scenario-planner-overview.md). Informationen zum Erstellen von Projekten aus Veröffentlichungsinitiativen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
+  Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md). Informationen zum Erstellen von Projekten aus Veröffentlichungsinitiativen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Fügen Sie Projekte hinzu, während Sie sie aus einem Datensatztyp in der Workfront-Planung verbinden. Sie können nur Projekte ohne Vorlagen aus der Workfront-Planung erstellen.
+* Fügen Sie Projekte hinzu, während Sie sie über einen Datensatztyp in Workfront Planning verbinden. Aus Workfront Planning können Sie nur Projekte ohne Vorlagen erstellen.
 
-  Sie benötigen eine neue Workfront-Lizenz und eine zusätzliche Workfront Planning-Lizenz für Workfront Planning.
+  Sie müssen über eine neue Workfront-Lizenz und eine zusätzliche Workfront Planning-Lizenz für Workfront Planning verfügen.
 
-  Informationen zum Zugriff auf die Workfront-Planung finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
+  Informationen zum Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
-  Informationen zum Erstellen von Projekten durch Hinzufügen zu Datensätzen finden Sie im Abschnitt &quot;Erstellen von Datensätzen während der Verbindung mit ihnen&quot; im Artikel [Datensätze erstellen](/help/quicksilver/planning/records/create-records.md).
+  Informationen zum Erstellen von Projekten durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Datensätzen während der Verbindung“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
 ## Voraussetzungen
 
 Bevor Sie beginnen, müssen Sie Folgendes sicherstellen:
 
-* Ihr System- oder Gruppenadministrator hat im Bereich &quot;Einrichtung&quot;die Voreinstellung &quot;Benutzer können Projekte ohne Verwendung einer Vorlage erstellen dürfen&quot;aktiviert.
+* Ihr System- oder Gruppenadministrator hat die Einstellung „Benutzern erlauben, Projekte ohne Vorlage zu erstellen“ im Bereich „Setup“ aktiviert.
 
-  Weitere Informationen finden Sie unter [Systemweite Projekteigenschaften konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
-## Neue Standardeinstellungen für Projekte
+## Standardeinstellungen für neue Projekte
 
-Wenn Sie ein Projekt erstellen, wendet Workfront eine Reihe von Standardeinstellungen an. Beispielsweise sind der Status-, Gruppen- und Zeitplanmodus beim Erstellen eines Projekts voreingestellt.
+Wenn Sie ein Projekt erstellen, wendet Workfront eine Reihe von Standardeinstellungen darauf an. Beispielsweise sind der Status, die Gruppe und der Zeitplanmodus beim Erstellen eines Projekts vordefiniert.
 
 Beachten Sie Folgendes:
 
-* Als Workfront-Administrator oder Gruppenadministrator können Sie die Standardeinstellungen für ein neues Projekt konfigurieren, wenn Sie die Projektvoreinstellungen für Ihre gesamte Workfront-Instanz oder für eine Gruppe konfigurieren.
-* Workfront wendet gegebenenfalls die Gruppeneinstellungen an, bevor die vom Workfront-Administrator festgelegten angewendet werden.
-* Der Standardstatus eines neuen Projekts entspricht dem Status, der von Ihrem Workfront-Administrator im Bereich mit den Haupteinstellungen des Projekts oder von einem Gruppenadministrator (oder Workfront-Administrator) im Bereich Projekteinstellungen für eine Gruppe definiert wurde.
+* Als Workfront-Administrator oder Gruppenadministrator können Sie die Standardeinstellungen für ein neues Projekt konfigurieren, wenn Sie die Projekteinstellungen für Ihre gesamte Workfront-Instanz oder für eine Gruppe konfigurieren.
+* Workfront wendet ggf. die Einstellungen der Gruppe an, bevor die vom Workfront-Administrator festgelegten Einstellungen angewendet werden.
+* Der Standardstatus eines neuen Projekts entspricht dem Status, den Ihr Workfront-Administrator im Hauptbereich Projektvoreinstellungen oder ein Gruppenadministrator (oder Workfront-Administrator) im Bereich Projektvoreinstellungen für eine Gruppe definiert hat.
 
   >[!NOTE]
   >
-  >Es wird empfohlen, den Standardstatus für ein neues Projekt &quot;Planung&quot;festzulegen. Wenn Sie Änderungen am neuen Projekt vornehmen, wird sichergestellt, dass keine Benachrichtigungen an die dem Projekt zugewiesenen Benutzer gesendet werden.
+  >Es wird empfohlen, dass der Standardstatus für ein neues Projekt „Planung“ lautet. Wenn Sie Änderungen am neuen Projekt vornehmen, wird dadurch sichergestellt, dass Benachrichtigungen nicht an die dem Projekt zugewiesenen Benutzer gesendet werden.
   >
-  >Weitere Informationen zum Einrichten des Standardstatus und anderer Standardeinstellungen für ein neues Projekt finden Sie unter [Konfigurieren der systemweiten Projektanvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Konfigurieren der Projekteigenschaften für eine Gruppe](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
+  >Weitere Informationen zum Einrichten des Standardstatus und anderer Standardeinstellungen für ein neues Projekt finden Sie unter [Systemweite Projektvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md) oder [Projektvoreinstellungen für eine Gruppe konfigurieren](../../../administration-and-setup/manage-groups/create-and-manage-groups/configure-project-preferences-group.md).
 
-* Es gibt die folgenden Szenarien, in denen Workfront die Gruppe und den Status eines neuen Projekts definiert:
+* Die folgenden Szenarien zeigen, wie Workfront die Gruppe und den Status eines neuen Projekts definiert:
 
-   * Wenn Sie ein Projekt von Grund auf neu erstellen, ist die Gruppe des Projekts Ihre Startseite.
+   * Wenn Sie ein Projekt von Grund auf neu erstellen, ist die Gruppe des Projekts Ihre Hauptgruppe.
 
-     Der Projektstatus ist der Standardstatus in den Projekteinstellungen Ihrer Startseite oder Ihrer Workfront-Instanz. Sie können den Standardstatus beim Erstellen des Projekts in einen beliebigen Status ändern, der für die Gruppe des Projekts verfügbar ist.
+     Der Status des Projekts ist der Standardstatus in den Projektvoreinstellungen Ihrer Hauptgruppe (sofern vorhanden) oder Ihrer Workfront-Instanz. Sie können den Standardstatus beim Erstellen des Projekts in einen beliebigen Status ändern, der für die Gruppe des Projekts verfügbar ist.
 
-   * Wenn Sie ein Projekt mit einer Vorlage erstellen, haben die Einstellungen aus der Vorlage Vorrang vor den Einstellungen, die vom Workfront- oder Gruppenadministrator festgelegt wurden.
+   * Wenn Sie ein Projekt mithilfe einer Vorlage erstellen, haben die Einstellungen aus der Vorlage Vorrang vor den vom Workfront- oder Gruppenadministrator festgelegten Einstellungen.
 
-     Die Gruppe des neuen Projekts ist die Gruppe der Vorlage. Wenn die Vorlage nicht mit einer Gruppe verknüpft ist, ist die Gruppe des Projekts die Startseite des Benutzers, der das Projekt erstellt.
+     Die Gruppe des neuen Projekts ist die Gruppe der Vorlage. Wenn die Vorlage keiner Gruppe zugeordnet ist, ist die Gruppe des Projekts die Hauptgruppe des Benutzers, der das Projekt erstellt.
 
-     Der Standardstatus eines neuen Projekts, das aus einer Vorlage erstellt wurde, entspricht dem Status, der von Ihrem Workfront-Administrator im Hauptbereich &quot;Projekteinstellungen&quot;oder von einem Gruppenadministrator (oder Workfront-Administrator) im Bereich &quot;Projekteinstellungen&quot;für die Gruppe definiert wurde. Sie können den Standardstatus beim Erstellen eines Projekts aus einer Vorlage in einen beliebigen Status der Gruppe des Projekts ändern, bei der es sich entweder um die Gruppe der Vorlage oder um die Startseite des Benutzers handelt, der das Projekt erstellt.
+     Der Standardstatus eines neuen Projekts, das über eine Vorlage erstellt wurde, entspricht dem Status, den Ihr Workfront-Administrator im Hauptbereich Projektvoreinstellungen oder ein Gruppenadministrator (oder Workfront-Administrator) im Bereich Projektvoreinstellungen für die Gruppe definiert hat. Sie können den Standardstatus beim Erstellen eines Projekts über eine Vorlage in einen der Status der Gruppe des Projekts ändern, die entweder die Gruppe der Vorlage oder die Hauptgruppe des Benutzers ist, der das Projekt erstellt.
 
-   * Wenn Sie ein Projekt durch Konvertieren eines Problems erstellen, ist die Gruppe eines neuen Projekts die Gruppe des vorhandenen Projekts des Problems. Wenn der Benutzer, der das Problem konvertiert, keinen Zugriff auf das Projekt des Problems hat oder das Projekt des Problems keine Gruppe hat, ist die Gruppe des neuen Projekts die Startseite des Benutzers, der das Problem konvertiert.
+   * Wenn Sie ein Projekt durch Konvertieren eines Problems erstellen, ist die Gruppe eines neuen Projekts die Gruppe des vorhandenen Projekts des Problems. Wenn der/die Benutzende, der/die das Problem konvertiert, keinen Zugriff auf das Problemprojekt hat oder wenn das Problemprojekt keine Gruppe hat, ist die Gruppe des neuen Projekts die Hauptgruppe des/r Benutzenden, der/die das Problem konvertiert.
 
-     Die Status des neuen Projekts stimmen mit den Gruppenstatus der mit dem Projekt verknüpften Gruppe überein, d. h. entweder der Gruppe des ursprünglichen Projekts oder der Startseite des Benutzers, der das Problem konvertiert.
+     Die Status des neuen Projekts stimmen mit den Gruppenstatus der mit dem Projekt verknüpften Gruppe überein, bei der es sich entweder um die Gruppe des ursprünglichen Projekts oder die Hauptgruppe der Person handelt, die das Problem konvertiert.
 
-     Wenn Sie beim Erstellen des Projekts durch Konvertieren des Problems eine Vorlage verwenden, finden Sie im zweiten oben stehenden Szenario, welche Gruppe und welcher Status von Workfront für das neue Projekt gilt.
+     Wenn Sie beim Erstellen des Projekts eine Vorlage verwenden, indem Sie das Problem konvertieren, sehen Sie im zweiten obigen Szenario nach, welche Gruppe und welcher Status Workfront für das neue Projekt gilt.
 
 ## Ein Projekt von Grund auf neu erstellen
 
 >[!NOTE]
 >
->Wenn Sie ein Projekt mit einer Vorlage erstellen, empfehlen wir, auch den Artikel &quot;[Erstellen eines Projekts mit einer Vorlage&quot;](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) anzuzeigen.
+>Wenn Sie ein Projekt mithilfe einer Vorlage erstellen, empfehlen wir, auch den Artikel [Erstellen eines Projekts mithilfe einer Vorlage](/help/quicksilver/manage-work/projects/create-projects/create-project-from-template.md) anzuzeigen.
 
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie oben rechts in Adobe Workfront auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) oder (falls verfügbar) auf das Symbol **[!UICONTROL Hauptmenü]** ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) oben links. Klicken Sie auf **Projekte** und erweitern Sie dann **Neues Projekt**.
-   * Wechseln Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
+   * Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke. Klicken Sie auf **Projekte** und erweitern Sie dann **Neues Projekt**.
+   * Gehen Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
    * Wechseln Sie zu einem Programm und erweitern Sie dann **Neues Projekt**.
-   * Als Gruppenadministrator können Sie auch ein Projekt im Abschnitt &quot;Projekte&quot;einer von Ihnen verwalteten Gruppe erstellen. Weitere Informationen finden Sie unter [Erstellen und Ändern von Gruppenprojekten](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
+   * Wenn Sie Gruppenadministrator sind, können Sie im Abschnitt Projekte einer Gruppe, die Sie verwalten, auch ein Projekt erstellen. Weitere Informationen finden Sie unter [Erstellen und Ändern der Projekte einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
-   ![Menü &quot;Neues Projekt&quot;](assets/new-project-dropdown-nwe-350x358.png)
+   ![Menü „Neues Projekt“](assets/new-project-dropdown-nwe-350x358.png)
 
-1. Klicken Sie im Menü auf **Neues Projekt** , um ein neues Projekt zu erstellen.
-1. Geben Sie einen Namen für Ihr Projekt ein. Drücken Sie die Eingabetaste , um den Namen zu speichern.
+1. Klicken Sie **Menü** Neues Projekt“, um ein Projekt von Grund auf neu zu erstellen.
+1. Geben Sie einen Namen für Ihr Projekt ein. Drücken Sie die Eingabetaste, um den Namen zu speichern.
 
    ![Geben Sie einen Namen für das Projekt ein](assets/rename-untitled-project.png)
 
-   In der Kopfzeile der Projektseite wird ein kurzer Überblick über den aktuellen Zustand und Fortschritt eines Projekts angezeigt. Die Informationen in der Projektheader ändern sich mit der Aktualisierung der Projektinformationen.
+   In der Kopfzeile der Projektseite erhalten Sie einen schnellen Überblick über den aktuellen Status und den Fortschritt eines Projekts. Die Informationen im Projekt-Header ändern sich, wenn die Projektinformationen aktualisiert werden.
 
-1. Klicken Sie auf **Starten des Hinzufügens von Aufgaben**.
+1. Klicken Sie **Aufgaben hinzufügen**.
 
    Oder
 
-   Klicken Sie auf **Neue Aufgabe** , um dem Projekt Aufgaben hinzuzufügen und ihnen Ressourcen zuzuweisen.
+   Klicken Sie auf **Neue Aufgabe**, um dem Projekt Aufgaben hinzuzufügen und ihnen Ressourcen zuzuweisen.
 
    Weitere Informationen zum Hinzufügen von Aufgaben zu einem Projekt finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Bearbeiten Sie die Projektdetails, indem Sie auf das Menü **Mehr** und dann auf **Bearbeiten** ![](assets/qs-edit-icon.png) neben dem Namen des Projekts klicken.
+1. Bearbeiten Sie die Projektdetails, indem Sie auf das Menü **Mehr** und dann **Bearbeiten** neben dem Namen des Projekts ![](assets/qs-edit-icon.png).
 
-   Das Dialogfeld **Projekt bearbeiten** wird geöffnet.
+   Das **Projekt bearbeiten** wird geöffnet.
 
    Weitere Informationen zum Bearbeiten eines Projekts finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-1. (Optional) Nachdem Sie die Projekteinstellungen konfiguriert und die Aufgaben hinzugefügt haben, können Sie den Status des Projekts in **Aktuell** ändern.
+1. (Optional) Nachdem Sie die Projekteinstellungen konfiguriert und die Aufgaben hinzugefügt haben, können Sie den Status des Projekts in &quot;**&quot;**.
 
-   Dies weist darauf hin, dass das Projekt jetzt startbereit ist und die den Aufgaben zugewiesenen Benutzer jetzt mit der Bearbeitung beginnen können.
+   Dies bedeutet, dass das Projekt nun startbereit ist und Benutzende, die den Aufgaben zugewiesen sind, nun mit der Arbeit daran beginnen können.
 
-   Weitere Informationen zu den Projektstatus finden Sie unter [Zugriff auf die Liste der Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).
+   Weitere Informationen zum Projektstatus finden Sie unter [Zugriff auf die Liste der Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/project-statuses.md).

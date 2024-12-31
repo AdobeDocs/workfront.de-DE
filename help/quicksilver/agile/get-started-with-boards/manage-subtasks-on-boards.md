@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: get-started-with-boards
-title: Verwalten von Unteraufgaben auf Foren
-description: Durch die Verwendung von Unteraufgaben auf Karten können Sie eine über- und untergeordnete Beziehung zwischen Aufgaben herstellen und eine Arbeitshierarchie erstellen.
+title: Teilaufgaben auf Pinnwänden verwalten
+description: Durch die Verwendung von Teilaufgaben auf Karten können Sie eine hierarchische Beziehung zwischen Aufgaben herstellen und eine Arbeitshierarchie erstellen.
 author: Lisa
 feature: Agile
 exl-id: 166a84d3-18ea-4a58-b0e8-f09df2a63caa
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Unteraufgaben auf Pinnwänden
+# Teilaufgaben auf Pinnwänden verwalten
 
-Durch die Verwendung von Unteraufgaben auf Karten können Sie eine über- und untergeordnete Beziehung zwischen Aufgaben herstellen und eine Arbeitshierarchie erstellen. Eine Unteraufgabe, die Sie einer Karte auf einer Workfront-Pinnwand hinzufügen, wird der Aufgabe im Workfront-Projekt ebenfalls hinzugefügt. Weitere Informationen zu Unteraufgaben und Aufgaben auf Projektebene finden Sie unter [Unteraufgaben erstellen](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
+Durch die Verwendung von Teilaufgaben auf Karten können Sie eine hierarchische Beziehung zwischen Aufgaben herstellen und eine Arbeitshierarchie erstellen. Eine Unteraufgabe, die Sie einer Karte auf einer Workfront-Pinnwand hinzufügen, wird der Aufgabe im Workfront-Projekt ebenfalls hinzugefügt. Weitere Informationen zu Teilaufgaben und Aufgaben auf Projektebene finden Sie unter [Erstellen von Teilaufgaben](/help/quicksilver/manage-work/tasks/create-tasks/create-subtasks.md).
 
-Unteraufgaben sind nur auf verbundenen Karten verfügbar und nicht bei Problemen. Informationen zu verbundenen Karten finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+Teilaufgaben sind nur auf verbundenen Karten verfügbar und nicht für Probleme. Informationen zu verbundenen Karten finden Sie unter [Verwenden von verbundenen Karten auf Karten](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,51 +31,51 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront]</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL Anforderung] oder höher</p>
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Hinzufügen einer Unteraufgabe zu einer Karte
+## Hinzufügen einer Teilaufgabe zu einer Karte
 
 {{step1-to-boards}}
 
-1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Zugriff auf eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
 1. Klicken Sie auf die Karte, um das Feld [!UICONTROL Kartendetails] zu öffnen.
 
    Oder
 
-   Klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]** aus.
+   Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![Mehr](assets/more-icon-spectrum.png) auf der Karte und wählen Sie **[!UICONTROL Bearbeiten]**.
 
-   Alle vorhandenen Unteraufgaben für diese Aufgabe werden auf der Karte im Abschnitt Unteraufgabe oberhalb der Checklisten-Elemente angezeigt. Klicken Sie auf das Symbol [!UICONTROL **Suchen**] , um nach einer Unteraufgabe zu suchen.
+   Vorhandene Teilaufgaben für diese Aufgabe werden auf der Karte im Abschnitt Teilaufgabe über den Checklisten-Elementen angezeigt. Klicken Sie auf [!UICONTROL **Suchen**], um nach einer Teilaufgabe zu suchen.
 
-1. Um eine neue Unteraufgabe hinzuzufügen, klicken Sie auf [!UICONTROL **Unteraufgabe hinzufügen**]. Geben Sie dann den Titel der Unteraufgabe ein und drücken Sie die Eingabetaste.
+1. Um eine neue Unteraufgabe hinzuzufügen, klicken Sie auf [!UICONTROL **Unteraufgabe hinzufügen**]. Geben Sie dann den Titel der Teilaufgabe ein und drücken Sie die Eingabetaste.
 
-   Der Zähler oben in der Liste zeigt die Anzahl der abgeschlossenen Unteraufgaben und die Gesamtzahl der Unteraufgaben an.
+   Der Zähler oben in der Liste zeigt die Anzahl der abgeschlossenen Teilaufgaben und die Gesamtzahl der Teilaufgaben an.
 
-1. Klicken Sie auf das Symbol ![Details](assets/checklist-chevron.png) , um das Detailfeld der Unteraufgabe zu öffnen. Der Name der Unteraufgabe wird oben angezeigt.
-1. (Optional) Fügen Sie die Details der Unteraufgabe hinzu.
+1. Klicken Sie ![Detailsymbol](assets/checklist-chevron.png), um das Detailfeld für Teilaufgaben zu öffnen. Der Name der Teilaufgabe wird oben angezeigt.
+1. (Optional) Fügen Sie Details zur Teilaufgabe hinzu.
 
-   Diese Informationen werden auch der Unteraufgabe im Projekt [!DNL Workfront] hinzugefügt.
+   Diese Informationen werden auch der Teilaufgabe im [!DNL Workfront] hinzugefügt.
 
-   Alle Felder für eine verbundene Karte sind in den Details der Unteraufgabe verfügbar, einschließlich zusätzlicher Unteraufgaben. Weitere Informationen zu diesen Feldern finden Sie unter [Verwenden Sie verbundene Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
+   Alle Felder für eine verbundene Karte sind in den Details der Teilaufgabe verfügbar, einschließlich zusätzlicher Teilaufgaben. Informationen zu diesen Feldern finden Sie unter [Verwenden von verbundenen Karten auf Pinnwänden](/help/quicksilver/agile/get-started-with-boards/connected-cards.md).
 
-1. Klicken Sie auf **[!UICONTROL Schließen]** , um zu den Kartendetails und zur vollständigen Liste der Unteraufgaben zurückzukehren.
+1. Klicken Sie **[!UICONTROL Schließen]**, um zu den Kartendetails und der vollständigen Liste der Teilaufgaben zurückzukehren.
 
-   Sie können auch die Breadcrumbs oben in den Details der Unteraufgabe verwenden, um in der Hierarchie zu navigieren.
+   Sie können auch die Breadcrumbs oben in den Details zur Teilaufgabe verwenden, um in der Hierarchie zu navigieren.
 
-   Die Bevollmächtigten und das Fälligkeitsdatum werden in der Unteraufgabe in der Liste angezeigt.
+   Die Verantwortlichen und das Fälligkeitsdatum werden in der Teilaufgabe in der Liste angezeigt.
 
-1. Um eine Unteraufgabe zu kopieren, klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr Menü](assets/more-icon-spectrum.png) für das Element und wählen Sie **[!UICONTROL Kopieren]** aus.
+1. Um eine Teilaufgabe zu kopieren, klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon-spectrum.png) auf dem Element und wählen Sie **[!UICONTROL Kopieren]**.

@@ -3,7 +3,7 @@ content-type: overview;reference
 product-area: portfolios
 navigation-topic: portfolios-navigation-topic
 title: 'Portfolios: Artikelindex'
-description: Ein Portfolio ist eine Sammlung von Projekten, die einheitliche Merkmale aufweisen. In den folgenden Artikeln finden Sie Informationen zu Portfolios.
+description: Ein Portfolio ist eine Zusammenstellung von Projekten, die einheitlich wirkende Merkmale aufweisen. Informationen zu Portfolios finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Work Management, Strategic Planning
 recommendations: noDisplay, noCatalog
@@ -19,8 +19,8 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Übersicht über die Portfolio-Verwaltung](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
-* [Übersicht über das Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
-* [In einem Portfolio navigieren](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
+* [Übersicht über die Verwaltung von Portfolios](../../../manage-work/portfolios/portfolios-overview/portfolio-managament-overview.md)
+* [Übersicht über Portfolios in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md)
+* [Navigieren innerhalb eines Portfolios](../../../manage-work/portfolios/portfolios-overview/navigate-within-portfolio.md)
 
 

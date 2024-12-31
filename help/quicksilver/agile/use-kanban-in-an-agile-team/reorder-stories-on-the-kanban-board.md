@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams
 navigation-topic: use-kanban-in-an-agile-team
-title: Neuordnung der Geschichten auf dem Kanban Board
-description: Sie können die Reihenfolge ändern, in der Geschichten in Statusspalten auf dem Kanban-Board angezeigt werden.
+title: Storys auf dem Kanban-Board neu anordnen
+description: Sie können die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban-Board angezeigt werden.
 author: Lisa
 feature: Agile
 exl-id: 7d6142d2-4e6e-4f9f-81a8-bcc666757bad
@@ -13,23 +13,23 @@ ht-degree: 0%
 
 ---
 
-# Neuordnen von Meldungen auf der [!UICONTROL Kanban]-Pinnwand
+# Storys auf dem Kanban[!UICONTROL Board neu ]
 
-Sie können die Reihenfolge ändern, in der Geschichten in Statusspalten auf der [!UICONTROL Kanban]-Pinnwand angezeigt werden.
+Möglicherweise möchten Sie die Reihenfolge ändern, in der Storys in Statusspalten auf dem Kanban[!UICONTROL Board angezeigt ].
 
 >[!NOTE]
 >
->Sie können die Reihenfolge, in der Geschichten im Backlog eines [!UICONTROL Kanban]-Teams angezeigt werden, nicht ändern.
+>Die Reihenfolge, in der Storys im Rückstand eines Kanban-Teams angezeigt werden[!UICONTROL  kann nicht geändert ].
 
-Die Reihenfolge, in der Meldungen auf der [!UICONTROL Kanban]-Pinnwand angezeigt werden, gibt keine Priorität an. Sie kann jedoch die wahrgenommene Priorität beeinflussen, indem sie Geschichten sichtbarer macht.
+Die Reihenfolge, in der die Storys auf der [!UICONTROL Kanban]-Pinnwand angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden.
 
-Standardmäßig werden Meldungen in alphabetischer Reihenfolge in jeder Statusspalte auf der [!UICONTROL Kanban]-Pinnwand angezeigt.
+Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Kanban[!UICONTROL Board ].
 
-Wenn Sie Spalten auf der [!DNL Kanban]-Pinnwand neu anordnen, werden alle von Ihnen vorgenommenen Änderungen gespeichert, sodass Änderungen beibehalten werden, wenn Sie oder ein anderer Benutzer die [!UICONTROL Kanban]-Pinnwand anzeigt. (Änderungen, die Sie vornehmen, werden beim Löschen des Browser-Caches nicht zurückgesetzt.)
+Wenn Sie Spalten auf der [!DNL Kanban]-Pinnwand neu anordnen, werden alle von Ihnen vorgenommenen Änderungen gespeichert, sodass die Änderungen beibehalten werden, wenn Sie oder ein anderer Benutzer die [!UICONTROL Kanban“-] das nächste Mal aufruft. (Änderungen, die Sie vornehmen, werden beim Löschen des Browser-Caches nicht rückgängig gemacht.)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -41,28 +41,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Neuordnen von Meldungen auf der [!UICONTROL Kanban]-Pinnwand
+## Storys auf dem Kanban[!UICONTROL Board neu ]
 
-So ändern Sie die Reihenfolge oder die Meldungen:
+So ändern Sie die Reihenfolge der Storys:
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Kanban]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Kanban]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Gehen Sie zur [!UICONTROL Kanban]-Pinnwand, die die Geschichten enthält, die Sie neu anordnen möchten.
-1. Ziehen Sie eine Story-Kachel an die gewünschte vertikale Position in einer Statusspalte auf der [!UICONTROL Kanban]-Pinnwand.
+1. Wechseln Sie zur [!UICONTROL Kanban]-Pinnwand, die die Storys enthält, die Sie neu anordnen möchten.
+1. Ziehen Sie eine Story-Kachel an die gewünschte vertikale Position innerhalb einer Statusspalte auf dem Kanban[!UICONTROL Board].

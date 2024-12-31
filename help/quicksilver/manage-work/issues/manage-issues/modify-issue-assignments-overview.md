@@ -2,8 +2,8 @@
 content-type: overview
 product-area: projects
 navigation-topic: manage-issues
-title: Übersicht über die Änderung von Problemzuweisungen
-description: Sie können Problemen Probleme zuweisen oder die Zuweisung von Problemen zu Benutzern, Teams oder Auftragsrollen aufheben. Sie können mehrere Ressourcen gleichzeitig oder nur eine Ressource zuweisen. Sie können jeweils ein Problem oder mehrere Probleme gleichzeitig zuweisen.
+title: Übersicht über das Ändern von Problemzuweisungen
+description: Sie können Anfragen Benutzern, Teams oder Aufgabengebieten zuweisen oder deren Zuweisung aufheben. Sie können mehrere Ressourcen oder nur eine Ressource gleichzeitig zuweisen. Sie können jeweils ein Problem oder mehrere Probleme gleichzeitig zuweisen.
 author: Alina
 feature: Work Management
 exl-id: ff7a7bcc-553e-4425-b80d-741c9150aed0
@@ -14,43 +14,43 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über die Änderung von Problemzuweisungen
+# Übersicht über das Ändern von Problemzuweisungen
 
-Sie können Problemen Probleme zuweisen oder die Zuweisung von Problemen zu Benutzern, Teams oder Auftragsrollen aufheben. Sie können mehrere Ressourcen gleichzeitig oder nur eine Ressource zuweisen. Sie können jeweils ein Problem oder mehrere Probleme gleichzeitig zuweisen.
+Sie können Anfragen Benutzern, Teams oder Aufgabengebieten zuweisen oder deren Zuweisung aufheben. Sie können mehrere Ressourcen oder nur eine Ressource gleichzeitig zuweisen. Sie können jeweils ein Problem oder mehrere Probleme gleichzeitig zuweisen.
 
 >[!TIP]
 >
->Sie können mehrere Benutzer, Auftragsrollen oder Teams zuweisen. Sie können nur aktive Benutzer, Stellenrollen und Teams zuweisen.
+>Sie können mehrere Benutzer, Aufgabengebiete oder Teams zuweisen. Sie können nur aktive Benutzer, Aufgabengebiete und Teams zuweisen.
 >
->Wenn ein Benutzer, eine Rolle oder ein Team zugewiesen wurde, bevor sie deaktiviert wurden, bleiben sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
+>Wenn ein(e) Benutzende(r), ein Aufgabengebiet oder ein Team zugewiesen wurde, bevor sie/er deaktiviert wurden, bleiben sie/sie dem Arbeitselement zugewiesen. In diesem Fall empfehlen wir Folgendes:
 >
->* Weisen Sie das Arbeitselement aktiven Ressourcen erneut zu.
->* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team erneut zu.
+>* Weisen Sie das Arbeitselement den aktiven Ressourcen neu zu.
+>* Verknüpfen Sie die Benutzer in einem deaktivierten Team mit einem aktiven Team und weisen Sie das Arbeitselement dem aktiven Team zu.
 
 Dieser Artikel enthält allgemeine Informationen über die Auswirkungen der Änderung von Problemzuweisungen. Informationen zum Zuweisen von Problemen finden Sie in den folgenden Artikeln:
 
-* Informationen zum Zuweisen von Problemen finden Sie unter [Zuweisen von Problemen](../../../manage-work/issues/manage-issues/assign-issues.md) und [Ändern der Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+* Informationen zum Zuweisen von Problemen finden Sie unter [Probleme zuweisen](../../../manage-work/issues/manage-issues/assign-issues.md) und [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
-* Informationen zum Zuweisen von Problemen mit dem Arbeitslastausgleich finden Sie unter [Übersicht über die Zuweisung von Arbeit im Arbeitslastausgleich](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+* Informationen zum Zuweisen von Problemen mit dem Workload Balancer finden Sie unter [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
-Einige Informationen in diesem Artikel gelten auch für die Zuweisung von Aufgaben. Weitere Informationen zum Zuweisen von Aufgaben sowie weitere Überlegungen finden Sie unter [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
+Einige Informationen in diesem Artikel gelten auch für Zuweisungen zu Aufgaben. Weitere Informationen zum Zuweisen von Aufgaben und weitere Überlegungen finden Sie unter [Übersicht über das Ändern von Aufgabenzuweisungen](../../../manage-work/tasks/assign-tasks/modify-task-assignments-overview.md).
 
-## Wann sollten Benutzerzuweisungen zu Problemen geändert werden?
+## Wann Benutzerzuweisungen bei Problemen geändert werden sollten
 
-Sie können die Benutzerzuweisungen aus verschiedenen Gründen ändern, z. B. aus folgenden Gründen:
+Möglicherweise möchten Sie die Benutzerzuweisungen aus verschiedenen Gründen für mehrere Probleme ändern, z. B.:
 
-* Benutzer treten dem Team bei oder verlassen es.
-* Ein Benutzer nimmt einen Urlaub, der über die Fälligkeitsdaten der Ausgabe hinausgeht
-* Eine bestimmte Rolle oder ein bestimmter Benutzer wird als Verantwortlicher für mehrere Probleme festgelegt und Sie möchten schnell alle Elemente ändern, die einem anderen Benutzer oder einer anderen Rolle zugewiesen werden sollen
+* Benutzer können Ihrem Team beitreten oder es verlassen
+* Ein(e) Benutzende(r) macht Urlaub, der über das Fälligkeitsdatum des Problems hinausgeht
+* Eine bestimmte Rolle oder ein bestimmter Benutzer wird für mehrere Probleme als Verantwortlicher festgelegt, und Sie möchten schnell alle Elemente ändern, die einem anderen Benutzer oder einer anderen Rolle zugewiesen werden sollen
 
 ## Überlegungen zum Entfernen von Zuweisungen aus Problemen
 
-Sie können Zuweisungen jeweils aus einem Problem entfernen oder Zuweisungen aus mehreren Problemen gleichzeitig entfernen.
+Sie können Zuweisungen für jeweils ein Problem entfernen oder Zuweisungen für mehrere Probleme stapelweise entfernen.
 
-Weitere Informationen zum Entfernen von Zuweisungen aus Problemen in großen Mengen finden Sie unter [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
+Weitere Informationen zum Massenentfernen von Zuweisungen aus Problemen finden Sie unter [Ändern von Benutzerzuweisungen für mehrere Probleme in einer Liste](../../../manage-work/issues/manage-issues/edit-assignments-for-multiple-issues.md).
 
 Beachten Sie beim Entfernen von Zuweisungen aus Problemen Folgendes:
 
-* Wenn Sie die Zuweisung eines Benutzers zu einem Problem aufheben, bleibt das Problem der Auftragsrolle zugewiesen, die der Benutzer in dem Problem erfüllt hat.
-* Wenn Sie die Zuweisung einer Auftrags- oder Team-Rolle von einem Problem aufheben, bleibt das Problem nicht zugewiesen, wenn es keiner anderen Ressource zugewiesen ist.
+* Wenn Sie die Zuweisung eines Benutzers zu einem Problem aufheben, bleibt das Problem dem Aufgabengebiet zugewiesen, das der Benutzer bei dem Problem erfüllt hat.
+* Wenn Sie die Zuweisung eines Aufgabengebiets oder Teams zu einem Problem aufheben, bleibt die Zuweisung des Problems aufgehoben, sofern es keiner anderen Ressource zugewiesen ist.
 

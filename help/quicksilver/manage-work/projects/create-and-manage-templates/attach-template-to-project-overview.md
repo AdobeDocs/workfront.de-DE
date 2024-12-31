@@ -1,10 +1,10 @@
 ---
 content-type: overview
 product-area: templates
-keywords: overwrite,field,overwrite
+keywords: überschreiben,Feld,überschrieben
 navigation-topic: templates-navigation-topic
-title: Übersicht über das Anhängen einer Vorlage an ein Projekt
-description: Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, ändern Sie einige Informationen im Projekt entsprechend der Vorlage. Einige der Angaben zum Projekt bleiben unverändert.
+title: Überblick über das Anhängen einer Vorlage an ein Projekt
+description: Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, ändern Sie einige Informationen im Projekt entsprechend der Vorlage. Einige Informationen über das Projekt bleiben unverändert.
 author: Alina
 feature: Work Management
 exl-id: 7f0137b6-ce8e-4b66-ad55-e6dc2aae09d9
@@ -15,32 +15,32 @@ ht-degree: 5%
 
 ---
 
-# Übersicht über das Anhängen einer Vorlage an ein Projekt
+# Überblick über das Anhängen einer Vorlage an ein Projekt
 
-Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, ändern Sie einige Informationen im Projekt entsprechend der Vorlage. Einige der Angaben zum Projekt bleiben unverändert.
+Wenn Sie eine Vorlage an ein vorhandenes Projekt anhängen, ändern Sie einige Informationen im Projekt entsprechend der Vorlage. Einige Informationen über das Projekt bleiben unverändert.
 
 Informationen zum Anhängen einer Vorlage an ein Projekt finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-## Überlegungen zum Hinzufügen von Vorlagen zu Projekten
+## Überlegungen beim Hinzufügen von Vorlagen zu Projekten
 
 Beachten Sie beim Hinzufügen von Vorlagen zu Projekten Folgendes:
 
 * Sie können nur aktive Vorlagen an Projekte anhängen.
-* Sie können eine Vorlage nur dann an ein Projekt anhängen, wenn der Status des Projekts &quot;Abgeschlossen&quot;, &quot;Unbeendet&quot;oder &quot;Ausstehende Genehmigung&quot;lautet, wenn der Adobe Workfront-Administrator oder ein Gruppenadministrator diese Funktion im Bereich &quot;Projekteinstellungen&quot;aktiviert hat. Weitere Informationen zum Festlegen von Projektvoreinstellungen finden Sie unter [Konfigurieren von systemweiten Projekteigenschaften](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
-* Sofern Sie bestimmte Vorlagenaufgaben nicht aus dem Anlagenprozess ausschließen, werden alle Vorlagenaufgaben zum vorhandenen Projekt hinzugefügt.
-* Die meisten Vorlageneinstellungen werden dem Projekt hinzugefügt. Einige Projekteinstellungen bleiben erhalten. Weitere Informationen finden Sie im Abschnitt [Grundlegendes zu Änderungen an Projektfeldern beim Anhängen einer Vorlage](#understand-changes-to-project-fields-when-attaching-a-template) in diesem Artikel.
+* Sie können eine Vorlage nur dann an ein Projekt anhängen, wenn sich das Projekt im Status „Abgeschlossen“, „Eingestellt“ oder „Ausstehende Genehmigung“ befindet, wenn diese Funktion von Ihrem Adobe Workfront-Administrator oder einem Gruppenadministrator im Bereich „Projektvoreinstellungen“ aktiviert wurde. Informationen zum Festlegen von Projektvoreinstellungen finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+* Alle Vorlagenaufgaben werden dem vorhandenen Projekt hinzugefügt, es sei denn, Sie schließen bestimmte Vorlagenaufgaben davon aus, dass sie im Anfügeprozess hinzugefügt werden.
+* Die meisten Vorlageneinstellungen werden dem Projekt hinzugefügt. Einige Projekteinstellungen werden beibehalten. Weitere Informationen finden Sie im Abschnitt [Grundlegendes zu Änderungen an Projektfeldern beim Anhängen einer Vorlage](#understand-changes-to-project-fields-when-attaching-a-template) in diesem Artikel.
 
 ## Grundlegendes zu Änderungen an Projektfeldern beim Anhängen einer Vorlage {#understand-changes-to-project-fields-when-attaching-a-template}
 
 >[!IMPORTANT]
 >
->Das Anhängen einer Vorlage an ein Projekt entspricht nicht dem Erstellen eines Projekts aus einer Vorlage. Wenn Sie ein Projekt aus einer Vorlage erstellen, werden alle Vorlagenfelder in das neue Projekt übertragen. Beim Anhängen einer Vorlage bleiben einige der vorhandenen Projektfelder unverändert.
+>Das Anhängen einer Vorlage an ein Projekt ist nicht dasselbe wie das Erstellen eines Projekts aus einer Vorlage. Wenn Sie ein Projekt über eine Vorlage erstellen, werden alle Vorlagenfelder in das neue Projekt übertragen. Beim Anhängen einer Vorlage bleiben einige der vorhandenen Projektfelder unverändert.
 
-Einige Vorlageneinstellungen werden automatisch in das Projekt übertragen, es sei denn, Sie markieren sie explizit, damit sie während des Vorlagenanlagenanlagenprozesses ausgeschlossen werden. Wenn Sie sie zum Ausschließen markieren, bleiben die Projektfeldwerte erhalten.
+Einige Vorlageneinstellungen werden automatisch in das Projekt übertragen, es sei denn, Sie markieren sie ausdrücklich, um während des Vorlagenanfügevorgangs ausgeschlossen zu werden. Wenn Sie sie zum Ausschluss markieren, werden die Feldwerte des Projekts beibehalten.
 
-Es sind jedoch nicht alle Projektfelder verfügbar, die beim Anhängen einer Vorlage an ein Projekt verwaltet werden können. Weitere Informationen finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
+Es stehen jedoch nicht alle Projektfelder zur Verfügung, die verwaltet werden können, wenn eine Vorlage an ein Projekt angehängt wird. Weitere Informationen finden Sie unter [Anhängen einer Vorlage an ein Projekt](../../../manage-work/projects/create-and-manage-templates/attach-template-to-project.md).
 
-In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für die Arbeit mit Projektfeldern beim Anhängen einer Vorlage und die Felder, die Sie während des Anlagenprozesses verwalten können, angewendet werden, um das Standardverhalten zu überschreiben:
+In der folgenden Tabelle wird beschrieben, was standardmäßig mit Projektfeldern geschieht, wenn eine Vorlage angehängt wird, und welche Felder Sie während des Anfügevorgangs verwalten können, um das Standardverhalten zu überschreiben:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -49,8 +49,8 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
  <tbody> 
   <tr> 
    <td>Feld</td> 
-   <td>Was geschieht standardmäßig beim Anhängen einer Vorlage?</td> 
-   <td>Möglichkeit zur Verwaltung der Feldaktualisierungen im Anlagenprozess </td> 
+   <td>Was passiert standardmäßig beim Anhängen einer Vorlage?</td> 
+   <td>Möglichkeit, die Feldaktualisierungen im Anlagenprozess zu verwalten </td> 
   </tr> 
   <tr> 
    <td>Beschreibung</td> 
@@ -64,7 +64,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>URL</td> 
-   <td>Aus Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
+   <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -84,12 +84,12 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Geplante Daten</td> 
-   <td>Kann sich basierend auf den hinzugefügten Aufgaben ändern</td> 
+   <td>Kann sich je nach den hinzugefügten Aufgaben ändern</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Tatsächliche Datumswerte</td> 
-   <td>Kann sich basierend auf den hinzugefügten Aufgaben ändern</td> 
+   <td>Tatsächliche Daten</td> 
+   <td>Kann sich je nach den hinzugefügten Aufgaben ändern</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -109,32 +109,32 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Firma</td> 
-   <td>Aus Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
+   <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Geplante Stunden</td> 
-   <td>Kann sich basierend auf den hinzugefügten Aufgaben ändern</td> 
+   <td>Kann sich je nach den hinzugefügten Aufgaben ändern</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Projektbesitzer</td> 
-   <td>Aus Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
+   <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Projektsponsor</td> 
-   <td>Aus Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
+   <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Ressourcenmanager</td> 
-   <td>Zur Liste der vorhandenen Ressourcen-Manager im Projekt hinzugefügt</td> 
+   <td>Der Liste der im Projekt vorhandenen Ressourcenmanager hinzugefügt</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Benutzerdefinierte Forms</td> 
-   <td>Zum Projekt hinzugefügt, zusätzlich zu den Formularen, die sich bereits im Projekt befinden</td> 
+   <td>Dem Projekt hinzugefügt, zusätzlich zu Formularen, die sich bereits im Projekt befinden</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -169,7 +169,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Meilensteinpfad</td> 
-   <td>Aus Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
+   <td>Von Vorlage übertragen, wenn das Feld im Projekt leer ist</td> 
    <td> </td> 
   </tr> 
   <tr> 
@@ -178,7 +178,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Modus für Zusammenfassungsabschluss</td> 
+   <td>Zusammenfassung - Fertigstellungsmodus</td> 
    <td>Projektinformationen werden beibehalten</td> 
    <td> </td> 
   </tr> 
@@ -193,7 +193,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Zeitlimit für Benutzer</td> 
+   <td>Ausfallzeit des Benutzers</td> 
    <td>Projektinformationen werden beibehalten</td> 
    <td> </td> 
   </tr> 
@@ -209,17 +209,17 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Ressourcenpools</td> 
-   <td>Zur Liste der vorhandenen Ressourcenpools im Projekt hinzugefügt</td> 
+   <td>Wurde zur Liste der vorhandenen Ressourcenpools im Projekt hinzugefügt</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Stundentypen</td> 
-   <td> <p>Wenn die Auswahl während des Anlagenprozesses aufgehoben wird, bleibt die Einstellung "Stündungstypen"im Projekt unverändert. </p> <p>Wenn diese Option aktiviert ist, wird die Vorlageneinstellung an das Projekt übertragen. Wenn die Filterfunktion "Stündentyp"sowohl im Projekt als auch in der Vorlage auf Ja gesetzt ist, werden die Stundentypen aus der Vorlage den im Projekt vorhandenen hinzugefügt.</p> </td> 
+   <td> <p>Wenn diese Option während des Anfügevorgangs deaktiviert ist, bleibt die Einstellung „Stundentypen“ für das Projekt unverändert. </p> <p>Wenn diese Option ausgewählt ist, wird die Vorlageneinstellung auf das Projekt übertragen. Wenn die Stundentypfilterung sowohl für das Projekt als auch für die Vorlage auf Ja festgelegt ist, werden die Stundentypen aus der Vorlage zu den im Projekt enthaltenen Stundentypen hinzugefügt.</p> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
    <td>Erinnerungsnachrichten</td> 
-   <td> <p>Zur Liste der vorhandenen Erinnerungen zum Projekt hinzugefügt. </p> <p>Wenn die Projekterinnerungsbenachrichtigungen während des Anlagenvorgangs deaktiviert werden, bleiben sie unverändert. </p> </td> 
+   <td> <p>Wurde zur Liste der vorhandenen Erinnerungen für das Projekt hinzugefügt. </p> <p>Wenn diese Option während des Anfügevorgangs deaktiviert ist, bleiben die Projekterinnerungsbenachrichtigungen unverändert. </p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -228,38 +228,38 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Benutzerdefinierter Forms-Task Standard</td> 
+   <td>Standardmäßige benutzerdefinierte Forms für Aufgaben</td> 
    <td>Projektinformationen werden beibehalten</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td>Arbeitsaufwand</td> 
+   <td>Work Effort</td> 
    <td>Projektinformationen werden beibehalten</td> 
    <td> </td> 
   </tr> 
   <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
-   <td><span>Benutzern erlauben, Probleme inline hinzuzufügen</span> </td> 
+   <td><span>Benutzenden erlauben, Probleme inline hinzuzufügen</span> </td> 
    <td><span>Projektinformationen werden beibehalten</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Alle Einstellungen</td> 
-   <td>Die Vorlageneinstellungen überschreiben die des Projekts</td> 
+   <td>Vorlageneinstellungen überschreiben die des Projekts</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Aufgaben</td> 
-   <td>Zum Ende der Aufgabenliste hinzugefügt, zusätzlich zu den vorhandenen Projektaufgaben</td> 
+   <td>Am Ende der Aufgabenliste hinzugefügt, zusätzlich zu den vorhandenen Projektaufgaben</td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Dokumente</td> 
-   <td>Zum Projekt hinzugefügt, zusätzlich zu vorhandenen Projektdokumenten</td> 
+   <td>Dem Projekt zusätzlich zu vorhandenen Projektdokumenten hinzugefügt</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Risiken (Objekte im Bereich "Risiken"des Projekts)</td> 
-   <td>Zum Projekt hinzugefügt, zusätzlich zu den bestehenden Projektrisiken </td> 
+   <td>Risiken (Objekte im Risikobereich des Projekts)</td> 
+   <td>Dem Projekt hinzugefügt, zusätzlich zu vorhandenen Projektrisiken </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -269,7 +269,7 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Abrechnungssätze</td> 
-   <td> <p>Wird von der Vorlage zusätzlich zu den bestehenden Abrechnungskursen für das Projekt übertragen. </p> <p>Wenn es für dieselbe Rolle im Auftrag sowohl für das Projekt als auch für die Vorlage eine andere Rate gibt, bleibt die Projektquote unverändert. </p> </td> 
+   <td> <p>Von der Vorlage zusätzlich zu den vorhandenen Abrechnungssätzen für das Projekt übertragen. </p> <p>Wenn sowohl für das Projekt als auch für die Vorlage ein unterschiedlicher Satz für dasselbe Aufgabengebiet vorhanden ist, bleibt der Satz für das Projekt unverändert. </p> </td> 
    <td> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
@@ -279,21 +279,21 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Ausgaben</td> 
-   <td>Aus Vorlage zusätzlich zu den bestehenden Projektausgaben übertragen</td> 
+   <td>Von Vorlage zusätzlich zu den bestehenden Aufwendungen für das Projekt übertragen</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td>Finanzinformationen</td> 
    <td> <p>Wenn dies im Anlagenprozess ausgewählt wird, werden die folgenden Felder entweder übertragen oder zum Projekt hinzugefügt: </p> 
     <ul> 
-     <li> <p>Fixkosten</p> <p>Wenn die Option ausgewählt ist, wird die aktualisierte Festkosten des Projekts mit der folgenden Formel berechnet:</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
-     <li> <p>Festeinnahmen</p> <p>Wenn die Option ausgewählt ist, wird der aktualisierte feste Umsatz des Projekts mit der folgenden Formel berechnet:</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
+     <li> <p>Fixkosten</p> <p>Wenn die Option ausgewählt ist, werden die aktualisierten Fixkosten des Projekts anhand der folgenden Formel berechnet:</p> <p><code>Updated Project Fixed Cost = Original Project Fixed Cost + Template Fixed Cost</code> </p> </li> 
+     <li> <p>Festeinnahmen</p> <p>Wenn die Option ausgewählt ist, wird der aktualisierte feste Umsatz des Projekts anhand der folgenden Formel berechnet:</p> <p><code>Updated Project Fixed Revenue = Original Project Fixed Revenue + Template Fixed Revenue </code> </p> </li> 
      <li> <p>Kostentyp für Aufgaben</p> <p>Aus Vorlage übertragen</p> </li> 
-     <li> <p>Umsatztyp bei Aufgaben</p> <p>Aus Vorlage übertragen</p> </li> 
-    </ul> <p>Wenn dieses Feld während des Anlagenvorgangs deaktiviert wird, geschieht Folgendes:</p> 
+     <li> <p>Umsatztyp für Aufgaben</p> <p>Aus Vorlage übertragen</p> </li> 
+    </ul> <p>Wenn die Auswahl dieses Felds während des Anfügevorgangs aufgehoben wird, geschieht Folgendes:</p> 
     <ul> 
-     <li> <p>Feste Kosten und fester Umsatz im Projekt bleiben erhalten.</p> </li> 
-     <li> <p>Die Kosten- und Umsatztypen der aus der Vorlage hinzugefügten Aufgaben sind auf "Keine Kosten und nicht abrechenbar"eingestellt</p> </li> 
+     <li> <p>Die Festkosten und Festeinnahmen für das Projekt werden beibehalten.</p> </li> 
+     <li> <p>Die Kosten- und Umsatztypen für die über die Vorlage hinzugefügten Aufgaben sind auf „Keine Kosten“ und „Nicht fakturierbar“ festgelegt</p> </li> 
     </ul> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
@@ -304,22 +304,22 @@ In der folgenden Tabelle wird beschrieben, wie die Standardeinstellungen für di
   </tr> 
   <tr> 
    <td>Warteschlangendetails, Themengruppen, Warteschlangenthemen, Routing-Regeln</td> 
-   <td> <p>Aus Vorlage übertragen</p> <p>Wenn Sie während des Anlagenvorgangs die Option <strong>Einrichten der Warteschlangen-Eigenschaften und Probleme</strong> auswählen, überschreiben die Warteschlangendetails der Vorlage die des Projekts. In diesem Fall werden die Routing-Regeln, Warteschlangenthemen und Themengruppen der Vorlage zu denen des Projekts hinzugefügt. <br>Wenn das Projekt als Anforderungswarteschlange eingerichtet ist und die dem Projekt angehängte Vorlage nicht als Anforderungswarteschlange eingerichtet ist, werden die Warteschlangeninformationen des Projekts entfernt, wenn Sie das Kontrollkästchen <strong>Eigenschaften und Einrichtung der Warteschlange</strong> aktiviert lassen. <br>Wenn Sie das Feld <strong>Eigenschaften der Warteschlange und Problemeinrichtung</strong> deaktivieren, werden alle Einstellungen für die Warteschlangeneinrichtung des Projekts beibehalten und es werden keine Einstellungen für die Warteschlangeneinrichtung aus der Vorlage angehängt.</p> </td> 
+   <td> <p>Aus Vorlage übertragen</p> <p>Wenn Sie die Option <strong>Warteschlangeneigenschaften und Problem-Setup</strong> während des Anfügevorgangs auswählen, überschreiben die Warteschlangendetails der Vorlage die des Projekts. In diesem Fall werden die Routing-Regeln, Warteschlangenthemen und Themengruppen der Vorlage zu denen des Projekts hinzugefügt. <br>Wenn das Projekt als Anforderungswarteschlange eingerichtet ist und die dem Projekt angehängte Vorlage nicht als Anforderungswarteschlange eingerichtet ist, werden die Warteschlangeninformationen des Projekts entfernt, wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problemeinstellungen</strong> aktiviert lassen. <br>Wenn Sie das Kontrollkästchen <strong>Warteschlangeneigenschaften und Problem-Setup</strong> deaktivieren, bleiben alle Warteschlangeneinstellungen des Projekts erhalten und es werden keine Warteschlangeneinstellungen aus der Vorlage angehängt.</p> </td> 
    <td> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p> </p> <p>✓</p> </td> 
   </tr> 
   <tr> 
-   <td>Aufgabenbegrenzungen</td> 
-   <td> <p>Aus Vorlage übertragen </p> <p>Wenn die Aufgabenbegrenzungen während des Anlagenvorgangs deaktiviert werden, werden sie je nach Einstellung des Projektplans so bald wie möglich oder so spät wie möglich festgelegt. </p> </td> 
+   <td>Aufgabenbeschränkungen</td> 
+   <td> <p>Aus Vorlage übertragen </p> <p>Wenn diese Option während des Anfügevorgangs deaktiviert ist, werden die Aufgabenbeschränkungen auf „So bald wie möglich“ oder „So spät wie möglich“ festgelegt, je nach der Einstellung von „Projektzeitplan ab“. </p> </td> 
    <td> <p> </p> <p> </p> <p style="text-align: center;">✓</p> </td> 
   </tr> 
   <tr> 
    <td>Aufgabenvorgänger</td> 
-   <td> <p>Aus Vorlage übertragen</p> <p>Wenn diese Option während des Anlagenvorgangs deaktiviert wird, werden alle Vorgängerverbindungen zwischen den Vorlagenaufgaben entfernt.</p> </td> 
+   <td> <p>Aus Vorlage übertragen</p> <p>Wenn diese Option während des Anfügevorgangs deaktiviert ist, werden alle Vorgängerverbindungen zwischen den Vorlagenaufgaben entfernt.</p> </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
    <td>Freigabeoptionen</td> 
-   <td> <p>Wenn die Projektberechtigungen während des Anlagenprozesses deaktiviert werden, bleiben sie unverändert.</p> <p>Wenn diese Option während des Anlagenvorgangs ausgewählt wird, werden die Vorlagenberechtigungen dem Projekt hinzugefügt oder es werden diese überschrieben. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn Benutzer A über Ansichtsberechtigungen für das Projekt verfügt, aber über Verwaltungsberechtigungen für die Vorlage verfügt, erhält Benutzer A nach dem Anhängen der Vorlage Zugriff auf das Projekt verwalten .</p> </td> 
+   <td> <p>Wenn diese Option während des Anfügevorgangs deaktiviert wird, bleiben die Projektberechtigungen unverändert.</p> <p>Wenn diese Option während des Anfügevorgangs ausgewählt wird, werden die Vorlagenberechtigungen dem Projekt hinzugefügt bzw. überschrieben. </p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span>Wenn Benutzer A über Anzeigeberechtigungen für das Projekt verfügt, aber Verwaltungsberechtigungen für die Vorlage hat, erhält Benutzer A nach dem Anhängen der Vorlage Verwaltungszugriff auf das Projekt.</p> </td> 
    <td>✓</td> 
   </tr> 
  </tbody> 

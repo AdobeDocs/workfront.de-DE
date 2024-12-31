@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: scrum-board
-title: Reihenfolge der Meldungen auf der Trommelfläche ändern
-description: Die Reihenfolge, in der Geschichten auf der Storyboard erscheinen, gibt keine Priorität an. Sie kann jedoch die wahrgenommene Priorität beeinflussen, indem sie Geschichten sichtbarer macht. Standardmäßig werden Geschichten in jeder Spalte [!UICONTROL Status] auf der Storyboard in alphabetischer Reihenfolge angezeigt.
+title: Ändern der Reihenfolge von Storys auf dem Scrum-Board
+description: Die Reihenfolge, in der die Storys auf dem Storyboard angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden. Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Spalte [!UICONTROL Status] auf dem Storyboard angezeigt.
 author: Lisa
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Ändern der Reihenfolge der Meldungen auf der [!UICONTROL Scrum]-Pinnwand
+# Ändern der Reihenfolge von Storys auf dem [!UICONTROL Scrum]-Board
 
-Die Reihenfolge, in der Geschichten auf der Storyboard erscheinen, gibt keine Priorität an. Sie kann jedoch die wahrgenommene Priorität beeinflussen, indem sie Geschichten sichtbarer macht. Standardmäßig werden Geschichten in jeder Statusspalte auf der Storyboard in alphabetischer Reihenfolge angezeigt. (Geschichten mit Swimlanes werden oben auf dem Storyboard angezeigt, Geschichten ohne Swimlanes werden separat unter allen Swimlanes angezeigt.)
+Die Reihenfolge, in der die Storys auf dem Storyboard angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden. Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Storyboard angezeigt. (Storys mit Schwimmfahnen werden oben im Storyboard angezeigt, und Storys ohne Schwimmfahnen werden separat unter allen Schwimmfahnen angezeigt.)
 
-Wenn Sie Spalten auf der Story-Pinnwand neu anordnen, werden alle Änderungen, die Sie vornehmen, in der Iteration oder im Projekt gespeichert. Daher werden die Änderungen beibehalten, wenn Sie oder ein anderer Benutzer das Storyboard das nächste Mal anzeigt. (Änderungen, die Sie vornehmen, werden beim Löschen des Browser-Caches nicht zurückgesetzt.)
+Wenn Sie Spalten auf dem Story Board neu anordnen, werden alle von Ihnen vorgenommenen Änderungen in der Iteration oder im Projekt gespeichert, sodass die Änderungen beibehalten werden, wenn Sie oder ein anderer Benutzer das Story Board das nächste Mal aufrufen. (Änderungen, die Sie vornehmen, werden beim Löschen des Browser-Caches nicht rückgängig gemacht.)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,32 +29,32 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ändern der Reihenfolge von Meldungen in einer Iteration
+## Storyreihenfolge in einer Iteration ändern
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Gehen Sie zu der Iteration oder dem Projekt, die/das die Geschichten enthält, die Sie neu anordnen möchten.
-1. Ziehen Sie eine Story-Karte oder eine Swimlane an die gewünschte vertikale Position in einer Statusspalte auf der Story-Pinnwand.
+1. Gehen Sie zur Iteration oder zum Projekt, das die Storys enthält, die Sie neu anordnen möchten.
+1. Ziehen Sie eine Story Card oder einen Swimlane an die gewünschte vertikale Position innerhalb einer Statusspalte auf dem Story Board.
 
-## Ändern der Reihenfolge von Berichten in einem Projekt
+## Ändern der Story-Reihenfolge in einem Projekt
 
-Im Gegensatz zu agilen Iterationen können Sie die Reihenfolge der Geschichte beim Anzeigen eines Projekts in einer agilen Ansicht nicht ändern. Um die Storyreihenfolge für ein Projekt zu ändern, müssen Sie das Projekt in einer Standardansicht anzeigen.
+Im Gegensatz zu agilen Iterationen können Sie die Story-Reihenfolge nicht ändern, wenn Sie ein Projekt in einer agilen Ansicht anzeigen. Um die Storyreihenfolge für ein Projekt zu ändern, müssen Sie das Projekt in einer Standardansicht anzeigen.
 
-Informationen zum Ändern der Projektansicht finden Sie unter [[!UICONTROL Projekt verwalten] in der [!UICONTROL Agile]-Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Wählen Sie statt einer agilen Ansicht eine Standardansicht aus.
+Informationen zum Ändern der Projektansicht finden Sie unter [[!UICONTROL Verwalten eines Projekts] in der [!UICONTROL Agile]Ansicht](../../../manage-work/projects/manage-projects/manage-projects-in-agile-view.md). Wählen Sie keine Agile-Ansicht, sondern eine Standardansicht aus.

@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Bearbeiten von Story-Informationen
-description: Beim Anzeigen einer Story-Kachel auf der Kanban-Pinnwand stehen bestimmte Informationen zur Inline-Bearbeitung zur Verfügung, direkt über die Story-Kachel.
+title: Story-Informationen bearbeiten
+description: Beim Anzeigen einer Story-Kachel auf dem Kanban-Board stehen bestimmte Informationen zur Inline-Bearbeitung direkt über die Story-Kachel zur Verfügung.
 author: Lisa
 feature: Agile
 exl-id: a22a7b61-b331-4c98-9421-e7fccedcd096
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Bearbeiten von Storeninformationen
+# Story-Informationen bearbeiten
 
-## Informationen darüber, welche Informationen angezeigt und bearbeitet werden können {#understand-what-information-can-be-viewed-and-edited}
+## Informationen, welche Informationen angezeigt und bearbeitet werden können {#understand-what-information-can-be-viewed-and-edited}
 
-Bei der Anzeige eines Story-Bausteins auf der [!UICONTROL Kanban]-Pinnwand sind die Informationen in der folgenden Tabelle verfügbar. Sie können die meisten Informationen inline bearbeiten, direkt über den Bereich &quot;Geschichte&quot;.
+Wenn Sie eine Story-Kachel auf dem [!UICONTROL Kanban]-Board anzeigen, sind die Informationen in der folgenden Tabelle verfügbar. Die meisten Informationen können direkt über die Story-Kachel inline bearbeitet werden.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -26,13 +26,13 @@ Bei der Anzeige eines Story-Bausteins auf der [!UICONTROL Kanban]-Pinnwand sind 
  <thead> 
   <tr> 
    <th><strong>Information</strong> </th> 
-   <th><strong>Sichtbar</strong> </th> 
-   <th><strong>Bearbeitbare Inline-Anzeige</strong> </th> 
+   <th><strong>sichtbar</strong> </th> 
+   <th><strong>Bearbeitbar inline</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Der Name des Verlaufs mit einem Link direkt zur Aufgabe oder zum Problem</td> 
+   <td>Der Name der Story mit einem Link direkt zur Aufgabe oder zum Problem</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -42,17 +42,17 @@ Bei der Anzeige eines Story-Bausteins auf der [!UICONTROL Kanban]-Pinnwand sind 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>Die Anzahl der Punkte oder Stunden, die für die Meldung vollständig sind, und die Anzahl der Punkte oder Stunden, die der Meldung zugeordnet sind<br>Diese Zahlen werden verwendet, um die Prozentzahl der Vollständigkeit für jede Meldung zu berechnen und anzuzeigen.</p> </td> 
+   <td> <p>Die Anzahl der Punkte oder Stunden bis zum Abschluss eines Storys und die Anzahl der Punkte oder Stunden bis zum Abschluss eines <br>. Diese Zahlen werden zur Berechnung und Anzeige des Prozentsatzes bis zum Abschluss eines Storys verwendet.</p> </td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p>[!UICONTROL Prozentualer Abschluss] für jede Geschichte und jedes Thema.<br>[!UICONTROL Der prozentuale Abschluss] für die Iteration wird basierend auf dem [!UICONTROL Prozentwert für jeden Artikel berechnet.<br></p> <p>Bei der Aktualisierung von [!UICONTROL Prozent Vollständigkeit] für eine Meldung oder ein Problem können Sie eine beliebige Zahl zwischen 0 und 100 wählen.</p> </td> 
+   <td> <p>Die [!UICONTROL Prozent abgeschlossen] für jede Story und jedes Problem.<br>[!UICONTROL Percent Complete] für die Iteration wird basierend auf [!UICONTROL Percent Complete] für jede Story berechnet.<br></p> <p>Beim Aktualisieren von [!UICONTROL Prozent abgeschlossen] für eine Story oder ein Problem können Sie eine beliebige Zahl zwischen 0 und 100 auswählen.</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Wem die Geschichte zugeordnet ist</p> </td> 
+   <td> <p>Wem die Story zugewiesen ist</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -62,7 +62,7 @@ Bei der Anzeige eines Story-Bausteins auf der [!UICONTROL Kanban]-Pinnwand sind 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Alle zusätzlichen Felder (einschließlich benutzerdefinierter Felder), die möglicherweise zur agilen Ansicht hinzugefügt wurden, indem die agile Ansicht geändert wurde, wie unter "Erstellen und Anpassen einer Agile-Ansicht"in <a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref">Übersicht über Ansichten in [!DNL Adobe Workfront]</a> beschrieben.</p> </td> 
+   <td> <p>Alle zusätzlichen Felder (einschließlich benutzerdefinierter Felder), die der agilen Ansicht hinzugefügt wurden, indem die agile Ansicht geändert wurde, wie in „Erstellen und Anpassen einer agilen Ansicht“ in "<a href="../../reports-and-dashboards/reports/reporting-elements/views-overview.md" class="MCXref xref"> in [!DNL Adobe Workfront]</a>" beschrieben</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -71,7 +71,7 @@ Bei der Anzeige eines Story-Bausteins auf der [!UICONTROL Kanban]-Pinnwand sind 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -83,36 +83,36 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Anzeigen und Bearbeiten von Informationen zu einem Story-Baustein
+## Anzeigen und Bearbeiten von Informationen auf einer Story-Kachel
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Kanban-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Gehen Sie zur [!UICONTROL Kanban]-Pinnwand.
-1. Erweitern Sie die Kachel &quot;Geschichte&quot;, um alle Felder anzuzeigen, die mit der Geschichte verbunden sind.
+1. Zum Kanban[!UICONTROL Board ].
+1. Erweitern Sie die Kachel Story , um alle mit der Story verbundenen Felder anzuzeigen.
 
    ![](assets/story-expanded-on-kanban-board-2021-350x405.png)
 
-1. (Optional) Um ein Feld zu bearbeiten, klicken Sie auf das Feld und nehmen Sie dann alle Änderungen vor.
-Sie müssen über die Berechtigung [!UICONTROL Bearbeiten] für die Aufgabe oder das Problem verfügen, um die Kachel &quot;Geschichte&quot;bearbeiten zu können.
-Weitere Informationen zu den einzelnen Feldern und dazu, ob sie bearbeitet werden können, finden Sie unter [Informationen darüber, welche Informationen angezeigt und bearbeitet werden können](#understand-what-information-can-be-viewed-and-edited).
+1. (Optional) Um ein Feld zu bearbeiten, klicken Sie auf das Feld und nehmen Sie dann Änderungen vor.
+Sie müssen über [!UICONTROL Bearbeiten]-Rechte für die Aufgabe oder das Problem verfügen, um die Story-Kachel bearbeiten zu können.
+Weitere Informationen zu den einzelnen Feldern und dazu, ob sie bearbeitet werden können, finden Sie unter [Informationen, die angezeigt und bearbeitet werden können](#understand-what-information-can-be-viewed-and-edited).
 
 >[!NOTE]
 >
->Um den [!UICONTROL Prozentsatz abgeschlossen] zu ändern, müssen Sie eine Zahl zwischen 0 und 100 eingeben. Das Feld ist kein Schieberegler, den Sie verschieben können.
+>Um den [!UICONTROL Prozent abgeschlossen] zu ändern, müssen Sie eine Zahl zwischen 0 und 100 eingeben. Das Feld ist kein Schieberegler, den Sie verschieben können.

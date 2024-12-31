@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Zuordnen von Microsoft-Projektfeldern zu Adobe Workfront-Projekten
-description: Projekte im Adobe Workfront- und Microsoft-Projekt sind größtenteils kompatibel. In diesem Artikel wird beschrieben, wie die am häufigsten verwendeten Projektfelder von den beiden Anwendungen einander zugeordnet werden.
+title: Zuordnen von Microsoft Project-Feldern zu Adobe Workfront-Projekten
+description: Projekte in Adobe Workfront und Microsoft Project sind größtenteils kompatibel. In diesem Artikel wird beschrieben, wie sich die häufigsten Projektfelder der beiden Anwendungen gegenseitig zuordnen.
 author: Alina
 feature: Work Management
 exl-id: 381eb6ad-8084-406b-90f9-44460b58a04c
@@ -13,38 +13,38 @@ ht-degree: 3%
 
 ---
 
-# Zuordnen von Microsoft-Projektfeldern zu Adobe Workfront-Projekten
+# Zuordnen von Microsoft Project-Feldern zu Adobe Workfront-Projekten
 
-Projekte im Adobe Workfront- und Microsoft-Projekt sind größtenteils kompatibel. Mithilfe der beiden Anwendungen haben Sie folgende Möglichkeiten:
+Projekte in Adobe Workfront und Microsoft Project sind größtenteils kompatibel. Mithilfe der beiden Anwendungen können Sie Folgendes tun:
 
-* Exportieren von Projekten aus Microsoft Project und Importieren in Workfront
+* Exportieren von Projekten aus dem Microsoft-Projekt und Importieren in Workfront
 * Exportieren Sie Projekte aus Workfront und importieren Sie sie in Microsoft Project. 
 
 Weitere Informationen zum Importieren von Projekten aus Microsoft Project in Workfront finden Sie unter [Importieren eines Projekts aus Microsoft Project](../../../manage-work/projects/create-projects/import-project-from-ms-project.md).
 
 Weitere Informationen zum Exportieren eines Projekts aus Workfront zum Importieren in Microsoft Project finden Sie unter [Exportieren eines Projekts in Microsoft Project](../../../manage-work/projects/manage-projects/export-project-to-ms-project.md).
 
-Bei der Durchführung solcher Datenimporte ist es wichtig zu verstehen, wie Informationen von einer Anwendung zur anderen übersetzt werden. In den meisten Fällen müssen Sie nach Abschluss des Imports einige manuelle Änderungen am Projekt vornehmen. 
+Bei solchen Datenimporten müssen Sie wissen, wie die Informationen von einer Anwendung in die andere übertragen werden. In den meisten Fällen müssen Sie nach Abschluss des Imports einige manuelle Änderungen am Projekt vornehmen. 
 
 ## Übersicht über die Feldzuordnung
 
 >[!NOTE]
 >
->Die geplanten Daten entsprechen nicht immer zwischen beiden Systemen. Diskrepanzen können über einen Zeitplan und Unterschiede bei den Systemvoreinstellungen zwischen Workfront und Microsoft Project berücksichtigt werden. Diese Diskrepanzen beim Datum können auch zu Unterschieden in Aufwand, Dauer und Prozentsatz der Fertigstellung führen.
+>Die geplanten Termine stimmen nicht immer zwischen beiden Systemen überein. Abweichungen können durch den Zeitplan und Unterschiede in den Systemvoreinstellungen zwischen Workfront und Microsoft Project berücksichtigt werden. Diese Datumsdiskrepanzen können auch zu Unterschieden bei Aufwand, Dauer und Prozentsatz der Fertigstellung führen.
 
 | **Microsoft-Projektfeld** | **Workfront-Feld** |
 |---|---|
 | Projekttitel | Projektname |
-| Start- und Enddatum | Geplante Start- und Enddaten |
+| Start- und Enddaten | Geplante Start- und Abschlussdaten |
 | Aufgabenname | Aufgabenname |
-| Aufgabendauer | Geplante Dauer der Aufgabe |
-| Aufgabenarbeit | Geplante Stunden für Aufgaben |
+| Aufgabendauer | Geplante Aufgabendauer |
+| Aufgabenarbeit | Geplante Stunden der Aufgabe |
 | Aufgabe % abgeschlossen | Aufgabe % abgeschlossen (basierend auf der Dauer der Aufgabe) |
-| Aufgabe der Arbeit % abgeschlossen | Aufgabe % abgeschlossen (basierend auf den geplanten Stunden der Aufgabe) |
-| Geplanter Start und Abschluss | Geplante Start- und Enddaten |
-| Tatsächlicher Beginn und Abschluss | Tatsächliche Start- und Abschlussdaten |
+| Aufgabenarbeit % abgeschlossen | Aufgabe % abgeschlossen (basierend auf den geplanten Stunden der Aufgabe) |
+| Geplanter Anfang und Ende | Geplante Start- und Abschlussdaten |
+| Tatsächlicher Start und tatsächliches Ende | Tatsächliche Start- und Abschlussdaten |
 | Ressourcenname | Aufgabenzuweisung |
-| Zuweisungseinheiten | Zuweisungszuordnungsprozentsatz |
+| Zuordnungseinheiten | Zuweisungsprozentsatz |
 | Aufgabennotiz | Aufgabenbeschreibung |
 | Vorgänger | Vorgänger |
 
@@ -52,16 +52,16 @@ Bei der Durchführung solcher Datenimporte ist es wichtig zu verstehen, wie Info
 
 Es gibt eine Reihe von Projektfeldern, die nicht in Workfront importiert oder aus exportiert werden.
 
-Diese Felder umfassen unter anderem Folgendes:
+Zu diesen Feldern gehören unter anderem:
 
-* Dokumentanlagen
+* Dokumentanhänge
 * Benutzerdefinierte Felder (auf Projekt- oder Aufgabenebene)
 * Workfront-Hinweise
 * Probleme
-* Negative Verzögerung bei Aufgaben mit einer Vorgängerbeziehung vom Typ Start/Ende (Aufgaben werden ohne Verzögerung importiert)
+* Negative Verzögerung bei Aufgaben mit einer Vorgängerbeziehung Start/Ende (Aufgaben werden ohne Verzögerung importiert)
 * Arbeitsaufträge
-* Aufgabenbegrenzungen
+* Aufgabenbeschränkungen
 
   >[!NOTE]
   >
-  >Da Einschränkungen nicht zwischen Microsoft Project und Workfront zugeordnet werden, stellen Sie sicher, dass Vorgängerbeziehungen zwischen den Aufgaben bestehen. Andernfalls stimmen die geplanten Start- und Abschlussdaten der Aufgaben im importierten Projekt möglicherweise nicht überein. 
+  >Da Einschränkungen nicht zwischen Microsoft Project und Workfront zugeordnet sind, stellen Sie sicher, dass Vorgängerbeziehungen zwischen den Aufgaben vorhanden sind. Andernfalls sind das geplante Start- und Abschlussdatum der Aufgaben im importierten Projekt möglicherweise nicht korrekt. 

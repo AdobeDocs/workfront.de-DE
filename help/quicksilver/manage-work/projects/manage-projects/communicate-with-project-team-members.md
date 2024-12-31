@@ -1,8 +1,8 @@
 ---
 product-area: projects;agile-and-teams
 navigation-topic: manage-projects
-title: Kommunikation mit Mitgliedern des Projektteams
-description: Über Adobe Workfront können Sie mühelos mit den Mitgliedern Ihres Projektteams kommunizieren.
+title: Kommunikation mit Projektteammitgliedern
+description: Sie können mit den Mitgliedern Ihres Projektteams einfach über Adobe Workfront kommunizieren.
 author: Alina
 feature: Work Management
 exl-id: 2dadc10c-ffa8-4bb5-b2f1-14e2a8f0a7d6
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 ---
 
-# Kommunikation mit Mitgliedern des Projektteams
+# Kommunikation mit Projektteammitgliedern
 
-Über Adobe Workfront können Sie mühelos mit den Mitgliedern Ihres Projektteams kommunizieren.
+Sie können mit den Mitgliedern Ihres Projektteams einfach über Adobe Workfront kommunizieren.
 
-Alle mit einem Projekt verknüpften Benutzer bilden das Projektteam. Weitere Informationen zum Projektteam finden Sie unter [Übersicht über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Alle einem Projekt zugeordneten Benutzer werden aus dem Projektteam abgerufen. Informationen zum Projektteam finden Sie unter [Projektteam - Übersicht](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -31,61 +31,61 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> <p>Anfrage oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf Projekte</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Projekte anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## E-Mail an ein Mitglied des Projektteams senden {#send-an-email-to-a-project-team-member}
+## Senden einer E-Mail an ein Mitglied des Projektteams {#send-an-email-to-a-project-team-member}
 
-1. Rufen Sie ein Projekt auf, an dessen Mitglieder des Projektteams Sie eine E-Mail senden möchten.
-1. Klicken Sie im linken Bereich auf **Personen** . Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
+1. Wechseln Sie zu einem Projekt, an dessen Mitglieder des Projektteams Sie eine E-Mail senden möchten.
+1. Klicken Sie **linken** auf „Personen“. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
 
-   Um alle Mitglieder des Projektteams zu aktualisieren, klicken Sie oben links in der Liste der Mitglieder des Projektteams auf **Alle aktualisieren** .
+   Um alle Mitglieder des Projektteams zu aktualisieren, klicken Sie **Alle aktualisieren** in der linken oberen Ecke der Liste der Mitglieder des Projektteams.
 
    Oder
 
-   Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie dann auf **Update an Benutzer senden******.\
-   ![Commenting_1.png](assets/commenting-1-350x352.png)
+   Um bestimmte Mitglieder des Projektteams zu aktualisieren, wählen Sie einen oder mehrere Benutzer in der Liste aus und klicken Sie dann auf **Aktualisierung an Benutzer senden******.\
+   ![comment_1.png](assets/commenting-1-350x352.png)
 
-1. Geben Sie Ihre Aktualisierung in das Feld **Post - ein Update dieses Projekts** ein.
-1. (Optional) Um die Aktualisierung privat zu machen, klicken Sie auf das Symbol **Sperren** .
+1. Geben Sie Ihr Update in das Feld **Für dieses Projekt aktualisieren**.
+1. (Optional) Um die Aktualisierung privat zu machen, klicken Sie auf das **Sperren**-Symbol.
 
-   Benutzer außerhalb des Unternehmens können keine private Aktualisierung anzeigen.
+   Benutzende außerhalb des Unternehmens können keine private Aktualisierung anzeigen.
 
-1. (Optional) Klicken Sie auf das Symbol **Personen** , um weitere nicht ausgewählte Empfänger hinzuzufügen.
-1. Klicken Sie auf **Senden**.
+1. (Optional) Klicken Sie auf das **Personen**-Symbol, um weitere nicht ausgewählte Empfänger hinzuzufügen.
+1. Klicken Sie **Senden**.
 
-   Die Aktualisierung und die Namen der darin enthaltenen Benutzer werden auf der Registerkarte Updates des Projekts angezeigt.
+   Die Aktualisierung und die Namen der darin enthaltenen Benutzer werden auf der Registerkarte Aktualisierungen des Projekts angezeigt.
 
 ## Senden von Aktualisierungen an Mitglieder des Projektteams und andere
 
-Sie können Projektaktualisierungen an Teammitglieder und andere Benutzer senden, die möglicherweise nicht Teil des Projektteams sind. Alle Benutzer müssen über ein aktives Workfront-Konto verfügen. Die Aktualisierung wird als Benachrichtigung in Workfront gesendet.
+Sie können Projektaktualisierungen an Team-Mitglieder und andere Benutzer senden, die möglicherweise nicht zum Projekt-Team gehören. Alle Benutzer müssen über ein gültiges Workfront-Konto verfügen. Das Update wird in Workfront als Benachrichtigung gesendet.
 
-1. Wechseln Sie zu einem Projekt, von dem Sie Aktualisierungen an andere Benutzer senden möchten.
-1. (Optional und bedingt) Wenn sich die Benutzer, an die Sie Aktualisierungen senden möchten, nicht im Projektteam befinden, fügen Sie sie zum Projektteam hinzu.
+1. Navigieren Sie zu einem Projekt, von dem Sie Aktualisierungen an andere Benutzer senden möchten.
+1. (Optional und bedingt) Wenn die Benutzer, an die Sie Aktualisierungen senden möchten, nicht zum Projekt-Team gehören, fügen Sie sie zum Projekt-Team hinzu.
 
-   Weitere Informationen zum Hinzufügen von Benutzern zum Projektteam finden Sie unter [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md).
+   Informationen zum Hinzufügen von Benutzern zum Projektteam finden Sie unter [Verwalten des Projektteams](../../../manage-work/projects/planning-a-project/manage-project-team.md).
 
-1. Senden Sie eine Aktualisierung an die Mitglieder des Projektteams, wie im Abschnitt
+1. Senden Sie eine Aktualisierung an die Mitglieder des Projektteams, wie im
 
-   [Senden Sie eine E-Mail an ein Mitglied des Projektteams](#send-an-email-to-a-project-team-member) in diesem Artikel.
+   [Senden einer E-Mail an ein Mitglied ](#send-an-email-to-a-project-team-member) ProjektteamsAbschnitt in diesem Artikel.
 
-   Die Aktualisierung und die Namen der darin enthaltenen Benutzer werden auf der Registerkarte Updates des Projekts angezeigt.
+   Die Aktualisierung und die Namen der darin enthaltenen Benutzer werden auf der Registerkarte Aktualisierungen des Projekts angezeigt.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode"> <p>(NOTE: drafted. No longer valid)</p>

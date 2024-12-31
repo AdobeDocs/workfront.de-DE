@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Exportieren historischer Daten aus Adobe Workfront: Vorteile und Nachteile'
-description: In diesem Artikel werden die Vor- und Nachteile von 4 Optionen erläutert, mit denen Sie historische Daten aus Workfront exportieren können.
+title: 'Exportieren von historischen Daten aus Adobe Workfront: Vor- und Nachteile'
+description: In diesem Artikel werden die Vor- und Nachteile von vier Optionen erläutert, mit denen Sie historische Daten aus Workfront exportieren können.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,48 +16,48 @@ ht-degree: 0%
 
 ---
 
-# Exportieren Sie historische Daten aus [!DNL Adobe Workfront]: Vor und Nachteile
+# Export historischer Daten aus [!DNL Adobe Workfront]: Vor- und Nachteile
 
 In diesem Artikel werden die Vor- und Nachteile von vier Optionen erläutert, mit denen Sie historische Daten aus [!DNL Workfront] exportieren können.
 
 ## Verwenden Sie einen unserer Partner
 
-[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) verfügt über eine benutzerfreundliche App (ihre [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/) -Lösung), mit der Sie Ihre Daten selbst herunterladen können. Mit einem optionalen Viewer (mit der Lösung [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/) ) können Sie Ihre Daten einfach offline anzeigen.
+[!DNL AtAppStore] ([www.atappstore.com](https://www.atappstore.com)) verfügt über eine benutzerfreundliche App (die [Workfront Snapshot](https://store.atappstore.com/product/workfront-snapshot/)-Lösung), mit der Sie Ihre Daten selbst herunterladen können. Ein optionaler Viewer (die [Workfront Snapshot Viewer](https://store.atappstore.com/product/workfront-snapshot-viewer/)-Lösung) ermöglicht eine einfache Offline-Anzeige Ihrer Daten.
 
-* **Vorteile:** Alle Ihre Core [!DNL Workfront]-Objekte werden exportiert, einschließlich der benutzerdefinierten Felder und Hinweise, die alle dann in einer leicht zugänglichen [!DNL MS Access]-Datenbank gespeichert werden. Die Benutzeroberfläche des Viewers ist einfach zu verwenden und zu lesen. Das Extrahieren von Dokumenten ist auch separat als Dienst verfügbar, wobei die Ausgabe in einer logischen Ordnerstruktur organisiert ist, die den einzelnen Dokumenten (und optional den vorherigen Versionen) zugeordnet ist.
+* **Positiv** Alle Ihre [!DNL Workfront]-Kernobjekte werden exportiert, einschließlich der benutzerdefinierten Felder und Notizen, die alle in einer leicht zugänglichen [!DNL MS Access]-Datenbank gespeichert werden. Die Benutzeroberfläche des Viewers ist einfach zu bedienen und zu lesen. Das Extrahieren von Dokumenten ist auch separat als Service verfügbar, wobei die Ausgabe in einer logischen Ordnerstruktur organisiert ist, die jedem Dokument (und optional seinen vorherigen Versionen) zugeordnet ist.
 
-* **Nachteile:** Es gibt eine technische Beschränkung von 2 GB an Daten. Mit AtAppStore können Sie jedoch nur das kaufen, was Sie benötigen.
+* **Nachteile:** Es gibt eine technische Einschränkung von 2 GB an Daten, aber AtAppStore ermöglicht Ihnen nur das zu kaufen, was Sie benötigen.
 
 * **Kosten:** Weitere Informationen finden Sie unter [https://store.atappstore.com/product/workfront-snapshot/](https://store.atappstore.com/product/workfront-snapshot/).
 
-## Eine [!DNL Postgres]-Datendump-Datei von unserem Datenbankteam anfordern
+## Fordern Sie eine [!DNL Postgres]-Daten-Dump-Datei von unserem Datenbank-Team an
 
-Sie müssen eine Anfrage an unser Support-Team senden, das dann eine Anfrage an unser Datenbankteam sendet, um eine Datenbank-Dump-Datei (.dmp [!DNL Postgres] -Datei) mit Ihren Daten zu exportieren. Eine zusätzliche Anfrage wird an unser NOC-Team gesendet, um alle gespeicherten Dokumente abzurufen.
+Sie müssen eine Anfrage an unser Kundensupportteam senden, das dann eine Anfrage an unser Datenbankteam sendet, um eine Datenbank-Dump-Datei (.dmp-[!DNL Postgres]-Datei) mit Ihren Daten zu exportieren. Eine zusätzliche Anfrage wird an unser NOC-Team gesendet, um alle Ihre gespeicherten Dokumente abzurufen.
 
-* **Vorteile**: Sie erhalten die gesamte Datenladung, einschließlich benutzerdefinierter Felder, sowie Dokumente, die im System gespeichert sind.
+* **Vorteile**: Sie erhalten Ihre gesamte Datenlast, einschließlich benutzerdefinierter Felder sowie Dokumente, die im System gespeichert sind.
 
-* **Nachteile**: Die Datenbankdatei ist schwer zu lesen: Sie können diese Datei nur lesen, wenn Sie sie in eine [!DNL Postgres] -Datenbank hochladen und die Beziehungen zwischen den Tabellen wiederherstellen. Die Dokumente werden auf einem separaten Dateiserver gespeichert und müssen separat mithilfe eines separaten Prozesses vom NOC-Team extrahiert werden. Dabei gibt es keine Organisation für die Dokumente, und alle werden durch ihre GUID referenziert.
+* **Nachteile**: Die Datenbankdatei ist schwer lesbar: Sie können diese Datei nur lesen, wenn Sie sie in eine [!DNL Postgres] Datenbank hochladen und die Beziehungen zwischen den Tabellen wiederherstellen. Die Dokumente werden auf einem separaten Dateiserver gespeichert und müssen vom NOC-Team in einem separaten Prozess separat extrahiert werden. Dadurch gibt es keine Organisation für die Dokumente, und sie werden alle durch ihre GUID referenziert.
 
-* **Kosten**: Dieser Download verursacht Kosten, die davon abhängen, wie lange das Team benötigt, um die Datei zu erstellen. Wenden Sie sich an Ihren AEM/CAE, um weitere Informationen zu erhalten oder diesen Prozess zu starten.
+* **Kosten**: Mit diesem Download sind Kosten verbunden, je nachdem, wie lange das Team braucht, um die Datei zu erstellen. Wenden Sie sich an Ihren AEM/CAE, um weitere Informationen zu erhalten oder diesen Prozess zu starten.
 
-## Export über [!UICONTROL Kick-Starts]
+## Exportieren über [!UICONTROL Kickstarts]
 
-Unabhängig davon, ob Sie über Remote-Beratungszeiten verfügen oder nicht, können Sie Ihre Daten mit einem unserer Berater in Form von Berichten oder [!UICONTROL kick-starts] exportieren oder diese Berichte selbst ausführen:
+Unabhängig davon, ob Sie Remote-Beratungszeiten haben oder nicht, können Sie einen unserer Berater verwenden, um Ihre Daten in Form von Berichten oder [!UICONTROL Kickstarts] zu exportieren, oder Sie können diese Berichte selbst ausführen:
 
-* **Vorteile**: Berichte sind einfach zu lesen und können in verschiedenen Anwendungen importiert werden. Sie können angepasst werden, um beliebige Gruppierungen und Ansichten einzuschließen.
+* **Positiv**: Die Berichte sind einfach zu lesen und können in eine Vielzahl von Anwendungen importiert werden. Sie können so angepasst werden, dass sie beliebige Gruppierungen und Ansichten enthalten.
 
 * **Nachteile**: Dokumente müssen separat heruntergeladen werden.
 
-* **Kosten**: Es ist kostenlos, wenn Sie die Berichte selbst ausführen können (Sie benötigen lediglich eine Systemadministratoranmeldung) oder die verbleibenden Remote-Beratungszeiten nutzen können. Wenn Sie sich für eine Remote-Beratung interessieren, sprechen Sie bitte mit Ihrem AE/CAE.
+* **Kosten**: Es ist kostenlos, wenn Sie die Berichte selbst ausführen können (Sie benötigen lediglich eine Anmeldung als Systemadministrator) oder wenn Sie die verbleibenden Stunden der Remote-Beratung nutzen können. Wenn Sie daran interessiert sind, Remote-Beratung für diese zu erwerben, wenden Sie sich bitte an Ihren AE/CAE.
 
-  Weitere Informationen zur Verwendung von Kick-Starts zum Exportieren von Daten finden Sie unter [Exportieren von Daten aus  [!DNL Adobe Workfront] über [!UICONTROL Kick-Starts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
+  Weitere Informationen zur Verwendung von Kickstarts zum Exportieren von Daten finden Sie unter [Exportieren von Daten  [!DNL Adobe Workfront] über [!UICONTROL Kickstarts]](../../administration-and-setup/manage-workfront/using-kick-starts/export-data-from-wf-via-kick-starts.md).
 
-## Verwenden der offenen API
+## Verwenden unserer offenen API
 
-Wenn Sie über die richtigen Ressourcen in Ihrer Organisation verfügen, können diese eine benutzerdefinierte API erstellen, um alle Ihre Daten aus Workfront abzurufen:
+Wenn Sie in Ihrem Unternehmen über die richtigen Ressourcen verfügen, können diese eine benutzerdefinierte API zum Abrufen aller Daten aus Workfront erstellen:
 
-* **Vorteile**: Sie steuern, welche Exporte aus dem System ausgeführt werden.
+* **Vorteile**: Sie haben die Kontrolle darüber, was aus dem System exportiert.
 
-* **Nachteile**: Die Zeit wird auf Ihrer Seite verbracht. Sie müssen Ressourcen finden, um die API zu codieren und den Export durchzuführen.
+* **Nachteile**: Die Zeit wird auf Ihrer Seite verbracht, und Sie müssen Ressourcen finden, um die API zu codieren und den Export durchzuführen.
 
-* **Kosten**: Intern zu Ihrem Unternehmen.
+* **Kosten**: Intern in Ihrer Organisation.

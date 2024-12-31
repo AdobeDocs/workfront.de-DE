@@ -1,8 +1,8 @@
 ---
 product-area: agile-and-teams;projects
 navigation-topic: use-kanban-in-an-agile-team
-title: Fügen Sie das Backlog zum Kanban Board hinzu.
-description: Sie können eine Spalte vom Typ [!UICONTROL Backlog] direkt auf Ihrer Kanban-Pinnwand anzeigen. Die Spalte "[!UICONTROL Backlog]" auf der Pinnwand enthält die ersten 20 Elemente aus Ihrem Rückprotokoll auf der Pinnwand  [!DNL Kanban] .  [!DNL Kanban]  Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit Aktuell übereinstimmt, damit sie im Rückstand angezeigt werden.
+title: Rückstand zum Kanban-Board hinzufügen
+description: Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die Spalte [!UICONTROL Backlog] auf der  [!DNL Kanban]  enthält die ersten 20 Elemente aus Ihrem Rückstand auf der  [!DNL Kanban] . Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status in der Rückstandsanzeige mit „Aktuell“ übereinstimmt.
 author: Lisa
 feature: Agile
 exl-id: 77c7f7c7-66d9-4aec-9a0c-bfdc470a58d7
@@ -13,13 +13,13 @@ ht-degree: 0%
 
 ---
 
-# Fügen Sie dem [!UICONTROL Kanban] -Pinnwand den Rückstand hinzu.
+# Rückstand zur Pinnwand [!UICONTROL Kanban] hinzufügen
 
-Sie können eine Spalte vom Typ [!UICONTROL Backlog] direkt auf Ihrer Kanban-Pinnwand anzeigen. Die Spalte [!UICONTROL Rückprotokoll] auf der [!DNL Kanban]-Pinnwand enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]-Pinnwand. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit [!UICONTROL Aktuell] übereinstimmt, damit sie im Rückstadium angezeigt werden.
+Sie können eine Spalte [!UICONTROL Rückstand] direkt auf Ihrem Kanban-Board anzeigen. Die [!UICONTROL Backlog]-Spalte auf der [!DNL Kanban] enthält die ersten 20 Elemente aus Ihrem Rückstand auf der [!DNL Kanban]. Aufgaben und Probleme müssen zu einem Projekt gehören, dessen Status mit &quot;[!UICONTROL &quot; ], damit sie im Rückstand angezeigt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,34 +31,34 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Fügen Sie dem [!UICONTROL Kanban] -Pinnwand den Rückstand hinzu.
+## Rückstand zur Pinnwand [!UICONTROL Kanban] hinzufügen
 
-Standardmäßig ist die Spalte &quot;[!UICONTROL Backlog]&quot; ausgeblendet. So zeigen Sie den Rückstand an:
+Standardmäßig ist die Spalte [!UICONTROL Auftragsbestand] ausgeblendet. So zeigen Sie den Auftragsbestand an:
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Kanban]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues [!UICONTROL Kanban]-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Gehen Sie zur Kanban-Pinnwand, wo Sie den Rückstand anzeigen möchten.
-1. Klicken Sie auf **[!UICONTROL Rückstau anzeigen]**.
+1. Wechseln Sie zur Kanban-Pinnwand, auf der Sie den Rückstand anzeigen möchten.
+1. Klicken Sie **[!UICONTROL Auftragsbestand anzeigen]**.
 
 >[!NOTE]
 >
->Wenn Sie einem Rückholelement mehrere Teams hinzufügen, wird die Aufgabe bzw. das Problem nur im Rückstand des Hauptteams angezeigt. Das Hauptteam ist das zuerst zugewiesene Team.
+>Wenn Sie einem Rückstandselement mehrere Teams hinzufügen, wird die Aufgabe oder das Problem nur im Rückstand des primären Teams angezeigt. Das primäre Team ist das Team, das zuerst zugewiesen wurde.
 
-Weitere Informationen zum Rückstand finden Sie unter [Verwalten des agilen Rückstands-Logs](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).
+Weitere Informationen zum Rückstand finden Sie unter [Verwalten des agilen Rückstands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md).

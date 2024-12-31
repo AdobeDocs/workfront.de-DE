@@ -2,7 +2,7 @@
 product-area: templates
 navigation-topic: templates-navigation-topic
 title: Vorlage aus Projekt erstellen
-description: Sie können Vorlagen erstellen, wenn Sie ein vorhandenes Projekt als Vorlage speichern.
+description: Beim Speichern eines vorhandenen Projekts als Vorlage können Sie Vorlagen erstellen.
 author: Alina
 feature: Work Management, Projects
 role: User
@@ -20,15 +20,15 @@ ht-degree: 1%
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(Note: Keep this article in the Creating and Managing Templates area with the detailed information that this contains. Since this is an article about creating TEMPLATES, this needs to be detailed under Templates; there is a similar article with almost the same title in Managing projects that points to this one - since this functionality is in the UI under Projects, this article must have a presence in that areas as well. Keep both, but make this one the only editable one (iterative))</p>
 -->
 
-Sie können Vorlagen erstellen, wenn Sie ein vorhandenes Projekt als Vorlage speichern.
+Beim Speichern eines vorhandenen Projekts als Vorlage können Sie Vorlagen erstellen.
 
-Nachdem Sie ein vorhandenes Projekt als Vorlage gespeichert haben, können Sie die neue Vorlage verwenden, um neue Projekte zu erstellen. Dies vereinfacht und beschleunigt die Projekterstellung.
+Nachdem Sie ein vorhandenes Projekt als Vorlage gespeichert haben, können Sie die neue Vorlage verwenden, um neue Projekte zu erstellen. Dies vereinfacht und beschleunigt den Projekterstellungsprozess.
 
 >[!NOTE]
 >
 >Beim Speichern eines Projekts als Vorlage werden die tatsächlichen Daten der Aufgaben und des Projekts nicht für die Vorlage gespeichert.
 >
->Eine Vorlage und ihre Aufgaben haben keine tatsächlichen Daten, sondern einen Hinweis darauf, an welchem Tag (ab dem Zeitpunkt, zu dem das zukünftige Projekt beginnen kann) eine Aufgabe beginnen kann und an welchem Tag die Aufgabe möglicherweise abgeschlossen werden muss. Wenn Sie Vorlagen zur Erstellung künftiger Projekte verwenden, erhalten die Projekte die tatsächlichen Daten. Weitere Informationen finden Sie unter [Erstellen eines Projekts](../create-projects/create-project.md).
+>Eine Vorlage und ihre Aufgaben haben keine tatsächlichen Daten, sondern einen Hinweis darauf, an welchem Tag (ab dem das zukünftige Projekt beginnen könnte) eine Aufgabe beginnen könnte und an welchem Tag sie abgeschlossen werden muss. Wenn Sie Vorlagen zur Erstellung künftiger Projekte verwenden, erhalten die Projekte tatsächliche Termine. Weitere Informationen finden Sie unter [Erstellen eines Projekts](../create-projects/create-project.md).
 
 ## Zugriffsanforderungen
 
@@ -40,29 +40,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Vorlagen bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für ein Projekt </p> <p>Sie erhalten nach der Erstellung Verwaltungsberechtigungen für die Vorlage</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen oder Erweitern von Berechtigungen für ein Projekt </p> <p>Sie erhalten Verwaltungsberechtigungen für die Vorlage, nachdem Sie sie erstellt haben</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Vorlage aus Projekt erstellen
 
 1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
-1. Klicken Sie auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) und dann auf **Als Vorlage speichern**.
+1. Klicken Sie auf die ![](assets/qs-more-icon-on-an-object.png) **Mehr** und dann auf **Als Vorlage speichern**.
 1. Geben Sie die folgenden Informationen für die Vorlage an:
 
    <table style="table-layout:auto"> 
@@ -75,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Beschreibung</td> 
-      <td>Geben Sie eine Beschreibung für die Vorlage ein.</td> 
+      <td>Geben Sie eine Beschreibung für die Vorlage an.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Ist aktiv</td> 
@@ -87,27 +87,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">Benutzerdefinierte Formulare</td> 
-      <td>Wählen Sie in der Dropdown-Liste alle benutzerdefinierten Formulare aus, die an die Vorlage angehängt werden sollen. Wenn dem Projekt bereits benutzerdefinierte Formulare zugeordnet wurden, werden alle Datenfelder aus diesen benutzerdefinierten Formularen angezeigt.<br>Sie können bis zu 10 benutzerdefinierte Formulare in eine Vorlage aufnehmen.</td> 
+      <td>Verwenden Sie die Dropdown-Liste, um benutzerdefinierte Formulare auszuwählen, die an die Vorlage angehängt werden sollen. Wenn bereits benutzerdefinierte Formulare mit dem Projekt verknüpft wurden, werden alle Datenfelder aus diesen benutzerdefinierten Formularen angezeigt.<br>Sie können bis zu 10 benutzerdefinierte Formulare in eine Vorlage aufnehmen.</td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Forms verwalten** , um die Formulare zu entfernen oder neu anzuordnen. Informationen zum Entfernen und Neuanordnen von benutzerdefinierten Formularen in der Vorlage finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
+1. Klicken Sie auf **Forms verwalten**, um die Formulare zu entfernen oder neu anzuordnen. Informationen zum Entfernen und Neuanordnen benutzerdefinierter Formulare aus der Vorlage finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
    ![](assets/save-as-template-first-step-350x159.png)
 
 1. Klicken Sie auf **Nächster Schritt.**
-1. Aktivieren Sie im Abschnitt **Optionen** das Kontrollkästchen neben allen Informationen, die Sie aus der Vorlage löschen möchten.
+1. Aktivieren **im Abschnitt Optionen** Kontrollkästchen neben den Informationen, die Sie aus der Vorlage entfernen möchten.
 
    ![](assets/save-as-template-options-step-350x109.png)
 
 1. Klicken Sie auf **Nächster Schritt.**
-1. Wählen Sie im Abschnitt **Ausschließen** alle Aufgaben aus, die Sie aus dem Projekt ausschließen möchten.
+1. Wählen Sie im **Ausschließen** alle Aufgaben aus, die Sie aus dem Projekt ausschließen möchten.
 
    ![](assets/save-as-template-exclude-350x205.png)
 
-1. Klicken Sie auf **Vorlage abschließen und speichern.**
+1. Klicken Sie auf **Beenden und Vorlage speichern.**
 
-   Ihre Vorlage wird jetzt in der Liste der verfügbaren Vorlagen angezeigt und kann entweder an ein vorhandenes Projekt angehängt oder zum Erstellen eines neuen Projekts verwendet werden.
+   Ihre Vorlage wird jetzt in der Liste der verfügbaren Vorlagen angezeigt und kann entweder an ein vorhandenes Projekt angehängt oder zum Erstellen eines neuen verwendet werden.
 
  

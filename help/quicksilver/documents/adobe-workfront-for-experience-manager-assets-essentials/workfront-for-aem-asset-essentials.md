@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: 'Adobe Workfront for Experience Manager Assets Essentials: Artikelindex'
-description: Grundlagen zu Adobe Workfront für Experience Manager Assets
+title: 'Adobe Workfront für Experience Manager Assets Essentials: Artikelindex'
+description: Adobe Workfront für Experience Manager Assets Essentials
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
@@ -17,14 +17,14 @@ ht-degree: 0%
 
 # Adobe Workfront für Experience Manager Assets und Assets Essentials: Artikelindex
 
-* [Überblick über Adobe Experience Manager Assets-Integrationen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
+* [Übersicht über Adobe Experience Manager Assets-Integrationen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md)
 * [Verknüpfen von Assets und Ordnern aus Experience Manager Assets oder Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/link-to-aem.md)
 * [Zugeordnete Metadaten für Experience Manager Assets oder Assets Essentials anzeigen](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/view-asset-metadata.md)
 * [Senden eines Dokuments an Experience Manager Assets oder Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/send-to-aem.md)
 * [Testen eines verknüpften Assets für Experience Manager Assets oder Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/proof-linked-asset-aem.md)
-* [Verknüpftes Asset aus Experience Manager Assets oder Assets Essentials anzeigen oder herunterladen](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
+* [Anzeigen oder Herunterladen eines verknüpften Assets aus Experience Manager Assets oder Assets Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/view-download-asset.md)
 * [Erstellen eines Ordners, der mit Experience Manager Assets oder Assets Essentials verknüpft ist](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/create-linked-folder.md)
-* [Verwenden von Workflows in der Integration von Experience Manager Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
-* [Aufheben der Verknüpfung oder Löschen von Assets und Ordnern mit Experience Manager Assets oder Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
-* [Verwenden Sie Workfront Fusion, um ein Workfront-Problem in ein Projekt mit Adobe Experience Manager-Workflows zu konvertieren.](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
+* [Verwenden von Workflows in der Experience Manager Assets Essentials-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md)
+* [Aufheben der Verknüpfung mit oder Löschen von Assets und Ordnern in Experience Manager Assets oder Assets Essentials](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/unlink-or-delete-aem-assets.md)
+* [Verwenden Sie Workfront Fusion, um ein Workfront-Problem in ein Projekt mit Adobe Experience Manager-Workflows zu konvertieren](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-fusion-to-create-project-with-workflows.md)
 * [Fehlerbehebung bei der Adobe Experience Manager-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/troubleshoot-aem-asset-integration.md)

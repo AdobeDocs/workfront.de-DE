@@ -2,8 +2,8 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: boards
-title: Erstellen einer Iteration in einem Workstream
-description: Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss der Arbeit reserviert ist. Einige agile Teams können eine Iteration als Sprint bezeichnen.
+title: Erstellen einer Iteration in einem Arbeitsablauf
+description: Eine Iteration ist ein bestimmter Zeitraum, der für die Durchführung von Arbeiten reserviert ist. Einige Agile-Teams bezeichnen eine Iteration möglicherweise als Sprint.
 author: Lisa
 feature: Agile
 exl-id: 37b8810d-8439-4a7a-89d5-7c2560422ace
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Erstellen einer Iteration in einem Workstream
+# Erstellen einer Iteration in einem Arbeitsablauf
 
 >[!IMPORTANT]
 >
->Workflows stehen nur einer bestimmten Kundengruppe zur Verfügung.
+>Arbeitsabläufe stehen nur einer bestimmten Kundengruppe zur Verfügung.
 
-Eine Iteration ist eine bestimmte Zeitdauer, die für den Abschluss der Arbeit reserviert ist. Einige agile Teams können eine Iteration als Sprint bezeichnen.
+Eine Iteration ist ein bestimmter Zeitraum, der für die Durchführung von Arbeiten reserviert ist. Einige Agile-Teams bezeichnen eine Iteration möglicherweise als Sprint.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,41 +34,41 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront]</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL Anforderung] oder höher</p>
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Erstellen einer Iteration in einem Workstream
+## Erstellen einer Iteration in einem Arbeitsablauf
 
 {{step1-to-boards}}
 
-1. Öffnen Sie den Workflow, in dem Sie die Iteration hinzufügen möchten. Um einen Workstream zu öffnen, klicken Sie auf [!UICONTROL **Workflow anzeigen**].
+1. Öffnen Sie den Arbeitsablauf, in dem Sie die Iteration hinzufügen möchten. Um einen Arbeitsablauf zu öffnen, klicken Sie auf [!UICONTROL **Arbeitsablauf anzeigen**].
 1. Erstellen Sie eine Iteration mit einer der folgenden Methoden:
 
-   * Klicken Sie auf der Registerkarte &quot;Kartenliste&quot;in der Iterationsansicht auf [!UICONTROL **Iteration erstellen**].
-   * Klicken Sie auf der Registerkarte &quot;Kartenliste&quot;in der Listenansicht auf [!UICONTROL **Iteration erstellen**].
-   * Klicken Sie auf der Registerkarte &quot;Pinnwände&quot;auf [!UICONTROL **Pinnwand hinzufügen**] und wählen Sie als Pinnwandvorlage [!UICONTROL **Iterationsvorgang**] aus. Öffnen Sie dann die Iterationsplatine und klicken Sie auf [!UICONTROL **Iterationen konfigurieren**] .
+   * Klicken Sie auf der Registerkarte Kartenliste in der Ansicht „Iteration“ auf [!UICONTROL **Iteration erstellen**].
+   * Klicken Sie auf der Registerkarte Kartenliste in der Listenansicht auf [!UICONTROL **Iteration erstellen**].
+   * Klicken Sie auf der Registerkarte Pinnwände auf [!UICONTROL **Pinnwand hinzufügen**] und wählen Sie [!UICONTROL **Iterationsprozess**] als Pinnwand-Vorlage aus. Öffnen Sie dann die Iterationsplatine und klicken Sie auf [!UICONTROL **Iterationen konfigurieren**].
 
-1. Fügen Sie im Dialogfeld Iterationsdetails die folgenden Informationen hinzu:
+1. Fügen Sie im Dialogfeld „Iterationsdetails“ die folgenden Informationen hinzu:
 
    <table style="table-layout:auto"> 
     <tbody> 
      <tr> 
-      <td><strong>[!UICONTROL Iteration name]</strong></td> 
-      <td>Der Name der Iteration, z. B. "Sprint 1".</td> 
+      <td><strong>[!UICONTROL Iterationsname]</strong></td> 
+      <td>Der Name der Iteration, z. B. „Sprint 1“.</td> 
      </tr> 
      <tr> 
       <td><strong>[!UICONTROL Iterationslänge]</strong></td> 
@@ -76,29 +76,29 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr>
      <tr> 
       <td><strong>[!UICONTROL Startdatum]</strong></td> 
-      <td>Das Datum, an dem die Iteration beginnt. Das Enddatum wird automatisch auf Basis der Iterationslänge angegeben.</td> 
+      <td>Das Datum, an dem die Iteration beginnt. Das Enddatum wird basierend auf der Iterationslänge automatisch eingegeben.</td> 
      </tr> 
     </tbody> 
    </table>
 
 1. Klicken Sie auf [!UICONTROL **Speichern**].
 
-   Die Iteration wird jetzt in der Iterationsansicht der Kartenliste und im Metrikbereich auf der Iterationsfläche angezeigt.
+   Die Iteration wird jetzt in der Ansicht „Iteration“ der Kartenliste und im Bereich „Metriken“ auf der Iterationskonsole angezeigt.
 
-   Informationen zum Hinzufügen von Karten zu einer Iteration finden Sie unter [Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
+   Informationen zum Hinzufügen von Karten zu einer Iteration finden [ unter „Verwenden der Kartenliste](/help/quicksilver/agile/use-boards-agile-planning-tools/use-card-list.md).
 
-## Vorhandene Iteration bearbeiten
+## Bearbeiten einer vorhandenen Iteration
 
-1. Um einen Workstream zu öffnen, klicken Sie auf [!UICONTROL **Workflow anzeigen**].
+1. Um einen Arbeitsablauf zu öffnen, klicken Sie auf [!UICONTROL **Arbeitsablauf anzeigen**].
 1. Öffnen Sie die Iteration mit einer der folgenden Methoden:
 
-   * Klicken Sie auf der Registerkarte &quot;Kartenliste&quot;in der Iterationsansicht auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png) .
-   * Klicken Sie auf der Iterationskarte im Metrikbereich oben rechts auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png) .
+   * Klicken Sie auf der Registerkarte „Kartenliste“ in der Ansicht „Iteration“ auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png).
+   * Klicken Sie auf der Iterationskonsole auf das Symbol [!UICONTROL **Iterationsdetails**] ![Iterationsdetails](assets/iteration-details-button.png) im Bereich Metriken oben rechts.
 
-1. Bearbeiten Sie im Bedienfeld [!UICONTROL Iterationskonfiguration] die Iteration nach Bedarf.
-1. Um den Iterationsnamen zu ändern, erweitern Sie [!UICONTROL **Iterationsdetails**].
+1. Bearbeiten [!UICONTROL  im Bedienfeld ]Iterationskonfiguration“ die Iteration nach Bedarf.
+1. Um den Namen der Iteration zu ändern, erweitern Sie [!UICONTROL **Iterationsdetails**].
 
-   Nachdem eine Iteration gestartet wurde, können Sie nur den Iterationsnamen und nicht die Daten oder die Iterationslänge ändern.
+   Sobald eine Iteration gestartet wurde, können Sie nur den Namen der Iteration und nicht das Datum oder die Iterationslänge ändern.
 
 <!--   
 
@@ -123,6 +123,6 @@ Use the [!UICONTROL Next Iteration] column to move cards from the current iterat
 
 ## Iteration löschen
 
-1. Klicken Sie auf die Registerkarte [!UICONTROL **Kartenliste**] im Workflow-Stream und öffnen Sie die Iterationsansicht.
-1. Klicken Sie auf das Symbol **Löschen** ![Löschsymbol](assets/delete.png) neben der Iteration.
-1. Klicken Sie in der Bestätigungsmeldung auf [!UICONTROL **Iteration löschen**] .
+1. Klicken Sie im Arbeitsablauf auf [!UICONTROL **Kartenliste**] und öffnen Sie die Ansicht Iteration .
+1. Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png) neben der Iteration.
+1. Klicken Sie [!UICONTROL **der Bestätigungsmeldung**] Iteration löschen“.

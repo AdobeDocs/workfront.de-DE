@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: use-the-gantt-chart
-title: Level-Ressourcen im [!UICONTROL Gantt-Diagramm]
-description: Informationen zum Level von Ressourcen im Gantt-Diagramm.
+title: Abgleichen von Ressourcen im [!UICONTROL Gantt-Diagramm]
+description: Informationen zum Abgleichen von Ressourcen im Gantt-Diagramm.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
@@ -13,12 +13,12 @@ ht-degree: 0%
 
 ---
 
-# Level-Ressourcen im [!UICONTROL Gantt-Diagramm]
+# Abgleichen von Ressourcen im [!UICONTROL Gantt-Diagramm]
 
-Die Nutzung Ihrer Ressourcen für ein Projekt hat zwei Ziele:
+Die Abgleichung Ihrer Ressourcen in einem Projekt dient zwei Zwecken:
 
-* Automatische Anpassung der Zeitüberzuteilung für Bevollmächtigte.
-* So erstellen Sie automatisch einen realistischen Aufgabenzeitplan für ein Projekt.
+* So passen Sie automatisch die Zeitüberschreitung für Zugewiesene an.
+* So erstellen Sie automatisch einen realistischen Aufgabenplan für ein Projekt.
 
 ## Zugriffsanforderungen
 
@@ -29,86 +29,86 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Plan*</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Workfront] license*</td> 
-   <td> <p>[!UICONTROL Plan] </p> </td> 
+   <td role="rowheader">[!DNL Workfront] Lizenz*</td> 
+   <td> <p>[!UICONTROL-Plan] </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>[!UICONTROL Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b>
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Projekte</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront] -Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein [!DNL Workfront] -Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren [!DNL Workfront], ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festlegt. Informationen dazu, wie [!DNL Workfront]-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL] Zugriff auf das Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage]-Zugriff auf das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront] -Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Übersicht über die Ressourcenebene
+## Übersicht über den Abgleich von Ressourcen
 
-Wenn dieselbe Ressource zwei verschiedenen Aufgaben zugewiesen ist, können Sie die Ressourcenebene verwenden, um die Zeitleiste der Aufgaben so anzupassen, dass sie nicht gleichzeitig ausgeführt werden.
+Wenn dieselbe Ressource zwei verschiedenen Vorgängen zugewiesen ist, können Sie die Zeitleiste der Vorgänge mit dem Abgleich der Ressourcen anpassen, sodass sie nicht gleichzeitig ausgeführt werden.
 
-Beachten Sie Folgendes beim Einbinden von Ressourcen auf ein Projekt:
+Beachten Sie beim Abgleichen von Ressourcen für ein Projekt Folgendes:
 
-* Die Ressourcenebene gilt nur für ein Projekt, sodass [!DNL Adobe Workfront] Ressourcen nicht für mehr als ein Projekt auf einer Ebene einstuft.
-* Wenn **[!UICONTROL Anstrengung gesteuert]** als **[!UICONTROL Dauer-Typ]** ausgewählt ist, werden die Ressourcen nicht auf [!DNL Workfront] gesetzt.
-* Wenn mehrere Benutzer derselben Aufgabe zugewiesen sind, wird die Einteilung abgebrochen.
-* Bedingungen für den Typ von **[!UICONTROL Task Constraint]** haben Vorrang vor der Ebene der Ressourcen. Wenn beispielsweise **[!UICONTROL Feste Datumswerte]** als [!UICONTROL Aufgabenbegrenzung] ausgewählt ist, ändert die Ressourcenebene die Aufgabendaten nicht.
-* Vorläufige Beziehungen haben Vorrang vor der Ressourcenebene.
-* **[!UICONTROL Ressourcenebene]** muss für das Projekt auf **[!UICONTROL Manuell]** gesetzt werden, um die Ebene im [!UICONTROL Gantt-Diagramm] anzupassen. Wenn Sie über Verwaltungsberechtigungen für das Projekt verfügen, können Sie festlegen, dass Ressourcen automatisch vom System verwaltet werden, indem Sie diese Einstellung im Projekt anpassen und im Feld **[!UICONTROL Projekt bearbeiten]** die Option **[!UICONTROL Automatisch]** anstelle von **[!UICONTROL Manuell]** auswählen.
+* Der Ressourcenabgleich gilt nur für ein Projekt, sodass [!DNL Adobe Workfront] Ressourcen nicht für mehr als ein Projekt gleichzeitig abgleicht.
+* Wenn **[!UICONTROL Aufwandsgesteuert]** als **[!UICONTROL Dauertyp]** ausgewählt ist, gleichen [!DNL Workfront] die Ressourcen nicht ab.
+* Wenn mehrere Benutzer derselben Aufgabe zugewiesen sind, wird der Abgleich abgebrochen.
+* Bedingungen für den Typ **[!UICONTROL Aufgabenbeschränkung]** haben Vorrang vor dem Abgleich von Ressourcen. Wenn beispielsweise **[!UICONTROL Feste Termine]** als [!UICONTROL Aufgabenbeschränkung] ausgewählt ist, ändert der Ressourcenabgleich die Aufgabentermine nicht.
+* Vorgängerbeziehungen haben Vorrang vor dem Abgleich von Ressourcen.
+* **[!UICONTROL Ressourcenabgleich]** muss für das Projekt auf **[!UICONTROL Manuell]** gesetzt werden, um den Abgleich im [!UICONTROL Gantt-Diagramm] anzupassen. Wenn Sie über Verwaltungsberechtigungen für das Projekt verfügen, können Sie die Ressourcen automatisch auf Systemebene verwalten, indem Sie diese Einstellung für das Projekt anpassen und **[!UICONTROL Automatisch]** anstelle von **[!UICONTROL Manuell]** im **[!UICONTROL Projekt bearbeiten]** auswählen.
 
   ![](assets/resource-leveling-mode-350x177.png)
 
-* Als Projekteigentümer oder Aufgabenverantwortlicher können Sie eine Zeitverzögerung für eine Aufgabe einführen, um anzuzeigen, dass eine große Wahrscheinlichkeit besteht, dass die Aufgabe möglicherweise mehr Zeit benötigt. Weitere Informationen zum Hinzufügen einer Zeitverzögerung zu einer Aufgabe finden Sie unter [Verzögerung der Aufgabenebene aktualisieren](../../../manage-work/tasks/task-information/task-leveling-delay.md).
+* Als Projektbesitzer oder Aufgabenbevollmächtigter können Sie eine Abgleichsverzögerung für eine Aufgabe einführen, um anzugeben, dass die Aufgabe möglicherweise zusätzliche Zeit benötigt. Informationen zum Hinzufügen einer Abgleichsverzögerung zu einer Aufgabe finden Sie unter [Aktualisieren der Abgleichsverzögerung für Aufgaben](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
-## Anwenden der Ressourcenebene im [!UICONTROL Gantt-Diagramm]
+## Anwenden des Ressourcenabgleichs im [!UICONTROL Gantt-Diagramm]
 
-Sie können die Aufgabenliste [!UICONTROL Gantt-Diagramm] verwenden, um Ihre Ressourcen zu unterteilen.
+Sie können die Aufgabenliste (Gantt[!UICONTROL Diagramm) verwenden] um Ihre Ressourcen abzugleichen.
 
-1. Wechseln Sie zu dem Projekt, das Sie unterteilen möchten.
+1. Navigieren Sie zu dem Projekt, das Sie abgleichen möchten.
 1. Klicken Sie im Bereich **[!UICONTROL Aufgaben]** auf das Symbol **[!UICONTROL Gantt-Diagramm]**.
 
-   Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Autosave]** aktiviert ist. Sie ist standardmäßig aktiviert.
+   Alle Änderungen werden automatisch gespeichert, wenn die Option **[!UICONTROL Automatisches Speichern]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planen] mode** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline-Planung]** aus, um Ihre Änderungen manuell zu speichern.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Plan]Modus** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline Planning]**, um Ihre Änderungen manuell zu speichern.
 
    >[!TIP]
    >
-   >Sie können keine Ressourcen im [!UICONTROL Gantt-Diagramm] ausrichten, wenn die Option [!UICONTROL Autosave] aktiviert ist.
+   >Sie können Ressourcen im [!UICONTROL Gantt-Diagramm“ nicht abgleichen] wenn die Option [!UICONTROL Automatisches Speichern] aktiviert ist.
 
    ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
-1. Klicken Sie auf das Dropdown-Menü **[!UICONTROL Level Resources]** .
+1. Klicken Sie auf **[!UICONTROL Dropdown-Menü]** Ressourcen abgleichen“.
 
-   ![Level_resources.png](assets/level-resouces.png)
+   ![Level_Resources.png](assets/level-resouces.png)
 
-1. Wählen Sie eine der folgenden Optionen aus:
+1. Eine der folgenden Optionen auswählen:
 
-   * **[!UICONTROL Level Now]**: Wendet die Ressourcenebene auf die ausgewählte Aufgabe an.
-   * **[!UICONTROL Levellierungsgrad löschen]**: Entfernt alle Ressourcenebenen aus der ausgewählten Aufgabe.
+   * **[!UICONTROL Jetzt abgleichen]**: Wendet den Ressourcenabgleich auf die ausgewählte Aufgabe an.
+   * **[!UICONTROL Abgleich aufheben]**: Entfernt alle Ressourcenabgleiche aus der ausgewählten Aufgabe.
 
    >[!NOTE]
    >
-   >Ihre Ressourcen werden möglicherweise überzugewiesen, wenn sie mehreren Aufgaben zugewiesen werden, die im selben Zeitrahmen stattfinden.
+   >Ihre Ressourcen können überlastet sein, wenn sie mehreren Aufgaben zugewiesen sind, die im selben Zeitrahmen auftreten.
 
-1. (Optional und bedingt) Wenn Sie die Option &quot;Automatisches Speichern&quot;deaktiviert haben, klicken Sie auf die Symbole **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]** , wenn Sie eine der Änderungen abbrechen oder duplizieren möchten.
+1. (Optional und bedingt) Wenn Sie die Option Automatisches Speichern deaktiviert haben, klicken Sie auf die Symbole **[!UICONTROL Rückgängig]** oder &#x200B;**[!UICONTROL Wiederholen]**, wenn Sie Änderungen rückgängig machen oder duplizieren möchten.
 
    >[!TIP]
    >
-   >Sie können die folgenden Tastaturbefehle verwenden, um Änderungen am [!UICONTROL Gantt-Diagramm] rückgängig zu machen oder wiederherzustellen:
+   >Mit den folgenden Tastaturbefehlen können Sie Änderungen im [!UICONTROL Gantt-Diagramm“ rückgängig machen oder ]:
    >
-   >* [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Befehl + Umschalt + Z], um es erneut auszuführen.
-   >* Windows: Verwenden Sie [!UICONTROL Strg + Z], um das Rückgängigmachen rückgängig zu machen, und [!UICONTROL Strg + Y], um es erneut auszuführen.
+   >* [!DNL Mac]: Verwenden Sie [!UICONTROL Befehl + Z], um den Vorgang rückgängig zu machen, und [!UICONTROL Befehl + Umschalt + Z], um ihn wiederherzustellen.
+   >* Windows: Verwenden Sie [!UICONTROL Strg + Z], um den Vorgang rückgängig zu machen, und [!UICONTROL Strg + Y], um ihn wiederherzustellen.
 
 
-1. Klicken Sie oben rechts im [!UICONTROL Gantt-Diagramm] auf **[!UICONTROL Speichern]**.
+1. Klicken **[!UICONTROL oben rechts]** &quot;[!UICONTROL &quot; auf „Speichern].
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

@@ -3,7 +3,7 @@ title: Übersicht über Projektbedingung und Bedingungstyp
 content-type: overview
 product-area: projects
 navigation-topic: manage-projects
-description: Die Projektbedingung ist eine visuelle Darstellung des Projektfortschritts. Es handelt sich um eine berichtspflichtige Variable, die durch die Beziehung zwischen dem geplanten, geplanten und geschätzten Projektdatum bestimmt wird.
+description: Die Projektbedingung ist eine visuelle Darstellung des Projektfortschritts. Es handelt sich um eine meldepflichtige Variable, die durch die Beziehung zwischen dem geplanten, dem geplanten und dem geschätzten Datum des Projekts bestimmt wird.
 author: Alina
 feature: Work Management
 exl-id: 0c847b26-b0cb-49bb-84be-32534c72d5b6
@@ -18,25 +18,25 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-Die Projektbedingung ist eine visuelle Darstellung des Projektfortschritts. Es handelt sich um eine berichtspflichtige Variable, die durch die Beziehung zwischen dem geplanten, geplanten und geschätzten Projektdatum bestimmt wird.
+Die Projektbedingung ist eine visuelle Darstellung des Projektfortschritts. Es handelt sich um eine meldepflichtige Variable, die durch die Beziehung zwischen dem geplanten, dem geplanten und dem geschätzten Datum des Projekts bestimmt wird.
 
-## Übersicht über Projektbedingungen
+## Projektbedingung - Übersicht
 
-Beachten Sie Folgendes, um die Bedingung eines Projekts zu verstehen:
+Beachten Sie Folgendes beim Verständnis des Status eines Projekts:
 
-* Als Projekteigentümer können Sie entscheiden, ob die Bedingung eines Projekts manuell oder automatisch festgelegt wird. Die Bedingung eines Projekts kann wie folgt festgelegt werden:
+* Als Projektbesitzer können Sie entscheiden, ob die Bedingung eines Projekts manuell oder automatisch festgelegt wird. Die Bedingung eines Projekts kann wie folgt festgelegt werden:
 
-   * Manuell durch Benutzer, die Zugriff auf &quot;Projekt verwalten&quot;haben und wenn der Bedingungstyp des Projekts auf &quot;Manuell&quot;festgelegt ist.
-   * Automatisch von Adobe Workfront, wenn der Bedingungstyp des Projekts auf Fortschrittsstatus festgelegt ist. Der Fortschrittsstatus des Projekts wird durch den Fortschritt der Aufgaben im Projekt bestimmt. Weitere Informationen zum Fortschrittsstatus des Projekts finden Sie unter [Übersicht über den Projektfortschritt](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+   * Manuell durch Benutzer, die Zugriff auf die Verwaltung des Projekts haben, und wenn der Bedingungstyp des Projekts auf „Manuell“ festgelegt ist.
+   * Automatisch durch Adobe Workfront, wenn der Bedingungstyp des Projekts auf „Fortschrittsstatus“ festgelegt ist. Der Fortschrittsstatus des Projekts wird durch den Fortschritt der Aufgaben im Projekt bestimmt. Informationen zum Fortschrittsstatus des Projekts finden Sie unter [Übersicht über den Projektfortschritt](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
   Informationen zum Aktualisieren des Bedingungstyps des Projekts finden Sie unter [Festlegen des Bedingungstyps eines Projekts](../../../manage-work/projects/manage-projects/set-condition-type-for-project.md).
 
-* Wenn Sie es Workfront ermöglichen, den Projektzustand automatisch abzuschätzen, empfehlen wir, Vorgänger für Ihre Aufgaben zu verwenden, damit der Aufgabenfortschritt den tatsächlichen Fortschritt und den Fortschrittsstatus des Projekts widerspiegelt.
-* Als Projekteigentümer können Sie das Projekt ändern, um einen manuellen Bedingungstyp zu verwenden, anstatt den Fortschrittsstatus zu verwenden, indem Sie den Bedingungstyp von Fortschrittsstatus in Manuell ändern.
+* Wenn Workfront die automatische Schätzung des Projektzustands ermöglicht, empfehlen wir die Verwendung von Vorgängern für Ihre Vorgänge, damit der Aufgabenfortschritt den tatsächlichen Fortschritt und den Fortschrittsstatus des Projekts widerspiegelt.
+* Als Projektbesitzer können Sie das Projekt so ändern, dass es einen manuellen Bedingungstyp verwendet, anstatt den Fortschrittsstatus zu verwenden, indem Sie den Bedingungstyp von Fortschrittsstatus in Manuell ändern.
 
   >[!NOTE]
   >
-  >Projekte mit einem der folgenden Status werden immer als On Target markiert, unabhängig vom Datum der Aufgaben und ihrem Fortschritt:
+  >Projekte mit einem der folgenden Status werden immer als In Target gekennzeichnet, unabhängig vom Datum der Aufgaben und ihrem Fortschritt:
   >
   >* Idee
   >* Angefordert
@@ -60,11 +60,11 @@ Beachten Sie Folgendes, um die Bedingung eines Projekts zu verstehen:
 </div>
 -->
 
-## So aktualisiert Workfront die Projektbedingung auf Grundlage des Fortschrittsstatus
+## Wie Workfront die Projektbedingung basierend auf dem Fortschrittsstatus aktualisiert
 
-Wenn der Bedingungstyp des Projekts auf &quot;Manuell&quot;festgelegt ist, können Sie festlegen, welche Bedingung des Projekts unabhängig vom Fortschrittsstatus des Projekts ist.
+Wenn der Bedingungstyp des Projekts auf „Manuell“ festgelegt ist, können Sie unabhängig vom Fortschrittsstatus des Projekts bestimmen, welche Bedingung das Projekt hat.
 
-Es wird jedoch empfohlen, den Bedingungstyp des Projekts auf den Fortschrittsstatus festzulegen, damit Sie anhand des Fortschritts Ihrer Aufgaben einen klaren Hinweis darauf erhalten, welcher wahre Fortschritt des Projekts erzielt wird. Informationen dazu, wie Workfront den Projektfortschrittsstatus berechnet, finden Sie unter [Übersicht über den Projektfortschritt](../../../manage-work/projects/planning-a-project/project-progress-status.md).
+Wir empfehlen jedoch, den Bedingungstyp des Projekts auf „Fortschrittsstatus“ zu setzen, damit Sie je nach Fortschritt Ihrer Aufgaben einen klaren Hinweis auf den tatsächlichen Fortschritt des Projekts erhalten. Informationen darüber, wie Workfront den Fortschrittsstatus von Projekten berechnet, finden Sie unter [Übersicht über den Projektfortschritt](../../../manage-work/projects/planning-a-project/project-progress-status.md).
 
 In diesem Fall können die Werte für die Projektbedingung wie folgt lauten:
 
@@ -76,25 +76,25 @@ In diesem Fall können die Werte für die Projektbedingung wie folgt lauten:
  <tbody> 
   <tr> 
    <td><strong>Projektbedingung</strong></td> 
-   <td><strong>Projektfortstatus</strong></td> 
+   <td><strong>Status des Projektverlaufs</strong></td> 
    <td><strong>Workfront-Bedingungsindikator</strong></td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Im Zielbereich</td> 
-   <td>Wenn der Fortschrittsstatus des Projekts "Einschaltzeit"lautet, lautet die Bedingung des Projekts "<strong>Auf Ziel</strong>". </td> 
+   <td>Wenn der Fortschrittsstatus des Projekts „Pünktlich“ lautet, lautet der Status des Projekts "<strong>"</strong>. </td> 
    <td> <img src="assets/on-target-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>Gefährdet</td> 
-   <td>Wenn der Fortschrittsstatus des Projekts <strong>Hinter</strong> oder <strong>Auf Risiko</strong> liegt, lautet die Bedingung des Projekts <strong>Risiko</strong>.</td> 
+   <td>Wenn der Fortschrittsstatus des Projekts "<strong>" </strong> "<strong> Risiko</strong> ist, dann ist der Status des Projekts <strong>Gefährdet</strong>.</td> 
    <td> <img src="assets/at-risk-project-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td>In Schwierigkeiten</td> 
-   <td>Wenn der Fortschrittsstatus des Projekts <strong>überfällig</strong> ist, lautet die Bedingung des Projekts <strong>In Schwierigkeiten</strong>. </td> 
+   <td>Wenn der Fortschrittsstatus des Projekts "<strong>" lautet</strong> lautet der Projektstatus „In <strong>" </strong>. </td> 
    <td> <img src="assets/in-trouble-project-condition-icon.png"> </td> 
    <td> </td> 
   </tr> 
@@ -103,17 +103,17 @@ In diesem Fall können die Werte für die Projektbedingung wie folgt lauten:
 
 >[!NOTE]
 >
->Bedingungen können für Ihre Umgebung angepasst werden, sodass Sie in Ihrer Umgebung mehr als drei Optionen für Bedingungen finden können. Die Namen der Bedingungen können sich von den oben aufgeführten unterscheiden. Informationen zum Anpassen von Bedingungen in finden Sie im Artikel [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
+>Die Bedingungen können für Ihre Umgebung angepasst werden, sodass Sie in Ihrer Umgebung möglicherweise mehr als drei Optionen für die Bedingung finden. Die Namen der Bedingungen können sich von den oben aufgeführten unterscheiden. Informationen zum Anpassen von Bedingungen in finden Sie im Artikel [Erstellen oder Bearbeiten einer benutzerdefinierten Bedingung](../../../administration-and-setup/customize-workfront/create-manage-custom-conditions/create-edit-custom-conditions.md).
 
-## Bericht zu Projektbedingungen, Aktualisierung der Projektbedingungen und Hinweis zur letzten Bedingung
+## Bericht zu Projektbedingungen, Projektbedingungsaktualisierung und letzter Bedingungsnotiz
 
-In der Ansicht eines Projektberichts können Sie die folgenden Felder bezüglich der Projektbedingung anzeigen:
+In der Ansicht eines Projektberichts können Sie die folgenden Felder anzeigen, die sich auf den Zustand des Projekts beziehen:
 
-* **Projektbedingung:** Zeigt die aktuelle Projektbedingung an.
-* **Aktualisierung der Projektbedingungen**: Zeigt die neueste Aktualisierung, die der Projekteigentümer im Aktualisierungsstream des Projekts bereitgestellt hat, zusammen mit der neuen Bedingung an.\
-  Kommentare zu Bedingungsaktualisierungen werden nicht in der Spalte **Bedingungsaktualisierung** angezeigt; es wird nur die Hauptaktualisierung angezeigt.
+* **Projektbedingung** Zeigt den aktuellen Zustand des Projekts an.
+* **Aktualisierung der Projektbedingungen**: Zeigt die neueste Aktualisierung, die der Projektinhaber im Aktualisierungsprozess des Projekts bereitgestellt hat, zusammen mit der neuen Bedingung an.\
+  Kommentare zu Bedingungsaktualisierungen werden nicht in der Spalte **Bedingungsaktualisierung** angezeigt, sondern nur zur Hauptaktualisierung.
 
-* **Letzte Bedingung Hinweis**: Zeigt die Aktualisierung an, die der Eigentümer des Objekts zuletzt in einem Objekt eingegeben hat. Dieses Feld ist hilfreich, um die aktuellste Aktivität oder Interaktion des Eigentümers auf einem Objekt anzuzeigen.\
-  Die Spalte **Letzte Bedingungshinweis** ist leer, wenn der Hinweistext der letzten Anmerkung eines Objekts gelöscht wurde. Wenn eine neue Anmerkung auf dem Objekt eingegeben wird, wird sie zur letzten Anmerkung und wird erneut in der Spalte angezeigt.
+* **Letzte Bedingung Hinweis**: Zeigt die Aktualisierung an, die zuletzt vom Eigentümer des Objekts für ein Objekt eingegeben wurde. Dieses Feld ist hilfreich, um die neueste Aktivität oder Interaktion des Besitzers mit einem Objekt anzuzeigen.\
+  Die Spalte **Letzte Bedingung** ist leer, wenn der Notiztext der letzten Anmerkung eines Objekts gelöscht wurde. Wenn eine neue Anmerkung in das Objekt eingegeben wird, wird sie zur letzten Anmerkung und wird erneut in der Spalte angezeigt.
 
-Informationen zum Erstellen eines Berichts finden Sie im Artikel [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Informationen zum Erstellen eines Berichts finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).

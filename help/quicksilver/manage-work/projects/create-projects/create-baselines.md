@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: create-projects
-title: Erstellen von Projekt-Grundlinien
-description: Eine Grundlinie ist ein Projekt-Schnappschuss, der wichtige Informationen darstellt, die im ursprünglichen Projektplan oder zu einem bestimmten Zeitpunkt während der Laufzeit des Projekts enthalten sind.
+title: Erstellen von Projekt-Baselines
+description: Eine Baseline ist eine Projekt-Momentaufnahme, die wichtige Informationen darstellt, die im ursprünglichen Projektplan oder zu einem bestimmten Zeitpunkt während der Laufzeit des Projekts enthalten sind.
 author: Alina
 feature: Work Management
 exl-id: 422bd7a5-d7a0-4c24-8624-bd0fe6e79d7b
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Erstellen von Projekt-Grundlinien
+# Erstellen von Projekt-Baselines
 
 <!-- Audited: 12/2023 -->
 
-Eine Grundlinie ist ein Projekt-Schnappschuss, der wichtige Informationen darstellt, die im ursprünglichen Projektplan oder zu einem bestimmten Zeitpunkt während der Laufzeit des Projekts enthalten sind.
+Eine Baseline ist eine Projekt-Momentaufnahme, die wichtige Informationen darstellt, die im ursprünglichen Projektplan oder zu einem bestimmten Zeitpunkt während der Laufzeit des Projekts enthalten sind.
 
-Sie können die Grundlinie verwenden, um diese Informationen aus dem aktuellen Plan mit dem ursprünglichen Plan oder einem anderen Zeitpunkt zu vergleichen, um Problemaufgaben, Schlupflöcher und andere Trends im Zeitverlauf zu identifizieren.
+Sie können Baseline verwenden, um diese Informationen aus dem aktuellen Plan mit dem ursprünglichen Plan oder einem anderen Zeitpunkt zu vergleichen, um Problemaufgaben, Umfangsänderung und andere Trends im Zeitverlauf zu identifizieren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <!--
 drafted for P&P:
@@ -62,8 +62,8 @@ drafted for P&P:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
@@ -77,82 +77,82 @@ drafted for P&P:
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für das Projekt oder höher anzeigen, um Grundlinien anzuzeigen</p> <p>Verwalten von Berechtigungen für das Projekt zum Erstellen von Grundlinien</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für das Projekt oder höher zum Anzeigen von Baselines</p> <p>Verwalten von Berechtigungen für das Projekt, um Baselines zu erstellen</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Überlegungen zum Arbeiten mit Grundlinien
+## Überlegungen zum Arbeiten mit Baselines
 
-* Sie können während der Projektlaufzeit mehrmals eine Momentaufnahme des Fortschritts an einem Projekt erstellen und dabei mehrere Grundlinien erstellen.
-* Sie können die in den Grundlinien eines Projekts enthaltenen Informationen anzeigen, indem Sie eine Grundlinie erstellen oder einen Baseline-Bericht erstellen.
-* Wenn Sie eine Grundlinie erstellen, werden die Aufgabeninformationen auch in den Grundaufgaben dieser Grundlinie erfasst.
-* Sie können die Informationen zu den Grundaufgaben anzeigen, indem Sie einen Baseline-Aufgabenbericht erstellen.
+* Sie können mehrmals während der Lebensdauer des Projekts einen Schnappschuss des Fortschritts in einem Projekt erfassen und so mehrere Baselines erstellen.
+* Sie können die in den Baselines eines Projekts enthaltenen Informationen anzeigen, indem Sie einen Baseline-Bericht erstellen oder einen Baseline-Bericht erstellen.
+* Wenn Sie eine Baseline erstellen, werden die Aufgabeninformationen auch in den Baseline-Aufgaben dieser Baseline erfasst.
+* Sie können die Informationen zu den grundlegenden Aufgaben anzeigen, indem Sie einen Bericht zu den grundlegenden Aufgaben erstellen.
 
 >[!IMPORTANT]
 >
->Eine Grundlinie erstellt eine Momentaufnahme des Namens, der Daten und der finanziellen Informationen des Projekts. Die Grundlinie enthält nicht die Werte von benutzerdefinierten Feldern im Projekt. Informationen zu den Finanzinformationen, die in der Grundlinie enthalten sind, finden Sie unter [In den Projektgrundlinien enthaltene Projektfinanzierungen](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
+>Eine Baseline erstellt eine Momentaufnahme des Namens, der Daten und der Finanzinformationen des Projekts. Die Baseline enthält nicht die Werte von benutzerdefinierten Feldern im Projekt. Informationen zu den in der Baseline enthaltenen Finanzinformationen finden Sie unter [Projektfinanzen in Projektbaselines enthalten](../../../manage-work/projects/project-finances/project-finances-included-in-project-baselines.md).
 
-## Erstellen einer Grundlinie
+## Erstellen einer Baseline
 
-Sie können eine Grundlinie wie folgt erstellen:
+Sie können eine Baseline wie folgt erstellen:
 
-* **Automatisch**: Ihr Workfront-Administrator oder ein Gruppenadministrator legt die Projektvoreinstellung für Workfront fest, um automatisch eine Grundlinie zu erstellen, wenn ein Projekt aktuell wird. Wenn diese Einstellung aktiviert ist, wird eine Grundlinie erstellt, sobald der Projektstatus &quot;Aktuell&quot;wird. Wenn diese Einstellung nicht aktiviert ist, müssen Sie Grundlinien manuell erstellen.
+* **Automatisch**: Ihr Workfront-Administrator oder ein Gruppenadministrator legt die Projektvoreinstellung für Workfront fest, damit automatisch eine Grundlinie erstellt wird, wenn ein Projekt „Aktuell“ wird. Wenn diese Einstellung aktiviert ist, wird eine Baseline erstellt, sobald der Projektstatus „Aktuell“ wird. Wenn diese Einstellung nicht aktiviert ist, müssen Sie Baselines manuell erstellen.
 
-  Weitere Informationen zum Konfigurieren von Projektvoreinstellungen und zum Einrichten der automatischen Grundlagenerstellung finden Sie unter [Systemweite Projektanvoreinstellungen konfigurieren](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
+  Weitere Informationen zum Konfigurieren der Projektvoreinstellungen und zum Einrichten der automatischen Basiserstellung finden Sie unter [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
   >[!CAUTION]
   >
-  >Durch Aktivierung dieser Einstellung wird automatisch eine Grundlinie für ein Projekt erstellt, sobald sich der Status eines Projekts in &quot;Aktuell&quot;ändert. Die erste erstellte Grundlinie ist die Standardgrundlinie. Sie müssen während der Projektlaufzeit alle anderen Grundlinien manuell erstellen .
+  >Durch Aktivierung dieser Einstellung wird automatisch eine Baseline für ein Projekt erstellt, sobald der Status eines Projekts in „Aktuell“ geändert wird. Die erste erstellte Baseline ist die Standardbasislinie. Alle anderen Baselines müssen während der Laufzeit des Projekts manuell erstellt werden .
 
-* **Manuell**: Sie können beim Fortschreiten des Projekts nach Bedarf neue Grundlinien für das Projekt erstellen. Anschließend können Sie die Grundlinien vergleichen, um zu sehen, wie das Projekt im Laufe der Zeit vorangeschritten ist.
+* **Manuell**: Sie können bei Bedarf neue Baselines für das Projekt erstellen, wenn das Projekt fortgesetzt wird. Sie können dann Baselines vergleichen, um den Fortschritt des Projekts im Zeitverlauf zu sehen.
 
 So erstellen Sie eine Grundlinie:
 
-1. Wechseln Sie zu einem Projekt.
-1. Klicken Sie im linken Bereich auf **Grundlinien**.
+1. Gehe zu einem Projekt.
+1. Klicken Sie im linken Bedienfeld auf **Baselines**.
 
    Oder
 
-   Klicken Sie auf **Mehr anzeigen** und dann auf **Grundlinien**.
+   Klicken Sie **Weitere anzeigen** und dann auf **Baselines**.
 
-   ![Grundlinien-Abschnitt des Projekts](assets/baselines-section-on-project-with-header.png)
+   ![Baselines-Abschnitt im Projekt](assets/baselines-section-on-project-with-header.png)
 
-1. Klicken Sie auf **Neue Grundlinie.**
-1. Geben Sie den Namen für die Grundlinie an.
-1. (Optional) Wenn dies die erste Grundlinie ist, können Sie sie als Standard auswählen.
+1. Klicken Sie auf **Neue Baseline.**
+1. Geben Sie den Namen für die Baseline an.
+1. (Optional) Wenn dies die erste Baseline ist, können Sie sie als Standard auswählen.
 1. Klicken Sie auf **Speichern**.
 
-   Standardmäßig werden die folgenden Informationen zur von Ihnen erstellten Grundlinie angezeigt:
+   Standardmäßig werden die folgenden Informationen zur von Ihnen erstellten Baseline angezeigt:
 
-   * Grundname
-   * Basiseintragsdatum
-   * Geplantes Anfangsdatum des Projekts, an dem die Grundlinie erstellt wurde
-   * Voraussichtlicher Projektbeginn Datum der Erstellung der Grundlinie
-   * Tatsächliche Projektdauer bei der Erstellung der Grundlinie
-   * % Abschluss des Projekts bei Erstellung der Grundlinie
-   * Standardindikator für die Grundlinie, der anzeigt, ob eine Grundlinie die Standardgrundlinie des Projekts ist
+   * Name der Baseline
+   * Geplantes Eingabedatum
+   * Geplantes Startdatum des Projekts zum Zeitpunkt der Erstellung der Baseline
+   * Voraussichtliches Startdatum des Projekts zum Zeitpunkt der Erstellung der Baseline
+   * Tatsächliche Dauer des Projekts, als die Baseline erstellt wurde
+   * % Abgeschlossen des Projekts, als die Baseline erstellt wurde
+   * Standardmäßiger Indikator für Baseline, der anzeigt, ob eine Baseline die standardmäßige Baseline des Projekts ist
 
      >[!TIP]
      >
-     >Sie können Informationen aus zwei Grundlinien nicht gleichzeitig in derselben Ansicht oder in demselben Bericht anzeigen. Sie können nur Informationen aus einer bestimmten Grundlinie und der Standardgrundlinie im selben Bericht anzeigen. Sie können jederzeit während der Laufzeit des Projekts ändern, welche Grundlinie Sie als Standardgrundlinie betrachten.
+     >Es ist nicht möglich, Informationen von zwei Baselines gleichzeitig in derselben Ansicht oder in demselben Bericht anzuzeigen. Sie können nur Informationen von einer bestimmten Baseline und der Standard-Baseline im selben Bericht anzeigen. Sie können die Baseline, die Sie als Standard-Baseline betrachten, jederzeit während der Laufzeit des Projekts ändern.
 
-1. (Optional) Klicken Sie auf die Schaltfläche **Anzeigen** und erstellen Sie dann eine neue Ansicht oder bearbeiten Sie die aktuelle Ansicht, um der Ansicht Felder hinzuzufügen und zusätzliche Informationen zwischen Grundlinien zu vergleichen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
+1. (Optional) Klicken Sie auf die **Ansicht**, erstellen Sie dann eine neue Ansicht oder bearbeiten Sie die aktuelle Ansicht, um Felder zur Ansicht hinzuzufügen und zusätzliche Informationen zwischen Basislinien zu vergleichen. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-edit-views.md).
 
-## Erstellen eines Baseline- oder Baseline-Aufgabenberichts
+## Erstellen eines Baseline- oder eines Baseline-Aufgabenberichts
 
-Um Basisinformationen anzuzeigen, können Sie auch einen Baseline- oder Baseline-Aufgabenbericht erstellen. Auf diese Weise können Sie eine beliebige Anzahl von Feldern über die Grundlinien oder Grundlinien-Aufgaben anzeigen, um sie in einer Ansicht zu vergleichen.
+Um Baseline-Informationen anzuzeigen, können Sie auch einen Baseline- oder Baseline-Aufgabenbericht erstellen. Auf diese Weise können Sie eine beliebige Anzahl von Feldern zu den Baselines oder Baseline-Aufgaben anzeigen, um sie in einer Ansicht zu vergleichen.
 
 >[!TIP]
 >
->Sie müssen eine Grundlinie erstellen, bevor Sie einen Baseline- oder Baseline-Aufgabenbericht erstellen können.
+>Sie müssen eine Baseline erstellen, bevor Sie einen Baseline- oder Baseline-Aufgabenbericht erstellen können.
 
-Informationen zum Erstellen eines Berichts finden Sie unter [Benutzerspezifischen Bericht erstellen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-Es wird empfohlen, dem Bericht &quot;Baseline&quot;oder &quot;Baseline Task&quot;eine Gruppierung vom Typ &quot;Projektname&quot;hinzuzufügen, um das Lesen zu vereinfachen.
+Es wird empfohlen, dem Baseline- oder Baseline-Aufgabenbericht eine Gruppierung „Projektname“ hinzuzufügen, um die Lesbarkeit zu vereinfachen.
 
-Informationen zum Erstellen einer Gruppierung finden Sie unter [Erstellen von Gruppierungen in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).
+Informationen zum Erstellen einer Gruppierung finden Sie unter [Gruppierungen in Adobe Workfront erstellen](../../../reports-and-dashboards/reports/reporting-elements/create-groupings.md).

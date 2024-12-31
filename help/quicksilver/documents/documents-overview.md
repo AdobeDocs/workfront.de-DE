@@ -21,7 +21,7 @@ ht-degree: 0%
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Hinzufügen neuer Dokumente zu Adobe Workfront](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
+* [Neue Dokumente zu Adobe Workfront hinzufügen](../documents/adding-documents-to-workfront/add-new-documents-to-workfront.md)
 * [Dokumente verwalten](../documents/managing-documents/manage-documents.md)
 * [Dokumente organisieren](../documents/organizing-documents/organize-documents.md)
-* [Integrationen von Workfront und Experience Manager Assets](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)
+* [Integration von Workfront und Experience Manager Assets](../documents/workfront-and-experience-manager-integrations/wf-experience-manager-integrations.md)

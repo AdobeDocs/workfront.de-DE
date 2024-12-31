@@ -1,8 +1,8 @@
 ---
 content-type: reference
 navigation-topic: create-and-manage-projects
-title: 'Geschäftsfall definieren: Artikelindex'
-description: Sie können ein Projekt formell und effizient anfordern, indem Sie einen Geschäftsfall erstellen. In den folgenden Artikeln werden die Informationen beschrieben, die Sie zum Definieren des Geschäftsfalls eines Projekts benötigen.
+title: 'Business Case definieren: Artikelindex'
+description: Sie können ein Projekt formell und effizient anfordern, indem Sie einen Business Case erstellen. In den folgenden Artikeln werden die Informationen beschrieben, die Sie benötigen, um den Business Case eines Projekts zu definieren.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
@@ -14,19 +14,19 @@ ht-degree: 0%
 
 ---
 
-# Geschäftsfall definieren: Artikelindex
+# Business Case definieren: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Überblick über die Bereiche des Geschäftsfalls](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
-* [Geschäftsszenario für ein Projekt erstellen](../../../manage-work/projects/define-a-business-case/create-business-case.md)
-* [Einen Geschäftsfall genehmigen](../../../manage-work/projects/define-a-business-case/approve-business-case.md)
-* [Überblick über die Finanzfelder für Geschäftsfälle](../../../manage-work/projects/define-a-business-case/business-case-finances.md)
-* [Geschäftsszenario-Ziele erstellen](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md)
-* [Budgetressourcen im Geschäftsfall](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
-* [Budgetressourcen im Geschäftsfall mithilfe des Ressourcenplaners](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
-* [Budgetressourcen im Geschäftsfall mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)
-* [Anwenden einer Scorecard auf ein Projekt und Generieren einer Alignment-Bewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)
-* [Anhängen eines benutzerdefinierten Formulars an einen Geschäftsszenario](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
-* [Erstellen und Bearbeiten von Risiken für Projekte](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
-* [Exportieren des Geschäftsfalls eines Projekts](../../../manage-work/projects/define-a-business-case/export-business-case.md)
+* [Überblick über die Bereiche des Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md)
+* [Erstellen eines Business Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md)
+* [Genehmigen eines Business Case](../../../manage-work/projects/define-a-business-case/approve-business-case.md)
+* [Überblick über Business Case-Finanzfelder](../../../manage-work/projects/define-a-business-case/business-case-finances.md)
+* [Erstellen von Business Case-Zielen](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md)
+* [Budgetressourcen im Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md)
+* [Budgetressourcen im Business Case mit dem Ressourcenplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md)
+* [Budgetressourcen im Business Case mit dem Szenarioplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md)
+* [Wenden Sie eine Scorecard auf ein Projekt an und generieren Sie einen Ausrichtungswert](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md)
+* [Anhängen eines benutzerdefinierten Formulars an einen Business-Case](../../../manage-work/projects/define-a-business-case/attach-custom-form-to-business-case.md)
+* [Risiken in Projekten erstellen und bearbeiten](../../../manage-work/projects/define-a-business-case/create-edit-risks-on-projects.md)
+* [Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md)

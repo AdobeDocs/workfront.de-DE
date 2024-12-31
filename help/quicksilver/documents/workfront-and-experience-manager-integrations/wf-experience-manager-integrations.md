@@ -1,6 +1,6 @@
 ---
-title: Integrationen von Workfront und Experience Manager Assets
-description: Integrationen von Workfront und Experience Manager Assets
+title: Integration von Workfront und Experience Manager Assets
+description: Integration von Workfront und Experience Manager Assets
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
@@ -13,8 +13,8 @@ ht-degree: 0%
 
 ---
 
-# Integrationen von Workfront und Experience Manager Assets
+# Integration von Workfront und Experience Manager Assets
 
-* [Workfront für Experience Manager-erweiterten Connector](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
-* [Adobe Workfront für Experience Manager Assets und Asset-Grundlagen](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
+* [Erweiterter Connector für Workfront for Experience Manager](../../documents/workfront-and-experience-manager-integrations/workfront-for-experience-manager-enhanced-connector/workfront-for-aem-enhanced-connector.md)
+* [Adobe Workfront für Experience Manager Assets und Asset Essentials](../../documents/adobe-workfront-for-experience-manager-assets-essentials/workfront-for-aem-asset-essentials.md)
 * [Migration von alten oder erweiterten Connectoren](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/migrate-to-workfont-integration.md)

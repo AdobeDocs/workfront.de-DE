@@ -15,10 +15,10 @@ ht-degree: 0%
 
 ---
 
-# In einem agilen Team scrum
+# Scrum in einem agilen Team
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Niederschlag](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
+* [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md)
 * [Iterationen](../../agile/use-scrum-in-an-agile-team/iterations/iterations.md)
-* [[!UICONTROL Scrum]-Pinnwand](../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)
+* [[!UICONTROL Scrum]-Board](../../agile/use-scrum-in-an-agile-team/scrum-board/scrum-board.md)

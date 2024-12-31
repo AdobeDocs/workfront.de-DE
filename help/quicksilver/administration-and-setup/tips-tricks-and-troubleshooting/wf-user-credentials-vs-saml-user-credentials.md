@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Adobe Workfront-Benutzeranmeldeinformationen und SAML-Benutzeranmeldeinformationen
-description: Nach der Benutzererstellung können Sie den Benutzer bearbeiten und "Nur SAML 2.0-Authentifizierung zulassen"aktivieren, damit dessen Benutzer und Kennwort vom SAML-System gesteuert werden. Wenn diese Option aktiviert ist, darf sich der Benutzer nur über SAML anmelden.
+title: Adobe Workfront-Benutzeranmeldeinformationen im Vergleich zu SAML-Benutzeranmeldeinformationen
+description: Nach der Benutzererstellung können Sie den Benutzer bearbeiten und „Nur SAML 2.0-Authentifizierung zulassen“ aktivieren, sodass sein Benutzer und sein Kennwort vom SAML-System gesteuert werden. Wenn diese Option aktiviert ist, darf sich der Benutzer nur über SAML anmelden.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,16 +16,16 @@ ht-degree: 0%
 
 ---
 
-# Adobe Workfront-Benutzeranmeldeinformationen und SAML-Benutzeranmeldeinformationen
+# Adobe Workfront-Benutzeranmeldeinformationen im Vergleich zu SAML-Benutzeranmeldeinformationen
 
-Dieser Artikel konzentriert sich speziell auf [!DNL Adobe Workfront] und SAML und deckt keine anderen SSO-Authentifizierungsmethoden ab.
+Dieser Artikel konzentriert sich speziell auf [!DNL Adobe Workfront] und SAML und behandelt keine anderen SSO-Authentifizierungsmethoden.
 
-In einer Datenbank speichert [!DNL Workfront] die E-Mail-Adresse jedes Benutzers als seinen [!DNL Workfront]-Benutzernamen und sein [!DNL Workfront]-Kennwort. Diese Anmeldeinformationen werden in den Sandboxes &quot;Vorschau&quot;und &quot;Benutzerdefinierte Aktualisierung&quot;repliziert.
+In einer Datenbank speichert [!DNL Workfront] die E-Mail-Adresse jedes Benutzers als seinen [!DNL Workfront] Benutzernamen zusammen mit seinem [!DNL Workfront]. Diese Anmeldeinformationen werden in die Sandboxes Vorschau und Benutzerdefinierte Aktualisierung repliziert.
 
-Wenn [!DNL Workfront] bei der Benutzererstellung erkennt, dass SAML 2.0 konfiguriert ist, wird für den Benutzer standardmäßig &quot;Nur SAML 2.0-Authentifizierung zulassen&quot;verwendet. Wenn das Feld &quot;Einladungs-E-Mail an diese Person senden&quot;aktiviert ist, deaktiviert [!DNL Workfront] &quot;Nur SAML 2.0-Authentifizierung zulassen&quot;und blendet diese Option aus. Sobald &quot;Einladungs-E-Mail an diese Person senden&quot;aktiviert ist, wird der Benutzer ein Benutzer ohne SAML [!DNL Workfront].
+Wenn [!DNL Workfront] bei der Benutzererstellung erkennt, dass SAML 2.0 konfiguriert ist, wird für den Benutzer standardmäßig „Nur SAML 2.0-Authentifizierung zulassen“ verwendet. Wenn das Feld „Einladungs-E-Mail an diese Person senden“ aktiviert ist, deaktiviert [!DNL Workfront] „Nur SAML 2.0-Authentifizierung zulassen“ und blendet diese Option aus. Sobald „Einladungs-E-Mail an diese Person senden“ aktiviert ist, wird der Benutzer zu einem Nicht-SAML-[!DNL Workfront].
 
-Nach der Benutzererstellung können Sie den Benutzer bearbeiten und **[!UICONTROL Nur SAML 2.0-Authentifizierung zulassen]** aktivieren, damit dessen Benutzer und Kennwort vom SAML-System gesteuert werden.
+Nach der Benutzererstellung können Sie den Benutzer bearbeiten und die Option **[!UICONTROL Nur SAML 2.0-Authentifizierung zulassen]** aktivieren, sodass sein Benutzer und sein Kennwort vom SAML-System gesteuert werden.
 
-Auf diese Weise kann sich der Benutzer nur über SAML anmelden. Wenn sie zur URL [!DNL Workfront] wechseln, werden sie automatisch zum SAML-System umgeleitet und nach ihrem SAML-Benutzernamen und -Kennwort gefragt.
+Danach kann sich der Benutzer nur noch über SAML anmelden. Wenn sie die [!DNL Workfront]-URL aufrufen, werden sie automatisch zum SAML-System weitergeleitet und nach ihrem SAML-Benutzernamen und -Kennwort gefragt.
 
 SAML-Anmeldeinformationen werden in einem externen SAML-System wie dem ADFS von Microsoft gespeichert, nicht in Workfront.

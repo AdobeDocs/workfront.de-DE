@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Gruppenadministratoren müssen über einen höheren Zugriff verfügen als die von ihnen verwalteten
-description: Wenn ein Gruppenadministrator über Berechtigungen in der Zugriffsstufe verfügt, die niedriger sind als die von ihm verwalteten, kann er keine niedrigeren Zugriffsebenen anzeigen, ändern oder zuweisen.
+title: Gruppenadmins müssen über höhere Zugriffsrechte verfügen als die von ihnen verwalteten
+description: Wenn ein Gruppenadministrator bzw. eine Gruppenadministratorin in niedrigere Zugriffsberechtigungen hat als die, die er bzw. sie verwaltet, kann er bzw. sie keine niedrigeren Zugriffsebenen anzeigen, ändern oder zuweisen.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,22 +16,22 @@ ht-degree: 0%
 
 ---
 
-# Gruppenadministratoren müssen einen höheren Zugriff haben als die von ihnen verwalteten
+# Gruppenadmins müssen über höhere Zugriffsrechte verfügen als die von ihnen verwalteten
 
-Wenn ein Gruppenadministrator über Berechtigungen in der Zugriffsstufe verfügt, die niedriger sind als die von ihm verwalteten, kann er keine niedrigeren Zugriffsebenen anzeigen, ändern oder zuweisen.
+Wenn ein Gruppenadministrator bzw. eine Gruppenadministratorin in niedrigere Zugriffsberechtigungen hat als die, die er bzw. sie verwaltet, kann er bzw. sie keine niedrigeren Zugriffsebenen anzeigen, ändern oder zuweisen.
 
 ## Problem
 
-Wenn einem Gruppenadministrator eine geänderte Zugriffsstufe &quot;Planer&quot;mit Ansichtsberechtigungen für Teams zugewiesen wurde, bestimmten Benutzern jedoch die Zugriffsstufe &quot;Worker&quot;mit Bearbeitungsberechtigungen für Teams zugewiesen wurde, kann der Gruppenadministrator nicht mit der geänderten Zugriffsstufe &quot;Worker&quot;interagieren.
+Wenn einem Gruppenadministrator die Zugriffsebene Geänderter Planer mit den Anzeigeberechtigungen für Teams zugewiesen ist, aber bestimmten Benutzern die Zugriffsebene Arbeiter mit den Bearbeitungsberechtigungen für Teams zugewiesen ist, kann der Gruppenadministrator nicht mit der Zugriffsebene Geänderter Arbeiter interagieren.
 
 ![](assets/group-admin-modified-access.png)
 
 
 >[!NOTE]
 >
->Diese Logik gilt auch für das Dropdown-Menü Einstellungen optimieren . Beide Zugriffsebenen können Zugriff auf &quot;Bearbeiten&quot;haben, aber die Einstellungen im Dropdown-Menü Einstellungen anpassen müssen für den Gruppenadministrator höher sein.
+>Diese Logik gilt auch für das Dropdown-Menü Einstellungen optimieren . Beide Zugriffsebenen können Bearbeitungszugriff haben, aber die Einstellungen im Dropdown-Menü Einstellungen optimieren müssen für den Gruppenadministrator höher sein.
 > ![](assets/fine-tune-your-settings.png)
 
 ## Lösung
 
-Gruppenadministratoren müssen in allen Bereichen der Zugriffsebene über höhere Berechtigungen verfügen als die von ihnen verwalteten.
+Gruppenadmins müssen in allen Bereichen der Zugriffsebene über höhere Berechtigungen verfügen als die von ihnen verwalteten.

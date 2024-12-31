@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: Aktualisieren der Optionen für die automatische Aktualisierung in den Zugriffsebenen
-description: Sie können die Option für die automatische Aktualisierung in den Zugriffsebenen aktualisieren.
+title: Aktualisieren der automatischen Upgrade-Optionen in den Zugriffsebenen
+description: Sie können die Option für das automatische Upgrade in den Zugriffsebenen aktualisieren.
 author: Courtney
 feature: System Setup and Administration
 role: Admin
@@ -18,30 +18,30 @@ ht-degree: 0%
 
 ---
 
-# Aktualisieren der Optionen für die automatische Aktualisierung in den Zugriffsebenen
+# Aktualisieren der automatischen Upgrade-Optionen in den Zugriffsebenen
 
-Für Mitarbeiter des neuen Lizenzmodells muss eine Option für die automatische Aktualisierung zugewiesen sein. Sie können die Option für die automatische Aktualisierung in den Zugriffsebenen aktualisieren.
+Mitwirkende am neuen Lizenzmodell müssen über eine Option für das automatische Upgrade verfügen. Sie können die Option für das automatische Upgrade in den Zugriffsebenen aktualisieren.
 
-## Hinzufügen zu einer Ansicht auf der Seite &quot;Zugriffsebene&quot;
+## Hinzufügen von zu einer Ansicht auf der Seite „Zugriffsebene“
 
-So zeigen Sie an, welche Zugriffsebenen als Optionen für die automatische Aktualisierung zugewiesen werden:
+So zeigen Sie an, welche Zugriffsebenen als automatische Upgrade-Optionen zugewiesen sind:
 <!--
 1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Adobe Workfront, then click **Setup** ![](assets/gear-icon-settings.png.png). -->
 
-1. Klicken Sie im rechten Bereich auf **Zugriffsebenen**.
+1. Klicken Sie im rechten Bedienfeld auf **Zugriffsebenen**.
 
-1. Öffnen Sie den Bereich **Ansichten** .
+1. Öffnen Sie den Bereich **Ansichten**.
 
-1. Wählen Sie **Neue Ansicht** oder wählen Sie eine vorhandene Ansicht und dann das Symbol **Bearbeiten** aus.
+1. Wählen Sie **Neue Ansicht** oder eine vorhandene Ansicht aus und klicken Sie auf das Symbol **Bearbeiten**.
 
-1. Wählen Sie **Spalte hinzufügen** und suchen Sie nach **Upgrade auf**.
+1. Wählen Sie **Spalte hinzufügen** und suchen Sie nach **Aktualisieren auf**.
 
-1. Klicken Sie auf **Ansicht speichern**.
+1. Klicken Sie **Ansicht speichern**.
 
-## Einer Zugriffsstufe eine neue Aktualisierungsoption zuweisen
+## Zuweisen einer neuen Upgrade-Option zu einer Zugriffsebene
 
-So weisen Sie einer Zugriffsstufe eine neue Option für die automatische Aktualisierung zu:
+So weisen Sie eine neue Auto-Upgrade-Option zu Zugriffsebenen zu:
 
-1. Klicken Sie auf das Symbol **Hauptmenü** oben rechts in Adobe Workfront und klicken Sie dann auf **Setup** ![](assets/gear-icon-settings.png).![](assets/main-menu-icon.png)
+1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
 
-1. Klicken Sie im rechten Bereich auf **Zugriffsebenen**.
+1. Klicken Sie im rechten Bedienfeld auf **Zugriffsebenen**.

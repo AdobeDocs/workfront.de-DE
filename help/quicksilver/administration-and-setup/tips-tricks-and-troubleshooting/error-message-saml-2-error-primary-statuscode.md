@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Fehlermeldung: SAML 2.0-Fehler: Primärer StatusCode'
-description: Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
+title: 'Fehlermeldung: SAML 2.0 Fehler: Primärer StatusCode'
+description: Es kann keine erfolgreiche Verbindung zu ADFS hergestellt werden.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,21 +16,21 @@ ht-degree: 1%
 
 ---
 
-# Fehlermeldung: SAML 2.0-Fehler: Primärer StatusCode
+# Fehlermeldung: SAML 2.0 Fehler: Primär StatusCode
 
 ## Problem
 
-Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
+Es kann keine erfolgreiche Verbindung zu ADFS hergestellt werden.
 
-![SAML_2.0_Error_Primär_status_code.png](assets/saml-2.0-error-primary-status-code.png)
+![SAML_2.0_error_Primär_status_code.png](assets/saml-2.0-error-primary-status-code.png)
 
 >[!NOTE]
 >
->Wenn Sie eine erfolgreiche Testverbindung herstellen und weiterhin Probleme auftreten, kann es bei Ihnen zu falschen Zuordnungen von Attributen oder zu Problemen mit Verknüpfungs-IDs kommen. Wenden Sie sich bei Fragen an den Support.
+>Wenn Sie eine erfolgreiche Testverbindung herstellen und weiterhin Probleme auftreten, kann es sein, dass falsche Attributzuordnungen oder Probleme mit den Federation IDs vorliegen. Wenden Sie sich bei Fragen an den Support.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -40,7 +40,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -50,51 +50,51 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Ursache 1: Der sichere Hash-Algorithmus ist auf SHA-256 eingestellt
+## Ursache 1: Der sichere Hash-Algorithmus ist auf SHA-256 festgelegt.
 
 ### Lösung
 
-1. Klicken Sie unter Windows auf &quot;**[!UICONTROL Start]**&quot;> &quot;**[!UICONTROL Administration]**&quot;> &quot;**[!UICONTROL ADFS 2.0-Verwaltung]**&quot;.\
+1. Klicken Sie unter Windows auf **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0-]**.\
    Das Dialogfeld ADFS 2.0-Verwaltung wird angezeigt.
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauenswürdige Parteivertrauer]** aus.
+1. Wählen **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauensstellungen der vertrauenden]** im linken Bereich aus.
 
-1. Klicken Sie mit der rechten Maustaste auf die Vertrauenswürdigkeit der vertrauenswürdigen Partei in Bezug auf [!DNL Adobe Workfront] und wählen Sie dann **[!UICONTROL Eigenschaften]** aus.
-1. Klicken Sie auf die Registerkarte **[!UICONTROL Erweitert]** und wählen Sie dann **[!UICONTROL SHA-1]** aus dem Dropdownmenü **[!UICONTROL Sicherer Hash-Algorithmus]** aus.\
+1. Klicken Sie mit der rechten Maustaste auf die Vertrauensstellung der vertrauenden Seite in Bezug auf [!DNL Adobe Workfront] und wählen Sie dann **[!UICONTROL Eigenschaften]** aus.
+1. Klicken Sie auf die **[!UICONTROL Erweitert]** und wählen Sie dann **[!UICONTROL SHA-1]** aus dem Dropdown **[!UICONTROL Menü Sicherer Hash-Algorithmus]** aus.\
    ![](assets/1-350x287.png)
 
-## Ursache 2: Das ADFS-Signaturzertifikat läuft bald ab und wurde durch ein neues Zertifikat mit überlappenden Daten ersetzt
+## Ursache 2: Das ADFS-Signaturzertifikat läuft bald ab und wurde durch ein neues Zertifikat mit sich überschneidenden Datumsangaben ersetzt
 
 ### Lösung
 
-Auf der Seite &quot;[!DNL Workfront] SSO-Setup&quot;wird das Ablaufdatum des Zertifikats aufgeführt. Wenn das Zertifikat bald abläuft, müssen Sie das neue Signaturzertifikat manuell vom ADFS-Server abrufen:
+Auf der Seite [!DNL Workfront] SSO-Setup wird das Gültigkeitsdatum des Zertifikats aufgeführt. Wenn das Zertifikat bald abläuft, müssen Sie das neue Signaturzertifikat manuell vom ADFS-Server abrufen:
 
-1. Klicken Sie unter Windows auf &quot;**[!UICONTROL Start]**&quot;> &quot;**[!UICONTROL Administration]**&quot;> &quot;**[!UICONTROL ADFS 2.0-Verwaltung]**&quot;.\
+1. Klicken Sie unter Windows auf **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0-]**.\
    Das Dialogfeld ADFS 2.0-Verwaltung wird angezeigt.
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauenswürdige Parteivertrauer]** aus.
+1. Wählen **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauensstellungen der vertrauenden]** im linken Bereich aus.
 
-1. Klicken Sie mit der rechten Maustaste auf die Vertrauenswürdigkeit der vertrauenswürdigen Partei in Bezug auf [!DNL Workfront] und wählen Sie **[!UICONTROL Eigenschaften]** aus.
+1. Klicken Sie mit der rechten Maustaste auf die Vertrauensstellung der vertrauenden Seite in Bezug auf [!DNL Workfront] und wählen Sie **[!UICONTROL Eigenschaften]**.
 1. Klicken Sie auf die Registerkarte **[!UICONTROL Signatur]**.
-1. Klicken Sie auf den Namen des Signaturzertifikats und dann auf **[!UICONTROL Anzeigen]**.
-1. Klicken Sie auf In **[!UICONTROL Datei]**... kopieren und wählen Sie **[!UICONTROL Weiter]** aus.
+1. Klicken Sie auf den Namen des Signaturzertifikats und anschließend auf **[!UICONTROL Anzeigen]**.
+1. Klicken Sie auf In **[!UICONTROL Datei]**… kopieren und wählen Sie **[!UICONTROL Weiter]**.
 
-1. Wählen Sie **[!UICONTROL Base-64-kodiertes x.509 (CER)]** und klicken Sie auf **[!UICONTROL Next]**.
+1. Wählen Sie **[!UICONTROL Base-64-kodiert x.509 (CER)]** aus und klicken Sie auf **[!UICONTROL Weiter]**.
 
 1. Geben Sie den Dateinamen an und klicken Sie auf **[!UICONTROL Weiter]**.
 1. Klicken Sie auf **[!UICONTROL Beenden]**.
 1. Navigieren Sie in [!DNL Workfront] zu **[!UICONTROL Setup]** > **[!UICONTROL System]** > **[!UICONTROL Single Sign-On (SSO)]** und laden Sie das Signaturzertifikat manuell hoch.
 
-## Ursache 3: Fehler bei der Zertifikatsperrungsprüfung
+## Ursache 3: Die Zertifikatsperrprüfung schlägt fehl
 
-Die Lösung dafür hängt von der Version von [!DNL Microsoft] ADFS ab, die Sie verwenden. Konsultieren Sie die Dokumentation von [!DNL Microsoft] , um die entsprechenden Befehle für Ihre Version zu erhalten.
+Die Lösung hängt von der verwendeten ADFS-Version [!DNL Microsoft]. Lesen Sie die Dokumentation von [!DNL Microsoft], um die entsprechenden Befehle für Ihre Version zu erhalten.

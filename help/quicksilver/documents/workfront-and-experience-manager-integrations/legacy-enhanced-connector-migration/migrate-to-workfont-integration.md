@@ -1,8 +1,8 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Migration vom alten oder erweiterten Connector zu Workfront for Adobe Experience Manager as a Cloud Service-Integration
-description: Die Informationen auf dieser Seite erläutern die Best Practices für den Wechsel von Workfront zu Experience Cloud-erweiterten oder Legacy-Connectoren zur neuesten nativen Integration, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
+title: Migrieren vom alten oder erweiterten Connector zu Workfront für die Adobe Experience Manager as a Cloud Service-Integration
+description: Die Informationen auf dieser Seite erläutern die Best Practices für den Wechsel von den erweiterten oder veralteten Workfront for Experience Cloud-Connectoren zu der neuesten nativen Integration, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: af14f408-df39-473c-9e18-bb88022c96ed
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Migration vom alten oder erweiterten Connector zu Workfront for Adobe Experience Manager as a Cloud Service-Integration
+# Migrieren vom alten oder erweiterten Connector zu Workfront für die Adobe Experience Manager as a Cloud Service-Integration
 
-Die Informationen auf dieser Seite erläutern die Best Practices für den Wechsel von Workfront zu Experience Cloud-erweiterten oder Legacy-Connectoren zur neuesten nativen Integration, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
+Die Informationen auf dieser Seite erläutern die Best Practices für den Wechsel von den erweiterten oder veralteten Workfront for Experience Cloud-Connectoren zu der neuesten nativen Integration, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
 
 >[!IMPORTANT]
 >
@@ -23,32 +23,32 @@ Die Informationen auf dieser Seite erläutern die Best Practices für den Wechse
 
 ## Verschieben der Workfront-Instanz in die Admin Console
 
-Kunden, die die neue native Integration zwischen Workfront und Adobe Experience Manager Assets as a Cloud Service verwenden möchten, müssen sicherstellen, dass ihre Workfront-Umgebung an eine Adobe Admin Console gebunden ist. Bei bestehenden Workfront-Umgebungen ist dies wahrscheinlich eine Migration der Umgebung auf eine verbundene Adobe Admin Console erforderlich. Weitere Informationen zu dieser Migration und der zugehörigen Checkliste finden Sie unter [Vorbereiten der Integration Ihrer Organisation in die Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md).
+Kunden, die die neue native Integration zwischen Workfront und Adobe Experience Manager Assets as a Cloud Service verwenden möchten, müssen sicherstellen, dass ihre Workfront-Umgebung an eine Adobe Admin Console gebunden ist. Bei bestehenden Workfront-Umgebungen ist dazu wahrscheinlich eine Migration der Umgebung zu einem verbundenen Adobe Admin Console erforderlich. Weitere Informationen zu dieser Migration und der zugehörigen Checkliste finden Sie unter [Vorbereiten der Integration Ihres Unternehmens in die Adobe Admin Console](/help/quicksilver/administration-and-setup/adobe-admin-console/prep-for-admin-console.md).
 
-Adobe muss bei der Durchführung dieser Migration helfen. Führen Sie einen der folgenden Schritte aus, um Hilfe anzufordern:
+Adobe muss bei dieser Migration helfen. Um Hilfe anzufordern, führen Sie einen der folgenden Schritte aus:
 
 * Wenn Sie Zugriff auf Workfront Hub haben, senden Sie Ihre Anfrage an die [Workfront-Migration zu Adobe Admin Console](https://hub.workfront.com/requests/new?activeTab=tab-new-helpRequest&amp;projectID=629674d500054a38133cf26e01d06a97&amp;path=).
-* Wenn Sie keinen Workfront Hub-Zugriff haben, können Sie Ihre Anforderung an die Warteschlange für frühzeitige Migrationsanfragen ](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi) von [Workfront an Adobe Admin Console senden.
+* Wenn Sie keinen Zugriff auf Workfront Hub haben, können Sie Ihre Anfrage an die Warteschlange für frühzeitige Migrationsanfragen von [Workfront an Adobe Admin Console ](https://workfront.az1.qualtrics.com/jfe/form/SV_9T5LuHf05JUOPAi).
 
-## Neue Integration von Workfront mit Adobe Experience Manager Assets as a Cloud Service konfigurieren
+## Konfigurieren des neuen Workfront für die as a Cloud Service-Integration von Adobe Experience Manager Assets
 
-Nachdem Ihre Workfront-Umgebung in eine Adobe Admin Console migriert wurde, können Workfront-Administratoren die neue native Integration konfigurieren. Hilfe zur Konfiguration finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
+Nachdem Ihre Workfront-Umgebung in eine Adobe Admin Console migriert wurde, können Workfront-Administratoren die neue native Integration konfigurieren. Konfigurationshilfen finden Sie unter [Konfigurieren der Experience Manager Assets as a Cloud Service-Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-aacs-integration.md).
 
-## Vorhandene Assets in Workfront für Adobe Experience Manager Assets - as a Cloud Service Integration verschieben
+## Verschieben vorhandener Assets in Ihre Workfront für die Adobe Experience Manager Assets as a Cloud Service-Integration
 
-Nach der Konfiguration Ihrer Umgebung können Sie vorhandene verknüpfte Assets und Ordner nach Adobe Experience Manager verschieben. Dies ist ein optionaler Schritt, stellt jedoch sicher, dass zuvor verknüpfte Ordner und Assets über den alten oder erweiterten Connector weiterhin verfügbar sind, sobald diese Connectoren deinstalliert wurden.
+Nachdem Sie Ihre Umgebung konfiguriert haben, können Sie vorhandene verknüpfte Assets und Ordner nach Adobe Experience Manager verschieben. Dies ist ein optionaler Schritt, stellt jedoch sicher, dass zuvor verknüpfte Ordner und Assets über den alten oder erweiterten Connector weiterhin verfügbar sind, sobald diese Connectoren deinstalliert werden.
 
-Weitere Informationen zum Verschieben von Assets finden Sie unter [Verknüpfte Ordner und Dokumente migrieren](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md).
+Weitere Informationen zum Verschieben von Assets finden Sie unter [Migrieren verknüpfter Ordner und Dokumente](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/workfront-document-link-updates.md).
 
-## Validieren Sie alle kritischen Anwendungsfälle, die verwendet werden sollen
+## Validieren aller kritischen Anwendungsfälle, die verwendet werden sollen
 
-Es ist wichtig, alle wichtigen Anwendungsfälle zu validieren, die für die native Integration vorgesehen sind, bevor Sie den alten oder erweiterten Connector deinstallieren.
+Es ist wichtig, alle kritischen Anwendungsfälle, die über die native Integration verwendet werden sollen, vor der Deinstallation des alten oder erweiterten Connectors zu validieren.
 
 ## Deinstallieren des alten oder erweiterten Connectors
 
-Schließlich müssen Sie den alten oder erweiterten Connector deinstallieren. Die native Integration sollte nicht parallel mit einem der beiden Connectoren ausgeführt werden.
+Schließlich müssen Sie den alten oder erweiterten Connector deinstallieren. Die native Integration ist nicht für die parallele Ausführung mit einem der beiden Connectoren vorgesehen.
 
-Informationen zur Deinstallation finden Sie unter
+Zur Deinstallation siehe
 
-* Anweisungen zur Deinstallation des alten Connectors: [Deinstallieren Sie den alten Connector Workfront mit Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md).
-* Verbesserte Anweisungen zur Deinstallation des Connectors: [Deinstallieren Sie den erweiterten Connector von Workfront mit Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md).
+* Deinstallationsanweisungen für alten Connector: [Deinstallieren Sie den Workfront mit dem Legacy-Connector von Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-legacy-connector.md).
+* Deinstallationsanweisungen für den erweiterten Connector: [Deinstallieren Sie den erweiterten Connector von Workfront mit Adobe Experience Manager](/help/quicksilver/documents/workfront-and-experience-manager-integrations/legacy-enhanced-connector-migration/uninstall-enhanced-connector.md).

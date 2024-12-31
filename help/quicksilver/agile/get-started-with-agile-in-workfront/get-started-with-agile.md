@@ -1,10 +1,10 @@
 ---
 content-type: reference
 product-area: agile-and-teams
-keywords: agil
+keywords: Agile
 navigation-topic: agile-navigation-topic
-title: Erste Schritte mit [!DNL Agile] in [!DNL Adobe Workfront]
-description: Lesen Sie diese Artikel, um mit agile in Workfront zu beginnen.
+title: Erste Schritte mit  [!DNL Agile] in [!DNL Adobe Workfront]
+description: Lesen Sie diese Artikel, um mit Agile in Workfront zu beginnen.
 author: Lisa
 feature: Agile
 recommendations: noDisplay, noCatalog
@@ -22,4 +22,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erstellen eines agilen Teams](../../agile/get-started-with-agile-in-workfront/create-an-agile-team.md)
 * [Konfigurieren von [!UICONTROL Kanban]](../../agile/get-started-with-agile-in-workfront/configure-kanban.md)
-* [Konfigurieren von [!UICONTROL scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)
+* [Konfigurieren von [!UICONTROL Scrum]](../../agile/get-started-with-agile-in-workfront/configure-scrum.md)

@@ -2,8 +2,8 @@
 filename: group-cards-on-board
 content-type: reference
 navigation-topic: boards
-title: Gruppen auf einer Pinnwand verwenden
-description: Sie können Karten auf einer Pinnwand nach Verantwortlichen oder Tag gruppieren. Wenn Sie eine Gruppierungsoption auswählen, werden die Karten im Swimlane-Format angezeigt.
+title: Verwenden von Gruppen auf einem Board
+description: Sie können Karten auf einer Pinnwand nach Verantwortlichem oder nach Tag gruppieren. Wenn Sie eine Option auswählen, nach der gruppiert werden soll, werden die Karten im SWMLANE-Format angezeigt.
 author: Lisa
 feature: Agile
 exl-id: 6f57a20e-0e47-4457-8605-9bce55c013ec
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Gruppen auf einer Pinnwand verwenden
+# Verwenden von Gruppen auf einer Pinnwand
 
-Sie können Karten auf einer Pinnwand nach Verantwortlichen oder Tag gruppieren. Wenn Sie eine Gruppierungsoption auswählen, werden die Karten im Swimlane-Format angezeigt. Nicht zugewiesene Karten oder Karten ohne Tags werden in ihrer eigenen Swimlane angezeigt.
+Sie können Karten auf einer Pinnwand nach Verantwortlichem oder nach Tag gruppieren. Wenn Sie eine Option auswählen, nach der gruppiert werden soll, werden die Karten im SWMLANE-Format angezeigt. Nicht zugewiesene Karten oder Karten ohne Tags werden in ihrem eigenen Swimlane angezeigt.
 
 >[!NOTE]
 >
->Alle Karten in der Ansaugspalte sind nicht in einer Gruppe enthalten, und die Ansauspalte wird ausgeblendet, wenn eine Gruppe angewendet wird. Informationen zur Ansauspalte finden Sie unter [Hinzufügen einer Ansauspalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
+>Alle Karten in der Aufnahmespalte sind nicht in einer Gruppe enthalten, und die Aufnahmespalte wird ausgeblendet, wenn eine Gruppe angewendet wird. Weitere Informationen zur Aufnahmespalte finden Sie unter [Hinzufügen einer Aufnahmespalte zu einer Pinnwand](/help/quicksilver/agile/use-boards-agile-planning-tools/add-intake-column-to-board.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,20 +34,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront]</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> 
    <p>Neu: [!UICONTROL Contributor] oder höher</p> 
    <p>oder</p>
-   <p>Aktuell: [!UICONTROL Anforderung] oder höher</p>
+   <p>Aktuell: [!UICONTROL-Anfrage] oder höher</p>
    </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -55,24 +55,24 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-boards}}
 
-1. Öffnen Sie eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
-1. Klicken Sie auf **[!UICONTROL Gruppe]** , um den Gruppenbereich links auf der Pinnwand zu öffnen.
+1. Zugriff auf eine Pinnwand. Weitere Informationen finden Sie unter [Erstellen oder Bearbeiten einer Pinnwand](../../agile/get-started-with-boards/create-edit-board.md).
+1. Klicken Sie **[!UICONTROL Gruppe]**, um das Bedienfeld „Gruppe“ auf der linken Seite der Pinnwand zu öffnen.
 
    >[!NOTE]
    >
-   >Die Standardeinstellung für die Gruppierung nach ist **[!UICONTROL None]**. Sie können diese Option jederzeit auswählen, um eine Gruppe zu entfernen und nur die Spalten auf der Pinnwand anzuzeigen.
+   >Die Standardeinstellung zum Gruppieren nach ist **[!UICONTROL Keine]**. Sie können diese Option jederzeit auswählen, um eine Gruppe zu entfernen und nur die Spalten auf der Pinnwand anzuzeigen.
 
-1. Um die Karten zu gruppieren, wählen Sie **[!UICONTROL Zuweisungen]** oder **[!UICONTROL Tags]** aus.
+1. Um die Karten zu gruppieren, wählen Sie **[!UICONTROL Verantwortliche]** oder **[!UICONTROL Tags]** aus.
 
    Die Karten werden automatisch gruppiert. Klicken Sie auf den Pfeil neben dem Gruppennamen, um die Gruppe zu reduzieren und zu erweitern.
 
    ![Gruppierte Karten auf einer Pinnwand](assets/group-by-assignee.png)
 
-1. Wählen Sie aus, was passiert, wenn eine Karte in eine andere Gruppe verschoben wird.
+1. Auswählen, was passiert, wenn eine Karte in eine andere Gruppe verschoben wird.
 
-   * **[!UICONTROL Auf Bevollmächtigten hinzufügen] / [!UICONTROL Auf Tags hinzufügen]:** Die Bevollmächtigten oder Tags in der neuen Gruppe werden der vorhandenen Liste der Bevollmächtigten oder Tags auf der Karte hinzugefügt.
-   * **[!UICONTROL Zuweisung überschreiben] / [!UICONTROL Tags überschreiben]:** Die Bevollmächtigten oder Tags in der neuen Gruppe überschreiben alle anderen Bevollmächtigten oder Tags und werden zu den einzigen Bevollmächtigten oder Tags auf der Karte.
+   * **[!UICONTROL Bei Verantwortlichen hinzufügen]/[!UICONTROL Bei Tags hinzufügen]:** Die Verantwortlichen oder Tags in der neuen Gruppe werden der vorhandenen Liste der Verantwortlichen oder Tags auf der Karte hinzugefügt.
+   * **[!UICONTROL Verantwortliche überschreiben]/[!UICONTROL Tags überschreiben]:** Die Verantwortlichen oder Tags in der neuen Gruppe überschreiben alle anderen Verantwortlichen oder Tags und werden die einzigen Verantwortlichen oder Tags auf der Karte.
 
-   ![[!UICONTROL Nach Optionen gruppieren]](assets/group-by-rail.png)
+   ![[!UICONTROL Gruppieren nach Optionen]](assets/group-by-rail.png)
 
-1. Klicken Sie auf **[!UICONTROL Gruppen ausblenden]** , um das Gruppenbedienfeld auszublenden und die gesamte Pinnwand anzuzeigen.
+1. Klicken Sie **[!UICONTROL Gruppen ausblenden]**, um das Gruppenbedienfeld auszublenden und die Vollpension anzuzeigen.

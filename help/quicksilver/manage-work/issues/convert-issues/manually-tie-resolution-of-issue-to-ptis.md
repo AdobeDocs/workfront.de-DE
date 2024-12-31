@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: convert-issues
-title: Manuelles Verbinden der Lösung eines Problems mit anderen Problemen, Aufgaben oder Projekten
-description: Sie können die Lösung eines Problems manuell mit der Lösung eines Projekts, einer Aufgabe oder eines Problems verknüpfen, ohne das Problem zu konvertieren. Das Problem wird zu einem der auflösbaren Objekte des ausgewählten Projekts, der Aufgabe oder des Problems. Wenn Sie dies tun, wird durch eine Änderung des Projektstatus, der Aufgabe oder eine Ausgabe eine Änderung des Status des ursprünglichen Problems Trigger.
+title: Die Lösung eines Problems manuell mit anderen Problemen, Aufgaben oder Projekten verknüpfen
+description: Sie können die Lösung eines Problems manuell mit der Lösung eines Projekts, einer Aufgabe oder eines Problems verknüpfen, ohne das Problem zu konvertieren. Das Problem wird zu einem der lösbaren Objekte des ausgewählten Projekts, der ausgewählten Aufgabe oder des ausgewählten Problems. Dabei ändert sich durch eine Statusänderung des Projekts, der Aufgabe oder des Problems der Trigger des ursprünglichen Problems.
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Manuelles Verbinden der Lösung eines Problems mit anderen Problemen, Aufgaben oder Projekten
+# Die Lösung eines Problems manuell mit anderen Problemen, Aufgaben oder Projekten verknüpfen
 
-Sie können die Lösung eines Problems manuell mit der Lösung eines Projekts, einer Aufgabe oder eines Problems verknüpfen, ohne das Problem zu konvertieren. Das Problem wird zu einem der auflösbaren Objekte des ausgewählten Projekts, der Aufgabe oder des Problems. Wenn Sie dies tun, wird durch eine Änderung des Projektstatus, der Aufgabe oder eine Ausgabe eine Änderung des Status des ursprünglichen Problems Trigger.
+Sie können die Lösung eines Problems manuell mit der Lösung eines Projekts, einer Aufgabe oder eines Problems verknüpfen, ohne das Problem zu konvertieren. Das Problem wird zu einem der lösbaren Objekte des ausgewählten Projekts, der ausgewählten Aufgabe oder des ausgewählten Problems. Dabei ändert sich durch eine Statusänderung des Projekts, der Aufgabe oder des Problems der Trigger des ursprünglichen Problems.
 
 >[!TIP]
 >
@@ -33,41 +33,41 @@ Sie müssen über Folgendes verfügen:
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anforderung oder höher</p> </td> 
+   <td> <p>Anfrage oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Probleme, Aufgaben, Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Probleme, Aufgaben und Projekte bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Problem, das Sie mit einem anderen Problem, einer anderen Aufgabe oder einem anderen Projekt verknüpfen</p> <p>Anzeigen oder höherer Berechtigungen für das Problem, die Aufgabe oder das Projekt, das/das Sie zum bestehenden Problem hinzufügen</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten Sie Berechtigungen für das Problem, das Sie mit einem anderen Problem, einer anderen Aufgabe oder einem anderen Projekt verknüpfen</p> <p>Zeigen Sie Berechtigungen für das Problem, die Aufgabe oder das Projekt, das Sie dem vorhandenen Problem hinzufügen, an oder erhöhen Sie diese</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Voraussetzungen
 
-Bevor Sie beginnen, müssen Sie:
+Bevor Sie beginnen, müssen Sie Folgendes tun:
 
-* Sie haben ein Problem, dessen Lösung Sie mit der Lösung eines anderen Problems, einer anderen Aufgabe oder eines anderen Projekts verknüpfen möchten.
+* Problem haben, dessen Lösung mit der Lösung eines anderen Problems, einer anderen Aufgabe oder eines anderen Projekts verknüpft werden soll
 
-* Zusätzliche Probleme, Aufgaben oder Projekte haben
+* Ein zusätzliches Problem, eine zusätzliche Aufgabe oder ein zusätzliches Projekt haben
 
-## Verknüpfen der Lösung eines Problems mit der Lösung eines anderen Problems, einer anderen Aufgabe oder eines anderen Projekts
+## Binden Sie die Lösung eines Problems an die Lösung eines anderen Problems, einer anderen Aufgabe oder eines anderen Projekts
 
 1. Navigieren Sie zu einem Problem, dessen Lösung Sie mit der Lösung eines anderen Problems oder mit der Lösung einer Aufgabe oder eines Projekts verknüpfen möchten.
-1. Klicken Sie im linken Bereich auf die **Problemdetails** und erweitern Sie dann den Bereich **Überblick** .
+1. Klicken Sie im linken Bereich auf **Problemdetails** und erweitern Sie dann den Bereich **Übersicht**.
 
    ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
-1. Klicken Sie auf das Feld **Aufgelöst von** und wählen Sie aus den folgenden Typen von aufgelösten Objekten aus:
+1. Klicken Sie auf **Feld** Aufgelöst von“ und wählen Sie aus den folgenden Typen von aufzulösenden Objekten:
 
    * **Projekt**
    * **Aufgabe**
@@ -75,21 +75,21 @@ Bevor Sie beginnen, müssen Sie:
 
    Je nach ausgewähltem Objekt werden die folgenden Felder angezeigt:
 
-   * **Auflösen des Projekts**
-   * **Auflösen von Aufgabe**
-   * **Beheben des Problems**
+   * **Projekt wird aufgelöst**
+   * **Aufgabe wird gelöst**
+   * **Problem wird gelöst**
 
-1. Beginnen Sie mit der Eingabe des Namens eines bestimmten Projekts, einer bestimmten Aufgabe oder eines bestimmten Problems in das Feld **Auflösen des Projekts**, **Aufgabe** oder **Problem** und klicken Sie dann auf dieses Feld, wenn es in der Liste angezeigt wird.
+1. Geben Sie den Namen eines bestimmten Projekts, einer bestimmten Aufgabe oder eines bestimmten Problems in das Feld **Projekt wird gelöst**, **Aufgabe** oder **Problem** ein und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
    >[!NOTE]
    >
-   >Sie können die Lösung eines Problems nicht mit der Aufgabe oder dem Projekt verknüpfen, in dem sich das Problem befindet. Die Aufgabe oder das Projekt des Problems werden nicht in den Feldern &quot;Aufgabe auflösen&quot;oder &quot;Aufgabe auflösen&quot;angezeigt.
+   >Sie können die Lösung eines Problems nicht mit der Aufgabe oder dem Projekt verknüpfen, in dem sich das Problem befindet. Die Aufgabe oder das Projekt des Problems wird nicht in den Feldern zur Lösungsaufgabe oder zur Lösungsaufgabe angezeigt.
 
 
 1. Klicken Sie auf **Änderungen speichern**.
 
-   Das ursprüngliche Problem wird zum auflösbaren Objekt für das Projekt, die Aufgabe oder das Problem, das bzw. das Sie in den Schritten 4 und 5 ausgewählt haben. Das bedeutet, dass das ursprüngliche Problem behoben wird, wenn das aufgelöste Objekt (das Projekt, die Aufgabe oder das Problem, mit dem Sie es verknüpft haben) abgeschlossen ist.
+   Das ursprüngliche Problem wird zum lösbaren Objekt für das Projekt, die Aufgabe oder das Problem, das bzw. das Sie in Schritt 4 und 5 ausgewählt haben. Das bedeutet, dass das ursprüngliche Problem abgeschlossen ist, wenn das Lösungsobjekt (das Projekt, die Aufgabe oder das Problem, mit dem bzw. der Sie es verknüpft haben) abgeschlossen ist.
 
    >[!NOTE]
    >
-   >Ein Projekt, eine Aufgabe oder ein Problem kann mehrere Probleme als auflösbare Objekte haben.
+   >Ein Projekt, eine Aufgabe oder ein Problem kann mehrere Probleme als lösbare Objekte haben.

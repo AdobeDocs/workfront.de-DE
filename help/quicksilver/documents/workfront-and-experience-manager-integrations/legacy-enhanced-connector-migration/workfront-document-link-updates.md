@@ -1,8 +1,8 @@
 ---
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
-title: Verknüpfte Ordner und Dokumente migrieren
-description: Sie können die API verwenden, um verknüpfte Ordner und Dokumente nach Adobe Experience Manager Assets zu migrieren.
+title: Migrieren von verknüpften Ordnern und Dokumenten
+description: Sie können die -API verwenden, um verknüpfte Ordner und Dokumente nach Adobe Experience Manager Assets zu migrieren.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 586ab0a8-52ee-4aba-9298-af5a304acb02
@@ -13,35 +13,35 @@ ht-degree: 0%
 
 ---
 
-# Verknüpfte Ordner und Dokumente migrieren
+# Migrieren von verknüpften Ordnern und Dokumenten
 
-Sie können die API verwenden, um verknüpfte Ordner und Dokumente nach Adobe Experience Manager Assets zu migrieren.
+Sie können die -API verwenden, um verknüpfte Ordner und Dokumente nach Adobe Experience Manager Assets zu migrieren.
 
 ## Verfahren
 
-1. Identifizieren Sie alle Dokumente und Ordner, die mit dem vorherigen externen Dokumentenspeicher verknüpft sind, unter Angabe der internen Workfront-Dokument- oder -Ordnerkennungen sowie der Ordner-ID aller Ordner, die diesen Ordner enthalten.
+1. Identifizieren Sie alle Dokumente und Ordner, die mit dem vorherigen externen Dokumentenspeicheranbieter verknüpft sind, und notieren Sie ihre internen Dokument- oder Ordnerkennungen in Workfront sowie die Ordner-ID aller enthaltenen Ordner.
 
    >[!NOTE]
    >
-   > Sie sollten nach allen gefundenen Ordnern oder Dokumenten suchen, um sicherzustellen, dass sie noch keinen Link mit dem neuen Anbieter erstellt haben.
+   > Sie sollten nach allen gefundenen Ordnern oder Dokumenten suchen, um sicherzustellen, dass noch kein Link für sie mit dem neuen Anbieter erstellt wurde.
 
-1. Suchen Sie die Dokumente und Ordner im neuen Repository nach Pfad und suchen Sie dann ihre Identität im externen System.
+1. Suchen Sie die Dokumente und Ordner im neuen Repository nach dem Pfad und suchen Sie dann im externen System nach ihrer Identität.
 
-1. Erstellen Sie eine Zuordnung der internen Workfront ID zur ID im neuen externen Speicher. Sie benötigen dies, um im folgenden Schritt einen neuen Link zu erstellen.
+1. Erstellen Sie eine Zuordnung der internen Workfront-ID zur ID im neuen externen Store. Sie benötigen dies, um im folgenden Schritt einen neuen Link zu erstellen.
 
-1. Erstellen Sie in Workfront einen neuen Dokument- oder Dokumentordnerlink, der über die neue externe ID auf die Ressource am neuen Speicherort verweist.
+1. Erstellen Sie einen neuen Link für ein Dokument oder einen Dokumentordner in Workfront, der über die neue externe ID auf die Ressource an deren neuem Speicherort verweist.
 
-   1. **Dokumente**: Fügen Sie mit dem neuen externen Dokumentenanbieter eine neue Version des vorhandenen Dokuments hinzu.
+   1. **Dokumente**: Eine neue Version des vorhandenen Dokuments mit dem neuen externen Dokumentanbieter hinzufügen.
    1. **Ordner**: Erstellen Sie einen neuen Ordner an derselben Stelle mit demselben Namen.
 
 >[!CAUTION]
 >
->   Löschen Sie nicht die vorhandenen verknüpften Ordner. Dies kann zu Datenverlust führen. Um alte Ordnerlinks aus der Workfront-Anwendung zu entfernen, deaktivieren Sie die benutzerdefinierte Dokumentenintegration im Bereich Einrichtung .
+>   Löschen Sie nicht die vorhandenen verknüpften Ordner. Dies kann zu Datenverlust führen. Um alte Ordnerlinks aus dem Workfront-Programm zu entfernen, deaktivieren Sie die benutzerdefinierte Dokumentintegration im Bereich Setup .
 
 
-## Beispielprozess für die Migration von Links
+## Beispielprozess zum Migrieren von Links
 
-![simple-link-flow](assets/links-flow-simplified.png)
+![vereinfachter Link-Fluss](assets/links-flow-simplified.png)
 
 ## API-Informationen
 
@@ -49,7 +49,7 @@ Weitere Informationen zu den Workfront-APIs finden Sie in diesem Abschnitt unter
 
 ### Alle Dokumente suchen
 
-Suchen Sie alle **Dokumente (DOCU)**, die mit **Document Provider** von **providerType** verknüpft sind, mit **documentProviderID**.
+Alle **Dokumente (DOCU)** verknüpft mit **Dokumentanbieter** von **providerType** mit **documentProviderID**.
 
 ```
 Http Method: GET
@@ -57,11 +57,11 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/document/search?fields=currentVersion:*&currentVersion:externalIntegrationType={providerType}
 ```
 
-[API-DOCS-Referenz](https://developer.workfront.com/documents.html#get-/docu/search)
+[API-DOKUMENTE-Referenz](https://developer.workfront.com/documents.html#get-/docu/search)
 
-### Suchen aller Ordner
+### Alle Ordner suchen
 
-Suchen Sie alle **Dokumentenordner (DOCFDR)**, die mit dem Dokumentanbieter von **providerType** verknüpft sind, mit **documentProviderID**.
+Alle **Dokumentenordner (DOCFDR),** mit dem Dokumentanbieter (**) verknüpft**, **documentProviderID**.
 
 ```
 Http Method: GET
@@ -69,15 +69,15 @@ Http Method: GET
 Http Endpoint: {host}/attask/api/v14.0/documentFolder/search?fields=*,linkedFolder:*&linkedFolder:externalIntegrationType={providerType}
 ```
 
-API-DOCS: (Document Folder Endpoints, die derzeit nicht unter developer.workfront.com abgedeckt sind)
+API-Dokumente: (Endpunkte für Dokumentenordner werden derzeit nicht unter developer.workfront.com behandelt)
 
-### Verknüpfen von Dokumenten
+### Dokumente verknüpfen
 
-Verknüpfen Sie **Dokumente (DOCU)** von **External Document Provider** von **providerType** mit **documentProviderID**.
+Verknüpfung **Dokumente (DOCU)** von **Externer Dokumentanbieter** von **providerType** mit **documentProviderID**.
 
 >[!IMPORTANT]
 >
->Dokumente werden vorübergehend gespeichert. Das bedeutet, Sie haben Zugriff auf alle Versionen des Dokuments. Beim Erstellen des Links können Sie die vorhandene Dokument-ID angeben, sodass Sie einfach eine neue Version in dieses Dokument schreiben, wobei die Daten extern im neuen Anbieter gehostet werden. Diese Dokument-ID entspricht der Dokument-ID, die auf dem Dokumentlink gefunden wird, den Sie ersetzen. Es ist dasselbe konzeptionelle Dokument. Sie geben einfach an, dass die Bytes für diese neue Version bei einem anderen Anbieter gespeichert werden.
+>Dokumente werden vorübergehend gespeichert. Das heißt, Sie haben Zugriff auf alle Versionen des Dokuments. Wenn Sie den Link erstellen, können Sie die vorhandene Dokument-ID angeben, sodass Sie einfach eine neue Version in dieses Dokument schreiben, wobei die Daten extern im neuen Anbieter gehostet werden. Diese Dokument-ID ist mit der Dokument-ID identisch, die in dem Dokument-Link gefunden wurde, den Sie ersetzen. Es ist dasselbe konzeptionelle Dokument. Sie geben einfach an, dass die Bytes für diese neue Version bei einem anderen Anbieter gespeichert werden.
 
 ```
 Http Method: POST
@@ -88,19 +88,19 @@ Http Body:
 refObjCode=DOCU&refObjID={documentId}&providerType={providerType}&documentProviderID={documentProviderID}
 ```
 
-API-DOCS: (Interne Link-Endpunkte, die derzeit nicht unter developer.workfront.com abgedeckt sind)
+API-Dokumente: (Endpunkte für interne Links werden derzeit nicht unter developer.workfront.com behandelt)
 
-### Verknüpfungsordner
+### Ordner verknüpfen
 
-Verknüpfen Sie **Dokumentordner (DOCFDR)** von **External Document Provider** von **providerType** mit **documentProviderID**.
+Verknüpfung **Dokumentordner (DOCFDR** von **Externer Dokumentanbieter** von **providerType** mit **documentProviderID**.
 
 >[!IMPORTANT]
 >
->Für Ordnerlinks benötigen Sie im Gegensatz zu Document-Links die &#39;documentFolderId&#39; des Ordners in Workfront, in den Sie den neuen Link platzieren möchten. Dies ist wahrscheinlich derselbe übergeordnete Ordner wie der verknüpfte Ordner, den wir kopieren.
+>Bei Ordnerlinks benötigen Sie anders als bei Dokumentlinks die „documentFolderId“ des Ordners in Workfront, in dem Sie Ihren neuen Link platzieren möchten. Dies ist höchstwahrscheinlich derselbe übergeordnete Ordner wie der verknüpfte Ordner, den wir kopieren.
 
 >[!CAUTION]
 >
->Ordner werden nicht temporär gespeichert. Löschen Sie nicht die alten Ordner. Deaktivieren Sie die benutzerdefinierte Dokumentintegration im Setup-Bereich, um alte Ordner zu entfernen.
+>Ordner werden nicht temporär gespeichert. Löschen Sie nicht die alten Ordner. Deaktivieren Sie die Integration benutzerdefinierter Dokumente im Bereich Setup , um alte Ordner zu entfernen.
 
 
 ```
@@ -112,27 +112,27 @@ Http Body:
 providerType={providerType}&documentProviderID={documentProviderID}&breadcrumb=[]&linkAction=LINKEXTERNAL&refObjCode={USER|PROJECT_TASK|TEMPLATE_TASK|securityRootObjectCode}&refObjID={userID|taskID|templateTaskID|securityRootId}&destFolderID={parentFolderId}
 ```
 
-API-DOCS: (Interne Link-Endpunkte, die derzeit nicht unter developer.workfront.com abgedeckt sind)
+API-Dokumente: (Endpunkte für interne Links werden derzeit nicht unter developer.workfront.com behandelt)
 
 ## Wichtige Begriffe
 
-* **Document**: Ein digitales Asset in Workfront
+* **Dokument**: Ein digitales Asset in Workfront
 
-* **Dokumentordner**: Ein Container für digitale Assets in Workfront
+* **Dokumentenordner**: Ein Container für digitale Assets in Workfront
 
 * **Dokument-ID**: Interne Workfront-ID für ein digitales Asset
 
-* **Dokumentordner-ID**: Interne Workfront-ID für einen digitalen Asset-Ordner
+* **Dokumentordner-ID**: Interne Workfront-ID für einen Ordner für digitale Assets
 
-* **Document Provider ID**: ID, die bestimmten Dokumentenanbietern zugeordnet ist
+* **Dokumentanbieter-ID**: ID, die bestimmten Dokumentanbietern zugeordnet ist
 
 >[!IMPORTANT]
 >
-> Für jeden Dokumentanbietertyp kann ein Kunde über mehrere verbundene Instanzen verfügen. Sie können beispielsweise mehrere AEM Repositorys verknüpfen. Oder mehrere verknüpfte Google Drive-Instanzen. Die Document Provider-ID gibt die spezifische Instanz des Verbindungstyps an, den wir ersetzen oder zu der wir wechseln möchten.
+> Für jeden Dokumentanbietertyp kann ein Kunde über mehrere verbundene Instanzen verfügen. Sie können beispielsweise mehrere AEM-Repositorys verknüpft haben. Oder mehrere Google Drive-Instanzen verknüpft. Die Dokumentanbieter-ID gibt die spezifische Instanz des Verbindungstyps an, den wir ersetzen oder zu dem wir wechseln möchten.
 
-* **Document Storage Provider Type (auch &quot;External Integration Type&quot;)**: Der Typ der von Workfront unterstützten Document Storage Provider-Integration. Entweder über eine dedizierte Integration oder eine &quot;benutzerdefinierte Integration&quot;.
+* **Document Storage Provider Type (auch „External Integration Type„)**: Der Integrationstyp des Document Storage Providers, den Workfront unterstützt. Entweder über eine dedizierte Integration oder eine „benutzerdefinierte Integration“.
 
-* **Aktuelle Document Storage Provider-Typen ( providerType)**:
+* **Aktuelle Typen von Dokumentspeicheranbietern ( providerType)**:
 
   ```
   ATTASK
@@ -152,17 +152,17 @@ API-DOCS: (Interne Link-Endpunkte, die derzeit nicht unter developer.workfront.c
   MOCK
   ```
 
-* **Verknüpftes Dokument**: Ein digitales Asset, das in einem externen Dokumentenspeicheranbieter gehostet wird. Workfront verfügt über eine eigene interne &quot;Dokument-ID&quot;für das Asset, die Bytes werden jedoch extern gespeichert. Um dies zu erleichtern, speichert Workfront auch eine &quot;externe Dokument-ID&quot;, die bei der Suche nach der extern referenzierten Ressource im Remote-Repository oder -Speicher hilft.
+* **Verknüpftes Dokument**: Ein digitales Asset, das in einem externen Dokumentspeicheranbieter gehostet wird. Workfront verfügt über eine eigene interne „Dokument-ID“ für das Asset, die Bytes werden jedoch extern gespeichert. Um dies zu erleichtern, speichert Workfront auch eine „externe Dokument-ID“, um die Suche nach der extern referenzierten Ressource innerhalb des Remote-Repositorys oder -Speichers zu erleichtern.
 
-* **Verknüpfter Dokumentordner**: Ein Container für digitale Assets, der in einem externen Dokumentenspeicheranbieter gehostet wird. Workfront verfügt über eine eigene interne &quot;Dokumentordner-ID&quot;für das Asset, die Bytes werden jedoch extern gespeichert. Um dies zu erleichtern, speichert Workfront auch eine &quot;externe Dokument-ID&quot;, die bei der Suche nach der extern referenzierten Ressource im Remote-Repository oder -Speicher hilft.
+* **Verknüpfter Dokumentordner**: Ein Container für digitale Assets, der in einem externen Dokumentspeicheranbieter gehostet wird. Workfront verfügt für das Asset über eine eigene interne „Dokumentenordner-ID“, die Bytes werden jedoch extern gespeichert. Um dies zu erleichtern, speichert Workfront auch eine „externe Dokument-ID“, um die Suche nach der extern referenzierten Ressource innerhalb des Remote-Repositorys oder -Speichers zu erleichtern.
 
-* **Externe Dokument-ID**: ID, die zugewiesen wird, wenn Assets außerhalb von Workfront gespeichert werden. Workfront ordnet seine interne Kennung über dieses Feld &quot;Externe Dokumentkennung&quot;der Kennung zu, die zum Suchen des Assets im externen System verwendet wird. Daher muss beim Verknüpfen des Dokuments oder Ordners aus einem neuen externen Speicher eine neue externe Dokumentkennung im entsprechenden Format erstellt werden, damit der externe Dokumentanbieter das Dokument im neuen Repository oder Store identifizieren kann.
+* **ID des externen**: ID, die zugewiesen wird, wenn Assets außerhalb von Workfront gespeichert werden. Workfront ordnet seine interne Kennung der Kennung zu, die zum Auffinden des Assets im externen System verwendet wird, und zwar über dieses Feld „Kennung des externen Dokuments“. Daher muss beim Verknüpfen des Dokuments oder Ordners aus einem neuen externen Speicher eine neue externe Dokumentkennung in dem entsprechenden Format erstellt werden, damit der externe Dokumentanbieter das Dokument in dem neuen Repository oder Speicher identifizieren kann.
 
   >[!NOTE]
   >
-  > Workfront verfügt noch nicht über einen Standard für externe Dokument-IDs. Für AEM IDs wird eine neue Spezifikation verwendet. Für andere IDs kann die externe Dokument-ID jedoch je nach Anbietertyp in verschiedenen Formularen verwendet werden.
+  > Workfront verfügt noch nicht über einen Standard für externe Dokumentkennungen. Für AEM-IDs wird eine neue Spezifikation verwendet. Für andere IDs kann die ID des externen Dokuments jedoch je nach Anbietertyp unterschiedliche Formen annehmen.
 
 
-* **Objekttyp**: Dies ist ein API-nur-Begriff für die Zwecke dieses Dokuments. Es handelt sich um eine Art generisches Objekt in Workfront, mit dem Sie interagieren möchten. In diesem Fall interagieren Sie mit Dokumenten und Ordnern mit den Typen &quot;DOCU&quot;bzw. &quot;DOCFDR&quot;.
+* **Objekttyp**: Dies ist ein API-Begriff für die Zwecke dieses Dokuments. Es handelt sich um ein generisches Objekt in Workfront, mit dem Sie interagieren möchten. In diesem Fall interagieren Sie mit Dokumenten und Ordnern, die die Typen „DOCU“ bzw. „DOCDR“ aufweisen.
 
-* **Objekt-ID**: Die interne Workfront-Kennung für das generische Objekt, mit dem Sie interagieren möchten. Sie interagieren mit Dokumenten und Ordnern, sodass es sich entweder um die Dokument-ID oder um die Dokumentordner-ID handelt.
+* **Objekt-ID**: Die interne Workfront-Kennung für das generische Objekt, mit dem Sie interagieren möchten. Sie interagieren mit Dokumenten und Ordnern, sodass dies entweder die Dokument-ID oder die Dokument-Ordner-ID ist.

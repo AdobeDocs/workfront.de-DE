@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: update-work-items-and-view-updates
-title: Zusammenfassen von Projekten mit AI Assistant
-description: Der Projekt-Header enthält eine Schaltfläche, mit der der KI-Assistent zur Zusammenfassung von Projekten verwendet wird.
+title: Zusammenfassen von Projekten mit dem KI-Assistenten
+description: Die Kopfzeile des Projekts enthält eine Schaltfläche, mit der KI-Assistent Projekte zusammenfasst.
 author: Becky
 feature: Get Started with Workfront
 exl-id: e0ac2a50-a75b-4453-8edf-850b8de74327
@@ -13,17 +13,17 @@ ht-degree: 1%
 
 ---
 
-# Zusammenfassen von Projekten mit AI Assistant
+# Zusammenfassen von Projekten mit dem KI-Assistenten
 
-Der AI-Assistent von Workfront kann Projekte zusammenfassen, sodass Sie Projektinformationen wie Projektzweck und -status schnell verstehen können. Er enthält Beispiele für abgeschlossene und noch ausstehende Aufgaben sowie weitere Details und Hinweise.
+Der KI-Assistent von Workfront kann Projekte zusammenfassen, sodass Sie Projektinformationen wie Projektzweck und -status schnell verstehen können. Er gibt Beispiele für abgeschlossene und noch ausstehende Aufgaben und liefert einige zusätzliche Details und Hinweise.
 
-Sie können die Schaltfläche Projektzusammenfassung verwenden, um eine Zusammenfassung zu generieren, oder Sie können eine Eingabeaufforderung in den KI-Assistenten eingeben.
+Sie können die Schaltfläche Projektzusammenfassung verwenden, um eine Zusammenfassung zu erstellen, oder Sie können eine Eingabeaufforderung in den KI-Assistenten eingeben.
 
 >[!NOTE]
 >
->Die Zusammenfassungs-Funktion des AI-Assistenten unterscheidet sich vom Bedienfeld Zusammenfassung .
+>Die Zusammenfassungsfunktion des KI-Assistenten unterscheidet sich vom Bedienfeld Zusammenfassung .
 >
->Weitere Informationen zum Bereich &quot;Zusammenfassung&quot;in Workfront finden Sie unter [Überblick über die Zusammenfassung](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
+>Informationen zum Bedienfeld Zusammenfassung in Workfront finden Sie unter [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -34,7 +34,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td><p>Neu: Beliebig</p>
        <p>oder</p>
        <p>Aktuell: Nicht verfügbar</p></td>
@@ -55,42 +55,42 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
 * Ihr Workfront-Administrator muss den KI-Assistenten für Ihr Unternehmen aktiviert haben.
 
-  Weitere Informationen finden Sie unter [Voraussetzungen für den AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in der Übersicht zum Artikel AI Assistant .
+  Weitere Informationen finden Sie unter [Voraussetzungen für den KI-](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)) im Artikel KI-Assistent - Übersicht.
 * Ihr Workfront-Administrator muss den KI-Assistenten für Ihre Zugriffsebene aktiviert haben.
 
-  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 
 
-## Mithilfe der Schaltfläche &quot;Projektzusammenfassung&quot;zusammenfassen
+## Zusammenfassen mithilfe der Schaltfläche Projektzusammenfassung
 
-1. Navigieren Sie zum Aktualisierungsstream, den Sie zusammenfassen möchten.
-1. Klicken Sie auf die Schaltfläche **Projektzusammenfassung** .
+1. Navigieren Sie zum Aktualisierungsverlauf, den Sie zusammenfassen möchten.
+1. Klicken Sie auf die **Projektzusammenfassung**.
 
-   Der KI-Assistent wird geöffnet und Sie werden aufgefordert, das Projekt zusammenzufassen.
+   Der KI-Assistent wird mit einer Eingabeaufforderung geöffnet, in der das Projekt zusammengefasst wird.
 
-   Je nachdem, wie groß oder komplex das Objekt ist, kann es einen Moment dauern, bis der KI-Assistent die Zusammenfassung generiert.
+   Je nachdem, wie groß oder komplex das Objekt ist, kann es einige Minuten dauern, bis der KI-Assistent die Zusammenfassung erstellt.
 
-1. Zeigen Sie die KI-Zusammenfassung im Bereich &quot;KI-Assistent&quot;an.
-1. (Optional) Verfeinern Sie die Eingabeaufforderung, um sicherzustellen, dass Sie die benötigten Informationen erhalten.
+1. Die KI-Zusammenfassung im Bedienfeld „KI-Assistent“ anzeigen.
+1. (Optional) Verfeinern Sie die Eingabeaufforderung, um sicherzustellen, dass sie Ihnen die benötigten Informationen liefert.
 
-## Zusammenfassen eines Objekts im AI-Assistenten
+## Zusammenfassen eines Objekts im KI-Assistenten
 
 So zeigen Sie eine Zusammenfassung eines Objekts an:
 
 1. Navigieren Sie zu dem Objekt, für das Sie eine Zusammenfassung anzeigen möchten.
-1. Klicken Sie auf das Symbol **AI-Assistent** ![AI-Assistent-Symbol](assets/ai-assistant-icon.png) oben rechts im Bildschirm.
-1. Geben Sie im Bereich &quot;AI Assistant&quot;eine Eingabeaufforderung ein, z. B.:
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Geben Sie im Bedienfeld KI-Assistent eine Eingabeaufforderung ein, z. B.:
 
-   * Zusammenfassende Darstellung in drei Sätzen
-   * Zusammenfassen
+   * Eine Zusammenfassung in drei Sätzen geben
+   * Diese zusammenfassen
 
-   Je nachdem, wie groß oder komplex das Objekt ist, kann es einen Moment dauern, bis der KI-Assistent die Zusammenfassung generiert.
+   Je nachdem, wie groß oder komplex das Objekt ist, kann es einige Minuten dauern, bis der KI-Assistent die Zusammenfassung erstellt.
 
-1. Zeigen Sie die KI-Zusammenfassung im Bereich &quot;KI-Assistent&quot;an.
+1. Die KI-Zusammenfassung im Bedienfeld „KI-Assistent“ anzeigen.

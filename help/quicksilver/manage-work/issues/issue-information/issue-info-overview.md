@@ -2,7 +2,7 @@
 content-type: overview;reference
 product-area: projects
 navigation-topic: issues
-title: Ausstellungsinformationen
+title: Anfrageinformationen
 description: Probleme sind Arbeitselemente, die unerwartete oder ungeplante Arbeiten an einem Projekt darstellen. Die folgenden Artikel enthalten Informationen zu Problemen.
 author: Alina
 feature: Work Management
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 ---
 
-# Ausstellungsinformationen
+# Anfrageinformationen
 
-Bei der Arbeit an einem Projekt können Sie feststellen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine Aufgabe protokollieren.
+Bei der Arbeit an einem Projekt kann es vorkommen, dass unerwartete Ereignisse auftreten. Sie können diese unerwarteten Ereignisse als Probleme für ein bestimmtes Projekt oder eine Aufgabe protokollieren.
 
-Im Gegensatz zu Aufgaben können Probleme nicht dazu führen, dass der prozentuale Abschluss eines Projekts erreicht wird. Probleme sind jedoch Arbeitselemente, die den Abschluss eines Projekts verhindern können. Ein unvollständiges Problem weist darauf hin, dass noch Arbeit zu erledigen ist, bevor ein Projekt schließen kann.
+Im Gegensatz zu Aufgaben können Probleme nicht den Prozentsatz der Fertigstellung eines Projekts bestimmen. Probleme sind jedoch Arbeitselemente, die verhindern können, dass ein Projekt abgeschlossen wird. Ein unvollständiges Problem weist darauf hin, dass noch viel Arbeit zu erledigen ist, bevor ein Projekt geschlossen werden kann.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Problemdauer - Übersicht](../../../manage-work/issues/issue-information/issue-duration.md)
-* [Aktualisierungsfehlerpriorität ](../../../manage-work/issues/issue-information/update-issue-priority.md)
-* [Schweregrad des Problems aktualisieren](../../../manage-work/issues/issue-information/update-issue-severity.md)
-* [Überblick über das geplante Abschlussdatum des Problems](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
-* [Verwenden Sie &quot;opTask&quot;und &quot;issue&quot;, wenn Sie auf Probleme verweisen](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)
+* [Problempriorität aktualisieren](../../../manage-work/issues/issue-information/update-issue-priority.md)
+* [Problemschweregrad aktualisieren](../../../manage-work/issues/issue-information/update-issue-severity.md)
+* [Übersicht über das geplante Abschlussdatum der Anfrage](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
+* [„OpTask“ und „Problem“ beim Referenzieren von Problemen verwenden](../../../manage-work/issues/issue-information/use-optask-instead-of-issue.md)

@@ -58,58 +58,58 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Anzeigen oder höherer Zugriff auf Benutzer</p> <p><b>NOTIZ</b>
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Projekte bearbeiten</p> <p>Anzeigen von oder höherem Zugriff auf Benutzer</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 ## Hinzufügen von Benutzern zu einem Projektteam
 
-Wenn Sie Benutzer zum Projektteam hinzufügen, erhalten sie Anzeigeberechtigungen für das Projekt sowie die Aufgaben, Probleme und Dokumente des Projekts. Weitere Informationen finden Sie im Artikel [Überblick über das Projektteam](../../../manage-work/projects/planning-a-project/project-team-overview.md).
+Wenn Sie Benutzer zum Projektteam hinzufügen, erhalten diese Ansichtsberechtigungen für das Projekt sowie für die Aufgaben, Probleme und Dokumente des Projekts. Weitere Informationen finden Sie im Artikel [Projektteam - Übersicht](../../../manage-work/projects/planning-a-project/project-team-overview.md).
 
 >[!TIP]
 >
->Benutzer im Projektteam werden nicht automatisch zu den Tools für die Ressourcenverwaltung des Projekts hinzugefügt.
+>Benutzer des Projektteams werden nicht automatisch zu den Ressourcenverwaltungs-Tools für das Projekt hinzugefügt.
 
-Sie können dem Projektteam auf folgende Weise Benutzer hinzufügen:
+Sie können Benutzer wie folgt zum Projekt-Team hinzufügen:
 
 * [Benutzer automatisch einem Projektteam hinzufügen](#automatically-add-users-to-a-project-team)
 * [Manuelles Hinzufügen von Benutzern zu einem Projektteam](#manually-add-users-to-a-project-team)
 
-### Benutzer automatisch zu einem Projektteam hinzufügen {#automatically-add-users-to-a-project-team}
+### Benutzer automatisch einem Projektteam hinzufügen {#automatically-add-users-to-a-project-team}
 
-Die Benutzer, die die folgenden Rollen im Projekt erfüllen, werden automatisch zum Projektteam hinzugefügt und erscheinen beim Erstellen des Projekts im Abschnitt Personen .
+Die Benutzer, die die folgenden Rollen im Projekt erfüllen, werden automatisch zum Projektteam hinzugefügt und erscheinen im Abschnitt Personen , wenn das Projekt erstellt wird:
 
 * Der Ersteller des Projekts
-* Projektinhaber
+* Der Projektbesitzer
 * Der Projektsponsor
 
-Benutzer werden auch automatisch zum Projektteam hinzugefügt, wenn sie den folgenden Benutzern zugewiesen sind:
+Benutzer werden auch automatisch zum Projekt-Team hinzugefügt, wenn sie Folgendem zugewiesen sind:
 
 * Aufgaben
 * Probleme
 
 ### Manuelles Hinzufügen von Benutzern zu einem Projektteam {#manually-add-users-to-a-project-team}
 
-Wenn Benutzer, die keine Rolle im Projekt erfüllen, über bestimmte Aktualisierungen oder Änderungen während der Projektlaufzeit benachrichtigt werden möchten, können Sie sie manuell zum Projektteam hinzufügen.
+Wenn Benutzer, die keine Rolle im Projekt erfüllen, über bestimmte Aktualisierungen oder Änderungen während der Laufzeit des Projekts benachrichtigt werden möchten, können Sie sie manuell zum Projektteam hinzufügen.
 
-Weitere Informationen dazu, welche Benachrichtigungen für Benutzer im Projekt-Team aktiviert werden können, finden Sie unter [Ereignistypbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+Weitere Informationen dazu, welche Benachrichtigungen für Benutzende im Projektteam aktiviert werden können, finden Sie unter [Typen von Ereignisbenachrichtigungen](../../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
 
 <!--drafted - this used to be the case, in the note below but this limitation was removed on Jan 5, 2023 - as a patch, not a release feature:
 
@@ -119,37 +119,37 @@ Weitere Informationen dazu, welche Benachrichtigungen für Benutzer im Projekt-T
 
 -->
 
-1. Wechseln Sie zu dem Projekt, dem Sie Benutzer hinzufügen möchten.
+1. Gehen Sie zu dem Projekt, dem Benutzer hinzugefügt werden sollen.
 
-1. Klicken Sie im linken Bereich auf **Personen** . Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
+1. Klicken Sie **linken** auf „Personen“. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
 
-1. Klicken Sie auf **Benutzer hinzufügen**.
+1. Klicken Sie **Benutzer hinzufügen**.
 
    Das Dialogfeld Benutzer zum Projektteam hinzufügen wird angezeigt.
 
    ![add_users_dialog.png](assets/add-users-dialog-350x217.png)
 
-1. Geben Sie im Feld **Benutzer hinzufügen** den Namen eines aktiven Workfront-Benutzers ein, den Sie dem Projektteam hinzufügen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdownliste angezeigt wird.
+1. Geben **in das Feld &quot;** hinzufügen“ den Namen eines aktiven Workfront-Benutzers ein, den Sie dem Projektteam hinzufügen möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   Wiederholen Sie diesen Schritt, um dem Projektteam mehrere Benutzer hinzuzufügen. Die Benutzer müssen zur Gruppe gehören, die mit dem Projekt verknüpft ist.
+   Wiederholen Sie diesen Schritt, um dem Projekt-Team mehrere Benutzer hinzuzufügen. Die Benutzer müssen zu der mit dem Projekt verknüpften Gruppe gehören.
 
    >[!TIP]
    >
-   >* Sie können keine Benutzer hinzufügen, indem Sie ihre Teams, Gruppen, Unternehmen oder Rollen hinzufügen.
-   >* Beachten Sie beim Hinzufügen der Benutzer den Avatar, die Primäre Rolle des Benutzers und seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzer müssen mindestens einer Auftragsrolle zugeordnet sein, damit sie beim Hinzufügen angezeigt werden können.
+   >* Sie können keine Benutzer hinzufügen, indem Sie deren Teams, Gruppen, Unternehmen oder Aufgabengebiete hinzufügen.
+   >* Beachten Sie beim Hinzufügen der Benutzer den Avatar, die Primäre Rolle des Benutzers und seine E-Mail-Adresse, um zwischen Benutzern mit identischen Namen zu unterscheiden. Benutzende müssen mindestens einem Aufgabengebiet zugeordnet sein, damit sie es beim Hinzufügen anzeigen können.
    >
-   >  Sie müssen die Einstellung Kontaktinformationen anzeigen auf Ihrer Zugriffsebene aktivieren, damit Benutzer E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+   >  Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. Klicken Sie auf **Hinzufügen**.
+1. Klicken Sie **Hinzufügen**.
 
-   Die Benutzer erhalten Ansichtsberechtigungen für das Projekt und erhalten Benachrichtigungen über das Projekt als Teil des Projektteams.
+   Die Benutzer erhalten Ansichtsberechtigungen für das Projekt und erhalten als Teil des Projektteams Benachrichtigungen über das Projekt.
 
 ## Entfernen von Benutzern aus einem Projektteam
 
 Wenn Sie Benutzer aus ihren Rollen im Projekt entfernen, bleiben sie Teil des Projektteams.
 
-Wenn Sie einen Benutzer aus dem Projektteam entfernen und der Benutzer Aufgaben oder Problemen im Projekt zugewiesen ist, wird die Zuweisung des Benutzers zu den nicht abgeschlossenen Aufgaben und Problemen aufgehoben. In diesem Fall kehren die Aufgaben und Probleme zum nicht zugewiesenen Arbeitsbereich im Arbeitslastausgleich zurück.
+Wenn Sie einen Benutzer aus dem Projektteam entfernen und der Benutzer Aufgaben oder Problemen im Projekt zugewiesen ist, wird die Zuweisung des Benutzers für die Aufgaben und Probleme aufgehoben, die noch nicht abgeschlossen sind. In diesem Fall kehren die Aufgaben und Probleme zum Bereich Nicht zugewiesene Arbeit im Workload-Balancer zurück.
 
 Benutzer, die abgeschlossenen Aufgaben und Problemen zugewiesen sind, bleiben auch dann zugewiesen, wenn Sie sie aus dem Projektteam entfernen.
 

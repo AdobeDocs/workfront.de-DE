@@ -2,7 +2,7 @@
 product-area: agile-and-teams
 navigation-topic: iterations
 title: Iteration löschen
-description: Sie können eine Iteration für Ihr agile Team löschen, wenn sie nicht mehr benötigt wird.
+description: Sie können eine Iteration für Ihr Agile-Team löschen, wenn sie nicht mehr benötigt wird.
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
@@ -15,15 +15,15 @@ ht-degree: 1%
 
 # Iteration löschen
 
-Sie können eine Iteration für Ihr agile Team löschen, wenn sie nicht mehr benötigt wird.
+Sie können eine Iteration für Ihr Agile-Team löschen, wenn sie nicht mehr benötigt wird.
 
 >[!NOTE]
 >
->Iterationen, die Sie löschen, können nicht wiederhergestellt werden.
+>Alle Iterationen, die Sie löschen, können nicht wiederhergestellt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -31,22 +31,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
    <td> <p>Neu: [!UICONTROL Standard]</p> 
    oder
-   <p>Aktuell: [!UICONTROL Arbeit] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Work] oder höher</p> </td> 
   </tr>
    <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Sie müssen Mitglied des agile -Teams sein, dem die Iteration zugewiesen ist.</td> 
+   <td>Sie müssen Mitglied des agilen Teams sein, dem die Iteration zugewiesen ist</td> 
   </tr>
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -54,7 +54,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-team}}
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Team-Symbol wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]** aus.
-1. Wählen Sie die Iteration aus, die Sie löschen möchten, und klicken Sie dann auf **[!UICONTROL Löschen]**.
+1. Wählen Sie im linken Bedienfeld **[!UICONTROL Iterationen]** aus.
+1. Wählen Sie die zu löschende Iteration aus und klicken Sie auf **[!UICONTROL Löschen]**.

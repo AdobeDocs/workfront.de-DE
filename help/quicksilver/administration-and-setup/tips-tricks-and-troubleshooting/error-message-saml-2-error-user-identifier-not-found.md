@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: 'Fehlermeldung: SAML 2.0-Fehler: Benutzer-ID nicht gefunden'
-description: Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
+title: 'Fehlermeldung: SAML 2.0 Fehler: Benutzerkennung nicht gefunden'
+description: Es kann keine erfolgreiche Verbindung zu ADFS hergestellt werden.
 author: Lisa
 feature: System Setup and Administration
 role: Admin
@@ -16,17 +16,17 @@ ht-degree: 1%
 
 ---
 
-# Fehlermeldung: SAML 2.0-Fehler: Benutzer-ID nicht gefunden
+# Fehlermeldung: SAML 2.0 Fehler: Benutzerkennung nicht gefunden
 
 ## Problem
 
-Sie können keine erfolgreiche Verbindung zu ADFS herstellen.
+Es kann keine erfolgreiche Verbindung zu ADFS hergestellt werden.
 
 ![identifier_not_found.png](assets/identifier-not-found.png)
 
 >[!NOTE]
 >
->Wenn Sie eine erfolgreiche Testverbindung herstellen und weiterhin Probleme auftreten, kann es bei Ihnen zu falschen Zuordnungen von Attributen oder zu Problemen mit Verknüpfungs-IDs kommen. Wenden Sie sich bei Fragen an den Support.
+>Wenn Sie eine erfolgreiche Testverbindung herstellen und weiterhin Probleme auftreten, kann es sein, dass falsche Attributzuordnungen oder Probleme mit den Federation IDs vorliegen. Wenden Sie sich bei Fragen an den Support.
 
 ## Ursache:
 
@@ -34,7 +34,7 @@ Behauptungen auf dem ADFS-Server sind falsch.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Plan</td> 
-   <td>Alle</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
@@ -54,26 +54,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Aktuell: Plan</p></td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td>[!UICONTROL Systemadministrator]</td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Lösung
 
-Stellen Sie auf dem ADFS-Server sicher, dass ein Anspruch auf Namen-ID besteht:
+Stellen Sie auf dem ADFS-Server sicher, dass ein Anspruch für die Namens-ID besteht:
 
-1. Klicken Sie unter Windows auf &quot;**[!UICONTROL Start]**&quot;> &quot;**[!UICONTROL Administration]**&quot;> &quot;**[!UICONTROL ADFS 2.0-Verwaltung]**&quot;.\
+1. Klicken Sie unter Windows auf **[!UICONTROL Start]** > **[!UICONTROL Administration]** > **[!UICONTROL ADFS 2.0-]**.\
    Das Dialogfeld ADFS 2.0-Verwaltung wird angezeigt.
 
-1. Wählen Sie im linken Bereich die Option **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauenswürdige Parteivertrauer]** aus.
+1. Wählen **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauensstellungen der vertrauenden]** im linken Bereich aus.
 
-1. Klicken Sie mit der rechten Maustaste auf die Vertrauenswürdigkeit der vertrauenswürdigen Partei in Bezug auf Adobe Workfront und wählen Sie **[!UICONTROL Anforderungsregeln bearbeiten]**.
-1. Vergewissern Sie sich, dass der Anspruch einen **[!UICONTROL ausgehenden Anforderungstyp]** von **[!UICONTROL Name-ID]** aufweist.
+1. Klicken Sie mit der rechten Maustaste auf die Vertrauensstellung der vertrauenden Seite in Bezug auf Adobe Workfront und wählen Sie **[!UICONTROL Anspruchsregeln bearbeiten]**.
+1. Überprüfen Sie, ob der Anspruch über **[!UICONTROL Typ des ausgehenden Anspruchs]** von **[!UICONTROL Name ID]** verfügt.
 
 ![1.png](assets/1-350x287.png)

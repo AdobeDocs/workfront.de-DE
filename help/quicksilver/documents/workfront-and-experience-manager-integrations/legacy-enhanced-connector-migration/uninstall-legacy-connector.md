@@ -2,7 +2,7 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Legacy-Connector deinstallieren
-description: text
+description: Text
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4b3834bf-2e6d-4588-8d77-671e14390115
@@ -13,68 +13,68 @@ ht-degree: 0%
 
 ---
 
-# Deinstallieren des Legacy-Connectors von Workfront mit Adobe Experience Manager
+# Deinstallieren des alten Connectors von Workfront mit Adobe Experience Manager
 
-Sie müssen den alten Connector Workfront mit Adobe Experience Manager deinstallieren und die neueste native Integration nutzen, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
+Sie müssen den Legacy-Connector von Workfront mit Adobe Experience Manager deinstallieren, um die neueste native Integration zu erhalten, die Workfront und Adobe Experience Manager Assets as a Cloud Service verbindet.
 
-## Abmeldung von Workfront
+## Abo von Workfront stornieren
 
 1. Öffnen Sie Adobe Experience Manager.
-1. Navigieren Sie in Experience Manager zu &quot;**Tools**&quot;> &quot;**Cloud Service**&quot;> &quot;**Workfront-Integrationskonfiguration**&quot;.
+1. Wechseln Sie im Experience Manager zu **Tools** > **Cloud Service** > **Workfront-Integrationskonfiguration**.
 1. Wählen Sie Ihre Konfiguration aus (standardmäßig global-workfront) und klicken Sie auf **Eigenschaften**.
-   ![Abmeldung von der Arbeitsfläche](assets/unsubscribe-from-workfront.png)
-1. Deaktivieren Sie die Synchronisierung von Dokumenten, Kommentaren und Metadaten. Der Titel sollte Tag Deaktiviert sein.
-Dadurch werden die Abonnements in Workfront entfernt und der Benutzer kann ein neues Abonnement mit derselben URL erstellen, die in Day CQ Link Externalizer definiert ist.
+   ![Abo von Workfront beenden](assets/unsubscribe-from-workfront.png)
+1. Deaktivieren Sie die Synchronisierung von Dokumenten, Kommentaren und Metadaten. Der Tag der Kennzeichnung sollte deaktiviert sein.
+Dadurch werden die Abonnements in Workfront entfernt und die Benutzenden können mit derselben URL, die im Day CQ Link Externalizer definiert ist, ein neues Abonnement erstellen.
 
 ## Löschen der Workfront-Integrationskonfiguration
 
-Nach dem Entfernen des Abonnements ist es jetzt sicher, die Workfront-Integrationskonfiguration zu löschen.
+Nachdem Sie das Abonnement entfernt haben, können Sie die Workfront-Integrationskonfiguration jetzt löschen.
 
 1. Öffnen Sie die Konfiguration und wählen Sie **Löschen** aus.
    ![Konfiguration löschen](assets/delete-wf-configuration.png)
 
-## Zuordnung löschen
+## Zuordnung entfernen
 
-Als Nächstes müssen Sie die Workfront-Eigenschaftenzuordnung löschen.
+Als Nächstes müssen Sie die Workfront-Eigenschaftszuordnung löschen.
 
-1. Navigieren Sie im Experience Manager zu **Tools** > **Assets** > **Workfront-Eigenschaftenzuordnung**.
+1. Wechseln Sie im Experience Manager zu **Tools** > **Assets** > **Workfront-Eigenschaftenzuordnung**.
 
 1. Wählen Sie alle Zuordnungen aus und klicken Sie auf **Löschen**.
 
 ## Benutzerberechtigungen
 
-Alle Benutzer, die über Workfront auf AEM DAM zugreifen, erhielten Leseberechtigungen für `/content/dam`. Wenn ein Benutzer das nicht mehr benötigt, können Sie die diesen Benutzern erteilten Berechtigungen entfernen.
+Alle Benutzenden, die über Workfront auf AEM DAM zugreifen, erhielten Leseberechtigungen für `/content/dam`. Wenn ein Benutzer dies nicht mehr benötigt, können Sie die Berechtigungen entfernen, die diesen Benutzern erteilt wurden.
 
-Der Connector funktioniert mit dem Workfront-Service des Systembenutzers. Diese wird bei der Deinstallation des Connectors deinstalliert.
+Der Connector wird mit dem Workfront-Service des Systembenutzers verwendet. Dies wird bei der Deinstallation des Connectors deinstalliert.
 
 >[!NOTE]
 >
->Wenn Sie die Connector-Version 2.0.3 verwenden und die Gruppe `workfront-aem-connector-group` hinzugefügt haben, muss dies ebenfalls entfernt werden, indem Sie zu **Tools** > **Sicherheit** > **Gruppen** navigieren.
+>Wenn Sie die Connector-Version 2.0.3 verwenden und die Gruppe `workfront-aem-connector-group` hinzugefügt haben, muss dies ebenfalls entfernt werden, indem Sie zu **Tools** > **Sicherheit** > **Gruppen**.
 
 ## Day CQ Link Externalizer
 
-Wenn Sie den Day CQ Link Externalizer nicht benötigen, können Sie diesen auf &quot;`localhost:4502`&quot;zurücksetzen, indem Sie zu &quot;`/system/console/configMgr`&quot;gehen und nach &quot;Day CQ Link Externalizer&quot;suchen.
+Wenn Sie den Day CQ Link Externalizer nicht benötigen, können Sie diesen wieder auf `localhost:4502` zurücksetzen, indem Sie zu `/system/console/configMgr` wechseln und nach „Day CQ Link Externalizer“ suchen.
 
 >[!NOTE]
 >
->Wenn Sie Adobe Experience Manager as a Cloud Service verwenden, können Sie dies ändern, indem Sie sich Ihr Projekt ansehen und die Datei &quot;_com.day.cq.commons.impl.ExternalizerImpl.xml_&quot;in &quot;_ui.apps/src/main/content/jcr_root/apps/mysite/config_&quot;suchen.
+>Wenn Sie Adobe Experience Manager as a Cloud Service verwenden, können Sie dies ändern, indem Sie Ihr Projekt überprüfen und die Datei _com.day.cq.commons.impl.ExternalizerImpl.xml_ in _ui.apps/src/main/content/jcr_root/apps/mysite/config_ suchen.
 
 ![Day CQ Link Externalizer](assets/Day-CQ-Link-Externalizer.png)
 
 ## Connector-Paket deinstallieren
 
-Die zum Deinstallieren des Connector-Pakets erforderlichen Schritte unterscheiden sich je nach verwendeter Adobe Experience Manager-Version.
+Die zum Deinstallieren des Connector-Pakets erforderlichen Schritte hängen davon ab, welche Adobe Experience Manager-Version Sie haben.
 
 ### Adobe Experience Manager On-Premise
 
-Wenn Sie Adobe Experience Manager On-Premise verwenden, gehen Sie zu &quot;_crx/packmgr/index.jsp_&quot;und suchen Sie nach &quot;`workfront-aem-connector.all-<version>.zip`&quot;, klicken Sie auf &quot;**Mehr**&quot;und dann auf &quot;**Deinstallieren**&quot;.
+Wenn Sie Adobe Experience Manager On-Premise verwenden, navigieren Sie zu _crx/packmgr/index.jsp_, suchen Sie nach dem `workfront-aem-connector.all-<version>.zip`, klicken Sie auf **Mehr** und dann auf **Deinstallieren**.
 
-Überprüfen Sie unter &quot;`/conf`&quot;, ob alle von Workfront erstellten Dateien entfernt wurden.
+Überprüfen Sie unter `/conf` , ob alle von Workfront erstellten Dateien entfernt wurden.
 
 ### Adobe Experience Manager as a Cloud Service
 
-Bei Adobe Experience Manager as a Cloud Service können Sie die Abhängigkeiten für den Connector aus den pom.files des Projekts entfernen.
+Für Adobe Experience Manager as a Cloud Service können Sie die Abhängigkeiten für den Connector aus den pom.files des Projekts entfernen.
 
 ## Firewall und Dispatcher
 
-Vergessen Sie nicht, Ihre auf der Whitelist befindlichen Workfront-URLs zu entfernen, wenn keine Kommunikation mehr erforderlich ist. Außerdem verwendet der Connector die Header apiKey und den Benutzernamen, die auf den Dispatcher festgelegt wurden. Diese können ebenfalls entfernt werden.
+Vergessen Sie nicht, Ihre Workfront-URLs auf der Zulassungsliste zu entfernen, wenn keine Kommunikation mehr erforderlich ist. Außerdem verwendet der Connector den Kopfzeilen-API-Schlüssel und den Benutzernamen, der für den Dispatcher festgelegt wurde. Diese können ebenfalls entfernt werden.

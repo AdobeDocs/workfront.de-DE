@@ -3,7 +3,7 @@ content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
 title: Dokumente organisieren
-description: Sie können Dokumente mit Ordnern organisieren. Sie können traditionelle Ordner oder Smart-Ordner erstellen.
+description: Sie können Dokumente mit Ordnern organisieren. Sie können herkömmliche Ordner oder intelligente Ordner erstellen.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Dokumente organisieren
 
-Sie können Dokumente mit Ordnern organisieren. Sie können traditionelle Ordner oder Smart-Ordner erstellen.
+Sie können Dokumente mit Ordnern organisieren. Sie können herkömmliche Ordner oder intelligente Ordner erstellen.
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Erstellen von Dokumentordnern](../../documents/organizing-documents/create-documents-folder.md)
-* [Erstellen und Verwalten von Smart-Ordnern](../../documents/organizing-documents/create-manage-smart-folders.md)
+* [Erstellen und Verwalten von Smart Folders](../../documents/organizing-documents/create-manage-smart-folders.md)

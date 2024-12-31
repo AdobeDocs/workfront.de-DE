@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: manage-projects
-title: Wählen Sie den Projektaktualisierungstyp aus
-description: Durch die Auswahl eines Aktualisierungstyps für ein Projekt können Sie steuern, wie häufig die Änderungen, die Sie an der Timeline des Projekts vornehmen, für die übergeordneten Aufgaben oder das Projekt gespeichert werden.
+title: Wählen Sie den Projektaktualisierungstyp
+description: Durch Auswahl eines Aktualisierungstyps für ein Projekt können Sie steuern, wie oft die Änderungen, die Sie an der Zeitleiste des Projekts vornehmen, in den übergeordneten Aufgaben oder im Projekt gespeichert werden.
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Wählen Sie den Projektaktualisierungstyp aus
+# Wählen Sie den Projektaktualisierungstyp
 
-Durch die Auswahl eines Aktualisierungstyps für ein Projekt können Sie steuern, wie häufig die Änderungen, die Sie an der Timeline des Projekts vornehmen, für die übergeordneten Aufgaben oder das Projekt gespeichert werden.
+Durch Auswahl eines Aktualisierungstyps für ein Projekt können Sie steuern, wie oft die Änderungen, die Sie an der Zeitleiste des Projekts vornehmen, in den übergeordneten Aufgaben oder im Projekt gespeichert werden.
 
-Wenn die Projekt-Timeline aktualisiert wird, wird sie anhand von Änderungen am Projekt, seinen Aufgaben oder Änderungen an einem anderen Projekt, von dem die Timeline abhängig ist, neu berechnet.
+Wenn die Zeitleiste des Projekts aktualisiert wird, wird sie auf der Grundlage der am Projekt vorgenommenen Änderungen, der zugehörigen Aufgaben oder der Änderungen an einem anderen Projekt, von dem die Zeitleiste abhängig ist, neu berechnet.
 
-Beispielsweise können die folgenden Änderungen an den Aufgaben auf dem Projekt-Trigger vorgenommen und die Timeline aktualisiert werden  des Projekts:
+Beispielsweise wird durch die folgenden Änderungen an den Aufgaben im Projekt-Trigger die Timeline aktualisiert  des Projekts:
 
-* Datum der Aufgaben aktualisieren
-* Ändern von Vorgängerbeziehungen von Aufgaben
-* Ändern Sie die Beziehungen zwischen über- und untergeordneten Elementen, fügen Sie Zuweisungen hinzu oder entfernen Sie sie, und ändern Sie darüber hinaus die Aufgabenbegrenzung oder den Dauertyp.
+* Aktualisieren der Daten von Aufgaben
+* Vorgängerbeziehungen von Aufgaben ändern
+* Ändern Sie die hierarchischen Beziehungen, indem Sie zusätzlich zur Änderung der Aufgabenbeschränkung oder des Dauertyps Zuweisungen hinzufügen oder entfernen.
 
 ## Zugriffsanforderungen
 
@@ -65,66 +65,66 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle </p> </td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b>
 
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td>
+Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Berechtigungen für ein Projekt verwalten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für ein Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
-## Aktualisierungstyp eines Projekts aktualisieren
+## Aktualisieren des Aktualisierungstyps eines Projekts
 
-Wenn die Aufgaben aktualisiert werden, werden ihre übergeordneten Objekte (übergeordnete Aufgaben oder das Projekt) zu dem durch den Aktualisierungstyp angegebenen Zeitpunkt aktualisiert.  So legen Sie einen Aktualisierungstyp für Ihr Projekt fest:
+Wenn die Aufgaben aktualisiert werden, werden ihre übergeordneten Objekte (übergeordnete Aufgaben oder das Projekt) zu dem Zeitpunkt aktualisiert, der durch den Aktualisierungstyp angegeben wird.  So geben Sie einen Aktualisierungstyp für Ihr Projekt an:
 
 1. Wechseln Sie zu dem Projekt, dessen Aktualisierungstyp Sie angeben möchten.
-1. Klicken Sie auf das Menü Mehr neben dem Namen des Projekts und dann auf **Bearbeiten** .![](assets/more-icon.png)
+1. Klicken Sie auf die ![](assets/more-icon.png) Mehr neben dem Namen des Projekts und dann auf **Bearbeiten** .
 
 1. Klicken Sie auf **Projekt** **Einstellungen**.
 
    ![](assets/update-type-field-on-project-edit-box-nwe-350x378.png)
 
-1. Wählen Sie im Feld **Aktualisierungstyp** aus, ob Workfront die Timeline des Projekts automatisch täglich berechnen soll, wenn eine Änderung eintritt oder ob der Projektmanager sie manuell berechnen soll.
+1. Wählen Sie im Feld **Aktualisierungstyp** aus, ob Workfront die Zeitleiste des Projekts automatisch täglich berechnen soll, bei einer Änderung oder ob der Projektmanager sie manuell berechnen soll.
 
    Wählen Sie aus den Optionen in der folgenden Liste aus. 
 
    >[!IMPORTANT]
    >
-   >Wenn die Timeline eines Projekts länger als 15 Jahre ist, berechnet Workfront die Timeline nicht automatisch oder bei Änderung. Der Aktualisierungstyp eines Projekts, das länger als 15 Jahre dauert, ist immer Manuell.
+   >Wenn der Zeitplan eines Projekts länger als 15 Jahre ist, berechnet Workfront den Zeitplan nicht automatisch oder bei einer Änderung. Der Aktualisierungstyp eines Projekts, das länger als 15 Jahre dauert, ist immer „Manuell“.
 
-   * **Automatisch und Bei Änderung:** Dies ist die Standardeinstellung. Die Projekt-Timeline wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Timeline abhängig ist. Die Projekt-Timeline wird auch jede Nacht aktualisiert. \
-     Dies ist die empfohlene Einstellung, da sie sicherstellt, dass die Projekt-Timeline immer auf dem neuesten Stand ist.
+   * **Automatisch und Bei Änderung** Dies ist die Standardeinstellung. Die Zeitleiste des Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt auftritt, von dem die Zeitleiste abhängig ist. Die Zeitleiste des Projekts wird ebenfalls jede Nacht aktualisiert. \
+     Dies ist die empfohlene Einstellung, da sie sicherstellt, dass die Zeitleiste des Projekts immer auf dem neuesten Stand ist.
 
-     Wenn Sie eine Aufgabe oder das Projekt aktualisieren und eine Timeline-Neuberechnung Trigger haben, werden alle verfügbaren Daten sofort angezeigt, sodass Sie mit der Arbeit fortfahren können. Bei Projekten mit mehr als 100 Aufgaben werden Daten, die längere Berechnungen erfordern, abgeblendet dargestellt.
+     Trigger Wenn Sie eine Aufgabe oder das Projekt aktualisieren und eine Neuberechnung der Zeitleiste durchführen, werden alle verfügbaren Daten sofort angezeigt, sodass Sie weiterarbeiten können. Bei Projekten mit mehr als 100 Aufgaben werden Datumsangaben, für die längere Berechnungen erforderlich sind, abgeblendet.
 
      ![](assets/dates-dimmed-when-insline-editing-350x146.png)
 
      Dies bedeutet, dass die Neuberechnung noch nicht abgeschlossen ist und sich die Daten ändern können.
 
-   * **Nur ändern:** Die Projekt-Timeline wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Timeline abhängig ist. Geplante Aktualisierungen erfolgen nicht.\
-     Sie können diese Option auswählen, wenn Sie Bedenken hinsichtlich der Systemleistung haben und nur selten Änderungen am Projekt oder an anderen Projekten auftreten, von denen die Timeline abhängig ist.
+   * **Nur Änderung** Die Zeitleiste des Projekts wird jedes Mal aktualisiert, wenn eine Änderung im Projekt oder in einem anderen Projekt erfolgt, von dem die Zeitleiste abhängig ist. Geplante Aktualisierungen werden nicht durchgeführt.\
+     Sie sollten diese Option auswählen, wenn Sie sich Sorgen über die Systemleistung machen und wenn Änderungen selten im Projekt oder in anderen Projekten auftreten, von denen die Zeitleiste abhängig ist.
 
-   * **Nur Automatisch:** Die Projekt-Timeline wird jede Nacht aktualisiert. Sie wird nicht sofort aktualisiert, nachdem Änderungen vorgenommen wurden.\
-     Sie können diese Option auswählen, wenn Sie Bedenken hinsichtlich der Systemleistung haben und wenn täglich im Projekt oder in anderen Projekten, von denen die Timeline abhängig ist, viele Änderungen auftreten.
+   * **Nur automatisch** Die Zeitleiste des Projekts wird jede Nacht aktualisiert. Sie wird nicht sofort nach den Änderungen aktualisiert.\
+     Sie sollten diese Option auswählen, wenn Sie sich Sorgen über die Systemleistung machen und wenn im Projekt oder in anderen Projekten, von denen die Timeline abhängig ist, täglich viele Änderungen auftreten.
 
      >[!NOTE]
      >
-     >Ein Projekt berechnet nicht automatisch jede Nacht neu, wenn es sich im Planungsstatus befindet. Es wird nur bei Veränderung neu berechnet.
+     >Ein Projekt wird nicht jede Nacht automatisch neu berechnet, wenn es sich im Status „Planung“ befindet. Er wird nur bei Änderung neu berechnet.
 
-   * **Nur manuell:** Die Projekt-Timeline wird nur aktualisiert, wenn Sie die Option &quot;**Timeline neu berechnen**&quot;auswählen, wie im Abschnitt &quot;Manuelle Neuberechnung&quot;im Artikel [Projekt-Timelines neu berechnen](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) beschrieben.\
-     Sie können diese Option auswählen, wenn Sie gleichzeitig viele Änderungen am Projekt vornehmen und möchten, dass die Timeline-Neuberechnung erfolgt, nachdem alle Änderungen vorgenommen wurden (und nicht nach jeder einzelnen Änderung).
+   * **Nur manuell:** Die Projekt-Zeitleiste wird nur aktualisiert, wenn Sie die Option **Zeitleisten neu berechnen** auswählen, wie im Abschnitt „Manuelle Neuberechnung“ im Artikel [Neuberechnen von Projekt-Zeitleisten](../../../manage-work/projects/manage-projects/recalculate-project-timeline.md) beschrieben.\
+     Sie können diese Option auswählen, wenn Sie mehrere Änderungen am Projekt gleichzeitig vornehmen und die Neuberechnung der Zeitleiste nach allen Änderungen (und nicht nach jeder einzelnen Änderung) durchgeführt werden soll.
 
 1. Klicken Sie auf **Speichern**.

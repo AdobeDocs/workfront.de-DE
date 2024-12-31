@@ -2,7 +2,7 @@
 content-type: reference
 product-area: agile-and-teams
 navigation-topic: agile-navigation-topic
-title: Arbeiten in einer Agile-Umgebung
+title: Arbeiten in einer agilen Umgebung
 description: Lesen Sie diese Artikel, um zu erfahren, wie Sie in einer agilen Umgebung arbeiten.
 author: Lisa
 feature: Agile
@@ -17,6 +17,6 @@ ht-degree: 0%
 
 # Arbeiten in einer agilen Umgebung
 
-* [Erstellen einer agilen Geschichte](../../agile/work-in-an-agile-environment/create-an-agile-story.md)
-* [Verwalten des agilen Rückprotokolls](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
-* [Bewegliche Geschichte](../../agile/work-in-an-agile-environment/move-an-agile-story.md)
+* [Erstellen einer agilen Story](../../agile/work-in-an-agile-environment/create-an-agile-story.md)
+* [Verwalten des agilen Rückstands](../../agile/work-in-an-agile-environment/manage-the-agile-backlog.md)
+* [Eine agile Story verschieben](../../agile/work-in-an-agile-environment/move-an-agile-story.md)

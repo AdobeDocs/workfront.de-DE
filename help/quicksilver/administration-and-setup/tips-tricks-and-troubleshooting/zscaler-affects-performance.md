@@ -3,8 +3,8 @@ user-type: administrator
 content-type: tips-tricks-troubleshooting
 product-area: system-administration;user-management
 navigation-topic: tips-tricks-troubleshooting-setup-admin
-title: ZScaler-Einstellungen können zu Leistungseinbußen führen
-description: Nach der Benutzererstellung können Sie den Benutzer bearbeiten und "Nur SAML 2.0-Authentifizierung zulassen"aktivieren, damit dessen Benutzer und Kennwort vom SAML-System gesteuert werden. Wenn diese Option aktiviert ist, darf sich der Benutzer nur über SAML anmelden.
+title: ZScaler-Einstellungen können die Leistung beeinträchtigen
+description: Nach der Benutzererstellung können Sie den Benutzer bearbeiten und „Nur SAML 2.0-Authentifizierung zulassen“ aktivieren, sodass sein Benutzer und sein Kennwort vom SAML-System gesteuert werden. Wenn diese Option aktiviert ist, darf sich der Benutzer nur über SAML anmelden.
 author: Becky
 feature: System Setup and Administration
 role: Admin
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 ---
 
-# Workfront: ZScaler-Einstellungen können zu Leistungseinbußen führen
+# Workfront: ZScaler-Einstellungen können die Leistung beeinträchtigen
 
 >[!NOTE]
 >
