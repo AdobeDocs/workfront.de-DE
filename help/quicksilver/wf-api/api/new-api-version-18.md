@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 18
-description: Adobe Workfront hat die API-Version 18 am 6. April 2022 veröffentlicht. API Version 18 enthält die folgenden Änderungen gegenüber Version 17.
+title: Neue Funktionen in der API-Version 18
+description: Adobe Workfront hat API Version 18 am 6. April 2022 veröffentlicht. Die API-Version 18 enthält die folgenden Änderungen gegenüber Version 17.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Neue Funktionen in API Version 18
+# Neue Funktionen in der API-Version 18
 
-Adobe Workfront hat die API-Version 18 am 8. April 2024 veröffentlicht. API Version 18 enthält die folgenden Änderungen gegenüber Version 17.
+Adobe Workfront hat API Version 18 am 8. April 2024 veröffentlicht. Die API-Version 18 enthält die folgenden Änderungen gegenüber Version 17.
 
-## Hinzugefügte Ressourcen
+## Ressourcen hinzugefügt
 
-Für API Version 18 wurden keine Ressourcen hinzugefügt.
+Für API-Version 18 wurden keine Ressourcen hinzugefügt.
 
 ## Entfernte Ressourcen
 
@@ -30,7 +30,7 @@ Für API-Version 18 wurden keine Ressourcen entfernt
 
 ### AccessLevelPermissions (ALVPER)
 
-Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugreifen auf, Erstellen oder Ändern eines Workfront-Objekts dar. Diese Berechtigungen können dann einer Zugriffsebene zugeordnet werden.
+Ein AccessLevelPermissions-Objekt stellt eine bestimmte Berechtigung zum Zugreifen auf, Erstellen oder Ändern eines Workfront-Objekts dar. Diese Berechtigungen können dann mit einer Zugriffsebene verknüpft werden.
 
 <table>
   <col/>
@@ -46,22 +46,22 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
           </li>
@@ -71,22 +71,22 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
          </li>
@@ -96,22 +96,22 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
           </li>
@@ -121,9 +121,9 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
   </tbody>
 </table>
 
-### AccessRequest (ACSREQ)
+### Zugriffsanforderung (ACSREQ)
 
-Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benötigt, kann er den Zugriff auf dieses Objekt anfordern. Das AccessRequest -Objekt stellt diese Anforderung dar.
+Wenn ein(e) Benutzende(r) keinen Zugriff auf ein Objekt in Workfront hat, das er/sie benötigt, kann er/sie Zugriff auf dieses Objekt anfordern. Das AccessRequest-Objekt stellt diese Anforderung dar.
 
 <table>
   <col/>
@@ -134,27 +134,27 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
       <td>
         <ul>
           <li>
-            <p><b>action</b>
+            <p><b>Aktion</b>
             </p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
           </li>
@@ -164,9 +164,9 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
   </tbody>
 </table>
 
-### AccessRule (ACSRUL)
+### Zugriffsregel (ACSRUL)
 
-Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
+Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
 
 <table>
   <col/>
@@ -182,22 +182,22 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
           </li>
@@ -207,22 +207,22 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
          </li>
@@ -232,22 +232,22 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
           </li>
@@ -257,9 +257,9 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
   </tbody>
 </table>
 
-### Genehmigung (GENEHMIGUNG)
+### Validierung (VALIDIERUNG)
 
-Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Timesheet, kann vorschreiben, dass ein Supervisor oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Approval-Objekt stellt die Aktion zum Abmelden eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table>
   <col/>
@@ -274,11 +274,11 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
             </p>
             <ul>
               <li>
-                <p><b>ISTBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>ISTNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -297,7 +297,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
   </tbody>
 </table>
 
-### WartenGenehmigung (AWAPVL)
+### Warten auf Genehmigung (AWAPVL)
 
 <table>
   <tbody>
@@ -306,15 +306,15 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
       <td>
         <ul>
           <li>
-            <p>Die folgenden Vorgänge wurden hinzugefügt:
+            <p>Folgende Vorgänge wurden hinzugefügt:
             </p>
             <ul>
               <li>
-                <p><b>ADD</b>
+                <p><b>HINZUFÜGEN</b>
                 </p>
               </li>
               <li>
-                <p><b>DELETE</b>
+                <p><b>DELETE </b>
                 </p>
               </li>
             </ul>
@@ -325,9 +325,9 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
   </tbody>
 </table>
 
-### Grundlinie (BLIN)
+### Baseline (BLIN)
 
-Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem bestimmten Zeitpunkt aussah. Sie speichern wichtige Informationen zum Projekt, wie z. B. Schlüsseldaten, Fortschritt, Kosten und Umsatzwerte.
+Baselines sind Momentaufnahmen der Leistung eines Projekts zu einem bestimmten Zeitpunkt. Sie speichern wichtige Informationen über das Projekt, wie wichtige Daten, Fortschritt, Kosten und Umsatzwerte.
 
 <table>
   <col/>
@@ -342,11 +342,11 @@ Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem
             </p>
             <ul>
               <li>
-                <p><b>ISTBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>ISTNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -365,9 +365,9 @@ Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem
   </tbody>
 </table>
 
-### BaselineTask (BSTSK)
+### Baseline-Aufgabe (BSTSK)
 
-Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem bestimmten Zeitpunkt aussah. Sie speichern wichtige Informationen zum Projekt, wie z. B. Schlüsseldaten, Fortschritt, Kosten und Umsatzwerte. Wenn Sie eine Grundlinie erstellen, werden die Aufgabeninformationen auch in den Grundaufgaben dieser Grundlinie erfasst.
+Baselines sind Momentaufnahmen der Leistung eines Projekts zu einem bestimmten Zeitpunkt. Sie speichern wichtige Informationen über das Projekt, wie wichtige Daten, Fortschritt, Kosten und Umsatzwerte. Wenn Sie eine Baseline erstellen, werden die Aufgabeninformationen auch in den Baseline-Aufgaben dieser Baseline erfasst.
 
 <table>
   <col/>
@@ -382,11 +382,11 @@ Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem
             </p>
             <ul>
               <li>
-                <p><b>ISTBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>ISTNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -405,9 +405,9 @@ Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem
   </tbody>
 </table>
 
-### Kategorie (KG)
+### Kategorie (CTG)
 
-Ein Category -Objekt ist ein benutzerdefiniertes Formular.
+Ein Kategorieobjekt ist ein benutzerdefiniertes Formular.
 
 <table>
   <col/>
@@ -423,7 +423,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
             <p>Die folgenden möglichen Werte wurden hinzugefügt:
             <ul>
               <li>
-                <p><code>NLBRCY</code> (Nicht-Arbeitskräfte-Ressourcentyp)
+                <p><code>NLBRCY</code> (Sonstige Ressourcenkategorie)
                 </p>
               </li>
               <li>
@@ -431,7 +431,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
                 </p>
               </li>
               <li>
-                <p><code>RTCRD</code> (Karte Rate)
+                <p><code>RTCRD</code> (Tarifkarte)
                 </p>
               </li>
              </ul>
@@ -443,7 +443,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
             <p>Die folgenden möglichen Werte wurden hinzugefügt:
             <ul>
               <li>
-                <p><code>NLBRCY</code> (Nicht-Arbeitskräfte-Ressourcentyp)
+                <p><code>NLBRCY</code> (Sonstige Ressourcenkategorie)
                 </p>
               </li>
               <li>
@@ -451,7 +451,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
                 </p>
               </li>
               <li>
-                <p><code>RTCRD</code> (Karte Rate)
+                <p><code>RTCRD</code> (Tarifkarte)
                 </p>
               </li>
              </ul>
@@ -465,7 +465,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
 
 ### Dokument (DOCU)
 
-Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder oder andere Informationsformen).
+Ein Dokumentobjekt, das eine Datei darstellt (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
 
 <table>
   <col/>
@@ -490,7 +490,7 @@ Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder o
           <li>
             <p><b>moveToFolder</b>:
             </p>
-            <p>Hinzugefügt. Diese neue Aktion akzeptiert die folgenden Parameter:
+            <p>hinzugefügt. Diese neue Aktion erfordert die folgenden Parameter:
             <ul>
               <li>
                 <p><code>documentIDs</code>
@@ -528,11 +528,11 @@ Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder o
             </p>
             <ul>
               <li>
-                <p><b>ISTBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>ISTNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -557,11 +557,11 @@ Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder o
             </p>
             <ul>
               <li>
-                <p><b>ISTBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>ISTNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -580,9 +580,9 @@ Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder o
   </tbody>
 </table>
 
-### JournalEntry (JRNLE)
+### Tagebucheintrag (JRNLE)
 
-Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung dieser Felder Informationen über bestimmte Objektfelder protokolliert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird bei jeder Änderung dieses Felds ein entsprechender Journaleintrag erstellt.
+Das JournalEntry-Objekt kann so eingerichtet werden, dass Informationen zu bestimmten Objektfeldern jedes Mal protokolliert werden, wenn diese Felder geändert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird jedes Mal, wenn dieses Feld geändert wird, ein entsprechender Journaleintrag erstellt.
 
 <table>
   <col/>
@@ -598,16 +598,16 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>AAO</code> (enum.actiontypeenum.assetapproval.opened)</p>
+                <p><code>AAO</code> (enum.actionTypeEnum.AssetApproval.Opened)</p>
               </li>
               <li>
-                <p><code>ADM</code> (enum.actiontypeenum.assetapproval.locked.all.entscheidungen.made)</p>
+                <p><code>ADM</code> (enum.actionTypeEnum.AssetApproval.locked.all.decisions.made)</p>
               </li>
               <li>
-                <p><code>AUL</code> (enum.actiontypeenum.assetapproval.unlocked.manual)</p>
+                <p><code>AUL</code> (enum.actionTypeEnum.AssetApproval.unlocked.manual)</p>
               </li>
               <li>
-                <p><code>ALM</code> (enum.actiontypeenum.assetapproval.locked.manual)</p>
+                <p><code>ALM</code> (enum.actionTypeEnum.AssetApproval.locked.manual)</p>
               </li>
             </ul>
           </li>
@@ -619,7 +619,7 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
 
 ### OpTask (OPTASK)
 
-Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise anzeigt, dass ein Problem vorliegt, das die Fertigstellung einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungen bei Bestellungen, Anforderungen und Fehlern sind ebenfalls Probleme.
+Ein OpTask-Objekt wird im Allgemeinen als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise darauf hinweist, dass ein Problem vorliegt, das den Abschluss einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungsanforderungen, -anfragen und -fehler sind ebenfalls Probleme.
 
 <table>
   <col/>
@@ -661,7 +661,7 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
 
 ### Projekt (PROJ)
 
-Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, wie Workfront Menschen bei der Arbeit unterstützt. Ein Projektobjekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
+Projekte sind Arbeitselemente innerhalb von Workfront und ein wichtiger Baustein in der Art und Weise, wie Workfront Menschen bei der Arbeit unterstützt. Ein Project-Objekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
 
 <table>
   <col/>
@@ -676,11 +676,11 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
             </p>
             <ul>
               <li>
-                <p><b>ISTBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>ISTNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -703,7 +703,7 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
           <li>
             <p><b>createProjectWithOverride</b>
             </p>
-             <p>Hinzugefügt.
+             <p>hinzugefügt.
             </p>
            </li>
         </ul>
@@ -756,7 +756,7 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
 
 ### QueueDef (QUED)
 
-Ein QueueDef-Objekt stellt eine Warteschlange dar. Hierbei handelt es sich um ein Projekt, das in den Help Desk-Bereich veröffentlicht wurde, um Benutzern die Möglichkeit zu geben, Probleme an sie zu senden.
+Ein QueueDef -Objekt stellt eine Warteschlange dar. Dabei handelt es sich um ein Projekt, das im Helpdesk-Bereich veröffentlicht wurde, um Benutzenden die Übermittlung von Problemen zu ermöglichen.
 
 <table>
   <col/>
@@ -767,52 +767,52 @@ Ein QueueDef-Objekt stellt eine Warteschlange dar. Hierbei handelt es sich um ei
       <td>
         <ul>
           <li>
-            <p><b>requestorCoreAction</b>
+            <p><b>RequestorCoreAction</b>
             </p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
              <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>requestorForbiddenActions</b>
+            <p><b>RequestorForbiddenActions</b>
             </p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>VIEW_COST_RATES</code> (Anzeigen von Kostensätzen)</p>
+                <p><code>VIEW_COST_RATES</code> (Kostensätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_BILLING_RATES</code> (Rechnungsraten anzeigen)</p>
+                <p><code>VIEW_BILLING_RATES</code> (Abrechnungssätze anzeigen)</p>
               </li>
               <li>
-                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzinformationen anzeigen)</p>
+                <p><code>VIEW_GENERAL_FINANCE</code> (Allgemeine Finanzen anzeigen)</p>
               </li>
               <li>
                 <p><code>EDIT_COST_RATES</code> (Kostensätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_BILLING_RATES</code> (Rechnungsgebühren bearbeiten)</p>
+                <p><code>EDIT_BILLING_RATES</code> (Abrechnungssätze bearbeiten)</p>
               </li>
               <li>
-                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzverwaltung bearbeiten)</p>
+                <p><code>EDIT_GENERAL_FINANCE</code> (Allgemeine Finanzen bearbeiten)</p>
               </li>
             </ul>
          </li>
@@ -822,9 +822,9 @@ Ein QueueDef-Objekt stellt eine Warteschlange dar. Hierbei handelt es sich um ei
   </tbody>
 </table>
 
-### Rate (RATE)
+### Satz (RATE)
 
-Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
+Ein Tarifobjekt stellt einen Abrechnungssatz in Workfront dar.
 
 <table>
   <tbody>
@@ -847,7 +847,7 @@ Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
              </ul>
           </li>
           <li>
-          <p><b>displayName</b></p><p>Hinzugefügt.</p>
+          <p><b>displayName</b></p><p>hinzugefügt.</p>
         </ul>
       </td>
     </tr>
@@ -857,7 +857,7 @@ Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
         <ul>
           <li>
             <p><b>displayName</b>
-            </p><p>Hinzugefügt.</p>
+            </p><p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -866,9 +866,9 @@ Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
 </table>
 
 
-### Aufgabe (TASK)
+### Aufgabe (AUFGABE)
 
-Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (zum Abschließen eines Projekts) ausgeführt werden muss.
+Ein Aufgabenobjekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (Fertigstellen eines Projekts) ausgeführt werden muss.
 
 <table>
   <col/>
@@ -883,11 +883,11 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
             </p>
             <ul>
               <li>
-                <p><b>ISTBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>ISTNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>
@@ -922,7 +922,7 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
 
 ### Vorlage (TMPL)
 
-Ein Template -Objekt stellt ein Muster für ein Projekt dar. Projekte können aus Vorlagen erstellt werden, um Zeit zu sparen. Eine Vorlage enthält ein Team und Aufgaben, die in jedes aus der Vorlage erstellte Projekt kopiert werden.
+Ein Vorlagenobjekt stellt ein Muster für ein Projekt dar. Projekte können aus Vorlagen erstellt werden, um Zeit zu sparen. Eine Vorlage enthält ein Team und Aufgaben, die in jedes aus der Vorlage erstellte Projekt kopiert werden.
 
 <table>
   <col/>
@@ -953,9 +953,9 @@ Ein Template -Objekt stellt ein Muster für ein Projekt dar. Projekte können au
 </table>
 
 
-### TemplateTask (TTSK)
+### Vorlagenaufgabe (TTSK)
 
-Ein TemplateTask -Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vorlagenaufgaben werden zu Aufgaben im Projekt, in dem die Vorlage verwendet wird.<table>
+Ein TemplateTask-Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vorlagenaufgaben werden zu Aufgaben im Projekt, in dem die Vorlage verwendet wird.<table>
 <col/>
   <col/>
   <tbody>
@@ -983,7 +983,7 @@ Ein TemplateTask -Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vo
   </tbody>
 </table>
 
-### TemplateUserRole (TTEAM)
+### TemplateUserRole (TEAM)
 
 <table>
   <tbody>
@@ -1024,9 +1024,9 @@ Ein TemplateTask -Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vo
   </tbody>
 </table>
 
-### Datenblatt (TSHET)
+### Arbeitszeittabelle (TABELLE)
 
-Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die tatsächlichen Arbeitsstunden für Aufgaben, Projekte und Hochtypen eingeben können.
+Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit der Benutzende tatsächliche Arbeitsstunden für Aufgaben, Projekte und allgemeine Stundentypen eingeben können.
 
 <table>
   <tbody>
@@ -1050,9 +1050,9 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
   </tbody>
 </table>
 
-### Aktualisieren (AKTUALISIEREN)
+### Aktualisieren (UPDATE)
 
-Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über den aktuellen Status informiert werden. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzern eingegeben oder vom Workfront-System erstellt werden.
+Arbeitselemente in Workfront können aktualisiert werden, um Benutzende über den aktuellen Status zu informieren. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzenden eingegeben oder vom Workfront-System erstellt werden.
 
 <table>
   <col/>
@@ -1091,7 +1091,7 @@ Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über d
           <li>
             <p><b>recentUpdatesObjIDs</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -1101,7 +1101,7 @@ Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über d
 
 ### UserPrefValue (USERPF)
 
-Ein UserPrefValue -Objekt stellt eine Benutzervoreinstellung dar.
+Ein UserPrefValue-Objekt, das eine Benutzervoreinstellung darstellt.
 
 <table>
   <col/>
@@ -1122,7 +1122,7 @@ Ein UserPrefValue -Objekt stellt eine Benutzervoreinstellung dar.
 
 ### Arbeit (ARBEIT)
 
-Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask übernommen wird und gemeinsamen Code für beide verwendet.
+Ein Arbeitsobjekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask erbt wird und gemeinsamen Code zwischen den beiden verwendet.
 
 <table>
   <col/>
@@ -1137,11 +1137,11 @@ Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch 
             </p>
             <ul>
               <li>
-                <p><b>ISTBillableExpenseCost</b>
+                <p><b>actualBillableExpenseCost</b>
                 </p>
               </li>
               <li>
-                <p><b>ISTNonBillableExpenseCost</b>
+                <p><b>actualNonBillableExpenseCost</b>
                 </p>
               </li>
               <li>

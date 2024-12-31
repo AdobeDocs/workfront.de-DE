@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Ereignisabonnementzertifikate
-description: Ereignisabonnementzertifikate
+title: Ereignisabonnement-Zertifikate
+description: Ereignisabonnement-Zertifikate
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,7 +14,7 @@ ht-degree: 2%
 
 ---
 
-# Konfigurieren von Client-TLS für die Ereignisanmeldung
+# Client-TLS für Ereignisabonnement konfigurieren
 
 <!--Configuring Client TLS for Event Subscription
 Steps to Verify Workfront's Client Certificate
@@ -29,24 +29,24 @@ Sandbox 1
 Sandbox 2
 -->
 
-Mit Client TLS können Sie überprüfen, ob die von Ihnen erhaltene Ereignisabonnementnachricht tatsächlich von Adobe Workfront stammt. Um diese Funktion zu aktivieren, muss Ihr Server so konfiguriert sein, dass das x509-Zertifikat von Workfront angefordert und validiert wird.
+Mit Client-TLS können Sie überprüfen, ob die Ereignisabonnementnachricht, die Sie erhalten, tatsächlich von Adobe Workfront stammt. Um diese Funktion zu aktivieren, muss Ihr Server so konfiguriert sein, dass er das x509-Zertifikat von Workfront anfordert und validiert.
 
 
-## Workfront-Clientzertifikat überprüfen
+## Überprüfen des Client-Zertifikats von Workfront
 
-Dieses Verfahren setzt voraus, dass Ihr Server für die Aufnahme von TLS-Verbindungen konfiguriert ist. Workfront unterstützt keine selbstsignierten Zertifikate.
+Bei diesem Verfahren wird davon ausgegangen, dass Ihr Server so konfiguriert ist, dass er TLS-Verbindungen akzeptiert. Workfront unterstützt keine selbstsignierten Zertifikate.
 
 Im Allgemeinen sind dies die Schritte, die zum Aktivieren der Client-Authentifizierung für Ihren Server erforderlich sind:
 
-1. Laden Sie die PEM-Version des DigiCert Global Root CA-Zertifikats herunter.
+1. Herunterladen der PEM-Version des DigiCert Global Root CA-Zertifikats.
 1. Aktivieren Sie die Client-Zertifikatüberprüfung.
 
-   Geben Sie das Zertifizierungsstellenzertifikat aus Schritt 1 als vertrauenswürdig an.
+   Geben Sie das CA-Zertifikat aus Schritt 1 als vertrauenswürdig an.
 
-1. Setzen Sie die Überprüfungstiefe auf 2, da unser Zertifikat tatsächlich von der DigiCert SHA2 Secure Server CA signiert wird, einer zwischengeschalteten Zertifizierungsstelle unter DigiCert Global Root CA.
-1. Überprüfen Sie, ob das Clientzertifikat tatsächlich von Workfront stammt, indem Sie den Domänennamen des Betreffs überprüfen.
+1. Stellen Sie die Überprüfungstiefe auf 2 ein, da unser Zertifikat tatsächlich vom DigiCert SHA2 Secure Server CA signiert wird, der eine Zwischenzertifikatstelle unter DigiCert Global Root CA ist.
+1. Überprüfen Sie, ob das Client-Zertifikat tatsächlich von Workfront stammt, indem Sie den Domain-Namen des Antragstellers überprüfen.
 
-## Beispiele für Serverkonfiguration
+## Beispiele für die Server-Konfiguration
 
 ### NGINX
 
@@ -92,21 +92,21 @@ Weitere Informationen finden Sie unter
 * [Apache-Modul mod_ssl](https://httpd.apache.org/docs/2.4/mod/mod_ssl.html)
  
 
-## Zuordnung von Zertifikat zu Umgebung
+## Zuordnung von Zertifikaten zu Umgebungen
 
-| WF-Umgebung | Certificate Common Name | Zertifikatsinhaber (DN) |
+| WF-Umgebung | Allgemeiner Zertifikatname | Zertifikatbetreff (DN) |
 | -- | -- | -- |
-| Produktion | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
-| Vorschau | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
-| Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
-| Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=Lehi/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| Produktion | *.prod.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=LEHI/O=Workfront, Inc./CN=*.prod.eventsubscriptions.workfront.com |
+| Vorschau | *.preview.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=LEHI/O=Workfront, Inc./CN=*.preview.eventsubscriptions.workfront.com |
+| Sandbox 1 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=LEHI/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
+| Sandbox 2 | *.sandbox.eventsubscriptions.workfront.com | subject= /C=US/ST=Utah/L=LEHI/O=Workfront, Inc./CN=*.sandbox.eventsubscriptions.workfront.com |
 
-## Zertifikate herunterladen
+## Herunterladen von Zertifikaten
 
-Klicken Sie auf die folgenden Links, um die Clientzertifikate herunterzuladen.
+Klicken Sie auf die folgenden Links, um die Client-Zertifikate herunterzuladen.
 
 * [Client-Zertifikat - Produktionsumgebung](assets/prod-environment-nov-2024.crt)
-* [Client-Zertifikat - Vorschau der Umgebung](assets/preview-environment-nov-2024.crt)
+* [Client-Zertifikat - Vorschau-Umgebung](assets/preview-environment-nov-2024.crt)
 * [Client-Zertifikat - Sandbox-Umgebung](assets/sandbox-environment-nov-2024.crt)
 
 >[!NOTE]

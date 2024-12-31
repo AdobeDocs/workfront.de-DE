@@ -1,25 +1,26 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 19
-description: Adobe Workfront hat die API-Version 19 am 6. April 2022 veröffentlicht. API Version 19 enthält die folgenden Änderungen gegenüber Version 18.
+title: Neue Funktionen in der API-Version 19
+description: Adobe Workfront hat API Version 19 am 6. April 2022 veröffentlicht. Die API-Version 19 enthält die folgenden Änderungen gegenüber Version 18.
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: 13910328903744aa9bf619e8b4c376520c21b89e
+exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
+source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
 
 ---
 
-# Neue Funktionen in API Version 19
+# Neue Funktionen in der API-Version 19
 
-Adobe Workfront hat die API-Version 19 am 8. April 2024 veröffentlicht. API Version 19 enthält die folgenden Änderungen gegenüber Version 18.
+Adobe Workfront hat API Version 19 am 8. April 2024 veröffentlicht. Die API-Version 19 enthält die folgenden Änderungen gegenüber Version 18.
 
-## Hinzugefügte Ressourcen
+## Ressourcen hinzugefügt
 
-Für API Version 19 wurden keine Ressourcen hinzugefügt.
+Für API-Version 19 wurden keine Ressourcen hinzugefügt.
 
 ## Entfernte Ressourcen
 
@@ -27,9 +28,9 @@ Für API-Version 19 wurden keine Ressourcen entfernt
 
 ## Geänderte Ressourcen
 
-### AccessLevel (ACSLVL)
+### Zugriffsebene (ACSLV)
 
-Ein AccessLevel -Objekt ist mit Benutzern verknüpft und beschreibt den Satz von AccessLevelPermissions, der bestimmt, auf welchen Benutzer zugreifen können.
+Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
 <table>
   <tbody>
@@ -42,7 +43,7 @@ Ein AccessLevel -Objekt ist mit Benutzern verknüpft und beschreibt den Satz von
             </p>
             <ul>
               <li>
-                <p>Deaktivieren des Workfront AI-Assistenten (AIOFF)
+                <p>Deaktivieren des Workfront-KI-Assistenten (AIOFF)
                 </p>
               </li>
              </ul>
@@ -53,9 +54,9 @@ Ein AccessLevel -Objekt ist mit Benutzern verknüpft und beschreibt den Satz von
   </tbody>
 </table>
 
-### Zuweisung (ASSGN)
+### Zuweisung (ZUWEISUNG)
 
-Ein Zuweisungsobjekt stellt die Verbindung zwischen einem Arbeitselement und dem Benutzer, Team oder der Gruppe dar, der bzw. die für die Bearbeitung zugewiesen ist.
+Ein Arbeitsauftragsobjekt stellt die Verbindung zwischen einem Arbeitselement und dem Benutzer, Team oder der Gruppe dar, der bzw. die für die Bearbeitung zugewiesen ist.
 
 Das Zuweisungsobjekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
 
@@ -66,17 +67,17 @@ Das Zuweisungsobjekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
       <td>Die folgenden direkten Felder wurden hinzugefügt:
         <ul>
           <li>
-            <p><b>categoryID</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, ein benutzerdefiniertes Formular zu einer Zuweisung hinzuzufügen.
+            <p><b>categoryID</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, einem Arbeitsauftrag ein benutzerdefiniertes Formular hinzuzufügen.
             </p>
           </li>
           <li>
-            <p><b>Priorität</b><p>Dieses Feld ermöglicht die folgenden Werte:
+            <p><b>Priorität</b><p>Dieses Feld lässt die folgenden Werte zu:
             <ul>
-              <li>0 (Keine)</li>
+              <li>0 (keine)</li>
               <li>1 (Niedrig)</li>
-              <li>2 (Normal)</li>
+              <li>2 (normal)</li>
               <li>3 (Hoch)</li>
-              <li>4 (dringend)</li>
+              <li>4 (Dringend)</li>
              </ul>
           </li>
         </ul>
@@ -86,7 +87,7 @@ Das Zuweisungsobjekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
       <td>Die folgenden Referenzfelder wurden hinzugefügt:
         <ul>
           <li>
-            <p><b>category</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, ein benutzerdefiniertes Formular zu einer Zuweisung hinzuzufügen.
+            <p><b>Kategorie</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, einem Arbeitsauftrag ein benutzerdefiniertes Formular hinzuzufügen.
             </p>
           </li>
         </ul>
@@ -94,10 +95,10 @@ Das Zuweisungsobjekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
     </tr>
     <tr>
       <td role="rowheader">Sammlungsfelder</td>
-      <td>Die folgenden Kollektionsfelder wurden hinzugefügt:
+      <td>Die folgenden Sammlungsfelder wurden hinzugefügt:
         <ul>
           <li>
-            <p><b>objectCategories</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, ein benutzerdefiniertes Formular zu einer Zuweisung hinzuzufügen.
+            <p><b>objectCategories</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, einem Arbeitsauftrag ein benutzerdefiniertes Formular hinzuzufügen.
             </p>
           </li>
         </ul>
@@ -108,9 +109,9 @@ Das Zuweisungsobjekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
 
 
 
-### Kategorie (KG)
+### Kategorie (CTG)
 
-Ein Category -Objekt ist ein benutzerdefiniertes Formular.
+Ein Kategorieobjekt ist ein benutzerdefiniertes Formular.
 
 <table>
   <tbody>
@@ -123,7 +124,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
             </p>
             <ul>
               <li>
-                <p>Zuweisung (ASSGN)
+                <p>Zuweisung (ZUWEISUNG)
                 </p>
               </li>
              </ul>
@@ -133,7 +134,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
             </p>
             <ul>
               <li>
-                <p>Zuweisung (ASSGN)
+                <p>Zuweisung (ZUWEISUNG)
                 </p>
               </li>
              </ul>
@@ -144,9 +145,9 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
   </tbody>
 </table>
 
-### Classifier (CLSF)
+### Klassifikator (CLSF)
 
-Ein Klassifizierer ist ein Ort.
+Ein Klassifikator ist ein Speicherort.
 
 <table>
   <tbody>
@@ -158,7 +159,7 @@ Ein Klassifizierer ist ein Ort.
             <b>activateClassifiers</b>
           </li>
           <li>
-            <b>deactivateClassifiers</b>
+            <b>DeaktivierenClassifiers</b>
           </li>
         </ul>
       </td>
@@ -167,7 +168,7 @@ Ein Klassifizierer ist ein Ort.
 
 ### Kunde
 
-Ein Kundenobjekt stellt eine Organisation dar, die eine Instanz von Workfront verwendet.
+Ein Customer-Objekt stellt eine Organisation dar, die eine Instanz von Workfront verwendet.
 
 <table>
   <tbody>
@@ -185,7 +186,7 @@ Ein Kundenobjekt stellt eine Organisation dar, die eine Instanz von Workfront ve
               </li>
              </ul>
           </li>
-              <p>Das CustomEnum -Objekt unterstützt die Konvertierung von Status-Codes in für Menschen lesbaren Text.</p>
+              <p>Das CustomEnum-Objekt unterstützt Sie beim Konvertieren von Status-Codes in für Menschen lesbaren Text.</p>
         </ul>
       </td>
     </tr>
@@ -193,9 +194,9 @@ Ein Kundenobjekt stellt eine Organisation dar, die eine Instanz von Workfront ve
 </table>
 
 
-### CustomerPreferences (CUSTPR)
+### Kundenvoreinstellungen (CUSTPR)
 
-Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Instanz von Workfront festgelegt hat.
+Ein CustomerPreferences-Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Workfront-Instanz festgelegt hat.
 
 <table>
   <tbody>
@@ -208,7 +209,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
             </p>
             <ul>
               <li>
-                <p>Aktivieren Sie die Zoom-Integration im Aktualisierungsstream (password:zoomIntegrationEnabled)
+                <p>Zoom-Integration im Updates-Stream aktivieren (Kennwort:zoomIntegrationEnabled)
                 </p>
               </li>
              </ul>
@@ -222,7 +223,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
 
 ### Dokument (DOCU)
 
-Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder oder andere Informationsformen).
+Ein Dokumentobjekt, das eine Datei darstellt (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
 
 <table>
   <tbody>
@@ -234,7 +235,7 @@ Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder o
             <p><b>createLargeDocument</b><p>Das Feld <code>folderID</code> wurde hinzugefügt.</p>
           </li>
           <li>
-            <p><b>sendDocumentsToExternalProvider</b><p>Hinzugefügt.</p>
+            <p><b>sendDocumentsToExternalProvider</b><p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -242,9 +243,9 @@ Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder o
 </table>
 
 
-### ExchangeRate (EXRATE)
+### Wechselkurs (EXRATE)
 
-Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar. ExchangeRate-Objekte sind nicht dynamisch.
+Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar. Wechselkursobjekte sind nicht dynamisch.
 
 <table>
   <tbody>
@@ -252,13 +253,13 @@ Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar
       <td role="rowheader">Direkte Felder</td>
       <td>
       <ul>
-      <li>Die folgenden Felder haben den Validator <code>REQUIRED</code> hinzugefügt:
+      <li>Die folgenden Felder haben den Validator-<code>REQUIRED</code> hinzugefügt:
         <ul>
-          <li><p><b>currency</b></li>
-          <li><p><b>rate</b></li></ul>
+          <li><p><b>Währung</b></li>
+          <li><p><b>Satz</b></li></ul>
       <li>Die folgenden Felder wurden hinzugefügt:
         <ul>
-          <li><p><b>enterByID</b></li>
+          <li><p><b>enteredByID</b></li>
           <li><p><b>entryDate</b></li>
           <li><p><b>lastUpdateDate</b></li>
           <li><p><b>lastUpdatedByID</b></li>
@@ -273,7 +274,7 @@ Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar
       <ul>
         <li>Die folgenden Felder wurden hinzugefügt:
         <ul>
-          <li><p><b>enterBy</b></li>
+          <li><p><b>enteredBy</b></li>
           <li><p><b>lastUpdatedBy</b></li>
           </ul>
           </li>
@@ -283,15 +284,15 @@ Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar
   </tbody>
 </table>
 
-### Gruppe (GRUPPE)
+### Gruppe (GROUP)
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
+Ein Gruppenobjekt steht für eine Gruppe von Benutzern und Teams. Gruppen repräsentieren oft die Abteilungsstruktur.
 
-Das Group -Objekt hat die Markierung **SHARABLE** hinzugefügt.
+Das Gruppenobjekt hat das Flag **SHARABLE** hinzugefügt.
 
 ### Stunde (STUNDE)
 
-Ein Hour -Objekt stellt eine Stunde dar, die von einem Benutzer auf einem Timesheet protokolliert wird.
+Ein Stunden -Objekt steht für eine Stunde, die ein Benutzer in einer Arbeitszeittabelle protokolliert.
 
 <table>
   <tbody>
@@ -303,15 +304,15 @@ Ein Hour -Objekt stellt eine Stunde dar, die von einem Benutzer auf einem Timesh
           <li><p><b>assignedApproverID</b></li>
           <li><p><b>isBillable</b></li>
           <li><p><b>isBilled</b></li>
-          <li><p><b>rejectedByID</b></li>
-          <li><p><b>rejectedOnDate</b></li>
-          <li><p><b>rejectionComment</b></li>
+          <li><p><b>failedByID</b></li>
+          <li><p><b>failedOnDate</b></li>
+          <li><p><b>Zurückweisungskommentar</b></li>
           <li><p><b>submitByID</b></li>
           </ul>
-          <p>Die folgenden Änderungen wurden am Feld <b>Stunden</b> vorgenommen.</p>
+          <p>Folgende Änderungen wurden am Feld <b>Stunden</b> vorgenommen.</p>
           <ul> 
-          <li> Validator <b>GREATER_THAN</b> entfernt</li>
-          <li> Validator <b>NOT_EQUAL</b> hinzugefügt</li>
+          <li> Validator entfernt <b>GREATER_THAN</b></li>
+          <li> Validator hinzugefügt <b>NOT_EQUAL</b></li>
           </ul>
      </td>
     </tr>
@@ -320,17 +321,17 @@ Ein Hour -Objekt stellt eine Stunde dar, die von einem Benutzer auf einem Timesh
       <td>
       Die folgenden Aktionen wurden hinzugefügt:
         <ul>
-          <li><p><b>approve</b></li>
-          <li><p><b>unapprove</b></li>
+          <li><p><b>genehmigen</b></li>
+          <li><p><b>Genehmigung aufheben</b></li>
           </ul>
       </td>
     </tr>
   </tbody>
 </table>
 
-### JournalEntry (JRNLE)
+### Tagebucheintrag (JRNLE)
 
-Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung dieser Felder Informationen über bestimmte Objektfelder protokolliert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird bei jeder Änderung dieses Felds ein entsprechender Journaleintrag erstellt.
+Das JournalEntry-Objekt kann so eingerichtet werden, dass Informationen zu bestimmten Objektfeldern jedes Mal protokolliert werden, wenn diese Felder geändert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird jedes Mal, wenn dieses Feld geändert wird, ein entsprechender Journaleintrag erstellt.
 
 <table>
   <tbody>
@@ -339,7 +340,7 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
       <td>
         <ul>
           <li>
-            <p><b>Flags</b><p>Die folgenden möglichen Werte wurden hinzugefügt:
+            <p><b>Markierungen</b><p>Die folgenden möglichen Werte wurden hinzugefügt:
             </p>
             <ul>
               <li>
@@ -347,15 +348,15 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
                 </p>
               </li>
               <li>
-                <p>Ist Abrechnungsrate (BR)
+                <p>Ist Abrechnungssatz (BR)
                 </p>
               </li>
               <li>
-                <p>Ist allgemeine Finanzierungen (GF)
+                <p>Ist die allgemeine Finanzierung (GF)
                 </p>
               </li>
               <li>
-                <p>Ist kombinierte Finanzierungen (KF)
+                <p>Ist kombinierte Finanzierung (KF)
                 </p>
               </li>
              </ul>
@@ -369,7 +370,7 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
 
 ### Parameter (PARAM)
 
-Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
+Ein Parameter-Objekt ist ein benutzerdefiniertes Feld.
 
 <table>
   <tbody>
@@ -380,27 +381,27 @@ Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
           <li>
             <p><b>dataType</b></p><p>Der folgende mögliche Wert wurde hinzugefügt:
             <ul>
-            <li>Dauer (DRN)</li>
+            <li>Dauer (DRTN)</li>
             </ul>
           </li>
           <li>
-            <p><b>displayType</b></p><p>Um ein benutzerfreundlicheres und flexibleres System zu erstellen, wird der Feldtyp <b>Widget (WIDGET)</b> nicht mehr unterstützt und in die folgenden Feldtypen unterteilt:
+            <p><b>displayType</b></p><p>Um ein benutzerfreundlicheres und flexibleres System zu erstellen, wird der <b>Widget (WIDGET</b>-Feldtyp nicht mehr unterstützt und in die folgenden Feldtypen unterteilt:
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
-            <li>Bild (BILD)</li>
-            <li>PDF (PDF)</li>
+            <li>Bild (IMAGE)</li>
+            <li>PDF PDF</li>
             <li>Video (VIDEO)</li>
             <li>Externe Suche (EXTRNL)</li>
             <li>Externe Suche mit Mehrfachauswahl (MULTEXTRNL)</li>
-            <li>Natives Feld (WFNATIV)</li>
-            <li>Planungsfeld (WFPLANUNG)</li>
+            <li>Natives Feld (WFNATIVE)</li>
+            <li>Feld „Planung“ (WFPLANNING)</li>
             <li>Zeitphasen-KPI (TIMEPHASED)</li>
             <li>Datenaggregation (ROLLUP)</li>
             <li>Dokumente (DOKUMENT)</li>
            </ul>
           </li>
           <li>
-            <p><b>Konfigurationen</b><p>Hinzugefügt.</p>
+            <p><b>Konfigurationen</b><p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -409,7 +410,7 @@ Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
 
 ### Rolle (ROLE)
 
-Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine von einem Benutzer auszufüllende Fähigkeit dar, z. B. Designer oder Produktmanager.
+Ein Rollenobjekt (Aufgabengebiet) stellt eine funktionale Kapazität oder eine Qualifikation dar, die ein Benutzer ausfüllen kann, z. B. Designer oder Product Manager.
 
 <table>
   <tbody>
@@ -437,23 +438,23 @@ Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine vo
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Ein ScoreCardQuestion -Objekt stellt eine Frage dar, die einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfolio-Manager bestimmt und ihre Antworten ermöglichen es dem Manager zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
+Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfoliomanager bestimmt und ihre Antworten geben dem Portfolio die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
 
 <table>
   <tbody>
     <tr>
       <td role="rowheader">Direkte Felder</td>
       <td>
-            <p><b>displayType</b></p><p>Um ein benutzerfreundlicheres und flexibleres System zu erstellen, wird der Feldtyp <b>Widget (WIDGET)</b> nicht mehr unterstützt und in die folgenden Feldtypen unterteilt:
+            <p><b>displayType</b></p><p>Um ein benutzerfreundlicheres und flexibleres System zu erstellen, wird der <b>Widget (WIDGET</b>-Feldtyp nicht mehr unterstützt und in die folgenden Feldtypen unterteilt:
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
-            <li>Bild (BILD)</li>
-            <li>PDF (PDF)</li>
+            <li>Bild (IMAGE)</li>
+            <li>PDF PDF</li>
             <li>Video (VIDEO)</li>
             <li>Externe Suche (EXTRNL)</li>
             <li>Externe Suche mit Mehrfachauswahl (MULTEXTRNL)</li>
-            <li>Natives Feld (WFNATIV)</li>
-            <li>Planungsfeld (WFPLANUNG)</li>
+            <li>Natives Feld (WFNATIVE)</li>
+            <li>Feld „Planung“ (WFPLANNING)</li>
             <li>Zeitphasen-KPI (TIMEPHASED)</li>
             <li>Datenaggregation (ROLLUP)</li>
             <li>Dokumente (DOKUMENT)</li>
@@ -462,11 +463,11 @@ Ein ScoreCardQuestion -Objekt stellt eine Frage dar, die einer Scorecard hinzuge
   </tbody>
 </table>
 
-### TemplateAssignment (TASSGN)
+### Vorlagenzuweisung (TASSGN)
 
-Ein TemplateAssignment -Objekt stellt die Verbindung zwischen einer Vorlagenaufgabe und dem Benutzer, Team oder der Gruppe dar, der bzw. die für die Bearbeitung zugewiesen ist. Wenn die Vorlage für ein Projekt verwendet wird, wird dieser Benutzer, dieses Team oder diese Gruppe der Aufgabe zugewiesen.
+Ein TemplateAssignment-Objekt stellt die Verbindung zwischen einer Vorlagenaufgabe und dem Benutzer, dem Team oder der Gruppe dar, der bzw. die für die Bearbeitung zugewiesen ist. Wenn die Vorlage für ein Projekt verwendet wird, wird dieser Benutzer, dieses Team oder diese Gruppe der Aufgabe zugewiesen.
 
-Das TemplateAssignment -Objekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
+Das TemplateAssignment-Objekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
 
 <table>
   <tbody>
@@ -475,7 +476,7 @@ Das TemplateAssignment -Objekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
       <td>Die folgenden direkten Felder wurden hinzugefügt:
         <ul>
           <li>
-            <p><b>categoryID</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, ein benutzerdefiniertes Formular zu einer Zuweisung hinzuzufügen.
+            <p><b>categoryID</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, einem Arbeitsauftrag ein benutzerdefiniertes Formular hinzuzufügen.
             </p>
           </li>
         </ul>
@@ -485,7 +486,7 @@ Das TemplateAssignment -Objekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
       <td>Die folgenden Referenzfelder wurden hinzugefügt:
         <ul>
           <li>
-            <p><b>category</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, ein benutzerdefiniertes Formular zu einer Zuweisung hinzuzufügen.
+            <p><b>Kategorie</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, einem Arbeitsauftrag ein benutzerdefiniertes Formular hinzuzufügen.
             </p>
           </li>
         </ul>
@@ -493,10 +494,10 @@ Das TemplateAssignment -Objekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
     </tr>
     <tr>
       <td role="rowheader">Sammlungsfelder</td>
-      <td>Die folgenden Kollektionsfelder wurden hinzugefügt:
+      <td>Die folgenden Sammlungsfelder wurden hinzugefügt:
         <ul>
           <li>
-            <p><b>objectCategories</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, ein benutzerdefiniertes Formular zu einer Zuweisung hinzuzufügen.
+            <p><b>objectCategories</b><p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieses Feld unterstützt die Möglichkeit, einem Arbeitsauftrag ein benutzerdefiniertes Formular hinzuzufügen.
             </p>
           </li>
         </ul>
@@ -505,9 +506,9 @@ Das TemplateAssignment -Objekt hat das Flag **DATA_EXTENDIBLE** hinzugefügt.
   </tbody>
 </table>
 
-### Datenblatt (TSHET)
+### Arbeitszeittabelle (TABELLE)
 
-Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die tatsächlichen Arbeitsstunden für Aufgaben, Projekte und Hochtypen eingeben können.
+Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit der Benutzende tatsächliche Arbeitsstunden für Aufgaben, Projekte und allgemeine Stundentypen eingeben können.
 
 <table>
   <tbody>
@@ -516,11 +517,9 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
       <td>
         <ul>
           <li>
-            <p><b>objCode</b></p><p>Entfernt.</p>
+            <p><b>objCode</b></p><p>entfernt.</p>
           </li>
         </ul>
       </td>
   </tbody>
 </table>
-
-

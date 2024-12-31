@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 13
-description: Adobe Workfront hat die API-Version 13 am 22. April 2021 veröffentlicht. API Version 13 enthält die folgenden Änderungen gegenüber Version 12.
+title: Neue Funktionen in der API-Version 13
+description: Adobe Workfront hat API Version 13 am 22. April 2021 veröffentlicht. Die API-Version 13 enthält die folgenden Änderungen gegenüber Version 12.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,21 +14,21 @@ ht-degree: 2%
 
 ---
 
-# Neue Funktionen in API Version 13
+# Neue Funktionen in der API-Version 13
 
-Adobe Workfront hat die API-Version 13 am 22. April 2021 veröffentlicht. API Version 13 enthält die folgenden Änderungen gegenüber Version 12.
+Adobe Workfront hat API Version 13 am 22. April 2021 veröffentlicht. Die API-Version 13 enthält die folgenden Änderungen gegenüber Version 12.
 
-## Hinzugefügte Ressourcen
+## Ressourcen hinzugefügt
 
-Für API Version 13 wurden keine Ressourcen hinzugefügt.
+Für API-Version 13 wurden keine Ressourcen hinzugefügt.
 
 ## Entfernte Ressourcen
 
-Für API Version 13 wurden keine Ressourcen entfernt.
+Für API-Version 13 wurden keine Ressourcen entfernt.
 
 ## Geänderte Ressourcen
 
-Die folgenden Ressourcen wurden für API Version 13 geändert.
+Die folgenden Ressourcen wurden für die API-Version 13 geändert.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -37,12 +37,12 @@ Die folgenden Ressourcen wurden für API Version 13 geändert.
   <tr> 
    <td> 
     <ul> 
-     <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref">Zugriffsebene</a> </p> </li> 
      <li> <p><a href="#breadcrumb" class="MCXref xref">BreadCrumb</a> </p> </li> 
      <li> <p><a href="#burndownevent" class="MCXref xref">BurndownEvent</a> </p> </li> 
-     <li> <p><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref">Kundenpräferenzen</a> </p> </li> 
      <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
-     <li> <p><a href="#group" class="MCXref xref">Gruppe </a> </p> </li> 
+     <li> <p><a href="#group" class="MCXref xref"></a> </p> </li> 
      <li> <p><a href="#journalentry" class="MCXref xref">JournalEntry</a> </p> </li> 
      <li> <p><a href="#layouttemplate" class="MCXref xref">LayoutTemplate</a> </p> </li> 
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
@@ -51,25 +51,25 @@ Die folgenden Ressourcen wurden für API Version 13 geändert.
    <td> 
     <ul> 
      <li> <p><a href="#project" class="MCXref xref">Projekt</a> </p> </li> 
-     <li> <p><a href="#proofapproval" class="MCXref xref">ProofApproval</a> </p> </li> 
+     <li> <p><a href="#proofapproval" class="MCXref xref">TestversandValidierung</a> </p> </li> 
      <li> <p><a href="#queuedef" class="MCXref xref">QueueDef</a> </p> </li> 
      <li> <p><a href="#task" class="MCXref xref">Aufgabe</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Zeitblatt</a> </p> </li> 
-     <li> <p><a href="#timesheetprofile" class="MCXref xref">TimesheetProfile</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Arbeitszeittabelle</a> </p> </li> 
+     <li> <p><a href="#timesheetprofile" class="MCXref xref">Arbeitszeittabellen-Profil</a> </p> </li> 
      <li> <p><a href="#uitemplate" class="MCXref xref">UITemplate</a> </p> </li> 
      <li> <p><a href="#userdelegation" class="MCXref xref">UserDelegation</a> </p> </li> 
-     <li> <p><a href="#work" class="MCXref xref">Arbeit </a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref"></a> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### AccessLevel {#accesslevel}
+### Zugriffsebene {#accesslevel}
 
-Ein AccessLevel -Objekt ist mit Benutzern verknüpft und beschreibt den Satz von AccessLevelPermissions, der bestimmt, auf welchen Benutzer zugreifen können.
+Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
-Weitere Informationen zu Zugriffsebenen finden Sie unter [Funktionsweise der Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Weitere Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -79,17 +79,17 @@ Weitere Informationen zu Zugriffsebenen finden Sie unter [Funktionsweise der Zug
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>Beschreibung</b> </p> <p>Der Validator MAX_LENGTH wurde hinzugefügt, der angibt, dass die Länge der Beschreibung nicht mehr als 4000 Zeichen beträgt.</p> </li> 
+     <li> <p><b>Beschreibung</b> </p> <p>Der Validator MAX_LENGTH wurde hinzugefügt, der angibt, dass die Beschreibung nicht länger als 4.000 Zeichen ist.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### BreadCrumb {#breadcrumb}
+### Brotkrume {#breadcrumb}
 
-Ein BreadCrumb-Objekt stellt ein Element in der übergeordneten/untergeordneten Hierarchie eines Workfront-Arbeitselements dar. Breadcrumbs zeigen an, wie ein Arbeitselement in die größere Struktur von Portfolios, Projekten, Projekten und Aufgaben passt.
+Ein BreadCrumb-Objekt stellt ein Element in der übergeordneten/untergeordneten Hierarchie eines Workfront-Arbeitselements dar. Breadcrumbs geben an, wie ein Arbeitselement in die größere Struktur von Portfolios, Projekten, Projekten und Aufgaben passt.
 
-Weitere Informationen zu Breadcrumbs finden Sie unter [Breadcrumbs-Übersicht im neuen Adobe Workfront-Erlebnis](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Weitere Informationen zu Breadcrumbs finden Sie unter [Breadcrumbs - Übersicht in der neuen Adobe Workfront-Version](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -107,7 +107,7 @@ Weitere Informationen zu Breadcrumbs finden Sie unter [Breadcrumbs-Übersicht im
 
 ### BurndownEvent {#burndownevent}
 
-Ein BurndownEvent -Objekt stellt ein Objekt dar, das das Bundle einer Iteration ändert.
+Ein BurndownEvent -Objekt, das ein Objekt darstellt, das den Bunddown einer Iteration ändert.
 
 Weitere Informationen zum Burndown finden Sie unter [Burndown](../../agile/use-scrum-in-an-agile-team/burndown/burndown.md).
 
@@ -126,9 +126,9 @@ Weitere Informationen zum Burndown finden Sie unter [Burndown](../../agile/use-s
  </tbody> 
 </table>
 
-### CustomerPreferences {#customerpreferences}
+### Kundenpräferenzen {#customerpreferences}
 
-Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Instanz von Workfront festgelegt hat.
+Ein CustomerPreferences-Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Workfront-Instanz festgelegt hat.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -138,24 +138,24 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Mögliche Werte wurden hinzugefügt:</p> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Hinzugefügte mögliche Werte:</p> 
       <ul> 
        <li style="font-weight: normal;">password:aemAPIKey (config.general.aem.apikey)</li> 
-       <li style="font-weight: normal;"> password:aemAADomain (config.general.aem.aadomain) </li> 
+       <li style="font-weight: normal;"> Kennwort: aemAADomain (config.general.aem.adomain) </li> 
        <li style="font-weight: normal;">password:aemIntegrationEnabled (config.general.aem.enabled)</li> 
        <li style="font-weight: normal;">password:aemHost (config.general.aem.host)</li> 
-       <li style="font-weight: normal;">timesheet:default.timesheet.limit.timesheet.edit.owner.admins (config.timesheet.restricted.timesheet.edit.owner.admins)</li> 
+       <li style="font-weight: normal;">Arbeitszeittabelle:default.timesheet.restriction.timesheet.edit.owners.admins (config.timesheet.restriction.timesheet.edit.owners.admins)</li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aktionen</td> 
-   <td> <p>Die folgenden Aktionen wurden der Ressource CustomerPreferences hinzugefügt.</p> 
+   <td> <p>Die folgenden Aktionen wurden der Ressource „Kundeneinstellungen“ hinzugefügt.</p> 
     <ul> 
      <li> <p><b>getTimesheetPreferences</b> </p> </li> 
      <li> <p><b>setTimesheetPreferences</b> </p> <p>Nimmt das Argument:</p> 
       <ul> 
-       <li> <p>Voreinstellungen (map)</p> </li> 
+       <li> <p>Voreinstellungen (Karte)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -164,9 +164,9 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
 
 ### DocumentVersion {#documentversion}
 
-Ein DocumentVersion -Objekt stellt eine bestimmte Version einer Datei dar (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
+Ein DocumentVersion-Objekt stellt eine bestimmte Version einer Datei dar (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
 
-Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md).
+Weitere Informationen zu Dokumentversionen finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -176,13 +176,13 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>externalIntegrationType</b> </p> <p>Möglicher Wert hinzugefügt:</p> 
+     <li> <p><b>externalIntegrationType</b> </p> <p>Zusätzlicher möglicher Wert:</p> 
       <ul> 
        <li> <p>AEM (Adobe Experience Manager)</p> </li> 
       </ul> </li> 
     </ul> 
     <ul> 
-     <li> <p><b>proofID</b> </p> <p>Flag NOT_FILTERABLE hinzugefügt</p> </li> 
+     <li> <p><b>proofID</b> </p> <p>Das Flag NOT_FILTERABLE wurde hinzugefügt</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -190,7 +190,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
 
 ### Gruppe  {#group}
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
+Ein Gruppenobjekt steht für eine Gruppe von Benutzern und Teams. Gruppen repräsentieren oft die Abteilungsstruktur.
 
 Weitere Informationen zu Gruppen finden Sie unter [Gruppen im Vergleich zu Teams in Adobe Workfront](../../people-teams-and-groups/work-with-groups-and-teams/understanding-differences-and-similarities-between-groups-and-teams.md).
 
@@ -202,17 +202,17 @@ Weitere Informationen zu Gruppen finden Sie unter [Gruppen im Vergleich zu Teams
    <td> <p>Aktionen</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>getParents</b> </p> <p>Diese Aktion gibt ein Array der übergeordneten Gruppen der Gruppe zurück (Gruppen, zu denen die angegebene Gruppe gehört).</p> </li> 
+     <li> <p><b>getParents</b> </p> <p>Diese Aktion gibt ein Array der übergeordneten Gruppen der Gruppe zurück (Gruppen, von denen die angegebene Gruppe eine Untergruppe ist).</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### JournalEntry {#journalentry}
+### Tagebucheintrag {#journalentry}
 
-Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung dieser Felder Informationen über bestimmte Objektfelder protokolliert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird bei jeder Änderung dieses Felds ein entsprechender Journaleintrag erstellt.
+Das JournalEntry-Objekt kann so eingerichtet werden, dass Informationen zu bestimmten Objektfeldern jedes Mal protokolliert werden, wenn diese Felder geändert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird jedes Mal, wenn dieses Feld geändert wird, ein entsprechender Journaleintrag erstellt.
 
-Die Ressource JournalEntry hat das Flag REPORTABLE hinzugefügt.
+Die JournalEntry-Ressource hat das Flag REPORTABLE hinzugefügt.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -237,11 +237,11 @@ Die Ressource JournalEntry hat das Flag REPORTABLE hinzugefügt.
  </tbody> 
 </table>
 
-### LayoutTemplate {#layouttemplate}
+### Layout-Vorlage {#layouttemplate}
 
-Adobe Workfront-Administratoren oder -Gruppenadministratoren können Vorlagen erstellen, um die Layoutelemente in Adobe Workfront anzupassen. Das LayoutTemplate-Objekt ist spezifisch für Adobe Workfront Classic.
+Adobe Workfront-Administratoren oder Gruppenadministratoren können Vorlagen erstellen, um die Layout-Elemente in Adobe Workfront anzupassen. Das LayoutTemplate-Objekt ist spezifisch für Adobe Workfront Classic.
 
-Informationen zu dem Objekt, das Layoutvorlagen im neuen Adobe Workfront-Erlebnis darstellt, finden Sie unter [UITemplate](#uitemplate)
+Das -Objekt, das Layout-Vorlagen in der neuen Adobe Workfront-Version darstellt, finden Sie unter [UITemplate](#uitemplate)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -251,7 +251,7 @@ Informationen zu dem Objekt, das Layoutvorlagen im neuen Adobe Workfront-Erlebni
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>Beschreibung</b> </p> <p>Der Validator MAX_LENGTH wurde hinzugefügt, der angibt, dass die Länge der Beschreibung nicht mehr als 4000 Zeichen beträgt.</p> </li> 
+     <li> <p><b>Beschreibung</b> </p> <p>Der Validator MAX_LENGTH wurde hinzugefügt, der angibt, dass die Beschreibung nicht länger als 4.000 Zeichen ist.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -259,7 +259,7 @@ Informationen zu dem Objekt, das Layoutvorlagen im neuen Adobe Workfront-Erlebni
 
 ### LinkedFolder {#linkedfolder}
 
-Ein LinkedFolder-Objekt stellt einen Ordner dar, der von einem externen Dokumentenanbieter wie Google Drive oder Dropbox verknüpft ist.
+Ein LinkedFolder-Objekt stellt einen Ordner dar, der über einen externen Dokumentanbieter verknüpft ist, z. B. Google Drive oder Dropbox.
 
 Weitere Informationen zu verknüpften Ordnern finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -271,7 +271,7 @@ Weitere Informationen zu verknüpften Ordnern finden Sie unter [Verknüpfen von 
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>externalIntegrationType</b> </p> <p>Möglicher Wert hinzugefügt:</p> 
+     <li> <p><b>externalIntegrationType</b> </p> <p>Zusätzlicher möglicher Wert:</p> 
       <ul> 
        <li> <p>AEM (Adobe Experience Manager)</p> </li> 
       </ul> </li> 
@@ -282,7 +282,7 @@ Weitere Informationen zu verknüpften Ordnern finden Sie unter [Verknüpfen von 
 
 ### OpTask {#optask}
 
-Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise anzeigt, dass ein Problem vorliegt, das die Fertigstellung einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungen bei Bestellungen, Anforderungen und Fehlern sind ebenfalls Probleme.
+Ein OpTask-Objekt wird im Allgemeinen als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise darauf hinweist, dass ein Problem vorliegt, das den Abschluss einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungsanforderungen, -anfragen und -fehler sind ebenfalls Probleme.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -300,7 +300,7 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
 
 ### Projekt {#project}
 
-Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, wie Workfront Menschen bei der Arbeit unterstützt. Ein Projektobjekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
+Projekte sind Arbeitselemente innerhalb von Workfront und ein wichtiger Baustein in der Art und Weise, wie Workfront Menschen bei der Arbeit unterstützt. Ein Project-Objekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -310,7 +310,7 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><b>convertOpTaskOriginatorID</b> </p> <!--
+     <li> <p><b>convertedOpTaskOriginatorID</b> </p> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Removed flag NOT&nbsp;FILTERABLE</p>
       --> </li> 
     </ul> </td> 
@@ -318,9 +318,9 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
  </tbody> 
 </table>
 
-### TestversandApproval {#proofapproval}
+### Testversandvalidierung {#proofapproval}
 
-Ein Objekt vom Typ Testversand-Validierung stellt eine Validierung dar, die direkt mit einem Testversand verbunden ist.
+Ein ProofApproval-Objekt stellt eine Genehmigung dar, die direkt mit einem Korrekturabzug verbunden ist.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -328,9 +328,9 @@ Ein Objekt vom Typ Testversand-Validierung stellt eine Validierung dar, die dire
  <tbody> 
   <tr> 
    <td> <p>Direkte Felder</p> </td> 
-   <td> <p>Die folgenden Felder wurden zur Ressource Testversand-Genehmigung hinzugefügt.</p> 
+   <td> <p>Die folgenden Felder wurden der Ressource Testversandvalidierung hinzugefügt.</p> 
     <ul> 
-     <li> <p><b>GenehmigerStage</b> </p> </li> 
+     <li> <p><b>ApproverStage</b> </p> </li> 
      <li> <p><b>DecisionDate</b> </p> </li> 
      <li> <p><b>workflowTemplate</b> </p> </li> 
     </ul> </td> 
@@ -340,9 +340,9 @@ Ein Objekt vom Typ Testversand-Validierung stellt eine Validierung dar, die dire
 
 ### QueueDef {#queuedef}
 
-Ein QueueDef-Objekt stellt eine Warteschlange dar. Hierbei handelt es sich um ein Projekt, das in den Help Desk-Bereich veröffentlicht wurde, damit Benutzer Probleme an dieses Objekt senden können.
+Ein QueueDef -Objekt stellt eine Warteschlange dar. Dabei handelt es sich um ein Projekt, das im Helpdesk-Bereich veröffentlicht wurde, um Benutzenden die Übermittlung von Problemen zu ermöglichen.
 
-Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -352,9 +352,9 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><b>documentPosition</b> </p> <p>Hinzugefügt. Mögliche Werte sind:</p> 
+     <li> <p><b>documentPosition</b> </p> <p>hinzugefügt. Mögliche Werte sind:</p> 
       <ul> 
-       <li> <p>0 (Nach benutzerdefinierten Formularen)</p> </li> 
+       <li> <p>0 (nach benutzerdefinierten Formularen)</p> </li> 
        <li> <p>1 (Vor benutzerdefinierten Formularen)</p> </li> 
       </ul> </li> 
     </ul> </td> 
@@ -364,7 +364,7 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
 
 ### Aufgabe {#task}
 
-Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (zum Abschließen eines Projekts) ausgeführt werden muss.
+Ein Aufgabenobjekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (Fertigstellen eines Projekts) ausgeführt werden muss.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -392,7 +392,7 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Dieses Feld wurde hinzugefügt. Es ist ein boolescher Parameter, der den Wert true hat, wenn ein Objekt aktiv ist, und false , wenn dies nicht der Fall ist. Objekte, die auf "Aktiv"eingestellt sind, werden in Dropdown-Menüs und Typvorlagenfeldern angezeigt und können an andere Objekte angehängt werden. Objekte, die nicht auf "Aktiv"gesetzt sind, sind nicht in Dropdown-Menüs und Typvorlagenfeldern sichtbar, die an andere Objekte angehängt werden sollen.  </p> </li> 
+     <li style="font-weight: bold;"> <p>isActive</p> <p style="font-weight: normal;">Dieses Feld wurde hinzugefügt und ist ein boolescher Parameter, der den Wert „true“ hat, wenn ein Objekt aktiv ist, und „false“, wenn dies nicht der Fall ist. Objekte, die als Aktiv festgelegt sind, werden in Dropdown-Menüs und Feldern mit automatischer Textvervollständigung angezeigt und können an andere Objekte angehängt werden. Objekte, für die nicht „Aktiv“ festgelegt ist, werden nicht in Dropdown-Menüs und Feldern mit automatischer Textvervollständigung angezeigt, um sie an andere Objekte anzuhängen.  </p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -407,7 +407,7 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
 
 ### Arbeitszeittabelle {#timesheet}
 
-Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die tatsächlichen Arbeitsstunden für Aufgaben, Projekte und Hochtypen eingeben können.
+Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit der Benutzende tatsächliche Arbeitsstunden für Aufgaben, Projekte und allgemeine Stundentypen eingeben können.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -424,15 +424,15 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
    <td>Kernfelder</td> 
    <td> 
     <ul> 
-     <li> <p><b>objCode</b> </p> <p>Entfernt</p> </li> 
+     <li> <p><b>objCode</b> </p> <p>entfernt</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### TimesheetProfile {#timesheetprofile}
+### Arbeitszeittabellen-Profil {#timesheetprofile}
 
-Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die tatsächlichen Arbeitsstunden für Aufgaben, Projekte und Hochtypen eingeben können.
+Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit der Benutzende tatsächliche Arbeitsstunden für Aufgaben, Projekte und allgemeine Stundentypen eingeben können.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -457,9 +457,9 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
 
 ### UITemplate {#uitemplate}
 
-Adobe Workfront-Administratoren oder -Gruppenadministratoren können Vorlagen erstellen, um die Layoutelemente in Adobe Workfront anzupassen. Das UITemplate-Objekt ist spezifisch für das neue Adobe Workfront-Erlebnis.
+Adobe Workfront-Administratoren oder Gruppenadministratoren können Vorlagen erstellen, um die Layout-Elemente in Adobe Workfront anzupassen. Das UITemplate-Objekt ist spezifisch für das neue Adobe Workfront-Erlebnis.
 
-Informationen zu dem Objekt, das Layoutvorlagen in Adobe Workfront Classic darstellt, finden Sie unter [LayoutTemplate](#layouttemplate).
+Das -Objekt, das Layout-Vorlagen in Adobe Workfront Classic darstellt, finden Sie unter [LayoutTemplate](#layouttemplate).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -467,27 +467,27 @@ Informationen zu dem Objekt, das Layoutvorlagen in Adobe Workfront Classic darst
  <tbody> 
   <tr> 
    <td role="rowheader">Aktionen</td> 
-   <td> <p>Die folgenden Aktionen wurden der Ressource UITemplate hinzugefügt.</p> 
+   <td> <p>Die folgenden Aktionen wurden der UITemplate-Ressource hinzugefügt.</p> 
     <ul> 
      <li> <p><b>migrateCustomersAllLayoutTemplates</b> </p> <p>Nimmt das Argument:</p> 
       <ul> 
-       <li> <p>overrideIfExists (boolean)</p> </li> 
+       <li> <p>overrideIfExists (boolesch)</p> </li> 
       </ul> </li> 
-     <li> <p><b>migrateLayoutTemplates</b> </p> <p>Übernimmt die Argumente:</p> 
+     <li> <p><b>migrateLayoutTemplates</b> </p> <p>Nimmt die Argumente:</p> 
       <ul> 
        <li> <p>layoutTemplateIDs (string[])</p> </li> 
-       <li> <p>overrideIfExists (boolean)</p> </li> 
+       <li> <p>overrideIfExists (boolesch)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### UserDelegation {#userdelegation}
+### Benutzerdelegierung {#userdelegation}
 
-Ein UserDelegation -Objekt stellt den Vorgang dar, bei dem die Arbeit von einem Benutzer an einen anderen für einen bestimmten Zeitraum delegiert wird.
+Ein UserDelegation-Objekt stellt den Vorgang dar, bei dem Arbeit von einem Benutzer an einen anderen für einen bestimmten Zeitraum delegiert wird.
 
-Das UserDelegations-Objekt hat das Flag REPORTABLE hinzugefügt.
+Das UserDelegation-Objekt hat das Flag REPORTABLE hinzugefügt.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -514,7 +514,7 @@ Das UserDelegations-Objekt hat das Flag REPORTABLE hinzugefügt.
 
 ### Arbeit  {#work}
 
-Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask übernommen wird und gemeinsamen Code für beide verwendet.
+Ein Arbeitsobjekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask erbt wird und gemeinsamen Code zwischen den beiden verwendet.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 

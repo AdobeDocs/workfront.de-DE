@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 9
-description: Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Um eine Liste der Aktualisierungen anzuzeigen, die an den Ressourcen von Version 9 vorgenommen wurden, besuchen Sie bitte Aktualisierungen von API Version 9.
+title: Neue Funktionen in der API-Version 9
+description: Dies ist eine Liste von Ressourcen, die neu in der API-Version 9 sind. Um eine Liste der Aktualisierungen anzuzeigen, die an den Ressourcen der Version 9 vorgenommen wurden, besuchen Sie die Seite Aktualisierungen der API-Version 9 .
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,17 +10,17 @@ exl-id: 29d922f4-f4c6-45e5-b9fa-43e2068ec66d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '179'
-ht-degree: 19%
+ht-degree: 23%
 
 ---
 
-# Neue Funktionen in API Version 9
+# Neue Funktionen in der API-Version 9
 
 ## Neue Ressourcen
 
-Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Um eine Liste der Aktualisierungen anzuzeigen, die an den Ressourcen von Version 9 vorgenommen wurden, besuchen Sie bitte [Aktualisierungen der API-Version 9](../../wf-api/api/new-api-version-9-updates.md)
+Dies ist eine Liste von Ressourcen, die neu in der API-Version 9 sind. Eine Liste der Aktualisierungen, die an den Ressourcen der Version 9 vorgenommen wurden, finden Sie unter [Aktualisierungen der API-Version 9](../../wf-api/api/new-api-version-9-updates.md)
 
-### AccessLevel
+### Zugriffsebene
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -43,7 +43,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Um eine Lis
 
 {style="table-layout:auto"}
 
-### AccessLevelPermissions
+### ZugriffsebeneBerechtigungen
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -64,7 +64,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Um eine Lis
 
 {style="table-layout:auto"}
 
-### BudgetedHour
+### Budgetierte Stunde
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -93,7 +93,7 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Um eine Lis
 
 {style="table-layout:auto"}
 
-### CalendarSection
+### Kalenderabschnitt
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -140,4 +140,4 @@ Dies ist eine Liste der Ressourcen, die neu für API Version 9 sind. Um eine Lis
 
  
 
-Diese Liste wurde in zwei Hälften aufgeteilt. Informationen zum Anzeigen der zweiten Hälfte finden Sie unter [Neue Funktionen in API Version 9 (Fortsetzung)](../../wf-api/api/new-api-version-9-continue.md). Um die Liste der Aktualisierungen der Version 9 anzuzeigen, besuchen Sie [Aktualisierungen der API-Version 9](../../wf-api/api/new-api-version-9-updates.md)
+Diese Liste wurde in zwei Hälften geteilt. Um die zweite Hälfte anzuzeigen, lesen Sie [Neue Funktionen in API-Version 9 (Fortsetzung)](../../wf-api/api/new-api-version-9-continue.md). Um die Liste der Aktualisierungen der Version 9 anzuzeigen, besuchen Sie bitte [Aktualisierungen der API Version 9](../../wf-api/api/new-api-version-9-updates.md)

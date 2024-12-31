@@ -2,7 +2,7 @@
 product-area: documents
 navigation-topic: approvals
 title: Beta-Programm - Workfront + Frame.io
-description: Wir freuen uns, die Einführung unseres Beta-Programms für Workfront + Frame.io bekannt geben zu können. Hier finden Sie Informationen zur neuesten Beta-Version sowie eine kurze Videoeinführung zu den ersten Schritten.
+description: Wir freuen uns, den Start unseres Beta-Programms für Workfront + Frame.io bekannt geben zu können. Hier finden Sie Informationen zur neuesten Beta-Version sowie eine kurze Videoeinführung, die Ihnen den Einstieg erleichtert.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -18,18 +18,18 @@ ht-degree: 1%
 
 # Beta-Programm - Workfront + Frame.io
 
-Willkommen beim Betaprogramm Workfront + Frame.io-Integration! Im Rahmen dieser Beta-Version erhalten Sie frühzeitigen Zugriff auf unsere native Workfront + Frame.io-Integrationserfahrung und können Ihr Feedback austauschen, das letztendlich das endgültige Erlebnis prägt, das wir für unseren breiteren Kundenstamm veröffentlichen. Mit dieser Integration möchten wir einen reibungslosen End-to-End-Workflow zwischen Workfront und Frame.io schaffen, der auf die Bereitstellung einer idealen, einheitlichen Überprüfungs- und Genehmigungslösung ausgerichtet ist.
+Willkommen beim Beta-Programm für die Integration von Workfront + Frame.io! Im Rahmen dieser Beta-Version erhalten Sie frühzeitigen Zugriff auf unsere native Workfront + Frame.io-Integrationserfahrung und können Ihr Feedback geben, das letztendlich die endgültige Erfahrung prägt, die wir für unseren breiteren Kundenstamm veröffentlichen. Mit dieser Integration möchten wir einen reibungslosen End-to-End-Workflow zwischen Workfront und Frame.io erstellen, wobei der Schwerpunkt auf der Bereitstellung einer idealen, einheitlichen Prüf- und Genehmigungslösung liegt.
 
-Hier finden Sie Informationen zur neuesten Beta-Version sowie eine kurze Videoeinführung zu den ersten Schritten.
+Hier finden Sie Informationen zur neuesten Beta-Version sowie eine kurze Videoeinführung, die Ihnen den Einstieg erleichtert.
 
 >[!IMPORTANT]
 >
->Diese Betaversion ist jetzt geschlossen und wir akzeptieren keine neuen Teilnehmer mehr.
+>Diese Beta-Version ist jetzt geschlossen und wir akzeptieren keine neuen Teilnehmer mehr.
 
 
-## Mai 2024: Beta-Versionsupdates in Workfront
+## Mai 2024: Beta-Versions-Updates in Workfront
 
-Diese Version vom Mai umfasst die folgenden Funktionen:  
+Diese Mai-Version umfasst die folgenden Funktionen:  
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429129/)
 
@@ -37,73 +37,73 @@ Diese Version vom Mai umfasst die folgenden Funktionen:  
 
 Basierend auf Ihrem Feedback haben wir das Erlebnis verbessert und die Schritte reduziert, die zum Trigger der Erstellung eines verbundenen Frame.io erforderlich sind.  Wenn Sie jetzt ein Projekt in Workfront erstellen, wird automatisch ein entsprechendes Projekt in Frame.io erstellt. 
 
-### Verbesserte Zuweisung von kreativen Elementen zu Ihrem Frame.io-Projekt
+### Verbesserte Zuweisung von Kreativen zu Ihrem Frame.io-Projekt
 
-Sie können jetzt einfach verwalten, wer Zugriff auf das verbundene Frame.io-Projekt haben sollte. Ihre kreativen Benutzer können als &quot;Frame.io aktiviert&quot;gekennzeichnet werden, wodurch ihnen bei der Zuweisung zum Workfront-Projekt automatisch Zugriff auf das verbundene Frame.io-Projekt gewährt wird.   
+Sie können jetzt einfach verwalten, wer Zugriff auf das verbundene Frame.io-Projekt haben soll. Ihre Kreativprofis können als „Frame.io aktiviert“ gekennzeichnet werden, wodurch ihnen automatisch Zugriff auf das verbundene Frame.io-Projekt gewährt wird, wenn sie dem Workfront-Projekt zugewiesen werden.   
 
-### Der Projektname von Frame.io wird aktualisiert, wenn der Projektname von Workfront geändert wird.
+### Der Frame.io-Projektname wird aktualisiert, wenn sich der Workfront-Projektname ändert
 
-Im Rahmen unserer Bemühungen, die Projektsynchronisierung zwischen Workfront und Frame.io zu verbessern, spiegeln sich nun auch Aktualisierungen des Workfront-Projektnamens in Frame.io wider. 
+Im Rahmen unserer Bemühungen, die Projektsynchronisierung zwischen Workfront und Frame.io zu verbessern, werden Aktualisierungen des Workfront-Projektnamens jetzt auch in Frame.io übernommen. 
 
-### Genehmigungsstatus in der Dokumentliste
+### Genehmigungsstatus in Dokumentliste
 
-Verfolgen Sie einfach den Genehmigungsstatus jeder Datei direkt aus der Dokumentliste. Mit einem einfachen Klick auf den Gesamtstatus erhalten Sie eine detaillierte Aufschlüsselung aller am Validierungsprozess beteiligten Teilnehmer sowie ihrer jeweiligen Status. Optimieren Sie außerdem Ihren Workflow, indem Sie ausstehende Genehmiger mit nur einem Klick daran erinnern, um zeitnahe Antworten zu erhalten und eine effiziente Dokumentenverwaltung zu gewährleisten. 
+Verfolgen Sie den Genehmigungsstatus jeder Datei einfach direkt in der Dokumentliste. Mit einem einfachen Klick auf den Gesamtstatus können Sie auf eine detaillierte Aufschlüsselung aller am Genehmigungsprozess beteiligten Teilnehmer sowie auf ihre individuellen Status zugreifen. Optimieren Sie außerdem Ihren Workflow, indem Sie herausragende genehmigende Personen mit nur einem Klick erinnern, sodass zeitnahe Antworten und effizientes Dokumentenmanagement gewährleistet sind. 
 
 
-## März 2024: Beta-Versionsupdates in Frame.io
+## März 2024: Beta-Versions-Updates in Frame.io
 
-+++ Erweitern, um die im März 2024 veröffentlichte Funktion anzuzeigen
++++ Erweitern Sie , um die im März 2024 veröffentlichte Funktion anzuzeigen
 
 ### Hinzufügen mehrerer Assets aus Frame.io zu Workfront
 
-Sie können jetzt bis zu 10 Assets von Frame.io zu Workfront gleichzeitig hinzufügen. Sie können Workfront-Projektdokumenten oder einer bestimmten Projektaufgabe hinzufügen.
+Sie können jetzt bis zu 10 Assets gleichzeitig von Frame.io zu Workfront hinzufügen. Sie können zu Workfront-Projektdokumenten oder zu einer bestimmten Projektaufgabe hinzufügen.
 
 ### Verbessertes Erlebnis beim Hinzufügen eines Frame.io-Assets zu Workfront
 
-Die Menüelemente zum Hinzufügen eines Assets zu Workfront wurden aktualisiert, um die Anzeige der Ihnen zugewiesenen Aufgaben, der Aufgabenhierarchie und des Aufgabenstatus zu vereinfachen.
+Die Menüelemente zum Hinzufügen eines Assets zu Workfront wurden aktualisiert, damit Sie die Ihnen zugewiesenen Aufgaben, die Aufgabenhierarchie und den Aufgabenstatus leichter sehen können.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428213/)
 
-## März 2024: Beta-Versionsupdates in Workfront
+## März 2024: Beta-Versions-Updates in Workfront
 
 In dieser Beta-Version haben wir Folgendes:
 
-### Hinzufügen eines Termins zu Dokumentüberprüfungen und -genehmigungen
+### Fristablauf zu einem Dokument hinzufügen Überprüfungen und Genehmigungen
 
-Sie können jetzt einen Termin für Benutzer oder Teams festlegen, die zum Überprüfen oder Genehmigen eines Dokuments zugewiesen sind. Überprüfer und Genehmiger erhalten 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist E-Mail-Benachrichtigungen. Der Termin wird auch im Widget Genehmigungen im neuen Bereich Startseite angezeigt.
+Sie können jetzt eine Frist für Benutzer oder Teams festlegen, die zur Überprüfung oder Genehmigung eines Dokuments zugewiesen sind. Validierungsverantwortliche und genehmigende Personen erhalten E-Mail-Benachrichtigungen 72 Stunden und anschließend 24 Stunden vor Ablauf der festgelegten Frist. Die Frist wird auch im Widget Genehmigungen im Bereich Neue Startseite angezeigt.
 
-Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfung oder Genehmigungsanforderung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
+Weitere Informationen finden Sie unter [Erstellen einer Dokumentüberprüfungs- oder Genehmigungsanfrage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-a-document-approval.md).
 
 ### Erstellen und Verwenden von Genehmigungsvorlagen
 
-Jetzt können Sie im Bereich &quot;Einrichtung&quot;Genehmigungsvorlagen erstellen, um den Prüfungs- und Genehmigungsprozess zu optimieren. Mit Genehmigungsvorlagen können Sie den Prüfungs- und Genehmigungsprozess wiederholbarer gestalten durch
+Sie können jetzt im Bereich Setup Validierungsvorlagen erstellen, um den Prüfungs- und Validierungsprozess zu optimieren. Mit Validierungsvorlagen können Sie den Überprüfungs- und Validierungsprozess wie folgt wiederholbarer gestalten
 
-* Hinzufügen von Validierungsverantwortlichen und Genehmigern
+* Validierungsverantwortliche und genehmigende Personen hinzufügen
 * Festlegen eines Zeitrahmens
 
-Beim Erstellen eines Validierungsprozesses für ein Dokument können Sie im Bereich Dokumente Validierungsvorlagen anwenden.
+Sie können beim Erstellen eines Genehmigungsprozesses für ein Dokument im Bereich Dokumente Genehmigungsvorlagen anwenden.
 
-Weitere Informationen finden Sie unter [Erstellen einer Genehmigungsvorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
+Weitere Informationen finden Sie unter [Erstellen einer Validierungsvorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md).
 
-### Anzeigen von Informationen zu allen Ihren Genehmigungen an einem Ort
+### Informationen zu allen Genehmigungen an zentraler Stelle anzeigen
 
-Um Ihnen bei der Verwaltung und Analyse Ihrer Genehmigungsanfragen auf einen Blick zu helfen, haben wir die folgenden wichtigen Leistungsindikatoren zum Widget Alle Genehmigungen hinzugefügt:
+Damit Sie Ihre Genehmigungsanfragen auf einen Blick verwalten und analysieren können, haben wir die folgenden wichtigen Leistungsindikatoren zum Widget Alle Genehmigungen hinzugefügt:
 
 * Genehmigungen nach Entscheidung
 * Durchschnittliche Genehmigungszeit
 * Ausstehende Genehmigungen
 * Überfällige Genehmigungen
 
-Für eine detailliertere Ansicht können Sie einen Drilldown in die oben aufgeführten Kategorien durchführen. Das Widget Alle Genehmigungen ist in den Dashboards &quot;Neue Startseite&quot;und &quot;Arbeitsfläche&quot;verfügbar.
+Sie können einen Drilldown in die oben aufgeführten Kategorien durchführen, um eine detailliertere Ansicht zu erhalten. Das Widget Alle Genehmigungen ist in den Dashboards Neue Startseite und Arbeitsfläche verfügbar.
 
 
-### Sperren Sie Ihre Überprüfungen und Genehmigungen, sobald eine Gesamtentscheidung getroffen wurde.
+### Sperren von Überprüfungen und Genehmigungen, sobald eine Gesamtentscheidung getroffen wurde
 
-Um die Einhaltung der Vorschriften sicherzustellen und die Abwanderung in Ihren Content-Sign-off-Prozessen zu reduzieren, werden wir jetzt jede Genehmigung für eine Datei sperren, sobald eine Gesamtentscheidung getroffen wurde. Dies umfasst entweder &quot;Genehmigt&quot;, &quot;Genehmigt mit Änderungen&quot;oder &quot;Arbeiten erforderlich&quot;.
+Um die Einhaltung der Vorschriften sicherzustellen und die Abwanderung bei den Abnahmeprozessen für Inhalte zu reduzieren, sperren wir jetzt jede Genehmigung für eine Datei, sobald eine Gesamtentscheidung getroffen wurde. Dazu gehören „Genehmigt“, „Mit Änderungen genehmigt“ oder „Arbeit erforderlich“.
 
-Nach der Sperrung kann jede Person, die sie überprüft und/oder genehmigt, keine Kommentare, Antworten, Entscheidungen oder Zeichnungsmarkierungen mehr abgeben, um sicherzustellen, dass Ihr Überprüfungsprozess und die damit verbundenen Prüfungen unverändert bleiben.
+Sobald eine Person gesperrt ist, die prüft und/oder genehmigt, kann sie keine Kommentare, Antworten, Entscheidungen mehr abgeben oder Zeichnungsmarkierungen hinzufügen, um sicherzustellen, dass Ihr Überprüfungsprozess und die zugehörige Prüfung unverändert bleiben.
 
-Wenn eine neue Dokumentversion hochgeladen wird, kann die nächste Revisionsrunde gestartet werden, während vorherige Revisionen gesperrt bleiben.
+Wenn eine neue Dokumentversion hochgeladen wird, kann die nächste Revisionsrunde gestartet werden, während die vorherigen Revisionen gesperrt bleiben.
 
 >[!VIDEO](https://video.tv.adobe.com/v/3428179/)
 
@@ -111,21 +111,21 @@ Wenn eine neue Dokumentversion hochgeladen wird, kann die nächste Revisionsrund
 
 ## Funktionstests
 
-Mit dieser Integration möchten wir es Kreativen ermöglichen, in ihrem bevorzugten Tool (CC oder Frame.io) zu bleiben, um ihre Inhaltserstellung und Peer Reviews durchzuführen, während Projektmanager die Arbeit koordinieren und den formalen Review-Prozess innerhalb von Workfront initialisieren und überwachen können. Dies lässt sich erreichen, indem die besten beider Lösungen genutzt werden: die neuen Dokumentgenehmigungen von Workfront für die Verwaltung von Inhaltsgenehmigungen in Verbindung mit den Inhaltsüberprüfungsfunktionen von Frame.io. Insgesamt werden die neuen Dokumentgenehmigungen und Frame.io unser neues durchgängiges Inhalts-Review- und Genehmigungs-Erlebnis bilden. 
+Mit dieser Integration möchten wir es Kreativen ermöglichen, in ihrem bevorzugten Tool (CC oder Frame.io) zu bleiben, um ihre Inhaltserstellung und Peer Reviews durchzuführen. Gleichzeitig koordinieren die Projektmanager die Arbeit und initialisieren und überwachen den formalen Überprüfungsprozess innerhalb von Workfront. Dies erreichen Sie, indem Sie die Vorzüge beider Lösungen nutzen: die neuen Dokumentgenehmigungen von Workfront zur Verwaltung von Inhaltsgenehmigungen in Verbindung mit den von Frame.io bereitgestellten Funktionen zur Inhaltsüberprüfung. Zusammen bilden die neuen Dokumentgenehmigungen und Frame.io unsere neue End-to-End-Inhaltsüberprüfungs- und -Genehmigungsumgebung. 
 
-Damit Sie die neuen Funktionen des Betaprogramms einfach testen können, haben wir ein neues Frame.io-Testkonto erstellt und mit einer neuen Gruppe namens `Frame.io testing` in Ihrer bestehenden Workfront-Vorschau- oder Sandbox-Umgebung verbunden.
+Damit Sie die neuen Funktionen des Beta-Programms einfach testen können, haben wir ein neues Frame.io-Testkonto erstellt und es mit einer neuen Gruppe namens `Frame.io testing` in Ihrer bestehenden Workfront Preview- oder Sandbox-Umgebung verbunden.
 
 ### Detaillierte Testanweisungen
 
-Für Teilnehmer, die zusätzliche Funktionen testen möchten, haben wir ein stärker involviertes Testszenario erstellt. Eine Anleitung für dieses detaillierte Testszenario können Sie hier herunterladen: [WF + Frame.io - Anleitung zum detaillierten Testszenario](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
+Für Teilnehmer, die zusätzliche Funktionen testen möchten, haben wir ein stärker involviertes Testszenario erstellt. Eine Anleitung für dieses detaillierte Testszenario können Sie hier herunterladen: [WF + Frame.io Detaillierte Anleitung für Testszenarien](/help/quicksilver/review-and-approve-work/Documents/assets/WF-Frame-Detailed-Walk-Through-May-Release.pdf).
 
 
-## Demovideo
+## Demo-Video
 
 >[!VIDEO](https://video.tv.adobe.com/v/3429092/)
 
 ## Feedback senden
 
-Wir schätzen Ihren Beitrag und glauben, dass Ihre Perspektive entscheidend ist, um uns bei der Erstellung des bestmöglichen Produkts zu unterstützen.
+Wir schätzen Ihren Beitrag und glauben, dass Ihre Perspektive entscheidend ist, um uns dabei zu helfen, das bestmögliche Produkt zu erstellen.
 
-Da Sie spezifische Rückmeldungen darüber haben, was erforderlich ist, damit Ihr Unternehmen diese Lösung in der Produktion übernehmen kann, senden Sie sie bitte an [etienneb@adobe.com](mailto:etienneb@adobe.com).
+Da Sie spezifisches Feedback dazu haben, was erforderlich ist, damit Ihr Unternehmen diese Lösung in der Produktion einsetzen kann, senden Sie sie bitte an [etienneb@adobe.com](mailto:etienneb@adobe.com).

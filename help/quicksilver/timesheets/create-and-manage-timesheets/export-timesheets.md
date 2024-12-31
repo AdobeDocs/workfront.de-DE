@@ -1,8 +1,8 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Liste von Timesheets exportieren
-description: Als Personen-Manager oder Timesheet-Genehmiger müssen Sie möglicherweise eine Liste von Timesheets herunterladen, um schnell Informationen zu den Timesheets der Personen anzuzeigen, für die Sie verantwortlich sind. Exportieren Sie dazu eine Liste von Timesheets.
+title: Exportieren einer Liste von Arbeitszeittabellen
+description: Als Personen-Manager oder Arbeitszeittabellen-Genehmiger müssen Sie möglicherweise eine Liste von Arbeitszeittabellen herunterladen, um schnell Informationen zu den Arbeitszeittabellen der Personen anzuzeigen, für die Sie verantwortlich sind. Exportieren Sie dazu eine Liste von Arbeitszeittabellen.
 author: Alina
 feature: Timesheets
 exl-id: cb5b1c6c-7800-48f4-ae2c-c4007a161a6c
@@ -13,15 +13,15 @@ ht-degree: 2%
 
 ---
 
-# Liste von Timesheets exportieren
+# Exportieren einer Liste von Arbeitszeittabellen
 
 <!--Audited: 8/2024-->
 
-Als Personen-Manager oder Timesheet-Genehmiger müssen Sie möglicherweise eine Liste von Timesheets herunterladen, um schnell Informationen zu den Timesheets der Personen anzuzeigen, für die Sie verantwortlich sind. Exportieren Sie dazu eine Liste von Timesheets.
+Als Personen-Manager oder Arbeitszeittabellen-Genehmiger müssen Sie möglicherweise eine Liste von Arbeitszeittabellen herunterladen, um schnell Informationen zu den Arbeitszeittabellen der Personen anzuzeigen, für die Sie verantwortlich sind. Exportieren Sie dazu eine Liste von Arbeitszeittabellen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,26 +30,26 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Neu: Licht oder höher </p>
-   <p>Aktuell: Überprüfen oder höher </p>
+   <p>Aktuell: Überprüfung oder höher </p>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder höher </p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder erhöhen </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für das Timesheet</p> </td> 
+   <td> <p>Anzeigen oder Hochladen von Berechtigungen für die Arbeitszeittabelle</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -80,26 +80,26 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 *To find out what plan or license type you have, contact your Workfront administrator.-->
 
-## Liste von Timesheets exportieren
+## Exportieren einer Liste von Arbeitszeittabellen
 
 {{step1-to-timesheets}}
 
-Der Bereich **Timesheets** wird geöffnet.
+Der Bereich **Arbeitszeittabellen** wird geöffnet.
 
 
 ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Optional) Klicken Sie auf das Symbol **Suchen** ![](assets/search-icon.png), geben Sie einen Suchbegriff ein und suchen Sie nach einem bestimmten Zeitblatt. Sie können beispielsweise nach einem Zeitrahmen oder dem Namen des Inhabers suchen.
+1. (Optional) Klicken Sie auf das **Suchen**-Symbol ![](assets/search-icon.png) geben Sie einen Suchbegriff ein und suchen Sie nach einer bestimmten Arbeitszeittabelle. Sie können beispielsweise nach einem Arbeitszeittabellen-Zeitrahmen oder Besitzernamen suchen.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Timesheets zu aktualisieren:
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Arbeitszeittabellen zu aktualisieren:
 
-   * Wählen Sie oben rechts auf der Seite die Option **My Timesheet Approvals** aus, um nur die von Ihnen genehmigten Zeitpläne anzuzeigen
+   * Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** in der rechten oberen Ecke der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen
 
      Oder
 
-     Wählen Sie **Meine Timesheets** aus, um nur Ihre Timesheets anzuzeigen.
+     Wählen Sie **Meine Arbeitszeittabellen** aus, um nur Ihre Arbeitszeittabellen anzuzeigen.
 
-     Dadurch wird die Liste der Timesheets mit den Filtern My Timesheet Approvals oder My Timesheet aktualisiert.
+     Dadurch werden die Filter Meine Arbeitszeittabellen-Genehmigungen oder Meine Arbeitszeittabellen auf die Liste der Arbeitszeittabellen angewendet.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -107,15 +107,15 @@ Der Bereich **Timesheets** wird geöffnet.
 
    >[!NOTE]
    >
-   >Die Optionen Meine Timesheet-Genehmigungen und Meine Timesheets werden nicht oben in der Timesheet-Liste oder in der Filterliste angezeigt, wenn Ihr Workfront-Administrator oder ein Gruppenadministrator die Filter Meine Timesheet-Genehmigungen und Meine Timesheets entweder aus den Listen-Steuerelementen im Bereich Einrichtung oder aus Ihrer Layout-Vorlage entfernt hat. Weitere Informationen finden Sie in den folgenden Artikeln:
+   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellen-Liste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins die Filter Meine Arbeitszeittabellen und Meine Arbeitszeittabellen entweder aus den Listensteuerelementen im Setup-Bereich oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie in den folgenden Artikeln:
    >
    >   
    >   
-   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Optional) Klicken Sie auf die Symbole **Ansicht** ![](assets/view-icon.png) oder **Gruppierung** ![](assets/grouping.png) , um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
+1. (Optional) Klicken Sie auf **Ansicht** ![](assets/view-icon.png) oder **Gruppierung** ![](assets/grouping.png), um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
 
    Informationen zum Erstellen von Filtern, Ansichten oder Gruppierungen finden Sie in den folgenden Artikeln:
 
@@ -123,24 +123,24 @@ Der Bereich **Timesheets** wird geöffnet.
    * [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Erstellen von Gruppierungen in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Wählen Sie die zu exportierenden Timesheets aus und klicken Sie dann auf das Symbol **Exportieren** ![](assets/export-38x15.png) .
+1. Wählen Sie die zu exportierenden Arbeitszeittabellen aus und klicken Sie dann auf das Symbol **Exportieren** ![](assets/export-38x15.png).
 
    ![](assets/all-timesheets-list-with-export-button-nwe-350x262.png)
 
-1. Wählen Sie unter den folgenden Optionen den Dateityp aus, nach dem Sie die Liste der Timesheets exportieren möchten:
+1. Wählen Sie aus den folgenden Optionen den Dateityp aus, in den Sie die Liste der Arbeitszeittabellen exportieren möchten:
 
-   * PDF Ladscape
+   * PDF Landscape
    * PDF Hochformat
-   * PDF Sonstige Größen
+   * PDF andere Größen
    * Excel
    * Excel (xlsx)
    * Durch Tabulatoren getrennt
 
-   Eine Liste der Timesheets wird im ausgewählten Format auf Ihren Computer heruntergeladen und enthält die folgenden Informationen zum Timesheet:
+   Eine Liste der Arbeitszeittabellen wird im ausgewählten Format auf den Computer heruntergeladen und enthält die folgenden Arbeitszeittabellen-Informationen:
 
    * Datumsbereich
    * Name der Eigentümerin bzw. des Eigentümers
    * Gesamtstunden
-   * Überzeitbetrag
-   * Namen der Genehmiger
+   * Zeitaufwand
+   * Namen der genehmigenden Personen
    * Status

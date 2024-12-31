@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 'Verwalten von Testversandversionen: Artikelindex'
-description: Erstellen einer neuen Testversion
+title: 'Korrekturabzugsversionen verwalten: Artikelindex'
+description: Erstellen einer neuen Version eines Korrekturabzugs
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,9 +15,9 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Testversandversionen: Artikelindex
+# Korrekturabzugsversionen verwalten: Artikelindex
 
-* [Erstellen einer neuen Version eines Testversands](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
-* [Testversandversionen anzeigen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
-* [Anzeigen und Verwalten von Details zur Testversand-Version](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
-* [Herunterladen von Testversionen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)
+* [Erstellen einer neuen Version eines Korrekturabzugs](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/create-new-proof-version.md)
+* [Korrekturabzugsversionen anzeigen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-proof-versions.md)
+* [Details zur Korrekturabzugsversion anzeigen und verwalten](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/view-version-details.md)
+* [Korrekturabzugsversionen herunterladen](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proof-versions/download-versions.md)

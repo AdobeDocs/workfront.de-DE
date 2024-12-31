@@ -17,37 +17,37 @@ ht-degree: 0%
 
 # Best Practices für Ereignisabonnements
 
-Adobe Workfront-Ereignisabonnementmeldungen werden automatisch von Workfront gesendet, nachdem Sie Ihren Dienst korrekt konfiguriert und ein Ereignisabonnement erstellt haben, um diese Nachrichtenbereitstellungen Trigger. Weitere Informationen zum ordnungsgemäßen Einrichten von Ereignisanmeldungen finden Sie unter [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
+Nachrichten zu Ereignisabonnements von Adobe Workfront werden automatisch von Workfront gesendet, nachdem Sie Ihren Dienst korrekt konfiguriert und einen Trigger für Ereignisabonnements erstellt haben, um diese Nachrichtensendungen zu verwalten. Weitere Informationen zum ordnungsgemäßen Einrichten von Ereignisabonnements finden Sie unter [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
 
 
-Im Folgenden finden Sie einige Best Practices, mit denen Sie Ereignisabos effektiv erstellen können.
+Nachfolgend finden Sie einige Best Practices, die Ihnen bei der effektiven Erstellung von Ereignisabonnements helfen.
 
-## Alle erforderlichen Anforderungstextfelder bereitstellen
+## Alle erforderlichen Felder für den Anfragetext angeben
 
-Stellen Sie sicher, dass die API alle erforderlichen Anfrageinhalt-Felder erhält. Informationen zu allen erforderlichen Anforderungsattributen finden Sie unter [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
+Stellen Sie sicher, dass alle erforderlichen Felder für den Anfragetext für die API bereitgestellt werden. Informationen zu allen erforderlichen Anforderungsattributen finden Sie unter [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
 
-## Vermeiden Sie das Einschließen von zusätzlichen Textkörperfeldern
+## Vermeiden Sie das Einfügen von zusätzlichen Textfeldern
 
-Schließen Sie keine zusätzlichen Textkörperfelder in die Anfrage ein, da dies dazu führt, dass die API kein Abonnement erstellt.
+Fügen Sie in die Anfrage keine zusätzlichen Textfelder ein, da dies dazu führt, dass die API kein Abonnement erstellen kann.
 
-## Führen Sie Tests innerhalb der Übergangsphase durch
+## Vollständige Tests innerhalb der Übergangsphase
 
-Versuchen Sie, alle Abonnementtests innerhalb der Übergangsphase von 100 Nachrichten durchzuführen. Weitere Informationen zu dieser Übergangsphase finden Sie unter [FAQs - Ereignisabonnements](../../wf-api/general/event-subs-faq.md).
+Versuchen Sie, alle Abonnementtests innerhalb der 100-Nachrichten-Übergangsphase durchzuführen. Weitere Informationen zu dieser Übergangsphase finden Sie unter [FAQs - Ereignisabonnements](../../wf-api/general/event-subs-faq.md).
 
-## Erfüllen Sie die Standardanforderungen an die Bereitstellung von Ereignisanmeldungsnachrichten
+## Erfüllen Sie die Standardanforderungen für den Nachrichtenversand im Ereignisabonnement
 
-Stellen Sie sicher, dass Ihr Abonnement-Endpunkt den standardmäßigen Bedingungen für die Bereitstellung von Ereignisabonnementnachrichten entspricht. Weitere Informationen zu diesen Anforderungen finden Sie unter [Voraussetzungen für die Bereitstellung von Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
+Stellen Sie sicher, dass Ihr Abonnement-Endpunkt den Versandanforderungen für Standard-Ereignisabonnements-Nachrichten entspricht. Weitere Informationen zu diesen Anforderungen finden Sie unter [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
 
-## IP-Adressen der Zulassungslisten nach globaler Region
+## Zulassungsliste der IP-Adressen nach globaler Region
 
-Um Payloads von Ereignisabonnenten über Ihre Firewall zu erhalten, müssen Sie die IP-Adressen zur Zulassungsliste hinzufügen. Weitere Informationen finden Sie unter [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md).
+Um Payloads von Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie die IP-Adressen der Zulassungsliste nach globaler Region hinzufügen. Weitere Informationen finden Sie unter [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
 
-## über die richtige Zugriffsebene und einen API-Schlüssel verfügen
+## Die richtige Zugriffsebene und einen richtigen API-Schlüssel
 
-Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt Ihr Workfront-Benutzer:
+Um ein Ereignisabonnement zu erstellen, abzufragen oder zu löschen, benötigt Ihr Workfront-Benutzer Folgendes:
 
-* Zugriffsstufe von **Systemadministrator**
-Weitere Informationen finden Sie unter [Gewähren eines vollen Administratorzugriffs für Benutzer](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) oder [Gewähren von Benutzern administrativen Zugriff auf bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
+* Zugriffsebene von **Systemadministrator**
+Weitere Informationen finden Sie unter [Gewähren des vollständigen administrativen Zugriffs für einen Benutzer](../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md) oder [Gewähren des administrativen Zugriffs für bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
 * Ein API-Schlüssel
 

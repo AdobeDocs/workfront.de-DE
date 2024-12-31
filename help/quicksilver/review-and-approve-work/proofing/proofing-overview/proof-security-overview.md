@@ -2,8 +2,8 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Sicherheitsübersicht für Testsendungen
-description: Sie können Testsendungen zusätzliche Sicherheitsmaßnahmen hinzufügen.
+title: Sicherheitsübersicht für Korrekturabzüge
+description: Sie können Korrekturabzüge um zusätzliche Sicherheitsmaßnahmen ergänzen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 2f6737d5-627d-463f-8127-504755bd0380
@@ -14,39 +14,39 @@ ht-degree: 0%
 
 ---
 
-# Sicherheitsübersicht für Testsendungen
+# Sicherheitsübersicht für Korrekturabzüge
 
-Sie können Testsendungen zusätzliche Sicherheitsmaßnahmen hinzufügen.
+Sie können Korrekturabzüge um zusätzliche Sicherheitsmaßnahmen ergänzen.
 
-## Erforderliche Anmeldung
+## Login erforderlich
 
-Die erforderliche Anmeldung erhöht die Sicherheit der in Ihrem Konto erstellten Testsendungen. Sie können die Anmeldung für alle Testsendungen auf Kontoebene aktivieren oder sie für einzelne Testsendungen aktivieren. Weitere Informationen zum Aktivieren für Ihr Konto finden Sie unter [Konfigurieren der standardmäßigen Testversandeinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Die erforderliche Anmeldung erhöht die Sicherheit der in Ihrem Konto erstellten Testsendungen. Sie können die Anmeldung, die für alle Korrekturabzüge erforderlich ist, auf Kontoebene aktivieren oder bei Bedarf für einzelne Korrekturabzüge aktivieren. Weitere Informationen zur Aktivierung von für Ihr Konto finden Sie unter [Konfigurieren der standardmäßigen Korrekturabzugseinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
 >[!NOTE]
 >
->Wenn diese Option aktiviert ist, können Benutzer den Testversand nicht für Gastreviewer freigeben oder Testsendungen abonnieren.
+>Wenn diese Option aktiviert ist, können Benutzende den Korrekturabzug nicht für Gastreviewer freigeben oder Korrekturabzüge abonnieren.
 
-### Testsendungen mit Anmeldeinformationen aufrufen
+### Zugreifen auf Korrekturabzüge mit Anmeldeinformationen
 
-Wenn die erforderliche Anmeldung aktiviert ist, müssen sich die validierungsverantwortlichen Benutzer mit ihrer E-Mail-Adresse und ihrem Passwort anmelden, bevor sie die in Ihrem Unternehmenskonto erstellten Testsendungen anzeigen können. Benutzer sollten ihre Workfront- oder SSO-Anmeldeinformationen verwenden, je nachdem, wie Ihre Instanz eingerichtet ist.
+Wenn „Anmeldung erforderlich“ aktiviert ist, müssen sich Prüfer mit ihrer E-Mail-Adresse und ihrem Kennwort anmelden, bevor sie im Konto Ihres Unternehmens erstellte Korrekturabzüge anzeigen können. Benutzende sollten abhängig von der Einrichtung Ihrer Instanz ihre Workfront- oder SSO-Anmeldeinformationen verwenden.
 
 >[!TIP]
 >
->Um den Anmeldeprozess zu optimieren, empfehlen wir, SSO in Workfront und Workfront Testversand einzurichten. Weitere Informationen zum Aktivieren der einmaligen Anmeldung finden Sie unter >
+>Um den Anmeldevorgang zu optimieren, empfehlen wir die Einrichtung von SSO in Workfront und Workfront Proof. Weitere Informationen zur Aktivierung von SSO finden Sie unter >
 >* [Single Sign-on in Workfront: Artikelindex](../../../administration-and-setup/add-users/single-sign-on/single-sign-on.md)
->* [Single-Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>* [Konfigurieren von Single Sign-On für Workfront Proof-Benutzer](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >
 
 ## Elektronische Signatur
 
-Elektronische Signaturen ermöglichen es Ihnen, die Sicherheit Ihrer Testsendungen zu verbessern und die Sicherheitsstandards der Branche, wie z. B. ISO, einzuhalten. Sie können elektronische Signaturen für alle Testsendungen auf Kontoebene aktivieren oder Sie können sie bei Bedarf für einzelne Testsendungen aktivieren. Weitere Informationen finden Sie unter [Konfigurieren der standardmäßigen Testversandeinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
+Elektronische Signaturen ermöglichen es Ihnen, die Sicherheit Ihrer Korrekturabzüge zu verbessern und die Sicherheitsstandards der Branche, wie ISO, zu erfüllen. Sie können elektronische Signaturen für alle Korrekturabzüge auf Kontoebene aktivieren oder bei Bedarf für einzelne Korrekturabzüge aktivieren. Weitere Informationen finden Sie unter [Konfigurieren der standardmäßigen Korrekturabzugseinstellungen](/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/configure-default-proof-settings.md).
 
-## Testversand elektronisch unterschreiben
+## Elektronisches Signieren eines Korrekturabzugs
 
-Wenn die Einstellung für die elektronische Signatur für einen Testversand aktiviert ist, werden alle validierenden Benutzer, die eine Entscheidung über die Angabe ihrer E-Mail-Adresse und ihres Kennworts treffen, in einem elektronischen Signaturfeld aufgefordert. Benutzer sollten ihre Workfront- oder SSO-Anmeldeinformationen verwenden, je nachdem, wie Ihre Instanz eingerichtet ist.
+Wenn die Einstellung für die elektronische Signatur bei einem Korrekturabzug aktiviert ist, fordert ein elektronisches Signaturfeld alle Reviewer, die sich dafür entscheiden, ihre E-Mail-Adresse und ihr Passwort anzugeben, auf. Benutzende sollten abhängig von der Einrichtung Ihrer Instanz ihre Workfront- oder SSO-Anmeldeinformationen verwenden.
 
 >[!IMPORTANT]
 >
->Um einen Testversand mit SSO-Anmeldeinformationen elektronisch zu signieren, müssen Sie SSO in Workfront Proof einrichten. Weitere Informationen zum Aktivieren der einmaligen Anmeldung finden Sie unter >
->* [Single-Sign-On für Workfront Proof-Benutzer konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
+>Um einen Korrekturabzug mit SSO-Anmeldeinformationen elektronisch zu signieren, müssen Sie SSO in Workfront Proof einrichten. Weitere Informationen zur Aktivierung von SSO finden Sie unter >
+>* [Konfigurieren von Single Sign-On für Workfront Proof-Benutzer](../../../workfront-proof/wp-acct-admin/account-settings/configure-sso-for-wp-users.md)
 >

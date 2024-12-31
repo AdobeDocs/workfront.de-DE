@@ -2,8 +2,8 @@
 content-type: overview
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: Timesheets - Übersicht
-description: Sie können Timesheets verwenden, um die Arbeitszeit innerhalb und außerhalb von Adobe Workfront zu verfolgen.
+title: Arbeitszeittabellen - Übersicht
+description: Sie können Arbeitszeittabellen verwenden, um die Zeit zu verfolgen, die Sie innerhalb und außerhalb von Adobe Workfront mit der Arbeit verbringen.
 author: Alina
 feature: Timesheets
 exl-id: 2174a879-4a19-4a0f-803a-f19a8909f227
@@ -14,64 +14,64 @@ ht-degree: 0%
 
 ---
 
-# Timesheets - Übersicht
+# Arbeitszeittabellen - Übersicht
 
 <!-- Audited: 12/2023 -->
 
-Sie können Timesheets verwenden, um die Arbeitszeit innerhalb und außerhalb von Adobe Workfront zu verfolgen.
+Sie können Arbeitszeittabellen verwenden, um die Zeit zu verfolgen, die Sie innerhalb und außerhalb von Adobe Workfront mit der Arbeit verbringen.
 
-Sie können die Projektzeit für Arbeitselemente wie Projekte, Aufgaben und Probleme protokollieren. Die Zeit, die bei Aufgaben, Problemen und Projekten protokolliert wird, wird automatisch in Ihrem Timesheet angezeigt.
+Sie können Projektzeit in Arbeitselementen wie Projekten, Aufgaben und Problemen protokollieren. Die für Aufgaben, Probleme und Projekte aufgezeichnete Zeit wird automatisch in Ihrer Arbeitszeittabelle angezeigt.
 
-Sie können auch Nicht-Projektzeiten für nicht-arbeitsinterne Themen wie Meetings, Schulungen oder Abwesenheitszeiten direkt auf Ihrem Timesheet unter Allgemeine Geschäftszeiten protokollieren.
+Sie können auch projektfremde Zeit für nicht arbeitsbezogene Elemente wie Meetings, Schulungen oder Zeit außerhalb des Büros direkt auf Ihrer Arbeitszeittabelle unter „Allgemeine Stunden“ protokollieren.
 
-Weitere Informationen zur Protokollzeit in Workfront finden Sie unter [Protokollzeit](../../timesheets/create-and-manage-timesheets/log-time.md).
+Weitere Informationen zum Protokollieren der Zeit in Workfront finden Sie unter [Zeit protokollieren](../../timesheets/create-and-manage-timesheets/log-time.md).
 
 >[!TIP]
 >
->Wenn Sie ein Workfront- oder Gruppenadministrator sind, können Sie Timesheets erstellen und sie mit Ihren Benutzern verknüpfen. Informationen zum Erstellen von Timesheets finden Sie unter [Erstellen und Verwalten von Timesheets: Artikelindex](../create-and-manage-timesheets/create-and-manage-timesheets.md).
+>Wenn Sie Workfront- oder Gruppenadministrator sind, können Sie Arbeitszeittabellen erstellen und sie mit Ihren Benutzenden verknüpfen. Informationen zum Erstellen von Arbeitszeittabellen finden Sie [Arbeitszeittabellen erstellen und verwalten: Artikelindex](../create-and-manage-timesheets/create-and-manage-timesheets.md).
 
 
-## Verstehen der Projektzeit im Vergleich zur Zeit ohne Projekt
+## Verstehen der Projektzeit im Vergleich zur Nicht-Projektzeit
 
-Timesheets bieten Benutzern eine einfache Möglichkeit, die Zeit für Projekt- und Nicht-Projektarbeit zu verfolgen:
+Arbeitszeittabellen bieten Benutzenden eine einfache Möglichkeit, die Zeit für projektbezogene und nicht projektbezogene Arbeit zu verfolgen:
 
-* **Projektzeit:** Direkt von der Aufgabe oder dem Projekt, in der/dem Sie die Zeit verfolgen möchten.
+* **Projektzeit:** direkt von der Aufgabe oder dem Projekt, in dem Sie die Zeit verfolgen möchten.
 
-  Stunden, die über ein Timesheet für Aufgaben, Probleme und Projekte aufgezeichnet werden, werden mit den jeweiligen Arbeitselementen verknüpft, um eine genaue Darstellung der für Projekte und Aufgaben aufgewendeten Anstrengungen zu liefern. Ohne genaue Zeiteingabe sind Ihre Daten möglicherweise nicht genau, wenn sie für Abrechnungszwecke bestimmt sind.
+  Die über eine Arbeitszeittabelle aufgezeichneten Stunden für Aufgaben, Probleme und Projekte werden den jeweiligen Arbeitselementen zugeordnet, um den für Projekte und Aufgaben aufgewendeten Aufwand präzise darzustellen. Ohne genaue Zeiteingabe sind Ihre Daten möglicherweise nicht korrekt, wenn sie für Abrechnungszwecke vorgesehen sind.
 
-  Wenn eine Ressource Stunden direkt in Aufgaben erfasst, werden Probleme und Projekte automatisch angezeigt, wenn der Benutzer auf das Timesheet zugreift. Dabei wird davon ausgegangen, dass der Datumsbereich des Zeitblatts die Daten umfasst, zu denen die Stunden aufgezeichnet wurden.
+  Wenn eine Ressource Stunden direkt für Aufgaben aufzeichnet, werden Probleme und Projekte außerdem automatisch angezeigt, wenn der Benutzer auf die Arbeitszeittabelle zugreift. Dabei wird davon ausgegangen, dass der Datumsbereich der Arbeitszeittabelle die Daten umfasst, an denen die Stunden aufgezeichnet wurden.
 
-* **Zeit ohne Projekt:** Direkt auf dem Benutzer-Timesheet. Weitere Informationen zum Verfolgen der Zeit in Workfront finden Sie unter   [Protokollzeit](../../timesheets/create-and-manage-timesheets/log-time.md).
+* **Zeit ohne Projekt:** Direkt auf der Arbeitszeittabelle des Benutzers. Weitere Informationen zum Tracking der Zeit in Workfront finden Sie unter   [Zeit erfassen](../../timesheets/create-and-manage-timesheets/log-time.md).
 
-  Auf einem Datenblatt können Sie Urlaubszeiten, Krankheitszeiten, im Transit verbrachte Stunden, Stunden für die Reparatur oder Wartung von Geräten oder die allgemeinen Arten von Gemeinkosten-Stunden, die Sie erstellen möchten, aufzeichnen.
+  Sie können auf einer Arbeitszeittabelle Urlaubszeiten, Krankenstunden, Stunden auf der Durchreise, Stunden mit der Reparatur oder Wartung von Geräten oder andere allgemeine Arbeitsstundentypen, die Sie erstellen möchten, aufzeichnen.
 
-## Zugreifen auf Timesheets im Bereich &quot;Timesheets&quot;
+## Zugriff auf Arbeitszeittabellen im Bereich Arbeitszeittabellen
 
-Der Bereich &quot;Timesheets&quot;ist standardmäßig für alle Benutzer verfügbar. Workfront-Administratoren können dies bei Bedarf in der Layoutvorlage ändern. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layoutvorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+Der Bereich Arbeitszeittabellen ist standardmäßig für alle Benutzer verfügbar. Workfront-Admins können dies in der Layout-Vorlage nach Bedarf ändern. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
-So greifen Sie auf ein Timesheet zu:
+So greifen Sie auf eine Arbeitszeittabelle zu:
 
 {{step1-to-timesheets}}
 
-Alle Timesheets sowie Timesheets, auf die Sie Zugriff haben, werden standardmäßig angezeigt. Informationen zum Timesheet-Layout in Adobe Workfront finden Sie unter [Übersicht über das Timesheet-Layout](../../timesheets/timesheets/timesheet-layout.md).
+Alle Arbeitszeittabellen sowie Arbeitszeittabellen, auf die Sie standardmäßig zugreifen können, werden angezeigt. Weitere Informationen zum Arbeitszeittabellen-Layout in Adobe Workfront finden Sie unter [Arbeitszeittabellen-Layout - Übersicht](../../timesheets/timesheets/timesheet-layout.md).
 
 ![](assets/all-timesheets-list-nwe-350x68.png)
 
-1. Klicken Sie oben rechts auf eine der folgenden Optionen, um Ihre Timesheets anzuzeigen:
+1. Klicken Sie auf eine der folgenden Optionen oben rechts, um Ihre Arbeitszeittabellen anzuzeigen:
 
-   * **Meine Timesheets** , um nur Ihre Timesheets anzuzeigen.
+   * **Meine Arbeitszeittabellen**, um nur Ihre Arbeitszeittabellen anzuzeigen.
 
    ![](assets/my-timesheets-list-various-statuses-nwe-350x60.png)
 
-   * **My Timesheet Approvals**, um nur die von Ihnen genehmigten Timesheets anzuzeigen.
+   * **Meine Arbeitszeittabellen-Genehmigungen**, um nur von Ihnen genehmigte Arbeitszeittabellen anzuzeigen.
 
      ![](assets/timesheets-i-approve-list-with0filters-new-nwe-350x61.png)
 
 
-1. (Optional) Aktualisieren Sie die Ansicht, den Filter und die Gruppierung oben in der Liste der Timesheets. Weitere Informationen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
+1. (Optional) Aktualisieren Sie Ansicht, Filter und Gruppierung oben in der Liste der Arbeitszeittabellen. Weitere Informationen finden Sie unter [Berichterstellungselemente: Filter, Ansichten und Gruppierungen](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md).
 
-1. Klicken Sie auf den **Datumsbereich** eines Zeitblatts, um es zu öffnen.
+1. Klicken Sie auf **Datumsbereich** einer Arbeitszeittabelle, um sie zu öffnen.
 
-   Jedes Zeitblatt zeigt alle Aufgaben, Probleme und Projekte an, für die Sie die Zeit angemeldet haben. In einem Timesheet werden auch bis zu 45 Aufgaben und Probleme angezeigt, die Ihnen mit Datumsangaben innerhalb des Zeitrahmens des Zeitplans zugewiesen wurden, für die Sie jedoch noch keine Zeit angemeldet haben. Die 45 zuletzt aktualisierten Elemente werden für die Anzeige im Timesheet ausgewählt.
+   Jede Arbeitszeittabelle zeigt alle Aufgaben, Probleme und Projekte an, für die Sie Zeit protokolliert haben. In einer Arbeitszeittabelle werden auch bis zu 45 Aufgaben und Probleme angezeigt, die Ihnen zugewiesen sind und im Zeitrahmen der Arbeitszeittabelle Datumsangaben enthalten, für die Sie jedoch möglicherweise noch keine Zeit erfasst haben. Die 45 zuletzt aktualisierten Elemente werden für die Anzeige in der Arbeitszeittabelle ausgewählt.
 
-   Weitere Informationen finden Sie unter [Konfigurieren der Voreinstellungen für das Zeitblatt und die Stunde](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
+   Weitere Informationen finden Sie unter [Arbeitszeittabelle und Stundenvoreinstellungen konfigurieren](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).

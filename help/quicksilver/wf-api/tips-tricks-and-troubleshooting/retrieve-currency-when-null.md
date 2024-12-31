@@ -37,7 +37,7 @@ Dadurch wird der folgende Antworttext zurückgegeben:
 }
 ```
 
-Wenn die Währung nicht für das Projekt festgelegt ist, enthält diese Antwort eine Währung mit dem Wert `null`:
+Wenn die Währung für das Projekt nicht festgelegt ist, würde diese Antwort eine Währung mit dem Wert `null` enthalten:
 
 ```
 {
@@ -56,7 +56,7 @@ Wenn Sie die Währung für das Projekt benötigen (z. B. für Berechnungen), kö
 
 `GET /attask/api-internal/CUST/currentCustomer?fields=currency`
 
-Die Antwort enthält die Währung, die der Benutzer als Standard festgelegt hat, die von allen Projekten für diesen Kunden verwendet wird, für die die Währung nicht festgelegt ist:
+Die Antwort enthält die Währung, die der Benutzer als Standard festgelegt hat. Diese würde von allen Projekten für diesen Kunden verwendet, für die die Währung nicht festgelegt ist:
 
 ```
 {

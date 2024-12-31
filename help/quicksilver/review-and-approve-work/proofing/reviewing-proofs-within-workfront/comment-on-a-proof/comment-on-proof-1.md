@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Kommentar zu einem Testversand
-description: Kommentare ermöglichen es Ihnen, Feedback zu Inhalten zu geben und mit anderen Benutzern im Testversand-Viewer zusammenzuarbeiten.
+title: Kommentar zu einem Korrekturabzug
+description: Mithilfe von Kommentaren können Sie Feedback zu Inhalten geben und mit anderen Benutzenden im Proofing Viewer zusammenarbeiten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: b0386786-7f90-4d1c-bd3a-1cd545430de1
@@ -13,18 +13,18 @@ ht-degree: 0%
 
 ---
 
-# Kommentar zu einem Testversand
+# Kommentar zu einem Korrekturabzug
 
-Kommentare ermöglichen es Ihnen, Feedback zu Inhalten zu geben und mit anderen Benutzern im Testversand-Viewer zusammenzuarbeiten.
+Mithilfe von Kommentaren können Sie Feedback zu Inhalten geben und mit anderen Benutzenden im Proofing Viewer zusammenarbeiten.
 
-Beim Tagging von Benutzern in Kommentaren zu einem Testversand können die Benutzer, die Sie taggen können, abhängig von verschiedenen Faktoren wie individuellen Benutzerberechtigungen und Ihrer Mitgliedschaft in der Organisation unterschiedlich sein:
+Beim Tagging von Benutzern in Kommentaren zu einem Korrekturabzug können die Benutzenden, die Sie taggen können, je nach verschiedenen Faktoren unterschiedlich sein, z. B. individuelle Benutzerberechtigungen und Ihre Mitgliedschaft in der Organisation:
 
-* Wenn Sie der Ersteller oder Eigentümer eines Testversands sind oder bestimmte Berechtigungen aktiviert haben, können Sie Benutzer außerhalb des Testversand-Workflows taggen und den Testversand für sie freigeben.
-* Wenn Sie als externer Benutzer zum Testversand hinzugefügt wurden und Mitglied einer anderen Umgebung mit einem anderen Testversandkonto sind, können Sie nur diese Benutzer aus Ihrer ursprünglichen Umgebung mit Tags versehen. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
+* Wenn Sie der Ersteller oder Inhaber eines Korrekturabzugs sind oder bestimmte Berechtigungen aktiviert haben, können Sie Benutzer außerhalb des Korrekturabzugs-Workflows taggen und den Korrekturabzug für sie freigeben.
+* Wenn Sie als externer Benutzer zum Korrekturabzug hinzugefügt wurden und Mitglied einer anderen Umgebung mit einem anderen Korrekturabzugskonto sind, können Sie nur diese Benutzer aus Ihrer ursprünglichen Umgebung taggen. <!--For more information, see [Proofing collaboration limitations with people outside of your organization](../../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/collaboration-with-members-outside-of-your-organization.md)-->
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -34,47 +34,47 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof role</td> 
-   <td>Reviewer, Reviewer und Genehmiger, Moderator, Autor</td> 
+   <td role="rowheader">Rolle des Korrekturabzugs</td> 
+   <td>Prüfer, Prüfer und genehmigende Person, Moderator, Autor</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Kommentar zu einem Testversand
+## Kommentar zu einem Korrekturabzug
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
-1. Suchen Sie den gewünschten Testversand und klicken Sie dann auf **Testversand öffnen**.
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Suchen Sie den benötigten Korrekturabzug und klicken Sie dann auf **Korrekturabzug öffnen**.
 
-1. Klicken Sie oben im Testversand-Viewer auf **Kommentar hinzufügen**.
-1. (Bedingt) Wenn es sich um einen Videotest handelt, geben Sie den Video-Testversand ab und klicken Sie dann auf **Kommentar hinzufügen** an der Stelle im Video, an der Sie den Kommentar mit den Abspielleistungen abspielen möchten.
+1. Klicken Sie oben in der Korrekturabzugsansicht auf **Kommentar hinzufügen**.
+1. (Bedingt) Wenn es sich um einen Videobeweis handelt, geben Sie den Videobeweis wieder und klicken Sie dann **Kommentar hinzufügen** an der Stelle im Video, an der Sie den Kommentar mithilfe der Abspielköpfe abspielen möchten
 
    >[!TIP]
    >
-   >1. Halten Sie das Video an, und klicken Sie in der gewünschten Zeitleiste auf den Kommentar.
-   >1. Für eine bessere Genauigkeit können Sie auf die Werte über den Abspielleisten klicken und neue Werte eingeben.
-   >1. Um einen Bereich von Videobildern zu kommentieren, ziehen Sie die Abspielköpfe in der Timeline nach links und rechts, um einen Bereich von Filmmaterial anzugeben, zu dem Sie Kommentare abgeben möchten.
-   >1. Um einen Bereich von Videobildern zu kommentieren, ziehen Sie die Abspielköpfe in der Timeline nach links und rechts, um einen Bereich von Filmmaterial anzugeben, zu dem Sie Kommentare abgeben möchten.
+   >1. Um die Verwendung zu vereinfachen, halten Sie das Video an und klicken Sie in die Zeitleiste, in der Sie den Kommentar einfügen möchten.
+   >1. Für eine bessere Präzision können Sie auf die Werte über den Abspielköpfen klicken und neue Werte eingeben.
+   >1. Um einen Bereich von Videomaterial zu kommentieren, ziehen Sie die Abspielköpfe in der Zeitleiste nach links und rechts, um einen Bereich von Videomaterial anzugeben, das Sie kommentieren möchten.
+   >1. Um einen Bereich von Videomaterial zu kommentieren, ziehen Sie die Abspielköpfe in der Zeitleiste nach links und rechts, um einen Bereich von Videomaterial anzugeben, das Sie kommentieren möchten.
 
-1. Um die Aufmerksamkeit auf eine bestimmte Stelle im Testversand zu lenken, klicken Sie in der Symbolleiste auf das gewünschte Markup-Tool und markieren Sie dann den Bereich des Testversands, den Sie kommentieren möchten:
+1. Um die Aufmerksamkeit auf eine bestimmte Position auf dem Korrekturabzug zu lenken, klicken Sie in der Symbolleiste auf das gewünschte Markup-Tool und markieren Sie dann den Bereich des Korrekturabzugs, den Sie kommentieren möchten:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -82,54 +82,54 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader"><strong>Zeichnen einer Freihand-Linie</strong> </td> 
+      <td role="rowheader"><strong>Zeichnen Sie eine Freihandlinie</strong> </td> 
       <td> <img src="assets/freehand-line.png"> </td> 
-      <td>Hiermit können Sie dem ausgewählten Bereich eine Freihand-Zeile hinzufügen.</td> 
+      <td>Ermöglicht das Hinzufügen einer Freihandlinie für den ausgewählten Bereich.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Zeichnen einer Linie</strong> </td> 
+      <td role="rowheader"><strong>Linie zeichnen</strong> </td> 
       <td> <img src="assets/line.png"> </td> 
       <td>Ermöglicht das Zeichnen einer Linie auf dem ausgewählten Bereich.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Zeichnen eines Pfeils</strong> </td> 
+      <td role="rowheader"><strong>Pfeil zeichnen</strong> </td> 
       <td> <img src="assets/arrow.png"> </td> 
-      <td>Hiermit können Sie einem ausgewählten Bereich einen Pfeil hinzufügen.</td> 
+      <td>Ermöglicht das Hinzufügen eines Pfeils zu einem von Ihnen ausgewählten Bereich.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Einen Bereich markieren</strong> </td> 
+      <td role="rowheader"><strong>Markieren eines Bereichs</strong> </td> 
       <td> <img src="assets/highlight.png"> </td> 
       <td>Markiert den ausgewählten Bereich.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Zeichnen eines Rechtecks</strong> </td> 
+      <td role="rowheader"><strong>Rechteck zeichnen</strong> </td> 
       <td> <img src="assets/rectangle.png"> </td> 
       <td>Ermöglicht das Zeichnen eines Rechtecks um einen Bereich.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Polyline</strong> </td> 
+      <td role="rowheader"><strong>Mehrzeilig</strong> </td> 
       <td> <img src="assets/polyline.png"> </td> 
-      <td> <p>Zeichnet eine verbundene Sequenz von Liniensegmenten, die Sie als Form offen oder schließen können. Sie können jeden Punkt, den Sie hinzufügen, verschieben oder löschen. </p> <p>Dieses Tool ist für die Arbeit mit technischen und architektonischen Bildern nützlich.</p> </td> 
+      <td> <p>Zeichnet eine verbundene Sequenz von Liniensegmenten, die Sie als Form offen lassen oder schließen können. Sie können alle hinzugefügten Punkte verschieben oder löschen. </p> <p>Dieses Tool ist für die Arbeit mit technischen und architektonischen Bildern nützlich.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader"><strong>Ändern der Markup-Farbe, Stärke oder Deckkraft</strong> </td> 
+      <td role="rowheader"><strong>Ändern der Farbe, Stärke oder Deckkraft des Markups</strong> </td> 
       <td> <img src="assets/change-color.png"> </td> 
-      <td>Hiermit können Sie die Farbe, Dicke und Deckkraft der Markup-Tools ändern.</td> 
+      <td>Ermöglicht das Ändern der Farbe, Dicke und Deckkraft der Markup-Werkzeuge.</td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Text</strong> </td> 
       <td> <img src="assets/copy-of-text.png"> </td> 
-      <td> <p>Dieses Tool wird links neben den anderen Tools angezeigt, wenn der Testversand ein textbasiertes Dokument ist. Es bietet Markup-Tools für die Kommentar zu Text in Testsendungen. <br></p> <p>Wenn Sie auf dieses Tool klicken und dann Text auf Ihrem Testversand auswählen, werden unter dem ausgewählten Text Anmerkungsoptionen angezeigt.<br></p> </td> 
+      <td> <p>Dieses Tool wird links von den anderen Tools angezeigt, wenn der Korrekturabzug ein textbasiertes Dokument ist. Es bietet Markup-Tools zum Kommentieren von Text in Korrekturabzügen. <br></p> <p>Wenn Sie auf dieses Tool klicken und dann auf dem Korrekturabzug Text auswählen, werden Anmerkungsoptionen unter dem ausgewählten Text angezeigt.<br></p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Bei statischen Testsendungen können Sie mehrere Bereiche auf mehreren Seiten für einen Kommentar markieren. Wenn Sie beispielsweise denselben Kommentar für mehrere Seiten abgeben möchten, wählen Sie einen Bereich auf einer Seite aus, gehen Sie dann zur nächsten Seite, auf der Sie denselben Kommentar abgeben möchten, und wählen Sie dort einen Bereich aus. (Dies gilt nur für die normalen Anmerkungs-Markup-Tools, nicht für die Text-Markup-Tools.)
+1. Bei statischen Korrekturabzügen können Sie für einen Kommentar mehrere Bereiche auf mehreren Seiten markieren. Wenn Sie beispielsweise denselben Kommentar auf mehreren Seiten abgeben möchten, wählen Sie einen Bereich auf einer Seite aus, gehen Sie dann zur nächsten Seite, auf der Sie denselben Kommentar abgeben möchten, und wählen Sie dort einen Bereich aus. (Dies gilt nur für die regulären Anmerkungs-Markup-Tools, nicht für die Text-Markup-Tools.)
 1. Geben Sie Ihren Kommentar in das Feld **Kommentar hinzufügen** auf der rechten Seite ein.
-1. (Optional) Um einen anderen Benutzer in Ihrem Kommentar zu taggen und ihn zum Workflow des Testversands hinzuzufügen, geben Sie in das Kommentarfeld @ ein, geben Sie dann den Namen oder die E-Mail-Adresse des Benutzers ein und wählen Sie den Benutzer im angezeigten Menü aus. Weitere Informationen finden Sie unter [Benutzer für die Freigabe eines Testversands taggen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
+1. (Optional) Um einen anderen Benutzer in Ihrem Kommentar zu taggen und ihn zum Workflow des Korrekturabzugs hinzuzufügen, geben Sie im Kommentarfeld @ ein, geben Sie dann den Namen oder die E-Mail-Adresse des Benutzers ein und wählen Sie den Benutzer im angezeigten Menü aus. Weitere Informationen finden Sie unter [Taggen von Benutzern zum Freigeben eines Korrekturabzugs](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/comment-on-a-proof/tag-users-to-share-proof.md).
 1. (Optional) Um eine Datei an einen Kommentar anzuhängen, führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie in der rechten unteren Ecke des Kommentars auf das Symbol für die Papierklammer, suchen und wählen Sie dann die Datei aus, die Sie hochladen möchten.
-   * Ziehen Sie eine Datei von einer Stelle auf Ihrem Computer und legen Sie sie im Kommentarbereich ab.
+   * Klicken Sie auf das Papierklammersymbol in der rechten unteren Ecke des Kommentars, suchen Sie die hochzuladende Datei und wählen Sie sie aus.
+   * Ziehen Sie eine Datei aus einer Position auf Ihrem Computer und legen Sie sie im Kommentarbereich ab.
 
-1. Klicken Sie auf **Post**.
+1. Klicken Sie **POST**.

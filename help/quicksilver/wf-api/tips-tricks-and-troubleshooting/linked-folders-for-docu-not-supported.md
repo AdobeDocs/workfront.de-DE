@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Verknüpfte Ordner werden für DOCU-Objekte nicht unterstützt
-description: Verknüpfte Ordner werden für DOCU-Objekte nicht unterstützt
+title: Verknüpfte Ordner werden für das DOCU-Objekt nicht unterstützt
+description: Verknüpfte Ordner werden für das DOCU-Objekt nicht unterstützt
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,6 +14,6 @@ ht-degree: 0%
 
 ---
 
-# Die Verwendung der API zum Hinzufügen verknüpfter Ordner wird nicht unterstützt
+# Die Verwendung der -API zum Hinzufügen eines verknüpften Ordners wird nicht unterstützt
 
-Die Verwendung der API zum Hinzufügen eines verknüpften Ordners zum Ordner-Array für ein Document (DOCU)-Objekt wird nicht unterstützt. Die Anfrage wird erfolgreich sein, aber das Dokument kann von einigen externen Anbietern aus dem System entfernt werden. Dies liegt daran, dass das externe System als letzte Quelle der Wahrheit verwendet wird. Wenn das Dokument daher aus dem externen Anbieter entfernt wird, wird davon ausgegangen, dass es nicht mehr vorhanden ist. Alle Dokumente, die nicht im verknüpften (externen) Ordner gefunden wurden, können automatisch aus [!DNL Workfront] entfernt werden, ohne dass eine Wiederherstellung möglich ist.
+Die Verwendung der -API zum Hinzufügen eines verknüpften Ordners zum Ordner-Array für ein Dokument-(DOCU-)Objekt wird nicht unterstützt. Die Anfrage wird erfolgreich sein, aber das Dokument kann von einigen externen Anbietern aus dem System entfernt werden. Dies liegt daran, dass das externe System als letzte Quelle der Wahrheit verwendet wird. Wenn das Dokument daher vom externen Anbieter entfernt wird, wird davon ausgegangen, dass das Dokument nicht mehr vorhanden ist. Alle Dokumente, die nicht im verknüpften (externen) Ordner gefunden wurden, können automatisch aus [!DNL Workfront] entfernt werden, ohne dass eine Möglichkeit besteht, sie wiederherzustellen.

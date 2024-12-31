@@ -2,8 +2,8 @@
 content-type: api;overview
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Webhooks-Übersicht
-description: Webhooks-Übersicht
+title: Webhooks - Übersicht
+description: Webhooks - Übersicht
 author: Becky
 feature: Workfront API
 role: Developer
@@ -16,23 +16,23 @@ ht-degree: 0%
 ---
 
 
-# Webhooks-Übersicht
+# Webhooks - Übersicht
 
-Adobe Workfront Document Webhooks definiert eine Reihe von API-Endpunkten, über die Workfront autorisierte API-Aufrufe an einen externen Dokumentanbieter sendet. Dadurch kann jeder ein Middleware-Plugin für jeden Dokumentenspeicher erstellen.
+Adobe Workfront Document Webhooks definiert einen Satz von API-Endpunkten, über die Workfront autorisierte API-Aufrufe an einen externen Dokumentanbieter sendet. Dadurch kann jeder ein Middleware-Plug-in für einen beliebigen Dokumentspeicheranbieter erstellen.
 
 ![](assets/mceclip0-350x262.png)
 
-Das Benutzererlebnis für webhook-basierte Integrationen ähnelt dem von vorhandenen Dokumentenintegrationen wie Google Drive, Box und Dropbox. Ein Workfront-Benutzer kann beispielsweise die folgenden Aktionen durchführen:
+Das Benutzererlebnis bei Webhook-basierten Integrationen ähnelt dem von vorhandenen Dokumentenintegrationen, z. B. Google Drive, Box und Dropbox. Beispielsweise kann ein Workfront-Benutzer die folgenden Aktionen ausführen:
 
-* Navigieren zur Ordnerstruktur des externen Dokumentanbieters
-* Suchdateien
-* Verknüpfen von Dateien in Workfront
+* Navigieren in der Ordnerstruktur des externen Dokumentanbieters
+* Dateien durchsuchen
+* Verknüpfen von Dateien mit Workfront
 * Hochladen von Dateien in den externen Dokumentanbieter
 * Anzeigen einer Miniaturansicht für das Dokument
 
 **Referenzimplementierung**
 
-Um die Entwicklung einer neuen Webhooks-Implementierung zu beschleunigen, stellt Workfront Beispiele für eine Referenzimplementierung bereit. Diese Beispiele finden Sie unter [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Die Beispiele sind Java-basiert und ermöglichen es Workfront, Dokumente in einem Netzwerkdateisystem zu verbinden. 
+Um die Entwicklung einer neuen Webhooks-Implementierung zu beschleunigen, bietet Workfront Beispiele für eine Referenzimplementierung. Diese Beispiele finden Sie unter [https://github.com/Workfront/webhooks-app](https://github.com/Workfront/webhooks-app). Die Beispiele sind Java-basiert und ermöglichen es Workfront, Dokumente in einem Netzwerk-Dateisystem zu verbinden. 
 
 >[!NOTE]
 >
@@ -40,16 +40,16 @@ Um die Entwicklung einer neuen Webhooks-Implementierung zu beschleunigen, stellt
 
 ## Versionen
 
-* Version 1.0 (Veröffentlichungsdatum - Mai 2015): Erstspezifikation
+* Version 1.0 (Veröffentlichungsdatum - Mai 2015): Erste Spezifikation
 
-* Version 1.1 (Veröffentlichungsdatum - Juni 2015). Aktualisiert /uploadInit - documentId und documentVersionId hinzugefügt
+* Version 1.1 (Veröffentlichungsdatum - Juni 2015). /uploadInit - Dokument-ID und Dokument-Version-ID hinzugefügt
 
-* Version 1.2 (Releasedatum - Oktober 2015): /createFolder hinzugefügt
+* Version 1.2 (Veröffentlichungsdatum - Oktober 2015): hinzugefügt /createFolder
 
-* Bevorstehende Versionen (Veröffentlichungsdatum - TBD):
+* Anstehende Versionen (Veröffentlichungsdatum - wird noch bekannt gegeben):
 
-   * /delete hinzugefügt
-   * /rename hinzugefügt
-   * /serviceInfo hinzugefügt
-   * /customAction hinzugefügt
-   * Hinzufügen von Pagination und parentId zu /search
+   * Hinzugefügt/löschen
+   * hinzugefügt/umbenennen
+   * Hinzugefügt /serviceInfo
+   * Hinzugefügt /customAction
+   * Hinzufügen von Paginierung und parentId zu /search

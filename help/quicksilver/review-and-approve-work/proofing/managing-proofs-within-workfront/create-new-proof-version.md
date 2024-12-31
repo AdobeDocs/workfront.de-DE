@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Erstellen einer neuen Testversion
-description: Das Verwalten von Feedback über mehrere Versionen oder Revisionen eines Werkes hinweg kann eine große Herausforderung sein. Workfront vereinfacht diesen Vorgang, indem Sie mehrere Testversionen erstellen und vergleichen können.
+title: Erstellen einer neuen Version eines Korrekturabzugs
+description: Das Verwalten des Feedbacks über mehrere Versionen oder Revisionen eines Arbeitsstücks kann eine große Herausforderung sein. Workfront vereinfacht diesen Prozess, da Sie mehrere Versionen eines Korrekturabzugs erstellen und vergleichen können.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
@@ -13,26 +13,26 @@ ht-degree: 0%
 
 ---
 
-# Erstellen einer neuen Testversion
+# Erstellen einer neuen Version eines Korrekturabzugs
 
-Das Verwalten von Feedback über mehrere Versionen oder Revisionen eines Werkes hinweg kann eine große Herausforderung sein. Workfront vereinfacht diesen Vorgang, indem Sie mehrere Testversionen erstellen und vergleichen können.
+Das Verwalten des Feedbacks über mehrere Versionen oder Revisionen eines Arbeitsstücks kann eine große Herausforderung sein. Workfront vereinfacht diesen Prozess, da Sie mehrere Versionen eines Korrekturabzugs erstellen und vergleichen können.
 
-Beachten Sie beim Erstellen einer neuen Testversand-Version die folgenden Informationen:
+Beachten Sie beim Erstellen einer neuen Version eines Korrekturabzugs die folgenden Informationen:
 
-* Sie können einem Benutzer Berechtigungen erteilen, eine Version, aber keine andere anzuzeigen. Wenn Sie hingegen eine spätere Version für einen Benutzer freigeben, kann dieser Benutzer frühere Versionen nur sehen, wenn Sie zurückgehen und dem Benutzer explizit Zugriff auf diese vorherigen Versionen gewähren.
-* Um eine neue Version eines Testversands zu erstellen, benötigen Sie die Berechtigung zum Bearbeiten des Testversands.
+* Sie können Benutzenden die Berechtigung erteilen, eine Version zu sehen, aber keine andere. Wenn Sie dagegen eine spätere Version für einen Benutzer freigeben, kann dieser Benutzer frühere Versionen nur sehen, wenn Sie zurückgehen und dem Benutzer explizit Zugriff auf diese früheren Versionen gewähren.
+* Um eine neue Version eines Korrekturabzugs zu erstellen, benötigen Sie Bearbeitungsrechte für den Korrekturabzug.
 
-  Weitere Informationen dazu, wer für einen Testversand Bearbeitungsrechte besitzt, finden Sie unter [Verwalten von Proof-Rollen in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md) und [Proof Permissions Profiles in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md) .
+  Workfront Proof Weitere Informationen [, wer Bearbeitungsrechte für einen Korrekturabzug hat, finden Sie unter ](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md)Verwalten von Korrekturabzugsberechtigungsprofilen in [Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-  Informationen zum Freigeben von Testversandversionen finden Sie unter  [Freigeben eines Testversands in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
+  Informationen zur Freigabe von Korrekturabzugsversionen finden Sie unter  [Freigeben eines Korrekturabzugs in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/share-proof.md).
 
 >[!IMPORTANT]
 >
->Wenn in Adobe Workfront ein Testversand erstellt wird, müssen alle neuen Versionen, die für diesen Testversand erstellt wurden, auch in Workfront erstellt werden. Es ist nicht möglich, in Workfront Proof eine neue Testversion zu erstellen, wenn dieser Testversand in Workfront erstellt wurde.
+>Wenn ein Korrekturabzug in Adobe Workfront erstellt wird, müssen alle neuen Versionen, die für diesen Korrekturabzug erstellt werden, auch in Workfront erstellt werden. Sie können keine neue Version eines Korrekturabzugs in Workfront Proof erstellen, wenn dieser Korrekturabzug in Workfront erstellt wurde.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -42,53 +42,53 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Erstellen einer neuen Testversion in Workfront
+## Erstellen einer neuen Version eines Korrekturabzugs in Workfront
 
-Es gibt mehrere Möglichkeiten, eine neue Testversion in Workfront hochzuladen. Die Standardeinstellungen für den Testversand können je nach gewählter Methode von der vorherigen Version übernommen werden oder nicht:
+Es gibt mehrere Möglichkeiten, eine neue Korrekturabzugsversion in Workfront hochzuladen. Die standardmäßigen Korrekturabzugseinstellungen werden je nach ausgewählter Methode von der vorherigen Version übernommen oder nicht.
 
-* **Testsendungen beim Hochladen von Dokumenten automatisch generieren**: Die Standardeinstellungen für den Testversand werden nicht übernommen. Wenn Sie diese Einstellung in Ihrem Benutzerprofil aktiviert haben, werden die standardmäßigen Testversandeinstellungen beim Ziehen einer neuen Version nicht übernommen.
-* **Erstellen Sie einen Testversand > Einfach**: Die Standardeinstellungen für den Testversand werden nicht übernommen. Wenn Sie bei der Erstellung einer neuen Testversand-Version die Option Einfach auswählen, werden die standardmäßigen Testversandeinstellungen nicht von der vorherigen Version übernommen.
-* **Neu hinzufügen > Version > Testversand**: Die standardmäßigen Testversandeinstellungen werden von der vorherigen Version übernommen.
-* **Testversand erstellen > Erweitert**: Die standardmäßigen Testversandeinstellungen werden von der vorherigen Version übernommen.
+* **Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren**: Die Standardeinstellungen für Korrekturabzüge werden nicht übernommen. Wenn Sie diese Einstellung in Ihrem Benutzerprofil aktiviert haben, werden die Standardeinstellungen für Korrekturabzüge nicht übernommen, wenn Sie eine neue Version per Drag-and-Drop verschieben.
+* **Korrekturabzug erstellen > Einfach**: Die Standardeinstellungen für Korrekturabzüge werden nicht übernommen. Wenn Sie beim Erstellen einer neuen Korrekturabzugsversion Einfach auswählen, werden die standardmäßigen Korrekturabzugseinstellungen nicht von der vorherigen Version übernommen.
+* **Neu hinzufügen > Version > Korrekturabzug**: Die Standardeinstellungen für Korrekturabzüge werden von der vorherigen Version übernommen.
+* **Korrekturabzug erstellen > Erweitert**: Die Standardeinstellungen für Korrekturabzüge werden von der vorherigen Version übernommen.
 
   <table>
   <tbody>
   <tr>
   <td>Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren</td>
-  <td>Die Standardeinstellungen für den Testversand werden nicht übernommen. Wenn Sie diese Einstellung in Ihrem Benutzerprofil aktiviert haben, werden die standardmäßigen Testversandeinstellungen beim Ziehen einer neuen Version nicht übernommen.</td>
+  <td>Die Standardeinstellungen für Korrekturabzüge werden nicht übernommen. Wenn Sie diese Einstellung in Ihrem Benutzerprofil aktiviert haben, werden die Standardeinstellungen für Korrekturabzüge nicht übernommen, wenn Sie eine neue Version per Drag-and-Drop verschieben.</td>
   </tr>
   <tr>
-  <td>Testversand erstellen &gt; Einfach</td>
-  <td>Die Standardeinstellungen für den Testversand werden nicht übernommen. Wenn Sie bei der Erstellung einer neuen Testversand-Version die Option Einfach auswählen, werden die standardmäßigen Testversandeinstellungen nicht von der vorherigen Version übernommen.</td>
+  <td>Korrekturabzug erstellen &gt; Einfach</td>
+  <td>Die Standardeinstellungen für Korrekturabzüge werden nicht übernommen. Wenn Sie beim Erstellen einer neuen Korrekturabzugsversion Einfach auswählen, werden die standardmäßigen Korrekturabzugseinstellungen nicht von der vorherigen Version übernommen.</td>
   </tr>
   <tr>
   <td>Neu hinzufügen &gt; Version &gt; Testversand</td>
-  <td>Die Standardeinstellungen für den Testversand werden von der vorherigen Version übernommen.</td>
+  <td>Die Standardeinstellungen für Korrekturabzüge werden von der vorherigen Version übernommen.</td>
   </tr>
   <tr>
-  <td>Testversand erstellen &gt; Erweitert</td>
-  <td>Die Standardeinstellungen für den Testversand werden von der vorherigen Version übernommen.</td>
+  <td>Korrekturabzug erstellen &gt; Erweitert</td>
+  <td>Die Standardeinstellungen für Korrekturabzüge werden von der vorherigen Version übernommen.</td>
   </tr>
   </tbody>
   </table>
@@ -96,85 +96,85 @@ Es gibt mehrere Möglichkeiten, eine neue Testversion in Workfront hochzuladen. 
 
 
 
-So erstellen Sie eine neue Version eines Testversands:
+Erstellen einer neuen Version eines Korrekturabzugs:
 
-1. Öffnen Sie die Dokumentliste mit dem Testversand.
-1. Ziehen Sie aus dem Dateisystem Ihres Computers eine neue Datei auf den Testversand.
+1. Öffnen Sie die Dokumentliste, die den Korrekturabzug enthält.
+1. Ziehen Sie aus dem Dateisystem Ihres Computers eine neue Datei per Drag-and-Drop über den Korrekturabzug.
 
    Oder
 
-   Wählen Sie die Zeile aus, in der der Testversand aufgelistet ist, klicken Sie auf **Neu hinzufügen** > **Version** und dann auf die Option, mit der Sie die neue Version des Testversands hinzufügen möchten.
+   Wählen Sie die Zeile aus, in der der Korrekturabzug aufgeführt ist **klicken Sie auf „Neu hinzufügen** > **Version** und klicken Sie dann auf die Option, die Sie zum Hinzufügen der neuen Version des Korrekturabzugs verwenden möchten.
 
    ![](assets/add-new-version-350x185.png)
 
-## Erstellen Sie eine neue Testversion aus dem Testversand-Viewer (nur Workfront Proof).
+## Erstellen einer neuen Version eines Korrekturabzugs über die Proofing-Anzeige (nur Workfront Proof)
 
-Wenn Sie die eigenständige Workfront Proof verwenden, können Sie eine neue Testversion erstellen, die eine einzelne Datei oder Weberfassung enthält. 
+Wenn Sie die eigenständige Workfront Proof verwenden, können Sie eine neue Version eines Korrekturabzugs erstellen, der eine einzelne Datei oder ein Web-Capture enthält. 
 
 >[!NOTE]
 >
->Wenn Ihr Konto einen Enterprise-Plan hat und Sie mehrere Dateien oder Web-Captures hochladen, werden diese automatisch zu einer neuen Version zusammengefasst. Weitere Informationen finden Sie unter [Erstellen eines mehrseitigen Testversands](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md) .
+>Wenn für Ihr Konto ein Unternehmensabo erstellt wurde und Sie mehrere Dateien oder Web-Aufnahmen hochladen, werden diese automatisch in einer neuen Version kombiniert. Weitere Informationen finden [ unter „Erstellen eines mehrseitigen ](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)&quot;.
 
-So erstellen Sie eine neue Testversion in Workfront Proof:
+So erstellen Sie eine neue Version eines Korrekturabzugs in Workfront Proof:
 
-1. Öffnen Sie den Testversand.
-1. Klicken Sie oben links auf das Dropdownmenü **Version** und dann im angezeigten Feld auf **+ Neue Version** .
+1. Öffnen Sie den Korrekturabzug.
+1. Klicken Sie auf **Dropdown** Menü „Version“ in der oberen linken Ecke und klicken Sie dann in **angezeigten Feld auf**+ Neue Version .
 
-   Auf der angezeigten Seite **Neue Testversand-Version von** werden alle validierungsverantwortlichen Benutzer der vorherigen Version angezeigt, einschließlich ihrer Rollen und E-Mail-Benachrichtigungseinstellungen. Sie können die Rollen und Benachrichtigungen bestehender Validierungsverantwortlicher einfach bearbeiten oder vorhandene Validierer aus der neuen Version auf dieser Seite entfernen.
+   Auf der Seite **Neue Korrekturabzugsversion von** werden alle validierungsverantwortlichen Benutzer aus der vorherigen Version angezeigt, einschließlich ihrer Rollen und E-Mail-Benachrichtigungseinstellungen. Sie können auf dieser Seite einfach die Rollen und Benachrichtigungen vorhandener Reviewer bearbeiten oder vorhandene Reviewer aus der neuen Version entfernen.
 
-1. Laden Sie unter **Dateien hinzufügen** eine Datei als neue Version des Testversands hoch, indem Sie sie per Drag-and-Drop von Ihrem Computer ziehen oder auf **Durchsuchen** klicken und die gewünschte Datei auswählen. Sie können einen **Testversand-Namen** für die Version eingeben oder dieses Feld leer lassen, um denselben Dateinamen mit einer Versionsnummer zu verwenden, die am Ende hinzugefügt wird.
+1. Laden **unter &quot;** hinzufügen“ eine Datei als neue Version des Korrekturabzugs hoch, indem Sie sie von Ihrem Computer ziehen und ablegen oder auf **Durchsuchen** klicken und die gewünschte Datei auswählen. Sie können einen **Korrekturabzugsnamen** für die Version eingeben oder dieses Feld leer lassen, um denselben Dateinamen mit einer Versionsnummer am Ende hinzuzufügen.
 
    Oder
 
-   Erfassen Sie eine Webseite als neue Version des Testversands, indem Sie eine URL eingeben.
+   Erfassen Sie eine Web-Seite als neue Version des Korrekturabzugs, indem Sie eine URL eingeben.
 
    >[!NOTE]
    >
-   >Drag &amp; Drop ist nur bei Browsern verfügbar, die HTML 5 vollständig unterstützen. Hiervon ausgenommen sind Internet Explorer 7 bis 9 und Safari.
+   >Drag-and-Drop ist nur bei Browsern verfügbar, die HTML5 vollständig unterstützen. Ausgeschlossen sind Internet Explorer 7 bis 9 und Safari.
 
-1. Nehmen Sie unter **Workflow** eine der folgenden Änderungen vor, um die Validierer für diese Version des Testversands anzugeben.
+1. Führen **unter** Workflow“ eine der folgenden Änderungen durch, um die Reviewer für diese Version des Korrekturabzugs anzugeben.
 
-   Überprüfer aus der vorherigen Version werden durch die von Ihnen hinzugefügten Überprüfer ersetzt.
+   Reviewer aus der vorherigen Version werden durch die von Ihnen hinzugefügten Reviewer ersetzt.
 
    * Ändern Sie den **Inhaber** der Version in einen anderen Benutzer in Ihrem Konto.\
-     Weitere Informationen zu Berechtigungen für Inhaber finden Sie unter [Profile für Testberechtigungen in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
+     Informationen zu Eigentümerberechtigungen finden Sie unter [Profile für Korrekturabzugsberechtigungen in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/proof-perm-profiles-in-wp.md).
 
-   * Fügen Sie der Version mithilfe des Kontaktnamen oder der E-Mail-Adresse **Typ ein Empfängerfeld** hinzu. Sie können für jeden Empfänger eine **Proof role** und einen **E-Mail-Warnungen**-Typ angeben.
+   * Fügen Sie mithilfe von **Kontaktnamen oder E-Mail-Adresse eingeben, um ein Empfängerfeld hinzuzufügen** Validierungsverantwortliche zur Version hinzu. Sie können für jeden Empfänger eine **Rolle** Korrekturabzugs) und einen Typ **E-Mail** Warnhinweise“ angeben.
 
-     Informationen zum Hinzufügen von Gruppen zum Testversand finden Sie unter  [Gruppen zu einem Testversand hinzufügen](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Weitere Informationen zu Rollen finden Sie unter [Verwalten von Proof-Rollen in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+     Informationen zum Hinzufügen von Gruppen zum Korrekturabzug finden Sie unter  [Gruppen zu einem Korrekturabzug hinzufügen](../../../workfront-proof/wp-mnguserscontacts/groups/add-groups.md). Informationen zu Rollen finden Sie unter [Verwalten von Korrekturabzugsrollen in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
      >[!NOTE]
      >
-     >Wenn der Ersteller oder Eigentümer  Wenn für den Testversand die Option [E-Mail vom Typ Testversand](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) standardmäßig deaktiviert ist (in den persönlichen Einstellungen), erhalten diese keine E-Mails vom Typ Testversand oder Neuer Testversand, selbst wenn auf der Seite Neuer Testversand die Option Personen per E-Mail benachrichtigen aktiviert ist. Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [E-Mail-Benachrichtigungseinstellungen in Workfront Proof konfigurieren](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Siehe auch [Die E-Mail zum Testversand](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) und [Neue Testversand-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
+     >Wenn der Ersteller oder Besitzer von  Wenn für den Korrekturabzug [Die E-Mail zu Korrekturabzügen erstellt](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) standardmäßig deaktiviert ist (in den persönlichen Einstellungen), erhalten sie keine E-Mails zu Korrekturabzügen oder neuen Korrekturabzügen, selbst wenn das Kontrollkästchen Personen per E-Mail benachrichtigen auf der Seite Neuer Korrekturabzug aktiviert ist. Weitere Informationen zu E-Mail-Benachrichtigungen finden Sie unter [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in Workfront Proof](../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md). Siehe auch [E-Mail zu Korrekturabzug erstellt](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/proof-made-email.md) und [Neue Korrekturabzugs-E-Mail](../../../workfront-proof/wp-emailsntfctns/proof-notifications-and-reminders/new-proof-email.md).
 
-   * Legen Sie eine Testversand-Deadline für die Version fest.
-   * Bewegen Sie den Mauszeiger über den Namen eines Validierers, um alle Entscheidungen anzuzeigen, die er in einer früheren Version getroffen hat.
+   * Legen Sie eine Frist für den Korrekturabzug für die Version fest.
+   * Bewegen Sie den Mauszeiger über den Namen eines Reviewers, um alle Entscheidungen anzuzeigen, die er oder sie bezüglich einer früheren Version getroffen hat.
 
-1. Führen Sie unter **E-Mail-Benachrichtigung** einen der folgenden Schritte aus:
+1. Führen **unter „E** Mail-Benachrichtigung“ einen der folgenden Schritte aus:
 
    * Geben Sie an, ob Sie die Validierungsverantwortlichen über die neue Version informieren möchten.\
-     Ihre Auswahl wird im Abschnitt Aktivität auf der Seite Testversand-Details protokolliert. Weitere Informationen finden Sie unter [Verwalten von Testversanddetails in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+     Ihre Auswahl wird im Abschnitt Aktivität der Seite mit den Korrekturabzugsdetails protokolliert. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
    * Fügen Sie einen benutzerdefinierten Betreff und eine Nachricht hinzu.
 
-1. Führen Sie im Abschnitt **Organisation** einen der folgenden Schritte aus: 
+1. Führen Sie **Abschnitt** Organisation“ einen der folgenden Schritte aus: 
 
-   * Anwenden eines oder mehrerer Tags auf den Testversand. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
-     Beachten Sie, dass Tags auch von der vorherigen Version des Testversands übernommen werden. Wenn Sie der neuen Version ein neues Tag hinzufügen, werden auch frühere Versionen mit Tags versehen.
+   * Wenden Sie ein oder mehrere Tags auf den Korrekturabzug an. Weitere Informationen finden Sie unter [Erstellen und Verwalten von Tags in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-and-manage-tags.md).\
+     Beachten Sie, dass Tags auch von der vorherigen Version des Korrekturabzugs übernommen werden. Wenn Sie der neuen Version ein neues Tag hinzufügen, werden auch frühere Versionen mit Tags versehen.
 
-   * Fügen Sie die Version einem Ordner hinzu. Weitere Informationen finden Sie unter [Verwalten von Ordnern in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) . Der Ordner wird aus der vorherigen Version des Testversands kopiert. Wenn Sie einen anderen Ordner auswählen, wird der gesamte Testversand (alle Versionen) verschoben.
+   * Fügen Sie die Version einem Ordner hinzu. Weitere [ finden Sie unter ](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md) in Workfront Proof verwalten . Der Ordner wird aus der vorherigen Version des Korrekturabzugs kopiert. Wenn Sie einen anderen Ordner auswählen, wird der gesamte Korrekturabzug (alle Versionen) verschoben.
 
-   * Rechnungsadministratoren und Administratoren können das Ordnerfeld für das gesamte Konto auf der Registerkarte Einstellungen obligatorisch machen. Weitere Informationen finden Sie unter .
+   * Rechnungsadministratoren und -administratoren können auf der Registerkarte Einstellungen das Feld Ordner für das gesamte Konto als Pflichtfeld festlegen. Weitere Informationen finden Sie unter.
 
 1. Nehmen Sie unter Testversandeinstellungen eine der folgenden Änderungen vor:
 
-   * Anmeldung beim Testversand erforderlich
-   * Elektronische Signaturen für den Testversand erforderlich (nur Enterprise-Plan)
-   * Sperren des Testversands bei allen Entscheidungen
-   * Herunterladen der Originaldatei zulassen oder blockieren
-   * Öffentliche Freigabe des Testversands, einschließlich Einstellungen für die öffentliche Freigabe
-   * Testversand-Anmeldung\
-     Die in diesem Abschnitt vorgenommenen Auswahlen werden auf der Seite Testversand-Details angezeigt (auf der einige Felder bearbeitet werden können). Weitere Informationen finden Sie unter [Verwalten von Testversanddetails in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
+   * Anmeldung beim Korrekturabzug verlangen
+   * Elektronische Signaturen für den Testversand verlangen (nur Enterprise-Plan)
+   * Korrekturabzug bei allen Entscheidungen sperren
+   * Download der Originaldatei zulassen oder blockieren
+   * Öffentliche Freigabe des Korrekturabzugs, einschließlich öffentlicher Freigabeeinstellungen
+   * Testversand-Abonnement\
+     Die in diesem Abschnitt vorgenommenen Auswahlen werden auf der Seite Korrekturabzugsdetails angezeigt (wo einige Felder bearbeitet werden können). Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsdetails in Workfront Proof](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
 
 <!--
 <h2 data-mc-conditions="QuicksilverOrClassic.Draft mode">Create a new version of a proof from the proofing viewer</h2>
@@ -223,23 +223,23 @@ If the creator or owner of&nbsp;&nbsp;the proof has
 </ol>
 -->
 
-## Über die Nachricht &quot;Neue Version&quot;
+## Über die Nachricht Neue Version
 
-Wenn in der vorherigen Version des Testversands ein benutzerdefinierter Betreff/eine benutzerdefinierte Nachricht enthalten war, wird diese standardmäßig auf der Seite Neue Version angezeigt. Sie können:
+Wenn in der vorherigen Version des Korrekturabzugs ein benutzerdefinierter Betreff/eine benutzerdefinierte Nachricht enthalten war, wird sie/sie standardmäßig auf der Seite „Neue Version“ angezeigt. Sie können:
 
 * Bearbeiten Sie den Betreff und die Nachricht.
-* Deaktivieren Sie das Feld Personen per E-Mail benachrichtigen , d. h., Ihre Prüfer erhalten keine E-Mail, um ihnen mitzuteilen, dass sie über eine neue Version verfügen, die überprüft werden soll.
+* Deaktivieren Sie das Kontrollkästchen Personen per E-Mail benachrichtigen. Das bedeutet, dass keine E-Mail an Ihre Prüfer gesendet wird, um sie darüber zu informieren, dass sie eine neue Version zur Überprüfung haben.
 
   >[!NOTE]
   >
-  >Dies wird durch benutzerdefinierte Standardbetreff/Standardnachricht, die in Ihren persönlichen Einstellungen gespeichert sind, nicht beeinträchtigt.
+  >Dies wird durch keinen in Ihren persönlichen Einstellungen gespeicherten benutzerdefinierten Betreff/keine Nachricht beeinflusst.
 
-Wenn Sie einen Standardbetreff und eine Standardnachricht in Ihren persönlichen Einstellungen gespeichert haben, wirkt sich dies auf die Nachricht aus, die standardmäßig auf der Seite Neue Version angezeigt wird:
+Wenn Sie einen Standardbetreff und eine Standardnachricht in Ihren persönlichen Einstellungen gespeichert haben, wirkt sich dies auf die standardmäßig auf der Seite Neue Version angezeigte Nachricht aus:
 
-* Wenn Sie Ihre validierungsverantwortlichen Benutzer per E-Mail über die vorherige Testversand-Version mit der Standard-E-Mail informieren möchten (z. B. kein benutzerspezifischer Betreff/keine benutzerdefinierte Nachricht), wird Ihr standardmäßiger benutzerdefinierter Betreff/Ihre benutzerdefinierte Nachricht (Ihre persönlichen Einstellungen) auf der Seite Neue Version angezeigt. Sie können dann den benutzerdefinierten Betreff und die Nachricht bearbeiten oder die Auswahl des Felds Personen per E-Mail benachrichtigen aufheben (d. h., Ihre Prüfer erhalten keine E-Mail, um ihnen mitzuteilen, dass sie eine neue Version zur Überprüfung haben).
-* Wenn Sie Ihre Validierungsverantwortlichen nicht per E-Mail über die frühere Testversand-Version informieren möchten (z. B. keine standardmäßige oder benutzerdefinierte E-Mail), enthält die Seite &quot;Neue Version&quot;standardmäßig keine Nachricht. Um Ihre Validierungsverantwortlichen über die neue Version zu informieren, klicken Sie auf den Link Nachricht senden , der Ihren standardmäßigen benutzerdefinierten Betreff/Ihre standardmäßige Nachricht anzeigt (entsprechend Ihren persönlichen Einstellungen). Sie können dann bei Bedarf den benutzerdefinierten Betreff und die Nachricht bearbeiten.
+* Wenn Sie sich dafür entschieden haben, Ihre Prüfer per E-Mail über die vorherige Version des Korrekturabzugs mithilfe der Standard-E-Mail zu benachrichtigen (z. B. ohne benutzerdefinierten Betreff/benutzerdefinierte Nachricht), wird Ihr standardmäßiger benutzerdefinierter Betreff/Ihre benutzerdefinierte Nachricht (Ihre persönlichen Einstellungen) auf der Seite Neue Version angezeigt. Sie können dann den benutzerdefinierten Betreff und die Nachricht bearbeiten oder das Kontrollkästchen Personen per E-Mail benachrichtigen deaktivieren (d. h. Ihre Prüfer erhalten keine E-Mail, um sie darüber zu informieren, dass sie eine neue Version zur Überprüfung haben).
+* Wenn Sie sich dafür entschieden haben, Ihre Prüfer nicht per E-Mail über die vorherige Version des Korrekturabzugs zu benachrichtigen (z. B. keine Standard- oder benutzerdefinierte E-Mail), enthält die Seite Neue Version standardmäßig keine Nachricht. Um Ihre Validierungsverantwortlichen über die neue Version zu informieren, klicken Sie auf den Link Nachricht senden , wodurch der Standardbetreff bzw. die Standardnachricht (gemäß Ihren persönlichen Einstellungen) angezeigt wird. Bei Bedarf können Sie dann den benutzerdefinierten Betreff und die Nachricht bearbeiten.
 
-Wenn Sie keinen Standardbetreff und keine Standardnachricht in Ihren persönlichen Einstellungen gespeichert haben, wird Folgendes auf der Seite Neue Version angezeigt:
+Wenn Sie in Ihren persönlichen Einstellungen keinen Standardbetreff und keine Standardnachricht gespeichert haben, wird Folgendes auf der Seite Neue Version angezeigt:
 
-* Wenn Sie Ihre validierungsverantwortlichen Benutzer per E-Mail über die vorherige Testversand-Version mit der Standard-E-Mail benachrichtigen möchten (z. B. kein benutzerspezifischer Betreff/keine benutzerdefinierte Nachricht), wird die Option Personen per E-Mail benachrichtigen standardmäßig auf der Seite Neue Version ausgewählt. Um eine benutzerdefinierte Nachricht hinzuzufügen, klicken Sie auf den Link.
-* Wenn Sie Ihre Validierungsverantwortlichen nicht per E-Mail über die frühere Testversand-Version informieren möchten (z. B. keine standardmäßige oder benutzerdefinierte E-Mail), enthält die Seite &quot;Neue Version&quot;standardmäßig keine Nachricht. Klicken Sie auf den Link Nachricht senden , um die Validierungsverantwortlichen über die neue Version zu informieren. Sie können dann einen benutzerdefinierten Betreff und eine Nachricht hinzufügen, indem Sie auf den Link Benutzerdefinierte Nachricht hinzufügen klicken.
+* Wenn Sie entschieden haben, Ihre Prüfer per E-Mail über die vorherige Version des Korrekturabzugs mit der Standard-E-Mail zu benachrichtigen (z. B. ohne benutzerdefinierten Betreff/Nachricht), wird die Option Personen per E-Mail benachrichtigen auf der Seite Neue Version standardmäßig ausgewählt. Um eine benutzerdefinierte Nachricht hinzuzufügen, klicken Sie auf den Link.
+* Wenn Sie sich dafür entschieden haben, Ihre Prüfer nicht per E-Mail über die vorherige Version des Korrekturabzugs zu benachrichtigen (z. B. keine Standard- oder benutzerdefinierte E-Mail), enthält die Seite Neue Version standardmäßig keine Nachricht. Um Ihre Validierungsverantwortlichen über die neue Version zu informieren, klicken Sie auf den Link Nachricht senden . Sie können dann einen benutzerdefinierten Betreff und eine benutzerdefinierte Nachricht hinzufügen, indem Sie auf den Link Benutzerdefinierte Nachricht hinzufügen klicken.

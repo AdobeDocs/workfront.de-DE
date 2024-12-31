@@ -3,7 +3,7 @@ product-previous: workfront-proof
 product-area: documents
 navigation-topic: review-proofs-workfront-proofing-viewer
 title: Korrekturabzüge vergleichen
-description: Sie können den Testversand-Viewer verwenden, um zwei verschiedene Testsendungen oder zwei Versionen desselben Testversands zu vergleichen.
+description: Mit der Korrekturabzugsanzeige können Sie zwei verschiedene Korrekturabzüge oder zwei Versionen desselben Korrekturabzugs vergleichen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
@@ -16,11 +16,11 @@ ht-degree: 2%
 
 # Korrekturabzüge vergleichen
 
-Sie können den Testversand-Viewer verwenden, um zwei verschiedene Testsendungen oder zwei Versionen desselben Testversands zu vergleichen.
+Mit der Korrekturabzugsanzeige können Sie zwei verschiedene Korrekturabzüge oder zwei Versionen desselben Korrekturabzugs vergleichen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,39 +30,39 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Überprüfung</p> <p>Veralteter Plan: Überprüfung</p> </td> 
+   <td> <p>Aktueller Plan: Überprüfen</p> <p>Legacy-Plan: Überprüfen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Vergleichen zweier verschiedener Testsendungen
+## Vergleichen von zwei verschiedenen Korrekturabzügen
 
-Sie können zwei Testsendungen innerhalb einer Dokumentliste vergleichen, z. B. auf der Registerkarte &quot;Dokumente&quot;in einem Projekt, einer Aufgabe, einem Problem, einem Portfolio oder im Hauptbereich &quot;Dokumente&quot;.
+Sie können zwei Korrekturabzüge in einer einzigen Dokumentliste vergleichen, z. B. auf der Registerkarte Dokumente in einem Projekt, einer Aufgabe, einem Problem, einem Portfolio oder im Hauptbereich Dokumente .
 
-1. Gehen Sie zur Dokumentliste, die die beiden zu vergleichenden getesteten Dokumente enthält.
-1. Wählen Sie das erste Dokument aus, das Sie vergleichen möchten, drücken Sie dann die Befehlstaste (Mac) oder die Strg-Taste (Windows) und wählen Sie das zweite Dokument aus, das Sie vergleichen möchten.
+1. Navigieren Sie zur Dokumentliste, die die beiden geprüften Dokumente enthält, die Sie vergleichen möchten.
+1. Wählen Sie das erste zu vergleichende Dokument aus, halten Sie dann die Befehlstaste (Mac) oder die Strg-Taste (Windows) gedrückt und wählen Sie das zweite zu vergleichende Dokument aus.
 
    >[!NOTE]
    >
-   >Für jedes Dokument, das Sie zum Vergleich auswählen, muss bereits ein Testversand erstellt worden sein.
+   >Für jedes Dokument, das Sie zum Vergleich auswählen, muss bereits ein Korrekturabzug generiert werden.
 
-1. Klicken Sie auf **Testsendungen vergleichen**.
+1. Klicken Sie **Korrekturabzüge vergleichen**.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
@@ -70,14 +70,14 @@ Sie können zwei Testsendungen innerhalb einer Dokumentliste vergleichen, z. B. 
 
    ![](assets/compare-proofs-select-docs-350x138.jpg)
 
-   Beide Testsendungen werden im Testversand-Viewer nebeneinander angezeigt. Sie können jedes Dokument beim Vergleich überprüfen.
+   Beide Korrekturabzüge werden in der Korrekturabzugsansicht nebeneinander angezeigt. Sie können jedes Dokument überprüfen und vergleichen.
 
-   Separate Breadcrumbs über jedem Testversand ermöglichen es Ihnen, das dem Testversand zugeordnete Arbeitselement anzuzeigen und zu öffnen:
+   Separate Breadcrumbs über jedem Korrekturabzug ermöglichen es Ihnen, das mit dem Korrekturabzug verknüpfte Arbeitselement anzuzeigen und zu ihm zu wechseln:
 
    ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
-   Informationen zu den Tools, die Sie zum Vergleich der beiden Testsendungen verwenden können, finden Sie unter  [Verwenden Sie die Vergleichswerkzeuge](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools) in [Testsendungen im Testversand-Viewer vergleichen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+   Informationen zu den Tools, mit denen Sie die beiden Testsendungen vergleichen können, finden Sie unter  [Verwenden Sie die Vergleichs](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)-Tools unter [Korrekturabzüge im Proofing-Viewer vergleichen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 
-## Vergleichen von zwei Versionen desselben Testversands
+## Vergleichen von zwei Versionen desselben Korrekturabzugs
 
-Informationen zum Vergleich von zwei Versionen desselben Testversands finden Sie unter [Vergleichen von Testversandversionen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [Vergleichen von Testsendungen im Testversand-Viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
+Informationen zum Vergleichen von zwei Versionen desselben Korrekturabzugs finden Sie unter [Korrekturabzugsversionen vergleichen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#comparing-proof-versions) in [Korrekturabzüge im Korrekturabzugsansicht vergleichen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).

@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 16
-description: Adobe Workfront hat die API-Version 16 am 6. April 2022 veröffentlicht. API Version 16 enthält die folgenden Änderungen gegenüber Version 15.
+title: Neue Funktionen in der API-Version 16
+description: Adobe Workfront hat API Version 16 am 6. April 2022 veröffentlicht. Die API-Version 16 enthält die folgenden Änderungen gegenüber Version 15.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Neue Funktionen in API Version 16
+# Neue Funktionen in der API-Version 16
 
-Adobe Workfront hat die API-Version 16 am 6. April 2023 veröffentlicht. API Version 16 enthält die folgenden Änderungen gegenüber Version 15.
+Adobe Workfront hat API Version 16 am 6. April 2023 veröffentlicht. Die API-Version 16 enthält die folgenden Änderungen gegenüber Version 15.
 
-## Hinzugefügte Ressourcen
+## Ressourcen hinzugefügt
 
-Für API Version 16 wurden keine Ressourcen hinzugefügt.
+Für API-Version 16 wurden keine Ressourcen hinzugefügt.
 
 ## Entfernte Ressourcen
 
@@ -29,23 +29,23 @@ Für API-Version 16 wurden keine Ressourcen entfernt
 ## Geänderte Ressourcen
 
 <!--* [AccessLevel (ACSLVL)](#accesslevel-acslvl)-->
-* [Genehmigung (GENEHMIGUNG)](#approval-approval)
-* [CustomerPreferences (CUSTPR)](#customerpreferences-custpr)
-* [ExternalSection (EXTSEC)](#externalsection-extsec)
+* [Validierung (VALIDIERUNG)](#approval-approval)
+* [Kundenvoreinstellungen (CUSTPR)](#customerpreferences-custpr)
+* [ExternalSection (EXTEC)](#externalsection-extsec)
 * [Stunde (STUNDE)](#hour-hour)
-* [LayoutTemplate (UITMPL)](#layouttemplate-uitmpl)
-* [Hinweis (HINWEIS)](#note-note)
-* [OpTask/Problem (OPTASK)](#note-note)
+* [Layout-Vorlage (UTIMPL)](#layouttemplate-uitmpl)
+* [Notiz (HINWEIS)](#note-note)
+* [Aufgabe/Problem (OPTASK)](#note-note)
 * [Projekt (PROJ)](#project-proj)
-* [Rate (RATE)](#rate-rate)
+* [Satz (RATE)](#rate-rate)
 * [RichTextNote (RHNOTE)](#richtextnote-rhnote)
-* [Rolle/Auftragsrolle (ROLE)](#role--job-role-role)
-* [Aufgabe (TASK)](#task-task)
-* [Datenblatt (TSHET)](#timesheet-tshet)
-* [UIFilter/Filter (UIFT)](#uifilter--filter-uift)
-* [UIGroupBy / Grouping (UIGB)](#uigroupby--grouping-uigb)
+* [Funktion/Aufgabengebiet (ROLE)](#role--job-role-role)
+* [Aufgabe (AUFGABE)](#task-task)
+* [Arbeitszeittabelle (TABELLE)](#timesheet-tshet)
+* [UIFilter / Filter (UIFT)](#uifilter--filter-uift)
+* [UIGroupBy/Gruppierung (UIGB)](#uigroupby--grouping-uigb)
 * [UIView/View (UIVW)](#uiview--view-uivw)
-* [Benutzer (BENUTZER)](#user-user)
+* [Benutzer (USER)](#user-user)
 * [UserNote (USRNOT)](#usernote-usrnot)
 
 <!--
@@ -80,9 +80,9 @@ An AccessLevel object is associated with users, and describes the set of AccessL
 
 -->
 
-### Genehmigung (GENEHMIGUNG)
+### Validierung (VALIDIERUNG)
 
-Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Timesheet, kann vorschreiben, dass ein Supervisor oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Approval-Objekt stellt die Aktion zum Abmelden eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table>
   <col/>
@@ -95,7 +95,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten Arbeit pro Tag an, die Sie ausführen müssen. Es hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
           </li>
         </ul>
       </td>
@@ -103,7 +103,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
  </tbody>
 </table>
 
-### Zuweisung (ASSGN)
+### Zuweisung (ZUWEISUNG)
 
 Ein Zuweisungsobjekt stellt die Verbindung zwischen einem Arbeitselement und dem Benutzer, Team oder der Gruppe dar, der bzw. die für die Bearbeitung zugewiesen ist.
 
@@ -118,12 +118,12 @@ Ein Zuweisungsobjekt stellt die Verbindung zwischen einem Arbeitselement und dem
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten Arbeit pro Tag an, die Sie ausführen müssen. Es hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
           </li>
           <li>
-            <p><b>isContased</b>
+            <p><b>isContured</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt. Es ist ein boolescher Wert, der angibt, ob die Zuweisung beibehalten wird. Wenn die Minuten der Zuweisung pro Tag im Lastenausgleich bearbeitet wurden, wurde die Zuweisung beibehalten.</p>
+            <p>Dieses Feld wurde hinzugefügt und ist ein boolescher Wert, der angibt, ob die Zuweisung konturiert ist. Wenn die Minuten der Zuweisung pro Tag im Workload Balancer bearbeitet wurden, wurde für die Zuweisung ein Konturverfahren erstellt.</p>
           </li>
         </ul>
       </td>
@@ -134,7 +134,7 @@ Ein Zuweisungsobjekt stellt die Verbindung zwischen einem Arbeitselement und dem
 
 ### CustomEnum (CSTEM)
 
-Das CustomEnum -Objekt unterstützt die Konvertierung von Status-Codes in für Menschen lesbaren Text.
+Das CustomEnum-Objekt unterstützt Sie beim Konvertieren von Status-Codes in für Menschen lesbaren Text.
 
 <table>
   <col/>
@@ -156,9 +156,9 @@ Das CustomEnum -Objekt unterstützt die Konvertierung von Status-Codes in für M
  </tbody>
 </table>
 
-### CustomerPreferences (CUSTPR)
+### Kundenvoreinstellungen (CUSTPR)
 
-Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Instanz von Workfront festgelegt hat.
+Ein CustomerPreferences-Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Workfront-Instanz festgelegt hat.
 
 <table>
   <col/>
@@ -188,16 +188,16 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
           <li>
             <p><b>getIsAutoUpgradeDisabled</b>
             </p>
-            <p>Diese Aktion gibt einen booleschen Wert zurück, der beschreibt, ob der Kunde die Option zur automatischen Aktualisierung von Mitwirkenden-Lizenzinhabern deaktiviert hat.</p>
+            <p>Diese Aktion gibt einen booleschen Wert zurück, der beschreibt, ob die Kundin oder der Kunde die Option zum automatischen Upgrade von Mitwirkenden-Lizenzinhabern deaktiviert hat.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### ExternalSection (EXTSEC)
+### ExternalSection (EXTEC)
 
-Ein ExternalSection -Objekt ist eine externe Webseite, die in einen Workfront-Bericht eingebettet ist.
+Ein ExternalSection-Objekt ist eine externe Webseite, die in einen Workfront-Bericht eingebettet ist.
 
 <table>
   <col/>
@@ -210,12 +210,12 @@ Ein ExternalSection -Objekt ist eine externe Webseite, die in einen Workfront-Be
            <li>
             <p><b>calculateIframeURL</b>
             </p>
-            <p>Dieser wurde hinzugefügt und berechnet die URL eines in einen Bericht eingebetteten iFrame.</p>
+            <p>Dieser wurde hinzugefügt und berechnet die URL eines in einen Bericht eingebetteten iFrames.</p>
          </li>
           <li>
             <p><b>calculateIframeURLS</b>
             </p>
-            <p>Dieser wurde hinzugefügt und berechnet die URLs der in einen Bericht eingebetteten iFrames.</p>
+            <p>Dieser wurde hinzugefügt und berechnet die URLs von iFrames, die in einen Bericht eingebettet sind.</p>
          </li>
         </ul>
       </td>
@@ -224,7 +224,7 @@ Ein ExternalSection -Objekt ist eine externe Webseite, die in einen Workfront-Be
 
 ### Stunde (STUNDE)
 
-Ein Hour -Objekt stellt eine Stunde dar, die von einem Benutzer auf einem Timesheet protokolliert wird.
+Ein Stunden -Objekt steht für eine Stunde, die ein Benutzer in einer Arbeitszeittabelle protokolliert.
 
 <table>
   <col/>
@@ -237,7 +237,7 @@ Ein Hour -Objekt stellt eine Stunde dar, die von einem Benutzer auf einem Timesh
           <li>
             <p><b>timesheetHourIdentifier</b>
             </p>
-            <p>Hinzugefügt. Mit diesem Parameter werden die mit <code>batchSave</code> erstellten Stunden identifiziert. </p>
+            <p>hinzugefügt. Dieser Parameter wird verwendet, um die mit <code>batchSave</code> erstellten Stunden zu identifizieren. </p>
            </li>
         </ul>
       </td>
@@ -276,9 +276,9 @@ Adobe Workfront administrators or group administrators can create templates to c
 </table>
 -->
 
-### Hinweis (HINWEIS)
+### Notiz (HINWEIS)
 
-Ein Hinweis -Objekt ist ein Kommentar oder eine Aktualisierung, die an einem Workfront-Objekt vorgenommen wird.
+Ein Notizobjekt ist ein Kommentar oder eine Aktualisierung eines Workfront-Objekts.
 
 <table>
   <col/>
@@ -289,7 +289,7 @@ Ein Hinweis -Objekt ist ein Kommentar oder eine Aktualisierung, die an einem Wor
       <td>
         <ul>
           <li>
-            <p><b>attachDocuments</b>
+            <p><b>attachedDocuments</b>
             </p>
             <p>Dieses Feld wurde hinzugefügt und stellt eine Liste von Dokumenten dar, die an den Kommentar angehängt sind.</p>
           </li>
@@ -299,9 +299,9 @@ Ein Hinweis -Objekt ist ein Kommentar oder eine Aktualisierung, die an einem Wor
  </tbody>
 </table>
 
-### OpTask/Problem (OPTASK)
+### Aufgabe/Problem (OPTASK)
 
-Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise anzeigt, dass ein Problem vorliegt, das die Fertigstellung einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungen bei Bestellungen, Anforderungen und Fehlern sind ebenfalls Probleme.
+Ein OpTask-Objekt wird im Allgemeinen als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise darauf hinweist, dass ein Problem vorliegt, das den Abschluss einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungsanforderungen, -anfragen und -fehler sind ebenfalls Probleme.
 
 <table>
   <col/>
@@ -314,7 +314,7 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten Arbeit pro Tag an, die Sie ausführen müssen. Es hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
           </li>
         </ul>
       </td>
@@ -326,7 +326,7 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Durch diese Aktion wurde das Feld <code>teamIDs</code> hinzugefügt, um die Funktion zum Zuweisen mehrerer Teams zu einer Aufgabe oder einem Problem zu unterstützen.</p>
+            <p>Durch diese Aktion wurde die <code>teamIDs</code> hinzugefügt, um die Funktion zum Zuweisen mehrerer Teams zu einer Aufgabe oder einem Problem zu unterstützen.</p>
          </li>
         </ul>
       </td>
@@ -336,7 +336,7 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
 
 ### Projekt (PROJ)
 
-Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, wie Workfront Menschen bei der Arbeit unterstützt. Ein Projektobjekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
+Projekte sind Arbeitselemente innerhalb von Workfront und ein wichtiger Baustein in der Art und Weise, wie Workfront Menschen bei der Arbeit unterstützt. Ein Project-Objekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
 
 <table>
   <col/>
@@ -357,9 +357,9 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
  </tbody>
 </table>
 
-### Rate (RATE)
+### Satz (RATE)
 
-Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
+Ein Tarifobjekt stellt einen Abrechnungssatz in Workfront dar.
 
 <table>
   <col/>
@@ -374,10 +374,10 @@ Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
             <p><b>LocalBillingPerHour</b></p>
             <p><b>localCostPerHour</b></p>
             <p><b>localCurrency</b></p>
-           <p>Diese Parameter wurden vom Rollenobjekt in das Rate -Objekt verschoben, sodass Rolle- und Benutzerobjekte mehrere Werte aufweisen können (für separate Datumsbereiche).</p>
+           <p>Diese Parameter wurden aus dem Role-Objekt in das Rate-Objekt verschoben, sodass Role- und User-Objekte mehrere Werte haben können (für separate Datumsbereiche).</p>
           </li>
           <li><p><b>objID</b></p><p><b>objObjCode</b></p>
-          <p>Diese Parameter stellen die ID und den Objektcode des Objekts dar, an das die Rate angehängt ist.
+          <p>Diese Parameter stellen die ID und den Objekt-Code des Objekts dar, mit dem die Rate verknüpft ist.
           </li>
         </ul>
       </td>
@@ -388,7 +388,7 @@ Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
         <ul>
           <li>
              <p><b>setRateForObject</b></p>
-           <p>Diese Aktion wurde hinzugefügt und hängt Rate -Objekte an das angegebene Objekt an. Dieser Endpunkt funktioniert für alle angehängten Ratenobjekte.</p>
+           <p>Diese Aktion wurde hinzugefügt und fügt Rate -Objekte an das angegebene Objekt an. Dieser Endpunkt funktioniert für alle „Rate Attachable“-Objekte.</p>
           </li>
         </ul>
       </td>
@@ -398,13 +398,13 @@ Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
 
 ### RichTextNote (RHNOTE)
 
-Ein RichTextNote -Objekt ist ein Kommentar oder eine Aktualisierung eines Workfront-Objekts, das Rich-Text (z. B. fett gedruckten oder kursiv gedruckten Text) enthält.
+Ein RichTextNote-Objekt ist ein Kommentar oder eine Aktualisierung eines Workfront-Objekts, das bzw. die Rich-Text wie fett oder kursiv gedruckten Text enthält.
 
-Das RichTextNote -Objekt hat das Flag `REPORTABLE` entfernt.
+Das RichTextNote-Objekt hat das `REPORTABLE` entfernt.
 
-### Rolle/Auftragsrolle (ROLE)
+### Funktion/Aufgabengebiet (ROLE)
 
-Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine von einem Benutzer auszufüllende Fähigkeit dar, z. B. Designer oder Produktmanager.
+Ein Rollenobjekt (Aufgabengebiet) stellt eine funktionale Kapazität oder eine Qualifikation dar, die ein Benutzer ausfüllen kann, z. B. Designer oder Product Manager.
 
 <table>
   <col/>
@@ -415,18 +415,18 @@ Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine vo
       <td>
         <ul>
            <li>
-            <p><b>rate</b>
+            <p><b>Tarife</b>
             </p>
-            <p>Diese wurde hinzugefügt und stellt die Rate -Objekte dar, die mit dieser Rolle verknüpft sind.</p>
+            <p>Dies wurde hinzugefügt und stellt die mit dieser Rolle verknüpften Tarifobjekte dar.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### Aufgabe (TASK)
+### Aufgabe (AUFGABE)
 
-Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (zum Abschließen eines Projekts) ausgeführt werden muss.
+Ein Aufgabenobjekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (Fertigstellen eines Projekts) ausgeführt werden muss.
 
 <table>
   <col/>
@@ -439,7 +439,7 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten Arbeit pro Tag an, die Sie ausführen müssen. Es hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
           </li>
         </ul>
       </td>
@@ -451,7 +451,7 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
            <li>
             <p><b>assignMultiple</b>
             </p>
-            <p>Durch diese Aktion wurde das Feld <code>teamIDs</code> hinzugefügt, um die Funktion zum Zuweisen mehrerer Teams zu einer Aufgabe oder einem Problem zu unterstützen.</p>
+            <p>Durch diese Aktion wurde die <code>teamIDs</code> hinzugefügt, um die Funktion zum Zuweisen mehrerer Teams zu einer Aufgabe oder einem Problem zu unterstützen.</p>
          </li>
         </ul>
       </td>
@@ -459,9 +459,9 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
 </table>
 
 
-### Datenblatt (TSHET)
+### Arbeitszeittabelle (TABELLE)
 
-Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die tatsächlichen Arbeitsstunden für Aufgaben, Projekte und Hochtypen eingeben können.
+Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit der Benutzende tatsächliche Arbeitsstunden für Aufgaben, Projekte und allgemeine Stundentypen eingeben können.
 
 <table>
   <col/>
@@ -474,24 +474,24 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
            <li>
             <p><b>availableActions</b>
             </p>
-            <p>Dieser Parameter hat die Markierung <code>READ_ONLY</code> entfernt.</p>
+            <p>Dieser Parameter entfernte den <code>READ_ONLY</code>.</p>
          </li>
            <li>
             <p><b>isEditable</b>
             </p>
-            <p>Dieser Parameter hat die Markierung <code>READ_ONLY</code> entfernt.</p>
+            <p>Dieser Parameter entfernte den <code>READ_ONLY</code>.</p>
          </li>
            <li>
             <p><b>totalDays</b>
             </p>
-            <p>Dieser Parameter wurde hinzugefügt und speichert die Timesheets-Dauer in Tagen, unabhängig von den Änderungen zu "Äquivalente Stunden für vollständige Workday".  Wenn beispielsweise "Äquivalente Stunden"auf 6 gesetzt ist und ein Tag protokolliert wird, wird "Äquivalente Stunden"auf 8 Stunden geändert, <code>totalDays</code> hat immer noch den Wert 1.</p>
+            <p>Dieser Parameter wurde hinzugefügt und speichert die Arbeitszeittabellen-Dauer in Tagen, unabhängig von Änderungen an „Entsprechende Stunden für vollständige Workday".  Wenn beispielsweise die äquivalenten Stunden auf 6 gesetzt sind und ein Tag protokolliert wird, werden die äquivalenten Stunden in 8 Stunden geändert, wobei <code>totalDays</code> immer noch den Wert 1 hat.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### UIFilter/Filter (UIFT)
+### UIFilter / Filter (UIFT)
 
 
 
@@ -506,22 +506,22 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
           <li>
             <p><b>addJoinForNullableFields</b>
             </p>
-            <p>Diese Aktion wurde hinzugefügt. Sie erstellt eine Filterabfragezuordnung und fügt den <code>allowingnull</code>-Join für nullable Felder hinzu.</p>
+            <p>Diese Aktion wurde hinzugefügt und verwendet eine Filterabfragezuordnung und fügt den <code>allowingnull</code>-Join für Felder hinzu, für die NULL-Werte zulässig sind.</p>
          </li>
          <li>
             <p><b>disableSystemWideVisibility
 </b>
             </p>
-            <p><b>enableSystemWideVisibility </b>
+            <p><b>enableSystemWideVisibility-</b>
             </p>
-            <p>Diese Aktionen unterstützen die systemweite Freigabe von Filtern, Ansichten und Gruppierungen.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Bereitstellen von Filtern, Ansichten oder Gruppierungen für alle Benutzer</a>.</p>
+            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### UIGroupBy / Grouping (UIGB)
+### UIGroupBy/Gruppierung (UIGB)
 
 
 <table>
@@ -536,9 +536,9 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
             <p><b>disableSystemWideVisibility
 </b>
             </p>
-            <p><b>enableSystemWideVisibility </b>
+            <p><b>enableSystemWideVisibility-</b>
             </p>
-            <p>Diese Aktionen unterstützen die systemweite Freigabe von Filtern, Ansichten und Gruppierungen.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Bereitstellen von Filtern, Ansichten oder Gruppierungen für alle Benutzer</a>.</p>
+            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
          </li>
         </ul>
       </td>
@@ -577,18 +577,18 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
             <p><b>disableSystemWideVisibility
 </b>
             </p>
-            <p><b>enableSystemWideVisibility </b>
+            <p><b>enableSystemWideVisibility-</b>
             </p>
-            <p>Diese Aktionen unterstützen die systemweite Freigabe von Filtern, Ansichten und Gruppierungen.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Bereitstellen von Filtern, Ansichten oder Gruppierungen für alle Benutzer</a>.</p>
+            <p>Diese Aktionen unterstützen die Möglichkeit, Filter, Ansichten und Gruppierungen systemweit freizugeben.</p><p>Weitere Informationen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/administration-and-setup/set-up-wf/configure-system-defaults/create-and-share-default-fvgs.html?lang=en#make-filters-views-or-groupings-available-to-users">Alle Benutzer Zugriff auf Filter, Ansichten oder Gruppierungen gewähren</a>.</p>
          </li>
         </ul>
       </td>
     </tr>  </tbody>
 </table>
 
-### Benutzer (BENUTZER)
+### Benutzer (USER)
 
-Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
+Ein Benutzerobjekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
 
 <table>
   <col/>
@@ -599,9 +599,9 @@ Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich a
       <td>
         <ul>
            <li>
-            <p><b>rate</b>
+            <p><b>Tarife</b>
             </p>
-            <p>Diese wurde hinzugefügt und stellt die Rate -Objekte dar, die an diesen Benutzer angehängt sind.</p>
+            <p>Dies wurde hinzugefügt und stellt die mit diesem Benutzer verbundenen Rate-Objekte dar.</p>
          </li>
         </ul>
       </td>
@@ -610,7 +610,7 @@ Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich a
 
 ### UserNote (USRNOT)
 
-Ein UserNote -Objekt ist eine Benachrichtigung.
+Ein UserNote-Objekt ist eine Benachrichtigung.
 
 <table>
   <col/>
@@ -637,7 +637,7 @@ Ein UserNote -Objekt ist eine Benachrichtigung.
 
 ### Arbeit (ARBEIT)
 
-Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask übernommen wird und gemeinsamen Code für beide verwendet.
+Ein Arbeitsobjekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask erbt wird und gemeinsamen Code zwischen den beiden verwendet.
 
 <table>
   <col/>
@@ -650,7 +650,7 @@ Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch 
           <li>
             <p><b>workPerDate</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten pro Tag an, die Sie benötigen. Sie hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
+            <p>Dieses Feld wurde hinzugefügt und zeigt die Anzahl der Minuten Arbeit pro Tag an, die Sie ausführen müssen. Es hat das Format <code>YYYY-MM-DD: (number of minutes)</code> und berücksichtigt die Zeitzone.</p>
           </li>
         </ul>
       </td>

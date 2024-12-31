@@ -1,8 +1,8 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Gesamtstunden auf dem Timesheet anzeigen
-description: Sie können die Gesamtanzahl der Stunden auf Ihrem Timesheet anzeigen. Die Gesamtanzahl der Timesheet-Stunden umfasst die protokollierten Stunden für Projekte, Aufgaben, Probleme und alle allgemeinen Stunden.
+title: Gesamtstunden in der Arbeitszeittabelle anzeigen
+description: Sie können die Gesamtzahl der Stunden auf Ihrer Arbeitszeittabelle anzeigen. Die Gesamtzahl der Arbeitszeittabellen-Stunden umfasst die für Projekte, Aufgaben, Probleme protokollierten Stunden sowie alle allgemeinen Stunden.
 author: Alina
 feature: Timesheets
 exl-id: ff0823f2-61d0-453f-ae1c-68f0f1465d73
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Gesamtstunden auf dem Timesheet anzeigen
+# Gesamtstunden in der Arbeitszeittabelle anzeigen
 
 <!--Audited: 8/2024-->
 
-Sie können die Gesamtanzahl der Stunden auf Ihrem Timesheet anzeigen. Die Gesamtanzahl der Timesheet-Stunden umfasst die protokollierten Stunden für Projekte, Aufgaben, Probleme und alle allgemeinen Stunden.
+Sie können die Gesamtzahl der Stunden auf Ihrer Arbeitszeittabelle anzeigen. Die Gesamtzahl der Arbeitszeittabellen-Stunden umfasst die für Projekte, Aufgaben, Probleme protokollierten Stunden sowie alle allgemeinen Stunden.
 
-Die Gesamtstunden beziehen sich auf Stunden, die über das Timesheet, den Bereich Updates oder im Bereich Stunden für Projekte, Aufgaben oder Probleme gesendet wurden.
+Die Gesamtstunden spiegeln die Stunden wider, die über die Arbeitszeittabelle, den Bereich „Aktualisierungen“ oder für Projekte, Aufgaben oder Probleme im Bereich „Stunden“ eingereicht wurden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -32,52 +32,52 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Neu: Licht oder höher </p>
-   <p>Aktuell: Überprüfen oder höher</p> </td> 
+   <p>Aktuell: Überprüfung oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfiguration der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder höher</p> </td> 
+   <td> <p>Zugriff auf Aufgaben und Probleme anzeigen oder erhöhen</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder Höhere Berechtigungen für Aufgaben und Probleme</p> </td> 
+   <td> <p>Anzeigen oder Erweitern von Berechtigungen für Aufgaben und Probleme</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Gesamtstunden eines Zeitblatts in der Kopfzeile des Zeitblatts anzeigen
+## Die Gesamtstunden einer Arbeitszeittabelle in der Kopfzeile der Arbeitszeittabelle anzeigen
 
-Sie können die Gesamtstunden eines Zeitblatts in der Kopfzeile des Zeitblatts anzeigen.
+Die Gesamtstunden einer Arbeitszeittabelle können Sie in der Kopfzeile der Arbeitszeittabelle einsehen.
 
 ![](assets/timesheet-total-hours-in-header-highlighted-redesigned.png)
 
-## Anzeigen der Gesamtstunden auf Ihrem Timesheet in einer Liste von Timesheets
+## Zeigen Sie die Gesamtstunden auf Ihrer Arbeitszeittabelle in einer Liste von Arbeitszeittabellen an
 
 {{step1-to-timesheets}}
 
-Der Bereich **Timesheets** wird geöffnet.
+Der Bereich **Arbeitszeittabellen** wird geöffnet.
 
 ![](assets/timesheet-list-one-timesheet-selected-nwe-350x70.png)
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Timesheets zu aktualisieren:
+1. (Optional) Führen Sie einen der folgenden Schritte aus, um den Filter in der Liste der Arbeitszeittabellen zu aktualisieren:
 
-   * Wählen Sie oben rechts auf der Seite die Option **My Timesheet Approvals** aus, um nur die von Ihnen genehmigten Zeitpläne anzuzeigen
+   * Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** in der rechten oberen Ecke der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen
 
      Oder
 
-     Wählen Sie **Meine Timesheets** aus, um nur Ihre Timesheets anzuzeigen.
+     Wählen Sie **Meine Arbeitszeittabellen** aus, um nur Ihre Arbeitszeittabellen anzuzeigen.
 
-     Dadurch wird die Liste der Timesheets mit den Filtern My Timesheet Approvals oder My Timesheet aktualisiert.
+     Dadurch werden die Filter Meine Arbeitszeittabellen-Genehmigungen oder Meine Arbeitszeittabellen auf die Liste der Arbeitszeittabellen angewendet.
 
      ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
@@ -85,15 +85,15 @@ Der Bereich **Timesheets** wird geöffnet.
 
    >[!NOTE]
    >
-   >Die Optionen Meine Timesheet-Genehmigungen und Meine Timesheets werden nicht oben in der Timesheet-Liste oder in der Filterliste angezeigt, wenn Ihr Workfront-Administrator oder ein Gruppenadministrator die Filter Meine Timesheet-Genehmigungen und Meine Timesheets entweder aus den Listen-Steuerelementen im Bereich Einrichtung oder aus Ihrer Layout-Vorlage entfernt hat. Weitere Informationen finden Sie in den folgenden Artikeln:
+   >Die Optionen Meine Arbeitszeittabellen-Genehmigungen und Meine Arbeitszeittabellen werden nicht oben in der Arbeitszeittabellen-Liste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins die Filter Meine Arbeitszeittabellen und Meine Arbeitszeittabellen entweder aus den Listensteuerelementen im Setup-Bereich oder aus Ihrer Layoutvorlage entfernt haben. Weitere Informationen finden Sie in den folgenden Artikeln:
    >
    >   
    >   
-   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >   * [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Optional) Klicken Sie auf die Symbole **Ansicht** ![](assets/view-icon.png) oder **Gruppierung** ![](assets/grouping.png) , um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
+1. (Optional) Klicken Sie auf **Ansicht** ![](assets/view-icon.png) oder **Gruppierung** ![](assets/grouping.png), um eine andere Ansicht oder Gruppierung anzuwenden oder eine neue zu erstellen.
 
    Informationen zum Erstellen von Filtern, Ansichten oder Gruppierungen finden Sie in den folgenden Artikeln:
 
@@ -101,10 +101,10 @@ Der Bereich **Timesheets** wird geöffnet.
    * [Erstellen oder Bearbeiten von Ansichten in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-edit-views.md)
    * [Erstellen von Gruppierungen in Adobe Workfront](../../reports-and-dashboards/reports/reporting-elements/create-groupings.md)
 
-1. Die Gesamtstundenzahl für jedes Zeitblatt wird in der Spalte **Gesamtstunden** angezeigt.
+1. Die Gesamtstundenzahl für jede Arbeitszeittabelle wird in der Spalte **Gesamtstunden** angezeigt.
 
    ![](assets/total-hours-column-highlighted-all-timesheets-list-nwe-350x120.png)
 
    >[!TIP]
    >
-   >Bei Verwendung der Standardansicht für eine Liste von Timesheets wird die Spalte Gesamtstunden in Rot angezeigt, wenn die für die Elemente auf dem Timesheet protokollierte Zeit die Anzahl der Stunden im Zeitrahmen des Zeitblatts überschreitet. Weitere Informationen finden Sie im Feld &quot;Gesamtstunden&quot;im [Glossar der Adobe Workfront-Terminologie](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
+   >Bei Verwendung der Standardansicht für eine Liste von Arbeitszeittabellen wird die Spalte Gesamtstunden rot angezeigt, wenn die für die Elemente in der Arbeitszeittabelle protokollierte Zeit die Anzahl der Stunden im Zeitrahmen der Arbeitszeittabelle überschreitet. Weitere Informationen finden Sie im Feld „Gesamtstunden“ im [Glossar der Adobe Workfront-](../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).

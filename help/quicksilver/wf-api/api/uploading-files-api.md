@@ -16,19 +16,19 @@ ht-degree: 0%
 
 # Hochladen von Dateien über die API
 
-Sie können Dateien mit Workfront-APIs mit API-Tools wie Postman oder mit einfachen cURL-Befehlen hochladen.
+Sie können Dateien mithilfe von Workfront-APIs mit API-Tools wie Postman oder mit einfachen cURL-Befehlen hochladen.
 
-Informationen zum Hochladen von Dokumenten finden Sie in den Anweisungen zum **Hochladen von Dokumenten** im Workfront [Post-Verhalten](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Sie können diese Anweisungen auch für cURL-Anfragen verwenden.
+Informationen zum Hochladen von Dokumenten finden Sie in den Anweisungen für **Hochladen von Dokumenten** in Workfront [Postverhalten](/help/quicksilver/wf-api/general/api-basics.md#post-behavior). Sie können dieselben Anweisungen auch für cURL-Anfragen verwenden.
 
-**Befolgen Sie beim Hochladen von Dateien mithilfe von API-Tools die folgenden Richtlinien:**
+**Befolgen Sie beim Hochladen von Dateien mit API-Tools die folgenden Richtlinien:**
 
-* Verwenden Sie Ihre API-Tool-Option, um Ihre Datei hochzuladen. Dabei handelt es sich häufig um die Schaltfläche **Datei auswählen** auf dem Anfragebildschirm.
+* Verwenden Sie die Option Ihres API-Tools, um Ihre Datei hochzuladen. Dabei handelt es sich häufig um **Schaltfläche „Datei auswählen** auf dem Anfragebildschirm.
 
-* Verwenden Sie die POST-HTTP-Methode, um die Anfrage zum Hochladen der Datei zu stellen.
+* Verwenden Sie die HTTP-Methode der POST , um die Anfrage zum Hochladen der Datei zu stellen.
 
-* Ihre Anfrage sollte zu einer Antwort führen, die einen Wert für das Handle enthält.
+* Ihre Anfrage sollte zu einer Antwort führen, die einen Wert für ihr Handle enthält.
 
-* Verwenden Sie den Handle-Wert, den Objekttyp und den GUID-Wert für die objID in einer JSON-Payload, um einen nachfolgenden Aufruf durchzuführen. Dies dient zum Erstellen des Objekts für Ihre Datei, wie im folgenden Beispiel gezeigt:
+* Verwenden Sie den Handle-Wert, den Objekttyp und den GUID-Wert für die objID in einer JSON-Payload, um einen nachfolgenden Aufruf durchzuführen. Dies dient zum Erstellen des -Objekts für Ihre Datei, wie im folgenden Beispiel gezeigt:
 
 ```
 }
@@ -40,6 +40,6 @@ Informationen zum Hochladen von Dokumenten finden Sie in den Anweisungen zum **H
 }
 ```
 
-Sie sollten eine ID für das -Objekt in der Antwort erhalten.
+Sie sollten in der Antwort eine ID für das -Objekt erhalten.
 
 Weitere Informationen finden Sie in der Hilfe des jeweiligen API-Tools, das Sie verwenden.

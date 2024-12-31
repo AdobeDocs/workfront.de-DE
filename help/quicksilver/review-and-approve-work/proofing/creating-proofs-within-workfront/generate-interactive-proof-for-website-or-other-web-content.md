@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: create-proofs-within-workfront
-title: Erstellen eines interaktiven Testversands für eine Website oder einen anderen Webinhalt
-description: Sie können einen neuen interaktiven Testversand oder eine neue Version eines vorhandenen interaktiven Testversands für Webinhalte erstellen. Dabei kann es sich um eine Website oder andere interaktive Inhalte handeln, z. B. Anzeigen mit Streaming-Video oder -Audio, HTML-Animationen und interaktive Banner.
+title: Erstellen eines interaktiven Korrekturabzugs für eine Website oder andere Web-Inhalte
+description: Sie können für Web-Inhalte einen neuen interaktiven Korrekturabzug oder eine neue Version eines vorhandenen interaktiven Korrekturabzugs erstellen. Dabei kann es sich um eine Website oder andere Arten interaktiver Inhalte handeln, z. B. Anzeigen mit Streaming-Video oder Audio, HTML-Animationen und interaktiven Bannern.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Erstellen eines interaktiven Testversands für eine Website oder einen anderen Webinhalt
+# Erstellen eines interaktiven Korrekturabzugs für eine Website oder andere Web-Inhalte
 
-Sie können einen neuen interaktiven Testversand oder eine neue Version eines vorhandenen interaktiven Testversands für Webinhalte erstellen. Dabei kann es sich um eine Website oder andere interaktive Inhalte handeln, z. B. Anzeigen mit Streaming-Video oder -Audio, HTML-Animationen und interaktive Banner.
+Sie können für Web-Inhalte einen neuen interaktiven Korrekturabzug oder eine neue Version eines vorhandenen interaktiven Korrekturabzugs erstellen. Dabei kann es sich um eine Website oder andere Arten interaktiver Inhalte handeln, z. B. Anzeigen mit Streaming-Video oder Audio, HTML-Animationen und interaktiven Bannern.
 
-In einem interaktiven Testversand können Prüfer wie gewohnt mit der Website oder anderen Webinhalten navigieren und interagieren.
+Bei einem interaktiven Korrekturabzug können Reviewer wie gewohnt mit der Website oder anderen Web-Inhalten navigieren und interagieren.
 
 >[!IMPORTANT]
 >
->Stellen Sie sicher, dass die Website oder der interaktive Inhalt für die Personen zugänglich ist, die ihn überprüfen werden. Sie können nur dann im Testversand darauf zugreifen, wenn sie auch über das Internet darauf zugreifen können.
+>Stellen Sie sicher, dass die Website oder der interaktive Inhalt für die Personen zugänglich ist, die sie überprüfen werden. Sie können beim Proofing nur darauf zugreifen, wenn sie auch im Internet darauf zugreifen können.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -35,65 +35,65 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Erstellen eines interaktiven Testversands für eine Website oder einen anderen Webinhalt
+## Erstellen eines interaktiven Korrekturabzugs für eine Website oder andere Web-Inhalte
 
-1. Gehen Sie zum Projekt, zur Aufgabe oder zur Ausgabe, in der Sie einen neuen Website-Testversand oder eine neue Version eines vorhandenen erstellen möchten.
-1. Klicken Sie im linken Bereich auf **Dokumente** .
-1. (Bedingt) Wenn Sie einen neuen Testversand erstellen, klicken Sie auf **Neu hinzufügen** und dann im angezeigten Menü auf **Testversand** .
+1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, in dem bzw. dem Sie einen neuen Website-Korrekturabzug oder eine neue Version eines vorhandenen Korrekturabzugs erstellen möchten.
+1. Klicken Sie **linken** auf „Dokumente“.
+1. (Bedingt) Wenn Sie einen neuen Korrekturabzug erstellen, klicken Sie auf **Neu hinzufügen** und klicken Sie dann im **angezeigten Menü auf** Korrekturabzug.
 
-1. (Bedingt) Wenn Sie eine neue Version eines vorhandenen Testversands erstellen, wird auf der Seite **Neuer Testversand** angezeigt:
+1. (Bedingt) Auf der Seite **Neuer Korrekturabzug** wird angezeigt, wenn Sie eine neue Version eines vorhandenen Korrekturabzugs erstellen:
 
-   1. Bewegen Sie den Mauszeiger über den URL-Testversand, für den Sie eine neue Version erstellen möchten, und wählen Sie ihn aus, indem Sie im hellblauen Hintergrund darauf klicken.
+   1. Bewegen Sie den Mauszeiger über den URL-Korrekturabzug, für den Sie eine neue Version erstellen möchten, und wählen Sie ihn aus, indem Sie in den hellblauen Hintergrund klicken, der ihn umgibt.
 
-      ![Select_proof_by_selection_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
+      ![Select_proof_by_selector_light_blue_background.png](assets/select-proof-by-selecting-light-blue-background-350x52.png)
 
 
-   1. Klicken Sie in der Dropdown-Liste **Neu hinzufügen** auf **Version** > **Testversand**.
+   1. Klicken **in der Dropdown** Liste Neu hinzufügen“ auf **Version** > **Testversand**.
 
-1. Geben Sie im Abschnitt **Dateien hinzufügen** die URL der Website ein, die Sie testen möchten, und drücken Sie dann die Eingabetaste **3}.**  Sie können diesen Vorgang wiederholen, um mehrere Websites hinzuzufügen, die getestet werden sollen.
+1. Geben **im Abschnitt „Dateien hinzufügen** die URL der Website ein, die Sie prüfen möchten, und drücken Sie dann die **Eingabetaste**.  Sie können diesen Vorgang wiederholen, um mehrere Websites zum Testversand hinzuzufügen.
 
    ![proof_website.png](assets/proof-website-350x65.png)
 
 
    >[!NOTE]
    >
-   > Die URL darf maximal 1.000 Zeichen enthalten.
+   > Die URL darf höchstens 1.000 Zeichen enthalten.
 
-1. Klicken Sie auf die von Ihnen hinzugefügte URL.
+1. Klicken Sie auf die hinzugefügte URL.
 
    ![](assets/click-url-350x137.png)
 
-1. (Optional) Wenn Sie den Namen des Testversands aus der Website-URL in etwas Anderes ändern möchten, geben Sie einen **Testversand-Namen** ein.
-1. Wählen Sie **Interaktiv** und klicken Sie dann auf **Fertig**.
+1. (Optional) Wenn Sie den Namen des Korrekturabzugs von der Website-URL in etwas Anderes ändern möchten, geben Sie einen **Korrekturabzugsnamen“**.
+1. Wählen Sie **Interaktiv** aus und klicken Sie dann auf **Fertig**.
 
    >[!NOTE]
    >
-   >Wenn Sie eine neue Version zu einem vorhandenen URL-Testversand hinzufügen, werden alle Optionen, die für den ursprünglichen Testversand oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten.
+   >Wenn Sie eine neue Version zu einem vorhandenen URL-Korrekturabzug hinzufügen, werden alle Optionen, die für den ursprünglichen Korrekturabzug oder die vorherige Version konfiguriert wurden, in dieser Version beibehalten.
 
-1. Klicken Sie auf **Testversand erstellen** , um einen einfachen Testversand ohne Überprüfungsprozess zu erstellen.\
+1. Klicken Sie **Korrekturabzug erstellen**, um einen einfachen Korrekturabzug ohne Prüfungsprozess zu erstellen.\
    oder\
-   Fahren Sie mit der Konfiguration eines erweiterten Testversands fort:
+   Fahren Sie mit der Konfiguration eines erweiterten Korrekturabzugs fort:
 
-   * [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-   * [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+   * [Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+   * [Erstellen eines erweiterten Korrekturabzugs mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)

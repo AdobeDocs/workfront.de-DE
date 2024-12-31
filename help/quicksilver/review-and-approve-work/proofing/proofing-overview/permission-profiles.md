@@ -1,10 +1,10 @@
 ---
 content-type: overview
 product-area: documents
-keywords: proof,permission
+keywords: Testversand,Erlaubnis
 navigation-topic: proofing-overview
-title: Übersicht über das Profil für Testberechtigungen
-description: Testberechtigungsprofile bestimmen, welche Gesamtberechtigungen Benutzer für alle Testsendungen in Ihrem Konto haben. Profile für Testberechtigungen werden Benutzern in ihrem Benutzerprofil zugewiesen. Profile für Testberechtigungen unterscheiden sich von Testversandrollen.
+title: Profil für Korrekturabzugsberechtigungen - Übersicht
+description: Mit Korrekturabzugsberechtigungsprofilen wird festgelegt, welche Gesamtberechtigungen Benutzende für alle Korrekturabzüge in Ihrem Konto haben. Berechtigungsprofile für Korrekturabzüge werden Benutzern in ihrem Benutzerprofil zugewiesen. Profile für Korrekturabzugsberechtigungen unterscheiden sich von Korrekturabzugsrollen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: fb6faa48-d97b-4b7b-83ae-fe39d40b3963
@@ -15,17 +15,17 @@ ht-degree: 2%
 
 ---
 
-# Übersicht über das Profil für Testberechtigungen
+# Profil für Korrekturabzugsberechtigungen - Übersicht
 
 <!--Audited: 12/2023-->
 
-Testberechtigungsprofile bestimmen, welche Gesamtberechtigungen Benutzer für alle Testsendungen in Ihrem Konto haben. Profile für Testberechtigungen werden Benutzern in ihrem Benutzerprofil zugewiesen.
+Mit Korrekturabzugsberechtigungsprofilen wird festgelegt, welche Gesamtberechtigungen Benutzende für alle Korrekturabzüge in Ihrem Konto haben. Berechtigungsprofile für Korrekturabzüge werden Benutzern in ihrem Benutzerprofil zugewiesen.
 
-Profile für Testberechtigungen unterscheiden sich von Testversandrollen. Weitere Informationen zu Proof-Rollen finden Sie unter [Übersicht über Proof Roles](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
+Profile für Korrekturabzugsberechtigungen unterscheiden sich von Korrekturabzugsrollen. Weitere Informationen zu Korrekturabzug-Rollen finden Sie unter [Übersicht über Korrekturabzug-Rollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md).
 
 >[!NOTE]
 >
->Wenn Sie Administrator sind, können Sie benutzerdefinierte Profile für Benutzer in Ihrem Unternehmen erstellen. Weitere Informationen finden Sie unter [Benutzerdefinierte Profile in Workfront Proof konfigurieren](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
+>Als Admin können Sie benutzerdefinierte Profile für Benutzende in Ihrer Organisation erstellen. Weitere Informationen finden Sie unter [Konfigurieren von benutzerdefinierten Profilen in Workfront Proof](../../../workfront-proof/wp-acct-admin/account-settings/configure-custom-profiles.md).
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">Consider the following about roles and permissions:</p>
@@ -40,9 +40,9 @@ Profile für Testberechtigungen unterscheiden sich von Testversandrollen. Weiter
 </ul>
 -->
 
-## Profile für Testberechtigungen
+## Proof-Berechtigungsprofile
 
-In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verfügbaren Berechtigungen aufgeführt.
+In der folgenden Tabelle werden die Berechtigungen angezeigt, die mit den einzelnen Proof-Berechtigungsprofilen verfügbar sind.
 
 <table>
   <tr>
@@ -52,7 +52,7 @@ In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verf�
    </td>
    <td colspan="3" ><strong>Elemente anderer Benutzer</strong>
    </td>
-   <td><strong>Admin</strong>
+   <td><strong>admin</strong>
    </td>
   </tr>
   <tr>
@@ -139,37 +139,37 @@ In der folgenden Tabelle sind die für jedes Profil mit Testberechtigungen verf�
 
 ### Administrator
 
-Administratoren haben Zugriff auf [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) und die folgenden Berechtigungen:
+Admins haben Zugriff auf [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) und verfügen über die folgenden Berechtigungen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td>Administratoren können:</td> 
-   <td>Administratoren können nicht:</td> 
+   <td>Administratoren haben folgende Möglichkeiten:</td> 
+   <td>Administratoren haben folgende Möglichkeiten:</td> 
   </tr> 
   <tr> 
    <td> 
     <ul> 
      <li> <p>Testsendungen erstellen, Dateien hochladen und Ordner erstellen</p> </li> 
-     <li> <p>Anzeigen, Bearbeiten und Löschen von von ihnen erstellten Testsendungen und Dateien</p> </li> 
-     <li> <p>Anzeigen, Bearbeiten und Löschen von Testsendungen und Dateien, die von allen Benutzern in der Organisation erstellt wurden</p> </li> 
+     <li> <p>Von ihnen erstellte Korrekturabzüge und Dateien anzeigen, bearbeiten und löschen</p> </li> 
+     <li> <p>Anzeigen, Bearbeiten und Löschen von Testsendungen und Dateien, die von allen Benutzenden in der Organisation erstellt wurden</p> </li> 
      <li> <p>Löschen der öffentlichen Ordner anderer Benutzer</p> </li> 
-     <li> <p>Bearbeiten aller im Konto erstellten Testsendungen</p> </li> 
-     <li> <p>Als Eigentümer der Dropzone festlegen*</p> </li> 
-     <li> <p>Öffnen Sie die Seite Kontoeinstellungen und bearbeiten Sie die Kontodetails.</p> </li> 
-     <li> <p>Löschen Sie den Müll</p> </li> 
-     <li> <p>Benutzer hinzufügen, bearbeiten und löschen</p> </li> 
+     <li> <p>Alle im Konto erstellten Korrekturabzüge bearbeiten</p> </li> 
+     <li> <p>Als Besitzer der Dropzone festgelegt werden*</p> </li> 
+     <li> <p>Aufrufen der Seite Kontoeinstellungen und Bearbeiten der Kontodetails</p> </li> 
+     <li> <p>Leere den Papierkorb!</p> </li> 
+     <li> <p>Hinzufügen, Bearbeiten und Löschen von Benutzern</p> </li> 
      <li> <p>Gruppen erstellen und neue Kontakte hinzufügen</p> </li> 
      <li> <p>Kontakte löschen</p> </li> 
-     <li> <p>Testsendungen bearbeiten, wenn keine Antworten darauf vorliegen</p> </li> 
+     <li> <p>Korrekturabzüge bearbeiten, wenn keine Antworten darauf vorhanden sind</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p>Testversand-Antworten bearbeiten.</p> </li> 
      <li> <p>Löschen der privaten Ordner anderer Benutzer</p> </li> 
-     <li> <p>Öffnen Sie die Seite Rechnungsstellung oder bearbeiten Sie die Rechnungsdetails.</p> </li> 
+     <li> <p>Rufen Sie die Seite Abrechnung auf oder bearbeiten Sie die Abrechnungsdetails</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -193,21 +193,21 @@ Supervisoren haben die folgenden Berechtigungen:
    <td> 
     <ul> 
      <li> <p>Testsendungen erstellen, Dateien hochladen und Ordner erstellen</p> </li> 
-     <li> <p>Anzeigen, Bearbeiten und Löschen von von ihnen erstellten Testsendungen und Dateien</p> </li> 
-     <li> <p>Anzeigen, Bearbeiten und Löschen von Testsendungen und Dateien, die von allen Benutzern in der Organisation erstellt wurden</p> </li> 
+     <li> <p>Von ihnen erstellte Korrekturabzüge und Dateien anzeigen, bearbeiten und löschen</p> </li> 
+     <li> <p>Anzeigen, Bearbeiten und Löschen von Testsendungen und Dateien, die von allen Benutzenden in der Organisation erstellt wurden</p> </li> 
      <li> <p>Löschen der öffentlichen Ordner anderer Benutzer</p> </li> 
-     <li> <p>Bearbeiten aller im Konto erstellten Testsendungen</p> </li> 
+     <li> <p>Alle im Konto erstellten Korrekturabzüge bearbeiten</p> </li> 
      <li> <p>Gruppen erstellen und neue Kontakte hinzufügen</p> </li> 
      <li> <p>Kontakte löschen</p> </li> 
-     <li> <p>Testsendungen bearbeiten, wenn keine Antworten darauf vorliegen</p> </li> 
+     <li> <p>Korrekturabzüge bearbeiten, wenn keine Antworten darauf vorhanden sind</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
      <li> <p>Testversand-Antworten bearbeiten.</p> </li> 
      <li> <p>Löschen der privaten Ordner anderer Benutzer</p> </li> 
-     <li> <p>Öffnen Sie die Seite Rechnungsstellung oder bearbeiten Sie die Rechnungsdetails.</p> </li> 
+     <li> <p>Rufen Sie die Seite Abrechnung auf oder bearbeiten Sie die Abrechnungsdetails</p> </li> 
      <li> <p>Benutzer hinzufügen, bearbeiten oder löschen</p> </li> 
-     <li> <p>Löschen Sie den Müll</p> </li> 
+     <li> <p>Leere den Papierkorb!</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -215,7 +215,7 @@ Supervisoren haben die folgenden Berechtigungen:
 
 ### Managerin bzw. Manager
 
-Manager haben die folgenden Berechtigungen:
+Manager verfügen über die folgenden Berechtigungen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -229,19 +229,19 @@ Manager haben die folgenden Berechtigungen:
    <td> 
     <ul> 
      <li> <p>Testsendungen erstellen, Dateien hochladen und Ordner erstellen</p> </li> 
-     <li> <p>Anzeigen, Bearbeiten und Löschen von von ihnen erstellten Testsendungen und Dateien</p> </li> 
-     <li> <p>Testsendungen anderer Benutzer anzeigen, überprüfen und genehmigen, die explizit für sie freigegeben wurden (Schreibgeschützte Berechtigungen für alle in einem freigegebenen Ordner)</p> </li> 
-     <li> <p>Bearbeiten aller im Konto erstellten Testsendungen</p> </li> 
+     <li> <p>Von ihnen erstellte Korrekturabzüge und Dateien anzeigen, bearbeiten und löschen</p> </li> 
+     <li> <p>Korrekturabzüge anderer Benutzer, die explizit für sie freigegeben wurden (schreibgeschützte Rechte für alle Elemente in einem freigegebenen Ordner), anzeigen, überprüfen und genehmigen</p> </li> 
+     <li> <p>Alle im Konto erstellten Korrekturabzüge bearbeiten</p> </li> 
      <li> <p>Gruppen erstellen und neue Kontakte hinzufügen</p> </li> 
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p>Anzeigen, Bearbeiten oder Löschen von Testsendungen und Dateien, die von anderen Benutzern in der Organisation erstellt wurden. </p> </li><li><p>Testversand-Antworten bearbeiten.</p> </li> 
-     <li> <p>Löschen Sie die privaten oder öffentlichen Ordner anderer Benutzer</p> </li> 
-     <li> <p>Öffnen Sie die Seite Rechnungsstellung oder bearbeiten Sie die Rechnungsdetails.</p> </li> 
+     <li> <p>Testsendungen und Dateien, die von anderen Benutzern in der Organisation erstellt wurden, anzeigen, bearbeiten oder löschen. </p> </li><li><p>Testversand-Antworten bearbeiten.</p> </li> 
+     <li> <p>Löschen der privaten oder öffentlichen Ordner anderer Benutzer</p> </li> 
+     <li> <p>Rufen Sie die Seite Abrechnung auf oder bearbeiten Sie die Abrechnungsdetails</p> </li> 
      <li> <p>Benutzer hinzufügen, bearbeiten oder löschen</p> </li> 
      <li> <p> Kontakte löschen</p> </li> 
-     <li> <p>Löschen Sie den Müll</p> </li> 
+     <li> <p>Leere den Papierkorb!</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 

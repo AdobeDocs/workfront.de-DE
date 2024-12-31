@@ -31,22 +31,22 @@ GET /metadata?id=[document or folder ID]
  <col> 
  <thead> 
   <tr> 
-   <th>Name </th> 
+   <th>-Name </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>id</td> 
-   <td>Die Kennung der Datei oder des Ordners, auf die der Webhook-Provider verweist. Dies unterscheidet sich von der Dokument-ID von Adobe Workfront. Um die Metadaten des Stammverzeichnisses abzurufen, verwenden Sie den Wert '/'.
-   <p>Hinweis: Die maximale Länge der ID beträgt 255 Zeichen.</p></td> 
+   <td>ID</td> 
+   <td>Die ID der Datei oder des Ordners, auf die bzw. den der Webhook-Anbieter verweist. Dies unterscheidet sich von der Dokument-ID von Adobe Workfront. Um die Metadaten des Stammverzeichnisses abzurufen, verwenden Sie den Wert "/".
+   <p>Hinweis: Die maximale Länge für die ID beträgt 255 Zeichen.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
  
 
-## Reaktion
+## Antwort
 
 <table style="table-layout:auto"> 
  <col> 
@@ -54,36 +54,36 @@ GET /metadata?id=[document or folder ID]
  <col> 
  <thead> 
   <tr> 
-   <th>Name </th> 
+   <th>-Name </th> 
    <th>Typ </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>title </td> 
+   <td>Anrede </td> 
    <td>Zeichenfolge </td> 
    <td>Der Name des Dokuments oder Ordners</td> 
   </tr> 
   <tr> 
-   <td>kind </td> 
+   <td>Art </td> 
    <td>Zeichenfolge </td> 
-   <td>Gibt an, ob es sich bei diesem Element um eine Datei oder einen Ordner handelt ('file' oder 'folder')</td> 
+   <td>Gibt an, ob es sich bei diesem Element um eine Datei oder einen Ordner ('Datei' oder 'Ordner') handelt</td> 
   </tr> 
   <tr> 
-   <td>id</td> 
+   <td>ID</td> 
    <td>Zeichenfolge </td> 
    <td>Die ID der Datei oder des Ordners.</td> 
   </tr> 
   <tr> 
    <td>viewLink</td> 
    <td>Zeichenfolge </td> 
-   <td> <p>Der URL-Pfad, der von einem Benutzer zum Anzeigen des Dokuments in einem Browserfenster verwendet wird. Die URL kann entweder vom Dokumentenanbieter oder vom nativen externen Speicheranbieter gehostet werden.</p> </td> 
+   <td> <p>Der URL-Pfad, der von einem Benutzer zum Anzeigen des Dokuments in einem Browser-Fenster verwendet wird. Die URL kann entweder vom Dokumentanbieter oder vom nativen externen Speicheranbieter gehostet werden.</p> </td> 
   </tr> 
   <tr> 
    <td>downloadLink</td> 
    <td>Zeichenfolge </td> 
-   <td> <p>Der URL-Pfad, den ein Benutzer zum Herunterladen des Dokuments in ein Browserfenster verwendet. Die URL kann entweder vom Dokumentenanbieter oder vom nativen externen Speicheranbieter gehostet werden.</p> </td> 
+   <td> <p>Der URL-Pfad, der von einem Benutzer zum Herunterladen des Dokuments in einem Browser-Fenster verwendet wird. Die URL kann entweder vom Dokumentanbieter oder vom nativen externen Speicheranbieter gehostet werden.</p> </td> 
   </tr> 
   <tr> 
    <td>mimeType</td> 
@@ -93,10 +93,10 @@ GET /metadata?id=[document or folder ID]
   <tr> 
    <td>dateModified</td> 
    <td>Zeichenfolge </td> 
-   <td>Letzte Änderung dieser Datei (formatierter RFC 3339-Zeitstempel)</td> 
+   <td>Letzter Änderungszeitpunkt dieser Datei (formatierter RFC 3339-Zeitstempel)</td> 
   </tr> 
   <tr> 
-   <td>size</td> 
+   <td>Größe</td> 
    <td>Lang</td> 
    <td> Die Größe der Datei in Byte. (optional)</td> 
   </tr> 
@@ -109,8 +109,8 @@ GET /metadata?id=[document or folder ID]
 </table>
 
 **Beispiel:** https://www.acme.com/api/metadata?id=12345
-<pre>{<br>title:"My Document",<br>kind:"file"<br>id":"12345",<br>viewLink:"https://www.acme.com/viewDocument?id=12345",<br>downloadLink:"https://www.acme.com/downloadDocument?id=12345",<br>mimeType:"image/png",<br>dateModified:"2014065T 17:39:45.251Z",<br>size: "32554694"<br></pre>
+<pre>{<br>title:„Mein Dokument“,<br>kind:„file“<br>id“:„12345“,<br>viewLink:“https://www.acme.com/viewDocument?id=12345",<br>downloadLink:“https://www.acme.com/downloadDocument?id=12345",<br>mimeType:„image/png“,<br>dateModified:„20140605T17:39:45.251Z“,<br>size: „32554694“<br>}</pre>
 
 >[!NOTE]
 >
->Die Fehlerbehandlung sollte für alle API-Aufrufe einheitlich sein. Weitere Informationen finden Sie unten im Abschnitt &quot;Umgang mit Fehlern&quot;.
+>Die Fehlerbehandlung sollte bei allen API-Aufrufen konsistent sein. Einzelheiten finden Sie im Abschnitt „Fehlerbehandlung“ weiter unten.

@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Aktualisierungen für API Version 9
+title: Aktualisierungen für API-Version 9
 description: Aktualisierte Ressourcen
 author: Becky
 feature: Workfront API
@@ -10,19 +10,19 @@ exl-id: 51892846-d93f-4363-8416-4118fb2ef84d
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '257'
-ht-degree: 39%
+ht-degree: 46%
 
 ---
 
-# Aktualisierungen für API Version 9
+# Aktualisierungen für API-Version 9
 
 ## Aktualisierte Ressourcen
 
-Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfront-API aktualisiert. Um die Ressourcen anzuzeigen, die neu in Version 9 sind, können Sie [Neue Funktionen in API Version 9](../../wf-api/api/new-api-version-9.md) und [Neue Funktionen in API Version 9 (Fortsetzung)](../../wf-api/api/new-api-version-9-continue.md) aufrufen. Änderungen an einer Ressource werden wie folgt angegeben:
+Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfront-API aktualisiert. Um die Ressourcen anzuzeigen, die neu in Version 9 sind, besuchen Sie [Neue Funktionen in API Version 9](../../wf-api/api/new-api-version-9.md) und [Neue Funktionen in API Version 9 (Fortsetzung)](../../wf-api/api/new-api-version-9-continue.md). An einer Ressource vorgenommene Änderungen werden wie folgt angezeigt:
 
-* Hinzufügungen werden einfach aufgelistet
-* Entfernungen werden mit Durchstreichen angezeigt
-* Änderungen werden in der Anmerkung nach der Tabelle aufgeführt
+* Ergänzungen werden einfach aufgelistet
+* Entfernungen werden durch durchgestrichenen Text gekennzeichnet
+* Änderungen werden im Hinweis nach der Tabelle vermerkt
 
 ### AgileWork
 
@@ -33,8 +33,8 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag entfernt: REPORTABLE\
-<sup>2</sup> Flag entfernt: NOT_GROUPABLE
+<sup>1</sup> Markierung entfernt: MELDEBAR\
+<sup>2</sup> Markierung entfernt: NOT_GROUPABLE
 
 ### Genehmigung
 
@@ -57,7 +57,7 @@ Zuweisung
 
 <sup>1</sup> Feld hinzugefügt: lockToRole
 
-### CustomerPreferences
+### Kundenpräferenzen
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -65,7 +65,7 @@ Zuweisung
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an den möglichenWerten
+<sup>1</sup> Änderungen an possibleValues
 
 ### Stunde
 
@@ -84,7 +84,7 @@ Zuweisung
 
 {style="table-layout:auto"}
 
-### LayoutTemplates
+### Layout-Vorlagen
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -113,7 +113,7 @@ Zuweisung
 
 {style="table-layout:auto"}
 
-### ResourceBudget
+### Ressourcenbudget
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -121,7 +121,7 @@ Zuweisung
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag entfernt: REPORTABLE
+<sup>1</sup> Markierung entfernt: MELDEBAR
 
 ### Zeitplan
 
@@ -149,7 +149,7 @@ Zuweisung
 
 {style="table-layout:auto"}
 
-### TimesheetProfile
+### Arbeitszeittabellen-Profil
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|

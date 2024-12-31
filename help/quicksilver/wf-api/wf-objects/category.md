@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: workfront-objects
-title: Wenn APIModel INTERNAL Feldprojektkategorie nicht unterstützt
-description: Wenn APIModel INTERNAL Feldprojekte nicht unterstützt (OpTask)
+title: Wenn APIModel INTERNAL die Feld-Projekt-ID (OpTask) nicht unterstützt Kategorie
+description: Wenn APIModel INTERNAL die Feld-Projekt-ID (OpTask) nicht unterstützt
 author: Becky
 feature: Workfront API
 role: Developer
@@ -17,8 +17,8 @@ ht-degree: 25%
 
 # Kategorie
 
-Fieldsclass: &quot;java.lang.IllegalArgumentException&quot;,\
-Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
+FieldsClass: „java.lang.IllegalArgumentException“,\
+Meldung: „APIModel INTERNAL unterstützt keine Feld-Projekt-ID (OpTask)“
 
 <table style="table-layout:auto"> 
  <col width="100"> 
@@ -42,13 +42,13 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}"><strong>ID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID&quot;}">ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Zeichenfolge</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Identifying GUID&quot;}">Identifizieren von GUID</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Identifying GUID&quot;}">Identifizierungs-GUID</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;accessorIDs&quot;}"><strong>accessorIDs</strong> </td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">acessorIDs</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;acessorIDs&quot;}">accessorIDs</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String Array&quot;}">Zeichenfolgen-Array</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;List of People/Team IDs that can access this object&quot;}">Liste der Personen-/Team-IDs, die auf dieses Objekt zugreifen können</td> 
    <td> </td> 
@@ -66,7 +66,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;customerID&quot;}"><strong>customerID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Customer ID&quot;}">Kunden-ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Zeichenfolge</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the Customer&quot;}">Kennung des Kunden</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the Customer&quot;}">ID des Kunden</td> 
    <td> </td> 
    <td> <p><span class="dtGrp">Nicht gruppierbar</span> </p> </td> 
   </tr> 
@@ -79,7 +79,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
    <td> <p><span class="dtEdit">Bearbeitbar</span> </p> </td> 
   </tr> 
   <tr> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;enteredByID&quot;}"><strong>enterByID</strong> </td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;enteredByID&quot;}"><strong>enteredByID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Entered By ID&quot;}">Eingegeben von ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Zeichenfolge</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the User that added the Custom Form&quot;}">ID des Benutzers, der das benutzerdefinierte Formular hinzugefügt hat</td> 
@@ -90,7 +90,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;extRefID&quot;}"><strong>extRefID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;External Reference ID&quot;}">Externe Referenz-ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Zeichenfolge</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Bearbeitbares Feld für den Benutzer, das als Link zu einem externen Objekt verwendet werden soll</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;User Editable Field inteded to be used a link to an external object&quot;}">Bearbeitbares Feld des Benutzers, das als Link zu einem externen Objekt verwendet werden soll</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">Bearbeitbar</span> </p> </td> 
   </tr> 
@@ -98,7 +98,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;groupID&quot;}"><strong>groupID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Group ID&quot;}">Gruppen-ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Zeichenfolge</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the first group with access to the custom form&quot;}">Kennung der ersten Gruppe mit Zugriff auf das benutzerdefinierte Formular</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the first group with access to the custom form&quot;}">ID der ersten Gruppe mit Zugriff auf das benutzerdefinierte Formular</td> 
    <td> </td> 
    <td> <p><span class="dtEdit">Bearbeitbar</span> </p> <p><span class="dtGrp">Nicht gruppierbar</span> </p> </td> 
   </tr> 
@@ -114,7 +114,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdateDate&quot;}"><strong>lastUpdateDate</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Last Update Date&quot;}">Datum der letzten Aktualisierung</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date/Time&quot;}">Datum/Zeit</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date of when the object was last modified&quot;}">Datum der letzten Änderung des Objekts</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Date of when the object was last modified&quot;}">Datum, an dem das Objekt zuletzt geändert wurde</td> 
    <td> </td> 
    <td> </td> 
   </tr> 
@@ -122,7 +122,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;lastUpdatedByID&quot;}"><strong>lastUpdatedByID</strong> </td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Last Updated By ID&quot;}">Zuletzt aktualisiert von ID</td> 
    <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;String&quot;}">Zeichenfolge</td> 
-   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">ID des letzten Benutzers, der das Objekt aktualisiert</td> 
+   <td data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;ID of the last user to Update the object&quot;}">ID des letzten Benutzers, der das Objekt aktualisiert hat</td> 
    <td> </td> 
    <td> <p><span class="dtGrp">Nicht gruppierbar</span> </p> </td> 
   </tr> 
@@ -141,8 +141,8 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
 
 | Name | Label | Typ | Objektcode eingeben | URL |
 |---|---|---|---|---|
-| Kunde | customer | Kunde | CUST | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Eingegeben von | enterBy | Benutzerin oder Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Kunde | Kunde | Kunde | KÜRZEN | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Eingegeben von | enteredBy | Benutzerin oder Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Gruppe | Gruppe | Gruppe | GRUPPE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Zuletzt aktualisiert von | lastUpdatedBy | Benutzerin oder Benutzer | BENUTZER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 
@@ -151,9 +151,9 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
 
 | Name | Label | Typ | Objektcode eingeben | URL |
 |---|---|---|---|---|
-| Zugriffsregeln | accessRules | Zugriffsregel | ACSRUL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Kategoriezugriffsregeln | categoryAccessRules | Kategoriezugriffsregeln | KATZ | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
-| Kategoriekaskadierte Regeln | categoryCascadeRules | Kaskadierende Katalogregeln | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Zugriffsregeln | accessRules | Zugriffsregel | VERSIERT | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Kategoriezugriffsregeln | categoryAccessRules | Kategoriezugriffsregeln | KATAKER | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
+| Kaskadierende Regeln für Kategorien | categoryCascadeRules | Kaskadierende Regeln für Kategorien | CTCSRL | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Kategorieparameter | categoryParameters | Kategorieparameter | CTGYPA | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 | Andere Gruppen | otherGroups | Gruppe | GRUPPE | [https://support.workfront.com/hc/en-us/articles/226425467](https://support.workfront.com/hc/en-us/articles/226425467) |
 
@@ -162,7 +162,7 @@ Meldung: &quot;APIModel INTERNAL unterstützt kein Feldprojekt (OpTask)&quot;
 
 | Label | Name | Argumente |
 |---|---|---|
-| Zuweisen von Kategorien | assignCategories | `[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]` |
-| Zuweisungskategorie | assignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |
-| Zuweisung von Kategorien aufheben | unassignCategories | `[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]` |
-| Zuweisung aufheben | unassignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |
+| Kategorien zuweisen | assignCategories | `[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]` |
+| Kategorie zuweisen | assignCategory | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |
+| Zuweisung von Kategorien aufheben | Zuweisung von Kategorien aufheben | `[{name: "objID",type: "string"},{name: "objCode",type: "string"},{name: "categoryIDs",type: "string[]"}]` |
+| Zuweisung der Kategorie aufheben | Zuweisung von Kategorie aufheben | `[{name: "objID",type: "string"},name: "objCode",type: "string"},{name: "categoryID",type: "string"}]` |

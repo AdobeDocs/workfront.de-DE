@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: Testsendungen erstellen
-description: Sie können in Adobe Workfront Testsendungen von Dokumenten erstellen. Sie können in Adobe Workfront Testsendungen von Dokumenten erstellen. Sie können Testsendungen für Dokumente, interaktive Inhalte und Websites erstellen. In den folgenden Artikeln erfahren Sie, wie Sie Testsendungen erstellen.
+title: Erstellen von Testsendungen
+description: Sie können in Adobe Workfront Korrekturabzüge für Dokumente erstellen. Sie können in Adobe Workfront Korrekturabzüge für Dokumente erstellen. Sie können Korrekturabzüge für Dokumente, interaktive Inhalte und Websites erstellen. In den folgenden Artikeln erfahren Sie, wie Sie einen Testversand durchführen.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 ---
 
-# Erstellen von Testsendungen: Artikelindex
+# Korrekturabzüge erstellen: Artikelindex
 
 <!--Audited: 01/2024-->
 
-Sie können in Adobe Workfront Testsendungen von Dokumenten erstellen. Sie können Testsendungen für Dokumente, interaktive Inhalte und Websites erstellen.
+Sie können in Adobe Workfront Korrekturabzüge für Dokumente erstellen. Sie können Korrekturabzüge für Dokumente, interaktive Inhalte und Websites erstellen.
 
-In den folgenden Artikeln erfahren Sie, wie Sie Testsendungen erstellen:
+In den folgenden Artikeln erfahren Sie, wie Sie einen Testversand durchführen:
 
-* [Erstellen eines erweiterten Testversands mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
-* [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
-* [Persönliche Testversand-Standardeinstellungen konfigurieren](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
-* [Erstellen eines mehrseitigen Testversands](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
-* [Erstellen eines interaktiven Testversands für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
-* [Erstellen eines Testversands für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
-* [Erstellen eines statischen Testversands für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
-* [Erstellen eines Testversands für ein Dokument](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)
+* [Erstellen eines erweiterten Korrekturabzugs mit einem einfachen Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/configure-basic-proof-workflow.md)
+* [Erstellen eines erweiterten Korrekturabzugs mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md)
+* [Konfigurieren von persönlichen Proofing-Standards](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/set-proof-defaults.md)
+* [Erstellen eines mehrseitigen Korrekturabzugs](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md)
+* [Erstellen eines interaktiven Korrekturabzugs für eine Website oder andere Web-Inhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-interactive-proof-for-website-or-other-web-content.md)
+* [Erstellen eines Korrekturabzugs für interaktive Inhalte in einer ZIP-Datei](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-interactive-content.md)
+* [Erstellen eines statischen Korrekturabzugs für eine Website oder andere Web-Inhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)
+* [Erstellen eines Korrekturabzugs für ein Dokument](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-proof-for-a-document.md)

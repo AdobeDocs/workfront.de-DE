@@ -12,7 +12,7 @@ ht-degree: 0%
 # Workfront Fusion 2.0
 
 * [Erste Schritte mit Adobe Workfront Fusion](../../../workfront-fusion/get-started/get-started.md)
-* [Grundlagen zur Adobe Workfront-Fusion](../../../workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
+* [Grundlagen zu Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-basics/workfront-fusion-basics.md)
 * [Verbindungen in Adobe Workfront Fusion](../../../workfront-fusion/connections/connections.md)
 * [Szenarien in Adobe Workfront Fusion](../../../workfront-fusion/scenarios/scenarios.md)
 * [Module in Adobe Workfront Fusion](../../../workfront-fusion/modules/modules.md)

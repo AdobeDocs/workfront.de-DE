@@ -2,7 +2,7 @@
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
 title: Löschen von Plänen im Szenario-Planer
-description: Sie können von Ihnen erstellte Pläne löschen. Sie können Pläne, die für Sie freigegeben wurden, nicht löschen.
+description: Sie können von Ihnen erstellte Pläne löschen. Mit Ihnen geteilte Pläne können nicht gelöscht werden.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
@@ -15,18 +15,18 @@ ht-degree: 1%
 
 # Löschen von Plänen in der [!DNL Scenario Planner]
 
-Sie können von Ihnen erstellte Pläne löschen. Sie können Pläne, die für Sie freigegeben wurden, nicht löschen.
+Sie können von Ihnen erstellte Pläne löschen. Mit Ihnen geteilte Pläne können nicht gelöscht werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] Plan*</p> </td> 
    <td> <ul></li>
    <li><p>Neu: Ultimate </p></li>
    <p>Der Szenario-Planer ist für die neuen Workfront Select- oder Workfront Prime-Pläne nicht verfügbar. </p>
@@ -34,30 +34,30 @@ Sie können von Ihnen erstellte Pläne löschen. Sie können Pläne, die für Si
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] Lizenz*</p> </td> 
    <td> <p>Neu: Licht oder höher</p> 
-   <p>Aktuell: [!UICONTROL Review] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Überprüfen] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td>Produkt* </td> 
    <td> <ul><li><p>Für die neuen Workfront-Pläne:</p><p> Adobe Workfront</li></p>
    <li><p>Für die aktuellen Workfront-Pläne: </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenario-Planer</p></li></ul>
+   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenarioplaner</p></li></ul>
 
-<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> erforderlichen Zugriff. </p> </td> 
+<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff erforderlich, um die [!DNL Scenario Planner]</a> verwenden zu können. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Zugriffsebene </td> 
-   <td> <p>Zugriff auf [!UICONTROL Bearbeiten] [!DNL Scenario Planner]</p> </td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf [!DNL Scenario Planner]</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p>[!UICONTROL Berechtigungen für einen Plan verwalten</p> <p>Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan in der [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage]-Berechtigungen für einen Plan</p> <p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -78,19 +78,19 @@ Sie können einen Plan löschen oder ein Szenario in einem Plan löschen.
 >
 >Beachten Sie beim Löschen von Plänen Folgendes:
 >
->* Alle mit dem Plan zusammenhängenden Informationen werden ebenfalls gelöscht. Dies umfasst alle mit dem Plan verbundenen Szenarien und Initiativen, einschließlich Informationen über die Rollen und Kosten bei der Arbeit. Diese Informationen können nicht abgerufen werden.
->* Wenn der Plan ein veröffentlichtes Szenario enthält, werden die mit den gelöschten Initiativen verknüpften Projekte beibehalten und der Bereich &quot;[!DNL Scenario Planner]&quot;verbleibt im Abschnitt &quot;[!UICONTROL Projektdetails]&quot;.
+>* Alle mit dem Plan zusammenhängenden Informationen werden ebenfalls gelöscht. Dies umfasst alle Szenarien und Initiativen, die mit dem Plan verbunden sind, einschließlich Informationen über Aufgabengebiete und Kosten. Diese Informationen können nicht wiederhergestellt werden.
+>* Wenn der Plan ein veröffentlichtes Szenario enthält, werden die mit den gelöschten Initiativen verknüpften Projekte beibehalten und der [!DNL Scenario Planner] Bereich verbleibt im Abschnitt [!UICONTROL Projektdetails].
 >
->  Informationen zu Veröffentlichungsinitiativen für Projekte finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Informationen zur Veröffentlichung von Initiativen in Projekten finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-So löschen Sie einen Plan:
+Löschen eines Plans:
 
 {{step1-to-scenario-planner}}
 
-Eine Liste der Pläne wird angezeigt.
+Eine Liste mit Plänen wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen.
-1. Klicken Sie auf das Menü &quot;**[!UICONTROL Mehr&quot;]** ![](assets/more-menu.png) rechts neben dem Planungsnamen und klicken Sie dann auf &quot;**[!UICONTROL Löschen]**&quot;> &quot;**[!UICONTROL Ja&quot;, löschen Sie es]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
 
    Der Plan wird gelöscht und Sie kehren zur Liste der Pläne zurück.
 
@@ -100,25 +100,25 @@ Eine Liste der Pläne wird angezeigt.
 >
 >Beachten Sie beim Löschen eines Szenarios Folgendes:
 >
->* Beim Löschen eines Szenarios werden alle Initiativen und ihre Informationen aus dem Szenario gelöscht. Wenn sie in andere Szenarien kopiert werden, bleiben die Initiativen in den anderen Szenarien erhalten.
+>* Beim Löschen eines Szenarios werden alle Initiativen und deren Informationen aus dem Szenario gelöscht. Wenn sie in andere Szenarien kopiert werden, bleiben die Initiativen auf den anderen Szenarien.
 >* Beim Löschen eines Szenarios übernimmt das nachfolgende Szenario die Nummer des gelöschten Szenarios und die Zählreihenfolge wird beibehalten. Wenn Sie beispielsweise Szenario 4 löschen, wird Szenario 5 zu Szenario 4.
->* Wenn einige Initiativen zum Szenario veröffentlicht werden, wird das mit der Initiative verknüpfte Projekt beibehalten und der Bereich &quot;Szenario-Planer&quot;bleibt auf den verknüpften Projekten erhalten
->* Wenn die veröffentlichten Initiativen auf einem anderen Szenario vorhanden sind, bleiben sie auf diesem Szenario, einschließlich ihrer Verknüpfung zum Projekt. Durch die Veröffentlichung dieser Initiativen aus den anderen Szenarien werden die verknüpften Projekte mit neuen Informationen aus diesen Szenarien aktualisiert.
+>* Wenn einige Initiativen im Szenario veröffentlicht werden, wird das mit der Initiative verknüpfte Projekt beibehalten und der Bereich Szenario-Planer verbleibt in den verknüpften Projekten
+>* Wenn die veröffentlichten Initiativen in einem anderen Szenario vorhanden sind, bleiben sie in diesem Szenario, einschließlich ihrer Verknüpfung mit dem Projekt. Durch die Veröffentlichung dieser Initiativen aus den anderen Szenarien werden die verknüpften Projekte mit neuen Informationen aus diesen Szenarien aktualisiert.
 >
->  Informationen zu Veröffentlichungsinitiativen für Projekte finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+>  Informationen zur Veröffentlichung von Initiativen in Projekten finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 
-Löschen eines Szenarios:
+So löschen Sie ein Szenario:
 
-1. Gehen Sie zu dem Plan, für den Sie ein Szenario löschen möchten.
+1. Wechseln Sie zu dem Plan, für den Sie ein Szenario löschen möchten.
 
-   Standardmäßig wird das Szenario Anfänglich angezeigt.
+   Standardmäßig wird das anfängliche Szenario angezeigt.
 
-1. Klicken Sie auf **[!UICONTROL Szenarien vergleichen]**.
-1. Klicken Sie in der oberen rechten Ecke der Szenariokarte auf das Menü **[!UICONTROL Mehr]** Menü ![](assets/more-menu.png) und dann auf **[!UICONTROL Löschen]**.
+1. Klicken Sie **[!UICONTROL Szenarien vergleichen]**.
+1. Klicken Sie in der rechten oberen Ecke der Szenariokarte auf das ![](assets/more-menu.png) **[!UICONTROL Mehr]** und klicken Sie dann auf **[!UICONTROL Löschen]**.
 
    Das Szenario wird gelöscht.
 
-1. Klicken Sie auf **[!UICONTROL Plan speichern]** , um Ihre Änderungen zu speichern.
+1. Klicken Sie **[!UICONTROL Plan speichern]** um Ihre Änderungen zu speichern.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

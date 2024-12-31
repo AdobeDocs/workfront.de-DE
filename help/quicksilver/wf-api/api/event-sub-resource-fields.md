@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Ressourcen-Felder für Ereignisabonnements
-description: Ressourcen-Felder für Ereignisabonnements
+title: Ressourcenfelder für Ereignisabonnements
+description: Ressourcenfelder für Ereignisabonnements
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,13 +14,13 @@ ht-degree: 9%
 
 ---
 
-# Ressourcen-Felder für Ereignisabonnements
+# Ressourcenfelder für Ereignisabonnements
 
-Die Felder der Ereignisabonnement-Ressource stellen Trigger für Ereignisse dar, die dazu führen, dass ein Ereignisabonnement eine ausgehende Nachricht an einen konfigurierten Endpunkt sendet. Wenn ein Ressourcenfeld bearbeitet wird, wird ein UPDATE-Ereignis ausgelöst.
+Ereignisabonnement-Ressourcenfelder stellen Trigger für Ereignisse dar, die dazu führen, dass ein Ereignisabonnement eine ausgehende Nachricht an einen konfigurierten Endpunkt sendet. Wenn ein Ressourcenfeld bearbeitet wird, wird ein UPDATE -Ereignis ausgelöst.
 
-Beachten Sie, dass Daten mithilfe verschachtelter Filter gefiltert werden können. Weitere Informationen finden Sie unter [Verwenden verschachtelter Filter](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) in der Artikel Ereignis-Abonnement-API.
+Beachten Sie, dass Daten mithilfe verschachtelter Filter gefiltert werden können. Weitere Informationen finden Sie unter [Verwenden verschachtelter Filter](/help/quicksilver/wf-api/general/event-subs-api.md#using-nested-filters) im Artikel Ereignisabonnement-API.
 
-In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Abonnement von Ereignissen verfügbar sind:
+In der folgenden Tabelle sind die Felder aufgeführt, die für Ereignisabonnement-Ressourcen verfügbar sind:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,7 +36,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
  <tbody> 
   <tr> 
    <td>Zuweisung</td> 
-   <td>ASSGN</td> 
+   <td>ZUWEISEN</td> 
    <td>actualWorkCompleted</td> 
   </tr> 
   <tr> 
@@ -154,7 +154,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workPerDate <p>[!BADGE Entfernt]{type=negative tooltip="Dieses Feld wurde am 26. Oktober 2023 entfernt."}</span></td> 
+   <td>workPerDate <p>[!BADGE Removed]{type=negative tooltip=„Dieses Feld wurde am 26. Oktober 2023 entfernt.“}</span></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -164,11 +164,11 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>workRequired</td> 
+   <td>WorkRequired</td> 
   </tr> 
   <tr> 
    <td>Firma</td> 
-   <td>CMPY</td> 
+   <td>COMPY</td> 
    <td>categoryID</td> 
   </tr> 
   <tr> 
@@ -179,7 +179,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -239,7 +239,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -259,7 +259,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> <p>lastUpdateDate</p> <p>Hinweis: LastUpdateDate Trigger nur ein Ereignis, wenn es an jedem Tag zum ersten Mal aktualisiert wird. </p> </td> 
+   <td> <p>lastUpdateDate</p> <p>Hinweis: LastUpdateDate führt nur bei der ersten Aktualisierung eines Ereignisses an jedem Tag zum Trigger. </p> </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -288,7 +288,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   </tr> 
   <tr> 
    <td>Dokument</td> 
-   <td>DOCU</td> 
+   <td>DOKU</td> 
    <td>accessorIDs</td> 
   </tr> 
   <tr> 
@@ -304,7 +304,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>customer:isAdvancedDocMgmtEnabled</td> 
+   <td>customer:isAdvancedDocManagementEnabled</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -314,7 +314,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -329,7 +329,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Gruppen<p><b>HINWEIS</b>: Dieses Feld kann nicht gefiltert werden.</p></td> 
+   <td>Gruppen<p><b>HINWEIS</b>: Dieses Feld ist nicht filterbar.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -489,7 +489,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>enterByID</span> </td> 
+   <td><span>enteredByID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -588,13 +588,13 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   </tr> 
   <tr> 
    <td>Ausgabe</td> 
-   <td>EXPNS</td> 
-   <td> effectiveAmount </td> 
+   <td>AUSGABEN</td> 
+   <td> Tatsächlicher Betrag </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> effectiveUnitAmount </td> 
+   <td> actualUnitAmount </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -619,17 +619,17 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>effectiveDate</td> 
+   <td>Datum des Wirksamwerdens</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -639,12 +639,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>expObjCode</td> 
+   <td>ExpObjCode</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>costTypeID</td> 
+   <td>expensettypeID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -664,7 +664,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> isReimbursable </td> 
+   <td> ist rückerstattungsfähig </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -704,17 +704,17 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>scheduledAmount</td> 
+   <td>GeplanterBetrag</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>scheduledDate</td> 
+   <td>Geplantes Datum</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>scheduledUnitAmount</td> 
+   <td>GeplanterEinheitenbetrag</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -799,7 +799,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> description </td> 
+   <td> Beschreibung </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -819,7 +819,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> linkedField </td> 
+   <td> linkfield </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -839,7 +839,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> options </td> 
+   <td> Optionen </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -874,17 +874,17 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td> effectiveCost </td> 
+   <td> Ist-Kosten </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>authorisedByID</td> 
+   <td>approvalByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>authorisedOnDate</td> 
+   <td>approvalOnDate</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -899,7 +899,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -914,7 +914,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>externalTimesheetID</td> 
+   <td>externalArbeitszeittabellen-ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1004,7 +1004,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>timesheetID</td> 
+   <td>Arbeitszeittabellen-ID</td> 
   </tr> 
   <tr> 
    <td>Problem</td> 
@@ -1039,12 +1039,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1174,7 +1174,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>resolvingObjID</td> 
+   <td>resolveObjID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1234,22 +1234,22 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachObjID</td> 
+   <td>attachobjID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachOpTaskID</td> 
+   <td>attachetopTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachWorkID</td> 
+   <td>attachworkID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachWorkUserID</td> 
+   <td>attachworkUserID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1364,7 +1364,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>subject</td> 
+   <td>Subjekt</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1384,12 +1384,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>threadID</td> 
+   <td>ThreadID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>timesheetID</td> 
+   <td>Arbeitszeittabellen-ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1424,12 +1424,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1499,12 +1499,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1579,7 +1579,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>attachRateCardID </td> 
+   <td>attachetrateCardID </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1594,17 +1594,17 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertOpTaskID</td> 
+   <td>convertedOpTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertOpTaskOriginatorID</td> 
+   <td>convertedOpTaskOriginatorID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>currency</td> 
+   <td>Währung</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1624,12 +1624,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1674,7 +1674,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>lastUpatedByID</td> 
+   <td>lastUpdatedByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1787,19 +1787,19 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
    <td>workflowAutomationID</td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td><span>ProofApproval</span> </td> 
+   <td><span>TestversandValidierung</span> </td> 
    <td><span>PRFAPL</span> </td> 
    <td><span>accessorIDs</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>GenehmigerDecision</span> </td> 
+   <td><span>genehmigendeEntscheidung</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>GenehmigerID</span> </td> 
+   <td><span>approverID</span> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> </td> 
@@ -1839,7 +1839,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr data-mc-conditions=""> 
    <td> </td> 
    <td> </td> 
-   <td><span>requesterID</span> </td> 
+   <td><span>RequesterID</span> </td> 
   </tr> 
   <tr> 
    <td>Eintrag</td> 
@@ -1859,12 +1859,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>data<p><b>HINWEIS</b>: Dieses Feld kann nicht gefiltert werden.</p></td> 
+   <td>Daten<p><b>HINWEIS</b>: Dieses Feld ist nicht filterbar.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1889,7 +1889,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td>Datensatztyp </td> 
    <td>RECORD_TYPE </td> 
-   <td>color</td> 
+   <td>Farbe</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1909,12 +1909,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>data<p><b>HINWEIS</b>: Dieses Feld kann nicht gefiltert werden.</p></td> 
+   <td>Daten<p><b>HINWEIS</b>: Dieses Feld ist nicht filterbar.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1929,17 +1929,17 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Felder<p><b>HINWEIS</b>: Dieses Feld kann nicht gefiltert werden.</p></td> 
+   <td>Felder<p><b>HINWEIS</b>: Dieses Feld ist nicht filterbar.</p></td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>icon</td> 
+   <td>Symbol</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1959,7 +1959,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Berechtigung</td> 
+   <td>Erlaubnis</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -1999,12 +1999,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2059,7 +2059,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>preferredID</td> 
+   <td>preferencesID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2124,12 +2124,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertOpTaskID</td> 
+   <td>convertedOpTaskID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>convertOpTaskOriginatorID</td> 
+   <td>convertedOpTaskOriginatorID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2144,12 +2144,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2334,12 +2334,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>description</td> 
+   <td>Beschreibung</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2464,7 +2464,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td>Arbeitszeittabelle</td> 
    <td>TSHET</td> 
-   <td>approveID</td> 
+   <td>Genehmiger-ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2534,12 +2534,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>overtimeHours</td> 
+   <td>Überstunden</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>normalHours</td> 
+   <td>Normale Stunden</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2554,12 +2554,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>timesheetProfileID</td> 
+   <td>Arbeitszeittabellen-Profil-ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>totalHours</td> 
+   <td>totalStunden</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2609,7 +2609,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>enterByID</td> 
+   <td>enteredByID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2719,12 +2719,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>timesheetProfileID</td> 
+   <td>Arbeitszeittabellen-Profil-ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>title</td> 
+   <td>Anrede</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2734,7 +2734,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>uumUserID</td> 
+   <td>umUserID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2744,7 +2744,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td>Arbeitsbereich</td> 
    <td>WORKSPACE</td> 
-   <td>color</td> 
+   <td>Farbe</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2764,12 +2764,12 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>icon </td> 
+   <td>Symbol </td> 
   </tr> 
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>id</td> 
+   <td>ID</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2784,7 +2784,7 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
   <tr> 
    <td> </td> 
    <td> </td> 
-   <td>Berechtigung</td> 
+   <td>Erlaubnis</td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -2804,4 +2804,4 @@ In der folgenden Tabelle sind die Felder aufgeführt, die für Ressourcen zum Ab
  </tbody> 
 </table>
 
-&#42;Ein parameterValue ist ein benutzerdefinierter Feldwert, der verschiedenen Workfront-Ressourcen (oder -Objekten) zugeordnet ist. Eine ausgehende Ereignisabonnement-Nachricht enthält eine vollständige Liste der ausgefüllten parameterValues (benutzerdefinierte Felder).
+&#42;Ein parameterValue ist ein benutzerdefinierter Feldwert, der verschiedenen Workfront-Ressourcen (oder -Objekten) zugeordnet ist. Eine ausgehende Nachricht zu einem Ereignisabonnement enthält eine vollständige Liste ausgefüllter Parameterwerte (benutzerdefinierte Felder).

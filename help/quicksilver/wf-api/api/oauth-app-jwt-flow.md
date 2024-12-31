@@ -14,13 +14,13 @@ ht-degree: 0%
 
 ---
 
-# Benutzerdefinierte OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses konfigurieren und verwenden
+# Konfigurieren und verwenden Sie die benutzerdefinierten OAuth 2-Anwendungen Ihres Unternehmens mithilfe des JWT-Flusses
 
-Um die Integration mit Workfront zu ermöglichen und die Kommunikation Ihrer Client-App mit Workfront im Namen des Benutzers zu ermöglichen, müssen Sie:
+Um mit Workfront zu integrieren und Ihrer Client-Anwendung zu ermöglichen, im Namen der Benutzerin bzw. des Benutzers mit Workfront zu kommunizieren, ist Folgendes erforderlich:
 
-* Erstellen einer OAuth2-Anwendung
-* Zertifikat mit öffentlichem Schlüssel erstellen
-* JSON-Web-Token (JWT) erstellen
+* Erstellen eines OAuth2-Programms
+* Erstellen eines Zertifikats mit öffentlichem Schlüssel
+* Erstellen eines JSON Web Token (JWT)
 
 ## Erstellen einer OAuth2-Anwendung
 
@@ -30,56 +30,56 @@ Anweisungen zum Erstellen der OAuth2-Anwendung finden Sie unter [Erstellen einer
 >
 >Sie können bis zu zehn OAuth2-Anwendungen gleichzeitig haben.
 
-## Zertifikat mit öffentlichem Schlüssel erstellen
+## Erstellen eines Zertifikats mit öffentlichem Schlüssel
 
-Das JWT muss signiert und base-64-kodiert sein, damit es in die Zugriffsanfrage aufgenommen werden kann. Die JWT-Bibliotheken bieten Funktionen zum Ausführen dieser Aufgaben.
+Das JWT muss signiert und Base-64-codiert sein, damit es in die Zugriffsanfrage aufgenommen werden kann. Die JWT-Bibliotheken bieten Funktionen zum Ausführen dieser Aufgaben.
 
-Das Token muss mit dem privaten Schlüssel für ein digitales Signaturzertifikat signiert werden. Wenn Sie dies tun, können Sie den privaten Schlüssel jedes zugehörigen Zertifikats verwenden, um Ihr JWT zu signieren.
+Das Token muss mit dem privaten Schlüssel für ein digitales Signaturzertifikat signiert werden. In diesem Fall können Sie den privaten Schlüssel eines beliebigen zugehörigen Zertifikats verwenden, um Ihr JWT zu signieren.
 
-Der verwendete Algorithmus ist RS256 (RSA Signature with SHA-256). Dies ist ein asymmetrischer Algorithmus, der ein Schlüsselpaar aus öffentlichem/privatem Schlüssel verwendet. Der Identitätsanbieter verfügt über einen privaten (geheimen) Schlüssel, mit dem die Signatur generiert wird, und der Verbraucher des JWT erhält einen öffentlichen Schlüssel, um die Signatur zu validieren.
+Der verwendete Algorithmus ist RS256 (RSA Signature with SHA-256). Dies ist ein asymmetrischer Algorithmus, der ein Schlüsselpaar aus öffentlichem/privatem Schlüssel verwendet. Der Identitätsanbieter verfügt über einen privaten (geheimen) Schlüssel zum Generieren der Signatur, und der Benutzer des JWT erhält einen öffentlichen Schlüssel zum Validieren der Signatur.
 
-Um den öffentlichen Schlüssel zu generieren, führen Sie **einen** der folgenden Schritte aus.
+Um den öffentlichen Schlüssel zu generieren **führen Sie** der folgenden Schritte aus.
 
-* Öffnen Sie Ihr MacOS/Linux-Terminal und führen Sie den folgenden Befehl aus. Laden Sie dann `certificate_pub.crt` über die Schaltfläche **Öffentlichen Schlüssel hinzufügen** in der OAuth2-Anwendungseinrichtung in Workfront hoch.
+* Öffnen Sie Ihr MacOS/Linux-Terminal und führen Sie den folgenden Befehl aus und laden Sie dann `certificate_pub.crt` mithilfe der Schaltfläche **Öffentlichen Schlüssel hinzufügen** im Setup der OAuth2-Anwendung in Workfront hoch.
 
   <!-- [Copy](javascript:void(0);) -->
   <pre><code>openssl req -x509 -sha256 -nodes -newkey rsa:2048 -keyout private.key -out certificate_pub.crt</code></pre>
 
-* Verwenden Sie die Schaltfläche **Generate a public/private keypair** in der OAuth2-Anwendungskonfiguration in Workfront, um den RSA zu generieren.
+* Verwenden Sie die Schaltfläche **Schlüsselpaar aus öffentlichem/privatem Schlüssel generieren** im OAuth2-Programm-Setup in Workfront, um die RSA zu generieren.
 
-## JSON-Web-Token erstellen
+## Erstellen eines JSON-Web-Tokens
 
-Ein JSON-Web-Token für die Authentifizierung von Dienstkonten erfordert einen bestimmten Satz von Ansprüchen und muss mit einem gültigen digitalen Signaturzertifikat signiert werden. Es wird empfohlen, eine der öffentlich verfügbaren Bibliotheken oder Tools zum Erstellen Ihres JWT zu verwenden.
+Ein JSON-Web-Token für die Authentifizierung des Service-Kontos erfordert einen bestimmten Satz von Ansprüchen und muss mit einem gültigen digitalen Signaturzertifikat signiert werden. Es wird empfohlen, eine der öffentlich verfügbaren Bibliotheken oder Tools zum Erstellen des JWT zu verwenden.
 
-Die folgende Tabelle enthält Informationen zu Feldern, die bei der Konfiguration des JWT-Tokens erforderlich sein können.
+Die folgende Tabelle enthält Informationen zu Feldern, die möglicherweise erforderlich sind, wenn Sie das JWT-Token konfigurieren.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">exp</td> 
-   <td> <p>Erforderlich. Der Ablaufparameter ist ein erforderlicher Parameter, der die absolute Zeit seit dem 1.1.1970 GMT misst. Sie müssen sicherstellen, dass die Ablaufzeit nach dem Zeitpunkt des Problems liegt. Danach ist das JWT nicht mehr gültig. </p> <p>Hinweis: Es wird empfohlen, ein sehr kurzlebiges Token (einige Minuten) zu verwenden, damit es bald abläuft, nachdem es gegen ein Zugriffstoken ausgetauscht wurde. Jedes Mal, wenn ein neues Zugriffstoken erforderlich ist, wird ein JWT signiert und ausgetauscht. Dies ist ein sichererer Ansatz. Wir empfehlen keine langlebigen Token, die bei Bedarf wiederverwendet werden, um Zugriffstoken zu erhalten.</p> </td> 
+   <td role="rowheader">Exp</td> 
+   <td> <p>Erforderlich. Der Parameter Ablauf ist ein erforderlicher Parameter, der die absolute Zeit seit dem 01/01/1970 GMT misst. Sie müssen sicherstellen, dass die Ablaufzeit nach dem Zeitpunkt der Anfrage liegt. Nach dieser Zeit ist der JWT nicht mehr gültig. </p> <p>Hinweis: Es wird empfohlen, über ein Token mit sehr kurzer Lebensdauer (einige Minuten) zu verfügen, damit es bald abläuft, nachdem es gegen ein Zugriffs-Token eingetauscht wurde. Jedes Mal, wenn ein neues Zugriffstoken erforderlich ist, wird ein JWT signiert und ausgetauscht. Dies ist ein sichererer Ansatz. Wir empfehlen nicht länger laufende Token, die wiederverwendet werden, um bei Bedarf Zugriffs-Token zu erhalten.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">is</td> 
-   <td>Erforderlich. Der Emittent ist Ihre Kunden-ID aus den OAuth2-App-Details.</td> 
+   <td role="rowheader">ISS</td> 
+   <td>Erforderlich. Aussteller ist Ihre Kunden-ID aus den OAuth2-App-Details.</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">sub</td> 
-   <td>Erforderlich. Der Betreff ist Ihre Benutzer-ID, mit der der öffentliche Schlüssel bei der Einrichtung erstellt wurde.</td> 
+   <td role="rowheader">Untergruppe</td> 
+   <td>Erforderlich. Der Betreff ist Ihre Benutzer-ID, die den öffentlichen Schlüssel bei der Einrichtung erstellt hat.</td> 
   </tr> 
  </tbody> 
 </table>
 
-## JWT ersetzen, um ein Zugriffstoken abzurufen
+## Austauschen des JWT zum Abrufen eines Zugriffs-Tokens
 
-1. Senden Sie eine POST-Anfrage an:
+1. Anforderung einer POST senden an:
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>https://yourdomain.my.workfront.com/integrations/oauth2/api/v1/jwt/exchange</code></pre>
 
-1. Der Hauptteil der Anfrage sollte URL-kodierte Parameter mit Ihrer Client-ID, dem Client-Geheimnis und JWT enthalten:
+1. Der Text der Anfrage sollte URL-kodierte Parameter mit Ihrer Client-ID, Ihrem Client-Geheimnis und JWT enthalten:
 
    <!-- [Copy](javascript:void(0);) -->
    <pre><code>client_id={client_id_value}&client_secret={client_secret_value}&jwt_token={base64_encoded_JWT}</code></pre>

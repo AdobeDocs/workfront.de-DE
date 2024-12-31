@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 6
-description: Neue Funktionen in API Version 6
+title: Neue Funktionen in der API-Version 6
+description: Neue Funktionen in der API-Version 6
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,11 +10,11 @@ exl-id: e671a881-b8c2-4234-a3a0-76b1fbfafd32
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '538'
-ht-degree: 34%
+ht-degree: 39%
 
 ---
 
-# Neue Funktionen in API Version 6
+# Neue Funktionen in der API-Version 6
 
 ## Neue Objekte
 
@@ -22,38 +22,38 @@ ht-degree: 34%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| ID | customer |   |   |   |   | Hinzufügen |
+| ID | Kunde |   |   |   |   | Hinzufügen |
 | customerID | Projekt |   |   |   |   | Anzahl |
 | projectID | resourceManager |   |   |   |   | Löschen |
-| resourceManagerID | template |   |   |   |   | Get |
+| resourceManagerID | Vorlage |   |   |   |   | Abrufen |
 | templateID |   |   |   |   |   | Bericht  |
 |   |   |   |   |   |   | Suche  |
 
 
-### Ews
+### EWS
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| fileName |   |   |   |   | hochladen |   |
-| handle |   |   |   |   |   |   |
+| fileName |   |   |   |   | Upload |   |
+| handhaben |   |   |   |   |   |   |
 | objCode |   |   |   |   |   |   |
 
 
-### Eigene Bezeichnung
+### Benutzerdefinierter Titel
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   | checkDelete | customLabels | Hinzufügen |
 |   |   |   |   | inUseByOtherLayoutTemplate | userCustomLabels | Anzahl |
 |   |   |   |   | removeCustomLabel |   | Löschen |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Abrufen |
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
 
 
 ## Aktualisierte Objekte
 
-Änderungen an vorhandenen Objekten: Hinzufügungen werden einfach aufgelistet, Entfernungen sind durchgestrichen, Änderungen an vorhandenen Objekten haben einen angehängten Hinweis nach der Tabelle
+Änderungen an vorhandenen Objekten: Ergänzungen werden einfach aufgelistet, Entfernungen werden durchgestrichen, Änderungen an vorhandenen Objekten werden mit einer Notiz nach der Tabelle versehen
 
 ### Aktualisieren
 
@@ -68,7 +68,7 @@ ht-degree: 34%
 
 <sup>1</sup> Änderungen an möglichen Werten
 
-Das Attribut <sup>2</sup> hasFilters wurde in true geändert
+<sup>2</sup> hasFilters-Attribut in true geändert
 
  
 
@@ -86,7 +86,7 @@ Das Attribut <sup>2</sup> hasFilters wurde in true geändert
 
 <sup>1</sup> Datumsvalidierung hinzugefügt
 
-Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
+<sup>2</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
@@ -100,7 +100,7 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
  
 
-### Validierungsschritt
+### Genehmigungsschritt
 
  
 
@@ -118,11 +118,11 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| authorisedStatus |   |   |   |   |   | Hinzufügen |
-| authorisedStatusLabel |   |   |   |   |   | Anzahl |
-| comment |   |   |   |   |   | Löschen |
-| enterByID |   |   |   |   |   | Bearbeiten |
-| entryDate |   |   |   |   |   | Get |
+| approvalStatus |   |   |   |   |   | Hinzufügen |
+| approvalStatusLabel |   |   |   |   |   | Anzahl |
+| Kommentar |   |   |   |   |   | Löschen |
+| enteredByID |   |   |   |   |   | Bearbeiten |
+| entryDate |   |   |   |   |   | Abrufen |
 | globalPathID |   |   |   |   |   | Bericht |
 | isPrivate |   |   |   |   |   | Suchen |
 | lastUpdateDate |   |   |   |   |   |   |
@@ -131,9 +131,9 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
 {style="table-layout:auto"}
 
-<sup>1</sup> In &quot;MELDEPFLICHTIG&quot;geändert
+<sup>1</sup> In Berichterstellbar geändert
 
-<sup>2</sup> Max. Length Validator hinzugefügt
+<sup>2</sup> Maximallängen-Validator hinzugefügt
 
  
 
@@ -148,7 +148,7 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
 <sup>1</sup> Datumsvalidierung hinzugefügt
 
-<sup>2</sup> Flag nicht_filtern hinzugefügt
+<sup>2</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
@@ -164,7 +164,7 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
  
 
-### Grundlinie 
+### Baseline 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -172,7 +172,7 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Nicht-filterbare Markierung hinzugefügt
+<sup>1</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
@@ -184,7 +184,7 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Nicht-filterbare Markierung hinzugefügt
+<sup>1</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
@@ -196,9 +196,9 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Markierung für NO_TIME-Feld hinzugefügt
+<sup>1</sup> Feld NO_TIME hinzugefügt
 
-### Niedergangsereignis 
+### Burndown-Ereignis 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -220,7 +220,7 @@ Markierung <sup>2</sup> NOT_FILTERABLE hinzugefügt
 
  
 
-Benutzerdefinierte Enum 
+Benutzerdefinierte Enumeration 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -251,7 +251,7 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderung des PRÄZISIONSvalidators für 8 bis 9
+<sup>1</sup> Geänderter PRÄZISIONS-Validator für 8 bis 9
 
  
 
@@ -277,7 +277,7 @@ Wechselkurs 
 
  
 
-### optask (issue)<sup>1</sup> 
+### Aufgabe (Problem)<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -285,13 +285,13 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Gekennzeichnet als RESTORABLE
+<sup>1</sup> Als WIEDERHERSTELLBAR gekennzeichnet
 
-<sup>2</sup> Flag nicht_filtern hinzugefügt
+<sup>2</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
-### Projekt<sup>1</sup> 
+### project<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -300,13 +300,13 @@ Wechselkurs 
 | originalWorkRequired |   |   | `work` |   |   |   |
 | syncBurndownDate |   |   |   |   |   |   |
 | Arbeit |   |   |   |   |   |   |
-| workRequired |   |   |   |   |   |   |
+| WorkRequired |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Als RESTORABLE und RESOURCE_MANAGEABLE gekennzeichnet
+<sup>1</sup> Als WIEDERHERSTELLBAR und RESOURCE_MANAGEABLE gekennzeichnet
 
-<sup>2</sup> Flag nicht_filtern hinzugefügt
+<sup>2</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
@@ -319,11 +319,11 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Gekennzeichnet als RESTORABLE
+<sup>1</sup> Als WIEDERHERSTELLBAR gekennzeichnet
 
 <sup>2</sup> AT_DATE_YEAR_BEFORE Validator hinzugefügt
 
-<sup>3</sup> Flag nicht_filtern hinzugefügt
+<sup>3</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
@@ -338,7 +338,7 @@ Wechselkurs 
 
  
 
-### Vorlage<sup>1</sup> 
+### template<sup>1</sup> 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -346,7 +346,7 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Als RESTORABLE und RESOURCE_MANAGEABLE gekennzeichnet
+<sup>1</sup> Als WIEDERHERSTELLBAR und RESOURCE_MANAGEABLE gekennzeichnet
 
 ### Vorlagenaufgabe<sup>1</sup> 
 
@@ -356,9 +356,9 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Gekennzeichnet als RESTORABLE
+<sup>1</sup> Als WIEDERHERSTELLBAR gekennzeichnet
 
-<sup>2</sup> Flag nicht_filtern hinzugefügt
+<sup>2</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
@@ -370,11 +370,11 @@ Wechselkurs 
 
 {style="table-layout:auto"}
 
-<sup>1</sup> MAX_LENGTH-Geiger
+<sup>1</sup> MAX_LENGTH-Verletzungen
 
  
 
-### Benutzerhandbuch
+### Benutzerhinweis
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -384,7 +384,7 @@ Wechselkurs 
 
 <sup>1</sup> Mögliche Werte geändert
 
-<sup>2</sup> hat Filter geändert zu `[true]`
+<sup>2</sup> hat Filter in `[true]` geändert
 
  
 

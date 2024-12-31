@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: comment-on-a-proof
-title: Kommentare zum Testversand auflösen
-description: Sie können Kommentare markieren, die nach der Bearbeitung aufgelöst wurden. Sie können einen Kommentar, den Sie oder ein anderer Validierer aufgelöst haben, erneut öffnen.
+title: Korrekturabzugskommentare auflösen
+description: Sie können Kommentare als aufgelöst markieren, nachdem sie adressiert wurden. Sie können einen Kommentar, den Sie oder eine andere Überprüfende aufgelöst haben, erneut öffnen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Kommentare zum Testversand auflösen
+# Korrekturabzugskommentare auflösen
 
-Sie können Kommentare markieren, die nach der Bearbeitung aufgelöst wurden. Sie können einen Kommentar, den Sie oder ein anderer Validierer aufgelöst haben, erneut öffnen.
+Sie können Kommentare als aufgelöst markieren, nachdem sie adressiert wurden. Sie können einen Kommentar, den Sie oder eine andere Überprüfende aufgelöst haben, erneut öffnen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,49 +29,49 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof role</td> 
+   <td role="rowheader">Rolle des Korrekturabzugs</td> 
    <td>Autor oder Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Kommentar auflösen
+## Einen Kommentar auflösen
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
-1. Suchen Sie den gewünschten Testversand und klicken Sie dann auf **Testversand öffnen**.
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Suchen Sie den benötigten Korrekturabzug und klicken Sie dann auf **Korrekturabzug öffnen**.
 
-1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken Sie oben rechts auf **Kommentare anzeigen** .
-1. Wählen Sie den Kommentar aus.
-1. Klicken Sie auf das Häkchen-Symbol in der rechten unteren Ecke des Kommentars. In der linken oberen Ecke des Kommentars wird ein grünes Häkchen angezeigt und unter dem Titel &quot;Durch Thread aufgelöst&quot;wird eine Meldung angezeigt. Der Benutzer, der den Kommentar gesendet hat, erhält eine E-Mail-Benachrichtigung, dass der Kommentar aufgelöst wurde.
+1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken **oben rechts auf** Kommentare anzeigen“.
+1. Kommentar auswählen.
+1. Klicken Sie auf das Häkchensymbol in der rechten unteren Ecke des Kommentars. Ein grünes Häkchen wird in der oberen linken Ecke des Kommentars angezeigt und eine Kennzeichnung „Thread aufgelöst“ und eine Meldung werden darunter angezeigt. Der Benutzer, der den Kommentar gesendet hat, erhält eine E-Mail-Benachrichtigung, dass der Kommentar aufgelöst wurde.
 
    ![](assets/resolve-comment-350x247.png)
 
-## Aufgelösten Kommentar erneut öffnen
+## Erneutes Öffnen eines aufgelösten Kommentars
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
-1. Suchen Sie den gewünschten Testversand und klicken Sie dann auf **Testversand öffnen**.
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Suchen Sie den benötigten Korrekturabzug und klicken Sie dann auf **Korrekturabzug öffnen**.
 
-1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken Sie oben rechts auf **Kommentare anzeigen** .
-1. Wählen Sie den Kommentar aus.
-1. Klicken Sie auf das grüne Häkchensymbol in der rechten unteren Ecke des Kommentars (rechts neben der Schaltfläche **Antworten** ). Das Häkchen in der linken oberen Ecke des Kommentars verschwindet und darunter wird die Bezeichnung &quot;Thread reopened&quot; und eine Meldung angezeigt. Der Benutzer, der den Kommentar gesendet hat, erhält eine E-Mail-Benachrichtigung, dass der Kommentar erneut geöffnet wurde.
+1. (Bedingt) Wenn der Kommentarbereich nicht geöffnet ist, klicken **oben rechts auf** Kommentare anzeigen“.
+1. Kommentar auswählen.
+1. Klicken Sie auf das grüne Häkchen in der rechten unteren Ecke des Kommentars (rechts neben der Schaltfläche **Antworten**). Das Häkchen in der oberen linken Ecke des Kommentars verschwindet und eine Beschriftung „Thread wieder geöffnet“ und eine Nachricht werden darunter angezeigt. Der Benutzer, der den Kommentar gesendet hat, erhält eine E-Mail-Benachrichtigung, dass der Kommentar erneut geöffnet wurde.
 
    ![](assets/reopen-resolved-comment-350x334.png)

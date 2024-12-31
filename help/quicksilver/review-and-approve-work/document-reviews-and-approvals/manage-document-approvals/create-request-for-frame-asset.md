@@ -2,7 +2,7 @@
 content-type: reference
 product-area: projects
 navigation-topic: projects-navigation-topic
-title: Erstellen einer Überprüfungs- oder Genehmigungsanforderung für ein Frame.io-Asset
+title: Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Frame.io-Asset
 description: Sie können eine Überprüfungs- oder Genehmigungsanfrage für mit Frame.io verbundene Assets erstellen.
 feature: Work Management, Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -16,11 +16,11 @@ ht-degree: 0%
 
 ---
 
-# Erstellen einer Überprüfungs- oder Genehmigungsanforderung für ein Frame.io-Asset
+# Erstellen einer Prüfungs- oder Genehmigungsanfrage für ein Frame.io-Asset
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Validierungsfunktion, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Genehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 <!--
 ## Access requirements
@@ -53,50 +53,50 @@ You must have the following access to perform the steps in this article:
 &#42;To find out what plan, license type, or access you have, contact your Workfront administrator.
 -->
 
-## Erstellen einer Überprüfungs- oder Genehmigungsanforderung aus der Dokumentzusammenfassung
+## Erstellen einer Prüfungs- oder Genehmigungsanfrage über die Dokumentzusammenfassung
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das den verbundenen Frame.io enthält, und wählen Sie dann **Dokumente** aus.
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das bzw. das die verbundene Frame.io enthält, und wählen Sie **Dokumente**.
 
    >[!TIP]
    >
-   >Mit Frame.io verbundene Assets haben neben ihnen das Frame.io-Logo.
+   >Bei mit Frame.io verbundenen Assets befindet sich neben ihnen das Frame.io-Logo.
 
 1. Klicken Sie auf das mit Frame.io verbundene Asset, um das Bedienfeld Dokumentzusammenfassung zu öffnen.
 
-1. (Optional) Wählen Sie im Dropdownmenü **Version** die Version des Assets aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
+1. (Optional) Wählen Sie im Dropdown **Menü** Version) die Version des Assets aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
 
 1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Hinzufügen**.
 
    ![](assets/doc-summary-add-approvers.png)
 
-1. (Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.
+1. (Optional) Legen Sie eine Frist für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Termin per E-Mail benachrichtigt.
 
-1. Um einen Genehmiger hinzuzufügen, klicken Sie auf den **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
+1. Um eine genehmigende Person hinzuzufügen, klicken Sie auf **genehmigende Person** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
 
-1. Um einen Überprüfer hinzuzufügen, klicken Sie auf das Kontrollkästchen **Überprüfer** und beginnen Sie mit der Eingabe des Namens eines Benutzers oder Teams.
+1. Um einen Reviewer hinzuzufügen, aktivieren Sie das **Reviewer** und geben Sie einen Benutzer- oder Teamnamen ein.
 
    ![](assets/add-approver-and-deadline.png)
 
-1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
+1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
 
-## Erstellen Sie auf der Seite &quot;Dokumentdetails&quot;eine Überprüfungs- oder Genehmigungsanforderung
+## Erstellen einer Prüfungs- oder Genehmigungsanfrage über die Seite Dokumentdetails
 
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Dokumentdetails**.
    ![](assets/doc-details.png)
 
-1. Wählen Sie neben dem Dokumentnamen die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
+1. Wählen Sie in der Nähe des Dokumentnamens die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
 
-1. Klicken Sie im linken Bereich auf **Genehmigungen**.
+1. Klicken Sie im linken Bedienfeld auf **Genehmigungen**.
 
-1. (Optional) Legen Sie einen Termin für die Genehmigung fest. Benutzer und Teams werden per E-Mail 72 Stunden und 24 Stunden vor Ablauf der angegebenen Frist benachrichtigt.
+1. (Optional) Legen Sie eine Frist für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Termin per E-Mail benachrichtigt.
 
-1. Um einen Genehmiger hinzuzufügen, klicken Sie auf den **Genehmiger** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
+1. Um eine genehmigende Person hinzuzufügen, klicken Sie auf **genehmigende Person** und beginnen Sie mit der Eingabe eines Benutzer- oder Teamnamens.
 
-1. Um einen Überprüfer hinzuzufügen, klicken Sie auf das Kontrollkästchen **Überprüfer** und beginnen Sie mit der Eingabe des Namens eines Benutzers oder Teams.
+1. Um einen Reviewer hinzuzufügen, aktivieren Sie das **Reviewer** und geben Sie einen Benutzer- oder Teamnamen ein.
 
    ![](assets/add-approver-and-deadline.png)
 
-1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
+1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
 
 
 

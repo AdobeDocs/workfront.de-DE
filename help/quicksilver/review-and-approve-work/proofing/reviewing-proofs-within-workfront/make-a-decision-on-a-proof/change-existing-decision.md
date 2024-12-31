@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: make-a-decision-on-a-proof
-title: Vorhandene Entscheidung für einen Testversand ändern
-description: Solange der Testversand aktiv ist (weder gesperrt noch archiviert), können Sie Ihre Entscheidung jederzeit ändern.
+title: Ändern einer vorhandenen Entscheidung zu einem Korrekturabzug
+description: Solange der Korrekturabzug aktiv ist (nicht gesperrt oder archiviert), können Sie Ihre Entscheidung jederzeit ändern.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 07825eeb-9dbd-4ad8-9dca-d3b5345012f8
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Vorhandene Entscheidung für einen Testversand ändern
+# Ändern einer vorhandenen Entscheidung zu einem Korrekturabzug
 
-Solange der Testversand aktiv ist (weder gesperrt noch archiviert), können Sie Ihre Entscheidung jederzeit ändern. 
+Solange der Korrekturabzug aktiv ist (nicht gesperrt oder archiviert), können Sie Ihre Entscheidung jederzeit ändern. 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,35 +29,35 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Proof role</strong> </td> 
-   <td>Genehmiger, Prüfer und Genehmiger, Autor, Moderator</td> 
+   <td role="rowheader"><strong>Rolle des Korrekturabzugs</strong> </td> 
+   <td>Genehmigende Person, Prüfende Person und genehmigende Person, Autor, Moderator</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Vorhandene Entscheidung für einen Testversand ändern
+## Ändern einer vorhandenen Entscheidung zu einem Korrekturabzug
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
-1. Suchen Sie den gewünschten Testversand und klicken Sie dann auf **Testversand öffnen**.
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+1. Suchen Sie den benötigten Korrekturabzug und klicken Sie dann auf **Korrekturabzug öffnen**.
 
-1. Klicken Sie in der oberen Mitte des Testversand-Viewers auf die von Ihnen getroffene Entscheidung.
-1. Klicken Sie im angezeigten Feld **Testversand-Entscheidung** unter der zuvor getroffenen Entscheidung auf **Entscheidung entfernen** .
+1. Klicken Sie auf die von Ihnen getroffene Entscheidung in der oberen Mitte der Proofing-Anzeige.
+1. Klicken Sie im **Korrekturabzugsentscheidung** unterhalb der zuvor getroffenen Entscheidung **Entscheidung entfernen**.

@@ -1,6 +1,6 @@
 ---
-title: Prüfen von Einschränkungen bei der Zusammenarbeit mit Personen außerhalb Ihres Unternehmens
-description: Prüfen von Einschränkungen bei der Zusammenarbeit mit Personen außerhalb Ihres Unternehmens
+title: Einschränkungen bei der Proofing-Zusammenarbeit mit Personen außerhalb Ihrer Organisation
+description: Einschränkungen bei der Proofing-Zusammenarbeit mit Personen außerhalb Ihrer Organisation
 author: Courtney
 draft: Probably
 source-git-commit: de30bd970bda06c706e5156d5195e8568558e593
@@ -10,30 +10,30 @@ ht-degree: 0%
 
 ---
 
-# Prüfen von Einschränkungen bei der Zusammenarbeit mit Personen außerhalb Ihres Unternehmens
+# Einschränkungen bei der Proofing-Zusammenarbeit mit Personen außerhalb Ihrer Organisation
 
-Bei der Kommunikation mit Personen außerhalb Ihres Unternehmens, die zu einem Testversand hinzugefügt werden, müssen einige Einschränkungen beachtet werden. Dies gilt insbesondere dann, wenn die Person außerhalb Ihres Unternehmens in einer separaten Umgebung über einen Testversandzugriff verfügt.
+Es gibt einige Einschränkungen, die bei der Kommunikation mit Personen außerhalb Ihrer Organisation zu beachten sind, wenn sie zu einem Korrekturabzug hinzugefügt werden. Dies gilt insbesondere, wenn die Person außerhalb Ihrer Organisation über Proofing-Zugriff in einer separaten Umgebung verfügt.
 
-## Kontakte nach Mitgliedstaaten
+## Kontakte mit der Auszeichnung eines Mitglieds
 
-In einer Testumgebung gibt es drei Kontakttypen:
+In einer Proofing-Umgebung gibt es drei Arten von Kontakten:
 
-* **Benutzer**: Benutzer haben eine Workfront Proof-Anmeldung in der Umgebung Ihres Unternehmens.
-* **Mitglieder**: Mitglieder haben ihre eigene Workfront Proof-Anmeldung in der Umgebung eines anderen Unternehmens (nicht in Ihrer eigenen). Mitglieder können nicht in Benutzer in Ihrer Umgebung konvertiert werden.
-* **Gäste**: Gäste haben keine eigene Workfront Proof-Anmeldung in der Umgebung Ihres Unternehmens, aber Sie haben ihre Details zu Ihrem Konto hinzugefügt (z. B. Gastreviewer bei Testsendungen). Sie können Gäste in Benutzer umwandeln.
+* **Benutzer**: Benutzer verfügen über eine Workfront Proof-Anmeldung in der Umgebung Ihres Unternehmens.
+* **Mitglieder**: Mitglieder verfügen über eine eigene Workfront Proof-Anmeldung in der Umgebung eines anderen Unternehmens (nicht in Ihrer eigenen). Mitglieder können in Ihrer Umgebung nicht in Benutzer konvertiert werden.
+* **Gäste**: Gäste verfügen nicht über eine eigene Workfront Proof-Anmeldung in der Umgebung Ihres Unternehmens, Sie haben jedoch deren Details zu Ihrem Konto hinzugefügt (z. B. Gastbewertungen für Korrekturabzüge). Sie können Gäste in Benutzer konvertieren.
 
-Da Mitglieder nicht in Benutzer konvertiert werden können, ist ihre Fähigkeit, Personen in Testkommentaren mit Tags zu versehen, auf Benutzer aus *ihrer ursprünglichen Organisation* beschränkt.
+Da Mitglieder nicht in Benutzer konvertiert werden können, ist ihre Möglichkeit, Personen in Korrekturabzugskommentaren zu taggen, auf Benutzer aus *ihrer ursprünglichen Organisation* beschränkt.
 
-**Beispiel:** Firma A lädt einen externen Benutzer ein, einen Testversand zu prüfen. Dieser Benutzer ist bereits in einer separaten Testumgebung, Firma B, vorhanden.
-
- 
-
-Wenn Unternehmen A den externen Benutzer zum Testversand einlädt, wird der externe Benutzer als Mitglied der Kontaktliste von Firma A hinzugefügt. Überprüfer im Testversand-Workflow von Unternehmen A können den externen Benutzer in Testversandkommentaren taggen, da sie sich jetzt im Kontaktverzeichnis von Firma A befinden.
+**Beispiel:** Unternehmen A lädt einen externen Benutzer ein, einen Korrekturabzug zu überprüfen. Dieser Benutzer existiert bereits in einer separaten Testumgebung, Firma B.
 
  
 
-Der externe Benutzer kann Benutzer von Firma A nicht mit Tags versehen, obwohl sie denselben Testversand-Workflow verwenden, da die Benutzer von Firma A nicht als Kontakte zu Firma B hinzugefügt wurden.
+Wenn Firma A den externen Benutzer zum Korrekturabzug einlädt, wird der externe Benutzer der Kontaktliste von Firma A als Mitglied hinzugefügt. Reviewer im Korrekturabzugs-Workflow von Unternehmen A können externe Benutzer in Korrekturabzugskommentaren taggen, da sie sich jetzt im Kontaktverzeichnis von Unternehmen A befinden.
 
  
 
-Der externe Benutzer von Firma B kann andere Benutzer von Firma B mit Tags versehen, wenn sie sich im Testversand-Workflow befinden oder die Berechtigung haben, den Testversand für neue Benutzer freizugeben, da diese Benutzer als Kontakte in Firma B vorhanden sind.
+Der externe Benutzer kann keine Benutzer von Unternehmen A taggen, obwohl sie sich im selben Korrekturabzugs-Workflow befinden, da die Benutzer von Unternehmen A nicht als Kontakte zu Unternehmen B hinzugefügt wurden.
+
+ 
+
+Der externe Benutzer von Unternehmen B kann andere Benutzer von Unternehmen B taggen, wenn sie sich im Korrekturabzugs-Workflow befinden oder wenn er berechtigt ist, den Korrekturabzug für neue Benutzer freizugeben, da diese Benutzer als Kontakte in Unternehmen B vorhanden sind.

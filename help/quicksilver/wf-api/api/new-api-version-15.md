@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 15
-description: Adobe Workfront hat die API-Version 14 am 14. Juni 2022 veröffentlicht. API Version 15 enthält die folgenden Änderungen gegenüber Version 14.
+title: Neue Funktionen in der API-Version 15
+description: Adobe Workfront hat API Version 14 am 14. Juni 2022 veröffentlicht. Die API-Version 15 enthält die folgenden Änderungen gegenüber Version 14.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,15 +14,15 @@ ht-degree: 0%
 
 ---
 
-# Neue Funktionen in API Version 15
+# Neue Funktionen in der API-Version 15
 
-Adobe Workfront hat die API-Version 15 am 14. Juni 2022 veröffentlicht. API Version 15 enthält die folgenden Änderungen gegenüber Version 14.
+Adobe Workfront hat API Version 15 am 14. Juni 2022 veröffentlicht. Die API-Version 15 enthält die folgenden Änderungen gegenüber Version 14.
 
-## Hinzugefügte Ressourcen
+## Ressourcen hinzugefügt
 
 * [Initiative (INITIV)](#Initiati)
 
-* [IssueDef (ISSDEF)](#IssueDef)
+* [Anfrage-Def (ISSDEF)](#IssueDef)
 
 * [ObjectIntegration (OBJINT)](#ObjectIn)
 
@@ -30,13 +30,13 @@ Adobe Workfront hat die API-Version 15 am 14. Juni 2022 veröffentlicht. API Ver
 
 * [TaskDef (TSKDEF)](#TaskDef)
 
-* [UserApproval (USRAPV)](#UserAppr)
+* [Benutzerzustimmung (USRAPV)](#UserAppr)
 
 ### Initiative (INITIV)
 
-Das Objekt Initiative erstellt im Workfront-Szenario-Planer Schätzungen für die Art und Anzahl der Arbeitsplatzrollen, die Festkosten und den geplanten Nutzen.
+Das Objekt Initiative erstellt im Workfront-Szenarioplaner Schätzungen für die Art und Anzahl der Aufgabengebiete, die Fixkosten und den geplanten Nutzen.
 
-Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiativen im Szenario-Planer](../../scenario-planner/initiatives-overview.md).
+Weitere Informationen zu Initiativen finden Sie unter [Initiativen - Übersicht im Szenario-Planer](../../scenario-planner/initiatives-overview.md).
 
 <table>
   <col/>
@@ -49,12 +49,12 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
           <li>
             <p><b>customerID</b>
             </p>
-            <p>Dies ist ein internes Objekt.</p>
+            <p>Dies ist ein internes -Objekt.</p>
           </li>
           <li>
             <p><b>duration</b>
             </p>
-            <p>Die Zeitspanne zwischen endDate und startDate.</p>
+            <p>Die Zeit zwischen endDate und startDate.</p>
           </li>
           <li>
             <p><b>endDate</b>
@@ -62,7 +62,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
             <p>Das geplante Abschlussdatum für die Initiative.</p>
           </li>
           <li>
-            <p><b>enterByID</b>
+            <p><b>enteredByID</b>
             </p>
             <p>Die ID, die dem Benutzer zugeordnet ist, der die Anfrage gesendet hat.</p>
           </li>
@@ -79,7 +79,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
           <li>
             <p><b>lastPublishedDate</b>
             </p>
-            <p>Das Datum der letzten Veröffentlichung der Initiative im Workfront-Szenario-Planer.</p>
+            <p>Das Datum, an dem die Initiative zuletzt im Workfront Scenario Planner veröffentlicht wurde.</p>
           </li>
           <li>
             <p><b>name</b>
@@ -89,22 +89,22 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
           <li>
             <p><b>planID</b>
             </p>
-            <p>Die Kennung des mit der Initiative verknüpften Plans.</p>
+            <p>Die ID des Plans, der mit der Initiative verknüpft ist.</p>
           </li>
           <li>
             <p><b>planName</b>
             </p>
-            <p>Der Name des mit der Initiative verknüpften Plans.</p>
+            <p>Der Name des Plans, der mit der Initiative verknüpft ist.</p>
           </li>
           <li>
             <p><b>projectID</b>
             </p>
-            <p>Die Kennung des mit der Initiative verknüpften Projekts.</p>
+            <p>Die ID des Projekts, das der Initiative zugeordnet ist.</p>
           </li>
           <li>
             <p><b>scenarioID</b>
             </p>
-            <p>Die Kennung des Szenarios im Workfront-Szenario-Planer, der mit der Initiative verknüpft ist.</p>
+            <p>Die ID des Szenarios im Workfront-Szenarioplaner, das mit der Initiative verknüpft ist.</p>
           </li>
           <li>
             <p><b>startDate</b>
@@ -119,11 +119,11 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
       <td >
         <ul>
           <li>
-            <p><b>customer</b>
+            <p><b>Kunde</b>
             </p>
           </li>
           <li>
-            <p><b>enterBy</b>
+            <p><b>enteredBy</b>
             </p>
           </li>
           <li>
@@ -157,7 +157,7 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
       <td>
         <ul>
           <li>
-            <p><b>COUNT</b>
+            <p><b>ANZAHL</b>
             </p>
           </li>
           <li>
@@ -165,11 +165,11 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
             </p>
           </li>
           <li>
-            <p><b>BERICHT </b>
+            <p><b>REPORT </b>
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>SUCHE</b>
             </p>
           </li>
         </ul>
@@ -178,9 +178,9 @@ Weitere Informationen zu Initiativen finden Sie unter [Übersicht über Initiati
   </tbody>
 </table>
 
-### IssueDef (ISSDEF)
+### Anfrage-Def (ISSDEF)
 
-Das IssueDef -Objekt stellt einen Satz von Daten zum Format von Problemen dar. Dieses Objekt kann an Projekte oder Vorlagen angehängt werden und betrifft die Probleme, die diesem Projekt oder dieser Vorlage hinzugefügt werden.
+Das IssueDef-Objekt stellt einen Satz von Daten zum Format von Anfragen dar. Dieses Objekt kann an Projekte oder Vorlagen angehängt werden und wirkt sich auf die Probleme aus, die diesem Projekt oder dieser Vorlage hinzugefügt werden.
 
 <table>
   <col/>
@@ -221,7 +221,7 @@ Das IssueDef -Objekt stellt einen Satz von Daten zum Format von Problemen dar. D
 
 ### ObjectIntegration (OBJINT)
 
-In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration -Objekt stellt diese Verknüpfung dar.
+In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration-Objekt stellt diese Relation dar.
 
 <table>
   <col/>
@@ -234,17 +234,17 @@ In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekte
           <li>
             <p><b>customerID</b>
             </p>
-            <p>Dies ist ein internes Objekt.</p>
+            <p>Dies ist ein internes -Objekt.</p>
           </li>
           <li>
             <p><b>entryDate</b>
             </p>
-            <p>Datum und Uhrzeit der Eingabe der ObjectIntegration im Workfront-System.</p>
+            <p>Datum und Uhrzeit der Eingabe der ObjectIntegration in das Workfront-System.</p>
           </li>
           <li>
             <p><b>ID</b>
             </p>
-            <p>Die eindeutige Workfront-ID des bestimmten ObjectIntegration-Objekts.</p>
+            <p>Die eindeutige Workfront-ID des spezifischen ObjectIntegration-Objekts.</p>
           </li>
           <li>
             <p><b>integrationType</b>
@@ -269,7 +269,7 @@ In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekte
           <li>
             <p><b>objID</b>
             </p>
-            <p>Das Objekt in Workfront, mit dem die ObjectIntegration verknüpft ist.</p>
+            <p>Das -Objekt in Workfront, mit dem die ObjectIntegration verknüpft ist.</p>
           </li>
           <li>
             <p><b>objObjCode</b>
@@ -299,7 +299,7 @@ In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekte
       <td >
         <ul>
           <li>
-            <p><b>customer</b>
+            <p><b>Kunde</b>
             </p>
           </li>
         </ul>
@@ -325,7 +325,7 @@ In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekte
 
 ### TaskDef (TSKDEF)
 
-Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Objekt kann an Projekte oder Vorlagen angehängt werden und wirkt sich auf die Aufgaben aus, die diesem Projekt oder dieser Vorlage hinzugefügt werden.
+Das TaskDef-Objekt stellt einen Satz von Daten zum Format von Aufgaben dar. Dieses Objekt kann an Projekte oder Vorlagen angehängt werden und wirkt sich auf die Aufgaben aus, die diesem Projekt oder dieser Vorlage hinzugefügt werden.
 
 <table>
   <col/>
@@ -336,7 +336,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td>
         <ul>
           <li>
-            <p><b>autoCalcPlannedHours </b>
+            <p><b>autoCalcPlannedHours-</b>
             </p>
           </li>
           <li>
@@ -362,7 +362,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td>
         <ul>
           <li>
-            <p><b>Objektkategorien
+            <p><b>objectCategory
 </b>
             </p>
           </li>
@@ -387,7 +387,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
   </tbody>
 </table>
 
-### UserApproval (USRAPV)
+### Benutzerzustimmung (USRAPV)
 
 <table>
   <col/>
@@ -398,7 +398,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td>
         <ul>
           <li>
-            <p><b>GenehmigerID</b>
+            <p><b>approverID</b>
             </p>
           </li>
           <li>
@@ -410,11 +410,11 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
             </p>
           </li>
           <li>
-            <p><b>requestDate</b>
+            <p><b>requestedDate</b>
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>RequestorID</b>
             </p>
           </li>
           <li>
@@ -437,15 +437,15 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
             </p>
           </li>
           <li>
-            <p><b>customer</b>
+            <p><b>Kunde</b>
             </p>
           </li>
           <li>
-            <p><b>requestor</b>
+            <p><b>Antragsteller</b>
             </p>
           </li>
           <li>
-            <p><b>user</b>
+            <p><b>Benutzer</b>
             </p>
           </li>
         </ul>
@@ -471,11 +471,11 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td >
         <ul>
           <li>
-            <p><b>GenehmigerID</b>
+            <p><b>approverID</b>
             </p>
           </li>
           <li>
-            <p><b>requestorID</b>
+            <p><b>RequestorID</b>
             </p>
           </li>
           <li>
@@ -494,11 +494,11 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td>
         <ul>
           <li>
-            <p><b>approve</b>
+            <p><b>Genehmigen</b>
             </p>
           </li>
           <li>
-            <p><b>reject</b>
+            <p><b>Ablehnen</b>
             </p>
           </li>
         </ul>
@@ -509,15 +509,15 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
       <td>
         <ul>
           <li>
-            <p><b>ADD</b>
+            <p><b>HINZUFÜGEN</b>
             </p>
           </li>
           <li>
-            <p><b>COUNT</b>
+            <p><b>ANZAHL</b>
             </p>
           </li>
           <li>
-            <p><b>DELETE</b>
+            <p><b>DELETE </b>
             </p>
           </li>
           <li>
@@ -529,7 +529,7 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
             </p>
           </li>
           <li>
-            <p><b>SEARCH</b>
+            <p><b>SUCHE</b>
             </p>
           </li>
         </ul>
@@ -540,41 +540,41 @@ Das TaskDef-Objekt stellt einen Satz von Daten zum Aufgabenformat dar. Dieses Ob
 
 ## Entfernte Ressourcen
 
-Für API Version 15 wurden keine Ressourcen entfernt.
+Für API-Version 15 wurden keine Ressourcen entfernt.
 
 ## Geänderte Ressourcen
 
-* [AccessLevel (ACSLVL)](#AccessLe)
+* [Zugriffsebene (ACSLV)](#AccessLe)
 
 * [AccessLevelPermissions (ALVPER)](#AccessLe2)
 
-* [AccessRequest (ACSREQ)](#AccessRe)
+* [Zugriffsanforderung (ACSREQ)](#AccessRe)
 
-* [AccessRule (ACSRUL)](#AccessRu)
+* [Zugriffsregel (ACSRUL)](#AccessRu)
 
-* [Genehmigung (GENEHMIGUNG)](#Approval)
+* [Validierung (VALIDIERUNG)](#Approval)
 
-* [Kategorie (KG)](#Category)
+* [Kategorie (CTG)](#Category)
 
-* [CategoryParameter (CTGYPA)](#Category2)
+* [Kategorieparameter (CTGYPA)](#Category2)
 
-* [CustomerPreferences (CUSTPR)](#Customer)
+* [Kundenvoreinstellungen (CUSTPR)](#Customer)
 
 * [DocumentFolder (DOCFDR)](#Document)
 
 * [DocumentVersion (DOCV)](#Document2)
 
-* [Gruppe (GRUPPE)](#Group)
+* [Gruppe (GROUP)](#Group)
 
-* [JournalEntry (JRNLE)](#JournalE)
+* [Tagebucheintrag (JRNLE)](#JournalE)
 
-* [LinkedFolder (LNKFDR)](#LinkedFo)
+* [Verknüpfter Ordner (LINKFDR)](#LinkedFo)
 
-* [OpTask/Problem (OPTASK)](#OpTask)
+* [Aufgabe/Problem (OPTASK)](#OpTask)
 
 * [Parameter (PARAM)](#Paramete)
 
-* [Portfolio (HAFEN)](#Portfoli)
+* [Portfolio (PORT)](#Portfoli)
 
 * [Programm (PRGM)](#Program)
 
@@ -584,25 +584,25 @@ Für API Version 15 wurden keine Ressourcen entfernt.
 
 * [ScoreCardQuestion (SCOREQ)](#ScoreCar)
 
-* [Aufgabe (TASK)](#Task)
+* [Aufgabe (AUFGABE)](#Task)
 
 * [Vorlage (TMPL)](#Template)
 
-* [Datenblatt (TSHET)](#Timeshee)
+* [Arbeitszeittabelle (TABELLE)](#Timeshee)
 
 * [Anzeigen (UIVIEW)](#View)
 
-* [Aktualisieren (AKTUALISIEREN)](#Update)
+* [Aktualisieren (UPDATE)](#Update)
 
-* [Benutzer (BENUTZER)](#User)
+* [Benutzer (USER)](#User)
 
 * [UserNote (USRNOT)](#UserNote)
 
 * [Arbeit (ARBEIT)](#Work)
 
-### AccessLevel (ACSLVL)
+### Zugriffsebene (ACSLV)
 
-Ein AccessLevel -Objekt ist mit Benutzern verknüpft und beschreibt den Satz von AccessLevelPermissions, der bestimmt, auf welchen Benutzer zugreifen können.
+Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
 Weitere Informationen zu Zugriffsebenen finden Sie unter [Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
@@ -619,7 +619,7 @@ Weitere Informationen zu Zugriffsebenen finden Sie unter [Zugriffsebenen](../../
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>VTMAWMG (Teams anzeigen, die mit meinen Gruppen verbunden sind)</p>
+                <p>VTMAWMG (Meinen Gruppen zugeordnete Teams anzeigen)</p>
               </li>
               <li>
                 <p>VALLTM (Alle Teams anzeigen)</p>
@@ -634,7 +634,7 @@ Weitere Informationen zu Zugriffsebenen finden Sie unter [Zugriffsebenen](../../
 
 ### AccessLevelPermissions (ALVPER)
 
-Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugreifen auf, Erstellen oder Ändern eines Workfront-Objekts dar. Diese Berechtigungen können dann einer Zugriffsebene zugeordnet werden.
+Ein AccessLevelPermissions-Objekt stellt eine bestimmte Berechtigung zum Zugreifen auf, Erstellen oder Ändern eines Workfront-Objekts dar. Diese Berechtigungen können dann mit einer Zugriffsebene verknüpft werden.
 
 <table>
   <col/>
@@ -645,11 +645,11 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b> (string[])</p>
+            <p><b>coreAction</b> (Zeichenfolge[])</p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -661,7 +661,7 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -669,11 +669,11 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
             </ul>
           </li>
           <li>
-            <p><b>secondaryActions</b> (string[])</p>
+            <p><b>secondaryActions</b> (Zeichenfolge[])</p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -686,9 +686,9 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
   </tbody>
 </table>
 
-### AccessRequest (ACSREQ)
+### Zugriffsanforderung (ACSREQ)
 
-Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benötigt, kann er den Zugriff auf dieses Objekt anfordern. Das AccessRequest -Objekt stellt diese Anforderung dar.
+Wenn ein(e) Benutzende(r) keinen Zugriff auf ein Objekt in Workfront hat, das er/sie benötigt, kann er/sie Zugriff auf dieses Objekt anfordern. Das AccessRequest-Objekt stellt diese Anforderung dar.
 
 <table>
   <col/>
@@ -703,7 +703,7 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -725,9 +725,9 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
   </tbody>
 </table>
 
-### AccessRule (ACSRUL)
+### Zugriffsregel (ACSRUL)
 
-Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
+Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
 
 <table>
   <col/>
@@ -738,11 +738,11 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
       <td>
         <ul>
           <li>
-            <p><b>coreAction</b> (string[])</p>
+            <p><b>coreAction</b> (Zeichenfolge[])</p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -754,7 +754,7 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -762,11 +762,11 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
             </ul>
           </li>
           <li>
-            <p><b>secondaryActions</b> (string[])</p>
+            <p><b>secondaryActions</b> (Zeichenfolge[])</p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -779,9 +779,9 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
   </tbody>
 </table>
 
-### Genehmigung (GENEHMIGUNG)
+### Validierung (VALIDIERUNG)
 
-Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Timesheet, kann vorschreiben, dass ein Supervisor oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Approval-Objekt stellt die Aktion zum Abmelden eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table>
   <col/>
@@ -792,7 +792,7 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
       <td>
         <ul>
           <li>
-            <p><b>resourcePlannerBudgetedHours </b>
+            <p><b>resourcePlannerBudgetedHours-</b>
             </p>
           </li>
         </ul>
@@ -803,20 +803,20 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
       <td >
         <ul>
           <li>
-            <p><b>initiative</b>
+            <p><b>Initiative</b>
             </p>
-            <p>Hinzugefügt.</p>
-            <p>Das Objekt Initiative erstellt im Workfront-Szenario-Planer Schätzungen für die Art und Anzahl der Arbeitsplatzrollen, die Festkosten und den geplanten Nutzen. </p>
+            <p>hinzugefügt.</p>
+            <p>Das Objekt Initiative erstellt im Workfront-Szenarioplaner Schätzungen für die Art und Anzahl der Aufgabengebiete, die Fixkosten und den geplanten Nutzen. </p>
           </li>
           <li>
             <p><b>issueDef</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
           <li>
             <p><b>taskDef</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -829,8 +829,8 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
             <p style="font-weight: bold;"><b>objectIntegrations
 </b>
             </p>
-            <p style="font-weight: normal;">Hinzugefügt.</p>
-            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration -Objekt stellt diese Verknüpfung dar.</p>
+            <p style="font-weight: normal;">hinzugefügt.</p>
+            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration-Objekt stellt diese Relation dar.</p>
           </li>
         </ul>
       </td>
@@ -838,9 +838,9 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
   </tbody>
 </table>
 
-### Kategorie (KG)
+### Kategorie (CTG)
 
-Ein Category -Objekt ist ein benutzerdefiniertes Formular.
+Ein Kategorieobjekt ist ein benutzerdefiniertes Formular.
 
 <table>
   <col/>
@@ -855,16 +855,16 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
             <p>Der folgende mögliche Wert wurde hinzugefügt:</p>
             <ul>
               <li>
-                <p>GRUPPE (Gruppe)</p>
+                <p>GROUP (Gruppe)</p>
               </li>
             </ul>
           </li>
           <li>
-            <p><b>objTypes</b> (string[])</p>
-            <p>Hinzugefügt.</p>
+            <p><b>objTypes</b> (Zeichenfolge[])</p>
+            <p>hinzugefügt.</p>
             <p style="font-weight: normal;">Dieser Parameter ist ein Array möglicher Objekte, an die das benutzerdefinierte Formular angehängt werden kann. Es wurde hinzugefügt, um die Möglichkeit zu unterstützen, ein benutzerdefiniertes Formular an mehrere Objekttypen anzuhängen.</p>
             <p>Mögliche Werte: </p>
-            <p>CMPY, PORT, PRGM, PROJ, TASK, OPTASK, USER, DOCU, EXPNS, ITRN, BILL, GROUP</p>
+            <p>KOPIEREN, PORT, PRGM, PROJ, AUFGABE, OPTASK, BENUTZER, DOKUMENT, AUSGABEN, INTERN, RECHNUNG, GRUPPE</p>
           </li>
         </ul>
       </td>
@@ -874,11 +874,11 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
       <td>
         <ul>
           <li>
-            <p><b>objTypes</b> (string[])</p>
-            <p>Hinzugefügt.</p>
+            <p><b>objTypes</b> (Zeichenfolge[])</p>
+            <p>hinzugefügt.</p>
             <p style="font-weight: normal;">Dieser Parameter ist ein Array möglicher Objekte, an die das benutzerdefinierte Formular angehängt werden kann. Es wurde hinzugefügt, um die Möglichkeit zu unterstützen, ein benutzerdefiniertes Formular an mehrere Objekttypen anzuhängen.</p>
             <p>Mögliche Werte: </p>
-            <p>CMPY, PORT, PRGM, PROJ, TASK, OPTASK, USER, DOCU, EXPNS, ITRN, BILL, GROUP</p>
+            <p>KOPIEREN, PORT, PRGM, PROJ, AUFGABE, OPTASK, BENUTZER, DOKUMENT, AUSGABEN, INTERN, RECHNUNG, GRUPPE</p>
           </li>
         </ul>
       </td>
@@ -886,7 +886,7 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
   </tbody>
 </table>
 
-### CategoryParameter (CTGYPA)
+### Kategorieparameter (CTGYPA)
 
 <table>
   <col/>
@@ -899,17 +899,17 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
           <li>
             <p><b>hideFormulaFromDescription</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
           <li>
-            <p><b>journaledObjCodes</b>
+            <p><b>journalizedObjCodes</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
           <li>
             <p><b>rawCustomExpression</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -917,9 +917,9 @@ Ein Category -Objekt ist ein benutzerdefiniertes Formular.
   </tbody>
 </table>
 
-### CustomerPreferences (CUSTPR)
+### Kundenvoreinstellungen (CUSTPR)
 
-Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Instanz von Workfront festgelegt hat.
+Ein CustomerPreferences-Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Workfront-Instanz festgelegt hat.
 
 <table>
   <col/>
@@ -935,14 +935,14 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
             <p>Die folgenden Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>password:sharePointV2IntegrationEnabled</code> (SharePoint (Graph API)-Integration aktiviert</p>
-                <p>Dieser Wert unterstützt die aktualisierte Sharepoint-Integration.</p>
+                <p><code>password:sharePointV2IntegrationEnabled</code> (Integration der SharePoint (Graph API) aktiviert)</p>
+                <p>Dieser Wert unterstützt die aktualisierte SharePoint-Integration.</p>
               </li>
               <li>
-                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (Ermöglichen Sie es Benutzern, Projekte ohne Verwendung einer Vorlage zu erstellen)</p>
+                <p><code>project.mgmt:default.project.allowcreatewithouttemplate</code> (Benutzern erlauben, Projekte ohne Vorlage zu erstellen)</p>
               </li>
               <li>
-                <p><code>project.mgmt:taskissue.delegate</code> (config.taskissue.delegate)</p>
+                <p><code>project.mgmt:taskissue.delegate</code> (config.taskIssue.delegate)</p>
               </li>
             </ul>
           </li>
@@ -954,15 +954,15 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
 
 ### DocumentFolder (DOCFDR)
 
-Dokumente können in Ordner unterteilt werden. Sie können persönliche Ordner in Ihrem Bereich &quot;Dokumente&quot;erstellen. Das DocumentFolder-Objekt stellt einen dieser Ordner dar.
+Dokumente können in Ordnern organisiert werden. Sie können persönliche Ordner in Ihrem Bereich für persönliche Dokumente erstellen. Das DocumentFolder-Objekt stellt einen dieser Ordner dar.
 
-Das DocumentFolder-Objekt hat das Flag `SHARABLE` hinzugefügt.
+Das DocumentFolder-Objekt hat die `SHARABLE` hinzugefügt.
 
 ### DocumentVersion (DOCV)
 
-Ein DocumentVersion -Objekt stellt eine bestimmte Version einer Datei dar (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
+Ein DocumentVersion-Objekt stellt eine bestimmte Version einer Datei dar (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
 
-Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md).
+Weitere Informationen zu Dokumentversionen finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
 
 <table>
   <col/>
@@ -975,11 +975,11 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Der folgende Wert wurde hinzugefügt: </p>
+            <p>Folgender Wert wurde hinzugefügt: </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph-API)</p>
-                <p>Dieser Wert unterstützt die aktualisierte Sharepoint-Integration.</p>
+                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API)</p>
+                <p>Dieser Wert unterstützt die aktualisierte SharePoint-Integration.</p>
               </li>
             </ul>
           </li>
@@ -989,13 +989,13 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
   </tbody>
 </table>
 
-### Gruppe (GRUPPE)
+### Gruppe (GROUP)
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
+Ein Gruppenobjekt steht für eine Gruppe von Benutzern und Teams. Gruppen repräsentieren oft die Abteilungsstruktur.
 
-Weitere Informationen zu Gruppen finden Sie unter Gruppen vs. Teams.
+Weitere Informationen zu Gruppen finden Sie unter Gruppen im Vergleich zu Teams .
 
-Das Group -Objekt hat das Flag `DATA_EXTENDIBLE` hinzugefügt
+Das Gruppenobjekt hat die `DATA_EXTENDIBLE` hinzugefügt
 
 <table>
   <col/>
@@ -1009,12 +1009,12 @@ Das Group -Objekt hat das Flag `DATA_EXTENDIBLE` hinzugefügt
           <li>
             <p><b>categoryID</b>
             </p>
-            <p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieser Parameter wurde hinzugefügt, um die Möglichkeit zu unterstützen, benutzerdefinierte Forms zu Gruppenobjekten hinzuzufügen. </p>
+            <p>Eine Kategorie ist ein benutzerdefiniertes Formular. Dieser Parameter wurde hinzugefügt, um das Hinzufügen benutzerdefinierter Forms zu Gruppenobjekten zu unterstützen. </p>
           </li>
           <li>
             <p><b>isActive</b>
             </p>
-            <p>Dies ist ein boolescher Parameter mit dem Wert true , wenn ein Objekt aktiv ist, und false , wenn dies nicht der Fall ist. Objekte, die auf "Aktiv"eingestellt sind, werden in Dropdown-Menüs und Typvorlagenfeldern angezeigt und können an andere Objekte angehängt werden.</p>
+            <p>Dies ist ein boolescher Parameter, der den Wert „true“ hat, wenn ein Objekt „Active“ ist, und den Wert „false“, wenn es nicht ist. Objekte, die als Aktiv festgelegt sind, werden in Dropdown-Menüs und Feldern mit automatischer Textvervollständigung angezeigt und können an andere Objekte angehängt werden.</p>
           </li>
         </ul>
       </td>
@@ -1029,15 +1029,15 @@ Das Group -Objekt hat das Flag `DATA_EXTENDIBLE` hinzugefügt
             </p>
           </li>
           <li>
-            <p><b>customer</b>
+            <p><b>Kunde</b>
             </p>
           </li>
           <li>
-            <p><b>requestor</b>
+            <p><b>Antragsteller</b>
             </p>
           </li>
           <li>
-            <p><b>user</b>
+            <p><b>Benutzer</b>
             </p>
           </li>
         </ul>
@@ -1055,7 +1055,7 @@ Das Group -Objekt hat das Flag `DATA_EXTENDIBLE` hinzugefügt
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration -Objekt stellt diese Verknüpfung dar.</p>
+            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration-Objekt stellt diese Relation dar.</p>
           </li>
         </ul>
       </td>
@@ -1068,7 +1068,7 @@ Das Group -Objekt hat das Flag `DATA_EXTENDIBLE` hinzugefügt
           <li>
             <p><b>isActive</b>
             </p>
-            <p>Dies ist ein boolescher Parameter mit dem Wert true , wenn ein Objekt aktiv ist, und false , wenn dies nicht der Fall ist. Objekte, die auf "Aktiv"eingestellt sind, werden in Dropdown-Menüs und Typvorlagenfeldern angezeigt und können an andere Objekte angehängt werden.</p>
+            <p>Dies ist ein boolescher Parameter, der den Wert „true“ hat, wenn ein Objekt „Active“ ist, und den Wert „false“, wenn es nicht ist. Objekte, die als Aktiv festgelegt sind, werden in Dropdown-Menüs und Feldern mit automatischer Textvervollständigung angezeigt und können an andere Objekte angehängt werden.</p>
           </li>
         </ul>
       </td>
@@ -1081,7 +1081,7 @@ Das Group -Objekt hat das Flag `DATA_EXTENDIBLE` hinzugefügt
           <li>
             <p><b>calculateDataExtension</b>
             </p>
-            <p>Durch diese Aktion werden die Ausdrücke in benutzerdefinierten Formularfeldern neu berechnet.</p>
+            <p>Diese Aktion berechnet die Ausdrücke in benutzerdefinierten Formularfeldern neu.</p>
           </li>
           <li>
             <p><b>completeGroupInfo</b>
@@ -1101,9 +1101,9 @@ Das Group -Objekt hat das Flag `DATA_EXTENDIBLE` hinzugefügt
   </tbody>
 </table>
 
-### JournalEntry (JRNLE)
+### Tagebucheintrag (JRNLE)
 
-Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung dieser Felder Informationen über bestimmte Objektfelder protokolliert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird bei jeder Änderung dieses Felds ein entsprechender Journaleintrag erstellt.
+Das JournalEntry-Objekt kann so eingerichtet werden, dass Informationen zu bestimmten Objektfeldern jedes Mal protokolliert werden, wenn diese Felder geändert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird jedes Mal, wenn dieses Feld geändert wird, ein entsprechender Journaleintrag erstellt.
 
 <table>
   <col/>
@@ -1114,7 +1114,7 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
       <td>
         <p><b>changeType</b>
         </p>
-        <p>Der folgende Wert wurde hinzugefügt: </p>
+        <p>Folgender Wert wurde hinzugefügt: </p>
         <ul>
           <li>
             <p>DW (Download)</p>
@@ -1125,11 +1125,11 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
   </tbody>
 </table>
 
-### LinkedFolder (LNKFDR)
+### Verknüpfter Ordner (LINKFDR)
 
-Ein LinkedFolder-Objekt stellt einen Ordner dar, der von einem externen Dokumentenanbieter wie Google Drive oder Dropbox verknüpft ist.
+Ein LinkedFolder-Objekt stellt einen Ordner dar, der über einen externen Dokumentanbieter verknüpft ist, z. B. Google Drive oder Dropbox.
 
-Weitere Informationen zu verknüpften Ordnern finden Sie unter Verknüpfen von Dokumenten aus externen Anwendungen.
+Weitere Informationen zu verknüpften Ordnern finden Sie unter Verknüpfen von Dokumenten aus externen Programmen.
 
 <table>
   <col/>
@@ -1142,11 +1142,11 @@ Weitere Informationen zu verknüpften Ordnern finden Sie unter Verknüpfen von D
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Der folgende Wert wurde hinzugefügt: </p>
+            <p>Folgender Wert wurde hinzugefügt: </p>
             <ul>
               <li>
-                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph-API)</p>
-                <p>Dieser Wert unterstützt die aktualisierte Sharepoint-Integration.</p>
+                <p><code>SHAREPOINT_V2</code> (SharePoint (Graph API)</p>
+                <p>Dieser Wert unterstützt die aktualisierte SharePoint-Integration.</p>
               </li>
             </ul>
           </li>
@@ -1156,9 +1156,9 @@ Weitere Informationen zu verknüpften Ordnern finden Sie unter Verknüpfen von D
   </tbody>
 </table>
 
-### OpTask/Problem (OPTASK)
+### Aufgabe/Problem (OPTASK)
 
-Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise anzeigt, dass ein Problem vorliegt, das die Fertigstellung einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungen bei Bestellungen, Anforderungen und Fehlern sind ebenfalls Probleme.
+Ein OpTask-Objekt wird im Allgemeinen als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise darauf hinweist, dass ein Problem vorliegt, das den Abschluss einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungsanforderungen, -anfragen und -fehler sind ebenfalls Probleme.
 
 <table>
   <col/>
@@ -1193,7 +1193,7 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
 
 ### Parameter (PARAM)
 
-Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
+Ein Parameter-Objekt ist ein benutzerdefiniertes Feld.
 
 <table>
   <col/>
@@ -1214,13 +1214,13 @@ Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
           <li>
             <p><b>dataType</b>
             </p>
-            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt. </p>
+            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt </p>
             <p>Dieser Wert unterstützt die Verwendung von Bildern in benutzerdefinierten Formularen.</p>
           </li>
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt.</p>
+            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt</p>
             <p>Dieser Wert unterstützt die Verwendung von Bildern in benutzerdefinierten Formularen.</p>
           </li>
         </ul>
@@ -1229,9 +1229,9 @@ Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
   </tbody>
 </table>
 
-### Portfolio (HAFEN)
+### Portfolio (PORT)
 
-Ein Portfolio-Objekt ist eine Sammlung von Projekten, die um die gleichen Ressourcen konkurrieren, in der Regel um Geld oder Personen, um sie zu vervollständigen.
+Ein Portfolio-Objekt ist eine Sammlung von Projekten, die um dieselben Ressourcen konkurrieren, normalerweise Geld oder Personen, um sie abzuschließen.
 
 <table>
   <col/>
@@ -1268,7 +1268,7 @@ Ein Portfolio-Objekt ist eine Sammlung von Projekten, die um die gleichen Ressou
 
 ### Programm (PRGM)
 
-Ein Programmobjekt ist eine Teilmenge von Projekten in einem Portfolio, in dem ähnliche Projekte gruppiert werden können.
+Ein Programmobjekt ist eine Teilmenge von Projekten innerhalb eines Portfolios, in dem ähnliche Projekte gruppiert werden können.
 
 <table>
   <col/>
@@ -1305,7 +1305,7 @@ Ein Programmobjekt ist eine Teilmenge von Projekten in einem Portfolio, in dem �
 
 ### Projekt (PROJ)
 
-Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, wie Workfront Menschen bei der Arbeit unterstützt. Ein Projektobjekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
+Projekte sind Arbeitselemente innerhalb von Workfront und ein wichtiger Baustein in der Art und Weise, wie Workfront Menschen bei der Arbeit unterstützt. Ein Project-Objekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
 
 <table>
   <col/>
@@ -1327,9 +1327,9 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
       <td >
         <ul>
           <li>
-            <p><b>initiative</b>
+            <p><b>Initiative</b>
             </p>
-            <p>Das Objekt Initiative erstellt im Workfront-Szenario-Planer Schätzungen für die Art und Anzahl der Arbeitsplatzrollen, die Festkosten und den geplanten Nutzen. </p>
+            <p>Das Objekt Initiative erstellt im Workfront-Szenarioplaner Schätzungen für die Art und Anzahl der Aufgabengebiete, die Fixkosten und den geplanten Nutzen. </p>
           </li>
           <li>
             <p><b>issueDef</b>
@@ -1349,7 +1349,7 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration -Objekt stellt diese Verknüpfung dar.</p>
+            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration-Objekt stellt diese Relation dar.</p>
           </li>
         </ul>
       </td>
@@ -1359,9 +1359,9 @@ Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, 
 
 ### QueueDef (QUED)
 
-Ein QueueDef-Objekt stellt eine Warteschlange dar. Hierbei handelt es sich um ein Projekt, das in den Help Desk-Bereich veröffentlicht wurde, um Benutzern die Möglichkeit zu geben, Probleme an sie zu senden.
+Ein QueueDef -Objekt stellt eine Warteschlange dar. Dabei handelt es sich um ein Projekt, das im Helpdesk-Bereich veröffentlicht wurde, um Benutzenden die Übermittlung von Problemen zu ermöglichen.
 
-Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table>
   <col/>
@@ -1372,12 +1372,12 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
       <td>
         <ul>
           <li>
-            <p><b>requestorCoreAction</b>
+            <p><b>RequestorCoreAction</b>
             </p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -1385,12 +1385,12 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
             </ul>
           </li>
           <li>
-            <p><b>requestorForbiddenActions</b>
+            <p><b>RequestorForbiddenActions</b>
             </p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, in denen ich bin)</p>
+                <p>EDIT_TEAMS_I_AM_ON (Teams bearbeiten, an denen ich mitwirke)</p>
               </li>
               <li>
                 <p>EDIT_TEAMS_I_GROUP_ADMIN (Teams in von mir verwalteten Gruppen bearbeiten (nur Gruppenadministratoren))</p>
@@ -1405,7 +1405,7 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
 
 ### ScoreCardQuestion (SCOREQ)
 
-Ein ScoreCardQuestion -Objekt stellt eine Frage dar, die einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfolio-Manager bestimmt und ihre Antworten ermöglichen es dem Manager zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
+Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfoliomanager bestimmt und ihre Antworten geben dem Portfolio die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
 
 Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -1420,7 +1420,7 @@ Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scor
           <li>
             <p><b>displayType</b>
             </p>
-            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt.</p>
+            <p>Der mögliche Wert <code>WIDGET </code>(Widget) wurde hinzugefügt</p>
           </li>
         </ul>
       </td>
@@ -1428,9 +1428,9 @@ Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scor
   </tbody>
 </table>
 
-### Aufgabe (TASK)
+### Aufgabe (AUFGABE)
 
-Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (zum Abschließen eines Projekts) ausgeführt werden muss.
+Ein Aufgabenobjekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (Fertigstellen eines Projekts) ausgeführt werden muss.
 
 <table>
   <col/>
@@ -1443,7 +1443,7 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration -Objekt stellt diese Verknüpfung dar.</p>
+            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration-Objekt stellt diese Relation dar.</p>
           </li>
         </ul>
       </td>
@@ -1453,7 +1453,7 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
 
 ### Vorlage (TMPL)
 
-Ein Template -Objekt stellt ein Muster für ein Projekt dar. Projekte können aus Vorlagen erstellt werden, um Zeit zu sparen. Eine Vorlage enthält ein Team und Aufgaben, die in jedes aus der Vorlage erstellte Projekt kopiert werden.
+Ein Vorlagenobjekt stellt ein Muster für ein Projekt dar. Projekte können aus Vorlagen erstellt werden, um Zeit zu sparen. Eine Vorlage enthält ein Team und Aufgaben, die in jedes aus der Vorlage erstellte Projekt kopiert werden.
 
 <table>
   <col/>
@@ -1477,9 +1477,9 @@ Ein Template -Objekt stellt ein Muster für ein Projekt dar. Projekte können au
   </tbody>
 </table>
 
-### Datenblatt (TSHET)
+### Arbeitszeittabelle (TABELLE)
 
-Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die tatsächlichen Arbeitsstunden für Aufgaben, Projekte und Hochtypen eingeben können.
+Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit der Benutzende tatsächliche Arbeitsstunden für Aufgaben, Projekte und allgemeine Stundentypen eingeben können.
 
 <table>
   <col/>
@@ -1516,7 +1516,7 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
             <p>Die folgenden möglichen Werte wurden entfernt:</p>
             <ul>
               <li>
-                <p><code>FOUR_COL</code> (Vierspaltenlayout)</p>
+                <p><code>FOUR_COL</code> (Vierspaltiges Layout)</p>
               </li>
               <li>
                 <p><code>UPDATES</code> (Aktualisierungen)</p>
@@ -1525,7 +1525,7 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
                 <p><code>UPDATESTOOLBAR_FEED</code> (Aktualisierungen)</p>
               </li>
               <li>
-                <p><code>WORKINGON</code> (Arbeiten am)</p>
+                <p><code>WORKINGON</code> (in Arbeit)</p>
               </li>
               <li>
                 <p><code>CUSTOMDATA</code> (Benutzerdefinierte Daten)</p>
@@ -1549,7 +1549,7 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
                 <p><code>DLIST</code> (Detailliste)</p>
               </li>
               <li>
-                <p><code>DLIST_SECTION</code> (Abschnitt "Detailliste")</p>
+                <p><code>DLIST_SECTION</code> (Abschnitt Detailliste)</p>
               </li>
             </ul>
           </li>
@@ -1559,9 +1559,9 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
   </tbody>
 </table>
 
-### Aktualisieren (AKTUALISIEREN)
+### Aktualisieren (UPDATE)
 
-Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über den aktuellen Status informiert werden. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzern eingegeben oder vom Workfront-System erstellt werden.
+Arbeitselemente in Workfront können aktualisiert werden, um Benutzende über den aktuellen Status zu informieren. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzenden eingegeben oder vom Workfront-System erstellt werden.
 
 <table>
   <col/>
@@ -1574,7 +1574,7 @@ Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über d
           <li>
             <p><b>updateType</b>
             </p>
-            <p>Der mögliche Wert <code>documentVersionDownload </code>(enum.updatetypeenum.documentversiondownload) wurde hinzugefügt.</p>
+            <p>Der mögliche Wert <code>documentVersionDownload </code>(enum.updateTypeEnum.DocumentVersionDownload) wurde hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -1582,9 +1582,9 @@ Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über d
   </tbody>
 </table>
 
-### Benutzer (BENUTZER)
+### Benutzer (USER)
 
-Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
+Ein Benutzerobjekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
 
 <table>
   <col/>
@@ -1621,7 +1621,7 @@ Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich a
 
 ### UserNote (USRNOT)
 
-Ein UserNote -Objekt ist eine Benachrichtigung.
+Ein UserNote-Objekt ist eine Benachrichtigung.
 
 <table>
   <col/>
@@ -1637,10 +1637,10 @@ Ein UserNote -Objekt ist eine Benachrichtigung.
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
               <li>
-                <p><code>DUP </code>(Testversand eines Dokuments angefordert)</p>
+                <p><code>DUP </code>(hat Sie um den Korrekturabzug eines Dokuments gebeten)</p>
               </li>
               <li>
-                <p><code>DUV </code>(Zulassen der Anzeige eines Dokuments)</p>
+                <p><code>DUV </code>(Ermöglicht die Anzeige eines Dokuments)</p>
               </li>
             </ul>
           </li>
@@ -1652,7 +1652,7 @@ Ein UserNote -Objekt ist eine Benachrichtigung.
 
 ### Arbeit (ARBEIT)
 
-Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask übernommen wird und gemeinsamen Code für beide verwendet.
+Ein Arbeitsobjekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask erbt wird und gemeinsamen Code zwischen den beiden verwendet.
 
 <table>
   <col/>
@@ -1665,7 +1665,7 @@ Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch 
           <li>
             <p><b>objectIntegrations</b>
             </p>
-            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration -Objekt stellt diese Verknüpfung dar.</p>
+            <p>In einigen Fällen ist es möglich, Workfront-Arbeitselemente direkt mit Objekten in einem externen Softwareprodukt zu verknüpfen. Das ObjectIntegration-Objekt stellt diese Relation dar.</p>
           </li>
         </ul>
       </td>

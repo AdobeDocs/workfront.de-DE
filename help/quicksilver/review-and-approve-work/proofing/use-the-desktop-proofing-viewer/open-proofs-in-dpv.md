@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Öffnen Sie Testsendungen im Desktop Proofing Viewer.
-description: Wenn Sie einen Testversand nicht wie unten beschrieben öffnen können, wenden Sie sich an Ihren Adobe Workfront-Administrator oder Ihren Workfront Proof-Administrator.
+title: Öffnen von Korrekturabzügen im Desktop Proofing Viewer
+description: Wenn Sie einen Korrekturabzug nicht wie unten beschrieben öffnen können, wenden Sie sich an Ihren Adobe Workfront-Administrator oder Ihren Workfront Proof-Administrator.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: bff8bf09-fca7-41cb-b6bc-813f08d3e18f
@@ -13,13 +13,13 @@ ht-degree: 5%
 
 ---
 
-# Öffnen Sie Testsendungen im Desktop Proofing Viewer.
+# Öffnen von Korrekturabzügen im Desktop Proofing Viewer
 
-Wenn Sie einen Testversand nicht wie unten beschrieben öffnen können, wenden Sie sich an Ihren Adobe Workfront-Administrator oder Ihren Workfront Proof-Administrator.
+Wenn Sie einen Korrekturabzug nicht wie unten beschrieben öffnen können, wenden Sie sich an Ihren Adobe Workfront-Administrator oder Ihren Workfront Proof-Administrator.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,15 +29,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof role</td> 
-   <td>Alle</td> 
+   <td role="rowheader">Rolle des Korrekturabzugs</td> 
+   <td>Beliebig</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -54,16 +54,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Sie müssen den Desktop Proofing Viewer installieren. Weitere Informationen finden Sie unter [Installieren des Desktop Überprüfungs-Viewers](../../../review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
 
-## Öffnen Sie Testsendungen über den Desktop Proofing Viewer
+## Öffnen von Korrekturabzügen über die Desktop-Korrekturabzugsanzeige
 
-Wenn Sie interaktive Inhalte regelmäßig im Desktop Proofing Viewer überprüfen, kann Ihr Workfront-Administrator den Desktop Proofing Viewer als Standard-Viewer festlegen. Weitere Informationen finden Sie unter [Benutzereinstellungen für das Öffnen nicht interaktiver Testsendungen im Desktop-Proofing-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs) im Artikel, [Grundlegendes zum Desktop-Proofing-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
+Wenn Sie regelmäßig interaktive Inhalte im Desktop Proofing Viewer überprüfen, kann Ihr Workfront-Administrator den Desktop Proofing Viewer als Standard-Viewer festlegen. Weitere Informationen finden Sie unter [Benutzereinstellungen zum Öffnen nicht interaktiver Korrekturabzüge im Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md#user-setting-for-launching-non-interactive-proofs) im Artikel &quot;[ zum Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md).
 
-1. Geben Sie im Viewer für Desktop-Testversand Ihre **Testversand-URL** ein.
+1. Geben Sie in Desktop Proofing Viewer Ihre **Korrekturabzugs-URL** ein.
 
-   Informationen zum Zugriff auf Testversand-URLs finden Sie unter [Zugriff auf einen für Sie freigegebenen Testversand](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md).
+   Informationen zum Zugriff auf Korrekturabzugs-URLs finden Sie unter [Zugriff auf einen Korrekturabzug, der für Sie freigegeben wurde](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/access-proofs-shared-with-you.md).
 
    >[!NOTE]
    >
    >Der Desktop Proofing Viewer unterstützt keine Websites, für die Sie sich anmelden müssen.
 
-1. Klicken Sie im angezeigten Bildschirm auf **Proof öffnen** . 
+1. Klicken Sie **dem** angezeigten Bildschirm auf „Korrekturabzug öffnen“. 

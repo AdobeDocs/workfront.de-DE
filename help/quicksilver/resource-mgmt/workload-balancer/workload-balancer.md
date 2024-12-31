@@ -2,8 +2,8 @@
 content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
-title: 'Der Lastenausgleich: Artikelindex'
-description: Der Workflow-Lastenausgleich ist ein Tool zur Ressourcenplanung in Adobe Workfront, mit dem Sie Ihren Personalressourcen Aufgaben und Probleme zuweisen können.
+title: 'Der Workload Balancer: Artikelindex'
+description: Der Workload Balancer ist ein Tool zur Ressourcenplanung in Adobe Workfront, mit dem Sie Ihren Personalressourcen Aufgaben und Probleme zuweisen können.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog
@@ -15,24 +15,24 @@ ht-degree: 0%
 
 ---
 
-# Der Lastenausgleich: Artikelindex
+# Der Workload Balancer: Artikelindex
 
 <!--Audited: 12/2023-->
 
-Der Workflow-Lastenausgleich ist ein Tool zur Ressourcenplanung in Adobe Workfront, mit dem Sie Ihren Personalressourcen Aufgaben und Probleme zuweisen können.
+Der Workload Balancer ist ein Tool zur Ressourcenplanung in Adobe Workfront, mit dem Sie Ihren Personalressourcen Aufgaben und Probleme zuweisen können.
 
-Informationen dazu, was der Arbeitslastausgleich ist, wie er navigiert und wie er Arbeit zuweist, finden Sie in den folgenden Artikeln:
+Informationen zum Workload Balancer, zur Navigation darin und zur Zuweisung von Arbeit mithilfe des Workload Balancers finden Sie in den folgenden Artikeln:
 
-* [Übersicht über den Lastenausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
-* [Für die Verwaltung der Ressourcen im Arbeitslade-Balancer benötigter Zugriff](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
-* [Suchen Sie den Lastenausgleich](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)
-* [Navigieren Sie zum Arbeitsladeausgleich](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
-* [Filtern von Informationen im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
-* [Übersicht über die Zuweisung von Arbeit im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
-* [Manuelles Zuweisen der Arbeit mithilfe des Lastenausgleichs](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)
-* [Weisen Sie die Arbeit im Arbeitslastausgleich zu, indem Sie](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md) ziehen und ablegen
-* [Arbeiten stapelweise mithilfe des Lastenausgleichs zuweisen](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)
-* [Aufheben der Zuweisung von Arbeit zum Arbeitslade-Balancer](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
-* [Verwalten von Benutzerzuweisungen im Arbeitslade-Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
-* [Den Lastenausgleich über einen Link freigeben](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
-* [Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)
+* [Übersicht über den Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+* [Zugriff erforderlich, um Ressourcen im Workload Balancer zu verwalten](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md)
+* [Suchen Sie den Workload Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md)
+* [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+* [Filtern von Informationen im Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md)
+* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+* [Arbeiten manuell über den Workload Balancer zuweisen](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-manually.md)
+* [Arbeiten im Workload Balancer durch Ziehen und Ablegen zuweisen](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-by-drag-and-drop.md)
+* [Massenzuweisung von Arbeit mithilfe des Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer-in-bulk.md)
+* [Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md)
+* [Verwalten von Benutzerzuweisungen im Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+* [Freigeben des Workload Balancer für einen Link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* [Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung](../../resource-mgmt/workload-balancer/update-items-in-summary-panel-in-workload-balancer.md)

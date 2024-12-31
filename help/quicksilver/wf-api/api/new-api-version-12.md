@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 12
-description: Workfront hat die API-Version 12 am 12. November 2020 veröffentlicht. API Version 12 enthält die folgenden Änderungen gegenüber Version 11
+title: Neue Funktionen in der API-Version 12
+description: Workfront hat API Version 12 am 12. November 2020 veröffentlicht. API Version 12 enthält die folgenden Änderungen gegenüber Version 11
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,22 +14,22 @@ ht-degree: 1%
 
 ---
 
-# Neue Funktionen in API Version 12
+# Neue Funktionen in der API-Version 12
 
-Workfront hat die API-Version 12 am 12. November 2020 veröffentlicht. API Version 12 enthält die folgenden Änderungen gegenüber Version 11
+Workfront hat API Version 12 am 12. November 2020 veröffentlicht. API Version 12 enthält die folgenden Änderungen gegenüber Version 11
 
-## Hinzugefügte Ressourcen
+## Ressourcen hinzugefügt
 
-Die folgenden Ressourcen sind in Workfront API Version 12 neu.
+Die folgenden Ressourcen sind neu in der Workfront-API-Version 12.
 
 * [BreadCrumb](#breadcrumb)
 * [RichTextParameterValue](#richtextparametervalue)
 
-### BreadCrumb {#breadcrumb}
+### Brotkrume {#breadcrumb}
 
-Ein BreadCrumb-Objekt stellt ein Element in der übergeordneten/untergeordneten Hierarchie eines Adobe Workfront-Arbeitselements dar. Breadcrumbs zeigen an, wie ein Arbeitselement in die größere Struktur von Portfolios, Projekten, Projekten und Aufgaben passt.
+Ein BreadCrumb-Objekt stellt ein Element in der übergeordneten/untergeordneten Hierarchie eines Adobe Workfront-Arbeitselements dar. Breadcrumbs geben an, wie ein Arbeitselement in die größere Struktur von Portfolios, Projekten, Projekten und Aufgaben passt.
 
-Weitere Informationen zu Breadcrumbs in Workfront finden Sie unter [Breadcrumbs-Übersicht im neuen Adobe Workfront-Erlebnis](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
+Weitere Informationen zu Breadcrumbs in Workfront finden Sie unter [Breadcrumbs - Übersicht in der neuen Adobe Workfront-Version](../../workfront-basics/the-new-workfront-experience/breadcrumb-overview.md)
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -49,9 +49,9 @@ Weitere Informationen zu Breadcrumbs in Workfront finden Sie unter [Breadcrumbs-
 
 ### RichTextParameterValue {#richtextparametervalue}
 
-Rich-Text-Felder sind jetzt für weitere Objekte verfügbar. Das RichTextParameterValue -Objekt wurde zu Workfront hinzugefügt, um diese Verfügbarkeit zu unterstützen.
+Rich-Text-Felder sind jetzt für mehr Objekte verfügbar. Das RichTextParameterValue-Objekt wurde zu Workfront hinzugefügt, um diese Verfügbarkeit zu unterstützen.
 
-Weitere Informationen finden Sie unter [Rich-Text-Felder in der Adobe Workfront-API](../../wf-api/general/rich-text-field-api.md).
+Weitere Informationen finden Sie unter [Rich-Textfelder in der Adobe Workfront-API](../../wf-api/general/rich-text-field-api.md).
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -79,11 +79,11 @@ Weitere Informationen finden Sie unter [Rich-Text-Felder in der Adobe Workfront-
 
 ## Entfernte Ressourcen
 
-Für API Version 12 wurden keine Ressourcen entfernt.
+Für API-Version 12 wurden keine Ressourcen entfernt.
 
 ## Geänderte Ressourcen
 
-Die folgenden Ressourcen wurden für die Workfront API Version 12 geändert.
+Die folgenden Ressourcen wurden für die Workfront-API-Version 12 geändert.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -93,12 +93,12 @@ Die folgenden Ressourcen wurden für die Workfront API Version 12 geändert.
   <tr> 
    <td role="rowheader"> 
     <ul> 
-     <li> <p><a href="#accesslevel" class="MCXref xref">AccessLevel</a> </p> </li> 
-     <li> <p><a href="#accesslevelpermissions" class="MCXref xref">AccessLevelPermissions</a> </p> </li> 
+     <li> <p><a href="#accesslevel" class="MCXref xref">Zugriffsebene</a> </p> </li> 
+     <li> <p><a href="#accesslevelpermissions" class="MCXref xref">Zugriffsberechtigungen</a> </p> </li> 
      <li> <p><a href="#accessrequest" class="MCXref xref">AccessRequest</a> </p> </li> 
-     <li> <p><a href="#accessrule" class="MCXref xref">AccessRule</a> </p> </li> 
+     <li> <p><a href="#accessrule" class="MCXref xref">Zugriffsregel</a> </p> </li> 
      <li> <p><a href="#activitylog" class="MCXref xref">ActivityLog</a> </p> </li> 
-     <li> <p><a href="#announcementattachment" class="MCXref xref">AnnouncementAttachment</a> </p> </li> 
+     <li> <p><a href="#announcementattachment" class="MCXref xref">AnkündigungAnhang</a> </p> </li> 
      <li> <p><a href="#approval" class="MCXref xref">Genehmigung</a> </p> </li> 
      <li> <p><a href="#calendarsection" class="MCXref xref">CalendarSection</a> </p> </li> 
      <li> <p><a href="#company" class="MCXref xref">Firma</a> </p> </li> 
@@ -106,14 +106,14 @@ Die folgenden Ressourcen wurden für die Workfront API Version 12 geändert.
     </ul> </td> 
    <td> 
     <ul> 
-     <li> <p><a href="#customerpreferences" class="MCXref xref">CustomerPreferences</a> </p> </li> 
-     <li> <p><a href="#document" class="MCXref xref">Document</a> </p> </li> 
+     <li> <p><a href="#customerpreferences" class="MCXref xref">Kundenpräferenzen</a> </p> </li> 
+     <li> <p><a href="#document" class="MCXref xref">Dokument</a> </p> </li> 
      <li> <p><a href="#documentversion" class="MCXref xref">DocumentVersion</a> </p> </li> 
-     <li> <p><a href="#group" class="MCXref xref">Gruppe </a> </p> </li> 
+     <li> <p><a href="#group" class="MCXref xref"></a> </p> </li> 
      <li> <p><a href="#linkedfolder" class="MCXref xref">LinkedFolder</a> </p> </li> 
      <li> <p><a href="#optask" class="MCXref xref">OpTask</a> </p> </li> 
      <li> <p><a href="#parameter" class="MCXref xref">Parameter</a> </p> </li> 
-     <li> <p><a href="#portfolio" class="MCXref xref">Portfolio</a> </p> </li> 
+     <li> <p><a href="#portfolio" class="MCXref xref">Portfolio </a> </p> </li> 
      <li> <p><a href="#program" class="MCXref xref">Programm</a> </p> </li> 
     </ul> </td> 
    <td> 
@@ -124,9 +124,9 @@ Die folgenden Ressourcen wurden für die Workfront API Version 12 geändert.
      <li> <p><a href="#task" class="MCXref xref">Aufgabe</a> </p> </li> 
      <li> <p><a href="#team" class="MCXref xref">Team</a> </p> </li> 
      <li> <p><a href="#templatetask" class="MCXref xref">TemplateTask</a> </p> </li> 
-     <li> <p><a href="#timesheet" class="MCXref xref">Zeitblatt</a> </p> </li> 
+     <li> <p><a href="#timesheet" class="MCXref xref">Arbeitszeittabelle</a> </p> </li> 
      <li> <p><a href="#user" class="MCXref xref">Benutzer</a> </p> </li> 
-     <li> <p><a href="#work" class="MCXref xref">Arbeit </a> </p> </li> 
+     <li> <p><a href="#work" class="MCXref xref"></a> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -134,11 +134,11 @@ Die folgenden Ressourcen wurden für die Workfront API Version 12 geändert.
 
  
 
-### AccessLevel {#accesslevel}
+### Zugriffsebene {#accesslevel}
 
-Ein AccessLevel -Objekt ist mit Benutzern verknüpft und beschreibt den Satz von AccessLevelPermissions, der bestimmt, auf welchen Benutzer zugreifen können.
+Ein AccessLevel-Objekt ist Benutzern zugeordnet und beschreibt den Satz von AccessLevelPermissions, die bestimmen, auf was Benutzer zugreifen können.
 
-Weitere Informationen zu Zugriffsebenen finden Sie unter [Funktionsweise der Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
+Weitere Informationen zu Zugriffsebenen finden Sie unter [ von Zugriffsebenen](../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels.md).
 
 <table style="table-layout:auto"> <!--
   <col data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -161,9 +161,9 @@ Weitere Informationen zu Zugriffsebenen finden Sie unter [Funktionsweise der Zug
  </tbody> 
 </table>
 
-### AccessLevelPermissions {#accesslevelpermissions}
+### ZugriffsebeneBerechtigungen {#accesslevelpermissions}
 
-Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugreifen auf, Erstellen oder Ändern eines Workfront-Objekts dar. Diese Berechtigungen können dann einer Zugriffsebene zugeordnet werden.
+Ein AccessLevelPermissions-Objekt stellt eine bestimmte Berechtigung zum Zugreifen auf, Erstellen oder Ändern eines Workfront-Objekts dar. Diese Berechtigungen können dann mit einer Zugriffsebene verknüpft werden.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -175,9 +175,9 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
     <ul> 
      <li> <p><strong>coreAction</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Aufgaben bei der Verwaltung der Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können geplante Stunden im Workload-Balancer aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Stunden bei der Verwaltung von Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload Balancer</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierten Formularen Felder hinzufügen.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
@@ -232,9 +232,9 @@ Ein AccessLevelPermissions -Objekt stellt eine spezifische Berechtigung zum Zugr
  </tbody> 
 </table>
 
-### AccessRequest {#accessrequest}
+### Zugriffsanforderung {#accessrequest}
 
-Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benötigt, kann er den Zugriff auf dieses Objekt anfordern. Das AccessRequest -Objekt stellt diese Anforderung dar.
+Wenn ein(e) Benutzende(r) keinen Zugriff auf ein Objekt in Workfront hat, das er/sie benötigt, kann er/sie Zugriff auf dieses Objekt anfordern. Das AccessRequest-Objekt stellt diese Anforderung dar.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -244,20 +244,20 @@ Wenn ein Benutzer keinen Zugriff auf ein Objekt in Workfront hat, das er benöti
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: bold;">action</p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
+     <li> <p style="font-weight: bold;">Handlung</p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Aufgaben bei der Verwaltung der Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können geplante Stunden im Workload-Balancer aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Stunden bei der Verwaltung von Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload Balancer</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierten Formularen Felder hinzufügen.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### AccessRule {#accessrule}
+### Zugriffsregel {#accessrule}
 
-Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
+Ein AccessRule-Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebenen dar, der bestimmt, wie Benutzer erstellte Projekte freigeben können.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -269,9 +269,9 @@ Ein AccessRule -Objekt stellt einen Regelsatz in benutzerdefinierten Zugriffsebe
     <ul> 
      <li><strong>coreAction</strong> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Aufgaben bei der Verwaltung der Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können geplante Stunden im Workload-Balancer aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Stunden bei der Verwaltung von Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload Balancer</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierten Formularen Felder hinzufügen.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li> 
       </ul> </li> 
      <li> <p><strong>forbiddenActions</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
@@ -302,17 +302,17 @@ Ein ActivityLog-Objekt ist eine vollständige Liste aller Aktivitäten, die in e
    <td> <p>Vorgänge</p> </td> 
    <td> <p>Der folgende Vorgang wurde aus dem ActivityLog-Objekt entfernt:</p> 
     <ul> 
-     <li> <p><strong>ADD</strong> </p> </li> 
+     <li> <p><strong>HINZUFÜGEN</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### AnnouncementAttachment {#announcementattachment}
+### Anhang für die Ankündigung {#announcementattachment}
 
-Ein AnnouncementAttachment -Objekt stellt eine Datei dar, die an eine Workfront-Ankündigung angehängt wurde.
+Ein Ankündigungs-Attachment-Objekt stellt eine Datei dar, die an eine Workfront-Ankündigung angehängt wurde.
 
-Weitere Informationen zu Ankündigungsanhängen finden Sie unter [Mitteilungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
+Weitere Informationen zu Ankündigungs-Anhängen finden Sie unter [Ankündigungen senden](../../administration-and-setup/get-started-wf-administration/view-send-announcements.md)
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -322,11 +322,11 @@ Weitere Informationen zu Ankündigungsanhängen finden Sie unter [Mitteilungen s
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><strong>fileExtension</strong> </p> <p>Mögliche Werte wurden hinzugefügt:</p> 
+     <li> <p><strong>fileExtension</strong> </p> <p>Hinzugefügte mögliche Werte:</p> 
       <ul> 
-       <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
-       <li> <p>qslide (enum.fileextension.qslide)</p> </li> 
-       <li> <p>qsheet (enum.fileextension.qsheet)</p> </li> 
+       <li> <p>qdoc (enum.fileExtension.qdoc)</p> </li> 
+       <li> <p>qslides (enum.fileExtension.qslides)</p> </li> 
+       <li> <p>qsheet (enum.fileExtension.qsheet)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -335,7 +335,7 @@ Weitere Informationen zu Ankündigungsanhängen finden Sie unter [Mitteilungen s
 
 ### Genehmigung {#approval}
 
-Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Timesheet, kann vorschreiben, dass ein Supervisor oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Approval-Objekt stellt die Aktion zum Abmelden eines Arbeitselements dar.
+Für ein bestimmtes Arbeitselement, z. B. eine Aufgabe, ein Dokument oder eine Arbeitszeittabelle, kann es erforderlich sein, dass ein Verantwortlicher oder ein anderer Benutzer das Arbeitselement abzeichnet. Ein Validierungsobjekt stellt die Aktion des Abzeichnens eines Arbeitselements dar.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -357,18 +357,18 @@ Ein bestimmtes Arbeitselement, wie z. B. eine Aufgabe, ein Dokument oder ein Tim
        <li> <p>DYNAMISCH,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Arbeitsaufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt und gibt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>1 (Klein)</p> </li> 
        <li> <p>2 (Medium)</p> </li> 
-       <li> <p>3 (groß)</p> </li> 
-      </ul> <p>Weitere Informationen zu Arbeitsaufwand in Workfront finden Sie unter <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Arbeitsaufwand - Übersicht</a>.</p> </li> 
+       <li> <p>3 (Groß)</p> </li> 
+      </ul> <p>Weitere Informationen zum Work Effort in Workfront finden Sie unter <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort - Übersicht</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### CalendarSection {#calendarsection}
+### Kalenderabschnitt {#calendarsection}
 
 Ein Kalenderabschnitt ist ein Kalenderbericht.
 
@@ -380,7 +380,7 @@ Weitere Informationen zu Kalenderberichten finden Sie unter [Übersicht über Ka
  <tbody> 
   <tr> 
    <td>Direkte Felder</td> 
-   <td> <p style="font-weight: normal;">Die folgenden Felder wurden zum CalendarSection -Objekt hinzugefügt, um die neue Funktion zur Verwendung benutzerdefinierter Datumswerte in Kalenderberichten zu unterstützen. </p> <p style="font-weight: normal;">Weitere Informationen finden Sie unter <a href="../../reports-and-dashboards/reports/calendars/use-custom-dates.md" class="MCXref xref">Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht</a>.</p> 
+   <td> <p style="font-weight: normal;">Die folgenden Felder wurden zum CalendarSection -Objekt hinzugefügt, um die neue Funktionalität der Verwendung benutzerdefinierter Datumsangaben in Kalenderberichten zu unterstützen. </p> <p style="font-weight: normal;">Weitere Informationen finden Sie unter <a href="../../reports-and-dashboards/reports/calendars/use-custom-dates.md" class="MCXref xref">Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht</a>.</p> 
     <ul> 
      <li> <p style="font-weight: normal;">customDate</p> </li> 
      <li> <p style="font-weight: normal;">customEndDateParameterID</p> </li> 
@@ -393,7 +393,7 @@ Weitere Informationen zu Kalenderberichten finden Sie unter [Übersicht über Ka
 
 ### Firma {#company}
 
-Ein Unternehmensobjekt stellt eine Organisation dar, die aus einer Personensammlung besteht.
+Ein Unternehmensobjekt stellt eine Organisation dar, die aus einer Sammlung von Personen besteht.
 
 Weitere Informationen zu Unternehmen finden Sie unter [Erstellen und Bearbeiten von Unternehmen](../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
@@ -405,14 +405,14 @@ Weitere Informationen zu Unternehmen finden Sie unter [Erstellen und Bearbeiten 
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Die Kennung der Gruppe, mit der das Unternehmen verknüpft ist.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Die ID der Gruppe, mit der die Firma verknüpft ist.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Referenzfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>Gruppe</p> <p style="font-weight: normal;">Die Gruppe, mit der das Unternehmen verbunden ist. Wenn Sie ein Unternehmen mit einer Gruppe verknüpfen, kann der Gruppenadministrator den Gruppenzugriff und die Gruppenberechtigungen auf das Unternehmen erweitern.</p> </li> 
+     <li style="font-weight: bold;"> <p>Gruppe</p> <p style="font-weight: normal;">Die Gruppe, mit der die Firma verknüpft ist. Durch das Verknüpfen einer Firma mit einer Gruppe kann der Gruppenadministrator den Gruppenzugriff und die Gruppenberechtigungen für die Firma erweitern.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -420,7 +420,7 @@ Weitere Informationen zu Unternehmen finden Sie unter [Erstellen und Bearbeiten 
 
 ### Kunde {#customer}
 
-Ein Kundenobjekt stellt eine Organisation dar, die eine Instanz von Workfront verwendet.
+Ein Customer-Objekt stellt eine Organisation dar, die eine Instanz von Workfront verwendet.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -430,15 +430,15 @@ Ein Kundenobjekt stellt eine Organisation dar, die eine Instanz von Workfront ve
    <td>Aktionen</td> 
    <td> 
     <ul> 
-     <li> <p style="font-weight: normal;"><strong>productEnabled</strong> </p> <p style="font-weight: normal;">Diese Aktion akzeptiert ein CustomerProductTypeEnum -Argument und gibt einen booleschen Wert zurück, der angibt, ob dieser Kunde über ein Konto für dieses Produkt verfügt. </p> </li> 
+     <li> <p style="font-weight: normal;"><strong>productEnabled</strong> </p> <p style="font-weight: normal;">Bei dieser Aktion wird ein CustomerProductTypeEnum-Argument verwendet und ein boolescher Wert zurückgegeben, der angibt, ob dieser Kunde über ein Konto für dieses Produkt verfügt. </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### CustomerPreferences {#customerpreferences}
+### Kundenpräferenzen {#customerpreferences}
 
-Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Instanz von Workfront festgelegt hat.
+Ein CustomerPreferences-Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Workfront-Instanz festgelegt hat.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -448,9 +448,9 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Mögliche Werte wurden hinzugefügt:</p> 
+     <li style="font-weight: bold;"> <p>name</p> <p style="font-weight: normal;">Hinzugefügte mögliche Werte:</p> 
       <ul> 
-       <li style="font-weight: normal;">password:zoomIntegrationEnabled (Zoom-Integration im Aktualisierungsstream aktivieren)</li> 
+       <li style="font-weight: normal;">password:zoomIntegrationEnabled (Zoom-Integration im Aktualisierungsverlauf aktivieren)</li> 
        <li style="font-weight: normal;"> password:quipIntegrationEnabled (config.general.quip.enabled)  </li> 
       </ul> </li> 
     </ul> </td> 
@@ -460,7 +460,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
 
 ### Dokument {#document}
 
-Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder oder andere Informationsformen).
+Ein Dokumentobjekt, das eine Datei darstellt (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -478,9 +478,9 @@ Ein Dokumentobjekt stellt eine Datei dar (z. B. schriftliches Material, Bilder o
 
 ### DocumentVersion {#documentversion}
 
-Ein DocumentVersion -Objekt stellt eine bestimmte Version einer Datei dar (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
+Ein DocumentVersion-Objekt stellt eine bestimmte Version einer Datei dar (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
 
-Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version eines Dokuments hochladen](../../documents/managing-documents/upload-new-document-version.md).
+Weitere Informationen zu Dokumentversionen finden Sie unter [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -490,7 +490,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">Mögliche Werte wurden entfernt:</p> 
+     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">Entfernte möglichen Wert:</p> 
       <ul> 
        <li style="font-weight: normal;">QUIP (Quip)</li> 
       </ul> </li> 
@@ -501,14 +501,14 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
   </tr> 
   <tr> 
    <td>Aktionen</td> 
-   <td> <p>Die folgenden Aktionen wurden dem Dokumentobjekt hinzugefügt.</p> 
+   <td> <p>Die folgenden Aktionen wurden zum Dokumentobjekt hinzugefügt.</p> 
     <ul> 
-     <li> <p style="font-weight: bold;">getDocumentReviewerDecision</p> <p style="font-weight: normal;">Diese Aktion akzeptiert das documentVersonID-Argument (Zeichenfolge) und gibt eine Zuordnung zurück, die die Entscheidung des Validierers angibt.</p> </li> 
-     <li style="font-weight: bold;"> <p>setDocumentReviewerDecision</p> <p style="font-weight: normal;">Diese Aktion akzeptiert die folgenden Argumente:</p> 
+     <li> <p style="font-weight: bold;">getDocumentReviewerDecision</p> <p style="font-weight: normal;">Diese Aktion verwendet das documentVersionID-Argument (Zeichenfolge) und gibt eine Zuordnung zurück, die die Entscheidung der Überprüfenden angibt.</p> </li> 
+     <li style="font-weight: bold;"> <p>setDocumentReviewerDecision</p> <p style="font-weight: normal;">Diese Aktion verwendet die folgenden Argumente:</p> 
       <ul style="font-weight: normal;"> 
-       <li> <p>documentVersionID (string)</p> </li> 
+       <li> <p>documentVersionID (Zeichenfolge)</p> </li> 
        <li> <p>reviewerDecision (Zeichenfolge)</p> </li> 
-       <li> <p>comment (string)</p> </li> 
+       <li> <p>Kommentar (Zeichenfolge)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -517,7 +517,7 @@ Weitere Informationen zu Dokumentversionen finden Sie unter [Eine neue Version e
 
 ### Gruppe  {#group}
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
+Ein Gruppenobjekt steht für eine Gruppe von Benutzern und Teams. Gruppen repräsentieren oft die Abteilungsstruktur.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -527,31 +527,31 @@ Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen reprä
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>businessLeaderID</p> <p style="font-weight: normal;">Die Kennung des der Gruppe zugewiesenen Business Leaders.</p> </li> 
+     <li style="font-weight: bold;"> <p>businessLeaderID</p> <p style="font-weight: normal;">Die ID des Business Leaders, der der Gruppe zugewiesen wurde.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Referenzfelder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>businessLeader</p> <p style="font-weight: normal;">Der der Gruppe zugewiesene Business Leader. Ein Business Leader ist jemand, der Geschäftsentscheidungen für die Gruppe trifft.</p> <p style="font-weight: normal;">Weitere Informationen zu Unternehmensleitern finden Sie unter <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Übersicht über Business Leader</a>.<br></p> </li> 
+     <li style="font-weight: bold;"> <p>Business Leader</p> <p style="font-weight: normal;">Der der Gruppe zugewiesene Business Leader. Ein Business Leader ist jemand, der geschäftliche Entscheidungen für die Gruppe trifft.</p> <p style="font-weight: normal;">Weitere Informationen über Business Leader finden Sie unter <a href="../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md" class="MCXref xref">Business Leader - Übersicht</a>.<br></p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td>Aktionen</td> 
    <td> 
     <ul> 
-     <li> <p><strong>assignMultiple</strong> </p> <p>Diese Aktion akzeptiert die folgenden Argumente:</p> 
+     <li> <p><strong>assignMultiple</strong> </p> <p>Diese Aktion verwendet die folgenden Argumente:</p> 
       <ul> 
        <li> <p>userIDs (string[])</p> </li> 
-       <li> <p>roleIDs (string[])</p> </li> 
+       <li> <p>roleIDs (Zeichenfolge[])</p> </li> 
        <li> <p>teamID (Zeichenfolge)</p> </li> 
       </ul> </li> 
      <li> <p><strong>getGroupMembers</strong> </p> </li> 
-     <li> <p><strong>updateMembersList</strong> </p> <p>Diese Aktion akzeptiert die folgenden Argumente:</p> 
+     <li> <p><strong>updateMembersList</strong> </p> <p>Diese Aktion verwendet die folgenden Argumente:</p> 
       <ul> 
        <li> <p>newMemberIDs (string[])</p> </li> 
-       <li> <p>removedMemberDs (string[])</p> </li> 
+       <li> <p>removedMemberDs (Zeichenfolge[])</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -560,7 +560,7 @@ Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen reprä
 
 ### LinkedFolder {#linkedfolder}
 
-Ein LinkedFolder-Objekt stellt einen Ordner dar, der von einem externen Dokumentenanbieter wie Google Drive oder Dropbox verknüpft ist.
+Ein LinkedFolder-Objekt stellt einen Ordner dar, der über einen externen Dokumentanbieter verknüpft ist, z. B. Google Drive oder Dropbox.
 
 Weitere Informationen zu verknüpften Ordnern finden Sie unter [Verknüpfen von Dokumenten aus externen Anwendungen](../../documents/adding-documents-to-workfront/link-documents-from-external-apps.md).
 
@@ -572,7 +572,7 @@ Weitere Informationen zu verknüpften Ordnern finden Sie unter [Verknüpfen von 
    <td> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">Mögliche Werte wurden entfernt:</p> 
+     <li style="font-weight: bold;"> <p>externalIntegrationType</p> <p style="font-weight: normal;">Entfernte möglichen Wert:</p> 
       <ul> 
        <li style="font-weight: normal;">QUIP (Quip)</li> 
       </ul> </li> 
@@ -583,7 +583,7 @@ Weitere Informationen zu verknüpften Ordnern finden Sie unter [Verknüpfen von 
 
 ### OpTask {#optask}
 
-Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise anzeigt, dass ein Problem vorliegt, das die Fertigstellung einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungen bei Bestellungen, Anforderungen und Fehlern sind ebenfalls Probleme.
+Ein OpTask-Objekt wird im Allgemeinen als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise darauf hinweist, dass ein Problem vorliegt, das den Abschluss einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungsanforderungen, -anfragen und -fehler sind ebenfalls Probleme.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -593,7 +593,7 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
    <td role="rowheader"> <p>Direkte Felder</p> </td> 
    <td> 
     <ul> 
-     <li> <p><strong>backlogOrder</strong> </p> <p>Die Reihenfolge gibt die Position einer Aufgabe oder Geschichte im Agile-Backlog an.</p> <p>In diesem Feld wurden die folgenden Flags entfernt:
+     <li> <p><strong>backlogOrder</strong> </p> <p>Reihenfolge gibt die Position einer Aufgabe oder Story im Agile-Rückstand an.</p> <p>Dieses Feld entfernte die folgenden Flags:
        <ul>
         <li>DYNAMISCH,</li>
         <li>LAZY_READ,</li>
@@ -603,10 +603,10 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
   </tr> 
   <tr> 
    <td role="rowheader">Aktionen</td> 
-   <td> <p>Mit diesen Aktionen wurde der Argumentstatus hinzugefügt, um die neue Schaltfläche Start zu unterstützen, die den Status eines Arbeitselements ändert, wenn ein Benutzer auf die Schaltfläche klickt, um anzuzeigen, dass er mit der Bearbeitung des Elements begonnen hat.</p> <p>Weitere Informationen finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start"</a>.</p> 
+   <td> <p>Diese Aktionen haben den Argumentstatus hinzugefügt, um die neue Funktion der Schaltfläche Starten zu unterstützen. Damit wird der Status eines Arbeitselements geändert, wenn ein Benutzer auf die Schaltfläche klickt, um anzugeben, dass er mit der Bearbeitung des Elements begonnen hat.</p> <p>Weitere Informationen finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“ </a>.</p> 
     <ul> 
-     <li> <p><strong>acceptWork</strong> </p> </li> 
-     <li> <p><strong>unacceptWork</strong> </p> </li> 
+     <li> <p><strong>acceptedWork</strong> </p> </li> 
+     <li> <p><strong>unacceptedWork</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -614,9 +614,9 @@ Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbei
 
 ### Parameter {#parameter}
 
-Ein Parameter -Objekt ist ein benutzerdefiniertes Feld.
+Ein Parameter-Objekt ist ein benutzerdefiniertes Feld.
 
-Die Ressource Parameter hat das Flag SHARABLE hinzugefügt.
+Die Parameterressource hat das Flag SHARABLE hinzugefügt.
 
 Weitere Informationen zu benutzerdefinierten Feldern finden Sie unter [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md) in [Erstellen oder Bearbeiten eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
@@ -628,13 +628,13 @@ Weitere Informationen zu benutzerdefinierten Feldern finden Sie unter [Erstellen
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><strong>dataType</strong> </p> <p>Möglicher Wert hinzugefügt:</p> 
+     <li> <p><strong>dataType</strong> </p> <p>Zusätzlicher möglicher Wert:</p> 
       <ul> 
-       <li> <p>RICH (Rich Text)</p> <p>Weitere Informationen finden Sie unter <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Rich-Text-Felder in der Adobe Workfront-API</a>.</p> </li> 
+       <li> <p>RICH (Rich Text)</p> <p>Weitere Informationen finden Sie unter <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Rich-Textfelder in der Adobe Workfront-API</a>.</p> </li> 
       </ul> </li> 
-     <li> <p><strong>displayType</strong> </p> <p>Möglicher Wert hinzugefügt:</p> 
+     <li> <p><strong>displayType</strong> </p> <p>Zusätzlicher möglicher Wert:</p> 
       <ul> 
-       <li> <p>RICH (Textfeld mit Formatierung)</p> <p>Weitere Informationen finden Sie unter <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Rich-Text-Felder in der Adobe Workfront-API</a>.</p> </li> 
+       <li> <p>RICH (Textfeld mit Formatierung)</p> <p>Weitere Informationen finden Sie unter <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Rich-Textfelder in der Adobe Workfront-API</a>.</p> </li> 
       </ul> </li> 
      <li> <p><strong>label</strong> </p> <p>Hinzugefügt</p> </li> 
     </ul> </td> 
@@ -658,9 +658,9 @@ Weitere Informationen zu benutzerdefinierten Feldern finden Sie unter [Erstellen
 
 ### Portfolio {#portfolio}
 
-Ein Portfolio-Objekt ist eine Sammlung von Projekten, die um die gleichen Ressourcen konkurrieren, in der Regel um Geld oder Personen, um sie zu vervollständigen.
+Ein Portfolio-Objekt ist eine Sammlung von Projekten, die um dieselben Ressourcen konkurrieren, normalerweise Geld oder Personen, um sie abzuschließen.
 
-Weitere Informationen zu Portfolios finden Sie unter [Übersicht über Portfolio in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Weitere Informationen zu Portfolios finden Sie unter Übersicht über das [Portfolio in Adobe Workfront](../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -670,7 +670,7 @@ Weitere Informationen zu Portfolios finden Sie unter [Übersicht über Portfolio
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Die Kennung der Gruppe, mit der das Portfolio verknüpft ist.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Die ID der Gruppe, mit der das Portfolio verknüpft ist.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -685,7 +685,7 @@ Weitere Informationen zu Portfolios finden Sie unter [Übersicht über Portfolio
 
 ### Programm {#program}
 
-Ein Programmobjekt ist eine Teilmenge von Projekten in einem Portfolio, in dem ähnliche Projekte gruppiert werden können.
+Ein Programmobjekt ist eine Teilmenge von Projekten innerhalb eines Portfolios, in dem ähnliche Projekte gruppiert werden können.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -695,7 +695,7 @@ Ein Programmobjekt ist eine Teilmenge von Projekten in einem Portfolio, in dem �
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Die Kennung der Gruppe, mit der das Programm verknüpft ist.</p> </li> 
+     <li style="font-weight: bold;"> <p>groupID</p> <p style="font-weight: normal;">Die ID der Gruppe, mit der das Programm verknüpft ist.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
@@ -710,9 +710,9 @@ Ein Programmobjekt ist eine Teilmenge von Projekten in einem Portfolio, in dem �
 
 ### QueueDef {#queuedef}
 
-Ein QueueDef-Objekt stellt eine Warteschlange dar. Hierbei handelt es sich um ein Projekt, das in den Help Desk-Bereich veröffentlicht wurde, damit Benutzer Probleme an dieses Objekt senden können.
+Ein QueueDef -Objekt stellt eine Warteschlange dar. Dabei handelt es sich um ein Projekt, das im Helpdesk-Bereich veröffentlicht wurde, um Benutzenden die Übermittlung von Problemen zu ermöglichen.
 
-Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen einer Anforderungswarteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 <table style="table-layout:auto"> 
  <col> 
@@ -722,11 +722,11 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li><strong>requestorCoreAction</strong> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
+     <li><strong>RequestorCoreAction</strong> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
-       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann geplante Stunden im Arbeitslastausgleich aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Aufgaben bei der Verwaltung der Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuordnungen im Arbeitslastausgleich</a>.</p> </li> 
-       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierte Formulare um Felder erweitern.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
-       <li> <p>EDIT_SYSTEMWIDE </p> <p>Ein Benutzer mit einer Zugriffsstufe, die diese Berechtigung enthält, kann ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li>
+       <li> <p>PLANNED_HOURS_CONTOURING </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können geplante Stunden im Workload-Balancer aktualisieren.</p> <p>Weitere Informationen finden Sie unter <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md#update" class="MCXref xref">Aktualisieren der geplanten Stunden bei der Verwaltung von Benutzerzuweisungen</a> in <a href="../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md" class="MCXref xref">Verwalten von Benutzerzuweisungen im Workload Balancer</a>.</p> </li> 
+       <li> <p>ADD_TO_CUSTOM_FORMS </p> <p>Ein Benutzer mit einer Zugriffsebene, die diese Berechtigung enthält, kann benutzerdefinierten Formularen Felder hinzufügen.</p> <p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md" class="MCXref xref">Erstellen oder Bearbeiten eines benutzerdefinierten Formulars</a>.</p> </li> 
+       <li> <p>EDIT_SYSTEMWIDE </p> <p>Benutzende mit einer Zugriffsebene, die diese Berechtigung enthält, können ein benutzerdefiniertes Feld systemweit für den Löschzugriff freigeben.</p> </li>
        <ul> 
         <li> <p>PLANNED_HOURS_CONTOURING </p> </li> 
         <li> <p>ADD_TO_CUSTOM_FORMS </p> </li> 
@@ -737,9 +737,9 @@ Weitere Informationen zu Anforderungswarteschlangen finden Sie unter [Erstellen 
  </tbody> 
 </table>
 
-### ScheduledReport {#scheduledreport}
+### Geplanter Bericht {#scheduledreport}
 
-Ein ScheduledReport -Objekt stellt einen Bericht dar, der für die Bereitstellung konfiguriert wurde.
+Ein ScheduledReport-Objekt stellt einen Bericht dar, der für die Bereitstellung geplant wurde.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -749,11 +749,11 @@ Ein ScheduledReport -Objekt stellt einen Bericht dar, der für die Bereitstellun
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><strong>format</strong> </p> <p>Mögliche Werte wurden hinzugefügt:</p> 
+     <li> <p><strong>format</strong> </p> <p>Hinzugefügte mögliche Werte:</p> 
       <ul> 
-       <li> <p>qdoc (enum.fileextension.qdoc)</p> </li> 
-       <li> <p>qslide (enum.fileextension.qslide)</p> </li> 
-       <li> <p>qsheet (enum.fileextension.qsheet)</p> </li> 
+       <li> <p>qdoc (enum.fileExtension.qdoc)</p> </li> 
+       <li> <p>qslides (enum.fileExtension.qslides)</p> </li> 
+       <li> <p>qsheet (enum.fileExtension.qsheet)</p> </li> 
       </ul> </li> 
     </ul> </td> 
   </tr> 
@@ -762,7 +762,7 @@ Ein ScheduledReport -Objekt stellt einen Bericht dar, der für die Bereitstellun
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Ein ScoreCardQuestion -Objekt stellt eine Frage dar, die einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfolio-Manager bestimmt und ihre Antworten ermöglichen es dem Manager zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
+Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfoliomanager bestimmt und ihre Antworten geben dem Portfolio die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
 
 Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scorecard](../../administration-and-setup/set-up-workfront/configure-system-defaults/create-scorecard.md).
 
@@ -774,7 +774,7 @@ Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scor
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Der mögliche Wert RICH (Textfeld mit Formatierung) wurde hinzugefügt. </p> <p style="font-weight: normal;">Weitere Informationen finden Sie unter <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Rich-Text-Felder in der Adobe Workfront-API</a>.  </p> </li> 
+     <li style="font-weight: bold;"> <p>displayType</p> <p style="font-weight: normal;">Zusätzlicher möglicher Wert: RICH (Textfeld mit Formatierung) </p> <p style="font-weight: normal;">Weitere Informationen finden Sie unter <a href="../../wf-api/general/rich-text-field-api.md" class="MCXref xref">Rich-Textfelder in der Adobe Workfront-API</a>.  </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -782,7 +782,7 @@ Weitere Informationen zu Scorecard-Fragen finden Sie unter [Erstellen einer Scor
 
 ### Aufgabe {#task}
 
-Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (zum Abschließen eines Projekts) ausgeführt werden muss.
+Ein Aufgabenobjekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (Fertigstellen eines Projekts) ausgeführt werden muss.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -792,20 +792,20 @@ Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen ei
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Arbeitsaufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt und gibt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>1 (Klein)</p> </li> 
        <li> <p>2 (Medium)</p> </li> 
-       <li> <p>3 (groß)</p> </li> 
-      </ul> <p>Weitere Informationen zu Arbeitsaufwand in Workfront finden Sie unter <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Arbeitsaufwand - Übersicht</a>.</p> </li> 
+       <li> <p>3 (Groß)</p> </li> 
+      </ul> <p>Weitere Informationen zum Work Effort in Workfront finden Sie unter <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort - Übersicht</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Aktionen</td> 
-   <td> <p>Mit diesen Aktionen wurde der Argumentstatus hinzugefügt, um die neue Schaltfläche Start zu unterstützen, die den Status eines Arbeitselements ändert, wenn ein Benutzer auf die Schaltfläche klickt, um anzuzeigen, dass er mit der Bearbeitung des Elements begonnen hat.</p> <p>Weitere Informationen finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start"</a>.</p> 
+   <td> <p>Diese Aktionen haben den Argumentstatus hinzugefügt, um die neue Funktion der Schaltfläche Starten zu unterstützen. Damit wird der Status eines Arbeitselements geändert, wenn ein Benutzer auf die Schaltfläche klickt, um anzugeben, dass er mit der Bearbeitung des Elements begonnen hat.</p> <p>Weitere Informationen finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“ </a>.</p> 
     <ul> 
-     <li> <p><strong>acceptWork</strong> </p> </li> 
-     <li> <p><strong>unacceptWork</strong> </p> </li> 
+     <li> <p><strong>acceptedWork</strong> </p> </li> 
+     <li> <p><strong>unacceptedWork</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -821,25 +821,25 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
  <tbody> 
   <tr> 
    <td role="rowheader">Direkte Felder</td> 
-   <td> <p>Die folgenden Felder wurden der Ressource Team hinzugefügt:</p> 
+   <td> <p>Die folgenden Felder wurden der Team-Ressource hinzugefügt:</p> 
     <ul> 
      <li> <p><strong>completeDaysOnKanbanBoard</strong> </p> <p>Dieses Feld gibt die Anzahl der Tage an, die eine ausgefüllte Karte auf dem Kanban-Board verbleibt.</p> <!--
        <p data-mc-conditions="QuicksilverOrClassic.Draft mode">For more information, see <a href="../../agile/get-started-with-agile-in-workfront/configure-kanban.md" class="MCXref xref">Configure Kanban</a>.</p>
       --> </li> 
-     <li> <p><strong>groupID</strong> </p> <p>In diesem Feld wird ein Team mit einer Gruppe verknüpft. Dadurch wird das Team als Teil der Gruppe identifiziert und der Gruppenadministrator kann die Teams verwalten.</p> </li> 
-     <li> <p><strong>workOnItStatusChange</strong> </p> <p>Dies ist ein boolescher Parameter, der anzeigt, ob die Schaltfläche "Arbeit an diesem Team"als Schaltfläche "Start"konfiguriert wurde. Wenn ein Mitglied des Teams auf die Schaltfläche Starten klickt, um mit der Arbeit an einem Arbeitselement zu beginnen, ändert sich der Status des Elements von Neu in einen in den Teameinstellungen konfigurierten Status.</p> </li> 
-     <li> <p>Mit den folgenden Feldern können Sie benutzerdefinierte Status für die Schaltfläche Start für die einzelnen Arbeitselemente angeben.</p> 
+     <li> <p><strong>groupID</strong> </p> <p>Dieses Feld verknüpft ein Team mit einer Gruppe. Dadurch wird das Team als Teil der Gruppe identifiziert und der Gruppenadministrator kann die Teams verwalten.</p> </li> 
+     <li> <p><strong>workOnItStatusChange</strong> </p> <p>Dies ist ein boolescher Parameter, der angibt, ob die Schaltfläche „Bearbeiten“ des Teams als Schaltfläche „Starten“ konfiguriert wurde. Wenn ein Mitglied des Teams auf die Schaltfläche Starten klickt, um mit der Arbeit an einem Arbeitselement zu beginnen, ändert sich der Status des Elements von Neu in einen in den Team-Einstellungen konfigurierten Status.</p> </li> 
+     <li> <p>In den folgenden Feldern können Sie benutzerdefinierte Status für die Schaltfläche „Starten“ für die einzelnen Arbeitselemente angeben.</p> 
       <ul> 
        <li> <p><strong>workOnItOpTaskBugReportStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskChangeOrderStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskIssueStatuses</strong> </p> </li> 
        <li> <p><strong>workOnItOpTaskRequestStatuses</strong> </p> <p><strong>workOnItTaskStatuses</strong> </p> </li> 
-      </ul> <p>Weitere Informationen zur Schaltfläche "Start"finden Sie unter <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche "Work On It"durch eine Schaltfläche "Start"</a>.</p> </li> 
+      </ul> <p>Weitere Informationen über die Schaltfläche „Starten“ finden Sie <a href="../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md" class="MCXref xref">Ersetzen der Schaltfläche „Bearbeiten“ durch eine Schaltfläche „Starten“</a>.</p> </li> 
     </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Referenzfelder</td> 
-   <td> <p>Das folgende Feld wurde der Ressource Team hinzugefügt:</p> 
+   <td> <p>Das folgende Feld wurde der Team-Ressource hinzugefügt:</p> 
     <ul> 
      <li> <p><strong>group</strong> </p> </li> 
     </ul> </td> 
@@ -847,9 +847,9 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
  </tbody> 
 </table>
 
-### TemplateTask {#templatetask}
+### Vorlagenaufgabe {#templatetask}
 
-Ein TemplateTask -Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vorlagenaufgaben werden zu Aufgaben im Projekt, in dem die Vorlage verwendet wird.
+Ein TemplateTask-Objekt stellt eine Aufgabe dar, die Teil einer Vorlage ist. Vorlagenaufgaben werden zu Aufgaben im Projekt, in dem die Vorlage verwendet wird.
 
 Weitere Informationen zu Vorlagenaufgaben finden Sie unter [Bearbeiten einer Vorlagenaufgabe](../../manage-work/projects/create-and-manage-templates/edit-template-task.md).
 
@@ -861,12 +861,12 @@ Weitere Informationen zu Vorlagenaufgaben finden Sie unter [Bearbeiten einer Vor
    <td role="rowheader">Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Arbeitsaufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt und gibt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>1 (Klein)</p> </li> 
        <li> <p>2 (Medium)</p> </li> 
-       <li> <p>3 (groß)</p> </li> 
-      </ul> <p>Weitere Informationen zu Arbeitsaufwand in Workfront finden Sie unter <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Arbeitsaufwand - Übersicht</a>.</p> </li> 
+       <li> <p>3 (Groß)</p> </li> 
+      </ul> <p>Weitere Informationen zum Work Effort in Workfront finden Sie unter <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort - Übersicht</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -874,9 +874,9 @@ Weitere Informationen zu Vorlagenaufgaben finden Sie unter [Bearbeiten einer Vor
 
 ### Arbeitszeittabelle {#timesheet}
 
-Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die tatsächlichen Arbeitsstunden für Aufgaben, Projekte und Hochtypen eingeben können.
+Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit der Benutzende tatsächliche Arbeitsstunden für Aufgaben, Projekte und allgemeine Stundentypen eingeben können.
 
-Weitere Informationen zu Timesheets finden Sie unter [Timesheets - Übersicht](../../timesheets/timesheets/timesheets-overview.md)
+Weitere Informationen zu Arbeitszeittabellen finden Sie unter [Arbeitszeittabellen - Übersicht](../../timesheets/timesheets/timesheets-overview.md)
 
 <table style="table-layout:auto"> 
  <col> 
@@ -884,9 +884,9 @@ Weitere Informationen zu Timesheets finden Sie unter [Timesheets - Übersicht](.
  <tbody> 
   <tr> 
    <td role="rowheader">Kernfelder</td> 
-   <td> <p>Das folgende Feld wurde aus der Timesheet-Ressource entfernt:</p> 
+   <td> <p>Das folgende Feld wurde aus der Arbeitszeittabellen-Ressource entfernt:</p> 
     <ul> 
-     <li> <p><strong>objcode</strong> </p> </li> 
+     <li> <p><strong>objCode</strong> </p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -904,9 +904,9 @@ Weitere Informationen zu Timesheets finden Sie unter [Timesheets - Übersicht](.
     <ul> 
      <li> <p><strong>updateType</strong> </p> <p>Die folgenden möglichen Werte wurden hinzugefügt:</p> 
       <ul> 
-       <li> <p>initiativeAdd (enum.updatetypeenum.initiativeadd)</p> </li> 
-       <li> <p>initiativeEdit (enum.updatetypeenum.initiativeedit)</p> </li> 
-      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Weitere Informationen zu Initiativen finden Sie unter <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Übersicht über Initiativen im Szenario-Planer</a>.</p> </li> 
+       <li> <p>initiativeAdd (enum.updateTypeEnum.initiativeAdd)</p> </li> 
+       <li> <p>initiativeEdit (enum.updateTypeEnum.initiativeEdit)</p> </li> 
+      </ul> <p data-mc-conditions="QuicksilverOrClassic.Quicksilver">Weitere Informationen zu Initiativen finden Sie unter <a href="../../scenario-planner/initiatives-overview.md" class="MCXref xref">Initiativen - Übersicht im Szenario-Planer</a>.</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -914,7 +914,7 @@ Weitere Informationen zu Timesheets finden Sie unter [Timesheets - Übersicht](.
 
 ### Benutzerin oder Benutzer {#user}
 
-Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
+Ein Benutzerobjekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
 
 <table style="table-layout:auto"> 
  <col> 
@@ -922,10 +922,10 @@ Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich a
  <tbody> 
   <tr> 
    <td role="rowheader">Direkte Felder</td> 
-   <td> <p>Die folgenden Felder wurden der Ressource Benutzer hinzugefügt:</p> 
+   <td> <p>Die folgenden Felder wurden der Benutzerressource hinzugefügt:</p> 
     <ul> 
-     <li> <p><strong>ISTDeactivationDate</strong> </p> <p>Dies stellt das Datum und die Uhrzeit dar, zu der ein Benutzer deaktiviert wurde.</p> <p>Weitere Informationen zu deaktivierten Benutzern finden Sie unter <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deaktivieren oder reaktivieren eines Benutzers</a>.</p> </li> 
-     <li> <p><strong>alignAccessType</strong> </p> <p>In diesem Feld wird der Zugriff des Benutzers auf Workfront-Ziele angezeigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>actualDeactivationDate</strong> </p> <p>Dies stellt das Datum und die Uhrzeit dar, zu der ein Benutzer deaktiviert wurde.</p> <p>Weitere Informationen zu deaktivierten Benutzern finden Sie unter <a href="../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md" class="MCXref xref">Deaktivieren oder Reaktivieren eines Benutzers</a>.</p> </li> 
+     <li> <p><strong>alignAccessType</strong> </p> <p>In diesem Feld wird der Zugriff der Benutzenden auf Workfront-Ziele angezeigt. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>Kein Zugriff</p> </li> 
        <li> <p>Anzeigen</p> </li> 
@@ -935,11 +935,11 @@ Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich a
   </tr> 
   <tr> 
    <td role="rowheader">Aktionen</td> 
-   <td> <p>Die folgende Aktion wurde der Ressource Benutzer hinzugefügt:</p> 
+   <td> <p>Die folgende Aktion wurde zur Benutzerressource hinzugefügt:</p> 
     <ul> 
-     <li> <p><strong>getUserAccessPermissionsByObjCode</strong> </p> <p>Diese Aktion akzeptiert die folgenden Argumente</p> 
+     <li> <p><strong>getUserAccessPermissionsByObjectCode</strong> </p> <p>Diese Aktion verwendet die folgenden Argumente</p> 
       <ul> 
-       <li> <p>id (string)</p> </li> 
+       <li> <p>IDs (Zeichenfolge)</p> </li> 
        <li> <p>objCode (Zeichenfolge)</p> </li> 
       </ul> </li> 
     </ul> </td> 
@@ -949,7 +949,7 @@ Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich a
 
 ### Arbeit  {#work}
 
-Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask übernommen wird und gemeinsamen Code für beide verwendet.
+Ein Arbeitsobjekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch von OpTask erbt wird und gemeinsamen Code zwischen den beiden verwendet.
 
 <table style="table-layout:auto"> 
  <col data-mc-conditions=""> 
@@ -959,24 +959,24 @@ Ein Work-Objekt ist eine gemeinsame Schnittstelle, die sowohl von Task als auch 
    <td>Direkte Felder</td> 
    <td> 
     <ul> 
-     <li> <p><strong>backlogOrder</strong> </p> <p>Die Reihenfolge gibt die Position einer Aufgabe oder Geschichte im Agile-Backlog an.</p> <p>In diesem Feld wurden die folgenden Flags entfernt:</p> 
+     <li> <p><strong>backlogOrder</strong> </p> <p>Reihenfolge gibt die Position einer Aufgabe oder Story im Agile-Rückstand an.</p> <p>Dieses Feld entfernte die folgenden Flags:</p> 
       <ul> 
        <li> <p>DYNAMISCH,</p> </li> 
        <li> <p>LAZY_READ,</p> </li> 
        <li> <p>NOT_GROUPABLE</p> </li> 
       </ul> </li> 
-     <li> <p><strong>groupID</strong> </p> <p>In diesem Feld wurden die folgenden Flags hinzugefügt:</p> 
+     <li> <p><strong>groupID</strong> </p> <p>Dieses Feld fügte die folgenden Flags hinzu:</p> 
       <ul> 
        <li> <p>AUTO_LOAD,</p> </li> 
        <li> <p>DYNAMISCH,</p> </li> 
        <li> <p>READ_ONLY</p> </li> 
       </ul> </li> 
-     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt. Es zeigt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Arbeitsaufwand für die Ausführung einer Aufgabe benötigt. Mögliche Werte sind:</p> 
+     <li> <p><strong>workEffort</strong> </p> <p>Dieses Feld wurde hinzugefügt und gibt an, ob ein Benutzer einen kleinen, mittleren oder großen täglichen Aufwand benötigt, um eine Aufgabe abzuschließen. Mögliche Werte sind:</p> 
       <ul> 
        <li> <p>1 (Klein)</p> </li> 
        <li> <p>2 (Medium)</p> </li> 
-       <li> <p>3 (groß)</p> </li> 
-      </ul> <p>Weitere Informationen zu Arbeitsaufwand in Workfront finden Sie unter <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Arbeitsaufwand - Übersicht</a>.</p> </li> 
+       <li> <p>3 (Groß)</p> </li> 
+      </ul> <p>Weitere Informationen zum Work Effort in Workfront finden Sie unter <a href="../../manage-work/tasks/task-information/work-effort.md" class="MCXref xref">Work Effort - Übersicht</a>.</p> </li> 
     </ul> <p style="font-weight: normal;">  </p> </td> 
   </tr> 
  </tbody> 

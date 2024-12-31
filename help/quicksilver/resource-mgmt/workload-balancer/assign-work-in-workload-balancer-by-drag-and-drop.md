@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen
-description: Sie können Arbeitselemente mithilfe des Adobe Workfront Workload Balancer zuweisen, indem Sie Arbeitselemente an die richtigen Benutzer ziehen und dort ablegen.
+title: Zuweisen von Arbeit im Workload Balancer durch Ziehen und Ablegen
+description: Sie können Arbeitselemente mit dem Adobe Workfront Workload Balancer zuweisen, indem Sie Arbeitselemente per Drag-and-Drop an die richtigen Benutzenden ziehen.
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Zuweisen von Arbeiten im Arbeitslastausgleich durch Ziehen und Ablegen
+# Zuweisen von Arbeit im Workload Balancer durch Ziehen und Ablegen
 
-Sie können Arbeitselemente mithilfe des Adobe Workfront Workload Balancer zuweisen, indem Sie Arbeitselemente an die richtigen Benutzer ziehen und dort ablegen.
+Sie können Arbeitselemente mit dem Adobe Workfront Workload Balancer zuweisen, indem Sie Arbeitselemente per Drag-and-Drop an die richtigen Benutzenden ziehen.
 
-Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workload-Balancers finden Sie unter [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
+Allgemeine Informationen zum Zuweisen von Arbeit zu Benutzern mithilfe des Workload Balancer finden Sie unter [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,19 +30,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
        <p>oder</p>
-       <p>Aktuell: Planen Sie die Zuweisung von Arbeit im Arbeitslastausgleich im Ressourcenbereich;</br>
-       Arbeit, um Arbeit im Arbeitslastausgleich eines Teams oder Projekts zuzuweisen</p></td>
+       <p>Aktuell: Plan, um Arbeit im Workload Balancer im Bereich Ressourcen zuzuweisen;</br>
+       Arbeit, um Arbeit im Workload Balancer eines Teams oder Projekts zuzuweisen</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Bearbeiten Sie den Zugriff auf Folgendes:</p> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Folgendes bearbeiten:</p> 
     <ul> 
      <li>Ressourcenverwaltung</li> 
      <li>Projekte</li> 
@@ -53,72 +53,72 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme, die Zuweisungen beinhalten</td> 
+   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme, die Zuweisungen vornehmen</td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Zuweisen eines Elements durch Ziehen und Ablegen
+## Element durch Ziehen und Ablegen zuweisen
 
-Sie können einem Benutzer ein Element aus dem Bereich &quot;Nicht zugewiesene Arbeit&quot;zuweisen oder ein bereits zugewiesenes Element einem anderen Benutzer im Bereich &quot;Zugewiesene Arbeit&quot;neu zuweisen.
+Sie können einem Benutzer ein Element aus dem Bereich Nicht zugewiesene Arbeit zuweisen oder ein bereits zugewiesenes Element einem anderen Benutzer im Bereich Zugewiesene Arbeit neu zuweisen.
 
-1. Wechseln Sie zum Arbeitslast-Balancer, dem Sie Arbeit zuweisen möchten.
+1. Wechseln Sie zum Workload Balancer, dem Sie Arbeit zuweisen möchten.
 
-   Sie können Benutzern mithilfe des Lastenausgleichs im Bereich &quot;Ressourcen&quot;, auf Projekt- oder Teamebene Arbeit zuweisen. Weitere Informationen darüber, wo sich der Arbeitslast-Balancer in Workfront befindet, finden Sie unter [Suchen des Arbeitslast-Balancers](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+   Sie können Benutzern mithilfe des Workload Balancer im Bereich Ressource, auf Projekt- oder auf Teamebene Arbeit zuweisen. Weitere Informationen dazu, wo sich der Workload-Balancer in Workfront befindet, finden Sie unter [Suchen des Workload-Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben und Probleme anzuzeigen, die Benutzern nicht zugewiesen sind.
+1. (Optional) Wechseln Sie zum Bereich **Nicht zugewiesene Arbeit** und wenden Sie einen Filter an, um Aufgaben und Probleme anzuzeigen, die Benutzern nicht zugewiesen sind
 
    Oder
 
-   Wechseln Sie zum Bereich **Zugewiesene Arbeit** und erweitern Sie den Namen eines Benutzers, um die ihm zugewiesenen Arbeitselemente anzuzeigen, wenn Sie dessen Elemente neu zuweisen möchten.
+   Wechseln Sie zum Bereich **Zugewiesene Arbeit** und erweitern Sie den Namen eines Benutzers, um die ihm zugewiesenen Arbeitselemente anzuzeigen, wenn Sie seine Elemente neu zuweisen möchten.
 
-1. (Bedingt) Klicken Sie im Arbeitslast-Balancer eines Projekts auf das Symbol **Alle Benutzer anzeigen** ![](assets/show-all-users-icon-project-workload-balancer.png) , um alle Workfront-Benutzer anzuzeigen.
+1. (Bedingt) Klicken Sie im Workload Balancer eines Projekts auf das Symbol **Alle Benutzer anzeigen**, ![](assets/show-all-users-icon-project-workload-balancer.png) alle Workfront-Benutzer anzuzeigen.
 
    Dadurch werden alle Benutzer angezeigt, auf die Sie Zugriff haben.
 
-   Benutzer, die ebenfalls Teil des Projektteams sind und bereits Elementen im Projekt zugewiesen sind, haben im Bereich &quot;Zugewiesene Arbeit&quot;das Projektsymbol rechts neben ihrem Namen.
+   Die Benutzer, die auch Teil des Projektteams sind und bereits Elementen im Projekt zugewiesen sind, haben das Projektsymbol rechts neben ihrem Namen im Bereich Zugewiesene Arbeit .
 
    ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
    >
-   >* Die Option Alle Benutzer anzeigen ist nur im Lastenausgleich eines Projekts verfügbar.
-   >* Verwenden Sie Filter, um nur die für Sie wichtigen Benutzer anzuzeigen. Verwenden Sie beispielsweise einen Filter, um nur Benutzer aus Ihren Teams oder Gruppen anzuzeigen.
+   >* Die Option Alle Benutzer anzeigen ist nur im Workload Balancer eines Projekts verfügbar.
+   >* Verwenden Sie Filter, um nur die Benutzer anzuzeigen, die für Sie wichtig sind. Verwenden Sie beispielsweise einen Filter, um nur Benutzer aus Ihren Teams oder Gruppen anzuzeigen.
 
 
 
-1. Klicken Sie auf die Leiste eines Arbeitselements, das die geplante oder die geplante Timeline anzeigt, und ziehen Sie sie über den Namen eines Benutzers im Bereich **Zugeordneter Benutzer** .
+1. Klicken Sie auf den Balken eines Arbeitselements, das entweder die geplante oder die projizierte Zeitleiste anzeigt, und ziehen Sie es über den Namen eines Benutzers in den Bereich **Zugewiesen**.
 
-   Der Benutzer, über den Sie den Mauszeiger bewegen, um das Arbeitselement in abzulegen, wird hervorgehoben.
+   Der Benutzer, über den Sie den Mauszeiger bewegen, um das Arbeitselement abzulegen, ist hervorgehoben.
 
    >[!TIP]
    >
-   >Die geplanten Stunden für den Benutzer, über den Sie den Mauszeiger bewegen, werden in Echtzeit mit der Anzahl der täglichen geplanten Stunden ab dem Arbeitselement aktualisiert, um anzugeben, welche Auswirkungen das Hinzufügen eines neuen Elements auf die Gesamtzuordnung haben könnte.
+   >Die „Geplanten Stunden“ für den Benutzer, auf den Sie den Mauszeiger bewegen, werden in Echtzeit mit der Anzahl der täglichen geplanten Stunden aus dem Arbeitselement aktualisiert, um anzugeben, wie sich das Hinzufügen eines neuen Elements auf seine Gesamtzuweisung auswirken könnte.
 
    ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
-1. Wenn Sie bereit sind, legen Sie das ausgewählte Arbeitselement in derselben Zeile wie den Benutzernamen im zugewiesenen Bereich ab. Das Element wird zugewiesen und die zugewiesenen geplanten Stunden werden für den Benutzer mit den neuen Stunden aus dem Arbeitselement aktualisiert.
+1. Wenn Sie bereit sind, legen Sie das ausgewählte Arbeitselement in derselben Zeile wie den Namen des Benutzers im Bereich Zugewiesen ab. Das Element wird zugewiesen und die zugewiesenen geplanten Stunden werden für den Benutzer mit den neuen Stunden aus dem Arbeitselement aktualisiert.
 
-   Wenn das Element einer Auftragsrolle zugewiesen wurde, die der Benutzer nicht erfüllen kann, wird das Element unter dem Namen des Benutzers im Bereich Zugewiesene Arbeit angezeigt und es bleibt auch im Bereich Nicht zugewiesene Arbeit , um anzugeben, dass die damit verknüpfte Auftragsrolle noch nicht durch einen Benutzer ersetzt wurde.
+   Wenn das Element einem Aufgabengebiet zugewiesen wurde, das der Benutzer nicht erfüllen kann, wird das Element unter dem Namen des Benutzers im Bereich Zugewiesene Arbeit angezeigt und verbleibt auch im Bereich Nicht zugewiesene Arbeit , um anzugeben, dass das zugehörige Aufgabengebiet noch nicht durch einen Benutzer ersetzt wurde.
 
    >[!TIP]
    >
-   >* Wenn Sie Gruppe nach Projekt im Bereich Einstellungen aktiviert haben, wird die zugewiesene Aufgabe unter dem entsprechenden Projekt angezeigt. Wenn die Einstellung deaktiviert ist, wird die zugewiesene Aufgabe im Benutzerbereich angezeigt.
+   >* Wenn Sie im Bereich Einstellungen die Option Nach Projekt gruppieren aktiviert haben, wird die zugewiesene Aufgabe unter dem entsprechenden Projekt angezeigt. Wenn die Einstellung deaktiviert ist, wird die zugewiesene Aufgabe im Benutzerbereich angezeigt.
    >
    >
-   >     Das Element wird gemäß den Kriterien für den Lastenausgleich zum Sortieren von Arbeitselementen angezeigt. Weitere Informationen finden Sie unter [Navigieren im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+   >     Das Element wird gemäß den Workload-Balancer-Kriterien zum Sortieren von Arbeitselementen angezeigt. Weitere Informationen finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
    >
    >
-   >* Wenn Sie die Option Anzeigen aller Benutzer im Arbeitslastausgleich eines Projekts aktiviert und Benutzern Elemente zugewiesen haben, die zuvor nicht Elementen im Projekt zugewiesen waren, werden die Benutzer zum Projektteam hinzugefügt. Weitere Informationen finden Sie unter [Verwalten des Projektteams](../../manage-work/projects/planning-a-project/manage-project-team.md).
+   >* Wenn Sie im Workload-Balancer eines Projekts die Option Alle Benutzer anzeigen aktiviert und Benutzern Elemente zugewiesen haben, die zuvor keinen Elementen im Projekt zugewiesen waren, werden die Benutzer zum Projekt-Team hinzugefügt. Weitere Informationen finden Sie unter [Projektteam verwalten](../../manage-work/projects/planning-a-project/manage-project-team.md).
 
 
-1. (Optional) Klicken Sie auf die Leiste eines Arbeitselements unter dem Namen eines Benutzers im Bereich &quot;Zugewiesene Arbeit&quot;und ziehen Sie es dann über den Bereich &quot;Nicht zugewiesene Arbeit&quot;, um die Zuweisung aufzuheben. Das Element wird vom Benutzer nicht zugewiesen, kann jedoch dennoch einer Auftragsrolle zugewiesen sein. In diesem Fall wird es im Arbeitsbereich &quot;Nicht zugewiesen&quot;angezeigt. Wenn das Element einem anderen Benutzer zugewiesen ist, bleibt es im Bereich Zugewiesene Arbeit unter dem Namen des Benutzers, der noch zugewiesen ist.
-1. (Optional) Klicken Sie auf das Symbol **Zuordnungen anzeigen** ![](assets/show-allocations-icon-small.png) und dann auf das Menü **Mehr** ![](assets/qs-more-menu.png) > **Zuordnungen bearbeiten**.
+1. (Optional) Klicken Sie auf die Leiste eines Arbeitselements unter dem Namen eines Benutzers im Bereich Zugewiesene Arbeit und ziehen Sie es dann über den Bereich Nicht zugewiesene Arbeit , um die Zuweisung aufzuheben. Die Zuweisung des Elements für den Benutzer wurde aufgehoben, es kann jedoch weiterhin einem Aufgabengebiet zugewiesen sein. In diesem Fall wird es im Bereich Nicht zugewiesene Arbeit angezeigt. Wenn das Element einem anderen Benutzer zugewiesen wird, bleibt es im Bereich Zugewiesene Arbeit unter dem Namen des Benutzers, der noch zugewiesen ist.
+1. (Optional) Klicken Sie auf das **Zuordnungssymbol anzeigen** ![](assets/show-allocations-icon-small.png) und klicken Sie dann auf das **Weitere**![](assets/qs-more-menu.png) > **Zuordnungen bearbeiten**.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)
@@ -127,7 +127,7 @@ Sie können einem Benutzer ein Element aus dem Bereich &quot;Nicht zugewiesene A
 
    Doppelklicken Sie auf eine tägliche oder wöchentliche Zuordnung, um die Zeit zu ändern, die der Benutzer dem Arbeitselement zugewiesen ist.
 
-   Informationen zum Ändern von Benutzerzuordnungen im Arbeitslastausgleich finden Sie im Abschnitt &quot;Ändern der Benutzerzuordnungen&quot;im Artikel [Verwalten von Benutzerzuordnungen im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
+   Informationen zum Ändern der Benutzerzuweisungen im Workload Balancer finden Sie im Abschnitt „Ändern von Benutzerzuweisungen“ im Artikel [Verwalten von Benutzerzuweisungen im Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md).
 
-   Weitere Informationen zum Entfernen von Zuweisungen aus einem Arbeitselement mithilfe des Lastenausgleichs finden Sie unter [Zuweisung der Arbeit im Arbeitslastausgleich aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
+   Informationen zum Entfernen von Zuweisungen aus einem Arbeitselement mithilfe des Workload Balancer finden Sie unter [Zuweisung von Arbeit im Workload Balancer aufheben](../../resource-mgmt/workload-balancer/unassign-work-in-workload-balancer.md).
 

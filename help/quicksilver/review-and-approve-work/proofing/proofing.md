@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: documents-navigation-topic
-title: 'Testversand: Artikelindex'
-description: Überprüfen und kommentieren Sie im selben Dokument, in dem Kreativteams arbeiten. Mit Workfront Testing können Sie Feedback anfordern, Kommentare anzeigen und Benachrichtigungen für ausstehende und abgeschlossene Genehmigungen abrufen - und dabei gleichzeitig ein Audit-Protokoll mit Kommentaren und Versionen verwalten.
+title: 'Proofing: Artikelindex'
+description: Überprüfen und kommentieren Sie in demselben Dokument, in dem Kreativ-Teams arbeiten. Mit dem Workfront-Proofing können Sie Feedback anfordern, Kommentare anzeigen und Benachrichtigungen für ausstehende und abgeschlossene Genehmigungen erhalten - und dies alles unter Aufrechterhaltung eines Audit-Protokolls von Kommentaren und Versionen.
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# Testversand: Artikelindex
+# Proofing: Artikelindex
 
 <!-- Audited: 12/2023 -->
 
-Überprüfen und kommentieren Sie im selben Dokument, in dem Kreativteams arbeiten. Mit Testversand können Sie Feedback anfordern, Kommentare anzeigen und Benachrichtigungen für ausstehende und abgeschlossene Genehmigungen abrufen - und dabei gleichzeitig ein Audit-Protokoll mit Kommentaren und Versionen verwalten.
+Überprüfen und kommentieren Sie in demselben Dokument, in dem Kreativ-Teams arbeiten. Mit Proofing können Sie Feedback anfordern, Kommentare anzeigen und Benachrichtigungen für ausstehende und abgeschlossene Genehmigungen erhalten - und dies alles unter Aufrechterhaltung eines Audit-Protokolls von Kommentaren und Versionen.
 
 Dieser Abschnitt enthält die folgenden Unterabschnitte:
 
-* [Testversandübersicht: Artikelindex](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
-* [Testsendungen erstellen](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
+* [Proofing-Übersicht: Artikelindex](../../review-and-approve-work/proofing/proofing-overview/proofing-basics.md)
+* [Korrekturabzüge erstellen](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md)
 * [Verwalten von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/managing-proofs-within-workfront/manage-proofs-in-wf.md)
-* [Überprüfen von Testsendungen in Adobe Workfront](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
-* [Verwenden des Desktop Proofing Viewers](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
-* [Tipps, Tricks und Fehlerbehebung für die Prüfung in Adobe Workfront](../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)
+* [Testsendungen in Adobe Workfront überprüfen](../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md)
+* [Desktop Proofing Viewer verwenden](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/use-desktop-proofing-viewer.md)
+* [Tipps, Tricks und Fehlerbehebung für das Proofing in Adobe Workfront](../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/tips-tricks-troubleshooting-proofing.md)

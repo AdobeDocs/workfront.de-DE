@@ -17,17 +17,17 @@ ht-degree: 0%
 ---
 
 
-# API-Allgemein
+# API - Allgemein
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [API-Grundlagen](../../wf-api/general/api-basics.md)
 * [API-Explorer](../../wf-api/general/api-explorer.md)
 * [Verwenden des API-Explorers](../../wf-api/general/using-api-explorer.md)
-* [Rich-Text-Felder in der Adobe Workfront-API](../../wf-api/general/rich-text-field-api.md)
+* [Rich-Textfelder in der Adobe Workfront-API](../../wf-api/general/rich-text-field-api.md)
 * [API-Beispielskripte](../../wf-api/general/api-example-scripts.md)
-* [Verwenden der API zum Synchronisieren von Daten für Programme und Dienste](../../wf-api/general/api-sync-data.md)
-* [Deaktivieren eines Benutzers über die API](../../wf-api/general/deactivate-user-api.md)
+* [Verwenden der API zum Synchronisieren von Daten für Programme und Services](../../wf-api/general/api-sync-data.md)
+* [Deaktivieren von Benutzern über die API](../../wf-api/general/deactivate-user-api.md)
 <!--
 * [Projects API](../../wf-api/general/projects-api.md)
 -->

@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Umbenennen eines Dokuments oder Ordners (noch nicht implementiert)
-description: Umbenennen eines Dokuments oder Ordners
+title: Dokument oder Ordner umbenennen (noch nicht implementiert)
+description: Umbenennen von Dokumenten oder Ordnern
 author: Becky
 feature: Workfront API, Digital Content and Documents
 role: Developer
@@ -11,30 +11,30 @@ exl-id: 5b1a4a02-a7fd-41f2-9adb-74b40606270b
 source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
 workflow-type: tm+mt
 source-wordcount: '78'
-ht-degree: 1%
+ht-degree: 2%
 
 ---
 
 
-# Umbenennen eines Dokuments oder Ordners (noch nicht implementiert)
+# Dokument oder Ordner umbenennen (noch nicht implementiert)
 
 Benennt ein Dokument oder einen Ordner mit der angegebenen ID im externen System um.
 
 **URL**
 
-PUT /rename
+PUT/Umbenennen
 
 ## Abfrageparameter
 
-| Name  | Beschreibung |
+| -Name  | Beschreibung |
 |---|---|
-| id | Die umzubenennende Dokument- oder Ordner-ID |
-| name  | Der neue Name des Dokuments oder Ordners |
+| ID | Die umzubenennende Dokument- oder Ordner-ID |
+| -Name  | Der neue Name des Dokuments oder Ordners |
 
 
-## Reaktion
+## Antwort
 
-Eine JSON-Zeichenfolge, die den Erfolg oder Fehler angibt, wie im Abschnitt Umgang mit Fehlern unten angegeben.
+Eine JSON-Zeichenfolge, die Erfolg oder Fehler anzeigt, wie im Abschnitt Fehlerbehandlung unten angegeben.
 
 **Beispiel:** PUT https://www.acme.com/api/rename
 
@@ -48,7 +48,7 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 -------------------------------
 ```
 
-return
+Rückgabe
 
 ```
 {status: "success"

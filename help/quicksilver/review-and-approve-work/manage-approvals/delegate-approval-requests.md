@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Validierungsanfrage delegieren
-description: Durch die Delegierung von Validierungsanfragen können Sie einen anderen Benutzer zuweisen, der Ihre Anfragen für einen bestimmten Zeitraum validiert, z. B. wenn Sie im Urlaub nicht im Hause sein werden.
+title: Genehmigungsanforderung delegieren
+description: Durch das Delegieren von Genehmigungsanfragen können Sie einen anderen Benutzer zuweisen, der Ihre Anfragen für einen bestimmten Zeitraum genehmigt, z. B. wenn Sie im Urlaub abwesend sind.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
@@ -13,29 +13,29 @@ ht-degree: 0%
 
 ---
 
-# Validierungsanfrage delegieren
+# Genehmigungsanforderung delegieren
 
-Sie können die Arbeit, der Sie zugewiesen sind, während Sie nicht im Büro sind, vorübergehend delegieren. Sie können Aufgaben- und Problemzuweisungen delegieren oder Genehmigungsanfragen delegieren. In diesem Artikel wird beschrieben, wie Sie Genehmigungsanfragen delegieren. Informationen zum Delegieren von Aufgaben und Problemzuweisungen finden Sie unter [Aufgaben und Probleme delegieren](../../manage-work/delegate-work/how-to-delegate-work.md).
+Sie können die Ihnen zugewiesene Arbeit vorübergehend delegieren, während Sie abwesend sind. Sie können Aufgaben- und Problemzuweisungen oder Genehmigungsanfragen delegieren. In diesem Artikel wird beschrieben, wie Sie Genehmigungsanforderungen delegieren. Informationen zum Delegieren von Aufgaben- und Problemzuweisungen finden Sie unter [Delegieren von Aufgaben und Problemen](../../manage-work/delegate-work/how-to-delegate-work.md).
 
-Sie können die folgenden Arten von Genehmigungen delegieren, unabhängig davon, wie die Genehmigung Ihnen zugewiesen wurde (unabhängig davon, ob sie Ihnen direkt zugewiesen wurden, einem Team, dem Sie angehören, oder Ihrer beruflichen Rolle):
+Sie können die folgenden Arten von Genehmigungen delegieren, unabhängig davon, wie die Genehmigung Ihnen zugewiesen wurde (unabhängig davon, ob sie direkt Ihnen, einem Team, dem Sie angehören, oder Ihrem Aufgabengebiet zugewiesen wurden):
 
 * Projektgenehmigungen
-* Aufgabenvalidierungen
-* Genehmigungen ausstellen
+* Aufgabengenehmigungen
+* Genehmigungen erteilen
 
-Sie können keine Zeitblatt-, Dokument- oder Testversandgenehmigungen delegieren.
+Sie können keine Genehmigungen für Arbeitszeittabellen, Dokumente oder Korrekturabzüge delegieren.
 
 >[!NOTE]
 >
->Um sicherzustellen, dass keine Inkonsistenzen mit den Daten auftreten, die Sie für die Zuweisung Ihrer Genehmigungen planen, empfehlen wir, dass die Zeitzone Ihres Benutzerprofils mit der Ihres Zeitplans übereinstimmt. Weitere Informationen finden Sie in den folgenden Artikeln:
+>Um sicherzustellen, dass es nicht zu Inkonsistenzen mit den Daten kommt, die Sie für die Delegierung Ihrer Genehmigungen planen, empfehlen wir, dass die Zeitzone Ihres Benutzerprofils mit der Ihres Zeitplans übereinstimmt. Weitere Informationen finden Sie in den folgenden Artikeln:
 >
->* [Erstellen eines Zeitplans](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
->* [Bearbeiten des Benutzerprofils](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
+>* [Zeitplan erstellen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md)
+>* [Benutzerprofil bearbeiten](../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md)
 >
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Plan*</p></td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
@@ -56,98 +56,98 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan oder welchen Lizenztyp Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan oder Lizenztyp Sie haben.
 
 +++
 
 ## Grundlegendes zum Benutzerzugriff für delegierte Genehmigungen
 
-Während des festgelegten Genehmigungszeitraums hat der Benutzer, an den Sie eine Genehmigungsanfrage delegieren, die folgenden Möglichkeiten:
+Während des festgelegten Genehmigungszeitraums hat der Benutzer, an den Sie eine Genehmigungsanfrage delegieren, die folgenden Fähigkeiten:
 
-* Können bestehende Genehmigungsanfragen genehmigen oder ablehnen, wenn keine Entscheidung getroffen wurde
-* Kann neue Validierungsanfragen, die in einem bestimmten Zeitraum empfangen wurden, genehmigen und ablehnen
-* Ermöglicht Zugriff auf Objekte anzeigen, die auf die Genehmigung warten
+* Kann vorhandene Genehmigungsanforderungen genehmigen oder ablehnen, wenn keine Entscheidung getroffen wurde
+* Kann neue Genehmigungsanforderungen, die innerhalb eines bestimmten Zeitraums empfangen werden, genehmigen und ablehnen
+* Hat Ansichtszugriff auf Objekte, die auf Genehmigung warten
 
   >[!NOTE]
   >
-  > Der Adobe Workfront-Administrator kann den Zugriff auf bestimmte Objekttypen einschränken. Wenn ein Benutzer keinen Zugriff auf einen Objekttyp hat und eine Genehmigung dieses Typs an den Benutzer delegiert wird, hat der Benutzer keinen Zugriff auf Ansicht auf das Objekt. Der Benutzer kann jedoch weiterhin Genehmigungsanfragen von der Seite **Startseite** genehmigen oder ablehnen, wie unter [Arbeit validieren](../../review-and-approve-work/manage-approvals/approving-work.md) beschrieben.\
-  >Beispielsweise gehört Benutzer A zu Gruppe A. Der Workfront-Administrator hat die Zugriffsrechte für Gruppe A eingeschränkt, sodass Benutzer dieser Gruppe Aufgaben in Workfront nicht anzeigen können. Wenn eine Aufgabengenehmigungsanforderung an Benutzer A delegiert wird, kann Benutzer A die Aufgabe, mit der die Genehmigung verknüpft ist, nicht anzeigen. Benutzer A kann die Genehmigungsanfrage jedoch auf der Startseite genehmigen oder ablehnen.
+  > Der Adobe Workfront-Administrator kann den Zugriff von Benutzenden auf bestimmte Objekttypen einschränken. Wenn ein(e) Benutzende(r) keinen Zugriff auf einen Objekttyp hat und dem/r Benutzenden eine Genehmigung dieses Typs delegiert wird, hat der/die Benutzende keinen Lesezugriff auf das Objekt. Der Benutzer kann jedoch weiterhin Genehmigungsanfragen von der Seite **Startseite“ genehmigen oder**, wie unter &quot;[ Arbeit“ ](../../review-and-approve-work/manage-approvals/approving-work.md).\
+  >Beispiel: Benutzer A gehört zu Gruppe A. Der Workfront-Administrator hat die Zugriffsrechte von Gruppe A eingeschränkt, sodass Benutzende in dieser Gruppe keine Aufgaben in Workfront sehen können. Wenn eine Aufgabengenehmigungsanfrage an einen Benutzer delegiert wird, kann Benutzer A die Aufgabe, mit der die Genehmigung verknüpft ist, nicht anzeigen. Benutzer A kann jedoch die Genehmigungsanfrage von der Startseite aus genehmigen oder ablehnen.
 
-  Informationen dazu, wie der Workfront-Administrator den Zugriff auf Objekttypen in der Einrichtung beschränken kann, finden Sie unter  [Erstellen oder ändern Sie benutzerdefinierte Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
+  Informationen dazu, wie der Workfront-Administrator den Zugriff auf Objekttypen in Setup beschränken kann, finden Sie unter  [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md). 
 
-Nachdem die Genehmigungsdelegierung beendet oder abgebrochen wurde, hat der Benutzer folgende Berechtigungen:
+Nachdem die Delegierung der Genehmigung gestoppt oder abgebrochen wurde, hat der Benutzer als genehmigende Person angegeben:
 
-* Hat keinen Zugriff mehr auf die Genehmigung der Arbeit für Elemente, die genehmigt werden müssen
-* Erhalten Sie weiterhin Zugriff auf Arbeitselemente anzeigen .\
-  Benutzer, denen der Zugriff auf Objekte über eine Genehmigungsdelegation gewährt wurde, behalten den Zugriff auf die Option Anzeigen auch dann bei, wenn die Validierungsdelegation beendet oder zurückgerufen wird. Um den Zugriff auf alle Objekte anzeigen zu entfernen, auf die der Benutzer während der Zeit, in der die Genehmigungen delegiert wurden, Zugriff hatte, müssen Sie zum Objekt gehen und die Zugriffsrechte direkt vom Objekt entfernen.
+* hat keinen Zugriff mehr auf die Genehmigung von Arbeiten für Elemente, die eine Genehmigung erfordern
+* Hat weiterhin Ansichtszugriff auf Arbeitselemente\
+  Benutzende, denen über eine Genehmigungsdelegierung Ansichtszugriff auf Objekte gewährt wurde, behalten diesen Ansichtszugriff selbst dann, wenn die Genehmigungsdelegierung beendet oder zurückgerufen wird. Um den Ansichtszugriff auf alle Objekte zu entfernen, auf die der Benutzer während der Zeit, in der Genehmigungen delegiert wurden, Zugriff hatte, müssen Sie zum -Objekt gehen und Zugriffsrechte direkt aus dem -Objekt entfernen.
 
-## Delegieren von Genehmigungen an einen anderen Benutzer {#delegate-your-approvals-to-another-user}
+## Delegieren Ihrer Genehmigungen an einen anderen Benutzer {#delegate-your-approvals-to-another-user}
 
-Sie können die folgenden Arten von Genehmigungen delegieren, unabhängig davon, wie die Genehmigung Ihnen zugewiesen wurde (unabhängig davon, ob sie Ihnen direkt zugewiesen wurden, einem Team, dem Sie angehören, oder Ihrer beruflichen Rolle):
+Sie können die folgenden Arten von Genehmigungen delegieren, unabhängig davon, wie die Genehmigung Ihnen zugewiesen wurde (unabhängig davon, ob sie direkt Ihnen, einem Team, dem Sie angehören, oder Ihrem Aufgabengebiet zugewiesen wurden):
 
 * Projektgenehmigungen
-* Aufgabenvalidierungen
-* Genehmigungen ausstellen
+* Aufgabengenehmigungen
+* Genehmigungen erteilen
 
-Sie können keine Zeitblatt-, Dokument- oder Testversandgenehmigungen delegieren.
+Sie können keine Genehmigungen für Arbeitszeittabellen, Dokumente oder Korrekturabzüge delegieren.
 
 Beachten Sie beim Delegieren von Genehmigungen Folgendes:
 
-* Wenn Sie Genehmigungen delegieren, werden alle Ihre Genehmigungen delegiert. Sie können keine individuellen Genehmigungsanfragen delegieren.
-* Sie können Genehmigungen nur an einen Benutzer delegieren. Sie können Genehmigungen nicht gleichzeitig an mehrere Benutzer delegieren.\
-  Alle Genehmigungen für alle Projekte, Aufgaben und Probleme werden an den Benutzer delegiert, den Sie bestimmen.
-* Maximal 5 Benutzer können Genehmigungen gleichzeitig an denselben Benutzer delegieren. Mit anderen Worten: Ein einzelner Benutzer kann nicht für mehr als fünf Benutzer gleichzeitig als temporärer Genehmiger bestimmt werden.
-* Die Aktivität bezüglich der Validierungen wird auf der Registerkarte Aktualisierungen angezeigt. Sie müssen Systemaktualisierungen anzeigen aktiviert haben. Sowohl der Benutzer, der die Validierung delegiert, als auch der Benutzer, dem Validierungen zugewiesen werden, erhalten eine E-Mail-Benachrichtigung zur Validierungsaktivität.
+* Wenn Sie Genehmigungen delegieren, werden alle Ihre Genehmigungen delegiert. Einzelne Genehmigungsanforderungen können nicht delegiert werden.
+* Sie können Genehmigungen nur an einen Benutzer delegieren. Genehmigungen können nicht gleichzeitig an mehrere Benutzer delegiert werden.\
+  Alle Genehmigungen für alle Projekte, Aufgaben und Probleme werden an den von Ihnen bestimmten Benutzer delegiert.
+* Maximal 5 Benutzer können gleichzeitig Genehmigungen an denselben Benutzer delegieren. Mit anderen Worten: Ein einzelner Benutzer kann nicht als temporäre genehmigende Person für mehr als 5 Benutzer gleichzeitig benannt werden.
+* Auf der Registerkarte Aktualisierungen wird eine Aktivität bezüglich Validierungen angezeigt. Sie müssen „Systemaktualisierungen anzeigen“ aktiviert haben. Sowohl der Benutzer, der die Genehmigung delegiert, als auch der Benutzer, an den die Genehmigungen delegiert werden, erhalten eine E-Mail-Benachrichtigung bezüglich der Genehmigungsaktivität.
 
-### Delegieren von Genehmigungen aus dem Startbereich
+### Delegieren von Genehmigungen aus dem Bereich Startseite
 
 
 So delegieren Sie Genehmigungen an einen anderen Benutzer:
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Genehmigungen** hinzuzufügen.
-1. Gehen Sie zum Widget Meine Genehmigungen und klicken Sie dann auf **Meine Genehmigungen delegieren**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
+1. Gehen Sie zum Widget Meine Genehmigungen und klicken Sie auf **Meine Genehmigungen delegieren**.
 
    >[!NOTE]
    >
-   >Workfront-Administratoren können die Validierungsdelegationen im Setup-Bereich deaktivieren. Wenn die Validierungsdelegationen deaktiviert sind, wird die Schaltfläche Validierungen delegieren nicht angezeigt.
+   >Workfront-Admins können die Delegierung von Genehmigungen über den Bereich „Setup“ deaktivieren. Wenn die Delegierung von Genehmigungen deaktiviert ist, wird die Schaltfläche Genehmigungen delegieren nicht angezeigt.
 
    ![](assets/delegate-approvals-home.png)
 
-1. Geben Sie die folgenden Informationen im Abschnitt &quot;Meine Genehmigungen delegieren&quot;an:
+1. Geben Sie im Abschnitt „Meine Genehmigungen delegieren“ folgende Informationen an:
 
-   * **Name**: Beginnen Sie mit der Eingabe des Namens des Benutzers, an den Sie Genehmigungen delegieren möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-   * **Startdatum**: Wählen Sie das Datum aus, an dem die Weiterleitung der Validierungen beginnen soll. Die Weiterleitung beginnt um 12:00 Uhr des von Ihnen ausgewählten Datums.\
-     Das Startdatum muss das aktuelle oder ein künftiges Datum sein.
+   * **Name**: Geben Sie den Namen des Benutzers ein, an den Sie Genehmigungen delegieren möchten, und klicken Sie auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
+   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12:00 Uhr an dem von Ihnen ausgewählten Datum.\
+     Das Startdatum muss das aktuelle Datum oder ein Datum in der Zukunft sein.
    * **Enddatum**: Führen Sie einen der folgenden Schritte aus:
-      * Wählen Sie das Datum aus, an dem die Weiterleitung der Validierungen beendet werden soll. Die Weiterleitung endet um 11:59 Uhr an dem von Ihnen ausgewählten Datum.
-      * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen unbegrenzt delegiert werden.
+      * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um 23:59 Uhr an dem von Ihnen ausgewählten Datum.
+      * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen auf unbestimmte Zeit delegiert werden.
 
 1. Klicken Sie auf **Speichern**.
 
-### Delegieren von Genehmigungen aus Ihrem Benutzerprofil
+### Delegieren von Genehmigungen von Ihrem Benutzerprofil
 
-1. Klicken Sie im linken Bereich auf das Symbol **Hauptmenü** > **Ihr Name** > **Ausschaltzeit** .
-1. Klicken Sie auf **Genehmigungen delegieren**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol > **Ihr Name** > **Urlaub** im linken Bereich.
+1. Klicken Sie **Genehmigungen delegieren**.
 
    >[!NOTE]
    >
-   >Workfront-Administratoren können die Validierungsdelegationen im Setup-Bereich deaktivieren. Wenn die Validierungsdelegationen deaktiviert sind, wird die Schaltfläche Validierungen delegieren nicht angezeigt.
-1. Geben Sie die folgenden Informationen im Abschnitt &quot;Meine Genehmigungen delegieren&quot;an:
+   >Workfront-Admins können die Delegierung von Genehmigungen über den Bereich „Setup“ deaktivieren. Wenn die Delegierung von Genehmigungen deaktiviert ist, wird die Schaltfläche Genehmigungen delegieren nicht angezeigt.
+1. Geben Sie im Abschnitt „Meine Genehmigungen delegieren“ folgende Informationen an:
 
-   * **Name**: Beginnen Sie mit der Eingabe des Namens des Benutzers, an den Sie Genehmigungen delegieren möchten, und klicken Sie dann auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
-   * **Startdatum**: Wählen Sie das Datum aus, an dem die Weiterleitung der Validierungen beginnen soll. Die Weiterleitung beginnt um 12:00 Uhr des von Ihnen ausgewählten Datums.\
-     Das Startdatum muss das aktuelle oder ein künftiges Datum sein.
+   * **Name**: Geben Sie den Namen des Benutzers ein, an den Sie Genehmigungen delegieren möchten, und klicken Sie auf den Namen, wenn er im Dropdown-Menü angezeigt wird.
+   * **Startdatum**: Wählen Sie das Datum aus, an dem Genehmigungen weitergeleitet werden. Die Weiterleitung beginnt um 12:00 Uhr an dem von Ihnen ausgewählten Datum.\
+     Das Startdatum muss das aktuelle Datum oder ein Datum in der Zukunft sein.
    * **Enddatum**: Führen Sie einen der folgenden Schritte aus:
-      * Wählen Sie das Datum aus, an dem die Weiterleitung der Validierungen beendet werden soll. Die Weiterleitung endet um 11:59 Uhr an dem von Ihnen ausgewählten Datum.
-      * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen unbegrenzt delegiert werden.
+      * Wählen Sie das Datum aus, an dem Genehmigungen nicht mehr weitergeleitet werden sollen. Die Weiterleitung endet um 23:59 Uhr an dem von Ihnen ausgewählten Datum.
+      * Wählen Sie **Kein Enddatum** aus, um Workfront so zu konfigurieren, dass Genehmigungen auf unbestimmte Zeit delegiert werden.
 
-## Validierungsdelegationen aktualisieren oder stoppen {#update-or-stop-an-approval-delegation}
+## Aktualisieren oder Beenden einer Genehmigungsdelegierung {#update-or-stop-an-approval-delegation}
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Genehmigungen** hinzuzufügen.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
 
-1. Gehen Sie zum Widget Meine Genehmigungen und klicken Sie dann auf **Delegation bearbeiten**.
+1. Gehen Sie zum Widget Meine Genehmigungen und klicken Sie dann auf **Delegierung bearbeiten**.
    ![](assets/edit-delegations.png)
 <!--
    Or
@@ -156,21 +156,21 @@ So delegieren Sie Genehmigungen an einen anderen Benutzer:
 
 1. (Bedingt) Führen Sie einen der folgenden Schritte aus:
 
-   * Um die vorhandene Genehmigungsdelegierung zu aktualisieren: Ändern Sie die angezeigten Informationen und klicken Sie auf **Speichern**.
+   * So aktualisieren Sie die vorhandene Genehmigungsdelegierung: Ändern Sie die angezeigten Informationen und klicken Sie dann auf **Speichern**.
 
-   * Um die vorhandene Zuweisung zu stoppen: Klicken Sie auf **Delegierung stoppen** und dann zur Bestätigung auf **Delegierung stoppen** .
+   * So stoppen Sie die vorhandene Delegierung: Klicken Sie auf **Delegierung stoppen** und klicken Sie dann zur Bestätigung **Delegierung** Beenden“.
 
 ## Delegierte Genehmigungen anzeigen {#view-delegated-approvals}
 
-Im Widget Meine Genehmigungen können Sie nur die folgenden Arten von Validierungsdelegationen anzeigen:
+Im Widget Meine Genehmigungen können Sie nur die folgenden Arten von Genehmigungsdelegierungen anzeigen:
 
 * Projektgenehmigungen
-* Aufgabenvalidierungen
-* Genehmigungen ausstellen
+* Aufgabengenehmigungen
+* Genehmigungen erteilen
 
 So zeigen Sie delegierte Genehmigungen an:
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Genehmigungen** hinzuzufügen.
-1. Klicken Sie im Widget **Meine Genehmigungen** auf das Dropdown-Menü **Filter** und dann auf **Delegierte Genehmigungen**.\
-   Alle Ihnen zugewiesenen Genehmigungen werden in der Liste angezeigt.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
+1. Klicken Sie im **Meine Genehmigungen** auf das Dropdown-Menü **Filter** und dann auf **Delegierte Genehmigungen**.\
+   Alle an Sie delegierten Genehmigungen werden in der Liste angezeigt.

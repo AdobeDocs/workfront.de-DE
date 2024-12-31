@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Umgang mit Fehlern bei Document Webhooks
-description: Umgang mit Fehlern bei Document Webhooks
+title: Dokument-Webhooks - Fehlerbehandlung
+description: Dokument-Webhooks - Fehlerbehandlung
 author: Becky
 feature: Workfront API
 role: Developer
@@ -15,15 +15,15 @@ ht-degree: 0%
 
 ---
 
-# Umgang mit Fehlern bei Document Webhooks
+# Dokument-Webhooks - Fehlerbehandlung
 
-Bei der Verarbeitung von API-Anfragen können Probleme auftreten. Dies sollte über alle API-Endpunkte hinweg einheitlich gehandhabt werden. Wenn ein Fehler auftritt, sollte der Webhook-Provider einen Fehlercode in die Antwortheader aufnehmen. Zu den Fehlercodes gehören:
+Bei der Verarbeitung von API-Anfragen können Probleme auftreten. Dies sollte über alle API-Endpunkte hinweg konsistent gehandhabt werden. Wenn ein Fehler auftritt, sollte der Webhook-Anbieter einen Fehlercode in die Antwort-Kopfzeile aufnehmen. Zu den Fehlercodes gehören:
 
-* 403 - Verboten. Gibt an, dass entweder die Anfrage-Token fehlen oder ungültig sind oder dass die mit den Token verknüpften Anmeldeinformationen keinen Zugriff auf die angegebene Ressource haben. Bei OAuth-basierten Webhook-Anbietern versucht Adobe Workfront, neue Zugriffstoken abzurufen.
+* 403 - Verboten. Gibt an, dass entweder die Anfrage-Token fehlen oder ungültig sind oder dass mit den Token verknüpfte Anmeldeinformationen keinen Zugriff auf die angegebene Ressource haben. Bei OAuth-basierten Webhook-Anbietern versucht Adobe Workfront, neue Zugriffstoken abzurufen.
 
 * 404 - Nicht gefunden. Gibt an, dass die angegebene Datei oder der angegebene Ordner nicht vorhanden ist.
 
-* 500 - Interner Server-Fehler. Jeder andere Fehlertyp.
+* 500 - Interner Server-Fehler. Jede andere Fehlerart.
 
 * Beschreibung des Fehlers im Antworttext im folgenden Format:
 

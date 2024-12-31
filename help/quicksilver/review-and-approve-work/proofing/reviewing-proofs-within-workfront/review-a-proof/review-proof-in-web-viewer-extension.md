@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Überprüfen interaktiver Inhalte in der Web-Proofing-Viewer-Erweiterung
-description: Das Adobe Workfront-Überprüfungstool ist eine Browsererweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL testen können.
+title: Überprüfen interaktiver Inhalte in der Web Proofing Viewer-Erweiterung
+description: Das Adobe Workfront-Überprüfungs-Tool ist eine Browser-Erweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL prüfen können.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
@@ -13,11 +13,11 @@ ht-degree: 1%
 
 ---
 
-# Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungstool
+# Überprüfen interaktiver Inhalte mit dem Adobe Workfront-Überprüfungs-Tool
 
-<span class="preview">Das Adobe Workfront-Überprüfungstool ist ab dem 7. November 2024 verfügbar. Diese Erweiterung befindet sich derzeit in der Betaphase.</span>
+<span class="preview">Das Adobe Workfront Review-Tool ist ab dem 7. November 2024 verfügbar. Diese Erweiterung befindet sich derzeit in der Betaphase.</span>
 
-Das Adobe Workfront-Überprüfungstool ist eine webbasierte Browsererweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL testen können. Das Adobe Workfront-Überprüfungstool ist in den folgenden Browsern verfügbar:
+Das Adobe Workfront-Überprüfungs-Tool ist eine Web-basierte Browser-Erweiterung, mit der Sie interaktive Inhalte in einer ZIP-Datei oder mit einer URL prüfen können. Das Adobe Workfront-Überprüfungs-Tool ist in den folgenden Browsern verfügbar:
 
 * Firefox
 * Chrome
@@ -25,42 +25,42 @@ Das Adobe Workfront-Überprüfungstool ist eine webbasierte Browsererweiterung, 
 
 Es wird empfohlen, den Desktop Proofing Viewer zu verwenden, wenn sich der zu überprüfende Inhalt auf einer Website befindet, die
 
-* SSO-Authentifizierung erforderlich
-* Ermöglicht das Öffnen der Website in iFrames, z. B. Figma
+* Erfordert SSO-Authentifizierung
+* Eröffnet ihre Website in iFrames, wie Figma
 
 
 
-## Adobe Workfront-Überprüfungs-Tool zum Standard-Viewer für URL- und ZIP-Testsendungen machen
+## Festlegen des Adobe Workfront-Überprüfungs-Tools als Standard-Viewer für URL- und ZIP-Korrekturabzüge
 
-Um das Webüberprüfungs-Tool für URL- und ZIP-Testsendungen zu verwenden, muss ein Workfront-Administrator die Standardeinstellung für interaktive Testsendungen anpassen.
+Um das Web-Überprüfungs-Tool für URL- und ZIP-Korrekturabzüge zu verwenden, muss ein Workfront-Administrator die Standardeinstellung für interaktive Korrekturabzüge anpassen.
 
-1. Klicken Sie im Hauptmenü von Workfront auf **Testversand**.
-1. Klicken Sie auf **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
-1. Suchen Sie im Abschnitt **Testversand-Standardeinstellungen** nach **Desktop-Testversand-Viewer für interaktive Prüfung** und klicken Sie auf **Einrichten**.
-1. Wählen Sie im Dropdown-Menü **Deaktiviert** aus. Interaktive Testsendungen, die über eine URL- oder ZIP-Datei erstellt wurden, werden jetzt automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet, einem webbasierten Browser.
+1. Klicken Sie im Hauptmenü von Workfront auf **Proofing**.
+1. Klicken Sie **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
+1. Suchen Sie im Abschnitt **Standardeinstellungen für** Desktop Proofing Viewer **interaktives Proofing** und klicken Sie auf **Setup**.
+1. Wählen Sie im Dropdown-Menü &quot;**&quot;**. Interaktive Korrekturabzüge, die aus einer URL- oder ZIP-Datei erstellt wurden, werden jetzt automatisch im Adobe Workfront-Überprüfungs-Tool, einem Web-basierten Browser, geöffnet.
 1. Klicken Sie auf **Speichern**.
 
 >[!NOTE]
 >
->Diese Änderung gilt für alle interaktiven Testsendungen in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in Ihrer Vorschau-Umgebung zu testen, bevor es in der Produktion aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung für alle interaktiven Testsendungen auf **Aktiviert** zurücksetzen.
+>Diese Änderung gilt für alle interaktiven Korrekturabzüge in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in der Vorschau-Umgebung zu testen, bevor es in der Produktionsumgebung aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung wieder auf &quot;**für alle interaktiven Korrekturabzüge aktiviert“**.
 
-## Machen Sie das Adobe Workfront-Überprüfungstool zum standardmäßigen Viewer nur für ZIP-Testsendungen
+## Festlegen des Adobe Workfront-Überprüfungs-Tools als Standard-Viewer nur für ZIP-Korrekturabzüge
 
-Um das Webüberprüfungs-Tool nur für ZIP-Testsendungen zu verwenden, muss ein Workfront-Administrator die Standardeinstellung für interaktive Testsendungen anpassen.
+Um das Web-Überprüfungs-Tool nur für ZIP-Korrekturabzüge zu verwenden, muss ein Workfront-Administrator die Standardeinstellung für interaktive Korrekturabzüge anpassen.
 
-1. Klicken Sie im Hauptmenü von Workfront auf **Testversand**.
-1. Klicken Sie auf **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
-1. Suchen Sie im Abschnitt **Testversand-Standardeinstellungen** nach **Desktop-Testversand-Viewer für interaktive Prüfung** und klicken Sie auf **Einrichten**.
-1. Wählen Sie im Dropdown-Menü **Nur für interaktive Testsendungen aktiviert aus, die über eine URL erstellt wurden**. Interaktive Testsendungen, die aus einer ZIP-Datei erstellt wurden, werden jetzt automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet, einem webbasierten Browser. Interaktive Testsendungen, die über eine URL erstellt wurden, werden weiterhin im Desktop Proofing Viewer geöffnet.
+1. Klicken Sie im Hauptmenü von Workfront auf **Proofing**.
+1. Klicken Sie **Kontoeinstellungen** und dann auf die Registerkarte **Einstellungen**.
+1. Suchen Sie im Abschnitt **Standardeinstellungen für** Desktop Proofing Viewer **interaktives Proofing** und klicken Sie auf **Setup**.
+1. Wählen Sie im Dropdown-Menü **Nur für interaktive Korrekturabzüge aktivieren, die aus einer URL erstellt wurden** aus. Interaktive Korrekturabzüge, die aus einer ZIP-Datei erstellt wurden, werden jetzt automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet, einem Web-basierten Browser. Interaktive Korrekturabzüge, die von einer URL erstellt wurden, werden weiterhin im Desktop Proofing Viewer geöffnet.
 1. Klicken Sie auf **Speichern**.
 
 >[!NOTE]
 >
->Diese Änderung gilt für alle interaktiven Testsendungen in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in Ihrer Vorschau-Umgebung zu testen, bevor es in der Produktion aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung für alle interaktiven Testsendungen auf **Aktiviert** zurücksetzen.
+>Diese Änderung gilt für alle interaktiven Korrekturabzüge in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in der Vorschau-Umgebung zu testen, bevor es in der Produktionsumgebung aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung wieder auf &quot;**für alle interaktiven Korrekturabzüge aktiviert“**.
 
 ## Installieren der Erweiterung
 
-Überprüfer und Genehmiger müssen das Adobe Workfront-Überprüfungstool installieren. in einem der folgenden Browser:
+Reviewer und genehmigende Personen müssen das Adobe Workfront-Überprüfungs-Tool installieren. in einem der folgenden Browser:
 
 * [Firefox-Erweiterung](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
 
@@ -68,8 +68,8 @@ Um das Webüberprüfungs-Tool nur für ZIP-Testsendungen zu verwenden, muss ein 
 
 * [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
 
-Nach der Installation der Erweiterung werden interaktive Testsendungen automatisch im Adobe Workfront-Überprüfungstool geöffnet.
+Nach der Installation der Erweiterung werden interaktive Korrekturabzüge automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet.
 
 >[!IMPORTANT]
 >
->Sie müssen die ältere Web Viewer-Erweiterung entfernen, um das Adobe Workfront Review-Tool verwenden zu können.
+>Sie müssen die veraltete Web-Viewer-Erweiterung entfernen, um das Adobe Workfront-Überprüfungs-Tool verwenden zu können.

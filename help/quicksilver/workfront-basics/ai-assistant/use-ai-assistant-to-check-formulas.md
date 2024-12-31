@@ -1,7 +1,7 @@
 ---
-title: Berechnete Feldformeln mit dem KI-Assistenten überarbeiten
+title: Überarbeiten von berechneten Feldformeln mit dem KI-Assistenten
 content-type: reference
-description: Mit dem KI-Assistenten können Sie Fehler in Ihren ungültigen benutzerdefinierten Ausdrücken in berechneten Feldern beheben.
+description: Sie können den KI-Assistenten verwenden, um Fehler in Ihren ungültigen benutzerdefinierten Ausdrücken in berechneten Feldern zu beheben.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5f144a6f-5c2a-42fc-a961-ab9066432d93
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 ---
 
-# Berechnete Feldformeln mit dem AI-Assistenten generieren oder überarbeiten
+# Generieren oder Überarbeiten von berechneten Feldformeln mit dem KI-Assistenten
 
-Sie können den AI-Assistenten verwenden, um Formeln basierend auf einer von Ihnen angegebenen Eingabeaufforderung zu generieren. Sie können auch Fehler in Ihren ungültigen benutzerdefinierten Ausdrücken in berechneten Feldern beheben.
+Sie können den KI-Assistenten verwenden, um Formeln basierend auf einer von Ihnen angegebenen Eingabeaufforderung zu generieren. Sie können auch Fehler in Ihren ungültigen benutzerdefinierten Ausdrücken in berechneten Feldern beheben.
 
 ## Zugriffsanforderungen
 
@@ -25,7 +25,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td><p>Neu: Prime oder Ultimate</p>
        <p>oder</p>
        <p>Aktuell: Nicht verfügbar</p></td>
@@ -39,42 +39,42 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 ## Voraussetzungen
 
 * Ihr Workfront-Administrator muss den KI-Assistenten für Ihr Unternehmen aktiviert haben.
 
-  Weitere Informationen finden Sie unter [Voraussetzungen für den AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant) in der Übersicht zum Artikel AI Assistant .
+  Weitere Informationen finden Sie unter [Voraussetzungen für den KI-](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#prerequisites-to-ai-assistant)) im Artikel KI-Assistent - Übersicht.
 * Ihr Workfront-Administrator muss den KI-Assistenten für Ihre Zugriffsebene aktiviert haben.
 
-  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des AI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
+  Weitere Informationen finden Sie unter [Aktivieren oder Deaktivieren des KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/enable-or-disable-assistant.md).
 
 <!--## Generate a calculated field expression-->
 
-## Berechneten Feldausdruck überprüfen
+## Überarbeiten eines berechneten Feldausdrucks
 
-Wenn Sie das berechnete Feld im benutzerdefinierten Formular-Builder erstellen, wird unter dem Feld eine Fehlermeldung angezeigt, wenn die Formel ungültig ist.
+Beim Erstellen des berechneten Felds im benutzerdefinierten Formular-Builder wird unter dem Feld eine Fehlermeldung angezeigt, wenn die Formel ungültig ist.
 
-![Ungültiger Ausdrucksfehler](assets/invalid-expression.png)
+![Fehler mit ungültigem Ausdruck](assets/invalid-expression.png)
 
-Der KI-Assistent kann Ihnen dabei helfen, Ihre Formel in einen gültigen Ausdruck für berechnete Felder zu überarbeiten.
+Der KI-Assistent kann Ihnen dabei helfen, Ihre Formel in einen gültigen berechneten Feldausdruck zu überarbeiten.
 
-So überarbeiten Sie einen ungültigen Ausdruck für ein berechnetes Feld:
+So ändern Sie einen ungültigen berechneten Feldausdruck:
 
-1. Klicken Sie auf das Symbol **AI-Assistent** ![AI-Assistent-Symbol](assets/ai-assistant-icon.png) oben rechts im Bildschirm.
-1. Geben Sie im Eingabeaufforderungsbereich unten im Bedienfeld &quot;AI Assistant&quot;eine Eingabeaufforderung ein, z. B.:
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Geben Sie im Eingabeaufforderungsbereich am unteren Rand des KI-Assistenten eine Eingabeaufforderung ein, z. B.:
    `Rewrite this formula to remove the invalid expression error`
 1. Kopieren Sie den ungültigen Ausdruck aus dem benutzerdefinierten Formular-Builder und fügen Sie ihn in den Eingabeaufforderungsbereich ein.
-1. Drücken Sie die Taste **Enter**.
+1. Drücken Sie **ENTER**.
 
-   Je nachdem, wie groß oder komplex die Formel ist, kann es einen Moment dauern, bis der KI-Assistent die überarbeitete Formel generiert.
-1. Zeigen Sie die überarbeitete Formel im Bereich &quot;KI-Assistent&quot;an.
-1. (Optional) Kopieren Sie die überarbeitete Formel aus dem Bedienfeld &quot;KI-Assistent&quot;und fügen Sie sie in das berechnete Feld im benutzerdefinierten Formularersteller ein.
+   Je nachdem, wie groß oder komplex die Formel ist, kann es einige Minuten dauern, bis der KI-Assistent die überarbeitete Formel erstellt.
+1. Zeigen Sie die überarbeitete Formel im Bedienfeld KI-Assistent an.
+1. (Optional) Kopieren Sie die überarbeitete Formel aus dem Bedienfeld „KI-Assistent“ und fügen Sie sie in das berechnete Feld im benutzerdefinierten Formular-Builder ein.
 
 >[!NOTE]
 >
 >Es wird empfohlen, das berechnete Feld zu testen, um sicherzustellen, dass es das erwartete Ergebnis abruft.
 
-Weitere Informationen zu berechneten Feldern in Workfront finden Sie unter [Berechnete Felder zu einem Formular hinzufügen](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
+Weitere Informationen zu berechneten Feldern in Workfront finden Sie unter [Hinzufügen berechneter Felder zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md).
 

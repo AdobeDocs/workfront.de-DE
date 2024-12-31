@@ -2,8 +2,8 @@
 content-type: reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: 'Datenblatt-Details: Artikelindex'
-description: In den folgenden Artikeln erfahren Sie mehr über Timesheets und ihr Layout.
+title: 'Arbeitszeittabellen-Details: Artikelindex'
+description: Weitere Informationen zu Arbeitszeittabellen und ihrem Layout finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
@@ -15,9 +15,9 @@ ht-degree: 6%
 
 ---
 
-# Datenblatt-Details: Artikelindex
+# Arbeitszeittabellen-Details: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
 * [Überblick über Arbeitszeittabellen](../../timesheets/timesheets/timesheets-overview.md)
-* [Übersicht über das Datenblatt](../../timesheets/timesheets/timesheet-layout.md)
+* [Arbeitszeittabellen-Layout - Übersicht](../../timesheets/timesheets/timesheet-layout.md)

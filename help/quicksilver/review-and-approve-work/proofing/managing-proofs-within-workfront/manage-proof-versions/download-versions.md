@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: manage-proof-versions
-title: Herunterladen von Testversionen
-description: Sie können eine einzelne Version oder alle Versionen eines Testversands herunterladen.
+title: Korrekturabzugsversionen herunterladen
+description: Sie können eine einzelne Version oder alle Versionen eines Korrekturabzugs herunterladen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
@@ -13,13 +13,13 @@ ht-degree: 4%
 
 ---
 
-# Herunterladen von Testversionen
+# Korrekturabzugsversionen herunterladen
 
-Sie können eine einzelne Version oder alle Versionen eines Testversands herunterladen.
+Sie können eine einzelne Version oder alle Versionen eines Korrekturabzugs herunterladen.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,37 +29,37 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Herunterladen einer einzelnen Testversion
+## Herunterladen einer einzelnen Testversand-Version
 
 1. Klicken Sie in der Dokumentliste auf den Testversand.
-1. Klicken Sie in der Zusammenfassung unter &quot;**Versionen**&quot;auf das Menü &quot;Mehr&quot;![](assets/more-icon.png) rechts neben der Version und klicken Sie dann in der angezeigten Dropdownliste auf &quot;**Download**&quot;.
+1. Klicken Sie in der Zusammenfassung unter **Versionen** auf das Menü Mehr ![](assets/more-icon.png) rechts von der Version und klicken Sie dann in **angezeigten Dropdown-Liste auf** Herunterladen.
 
    ![](assets/more-versions-350x143.png)
 
 ## Herunterladen aller Versionen eines Korrekturabzugs
 
 1. Klicken Sie in der Dokumentliste auf den Testversand.
-1. Klicken Sie auf **Dokumentdetails** und wählen Sie dann im linken Bereich **Alle Versionen** aus.
+1. Klicken Sie **Dokumentdetails** und wählen Sie dann **Alle Versionen** im linken Bereich aus.
 
-1. Klicken Sie oben in der Liste auf **Alle herunterladen** .
+1. Klicken **oben in** Liste auf „Alle herunterladen“.

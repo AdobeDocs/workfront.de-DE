@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 9 (Fortsetzung)
-description: Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte finden Sie unter Neue Funktionen in API Version 9. Die Liste der Aktualisierungen von Version 9 finden Sie unter Aktualisierungen von API Version 9.
+title: Neue Funktionen in der API-Version 9 (Fortsetzung)
+description: Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte finden Sie unter Neue Funktionen in der API-Version 9. Die Liste der Updates für Version 9 finden Sie unter Updates für API Version 9.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -10,15 +10,15 @@ exl-id: 0af97c16-e6a7-4796-92e0-4c2d9751c845
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '153'
-ht-degree: 24%
+ht-degree: 28%
 
 ---
 
-# Neue Funktionen in API Version 9 (Fortsetzung)
+# Neue Funktionen in der API-Version 9 (Fortsetzung)
 
-Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte befindet sich unter [Neue Funktionen in API Version 9](../../wf-api/api/new-api-version-9.md). Die Liste der Aktualisierungen von Version 9 finden Sie unter [Aktualisierungen von API Version 9](../../wf-api/api/new-api-version-9-updates.md).
+Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte finden Sie unter [Neue Funktionen in der API-Version 9](../../wf-api/api/new-api-version-9.md). Die Liste der Updates für Version 9 finden Sie unter [Updates für API Version 9](../../wf-api/api/new-api-version-9-updates.md).
 
-## PortalSection
+## Portalabschnitt
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -90,7 +90,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte bef
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| creationDate | `customer` |  |  |  |  | `COUNT` |
+| createDate | `customer` |  |  |  |  | `COUNT` |
 | `customerID` | `report` |  |  |  |  | `GET` |
 | `ID` | `viewer` |  |  |  |  | `REPORT` |
 | `reportID` |  |  |  |  |  | `SEARCH` |
@@ -116,7 +116,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte bef
 
 {style="table-layout:auto"}
 
-## PortalTab
+## Registerkarte „Portal“
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -165,7 +165,7 @@ Diese Liste ist die zweite Hälfte einer größeren Liste. Die erste Hälfte bef
 
 {style="table-layout:auto"}
 
-## ScheduleReport
+## Bericht planen
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|

@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Hinzufügen zusätzlicher Genehmiger oder Validierer zu einem Asset oder Dokument
-description: Sie können einem Dokument, für das bereits ausstehende Genehmigungen vorliegen, weitere Genehmiger oder Validierer hinzufügen.
+title: Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Asset oder Dokument
+description: Sie können einem Dokument, das bereits ausstehende Genehmigungen enthält, zusätzliche genehmigende Personen oder Prüfende hinzufügen.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: f3d94dff-a855-44ae-9e85-1dcbc4d417a0
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Hinzufügen zusätzlicher Genehmiger oder Validierer zu einem Asset oder Dokument
+# Hinzufügen zusätzlicher genehmigender Personen oder Prüfer zu einem Asset oder Dokument
 
-Sie können einem Asset oder Dokument, für das bereits ausstehende Genehmigungen vorliegen, weitere Genehmiger oder Validierer hinzufügen.
+Sie können einem Asset oder Dokument, das bereits ausstehende Genehmigungen aufweist, zusätzliche genehmigende Personen oder Prüfende hinzufügen.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Funktion zur Dokumentgenehmigung, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,52 +33,52 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte, Aufgaben, Probleme, Vorlagen, Portfolios, Programme, Berichte, Dashboards und Kalender, Dokumente anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Anzeigen oder Hochladen von Zugriff auf Projekte, Aufgaben, Probleme, Vorlagen, Portfolios, Programme, Berichte, Dashboards, Kalender und Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen oder höherer Zugriff auf das Objekt, das mit dem Anforderungszugriff oder der Genehmigung verknüpft ist </p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen des oder eines höheren Zugriffs auf das Objekt, das mit der Zugriffsanfrage oder Genehmigung verknüpft ist </p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
-## Fügen Sie auf der Seite &quot;Dokumentdetails&quot;weitere Genehmiger oder Validierer hinzu.
+## Fügen Sie auf der Seite Dokumentdetails zusätzliche genehmigende Personen oder Prüfende hinzu
 
-1. Klicken Sie auf die Dokumentseite, um auf den Namen des Dokuments zu klicken, und wählen Sie dann die Version des Dokuments aus, zu der Sie im Dropdown-Menü Version einen Genehmiger oder Überprüfer hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
+1. Gehen Sie zur Dokumentseite, indem Sie auf den Namen des Dokuments klicken, und wählen Sie dann im Dropdown-Menü Version die Version des Dokuments aus, der Sie eine genehmigende Person oder eine prüfende Person hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Wählen Sie im linken Bereich **Genehmigungen** aus. Alle vorhandenen Genehmiger und Validierungsverantwortlichen sind hier aufgeführt.
+1. Wählen **Genehmigungen** im linken Bereich aus. Alle vorhandenen genehmigenden Personen und Prüfer sind hier aufgeführt.
 
-1. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das Kontrollkästchen **Genehmiger** aktiviert ist, und beginnen Sie dann, in das Textfeld **Überprüfer** zu tippen. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach das Kontrollkästchen **Genehmiger** , bevor Sie tippen.
+1. Um eine genehmigende Person hinzuzufügen, stellen Sie sicher, dass das **Genehmigende Person** Kontrollkästchen aktiviert ist, und beginnen Sie dann mit der Eingabe in das Textfeld **Prüfende**. Sie können Workfront-Benutzer oder -Teams nach Namen hinzufügen. Wenn Sie stattdessen einen Validierungsverantwortlichen hinzufügen möchten, deaktivieren Sie vor der Eingabe einfach das **Genehmiger**-Kontrollkästchen.
 
-1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
+1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
 
-## Zusätzliche Genehmiger oder Validierer aus der Dokumentzusammenfassung hinzufügen
+## Hinzufügen zusätzlicher genehmigender Personen oder Prüfer aus der Dokumentzusammenfassung
 
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 
-1. Klicken Sie auf das gewünschte Dokument und der Bereich Dokumentzusammenfassung wird geöffnet.
+1. Klicken Sie auf das gewünschte Dokument. Daraufhin wird der Bereich Dokumentzusammenfassung geöffnet.
 
-1. Wählen Sie die Version des Dokuments aus, zu dem Sie einen Genehmiger oder Überprüfer im Dropdown-Menü Version hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
+1. Wählen Sie in der Dropdown-Liste Version die Version des Dokuments aus, dem Sie eine genehmigende Person oder eine prüfende Person hinzufügen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Scrollen Sie im Bereich Dokumentzusammenfassung nach unten zum Abschnitt **Genehmigungen**, in dem alle vorhandenen Genehmiger und Validierer aufgelistet sind. Um einen Genehmiger hinzuzufügen, stellen Sie sicher, dass das Kontrollkästchen **Genehmiger** aktiviert ist, und beginnen Sie dann, in das Textfeld **Überprüfer** zu tippen. Sie können Workfront-Benutzer oder -Teams anhand des Namens hinzufügen. Wenn Sie stattdessen einen Validierer hinzufügen möchten, deaktivieren Sie einfach das Kontrollkästchen **Genehmiger** , bevor Sie tippen.
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bereich Dokumentzusammenfassung, in dem alle vorhandenen genehmigenden Personen und Prüfer aufgeführt sind. Um eine genehmigende Person hinzuzufügen, stellen Sie sicher, dass das **Genehmigende Person** Kontrollkästchen aktiviert ist, und beginnen Sie dann mit der Eingabe in das Textfeld **Prüfende**. Sie können Workfront-Benutzer oder -Teams nach Namen hinzufügen. Wenn Sie stattdessen einen Validierungsverantwortlichen hinzufügen möchten, deaktivieren Sie vor der Eingabe einfach das **Genehmiger**-Kontrollkästchen.
 
-1. Wiederholen Sie den vorherigen Schritt, um weitere Genehmiger oder Validierer hinzuzufügen.
+1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
 
-## Hinzufügen zusätzlicher Überprüfungen und Genehmiger aus einer früheren Version
+## Hinzufügen zusätzlicher Überprüfungen und genehmigender Personen aus einer früheren Version
 
-Wenn Sie eine Genehmigung für eine neue Dokumentversion benötigen, können Sie einfach
+Wenn Sie eine Genehmigung für eine neue Dokumentversion benötigen, können Sie einfach Folgendes hinzufügen
 
 <!--
 ## Add additional approvers or reviewers from Home

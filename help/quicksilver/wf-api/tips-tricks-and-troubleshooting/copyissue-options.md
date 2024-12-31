@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Optionskonfiguration für OPTASK copyIssue
-description: Eine Erläuterung der vom copyIssue -Endpunkt erwarteten ganzzahligen Werte.
+title: Konfiguration der Optionen für OPTASK copyIssue
+description: Eine Erläuterung der vom copyIssue-Endpunkt erwarteten ganzzahligen Werte.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,32 +14,32 @@ ht-degree: 4%
 
 ---
 
-# Optionskonfiguration für OPTASK copyIssue
+# Konfiguration der Optionen für OPTASK copyIssue
 
 
-Eine der Eigenschaften für einen API-Aufruf &quot;copyIssue&quot;ist ein Feld namens `options`. Dieses Feld erwartet eine Ganzzahl.
+Eine der Eigenschaften für einen copyIssue-API-Aufruf ist ein Feld namens `options`. Dieses Feld erwartet eine Ganzzahl.
 
-Um eine der folgenden Optionen einzuschließen, geben Sie die entsprechende Ganzzahl ein. Um mehrere Optionen einzuschließen, geben Sie die Summe der entsprechenden Ganzzahlen an.
+Um eine der folgenden Optionen einzuschließen, geben Sie die entsprechende Ganzzahl ein. Um mehr als eine Option einzubeziehen, geben Sie die Summe der übereinstimmenden Ganzzahlen ein.
 
-| option | value* |
+| Option | Wert* |
 |---|---|
 | Zuweisungen löschen | 2 |
-| Klare Fortschritte | 4 |
+| Fortschritt löschen | 4 |
 | Dokumente löschen | 128 |
-| Clear Updates | 65536 |
+| Aktualisierungen löschen | 65536 |
 | Berechtigungen löschen | 524288 |
 | Benutzerdefinierte Daten löschen | 1048576 |
 
-*Alle Werte sind Befugnisse von 2.
+*Alle Werte sind Potenzen von 2.
 
 Beispiele:
 
-* Um den Fortschritt beim Kopieren des Problems zu löschen, geben Sie den Wert `options` von `4` ein.
+* Um den Fortschritt beim Kopieren des Problems zu löschen, geben Sie den `options` Wert `4` ein.
 
-* Um sowohl den Fortschritt als auch die Dokumente zu löschen, geben Sie den Wert `options` von `132` ein.
+* Um sowohl den Fortschritt als auch die Dokumente zu löschen, geben Sie den `options` Wert `132` ein.
 
-  Kleiner Fortschritt = 4
+  Fortschritt löschen = 4
 
-  Clear Documents = 128
+  Dokumente löschen = 128
 
   4 + 128 = 132

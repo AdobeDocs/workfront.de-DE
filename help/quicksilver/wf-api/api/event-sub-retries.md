@@ -16,30 +16,30 @@ ht-degree: 0%
 
 # Wiederholungen von Ereignisabonnements
 
-Bei der Implementierung eines Nachrichtenversandsystems müssen einige Einschränkungen behoben werden, um Stabilität, Konsistenz und ein gutes Benutzererlebnis zu gewährleisten. Eine der Schwachstellen eines Nachrichtenversandsystems besteht darin, sicherzustellen, dass Nachrichten ihr Ziel erfolgreich erreichen, und zu wissen, was zu tun ist, wenn Nachrichten nicht ankommen.
+Bei der Implementierung eines Nachrichtenversand-Systems müssen einige Einschränkungen beachtet werden, um Stabilität, Konsistenz und ein gutes Benutzererlebnis zu gewährleisten. Einer der Mängel eines Nachrichtenversand-Systems besteht darin, sicherzustellen, dass Nachrichten ihr Ziel erfolgreich erreichen und wissen, was zu tun ist, wenn Nachrichten nicht ankommen.
 
-Einige Integrationen können einen fehlgeschlagenen Versand akzeptieren, die Nachricht dann ablegen und zur nächsten Nachricht wechseln.  In anderen Integrationen kann das Fehlschlagen eines Nachrichtenversands nicht ignoriert werden. Beispielsweise könnte eine Finanzintegration versuchen, eine Nachricht zu senden, erhält aber stattdessen den HTTP-Status-Code 404, der angibt, dass der Server den Endpunkt, an den die Nachricht gesendet werden sollte, nicht finden konnte. In solchen Fällen könnte eine fehlende Nachricht bedeuten, dass jemand nicht für seine Zeit bezahlt wird oder dass eine Organisation über das Budget für vertraglich vereinbarte Ressourcen geht.
+Einige Integrationen können einen fehlgeschlagenen Versand akzeptieren, die Nachricht dann ablegen und zur nächsten Nachricht wechseln.  In anderen Integrationen kann die Nichtbereitstellung einer Nachricht nicht ignoriert werden. Beispielsweise kann eine Finanzintegration versuchen, eine Nachricht zuzustellen, stattdessen erhält sie den HTTP-Status-Code 404, der angibt, dass der Server den Endpunkt, an den die Nachricht zugestellt werden sollte, nicht finden konnte. In solchen Fällen könnte eine fehlende Nachricht bedeuten, dass jemand nicht für seine Zeit bezahlt wird oder dass eine Organisation über das Budget für vertraglich gebundene Ressourcen hinausgeht.
 
-## Adobe Workfront-Strategie für die Wiederholung von Ereignisanmeldungen
+## Adobe Workfront-Strategie für weitere Zustellversuche bei Ereignisabonnements
 
-Da Kunden die Workfront-Plattform als Kernstück ihrer täglichen Wissensarbeit nutzen, bietet das Workfront Event Subscription Framework einen Mechanismus, um sicherzustellen, dass der Versand jeder Nachricht so umfassend wie möglich versucht wird.
+Da Kundinnen und Kunden die Workfront-Plattform als Kernstück ihrer täglichen Wissensarbeit nutzen, bietet das Workfront Event Subscription Framework einen Mechanismus, der sicherstellt, dass der Versand jeder Nachricht im größtmöglichen Umfang versucht wird.
 
-Ereignisausgelöste ausgehende Nachrichten, die nicht an Kunden-Endpunkte gesendet werden, werden erneut gesendet, bis der Versand für einen Zeitraum von bis zu 48 Stunden erfolgreich war. Während dieser Zeit werden weitere Versuche schrittweise beschleunigt, bis der Versand erfolgreich war oder bis 11 Versuche unternommen wurden.
+Ereignisgesteuerte ausgehende Nachrichten, die nicht an Kundenendpunkte gesendet werden können, werden bis zu einem Zeitraum von 48 Stunden erneut gesendet, bis der Versand erfolgreich war. Während dieser Zeit werden weitere Zustellversuche mit einer inkrementell erhöhten Häufigkeit durchgeführt, bis der Versand erfolgreich ist oder bis 11 Zustellversuche unternommen wurden.
 
 Die Formel für diese Wiederholungsversuche lautet:
 
 `((2^attempt) - 1) * 84800ms`
 
-Der erste Versuch erfolgt nach 1,5 Minuten, die zweite nach fast 5 Minuten und die elfte nach etwa 48 Stunden.
+Der erste erneute Versuch findet nach 1,5 Minuten statt, der zweite nach fast 5 Minuten und der elfte nach etwa 48 Stunden.
 
-Kunden müssen sicherstellen, dass alle Endpunkte, die ausgehende Nachrichten aus Workfront-Ereignisabonnements verarbeiten, so eingerichtet sind, dass sie bei erfolgreicher Bereitstellung eine 200-Grad-Antwortnachricht an Workfront zurückgeben.
+Kunden müssen sicherstellen, dass alle Endpunkte, die ausgehende Nachrichten von Workfront-Ereignisabonnements verarbeiten, so eingerichtet sind, dass bei erfolgreichem Versand eine Antwortnachricht der Ebene 200 an Workfront zurückgegeben wird.
 
 ## Deaktivierte und eingefrorene Abonnementregeln
 
-* Eine Anmelde-URL ist **deaktiviert** , wenn sie bei mehr als 100 Versuchen eine Fehlerrate von über 70 % aufweist ODER bei 2.000 aufeinander folgenden Fehlern
-* Eine Anmelde-URL ist **eingefroren** , wenn sie mehr als 2.000 aufeinander folgende Fehler aufweist und der letzte Erfolg vor mehr als 72 Stunden erfolgte ODER wenn innerhalb eines beliebigen Zeitraums 50.000 aufeinander folgende Fehler aufgetreten sind.
-* Eine **disabled**-Anmelde-URL versucht weiterhin alle 10 Minuten, einen Versand durchzuführen, und wird bei einem erfolgreichen Versand wieder aktiviert.
-* Eine Abonnement-URL vom Typ **frozen** versucht nie, den Versand durchzuführen, es sei denn, sie wird durch eine API-Anfrage manuell aktiviert.
+* Eine Abonnement-URL **deaktiviert** wenn sie eine Fehlerrate von über 70 % mit über 100 Versuchen aufweist ODER wenn sie 2.000 aufeinander folgende Fehler aufweist
+* Eine Abonnement-URL **eingefroren** wenn sie mehr als 2.000 aufeinander folgende Fehler aufweist und der letzte Erfolg mehr als 72 Stunden zurückliegt ODER wenn sie 50.000 aufeinander folgende Fehler in einem beliebigen Zeitrahmen aufweist.
+* Eine **deaktivierte** Abonnement-URL versucht weiterhin alle 10 Minuten einen Versand und wird bei einem erfolgreichen Versand erneut aktiviert.
+* Eine **eingefrorene** Abonnement-URL versucht nie die Bereitstellung, es sei denn, sie wird manuell durch eine API-Anfrage aktiviert.
 
 
 

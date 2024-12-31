@@ -1,6 +1,6 @@
 ---
 title: Portfolio freigeben
-description: Sie können ein Portfolio für andere Benutzer freigeben, wenn Sie über Zugriffsberechtigungen verfügen.
+description: Sie können ein Portfolio für andere Benutzer freigeben, wenn Sie über die Berechtigung zum Zugriff darauf verfügen.
 author: Alina
 draft: Probably
 feature: Get Started with Workfront
@@ -14,49 +14,49 @@ ht-degree: 0%
 
 # Portfolio freigeben
 
-Ihr Adobe Workfront-Administrator kann Ihnen beim Zuweisen Ihrer Zugriffsebene Zugriff auf das Anzeigen oder Bearbeiten von Portfolios gewähren. Sie müssen über eine Planungslizenz verfügen, um Zugriff auf die Bearbeitung eines Portfolios zu erhalten. Weitere Informationen finden Sie unter [Gewähren des Zugriffs auf Portfolios](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
+Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Portfolios gewähren. Sie müssen über eine Plan-Lizenz verfügen, um Zugriff zum Bearbeiten eines Portfolios zu erhalten. Weitere Informationen finden Sie unter [Zugriff auf Portfolios gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-portfolios.md).
 
-Neben der Ihnen zugewiesenen Zugriffsebene können Sie auch Berechtigungen zum Anzeigen oder Verwalten bestimmter Portfolios von Benutzern erhalten, die diese für Sie freigeben können. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Wie Zugriffsebenen und -berechtigungen zusammenarbeiten](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Neben der Ihnen gewährten Zugriffsebene können Sie auch Berechtigungen zum Anzeigen oder Verwalten bestimmter Portfolios von Benutzern erhalten, die diese für Sie freigeben können. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Funktionsweise von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Berechtigungen beziehen sich auf ein Element in Workfront und definieren, welche Aktionen Benutzer für dieses Element ausführen können.
+Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen Benutzende für dieses Element ausführen können.
 
 ## Überlegungen zur Freigabe von Portfolios
 
-Weitere Informationen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informationen unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
 >[!NOTE]
 >
->Ein Workfront-Administrator kann allen Elementen im System Berechtigungen hinzufügen oder entfernen, ohne Eigentümer dieser Elemente zu sein.
+>Ein Workfront-Administrator kann für alle Benutzenden Berechtigungen zu Elementen im System hinzufügen oder entfernen, ohne Besitzer dieser Elemente zu sein.
 
-* Der Ersteller eines Portfolios hat standardmäßig die Berechtigung &quot;Verwalten&quot;.
-* Sie können ein Portfolio einzeln oder mehrere Portfolios gleichzeitig freigeben. Die Freigabe eines Portfolios entspricht der Freigabe anderer Objekte in Workfront. Weitere Informationen finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Der Ersteller eines Portfolios hat standardmäßig Verwaltungsberechtigungen dafür.
+* Sie können ein Portfolio einzeln freigeben oder mehrere Portfolios gleichzeitig freigeben. Die Freigabe eines Portfolios ist mit der Freigabe anderer Objekte in Workfront identisch. Weitere Informationen finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Sie können nur Ansichts- oder Verwaltungsberechtigungen für Portfolio erteilen.
+* Sie können nur Anzeigen- oder Verwaltungsberechtigungen für Portfolios erteilen.
 
   ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
 
 * Wenn Sie ein Portfolio freigeben, erben Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit dem Portfolio verknüpft sind.
 
-  Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter [Objekte in Adobe Workfront verstehen](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+  Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Sie können geerbte Berechtigungen aus dem Portfolio entfernen. Weitere Informationen zum Entfernen von Berechtigungen aus Objekten finden Sie unter [Berechtigungen aus Objekten entfernen](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
+* Sie können geerbte Berechtigungen aus dem Portfolio entfernen. Weitere Informationen zum Entfernen von Berechtigungen aus Objekten finden Sie unter [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-## Portfolio-Berechtigungen
+## Berechtigungen für Portfolios
 
-Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern gewähren können, wenn sie ein Portfolio anzeigen oder verwalten können:
+Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn sie ein Portfolio anzeigen oder verwalten möchten:
 
 | **Aktionen** | **Verwalten** | **Anzeigen** |
 |---|---|---|
-| Bearbeiten von Portfolio-Details | ✓ |   |
+| Portfolio-Details bearbeiten | ✓ |   |
 | Portfolio anzeigen | ✓ | ✓ |
-| Portfolio löschen | ✓ |   |
-| Anhängen eines benutzerdefinierten Formulars | ✓ |   |
+| Löschen eines Portfolios | ✓ |   |
+| Benutzerdefiniertes Formular anhängen | ✓ |   |
 | Benutzerdefiniertes Feld bearbeiten | ✓ |   |
-| Programm hinzufügen oder entfernen&#42; | ✓ |   |
-| Hinzufügen oder Entfernen eines Projekts&#42; | ✓ |   |
-| Projekt genehmigen | ✓ |   |
+| Ein Programm hinzufügen oder entfernen&#42; | ✓ |   |
+| Ein Projekt hinzufügen oder entfernen&#42; | ✓ |   |
+| Genehmigen eines Projekts | ✓ |   |
 | Portfolio-Optimierung&#42; | ✓ |   |
-| Dokumentordner hinzufügen&#42; | ✓ | ✓ |
+| Dokumentenordner hinzufügen&#42; | ✓ | ✓ |
 | Dokument hinzufügen | ✓ | ✓ |
 | Aktualisierungen/Kommentare | ✓ | ✓ |
 | Freigeben | ✓ | ✓ |

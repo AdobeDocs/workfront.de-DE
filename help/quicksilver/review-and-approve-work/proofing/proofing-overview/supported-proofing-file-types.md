@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
-title: Unterstützte Testing-Dateitypen und Größenbeschränkungen - Übersicht
-description: Sie können verschiedene Dateitypen für Ihre Validierer freigeben und überprüfen, selbst wenn sie nicht über die Software verfügen, mit der die Dateien (z. B. Photoshop oder Illustrator) auf ihren Computern installiert sind. Wir unterstützen statische, Video-, Audio-, Web-Aufnahmen und interaktive Dateitypen mit einer Größe von bis zu 4 GB.
+title: Übersicht über unterstützte Proofing-Dateitypen und Größenbeschränkungen
+description: Sie können verschiedene Arten von Dateien für Ihre Reviewer freigeben und überprüfen, selbst wenn auf deren Computern nicht die Software installiert ist, mit der die Dateien erstellt wurden (z. B. Photoshop oder Illustrator). Wir unterstützen statische, Video-, Audio-, Web-Aufnahmen und interaktive Dateitypen mit einer Größe von bis zu 4 GB.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
@@ -14,27 +14,27 @@ ht-degree: 0%
 
 ---
 
-# Unterstützte Testing-Dateitypen und Größenbeschränkungen - Übersicht
+# Übersicht über unterstützte Proofing-Dateitypen und Größenbeschränkungen
 
 <!--Audited: 12/2023-->
 
-Sie können verschiedene Dateitypen für Ihre Validierer freigeben und überprüfen, selbst wenn sie nicht über die Software verfügen, mit der die Dateien (z. B. Photoshop oder Illustrator) auf ihren Computern installiert sind. Wir unterstützen statische, Video-, Audio-, Web-Capture- und interaktive Dateitypen mit einer Größe von bis zu 4 GB.
+Sie können verschiedene Arten von Dateien für Ihre Reviewer freigeben und überprüfen, selbst wenn auf deren Computern nicht die Software installiert ist, mit der die Dateien erstellt wurden (z. B. Photoshop oder Illustrator). Wir unterstützen statische, Video-, Audio-, Web-Erfassung und interaktive Dateitypen mit einer Größe von bis zu 4 GB.
 
 ## Dateigrößenbeschränkungen
 
-Workfront hat die folgenden Beschränkungen:
+Für Workfront gelten die folgenden Beschränkungen:
 
-* Dateien müssen weniger als 4 GB pro Datei betragen.
-* Microsoft Word- (DOC, DOCX) und PowerPoint-Dateien (PPT, PPTX) müssen kleiner als 512 MB sein. (Dies gilt auch für die Archivierung von Testsendungen dieser Dateitypen, die vor der Implementierung der Größenbeschränkung erstellt wurden.)
+* Dateien müssen weniger als 4 GB pro Datei aufweisen.
+* Microsoft Word (DOC, DOCX)- und PowerPoint (PPT, PPTX)-Dateien müssen kleiner als 512 MB sein. (Dies gilt auch für das Rückgängigmachen der Archivierung von Korrekturabzügen dieser Dateitypen, die vor der Implementierung der Größenbeschränkung erstellt wurden.)
 * XLS- und XLSX-Dateien müssen kleiner als 100 MB sein.
-* Dateien, die mit Kommentaren zu Testsendungen verbunden sind, müssen kleiner als 30 MB sein.
-* PNGs müssen eine Höhe und Breite von weniger als 65535 px haben.
-* Statische kombinierte Testsendungen können bis zu 50 Dateien unterstützen.
-* Als Testsendungen hochgeladene Dokumente müssen weniger als 2.000 Seiten umfassen.
+* Dateien, die an Kommentare zu Korrekturabzügen angehängt sind, müssen kleiner als 30 MB sein.
+* PNGs müssen eine Höhe und Breite von weniger als 65535px aufweisen.
+* Kombinierte statische Korrekturabzüge können bis zu 50 Dateien unterstützen.
+* Dokumente, die als Testversand hochgeladen werden, müssen weniger als 2.000 Seiten umfassen.
 
 >[!NOTE]
 >
->Das Hochladen von Dateien dauert länger, und wenn Ihre Verbindung nicht stabil ist, kann die Aktion beendet oder unterbrochen werden.
+>Größere Dateien benötigen mehr Zeit zum Hochladen, und wenn Ihre Verbindung nicht stabil ist, kann die Aktion beendet oder unterbrochen werden.
 
 ## Statische Dateien
 
@@ -51,71 +51,71 @@ Workfront hat die folgenden Beschränkungen:
 > * XLTX - Microsoft Excel-Vorlage
 > * EPS - Encapsulated PostScript
 
-* ABC - LEAD Advanced Bitonal Compression
-* ABIC - Adaptive Bild-Komprimierung auf biologischer Ebene
-* AFP - Erweiterte Funktionsdarstellung
-* AI - Adobe Illustrator Artwork
-* ANI - Windows Animated Cursor
-* Format &quot;ANZ - Mayo Clinic Analyze&quot;
+* ABC - Erweiterte bitonale Komprimierung für LEAD
+* ABIC - Adaptive zweistufige Bildkomprimierung
+* AFP - Präsentation erweiterter Funktionen
+* KI - Adobe Illustrator Artwork
+* ANI - Animierter Windows-Cursor
+* ANZ - Mayo Clinic Analyseformat
 * ARW - Sony Raw-Format
 * AWD - Microsoft Fax
-* BMP - Bitmap-Formate für Windows und OS/2
-* CAL - CALS Raster
-* CGM - Metafile für Computergrafiken
+* BMP - Bitmap-Formate Windows und OS/2
+* CAL - CALS-Raster
+* CGM - Computer Graphics Metafile
 * CIN - Kodak Cineon
 * CLP - Windows-Zwischenablage
-* CMP - LEAD komprimiert
-* CMW - LEAD Wavelet komprimiert
+* CMP - Lead komprimiert
+* CMW - Lead Wavelet-komprimiert
 * CMX - Corel Presentation Exchange
 * CR2 - Canon Raw
 * CRW - Canon Raw
 * CUR - Windows-Cursor
 * CUT - Dr. Halo
-* DGN - Schnittstellendesign
+* DGN - Intergraph Design
 * DOC - Microsoft Word-Dokument
 * DOCX - Microsoft Word-Dokument
-* DCR - Kodak Digital Camera
-* DCS - Kodak Digital Camera System
+* DCR - Kodak Digitalkamera
+* DCS - Kodak Digitalkamerasystem
 * DCM - DICOM
 * DCX - Pinsel
 * DNG - Adobe Digital Negative
 * DOC - Microsoft Word-Dokument
-* DOCX - Microsoft Word Document 2007
+* DOCX - Microsoft Word-Dokument 2007
 * DRW - DRaWing
 * DWF - AutoDesk-Vektor
-* ECW - Verbesserter komprimierter Wavelet
-* EMF - Windows-Metadatendatei
-* EXIF - Format der austauschbaren Bilddatei
+* ECW - Verbessertes komprimiertes Wavelet
+* EMF - Windows-Metadatei
+* EXIF - austauschbares Bilddateiformat
 * FAX - LaserView Laserdaten
 * FITS - Flexibles Bildtransportsystem
-* FLC - Animation
+* FLC - Flic-Animation
 * FPX - Kodak FlashPix
 * GBR - Gerber GIF - CompuServe
-* GIF - Graphics Interchange Format (animiertes GIF nur im neuen Workfront Proof Viewer)
+* GIF - Graphics Interchange Format (nur animiertes GIF im neuen Workfront Proof Viewer)
 * GIF HDP - Windows HD Foto
-* ICO - Windows-Symbol
-* IFF - Dateiformat Interchange
-* IOCA - Inhaltsarchitektur von Bildobjekten
-* IMG - GEM-Bild
+* SYMBOL - Windows-Symbol
+* IFF - Dateiformat austauschen
+* IOCA - Bildobjekt-Inhaltsarchitektur
+* IMG - GEM Bild
 * ITG - Intergraph
 * JBG - JBIG
 * JB2 - JBIG2
 * JPG - Joint Fotografic Experts Group (JPEG)
-* JPEG-XR - Windows Media Foto/HD Foto (HDP)
+* JPEG-XR - Windows Media Foto / HD Foto (HDP)
 * JPEG-LS - JPEG verlustfrei
 * J2K - JPEG 2000
 * JP2 - JPEG 2000 komprimiert
-* JPM - JPEG 2000 Part 6
-* JPX - JPEG 2000 Part 2
-* KDC - Kodak Digital Camera
+* JPM - JPEG 2000 Teil 6
+* JPX - JPEG 2000 Teil 2
+* KDC - Kodak Digitalkamera
 * MAC - MacPaint
-* MIF - MapInfo-Interchange
-* MNG - mehrere Netzwerkgrafiken
-* MO:DCA - Mixed Object: Document Content Architecture
+* MIF - MapInfo Interchange
+* MNG - Mehrere Netzwerkgrafiken
+* MO:DCA - Gemischtes Objekt: Dokumentinhaltsarchitektur
 * MSP - Microsoft Paint
-* MRC - LEAD-gemischte Rasterinhalte
+* MRC - Inhalt des gemischten Lead-Rasters
 * MRC - T.44 Mixed Raster Content
-* NAP - Syntax des nordamerikanischen Presentation Layer Protocol (NAPLPS)
+* NAP (North American Presentation Layer Protocol Syntax)
 * NEF - Nikon Electronic Format
 * NITF - National Imagery Transmission Format
 * NRW - Nikon Raw-Format
@@ -124,43 +124,43 @@ Workfront hat die folgenden Beschränkungen:
 * PCD - Kodak Foto CD
 * PCL - Printer Command Language
 * PCL6 - Printer Command Language
-* PCT - Macintosh-Pict
+* PCT - Macintosh Pict
 * PCX - Pinsel
 * PDF - Adobe Portable Document File
 * PGM - Portable Bitmap Utilities
-* PLT - HPGL Plotter
+* PLT - HPGL-Plotter
 * PNG - Portable Network Graphics
 * PNM - Portable Bitmap Utilities
 * PPM - Portable Bitmap Utilities
 * PPT - PowerPoint-Präsentation
-* PPTX - PowerPoint Präsentation 2007 PS - PostScript-Datei
+* PPTX - PowerPoint Presentation 2007 PS - PostScript-Datei
 * PSD - PHOTOSHOP
 * PSP - Paint Shop Pro
 * PTK - PTOCA
-* RAS - SUN Raster
-* RAF - Fujifilm Raw-Format
-* Rohdaten
+* RAS - SUN-Raster
+* RAF - Fujifilm Raw Format
+* RAW - Rohdaten
 * RTF - Rich-Text
-* RW2 - Panasonic Raw-Format
-* SCT - Scitex-Kontinuierlicher Ton
+* RW2 - Panasonic RAW-Format
+* SCT - Scitex Dauerton
 * SFF - Strukturiertes Faxformat
-* SGI - Silicon Graphics Image
+* SGI - Grafik aus Silizium
 * SHP - ESRI-Form
-* SMP - Xionik
-* SNP - Überblick über den Microsoft-Zugriffsbericht
-* SR2 - Sony Raw-Format
-* SRF - Sony Raw-Format
+* SMP - Xionics
+* SNP - Snapshot des Microsoft-Zugriffsberichts
+* SR2 - Sony RAW-Format
+* SRF - Sony Rohformat
 * SVG - Skalierbare Vektorgrafiken
-* TDB - Microsoft Windows Thumbnail Cache
-* TFX - Internet Fax
+* TDB - Microsoft Windows-Miniaturansichts-Cache
+* TFX - Internet-Fax
 * TGA - Truevision TARGA
-* TIFF - Tagged Image File Format
-* TIFX - Xerox Internet Fax File
+* TIFF - Dateiformat des getaggten Bildes
+* TIFX - Xerox Internet-Faxdatei
 * VFF - Sun TAAC-Bitmap
 * WBMP - Wireless-Bitmap
 * WFX - WinFax
-* WMF - Windows-Metadatendatei
-* WMZ - Komprimierte Windows-Metadatendatei
+* WMF - Windows-Metadatei
+* WMZ - Komprimierte Windows-Metadatei
 * WPG - Vector WordPerfect Graphic
 * XBM - XBitMap
 * XLS - Microsoft Excel-Tabelle
@@ -169,7 +169,7 @@ Workfront hat die folgenden Beschränkungen:
 * XPS - XML Paper Specification
 * XWD - X WindowDump
 
-## Statische Dateien - Text-Tool
+## Statische Dateien - Textwerkzeug
 
 >[!IMPORTANT]
 > Die folgenden statischen Dateitypen für das Text-Tool werden nicht mehr unterstützt:
@@ -178,19 +178,19 @@ Workfront hat die folgenden Beschränkungen:
 > * DOTX - Microsoft Word-Dokumentvorlage
 > * POT - Microsoft PowerPoint-Vorlage
 > * POTX - Microsoft PowerPoint-Vorlage
-> * PPS: Microsoft PowerPoint-Diashow
-> * PPSX: Microsoft PowerPoint-Diashow
-> * XLT: Microsoft Excel-Vorlage
-> * XLTX: Microsoft Excel Vorlage
+> * PPS - Microsoft PowerPoint-Bildschirmpräsentation
+> * PPSX - Microsoft PowerPoint-Bildschirmpräsentation
+> * XLT - Microsoft Excel-Vorlage
+> * XLTX - Microsoft Excel-Vorlage
 
 
-* KI – Adobe Illustrator Kunstwerk
-* AIT - Adobe Illustrator Vorlage
+* KI - Adobe Illustrator Artwork
+* AIT - Adobe Illustrator-Vorlage
 * DOC - Microsoft Word-Dokument
 * DOCX - Microsoft Word-Dokument
-* PDF - Adobe Systems Portable Document Datei
-* PPT- PowerPoint-Präsentation
-* PPTX - PowerPoint Präsentation 2007 PS - PostScript-Datei
+* PDF - Adobe Portable Document File
+* PPT - PowerPoint-Präsentation
+* PPTX - PowerPoint Presentation 2007 PS - PostScript-Datei
 * PSD - PHOTOSHOP
 * RTF - Rich-Text
 * XLS - Microsoft Excel-Tabelle
@@ -210,16 +210,16 @@ Workfront hat die folgenden Beschränkungen:
 * MOV
 * MP4
 * MPG
-* VOB (nur unverschlüsselte VOBs)
+* VOB (nur unverschlüsselte VOB)
 * Flash
 * Windows Media/VC-1
 * 3GP/3G2
 * Ogg Theora
 * MJPEG
 * DV
-* Raw YUV/RGB
+* Roh YUV/RGB
 * MKV
-* Eingabe-Audio-Codecs (Teil des Videos)
+* Audio-Codecs eingeben (Teil des Videos)
 
    * MP3
    * AAC/AAC-HE
@@ -234,18 +234,18 @@ Workfront hat die folgenden Beschränkungen:
 * WAV
 * AIF
 
-## Webaufzeichnungen
+## Web-Erfassung
 
-Sie können Testsendungen für statische Webseiten erstellen. Weitere Informationen finden Sie unter [Erstellen eines statischen Testversands für eine Website oder andere Webinhalte](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md) und [Erstellen eines statischen Website-Testversands mit Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
+Sie können statische Web-Seiten-Korrekturabzüge erstellen. Weitere Informationen finden Sie unter [Erstellen eines statischen Korrekturabzugs für eine Website oder einen anderen Web](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/generate-static-proof-website-other-web-content.md)Inhalt und [Erstellen eines statischen Website-Korrekturabzugs mit Workfront Proof](../../../workfront-proof/wp-tech-corner/proof-types/create-status-web-proof.md).
 
-## ZIP-Dateien
+## Zip-Dateien
 
-Aus Sicherheitsgründen unterstützen oder extrahieren wir keine Dateien aus ZIP-Dateien. Dekomprimieren Sie die Dateien, bevor Sie sie hochladen. Andernfalls wird der Upload nicht fehlschlagen.
+Aus Sicherheitsgründen unterstützen oder extrahieren wir keine Dateien aus ZIP-Dateien. Entpacken Sie die Dateien, bevor Sie sie hochladen. Andernfalls schlägt der Upload nicht fehl.
 
-Sie können ZIP-Dateien nur dann senden, wenn sie ein vollständiges interaktives Projekt enthalten und für Ihr Konto interaktive Funktionen aktiviert sind (Premium-Pläne).
+Sie können ZIP-Dateien nur senden, wenn sie ein vollständiges interaktives Projekt enthalten und für Ihr Konto interaktive Funktionen aktiviert sind (Premium-Pläne).
 
-Weitere Informationen finden Sie unter [Übersicht über interaktive Inhaltsanalysen](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
+Weitere Informationen finden Sie unter [Übersicht über Korrekturabzüge für interaktive Inhalte](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-## InDesign- und Quark-Dateien
+## InDesign und Quark Dateien
 
-InDesign- und Quark-Dateien werden nicht unterstützt, da es sich nicht um eigenständige Dateitypen handelt und sie auf zahlreiche andere Dateien wie Bilder und Schriftarten verweisen. Die Ausgabe aus diesen Dateitypen hängt von den Ausgabeeinstellungen ab. Wir empfehlen Kunden, InDesign- und Quark-Dateien als PDF zu speichern und die PDF hochzuladen.
+InDesign- und Quark-Dateien werden nicht unterstützt, da es sich nicht um eigenständige Dateitypen handelt und sie auf viele andere Dateien wie Bilder und Schriftarten verweisen. Die Ausgabe in diesen Dateitypen hängt von den Ausgabeeinstellungen ab. Wir empfehlen Kunden, InDesign- und Quark-Dateien als PDF zu speichern und die PDF hochzuladen.

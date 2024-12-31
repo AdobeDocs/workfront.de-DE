@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: timesheets
 navigation-topic: tips-tricks-and-troubleshooting-timesheets
-title: Verhindern Sie, dass die Aktion "Finanzen neu berechnen"historische Stunden beeinflusst, wenn sich die Beträge ändern
-description: Sie müssen die stündlichen Kosten für einen Benutzer oder eine Rolle im Arbeitsbereich aktualisieren (aufgrund einer Erhöhung oder eines anderen Umstands). Sie möchten jedoch nicht, dass diese Änderung sich auf Stunden auswirkt, die zuvor in Projekten protokolliert wurden, oder dass sie sich nur auf einen Teil historischer Stunden auswirkt.
+title: Verhindern, dass sich die Aktion „Finanzen neu berechnen“ auf historische Stunden auswirkt, wenn sich die Sätze ändern
+description: Sie müssen die Stundenkosten für einen Benutzer oder ein Aufgabengebiet aktualisieren (aufgrund einer Erhöhung oder eines anderen Umstands), aber Sie möchten nicht, dass sich diese Änderung auf Stunden auswirkt, die zuvor in Projekten protokolliert wurden, oder Sie möchten, dass sie nur einen Teil der historischen Stunden betrifft.
 author: Alina
 feature: Timesheets
 exl-id: 29d3124b-cf7a-4a47-95c4-cd5379489810
@@ -14,12 +14,12 @@ ht-degree: 0%
 
 ---
 
-# Verhindern Sie, dass die Aktion &quot;Finanzen neu berechnen&quot;historische Stunden beeinflusst, wenn sich die Beträge ändern
+# Verhindern, dass sich die Aktion „Finanzen neu berechnen“ auf historische Stunden auswirkt, wenn sich die Sätze ändern
 
 ## Problem
 
-Sie müssen die stündlichen Kosten für einen Benutzer oder eine Rolle im Arbeitsbereich aktualisieren (aufgrund einer Erhöhung oder eines anderen Umstands). Sie möchten jedoch nicht, dass diese Änderung sich auf Stunden auswirkt, die zuvor in Projekten protokolliert wurden, oder dass sie sich nur auf einen Teil historischer Stunden auswirkt.
+Sie müssen die Stundenkosten für einen Benutzer oder ein Aufgabengebiet aktualisieren (aufgrund einer Erhöhung oder eines anderen Umstands), aber Sie möchten nicht, dass sich diese Änderung auf Stunden auswirkt, die zuvor in Projekten protokolliert wurden, oder Sie möchten, dass sie nur einen Teil der historischen Stunden betrifft.
 
 ## Lösung
 
-Fügen Sie die Stunden, die Sie nicht ändern möchten, zu einem Rechnungsdatensatz im Projekt hinzu und setzen Sie den Status des Abrechnungsdatensatzes auf &quot;Abgerechnet&quot;.  Dies hängt von der alten Rate ab und wird von der Aktion Finanzen neu berechnen ignoriert.  Alle Stunden, die nicht zu einem abrechnungsfähigen Datensatz gehören, werden zum neuen Tarif berechnet. Weitere Informationen finden Sie unter [Neuberechnen der Projektfinanzen](../../manage-work/projects/project-finances/recalculate-project-finances.md).
+Fügen Sie die Stunden hinzu, die Sie nicht in einen Rechnungsnachweis für das Projekt ändern möchten, und legen Sie den Status des Rechnungsnachweises auf In Rechnung gestellt fest.  Dadurch wird der alte Satz gesperrt und die Aktion „Finanzen neu berechnen“ ignoriert.  Alle Stunden, die nicht zu einem Rechnungsnachweis gehören, werden mit dem neuen Satz berechnet. Weitere Informationen finden Sie unter [Projektfinanzen neu berechnen](../../manage-work/projects/project-finances/recalculate-project-finances.md).

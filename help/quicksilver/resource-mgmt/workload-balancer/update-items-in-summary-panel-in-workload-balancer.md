@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung
-description: Sie können das Bedienfeld "Zusammenfassung"im Arbeitslastausgleich öffnen, um Arbeitselemente in den Bereichen Zugewiesene und nicht zugewiesene Arbeit zu aktualisieren.
+title: Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung
+description: Sie können das Bedienfeld Zusammenfassung im Workload Balancer öffnen, um Arbeitselemente in den Bereichen Zugewiesene und Nicht zugewiesene Arbeit zu aktualisieren.
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
@@ -13,15 +13,15 @@ ht-degree: 2%
 
 ---
 
-# Aktualisieren von Arbeitselementen im Arbeitslastausgleich mithilfe der Zusammenfassung
+# Aktualisieren von Arbeitselementen im Workload Balancer mithilfe der Zusammenfassung
 
-Sie können das Bedienfeld Zusammenfassung einer Aufgabe oder eines Problems verwenden, um wichtige Informationen zu diesem Element zu aktualisieren. im Lastenausgleich.
+Sie können das Bedienfeld Zusammenfassung einer Aufgabe oder eines Problems verwenden, um wichtige Informationen für dieses Element zu aktualisieren. im Workload Balancer.
 
-Das Bedienfeld Zusammenfassung ist für Aufgaben und Probleme sowohl in den Bereichen Zugewiesene als auch nicht zugewiesene Arbeit des Workload Balancer verfügbar.
+Das Bedienfeld Zusammenfassung ist für Aufgaben und Probleme sowohl im Bereich Zugewiesene als auch Nicht zugewiesene Arbeit des Workload-Balancer verfügbar.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,19 +30,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
        <p>oder</p>
-       <p>Aktuell: Planen Sie bei Verwendung des Workload-Balancers im Ressourcenbereich;</br>
-       Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p></td>
+       <p>Aktuell: Plan, wenn der Workload Balancer im Bereich „Ressourcen“ verwendet wird</br>
+       Arbeit bei Verwendung des Workload Balancer eines Teams oder Projekts</p></td>
   </tr>
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Bearbeiten Sie den Zugriff auf Folgendes:</p> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Folgendes bearbeiten:</p> 
     <ul> 
      <li>Ressourcenverwaltung</li> 
      <li>Projekte</li> 
@@ -58,43 +58,43 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Aktualisieren von Aufgaben und Problemen im Bereich &quot;Workload Balancer Summary&quot;
+## Aktualisieren von Aufgaben und Problemen im Zusammenfassungsbereich des Workload-Balancer
 
-1. Wechseln Sie zum Lastenausgleich.
+1. Navigieren Sie zum Workload Balancer.
 
-   Der Arbeitslastausgleich zeigt Arbeitszuweisungsinformationen an, die mit der aktuellen Woche beginnen.
+   Der Workload Balancer zeigt Arbeitsauftragsinformationen an, die mit der aktuellen Woche beginnen.
 
-1. Gehen Sie zum Bereich **Nicht zugewiesene Arbeit** und suchen Sie nach einem Arbeitselement.
-
-   Oder
-
-   Wechseln Sie zum Bereich **Zugewiesene Arbeit** , erweitern Sie einen Benutzer und suchen Sie nach einem Arbeitselement.
-
-1. Klicken Sie auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung auf der rechten Seite zu öffnen.
+1. Wechseln Sie zum Bereich **Nicht zugeordnete Arbeit** und suchen Sie ein Arbeitselement.
 
    Oder
 
-   Klicken Sie auf das Symbol **Zusammenfassung öffnen** ![](assets/summary-panel-icon.png) und dann auf die Leiste einer Aufgabe oder eines Problems, um das Bedienfeld &quot;Zusammenfassung&quot;zu öffnen.
+   Wechseln Sie zum Bereich **Zugewiesene Arbeit**, erweitern Sie einen Benutzer und suchen Sie ein Arbeitselement.
+
+1. Klicken Sie auf den Balken einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung auf der rechten Seite zu öffnen.
 
    Oder
 
-   Klicken Sie auf das Menü **Mehr** rechts neben einer Aufgabe oder einem Problem und klicken Sie dann auf **Zusammenfassung öffnen**.![](assets/more-icon.png)
+   Klicken Sie **das Symbol** Zusammenfassung öffnen![](assets/summary-panel-icon.png) und dann auf den Balken einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung zu öffnen.
 
-   Das Bedienfeld &quot;Zusammenfassung&quot;wird rechts geöffnet.
+   Oder
 
-   ![Bedienfeld &quot;Zusammenfassung&quot;](assets/summary-panel-task-wb-new-comments.png)
+   Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben einer Aufgabe oder einem Problem und klicken Sie dann auf **Zusammenfassung öffnen**.
 
-1. Ändern Sie eine Reihe von Feldern für das Arbeitselement, geben Sie eine Aktualisierung ein oder navigieren Sie von hier zu anderen Bereichen von Workfront, um Dokumente oder andere Informationen zum Arbeitselement hinzuzufügen.
+   Das Bedienfeld Zusammenfassung wird auf der rechten Seite geöffnet.
+
+   ![Bedienfeld Zusammenfassung](assets/summary-panel-task-wb-new-comments.png)
+
+1. Ändern Sie eine Reihe von Feldern für das Arbeitselement, geben Sie eine Aktualisierung ein oder gehen Sie von hier zu anderen Bereichen von Workfront, um Dokumente oder andere Informationen zum Arbeitselement hinzuzufügen.
 
    >[!CAUTION]
    >
-   >Wenn Sie von der Zusammenfassung zum Abschnitt mit Teilaufgaben navigieren, um Unteraufgaben hinzuzufügen, wird die ursprüngliche Aufgabe entfernt, da übergeordnete Aufgaben nicht im Arbeitslastausgleich angezeigt werden.
+   >Durch die Navigation vom Abschnitt Zusammenfassung zum Abschnitt Teilaufgaben zum Hinzufügen von Teilaufgaben wird die ursprüngliche Aufgabe entfernt, da übergeordnete Aufgaben im Workload Balancer nicht angezeigt werden.
 
-   Weitere Informationen zum Aktualisieren von Informationen mithilfe der Zusammenfassung finden Sie unter [Übersicht der Zusammenfassung](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
+   Weitere Informationen zum Aktualisieren von Informationen mithilfe der Zusammenfassung finden Sie unter [Übersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
-1. (Bedingt) Wenn Sie einen der Abschnitte des Arbeitselements geöffnet haben, klicken Sie auf die Schaltfläche **Zurück** Ihres Browsers, um zum Arbeitsladeausgleich zurückzukehren.
-1. Klicken Sie auf das Symbol **Schließen** ![](assets/close-icon.png) in der oberen rechten Ecke der Zusammenfassung, um sie zu schließen.
+1. (Bedingt) Wenn Sie einen der Abschnitte des Arbeitselements geöffnet haben, klicken Sie im Browser auf die Schaltfläche **Zurück**, um zum Workload-Balancer zurückzukehren.
+1. Klicken Sie auf **Schließen**-Symbol ![](assets/close-icon.png) in der oberen rechten Ecke der Zusammenfassung, um sie zu schließen.

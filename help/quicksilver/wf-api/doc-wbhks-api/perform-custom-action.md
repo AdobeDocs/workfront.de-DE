@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Benutzerdefinierte Aktion ausführen
-description: Benutzerdefinierte Aktion ausführen
+title: Durchführen einer benutzerdefinierten Aktion
+description: Durchführen einer benutzerdefinierten Aktion
 author: Becky
 feature: Workfront API
 role: Developer
@@ -16,17 +16,17 @@ ht-degree: 1%
 ---
 
 
-# Benutzerdefinierte Aktion ausführen (noch nicht implementiert)
+# Durchführen einer benutzerdefinierten Aktion (noch nicht implementiert)
 
-Dieser Endpunkt ermöglicht es einem Adobe Workfront-Benutzer (oder einem automatisierten Workflow-Ereignis), eine Aktion im externen System durchzuführen. Der Endpunkt /customAction akzeptiert einen Parameter &quot;name&quot;, der es dem Webhook-Provider ermöglicht, mehrere benutzerdefinierte Vorgänge zu implementieren.
+Dieser Endpunkt ermöglicht es einem Adobe Workfront-Benutzer (oder einem automatisierten Workflow-Ereignis), eine Aktion im externen System durchzuführen. Der /customAction-Endpunkt akzeptiert einen „name“-Parameter, mit dem der Webhook-Anbieter mehrere benutzerdefinierte Vorgänge implementieren kann.
 
-Der Webhook-Provider registriert benutzerdefinierte Aktionen bei Workfront, indem er die Aktionen in die Antwort /serviceInfo unter customActions einbezieht. Workfront lädt diese Liste beim Einrichten oder Aktualisieren des Webhook-Providers unter Einrichtung > Dokumente > Benutzerdefinierte Integrationen.
+Der Webhook-Anbieter registriert benutzerdefinierte Aktionen bei Workfront, indem er die Aktionen in die /serviceInfo-Antwort unter customActions aufnimmt. Workfront lädt diese Liste, wenn Sie den Webhook-Anbieter unter Einrichtung > Dokumente > Benutzerdefinierte Integrationen einrichten oder aktualisieren.
 
-Benutzer können die benutzerdefinierte Aktion durch Auswahl des Bereichs unter &quot;Dokumentaktionen&quot;Trigger haben.
+Benutzerinnen und Benutzer können die benutzerdefinierte Aktion mit Triggern versehen, indem sie den Abschnitt unter „Dokumentaktionen“ auswählen
 
 **URL**
 
-GET /customAction
+GET/customAction
 
 ## Abfrageparameter
 
@@ -35,31 +35,31 @@ GET /customAction
  <col> 
  <thead> 
   <tr> 
-   <th>Name </th> 
+   <th>-Name </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td> <p>name</p> </td> 
-   <td> <p>Die Kennung, die die Art der auszuführenden Aktion angibt. Dieser Wert entspricht einem der customAction -Werte, die vom Endpunkt /serviceInfo zurückgegeben werden.</p> </td> 
+   <td> <p>Die Kennung, die den Typ der auszuführenden Aktion angibt. Dieser Wert entspricht einem der customAction-Werte, die vom Endpunkt /serviceInfo zurückgegeben werden.</p> </td> 
   </tr> 
   <tr> 
    <td>documentId </td> 
-   <td>Die Dokument-ID der Arbeitsfläche, für die die Aktion ausgeführt wird.</td> 
+   <td>Die Workfront-Dokument-ID, für die die Aktion ausgeführt wird.</td> 
   </tr> 
   <tr> 
    <td>documentVersionId </td> 
-   <td> Die Kennung der Dokumentversion, für die die Aktion ausgeführt wird.</td> 
+   <td> Die ID der Workfront-Dokumentversion, für die die Aktion ausgeführt wird.</td> 
   </tr> 
  </tbody> 
 </table>
 
  
 
-## Reaktion
+## Antwort
 
-Eine JSON-Zeichenfolge, die den Erfolg oder Fehler angibt, wie im Abschnitt Umgang mit Fehlern unten angegeben. Bei einem Fehler (d. h. Status = &quot;Fehler&quot;) zeigt Workfront die bereitgestellte Fehlermeldung an.
+Eine JSON-Zeichenfolge, die Erfolg oder Fehler anzeigt, wie im Abschnitt Fehlerbehandlung unten angegeben. Bei einem Fehler (d. h. Status = „Fehler„) zeigt Workfront dem Benutzer die bereitgestellte Fehlermeldung an.
 
 **Beispiel:**
 
@@ -67,7 +67,7 @@ Eine JSON-Zeichenfolge, die den Erfolg oder Fehler angibt, wie im Abschnitt Umga
 https://sample.com/webhooks/customName?name=archive&documentId=5502082c003a4f30 ddec2fb2b739cb7c&documentVersionId=54b598a700e2342d6971597a5df1a8d3
 ```
 
-response
+Antwort
 
 ```
 {

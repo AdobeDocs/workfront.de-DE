@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Dokument in Workfront überprüfen
-description: Als Validierer können Sie eine Vorschau eines Dokuments anzeigen, das Ihnen zur Überprüfung übermittelt wurde.
+title: Überprüfen eines Dokuments in Workfront
+description: Als Reviewer können Sie eine Vorschau eines Dokuments anzeigen, das Ihnen zur Überprüfung übermittelt wurde.
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Dokument in Workfront überprüfen
+# Überprüfen eines Dokuments in Workfront
 
-Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung übermittelt wurde. Im Gegensatz zu einer Validierung treffen Sie keine Entscheidung. Stattdessen bestätigen Sie, dass Sie das Asset überprüft haben.
+Als Prüfer können Sie ein Dokument anzeigen, das Ihnen zur Überprüfung übermittelt wurde. Im Gegensatz zu einer Genehmigung treffen Sie keine Entscheidung. Stattdessen bestätigen Sie, dass Sie das Asset überprüft haben.
 
 >[!IMPORTANT]
 >
->Der Inhalt dieses Artikels bezieht sich auf die aktualisierte Funktion zur Dokumentgenehmigung, die nur für bestimmte Konten verfügbar ist. Informationen zu Standardgenehmigungsverfahren finden Sie in den Artikeln unter [Arbeitsgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
+>Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,24 +33,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Objekte, die Genehmigungen zugeordnet sind, anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Objekte, die mit Genehmigungen verknüpft sind, anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verbunden sind</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
@@ -59,40 +59,40 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Add once functionality is added
 -->
 
-## Dokument von der Dokumentseite aus überprüfen
+## Überprüfen eines Dokuments auf der Dokumentseite
 
-1. Klicken Sie auf den Namen des Dokuments, um zur Dokumentseite zu gelangen.
+1. Navigieren Sie zur Dokumentseite, indem Sie auf den Namen des Dokuments klicken.
 
-1. Wählen Sie im Dropdown-Menü die Version des Dokuments aus, das Sie überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
+1. Wählen Sie in der Dropdown-Liste die Version des Dokuments aus, das Sie überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Bewegen Sie den Mauszeiger über das Dokument im Feld &quot;Vorschau&quot;. Anschließend können Sie entweder:
+1. Bewegen Sie den Mauszeiger über das Dokument im Vorschaufeld. Dann entweder:
 
-   Klicken Sie auf **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
-
-   ODER
-
-   Klicken Sie auf **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
-
-1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie im Abschnitt **Aktualisierungen** des Dokuments einen Kommentar für den Anforderer hinterlassen. Weitere Informationen zu Kommentaren finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.
-
-## Überprüfen eines Dokuments im Bereich &quot;Dokumentzusammenfassung&quot;
-
-1. Wechseln Sie zum Projekt, zur Aufgabe oder zum Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente** aus.
-
-1. Klicken Sie auf das gewünschte Dokument und der Bereich Dokumentzusammenfassung wird geöffnet.
-
-1. Wählen Sie die Version des Dokuments aus, das Sie im Dropdown-Menü Version überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
-
-1. Bewegen Sie den Mauszeiger über die Vorschau des Dokuments im Abschnitt **Details** oben im Bereich &quot;Dokumentzusammenfassung&quot;. Anschließend können Sie entweder:
-
-   Klicken Sie auf **Vorschau** , um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
+   Klicken Sie **Vorschau**, um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
 
    ODER
 
-   Klicken Sie auf **Herunterladen** , um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
+   Klicken Sie **Herunterladen**, um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
 
-1. (Optional) Nachdem Sie das Dokument überprüft haben, können Sie im Abschnitt **Aktualisierungen** des Dokuments einen Kommentar für den Anforderer hinterlassen. Weitere Informationen zu Kommentaren finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Nachdem Sie das Dokument geprüft haben, können Sie dem Anforderer im Abschnitt **des Dokuments einen Kommentar**. Weitere Informationen zum Kommentieren finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Um aufzuzeichnen, dass Sie Ihre Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.
 
-1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie zum Abschnitt &quot;**Versionen**&quot;der Dokumentzusammenfassung scrollen und dann auf das Symbol &quot;Mehr&quot;![](../assets/more-icon.png) neben der Version klicken, die Sie überprüfen möchten, und &quot;**Download**&quot;oder &quot;**Vorschau**&quot;auswählen.
-1. Um aufzuzeichnen, dass Sie die Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.
+## Überprüfen eines Dokuments im Bereich Dokumentzusammenfassung
+
+1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
+
+1. Klicken Sie auf das gewünschte Dokument. Daraufhin wird der Bereich Dokumentzusammenfassung geöffnet.
+
+1. Wählen Sie in der Dropdown-Liste Version die Version des Dokuments aus, das Sie überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
+
+1. Bewegen Sie den Mauszeiger über die Vorschau des Dokuments **Abschnitt** Details“ oben im Bereich Dokumentzusammenfassung. Dann entweder:
+
+   Klicken Sie **Vorschau**, um eine schreibgeschützte Version des Dokuments in einem neuen Fenster zu öffnen.
+
+   ODER
+
+   Klicken Sie **Herunterladen**, um eine lokale Kopie des Dokuments auf Ihr Gerät herunterzuladen.
+
+1. (Optional) Nachdem Sie das Dokument geprüft haben, können Sie dem Anforderer im Abschnitt **des Dokuments einen Kommentar**. Weitere Informationen zum Kommentieren finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+
+1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie zum Abschnitt **Versionen** des Bereichs „Dokumentzusammenfassung“ scrollen und dann auf das Symbol Mehr ![](../assets/more-icon.png) neben der Version klicken, die Sie überprüfen möchten, und **Herunterladen** oder **Vorschau** auswählen.
+1. Um aufzuzeichnen, dass Sie Ihre Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.

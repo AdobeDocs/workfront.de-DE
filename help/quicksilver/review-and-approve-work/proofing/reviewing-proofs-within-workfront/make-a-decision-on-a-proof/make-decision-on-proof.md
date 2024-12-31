@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: 'Entscheidungsfindung über einen Testversand: Artikelindex'
-description: Testversand genehmigen
+title: 'Entscheidung über einen Korrekturabzug treffen: Artikelindex'
+description: Korrekturabzug genehmigen
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# Entscheidungsfindung über einen Testversand: Artikelindex
+# Entscheidung über einen Korrekturabzug treffen: Artikelindex
 
-* [Testversand genehmigen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
-* [Entscheidungsfindung über einen Testversand im Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
-* [Vorhandene Entscheidung für einen Testversand ändern](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)
+* [Korrekturabzug genehmigen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/approve-proof.md)
+* [Treffen einer Entscheidung über einen Korrekturabzug in der Korrekturabzugsansicht](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/make-decisions-on-proof.md)
+* [Ändern einer vorhandenen Entscheidung zu einem Korrekturabzug](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/make-a-decision-on-a-proof/change-existing-decision.md)

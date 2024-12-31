@@ -1,8 +1,8 @@
 ---
 product-area: timesheets
 navigation-topic: create-and-manage-timesheets
-title: Ein Datenblatt genehmigen
-description: Der Prozess der Genehmigung von Timesheets bietet Managern einen Einblick in die Arbeitszeiten ihrer direkten Berichte. Die Genehmiger können überprüfen, ob die aufgezeichnete Zeit in den richtigen Bereichen zugewiesen wurde und ob für den betreffenden Zeitraum eine ausreichende Anzahl von Stunden aufgezeichnet wurde.
+title: Arbeitszeittabelle genehmigen
+description: Der Prozess der Genehmigung von Arbeitszeittabellen bietet Managern Einblick in die Arbeitszeit ihrer direkt unterstellten Mitarbeiter. Die genehmigenden Personen können überprüfen, ob alle aufgezeichneten Zeiten in den richtigen Bereichen aufgezeichnet wurden und ob eine ausreichende Anzahl von Stunden für den Zeitraum aufgezeichnet wurde.
 author: Alina
 feature: Timesheets
 exl-id: b27b3307-f61b-456d-8076-590d1c391b4b
@@ -13,19 +13,19 @@ ht-degree: 0%
 
 ---
 
-# Timesheet genehmigen
+# Arbeitszeittabelle genehmigen
 
 <!--Audited: 8/2024-->
 
-Der Prozess der Genehmigung von Timesheets bietet Managern einen Einblick in die Arbeitszeiten ihrer direkten Berichte. Die Genehmiger können überprüfen, ob die aufgezeichnete Zeit in den richtigen Bereichen zugewiesen wurde und ob für den betreffenden Zeitraum eine ausreichende Anzahl von Stunden aufgezeichnet wurde.
+Der Prozess der Genehmigung von Arbeitszeittabellen bietet Managern Einblick in die Arbeitszeit ihrer direkt unterstellten Mitarbeiter. Die genehmigenden Personen können überprüfen, ob alle aufgezeichneten Zeiten in den richtigen Bereichen aufgezeichnet wurden und ob eine ausreichende Anzahl von Stunden für den Zeitraum aufgezeichnet wurde.
 
-Adobe Workfront bietet die Möglichkeit, die Validierungen von Zeitblättern zu konfigurieren, um sie in diesem Bereich zu unterstützen.
+Adobe Workfront bietet die Möglichkeit, Arbeitszeittabellen-Genehmigungen zu konfigurieren, die in diesem Bereich unterstützt werden.
 
-Informationen zum Übermitteln eines Zeitblatts finden Sie unter [Zeitblatt zur Genehmigung einreichen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
+Informationen zum Senden einer Arbeitszeittabelle finden Sie unter [Senden einer Arbeitszeittabelle zur Genehmigung](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -36,16 +36,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><p>Adobe Workfront-Abo</p></td> 
-   <td> <p>Alle</p> </td> 
+   <td role="rowheader"><p>Adobe Workfront-Plan</p></td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p>Adobe Workfront-Lizenz*</p></td> 
    <td> <p>Neu: Standard</p>
    <p>Aktuell: Plan </p> 
    <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Administratorzugriff auf Timesheets und Stunden </p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Administrativer Zugriff auf Arbeitszeittabellen und Stunden </p> </td> 
   </tr>
 
 </td> 
@@ -53,79 +53,79 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Zeitblatt-Genehmiger bestimmen
+## Arbeitszeittabellen-Genehmiger bestimmen
 
-In der Regel werden Timesheets von funktionalen Managern oder Personal genehmigt. Timesheets werden in der Regel nicht von Projektmanagern genehmigt. Projektmanager können die in Projekten protokollierte Zeit genehmigen, Teams oder Personalverantwortliche sollten jedoch Zeitpläne genehmigen.
+Normalerweise werden Arbeitszeittabellen von funktionalen Managern oder Personalmitarbeitern genehmigt. Arbeitszeittabellen werden normalerweise nicht von Projektmanagern genehmigt. Projektmanager können die für Projekte aufgezeichnete Zeit genehmigen, Team- oder Personalmanager müssen jedoch Arbeitszeittabellen genehmigen.
 
-Bei der Erstellung des Datenblatt-Profils wird ein Timesheet-Genehmiger definiert. Sie müssen über eine Planungslizenz verfügen, um als Genehmiger benannt zu werden.
+Bei der Erstellung des Arbeitszeittabellen-Profils wird eine Person definiert, die Arbeitszeittabellen genehmigt. Sie müssen über eine Planlizenz verfügen, um als genehmigende Person benannt zu werden.
 
-Weitere Informationen zum Benennen von Timesheet-Genehmigern finden Sie im Abschnitt &quot;[Erstellen oder Bearbeiten eines Timesheet-Profils](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create)&quot;im Artikel &quot;[Erstellen, Bearbeiten und Zuweisen von Timesheet-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)&quot;.
+Weitere Informationen zum Bestimmen von Arbeitszeittabellen-Genehmigern finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Arbeitszeittabellen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md#create) im Artikel [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md).
 
-## Timesheet genehmigen
+## Arbeitszeittabelle genehmigen
 
-Sie können alle Timesheets genehmigen, die übermittelt wurden und in denen Sie als Genehmiger benannt wurden. Wenn ein Timesheet zur Genehmigung eingereicht wird, wird das Timesheet im Widget **Meine Genehmigungen** in Ihrem Bereich **Home** aufgelistet. Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können alle eingereichten Arbeitszeittabellen genehmigen, wenn Sie als genehmigende Person benannt wurden. Wenn eine Arbeitszeittabelle zur Genehmigung eingereicht wird, wird sie im Widget **Meine Genehmigungen** im Bereich **Startseite** aufgelistet. Weitere Informationen finden Sie unter [Arbeiten genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Wenn die folgenden Benachrichtigungseinstellungen vorhanden sind, erhält der Benutzer, der das Datenblatt zur Validierung einreicht, nach der Validierung des Datenblatts eine E-Mail:
+Wenn die folgenden Benachrichtigungseinstellungen eingerichtet sind, erhält der Benutzer, der die Arbeitszeittabelle zur Genehmigung einreicht, eine E-Mail, nachdem eine Arbeitszeittabelle genehmigt wurde:
 
-* Der Workfront-Administrator hat die Genehmigung des Zeitblatts für Benutzer und die Zurückweisung des Zeitblatts an Benutzer -Ereignishandler aktiviert. Weitere Informationen zum Aktivieren von Ereignisbenachrichtigungen finden Sie unter [Ereignislaufbenachrichtigungstypen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
-* Auf der Profilseite des Benutzers ist die Option Persönliche Benachrichtigung bestätigt. Weitere Informationen finden Sie unter [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
+* Der Workfront-Administrator hat die Arbeitszeittabellen-Genehmigung für den Benutzer und die Arbeitszeittabellen-Ablehnung für Benutzer-Ereignishandler aktiviert. Informationen zur Aktivierung von Ereignisbenachrichtigungen finden Sie [Ereignistypen](../../administration-and-setup/manage-workfront/emails/event-notifications-available-in-wf.md).
+* Die persönliche Benachrichtigung „Meine Arbeitszeittabelle ist genehmigt“ wird auf der Profilseite des Benutzers aktiviert. Weitere Informationen finden Sie unter [Eigene E-Mail-Benachrichtigungen ändern](/help/quicksilver/workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-### Timesheet im Bereich &quot;Timesheets&quot;genehmigen
+### Genehmigen einer Arbeitszeittabelle im Bereich Arbeitszeittabellen
 
 {{step1-to-timesheets}}
 
-Der Bereich **Timesheets** wird geöffnet.
+Der Bereich **Arbeitszeittabellen** wird geöffnet.
 
-1. (Bedingt) Wenn das letzte Mal, dass Sie auf Timesheets zugreifen, geöffnet wird, klicken Sie in der oberen linken Ecke des Bildschirms auf **Zurück zu Timesheets** .
+1. (Bedingt) Wenn Sie das letzte Mal, als Sie auf zugegriffen haben, geöffnet haben **klicken Sie in** linken oberen Ecke des Bildschirms auf „Zurück zu Arbeitszeittabellen“.
 
-1. Wählen Sie oben rechts auf der Seite die Option &quot;**My Timesheet Approvals**&quot;, um nur die von Ihnen genehmigten Timesheets anzuzeigen.
+1. Wählen Sie **Meine Arbeitszeittabellen-Genehmigungen** oben rechts auf der Seite aus, um nur die von Ihnen genehmigten Arbeitszeittabellen anzuzeigen
 
    Oder
 
-   Wählen Sie den Filter **Meine Timesheet-Genehmigungen** oben in der Timesheet-Liste aus.
+   Wählen Sie den Filter **Meine Arbeitszeittabellen** oben in der Arbeitszeittabellen-Liste aus.
 
    ![](assets/my-timesheet-approvals-my-timesheets-pills-on-timesheets-list-nwe-350x58.png)
 
    >[!NOTE]
    >
-   >Die Option &quot;Meine Timesheet-Genehmigungen&quot;wird nicht oben in der Liste der Zeitblätter oder in der Filterliste angezeigt, wenn Ihr Workfront-Administrator oder ein Gruppenadministrator den Filter Meine Zeitblatt-Genehmigungen entweder aus dem Bereich &quot;Listen-Steuerelemente&quot;im Bereich &quot;Einstellungen&quot;oder aus Ihrer Layout-Vorlage entfernt hat.
+   >Die Option Meine Arbeitszeittabellen-Genehmigungen wird nicht oben in der Arbeitszeittabellen-Liste oder in der Filterliste angezeigt, wenn Workfront-Admins oder Gruppenadmins den Filter Meine Arbeitszeittabellen-Genehmigungen entweder aus den Listensteuerelementen im Bereich Setup oder aus Ihrer Layoutvorlage entfernt haben.
    >
-   >Weitere Informationen finden Sie unter [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
+   >Weitere Informationen finden Sie [Anpassen von Filtern, Ansichten und Gruppierungen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-fvg-list-controls-layout-template.md)
    >   
    >
 
-1. (Optional) Klicken Sie oben in der Timesheet-Liste auf das Symbol **Suchen** ![](assets/search-icon.png) und geben Sie einen Suchbegriff ein, um nach einem bestimmten Timesheet zu suchen. Sie können nach einem Zeitrahmen, nach dem Namen eines Eigentümers oder Genehmigers suchen.
-1. Klicken Sie auf den Zeitrahmen des zu validierenden Zeitplans. Das Timesheet wird geöffnet.
+1. (Optional) Klicken Sie auf das **Suchen**-Symbol oben ![](assets/search-icon.png) in der Arbeitszeittabellenliste und geben Sie einen Suchbegriff ein, um eine bestimmte Arbeitszeittabelle zu finden. Sie können nach einem Zeitrahmen oder dem Namen eines Verantwortlichen oder einer genehmigenden Person suchen.
+1. Klicken Sie auf den Zeitrahmen für die Arbeitszeittabelle, die Sie genehmigen möchten. Die Arbeitszeittabelle wird geöffnet.
 
    >[!TIP]
    >
-   >Timesheets, die auf die Genehmigung warten, haben den Status &quot;[!UICONTROL Gesendet]&quot;.
+   >Arbeitszeittabellen, die auf Genehmigung warten, haben den Status [!UICONTROL Eingereicht].
 
 
-1. Klicken Sie auf **Genehmigen** .
+1. Klicken Sie auf **Genehmigen**
 
    Oder
 
-   Wenn Sie das Timesheet ablehnen möchten, klicken Sie in der linken unteren Ecke des Zeitblatts auf **Ablehnen** .
+   Wenn Sie die Arbeitszeittabelle ablehnen möchten, klicken **unten links** der Arbeitszeittabelle auf „Ablehnen“.
 
-   Falls genehmigt, ändert sich der Status des Zeitblatts in **Geschlossen**.
+   Wenn genehmigt, ändert sich der Status der Arbeitszeittabelle in **Geschlossen**.
 
-   Wenn die Änderung abgelehnt wird, ändert sich der Status des Zeitblatts in **Abgelehnt**.
+   Wenn er abgelehnt wird, ändert sich der Arbeitszeittabellen-Status in **Abgelehnt**.
 
-### Genehmigen von Timesheets über den Startbereich
+### Genehmigen von Arbeitszeittabellen im Bereich „Startseite“
 
 {{step1-to-home}}
 
-Der Startbereich wird geöffnet.
+Der Bereich Home wird geöffnet.
 
-1. Stellen Sie sicher, dass das Widget **Meine Genehmigungen** zu Ihrem Startbereich hinzugefügt wurde. Weitere Informationen finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
-1. Suchen Sie im Widget Meine Validierungen nach einer Timesheet-Validierung.
+1. Stellen Sie sicher, dass das Widget **Meine Genehmigungen** zu Ihrem Bereich Startseite hinzugefügt wurde. Weitere Informationen finden Sie unter [Hinzufügen, Bearbeiten oder Entfernen von Widgets in der neuen Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/add-edit-remove-widgets-in-new-home.md).
+1. Suchen Sie eine Arbeitszeittabellen-Genehmigung in Ihrem Widget Meine Genehmigungen .
 1. (Optional) Erweitern Sie das Dropdown-Menü rechts neben den Schaltflächen Genehmigen oder Ablehnen , um einen Kommentar zu Ihrer Entscheidung hinzuzufügen, und klicken Sie dann auf **Hinzufügen**.
-1. Klicken Sie auf eine der folgenden Schaltflächen, um Ihre Validierungsentscheidung zu treffen:
+1. Klicken Sie auf eine der folgenden Schaltflächen, um Ihre Genehmigungsentscheidung zu treffen:
 
    * Genehmigen
    * Ablehnen

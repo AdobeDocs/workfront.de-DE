@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: review-a-proof
-title: Testversand sperren oder entsperren
-description: Sie können einen Testversand jederzeit im Überprüfungsprozess manuell sperren und entsperren.
+title: Korrekturabzug sperren oder entsperren
+description: Sie können einen Korrekturabzug jederzeit im Überprüfungsprozess manuell sperren und entsperren.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Testversand sperren oder entsperren
+# Korrekturabzug sperren oder entsperren
 
-Sie können einen Testversand jederzeit im Überprüfungsprozess manuell sperren und entsperren.
+Sie können einen Korrekturabzug jederzeit im Überprüfungsprozess manuell sperren und entsperren.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,60 +29,60 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof role</td> 
+   <td role="rowheader">Rolle des Korrekturabzugs</td> 
    <td>Inhaber oder Moderator</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
-   <td>Supervisor oder Administrator</td> 
+   <td>Verantwortlicher oder Administrator</td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Testversand sperren
+## Korrekturabzug sperren
 
-Sie können einen Testversand manuell sperren, um die Kommentierung durch Prüfer zu verhindern oder zu erlauben. Dies unterscheidet sich vom Sperren einer Testversand-Phase.
+Sie können einen Korrekturabzug manuell sperren, um zu verhindern, dass Prüfer Kommentare eingeben oder zulassen. Dies unterscheidet sich vom Sperren eines Korrekturabzugs.
 
-So sperren Sie einen Testversand:
+Korrekturabzug sperren:
 
-1. Gehen Sie zur Dokumentliste, die den Testversand enthält, den Sie öffnen möchten.
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den Link **Testversand öffnen** , der angezeigt wird.
+1. Navigieren Sie zur Dokumentliste, die den Korrekturabzug enthält, den Sie öffnen möchten.
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den **Korrekturabzug öffnen**-Link, der angezeigt wird.
 
    Oder
 
-   Wenn Sie einen Testversand für eine frühere Version des Dokuments öffnen möchten, klicken Sie in der Zusammenfassung auf das Mehr-Symbol ![](assets/more-icon.png) für diese Version und dann auf **Testversand öffnen**.
+   Wenn Sie einen Korrekturabzug für eine frühere Version des Dokuments öffnen möchten, klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) für diese Version in der Zusammenfassung und dann auf **Korrekturabzug öffnen**.
 
-   Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht für Dokumente - Übersicht](../../../../documents/managing-documents/summary-for-documents.md).
+   Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klicken Sie im linken Bereich auf das Symbol **Sperren** ![](assets/unlock-proof-icon.png).
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Sperren** ![](assets/unlock-proof-icon.png).
 
    ![](assets/lock-proof-350x277.png)
 
-## Entsperren eines Testversands
+## Korrekturabzug entsperren
 
-Das Entsperren eines Testversands ist nützlich, wenn Prüfer Kommentare zu einer früheren Version eines Testversands hinzufügen müssen. (Eine frühere Version wird immer gesperrt, bis der Testversandinhaber sie manuell entsperrt.) Wenn die validierungsverantwortlichen Benutzer der vorherigen Version Kommentare hinzugefügt haben, können Sie diese erneut sperren. Informationen zum Anzeigen einer früheren Version eines Testversands finden Sie unter [Anzeigen früherer Testversionen im Web Proofing Viewer](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
+Das Entsperren eines Korrekturabzugs ist nützlich, wenn Überprüfende Kommentare zu einer früheren Version eines Korrekturabzugs hinzufügen müssen. (Eine frühere Version ist immer gesperrt, bis der Korrekturabzugsbesitzer sie manuell entsperrt.) Wenn die Reviewer mit dem Hinzufügen von Kommentaren zur vorherigen Version fertig sind, können Sie sie erneut sperren. Informationen zum Anzeigen einer früheren Version eines Korrekturabzugs finden Sie unter [Anzeigen früherer Korrekturabzugsversionen im Web-Korrekturabzugsansicht](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/view-previous-proof-versions.md).
 
-So entsperren Sie einen Testversand:
+So entsperren Sie einen Korrekturabzug:
 
-1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den Link **Testversand öffnen** , der angezeigt wird.
+1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den **Korrekturabzug öffnen**-Link, der angezeigt wird.
 
    Oder
 
-   Wenn Sie einen Testversand für eine frühere Version des Dokuments öffnen möchten, klicken Sie in der Zusammenfassung auf das Mehr-Symbol ![](assets/more-icon.png) für diese Version und dann auf **Testversand öffnen**.
+   Wenn Sie einen Korrekturabzug für eine frühere Version des Dokuments öffnen möchten, klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) für diese Version in der Zusammenfassung und dann auf **Korrekturabzug öffnen**.
 
-   Weitere Informationen zur Zusammenfassung finden Sie unter [Übersicht für Dokumente - Übersicht](../../../../documents/managing-documents/summary-for-documents.md).
+   Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klicken Sie im linken Bereich auf das Symbol **Entsperren** ![](assets/unlock-proof-icon.png) und dann auf **Ja, entsperren**.
+1. Klicken Sie im linken Bedienfeld auf das **Entsperren**-Symbol ![](assets/unlock-proof-icon.png) und dann auf **Ja, Entsperren**.
 
    ![](assets/copy-of-unlock-proof-350x279.png)

@@ -1,6 +1,6 @@
 ---
-title: 'Tipps, Tricks und Fehlerbehebung bei Genehmigungen: Artikelindex'
-description: Tipps, Tricks und Fehlerbehebung bei Genehmigungen
+title: 'Tipps, Tricks und Fehlerbehebung bei Validierungen: Artikelindex'
+description: Tipps, Tricks und Fehlerbehebung bei Validierungen
 author: Courtney
 draft: Probably
 feature: Digital Content and Documents
@@ -13,7 +13,7 @@ ht-degree: 0%
 
 ---
 
-# Tipps, Tricks und Fehlerbehebung bei Genehmigungen: Artikelindex
+# Tipps, Tricks und Fehlerbehebung bei Validierungen: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

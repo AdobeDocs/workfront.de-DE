@@ -1,10 +1,10 @@
 ---
 filename: api-changes-search
 content-type: api
-keywords: object,status,search,best,practice,response
+keywords: Objekt,Status,Suche,Best,Practice,Antwort
 navigation-topic: api-navigation-topic
-title: 'Core-API-Änderungen: Status-Suchantworten'
-description: Änderungen in der Art und Weise, wie Workfront Statusobjekte speichert.
+title: 'Änderungen an der Kern-API: Antworten auf die Statussuche'
+description: Änderungen bei der Speicherung von Statusobjekten in Workfront.
 feature: Workfront API
 role: Developer
 exl-id: 322f1525-d1d5-4845-a590-e34eb94ccdc2
@@ -15,17 +15,17 @@ ht-degree: 0%
 
 ---
 
-# Core-API-Änderungen: Status-Suchantworten
+# Änderungen an der Kern-API: Antworten auf die Statussuche
 
-Es wurden Änderungen an der Art und Weise vorgenommen, wie Workfront Statusobjekte speichert. Diese Änderungen wirken sich nicht darauf aus, wie Statussuchanfragen ausgeführt werden, sondern beeinflussen die Antwort, die von API-Anfragen zurückgegeben wird, die eine Suche nach Statusobjekten enthalten, indem eine unvollständige Liste der Gruppenstatus zurückgegeben wird.
+Die Art und Weise, wie Workfront Statusobjekte speichert, wurde geändert. Diese Änderungen wirken sich nicht auf die Art und Weise aus, wie Statussuchanfragen gestellt werden. Sie wirken sich jedoch auf die Antwort von API-Anfragen aus, die eine Suche nach Statusobjekten durch Rückgabe einer unvollständigen Liste von Gruppenstatus enthalten.
 
 ## Best Practices
 
-Um zuverlässig die vollständige Liste der für eine Gruppe verfügbaren Status abzurufen, gelten die folgenden Anforderungen als Best Practices.
+Um zuverlässig die vollständige Liste der für eine Gruppe verfügbaren Status abzurufen, werden die folgenden Anfragen als Best Practices betrachtet.
 
 >[!NOTE]
 >
->Diese Anfragestrukturen werden für alle Benutzer empfohlen, unabhängig davon, ob die Statussuchänderungen an Ihrem Cluster vorgenommen wurden oder nicht.
+>Diese Anfragestrukturen werden für alle Benutzer empfohlen, unabhängig davon, ob die Änderungen an der Statussuche für Ihren Cluster vorgenommen wurden oder nicht.
 
 Für den Projektgruppenstatus:
 
@@ -35,7 +35,7 @@ Für den Projektgruppenstatus:
 /attask/api/<VERSION>/CSTEM/projectGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Für Aufgabengruppenstatus:
+Für den Aufgabengruppenstatus:
 
 >**Beispiel:**
 
@@ -43,7 +43,7 @@ Für Aufgabengruppenstatus:
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Für den Status der Problemgruppe:
+Für den Problemgruppenstatus:
 
 >**Beispiel:**
 
@@ -51,9 +51,9 @@ Für den Status der Problemgruppe:
 /attask/api/<VERSION>/CSTEM/opTaskGroupStatuses?groupID=602d27640000bb3b779f770d5fb95d6d
 ```
 
-Alle drei Endpunkte akzeptieren den Parameter **includeHidden=true** , um den Status des ausgeblendeten Projekts/der Aufgabe/des Problems einer bestimmten Gruppe abzurufen. Durch die Modellierung Ihrer Statussuchabfragen nach diesen Best-Practice-Beispielen wird sichergestellt, dass alle Gruppenstatusinformationen in jeder Antwort enthalten sind.
+Alle drei Endpunkte akzeptieren den Parameter **includeHidden=true**, um die ausgeblendeten Projekt-, Aufgaben- oder Problemstatus einer bestimmten Gruppe abzurufen. Durch die Modellierung Ihrer Statussuchabfragen nach diesen Best Practice-Beispielen wird sichergestellt, dass alle Gruppenstatusinformationen in jeder Antwort enthalten sind.
 
-Im Folgenden finden Sie ein Beispiel für eine Statussuchabfrage, die an eine Aufgabengruppe gesendet wird, die einen auf Systemebene gesperrten Status **Benutzerdefiniert_1** und einen entsperrten Status **Benutzerdefiniert_2** aufweist:
+Im Folgenden finden Sie ein Beispiel für eine Statussuchabfrage an eine Aufgabengruppe, die einen gesperrten Status (**_1)** einen entsperrten Status (**_2)**:
 
 >**Beispiel:**
 
@@ -61,7 +61,7 @@ Im Folgenden finden Sie ein Beispiel für eine Statussuchabfrage, die an eine Au
 /attask/api/<VERSION>/CSTEM/taskGroupStatuses?groupID=602d286d000004fc8f53942de697a868
 ```
 
-Durch Verwendung dieses Formats wird sichergestellt, dass Ihre Antwort alle folgenden Elemente enthält:
+Durch die Verwendung dieses Formats wird sichergestellt, dass Ihre Antwort Folgendes enthält:
 
 ```
 {
@@ -110,9 +110,9 @@ Durch Verwendung dieses Formats wird sichergestellt, dass Ihre Antwort alle folg
 }
 ```
 
-## Grundlegendes zu den Änderungen an der alten Statussuchabfrage
+## Verstehen der Änderungen an der Legacy-Statussuchabfrage
 
-Unter dem alten System kopiert eine Statussuchabfrage alle Systemstatus, die für alle in einer Abfrage enthaltenen Gruppen verfügbar sind. Die veraltete Antwort würde dann alle Systemstatus und Gruppenstatus enthalten, die für jede in der Abfrage enthaltene Gruppe verfügbar sind.
+Unter dem alten System würde eine Statussuchabfrage alle Systemstatus kopieren, die für alle in einer Abfrage enthaltenen Gruppen verfügbar sind. Die Legacy-Antwort würde dann alle Systemstatus und Gruppenstatus enthalten, die für jede Gruppe in der Abfrage verfügbar sind.
 
 Beispielsweise diese Abfrage (die nicht den aktuellen empfohlenen Best Practices entspricht):
 
@@ -122,7 +122,7 @@ Beispielsweise diese Abfrage (die nicht den aktuellen empfohlenen Best Practices
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
 ```
 
-hätte die folgende Antwort unter dem alten System, das alle Objektstatus enthält:
+würde die folgende Antwort unter dem alten System haben, das alle Objektstatus enthält:
 
 ```
 {
@@ -171,11 +171,11 @@ hätte die folgende Antwort unter dem alten System, das alle Objektstatus enthä
 }
 ```
 
-Nach den Aktualisierungen, die an der Speicherung und Verwendung von Status vorgenommen wurden, werden die Status jedoch nicht für Gruppen kopiert und von jeder Gruppe auf Systemebene übernommen. Daher liest die Abfrage der Such-API nur die Status, die einer bestimmten Gruppe direkt zugeordnet sind. Daher enthält die Antwort systemgesperrte und entsperrte Status, jedoch nur für die Gruppen, die nach dem Hinzufügen des betreffenden Status erstellt wurden.
+Nach den Aktualisierungen der Art und Weise, wie Status gespeichert und verwendet werden, werden sie jedoch nicht für Gruppen kopiert, sondern von jeder Gruppe auf Systemebene übernommen. Daher liest die Abfrage der Such-API nur die Status, die direkt mit einer bestimmten Gruppe verknüpft sind, sodass die Antwort nur den Status Systemgesperrt und entsperrt enthält, aber nur für die Gruppen, die erstellt wurden, nachdem der betreffende Status hinzugefügt wurde.
 
-Wenn Sie die aktualisierten Best Practice-Methoden nicht zum Erstellen von Statussuchabfragen verwenden, nachdem das alte System aktualisiert wurde, wird in der Antwort eine unvollständige Liste der Gruppenstatus zurückgegeben.
+Wenn Sie die aktualisierten Best-Practice-Methoden nicht verwenden, um nach der Aktualisierung des alten Systems Statussuchabfragen durchzuführen, wird in der Antwort eine unvollständige Liste der Gruppenstatus zurückgegeben.
 
-Im Folgenden finden Sie ein Beispiel dafür, was diese veraltete Anforderungsstruktur nach der Aktualisierung des Legacy-Systems zurückgibt:
+Im Folgenden finden Sie ein Beispiel dafür, was diese veraltete Anfragestruktur nach der Aktualisierung des alten Systems zurückgibt:
 
 >**Beispiel:**
 
@@ -183,7 +183,7 @@ Im Folgenden finden Sie ein Beispiel dafür, was diese veraltete Anforderungsstr
 /attask/api/<VERSION>/CSTEM/search?groupID=602d27640000bb3b779f770d5fb95d6d&enumClass=STATUS_TASK
 ```
 
-Beachten Sie, dass diese Antwort nur gruppenspezifische Status enthält und die Status auslässt, die auf Systemebene deklariert wurden:
+Beachten Sie, dass diese Antwort nur gruppenspezifische Status enthält und jene Status auslässt, die auf Systemebene deklariert wurden:
 
 ```
 {

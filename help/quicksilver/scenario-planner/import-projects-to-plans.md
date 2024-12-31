@@ -1,8 +1,8 @@
 ---
 product-area: enterprise-scenario-planner-product-area
 navigation-topic: enterprise-scenario-planner-navigation-topic
-title: Importieren von Projekten in Pläne im Szenario-Planer
-description: Sie können vorhandene Projekte in einen Plan importieren. Die importierten Projekte werden in Initiativen umgewandelt, und Sie können sie innerhalb des Plans so verwalten, wie Sie eine neue Initiative durchführen würden. Das ursprüngliche Projekt bleibt mit der neuen Initiative verbunden.
+title: Projekte in Pläne im Szenario-Planer importieren
+description: Sie können vorhandene Projekte in einen Plan importieren. Die importierten Projekte werden in Initiativen umgewandelt, und Sie können sie innerhalb des Plans so verwalten, wie Sie es für eine neue Initiative tun würden. Das ursprüngliche Projekt bleibt mit der neuen Initiative verknüpft.
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
@@ -13,9 +13,9 @@ ht-degree: 0%
 
 ---
 
-# Importieren von Projekten in Pläne in der [!DNL Scenario Planner]
+# Projekte in Pläne im [!DNL Scenario Planner] importieren
 
-Sie können vorhandene Projekte in einen Plan importieren. Die importierten Projekte werden in Initiativen umgewandelt, und Sie können sie innerhalb des Plans so verwalten, wie Sie eine neue Initiative durchführen würden. Das ursprüngliche Projekt bleibt mit der neuen Initiative verbunden.
+Sie können vorhandene Projekte in einen Plan importieren. Die importierten Projekte werden in Initiativen umgewandelt, und Sie können sie innerhalb des Plans so verwalten, wie Sie es für eine neue Initiative tun würden. Das ursprüngliche Projekt bleibt mit der neuen Initiative verknüpft.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
@@ -27,7 +27,7 @@ Sie können vorhandene Projekte in einen Plan importieren. Die importierten Proj
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 
 <table style="table-layout:auto"> 
@@ -35,7 +35,7 @@ Sie können vorhandene Projekte in einen Plan importieren. Die importierten Proj
  <col> 
  <tbody> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] plan*</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] Plan*</p> </td> 
    <td> <ul></li>
    <li><p>Neu: Ultimate </p></li>
    <p>Der Szenario-Planer ist für die neuen Workfront Select- oder Workfront Prime-Pläne nicht verfügbar. </p>
@@ -43,34 +43,34 @@ Sie können vorhandene Projekte in einen Plan importieren. Die importierten Proj
    </td> 
   </tr> 
   <tr> 
-   <td> <p>[!DNL Adobe Workfront] license*</p> </td> 
+   <td> <p>[!DNL Adobe Workfront] Lizenz*</p> </td> 
    <td> <p>Neu: Licht oder höher</p> 
-   <p>Aktuell: [!UICONTROL Review] oder höher</p> </td> 
+   <p>Aktuell: [!UICONTROL Überprüfen] oder höher</p> </td> 
   </tr> 
   <tr> 
    <td>Produkt* </td> 
    <td> <ul><li><p>Für die neuen Workfront-Pläne:</p><p> Adobe Workfront</li></p>
    <li><p>Für die aktuellen Workfront-Pläne: </p>
-   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenario-Planer</p></li></ul>
+   <p>Adobe Workfront</p> <p>Adobe Workfront-Szenarioplaner</p></li></ul>
 
-<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Für die Verwendung des [!DNL Scenario Planner]</a> erforderlichen Zugriff. </p> </td> 
+<p>Weitere Informationen finden Sie unter <a href="../scenario-planner/access-needed-to-use-sp.md" class="MCXref xref">Zugriff erforderlich, um die [!DNL Scenario Planner]</a> verwenden zu können. </p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td>Zugriffsebene </td> 
-   <td> <p>Zugriff auf [!UICONTROL Bearbeiten] [!DNL Scenario Planner]</p> <p>Anzeigen oder höherer Zugriff auf Projekte.</p> </td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf [!DNL Scenario Planner]</p> <p>Zugriff auf Projekte anzeigen oder höher.</p> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>Objektberechtigungen </p> </td> 
-   <td> <p>[!UICONTROL Berechtigungen für einen Plan verwalten</p> <p>Anzeigen von oder höheren Berechtigungen für Projekte.</p><p>Informationen zum Anfordern von zusätzlichem Zugriff auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan in der [!DNL Scenario Planner]</a>.</p> </td> 
+   <td> <p>[!UICONTROL Manage]-Berechtigungen für einen Plan</p> <p>Zeigen Sie Berechtigungen für Projekte an oder erhöhen Sie diese.</p><p>Informationen zum Anfordern zusätzlichen Zugriffs auf einen Plan finden Sie unter <a href="../scenario-planner/request-access-to-plan.md" class="MCXref xref">Anfordern des Zugriffs auf einen Plan im [!DNL Scenario Planner]</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen für die Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen finden Sie unter [Dokumentation zu Zugriffsanforderungen für Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Überlegungen zum Import von Projekten in Pläne als neue Initiativen
+## Überlegungen zum Importieren von Projekten in Pläne als neue Initiativen
 
 * Sie müssen Projekte erstellen, bevor Sie sie als neue Initiativen in einen Plan importieren können.
 
@@ -78,19 +78,19 @@ Sie können vorhandene Projekte in einen Plan importieren. Die importierten Proj
   <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: no caveats for project statuses yet, mentioned in the import steps as a tip) </p>
   -->
 
-* Sie müssen über mindestens [!UICONTROL Anzeigen] -Berechtigungen für die Projekte verfügen, um sie als neue Initiative in einen Plan importieren zu können.
+* Sie müssen mindestens über [!UICONTROL Ansicht]-Berechtigungen für die Projekte verfügen, um sie als neue Initiative in einen Plan importieren zu können.
 * Sie können dasselbe Projekt in mehrere Pläne importieren.
-* Für die Projekte, die Sie importieren möchten, müssen Daten im Zeitrahmen Ihres Plans enthalten sein. Sie können keine Projekte mit einem [!UICONTROL geplanten Abschlussdatum] vor dem Beginn des Plans oder einem [!UICONTROL geplanten Startdatum] nach dem Ende des Plans importieren.
+* Die Projekte, die Sie importieren möchten, müssen Datumsangaben im Zeitrahmen Ihres Plans enthalten. Sie können keine Projekte importieren[!UICONTROL  deren geplantes Abschlussdatum vor dem Start des Plans ] oder deren [!UICONTROL geplantes Startdatum] nach dem Ende des Plans liegt.
 * Sie können nicht mehr als 100 Projekte gleichzeitig importieren.
-* Einige Projektinformationen werden ebenfalls in den Plan importiert und werden zu Initiativinformationen. Informationen dazu, welche Projektinformationen in den Plan importiert werden und zu Initiativinformationen werden, finden Sie im Abschnitt [In den Plan importierte Projektinformationen](#project-information-imported-into-the-plan) in diesem Artikel.
+* Einige Projektinformationen werden ebenfalls in den Plan importiert und werden zu Initiativinformationen. Informationen darüber, welche Projektinformationen in den Plan importiert werden und zu Initiativinformationen werden, finden Sie [ Abschnitt „Projektinformationen in den Plan ](#project-information-imported-into-the-plan)&quot; in diesem Artikel.
 * Änderungen an den verknüpften Projekten wirken sich nicht auf die Initiativen des Plans aus.
-* Änderungen an den Initiativen im Plan wirken sich nicht automatisch auf die verknüpften Projekte aus. Änderungen der Initiative wirken sich nur dann auf die verknüpften Projekte aus, wenn Sie die Initiative aus dem Plan veröffentlichen. Informationen dazu, wie Veröffentlichungsinitiativen sich auf die verknüpften Projekte auswirken, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
-* Wenn Sie eine durch Importieren eines Projekts erstellte Initiative löschen, wird das Projekt nicht gelöscht.
-* Durch das Löschen eines mit einer Initiative verknüpften Projekts wird die Initiative nicht gelöscht.
+* Änderungen an den Initiativen im Plan wirken sich nicht automatisch auf die Änderungen an den verknüpften Projekten aus. Änderungen an der Initiative wirken sich nur dann auf die verknüpften Projekte aus, wenn Sie die Initiative im Plan veröffentlichen. Informationen darüber, wie sich Veröffentlichungsinitiativen auf die verknüpften Projekte auswirken, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+* Beim Löschen einer Initiative, die durch den Import eines Projekts erstellt wurde, wird das Projekt nicht gelöscht.
+* Wenn Sie ein mit einer Initiative verknüpftes Projekt löschen, wird die Initiative nicht gelöscht.
 
-## Importierte Projektinformationen in den Plan {#project-information-imported-into-the-plan}
+## In den Plan importierte Projektinformationen {#project-information-imported-into-the-plan}
 
-Wenn Sie ein Projekt in einen Plan importieren, werden auch einige Projektinformationen in den Plan importiert und zu Initiativinformationen. Die folgende Tabelle zeigt, aus welchen Projektinformationen beim Importieren eines Projekts in einen Plan Initiativinformationen werden:
+Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformationen ebenfalls in den Plan importiert und werden zu Initiativinformationen. Die folgende Tabelle zeigt, welche Projektinformationen zu Initiativinformationen werden, wenn Sie ein Projekt in einen Plan importieren:
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: add what happens if you import a 5 year project to a 1 year plan - how does this display?) </p>
@@ -102,7 +102,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden auch einige Projektinform
  <tbody> 
   <tr> 
    <td>Projektinformationen</td> 
-   <td>Initiativinformationen </td> 
+   <td>Informationen zur Initiative </td> 
   </tr> 
   <tr> 
    <td>Projektname</td> 
@@ -110,29 +110,29 @@ Wenn Sie ein Projekt in einen Plan importieren, werden auch einige Projektinform
   </tr> 
   <tr> 
    <td>Geplante Projektdaten</td> 
-   <td> <p>Start- und Endmonate der Initiative.</p> <p>Beginnt oder endet ein Projekt in der Mitte eines Monats, werden die importierten Daten auf einen ganzen Monat im Plan erweitert. Wenn beispielsweise die geplanten Projektdaten der 20. März bis 5. Mai 2020 sind, dann sind die Daten der importierten Initiative März bis Mai 2020.</p> <p>Wenn das geplante Start- oder Abschlussdatum über die Dauer des Plans hinausgeht, gibt es einen visuellen Hinweis darauf, dass die importierte Initiative vor oder nach dem Plan beginnt. </p> </td> 
+   <td> <p>Beginn und Ende der Initiative.</p> <p>Wenn ein Projekt in der Mitte eines Monats beginnt oder endet, werden die importierten Daten erweitert, um einen ganzen Monat im Plan abzudecken. Wenn die geplanten Projektdaten beispielsweise der 20. März bis 5. Mai 2020 sind, lauten die Daten der importierten Initiative März bis Mai 2020.</p> <p>Wenn das geplante Start- oder Abschlussdatum nach der Laufzeit des Plans liegt, gibt es einen visuellen Hinweis darauf, dass die importierte Initiative vor dem Plan beginnt oder nach diesem endet. </p> </td> 
   </tr> 
   <tr> 
-   <td>Aufgabenrollen, die Aufgaben und Problemen zugewiesen sind</td> 
-   <td> <p>Projektrollen. </p> <p>Hinweis:   <p>Wenn ein Benutzer während der Laufzeit des Projekts die Rollen ändert, hängen die importierten Rollen vom Status der Zuweisung beim Import des Projekts ab. Die folgenden Szenarien existieren:</p> 
+   <td>Aufgabengebiete zugewiesen zu Aufgaben und Problemen</td> 
+   <td> <p>Aufgabengebiete der Initiative. </p> <p>Hinweis:   <p>Wenn ein(e) Benutzende(r) die Rollen während der Laufzeit des Projekts ändert, hängen die Rollen, die importiert werden, vom Status der Zuweisung beim Importieren des Projekts ab. Die folgenden Szenarien sind vorhanden:</p> 
      <ul> 
-      <li> <p>Wenn ein Benutzer, der einer Aufgabe oder einem Problem zugewiesen wurde, seine Rolle geändert hat, nachdem er seine Zuweisung als [!UICONTROL Fertig] markiert hat, importiert [!DNL Workfront] die Rolle, die der Benutzer erfüllt hat, bevor er die Zuweisung als [!UICONTROL Fertig] markiert hat.</p> </li> 
-      <li> <p>Wenn ein Benutzer, der einer Aufgabe oder einem Problem zugewiesen wurde, während der Laufzeit des Projekts die Rolle geändert hat, aber seine Zuweisung zu der Aufgabe oder dem Problem beim Importieren des Projekts nicht als [!UICONTROL Fertig] markiert ist, importiert [!DNL Workfront] nur die aktuelle Rolle des zugewiesenen Benutzers. </p> </li> 
-     </ul> <p>Weitere Informationen zum Status einer Zuweisung finden Sie unter "Zuweisungsstatus"im <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossar der Adobe [!DNL Workfront]-Terminologie</a>. </p> </p> </td> 
+      <li> <p>Wenn ein(e) Benutzende(r), der/die einer Aufgabe oder einem Problem zugewiesen wurde, seine/ihre Rolle geändert hat, nachdem er/sie seine/ihre Zuweisung als [!UICONTROL Done] markiert hat, importiert [!DNL Workfront] die Rolle, die der/die Benutzende erfüllt hat, bevor er/sie die Zuweisung als [!UICONTROL Done] markiert hat.</p> </li> 
+      <li> <p>Wenn ein(e) Benutzende(r), der/die einer Aufgabe oder einem Problem zugewiesen wurde, die Rolle während der Lebensdauer des Projekts geändert hat, aber seine/ihre Zuweisung zu der Aufgabe oder dem Problem beim Importieren des Projekts nicht als [!UICONTROL Done] markiert ist, importiert [!DNL Workfront] nur die aktuelle Rolle des/r zugewiesenen Benutzenden. </p> </li> 
+     </ul> <p>Informationen über den Status eines Arbeitsauftrags finden Sie unter „Arbeitsauftragsstatus“ in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossar der [!DNL Workfront] Terminologie von Adobe</a>. </p> </p> </td> 
   </tr> 
   <tr> 
-   <td>Projekt [!UICONTROL Geplante Stunden] im Zusammenhang mit Stellenrollen, die Aufgaben oder Problemen zugewiesen sind</td> 
-   <td> <p><span>Je nachdem, ob der Plan für die Verwendung von FTEs oder Stunden eingerichtet ist, werden die [!UICONTROL Planeten Stunden] aus den Aufgaben im Projekt entweder</span> [!UICONTROL Erforderliche FTEs] <span> oder [!UICONTROL Erforderliche Stunden] im Plan</span>. </p> <p>Informationen zum Einrichten eines Plans zur Verwendung von FTEs oder Stunden finden Sie unter <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Erstellen und Bearbeiten von Plänen in der [!DNL Scenario Planner]</a>. </p> <p>Beachten Sie Folgendes:</p> 
+   <td>Projekt [!UICONTROL Geplante Stunden] mit Aufgabengebieten verknüpft, die Aufgaben oder Problemen zugewiesen sind</td> 
+   <td> <p><span>Je nachdem, ob der Plan für die Verwendung von FTEs oder Stunden eingerichtet ist, werden die [!UICONTROL Geplante Stunden] aus den Aufgaben für das Projekt entweder </span> [!UICONTROL Erforderliche FTEs] <span>oder [!UICONTROL Erforderliche Stunden] im Plan</span>. </p> <p>Informationen zum Einrichten eines Plans für die Verwendung von FTEs oder Stunden finden Sie unter <a href="../scenario-planner/create-and-edit-plans.md" class="MCXref xref">Erstellen und Bearbeiten von Plänen in der [!DNL Scenario Planner]</a>. </p> <p>Beachten Sie Folgendes:</p> 
     <ul> 
-     <li> <p>[!DNL Workfront] verwendet die Auftragsrollen, die Aufgaben und Problemen zugewiesen sind, oder die Auftragsrollen, mit denen die Benutzer, die Aufgaben oder Problemen zugewiesen sind, im Projekt verknüpft sind, und überträgt sie als "Erforderliche Auftragsrollen"in die neue Initiative. </p> </li> 
-     <li> <p>Wenn der Plan für die Verwendung von FTEs eingerichtet ist, werden die Planstunden, die den Aufgaben und Problemen des Projekts zugeordnet sind, zunächst in eine FTE umgewandelt. Diese FTE wird dann der Aufgabe der Initiative übertragen. <span>Geplante Stunden sind in [!DNL Workfront] gleichermaßen verteilt. Wenn eine Aufgabe oder ein Problem mehrere Monate in Anspruch nimmt, wird der Betrag der geplanten Stunden für jeden Monat während der Dauer der Initiative in monatliche VZÄ umgerechnet und auf jeden Monat der Initiative übertragen.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><span>Wenn beispielsweise eine Aufgabe im September einer Auftragsrolle für 80 geplante Stunden zugewiesen ist, zeigt die importierte Auftragsrolle für die Initiative im September 0,5 FTE an.</span> </p> </li> 
-     <li> <p>[!DNL Workfront] berechnet anhand der folgenden Formel die FTE der mit der Initiative verknüpften Aufgaben "Erforderlicher Auftrag":</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tipp: Der [!DNL Scenario Planner] geht davon aus, dass ein Monat 160 Arbeitsstunden enthält.</p> <p>Wenn beispielsweise ein Projekt eine Dauer von 1200 Minuten hat und eine Arbeitsplatzrolle im Projekt mit 600 Minuten geplanter Stunden verknüpft ist, beträgt die VZÄ 0,5. Beim Import des Projekts beträgt die "Erforderliche Auftragsrolle" für die neu geschaffene Initiative 0,5 für jeden Monat der Initiative. </p> </li> 
-     <li>Wenn einer Aufgabe im Projekt eine berufliche Rolle zugewiesen wird, deren geplante Arbeitszeit null ist, ist die erforderliche FTE für die Stellenrolle der Initiative standardmäßig null. <!--
+     <li> <p>[!DNL Workfront] verwendet die Aufgabengebiete, die Aufgaben und Problemen zugewiesen sind, oder die Aufgabengebiete, mit denen die Benutzer im Projekt Aufgaben oder Problemen verknüpft sind, und überträgt sie nach Bedarf auf die neue Initiative. </p> </li> 
+     <li> <p>Wenn der Plan für die Verwendung von FTEs eingerichtet ist, werden die geplanten Stunden, die den Aufgabengebieten für die Aufgaben und Probleme des Projekts zugeordnet sind, zunächst in FTEs konvertiert. Dieses VZÄ wird dann dem Aufgabengebiet der Initiative zugewiesen. <span>Die geplanten Stunden sind gleichmäßig auf [!DNL Workfront] verteilt. Wenn eine Aufgabe oder ein Problem mehrere Monate umfasst, wird die Anzahl der geplanten Stunden für jeden Monat während der Dauer der Initiative in monatliche VZÄ umgerechnet und auf jeden Monat der Initiative übertragen.</span></p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><span>Beispiel: Wenn eine Aufgabe im September einem Aufgabengebiet für 80 geplante Stunden zugewiesen wird, zeigt das importierte Aufgabengebiet im September 0,5 VZÄ für die Initiative an.</span> </p> </li> 
+     <li> <p>[!DNL Workfront] Berechnet das FTE der erforderlichen Aufgabengebiete, die mit der Initiative verknüpft sind, nach folgender Formel:</p> <p><code>Required Job Role FTE (initiative) = Job Role assignment Planned Hours (</code><code>from tasks and issues on the project)/ 160</code> </p> <p>Tipp: Die [!DNL Scenario Planner] geht davon aus, dass ein Monat 160 Arbeitsstunden hat.</p> <p>Wenn beispielsweise ein Projekt eine Dauer von 1200 Minuten hat und ein Aufgabengebiet im Projekt mit 600 Minuten der geplanten Stunden verknüpft ist, beträgt ihr VZÄ 0,5. Beim Importieren des Projekts beträgt der erforderliche Aufgabengebiets-VZÄ der neu erstellten Initiative 0,5 für jeden Monat der Initiative. </p> </li> 
+     <li>Wenn einer Aufgabe im Projekt ein Aufgabengebiet mit null geplanten Stunden zugewiesen wird, ist der erforderliche VZÄ für das Aufgabengebiet der Initiative standardmäßig null. <!--
        <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">
          (NOTE: this used to be 1, not zero in Production) 
        </MadCap:conditionalText>
       --></li> 
-     <li>Wenn einer Aufgabe im Projekt eine Stellenrolle mit einer null [!UICONTROL Dauer] zugewiesen wird, ist die erforderliche FTE <span>oder Stunden</span> für die Stellenrolle der Initiative standardmäßig null, selbst wenn die Aufgabe über geplante Stunden verfügt. </li> 
+     <li>Wenn einer Aufgabe im Projekt mit einer Dauer von null [!UICONTROL] ein Aufgabengebiet zugewiesen wird, ist der erforderliche VZÄ (<span> Stunden) </span> Aufgabengebiet der Initiative standardmäßig null, auch wenn die Aufgabe über geplante Stunden verfügt. </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -142,72 +142,72 @@ Wenn Sie ein Projekt in einen Plan importieren, werden auch einige Projektinform
 
 >[!IMPORTANT]
 >
->Nach dem Import von Projekten in einen Plan werden sie zu Initiativen für den Plan. Obwohl die beiden Elemente verknüpft sind, existieren sie als unabhängige Entitäten und beeinflussen sich bei der Aktualisierung nicht automatisch gegenseitig.
+>Nachdem Projekte in einen Plan importiert wurden, werden sie zu Initiativen im Plan. Obwohl die beiden Elemente verknüpft sind, existieren sie als unabhängige Entitäten und beeinflussen sich beim Aktualisieren nicht automatisch gegenseitig.
 >
->Folgendes tritt auf:
+>Folgendes geschieht:
 >
->* Änderungen am Projekt wirken sich nicht auf die Initiative aus, nachdem Sie das Projekt in den Plan importiert haben. Diese Änderungen umfassen Änderungen an den Zuordnungen von Stellenrollen.
+>* Änderungen am Projekt wirken sich nach dem Import des Projekts in den Plan nicht mehr auf die Initiative aus. Zu diesen Änderungen gehören Änderungen an den Zuweisungen für Aufgabengebiete.
 >
 >  <!--
 >  <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: this might change if projects will ever affect initiatives automatically) </p>>
 >  -->
 >
->* Änderungen an der Initiative wirken sich nur dann auf die Informationen im Bereich [!DNL Scenario Planner] des Projekts aus, wenn Sie die Initiative im entsprechenden Projekt veröffentlichen. Andernfalls haben sie keine Auswirkungen auf die [!UICONTROL geplanten Stunden] -Informationen für die Aufgaben und Probleme des Projekts.
+>* Änderungen an der Initiative wirken sich nur dann auf die Informationen im [!DNL Scenario Planner] Bereich des Projekts aus, wenn Sie die Initiative im entsprechenden Projekt veröffentlichen. Andernfalls wirken sie sich nicht auf die [!UICONTROL Geplante Stunden] Informationen zu den Aufgaben und Problemen des Projekts aus.
 >
->  Informationen dazu, wie Veröffentlichungsinitiativen sich auf die verknüpften Projekte auswirken, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen im Szenario-Planer](../scenario-planner/publish-scenarios-update-projects.md).
+>  Informationen darüber, wie sich Veröffentlichungsinitiativen auf die verknüpften Projekte auswirken, finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im Szenario-Planer](../scenario-planner/publish-scenarios-update-projects.md).
 >
 
 {{step1-to-scenario-planner}}
 
-1. Klicken Sie auf den Namen eines Plans, aus dem Sie Projekte importieren möchten.
+1. Klicken Sie auf den Namen eines Plans, in den Sie Projekte importieren möchten.
 1. Klicken Sie auf **[!UICONTROL Neue Initiative]** und dann auf **[!UICONTROL Projekte importieren]**.
 
-   Das Feld [!UICONTROL Projekte importieren] wird angezeigt. Projekte mit Datumsangaben im Zeitrahmen Ihres Plans werden in einer Liste angezeigt.
+   Das [!UICONTROL Projekte importieren] wird angezeigt. Projekte, deren Termine im Zeitrahmen Ihres Plans enthalten sind, werden in einer Liste angezeigt.
 
    ![](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
-   >Projekte mit einem beliebigen Status werden in der Liste angezeigt.
+   >Projekte mit beliebigem Status werden in der Liste angezeigt.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Filter]** ![](assets/filter-nwepng.png) und wählen Sie einen verfügbaren Filter aus der Liste aus, um die Anzahl der Projekte auf Ihrer Liste zu reduzieren. Standardmäßig wird die Projektliste durch den aktuell ausgewählten Projektfilter des Benutzers in einer Projektliste gefiltert.
+1. (Optional) Klicken Sie auf **[!UICONTROL Filtersymbol]** ![](assets/filter-nwepng.png) und wählen Sie einen verfügbaren Filter aus der Liste aus, um die Anzahl der Projekte in Ihrer Liste zu reduzieren. Standardmäßig wird die Liste der Projekte nach dem aktuell ausgewählten Projektfilter der Benutzerin bzw. des Benutzers in einer Projektliste gefiltert.
 
-1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Suchen]** ![](assets/search-icon.png) und fügen Sie einen Suchbegriff hinzu, der in einem beliebigen Feld auf dem Bildschirm angezeigt wird. Die Elemente, die das Suchwort enthalten, werden automatisch in der Liste angezeigt und alle Elemente werden ausgeblendet.
+1. (Optional) Klicken Sie auf das **[!UICONTROL Suchsymbol]** ![](assets/search-icon.png) und fügen Sie ein Keyword hinzu, das in einem beliebigen Feld auf dem Bildschirm angezeigt wird. Die Elemente, die das Suchwort enthalten, werden automatisch in der Liste angezeigt und alle Elemente sind ausgeblendet.
 
-1. (Bedingt) Klicken Sie auf das Symbol **[!UICONTROL X]** , um die Suche zu entfernen und alle Projekte anzuzeigen.
+1. (Bedingt) Klicken Sie auf das Symbol **[!UICONTROL X]**, um die Suche zu entfernen und alle Projekte anzuzeigen.
 1. Wählen Sie bis zu 100 Projekte aus und klicken Sie auf **[!UICONTROL Importieren]**.
 
    Die Projekte werden als neue Initiativen importiert.
 
    Beachten Sie Folgendes:
 
-   * Das Projektsymbol ![](assets/project-icon-sp.png) wird rechts neben dem Namen der Initiative angezeigt.
-   * Überschreitet die Zeitleiste des Projekts die Dauer des Plans, endet der Balken der Initiative mit einem deutlichen Rand auf der linken Seite (wenn das Startdatum vor dem Datum des Plans liegt) oder auf der rechten Seite (wenn das Enddatum nach dem Datum des Plans liegt).
+   * Rechts neben dem Namen der Initiative wird ein Projekt-![](assets/project-icon-sp.png) angezeigt.
+   * Wenn der Projektzeitplan die Dauer des Plans überschreitet, endet der Balken der Initiative mit einem spitzen Rand nach links (wenn das Startdatum vor dem Datum des Plans liegt) oder nach rechts (wenn das Enddatum nach dem Datum des Plans liegt).
 
      ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
-   * Die Anzahl der Monate und der Stellenrollen wurde aktualisiert und entspricht nun denen des Projekts.
+   * Die Anzahl der Monate und Aufgabengebiete wurde aktualisiert, damit sie denen des Projekts entsprechen.
 
    >[!TIP]
    >
-   >Die mit den Stellenrollen verbundenen Kosten werden auf der Ebene der Initiative aktualisiert und nicht aus dem Projekt importiert.
+   >Die mit den Aufgabengebieten verbundenen Kosten werden auf Initiativebene aktualisiert und nicht aus dem Projekt importiert.
 
-1. Klicken Sie auf die Leiste, die die neue Initiative darstellt, um den Bereich für die Details der Initiative auf der rechten Seite zu öffnen.
+1. Klicken Sie auf die Leiste für die neue Initiative, um das Bedienfeld mit den Details der Initiative auf der rechten Seite zu öffnen.
 
    ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
-   Überprüfen Sie im Bereich **[!UICONTROL Initialisierungsdauer]** die folgenden Informationen:
+   Überprüfen Sie **[!UICONTROL Bereich „Dauer]** Initiative“ die folgenden Informationen:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Projektdauer]</td> 
+      <td role="rowheader">[!UICONTROL Initiative Dauer]</td> 
       <td>Dies ist die Dauer der Initiative in Monaten. </td> 
      </tr> 
      <tr> 
@@ -215,23 +215,23 @@ Wenn Sie ein Projekt in einen Plan importieren, werden auch einige Projektinform
       <td>Start- und Enddatum der Initiative. </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">[!UICONTROL Projekt]</td> 
-      <td> <p>Das [!UICONTROL geplante Startdatum] und das [!UICONTROL Abschlussdatum] des verknüpften Projekts.</p> <p>Tipp: Wenn die Informationen zum [!UICONTROL Projekt] fehlen, wurde das Projekt gelöscht.</p> </td> 
+      <td role="rowheader">[!UICONTROL-Projekt]</td> 
+      <td> <p>Der [!UICONTROL Geplanter Start] und die [!UICONTROL Abschlussdaten] des verknüpften Projekts.</p> <p>Tipp: Wenn die [!UICONTROL Project]-Informationen fehlen, wurde das Projekt gelöscht.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Bearbeiten Sie den Namen der Initiative. Standardmäßig stimmt sie mit dem Namen des Projekts überein.
+1. Bearbeiten Sie den Namen der Initiative. Standardmäßig entspricht dies dem Namen des Projekts.
 1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
-   * Aktualisieren von Vorgangsrollen im Abschnitt **[!UICONTROL Erforderliche Vorgangsrollen]**
-   * Aktualisieren der **[!UICONTROL Festkosten]** im Abschnitt **[!UICONTROL Kosten]**
+   * Aktualisieren Sie Aufgabengebiete im Abschnitt **[!UICONTROL Erforderliche]**)
+   * Aktualisieren Sie **[!UICONTROL Fixkosten]** im Abschnitt **[!UICONTROL Kosten]**
 
-   * Klicken Sie auf **[!UICONTROL Verfügbare Auftragsrollen aktualisieren]** oder **[!UICONTROL Verfügbares Budget aktualisieren]** , um Konflikte zwischen der neuen Initiative und anderen Initiativen im Plan zu lösen.
+   * Klicken Sie auf **[!UICONTROL Verfügbare Aufgabengebiete aktualisieren]** oder **[!UICONTROL Verfügbares Budget aktualisieren]**, um Konflikte zwischen der neuen Initiative und anderen Initiativen im Plan zu lösen.
 
-1. (Bedingt) Klicken Sie auf **[!UICONTROL Anwenden]** , um Änderungen an Ihrer Initiative zu speichern.
-1. Klicken Sie auf **[!UICONTROL Plan speichern]** , um die Änderungen an Ihrem Plan zu speichern.
-1. (Optional) Um die Änderungen, die Sie an der Initiative vornehmen, wieder in das Projekt zu aktualisieren, aus dem sie importiert wurde, veröffentlichen Sie das Projekt aus dem Plan. Informationen zu Veröffentlichungsplänen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichen von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
+1. (Bedingt) Klicken Sie auf **[!UICONTROL Anwenden]**, um Änderungen an Ihrer Initiative zu speichern.
+1. Klicken Sie **[!UICONTROL Plan speichern]**, um die Änderungen an Ihrem Plan zu speichern.
+1. (Optional) Um die Änderungen an der Initiative in dem Projekt zu aktualisieren, aus dem sie importiert wurde, veröffentlichen Sie das Projekt aus dem Plan. Informationen zu Veröffentlichungsplänen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 1. (Optional) Klicken Sie auf das Projektsymbol, um auf das verknüpfte Projekt zuzugreifen.
 
    ![](assets/project-icon-on-initiative-highlighted-350x49.png)

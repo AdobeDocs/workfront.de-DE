@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Datei-Upload über Document Webhooks
-description: Datei-Upload über Document Webhooks
+title: Datei-Upload über Dokument-Webhooks
+description: Datei-Upload über Dokument-Webhooks
 author: Becky
 feature: Workfront API
 role: Developer
@@ -16,13 +16,13 @@ ht-degree: 1%
 ---
 
 
-# Datei-Upload über Document Webhooks
+# Datei-Upload über Dokument-Webhooks
 
-Das Hochladen einer Datei in einen Dokumentenspeicheranbieter ist ein zweistufiger Prozess, der zwei separate API-Endpunkte erfordert. Adobe Workfront startet den Upload-Prozess durch Aufruf von /uploadInit . Dieser Endpunkt gibt eine Dokument-ID zurück, die beim Hochladen der Dokument-Bytes an /upload übergeben wird. Je nach zugrunde liegendem Dokumentenspeicher kann es erforderlich sein, ein Dokument mit einer Länge von null zu erstellen und den Inhalt des Dokuments später zu aktualisieren.
+Das Hochladen einer Datei in einen Dokumentspeicheranbieter ist ein zweistufiger Prozess, für den zwei separate API-Endpunkte erforderlich sind. Adobe Workfront beginnt den Upload-Prozess mit dem Aufruf von /uploadInit . Dieser Endpunkt gibt eine Dokument-ID zurück, die beim Hochladen der Dokument-Bytes an /upload übergeben wird. Je nach dem zugrunde liegenden Dokumentenspeichersystem kann es erforderlich sein, ein Dokument mit einer Länge von null zu erstellen und den Inhalt des Dokuments dann später zu aktualisieren.
 
-Wird Version 1.1 dieser Spezifikation hinzugefügt, können die Dokument-ID und die Dokumentversions-ID verwendet werden, um zusätzliche Informationen aus Workfront abzurufen.
+In Version 1.1 dieser Spezifikation können die Dokument-ID und Dokumentversions-ID hinzugefügt werden, um zusätzliche Informationen von Workfront abzurufen.
 
-**Beispiel:** Wenn das Document Management-System zusätzliche Informationen zum Dokument benötigt, kann der Webhook-Implementierungscode die Dokument-ID verwenden, um diese Informationen mithilfe der Workfront-RESTful-API abzurufen. Als Best Practice empfiehlt sich, diese Informationen aus benutzerdefinierten Datenfeldern im Dokument zu erhalten, die Aufgaben, Probleme oder Projekte enthalten.
+**Beispiel:** Wenn das Dokumentenverwaltungssystem zusätzliche Informationen zum Dokument benötigt, könnte der Webhook-Implementierungs-Code die Dokument-ID verwenden, um diese Informationen mithilfe der RESTful-API von Workfront abzurufen. Als Best Practice empfiehlt es sich, diese Informationen aus benutzerdefinierten Datenfeldern im Dokument zu generieren, das die Aufgabe, das Problem oder das Projekt enthält.
 
 ## POST
 
@@ -37,17 +37,17 @@ POST /uploadInit
  <col> 
  <thead> 
   <tr> 
-   <th>Name </th> 
+   <th>-Name </th> 
    <th>Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
    <td>parentId </td> 
-   <td>Die übergeordnete Ordner-ID, wie vom Webhook-Provider referenziert.</td> 
+   <td>Die ID des übergeordneten Ordners, wie vom Webhook-Anbieter referenziert.</td> 
   </tr> 
   <tr> 
-   <td>filename </td> 
+   <td>Dateiname </td> 
    <td>Der Name des Dokuments</td> 
   </tr> 
   <tr> 
@@ -61,9 +61,9 @@ POST /uploadInit
  </tbody> 
 </table>
 
-## Reaktion
+## Antwort
 
-Die Metadaten für die Datei, wie vom Endpunkt /metadata definiert. Dazu gehört die Dokument-ID, die vom Provider verwendet wird.
+Die Metadaten für die Datei, wie vom Endpunkt /metadata definiert. Dazu gehört die vom Anbieter verwendete Dokument-ID.
 
 **Beispiel:**
 
@@ -73,22 +73,22 @@ https://www.acme.com/api/uploadInit?parentId=12345&filename=new-file.png&documen
 
 ## PUT-Methode
 
-Lädt die Bytes eines Dokuments in den Webhook-Provider hoch.
+Lädt die Bytes eines Dokuments in den Webhook-Anbieter hoch.
 
 **URL**
 
-PUT /upload
+PUT/Upload
 
 ## Abfrageparameter
 
-| Name  | Beschreibung |
+| -Name  | Beschreibung |
 |---|---|
-| id  |  Die Dokument-ID, die gerade erstellt wurde. |
+| ID  |  Die Dokument-ID, die gerade erstellt wurde. |
 
 
-**Anforderungstext**
+**Anfragetext**
 
-Die rohen Inhalts-Bytes für das Dokument.
+Die Rohdaten-Inhaltsbytes für das Dokument.
 
 **Antwort**
 
@@ -110,7 +110,7 @@ result: "fail"
 
 `https://www.acme.com/api/upload?id=1234 [document bytes included in update stream]`
 
-response
+Antwort
 
 ```
 {

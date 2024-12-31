@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Ausgehendes Nachrichtenformat für Ereignisabonnements
-description: Ausgehendes Nachrichtenformat für Ereignisabonnements
+title: Format ausgehender Nachrichten für Ereignisabonnements
+description: Format ausgehender Nachrichten für Ereignisabonnements
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,32 +14,32 @@ ht-degree: 0%
 
 ---
 
-# Ausgehendes Nachrichtenformat für Ereignisabonnements
+# Format ausgehender Nachrichten für Ereignisabonnements
 
-Mit der Veröffentlichung von Adobe Workfront 2017.3 wird sich das Format für ausgehende Nachrichten für Ereignisabonnationen ändern, um eine verbesserte Leistung und eine bessere Nutzung von Ereignisabonnements für Ihre Integrationen zu ermöglichen.
+Mit der Veröffentlichung von Adobe Workfront 2017.3 ändert sich das Format für ausgehende Nachrichten für Ereignisabonnements, um die Leistung zu verbessern und Ereignisabonnements für Ihre Integrationen besser zu nutzen.
 
-## Aktualisierungen des Formats der ausgehenden Nachricht
+## Aktualisierungen des Formats ausgehender Nachrichten
 
 Folgende Änderungen werden am Format der ausgehenden Nachricht vorgenommen:
 
-* Ausgehende Nachrichten enthalten den oldState und newState für eine Workfront-Ressource.
+* Ausgehende Nachrichten enthalten „oldState“ und „newState“ für eine Workfront-Ressource.
 
-  Diese Werte zeigen die Änderungen an, die aufgrund eines Ereignisses in Workfront an einem Objekt vorgenommen wurden.
+  Diese Werte zeigen die Änderungen an, die infolge eines Ereignisses in Workfront an einem Objekt vorgenommen wurden.
 
-* Das Metadatenfeld eventTime wird allen ausgehenden Nachrichten hinzugefügt.
+* Das eventTime-Metadatenfeld wird allen ausgehenden Nachrichten hinzugefügt.
 
-  Dieses Feld gibt in Nanosekunden und EpochSeconds den Zeitpunkt an, zu dem ein Ereignis aufgetreten ist. Verwenden Sie eventTime bei der Bestellung von Ereignissen, die von Ihrer Integration verarbeitet werden.
+  Dieses Feld gibt in Nanosekunden und Epochekunden den Zeitpunkt an, zu dem ein Ereignis aufgetreten ist. Verwenden Sie eventTime, wenn Sie von Ihrer Integration verarbeitete Ereignisse sortieren.
 
-* Das referenzierte Feld owner:companyID in der NOTE-Ressource wird entfernt.
-* Das Objekt currentVersion, auf das verwiesen wird. Die DOCU (Document)-Ressource wird entfernt.
+* Das referenzierte Feld „owner:companyID“ in der NOTE-Ressource wird entfernt.
+* Das Objekt „currentVersion“, auf das in der DOCU-Ressource (Dokument) verwiesen wird, wird entfernt.
 
 Wenn Sie derzeit Workfront-Ereignisabonnements verwenden, müssen Sie Ihre Workfront-Integrationen vor der Version 2017.3 aktualisieren, um diese Änderungen zu berücksichtigen.
 
-Weitere Informationen zu Ereignisanmeldungen finden Sie unter [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md).
+Weitere Informationen zu Ereignisabonnements finden Sie unter [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md).
 
 ## Beispiele für alte und neue Nachrichtenformate
 
-Die folgende CREATE-Meldung im alten Format wird nach Version 2017.3 nicht mehr verwendet:
+Die folgende alte CREATE-Nachricht wird nach der Veröffentlichung von 2017.3 nicht mehr verwendet:
 
 ```
 {
@@ -73,7 +73,7 @@ Die folgende CREATE-Meldung im alten Format wird nach Version 2017.3 nicht mehr 
 }
 ```
 
-Die folgende neue CREATE-Meldung wird nach der Version 2017.3 verwendet:
+Die folgende neue Meldung im Format ERSTELLEN wird nach der Veröffentlichung von 2017.3 verwendet:
 
 ```
 {
@@ -111,7 +111,7 @@ Die folgende neue CREATE-Meldung wird nach der Version 2017.3 verwendet:
    "oldState": {}
 ```
 
-Die folgende UPDATE-Meldung im alten Format wird nach Version 2017.3 nicht mehr verwendet:
+Die folgende alte Meldung zur Formataktualisierung wird nach der Veröffentlichung von 2017.3 nicht mehr verwendet:
 
 ```
 {
@@ -147,7 +147,7 @@ Die folgende UPDATE-Meldung im alten Format wird nach Version 2017.3 nicht mehr 
  }
 ```
 
-Die folgende UPDATE-Meldung im neuen Format wird nach Version 2017.3 verwendet:
+Die folgende Meldung zur Aktualisierung des Formats wird nach der Veröffentlichung von 2017.3 verwendet:
 
 ```
 {

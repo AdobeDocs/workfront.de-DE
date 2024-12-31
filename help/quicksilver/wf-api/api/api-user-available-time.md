@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: wf-api
-title: Verfügbare Zeit-API für Benutzer abrufen
-description: Verfügbare Zeit-API für Benutzer abrufen
+title: Abrufen von Benutzern zur verfügbaren Zeit API
+description: Abrufen von Benutzern zur verfügbaren Zeit API
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,17 +14,17 @@ ht-degree: 0%
 
 ---
 
-# Verfügbare Zeit-API
+# API für verfügbare Benutzende
 
 **URI: attask/api/v15.0/user/getUsersAvailableTime**
 
-Der verfügbare Zeit-Endpunkt der Benutzer ruft Daten zur verfügbaren Zeit des Benutzers ab. Dies ermöglicht Integrationen zur Aggregation von Daten entsprechend Benutzerattributen und Zeitintervallen.
+Der Endpunkt für die verfügbare Zeit des Benutzers ruft Daten zur verfügbaren Zeit des Benutzers ab. Dies ermöglicht Integrationen für die Aggregation von Daten anhand von Benutzerattributen und Zeitintervallen.
 
 ## Beispielanfrage
 
 `curl -XPUT /attask/api/v15.0/user/getUsersAvailableTime`
 
-## Anforderungsparameter
+## Anfrageparameter
 
 * **userIDs**: Array von Zeichenfolgen. Erforderlich. Beispiel: `"61a9cc0500002f9fdaa7a6f824f557e1"`.
 
@@ -75,5 +75,5 @@ Der verfügbare Zeit-Endpunkt der Benutzer ruft Daten zur verfügbaren Zeit des 
 
 ## Antwortparameter
 
-* **AVL**: Tatsächliche verfügbare Stunden. Array von Zahlen.
-* **PAVL**: Reine verfügbare Stunden für die Planung, die keine Arbeitstage oder keine Benutzerzeit beinhalten. Zeichenfolge.
+* **AVL**: Tatsächlich verfügbare Stunden. Array von Zahlen.
+* **PAVL**: Reine verfügbare Stunden für die Planung, die keine arbeitsfreien Tage oder Ausfallzeiten von Benutzenden beinhalten. Zeichenfolge.

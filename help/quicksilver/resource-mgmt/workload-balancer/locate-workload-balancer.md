@@ -1,9 +1,9 @@
 ---
 product-area: resource-management
-keywords: Arbeitsbereich,Team,Personal,Ressourcen
+keywords: Arbeit,Team,Personal,Ressourcen
 navigation-topic: the-workload-balancer
-title: Suchen Sie den Lastenausgleich .
-description: Sie können den Lastenausgleich verwenden, um Ressourcen für die Arbeit zu planen oder deren Verfügbarkeit und aktuelle Zuordnungen zu überprüfen.
+title: Suchen des Workload Balancer
+description: Sie können den Workload Balancer verwenden, um Ressourcen für Arbeiten zu planen oder ihre Verfügbarkeit und aktuelle Zuweisungen zu überprüfen.
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
@@ -14,31 +14,31 @@ ht-degree: 0%
 
 ---
 
-# Suchen Sie den Lastenausgleich .
+# Suchen des Workload Balancer
 
-Sie können den Lastenausgleich verwenden, um Ressourcen für die Arbeit zu planen oder deren Verfügbarkeit und aktuelle Zuordnungen zu überprüfen.
+Sie können den Workload Balancer verwenden, um Ressourcen für Arbeiten zu planen oder ihre Verfügbarkeit und aktuelle Zuweisungen zu überprüfen.
 
-Sie können auf den Lastenausgleich wie folgt zugreifen:
+Sie können auf die folgenden Arten auf den Workload-Balancer zugreifen:
 
 * Aus mehreren von Adobe Workfront vordefinierten Bereichen
 * Durch Hinzufügen zu einem benutzerdefinierten Abschnitt
 
-In diesem Artikel werden die Bereiche beschrieben, in denen Sie auf den Lastenausgleich zugreifen können.
+In diesem Artikel werden die Bereiche beschrieben, in denen Sie auf den Workload Balancer zugreifen können.
 
 >[!NOTE]
 >
->Unabhängig von der Methode, die Sie für den Zugriff auf den Lastenausgleich verwenden, ist die Navigation und Verwaltung von Ressourcen identisch.
+>Unabhängig von der Methode, die Sie für den Zugriff auf den Workload Balancer verwenden, ist die Navigation darin und die Verwaltung von Ressourcen identisch.
 >
->Weitere Informationen zum Arbeitslastausgleich und dessen Verwendung für die Verwaltung und Planung Ihrer Ressourcen für die Arbeit finden Sie in den folgenden Artikeln:
+>Informationen zum Workload Balancer und dessen Verwendung für die Verwaltung und Planung von Ressourcen für die Arbeit finden Sie in den folgenden Artikeln:
 >
->* [Übersicht über den Lastenausgleich](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
->* [Navigieren Sie zum Arbeitsladeausgleich](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
->* [Übersicht über die Zuweisung von Arbeit im Arbeitslastausgleich](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
->* [Verwalten von Benutzerzuweisungen im Arbeitslade-Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
+>* [Übersicht über den Workload Balancer](../../resource-mgmt/workload-balancer/overview-workload-balancer.md)
+>* [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md)
+>* [Übersicht über die Zuweisung von Arbeit im Workload Balancer](../../resource-mgmt/workload-balancer/assign-work-in-workload-balancer.md)
+>* [Verwalten von Benutzerzuweisungen im Workload Balancer](../../resource-mgmt/workload-balancer/manage-user-allocations-workload-balancer.md)
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -47,18 +47,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
-   <td> <p>Alle </p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
        <p>oder</p>
-       <p>Aktuell: Planen Sie bei Verwendung des Workload-Balancers im Ressourcenbereich;</br>
-       Arbeiten bei Verwendung des Workload Balancers für ein Team oder Projekt</p></td>
+       <p>Aktuell: Plan, wenn der Workload Balancer im Bereich „Ressourcen“ verwendet wird</br>
+       Arbeit bei Verwendung des Workload Balancer eines Teams oder Projekts</p></td>
   </tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zeigen Sie den Zugriff auf Folgendes an oder höher:</p> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Folgendes anzeigen oder höher:</p> 
     <ul> 
      <li>Ressourcenverwaltung</li> 
      <li>Projekte</li> 
@@ -73,97 +73,97 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
-## Auf den Lastenausgleich in vordefinierten Bereichen zugreifen
+## Zugriff auf den Workload Balancer in vordefinierten Bereichen
 
-Die folgenden Abschnitte veranschaulichen, wo Sie auf den Lastenausgleich in Workfront zugreifen können.
+In den folgenden Abschnitten wird gezeigt, wo Sie in Workfront auf den Workload Balancer zugreifen können.
 
-### Zugriff auf den Lastenausgleich für mehrere Projekte im Bereich &quot;Ressourcen&quot;
+### Zugriff auf den Workload Balancer für mehrere Projekte im Bereich „Ressourcen“
 
 {{step1-to-resourcing}}
 
-1. Klicken Sie im linken Bereich auf **Lastenausgleich** .
+1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
    ![](assets/nwe-balancer-global.png)
 
-   Der Lastenausgleich zeigt standardmäßig Folgendes anhand von Informationen im Bereich &quot;Ressourcen&quot;an:
+   Im Workload Balancer werden standardmäßig im Bereich Ressourcen die folgenden Informationen angezeigt:
 
-   * **Nicht zugewiesene Arbeit**: Keine nicht zugewiesenen Arbeitselemente.
+   * **Nicht zugeordnete Arbeit**: Keine nicht zugewiesenen Arbeitselemente.
    * **Zugewiesene Arbeit**: Alle aktiven Benutzer im System.
 
-     Es wird empfohlen, beim Anzeigen von Benutzern im Bereich &quot;Zugewiesene Arbeit&quot;Filter zu verwenden. Weitere Informationen finden Sie unter [Filtern von Informationen im Arbeitslastausgleich](../workload-balancer/filter-information-workload-balancer.md).
+     Es wird empfohlen, Filter zu verwenden, wenn Benutzer im Bereich Zugewiesene Arbeit angezeigt werden. Weitere Informationen finden Sie unter [Filtern von Informationen im Workload Balancer](../workload-balancer/filter-information-workload-balancer.md).
 
-### Zugriff auf den Lastenausgleich für ein Team
+### Zugriff auf den Workload Balancer für ein Team
 
 {{step1-to-team}}
 
-Die Seite Ihres Startseiten-Teams wird angezeigt.
+Die Seite Ihres Home-Teams wird angezeigt.
 
-1. Klicken Sie im linken Bereich auf **Lastenausgleich** .
+1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
    ![](assets/nwe-balancer-team-350x172.png)
 
-   Der Lastenausgleich eines Teams zeigt standardmäßig die folgenden Informationen an:
+   Der Workload Balancer eines Teams zeigt standardmäßig die folgenden Informationen an:
 
-   * **Nicht zugewiesene Arbeit**: Dem Team zugewiesene Elemente, die Benutzern nicht zugewiesen sind.
+   * **Nicht zugewiesene Arbeit**: Elemente, die dem Team und nicht Benutzern zugewiesen sind.
    * **Zugewiesene Arbeit**: Alle Mitglieder des Teams mit allen ihren Zuweisungen.
 
      >[!TIP]
      >
-     >Team-Mitglieder können Aufgaben zugewiesen werden, die auch dem Team zugewiesen sind, oder anderen Teams oder Rollen zugewiesen werden.
+     >Teammitglieder können Aufgaben zugewiesen werden, die auch dem Team zugewiesen sind, oder Aufgaben, die anderen Teams oder Funktionen zugewiesen sind.
 
-### Zugriff auf den Lastenausgleich für ein Projekt
+### Zugriff auf den Workload Balancer für ein Projekt
 
 {{step1-to-projects}}
 
 1. Klicken Sie auf den Namen eines Projekts, um die Projektseite zu öffnen.
-1. Klicken Sie im linken Bereich auf **Lastenausgleich** . Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Lastenausgleich** klicken.
+1. Klicken Sie **linken Bedienfeld** Workload Balancer“. Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Workload Balancer** klicken.
 
-   Der Lastenausgleich für das Projekt wird angezeigt.
+   Der Workload Balancer für das Projekt wird angezeigt.
 
    ![](assets/nwe-balancer-project-350x152.png)
 
-   Der Lastenausgleich eines Projekts zeigt standardmäßig Folgendes nach Informationen an:
+   Der Workload Balancer eines Projekts zeigt standardmäßig die folgenden Informationen an:
 
-   * **Nicht zugewiesene Arbeit**: Elemente aus dem Projekt, die Auftrags- oder Teams zugewiesen sind und Benutzern nicht zugewiesen sind.
+   * **Nicht zugewiesene Arbeit**: Elemente aus dem Projekt, die Aufgabengebieten oder Teams zugewiesen sind und nicht Benutzern zugewiesen sind.
    * **Zugewiesene Arbeit**: Benutzer, die Elementen im Projekt zugewiesen sind.
 
      >[!TIP]
      >
-     >Sie können alle Benutzer im System anstelle nur der Benutzer im Projekt (im Bereich &quot;Zugewiesene Arbeit&quot;) anzeigen, indem Sie die Option Alle Benutzer anzeigen aktivieren. Weitere Informationen finden Sie unter [Navigieren im Arbeitslastausgleich](../workload-balancer/navigate-the-workload-balancer.md).
+     >Sie können alle Benutzer im System anstelle nur der im Projekt vorhandenen Benutzer (im Bereich Zugewiesene Arbeit ) anzeigen, indem Sie die Option Alle Benutzer anzeigen aktivieren. Weitere Informationen finden Sie unter [Navigieren im Workload Balancer](../workload-balancer/navigate-the-workload-balancer.md).
 
 
-## Den Lastenausgleich zu einem benutzerdefinierten Abschnitt hinzufügen
+## Hinzufügen des Workload Balancer zu einem benutzerdefinierten Abschnitt
 
-Sie können den Lastenausgleich zu jedem benutzerdefinierten Abschnitt hinzufügen.
+Sie können den Workload Balancer zu jedem benutzerdefinierten Abschnitt hinzufügen.
 
-Die meisten Anpassungen, die Sie bereits auf den Lastenausgleich angewendet haben, bleiben erhalten, wenn Sie ihn zu einem benutzerdefinierten Abschnitt hinzufügen.
+Die meisten Anpassungen, die Sie bereits auf den Workload Balancer angewendet haben, bleiben beim Hinzufügen zum benutzerdefinierten Abschnitt erhalten.
 
-1. Greifen Sie auf den Lastenausgleich zu, indem Sie einen der folgenden Bereiche aufrufen:
+1. Greifen Sie auf den Workload Balancer zu, indem Sie einen der folgenden Bereiche aufrufen:
 
-   * Ressourcenbereich
+   * Der Bereich Ressourcen
    * Ein Team
    * Ein Projekt
 
-1. Rufen Sie einen freigebbaren Link ab und kopieren Sie ihn in die Zwischenablage, wie unter [Den Lastenausgleich mit einem Link teilen](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md) beschrieben.
-1. Erstellen Sie ein Dashboard mit einer externen Seite, wie in [Einbetten einer externen Webseite in ein Dashboard](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) beschrieben. Verwenden Sie den freigebbaren Link, den Sie in Schritt 2 für die externe Seite erhalten haben.
+1. Rufen Sie einen Freigabe-Link ab und kopieren Sie ihn in die Zwischenablage, wie unter [Freigeben des Workload-Balancer mit einem Link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md) beschrieben.
+1. Erstellen Sie ein Dashboard mit einer externen Seite, wie unter [Externe Webseite in ein Dashboard einbetten](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/embed-external-web-page-dashboard.md) beschrieben. Verwenden Sie den freigabefähigen Link, den Sie in Schritt 2 für die externe Seite erhalten haben.
 
    <!--
       (NOTE: ensure this stays correct)
       -->
 
-1. Erstellen Sie einen benutzerdefinierten Abschnitt wie in [Erstellen Sie benutzerdefinierte Registerkarten oder Abschnitte](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) beschrieben, um das Dashboard auf der benutzerdefinierten Registerkarte zu platzieren.
+1. Erstellen Sie einen benutzerdefinierten Abschnitt wie in [Erstellen benutzerdefinierter Registerkarten oder Abschnitte](../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/create-custom-tabs.md) beschrieben, um das Dashboard auf der benutzerdefinierten Registerkarte zu platzieren.
 
-   Beim Zugriff auf den Lastenausgleich über den benutzerdefinierten Abschnitt können Sie ihn so anzeigen, als ob Sie direkt über einen der in Schritt 1 aufgelisteten ursprünglichen Bereiche darauf zugegriffen hätten.
+   Wenn Sie über den benutzerdefinierten Abschnitt auf den Workload Balancer zugreifen, können Sie ihn so anzeigen, als ob Sie direkt über einen der in Schritt 1 aufgeführten ursprünglichen Bereiche darauf zugreifen würden.
 
    <!--
       (NOTE: ensure this stays correct)
      -->
 
-1. (Optional) Geben Sie die benutzerdefinierte Registerkarte in einer Layout-Vorlage frei, wie unter [Anpassen des linken Bedienfelds mithilfe einer Layoutvorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) beschrieben.
+1. (Optional) Geben Sie die benutzerdefinierte Registerkarte in einer Layout-Vorlage frei, wie unter [Anpassen des linken Bedienfelds mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-left-panel.md) beschrieben.
 
 
 <!--

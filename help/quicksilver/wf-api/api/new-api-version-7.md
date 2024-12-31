@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 7
+title: Neue Funktionen in der API-Version 7
 description: Sammlungen
 author: Becky
 feature: Workfront API
@@ -10,20 +10,20 @@ exl-id: 8c575251-677b-474d-84aa-02b637ef7760
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '498'
-ht-degree: 43%
+ht-degree: 50%
 
 ---
 
-# Neue Funktionen in API Version 7
+# Neue Funktionen in der API-Version 7
 
 ## Neue Objekte
 
-### Proof Bean
+### Proofbohne
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Suchen |
-| adLine |   |   |   |   |   |   |
+| tote Linie |   |   |   |   |   |   |
 | name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -42,7 +42,7 @@ ht-degree: 43%
   <tr> 
    <th>Felder</th> 
    <th>Verweise</th> 
-   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Sammlungen</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">++++++++++++ </p> </th> 
+   <th> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">Sammlungen</p> <p data-sheets-value="{&quot;1&quot;:2,&quot;2&quot;:&quot;Type&quot;}">+++++++++++ </p> </th> 
    <th>Suchen</th> 
    <th>Aktionen</th> 
    <th>Abfragen</th> 
@@ -66,7 +66,7 @@ ht-degree: 43%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Count </td> 
+   <td>Zählung </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -84,7 +84,7 @@ ht-degree: 43%
    <td> </td> 
    <td> </td> 
    <td> </td> 
-   <td>Get  </td> 
+   <td>Abrufen  </td> 
   </tr> 
   <tr> 
    <td> </td> 
@@ -114,18 +114,18 @@ ht-degree: 43%
 | ID |   |   |   |   |   | Hinzufügen |
 |   |   |   |   |   |   | Anzahl |
 |   |   |   |   |   |   | Löschen |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Abrufen |
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
 
 {style="table-layout:auto"}
 
-### TestversandApproval
+### Testversandvalidierung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Anzahl |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Abrufen |
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
 
@@ -133,7 +133,7 @@ ht-degree: 43%
 
  
 
-### ResourceContour
+### Ressourcenprofil
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -141,7 +141,7 @@ ht-degree: 43%
 |   |   |   |   |   |   | Anzahl |
 |   |   |   |   |   |   | Löschen |
 |   |   |   |   |   |   | Bearbeiten |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Abrufen |
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
 
@@ -161,7 +161,7 @@ ht-degree: 43%
 
  
 
-### TimesheetProfile
+### Arbeitszeittabellen-Profil
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -170,7 +170,7 @@ ht-degree: 43%
 |   |   |   |   |   |   | Anzahl |
 |   |   |   |   |   |   | Löschen |
 |   |   |   |   |   |   | Bearbeiten |
-|   |   |   |   |   |   | Get |
+|   |   |   |   |   |   | Abrufen |
 |   |   |   |   |   |   | Bericht |
 |   |   |   |   |   |   | Suchen |
 |   |   |   |   |   |   | Ersetzen |
@@ -183,11 +183,11 @@ ht-degree: 43%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| ID | customer | Benutzer |   |   |   | Hinzufügen |
-| customerID  | enterBy  |   |   |   |   | Anzahl |
-| description  | lastUpdatedBy  |   |   |   |   | Löschen |
-| enterByID  |   |   |   |   |   | Bearbeiten |
-| entryDate  |   |   |   |   |   | Get |
+| ID | Kunde | Benutzer |   |   |   | Hinzufügen |
+| customerID  | enteredBy  |   |   |   |   | Anzahl |
+| Beschreibung  | lastUpdatedBy  |   |   |   |   | Löschen |
+| enteredByID  |   |   |   |   |   | Bearbeiten |
+| entryDate  |   |   |   |   |   | Abrufen |
 | extRefID  |   |   |   |   |   | Bericht |
 | lastUpdateDate |   |   |   |   |   | Suchen |
 | lastUpdateByID |   |   |   |   |   |   |
@@ -202,9 +202,9 @@ ht-degree: 43%
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | Anzahl |
-| articleName  |   |   |   |   |   | Get |
+| articleName  |   |   |   |   |   | Abrufen |
 | pageID  |   |   |   |   |   | Bericht |
-| url  |   |   |   |   |   | Suchen |
+| URL  |   |   |   |   |   | Suchen |
 
 {style="table-layout:auto"}
 
@@ -216,9 +216,9 @@ ht-degree: 43%
 
 ## Aktualisierte Objekte
 
-Änderungen an vorhandenen Objekten: Hinzufügungen werden einfach aufgelistet, Entfernungen sind durchgestrichen, Änderungen an vorhandenen Objekten haben einen angehängten Hinweis nach der Tabelle
+Änderungen an vorhandenen Objekten: Ergänzungen werden einfach aufgelistet, Entfernungen werden durchgestrichen, Änderungen an vorhandenen Objekten werden mit einer Notiz nach der Tabelle versehen
 
-### UpdateBean
+### Bean aktualisieren
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -244,7 +244,7 @@ ht-degree: 43%
 
 ### AccessRule<sup>1</sup>
 
-<sup>1</sup> Gekennzeichnet als berichtspflichtig
+<sup>1</sup> Als meldepflichtig markiert
 
  
 
@@ -268,7 +268,7 @@ ht-degree: 43%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Reportfähige Markierung entfernt
+<sup>1</sup> Berichtmarkierung entfernt
 
  
 
@@ -284,7 +284,7 @@ ht-degree: 43%
 
 <sup>1</sup> Datumsvalidierung hinzugefügt
 
-<sup>2</sup> Flag nicht_filtern hinzugefügt
+<sup>2</sup> NOT_FILTERABLE-Flag hinzugefügt
 
  
 
@@ -298,11 +298,11 @@ ht-degree: 43%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Feld &quot;includeIssues&quot;hinzugefügt
+<sup>1</sup> Feld hinzugefügt includeIssues
 
  
 
-### Kunde 
+### KUNDE 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -314,7 +314,7 @@ ht-degree: 43%
 
  
 
-### Benutzerdefinierte Enum 
+### Benutzerdefinierte Enumeration 
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -353,11 +353,11 @@ ht-degree: 43%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderung des PRÄZISIONSvalidators für 8 bis 9
+<sup>1</sup> Geänderter PRÄZISIONS-Validator für 8 bis 9
 
  
 
-### HourType
+### Stundentyp
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -419,7 +419,7 @@ ht-degree: 43%
 
  
 
-### QueueTopic
+### Warteschlangenthema
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -451,7 +451,7 @@ ht-degree: 43%
 
  
 
-### TemplateTask
+### Vorlagenaufgabe
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -459,7 +459,7 @@ ht-degree: 43%
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Typ geändert von &quot;int&quot;zu &quot;double&quot; 
+<sup>1</sup> Typ von Int in Double geändert 
 
  
 
@@ -544,13 +544,13 @@ ht-degree: 43%
  </tbody> 
 </table>
 
-### Benutzerhandbuch
+### Benutzerhinweis
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| `acknowledgedmentIDs` |   |   |   |  unackkenntnisMany |   |   |
-| ackDate |   |   |   |   |   |   |
-| ackType |   |   |   |   |   |   |
+| `acknowledgedmentIDs` |   |   |   |  unackknowledgeMany |   |   |
+| BackDate |   |   |   |   |   |   |
+| BackType |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -562,7 +562,7 @@ ht-degree: 43%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|  name |   |   |   |   |   |   |
+|  -Name |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 

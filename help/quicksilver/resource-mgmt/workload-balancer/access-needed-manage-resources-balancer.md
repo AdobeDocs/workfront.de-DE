@@ -1,8 +1,8 @@
 ---
 product-area: resource-management
 navigation-topic: the-workload-balancer
-title: Zugriff erforderlich für die Verwaltung von Ressourcen im Lastenausgleich
-description: Ohne korrekten Zugriff oder ohne entsprechende Berechtigungen können Sie Ihre Arbeitsaufgaben möglicherweise nicht im Arbeitslastausgleich anzeigen oder verwalten.
+title: Zugriff erforderlich, um Ressourcen im Workload Balancer zu verwalten
+description: Ohne entsprechende Zugriffsrechte können Sie Ihre Arbeitszuweisungen im Workload-Balancer möglicherweise nicht anzeigen oder verwalten.
 author: Lisa
 feature: Resource Management
 exl-id: b3da9a62-481e-4503-8f27-136d6513262e
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 ---
 
-# Zugriff erforderlich für die Verwaltung von Ressourcen im Workload Balancer
+# Zugriff zum Verwalten von Ressourcen im Workload Balancer erforderlich
 
-Ohne korrekten Zugriff oder ohne entsprechende Berechtigungen können Sie Ihre Arbeitsaufgaben möglicherweise nicht im Arbeitslastausgleich anzeigen oder verwalten.
+Ohne entsprechende Zugriffsrechte können Sie Ihre Arbeitszuweisungen im Workload-Balancer möglicherweise nicht anzeigen oder verwalten.
 
-Sie müssen Zugriff haben, um die Benutzer anzuzeigen, deren Arbeitslast Sie im Lastenausgleich anzeigen oder verwalten möchten. Darüber hinaus müssen Sie über die richtige Zugriffsstufe und die richtigen Berechtigungen für die Projekte verfügen, mit denen die Arbeit verknüpft ist.
+Sie müssen Zugriff haben, um die Benutzer anzuzeigen, deren Arbeitslast Sie im Workload-Balancer anzeigen oder verwalten möchten. Darüber hinaus müssen Sie über die richtige Zugriffsebene und die richtigen Berechtigungen für die Projekte verfügen, mit denen die Arbeit verknüpft ist.
 
-## Adobe Workfront-Plan zur Verwendung des Lastenausgleichs für verschiedene Bereiche erforderlich
+## Adobe Workfront-Plan musste den Workload Balancer für verschiedene Bereiche verwenden
 
-Die folgende Tabelle zeigt die Verbindung zwischen dem Workfront-Plan, den Ihr Unternehmen hat, und wo im System Sie den Lastenausgleich verwenden können:
+Die folgende Tabelle zeigt die Verbindung zwischen dem Workfront-Plan Ihres Unternehmens und dem Verwendungsbereich des Workload-Balancer im System:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -29,34 +29,34 @@ Die folgende Tabelle zeigt die Verbindung zwischen dem Workfront-Plan, den Ihr U
  <tbody> 
   <tr> 
    <td role="rowheader"><p><b>Workfront-Plan (aktuell)</b></p></td> 
-   <td> <p><b>Bereiche, in denen Sie auf den Lastenausgleich zugreifen können</b></p> </td> 
+   <td> <p><b>Bereiche, in denen Sie auf den Workload Balancer zugreifen können</b></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Team oder höher </td> 
-   <td>Lastenausgleich für ein Team oder ein Projekt</td> 
+   <td>Workload Balancer für ein Team oder Projekt</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Pro oder höher</td> 
-   <td>Lastenausgleich für mehrere Projekte auf Systemebene</td> 
+   <td>Workload Balancer für mehrere Projekte auf Systemebene</td> 
   </tr> 
   <tr> 
    <td role="rowheader"><p><b>Workfront-Plan (neu)</b></p></td> 
-   <td> <p><b>Bereiche, in denen Sie auf den Lastenausgleich zugreifen können</b></p> </td> 
+   <td> <p><b>Bereiche, in denen Sie auf den Workload Balancer zugreifen können</b></p> </td> 
   </tr>
   <tr> 
-   <td role="rowheader">Alle </td> 
-   <td>Zugriff auf den Lastenausgleich überall in Workfront</td> 
+   <td role="rowheader">Beliebig </td> 
+   <td>Zugriff auf den Workload Balancer an einer beliebigen Stelle in Workfront</td> 
   </tr> 
  </tbody> 
 </table>
 
 Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://www.workfront.com/plans).
 
-Informationen darüber, wo Sie den Lastenausgleich in Workfront finden können, finden Sie unter [Suchen des Lastenausgleichs](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
+Informationen dazu, wo Sie den Workload-Balancer in Workfront finden können, finden Sie unter [Suchen des Workload-Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
-## Zugriff erforderlich, um den Lastenausgleich anzuzeigen
+## Zum Anzeigen des Workload Balancer benötigter Zugriff
 
-Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich anzuzeigen:
+Sie müssen über die folgenden Zugriffsrechte verfügen, um den Workload-Balancer anzuzeigen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -66,25 +66,25 @@ Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich anzuzeigen
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
        <p>oder</p>
-       <p>Aktuell: Planen Sie, den Arbeitslastausgleich im Ressourcenbereich anzuzeigen;</br>
-       Arbeiten, um den Lastenausgleich eines Teams oder Projekts anzuzeigen</p></td>
+       <p>Aktuell: Plan, um den Workload Balancer im Bereich Ressourcen anzuzeigen</br>
+       Arbeit, um den Workload Balancer eines Teams oder Projekts anzuzeigen</p></td>
   </tr>  
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf die Ressourcenverwaltung anzeigen oder höher</p> <p>Weitere Informationen zur Zugriffsebene für die Ressourcenverwaltung finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf die Ressourcenverwaltung gewähren</a>.</p></td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf das Ressourcen-Management anzeigen oder erhöhen</p> <p>Informationen zur Zugriffsebene für das Ressourcen-Management finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf das Ressourcen-Management gewähren</a>.</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Sie müssen über Anzeigeberechtigungen für das Projekt verfügen, dessen Zuweisungen Sie anzeigen möchten. </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Projekt in Adobe Workfront freigeben</a> .</p></td> 
+   <td> <p>Sie müssen für das Projekt, dessen Zuweisungen Sie anzeigen möchten, über Anzeigeberechtigungen verfügen. </p> <p>Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Zugriff erforderlich für die Verwaltung von Zuweisungen im Workload Balancer
+## Zugriff erforderlich, um Zuweisungen im Workload Balancer zu verwalten
 
-Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich zu verwalten:
+Sie müssen über die folgenden Zugriffsrechte verfügen, um den Workload-Balancer zu verwalten:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -94,22 +94,22 @@ Sie müssen über folgenden Zugriff verfügen, um den Lastenausgleich zu verwalt
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
        <p>oder</p>
-       <p>Aktuell: Planen Sie die Verwaltung von Zuweisungen im Arbeitslastausgleich im Ressourcenbereich;</br>
-       Arbeiten, um Zuweisungen im Arbeitslastausgleich eines Teams oder Projekts zu verwalten</p></td>
+       <p>Aktuell: Plan, um Zuweisungen im Workload Balancer im Bereich Ressourcen zu verwalten;</br>
+       Arbeit, um Zuweisungen im Workload Balancer eines Teams oder Projekts zu verwalten</p></td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene</td> 
-   <td> <p>Zugriff auf die Ressourcenverwaltung bearbeiten</p> 
-     <p>Weitere Informationen zur Zugriffsebene für die Ressourcenverwaltung finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf die Ressourcenverwaltung gewähren</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf das Ressourcen-Management bearbeiten</p> 
+     <p>Informationen zur Zugriffsebene für das Ressourcen-Management finden Sie im Artikel <a href="../../administration-and-setup/add-users/configure-and-grant-access/grant-access-resource-management.md" class="MCXref xref">Zugriff auf das Ressourcen-Management gewähren</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Contribute oder höhere Berechtigungen für das Projekt, dessen Zuweisungen Sie verwalten möchten, einschließlich Berechtigungen zum Zuweisen. </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Projekt in Adobe Workfront freigeben</a> .</p></td>
+   <td> <p> Contribute oder höhere Berechtigungen für das Projekt, dessen Zuweisungen Sie verwalten möchten, einschließlich der Berechtigungen zum Zuweisen von Zuweisungen. </p> <p>Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p></td>
   </tr> 
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 <!--these notes were inside the table: for the Edit access to Res Management
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">View or higher access to Financial Data, if you want to view information by cost (NOTE: this is not possible yet!)</p>    

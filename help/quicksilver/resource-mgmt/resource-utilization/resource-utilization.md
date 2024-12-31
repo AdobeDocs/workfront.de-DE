@@ -3,7 +3,7 @@ content-type: reference
 product-area: resource-management
 navigation-topic: resource-management-navigation-topic
 title: Ressourcenauslastung
-description: Sie können die Nutzung Ihrer Ressourcen analysieren, indem Sie den Nutzungsbericht über mehrere Projekte hinweg oder jeweils nur für ein Projekt überprüfen.
+description: Sie können die Auslastung Ihrer Ressourcen analysieren, indem Sie den Auslastungsbericht über mehrere Projekte oder nur für jeweils ein Projekt prüfen.
 author: Lisa
 feature: Resource Management
 recommendations: noDisplay, noCatalog

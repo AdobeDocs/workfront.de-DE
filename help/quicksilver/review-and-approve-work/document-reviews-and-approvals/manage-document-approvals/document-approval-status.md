@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Übersicht über den Entscheidungsstatus von Dokumenten
-description: Status von Dokumententscheidungen werden aufgelistet und erläutert
+title: Dokumentieren des Entscheidungsstatus - Übersicht
+description: Der Status der Dokumentenentscheidung wird aufgelistet und erläutert
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 30a10ed9-ae11-4ff1-a66c-58ea94fe9959
@@ -13,9 +13,9 @@ ht-degree: 5%
 
 ---
 
-# Übersicht über den Entscheidungsstatus von Dokumenten
+# Dokumentieren des Entscheidungsstatus - Übersicht
 
-Sie können den Status des Dokuments direkt in der Dokumentliste anzeigen:
+Sie können den Status des Dokuments direkt in der Dokumentliste einsehen:
 
 ![](assets/status-in-doc-list.png)
 
@@ -28,12 +28,12 @@ Die folgenden Status sind verfügbar:
             <tbody>
                  <tr>
                     <td>
-                        Ausstehende Überprüfung</p>
+                        Überprüfung ausstehend</p>
                     </td>
                     <td>
                         <ul>
                             <li>
-                                Überprüfer und Genehmiger wurden benachrichtigt, haben das Asset jedoch noch nicht geöffnet.
+                                Prüfer und genehmigende Personen wurden benachrichtigt, haben das Asset jedoch noch nicht geöffnet.
                             </li>
                         </ul>
                     </td>
@@ -45,13 +45,13 @@ Die folgenden Status sind verfügbar:
                     <td>
                         <ul>
                             <li>
-                                <p>Mindestens ein Validierer hat das Asset angesehen</p>
+                                <p>Mindestens ein Reviewer hat das Asset angezeigt</p>
                             </li>
                             <li>
-                                <p>Mindestens ein Überprüfer hat die Überprüfung nicht abgeschlossen</p>
+                                <p>Mindestens ein Reviewer hat die Überprüfung nicht abgeschlossen</p>
                             </li>
                             <li>
-                                <p>Diesem Asset wurden keine Genehmiger zugewiesen</p>
+                                <p>Diesem Asset wurden keine genehmigenden Personen zugewiesen</p>
                             </li>
                         </ul>
                     </td>
@@ -63,10 +63,10 @@ Die folgenden Status sind verfügbar:
                     <td>
                         <ul>
                             <li>
-                                <p>Alle validierungsverantwortlichen Benutzer haben ihre Überprüfung abgeschlossen</p>
+                                <p>Alle Reviewer haben ihre Überprüfung abgeschlossen</p>
                             </li>
                             <li>
-                                <p>Diesem Asset wurden keine Genehmiger zugewiesen</p>
+                                <p>Diesem Asset wurden keine genehmigenden Personen zugewiesen</p>
                             </li>
                         </ul>
                     </td>
@@ -77,11 +77,11 @@ Die folgenden Status sind verfügbar:
                     <td>
                         <ul>
                             <li>
-                                <p>Alle Genehmigungen und Überprüfungen sind abgeschlossen.</p>
+                                <p>Alle Genehmigungen und Prüfungen sind abgeschlossen</p>
                             </li>
                             <li>
-                                <p>Mindestens ein Genehmiger hat die Entscheidung "Arbeit erforderlich"getroffen</p>
-                                <p>Andere Genehmigende Personen können die Entscheidungen "Genehmigt mit Änderungen" oder "Genehmigt" getroffen haben
+                                <p>Mindestens eine genehmigende Person hat eine Entscheidung mit dem Hinweis „Arbeit erforderlich“ getroffen</p>
+                                <p>Andere genehmigende Personen haben möglicherweise Entscheidungen von „Genehmigt mit Änderungen“ oder „Genehmigt“ erteilt.
                             </li>
                         </ul>
                     </td>
@@ -92,11 +92,11 @@ Die folgenden Status sind verfügbar:
                     <td>
                         <ul>
                             <li>
-                                <p>Alle Genehmigungen und Überprüfungen sind abgeschlossen.</p>
+                                <p>Alle Genehmigungen und Prüfungen sind abgeschlossen</p>
                             </li>
                             <li>
-                                <p>Mindestens ein Genehmiger hat die Entscheidung "Genehmigt mit Änderungen" getroffen</p>
-                                <p>Andere Genehmiger haben möglicherweise die Entscheidung "Genehmigt" getroffen
+                                <p>Mindestens eine genehmigende Person hat eine Entscheidung mit dem Status „Genehmigt mit Änderungen“ getroffen</p>
+                                <p>Andere genehmigende Personen haben möglicherweise Entscheidungen vom Typ „Genehmigt“ getroffen.
                             </li>
                         </ul>
                     </td>
@@ -107,10 +107,10 @@ Die folgenden Status sind verfügbar:
                     <td>
                         <ul>
                             <li>
-                                <p>Alle Genehmigungen und Überprüfungen sind abgeschlossen.</p>
+                                <p>Alle Genehmigungen und Prüfungen sind abgeschlossen</p>
                             </li>
                             <li>
-                                <p>Alle Genehmiger können die Entscheidung "Genehmigt"getroffen haben
+                                <p>Alle genehmigenden Personen haben möglicherweise Entscheidungen vom Typ „Genehmigt“ getroffen.
                             </li>
                         </ul>
                     </td>

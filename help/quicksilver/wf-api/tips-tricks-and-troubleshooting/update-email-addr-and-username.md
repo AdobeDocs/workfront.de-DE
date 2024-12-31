@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: workfront-api
-title: Aktualisierung auf emailAddr aktualisiert den Benutzernamen nicht
-description: Aktualisierung auf emailAddr aktualisiert den Benutzernamen nicht
+title: Update auf emailAddr aktualisiert nicht den Benutzernamen
+description: Update auf emailAddr aktualisiert nicht den Benutzernamen
 author: Becky
 feature: Workfront API
 role: Developer
@@ -15,24 +15,24 @@ ht-degree: 0%
 ---
 
 
-# Aktualisierung auf emailAddr aktualisiert den Benutzernamen nicht
+# Update auf emailAddr aktualisiert nicht den Benutzernamen
 
 ## Problem
 
-Normalerweise sind `emailAddr` und `username` dasselbe Attribut. Wenn Sie daher das Attribut `emailAddr` eines Benutzers ändern, wird das Attribut `username` automatisch entsprechend aktualisiert.
+Normalerweise sind `emailAddr` und `username` dasselbe Attribut. Wenn Sie daher das `emailAddr` eines Benutzers ändern, wird das `username` automatisch aktualisiert, damit es übereinstimmt.
 
-Wenn die `username` nicht mit der `emailAddr` übereinstimmt, wird die `username` nicht automatisch durch eine Aktualisierung auf die `emailAddr` aktualisiert. Dies gilt sowohl für `emailAddr` -Änderungen über die Benutzeroberfläche als auch über die API.
+Wenn die `username` nicht mit der `emailAddr` übereinstimmt, wird die `username` bei einer Aktualisierung der `emailAddr` nicht automatisch aktualisiert. Dies gilt sowohl für `emailAddr` Änderungen über die Benutzeroberfläche als auch für Änderungen über die API.
 
 ## Ursache
 
-Die Diskrepanz kann auf verschiedene Weise entstehen:
+Die Diskrepanz kann auf verschiedene Weise erzeugt werden:
 
-* Benutzer, die vor der Existenz der Synchronisierungsregel erstellt wurden. Sehr alte Benutzerkonten verfügen möglicherweise nicht über diese Attribute.
+* Benutzer, die erstellt wurden, bevor die Synchronisierungsregel existierte. Sehr alte Benutzerkonten verfügen möglicherweise nicht über diese Attribute.
 
-* Benutzer, die über SSO erstellt wurden, zu einem Zeitpunkt, zu dem bei der E-Mail-Adresse in Workfront zwischen Groß- und Kleinschreibung unterschieden wurde. Die Option zur automatischen SSO-Bereitstellung würde eine Prüfung der Groß-/Kleinschreibung für Benutzer ausführen, die auf den Attributen des Benutzers vom Identitäts-Provider basiert. Wenn keine exakte Übereinstimmung existierte, würden die automatischen Bereitstellungsdienste einen neuen Benutzer erstellen. Wenn bereits ein Benutzer vorhanden war, bestand die Möglichkeit, dass der Benutzername und `emailAddr` nicht dieselbe Groß-/Kleinschreibung aufweisen würden.
+* Benutzende, die über SSO erstellt wurden, zu einer Zeit, als beim emailAddr in Workfront die Groß-/Kleinschreibung beachtet wurde. Bei der Option zur automatischen SSO-Bereitstellung wird die Groß-/Kleinschreibung der Benutzer anhand der Attribute des Benutzers vom Identitätsanbieter geprüft. Wenn keine exakte Übereinstimmung vorhanden war, erstellen die Services zur automatischen Bereitstellung einen neuen Benutzer. Wenn bereits ein Benutzer vorhanden war, bestand die Möglichkeit, dass Benutzername und `emailAddr` nicht dieselbe Groß-/Kleinschreibung aufweisen.
 
-* Benutzer, die das Attribut `username` direkt über die API aktualisiert haben und deren `emailAddr` nicht aktualisiert wurde. Die `username` und `emailAddr` stimmen möglicherweise nicht überein.
+* Benutzende, bei denen das `username`-Attribut direkt über die API aktualisiert wurde und deren `emailAddr` nicht aktualisiert wurde. `username` und `emailAddr` stimmen möglicherweise nicht überein.
 
 ## Lösung
 
-Verwenden Sie die API, um das Attribut `username` so zu ändern, dass es mit dem Attribut `emailAddr` übereinstimmt. Nach der Synchronisierung der Attribute wird bei jeder Aktualisierung von `emailAddr` auch die Übereinstimmung von `username` aktualisiert (wenn das Feld für den Benutzernamen nicht in der Aktualisierung enthalten ist).
+Verwenden Sie die -API, um das `username`-Attribut so zu ändern, dass es dem `emailAddr` entspricht. Nach der Synchronisierung der Attribute wird bei jeder Aktualisierung des `emailAddr` auch der `username` entsprechend aktualisiert (wenn das Benutzernamenfeld nicht in der Aktualisierung enthalten ist).

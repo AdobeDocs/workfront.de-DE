@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Fortschritt und Status des Testversands - Übersicht
-description: Sie können Informationen darüber anzeigen, wie ein Testversand während des Überprüfungsprozesses durchgeführt wird, und eine Zusammenfassung des Entscheidungsstatus des Testversands im Bereich Dokumente anzeigen.
+title: Testversand-Fortschritt und -Status - Übersicht
+description: Sie können Informationen darüber, wie ein Korrekturabzug im Überprüfungsprozess voranschreitet, und eine allgemeine Zusammenfassung des Entscheidungsstatus des Korrekturabzugs im Bereich Dokumente anzeigen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 78e81070-ff82-4d82-90a3-6e0cd176b290
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Fortschritt und Status des Testversands - Übersicht
+# Testversand-Fortschritt und -Status - Übersicht
 
-Sie können Informationen darüber anzeigen, wie ein Testversand während des Überprüfungsprozesses durchgeführt wird, und eine Zusammenfassung des Entscheidungsstatus des Testversands im Bereich Dokumente anzeigen.
+Sie können Informationen darüber, wie ein Korrekturabzug im Überprüfungsprozess voranschreitet, und eine allgemeine Zusammenfassung des Entscheidungsstatus des Korrekturabzugs im Bereich Dokumente anzeigen.
 
-## Übersicht über den Fortschritt des Testversands
+## Übersicht über den Testversand
 
-Der Fortschritt des Testversands gibt an, welche Arbeit an einem Testversand von dem Zeitpunkt an, an dem Sie den Testversand an die Empfänger senden, bis zu dem Zeitpunkt, an dem sie über den Testversand entscheiden. Die Fortschrittssymbole S, O, C und D erscheinen neben dem Testversandnamen und geben Informationen zum Fortschritt des Testversands an.
+Der Korrekturabzug-Fortschritt gibt die Arbeit an, die an einem Korrekturabzug durchgeführt wurde, und zwar von dem Zeitpunkt, an dem Sie den Korrekturabzug an die Empfänger senden, bis zu dem Zeitpunkt, an dem sie eine Entscheidung über den Korrekturabzug treffen. Die Fortschrittssymbole S, O, C und D werden neben dem Namen des Korrekturabzugs angezeigt und geben Informationen zum Fortschritt des Korrekturabzugs an.
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 
@@ -34,30 +34,30 @@ Der Fortschritt des Testversands gibt an, welche Arbeit an einem Testversand von
  </thead> 
  <tbody> 
   <tr> 
-   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>Gesendet</strong> </p> </td> 
+   <td> <p> <img src="assets/proof-progress-sent-icon.png" alt=""> </p> <p><strong>gesendet</strong> </p> </td> 
    <td> <p>Der Testversand wurde an zugewiesene Empfänger gesendet.</p> </td> 
   </tr> 
   <tr> 
    <td> <p><strong></strong> </p> <p><strong>Geöffnet</strong> </p> </td> 
-   <td> <p>Alle zugewiesenen Empfänger öffnen die Seite mit den Testversand- oder Testversanddetails .</p> </td> 
+   <td> <p>Alle zugewiesenen Empfänger öffnen die Seite mit den Details des Korrekturabzugs oder Testversands.</p> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong></strong> </p> <p><strong>Kommentare, die abgegeben wurden</strong> </p> </td> 
-   <td> <p>Alle zugewiesenen Empfänger geben mindestens einen Kommentar zum Testversand ab.</p> <p>Wenn dem Testversand keine Validierungsverantwortlichen zugewiesen sind, wird das Symbol <strong>C</strong> nicht in der Fortschrittsleiste angezeigt.</p> </td> 
+   <td> <p><strong></strong> </p> <p><strong>Kommentare abgegeben</strong> </p> </td> 
+   <td> <p>Alle zugewiesenen Empfänger geben mindestens einen Kommentar zum Korrekturabzug ab.</p> <p>Wenn dem Korrekturabzug keine Prüfer zugewiesen sind, wird <strong> Symbol „C</strong> nicht in der Fortschrittsleiste angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td> <p> <img src="assets/proof-progress-decision-icon.png" alt=""> </p> <p><strong>Entscheidung getroffen</strong> </p> </td> 
-   <td> <p>Alle zugewiesenen Genehmiger entscheiden über den Testversand, alle zugewiesenen Genehmiger entscheiden über den Testversand, es sei denn, der Ersteller des Testversands gibt nur eine Entscheidung an.</p> <p>Wenn keine Genehmiger (Entscheidungsträger) für den Testversand bestimmt sind, wird das Symbol <strong>D</strong> nicht in der Fortschrittsleiste angezeigt. </p> </td> 
+   <td> <p>Alle zugewiesenen Genehmiger treffen eine Entscheidung über den Korrekturabzug, alle zugewiesenen Genehmiger treffen eine Entscheidung über den Korrekturabzug, es sei denn, die Erstellerin des Korrekturabzugs gibt an, dass nur eine Entscheidung erforderlich ist.</p> <p>Wenn für den Korrekturabzug keine genehmigenden Personen (Entscheidungsträger) vorgesehen sind, wird das Symbol <strong>D</strong> nicht in der Fortschrittsleiste angezeigt. </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Die Fortschrittssymbole können in den folgenden Farben angezeigt werden, um bestimmte Informationen über den Fortschritt des Testversands anzuzeigen:
+Die Fortschrittssymbole können in den folgenden Farben angezeigt werden, um bestimmte Informationen über den Fortschritt des Korrekturabzugs anzuzeigen:
 
 * **Grün**: Abgeschlossen.
-* **White**: Nicht abgeschlossen.
-* **Orange**: Unvollständig und Frist weniger als 24 Stunden.
-* **Rot**: Nicht abgeschlossen und die Frist wurde überschritten.
+* **Weiß**: Nicht abgeschlossen.
+* **Orange**: Nicht vollständig und die Frist beträgt weniger als 24 Stunden.
+* **Rot**: Nicht vollständig und nach Fristablauf.
 
 <!--
 <h3 data-mc-conditions="QuicksilverOrClassic.Draft mode">Levels of proof progress</h3>
@@ -93,7 +93,7 @@ Die Fortschrittssymbole können in den folgenden Farben angezeigt werden, um bes
 
 ## Übersicht über den Teststatus
 
-Der Status des Testversands zeigt den Status der Entscheidungen an, die für den Testversand erforderlich sind. Der Status des Testversands wird durch den Teilnehmer &quot;Schlimmster Fall&quot; bestimmt. Angenommen, es gibt drei Entscheidungen über den Testversand: zwei haben den Status **Akzeptiert** und eine hat den Status **Abgelehnt**. Die Entscheidung des Worst Case von **Abgelehnt** überschreibt die anderen Entscheidungen und den Gesamtstatus des Testversands als **Abgelehnt**. 
+Der Korrekturabzugsstatus zeigt den Status der Entscheidungen an, die für den Korrekturabzug erforderlich sind. Der Status des Testversands wird vom Teilnehmer mit dem „Worst Case“-Status gesteuert. Angenommen, es gibt drei Entscheidungen zum Korrekturabzug: zwei haben den Status **Akzeptiert** und eine den Status **Abgelehnt**. Die Worst-Case-Entscheidung **Abgelehnt** überlagert die anderen Entscheidungen, und der Gesamtstatus des Korrekturabzugs wird als **Abgelehnt** angezeigt. 
 
 ![](assets/proof-edit-existing-progress-350x62.png)
 

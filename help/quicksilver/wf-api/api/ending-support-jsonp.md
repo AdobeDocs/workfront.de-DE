@@ -16,19 +16,19 @@ ht-degree: 0%
 
 # Beenden der Unterstützung für JSONP
 
-Da JSONP (JavaScript mit Padding) ein alter Standard mit bekannten Sicherheitslücken ist, unterstützt Adobe Workfront JSONP ab November 2018 nicht mehr. Dieser Beschluss unterstützt unsere umfassendere Initiative zur Modernisierung der Workfront-Plattform.
+Da JSONP (JavaScript mit Abstand) ein alter Standard mit bekannten Sicherheitslücken ist, unterstützt Adobe Workfront JSONP ab November 2018 nicht mehr. Dieser Beschluss unterstützt unsere größere Initiative zur Modernisierung der Workfront-Plattform.
 
-JSONP ist ein Standard, mit dem ursprungsübergreifende oder Site-übergreifende Anforderungen durchgeführt werden können. Viele Workfront-Kunden und -Partner verwenden JSONP, um im Rahmen einer Integration von einem System in ihrer eigenen Domäne auf Workfront zuzugreifen. JSONP ermöglicht die Verarbeitung von Anforderungen von Nicht-Workfront-Domänen durch die Workfront-Anwendung.
+JSONP ist ein Standard, mit dem ursprungsübergreifende oder Site-übergreifende Anforderungen ausgeführt werden können. Viele Kunden und Partner von Workfront verwenden JSONP, um im Rahmen einer Integration von einem System in ihrer eigenen Domain aus auf Workfront zuzugreifen. JSONP ermöglicht die Verarbeitung von Anfragen von Nicht-Workfront-Domains durch das Workfront-Programm.
 
-Wenn Sie JSONP als Teil Ihrer Workfront-Integrationen verwenden, müssen Sie Ihre Integration aktualisieren, um den CORS-Standard (Cross-Origin Resource Sharing) zu verwenden. Für diese Aktualisierung müssen Sie Folgendes tun:
+Wenn Sie JSONP als Teil einer Ihrer Workfront-Integrationen verwenden, müssen Sie Ihre Integration aktualisieren, um den CORS-Standard (Cross-Origin Resource Sharing) zu verwenden. Für dieses Update sind folgende Schritte erforderlich:
 
-1. Senden Sie eine Anfrage an das Workfront-Supportteam, um Domänen zu haben, die für ursprungsübergreifende Anfragen an unsere Zulassungsliste verwendet werden.
+1. Senden Sie eine Anfrage mit dem Workfront-Supportteam, um über alle Domains zu verfügen, die für herkunftsübergreifende Anfragen an unsere Zulassungsliste verwendet werden.
 
-   Wenn Sie möchten, dass Ihre Domänen zur Zulassungsliste für CORS hinzugefügt werden, wenden Sie sich unter 844-306-HELP(4357) an den Workfront-Support oder senden Sie ein Supportticket online.
+   Auf die Zulassungsliste setzen Um Ihre Domains zur für CORS hinzufügen zu lassen, wenden Sie sich unter 844-306-HELP(4357) an den Kunden-Support von Workfront oder senden Sie ein Support-Ticket online.
 
    >[!NOTE]
    >
-   >Das Hinzufügen von Domänen zur Zulassungsliste für CORS wird nur für Kunden unterstützt, die JSONP vor dem 1. August 2018 verwendet haben.
+   >Das Hinzufügen von Domains zur Zulassungsliste für CORS wird nur für Kunden unterstützt, die JSONP vor dem 1. August 2018 verwendet haben.
 
 
-1. Nehmen Sie Änderungen an Ihrem Integrationscode vor, um CORS zu verwenden.
+1. Nehmen Sie Änderungen am Integrations-Code vor, um CORS zu verwenden.

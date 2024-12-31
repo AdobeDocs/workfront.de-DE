@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Testversandzusammenfassung in Adobe Workfront drucken
-description: Sie können eine Testversand-Zusammenfassung drucken, als PDF speichern oder als XLS-Datei oder PDF-Datei exportieren, die für Adobe Reader optimiert ist.
+title: Drucken einer Zusammenfassung eines Korrekturabzugs in Adobe Workfront
+description: Sie können eine Korrekturabzugszusammenfassung drucken, als PDF speichern oder als XLS- oder PDF-Datei exportieren, die für Adobe Reader optimiert ist.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Testversandzusammenfassung in Adobe Workfront drucken
+# Drucken einer Zusammenfassung eines Korrekturabzugs in Adobe Workfront
 
-Sie können eine Testversand-Zusammenfassung drucken, als PDF speichern oder als XLS-Datei oder PDF-Datei exportieren, die für Adobe Reader optimiert ist.
+Sie können eine Korrekturabzugszusammenfassung drucken, als PDF speichern oder als XLS- oder PDF-Datei exportieren, die für Adobe Reader optimiert ist.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,43 +29,43 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Testversand-Zusammenfassung drucken oder als PDF-Datei speichern
+## Drucken Sie eine Korrekturabzugszusammenfassung oder speichern Sie sie als PDF-Datei
 
-Sie können eine Testversand-Zusammenfassung direkt aus der Dokumentliste drucken.
+Sie können eine Zusammenfassung eines Korrekturabzugs direkt aus der Dokumentliste drucken.
 
 >[!NOTE]
 >
 >* Zusammenfassungen, die größer als 1 GB sind, werden nicht unterstützt.
->* Sie können nicht mehrere Testversand-Zusammenfassungen gleichzeitig aus der Dokumentliste drucken.
+>* Sie können nicht mehrere Korrekturabzugszusammenfassungen gleichzeitig aus der Dokumentliste drucken.
 
-1. Halten Sie in der Dokumentliste, die den Testversand enthält, den Mauszeiger über die das Dokument enthaltende Zeile und klicken Sie dann auf **Zusammenfassung drucken** .
+1. Bewegen Sie in der Dokumentliste, die den Korrekturabzug enthält, den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Druckzusammenfassung**.
 
    ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 
    Oder
 
-   Klicken Sie beim Anzeigen des Testversands im Testversand-Viewer in der linken Symbolleiste auf das Symbol **Drucken** ![](assets/print-icon-in-pv.png) . (Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie in der oberen linken Ecke des Testversand-Viewers auf das Menüsymbol ![](assets/menu-icon-in-pv.png) .)
+   Klicken Sie während der Anzeige des Korrekturabzugs in der Korrekturabzugsansicht auf das Symbol **Drucken** in der linken Symbolleiste ![](assets/print-icon-in-pv.png). (Wenn die linke Symbolleiste nicht sichtbar ist, klicken Sie auf das Menüsymbol ![](assets/menu-icon-in-pv.png) in der linken oberen Ecke der Korrekturabzugsansicht.)
 
 1. Verwenden Sie eine der folgenden Optionen:
 
@@ -77,57 +77,57 @@ Sie können eine Testversand-Zusammenfassung direkt aus der Dokumentliste drucke
       <td role="rowheader">Anzeigen</td> 
       <td> <p>Geben Sie an, was Sie drucken möchten:</p> 
        <ul> 
-        <li>Die <strong>aktuelle Version</strong> oder <strong>Alle Versionen</strong> des Testversands</li> 
+        <li>Die <strong>Aktuelle Version</strong> oder <strong>Alle Versionen</strong> des Korrekturabzugs</li> 
         <li>Nur die <strong>Seiten mit Kommentaren</strong> oder <strong>Alle Seiten</strong></li> 
-        <li>Nur die <strong>Seiten-Miniaturansichten</strong> (eine kleine Darstellung jeder Seite) oder <strong>Vollseiten</strong> (eine vollständige Darstellung des Testversands)<br></li> 
-        <p>Hinweis: Um die Pin-Zahlen auf dem Markup in Ihrer gedruckten Ausgabe anzuzeigen, müssen Sie Vollseiten und nicht Seiten-Miniaturansichten auswählen. </p> 
+        <li>Nur die <strong>Seitenminiaturen</strong> (ein kleines Rendering jeder Seite) oder <strong>Vollständige Seiten</strong> (ein vollständiges Rendering des Korrekturabzugs)<br></li> 
+        <p>Hinweis: Um Pin-Nummern auf dem Markup in der gedruckten Ausgabe anzuzeigen, müssen Sie Vollständige Seiten und nicht Miniaturansichten auswählen. </p> 
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Sortieren von Kommentaren nach</td> 
-      <td> <p>(Nur verfügbar, wenn Sie die Option Seitenminiaturansichten oben ausgewählt haben) Geben Sie die Reihenfolge an, in der die Kommentare des Testversands gedruckt werden sollen:</p> 
+      <td role="rowheader">Kommentare sortieren nach</td> 
+      <td> <p>(Nur verfügbar, wenn Sie oben „Seitenminiaturansichten“ ausgewählt haben.) Geben Sie die Reihenfolge an, in der die Kommentare des Korrekturabzugs gedruckt werden sollen:</p> 
        <ul> 
-        <li><strong>Oldest</strong>: Vom ersten Kommentar zum letzten</li> 
-        <li><strong>Latest</strong>: Vom letzten Kommentar zum ersten</li> 
+        <li><strong>Älteste</strong>: Vom ersten Kommentar bis zum letzten</li> 
+        <li><strong>Letzte</strong>: Vom letzten Kommentar zum ersten</li> 
         <li><strong>Seite</strong>: Nach Seite, von der ersten Seite zur letzten oder von der letzten Seite zur ersten</li> 
-        <li><strong>Ersteller</strong>: Nach den Namen der Benutzer, die sie hinzugefügt haben, von A-Z oder Z-A</li> 
+        <li><strong>Creator</strong>: Nach den Namen der Benutzer, die sie hinzugefügt haben, von A-Z oder von Z-A</li> 
        </ul> <p>Diese Optionen wirken sich nicht auf die Ausgabe aus, die Sie als XLS- oder PDF-Datei exportieren.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Filtern von Kommentaren nach</td> 
+      <td role="rowheader">Kommentare filtern nach</td> 
       <td> <p>Sie können eine beliebige Kombination dieser Optionen verwenden, um nur bestimmte Kommentare in die Ausgabe einzuschließen, die Sie als XLS- oder PDF-Datei drucken oder exportieren:</p> 
        <ul> 
         <li>Von Ihnen ausgewählte Autoren (Standard)</li> 
-        <li>Aktionen, die Sie auswählen</li> 
-        <li>Status <strong>Unresolved</strong></li> 
+        <li>Ausgewählte Aktionen</li> 
+        <li><strong>Nicht aufgelöster</strong> Status</li> 
        </ul> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Workflow</td> 
-      <td> <p>(Nur verfügbar, wenn der Testversand einen automatisierten Workflow aufweist) Sie können auf <strong>Diagramm anzeigen</strong> klicken, um ein Diagramm in die gedruckte Ausgabe einzuschließen, in dem die Phasen des Testversands und die auf jeder Stufe getroffenen Entscheidungen dargestellt werden. Im angezeigten Diagramm stellen die Farben die auf einer Bühne getroffenen Entscheidungen dar:</p> <p><strong>Grün</strong>: Genehmigt</p> <p><strong>Blau</strong>: Entscheidung ausstehend</p> <p><strong>Rot</strong>: Erforderliche Entscheidung für Änderungen</p> <p><strong>Gray</strong>: Noch nicht gestartet</p> <p><strong>Gelb</strong>: Genehmigt mit Änderungen</p> </td> 
+      <td> <p>(Nur verfügbar, wenn der Korrekturabzug über einen automatisierten Workflow verfügt) Sie können auf <strong>Diagramm anzeigen</strong> klicken, um ein Diagramm in die gedruckte Ausgabe aufzunehmen, das die Phasen des Korrekturabzugs und die auf den einzelnen Phasen getroffenen Entscheidungen anzeigt. In dem angezeigten Diagramm stellen die Farben die auf einer Bühne getroffenen Entscheidungen dar:</p> <p><strong>grün</strong>: Genehmigt</p> <p><strong>Blue</strong>: Entscheidung steht aus</p> <p><strong>Rot</strong>: Änderungen für Entscheidung erforderlich</p> <p><strong>Grau</strong>: Noch nicht gestartet</p> <p><strong>Gelb</strong>: Mit Änderungen genehmigt</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie auf **Drucken**.
-1. Klicken Sie im rechten Bereich des angezeigten Fensters, wenn Sie die Zusammenfassung drucken möchten, auf das Menü **Ziel** und dann auf **Mehr anzeigen**. Klicken Sie in der angezeigten Liste auf den Drucker, den Sie verwenden möchten, und klicken Sie dann auf **Drucken**.
+1. Klicken Sie **Drucken**.
+1. Wenn Sie die Zusammenfassung drucken möchten, klicken Sie im rechten Bedienfeld des angezeigten Fensters auf das Menü **Ziel** und dann auf **Weitere Informationen**. Klicken Sie in der angezeigten Liste auf den Drucker, den Sie verwenden möchten, und dann auf **Drucken**.
 
    Oder
 
    Wenn Sie die Zusammenfassung als PDF-Datei speichern möchten, klicken Sie auf das Menü **Ziel**, klicken Sie auf **Als PDF speichern** und dann auf **Speichern**.
 
-## Testversand-Zusammenfassung als XLS oder PDF exportieren
+## Exportieren einer Zusammenfassung eines Korrekturabzugs als XLS oder PDF
 
-Sie können eine Testversand-Zusammenfassung für statischen Inhalt als XLS-Datei oder als PDF-Datei exportieren. Der Testversand umfasst nur den Testversand-Inhalt.
+Sie können eine Korrekturabzugszusammenfassung für statische Inhalte als XLS- oder PDF-Datei exportieren. Testversand-Exporte umfassen nur den Inhalt des Testversands.
 
-1. Halten Sie in der Dokumentliste, die den Testversand enthält, den Mauszeiger über die das Dokument enthaltende Zeile und klicken Sie dann auf **Zusammenfassung drucken** .
+1. Bewegen Sie in der Dokumentliste, die den Korrekturabzug enthält, den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Druckzusammenfassung**.
 
    ![proof_printsummary.png](assets/proof-printsummary-350x166.png)
 
-1. Klicken Sie auf das XLS-Symbol oder PDF-Symbol oben rechts auf der Seite.
+1. Klicken Sie oben rechts auf der Seite auf das XLS- oder PDF-Symbol.
 
    ![](assets/xls-pdf-icons-350x136.png)
 
 Wenn die exportierte Datei fertig ist, erhalten Sie eine E-Mail, aus der Sie die Datei herunterladen können.
 
-Wenn Sie die Zusammenfassung als PDF-Datei exportiert haben, erscheinen im PDF-Reader Kommentare zum Testversand. Wenn einem Kommentar mehrere Markups zugeordnet sind, wird der Kommentar mehrmals in der Kommentarliste angezeigt (einmal pro Markup).
+Wenn Sie die Zusammenfassung als PDF-Datei exportiert haben, werden die Kommentare zum Korrekturabzug im PDF-Lesegerät angezeigt. Wenn einem Kommentar mehrere Markierungen zugeordnet sind, wird der Kommentar mehrmals in der Liste Kommentare angezeigt (einmal für jedes Markup).

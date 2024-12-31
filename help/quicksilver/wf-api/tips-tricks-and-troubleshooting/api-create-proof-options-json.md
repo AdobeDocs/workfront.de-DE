@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Erweiterte Testoptionen mit der Adobe Workfront-API hinzufügen
-description: Erweiterte Testoptionen mit der Adobe Workfront-API hinzufügen
+title: Hinzufügen erweiterter Proofing-Optionen mit der Adobe Workfront-API
+description: Hinzufügen erweiterter Proofing-Optionen mit der Adobe Workfront-API
 author: Becky
 feature: Workfront API, Workfront Proof
 role: Developer
@@ -15,53 +15,53 @@ ht-degree: 0%
 ---
 
 
-# Erweiterte Testoptionen bei der Erstellung eines Testversands über die Adobe Workfront-API hinzufügen
+# Hinzufügen erweiterter Proofing-Optionen beim Erstellen eines Korrekturabzugs über die Adobe Workfront-API
 
-Beim Erstellen eines Testversands in der Workfront-API können Sie erweiterte Testversandoptionen hinzufügen.
+Beim Erstellen eines Korrekturabzugs in der Workfront-API können Sie erweiterte Proofing-Optionen hinzufügen.
 
-Verwenden Sie einen der folgenden Workflows, um mithilfe der API Testversandoptionen zu einem Testversand hinzuzufügen:
+Verwenden Sie einen der folgenden Workflows, um mithilfe der API Korrekturabzugsoptionen zu einem Korrekturabzug hinzuzufügen:
 
-* (Empfohlen) Erstellen Sie einen einfachen Testversand mithilfe der Workfront-API und fügen Sie dann mithilfe der ProofHQ-API erweiterte Testversandoptionen zum Testversand hinzu.
+* (Empfohlen) Erstellen Sie einen einfachen Korrekturabzug mit der Workfront-API und fügen Sie dann dem Korrekturabzug mithilfe der ProofHQ-API erweiterte Proofing-Optionen hinzu
 
-* Erstellen eines Testversands mit erweiterten Testoptionen mithilfe von JSON in der Workfront-API
+* Erstellen eines Korrekturabzugs mit erweiterten Proofing-Optionen mithilfe von JSON in der Workfront-API
 
-## Erstellen eines Testversands mit den Workfront- und ProofHQ-APIs (empfohlen) {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
+## Erstellen eines Korrekturabzugs mit den Workfront- und ProofHQ-APIs (empfohlen) {#create-a-proof-using-the-workfront-and-proofhq-apis-recommended}
 
-In diesem Abschnitt wird beschrieben, wie Sie mithilfe einer Kombination aus Workfront- und ProofHQ-APIs einen Testversand mit erweiterten Testversandoptionen über die Workfront-API erstellen.
+In diesem Abschnitt wird beschrieben, wie Sie einen Korrekturabzug mit erweiterten Proofing-Optionen über die Workfront-API erstellen, indem Sie eine Kombination aus Workfront- und ProofHQ-APIs verwenden.
 
-Die ProofHQ-API enthält eine Reihe von Aktionen, die für Testsendungen in der Workfront-API nicht verfügbar sind. Mithilfe dieser Aktionen können Sie den Testversand genauer ändern oder konfigurieren, als in der Workfront-API verfügbar ist.
+Die ProofHQ-API umfasst eine Vielzahl von Aktionen, die für Korrekturabzüge in der Workfront-API nicht verfügbar sind. Mithilfe dieser Aktionen können Sie den Korrekturabzug präziser ändern oder konfigurieren, als in der Workfront-API verfügbar ist.
 
-Einen Überblick über die ProofHQ-API finden Sie in der [Übersicht über POOFHQ](../../proofhq-api/general/overview.md) . Weitere Informationen finden Sie in der Dokumentation zu [ProofHQ](https://api.proofhq.com/home.html) .
+Einen Überblick über die ProofHQ-API finden Sie unter [ProofHQ - Übersicht](../../proofhq-api/general/overview.md). Weitere Informationen finden Sie in der [ProofHQ-Dokumentation](https://api.proofhq.com/home.html).
 
 >[!NOTE]
 >
->* Die Workfront-API ist eine REST-fähige API. Die ProofHQ-API ist eine SOAP API.
->* In der ProofHQ-API erstellte Testsendungen werden nicht automatisch mit Workfront verknüpft. Es wird daher empfohlen, in der Workfront-API Testsendungen zu erstellen, bevor diese mit der ProofHQ-API aktualisiert werden.
+>* Die Workfront-API ist eine REST-ful-API. Die ProofHQ-API ist eine SOAP-API.
+>* Die in der ProofHQ-API erstellten Testsendungen werden nicht automatisch mit Workfront verknüpft. Daher empfehlen wir, Testsendungen in der Workfront-API zu erstellen, bevor Sie sie mit der ProofHQ-API aktualisieren.
 >
 
-### Erstellen eines Testversands mit erweiterten Testversandoptionen
+### Erstellen eines Korrekturabzugs mit erweiterten Proofing-Optionen
 
-1. Erstellen Sie einen Testversand mithilfe der Aktion `Document createProof` in der Workfront-API.
+1. Erstellen Sie einen Testversand mithilfe der `Document createProof` in der Workfront-API.
 
    >[!NOTE]
    >
-   >Legen Sie beim Erstellen des Testversands `{}` als Wert für den Parameter `advancedProofingOptions` fest.
+   >Legen Sie beim Erstellen des Korrekturabzugs `{}` als Wert für den `advancedProofingOptions` fest.
 
-1. Verwenden Sie nach der Erstellung des Testversands die ProofHQ-API, um alle erweiterten Optionen hinzuzufügen.
+1. Nachdem der Korrekturabzug erstellt wurde, verwenden Sie die ProofHQ-API, um erweiterte Optionen hinzuzufügen.
 
 ### Beispiele
 
-Dieser Abschnitt enthält einige Beispielaktualisierungen, die Sie mit der ProofHQ-API vornehmen können.
+Dieser Abschnitt zeigt einige Beispiel-Aktualisierungen, die Sie mit der ProofHQ-API vornehmen können.
 
 **Beispiele:**
 
-* [Ein Testversand kann heruntergeladen werden, hat eine Nachricht und wird öffentlich freigegeben](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
-* [Aktualisieren Sie eine Phase, sodass sie nicht privat, nicht obligatorisch ist und nur eine Genehmigung erfordert](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
-* [Hinzufügen von zwei Empfängern zu einem Testversand ohne Entscheidungsträger](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
+* [Ein Korrekturabzug kann heruntergeladen werden, enthält eine Nachricht und wird öffentlich freigegeben](#proof-can-be-downloaded-has-a-message-and-is-shared-publicly)
+* [Aktualisieren Sie einen Schritt, sodass er nicht privat, nicht obligatorisch und nur mit einer Genehmigung ist](#update-a-stage-so-that-it-is-not-private-not-mandatory-and-requires-only-one-approval)
+* [Hinzufügen von zwei Empfängern zu einem Korrekturabzug ohne primären Entscheidungsträger](#add-two-recipients-to-a-proof-with-no-primary-decision-maker)
 
-**Ein Testversand kann heruntergeladen werden, hat eine Nachricht und wird öffentlich freigegeben**
+**Ein Korrekturabzug kann heruntergeladen werden, enthält eine Nachricht und wird öffentlich freigegeben**
 
-Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html) .
+Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API updateProof](https://api.proofhq.com/home/proofs/updateproof.html).
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -83,9 +83,9 @@ Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API upd
 </soapenv:Envelope>
 ```
 
-**Aktualisieren Sie eine Phase, sodass sie nicht privat, nicht obligatorisch ist und nur eine Genehmigung erfordert**
+**Aktualisieren Sie einen Schritt, sodass er nicht privat, nicht obligatorisch und nur mit einer Genehmigung ist**
 
-Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html) .
+Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API updateWorkflowProofStage](https://api.proofhq.com/updateworkflowproofstage.html).
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -108,9 +108,9 @@ Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API upd
 </soapenv:Envelope>
 ```
 
-**Fügen Sie zwei Empfänger zu einem Testversand ohne primären Entscheidungsträger hinzu**
+**Fügen Sie zu einem Korrekturabzug zwei Empfänger hinzu, ohne dass ein primärer Entscheidungsträger vorhanden ist**
 
-Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html) .
+Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API addWorkflowProofReviewers](https://api.proofhq.com/addworkflowproofreviewers.html).
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -143,23 +143,23 @@ Die Dokumentation für diesen Endpunkt finden Sie auf der Seite [ProofHQ API add
 </soapenv:Envelope>
 ```
 
-## Erstellen eines Testversands mit JSON in der Workfront-API
+## Erstellen eines Korrekturabzugs mit JSON in der Workfront-API
 
-In diesem Abschnitt wird beschrieben, wie Sie einen Testversand mit erweiterten Testversandoptionen über die Workfront-API erstellen und JSON als Parameterwert in der Workfront-API verwenden.
+In diesem Abschnitt wird beschrieben, wie Sie einen Korrekturabzug mit erweiterten Proofing-Optionen über die Workfront-API erstellen und dabei JSON als Parameterwert in der Workfront-API verwenden
 
-### Erstellen eines Testversands mit erweiterten Testversandoptionen
+### Erstellen eines Korrekturabzugs mit erweiterten Proofing-Optionen
 
-Sie können Testsendungen über die Workfront-API mit der Aktion `Document createProof` erstellen. Diese Aktion akzeptiert den Parameter `advancedProofingOptions` , der den Werttyp `string` aufweist. Um erweiterte Testversandoptionen in Ihre `createProof` -Aktion aufzunehmen, müssen Sie die Optionen im Parameter `advancedProofingOptions` im JSON-Format eingeben.
+Sie können Testsendungen über die Workfront-API erstellen, indem Sie die `Document createProof` Aktion verwenden. Diese Aktion akzeptiert den `advancedProofingOptions`-Parameter mit dem Werttyp `string`. Um erweiterte Proofing-Optionen in Ihre `createProof`-Aktion aufzunehmen, müssen Sie die Optionen im `advancedProofingOptions` Parameter im JSON-Format eingeben.
 
 >[!NOTE]
 >
->Es kann schwierig sein, die Felder vorherzusagen, die in Ihre JSON für advancedProofingOptions einbezogen werden sollen. Möglicherweise möchten Sie die Netzwerkdaten Ihres Unternehmens untersuchen, während Sie erweiterte Testsendungen in Workfront verwenden, und Ihre JSON auf den Feldern und Werten basieren, die üblicherweise von Ihrem Unternehmen verwendet werden.
+>Es kann schwierig sein, die Felder vorherzusagen, die in Ihre AdvancedProofingOptions-JSON aufgenommen werden sollen. Möglicherweise möchten Sie die Netzwerkdaten Ihres Unternehmens überprüfen, während Sie das erweiterte Proofing in Workfront verwenden, und Ihre JSON-Datei auf den Feldern und Werten basieren, die von Ihrem Unternehmen häufig verwendet werden.
 >
->Da diese Felder schwer vorherzusagen sind, empfehlen wir, einen Testversand mithilfe der Workfront-API zu erstellen und ihn dann mithilfe der ProofHQ-API zu aktualisieren. Weitere Informationen finden Sie unter [Erstellen eines Testversands mit den Workfront- und ProofHQ-APIs (empfohlen)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in diesem Artikel
+>Da diese Felder schwer vorhersehbar sein können, empfehlen wir, einen Korrekturabzug mit der Workfront-API zu erstellen und ihn dann mit der ProofHQ-API zu aktualisieren. Weitere Informationen finden Sie unter [Erstellen eines Korrekturabzugs mit den Workfront- und ProofHQ-APIs (empfohlen)](#create-a-proof-using-the-workfront-and-proofhq-apis-recommended) in diesem Artikel
 
 ### Beispiel
 
-Dieses Beispiel zeigt Felder und Formatierungen, die Sie beim Erstellen Ihrer JSON-Datei für den Parameter `advancedProofingOptions` verwenden können. Ihre JSON-Datei `advancedProofingOptions` kann mehr oder weniger Felder als hier angezeigt haben.
+Dieses Beispiel zeigt Felder und Formatierungen, die Sie beim Erstellen Ihrer JSON für den `advancedProofingOptions` verwenden können. Ihre `advancedProofingOptions` JSON-Datei kann mehr oder weniger Felder enthalten als hier gezeigt.
 
 **Beispiel:**
 

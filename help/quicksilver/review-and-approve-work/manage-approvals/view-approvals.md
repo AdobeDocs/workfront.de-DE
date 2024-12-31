@@ -1,8 +1,8 @@
 ---
 product-area: projects
 navigation-topic: approvals
-title: Anzeigen von Genehmigungen
-description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmigungen für Projekte, Aufgaben und Probleme zu erstellen. Adobe Workfront-Administratoren definieren Validierungsprozesse, die im gesamten System konsistent sind.
+title: Genehmigungen anzeigen
+description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmigungen für Projekte, Aufgaben und Probleme zu erstellen. Adobe Workfront-Administratoren definieren Genehmigungsprozesse, um im gesamten System für Konsistenz zu sorgen.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
@@ -13,17 +13,17 @@ ht-degree: 0%
 
 ---
 
-# Anzeigen von Genehmigungen
+# Genehmigungen anzeigen
 
-Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmigungen für Projekte, Aufgaben und Probleme zu erstellen. Adobe Workfront-Administratoren definieren Validierungsprozesse, die im gesamten System konsistent sind.
+Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmigungen für Projekte, Aufgaben und Probleme zu erstellen. Adobe Workfront-Administratoren definieren Genehmigungsprozesse, um im gesamten System für Konsistenz zu sorgen.
 
 Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
-Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit der Arbeit](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
+Informationen zum Verknüpfen von Genehmigungen mit Arbeiten in Workfront finden Sie unter [Verknüpfen eines neuen oder vorhandenen Genehmigungsprozesses mit Arbeiten](../../review-and-approve-work/manage-approvals/associate-approval-with-work.md).
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -33,63 +33,63 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Alle</p> </td> 
+   <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
    <td> <p>Überprüfen oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Objekte, die Genehmigungen zugeordnet sind, anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Zugriffsbeschränkungen für Ihre Zugriffsebene festlegt. Informationen dazu, wie ein Workfront-Administrator Ihre Zugriffsebene ändern kann, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Benutzerdefinierte Zugriffsebenen erstellen oder ändern</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Objekte, die mit Genehmigungen verknüpft sind, anzeigen oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verknüpft sind</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von oder höheren Berechtigungen für die Objekte, die mit Genehmigungen verbunden sind</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um zu erfahren, welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie haben.
+Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
 +++
 
-## Suchen von Genehmigungen in Adobe Workfront
+## Suchen von Validierungen in Adobe Workfront
 
-Sie können Genehmigungen in verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Genehmigungen in verschiedenen Bereichen finden Sie unter [Arbeiten genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md).
+Sie können Validierungen aus verschiedenen Bereichen von Workfront anzeigen oder verwalten. Informationen zum Verwalten von Validierungen in verschiedenen Bereichen finden Sie unter [Genehmigen von ](../../review-and-approve-work/manage-approvals/approving-work.md).
 
-Sie können Genehmigungen in den folgenden Bereichen anzeigen oder verwalten:
+Sie können Validierungen aus den folgenden Bereichen anzeigen oder verwalten:
 
-* Im Startbereich
+* Im Bereich Home
 
-   * Alle Projekte, Aufgaben, Probleme, Timesheets, Dokumente und Zugriffe, die auf Ihre Genehmigung warten, werden im Widget Meine Genehmigungen im Bereich Home angezeigt.
-   * Genehmigungen, die Sie selbst eingereicht haben, werden auch im Widget Meine Genehmigungen im Bereich Startseite angezeigt, wenn Sie die Filteroption Von mir gesendete Genehmigungen auswählen. Weitere Informationen finden Sie im Abschnitt [Arbeiten zur Überprüfung, die Sie zur Genehmigung im Startbereich einreichen](#review-work-you-submit-for-approval-in-the-home-area) in diesem Artikel.
-   * Genehmigungen werden aus dem Widget Meine Genehmigungen im Bereich Home entfernt, wenn das zugehörige Projekt, die zugehörige Aufgabe oder das zugehörige Problem mit &quot;Gelöst&quot;, &quot;Auf Halten&quot;, &quot;Geschlossen&quot;oder &quot;Abgebrochen&quot;markiert ist.
+   * Alle Projekte, Aufgaben, Probleme, Arbeitszeittabellen, Dokumente und Zugriffsberechtigungen, die auf Ihre Genehmigung warten, werden im Widget Meine Genehmigungen im Bereich Startseite angezeigt.
+   * Genehmigungen, die Sie selbst gesendet haben, werden auch im Widget Meine Genehmigungen im Bereich Startseite angezeigt, wenn Sie die Filteroption Von mir gesendete Genehmigungen auswählen. Weitere Informationen finden Sie im Abschnitt [Prüfungsarbeit, die Sie im Bereich Startseite zur Genehmigung einreichen](#review-work-you-submit-for-approval-in-the-home-area) dieses Artikels.
+   * Genehmigungen werden aus dem Widget Meine Genehmigungen im Bereich Startseite entfernt, wenn das zugehörige Projekt, die zugehörige Aufgabe oder das zugehörige Problem als „Gelöst“, „Gesperrt“, „Geschlossen“ oder „Abgebrochen“ gekennzeichnet ist.
 
-  Informationen zur Verwendung von Home finden Sie unter [Erste Schritte mit Home](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
+  Informationen zur Verwendung der Startseite finden Sie unter [Erste Schritte mit der Startseite](../../workfront-basics/using-home/using-the-home-area/get-started-with-home.md).
 
-* In der Kopfzeile eines Projekts, einer Aufgabe, eines Problems, eines Dokuments oder eines Testversands
+* In der Kopfzeile eines Projekts, einer Aufgabe, eines Problems, eines Dokuments oder eines Korrekturabzugs
 * Im Abschnitt Genehmigungen eines Projekts, einer Aufgabe oder eines Problems
 * In einem Bericht
 
   >[!NOTE]
   >
-  >Sie können keine Entscheidung über eine Genehmigung aus einem Bericht treffen.
+  >Sie können keine Entscheidung über eine Genehmigung anhand eines Berichts treffen.
 
-  Sie können einen Projekt-, Aufgaben-, Problem- oder Dokumentgenehmigungsbericht erstellen, der Validierungsinformationen enthält.
+  Sie können einen Projekt-, Aufgaben-, Problem- oder Dokumentgenehmigungsbericht erstellen, der Genehmigungsinformationen enthält.
 
-  Informationen zum Erstellen von Berichten finden Sie unter [Benutzerdefinierten Bericht erstellen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+  Informationen zum Erstellen von Berichten finden Sie [Erstellen eines benutzerdefinierten Berichts](../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-## Überprüfen Sie die Arbeit, die Sie zur Genehmigung im Startbereich einreichen. {#review-work-you-submit-for-approval-in-the-home-area}
+## Prüfungsarbeit, die zur Genehmigung im Bereich Startseite eingereicht wird {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klicken Sie oben rechts auf das Hauptmenü ]**![](assets/main-menu-icon.png) und dann auf**[!UICONTROL  Startseite ]**.**[!UICONTROL 
-1. (Bedingt) Klicken Sie auf **Anpassen** , um das Widget **Meine Genehmigungen** hinzuzufügen.
-1. (Bedingt) Klicken Sie auf das Dropdown-Menü **Filter** und wählen Sie dann **Von mir gesendete Genehmigungen** aus, um die von Ihnen gesendeten Genehmigungen anzuzeigen.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
+1. (Bedingt) Klicken Sie auf das **Filter** Dropdown-Menü und wählen Sie **Von mir gesendete Genehmigungen** aus, um die von Ihnen gesendeten Genehmigungen anzuzeigen.
 
 
-## Genehmigungsstatus eines Objekts anzeigen
+## Anzeigen des Genehmigungsstatus eines Objekts
 
-Sie können den Genehmigungsstatus eines Objekts in den folgenden Abschnitten des Objekts anzeigen:
+Sie können den Genehmigungsstatus eines Objekts in den folgenden Abschnitten des Objekts einsehen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -97,42 +97,42 @@ Sie können den Genehmigungsstatus eines Objekts in den folgenden Abschnitten de
  <tbody> 
   <tr> 
    <td role="rowheader">Updates </td> 
-   <td> <p>Zeigt alle Genehmigungsstatus an, wenn sie auftreten. Der Genehmigungsstatus wird entsprechend den anderen Status angezeigt, die im Abschnitt <strong>Aktualisierungen</strong> angezeigt werden.</p> </td> 
+   <td> <p>Zeigt alle Genehmigungsstatus an, wenn sie auftreten. Der Genehmigungsstatus wird zusammen mit anderen Status im Abschnitt <strong>Updates</strong> angezeigt.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Genehmigungen</td> 
-   <td> <p>Enthält detailliertere Informationen zum Genehmigungsprozess, z. B. zu den einzelnen Phasen des Genehmigungsprozesses und dazu, ob Genehmiger die Genehmigung erteilt haben.</p> </td> 
+   <td> <p>Zeigt detailliertere Informationen zum Genehmigungsprozess an, z. B. jede Phase des Genehmigungsprozesses und ob die genehmigenden Personen die Genehmigung erteilt haben.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-### Im Bereich Updates können Sie einen Genehmigungsstatus anzeigen. {#use-the-updates-area-to-view-an-approval-status}
+### Im Bereich Aktualisierungen können Sie einen Genehmigungsstatus anzeigen {#use-the-updates-area-to-view-an-approval-status}
 
-Wenn eine Genehmigung für ein Projekt, eine Aufgabe oder ein Problem eingeleitet wird, wird auf der Registerkarte **Aktualisierungen** des Objekts ein Status angezeigt, der den Genehmigungsstatus angibt. Ein neuer Status wird immer dann angezeigt, wenn das Objekt durch den Genehmigungsprozess wechselt. Dazu gehören die folgenden Ereignisse:
+Wenn eine Genehmigung für ein Projekt, eine Aufgabe oder ein Problem initiiert wird, wird auf der Registerkarte **Aktualisierungen** des Objekts ein Status angezeigt, der den Genehmigungsstatus angibt. Ein neuer Status wird immer dann angezeigt, wenn das Objekt den Genehmigungsprozess durchläuft. Dazu gehören die folgenden Ereignisse:
 
-* Ein Genehmigungsprozess wird für ein Objekt eingeleitet. Der Validierungsprozess wird bei Änderung des Status eingeleitet.
-* Das Objekt wird zurückgewiesen
-* Das Objekt wird genehmigt
+* Für ein Objekt wird ein Genehmigungsprozess gestartet. Der Genehmigungsprozess wird gestartet, wenn der Status geändert wird.
+* Das Objekt wird abgelehnt
+* Das Objekt wurde genehmigt
 
 >[!TIP]
 >
->Wenn eine Validierung auf eine Aufgabe angewendet wird, werden die Validierungsaktualisierungen auf dem Tab Aktualisierungen der Aufgabe und nicht auf dem Tab Aktualisierungen des Projekts angezeigt, in dem sich die Aufgabe befindet.
+>Wenn eine Genehmigung auf eine Aufgabe angewendet wird, werden die Genehmigungsaktualisierungen auf der Registerkarte Aktualisierungen der Aufgabe angezeigt und nicht auf der Registerkarte Aktualisierungen des Projekts, in dem sich die Aufgabe befindet.
 
-### Verwenden Sie den Bereich Genehmigungen , um einen Genehmigungsstatus anzuzeigen. {#use-the-approvals-area-to-view-an-approval-status}
+### Im Bereich Genehmigungen können Sie einen Genehmigungsstatus anzeigen. {#use-the-approvals-area-to-view-an-approval-status}
 
-Sie können sehen, wo sich eine Aufgabe oder ein Problem, an der Sie derzeit arbeiten, im Genehmigungsprozess befindet. Sie können die folgenden Informationen sehen:
+Sie erhalten Einblick in die Position einer Aufgabe oder eines Problems, an der bzw. dem Sie gerade arbeiten, im Genehmigungsprozess. Sie können die folgenden Informationen anzeigen:
 
-* Phase des Genehmigungsverfahrens
-* Welche Genehmiger haben sie bereits genehmigt?
-* Welche Genehmiger haben sie noch nicht genehmigt?
+* Die Phase des Genehmigungsprozesses
+* Welche genehmigenden Personen haben es bereits genehmigt?
+* Welche genehmigenden Personen haben es noch nicht genehmigt?
 
-So zeigen Sie den aktuellen Status an, an dem sich eine Aufgabe oder ein Problem im Genehmigungsprozess befindet:
+So zeigen Sie den aktuellen Status an, in dem sich eine Aufgabe oder ein Problem im Genehmigungsprozess befindet:
 
-1. Gehen Sie zum Projekt, zur Aufgabe oder zum Problem, mit dem die Genehmigung verknüpft ist.
-1. Klicken Sie im linken Bereich auf **Genehmigungen**. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
+1. Zu dem Projekt, der Aufgabe oder dem Problem gehen, mit dem/dem die Genehmigung verknüpft ist.
+1. Klicken Sie im linken Bedienfeld auf **Genehmigungen**. Möglicherweise müssen Sie zunächst auf &quot;**anzeigen“**.
 
-   Auf der Registerkarte Genehmigungen werden alle Informationen zu allen bisherigen Genehmigungspfaden und -phasen angezeigt. Sie können genau sehen, wer eine Entscheidung über die Genehmigung getroffen hat oder ob die Genehmigung für ein Team, eine Rolle oder einen Benutzer festgelegt wurde.
+   Die Registerkarte Genehmigungen enthält vollständige Informationen zu allen früheren Genehmigungspfaden und -schritten. Sie können genau sehen, wer eine Entscheidung über die Genehmigung getroffen hat oder ob die Genehmigung für ein Team, ein Aufgabengebiet oder einen Benutzer festgelegt ist.
 
    ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
-   Informationen zum Erstellen eines Genehmigungsprozesses finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
+   Weitere Informationen zum Erstellen eines Genehmigungsprozesses finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

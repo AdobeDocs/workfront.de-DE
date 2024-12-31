@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting
 product-area: documents
 navigation-topic: tips-tricks-and-troubleshooting-proofing-within-workfront
-title: 'Häufig gestellte Fragen: Testversand innerhalb von Adobe Workfront - Migration von USA zu EMEA'
-description: Adobe Workfront kontaktiert direkt alle von der Migration durch die Workfront Proof USA betroffenen Organisationen zur EMEA.
+title: 'Häufig gestellte Fragen: Migration von Proofing innerhalb von Adobe Workfront - USA nach EMEA'
+description: Adobe Workfront kontaktiert direkt alle von der Migration von Workfront Proof aus den USA nach EMEA betroffenen Unternehmen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: a6ac5738-8572-4d75-8212-5a2215ca8a8c
@@ -14,39 +14,39 @@ ht-degree: 0%
 
 ---
 
-# Häufig gestellte Fragen: Testversand innerhalb von Adobe Workfront - Migration von USA zu EMEA
+# Häufig gestellte Fragen: Migration von Proofing innerhalb von Adobe Workfront - USA nach EMEA
 
-## Woher weiß ich, ob diese Änderung meine Einrichtung betrifft? 
+## Woher weiß ich, ob sich diese Änderung auf meine Organisation auswirkt? 
 
-Adobe Workfront kontaktiert direkt alle von der Migration durch die Workfront Proof USA betroffenen Organisationen zur EMEA.
+Adobe Workfront kontaktiert direkt alle von der Migration von Workfront Proof aus den USA nach EMEA betroffenen Unternehmen.
 
 ## Muss ich etwas tun, um mich auf die Migration vorzubereiten?
 
-Ja. Stellen Sie vor der Migration sicher, dass Sie der Zulassungsliste Ihres Unternehmens Folgendes hinzufügen:\
-**webCapture.proofhq.eu**
+Ja. Stellen Sie vor der Migration sicher, dass Sie der Zulassungsliste Ihrer Organisation Folgendes hinzufügen:\
+**webcollection.proofhq.eu**
 
 ## Wie lange dauert die Migration meines Kontos?
 
-Für einen kurzen Zeitraum von bis zu zwei Stunden ist Ihr Konto nicht zugänglich, während wir es zu seinem neuen Standort im EMEA-Rechenzentrum migrieren.
+Für einen kurzen Zeitraum von bis zu zwei Stunden ist Ihr Konto nicht zugänglich, während wir es an seinen neuen Standort im Rechenzentrum der EMEA migrieren.
 
-Nach Abschluss der Kontomigration werden wir damit beginnen, alle Ihre Dateien von unserem US-Rechenzentrum in das EMEA-Rechenzentrum zu verschieben. Während die Dateien verschoben werden, können sie weiterhin im US-Rechenzentrum aufgerufen werden. Dieser Prozess findet im Hintergrund statt und hat keine Auswirkungen auf Sie und Ihre Benutzer.
+Nach Abschluss der Kontomigration übertragen wir Ihre Dateien aus unserem US-Rechenzentrum in das EMEA-Rechenzentrum. Während die Dateien verschoben werden, sind sie weiterhin im US-Rechenzentrum zugänglich. Dieser Vorgang findet im Hintergrund statt und hat keine Auswirkungen auf Sie und Ihre Benutzer.
 
-Nach Abschluss der Migration können Sie und Ihre Benutzer nur noch vom EMEA-Rechenzentrum auf Dateien und Testsendungen zugreifen. 
+Nach Abschluss der Migration können Sie und Ihre Benutzer nur noch über das Rechenzentrum von EMEA auf Dateien und Testsendungen zugreifen. 
 
-## Was geschieht mit der URL, die ich für den Zugriff auf Workfront Proof verwende?
+## Was passiert mit der URL, die ich für den Zugriff auf Workfront Proof verwende?
 
-Um die Migration zu ermöglichen, muss die URL, die Sie für den Zugriff auf das System verwenden, von proofhq.com in proofhq.eu geändert werden. Jeder, der nach der Migration die alte URL proofhq.com verwendet, erhält eine Nachricht mit dem neuen Anmelde-Link:
+Um die Migration zu ermöglichen, muss die URL, über die Sie auf das System zugreifen, von proofhq.com in proofhq.eu geändert werden. Jeder, der nach der Migration die alte proofhq.com URL verwendet, erhält eine Nachricht mit dem neuen Anmelde-Link:
 
-## Kann ich weiterhin meine alten Testversandlinks und Lesezeichen verwenden?
+## Kann ich weiterhin meine alten Korrekturabzugs-Links und Lesezeichen verwenden?
 
-Proof-spezifische Lesezeichen funktionieren nach der Migration nicht mehr. Jeder, der einen verwendet, erhält über die Schaltfläche Go to Proof eine Nachricht, die ihm Zugriff auf den Testversand bietet:
+Korrekturabzug-spezifische Lesezeichen funktionieren nach der Migration nicht mehr. Jeder, der einen Korrekturabzug verwendet, erhält über die Schaltfläche Zum Korrekturabzug gehen eine Nachricht mit Zugriff auf den Korrekturabzug:
 
-## Werden Benutzername und Passwort unverändert bleiben?
+## Bleiben mein Benutzername und mein Passwort unverändert?
 
-Ja, Ihr Benutzername und Ihr Passwort bleiben genau so wie heute.
+Ja, Ihr Benutzername und Ihr Passwort bleiben genau so, wie es heute ist.
 
-## Kann ich immer noch mit Testversandkonten interagieren, mit denen ich in den USA zusammenarbeite?
+## Kann ich weiterhin mit Proof Accounts in den USA interagieren, mit denen ich zusammenarbeite?
 
-Nein, der Zugriff, den Sie auf frühere US-Testversandkonten hatten, ist nicht mehr verfügbar. Ihr Konto in EMEA ist vollständig von der US-Umgebung getrennt. Dadurch soll sichergestellt werden, dass Ihre Daten sicher bleiben und den EU-Datenschutzgesetzen entsprechen.
+Nein, der Zugriff auf frühere Korrekturabzugskonten in den USA ist nicht mehr verfügbar. Ihr Konto in EMEA ist nicht mit der US-Umgebung verknüpft. Dadurch soll sichergestellt werden, dass Ihre Daten sicher bleiben und den EU-Datenschutzbestimmungen entsprechen.
 
-Wenn Sie über ein anderes US-Konto verfügen, mit dem Sie Partner sind, und Sie diese Partnerschaft pflegen müssen, müssen die Inhaber dieses Kontos mit Ihrem Konto migrieren. Bitte besprechen Sie dies vor der Migration mit ihnen, um sicherzustellen, dass die richtigen Konten verschoben werden.
+Wenn Sie ein anderes US-Konto haben, mit dem Sie zusammenarbeiten, und diese Partnerschaft pflegen müssen, müssen die Eigentümer dieses Kontos mit Ihrem Konto migrieren. Besprechen Sie dies vor der Migration mit dem Kunden, um sicherzustellen, dass die richtigen Konten verschoben werden.

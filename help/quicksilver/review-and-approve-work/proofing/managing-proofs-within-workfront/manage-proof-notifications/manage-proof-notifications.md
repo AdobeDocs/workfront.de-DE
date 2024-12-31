@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: 'Verwalten von Testversandbenachrichtigungen: Artikelindex'
-description: Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten
+title: 'Verwalten von Korrekturabzugs-Benachrichtigungen: Artikelindex'
+description: Verwalten von Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,6 +15,6 @@ ht-degree: 0%
 
 ---
 
-# Verwalten von Testversandbenachrichtigungen: Artikelindex
+# Verwalten von Korrekturabzugs-Benachrichtigungen: Artikelindex
 
-* [Benachrichtigungen für Testversandkommentare und -entscheidungen verwalten](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)
+* [Verwalten von Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/manage-notifications-for-proof-comments.md)

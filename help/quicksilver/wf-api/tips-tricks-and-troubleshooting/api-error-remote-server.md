@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: API-Fehlermeldung 400 Bad Request
-description: API-Fehlermeldung 400 Bad Request
+title: 'API-Fehlermeldung 400: Fehlerhafte Anfrage'
+description: 'API-Fehlermeldung 400: Fehlerhafte Anfrage'
 author: Becky
 feature: Workfront API
 role: Developer
@@ -15,20 +15,20 @@ ht-degree: 0%
 ---
 
 
-# API-Fehler: &quot;Der Remote-Server hat einen Fehler (400) Bad Request zurückgegeben.&quot;
+# API-Fehler: „Der Remote-Server hat einen Fehler zurückgegeben (400): Ungültige Anfrage“
 
 ## Problem
 
-Beim Versuch, die API zum Importieren eines benutzerdefinierten Felds in ein Problem zu verwenden, erhalten Sie den folgenden Fehler:
+Beim Versuch, die API zum Importieren eines benutzerdefinierten Felds in ein Problem zu verwenden, wird die folgende Fehlermeldung angezeigt:
 
 `The remote server returned an error: (400) Bad Request`
 
 ## Ursache
 
-Dieser Fehler tritt auf, wenn Sie versuchen, über die API ein benutzerdefiniertes Feld aus einem Projekt zu importieren, dem kein benutzerdefiniertes Formular mit einem Warteschlangenthema zugeordnet ist.
+Dieser Fehler tritt auf, wenn Sie versuchen, über die API ein benutzerdefiniertes Feld aus einem Projekt zu importieren, dem kein benutzerdefiniertes Formular mit einem Warteschlangenthema verknüpft ist.
 
 ## Lösung
 
-Fügen Sie das richtige benutzerdefinierte Formular zum Thema Warteschlange hinzu.
+Fügen Sie dem Warteschlangenthema das richtige benutzerdefinierte Formular hinzu.
 
-Weitere Informationen zu Warteschlangenthemen finden Sie unter [Themen für Warteschlangen erstellen](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
+Weitere Informationen zu Warteschlangenthemen finden Sie unter [Warteschlangenthemen erstellen](../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).

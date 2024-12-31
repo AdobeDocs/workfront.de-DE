@@ -3,7 +3,7 @@ content-type: reference
 product-area: documents
 navigation-topic: proofing-overview
 title: Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht
-description: Erfahren Sie mehr über die Unterschiede zwischen Desktop- und Web-Proofing-Viewern.
+description: Machen Sie sich mit den Unterschieden zwischen Desktop- und Web Proofing Viewern vertraut.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 72ce147b-29c9-4c3b-a03c-2da0758bc178
@@ -16,69 +16,69 @@ ht-degree: 0%
 
 # Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht
 
-Adobe Workfront bietet zwei verschiedene Testversand-Viewer:
+Adobe Workfront bietet zwei verschiedene Proofing-Viewer:
 
-* **Web Proofing Viewer:** hauptsächlich für die Prüfung von statischen und Videodateien entwickelt. Wird in Google Chrome, Firefox oder Safari ausgeführt.
-* **Desktop-Proofing-Viewer:** Für das Testen von interaktiven Dateien sowie Video- und statischen Dateien entwickelt. Führt als eigenständige Anwendung auf Ihrer Workstation aus. Weitere Informationen finden Sie unter [Grundlegendes zum Desktop-Proofing-Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
+* **Web Proofing Viewer:** wurde hauptsächlich für das Proofing statischer Dateien und Videodateien entwickelt. Läuft in Google Chrome, Firefox oder Safari.
+* **Desktop Proofing Viewer:** Für das Proofing interaktiver Dateien sowie von Video- und statischen Dateien. Wird als eigenständige Anwendung auf Ihrer Workstation ausgeführt. Weitere Informationen finden Sie unter [Grundlegendes zur Desktop Proofing Viewer](../../../workfront-proof/wp-work-proofsfiles/review-proofs-dpv/destop-proofing-viewer.md)
 
-* Wenn Ihr Unternehmen aus Sicherheitsgründen die Desktop Proofing Viewer-App nicht verwenden kann, kann Ihr Workfront-Administrator Ihr System so konfigurieren, dass Sie interaktive Inhalte, die in einer ZIP-Archivdatei enthalten sind, im Web Proofing Viewer überprüfen können. Weitere Informationen finden Sie unter  [Richten Sie die interaktive Inhaltsüberprüfung im Web Proofing Viewer ein](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* Wenn Ihr Unternehmen die Desktop Proofing Viewer-App aus Sicherheitsgründen nicht verwenden kann, kann Ihr Workfront-Administrator Ihr System so konfigurieren, dass Sie interaktive Inhalte, die in einer ZIP-Archivdatei gebündelt sind, im Web Proofing Viewer überprüfen können. Weitere Informationen finden Sie unter  [Einrichten des interaktiven Inhalts-Proofing im Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen testen können:
+Die folgende Liste hilft Ihnen zu verstehen, welchen Proofing Viewer Sie zum Testen bestimmter Inhaltstypen verwenden können:
 
-* **Interaktiver Webinhalt - URL**: Wenn Sie mithilfe einer URL einen Testversand für Webinhalte erstellen und den Inhalt interaktiv testen möchten, müssen Sie den Desktop Proofing Viewer verwenden.
-* **Interaktiver Webinhalt - ZIP-Datei**: Wenn Sie mithilfe einer ZIP-Datei einen Testversand für Webinhalte erstellen, können Sie entweder den Web Proofing Viewer (mit einigen Einschränkungen) oder den Desktop Proofing Viewer verwenden. Informationen zu den Einschränkungen bei der Verwendung des Web Proofing Viewers für interaktive Inhalte finden Sie unter [Einrichten der interaktiven Inhaltsüberprüfung im Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
+* **Interaktiver Webinhalt - URL**: Wenn Sie einen Korrekturabzug für Webinhalte mithilfe einer URL erstellen und den Inhalt interaktiv prüfen möchten, müssen Sie den Desktop Proofing Viewer verwenden.
+* **Interaktiver Webinhalt - ZIP-Datei**: Wenn Sie einen Korrekturabzug für Webinhalte mithilfe einer ZIP-Datei erstellen, können Sie entweder den Web Proofing Viewer (mit einigen Einschränkungen) oder den Desktop Proofing Viewer verwenden. Weitere Informationen zu den Einschränkungen bei der Verwendung des Web Proofing Viewers für interaktive Inhalte finden Sie unter [Einrichten des interaktiven Inhalts-Proofing im Web Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md).
 
-* **Statischer und Videoinhalt**: Wenn Sie einen Testversand mit statischen Inhalten erstellen, können Sie entweder den Web Proofing Viewer oder den Desktop Proofing Viewer verwenden.
+* **Statischer und Videoinhalt**: Wenn Sie einen Korrekturabzug mit statischen Inhalten erstellen, können Sie entweder den Web Proofing Viewer oder den Desktop Proofing Viewer verwenden.
 
-## Statische Testsendungen
+## Statische Korrekturabzüge
 
-| **Funktion** | **Web Proofing Viewer** | **Desktop-Testversand-Viewer** |
+| **Funktion** | **Web Proofing Viewer** | **Desktop Proofing Viewer** |
 |---|---|---|
-| Öffnen Sie statische Testsendungen | ✓ | ✓&#42; |
-| Einzelansichten, Zeitschriften und fortlaufende Ansichten | ✓ | ✓&#42; |
-| Schwenken | ✓ | ✓&#42; |
-| Zoomen | ✓ | ✓&#42; |
-| Drehen | ✓ | ✓&#42; |
-| Messwerkzeug | ✓ (Bereich mit benutzerdefinierter Größe festlegen) | ✓&#42; |
-| Miniaturansicht | ✓ | ✓&#42; |
-| Statischer Testversand-Navigator | ✓ | ✓&#42; |
-| Dokumentsuche | ✓ | ✓&#42; |
-| Post-Kommentar auf mehreren Seiten | ✓ (in allen Ansichten verfügbar) | ✓&#42; (in allen Ansichten verfügbar) |
-| Erweiterte statische Testbefehle | ✓ (weitere Informationen finden Sie unter [Tastaturbefehle im Testversand-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;(Weitere Informationen finden Sie unter [Tastaturbefehle im Testversand-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
+| Statische Korrekturabzüge öffnen | ✓ | ✓ &#42; |
+| Einzelne, Magazin- und fortlaufende Ansichten | ✓ | ✓ &#42; |
+| Schwenken | ✓ | ✓ &#42; |
+| Zoomen | ✓ | ✓ &#42; |
+| Drehen | ✓ | ✓ &#42; |
+| Messwerkzeug | ✓ (Legen Sie einen benutzerdefinierten Bereich fest) | ✓ &#42; |
+| Miniaturansicht | ✓ | ✓ &#42; |
+| Navigator für statische Korrekturabzüge | ✓ | ✓ &#42; |
+| Dokumentsuche | ✓ | ✓ &#42; |
+| Kommentar auf mehreren Seiten posten | ✓ (in allen Ansichten verfügbar) | ✓ &#42; (in allen Ansichten verfügbar) |
+| Erweiterte statische Korrekturabzüge | ✓ (Weitere Informationen finden Sie unter [Tastaturbefehle im Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ &#42;Weitere Informationen finden Sie unter [Tastaturbefehle in der Korrekturabzugsansicht](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) |
 
 {style="table-layout:auto"}
 
-&#42; Diese Funktion funktioniert nur, wenn Ihr Workfront-Administrator den Desktop Proofing Viewer als Standard-Viewer für alle Testsendungen konfiguriert hat.
+&#42; Diese Funktion funktioniert nur, wenn Ihr Workfront-Administrator die Desktop-Korrekturabzugsansicht als Standard-Viewer für alle Korrekturabzüge konfiguriert hat.
 
-## Video-Testsendungen
+## Video-Korrekturabzüge
 
-| **Funktion**  | **Web Proofing Viewer** | **Desktop-Testversand-Viewer** |
+| **Funktion**  | **Web Proofing Viewer** | **Desktop Proofing Viewer** |
 |---|---|---|
-| Öffnen von Videoproofs | ✓ | ✓&#42; |
-| Pufferung | ✓ | ✓&#42; |
-| Überprüfen anhand der Zeit | ✓ | ✓&#42; |
-| Überprüfen mit Frames oder Timecode | ✓ | ✓&#42; |
-| Schneller oder langsamer überprüfen | ✓ | ✓&#42; |
-| Volumenregulierung | ✓ | ✓&#42;  |
-| Vollbildmodus | ✓ | ✓&#42;  |
-| Bereichskommentare | ✓ | ✓&#42;  |
-| Schleifen von Video-Testsendungen (Videos werden beendet und automatisch gestartet) | ✓ | ✓&#42;  |
-| Erweiterte Video-Tastaturbefehle | ✓ (weitere Informationen finden Sie unter [Tastaturbefehle im Testversand-Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓&#42;  |
+| Videoprüfungen öffnen | ✓ | ✓ &#42; |
+| Pufferung | ✓ | ✓ &#42; |
+| Überprüfen mithilfe der Zeit | ✓ | ✓ &#42; |
+| Überprüfung mit Vollbildern oder Zeitcode | ✓ | ✓ &#42; |
+| Schnellere oder langsamere Überprüfung | ✓ | ✓ &#42; |
+| Mengenregelung | ✓ | ✓ &#42;  |
+| Vollbildmodus | ✓ | ✓ &#42;  |
+| Kommentare zu Bereichen | ✓ | ✓ &#42;  |
+| Testsendungen von Videos wiederholen (Videos werden automatisch beendet und gestartet) | ✓ | ✓ &#42;  |
+| Erweiterte Video-Tastaturbefehle | ✓ (Weitere Informationen finden Sie unter [Tastaturbefehle im Proofing Viewer](../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/keyboard-shortcuts-proof.md)) | ✓ &#42;  |
 
 {style="table-layout:auto"}
 
-&#42; Diese Funktion funktioniert nur, wenn der Desktop Proofing Viewer als Standard-Viewer für alle Testsendungen konfiguriert ist.
+&#42; Diese Funktion funktioniert nur, wenn der Desktop Proofing Viewer als Standard-Viewer für alle Korrekturabzüge konfiguriert ist.
 
-## Interaktive Testsendungen
+## Interaktive Korrekturabzüge
 
-| **Funktion**  | **Web Proofing Viewer** | **Desktop-Testversand-Viewer** |
+| **Funktion**  | **Web Proofing Viewer** | **Desktop Proofing Viewer** |
 |---|---|---|
-| Öffnen Sie interaktive Testsendungen, die aus in einer ZIP-Datei gebündelten Inhalten erstellt wurden. | ✓ | ✓ (empfohlen |
-| Öffnen eines interaktiven Testversands, der über eine URL erstellt wurde | Nicht unterstützt | ✓ |
-| Anzeigen interaktiver Testsendungen (erstellt aus Inhalten, die in einer ZIP-Datei enthalten sind) in verschiedenen Bildschirmgrößen | ✓ | ✓ |
-| Anzeigen interaktiver Testsendungen (erstellt aus Inhalten, die in einer ZIP-Datei enthalten sind) für verschiedene Geräte | Nicht unterstützt | ✓ |
-| Überprüfen nicht gesicherter (HTTP) Sites | Nicht unterstützt | ✓ |
-| Überprüfen von iFrame-geschützten Sites (Sites, die vor der Anzeige in einem iFrame geschützt sind) | Nicht unterstützt | ✓ |
+| Öffnen Sie interaktive Korrekturabzüge, die aus in einer ZIP-Datei gebündelten Inhalten erstellt wurden | ✓ | ✓ (empfohlen) |
+| Öffnen Sie einen interaktiven Korrekturabzug, der aus einer URL erstellt wurde | Nicht unterstützt | ✓ |
+| Interaktive Korrekturabzüge (erstellt aus Inhalten, die in einer ZIP-Datei gebündelt sind) in verschiedenen Bildschirmgrößen anzeigen | ✓ | ✓ |
+| Zeigen Sie interaktive Korrekturabzüge (erstellt aus Inhalten, die in einer ZIP-Datei gebündelt sind) für verschiedene Geräte an | Nicht unterstützt | ✓ |
+| Überprüfen von ungesicherten (HTTP-)Sites | Nicht unterstützt | ✓ |
+| Überprüfen von iFrame-geschützten Websites (Websites, die vor der Anzeige in einem iFrame geschützt sind) | Nicht unterstützt | ✓ |
 
 {style="table-layout:auto"}
 
@@ -102,67 +102,67 @@ Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Antworten hinzufügen und löschen</p> </td> 
+   <td> <p>Hinzufügen und Löschen von Antworten</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Markup-Tools für Rechtecke, Pfeil, Linie, Zeilenschalter und Hervorhebung</p> </td> 
+   <td> <p>Markup-Tools für Rechtecke, Pfeile, Linien, Freihand und Hervorhebungen</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Polylinewerkzeug</p> </td> 
+   <td> <p>Mehrzeilenwerkzeug</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Markup-Tools für Zuschnittmasken</p> </td> 
+   <td> <p>Zuschnittmasken-Markup-Tools</p> </td> 
    <td>Nicht unterstützt</td> 
    <td>Nicht unterstützt</td> 
   </tr> 
   <tr> 
-   <td> <p>Markierungswerkzeug für Textauswahl</p> </td> 
-   <td>Nur ✓ Testsendungen</td> 
-   <td>Nur ✓ Testsendungen</td> 
+   <td> <p>Markup-Tool für die Textauswahl</p> </td> 
+   <td>✓ Nur statische Korrekturabzüge</td> 
+   <td>✓ Nur statische Korrekturabzüge</td> 
   </tr> 
   <tr> 
-   <td> <p>Markup-Farbe ändern</p> </td> 
+   <td> <p>Ändern der Markupfarbe</p> </td> 
    <td>✓ (32 Farben verfügbar) </td> 
    <td>✓ (32 Farben verfügbar) </td> 
   </tr> 
   <tr> 
-   <td> <p>Markup-Deckkraft ändern</p> </td> 
+   <td> <p>Ändern der Deckkraft des Markups</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Ändern der Markup-Dicke</p> </td> 
+   <td> <p>Ändern der Markupdicke</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Markierungen ausschneiden, kopieren und einfügen</p> </td> 
+   <td> <p>Ausschneiden, Kopieren und Einfügen von Markierungen</p> </td> 
    <td> Nicht unterstützt</td> 
    <td> Nicht unterstützt</td> 
   </tr> 
   <tr> 
-   <td> <p>Letzten Vorgang "Rückgängig"und "Wiederholen"</p> </td> 
+   <td> <p>Letzten Vorgang rückgängig machen und wiederholen</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Markups duplizieren</p> </td> 
+   <td> <p>Duplizieren von Markierungen</p> </td> 
    <td> Nicht unterstützt</td> 
    <td> Nicht unterstützt</td> 
   </tr> 
   <tr> 
-   <td>Festlegen von Aktionen für Kommentare</td> 
+   <td>Aktionen auf Kommentare festlegen</td> 
    <td>✓ (Aktionen sind in Kommentaren unmittelbar nach dem Festlegen der Aktion sichtbar)</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Markup-Farbe als Standard festlegen</p> </td> 
+   <td> <p>Festlegen der Markup-Farbe als Standard</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
@@ -187,27 +187,27 @@ Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Anzeigen der Kommentarliste in einer kompakten Ansicht</p> </td> 
+   <td> <p>Kommentarliste in einer kompakten Ansicht anzeigen</p> </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td> <p>Anzeigen der Kommentarliste in einer standardmäßigen, vollständigen oder einzelnen Ansicht</p> </td> 
+   <td> <p>Anzeigen der Kommentarliste in einer Standard-, Voll- oder Einzelansicht</p> </td> 
    <td>Für die Zukunft geplant</td> 
    <td>Für die Zukunft geplant</td> 
   </tr> 
   <tr> 
-   <td> <p>Suchkommentare</p> </td> 
+   <td> <p>Kommentare durchsuchen</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Filtern von Kommentaren nach Benutzer</p> </td> 
+   <td> <p>Kommentare nach Benutzer filtern</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td> <p>Filtern von Kommentaren und Antworten nach Benutzer</p> </td> 
+   <td> <p>Kommentare und Antworten nach Benutzer filtern</p> </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -228,7 +228,7 @@ Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen
 
 | Funktion | Web Proofing Viewer | Desktop Proofing Viewer |
 |---|---|---|
-| Entscheidungsfindung | ✓ | ✓ |
+| Entscheidungen treffen | ✓ | ✓ |
 | Entscheidungen anpassen | ✓ | ✓ |
 
 {style="table-layout:auto"}
@@ -253,14 +253,14 @@ Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen
    <td>✓<br></td> 
   </tr> 
   <tr> 
-   <td>Separate Testsendungen vergleichen</td> 
+   <td>Separate Korrekturabzüge vergleichen</td> 
    <td> ✓ </td> 
    <td> <p>✓</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-## Testoperationen
+## Korrekturabzug-Vorgänge
 
 <table style="table-layout:auto"> 
  <col> 
@@ -275,17 +275,17 @@ Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen
  </thead> 
  <tbody> 
   <tr> 
-   <td>Testversand-Version ändern </td> 
+   <td>Ändern der Testversand-Version </td> 
    <td>✓</td> 
    <td> ✓ </td> 
   </tr> 
   <tr> 
-   <td>Neue Version erstellen</td> 
-   <td> <p>Nur in Workfront Proof verfügbar (geplant für die Zukunft beim Testen in Workfront)<br></p> </td> 
-   <td>Nur in Workfront Proof verfügbar (geplant für die Zukunft beim Testen in Workfront)</td> 
+   <td>Erstellen einer neuen Version</td> 
+   <td> <p>Nur in Workfront Proof verfügbar (für die Zukunft beim Proofing in Workfront geplant)<br></p> </td> 
+   <td>Nur in Workfront Proof verfügbar (für die Zukunft beim Proofing in Workfront geplant)</td> 
   </tr> 
   <tr> 
-   <td>Überprüfen der Testversand-Details </td> 
+   <td>Details zum Testversand überprüfen </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -320,12 +320,12 @@ Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Testsendungen und -phasen sperren und entsperren</td> 
+   <td>Korrekturabzüge und Phasen sperren und entsperren</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Testversandzusammenfassung drucken</td> 
+   <td>Zusammenfassung des Testversands drucken</td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
@@ -335,43 +335,43 @@ Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Testsendungen im selben Ordner verwalten</td> 
+   <td>Verwalten von Korrekturabzügen aus demselben Ordner</td> 
    <td><strong>Nur in Workfront Proof verfügbar</strong> </td> 
    <td><strong>Nur in Workfront Proof verfügbar</strong> </td> 
   </tr> 
   <tr> 
    <td>Branding (benutzerdefinierte Logos)</td> 
    <td>✓</td> 
-   <td> ✓<br>(Workfront-Logo auf der Launch-Seite) </td> 
+   <td> ✓ <br>(Workfront-Logo auf der Launch-Seite) </td> 
   </tr> 
   <tr> 
-   <td>Benutzerspezifische Links (nur Workfront Proof)</td> 
+   <td>Benutzerdefinierte Links (nur Workfront Proof)</td> 
    <td>Nicht unterstützt</td> 
    <td> Nicht unterstützt </td> 
   </tr> 
   <tr> 
    <td>Basecamp-Integrationen (nur Workfront Proof) </td> 
-   <td>Für die Zukunft geplant</td> 
-   <td>Für die Zukunft geplant</td> 
+   <td>Geplant für die Zukunft</td> 
+   <td>Geplant für die Zukunft</td> 
   </tr> 
   <tr> 
-   <td>Indikator der Präsenz </td> 
+   <td>Präsenzanzeige </td> 
    <td>✓</td> 
    <td>✓</td> 
   </tr> 
   <tr> 
-   <td>Automatische Aktualisierungen des Testversands (Berechtigungsänderungen und neue Versionen)</td> 
+   <td>Korrekturabzug wird automatisch aktualisiert (Berechtigungsänderungen und neue Versionen)</td> 
    <td>✓</td> 
    <td>✓ </td> 
   </tr> 
  </tbody> 
 </table>
 
-## MiniViewer
+## Miniviewer
 
-| **Funktion**  | **Web Proofing Viewer**  | **Desktop-Testversand-Viewer** |
+| **Funktion**  | **Web Proofing Viewer**  | **Desktop Proofing Viewer** |
 |---|---|---|
-| Eingebetteter Code | Für die Zukunft geplant für statische und native Videoproofs | Nicht unterstützt  |
+| Eingebetteter Code | Zukünftig für statische und native Videoprüfungen geplant | Nicht unterstützt  |
 
 {style="table-layout:auto"}
 
@@ -385,12 +385,12 @@ Die folgende Liste zeigt, wie Sie mit dem Proofing-Viewer bestimmte Inhaltstypen
   <tr> 
    <th><strong>Funktion</strong> </th> 
    <th><strong>Web Proofing Viewer</strong> </th> 
-   <th><strong>Desktop-Testversand-Viewer</strong> </th> 
+   <th><strong>Desktop Proofing Viewer</strong> </th> 
   </tr> 
  </thead> 
  <tbody> 
   <tr> 
-   <td>Andere Support-Sprachen als Englisch</td> 
+   <td>Unterstützt andere Sprachen als Englisch</td> 
    <td>✓</td> 
    <td>✓<br></td> 
   </tr> 

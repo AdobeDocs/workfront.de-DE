@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 10
+title: Neue Funktionen in der API-Version 10
 description: Aktualisierte Ressourcen
 author: Becky
 feature: Workfront API
@@ -10,14 +10,14 @@ exl-id: 8ac384ae-5d65-4c0e-98c1-cf38cfbff460
 source-git-commit: 3e339e2bfb26e101f0305c05f620a21541394993
 workflow-type: tm+mt
 source-wordcount: '487'
-ht-degree: 39%
+ht-degree: 46%
 
 ---
 
-# Neue Funktionen in API Version 10
+# Neue Funktionen in der API-Version 10
 
 * [Neue Ressourcen](#new-resources)
-* [Aktualisierte Ressourcen](#updated-resources)
+* [Ressourcen aktualisiert](#updated-resources)
 * [Entfernte Ressourcen](#removed-resources)
 
 ## Neue Ressourcen {#new-resources}
@@ -27,18 +27,18 @@ ht-degree: 39%
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 |   |   |   |   |   |   | HINZUFÜGEN |
-|   |   |   |   |   |   | COUNT |
+|   |   |   |   |   |   | ANZAHL |
 |   |   |   |   |   |   | GET |
 |   |   |   |   |   |   | SEARCH |
 
 {style="table-layout:auto"}
 
-### CalendarEntry
+### Kalendereintrag
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | HINZUFÜGEN |
-|   |   |   |   |   |   | COUNT  |
+|   |   |   |   |   |   | ANZAHL  |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | BEARBEITEN  |
 |   |   |   |   |   |   | GET  |
@@ -51,7 +51,7 @@ ht-degree: 39%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| ID |   |   |   |   |   | COUNT |
+| ID |   |   |   |   |   | ANZAHL |
 |   |   |   |   |   |   | GET  |
 |   |   |   |   |   |   | BERICHT  |
 |   |   |   |   |   |   | SUCHEN  |
@@ -63,7 +63,7 @@ ht-degree: 39%
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | ID |   |   |   |   |   | HINZUFÜGEN |
-|   |   |   |   |   |   | COUNT |
+|   |   |   |   |   |   | ANZAHL |
 |   |   |   |   |   |   | DELETE  |
 |   |   |   |   |   |   | BEARBEITEN  |
 |   |   |   |   |   |   | GET  |
@@ -76,11 +76,11 @@ ht-degree: 39%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| customerID | customer |   |   |   |   |   |
+| customerID | Kunde |   |   |   |   |   |
 | groupID | Gruppe |   |   |   |   |   |
 | planLimit |   |   |   |   |   |   |
 | usedLicenses |   |   |   |   |   |   |
-| worklimit |   |   |   |   |   |   |
+| Arbeitsgrenze |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 |   |   |   |   |   |   |   |
 
@@ -90,8 +90,8 @@ ht-degree: 39%
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| customerID | customer |   |   |   |   | HINZUFÜGEN |
-| edTime | Benutzer |   |   |   |   | COUNT |
+| customerID | Kunde |   |   |   |   | HINZUFÜGEN |
+| edTime | Benutzer |   |   |   |   | ANZAHL |
 | firstDayOfWeek |   |   |   |   |   | LÖSCHEN |
 | ID |   |   |   |   |   | BEARBEITEN |
 | showPTO |   |   |   |   |   | GET |
@@ -101,25 +101,25 @@ ht-degree: 39%
 
 {style="table-layout:auto"}
 
-**Aktualisierte Ressourcen**
+**Ressourcen aktualisiert**
 
-Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API aktualisiert. An einer Ressource vorgenommene Änderungen werden wie folgt angegeben:
+Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API aktualisiert. An einer Ressource vorgenommene Änderungen werden wie folgt angezeigt:
 
-* Hinzufügungen werden einfach aufgelistet
-* Entfernungen werden mit Durchstreichen angezeigt
+* Ergänzungen werden einfach aufgelistet
+* Entfernungen werden durch durchgestrichenen Text gekennzeichnet
 * Änderungen werden in der Anmerkung nach der Tabelle aufgeführt
 
 ### Genehmigung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval `<sup>1</sup>`   |   |   |   |
+| Kanban-Flag |  |  | `<sup>1</sup>` ausstehend   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 | projectBudgetedCost  |   |   |   |   |   |   |
 | projectNetValue  |   |   |   |   |   |   |
-| projectRoi  |   |   |   |   |   |   |
-| resourcePlannerBudgetedLabourCost  |   |   |   |   |   |   |
+| projectROI  |   |   |   |   |   |   |
+| resourcePlannerBudgetedLaborCost  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -129,14 +129,14 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| assignmentPercent `<sup>1</sup>` |   |   |   |   |   |   |
+| assignmentPercent-`<sup>1</sup>` |   |   |   |   |   |   |
 | viewedByAssignedToUser |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-`<sup>1</sup>`hat validator LESS_THAN_EQUAL hinzugefügt
+`<sup>1</sup>`hat Validator LESS_THAN_EQUAL hinzugefügt
 
-### BudgetedHour
+### Budgetierte Stunde
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -146,15 +146,15 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Workfront-API
 
  
 
-### CustomerPreferences
+### Kundenpräferenzen
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| name `<sup>1</sup>` |   |   |   |   |   |   |
+| Name `<sup>1</sup>` |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an den möglichenWerten
+<sup>1</sup> Änderungen an possibleValues
 
 ### DocMetadataLinkGroup
 
@@ -191,7 +191,7 @@ DocumentVersion
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an den möglichenWerten
+<sup>1</sup> Änderungen an possibleValues
 
 Ausgabe
 
@@ -214,11 +214,11 @@ Ausgabe
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| externalIntegrationType<sup>1</sup> |  |  |  |  |   |   |
+| externalIntegrationType.<sup></sup> |  |  |  |  |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Änderungen an den möglichenWerten
+<sup>1</sup> Änderungen an possibleValues
 
 ### OpTask
 
@@ -228,9 +228,9 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Typ geändert von null in boolesch
+<sup>1</sup> Typ von null in boolesch geändert
 
-### PortalSection
+### Portalabschnitt
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -243,7 +243,7 @@ Ausgabe
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | portfolioNetValue |   |   |   |  |  |   |
-| portfolioRoi |   |   |   |   |   |   |
+| portfolioROI |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -253,16 +253,16 @@ Ausgabe
 |---|---|---|---|---|---|---|
 | projectBudgetedCost  |   |   |   | linkExternalObject  |   |   |
 | projectNetValue |   |   |   | unlinkExternalObject |   |   |
-| projectRoi |   |   |   |   |   |   |
-| resourcePlannerBudgetedLabourCost |   |   |   |   |   |   |
+| projectROI |   |   |   |   |   |   |
+| resourcePlannerBudgetedLaborCost |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### TestversandApproval
+### Testversandvalidierung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| approveDecision |   |   |   |   |   |   |
+| Genehmigende Entscheidung |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -274,13 +274,13 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup>hat Validator-WÄHRUNG hinzugefügt
+<sup>1</sup>Validator-WÄHRUNG hinzugefügt
 
 ### Aufgabe
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| kanbanFlag |   |   |   |   |   |   |
+| Kanban-Flag |   |   |   |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
@@ -306,7 +306,7 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-### TeamTask
+### Teamaufgabe
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -330,7 +330,7 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> ändert sich in &quot;possibleValues&quot;
+<sup>1</sup> Änderungen an possibleValues
 
 ### Benutzerin oder Benutzer
 
@@ -348,19 +348,19 @@ Ausgabe
 
 {style="table-layout:auto"}
 
-<sup>1</sup> ändert sich in &quot;possibleValues&quot;
+<sup>1</sup> Änderungen an possibleValues
 
 ### Arbeit
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| kanbanFlag |  |  | pendingApproval <sup>1</sup>  |   |   |   |
+| Kanban-Flag |  |  | PendingApproval <sup>1</sup>  |   |   |   |
 | `masterTaskID` |   |   |   |   |   |   |
 | priorityColor  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Typ geändert von null in boolesch
+<sup>1</sup> Typ von null in boolesch geändert
 
 ## Entfernte Ressourcen {#removed-resources}
 
@@ -369,9 +369,9 @@ Ausgabe
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
 | allocationDate |   |   |   |   |   | HINZUFÜGEN  |
-| budgetHours |   |   |   |   |   | COUNT  |
+| budgetierte Stunden |   |   |   |   |   | ANZAHL  |
 | ID |   |   |   |   |   | DELETE  |
-| scheduledBudgetedHours |   |   |   |   |   | BEARBEITEN  |
+| geplante budgetierte Stunden |   |   |   |   |   | BEARBEITEN  |
 | projectID |   |   |   |   |   | GET  |
 | roleID |   |   |   |   |   | BERICHT  |
 | userID |   |   |   |   |   | SEARCH |

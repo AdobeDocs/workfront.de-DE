@@ -1,8 +1,8 @@
 ---
 product-area: documents;user-management;resource-management
 navigation-topic: manage-proofs-within-workfront
-title: Testsendungen und Validierungsverantwortliche bearbeiten
-description: Hier erfahren Sie, wie Sie Testsendungen und Validierungsverantwortliche bearbeiten.
+title: Testversandphasen und Prüfer bearbeiten
+description: Erfahren Sie, wie Sie Testversandphasen und Prüfer bearbeiten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
@@ -13,13 +13,13 @@ ht-degree: 1%
 
 ---
 
-# Testsendungen und Validierungsverantwortliche bearbeiten
+# Testversandphasen und Prüfer bearbeiten
 
-Sie können die Bühnen und die Reviewer-Details in einem Testversand bearbeiten, wenn Sie Testversand-Besitzer oder -Ersteller sind oder die korrekte Testversandrolle zugewiesen ist.
+Sie können die Phasen und die Details der Prüfer in einem Korrekturabzug bearbeiten, wenn Sie der/die Verantwortliche oder Ersteller des Korrekturabzugs sind oder Ihnen die richtige Rolle zugewiesen wurde.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -29,78 +29,78 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
    <td>Manager oder höher</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Proof role</td> 
+   <td role="rowheader">Rolle des Korrekturabzugs</td> 
    <td>Autor oder Moderator </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Eine Phase bearbeiten
+## Bearbeiten eines Schritts
 
-1. Bewegen Sie in einer Dokumentliste, die das Dokument enthält, den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Testversand-Workflow**.
+1. Bewegen Sie in einer Dokumentliste, die das Dokument enthält, den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Proofing-Workflow**.
 
    Oder
 
-   Klicken Sie in der eigenständigen Workfront Proof auf das Menü **Mehr** (drei Punkte) rechts neben dem Testversand und klicken Sie dann auf **Testversanddetails anzeigen**.
+   Klicken Sie in der eigenständigen Workfront Proof auf das **Mehr**-Menü (drei Punkte) rechts neben dem Korrekturabzug und dann auf **Details des Korrekturabzugs anzeigen**.
 
-1. Nehmen Sie eine der folgenden Änderungen im Abschnitt **Workflow** vor:
+1. Nehmen Sie im Abschnitt **Workflow** eine der folgenden Änderungen vor:
 
    <table style="table-layout:auto"> 
     <col> 
     <col> 
     <tbody> 
      <tr> 
-      <td role="rowheader">Deadline bearbeiten</td> 
-      <td> <p>Wählen Sie das Datum aus und wählen Sie ein neues Datum im Kalender aus, der angezeigt wird. Um den Termin vollständig zu entfernen, wählen Sie das Datum aus und klicken Sie dann unter dem angezeigten Kalender auf <strong>Löschen</strong> .</p> </td> 
+      <td role="rowheader">Fristablauf bearbeiten</td> 
+      <td> <p>Wählen Sie das Datum und wählen Sie ein neues Datum im Kalender, das angezeigt wird. Um die Frist vollständig zu entfernen, wählen Sie das Datum aus und wählen Sie dann <strong>Löschen</strong> unter dem angezeigten Kalender aus.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Entfernen einzelner Validierer</td> 
-      <td> <p>Wählen Sie das Menü <strong>Mehr</strong> rechts neben dem Namen des Validierers aus und klicken Sie dann im Dropdown-Menü auf <strong>Entfernen</strong> . Klicken Sie in dem angezeigten Feld auf <strong>Bestätigen</strong> , um den Überprüfer aus dem Testversand zu entfernen.</p> </td> 
+      <td role="rowheader">Entfernen einzelner Reviewer</td> 
+      <td> <p>Wählen Sie das <strong>Mehr</strong>-Menü rechts neben dem Namen des Reviewers aus und klicken Sie dann </strong> Dropdown-Menü auf <strong>Entfernen“. Klicken Sie <strong>Bestätigen</strong> in dem Feld, das angezeigt wird, um den Prüfer aus dem Korrekturabzug zu entfernen.</p> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Mehrere Validierungsverantwortliche entfernen</td> 
-      <td>Aktivieren Sie die Kontrollkästchen neben ihrem Namen und klicken Sie dann oben rechts im Abschnitt "Bühne"auf das Symbol <strong>Löschen</strong> .</td> 
+      <td role="rowheader">Mehrere Reviewer entfernen</td> 
+      <td>Aktivieren Sie die Kontrollkästchen neben ihren Namen und klicken Sie dann auf das <strong>Löschen</strong>-Symbol in der oberen rechten Ecke des Abschnitts „Phase“.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Alle Validierungsverantwortlichen benachrichtigen</td> 
-      <td>Wählen Sie das Menü <strong>Mehr</strong> in der oberen rechten Ecke des Bereichs "Bühne"aus und wählen Sie dann <strong>Nachricht alle </strong> aus. Konfigurieren Sie Ihre Nachricht und wählen Sie dann <strong>Senden</strong> aus.</td> 
+      <td role="rowheader">Nachricht an alle Reviewer</td> 
+      <td>Wählen Sie das <strong>Mehr</strong>-Menü in der oberen rechten Ecke des Abschnitts „Phase“ und dann <strong>Nachricht an alle</strong> aus. Konfigurieren Sie Ihre Nachricht und wählen Sie dann <strong>Senden</strong> aus.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Hinzufügen eines Validierers zur Bühne</td> 
-      <td>Wählen Sie das Menü <strong>Mehr</strong> in der oberen rechten Ecke des Bereichs "Bühne"und dann <strong>Freigabe</strong> aus. Fügen Sie den Benutzer hinzu, konfigurieren Sie seine Rolle und geben Sie Warnhinweise per E-Mail ein und wiederholen Sie diese bei Bedarf. Klicken Sie abschließend auf <strong>Freigabe</strong>.</td> 
+      <td role="rowheader">Hinzufügen eines Reviewers zum Schritt</td> 
+      <td>Wählen Sie das <strong>Mehr</strong>-Menü in der oberen rechten Ecke des Abschnitts „Phase“ und dann <strong>Freigeben</strong>. Fügen Sie den Benutzer hinzu, konfigurieren Sie seine Rolle und E-Mail-Warnhinweise und wiederholen Sie den Vorgang bei Bedarf. Klicken Sie abschließend auf <strong>Freigeben</strong>.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Löschen der Bühne</td> 
-      <td> <p>Wählen Sie das Menü <strong>Mehr</strong> in der oberen rechten Ecke des Bereichs "Bühne"aus und wählen Sie die Phase <strong>Löschen</strong> aus.</p> <p>Hinweis: Wenn nur eine Phase vorhanden ist, kann die Phase nicht gelöscht werden.</p> </td> 
+      <td role="rowheader">Stadium löschen</td> 
+      <td> <p>Wählen Sie das <strong>Mehr</strong>-Menü in der oberen rechten Ecke des Abschnitts „Phase“ und wählen Sie <strong>Löschen</strong>.</p> <p>Hinweis: Wenn es nur einen Schritt gibt, kann der Schritt nicht gelöscht werden.</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-## Bearbeiten von Reviewer-Details
+## Reviewer-Details bearbeiten
 
-1. Bewegen Sie in Workfront den Mauszeiger über den Testversand und klicken Sie dann auf **Testversand-Details** , um die Seite mit den Testversanddetails zu öffnen.
-1. Klicken Sie im Abschnitt **Workflow** auf das Menü **Mehr** ![](assets/more-button-small.png) rechts neben dem Namen des Validierers und klicken Sie dann im angezeigten Dropdown-Menü auf **Bearbeiten** .
+1. Bewegen Sie in Workfront den Mauszeiger über den Korrekturabzug und klicken Sie dann auf **Korrekturabzugsdetails**, um die Seite mit den Korrekturabzugsdetails zu öffnen.
+1. Klicken **Abschnitt „Workflow** auf das Menü **Mehr** ![](assets/more-button-small.png) rechts neben dem Namen des Reviewers und klicken Sie dann im angezeigten Dropdown-Menü auf **Bearbeiten**.
 
-1. Bearbeiten Sie im angezeigten Feld **Reviewer bearbeiten** eine der folgenden Details:
+1. Bearbeiten Sie **angezeigten** „Reviewer bearbeiten“ eine der folgenden Details:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -108,27 +108,27 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <tbody> 
      <tr> 
       <td role="rowheader">Anzeigename*</td> 
-      <td> <p>Um den Anzeigenamen des Validierers im Testversand zu ändern, klicken Sie in das Textfeld und bearbeiten Sie den Namen.</p> </td> 
+      <td> <p>Um den Anzeigenamen des Reviewers im Korrekturabzug zu ändern, klicken Sie in das Textfeld und bearbeiten Sie seinen Namen inline.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Funktion</td> 
-      <td>Um die Rolle des Validierers beim Testversand zu ändern, öffnen Sie das Dropdown-Menü und wählen Sie die gewünschte Rolle aus. Weitere Informationen finden Sie unter .</td> 
+      <td>Um die Rolle des Validierungsverantwortlichen im Testversand zu ändern, öffnen Sie das Dropdown-Menü und wählen Sie die bevorzugte Rolle aus. Weitere Informationen finden Sie unter.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">E-Mail-Warnungen</td> 
-      <td>Um den E-Mail-Warnhinweis des Prüfers für den Testversand zu ändern, öffnen Sie das Dropdown-Menü und wählen Sie den gewünschten E-Mail-Warnhinweis aus. Weitere Informationen finden Sie im Artikel <a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">Benachrichtigungen für Testversand-Kommentare und Entscheidungen - Überblick</a>.</td> 
+      <td>Um den E-Mail-Warnhinweis des Reviewers für den Testversand zu ändern, öffnen Sie das Dropdown-Menü und wählen Sie den gewünschten E-Mail-Warnhinweis aus. Weitere Informationen finden Sie im Artikel <a href="../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md" class="MCXref xref">Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen - Übersicht</a>.</td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Entscheidung*</td> 
-      <td> <p>Um die Entscheidung des Validierers für den Testversand zu ändern, öffnen Sie das Dropdown-Menü und wählen Sie die gewünschte Entscheidung aus. Beachten Sie, dass alle Entscheidungen, die Sie für einen anderen Benutzer treffen, im Abschnitt Aktivität des Testversands aufgeführt werden. Diese Option wird nur angezeigt, wenn die Überprüfung eine Entscheidung getroffen hat.</p> </td> 
+      <td> <p>Um die Entscheidung des Reviewers bezüglich des Korrekturabzugs zu ändern, öffnen Sie das Dropdown-Menü und wählen Sie die bevorzugte Entscheidung aus. Beachten Sie, dass alle Entscheidungen, die Sie im Namen eines anderen Benutzers treffen, im Abschnitt Aktivität des Korrekturabzugs vermerkt sind. Diese Option wird nur angezeigt, wenn die Überprüfung eine Entscheidung getroffen hat.</p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">Phase</td> 
-      <td>Es ist nicht möglich, Prüfer zwischen Phasen zu verschieben. Sie können jedoch einen Überprüfer mit einem anderen Termin entfernen und erneut hinzufügen.</td> 
+      <td>Es ist nicht möglich, Reviewer zwischen verschiedenen Phasen zu verschieben. Sie können jedoch einen Reviewer mit einer anderen Frist entfernen und erneut hinzufügen.</td> 
      </tr> 
     </tbody> 
    </table>
 
-   &#42; Sie müssen der Ersteller oder Eigentümer des Testversands sein, um dieses Feld zu bearbeiten.
+   &#42; Sie müssen der Ersteller oder Inhaber des Korrekturabzugs sein, um dieses Feld bearbeiten zu können.
 
 1. Klicken Sie auf **Speichern**.

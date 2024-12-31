@@ -1,8 +1,8 @@
 ---
 content-type: api;faq
 navigation-topic: general-api
-title: Häufig gestellte Fragen - Ereignisabos
-description: Häufig gestellte Fragen - Ereignisabos
+title: Häufig gestellte Fragen - Ereignisabonnements
+description: Häufig gestellte Fragen - Ereignisabonnements
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,83 +14,83 @@ ht-degree: 0%
 
 ---
 
-# Häufig gestellte Fragen - Ereignisabos
+# Häufig gestellte Fragen - Ereignisabonnements
 
 <!--
 {{highlighted-preview}}
 -->
 
-Im Folgenden finden Sie häufig gestellte Fragen zu Ereignisanmeldungen:
+Häufig gestellte Fragen zu Ereignisabonnements:
 
 ## Was ist ein Abonnement?
 
-Ein Abonnement ist ein Datensatz, der verwendet wird, um Adobe Workfront-Ereignisse mit dem HTTP-Endpunkt eines Kunden abzugleichen und bereitzustellen. Diese Ressource besteht aus vier Hauptattributen:
+Ein Abonnement ist ein Datensatz, der zum Abgleichen und Bereitstellen von Adobe Workfront-Ereignissen an den HTTP-Endpunkt eines Kunden verwendet wird. Diese Ressource besteht aus vier primären Attributen:
 
 * customer_id
 * obj_code
 * obj_id
-* url
+* URL
 
-Ein Abonnement kann auch andere Attribute aufweisen, z. B. seine eigene eindeutige ID und das Datum seiner Erstellung. Die oben aufgeführten Attribute werden jedoch hauptsächlich verwendet, um Ereignisse zuzuordnen und sie an Kunden zu senden.
+Ein Abonnement kann auch andere Attribute aufweisen, z. B. seine eigene eindeutige ID und das Datum, an dem es erstellt wurde. Die oben aufgeführten Attribute werden jedoch hauptsächlich verwendet, um Ereignisse abzugleichen und sie Kunden bereitzustellen.
 
-## Kann ich basierend auf bestimmten Kriterien in einer Ereignis-Payload auswählen, welche Ereignisse an einen Endpunkt gesendet werden?
+## Kann ich basierend auf bestimmten Kriterien in der Ereignis-Payload auswählen, welche Ereignisse an einen Endpunkt gesendet werden?
 
-Ereignisabonnementfilter ermöglichen die Sortierung von Ereignisunterschriften nach bestimmten Kriterien. Es wird empfohlen, Filter auf Ereignis-Abonnements anzuwenden, da dadurch die Anzahl der Nachrichten, die ein Endpunkt verbrauchen muss, erheblich reduziert werden kann. Weitere Informationen finden Sie unter [Filterung von Ereignisabonnements](../../wf-api/general/event-subs-api.md#event).
+Ereignisabonnementfilter sind eine Möglichkeit, Ereignisuntergruppen nach angegebenen Kriterien zu sortieren. Es wird empfohlen, Filter auf Ereignisabonnements anzuwenden, da dadurch die Anzahl der Nachrichten, die ein Endpunkt verarbeiten muss, erheblich reduziert werden kann. Weitere Informationen finden Sie [Ereignisabonnement-Filter](../../wf-api/general/event-subs-api.md#event).
 
 ## Warum gibt die API einen 409-Konflikt-Antwort-Code zurück?
 
-Wenn Sie versuchen, ein Ereignisabonnement zu erstellen und einen Antwortcode zu erhalten: 409 Konflikt, dann ist das Abonnement, das Sie zu erstellen versucht haben, ein Duplikat. In Workfront ist die Erstellung doppelter Abonnements nicht zulässig.
+Wenn Sie versuchen, ein Ereignisabonnement zu erstellen und einen Antwort-Code: 409-Konflikt erhalten, ist das zu erstellende Abonnement ein Duplikat. Workfront lässt die Erstellung doppelter Abonnements nicht zu.
 
-## Was soll ich tun, wenn meine Nachrichten nicht an meinen Endpunkt gesendet werden?
+## Was sollte ich tun, wenn meine Nachrichten nicht an meinen Endpunkt gesendet werden?
 
 Suchen Sie nach den folgenden Szenarien und verwenden Sie die empfohlene Lösung:
 
-* Stellen Sie sicher, dass Ihr Abonnement-Endpunkt, der durch das Feld **url** definiert wird, einen HTTP-Antwortcode von 2000 zurückgibt. Ist dies nicht der Fall, kontaktieren Sie den Workfront-Support oder lesen Sie die Informationen unter [Voraussetzungen für die Bereitstellung der Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
+* Stellen Sie sicher, dass Ihr Abonnement-Endpunkt - definiert durch das Feld **url** - einen 2XX-HTTP-Antwort-Code zurückgibt. Ist dies nicht der Fall, wenden Sie sich an den Workfront-Support oder lesen Sie [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
 
-* Die Ereignisbereitstellungsanforderung kann einen Timeout aufweisen, bevor sie abgeschlossen wird. Stellen Sie sicher, dass Ihr Endpunkt innerhalb von 5 Sekunden konsistent reagiert. Dies ist die standardmäßige Zeitüberschreitung, die für die HTTP-Anforderung festgelegt wurde, um eine Ereignisabonnementmeldung bereitzustellen. Wenn Ihr Endpunkt nicht innerhalb von 5 Sekunden antwortet, wenden Sie sich an den Workfront-Support oder lesen Sie die Informationen unter [Voraussetzungen für die Bereitstellung der Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
-* Die Ereignisse generieren möglicherweise nicht die Art, wie Sie denken. Stellen Sie sicher, dass Sie keine Annahmen darüber treffen, wie oder wann Ereignisse ausgelöst werden sollen und was tun. Sie können beispielsweise davon ausgehen, dass das Aktualisieren eines Dokuments für eine Aufgabe ein Ereignis zur Aufgabenaktualisierung generiert, stattdessen jedoch ein Ereignis zum Erstellen oder Aktualisieren von Dokumenten generiert.
-* Ihr Abonnement wird möglicherweise nicht wie erwartet konfiguriert. Sie können Ereignisabonnements in verschiedenen Umgebungen erstellen und erwarten, dass diese wie ihre anderen Workfront-Daten übertragen. Ereignisabonnementdaten sind jedoch nicht so konfiguriert, dass sie kopiert oder in andere Umgebungen weitergeleitet werden. Stellen Sie sicher, dass Sie API-Anfragen an die richtige Umgebung senden und dass die Abonnements in dieser Umgebung wie erwartet konfiguriert sind.
-* Die Payload wurde nicht empfangen, da die erforderliche Workfront-IP-Adresse nicht zur Zulassungsliste Ihrer Firewall hinzugefügt wurde. Ereignisabonnemensereignisse werden nur von wenigen IP-Adressen gesendet. Stellen Sie sicher, dass das Zielnetzwerk über alle IP-Ausnahmen verfügt, die für den Empfang von Payloads von Workfront-Ereignisanmeldungen erforderlich sind.
+* Die Zeit für die Anfrage zum Ereignisversand könnte überschritten sein, bevor sie abgeschlossen ist. Stellen Sie sicher, dass Ihr Endpunkt innerhalb von 5 Sekunden konsistent reagiert. Dies ist der standardmäßige Timeout-Wert für die HTTP-Anfrage zum Versand einer Ereignisabonnementnachricht. Wenn Ihr Endpunkt nicht innerhalb von 5 Sekunden reagiert, wenden Sie sich an den Workfront-Support oder lesen Sie [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
+* Die Ereignisse haben möglicherweise nicht Ihre eigene Denkweise. Stellen Sie sicher, dass Sie keine Annahmen darüber treffen, wie oder wann Ereignisse ausgelöst werden sollten und wann. Wenn Sie beispielsweise glauben, dass durch die Aktualisierung eines Dokuments in einer Aufgabe ein Aufgabenaktualisierungsereignis, sondern stattdessen ein Dokumenterstellungsereignis oder ein Dokumentaktualisierungsereignis generiert wird.
+* Ihr Abonnement ist möglicherweise nicht wie erwartet konfiguriert. Sie können Ereignisabonnements in verschiedenen Umgebungen erstellen und erwarten, dass sie wie andere Workfront-Daten übertragen werden. Ereignisabonnementdaten sind jedoch nicht so konfiguriert, dass sie in andere Umgebungen kopiert oder weitergeleitet werden. Stellen Sie sicher, dass Sie API-Anfragen an die richtige Umgebung senden und dass die Abonnements in dieser Umgebung erwartungsgemäß konfiguriert sind.
+* Die Payload wurde nicht empfangen, da die erforderliche Workfront-IP-Adresse nicht zur -Zulassungsliste in Ihrer Firewall hinzugefügt wurde. Ereignisabonnement-Ereignisse werden nur von wenigen IP-Adressen gesendet. Stellen Sie sicher, dass das Zielnetzwerk über alle IP-Ausnahmen verfügt, die zum Empfang von Payloads von Workfront-Ereignisabonnements erforderlich sind.
 
-## Warum dauert es übermäßig lange, bis meine Nachrichten meinen Endpunkt erreichen?
+## Warum dauert es zu lange, bis meine Nachrichten meinen Endpunkt erreichen?
 
-Einige der folgenden Szenarien können verantwortlich sein:
+Einige der folgenden Szenarien könnten dafür verantwortlich sein:
 
-* Ein großer Vorgang, wie eine Massenaktualisierung, im System kann dazu führen, dass eine große Menge von Nachrichten gleichzeitig in die Warteschlange gestellt wird, was einige Zeit in Anspruch nehmen kann.
-* Lange Berechnungen oder Timeline-Berechnungen für große Projekte können zu einer Verzögerung bei der Veröffentlichung von Nachrichten für Event-Abonnements führen, die verwendet werden sollen.
+* Ein großer Vorgang - z. B. eine Massenaktualisierung - im System kann dazu führen, dass eine große Anzahl von Nachrichten gleichzeitig in die Warteschlange gestellt wird, was einige Zeit in Anspruch nehmen kann.
+* Langwierige Berechnungen oder Zeitleistenberechnungen bei großen Projekten können zu einer Verzögerung bei der Veröffentlichung von Nachrichten an die zu nutzenden Ereignisabonnements führen.
 * Das Abonnement wurde möglicherweise deaktiviert.
 
-   * Wenn nach einer Übergangsphase von 100 Nachrichten eine bestimmte URL - die mit einem oder mehreren Abonnements verknüpft sein könnte - mehr als 70 % der Zeit fehlschlägt oder die URL nach 2000 aufeinander folgenden Versuchen nicht gesendet werden kann, werden alle Nachrichten, die mit Abonnements derselben URL übereinstimmen, nicht für den Versand versucht. Stattdessen werden diese Nachrichten für einen erneuten Versuch sofort in die Warteschlange gestellt.
+   * Wenn nach einer Übergangsphase von 100 Nachrichten eine bestimmte URL, die mit einem oder mehreren Abonnements verknüpft sein kann, in mehr als 70 % der Fälle fehlschlägt oder wenn die URL nach 2000 aufeinander folgenden Versuchen nicht zugestellt werden kann, werden alle Nachrichten, die mit Abonnements mit derselben URL übereinstimmen, nicht zum Versand versucht. Stattdessen werden diese Nachrichten sofort für einen erneuten Versuch in die Warteschlange gestellt.
 
-     Alle 10 Minuten, nachdem eine URL deaktiviert wurde, versuchen wir, die nächste Nachricht zur Verarbeitung zu senden. Wenn diese Nachricht erfolgreich ist, aktivieren wir diese URL und anschließend alle entsprechenden Abonnements erneut. Wenn diese Nachricht nicht gesendet werden kann, wird der 10-minütige Timer zurückgesetzt und es wird erneut versucht, nachdem er abläuft.
+     Alle 10 Minuten, nachdem eine URL deaktiviert wurde, versuchen wir, die nächste Nachricht zu versenden, die zur Verarbeitung durch kommt. Wenn diese Nachricht erfolgreich ist, aktivieren wir diese URL und anschließend alle passenden Abonnements erneut. Wenn diese Nachricht nicht gesendet werden kann, wird der 10-Minuten-Timer zurückgesetzt und wir versuchen es erneut, nachdem er abgelaufen ist.
 
-     Dieses Verhalten kann als inkonsistenter oder verzögerter Versand wahrgenommen werden, es folgt jedoch einfach unseren Richtlinien für den Umgang mit Ereignisabonnement-Nachrichten.
+     Dieses Verhalten kann als inkonsistenter oder verzögerter Versand wahrgenommen werden, es folgt jedoch einfach unseren Richtlinien für den Umgang mit Nachrichten vom Typ Ereignisabonnement.
 
-   * Eine Ereignis-Abonnement-URL wird deaktiviert, wenn eine der folgenden Bedingungen erfüllt ist:
+   * Eine Ereignisabonnement-URL wird hart deaktiviert, wenn eine der folgenden Bedingungen erfüllt ist:
 
-      * Die Anmelde-URL konnte 7 Tage lang nicht bereitgestellt werden und hat in den letzten 72 Stunden mindestens 2000 aufeinander folgende Versandversuche fehlgeschlagen.
-      * Die Abonnement-URL konnte 50.000 aufeinander folgende Versuche nicht durchführen.
+      * Die Abonnement-URL konnte 7 Tage lang nicht bereitgestellt werden und in den letzten 72 Stunden sind mindestens 2000 aufeinander folgende Zustellversuche fehlgeschlagen.
+      * Die Abonnement-URL konnte keine 50.000 aufeinander folgenden Versuche bereitstellen.
 
-## Was soll ich tun, wenn ich beim Versuch, die Ereignisabonnement-API aufzurufen, den Status 500 erhalte?
+## Was sollte ich tun, wenn ich beim Versuch, die Ereignis-Abonnement-API aufzurufen, den Status „500-Antwort“ erhalte?
 
-Wenden Sie sich an den Workfront-Support. Informationen zum Kontaktieren des Supports finden Sie unter [Wenden Sie sich an den Support](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
+Wenden Sie sich an den Workfront-Support. Informationen zum Kontaktieren des Supports finden Sie unter [Kundensupport kontaktieren](../../workfront-basics/tips-tricks-and-troubleshooting/contact-customer-support.md).
 
 ## Welche verschiedenen Authentifizierungstypen kann ich mit Workfront-Ereignisabonnements verwenden?
 
-Sie können jede Authentifizierung verwenden, die ein Trägertoken verwendet. Das Feld **authToken** eines Abonnements ist eine Zeichenfolge, die ein OAuth2-Träger-Token darstellt, das zur Authentifizierung mit der im Feld **url** angegebenen URL verwendet wird. Theoretisch könnte dieser Token-Wert alles sein, solange der Ziel-Endpunkt weiß, wie er seine Kodierung handhabt, nämlich **utf-8**.
+Sie können eine beliebige Authentifizierung verwenden, die ein Bearer-Token verwendet. Das Feld **authToken** eines Abonnements ist eine Zeichenfolge, die ein OAuth2-Bearer-Token darstellt, das zur Authentifizierung mit der im Feld **url** angegebenen URL verwendet. Theoretisch könnte dieser Token-Wert alles sein, solange der Ziel-Endpunkt weiß, wie seine Kodierung verarbeitet wird, nämlich **utf-8**.
 
-## Wie lange sollte es dauern, bis ich meine Ereignis-Payload von Workfront-Ereignisanmeldungen erhalte?
+## Wie lange sollte es dauern, bis ich meine Ereignis-Payload von Workfront-Ereignisabonnements erhalte?
 
-Im Allgemeinen erhalten Sie in weniger als 5 Sekunden nach der Protokollierung der Datenänderung Versandanfragen für Ereignisabonnement-Ereignisse. Im Durchschnitt werden Webhook-Benachrichtigungen in weniger als 1 Sekunde nach der Datenänderung empfangen. Der Dienst kann jedoch Nachrichten in so großen Mengen erhalten, dass es auch länger dauern kann.
+Im Allgemeinen kann davon ausgegangen werden, dass Versandanfragen für Ereignisabonnement-Ereignisse in weniger als 5 Sekunden nach der protokollierten Datenänderung empfangen werden. Im Durchschnitt werden Webhook-Benachrichtigungen in weniger als 1 Sekunde ab dem Zeitpunkt der Datenänderung empfangen. Der Service kann jedoch Nachrichten in einer derart großen Menge empfangen, dass er möglicherweise auch länger dauert.
 
 ## Zusätzliche Ressourcen
 
-* **API-Dokumentation**: [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md)
+* **API-Dokumentation**: [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md)
 
-* **Best Practices**: [Best Practices für die Ereignisanmeldung](../../wf-api/general/event-sub-best-practice.md)
+* **Best Practices**: [Best Practices für Ereignisabonnements](../../wf-api/general/event-sub-best-practice.md)
 
-* **Felder, die die Payloads für Trigger-Ereignisabonnements**: [Felder für Ereignisabonnement-Ressourcen](../../wf-api/api/event-sub-resource-fields.md)
+* **Felder, die Trigger-Ereignisabonnement-Payloads enthalten**: [Ressourcenfelder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md)
 
-* **Neuversuche bezüglich der Ereignisabonnements**: [Wiederholungen der Ereignisabonnements](../../wf-api/api/event-sub-retries.md)
+* **Wiederholungen von Ereignisabonnements**: [Wiederholungen von Ereignisabonnements](../../wf-api/api/event-sub-retries.md)
 
-* **Konfigurieren der Firewall für Workfront**: [Konfigurieren der Zulassungsliste Ihrer Firewall](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)
+* **Firewall für Workfront konfigurieren**: [Die Firewall-Zulassungsliste konfigurieren](../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md)

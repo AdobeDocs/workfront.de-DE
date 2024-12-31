@@ -17,6 +17,6 @@ ht-degree: 14%
 
 # API Explorer
 
-Sie können alle Objekte, die über die Adobe Workfront-API verfügbar sind, zusammen mit ihren Feldern im API-Explorer anzeigen. Um den API-Explorer anzuzeigen, klicken Sie auf [hier](https://developer.adobe.com/workfront/api-explorer/).
+Sie können alle Objekte, die über die Adobe Workfront-API verfügbar sind, zusammen mit ihren Feldern im API-Explorer anzeigen. Um den API-Explorer anzuzeigen, klicken Sie [hier](https://developer.adobe.com/workfront/api-explorer/).
 
-Weitere Informationen zur Verwendung des API-Explorers finden Sie unter [Verwenden des API-Explorers](../../wf-api/general/using-api-explorer.md).
+Weitere Informationen zur Verwendung des API Explorers finden Sie unter [Verwenden des API Explorers](../../wf-api/general/using-api-explorer.md).

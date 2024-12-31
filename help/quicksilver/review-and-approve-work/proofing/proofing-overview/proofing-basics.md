@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: proofing-in-workfront-navigation-topic
-title: 'Testversandübersicht: Artikelindex'
-description: Übersicht über das Profil für Testberechtigungen
+title: 'Proofing-Übersicht: Artikelindex'
+description: Profil für Korrekturabzugsberechtigungen - Übersicht
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,16 +15,16 @@ ht-degree: 0%
 
 ---
 
-# Testversandübersicht: Artikelindex
+# Proofing-Übersicht: Artikelindex
 
-* [Übersicht über das Profil für Testberechtigungen](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
-* [Übersicht über Testversandrollen](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
-* [Überblick über den automatisierten Workflow](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
-* [Überblick über automatisierte Workflow-Phasen](../../../review-and-approve-work/proofing/proofing-overview/stages.md)
-* [Benachrichtigungen für Testversandkommentare und -entscheidungen - Überblick](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
-* [Übersicht über interaktive Inhaltsanalysen](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
-* [Neuverarbeitung von Dokumenten für die Testversandübersicht](../../../review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
-* [Unterstützte Testversand-Dateitypen und Größenbeschränkungen - Überblick](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
-* [Sicherheitsübersicht für Testversand](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
-* [Status und Übersicht des Testfortschritts](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
+* [Profil für Korrekturabzugsberechtigungen - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md)
+* [Rollen für Korrekturabzüge - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/proof-roles.md)
+* [Automatisierter Workflow - Überblick](../../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md)
+* [Übersicht über die automatisierten Workflow-](../../../review-and-approve-work/proofing/proofing-overview/stages.md)
+* [Benachrichtigungen für Korrekturabzugskommentare und Entscheidungen - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/notifications-proof-comments-decisions.md)
+* [Übersicht über Korrekturabzüge für interaktive Inhalte](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md)
+* [Dokumentnachbearbeitung für Proofing - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/document-reprocessing-for-proofing.md)
+* [Unterstützte Proofing-Dateitypen und Größenbeschränkungen - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/supported-proofing-file-types.md)
+* [Sicherheitsübersicht für Korrekturabzüge](../../../review-and-approve-work/proofing/proofing-overview/proof-security-overview.md)
+* [Status und Übersicht des Testversands](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/view-progress-status-proof.md)
 * [Unterschiede zwischen dem Web Proofing Viewer und dem Desktop Proofing Viewer - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/understand-differences-between-web-viewer.md)

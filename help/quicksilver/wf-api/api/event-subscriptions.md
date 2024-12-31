@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: Event Subscriptions resources
-description: Ressourcen für Ereignisabonnements
+description: Ressourcen zu Ereignisabonnements
 author: Becky
 feature: Workfront API
 role: Developer
@@ -12,16 +12,16 @@ ht-degree: 0%
 
 ---
 
-# Ereignisabos
+# Ereignisabonnements
 
-Im Folgenden finden Sie verschiedene Ressourcen zu Ereignisanmeldungen in Adobe Workfront:
+Im Folgenden finden Sie verschiedene Ressourcen zu Ereignisabonnements in Adobe Workfront:
 
-* [Ereignis-Abonnement-API](../../wf-api/general/event-subs-api.md)
+* [Ereignisabonnement-API](../../wf-api/general/event-subs-api.md)
 * [Best Practices für Ereignisabonnements](../../wf-api/general/event-sub-best-practice.md)
 * [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md)
 * [Ressourcenfelder für Ereignisabonnements](../../wf-api/api/event-sub-resource-fields.md)
 * [Wiederholungen von Ereignisabonnements](../../wf-api/api/event-sub-retries.md)
-* [Filtern von Ereignis-Abonnementmeldungen](../../wf-api/api/filter-event-sub-messages.md)
-* [Ausgehendes Nachrichtenformat für Ereignisabonnements](../../wf-api/api/message-format-event-subs.md)
-* [Häufig gestellte Fragen - Ereignisabos](../../wf-api/general/event-subs-faq.md)
+* [Filtern von Nachrichten zu Ereignisabonnements](../../wf-api/api/filter-event-sub-messages.md)
+* [Format ausgehender Nachrichten für Ereignisabonnements](../../wf-api/api/message-format-event-subs.md)
+* [Häufig gestellte Fragen - Ereignisabonnements](../../wf-api/general/event-subs-faq.md)
 

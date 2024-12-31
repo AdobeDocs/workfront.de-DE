@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proofs-within-workfront
-title: Testversand-Validierungsverantwortliche verwalten
-description: Zugriffs- und Abonnementeinstellungen für einen Testversand konfigurieren
+title: Verwalten von Korrekturabzugs-Prüfern
+description: Konfigurieren der Zugriffs- und Abonnementeinstellungen für einen Testversand
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,8 +15,8 @@ ht-degree: 0%
 
 ---
 
-# Testversand-Validierungsverantwortliche verwalten
+# Verwalten von Korrekturabzugs-Prüfern
 
-* [Zugriffs- und Abonnementeinstellungen für einen Testversand konfigurieren](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
-* [Freigeben eines Testversands in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
-* [Versand von E-Mail-Nachrichten an Prüfer anhand eines Testversands](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)
+* [Konfigurieren von Zugriffs- und Abonnementeinstellungen für einen Korrekturabzug](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/configure-access-subscription-settings-proof.md)
+* [Freigeben eines Korrekturabzugs in Adobe Workfront](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/share-a-proof-in-workfront.md)
+* [Senden von E-Mail-Nachrichten an Prüfer im Rahmen eines Testversands](../../../../review-and-approve-work/proofing/managing-proofs-within-workfront/send-email-messages-to-users-proof.md)

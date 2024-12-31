@@ -2,8 +2,8 @@
 content-type: reference
 product-area: timesheets;setup
 navigation-topic: timesheets-navigation-topic
-title: "Konfigurieren der Zeitprotokollierung: Artikelindex"
-description: In diesem Abschnitt erfahren Sie, wie Sie in den Artikeln konfigurieren, ob Sie die Zeit in Stunden oder Tagen protokollieren.
+title: 'Konfigurieren, wie die Zeit protokolliert wird: Artikelindex'
+description: Erfahren Sie in den Artikeln in diesem Abschnitt , wie Sie konfigurieren können, ob Sie die Zeit in Stunden oder Tagen protokollieren.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 ---
 
-# Konfigurieren der Zeitprotokollierung: Artikelindex
+# Konfigurieren, wie die Zeit protokolliert wird: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 

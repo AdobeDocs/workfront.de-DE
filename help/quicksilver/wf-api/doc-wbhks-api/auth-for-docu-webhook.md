@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Authentifizierung für Document Webhooks
-description: Authentifizierung für Document Webhooks
+title: Authentifizierung für Dokument-Webhooks
+description: Authentifizierung für Dokument-Webhooks
 author: Becky
 feature: Workfront API
 role: Developer
@@ -15,26 +15,26 @@ ht-degree: 0%
 
 ---
 
-# Authentifizierung für Document Webhooks
+# Authentifizierung für Dokument-Webhooks
 
 ## Authentifizierung
 
-Adobe Workfront Document Webhooks unterstützt zwei verschiedene Authentifizierungsformen: OAuth2 und ApiKey. In beiden Fällen übergibt Workfront beim Ausführen eines API-Aufrufs Authentifizierungstoken in der Kopfzeile.
+Adobe Workfront-Dokument-Webhooks unterstützen zwei verschiedene Authentifizierungsformen: OAuth2 und ApiKey. In beiden Fällen übergibt Workfront bei einem API-Aufruf Authentifizierungs-Token in der -Kopfzeile.
 
 ### OAuth2
 
-Mit OAuth2 kann Workfront im Auftrag eines Benutzers autorisierte API-Aufrufe an einen Webhook-Provider senden. Dazu muss der Benutzer sein externes Document Provider-Konto mit Workfront verbinden und Workfront gewähren
+Mit OAuth2 kann Workfront im Namen eines Benutzers autorisierte API-Aufrufe an einen Webhook-Anbieter durchführen. Zuvor muss der Benutzer sein externes Dokumentenanbieterkonto mit Workfront verbinden und Workfront gewähren
 
-Zugang zu Handlungen in ihrem Namen. Dieser Handshaking-Prozess erfolgt nur einmal für jeden Benutzer. So funktioniert es:
+Zugang zu Handlungen in ihrem Namen. Dieser Handshaking-Vorgang erfolgt für jeden Benutzer nur einmal. So funktioniert es:
 
-1. Der Benutzer beginnt damit, die Webhook-Integration mit seinem Konto zu verbinden. Dies geschieht derzeit durch Klicken auf das Dropdown-Menü &quot;Dokument hinzufügen&quot;> &quot;Dienst hinzufügen&quot;> &quot;Name der benutzerdefinierten Integration&quot;.
-1. Workfront navigiert zum Benutzer über die Authentifizierungs-URL, die ihn auffordern kann, sich beim externen Dokumentenanbieter anzumelden. Diese Seite wird vom Webhook Provider oder vom externen Dokumentenverwaltungssystem gehostet. Dadurch fügt Workfront der Authentifizierungs-URL einen &quot;state&quot;-Parameter hinzu. Dieser Wert muss zurück an Workfront übergeben werden, indem der gleiche Wert im folgenden Schritt an den Workfront-URI angehängt wird.
-1. Nach der Anmeldung beim externen System (oder wenn der Benutzer bereits angemeldet ist) wird der Benutzer zu einer &quot;Authentifizierungsseite&quot;geleitet, auf der erklärt wird, dass Workfront Zugriff anfordert, um eine Reihe von Aktionen im Namen des Benutzers durchzuführen.
-1. Wenn der Benutzer auf die Schaltfläche &quot;Zulassen&quot;klickt, leitet der Browser zum Workfront-Weiterleitungs-URI um und fügt &quot;code=`<code>`&quot; zum Querystring hinzu. Gemäß der OAuth2-Spezifikation ist dieses Token kurzlebig. Die Abfragezeichenfolge muss auch die folgende sein: &quot;state=`<sent_by_workfront>`&quot;.
-1. Workfront verarbeitet diese Anforderung und führt einen API-Aufruf an die Token-Endpunkt-URL mit dem Autorisierungscode aus.
-1. Die Token-Endpunkt-URL gibt ein Aktualisierungstoken und Zugriffstoken zurück.
-1. Workfront speichert diese Token und stellt die Webhook-Integration für diesen Benutzer vollständig bereit.
-1. Ab diesem Zeitpunkt kann Workfront autorisierte API-Aufrufe an den Webhook-Provider senden. Beim Ausführen dieser Aufrufe sendet Workfront das Zugriffstoken im HTTP-Anforderungsheader, wie unten dargestellt:
+1. Der Benutzer beginnt mit dem Verbinden der Webhook-Integration mit seinem Konto. Klicken Sie dazu auf das Dropdown-Menü „Dokument hinzufügen“ > „Service hinzufügen“ > „Name der benutzerdefinierten Integration“.
+1. Workfront verwendet die Authentifizierungs-URL, wodurch der Benutzer möglicherweise aufgefordert wird, sich beim externen Dokumentanbieter anzumelden. Diese Seite wird vom Webhook-Anbieter oder dem externen Document Management-System gehostet. Dabei fügt Workfront der Authentifizierungs-URL einen Parameter „state“ hinzu. Dieser Wert muss zurück an Workfront übergeben werden, indem im folgenden Schritt derselbe Wert an den Workfront-Rückgabe-URI angehängt wird.
+1. Nach der Anmeldung beim externen System (oder wenn der Benutzer bereits angemeldet ist) wird der Benutzer zu einer Seite „Authentifizierung“ weitergeleitet, auf der erklärt wird, dass Workfront Zugriff anfordert, um eine Reihe von Aktionen im Namen des Benutzers auszuführen.
+1. Wenn der/die Benutzende auf die Schaltfläche „Zulassen“ klickt, wird der Browser zum Workfront-Umleitungs-URI weitergeleitet und der Abfragezeichenfolge wird „code=`<code>`&quot; hinzugefügt. Gemäß der OAuth2-Spezifikation ist dieses Token kurzlebig. Die Abfragezeichenfolge muss außerdem Folgendes enthalten: „state=`<sent_by_workfront>`&quot;.
+1. Workfront verarbeitet diese Anfrage und führt einen API-Aufruf an die Token-Endpunkt-URL mit dem Autorisierungs-Code durch.
+1. Die Token-Endpunkt-URL gibt ein Aktualisierungs-Token und ein Zugriffs-Token zurück.
+1. Workfront speichert diese Token und stellt die Webhook-Integration für diesen Benutzer bereit.
+1. Ab diesem Zeitpunkt kann Workfront autorisierte API-Aufrufe an den Webhook-Anbieter durchführen. Bei diesen Aufrufen sendet Workfront das Zugriffstoken in der HTTP-Anfrage-Kopfzeile wie unten dargestellt:
 
    ```
    -------------------------------  
@@ -42,11 +42,11 @@ Zugang zu Handlungen in ihrem Namen. Dieser Handshaking-Prozess erfolgt nur einm
    -------------------------------
    ```
 
-1. Wenn das Zugriffstoken abgelaufen ist, führt Workfront einen Aufruf an die Token-Endpunkt-URL durch, um ein neues Zugriffstoken abzurufen, und versucht dann erneut, den autorisierten API-Aufruf mit dem neuen Zugriffstoken durchzuführen.
+1. Wenn das Zugriffstoken abgelaufen ist, führt Workfront einen Aufruf an die Token-Endpunkt-URL durch, um ein neues Zugriffstoken abzurufen, und versucht dann den autorisierten API-Aufruf mit dem neuen Zugriffstoken erneut.
 
 ### ApiKey
 
-Autorisierte API-Aufrufe an einen Webhook-Provider mithilfe eines APIKey durchzuführen, ist viel einfacher als OAuth2. Beim Ausführen eines API-Aufrufs übergibt Workfront einfach den ApiKey- und Workfront-Benutzernamen im HTTP-Anforderungsheader: 
+Die Durchführung autorisierter API-Aufrufe an einen Webhook-Anbieter mithilfe eines APIkeys ist viel einfacher als OAuth2. Wenn Sie einen API-Aufruf ausführen, übergibt Workfront einfach den API-Schlüssel und den Workfront-Benutzernamen in der HTTP-Anfrage-Kopfzeile: 
 
 ```
 -------------------------------
@@ -58,7 +58,7 @@ username: johndoe@foo.com
 -------------------------------
 ```
 
-Der Webhook-Provider kann den Benutzernamen verwenden, um benutzerspezifische Berechtigungen anzuwenden. Dies funktioniert am besten, wenn beide Systeme über Single Sign On (SSO) eine Verbindung zu LDAP herstellen.
+Der Webhook-Anbieter kann den Benutzernamen verwenden, um benutzerspezifische Berechtigungen anzuwenden. Dies funktioniert am besten, wenn beide Systeme über Single Sign-On (SSO) eine Verbindung zu LDAP herstellen.
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

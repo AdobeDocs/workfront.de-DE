@@ -1,8 +1,8 @@
 ---
 product-area: timesheets
 navigation-topic: configure-timesheet-preferences
-title: "Erstellen und Verwalten von Timesheets: Artikelindex"
-description: Sie können Timesheets in Adobe Workfront erstellen und die Zeit verfolgen, die Sie für das Abschließen der Arbeit verbringen. Weitere Informationen zum Erstellen, Bearbeiten und Verwalten von Timesheets finden Sie in den folgenden Artikeln.
+title: 'Arbeitszeittabellen erstellen und verwalten: Artikelindex'
+description: Sie können Arbeitszeittabellen in Adobe Workfront erstellen und den Überblick über die Zeit behalten, die Sie für die Fertigstellung von Arbeiten aufwenden. Weitere Informationen zum Erstellen, Bearbeiten und Verwalten von Arbeitszeittabellen finden Sie in den folgenden Artikeln.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
@@ -14,20 +14,20 @@ ht-degree: 1%
 
 ---
 
-# Erstellen und Verwalten von Timesheets: Artikelindex
+# Arbeitszeittabellen erstellen und verwalten: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Erstellen, Bearbeiten und Zuweisen von Zeitleistenprofilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
-* [Definieren Sie die Stundentypen und die Verfügbarkeit](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
-* [Erstellen eines Zeitblatts für die einmalige Verwendung](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
-* [Informationen zum Zeitblatt bearbeiten](../../timesheets/create-and-manage-timesheets/edit-timesheets.md)
+* [Erstellen, Bearbeiten und Zuweisen von Arbeitszeittabellen-Profilen](../../timesheets/create-and-manage-timesheets/create-timesheet-profiles.md)
+* [Festlegen von Stundentypen und Verfügbarkeit](../../timesheets/create-and-manage-timesheets/define-hour-types-and-availability.md)
+* [Erstellen einer Arbeitszeittabelle für den einmaligen Gebrauch](../../timesheets/create-and-manage-timesheets/create-tmshts.md)
+* [Arbeitszeittabellen-Informationen bearbeiten](../../timesheets/create-and-manage-timesheets/edit-timesheets.md)
 * [Erfassen der Zeit](../../timesheets/create-and-manage-timesheets/log-time.md)
-* [Zeitblatt zur Genehmigung einreichen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
-* [Timesheet genehmigen](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)
-* [Gesamtstunden auf dem Timesheet anzeigen](../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
-* [Anzeigen und Verwalten von Kommentaren auf einem Zeitblatt](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
-* [Löschen von Timesheet-Profilen](../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
-* [Löschen von Timesheets in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)
-* [Manuelles Generieren von Timesheets](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
-* [Liste von Timesheets exportieren](../../timesheets/create-and-manage-timesheets/export-timesheets.md)
+* [Arbeitszeittabelle zur Genehmigung einreichen](../../timesheets/create-and-manage-timesheets/submit-timesheet-for-approval.md)
+* [Arbeitszeittabelle genehmigen](../../timesheets/create-and-manage-timesheets/timesheet-approvals.md)
+* [Gesamtstunden auf der Arbeitszeittabelle anzeigen](../../timesheets/create-and-manage-timesheets/view-total-hours-timesheets.md)
+* [Anzeigen und Verwalten von Kommentaren auf einer Arbeitszeittabelle](../../timesheets/create-and-manage-timesheets/view-and-manage-comments-timesheets.md)
+* [Arbeitszeittabellen-Profile löschen](../../timesheets/create-and-manage-timesheets/delete-timesheet-profiles.md)
+* [Löschen von Arbeitszeittabellen in Adobe Workfront](../../timesheets/create-and-manage-timesheets/delete-timesheets.md)
+* [Arbeitszeittabellen manuell generieren](../../timesheets/create-and-manage-timesheets/manually-generate-timesheets.md)
+* [Exportieren einer Liste von Arbeitszeittabellen](../../timesheets/create-and-manage-timesheets/export-timesheets.md)

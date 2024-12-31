@@ -1,7 +1,7 @@
 ---
-title: Verwenden des KI-Assistenten zum Arbeiten mit Projekten, Aufgaben und Problemen
+title: Verwenden des KI-Assistenten für die Arbeit mit Projekten, Aufgaben und Problemen
 content-type: reference
-description: Mithilfe der Funktion Diese Funktion zusammenfassen können Sie Arbeitselemente und Dokumente schnell zusammenfassen.
+description: Mit der Funktion „Zusammenfassen“ können Sie Arbeitselemente und Dokumente schnell zusammenfassen.
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
@@ -12,14 +12,14 @@ ht-degree: 0%
 
 ---
 
-# Verwenden des KI-Assistenten zum Arbeiten mit Projekten, Aufgaben und Problemen
+# Verwenden des KI-Assistenten für die Arbeit mit Projekten, Aufgaben und Problemen
 
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist in der Vorschau -Umgebung für alle Kunden und in der Produktionsumgebung für Kunden verfügbar, die monatliche Versionen aktiviert haben. </span>
 
-<span class="preview">Informationen zu schnellen Versionen finden Sie unter [Schnellversionen für Ihr Unternehmen aktivieren oder deaktivieren](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md) </span>.
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
-Der KI-Assistent kann Sie bei der Suche nach Projekten, Aufgaben und Problemen in Workfront unterstützen.
+Der KI-Assistent kann Ihnen dabei helfen, Projekte, Aufgaben und Probleme in Workfront zu finden.
 
 ## Zugriffsanforderungen
 
@@ -30,7 +30,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Abo</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td><p>Neu: Beliebig</p>
        <p>oder</p>
        <p>Aktuell: Nicht verfügbar</p></td>
@@ -44,22 +44,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Workfront-Dokumentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
 
 ## Arbeitselemente suchen
 
-1. Klicken Sie auf das Symbol **AI-Assistent** ![AI-Assistent-Symbol](assets/ai-assistant-icon.png) oben rechts im Bildschirm.
-1. Geben Sie eine Eingabeaufforderung ein, beispielsweise
+1. Klicken Sie auf **KI** Assistent![ Symbol KI-Assistent](assets/ai-assistant-icon.png) in der oberen rechten Ecke des Bildschirms.
+1. Eingabeaufforderung eingeben wie
 
    * Meine Aufgaben für diese Woche suchen
-   * Welche Probleme gibt es im Projekt &quot;Frühjahrskampagne&quot;?
-   * Projekte im aktuellen Status suchen
+   * Welche Probleme gibt es im Projekt „Frühjahrskampagne“?
+   * Projekte mit dem aktuellen Status suchen
 
-   Je nachdem, wie groß oder komplex die Eingabeaufforderung ist und wie viele Datensätze gesucht werden müssen, kann es einen Moment dauern, bis der KI-Assistent die Informationen gefunden hat.
-1. Zeigen Sie die Antwort im Bereich &quot;AI Assistant&quot;an.
-1. (Optional) Um zum Arbeitselement zu wechseln, klicken Sie auf den Link im Bedienfeld &quot;AI-Assistent&quot;.
+   Je nachdem, wie groß oder komplex die Eingabeaufforderung ist und wie viele Datensätze sie durchsuchen muss, benötigt der KI-Assistent einige Minuten, um die Informationen zu finden.
+1. Zeigen Sie die Antwort im Bedienfeld KI-Assistent an.
+1. (Optional) Um zum Arbeitselement zu wechseln, klicken Sie auf den Link im Bedienfeld KI-Assistent.
 
 <!--
 

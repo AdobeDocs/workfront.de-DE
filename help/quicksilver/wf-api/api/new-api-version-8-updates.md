@@ -1,7 +1,7 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Aktualisierungen für API Version 8
+title: Aktualisierungen der API-Version 8
 description: Sehen Sie sich die Aktualisierungen für API Version 8 an.
 author: Becky
 feature: Workfront API
@@ -10,25 +10,25 @@ exl-id: c6d7d2d2-cd21-4ca8-a5a0-afe3669dc959
 source-git-commit: ae80999fc7ea7e35097560aa99baa435bcd31b74
 workflow-type: tm+mt
 source-wordcount: '537'
-ht-degree: 31%
+ht-degree: 37%
 
 ---
 
-# Aktualisierungen für API Version 8
+# Aktualisierungen der API-Version 8
 
 ## Aktualisierte Ressourcen
 
-Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfront-API aktualisiert. Informationen zum Anzeigen der Ressourcen, die neu in Version 8 sind, finden Sie unter [Neue Funktionen in API Version 8](../../wf-api/api/new-api-version-8.md). Änderungen an einer Ressource werden wie folgt angegeben:
+Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfront-API aktualisiert. Informationen zu den neuen Ressourcen in Version 8 finden Sie unter [Neue Funktionen in der API-Version 8](../../wf-api/api/new-api-version-8.md). An einer Ressource vorgenommene Änderungen werden wie folgt angezeigt:
 
-* Hinzufügungen werden einfach aufgelistet
-* Entfernungen werden mit Durchstreichen angezeigt
-* Änderungen werden in der Anmerkung nach der Tabelle aufgeführt
+* Ergänzungen werden einfach aufgelistet
+* Entfernungen werden durch durchgestrichenen Text gekennzeichnet
+* Änderungen werden im Hinweis nach der Tabelle vermerkt
 
-### AccessRequest
+### Zugriffsanforderung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| Aktion<sup>1</sup>  |   |   |   |   |   |   |
+| action<sup>1</sup>  |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -44,14 +44,14 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 {style="table-layout:auto"}
 
-<sup>1</sup> Flag entfernt: REPORTABLE\
+<sup>1</sup> Markierung entfernt: MELDEBAR\
 <sup>2</sup> Änderungen an möglichen Werten
 
 ### Genehmigung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> | agileWork  | resourcePools |   |   |   |   |
+| auditTypes<sup>1</sup> | agiles Arbeiten  | Ressourcenpools |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |
@@ -82,7 +82,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 <sup>1</sup>Änderungen an möglichen Werten
 
-### CustomerPreferences
+### Kundenpräferenzen
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -92,7 +92,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 <sup>1</sup>Änderungen an möglichen Werten
 
-### DocumentApproval
+### Dokumentengenehmigung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -114,11 +114,11 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|   |   | Eigentümer |   |   |   |   |
+|   |   | Inhaber |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### HourType
+### Stundentyp
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -136,7 +136,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 {style="table-layout:auto"}
 
-### Gefällt mir
+### Ähnlich
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -158,10 +158,10 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> | agileWork  |   |   |   | defaultShownTimesheetIssues  |   |
-| backlogOrder | iteration |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agiles Arbeiten  |   |   |   | defaultShownTimesheetIssues  |   |
+| Auftragsbestand | Wiederholung |   |   |   |   |   |
 | backlogParent |   |   |   |   |   |   |
-| Schätzung |   |   |   |   |   |   |
+| Kalkulation |   |   |   |   |   |   |
 | iterationID |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
@@ -192,17 +192,17 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> |   | resourcePools |   |   | defaultShownTimesheetProjects |   |
+| auditTypes<sup>1</sup> |   | Ressourcenpools |   |   | defaultShownTimesheetProjects |   |
 
 {style="table-layout:auto"}
 
 <sup>1</sup>Änderungen an möglichen Werten
 
-### TestversandApproval
+### Testversandvalidierung
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| approveID | Genehmiger |   |   |   |   |   |
+| Genehmiger-ID | Genehmigende Person |   |   |   |   |   |
 | documentVersionID | documentVersion |   |   |   |   |   |
 | ID<sup>1</sup> |   |   |   |   |   |   |
 | proofCreationDate |   |   |   |   |   |   |
@@ -215,8 +215,8 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| requestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
-| requestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
+| RequestorCoreAction<sup>1</sup> |   |   |   |   |   |   |
+| RequestorForbiddenActions<sup>1</sup> |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -252,7 +252,7 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> | agileWork  |   |   |   | allTasksOnIterations  |   |
+| auditTypes<sup>1</sup> | agiles Arbeiten  |   |   |   | allTasksOnIterations  |   |
 | backlogParent | kanbanBoard |   |   |   | defaultShownTimesheetTasks |   |
 | kanbanBoardID |   |   |   |   |   |   |
 
@@ -276,11 +276,11 @@ Die folgenden vorhandenen Ressourcen wurden mit dieser Version der Adobe Workfro
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-|   |   | resourcePools |   |   |   |   |
+|   |   | Ressourcenpools |   |   |   |   |
 
 {style="table-layout:auto"}
 
-### TemplateTask
+### Vorlagenaufgabe
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
@@ -304,7 +304,7 @@ Aktualisieren
 
 |   |   | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|---|---|
-|   |   | resourcePools |   |   |   |   |   |   |
+|   |   | Ressourcenpools |   |   |   |   |   |   |
 |   |   | userGroups |   |   |   |   |   |   |
 |   |   | userRoles |   |   |   |   |   |   |
 
@@ -326,7 +326,7 @@ Aktualisieren
 
 | Felder | Verweise | Sammlungen | Suchen | Aktionen | Abfragen | Vorgänge |
 |---|---|---|---|---|---|---|
-| auditTypes<sup>1</sup> | agileWork  |   |   |   |   |   |
+| auditTypes<sup>1</sup> | agiles Arbeiten  |   |   |   |   |   |
 | backlogOrder<sup>2</sup> | kanbanBoard  |   |   |   |   |   |
 | backlogParent  |   |   |   |   |   |   |
 | kanbanBoardID |   |   |   |   |   |   |

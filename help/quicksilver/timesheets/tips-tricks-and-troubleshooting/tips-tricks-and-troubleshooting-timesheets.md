@@ -2,8 +2,8 @@
 content-type: tips-tricks-troubleshooting;reference
 product-area: timesheets
 navigation-topic: timesheets-navigation-topic
-title: 'Tipps, Tricks und Fehlerbehebung für Timesheets: Artikelindex'
-description: In den folgenden Artikeln erfahren Sie mehr über das gängige Timesheet-Verhalten oder wie potenzielle Probleme mit Timesheets behoben werden können.
+title: 'Tipps, Tricks und Fehlerbehebung bei Arbeitszeittabellen: Artikelindex'
+description: In den folgenden Artikeln erfahren Sie mehr über das allgemeine Verhalten von Arbeitszeittabellen und darüber, wie Sie potenzielle Probleme mit Arbeitszeittabellen beheben können.
 author: Alina
 feature: Timesheets
 recommendations: noDisplay, noCatalog
@@ -15,11 +15,11 @@ ht-degree: 0%
 
 ---
 
-# Tipps, Tricks und Fehlerbehebung für Timesheets: Artikelindex
+# Tipps, Tricks und Fehlerbehebung bei Arbeitszeittabellen: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
-* [Korrigieren Sie den Starttag der Arbeitswoche für Timesheets](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
-* [Verhindert, dass die Aktion &quot;Finanzen neu berechnen&quot;historische Stunden beeinflusst, wenn sich die Rate ändert](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
-* [Tracking von Stundenkatalogen mit der Adobe Workfront-API](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
-* [Die Protokollzeit für zukünftige Daten kann nicht protokolliert werden](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)
+* [Korrigieren Sie den Starttag der Arbeitswoche für Arbeitszeittabellen](../../timesheets/tips-tricks-and-troubleshooting/correct-start-day-of-work-week.md)
+* [Verhindern Sie, dass sich die Aktion „Finanzen neu berechnen“ auf historische Stunden auswirkt, wenn sich die Sätze ändern](../../timesheets/tips-tricks-and-troubleshooting/prevent-recalculate-finance-action.md)
+* [Stundeneinträge mit der Adobe Workfront-API verfolgen](../../timesheets/tips-tricks-and-troubleshooting/track-hour-records-with-wfapi.md)
+* [Zeit kann nicht für zukünftige Daten protokolliert werden](../../timesheets/tips-tricks-and-troubleshooting/unable-to-log-time-future-dates.md)

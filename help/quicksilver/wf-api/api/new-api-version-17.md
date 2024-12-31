@@ -1,8 +1,8 @@
 ---
 content-type: api
 navigation-topic: api-navigation-topic
-title: Neue Funktionen in API Version 17
-description: Adobe Workfront hat die API-Version 17 am 6. April 2022 veröffentlicht. API Version 17 enthält die folgenden Änderungen gegenüber Version 16.
+title: Neue Funktionen in der API-Version 17
+description: Adobe Workfront hat API Version 17 am 6. April 2022 veröffentlicht. Die API-Version 17 enthält die folgenden Änderungen gegenüber Version 16.
 author: Becky
 feature: Workfront API
 role: Developer
@@ -14,11 +14,11 @@ ht-degree: 1%
 
 ---
 
-# Neue Funktionen in API Version 17
+# Neue Funktionen in der API-Version 17
 
-Adobe Workfront hat die API-Version 17 am 12. Oktober 2023 veröffentlicht. API Version 17 enthält die folgenden Änderungen gegenüber Version 16.
+Adobe Workfront hat API Version 17 am 12. Oktober 2023 veröffentlicht. Die API-Version 17 enthält die folgenden Änderungen gegenüber Version 16.
 
-## Hinzugefügte Ressourcen
+## Ressourcen hinzugefügt
 
 <!--
 
@@ -26,9 +26,9 @@ Adobe Workfront hat die API-Version 17 am 12. Oktober 2023 veröffentlicht. API 
 
 -->
 
-### ExternalDocument (EXTDOC)
+### Externes Dokument (EXTDOC)
 
-Ein ExternalDocument -Objekt ist ein Dokument oder ein anderes digitales Asset, das sich in einem Dokumentenspeicherungsanbieter außerhalb von Workfront befindet. Diese Assets können mit und aus Workfront verknüpft werden.
+Ein ExternalDocument-Objekt ist ein Dokument oder ein anderes digitales Asset, das sich in einem Dokumentspeicheranbieter außerhalb von Workfront befindet. Diese Assets können mit und von Workfront verknüpft werden.
 
 <table>
   <col/>
@@ -39,17 +39,17 @@ Ein ExternalDocument -Objekt ist ein Dokument oder ein anderes digitales Asset, 
       <td>
         <ul>
           <li><p><b>dateModified</b></p></li>
-          <li><p><b>description</b></p></li>
+          <li><p><b>Beschreibung</b></p></li>
           <li><p><b>documentProviderID</b></p></li>
           <li><p><b>Durchw</b></p></li>
           <li><p><b>fileType</b></p></li>
           <li><p><b>iconURL</b></p></li>
           <li><p><b>ID</b></p></li>
           <li><p><b>name</b></p></li>
-          <li><p><b>path</b></p></li>
+          <li><p><b>Pfad</b></p></li>
           <li><p><b>providerType</b></p></li>
           <li><p><b>readOnly</b></p></li>
-          <li><p><b>size</b></p></li>
+          <li><p><b>Größe</b></p></li>
           <li><p><b>thumbnailURL</b></p></li>
         </ul>
       </td>
@@ -59,7 +59,7 @@ Ein ExternalDocument -Objekt ist ein Dokument oder ein anderes digitales Asset, 
       <td>
         <ul>
           <li><p><b>dateModified</b></p></li>
-          <li><p><b>description</b></p></li>
+          <li><p><b>Beschreibung</b></p></li>
           <li><p><b>documentProviderID</b></p></li>
           <li><p><b>Durchw</b></p></li>
           <li><p><b>fileType</b></p></li>
@@ -69,12 +69,12 @@ Ein ExternalDocument -Objekt ist ein Dokument oder ein anderes digitales Asset, 
           <li><p><b>isTeamDriveItem</b></p></li>
           <li><p><b>name</b></p></li>
           <li><p><b>objCode</b></p></li>
-          <li><p><b>path</b></p></li>
+          <li><p><b>Pfad</b></p></li>
           <li><p><b>providerType</b></p></li>
           <li><p><b>readOnly</b></p></li>
-          <li><p><b>size</b></p></li>
+          <li><p><b>Größe</b></p></li>
           <li><p><b>thumbnailURL</b></p></li>
-          <li><p><b>value</b></p></li>
+          <li><p><b>Wert</b></p></li>
         </ul>
       </td>
     </tr>
@@ -160,7 +160,7 @@ Ein ExternalDocument -Objekt ist ein Dokument oder ein anderes digitales Asset, 
       <td role="rowheader">Referenzfelder</td>
       <td>
         <ul>
-          <li><p><b>customer</b></p></li>
+          <li><p><b>Kunde</b></p></li>
           <li><p><b>Benutzer</b></p></li>
         </ul>
       </td>
@@ -183,7 +183,7 @@ Für API-Version 17 wurden keine Ressourcen entfernt
 
 ## Geänderte Ressourcen
 
-Die folgenden Ressourcen wurden für API Version 17 geändert.
+Die folgenden Ressourcen wurden für die API-Version 17 geändert.
 
 <!--
 
@@ -201,17 +201,17 @@ An AccessRule object represents a rule set in custom access levels that determin
 
 -->
 
-### Grundlinie (BLIN)
+### Baseline (BLIN)
 
-Grundlinien sind Momentaufnahmen davon, wie die Leistung eines Projekts zu einem bestimmten Zeitpunkt aussah. Sie speichern wichtige Informationen zum Projekt, wie z. B. Schlüsseldaten, Fortschritt, Kosten und Umsatzwerte.
+Baselines sind Momentaufnahmen der Leistung eines Projekts zu einem bestimmten Zeitpunkt. Sie speichern wichtige Informationen über das Projekt, wie wichtige Daten, Fortschritt, Kosten und Umsatzwerte.
 
-Das Baseline-Objekt entfernte die Markierung **INLINE_EDITABLE**.
+Das Baseline-Objekt hat das Flag &quot;**_EDITABLE“**.
 
-### BillingRecord (BILL)
+### Rechnungsnachweis (BILL)
 
-Ein BillingRecord -Objekt zeichnet die Einnahmen, Stunden oder Ausgaben auf, die abgerechnet werden können. Diese Informationen können zur Erstellung von Rechnungen in einem externen Buchführungssystem verwendet werden.
+Ein BillingRecord-Objekt zeichnet die Einnahmen, Stunden oder Ausgaben auf, die in Rechnung gestellt werden können. Diese Informationen können zur Erstellung von Rechnungen in einem externen Buchhaltungssystem verwendet werden.
 
-Das BillingRecord -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
+Das BillingRecord-Objekt hat das Flag &quot;**_EDITABLE“**.
 
 <!--
 
@@ -221,9 +221,9 @@ A Category object is a custom form.
 
 -->
 
-### Unternehmen (CMPY)
+### Firma (COMPY)
 
-Ein Unternehmensobjekt stellt eine Organisation dar, die aus einer Personensammlung besteht.
+Ein Unternehmensobjekt stellt eine Organisation dar, die aus einer Sammlung von Personen besteht.
 
 <table>
   <col/>
@@ -236,7 +236,7 @@ Ein Unternehmensobjekt stellt eine Organisation dar, die aus einer Personensamml
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>Entfernt</p>
+            <p>entfernt</p>
           </li>
         </ul>
       </td>
@@ -244,9 +244,9 @@ Ein Unternehmensobjekt stellt eine Organisation dar, die aus einer Personensamml
  </tbody>
 </table>
 
-### CustomerPreferences (CUSTPR)
+### Kundenvoreinstellungen (CUSTPR)
 
-Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Instanz von Workfront festgelegt hat.
+Ein CustomerPreferences-Objekt stellt den Satz von Voreinstellungen dar, die ein Kunde für seine Workfront-Instanz festgelegt hat.
 
 <table>
   <col/>
@@ -259,7 +259,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
           <li>
             <p><b>name</b>
             </p>
-            <p>Der mögliche Wert "config.defaultToNewHomeDescription"(customer:config.defaultToNewHome)&gt;/p wurde hinzugefügt.<p>Dadurch kann eine Organisation das neue Starterlebnis zum Standard für ihre Benutzer machen.</p>
+            <p>Der mögliche Wert „config.defaultToNewHomeDescription“ (customer:config.defaultToNewHome)&gt;/p wurde hinzugefügt?<p>Auf diese Weise kann ein Unternehmen die neue Startseite zum Standard für seine Benutzer machen.</p>
           </li>
         </ul>
       </td>
@@ -269,7 +269,7 @@ Ein CustomerPreferences -Objekt stellt den Satz von Voreinstellungen dar, die ei
 
 ### DocumentVersion (DOCV)
 
-Ein DocumentVersion -Objekt stellt eine bestimmte Version einer Datei dar (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
+Ein DocumentVersion-Objekt stellt eine bestimmte Version einer Datei dar (z. B. geschriebenes Material, Bilder oder andere Informationsformen).
 
 <table>
   <col/>
@@ -282,12 +282,12 @@ Ein DocumentVersion -Objekt stellt eine bestimmte Version einer Datei dar (z. B.
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Der mögliche Wert "Frame.io"(FRAMEIO) wurde hinzugefügt.</p>
+            <p>Der mögliche Wert „Frame.io“ (FRAMEIO) wurde hinzugefügt.</p>
           </li>
           <li>
             <p><b>fileType</b>
             </p>
-            <p>Der mögliche Wert "enum.filetype.site"(Site) wurde hinzugefügt.</p>
+            <p>Der mögliche Wert „enum.filetype.site“ (site) wurde hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -295,9 +295,9 @@ Ein DocumentVersion -Objekt stellt eine bestimmte Version einer Datei dar (z. B.
  </tbody>
 </table>
 
-### ExchangeRate (EXRATE)
+### Wechselkurs (EXRATE)
 
-Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar. ExchangeRate-Objekte sind nicht dynamisch.
+Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar. Wechselkursobjekte sind nicht dynamisch.
 
 <table>
   <col/>
@@ -316,23 +316,23 @@ Ein ExchangeRate-Objekt stellt einen in Workfront eingerichteten Wechselkurs dar
       <td role="rowheader">Aktionen</td>
       <td>
         <ul>
-          <li><p><b>getCustomerCurrencies</b></p></li>
-          <p>Hinzugefügt.</p>
+          <li><p><b>getCustomerCurrences</b></p></li>
+          <p>hinzugefügt.</p>
        </ul>
       </td>
     </tr>
  </tbody>
 </table>
 
-### Ausgaben (EXPNS)
+### Kosten (AUSGABEN)
 
-Ausgaben stellen die Nichtarbeitskosten dar, die während der Laufzeit eines Projekts anfallen könnten.
+Aufwendungen stellen die sonstigen Kosten dar, die während der Laufzeit eines Projekts anfallen können.
 
-Das Spesenobjekt entfernte die Markierung **INLINE_EDITABLE**.
+Das Ausgabenobjekt hat das Flag &quot;**_EDITABLE“**.
 
-### Gruppe (GRUPPE)
+### Gruppe (GROUP)
 
-Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen repräsentieren oft die Struktur der Abteilungen.
+Ein Gruppenobjekt steht für eine Gruppe von Benutzern und Teams. Gruppen repräsentieren oft die Abteilungsstruktur.
 
 <table>
   <col/>
@@ -345,7 +345,7 @@ Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen reprä
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>Entfernt</p>
+            <p>entfernt</p>
           </li>
         </ul>
       </td>
@@ -355,20 +355,20 @@ Ein Group -Objekt stellt eine Gruppe von Benutzern und Teams dar. Gruppen reprä
 
 ### Stunde (STUNDE)
 
-Ein Hour -Objekt stellt eine Stunde dar, die von einem Benutzer auf einem Timesheet protokolliert wird.
+Ein Stunden -Objekt steht für eine Stunde, die ein Benutzer in einer Arbeitszeittabelle protokolliert.
 
-Das Objekt Stunde entfernt die Markierung **INLINE_EDITABLE**.
+Das Stunde -Objekt entfernte das Flag **INLINE_EDITABLE**.
 
 ### Iteration (ITRN)
 
-Ein Iteration -Objekt stellt eine einzelne Agile Iteration dar. Iterationen sind diskrete Zeiträume, die zur Planung und Ergänzung von Agile-Geschichten verwendet werden.
+Ein Iterationsobjekt stellt eine einzelne Agile-Iteration dar. Iterationen sind diskrete Zeiträume, in denen agile Storys geplant und abgeschlossen werden.
 
-Das Iteration-Objekt entfernte die Markierung **INLINE_EDITABLE**.
+Das Iterationsobjekt hat das Flag &quot;**_EDITABLE“**.
 
 
-### JournalEntry (JRNLE)
+### Tagebucheintrag (JRNLE)
 
-Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung dieser Felder Informationen über bestimmte Objektfelder protokolliert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird bei jeder Änderung dieses Felds ein entsprechender Journaleintrag erstellt.
+Das JournalEntry-Objekt kann so eingerichtet werden, dass Informationen zu bestimmten Objektfeldern jedes Mal protokolliert werden, wenn diese Felder geändert werden. Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird jedes Mal, wenn dieses Feld geändert wird, ein entsprechender Journaleintrag erstellt.
 
 <table>
   <col/>
@@ -383,18 +383,18 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
             </p>
             <p>Die folgenden möglichen Werte wurden hinzugefügt:</p>
             <ul>
-              <li>Genehmiger hinzugefügt (AAA)</li>
-              <li>Überprüfer hinzugefügt (AAR)</li>
-              <li>Überprüfer entfernt (ARR)</li>
-              <li>Genehmiger (ARA) entfernt</li>
+              <li>Genehmigende Person (AAA) hinzugefügt</li>
+              <li>Reviewer hinzugefügt (AAR)</li>
+              <li>Reviewer entfernt (ARR)</li>
+              <li>Genehmigende Person entfernt (ARA)</li>
               <li>Genehmigte Entscheidung (ADA)</li>
-              <li>Mit Änderungen genehmigte Entscheidung (ADC)</li>
-              <li>Entscheidungsbedarf (ADN)</li>
-              <li>Entscheidung aufgehoben (ADR)</li>
-              <li>Genehmiger geändert (AAC)</li>
-              <li>Überprüfer geändert (ARC)</li>
-              <li>Abschluss der Überprüfung (RDC)</li>
-              <li>Rückgängig gezogene Überprüfung (RDR)</li>
+              <li>Entscheidung mit Änderungen genehmigt (ADC)</li>
+              <li>Entscheidung muss überarbeitet werden (ADN)</li>
+              <li>Aufgehobene Entscheidung (ADR)</li>
+              <li>Genehmigende Person geändert (AAC)</li>
+              <li>Reviewer Changed (ARC)</li>
+              <li>Überprüfung abgeschlossen (RDC)</li>
+              <li>Überprüfung widerrufen (RDR)</li>
               <li>Publish (PUB)</li>
             </ul>
           </li>
@@ -404,16 +404,16 @@ Das JournalEntry -Objekt kann so eingerichtet werden, dass bei jeder Änderung d
  </tbody>
 </table>
 
-### Kanban Board (KNBNBD)
+### Kanban-Board (KNBNBD)
 
 Ein Kanban-Board wird verwendet, um Aufgaben in einer Agile-Umgebung zu verfolgen.
 
-Das Kanban Board-Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
+Das Kanban-Board-Objekt entfernte das Flag **INLINE_EDITABLE**.
 
 
-### LinkedFolder (LNKFDR)
+### Verknüpfter Ordner (LINKFDR)
 
-Ein LinkedFolder-Objekt stellt einen Ordner dar, der von einem externen Dokumentenanbieter wie Google Drive oder Dropbox verknüpft ist.
+Ein LinkedFolder-Objekt stellt einen Ordner dar, der über einen externen Dokumentanbieter verknüpft ist, z. B. Google Drive oder Dropbox.
 
 <table>
   <col/>
@@ -426,7 +426,7 @@ Ein LinkedFolder-Objekt stellt einen Ordner dar, der von einem externen Dokument
           <li>
             <p><b>externalIntegrationType</b>
             </p>
-            <p>Möglicher Wert "Frame.io (FRAMEIO)"hinzugefügt</p>
+            <p>Der mögliche Wert „Frame.io (FRAMEIO)“ wurde hinzugefügt</p>
           </li>
         </ul>
       </td>
@@ -434,21 +434,21 @@ Ein LinkedFolder-Objekt stellt einen Ordner dar, der von einem externen Dokument
  </tbody>
 </table>
 
-### OpTask/Problem (OPTASK)
+### Aufgabe/Problem (OPTASK)
 
-Ein OpTask-Objekt wird häufig als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise anzeigt, dass ein Problem vorliegt, das die Fertigstellung einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungen bei Bestellungen, Anforderungen und Fehlern sind ebenfalls Probleme.
+Ein OpTask-Objekt wird im Allgemeinen als Problem bezeichnet. Ein Problem ist ein Arbeitselement, das normalerweise darauf hinweist, dass ein Problem vorliegt, das den Abschluss einer Aufgabe oder eines Projekts verhindert. Ein Problem kann auch eine Helpdesk-Anfrage sein. Änderungsanforderungen, -anfragen und -fehler sind ebenfalls Probleme.
 
-Das Problem -Objekt entfernte die Markierung **INLINE_EDITABLE**.
+Das Anfrageobjekt hat das Flag &quot;**_EDITABLE“**.
 
 ### Projekt (PROJ)
 
-Projekte sind Arbeitselemente in Workfront und stellen einen Hauptbaustein dar, wie Workfront Menschen bei der Arbeit unterstützt. Ein Projektobjekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
+Projekte sind Arbeitselemente innerhalb von Workfront und ein wichtiger Baustein in der Art und Weise, wie Workfront Menschen bei der Arbeit unterstützt. Ein Project-Objekt stellt eine Gruppe von Aufgaben mit einem gemeinsamen, spezifischen Ziel dar.
 
-Das Projektobjekt hat die Markierung **INLINE_EDITABLE** entfernt.
+Das Project-Objekt hat das Flag **INLINE_EDITABLE** entfernt.
 
-### ProjectUser (PRTU)
+### Projektbenutzer (PRTU)
 
-Ein ProjectUser -Objekt stellt einen Benutzer dar, der einem bestimmten Projekt zugeordnet ist.
+Ein ProjectUser-Objekt stellt einen Benutzer dar, der einem bestimmten Projekt zugeordnet ist.
 
 <table>
   <col/>
@@ -461,7 +461,7 @@ Ein ProjectUser -Objekt stellt einen Benutzer dar, der einem bestimmten Projekt 
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -473,7 +473,7 @@ Ein ProjectUser -Objekt stellt einen Benutzer dar, der einem bestimmten Projekt 
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -489,11 +489,11 @@ A QueueDef object represents a Queue, which is a project that has been published
 
 -->
 
-### Rate (RATE)
+### Satz (RATE)
 
-Ein Rate -Objekt stellt eine Abrechnungsrate in Workfront dar.
+Ein Tarifobjekt stellt einen Abrechnungssatz in Workfront dar.
 
-Das Rate-Objekt entfernte die Markierung **INLINE_EDITABLE**.
+Das Ratenobjekt hat das Flag &quot;**_EDITABLE“**.
 
 <table>
   <col/>
@@ -501,14 +501,14 @@ Das Rate-Objekt entfernte die Markierung **INLINE_EDITABLE**.
   <tbody>
     <tr>
       <td role="rowheader">Aktionen</td>
-      <td>Die folgenden Aktionen wurden hinzugefügt, um die Funktion der Ratenkarte zu unterstützen:
+      <td>Die folgenden Aktionen wurden hinzugefügt, um die Tarifkartenfunktion zu unterstützen:
         <ul>
           <li><p><b>deleteRateForRole</b></p></li>
           <li><p><b>editRatesForRole</b></p></li>
           <li><p><b>getUsedClassifierIds</b></p></li>
           <li><p><b>setRatesFromRateCard</b></p></li>
         </ul>
-        <p>Die Aktion <b>setRatesForRole</b> wurde geändert, um die folgenden Felder hinzuzufügen:
+        <p>Die <b>setRatesForRole</b>-Aktion wurde geändert, um die folgenden Felder hinzuzufügen:
         <ul>
         <li>classifierID</li>
         <li>currencyCode</li>
@@ -519,15 +519,15 @@ Das Rate-Objekt entfernte die Markierung **INLINE_EDITABLE**.
  </tbody>
 </table>
 
-### Risiko (RISIKO)
+### Risiko (Risiko)
 
-Ein Risikoobjekt stellt ein mögliches Ereignis dar, das verhindern kann, dass ein Projekt rechtzeitig oder innerhalb des Budgets beendet wird. In der Planungsphase werden den Projekten Risiken hinzugefügt, um potenzielle Hindernisse vor der Genehmigung von Arbeiten zu ermitteln.
+Ein Risikoobjekt stellt ein mögliches Ereignis dar, das verhindern kann, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Projekte werden in der Planungsphase mit Risiken versehen, um potenzielle Hindernisse vor der Genehmigung von Arbeiten zu identifizieren.
 
-Das Risikoobjekt entfernte die Markierung **INLINE_EDITABLE**.
+Das Risikoobjekt hat das Flag &quot;**_EDITABLE“**.
 
-### Rolle/Auftragsrolle (ROLE)
+### Funktion/Aufgabengebiet (ROLE)
 
-Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine von einem Benutzer auszufüllende Fähigkeit dar, z. B. Designer oder Produktmanager.
+Ein Rollenobjekt (Aufgabengebiet) stellt eine funktionale Kapazität oder eine Qualifikation dar, die ein Benutzer ausfüllen kann, z. B. Designer oder Product Manager.
 
 <table>
   <col/>
@@ -540,7 +540,7 @@ Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine vo
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>Entfernt</p>
+            <p>entfernt</p>
           </li>
         </ul>
       </td>
@@ -548,11 +548,11 @@ Ein Rollenobjekt (Auftragsrolle) stellt eine funktionale Kapazität oder eine vo
  </tbody>
 </table>
 
-### Aufgabe (TASK)
+### Aufgabe (AUFGABE)
 
-Ein Task -Objekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (zum Abschließen eines Projekts) ausgeführt werden muss.
+Ein Aufgabenobjekt stellt ein Arbeitselement dar, das als Schritt zum Erreichen eines endgültigen Ziels (Fertigstellen eines Projekts) ausgeführt werden muss.
 
-Das Task-Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
+Das Aufgabenobjekt hat das Flag &quot;**_EDITABLE“**.
 
 ### Team (TEAMOB)
 
@@ -569,7 +569,7 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
           <li>
             <p><b>defaultInterface</b>
             </p>
-            <p>Entfernt</p>
+            <p>entfernt</p>
           </li>
         </ul>
       </td>
@@ -577,9 +577,9 @@ Ein Team-Objekt ist eine Sammlung von Benutzern, die einem Arbeitselement zugewi
  </tbody>
 </table>
 
-### TeamMember (TEAMB)
+### Teammitglied (TEAMb)
 
-Ein TeamMember-Objekt ist ein Benutzer, der einem bestimmten Team zugeordnet ist.
+Ein TeamMember-Objekt ist ein einem bestimmten Team zugeordneter Benutzer.
 
 <table>
   <col/>
@@ -592,7 +592,7 @@ Ein TeamMember-Objekt ist ein Benutzer, der einem bestimmten Team zugeordnet ist
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -604,7 +604,7 @@ Ein TeamMember-Objekt ist ein Benutzer, der einem bestimmten Team zugeordnet ist
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -612,7 +612,7 @@ Ein TeamMember-Objekt ist ein Benutzer, der einem bestimmten Team zugeordnet ist
  </tbody>
 </table>
 
-### TemplateUser (TMTU)
+### Vorlagenbenutzer (TMTU)
 
 <table>
   <col/>
@@ -625,7 +625,7 @@ Ein TeamMember-Objekt ist ein Benutzer, der einem bestimmten Team zugeordnet ist
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -637,7 +637,7 @@ Ein TeamMember-Objekt ist ein Benutzer, der einem bestimmten Team zugeordnet ist
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -645,9 +645,9 @@ Ein TeamMember-Objekt ist ein Benutzer, der einem bestimmten Team zugeordnet ist
  </tbody>
 </table>
 
-### Datenblatt (TSHET)
+### Arbeitszeittabelle (TABELLE)
 
-Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die tatsächlichen Arbeitsstunden für Aufgaben, Projekte und Hochtypen eingeben können.
+Ein Arbeitszeittabellen-Objekt stellt eine virtuelle Arbeitszeitkarte dar, mit der Benutzende tatsächliche Arbeitsstunden für Aufgaben, Projekte und allgemeine Stundentypen eingeben können.
 
 <table>
   <col/>
@@ -660,7 +660,7 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
           <li>
             <p><b>objCode</b>
             </p>
-            <p>Entfernt</p>
+            <p>entfernt</p>
           </li>
         </ul>
       </td>
@@ -668,9 +668,9 @@ Ein Timesheet-Objekt stellt eine virtuelle Timecard dar, mit der Benutzer die ta
  </tbody>
 </table>
 
-### Aktualisieren (AKTUALISIEREN)
+### Aktualisieren (UPDATE)
 
-Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über den aktuellen Status informiert werden. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzern eingegeben oder vom Workfront-System erstellt werden.
+Arbeitselemente in Workfront können aktualisiert werden, um Benutzende über den aktuellen Status zu informieren. Ein Update -Objekt stellt eine dieser Aktualisierungen dar. Aktualisierungen können von Benutzenden eingegeben oder vom Workfront-System erstellt werden.
 
 <table>
   <col/>
@@ -685,20 +685,20 @@ Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über d
             </p>
             <p>Die folgenden Werte wurden hinzugefügt:</p>
             <ul>
-              <li>Genehmiger hinzugefügt (assetapprovalAddApprover)</li>
-              <li>Überprüfer hinzugefügt (assetapprovalAddReviewer)</li>
-              <li>Genehmiger entfernt (assetapprovalRemoveApprover)</li>
-              <li>Überprüfer entfernt (assetapprovalRemoveReviewer)</li>
+              <li>Genehmigende Person hinzugefügt (assetapprovalAddGenehmigende Person)</li>
+              <li>Reviewer hinzugefügt (assetapprovalAddReviewer)</li>
+              <li>Genehmigende Person entfernt (assetapprovalRemoveGenehmiger)</li>
+              <li>Reviewer entfernt (assetapprovalRemoveReviewer)</li>
               <li>Entscheidung genehmigt (assetapprovalDecisionApproved)</li>
-              <li>Entscheidungsbedarf funktioniert (assetapprovalDecisionNeedsWork)</li>
-              <li>Mit Änderungen genehmigte Entscheidung (assetapprovalDecisionApprovedChanges)</li>
-              <li>Entscheidung widerrufen (assetapprovalDecisionRevoked)</li>
-              <li>Genehmiger geändert (assetapprovalApproverChanged)</li>
-              <li>Überprüfer geändert (assetapprovalReviewerChanged)</li>
-              <li>Review abgeschlossen (assetapprovalReviewerDecisionComplete)</li>
-              <li>Überprüfung gesperrt (assetapprovalReviewerDecisionRevoked)</li>
-              <li>Fehler beim Senden eines externen Dokuments (externalDocumentSendError)</li>
-              <li>Veröffentlichte Dokumentversion (documentVersionPublish)</li>
+              <li>Entscheidung muss überarbeitet werden (assetapprovalDecisionNeedsWork)</li>
+              <li>Entscheidung mit Änderungen genehmigt (assetapprovalDecisionApprovedChanges)</li>
+              <li>Entscheidung widerrufen (assetapprovalDecisionRevocked)</li>
+              <li>Genehmigende Person geändert (assetapprovalChanged)</li>
+              <li>Reviewer changed (assetapprovalReviewerChanged)</li>
+              <li>Überprüfung abgeschlossen (assetapprovalReviewerDecisionComplete)</li>
+              <li>Überprüfung widerrufen (assetapprovalReviewerDecisionRevocked)</li>
+              <li>Fehler beim Senden des externen Dokuments (externalDocumentSendError)</li>
+              <li>Dokumentversion veröffentlicht (documentVersionPublish)</li>
               <li>Workflow für verknüpfte Ordner (linkedFolderWorkflow)</li>
             </ul>
           </li>
@@ -708,11 +708,11 @@ Arbeitselemente in Workfront können aktualisiert werden, damit Benutzer über d
   </tbody>
  </table>
 
-### Benutzer (BENUTZER)
+### Benutzer (USER)
 
-Ein User -Objekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
+Ein Benutzerobjekt stellt eine Person mit einem Konto in Workfront dar, die sich anmelden und mit dem System interagieren kann.
 
-Das User -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
+Das Benutzerobjekt hat das Flag &quot;**_EDITABLE“**.
 
 <table>
   <col/>
@@ -725,7 +725,7 @@ Das User -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
           <li>
             <p><b>workTime</b>
             </p>
-            <p>Dieses Feld wurde hinzugefügt. Es ist eine Zahl zwischen 0 und 1, die den Prozentsatz der Zeit darstellt, die ein Benutzer täglich für die Projektarbeit (ohne Overhead) verbringen kann. Der Wert 1 bedeutet, dass der Benutzer 100 % seiner Zeit mit Projektarbeit verbringen kann.</p>
+            <p>Dieses Feld wurde hinzugefügt und ist eine Zahl zwischen 0 und 1, die den Prozentsatz der Zeit darstellt, die eine Benutzerin oder ein Benutzer täglich für Projektarbeit (ohne Mehraufwand) aufwenden kann. Der Wert 1 bedeutet, dass der Benutzer 100 % seiner Zeit mit Projektaufgaben verbringen kann.</p>
           </li>
         </ul>
       </td>
@@ -744,7 +744,7 @@ Das User -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
  </tbody>
 </table>
 
-### UserGroups (USRGPS)
+### Benutzergruppen (USRGPS)
 
 <table>
   <col/>
@@ -757,7 +757,7 @@ Das User -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -769,7 +769,7 @@ Das User -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -779,7 +779,7 @@ Das User -Objekt hat die Markierung **INLINE_EDITABLE** entfernt.
 
 ### UserNote (USRNOT)
 
-Ein UserNote -Objekt ist eine Benachrichtigung.
+Ein UserNote-Objekt ist eine Benachrichtigung.
 
 <table>
   <col/>
@@ -794,25 +794,25 @@ Ein UserNote -Objekt ist eine Benachrichtigung.
             </p>
             <p>Die folgenden Werte wurden hinzugefügt:</p>
             <ul>
-              <li>Dokument erfordert Ihre Genehmigung (AAA)</li>
-              <li>Dokument benötigt Ihre Überprüfung (AAR)</li>
-              <li>Dokument benötigt Ihre Genehmigung nicht mehr (ARA).</li>
-              <li>Dokument benötigt Ihre Überprüfung nicht mehr (ARR)</li>
-              <li>Validierung (ATA) für Dokumentanforderungen (Benutzer)</li>
-              <li>Überprüfung der Dokumentenanforderungen (Benutzer) (ATR)</li>
-              <li>Dokument muss nicht mehr genehmigt werden (Benutzer) (RTA)</li>
-              <li>Dokument muss nicht mehr (Benutzer) überprüft werden (RTR).</li>
+              <li>Dokument muss genehmigt werden (AAA)</li>
+              <li>Dokument muss überprüft werden (AAR)</li>
+              <li>Das Dokument benötigt keine Zustimmung mehr (ARA)</li>
+              <li>Das Dokument muss nicht mehr überprüft werden (ARR)</li>
+              <li>Dokument muss von Benutzer genehmigt werden (ATA)</li>
+              <li>Dokument muss von (Benutzer) überprüft werden (ATR)</li>
+              <li>Das Dokument bedarf keiner Genehmigung (RTA) durch den Benutzer mehr</li>
+              <li>Das Dokument muss nicht mehr von (Benutzer) überprüft werden (RTR)</li>
               <li>Dokument genehmigt (ADA)</li>
               <li>Dokument mit Änderungen genehmigt (ADC)</li>
-              <li>Arbeit für Dokument erforderlich (ADN)</li>
-              <li>(Benutzer) hat (Dokument) als genehmigt markiert. Ihre Zustimmung ist nicht mehr erforderlich. (AN)</li>
-              <li>(Benutzer) hat (Dokument) mit den Änderungen als genehmigt markiert. Ihre Zustimmung ist nicht mehr erforderlich. (ACN)</li>
-              <li>(Benutzer) hat markiert (Dokument), da es funktioniert. Ihre Zustimmung ist nicht mehr erforderlich. (AWN)</li>
-              <li>Dokument erfordert Ihre Überprüfung jetzt anstatt der Genehmigung (AAC)</li>
-              <li>Dokument erfordert Ihre Genehmigung jetzt anstatt einer Überprüfung (ADN)</li>
+              <li>Dokument muss bearbeitet werden (ADN)</li>
+              <li>(Benutzer) hat (Dokument) als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich. (AAN)</li>
+              <li>(Benutzer) hat (Dokument) mit Änderungen als genehmigt markiert. Ihre Genehmigung ist nicht mehr erforderlich. (ACN)</li>
+              <li>(Benutzer) hat (Dokument) als arbeitsbedürftig markiert. Ihre Genehmigung ist nicht mehr erforderlich. (AWN)</li>
+              <li>Das Dokument muss jetzt überprüft und nicht genehmigt werden (AAC).</li>
+              <li>Das Dokument muss jetzt von Ihnen genehmigt und nicht überprüft werden (ADN)</li>
               <li>Dokument geprüft (RDC)</li>
               <li>Dokument geprüft (TRC)</li>
-              <li>(Benutzer) hat als abgeschlossen geprüft (Dokument). Ihre Überprüfung ist nicht mehr erforderlich. TRN</li>
+              <li>(Benutzer) hat (Dokument) als abgeschlossen geprüft. Ihre Überprüfung ist nicht mehr erforderlich. (TRN)</li>
             </ul>
           </li>
         </ul>
@@ -834,7 +834,7 @@ Ein UserNote -Objekt ist eine Benachrichtigung.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>
@@ -846,7 +846,7 @@ Ein UserNote -Objekt ist eine Benachrichtigung.
           <li>
             <p><b>ID</b>
             </p>
-            <p>Hinzugefügt.</p>
+            <p>hinzugefügt.</p>
           </li>
         </ul>
       </td>

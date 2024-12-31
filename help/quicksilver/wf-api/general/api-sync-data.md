@@ -1,9 +1,9 @@
 ---
 content-type: api
-keywords: API,data,sync,journal,entry,object
+keywords: API,Daten,Synchronisierung,Journal,Eintrag,Objekt
 navigation-topic: general-api
-title: Verwenden der API zum Synchronisieren von Daten für Programme und Dienste
-description: Verwenden der API zum Synchronisieren von Daten für Programme und Dienste
+title: Verwenden der API zum Synchronisieren von Daten für Programme und Services
+description: Verwenden der API zum Synchronisieren von Daten für Programme und Services
 author: Becky
 feature: Workfront API
 role: Developer
@@ -16,33 +16,33 @@ ht-degree: 0%
 ---
 
 
-# Verwenden der API zum Synchronisieren von Daten für Programme und Dienste
+# Verwenden der API zum Synchronisieren von Daten für Programme und Services
 
-Dies sind einige gängige Methoden, mit denen Sie die API zum Synchronisieren von Daten für Programme und Dienste verwenden können.
+Dies sind einige gängige Möglichkeiten, die API zum Synchronisieren von Daten für Programme und Services zu verwenden.
 
-## Nahezu alle Echtzeitaktualisierungen
+## Fast Echtzeit-Updates
 
-Adobe Workfront verwendet &quot;Ereignisabos&quot;(auch häufig als Webhooks bezeichnet), um über die API nahezu Echtzeitaktualisierungen zu unterstützten Objekten und Aktionen an Ihren gewünschten Endpunkt bzw. Ihre gewünschten Endpunkte zu senden. Sie können innerhalb von 5 Sekunden mit einer Aktualisierung neuer Objekte und Aktionen rechnen, aber im Durchschnitt werden Aktualisierungen in etwa 1 Sekunde angezeigt. Weitere Informationen dazu, welche Objekttypen unterstützt werden, welche Aktionstypen unterstützt werden, technische Details und Beispiele zum Einrichten von Ereignisanmeldungen finden Sie unter [API für die Ereignisabonnement-API](../../wf-api/general/event-subs-api.md) und [Versandanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
+Adobe Workfront verwendet „Ereignisabonnements“ (auch allgemein als Webhooks bezeichnet), um nahezu in Echtzeit Aktualisierungen zu unterstützten Objekten und Aktionen über die API an Ihre gewünschten Endpunkte zu senden. Sie können davon ausgehen, dass Sie innerhalb von 5 Sekunden ein Update zu neuen Objekten und Aktionen erhalten, aber im Durchschnitt werden Aktualisierungen in etwa 1 Sekunde eintreffen. Weitere Informationen dazu, welche Objekttypen unterstützt werden, welche Aktionstypen unterstützt werden, technische Details und Beispiele zum Einrichten von Ereignisabonnements finden Sie unter [Ereignisabonnement-](../../wf-api/general/event-subs-api.md) und [Bereitstellungsanforderungen für Ereignisabonnements](../../wf-api/general/setup-event-sub-endpoint.md).
 
 ## Batch-Aktualisierungen
 
-Mit Batch-Aktualisierungen können Sie Ihr System für Aktualisierungen konfigurieren, indem Sie regelmäßige Anfragen an Workfront-Server richten. Es gibt viele Möglichkeiten, dies zu tun. Im Allgemeinen besteht der Prozess jedoch darin, dass Ihr Dienst eine Anfrage an die Workfront-API-Server sendet und nach Objekten sucht, die seit dem letzten Anfrageaufruf erstellt oder geändert wurden. Weitere Informationen zu potenziellen Anforderungsaufrufen und hilfreichen Parametern finden Sie im Abschnitt [Verhalten der GET](../../wf-api/general/api-basics.md#get-behavior) im Artikel [API-Grundlagen](../../wf-api/general/api-basics.md) .
+Batch-Aktualisierungen stellen eine Möglichkeit dar, Ihr System für Aktualisierungen zu konfigurieren, indem Sie regelmäßig Anfragen an Workfront-Server senden. Dazu gibt es viele Möglichkeiten, aber im Allgemeinen besteht der Prozess darin, dass Ihr Service eine Anfrage an die Workfront-API-Server sendet und nach Objekten sucht, die seit dem letzten Anforderungsaufruf erstellt oder geändert wurden. Informationen zu potenziellen Anforderungsaufrufen und hilfreichen Parametern finden Sie im Abschnitt [GET-Verhalten](../../wf-api/general/api-basics.md#get-behavior) des Artikels [API-Grundlagen](../../wf-api/general/api-basics.md) .
 
-Beachten Sie beim Einrichten Ihres Dienstes für Batch-Aktualisierungen Folgendes:
+Beim Einrichten des Service für Batch-Aktualisierungen sollten Sie folgende wichtige Punkte beachten:
 
-### Eintrittstage
+### Eingabedaten
 
-Einstiegsdaten werden im ISO 8601-Format gespeichert. Dieser Standard umfasst Informationen zu Datum, Uhrzeit und Zeitzone.
+Eingabedaten werden mit ISO 8601-Formatierung gespeichert. Dieser Standard enthält Informationen zu Datum, Uhrzeit und Zeitzone.
 
-**Beispiel:** Datumsformat nach ISO 8601
+**Beispiel:** ISO 8601-Datumsformat
 
 <!-- [Copy](javascript:void(0);) -->
  
 <pre><code>2020-05-18T17:00:00:000-0600</code></pre> 
 
-Sowohl das Datum, an dem ein Objekt erstellt wird, als auch das Datum, an dem das Objekt zuletzt geändert wurde, werden als &quot;entryDate&quot;bzw. &quot;lastUpdateDate&quot;gespeichert. Ausführliche Informationen zu Workfront-Objekten, den zugehörigen Feldern und Feldnamen finden Sie im [API-Explorer](../../wf-api/general/api-explorer.md). Beachten Sie, dass sich das entryDate für ein bestimmtes Workfront-Objekt nicht ändert, wobei sich lastUpdatedDate jedes Mal ändert, wenn das Objekt geändert wird.
+Sowohl das Datum, an dem ein Objekt erstellt wird, als auch das letzte Datum, an dem das Objekt geändert wurde, werden als „entryDate“ bzw. „lastUpdateDate“ gespeichert. Detaillierte Informationen zu Workfront-Objekten, ihren zugehörigen Feldern und Feldnamen finden Sie im [API-Explorer](../../wf-api/general/api-explorer.md). Beachten Sie, dass sich das entryDate für ein bestimmtes Workfront-Objekt nicht ändert, wobei sich das lastUpdatedDate jedes Mal ändert, wenn das Objekt geändert wird.
 
-**Beispiel:** GET-Anfrage für ein Ausgabenobjekt unter Verwendung des Felds **lastUpdateDate** . Diese Anfrage gibt alle Probleme zurück, die seit dem angegebenen Datum aktualisiert wurden.
+**Beispiel:** GET-Anfrage für ein Anfrageobjekt, die das Feld **lastUpdateDate** verwendet. Diese Anfrage gibt alle Probleme zurück, die seit diesem angegebenen Datum aktualisiert wurden.
 
 <!-- [Copy](javascript:void(0);) -->
  
@@ -52,11 +52,11 @@ GET
 https://<domain>.my.workfront.com/attask/api/v15.0/OPTASK/search?fields=ID,name,lastUpdateDate&$$LIMIT=200&lastUpdateDate=2020-05-13T18:18:37.255Z&lastUpdateDate_Mod=gte
 ```
 
-### Journaleintragsobjekt
+### Tagebucheintragsobjekt
 
-Wenn Sie Änderungen an einem bestimmten Feld eines Objekts erhalten möchten, können Sie das Objekt &quot;Journaleintrag&quot;abfragen. Das Workfront Journal Entry-Objekt kann so eingerichtet werden, dass bei jeder Änderung dieser Felder Informationen über bestimmte Objektfelder protokolliert werden. Weitere Informationen finden Sie unter [Systemaktualisierungen konfigurieren](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md) .
+Wenn Sie Änderungen zu einem bestimmten Feld eines Objekts erhalten möchten, können Sie das Objekt „Journaleintrag“ abfragen. Das Workfront-Journaleintragsobjekt kann so eingerichtet werden, dass Informationen zu bestimmten Objektfeldern jedes Mal protokolliert werden, wenn diese Felder geändert werden. Weitere Informationen finden [ unter „Konfigurieren von ](../../administration-and-setup/set-up-workfront/system-tracked-update-feeds/configure-system-updates.md)&quot;.
 
-Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird bei jeder Änderung dieses Felds ein entsprechender Journaleintrag erstellt. Anschließend können Sie das Journaleintragsobjekt mithilfe eines API-Aufrufs abfragen, der dem folgenden ähnelt:
+Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts protokolliert wird, wird jedes Mal, wenn dieses Feld geändert wird, ein entsprechender Journaleintrag erstellt. Anschließend können Sie das Journaleintragsobjekt mit einem API-Aufruf ähnlich dem folgenden abfragen:
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -64,4 +64,4 @@ Wenn ein Feld so eingerichtet ist, dass es als Teil des Journaleintragsobjekts p
 
 >[!NOTE]
 >
->&quot;entryDate&quot;wird verwendet, um einen Journaleintrag einer Änderung zu betrachten, anstatt das geänderte Objekt selbst zu betrachten.
+>„entryDate“ wird verwendet, um einen Journaleintrag einer Änderung anzuzeigen, anstatt das geänderte Objekt selbst zu betrachten.

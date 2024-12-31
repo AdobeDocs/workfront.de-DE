@@ -1,8 +1,8 @@
 ---
 content-type: api;tips-tricks-troubleshooting
 navigation-topic: tips-tricks-and-troubleshooting-workfront-api
-title: Duplikate, die bei einer großen, paginierten Suche zurückgegeben werden
-description: Duplikate, die bei einer großen, paginierten Suche zurückgegeben werden
+title: Bei einer großen paginierten Suche zurückgegebene Duplikate
+description: Bei einer großen paginierten Suche zurückgegebene Duplikate
 author: Becky
 feature: Workfront API
 role: Developer
@@ -15,15 +15,15 @@ ht-degree: 0%
 ---
 
 
-# Duplikate, die bei einer großen, paginierten Suche zurückgegeben werden
+# Bei einer großen paginierten Suche zurückgegebene Duplikate
 
 ## Problem
 
-Bei einer großen, paginierten Suche in der API nach einem Objekt erhält der Kunde doppelte Einträge und fehlende Datensätze.
+Bei der Durchführung einer großen paginierten Suche in der API nach einem Objekt erhält der Kunde doppelte Einträge und fehlende Datensätze.
 
 ## Lösung
 
-Wenn die Reihenfolge nicht formell definiert ist, verlassen wir uns auf die Reihenfolge der von der Oracle-Datenbank zurückgegebenen Zeilen, was keine deterministische Reihenfolge garantiert. Zwei aufeinander folgende Aufrufe mit derselben Abfrage können beispielsweise Zeilen in einer anderen Reihenfolge zurückgeben. Gleichermaßen werden die Zeilen beim Paging zufällig verschiedenen &quot;Seiten&quot;zugewiesen, was zu Duplikaten führt. Die einfachste Lösung besteht darin, eine Sortierung nach Kennung hinzuzufügen:
+Wenn die Reihenfolge nicht formal definiert ist, verlassen wir uns auf die Reihenfolge der Zeilen, die von der Oracle-Datenbank zurückgegeben werden, was keine deterministische Reihenfolge garantiert. Beispielsweise können zwei aufeinander folgende Aufrufe mit derselben Abfrage Zeilen in einer anderen Reihenfolge zurückgeben. Ebenso können beim Paging die Zeilen nach dem Zufallsprinzip verschiedenen „Seiten“ zugewiesen werden, was zu Duplikaten führt. Die einfachste Lösung besteht darin, eine Sortierung nach ID hinzuzufügen:
 
 ```
 &ID_Sort=asc

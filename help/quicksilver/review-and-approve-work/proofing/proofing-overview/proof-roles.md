@@ -2,8 +2,8 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Übersicht über Testrollen
-description: Mithilfe von Testrollen können Sie Berechtigungen für einzelne Testsendungen erteilen. Proof-Rollen unterscheiden sich von Proof-Berechtigungsprofilen. Weitere Informationen zu Profilberechtigungsprofilen finden Sie unter Übersicht über Profile für Testberechtigungen .
+title: Korrekturabzug-Rollen - Übersicht
+description: Mit Korrekturabzug-Rollen können Sie Berechtigungen für einzelne Korrekturabzüge erteilen. Die Rollen für Korrekturabzüge unterscheiden sich von den Profilen für Korrekturabzugsberechtigungen. Weitere Informationen zu Berechtigungsprofilen für Korrekturabzüge finden Sie unter Berechtigungsprofil für Korrekturabzüge - Übersicht.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 258213af-0081-412e-bf6b-cdeb75d52966
@@ -14,23 +14,23 @@ ht-degree: 1%
 
 ---
 
-# Übersicht über Testrollen
+# Korrekturabzug-Rollen - Übersicht
 
-Mithilfe von Testrollen können Sie Berechtigungen für einzelne Testsendungen erteilen. Proof-Rollen unterscheiden sich von Proof-Berechtigungsprofilen. Weitere Informationen zu Profilen für Testberechtigungen finden Sie unter [Übersicht über das Profil für Testberechtigungen](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
+Mit Korrekturabzug-Rollen können Sie Berechtigungen für einzelne Korrekturabzüge erteilen. Die Rollen für Korrekturabzüge unterscheiden sich von den Profilen für Korrekturabzugsberechtigungen. Weitere Informationen zu Berechtigungsprofilen für Korrekturabzüge finden Sie unter [Berechtigungsprofil für Korrekturabzüge - Übersicht](../../../review-and-approve-work/proofing/proofing-overview/permission-profiles.md).
 
 ## Rollen für Korrekturabzüge
 
-Testversandrollen werden Benutzern zum Zeitpunkt der Aufforderung zur Überprüfung des Testversands für einen individuellen Testversand gewährt. Wenn Sie über einen Workfront Pro+-Plan verfügen, können Sie Benutzern mit einer Arbeits- oder Planungslizenz Testversandrollen gewähren. Wenn Sie über einen Workfront Premium Legacy-Plan verfügen, können Sie Benutzern mit einer dafür vorgesehenen Testlizenz Testversandrollen gewähren. Weitere Informationen finden Sie unter [Zugriff auf die Funktion zum Testen in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
+Korrekturabzug-Rollen werden Benutzenden für einen einzelnen Korrekturabzug gewährt, wenn der/die Benutzende zum Überprüfen des Korrekturabzugs eingeladen wird. Wenn Sie über einen Workfront Pro+-Plan verfügen, können Sie Benutzern mit Arbeits- oder Planlizenz Proofing-Rollen erteilen. Wenn Sie über einen alten Workfront Premium-Plan verfügen, können Sie Benutzern mit einer speziellen Proofing-Lizenz Proofing-Rollen erteilen. Weitere Informationen finden Sie unter [Zugriff auf die Proofing-Funktion in Workfront](../../../administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md).
 
 >[!NOTE]
 >
->Benutzer mit neuen Workfront-Plänen können allen Benutzern im System Autoren- oder Moderatorrollen zuweisen. Benutzer mit älteren Plänen können Autoren- oder Moderatorrollen jedem Benutzer mit einer Testversandlizenz im System zuweisen.
+>Benutzende mit neuen Workfront-Plänen können allen Benutzenden im System Autoren- oder Moderatorrollen gewähren. Benutzer mit älteren Plänen können Autoren- oder Moderatorrollen an jeden Benutzer mit einer Proof-Lizenz im System vergeben.
 
-Die Rolle &quot;Testversand&quot;definiert, welche Aktionen ein Validierer in Bezug auf diesen spezifischen Testversand ausführen kann.
+Die Rolle des Korrekturabzugs definiert, welche Aktionen ein Prüfer in Bezug auf diesen spezifischen Korrekturabzug durchführen kann.
 
-**Beispiel:** Wenn Ihnen die Rolle &quot;Validierer&quot;zugewiesen wurde, werden Sie aufgefordert, den Testversand durch Hinzufügen von Markierungen und Kommentaren zu überprüfen. Sie haben jedoch keine Möglichkeit, den Testversand zu genehmigen oder abzulehnen.
+**Beispiel:** Wenn Ihnen die Rolle eines Prüfers zugewiesen wurde, werden Sie aufgefordert, den Korrekturabzug durch Hinzufügen von Markierungen und Kommentaren zu überprüfen, Sie haben jedoch keine Möglichkeit, den Korrekturabzug zu genehmigen oder abzulehnen.
 
-Bestimmte Testversand-Rollen verleihen einem Validierer Bearbeitungsrechte für den Testversand (auch wenn sein Profil dies nicht tut) und ermöglichen ihm die Verwendung einiger zusätzlicher Funktionen wie das Hinzufügen von Aktionen zu Kommentaren, das Erstellen neuer Versionen und das Hinzufügen weiterer Validierer zum Testversand.
+Bestimmte Korrekturabzug-Rollen verleihen einem Prüfer Bearbeitungsrechte für den Korrekturabzug (auch wenn sein Kontoprofil dies nicht tut) und ermöglichen es ihm, einige zusätzliche Funktionen zu verwenden, z. B. das Hinzufügen von Aktionen zu Kommentaren, das Erstellen neuer Versionen und das Hinzufügen weiterer Prüfer zum Korrekturabzug.
 
 <table border="1" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -50,19 +50,19 @@ Bestimmte Testversand-Rollen verleihen einem Validierer Bearbeitungsrechte für 
  <thead> 
   <tr> 
    <th> <p> </p> </th> 
-   <th> <p><strong>Anzeigen eines Testversands</strong> </p> </th> 
-   <th> <p><strong>Markups hinzufügen</strong> </p> </th> 
+   <th> <p><strong>Korrekturabzug anzeigen</strong> </p> </th> 
+   <th> <p><strong>Hinzufügen von Markierungen</strong> </p> </th> 
    <th> <p><strong>Kommentare hinzufügen</strong> </p> </th> 
    <th> <p><strong>Eigene Kommentare bearbeiten, wenn keine Antworten vorhanden sind</strong> </p> </th> 
-   <th> <p><strong>Entscheidungsfindung</strong> </p> </th> 
-   <th> <p><strong>Kommentare anderer Benutzer löschen</strong> </p> </th> 
+   <th> <p><strong>Entscheidung treffen</strong> </p> </th> 
+   <th> <p><strong>Löschen von Kommentaren anderer</strong> </p> </th> 
    <th>Kommentare auflösen</th> 
-   <th>Anwenden von Aktionen auf Kommentare</th> 
-   <th> <p><strong>Testversand bearbeiten</strong> </p> </th> 
-   <th>Testversand für andere freigeben</th> 
+   <th>Aktionen auf Kommentare anwenden</th> 
+   <th> <p><strong>Bearbeiten des Korrekturabzugs</strong> </p> </th> 
+   <th>Korrekturabzug für andere freigeben</th> 
    <th>Neue Version erstellen</th> 
-   <th> <p><strong>Genehmigungsanforderungen im Startbereich anzeigen</strong> </p> </th> 
-   <th>Hinzufügen neuer Validierungsverantwortlicher</th> 
+   <th> <p><strong>Anzeigen von Genehmigungsanfragen im Bereich „Startseite“</strong> </p> </th> 
+   <th>Neue Reviewer hinzufügen</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -115,7 +115,7 @@ Bestimmte Testversand-Rollen verleihen einem Validierer Bearbeitungsrechte für 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Überprüfer und Genehmiger</strong> </p> </td> 
+   <td> <p><strong>Prüfer und genehmigende Person</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -131,7 +131,7 @@ Bestimmte Testversand-Rollen verleihen einem Validierer Bearbeitungsrechte für 
    <td> </td> 
   </tr> 
   <tr> 
-   <td> <p><strong>Autor</strong> </p> </td> 
+   <td> <p><strong>author</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
@@ -150,7 +150,7 @@ Bestimmte Testversand-Rollen verleihen einem Validierer Bearbeitungsrechte für 
    <td> <p><strong>Moderator</strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
-   <td> <p><strong>✓</strong> </p> </td> 
+   <td> <p>✓ <strong></strong> </p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> </td> 
    <td> <p>✓</p> <p> </p> </td> 

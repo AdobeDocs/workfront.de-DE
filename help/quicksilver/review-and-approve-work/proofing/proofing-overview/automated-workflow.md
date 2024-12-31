@@ -2,8 +2,8 @@
 content-type: overview
 product-area: documents
 navigation-topic: proofing-overview
-title: Übersicht über den automatisierten Workflow
-description: Mithilfe automatisierter Workflows können Sie eine Reihe sequenzieller oder paralleler Prüfungsschritte erstellen, Abhängigkeiten zwischen diesen Phasen festlegen und deren Sichtbarkeit auf bestimmte Benutzer beschränken. Wenn Ihr Überprüfungsprozess voneinander abhängig ist, verschieben die automatisierten Workflows Ihren Testversand automatisch durch die Phasen und benachrichtigen dabei die relevanten Validierer und Genehmiger.
+title: Automatisierter Workflow - Übersicht
+description: Automatisierte Workflows ermöglichen es Ihnen, eine Reihe sequenzieller oder paralleler Überprüfungsphasen zu erstellen, Abhängigkeiten zwischen diesen Phasen festzulegen und die Sichtbarkeit für bestimmte Benutzer zu begrenzen. Wenn es voneinander abhängige Phasen in Ihrem Prüfungsprozess gibt, leiten automatisierte Workflows Ihren Korrekturabzug automatisch durch die Phasen und benachrichtigen dabei die entsprechenden Prüfer und genehmigenden Personen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d643970a-c00c-4fb4-94bc-fca4e090dcc9
@@ -14,58 +14,58 @@ ht-degree: 0%
 
 ---
 
-# Übersicht über den automatisierten Workflow
+# Automatisierter Workflow - Übersicht
 
 <!-- Audited: 01/2024 -->
 
-Mithilfe automatisierter Workflows können Sie eine Reihe sequenzieller oder paralleler Prüfungsschritte erstellen, Abhängigkeiten zwischen diesen Phasen festlegen und deren Sichtbarkeit auf bestimmte Benutzer beschränken. Wenn Ihr Überprüfungsprozess voneinander abhängig ist, verschieben die automatisierten Workflows Ihren Testversand automatisch durch die Phasen und benachrichtigen dabei die relevanten Validierer und Genehmiger. Informationen zum Einrichten eines automatisierten Workflows finden Sie unter [Erstellen eines erweiterten Testversands mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
+Automatisierte Workflows ermöglichen es Ihnen, eine Reihe sequenzieller oder paralleler Überprüfungsphasen zu erstellen, Abhängigkeiten zwischen diesen Phasen festzulegen und die Sichtbarkeit für bestimmte Benutzer zu begrenzen. Wenn es voneinander abhängige Phasen in Ihrem Prüfungsprozess gibt, leiten automatisierte Workflows Ihren Korrekturabzug automatisch durch die Phasen und benachrichtigen dabei die entsprechenden Prüfer und genehmigenden Personen. Informationen zum Einrichten eines automatisierten Workflows finden Sie unter [Erstellen eines erweiterten Korrekturabzugs mit einem automatisierten Workflow](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-automated-proof-workflow.md).
 
-**Beispiele:** Automatisierte Workflows helfen Ihnen bei der Verwaltung komplexer Testprozesse wie:
+**Beispiele:** Automatisierte Workflows helfen Ihnen bei der Verwaltung komplexer Korrekturabzugsüberprüfungsprozesse, wie z. B.:
 
-* Wenn verschiedene Gruppen oder Validierer Inhalte in einer bestimmten Reihenfolge überprüfen müssen
-* Wenn es Abhängigkeiten zwischen der Aktivität von Benutzern beim Überprüfen von Inhalten gibt
-* Wenn Inhalte regelmäßig von denselben Personengruppen geprüft werden
-* Wann Sie den Zeitraum steuern möchten, in dem die validierenden Benutzer den Inhalt ansehen
-* Wenn Sie eine Prüfungsaktivität privat halten möchten
+* Wenn verschiedene Gruppen oder Reviewer Inhalte in einer bestimmten Reihenfolge überprüfen müssen
+* Wann es Abhängigkeiten zwischen der Aktivität von Benutzern gibt, wenn diese Inhalte überprüfen
+* Wenn Inhalte regelmäßig von denselben Personengruppen überprüft werden
+* Wenn Sie den Zeitraum steuern möchten, in dem Reviewer Inhalte anzeigen
+* Wenn Sie einige Prüfungsaktivitäten privat halten möchten
 
 ## Phasen
 
-Für jede Phase des automatisierten Workflows können Sie Einstellungen wie einen Termin für die Bühne, eine Sperrung auf einer Bühne, einen als Entscheidungsträger für die Bühne festgelegten Überprüfer und eine Datenschutzeinstellung konfigurieren, die es nur bestimmten Personen ermöglicht, Reviewer-Kommentare auf der Bühne zu sehen.
+Für jede Phase des automatisierten Workflows können Sie Einstellungen wie eine Frist für die Phase, eine Sperre für die Phase, einen Prüfer, der als Entscheidungsträger für die Phase festgelegt ist, und eine Datenschutzeinstellung konfigurieren, die es nur bestimmten Personen ermöglicht, Prüfer-Kommentare auf der Phase zu sehen.
 
-Die Phasen können manuell, bei der Erstellung eines Testversands, beim Erreichen eines Termins, zu einem bestimmten Datum und einer bestimmten Uhrzeit oder bei einer Entscheidung über die übergeordnete Phase aktiviert werden.
+Die Phasen können manuell aktiviert werden, bei der Erstellung eines Korrekturabzugs, beim Erreichen einer Frist, zu einem bestimmten Datum und zu einer bestimmten Uhrzeit oder wenn eine Entscheidung über die übergeordnete Phase getroffen wird.
 
-Phasen können manuell gesperrt werden, ebenso wie der Zeitpunkt, zu dem die nächste Phase beginnt oder alle Entscheidungen auf der Bühne getroffen werden. Sie können auch wählen, eine Bühne nie zu sperren.
+Die Stadien können manuell gesperrt werden. Dies gilt auch für den Zeitpunkt, zu dem die nächste Phase beginnt oder alle Entscheidungen auf der Bühne getroffen werden. Sie können auch festlegen, dass eine Bühne nie gesperrt werden soll.
 
-Sie können einen Entscheidungsträger für eine Phase bestimmen. Die Entscheidung dieser Person macht alle anderen Entscheidungen für die Phase überflüssig.
+Sie können einen primären Entscheidungsträger für eine Phase ernennen. Die Entscheidung dieser Person macht alle anderen Entscheidungen für die Phase überflüssig.
 
-Ebenso können Sie festlegen, dass nur eine Entscheidung für eine Phase erforderlich ist. Wenn Sie dies tun, wird der Überprüfungsprozess für die Phase als abgeschlossen markiert, nachdem ein Empfänger seine Entscheidung auf der Bühne getroffen hat.
+Ebenso können Sie festlegen, dass für eine Phase nur eine Entscheidung erforderlich ist. In diesem Fall wird der Überprüfungsprozess für die Phase als abgeschlossen markiert, nachdem einer der Empfänger seine Entscheidung über die Phase getroffen hat.
 
-Sie können alle validierungsverantwortlichen Benutzer über ihre Einladung zur Inhaltsüberprüfung benachrichtigen lassen, wenn der Überprüfungsprozess beginnt, oder Sie können jeden Validierer nur benachrichtigen lassen, wenn seine Phase aktiviert ist.
+Sie können festlegen, dass alle Reviewer über ihre Einladungen zur Inhaltsüberprüfung informiert werden, wenn der Überprüfungsprozess beginnt, oder dass alle Reviewer nur benachrichtigt werden, wenn ihr Schritt aktiviert ist.
 
-## Private Phasen
+## Private Stadien
 
-Standardmäßig sind Kommentare, die von Validierern in allen Phasen hinterlassen werden, für alle sichtbar, die den Inhalt überprüfen und E-Mail-Benachrichtigungen sowie Kommentar-Zusammenfassungen zum Review-Prozess erhalten.
+Standardmäßig sind Kommentare, die von Validierungsverantwortlichen in allen Phasen hinterlassen werden, für alle sichtbar, die den Inhalt überprüfen und E-Mail-Benachrichtigungen und Kommentar-Zusammenfassungen über den Überprüfungsprozess erhalten.
 
-Wenn Sie verhindern möchten, dass bestimmte Gruppen von Validierern die Kommentare anderer Validierer sehen, können Sie private Bühnen erstellen.
+Wenn Sie verhindern möchten, dass bestimmte Gruppen von Reviewern die Kommentare anderer Reviewer sehen, können Sie private Bühnen erstellen.
 
-Private Bühnen sind nur für validierende Benutzer sichtbar, die diesen Bühnen hinzugefügt wurden. Sie sind auch für Benutzer sichtbar, die über Bearbeitungsrechte für Testversand- oder Bearbeitungsrechte für alle Elemente verfügen, die im Adobe Workfront-Konto Ihres Unternehmens erstellt wurden (Supervisor und höher oder Benutzer mit benutzerdefinierten Profilen, für die die Bearbeitung von Informationen anderer Personen aktiviert ist).
+Private Phasen sind nur für Prüfer sichtbar, die zu diesen Phasen hinzugefügt werden. Sie sind auch für Benutzende sichtbar, die Bearbeitungsrechte für den Korrekturabzug oder Bearbeitungsrechte für alle Elemente haben, die im Adobe Workfront-Konto Ihres Unternehmens erstellt wurden (Supervisor und höher oder Benutzende mit benutzerdefinierten Profilen, für die die Bearbeitung von Informationen anderer Personen aktiviert ist).
 
-Kommentare, die von Teilnehmern privater Phasen hinzugefügt werden, sind nicht in E-Mail-Benachrichtigungen und in Zusammenfassungen von Testkommentaren enthalten, die von Personen angefordert werden, die nicht über die Berechtigung zum Anzeigen verfügen.
+Kommentare, die von Teilnehmern des privaten Stadiums hinzugefügt wurden, sind nicht in E-Mail-Benachrichtigungen und Zusammenfassungen von Korrekturabzugskommentaren enthalten, die von Personen angefordert wurden, die nicht über die Berechtigung zum Anzeigen verfügen.
 
 ## Workflow-Diagramm
 
-Das Workflow-Diagramm ist eine visuelle Darstellung des Überprüfungsprozesses Ihres Testversands. Während Sie die Details eines Testversands erstellen oder anzeigen, werden Ihnen die Reihenfolge der Bühnen und alle Abhängigkeiten zwischen Bühnen angezeigt. Alle privaten Bühnen werden mit einem Schlüsselsymbol angezeigt.
+Das Workflow-Diagramm ist eine visuelle Darstellung des Überprüfungsprozesses Ihres Korrekturabzugs. Es zeigt die Reihenfolge der Stadien und alle Abhängigkeiten zwischen den Stadien an, wenn Sie die Details eines Korrekturabzugs erstellen oder anzeigen. Alle privaten Stadien werden mit einem Schlüsselsymbol angezeigt.
 
-![intro-to-aw-example-chart.png](assets/intro-to-aw-example-diagram-350x199.png)
+![intro-to-aw-example-diagram.png](assets/intro-to-aw-example-diagram-350x199.png)
 
-In Live-Testsendungen werden Staging-Abhängigkeiten mit einer gestrichelten grauen Linie für inaktive Bühnen oder einer durchgehenden schwarzen Linie für aktive Bühnen angezeigt. Die Phasen werden grün angezeigt, wenn der Genehmigungsprozess innerhalb der festgelegten Frist abgeschlossen wurde. Phasen, die sich ihren Terminen nähern, werden orange dargestellt und Phasen, die ihre Termine überschreiten, werden rot dargestellt.
+In Live-Korrekturabzügen werden Stadienabhängigkeiten für inaktive Stadien mit einer gestrichelten grauen Linie oder für aktive Stadien mit einer durchgezogenen schwarzen Linie angezeigt. Die Phasen werden grün angezeigt, wenn der Genehmigungsprozess innerhalb der angegebenen Frist abgeschlossen wurde. Stadien, die sich ihren Terminen nähern, werden orange und Stadien, die nach den Terminen liegen, rot angezeigt.
 
 ![workflow_2.png](assets/workflow-2-350x183.png)
 
 ## Automatisierte Workflow-Vorlagen
 
-Wenn Ihr Unternehmen denselben Überprüfungsprozess für mehrere Testsendungen verwendet, kann Ihr Workfront-Administrator automatisierte Workflow-Vorlagen erstellen, um die Erstellung von Testsendungen erheblich zu vereinfachen. Sie können eine Vorlage für den automatisierten Workflow auswählen, während Sie einen Testversand konfigurieren, um die Bühnen und Validierer in dieser Vorlage zum Testversand hinzuzufügen. Sie können die auf den Testversand angewendete Vorlage nach Bedarf vor und nach der Erstellung des Testversands ändern.
+Wenn Ihr Unternehmen denselben Prüfungsprozess für mehrere Korrekturabzüge verwendet, kann Ihr Workfront-Administrator automatisierte Workflow-Vorlagen erstellen, um die Erstellung von Korrekturabzügen zu vereinfachen. Sie können während der Konfiguration eines Korrekturabzugs eine automatisierte Workflow-Vorlage auswählen, um die Phasen und Prüfer in dieser Vorlage zum Korrekturabzug hinzuzufügen. Sie können die auf den Korrekturabzug angewendete Vorlage nach Bedarf vor und nach der Erstellung des Korrekturabzugs ändern.
 
-Ihr Workfront-Administrator kann entsprechend den Anforderungen Ihres Unternehmens eine unbegrenzte Anzahl von Vorlagen erstellen.
+Ihr Workfront-Administrator kann eine unbegrenzte Anzahl von Vorlagen entsprechend den Anforderungen Ihres Unternehmens erstellen.
 
 Weitere Informationen zum Erstellen, Verwenden und Verwalten von Vorlagen erhalten Sie von Ihrem Workfront-Administrator.

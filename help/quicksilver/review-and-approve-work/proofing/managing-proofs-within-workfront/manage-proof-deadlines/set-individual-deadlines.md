@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: manage-proof-deadlines
-title: Festlegen einzelner Überprüfungsfristen
-description: Sie können für verschiedene Validierungsverantwortliche unterschiedliche Fristen für einen bereits erstellten Testversand festlegen. Dazu muss für jeden Validierer, für den Sie einen individuellen Termin festlegen möchten, eine separate Phase erstellt werden.
+title: Festlegen der Fristen für die einzelnen Validierungsverantwortlichen
+description: Sie können für verschiedene Prüfer eines bereits erstellten Korrekturabzugs unterschiedliche Fristen festlegen. Dazu muss für jeden Reviewer, für den eine individuelle Frist festgelegt werden soll, ein separater Schritt erstellt werden.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8da49c52-295b-402e-b8cb-f4d1cff57aba
@@ -14,13 +14,13 @@ ht-degree: 2%
 
 ---
 
-# Festlegen einzelner Überprüfungsfristen
+# Festlegen der Fristen für die einzelnen Validierungsverantwortlichen
 
-Sie können für verschiedene Validierungsverantwortliche unterschiedliche Fristen für einen bereits erstellten Testversand festlegen. Dazu muss für jeden Validierer, für den Sie einen individuellen Termin festlegen möchten, eine separate Phase erstellt werden.
+Sie können für verschiedene Prüfer eines bereits erstellten Korrekturabzugs unterschiedliche Fristen festlegen. Dazu muss für jeden Reviewer, für den eine individuelle Frist festgelegt werden soll, ein separater Schritt erstellt werden.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für die Funktionalität in diesem Artikel anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,11 +30,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <tbody> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Plan*</td> 
-   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Veralteter Plan: Wählen Sie oder Premium</p> <p>Weitere Informationen zum Testen des Zugriffs mit den verschiedenen Plänen finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Testfunktion in Workfront</a>.</p> </td> 
+   <td> <p>Aktueller Plan: Pro oder höher</p> <p>oder</p> <p>Legacy-Plan: Auswählen oder Premium</p> <p>Weitere Informationen zum Proofing-Zugriff für die verschiedenen Pläne finden Sie unter <a href="/help/quicksilver/administration-and-setup/manage-workfront/configure-proofing/access-to-proofing-functionality.md" class="MCXref xref">Zugriff auf die Proofing-Funktionalität in Workfront</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Aktueller Plan: Arbeit oder Plan</p> <p>Veralteter Plan: Beliebig (Sie müssen die Testfunktion für den Benutzer aktiviert haben)</p> </td> 
+   <td> <p>Aktueller Plan: Arbeits- oder Plan</p> <p>Legacy-Plan: Beliebig (Proofing muss für den Benutzer aktiviert sein)</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Proof-Berechtigungsprofil </td> 
@@ -42,29 +42,29 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Rolle des Korrekturabzugs</td> 
-   <td>Autor oder Manager</td> 
+   <td>Autoren-Manager</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen auf Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Weitere Informationen zum Anfordern von zusätzlichem Zugriff finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern des Zugriffs auf Objekte </a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td> <p>Zugriff auf Dokumente bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um zu erfahren, welchen Plan, welche Rolle oder welches Profil für die Testberechtigung Sie haben.
+&#42;Wenden Sie sich an Ihren Workfront- oder Workfront Proof-Administrator, um herauszufinden, über welchen Plan, welche Rolle oder welches Proof-Berechtigungsprofil Sie verfügen.
 
 +++
 
-## Festlegen einzelner Überprüfungsfristen
+## Festlegen der Fristen für die einzelnen Validierungsverantwortlichen
 
-1. Bewegen Sie den Mauszeiger über den Testversand und klicken Sie dann auf **Testversand-Workflow** , um die Workflow-Seite zu öffnen.
-1. Klicken Sie oben rechts auf **Neue Phase**
+1. Bewegen Sie den Mauszeiger über den Korrekturabzug und klicken Sie dann auf **Proofing-Workflow**, um die Workflow-Seite zu öffnen.
+1. Klicken Sie oben rechts auf &quot;**Phase**
 
-   ![new_stage_button.png](assets/new-stage-button.png)
+   ![New_Stage_button.png](assets/new-stage-button.png)
 
    >[!NOTE]
    >
-   >Wenn die Option &quot;Neue Phase&quot;nicht angezeigt wird, müssen Sie den Workflow zuerst in einen automatisierten Workflow konvertieren.
+   >Wenn die Option „Neues Stadium“ nicht angezeigt wird, müssen Sie den Workflow zuerst in einen automatisierten Workflow konvertieren.
 
-1. Fügen Sie Informationen für die Phase hinzu, insbesondere den Namen des Validierers und den Termin, zu dem der Validierer wechseln soll.
-1. Wiederholen Sie die beiden vorherigen Schritte nach Bedarf, um weitere Validierer hinzuzufügen, die einen eigenen Termin benötigen.
+1. Fügen Sie Informationen für die Phase hinzu, insbesondere den Namen der validierungsverantwortlichen Person und die Frist, innerhalb derer die validierungsverantwortliche Person benannt werden soll.
+1. Wiederholen Sie die beiden vorherigen Schritte nach Bedarf, um weitere validierungsverantwortliche Benutzer hinzuzufügen, die eine eigene Frist benötigen.

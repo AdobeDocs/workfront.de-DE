@@ -2,8 +2,8 @@
 content-type: api
 product-area: documents
 navigation-topic: documents-webhooks-api
-title: Erstellen eines Ordners mit Document Webhooks
-description: Erstellen eines Ordners mit Document Webhooks
+title: Ordner mit Dokument-Webhooks erstellen
+description: Ordner mit Dokument-Webhooks erstellen
 author: Becky
 feature: Workfront API
 role: Developer
@@ -16,7 +16,7 @@ ht-degree: 6%
 ---
 
 
-# Erstellen eines Ordners mit Document Webhooks
+# Ordner mit Dokument-Webhooks erstellen
 
 Erstellt einen Ordner in einem bestimmten Verzeichnis.
 
@@ -29,7 +29,7 @@ POST /createFolder
 | **Name** | **Beschreibung** |
 |---|---|
 | parentId  | Die Ordner-ID, in der der Ordner erstellt werden soll |
-| name  | Der Name des neuen Ordners |
+| -Name  | Der Name des neuen Ordners |
 
 
 
@@ -48,7 +48,7 @@ name=New Folder
 -------------------------------
 ```
 
-return
+Rückgabe
 
 ```
 {title:"New Folder",br /> kind:"folder"

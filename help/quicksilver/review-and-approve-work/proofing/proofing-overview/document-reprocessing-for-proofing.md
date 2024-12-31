@@ -1,8 +1,8 @@
 ---
 product-area: documents
 navigation-topic: proofing-overview
-title: Dokumenterneuverarbeitung für Testversand - Übersicht
-description: Wenn Sie ein Dokument (DOCX, PDF, XLSX, AI) zum Testen einreichen, verarbeitet Adobe Workfront es erneut, sodass es im Testversand-Viewer angezeigt werden kann, ohne dass Sie die Software-Anwendung zum Erstellen des Dokuments verwendet haben.
+title: Übersicht über die Neuverarbeitung von Dokumenten für das Proofing
+description: Wenn Sie ein Dokument (DOCX, PDF, XLSX, AI) für das Proofing übermitteln, verarbeitet Adobe Workfront es erneut, sodass es in der Proofing-Ansicht ohne die Software-Anwendung angezeigt werden kann, die Sie zum Erstellen verwendet haben.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e577fa71-4828-4fc2-93a2-0eddbb5ad2ad
@@ -13,45 +13,45 @@ ht-degree: 0%
 
 ---
 
-# Dokumenterneuverarbeitung für Testversand - Übersicht
+# Übersicht über die Neuverarbeitung von Dokumenten für das Proofing
 
-Wenn Sie ein Dokument (DOCX, PDF, XLSX, AI) zum Testen einreichen, verarbeitet Adobe Workfront es erneut, sodass es im Testversand-Viewer angezeigt werden kann, ohne dass Sie die Software-Anwendung zum Erstellen des Dokuments verwendet haben. 
+Wenn Sie ein Dokument (DOCX, PDF, XLSX, AI) für das Proofing übermitteln, verarbeitet Adobe Workfront es erneut, sodass es in der Proofing-Ansicht ohne die Software-Anwendung angezeigt werden kann, die Sie zum Erstellen verwendet haben. 
 
-Jede Seite Ihres Dokuments wird im Testversand-Viewer als Miniaturbild angezeigt. Wenn Sie auf eine Miniaturansicht klicken, können Sie in eine Bitmap-Version dieser Seite mit 100 %, 200 % und 400 % zoomen. Bei Testsendungen mit einer Höhe oder Breite von mehr als 800 mm beträgt der maximale Zoomfaktor 200 %.
+Jede Seite Ihres Dokuments wird im Proofing Viewer als Miniaturbild angezeigt. Wenn Sie auf eine Miniatur klicken, können Sie eine Bitmap-Version dieser Seite zu 100 %, 200 % und 400 % einzoomen. Für Korrekturabzüge mit einer Höhe oder Breite von mehr als 800 mm beträgt der maximale Zoom-Faktor 200 %.
 
-Die Farben in Ihrem Dokument werden in sRGB mit Farbkonvertierung aus der neuesten Adobe-Bibliothek angezeigt. Der Testversand-Viewer unterstützt alle in das Dokument eingebetteten ICC-Profile (International Color Consortium).
+Die Farben in Ihrem Dokument werden in sRGB mit Farbkonvertierung von der neuesten Adobe-Bibliothek angezeigt. Der Proofing Viewer unterstützt alle im Dokument eingebetteten ICC-Profile (International Color Consortium).
 
-Der gesamte Schriftarttext wird in seiner Ebene extrahiert, sofern Sie beim Hochladen des Dokuments in das System die richtige Dateierweiterung angeben. Als Bilder oder Kurven eingeschlossenen Text wird nicht angezeigt.
+Der gesamte Schrifttext wird in seiner Ebene extrahiert, sofern Sie beim Hochladen des Dokuments in das System die richtige Dateierweiterung angeben. Als Bilder oder Kurven enthaltener Text wird nicht angezeigt.
 
 >[!NOTE]
 >
->Workfront unterstützt derzeit Dokumente mit bis zu 2000 Seiten. Dies umfasst kombinierte Testsendungen. Weitere Informationen finden Sie unter [Erstellen eines mehrseitigen Testversands](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
+>Workfront unterstützt derzeit Dokumente mit bis zu 2.000 Seiten. Dazu gehören kombinierte Korrekturabzüge. Weitere Informationen finden Sie unter [Erstellen eines mehrseitigen Korrekturabzugs](../../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-multi-page-proof.md).
 
 ## Allgemeine Tipps
 
-* Da PDF-Dateien die standardisiertesten und zuverlässigsten sind, empfehlen wir, Dokumente in dieses Format zu konvertieren, bevor Sie sie hochladen.
+* Da PDF-Dateien die standardisiertesten und zuverlässigsten sind, empfehlen wir, Dokumente vor dem Hochladen in dieses Format zu konvertieren.
 * Verwenden Sie die neueste Version Ihrer Software, um Ihre Originaldokumente zu erstellen.
-* Wenn Sie nicht sicher sind, welche Einstellungen beim Speichern oder Exportieren Ihrer Dokumente in der Anwendung, in der Sie sie erstellt haben, verwendet werden sollen, verwenden Sie die Standardeinstellungen. 
-* Betten Sie alle Schriftarten, die Sie in einem Dokument verwenden, ein. Wenn Sie benutzerdefinierte Schriftarten verwenden, zeigt Ihr Dokument diese Schriftarten nur auf Computern an, auf denen sie installiert sind. Da jedoch benutzerdefinierte Schriftarten nicht im Testversandsystem enthalten sind, können beim Generieren der Datei keine benutzerdefinierten Schriftarten verwendet werden, selbst wenn sie eingebettet sind.
-* Platzieren Sie nach Möglichkeit alle Textelemente in den obersten Ebenen Ihres Designs. Dadurch sollte sichergestellt werden, dass Ihr Text extrahiert und im Text-Anmerkungs-Tool auswählbar ist.
-* Platzieren Sie alle Bilder und Elemente Ihres Dokuments darin. Wenn Sie sie aus externen Quellen verknüpfen, z. B. aus einer anderen Datei auf Ihrem Computer, werden sie nicht in dem von Ihnen erstellten Testversand angezeigt.
-* Erstellen Sie Ihr Dokument anhand der für seinen Typ empfohlenen Standards und optimieren Sie es, bevor Sie es hochladen. Dadurch wird sichergestellt, dass das Dokument sowohl im Testversand-Viewer als auch in allen anderen Anwendungen und Plattformen erfolgreich geöffnet wird.
-* Versuchen Sie in Ihrer Design-Software, &quot;Preflight&quot;-Optionen auszuführen, um zu sehen, ob Ihr Dokument Warnungen generiert. Diese Optionen sind in den meisten Anwendungen als Ausgabevorschau, Druckproduktion usw. verfügbar. Weitere Informationen finden Sie in der Dokumentation Ihrer Anwendung .
-* Stellen Sie sicher, dass die Farbeinstellungen im gesamten Dokument konsistent sind.
-* Wenn Ihr Dokument vor Aktionen wie dem Kopieren von Dateien geschützt ist, kann das Werkzeug zur Testversand-Extraktion möglicherweise nicht auf den Inhalt zugreifen.
+* Wenn Sie sich nicht sicher sind, welche Einstellungen beim Speichern oder Exportieren Ihrer Dokumente in der Anwendung, in der Sie sie erstellt haben, verwendet werden sollen, verwenden Sie die Standardeinstellungen. 
+* Stellen Sie sicher, dass Sie alle Schriftarten, die Sie in einem Dokument verwenden, darin einbetten. Wenn Sie benutzerdefinierte Schriftarten verwenden, zeigt Ihr Dokument diese Schriftarten nur auf Computern an, auf denen sie installiert sind. Da jedoch benutzerdefinierte Schriftarten nicht im Testversandsystem enthalten sind, kann es beim Generieren der Datei keine benutzerdefinierten Schriftarten verwenden, selbst wenn sie eingebettet sind.
+* Platzieren Sie nach Möglichkeit alle Textelemente in den oberen Ebenen Ihres Designs. Dadurch sollte sichergestellt sein, dass Ihr Text extrahiert und im Textanmerkungs-Tool ausgewählt werden kann.
+* Platzieren Sie alle Bilder und Elemente Ihres Dokuments darin. Wenn Sie sie von externen Quellen verknüpfen, z. B. von einer anderen Datei auf Ihrem Computer, werden sie im erstellten Korrekturabzug nicht angezeigt.
+* Erstellen Sie Ihr Dokument mit den für seinen Typ empfohlenen Standards und optimieren Sie es vor dem Hochladen. Dadurch wird sichergestellt, dass das Dokument erfolgreich im Proofing Viewer sowie in allen anderen Anwendungen und Plattformen geöffnet wird.
+* Versuchen Sie in Ihrer Design-Software, „PreFlight“-Optionen auszuführen, um zu sehen, ob Ihr Dokument Warnungen erzeugt. Diese Optionen sind in den meisten Anwendungen als Ausgabevorschau, Druckproduktion usw. verfügbar. Weitere Informationen finden Sie in der Dokumentation Ihres Programms.
+* Stellen Sie sicher, dass die Farbeinstellungen im gesamten Dokument einheitlich sind.
+* Wenn Ihr Dokument vor Aktionen wie dem Kopieren von Dateien geschützt ist, kann das Proofing-Extraktions-Tool möglicherweise nicht auf seinen Inhalt zugreifen.
 
 ## Prozesszeiten
 
-Normalerweise dauert die Verarbeitung einige Sekunden pro Seite. Verschiedene Faktoren können dies jedoch verlängern, wie z. B. Netzwerkverkehr/Bandbreite, lokale Verbindungsgeschwindigkeiten und internationale Verbindungsgeschwindigkeiten (für Benutzer außerhalb der USA). Die Verarbeitungszeit kann sich auch auf Folgendes auswirken:
+Normalerweise dauert die Verarbeitung einige Sekunden pro Seite. Verschiedene Faktoren können dies jedoch verlängern, z. B. der Netzwerk-Traffic/die Bandbreite, die lokalen Verbindungsgeschwindigkeiten und die internationalen Verbindungsgeschwindigkeiten (für Benutzer außerhalb der USA). Folgende Faktoren können sich auch auf die Verarbeitungszeit auswirken:
 
-* Für statische Dokumente und Bilder: Seitenzahl, Seitendimensionen, Textvolumen, Bild- und Objektkomplexität (Elemente wie mehrere Vektorelemente, Ebenen, Transparenzen).
-* Für Videos: lange Dauer, große Dimensionen und verwendete Codecs.
-* Für Webaufzeichnungen: Ladezeiten von Webseiten und Seitendimensionen.
+* Bei statischen Dokumenten und Bildern: Seitenzahl, Seitenabmessungen, Textvolumen, Bild und Komplexität von Objekten (Elemente wie mehrere Vektorelemente, Ebenen, Transparenzen).
+* Für Videos: lange Dauer, große Abmessungen und verwendete Codecs.
+* Für Web-Erfassung: Ladezeiten von Web-Seiten und Seitenmaße.
 
 ## Prozessschritte
 
-Gesendete Dateien durchlaufen einige oder alle der folgenden Schritte:
+Übermittelte Dateien durchlaufen einige oder alle folgenden Schritte:
 
-1. **Übermittlung**. Wenn Sie ein Dokument in das System hochladen, verwenden Sie dazu die Seite Neuer Testversand oder eine Anwendungsprogrammierschnittstelle (API). 
-1. **Queue**. In Zeiten hohen Datenverkehrs muss Workfront möglicherweise Übermittlungen in die Warteschlange stellen, damit das System nicht überlastet wird. Die meisten Testsendungen verbringen nur einige Sekunden in einer Warteschlange. 
-1. **Verarbeitung.** Die Dateien erreichen die Verarbeitungsmaschinen gemäß dem Inhaltstyp. Wir verwenden verschiedene Tools zur Verarbeitung von Videosendungen, Webaufnahmen, statischen Bildern und Dokumenten. Rich-Media-Container (ZIP) und interaktive Weberfassungen erfordern keine Verarbeitung.
+1. **Übermittlung**. Wenn Sie ein Dokument in das System hochladen, verwenden Sie dazu die Seite Neuer Korrekturabzug oder eine Anwendungsprogrammierschnittstelle (API). 
+1. **Warteschlange**. Bei starkem Traffic muss Workfront möglicherweise Übermittlungen in die Warteschlange stellen, um eine Überlastung des Systems zu vermeiden. Die meisten Testsendungen befinden sich nur wenige Sekunden in der Warteschlange. 
+1. **Verarbeitung läuft.** Die Dateien gelangen je nach Content-Typ zu den Verarbeitungsmaschinen. Wir verwenden verschiedene Tools zur Bearbeitung von Testsendungen, Web-Aufnahmen, statischen Bildern und Dokumenten. Übermittlungen von Rich-Media-Containern (ZIP) und interaktiver Web-Erfassung erfordern keine Verarbeitung.

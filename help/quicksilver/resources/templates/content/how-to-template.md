@@ -17,7 +17,7 @@ ht-degree: 4%
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong> <br>You can delete any table rows that don't apply.</p>
 -->
 
-(fehlendes oder falsches Snippet)
+(fehlendes oder fehlerhaftes Snippet)
 
 ## Voraussetzungen
 
@@ -27,7 +27,7 @@ Bevor Sie beginnen, müssen Sie
 <p style="text-align: center;background-color: #c0c0c0;color: #000000;" data-mc-conditions="QuicksilverOrClassic.Draft mode"><strong>Delete this box before publishing</strong><br>Use a bullet list to describe the prerequisites needed to complete the task or tasks below. If there are no prerequisites, delete the entire section. </p>
 -->
 
-* [Voraussetzungen für die Auflisten von Elementen auflisten]
+* [Auflisten der Voraussetzungen]
 
 ## [Aufgabentitel]
 

@@ -2,8 +2,8 @@
 content-type: reference
 product-area: documents
 navigation-topic: review-proofs-within-workfront
-title: 'Testversand überprüfen: Artikelindex'
-description: Inhalt in einem Testversand anzeigen
+title: 'Korrekturabzug überprüfen: Artikelindex'
+description: Anzeigen von Inhalten in einem Korrekturabzug
 author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
@@ -15,19 +15,19 @@ ht-degree: 0%
 
 ---
 
-# Testversand überprüfen: Artikelindex
+# Korrekturabzug überprüfen: Artikelindex
 
-* [Inhalt in einem Testversand anzeigen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
-* [Messen eines Bereichs innerhalb eines Testversands](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
-* [Ändern der Maßeinheit der Timeline in einem Videotest](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
-* [Steuern der Wiedergabe in einem Videotest](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
-* [Aktivieren der Schleife in einem Videotest](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
-* [Einen Testversand sperren oder entsperren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
-* [Suchinhalt in einem Testversand](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
+* [Anzeigen von Inhalten in einem Korrekturabzug](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-a-proof.md)
+* [Messen eines Bereichs innerhalb eines Korrekturabzugs](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/measure-an-area-proof.md)
+* [Ändern der Maßeinheit der Timeline in einem Videobeweis](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/change-unit-of-measurement-video.md)
+* [Steuern der Wiedergabe in einem Videobeweis](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/control-playback-video.md)
+* [Aktivieren der Schleife in einem Videobeweis](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/enable-loop-video.md)
+* [Sperren oder Entsperren eines Korrekturabzugs](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/lock-or-unlock-proof.md)
+* [Durchsuchen von Inhalten in einem Korrekturabzug](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/search-in-a-proof.md)
 * [Testsendungen vergleichen](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/compare-proofs.md)
-* [Ändern der interaktiven Testversandauflösung im Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
-* [Freigeben eines Testversands aus dem Testversand-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
-* [Einrichten der interaktiven Inhaltsüberprüfung im Web Proofing-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
-* [Konfigurieren der Einstellungen des Testversand-Viewers](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
+* [Ändern der interaktiven Auflösung von Korrekturabzügen im Proofing Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/view-interactive-content-as-it-appears-in-device.md)
+* [Freigeben eines Korrekturabzugs über die Korrekturabzugsansicht](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/share-a-proof-in-proofing-viewer.md)
+* [Einrichten des interaktiven Inhalts-Proofing im Web-Proofing-Viewer](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-a-proof/interactive-content-in-web-viewer.md)
+* [Einstellungen der Proofing-Anzeige konfigurieren](../../../../review-and-approve-work/proofing/reviewing-proofs-within-workfront/configure-proofing-viewer-settings.md)
 
  

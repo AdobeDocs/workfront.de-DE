@@ -2,7 +2,7 @@
 content-type: api
 navigation-topic: general-api
 title: API-Beispielskripte
-description: Beispielskripte für FAPI
+description: FAPI-Beispielskripte
 author: Becky
 feature: Workfront API
 role: Developer
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # API-Beispielskripte
 
-## Adobe Workfront API-Beispiele
+## Beispiele für Adobe Workfront-APIs
 
-Im Folgenden finden Sie Beispiele für verschiedene Programmiersprachen, die zur Interaktion mit der Workfront RESTful-API verwendet werden. Für jedes Beispiel werden die folgenden Vorgänge ausgeführt:
+Im Folgenden finden Sie Beispiele für verschiedene Programmiersprachen, die für die Interaktion mit der Workfront RESTful-API verwendet werden. Jedes Beispiel führt die folgenden Vorgänge aus:
 
 * Stellt eine Verbindung her
 * Ruft angemeldete Benutzerinformationen ab
@@ -32,12 +32,12 @@ Im Folgenden finden Sie Beispiele für verschiedene Programmiersprachen, die zur
 
 Sie können diese Beispiele auf der GitHub-Seite von Workfront herunterladen:  [https://github.com/Workfront](https://github.com/Workfront)
 
-Um Beispiele im Repository zu finden, geben Sie `example` in das Feld **Repository suchen..** ein.
+Um Beispiele im Repository zu finden, geben Sie `example` in das Feld **Repository suchen…** ein.
 
 >[!NOTE]
 >
->Jede Verwendung der API sollte in der Beta-Umgebung von Workfront getestet werden, bevor sie in der Produktionsumgebung ausgeführt wird. Wenn ein Kunde die API für einen Prozess verwendet, der nach vernünftigem Ermessen für Workfront mit der On-Demand-Software belastend ist (d. h. der Prozess für andere Kunden erhebliche negative Auswirkungen auf die Leistung der Software hat), behält sich Workfront das Recht vor, den Kunden aufzufordern, diesen Prozess einzustellen, und wenn der Kunde nicht einhält und das Problem weiterhin besteht, behält sich Workfront das Recht vor, den Prozess zu beenden.
+>Jede Verwendung der API sollte in der Beta-Umgebung von Workfront getestet werden, bevor sie in der Produktionsumgebung ausgeführt wird. Wenn ein Kunde die API für einen Prozess verwendet, von dem Workfront vernünftigerweise annimmt, dass er die On-Demand-Software belastet (d. h. der Prozess hat für andere Kunden wesentliche negative Auswirkungen auf die Leistung der Software), behält sich Workfront das Recht vor, den Kunden aufzufordern, diesen Prozess einzustellen, und wenn der Kunde dem nicht nachkommt und das Problem weiterhin besteht, behält sich Workfront das Recht vor, den Prozess zu beenden.
 
 >[!IMPORTANT]
 >
->Diese Software wird &quot;wie besehen&quot;, ohne jegliche Garantie, ausdrücklich oder stillschweigend, einschließlich, aber nicht beschränkt auf die Gewährleistung der Handelsfähigkeit, Eignung für einen bestimmten Zweck und Nichtverletzung. Die Autoren oder Urheberrechtsinhaber haften in keinem Fall für Ansprüche, Schäden oder andere Haftungen, sei es in einer Vertragsklage, einer unerlaubten Handlung oder auf andere Weise, die sich aus der Software oder der Verwendung oder anderen Geschäften mit der Software ergeben, aus ihr oder in Verbindung mit ihr.
+>DIESE SOFTWARE WIRD IM „IST-ZUSTAND“ BEREITGESTELLT, OHNE GEWÄHRLEISTUNG JEGLICHER ART, OB AUSDRÜCKLICHER ODER IMPLIZITER ART, EINSCHLIESSLICH, ABER NICHT BESCHRÄNKT AUF DIE GEWÄHRLEISTUNG DER HANDELBARKEIT, EIGNUNG FÜR EINEN BESTIMMTEN ZWECK UND NICHTVERLETZUNG DER RECHTE DRITTER. In keinem Fall haften die Autoren oder Urheberrechtsinhaber für Ansprüche, Schäden oder andere Haftungsansprüche, unabhängig davon, ob es sich um eine vertragliche, unerlaubte oder anderweitige Handlung handelt, die aus oder in Verbindung mit der Software oder der Nutzung oder dem sonstigen Umgang mit der Software entstehen.
