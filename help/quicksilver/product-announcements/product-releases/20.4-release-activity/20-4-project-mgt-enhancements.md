@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
+source-git-commit: 12bab42ab13935fa284aa334120afcfb602bf412
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1365'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Das neue Feld „Business Leader“ kann in Berichtsfiltern, Ansichten und Grupp
 
 Weitere Informationen finden Sie unter [Business Leader - Übersicht](../../../administration-and-setup/manage-groups/group-roles/business-leader-overview.md).
 
-Diese Funktion ist jetzt in den [Administrator-Grundlagen, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Neu für Administratoren: Portfolios, Programme und Unternehmen mit Gruppen verknüpfen
 
@@ -83,7 +83,7 @@ Sie können beispielsweise alle Portfolios Ihres Unternehmens in einem Bericht a
 
 Weitere Informationen finden Sie im Abschnitt „Verknüpfen einer Gruppe mit einem Objekt“ im Artikel [Gruppen - Übersicht](../../../administration-and-setup/manage-groups/groups-overview/groups.md).
 
-Diese Funktion ist jetzt in den [Administrator-Grundlagen, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Neu für Administratoren : Administratoren für eine Gruppe, die einer Firma zugewiesen ist, können die Firma verwalten
 
@@ -93,7 +93,7 @@ Weitere Informationen finden Sie unter [Firmen erstellen und bearbeiten](../../.
 
 Informationen zum administrativen Zugriff für Unternehmen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 
-Diese Funktion ist jetzt in den [Administrator-Grundlagen, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Ersetzen Sie die Schaltfläche Bearbeiten durch eine Schaltfläche Starten .
 
@@ -103,7 +103,7 @@ Aktualisiert am 24. September: Nachdem Sie auf „Aufgabe starten“ oder „Pro
 
 Weitere Informationen zum Konfigurieren dieser Option finden Sie [Ersetzen Sie die Schaltfläche Bearbeiten durch eine Schaltfläche Starten](../../../people-teams-and-groups/create-and-manage-teams/work-on-it-button-to-start-button.md).
 
-Diese Funktion ist jetzt im Lernpfad [Worker-Grundlagen](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) und im Lernpfad [Administrator-Grundlagen, Teil 1](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
+<!--This feature is now included in the [Worker Fundamentals learning path](https://one.workfront.com/s/learningpath3/worker-fundamentals-for-the-new-workfront-experience-20Y0z000000blg8EAA) and the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Mehrere Entwürfe für ein Warteschlangenthema zulassen
 
@@ -111,7 +111,7 @@ Um Ihnen mehr Freiheit bei der Arbeit mit Anfragen zu geben, gibt es keine Besch
 
 Vor dieser Verbesserung hat Workfront für jedes Warteschlangenthema in Ihrer Anfrage-Warteschlange nur einen Entwurf gespeichert.
 
-Informationen zum Senden von Anfragen finden Sie unter &quot;[Erstellen und Senden von Workfront-Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
+Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Senden von Workfront-Anfragen](/help/quicksilver/manage-work/requests/create-requests/create-submit-requests.md).
 
 ## Zuweisen einer Gruppe zu einem Team
 
@@ -121,7 +121,7 @@ Wenn Sie einer Gruppe ein Team zuweisen, können dessen Gruppenadministratoren d
 
 Weitere Informationen finden Sie unter [Team erstellen](../../../people-teams-and-groups/create-and-manage-teams/create-a-team.md).
 
-Diese Funktion ist jetzt in den [Administrator-Grundlagen, Teil 1 des Lernpfads](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) in Workfront One enthalten.
+<!--This feature is now included in the [Administrator Fundamentals, Part 1 learning path](https://one.workfront.com/s/learningpath3/administrator-fundamentals-in-the-new-workfront-experience-part-2-user-organizat-20Y0z000000bmAXEAY) on Workfront One. -->
 
 ## Mit neuen Feldern können Sie Berichte zu Daten für eine Gruppe der obersten Ebene und alle zugehörigen Untergruppen erstellen
 
