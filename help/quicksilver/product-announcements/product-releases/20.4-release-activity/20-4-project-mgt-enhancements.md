@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: f21f33b3-5e49-4bb0-9eda-7cf4c016361c
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 66659813798d330bb441b32c692693b54d4cfad6
 workflow-type: tm+mt
-source-wordcount: '1474'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Um Zeit zu sparen und den Gesamtzustand eines Projekts besser zu verstehen, steh
 
 Sie können in den Diagrammen verschiedene Aspekte der Aufgaben und Probleme in einem Projekt auswählen und auf bestimmte Elemente klicken, um Aufgabeninformationen anzuzeigen.
 
-Diese Funktion ist jetzt in den [Planergrundlagen, Teil 3 des Lernpfads](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) auf Workfront One enthalten.
+<!--This feature is now included in the [Planner Fundamentals, Part 3 learning path](https://one.workfront.com/s/learningpath3/planner-fundamentals-for-the-new-workfront-experience-part-3-manage-a-project-20Y0z000000bm7xEAA) on Workfront One. -->
 
 ## Neu für Administratoren: Einer Gruppe einen Business Leader zuweisen
 
