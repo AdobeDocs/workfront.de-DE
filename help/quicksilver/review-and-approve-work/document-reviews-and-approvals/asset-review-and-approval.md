@@ -1,19 +1,19 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Übersicht über Asset- und Dokumentgenehmigungen
+title: Verfügbare Funktionen für die Überprüfung und Genehmigung von Assets und Dokumenten
 description: Übersicht über die in Workfront zur Überprüfung und Genehmigung verfügbaren Systeme.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 276c433f18f896d0b76d6b2e118c858ca4e746a4
+source-git-commit: f2f58e3db7d99043281384cc2f6047fd9254f4fd
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '339'
 ht-degree: 0%
 
 ---
 
-# Übersicht über Asset- und Dokumentgenehmigungen
+# Verfügbare Funktionen für die Überprüfung und Genehmigung von Assets und Dokumenten
 
 Derzeit stehen in Workfront drei verschiedene Systeme für die Überprüfung und Genehmigung von Assets und Dokumenten zur Verfügung:
 
@@ -84,3 +84,7 @@ Für das Proofing verfügbare Funktionen:
 * Mehrstufige Genehmigungen erstellen
 
 * Verwenden von einfachen oder automatisierten Workflows
+
+<!--
+## Upcoming deprecations
+-->
