@@ -8,9 +8,9 @@ description: Sie können Objekte über Umgebungen hinweg vergleichen, um sicherz
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: f476b1f84fcb905537bde0c10d0a322773f6af0f
+source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
 workflow-type: tm+mt
-source-wordcount: '435'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -82,6 +82,12 @@ In diesem Beispiel:
 * Die dritte Zeile zeigt ein Objekt an, das nicht in der Zielumgebung vorhanden ist.
 
 >[!ENDSHADEBOX]
+
+So zeigen Sie bestimmte Objektunterschiede an:
+
+1. Klicken Sie auf das Lupensymbol ![](assets/compare-icon.png) in der Zeile für dieses Objekt.
+
+   Ein Fenster mit allen Feldern dieses Objekts wird geöffnet. Unterschiede sind rot markiert.
 
 ## Erstellen eines Pakets aus einem Objektvergleich
 
