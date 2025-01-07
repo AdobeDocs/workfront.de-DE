@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 4ea4d7d8fd16d4c4d7c2fe5f7adb15c2b44b6705
+source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1063'
 ht-degree: 1%
 
 ---
@@ -101,6 +101,7 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 | Ressourcenpool (RSPL) | Ressourcen-Pool |
 | Zugriffsebene (ACSLV) | Zugriffsebene |
 | <span class="preview">Tarifkarte (RTCRD)</span> | <span class="preview">Tarifkarte</span> |
+| <span class="preview">Location/Classifier (CLSF)</span> | <span class="preview">Speicherort/Klassifikator</span> |
 
 \* Derzeit nicht verfügbar
 
