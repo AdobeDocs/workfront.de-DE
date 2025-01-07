@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0ac8c7df-2d38-4291-861e-52fb5e748537
-source-git-commit: 2e4bcd6400971104e9138fab0faf20d33af32e51
+source-git-commit: 839b53afb9233ef0e36e981b243c8b2593b45f0f
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '799'
 ht-degree: 0%
 
 ---
@@ -105,3 +105,15 @@ Ein Paket muss `DRAFT` Status haben, damit es bearbeitet werden kann. Um das Pak
 1. Um das Paket zu installieren **klicken Sie** oben rechts auf dem Bildschirm auf „Installieren“.
 
    Anweisungen zur Installation eines Pakets finden Sie unter [Installieren eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md).
+
+## Erstellen eines Pakets aus einem Objektvergleich
+
+Sie können ein Paket direkt aus einem Objektvergleich erstellen.
+
+1. Erstellen Sie einen Objektvergleich, wie in [Objekte zwischen Umgebungen vergleichen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md) beschrieben.
+1. Wählen Sie im generierten Vergleich die Objekte aus, die Sie in das Paket aufnehmen möchten.
+1. Klicken **oben rechts** Bildschirm auf „Paket erstellen“.
+1. Geben Sie einen Namen und eine Beschreibung für das Paket ein.
+1. Klicken Sie **Fenster** erstellen auf „Paket erstellen“.
+
+   Das Paket wird generiert.

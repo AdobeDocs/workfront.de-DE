@@ -10,9 +10,9 @@ feature: System Setup and Administration
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3d362be8-89c2-4699-a984-59c9234b4a0c
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 8578ca2c1c0b65901b6e9f71a432d5ed61f2f3cf
 workflow-type: tm+mt
-source-wordcount: '128'
+source-wordcount: '132'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,7 @@ Dieser Abschnitt enthält die folgenden Artikel:
    * [Erstellen oder Bearbeiten eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-create-package.md)
    * [Installieren eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-install-package.md)
    * [Zurücksetzen eines Umgebungs-Promotion-Pakets](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-rollback.md)
+   * [Vergleichen von Objekten zwischen Umgebungen](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-compare.md)
    * [Verschieben von Objekten  [!DNL Workfront]  Umgebungen mithilfe der  [!DNL Workfront] -API](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion.md)
    * [Häufig gestellte Fragen zur Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-faq.md)
    * [Fehlerbehebung bei der Umgebungsförderung](/help/quicksilver/administration-and-setup/set-up-workfront/workfront-testing-environments/environment-promotion-troubleshooting.md)
