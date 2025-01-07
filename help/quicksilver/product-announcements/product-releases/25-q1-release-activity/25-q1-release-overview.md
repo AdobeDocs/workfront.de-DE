@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
 workflow-type: tm+mt
-source-wordcount: '2380'
+source-wordcount: '2478'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,34 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+           Objekte zwischen Umgebungen zur Förderung der Umgebung vergleichen</a></p>
+            <p>Um die Bestimmung des Objekts, das in einem Umgebungs-Promotion-Paket enthalten sein soll, zu erleichtern, haben wir die Möglichkeit hinzugefügt, Objekte über Umgebungen hinweg zu vergleichen. Sie können dann Objekte direkt aus diesem Vergleich zu einem Paket hinzufügen.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau der Version: 6. Januar 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Mehr Objekte für die Umgebungsförderung verfügbar</a></p>
+            <p>Um die Funktionen der Umgebung-Promotion zu erweitern, haben wir weitere Objekte hinzugefügt.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau der Version: 6. Januar 2024</li>
+                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>  
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Verschieben von Aufgaben bei protokollierten Stunden verhindern</a></p>
             <p>Da das Verschieben von Aufgaben oder Problemen, bei denen Stunden protokolliert wurden, manchmal Probleme mit der Compliance oder der Prüfung verursachen kann, haben wir im Bereich „Setup“ unter „Voreinstellungen für Aufgaben und Probleme“ eine Voreinstellung hinzugefügt, mit der Sie verhindern können, dass Benutzer Aufgaben und Probleme verschieben, wenn Stunden darauf protokolliert wurden.</p>
         </td>
@@ -71,7 +99,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
                 <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
             </ul>
         </td>
-    </tr>  
+    </tr>
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
