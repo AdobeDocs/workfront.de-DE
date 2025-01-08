@@ -6,10 +6,10 @@ description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 58f79e81-df6b-456f-9e91-4e00a1c2a8a2
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '780'
-ht-degree: 14%
+source-wordcount: '818'
+ht-degree: 13%
 
 ---
 
@@ -22,6 +22,11 @@ Sie können Filter für die folgenden Widgets verwenden, um Arbeit zu finden und
 * [Meine Probleme](#my-issues)
 * [Meine Arbeit](#my-work)
 * [Meine Genehmigungen](#my-approvals)
+
+>[!IMPORTANT]
+>
+>* Um Aufgaben und Probleme in den Startseiten-Widgets anzuzeigen, muss das übergeordnete Projekt den Status Aktuell aufweisen oder einen Status aufweisen, der dem aktuellen entspricht.
+>* Projekte müssen außerdem den Status „Aktuell“ oder einen Status aufweisen, der „Aktuell“ entspricht, um angezeigt zu werden.
 
 ## Meine Projekte
 

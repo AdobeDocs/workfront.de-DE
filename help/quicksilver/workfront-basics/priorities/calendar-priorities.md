@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: fd23523c34a3b64be602a557f52ff909eae1a685
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '538'
 ht-degree: 4%
 
 ---
@@ -22,6 +22,11 @@ Verfolgen Sie Ihre Arbeit einfach mit einem klaren, visuellen Kalender. Mit dem 
 * Verwenden von Filtern, um Ihre Arbeit zu finden
 * Anwenden benutzerdefinierter Felder wie Status und Fokusebene zur Identifizierung von Arbeiten mit hoher Priorität
 * Farben für schnelle Organisation anwenden
+
+>[!IMPORTANT]
+>
+>Projekte müssen den Status „Aktuell“ oder einen Status aufweisen, der „Aktuell“ entspricht, damit Projekte sowie deren untergeordnete Aufgaben und Probleme angezeigt werden.
+
 
 ## Zugriffsanforderungen
 

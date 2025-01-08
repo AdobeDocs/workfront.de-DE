@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: da688217a1240b74667f31d20e086164e1536576
 workflow-type: tm+mt
-source-wordcount: '878'
+source-wordcount: '929'
 ht-degree: 6%
 
 ---
@@ -244,23 +244,25 @@ Sie können die Ihnen zugewiesenen Aufgaben und Probleme filtern.
 
 1. (Optional) Klicken Sie auf **Zurück zur Standardeinstellung**, um Ihre Auswahl zurückzusetzen.
 
-<!--### Filter your work with Smart filters
+<div class="preview">
 
-Use natural language to filter quickly filter work.
+### Arbeiten mit Smart-Filtern filtern
+
+Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 
 {{step1-to-priorities}}
 
-1. Click **Filters** in the top left of the worklist.
-1. Click **Smart filters**. 
-1. Type how you want to filter your work. 
+1. Klicken **oben links** der Arbeitsliste auf „Filter“.
+1. Klicken Sie **Smart-Filter**.
+1. Geben Sie ein, wie Sie Ihre Arbeit filtern möchten.
 
-    You can type things like
+   Sie können z. B. Dinge eingeben
 
-    * Show me late tasks
-    * Show my top priorities
-    * Show work due today
+   * Anzeige verspäteter Aufgaben
+   * Meine obersten Prioritäten anzeigen
+   * Heute fällige Arbeiten anzeigen
 
--->
+</div>
 
 ### Arbeiten gruppieren
 

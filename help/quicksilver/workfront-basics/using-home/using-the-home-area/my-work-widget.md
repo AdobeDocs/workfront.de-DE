@@ -6,9 +6,9 @@ description: Das Widget Meine Arbeit zeigt alle Ihnen zugewiesenen Aufgaben, Pro
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: 8880891c0f5fd8fecad6c2f58136d36a943105ae
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '725'
 ht-degree: 5%
 
 ---
@@ -16,6 +16,10 @@ ht-degree: 5%
 # Verwalten der Arbeit mit dem Widget „Meine Arbeit“
 
 Das Widget Meine Arbeit zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Hier können Sie Ihre Arbeit filtern und organisieren, die Zeit protokollieren, Aktualisierungen vornehmen und Arbeitselemente als abgeschlossen markieren.
+
+>[!IMPORTANT]
+>
+>Um Aufgaben und Probleme im Widget „Meine Arbeit“ anzuzeigen, muss das übergeordnete Projekt sich im Status „Aktuell“ oder in einem Status befinden, der „Aktuell“ entspricht.
 
 ## Zugriffsanforderungen
 

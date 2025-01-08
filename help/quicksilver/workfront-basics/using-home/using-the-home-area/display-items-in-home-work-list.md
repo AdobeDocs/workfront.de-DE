@@ -6,9 +6,9 @@ description: Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeige
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '754'
 ht-degree: 6%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 6%
 <!-- Audited: 1/2024 -->
 
 Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeigen alle Arbeitselemente an, die Ihnen zugewiesen sind. Mithilfe von Filtern und Gruppierungen können Sie steuern[!UICONTROL  welche Elemente in Ihrer ]Arbeitsliste“ angezeigt werden.
+
+>[!IMPORTANT]
+>
+>* Um Aufgaben und Probleme in den Startseiten-Widgets anzuzeigen, muss das übergeordnete Projekt den Status Aktuell aufweisen oder einen Status aufweisen, der dem aktuellen entspricht.
+>* Projekte müssen außerdem den Status „Aktuell“ oder einen Status aufweisen, der der Anzeige auf der Startseite entspricht.
 
 ## Zugriffsanforderungen
 

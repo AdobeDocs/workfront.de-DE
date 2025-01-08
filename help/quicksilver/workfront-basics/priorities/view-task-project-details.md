@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: bd51e58c-c824-40b8-aedd-e247a5ccad55
-source-git-commit: a351028e7c76c92bd93a0d7f8460e644e940a256
+source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '426'
 ht-degree: 1%
 
 ---
@@ -18,6 +18,11 @@ ht-degree: 1%
 <span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können Projekt-, Aufgaben- und Problemdetails in der Prioritäts-Arbeitsliste anzeigen.
+
+>[!IMPORTANT]
+>
+>Projekte müssen den Status „Aktuell“ oder einen Status aufweisen, der „Aktuell“ entspricht, damit Projekte sowie deren untergeordnete Aufgaben und Probleme angezeigt werden.
+
 
 ## Zugriffsanforderungen
 
