@@ -6,9 +6,9 @@ description: Personen müssen der Pinnwand als Mitglieder hinzugefügt werden, b
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: 7ac846d6224663b4e820ab45379a4ab0611514bb
+source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '494'
 ht-degree: 0%
 
 ---
@@ -92,6 +92,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 >[!NOTE]
 >
 >Nur ein Systemadministrator oder der aktuelle Board-Eigentümer kann den Board-Eigentümer ändern. Ein Board kann nur einen Besitzer haben.
+>
+>Die Möglichkeit, den Boardbesitzer zu ändern, ist auf grundlegenden, retrospektiven und Kanban-Boards verfügbar, nicht aber auf dynamischen Boards.
 
 1. Rufen Sie die Pinnwand auf.
 1. Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon-spectrum.png) neben dem Board-Namen und wählen Sie dann **[!UICONTROL Board-Inhaber ändern]**.
