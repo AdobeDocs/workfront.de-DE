@@ -1,28 +1,26 @@
 ---
 title: Home-Verbesserungen für das erste Quartal 2025
-description: Home-Verbesserungen für das erste Quartal 2025
+description: Verbesserungen bei den Prioritäten für das erste Quartal 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '801'
 ht-degree: 0%
 
 ---
 
-# Home-Verbesserungen für das erste Quartal 2025
+# Verbesserungen bei den Prioritäten für das erste Quartal 2025
 
-Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
+Auf dieser Seite werden alle Verbesserungen der Prioritäten beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
 ## Verbesserungen bei Prioritäten - Überblick
 
-Sehen Sie sich das folgende Video an, um einen Überblick über die neuen Funktionen zu erhalten, die in diesem Quartal zu den Prioritäten hinzugefügt wurden.
-
-[Übersichtsvideo zu Verbesserungen von Prioritäten](https://video.tv.adobe.com/v/3442750/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442750/?quality=12&learn=on)
 
 Siehe [Demo-Video zu ](#priorities-enhancements-demo-video) Verbesserungen der Prioritäten“, um eine vollständige Demonstration der in dieser Übersicht enthaltenen Funktionen zu erhalten.
 
@@ -165,4 +163,6 @@ Weitere Informationen finden Sie unter [Anzeigen von Projekt- und Aufgabendetail
 
 Sehen Sie sich das folgende Video an, um eine detaillierte Demonstration der neuen Funktionen zu erhalten, die in diesem Quartal zu den Prioritäten hinzugefügt wurden.
 
-[Demo-Video zu Prioritätsverbesserungen](https://video.tv.adobe.com/v/3442751/){target=_blank}
+>[!VIDEO](https://video.tv.adobe.com/v/3442751/?quality=12&learn=on)
+
+

@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 11b25decc88146568aad615eb06ef3521f7aa761
 workflow-type: tm+mt
 source-wordcount: '2527'
 ht-degree: 0%
@@ -37,7 +37,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
 * [Administrator-Verbesserungen](#administrator-enhancements)
 * [Verbesserungen für Pinnwände](#boards-enhancements)
 * [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
-* [Home-Verbesserungen](#home-enhancements)
+* [Verbesserungen bei Prioritäten](#priorities-enhancements)
 * [Projektverbesserungen](#project-enhancements)
 * [Proofing-Verbesserungen](#proofing-enhancements)
 * [Verbesserungen an Berichten und Dashboards](#report-and-dashboard-enhancements)
@@ -248,7 +248,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
 </tbody>
 </table>
 
-### Home-Verbesserungen
+### Verbesserungen bei Prioritäten
 
 <table>
 <col style="width: 50%;" />
