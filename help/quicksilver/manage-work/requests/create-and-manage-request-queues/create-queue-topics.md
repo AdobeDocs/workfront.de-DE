@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '842'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,8 @@ ht-degree: 2%
 Warteschlangenthemen arbeiten mit Routingregeln zusammen, um eingehende Arbeit automatisch einem Benutzer, einem Aufgabengebiet oder Team zuzuweisen oder in einem Projekt zu platzieren. Warteschlangenthemen definieren die Bedingungen, die vorhanden sein müssen, damit die Routingregel implementiert wird.
 
 Die Anzahl der Warteschlangenthemen, die einer Themengruppe oder einem Projekt zugewiesen werden können, ist unbegrenzt. Warteschlangenthemen sind ein berichtspflichtiger Objekttyp.
+
+Nach der Erstellung können Sie Warteschlangenthemen nicht mehr von einem Projekt in ein anderes verschieben.
 
 ## Zugriffsanforderungen
 

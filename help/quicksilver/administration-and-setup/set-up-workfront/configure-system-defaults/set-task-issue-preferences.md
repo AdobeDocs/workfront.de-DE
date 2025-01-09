@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '2279'
+source-wordcount: '2296'
 ht-degree: 0%
 
 ---
@@ -177,7 +177,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Wenn es ausgewählt ist, können Sie Aufgaben und Probleme verschieben, für die Zeit protokolliert wurde. Die Stunden werden auch mit den Aufgaben oder Problemen verschoben.
 
-* Wenn Sie diese Option deaktivieren, erhalten Sie eine unzulässige Warnung, wenn Sie eine Aufgabe oder ein Problem mit protokollierten Stunden verschieben. Die Warnung gibt an, dass der Administrator nicht zulässt, dass Aufgaben oder Probleme mit protokollierten Stunden verschoben werden. Die Aufgaben oder Probleme, für die Stunden protokolliert wurden, können nicht verschoben werden.
+* Wenn Sie diese Option deaktivieren, erhalten Sie eine unzulässige Warnung, wenn Sie eine Aufgabe oder ein Problem mit protokollierten Stunden in ein anderes Projekt verschieben. Die Warnung gibt an, dass der Administrator nicht zulässt, dass Aufgaben oder Probleme mit protokollierten Stunden verschoben werden. Die Aufgaben oder Probleme, für die Stunden protokolliert wurden, können nicht verschoben werden. Sie können Aufgaben innerhalb desselben Projekts verschieben, selbst wenn diese Option deaktiviert ist.
 
 </div>
 

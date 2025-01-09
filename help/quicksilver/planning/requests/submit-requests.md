@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1000'
+source-wordcount: '975'
 ht-degree: 0%
 
 ---
@@ -149,9 +149,10 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 
    Ihr Formular wird übermittelt und Folgendes geschieht:
 
-   * Wenn das Antragsformular nicht mit einer Genehmigung verknüpft war oder <span class="preview">wenn die Genehmigung von allen genehmigenden Personen erteilt wurde, wird </span> dem mit dem Formular verknüpften Datensatztyp ein neuer Datensatz hinzugefügt.
+   * Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft war, wird die Anfrage auf der Registerkarte <span class="preview">Planung“ des Abschnitts Gesendet im Bereich Workfront-Anfragen </span> hinzugefügt und ein neuer Datensatz wird zu dem mit dem Formular verknüpften Datensatztyp hinzugefügt.
 
-   * Wenn das Anfrageformular nicht mit einer Genehmigung verknüpft war, wird die <span class="preview"> Anfrage auf der Registerkarte Planung im Bereich Gesendet im Bereich Workfront Anfragen hinzugefügt und ein neuer Datensatz wird zur Seite Datensatztyp hinzugefügt.</span>
+   * Wenn das Anfrageformular mit einer Genehmigung verknüpft war, wird die <span class="preview"> Anfrage zur Registerkarte Planung im Abschnitt Gesendet im Bereich Workfront-Anfragen hinzugefügt. Ein neuer Datensatz wird der Seite „Datensatztyp“ erst hinzugefügt, nachdem alle genehmigenden Personen ihn genehmigt haben.</span>
+     <span class="preview">Weitere Informationen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
 
      ![](assets/planning-tab-in-requests.png)
 
@@ -159,9 +160,6 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
      >
      ><span class="preview">Alle Benutzer mit Zugriff auf mindestens einen Arbeitsbereich können die Registerkarte Planung im Bereich Anfragen anzeigen. Sie können nur die Anfragen anzeigen, die von Ihnen oder einer anderen Person an die Arbeitsbereiche gesendet wurden, für die Sie zumindest über die Berechtigung zum Anzeigen verfügen. Workfront-Admins können alle Anfragen anzeigen, die an einen beliebigen Arbeitsbereich im System gesendet wurden. </span> <!--ensure this is correct; asking team in slack-->
 
-   * <span class="preview">Wenn das Anfrageformular mit einer Genehmigung verknüpft war, wird die Anfrage vorübergehend auf der Registerkarte Planung im Abschnitt Gesendet im Bereich Workfront-Anfragen gespeichert. Für den mit dem Anfrageformular verknüpften Datensatztyp wird kein Datensatz erstellt.</span>
-
-     <span class="preview">Weitere Informationen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).</span>
    * <span class="preview">Sie erhalten eine In-App- und eine E-Mail-Benachrichtigung, dass die Anfrage entweder erfolgreich übermittelt wurde oder zur Überprüfung gesendet wurde.</span>
    * <span class="preview">Wenn das Anfrageformular mit einer Genehmigung verknüpft war, erhalten die genehmigenden Personen eine In-App- und eine E-Mail-Benachrichtigung, um die Anfrage zu überprüfen und zu genehmigen.</span>
 

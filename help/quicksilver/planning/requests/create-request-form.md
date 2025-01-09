@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1564'
 ht-degree: 2%
 
 ---
@@ -139,33 +139,40 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * Verfügbare Datensatzfelder in der Tabellenansicht des ausgewählten Datensatztyps. <!--they are working on removing the limitation below-->
 
-   >[!IMPORTANT]
-   >
-   > Je nachdem, welche Umgebung Sie zum Erstellen eines Anfrageformulars verwenden, gibt es die folgenden Szenarien:
-   >
-   >* Felder der folgenden Typen werden nicht im Anfrageformular (in <span class="preview"> Vorschau-</span> oder Produktionsumgebungen) angezeigt:
-   >
-   >    * Erstellt von und Zuletzt geändert von
-   >    * Formel
-   >    * Erstellungsdatum und Datum der letzten Änderung
-   >    * Suchfelder der Workfront-Objekte
-   >    * Suchfelder für verknüpfte Datensätze in Workfront
-   >* Felder der folgenden Typen werden im Anfrageformular in der Produktionsumgebung nicht angezeigt. <span class="preview">Sie werden in der Vorschau-Umgebung angezeigt:</span>
-   >    * <span class="preview"> verbundenen Felder von Workfront Planning-Datensätzen</span>
-   >    * <span class="preview">Personen </span>
-   >    * Verbundene Felder von <span class="preview">Workfront-Objekten</span>
-   >    * <span class="preview">Mit AEM Assets verbundene Felder </span>
+<!-- when we go to prod, the Preview batch below will become the only batch-->
 
-   * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anfrageformular anwendet. Der Standardabschnitt kann nicht umbenannt oder entfernt werden.
-   * **Betreff** Feld: Das Feld, das die Anfrage in Workfront identifiziert. Diese Funktion ist in der Produktionsumgebung noch nicht verfügbar. <span class="preview">Es ist in der Vorschau-Umgebung verfügbar.</span> Die Konfiguration und der Wert des Felds Betreff können nicht bearbeitet werden.
+>[!IMPORTANT]
+>
+> Je nachdem, welche Umgebung Sie zum Erstellen eines Anfrageformulars verwenden, gibt es die folgenden Szenarien:
+>
+>* Felder der folgenden Typen werden im Anfrageformular in der Produktionsumgebung nicht angezeigt:
+>
+>    * Erstellt von und Zuletzt geändert von
+>    * Erstellungsdatum und Datum der letzten Änderung
+>    * Formel
+>    * Personen
+>    * Verbundene Workfront-Felder
+>    * Suchfelder der Workfront-Objekte
+>    * Verbundene Felder von Workfront-Planungsdatensätzen
+>    * Suchfelder für verknüpfte Datensätze in Workfront
+>    * AEM Assets-Verbindungsfelder
+>* Felder der folgenden Typen werden im Anfrageformular in der Vorschau-<span class="preview"> nicht angezeigt:</span>
+>    * <span class="preview"> Erstellt von und Zuletzt geändert von</span>
+>    * <span class="preview">Erstellungsdatum und Datum der letzten Änderung</span>
+>    * <span class="preview">Formel</span>
+>    * <span class="preview"> Suchfelder der Workfront-Objekte</span>
+>    * <span class="preview">Suchfelder von Workfront Planning für verbundene Datensätze </span>
 
-     >[!TIP]
-     >
-     >Das **Betreff** Feld erfordert einen Wert, wenn er im Anfrageformular sichtbar ist. Sie können jedoch bei Bedarf das Feld **Betreff** entfernen. Anfordernde sehen es nicht im Formular.
+* **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anfrageformular anwendet. Der Standardabschnitt kann nicht umbenannt oder entfernt werden.
+* **Betreff** Feld: Das Feld, das die Anfrage in Workfront identifiziert. Diese Funktion ist in der Produktionsumgebung noch nicht verfügbar. <span class="preview">Es ist in der Vorschau-Umgebung verfügbar.</span> Die Konfiguration und der Wert des Felds Betreff können nicht bearbeitet werden.
 
-   * Alle mit dem Datensatztyp verknüpften Felder.
+  >[!TIP]
+  >
+  >Das **Betreff** Feld erfordert einen Wert, wenn er im Anfrageformular sichtbar ist. Sie können jedoch bei Bedarf das Feld **Betreff** entfernen. Anfordernde sehen es nicht im Formular.
 
-     Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
+* Alle mit dem Datensatztyp verknüpften Felder.
+
+  Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
 
 1. (Optional) Bewegen Sie den Mauszeiger über die Felder im Formular, die Sie entfernen möchten, und klicken Sie dann auf das Symbol **x**, um sie zu entfernen. Sie werden der Registerkarte **Felder** links neben dem Formular hinzugefügt.
 
@@ -233,9 +240,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    > * <span class="preview">Ein Formular, das die folgenden Feldtypen enthält, kann nicht öffentlich freigegeben werden:</span>
    >
-   >     * <span class="preview">Formel</span>
    >     * <span class="preview">Workfront- oder AEM Assets-Verbindungen</span>
-   >     * <span class="preview">Suchfelder</span>
    >     * <span class="preview">Personen</span>
    >
 

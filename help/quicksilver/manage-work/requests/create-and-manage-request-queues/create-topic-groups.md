@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 7c5959f4-f33f-4f5e-b031-748dbe1a24a5
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '466'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!-- Audited: 2/2024 -->
 
-Themengruppen sind mit Anfrage-Warteschlangen verknüpft. Sie ermöglichen es Ihnen, Ihre Anfrage-Warteschlangen je nach Art der Anfrage in mehrere Kategorien zu unterteilen.
+Themengruppen sind mit Anfrage-Warteschlangen verknüpft. Je nach Art der Anfragen können Sie Ihre Anfrage-Warteschlangen mithilfe von Themengruppen in mehrere Kategorien einteilen.
 
 ## Zugriffsanforderungen
 
@@ -64,12 +64,12 @@ Wenn Sie beispielsweise über eine Anfrage-Warteschlange für Marketing-Anfragen
 
 Weitere Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
->[!TIP]
->
->* Sie können innerhalb einer Anfrage-Warteschlange bis zu 10 Ebenen von Themengruppen erstellen.
->* Die Anzahl der Warteschlangenthemen, die einer Themengruppe zugeordnet werden können, ist unbegrenzt.
->* Themengruppen sind meldepflichtige Objekte.
->
+Beachten Sie beim Arbeiten mit Themengruppen Folgendes:
+
+* Sie können innerhalb einer Anfrage-Warteschlange bis zu 10 Ebenen von Themengruppen erstellen.
+* Die Anzahl der Warteschlangenthemen, die einer Themengruppe zugeordnet werden können, ist unbegrenzt.
+* Themengruppen sind meldepflichtige Objekte.
+* Themengruppen können nicht von einem Projekt in ein anderes verschoben werden.
 
 ## Themengruppen erstellen
 

@@ -8,9 +8,9 @@ feature: Work Management, Requests
 topic: Collaboration
 role: User, Admin
 exl-id: 640f9054-f2f8-4594-9311-e93518f58453
-source-git-commit: 8ec279ece400c10a37e67664b77b1e0df6639724
+source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '516'
 ht-degree: 1%
 
 ---
@@ -22,6 +22,8 @@ ht-degree: 1%
 Routing-Regeln steuern, was Adobe Workfront bei Problemen tut, wenn sie an eine Anfrage-Warteschlange gesendet werden. Weitere Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Routing-Regeln senden Probleme an bestimmte Benutzer oder Aufgabengebiete, die am besten zur Lösung des gesendeten Problems oder der gesendeten Anfrage geeignet sind. Routingregeln sind in der Regel mit Warteschlangenthemen verknüpft, die steuern, welche Routingregel auf das Problem oder die Anfrage angewendet wird.
+
+Nach der Erstellung können Sie Routing-Regeln nicht mehr von einem Projekt in ein anderes verschieben.
 
 ## Zugriffsanforderungen
 
