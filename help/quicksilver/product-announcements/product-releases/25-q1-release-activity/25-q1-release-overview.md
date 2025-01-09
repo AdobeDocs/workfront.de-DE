@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 5755894ff320db368d07a3ab3ff18bbc9e157e0a
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '2478'
+source-wordcount: '2527'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 19. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -112,7 +112,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau-Version: 21. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>     
@@ -128,7 +128,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau-Version: 21. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -143,7 +143,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau-Version: 21. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -159,7 +159,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau der Version: 29. Oktober 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -185,13 +185,13 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-boards-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Besitzer einer Pinnwand ändern</a></p>
             <p>Der Ersteller einer Pinnwand ist standardmäßig der Besitzer. Der Board-Besitzer ist die einzige Person, die diese Pinnwand löschen oder ihre Filter im Bedienfeld „Konfigurieren“ aktualisieren kann.</p>
-            <p>Es wurde eine Funktion hinzugefügt, mit der Workfront-Systemadministratoren den Besitzer einer Pinnwand ändern können. Der aktuelle Eigentümer eines Boards kann auch den Eigentümer dieses Boards ändern.</p>
+            <p>Es wurde eine Funktion hinzugefügt, mit der Workfront-Systemadministratoren den Besitzer einer Pinnwand ändern können. Der aktuelle Eigentümer eines Boards kann auch den Eigentümer dieses Boards ändern. Diese Funktion ist auf Basis-, retrospektiven und Kanban-Boards verfügbar, nicht aber auf dynamischen Boards.</p>
         </td>
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 18. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -224,7 +224,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau-Version: 21. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>    
@@ -240,7 +240,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau-Version: 7. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
             <p><i>Diese Funktion ist Teil einer stufenweisen Veröffentlichung und nur für bestimmte Kunden verfügbar.</i></p>
         </td>
@@ -265,6 +265,25 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verwenden Sie intelligente Filter, um Ihre Arbeit in den Prioritäten zu finden</a></p>
+            <p>Verwenden Sie natürliche Sprache, um Arbeit in der Prioritätenarbeitsliste schnell zu filtern. Sie können z. B. Dinge eingeben </p>
+            <ul>
+                <li>Anzeige verspäteter Aufgaben</li>
+                <li>Aufgaben mit Fälligkeit für diese Woche anzeigen</li>
+                <li>Top-Prioritäten anzeigen</li>
+            </ul>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau der Version: 9. Januar 2025</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-home-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aufholprozess bei den Prioritäten</a></p>
             <p>Mithilfe von Catch me up können Sie den Zeitaufwand für die Suche nach Informationen zu aktiven Projekten reduzieren.</p>
             <p>Unterstützt durch den KI-Assistenten von Workfront fasst Catch me Updates, hochgeladene Dokumente und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammen: 24 Stunden, 3 Tage oder 7 Tage.</p>
@@ -273,7 +292,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau der Version: 20. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -287,7 +306,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 19. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -307,7 +326,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 19. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -327,7 +346,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 19. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -341,7 +360,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 12. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -355,7 +374,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau der Version: 5. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -392,7 +411,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau der Version: 6. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -423,7 +442,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 19. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -487,7 +506,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 16. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -533,7 +552,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 19. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -577,7 +596,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau-Version: 11. November 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>
@@ -593,7 +612,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <ul>
                 <li>Vorschau der Version: 31. Oktober 2024</li>
                 <li>Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024)</li>
-                <li>Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
             </ul>
         </td>
     </tr>

@@ -6,22 +6,26 @@ description: Sie können eine neue Anfrage-Warteschlange in ein Dashboard einbet
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: 2894161b61a00dab04c17ef642ace4a45179eb17
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1180'
+source-wordcount: '1137'
 ht-degree: 1%
 
 ---
 
 # Einbetten einer Anfrage-Warteschlange in ein Dashboard
 
-Sie können eine neue Anfrage-Warteschlange in ein Dashboard einbetten, um Ihren Benutzern direkten Zugriff auf die Anfrage-Warteschlange zu ermöglichen, ohne den Bereich Anfragen aufrufen zu müssen. 
+<!-- Audited: 1/2025 -->
+
+Sie können eine neue Anfrage-Warteschlange in ein Dashboard einbetten, um Ihren Benutzern direkten Zugriff auf die Anfrage-Warteschlange zu ermöglichen, ohne den Bereich Anfragen aufrufen zu müssen.
 
 Wenn Sie beispielsweise über eine Anfrage-Warteschlange verfügen, die für Ihr gesamtes Unternehmen offen ist, z. B. eine Helpdesk-Warteschlange oder eine PTO-Anfrage-Warteschlange, auf die alle Benutzer regelmäßig zugreifen müssen, kann es praktisch sein, die Anfrage-Warteschlange direkt in eines ihrer Dashboards einzufügen, um einen schnellen und einfachen Zugriff zu ermöglichen. Der Prozess der Einrichtung ähnelt dem Prozess der Erstellung einer externen Seite in einem Dashboard.
 
 Zunächst müssen Sie eine URL für die Anfrage-Warteschlange abrufen. Zweitens können Sie die URL in ein Dashboard einbetten, indem Sie eine externe Seite hinzufügen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,31 +34,43 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Verwalten von Berechtigungen für das Dashboard</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
 Beide der folgenden Schritte müssen erstellt werden, bevor Sie eine Anfrage-Warteschlange in ein Dashboard einbetten können:
 
 * **Das Dashboard**: Informationen zum Erstellen von Dashboards finden Sie unter [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
+
 * **Die Anfrage-Warteschlange**: Informationen zum Erstellen von Anfrage-Warteschlangen finden Sie [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
 
 ## Abrufen der URL der Anfrage-Warteschlange {#obtain-the-url-of-the-request-queue}
@@ -62,7 +78,9 @@ Beide der folgenden Schritte müssen erstellt werden, bevor Sie eine Anfrage-War
 Sie können die URL einer Anfrage-Warteschlange auf verschiedene Arten abrufen, je nachdem, welchen Teil der Anfrage-Warteschlange Sie den Benutzern bereitstellen möchten, wenn sie über ein Dashboard darauf zugreifen.
 
 * [Erhalten Sie einen Link zu einem bestimmten Warteschlangen-Thema mit der Möglichkeit, den Anfragetyp zu ändern](#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type)
+
 * [Erhalten Sie einen Link zu einer Anfrage-Warteschlange und die Möglichkeit, den Anfragetyp zu ändern](#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type)
+
 * [Abrufen eines Links zu einer Anfrage-Warteschlange ohne Möglichkeit, den Anfragetyp zu ändern](#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type)
 
 ### Abrufen eines Links zu einem bestimmten Warteschlangenthema mit der Möglichkeit, den Anfragetyp zu ändern {#obtain-a-link-to-a-specific-queue-topic-with-ability-to-change-the-request-type}
@@ -139,8 +157,11 @@ Wenn Sie einen Link für einen vorab ausgewählten Anfragetyp freigeben, ist der
 Sie können einen Link zur Anfragewarteschlange oder zu einem Warteschlangen-Thema, das unter einer Anfragewarteschlange verschachtelt ist, in ein Dashboard einbetten, um Benutzern direkten Zugriff auf eingegebene Anfragen zu gewähren.
 
 1. Rufen Sie eine URL für die Anforderungswarteschlange mit einer der Methoden ab, die im Abschnitt [Abrufen der URL ](#obtain-the-url-of-the-request-queue) Anforderungswarteschlange“ dieses Artikels beschrieben sind.
+
 1. Klicken Sie auf **Hauptmenü** > **Dashboards** > **Neues Dashboard**.
+
 1. Geben Sie **Dashboard** Name“ ein. Dies ist ein Pflichtfeld.
+
 1. Klicken Sie **Externe Seite hinzufügen**.
 
    ![](assets/add-external-page-highlighted---nwe-350x214.png)
@@ -150,35 +171,20 @@ Sie können einen Link zur Anfragewarteschlange oder zu einem Warteschlangen-The
    * **Name**: Geben Sie den Namen der Anfrage-Warteschlange ein, wie er im Dashboard angezeigt werden soll. Dies ist ein Pflichtfeld.
 
    * **Beschreibung**: Geben Sie eine Beschreibung ein, über die diese externe Seite angezeigt wird. Dies ist kein Pflichtfeld und nur für Berichtszwecke wichtig. Er wird nicht im Dashboard angezeigt.
-   * **URL**: Fügen Sie die URL ein, die Sie mit einer der in Schritt 1 beschriebenen Methoden erhalten haben.
 
-     <!--   
-     <MadCap:conditionalText data-mc-conditions="QuicksilverOrClassic.Draft mode">   
-     <MadCap:conditionalText data-mc-conditions="">   
-     (NOTE: ensure this stays accurate)   
-     </MadCap:conditionalText>   
-     </MadCap:conditionalText>   
-     -->
+   * **URL**: Fügen Sie die URL ein, die Sie mit einer der in Schritt 1 beschriebenen Methoden erhalten haben.
 
    * **Höhe**: Geben Sie die Höhe der externen Seite ein. Dadurch wird festgelegt, wie viel Platz die externe Seite, die die Anfrage-Warteschlange enthält, im Dashboard belegt. Dies ist ein Pflichtfeld und der Standardwert ist 500.
 
 1. Klicken Sie auf **Speichern**.
-1. Klicken Sie **Speichern + Schließen**. 
+
+1. Klicken Sie auf **Speichern + schließen**.
 
    Die Anfrage-Warteschlange wird im Dashboard als separate Dashboard-Komponente angezeigt.
 
-   ![](assets/new-dashboard-with-embedded-request-queue-nwe-350x260.png)
+1. (Optional) Klicken Sie auf **Dashboard-Aktionen** und dann **Bearbeiten**, um Berichte, Kalender oder zusätzliche externe Seiten zum selben Dashboard hinzuzufügen.
 
-1. (Optional) Klicken Sie auf **Dashboard-Aktionen** und dann **Bearbeiten**, um Berichte, Kalender oder zusätzliche externe Seiten zum selben Dashboard hinzuzufügen.\
    Informationen zum Hinzufügen von Komponenten zu einem Dashboard finden Sie unter [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md).
-
- 
-
- 
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: drafted - old information)</p>
--->
 
 <!--
 <ol data-mc-conditions="QuicksilverOrClassic.Draft mode">

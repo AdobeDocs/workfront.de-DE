@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3769e96b-da6e-4af2-b885-c55cd4751bbd
-source-git-commit: c0411d6384170fa0e802d32b9535c4d7235436b4
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '700'
-ht-degree: 1%
+source-wordcount: '826'
+ht-degree: 0%
 
 ---
 
@@ -18,11 +18,35 @@ Auf dieser Seite werden alle Home-Verbesserungen beschrieben, die mit der Versio
 
 Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Verbesserungen bei Prioritäten - Überblick
+
+Sehen Sie sich das folgende Video an, um einen Überblick über die neuen Funktionen zu erhalten, die in diesem Quartal zu den Prioritäten hinzugefügt wurden.
+
+[Übersichtsvideo zu Verbesserungen von Prioritäten](https://video.tv.adobe.com/v/3442750/){target=_blank}
+
+Siehe [Demo-Video zu ](#priorities-enhancements-demo-video) Verbesserungen der Prioritäten“, um eine vollständige Demonstration der in dieser Übersicht enthaltenen Funktionen zu erhalten.
+
+## Verwenden Sie intelligente Filter, um Ihre Arbeit in den Prioritäten zu finden
+
+>[!NOTE]
+>
+>Vorschau-Version: 9. Januar 2025; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
+
+Verwenden Sie natürliche Sprache, um Arbeit in der Prioritätenarbeitsliste schnell zu filtern. Sie können z. B. Dinge eingeben
+
+* Anzeige verspäteter Aufgaben
+* Aufgaben mit Fälligkeit für diese Woche anzeigen
+* Top-Prioritäten anzeigen
+
+Nur für IMS-aktivierte Instanzen verfügbar.
+
+Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit mit Prioritäten](/help/quicksilver/workfront-basics/priorities/filter-group-work-priorities.md).
+
 ## Aufholprozess bei den Prioritäten
 
 >[!NOTE]
 >
->Vorschau-Version: 20. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 20. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 >
 >_Diese Funktion ist nur für Kundinnen und Kunden des Unified Adobe-Erlebnisses mit dem KI-Assistenten verfügbar._
 
@@ -36,7 +60,7 @@ Weitere Informationen finden Sie unter [Aufholprozess bei den Prioritäten](/hel
 
 >[!NOTE]
 >
->Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 
 Sie können jetzt Echtzeitaktualisierungen auf der Detailseite einer Aufgabe oder eines Problems anzeigen. Mit Echtzeit-Präsenzindikatoren können Sie auch sehen, ob andere Benutzer die Seite gleichzeitig mit Ihnen ansehen.
 
@@ -46,7 +70,7 @@ Weitere Informationen finden Sie unter [Anzeigen von Projekt- und Aufgabendetail
 
 >[!NOTE]
 >
->Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 
 Sie können jetzt mit Dokumenten und Korrekturabzügen für Aufgaben und Probleme in der Arbeitsliste und im Kalender interagieren. Auf der neuen Registerkarte Dokumente haben Sie folgende Möglichkeiten
 
@@ -61,7 +85,7 @@ Weitere Informationen finden Sie unter [Dokumente hochladen und Testsendungen in
 
 >[!NOTE]
 >
->Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 
 Jetzt können Sie Ihre Arbeit mit einem klaren, visuellen Kalender verfolgen. Mit dem Prioritätskalender können Sie
 
@@ -76,7 +100,7 @@ Weitere Informationen finden Sie unter [Verwalten Ihrer Arbeit im Prioritätskal
 
 >[!NOTE]
 >
->Vorschau-Version: 12. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 12. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 
 Wir haben die Prioritätenarbeitsliste aktualisiert, um die Funktionen zu verbessern und sie an andere Anwendungsbereiche anzupassen.
 
@@ -106,7 +130,7 @@ Weitere Informationen finden Sie unter [Filtern und Gruppieren Ihrer Arbeit mit 
 
 >[!NOTE]
 >
->Vorschau-Version: 5. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 5. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 
 Sie können jetzt direkt von der Prioritätenarbeitsliste zu einem Projekt in Workfront gehen.
 
@@ -131,8 +155,14 @@ Diese Änderung erleichtert die Anzeige und Organisation von Arbeiten basierend 
 
 >[!NOTE]
 >
->Vorschau-Version: 6. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 6. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Sie können jetzt Projektdetails und Kommentare aus der Arbeitsliste in Prioritäten anzeigen.
 
 Weitere Informationen finden Sie unter [Anzeigen von Projekt- und Aufgabendetails in der Arbeitsliste „Prioritäten“](/help/quicksilver/workfront-basics/priorities/view-task-project-details.md).
+
+## Demo-Video zu Verbesserungen der Prioritäten
+
+Sehen Sie sich das folgende Video an, um eine detaillierte Demonstration der neuen Funktionen zu erhalten, die in diesem Quartal zu den Prioritäten hinzugefügt wurden.
+
+[Demo-Video zu Prioritätsverbesserungen](https://video.tv.adobe.com/v/3442751/){target=_blank}

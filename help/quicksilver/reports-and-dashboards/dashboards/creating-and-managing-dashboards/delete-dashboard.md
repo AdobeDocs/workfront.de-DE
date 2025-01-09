@@ -6,18 +6,22 @@ description: Wenn Sie ein Dashboard nicht mehr verwenden, können Sie es aus Ado
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
 
 # Dashboard löschen
 
+<!-- Audited: 1/2025 -->
+
 Wenn Sie ein Dashboard nicht mehr verwenden, können Sie es aus Adobe Workfront entfernen.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -26,25 +30,36 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Verwalten von Berechtigungen für das Dashboard</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Dashboard</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Löschen eines Dashboards aus dem Menü „Aktionen“
 
@@ -57,7 +72,7 @@ So löschen Sie ein Dashboard:
 1. Wechseln Sie zum Dashboard, das Sie bearbeiten möchten.
 1. Klicken Sie **Dashboard-Aktionen** und dann auf **Löschen**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-delete-dashboard.png)
 
 1. Um zu bestätigen, dass Sie das Dashboard löschen möchten, klicken Sie auf **Ja, löschen.**
 Das Dashboard wurde aus Workfront entfernt.
@@ -68,10 +83,10 @@ Wenn Sie mehrere Dashboards löschen, können Sie die Dashboards aus dem Bereich
 
 So löschen Sie mehrere Dashboards:
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront und dann auf **Dashboards**.
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Dashboards]**.
 1. Wählen Sie jedes Dashboard in der Liste aus, das Sie löschen möchten, und klicken Sie dann auf **Löschen** ![](assets/delete.png).
 
-   ![](assets/nwe-deletedashboard2021-350x182.png)
+   ![](assets/unshimmed-delete-dashboard-list.png)
 
 1. Um zu bestätigen, dass Sie das Dashboard löschen möchten, klicken Sie auf **Ja, löschen.**
 Das Dashboard wurde aus Workfront entfernt.

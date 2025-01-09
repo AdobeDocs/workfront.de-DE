@@ -6,14 +6,16 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 21bd531f-8732-4d6c-b91f-990887285447
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '503'
 ht-degree: 0%
 
 ---
 
 # Dashboard freigeben
+
+<!-- Audited: 1/2025 -->
 
 Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Dashboards, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Probleme finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
@@ -27,6 +29,8 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 <table style="table-layout:auto"> 
@@ -34,25 +38,36 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Überprüfen oder höher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+    <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Licht oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Überprüfen oder höher</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards, Kalender oder höher</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards, Kalender oder höher</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Berechtigungen anzeigen oder höher im Dashboard</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Berechtigungen anzeigen oder höher im Dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -83,11 +98,11 @@ Die Freigabe eines Dashboards oder mehrerer Dashboards aus einer Liste ist ident
 
    Oder
 
-   Klicken Sie auf den Namen eines Dashboards und dann auf **Dashboard-Aktionen >****Freigabe**.
+   Klicken Sie auf den Namen eines Dashboards und dann auf **Dashboard-Aktionen** > **Freigabe**.
 
-   ![](assets/qs-dashboard-actions-menu-350x318.png)
+   ![](assets/unshimmed-share-dashboard.png)
 
-1. Beginnen Sie im Feld **Personen, Teams, Rollen, Gruppen oder Unternehmen hinzufügen…** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, Gruppe oder des Unternehmens, für den bzw. das Sie das Dashboard freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-1. (Optional) Um das Dashboard für alle Benutzer im System zugänglich zu machen, klicken Sie auf das **Einstellungen**-Symbol in der oberen rechten Ecke des Freigabedialogs und wählen Sie dann **Systemweit sichtbar machen**.
+1. Beginnen Sie im Feld **Personen, Teams, Rollen, Gruppen oder Firmen hinzufügen** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, Gruppe oder Firma, für den Sie das Dashboard freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. (Optional) Um das Dashboard für alle Benutzer im System zugänglich zu machen, klicken Sie auf das Dropdown-Menü **Nur eingeladene Benutzer können darauf zugreifen** im Freigabedialogfeld und wählen Sie dann **Alle Benutzer im System können anzeigen**.
 
 1. Klicken Sie auf **Speichern**.

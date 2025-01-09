@@ -6,14 +6,16 @@ description: Sie können ein Dashboard drucken oder in eine PDF-Datei exportiere
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 30f3481b-23b6-4dc9-be0d-9cffd5d4dfed
-source-git-commit: efae17458f2aa08ca2286ef5e43c68d1f9334b7b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '461'
 ht-degree: 0%
 
 ---
 
 # Dashboard drucken
+
+<!-- Audited: 1/2025 -->
 
 Sie können ein Dashboard drucken oder in eine PDF-Datei exportieren. Zum Drucken eines Dashboards benötigen Sie die Berechtigung zum Anzeigen.
 
@@ -23,6 +25,8 @@ Sie können ein Dashboard drucken oder in eine PDF-Datei exportieren. Zum Drucke
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
@@ -30,25 +34,36 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+      <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Arbeit oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards und Kalender</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards und Kalender</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong>/td&gt; 
-   <td> <p>Anzeigen von Berechtigungen für das Dashboard</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für das Dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -86,7 +101,7 @@ Die folgenden Informationen sind nicht in der gedruckten oder exportierten Dashb
 1. Wechseln Sie zum Dashboard, das Sie drucken möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie **Dashboard-Aktionen** > **Drucken**
+   * Klicken Sie **Dashboard-Aktionen** > **Druckvorschau**
 
    * Drücken Sie **Strg+P** (unter Windows) oder **Befehl+P** (unter Mac)
 

@@ -5,7 +5,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '628'
 ht-degree: 0%
@@ -14,6 +14,7 @@ ht-degree: 0%
 
 # Arbeitsflächen-Dashboards - Übersicht
 
+<!-- This page is hidden as it is outdated, delete once full Canvas Dashboard docs are live-->
 <!-- Audited: 12/2023 -->
 
 Canvas Dashboards, eine Funktion, die derzeit für Dashboards entwickelt wird, bietet eine neue Option zum Erstellen effektiver Dashboards in Workfront. Arbeitsflächen-Dashboards ermöglichen es Ihnen, Berichte und Arbeitsflächen-Visualisierungen einfach in vorhandene Berichte einzubinden, was eine größere Flexibilität sowie neue Layout-Optionen bietet.
@@ -81,6 +82,7 @@ Eine neue Option Arbeitsflächen-Dashboards im linken Bereich der bestehenden Da
 1. Geben Sie den Namen des Berichts, den Sie anzeigen möchten, in das Feld **Bericht suchen** ein. Wenn der Bericht in der Liste angezeigt wird, klicken Sie entweder auf das Symbol **Listenbericht** oder **Diagrammbericht** neben seinem Namen, um die Informationen aus diesem Bericht in dem von Ihnen gewählten Format anzuzeigen.
 
 >[!WARNING]
+>
 > Das Hinzufügen mehrerer Widgets, die Informationen aus demselben Bericht anzeigen, ist derzeit zwar möglich, wir empfehlen jedoch, jeden Bericht nur einmal anzuzeigen, da dies die Dashboard-Leistung beeinträchtigen kann.
 
 ### Bearbeiten eines Widgets in einem Arbeitsflächen-Dashboard

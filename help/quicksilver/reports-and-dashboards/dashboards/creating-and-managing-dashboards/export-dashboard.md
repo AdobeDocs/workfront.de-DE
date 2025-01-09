@@ -6,14 +6,16 @@ description: Sie können ein Dashboard mithilfe der in Ihrem Webbrowser verfügb
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '410'
-ht-degree: 5%
+source-wordcount: '372'
+ht-degree: 6%
 
 ---
 
 # Dashboard exportieren
+
+<!-- Audited: 1/2025 -->
 
 Sie können ein Dashboard mithilfe der in Ihrem Webbrowser verfügbaren Druckoptionen in eine PDF-Datei exportieren.
 
@@ -24,6 +26,8 @@ Sie können ein Dashboard mithilfe der in Ihrem Webbrowser verfügbaren Druckopt
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
@@ -31,25 +35,36 @@ Sie müssen über Folgendes verfügen:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Plan*</strong></td> 
+   <td role="rowheader"><strong>Adobe Workfront-Plan</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Arbeit oder höher</p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+    <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Arbeit oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene*</strong></td> 
-   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards und Kalender</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
+   <td> <p>Anzeigen des Zugriffs auf Berichte, Dashboards und Kalender</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Anzeigen von Berechtigungen für das Dashboard</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen von Berechtigungen für das Dashboard</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -60,13 +75,13 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Erstellen eines Das
 ## Exportieren eines Dashboards in eine PDF-Datei:
 
 1. Wechseln Sie zum Dashboard, das Sie exportieren möchten.
-1. Klicken Sie **Dashboard-Aktionen** und wählen Sie dann **Drucken** aus.
+1. Klicken Sie **Dashboard-Aktionen** und wählen Sie **Druckvorschau** aus.
 
    ![](assets/dashboard-actions-print-350x254.png)
 
-   Das Dialogfeld Drucken wird geöffnet.
+   Das Fenster Druckvorschau wird geöffnet.
 
-1. Wählen Sie je nach Webbrowser die entsprechenden Druckoptionen aus, um die PDF-Datei abzuschließen. Dateiexport:
+1. Klicken Sie **Drucken** und wählen Sie dann die entsprechenden Druckoptionen je nach Webbrowser aus, um die PDF-Datei abzuschließen. Dateiexport:
 
    <table style="table-layout:auto"> 
     <col> 

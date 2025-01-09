@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 8475e93b27f2c47bf8a25ff3283a61830aa129de
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Eine kleine Funktionsänderung wurde auf die Quip-Integration angewendet. Anstat
 
 >[!NOTE]
 >
->Vorschau-Version: 28. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 28. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Das Dialogfeld für das Anfordern des Zugriffs auf Objekte wurde aktualisiert, um ein moderneres Design zu erhalten, das mit anderen Bereichen von Workfront übereinstimmt. Dieses Dialogfeld ist verfügbar, wenn Sie Zugriff auf Projekte, Aufgaben, Probleme, Programme, Portfolios, Vorlagen und Vorlagenaufgaben anfordern.
 
@@ -50,7 +50,7 @@ Wir haben Leistungsverbesserungen für den Bereich in Setup vorgenommen, in dem 
 
 >[!NOTE]
 >
->Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Wir haben die Seiten „Mitglieder des Unternehmens“ und „Abrechnungssätze des Unternehmens“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Auf Firmenmitgliedschaften kann über Setup > Firmen > Firmennamen auswählen > Firmenmitglieder im linken Bereich auswählen zugegriffen werden. Die Abrechnungssätze für Unternehmen sind über Setup > Firmen > Firmenname auswählen > Abrechnungssätze im linken Bedienfeld auswählen zugänglich.
 
@@ -73,7 +73,7 @@ Die auffälligsten Änderungen sind:
 
 >[!NOTE]
 >
->Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Im Setup-Bereich von Workfront wird ein neues Listenformat eingeführt, und die Wechselkursliste ist die erste Seite, die dieses Tabellenformat verwendet. Die Funktionalität zum Hinzufügen neuer Wechselkurse und zum Suchen nach Wechselkursen hat sich nicht geändert.
 
@@ -83,7 +83,7 @@ Informationen zu Wechselkursen finden Sie unter [Einrichten von Wechselkursen](/
 
 >[!NOTE]
 >
->Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 4. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Die Seite Daten exportieren (Kickstarts) im Bereich Setup wurde durch ein moderneres Design ergänzt, das zu anderen Bereichen von Workfront passt.
 
@@ -93,7 +93,7 @@ Weitere Informationen finden Sie unter [Exportieren von Daten aus Workfront übe
 
 >[!NOTE]
 >
->Vorschau-Version: 24. Oktober 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 24. Oktober 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Das Fenster Update an Benutzer senden wurde aktualisiert, um ein moderneres Design zu erhalten, das mit anderen Bereichen von Workfront konsistent ist.
 

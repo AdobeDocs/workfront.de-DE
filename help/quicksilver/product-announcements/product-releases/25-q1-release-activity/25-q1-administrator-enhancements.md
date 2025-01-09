@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: a7a3272cb7bfa22abfee45211e3154b6e21434b8
+source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '744'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Weitere Informationen zu Objekten, die für die Umgebungs-Promotion verfügbar s
 
 >[!NOTE]
 >
->Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 19. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 
 Da das Verschieben von Aufgaben oder Problemen, bei denen Stunden protokolliert wurden, manchmal Probleme mit der Compliance oder der Prüfung verursachen kann, haben wir im Bereich „Setup“ unter „Voreinstellungen für Aufgaben und Probleme“ eine Voreinstellung hinzugefügt, mit der Sie verhindern können, dass Benutzer Aufgaben und Probleme verschieben, wenn Stunden darauf protokolliert wurden. Vor dieser Verbesserung konnten Benutzer Aufgaben und Probleme in andere Projekte verschieben, selbst wenn Stunden daran protokolliert wurden.
 
@@ -60,7 +60,7 @@ Weitere Informationen finden Sie [Konfigurieren von systemweiten Aufgaben- und P
 
 >[!NOTE]
 >
->Vorschau-Version: 21. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 21. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Als System- oder Gruppenadministrator haben Sie jetzt eine neue Einstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden soll, um den Zeitplan des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind. Vor dieser Verbesserung gab es diese Einstellung für Zuweisungen für mehrere Benutzer. Die Einstellung ist jetzt für Zuweisungen von einzelnen Benutzern zu Aufgaben verfügbar.
 
@@ -70,7 +70,7 @@ Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konf
 
 >[!NOTE]
 >
->Vorschau-Version: 21. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 21. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um Benutzende dabei zu unterstützen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern. Die statische URL könnte eine Verknüpfung zu Dokumentationen oder anderen Seiten aufweisen, die für den Benutzer hilfreich wären.
 
@@ -80,7 +80,7 @@ Weitere Informationen finden Sie [Erstellen und Bearbeiten von Geschäftsregeln]
 
 >[!NOTE]
 >
->Vorschau-Version: 21. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 21. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Wenn Sie einem benutzerdefinierten Formular einen nativen Feldverweis hinzufügen und es auf ein Feld mit automatischer Textvervollständigung verweist (z. B. Portfolio, Unternehmen oder Inhaber), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzerinnen und Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes Feld mit automatischer Textvervollständigung, wobei der Textmodus zum Definieren des Filters verwendet wird.
 
@@ -90,7 +90,7 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau-Version: 29. Oktober 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 29. Oktober 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Zu jedem Feld wurde das Symbol „Verschieben nach“ hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert werden soll.
 

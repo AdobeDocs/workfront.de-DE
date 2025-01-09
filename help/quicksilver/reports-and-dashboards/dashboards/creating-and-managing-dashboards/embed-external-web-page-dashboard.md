@@ -6,16 +6,16 @@ description: Sie können eine externe Web-Seite in ein Dashboard einbetten, um Z
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '1025'
-ht-degree: 0%
+source-wordcount: '1011'
+ht-degree: 1%
 
 ---
 
 # Einbetten einer externen Web-Seite in ein Dashboard
 
-<!--Audited: 01/2024-->
+<!--Audited: 01/2025-->
 
 Sie können eine externe Web-Seite in ein Dashboard einbetten, um Zugriff auf zugehörige Informationen von anderen Systemen oder aus Adobe Workfront zu ermöglichen.
 
@@ -64,10 +64,17 @@ Sie müssen über Folgendes verfügen:
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
-   <td> <p>Aktuell: Plan </p>
-   Oder
-   <p>Neu: Standard </p> </td> 
+   <td role="rowheader"><strong>Adobe Workfront-Lizenz</strong></td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Konfigurationen der Zugriffsebene</strong></td> 
@@ -75,12 +82,12 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> </td> 
+   <td> <p>Zugriff auf das Dashboard bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -162,7 +169,7 @@ So aktualisieren Sie die Informationen für eine externe Seite, die in einem Das
 
    Das **Dashboard Details** wird geöffnet.
 
-1. Suchen Sie im Bereich **Layout auswählen / Berichte hinzufügen / Kalender hinzufügen** des Felds **Dashboard-Details** die externe Seite, die Sie aktualisieren möchten, bewegen Sie den Mauszeiger darüber und klicken Sie auf das Symbol **Bearbeiten**.\
+1. Suchen Sie im Bereich **Layout auswählen/Berichte hinzufügen** des Felds **Dashboard-Details** die externe Seite, die Sie aktualisieren möchten, bewegen Sie den Mauszeiger darüber und klicken Sie auf das Symbol **Bearbeiten**.\
    ![](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Aktualisieren Sie im Feld **Externe Seite bearbeiten** die Felder, die Sie ändern möchten, und klicken Sie dann auf **Speichern**.
@@ -175,7 +182,7 @@ Sie können alle externen Seiten in Workfront in einem externen Seitenbericht an
 
 {{step1-to-reports}}
 
-1. Klicken Sie **Neuer Bericht** und wählen Sie **Externe Seite** aus.
+1. Klicken Sie **Neuer Bericht** und wählen Sie **Externer Abschnitt**.
 
    ![](assets/external-page-new-report-in-dropdown-nwe.png)
 
@@ -183,8 +190,7 @@ Sie können alle externen Seiten in Workfront in einem externen Seitenbericht an
 
    Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-1. Klicken Sie **Speichern+Schließen**.
+1. Klicken Sie auf **Speichern + schließen**.
 
-   Sie können den Namen und die URL, die mit den externen Seiten in Ihrem System verknüpft sind, im neuen Bericht anzeigen.
+   Sie können den Namen und die URL, die mit externen Seiten in Ihrem System verknüpft sind, im neuen Bericht anzeigen.
 
-   ![](assets/external-page-report-name-url-columns-nwe-350x213.png)

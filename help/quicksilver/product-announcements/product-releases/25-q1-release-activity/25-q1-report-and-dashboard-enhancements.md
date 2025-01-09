@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderu
 
 >[!NOTE]
 >
->Vorschau-Version: 16. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 16. Dezember 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
 
 Um die Dashboard-Leistung aufrechtzuerhalten, haben wir eine Begrenzung für die Gesamtzahl der Berichte, externen Seiten oder Kalender implementiert, die in einem Dashboard platziert werden können. Beim Erstellen eines neuen Dashboards können maximal 25 Elemente hinzugefügt werden.
 

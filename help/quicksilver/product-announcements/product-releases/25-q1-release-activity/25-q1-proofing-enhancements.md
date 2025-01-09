@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderu
 
 >[!NOTE]
 >
->Vorschau-Version: 30. August 2024; Produktionsversion für alle Kunden: 30. August 2024.
+>Vorschau-Version: 7. November 2024; Produktionsversion für alle Kunden: 7. November 2024.
 
 Wir führen eine neue Browser-Erweiterung ein, das Adobe Workfront Review Tool, um die veraltete Browser-Erweiterung zur Überprüfung interaktiver ZIP-Inhalte zu ersetzen. Die alte Browser-Erweiterung wird am 28. Februar 2025 entfernt.
 

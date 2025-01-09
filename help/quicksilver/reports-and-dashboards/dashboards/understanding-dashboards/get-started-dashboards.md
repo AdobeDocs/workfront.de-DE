@@ -7,16 +7,16 @@ description: Ein Dashboard bietet schnellen Zugriff auf Informationen. Sie könn
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b0e73f2d-bb50-4476-bb24-f0378807b2fe
-source-git-commit: 51e8faf8cc91546ccc1af551f359f81c2174c19b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
 
 # Erste Schritte mit Dashboards
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 1/2025 -->
 
 Ein Dashboard bietet schnellen Zugriff auf Informationen aus mehreren Berichten. Zunächst können Sie Informationen in Berichten erfassen und dann mehrere Berichte in Dashboards platzieren, um den Zugriff auf die Informationen zu vereinfachen.
 
@@ -38,7 +38,16 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td> <p><strong>Adobe Workfront-Lizenz</strong></p> </td> 
-   <td> <p>Neu: Mitwirkender oder höher</p><p>Oder</p><p>Aktuell: Überprüfung oder höher</p> </td> 
+      <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkender oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Überprüfen oder höher</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
    <td><strong>Zugriffsebene</strong> </td> 
@@ -51,7 +60,7 @@ Sie müssen über Folgendes verfügen:
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

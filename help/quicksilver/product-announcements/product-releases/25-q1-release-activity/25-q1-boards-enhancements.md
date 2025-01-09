@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8f88e9e4-3f87-48f8-a37b-cca50348daaf
-source-git-commit: c0a7e84bd63fb15fde62a83c7313674a629c6c7b
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '173'
+source-wordcount: '187'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderu
 
 Der Ersteller einer Pinnwand ist standardmäßig der Besitzer. Der Board-Besitzer ist die einzige Person, die diese Pinnwand löschen oder ihre Filter im Bedienfeld „Konfigurieren“ aktualisieren kann.
 
-Es wurde eine Funktion hinzugefügt, mit der Workfront-Systemadministratoren den Besitzer einer Pinnwand ändern können. Der aktuelle Eigentümer eines Boards kann auch den Eigentümer dieses Boards ändern.
+Es wurde eine Funktion hinzugefügt, mit der Workfront-Systemadministratoren den Besitzer einer Pinnwand ändern können. Der aktuelle Eigentümer eines Boards kann auch den Eigentümer dieses Boards ändern. Diese Funktion ist auf Basis-, retrospektiven und Kanban-Boards verfügbar, nicht aber auf dynamischen Boards.
 
 Zuvor konnte der Board-Besitzer ohne Eingreifen am Back-End nicht geändert werden.
 

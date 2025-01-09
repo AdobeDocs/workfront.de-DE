@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 67ec1535-d374-4133-9395-626fa7ae4072
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
 workflow-type: tm+mt
-source-wordcount: '402'
+source-wordcount: '400'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Wir haben die Art und Weise geändert, wie verschobene und gelöschte Assets bei
 
 >[!NOTE]
 >
->Vorschau-Version: 11. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 11. November 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.12 (12. Dezember 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Wenn ein benutzerdefiniertes Formular mit mehreren Abschnitten an ein Objekt angehängt wird, können Sie jetzt alle Abschnitte mit Ausnahme des Standardabschnitts am oberen Rand des Formulars reduzieren und erweitern. Administratoren können diese Funktion auch in der Vorschau des Formulars im Formular-Designer sehen.
 
@@ -43,7 +43,7 @@ Informationen zum Hinzufügen eines Abschnitts zu einem benutzerdefinierten Form
 
 >[!NOTE]
 >
->Vorschau-Version: 31. Oktober 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (Januar 2025)
+>Vorschau-Version: 31. Oktober 2024; Produktion für die schnelle Veröffentlichung: Mit der Version 24.11 (14. November 2024); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.1 (16. Januar 2025)
 
 Um die Verwaltung Ihrer Arbeitselemente in Workfront zu vereinfachen, haben wir den KI-Assistenten für die Arbeit mit Projekten, Aufgaben und Problemen aktualisiert. Jetzt kann der KI-Assistent Projekte, Aufgaben und Probleme basierend auf von Ihnen angegebenen Kriterien suchen, z. B. „Suchen nach meinen Aufgaben, die in dieser Woche fällig sind“.
 Zuvor war der KI-Assistent nicht in der Lage, direkt mit Projekten, Aufgaben und Problemen zu arbeiten.
