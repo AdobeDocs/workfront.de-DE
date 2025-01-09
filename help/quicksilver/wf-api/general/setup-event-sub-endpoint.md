@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 1b621b35-6c8b-4f6a-bcba-ed6cbfe83a8c
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '258'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -35,3 +35,5 @@ Service-Endpunkte, die Nachrichten zu Adobe Workfront-Ereignisabonnements verwen
 
    1. Der Endpunkt speichert die Nachrichteninformationen beim Empfang und antwortet sofort mit einem Status von 200 Ebenen.
    1. Nachdem ein Endpunkt auf eine Versandanforderung für ein Ereignisabonnement reagiert hat, können die gespeicherten Nachrichten verarbeitet werden.
+
+* Nachrichten oder Objekte von Ereignisabonnements dürfen nicht größer als 1 MB sein.

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -51,6 +51,7 @@ Suchen Sie nach den folgenden Szenarien und verwenden Sie die empfohlene Lösung
 * Die Ereignisse haben möglicherweise nicht Ihre eigene Denkweise. Stellen Sie sicher, dass Sie keine Annahmen darüber treffen, wie oder wann Ereignisse ausgelöst werden sollten und wann. Wenn Sie beispielsweise glauben, dass durch die Aktualisierung eines Dokuments in einer Aufgabe ein Aufgabenaktualisierungsereignis, sondern stattdessen ein Dokumenterstellungsereignis oder ein Dokumentaktualisierungsereignis generiert wird.
 * Ihr Abonnement ist möglicherweise nicht wie erwartet konfiguriert. Sie können Ereignisabonnements in verschiedenen Umgebungen erstellen und erwarten, dass sie wie andere Workfront-Daten übertragen werden. Ereignisabonnementdaten sind jedoch nicht so konfiguriert, dass sie in andere Umgebungen kopiert oder weitergeleitet werden. Stellen Sie sicher, dass Sie API-Anfragen an die richtige Umgebung senden und dass die Abonnements in dieser Umgebung erwartungsgemäß konfiguriert sind.
 * Die Payload wurde nicht empfangen, da die erforderliche Workfront-IP-Adresse nicht zur -Zulassungsliste in Ihrer Firewall hinzugefügt wurde. Ereignisabonnement-Ereignisse werden nur von wenigen IP-Adressen gesendet. Stellen Sie sicher, dass das Zielnetzwerk über alle IP-Ausnahmen verfügt, die zum Empfang von Payloads von Workfront-Ereignisabonnements erforderlich sind.
+* Die Payload wurde nicht empfangen, da sie über 1 MB lag. Ereignisabonnementnachrichten oder -objekt dürfen nicht größer als 1 MB sein.
 
 ## Warum dauert es zu lange, bis meine Nachrichten meinen Endpunkt erreichen?
 
