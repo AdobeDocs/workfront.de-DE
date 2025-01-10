@@ -8,7 +8,7 @@ author: Lisa
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b46834db-358e-4ee2-9512-f7419351de30
-source-git-commit: 811eb1453c140808b0d6c5d9a3b4a0729cb16b2d
+source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
 workflow-type: tm+mt
 source-wordcount: '147'
 ht-degree: 0%
@@ -24,8 +24,8 @@ Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit visuell darstel
 Lesen Sie die folgenden Artikel, um sich mit Kalenderberichten in Adobe Workfront vertraut zu machen:
 
 * [Kalenderberichte - Übersicht](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md)
-* [Verwenden von benutzerdefinierten Datumsfeldern in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-* [Verwenden [!UICONTROL Geplante Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+* [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+* [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
 * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
 * [Anzeigen von Kalenderberichten und Ereignisdetails](../../../reports-and-dashboards/reports/calendars/view-calendar-reports-and-event-details.md)
 * [Freigeben eines Kalenderberichts](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md)
