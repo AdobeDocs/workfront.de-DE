@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '769'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,19 @@ ht-degree: 0%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens des ersten Quartals 2025 vorgenommen wurden.
 
 Eine Liste aller Änderungen, die mit der Version vom ersten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version vom ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+
+## Lookand-Feel-Aktualisierungen zum Bearbeiten von Stundeneinträgen aus einer Stundenliste oder einem Bericht
+
+>[!NOTE]
+>
+>Vorschau-Version: 9. Januar 2025; Produktionsversion für alle Kunden: Mit Version 25.1 (16. Januar 2025)
+
+Das Erscheinungsbild des Felds „Stunde bearbeiten“ bei der Bearbeitung von Stunden in einer Stundenliste oder einem Bericht wurde an das Design anderer Bereiche von Workfront angepasst.
+
+Weitere Informationen finden Sie unter [Zeit erfassen](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
+
+
 
 ## Aktualisiertes Erlebnis auf der Seite „Cloud-Anbieter“ im Bereich „Setup“
 
