@@ -7,10 +7,10 @@ description: Es ist wichtig, in Adobe Workfront anzugeben, wann genehmigte Ausfa
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e7710495-c418-47b1-8598-725580054fc5
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: fa5a59c15395f825ad73d889d4d877224a676891
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 1%
+source-wordcount: '428'
+ht-degree: 0%
 
 ---
 
@@ -67,6 +67,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Konfigurieren der persönlichen Ausfallzeit in [!DNL Workfront]
 
 {{step1-click-profile-pic}}
+
+>[!NOTE]
+>
+>Wenn Sie über das einheitliche Adobe-Erlebnis verfügen, können Sie auf Ihr Workfront-Profil zugreifen, indem Sie im oberen Navigationsbereich auf das Adobe-Kontomenü (Ihr Profilbild) klicken und dann auf Workfront-Profil klicken.
+>
+>![Workfront-Profil](assets/aue-profile.png)
+
 
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Auszeit]**.
 1. Wählen Sie das gewünschte Datum für Ihre persönliche Auszeit aus.
