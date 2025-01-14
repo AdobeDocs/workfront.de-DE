@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 101a0ce2-dfa6-44ea-a197-22bc85ef50f5
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: dd6ff5927aaa4f8f2d41d0f2950d98ea32517ff9
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '318'
 ht-degree: 0%
 
 ---
@@ -25,15 +25,15 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
  <col> 
  <col> 
  <col> 
- <!--col> 
- <col> -->
+ <col> 
+ <col>
  <col> 
  <col> 
  <col> 
  <thead> 
   <tr> 
    <th> </th> 
-   <th colspan="3">[!UICONTROL Legacy]</th> 
+   <th colspan="5">[!UICONTROL Legacy]</th> 
    <!--<th>[!UICONTROL Requestor]</th> 
    <th>[!UICONTROL External]</th> -->
    <th colspan="3">[!UICONTROL Neu]</th> 
@@ -45,8 +45,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <th>[!UICONTROL Planer]</th> 
    <th>[!UICONTROL Worker]</th> 
    <th>[!UICONTROL Reviewer]</th> 
-   <!--<th>[!UICONTROL Requestor]</th> 
-   <th>[!UICONTROL External]</th> -->
+  <th>[!UICONTROL-Anforderer]</th> 
+   <th>[!UICONTROL extern]</th>
    <th>[!UICONTROL Standard]</th> 
    <th>[!UICONTROL light]</th> 
    <th>[!UICONTROL Contributor]</th> 
@@ -58,8 +58,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td>✓</td> 
-   <td></td> -->
+  <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -69,8 +69,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td> 
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -80,8 +80,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td>✓</td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -91,8 +91,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -102,8 +102,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -113,8 +113,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -124,8 +124,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -135,8 +135,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -146,8 +146,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -157,8 +157,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td>✓</td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -168,8 +168,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -179,8 +179,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -190,8 +190,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -201,8 +201,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
@@ -212,8 +212,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -223,8 +223,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -234,8 +234,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td>✓</td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -245,8 +245,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
@@ -255,8 +255,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -266,8 +266,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -277,8 +277,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -288,8 +288,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -299,8 +299,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -310,8 +310,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -321,8 +321,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -332,8 +332,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -343,8 +343,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -354,8 +354,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td></td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
@@ -365,8 +365,8 @@ In dieser Tabelle werden die Funktionen angezeigt, die für Lizenzen im alten un
    <td>✓</td> 
    <td>✓</td> 
    <td></td> 
-   <!--<td></td> 
-   <td></td> -->
+   <td></td> 
+   <td></td>
    <td>✓</td> 
    <td></td> 
    <td></td> 
