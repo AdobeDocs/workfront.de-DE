@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 41eff095-ff9b-4791-81c3-758e101b3e88
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f5eb5165183986f55919bdf2c59a31c12a1c64fe
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '213'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,15 @@ ht-degree: 0%
 Auf dieser Seite werden alle Proofing-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden mit der Version vom ersten Quartal 2025 in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Desktop Proofing Viewer-Upgrade
+
+Wir haben den Desktop Viewer mit der neuesten Electron-Version 33.3.0 aktualisiert, die Chromium-130.0.6723.152 verwendet.
+
+Informationen zum Installieren des Desktop Proofing Viewers finden Sie unter [Desktop Proofing Viewer installieren](/help/quicksilver/review-and-approve-work/proofing/use-the-desktop-proofing-viewer/installing-desktop-proofing-viewer.md).
+
+
+Neueste Version: 2.1.44
 
 ## Neue Browser-Erweiterung für interaktive Überprüfung in der Beta-Version verfügbar
 

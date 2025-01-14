@@ -6,20 +6,23 @@ description: Sie können eine neue Dokumentversion hochladen und die Genehmigung
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
 workflow-type: tm+mt
-source-wordcount: '432'
+source-wordcount: '471'
 ht-degree: 0%
 
 ---
 
 # Hochladen einer neuen Dokumentversion und Anfordern einer Genehmigung
 
-Wenn ein Dokument als für eine vorherige Überprüfung erforderlich gekennzeichnet ist, können Sie eine neue Version in das Originaldokument hochladen und eine weitere Genehmigungsrunde starten.
+Wenn ein Dokument als für eine vorherige Überprüfung erforderlich gekennzeichnet ist, können Sie eine neue Version in das Originaldokument hochladen und eine weitere Genehmigungsrunde starten. Nachdem Sie eine neue Version des Dokuments hochgeladen haben, werden die vorherigen Versionen gesperrt.
 
 Wenn der Dateiname der neuen Version vom Dateinamen der vorherigen Version abweicht, zeigt Workfront das Dokument mit dem neueren Dateinamen an.
 
 Wenn einem Dokument mit ausstehenden Genehmigungen eine neue Version hinzugefügt wird, wird die Genehmigung für die vorherige Version als „Zurückgezogen“ angezeigt. Der vorherige Genehmigungsprozess wird geschlossen, auch wenn einige Teilnehmer noch keine Entscheidung getroffen haben.
+
+Wenn die neueste Dokumentversion gelöscht wird, bleiben die vorherigen Versionen gesperrt. Wenn Sie eine frühere Version bearbeiten müssen, müssen Sie sie manuell entsperren.
+
 
 ## Zugriffsanforderungen
 
