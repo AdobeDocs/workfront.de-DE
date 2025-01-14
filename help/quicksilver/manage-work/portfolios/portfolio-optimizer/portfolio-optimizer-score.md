@@ -7,7 +7,7 @@ description: Den Portfolio Optimizer-Wert finden Sie im Portfolio Optimizer. Er 
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: b6defd7dba91a06feb365ead74bd9c48f5165c77
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -15,6 +15,8 @@ ht-degree: 0%
 ---
 
 # Übersicht über die Bewertung von [!UICONTROL Portfolio Optimizer]
+
+<!--Audited: 01/2025-->
 
 Den Wert für [!UICONTROL Portfolio Optimizer] finden Sie im [!UICONTROL Portfolio Optimizer]. Er wird für jedes Projekt in **[!UICONTROL Spalte]** Score“ angezeigt. Dies stellt eine Bewertung für jedes Projekt im Portfolio dar.
 
@@ -26,7 +28,8 @@ Informationen dazu, wie [!DNL Adobe Workfront] den Projektwert und andere Projek
 
 Es gibt einen Unterschied zwischen dem Alignment-Score und dem Portfolio-Optimizer-Score eines Projekts.
 
-Die Alignment-Punktzahl eines Projekts wird anhand der Punkte berechnet, die nach Abschluss der Scorecard erzielt wurden. Dieser Wert wird dann zur Bestimmung des Portfolioausrichtungswerts verwendet. Der Ausrichtungswert wird als Prozentsatz angezeigt.\
+Die Alignment-Punktzahl eines Projekts wird anhand der Punkte berechnet, die nach Abschluss der Scorecard erzielt wurden. Dieser Wert wird dann zur Bestimmung des Portfolioausrichtungswerts verwendet. Der Ausrichtungswert wird als Prozentsatz angezeigt.
+
 Der Ausrichtungswert eines Projekts wird in der Spalte **[!UICONTROL Ausrichtung]** des [!UICONTROL Portfolio Optimizer] oder im Feld [!UICONTROL Ausrichtung] der [!UICONTROL Business Case-Zusammenfassung].
 
 ![](assets/business-case-summary-aligned-field-highlighted.png)
@@ -68,7 +71,13 @@ Gehen Sie wie folgt vor, um das Ranking eines Projekts zu ermitteln:
 
 Der Algorithmus für die Berechnung der Bewertungen berücksichtigt die in den Business Cases der Projekte beschriebenen Werte und die Gewichtung, die sie tragen. Dadurch erhält jedes Projekt im Optimizer einen Score und dieser Score wird normalisiert, sodass immer ein Projekt mit einem Score von 100 vorhanden ist. Dadurch erhält das beste Projekt eine hohe Punktzahl.
 
-**Beispiel:** Wenn Sie beispielsweise [!UICONTROL höhere Ausrichtung] den einzigen zu berücksichtigenden Faktor machen, erhält das Projekt mit der höchsten Ausrichtung den Score 100.
+>[!BEGINSHADEBOX]
+
+**BEISPIEL**
+
+Wenn Sie beispielsweise als einzigen Faktor [!UICONTROL höhere Ausrichtung] berücksichtigen, erhält das Projekt mit der höchsten Ausrichtung den Score 100.
+
+>[!ENDSHADEBOX]
 
 Im Folgenden finden Sie Kriterien, nach denen Sie ein Projekt bewerten können:
 

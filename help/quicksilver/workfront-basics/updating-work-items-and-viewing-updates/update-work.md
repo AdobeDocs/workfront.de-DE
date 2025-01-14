@@ -6,9 +6,9 @@ description: Sie können ein Update für ein Adobe Workfront-Objekt (Projekt, Au
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0f4d6895-6326-4a83-9bbc-bb58c876e7fc
-source-git-commit: 1426f806b72d740712eba5e337c8424f8af6c9dc
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '3065'
+source-wordcount: '3104'
 ht-degree: 0%
 
 ---
@@ -382,16 +382,26 @@ Sie können Ihre Kommentare verbessern, indem Sie Rich-Text verwenden oder versc
    1. Geben **unter „Anzuzeigender Text** den Link-Text ein oder fügen Sie ihn ein.
    1. Klicken Sie auf **Speichern**.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus, um ein Bild an Ihr Update anzuhängen:
+1. (Optional) Fügen Sie ein Bild an eine Aktualisierung an.
+
+   >[!WARNING]
+   >
+   >Es ist nicht möglich, ein Bild an den Bereich Aktualisierungen der folgenden Objekte anzuhängen:
+   >
+   >* Ziele
+   >* Ad-hoc-Karten auf Pinnwänden
+   >* Datensätze in Workfront Planning. Weitere Informationen finden Sie unter [Übersicht über die Adobe Workfront-Planung](/help/quicksilver/planning/general/planning-overview.md)
+   >
+
+   Führen Sie einen der folgenden Schritte aus, um ein Bild an Ihr Update anzuhängen:
 
    * Speichern Sie das Bild auf Ihrem Computer und ziehen Sie es dann per Drag-and-Drop in den Bereich Neuer Kommentar .
    * Kopieren Sie einen Screenshot von Ihrem Computer und fügen Sie ihn dann in den Kommentar ein.
    * Klicken Sie auf das **Bild hinzufügen**-Symbol ![](assets/add-image-mountain-with-plus-icon.png) und navigieren Sie zum Bild auf Ihrem Computer.
 
 
-   >[!NOTE]
+   >[!IMPORTANT]
    >
-   >**WICHTIG**
    >
    ><!--<span class="preview">You cannot add images to goals or ad-hoc cards on boards.</span> -->
    >
@@ -598,7 +608,7 @@ Im Abschnitt Aktualisierungen für ein Workfront-Objekt werden zwei Arten von In
    * Team
    * Vorlage
    * Vorlagenaufgabe
-   * Ad-hoc-Karte
+   * Ad-hoc-Karte auf einer Pinnwand
 
 Weitere Informationen zu Benutzer- und Systemaktualisierungen und deren Anzeige im Abschnitt „Aktualisierungen“ von Workfront-Objekten finden Sie [Übersicht über Aktualisierungen](../updating-work-items-and-viewing-updates/updates-tab-overview.md).
 

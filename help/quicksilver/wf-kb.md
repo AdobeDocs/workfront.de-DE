@@ -3,10 +3,10 @@ filename: wf-kb
 title: Workfront-Wissensdatenbank
 recommendations: noDisplay, noCatalog
 description: .
-source-git-commit: b326ae3023b32ace7b1f5d4584de20cab89cdbe5
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '37'
-ht-degree: 13%
+source-wordcount: '39'
+ht-degree: 12%
 
 ---
 
@@ -14,7 +14,7 @@ ht-degree: 13%
 # Workfront-Wissensdatenbank
 
 * [Administration und Einrichtung](administration-and-setup/administration-and-setup.md)
-* [Grundlagen zu Adobe Workfront](workfront-basics/workfront-basics.md)
+* [Adobe Workfront-Grundlagen: Artikelindex](workfront-basics/workfront-basics.md)
 * [Personen, Teams und Gruppen](people-teams-and-groups/people-teams-and-groups.md)
 * [Ressourcen verwalten](resource-mgmt/manage-resources.md)
 * [Agile](agile/agile.md)

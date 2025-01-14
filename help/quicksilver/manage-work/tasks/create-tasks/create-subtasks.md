@@ -2,22 +2,22 @@
 product-area: projects
 navigation-topic: create-tasks
 title: Teilaufgaben erstellen
-description: In Workfront können Aufgaben über hierarchische Beziehungen verfügen. Untergeordnete Aufgaben werden als Teilaufgaben bezeichnet. Sie können Teilaufgaben in der Aufgabenliste erstellen, indem Sie eine Hauptaufgabe zu einer Teilaufgabe machen. Sie können eine Teilaufgabe auch zu einer Hauptaufgabe machen.
+description: In Adobe Workfront können Aufgaben über hierarchische Beziehungen verfügen. Untergeordnete Aufgaben werden als Teilaufgaben bezeichnet. Sie können Teilaufgaben in der Aufgabenliste erstellen, indem Sie eine Hauptaufgabe zu einer Teilaufgabe machen. Sie können eine Teilaufgabe auch zu einer Hauptaufgabe machen.
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '543'
+source-wordcount: '562'
 ht-degree: 0%
 
 ---
 
 # Teilaufgaben erstellen
 
-<!-- Audited: 1/2024 -->
+<!-- Audited: 01/2025 -->
 
-In Workfront können Aufgaben über hierarchische Beziehungen verfügen. Untergeordnete Aufgaben werden als Teilaufgaben bezeichnet. Sie können Teilaufgaben in der Aufgabenliste erstellen, indem Sie eine Hauptaufgabe zu einer Teilaufgabe machen. Sie können eine Teilaufgabe auch zu einer Hauptaufgabe machen.
+In Adobe Workfront können Aufgaben über hierarchische Beziehungen verfügen. Untergeordnete Aufgaben werden als Teilaufgaben bezeichnet. Sie können Teilaufgaben in der Aufgabenliste erstellen, indem Sie eine Hauptaufgabe zu einer Teilaufgabe machen. Sie können eine Teilaufgabe auch zu einer Hauptaufgabe machen.
 
 ## Zugriffsanforderungen
 
@@ -62,7 +62,7 @@ Sie können Teilaufgaben aus der Aufgabenliste oder dem Abschnitt Teilaufgaben e
 
 1. Wechseln Sie zu dem Projekt, in dem Sie Teilaufgaben erstellen möchten.
 1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.
-1. (Bedingt) Wenn sich die Aufgabe, die Sie zu einer untergeordneten Aufgabe machen möchten, nicht bereits direkt unter der Aufgabe befindet, die Sie zu einer übergeordneten Aufgabe machen möchten, ziehen Sie sie an die entsprechende Position in der Aufgabenliste.
+1. (Bedingt) Wenn sich die Aufgabe, die Sie als untergeordnete Aufgabe festlegen möchten, nicht bereits direkt unter der Aufgabe befindet, die Sie als übergeordnete Aufgabe festlegen möchten, ziehen Sie sie per Drag-and-Drop an die entsprechende Position in der Aufgabenliste.
 1. Wählen Sie die Aufgabe aus, die Sie zu einer Teilaufgabe machen möchten, und führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie auf das **Einzug**-Symbol ![](assets/indent-icon-nwe-33x29.png), um die ausgewählte Aufgabe zu einer Unteraufgabe der direkt darüber liegenden Aufgabe zu machen.
@@ -70,7 +70,7 @@ Sie können Teilaufgaben aus der Aufgabenliste oder dem Abschnitt Teilaufgaben e
 
      >[!TIP]
      >
-     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben im Inline-Bearbeitungsmodus bearbeiten. Verwenden Sie in diesem Fall das Einrückungssymbol ![](assets/cs1.png), um Teilaufgaben zu erstellen.
+     >Die Tastaturbefehle funktionieren nicht, wenn Sie Aufgaben im Inline-Bearbeitungsmodus bearbeiten. Verwenden Sie in diesem Fall das Einrückungssymbol ![](assets/indent-icon-nwe-33x29.png), um Teilaufgaben zu erstellen.
 
    * Ziehen Sie die Aufgabe per Drag-and-Drop auf die Aufgabe, die Sie als übergeordnete Aufgabe festlegen möchten.
 
@@ -80,15 +80,19 @@ Sie können Teilaufgaben aus der Aufgabenliste oder dem Abschnitt Teilaufgaben e
 
 ### Erstellen von Teilaufgaben aus dem Abschnitt „Aufgaben-Teilaufgaben“ {#create-subtasks-from-the-task-subtasks-section}
 
+>[!NOTE]
+>
+>Ihr Workfront- oder Gruppenadministrator blendet möglicherweise den Abschnitt Teilaufgaben in Ihrer Umgebung aus.
+
 1. Wechseln Sie zu dem Projekt, in dem Sie Teilaufgaben erstellen möchten.
 1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.
 1. Klicken Sie auf den Namen der Aufgabe, für die Sie eine Unteraufgabe erstellen möchten.
-1. Klicken Sie auf **Abschnitt** Teilaufgaben“ im linken Bedienfeld.
+1. Klicken Sie auf **Abschnitt** Teilaufgaben“ im linken Bedienfeld, falls vorhanden.
 1. Klicken Sie auf **Neue Aufgabe.**
 
    Gehen Sie wie im folgenden Artikel beschrieben vor, um mit dem Erstellen der Unteraufgabe fortzufahren[ „Aufgaben in einem Projekt erstellen](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Klicken Sie auf **Aufgabe speichern.**
+1. Klicken Sie auf **Aufgabe erstellen.**
 
 ## Teilaufgabe zu einer Hauptaufgabe machen
 

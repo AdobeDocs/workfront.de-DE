@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: f8ad026582be5b4c89939af8f135151ffaabccfe
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
 source-wordcount: '867'
 ht-degree: 6%
@@ -38,15 +38,13 @@ Sie können die folgenden Objekte gemeinsam nutzen:
 
    * Sie können Arbeitsbereiche für Personen innerhalb Ihrer Organisation freigeben.
    * Wenn Sie einen Arbeitsbereich freigeben, werden alle Datensatztypen, Datensätze und Felder, die mit den Arbeitsbereichen verknüpft sind, ebenfalls freigegeben.
-
-     Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Ansichten werden separat freigegeben.
+   * Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Ansichten werden separat freigegeben.
 
 * Ansichten
 
    * Sie müssen Benutzenden, einschließlich Systemadministratoren, Berechtigungen für den Zugriff auf Ansichten erteilen, getrennt von ihren Berechtigungen für den Zugriff auf Arbeitsbereiche.
    * Wenn Sie eine Ansicht freigeben, werden alle Ansichtselemente freigegeben, einschließlich Filter, Gruppierung, Sortierung oder Einstellungen.
-
-     Wenn Sie eine Ansicht freigeben, werden die in der Ansicht sichtbaren Datensätze nicht freigegeben. Datensätze müssen durch die Freigabe von Arbeitsbereichen freigegeben werden.
+   * Wenn Sie eine Ansicht freigeben, werden die in der Ansicht sichtbaren Datensätze nicht freigegeben. Datensätze müssen durch die Freigabe von Arbeitsbereichen freigegeben werden.
    * Sie können eine Ansicht öffentlich für Personen außerhalb Ihres Unternehmens freigeben, wenn Sie einen öffentlichen Link für eine Ansicht generieren. Personen, die über einen öffentlichen Link auf die Datensatzseite zugreifen, können alle Datensätze und ihre Felder anzeigen, einschließlich der verbundenen Datensätze und Felder.
 
   Weitere Informationen finden Sie unter [Freigeben von Ansichten](/help/quicksilver/planning/access/share-views.md).

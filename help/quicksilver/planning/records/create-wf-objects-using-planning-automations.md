@@ -4,16 +4,16 @@ description: Sie können Automatisierungen in Workfront Planning konfigurieren, 
 hide: true
 hidefromtoc: true
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 03eedb00ab45b95e87670872cf015c0f6840658e
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '1071'
-ht-degree: 4%
+source-wordcount: '1252'
+ht-degree: 3%
 
 ---
 
 # Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen
 
-<!--add screen shots when UI is finalized-->
+<!--add screen shots when UI is finalized AND redo all the steps - some things got changed and moved around-->
 <!--when you make this public, add this to the metadata above (and take the "hide" tags out):
 
 feature: Workfront Planning
@@ -23,9 +23,11 @@ recommendations: noDisplay, noCatalog
 
 -->
 
+<!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
+
 Sie können Automatisierungen in Adobe Workfront Planning konfigurieren, die, wenn sie aktiviert sind, Objekte in Workfront oder Workfront Planning erstellen.
 
-Sie können die Automatisierung auf der Seite des Datensatzes konfigurieren und aktivieren. Das erstellte Objekt wird mit dem Planungsdatensatz verbunden und in dem Feld platziert, das Sie in der Automatisierung angeben.
+Sie können die Automatisierung auf der Seite des Datensatzes konfigurieren und aktivieren. Das erstellte Objekt wird mit dem Planungsdatensatz verbunden und in das Feld eingefügt, das Sie in der Automatisierung angeben.
 
 Sie können beispielsweise eine Automatisierung erstellen, die eine Workfront Planning-Kampagne benötigt und in Workfront ein Projekt erstellt, um den Fortschritt dieser Kampagne zu verfolgen. Das Projekt würde mit der Workfront-Planungskampagne verbunden.
 
@@ -108,8 +110,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Überlegungen zum Erstellen von Objekten und Datensätzen mithilfe einer Automatisierung
 
 * Der neue Objekt- oder Datensatzname ist mit dem Datensatznamen identisch, aus dem Sie ihn erstellen.
-* Wenn der Datensatz, für den Sie die Automatisierung verwenden, bereits Objekte desselben Typs in dem Feld, das Sie zum Hinzufügen neuer Objekte auswählen, verbunden hat, werden die neuen Objekte zum Verbindungsfeld hinzugefügt und die vorhandenen Objekte bleiben ebenfalls verbunden.
-
+* Wenn der Datensatz, für den Sie die Automatisierung verwenden, bereits Objekte desselben Typs in dem Feld verbunden hat, dem Sie neue Objekte hinzufügen möchten, werden die neuen Objekte zum Verbindungsfeld hinzugefügt und die vorhandenen Objekte bleiben ebenfalls verbunden.
 
 ## Automatisierung in Workfront Planning konfigurieren
 
@@ -124,11 +125,17 @@ Sie müssen eine Automatisierung in Workfront Planning konfigurieren, bevor Sie 
 
    Die Liste der verfügbaren Automatisierungen wird geöffnet.
 
-1. Klicken Sie **Neue Automatisierung** in der oberen rechten Ecke des Bildschirms.
+1. Klicken Sie **Neue Automatisierung** in der oberen rechten Ecke des Bildschirms. Das Feld **Neue**&quot; wird geöffnet.
 1. Aktualisieren Sie die folgenden Felder:
 
-   * **Schaltflächentext**: Geben Sie den Text ein, der auf der Automatisierungsschaltfläche angezeigt werden soll. Benutzer klicken auf diese Schaltfläche, wenn sie die Automatisierung zum Erstellen eines Workfront-Objekts verwenden.
-   * **Schaltflächensymbol**: Wählen Sie ein Symbol für die Schaltfläche aus. Standardmäßig ist ein Symbol ausgewählt.
+   * Ersetzen **Nicht benannte Automatisierung** durch den Text, der auf der Schaltfläche „Automatisierung“ angezeigt werden soll. Benutzer klicken auf diese Schaltfläche, wenn sie die Automatisierung zum Erstellen eines Workfront-Objekts verwenden.
+   * **Beschreibung**: Fügen Sie eine Beschreibung hinzu, um den Zweck der Automatisierung anzugeben.
+
+1. Aktualisieren Sie auf der Detailseite der Automatisierung die folgenden Felder im Abschnitt **Trigger**:
+
+   * **Trigger**: Wählen Sie die Aktion aus, durch die die Automatisierung Trigger werden soll. Wählen Sie beispielsweise **Schaltflächen-Klick** aus. <!--update this step with a list of all possible triggers; right not only Button click is available-->
+
+1. Aktualisieren Sie die folgenden Felder im Abschnitt **Aktionen**:
    * **Objekttyp**: Wählen Sie das Objekt aus, das die Automatisierung erstellen soll. Dies ist ein Pflichtfeld.
 
      Sie können die folgenden Objekte aus Workfront Planning-Datensätzen erstellen:
@@ -160,10 +167,17 @@ Sie müssen eine Automatisierung in Workfront Planning konfigurieren, bevor Sie 
       * **Feld zuordnen**: Wählen Sie Felder aus dem Datensatztyp aus, für den die Automatisierung erstellt wird, um sie den Feldern des verbundenen Datensatztyps zuzuordnen.
       * **Feld „Zu verbundenem Datensatz**: Wählen Sie Felder aus dem verbundenen Datensatz aus, die den Feldern des Datensatztyps entsprechen, für den Sie die Automatisierung erstellen.
 1. (Optional und bedingt) Wenn Sie kein Verbindungsfeld für einen Workfront-Objekttyp haben, klicken Sie auf das Symbol **Verbindungsfeld erstellen**, ![](assets/create-a-connection-field-icon.png) ein Feld hinzuzufügen.
-1. (Optional und bedingt) Wenn Sie einen Datensatz hinzufügen möchten, klicken Sie auf **Hinzufügen** im Bereich **Verbundene Felder zuordnen**, um zusätzliche Felder hinzuzufügen und zuzuordnen.
-1. Klicken Sie auf **Erstellen**
+1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz hinzuzufügen, klicken Sie auf **Hinzufügen** im Bereich **Felder zuordnen**, um zusätzliche Felder hinzuzufügen und zuzuordnen, wählen Sie dann ein Feld aus, das **werden soll (**), und ein Feld, das **werden soll (**), um anzugeben, welches Feld aus dem ursprünglich ausgewählten Datensatz in welchem Feld des verbundenen Datensatzes angezeigt werden soll.
+1. Klicken Sie auf **Speichern**.
 
-Die Automatisierung wird in der Liste der Automatisierungen angezeigt und kann in Datensätzen verwendet werden.
+   Die Automatisierung wird in der Liste der Automatisierungen angezeigt und kann in Datensätzen verwendet werden.
+1. (Optional) Gehen Sie wie folgt vor, um eine Automatisierung zu bearbeiten, zu deaktivieren oder zu löschen:
+
+   Bewegen Sie in der Liste der Automatisierungen den Mauszeiger über den Namen einer gespeicherten Automatisierung, klicken Sie dann auf die ![](assets/more-menu.png) **Mehr** und wählen Sie dann eine der folgenden Optionen aus:
+
+   * **Bearbeiten**: Aktualisieren Sie Informationen zu Feldern in der Automatisierung und konfigurieren Sie diese.
+   * **Deaktivieren**: Die Automatisierung wird nicht als Option in der Symbolleiste der Tabellenansicht der Datensätze angezeigt und Benutzende können sie nicht mehr zum Erstellen von Datensätzen oder Objekten verwenden. Um sie wieder verfügbar zu machen, klicken Sie erneut auf das **Mehr**-Menü ![](assets/more-menu.png) anschließend auf **Aktivieren**.
+   * **Löschen**: Die Automatisierung wird gelöscht und kann nicht wiederhergestellt werden. Datensätze, die mithilfe der Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
 
 ## Verwenden einer Workfront Planning Automation, um ein Objekt zu erstellen
 

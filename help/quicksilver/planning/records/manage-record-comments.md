@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
 workflow-type: tm+mt
-source-wordcount: '981'
+source-wordcount: '941'
 ht-degree: 0%
 
 ---
@@ -147,14 +147,14 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    >[!TIP]
    >
-   >Wenn Sie den Abschnitt Kommentare verlassen, bevor Sie mit dem Eingeben und Senden eines Kommentars fertig sind, befindet sich der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich ab- und wieder anmelden. Alle Bilder, die dem Kommentar hinzugefügt werden, werden ebenfalls im Entwurf gespeichert. Entwürfe werden 7 Tage lang gespeichert, danach werden sie verworfen und können nicht wiederhergestellt werden. Kommentare in Entwürfen sind nur für Benutzende sichtbar, die sie eingeben.
+   >Wenn Sie den Abschnitt Kommentare verlassen, bevor Sie mit dem Eingeben und Senden eines Kommentars fertig sind, befindet sich der Kommentar auf der Seite im Entwurfsmodus, auch wenn Sie sich ab- und wieder anmelden. <!--this is no longer possible for records: Any images that are added to the comment are also saved in the draft. Drafts are saved for 7 days after which they are discarded and cannot be recovered. Drafted comments are only visible to the user entering them.-->
 
 1. (Optional) Um eine Änderung rückgängig zu machen oder wiederherzustellen, verwenden Sie die folgenden Tastenkombinationen:
    * Strg+Z (⌘+Z für Mac), um eine Änderung rückgängig zu machen
    * Strg+Y (⌘+Y für Mac), um eine Änderung wiederherzustellen
 1. (Optional und bedingt) Wenn Ihre Workfront-Instanz Teil von Adobe Unified Experience ist, fügen Sie **@** und anschließend den Namen eines Benutzers hinzu, um jemanden in der Aktualisierung zu taggen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
 
-1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Ihrer Aktualisierung Emojis, Links oder Bilder hinzuzufügen, um Ihren Inhalt zu verbessern.
+1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis oder Links zu Ihrer Aktualisierung hinzuzufügen, um Ihren Inhalt zu verbessern.
 
 1. Fügen Sie dem Datensatz weitere Kommentare hinzu.
 
