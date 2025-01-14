@@ -6,16 +6,16 @@ description: Sie können den Workload-Balancer für andere Benutzende freigeben,
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
-source-wordcount: '693'
+source-wordcount: '695'
 ht-degree: 1%
 
 ---
 
 # Freigeben des Workload Balancer für einen Link
 
-Sie können den Workload-Balancer für andere Benutzende freigeben, denen der Bereich „Ressourcen“ möglicherweise nicht zur Verfügung steht. Weitere Informationen zur Verwendung des Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
+Sie können den Workload-Balancer für andere Benutzer freigeben, für die der Bereich Ressourcen möglicherweise nicht im Hauptmenü verfügbar ist. Weitere Informationen zur Verwendung des Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
 ## Zugriffsanforderungen
 

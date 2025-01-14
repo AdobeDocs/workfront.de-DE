@@ -7,7 +7,7 @@ description: Nachdem Projektmanager die Arbeit an Projekten durch Erstellen von 
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
 workflow-type: tm+mt
 source-wordcount: '1176'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Beachten Sie die folgenden Vorteile bei der Verwendung des Workload Balancer:
 
 * Führungskräfte können zeitnahe Personalentscheidungen treffen, indem sie wissen, wie die Mitarbeiter in ihrer Organisation genutzt werden.
 * Teammitglieder profitieren von einer besseren Zusammenarbeit, da sie alle sehen können, woran ihre Mitarbeiter zu jeder Zeit arbeiten. Informationen zum Zugriff, der zum Anzeigen oder Verwalten von Ressourcen im Workload Balancer benötigt wird, finden Sie unter [Zugriff, der zum Verwalten von Ressourcen im Workload Balancer erforderlich ist](../../resource-mgmt/workload-balancer/access-needed-manage-resources-balancer.md).
-* Geben Sie sie für alle frei, die keinen Zugriff auf den Bereich Ressourcen haben, indem Sie einen Link dazu in eine benutzerdefinierte Registerkarte einbetten. Weitere Informationen finden Sie unter [Freigeben des Workload-Balancer mit einem Link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md)
+* Geben Sie sie für alle frei, die im Hauptmenü keine Ressourcen haben, indem Sie einen Link auf eine benutzerdefinierte Registerkarte einfügen. Weitere Informationen finden Sie unter [Freigeben des Workload-Balancer mit einem Link](../../resource-mgmt/workload-balancer/share-link-for-workload-balancer.md).
 * Stellen Sie die Arbeitslasten und Anforderungen von Personen je nach Rolle in einer Ansicht auf globaler, Projekt- oder Team-Ebene dar und verwalten Sie sie. Beim Verwalten von Projekten umfasst dies nicht nur die Ressourcenzuweisung für das Projekt, sondern auch die Visualisierung der Ressourcenzuweisung aus dem Adobe Workfront-Szenarioplaner. Personalverantwortliche verwenden den Workfront-Szenarioplaner, um die beruflichen Fähigkeiten im gesamten Unternehmen zu verwalten. Der Szenario-Planer ist nur in der neuen Adobe Workfront-Version verfügbar.
 
   >[!NOTE]
