@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: da688217a1240b74667f31d20e086164e1536576
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '1014'
-ht-degree: 2%
+source-wordcount: '999'
+ht-degree: 3%
 
 ---
 
@@ -29,7 +29,7 @@ Unter „Prioritäten“ können Sie Ihre Arbeit filtern und gruppieren, damit S
 
 ### Arbeiten mit Filtern suchen
 
-Finden Sie Ihre wichtigste Arbeit mit Filtern. <span class="preview">Sie können eine natürliche Sprache verwenden, um mit dem Smart-Filter Arbeit zu finden</span> oder
+Finden Sie Ihre wichtigste Arbeit mit Filtern. Sie können eine natürliche Sprache verwenden, um Arbeit mit dem intelligenten Filter zu finden, oder
 Sie können den Standardfilter verwenden, um die Ihnen zugewiesenen Aufgaben und Probleme zu finden:
 
 <table>
@@ -112,10 +112,9 @@ Nachdem Sie Ihren Arbeitselementen Fokusebenen zugewiesen haben, können Sie die
 
 Weitere Informationen finden Sie unter [Priorisieren wichtiger Arbeitselemente](/help/quicksilver/workfront-basics/priorities/prioritize-work-items.md).
 
-![](assets/my-focus-column.png)
-<!-- new screen for prod ![](assets/worklist.png) -->
+![](assets/worklist.png)
 
-### Verwenden der Kalenderansicht [!BADGE In der Vorschau verfügbar]{type=Informative}
+### Verwenden der Kalenderansicht
 
 Die Kalenderansicht bietet eine visuelle Darstellung Ihrer Aufgaben und Probleme. Sie können zwischen einer Tag-, Wochen- oder Monatsansicht wählen. Sie können Elemente auch auf ähnliche Weise wie die Arbeitsliste filtern.
 
@@ -141,8 +140,7 @@ Im Abschnitt Aktualisierungen werden Systemaktualisierungen und bis zu 200 der n
 
 Weitere Informationen finden Sie unter [Hinzufügen und Anzeigen von Kommentaren unter Prioritäten](/help/quicksilver/workfront-basics/priorities/add-view-updates-priorities.md).
 
-![](assets/new-update.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Zeit erfassen
 
@@ -150,8 +148,7 @@ Sie können die Zeit für Arbeitselemente protokollieren, um die Anzahl der Stun
 
 Weitere Informationen finden Sie unter [Zeit in Prioritäten ](/help/quicksilver/workfront-basics/priorities/log-time-priorities.md).
 
-![](assets/log-time.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 ### Dateien hochladen
 
@@ -164,8 +161,7 @@ Dateien direkt in den Dokumentbereich der Aufgabe oder des Problems hochladen, o
 
 Weitere Informationen finden Sie unter [Dateien in Prioritäten hochladen](/help/quicksilver/workfront-basics/priorities/upload-files-in-priorities.md).
 
-![](assets/upload-file.png)
-<!--new screen for prod ![](assets/update-log-upload.png)-->
+![](assets/update-log-upload.png)
 
 
 ### Schnellverknüpfungen hinzufügen
@@ -176,13 +172,13 @@ Häufig verwendete Links können auf der Detailseite des Arbeitselements eingebe
 
 Weitere Informationen finden Sie unter [Hinzufügen und Verwalten von Schnelllinks in Prioritäten](/help/quicksilver/workfront-basics/priorities/quick-links-priorities.md).
 
-### Dokumente anzeigen [!BADGE In der Vorschau verfügbar]{type=Informative}
+### Dokumente anzeigen
 
 Auf der Registerkarte Dokumente können Sie alle Dateien anzeigen, die mit einem Arbeitselement verbunden sind. Sie können Dokumente nach Name, Dateityp oder Person filtern und nach Name und Upload-Datum sortieren.
 
 Sie können das Dokument oder den Korrekturabzug auch öffnen.
 
-### Überprüfen und Genehmigen von Assets [!BADGE in der Vorschau verfügbar]{type=Informative}
+### Überprüfen und Genehmigen von Assets
 
 Auf der Registerkarte Dokumente einer Aufgabe oder eines Problems haben Sie folgende Möglichkeiten
 
@@ -190,7 +186,7 @@ Auf der Registerkarte Dokumente einer Aufgabe oder eines Problems haben Sie folg
 * Proofing-Betrachter starten, um Kommentare zu hinterlassen und Entscheidungen zu treffen
 
 
-## Verwenden Sie [!DNL Catch me up], um zu sehen, was Sie verpasst haben [!BADGE In der Vorschau verfügbar]{type=Informative}
+## Verwenden Sie [!DNL Catch me up], um zu sehen, was Sie verpasst haben
 
 Verwenden Sie die [!DNL Catch me up]-Funktion, um zu sehen, was Sie verpasst haben. Catch me up fasst Aktualisierungen, hochgeladene Dokumente, Genehmigungen und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammen: 24 Stunden, 3 Tage, 7 Tage.
 
@@ -200,7 +196,7 @@ Weitere Informationen finden Sie unter [Aufholprozess bei den Prioritäten](/hel
 
 <!--need new screen for prod-->
 
-## Echtzeitaktualisierungen auf der Detailseite anzeigen ([!BADGE  Vorschau verfügbar]{type=Informative}
+## Echtzeitaktualisierungen auf der Detailseite anzeigen
 
 Echtzeitaktualisierungen können auf der Detailseite einer Aufgabe oder eines Problems angezeigt werden. Mit Echtzeit-Präsenzindikatoren können Sie auch sehen, ob andere Benutzer die Seite gleichzeitig mit Ihnen ansehen.
 

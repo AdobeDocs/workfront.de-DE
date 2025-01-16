@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '184'
 ht-degree: 1%
@@ -31,8 +31,7 @@ Sie können die Spalte Mein Fokus verwenden, um Ihre Arbeit zu priorisieren. Die
    | **normal** | Normal ist für Routineaufgaben, die Sie bearbeiten werden, nachdem dringende und Elemente mit hoher Priorität abgeschlossen sind. Dies ist die Standardeinstellung für Aufgaben und Probleme. |
    | **Niedrig** | Niedrig ist für Arbeitselemente, die nicht sofort bearbeitet werden müssen, und kann verschoben werden, bis alle Arbeitselemente mit höherer Priorität erledigt sind. |
 
-   ![](assets/my-focus.png)
-   <!--new screen for prod ![](assets/my-focus-new.png)-->
+   ![](assets/my-focus-new.png)
 
    >[!TIP]
    >

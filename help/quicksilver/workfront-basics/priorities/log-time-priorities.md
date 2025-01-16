@@ -6,7 +6,7 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
 source-wordcount: '480'
 ht-degree: 0%
@@ -60,8 +60,7 @@ Sie können die Zeit direkt in der Arbeitsliste protokollieren:
 {{step1-to-priorities}}
 
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Zeit**.
-   ![](assets/log-time.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![](assets/update-log-upload.png)
 1. Wählen **im Dropdown** Menü „Stundentyp“ den entsprechenden Stundentyp aus. Stundentypen sind je nachdem, was auf System-, Projekt- und Benutzerebene definiert wurde, verfügbar, wie unter Definieren von Stundentypen und Verfügbarkeit beschrieben.
 
 1. (Bedingt) Wenn der Workfront- oder Gruppenadministrator bzw. die Gruppenadministratorin die Einstellung Aufgabengebiete zu Stundeneinträgen manuell hinzufügen aktiviert hat, wählen Sie aus dem Dropdown-Menü ein Aufgabengebiet aus. Die Funktion, die beim Zuweisen zum Arbeitselement angegeben wird, wird standardmäßig angezeigt. Wenn Ihnen im -Objekt keine Rolle zugewiesen ist, wird Ihre Primäre Rolle als Standard angezeigt. Wenn Ihnen keine Primäre Funktion zugewiesen wurde, wird kein Aufgabengebiet angezeigt.

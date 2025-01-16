@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: c3ff90cc-2a9b-472e-ac6c-88b8ec93c8fb
-source-git-commit: 276c433f18f896d0b76d6b2e118c858ca4e746a4
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '201'
-ht-degree: 5%
+source-wordcount: '180'
+ht-degree: 6%
 
 ---
 
 # Aufholprozess bei den Prioritäten
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Catch me up - powered by Workfront AI Assistant - fasst Aktualisierungen, hochgeladene Dokumente und andere wichtige Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen zusammen: 24 Stunden, 3 Tage, 7 Tage, wodurch der Zeitaufwand für die Suche nach Informationen zu aktiven Projekten reduziert wird.
 

@@ -6,16 +6,14 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 63aa5e45-e51d-4049-a5d9-18dfaaa79647
-source-git-commit: c0a7e84bd63fb15fde62a83c7313674a629c6c7b
+source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '498'
 ht-degree: 2%
 
 ---
 
 # Hochladen von Dokumenten und Erstellen von Testsendungen in „Prioritäten“
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können Dokumente hochladen und Testsendungen in „Prioritäten“ erstellen.
 
