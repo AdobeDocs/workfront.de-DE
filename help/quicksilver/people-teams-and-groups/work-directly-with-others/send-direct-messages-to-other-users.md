@@ -7,16 +7,14 @@ description: Mit Adobe Workfront können Sie schnell und einfach Nachrichten, di
 author: Lisa
 feature: People Teams and Groups
 exl-id: 82a1c304-176a-48c5-809d-40663ee768b7
-source-git-commit: 82dc1cef02c6724dd0bc5b98d2a8f60a420b72bd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '541'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
 
 # Senden von Direktnachrichten an andere Benutzer
-
-{{preview-fast-release-general}}
 
 [!DNL Adobe Workfront] können Sie schnell und einfach Nachrichten, die mit keinem Arbeitselement in Verbindung stehen, direkt an andere [!DNL Workfront] senden. Nachrichten, die wie in diesem Abschnitt beschrieben gesendet werden[!UICONTROL  werden auf der Profilseite des Benutzers auf der Registerkarte ]Updates“ angezeigt und sind für alle Benutzer sichtbar. Weitere Informationen zu Aktualisierungen finden Sie unter [Arbeitselemente aktualisieren und Aktualisierungen anzeigen: Artikelindex](../../workfront-basics/updating-work-items-and-viewing-updates/update-work-items-and-view-updates.md).
 
@@ -87,9 +85,7 @@ Diese Option ist nur verfügbar, wenn Sie über eine Standard-, Plan- oder Arbei
 1. Wählen Sie den/die Benutzer aus, an den/die Sie eine Nachricht senden möchten, und klicken Sie auf [!UICONTROL **Update an Benutzer senden**].
 1. Geben Sie Ihre Nachricht in das Fenster [!UICONTROL Aktualisierung an Benutzer senden] ein.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-
-   <span class="preview">![Melden Sie den Benutzer im Fenster Update an Benutzer senden](assets/send-message-to-user-dialog-from-user-list.png)</span>
+   ![Melden Sie den Benutzer im Fenster Update an Benutzer senden](assets/send-message-to-user-dialog-from-user-list.png)
 
 1. (Optional) Suchen Sie nach allen zusätzlichen Benutzern, die Sie mit Tags in der Nachricht versehen möchten. Die bereits in der Benutzerliste ausgewählten Benutzer müssen nicht getaggt werden.
 1. (Optional) Wählen Sie **[!UICONTROL Privat für meine Firma]** aus, damit diese Nachricht nur für andere Benutzer in Ihrer Firma sichtbar ist.

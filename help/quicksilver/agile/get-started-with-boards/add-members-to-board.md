@@ -6,7 +6,7 @@ description: Personen müssen der Pinnwand als Mitglieder hinzugefügt werden, b
 author: Lisa
 feature: Agile
 exl-id: 8a46846c-f9b8-45cb-9923-e7596854557b
-source-git-commit: bf8d566ba9d24310e75d2fbaf523fe5464bb6657
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -15,11 +15,9 @@ ht-degree: 0%
 
 # Mitglieder zu einer Pinnwand hinzufügen oder daraus entfernen
 
-{{highlighted-preview}}
-
 Personen und Teams müssen dem Board als Mitglieder hinzugefügt werden, bevor sie das Board anzeigen können.
 
-Der Ersteller einer Pinnwand ist standardmäßig der Besitzer. Der Board-Besitzer ist die einzige Person, die diese Pinnwand löschen oder ihre Filter im Bedienfeld „Konfigurieren“ aktualisieren kann. <span class="preview">Nur ein Systemadministrator oder der aktuelle Board-Eigentümer kann den Board-Eigentümer ändern.</span>
+Der Ersteller einer Pinnwand ist standardmäßig der Besitzer. Der Board-Besitzer ist die einzige Person, die diese Pinnwand löschen oder ihre Filter im Bedienfeld „Konfigurieren“ aktualisieren kann. Nur ein Systemadministrator oder der aktuelle Board-Eigentümer kann den Board-Eigentümer ändern.
 
 ## Zugriffsanforderungen
 
@@ -85,8 +83,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Sie können den Board-Besitzer nicht entfernen.
 
-<div class="preview">
-
 ## Pinnwand-Besitzer ändern
 
 >[!NOTE]
@@ -104,5 +100,3 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Nur ein Benutzer kann Besitzer des Boards sein. Ein Team kann kein Besitzer sein.
 
 1. Klicken Sie auf [!UICONTROL **Aktualisieren**].
-
-</div>

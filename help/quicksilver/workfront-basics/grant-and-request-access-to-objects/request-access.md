@@ -6,16 +6,14 @@ description: Ihre Sichtbarkeit von Objekten in Adobe Workfront hängt von Ihrem 
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 6409f8fa5072413444545d2d3a80935dc6e04b4c
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '1398'
+source-wordcount: '1380'
 ht-degree: 0%
 
 ---
 
 # Anfordern des Zugriffs auf Objekte
-
-{{preview-fast-release-general}}
 
 Ihre Sichtbarkeit von Objekten in Adobe Workfront hängt von Ihrem Zugriff auf diesen Objekttyp sowie von Ihren Berechtigungen für ein einzelnes Objekt ab.
 
@@ -102,11 +100,7 @@ So fordern Sie den erstmaligen Zugriff auf ein Objekt an:
 1. Wählen Sie aus der Dropdown-Liste den gewünschten Zugriffstyp aus.
 1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis für den Benutzer an, aus dem hervorgeht, warum Sie zusätzlichen Zugriff benötigen.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Dialogfeld „Zugriff anfordern“](assets/request-access-to-project.png)
-
-   Beispielbild in der Produktionsumgebung:
-   ![](assets/request-access-dialog-350x314.png)
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -134,11 +128,8 @@ So fordern Sie zusätzlichen Zugriff auf ein Objekt an, auf das Sie bereits eing
 1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis ein, warum Sie zusätzlichen Zugriff benötigen.
 1. Klicken Sie **Zugriff anfordern**.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+   Beispielbild in der Vorschau-Umgebung:
    ![Dialogfeld „Zugriff anfordern“](assets/request-access-to-project.png)
-
-   Beispielbild in der Produktionsumgebung:
-   ![](assets/request-access-dialog-350x314.png)
 
 ## Hierarchie der Dropdown-Menüs „Zugriff anfordern“ und „Zugriff anfordern“ {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 

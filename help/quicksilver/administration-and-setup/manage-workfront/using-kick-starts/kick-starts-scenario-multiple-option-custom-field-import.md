@@ -9,16 +9,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 310333b71d2a92d71a0d8caf73ee8609ed6edd83
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2155'
 ht-degree: 0%
 
 ---
 
 # Kickstart-Szenario: Importieren von benutzerdefinierten Feldern mit mehreren Optionen in Workfront
-
-{{highlighted-preview}}
 
 Benutzerdefinierte Felder mit mehreren Optionen können in Adobe Workfront mithilfe der Kickstart-Funktion importiert werden.
 
@@ -90,11 +88,7 @@ So exportieren Sie vorhandene Daten aus Workfront:
 
 1. Wählen **Benutzerdefinierte Daten** im Abschnitt **Was eingeschlossen werden soll** aus.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Benutzerdefinierte Daten auswählen](assets/kickstarts-select-existing-data.png)
-
-   Beispielbild in der Produktionsumgebung:
-   ![Benutzerdefinierte Daten auswählen](assets/existing-custom-data-box-checked-kick-starts.png)
 
 1. Wählen Sie im Abschnitt **Download-Format** die Datei **.xlsx**.
 
@@ -130,11 +124,7 @@ Nachdem Sie die Informationen zu vorhandenen benutzerdefinierten Feldern in Ihre
 
 1. Aktivieren **im Bereich „Leeres Kick-Start** Arbeitsblatt herunterladen“ das Kontrollkästchen **Benutzerdefinierte Daten** und klicken Sie auf **Herunterladen**.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
    ![Benutzerdefinierte Daten auswählen](assets/kickstarts-select-existing-data.png)
-
-   Beispielbild in der Produktionsumgebung:
-   ![Benutzerdefinierte Daten auswählen](assets/blank-custom-data-option-checked-kick-starts.png)
 
    Eine leere Kickstart-Datei wird auf Ihren Computer heruntergeladen.
 

@@ -8,18 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
 workflow-type: tm+mt
-source-wordcount: '6534'
+source-wordcount: '6474'
 ht-degree: 5%
 
 ---
 
 # Erstellen eines benutzerdefinierten Formulars
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer in Adobe Workfront entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten über diese Objekte zu erfassen.
 
@@ -847,8 +843,8 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
       <td><p>(Erforderlich) Wählen Sie ein natives Workfront-Feld aus.<p><p>Für die Objekte des Formulars sind nur native Felder verfügbar. Wenn beispielsweise die Liste Objekttypen oben im Formular-Designer „Projekt“ anzeigt, können Sie native Felder für Projekte auswählen, jedoch keine Felder, die speziell für Aufgaben verwendet werden.</p></td>
      </tr>
      <tr>
-      <td role="rowheader"><span class="preview">Filter hinzufügen</span></td>
-      <td><span class="preview"><p>Fügen Sie einen Filter für das Referenzfeld hinzu, um die Liste der Elemente zu begrenzen, aus denen Benutzerinnen und Benutzer bei der Verwendung des Felds auswählen können. </p> <p>Sie können beispielsweise ein Feld so beschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
+      <td role="rowheader">Filter hinzufügen</td>
+      <td><p>Fügen Sie einen Filter für das Referenzfeld hinzu, um die Liste der Elemente zu begrenzen, aus denen Benutzerinnen und Benutzer bei der Verwendung des Felds auswählen können. </p> <p>Sie können beispielsweise ein Feld so beschränken, dass Benutzernamen nur ausgewählt werden können, wenn sie die folgenden Kriterien erfüllen:</p> 
        <ul>
         <li>Sie gehören zu einer oder mehreren Gruppen, die Sie angeben</li> 
         <li>Sie sind mit einer von Ihnen angegebenen Funktion oder einem von Ihnen angegebenen Titel verknüpft</li> 
@@ -860,7 +856,7 @@ In dieser Tabelle sind die verfügbaren nativen Felder für bestimmte Workfront-
         <li>Die Filteroption ist nur verfügbar, wenn Sie auf ein natives Feld mit automatischer Textvervollständigung verweisen, z. B. Portfolio, Unternehmen oder Inhaber.</li>
         <li>Wenn Sie ein vorhandenes benutzerdefiniertes Formular bearbeiten, werden beim Hinzufügen eines Filters zu einem nativen Feld keine Objekte entfernt (außerhalb des Bereichs des Filters), die Benutzende bereits mithilfe des Felds hinzugefügt haben.</li> 
         <li>Dieser Filter ist auf Mobilgeräten nicht verfügbar. Wenn Sie den Filter für ein natives Feld verwenden, wird das Feld auf den Mobilgeräten der Benutzer angezeigt, ohne vom Filter betroffen zu sein.</li> 
-        </ul></p></span></td> 
+        </ul></p></td> 
       <td>
      </tr>
      <tr> 
@@ -936,8 +932,6 @@ Hinzufügen einer Adobe XD-Datei:
    oder
 
    Klicken Sie **Speichern und schließen**.
-
-<div class="preview">
 
 ### Planning-Verbindungsfelder hinzufügen
 
@@ -1031,8 +1025,6 @@ So fügen Sie ein Feld für eine Planungsverbindung hinzu:
    * Verbinden von Datensätzen mit dem Workfront-Objekt oder Trennen von Datensätzen.
 
    Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md)
-
-</div>
 
 ## Organisieren und Vorschau eines Formulars mit dem Formular-Designer
 

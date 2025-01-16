@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: a36a74def754d1318d2a82145537f7c0ef3f3bbd
+source-git-commit: 38541313ae1c2b330bf4bad994bee43ee6e84227
 workflow-type: tm+mt
 source-wordcount: '1269'
 ht-degree: 0%
@@ -16,8 +16,6 @@ ht-degree: 0%
 ---
 
 # Geschäftsregeln erstellen und bearbeiten
-
-{{preview-fast-release-general}}
 
 Mit einer Geschäftsregel können Sie Validierungen auf Workfront-Objekte anwenden und Benutzer daran hindern, ein Objekt zu erstellen, zu bearbeiten oder zu löschen, wenn bestimmte Bedingungen erfüllt sind. Geschäftsregeln tragen dazu bei, die Datenqualität und die betriebliche Effizienz zu verbessern, indem sie Maßnahmen verhindern, die die Datenintegrität beeinträchtigen könnten.
 
@@ -137,9 +135,9 @@ IF(
    * Da das -Objekt und die Aktion bereits definiert sind, schließen Sie sie nicht in die Formel ein.
    * Die benutzerdefinierte Fehlermeldung wird Benutzenden beim Trigger der Geschäftsregel angezeigt. Es sollte klare Anweisungen dazu geben, was schiefgelaufen ist und wie das Problem behoben werden kann.
 
-     <span class="preview">Sie können der Fehlermeldung eine statische URL hinzufügen, um eine Verknüpfung zu Dokumentationen oder anderen hilfreichen Seiten herzustellen, die Benutzenden dabei helfen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern.</span>
+     Sie können der Fehlermeldung eine statische URL hinzufügen, um eine Verknüpfung zu Dokumentationen oder anderen hilfreichen Seiten herzustellen, die Benutzern dabei helfen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern.
 
-     <span class="preview">In diesem Beispiel wird „Weitere Informationen“ mit der URL verknüpft. `"You are not allowed to add a new project in November.[Learn more](http://url)"` Die URL muss in Klammern stehen, aber Link-Text in Klammern ist nicht erforderlich. Sie können die vollständige URL anzeigen. Dabei handelt es sich um einen anklickbaren Link.</span>
+     In diesem Beispiel wird „Weitere Informationen“ mit der URL verknüpft. `"You are not allowed to add a new project in November.[Learn more](http://url)"` Die URL muss in Klammern stehen, aber Link-Text in Klammern ist nicht erforderlich. Sie können die vollständige URL anzeigen. Dabei handelt es sich um einen anklickbaren Link.
 
    ![Dialogfeld „Geschäftsregel hinzufügen“](assets/add-business-rule-dialog-no-ai-button.png)
 
