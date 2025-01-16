@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '759'
 ht-degree: 0%
 
 ---
@@ -21,9 +21,9 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Sie können Ihre Arbeitswoche mithilfe von Zeitplänen definieren und einen Zeitplan einem Benutzer oder Projekt zuordnen. Auf diese Weise können [!DNL Adobe Workfront] Timelines und die Benutzerverfügbarkeit berechnen. Anweisungen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
 
@@ -66,16 +66,12 @@ Wenn eine Aufgabe einem Benutzer zugewiesen wird, der mit einem Zeitplan verknü
 Die Reihenfolge, in der die Zeitpläne vom System verwendet werden, wenn mehr als ein Zeitplan vorhanden ist:
 
 
-* Wenn ein(e) Benutzende(r) einer Aufgabe zugewiesen wird, sind je nach verwendeter Umgebung die folgenden Szenarien vorhanden:
+* Wenn ein(e) Benutzende(r) einer Aufgabe zugewiesen wird, verwendet [!DNL Workfront] einen der folgenden Zeitpläne, wie im Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Setup] definiert:
 
-   * In der Produktionsumgebung verwendet [!DNL Workfront] den Zeitplan des Benutzers für die Berechnung der Zeitleiste der Aufgabe. Dazu gehört auch die persönliche Zeit des Nutzers. Der Zeitplan des Projekts wird ignoriert.
+   * Der Zeitplan des Benutzers, der der Aufgabe zugewiesen ist
+   * Der mit dem Projekt verknüpfte Zeitplan.
 
      Weitere Informationen zur persönlichen Arbeitszeit finden Sie unter [Konfigurieren der persönlichen ](../../../workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/personal-time-overview.md)).
-
-   * <span class="preview">In der Vorschau-Umgebung verwendet [!DNL Workfront] einen der folgenden Zeitpläne, wie im Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Setup]:</span> definiert
-
-      * <span class="preview">Der Zeitplan des Benutzers, der der </span> zugewiesen ist
-      * <span class="preview">Der mit dem Projekt verknüpfte Zeitplan.</span>
 
 * Wenn einer Aufgabe mehrere Benutzer zugewiesen sind und die Benutzer während des Zeitrahmens der Aufgabe unterschiedliche Zeitpläne haben, verwendet [!DNL Workfront] einen der folgenden Zeitpläne, wie im Bereich [!UICONTROL Projektvoreinstellungen] von [!UICONTROL Setup] definiert:
 

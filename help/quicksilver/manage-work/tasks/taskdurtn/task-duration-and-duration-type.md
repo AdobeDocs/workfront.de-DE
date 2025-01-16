@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: c81e485a-7e8c-4907-8e6c-9991681c3541
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1791'
+source-wordcount: '1649'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!-- Audited: 12/2023 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Die Aufgabendauer ist die Differenz zwischen dem geplanten Abschlussdatum und dem geplanten Startdatum der Aufgabe. Die Dauer gibt den Zeitrahmen an, in dem die Aufgabe abgeschlossen werden kann.
 
@@ -41,17 +41,7 @@ Wenn Sie einen Zeitplan haben, der um 9:00 Uhr beginnt und um 12:00 Uhr endet, u
 
 Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Workfront:
 
-* Wenn die Aufgabe einem Benutzer zugewiesen ist, existieren je nach verwendeter Umgebung die folgenden Szenarien:
-
-   * In der Produktionsumgebung verwendet Workfront einen der folgenden Zeitpläne, in dieser exakten Reihenfolge, um die Dauer zu berechnen:
-
-   1. Workfront berücksichtigt den Zeitplan des Benutzers.
-   1. Wenn der/die Benutzende keinem Zeitplan zugeordnet ist, berücksichtigt Workfront den Zeitplan des Projekts.
-   1. Wenn das Projekt nicht mit einem Zeitplan verknüpft ist, berücksichtigt Workfront den Standardzeitplan Ihres Systems. Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
-
-<div class="preview">
-
-* In der Vorschau-Umgebung:
+* Wenn die Aufgabe einem Benutzer zugewiesen ist:
 
    1. Workfront berücksichtigt entweder den Zeitplan des Projekts oder den des Benutzers, der der Aufgabe zugewiesen wurde.
 
@@ -60,8 +50,6 @@ Im Folgenden finden Sie zwei Szenarien für die Berechnung der Dauer in Adobe Wo
    1. Wenn der/die Benutzende oder das Projekt keinen Zeitplan hat, verwendet Workfront den Systemstandardzeitplan.
 
       Die Schritte ähneln dem ersten Szenario, nachdem verstanden wurde, welcher Zeitplan von Workfront zur Berechnung der Dauer verwendet wird.
-
-</div>
 
 * Wenn die Aufgabe mehreren Benutzern zugewiesen ist:
 

@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '760'
-ht-degree: 6%
+source-wordcount: '701'
+ht-degree: 7%
 
 ---
 
@@ -17,9 +17,9 @@ ht-degree: 6%
 
 # Importieren von Feldern aus Adobe Workfront
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -116,11 +116,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Zuweisung
    * Stunde
    * Abrechnungseintrag
-     <!--Available only to Preview, but might not come to Prod:* Rate card-->
+     <!--Available only to Preview, but might not come to Prod:* Rate card - visible in Production but asking PM if it should be hidden-->
    * Ausgabe
    * Wiederholung
-     <!--* Non-labor resource-->
-     <!--* Non-labour resource category-->
+     <!--* Non-labor resource - - visible in Production but asking PM if it should be hidden-->
+     <!--* Non-labour resource category - - visible in Production but asking PM if it should be hidden-->
 * Workfront-Felder behalten ihren Feldtyp möglicherweise nicht bei, nachdem sie in Workfront Planning importiert wurden.
 
   Die nachstehende Tabelle zeigt die Workfront-Feldtypen und den entsprechenden Workfront Planning-Feldtyp.

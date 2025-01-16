@@ -8,19 +8,19 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: c69097fb-99e4-441b-9599-fd8af2dd7116
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2825'
-ht-degree: 1%
+source-wordcount: '2765'
+ht-degree: 2%
 
 ---
 
 # Projektvoreinstellungen für eine Gruppe konfigurieren
 
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Wenn Sie Gruppenadministrator sind und ein Adobe Workfront-Administrator eine Projektvoreinstellung für alle Gruppen im System freischaltet, können Sie diese Voreinstellung für Ihre Gruppe so konfigurieren, dass sie sich auf alle nachfolgenden Projekte auswirkt, die Ihre Gruppe erstellt.
 
@@ -217,14 +217,14 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
     </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p> </td> 
   </tr> 
  <tr> 
-   <td role="rowheader"> <p><span class="preview"><strong>Wenn ein(e) Benutzende(r) einer Aufgabe zugewiesen wird, den Zeitplan verwenden von…</strong></span> </p> </td> 
-   <td> <div class="preview"><p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern, die seinen Aufgaben zugewiesen sind, kein Zeitplan zugewiesen ist, berechnet [!DNL Workfront] anhand des Systemstandardzeitplans den Zeitplan der Aufgaben.</p>
+   <td role="rowheader"> <p><strong>Wenn ein(e) Benutzende(r) einer Aufgabe zugewiesen wird, den Zeitplan verwenden von…</strong> </p> </td> 
+   <td> <p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern, die seinen Aufgaben zugewiesen sind, kein Zeitplan zugewiesen ist, berechnet [!DNL Workfront] anhand des Systemstandardzeitplans den Zeitplan der Aufgaben.</p>
 
 <p>Wenn Sie einer Aufgabe in einem Projekt einen Benutzer zuweisen und sowohl dem Projekt als auch dem Benutzer ein Zeitplan zugeordnet ist, verwendet [!UICONTROL Workfront] die folgenden Zeitpläne:</p> 
     <ul> 
      <li><strong>[!UICONTROL User]</strong>: Der Zeitplan des zugewiesenen Benutzers für die Aufgabe, um die Zeitleisten zu berechnen.</li> 
      <li><strong>[!UICONTROL Project]</strong>: Der Zeitplan des Projekts zur Berechnung der Zeitleiste der Aufgabe.</li> 
-    </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p></div></td> 
+    </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p></td> 
   </tr> 
   <tr data-mc-conditions=""> 
    <td role="rowheader"> <p>Timeline-Berechnungen </p> </td> 

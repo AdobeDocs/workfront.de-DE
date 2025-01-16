@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: 9b528e751d23b04ae1e495f00e06ffef8aa60156
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '704'
 ht-degree: 2%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 2%
 
 <!--take Preview and Production references out at release-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
-Sie können Datensätze löschen, die in Adobe Workfront Planning nicht mehr relevant sind. <span class="preview">Gelöschte Datensätze können nach dem Löschen 30 Tage lang wiederhergestellt werden. Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+Sie können Datensätze löschen, die in Adobe Workfront Planning nicht mehr relevant sind. Gelöschte Datensätze können nach dem Löschen 30 Tage lang wiederhergestellt werden. Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md).
 
 ## Zugriffsanforderungen
 
@@ -96,73 +96,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-
-<!--
-
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p>
-   </td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> <p>There are no access level controls for Adobe Workfront Planning </p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Contribute or higher permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Überlegungen zum Löschen von Datensätzen
 
 * Sie können Datensätze löschen, die Sie oder ein anderer Benutzer erstellt haben.
-* Gelöschte Datensätze können nicht in der Produktionsumgebung wiederhergestellt werden. <span class="preview">Sie können gelöschte Datensätze in der Vorschau-Umgebung wiederherstellen.</span>
+* Gelöschte Datensätze können nicht in der Produktionsumgebung wiederhergestellt werden. Sie können gelöschte Datensätze in der Vorschau-Umgebung wiederherstellen.
 * Wenn die gelöschten Datensätze mit anderen Datensätzen verknüpft sind, werden die verknüpften Datensätze nicht gelöscht, aber die Informationen aus dem gelöschten Datensatz werden ebenfalls gelöscht.
 * Sie können keine Datensätze aus der Zeitleiste oder den Kalenderansichten löschen.
 
@@ -229,7 +166,7 @@ Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wie
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um das Löschen eines Datensatzes rückgängig zu machen oder wiederherzustellen:
 
-   * <span class="preview">Klicken Sie auf das Symbol **Rückgängig** ![](assets/undo-icon.png) und dann auf **Kürzlich gelöscht**, um die gelöschten Datensätze wiederherzustellen. Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md). </span>
+   * Klicken Sie auf das **Rückgängig**-Symbol ![](assets/undo-icon.png) und dann auf **Zuletzt gelöscht**, um die gelöschten Datensätze wiederherzustellen. Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Mit den folgenden Tastaturbefehlen können Sie das Löschen eines Datensatzes rückgängig machen oder wiederholen:
 
       * Strg+Z (⌘+Z für Mac), um das Löschen eines Eintrags rückgängig zu machen

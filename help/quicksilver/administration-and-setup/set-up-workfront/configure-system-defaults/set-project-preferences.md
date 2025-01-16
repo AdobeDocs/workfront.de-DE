@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2721'
+source-wordcount: '2661'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 <!--Audited: 12/2023-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Als [!DNL Adobe Workfront] können Sie die Standardeinstellungen für alle im System erstellten Projekte konfigurieren. Diese Voreinstellungen wirken sich auf das Verhalten von Projekten, Aufgaben und Problemen aus.
@@ -217,8 +217,8 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
 
 </tr> 
   <tr> 
-   <td role="rowheader"> <p><span class="preview">Wenn eine Benutzerin bzw. ein Benutzer einer Aufgabe zugeteilt ist, den Zeitplan verwenden von …</span></p> </td> 
-   <td> <div class="preview">
+   <td role="rowheader"> <p>Wenn eine Benutzerin bzw. ein Benutzer einer Aufgabe zugeteilt ist, den Zeitplan verwenden von …</p> </td> 
+   <td> 
 <p>Wenn einem Projekt kein Zeitplan zugewiesen ist oder den Benutzern, die seinen Aufgaben zugewiesen sind, kein Zeitplan zugewiesen ist, berechnet [!DNL Workfront] anhand des Systemstandardzeitplans den Zeitplan der Aufgaben.</p>
 
 <p>Wenn Sie einer Aufgabe in einem Projekt einen Benutzer zuweisen und sowohl dem Projekt als auch dem Benutzer, der den Aufgaben zugewiesen ist, Zeitpläne zugeordnet sind, verwendet [!UICONTROL Workfront] die folgenden Zeitpläne:</p> 
@@ -226,7 +226,7 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
      <li><strong>[!UICONTROL User]</strong>: [!DNL Workfront] berechnet Zeitleisten anhand des Zeitplans des zugewiesenen Benutzers für die Aufgabe.</li> 
      <li><strong>[!UICONTROL Project]</strong>: [!DNL Workfront] berechnet die Zeitleiste der Aufgabe anhand des Zeitplans des Projekts.</li> 
     </ul> <p>Weitere Informationen zu Zeitplänen finden Sie unter <a href="../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md" class="MCXref xref" data-mc-variable-override="">Erstellen eines Zeitplans</a>.</p>
-</div></td> 
+</td> 
   </tr>
 
 <tr data-mc-conditions=""> 

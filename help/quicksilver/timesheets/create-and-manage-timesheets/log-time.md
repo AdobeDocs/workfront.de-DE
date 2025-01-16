@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '3848'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -20,8 +20,6 @@ ht-degree: 0%
 
 <!--remove all preview and production references if any-->
 <!--update screen shots for the general hour entries and the mixed selection of hours at production, if they fixed the bugs -->
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar.</span>
 
 Sie können die Zeit für Arbeitselemente in Adobe Workfront protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Sie können auch Zeit erfassen, die nicht mit der Arbeit zusammenhängt, z. B. Urlaub, Krankenstand oder Zeit, die Sie in Meetings verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
 
@@ -497,11 +495,8 @@ Je nachdem, welchen Typ von Stundeneinträgen Sie bearbeiten, stehen die folgend
    * Zuweisung des Aufgabengebiets. Sie können die Aufgabenrollenzuweisung nur ändern, wenn sie in „Setup“ aktiviert wurde. Weitere Informationen finden Sie unter [Konfigurieren von Arbeitszeittabellen- und Stundenvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md)
    * Die Beschreibung des Stundeneintrags.
 
-<div class="preview">
 
-![](assets/edit-hour-box-project-hour-type.png)
-
-</div>
+  ![](assets/edit-hour-box-project-hour-type.png)
 
 * Wenn Sie allgemeine Stunden bearbeiten:
 
@@ -551,7 +546,7 @@ So bearbeiten Sie Stundentypen in einem Stundenbericht oder einer Stundenliste:
    >
    >   Je nachdem, welcher Stundentyp mit den ausgewählten Stundeneinträgen verknüpft ist, stehen nicht alle Felder zur Verfügung.
 
-1. Klicken Sie **Speichern <span class="preview">Änderungen</span>**.
+1. Klicken Sie **Änderungen speichern**.
 
    Die Stundeneintragsinformationen werden aktualisiert.
 Wenn Sie mehr als einen Stundeneintrag ausgewählt und das Feld Stunden geändert haben, wird allen ausgewählten Stundeneinträgen dieselbe Anzahl von Stunden zugewiesen. Die ursprünglichen Stunden werden durch den neuen Wert für alle ausgewählten Stundeneinträge ersetzt.

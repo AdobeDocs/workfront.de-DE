@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 5db940b197364e30ef6e1ea3e3c94ae3bda5b20c
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1683'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Seiten-Layout des Datensatzes verwalten
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -254,8 +254,6 @@ Folgendes geschieht:
 
    Alle Änderungen am Layout der Datensatzvorschau oder -seite werden automatisch gespeichert.
 
-<span class="preview">
-
 ## Hinzufügen einer Verbindungsansichtsseite zur Seite eines Datensatzes
 
 Beachten Sie Folgendes, wenn Sie eine Verbindungsansicht zur Seite eines Datensatzes hinzufügen:
@@ -292,7 +290,7 @@ Die Tabellenansicht ist schreibgeschützt.
 1. (Optional) Verwenden Sie beliebige Ansichtselemente in der Symbolleiste, um die Tabellenansicht zu verwalten. Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte, klicken Sie dann auf **Mehr** ![](assets/more-menu.png) und klicken Sie dann auf **Löschen**, um die neue Registerkarte Verbundene Ansicht zu entfernen.
 
-</span>
+
 
 <!--
 ## Add a Brief page to a record's page

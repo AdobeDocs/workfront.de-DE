@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 0da877936ba8f52341a5b151f76710c979ce9294
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1453'
+source-wordcount: '1394'
 ht-degree: 1%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 1%
 
 # Datensatztypen erstellen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -108,11 +108,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
         Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * <span class="preview">Wenn Sie sie mithilfe einer Excel- oder CSV-Datei importieren. </span>
+      * Wenn Sie sie mithilfe einer Excel- oder CSV-Datei importieren.
 
      >[!TIP]
      >
-     ><span class="preview">Wenn Sie einen Datensatztyp aus einer Excel- oder CSV-Datei importieren, werden möglicherweise auch Datensätze und Felder importiert.</span>
+     >Wenn Sie einen Datensatztyp aus einer Excel- oder CSV-Datei importieren, können Sie auch Datensätze und Felder importieren.
 
    * Manuell:
 
@@ -147,7 +147,7 @@ Informationen darüber, welche Datensatztypen in den einzelnen Vorlagen enthalte
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichsnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. (Optional) Klicken Sie auf **Abschnitt hinzufügen**, um einen neuen Abschnitt zum Arbeitsbereich hinzuzufügen.
-1. Klicken Sie **Datensatztyp hinzufügen** und dann auf <span class="preview">**Neu**</span>.
+1. Klicken Sie **Datensatztyp hinzufügen** und dann auf **Neu**.
 
    Das Feld Datensatztyp hinzufügen wird geöffnet.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
@@ -207,8 +207,6 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
    * [Datensatztypen löschen](/help/quicksilver/planning/architecture/delete-record-types.md)
    * [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Datensatzansichten verwalten](/help/quicksilver/planning/views/manage-record-views.md)
-
-<div class="preview">
 
 ## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
 
@@ -278,6 +276,3 @@ So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
    Sie können mit der Verwaltung von Feldern und Datensätzen auf den Datensatztypseiten beginnen.
 
    Alle Personen mit Zugriff auf Workfront Planning können jetzt die importierten Datensatztypen und deren Informationen anzeigen und bearbeiten.
-
-</div>
-

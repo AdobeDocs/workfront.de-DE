@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2363'
+source-wordcount: '2303'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Verbinden von Datensatztypen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -248,7 +248,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      >[!NOTE]
      >
-     ><span class="preview"> Wenn Sie für den Verbindungstyp Eins-zu-viele oder Eins-zu-Eins auswählen und später einen Datensatz oder ein Objekt verbinden möchten, das bereits an anderer Stelle verbunden ist, erhalten Sie eine Warnung, dass durch erneutes Verbinden der Datensatz oder das Objekt aus der ursprünglichen Verbindung entfernt wird. Sie können das Entfernen zulassen oder einen anderen Datensatz auswählen.</span>
+     > Wenn Sie für den Verbindungstyp Eins-zu-viele oder Eins-zu-Eins auswählen und später einen Datensatz oder ein Objekt verbinden möchten, das bereits an anderer Stelle verbunden ist, erhalten Sie eine Warnung, dass durch erneutes Verbinden der Datensatz oder das Objekt aus der ursprünglichen Verbindung entfernt wird. Sie können das Entfernen zulassen oder einen anderen Datensatz auswählen.
 
    * **Suchfelder auswählen**: Wählen Sie diese Option, um Felder aus dem ausgewählten Datensatztyp hinzuzufügen. Die Suchfelder sind Felder, die mit dem Datensatz oder Objekttyp verknüpft sind, mit dem Sie eine Verknüpfung herstellen. Durch Verknüpfen werden Informationen des Datensatzes oder Objekts angezeigt, mit dem Sie eine Verknüpfung herstellen, und zwar für den Datensatz, von dem aus eine Verknüpfung hergestellt wird. Dies ist standardmäßig ausgewählt.
 

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1948'
+source-wordcount: '1889'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Datensätze bearbeiten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 {{planning-important-intro}}
 
@@ -166,7 +166,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Datensatzfelder können aus den folgenden Bereichen bearbeitet werden:
 
    * Vorschau des Datensatzes in einer Datensatzansicht
-   * Die Seite des Datensatzes
+   * Die Detailseite des Datensatzes
    * Inline, in einer Tabellenansicht.
 
 * Wenn ein(e) Benutzende(r) einen Datensatz in einer Ansicht bearbeitet, sind die Änderungen sofort in allen Ansichten und auf den Datensatzseiten für alle anderen Benutzenden sichtbar.
@@ -349,7 +349,7 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
    >  * Verknüpfte Felder, die durch Verbinden von Datensatztypen erstellt werden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >  * Felder der folgenden Typen: Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am, Formelfelder.
 
-1. <span class="preview">(Optional) Klicken Sie auf das Informationssymbol rechts neben einem Feld, in dem es angezeigt wird, um die Beschreibung eines Felds anzuzeigen. </span>
+1. (Optional) Klicken Sie auf das Informationssymbol rechts neben einem Feld, in dem es angezeigt wird, um die Beschreibung eines Felds anzuzeigen.
 1. (Optional) Klicken Sie auf **Cover hinzufügen**, um dem Datensatz ein Cover-Bild hinzuzufügen
 
    Oder

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: ef7f5d00bd74feee5e06b935c4bb8a18ee8b08a8
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Adobe Workfront Planning AI Assistant - Überblick
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
 
 
 {{planning-important-intro}}
@@ -70,7 +70,7 @@ Sie können den KI-Assistenten verwenden, um zu diesem Zeitpunkt die folgenden A
 Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning:
 
 * Die Hauptnavigationsleiste in der oberen rechten Ecke des Bildschirms.
-* <span class="preview">Innerhalb des Detailbereichs eines Datensatzes, nachdem Sie den Datensatz in der Vorschau geöffnet oder nachdem Sie die Seite des Datensatzes geöffnet haben.</span>
+* Innerhalb des Detailbereichs eines Datensatzes, nachdem Sie den Datensatz in der Vorschau geöffnet oder nachdem Sie die Datensatzseite geöffnet haben.
 
 ## Zugriff auf den KI-Assistenten im Bereich Planung
 
@@ -84,7 +84,7 @@ Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning
 
 1. (Optional) Klicken Sie auf **Datensatz**, um die Seite **Details** des Datensatzes zu öffnen.
 
-1. Klicken Sie auf **KI** Assistentensymbol) in der oberen rechten Ecke des Bildschirms in der globalen Navigationsleiste <span class="preview"> oder in der oberen rechten Ecke der Vorschau oder Seite des Datensatzes.</span>
+1. Klicken Sie auf **KI** Assistentensymbol) in der oberen rechten Ecke des Bildschirms in der globalen Navigationsleiste oder in der oberen rechten Ecke der Vorschau oder Seite des Datensatzes.
 
    ![](assets/ai-assistant-icon-highlighted.png)
 

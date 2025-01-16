@@ -6,18 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 8425f8be7d30d36986ac1c062603e680c69902c6
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '841'
-ht-degree: 0%
+source-wordcount: '781'
+ht-degree: 1%
 
 ---
 
 # Kalenderansicht verwalten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 {{planning-important-intro}}
 
@@ -185,13 +185,12 @@ Verwalten einer Kalenderansicht:
 
       * **Monat**: Datensätze werden in einem monatlichen Kalender angezeigt.
 
-     <div class="preview">
 
       * **Woche**: Die Datensätze werden in den folgenden Bereichen angezeigt:
 
          * Datensätze, die sich über mehrere Tage erstrecken, werden oben im Kalender angezeigt.
          * Datensätze, die einen Tag oder weniger dauern, werden in der unteren Hälfte der Kalenderansicht angezeigt. Wenn Sie ausgewählt haben, die Stunde des Start- und Enddatums anzuzeigen, wird der Datensatz zum entsprechenden Zeitpunkt innerhalb des Tages angezeigt, an dem er auftritt.
-     </div>
+
 
 1. Aktualisieren Sie die folgenden Ansichtselemente wie in den folgenden Unterabschnitten beschrieben:
    * [Filter](#add-filters)

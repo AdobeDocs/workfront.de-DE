@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '709'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Hinzufügen eines Cover-Bildes zu einem Datensatz
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -148,7 +148,7 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    ![](assets/details-page.png)
 
-1. Klicken Sie in der Datensatzvorschau oder auf der Seite auf **Abdeckung hinzufügen** in der Produktionsumgebung, <span class="preview">oder bewegen Sie den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann in der **auf** Abdeckung hinzufügen </span>.
+1. Bewegen Sie auf der Seite „Datensatzvorschau“ oder „Details“ den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann auf **Abdeckung hinzufügen**.
 
    Oder
 
@@ -167,7 +167,7 @@ Das **„Datensatzabdeckung** wird auf der Registerkarte **Hochladen** geöffnet
 
 1. Klicken Sie **Bild verwenden**.
 
-   Das Bild wird oben auf der Datensatzvorschau oder Seite hochgeladen und die Änderungen werden automatisch gespeichert.
+   Das Bild wird oben auf der Datensatzvorschau- oder Detailseite hochgeladen und die Änderungen werden automatisch gespeichert.
 
    ![](assets/record-page-with-cover-image.png)
 

@@ -6,9 +6,9 @@ description: Sie können intelligente Zuweisungen verwenden, um zu ermitteln, we
 author: Alina
 feature: Work Management
 exl-id: 073a3234-3156-4b4f-a3e1-dbb32d61068a
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '396'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ ht-degree: 0%
 
 <!--keep the yellow around the Rate card job roles and the Preview intro for those-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die nur in der Produktionsumgebung für Kunden verfügbar sind, die schnelle Versionen aktiviert haben.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die nur in der Vorschau-Umgebung verfügbar sind.</span>
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<!--<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
-<span class="preview"> Diese Funktion wird für Kunden, die die Schnellversion mit Version 25.1 im Januar 2025 aktiviert haben, aus der Produktionsumgebung entfernt. Weitere Informationen zur Version 25.1 finden Sie unter [Übersicht über die Version im ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+<span class="preview"> This functionality will be removed from the Production environment for customers who enabled fast release with the 25.1 release in January 2025. For information about the 25.1 release, see [First Quarter 2025 release overview](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md). -->
 
 Sie können intelligente Zuweisungen verwenden, um zu ermitteln, wer die Arbeit am besten erledigen kann.
 
 Intelligente Zuweisungen sind Vorschläge für Benutzende, Rollen oder Teams, die Adobe Workfront Ihnen beim Zuweisen von Arbeitselementen zu Ressourcen vorlegt. Workfront stützt seine Vorschläge auf einen Algorithmus, der die am besten geeignete Ressource für den Auftrag bestimmt.
 
-<span class="preview">In Workfront gibt es zwei separate Algorithmen zur Berechnung von Smart Assignments, die für Aufgaben und Probleme unterschiedlich funktionieren.</span>
+<!--<span class="preview">There are two separate algorithms in Workfront that calculate smart assignments that work differently for tasks and for issues.</span> -->
 
 Weitere Informationen über die Kriterien zur Bestimmung von Smart-Zuweisungen finden Sie unter [Smart-Zuweisungen - Übersicht](/help/quicksilver/manage-work/tasks/assign-tasks/smart-assignments.md).
 
@@ -75,24 +75,22 @@ Smart-Zuweisungen sind an den meisten Stellen verfügbar, an denen Sie Zuweisung
    * Aufgaben- oder Problemliste oder Bericht
    * Kopfzeile einer Aufgabe oder eines Problems
    * Das Bedienfeld „Aufgaben- oder Problemzusammenfassung“
-   * <span class="preview">Eine neue Aufgabe</span> oder ein neues Problem, wenn Sie <span class="preview">eine neue Aufgabe</span> oder ein Problem zu einem Projekt hinzufügen
    * Eine Aufgabe oder ein Problem im Workload Balancer
+     <!--* <span class="preview">A New Task</span> or New Issue box, as you add <span class="preview">a new task</span> or issue to a project-->
 
 1. Platzieren Sie den Cursor im Feld Arbeitsaufträge und warten Sie zwei Sekunden.
 
-   Bei Problemen werden die Smart-Zuweisungen in den folgenden Abschnitten angezeigt:
+   <!--For issues, the smart assignments display in the following sections: 
+      * **Users and teams**
+      * **Job roles**
+        ![](assets/smart-assignments-issue-header.png)-->
 
-   * **Benutzer und Teams**
-   * **Aufgabengebiete**
+   Smart-Zuweisungen werden in den folgenden Abschnitten angezeigt<!--, depending on which phase of the algorithm's calculation identified the assignments-->:
 
-   ![](assets/smart-assignments-issue-header.png)
+   <!--* <span class="preview">**Suggested assignments**: Displays assignments identified in the first phase of the task smart assignment algorithm.</span> -->
+   * **Benutzer und Teams**, **Aufgabengebiete** oder <span class="preview">**Tarifkarten-Aufgabengebiete**</span>: <!--Assignments identified in the second phase of the task smart assignment's algorithm calculation.-->
 
-   Für Aufgaben werden die Smart Assignments in den folgenden Abschnitten angezeigt, je nachdem, in welcher Phase der Algorithmusberechnung die Zuweisungen identifiziert wurden:
-
-   * <span class="preview">**Vorgeschlagene Zuweisungen**: Zeigt Zuweisungen an, die in der ersten Phase des Smart Assignment-Algorithmus für Aufgaben identifiziert wurden.</span>
-   * **Benutzer und Teams**, **Aufgabengebiete** oder <span class="preview">**Tarifkarten-Aufgabengebiete**</span>: Zuweisungen, die in der zweiten Phase der Algorithmusberechnung der Smart-Zuweisung für die Aufgabe identifiziert wurden.
-
-   <span class="preview">![](assets/smart-assignments-task-list.png)</span>
+   ![](assets/smart-assignments-task-list.png)
 
    Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../../manage-work/tasks/assign-tasks/smart-assignments.md).
 

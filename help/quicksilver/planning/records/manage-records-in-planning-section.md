@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1433'
 ht-degree: 1%
 
 ---
@@ -18,16 +18,16 @@ ht-degree: 1%
 
 # Verwalten von Datensatzverbindungen aus Workfront-Objekten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
 
 {{planning-important-intro}}
 
 Sie können Workfront-Planungsdatensätze und die zugehörigen Datensätze, die mit Adobe Workfront-Objekten verbunden sind, in Workfront in den folgenden Bereichen anzeigen:
 
 * Der Abschnitt Planung eines Workfront-Objekts: Zeigt alle mit einem Objekt verbundenen Datensatztypen und die entsprechenden verbundenen Datensätze an.
-* <span class="preview">Benutzerdefiniertes Feld für Planning-Verbindung: Zeigt einen Datensatztyp und die entsprechenden verbundenen Datensätze an. </span>
+* Benutzerdefiniertes Feld für Planning-Verbindung: Zeigt einen Datensatztyp und die entsprechenden verbundenen Datensätze an.
 
 ## Zugriffsanforderungen
 
@@ -180,8 +180,6 @@ Folgendes geschieht:
    * Das Workfront-Objekt wird dem verbundenen Feld des Workfront-Planungsdatensatzes hinzugefügt.
    * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden in Workfront Planning ausgefüllt.
 
-<div class="preview">
-
 ## Verwalten von Datensätzen im Verbindungs-Feldtyp „Planung“
 
 Sie können ein benutzerdefiniertes Feld für Planning-Verbindungen in einem Workfront-Objekt verwenden, um einen Datensatztyp und die entsprechenden Datensätze anzuzeigen, die mit dem Workfront-Objekt verbunden sind.
@@ -254,5 +252,3 @@ Sie können Informationen zum Datensatz überprüfen oder zur Seite Datensatztyp
 
 1. (Optional) Klicken Sie im benutzerdefinierten Formular in Workfront auf das Symbol **Entfernen**, das in einem Datensatz ![](assets/remove-icon.png) wird, um es aus dem Feld „Planning-Verbindung“ zu entfernen und vom Workfront-Objekt zu trennen.
 Das Workfront-Objekt wird vom Planungsdatensatz getrennt und alle Suchinformationen aus Workfront werden aus dem Datensatz entfernt.
-
-</div>

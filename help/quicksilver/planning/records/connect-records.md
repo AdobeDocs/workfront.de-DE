@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '2988'
+source-wordcount: '2928'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Datensätze verbinden
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -181,7 +181,7 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
    >Wenn beim Verbinden der Datensatztypen nur das Bild des Datensatzes zur Anzeige ausgewählt wurde, wird im verbundenen Feld nur die Miniaturansicht oder das Symbol des Datensatzes angezeigt. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >
 
-1. <span class="preview"> (Bedingt) Wenn Sie beim Verbinden der Datensatztypen die Option Eins zu viele oder Eins zu eins für den Verbindungstyp ausgewählt haben und versuchen, einen Datensatz oder ein Objekt, das bereits an einer anderen Stelle verbunden ist, zu verbinden, erhalten Sie eine Warnung, dass beim erneuten Verbinden der Datensatz aus der ursprünglichen Verbindung entfernt wird. Klicken Sie auf **Verbinden**, um das Entfernen zuzulassen und den Datensatz zu verbinden, oder auf **Abbrechen**, um zum Feld zurückzukehren und einen anderen Datensatz auszuwählen.</span>
+1. (Bedingt) Wenn Sie beim Verbinden der Datensatztypen die Option Eins zu viele oder Eins zu eins für den Verbindungstyp ausgewählt haben und versuchen, einen Datensatz oder ein Objekt, das bereits an anderer Stelle verbunden ist, zu verbinden, erhalten Sie eine Warnung, dass beim erneuten Verbinden der Datensatz aus der ursprünglichen Verbindung entfernt wird. Klicken Sie auf **Verbinden**, um das Entfernen zuzulassen und den Datensatz zu verbinden, oder auf **Abbrechen**, um zum Feld zurückzukehren und einen anderen Datensatz auszuwählen.
 1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden können und Sie ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen**, um einen neuen Datensatz hinzuzufügen. Weitere Informationen finden Sie im Abschnitt „Erstellen von Datensätzen während der Verbindung“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]

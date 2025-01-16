@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '872'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Hinzufügen einer Miniaturansicht zu einem Datensatz
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 {{planning-important-intro}}
@@ -184,11 +184,7 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
 
    Die Detailseite des Datensatzes wird geöffnet.
 
-1. (Bedingt) Bewegen Sie in der Datensatzvorschau oder auf der Seite den Mauszeiger über das Miniaturbild oder ![](assets/record-thumbnail-icon-on-details-page.png) und klicken Sie dann in der Produktionsumgebung auf das **Mehr**-Menü ![](assets/more-menu.png) > **Miniaturansicht bearbeiten**.
-
-   Oder
-
-   <span class="preview">Bewegen Sie den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann **Miniaturansicht hinzufügen** oder **Miniaturansicht bearbeiten** in der Vorschau-Umgebung.</span>
+1. (Bedingt) Bewegen Sie auf der Seite „Datensatzvorschau“ oder „Details“ den Mauszeiger über das Miniaturbild oder ![](assets/record-thumbnail-icon-on-details-page.png), bewegen Sie dann den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann auf **Miniaturansicht hinzufügen** oder **Miniaturansicht bearbeiten**.
 
    Die **Hochladen** wird standardmäßig im Feld **Miniaturansicht aufzeichnen** geöffnet.
 
