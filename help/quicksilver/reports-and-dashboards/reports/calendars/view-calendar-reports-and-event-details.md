@@ -6,7 +6,7 @@ description: Sie können Kalenderberichte und Ereignisdetails anzeigen, die Sie 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: db016e91-43e4-400c-ac9d-1639c7f94479
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 9ddbe09ab99b6b151fc2d052b4c53e004eb0fa44
 workflow-type: tm+mt
 source-wordcount: '660'
 ht-degree: 0%
@@ -63,6 +63,7 @@ Abhängig von Ihrer Zugriffsebene werden möglicherweise die folgenden Kalender 
 * Standardkalender [!DNL Adobe Workfront]
 
   Workfront erstellt einen Kalender für Sie basierend auf den Projekten, Aufgaben und Problemen, die Ihnen zugewiesen sind oder die Teams, Gruppen oder Rollen zugewiesen sind, denen Sie zugewiesen sind.
+
 * Von Ihnen erstellte Kalender
 
   Informationen zum Erstellen von Kalendern finden Sie unter [Übersicht über Kalenderberichte](../../../reports-and-dashboards/reports/calendars/calendar-reports-overview.md).
