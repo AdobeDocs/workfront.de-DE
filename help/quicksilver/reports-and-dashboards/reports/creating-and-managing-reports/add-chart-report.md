@@ -6,7 +6,7 @@ description: Sie können Ihre Berichte verbessern, indem Sie ein Diagramm hinzuf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '2734'
 ht-degree: 0%
@@ -88,7 +88,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >[!TIP]
    >
    >* Sie können ein Diagramm nur dann zu einem Bericht hinzufügen, wenn die Berichtsergebnisse gruppiert sind.
-   >* Textmodusgruppierungen werden in Diagrammen nicht unterstützt. Weitere Informationen zu Textmodusgruppierungen finden Sie unter [Textmodus in einer Gruppierung bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
+   >* Textmodusgruppierungen werden in Diagrammen nicht unterstützt. Weitere Informationen zu Textmodusgruppierungen finden Sie unter [Gruppierung im Textmodus bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md).
    >* Wenn Sie eine einzelne Gruppierung hinzufügen, die eine Metrik darstellt, zeigen alle Diagramme außer einem Tortendiagramm jedes Ergebnis in der Gruppierung in derselben Farbe an.
 
    Weitere Informationen zum Erstellen von Gruppierungen finden Sie unter [Gruppierungen in Adobe Workfront erstellen](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/create-groupings.md).

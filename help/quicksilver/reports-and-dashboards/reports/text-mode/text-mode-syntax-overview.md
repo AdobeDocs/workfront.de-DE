@@ -7,7 +7,7 @@ author: Nolan
 feature: Reports and Dashboards
 role: User
 exl-id: f24430e1-c5f7-4925-93df-0e956a03c863
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '1862'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Übersicht über die Textmodussyntax
 
-<!--Audited: 12/2023-->
+<!--Audited: 1/2025-->
 
 Sie können die Benutzeroberfläche des Textmodus verwenden, um komplexere Ansichten, Filter, Gruppierungen und benutzerdefinierte Eingabeaufforderungen in Listen und Berichten zu erstellen. Durch die Verwendung des Textmodus können Sie auf Felder und ihre Attribute zugreifen, die nicht in der Standardmodus-Benutzeroberfläche verfügbar sind.
 
@@ -29,7 +29,7 @@ Weitere Informationen zum Erstellen von Berichten im Textmodus, einschließlich 
 ## Überlegungen zur Textmodussyntax
 
 * Sie müssen die Adobe Workfront-Syntax verstehen, bevor Sie mit dem Erstellen von Berichterstellungselementen im Textmodus beginnen können. Die Workfront-Syntax für den Textmodus ist in dieser Anwendung eindeutig und weist eindeutige Merkmale auf, mit denen Sie vertraut sein müssen.
-* Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir Ihnen dringend, unsere Kurse über erweiterte Berichte zu absolvieren, um ein tieferes Verständnis unserer Textmodussprache zu erhalten. <!--outdated link: For training materials on reporting see [Workfront Reports and Dashboards Learning Paths](https://one.workfront.com/s/learningpath2/workfront-reporting-20Y0z000000blhLEAQ).-->
+* Bevor Sie mit der Verwendung des Textmodus in Ihren Berichten beginnen, empfehlen wir Ihnen dringend, unsere Kurse über erweiterte Berichte zu absolvieren, um ein tieferes Verständnis unserer Textmodussprache zu erhalten.
 * Sie können Ansichten, Filter und Gruppierungen über die Standardmodus-Benutzeroberfläche anpassen. Sie können jedoch benutzerdefinierte Eingabeaufforderungen nur im Textmodus erstellen.
 
 ## Allgemeine Richtlinien zum Erstellen von Berichterstellungselementen im Textmodus
@@ -44,13 +44,11 @@ Im Folgenden finden Sie allgemeine Richtlinien zum Erstellen von Reporting- oder
 
   **Beispiel** Sie können den Namen oder die GUID des Portfolio-Inhabers in einer Aufgabenansicht anzeigen:
 
-
   `valuefield=project:portfolio:ownerID`
 
   Sie können den Verantwortlichen für das Portfolio nicht in einer Aufgabenansicht gruppieren, filtern oder dazu auffordern:
 
   `project:portfolio:ownerID=5808f4bc00790b270a9629dd128e63fa`
-
 
   In diesen Beispielen ist die Portfolio-Eigentümer-ID drei Objekte vom Objekt der Liste entfernt.
 
@@ -90,7 +88,7 @@ Die Syntax der unten aufgeführten Sätze von Reporting-Elementen weist beim Ers
   Informationen zu den Schlüsselzeilen von Codes für Ansichten und Gruppierungen beim Erstellen im Textmodus finden Sie unter:
 
    * [Bearbeiten einer Ansicht im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
-   * [Textmodus in einer Gruppierung bearbeiten](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+   * [Bearbeiten einer Gruppierung im Textmodus](../../../reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
 
 * Die Code- und Syntaxzeilen für Filter und benutzerdefinierte Eingabeaufforderungen sind ähnlich.
 

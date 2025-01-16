@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: fa24040d-0403-4799-b690-c3d172797115
-source-git-commit: d2e3379e9390f2b419bb2d78b1999c8c2dd7d0d3
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '744'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,25 @@ Auf dieser Seite werden alle Admin-Verbesserungen beschrieben, die mit der Versi
 
 Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
 
+## Geschäftsregeln werden jetzt für mehr Objekte unterstützt
+
+>[!NOTE]
+>
+>Vorschau-Version: 16. Januar 2025; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>
+>_Nur für Organisationen im Ultimate-Plan verfügbar._
+
+Sie können jetzt Geschäftsregeln erstellen und Validierungen auf diese zusätzlichen Objekte anwenden: Firma, Iteration, Sonstige Ressourcenkategorie, Aufgabengebiet, Benutzer, Zuweisung, Ressourcenpool, Ausfallzeit, Dokument und Stunde.
+
+Die folgenden Objekte wurden bereits für Geschäftsregeln unterstützt: Projekt, Aufgabe, Anfrage, Portfolio, Programm, Ausgabe, Rechnungsnachweis, Gruppe, Risiko und Tarifkarte.
+
+Weitere Informationen finden Sie unter [Erstellen und Bearbeiten von Geschäftsregeln](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/business-rules.md).
+
 ## Objekte zwischen Umgebungen zur Förderung der Umgebung vergleichen
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Januar 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 6. Januar 2025; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
 
 Um die Bestimmung des Objekts, das in einem Umgebungs-Promotion-Paket enthalten sein soll, zu erleichtern, haben wir die Möglichkeit hinzugefügt, Objekte über Umgebungen hinweg zu vergleichen. Jetzt können Sie Objekttypen und Umgebungen auswählen. Workfront generiert eine Liste von Objekten dieses Typs, unabhängig davon, ob sie in der Zielumgebung vorhanden sind und ob dieses Objekt Unterschiede zwischen der Quellumgebung und der Zielumgebung aufweist. Sie können dann Objekte direkt aus dieser Liste zu einem Paket hinzufügen.
 
@@ -34,7 +48,7 @@ Weitere Informationen finden Sie unter [Objekte zwischen Umgebungen ](/help/quic
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Januar 2024; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
+>Vorschau-Version: 6. Januar 2025; Produktionsversion für alle Kunden: Mit Version 25.1 (Januar 2025)
 
 Um die Funktionen der Umgebung-Promotion zu erweitern, haben wir weitere Objekte hinzugefügt. Jetzt können Sie die folgenden Objekte zu einem Umgebungs-Promotion-Paket hinzufügen:
 

@@ -6,20 +6,16 @@ description: Sie können einen Filter in einer Liste oder einem Bericht im Textm
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1008'
-ht-degree: 0%
+source-wordcount: '1042'
+ht-degree: 1%
 
 ---
 
 # Bearbeiten eines Filters im Textmodus
 
-<!-- Audited: 01/2024 -->
-
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: add a section in this article: /Content/Reports and Dashboards/Reports/Reporting Elements/create-customize-fitlers.html; *** Also, draft this area in the Text Mode overview article)</p>
--->
+<!-- Audited: 1/2025 -->
 
 Sie können einen Filter in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardschnittstelle nicht verfügbar sind, und komplexere Filter zu erstellen.
 
@@ -29,7 +25,7 @@ Weitere Textmodusbeispiele beim Erstellen eines Filters finden Sie auch im Absch
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -41,9 +37,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td><p>Neu: Standard</p>
-    <p>oder</p>
-    <p>Aktuell: Plan</p> </td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -56,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -84,12 +87,20 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   1. Um auf den Filter aus einem Bericht zuzugreifen, gehen Sie zum Bericht und klicken Sie dann auf **Berichtsaktionen** > **Bearbeiten** > **Filter** Registerkarte.
-   1. Um auf den Filter aus einer Liste zuzugreifen, gehen Sie zur Liste und bewegen Sie im Menü **Filter** den Mauszeiger über den Filter, den Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+   Um auf den Filter aus einer Liste zuzugreifen, wechseln Sie zur Liste, klicken Sie auf das Symbol **Filter**, bewegen Sie dann den Mauszeiger über den Filter im seitlichen Bedienfeld **Filter**, das Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png). Entweder wird im **Filter** Seitenbereich Ihr ausgewählter Filter angezeigt oder der Legacy-Filter-Builder wird geöffnet.
 
-      Der Filtergenerator wird geöffnet.
+   ODER
 
-1. Klicken Sie **Filterregel hinzufügen**, um die Bedingungen Ihres Filters hinzuzufügen, und klicken Sie dann auf **Textmodus** oder **In Textmodus wechseln** auf der rechten Seite des Builders.
+   Um auf den Filter aus einem Bericht zuzugreifen, gehen Sie zum Bericht und klicken Sie dann auf **Berichtsaktionen** > **Bearbeiten** > **Filter** Registerkarte.
+
+1. Führen Sie einen der folgenden Schritte aus:
+
+   Wenn Sie den Seitenbereich **Filter** in einer Liste verwenden, klicken Sie auf **Textmodus**.
+
+   ODER
+
+   Wenn Sie den alten Filter-Builder oder einen Bericht verwenden, klicken Sie auf **Filterregel hinzufügen**, um die Bedingungen Ihres Filters hinzuzufügen. Klicken Sie dann auf **Zum Textmodus wechseln** und dann **Textmodus bearbeiten** auf der rechten Seite des Builders.
+
 1. Fügen Sie Filteranweisungen im Textmodus hinzu. Jede Filteranweisung kann die folgenden Zeilen und zusätzliche Informationen enthalten:
 
    <table style="table-layout:auto"> 
@@ -175,7 +186,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
       >`OR:2:plannedCompletionDate=$$TODAY`
       >`OR:2:plannedCompletionDate_Mod=eq`
 
-1. Klicken Sie auf **Textmodus beenden** oder **Fertig**, um Ihre Textmodusänderungen zu speichern und mit der Bearbeitung des Berichts oder Filters fortzufahren.
+1. Klicken Sie auf **Anwenden** oder **Fertig**, um Ihre Textmodusänderungen zu speichern und mit der Bearbeitung des Berichts oder Filters fortzufahren.
 1. Klicken Sie auf **Speichern + Schließen**, um Ihren Bericht zu speichern, oder **Filter speichern**, um den Filter in der Liste zu speichern.
 
 

@@ -6,7 +6,7 @@ description: Datumsangaben können so konfiguriert werden, dass sie in Berichten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ff0686aa-b306-4954-8f9b-3e98bf8cff22
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '198'
 ht-degree: 0%
@@ -14,6 +14,8 @@ ht-degree: 0%
 ---
 
 # Formatieren von Datumsangaben in Berichten im Textmodus
+
+<!-- Audited: 1/2025 -->
 
 Datumsangaben können so konfiguriert werden, dass sie in Berichten und Listen in Adobe Workfront in einer Vielzahl von Formaten angezeigt werden. Um ein Datumsformat festzulegen, müssen Sie die `valueformat` Zeile des Textmodus-Codes in der Spalte ändern.
 
@@ -33,13 +35,7 @@ valuefield=plannedCompletionDate
 
 Weitere Informationen zum Anwenden der bedingten Formatierung in Workfront-Berichten und -Listen im Textmodus finden Sie unter [Verwenden der bedingten Formatierung im Textmodus](../../../reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md).
 
-Sie können Datumswerte wie folgt formatieren
-
-```
-valueformat
-```
-
- Textmoduswerte:
+Sie können Datumsangaben mithilfe der folgenden `valueformat` Textmoduswerte formatieren:
 
 | **format** | Beispiel  | ***valueFormat=*** |
 |---|---|---|

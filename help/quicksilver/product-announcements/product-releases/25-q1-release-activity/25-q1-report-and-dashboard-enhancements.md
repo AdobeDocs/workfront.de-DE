@@ -5,10 +5,10 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 3c0b4797-594c-44d0-b3ad-a64384b6c4a8
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '250'
-ht-degree: 0%
+source-wordcount: '324'
+ht-degree: 4%
 
 ---
 
@@ -17,6 +17,31 @@ ht-degree: 0%
 Auf dieser Seite werden alle Berichts- und Dashboard-Verbesserungen beschrieben, die mit der Version vom ersten Quartal 2025 in der Vorschau-Umgebung vorgenommen wurden. Diese Verbesserungen werden wie angegeben in der Produktionsumgebung verfügbar gemacht.
 
 Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderungen finden Sie unter [Versionsübersicht 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md).
+
+## Neue Entitäten in Data Connect verfügbar
+
+>[!NOTE]
+>
+>Vorschau-Version: 15. Januar 2025; Produktionsversion für alle Kunden: 15. Januar 2025
+
+Wir haben Unterstützung für die folgenden Entitäten in Data Connect hinzugefügt:
+
+* Projektteambenutzer
+* Projektteam-Benutzerrolle
+* Berichterstellbare budgetierte Stunden
+* Statistische Anzahl der Berichtsansichten
+* Ressourcenmanager
+* Rich-Text-Notiz
+
+Wir haben außerdem Unterstützung für die folgenden Agenturen-spezifischen Einrichtungen hinzugefügt:
+
+* Unternehmensprofil
+* Geschäftsregel
+* Speicherort
+* Kategorie „Sonstige Ressource“
+* Benutzerstandort
+
+Weitere Informationen finden Sie unter [Datenwörterbuch für Workfront Data Connect](/help/quicksilver/reports-and-dashboards/data-lake/data-dictionary.md).
 
 ## Beschränkung auf 25 Berichte, externe Seiten oder Kalender in Dashboards
 

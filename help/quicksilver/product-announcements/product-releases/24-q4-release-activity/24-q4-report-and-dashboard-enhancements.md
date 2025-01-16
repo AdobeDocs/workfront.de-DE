@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: d4b7b926-f747-4aee-b983-fe6b5f2e0dfd
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 1f33ef44b8e5d703c5407cdd2fc8ca24fba48bb1
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '239'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im vierten Quartal 2024-Ve
 >
 >Produktionsversion für alle Kunden: Mit der Version 24.10 (17. Oktober 2024)
 >
->_Nur für Organisationen mit einem der neuen Adobe Workfront-Pläne verfügbar. Data Connect ist im Ultimate-Plan enthalten oder kann als Add-on zu den Prime- und Select-Plänen erworben werden._
+>_Nur für Organisationen mit einem der neuen Adobe Workfront-Pläne verfügbar. Data Connect ist im Ultimate-Plan enthalten und wird in der ersten Jahreshälfte 2025 als Add-on für die Prime- und Select-Pläne zum Kauf bereitgestellt._
 
 Workfront Data Connect wird für Kunden mit einem der neuen Workfront-Pläne verfügbar. Data Connect ermöglicht Unternehmen den Zugriff auf ihre Daten als sicheren und skalierbaren Data Lake, der mithilfe von Business Intelligence-Tools analysiert und visualisiert oder extern gespeichert werden kann. Darüber hinaus können Unternehmen Data Connect verwenden, um zuvor nicht verfügbare Datenanalysen anzuzeigen, z. B. zeitbasierte Trendanalysen, Variablenzuordnungen und Analysen externer Systemdaten in Kombination mit Workfront-Daten.
 

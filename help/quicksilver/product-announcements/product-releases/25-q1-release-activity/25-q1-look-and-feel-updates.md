@@ -5,7 +5,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 6f2a4a3d-c35b-468b-9ccf-789455de50d4
-source-git-commit: 5ad96cc98e3bd8556224885940052a4f3d22697f
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
 source-wordcount: '769'
 ht-degree: 0%
@@ -28,7 +28,6 @@ Eine Liste aller Änderungen, die mit der Version vom ersten Quartal 2025 verfü
 Das Erscheinungsbild des Felds „Stunde bearbeiten“ bei der Bearbeitung von Stunden in einer Stundenliste oder einem Bericht wurde an das Design anderer Bereiche von Workfront angepasst.
 
 Weitere Informationen finden Sie unter [Zeit erfassen](/help/quicksilver/timesheets/create-and-manage-timesheets/log-time.md).
-
 
 
 ## Aktualisiertes Erlebnis auf der Seite „Cloud-Anbieter“ im Bereich „Setup“

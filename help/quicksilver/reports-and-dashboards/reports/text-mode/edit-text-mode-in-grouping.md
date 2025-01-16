@@ -1,23 +1,21 @@
 ---
 product-area: reporting
 navigation-topic: text-mode-reporting
-title: Textmodus in einer Gruppierung bearbeiten
+title: Bearbeiten einer Gruppierung im Textmodus
 description: 'HINWEIS: alle FVG-Artikel für die Bearbeitung im Textmodus gleich machen)'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1520'
 ht-degree: 0%
 
 ---
 
-# Textmodus in einer Gruppierung bearbeiten
+# Bearbeiten einer Gruppierung im Textmodus
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">NOTE: make all FVG articles the same for editing in text mode)</p>
--->
+<!-- Audited: 1/2025 -->
 
 Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardbenutzeroberfläche nicht verfügbar sind, und komplexere Gruppierungen zu erstellen.
 
@@ -27,32 +25,45 @@ Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bear
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Gruppierungen in einem Bericht zu bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um Gruppierungen in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berichtsberechtigungen zum Bearbeiten von Gruppierungen in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Gruppierung, um sie zu bearbeiten</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berichtsberechtigungen zum Bearbeiten von Gruppierungen in einem Bericht</p> <p>Verwalten von Berechtigungen für eine Gruppierung, um sie zu bearbeiten</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 
@@ -64,7 +75,7 @@ Weitere Informationen finden Sie unter:
 * [Übersicht über die Textmodus-Syntax](../../../reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
 * [Beispiele für benutzerdefinierte Ansichten, Filter und Gruppierungen: Artikelindex](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
 
-## Textmodus in einer Gruppierung bearbeiten
+## Bearbeiten einer Gruppierung im Textmodus
 
 Das Bearbeiten einer Gruppierung im Textmodus ist für Berichte und Listen identisch. Der Zugriff auf die Gruppierung über einen Bericht oder eine Liste unterscheidet sich.
 
@@ -83,7 +94,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
 
       Der Gruppierungs-Builder wird geöffnet.
 
-1. Klicken Sie **Gruppierung hinzufügen**, um die Gruppierungen hinzuzufügen, und klicken Sie dann in **rechten oberen Ecke des Builders auf** In Textmodus wechseln.
+1. Klicken Sie **Gruppierung hinzufügen** um die Gruppierungen hinzuzufügen, klicken Sie in der oberen rechten Ecke **Builders auf** In Textmodus wechseln und klicken Sie dann auf **Textmodus bearbeiten**.
 
    >[!TIP]
    >

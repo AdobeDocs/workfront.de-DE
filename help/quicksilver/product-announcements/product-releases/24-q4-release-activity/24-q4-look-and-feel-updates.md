@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 8bd234b2-7bda-43f4-9b08-3cf064e1d2de
-source-git-commit: 10ab6466780d9fe88604bf781c153cde89f1e454
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Eine Liste aller Änderungen, die mit der Version vom vierten Quartal 2024 verf�
 
 >[!NOTE]
 >
->Produktionsversion für alle Kunden: Inkrementell beginnend mit Version 24.10 (17. Oktober 2024), volle Verfügbarkeit bis zum 8. November 2024
+>Produktionsversion für alle Kunden: Inkrementell beginnend mit Version 24.10 (17. Oktober 2024)
 
 Wir haben die Benutzeroberfläche des Berichts an das Design anderer Bereiche von Workfront angepasst. Diese Aktualisierungen beinhalten zusätzliche Änderungen an den Reporting-Funktionen:
 

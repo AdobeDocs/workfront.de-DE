@@ -6,45 +6,60 @@ description: Sie können bedingte Formatierung verwenden, um zwei verschiedene F
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 89a6d856f9f87a67b6a2ccfb4282f9f6200b977c
+source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '461'
 ht-degree: 1%
 
 ---
 
 # Vergleichen von Feldern in bedingter Formatierung
 
+<!-- Audited: 1/2025 -->
+
 Sie können bedingte Formatierung verwenden, um zwei verschiedene Felder in einer Ansicht zu vergleichen und sie hervorzuheben, wenn bestimmte Kriterien zwischen den Feldern erfüllt sind.
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um die Ansicht in einem Bericht zu bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards und Kalender bearbeiten, um die Ansicht in einem Bericht zu bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten der Berechtigungen für einen Bericht, um die Ansicht in einem Bericht zu bearbeiten</p> <p>Verwalten der Berechtigungen für eine Ansicht</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten der Berechtigungen für einen Bericht, um die Ansicht in einem Bericht zu bearbeiten</p> <p>Verwalten der Berechtigungen für eine Ansicht</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Beispiel: Tatsächliches Startdatum und Geplantes Startdatum vergleichen
 
@@ -53,27 +68,28 @@ Wenn beispielsweise das tatsächliche Startdatum einer Aufgabe nach dem geplante
 So vergleichen Sie das geplante Startdatum und das tatsächliche Startdatum einer Aufgabe mithilfe einer bedingten Formatierung:
 
 1. Gehe zu einer Aufgabenansicht oder einem Bericht.
-1. (Bedingt) Wenn Sie mit einem Bericht arbeiten, klicken Sie auf der Registerkarte **Spalten (Ansicht)** auf die Kopfzeile der Spalte, die Sie mit Bedingungen formatieren möchten, um sie auszuwählen.\
+1. (Bedingt) Wenn Sie mit einem Bericht arbeiten, klicken Sie auf der Registerkarte **Spalten (Ansicht)** im Berichtseditor auf die Kopfzeile der Spalte, die Sie mit Bedingungen formatieren möchten, um sie auszuwählen.\
    Wählen Sie beispielsweise die Spalte **Tatsächliches Startdatum** aus, um ihr die bedingte Formatierung hinzuzufügen, indem Sie die Felder Geplantes Startdatum und Tatsächliches Startdatum vergleichen.
 
 1. Klicken Sie **Erweiterte Optionen** und anschließend auf &quot;**für diese Spalte hinzufügen**.
 
 1. Geben Sie die Vergleichskriterien mithilfe der vorhandenen Werte aus dem Builder ein und geben Sie Ihre bedingte Formatierung an.\
-   Beispielsweise möchten wir Aufgaben hervorheben, deren tatsächliches Startdatum nach dem geplanten Startdatum liegt (oder größer ist). Wählen Sie den Modifikator Größer als und danach im Datumsfeld ein tatsächliches Datum aus.\
-     ![](assets/cond-format-1-350x84.png)
+   Beispielsweise möchten wir Aufgaben hervorheben, deren tatsächliches Startdatum nach dem geplanten Startdatum liegt (oder größer ist). Wählen Sie den Modifikator Größer als und danach im Datumsfeld ein tatsächliches Datum aus.
+
+   ![](assets/cond-format-1-350x84.png)
 
 1. (Optional) Wählen Sie **Auf gesamte Zeile anwenden** aus, wenn Sie die Formatierung auf die gesamte Zeile anwenden möchten.
-1. Klicken Sie **Regel hinzufügen** und dann **Fertig**.
+1. Klicken Sie auf **Speichern**.
 
 1. Wählen Sie die **Tatsächliches Startdatum** aus und klicken Sie dann auf **In Textmodus wechseln**.
 
-1. **Klicken Sie, um Text zu bearbeiten** und fügen Sie dann die folgende Textzeile hinzu:
+1. Klicken Sie **Textmodus bearbeiten** und fügen Sie dann die folgende Textzeile hinzu:
 
    ```
    styledef.case.0.comparison.rightmethod= <field to compare>
    ```
 
-   In unserem Beispiel: 
+   In unserem Beispiel:
 
    ```
    styledef.case.0.comparison.rightmethod=plannedStartDate

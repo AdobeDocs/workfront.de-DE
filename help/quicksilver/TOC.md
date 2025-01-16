@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d87e7aab75c65796e9d4ef04c46aef295dbd898f
 workflow-type: tm+mt
-source-wordcount: '14784'
+source-wordcount: '14788'
 ht-degree: 2%
 
 ---
@@ -319,6 +319,8 @@ ht-degree: 2%
             * [Aktivität der Adobe Workfront-Version 23.3 vom 8. Mai 2023](/help/quicksilver/product-announcements/product-releases/workfront-proof-release-activity/proof-23-3-release/proof-23-3-may-8.md)
          * [Workfront Proof-Veröffentlichungsaktivität: Woche vom 17. Mai 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-may-17.md)
          * [Workfront Proof-Veröffentlichungsaktivität: Woche vom 29. November 2021](product-announcements/product-releases/workfront-proof-release-activity/wp-release-22-1.md)
+      * {#interface-modernization} der Schnittstellenmodernisierung
+         * [Modernisierung der Benutzeroberfläche](/help/quicksilver/product-announcements/product-releases/interface-modernization/interface-modernization.md)
       * Quartalsveröffentlichungsarchiv {#quarterly-release}
          * [Quartalsarchiv](product-announcements/product-releases/quarterly-release-archive/quarterly-release-archive.md)
          * {#release-20-4} zur Version 20.4
@@ -1715,7 +1717,7 @@ ht-degree: 2%
          * [Übersicht über die Textmodussyntax](reports-and-dashboards/reports/text-mode/text-mode-syntax-overview.md)
          * [Bearbeiten einer Ansicht im Textmodus](reports-and-dashboards/reports/text-mode/edit-text-mode-in-view.md)
          * [Bearbeiten eines Filters im Textmodus](reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-         * [Textmodus in einer Gruppierung bearbeiten](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+         * [Bearbeiten einer Gruppierung im Textmodus](reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
          * [Bedingte Formatierung im Textmodus verwenden](reports-and-dashboards/reports/text-mode/use-conditional-formatting-text-mode.md)
          * [Formatieren von Datumsangaben in Berichten im Textmodus](reports-and-dashboards/reports/text-mode/format-dates-in-text-mode-reports.md)
          * [Formatieren von Zahlen, Währungs- und Prozentwerten in Textmodusberichten](reports-and-dashboards/reports/text-mode/format-numbers-in-text-mode-reports.md)
