@@ -9,16 +9,14 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: fa70a7ae5d8edce9dab4ca2ac4c2266b2c463734
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '1063'
-ht-degree: 1%
+source-wordcount: '1041'
+ht-degree: 2%
 
 ---
 
 # Übersicht über das Verschieben von Objekten zwischen Workfront-Umgebungen (Umgebungs-Promotion)
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Mit der Funktion zum Hochstufen der Umgebung können Sie Objekte von einer Workfront-Umgebung in eine andere verschieben. Sie können beispielsweise eine Vorlage erstellen und in Ihrer Sandbox-Umgebung konfigurieren, in dem Wissen, dass Tests, die Sie durchführen, keine Auswirkungen auf die tatsächlichen Daten Ihrer Organisation haben. Nachdem die Vorlage konfiguriert und getestet wurde, können Sie sie in Ihre Produktionsumgebung verschieben, sodass sie verwendet werden kann.
 
@@ -100,8 +98,8 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 | Risikotyp (RSKTYP) | Risikotyp |
 | Ressourcenpool (RSPL) | Ressourcen-Pool |
 | Zugriffsebene (ACSLV) | Zugriffsebene |
-| <span class="preview">Tarifkarte (RTCRD)</span> | <span class="preview">Tarifkarte</span> |
-| <span class="preview">Location/Classifier (CLSF)</span> | <span class="preview">Speicherort/Klassifikator</span> |
+| Tarifkarte (RTCR) | Tarifkarte |
+| Speicherort/Klassifikator (CLSF) | Speicherort/Klassifikator |
 
 \* Derzeit nicht verfügbar
 

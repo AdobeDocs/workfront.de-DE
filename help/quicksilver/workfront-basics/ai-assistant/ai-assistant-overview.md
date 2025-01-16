@@ -5,18 +5,14 @@ description: Überblick über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 47469f684bf3be6c6a9d3c39ba3960ca13e43578
+source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
 workflow-type: tm+mt
-source-wordcount: '741'
+source-wordcount: '693'
 ht-degree: 1%
 
 ---
 
 # Überblick über den KI-Assistenten
-
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist in der Vorschau -Umgebung für alle Kunden und in der Produktionsumgebung für Kunden verfügbar, die monatliche Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Der KI-Assistent von Workfront hilft Ihnen bei der Durchführung Ihrer Arbeit, indem er In-App-Informationen und -Vorschläge in einer Unterhaltung in natürlicher Sprache bereitstellt. Der KI-Assistent kann Ihnen ein reibungsloseres Arbeitserlebnis bieten durch
 
@@ -84,13 +80,9 @@ Der KI-Assistent bietet derzeit die folgenden Funktionen:
 
   Weitere Informationen finden Sie unter [Hilfe vom KI-Assistenten abrufen](/help/quicksilver/workfront-basics/ai-assistant/use-ai-to-retrieve-instructions.md).
 
-<div class="preview">
-
 * Suchen nach bestimmten Elementen in Workfront.
 
   Weitere Informationen finden Sie unter [Verwenden des KI-Assistenten zur Arbeit mit Projekten, Aufgaben und Problemen](/help/quicksilver/workfront-basics/ai-assistant/work-with-pti-through-ai-assisant.md).
-
-</div>
 
 * Formeln für berechnete benutzerdefinierte Felder werden generiert oder verfeinert.
 
@@ -100,12 +92,10 @@ Der KI-Assistent bietet derzeit die folgenden Funktionen:
 
   Weitere Informationen finden Sie unter [Generieren oder Überarbeiten berechneter Feldformeln mit dem KI-Assistenten](/help/quicksilver/workfront-basics/ai-assistant/use-ai-assistant-to-check-formulas.md).
 
-<div class="preview">
-* Zusammenfassen von Aktualisierungen, hochgeladenen Dokumenten und anderen wichtigen Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen: 24 Stunden, 3 Tage, 7 Tage in Prioritäten.
+* Zusammenfassen von Aktualisierungen, hochgeladenen Dokumenten und anderen wichtigen Änderungen an Ihren Projekten innerhalb der folgenden Zeitrahmen: 24 Stunden, 3 Tage, 7 Tage mit Priorität.
 
 Weitere Informationen finden Sie unter [Aufholprozess bei den Prioritäten](/help/quicksilver/workfront-basics/priorities/catch-me-up.md).
 
-</div>
 
 ## Für den KI-Assistenten verfügbare Objekttypen
 
