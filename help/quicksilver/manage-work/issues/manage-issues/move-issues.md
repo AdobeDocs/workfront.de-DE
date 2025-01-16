@@ -6,9 +6,9 @@ description: Sie können Probleme zwischen Projekten und Aufgaben verschieben.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '932'
+source-wordcount: '868'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 12/2024-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Sie können Probleme zwischen den folgenden Objekten verschieben:
 
@@ -72,15 +72,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Beachten Sie beim Verschieben von Problemen, die Dokumente enthalten oder mit einer Anfrage-Warteschlange verbunden sind, Folgendes:
 
+* Ihr System- oder Gruppenadministrator kann verhindern, dass Probleme, bei denen Stunden protokolliert wurden, verschoben werden, je nachdem, wie er die Voreinstellung Benutzer dürfen Aufgaben verschieben konfiguriert hat, und Probleme mit protokollierten Stunden im Bereich Setup . Weitere Informationen finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * **Wenn ein Problem mit einer Anfrage-Warteschlange verknüpft ist:** Wenn Sie ein Problem in ein anderes Objekt verschieben und das Problem mit einer Anfrage-Warteschlange verknüpft ist, ist das verschobene Problem nicht mehr mit der ursprünglichen Warteschlange verknüpft, von der das erste Problem stammt.
 * **Wenn ein Dokument an das Problem angehängt wird:** Wenn Sie ein Problem in ein anderes Objekt verschieben und dem Problem ein Dokument angehängt ist, werden das Dokument, seine Versionen und Korrekturabzüge auch an das neue Problem angehängt. Genehmigungen, die mit dem Dokument verknüpft sind, werden nicht verschoben.
 * **Wenn ein Problem mit einem Dokument oder Ordner verknüpft ist:** Wenn Sie ein Problem verschieben, das Dokumente oder Ordner mit einem Drittanbieterdienst wie Google Drive verknüpft hat, werden die Links zu den Dokumenten mit dem Problem verschoben.
-
-<div class="preview">
-
-* Ihr System- oder Gruppenadministrator kann verhindern, dass Probleme, bei denen Stunden protokolliert wurden, verschoben werden, je nachdem, wie er die Voreinstellung Benutzer dürfen Aufgaben verschieben konfiguriert hat, und Probleme mit protokollierten Stunden im Bereich Setup . Weitere Informationen finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
 
 ## Probleme in einer Liste verschieben
 
@@ -103,9 +99,9 @@ Sie können ein oder mehrere Probleme aus einer Problemliste oder einem Problemb
 
 Sie können ein Problem beim Anzeigen verschieben.
 
-### Verschieben eines einzelnen Problems in die Vorschau-Umgebung
+### Einzelnes Problem verschieben
 
-1. Gehen Sie zu einem Problem, das Sie kopieren möchten, klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png)rechts neben dem Problemnamen und wählen Sie dann **Verschieben** aus.
+1. Gehen Sie zu einem Problem, das Sie verschieben möchten, klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Problemnamen und dann auf **Verschieben nach**.
 
    ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 

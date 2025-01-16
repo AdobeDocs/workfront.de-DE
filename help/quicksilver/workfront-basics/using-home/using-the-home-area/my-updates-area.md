@@ -6,9 +6,9 @@ description: Im Bereich [!UICONTROL Meine Updates] können Sie schnell die Geneh
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '787'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Verwenden Sie den Bereich [!UICONTROL Meine Aktualisierungen].
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Im Bereich [!UICONTROL Meine Updates] können Sie schnell die Genehmigungen überprüfen, die auf Ihre Entscheidung warten, oder die Konversationen, in die Sie aufgenommen wurden.
@@ -82,11 +82,7 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 
    Die Genehmigungen und Zugriffsanfragen, die Ihnen zugewiesen wurden, werden in der ersten Hälfte der Seite unter &quot;**Updates“**.
 
-   <div class="preview">
-
    ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
-
-   </div>
 
 1. (Optional) Scrollen Sie zum unteren Rand des Bereichs [!UICONTROL **Meine Aktualisierungen**] und klicken Sie auf den nach rechts zeigenden Pfeil, um weitere Genehmigungen anzuzeigen, die auf zusätzlichen Seiten angezeigt werden.
 
@@ -168,12 +164,8 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 
      Weitere Informationen zum Antworten auf Aktualisierungen finden Sie unter [Aktualisierungsarbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-     <span class="preview">Wenn Sie mit dem Hinzufügen der Antwort fertig sind, klicken Sie auf **[!UICONTROL Senden]**.</span>
-
-     <div class="preview">
+     Wenn Sie mit dem Hinzufügen der Antwort fertig sind, klicken Sie auf **[!UICONTROL Senden]**.
 
      ![](assets/reply-in-the-my-updates-area.png)
-
-     </div>
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Aktuelle Seite anheften]**, um den Bereich [!UICONTROL Meine Aktualisierungen] an Ihre obere Navigation anzuheften.

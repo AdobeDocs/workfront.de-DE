@@ -6,21 +6,20 @@ description: Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!U
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '906'
-ht-degree: 6%
+source-wordcount: '846'
+ht-degree: 7%
 
 ---
 
 # Aktualisieren oder Bearbeiten eines Arbeitselements im Bereich [!UICONTROL Startseite]
 
-<!--Audited: April 2024-->
+<!--Audited: 04/2024-->
 
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!UICONTROL Startseite] in [!DNL Adobe Workfront] anzeigen und hinzufügen. Sie können auch andere mit dem Arbeitselement verknüpfte Daten bearbeiten, wenn Sie Zugriff zur Bearbeitung haben.
 
@@ -133,22 +132,18 @@ Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL
 
 1. Klicken Sie **Antworten**.
 
-   <div class="preview">
-
    ![](assets/reply-to-comment-in-mentions-widget.png)
 
-   </div>
-
 1. Beginnen Sie mit der Eingabe Ihres Kommentars.
-1. (Optional) Beginnen Sie im Feld <span class="preview">**Personen taggen**</span> mit der Eingabe des Namens eines Benutzers oder Teams, das in diesen Kommentar aufgenommen werden soll, und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird.
+1. (Optional) Beginnen Sie im Feld **Personen taggen** mit der Eingabe des Namens eines Benutzers oder Teams, das in diesen Kommentar aufgenommen werden soll, und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird.
 1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Ihrem Kommentar Emojis, Links oder Bilder hinzuzufügen, um Ihre Inhalte zu verbessern.
-1. <span class="preview">Klicken Sie auf **Senden**, um den Kommentar zum Arbeitselement hinzuzufügen.</span>
+1. Klicken Sie **Senden**, um den Kommentar zum Arbeitselement hinzuzufügen.
 
    >[!IMPORTANT]
    >
-   ><span class="preview">Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das **Mehr**-Menü in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**.</span>
+   >Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das **Mehr**-Menü in der oberen rechten Ecke des Kommentars und dann auf **Bearbeiten**.
 
-   <span class="preview">Weitere Informationen zum Hinzufügen von Aktualisierungen finden Sie unter [Aktualisierungsarbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>
+   Weitere Informationen zum Hinzufügen von Aktualisierungen finden Sie unter [Aktualisierungsarbeit](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
 ## Bearbeiten eines Arbeitselements
 

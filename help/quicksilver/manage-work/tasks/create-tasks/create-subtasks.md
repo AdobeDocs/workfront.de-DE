@@ -6,9 +6,9 @@ description: In Adobe Workfront können Aufgaben über hierarchische Beziehungen
 author: Alina
 feature: Work Management
 exl-id: 3d970794-b5ea-422f-bc92-51846cb7db35
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Sie können Teilaufgaben aus der Aufgabenliste oder dem Abschnitt Teilaufgaben e
 
 >[!NOTE]
 >
->Ihr Workfront- oder Gruppenadministrator blendet möglicherweise den Abschnitt Teilaufgaben in Ihrer Umgebung aus.
+>Der Workfront- oder Gruppenadministrator kann den Abschnitt Teilaufgaben in der Umgebung mithilfe einer Layout-Vorlage entfernen.
 
 1. Wechseln Sie zu dem Projekt, in dem Sie Teilaufgaben erstellen möchten.
 1. Klicken Sie auf **Abschnitt** Aufgaben“ im linken Bereich.

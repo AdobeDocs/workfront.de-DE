@@ -6,9 +6,9 @@ description: In Adobe Workfront können Sie Aufgaben in verschiedene Projekte od
 author: Alina
 feature: Work Management
 exl-id: 93295d70-a6cf-46ca-b621-228fa6c983f5
-source-git-commit: 412645a802bdf9057bb61a5a96df257daa1c3948
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1547'
+source-wordcount: '1487'
 ht-degree: 2%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 2%
 <!--Audited: 12/2024-->
 
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 
 Sie können Aufgaben in Adobe Workfront zwischen den folgenden Objekten verschieben:
@@ -72,6 +72,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Aktionen in diesem Artikel
 
 Beachten Sie beim Verschieben einer Aufgabe Folgendes:
 
+* Ihr System- oder Gruppenadministrator kann verhindern, dass Aufgaben, für die Stunden protokolliert wurden, verschoben werden, je nachdem, wie er die Einstellung Benutzern das Verschieben von Aufgaben erlauben konfiguriert hat, und welche Probleme mit protokollierten Stunden im Bereich Setup auftreten. Weitere Informationen finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
+
 * Wenn Sie eine Aufgabe von einem Projekt in ein anderes verschieben, werden die Aufgabentermine möglicherweise neu berechnet. Bei der Neuberechnung werden der Zeitplan, den das neue Projekt verwendet, und die Zeitplaninformationen des Projekts aus berücksichtigt.
 
 * Sie haben während des Verschiebungsvorgangs die Möglichkeit, einige mit der Aufgabe verknüpfte Elemente auszuwählen und in die verschobene Aufgabe zu verschieben. Standardmäßig werden die folgenden Objekte jedoch an die verschobene Aufgabe übertragen:
@@ -82,16 +84,9 @@ Beachten Sie beim Verschieben einer Aufgabe Folgendes:
    * Benutzerdefinierte Formulare und Informationen zu benutzerdefinierten Feldern
    * Teilaufgaben
 
-Die folgenden Elemente werden standardmäßig nicht mit der Aufgabe verschoben:
+* Die folgenden Elemente werden standardmäßig nicht mit der Aufgabe verschoben:
 
-* Meilensteine
-
-<div class="preview">
-
-* Ihr System- oder Gruppenadministrator kann verhindern, dass Aufgaben, für die Stunden protokolliert wurden, verschoben werden, je nachdem, wie er die Einstellung Benutzern das Verschieben von Aufgaben erlauben konfiguriert hat, und welche Probleme mit protokollierten Stunden im Bereich Setup auftreten. Weitere Informationen finden Sie [Konfigurieren von systemweiten Aufgaben- und Problemvoreinstellungen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/set-task-issue-preferences.md).
-
-</div>
-
+   * Meilensteine
 
 ## Verschieben von Aufgaben in einer Liste
 

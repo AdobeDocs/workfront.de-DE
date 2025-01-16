@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2300'
+source-wordcount: '2411'
 ht-degree: 1%
 
 ---
@@ -30,11 +30,12 @@ Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufgaben dargeste
 Nachdem Sie eine Anfrage in einer Anfragewarteschlange erstellt haben, können Sie sie entweder dem Abschluss zuweisen oder in eine Aufgabe oder ein Projekt konvertieren.\
 Weitere Informationen zum Konvertieren von Problemen in eine Aufgabe oder ein Projekt finden Sie im Artikel [Übersicht über das Konvertieren von Problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
-Sie können eine Anfrage wie folgt erstellen:
+Sie können eine Workfront-Anfrage wie folgt erstellen:
 
 * Von Grund auf wie in diesem Artikel beschrieben.
 * Aus Entwürfen. Weitere Informationen finden Sie unter [Erstellen von Anfragen aus Entwürfen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * von einer vorhandenen Anfrage durch Kopieren und Senden einer Kopie. Weitere Informationen finden Sie unter [Anforderungen kopieren und senden](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
+* So erstellen Sie in einem Workfront Planning-Anforderungsformular Datensätze in Workfront Planning. Ihr Unternehmen muss ein Workfront Planning-Paket erwerben. Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Zugriffsanforderungen
 
@@ -344,6 +345,17 @@ Sie können Anfragen mit allen Programmen senden, die in Workfront integriert wu
 
 * Sie können Anfragen von Salesforce senden, wenn Sie die Workfront-App für Salesforce installiert haben.\
   Informationen zum Senden von Anfragen von Salesforce mithilfe unserer Workfront-App für Salesforce finden Sie im Artikel [Senden von Adobe Workfront-Anfragen von Salesforce-Objekten](../../../workfront-integrations-and-apps/using-workfront-with-salesforce/submit-workfront-requests-from-salesforce-objects.md).
+
+## Erstellen von Anfragen mithilfe eines Workfront Planning-Anfrageformulars
+
+Sie können eine Anfrage mithilfe eines Workfront Planning-Anfrageformulars hinzufügen. Durch das Hinzufügen von Workfront Planning-Anfragen können Planungsdatensätze erstellt werden, wenn das Anforderungsformular genehmigt wurde oder keine Genehmigung erforderlich ist.
+
+Ihr Unternehmen muss ein Workfront Planning-Paket erwerben, um Planungsanfragen senden zu können.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+* [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Gesendete Anfragen suchen
 

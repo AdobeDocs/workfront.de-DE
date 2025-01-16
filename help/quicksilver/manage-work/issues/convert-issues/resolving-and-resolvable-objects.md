@@ -7,9 +7,9 @@ description: Ein lösbares Objekt ist ein Problem, dessen Auflösung an ein Lös
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1771'
+source-wordcount: '1778'
 ht-degree: 1%
 
 ---
@@ -126,7 +126,7 @@ Wenn ein Problem manuell mit einem anderen Problem verknüpft wird, ändert der 
 
 Wenn ein Problem das lösbare Objekt einer Aufgabe oder eines Projekts ist, ändern sich der Status der Aufgaben und der Projektstatus im Trigger des Problems. Standardstatus werden in diesem Fall anders ausgelöst als benutzerdefinierter Status.
 
-Wenn der benutzerdefinierte Projektstatus einem Standardstatus entspricht, der keine Änderung des Problemstatus Trigger, ändert sich der Trigger für das Problem nicht.
+Wenn der benutzerdefinierte Status eines Projekts einem Standardstatus entspricht, der keine Änderung des Problemstatus Trigger, wird durch die Änderung des Projektstatus keine Statusänderung für das Problem Trigger.
 
 * [Synchronisieren Sie den Standardstatus des Lösungsobjekts mit dem Standardstatus des lösbaren Objekts](#synchronize-the-default-status-of-the-resolving-object-with-the-default-status-of-the-resolvable-object)
 * [Synchronisieren Sie den benutzerdefinierten Status des Lösungsobjekts mit dem benutzerdefinierten Status des lösbaren Objekts.](#synchronize-the-custom-status-of-the-resolving-object-with-the-custom-status-of-the-resolvable-object)

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User
 recommendations: noDisplay, noCatalog
 exl-id: ec549a61-095c-433f-80e2-1be5c0a05180
-source-git-commit: 9b5ba629fa2f50f0425f4afbfd4faa891d917845
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '562'
+source-wordcount: '502'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Adobe Workfront Planning-Benachrichtigungseinstellungen verwalten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -27,14 +27,9 @@ Sie erhalten möglicherweise In-App- oder E-Mail-Benachrichtigungen, wenn in Wor
 * Jemand fügt Sie zu einem Kommentar auf der Datensatzseite hinzu.
 * Jemand fragt nach der Berechtigung für den Zugriff auf eine Ansicht oder einen Arbeitsbereich
 * Jemand gewährt Ihnen die Berechtigung, auf eine Ansicht oder einen <!--I could not test this but Isk confirmed--> zuzugreifen
-
-<div class="preview">
-
 * Sie senden eine Workfront Planning-Anfrage.
 * Jemand genehmigt oder lehnt eine von Ihnen gesendete Workfront Planning-Anfrage ab.
 * Der Status ändert sich in eine von Ihnen gesendete Workfront Planning-Anfrage.
-
-</div>
 
 ## Zugriffsanforderungen
 
@@ -187,9 +182,9 @@ Heben Sie die Markierung der Benachrichtigungen auf, die Sie nicht mehr erhalten
    * **Anfragen**: Sie erhalten eine Benachrichtigung, wenn jemand einen der folgenden Schritte ausgeführt hat:
 
       * Fordert ein Workfront Planning-Objekt an oder gewährt Ihnen die Berechtigung dafür
-      * <span class="preview">Sie haben eine Workfront-Planungsanfrage gesendet</span>
-      * <span class="preview">Der Status einer von Ihnen gesendeten Workfront Planning-Anfrage</span>
-      * <span class="preview">Genehmigungen für Workfront Planning-Anfragen anfordern, gewähren oder ablehnen</span>
+      * Sie haben eine Workfront Planning-Anfrage gesendet
+      * Der Status einer von Ihnen gesendeten Workfront-Planungsanfrage ändert sich
+      * Genehmigungen für Workfront Planning-Anfragen anfordern, gewähren oder ablehnen
 
    Weitere Informationen zum Verwalten von Benachrichtigungen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 

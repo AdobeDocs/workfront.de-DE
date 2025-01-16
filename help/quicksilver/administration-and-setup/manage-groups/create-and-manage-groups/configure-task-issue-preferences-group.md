@@ -9,18 +9,18 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '2245'
+source-wordcount: '2185'
 ht-degree: 2%
 
 ---
 
 # Konfigurieren der Voreinstellungen für Aufgaben und Probleme für eine Gruppe
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Wenn Gruppen in Ihrem Unternehmen eine Aufgaben- oder Problem-Voreinstellung unabhängig von der Konfiguration auf Systemebene konfigurieren müssen, kann ein Adobe Workfront-Administrator die Voreinstellung entsperren. Als Gruppenadministrator können Sie dann die Voreinstellung für Ihre Gruppe konfigurieren. Dies wirkt sich auf alle Aufgaben oder Probleme Ihrer Gruppe aus.
 
@@ -95,7 +95,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * [Standardeinstellungen für neue Aufgaben](#new-task-defaults)
    * [Probleme](#issues)
    * [Löschen](#deletion)
-   * <span class="preview">[Verschieben](#move)</span>
+   * [Verschieben](#move)
    * [Tatsächliche Termine](#actual-dates)
    * [Delegierung](#delegation)
    * [Zugriff](#access)
@@ -184,8 +184,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    </table>
 
 
-<div class="preview">
-
 ### Verschieben
 
 <table style="table-layout:auto"> 
@@ -203,8 +201,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
     </tbody> 
    </table>
-
-</div>
 
 ### Tatsächliche Termine {#actual-dates}
 

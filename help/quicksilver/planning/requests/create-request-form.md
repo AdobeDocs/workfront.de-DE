@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '1564'
+source-wordcount: '1429'
 ht-degree: 2%
 
 ---
@@ -19,9 +19,11 @@ ht-degree: 2%
 
 <!--take Preview and Production references at Production time-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+-->
 
 {{planning-important-intro}}
 
@@ -131,7 +133,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    <!--Not possible yet: The Description is visible when you access the request form from the Requests area of Workfront.-->
 
-1. Klicken Sie auf **Erstellen**. Das Anfrageformular für den ausgewählten Datensatztyp wird <span class="preview"> auf der Registerkarte Formular geöffnet</span>.
+1. Klicken Sie auf **Erstellen**. Das Anfrageformular für den ausgewählten Datensatztyp wird auf der Registerkarte Formular geöffnet.
 
    ![](assets/campaigns-request-form-edit-mode.png)
 
@@ -139,40 +141,44 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * Verfügbare Datensatzfelder in der Tabellenansicht des ausgewählten Datensatztyps. <!--they are working on removing the limitation below-->
 
-<!-- when we go to prod, the Preview batch below will become the only batch-->
+   <!-- when we go to prod, the Preview batch below will become the only batch-->
 
->[!IMPORTANT]
->
-> Je nachdem, welche Umgebung Sie zum Erstellen eines Anfrageformulars verwenden, gibt es die folgenden Szenarien:
->
->* Felder der folgenden Typen werden im Anfrageformular in der Produktionsumgebung nicht angezeigt:
->
->    * Erstellt von und Zuletzt geändert von
->    * Erstellungsdatum und Datum der letzten Änderung
->    * Formel
->    * Personen
->    * Verbundene Workfront-Felder
->    * Suchfelder der Workfront-Objekte
->    * Verbundene Felder von Workfront-Planungsdatensätzen
->    * Suchfelder für verknüpfte Datensätze in Workfront
->    * AEM Assets-Verbindungsfelder
->* Felder der folgenden Typen werden im Anfrageformular in der Vorschau-<span class="preview"> nicht angezeigt:</span>
->    * <span class="preview"> Erstellt von und Zuletzt geändert von</span>
->    * <span class="preview">Erstellungsdatum und Datum der letzten Änderung</span>
->    * <span class="preview">Formel</span>
->    * <span class="preview"> Suchfelder der Workfront-Objekte</span>
->    * <span class="preview">Suchfelder von Workfront Planning für verbundene Datensätze </span>
+   >[!IMPORTANT]
+   >
+   >Felder der folgenden Typen werden nicht im Anfrageformular angezeigt:
+   >
+   >* Erstellt von und Zuletzt geändert von
+   >* Erstellungsdatum und Datum der letzten Änderung
+   >* Formel
+   >* Suchfelder der Workfront-Objekte
+   >* Suchfelder für verknüpfte Datensätze in Workfront
+   >
 
-* **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anfrageformular anwendet. Der Standardabschnitt kann nicht umbenannt oder entfernt werden.
-* **Betreff** Feld: Das Feld, das die Anfrage in Workfront identifiziert. Diese Funktion ist in der Produktionsumgebung noch nicht verfügbar. <span class="preview">Es ist in der Vorschau-Umgebung verfügbar.</span> Die Konfiguration und der Wert des Felds Betreff können nicht bearbeitet werden.
+   <!--before release to prod: 
+    > Depending on what environment you use to create a request form, the following scenarios exist:
+   >
+   >* Fields of the following types do not display in the request form in the Production environment: 
+   >
+   >    * Created by and Last modified by
+   >    * Created date and Last modified date
+   >    * Formula
+   >    * People 
+   >    * Workfront connected fields
+   >    * Workfront objects' lookup fields
+   >    * Workfront Planning records' connected fields
+   >    * Workfront Planning connected records' lookup fields
+   >    * AEM Assets connection fields-->
 
-  >[!TIP]
-  >
-  >Das **Betreff** Feld erfordert einen Wert, wenn er im Anfrageformular sichtbar ist. Sie können jedoch bei Bedarf das Feld **Betreff** entfernen. Anfordernde sehen es nicht im Formular.
+   * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anfrageformular anwendet. Der Standardabschnitt kann nicht umbenannt oder entfernt werden.
+   * **Betreff** Feld: Das Feld, das die Anfrage in Workfront identifiziert. Die Konfiguration und der Wert des Felds Betreff können nicht bearbeitet werden.
 
-* Alle mit dem Datensatztyp verknüpften Felder.
+     >[!TIP]
+     >
+     >Das **Betreff** Feld erfordert einen Wert, wenn er im Anfrageformular sichtbar ist. Sie können jedoch bei Bedarf das Feld **Betreff** entfernen. Anfordernde sehen es nicht im Formular, wenn sie die Anfrage senden.
 
-  Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
+   * Alle mit dem Datensatztyp verknüpften Felder.
+
+     Die im Anfrageformular enthaltenen Felder sind für alle sichtbar, die eine Anfrage an diesen Datensatztyp senden.
 
 1. (Optional) Bewegen Sie den Mauszeiger über die Felder im Formular, die Sie entfernen möchten, und klicken Sie dann auf das Symbol **x**, um sie zu entfernen. Sie werden der Registerkarte **Felder** links neben dem Formular hinzugefügt.
 
@@ -200,8 +206,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional) Klicken Sie auf **Vorschau**, um anzuzeigen, wie das Formular für andere Benutzer angezeigt wird, wenn diese es zum Senden eines neuen Datensatzes verwenden werden.
 
-1. 
-   <div class="preview">(Optional) Klicken Sie auf die Registerkarte **Konfiguration** und fügen Sie dann mindestens einen Benutzer zum Feld **Genehmiger** hinzu, um neue Anfragen für dieses Datensatzformular zu genehmigen.
+1. (Optional) Klicken Sie auf die **Konfiguration** und fügen Sie dann mindestens einen Benutzer zum Feld **Genehmiger** hinzu, um neue Anfragen für dieses Datensatzformular zu genehmigen.
 
    ![](assets/configuration-tab.png)
 
@@ -212,7 +217,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * Wenn mindestens eine genehmigende Person die Anforderung ablehnt, wird die Anforderung abgelehnt und der Datensatz nicht erstellt.
    * Alle genehmigenden Personen müssen eine Entscheidung treffen, bevor eine Anfrage genehmigt oder abgelehnt wird.
 
-     Weitere Informationen zum Hinzufügen von Genehmigungen zu Anfrageformularen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md). </div>
+     Weitere Informationen zum Hinzufügen von Genehmigungen zu Anfrageformularen finden Sie unter [Hinzufügen einer Genehmigung zu einem Anfrageformular](/help/quicksilver/planning/requests/add-approval-to-request-form.md).
 
 1. (Optional) Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Namen des Formulars in der Kopfzeile und klicken Sie dann auf **Bearbeiten**, um den Namen des Formulars zu aktualisieren.
 1. Klicken Sie auf **Publish**, um das Formular zu veröffentlichen und einen eindeutigen Link dafür zu erhalten.
@@ -235,20 +240,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!WARNING]
    >
-   >
    >* Wenn Sie **Alle mit dem Link** auswählen, kann jeder auf das Formular zugreifen und einen neuen Datensatz senden, auch Personen außerhalb Ihres Unternehmens, die kein Workfront-Konto haben.
    >
-   > * <span class="preview">Ein Formular, das die folgenden Feldtypen enthält, kann nicht öffentlich freigegeben werden:</span>
+   > * Ein Formular, das die folgenden Feldtypen enthält, kann nicht öffentlich freigegeben werden:
    >
-   >     * <span class="preview">Workfront- oder AEM Assets-Verbindungen</span>
-   >     * <span class="preview">Personen</span>
+   >     * Workfront- oder AEM Assets-Verbindungen
+   >     * Personen
    >
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt **Alle mit dem Link** ausgewählt haben, wählen Sie das **Link-Ablaufdatum** aus dem verfügbaren Kalender aus. Personen erhalten nach Ablauf des Links einen Fehler, und Sie müssen das Link-Datum aktualisieren und einen neuen Link zur Freigabe generieren, bevor Personen erneut auf das Formular zugreifen können.
 
    Sie können zukünftige Termine innerhalb von 180 Tagen ab dem aktuellen Datum auswählen.
 
-1. Klicken Sie **Speichern und Link kopieren**, um die Freigabedetails für das Formular zu speichern.
+1. Klicken Sie **Speichern und Link kopieren**, um die Freigabedetails für das Formular zu speichern. Wenn das Formular zuvor gespeichert wurde, klicken Sie auf **Link kopieren**.
 
    Die Formularfreigabeoptionen werden gespeichert und der Link wird in die Zwischenablage kopiert. Sie können sie jetzt für andere freigeben.
 

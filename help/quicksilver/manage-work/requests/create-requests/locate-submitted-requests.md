@@ -8,9 +8,9 @@ feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '949'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,19 @@ ht-degree: 1%
 
 Sie können die folgenden Arten von Anfragen finden, die von Ihnen oder einer anderen Person gesendet oder von Ihnen gestartet, aber nie fertig gesendet wurden. Sie können diese Anfragen in den folgenden Bereichen von Adobe Workfront finden:
 
-* **Abschnitt „Gesendet**: Alle Anfragen, die Sie oder eine andere Person gesendet haben und auf die Sie zumindest Zugriff haben.
-* **Entwurfsabschnitt** : Alle Anfragen, die Sie gestartet, aber nie abgeschlossen und nie gesendet haben. Weitere Informationen zu Anfrageentwürfen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
+* Die Registerkarte **Workfront** im Bereich Anfragen in Workfront: Suchen Sie in den folgenden Abschnitten nach Anfragen, die an Workfront-Anfrage-Warteschlangen gesendet wurden:
+   * **Abschnitt „Gesendet**: Alle Anfragen, die Sie oder eine andere Person gesendet haben und auf die Sie zumindest Zugriff haben.
+   * **Entwurfsabschnitt** : Alle Anfragen, die Sie gestartet, aber nie abgeschlossen und nie gesendet haben. Weitere Informationen zu Anfrageentwürfen finden Sie unter [Erstellen und Senden von Adobe Workfront-Anfragen](../../../manage-work/requests/create-requests/create-submit-requests.md).
 
   >[!TIP]
   >
   >Sie können nur Ihre eigenen Anforderungsentwürfe anzeigen.
+
+* Die Registerkarte **Planung** im Bereich Anfragen in Workfront: Suchen Sie Anfragen, die an Workfront Planning-Anfrageformulare gesendet wurden. Ihr Unternehmen muss ein Workfront Planning-Paket erwerben. Weitere Informationen finden Sie in den folgenden Artikeln:
+
+   * [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md)
+   * [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
+
 
 ## Zugriffsanforderungen
 
@@ -70,6 +77,7 @@ So suchen Sie nach von Ihnen oder anderen Benutzern gesendeten Anfragen:
 
 {{step1-to-requests}}
 
+1. (Bedingt) Wenn Ihr Unternehmen ein Workfront Planning-Paket erworben hat, klicken Sie auf die Registerkarte **Workfront** , um Workfront-Anfragen anzuzeigen.
 1. Klicken Sie **linken** auf „Gesendet“, um alle gesendeten Anfragen anzuzeigen.
 
    Sie können bis zu 2.000 Anfragen anzeigen, die möglicherweise auf mehreren Seiten angezeigt werden.
@@ -191,6 +199,12 @@ So suchen Sie nach von Ihnen oder anderen Benutzern gesendeten Anfragen:
    -->
 
 1. Klicken Sie **Entwürfe**, um alle Entwürfe der Anfragen anzuzeigen. Workfront speichert für jede Anfrage-Warteschlange in diesem Ordner eine unbegrenzte Anzahl von Entwürfen. Wenn Sie eine neue Anfrage für ein Warteschlangen-Thema eingeben, für das bereits ein Entwurf vorhanden ist, werden Sie aufgefordert, einen vorhandenen Entwurf zu verwenden. Weitere Informationen finden Sie unter [Erstellen von Anfragen aus Entwürfen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
+
+1. (Optional und bedingt) Wenn Ihr Unternehmen ein Workfront Planning-Paket erworben hat, klicken Sie auf die Registerkarte **Planning** und dann **Gesendet** im linken Bereich, um Workfront Planning-Anfragen anzuzeigen.
+
+   ![](assets/workfront-planning-tab-submitted-section-in-requests-area.png)
+
+   Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
  
 
