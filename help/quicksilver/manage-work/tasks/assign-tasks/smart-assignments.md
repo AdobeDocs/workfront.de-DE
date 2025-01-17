@@ -4,10 +4,10 @@ product-area: projects;user-management
 navigation-topic: assign-tasks
 title: Smart Assignments - Übersicht
 description: Bei der Verwaltung von Aufgaben- und Problemzuweisungen können Sie mithilfe von Smart Assignments ermitteln, wer die Arbeit am besten erledigt. Smart-Zuweisungen sind Vorschläge, die Ihnen Adobe Workfront unterbreitet, wenn Sie Ressourcen Arbeitselemente auf der Grundlage eines Algorithmus zuweisen, der die am besten geeignete Ressource für den Auftrag bestimmt.
-author: Alina
+author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
 workflow-type: tm+mt
 source-wordcount: '556'
 ht-degree: 0%
