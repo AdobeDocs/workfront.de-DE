@@ -3,18 +3,31 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Adobe Unified Experience für Workfront Fusion
-description: Der Zugriff auf Workfront Fusion über Adobe Experience Cloud bietet Ihnen ein nahtloses, einheitliches Erlebnis für die Verwaltung aller Ihrer Adobe-Anwendungen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: ea89cf36-f08d-4f4c-b89f-4895b5947e7a
-source-git-commit: 1e8ea4b1f53a19a5872e39f7671b1b4e047f31d1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '631'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Unified Experience] für [!DNL Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie nun in den Artikeln:
+>
+>* [Profileinstellungen ändern](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>* [Festlegen der Team-Benachrichtigungsoptionen](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Der Zugriff auf [!DNL Workfront Fusion] über [!DNL Adobe Experience Cloud] bietet Ihnen ein nahtloses, einheitliches Erlebnis für die Verwaltung aller Ihrer [!DNL Adobe]. Single Identity Management bietet Ihnen einen Ort für die Anmeldung, ohne mehrere URLs oder Login-IDs.
 
@@ -108,7 +121,7 @@ Ihre Benachrichtigungen und Ankündigungen finden Sie im Bereich Benachrichtigun
 
 Um Ihre Benachrichtigungen anzuzeigen, klicken Sie auf das Symbol ![Benachrichtigungen](assets/notifications-icon.png) in der rechten oberen Ecke des Bildschirms. Ein roter Punkt auf dem Benachrichtigungssymbol weist darauf hin, dass Sie ungelesene Benachrichtigungen oder Ankündigungen haben.
 
-Anweisungen zum Konfigurieren Ihrer Benachrichtigungen in der Adobe Experience Cloud finden Sie unter [Benachrichtigungskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html?lang=en#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) in der Adobe-Dokumentation.
+Anweisungen zum Konfigurieren Ihrer Benachrichtigungen in der Adobe Experience Cloud finden Sie unter [Benachrichtigungskonfiguration](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/implementing/using-cloud-manager/notifications.html#:~:text=You%20can%20customize%20how%20you,how%20you%20receive%20your%20notifications.) in der Adobe-Dokumentation.
 
 Beachten Sie beim Konfigurieren Folgendes:
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Fehler bei der Verarbeitung in [!DNL Adobe Workfront Fusion]
-description: Manchmal kann während der Ausführung eines Szenarios ein Fehler auftreten. Dies geschieht in der Regel, wenn ein Service aufgrund eines Fehlers bei der Verbindung zu einem Service nicht verfügbar ist oder wenn eine Validierung fehlschlägt. In diesem Artikel werden die häufigsten Fehler beschrieben, auf die Sie stoßen können.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 468d7460-3853-4016-bff9-b9d3b87198ed
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1246'
+source-wordcount: '1276'
 ht-degree: 1%
 
 ---
 
 # Fehlerverarbeitung in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Fehlertypen](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/errors/error-processing.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Manchmal kann während der Ausführung eines Szenarios ein Fehler auftreten. Dies geschieht in der Regel, wenn ein Service aufgrund eines Fehlers bei der Verbindung zu einem Service nicht verfügbar ist oder wenn eine Validierung fehlschlägt. In diesem Artikel werden die häufigsten Fehler beschrieben, auf die Sie stoßen können.
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Mathematik
-description: In einem Adobe Workfront Fusion-Szenario können Sie das Mathematikmodul zur Berechnung von Mathematikausdrücken verwenden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 677d722f-3a9f-498e-939a-1cfe8e943fb6
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '190'
-ht-degree: 2%
+source-wordcount: '246'
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Mathematisch]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Mathematisch](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/math-module.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einem [!DNL Adobe Workfront Fusion scenario] können Sie das Mathematikmodul verwenden, um mathematische Ausdrücke zu berechnen.
 

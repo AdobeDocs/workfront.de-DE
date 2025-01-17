@@ -1,18 +1,30 @@
 ---
 title: Adobe PDF Services
-description: Adobe PDF Services
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: e0a5736b-dbdb-43c6-83ff-e88a5625a5bf
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3738'
+source-wordcount: '3809'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe PDF Services]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Adobe PDF Services](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/pdf-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit dem [!DNL Adobe Workfront Fusion] [!DNL Adobe PDF Services] können Sie Daten aus einer PDF-Datei extrahieren oder eine neue PDF-Datei aus den von Ihnen bereitgestellten Daten generieren. Darüber hinaus können Sie eine Vielzahl von Dateitypen in PDF oder PDF in andere Dateitypen konvertieren. Mit PDF-Services können Sie außerdem Metadaten für eine PDF-Datei kombinieren, komprimieren oder lesen sowie den Passwortschutz für die Datei steuern.
 

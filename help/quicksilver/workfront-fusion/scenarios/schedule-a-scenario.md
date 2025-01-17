@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Planen eines Szenarios in Adobe Workfront Fusion
-description: Standardmäßig wird ein Szenario alle 15 Minuten ausgeführt. Sie können dies ändern, indem Sie festlegen, wann und wie oft ein aktiviertes Szenario ausgeführt wird.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: bce89abe-ec37-4705-a88f-de62c8b27f49
-source-git-commit: f5549be5951a2648d6a77d25bebbd4141f18d36c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '632'
 ht-degree: 0%
 
 ---
 
 # Planen eines Szenarios in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Szenario planen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-scenario-settings/schedule-a-scenario.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Standardmäßig wird ein Szenario alle 15 Minuten ausgeführt. Sie können dies ändern, indem Sie festlegen, wann und wie oft ein aktiviertes Szenario ausgeführt wird. Fusionsszenarien können so geplant werden, dass sie alle 5 Minuten ausgeführt werden.
 

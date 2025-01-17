@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Verwenden von cURL zum Hinzufügen eines HTTP-Moduls
-description: Sie können eine cURL-Anfrage in Ihr Szenario einfügen, und Fusion erstellt ein HTTP-Modul, das aus der cURL-Anfrage konfiguriert ist.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5eac3e87-0dd3-4bad-ae3e-77264329b717
-source-git-commit: 785f39fabcb19233fd1bc79c14222225a3ea72a2
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 1%
+source-wordcount: '341'
+ht-degree: 0%
 
 ---
 
 # Verwenden von cURL zum Hinzufügen eines HTTP-Moduls
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Verwenden Sie cURL, um ein HTTP-Modul hinzuzufügen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/use-curl-create-http.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie können eine cURL-Anfrage in Ihr Szenario einfügen, und Fusion erstellt ein HTTP-Modul, das aus der cURL-Anfrage konfiguriert ist.
 

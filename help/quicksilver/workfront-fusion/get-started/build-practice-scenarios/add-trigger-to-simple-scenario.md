@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Hinzufügen eines Trigger-Moduls zu einem Basisszenario
-description: Erfahren Sie, wie Sie ein Szenariomodul hinzufügen, damit das Trigger regelmäßig nach neuen Anfragen suchen und diese in Projekte konvertieren kann.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 067ee6a1-f4c1-4602-ac39-0283255cced8
-source-git-commit: 7ad3fbcfa5be5074016f399560cca509d81f4714
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '550'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen eines Trigger-Moduls zu einem Basisszenario
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Hinzufügen eines Trigger-Moduls zu einem Basisszenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-trigger-to-basic-scenario.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Trigger-Module werden am Anfang eines Szenarios platziert. Diese Module starten eine Szenarioausführung, wenn bestimmte Kriterien erfüllt sind und eine Änderung in einem bestimmten Service stattgefunden hat. Bei der Änderung kann es sich um die Erstellung neuer Datensätze, das Löschen von Datensätzen, die Aktualisierung von Datensätzen usw. handeln.
 

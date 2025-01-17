@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: Löschen von Benutzerdaten in [!DNL Adobe Workfront Fusion]
-description: Sie können Benutzerdaten in Ihrem -Konto  [!DNL Adobe Workfront Fusion]  und löschen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 4b0a0abe-a913-429b-b02e-809b2e7410af
-source-git-commit: 759472ada4595625e3a02b55c455564e24343743
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '266'
 ht-degree: 0%
 
 ---
 
 # Löschen von Benutzerdaten in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Löschen von Szenarioelementen](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/delete-scenario-elements.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie können Benutzerdaten in den folgenden Bereichen in Ihrem [!DNL Adobe Workfront Fusion]-Konto speichern und löschen:
 

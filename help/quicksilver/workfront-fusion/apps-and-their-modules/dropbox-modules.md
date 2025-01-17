@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Dropbox-Module
-description: In einem  [!DNL Adobe Workfront Fusion]  können Sie Workflows automatisieren, die Dropbox verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden. Auf diese Weise können Sie Aktivitäten wie das Überwachen, Suchen, Abrufen, Auflisten, Erstellen und Bearbeiten von Dateien und Ordnern auf Ihrem Dropbox automatisieren.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a35631d7-40ac-4e7f-9a37-ad3879c0b6a2
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3230'
+source-wordcount: '3262'
 ht-degree: 0%
 
 ---
 
 # [!DNL Dropbox]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Dropbox-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/dropbox-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einem [!DNL Adobe Workfront Fusion] können Sie Workflows automatisieren, die [!UICONTROL Dropbox] oder [!DNL Dropbox Business] verwenden, und diese mit mehreren Anwendungen und Services von Drittanbietern verbinden. Auf diese Weise können Sie Aktivitäten wie das Überwachen, Suchen, Abrufen, Auflisten, Erstellen und Bearbeiten von Dateien und Ordnern auf Ihrer [!UICONTROL Dropbox] automatisieren.
 

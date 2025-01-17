@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: http-modules
 title: HTTP &gt; Erstellen eines Anforderungsmoduls
-description: Das Adobe Workfront Fusion HTTP &gt; Make a Request-Modul ist ein universelles Modul, mit dem Sie eine HTTP-Anfrage konfigurieren und an einen Server senden können. Die empfangene HTTP-Antwort ist dann im Ausgabepaket enthalten.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7857c395-ce84-480e-8fa2-065035ac5b95
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1037'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL HTTP] >[!UICONTROL Anfrage stellen] Modul
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [HTTP >Anforderungsmodul erstellen](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-request.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!NOTE]
 >

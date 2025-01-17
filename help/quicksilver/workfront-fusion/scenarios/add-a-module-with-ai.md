@@ -3,20 +3,32 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Erstellen eines Szenariosegments mit KI
-description: Sie können eine Textaufforderung eingeben, um ein HTTP-Modul zu erstellen, das für die Eingabeaufforderung konfiguriert ist.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 899641a0-a104-4be9-b423-34a32e985b53
-source-git-commit: 5de5b96bc74ce9b819acfa7b5f16652509ccade1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '470'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines Szenariosegments mit KI
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Generieren eines Szenario-Segments mithilfe von KI](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/add-a-module-with-ai.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 <!--DO NOT DELETE - linked through CSH-->
 

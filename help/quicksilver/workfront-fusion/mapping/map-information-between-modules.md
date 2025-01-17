@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Zuordnen von Informationen von einem Modul zu einem anderen in [!DNL Adobe Workfront Fusion]
-description: Bei der Zuordnung werden die Ausgaben eines Moduls, strukturiert in Elemente, den Eingabefeldern eines anderen Moduls zugewiesen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: e8d619e9-6425-4136-ac71-47d979d68a2d
-source-git-commit: 3772223938008e3a54ce0a48aaae1f3edb5bf252
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
 
 # Zuordnen von Informationen von einem Modul zu einem anderen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Informationen von einem Modul einem anderen zuordnen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-data-from-one-to-another.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Bei der Zuordnung werden die Ausgaben eines Moduls, strukturiert in Elemente, den Eingabefeldern eines anderen Moduls zugewiesen.
 

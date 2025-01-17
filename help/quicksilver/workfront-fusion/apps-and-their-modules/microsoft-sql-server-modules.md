@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Microsoft SQL Server-Module
-description: Sie können verwenden [!DNL Adobe Workfront Fusion]  um eine Verbindung zu Microsoft SQL Server herzustellen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: d79cf00d-a81e-4d88-ac4a-f80b7b5a92b3
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '568'
 ht-degree: 0%
 
 ---
 
 # [!DNL Microsoft SQL Server]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Microsoft SQL Server-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/microsoft-sql-server-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie können [!DNL Adobe Workfront Fusion] verwenden, um eine Verbindung zu [!UICONTROL Microsoft SQL Server] herzustellen.
 

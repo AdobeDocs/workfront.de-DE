@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Adobe Journey Optimizer-Module
-description: In  [!DNL Adobe Workfront Fusion]  Szenario können Sie Workflows automatisieren, die  [!DNL Adobe Journey Optimizer] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2c1aea46-edbf-42a3-a6e9-f8aea042a48d
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '3692'
+source-wordcount: '3747'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Journey Optimizer]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Adobe Journey Optimizer-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-journey-optimizer-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL Adobe Journey Optimizer] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden. Mit [!DNL Adobe Journey Optimizer]-Modulen können Sie Datensätze erstellen, lesen, aktualisieren oder löschen oder einen benutzerdefinierten API-Aufruf an die [!DNL Adobe Journey Optimizer]-API durchführen.
 

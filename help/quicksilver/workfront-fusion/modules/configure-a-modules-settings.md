@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Konfigurieren Sie die Einstellungen eines Moduls in [!DNL Adobe Workfront Fusion]
-description: Sie müssen für jedes Modul, das Sie erstellen, Einstellungen konfigurieren.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 7e66728d-8c6f-4597-98c4-bc6d36f96911
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '329'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
 
 # Konfigurieren der Einstellungen eines Moduls in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Konfigurieren eines Moduls](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/configure-a-modules-settings.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie müssen für jedes Modul, das Sie erstellen, Einstellungen konfigurieren.
 

@@ -4,19 +4,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Szenarien in  [!DNL Adobe] Workfront Fusion
-description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 6e181c07-4419-486f-bde1-ace3db349a72
-source-git-commit: 4cc881f4f5a28bd105e6898ad7ffb57c1dafb563
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '156'
+source-wordcount: '208'
 ht-degree: 0%
 
 ---
 
 # Szenarien in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Links zur neuen Dokumentation finden Sie in den einzelnen Artikeln.
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!INFO]
 >

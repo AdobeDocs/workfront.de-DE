@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: ServiceNow-Module
-description: In  [!DNL Adobe Workfront Fusion]  Szenario können Sie Workflows automatisieren, die  [!DNL ServiceNow] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: b362cd8b-06b3-4f4c-b405-a2afc24abddb
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1621'
+source-wordcount: '1674'
 ht-degree: 0%
 
 ---
 
 # [!DNL ServiceNow]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [ServiceNow-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/servicenow-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL ServiceNow] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
 
@@ -77,7 +89,7 @@ Der ServiceNow-Connector verwendet Folgendes:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://&#123;&#123;connection.instance&#125;&#125;/api</td> 
+   <td>https://{{connection.instance}}/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-Tag</td> 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-basics
 title: Häufig gestellte Fragen zu Adobe Workfront Fusion
-description: In diesem Artikel werden häufig gestellte Fragen zu  [!DNL Adobe Workfront Fusion] behandelt, einschließlich Informationen zu Objekten, die häufig in Fusion-Workflows verwendet werden
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: e2ecc190-ec26-46f0-a4f2-7b283639a1eb
-source-git-commit: f11af8d9d1e5fa65c2efb4d882d25f9e13784611
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '664'
+source-wordcount: '722'
 ht-degree: 1%
 
 ---
 
 # Häufig gestellte Fragen zu Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Häufig gestellte Fragen zur Szenarienplanung](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/faq.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

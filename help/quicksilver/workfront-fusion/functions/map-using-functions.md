@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Zuordnen von Elementen mithilfe von Funktionen in [!DNL Adobe Workfront Fusion]
-description: Beim Zuordnen von Elementen können Sie Funktionen verwenden, um einfache oder komplexe Formeln zu erstellen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: e64d9b1e-8576-43db-ac29-0d386a482fbc
-source-git-commit: d175a3d43f13338661d8b7e1cb79038a36522ff9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '504'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
 
 # Zuordnen von Elementen mithilfe von Funktionen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Zuordnen eines Elements mithilfe von Funktionen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-using-functions.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Beim Zuordnen von Elementen können Sie Funktionen verwenden, um einfache oder komplexe Formeln zu erstellen. Die in [!DNL Adobe Workfront Fusion] verfügbaren Funktionen ähneln den Funktionen in Excel und in einigen Programmiersprachen:
 

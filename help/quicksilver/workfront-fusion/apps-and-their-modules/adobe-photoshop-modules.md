@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Adobe Photoshop-Module
-description: Mit den Adobe Photoshop-Modulen können Sie ein Adobe Workfront Fusion-Szenario auf der Grundlage von Ereignissen in Ihrem Adobe Photoshop-Konto starten, Vereinbarungen erstellen, lesen oder aktualisieren und andere Datensätze suchen, anhand der von Ihnen festgelegten Kriterien nach Datensätzen suchen und Dokumente hochladen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: f20192ea-e363-4fba-8bd2-b1d50443918d
-source-git-commit: f6b00b98d3375e5660d684f1fad682fa721517aa
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '4325'
+source-wordcount: '4360'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Photoshop]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Adobe Photoshop-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/adobe-photoshop-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL Adobe Photoshop] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Mathematische Funktionen in Adobe Workfront Fusion
-description: Die folgenden mathematischen Funktionen sind im Zuordnungsbereich von Adobe Workfront Fusion verfügbar.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8a3c7a89-62b5-45e9-b857-8beedd0e5af4
-source-git-commit: c325e16ba0cde4cd48fc3e40358a9ea9ed310659
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '306'
+source-wordcount: '366'
 ht-degree: 1%
 
 ---
 
 # Mathematische Funktionen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Mathematische Funktionen](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/math-functions.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 <!--Audited: 4/2024-->
 

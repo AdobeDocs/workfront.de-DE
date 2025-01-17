@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront Boards-Module
-description: Sie können den Adobe Workfront Boards-Connector verwenden, um Ihre Prozesse in Workfront Boards zu automatisieren und ihn mit Apps und Services von Drittanbietern zu verbinden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: 0b4a25f7-a8f1-47f4-8929-7eff82f1dfdc
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2647'
+source-wordcount: '2699'
 ht-degree: 1%
 
 ---
 
 # Module für [!DNL Adobe Workfront] Boards
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Adobe Workfront-Pinnwand-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-boards-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!NOTE]
 >

@@ -3,17 +3,29 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Navigieren in Dashboards in Workfront Fusion
-description: Erfahren Sie mehr über die in Workfront Fusion verfügbaren Dashboards
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
-source-git-commit: 9f7597103e06f3f273dc400440ffa5db6742427b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '659'
-ht-degree: 1%
+source-wordcount: '727'
+ht-degree: 0%
 
 ---
 
 # Navigieren in Dashboards in Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Navigieren in Adobe Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/navigate-workfront-fusion.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Wenn Sie sich bei Workfront Fusion anmelden, werden Sie zum Dashboard Ihres Unternehmens weitergeleitet. Von hier aus können Sie zu verschiedenen Bereichen von Fusion navigieren, indem Sie auf die Bereiche im linken Navigationsbereich klicken.
 

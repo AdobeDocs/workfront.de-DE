@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Erstellen eines Szenarios für die praktische Integration in Adobe Workfront Fusion
-description: In diesem Artikel wird beschrieben, wie Sie ein Integrationsszenario mit Adobe Workfront Fusion erstellen. Integrationsszenarien verbinden separate Apps miteinander, sodass Ihre Daten durch verschiedene Programme fließen können.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 643bb1d5-d7bc-402b-8ed1-9ca9a30e4560
-source-git-commit: cb4edb02aad8a0738ea80f058fcc2bc016832ce1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '2139'
+source-wordcount: '2188'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines Szenarios für die praktische Integration in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Workflow zum Erstellen eines Szenarios](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In diesem Artikel wird beschrieben, wie Sie ein Integrationsszenario mit Adobe Workfront Fusion erstellen. Integrationsszenarien verbinden separate Apps miteinander, sodass Ihre Daten durch verschiedene Programme fließen können.
 

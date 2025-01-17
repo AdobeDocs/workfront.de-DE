@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Datums- und Uhrzeitfunktionen in Adobe Workfront Fusion
-description: Die folgenden Datums- und Uhrzeitfunktionen sind im Zuordnungsbereich von Adobe Workfront Fusion verfügbar.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 76c63afc-4bb6-4895-9bba-6b3913ecbcf6
-source-git-commit: 6374a1a0ca49507872c71eaebd5227e88e3225b7
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1958'
+source-wordcount: '2018'
 ht-degree: 1%
 
 ---
 
 # Datums- und Uhrzeitfunktionen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Datums- und Uhrzeitfunktionen](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/date-and-time-functions.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

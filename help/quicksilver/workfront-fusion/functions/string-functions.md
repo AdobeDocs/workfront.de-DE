@@ -4,18 +4,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: functions
 title: Zeichenfolgen-Funktionen in Adobe Workfront Fusion
-description: Die folgenden Zeichenfolgenfunktionen sind im Bedienfeld "Adobe Workfront Fusion-Zuordnung“ verfügbar.
-author: Becky
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 feature: Workfront Fusion
 exl-id: c6676a87-2498-4de8-b877-7edc30aeabae
-source-git-commit: 0b286e43ed77669329fbee25618394ee5641e428
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '696'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
 
 # Zeichenfolgen-Funktionen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Zeichenfolgen-Funktionen](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/functions/string-functions.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

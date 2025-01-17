@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Erstellen Sie ein Automatisierungsszenario in [!DNL Adobe Workfront Fusion]
-description: In diesem Artikel wird beschrieben, wie Sie mit Adobe Workfront Fusion ein Automatisierungsszenario erstellen. Automatisierungsszenarien automatisieren Workfront-Prozesse, einschließlich Datenmanipulationen und -umwandlungen. In diesem Beispiel wird erläutert, wie Sie ein Szenario erstellen, in dem nach einem Projekt gesucht und anschließend alle mit diesem Projekt verknüpften Aufgaben zurückgegeben werden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: f6a6eb28-9b0b-48ea-af11-f55009a01178
-source-git-commit: 8769ed5844e340e007f844370791e93393696819
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1536'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines Praxisautomatisierungsszenarios in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Workflow zum Erstellen eines Szenarios](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/plan-a-scenario/create-a-scenario-workflow.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Automatisierungsszenarien automatisieren Workfront-Prozesse, einschließlich Datenmanipulationen und -umwandlungen. Dieser Artikel führt Sie durch den Prozess der Erstellung eines Szenarios, das nach einem Projekt sucht und dann alle mit diesem Projekt verbundenen Aufgaben zurückgibt.
 

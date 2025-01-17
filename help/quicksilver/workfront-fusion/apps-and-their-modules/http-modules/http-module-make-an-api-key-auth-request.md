@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: http-modules
 title: HTTP &gt; Erstellen einer API-Schlüsselautorisierungsanfrage
-description: Dieses  [!DNL Adobe Workfront Fusion]  sendet eine HTTPS-Anfrage an eine angegebene URL, für die eine Autorisierung des API-Schlüssels erforderlich ist, und verarbeitet die Antwort.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 70bf87c7-6d51-4ef4-9dce-80ad004e613f
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1013'
+source-wordcount: '1069'
 ht-degree: 0%
 
 ---
 
 # HTTP > [!UICONTROL Erstellt eine API-Schlüssel-Autorisierungsanfrage]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [HTTP > Erstellen einer API-Schlüssel-Autorisierungsanfrage](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-an-api-key-auth-request.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!NOTE]
 >

@@ -9,16 +9,28 @@ author: Luke
 feature: Product Announcements, Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 17dd5211-4531-47e9-a13a-b3698d8738d1
-source-git-commit: 6470ea408bfd354707387f7916edb08b4879168c
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '836'
+source-wordcount: '884'
 ht-degree: 0%
 
 ---
 
 # Versionsaktivität von Adobe Workfront Fusion - Übersicht
 
-Adobe Workfront Fusion verbindet Ihre Apps und Web-Services nahtlos, sodass Sie sich auf neue Aufgaben konzentrieren können, anstatt dieselben Aufgaben immer wieder zu wiederholen.
+
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Versionsaktivität von Adobe Workfront Fusion - Übersicht](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt. Adobe Workfront Fusion verbindet Ihre Apps und Web-Services nahtlos, sodass Sie sich auf neue Aufgaben konzentrieren können, anstatt dieselben Aufgaben immer wieder zu wiederholen.
 
 Informationen zur Verwendung von Workfront Fusion finden Sie unter [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Typzwang in Adobe Workfront Fusion
-description: In diesem Dokument wird beschrieben [!DNL Adobe Workfront Fusion]  wie sich in Situationen verhält, in denen es Werte in erwarteten und unerwarteten Datenformaten empfängt.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 847a17c9-bd67-4132-81a8-2a5fe8d516cb
-source-git-commit: d09174b874ff59676a28881de02ae4e7196d0f80
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '708'
 ht-degree: 3%
 
 ---
 
 # Typzwang in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Nötigung vom Typ](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/mapping-panel/data-types/type-coercion.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

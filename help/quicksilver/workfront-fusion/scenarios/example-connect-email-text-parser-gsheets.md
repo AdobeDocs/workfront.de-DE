@@ -3,18 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: 'Beispiel für ein Adobe Workfront Fusion-Szenario: Verbinden von E-Mail-, Text-Parser- und Google-Tabellen'
-description: Dieses Szenario hilft Ihnen, ein Protokoll aller E-Mail-Nachrichten zu erstellen und sie für weitere Aktionen in einer Tabelle zu kennzeichnen. Es erfasst einen E-Mail-Textkörper in zwei separaten Tabellen in einer Tabelle mithilfe regulärer Ausdrücke (Regex) als Suchmuster. Im ersten Muster wird nach einer Phrase gesucht, im zweiten nach derselben Phrase und E-Mail-Adresse.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet.
 author: Becky
 feature: Workfront Fusion
 exl-id: ebcfa3b9-3207-441c-9ce5-9af696c0119d
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1209'
+source-wordcount: '1176'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] Szenario: E-Mail verbinden, [!UICONTROL Text-Parser] und [!DNL Google Sheets]
+
+>[!IMPORTANT]
+>
+>Dieser Artikel wird in naher Zukunft entfernt.
 
 Dieses Szenario hilft Ihnen, ein Protokoll aller E-Mail-Nachrichten zu erstellen und sie für weitere Aktionen in einer Tabelle zu kennzeichnen. Es erfasst einen E-Mail-Textkörper in zwei separaten Tabellen in einer Tabelle mithilfe regulärer Ausdrücke (Regex) als Suchmuster. Im ersten Muster wird nach einer Phrase gesucht, im zweiten nach derselben Phrase und E-Mail-Adresse.
 

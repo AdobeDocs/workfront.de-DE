@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: http-modules
 title: HTTP &gt; Erstellen eines Clientzertifikatautorisierungsanforderungsmoduls
-description: Mit  [!DNL Adobe Workfront Fusion]  Modul können Sie eine HTTP-Anfrage mit HTTP-Client-Zertifikatautorisierung konfigurieren und an einen Server senden. Die empfangene HTTP-Antwort ist dann im Ausgabepaket enthalten.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: c0b0057f-3db0-4c10-a274-ebaec1a5b87b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '959'
+source-wordcount: '1007'
 ht-degree: 0%
 
 ---
 
 # HTTP > [!UICONTROL Modul „Client-Zertifikatautorisierungsanfrage ]&quot;
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [HTTP > Modul für Client-Zertifikatautorisierungsanfragen erstellen](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-client-cert-auth-request.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!NOTE]
 >

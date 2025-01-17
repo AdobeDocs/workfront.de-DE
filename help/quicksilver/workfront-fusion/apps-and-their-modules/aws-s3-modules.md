@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: AWS S3-Module
-description: Mit  [!DNL Adobe Workfront Fusion AWS] S3-Modulen können Sie Vorgänge an Ihren S3-Buckets durchführen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 33623b5d-d9ff-4d41-b938-33378f50539e
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1392'
+source-wordcount: '1455'
 ht-degree: 0%
 
 ---
 
 # AWS S3-Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [AWS S3-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/aws-s3-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit den [!DNL Adobe Workfront Fusion AWS] S3-Modulen können Sie Vorgänge an Ihren S3-Buckets durchführen.
 
@@ -73,7 +85,7 @@ Der AWS S3-Connector verwendet Folgendes:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://s3.&#123;&#123;parameters.region&#125;&#125;.amazonaws.com</td> 
+   <td>https://s3.{{parameters.region}}.amazonaws.com</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-Tag</td> 

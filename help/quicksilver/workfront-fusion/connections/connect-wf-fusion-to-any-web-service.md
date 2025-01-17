@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Mit  [!DNL Adobe Workfront Fusion]  Webdienst verbinden
-description: Wenn  [!DNL Adobe Workfront Fusion]  keine App für den Webservice anbietet, den Sie in Ihrem Szenario verwenden möchten, können Sie eine Verbindung zum Webservice mithilfe der  [!DNL Workfront Fusion] -HTTP- und Webhooks-Module herstellen, wie in diesem Artikel beschrieben.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8b2a7d85-e20e-4836-8418-3463d284194e
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '211'
+source-wordcount: '272'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] mit einem beliebigen Webdienst verbinden
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie nun in den Artikeln:
+>
+>* [Verbinden Sie Adobe Workfront Fusion mit einem Webservice, der die API-Token-Autorisierung verwendet](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-wf-web-service-uses-api-token-auth.html)
+>* [Webhook für einen Webservice ohne Connector konfigurieren](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/add-modules/receive-a-webhook-from-a-web-service.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

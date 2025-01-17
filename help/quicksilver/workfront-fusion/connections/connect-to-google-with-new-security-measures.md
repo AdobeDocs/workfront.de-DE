@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: connections-annd-webhooks
 title: Verbindung  [!DNL Adobe Workfront Fusion] / [!DNL Google Services]  mit aktualisierten Sicherheitsmaßnahmen
-description: Google hat kürzlich Einschränkungen für die Verwendung seiner API eingeführt. In diesem Artikel wird beschrieben, wie Sie  [!DNL Adobe Workfront Fusion]  Google verbinden, wobei diese Sicherheitsmaßnahmen für die Aktualisierung berücksichtigt werden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 32dfef7a-7942-4025-8cb9-055d4e28090b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '649'
+source-wordcount: '706'
 ht-degree: 0%
 
 ---
 
 # Verbinden von [!DNL Adobe Workfront Fusion] mit [!DNL Google Services] mit aktualisierten Sicherheitsmaßnahmen
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Verbinden von Adobe Workfront Fusion mit Google Services mit aktualisierten Sicherheitsmaßnahmen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-google-with-new-security-measures.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

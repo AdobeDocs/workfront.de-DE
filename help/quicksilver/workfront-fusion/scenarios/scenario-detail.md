@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Szenario-Details in [!DNL Adobe Workfront Fusion]
-description: Szenario-Details in [!DNL Adobe Workfront Fusion]
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d8a3492-d609-43c8-a486-a401a597f160
-source-git-commit: 28b422b818cd3e6774c28aae994526a0e7d0420c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '603'
+source-wordcount: '674'
 ht-degree: 1%
 
 ---
 
 # Szenario-Details in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Szenariodetails - Übersicht](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/scenario-details.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Die Seite mit den Szenario-Details ist die Startseite eines bestimmten Szenarios. Sie bietet Zugriff auf bestimmte Informationen für das Szenario, das auf der Seite dargestellt wird.
 

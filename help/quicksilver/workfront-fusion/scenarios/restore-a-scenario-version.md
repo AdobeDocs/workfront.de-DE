@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Wiederherstellen einer Szenario-Version in [!DNL Adobe Workfront Fusion]
-description: Sie können eine frühere Version eines Szenarios wiederherstellen. Auf diese Weise können Sie Änderungen an einem Szenario vornehmen und diese Änderungen dann einfach rückgängig machen, wenn Sie die vorherige Funktion bevorzugen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 8885fe4e-a9ae-4cfa-895f-68a2f8228034
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '224'
+source-wordcount: '270'
 ht-degree: 1%
 
 ---
 
 # Wiederherstellen einer Szenario-Version in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Szenario-Version wiederherstellen](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/restore-a-scenario-version.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

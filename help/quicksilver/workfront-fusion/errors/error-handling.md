@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Fehlerbehandlung in [!DNL Adobe Workfront Fusion]
-description: Wenn bei der Ausführung eines Szenarios Fehler auftreten, liegt dies in der Regel daran, dass ein Service aufgrund eines Fehlers nicht verfügbar ist, ein Service mit unerwarteten Daten antwortet oder die Validierung der Eingabedaten fehlschlägt.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: a08c18a0-1797-4126-827a-1ea7e11d4bad
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '657'
 ht-degree: 0%
 
 ---
 
 # Fehlerbehandlung in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Fehlerbehandlung hinzufügen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/error-handling.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Wenn bei der Ausführung eines Szenarios Fehler auftreten, liegt dies in der Regel daran, dass ein Service aufgrund eines Fehlers nicht verfügbar ist, ein Service mit unerwarteten Daten antwortet oder die Validierung der Eingabedaten fehlschlägt.
 

@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Verwaltung von Adobe Workfront Fusion-Vorlagen
-description: Als Administrator sind Sie berechtigt, von anderen erstellte Vorlagen anzuzeigen, zu ändern, umzubenennen, zu veröffentlichen, zu genehmigen und zu löschen. Sie können diese Aktionen über die Seite [!UICONTROL Vorlagen] im  [!DNL Adobe Workfront Fusion Administration]  ausführen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 63c14183-0d22-44f3-87e5-c311cfbf5540
-source-git-commit: 2b67b5fb951b5ae7867144c444411ebd1c299e75
+source-git-commit: 8163f9f12bb27bbc8adfde34fc1e1f0f8c8be7f9
 workflow-type: tm+mt
-source-wordcount: '636'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
 
 # Verwaltung von [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie nun in den Artikeln:
+>
+>* [Vorlagen für die Registerkarte „Öffentlich“ genehmigen oder nicht genehmigen](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/approve-templates.html)
+>* [Vorlagen bearbeiten](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/manage-templates-admin/edit-templates.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Als Administrator sind Sie berechtigt, von anderen erstellte Vorlagen anzuzeigen, zu ändern, umzubenennen, zu veröffentlichen, zu genehmigen und zu löschen. Sie können diese Aktionen über die Seite [!UICONTROL Vorlagen] im [!DNL Adobe Workfront Fusion Administration] ausführen.
 

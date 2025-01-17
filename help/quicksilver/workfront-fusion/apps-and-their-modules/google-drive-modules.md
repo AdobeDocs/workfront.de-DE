@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Google-Laufwerkmodule
-description: Mit  [!DNL Adobe Workfront Fusion Google Drive]  Modulen können Sie Ihre Dateien, Ordner oder freigegebenen Laufwerke in Ihrem überwachen, suchen, erstellen, aktualisieren, löschen und verwalten [!DNL Google Drive].
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d620c93-d1bf-4451-9f76-1d6fd850cec9
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2958'
+source-wordcount: '3012'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Drive]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Google-Laufwerkmodule](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-drive-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit den [!DNL Adobe Workfront Fusion] [!DNL Google Drive]-Modulen können Sie Ihre Dateien, Ordner oder freigegebenen Laufwerke in Ihrer [!DNL Google Drive] überwachen, suchen, erstellen, aktualisieren, löschen und verwalten.
 

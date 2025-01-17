@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Informationen zum Zuordnen von Dateien in  [!DNL Adobe Workfront Fusion]
-description: Einige Module können Dateien verarbeiten. Diese Module können entweder eine Ausgabedatei zurückgeben, die zur weiteren Verarbeitung gesendet werden soll, oder sie erfordern, dass eine Datei zur Verarbeitung an sie übergeben wird. Bevor diese Module zusammenarbeiten können, um Dateien zu verarbeiten, müssen sie einander zugeordnet werden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 9ed5f176-86d8-4139-b582-c2f58aaed8d4
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
 # Zuordnungsdateien in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Zuordnen einer Datei zwischen Modulen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-files.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Einige Module können Dateien verarbeiten. Diese Module können entweder eine Ausgabedatei zurückgeben, die zur weiteren Verarbeitung gesendet werden soll, oder sie erfordern, dass eine Datei zur Verarbeitung an sie übergeben wird. Bevor diese Module zusammenarbeiten können, um Dateien zu verarbeiten, müssen sie einander zugeordnet werden.
 

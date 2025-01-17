@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Fehlerbehebungsszenarien mit dem Adobe Workfront Fusion DevTool
-description: Mit dem Adobe Workfront Fusion DevTool können Sie Szenarien verstehen und Fehler beheben. Das DevTool fügt den Chrome Developer Tools ein zusätzliches Bedienfeld hinzu. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes durchgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: f7557214-3615-4797-b4cb-4af70e4797ac
-source-git-commit: 6edcb5b826bdcf37b62396a926c923875a3a1436
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1858'
+source-wordcount: '1861'
 ht-degree: 1%
 
 ---
 
 # Debugging-Szenarien mit dem [!DNL Adobe Workfront Fusion] DevTool
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Debuggen eines Szenarios](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/debug-a-scenario.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit dem [!DNL Adobe Workfront Fusion] DevTool können Sie Szenarien verstehen und Fehler beheben. Das DevTool fügt dem [!DNL Chrome Developer Tools] ein zusätzliches Bedienfeld hinzu. Mithilfe dieses Debugger-Bedienfelds können Sie alle manuellen Ausführungen Ihres Szenarios überprüfen, alle ausgeführten Vorgänge überprüfen und die Details jedes durchgeführten API-Aufrufs anzeigen. Sie können sehen, welches Modul, welcher Vorgang oder welche einzelne Antwort den Fehler verursacht hat, und dieses Wissen verwenden, um Ihr Szenario zu verfeinern.
 
@@ -25,7 +37,7 @@ Mit dem [!DNL Adobe Workfront Fusion] DevTool können Sie Szenarien verstehen un
 Eine Videoeinführung und exemplarische Anleitung für das Fusion DevTool finden Sie unter
 
 * [Fusion-Entwicklungstool](https://video.tv.adobe.com/v/3427031/){target=_blank}.
-* [Anleitung zu Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html?lang=en)
+* [Anleitung zu Devtool](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/fusion/troubleshooting-and-error-handling/dev-tool-walkthrough.html)
 
 ## Zugriffsanforderungen
 

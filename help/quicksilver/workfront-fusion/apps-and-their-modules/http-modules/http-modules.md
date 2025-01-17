@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: HTTP &gt; Andere Module
-description: Die  [!DNL Adobe Workfront Fusion] -HTTP-App bietet verschiedene Module für die Kommunikation auf der Grundlage des Hypertext Transfer Protocol (HTTP). HTTP ist die Grundlage der Datenkommunikation für das World Wide Web. Sie können die Module verwenden, um Web-Seiten und -Dateien herunterzuladen, Webhooks und API-Endpunkte aufzurufen usw.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: ff2cd098-d1d7-43a3-9f00-15e0f6e92332
-source-git-commit: 45540ccc3b9fca98f8aaae86ac4d6574a067a6e4
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '457'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
 
 # HTTP > Andere Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [HTTP > Andere Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!NOTE]
 >

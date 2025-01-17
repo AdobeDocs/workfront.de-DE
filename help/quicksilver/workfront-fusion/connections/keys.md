@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Schlüssel in Adobe Workfront Fusion
-description: Der Schlüsselbund in [!DNL Adobe Workfront Fusion]  hilft Ihnen bei der Verwaltung öffentlicher und privater Schlüssel. Schlüssel werden beispielsweise von der Encryptor-App zum Ver- oder Entschlüsseln von PGP-Nachrichten verwendet.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: a36947aa-c218-4ff0-879c-2041c3cccae0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '264'
 ht-degree: 1%
 
 ---
 
 # Schlüssel in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [keys](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/keys.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Der Schlüsselbund in [!DNL Adobe Workfront Fusion] hilft Ihnen bei der Verwaltung öffentlicher und privater Schlüssel. Schlüssel werden beispielsweise von der App [!UICONTROL Encryptor] zum Ver- oder Entschlüsseln von PGP-Nachrichten verwendet.
 

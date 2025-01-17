@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront-Module
-description: Sie können den Adobe Workfront Fusion Adobe Workfront-Connector verwenden, um Ihre Prozesse in Workfront zu automatisieren. Wenn Sie über eine Lizenz für Workfront Fusion for Work Automation und Integration verfügen, können Sie damit auch eine Verbindung zu Apps und Services von Drittanbietern herstellen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion, Workfront Integrations and Apps
 exl-id: b84d2d41-a983-4ea3-b331-0302bfcf8a2b
-source-git-commit: 2682c027b2cd248b2674cebe8f0a0b8d1006257b
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '6797'
+source-wordcount: '6831'
 ht-degree: 2%
 
 ---
 
 # [!DNL Adobe Workfront]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Adobe Workfront-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie können den [!DNL Adobe Workfront Fusion] [!DNL Adobe Workfront]-Connector verwenden, um Ihre Prozesse in [!DNL Workfront] zu automatisieren. Wenn Sie über eine Lizenz für [!UICONTROL [!DNL Workfront Fusion] für Arbeitsautomatisierung und Integration] verfügen, können Sie damit auch eine Verbindung zu Apps und Services von Drittanbietern herstellen.
 

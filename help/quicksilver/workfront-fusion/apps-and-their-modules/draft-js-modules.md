@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Draft.js-Module
-description: In einem  [!DNL Adobe Workfront Fusion]  können Sie die Draft.js-Module verwenden, um Draft.js in HTML und HTML in Draft.js zu konvertieren.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5f4634ed-0861-4c21-8cfe-da5a5e633ff8
-source-git-commit: c69a855e189863852ab7eaecc5c4f791564cd8f4
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '208'
-ht-degree: 2%
+source-wordcount: '263'
+ht-degree: 1%
 
 ---
 
 # [!UICONTROL Draft.js]-Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Draft.js-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/draft-js-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einem [!DNL Adobe Workfront Fusion] Szenario können Sie die Module [!UICONTROL Draft.js] verwenden, um Draft.js in HTML und HTML in Draft.js zu konvertieren. Sie können dies in Kombination mit Workfront-Modulen verwenden, um Rich-Text zu Workfront-Feldern hinzuzufügen oder aus diesen Feldern zu lesen.
 

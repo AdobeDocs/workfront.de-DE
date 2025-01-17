@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: XML
-description: Die XML-App ermöglicht es, einen im XML-Format formatierten Text mithilfe des XML&map;gt;-Parse-XML-Moduls zu analysieren und in ein Bundle zu konvertieren, um die Daten für andere Module verfügbar zu machen. Sie können ein Bundle auch über das XML-Modul "*.gt;“ in einen XML-formatierten Text konvertieren
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 3459e930-8156-4171-8920-34f4e07bc530
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1477'
 ht-degree: 1%
 
 ---
 
 # XML
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [XML](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/xml-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Die [!UICONTROL XML]-App ermöglicht es, einen im XML-Format formatierten Text über das [!UICONTROL XML] > [!UICONTROL Parse XML]-Modul zu analysieren und in ein Bundle zu konvertieren, um die Daten für andere Module verfügbar zu machen. Sie können ein Bundle auch über das Modul [!UICONTROL XML] > [!UICONTROL XML erstellen] in einen Text im XML-Format konvertieren
 

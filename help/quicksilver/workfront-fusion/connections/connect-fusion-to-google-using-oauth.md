@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;setup
 navigation-topic: connections-annd-webhooks
 title: Verbinden [!DNL Adobe Workfront Fusion] mit [!DNL Google Services] mithilfe eines benutzerdefinierten OAuth-Clients
-description: Sie können verwenden [!DNL Adobe Workfront Fusion]  um eine Verbindung zu herzustellen [!DNL Google Services]  mithilfe eines benutzerdefinierten OAuth-Clients. Für dieses Verfahren ist ein vorhandenes - [!DNL Google]  erforderlich.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5efc0001-a8cd-4ffc-b074-3536f095727b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '928'
+source-wordcount: '994'
 ht-degree: 0%
 
 ---
 
 # Verbinden von [!DNL Adobe Workfront Fusion] mit [!DNL Google Services] mithilfe eines benutzerdefinierten OAuth-Clients
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Verbinden von Adobe Workfront Fusion mit Google Services mithilfe eines benutzerdefinierten OAuth-Clients](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-fusion-to-google-using-oauth.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

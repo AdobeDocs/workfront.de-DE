@@ -5,19 +5,31 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: workfront-fusion-2-0
 title: Apps und ihre Module
-description: Adobe Workfront Fusion bietet derzeit dedizierte Connectoren für die auf dieser Liste aufgeführten Apps an. Wenn die App, mit der Sie arbeiten möchten, nicht in dieser Liste enthalten ist, können Sie über die HTTP-, SOAP- oder JSON-Module eine Verbindung mit ihr herstellen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 7075a649-ab0c-4dfc-b726-c5702c90b457
-source-git-commit: 5b24a91a9ea5dadb071dfdd88d9f80b2589a1323
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 19%
+source-wordcount: '275'
+ht-degree: 16%
 
 ---
 
 # Apps und ihre Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Fusion-Anwendungen und ihre Module Referenzen: Artikelindex](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/apps-and-modules-toc.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!IMPORTANT]
 >

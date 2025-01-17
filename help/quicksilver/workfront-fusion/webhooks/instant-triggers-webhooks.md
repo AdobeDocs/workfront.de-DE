@@ -3,18 +3,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: connections-annd-webhooks
 title: Instant Trigger (Webhooks) in [!DNL Adobe Workfront Fusion]
-description: Viele Services stellen Webhooks bereit, mit denen sofortige Benachrichtigungen bereitgestellt werden können, sobald eine bestimmte Änderung im Service eintritt. Für die Verarbeitung dieser Benachrichtigungen empfehlen wir die Verwendung von Instant Trigger. In diesem Artikel werden die Verwendung und Funktionalität von Instant Triggers in Adobe Workfront Fusion beschrieben.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 13b3a1bf-9856-4d2c-b1a5-13b044a7c2e5
-source-git-commit: c51169c18bef8ac8126a04c08deb88d830517b0b
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '933'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
 
 # Sofortige Trigger (Webhooks) in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie nun in den Artikeln:
+>
+>* [Instant Trigger (Webhooks)](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/webhooks-reference.html)
+>* [Anzeigen der Warteschlange eines Webhooks](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-webhook-queue.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Viele Services stellen Webhooks bereit, mit denen sofortige Benachrichtigungen bereitgestellt werden können, sobald eine bestimmte Änderung im Service eintritt. Für die Verarbeitung dieser Benachrichtigungen empfehlen wir die Verwendung von Instant Trigger. Sie können diese in [!DNL Adobe Workfront Fusion] anhand ihres -Tags leicht erkennen:
 

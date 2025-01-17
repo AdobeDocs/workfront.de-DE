@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: Datenspeicher in [!DNL Adobe Workfront Fusion]
-description: Ein Datenspeicher, ähnlich einer Datenbank oder einer einfachen Tabelle, kann Daten aus Szenarien speichern und ermöglicht so die Übertragung von Daten zwischen einzelnen Szenarien oder Szenarioausführungen. Sie können einen Datenspeicher verwenden, um während der Synchronisierung neue Daten aus verschiedenen Systemen zu speichern.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2a665a71-b819-4861-b119-f5c28b87e9c5
-source-git-commit: 00a969175626d27b70d516921097725fdf818799
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1369'
 ht-degree: 1%
 
 ---
 
 # Datenspeicher in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Erstellen und Verwalten von Datenspeichern](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/data-stores.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Ein Datenspeicher, ähnlich einer Datenbank oder einer einfachen Tabelle, kann Daten aus Szenarien speichern und ermöglicht so die Übertragung von Daten zwischen einzelnen Szenarien oder Szenarioausführungen. Sie können einen Datenspeicher verwenden, um während der Synchronisierung neue Daten aus verschiedenen Systemen zu speichern.
 
@@ -27,7 +39,7 @@ Mit den Datenspeichermodulen können Sie die folgenden Aktionen für Datensätze
 * abrufen
 * Löschen
 * Suchen
-* Anzahl
+* Count
 
 Informationen zur Verwendung von Datenspeichermodulen finden Sie unter [[!UICONTROL Datenspeicher]-Module](../../workfront-fusion/apps-and-their-modules/data-store-modules.md).
 

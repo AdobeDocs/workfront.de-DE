@@ -3,18 +3,22 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Hinzufügen eines Benutzers zu einer Organisation in Adobe Workfront Fusion
-description: In Adobe Workfront Fusion können Sie Benutzende zu Organisationen hinzufügen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 98248cca-98f5-4eb5-b203-67e261df33f1
-source-git-commit: 5cdc438c6757d438b2c09796cf77e59dc19c45d9
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '663'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen von Benutzenden zu einer Organisation oder einem Team in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Dieser Artikel wird in naher Zukunft entfernt, da alle Organisationen in die Adobe Admin Console verschoben werden.
 
 >[!IMPORTANT]
 >

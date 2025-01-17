@@ -3,18 +3,22 @@ product-area: workfront-navigation
 product-previous: workfront-fusion
 navigation-topic: workfront-fusion-2-0
 title: Navigieren in der neuen Benutzeroberfläche in Workfront Fusion
-description: Workfront Fusion hat seine Benutzeroberfläche für Benutzende aktualisiert, die nicht über Adobe Experience Cloud auf Fusion zugreifen. Jetzt stimmen ihre Erfahrungen mehr mit Fusion auf der Adobe Experience Cloud überein.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 2887a0e2-039e-4e29-823d-82809f217045
-source-git-commit: 5e1508e8e49a5ceb95b1524dbb23a258ab5c4e20
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '409'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
 
 # Navigieren durch das neue Erlebnis in Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Dieser Artikel wird in naher Zukunft entfernt.
 
 Workfront Fusion wurde für Benutzende aktualisiert, die nicht über die Adobe Experience Cloud auf Fusion zugreifen. Die neue Fusion-Benutzeroberfläche bietet ein nahtloseres Erlebnis mit anderen Adobe-Produkten und erleichtert Ihren Benutzerinnen und Benutzern den Übergang zur Adobe Experience Cloud.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Anzeigen, Bearbeiten und Löschen  [!DNL Adobe Workfront Fusion]  Vorlagen
-description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 97e3402c-d1d0-44f6-9752-11b0f5abee22
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '757'
 ht-degree: 0%
 
 ---
 
 # Anzeigen, Bearbeiten und Löschen [!DNL Adobe Workfront Fusion] Vorlagen
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Anzeigen, Bearbeiten und Löschen von Vorlagen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 [!DNL Adobe Workfront Fusion] erfordert zusätzlich zu einer [!DNL Adobe Workfront license] eine Adobe Workfront Fusion-Lizenz.
 

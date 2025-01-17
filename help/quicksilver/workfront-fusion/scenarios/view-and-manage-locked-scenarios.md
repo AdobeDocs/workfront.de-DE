@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
-description: Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5fccf336-d904-43fe-ad4a-c3ce76dbcad0
-source-git-commit: abb021a6857f8016d4f8b6bcf99fe818e47faea6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '409'
 ht-degree: 0%
 
 ---
 
 # Verwalten gesperrter Szenarien in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Gesperrte Szenarien verwalten](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-manage-locked-scenario.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einigen Fällen kann ein Szenario vorübergehend in [!DNL Workfront Fusion] gesperrt sein. Gesperrte Ausführungen werden innerhalb von 2-4 Stunden automatisch entsperrt. Sie können Szenarien auch manuell entsperren.
 

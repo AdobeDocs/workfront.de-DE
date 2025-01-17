@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: modules
 title: HTTP-Anfragemethoden in [!DNL Adobe Workfront Fusion]
-description: Wenn Sie einen API-Aufruf in einem Modul konfigurieren, müssen Sie das Feld für die HTTP-Anfragemethode ausfüllen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 20b3c0f4-4a4c-4ba0-8570-ac39573ef1c0
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '410'
+source-wordcount: '462'
 ht-degree: 0%
 
 ---
 
 # HTTP-Anfragemethoden in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [HTTP-Anfragemethoden](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/modules/http-request-methods.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Wenn Sie einen API-Aufruf in einem Modul konfigurieren, müssen Sie das Feld für die HTTP-Anfragemethode ausfüllen.
 

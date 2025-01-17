@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Ausführungsfluss des Szenarios in Adobe Workfront Fusion
-description: In diesem Artikel wird erläutert, wie ein Szenario ausgeführt wird und wie Daten durch es fließen. Außerdem erfahren Sie, wo Sie Informationen über Ihre verarbeiteten Daten finden und wie Sie sie lesen können.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 95c6e969-66b4-4b57-9e62-aae0cfb9bf98
-source-git-commit: 75cf9af858e90a640c45b211d36f35b684128c2f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
 
 # Szenario-Ausführungsfluss in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Szenario-Ausführungsfluss](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-flow.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In diesem Artikel wird erläutert, wie ein Szenario ausgeführt wird und wie Daten durch es fließen. Außerdem erfahren Sie, wo Sie Informationen über Ihre verarbeiteten Daten finden und wie Sie sie lesen können.
 

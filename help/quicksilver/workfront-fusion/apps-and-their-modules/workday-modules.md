@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Workday-Module
-description: In einem Adobe Workfront Fusion-Szenario können Sie Workflows automatisieren, die verwenden [!DNL Workday] und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 535573e0-b6ad-43a2-b7cb-ed32d1dc8d16
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1080'
 ht-degree: 1%
 
 ---
 
 # [!DNL Workday]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Workday-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/workday-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einem [!DNL Adobe Workfront Fusion] Szenario können Sie Workflows automatisieren, die [!DNL Workday] verwenden, und sie mit mehreren Anwendungen und Services von Drittanbietern verbinden.
 
@@ -82,7 +94,7 @@ Der Workday-Connector verwendet Folgendes:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://&#123;&#123;connection.servicesUrl&#125;&#125;/api</td> 
+   <td>https://{{connection.servicesUrl}}/api</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-Tag</td> 

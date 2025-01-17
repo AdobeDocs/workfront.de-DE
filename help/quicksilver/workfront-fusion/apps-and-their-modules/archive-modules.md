@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Archivierungsmodule
-description: In  [!DNL Adobe Workfront Fusion]  Szenario können Sie ein Archiv, z. B. eine ZIP-Datei, mit mehreren Anwendungen und Services von Drittanbietern verbinden. Sie können beispielsweise ein Szenario konfigurieren, das
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: e29b6d39-3666-4d6d-a178-1983ae9f3aa9
-source-git-commit: 885d93dd4383945538e977fd3edbfd55bda88b70
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '552'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Archivieren] Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Module archivieren](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/archive-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einem [!DNL Adobe Workfront Fusion] Szenario können Sie ein Archiv, z. B. eine ZIP-Datei, in Ihrem Szenario verwenden, sodass Sie es in Ihren Automatisierungen oder Integrationen verwenden können.
 

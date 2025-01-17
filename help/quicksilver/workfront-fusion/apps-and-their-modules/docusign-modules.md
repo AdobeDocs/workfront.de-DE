@@ -1,18 +1,30 @@
 ---
 title: DocuSign-Module
-description: Mit  [!DNL Adobe Workfront Fusion DocuSign]  Modulen können Sie den Umschlagstatus überwachen und abrufen, Umschläge suchen und abrufen oder ein Dokument herunterladen und senden, um sich bei Ihrem  [!DNL DocuSign]  anzumelden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 draft: Probably
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: a6ebfe6f-dc3f-41f7-8129-bbc5775cff33
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1959'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
 
 # DocuSign-Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [DocuSign-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/docusign-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit den [!DNL Adobe Workfront Fusion] [!DNL DocuSign]-Modulen können Sie den Umschlagstatus überwachen und abrufen, Umschläge suchen und abrufen oder ein Dokument herunterladen und senden, um sich bei Ihrem [!DNL DocuSign]-Konto anzumelden.
 

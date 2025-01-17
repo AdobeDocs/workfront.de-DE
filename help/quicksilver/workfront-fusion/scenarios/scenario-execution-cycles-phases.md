@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Szenarioausführung, Zyklen und Phasen in [!DNL Adobe Workfront Fusion]
-description: In diesem Artikel werden Ereignisse beschrieben, die während  [!DNL Adobe Workfront Fusion]  Ausführung eines Szenarios auftreten, z. B. Initialisierung, Vorgänge, Commits und Rollbacks.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 5403f476-226d-4268-affc-8e06b1117684
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '553'
-ht-degree: 1%
+source-wordcount: '611'
+ht-degree: 0%
 
 ---
 
 # Szenarioausführung, Zyklen und Phasen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Szenarioausführung, Zyklen und Phasen](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/scenarios/scenario-execution-cycles-phases.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 [!DNL Adobe Workfront Fusion] ist ein Transaktionssystem, das relationalen Datenbanken ähnelt. Jede Szenarioausführung beginnt mit der Initialisierungsphase, wird mit mindestens einem Zyklus fortgesetzt, der aus den Vorgangs- und Commit-/Rollback-Phasen besteht, und endet mit der Finalisierungsphase:
 

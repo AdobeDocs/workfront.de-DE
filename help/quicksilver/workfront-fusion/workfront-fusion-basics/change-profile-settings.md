@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: workfront-fusion-basics
 title: Profileinstellungen ändern in [!DNL Adobe Workfront Fusion]
-description: Sie können Informationen in Ihrem  [!DNL Adobe Workfront Fusion]  ändern.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 590c8549-0877-46f4-bf73-174b6b10638c
-source-git-commit: 8b4182ae2b32488a02cacc16fcb6a246fcb571fd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '457'
 ht-degree: 0%
 
 ---
 
 # Profileinstellungen in [!DNL Adobe Workfront Fusion] ändern
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Profileinstellungen ändern](https://experienceleague.adobe.com/docs/workfront-fusion/using/get-started-with-fusion/navigate-workfront-fusion/change-profile-settings.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie können Informationen in Ihrem [!DNL Adobe Workfront Fusion]-Kontoprofil ändern.
 

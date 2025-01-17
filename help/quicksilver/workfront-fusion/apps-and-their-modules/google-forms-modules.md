@@ -5,18 +5,30 @@ product-area: workfront-integrations;documents
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Google Forms-Module
-description: Mit  [!DNL Adobe Workfront Fusion Google Forms]  Modulen können Sie Antworten auf Ihre Google Forms überwachen, auswählen, hinzufügen, aktualisieren oder löschen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 45c86879-bc4e-4134-b63c-02410b9de43b
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1435'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
 
 # [!DNL Google Forms]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Google Forms-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/google-forms-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit den [!DNL Adobe Workfront Fusion] [!DNL Google Forms] können Sie Antworten auf Ihre [!DNL Google Forms] überwachen, auswählen, hinzufügen, aktualisieren oder löschen.
 

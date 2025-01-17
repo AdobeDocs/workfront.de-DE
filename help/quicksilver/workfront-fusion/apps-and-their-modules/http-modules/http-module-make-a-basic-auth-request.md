@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: http-modules
 title: HTTP &gt; Erstellen eines einfachen Autorisierungsanforderungsmoduls
-description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: df8b53de-1af2-4026-b7dd-ff5133b4aac2
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '985'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL HTTP] >[!UICONTROL Erstellen einer einfachen Autorisierungsanfrage]-Modul
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [HTTP > Erstellen eines einfachen Autorisierungsanforderungsmoduls](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/http-module-make-a-basic-auth-request.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit diesem [!DNL Adobe Workfront Fusion] können Sie eine HTTP-Anfrage mit HTTP-Standardautorisierung konfigurieren und an einen Server senden. Die empfangene HTTP-Antwort ist dann im Ausgabepaket enthalten.
 

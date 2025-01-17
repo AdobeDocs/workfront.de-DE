@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Löschen von Benutzern über die Adobe Admin Console
-description: Sie können einen Benutzer nur aus Adobe Workfront Fusion entfernen, sodass er Zugriff auf alle anderen Adobe-Produktprofile hat, oder den Benutzer vollständig aus Adobe Admin Console entfernen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 0d989134-46c0-4637-b465-6fbe04258b8a
-source-git-commit: 392eee3c7b1aacf92d7877f07a8154924f3926a0
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '284'
+source-wordcount: '332'
 ht-degree: 0%
 
 ---
 
 # Löschen von Benutzern über die [!DNL Adobe Admin Console]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Löschen von Benutzern über die Adobe Admin Console](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/manage-users-and-teams/delete-users-admin-console.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!IMPORTANT]
 >

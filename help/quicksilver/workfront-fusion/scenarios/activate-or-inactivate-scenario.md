@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Aktivieren oder Deaktivieren eines Szenarios in  [!DNL Adobe] Workfront Fusion
-description: In diesem Artikel wird beschrieben, warum aktive oder deaktivierte Szenarien in verschiedenen Situationen nützlich sind und wie Sie ein Szenario aktivieren oder deaktivieren.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: b3eea763-f0bf-4037-8d73-20d112dc5ac3
-source-git-commit: b1764e443ebb0ad48ca4ae0263d326f4156fb155
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '345'
 ht-degree: 1%
 
 ---
 
 # Aktivieren oder Deaktivieren eines Szenarios in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Aktivieren oder Deaktivieren eines Szenarios](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/activate-deactivate-scenarios.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie können mit Szenarien arbeiten, die entweder einen aktiven oder einen inaktiven Status aufweisen:
 

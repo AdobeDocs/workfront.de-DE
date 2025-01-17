@@ -5,20 +5,32 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Adobe Workfront-Planungsmodule
-description: Mit den  [!DNL Adobe Workfront Planning] -Modulen können Sie ein  [!DNL Adobe Workfront Fusion]  auf der Grundlage von Ereignissen in Ihrem  [!DNL Adobe] Workfront Planning-Konto starten, Vereinbarungen und andere Datensätze erstellen, lesen oder aktualisieren, nach Datensätzen anhand der von Ihnen festgelegten Kriterien suchen und Dokumente hochladen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 hide: true
 hidefromtoc: true
 exl-id: 892fdaf3-935e-4e66-a01c-9e9b6e0daf3e
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1166'
+source-wordcount: '1207'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Planning]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Adobe Workfront-Planungsmodule](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit den [!DNL Adobe Workfront Planning]-Modulen können Sie einen Trigger erstellen, wenn in Workfront Planning Ereignisse eintreten. Sie können auch Datensätze erstellen, lesen, aktualisieren und löschen oder einen benutzerdefinierten API-Aufruf an Ihr [!DNL Adobe Workfront Planning]-Konto durchführen.
 
@@ -71,7 +83,7 @@ Der Adobe Workfront Planning-Connector verwendet Folgendes:
  <tbody> 
   <tr> 
    <td role="rowheader">Basis-URL</td> 
-   <td>https://&#123;&#123;connection.host&#125;&#125;/maestro/api/&#123;&#123;common.maestroApiVersion&#125;&#125;/</td> 
+   <td>https://{{connection.host}}/maestro/api/{{common.maestroApiVersion}}/</td> 
   </tr>
   <tr> 
    <td role="rowheader">API-Tag</td> 

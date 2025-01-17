@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Anzeigen von Aktivitätsprotokollen für eine Organisation in Adobe Workfront Fusion
-description: Sie können ein Aktivitätsprotokoll für Ihr Unternehmen anzeigen, z. B. die Erstellung oder Aktivierung eines Szenarios.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: d60dc97d-2da6-44f4-a2ee-bb5e56317695
-source-git-commit: 6f4ba4cde26978305a58cedb9ed606c6032496f1
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '589'
 ht-degree: 0%
 
 ---
 
 # Anzeigen von Aktivitätsprotokollen für eine Organisation in Adobe Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Anzeigen von Aktivitätsprotokollen für eine Organisation](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/view-activity-logs-for-an-org.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 <!--Move to new repo-->
 

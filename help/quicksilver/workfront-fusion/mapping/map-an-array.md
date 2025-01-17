@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: mapping
 title: Zuordnen eines Arrays in  [!DNL Adobe] Workfront Fusion
-description: Sie können ein Array einem Modulfeld in Adobe Workfront Fusion zuordnen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 725e0c24-cb4b-46c4-9c00-4f9cc334fbc7
-source-git-commit: f87bc22f4ce70f266a199fcb54c5a74f9e3ba914
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '865'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
 
 # Zuordnen eines Arrays in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Ordnen Sie ein Array- oder Array-Element zu](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/map-data/map-an-array.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Ein Array ist ein spezieller Elementtyp, der Folgendes enthalten kann:
 

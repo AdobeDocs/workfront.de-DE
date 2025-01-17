@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: Hinzufügen eines Webhooks zu einem Basisszenario
-description: Webhooks, auch als Instant Trigger bezeichnet, sind eine spezielle Art von Szenariomodul, das ein Trigger starten kann, wenn eine Änderung vorgenommen wird, anstatt nach einem bestimmten Zeitplan.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6694b883-6f94-449c-bcfe-5a4053e8655a
-source-git-commit: 1196e2d7a6d6750944a7c6209222f07382abfee7
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '313'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen eines Webhooks zu einem einfachen Szenario in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Hinzufügen eines Webhooks zu einem Basisszenario](https://experienceleague.adobe.com/docs/workfront-fusion/using/build-practice-scenarios/add-a-webhook-to-basic-scenario.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Webhooks, auch als Instant Trigger bezeichnet, sind eine spezielle Art von Szenariomodul, das ein Trigger starten kann, wenn eine Änderung vorgenommen wird, anstatt nach einem bestimmten Zeitplan.
 

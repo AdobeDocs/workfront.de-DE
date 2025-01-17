@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Derzeit verfügbare Adobe Workfront Fusion-Vorlagen
-description: Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfront Fusion verfügbar.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 29d95b93-ab54-416d-b0d5-ff12634951b2
-source-git-commit: 3c22860b1a9bdc653a772a48ccfcbb4456b11c8c
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1257'
+source-wordcount: '1323'
 ht-degree: 0%
 
 ---
 
 # Derzeit verfügbare Adobe Workfront Fusion-Vorlagen
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Derzeit verfügbare Adobe Workfront Fusion-Vorlagen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/currently-available-fusion-templates.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Die folgenden öffentlichen Vorlagen sind derzeit in Adobe Workfront Fusion verfügbar.
 

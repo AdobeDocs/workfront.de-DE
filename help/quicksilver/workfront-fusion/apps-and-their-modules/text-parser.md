@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;documents
 navigation-topic: apps-and-their-modules
 title: Text-Parser
-description: Sie können das Text-Parser-Tool verwenden, um Text zur Verwendung in anderen  [!DNL Adobe Workfront Fusion] -Modulen zu analysieren. Der Text-Parser benötigt keine Verbindung.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 7d71cf64-4f86-42c5-81e7-8fc15333cbd7
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1097'
 ht-degree: 0%
 
 ---
 
 # [!UICONTROL Text-Parser]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Text-Parser](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/tools-and-transformers/text-parser.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie können das [!UICONTROL Text-Parser-Tool] verwenden, um Text zur Verwendung in anderen [!DNL Adobe Workfront Fusion]-Szenario-Modulen zu analysieren. Der [!UICONTROL Text-Parser] erfordert keine Verbindung.
 

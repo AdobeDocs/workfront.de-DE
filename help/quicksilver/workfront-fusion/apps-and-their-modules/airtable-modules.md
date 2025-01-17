@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Airtable-Module
-description: Adobe Workfront Fusion erfordert zusätzlich zu einer Adobe Workfront-Lizenz eine Adobe Workfront Fusion-Lizenz.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 1d78e0db-9a77-437d-a72f-88fb256981c0
-source-git-commit: 27fb07b7b19bab25bb7ee925e722ccace3bea628
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1877'
-ht-degree: 2%
+source-wordcount: '1934'
+ht-degree: 1%
 
 ---
 
 # Airtable-Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Airtable-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/airtable-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 
 Mit dem [!DNL Airtable]-Connector für [!DNL Adobe Workfront Fusion] können Sie ein Szenario auf der Grundlage von Ereignissen in Ihrem [!DNL Airtable]-Konto starten, Datensätze erstellen, hochladen und aktualisieren, Datensätze suchen und benutzerdefinierte API-Aufrufe an die Airtable-API durchführen.

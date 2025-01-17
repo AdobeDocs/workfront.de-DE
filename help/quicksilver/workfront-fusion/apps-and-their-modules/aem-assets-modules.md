@@ -6,18 +6,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: apps-and-their-modules
 title: Adobe Experience Manager Assets-Module
-description: Mit dem  [!DNL Adobe Experience Manager Assets] -Connector für [!DNL Adobe Workfront Fusion] können Sie Assets erstellen, hochladen und aktualisieren sowie Ordner und Assets kopieren oder verschieben.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion, Digital Content and Documents
 exl-id: 0749f230-8cab-464f-863c-9cb4870125d1
-source-git-commit: a287bc6d7d4755deb19296523d1666f0fcb60526
+source-git-commit: 3983d811a849c01b3c34b1cd6ee895e5552225a6
 workflow-type: tm+mt
-source-wordcount: '1716'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Experience Manager Assets]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Adobe Experience Manager Assets-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/aem-assets-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit dem [!DNL Adobe Experience Manager Assets]-Connector für [!DNL Adobe Workfront Fusion] können Sie Assets erstellen, hochladen und aktualisieren sowie Ordner und Assets kopieren oder verschieben.
 

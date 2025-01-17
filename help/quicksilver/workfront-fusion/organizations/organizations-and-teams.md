@@ -4,18 +4,31 @@ product-previous: workfront-fusion
 product-area: workfront-integrations;user-management
 navigation-topic: organizations
 title: Organisationen und Teams von Adobe Workfront Fusion
-description: Die Organisations- und Team-Funktionen von Adobe Workfront Fusion ermöglichen es Unternehmen, den Zugriff auf Szenarien und andere Funktionen innerhalb von Fusion zu steuern.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 601e937f-0286-4557-9a87-59aa9c0c22f1
-source-git-commit: 063c4a885d43b41ba6ff72ac22a1552486531fa6
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1300'
 ht-degree: 1%
 
 ---
 
 # [!DNL Adobe Workfront Fusion] Organisationen und Teams
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie nun in den Artikeln:
+>
+>* [Übersicht über Adobe Workfront Fusion-Organisationen und -Teams](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/org-and-team-overview.html)
+>* [Festlegen der Team-Benachrichtigungsoptionen](https://experienceleague.adobe.com/docs/workfront-fusion/using/set-up-and-manage-fusion/set-up-and-manage-orgs-and-teams/set-up-orgs-teams-and-users/set-team-notification-options.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Die Funktionen von [!DNL Adobe Workfront Fusion] für Organisation und Teams ermöglichen es Unternehmen, den Zugriff auf Szenarien und andere Funktionen in Fusion zu steuern.
 

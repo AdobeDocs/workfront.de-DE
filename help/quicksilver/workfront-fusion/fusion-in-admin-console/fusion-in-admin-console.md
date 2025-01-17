@@ -5,19 +5,29 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: workfront-fusion-2-0
 title: Adobe Workfront Fusion in der Adobe Admin Console
-description: Löschen Sie diesen Text und ersetzen Sie ihn durch Ihren eigenen Inhalt.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 recommendations: noDisplay, noCatalog
 exl-id: 92185eff-ca16-4d2a-acc6-a0d271203232
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '49'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
 
 # [!DNL Adobe Workfront Fusion]im [!DNL Adobe Admin Console]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Links zur neuen Dokumentation finden Sie in den einzelnen Artikeln.
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 >[!NOTE]
 >

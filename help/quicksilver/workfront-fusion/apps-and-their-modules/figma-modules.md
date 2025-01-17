@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: Figma-Module
-description: Mit den  [!DNL Adobe Workfront Fusion] -Figma-Modulen können Sie Listen von Kommentaren, Dateien, Dateiversionen oder Projekten abrufen. Sie können auch einen Kommentar posten oder einen Aufruf an die Figma-API durchführen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: d88db592-32d4-4765-952f-9ffb58cf1720
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '2331'
+source-wordcount: '2375'
 ht-degree: 0%
 
 ---
 
 # [!DNL Figma] Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [FIGMA-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/third-party-app-connectors/figma-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit den [!DNL Adobe Workfront Fusion] [!DNL Figma] können Sie Listen von Kommentaren, Dateien, Dateiversionen oder Projekten abrufen. Sie können auch einen Kommentar posten oder einen Aufruf an die [!DNL Figma]-API durchführen.
 

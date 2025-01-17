@@ -5,18 +5,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: apps-and-their-modules
 title: FTP-Module
-description: Mit FTP-Modulen können Sie Dateiänderungen in einem ausgewählten Ordner überwachen, neue Dateien in den gewünschten Ordner hochladen und vorhandene Dateien, die sich bereits in einem Ordner befinden, ändern oder löschen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 360825a4-4580-4039-894e-583e82132ed6
-source-git-commit: 55485da1ea650121b5537a3f19d8102623ed4f43
+source-git-commit: efbe888d370e20c895dc40f18f999f2d01ec6337
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
 
 # FTP-Module
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [FTP-Module](https://experienceleague.adobe.com/docs/workfront-fusion/using/references/apps-and-their-modules/universal-connectors/ftp-modules.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit FTP-Modulen können Sie Dateiänderungen in einem ausgewählten Ordner überwachen, neue Dateien in den gewünschten Ordner hochladen und vorhandene Dateien, die sich bereits in einem Ordner befinden, ändern oder löschen.
 

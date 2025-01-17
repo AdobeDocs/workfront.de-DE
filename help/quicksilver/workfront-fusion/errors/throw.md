@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Fehlerbehandlung in Adobe Workfront Fusion auslösen
-description: In einigen Fällen empfiehlt es sich, die Ausführung des Szenarios mit anschließender Rollback- oder Commit-Phase zu stoppen oder die Verarbeitung einer Route zu stoppen und sie optional in der Warteschlange der Ansichten zu speichern und unvollständige Ausführungen in Adobe Workfront Fusion aufzulösen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6258bd4d-31a0-4fbb-b1b4-8e9a5a9dbe36
-source-git-commit: a3756f9345cbc9417a6fd110306dfa50aecc81a2
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Behandlung von Auslösefehlern in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Problemumgehung für `throw` konfigurieren](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/throw.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 In einigen Fällen empfiehlt es sich, die Ausführung des Szenarios mit der [Rollback](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#rollback)- oder [Commit](../../workfront-fusion/scenarios/scenario-execution-cycles-phases.md#commit)-Phase zu stoppen oder die Verarbeitung einer Route zu stoppen und sie optional in der Warteschlange der unvollständigen Ausführungen zu speichern.
 

@@ -4,18 +4,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: errors
 title: Erweiterte Fehlerbehandlung in  [!DNL Adobe] Workfront Fusion
-description: Zu den fortschrittlichen Techniken zur Fehlerbehandlung gehören Filterung und Verschachtelung.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 57f43fc2-23ed-44f5-8785-90739329b5ee
-source-git-commit: 0915dcce45b271ee18cdd8af5db4f0eb01f3cced
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '1031'
 ht-degree: 0%
 
 ---
 
 # Erweiterte Fehlerbehandlung in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Filter und Verschachtelung zu Routen für die Fehlerbehandlung hinzufügen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/configure-error-handling/advanced-error-handling.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Zu den fortschrittlichen Techniken zur Fehlerbehandlung gehören Filterung und Verschachtelung.
 

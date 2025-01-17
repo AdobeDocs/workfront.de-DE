@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Übersicht über Adobe Workfront Fusion-Vorlagen
-description: Mit der Workfront Fusion-Vorlagenfunktion können Sie vorhandene Vorlagen erstellen und als Ausgangspunkt für Ihre  [!DNL Workfront Fusion]  verwenden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 02c10997-28bd-46b4-bbcc-0c907cdaeb7b
-source-git-commit: 6dd2fd4d688514540265fa3b0d2634194fb6a7ab
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '391'
+source-wordcount: '448'
 ht-degree: 1%
 
 ---
 
 # Übersicht über [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Anzeigen, Bearbeiten und Löschen von Vorlagen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-and-manage-templates/view-edit-and-delete-fusion-templates.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Mit [!DNL Workfront Fusion] Vorlagenfunktion können Sie vorhandene Vorlagen erstellen und als Ausgangspunkt für Ihre [!DNL Workfront Fusion] verwenden. Vorlagen stellen gängige Anwendungsfälle dar, die Sie konfigurieren und ändern können, um sie an die Anforderungen Ihres Unternehmens und bestimmte Anwendungsfälle anzupassen.
 

@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: scenarios
 title: Anzeigen des Verlaufs eines Szenarios in Adobe Workfront Fusion
-description: Sie können Informationen zu allen Ausführungen für ein Szenario anzeigen oder alle Ausführungen des Szenarios nach bestimmten Daten durchsuchen.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: cc2c3f87-34dc-4a06-9f5f-1a7fb10a3b82
-source-git-commit: 2e26c4e4b5f331ed2e609381ef442f45e90c4faa
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '972'
+source-wordcount: '1025'
 ht-degree: 0%
 
 ---
 
 # Anzeigen des Verlaufs eines Szenarios in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Anzeigen des Ausführungsverlaufs eines Szenarios](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/view-scenario-execution-history.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Sie können Informationen zu den Ereignissen oder Ausführungen eines Szenarios anzeigen oder alle Ausführungen des Szenarios nach bestimmten Daten durchsuchen.
 

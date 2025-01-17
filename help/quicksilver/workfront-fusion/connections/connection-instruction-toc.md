@@ -5,18 +5,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: connections-annd-webhooks
 title: Erstellen Sie Verbindungen in [!DNL Adobe Workfront Fusion]
-description: Eine Verbindung muss den Anforderungen entsprechen, die von der API der App oder des Webservices festgelegt werden, mit der bzw. dem sie eine Verbindung herstellt. Aus diesem Grund variieren die Anweisungen zum Einrichten einer Verbindung je nach App oder Webservice. Dieser Artikel kann Ihnen dabei helfen, die Anweisungen zum Verbinden von mit  [!DNL Adobe Workfront Fusion]  ausgewählten App oder dem ausgewählten Webservice zu identifizieren und zu finden.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: fb1a2af4-da58-48ba-85b5-1903d6a3ceda
-source-git-commit: b90343eab40e91c6f5cddeaa960ce9c9c97b1d29
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '503'
+source-wordcount: '523'
 ht-degree: 1%
 
 ---
 
 # Erstellen von Verbindungen in [!DNL Adobe Workfront Fusion]
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Mit Anwendungen verbinden: Artikelindex](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-apps-toc.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 <!-- Audited: 3/2024-->
 

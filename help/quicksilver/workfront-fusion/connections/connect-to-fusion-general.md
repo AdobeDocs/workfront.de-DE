@@ -4,18 +4,30 @@ product-area: workfront-integrations
 keywords: Steckverbinder
 navigation-topic: connections-annd-webhooks
 title: Erstellen einer Verbindung mit [!DNL Adobe Workfront Fusion]  - Grundlegende Anweisungen
-description: Viele  [!DNL Adobe Workfront Fusion]  erfordern beim Erstellen einer Verbindung keine benutzerdefinierte Konfiguration. In diesem Artikel wird der Standardprozess zur Erstellung von Verbindungen beschrieben.
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 6576a515-a1a1-4613-8d04-3c9d36bb1ed9
-source-git-commit: 7d5f7c21fe38d43fb5601c81b8a31cc80587848f
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '412'
 ht-degree: 0%
 
 ---
 
 # Erstellen einer Verbindung zu [!DNL Adobe Workfront Fusion] - Grundlegende Anweisungen
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [Verbindung erstellen - Grundlegende Anweisungen](https://experienceleague.adobe.com/docs/workfront-fusion/using/create-scenarios/connect-to-applications/connect-to-fusion-general.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 ## Zugriffsanforderungen
 

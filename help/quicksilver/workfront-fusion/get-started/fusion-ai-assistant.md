@@ -3,18 +3,30 @@ product-previous: workfront-fusion
 product-area: workfront-integrations
 navigation-topic: get-started-with-workfront-fusion-2-0
 title: KI-Assistent in Workfront Fusion
-description: KI-Assistent in Workfront Fusion
+description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben. Dieser Artikel ist veraltet, enthält jedoch einen Link zum neuen Artikel, der diese Funktion behandelt.
 author: Becky
 feature: Workfront Fusion
 exl-id: 99d614da-e900-448b-ab80-13f002638670
-source-git-commit: 2b455fb2d3892c6bb796aa7ea57a60c861c3d599
+source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
 workflow-type: tm+mt
-source-wordcount: '283'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
 # KI-Assistent in Workfront Fusion
+
+>[!IMPORTANT]
+>
+>Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Speicherort verschoben.
+>
+>Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
+>
+>* [KI-Assistent in Workfront Fusion](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/fusion-ai-assistant.html)
+>
+>Bitte aktualisieren Sie alle Lesezeichen.
+>
+>Dieser Artikel wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
 Der KI-Assistent kann Informationen aus der Workfront-Dokumentation finden, sodass Sie Adobe Experience League nicht mehr aufrufen müssen, um die benötigte Hilfe zu erhalten.
 
