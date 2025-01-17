@@ -7,7 +7,7 @@ description: Die Dokumentation zu Adobe Workfront Fusion wurde an einen neuen Sp
 author: Becky
 feature: Workfront Fusion
 exl-id: 1475a247-47eb-4fe3-98dc-50df242167e7
-source-git-commit: 2d6af8b4988bd9aab7381daa79dec79e41408c45
+source-git-commit: ac61d25c87185635acf6119299aad6723ce78bbe
 workflow-type: tm+mt
 source-wordcount: '223'
 ht-degree: 0%
@@ -22,7 +22,7 @@ ht-degree: 0%
 >
 >Die Informationen in diesem Artikel finden Sie jetzt im Artikel:
 >
->* [Aktualisieren eines Moduls auf eine neue Version](https://experienceleague.corp.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
+>* [Aktualisieren eines Moduls auf eine neue Version](https://experienceleague.adobe.com/docs/workfront-fusion/using/manage-scenarios/update-module-to-new-version.html?lang=en)
 >
 >Bitte aktualisieren Sie alle Lesezeichen.
 >
