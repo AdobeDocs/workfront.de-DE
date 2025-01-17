@@ -6,10 +6,11 @@ feature: Product Announcements
 hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
+source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
 workflow-type: tm+mt
-source-wordcount: '152'
-ht-degree: 1%
+source-wordcount: '292'
+ht-degree: 2%
 
 ---
 
@@ -23,16 +24,43 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
-## Textmodus für Filter und Gruppierungen
+## Administration und Einrichtung
 
-**Vorschauversion: 9. Januar 2025; Produktionsversion: 9. Januar 2025**
+### Aktualisierung der Benutzeroberfläche für das Dialogfeld „SharePoint hinzufügen“
+
+**Vorschau-Version: 16. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Das Dialogfeld SharePoint hinzufügen unter Einrichtung > Dokumente > SharePoint-Integration wurde durch ein moderneres Design ergänzt, das mit anderen Bereichen von Workfront konsistent ist.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
+
+### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen im Setup
+
+**Vorschau-Version: 16. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben die Listen für Projekt-, Aufgaben- und Problemgenehmigungen in Setup > Prozesse > Genehmigungen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
+
+## Berichte und Dashboards
+
+### Textmodus für Filter und Gruppierungen
+
+**Vorschauversion: 9. Januar 2025; Produktionsversion: Beginn des 9. Januar 2025**
 
 Wir haben eine neue Schaltfläche Textmodus bearbeiten und Modal bearbeiten zu den folgenden Bereichen hinzugefügt:
 
 * Legacy-Filter
 * Gruppierungen
 
-Weitere Informationen finden Sie unter:
+### Genehmigungsberichte wurden durch neue Formatierung aktualisiert
 
-* [Bearbeiten eines Filters im Textmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-filter.md)
-* [Bearbeiten einer Gruppierung im Textmodus](/help/quicksilver/reports-and-dashboards/reports/text-mode/edit-text-mode-in-grouping.md)
+**Vorschau-Version: 16. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Die Benutzeroberfläche der folgenden Genehmigungsberichte wurde aktualisiert:
+
+* Bericht zu Benutzerentscheidungen
+* Bericht zu Benutzergenehmigungen
+* Genehmigungsprozess-Bericht
+
+Diese Aktualisierungen beinhalten visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
