@@ -7,7 +7,7 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 6d90f544b73f79b545fbcafbc18d7a653554d75f
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
 source-wordcount: '292'
 ht-degree: 2%
@@ -44,15 +44,6 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ## Berichte und Dashboards
 
-### Textmodus für Filter und Gruppierungen
-
-**Vorschauversion: 9. Januar 2025; Produktionsversion: Beginn des 9. Januar 2025**
-
-Wir haben eine neue Schaltfläche Textmodus bearbeiten und Modal bearbeiten zu den folgenden Bereichen hinzugefügt:
-
-* Legacy-Filter
-* Gruppierungen
-
 ### Genehmigungsberichte wurden durch neue Formatierung aktualisiert
 
 **Vorschau-Version: 16. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
@@ -64,3 +55,12 @@ Die Benutzeroberfläche der folgenden Genehmigungsberichte wurde aktualisiert:
 * Genehmigungsprozess-Bericht
 
 Diese Aktualisierungen beinhalten visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
+
+### Textmodus für Filter und Gruppierungen
+
+**Vorschauversion: 9. Januar 2025; Produktionsversion: Beginn des 9. Januar 2025**
+
+Wir haben eine neue Schaltfläche Textmodus bearbeiten und Modal bearbeiten zu den folgenden Bereichen hinzugefügt:
+
+* Legacy-Filter
+* Gruppierungen

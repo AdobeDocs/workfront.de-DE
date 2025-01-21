@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Bearbeiten einer Gruppierung im Textmodus
-description: 'HINWEIS: alle FVG-Artikel für die Bearbeitung im Textmodus gleich machen)'
+description: Sie können eine Gruppierung in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardbenutzeroberfläche nicht verfügbar sind, und komplexere Gruppierungen zu erstellen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '1520'
+source-wordcount: '1537'
 ht-degree: 0%
 
 ---

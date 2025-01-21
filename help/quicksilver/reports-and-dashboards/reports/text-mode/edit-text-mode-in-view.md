@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: text-mode-reporting
 title: Bearbeiten einer Ansicht im Textmodus
-description: 'HINWEIS: Fügen Sie einen Abschnitt in diesem Artikel hinzu: /content/reports and dashboards/reports/reporting Elements/create-customize-views.html *** (Entwerfen Sie diesen Bereich auch im Artikel Textmodus - Übersicht )'
+description: Sie können eine Ansicht in einer Liste oder einem Bericht im Textmodus bearbeiten, um auf Felder zuzugreifen, die in der Standardbenutzeroberfläche nicht verfügbar sind, und komplexere Ansichten zu erstellen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '459'
 ht-degree: 2%
 
 ---
