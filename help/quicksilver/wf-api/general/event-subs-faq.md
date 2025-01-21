@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: a6120939-5d76-4f46-a304-125de6b22502
-source-git-commit: 77c07c7c7104d37360cc7630a89dd72836da477c
+source-git-commit: 074f78e27d2ab1cb1d1b8216f14557b91d9afd00
 workflow-type: tm+mt
-source-wordcount: '970'
+source-wordcount: '973'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Wenden Sie sich an den Workfront-Support. Informationen zum Kontaktieren des Sup
 
 ## Welche verschiedenen Authentifizierungstypen kann ich mit Workfront-Ereignisabonnements verwenden?
 
-Sie können eine beliebige Authentifizierung verwenden, die ein Bearer-Token verwendet. Das Feld **authToken** eines Abonnements ist eine Zeichenfolge, die ein OAuth2-Bearer-Token darstellt, das zur Authentifizierung mit der im Feld **url** angegebenen URL verwendet. Theoretisch könnte dieser Token-Wert alles sein, solange der Ziel-Endpunkt weiß, wie seine Kodierung verarbeitet wird, nämlich **utf-8**.
+Sie können eine beliebige Authentifizierung verwenden, die ein Bearer-Token verwendet. Das Feld **authToken** eines Abonnements ist eine Zeichenfolge, die ein OAuth2-Bearer-Token darstellt, das zur Authentifizierung mit der im Feld **url** angegebenen URL verwendet. Theoretisch könnte dieser Token-Wert alles unter 255 Zeichen sein, solange der Ziel-Endpunkt weiß, wie seine Kodierung verarbeitet wird, nämlich **utf-8**.
 
 ## Wie lange sollte es dauern, bis ich meine Ereignis-Payload von Workfront-Ereignisabonnements erhalte?
 
