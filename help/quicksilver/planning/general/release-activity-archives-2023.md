@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 8a3830e8-0d9a-4ede-a1b6-b80dd4686bc6
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '2983'
+source-wordcount: '2985'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Produktion: 21. Dezember 2023
 >
 >Ihr Unternehmen muss Adobe Workfront Fusion erwerben, um Verbindungen mit Adobe Workfront Planning-Funktionen herstellen zu können.
 >
->Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Fusion](/help/quicksilver/workfront-fusion/get-started/workfront-fusion-overview.md).
+>Weitere Informationen finden Sie unter [Übersicht über Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu den Planungsfunktionen herzustellen. Mit der neuen Fusion-Verbindung haben Sie folgende Möglichkeiten:
 
@@ -105,7 +105,7 @@ Jetzt können Sie Adobe Workfront Fusion verwenden, um eine Verbindung zu den Pl
 
 * Trigger : Ein Szenario, in dem eine Änderung an den Planungsfunktionen vorgenommen wird
 
-Weitere Informationen finden Sie unter [Adobe Workfront-Planungsmodule](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-planning-modules.md).
+Weitere Informationen finden Sie unter [Adobe Workfront-Planungsmodule](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-planning-modules).
 
 ## Woche vom 11. Dezember 2023
 

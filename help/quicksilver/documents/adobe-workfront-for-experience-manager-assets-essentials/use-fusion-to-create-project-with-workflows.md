@@ -6,9 +6,9 @@ description: Wenn Sie ein Projekt über Workfront Fusion erstellen und Adobe Exp
 author: Becky
 feature: Digital Content and Documents, Workfront Integrations and Apps, Workfront Fusion
 exl-id: b8132d5e-234d-47f6-a09c-ca46018a2d77
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '894'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ Wenn Sie in Workfront Fusion ein Projekt erstellen möchten, das Adobe Experienc
 1. Workfront Fügen Sie das Modul **** > **Misc Action** zu Ihrem Szenario hinzu.
 1. Wählen Sie im **Verbindung** die Workfront-Verbindung aus, die eine Verbindung zu dem Konto herstellt, das dieses Modul verwenden wird.
 
-   Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
+   Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
 
    Anweisungen zum Erstellen der Client-ID und des Client-Geheimnisses, das Sie benötigen, um eine Verbindung zu erstellen, finden [ unter „Erstellen einer OAuth](#create-an-oauth-application)Anwendung“ in diesem Artikel.
 
@@ -175,4 +175,4 @@ Für die Verbindung dieses Moduls müssen Sie in Workfront eine OAuth-Anwendung 
 
 Diese Client-ID und dieses Client-Geheimnis werden beim Konfigurieren der Verbindung des Moduls in Fusion verwendet.
 
-Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](/help/quicksilver/workfront-fusion/apps-and-their-modules/workfront-modules.md#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.
+Anweisungen zum Erstellen einer Verbindung finden Sie unter [Verbinden [!DNL Workfront] mit [!DNL Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules#connect-workfront-to-workfront-fusion) im Artikel Workfront-Module.

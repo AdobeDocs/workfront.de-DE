@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: bfc7ce9e-b715-47b7-bab7-2e3540d0da3e
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '3220'
+source-wordcount: '3221'
 ht-degree: 0%
 
 ---
@@ -498,7 +498,7 @@ Campaign wurde im Juli 2022 mit der Version 22.3 zur Beta-Vorschau veröffentlic
 
 ## Workfront Fusion-Verbesserungen
 
-Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.3 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](../../../product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für 22.3 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ## Verbesserungen am Workfront-Szenarioplaner
 

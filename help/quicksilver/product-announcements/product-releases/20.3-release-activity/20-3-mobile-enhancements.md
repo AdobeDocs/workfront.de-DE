@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements, Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: 891be3ab-ba65-406e-a90c-d7a9db8310e3
-source-git-commit: 52ca3335f6c2dde0442f31fb4bd4ca0180c96b40
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '309'
+source-wordcount: '310'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Workfront hat vor kurzem Technologie für eine völlig neue Generation von Workf
 
 Bisherige Workfront Fusion-Kunden können mit mehr Leistung, Geschwindigkeit, Benutzerfreundlichkeit und Vorhersehbarkeit in Workfront Fusion 2.0 rechnen. Wir sind dabei, aktuelle Workfront Fusion-Kunden auf Workfront Fusion 2.0 zu migrieren. Weitere Informationen erhalten Sie von Ihrem Kundenbetreuer.
 
-Weitere Informationen finden Sie unter [Adobe Workfront Fusion](../../../workfront-fusion/workfront-fusion-2.md).
+Weitere Informationen finden Sie unter [Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).
 
 ## Einführung in Workfront für MobileIron
 

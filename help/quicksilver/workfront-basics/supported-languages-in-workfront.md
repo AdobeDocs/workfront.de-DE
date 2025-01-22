@@ -6,9 +6,9 @@ description: Sie können die Sprache, in der Sie Adobe Workfront und E-Mails aus
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 0b76175f-5fe2-49df-b605-68e6e66b4366
-source-git-commit: cac27d995a1b5295e05ea1f67990b05f28b66211
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1072'
 ht-degree: 1%
 
 ---
@@ -91,7 +91,7 @@ Derzeit unterstützt Workfront Fusion nur Englisch.
 * Workfront Fusion unterstützt nicht die Verwendung von nicht englischen Textzeichen in von Benutzenden eingegebenen Feldern.
 
 Ihr Unternehmen muss eine Workfront Fusion-Lizenz erwerben, damit Sie auf Workfront Fusion zugreifen können.\
-Weitere Informationen zu Workfront Fusion finden Sie unter [Adobe Workfront Fusion - Übersicht](../workfront-fusion/get-started/workfront-fusion-overview.md).
+Weitere Informationen zu Workfront Fusion finden Sie unter [Adobe Workfront Fusion - Übersicht](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 ## Ändern der Sprache
 

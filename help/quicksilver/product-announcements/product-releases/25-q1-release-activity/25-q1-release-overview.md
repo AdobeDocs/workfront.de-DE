@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
 workflow-type: tm+mt
-source-wordcount: '2781'
+source-wordcount: '2782'
 ht-degree: 0%
 
 ---
@@ -720,7 +720,7 @@ The following functionality is soon to be removed from Workfront:
 >
 >Der aktuelle Fusion-Dokumentationssatz wird nicht mehr aktualisiert und in naher Zukunft entfernt.
 
-Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für das erste Quartal 2025 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](/help/quicksilver/product-announcements/product-releases/fusion-release-activity/fusion-release-activity.md).
+Neue Funktionen in Workfront Fusion sind außerhalb des Veröffentlichungszeitplans für das erste Quartal 2025 in der Produktionsumgebung verfügbar. Weitere Informationen zu den neuesten Funktionen finden Sie unter [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity).
 
 ### Workfront-Planungsverbesserungen
 

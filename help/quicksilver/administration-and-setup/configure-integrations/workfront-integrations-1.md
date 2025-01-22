@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: 099d42ea0a09d8190a79893c4cbd8d7d8b674acd
+source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
 workflow-type: tm+mt
-source-wordcount: '1249'
+source-wordcount: '1250'
 ht-degree: 0%
 
 ---
@@ -305,7 +305,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
 
   [!DNL Adobe Workfront Fusion] verknüpft Aktionen innerhalb und zwischen Apps und Services, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Es verfügt über dedizierte Connectoren für viele Apps, kann jedoch mit jeder Anwendung über eine öffentliche API verbunden werden.
 
-  Weitere Informationen finden Sie unter [[!DNL Adobe Workfront Fusion] Übersicht](../../workfront-fusion/get-started/workfront-fusion-overview.md).
+  Weitere Informationen finden Sie unter [[!DNL Adobe Workfront Fusion] Übersicht](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
 * [!DNL Anaplan] (erfordert [!DNL Workfront Fusion])
