@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '2928'
+source-wordcount: '2912'
 ht-degree: 1%
 
 ---
@@ -228,7 +228,7 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
 
    Beachten Sie, dass **verknüpfte Datensatzfeld** Kampagne“ die Namen der Kampagnen anzeigt, die Sie auf der Seite „Produktdatensatztyp“ mit Produkten verknüpft haben. Durch die Aktualisierung der Kampagneninformationen wird automatisch das Feld Verknüpfter Kampagnendatensatz für den Produktdatensatztyp aktualisiert.
 
-### Verbinden von Adobe Workfront Planning-Datensätzen mit Workfront-Objekten über die Tabellenansicht oder die Registerkarte Details der Datensatzseite
+### Verbinden von Adobe Workfront-Planungsdatensätzen mit Workfront-Objekten über die Tabellenansicht oder die Detailseite eines Datensatzes
 
 <!--when we will have more applications to link to from Planning, change the title to something like: Connect Workfront Planning records to objects from other applications-->
 
@@ -264,7 +264,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
 1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden und Sie es hinzufügen möchten, klicken Sie auf **+ Hinzufügen**, um ein neues Projekt oder Portfolio zu erstellen und hinzuzufügen.
 
-   Sie können Projekte ohne Vorlage oder Portfolios nur hinzufügen, wenn Sie sie mit Planungsdatensätzen verbinden. Sie können keine neuen Programme, Gruppen oder Unternehmen hinzufügen.
+   Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 1. (Optional) Klicken Sie auf **Alle anzeigen**, um alle Objekte anzuzeigen, für die Sie mindestens über die Berechtigung zum Anzeigen verfügen.
 

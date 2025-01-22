@@ -6,20 +6,22 @@ description: Ein Projekt ist eine große Arbeitseinheit in Adobe Workfront. Sie 
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1299'
+source-wordcount: '1382'
 ht-degree: 1%
 
 ---
 
 # Projekt erstellen
 
-<!--
-<p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:this is linked from the UI from the Projects global nav section in classic. Do not change/ remove)</p>
--->
+<!--remove Preview and Production references-->
 
 <!-- Audited: 12/2023 -->
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Projekte stellen einen großen Arbeitsaufwand dar, der in Adobe Workfront erledigt werden muss.
 
@@ -121,13 +123,13 @@ Sie können ein Projekt in Workfront mit einer der folgenden Methoden erstellen:
 
   Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md). Informationen zum Erstellen von Projekten aus Veröffentlichungsinitiativen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen im Szenario-Planer](../../../scenario-planner/publish-scenarios-update-projects.md).
 
-* Fügen Sie Projekte hinzu, während Sie sie über einen Datensatztyp in Workfront Planning verbinden. Aus Workfront Planning können Sie nur Projekte ohne Vorlagen erstellen.
+* Fügen Sie Projekte hinzu, während Sie sie über einen Datensatztyp in Workfront Planning verbinden. In der Produktionsumgebung können Sie von Workfront Planning aus nur Projekte ohne Vorlagen erstellen. <span class="preview">Sie können Projekte mithilfe einer Vorlage in der Vorschau-Umgebung erstellen.</span>
 
   Sie müssen über eine neue Workfront-Lizenz und eine zusätzliche Workfront Planning-Lizenz für Workfront Planning verfügen.
 
   Informationen zum Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
-  Informationen zum Erstellen von Projekten durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Datensätzen während der Verbindung“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+  Informationen zum Erstellen von Projekten durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Projekten, wenn diese mit Datensätzen aus Workfront Planning verbunden werden“ im Artikel [Erstellen von Workfront-Objekten aus Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Voraussetzungen
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: d962d60294295dd1f3771d1f0b737c9d1f03dfef
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1553'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Erstellen von Datensätzen
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -32,7 +32,7 @@ Sie können Datensätze wie folgt erstellen:
 * [Duplizieren von Datensätzen aus einer Tabellenansicht](#create-records-by-duplicating-them)
 * [Datensätze erstellen, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
 * [Erstellen Sie sie, indem Sie ein Anfrageformular an einen Datensatztyp senden](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Erstellen von Datensätzen beim Importieren von Datensatztypen aus einer CSV- oder Excel-Datei](#create-records-when-importing-record-types-from-a-csv-or-excel-file)</span>
+* [Erstellen von Datensätzen beim Importieren von Datensatztypen aus einer CSV- oder Excel-Datei](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
 
 
 Informationen zum Verwalten von Datensätzen in der Tabellen- oder Zeitleisten -Ansicht finden Sie in den folgenden Artikeln:
@@ -233,34 +233,46 @@ Informationen zum Duplizieren von Datensätzen finden Sie unter [Duplizieren von
 
 ## Datensätze erstellen, während Sie sie verbinden
 
-Sie können Datensätze oder Workfront-Objekte erstellen, während Sie sie mit anderen Datensätzen verbinden.
+Sie können die folgenden Objekttypen erstellen, während Sie sie aus anderen Datensätzen verbinden:
 
-Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze oder Workfront-Objekte hinzufügen können, indem Sie sie mit vorhandenen Datensätzen verbinden:
+* Workfront-Planungsdatensätze
+* Workfront-Objekte
 
-* Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
-* Verbundene Datensätze. Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
-* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
+In diesem Abschnitt wird beschrieben, wie Sie Workfront Planning-Datensätze erstellen, während Sie sie mit anderen Datensätzen verbinden.
 
 >[!NOTE]
 >
 >Das Erstellen von Workfront-Projekten und -Portfolios beim Verbinden mit Workfront-Planungsdatensätzen ähnelt dem Erstellen von Planungsdatensätzen beim Verbinden aus anderen Datensätzen.
+>
+>Informationen zum Erstellen von Workfront-Objekten in Workfront Planning finden Sie unter [Erstellen von Workfront-Objekten in Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen können, indem Sie sie mit vorhandenen Datensätzen verbinden:
+
+* Verbundene Datensatztypen Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Einträge.
+* Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 
-1. Verbinden Sie Workfront-Planungsdatensätze, wie im Artikel [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md) beschrieben.
-1. (Bedingt) Wenn Sie einen Datensatz beim Versuch, ihn aus dem Feld Verbundener Datensatz eines anderen Datensatzes hinzuzufügen, nicht finden können, suchen Sie nach einem Datensatz und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, von dem aus Sie eine Verbindung herstellen.
+1. Verbinden Sie Workfront-Planungsdatensätze, wie im Artikel [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md) beschrieben. Sie können Datensätze aus einem Verbindungsfeld in den folgenden Bereichen von Workfront Planning verbinden:
+
+   * Die Tabellenansicht
+   * Die Detailseite oder das Vorschaufeld eines Datensatzes
+
+1. (Bedingt) Wenn Sie einen Datensatz beim Versuch, ihn aus dem Feld Verbundener Datensatz eines anderen Datensatzes hinzuzufügen, nicht finden können, suchen Sie nach einem Datensatz und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird.
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Der Datensatz wird erstellt und dem verbundenen Datensatzfeld hinzugefügt.
 
-   >[!IMPORTANT]
-   >
-   >* Sie können nur Projekte und Portfolios in Workfront erstellen, wenn Sie sie über einen Datensatz verbinden.
-   >
-   >* Sie können keine Programme, Gruppen oder Unternehmen erstellen, wenn Sie sie über einen Datensatz in Workfront Planning verbinden.
-   >
-   >* Beim Erstellen von Projekten können Sie kein Projekt über eine Vorlage erstellen, indem Sie es über einen Datensatz verbinden. Sie müssen dem neuen Projekt manuell Aufgaben und Projektinformationen oder eine Vorlage hinzufügen, nachdem Sie sie zum Datensatz hinzugefügt haben.
+   <!--
+    >[!IMPORTANT]
+    >
+    >* You can create only projects and portfolios in Workfront when connecting them from a record. 
+    >
+    >* You cannot create programs, groups, or companies when connecting them from a record in Workfront Planning. 
+    >
+    >* You cannot create a project from a template when when you create projects by connecting them from a record. You must manually add tasks and project information or a template to the new project after you add it to the record. -->
 
 1. (Optional) Wechseln Sie zur Tabellenansicht des Datensatztyps, dessen Datensatz Sie erstellt haben. Ein neuer Datensatz wird in der letzten Zeile der Ansicht angezeigt.
 1. (Optional) Mit dem Hinzufügen von Informationen für den neuen Datensatz in der Tabellenansicht beginnen
@@ -277,12 +289,9 @@ Sowohl Workfront-Benutzer als auch externe Benutzer Ihres Unternehmens können A
 
 Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
-<div class="preview">
-
 ## Erstellen von Datensätzen beim Importieren von Datensatztypen aus einer CSV- oder Excel-Datei
 
 Sie können Datensätze importieren, wenn Sie Datensatztypen mithilfe einer CSV- oder Excel-Datei importieren.
 
 Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-</div>

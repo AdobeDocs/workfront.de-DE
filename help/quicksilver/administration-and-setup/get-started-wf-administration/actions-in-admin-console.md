@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: a84a5a8d-7c2a-4b51-a614-91a6dc9aa4ed
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '405'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Wenn Ihr Unternehmen die Adobe Business-Plattform nutzt, können Ihre Anwender �
 >
 >Es wird empfohlen, Benutzer, die keine Systemadministratoren sind, direkt in Workfront hinzuzufügen. Es ist möglich, Benutzende in der Adobe Admin Console hinzuzufügen. Durch das Hinzufügen in der Workfront können Sie jedoch deren Zugriffsebene beim Erstellen festlegen, was Ihnen Zeit sparen kann.
 
-Anweisungen zum Erstellen von Workfront-Systemadministratoren finden Sie unter [Verwalten von Systemadministratoren in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
+Anweisungen zum Erstellen von Workfront-Systemadministratoren finden Sie unter [Verwalten von Benutzern in der Adobe Admin Console](/help/quicksilver/administration-and-setup/add-users/create-and-manage-users/admin-console.md).
 
 <!--
 <table style="table-layout:auto"> 
