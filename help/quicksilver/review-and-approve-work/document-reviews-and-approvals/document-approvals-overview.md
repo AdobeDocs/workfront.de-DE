@@ -6,9 +6,9 @@ description: Sie können einem Dokument, das bereits ausstehende Genehmigungen e
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 1fbb5cb2082e6b926930793984bd34a759c7eec7
+source-git-commit: 5027807d93994b9ce9954be461b571379b36c960
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '610'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ Bei neuen Dokumentgenehmigungen handelt es sich um eine ganzheitliche Neugestalt
 
 * Die Schaltflächen für die Entscheidung zur Dokumentgenehmigung sind in der Proofing-Anzeige nicht verfügbar. Entscheidungen können in der Dokumentzusammenfassung, in Workfront-Startseiten-Widgets oder auf der Seite Dokumentdetails getroffen werden.
 * Die Teilnehmer an der Dokumentengenehmigung werden in der Dokumentzusammenfassung und nicht auf der Registerkarte des Proofing-Workflows angezeigt.
-* Neue Dokumentgenehmigungen werden im aktuellen Reporting-Tool nicht unterstützt. Das Widget Alle Genehmigungen , das in den neuen Startseiten- und Arbeitsflächen-Dashboards verfügbar ist, enthält die folgenden Details zu neuen Dokumentgenehmigungen:
+* Neue Dokumentgenehmigungen werden im aktuellen Reporting-Tool nicht unterstützt.
+
+  Sie können die Beta-Version der neuen Arbeitsflächen-Dashboards verwenden, um [ein Berichts-Dashboard für Überprüfungen und Genehmigungen zu erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) oder Sie können das Widget Alle Genehmigungen verwenden, das in den neuen Startseiten- und Arbeitsflächen-Dashboards verfügbar ist und die folgenden Details zu neuen Dokumentgenehmigungen bereitstellt:
 
    * Genehmigungen nach Entscheidung
    * Durchschnittliche Genehmigungszeit
