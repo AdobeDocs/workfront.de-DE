@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 5bb898fa-d74e-4174-bc93-d8ffb8937680
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
 workflow-type: tm+mt
-source-wordcount: '2782'
+source-wordcount: '2775'
 ht-degree: 0%
 
 ---
@@ -614,14 +614,13 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-update-stream-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Aktualisiertes Kommentierungserlebnis im Erwähnungen -Widget auf der Startseite und im Bereich Meine Aktualisierungen</a></p>
-            [!BADGE In Production ]{type=Informative}
             <p>Das Kommentierungserlebnis im Erwähnungen-Widget auf der Startseite und im Abschnitt Erwähnungen im Bereich Meine Aktualisierungen wird aktualisiert. Dasselbe Erlebnis im Bereich „Updates“ für die meisten Workfront-Objekte ist jetzt auch im Erwähnungen-Widget und im Abschnitt „Erwähnungen“ unter „Meine Aktualisierungen“ verfügbar.</p>
         </td>
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau-Version: 19. Dezember 2024</li>
-                <li>Produktionsversion für alle Kunden: Mit der Version 25.1 (16. Januar 2025)</li>
+                <li>Produktionsfreigabe für alle Kunden: wird noch bekannt gegeben</li>
             </ul>
         </td>
     </tr>

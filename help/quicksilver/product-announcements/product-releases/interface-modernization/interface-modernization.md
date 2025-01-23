@@ -3,14 +3,12 @@ title: Aktualisierungen der Benutzeroberfläche
 description: Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in Adobe Workfront durchführen, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Anwendungen zu vereinheitlichen.
 author: Nolan
 feature: Product Announcements
-hidefromtoc: true
-hide: true
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '292'
-ht-degree: 2%
+source-wordcount: '354'
+ht-degree: 1%
 
 ---
 
@@ -43,6 +41,16 @@ Wir haben die Listen für Projekt-, Aufgaben- und Problemgenehmigungen in Setup 
 Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
 
 ## Berichte und Dashboards
+
+### Iterationsbericht mit neuem Stil aktualisiert
+
+**Vorschau-Version: 17. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben den Iterationsbericht mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen am Bericht. Die Funktionalität wurde nicht geändert.
+
+Um einen Iterationsbericht zu erstellen, gehen Sie zu Berichte > Neuer Bericht > Iteration.
 
 ### Genehmigungsberichte wurden durch neue Formatierung aktualisiert
 

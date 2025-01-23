@@ -7,33 +7,20 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: ef0b719c-6d2e-4d3e-9522-da6dbd71c248
-source-git-commit: 586abc0babac2a9b3d6d22bebe841c217315b064
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '2182'
+source-wordcount: '2112'
 ht-degree: 0%
 
 ---
 
 # Versionsaktivität für Adobe Workfront Planning im ersten Quartal 2025
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, ein neues Angebot von Adobe Workfront.
->
->Sie müssen zusätzlich zu einem Workfront-Plan einen Workfront-Planungsplan erwerben, um auf Workfront-Planungsfunktionen zugreifen und diese verwenden zu können.
->
->Eine vollständige Liste der Voraussetzungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
->Einen Überblick über Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
-
 In diesem Artikel werden die Funktionen beschrieben, die in der ersten Version des Quartals 2025 für Workfront Planning veröffentlicht werden.
 
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after First Quarter 2025 is released-->
 
-Eine Liste aller Funktionen, die nach der allgemeinen Verfügbarkeitsversion vom 28. August 2024 für Adobe Workfront Planning veröffentlicht wurden, finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
-
+Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Verbindungsfelder mit Adobe Experience Manager-Assets werden jetzt in Anfrageformularen unterstützt
 

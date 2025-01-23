@@ -7,36 +7,22 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: d27f937b-e179-4f67-aebd-ed351440cb0f
-source-git-commit: 2c6d01d009e3dc09b65d7c414e1a3d8536d384e0
+source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '380'
 ht-degree: 1%
 
 ---
 
 # Versionsaktivität für Adobe Workfront Planning im vierten Quartal 2024
 
-<!--remove this important intro after the 25.1 release-->
-
->[!IMPORTANT]
->
->Die Informationen in diesem Artikel beziehen sich auf Adobe Workfront Planning, ein neues Angebot von Adobe Workfront.
->
->Sie müssen zusätzlich zu einem Workfront-Plan einen Workfront-Planungsplan erwerben, um auf Workfront-Planungsfunktionen zugreifen und diese verwenden zu können.
->
->Eine vollständige Liste der Voraussetzungen für den Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
->Einen Überblick über Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
->
-
 In diesem Artikel werden die Funktionen beschrieben, die in der Version für das vierte Quartal 2024 für Workfront Planning veröffentlicht werden.
 
 Weitere Informationen zu den in dieser Version enthaltenen Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität für 2024](/help/quicksilver/planning/general/release-activity.md).
 
-
 <!--keep the sentence below for all future quarterly release pages-->
-<!--remove the general activity mention after fourth quarter 2024 is released-->
 
-Eine Liste aller Funktionen, die nach der allgemeinen Verfügbarkeitsversion vom 28. August 2024 für Adobe Workfront Planning veröffentlicht wurden, finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
 ## Anzeigeoptionen für verbundene Datensätze
 
