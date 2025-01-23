@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1889'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Datensätze bearbeiten
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span> -->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -243,6 +243,16 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
      ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
+   <div class="preview">
+
+   * Kopieren Sie eine oder mehrere Zellen aus einer externen Quelle (z. B. einer Excel-Datei) und fügen Sie sie dann in einen der folgenden Feldtypen ein:
+
+      * Workfront Planning-Verbindungsfelder.
+      * Personenfelder. Es werden nur Felder mit einem Wert unterstützt.
+
+     Es ist nicht möglich, Informationen aus einer externen Quelle zu kopieren und in andere Feldtypen, einschließlich Workfront- oder AEM Assets-Verbindungsfeldern, einzufügen.
+   </div>
+
    >[!NOTE]
    >
    >Beachten Sie Folgendes:
@@ -254,8 +264,7 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
    >* Feldwerte können nicht kopiert und in die Datensatzseite eingefügt werden. Diese Funktion wird nur in der Tabellenansicht eines Datensatztyps unterstützt.
    >* Feldwerte für die folgenden Feldtypen können nicht kopiert und eingefügt werden:
    >
-   >
-   >    * Verknüpfte Felder (oder Suchfelder), die durch Verbinden von Datensatztypen erstellt werden. Sie können verknüpfte Datensatzfelder kopieren und einfügen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+   >    * Suchfelder, die beim Verbinden von Datensatztypen erstellt werden. Sie können verknüpfte Datensatzfelder kopieren und einfügen. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
    >    * Felder der folgenden Typen: Erstellt von, Erstellt am, Zuletzt geändert von, Zuletzt geändert am
 
 1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Bearbeiten oder Kopieren und Einfügen von Datensatzinformationen rückgängig zu machen oder wiederherzustellen:

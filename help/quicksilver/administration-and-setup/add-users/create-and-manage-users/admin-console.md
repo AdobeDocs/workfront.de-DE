@@ -5,18 +5,18 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '1170'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
 
 # Verwalten von Benutzenden in der Adobe Admin Console
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 >[!IMPORTANT]
 >
@@ -30,9 +30,7 @@ Als Adobe-Administrator können Sie Adobe Workfront-Systemadministratoren mithil
 >
 >Es wird empfohlen, Benutzer, die keine Systemadministratoren sind, direkt in Workfront hinzuzufügen. Es ist möglich, Benutzende in der Adobe Admin Console hinzuzufügen. Durch das Hinzufügen in der Workfront können Sie jedoch deren Zugriffsebene beim Erstellen festlegen, was Ihnen Zeit sparen kann.
 
-<!--
-<span class="preview">When making any changes to users from the Admin Console, an update is added to the System activity tab of the user in Workfront indicating that there is an update from the "System". This refers to the Adobe Admin Console administrator and not to the Workfront main Administrator.</span> 
--->
+<span class="preview">Wenn Sie von der Admin Console aus Änderungen an Benutzerprofilen vornehmen, wird die Registerkarte Systemaktivität der Benutzerin bzw. des Benutzers in Workfront aktualisiert. Die Aktualisierung wird wie vom „System“ vorgenommen angezeigt. Dies bezieht sich auf den Adobe Admin Console-Administrator und nicht auf den Workfront-Hauptadministrator.</span>
 
 ## Zugriffsanforderungen
 

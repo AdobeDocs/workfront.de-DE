@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
 workflow-type: tm+mt
-source-wordcount: '2802'
-ht-degree: 3%
+source-wordcount: '2879'
+ht-degree: 2%
 
 ---
 
 # Verwalten der Tabellenansicht
+
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -397,13 +401,22 @@ So fügen Sie einen Filter zu einer Tabellenansicht hinzu:
 1. (Optional) Klicken Sie auf **Bedingung hinzufügen**, um eine weitere Filteroption hinzuzufügen, und wiederholen Sie die obigen Schritte. Die Anzahl der angewendeten Filter wird links neben dem Symbol Filter angezeigt.
 1. Klicken Sie auf die folgenden Operatoren, um anzugeben, wie die Filterbedingungen verbunden werden und angewendet werden sollen:
 
-   * **Und**: Alle angegebenen Bedingungen müssen erfüllt sein.
-   * **Oder**: Jede der angegebenen Bedingungen muss erfüllt sein. Dies ist die Standardoption.
+   * **AND**: Alle angegebenen Bedingungen müssen erfüllt sein.
+   * **OR**: Jede der angegebenen Bedingungen muss erfüllt sein. Dies ist die Standardoption.
+
+   <div class="preview">
+
+   1. (Optional) Fügen Sie zusätzliche Operatoren **AND** oder **OR** zwischen mehreren Bedingungsgruppierungen hinzu.
+
+      ![](assets/multi-tiered-filters-in-views.png)
+
+   </div>
 
    Die Liste der Datensätze wird automatisch gefiltert.  <!--at this time, you can't name and save the filter - but will this change?!-->
    <!-- asked on the task for the simple filters whether there is a limitation for how many statements a filter can have?!-->
 
-1. (Optional) Klicken Sie auf **Filter** und dann auf das Symbol **x**, um einen Filter zu entfernen. <!--right now you cannot "clear all" for filters, but this might come later-->
+1. (Optional) Klicken Sie auf das Symbol **x**, um eine Filterbedingung zu entfernen.
+1. (Optional) Klicken Sie auf **Filter**, um das Feld „Filter“ zu schließen. <!--right now you cannot "clear all" for filters, but this might come later-->
 
 ### Gruppierungen hinzufügen {#add-groupings}
 
