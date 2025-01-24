@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '665'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,6 @@ Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für  [
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]** und wählen Sie dann **[!UICONTROL OAuth-Anwendungen]**.
-1. Klicken Sie auf ** **.
 1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Löschen]** ![](assets/delete.png) wenn sie ganz rechts angezeigt wird.
 
 ## Verwalten von Client-Geheimnissen in OAuth2-Anwendungen

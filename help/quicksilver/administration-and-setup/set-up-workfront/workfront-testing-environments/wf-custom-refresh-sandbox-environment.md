@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e18c005b-e6ff-4a1e-a589-63132f3a8ad2
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
 workflow-type: tm+mt
-source-wordcount: '1749'
+source-wordcount: '1739'
 ht-degree: 0%
 
 ---
@@ -118,11 +118,11 @@ So greifen Sie über eine URL auf Ihre benutzerdefinierte Aktualisierungs-Sandbo
 
 1. Navigieren Sie zu dieser URL, wenn Sie nur eine benutzerdefinierte Aktualisierungs-Sandbox haben:
 
-   https://companyname.sb01.workfront.com (alte URL:https://cr1.attasksandbox.com/.)
+   `https://companyname.sb01.workfront.com` (alte URL:`https://cr1.attasksandbox.com/`.)
 
    Wenn Sie zusätzlich zu den oben genannten URLs über zwei benutzerdefinierte Aktualisierungs-Sandboxes verfügen, können Sie auch auf die folgende URL zugreifen:
 
-   https://companyname.sb02.workfront.com (alte URL:https://cr2.attasksandbox.com/)
+   `https://companyname.sb02.workfront.com` (alte URL:`https://cr2.attasksandbox.com/`)
 
 1. Melden Sie sich auf dem Anmeldebildschirm mit Ihren benutzerdefinierten Sandbox-Aktualisierungs-Anmeldeinformationen an.
 1. Ihre benutzerdefinierten Sandbox-Aktualisierungs-Anmeldeinformationen sind mit Ihren Produktions-Anmeldeinformationen identisch, es sei denn, Sie haben Ihre Produktions-Anmeldeinformationen seit der letzten Aktualisierung Ihrer benutzerdefinierten Sandbox-Aktualisierung geändert. Die Anmeldungen werden nur synchronisiert, wenn eine Aktualisierung erfolgt. Sie werden nicht automatisch synchronisiert.
@@ -137,15 +137,15 @@ So greifen Sie über eine URL auf Ihre benutzerdefinierte Aktualisierungs-Sandbo
 
 1. Navigieren Sie zu dieser URL, wenn Sie nur eine benutzerdefinierte Aktualisierungs-Sandbox haben:
 
-   https://companyname.sb01.workfront.com (alte URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (alte URL:`https://cr3.attasksandbox.com`)
 
    Oder
 
    Wechseln Sie zu einer dieser URLs, wenn Sie zwei benutzerdefinierte Aktualisierungs-Sandboxes haben:
 
-   https://companyname.sb01.workfront.com (alte URL:https://cr3.attasksandbox.com)
+   `https://companyname.sb01.workfront.com` (alte URL:`https://cr3.attasksandbox.com`)
 
-   https://companyname.sb02.workfront.com (alte URL:https://cr4.attasksandbox.com)
+   `https://companyname.sb02.workfront.com` (alte URL:`https://cr4.attasksandbox.com`)
 
 1. Melden Sie sich auf dem Anmeldebildschirm mit Ihren benutzerdefinierten Sandbox-Aktualisierungs-Anmeldeinformationen an.
 
