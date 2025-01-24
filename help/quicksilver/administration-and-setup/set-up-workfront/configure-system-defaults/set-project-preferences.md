@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
 workflow-type: tm+mt
-source-wordcount: '2661'
+source-wordcount: '2693'
 ht-degree: 1%
 
 ---
@@ -246,13 +246,6 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
  </tbody> 
 </table>
 
-
-
-
-
-
-
-
 ### [!UICONTROL Business Cases] {#business-cases}
 
 Sie können einen Business Case für neu erstellte Projekte im gesamten System erstellen, um Projektanfragen zu senden. Sie können Voreinstellungen definieren, um zu bestimmen, welche Bereiche im Formular **[!UICONTROL Business Case]** sichtbar sind. Es wird empfohlen, diese Optionen zu aktivieren, damit andere Tools, wie z. B. der [!UICONTROL Portfolio Optimizer], ordnungsgemäß aktualisiert werden. Weitere Informationen zu den einzelnen Feldern finden Sie unter [Definieren eines Business-Case: Artikelindex](../../../manage-work/projects/define-a-business-case/define-business-case.md).
@@ -279,11 +272,12 @@ Konfigurieren Sie eine der folgenden Voreinstellungen für neu erstellte Projekt
    <td role="rowheader"> <p>[!UICONTROL Nachdem ein Projekt als Abgeschlossen, Eingestellt oder mit dem Hinweis Ausstehende Genehmigungen, gekennzeichnet wurde, können Benutzer weiterhin]</p> </td> 
    <td> <p>Legen Sie die Regeln für Ihre Organisation (oder Gruppe, wenn Sie Projektvoreinstellungen für eine Gruppe konfigurieren) fest, was mit Aufgaben, Problemen, Dokumenten und anderen Objekten in einem Projekt geschieht, nachdem der Projektstatus <strong>[!UICONTROL Abgeschlossen]</strong>, <strong>[!UICONTROL Eingestellt]</strong> markiert wurde oder <strong>[!UICONTROL Ausstehende Genehmigung]</strong> ist.</p> 
     <ul> 
-     <li><strong>[!UICONTROL Aufgaben hinzufügen und bearbeiten]</strong> Ermöglicht Benutzern Folgendes:
+     <li><strong>[!UICONTROL Aufgaben hinzufügen und bearbeiten:]</strong> Ermöglicht Benutzern Folgendes:
       <ul>
-       <li>Aufgaben innerhalb eines Projekts bearbeiten, nachdem das Projekt als [!UICONTROL Abgeschlossen], [!UICONTROL Eingestellt] oder als [!UICONTROL Ausstehende Genehmigung] gekennzeichnet wurde. Dazu gehören das Hinzufügen von Stunden und das Ändern von Kosteneinträgen für eine Aufgabe.</li>
+       <li><p>Aufgaben innerhalb eines Projekts bearbeiten, nachdem das Projekt als [!UICONTROL Abgeschlossen], [!UICONTROL Eingestellt] oder als [!UICONTROL Ausstehende Genehmigung] gekennzeichnet wurde.</p>
+           <p>Hinweis: Auch wenn diese Option nicht ausgewählt ist, können Benutzer Ausgabeneinträge hinzufügen und bearbeiten. Die Protokollierung von Stunden hat eine separate Einstellung. Informationen zum Zulassen oder Verhindern der Zeitprotokollierung für Projekte mit dem Status Abgeschlossen oder Inaktiv finden Sie unter <a href="/help/quicksilver/administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md">Arbeitszeittabelle und Stundeneinstellungen konfigurieren</a>.</p></li>
        <li>Aufgaben zu einem Projekt hinzufügen.</li>
-      </ul></li> 
+      </ul></li>
      <li><strong>[!UICONTROL Probleme hinzufügen und bearbeiten]</strong>: Ermöglicht Benutzern Folgendes:
       <ul>
        <li>Probleme innerhalb eines Projekts bearbeiten, nachdem das Projekt als [!UICONTROL Abgeschlossen], [!UICONTROL Eingestellt] oder [!UICONTROL Ausstehende Genehmigung] gekennzeichnet wurde.</li>
