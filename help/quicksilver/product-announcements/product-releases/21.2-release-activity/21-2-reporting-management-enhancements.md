@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 76deb76c66e8f8a7dea721378591ae035b8d42e7
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -80,5 +80,5 @@ Sie können diesen Bericht beispielsweise so einrichten, dass die Aktivität run
 
 Zuvor konnten Sie Berichte zu Systemaktualisierungen nur über die Workfront-API erstellen.
 
-Weitere Informationen zu diesem Bericht und dessen Verwendung finden Sie unter [Bericht über Aktualisierungen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+Weitere Informationen zu diesem Bericht und dessen Verwendungszwecken finden Sie unter [Bericht über Aktualisierungen mit einem Journaleintragsbericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 

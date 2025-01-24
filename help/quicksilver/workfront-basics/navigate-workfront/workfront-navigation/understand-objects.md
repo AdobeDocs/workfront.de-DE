@@ -6,9 +6,9 @@ description: Die angezeigten Informationen  [!DNL Adobe Workfront]  durch Objekt
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 25939493f6ffed31ae1bdaf26d417ce4e5e5c004
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2424'
 ht-degree: 1%
 
 ---
@@ -283,7 +283,7 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 * [!UICONTROL Iteration]
 * [!UICONTROL Aufgabengebiet]
 * [!UICONTROL Tagebucheintrag]
-   * Sie können Berichte zu verfolgten Systemaktualisierungen im Bereich [!UICONTROL Aktualisierungen] von Objekten wie Aufgaben, Projekten, Problemen usw. erstellen. Weitere Informationen finden Sie unter [Bericht zum Bereich [!UICONTROL Updates]](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+   * Sie können Berichte zu verfolgten Systemaktualisierungen im Bereich [!UICONTROL Aktualisierungen] von Objekten wie Aufgaben, Projekten, Problemen usw. erstellen. Weitere Informationen finden Sie unter [Bericht im Bereich Aktualisierungen mit einem Journaleintragsbericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 * [!UICONTROL Layoutvorlage]
 * [!UICONTROL Meilenstein]

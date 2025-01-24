@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 46faf723ea7a8e9dfa02c0f2bed1f5f450976fc8
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '13008'
+source-wordcount: '13013'
 ht-degree: 2%
 
 ---
@@ -1538,7 +1538,7 @@ ht-degree: 2%
          * [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md)
          * [Berichteinstellungen bearbeiten](reports-and-dashboards/reports/creating-and-managing-reports/edit-report-settings.md)
          * [Besitzer eines Berichts ändern](reports-and-dashboards/reports/creating-and-managing-reports/change-owner-report.md)
-         * [Bericht zum Bereich Aktualisierungen](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
+         * [Bericht im Bereich Aktualisierungen mit einem Journaleintragsbericht](reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md)
          * [Erstellen eines Berichts zur Benutzerdelegierung](reports-and-dashboards/reports/creating-and-managing-reports/create-user-delegation-report.md)
       * Berechnete benutzerdefinierte Daten in Reports {#calculated-custom-data}
          * [Berechnete benutzerdefinierte Daten in Berichten](reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)

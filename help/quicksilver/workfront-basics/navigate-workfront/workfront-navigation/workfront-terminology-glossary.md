@@ -6,9 +6,9 @@ description: Das  [!DNL Adobe Workfront] -Glossar listet häufig verwendete Begr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '20931'
+source-wordcount: '20935'
 ht-degree: 0%
 
 ---
@@ -1168,7 +1168,7 @@ Stundeneinträge können einen der folgenden Status in Workfront aufweisen:
   </tr> 
   <tr data-mc-conditions=""> 
    <td> <p>[!UICONTROL Tagebucheintrag]</p> </td> 
-   <td> <p>Ein berichtspflichtiges Objekt, das Informationen zu Systemaktualisierungen für verfolgte Felder bereitstellt, die im Bereich [!UICONTROL-Aktualisierungen] von Projekten, Aufgaben, Problemen und anderen Objekten angezeigt werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Bericht zum Bereich [!UICONTROL-Updates</a>.</p> </td> 
+   <td> <p>Ein berichtspflichtiges Objekt, das Informationen zu Systemaktualisierungen für verfolgte Felder bereitstellt, die im Bereich [!UICONTROL-Aktualisierungen] von Projekten, Aufgaben, Problemen und anderen Objekten angezeigt werden.</p> <p>Weitere Informationen finden Sie unter <a href="../../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md" class="MCXref xref">Bericht über Aktualisierungen mit einem Journaleintragsbericht</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Kanban-Flag]</td> 

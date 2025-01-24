@@ -6,9 +6,9 @@ description: Anzeigen aller Aktualisierungen in einem Notizbericht
 author: Lisa and Alina
 feature: Get Started with Workfront
 exl-id: fa5b91e4-b88c-42f0-860c-6864105b4652
-source-git-commit: 36bdacb5f6d04245552aeeb4ab82d210597645a2
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Im Bereich Aktualisierungen eines Objekts wird standardmäßig eine maximale Anz
 
 >[!NOTE]
 >
->Sie können einen Bericht erstellen, um Aktualisierungen zu Objekten in der Vorschau mit dem Journaleintragsbericht anzuzeigen. Weitere Informationen finden Sie unter [Bericht über Aktualisierungen](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
+>Sie können einen Bericht erstellen, um Aktualisierungen zu Objekten in der Vorschau mit dem Journaleintragsbericht anzuzeigen. Weitere Informationen finden Sie unter [Bericht im Bereich Aktualisierungen mit einem Journaleintragsbericht](../../reports-and-dashboards/reports/creating-and-managing-reports/create-journal-entry-report.md).
 
 ## Zugriffsanforderungen
 

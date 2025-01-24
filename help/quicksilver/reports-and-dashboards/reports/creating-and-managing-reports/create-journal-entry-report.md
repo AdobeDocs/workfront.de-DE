@@ -1,18 +1,18 @@
 ---
-title: Bericht zum Bereich Aktualisierungen
+title: Bericht zum Bereich „Aktualisierungen“ mit einem Journaleintragsbericht
 description: Systemaktualisierungen für Journaleinträge werden im Bereich Aktualisierungen von Projekten, Aufgaben, Problemen und anderen Objekten angezeigt, die zuvor nur über die Adobe Workfront-API verfügbar waren. Dies ist zwar ein erweiterter Bericht, der für bestimmte Anwendungsfälle gedacht ist, aber das besser verdauliche Format erleichtert Ihnen die Berichterstellung über Projektaktivität und Systemaktualisierungen in Workfront.
 author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: b42436ad660642bd23638a8a44d9561513d748ed
+source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
 workflow-type: tm+mt
-source-wordcount: '2757'
+source-wordcount: '2767'
 ht-degree: 4%
 
 ---
 
-# Bericht zum Bereich Aktualisierungen
+# Bericht im Bereich Aktualisierungen mit einem Journaleintragsbericht
 
 <!-- Audited: 11/2024 -->
 
