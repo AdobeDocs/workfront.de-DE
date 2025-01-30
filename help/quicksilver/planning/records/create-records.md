@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1553'
+source-wordcount: '1562'
 ht-degree: 0%
 
 ---
@@ -259,7 +259,9 @@ So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinde
    * Die Tabellenansicht
    * Die Detailseite oder das Vorschaufeld eines Datensatzes
 
-1. (Bedingt) Wenn Sie einen Datensatz beim Versuch, ihn aus dem Feld Verbundener Datensatz eines anderen Datensatzes hinzuzufügen, nicht finden können, suchen Sie nach einem Datensatz und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird.
+1. (Bedingt) Wenn Sie einen Datensatz beim Versuch, ihn aus dem Feld Verbundener Datensatz eines anderen Datensatzes hinzuzufügen, nicht finden können, suchen Sie nach einem Datensatz und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird. Der eingegebene Name folgt auch der Schaltfläche Hinzufügen .
+
+   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
 
    ![](assets/add-button-to-create-records-in-context-highlighted.png)
 

@@ -5,14 +5,16 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplane
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
 
 # Budgetressourcen im Business Case mit dem Ressourcenplaner
+
+<!--Audited: 01/2025-->
 
 Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplaner auf Projektebene die Aufgabengebiete budgetieren, die zum Abschließen der Arbeit in einem Projekt beim Erstellen des Business Case erforderlich sind.
 
@@ -26,37 +28,47 @@ Sie können Ressourcen auch im Business Case mit dem Adobe Workfront-Szenariopla
 
 ## Zugriffsanforderungen
 
-Sie müssen über Folgendes verfügen:
+Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><a href="https://www.workfront.com/plans" target="_blank">Adobe Workfront-Plan</a>*</td> 
-   <td> <p>Pro oder höher</p> </td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Prime oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><a href="../../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>*</td> 
-   <td> <p>Überprüfen oder höher</p> <p>Wichtig: Sie müssen über eine Planlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td> <p>Neu: Licht oder höher</p>
+   <p>Aktuell: Überprüfung oder höher</p>
+
+<p><b>WICHTIG:</b></p> 
+   <p>Neu: Sie müssen über eine Standardlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p> 
+   <p>Aktuell: Sie müssen über eine Planlizenz verfügen, um die Informationen zur Ressourcenbudgetierung zu ändern. </p>
+   </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Folgendes bearbeiten: </p> 
     <ul> 
      <li> <p>Projekte</p> </li> 
      <li> <p>Ressourcenverwaltung</p> </li> 
      <li> <p>Finanzielle Daten</p> </li> 
-    </ul> <p>Informationen zum Zugriff auf Budgetressourcen finden Sie auch unter <a href="../../../resource-mgmt/resource-planning/access-needed-to-budget-resources.md" class="MCXref xref">Zugriff auf Budgetressourcen in Adobe Workfront erforderlich</a>.</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Adobe Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+    </ul> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Projekt</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Projekt</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 

@@ -6,14 +6,16 @@ description: Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, da
 author: Alina
 feature: Work Management
 exl-id: 6125c477-c0d8-43b4-88d8-35b0c2412468
-source-git-commit: 8611c7bf8be6405f8ec8462ff2fd0f5998e8a995
+source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
 
 # Risiken in Projekten erstellen und bearbeiten
+
+<!--Audited: 01/2025-->
 
 Risiken sind mögliche Ereignisse oder Faktoren, die verhindern, dass ein Projekt termingerecht oder innerhalb des Budgets abgeschlossen wird. Risiken können im Rahmen der Erstellung eines Business Case eines Projekts oder über die Registerkarte Risiken aufgezeichnet werden. Risiken werden nur für ein Projekt erstellt. Sie können keine Risiken mit Aufgaben oder Problemen verknüpfen.
 
@@ -27,30 +29,35 @@ Risiken können mit Kosten verbunden sein, die tatsächlichen Risikokosten wirke
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td> <p>Neu: Standard </p>
+   <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Projekte und Finanzdaten bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p> Verwalten Sie Berechtigungen, einschließlich Finanzen verwalten für das Projekt, für das Sie Risiken erstellen oder bearbeiten möchten </p> <p>Weitere Informationen zu Projektberechtigungen finden Sie im Artikel <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> </td> 
+   <td> <p> Verwalten Sie Berechtigungen, einschließlich Finanzen verwalten für das Projekt, für das Sie Risiken erstellen oder bearbeiten möchten </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Risiken im Business Case erstellen und bearbeiten
 
