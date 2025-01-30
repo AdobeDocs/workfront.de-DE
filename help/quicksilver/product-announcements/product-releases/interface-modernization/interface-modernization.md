@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 5620b1023e5708b7acf3aa2304b28a83112dbe55
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '867'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,6 @@ Um diese Seite anzuzeigen, gehen Sie zu Einrichtung > Gruppen > Gruppe auswähle
 
 Diese Aktualisierung beinhaltet geringfügige visuelle Änderungen an dem Bereich. Die Funktionalität wurde nicht geändert.
 
-
 ### Aktualisierungen der Benutzeroberfläche für die Registerkarte Erinnerungsbenachrichtigungen im Setup
 
 **Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
@@ -99,9 +98,21 @@ Wir haben die Listen für Projekt-, Aufgaben- und Problemgenehmigungen in Setup 
 
 Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
 
+## Agile
+
+### Aktualisierung der Benutzeroberfläche für die Liste „Iterationen“
+
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben die Liste Teams > Iterationen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > Iterationen.
+
 ## Berichte und Dashboards
 
-## Aktualisierte E-Mail-Berichte mit neuem Stil
+### Aktualisierte E-Mail-Berichte mit neuem Stil
 
 **Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
 
@@ -114,7 +125,7 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ### Iterationsbericht mit neuem Stil aktualisiert
 
-**Vorschau-Version: 17. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 17. Januar 2025; Produktionsversion: Ab der Woche vom 20. Januar 2025**
 
 Wir haben den Iterationsbericht mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 

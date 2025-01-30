@@ -6,14 +6,16 @@ description: Referenzieren von Sammlungen in einem Bericht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '2598'
+source-wordcount: '2539'
 ht-degree: 0%
 
 ---
 
 # Referenzieren von Sammlungen in einem Bericht
+
+<!-- Audited: 1/2025 -->
 
 Durch das Erstellen eines Berichts in Adobe Workfront können Sie eine Reihe von Objekten, die entsprechenden Felder oder verknüpfte Objekte in einer Liste, einem Raster oder einem Diagrammformat anzeigen.
 
@@ -23,32 +25,41 @@ Weitere Informationen zum Erstellen eines Berichts in Workfront finden Sie unter
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> <p>Verwalten von Berechtigungen für Ansichten, Filter oder Gruppierungen </p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für einen Bericht</p> <p>Verwalten von Berechtigungen für Ansichten, Filter oder Gruppierungen </p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -128,8 +139,9 @@ Sie können beispielsweise Aufgaben- oder Probleminformationen in einem Projektb
 
 Sie können Informationen zu den Aufgaben oder Problemen, wie Namen, Daten, primäre Beauftragte, Prozent abgeschlossen usw., in der Sammlungsansicht anzeigen.
 
-Die Ansicht zeigt Aufgaben- oder Probleminformationen in einem Listenformat an, wobei jede Zeile der Liste Informationen zu einer Aufgabe oder einem Problem darstellt. Die Liste der Aufgaben oder Probleme und deren Felder wird in derselben Zeile wie das Projekt angezeigt, zu dem die Aufgaben oder Probleme gehören.\
-![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png)
+Die Ansicht zeigt Aufgaben- oder Probleminformationen in einem Listenformat an, wobei jede Zeile der Liste Informationen zu einer Aufgabe oder einem Problem darstellt. Die Liste der Aufgaben oder Probleme und deren Felder wird in derselben Zeile wie das Projekt angezeigt, zu dem die Aufgaben oder Probleme gehören.
+
+![issue_and_tasks_collections_in_reports.png](assets/issue-and-tasks-collections-in-reports-350x171.png){width=400}
 
 * [Hinzufügen einer Sammlungsspalte in einer Berichtsansicht](#add-a-collection-column-in-a-report-view)
 * [Verstehen der Zeilen einer Sammlungsansicht im Textmodus](#understand-the-lines-of-a-collection-view-in-text-mode)
@@ -144,7 +156,8 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
 1. Wählen Sie das Objekt Ihres Berichts aus.
 1. Navigieren Sie weg von Ihrem Bericht und ermitteln Sie mithilfe des [API-Explorers](../../../wf-api/general/api-explorer.md), welche Sammlungen für das Objekt verfügbar sind, das Sie für Ihren Bericht ausgewählt haben.
 
-   Weitere Informationen zum Auswählen des Objekts Ihrer Sammlung finden Sie im Abschnitt [Suchen nach Sammlungsobjekten und ihren Feldern im API-Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in diesem Artikel.\
+   Weitere Informationen zum Auswählen des Objekts Ihrer Sammlung finden Sie im Abschnitt [Suchen nach Sammlungsobjekten und ihren Feldern im API-Explorer](#find-collection-objects-and-their-fields-in-the-api-explorer) in diesem Artikel.
+
    Notieren Sie sich den Namen des -Objekts für die Auflistung.
 
 1. Navigieren Sie mithilfe [API-Explorers](../../../wf-api/general/api-explorer.md) zur Liste der Felder für das Objekt, das Sie in der Sammlung anzeigen möchten.
@@ -155,7 +168,7 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
 
 1. Navigieren Sie zurück zu Ihrem Bericht und klicken Sie auf der Registerkarte **Spalten (Ansicht** auf **Spalte hinzufügen**.
 1. Klicken Sie **In Textmodus wechseln**.
-1. Bewegen Sie den Mauszeiger über das Dialogfeld und klicken Sie auf **Klicken, um Text zu bearbeiten**.
+1. Klicken Sie **Textmodus bearbeiten**.
 1. Wählen Sie den gesamten Text im **Textmodus**-Dialogfeld aus, entfernen Sie ihn und fügen Sie dann den folgenden Code ein, wenn Sie auf ein Feld des Sammlungsobjekts verweisen:
 
    ```
@@ -223,7 +236,7 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
 
 1. Die folgende Spalte wird im Projektbericht angezeigt und listet alle Aufgaben in jedem Projekt neben ihren primären Beauftragten auf:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png)
+   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Klicken Sie auf **Speichern**.
 1. (Optional) Fahren Sie mit der Bearbeitung des Berichts fort.
@@ -311,7 +324,7 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
 
    Notieren Sie sich das Feld, das Sie in der Sammlung anzeigen möchten.
 
-1. Navigieren Sie zurück zu Ihrem Bericht und klicken Sie auf der Registerkarte **Filter** auf **In Textmodus wechseln**.
+1. Navigieren Sie zurück zu Ihrem Bericht und klicken Sie auf der Registerkarte **Filter** auf **In Textmodus wechseln** und dann **Textmodus bearbeiten**.
 
 1. Fügen **im Bereich Filterregeln für Ihren Bericht** folgenden Code ein:
 
@@ -337,7 +350,7 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
 
    Dieser Bericht zeigt nur Projekte an, die mindestens eine Aufgabe mit dem Wort „Marketing“ in ihrem Namen haben.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png)
+   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Verwenden Sie den folgenden Code, um nach dem Namen eines Problems zu filtern:
 
@@ -391,7 +404,7 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
    ```
 
 1. (Optional) Geben Sie an, ob diese Auswahl in der Eingabeaufforderung standardmäßig angezeigt wird.
-1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
+1. Ersetzen Sie **Sammlungsobjektname** durch den Namen Ihres Sammlungsobjekts, wie er im [API-Explorer) ](../../../wf-api/general/api-explorer.md). Dieser Wert ist normalerweise die Pluralform des Sammlungsobjektnamens.
 1. Ersetzen Sie **Feld des Sammlungsobjekts** durch den Namen des Felds Ihres Sammlungsobjekts, wie es im [API-Explorer) ](../../../wf-api/general/api-explorer.md).
 1. Ersetzen Sie **Wert des Sammlungsobjekts** durch den Wert des Sammlungsobjekts, wie er in Workfront angezeigt wird.
 
@@ -399,7 +412,7 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
 
 1. Ersetzen Sie **Wert des Modifikators** durch einen gültigen Modifikator.
 
-   Eine Liste der Modifikatoren finden Sie unter  [Filter- und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
+   Eine Liste der Modifikatoren finden Sie unter [Filter- und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
    **Beispiel** Um beispielsweise einen Projektbericht mit einer benutzerdefinierten Eingabeaufforderung zu erstellen, in der Sie nur Projekte anzeigen möchten, denen mindestens eine Aufgabe einem bestimmten Benutzer zugewiesen ist, verwenden Sie den folgenden Code:
 
@@ -423,7 +436,7 @@ So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts eine
 
    >[!NOTE]
    >
-   >Beachten Sie, dass Sie **Probleme** für den Sammlungsobjektnamen verwenden müssen. Der API-Explorer  bietet derzeit keinen Sammlungsobjektnamen für Probleme an.
+   >Beachten Sie, dass Sie **Probleme** für den Sammlungsobjektnamen verwenden müssen. Der API-Explorer bietet derzeit keinen Sammlungsobjektnamen für Probleme.
 
 1. Klicken Sie **Fertig**.
 1. (Optional) Fahren Sie mit der Bearbeitung des Berichts fort.

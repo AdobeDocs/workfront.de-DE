@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
+source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,42 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Zu Formelfeldern hinzugefügte Funktionen
+
+>[!NOTE]
+>
+>Vorschau-Version: 30. Januar 2025; Produktionsversion für alle Kunden: 30. Januar 2025
+
+Die folgenden Ausdrücke sind jetzt in Workfront-Formelfeldern verfügbar: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Definitionen und Beispiele für jeden Ausdruck sind im Formeleditor verfügbar.
+
+Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
+
+<!--## Real-time presence indicators in a record's details preview or page
+
+>[!NOTE]
+>
+>Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+
+To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
+
+The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
+
+For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
+
+## Freigeben von Workfront-Planungselementen für Teams, Aufgabengebiete und Unternehmen
+
+>[!NOTE]
+>
+>Vorschau-Version: 30. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Sie können jetzt in Workfront Planning Ansichten und Arbeitsbereiche für Teams, Aufgabengebiete und Unternehmen freigeben. Vor dieser Verbesserung konnten Sie Ansichten und Arbeitsbereiche für Benutzende und Gruppen freigeben.
+
+Weitere Informationen finden Sie in den folgenden Artikeln:
+
+[Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
+
+[Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
 
 ## Das Kopieren und Einfügen von externem Text wird jetzt für die Felder Verbindungen und Personen unterstützt
 
