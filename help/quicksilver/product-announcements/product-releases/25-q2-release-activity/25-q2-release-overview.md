@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: a7166f04f5916aebc07d5a5f73fa4f1f74b7a4a8
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -36,10 +36,10 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
 
 ## Adobe Workfront-Verbesserungen
 
-* [Administrator-Verbesserungen](#administrator-enhancements)
+<!--* [Administrator enhancements](#administrator-enhancements)-->
 * [Weitere Verbesserungen](#other-enhancements)
 
-### Administrator-Verbesserungen
+<!--### Administrator enhancements
 
 <table>
 <col style="width: 50%;" />
@@ -48,19 +48,19 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Darstellen von Adobe Admin Console-Benutzeränderungen als „System“ im Workfront-Update-Feed</a></p>
-            <p>Wenn der Administrator der Adobe Admin Console jetzt eine Änderung an den Benutzerinformationen eines Workfront-Benutzers vornimmt, zeichnet Workfront diese Änderung auf der Registerkarte Systemaktivität des Bereichs Aktualisierungen der Benutzerin oder des Benutzers als zur Systemaktivität gehörend auf. Dies bezieht sich auf den Adobe Admin Console-Administrator.</p>
+            Represent Adobe Admin Console user changes as "System" in the Workfront update feed</a></p>
+            <p>Now, when the administrator of the Adobe Admin Console makes a change to the user information of a Workfront user, Workfront records this change in the System activity tab of the user's Updates area as belonging to the "System". This refers to the Adobe Admin Console administrator.</p>
         </td>
         <td>
-            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <p><b>Available on these dates:</b></p>
             <ul>
-                <li>Vorschau der Version: 30. Januar 2025</li>
-                <li><span class="preview">Produktionsversion für alle Kunden: 30. Januar 2025</span></li>
+                <li>Preview release: January 30, 2025</li>
+                <li><span class="preview">Production release for all customers: January 30, 2025</span></li>
             </ul>
         </td>
     </tr>                          
 </tbody>
-</table>
+</table>-->
 
 ### Weitere Verbesserungen
 
