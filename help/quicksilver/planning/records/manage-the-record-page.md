@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '1624'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # Seiten-Layout des Datensatzes verwalten
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
 <span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
@@ -161,7 +161,11 @@ So fügen Sie einen Abschnitt zu einer Datensatzvorschau oder Seite hinzu:
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png)  
+
+    </div>-->
 
 1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
@@ -240,13 +244,21 @@ Folgendes geschieht:
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau <!--check the icon; they are changing it-->, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die **Details** des Datensatzes wird standardmäßig geöffnet.
 
+   <!--<div class="preview">
+
    ![](assets/details-page.png)
+
+   </div>-->
 
 1. Klicken Sie auf der **„Details** auf das **grab**-Symbol ![](assets/grab-icon.png) links neben einem Feldnamen und ziehen Sie es dann an die gewünschte Stelle. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
 

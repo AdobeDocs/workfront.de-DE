@@ -6,16 +6,20 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
-source-wordcount: '592'
-ht-degree: 7%
+source-wordcount: '664'
+ht-degree: 8%
 
 ---
 
 # Übersicht über Formelfelder
 
 <!--when we release permissions to RECORDS and we release referring lookup fields in a formula field, update considerations to say that lookup fields from linked records depends on the permissions to the record; if they have no permissions to view a linked record, they won't be able to use that records's lookup fields in a formula-->
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -175,9 +179,26 @@ OLD:
 
 ## Unterstützte Formeln
 
-Adobe Workfront Planning-Formelfelder unterstützen alle Ausdrücke aus den berechneten Workfront-Feldern. Eine Liste der Workfront-Ausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+Adobe Workfront Planning-Formelfelder unterstützen die meisten Ausdrücke aus den berechneten Workfront-Feldern.
 
-Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planning-Formelfelder:
+<!-- make the note available when WF releases the expressions listed in it: 
+
+>[!NOTE]
+>
+>The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>
+>* SORTASCARRAY
+>* SORTDESCARRAY
+>* ADDHOUR
+>* SWITCH
+>* FORMAT
+-->
+
+Eine vollständige Liste der Workfront-Ausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planning-Formelfelder. Die folgenden Ausdrücke werden für Workfront-Ausdrücke nicht unterstützt:
+
+<!--take these three out when they also come to WF and Lisa has added them to the WF expression article linked above-->
 
 <table style="table-layout:auto"> 
  <col> 
@@ -190,6 +211,21 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
  </thead> 
  <tbody>
 
+<tr>
+   <td><strong>ARRAY</strong> </td>
+   <td> <p>Konvertiert eine Zeichenfolge in ein Array. Das Trennzeichen kann eine beliebige Zeichenfolge sein.</p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p>
+   </td>
+  </tr>
+  <tr>
+   <td><strong>ARRAYELEMENT</strong> </td>
+   <td> <p>Gibt das Element mit der angegebenen Zahl im Array zurück. Wenn der Index außerhalb des Bereichs liegt, gibt er leer zurück.</p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p>
+   </td>
+  </tr>
+
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Gibt eine verkettete Zeichenfolge mit einem Trennzeichen zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
@@ -197,6 +233,12 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
 <code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
+  <tr>
+   <td><strong>ARRAYLENGTH</strong> </td>
+   <td> <p>Gibt die Anzahl der Elemente im Array zurück und ist wie folgt formatiert:</p>
+   <p><code>ARRAYLENGTH(array)</code></p>
+   </td>
+  </tr>
 
 <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 

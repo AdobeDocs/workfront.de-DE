@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '709'
 ht-degree: 1%
@@ -140,13 +140,21 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau <!--check the icon; they are changing it-->, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
-   ![](assets/details-page.png)
+   <!--<div class="preview">
+
+    ![](assets/details-page.png)
+
+    </div>-->
 
 1. Bewegen Sie auf der Seite „Datensatzvorschau“ oder „Details“ den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann auf **Abdeckung hinzufügen**.
 

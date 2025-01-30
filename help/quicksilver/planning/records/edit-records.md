@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
 workflow-type: tm+mt
 source-wordcount: '2007'
 ht-degree: 0%
@@ -296,7 +296,11 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
    Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen**, das in der ersten Spalte ![](assets/open-details-icon-in-table-name-field.png) ist. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   ![](assets/details-box.png)
+   <!--<div class="preview">
+
+    ![](assets/details-box.png) 
+
+    </div>-->
 
 1. (Optional) Klicken Sie auf das **Mehr**-Menü rechts neben dem Datensatztitel und klicken Sie dann auf **Umbenennen**. Dadurch wird das Feld aktualisiert, das als Datensatztitel angezeigt wird.
 
@@ -316,6 +320,18 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 1. (Optional) Bewegen Sie den Mauszeiger über das Miniaturansichtssymbol und klicken Sie dann auf **Mehr** ![](assets/more-menu.png) > **Miniaturansicht bearbeiten**, um ein Miniaturbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront speichert Ihre Änderungen automatisch.
+
+   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's preview box, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+
+    The names and avatars of all users accessing the record at the same time display in this area.  
+
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    
+    <div class="preview">
+
+    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+    </div>-->
 
 1. (Optional) Klicken Sie auf die ![](assets/export-icon-in-record-details-page.png) **Exportieren**, um die Details des Datensatzes zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -342,6 +358,8 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
      ![](assets/contextual-menu-for-record-row.png)
 
      Die Datensatzseite wird geöffnet.
+
+     <!--update the screen shot below at preview-->
 
      ![](assets/details-page.png)
 
@@ -372,6 +390,18 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront speichert Ihre Änderungen automatisch.
+
+   <!--1. <span class="preview"> (Optional) Click the **real-time indicator** ![](assets/real-time-indicator-icon.png) in the upper-right corner of the record's page, then enable the **Show collaborators** setting to highlight the fields being edited by others in real time. 
+
+    The names and avatars of all users accessing the record at the same time display in this area.  
+
+    When the setting is disabled, the avatars and names are listed in the real-time indicator area, and the fields that are being edited are not highlighted. </span>
+    
+    <div class="preview">
+
+    ![](assets/real-time-indicator-expanded-record-preview-box.png)
+
+    </div>-->
 
 1. (Optional) Klicken Sie auf die ![](assets/export-icon-in-record-details-page.png) **Exportieren**, um die Details des Datensatzes zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 

@@ -6,15 +6,19 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1519'
 ht-degree: 1%
 
 ---
 
 
 # Ansichten freigeben
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -31,7 +35,7 @@ Sie können eine Ansicht für andere freigeben, um die Zusammenarbeit beim Arbei
 
 Sie können eine Ansicht für die folgenden Entitäten freigeben:
 
-* Intern mit Workfront-Benutzenden und -Gruppen
+* Intern mit Workfront-Benutzern, -Gruppen<span class="preview"> (Teams, Unternehmen und Aufgabengebieten</span>
 * Öffentlich, mit Benutzern außerhalb von Workfront
 
 <!--
@@ -182,7 +186,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Berechtigungen für eine Ansicht intern freigeben
 
-Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie Verwaltungsberechtigungen besitzen, für Benutzende oder Gruppen in Workfront freigeben.
+Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie Verwaltungsberechtigungen haben, für Benutzende, Gruppen, <span class="preview">Teams, Unternehmen und Aufgabengebiete</span> in Workfront freigeben.
 
 >[!NOTE]
 >
@@ -204,12 +208,16 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie Verwaltun
 
 1. (Optional) Wählen Sie im Bereich **Wer hat Zugriff** eine der folgenden Optionen aus:
 
-   * **Nur eingeladene Personen können zugreifen**: Sie müssen Benutzer oder Gruppen angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
+   * **Nur eingeladene Personen können zugreifen**: Sie müssen Benutzer, Gruppen, <span class="preview">Team, Firma oder Aufgabengebiet</span> angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
    * **Jeder Benutzer im Arbeitsbereich kann Folgendes anzeigen** Alle Benutzer mit Ansichts- oder höheren Berechtigungen für Arbeitsbereiche können auf die Ansicht zugreifen.
 
-1. Beginnen Sie im Feld **Ansichtszugriff gewähren auf** mit der Eingabe des Namens eines Benutzers oder einer Gruppe und klicken Sie dann auf den Namen, wenn er bzw. sie in der Liste angezeigt wird.
+1. Beginnen Sie im Feld **Ansichtszugriff gewähren auf** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines <span class="preview">Teams, einer Firma oder eines </span> und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
+
+   <div class="preview">
 
    ![](assets/sharing-a-view-ui-with-groups.png)
+
+   </div>
 
 1. Wählen Sie eine der folgenden Berechtigungsebenen aus dem Dropdown-Menü aus:
    * Anzeigen
@@ -308,7 +316,7 @@ Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** 
 1. Gehen Sie wie folgt vor, um die interne Freigabe einer Ansicht zu entfernen:
 
    1. Stellen Sie sicher **dass die Registerkarte** Interne Freigabe“ ausgewählt ist.
-   1. Suchen Sie den zu entfernenden Benutzer oder die zu entfernende Gruppe, erweitern Sie das Dropdown-Menü Berechtigungen rechts neben dem Namen des Benutzers oder der Gruppe und klicken Sie auf **Entfernen**.
+   1. Suchen Sie den Benutzer, die Gruppe, das <span class="preview">Team, das Unternehmen oder das Aufgabengebiet</span> den/die Sie entfernen möchten, erweitern Sie das Dropdown-Menü Berechtigungen rechts neben dem Namen der Entität, für die Sie die Ansicht freigeben, und klicken Sie dann auf **Entfernen**.
 
 1. Gehen Sie wie folgt vor, um die öffentliche Freigabe einer Ansicht zu entfernen:
 

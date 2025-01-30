@@ -6,14 +6,18 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 475a519d-d3bd-4461-8099-0e296d556d34
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 2%
+source-wordcount: '784'
+ht-degree: 1%
 
 ---
 
 # Freigeben von Arbeitsbereichen
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -173,9 +177,13 @@ So geben Sie einen Arbeitsbereich für andere frei:
 
    ![](assets/share-button-on-workspace-top-right.png)
 
-1. Beginnen Sie im Feld **Zugriff auf Workspace gewähren** mit der Eingabe des Namens eines Benutzers oder einer Gruppe, und klicken Sie dann auf den Namen, wenn er/sie in der Liste angezeigt wird.
+1. Beginnen Sie im Feld **Zugriff auf Workspace gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines <span class="preview">Teams, einer Firma oder eines Aufgabengebiets</span> und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
+
+   <div class="preview">
 
    ![](assets/sharing-ui-with-groups.png)
+
+   </div>
 
 1. Wählen Sie eine der folgenden Berechtigungsebenen aus dem Dropdown-Menü aus:
    * Anzeigen
@@ -221,7 +229,7 @@ Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** 
 {{step1-to-planning}}
 
 1. Öffnen Sie den Arbeitsbereich, dem Berechtigungen entfernt werden sollen, und klicken Sie **oben rechts** Bildschirm auf „Freigeben“.
-1. Klicken Sie auf das Dropdown-Menü rechts neben einem Benutzer- oder Gruppennamen und dann auf **Entfernen**.
+1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen einer Entität, für die Sie den Arbeitsbereich freigeben, und klicken Sie dann auf **Entfernen**.
 1. Klicken Sie auf **Speichern**.
 
-   Der Benutzer oder die Benutzer, die zur entfernten Gruppe gehören, haben keinen Zugriff mehr auf den Arbeitsbereich oder dessen Objekte.
+   Die entfernten Benutzer haben keinen Zugriff mehr auf den Arbeitsbereich oder dessen Objekte.
