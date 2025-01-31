@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 5027d611-916e-492d-9a44-841bdde11c94
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '664'
-ht-degree: 8%
+source-wordcount: '621'
+ht-degree: 7%
 
 ---
 
@@ -181,18 +181,16 @@ OLD:
 
 Adobe Workfront Planning-Formelfelder unterstützen die meisten Ausdrücke aus den berechneten Workfront-Feldern.
 
-<!-- make the note available when WF releases the expressions listed in it: 
-
 >[!NOTE]
 >
->The following Workfront expressions are not supported for Workfront Planning formula fields: 
+>Die folgenden Workfront-Ausdrücke werden für Workfront Planning-Formelfelder nicht unterstützt:
 >
 >* SORTASCARRAY
 >* SORTDESCARRAY
 >* ADDHOUR
->* SWITCH
+>* SCHALTER
 >* FORMAT
--->
+
 
 Eine vollständige Liste der Workfront-Ausdrücke finden Sie unter [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
 
@@ -211,21 +209,6 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
  </thead> 
  <tbody>
 
-<tr>
-   <td><strong>ARRAY</strong> </td>
-   <td> <p>Konvertiert eine Zeichenfolge in ein Array. Das Trennzeichen kann eine beliebige Zeichenfolge sein.</p>
-   <p>Der Ausdruck ist wie folgt formatiert:</p>
-   <p><code>ARRAY(string1, "delimiter")</code></p>
-   </td>
-  </tr>
-  <tr>
-   <td><strong>ARRAYELEMENT</strong> </td>
-   <td> <p>Gibt das Element mit der angegebenen Zahl im Array zurück. Wenn der Index außerhalb des Bereichs liegt, gibt er leer zurück.</p>
-   <p>Der Ausdruck ist wie folgt formatiert:</p>
-   <p><code>ARRAYELEMENT(array, number)</code></p>
-   </td>
-  </tr>
-
 <tr> 
    <td><strong>ARRAYJOIN</strong> </td> 
    <td> <p>Gibt eine verkettete Zeichenfolge mit einem Trennzeichen zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
@@ -233,14 +216,7 @@ Darüber hinaus unterstützen wir die folgenden Ausdrücke für Workfront Planni
 <code>ARRAYJOIN(delimiter,array)</code>
 </p>
    </td></tr>
-  <tr>
-   <td><strong>ARRAYLENGTH</strong> </td>
-   <td> <p>Gibt die Anzahl der Elemente im Array zurück und ist wie folgt formatiert:</p>
-   <p><code>ARRAYLENGTH(array)</code></p>
-   </td>
-  </tr>
-
-<tr> 
+    <tr> 
    <td><strong>ARRAYUNIQUE</strong> </td> 
    <td> <p>Gibt ein Array mit eindeutigen Werten zurück.</p> <p>Der Ausdruck ist wie folgt formatiert:
 

@@ -6,9 +6,9 @@ description: Der Zielfortschritt wird von Fortschrittsindikatoren wie Aktivität
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '827'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschri
 
      Oder
 
-     Eine zusätzliche Lizenz für Adobe Workfront-Ziele für Prime- oder Select Adobe Workfront-Pläne. Weitere Informationen finden Sie unter [Adobe Workfront-Plan](https://www.workfront.com/plans).
+     Eine zusätzliche Lizenz für Adobe Workfront-Ziele für Prime- oder Select Adobe Workfront-Pläne.
 
 * Für die aktuelle Plan- und Lizenzstruktur:
 
