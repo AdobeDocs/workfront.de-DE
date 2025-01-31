@@ -6,10 +6,10 @@ description: Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeige
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: 107bb601b8d4fd9376657b5cf5840cee5d086613
 workflow-type: tm+mt
-source-wordcount: '754'
-ht-degree: 6%
+source-wordcount: '991'
+ht-degree: 4%
 
 ---
 
@@ -59,6 +59,40 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
+
+## Voraussetzungen für Arbeitselemente, die in der Arbeitsliste angezeigt werden
+
+Es gibt integrierte Anforderungen, für die Arbeitselemente in bestimmten Widget-Arbeitslisten angezeigt werden. Arbeitselemente müssen diese Anforderungen erfüllen, damit sie in den Arbeitslisten der folgenden Widgets angezeigt werden.
+
+### Widget „Meine Aufgaben“
+
+Aufgaben müssen die folgenden Anforderungen erfüllen, damit sie im Widget Meine Aufgaben angezeigt werden:
+
+* Der Aufgabenstatus entspricht nicht „Abgeschlossen“.
+* Der angemeldete Benutzer muss der Aufgabe zugewiesen sein.
+* Aufgabenstatus ist nicht gleich „Fertig“.
+* Das Projekt, zu dem die Aufgabe gehört, muss einen Status haben, der dem aktuellen entspricht.
+
+
+### Widget „Meine Probleme“
+
+Probleme müssen die folgenden Anforderungen erfüllen, damit sie im Widget „Meine Probleme“ angezeigt werden:
+
+* Der angemeldete Benutzer muss dem Problem zugewiesen sein.
+* Der Problemstatus entspricht nicht „Abgeschlossen“.
+* Dem Problem ist kein ungelöstes Objekt beigefügt.
+* Der Problemstatus ist nicht gleich „Fertig“.
+* Das Projekt, zu dem das Problem gehört, muss einen Status haben, der dem aktuellen entspricht.
+
+### Widget Meine Teams
+
+Teamanfragen müssen die folgenden Anforderungen erfüllen, damit sie im Widget „Meine Teams“ angezeigt werden:
+
+* Der angemeldete Benutzer gehört zum Team, dem das Arbeitselement zugewiesen ist.
+* Der Status des Arbeitselements entspricht nicht „Abgeschlossen“.
+* Dem Arbeitselement ist kein ungelöster Genehmigungsprozess beigefügt.
+* Das Arbeitselement ist keine wiederkehrende Aufgabe.
+* Das Projekt, zu dem das Arbeitselement gehört, muss einen Status aufweisen, der mit „Aktuell“ übereinstimmt.
 
 ## Filtern von Arbeit
 

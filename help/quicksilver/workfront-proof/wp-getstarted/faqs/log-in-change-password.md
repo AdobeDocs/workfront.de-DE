@@ -8,7 +8,7 @@ description: Der Workfront Proof-Administrator kann für die Anmeldeseite ein pe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
+source-git-commit: e842e6714d6fa9c3944f03723f95029af1a85379
 workflow-type: tm+mt
 source-wordcount: '546'
 ht-degree: 0%
@@ -22,6 +22,7 @@ ht-degree: 0%
 >Dieser Artikel bezieht sich auf Funktionen im eigenständigen [!DNL Workfront Proof]. Informationen zu Proofing in [!DNL Adobe Workfront] finden Sie unter [Proofing](../../../review-and-approve-work/proofing/proofing.md).
 
 ## Anmelden
+
 
 1. Navigieren Sie [Anmeldeseite](https://app.proofhq.com/login).
 
@@ -45,6 +46,7 @@ Für [!UICONTROL Enterprise] und [!UICONTROL Unlimited]-Pläne bieten wir Single
 ## Wenn Sie Ihr Kennwort vergessen haben {#when-you-forget-your-password}
 
 Wenn Sie Ihr Kennwort vergessen haben, können Sie [!DNL Workfront Proof] E-Mail mit einer Nachricht zum Zurücksetzen des Kennworts versenden.
+
 
 1. Navigieren Sie [Anmeldeseite](https://app.proofhq.com/login).
 
