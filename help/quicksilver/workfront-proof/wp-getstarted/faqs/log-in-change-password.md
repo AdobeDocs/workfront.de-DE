@@ -8,9 +8,9 @@ description: Der Workfront Proof-Administrator kann für die Anmeldeseite ein pe
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: c67d411e-1cea-4a89-94a3-7503c4ce2eb7
-source-git-commit: 5d7ff744ed0721ffa6d793a224226f28a76c57a0
+source-git-commit: 0de21a39e2a4d2239e89eb2b10e44d9c9aa91a27
 workflow-type: tm+mt
-source-wordcount: '560'
+source-wordcount: '546'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 0%
 
 ## Anmelden
 
-1. Navigieren Sie [Anmeldeseite](https://www.proofhq.com/login) (oder zu unserer Website unter [www.proofhq.com](https://www.proofhq.com/)).
+1. Navigieren Sie [Anmeldeseite](https://app.proofhq.com/login).
 
 1. Klicken Sie oben [!UICONTROL  auf ] Schaltfläche „Anmelden“.
 1. Geben Sie Ihre E-Mail-Adresse und Ihr Passwort ein.\
@@ -46,7 +46,7 @@ Für [!UICONTROL Enterprise] und [!UICONTROL Unlimited]-Pläne bieten wir Single
 
 Wenn Sie Ihr Kennwort vergessen haben, können Sie [!DNL Workfront Proof] E-Mail mit einer Nachricht zum Zurücksetzen des Kennworts versenden.
 
-1. Navigieren Sie [Anmeldeseite](https://www.proofhq.com/login) (oder zu unserer Website unter [www.proofhq.com](https://www.proofhq.com/)).
+1. Navigieren Sie [Anmeldeseite](https://app.proofhq.com/login).
 
 1. Klicken Sie **[!UICONTROL Kennwort vergessen?]**
 1. Geben Sie in das angezeigte Feld Ihre E-Mail-Adresse ein und klicken Sie dann auf **[!UICONTROL Link abrufen]**.

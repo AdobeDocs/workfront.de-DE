@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
+source-git-commit: a9c2abc7f0d75eb9f90a9437eff7ac4d35fbb431
 workflow-type: tm+mt
-source-wordcount: '13017'
+source-wordcount: '13025'
 ht-degree: 2%
 
 ---
@@ -22,7 +22,8 @@ ht-degree: 2%
       * {#release-25-q2} zum 2. Quartal 2025
          * [Übersicht über die Version 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [Verbesserungen für Administratoren im 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
-         * [Weitere Verbesserungen während des Veröffentlichungszeitraums des zweiten Quartals 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)<!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
+         * [Weitere Verbesserungen während des Veröffentlichungszeitraums des zweiten Quartals 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
+         * [Lookand-Feel-Aktualisierungen im Zeitraum der Version 2025 im 2. Quartal](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * {#release-25-q1} zum 1. Quartal 2025
          * [Übersicht über die Version 2025 im 1. Quartal](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
          * [Verbesserungen für Admins im 1. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md)

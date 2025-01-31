@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '1066'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,16 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Administration und Einrichtung
 
+### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen unter Setup > Gruppen
+
+**Vorschau-Version: 30. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben die Listen für Projekt-, Aufgaben- und Problem-Genehmigungen unter Setup > Gruppen > Genehmigungen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Gruppen > Genehmigungen.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
+
 ### Aktualisierung der Benutzeroberfläche für die Seite „Korrekturabzugsrollen“ im Setup
 
 **Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
@@ -36,7 +46,7 @@ Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Überprüfen und Geneh
 
 ### Aktualisierung der Benutzeroberfläche für die Seite „Automatische Erinnerungen“ im Setup
 
-**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: Beginn der Woche vom 30. Januar 2025**
 
 Wir haben die Seite Automatische Erinnerungen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 Um diese Seite anzuzeigen, gehen Sie zu Einrichtung > E-Mail > Automatische Erinnerungen.
@@ -44,7 +54,7 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ### Aktualisierung der Benutzeroberfläche für die Seite „E-Mail-Vorlagen“ im Setup
 
-**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: Ab der Woche vom 30. Januar 2025**
 
 Wir haben die Seite E-Mail-Vorlagen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -74,7 +84,7 @@ Diese Aktualisierung beinhaltet geringfügige visuelle Änderungen an dem Bereic
 
 ### Aktualisierungen der Benutzeroberfläche für die Registerkarte Erinnerungsbenachrichtigungen im Setup
 
-**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: Ab der Woche vom 30. Januar 2025**
 
 Die Registerkarte Erinnerungsbenachrichtigungen sowie die Dialogfelder zum Hinzufügen und Bearbeiten wurden mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -92,7 +102,7 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen im Setup
 
-**Vorschau-Version: 16. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 16. Januar 2025; Produktions-Version: Ab der Woche vom 30. Januar 2025**
 
 Wir haben die Listen für Projekt-, Aufgaben- und Problemgenehmigungen in Setup > Prozesse > Genehmigungen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -110,7 +120,28 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > Iterationen.
 
+### Stories und Probleme aus Rückstand hinzufügen
+
+**Vorschau-Version: 30. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben das Dialogfeld Story hinzufügen und Problem hinzufügen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > Auftragsbestand und klicken Sie dann auf **Neue Story** oder **Neues**.
+
 ## Berichte und Dashboards
+
+### Aktualisierter Teambericht mit neuem Stil
+
+**Vorschau-Version: 30. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben den Teambericht mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen am Bericht. Die Funktionalität wurde nicht geändert.
+
+Um einen Team-Bericht zu erstellen, gehen Sie zu Berichte > Neuer Bericht > Team.
+
 
 ### Aktualisierte E-Mail-Berichte mit neuem Stil
 
