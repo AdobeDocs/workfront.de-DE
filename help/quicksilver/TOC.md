@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 0db9128c2ba679fca4f3540d804b0239077a85d6
+source-git-commit: af7cca08b80dff1baa9a2d9dad421920db008981
 workflow-type: tm+mt
-source-wordcount: '13013'
+source-wordcount: '13017'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,8 @@ ht-degree: 2%
       * [Adobe Workfront-Veröffentlichungszeitplan und -prozess](product-announcements/product-releases/workfront-release-schedule.md)
       * [Vorbereiten einer vierteljährlichen Adobe Workfront-Version](product-announcements/product-releases/release-readiness.md)
       * {#release-25-q2} zum 2. Quartal 2025
-         * Übersicht über die Version [2025 Q2](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)<!--* [2025 Q2 Administrator enhancements](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)-->
+         * [Übersicht über die Version 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
+         * [Verbesserungen für Administratoren im 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [Weitere Verbesserungen während des Veröffentlichungszeitraums des zweiten Quartals 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)<!--* [Look-and-feel updates during the 2025 Q2 release timeframe](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)-->
       * {#release-25-q1} zum 1. Quartal 2025
          * [Übersicht über die Version 2025 im 1. Quartal](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
