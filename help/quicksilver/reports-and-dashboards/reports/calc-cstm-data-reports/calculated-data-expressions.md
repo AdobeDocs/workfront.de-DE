@@ -7,9 +7,9 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
 workflow-type: tm+mt
-source-wordcount: '2165'
+source-wordcount: '2425'
 ht-degree: 0%
 
 ---
@@ -131,6 +131,13 @@ Sie können ein berechnetes benutzerdefiniertes Feld für Datum oder Uhrzeit mit
 
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>ADDHOUR</strong> </td> 
+   <td> <p>Addiert die Anzahl der Stunden zum Datum und ist wie folgt formatiert:</p>
+
+<p><code>ADDHOUR(date, number)</code></p>
+   <p>Hinweis: Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+  </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
    <td> <p>Löscht den Zeitabschnitt eines Datums und ist wie folgt formatiert. In diesem Beispiel ist das Datum das Eingabedatum für ein Arbeitsobjekt.</p>
@@ -378,6 +385,42 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
  </thead> 
  <tbody> 
   <tr> 
+   <td><strong>ARRAY</strong> </td> 
+   <td> <p>Konvertiert eine Zeichenfolge in ein Array. Das Trennzeichen kann eine beliebige Zeichenfolge sein.</p> 
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>ARRAY(string1, "delimiter")</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYLENGTH</strong> </td> 
+   <td> <p>Gibt die Anzahl der Elemente im Array zurück und ist wie folgt formatiert:</p>
+   <p><code>ARRAYLENGTH(array)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>ARRAYELEMENT</strong> </td> 
+   <td> <p>Gibt das Element mit der angegebenen Zahl im Array zurück. Wenn der Index außerhalb des Bereichs liegt, gibt er leer zurück.</p> 
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>ARRAYELEMENT(array, number)</code></p> 
+   </td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTASCARRAY</strong> </td> 
+   <td> <p>Sortiert die Array-Elemente in aufsteigender Reihenfolge und konvertiert sie in den Typ des ersten Elements.</p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>SORTASCARRAY(array)</code></p>
+   <p>Beispielsweise wird ["-12.6“, -13.0] zu ["-12.6“, "-13“].</p>
+   <p>Hinweis: Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+  </tr>
+  <tr> 
+   <td><strong>SORTDESCARRAY</strong> </td> 
+   <td> <p>Sortiert die Array-Elemente in absteigender Reihenfolge und konvertiert sie in den Typ des ersten Elements.</p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>SORTDESCARRAY(array)</code></p>
+   <p>Beispielsweise wird ["-12.6“, -13.0] zu ["-13“, "-12.6“].</p>
+   <p>Hinweis: Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+  </tr>
+  <tr>   
    <td><strong>CASE</strong> </td> 
    <td> <p>Wird mit anderen Ausdrücken verwendet, um einen Wert basierend auf einer Indexnummer aus einer Liste auszuwählen. </p>
    <p>Eine Indexnummer ist ein Feld oder eine Funktion, die einen numerischen Wert (normalerweise in einem bekannten Bereich) zurückgibt.</p> 
@@ -413,6 +456,13 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
 
 <p><code>ENCODEURL(string)</code></p></td> 
   </tr> 
+  <tr> 
+   <td><strong>FORMAT</strong> </td> 
+   <td><p>Gibt formatierten Text zurück. Die Farboptionen sind $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE und die anderen Formatierungsoptionen sind $$BOLD, $$ITALIC, $$UNDERLINE. Pro Funktion kann nur eine Farboption zusammen mit bis zu drei anderen Formatierungsoptionen verwendet werden. Wenn keine Farboption festgelegt ist, wird die Standardfarbe des Systems angewendet.</p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
+   <p>Hinweis: Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
    <td> <p>Wertet eine von Ihnen angegebene Bedingung aus und gibt den Wert von „trueExpression“ zurück, wenn „true“ festgelegt ist, oder den Wert von „falseExpression“, wenn „false“ festgelegt ist.</p>
@@ -504,18 +554,16 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
    <td> <p>Konvertiert eine Zahl in eine Zeichenfolge und ist wie folgt formatiert:</p>
 
 <p><code>STRING(number)</code></p> </td> 
-  </tr> 
+  </tr>
   <tr> 
    <td><strong>SORTASCSTRING</strong> </td> 
    <td> <p>Sortiert eine Liste mit Zeichenfolgen in aufsteigender Reihenfolge und ist wie folgt formatiert:</p>
-
-<p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
-  </tr> 
+   <p><code>SORTASCSTRING(string1, string2, ...)</code></p> </td> 
+  </tr>
   <tr> 
    <td><strong>SORTDESCSTRING</strong> </td> 
    <td> <p> Sortiert eine Liste mit Zeichenfolgen in absteigender Reihenfolge und ist wie folgt formatiert:</p>
-
-<p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
+   <p><code>SORTDESCSTRING(string1, string2, ...)</code></p> </td> 
   </tr> 
   <tr> 
    <td><strong>SUBSTR</strong> </td> 
@@ -523,6 +571,13 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
 
 <p><code>SUBSTR({string}, number of start position, number of end position)</code></p> </td> 
   </tr> 
+  <tr> 
+   <td><strong>SWITCH</strong> </td> 
+   <td> <p>Wertet den Ausdruck anhand einer Werteliste aus und gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht.</p>
+   <p>Der Ausdruck ist wie folgt formatiert:</p>
+   <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
+   <p>Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+  </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 
    <td> <p>Entfernt Leerzeichen vom Anfang und Ende einer Zeichenfolge und ist wie folgt formatiert:</p>
