@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 99431b88648919c5f4f90228dbedd97cd2efbd65
+source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
 workflow-type: tm+mt
-source-wordcount: '1066'
+source-wordcount: '1134'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,17 @@ Wir haben die Listen für Projekt-, Aufgaben- und Problemgenehmigungen in Setup 
 Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
 
 ## Agile
+
+## Aktualisierung der Benutzeroberfläche für den Bereich Teams > Auftragsbestand
+
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: Ab der Woche vom 13. Februar 2025**
+
+Wir haben den Bereich Teams > Auftragsbestand um ein moderneres Design erweitert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Dieses Update enthält die folgenden Änderungen:
+
+* Visuelle Verbesserungen der Registerkarte Storys und Probleme sowie des Dialogfelds Story aufschlüsseln
+* Ein neues Dialogfeld für das Tool „Iteration planen“
 
 ### Aktualisierung der Benutzeroberfläche für die Liste „Iterationen“
 
