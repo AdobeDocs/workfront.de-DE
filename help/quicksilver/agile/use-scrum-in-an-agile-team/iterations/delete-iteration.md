@@ -6,9 +6,9 @@ description: Sie können eine Iteration für Ihr Agile-Team löschen, wenn sie n
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '161'
+source-wordcount: '165'
 ht-degree: 1%
 
 ---
@@ -57,4 +57,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Iterationen]** aus.
-1. Wählen Sie die zu löschende Iteration aus und klicken Sie auf **[!UICONTROL Löschen]**.
+1. Wählen Sie die zu löschende Iteration aus und klicken Sie dann auf das Symbol [!UICONTROL **Löschen**] ![Löschen](assets/delete-icon.png).

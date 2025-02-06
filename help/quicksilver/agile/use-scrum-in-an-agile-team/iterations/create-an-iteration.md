@@ -6,9 +6,9 @@ description: Iterationen sind eine Schlüsselkomponente für agile Scrum-Teams b
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
-source-wordcount: '1051'
+source-wordcount: '1060'
 ht-degree: 0%
 
 ---
@@ -48,18 +48,19 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Iteration hinzufügen
 
-Verwenden Sie die Funktion [!UICONTROL Wiederholung hinzufügen], um schnell eine Iteration zu erstellen und später Aufgaben und Probleme hinzuzufügen.
+Sie können der Liste eine Iteration hinzufügen, um schnell eine Iteration zu erstellen, und ihr später Aufgaben und Probleme hinzufügen.
 
 {{step1-to-team}}
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Klicken Sie auf **[!UICONTROL Registerkarte]** Wiederholungen **[!UICONTROL auf „Wiederholung hinzufügen]**.
-   ![](assets/add-iteration-adobe-350x275.png)
+1. Klicken Sie auf **[!UICONTROL Registerkarte]** Iterationen **[!UICONTROL auf „Iteration hinzufügen]**.
+
+   ![Iteration hinzufügen klicken](assets/click-add-iteration.png)
 
 1. Geben Sie Folgendes an:
 
-   <table style="table-layout:auto"> 
+   <table style="table-layout:auto">
     <col> 
     <col> 
     <tbody> 
@@ -90,7 +91,7 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung hinzufügen], um schnell ein
     </tbody> 
    </table>
 
-1. Klicken Sie **[!UICONTROL Senden]**. Nachdem Sie eine Iteration erstellt haben, müssen Sie Storys hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen von Storys zu einer vorhandenen Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+1. Klicken Sie **[!UICONTROL Iteration hinzufügen]**. Nachdem Sie eine Iteration erstellt haben, müssen Sie Storys hinzufügen. Weitere Informationen finden Sie unter [Hinzufügen von Storys zu einer vorhandenen Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
 
 ## Planen einer Iteration auf der Registerkarte [!UICONTROL Auftragsbestand]
 

@@ -6,7 +6,7 @@ description: Sie können alle Iterationen für ein bestimmtes Team anzeigen oder
 author: Lisa
 feature: Agile
 exl-id: 1ee14c40-8047-4885-96f0-cddfc2617028
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
 workflow-type: tm+mt
 source-wordcount: '236'
 ht-degree: 0%
@@ -54,7 +54,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
 
-   ![Iterationsliste](assets/view-iteration-NWE.png)
+   ![Iterationsliste](assets/view-iteration-list.png)
 
    >[!NOTE]
    >
