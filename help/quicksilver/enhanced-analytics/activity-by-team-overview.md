@@ -7,9 +7,9 @@ description: Die Visualisierung „Aktivität nach Team“ zeigt Aktivitäten an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c4f9886c-ce76-43a8-bd43-cb64fff27e79
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '727'
 ht-degree: 7%
 
 ---
@@ -25,7 +25,7 @@ Die Visualisierung „Aktivität nach Team“ zeigt Aktivitäten an, die währen
 >Die Projektaktivitätsvisualisierung ähnelt dieser Visualisierung, sie zeigt jedoch Aktivitäten basierend auf Personen an, die Projekten zugewiesen sind, und nicht auf Personen, die einem Heim-Team zugewiesen sind.\
 >Weitere Informationen zur Visualisierung der Projektaktivität finden Sie unter [Anzeigen der Visualisierung der Projektaktivität in Enhanced Analytics](../enhanced-analytics/project-activity-overview.md).
 
-![](assets/activity-by-team-350x113.png){width="700"}
+![Aktivität nach Team](assets/activity-by-team-350x113.png){width="700"}
 
 ## Zugriffsanforderungen
 
@@ -75,15 +75,15 @@ Die verschiedenen Aktivitäten werden in verschiedenen Farben angezeigt, um best
 
 * **Benutzer angemeldet**: Violette Kästchen zeigen an, dass sich Personen im Home-Team an diesem Tag angemeldet haben. Je dunkler der Farbton, umso mehr Personen haben sich angemeldet.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Angemeldete Benutzer](assets/project-activity-users-logged-in.png)
 
 * **Änderung des Aufgabenstatus**: Pinkfarbene Kästchen zeigen an, dass Personen im Home-Team den Status einer Aufgabe an diesem Tag geändert haben. Je dunkler der Farbton, umso mehr Aufgabenstatus haben sich geändert.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Änderungen des Aufgabenstatus](assets/project-activity-task-status-changes.png)
 
 * **Aufgaben abgeschlossen**: Blaue Kästchen zeigen an, dass Personen im Home-Team eine Aufgabe an diesem Tag abgeschlossen haben. Je dunkler der Farbton, umso mehr Aufgaben wurden abgeschlossen.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Aufgaben abgeschlossen](assets/project-activity-tasks-completed.png)
 
 Wenn Sie den Mauszeiger über ein Feld bewegen, wird angezeigt, wie oft die Aktion an einem bestimmten Tag genau abgeschlossen wurde. Sie können ein Team auswählen, um eine Aufschlüsselung dieser Aktivitäten nach den einzelnen Personen im Home-Team anzuzeigen.
 
@@ -97,14 +97,14 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 ## Visualisierung „Aktivität nach Team“ anzeigen
 
-1. Klicken Sie auf das Hauptmenüsymbol ![](assets/main-menu-icon-16x12.png) dann auf **Analytics**.
+1. Klicken Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics**.
 1. Wählen Sie im linken Bedienfeld die Option **Personen** aus.
 
-   ![](assets/people-area-cropped-qs-350x276.png)
+   ![Bereich Personen](assets/people-area-cropped-qs-350x276.png)
 
 1. (Optional) Um einen anderen Datumsbereich zu verwenden, wählen Sie im Datumsbereichsfilter Neues Start- und Enddatum aus.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Datumsbereich auswählen](assets/filters-select-date-range-350x344.png)
 
    Informationen zur Verwendung des Filters für den Datumsbereich finden Sie unter [Anwenden von Filtern in der erweiterten Analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -118,7 +118,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und ein Zeitrahmenfilter wird erstellt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Zeitrahmen-Filter](assets/timeframe-filter-350x220.png)
 
 1. Auf einen Teamnamen klicken
 
@@ -140,9 +140,9 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Dunklere Farben zeigen eine höhere Aktivität an.
 
-   ![](assets/activity-by-team-activity-pop-up-350x155.png)
+   ![Aktivität nach Team](assets/activity-by-team-activity-pop-up-350x155.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das Symbol „Exportieren“ ![](assets/export.png) in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf das Symbol „Exportieren![ &quot;](assets/export.png)&quot; oben rechts in der Visualisierung und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**

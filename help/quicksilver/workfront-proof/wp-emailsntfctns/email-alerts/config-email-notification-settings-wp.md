@@ -7,9 +7,9 @@ description: Von Workfront Proof generierte E-Mail-Benachrichtigungen informiere
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: eb82c075-e275-46b7-ac2c-ed50367f53a7
-source-git-commit: 12f1443d69bb9306af29e4ab295f701089cdfb88
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2063'
+source-wordcount: '2065'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Sie können die Einstellungen für Korrekturabzüge konfigurieren, die Sie erste
 Sie können E-Mail-Warnhinweise für einen bestimmten Empfänger in einer Batch-Aktion ändern.
 
 1. Klicken Sie **[!UICONTROL linken Navigationsbereich auf]** Kontakte“.
-1. Klicken Sie auf die **[!UICONTROL Mehr]**-![](assets/more-button-small.png) für den Empfänger und dann auf **[!UICONTROL Mitgliederdetails anzeigen]** im Dropdownmenü.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![Mehr](assets/more-button-small.png) für den Empfänger und klicken Sie dann **[!UICONTROL Dropdown-Menü]** Mitgliederdetails anzeigen“.
 
 1. Öffnen Sie den **[!UICONTROL Freigegebene Elemente]** Abschnitt.
 1. Aktivieren Sie das Kontrollkästchen links neben jedem Element, für das Sie den E-Mail-Warnhinweis ändern möchten.

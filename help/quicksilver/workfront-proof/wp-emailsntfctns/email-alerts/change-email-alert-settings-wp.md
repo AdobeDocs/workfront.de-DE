@@ -7,9 +7,9 @@ description: Sie können auch die E [!DNL Workfront Proof] Mail-Warnungen änder
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ac24a339-6f9f-4452-a37b-023752447700
-source-git-commit: c989687e9adaf12a31a920921bf8fb69425ca1c5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '179'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Sie können auch die [!DNL Workfront Proof] E-Mail-Warnungen ändern, die Sie f�
 
 ## Ändern der E-Mail-Warnungen für Prüfer eines Korrekturabzugs
 
-1. Klicken Sie in einer beliebigen Listenansicht auf das **[!UICONTROL Mehr]**-Menü rechts neben dem Korrekturabzug. ![](assets/more-button-small.png)
+1. Klicken Sie in einer beliebigen Listenansicht auf das **[!UICONTROL Mehr]**-Menü rechts neben dem Korrekturabzug. ![Menü „Mehr“](assets/more-button-small.png)
 
 1. Klicken Sie **[!UICONTROL Testversanddetails anzeigen]**.
 1. Öffnen Sie auf der **[!UICONTROL Korrekturabzugsdetails]** das Dropdown-Menü [!UICONTROL E-Mail]Warnhinweis) für eine prüfende Person und wählen Sie dann die neue Einstellung aus.

@@ -7,9 +7,9 @@ description: Die Aufgaben in der Flugvisualisierung zeigt, wie viele Aufgaben (i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '716'
+source-wordcount: '749'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 Die Aufgaben in der Flugvisualisierung zeigt, wie viele Aufgaben (innerhalb der angewendeten Filterkriterien) für ein Projekt gerade ausgeführt werden, wie viel Arbeit in Prozent für jede Aufgabe abgeschlossen ist und wie terminiert die Aufgaben sind.
 
-![](assets/tasks-in-flight-possible-replacement-350x104.png)
+![Aufgaben im Flug](assets/tasks-in-flight-possible-replacement-350x104.png)
 
 ## Zugriffsanforderungen
 
@@ -59,15 +59,15 @@ Die Visualisierung Aufgaben im Flugplan zeigt die folgenden Aufgabendetails:
 
 * **Geplante Aufgabendauer**: Die Länge einer Vorgangsleiste gibt die geplante Dauer an, die auf dem Start- und Abschlussdatum der Aufgabe basiert.
 
-  ![](assets/tasks-in-flight-duration-350x80.png)
+  ![Aufgaben während der Flugdauer](assets/tasks-in-flight-duration-350x80.png)
 
 * **Work Effort abgeschlossen**: Die dunkelblaue Farbe in einer Taskleiste zeigt den Umfang der für eine Aufgabe abgeschlossenen Arbeit an. Dieser Prozentsatz der Fertigstellung wird rechts neben der Taskleiste angezeigt.
 
-  ![](assets/tasks-in-flight-dark-blue-350x35.png)
+  ![Aufgaben im Flug dunkelblau](assets/tasks-in-flight-dark-blue-350x35.png)
 
 * **Verbleibender Arbeitsaufwand**: Die hellblaue Farbe in einer Aufgabenleiste zeigt den Arbeitsaufwand an, der für eine Aufgabe abgeschlossen werden muss.
 
-  ![](assets/tasks-in-flight-light-blue-350x35.png)
+  ![Aufgaben im Flug hellblau](assets/tasks-in-flight-light-blue-350x35.png)
 
 Anhand dieser Informationen können Sie Folgendes feststellen:
 
@@ -80,10 +80,10 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 ## Anzeigen der Aufgaben in der Flugvisualisierung
 
-1. Klicken Sie auf das Hauptmenüsymbol ![](assets/main-menu-icon-16x12.png) dann auf **Analytics**.
+1. Klicken Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics**.
 1. (Optional) Um einen anderen Datumsbereich zu verwenden, wählen Sie im Datumsbereichsfilter Neues Start- und Enddatum aus.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Datumsbereich auswählen](assets/filters-select-date-range-350x344.png)
 
    Informationen zur Verwendung des Filters für den Datumsbereich finden Sie unter [Anwenden von Filtern in der erweiterten Analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -113,7 +113,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und ein Zeitrahmenfilter wird erstellt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Zeitrahmen-Filter](assets/timeframe-filter-350x220.png)
 
 1. (Optional) Um zu ändern, wie die Aufgaben sortiert werden, klicken Sie auf das Menü **Sortieren nach** und wählen Sie dann eine neue Sortieroption aus:
 
@@ -125,13 +125,13 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 1. Überprüfen Sie den Fortschritt der Aufgaben im ausgewählten Projekt und bewegen Sie dann den Mauszeiger über eine bestimmte Aufgabe, um die Anzahl der geplanten Stunden, das geplante Fälligkeitsdatum und den Abschlussprozentsatz anzuzeigen.
 
-   ![](assets/tasks-in-flight-task-details-350x242.png)
+   ![Aufgaben in Flugdetails](assets/tasks-in-flight-task-details-350x242.png)
 
 1. Klicken Sie auf eine Aufgabe, um die Aufgabendetails auf der rechten Seite des Bildschirms zu öffnen, wo Sie weitere Informationen über die Aufgabe sehen, Aktualisierungen anzeigen oder eingeben oder Änderungen an der Aufgabe vornehmen können.
 
-   ![](assets/task-details-qs-350x675.png)
+   ![Aufgabendetails](assets/task-details-qs-350x675.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf **Exportsymbol** ![](assets/export.png) in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie **Export**![ Export](assets/export.png)Symbol „Exportieren“ in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**

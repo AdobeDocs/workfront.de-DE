@@ -8,9 +8,9 @@ description: Als Workfront-Administrator oder Workfront Proof-Administrator kön
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 249aa332-c051-49ac-be85-264d8babfcad
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1764'
+source-wordcount: '1924'
 ht-degree: 0%
 
 ---
@@ -36,12 +36,12 @@ In der folgenden Tabelle werden die Berechtigungen angezeigt, die mit jedem Prof
 | **Eigene Elemente** |  |  |  |  | **Elemente anderer Benutzer** |  |  | **admin** | **Abrechnung** |
 |---|---|---|---|---|---|---|---|---|---|
 |   | **Hinzufügen** | **Anzeigen** | **Bearbeiten** | **Löschen** | **Anzeigen** | **Bearbeiten** | **Löschen** | **Bearbeiten und Löschen** | **Bearbeiten** |
-| Abrechnungs-Administrator | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |
-| Admin | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |
-| Supervisor | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |
-| Managerin bzw. Manager | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) | ![](assets/cleaner2.png) |   |   |   |   |   |
-| Beobachter |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
-| Besucher |   | ![](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Abrechnungs-Administrator | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) |
+| Admin | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) |   |
+| Supervisor | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) |   |   |
+| Managerin bzw. Manager | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) | ![Häkchen](assets/cleaner2.png) |   |   |   |   |   |
+| Beobachter |   | ![Häkchen](assets/cleaner2.png) |   |   |   |   |   |   |   |
+| Besucher |   | ![Häkchen](assets/cleaner2.png) |   |   |   |   |   |   |   |
 
 {style="table-layout:auto"}
 
@@ -66,35 +66,35 @@ In den folgenden Abschnitten werden die einzelnen Profile und die mit dem Profil
 
 Abrechnungsadministratoren haben Zugriff auf [Kontoeinstellungen auf  [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md) and [The [!DNL Workfront Proof] Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und verfügen über die folgenden Berechtigungen:
 
-![](assets/cleaner2.png)Kann Korrekturabzüge generieren, Dateien hochladen und Ordner erstellen. Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge generieren, Dateien hochladen und Ordner erstellen. Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Kann eigene Korrekturabzüge und von ihm erstellte Dateien anzeigen, bearbeiten und löschen.
+![Häkchen](assets/cleaner2.png) Kann eigene Korrekturabzüge und Dateien, die er erstellt, anzeigen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann Korrekturabzüge und Dateien, die von allen Benutzern in der Organisation erstellt wurden, anzeigen, bearbeiten und löschen.
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge und Dateien, die von allen Benutzenden in der Organisation erstellt wurden, anzeigen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann die öffentlichen Ordner anderer Benutzer löschen. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Häkchen](assets/cleaner2.png) Kann die öffentlichen Ordner anderer Benutzer löschen. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Hat Bearbeitungsrechte für alle im Konto erstellten Korrekturabzüge.
+![Häkchen](assets/cleaner2.png)Hat Bearbeitungsrechte für alle im Konto erstellten Korrekturabzüge.
 
-![](assets/cleaner2.png)Kann als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Häkchen](assets/cleaner2.png)Kann als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Kann auf die Seite Abrechnung zugreifen und die Abrechnungsdetails bearbeiten. Weitere Informationen finden Sie unter [The [!DNL Workfront Proof] Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Häkchen](assets/cleaner2.png) Kann auf die Seite Abrechnung zugreifen und die Abrechnungsdetails bearbeiten. Weitere Informationen finden Sie unter [The [!DNL Workfront Proof] Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
-![](assets/cleaner2.png)Kann auf die Seite Kontoeinstellungen zugreifen und die Kontodetails bearbeiten. Weitere Informationen finden Sie unter [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Häkchen](assets/cleaner2.png) Kann auf die Seite Kontoeinstellungen zugreifen und die Kontodetails bearbeiten. Weitere Informationen finden Sie unter [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Kann den Papierkorb leeren. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Häkchen](assets/cleaner2.png)Kann den Papierkorb leeren. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)Kann Benutzer hinzufügen, bearbeiten und löschen.
+![Häkchen](assets/cleaner2.png)Kann Benutzer hinzufügen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann Gruppen erstellen und neue Kontakte hinzufügen.
+![Häkchen](assets/cleaner2.png)Kann Gruppen erstellen und neue Kontakte hinzufügen.
 
-![](assets/cleaner2.png)Kann Kontakte löschen.
+![Häkchen](assets/cleaner2.png) Kann Kontakte löschen.
 
-![](assets/cleaner2.png)Kann Korrekturabzüge bearbeiten, wenn keine Antworten darauf vorhanden sind.
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge bearbeiten, wenn keine Antworten darauf vorhanden sind.
 
-![](assets/no2.png)Korrekturabzugsantworten können nicht bearbeitet werden.
+![Rot X](assets/no2.png)Korrekturabzugsantworten können nicht bearbeitet werden.
 
-![](assets/no2.png)Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rotes X](assets/no2.png) Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
 Informationen zu Kontoeinstellungen finden Sie unter [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
@@ -104,127 +104,127 @@ Weitere Informationen zur Abrechnung finden Sie [ „Die  [!DNL Workfront Proof]
 
 Admins haben Zugriff auf [Kontoeinstellungen](https://support.workfront.com/hc/en-us/sections/115000912147-Account-Settings) und verfügen über die folgenden Berechtigungen:
 
-![](assets/cleaner2.png)Kann Testsendungen erstellen, Dateien hochladen und Ordner erstellen. Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge erstellen, Dateien hochladen und Ordner erstellen. Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Kann von ihnen erstellte Korrekturabzüge und Dateien anzeigen, bearbeiten und löschen.
+![Häkchen](assets/cleaner2.png) Kann von ihm erstellte Korrekturabzüge und Dateien anzeigen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann Korrekturabzüge und Dateien, die von allen Benutzern in der Organisation erstellt wurden, anzeigen, bearbeiten und löschen.
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge und Dateien, die von allen Benutzenden in der Organisation erstellt wurden, anzeigen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann die öffentlichen Ordner anderer Benutzer löschen. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Häkchen](assets/cleaner2.png) Kann die öffentlichen Ordner anderer Benutzer löschen. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Hat Bearbeitungsrechte für alle im Konto erstellten Korrekturabzüge.
+![Häkchen](assets/cleaner2.png)Hat Bearbeitungsrechte für alle im Konto erstellten Korrekturabzüge.
 
-![](assets/cleaner2.png)Kann als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Häkchen](assets/cleaner2.png)Kann als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Kann auf die Seite Kontoeinstellungen zugreifen und die Kontodetails bearbeiten. Weitere Informationen finden Sie unter [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Häkchen](assets/cleaner2.png) Kann auf die Seite Kontoeinstellungen zugreifen und die Kontodetails bearbeiten. Weitere Informationen finden Sie unter [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/cleaner2.png)Kann den Papierkorb leeren. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Häkchen](assets/cleaner2.png)Kann den Papierkorb leeren. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/cleaner2.png)Kann Benutzer hinzufügen, bearbeiten und löschen.
+![Häkchen](assets/cleaner2.png)Kann Benutzer hinzufügen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann Gruppen erstellen und neue Kontakte hinzufügen.
+![Häkchen](assets/cleaner2.png)Kann Gruppen erstellen und neue Kontakte hinzufügen.
 
-![](assets/cleaner2.png)Kann Kontakte löschen.
+![Häkchen](assets/cleaner2.png) Kann Kontakte löschen.
 
-![](assets/cleaner2.png)Kann Korrekturabzüge bearbeiten, wenn keine Antworten darauf vorhanden sind.
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge bearbeiten, wenn keine Antworten darauf vorhanden sind.
 
-![](assets/no2.png)Korrekturabzugsantworten können nicht bearbeitet werden.
+![Rot X](assets/no2.png)Korrekturabzugsantworten können nicht bearbeitet werden.
 
-![](assets/no2.png)Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rotes X](assets/no2.png) Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Zugriff auf die Seite Abrechnung oder Bearbeitung der Abrechnungsdetails nicht möglich. Weitere Informationen finden Sie unter [The [!DNL Workfront Proof] Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
+![Rotes X](assets/no2.png)Kein Zugriff auf die Seite Abrechnung oder Bearbeitung der Abrechnungsdetails. Weitere Informationen finden Sie unter [The [!DNL Workfront Proof] Billing Page](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md).
 
 ### Supervisor {#supervisor}
 
 Supervisoren haben die folgenden Berechtigungen:
 
-![](assets/cleaner2.png)Kann Testsendungen erstellen, Dateien hochladen und Ordner erstellen. Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge erstellen, Dateien hochladen und Ordner erstellen. Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Kann eigene Korrekturabzüge und von ihm erstellte Dateien anzeigen, bearbeiten und löschen.
+![Häkchen](assets/cleaner2.png) Kann eigene Korrekturabzüge und Dateien, die sie erstellt haben, anzeigen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann Korrekturabzüge und Dateien, die von allen Benutzern in der Organisation erstellt wurden, anzeigen, bearbeiten und löschen.
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge und Dateien, die von allen Benutzenden in der Organisation erstellt wurden, anzeigen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann die öffentlichen Ordner anderer Benutzer löschen. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Häkchen](assets/cleaner2.png) Kann die öffentlichen Ordner anderer Benutzer löschen. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/cleaner2.png)Hat Bearbeitungsrechte für alle im Konto erstellten Korrekturabzüge.
+![Häkchen](assets/cleaner2.png)Hat Bearbeitungsrechte für alle im Konto erstellten Korrekturabzüge.
 
-![](assets/cleaner2.png)Kann als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Häkchen](assets/cleaner2.png)Kann als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/cleaner2.png)Kann Gruppen erstellen und neue Kontakte hinzufügen.
+![Häkchen](assets/cleaner2.png)Kann Gruppen erstellen und neue Kontakte hinzufügen.
 
-![](assets/cleaner2.png)Kann Kontakte löschen.
+![Häkchen](assets/cleaner2.png) Kann Kontakte löschen.
 
-![](assets/cleaner2.png)Kann Korrekturabzüge bearbeiten, wenn keine Antworten darauf vorhanden sind.
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge bearbeiten, wenn keine Antworten darauf vorhanden sind.
 
-![](assets/no2.png)Korrekturabzugsantworten können nicht bearbeitet werden.
+![Rot X](assets/no2.png)Korrekturabzugsantworten können nicht bearbeitet werden.
 
-![](assets/no2.png)Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [ in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
+![Rotes X](assets/no2.png) Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [ in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/folders.md).
 
-![](assets/no2.png)Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen nicht möglich. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rotes X](assets/no2.png)Kein Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Benutzende können nicht hinzugefügt, bearbeitet oder gelöscht werden.
+![Rotes X](assets/no2.png)Kann keine Benutzer hinzufügen, bearbeiten oder löschen.
 
-![](assets/no2.png)Papierkorb kann nicht geleert werden. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rotes X](assets/no2.png)Papierkorb kann nicht geleert werden. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
 ### Managerin bzw. Manager {#manager}
 
 Manager verfügen über die folgenden Berechtigungen:
 
-![](assets/cleaner2.png)Kann Testsendungen erstellen, Dateien hochladen und Ordner erstellen. Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge erstellen, Dateien hochladen und Ordner erstellen. Weitere Informationen finden Sie unter [Erstellen von Korrekturabzügen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/generate-proofs.md), [Hochladen von Dateien und Webinhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md) und [Erstellen von Ordnern in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/create-folders.md).
 
-![](assets/cleaner2.png)Kann eigene Korrekturabzüge und Dateien anzeigen, bearbeiten und löschen, die von ihnen erstellt wurden oder deren Inhaber sie sind.
+![Häkchen](assets/cleaner2.png) Kann eigene Korrekturabzüge und Dateien, die sie erstellen oder besitzen, anzeigen, bearbeiten und löschen.
 
-![](assets/cleaner2.png)Kann Korrekturabzüge anderer Benutzer, die explizit für sie freigegeben wurden, anzeigen, überprüfen und genehmigen (schreibgeschützte Rechte für alle Elemente in einem freigegebenen Ordner). Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge anderer Benutzer, die explizit für sie freigegeben wurden, anzeigen, überprüfen und genehmigen (schreibgeschützte Rechte für alle Elemente in einem freigegebenen Ordner). Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Kann Gruppen erstellen und einen neuen Kontakt hinzufügen.
+![Häkchen](assets/cleaner2.png)Kann Gruppen erstellen und einen neuen Kontakt hinzufügen.
 
-![](assets/no2.png)Von anderen Benutzern in der Organisation erstellte Korrekturabzüge und Dateien können nicht angezeigt, bearbeitet oder gelöscht werden.
+![Rot X](assets/no2.png) Korrekturabzüge und Dateien, die von anderen Benutzern in der Organisation erstellt wurden, können nicht angezeigt, bearbeitet oder gelöscht werden.
 
-![](assets/no2.png)Korrekturabzüge oder Antworten können nicht bearbeitet werden.
+![Rot X](assets/no2.png)Korrekturabzüge oder Antworten können nicht bearbeitet werden.
 
-![](assets/no2.png)Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rotes X](assets/no2.png) Die privaten Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Die öffentlichen Ordner anderer Benutzer können nicht gelöscht werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Red X](assets/no2.png)Kann die öffentlichen Ordner anderer Benutzer nicht löschen. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen nicht möglich. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rotes X](assets/no2.png)Kein Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Kann nicht als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rotes X](assets/no2.png) kann nicht als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Papierkorb kann nicht geleert werden. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rotes X](assets/no2.png)Papierkorb kann nicht geleert werden. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Benutzende können nicht hinzugefügt, bearbeitet oder gelöscht werden.
+![Rotes X](assets/no2.png)Kann keine Benutzer hinzufügen, bearbeiten oder löschen.
 
-![](assets/no2.png)Kontakte können nicht gelöscht werden.
+![Rotes X](assets/no2.png)Kontakte können nicht gelöscht werden.
 
 ### Beobachter {#observer}
 
 Beobachter haben die folgenden Berechtigungen:
 
-![](assets/cleaner2.png)Kann Korrekturabzüge anderer Benutzer, die explizit für sie freigegeben wurden, anzeigen, überprüfen und genehmigen (schreibgeschützte Berechtigungen für alle Elemente in einem freigegebenen Ordner). Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge anderer Benutzer, die explizit für sie freigegeben wurden, anzeigen, überprüfen und genehmigen (schreibgeschützte Berechtigungen für alle Elemente in einem freigegebenen Ordner). Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Kann Dateien anzeigen, die explizit für sie freigegeben wurden.
+![Häkchen](assets/cleaner2.png)Kann Dateien anzeigen, die explizit für sie freigegeben wurden.
 
-![](assets/cleaner2.png) Kann Kontakte und Gruppen anzeigen
+![Häkchen](assets/cleaner2.png) Kann Kontakte und Gruppen anzeigen
 
-![](assets/no2.png)Es können keine Korrekturabzüge erstellt, Dateien hochgeladen und Ordner erstellt werden. Weitere Informationen finden Sie unter [Hochladen von Dateien und Web-Inhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![Rot X](assets/no2.png) Es können keine Korrekturabzüge erstellt, Dateien hochgeladen und Ordner erstellt werden. Weitere Informationen finden Sie unter [Hochladen von Dateien und Web-Inhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Von anderen Benutzern in der Organisation erstellte Korrekturabzüge und Dateien können nicht angezeigt, bearbeitet oder gelöscht werden.
+![Rot X](assets/no2.png) Korrekturabzüge und Dateien, die von anderen Benutzern in der Organisation erstellt wurden, können nicht angezeigt, bearbeitet oder gelöscht werden.
 
-![](assets/no2.png)Korrekturabzüge oder Antworten können nicht bearbeitet werden.
+![Rot X](assets/no2.png)Korrekturabzüge oder Antworten können nicht bearbeitet werden.
 
-![](assets/no2.png)In der Organisation erstellte Elemente können nicht gelöscht werden.
+![Rotes X](assets/no2.png) In der Organisation erstellte Elemente können nicht gelöscht werden.
 
-![](assets/no2.png)Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen nicht möglich. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rotes X](assets/no2.png)Kein Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Kann nicht als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rotes X](assets/no2.png) kann nicht als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Papierkorb kann nicht geleert werden. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rotes X](assets/no2.png)Papierkorb kann nicht geleert werden. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Benutzende können nicht hinzugefügt, bearbeitet oder gelöscht werden.
+![Rotes X](assets/no2.png)Kann keine Benutzer hinzufügen, bearbeiten oder löschen.
 
-![](assets/no2.png)Es können keine Gruppen erstellt oder neue Kontakte hinzugefügt werden.
+![Rotes X](assets/no2.png)Es können keine Gruppen erstellt oder neue Kontakte hinzugefügt werden.
 
-![](assets/no2.png)Kontakte können nicht gelöscht werden.
+![Rotes X](assets/no2.png)Kontakte können nicht gelöscht werden.
 
 >[!NOTE]
 >
@@ -238,31 +238,31 @@ Beobachter haben die folgenden Berechtigungen:
 
 Besucher haben die folgenden Berechtigungen:
 
-![](assets/cleaner2.png)Kann Korrekturabzüge anderer Benutzer, die explizit für sie freigegeben wurden, anzeigen, überprüfen und genehmigen (schreibgeschützte Rechte für alle Elemente in einem freigegebenen Ordner). Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge anderer Benutzer, die explizit für sie freigegeben wurden, anzeigen, überprüfen und genehmigen (schreibgeschützte Rechte für alle Elemente in einem freigegebenen Ordner). Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
-![](assets/cleaner2.png)Kann Dateien anzeigen, die explizit für sie freigegeben wurden.
+![Häkchen](assets/cleaner2.png)Kann Dateien anzeigen, die explizit für sie freigegeben wurden.
 
-![](assets/no2.png) Kontakte und Gruppen können nicht angezeigt werden
+![Rotes X](assets/no2.png) Kontakte und Gruppen können nicht angezeigt werden
 
-![](assets/no2.png)Es können keine Korrekturabzüge erstellt, Dateien hochgeladen und Ordner erstellt werden. Weitere Informationen finden Sie unter [Hochladen von Dateien und Web-Inhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
+![Rot X](assets/no2.png) Es können keine Korrekturabzüge erstellt, Dateien hochgeladen und Ordner erstellt werden. Weitere Informationen finden Sie unter [Hochladen von Dateien und Web-Inhalten in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/create-proofs-and-files/upload-files-web-content.md).
 
-![](assets/no2.png)Von anderen Benutzern in der Organisation erstellte Korrekturabzüge und Dateien können nicht angezeigt, bearbeitet oder gelöscht werden.
+![Rot X](assets/no2.png) Korrekturabzüge und Dateien, die von anderen Benutzern in der Organisation erstellt wurden, können nicht angezeigt, bearbeitet oder gelöscht werden.
 
-![](assets/no2.png)Korrekturabzüge oder Antworten können nicht bearbeitet werden.
+![Rot X](assets/no2.png)Korrekturabzüge oder Antworten können nicht bearbeitet werden.
 
-![](assets/no2.png)In der Organisation erstellte Elemente können nicht gelöscht werden.
+![Rotes X](assets/no2.png) In der Organisation erstellte Elemente können nicht gelöscht werden.
 
-![](assets/no2.png)Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen nicht möglich. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
+![Rotes X](assets/no2.png)Kein Zugriff auf die Seite „Abrechnung“ oder die Kontoeinstellungen. Weitere Informationen finden Sie unter [Die  [!DNL Workfront Proof] -Abrechnungsseite](../../../workfront-proof/wp-billingsettings/manage-your-billing/wp-billing-page.md) und [Kontoeinstellungen in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/account-settings.md).
 
-![](assets/no2.png)Kann nicht als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
+![Rotes X](assets/no2.png) kann nicht als Besitzer der Dropzone festgelegt werden. Weitere Informationen finden Sie unter [Konfigurieren des Ablagebereichs in [!DNL Workfront Proof]](../../../workfront-proof/wp-acct-admin/account-settings/configure-dropzone-in-wp.md).
 
-![](assets/no2.png)Papierkorb kann nicht geleert werden. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
+![Rotes X](assets/no2.png)Papierkorb kann nicht geleert werden. Weitere Informationen finden Sie unter [Wiederherstellen und Leeren des Papierkorbs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/restore-and-empty-trash.md).
 
-![](assets/no2.png)Benutzende können nicht hinzugefügt, bearbeitet oder gelöscht werden.
+![Rotes X](assets/no2.png)Kann keine Benutzer hinzufügen, bearbeiten oder löschen.
 
-![](assets/no2.png)Es können keine Gruppen erstellt oder neue Kontakte hinzugefügt werden.
+![Rotes X](assets/no2.png)Es können keine Gruppen erstellt oder neue Kontakte hinzugefügt werden.
 
-![](assets/no2.png)Kontakte können nicht gelöscht werden.
+![Rotes X](assets/no2.png)Kontakte können nicht gelöscht werden.
 
 >[!NOTE]
 >
@@ -276,15 +276,15 @@ Besucher haben die folgenden Berechtigungen:
 
 Das Gastprofil wird verwendet, um Prüfern, die kein eigenes Workfront Proof-Konto haben, Zugriff auf Korrekturabzüge zu gewähren. Gäste können direkt über ihre persönlichen E-Mail-Benachrichtigungen auf Korrekturabzüge zugreifen, die mit ihnen geteilt wurden.
 
-![](assets/cleaner2.png)Kann Korrekturabzüge anzeigen, überprüfen und genehmigen, die explizit für sie freigegeben wurden.
+![Häkchen](assets/cleaner2.png) Kann Korrekturabzüge anzeigen, überprüfen und genehmigen, die explizit für sie freigegeben wurden.
 
-![](assets/cleaner2.png)Kann Dateien anzeigen, die explizit für sie freigegeben wurden.
+![Häkchen](assets/cleaner2.png)Kann Dateien anzeigen, die explizit für sie freigegeben wurden.
 
-![](assets/no2.png)Zugriff auf das Dashboard nicht möglich.
+![Rotes X](assets/no2.png)Kein Zugriff auf das Dashboard.
 
-![](assets/no2.png)Es können keine Ordner für sie freigegeben werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
+![Rotes X](assets/no2.png)Es können keine Ordner für sie freigegeben werden. Weitere Informationen finden Sie unter [Ordner in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/organize-your-work/manage-folders.md).
 
-![](assets/no2.png)Kann nicht als Autor oder Moderator zu den Korrekturabzügen hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
+![Rotes X](assets/no2.png) kann nicht als Autor oder Moderator zu den Korrekturabzügen hinzugefügt werden. Weitere Informationen finden Sie unter [Verwalten von Korrekturabzugsrollen in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/manage-proof-roles.md).
 
 >[!NOTE]
 >
@@ -300,11 +300,11 @@ Administratoren und Abrechnungsadministratoren können die Berechtigungsprofile 
 
    * Navigieren Sie zur Seite **[!UICONTROL Kontakte]**.
 
-1. Klicken Sie auf den Namen des Benutzers, dessen Berechtigungen Sie bearbeiten möchten. ![](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
+1. Klicken Sie auf den Namen des Benutzers, dessen Berechtigungen Sie bearbeiten möchten. ![Benutzer auswählen](assets/screenshot-2018-03-30-14-16-05a-350x69.png)
 
 1. Klicken Sie auf **[!UICONTROL Dropdown-]** Berechtigungsprofil und wählen Sie ein neues Berechtigungsprofil aus. :
 
-   ![screen_shot_2018-03-30_14-18-03.png](assets/screenshot-2018-03-30-14-18-03a.png)
+   ![Berechtigungsprofil](assets/screenshot-2018-03-30-14-18-03a.png)
 
    Berechtigungsprofile sind „Administrator“, „Supervisor“, „Manager“ und „Beobachter“.
 

@@ -7,9 +7,9 @@ description: Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 530c4451f4720a1710350f8e822e343794b63e87
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '1203'
+source-wordcount: '1204'
 ht-degree: 3%
 
 ---
@@ -27,7 +27,7 @@ Die erweiterte Analyse kann Ihnen dabei helfen, Folgendes zu identifizieren:
 * Wie oft Benutzer während eines Projekts bestimmte Aktionen ausführen
 * Der Fortschritt von Projekten sowie die einzelnen Aufgaben innerhalb eines Projekts
 
-![](assets/nwe-full-screen-analytics-350x222.png)
+![Analytics](assets/nwe-full-screen-analytics-350x222.png)
 
 Anwendungsfälle oder weitere Informationen zum Verwalten aktueller Arbeiten und zum Planen für die zukünftige Arbeit mit Enhanced Analytics finden Sie unter [Enhanced Analytics-Lernpfade](https://one.workfront.com/s/enhanced-analytics-program).
 

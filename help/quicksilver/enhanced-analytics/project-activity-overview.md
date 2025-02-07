@@ -7,9 +7,9 @@ description: Die Visualisierung der Projektaktivität zeigt eine aggregierte Ans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '778'
 ht-degree: 8%
 
 ---
@@ -68,15 +68,15 @@ Projektaktivitäten werden in verschiedenen Farben angezeigt, um bestimmte Ereig
 
 * **Angemeldete Benutzer**: Violette Kästchen zeigen an, dass Personen, die dem Projekt zugewiesen wurden, an diesem Tag angemeldet waren. Je dunkler der Farbton, umso mehr Personen haben sich angemeldet.
 
-  ![](assets/project-activity-users-logged-in.png)
+  ![Angemeldete Benutzer](assets/project-activity-users-logged-in.png)
 
 * **Änderung des Aufgabenstatus**: Pinkfarbene Kästchen zeigen an, dass Personen den Status einer Aufgabe für das Projekt an diesem Tag geändert haben. Je dunkler der Farbton, umso mehr Aufgabenstatus haben sich geändert.
 
-  ![](assets/project-activity-task-status-changes.png)
+  ![Änderung des Aufgabenstatus](assets/project-activity-task-status-changes.png)
 
 * **Abgeschlossene Aufgaben**: Blaue Kästchen zeigen an, dass Benutzer eine Aufgabe für das Projekt abgeschlossen haben. Je dunkler der Farbton, umso mehr Aufgaben wurden abgeschlossen.
 
-  ![](assets/project-activity-tasks-completed.png)
+  ![Aufgaben abgeschlossen](assets/project-activity-tasks-completed.png)
 
 Wenn Sie den Mauszeiger über ein Feld bewegen, wird angezeigt, wie oft die Aktion an einem bestimmten Tag genau abgeschlossen wurde. Sie können ein Projekt auswählen, um eine Aufschlüsselung dieser Aktivitäten nach den einzelnen Beitragenden im Projekt anzuzeigen.
 
@@ -90,10 +90,10 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 ## Visualisierung der Projektaktivität anzeigen
 
-1. Klicken Sie auf das Hauptmenüsymbol ![](assets/main-menu-icon-16x12.png) dann auf **Analytics**.
+1. Klicken Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics**.
 1. (Optional) Um einen anderen Datumsbereich zu verwenden, wählen Sie im Datumsbereichsfilter Neues Start- und Enddatum aus.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Datumsbereich auswählen](assets/filters-select-date-range-350x344.png)
 
    Informationen zur Verwendung des Filters für den Datumsbereich finden Sie unter [Anwenden von Filtern in der erweiterten Analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -111,7 +111,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und ein Zeitrahmenfilter wird erstellt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Zeitrahmen-Filter](assets/timeframe-filter-350x220.png)
 
 1. (Optional) Um zu ändern, wie die Projekte sortiert werden, klicken Sie auf das Menü **Sortieren nach** und wählen Sie dann eine neue Sortieroption aus:
 
@@ -126,7 +126,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Alle anderen Visualisierungen auf der Seite werden entsprechend Ihrer Seitenauswahl aktualisiert.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginierung](assets/pagination-350x118.png)
 
 1. Klicken Sie in der Visualisierung auf ein Projekt, um weitere Details für das Projekt anzuzeigen.
 
@@ -134,9 +134,9 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 1. Bewegen Sie den Mauszeiger über ein Feld, um das Datum anzuzeigen, an dem die Benutzer eine Aktion abgeschlossen haben, sowie die Häufigkeit, mit der die Aktion an diesem Tag abgeschlossen wurde.
 
-   ![](assets/project-activity-activity-pop-up-350x137.png)
+   ![Aktivitäts-Popup](assets/project-activity-activity-pop-up-350x137.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf **Exportsymbol** ![](assets/export.png) in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie **Export**![ Export](assets/export.png)Symbol „Exportieren“ in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**

@@ -7,9 +7,9 @@ description: Auf der Seite mit den Korrekturabzugsdetails können Sie einen vorh
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e9530c2f-03ff-42f5-acbf-afe303e234e3
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1183'
+source-wordcount: '1189'
 ht-degree: 0%
 
 ---
@@ -33,10 +33,10 @@ Informationen zum Verwalten automatisierter Workflow-Korrekturabzüge finden Sie
 ## Öffnen der Seite „Korrekturabzugsdetails“ über die Korrekturabzugsanzeige
 
 1. Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie auf **[!UICONTROL Menü]**-Symbol in der linken oberen Ecke.\
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menü „Korrekturabzugsansicht“](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Bewegen Sie den Mauszeiger über die linke Symbolleiste und klicken Sie dann auf **[!UICONTROL Details des Korrekturabzugs]**.\
-   ![](assets/proof-details-in-proofing-viewer-350x215.png)
+   ![Proofing-Viewer-Details](assets/proof-details-in-proofing-viewer-350x215.png)
 
    >[!NOTE]
    >

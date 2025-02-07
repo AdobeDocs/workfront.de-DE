@@ -7,9 +7,9 @@ description: In [!DNL Workfront] Proof“ können Sie Ordner verwenden, um Korre
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 1a3dbf0e-ec5b-4bd0-9eee-c1d613a67f53
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '506'
+source-wordcount: '507'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ Als Prüferin bzw. Prüfer können Sie mehrere Korrekturabzüge in einem Ordner 
 
      Wenn Sie beim Vergleichen von Korrekturabzügen zu einem neuen Korrekturabzug wechseln möchten, klicken Sie entweder auf der linken oder rechten Seite der Korrekturabzugsansicht auf die Schaltfläche [!UICONTROL Vergleichen] oberhalb des Korrekturabzugs.
 
-     ![](assets/mceclip0-350x126.png)
+     ![Vergleichen](assets/mceclip0-350x126.png)

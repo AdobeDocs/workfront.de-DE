@@ -7,9 +7,9 @@ description: Als  [!DNL Workfront Proof]  können Sie Ihre öffentlichen und pri
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bb4cfe03-d2c8-47f5-8c5c-de5218935ab5
-source-git-commit: 1a85f2a214036b62d13cb01f0b7a77392648a5fd
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '587'
 ht-degree: 0%
 
 ---
@@ -41,10 +41,10 @@ Auf der Seite [!UICONTROL Gruppen] haben Sie folgende Möglichkeiten:
       * Private Gruppen sind nur für ihre Ersteller sichtbar.
       * Löscht die ausgewählten Gruppen.
 
-        ![](assets/trash-button.png)
+        ![Löschsymbol](assets/trash-button.png)
    * Sie können Aktionen für Gruppen auch für jede Gruppe separat von ihrem eigenen **[!UICONTROL Mehr]**-Menü (drei Punkte) durchführen:
 
-     ![](assets/more-button-small.png)
+     ![Menü „Mehr“](assets/more-button-small.png)
 
       * Gruppendetails anzeigen.
 
@@ -102,7 +102,7 @@ Auf der angezeigten Seite können Sie alle Personen anzeigen, die sich derzeit i
 
 1. Aktivieren Sie die Kontrollkästchen neben den Namen der Kontakte, die Sie einer Gruppe hinzufügen möchten.
 1. Klicken Sie auf **[!UICONTROL Schaltfläche „Zu Gruppe hinzufügen]**.
-   ![](assets/screenshot-2018-04-06-15-27-17.png)
+   ![Zu Gruppe hinzufügen](assets/screenshot-2018-04-06-15-27-17.png)
 Das **[!UICONTROL „Zu Gruppe hinzufügen]** wird angezeigt.
 
 1. Im Abschnitt **[!UICONTROL Personen]**:

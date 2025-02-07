@@ -7,9 +7,9 @@ description: Die Projekt-Treemap-Visualisierung ist eine Ansicht von Stunden - o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6216465e-c3bb-4f2f-b71c-766ad0c2ed40
-source-git-commit: 364b668f23f5437e5cca0c4cc4793b17d444fb56
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '854'
 ht-degree: 2%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 2%
 
 Die Projekt-Treemap-Visualisierung ist eine Ansicht von Stunden - oder Tagen -, die in einem bestimmten Zeitfenster im Vergleich zu anderen Arbeitsaufträgen in der Größe gearbeitet wurden. Auf diese Weise lässt sich erkennen, wie viel Zeit die Mitarbeiter für ein Projekt aufgewendet haben.
 
-![](assets/project-treemap-350x126.png){width="700"}
+![Projekt-Treemap](assets/project-treemap-350x126.png){width="700"}
 
 ## Zugriffsanforderungen
 
@@ -71,22 +71,22 @@ Die Projekt-Treemap-Visualisierung besteht aus:
 
 * **Kleinere, hellblaue Kästchen**: Projekte, die weniger Stunden - oder Tage - haben, werden als kleinere Kästchen mit einer hellblauen Farbe angezeigt.
 
-  ![](assets/project-treemap-smaller-box.png)
+  ![Kleinere Box](assets/project-treemap-smaller-box.png)
 
 * **Größere, dunkelblaue Kästchen**: Projekte, die mehr Stunden - oder Tage - haben, werden als größere Kästchen mit einer dunkelblauen Farbe angezeigt.
 
-  ![](assets/project-treemap-larger-box-350x205.png)
+  ![Größerer Kasten](assets/project-treemap-larger-box-350x205.png)
 
 * **Medium-große, blaue Kästchen**: Projekte, die zwischen den beiden Kategorien liegen, werden als mittelgroße Kästchen mit einem Blauton zwischen den dunkelblauen und hellblauen Farben angezeigt. Für mittelgroße Boxen gibt es 3 mögliche Blautöne.
 
 Die Legende auf der rechten Seite zeigt eine Aufschlüsselung der abgeschlossenen Stunden für jeden Blauton. Diese Legende ist dynamisch und wird entsprechend den Daten aktualisiert.
 
-![](assets/project-treemap-hours-completed.png)
+![Treemap-Stunden abgeschlossen](assets/project-treemap-hours-completed.png)
 
 >[!NOTE]
 >
 >Wenn Sie sich die Projekt-Treemap-Visualisierung nach Dauer und nicht nach geplanten Stunden ansehen, zeigt diese Legende eine Aufschlüsselung der Arbeitstage für jeden Blauton.\
->![](assets/project-treemap-days-worked.png)>
+>![Treemap-Arbeitstage](assets/project-treemap-days-worked.png)>
 
 Anhand dieser Informationen können Sie Folgendes feststellen:
 
@@ -99,10 +99,10 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 ## Anzeigen der Projekt-Treemap-Visualisierung
 
-1. Klicken Sie auf das Hauptmenüsymbol ![](assets/main-menu-icon-16x12.png) dann auf **Analytics**.
+1. Klicken Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics**.
 1. (Optional) Um einen anderen Datumsbereich zu verwenden, wählen Sie im Datumsbereichsfilter Neues Start- und Enddatum aus.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Datumsbereich auswählen](assets/filters-select-date-range-350x344.png)
 
    Informationen zur Verwendung des Filters für den Datumsbereich finden Sie unter [Anwenden von Filtern in der erweiterten Analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -125,7 +125,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Alle anderen Visualisierungen auf der Seite werden entsprechend Ihrer Seitenauswahl aktualisiert.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginierung](assets/pagination-350x118.png)
 
 1. (Optional) Ändern Sie die Ansicht von **Geplante Stunden** in **Dauer**.
 
@@ -133,7 +133,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 1. Bewegen Sie den Mauszeiger über ein Projekt, um die Projektbedingung sowie die Anzahl der geplanten Gesamtstunden, die Anzahl der insgesamt abgeschlossenen Stunden und die durchschnittliche Anzahl der pro Tag für das Projekt aufgewendeten Stunden anzuzeigen.
 
-   ![](assets/project-treemap-project-details-350x404.png)
+   ![Treemap-Projektdetails](assets/project-treemap-project-details-350x404.png)
 
    >[!NOTE]
    >
@@ -142,11 +142,11 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
    >* **Geplanter Zeitrahmen**: Die Anzahl der Tage, die für den Abschluss des Projekts geplant sind.
    >* **Arbeitstage**: Die geplante Dauer für jede Aufgabe, die innerhalb des oben ausgewählten Datumsbereichs abgeschlossen wurde, dividiert durch die Anzahl der Stunden pro Tag.
    >   
-   >![](assets/duration-treemap-350x159.png)
+   >![Treemap-Dauer](assets/duration-treemap-350x159.png)
    >
    >Weitere Informationen zur Dauer finden Sie im Abschnitt „Ansicht zur Dauer“ in [Erweiterte Analyse - Übersicht](../enhanced-analytics/enhanced-analytics-overview.md).
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf **Exportsymbol** ![](assets/export.png) in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie **Export**![ Export](assets/export.png)Symbol „Exportieren“ in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**

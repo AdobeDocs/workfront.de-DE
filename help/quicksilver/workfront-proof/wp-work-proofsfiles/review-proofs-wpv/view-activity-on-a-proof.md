@@ -7,9 +7,9 @@ description: Sie können die zuletzt durchgeführten Aktivitäten für einen bes
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: e99f4e8f-eb3f-4575-83fb-97acb8932e25
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '192'
+source-wordcount: '195'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Sie können die zuletzt durchgeführten Aktivitäten für einen bestimmten Korre
 
 1. Wenn die linke Symbolleiste nicht angezeigt wird, klicken **[!UICONTROL auf]** Menü“ in der linken oberen Ecke der Korrekturabzugsansicht.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x188.png)
+   ![Menü „Korrekturabzugsansicht“](assets/menu-icon-in-proofing-viewer-350x188.png)
 
 1. Klicken Sie in der Symbolleiste links in der Proofing Viewer auf die Schaltfläche **[!UICONTROL Details des Korrekturabzugs]**.
 

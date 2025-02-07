@@ -7,9 +7,9 @@ description: Im Workflow-Bedienfeld wird der Workflow Ihres Korrekturabzugs so a
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 4e6736bb-2859-4309-841b-67ed83dab6a0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '271'
+source-wordcount: '273'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ So greifen Sie auf [!UICONTROL  Bedienfeld ]Workflow“ zu:
 
    Das **[!UICONTROL „Workflow]** wird angezeigt.
 
-   ![](assets/workflow-panel-350x115.png)
+   ![Workflow-Bedienfeld](assets/workflow-panel-350x115.png)
 
    In jedem Abschnitt des Bedienfelds Workflow werden der Fortschritt und Status des Testversands, der Phasen und der Prüfer angezeigt.
 

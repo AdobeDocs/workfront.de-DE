@@ -7,9 +7,9 @@ description: Sie können benutzerdefinierte Ansichten Ihrer Dateien und Testsend
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7c6f3fdd-f767-4e8d-937a-1c7645aba55b
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2472'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Erstellen einer benutzerdefinierten Ansicht:
 
    * So erstellen Sie eine neue benutzerdefinierte Ansicht basierend auf einer vorhandenen Standardansicht: Wählen Sie aus dem Dropdown-Menü die vorhandene Standardansicht aus, die Sie als Grundlage für Ihre neue benutzerdefinierte Ansicht verwenden möchten. Klicken Sie auf das **[!UICONTROL Ansichtseinstellungen]** und dann auf **[!UICONTROL Kopieren]**, um eine neue benutzerdefinierte Ansicht anzuzeigen.
 
-   * ![](assets/proof-custom-view-icon.png)
+   * ![Symbol für benutzerdefinierte Ansicht](assets/proof-custom-view-icon.png)
 
    * So erstellen Sie eine neue benutzerdefinierte Ansicht von Grund auf: Klicken Sie auf das Symbol **[!UICONTROL Neue Ansicht]** .
-   * ![](assets/proof-newview.png)
+   * ![Neue Ansicht](assets/proof-newview.png)
 
 1. Geben **[!UICONTROL im Abschnitt]** die folgenden Informationen an:
 
@@ -59,7 +59,7 @@ Erstellen einer benutzerdefinierten Ansicht:
 1. Legen **[!UICONTROL im Abschnitt „Spalten]** fest, welche Spalten Sie in die benutzerdefinierte Ansicht aufnehmen möchten.
 
    1. Klicken Sie auf das Nach-rechts-Symbol.
-   1. ![](assets/proof-view-rightarrow.png)
+   1. ![Nach-rechts-Taste](assets/proof-view-rightarrow.png)
 
    1. Doppelklicken Sie auf den Namen der ausgewählten Spalte.
    1. Sie müssen mindestens eine Spalte auswählen. Eine Spalte kann nur einmal hinzugefügt werden.
@@ -274,10 +274,10 @@ Sie können eine benutzerdefinierte Ansicht einfach bearbeiten. So bearbeiten Si
 
 1. Klicken Sie auf die Schaltfläche [!UICONTROL Ansichten] (1)
 1. Wählen Sie die Ansicht, die Sie bearbeiten möchten, aus dem Dropdown-Menü aus.\
-   ![](assets/proof-view-edit.png)
+   ![Ansicht bearbeiten](assets/proof-view-edit.png)
 
 1. Klicken Sie auf **[!UICONTROL Schaltfläche „Ansichtsoptionen]** und dann auf **[!UICONTROL Ansicht bearbeiten]**.\
-   ![](assets/proof-view-options.png)\
+   ![Optionen anzeigen](assets/proof-view-options.png)\
    Die Seite Benutzerdefinierte Ansicht bearbeiten wird angezeigt.
 
 1. Klicken Sie auf das Menü [!UICONTROL Aktionen]. 3)\
@@ -312,7 +312,7 @@ Kopieren einer benutzerdefinierten Ansicht:
    ![copy_custom_view.png](assets/copying-custom-view-350x258.png)
 
 1. Auf der Seite Benutzerdefinierte Ansicht kopieren werden alle ursprünglichen Einstellungen ausgefüllt. Ändern Sie die benutzerdefinierte Ansicht gemäß Ihrer Wahl und klicken Sie auf die Schaltfläche **[!UICONTROL Ansicht kopieren]**. Sie werden sofort zu Ihrer neuen Ansicht weitergeleitet.\
-   ![](assets/copy-custom-view-page-350x542.png)
+   ![Benutzerdefinierte Ansicht kopieren](assets/copy-custom-view-page-350x542.png)
 
 ## Freigeben benutzerdefinierter Ansichten
 

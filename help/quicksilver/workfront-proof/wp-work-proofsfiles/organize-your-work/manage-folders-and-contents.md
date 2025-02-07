@@ -7,9 +7,9 @@ description: Einer der Vorteile bei der Organisation Ihrer Projekte und Testsend
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cec385de-f1b9-4e28-8493-987536c04905
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '1232'
+source-wordcount: '1237'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Sie können Ihre Dateien einfach über die Seite [!UICONTROL Ordnerdetails] verw
    * Siehe den Namen des Ordners &quot;**&quot;**.
 
 1. (Optional) Um die mit einem Element im Ordner verknüpften Informationen zu ändern, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol rechts neben dem Element und verwenden Sie dann eine der angezeigten Optionen.\
-   ![](assets/more-button-small.png)\
+   ![Menü „Mehr“](assets/more-button-small.png)\
    Die angezeigten Optionen hängen davon ab, ob es sich bei dem Element um einen Korrekturabzug oder eine Datei handelt.
 
    * **[!UICONTROL Korrekturabzugsdetails anzeigen]** oder **[!UICONTROL Dateidetails anzeigen]**: Öffnet die Seite mit den Korrekturabzugsdetails oder Dateidetails. Weitere Informationen finden Sie unter [Verwalten von Dateien in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-files.md) oder [Verwalten von Korrekturabzugsdetails in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-proof-details.md).
@@ -111,9 +111,9 @@ Sie können Ihre Dateien einfach über die Seite [!UICONTROL Ordnerdetails] verw
 1. (Optional) Klicken Sie auf **[!UICONTROL Aktivität]**, um alle im Ordner ausgeführten Aktionen in chronologischer Reihenfolge anzuzeigen.
 1. (Optional) Klicken Sie auf **[!UICONTROL Nachrichten]**, um die Nachrichten anzuzeigen, die an Benutzer im Ordner gesendet wurden.\
    Wenn Sie mit dem Mauszeiger auf eine Nachricht zeigen, können Sie auf das **i**-Symbol rechts klicken, um die vollständige Nachricht anzuzeigen.\
-   ![](assets/messages-1-350x74.png)\
+   ![Nachrichten](assets/messages-1-350x74.png)\
    Ein Popup mit der vollständigen E-Mail wird angezeigt:\
-   ![](assets/messages-2-350x252.png)
+   ![Nachrichten-Popup](assets/messages-2-350x252.png)
 
 ## Verwalten von Unterordnern
 

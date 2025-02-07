@@ -7,9 +7,9 @@ description: Benutzende, die Bearbeitungsrechte für einen Korrekturabzug haben,
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 0b2a953f-bd70-4606-b327-57412b0d2095
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '289'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ Informationen zum Papierkorb finden Sie unter [Wiederherstellen und Leeren des P
 ## Löschen eines Korrekturabzugs
 
 1. Klicken Sie in einer beliebigen Listenansicht auf das **[!UICONTROL Mehr]**-Menü rechts neben dem Korrekturabzug.\
-   ![](assets/more-button-small.png)
+   ![Menü „Mehr“](assets/more-button-small.png)
 
 1. Klicken **[!UICONTROL im angezeigten Dropdown]** Menü auf „Korrekturabzugsdetails anzeigen“.
 1. Klicken Sie oben **[!UICONTROL auf]** Schaltfläche „Löschen“.

@@ -7,9 +7,9 @@ description: In  [!DNL Workfront Proof] gibt es Korrekturabzüge in verschiedene
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: cd120e53-d6c2-4929-904f-a9f72903f074
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '435'
 ht-degree: 0%
 
 ---
@@ -71,14 +71,14 @@ Informationen zum Anzeigen einer Liste aller Korrekturabzüge in einem bestimmte
 
 1. Klicken Sie **[!UICONTROL Dashboard]** auf den Pfeil **[!UICONTROL Erweitern]** neben dem Korrekturabzug, dessen Status Sie anzeigen oder ändern möchten.
 
-   ![](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
+   ![Erweitern](assets/screen-shot-2018-05-02-at-11.31.29-am-350x85.png)
 
    Der **[!UICONTROL Workflow-Prozess]** wird angezeigt.
 
-   ![](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
+   ![Workflow-](assets/screen-shot-2018-05-02-at-11.33.20-am-350x226.png)
 
 1. Zeigen Sie den **[!UICONTROL Status]** im **[!UICONTROL Workflow-Prozess]** an.
 
 1. (Optional) Um den Status zu ändern, bewegen Sie den Mauszeiger über **[!UICONTROL aktuellen Status]** klicken Sie auf das Dropdown-Menü und wählen Sie dann einen neuen Status aus.
 
-   ![](assets/screen-shot-2018-05-02-at-11.35.30-am.png)
+   ![Neuer Status](assets/screen-shot-2018-05-02-at-11.35.30-am.png)

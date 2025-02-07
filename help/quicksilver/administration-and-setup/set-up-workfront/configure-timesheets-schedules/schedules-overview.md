@@ -10,9 +10,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 02350860-f997-4a76-8aec-c6c813d58e2d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '761'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Die Reihenfolge, in der die Zeitpläne vom System verwendet werden, wenn mehr al
 * Wenn der der Aufgabe zugewiesene Benutzer keinen Zeitplan hat oder die Aufgabe nur einem Aufgabengebiet bzw. einem Team zugewiesen ist oder die Zuweisung für ihn aufgehoben wurde, verwendet [!DNL Workfront] den Projektplan für die Zeitleistenberechnungen.
 * Wenn der der Aufgabe zugewiesene Benutzer keinen Zeitplan hat oder die Aufgabe nur einem Aufgabengebiet bzw. einem Team zugewiesen ist oder die Zuweisung für das Projekt aufgehoben wird und das Projekt keinen Zeitplan hat, verwendet [!DNL Workfront] den Zeitplan im System, der als Standardzeitplan für Zeitleistenberechnungen festgelegt wurde.
 
-  ![](assets/default-schedule.png)
+  ![Standardzeitplan](assets/default-schedule.png)
 
 ## Collaboration in [!DNL Workfront] über Zeitzonen hinweg
 

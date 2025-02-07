@@ -7,9 +7,9 @@ description: Reviewer mit Bearbeitungsrechten für einen Korrekturabzug können 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 7d2db918-ebf0-4c52-9039-54c3eb5515f0
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '681'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Die im ursprünglichen Korrekturabzug enthaltenen Reviewer werden automatisch im
 1. Wechseln Sie zu einer der **[!UICONTROL Ansichten]**-Seiten, wie unter [Elemente auf der Ansichtsseite in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) beschrieben.
 
 1. Öffnen Sie das **[!UICONTROL Mehr]**-Menü für den Korrekturabzug.\
-   ![](assets/more-button-small.png)
+   ![Menü „Mehr“](assets/more-button-small.png)
 
 1. Wählen **[!UICONTROL Kopieren]** aus dem Dropdown-Menü aus.
 1. Geben **[!UICONTROL auf der]** „Korrekturabzug kopieren“ an, ob die Kopie als neue Version des vorhandenen Korrekturabzugs oder als neuer Korrekturabzug erstellt werden soll.\
@@ -77,7 +77,7 @@ So kopieren Sie vorhandene Korrekturabzugseinstellungen für einen neuen Korrekt
 1. Wechseln Sie zu einer der **[!UICONTROL Ansichten]**-Seiten, wie unter [Elemente auf der Ansichtsseite in verwalten [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/manage-items-on-views-page.md) beschrieben.
 
 1. Öffnen Sie das **[!UICONTROL Mehr]**-Menü für den Korrekturabzug.\
-   ![](assets/more-button-small.png)
+   ![Menü „Mehr“](assets/more-button-small.png)
 
 1. Wählen **[!UICONTROL im Dropdown]** Menü Korrekturabzugsdetails anzeigen aus.
 1. Klicken Sie auf **[!UICONTROL Mehr]**.\

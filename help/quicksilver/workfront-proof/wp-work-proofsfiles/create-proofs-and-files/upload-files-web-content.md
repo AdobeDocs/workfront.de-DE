@@ -7,9 +7,9 @@ description: Sie können Dateien in hochladen [!DNL Workfront Proof]  ohne einen
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 88693211-b5f5-4f99-97a9-5c29039f4f01
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '535'
+source-wordcount: '538'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Außerdem können Sie [!DNL Workfront Proof] als Cloud-Speicher für Dateien ver
 Hochladen einer Datei in [!DNL Workfront Proof]:
 
 1. Klicken Sie in der linken oberen Ecke von [!DNL Workfront Proof] auf den Abwärtspfeil auf der Schaltfläche **[!UICONTROL Neuer Korrekturabzug]** und klicken Sie dann im angezeigten ]**auf**[!UICONTROL  Datei hochladen.\
-   ![](assets/new-proof-button-menu.png)
+   ![Schaltfläche „Neuer Korrekturabzug“](assets/new-proof-button-menu.png)
 
 1. Die Seite **[!DNL New File]** wird angezeigt.
 1. Führen Sie einen der folgenden Schritte aus, um den Inhalt hochzuladen oder hinzuzufügen, den Sie zum Testversand benötigen:

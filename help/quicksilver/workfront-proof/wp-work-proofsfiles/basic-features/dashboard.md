@@ -8,9 +8,9 @@ description: Das Dashboard ist die erste Seite, die Sie sehen, wenn Sie sich bei
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bd0ecc43-4bbf-4caa-924f-6c8935123bf9
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '973'
+source-wordcount: '996'
 ht-degree: 3%
 
 ---
@@ -41,7 +41,7 @@ Das Dashboard enthält Folgendes:
 >
 >Die Menüs und Links, die Sie in Ihrem Dashboard anzeigen und verwenden können, hängen von Ihrem Benutzerprofil und Ihren Berechtigungen ab.
 
-![](assets/dashboard-350x495.png)
+![Dashboard](assets/dashboard-350x495.png)
 
 Sie können Ihr Konto mit einem Branding versehen, um das Logo, die Farben, benutzerdefinierte Links und mehr Ihres Unternehmens anzuzeigen. Weitere Informationen finden Sie unter [Marke der  [!DNL Workfront Proof] Site](../../../workfront-proof/wp-acct-admin/branding/brand-wp-site.md).
 
@@ -49,7 +49,7 @@ Wenn Sie Ihr Konto nicht mit einer Marke versehen, werden das [!DNL Workfront Pr
 
 ## Kopfzeilenmenü
 
-![](assets/header-menu-350x150.png)
+![Kopfzeilenmenü](assets/header-menu-350x150.png)
 
 ### Der Benutzername
 
@@ -97,7 +97,7 @@ So öffnen Sie das Menü Neu
    * Neuer Benutzer (12)
    * Neue Gruppe (13)
 
-![](assets/new-proof-350x256.png)
+![Neuer Korrekturabzug](assets/new-proof-350x256.png)
 
 ## Das Dashboard-Menü
 
@@ -116,7 +116,7 @@ Das Menü [!UICONTROL Tags bearbeiten] (1) bietet folgende Möglichkeiten:
 * Neue Tags erstellen
 * Tags verwalten (2)
 
-![](assets/edit-tags-350x204.png)
+![Tags bearbeiten](assets/edit-tags-350x204.png)
 
 ## Verschieben nach
 
@@ -126,7 +126,7 @@ Mit dieser Funktion können Sie Korrekturabzüge und Dateien in einen Ihrer Ordn
 1. Klicken Sie **[!UICONTROL Verschieben nach]** (3) und wählen Sie den entsprechenden Ordner aus (4).
 1. Klicken Sie **[!UICONTROL Speichern]** (5).
 
-   ![](assets/move-to-350x297.png)
+   ![Verschieben nach](assets/move-to-350x297.png)
 
 ### Weitere Aktionen
 
@@ -138,7 +138,7 @@ Im Menü [!UICONTROL Mehr Aktionen] (6) können Sie die folgenden Aktionen ausf�
 * Archivierung aufheben (nur Korrekturabzüge)
 * Besitzer ändern
 
-![](assets/more-actions-350x303.png)
+![Weitere Aktionen](assets/more-actions-350x303.png)
 
 ### Löschen
 
@@ -146,11 +146,11 @@ So löschen Sie Elemente:
 
 1. Aktivieren Sie das Kontrollkästchen links neben den Elementen und klicken Sie auf **[!UICONTROL Löschen]** (7).
 
-![](assets/delete-350x109.png)
+![Löschsymbol](assets/delete-350x109.png)
 
 1. Überprüfen Sie im angezeigten Bestätigungsbildschirm die Details und bestätigen Sie den Vorgang durch Klicken auf **[!UICONTROL Ja]** (8).
 
-![](assets/deleteing-items-350x237.png)
+![Elemente werden gelöscht](assets/deleteing-items-350x237.png)
 
 ### Die Seitenleiste
 
@@ -168,7 +168,7 @@ Die Seitenleiste enthält Links zu den folgenden Seiten:
 * Ordner anderer Organisationen (10) (in denen Sie Elemente finden, die andere Organisationen für Sie freigegeben haben)
 * Tags (11)
 
-![](assets/sidebar-350x426.png)
+![Seitenleiste](assets/sidebar-350x426.png)
 
 Die Seitenleiste wird auf der Hilfeseite der Seitenleiste detaillierter beschrieben.
 
@@ -181,7 +181,7 @@ Der [!UICONTROL Willkommen]-Abschnitt enthält die folgenden nützlichen Links:
 * Kontaktdaten des Supports (3)
 * Link „Begrüßungsabschnitt nicht mehr anzeigen“ (4)
 
-![](assets/welcome-350x73.png)
+![Willkommen](assets/welcome-350x73.png)
 
 ### Übersicht
 
@@ -197,7 +197,7 @@ Im Abschnitt Übersicht werden auch vorgefilterte Informationen angezeigt. Diese
 * Zu verwaltende Korrekturabzüge - Gesamtzahl der aktiven Korrekturabzüge, die Ihnen gehören und an Sie delegiert wurden
 * Korrekturabzüge, die auf eine Entscheidung warten - Gesamtzahl der aktiven Korrekturabzüge, für die Ihre Entscheidungen erforderlich sind
 
-  ![](assets/dashboard-overview-350x169.png)
+  ![Dashboard-Übersicht](assets/dashboard-overview-350x169.png)
 
 Hier können Sie sofort sehen, wie viele Korrekturabzüge sofortiges Handeln von Ihnen oder Ihren Validierungsverantwortlichen erfordern:
 
@@ -237,7 +237,7 @@ So greifen Sie auf die Seite mit den Korrekturabzugsdetails zu:
 1. Klicken Sie auf das **[!UICONTROL Aktionen]** Menü (1) rechts neben dem Namen des Korrekturabzugs.
 1. Wählen **[!UICONTROL Testversanddetails anzeigen]** (2) aus dem Menü aus.
 
-![](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
+![Letzte Elemente](assets/accessing-the-proof-details-page-recently-accessed-items-350x126.png)
 
 ### Letzte Aktivität
 
@@ -258,4 +258,4 @@ So gehen Sie zur Seite mit den Korrekturabzugsdetails für diesen Korrekturabzug
 1. Klicken Sie auf das **[!UICONTROL Aktionen]**-Menü (1).
 1. Wählen **[!UICONTROL Testversanddetails anzeigen]** (2) aus dem Dropdown-Menü aus.
 
-   ![](assets/accessing-the-proof-details-page-recent-activity-350x51.png)
+   ![Letzte Aktivität](assets/accessing-the-proof-details-page-recent-activity-350x51.png)

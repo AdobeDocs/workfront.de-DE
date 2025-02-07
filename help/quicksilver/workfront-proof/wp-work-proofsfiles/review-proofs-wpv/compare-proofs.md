@@ -7,9 +7,9 @@ description: Sie können zwei Korrekturabzüge nebeneinander anzeigen. Dabei kan
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: d4ec0c53-1451-4475-aa38-2319c6432936
-source-git-commit: 41ab1312d2ccb8b8271bc851a35e31e9ff18c16b
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '945'
+source-wordcount: '949'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie können zwei Korrekturabzüge nebeneinander anzeigen. Dabei kann es sich um 
 1. Öffnen Sie den Korrekturabzug mit mehreren Versionen, die Sie vergleichen möchten.
 1. Klicken Sie in der linken oberen Ecke der angezeigten Proofing-Viewer auf den Namen des Korrekturabzugs. Klicken Sie dann in der angezeigten Liste der Versionen auf das Symbol **Vergleichen** neben der Version, die Sie öffnen und vergleichen möchten.
 
-   ![](assets/compare-proofs-choose-version-350x115.jpg)
+   ![Korrekturabzüge vergleichen, Version wählen](assets/compare-proofs-choose-version-350x115.jpg)
 
    Die Korrekturabzüge werden nebeneinander angezeigt, die neuere Version auf der linken Seite.
 

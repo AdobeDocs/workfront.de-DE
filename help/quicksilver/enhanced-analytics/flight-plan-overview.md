@@ -7,9 +7,9 @@ description: Die Flugplan-Visualisierung zeigt, wie viele Projekte (innerhalb de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 1b1f3c22b8112cfde5b10bef39076eed11630d0f
+source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
 workflow-type: tm+mt
-source-wordcount: '863'
+source-wordcount: '885'
 ht-degree: 4%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 4%
 
 Die Flugplan-Visualisierung zeigt, wie viele Projekte (innerhalb der angewendeten Filterkriterien) in Bearbeitung waren, welche Zustandsänderungen während der Laufzeit dieser Projekte eingetreten sind und wie gut diese Projekte die geplanten Fertigstellungsfristen eingehalten haben.
 
-![](assets/flight-plan-350x132.png)
+![Flugplan](assets/flight-plan-350x132.png)
 
 ## Zugriffsanforderungen
 
@@ -67,11 +67,11 @@ Die Flugplan-Visualisierung zeigt die folgenden Projektdetails:
 
 * **Geplante Dauer**: Die horizontale blaue Linie stellt die geplante Länge des Projekts dar, wobei die Dreiecke an jedem Ende der Linie das Start- und Enddatum angeben.
 
-  ![](assets/planned-duration-line-350x37.png)
+  ![Geplante Dauer](assets/planned-duration-line-350x37.png)
 
 * **Tatsächliche Dauer**: Die dicke, farbige Linie unterhalb der geplanten Dauer stellt die tatsächliche Länge des Projekts dar. Die Farbe der Linie ändert sich je nach dem Zustand des Projekts zu einem bestimmten Zeitpunkt in der Lebensdauer des Projekts.
 
-  ![](assets/actual-duration-line.png)
+  ![Tatsächliche Dauer](assets/actual-duration-line.png)
 
 * **Tatsächlicher Zustand**: Die dicke, farbige Linie zeigt auch den Zustand eines Projekts zu verschiedenen Zeitpunkten an. Die Farbe der Linie ändert sich je nach Zustand des Projekts:
 
@@ -79,7 +79,7 @@ Die Flugplan-Visualisierung zeigt die folgenden Projektdetails:
    * **orange**: Gefährdet
    * **Rot**: In Schwierigkeiten
 
-  ![](assets/actual-condition-color.png)
+  ![Ist-Bedingung](assets/actual-condition-color.png)
 
 Wenn Sie den Mauszeiger über eine Projektzeile in der Flugplanvisualisierung bewegen, können Sie Informationen zum geplanten Zeitrahmen des Projekts, zur aktuellen Projektbedingung und ggf. zur benutzerdefinierten Bedingung anzeigen. Um einen detaillierteren Überblick darüber zu erhalten, was sich auf die Dauer oder Bedingung ausgewirkt haben könnte, können Sie sich die anderen Visualisierungen im Bereich Erweiterte Analyse ansehen.
 
@@ -95,10 +95,10 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
 ## Flugplan-Visualisierung anzeigen
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics** aus.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon-16x12.png) und wählen Sie dann **Analytics** aus.
 1. (Optional) Um einen anderen Datumsbereich zu verwenden, wählen Sie im Datumsbereichsfilter Neues Start- und Enddatum aus.
 
-   ![](assets/filters-select-date-range-350x344.png)
+   ![Datumsbereich auswählen](assets/filters-select-date-range-350x344.png)
 
    Informationen zur Verwendung des Filters für den Datumsbereich finden Sie unter [Anwenden von Filtern in der erweiterten Analyse](../enhanced-analytics/use-enhanced-analytics-filters.md).
 
@@ -112,7 +112,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Alle anderen Visualisierungen werden auf denselben Datumsbereich aktualisiert und ein Zeitrahmenfilter wird erstellt.
 
-   ![](assets/timeframe-filter-350x220.png)
+   ![Zeitrahmen-Filter](assets/timeframe-filter-350x220.png)
 
 1. (Optional) Um zu ändern, wie die Projekte sortiert werden, klicken Sie auf **Menü** Sortieren nach“ in der oberen rechten Ecke der Flugplanvisualisierung und wählen Sie dann eine neue Sortieroption aus:
 
@@ -127,7 +127,7 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
 
    Alle anderen Visualisierungen auf der Seite werden entsprechend Ihrer Seitenauswahl aktualisiert.
 
-   ![](assets/pagination-350x118.png)
+   ![Paginierung](assets/pagination-350x118.png)
 
 1. Bewegen Sie den Mauszeiger über das Projektbalkendiagramm, um die blaue Datumslinie sowie die folgenden Details anzuzeigen:
 
@@ -135,9 +135,9 @@ Informationen zum Abrufen der besten Daten für diese Visualisierung finden Sie 
    * Aktuelle Bedingung
    * Benutzerdefinierte Bedingung (falls zutreffend)
 
-   ![](assets/project-bar-graph-350x143.png)
+   ![Balkendiagramm des Projekts](assets/project-bar-graph-350x143.png)
 
-1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf **Exportieren**-Symbol ![](assets/export.png) in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
+1. (Optional) Um die Visualisierungsdaten zu exportieren, klicken Sie auf **Export**-Symbol ![Export-](assets/export.png)) in der oberen rechten Ecke der Visualisierung und wählen Sie dann das Exportformat aus:
 
    * **Diagramm (PNG)**
    * **Datentabelle (XSLX)**

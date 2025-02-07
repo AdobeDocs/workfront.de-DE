@@ -7,9 +7,9 @@ description: Wenn Sie Bearbeitungsrechte für einen Korrekturabzug haben, könne
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: bc145c50-9ab5-4ee8-9ed7-d307da6b0e8f
-source-git-commit: 178fcf680fbf97e3fa634182f161ba3c73439fe5
+source-git-commit: ddaee5b339982c826c14b67775d81f3a2bd7bc37
 workflow-type: tm+mt
-source-wordcount: '526'
+source-wordcount: '528'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Sie können Reviewer zu einem Korrekturabzug hinzufügen, wenn Sie einen neuen K
 ## Hinzufügen von Reviewern zu einem vorhandenen Korrekturabzug
 
 1. Klicken Sie im Dashboard oder in einer Listenansicht auf die **[!UICONTROL Mehr]**-Schaltfläche rechts neben dem Korrekturabzug.\
-   ![](assets/more-button-small.png)
+   ![Menü „Mehr“](assets/more-button-small.png)
 
 1. Klicken **[!UICONTROL im Dropdown]** Menü auf „Freigeben“.
 1. Fügen Sie auf der ]**&quot;**[!UICONTROL  Version freigeben“ Validierungsverantwortliche hinzu, indem Sie deren E-Mail-Adressen hinzufügen.\
