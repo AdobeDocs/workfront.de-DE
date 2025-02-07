@@ -1,0 +1,247 @@
+---
+content-type: api
+navigation-topic: general-api
+title: Versionierung von Ereignisabonnements
+description: Ereignisabonnement-API
+author: Becky
+feature: Workfront API
+role: Developer
+source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+workflow-type: tm+mt
+source-wordcount: '1100'
+ht-degree: 0%
+
+---
+
+
+# Versionierung von Ereignisabonnements
+
+Workfront verfügt über zwei Versionen von Ereignisabonnements. Dieser Artikel beschreibt die Unterschiede zwischen ihnen.
+
+Dies ist keine Änderung an der Workfront-API, sondern eine Änderung an der Ereignisabonnementfunktion.
+
+Die Möglichkeit, Ereignisabonnements zu aktualisieren oder herabzustufen, stellt sicher, dass vorhandene Abonnements nicht beschädigt werden, wenn Änderungen an der Ereignisstruktur vorgenommen werden, sodass Sie ohne Lücke in Ihrem Ereignisabonnement testen und auf die neue Version aktualisieren können.
+
+>[!IMPORTANT]
+>
+>Die folgenden Versionen wirken sich auf die Versionierung von Ereignisabonnements aus:
+>
+>* **25.2 Version** (10. April 2025): Alle neuen Abonnements, die nach der Version 25.2 erstellt wurden, werden als Version 2 erstellt.
+>* **25.3 Version** (17. Juli 2025): Abonnements können nach der Version 25.3 nicht mehr auf Version 1 heruntergestuft werden.
+
+## Änderungen zwischen Version 1 und Version 2
+
+Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen
+
+
+### Allgemeine Änderungen
+
+
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <p><b>Betroffene Felder</b></p> </th> 
+   <th> <p><b>Version 1 (vorheriges Verhalten)</b></p> </th> 
+   <th> <p><b>Version 2 (Änderung)</b></p> </th> 
+   <th> <p><b>Korrekturmaßnahme</b></p> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <td> <p>Parameterwerte</p> </td> 
+   <td> <p>Für alle Objekte, die aus einer Vorlage erstellt wurden, die ein benutzerdefiniertes Formular enthielt, wurde ein <code>CREATE</code> gesendet. Anschließend wurde ein <code>UPDATE</code> mit den Parameterwerten (einschließlich berechneter Felder und ihrer Werte) gesendet.    </p> </td> 
+   <td> <p>Es wird nur ein <code>CREATE</code> gesendet, das Parameterwerte einschließlich berechneter Felder enthält.</p> </td> 
+   <td> <p>Wenn Sie über einen Filter für <code>UPDATE</code>-Ereignisse mit Parameterwerten (einschließlich berechneter benutzerdefinierter Felder) verfügen und erwarten, dass Sie ihn nach einem Objekt <code>CREATE</code> Ereignis empfangen, das Parameterwerte enthält, erhalten Sie dieses <code>UPDATE</code> Ereignis nicht mehr. Wenn Sie Parameterwerte bei der Objekterstellung sehen möchten, müssen Sie ein zusätzliches <code>CREATE</code> erstellen.</p> </td> 
+  </tr> 
+  <tr> 
+   <td> <p>Felder vom Typ „Mehrfachauswahl“</p> </td> 
+   <td> <p>Für jeden Ereignistyp, der eine Änderung an einem Feld vom Typ Mehrfachauswahl enthält, würde das Feld, wenn es nur einen Wert enthält, in konvertiert und als Zeichenfolge gesendet. Andernfalls wird es als Array gesendet. </p><p>Beispiele:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> wird konvertiert und als <code>myMultiSelectField: "oneValue"</code> gesendet.</li><li><code>myMultiSelectField: ["first", "second"]</code> wird als <code>myMultiSelectField: ["first", "second"]</code> gesendet.</li></ul> </td> 
+   <td> <p>Unabhängig davon, wie viele Werte sich im Array befinden, wird es als Array gesendet. </p><p>Beispiele:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> wird als <code>myMultiSelectField: ["oneValue"]</code> gesendet.</li><li><code>myMultiSelectField: ["first", "second"]</code> wird als <code>myMultiSelectField: ["first", "second"]</code> gesendet.</li></ul> </td> 
+   <td> <p>Wenn Sie über ein Abonnement mit einem Filter für ein Mehrfachauswahlfeld verfügen und den Wert als Zeichenfolge haben, müssen Sie ein neues Abonnement mit demselben Filter erstellen, der den Wert als Array hat. </p> </td> 
+  </tr> 
+ </tbody> 
+</table>
+
+### Objektspezifische Änderungen
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <col> 
+ <thead> 
+  <tr> 
+   <th> <b>Objektcode</b> </th> 
+   <th> <b>Betroffene Felder</b> </th> 
+   <th> <b>Version 1 (vorheriges Verhalten)</b></th> 
+   <th> <b>Version 2 (Änderung)</b> </th> 
+   <th> <b>Behebungsaktion</b> </th> 
+  </tr> 
+ </thead> 
+ <tbody> 
+  <tr> 
+   <th rowspan="1">ZUWEISEN</th> 
+   <td>
+    <ul>
+     <li><code>projectID</code></li>
+     <li><code>taskID</code></li>
+     <li><code>opTaskID</code></li>
+     <li><code>customerID</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis manchmal fälschlicherweise die betroffenen Felder an, die sich von <code>null</code> zu <code>ID value</code> ändern.</td> 
+   <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für die betroffenen Felder an.</td> 
+   <td>Keine. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
+   </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">DOKU</th> 
+   <td>
+    <ul>
+     <li><code>referenceObjID</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn ein Parameterwert für dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code> fälschlicherweise die betroffene Feldänderung von <code>null</code> zu <code>object id</code> an. </td> 
+   <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für die betroffenen Felder an.</td> 
+   <td>Keine. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>groups</code></li>
+    </ul> 
+   </td> 
+   <td>Beim Löschen eines Dokuments zeigte das <code>DELETE</code>-Ereignis das betroffene Feld im Status Vor fälschlicherweise als leeres Array an.    </td> 
+   <td>Das <code>DELETE</code>-Ereignis zeigt das betroffene Feld im Status Vor korrekt an.</td> 
+   <td>Keine. Das <code>DELETE</code> wird weiterhin gesendet, zeigt aber jetzt die korrekten Daten für das betroffene Feld an. 
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="1">DOCV</th> 
+  <td>
+    <ul>
+     <li><code>proofDecision</code></li>
+     <li><code>proofName</code></li>
+     <li><code>proofProgress</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn dieses Objekt aktualisiert wird, werden zwei <code>UPDATE</code>-Ereignisse gesendet. Die erste umfasste nicht die betroffenen Felder, während das zweite Ereignis dies tat.</td> 
+   <td>Alle Feldaktualisierungen einschließlich der betroffenen Felder sind nur in einem <code>UPDATE</code> Ereignis vorhanden, und ein zweites unnötiges Ereignis wird nicht gesendet.     </td> 
+   <td>Keine. Wenn Sie über einen Filter für die betroffenen Felder verfügen, werden die Ereignisse im ersten Ereignis gesendet. 
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">AUSGABEN</th> 
+  <td>
+    <ul>
+     <li><code>topReferenceObjCode</code></li>
+     <li><code>referenceObjectName</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn ein Parameterwert für eine Ausgabe aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis fälschlicherweise die TopReferenceObjCode-Änderung von <code>EXPNS</code> zu <code>PROJ</code> und <code>referenceObjectName</code> Änderung von <code>null</code> zu <code>string value of project name</code> an.      </td> 
+   <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für die betroffenen Felder an.</td> 
+   <td>Keine. Wenn Sie über einen Filter für die betroffenen Felder verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich diese Felder tatsächlich geändert haben, nicht jedoch, wenn sich ein anderer Wert geändert hat.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>topReferenceObjCode</code></li>
+     <li><code>referenceObjectName</code></li>
+    </ul> 
+   </td> 
+   <td>Beim Löschen eines Ausgabenobjekts wurde ein <code>UPDATE</code> gesendet, durch das die betroffenen Felder in null geändert wurden, bevor das <code>DELETE</code> gesendet wurde.    </td> 
+   <td>Das zusätzliche <code>UPDATE</code> wird nicht gesendet. Das <code>DELETE</code>-Ereignis hat korrekte Werte für die betroffenen Felder im Status Vor . </td> 
+   <td>Wenn Sie über einen Filter für die betroffenen Felder für <code>UPDATE</code> Ereignisse verfügen und erwarten, ihn zu erhalten, wenn das Objekt gelöscht wird, erhalten Sie dieses <code>UPDATE</code> Ereignis nicht mehr. Wenn diese Felder beim Löschen des Objekts angezeigt werden sollen, müssen Sie ein zusätzliches <code>DELETE</code>-Abonnement erstellen.
+</td> 
+  </tr> 
+  <tr> 
+   <th rowspan="1">HOUR</th> 
+  <td>
+    <ul>
+     <li><code>projectID </code></li>
+     <li><code>taskID </code></li>
+     <li><code>roleID</code></li>
+     <li><code>timesheetID</code></li>
+     <li><code>hourTypeID </code></li>
+     <li><code>projectOverheadID</code></li>
+     <li><code>referenceObjID</code></li>
+     <li><code>referenceObjCode</code></li>
+     <li><code>securityRootID</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn dieses Objekt gelöscht wurde, wurden die betroffenen Felder im <code>DELETE</code>-Ereignis fälschlicherweise wie im Status Vor <code>null</code> angezeigt. </td> 
+   <td>Das <code>DELETE</code>-Ereignis zeigt die betroffenen Felder im Status Vor korrekt an.</td> 
+   <td>Keine. Das <code>DELETE</code> wird weiterhin gesendet, zeigt aber jetzt die korrekten Daten für die betroffenen Felder an. </td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">OPTASK</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn ein Parameterwert für dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code> fälschlicherweise die betroffene Feldänderung von <code>null</code> zu <code>ID value</code> an. </td> 
+   <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
+   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+</td> 
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>resolveProjectID</code></li>
+     <li><code>resolveTaskID</code></li>
+     <li><code>resolvingObjID</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis manchmal fälschlicherweise die betroffenen Felder an, die sich von <code>null</code> zu <code>ID value</code> ändern.</td> 
+   <td>Bei allen <code>UPDATE</code> Ereignissen wird der richtige Wert für die betroffenen Felder angezeigt.    </td> 
+   <td></td> 
+  </tr> 
+  <tr> 
+   <th rowspan="2">PROJ</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   <td>Wenn ein Parameterwert für dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code> fälschlicherweise die betroffene Feldänderung von <code>null</code> zu <code>ID value</code> an. </td> 
+   <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
+   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis manchmal fälschlicherweise die betroffenen Felder an, die sich von <code>null</code> zu <code>ID value</code> ändern.</td> 
+   <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
+   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+  </tr> 
+  <tr> 
+   <th rowspan="2">AUFGABE</th> 
+  <td>
+    <ul>
+     <li><code>rootGroupID</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn ein Parameterwert für dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code> fälschlicherweise die betroffene Feldänderung von <code>null</code> zu <code>ID value</code> an. </td> 
+   <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
+   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+  </tr> 
+  <tr> 
+  <td>
+    <ul>
+     <li><code>convertedOpTaskID</code></li>
+    </ul> 
+   </td> 
+   <td>Wenn dieses Objekt aktualisiert wurde, zeigte das <code>UPDATE</code>-Ereignis manchmal fälschlicherweise die betroffenen Felder an, die sich von <code>null</code> zu <code>ID value</code> ändern.</td> 
+   <td>Alle <code>UPDATE</code> Ereignisse zeigen den richtigen Wert für das betroffene Feld an.</td> 
+   <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
+ </tbody> 
+</table>

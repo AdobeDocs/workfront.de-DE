@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 2e72dd6a4ef91a11627a48b52e96033410c4435c
+source-git-commit: adde34e472a762274b00f5c050b76e71002cea15
 workflow-type: tm+mt
-source-wordcount: '2198'
+source-wordcount: '2362'
 ht-degree: 3%
 
 ---
@@ -23,7 +23,7 @@ ht-degree: 3%
 {{highlighted-preview}}
 -->
 
-Wenn eine Aktion auf einem Adobe Workfront-Objekt stattfindet, das von Ereignisabonnements unterstützt wird, können Sie Workfront so konfigurieren, dass eine Antwort an Ihren gewünschten Endpunkt gesendet wird. Dies bedeutet, dass Drittanbieteranwendungen Aktualisierungen von Workfront-Interaktionen bald nach ihrem Auftreten über die Workfront-API erhalten können. Im Allgemeinen kann davon ausgegangen werden, dass Sie Webhook-Benachrichtigungen in weniger als 5 Sekunden nach der protokollierten Datenänderung erhalten. Im Durchschnitt erhalten Kundinnen und Kunden Webhook-Benachrichtigungen in weniger als 1 Sekunde, nachdem die Datenänderung protokolliert wurde.  
+Wenn eine Aktion auf einem Adobe Workfront-Objekt stattfindet, das von Ereignisabonnements unterstützt wird, können Sie Workfront so konfigurieren, dass eine Antwort an Ihren gewünschten Endpunkt gesendet wird. Dies bedeutet, dass Drittanbieteranwendungen Aktualisierungen von Workfront-Interaktionen bald nach ihrem Auftreten über die Workfront-API erhalten können. Im Allgemeinen kann davon ausgegangen werden, dass Sie Webhook-Benachrichtigungen in weniger als 5 Sekunden nach der protokollierten Datenänderung erhalten. Im Durchschnitt erhalten Kundinnen und Kunden Webhook-Benachrichtigungen in weniger als 1 Sekunde, nachdem die Datenänderung protokolliert wurde.
 
 Um Payloads für Ereignisabonnements über Ihre Firewall zu erhalten, müssen Sie die folgenden IP-Adressen zu Ihrer Zulassungsliste hinzufügen:
 
@@ -110,7 +110,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
         <td scope="col"><p>ZUWEISEN</p></td> 
        </tr> 
        <tr> 
-        <td scope="col">Firma </td> 
+        <td scope="col">Firma </td> 
         <td scope="col"><p>COMPY</p></td> 
        </tr> 
        <tr> 
@@ -119,7 +119,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
        </tr> 
        <tr> 
         <td scope="col"><p>Dokument</p></td> 
-        <td scope="col">DOKU </td> 
+        <td scope="col">DOKU </td> 
        </tr> 
        <tr> 
         <td scope="col"><p>Ausgabe</p></td> 
@@ -193,7 +193,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
    * **String** - Ein Wert, der den Ereignistyp darstellt, den das Objekt abonniert hat. Zu den verfügbaren Ereignistypen gehören:
 
       * ERSTELLEN
-      * DELETE 
+      * LÖSCHEN
       * AKTUALISIEREN
 
 * URL (erforderlich)
@@ -202,7 +202,7 @@ Die Abonnement-Ressource enthält die folgenden Felder.
 
 * authToken (erforderlich)
 
-   * **String** - Das OAuth2-Bearer-Token, das zur Authentifizierung mit der im Feld „URL“ angegebenen URL verwendet wird. 
+   * **String** - Das OAuth2-Bearer-Token, das zur Authentifizierung mit der im Feld „URL“ angegebenen URL verwendet wird.
 
 ## Erstellen von API-Anfragen für Ereignisabonnements
 
@@ -210,14 +210,14 @@ Nachdem Sie sichergestellt haben, dass der Benutzer Administratorzugriff hat, un
 
 Verwenden Sie die folgende Syntax, um die URL zu erstellen.
 
-**Anfrage-URL:**
+**Anfrage-URL**
 
 
 ```
 POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 ```
 
-**Anfrage-Header:**
+**Anfrage-Header**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -253,6 +253,15 @@ POST https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
             }
 ```
 
+**Beispiel für Antworttext**
+
+```
+{
+    "id": <NEW SUBSCRIPTION ID>,
+    "version": <NEW SUBSCRIPTION VERSION>
+}
+```
+
 | Antwort-Code | Beschreibung |
 |---|---|
 | 201 (Erstellt) | Das Ereignisabonnement wurde erfolgreich erstellt. |
@@ -264,7 +273,7 @@ Das Übergeben einer Abonnement-Ressource als Hauptteil einer Anfrage (wobei der
 
 >[!NOTE]
 >
-> Die Antwort-Kopfzeile „Standort“ enthält den URI des neu erstellten Ereignisabonnements.
+> Die Antwort-Kopfzeile „Standort“ enthält den URI des neu erstellten Ereignisabonnements.
 
 **Beispiel für Antwort-Header:**
 
@@ -288,7 +297,7 @@ Sie können alle Ereignisabonnements für eine Kundin oder einen Kunden abfragen
 
 Die Anfragesyntax zur Auflistung aller Ereignisabonnements für einen bestimmten Kunden lautet wie folgt:
 
-**Anfrage-URL:**
+**Anfrage-URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -315,7 +324,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
  </tbody> 
 </table>
 
-**Antwort-Codes:**
+**Antwort-Codes**
 
 | Antwort-Code | Beschreibung |
 |---|---|
@@ -324,7 +333,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | 403 (Verboten) | Der Benutzer, der mit der angegebenen Sitzungs-ID übereinstimmt, hat keinen Administratorzugriff. |
 
 
-**Beispiel für Antwort-Header:**
+**Beispiel für Antwort-Header**
 
 | Antwort-Header | Beispiel |
 |---|---|
@@ -334,7 +343,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
 | Transfer-Codierung | `→chunked` |
 
 
-**Beispiel für einen Antworttext:**
+**Beispiel für einen Antworttext**
 
 ```
 {
@@ -368,7 +377,7 @@ Wo
 
 Sie können Ereignisabonnements über die ID des Ereignisabonnements abfragen. Die Anfragesyntax für die Auflistung von Ereignisabonnements sieht wie folgt aus:
 
-**Anfrage-URL:**
+**Anfrage-URL**
 
 <!-- [Copy](javascript:void(0);) -->
 
@@ -376,7 +385,7 @@ Sie können Ereignisabonnements über die ID des Ereignisabonnements abfragen. D
 GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>
 ```
 
-**Anfrage-Header:**
+**Anfrage-Header**
 
 <table style="table-layout:auto"> 
  <col> 
@@ -395,7 +404,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
  </tbody> 
 </table>
 
-**Antwort-Codes:**
+**Antwort-Codes**
 
 | Antwort-Code | Beschreibung |
 |---|---|
@@ -404,7 +413,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
 | 403 (Verboten) | Der Benutzer, der mit der angegebenen Sitzungs-ID übereinstimmt, hat keinen Administratorzugriff. |
 
 
-**Beispiel für einen Antworttext:**
+**Beispiel für einen Antworttext**
 
 
 
@@ -429,6 +438,95 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
    }
 }
 ```
+
+## Versionierung von Ereignisabonnements
+
+Workfront verfügt über zwei Versionen von Ereignisabonnements.
+
+Die Möglichkeit, Ereignisabonnements zu aktualisieren oder herabzustufen, stellt sicher, dass vorhandene Abonnements nicht beschädigt werden, wenn Änderungen an der Ereignisstruktur vorgenommen werden, sodass Sie ohne Lücke in Ihrem Ereignisabonnement testen und auf die neue Version aktualisieren können.
+
+Weitere Informationen zur Versionierung von Ereignisabonnements, einschließlich spezifischer Unterschiede zwischen der Version und wichtigen Daten, finden Sie unter [Versionierung von Ereignisabonnements](/help/quicksilver/wf-api/general/event-subs-versioning.md).
+
+### Änderung einer einzelnen Abonnementversion
+
+Die Anfragesyntax zum Ändern der Version für ein einzelnes Abonnement lautet:
+
+**Anfrage-URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTION ID>/version 
+```
+
+**Beispiel-Anfragetext**
+
+```
+{
+    "version": "v2" 
+}
+```
+
+
+**Beispiel-Antworttext (200)**
+
+```
+{
+    "id": <SUBSCRIPTION ID>,
+    "version": "v2" 
+}
+```
+
+**Mögliche Antwort-Codes**
+
+* 200
+* 400
+* 404
+
+
+### Änderung mehrerer Abonnementversionen
+
+Dieser Endpunkt ändert die Version mehrerer Abonnements, indem er eine Liste von Abonnements oder das Flag für alle Abonnements des Kunden erstellt.
+
+Die Anfragesyntax zum Ändern der Version für ein einzelnes Abonnement lautet:
+
+**Anfrage-URL**
+
+```
+PUT https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/version
+```
+
+**Beispiel für Anfragetexte**
+
+* Anfragetext für Abonnement-Liste
+
+  ```
+  {
+      "subscriptionIds": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>],
+      "version": "v2" 
+  }
+  ```
+
+* Anfragetext für alle Abonnements eines Kunden
+
+  ```
+  {
+      "allCustomerSubscriptions": true,
+      "version": "v2" 
+  }
+  ```
+
+**Beispiel-Antworttext (200)**
+
+```
+{
+    "subscription_ids": [<SUBSCRIPTION ID 1>, <SUBSCRIPTION ID 2>, ...],
+    "version": "v2" 
+}
+```
+
+**Mögliche Antwort-Codes**
+
+* 200
+* 400
 
 ## Filtern von Ereignisabonnements
 
@@ -760,7 +858,7 @@ DELETE https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRI
  <thead> 
   <tr> 
    <th> <p>Antwort-Code</p> </th> 
-   <th> Beschreibung</th> 
+   <th> Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1001,7 +1099,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  <thead> 
   <tr> 
    <th> <p>Antwort-Code</p> </th> 
-   <th> Beschreibung</th> 
+   <th> Beschreibung</th> 
   </tr> 
  </thead> 
  <tbody> 
@@ -1020,7 +1118,7 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/list
  </tbody> 
 </table>
 
- 
+
 
 ### Beispiel für einen Antworttext
 
