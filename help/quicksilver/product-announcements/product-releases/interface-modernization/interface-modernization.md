@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: d8a76c9afacde32336fb8de4da531173e323112a
+source-git-commit: 36ec1b2e8bdd499718c1a46d2549b46ddce3b4aa
 workflow-type: tm+mt
-source-wordcount: '1134'
+source-wordcount: '1264'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,14 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration und Einrichtung
+
+### Aktualisierung der Benutzeroberfläche für die Einstellungen des Genehmigungsprozesses im Setup
+
+**Vorschau-Version: 6. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Das Dialogfeld Genehmigungseinstellungen wurde um ein moderneres Design erweitert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Um die Einstellungen anzuzeigen, gehen Sie zu Einrichtung > Voreinstellungen > Genehmigungen > Wählen Sie das Einstellungssymbol oben auf der Seite aus.
 
 ### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen unter Setup > Gruppen
 
@@ -110,7 +118,17 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ## Agile
 
-## Aktualisierung der Benutzeroberfläche für den Bereich Teams > Auftragsbestand
+### Hinzufügen von Storys und Problemen zu einer Iteration
+
+**Vorschau-Version: 6. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben das Dialogfeld Story hinzufügen und Problem hinzufügen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen eines Teams > Iterationen > Wählen Sie eine Iteration aus und klicken Sie dann auf **Neue Story** oder **Neues Problem**.
+
+### Aktualisierung der Benutzeroberfläche für den Bereich Teams > Auftragsbestand
 
 **Vorschau-Version: 23. Januar 2025; Produktionsversion: Ab der Woche vom 13. Februar 2025**
 
@@ -123,7 +141,7 @@ Dieses Update enthält die folgenden Änderungen:
 
 ### Aktualisierung der Benutzeroberfläche für die Liste „Iterationen“
 
-**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: Ab der Woche vom 3. Februar 2025**
 
 Wir haben die Liste Teams > Iterationen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
