@@ -6,9 +6,9 @@ description: Sie können Ihre Grafiktafeln als Dokumente hochladen, um sie schne
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: aaca183e-75e5-4a5c-b75b-a7809ccd1274
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '301'
 ht-degree: 0%
 
 ---
@@ -64,16 +64,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wechseln Sie zu dem Arbeitselement, in das Sie ein Dokument hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
 1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 1. Wählen Sie **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü aus.
 1. Öffnen Sie **[!UICONTROL Dialogfeld Exportdateieinstellungen festlegen]** konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 
-   ![](assets/file-export-settings.png)
+   ![Dateiexporteinstellungen](assets/file-export-settings.png)
 1. Klicken Sie **[!UICONTROL Hochladen]**.
 Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

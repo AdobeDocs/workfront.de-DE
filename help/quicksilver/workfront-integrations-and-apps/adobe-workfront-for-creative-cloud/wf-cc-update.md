@@ -6,9 +6,9 @@ description: Sie können Ihre Arbeit mit dem Adobe Workfront-Plug-in aktualisier
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 865beaa8-a585-4bdd-9d04-b5fbdf40748c
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '218'
+source-wordcount: '224'
 ht-degree: 3%
 
 ---
@@ -86,11 +86,11 @@ So posten Sie eine Aktualisierung:
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wählen Sie in **[!UICONTROL Arbeitsliste]** das Arbeitselement aus, an das Sie eine Aktualisierung posten möchten.
 1. Klicken **[!UICONTROL in]** Navigationsleiste auf „Aktualisieren“.\
-   ![](assets/photoshop-update-350x295.png)
+   ![Photoshop-Update](assets/photoshop-update-350x295.png)
 
 1. Klicken Sie auf **[!UICONTROL Neues Update]**.
 1. Geben Sie Ihr Update ein.

@@ -7,9 +7,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 587d1dff-6ef1-4f97-84b9-32a073481d37
-source-git-commit: 45dac4c5e8ff584546783d561c04d137697a03a4
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Durch die direkte Integration in Outlook 365 können Sie doppelte Arbeit vermeid
 
 Weitere Informationen finden Sie unter:  [Funktion wurde in der Vorschau 2016 verfügbar gemacht](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/available-in-preview-in-2016.md)
 
-![](assets/mceclip0-350x218.png)\
+![Arbeit aus E-Mails verwalten](assets/mceclip0-350x218.png)\
 **Projekte planmäßig und im Budget halten**
 Verwalten Sie Ihre Ressourcen und deren Nutzung, sodass Projekte mit dem neuen Auslastungsbericht im Zeitplan und im Budget bleiben. Geplante und tatsächliche Stunden pro Projekt und Rolle anzeigen und Ressourcen und Abteilungen regelmäßig vergleichen.
 
 Weitere Informationen finden Sie unter:  [R1 Vorschau 3](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-3.md)
 
-![](assets/mceclip1-350x169.png)\
+![Projekte auf Kurs halten](assets/mceclip1-350x169.png)\
 **Anpassung von Terminologie und Benachrichtigungen**
 Machen Sie Workfront für Ihr Team relevanter, indem Sie die benutzerdefinierte Terminologiefunktion nutzen, um Begriffe wie &quot;Portfolio&quot; oder „Projekt“ unabhängig von der Branche an Ihr bevorzugtes Lingo anzupassen. Darüber hinaus kann jeder Benutzer jetzt die Arten von Benachrichtigungen, die er erhält, anpassen, indem er ihre Digest-Häufigkeit reguliert.
 
@@ -51,7 +51,7 @@ Mit den neuen Fortschrittsstatus-Symbolen können Sie Ihre Meilenstein-Berichte 
 
 Weitere Informationen finden Sie unter:  [R1 Vorschau 5](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-preview-5.md)
 
-![](assets/mceclip3-350x122.png)
+![Meilensteinansicht](assets/mceclip3-350x122.png)
 
 **Workfront-Papierkorb**
 Mit dem neuen Workfront-Papierkorb können Sie Projekte, Aufgaben, Probleme und alle zugehörigen Dokumente, Formulare und Aktualisierungen innerhalb von 30 Tagen nach dem Löschen wiederherstellen.
@@ -60,13 +60,13 @@ Weitere Informationen finden Sie unter:  [R1 Vorschau 1 und 2](../../../../prod
 
 ### PROOFHQ VERBESSERUNGEN {#proofhq-enhancements}
 
-![](assets/mceclip4-350x201.png)\
+![ProofHQ-Verbesserungen](assets/mceclip4-350x201.png)\
 **Suchen und Suchen von Korrekturabzügen**
 Neue Suchfunktionen in ProofHQ ermöglichen es Ihnen, alle Instanzen eines Worts oder einer Phrase schnell und einfach direkt in den Testsendungen zu suchen und zu finden, wenn Sie sie überprüfen. Dies gilt für alle textbasierten Dokumente, einschließlich PDF- und Microsoft Word-Dateien.
 
 Weitere Informationen finden Sie unter:  [R1 Endgültig](../../../../product-announcements/product-releases/quarterly-release-archive/r1-release-activity/r1-final.md)
 
-![](assets/mceclip5-350x226.png)\
+![Suchen und Suchen von Korrekturabzügen](assets/mceclip5-350x226.png)\
 **Visuelles Reporting und erweiterte benutzerdefinierte Ansichten**
 Mit den neuen Berichtsmetriken in ProofHQ können Sie die Durchlaufzeit, die späten Prozentsätze, die Anzahl der Kommentare und die Zeit bis zur ersten Aktivität verfolgen. Neue benutzerdefinierte Ansichten erstellen eine erweiterte Filterlogik, damit Sie die exakten Daten genau dann erhalten, wenn Sie sie benötigen.
 
@@ -77,7 +77,7 @@ Mit ProofHQ können Sie jetzt neue Funktionen in einer Vorschau-Umgebung testen,
 
 ## WORKFRONT-DAM-VERBESSERUNGEN {#workfront-dam-enhancements}
 
-![](assets/mceclip6-350x195.png)\
+![Workfront-DAM-Verbesserungen](assets/mceclip6-350x195.png)\
 **DAM-eingebettete Links**
 Marketing-Teams, die eine bessere Möglichkeit benötigen, die Verwendung digitaler Assets auf externen Plattformen zu verwalten, zu veröffentlichen und zu verfolgen, können mit der Funktion für eingebettete Links die Kontrolle erhalten, die Sie für die Verwaltung des Prozesses der Freigabe der richtigen Inhalte zur richtigen Zeit benötigen.
 

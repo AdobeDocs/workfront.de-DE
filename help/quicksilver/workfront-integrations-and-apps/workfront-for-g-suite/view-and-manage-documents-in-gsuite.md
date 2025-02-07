@@ -7,9 +7,9 @@ description: Sie können mit einem Objekt verknüpfte Dokumente anzeigen und ver
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 20c9e1a6-fce0-44a2-a4c3-f89c94db6635
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '401'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Bevor Sie [!DNL Workfront] Dokumente in [!DNL Google Workspace] anzeigen oder ve
 
 ## Anzeigen und Verwalten [!DNL Workfront] Dokumente in [!DNL Google Workspace]
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts auf der Seite.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
 1. Gehen Sie zur [!DNL Workfront] Aufgabe oder zum Problem in [!DNL Google Workspace], wie unter [Zugriff [!DNL Adobe Workfront] [!UICONTROL Startseite] Inhalt von beschrieben [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 1. Klicken Sie auf **[!UICONTROL Dokumente]**.
 
@@ -68,11 +68,11 @@ Bevor Sie [!DNL Workfront] Dokumente in [!DNL Google Workspace] anzeigen oder ve
 
    Wenn Sie Informationen zum Posten von Aktualisierungen oder Antworten benötigen, finden Sie weitere Informationen unter [Aktualisieren eines  [!DNL Adobe Workfront] Objekts aus [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/update-a-workfront-object-in-gsuite.md).
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Herunterladen]**-Symbol ![](assets/download-icon.png), um ein Dokument in der Liste herunterzuladen.
+1. (Optional) Klicken Sie auf das **[!UICONTROL Herunterladen]**-Symbol ![Herunterladen-Symbol](assets/download-icon.png), um ein Dokument in der Liste herunterzuladen.
 
    Oder
 
-   Wenn das Dokument auf einem Cloud-Laufwerk gespeichert ist, klicken Sie auf das **[!UICONTROL Öffnen]**-Symbol ![](assets/open-icon.png) .
+   Wenn das Dokument auf einem Cloud-Laufwerk gespeichert ist, klicken Sie auf das Symbol **[!UICONTROL Öffnen]** ![Symbol Öffnen](assets/open-icon.png) .
 
 1. Klicken Sie **[!UICONTROL In Workfront anzeigen]**, um zur Dokumentdetailseite für das Dokument in [!DNL Workfront] zu gelangen.
 

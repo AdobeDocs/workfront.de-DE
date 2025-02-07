@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, Workfront Proof
 recommendations: noDisplay, noCatalog
 exl-id: 8b148684-28bf-40e8-8014-d6458c8d14e1
-source-git-commit: ccba3a3d7c0cac50dbd29cae677b076811904a91
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '160'
+source-wordcount: '163'
 ht-degree: 0%
 
 ---
@@ -33,4 +33,4 @@ Um Ihnen bei der Verwaltung großer Dropdown-Menüs zu helfen, in denen alle Ben
 
 Zuvor wurden in allen Dropdown-Listen für die Profilsuche alle Benutzenden im System aufgelistet, was zu einem großen Menü führte.
 
-![](assets/user-profile-typeahead-350x142.png)
+![User profile typeahead](assets/user-profile-typeahead-350x142.png)

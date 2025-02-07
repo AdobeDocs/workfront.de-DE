@@ -6,9 +6,9 @@ description: Sie können Ihre Zeichenflächen als Korrekturabzüge direkt in Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d6699fd7-f130-4231-8713-0cfa8dc3c910
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1018'
+source-wordcount: '1055'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/menu-350x440.png)
+   ![Menüsymbol](assets/menu-350x440.png)
 
 1. Wechseln Sie zu dem Arbeitselement, in das Sie einen statischen Korrekturabzug hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
 1. Wählen Sie die Zeichenflächen aus, die Sie hochladen möchten.
@@ -108,7 +108,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Genehmigungen von Korrekturabzügen in XD](assets/proof-approvals-xd-350x396.png)
 
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL Asset-Typ]** das Exportformat aus.
 
@@ -117,7 +117,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional) Benennen Sie die PDF.
 
-   ![](assets/pdf-options.png)
+   ![PDF-Optionen](assets/pdf-options.png)
 
 1. Klicken Sie **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.
@@ -149,10 +149,10 @@ Mit dem Plug-in [!DNL Workfront for Adobe] können Sie einen interaktiven Korrek
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/menu-350x440.png)
+   ![Menüsymbol](assets/menu-350x440.png)
 
 1. Wechseln Sie zu dem Arbeitselement, in das Sie einen interaktiven Korrekturabzug hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
 1. Aktivieren Sie **[!UICONTROL Korrekturabzug erstellen]**.
@@ -184,10 +184,10 @@ Mit dem Plug-in [!DNL Workfront for Adobe] können Sie einen interaktiven Korrek
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Genehmigungen von Korrekturabzügen in XD](assets/proof-approvals-xd-350x396.png)
 
 1. Wählen Sie **[!UICONTROL Dropdown-Menü]** Asset-Typ“ den soeben erstellten Link auf der Registerkarte **Freigegebene Links** aus. Weitere Informationen finden Sie unter [Erstellen eines interaktiven Links für Ihre Zeichenfläche](#create-an-interactive-link-for-your-artboard).\
-   ![](assets/shared-links-xd-350x870.png)
+   ![Freigegebene Links in XD](assets/shared-links-xd-350x870.png)
 
 1. Klicken Sie **[!UICONTROL Hochladen]**.
 
@@ -203,10 +203,10 @@ Sie können eine neue Version eines Korrekturabzugs hochladen. Das Plug-in speic
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/menu-350x440.png)
+   ![Menüsymbol](assets/menu-350x440.png)
 
 1. Wechseln Sie zu dem Arbeitselement, auf das Sie ein Dokument hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument-Symbol](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie **[!UICONTROL Neue Version]** am unteren Rand des Plug-ins.
 1. Aktivieren Sie **[!UICONTROL Korrekturabzug erstellen]**.
@@ -243,17 +243,17 @@ Sie können eine neue Version eines Korrekturabzugs hochladen. Das Plug-in speic
 
 1. Wählen Sie im Dropdown-Menü **[!UICONTROL Asset-Typ]** das Exportformat aus.
 
-   ![](assets/create-a-proof-xd-350x202.png)
+   ![Erstellen eines Korrekturabzugs in XD](assets/create-a-proof-xd-350x202.png)
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
-   ![](assets/proof-approvals-xd-350x396.png)
+   ![Genehmigungen von Korrekturabzügen in XD](assets/proof-approvals-xd-350x396.png)
 
 1. (Optional) Wenn Sie PDF als Asset-Typ auswählen und mehr als ein Zeichenblatt ausgewählt haben, wählen Sie aus, ob Sie Ihre Zeichenblätter als **[!UICONTROL Einzelne PDF-]** oder **M[!UICONTROL mehrere PDF-Dateien exportieren]**.
 
 1. (Optional) Benennen Sie die PDF.
 
-   ![](assets/pdf-options.png)
+   PDF-Optionen
 
 1. Klicken Sie **[!UICONTROL Hochladen]**.\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im Plug-in und im Desktop-Programm angezeigt.

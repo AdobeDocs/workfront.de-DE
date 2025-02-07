@@ -7,9 +7,9 @@ title: Adobe Workfront-Integrationsmethoden
 description: Sie können  [!DNL Adobe Workfront]  mit Anwendungen von Drittanbietern integrieren. Durch diese Integrationen kann die Nützlichkeit von  [!DNL Workfront]  erweitert und an die Anforderungen Ihres Unternehmens angepasst werden. Sie können eine oder alle dieser Integrationen verwenden, je nachdem, welche für eine bestimmte Aufgabe am nützlichsten ist.
 feature: Workfront Integrations and Apps, Workfront Fusion
 exl-id: bf13a7c9-eab3-4ae3-a060-8a422236122d
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '952'
 ht-degree: 0%
 
 ---
@@ -95,6 +95,6 @@ Zu den Vorteilen für [!DNL Workfront Fusion] zählen:
 >
 >Das folgende [!DNL Workfront] Modul in [!DNL Workfront Fusion] ist eingerichtet, um dem ausgewählten Projekt einen Kommentar hinzuzufügen. Nachdem das Modul ausgeführt wurde, ist der Kommentar im Aktualisierungsverlauf des Projekts in Workfront sichtbar.
 >
->![](assets/fusion-example-comment-350x416.png)
+>![Beispiel: Hinzufügen eines Kommentars in Fusion](assets/fusion-example-comment-350x416.png)
 
 Weitere Informationen zu [!DNL Workfront Fusion] finden Sie unter [[!DNL Adobe Workfront Fusion]](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/home).

@@ -7,9 +7,9 @@ description: In diesem Artikel wird beschrieben, wie Sie sich bei der  [!DNL Ado
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 8a91f1d9-bc67-4c27-a6c0-2482488c670b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '247'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Bevor Sie sich bei [!DNL Workfront for Google Workspace] anmelden oder abmelden 
 
 ## Anmelden bei [!DNL Adobe Workfront for Google Workspace]
 
-1. Klicken Sie auf das [!DNL Workfront]-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts neben [!DNL Gmail], [!DNL Google Calendar] oder [!DNL Google Drive].
+1. Klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png)Symbol in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts neben [!DNL Gmail], [!DNL Google Calendar] oder [!DNL Google Drive].
 
    Wenn Sie das [!DNL Workfront for Google Workspace]-Add-on gerade installiert haben und dieses Symbol nicht angezeigt wird, aktualisieren Sie die Browser-Seite.
 
@@ -66,7 +66,7 @@ Bevor Sie sich bei [!DNL Workfront for Google Workspace] anmelden oder abmelden 
 
 ## Abmelden von [!DNL Workfront for Google Workspace]
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts auf der Seite.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
 1. Klicken Sie auf **[!UICONTROL Mehr Aktionen]** oben im [!DNL Workfront for Google Workspace].
 
 1. Klicken Sie **[!UICONTROL angezeigten]** auf „Abmelden“.

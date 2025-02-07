@@ -7,9 +7,9 @@ description: Salesforce Sie können für  [!DNL Adobe Workfront]  installieren, 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 65d4cdae-1d34-4a8a-a1c0-706cd41fc75e
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '437'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Beachten Sie beim Arbeiten mit [!DNL Workfront] für [!DNL Salesforce] Folgendes
    * Die Kopfzeile eines Projekts oder eines Problems.
 
      Ihr System- oder Gruppenadministrator muss das Feld [!UICONTROL Integrationen] zu Ihrer Layout-Vorlage hinzufügen, um den Link [!UICONTROL Zu Salesforce wechseln] in der Kopfzeile des Projekts oder Problems anzuzeigen.
-   * Das [!DNL Summary] eines Problems, wenn Sie das Problem in einer Liste auswählen, nachdem Sie in der Symbolleiste der Liste auf [!UICONTROL Zusammenfassung öffnen] geklickt ![](assets/summary-panel-icon.png).
+   * Das [!DNL Summary] Bedienfeld eines Problems, wenn Sie das Problem in einer Liste auswählen, nachdem Sie auf [!UICONTROL Zusammenfassung öffnen] ![Symbol des Zusammenfassungsbereichs](assets/summary-panel-icon.png) in der Symbolleiste der Liste geklickt haben.
 
      >[!NOTE]
      >

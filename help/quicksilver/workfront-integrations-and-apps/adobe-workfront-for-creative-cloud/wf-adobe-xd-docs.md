@@ -6,9 +6,9 @@ description: Sie können Ihre Zeichenflächen als Dokumente hochladen, um sie sc
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 710035f7-339c-457c-b9b0-e51bc0e0061d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '596'
 ht-degree: 1%
 
 ---
@@ -65,10 +65,10 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/menu-350x440.png)
+   ![Menüsymbol](assets/menu-350x440.png)
 
 1. Wechseln Sie zu dem Arbeitselement, in das Sie ein Dokument hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie **[!UICONTROL Neue Datei]** unten im Plug-in.
 1. Wählen Sie die Zeichenfläche aus, die Sie hochladen möchten.
@@ -113,10 +113,10 @@ Anweisungen finden Sie unter [Installieren [!DNL Adobe Workfront for XD]](/help/
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/menu-350x440.png)
+   ![Menüsymbol](assets/menu-350x440.png)
 
 1. Wechseln Sie zu dem Arbeitselement, in das Sie ein Dokument hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument-Symbol](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie auf das Dokument, dem Sie eine neue Version hinzufügen möchten.
 1. Klicken Sie **[!UICONTROL Neue Version]** am unteren Rand des Plug-ins.

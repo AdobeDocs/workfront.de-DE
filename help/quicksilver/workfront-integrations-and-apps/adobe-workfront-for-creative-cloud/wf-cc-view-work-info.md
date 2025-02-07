@@ -6,10 +6,10 @@ description: Sie können Informationen über Projekte, Aufgaben, Probleme und Do
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: a53a716f-4faf-4ea7-a4fc-ad8d87634267
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '571'
-ht-degree: 1%
+source-wordcount: '605'
+ht-degree: 0%
 
 ---
 
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wählen Sie das Arbeitselement aus, das Sie anzeigen möchten.
 
@@ -74,7 +74,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Verwenden Sie das **[!UICONTROL Menü]**-Symbol, um zu den übergeordneten Objekten des Arbeitselements zu wechseln.
 
-1. Klicken Sie auf das **[!UICONTROL Details]**-Symbol ![](assets/details.png) in der Navigationsleiste, um Folgendes anzuzeigen:
+1. Klicken Sie auf das **[!UICONTROL Details]**-Symbol ![Details](assets/details.png) in der Navigationsleiste, um Folgendes anzuzeigen:
 
    * [!UICONTROL Beschreibung]
    * [!UICONTROL Geplantes Abschlussdatum]
@@ -87,7 +87,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wählen Sie das Arbeitselement aus, das Sie anzeigen möchten.
 
@@ -95,7 +95,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Verwenden Sie das **[!UICONTROL Menü]**-Symbol, um zu den übergeordneten Objekten des Arbeitselements zu wechseln.
 
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste und doppelklicken Sie dann zum Anzeigen auf ein Dokument:
+1. Klicken Sie in **[!UICONTROL Navigationsleiste auf]** Symbol ![Dokument](assets/documents.png) und doppelklicken Sie dann zum Anzeigen auf ein Dokument:
 
    * [!UICONTROL Beschreibung]
    * [!UICONTROL Dateityp]
@@ -108,7 +108,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wählen Sie das Arbeitselement aus, das Sie anzeigen möchten.
 
@@ -116,7 +116,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Verwenden Sie das **[!UICONTROL Menü]**-Symbol, um zu den übergeordneten Objekten des Arbeitselements zu wechseln.
 
-1. Klicken Sie auf **[!UICONTROL Dokument]**-Symbol ![](assets/documents.png) in der Navigationsleiste und doppelklicken Sie dann auf einen Korrekturabzug.
+1. Klicken Sie in **[!UICONTROL Navigationsleiste auf]** Symbol ![Dokument](assets/documents.png) und doppelklicken Sie dann auf einen Korrekturabzug.
 
 1. Klicken Sie auf das Pfeilsymbol in der oberen rechten Ecke der Miniaturansicht, um die Details des Korrekturabzugs in [!DNL Workfront] zu öffnen.
 
@@ -126,7 +126,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wählen Sie das Arbeitselement aus, das Sie anzeigen möchten.
 
@@ -134,17 +134,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Verwenden Sie das **[!UICONTROL Menü]**-Symbol, um zu den übergeordneten Objekten des Arbeitselements zu wechseln.
 
-1. Klicken Sie auf **[!UICONTROL Dokument]**-Symbol ![](assets/documents.png) in der Navigationsleiste und doppelklicken Sie dann auf einen Korrekturabzug.
+1. Klicken Sie in **[!UICONTROL Navigationsleiste auf]** Symbol ![Dokument](assets/documents.png) und doppelklicken Sie dann auf einen Korrekturabzug.
 
 1. Scrollen Sie nach unten, um den aktuellen Status des Korrekturabzugs anzuzeigen. Weitere Informationen zu den Details Gesendet, Geöffnet, Kommentar, Entscheidung (SOCD) finden Sie unter [Dokumentdetails - Übersicht](/help/quicksilver/documents/managing-documents/document-details-overview.md).
 
-![](assets/proof-status.png)
+![Teststatus](assets/proof-status.png)
 
 ## Teilaufgaben und Probleme anzeigen
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wählen Sie das Arbeitselement aus, das Sie anzeigen möchten.
 
@@ -152,9 +152,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Verwenden Sie das **[!UICONTROL Menü]**-Symbol, um zu den übergeordneten Objekten des Arbeitselements zu wechseln.
 
-1. Klicken Sie auf das **[!UICONTROL Problem]**-Symbol ![](assets/issues.png) oder **Unteraufgabe**-Symbol ![](assets/subtasks.png).
+1. Klicken Sie auf **[!UICONTROL Problem]**-Symbol ![Probleme-Symbol](assets/issues.png) oder **Teilaufgabe**-Symbol ![Teilaufgaben-Symbol](assets/subtasks.png).
 
-1. Wählen Sie die Aufgabe oder das Problem aus und klicken Sie dann auf das **[!UICONTROL Details]**-Symbol ![](assets/details.png) in der Navigationsleiste, um Folgendes anzuzeigen:
+1. Wählen Sie die Aufgabe oder das Problem aus und klicken Sie dann auf das **[!UICONTROL Details]**-Symbol ![Details](assets/details.png) in der Navigationsleiste, um Folgendes anzuzeigen:
 
    * [!UICONTROL Geplantes Abschlussdatum]
    * [!UICONTROL Status]

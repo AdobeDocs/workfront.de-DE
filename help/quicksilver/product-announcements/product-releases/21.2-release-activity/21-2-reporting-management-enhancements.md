@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1d5f76ef-bea7-4630-8051-454b0d109341
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '547'
+source-wordcount: '551'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Um dem modernen Erscheinungsbild anderer Bereiche in der neuen Workfront-Version
 
 Weitere Informationen zu Zuweisungen in Listen finden Sie unter [Aufgaben zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md) oder [Probleme zuweisen](../../../manage-work/issues/manage-issues/assign-issues.md).
 
-![](assets/assignments-updates-350x193.png)
+![Zuweisungsaktualisierungen](assets/assignments-updates-350x193.png)
 
 ## Neues Erscheinungsbild für Felder mit automatischer Textvervollständigung in aktualisierten Listen und Berichten
 
@@ -64,7 +64,7 @@ Um dem modernen Erscheinungsbild anderer Bereiche in der neuen Workfront-Version
 
 Informationen zu aktualisierten Listen finden Sie im Abschnitt [Der Unterschied zwischen aktualisierten und alten Listen](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md#updated) im Artikel [Erste Schritte mit Listen in Adobe Workfront](../../../workfront-basics/navigate-workfront/use-lists/view-items-in-a-list.md).
 
-![](assets/typeahead-updates-350x336.png)
+![Typeahead-Feld](assets/typeahead-updates-350x336.png)
 
 ## Bericht zu Systemaktualisierungen
 

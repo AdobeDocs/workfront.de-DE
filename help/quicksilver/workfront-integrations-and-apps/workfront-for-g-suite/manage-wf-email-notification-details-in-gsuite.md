@@ -7,9 +7,9 @@ description: Wenn Sie in Google Workspace Adobe eine Benachrichtigungs-E-Mail ö
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: d5ca31d8-3667-4405-a523-3dc248a94746
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '477'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Bevor Sie Benachrichtigungsdetails aus [!DNL Google Workspace] verwalten können
 
 ## Verwalten von [!DNL Adobe Workfront]-Benachrichtigungsdetails über [!DNL Google Workspace]
 
-1. Wenn das Bedienfeld [!DNL Workfront for Google Workspace] nicht angezeigt wird, klicken Sie auf das Symbol [!DNL Workfront] ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
+1. Wenn das [!DNL Workfront for Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
 1. Öffnen Sie [!DNL Google Workspace] eine E-Mail mit einer [!DNL Workfront].
 1. Klicken Sie **[!UICONTROL Alle Updates anzeigen]**, wenn es oben im Bedienfeld angezeigt wird.
 1. Klicken Sie auf **[!UICONTROL Details]**.

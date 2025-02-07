@@ -7,9 +7,9 @@ description: Sie können die Details eines Arbeitselements anzeigen und verwalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 0f15b05f-3b4a-4f0b-9d9a-21a0f97de1ea
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Bevor Sie Arbeitsaufgabendetails in [!DNL Google Workspace] anzeigen und verwalt
 
 ## Anzeigen und Verwalten von Arbeitselementdetails in [!DNL Google Workspace]
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts auf der Seite.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
 1. Gehen Sie zur [!DNL Workfront] Aufgabe oder zum Problem in [!DNL Google Workspace], wie unter [Zugriff [!DNL Adobe Workfront] [!UICONTROL Startseite] Inhalt von beschrieben [!DNL Google Workspace]](../../workfront-integrations-and-apps/workfront-for-g-suite/access-wf-home-content-from-g-suite.md).
 
    Wenn Sie eine Aufgabe oder ein Problem auswählen, wird die **[!UICONTROL Details]** geöffnet. Der Bereich über der Registerkarte **[!UICONTROL Details]** zeigt den Namen des übergeordneten Objekts, den Namen der Aufgabe oder des Problems und das [!UICONTROL Fälligkeitsdatum] (wenn es sich um eine Aufgabe handelt) oder [!UICONTROL Prioritätsdatum] (wenn es sich um ein Problem handelt) an.

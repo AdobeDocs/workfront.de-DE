@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 7ac2c6c8-1cb8-49df-8d63-a6b47ad02a13
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '3620'
+source-wordcount: '3627'
 ht-degree: 2%
 
 ---
@@ -851,10 +851,10 @@ name=Folder B ­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­­
 (Veröffentlichungsdatum - wird noch bekannt gegeben) Dieser Endpunkt ermöglicht es einem Workfront-Benutzer (oder vielleicht einem automatisierten Workflow-Ereignis), eine Aktion im externen System durchzuführen. Der /customAction-Endpunkt akzeptiert einen „name“-Parameter, mit dem der Webhook-Anbieter mehrere benutzerdefinierte Vorgänge implementieren kann.
 
 Der Webhook-Anbieter registriert benutzerdefinierte Aktionen bei Workfront, indem er die Aktionen in die /serviceInfo-Antwort unter customActions aufnimmt. Workfront lädt diese Liste, wenn Sie den Webhook-Anbieter unter Einrichtung > Dokumente > Benutzerdefinierte Integrationen einrichten oder aktualisieren.\
-![](assets/mceclip0-350x262.png)
+![Benutzerdefinierte Aktion durchführen](assets/mceclip0-350x262.png)
 
 Benutzerinnen und Benutzer können die benutzerdefinierte Aktion mit Triggern versehen, indem sie den Abschnitt unter „Dokumentaktionen“ auswählen\
-![](assets/mceclip1-350x95.png)
+![Benutzerdefinierte Aktionen für Trigger ](assets/mceclip1-350x95.png)
 
 **URL**
 

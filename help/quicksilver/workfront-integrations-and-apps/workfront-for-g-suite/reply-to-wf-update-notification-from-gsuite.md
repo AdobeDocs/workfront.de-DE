@@ -7,9 +7,9 @@ description: Wenn Sie eine Benachrichtigung über ein Update in [!DNL Adobe] [!D
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: b39c53b5-02b6-4c13-9f25-83cb3e3096d8
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '212'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Bevor Sie eine [!DNL Workfront] Aufgabe in [!DNL Google Workspace] erstellen kö
 
 ## Auf eine Update-Benachrichtigung von [!DNL Google Workspace] antworten
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts auf der Seite.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
 1. Öffnen Sie die [!DNL Workfront] E-Mail-Benachrichtigung, die die Aktualisierung enthält.
 1. Klicken Sie am unteren Rand des Bedienfelds [!UICONTROL Workfront für Google Workspace] auf **[!UICONTROL Kommentar abgeben]** und geben Sie dann Ihre Antwort ein.
 1. (Optional) Um bestimmte Benutzer über Ihre Antwort zu benachrichtigen, klicken Sie auf **[!DNL Notify people and teams]**, geben Sie einen Namen ein und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.

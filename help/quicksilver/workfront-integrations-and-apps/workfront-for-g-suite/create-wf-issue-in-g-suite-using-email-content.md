@@ -7,9 +7,9 @@ description: Sie können eine externe E-Mail (nicht von generiert [!DNL Adobe Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7a15f557-67d8-4be8-8538-4bce06536c0a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -56,10 +56,10 @@ Bevor Sie ein Problem aus [!DNL Google Workspace] erstellen können, müssen Sie
 
 ## Erstellen eines [!DNL Adobe Workfront] Problems in [!DNL Google Workspace] mit E-Mail-Inhalt
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts auf der Seite.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
 1. Wenn die E-Mail-Nachricht in [!DNL Google Workspace] geöffnet ist, klicken Sie auf eine Option in [!DNL Workfront for Google Workspace], um die E-Mail in ein neues [!DNL Workfront] zu konvertieren.
 
-   ![](assets/convert-email-task-issue-update.png)
+   ![E-Mail konvertieren](assets/convert-email-task-issue-update.png)
 
 1. Wenn Sie das Problem an ein übergeordnetes Projekt anhängen möchten, klicken Sie auf **[!UICONTROL Projektname]**, geben Sie den Namen des Projekts ein, in dem das Problem angezeigt werden soll, und klicken Sie dann auf den Projektnamen, wenn er in der Liste unten angezeigt wird.
 1. Nehmen Sie eine dieser Änderungen vor:

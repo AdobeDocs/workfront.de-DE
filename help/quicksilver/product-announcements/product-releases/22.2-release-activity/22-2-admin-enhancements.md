@@ -6,9 +6,9 @@ draft: Probably
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 55fb0b85-937d-4903-8a64-6f627dd4291f
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '927'
+source-wordcount: '934'
 ht-degree: 0%
 
 ---
@@ -61,7 +61,7 @@ Zuvor waren benutzerdefinierte Formulare vollständig textbasiert.
 
 ## Neue standardmäßige Zugriffsebenen-Konfigurationen
 
-Um den Anforderungen der meisten Administratoren, die neue Zugriffsebenen erstellen, besser gerecht zu werden, haben wir die Standardkonfiguration für die unten aufgeführten Optionen „Optimieren Sie Ihre Einstellungen“ geändert. Diese werden angezeigt, wenn Sie auf das Zahnradsymbol ![](assets/gear-icon-in-access-levels.png) auf einer Bearbeitungsschaltfläche klicken.
+Um den Anforderungen der meisten Administratoren, die neue Zugriffsebenen erstellen, besser gerecht zu werden, haben wir die Standardkonfiguration für die unten aufgeführten Optionen „Optimieren Sie Ihre Einstellungen“ geändert. Diese werden angezeigt, wenn Sie auf das Zahnradsymbol ![Zahnradsymbol Zugriffsebenen](assets/gear-icon-in-access-levels.png) auf einer Bearbeitungsschaltfläche klicken.
 
 Alle diese Änderungen deaktivieren eine Option, die zuvor standardmäßig aktiviert war. Wenn dies nicht den Anforderungen Ihres Unternehmens entspricht, können Sie diese beim Einrichten einer neuen Zugriffsebene oder zu einem späteren Zeitpunkt aktivieren.
 
@@ -100,7 +100,7 @@ Wenn Sie eine Blueprint installieren, werden in einer Meldung jetzt die spezifis
 
 Weitere Informationen finden Sie unter [Blueprint installieren](../../../administration-and-setup/blueprints/blueprints-install.md).
 
-![](assets/blueprints-installation-history-350x95.png)
+![Blueprints-Installationsverlauf](assets/blueprints-installation-history-350x95.png)
 
 ## Bei der Installation einer Blueprint, die nur die Vorschau enthält, wird jetzt eine Warnung angezeigt
 

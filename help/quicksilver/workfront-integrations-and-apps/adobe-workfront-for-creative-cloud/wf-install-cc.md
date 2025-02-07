@@ -6,9 +6,9 @@ description: Sie können  [!DNL Adobe Workfront for design and video]  vom Adobe
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '540'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Sie können [!DNL Adobe Workfront for design and video] selbst über die [!DNL A
    >
    >Wenn Sie Premiere Pro verwenden, muss ein Projekt geöffnet sein, um auf dieses Menü zugreifen zu können.
 
-   ![](assets/adobe-workfront-menu.png)
+   ![Workfront-Menü](assets/adobe-workfront-menu.png)
 
 
    >[!TIP]
@@ -121,7 +121,7 @@ Sie können [!DNL Adobe Workfront for design and video] selbst über die [!DNL A
    >[!TIP]
    >
    >* Öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL, um Ihre Domain zu finden:\
-   >![](assets/domain-350x50.png)
+   >![Domain suchen](assets/domain-350x50.png)
    >
    > * Wenn Ihre Workfront-Instanz mit Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domain bereitzustellen, die Sie unter Produkt > Workfront in der Admin Console finden.
 

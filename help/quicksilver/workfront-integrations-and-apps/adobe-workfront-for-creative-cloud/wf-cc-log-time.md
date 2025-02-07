@@ -6,10 +6,10 @@ description: Sie können Zeit für Projekte, Aufgaben und Probleme, an denen Sie
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 4c5bd7ca-18f2-4a47-9e79-c39d5852aab5
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '252'
-ht-degree: 0%
+source-wordcount: '260'
+ht-degree: 1%
 
 ---
 
@@ -68,16 +68,16 @@ So protokollieren Sie die Zeit mit dem Workfront-Plug-in:
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wählen Sie in **[!UICONTROL Arbeitsliste]** das Arbeitselement aus, zu dem Sie die Zeit protokollieren möchten.
 1. Klicken Sie **[!UICONTROL der]** auf „Zeit“.
 
-   ![](assets/log-time-350x337.png)
+   ![Erfassen der Zeit](assets/log-time-350x337.png)
 
 1. (Optional) Wählen Sie **[!UICONTROL Stundentyp]** aus dem Dropdown-Menü aus.
 1. Geben Sie die Zeit in Stunden für den gewünschten Tag ein.
 
-   ![](assets/copy-of-log-hours-350x236.png)
+   ![Stunden protokollieren](assets/copy-of-log-hours-350x236.png)
 
 1. Klicken Sie **[!UICONTROL Senden]**.

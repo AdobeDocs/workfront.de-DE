@@ -6,9 +6,9 @@ description: Sie können Benachrichtigungen von  [!DNL Adobe Workfront]  erhalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1351'
+source-wordcount: '1355'
 ht-degree: 0%
 
 ---
@@ -80,7 +80,7 @@ So verwalten Sie die [!DNL Workfront], die Sie in [!DNL Microsoft Teams] erhalte
 1. Klicken Sie in der angezeigten Liste auf [!DNL Workfront] .
 1. Wählen Sie die Registerkarte **[!UICONTROL Einstellungen]**.
 
-   ![](assets/ms-teams-settings-tab-350x552.png)
+   Registerkarte ![MS Teams-Einstellungen](assets/ms-teams-settings-tab-350x552.png)
 
 1. Deaktivieren Sie alle Benachrichtigungen, die Sie nicht erhalten möchten. Sie können Benachrichtigungsgruppen (z. B. Informationen oder Genehmigungsbenachrichtigungen) aktivieren oder deaktivieren oder Benachrichtigungen einzeln verwalten.
 

@@ -6,9 +6,9 @@ description: Sie können das Plug-in Adobe Workfront for Photoshop über den Ado
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f5e9f121-a711-4b75-8564-54f29c5cfa48
-source-git-commit: 43afa8136e51332a0970b01fff36113d5bf42294
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -88,7 +88,7 @@ Sie können das [!DNL Adobe Workfront for Photoshop]-Plug-in über die [!DNL Ado
 
 1. Klicken Sie im oberen Menü auf **[!UICONTROL Plug-ins]** > **[!UICONTROL Plug-ins-Bedienfeld]**.
 
-   ![](assets/plugins-panel-ps.png)
+   ![Bedienfeld „Plug-ins“](assets/plugins-panel-ps.png)
 
 1. Wählen Sie im **[!UICONTROL Plug-ins]** Bedienfeld die Registerkarte **[!UICONTROL Plug-ins]** und suchen Sie nach **[!UICONTROL Workfront für Adobe Photoshop]**.
 
@@ -107,7 +107,7 @@ Sie können das [!DNL Adobe Workfront for Photoshop]-Plug-in über die [!DNL Ado
    >[!TIP]
    >
    >* Öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL, um Ihre Domain zu finden:\
-   >![](assets/domain-350x50.png)
+   >![Domain suchen](assets/domain-350x50.png)
    >
    > * Wenn Ihre Workfront-Instanz mit Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domain bereitzustellen, die Sie unter Produkt > Workfront in der Admin Console finden.
 

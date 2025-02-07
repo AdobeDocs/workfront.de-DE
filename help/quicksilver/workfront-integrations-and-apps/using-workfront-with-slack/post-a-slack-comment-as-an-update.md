@@ -6,9 +6,9 @@ description: Sie können einen Slack-Kommentar als Aktualisierung zu einem besti
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 18b22f2c-2490-41e2-afb9-0551f9579973
-source-git-commit: 65bfeafe67a10c72e87a02e0ece285df619fcb81
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
@@ -64,4 +64,4 @@ Bevor Sie einen [!DNL Slack] Kommentar als Update posten können, müssen Sie
 
    Wenn ein Kommentar von [!DNL Slack] stammt, wird im Kommentar die Meldung &quot;[!UICONTROL Von [!DNL Slack]] veröffentlicht“ in [!DNL Workfront] angezeigt.
 
-   ![](assets/slack-update-posted-from-slack-350x112.png)
+   ![Update von Slack veröffentlicht](assets/slack-update-posted-from-slack-350x112.png)

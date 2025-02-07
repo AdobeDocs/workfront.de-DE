@@ -7,9 +7,9 @@ description: Sie können ein vorhandenes Projekt, eine Aufgabe oder ein Problem 
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 2ac392f5-98a3-4ab6-a0e3-cda378f0f68b
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '645'
+source-wordcount: '647'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Bevor Sie ein [!DNL Workfront] mit E-Mail-Inhalt aus [!DNL Google Workspace] akt
 
 ## Aktualisieren eines [!DNL Workfront] mithilfe von E-Mail-Inhalten aus [!DNL Google Workspace]
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das Workfront-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts auf der Seite.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das Workfront-Symbol ![Workfront](assets/wf-lion-icon.png)Symbol in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
 1. Wenn die E-Mail-Nachricht in [!DNL Google Workspace] geöffnet ist **[!UICONTROL klicken Sie im [!DNL Google Workspace]-Bedienfeld auf]** Als neues Update posten.
 1. Klicken **[!UICONTROL unter &quot;]**&quot; auf den Dropdown-Pfeil und dann auf den Objekttyp, zu dem Sie die Aktualisierung hinzufügen möchten.
 1. Klicken Sie auf die **[!UICONTROL Suchen nach]**, geben Sie den Namen des Objekts ein, zu dem Sie die Aktualisierung hinzufügen möchten, und wählen Sie dann das Element aus, wenn es in der Liste unten angezeigt wird.

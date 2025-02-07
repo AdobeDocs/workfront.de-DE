@@ -6,9 +6,9 @@ description: Sie können Ihre Grafiktafeln als Korrekturabzüge direkt in Adobe 
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: cbb12ee7-949e-44a1-9340-3ef93c003b21
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '700'
 ht-degree: 0%
 
 ---
@@ -64,10 +64,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wechseln Sie zu dem Arbeitselement, in das Sie einen Korrekturabzug hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument](assets/documents.png) in der Navigationsleiste.
 1. Klicken Sie **[!UICONTROL Neue Datei]** am unteren Rand des [!DNL Workfront] Bedienfelds.
 1. Aktivieren Sie den **[!UICONTROL Korrekturabzug erstellen]**.
 1. (Optional) Geben Sie einen Namen für den Korrekturabzug in das Textfeld **[!UICONTROL Korrekturabzugsname]** ein.
@@ -75,14 +75,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Optional) Fügen Sie genehmigende Personen hinzu.
 1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
-   ![](assets/add-comment.png)
+   ![Kommentar hinzufügen](assets/add-comment.png)
 
 1. Wählen Sie **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü aus.
 
 1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]**, um eine Datei von Ihrem Computer hinzuzufügen.
 1. Klicken Sie **[!UICONTROL Hochladen]** und konfigurieren Sie dann alle gewünschten Exportoptionen basierend auf dem oben ausgewählten Asset-Typ.
 
-   ![](assets/plugin-files-350x307.png)\
+   ![Dateien im Plug-in](assets/plugin-files-350x307.png)\
    Das Dokument wird im Bereich [!UICONTROL Dokumente] im [!DNL Workfront] in [!DNL Photoshop] und im [!DNL Workfront]-Desktop-Programm angezeigt.
 
 
@@ -90,10 +90,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wechseln Sie zu dem Arbeitselement, in das Sie einen Korrekturabzug hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie **[!UICONTROL Neue Datei]** am unteren Rand des [!DNL Workfront] Bedienfelds.
 1. Aktivieren Sie den **[!UICONTROL Korrekturabzug erstellen]**.
@@ -110,7 +110,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional) Geben Sie einen Kommentar im Bereich **[!UICONTROL Aktualisierungen]** ein.
 
-   ![](assets/add-comment-automated-approval.png)
+   ![Kommentar hinzufügen - automatisierte Genehmigung](assets/add-comment-automated-approval.png)
 
 1. Wählen Sie **[!UICONTROL Asset-Typ]** aus dem Dropdown-Menü aus.
 1. (Optional) Wählen Sie **[!UICONTROL Externe Datei hinzufügen]**, um eine Datei von Ihrem Computer hinzuzufügen.
@@ -123,10 +123,10 @@ Sie können eine neue Version eines Korrekturabzugs hochladen. Das Plug-in speic
 
 1. Klicken Sie **[!UICONTROL oben rechts auf]** Menü“ und wählen Sie dann **[!UICONTROL Arbeitsliste]** aus. Sie können auch das Menü verwenden, um zu übergeordneten Objekten zu navigieren.
 
-   ![](assets/go-back-to-work-list-350x314.png)
+   ![Zurück zur Arbeitsliste](assets/go-back-to-work-list-350x314.png)
 
 1. Wechseln Sie zu dem Arbeitselement, auf das Sie ein Dokument hochladen möchten.
-1. Klicken Sie auf **[!UICONTROL Symbol]** Dokument![](assets/documents.png) in der Navigationsleiste.
+1. Klicken Sie auf das **[!UICONTROL Dokument]**-Symbol ![Dokument-Symbol](assets/documents.png) in der Navigationsleiste.
 
 1. Klicken Sie **[!UICONTROL Neue Version]** am unteren Rand des [!DNL Workfront] Bedienfelds.
 1. Aktivieren Sie den **[!UICONTROL Korrekturabzug erstellen]**.

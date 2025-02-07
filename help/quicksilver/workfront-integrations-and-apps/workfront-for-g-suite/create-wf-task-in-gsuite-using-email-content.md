@@ -7,9 +7,9 @@ description: Sie können eine externe E-Mail (nicht vom Adobe generiert [!DNL Wo
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 6bbb4301-2791-4d72-bad8-fef63d6e892a
-source-git-commit: 84444753db0e5c496f013e0245988e62fddad585
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '920'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Bevor Sie eine [!DNL Workfront] Aufgabe in [!DNL Google Workspace] erstellen kö
 
 ## Erstellen einer [!DNL Adobe Workfront] Aufgabe in [!DNL Google Workspace] mit E-Mail-Inhalt
 
-1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace]-Add-ons ganz rechts auf der Seite.
+1. Wenn das Bedienfeld [!UICONTROL Workfront für Google Workspace] nicht angezeigt wird, klicken Sie auf das [!DNL Workfront]-Symbol ![Workfront](assets/wf-lion-icon.png) in der Seitenleiste [!DNL Google Workspace] Add-ons ganz rechts auf der Seite.
 1. Wenn die E-Mail-Nachricht in [!DNL Google Workspace] geöffnet ist, klicken Sie auf eine Option in [!DNL Workfront for Google Workspace], um die E-Mail in eine neue [!DNL Workfront]-Aufgabe zu konvertieren.
 
 1. Wählen Sie eine **[!UICONTROL Neu erstellen]**, um anzugeben, ob die Aufgabe Teil eines Projekts oder einer persönlichen Aufgabe sein soll, die unabhängig von einem Projekt ist.

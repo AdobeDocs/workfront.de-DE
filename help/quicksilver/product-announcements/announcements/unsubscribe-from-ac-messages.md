@@ -6,9 +6,9 @@ description: Nachrichten aus dem Ankündigungs-Center werden von Adobe Workfront
 author: Luke
 feature: Product Announcements
 exl-id: a9922e91-c58c-4c25-968c-ab70fa8d8916
-source-git-commit: bcafa607da733b89747f6b448dd295d9b906d060
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '231'
+source-wordcount: '238'
 ht-degree: 0%
 
 ---
@@ -25,16 +25,16 @@ Nachrichten aus dem Ankündigungs-Center werden von Adobe Workfront an den Workf
 
 Abmeldung vom Erhalt von Nachrichten des Ankündigungscenters:
 
-1. Klicken Sie auf das nummerierte Symbol oben rechts in Workfront, ![](assets/notifications-icon-jewel.jpg) Ihre Benachrichtigungsliste zu öffnen.
+1. Klicken Sie oben rechts in Workfront auf ![ nummerierte Symbol ](assets/notifications-icon-jewel.jpg)Benachrichtigungssymbol), um die Liste der Benachrichtigungen zu öffnen.
 1. Klicken **unten** der Liste auf „Alle Ankündigungen“.
 
    Die **Ankündigungen** wird angezeigt, auf der alle Ihre Ankündigungen aufgelistet sind.
 
-   ![](assets/announcements-page-qs-350x210.png)
+   ![Seite „Ankündigungen“](assets/announcements-page-qs-350x210.png)
 
 1. Klicken Sie **oben rechts** der Ankündigungs-Seite auf „Einstellungen“ und wählen Sie dann **Neue Versionen** oder **Schulung** je nach dem Typ der Ankündigungen, die Sie nicht mehr erhalten möchten.
 
-   ![](assets/announcementcenter-settings-350x187.png)
+   ![Einstellungen der Ankündigungszentrale](assets/announcementcenter-settings-350x187.png)
 
 1. Klicken Sie **Einstellungen speichern**.
 

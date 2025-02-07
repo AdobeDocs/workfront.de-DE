@@ -6,9 +6,9 @@ draft: false
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4607703a-d70e-432c-9fa2-bd43af5a870e
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '767'
+source-wordcount: '770'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Weitere Informationen finden Sie unter [Systemweite Projektvoreinstellungen konf
 
 ## Deaktivieren von Gruppen auf der Seite Gruppen
 
-Kürzlich haben wir die Möglichkeit hinzugefügt, Gruppen zu deaktivieren und zu reaktivieren. Um diese Aktion zu beschleunigen und zu vereinfachen, wurde sie zur Seite einer Gruppe hinzugefügt. Nachdem Sie nun auf den Namen einer Gruppe geklickt haben, um zu ihrer Seite zu gelangen, können Sie das Menü Mehr ![](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) neben dem Namen der Gruppe auswählen und auf Deaktivieren oder Reaktivieren klicken.
+Kürzlich haben wir die Möglichkeit hinzugefügt, Gruppen zu deaktivieren und zu reaktivieren. Um diese Aktion zu beschleunigen und zu vereinfachen, wurde sie zur Seite einer Gruppe hinzugefügt. Nachdem Sie nun auf den Namen einer Gruppe geklickt haben, um zu ihrer Seite zu gelangen, können Sie das Menü Mehr ![Hauptmenüsymbol](/help/quicksilver/administration-and-setup/manage-groups/create-and-manage-groups/assets/main-menu-icon.png) neben dem Gruppennamen auswählen und dann Deaktivieren oder Reaktivieren auswählen.
 
 Zuvor konnten Sie eine Gruppe nur mithilfe des Kontrollkästchens Ist aktiv auf ihrer Detailseite deaktivieren oder reaktivieren.
 

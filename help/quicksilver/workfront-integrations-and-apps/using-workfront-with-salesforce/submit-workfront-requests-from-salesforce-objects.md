@@ -6,9 +6,9 @@ description: Nach der Installation [!DNL Adobe Workfront] für [!DNL Salesforce]
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 84f8cb15-4840-4fe1-bf60-93bc4283b564
-source-git-commit: 5b889633a96d634a359181bfd53ec106b0f3705c
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 1%
 
 ---
@@ -107,7 +107,7 @@ Um eine [!DNL Workfront]-Anfrage von einer [!DNL Salesforce] Opportunity oder ei
 1. (Optional) Klicken Sie auf **[!UICONTROL Wechseln zu[!DNL Salesforce]]**, um auf die Opportunity oder das Konto zuzugreifen, bei dem das Problem aus den folgenden Bereichen von Workfront stammt:
 
    * Im [!UICONTROL Details] des Problems
-   * Wenn Sie das Problem in einer Liste im Bedienfeld Zusammenfassung auswählen, nachdem Sie in der Symbolleiste der [!UICONTROL  auf ]Zusammenfassung öffnen![](assets/summary-panel-icon.png) geklickt haben.
+   * Wenn Sie das Problem in einer Liste im Bedienfeld Zusammenfassung auswählen, nachdem Sie in der Symbolleiste der Liste auf [!UICONTROL Zusammenfassung öffnen] ![Symbol ](assets/summary-panel-icon.png)Zusammenfassungsbereich“ geklickt haben.
    * In der Problem-Kopfzeile, wenn das Feld [!UICONTROL Integrationen] verfügbar ist. Ihr System- oder Gruppenadministrator muss das Feld [!UICONTROL Integrationen] zu Ihrer Layoutvorlage hinzufügen, um den Link Wechseln zu Salesforce in der Anfragekopfzeile anzuzeigen. Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
    >[!NOTE]

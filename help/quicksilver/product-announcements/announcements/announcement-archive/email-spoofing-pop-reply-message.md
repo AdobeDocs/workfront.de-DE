@@ -6,7 +6,7 @@ description: Mit Version 20.3 (geplant für August 2020) ändern wir die Art und
 author: Luke
 feature: Product Announcements
 exl-id: 9110f04d-b7a9-428b-928c-c4eb746fec3f
-source-git-commit: 1bc7334423c567ef5f7fd9bcbc28de267e035c0a
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
 source-wordcount: '313'
 ht-degree: 0%
@@ -19,11 +19,11 @@ Mit Version 20.3 (geplant für August 2020) ändern wir die Art und Weise, wie A
 
 ## Ausgehende E-Mails von Workfront
 
-Um den erfolgreichen Versand von E-Mails zu steigern, werden wir das Spoofing von E-Mails, das häufig als Spam getaggt wird, beseitigen (siehe E-Mail-Spoofing). Alle E-Mails von Workfront werden von notifications@my.workfront.com gesendet, einschließlich automatisierter Warnhinweise und Benutzerkommunikation. Eine Beispiel-E-Mail von Joan Harris sieht im Bereich Absender Ihrer E-Mail wie folgt aus:
+Um den erfolgreichen Versand von E-Mails zu steigern, werden wir das Spoofing von E-Mails, das häufig als Spam getaggt wird, beseitigen (siehe E-Mail-Spoofing). Alle E-Mails von Workfront werden von `notifications@my.workfront.com` gesendet, einschließlich automatisierter Warnhinweise und der Kommunikation zwischen Benutzenden. Eine Beispiel-E-Mail von Joan Harris sieht im Bereich Absender Ihrer E-Mail wie folgt aus:
 
-![](assets/noreply.png)
+![Beispiel-E-Mail](assets/noreply.png)
 
-*Wir empfehlen Ihnen dringend, sich an Ihr IT-Team zu wenden* um sicherzustellen, dass E-Mails von notifications@my.workfront.com nicht für eingehende E-Mails an Ihr System blockiert werden. Sie können auch auf [Zulassungsliste Ihrer Firewall konfigurieren](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) verweisen, um zu erfahren, von welchen IP-Adressen unser Traffic und unsere E-Mail stammen.
+*Wir empfehlen Ihnen dringend, sich an Ihr IT-Team zu wenden* um sicherzustellen, dass E-Mails von `notifications@my.workfront.com` nicht für eingehende E-Mails in Ihrem System blockiert werden. Sie können auch auf [Zulassungsliste Ihrer Firewall konfigurieren](../../../administration-and-setup/get-started-wf-administration/configure-your-firewall.md) verweisen, um zu erfahren, von welchen IP-Adressen unser Traffic und unsere E-Mail stammen.
 
 ## Eingehende E-Mail-Antworten auf Benachrichtigungen (POP-Antwort)
 

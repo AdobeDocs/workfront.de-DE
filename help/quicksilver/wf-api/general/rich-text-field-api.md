@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 67fc34dc-0722-4419-8254-0371ad5abfc3
-source-git-commit: 14ff8da8137493e805e683e5426ea933f56f8eb8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Einige Objekte in Adobe Workfront ermöglichen die Speicherung von Text mit Rich
 
 Ein benutzerdefiniertes Feld mit Rich-Text-Formatierung wird als **Feld mit Rich-Text** bezeichnet und kann die folgenden Werte aufweisen:
 
-![](assets/rich-text-example-350x158.png)
+![Rich-Text-Beispiel](assets/rich-text-example-350x158.png)
 
 **Beispiel** Eine einfache GET-Anfrage zum Abrufen des Werts des benutzerdefinierten Formularfelds (**mit Rich-Text**:
 
@@ -48,7 +48,7 @@ Ein Block ist ein JSON-Objekt, das eine einzelne Zeile formatierten Textes darst
 
 **Beispiel** Hier wird jede Textzeile aus einem benutzerdefinierten Feld einem Blockelement in den Array-Blöcken zugeordnet
 
-![](assets/copy-of-rich-text-mapping-350x159.png)
+![Rich-Text-Zuordnung](assets/copy-of-rich-text-mapping-350x159.png)
 
 Da jedes Blockelement auch ein JSON-Objekt ist, besteht jeder Block aus den Elementen **key**, **text**, **type**, **depth**, **inlineStyleRanges**, **entityRanges** und **data**. Jedes dieser Elemente funktioniert wie folgt:
 
@@ -61,7 +61,7 @@ Da jedes Blockelement auch ein JSON-Objekt ist, besteht jeder Block aus den Elem
 
 **Beispiel:** Hier finden Sie ein inlineStyleRanges-Array, das jeden Stil auf Zeichenebene beschreibt. In diesem Fall: 9 Zeichen (Länge: 9), beginnend mit dem Index 0 (Versatz: 0) hatten den Stil **Fett** angewendet:
 
-![](assets/copy-of-rich-text-mapping-2-350x136.png)
+![Rich-Text-Zuordnung](assets/copy-of-rich-text-mapping-2-350x136.png)
 
 Wenn mehrere Formatierungstypen auf eine einzelne Zeile angewendet wurden, werden Stile zusätzlichen Elementen im Array **inlineStyleRanges** zugeordnet.
 

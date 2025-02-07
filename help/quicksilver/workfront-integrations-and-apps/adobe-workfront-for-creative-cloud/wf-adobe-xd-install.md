@@ -6,9 +6,9 @@ description: Sie können das Adobe Workfront for XD-Plug-in über den Adobe Mark
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: d4971977-b5bd-4bb4-a1c2-44829a67d32d
-source-git-commit: 4256e1ecd16179d0a2aa8e623b05be754d8bbd2d
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '474'
 ht-degree: 1%
 
 ---
@@ -89,7 +89,7 @@ Sie können das [!DNL Adobe Workfront for XD]-Plug-in über die [!DNL Adobe Exch
 
 1. Klicken Sie in der linken unteren Ecke auf das Symbol **Plug-ins** .
 
-![](assets/xd-plugin-window-350x620.png)
+![XD-Plug-in-Fenster](assets/xd-plugin-window-350x620.png)
 
 1. Suchen Sie **[!UICONTROL Plug-ins-Bedienfeld]** nach **[!UICONTROL Adobe Workfront for XD]**.
 
@@ -103,7 +103,7 @@ Sie können das [!DNL Adobe Workfront for XD]-Plug-in über die [!DNL Adobe Exch
    >[!TIP]
    >
    >* Öffnen Sie einen Browser, navigieren Sie zu Ihrer [!DNL Workfront] und kopieren Sie den ersten Teil der URL, um Ihre Domain zu finden:\
-   >![](assets/domain-350x50.png)
+   >![Domain suchen](assets/domain-350x50.png)
    >
    > * Wenn Ihre Workfront-Instanz mit Experience Cloud integriert ist, bitten Sie Ihren Administrator, Ihnen die Workfront-Domain bereitzustellen, die Sie unter Produkt > Workfront in der Admin Console finden.
 

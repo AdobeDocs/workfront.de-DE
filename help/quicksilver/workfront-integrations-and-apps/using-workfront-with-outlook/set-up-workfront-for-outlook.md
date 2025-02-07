@@ -6,9 +6,9 @@ description: Mit  [!DNL Adobe Workfront] [!DNL Outlook] Add-In können Sie die w
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 57f0560b-68c2-4654-863e-bd728e76da29
-source-git-commit: bcf03609e0503a5db0384fd573066467a1feb341
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '686'
 ht-degree: 0%
 
 ---
@@ -112,7 +112,7 @@ Das Workfront-Add-In für Outlook erhalten Sie im [Microsoft Store](https://apps
 
 ### [!DNL Workfront] für [!DNL Outlook 365] {#workfront-for-outlook-365}
 
-1. Klicken Sie [!DNL Outlook 365] oben in der **[!UICONTROL 365-Benutzeroberfläche auf]** Symbol ![](assets/outlook-add-in-26x26.png)Add-Ins durchsuchen und dann auf **[!UICONTROL Add-Ins verwalten]**.
+1. Klicken Sie [!DNL Outlook 365] oben in der Office 365 **[!UICONTROL Benutzeroberfläche auf das Symbol]** Add-Ins durchsuchen![ ](assets/outlook-add-in-26x26.png) und anschließend auf **[!UICONTROL Add-Ins verwalten]**.
 
 1. Suchen Sie im Feld **[!UICONTROL Add-Ins suchen]** nach **[!DNL Workfront]** drücken Sie dann die [!UICONTROL Eingabetaste].
 
@@ -121,7 +121,7 @@ Das Workfront-Add-In für Outlook erhalten Sie im [Microsoft Store](https://apps
 ### [!DNL Workfront] für [!DNL Outlook] im Web {#workfront-for-outlook-on-the-web}
 
 1. Öffnen Sie [!DNL Microsoft Outlook] in einem Webbrowser.
-1. Klicken Sie auf **[!UICONTROL Symbol ]Durchsuchen** Add-Ins![](assets/outlook-add-in-web-version-20x20.png).
+1. Klicken Sie auf **[!UICONTROL Symbol ]Durchsuchen** Add-Ins![Durchsuchen-Add-Ins](assets/outlook-add-in-web-version-20x20.png).
 
    Informationen zum Auffinden des Symbols finden Sie unter [Verwenden von Add [!DNL Outlook] Ins im Web](https://support.microsoft.com/en-us/office/using-add-ins-in-outlook-on-the-web-8f2ce816-5df4-44a5-958c-f7f9d6dabdce#bkmk_addaddinsicon) in der Dokumentation zu Microsoft.
 

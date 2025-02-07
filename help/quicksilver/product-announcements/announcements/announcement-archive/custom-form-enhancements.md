@@ -4,9 +4,9 @@ description: In Version 22.2 wurden die folgenden wichtigen Verbesserungen bei d
 author: Luke
 feature: Product Announcements, Custom Forms
 exl-id: 81568eab-8a65-4767-b8ab-fb9353a90bb6
-source-git-commit: 8dac7959919014d7bfbbbd39d193d026ca31c4b2
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1117'
 ht-degree: 0%
 
 ---
@@ -19,17 +19,17 @@ In Version 22.2 wurden die folgenden wichtigen Verbesserungen bei der Verwaltung
 
 Sie können Bilder in benutzerdefinierte Formulare einbetten. Auf diese Weise können Sie mit Benutzern benutzerdefinierter Formulare interaktiver und visueller kommunizieren. Weitere Widget-Typen sind in Kürze verfügbar.
 
-![](assets/image-in-custom-form.png)
+![Bild in benutzerdefinierter Form](assets/image-in-custom-form.png)
 
 Wenn ein benutzerdefiniertes Formular, das ein Widget enthält, an ein Objekt angehängt wird, können Benutzende, die mit dem Objekt arbeiten, es in den folgenden Bereichen sehen:
 
 * Der Bereich Details des Objekts (z. B. für ein Projekt der Bereich Projektdetails )&#x200B;
 
-  ![](assets/see-image-details-page.png)
+  ![Bilddetails](assets/see-image-details-page.png)
 
 * Das Bearbeitungsfeld für das Objekt, wenn es das neue Erscheinungsbild von Adobe Workfront aufweist (z. B. die Felder Projekt bearbeiten und Aufgabe bearbeiten )&#x200B;
 
-  ![](assets/image-see-in-edit.png)
+  ![Bildbearbeitung](assets/image-see-in-edit.png)
 
 Derzeit können Benutzer das Widget nicht in den folgenden Bereichen sehen:&#x200B;
 
@@ -42,11 +42,11 @@ Derzeit können Benutzer das Widget nicht in den folgenden Bereichen sehen:&#x20
 
 Sie können mit jedem neuen benutzerdefinierten Formular mehrere Objekttypen verknüpfen:
 
-![](assets/new-custom-form-object-types.png)
+![Benutzerdefinierte Formularobjekttypen](assets/new-custom-form-object-types.png)
 
 Oder ein vorhandenes benutzerdefiniertes Formular:
 
-![](assets/add-object-type-existing-form.png)
+![Objekttyp zum Formular hinzufügen](assets/add-object-type-existing-form.png)
 
 Auf diese Weise können Sie ein einzelnes benutzerdefiniertes Formular erstellen, das für Projekte, Aufgaben, Probleme und alle anderen Objekttypen verwendet werden kann, die für benutzerdefinierte Formulare unterstützt werden.
 
@@ -76,11 +76,11 @@ Beachten Sie Folgendes, wenn Sie ein benutzerdefiniertes Formular mit mehreren O
 
 Die Gruppe der Berechtigungsoptionen für den Abschnittsumbruch, die für die Objekttypen „Problem“, „Aufgabe“, „Projekt“ und „Benutzer“ verfügbar sind, verfügt über eine weitere Berechtigungsoption als die Gruppe von Berechtigungsoptionen für alle anderen Objekttypen: Eingeschränkte Bearbeitung.
 
-![](assets/section-break-permissions-limited-edit.png)
+![Abschnittsumbruch mit eingeschränkter Bearbeitung](assets/section-break-permissions-limited-edit.png)
 
 Die Gruppe der Abschnittsumbruchberechtigungen, die für alle anderen Objekttypen verfügbar sind (Portfolio, Dokument, Programm, Ausgabe, Unternehmen, Iteration, Rechnungsnachweis und Gruppe), umfasst keine eingeschränkte Bearbeitung:
 
-![](assets/section-break-permissions-no-limited-edit.png)
+![Abschnittsumbruch ohne eingeschränkte Bearbeitung](assets/section-break-permissions-no-limited-edit.png)
 
 In einem benutzerdefinierten Formular, das mit Objekttypen aus diesen beiden Gruppen verknüpft ist, verwendet das System einen gemeinsamen Satz von Abschnittsumbruchberechtigungen, die für alle Objekttypen funktionieren. Anstatt die Option zur eingeschränkten Bearbeitung zu verwenden, ersetzt dieser allgemeine Satz die Option zur Bearbeitung von Berechtigungen durch die Option zur eingeschränkten Bearbeitung. Die Option Bearbeiten ist mit allen Objekttypen kompatibel.
 

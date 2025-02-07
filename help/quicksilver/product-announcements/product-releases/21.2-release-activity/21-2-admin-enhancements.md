@@ -8,9 +8,9 @@ author: Luke
 feature: Product Announcements, System Setup and Administration
 recommendations: noDisplay, noCatalog
 exl-id: 7ae5a04a-a9bc-4a85-8651-2b912f7fd7e4
-source-git-commit: dd718ff8f497065018cdfb9592ff0804d7668bf8
+source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1525'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Um die Admins im Bereich „Setup“ besser auszurichten und die Konsistenz von 
 * Hierarchieinformationen über dem Namen jeder Unterseite (z. B. auf der Seite für eine einzelne Gruppe)
 * Modernisierte Schriftstile und -größen
 
-  ![](assets/updated-headers-in-setup-02-29-21-350x214.png)
+  ![Aktualisierte Kopfzeilen im Setup](assets/updated-headers-in-setup-02-29-21-350x214.png)
 
 Weitere Informationen zum Setup-Bereich finden Sie unter [Administration und Setup](../../../administration-and-setup/administration-and-setup.md).
 
