@@ -6,7 +6,7 @@ description: Übersicht über den Berichtsversand
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
 workflow-type: tm+mt
 source-wordcount: '1531'
 ht-degree: 0%
@@ -43,11 +43,11 @@ Beachten Sie beim Planen von Berichten für den Versand Folgendes:
 
 Es gibt mehrere Größenbeschränkungen, die sich darauf auswirken, wie Berichte in Workfront angezeigt werden und wie sie über einen manuellen Export, einen bereitgestellten Bericht oder über die API exportiert werden:
 
-* **5 MB Dateigröße:** Dateigrößenbeschränkung für exportierte Berichte, deren Bereitstellung geplant ist. Wenn eine exportierte Datei, die an eine E-Mail angehängt ist, größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, anstelle des angehängten exportierten Berichts per E-Mail gesendet.
+* **10 MB Dateigröße** Dateigrößenbeschränkung für exportierte Berichte, deren Bereitstellung geplant ist. Wenn eine exportierte Datei, die an eine E-Mail angehängt ist, größer als 5 MB ist, wird ein Link, über den die Datei heruntergeladen werden kann, anstelle des angehängten exportierten Berichts per E-Mail gesendet.
 
   >[!NOTE]
   >
-  >Excel-XLSX-Dateien mit mehr als 5 MB erzeugen keine E-Mail. Sie können den Bericht manuell in dieses Format exportieren. Informationen zum Exportieren von Berichten finden Sie unter [Exportieren von Daten](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
+  >Excel-XLSX-Dateien mit mehr als 10 MB generieren keine E-Mail. Sie können den Bericht manuell in dieses Format exportieren. Informationen zum Exportieren von Berichten finden Sie unter [Exportieren von Daten](../../../reports-and-dashboards/reports/creating-and-managing-reports/export-data.md).
 
 * **50.000 Zeilen:** Die Anzahl der Datenzeilen, die in einem Berichtsexport für PDF- und TAB-Dateien zulässig ist.
 
