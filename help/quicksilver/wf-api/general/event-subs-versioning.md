@@ -6,21 +6,23 @@ description: Ereignisabonnement-API
 author: Becky
 feature: Workfront API
 role: Developer
-source-git-commit: e93634acdf2a97344f014c28ff9bbf43f1392e53
+exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
+source-git-commit: 0b8c327f5ab541358649474b405b881dac06c1aa
 workflow-type: tm+mt
-source-wordcount: '1100'
+source-wordcount: '1124'
 ht-degree: 0%
 
 ---
-
 
 # Versionierung von Ereignisabonnements
 
 Workfront verfügt über zwei Versionen von Ereignisabonnements. Dieser Artikel beschreibt die Unterschiede zwischen ihnen.
 
-Dies ist keine Änderung an der Workfront-API, sondern eine Änderung an der Ereignisabonnementfunktion.
+Die neue Version ist keine Änderung der Workfront-API, sondern eine Änderung der Ereignisabonnementfunktion.
 
 Die Möglichkeit, Ereignisabonnements zu aktualisieren oder herabzustufen, stellt sicher, dass vorhandene Abonnements nicht beschädigt werden, wenn Änderungen an der Ereignisstruktur vorgenommen werden, sodass Sie ohne Lücke in Ihrem Ereignisabonnement testen und auf die neue Version aktualisieren können.
+
+Informationen zu den Endpunkten, die zum Aktualisieren oder Herunterstufen von Ereignisabonnements verwendet werden, finden Sie [Ereignisabonnement-Versionierung](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) im Artikel Ereignisabonnement-API.
 
 >[!IMPORTANT]
 >
@@ -35,7 +37,6 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen
 
 
 ### Allgemeine Änderungen
-
 
 
 <table style="table-layout:auto"> 
