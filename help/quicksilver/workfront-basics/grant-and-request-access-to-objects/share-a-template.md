@@ -6,16 +6,14 @@ description: Als Adobe Workfront-Admin können Sie Benutzenden Zugriff gewähren
 author: Alina
 feature: Get Started with Workfront
 exl-id: 19fb0de5-7db5-42a9-9f33-a4570acfeef8
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '584'
 ht-degree: 2%
 
 ---
 
 # Freigeben einer Vorlage
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Als Adobe Workfront-Admin können Sie Benutzenden Zugriff gewähren, um Vorlagen anzuzeigen oder zu bearbeiten, wenn Sie ihre Zugriffsebene zuweisen. Ein Benutzer muss über eine Plan-Lizenz verfügen, um Zugriff auf die Bearbeitung von Vorlagen zu erhalten.
 
@@ -42,13 +40,12 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
      Sie können einer Vorlage die folgenden Berechtigungen erteilen:
 
       * Anzeigen
+
+        ![](assets/view-on-template-262x221.png)
+
       * Verwalten
 
-        ![](assets/view-on-template-262x221.png) ![](assets/manage-on-template-225x280.png)
-
-     <span class="preview">In Vorschau:
-     ![](assets/template-permissions.png)
-  </span>
+        ![](assets/manage-on-template-225x280.png)
 
    * Die zukünftigen Projekte, die mithilfe der Vorlage erstellt werden. Für Projekte, die aus einer Vorlage erstellt werden, können Sie dieselbe Berechtigungsstufe gewähren wie für ein einzelnes Projekt. 
 

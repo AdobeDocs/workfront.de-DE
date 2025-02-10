@@ -6,7 +6,7 @@ description: Sie können einen Ordner und seinen Inhalt über den Bereich Dokume
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
 source-wordcount: '903'
 ht-degree: 0%
@@ -132,8 +132,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. (Optional) Wenn alle Systembenutzenden den Ordner und seinen Inhalt anzeigen können sollen, klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings-with-dn-arrow.jpg) in der oberen rechten Ecke des Freigabefelds und dann auf **Dies systemweit sichtbar machen.**
 
    Wenn Sie Ihre Meinung ändern, können Sie auf **Systemweiten Zugriff entfernen** (die Standardoption) klicken.
-
-<!--1. (Optional) If you want everyone in the system to be able to view the folder and its contents, choose **Everyone in the System can view** in the **Who has access** drop-down menu. -->
 
 ## Zugriff von Benutzern auf den Inhalt eines Ordners, der für sie freigegeben wurde
 

@@ -6,17 +6,14 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen Zugriff zum Anzeigen o
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
+source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '643'
 ht-degree: 2%
 
 ---
 
 # Freigeben einer Aufgabe
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
-
 
 Ihr Adobe Workfront-Administrator kann Ihnen Zugriff zum Anzeigen oder Bearbeiten von Aufgaben gewähren, wenn er Zugriffsebenen zuweist. Weitere Informationen zum Gewähren des Zugriffs auf Aufgaben finden Sie unter [Zugriff auf Aufgaben gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
@@ -38,10 +35,6 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
    * Verwalten
    * Mitwirken\
      ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
-     <span class="preview">In Vorschau:
-     ![](assets/task-permissons.png)
-  </span>
 
 * Wenn Sie eine Aufgabe freigeben, erben Benutzerinnen und Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit der Aufgabe verknüpft sind. Beispielsweise erben sie dieselben Berechtigungen für die untergeordneten Aufgaben, Probleme und Dokumente, die an die Aufgabe angehängt sind.\
   Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter  [Verstehen von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
