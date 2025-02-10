@@ -7,14 +7,16 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b4e90918c5f499638d0cf5355dc75c3ceca48293
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
 
 # Dokument freigeben
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum Anzeigen oder Bearbeiten von Dokumenten, wenn sie Zugriffsebenen zuweisen, wie in [Zugriff auf Dokumente gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md) beschrieben.
 
@@ -39,6 +41,10 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
    * Anzeigen
    * Verwalten
+
+  <span class="preview">In Vorschau:
+  ![](assets/document-permissions.png)
+</span>
 
 * Sie können ein Dokument auch öffentlich oder systemweit freigeben.
 
