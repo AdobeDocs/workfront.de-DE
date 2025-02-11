@@ -6,9 +6,9 @@ description: Sie können eine Story oder ein Problem vom Scrum-Board in eine and
 author: Lisa
 feature: Agile
 exl-id: 72990251-0264-4e68-83ef-1a9cde5b685c
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '477'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Verwalten von Storys und Problemen auf dem [!UICONTROL Scrum]-Board
 
 Sie können eine Story oder ein Problem von der [!UICONTROL Scrum]-Pinnwand in eine andere Iteration oder in den Rückstand verschieben oder aus der [!UICONTROL Scrum]-Pinnwand löschen. Wenn Sie eine Story oder ein Problem löschen, wird diese für 30 Tage in den Papierkorb verschoben und kann nur vom Systemadministrator wiederhergestellt werden.
+
+Um eine Aufgabe oder ein Problem aus der Iteration zu entfernen, ohne sie zu löschen oder an den Rückstand zu senden, gehen Sie zum Projekt und entfernen Sie das Agile-Team aus der Arbeitsauftragsspalte. Dadurch wird die Aufgabe oder das Problem aus dem Scrum-Board entfernt, es verbleibt jedoch im Projekt.
 
 ## Zugriffsanforderungen
 

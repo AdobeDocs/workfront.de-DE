@@ -6,9 +6,9 @@ description: Iterationen sind eine Schlüsselkomponente für agile Scrum-Teams b
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1060'
+source-wordcount: '1063'
 ht-degree: 0%
 
 ---
@@ -156,6 +156,6 @@ Wenn Sie einer Iteration eine Aufgabe als Story hinzufügen, wird für jede Stor
 
 [!UICONTROL Enddatum der Iteration] minus (-) [!UICONTROL Aufgabendauer] ist gleich (=) [!UICONTROL Geplantes Startdatum der Aufgabe]
 
-Das [!UICONTROL Enddatum des Projekts] wird anstelle des   Wenn das Startdatum des Projekts nach dem Startdatum der Iteration liegt und das Enddatum des Projekts nach dem Enddatum der Iteration liegt.
+Das [!UICONTROL Enddatum des Projekts] wird anstelle des Enddatums der Iteration verwendet, wenn das Startdatum des Projekts nach dem Startdatum der Iteration und das Enddatum des Projekts nach dem Enddatum der Iteration liegt.
 
 Sie können einzelne Scrum-Teams so konfigurieren, dass sie standardmäßig die Projektdaten und nicht die Iterationsdaten verwenden. Weitere Informationen finden Sie im Abschnitt [Konfigurieren der Anwendung von Datumsangaben beim Hinzufügen von Arbeitselementen zu einer Iteration](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md#configure-how-dates-are-applied-when-adding-work-items-to-an-iteration) im Artikel [Konfigurieren von Scrum](../../../agile/get-started-with-agile-in-workfront/configure-scrum.md).

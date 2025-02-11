@@ -6,9 +6,9 @@ description: Sie können eine Iteration für Ihr Agile-Team löschen, wenn sie n
 author: Lisa
 feature: Agile
 exl-id: db7fbafd-9d22-4035-a130-60ec2e4ad347
-source-git-commit: 9a3ec953ca1c7989be292f1747a052ed5cc7c74b
+source-git-commit: 95208e0f396d8eab9a71ca156c616891a7f56f7a
 workflow-type: tm+mt
-source-wordcount: '165'
+source-wordcount: '189'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # Iteration löschen
 
 Sie können eine Iteration für Ihr Agile-Team löschen, wenn sie nicht mehr benötigt wird.
+
+Wenn Sie eine Iteration löschen, werden alle Storys der Iteration in den Rückstand verschoben. Die Aufgaben und Probleme bleiben auch in ihren Projekten.
 
 >[!NOTE]
 >

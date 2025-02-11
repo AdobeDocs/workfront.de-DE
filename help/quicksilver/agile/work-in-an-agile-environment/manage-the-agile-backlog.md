@@ -6,9 +6,9 @@ description: Aufgaben und Probleme können einem agilen Team zugewiesen und dem 
 author: Lisa
 feature: Agile
 exl-id: 59660840-7ab8-482e-8b43-96b4a1ecc538
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
 workflow-type: tm+mt
-source-wordcount: '1360'
+source-wordcount: '1349'
 ht-degree: 0%
 
 ---
@@ -115,7 +115,7 @@ Sie können neue Storys im Rückstand erstellen, indem Sie die Story direkt aus 
 
 ### Story aus dem Auftragsbestand erstellen {#create-a-story-from-the-backlog}
 
-Wenn Sie eine Story aus dem Rückstand erstellen, wird die Story als Aufgabe oder Problem in einem Projekt erstellt. Aus dem Rückstand kann keine Story als Problem erstellt werden.
+Wenn Sie eine Story aus dem Rückstand erstellen, wird die Story als Aufgabe oder Problem in einem Projekt erstellt.
 
 So erstellen Sie eine Story aus dem Auftragsbestand:
 
@@ -189,11 +189,11 @@ Die Aufgabe oder das Problem ist jetzt im Team-Rückstand verfügbar.
 
 ## Storys in den oder aus dem Auftragsbestand verschieben
 
-* [Storys aus dem Rückstand in eine Iteration oder + Pinnwand verschieben](#move-stories-from-the-backlog-to-an-iteration-or--board)
+* [Storys aus dem Rückstand in eine Iteration oder Pinnwand verschieben](#move-stories-from-the-backlog-to-an-iteration-or--board)
 * [Vorhandene Storys in den Auftragsbestand verschieben](#move-existing-stories-to-the-backlog)
 * [Stories aus dem Auftragsbestand exportieren](#export-stories-from-the-backlog)
 
-### Storys aus dem Rückstand in eine Iteration oder + Pinnwand verschieben
+### Storys aus dem Rückstand in eine Iteration oder Pinnwand verschieben
 
 1. Rufen Sie den Rückstand des agilen Teams auf.
 1. Wählen Sie die Storys aus, die Sie in eine Iteration oder ein Kanban-Board verschieben möchten, und klicken Sie dann auf **[!UICONTROL Mehr]** > **[!UICONTROL Verschieben nach]**.
