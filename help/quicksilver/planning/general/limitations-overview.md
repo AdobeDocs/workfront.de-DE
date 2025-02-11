@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '375'
+source-wordcount: '364'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 1%
 
 In Adobe Workfront Planning gibt es Beschränkungen für die Anzahl der Objekte, die Sie in Ihrer Instanz erstellen können. Es gibt Objektbeschränkungen, um die Produktleistung zu verbessern und Ihr Erlebnis mit Workfront Planning zu verbessern.
 
-In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte aufgeführt, die Sie in Workfront Planning erstellen können. Die Einschränkungen können sich ändern, wenn wir in die nächsten Entwicklungsphasen eintreten.
+In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte aufgeführt, die Sie in Workfront Planning erstellen können. Die Einschränkungen können sich ändern.
 
 | Adobe Workfront Planning-Objekt | Grenze |
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
@@ -34,7 +34,7 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Datensatztypen aus allen Bereichen sowie aus denjenigen, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
 | Anzahl von Datensätzen für einen Datensatztyp | 25.000 |
 | Anzahl von Datensätzen für einen Arbeitsbereich | 25.000 für Kunden mit Planning <br> 500.000 für Kunden mit Planning Plus |
-| Gesamtzahl der Datensätze für eine Instanz von Workfront Planning | 500.000 für Kunden mit dem Planungsplan <br>2 Millionen für Kunden mit Planning Plus |
+| Gesamtzahl der Datensätze für eine Instanz von Workfront Planning | 500.000 für Kunden mit Planning <br>2 Millionen für Kunden mit Planning Plus |
 | Anzahl der Felder für einen Datensatztyp oder eine Taxonomie | 500 |
 | Anzahl der Zeichen für ein einzeiliges Textfeld | 1.000 Zeichen |
 | Anzahl der Zeichen für ein Absatzfeld | 10.000 Zeichen |

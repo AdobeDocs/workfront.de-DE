@@ -7,7 +7,7 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: b60a1e74d62e9b3945f69dc590f8cc202302c5af
+source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
 workflow-type: tm+mt
 source-wordcount: '2425'
 ht-degree: 0%
@@ -132,11 +132,11 @@ Sie können ein berechnetes benutzerdefiniertes Feld für Datum oder Uhrzeit mit
 <p><code>ADDYEARS(date, number)</code></p> </td> 
   </tr> 
   <tr> 
-   <td><strong>ADDHOUR</strong> </td> 
+   <td><strong>ADDHOURS</strong> </td> 
    <td> <p>Addiert die Anzahl der Stunden zum Datum und ist wie folgt formatiert:</p>
 
 <p><code>ADDHOUR(date, number)</code></p>
-   <p>Hinweis: Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+   <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
   </tr>
   <tr> 
    <td><strong>CLEARTIME</strong> </td> 
@@ -410,7 +410,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
    <p>Der Ausdruck ist wie folgt formatiert:</p>
    <p><code>SORTASCARRAY(array)</code></p>
    <p>Beispielsweise wird ["-12.6“, -13.0] zu ["-12.6“, "-13“].</p>
-   <p>Hinweis: Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+   <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
   </tr>
   <tr> 
    <td><strong>SORTDESCARRAY</strong> </td> 
@@ -418,7 +418,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
    <p>Der Ausdruck ist wie folgt formatiert:</p>
    <p><code>SORTDESCARRAY(array)</code></p>
    <p>Beispielsweise wird ["-12.6“, -13.0] zu ["-13“, "-12.6“].</p>
-   <p>Hinweis: Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+   <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
   </tr>
   <tr>   
    <td><strong>CASE</strong> </td> 
@@ -461,7 +461,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
    <td><p>Gibt formatierten Text zurück. Die Farboptionen sind $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE und die anderen Formatierungsoptionen sind $$BOLD, $$ITALIC, $$UNDERLINE. Pro Funktion kann nur eine Farboption zusammen mit bis zu drei anderen Formatierungsoptionen verwendet werden. Wenn keine Farboption festgelegt ist, wird die Standardfarbe des Systems angewendet.</p>
    <p>Der Ausdruck ist wie folgt formatiert:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
-   <p>Hinweis: Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+   <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
   </tr>   
   <tr> 
    <td><strong>IF</strong> </td> 
@@ -576,7 +576,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
    <td> <p>Wertet den Ausdruck anhand einer Werteliste aus und gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht.</p>
    <p>Der Ausdruck ist wie folgt formatiert:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
-   <p>Diese Funktion wird in Workfront Planning nicht unterstützt.</p></td> 
+   <p>Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
   </tr>   
   <tr> 
    <td><strong>TRIM</strong> </td> 

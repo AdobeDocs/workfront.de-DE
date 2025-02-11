@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
 workflow-type: tm+mt
-source-wordcount: '3824'
+source-wordcount: '3826'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um die Schritte in die
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Bearbeitungszugriff auf den Typ des Arbeitselements, für das Sie die Zeit protokollieren </p> <p>Sie benötigen beispielsweise Bearbeitungszugriff auf Anfragen, um die Zeit für Probleme zu protokollieren</p> </td> 
+   <td> <p>Anzeigen des oder eines höheren Zugriffs auf den Typ des Arbeitselements, für das Sie die Zeit protokollieren </p> <p>Sie benötigen beispielsweise Ansichtszugriff auf Anfragen, um die Zeit für Probleme zu protokollieren</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
