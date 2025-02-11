@@ -5,9 +5,9 @@ description: Sie können Elemente in leicht finden [!DNL Adobe Workfront]  indem
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 7c856349-c79f-40d8-9c96-b32bfb6d5417
-source-git-commit: 073e6c7d4e830dfd2b8920a20e1490c5524d71bd
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '1668'
+source-wordcount: '1690'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ Sie können Elemente in [!DNL Adobe Workfront] einfach finden, indem Sie nach ih
 
 Das Feld [!UICONTROL Suche] wird oben rechts auf jeder Seite in [!DNL Workfront] angezeigt.
 
-![](assets/search-globalnavigationbar-350x62.png)
+![Suchsymbol in der Navigationsleiste](assets/search-globalnavigationbar-350x62.png)
 
 Sie müssen über die Berechtigung zum Anzeigen eines Objekts verfügen, bevor Sie es bei einer Suche finden können. Aus diesem Grund variieren die Suchergebnisse von Benutzer zu Benutzer.
 
@@ -185,15 +185,15 @@ Sie können eine einfache Suche auf eine der folgenden Arten durchführen:
 
 So führen Sie eine einfache Suche durch:
 
-1. Klicken Sie oben rechts auf der Seite auf die ![](assets/search-icon.png) Lupe. Sie können auch **[!UICONTROL ALT + /]** oder **[!UICONTROL Option + /]** eingeben, um das Menü [!UICONTROL Suche] zu öffnen.
+1. Klicken Sie auf die Lupe ![Suchsymbol](assets/search-icon.png) in der oberen rechten Ecke der Seite. Sie können auch **[!UICONTROL ALT + /]** oder **[!UICONTROL Option + /]** eingeben, um das Menü [!UICONTROL Suche] zu öffnen.
 
 1. (Optional) Um nach einem bestimmten Objekt zu suchen, klicken Sie auf das **[!UICONTROL Alle]** Dropdown-Menü und wählen Sie das Objekt aus, nach dem Sie suchen möchten.
 
-   ![](assets/search-objecttype.png)
+   ![Suche nach Objekttyp](assets/search-objecttype.png)
 
 1. Beginnen Sie **[!UICONTROL Feld]** Suchen“ mit der Eingabe der gesuchten Informationen.\
    Informationen dazu, welche Felder in [!DNL Workfront] durchsucht werden, finden Sie unter [Grundlegendes zur Suche](#understand-search).\
-   ![](assets/qs-search-drop-down-highlighted-350x234.png)\
+   ![Dropdown-Liste „Suche“](assets/qs-search-drop-down-highlighted-350x234.png)\
    Wenn Sie mit der Eingabe in die Suchleiste beginnen, gibt [!DNL Workfront] Empfehlungen, die auf Ihrem Ansichtsverlauf basieren, und es wird das gesuchte Keyword in Blau hervorgehoben.
 
 1. Wenn das gesuchte Element im Menü [!UICONTROL mit automatischer Textvervollständigung] angezeigt wird, klicken Sie darauf.
@@ -232,7 +232,7 @@ So verfeinern Sie eine Suche:
 1. Klicken Sie in eines der verfügbaren Felder, um die Ergebnisliste zu verkürzen.\
    Die von Ihnen vorgenommenen Auswahlen werden blau hervorgehoben und die nicht ausgewählten Feldwerte sind ausgeblendet.\
    Nachdem Sie jeden neuen Wert ausgewählt haben, werden die Ergebnisse auf der rechten Seite dynamisch aktualisiert.\
-   ![](assets/qs-refine-search-350x175.png)
+   ![Suche verfeinern](assets/qs-refine-search-350x175.png)
 
 1. (Optional) Klicken Sie auf die ausgewählten Werte, um die Auswahl aufzuheben und alle Werte für jedes Feld erneut anzuzeigen.
 
@@ -253,16 +253,16 @@ Diese Art der Suche ist hilfreich, wenn Sie sich ein mit einem Objekt verknüpft
 
 So führen Sie eine erweiterte Suche durch:
 
-1. Klicken Sie oben rechts auf einer beliebigen Seite in [!DNL Workfront] auf das Symbol **[!UICONTROL Suchen]** ![](assets/search-icon.png). Das Menü [!DNL Search] wird angezeigt.
+1. Klicken Sie oben rechts auf einer beliebigen Seite in [!DNL Workfront] auf das Symbol **[!UICONTROL Suchen]** (![) ](assets/search-icon.png). Das Menü [!DNL Search] wird angezeigt.
 
 1. Klicken Sie unten im Menü [!UICONTROL Suche] auf **[!UICONTROL Erweiterte Suche]**.\
-   ![](assets/qs-advanced-search-350x224.png)\
+   ![Erweiterte Suche](assets/qs-advanced-search-350x224.png)\
    Die [!UICONTROL Erweiterte Suche] wird von rechts geöffnet und deckt den größten Teil der vorherigen Seite ab.
 
 1. Wählen Sie den Typ des Objekts aus, nach dem Sie suchen.\
    **[!UICONTROL Projekte]** ist standardmäßig ausgewählt.
 
-   ![](assets/advanced-search-objects-qs-remove-after-prod-release.png)
+   ![Erweiterte Suchobjekte](assets/advanced-search-objects-qs-remove-after-prod-release.png)
 
 1. (Optional) Geben Sie ein Keyword in das Feld oben in der Liste ein.
 1. (Optional) Klicken Sie **[!UICONTROL Ergebnisse filtern]**, um Ihre Suchergebnisse nach bestimmten Feldtypen zu filtern, und wählen Sie dann ein Feld aus der Liste aus. Wählen Sie bei Bedarf auch einen Wert für das Feld aus.\

@@ -6,9 +6,9 @@ description: In  [!DNL Adobe Workfront] werden Elemente als Objekte identifizier
 feature: Get Started with Workfront
 author: Lisa
 exl-id: 94f5a174-21cc-4c10-88ed-89a8014d28f4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '446'
+source-wordcount: '448'
 ht-degree: 0%
 
 ---
@@ -46,7 +46,7 @@ Referenznummern werden für Aufgaben und Probleme standardmäßig angezeigt. Sie
 
 Referenznummern werden beim Anzeigen einer Aufgabe oder eines Problems standardmäßig angezeigt.  Um die Referenznummer anzuzeigen, klicken Sie **[!UICONTROL linken Bereich auf]** Aufgabendetails **[!UICONTROL oder Problemdetails]** und suchen Sie dann den Abschnitt **[!UICONTROL Grundlegende Informationen]** in der Übersicht.
 
-![](assets/reference-number-nwe-350x184.png)
+![Referenznummer](assets/reference-number-nwe-350x184.png)
 
 ### Referenznummern für andere Objekte anzeigen
 

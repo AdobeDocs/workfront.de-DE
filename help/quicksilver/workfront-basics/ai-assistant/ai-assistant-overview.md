@@ -5,9 +5,9 @@ description: Überblick über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: b00032517f2bf048c50fbaf22b79c011017980ea
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '707'
 ht-degree: 1%
 
 ---
@@ -52,7 +52,7 @@ Um den KI-Assistenten für Ihre Organisation zu aktivieren **müssen** alle) der
 * Ihr Unternehmen muss zu Adobe IMS (Identity Management System) migriert sein
 * Adobe Unified Experience muss aktiviert sein
 * Ihr Unternehmen muss über einen Select-, Prime- oder Ultimate Workfront-Plan verfügen
-* Adobe muss eine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei haben
+* Adobe muss über eine unterzeichnete Adobe Gen AI-Vereinbarung verfügen
 
   Weitere Informationen zur Unterzeichnung des Abkommens finden Sie unter [Unterzeichnung des Adobe Gen AI](/help/quicksilver/workfront-basics/ai-assistant/ai-assistant-overview.md#sign-the-adobe-gen-ai-agreement)Abkommens in diesem Artikel.
 
@@ -115,25 +115,25 @@ Der KI-Assistent kann Daten abfragen, die den folgenden Objekttypen zugeordnet s
 
 ## Zugriff auf KI-Assistenten
 
-1. Klicken Sie oben auf einer Workfront-Seite auf das Symbol KI-Assistent ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Klicken Sie oben auf einer Workfront-Seite auf das Symbol „KI-Assistent![Symbol „KI-Assistent](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Geben Sie Ihre Frage oder Eingabeaufforderung im Bedienfeld rechts am Bildschirm ein.
 
-   Wenn Sie in dieses Bedienfeld nicht tippen können, verfügt Ihr Unternehmen über keine unterzeichnete Adobe Gen AI-Vereinbarung.
+   Wenn Sie in dieses Bedienfeld nicht tippen können, hat Ihr Unternehmen keine unterzeichnete Adobe Gen AI-Vereinbarung in der Datei.
 
 1. Wenn der KI-Assistent nicht die Antwort bereitstellt, die Sie benötigen, verfeinern Sie Ihre Eingabeaufforderung und versuchen Sie es erneut.
 
-## Adobe Gen AI-Vertrag unterzeichnen
+## Adobe Gen AI-Vereinbarung unterzeichnen
 
-Wenn Ihr Unternehmen über keine unterzeichnete Adobe-Gen-KI-Vereinbarung verfügt, kann der KI-Assistent für Ihr Unternehmen nicht aktiviert werden.
+Wenn Ihr Unternehmen über keine unterzeichnete Adobe Gen AI-Vereinbarung verfügt, kann der KI-Assistent für Ihr Unternehmen nicht aktiviert werden.
 
 Wenn ein(e) Benutzende(r) versucht, den KI-Assistenten zu verwenden, obwohl die Adobe-Gen-KI-Vereinbarung nicht unterzeichnet wurde, wird eine Meldung angezeigt:
 
 * Benutzende: Benutzende werden darüber informiert, dass der KI-Assistent für ihr Unternehmen nicht aktiviert wurde und sie sich an ihren Workfront-Administrator wenden können, um ihn für ihr Unternehmen anzufordern.
-* Administratoren: Administratoren werden darüber informiert, dass es keine unterzeichnete Adobe-Gen-AI-Vereinbarung gibt, und können verlangen, dass eine Kopie der Vereinbarung zur Unterzeichnung gesendet wird.
+* Administratoren: Administratoren werden darüber informiert, dass es keine unterzeichnete Adobe Gen AI-Vereinbarung gibt, und können verlangen, dass eine Kopie der Vereinbarung zur Unterzeichnung gesendet wird.
 
 So fordern Sie die Adobe Gen AI-Vereinbarung an:
 
-1. Klicken Sie als Workfront-Administrator auf das Symbol KI-Assistent ![](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
+1. Klicken Sie als Workfront-Administrator auf das Symbol „KI![Assistent“ ](/help/quicksilver/workfront-basics/ai-assistant/assets/ai-assistant-icon.png).
 1. Beginnen Sie mit der Eingabe im Bedienfeld KI-Assistent .
 1. Wenn die Adobe Gen AI-Vereinbarungsmeldung angezeigt wird, klicken Sie auf **Vereinbarung überprüfen**.
 1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnen wird.

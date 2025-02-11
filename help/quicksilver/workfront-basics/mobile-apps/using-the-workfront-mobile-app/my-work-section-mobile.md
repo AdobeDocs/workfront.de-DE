@@ -6,10 +6,10 @@ description: Im Abschnitt [!UICONTROL Meine Arbeit] des Bereichs [!UICONTROL Sta
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 006f6f5e-fe10-4530-a22a-4ab33a4e0da5
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '168'
-ht-degree: 0%
+source-wordcount: '172'
+ht-degree: 1%
 
 ---
 
@@ -21,7 +21,7 @@ Im Abschnitt [!UICONTROL Meine Arbeit] des Bereichs [!UICONTROL Startseite] werd
 >
 >[!UICONTROL Meine Arbeit] in der Mobile App ist getrennt von [!UICONTROL Meine Arbeit] in der Desktop-Version von [!UICONTROL Adobe Workfront].
 
-![](assets/home-myworksection-338x379.png)
+![Meine Arbeit](assets/home-myworksection-338x379.png)
 
 ## Anpassen des Abschnitts [!UICONTROL Meine Arbeit]
 
@@ -36,4 +36,4 @@ Sie können auswählen, welche Menüelemente in &quot;[!UICONTROL  Arbeit“ ang
    >
    >Das [!UICONTROL  „Aufgaben und ]&quot; wird immer angezeigt und kann nicht ausgeblendet werden.
 
-   ![](assets/mobile-settings-338x366.png)
+   ![Mobile-Einstellungen](assets/mobile-settings-338x366.png)

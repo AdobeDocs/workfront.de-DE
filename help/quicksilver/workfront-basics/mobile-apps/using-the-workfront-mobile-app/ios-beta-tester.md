@@ -6,9 +6,9 @@ description: Lesen Sie diesen Artikel, um ein iOS-Betatester für die Mobile  [!
 author: Nolan
 feature: Get Started with Workfront
 exl-id: b02119ab-f4ea-4249-8d2c-b26df47e770d
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '440'
+source-wordcount: '443'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Sie müssen die [!DNL Workfront] App und die [!DNL TestFlight] App auf Ihrem iOS
 
 Sie können auch den unten stehenden QR-Code scannen, um sich für die Beta-Version anzumelden und die App herunterzuladen:
 
-![](assets/ios-qr-code-350x397.png)
+![iOS-QR-Code](assets/ios-qr-code-350x397.png)
 
 ## Gebt uns Bescheid, wie es uns geht
 

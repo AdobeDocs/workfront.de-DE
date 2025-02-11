@@ -6,9 +6,9 @@ description: Nachdem Sie in der Projektliste darauf zugegriffen haben[!UICONTROL
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 593dc4a2-20aa-44d3-b819-1d4b160095ed
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '520'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff in [!DNL Workfront] verfügen, um die Schrit
 1. Tippen Sie unten in der Mitte des Bildschirms auf die Registerkarte.\
    Der Bereich [!UICONTROL Widget] wird angezeigt.\
    Scrollen Sie durch die Widgets, indem Sie von links nach rechts wischen.\
-   ![](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
+   ![Widgets](assets/screen-shot-2013-009-11-at-8.25.01-am-350x262.png)
 
 1. Ziehen Sie ein Widget per Drag-and-Drop, um das Layout Ihrer Projektseite anzupassen.\
    Es können bis zu vier Widgets gleichzeitig angezeigt werden.\

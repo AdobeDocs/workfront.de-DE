@@ -6,9 +6,9 @@ description: Lesen Sie diesen Artikel, um ein Android-Betatester für die Mobile
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 84188dec-301b-40f6-a2a3-5e7befae1dc9
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---
@@ -34,13 +34,13 @@ Sie müssen die [!DNL Workfront] App installieren, bevor Sie an der Beta-Version
 
 1. Nachdem der Fortschritt abgeschlossen ist, erhalten Sie eine Bestätigung, dass Sie jetzt ein Beta-Benutzer sind.\
    Das Wort &quot;[!UICONTROL Beta]&quot; wird nach dem Namen der App im [!DNL Play Store] angezeigt, was angibt, dass Sie die Betaversion der App verwenden.\
-   ![](assets/android-beta-tester-adobe-350x468.png)
+   ![Android Beta-Tester](assets/android-beta-tester-adobe-350x468.png)
 
 ### QR-Code
 
 Sie können auch den unten stehenden QR-Code scannen, um sich für die Beta-Version anzumelden und die App herunterzuladen:
 
-![](assets/android-qr-code-350x409.png)
+![Android-QR-Code](assets/android-qr-code-350x409.png)
 
 ## Gebt uns Bescheid, wie es uns geht
 

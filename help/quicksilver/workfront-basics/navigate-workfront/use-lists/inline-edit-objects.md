@@ -6,9 +6,9 @@ description: Sie können Objekte inline bearbeiten, wenn sie in einer Liste oder
 feature: Get Started with Workfront
 author: Nolan
 exl-id: a94b5aaf-71de-4fcd-946b-459ca3edf7e4
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '711'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Wenn das Feld bearbeitet werden kann, werden das Feld und alle anderen Felder, die in der Liste angezeigt werden, zu bearbeitbaren Zellen.
 
-   ![](assets/nwe-editable-cells-350x131.png)
+   ![Bearbeitbare Zellen](assets/nwe-editable-cells-350x131.png)
 
 1. Bearbeiten Sie die Informationen in dieser Zelle und drücken Sie dann die [!UICONTROL Eingabetaste].
 

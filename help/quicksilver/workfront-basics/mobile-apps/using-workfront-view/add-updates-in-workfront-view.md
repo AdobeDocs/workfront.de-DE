@@ -7,9 +7,9 @@ description: Sie können Projekte, die Sie überprüfen, in der App  [!DNL Adobe
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 5d0260ad-7049-42c6-a8a0-9b53fb115ec6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff in [!DNL Workfront] verfügen, um die Schrit
 
 1. Geben Sie eine Aktualisierung ein.
 1. (Optional) Schließen Sie andere Benutzer in die Aktualisierung ein, indem Sie auf [!UICONTROL Personen]-Symbol tippen und den Namen eines anderen Benutzers angeben.\
-   ![](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
+   ![Aktualisierungen in der Mobile App](assets/screen-shot-2014-002-21-at-2.57.44-pm-350x222.png)
 
 1. Tippen Sie auf **[!UICONTROL POST]**.\
    Die Aktualisierung wird im Projekt im Widget **[!UICONTROL Updates]** angezeigt.

@@ -5,9 +5,9 @@ description: Sie können Listen von -Objekten in anzeigen [!DNL Adobe Workfront]
 feature: Get Started with Workfront
 author: Nolan
 exl-id: d4262b8e-bbe0-4ac2-8f1f-5d32541311c8
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2284'
+source-wordcount: '2290'
 ht-degree: 0%
 
 ---
@@ -331,7 +331,7 @@ Eine Liste umfasst die folgenden Elemente:
 
 Diese Elemente werden standardmäßig oben in jeder Liste angezeigt. Sie bleiben haften und bewegen sich nicht, wenn Sie durch die Liste scrollen. Bewegen Sie den Mauszeiger über das Symbol für jedes Element, um es zu identifizieren.
 
-![](assets/nwe-list-elements.png)
+![Listenelemente](assets/nwe-list-elements.png)
 
 Sie können Listenelemente in den folgenden Bereichen anpassen und für andere Benutzer freigeben:
 
@@ -455,7 +455,7 @@ In der folgenden Tabelle werden viele der in der Symbolleiste verfügbaren Symbo
   <tr> 
    <td> <img src="assets/export.png"> </td> 
    <td>[!UICONTROL-Export]</td> 
-   <td>Exportieren Sie die Liste als PDF-, Excel- oder tabulatorgetrennte Dateien.</td> 
+   <td>Exportieren Sie die Liste in Dateien mit PDF, Excel oder Tabulatoren.</td> 
   </tr> 
   <tr> 
    <td> <img src="assets/qs-agile-icon-in-new-toolbar-task-list.png"> </td> 
@@ -525,13 +525,13 @@ In der folgenden Tabelle sind die Ähnlichkeiten und Unterschiede zwischen Liste
  <tbody> 
   <tr> 
    <td> <p>Jeder kann sie erstellen</p> </td> 
-   <td>✓ <span>*</span> </td> 
+   <td><span>✓*</span> </td> 
    <td> </td> 
   </tr> 
   <tr> 
    <td> <p>Nur ein [!DNL Workfront] und Benutzer mit einer [!UICONTROL Plan]-Lizenz können sie erstellen</p> </td> 
    <td> </td> 
-   <td>✓ **</td> 
+   <td>✓**</td> 
   </tr> 
   <tr> 
    <td> <p>Ein Standardsatz ist verfügbar unter [!DNL Workfront]</p> </td> 
@@ -585,7 +585,7 @@ In der folgenden Tabelle sind die Ähnlichkeiten und Unterschiede zwischen Liste
   </tr> 
   <tr> 
    <td> <p>Sie können sie zu einem Dashboard hinzufügen</p> </td> 
-   <td> ✓ *** </td> 
+   <td> ✓*** </td> 
    <td>✓</td> 
   </tr> 
   <tr> 
@@ -624,11 +624,11 @@ In [!DNL Workfront] gibt es zwei Arten von Listen:
 
 * Legacy-Listen
 
-  ![](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
+  ![Blaue Gruppierungen](assets/legacy-list-screen-shot-blue-groupings-350x101.png)
 
 * Aktualisierte Listen
 
-  ![](assets/updated-list-screen-shot-gray-groupings-350x71.png)
+  ![Graue Gruppierungen](assets/updated-list-screen-shot-gray-groupings-350x71.png)
 
 Die folgende Tabelle zeigt einige der Unterschiede zwischen den alten und den aktualisierten Listen in [!DNL Workfront]:
 

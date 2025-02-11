@@ -6,9 +6,9 @@ description: Sie können vorhandene Kommentare zu einem Korrekturabzug überprü
 author: Nolan
 feature: Get Started with Workfront
 exl-id: c38f0d80-11e0-4d5a-9591-602543177fe6
-source-git-commit: 854eb3c0e4ee49315c36e00c7012e0baf2d98c37
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '817'
+source-wordcount: '819'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ In der [!UICONTROL Kommentar]-Liste können Sie verschiedene Aktionen ausführen
 
    Diese Option ist nur verfügbar, wenn Sie ungelesene Kommentare ausgewählt haben.
 
-1. Um die ausgewählten Kommentare zu löschen, klicken Sie auf das **[!UICONTROL Löschen]** Symbol ![](assets/delete-30x28.png) in der unteren Symbolleiste. Wählen Sie dann **[!UICONTROL Löschen]** in der Bestätigungsmeldung aus, um den Kommentar dauerhaft zu löschen.
+1. Um die ausgewählten Kommentare zu löschen, wählen Sie das Symbol **[!UICONTROL Löschen]** (![) ](assets/delete-30x28.png) der unteren Symbolleiste aus. Wählen Sie dann **[!UICONTROL Löschen]** in der Bestätigungsmeldung aus, um den Kommentar dauerhaft zu löschen.
 
 ## Kommentar zu einem Korrekturabzug
 

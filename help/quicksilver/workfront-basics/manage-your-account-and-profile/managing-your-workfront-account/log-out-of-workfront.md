@@ -6,9 +6,9 @@ description: Aus Sicherheitsgründen ist es wichtig, sich regelmäßig  [!DNL Ad
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 3b457a44-53a1-44c5-99ce-445ab1463303
-source-git-commit: 8b1c7f4fa96a6d5f1bc7fbc7ef11e57fa9ff4bff
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '216'
+source-wordcount: '221'
 ht-degree: 0%
 
 ---
@@ -58,5 +58,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Melden Sie sich von Ihrem [!DNL Workfront] ab
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Abmelden]** ![](assets/logout-icon.png).
+1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Abmelden]**![ Abmeldesymbol](assets/logout-icon.png).
 1. Dadurch gelangen Sie zurück zur Anmeldeseite, auf der Sie Ihren Benutzernamen und Ihr Kennwort erneut eingeben können.

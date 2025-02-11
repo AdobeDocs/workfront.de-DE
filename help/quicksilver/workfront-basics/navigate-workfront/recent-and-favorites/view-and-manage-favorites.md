@@ -6,9 +6,9 @@ description: Das Menü Favoriten ermöglicht einen schnellen Zugriff auf Element
 feature: Get Started with Workfront
 author: Lisa
 exl-id: bf9dc447-751c-4802-9e6a-ecd31538dba4
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 So zeigen Sie ein Element an, das Sie zuvor als Favorit hinzugefügt haben:
 
-1. Klicken Sie auf **[!UICONTROL Symbol]** Favoriten![](assets/favorites-icon.png) in der oberen rechten Ecke einer beliebigen [!DNL Adobe Workfront].
+1. Klicken Sie auf **[!UICONTROL Favoriten]**-Symbol ![Favoriten](assets/favorites-icon.png) in der oberen rechten Ecke einer beliebigen [!DNL Adobe Workfront].
 
 1. Klicken Sie in [!UICONTROL  Liste ]Favoriten“ auf das Element, das Sie anzeigen möchten.
 
@@ -69,7 +69,7 @@ Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die akt
 ### Aktuelles Element als Favorit hinzufügen
 
 1. Navigieren Sie zu der Seite, die Sie als Favorit hinzufügen möchten.
-1. Klicken Sie auf das **[!DNL Favorites]**-Symbol ![](assets/favorites-icon.png) in der oberen rechten Ecke einer beliebigen [!DNL Workfront] Seite und klicken Sie dann auf **[!UICONTROL Aktuelle Seite hinzufügen]**.
+1. **[!DNL Favorites]** Klicken Sie oben rechts auf ![ beliebigen [!DNL Workfront] auf ](assets/favorites-icon.png)Favoriten“ und dann auf **[!UICONTROL Aktuelle Seite hinzufügen]**.
 
    ![Aktuelle Seite zu Favoriten hinzufügen](assets/add-current-page-favorite-2022-350x147.png)
 
@@ -77,19 +77,19 @@ Sie können dem Menü [!UICONTROL Favoriten“ die letzten Elemente oder die akt
 
    Oder
 
-   Klicken Sie auf **[!UICONTROL Favoriten]**-Symbol ![](assets/favorites-icon.png) rechts neben dem Objektnamen.
+   Klicken Sie auf **[!UICONTROL Favoriten]**-Symbol ![Favoriten](assets/favorites-icon.png) rechts neben dem Objektnamen.
 
    >[!NOTE]
    >
    >Wenn Sie auf das Symbol **[!UICONTROL Favoriten]** auf einem Objekt klicken, das Sie bereits als Favorit hinzugefügt haben, wird das Objekt aus dem Menü [!UICONTROL Favoriten] entfernt.\
-   >![](assets/nwe-remove-from-favorites-350x52.png)
+   >![Aus Favoriten entfernen](assets/nwe-remove-from-favorites-350x52.png)
 
 ## Entfernen eines Elements aus dem Menü [!UICONTROL Favoriten]
 
-1. Klicken Sie auf **[!UICONTROL Symbol]** Favoriten![](assets/favorites-icon.png) in der oberen rechten Ecke einer beliebigen [!DNL Workfront].
+1. Klicken Sie auf **[!UICONTROL Favoriten]**-Symbol ![Favoriten](assets/favorites-icon.png) in der oberen rechten Ecke einer beliebigen [!DNL Workfront].
 
 1. Bewegen Sie den Mauszeiger über das Element, das Sie als Favorit entfernen möchten, und klicken Sie dann auf **X** daneben.
 
    Oder
 
-   Wenn Sie sich auf der Seite befinden, die Sie als Favorit entfernen möchten, klicken Sie auf das **[!UICONTROL Favoriten]**-Symbol ![](assets/favorites-icon.png) neben dem Objektnamen, um es aus dem Menü Favoriten zu entfernen.
+   Wenn Sie sich auf der Seite befinden, die Sie als Favorit entfernen möchten, klicken Sie auf das **[!UICONTROL Favoriten]**-Symbol ![Favoriten](assets/favorites-icon.png) neben dem Objektnamen, um es aus dem Menü Favoriten zu entfernen.

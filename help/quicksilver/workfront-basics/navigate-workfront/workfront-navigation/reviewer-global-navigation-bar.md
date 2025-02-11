@@ -6,9 +6,9 @@ description: Das Hauptmenü ändert sich mit der Zugriffsebene, die Ihnen von Ih
 author: Lisa
 feature: Get Started with Workfront
 exl-id: c646b3d2-2eca-47ef-b181-9358cef03ed7
-source-git-commit: 1ab76287062598a526dcf2420845498f8f749453
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '388'
 ht-degree: 0%
 
 ---
@@ -36,7 +36,7 @@ Die folgenden Bereiche sind im Standardlayout eines (Reviewers[!UICONTROL  entha
 * **[!UICONTROL Blueprints]**: Überprüfen Sie vorhandene Blueprints in Ihrem System und fordern Sie die Installation an, wenn der [!DNL Workfront] die Anfrage-Warteschlange für Blueprints konfiguriert hat. Weitere Informationen finden Sie unter [Blueprints - Übersicht](../../../administration-and-setup/blueprints/blueprints-overview.md).
 
 
-![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+![Greifen Sie über das Hauptmenü auf meine Aktualisierungen zu](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
 ## Anpassen des Standardmenüs [!UICONTROL Hauptmenü]
 

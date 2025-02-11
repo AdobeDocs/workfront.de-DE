@@ -5,9 +5,9 @@ description: In [!DNL Adobe Workfront] können Sie anpassen, wie eine Liste für
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 3ef7ff03-7293-4b56-9481-e89e1a47a904
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '721'
 ht-degree: 0%
 
 ---
@@ -94,7 +94,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional und bedingt) Wenn Sie eine bestimmte Anzahl von Elementen auf dem Bildschirm anzeigen möchten, klicken Sie auf das **[!UICONTROL Anzeigen]** Dropdown-Menü in der rechten unteren Ecke des Bildschirms und wählen Sie dann die Anzeige von **100**, **250**, **500**, **[!UICONTROL Alle]** oder **2000** Elementen aus.
 
-   ![](assets/list-number-page-350x119.png)
+   ![Listennummer auf Seite](assets/list-number-page-350x119.png)
 
    >[!TIP]
    >

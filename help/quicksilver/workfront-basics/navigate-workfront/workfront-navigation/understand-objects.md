@@ -6,9 +6,9 @@ description: Die angezeigten Informationen  [!DNL Adobe Workfront]  durch Objekt
 feature: Get Started with Workfront
 author: Alina
 exl-id: f324f198-5472-4cf2-a46e-7fc24605ca90
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2424'
+source-wordcount: '2508'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,7 @@ Die in [!DNL Adobe Workfront] angezeigten Informationen werden durch Objekte dar
 
 Es ist wichtig zu verstehen, wie die Objekte in [!DNL Workfront] definiert werden, damit Sie das richtige Objekt für die Anforderungen in Ihrem Unternehmen verwenden können.
 
-Wenn Sie z. B. einen großen Arbeitsaufwand planen, müssen Sie das [!UICONTROL Projektobjekt] verwenden, um diesen Arbeitsaufwand zu definieren. Um diese Arbeit in kleinere geplante Inkremente zu unterteilen, können Sie das Objekt [!UICONTROL Aufgabe] verwenden. Für einen kleineren Arbeitsaufwand, der nicht geplant ist und unerwartet auftreten kann, können Sie das Objekt „Problem“ verwenden. Wenn Sie den Fortschritt und die Einhaltung von Budget und Zeitplan einer Gruppe von Projekten verfolgen möchten, können Sie sie in [!UICONTROL Portfolios ] und [!UICONTROL Programmen] organisieren. Um andere Elemente zu definieren, die Sie bei der Bearbeitung unterstützen, sollten Sie andere Objekte verwenden, die unter [!UICONTROL Projekte], [!UICONTROL Aufgaben], [!UICONTROL Probleme] oder [!UICONTROL Portfolios ] gespeichert sind, z. B. [!UICONTROL Dokumente], [!UICONTROL Updates], [!UICONTROL Stunden], [!UICONTROL Benutzer] oder [!UICONTROL Aufgabengebiete].
+Wenn Sie z. B. einen großen Arbeitsaufwand planen, müssen Sie das [!UICONTROL Projektobjekt] verwenden, um diesen Arbeitsaufwand zu definieren. Um diese Arbeit in kleinere geplante Inkremente zu unterteilen, können Sie das Objekt [!UICONTROL Aufgabe] verwenden. Für einen kleineren Arbeitsaufwand, der nicht geplant ist und unerwartet auftreten kann, können Sie das Objekt „Problem“ verwenden. Wenn Sie den Fortschritt und die Einhaltung von Budget und Zeitplan einer Gruppe von Projekten verfolgen möchten, können Sie sie in &quot;[!UICONTROL &quot; ] &quot;[!UICONTROL &quot; ]. Um andere Elemente zu definieren, die Sie bei der Bearbeitung unterstützen, sollten Sie andere Objekte verwenden, die unter [!UICONTROL Projekte], [!UICONTROL Aufgaben], [!UICONTROL Probleme] oder [!UICONTROL Portfolios] gespeichert sind, z. B. [!UICONTROL Dokumente], [!UICONTROL Updates], [!UICONTROL Stunden], [!UICONTROL Benutzer] oder [!UICONTROL Aufgabengebiete].
 
 [!UICONTROL Berichte] und [!UICONTROL Dashboards] sind ein weiteres Beispiel für Objekte, mit denen Sie die Datenmenge in [!DNL Workfront] visuell organisieren können, um sie für alle Benutzer leicht zugänglich zu machen.
 
@@ -41,7 +41,7 @@ Im Folgenden finden Sie einige der am häufigsten verwendeten Objekte in [!DNL W
 |---|---|---|
 | [!UICONTROL Portfolios] |  | [!UICONTROL Programme], [!UICONTROL Projekte], [!UICONTROL Dokumente], [!DNL Notes], [!UICONTROL Benutzer] |
 | [!UICONTROL Programme] | [!UICONTROL Portfolios] | [!UICONTROL Projekte], [!UICONTROL Dokumente], [!UICONTROL Anmerkungen], [!UICONTROL Benutzer] |
-| [!UICONTROL Projekte] | [!UICONTROL Portfolios ], [!UICONTROL Programme] | [!UICONTROL Aufgaben], [!UICONTROL Probleme], [!UICONTROL Dokumente], [!UICONTROL Anmerkungen], [!UICONTROL Stunden], [!UICONTROL Benutzer] |
+| [!UICONTROL Projekte] | [!UICONTROL Portfolios], [!UICONTROL Programme] | [!UICONTROL Aufgaben], [!UICONTROL Probleme], [!UICONTROL Dokumente], [!UICONTROL Anmerkungen], [!UICONTROL Stunden], [!UICONTROL Benutzer] |
 | [!UICONTROL Aufgaben] | [!UICONTROL Projekte] | [!UICONTROL Probleme], [!UICONTROL untergeordnete Aufgaben], [!UICONTROL Dokumente], [!UICONTROL Anmerkungen], [!UICONTROL Stunden], [!UICONTROL Benutzer] |
 | [!UICONTROL Probleme] | [!UICONTROL Aufgaben], [!UICONTROL Projekte] | [!UICONTROL Dokumente], [!UICONTROL Notizen], [!UICONTROL Stunden], [!UICONTROL Benutzer] |
 | [!UICONTROL Dashboards] |  | [!UICONTROL Berichte], externe Seiten |
@@ -50,7 +50,7 @@ Im Folgenden finden Sie einige der am häufigsten verwendeten Objekte in [!DNL W
 | [!UICONTROL Teams] |  | [!UICONTROL Benutzende] |
 | [!UICONTROL Benutzende] | [!UICONTROL Gruppen], [!UICONTROL Teams], [!UICONTROL Firmen] | [!UICONTROL Aufgabengebiete] |
 | [!UICONTROL Firmen] |  | [!UICONTROL Benutzende] |
-| [!UICONTROL Dokumente] | [!UICONTROL Aufgaben], [!UICONTROL Probleme], [!UICONTROL Projekte], [!UICONTROL Portfolios ], [!UICONTROL Programme], [!UICONTROL users] |  |
+| [!UICONTROL Dokumente] | [!UICONTROL Aufgaben], [!UICONTROL Probleme], [!UICONTROL Projekte], [!UICONTROL Portfolios], [!UICONTROL Programme], [!UICONTROL Benutzer] |  |
 | [!UICONTROL Pläne]* |  | [!UICONTROL Initiativen] |
 | [!DNL Goals]* |  | [!UICONTROL Ergebnisse], [!UICONTROL Aktivitäten] |
 
@@ -87,7 +87,7 @@ Wenn beispielsweise der größere Arbeitsaufwand in Ihrer Organisation als „In
 
 Als [!DNL Workfront] können Sie die Namen der folgenden Objekte an die Terminologie in Ihrer Organisation anpassen:
 
-* [!UICONTROL Portfolio ]
+* [!UICONTROL Portfolio]
 * [!UICONTROL Programm]
 * [!UICONTROL Projekt]
 * [!UICONTROL Aufgabe]
@@ -161,21 +161,21 @@ Im Folgenden finden Sie eine Liste der Objekte und der zugehörigen Symbole in W
 
 | **Objekt** | **Symbol** | **Anpassbarer Objektname** |
 |---|---|---|
-| [!UICONTROL Firma] | ![](assets/company-icon-nwe.png) , ![](assets/nwe-company-icon-54x54.png) |  |
-| [!UICONTROL Dashboard] | ![](assets/dashboard-icon-nwe.png) , ![](assets/nwe-dashboards-icon.png) |  |
-| [!UICONTROL Ziel] | ![](assets/nwe-goal-icon.png) | ✔ |
-| [!UICONTROL Gruppe] | ![](assets/groups-icon-nwe.png) , ![](assets/nwe-group-icon.png) |  |
-| [!UICONTROL Probleme] | ![](assets/issue-icon-nwe.png) , ![](assets/nwe-issues-icon.png) | ✔ |
-| [!UICONTROL Aufgabengebiet] | ![JOB_ROLE_ICON.png](assets/job-role-icon-52x50.png), ![JOB_ROLE_ICON__1_.png](assets/job-role-icon--1--53x44.png), ![](assets/job-role-nwe-no-color.png), ![](assets/job-role-icon-nwe-color.png) |  |
-| [!UICONTROL Plan] | ![](assets/plan-icon.png), ![](assets/nwe-plan-icon-60x57.png) |  |
-| [!UICONTROL Portfolio ] | ![](assets/portfolio-icon-nwe.png) , ![](assets/nwe-portfolios-icon.png) | ✔ |
-| [!UICONTROL Programm] | ![](assets/program-icon-nwe.png) , ![](assets/nwe-programs-icon.png) | ✔ |
-| [!UICONTROL Projekt] | ![](assets/project-icon-nwe.png) , ![](assets/nwe-projects-icon.png) | ✔ |
-| [!UICONTROL Bericht] | ![](assets/report-icon-nwe.png) , ![](assets/nwe-reports-icon.png) |  |
-| [!UICONTROL Aufgabe] | ![](assets/task-icon-new.png) , ![](assets/nwe-tasks-icon.png) | ✔ |
-| [!UICONTROL Team] | ![](assets/team-icon-nwe.png), ![](assets/team-icon-nwe-color.png) , ![](assets/nwe-teams-icon.png) |  |
-| [!UICONTROL Vorlage] | ![](assets/template-icon-nwe.png) , ![](assets/nwe-templates-icon.png) |  |
-| [!UICONTROL Benutzer] | ![](assets/users-icon-gray.png) , ![](assets/user-icon-blue.png) , ![](assets/user-icon-initials.png) , ![](assets/user-avatar.png) , ![](assets/user-main-menu-area.png) |  |
+| [!UICONTROL Firma] | ![Unternehmenssymbol](assets/company-icon-nwe.png) , ![Unternehmenssymbol blau](assets/nwe-company-icon-54x54.png) |  |
+| [!UICONTROL Dashboard] | ![Dashboard-Symbol](assets/dashboard-icon-nwe.png) , ![Dashboard-Symbol blau](assets/nwe-dashboards-icon.png) |  |
+| [!UICONTROL Ziel] | ![Zielsymbol](assets/nwe-goal-icon.png) | ✔ |
+| [!UICONTROL Gruppe] | ![Gruppensymbol](assets/groups-icon-nwe.png) , ![Gruppensymbol](assets/nwe-group-icon.png) |  |
+| [!UICONTROL Probleme] | ![Problem-Symbol](assets/issue-icon-nwe.png) , ![Problem-Symbol rosa](assets/nwe-issues-icon.png) | ✔ |
+| [!UICONTROL Aufgabengebiet] | ![JOB_ROLE_ICON.png](assets/job-role-icon-52x50.png), ![JOB_ROLE_ICON__1_.png](assets/job-role-icon--1--53x44.png), ![Aufgabenrollensymbol](assets/job-role-nwe-no-color.png), ![Aufgabenrollensymbolfarbe](assets/job-role-icon-nwe-color.png) |  |
+| [!UICONTROL Plan] | ![Plansymbol](assets/plan-icon.png), ![Plansymbol blau](assets/nwe-plan-icon-60x57.png) |  |
+| [!UICONTROL Portfolio] | ![Portfolio](assets/portfolio-icon-nwe.png) , ![Portfolio-Symbol blau](assets/nwe-portfolios-icon.png) | ✔ |
+| [!UICONTROL Programm] | ![Programm-Symbol](assets/program-icon-nwe.png) , ![Programm-Symbol orange](assets/nwe-programs-icon.png) | ✔ |
+| [!UICONTROL Projekt] | ![Projektsymbol](assets/project-icon-nwe.png) , ![Projektsymbol Lila](assets/nwe-projects-icon.png) | ✔ |
+| [!UICONTROL Bericht] | ![Berichtssymbol](assets/report-icon-nwe.png) , ![Berichtssymbol grün](assets/nwe-reports-icon.png) |  |
+| [!UICONTROL Aufgabe] | ![Aufgabensymbol](assets/task-icon-new.png) , ![Aufgabensymbol grün](assets/nwe-tasks-icon.png) | ✔ |
+| [!UICONTROL Team] | ![Team-Symbol](assets/team-icon-nwe.png), ![Team-Symbol rund](assets/team-icon-nwe-color.png) , ![Teams-Symbol](assets/nwe-teams-icon.png) |  |
+| [!UICONTROL Vorlage] | ![Vorlagensymbol](assets/template-icon-nwe.png) , ![Vorlagensymbol grün](assets/nwe-templates-icon.png) |  |
+| [!UICONTROL Benutzer] | ![Benutzersymbol grau](assets/users-icon-gray.png) , ![Benutzersymbol blau](assets/user-icon-blue.png) , ![Benutzersymbol mit Initialen](assets/user-icon-initials.png) , ![Avatar](assets/user-avatar.png) , ![Benutzersymbol Hauptmenü](assets/user-main-menu-area.png) |  |
 
 ## Referenznummern von Objekten
 
@@ -293,7 +293,7 @@ Bei Verwendung von Report Builder in der [!DNL Workfront]-Webanwendung können S
 
 * [!UICONTROL Parameter] (oder [!UICONTROL benutzerdefiniertes Feld])
 * [!UICONTROL Parametergruppe] (oder [!UICONTROL Abschnittsumbruch])
-* [!UICONTROL Portfolio ]
+* [!UICONTROL Portfolio]
 * [!UICONTROL Programm]
 * [!UICONTROL Projekt (Finanzdaten)]
    * Finanzinformationen werden nur dann in [!UICONTROL Projekt (Finanzdaten) ausgefüllt] wenn die damit verbundenen Daten weniger als 5 Jahre alt sind. Wenn beispielsweise einer Aufgabe im Januar 2015 ein Aufgabengebiet zugewiesen wurde und heute der September 2021 ist, wird ein Finanzfeld wie [!UICONTROL Zuordnungsdatum] für das Aufgabengebiet nicht im Bericht [!UICONTROL Projekt (Finanzdaten)] ausgefüllt.

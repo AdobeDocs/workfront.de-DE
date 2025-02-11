@@ -6,9 +6,9 @@ description: Dieser Artikel enthält Definitionen der häufigsten Termine, die m
 feature: Get Started with Workfront
 author: Alina
 exl-id: 3808200f-a573-4c39-8965-b254f69c893c
-source-git-commit: 6f1f669f7e2235637864a92a40aadbfb19b4310b
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '2301'
+source-wordcount: '2357'
 ht-degree: 3%
 
 ---
@@ -47,9 +47,9 @@ Weitere Informationen finden Sie unter [Übersicht über das Projekt [!UICONTROL
 >
 >Die [!UICONTROL Muss beginnen am] oder die Begrenzungen Feste Datumswerte wirken sich auf [!UICONTROL  (Geplantes Startdatum] einer Aufgabe aus, nicht auf [!UICONTROL Tatsächliches Startdatum]. Dadurch wird das [!UICONTROL Geplantes Startdatum] auf ein von Ihnen angegebenes Datum aktualisiert. Das [!UICONTROL Tatsächliche Startdatum] wird unabhängig vom [!UICONTROL Geplanten Startdatum] aktualisiert, wie oben beschrieben.
 
-![](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
+![Tatsächliches Startdatum bei Bearbeitungsaufgabe](assets/actual-start-date-on-edit-task-highlighted-nwe-350x251.png)
 
-![](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
+![Tatsächliches Startdatum der Aufgabe](assets/actual-start-date-on-task-details-highlighted-nwe-350x191.png)
 
 ## [!UICONTROL Tatsächliches Abschlussdatum]
 
@@ -68,7 +68,7 @@ Das [!UICONTROL Tatsächliche Abschlussdatum] eines Projekts fällt mit dem Datu
 
 Weitere Informationen finden Sie unter [Übersicht über das Projekt [!UICONTROL Tatsächliches Abschlussdatum]](../../../manage-work/projects/planning-a-project/project-actual-completion-date.md).
 
-![](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
+![Tatsächliches Abschlussdatum in Details](assets/actual-completion-date-task-details-highlighted-nwe-350x189.png)
 
 ## Genehmigungspfad – Abschlussdatum
 
@@ -152,7 +152,7 @@ Das [!UICONTROL Eingabedatum] ist das Datum, an dem ein Projekt, eine Aufgabe od
 
 Das [!UICONTROL Eingabedatum] hat keinen Einfluss auf die Zeitleiste von Projekten, Aufgaben oder Problemen, ist aber für Tracking- und Berichtszwecke wichtig. [!DNL Workfront] generiert automatisch das [!UICONTROL Eingabedatum] wenn das Objekt erstellt wird und Sie es nicht manuell bearbeiten können.
 
-![](assets/entry-date-in-task-details-highlighted-nwe.png)
+![Eingabedatum in Aufgabendetails](assets/entry-date-in-task-details-highlighted-nwe.png)
 
 ## Geschätztes Fälligkeitsdatum
 
@@ -184,7 +184,7 @@ Dies ist eine manuelle Schätzung, bei der der tatsächliche Fortschritt der Auf
 
 Das feste Enddatum eines Projekts ist im Abschnitt Business Case des Projekts sowie in Projektlisten und Berichten sichtbar.
 
-![](assets/fixed-end-date-business-case-highlight.png)
+![Festes Enddatum](assets/fixed-end-date-business-case-highlight.png)
 
 ## Festes Startdatum
 
@@ -194,7 +194,7 @@ Dies ist eine manuelle Schätzung, bei der der tatsächliche Fortschritt der Auf
 
 Das feste Startdatum eines Projekts ist im Abschnitt Business Case des Projekts sowie in Projektlisten und Berichten sichtbar.
 
-![](assets/fixed-start-date-business-case-highlight.png)
+![Festes Startdatum](assets/fixed-start-date-business-case-highlight.png)
 
 ## Übergabedatum
 
@@ -252,9 +252,9 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 * [Legen Sie das Projekt [!UICONTROL Geplantes Abschlussdatum) ]](../../../manage-work/projects/planning-a-project/project-planned-completion-date.md)
 * [Übersicht über das Problem [!UICONTROL Geplantes Abschlussdatum]](../../../manage-work/issues/issue-information/issue-planned-completion-date.md)
 
-![](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
+![Geplantes Abschlussdatum in der Kopfzeile](assets/project-header-planned-completion-date-highlighted-nwe-350x34.png)
 
-![](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
+![Geplantes Abschlussdatum in Aufgabenliste](assets/planned-completion-date-in-task-list-highlighted-nwe-350x183.png)
 
 
 ## Ausrichtung am geplanten Datum
@@ -277,9 +277,9 @@ Abhängig von der [!UICONTROL Aufgabenbeschränkung] können Sie möglicherweise
 
 Weitere Informationen finden Sie unter [Übersicht über das Projekt [!UICONTROL Geplantes Startdatum]](../../../manage-work/projects/planning-a-project/project-planned-start-date.md).
 
-![](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
+![Geplantes Startdatum für Aufgabe bearbeiten](assets/planned-start-date-on-edit-task-highlighted-nwe.png)
 
-![](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
+![Geplantes Startdatum in Aufgabenliste](assets/planned-start-date-in-task-list-highlighted-nwe-350x167.png)
 
 ## [!UICONTROL Voraussichtliches Abschlussdatum]
 
@@ -289,7 +289,7 @@ Wenn alles reibungslos und wie geplant verläuft[!UICONTROL  sollte das &quot;] 
 
 Weitere Informationen finden Sie unter [Übersicht über das [!UICONTROL Voraussichtliche Abschlussdatum] für Projekte, Aufgaben und Probleme](../../../manage-work/projects/planning-a-project/project-projected-completion-date.md).
 
-![](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
+![Voraussichtliches Abschlussdatum](assets/projected-completion-date-in-task-details-highlighted-nwe-350x187.png)
 
 ## [!UICONTROL Voraussichtliches Startdatum]
 
@@ -305,7 +305,7 @@ Bei einer Aufgabe kann [!UICONTROL  „Voraussichtliches Startdatum] auch von ih
 
 Weitere Informationen finden Sie unter [Übersicht über das Projekt [!UICONTROL Voraussichtlicher Starttermin]](../../../manage-work/projects/planning-a-project/project-projected-start-date.md).
 
-![](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
+![Voraussichtliches Startdatum](assets/projected-start-date-in-task-details-highlighted-nwe-350x188.png)
 
 <!--## Rejection Date-->
 
@@ -315,7 +315,7 @@ Aufgaben können manchmal beginnen und abgeschlossen werden, ohne dass sich dies
 
 Das Slack-Datum zeigt das genaue Datum an, an dem sich eine Aufgabe auf jeden Fall auf das Abschlussdatum des Projekts auswirken könnte.
 
-Informationen zum Slack-Datum einer Aufgabe finden Sie unter [Übersicht über das Task-Slack](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
+Informationen zum Slack-Datum einer Aufgabe finden Sie unter [Übersicht über das Slack-Datum ](/help/quicksilver/manage-work/tasks/task-information/task-slack-date.md).
 
 Slack-Termine von Aufgaben werden in Aufgabenlisten und Berichten angezeigt.
 

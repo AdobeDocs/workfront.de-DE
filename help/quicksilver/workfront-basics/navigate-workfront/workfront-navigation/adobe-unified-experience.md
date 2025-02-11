@@ -2,13 +2,13 @@
 product-area: workfront-navigation
 navigation-topic: workfront-navigation
 title: Adobe Unified Experience für [!DNL Workfront]
-description: Der  [!DNL Workfront]  über Adobe Experience Cloud bietet Ihnen ein nahtloses, einheitliches Erlebnis für die Verwaltung aller Ihrer Adobe-Anwendungen.
+description: Der  [!DNL Workfront]  über Adobe Experience Cloud bietet Ihnen ein nahtloses, einheitliches Erlebnis für die Verwaltung aller Ihrer Adobe-Programme.
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 458631a2-d77d-46d6-8d6b-7008237e5154
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '593'
 ht-degree: 0%
 
 ---
@@ -19,12 +19,12 @@ ht-degree: 0%
 
 Der Zugriff auf [!DNL Workfront] über [!DNL Adobe Experience Cloud] bietet Ihnen ein nahtloses, einheitliches Erlebnis für die Verwaltung aller Ihrer [!DNL Adobe]. Single Identity Management bietet Ihnen einen Ort für die Anmeldung, ohne mehrere URLs oder Login-IDs.
 
-Wenn sich Ihr Unternehmen auf der Adobe Unified Experience befindet, beginnt die URL, mit der Sie auf Workfront zugreifen, mit `experience.adobe.com`.
+Wenn sich Ihr Unternehmen im einheitlichen Adobe-Erlebnis befindet, beginnt die URL, über die Sie auf Workfront zugreifen, mit `experience.adobe.com`.
 
 | URL | Adobe Experience |
 |------------|------------|
 | (CompanyName).my.workfront.com | Workfront Experience |
-| experience.adobe.com | Adobe Unified Experience |
+| experience.adobe.com | Einheitliches Adobe-Erlebnis |
 
 ## Zugriffsanforderungen
 
@@ -85,7 +85,7 @@ Sobald Sie bei [!DNL Adobe Experience Cloud] angemeldet sind, können Sie alle [
 
 ## [!DNL Workfront] navigieren
 
-Navigieren Sie mit dem Symbol [!UICONTROL Hauptmenü] ![](assets/main-menu-icon-left-nav.png) auf der linken Seite der [!DNL Workfront] Navigationsleiste zu allen Seiten, auf die Sie Zugriff haben. Welche Optionen im [!UICONTROL Hauptmenü“ verfügbar sind] hängt von Folgendem ab:
+Klicken Sie auf [!UICONTROL Hauptmenü]-Symbol ![Hauptmenüsymbol](assets/main-menu-icon-left-nav.png) auf der linken Seite der [!DNL Workfront] Navigationsleiste, um zu allen Seiten zu navigieren, auf die Sie Zugriff haben. Welche Optionen im [!UICONTROL Hauptmenü“ verfügbar sind] hängt von Folgendem ab:
 
 * **Konfigurationen von Layout-Vorlagen**: Informationen dazu, wie ein [!DNL Workfront]-Administrator das [!UICONTROL Hauptmenü] einer Layout-Vorlage ändern kann, finden Sie unter [Anpassen des [!UICONTROL Hauptmenüs] mithilfe einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 * **Lizenztyp**: Informationen zu den Standardkonfigurationen für verschiedene Lizenztypen finden Sie unter [Grundlegendes zur Navigation für einen [!UICONTROL Benutzer prüfen] lizenzieren](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/reviewer-global-navigation-bar.md) oder [Grundlegendes zur Navigation für einen Benutzer [!UICONTROL Arbeit]-Lizenz](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/worker-global-navigation-bar.md).
@@ -102,7 +102,7 @@ Dieses Menü bietet folgende Möglichkeiten:
 
 * Wählen Sie **[!UICONTROL Dunkles Design]** Formatierung für [!DNL Adobe Experience Cloud].
 * Legen Sie **[!UICONTROL Voreinstellungen]** für [!DNL Adobe Experience Cloud] fest, einschließlich der Voreinstellungen für primäre und sekundäre Sprachen.
-* Greifen Sie auf Ihr **[!UICONTROL [!DNL Workfront]zu]**. Wenn Sie sich im Profil befinden, klicken Sie auf die ![](assets/more-icon.png) **[!UICONTROL Mehr]** und wählen Sie **[!UICONTROL Bearbeiten]**. Weitere Informationen zum Profil finden Sie unter [Konfigurieren meiner Einstellungen](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
+* Greifen Sie auf Ihr **[!UICONTROL [!DNL Workfront]zu]**. Wenn Sie sich im Profil befinden, klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr](assets/more-icon.png) und wählen Sie **[!UICONTROL Bearbeiten]**. Weitere Informationen zum Profil finden Sie unter [Konfigurieren meiner Einstellungen](/help/quicksilver/workfront-basics/manage-your-account-and-profile/configuring-your-user-profile/configure-my-settings.md).
 * **[!UICONTROL Abmelden]** von Adobe Experience Cloud.
 
 ## Passwort verwalten

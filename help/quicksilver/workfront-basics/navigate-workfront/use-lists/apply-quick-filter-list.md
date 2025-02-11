@@ -5,9 +5,9 @@ description: Sie können den Schnellfilter in einer Liste von Objekten verwenden
 feature: Get Started with Workfront
 author: Nolan
 exl-id: 363f7ad1-f4f8-4cb1-a631-ee4e5ea28e5a
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
 workflow-type: tm+mt
-source-wordcount: '838'
+source-wordcount: '843'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Anwenden eines Schnellfilters auf eine Liste
 
-1. Navigieren Sie zu einer Liste oder einem Bericht, die bzw. der Schnellfilter unterstützt, und klicken Sie dann auf **[!UICONTROL Schnellfilter]-Symbol** in der Symbolleiste ![](assets/qs-quick-filter-icon.png).
+1. Navigieren Sie zu einer Liste oder einem Bericht, die bzw. der Schnellfilter unterstützt, und klicken Sie **[!UICONTROL der Symbolleiste auf ]Schnellfilter** Symbol ![Schnellfilter](assets/qs-quick-filter-icon.png)Symbol .
 
    Oder
 
@@ -120,7 +120,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    1. Wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie dann auf **[!UICONTROL Bearbeiten]**, um die Elemente stapelweise zu bearbeiten.
    1. Klicken Sie nach Abschluss der Änderungen auf **[!UICONTROL Änderungen speichern]**.
 
-1. (Optional) Um die vom Schnellfilter gefundenen Elemente zu exportieren, wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie dann auf das Symbol **[!UICONTROL Exportieren]** ![](assets/export.png).
+1. (Optional) Um die vom Schnellfilter gefundenen Elemente zu exportieren, wählen Sie alle oder mehrere Elemente in der Liste aus und klicken Sie dann auf das Symbol **[!UICONTROL Exportieren]** ![Exportieren](assets/export.png).
 
    ![select_all_projects_with_highlight__1_.png](assets/select-all-projects-with-highlight--1--350x173.png)
 
