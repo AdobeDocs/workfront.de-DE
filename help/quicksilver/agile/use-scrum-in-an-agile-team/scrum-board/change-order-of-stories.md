@@ -6,16 +6,18 @@ description: Die Reihenfolge, in der die Storys auf dem Storyboard angezeigt wer
 author: Lisa
 feature: Agile
 exl-id: 326d78e0-06de-4b98-8fa6-102e0fd89d76
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 4dc2d81cd6dc4249f96925b6339fb837c4f67254
 workflow-type: tm+mt
-source-wordcount: '357'
+source-wordcount: '407'
 ht-degree: 0%
 
 ---
 
 # Ändern der Reihenfolge von Storys auf dem [!UICONTROL Scrum]-Board
 
-Die Reihenfolge, in der die Storys auf dem Storyboard angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden. Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Storyboard angezeigt. (Storys mit Schwimmfahnen werden oben im Storyboard angezeigt, und Storys ohne Schwimmfahnen werden separat unter allen Schwimmfahnen angezeigt.)
+Die Reihenfolge, in der die Storys auf dem Storyboard angezeigt werden, gibt keine Priorität an. Es kann jedoch die wahrgenommene Priorität beeinflussen, indem Geschichten sichtbarer gemacht werden. Die Priorität wird im Rückstand definiert. Wenn Storys auf das Story Board gebracht werden, haben sie keine festgelegte Priorität, da sie während des Zeitrahmens der Iteration bearbeitet werden. Wenn Storys an den Rückstand zurückgegeben werden, können Sie sie dort neu anordnen, um die Priorität anzuzeigen.
+
+Standardmäßig werden Storys in alphabetischer Reihenfolge innerhalb jeder Statusspalte auf dem Storyboard angezeigt. Storys mit Schwimmfahnen werden oben im Storyboard angezeigt, und Storys ohne Schwimmfahnen werden separat unter allen Schwimmfahnen angezeigt.
 
 Wenn Sie Spalten auf dem Story Board neu anordnen, werden alle von Ihnen vorgenommenen Änderungen in der Iteration oder im Projekt gespeichert, sodass die Änderungen beibehalten werden, wenn Sie oder ein anderer Benutzer das Story Board das nächste Mal aufrufen. (Änderungen, die Sie vornehmen, werden beim Löschen des Browser-Caches nicht rückgängig gemacht.)
 
