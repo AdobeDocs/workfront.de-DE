@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 407aae49-4bc3-4364-a794-7e170a57a6d3
-source-git-commit: 57b76a404b0c965038d48a52a20521883c9f4b53
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2403'
+source-wordcount: '2422'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Sie können für dasselbe Feld auch auf dem neuen Formular eine andere Berechnun
 >
 >Änderungen an berechneten Ausdrücken können dazu führen, dass der Feldwert in Objekten veraltet ist. Führen Sie einen der folgenden Schritte aus, um sicherzustellen, dass Sie in diesen Feldern immer die aktuelle Berechnung anzeigen:
 >
->* Nachdem Sie ein Objekt gespeichert haben, bei dem Sie Daten in einem angehängten benutzerdefinierten Formular bearbeitet haben, klicken Sie auf der Hauptseite des Objekts auf das Symbol Mehr ![](assets/more-icon.png) und berechnen Sie dann benutzerdefinierte Ausdrücke neu.
+>* Nachdem Sie ein Objekt gespeichert haben, bei dem Sie Daten in einem angehängten benutzerdefinierten Formular bearbeitet haben, klicken Sie auf der Hauptseite des Objekts auf das Symbol Mehr ![Mehr](assets/more-icon.png) und berechnen Sie dann benutzerdefinierte Ausdrücke neu.
 >* Wählen Sie die Option Benutzerdefinierte Ausdrücke neu berechnen , wenn Sie Objekte stapelweise bearbeiten.
 >* Wählen Sie beim Bearbeiten eines berechneten benutzerdefinierten Felds in einem benutzerdefinierten Formular die Option Vorherige Berechnungen aktualisieren .
 
@@ -104,7 +104,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
 
 1. Klicken Sie oben links im Bildschirm auf &quot;**&quot;**.
 
-   ![](assets/field-library.png)
+   ![Feldbibliothek](assets/field-library.png)
 
 1. Verwenden Sie das Suchfeld oder erweitern Sie den Abschnitt **Berechnet**, um das gewünschte berechnete Feld zu finden, und ziehen Sie das Feld dann an die Stelle, an der es im benutzerdefinierten Formular angezeigt werden soll.
 
@@ -142,7 +142,7 @@ So verwenden Sie ein vorhandenes berechnetes benutzerdefiniertes Feld wieder:
 
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Berechnet** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
 
-   ![](assets/drag-field-to-section.png)
+   ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
 
@@ -296,14 +296,14 @@ Eine Berechnung beginnt normalerweise mit einem Ausdruck, gefolgt von Klammern m
       >Sie können einen der folgenden Schritte ausführen, um Hilfe bei Ihrer Berechnung zu erhalten:
       > 
       >* Bewegen Sie den Mauszeiger über einen Ausdruck in Ihrer Berechnung, um eine Beschreibung, ein Beispiel, das zeigt, wie er verwendet werden kann, und einen Link „Weitere Informationen“ zu weiteren Informationen im Artikel [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md) anzuzeigen.
-      >  ![](assets/hover-expression-help-text.jpg)
+      >  ![Hilfetext für Ausdruck](assets/hover-expression-help-text.jpg)
       >* Verwenden Sie die Farbcodierung, um die hinzugefügten Komponenten zu identifizieren. Ausdrücke werden in blauen und Felder in grün angezeigt.
-      >  ![](assets/colors-fields-expressions.jpg)
+      >  ![Farben für Feldausdrücke](assets/colors-fields-expressions.jpg)
       >* Suchen Sie nach Berechnungsfehlern, die Sie fortlaufend in Rosa markieren. Sie können den Mauszeiger über einen markierten Fehler bewegen, um eine kurze Beschreibung der Ursache anzuzeigen.
-      >  ![](assets/error-help.png)
+      >  ![Hilfe zu Fehlern](assets/error-help.png)
       >* Zeigen Sie im Bereich unterhalb Ihrer Berechnung die Ergebnisse eines vorhandenen Workfront-Objekts an.
       ><!--or by providing test values (NOT READY YET; CHANGE THIS SCREENSHOT WHEN IT IS)-->
-      >  ![](assets/preview-calc.jpg)
+      >  ![Vorschau der Berechnung](assets/preview-calc.jpg)
       >* Referenzausdrücke in einer langen Berechnung unter Verwendung der Zeilennummern, die links angezeigt werden.
 
 +++

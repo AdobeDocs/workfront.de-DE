@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8f7b0183-6035-4dd4-8e42-fd65485449bf
-source-git-commit: 63c2206905f4ebbc35cb162ae6e895b98b5d20eb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '384'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
@@ -73,16 +73,16 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wählen Sie ein Mitglied in der Liste aus und klicken Sie dann auf ![](assets/edit-icon.png) bearbeiten , um das Benutzerprofil dieser Person zu ändern.
+   * Wählen Sie ein Mitglied aus der Liste aus und klicken Sie dann auf ![Bearbeiten](assets/edit-icon.png), um das Benutzerprofil dieser Person zu ändern.
 
      Weitere Informationen finden Sie unter [Benutzerprofil bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md) oder [Benutzerprofile stapelweise bearbeiten](../../../administration-and-setup/add-users/create-and-manage-users/edit-user-profiles-in-bulk.md).
 
-   * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie dann auf ![](assets/comment-icon.png) aktualisieren , um ihren Benutzerprofilen einen Kommentar hinzuzufügen.
+   * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie dann auf Aktualisieren ![Kommentarsymbol](assets/comment-icon.png), um ihren Benutzerprofilen einen Kommentar hinzuzufügen.
 
      Der oder die Benutzenden erhalten eine In-App-Benachrichtigung sowie eine E-Mail-Benachrichtigung mit Ihrem Kommentar. Der Kommentar wird im Bereich Aktualisierungen im Benutzerprofil angezeigt.
 
-   * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie dann auf ![](assets/deactivate-user.png) deaktivieren oder ![](assets/activate-user.png) aktivieren .
+   * Wählen Sie eine beliebige Anzahl von Mitgliedern in der Liste aus und klicken Sie dann auf Deaktivieren ![Benutzer deaktivieren](assets/deactivate-user.png) oder Aktivieren ![Benutzer aktivieren](assets/activate-user.png).
 
      Weitere Informationen finden Sie unter [Deaktivieren oder Reaktivieren eines Benutzers](../../../administration-and-setup/add-users/create-and-manage-users/deactivate-a-user.md).
 
-   * Exportieren Sie ![](assets/export.png) die Mitgliederliste.
+   * Export ![Export](assets/export.png) die Mitgliederliste.

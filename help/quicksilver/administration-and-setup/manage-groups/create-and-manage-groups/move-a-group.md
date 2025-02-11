@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f5227454-457d-40d3-865c-c2551471d83e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 1%
 
 ---
@@ -64,9 +64,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
-1. Wählen Sie die Zielgruppe aus, in die Sie die Gruppe verschieben möchten, und klicken Sie dann auf das Symbol Bearbeiten ![](assets/edit-icon.png).
+1. Wählen Sie die Zielgruppe aus, in die Sie die Gruppe verschieben möchten, und klicken Sie dann auf das Symbol Bearbeiten ![Symbol Bearbeiten](assets/edit-icon.png).
 1. Geben Sie im angezeigten **Gruppe bearbeiten** unter **Gruppenmitglieder und Gruppenadministratoren** den Namen der Gruppe ein, die Sie verschieben möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird.
 1. Klicken Sie auf **Speichern**.
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: c095ce9d-b189-449b-bd13-2633837697ed
-source-git-commit: 01487bb9cb195d6fa89bbe0fbdb7678254642714
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1475'
+source-wordcount: '1493'
 ht-degree: 9%
 
 ---
@@ -277,10 +277,10 @@ Navigieren Sie zur Seite „Kickstarts“. Wählen Sie die Objekte Firma, Gruppe
 
 Öffnen Sie die Datei &quot;Workfront.xlsx“, die Sie soeben heruntergeladen haben. Navigieren Sie zum Projektblatt PROJ.
 
-![](assets/im2.png)
+![PROJ-Projektset](assets/im2.png)
 Sofern Sie noch keine Projekte in Workfront erstellt haben, sollte es leer sein.
 
-![](assets/im10.png)
+![Leeres Projektblatt](assets/im10.png)
 
 Legen Sie die Werte für die folgenden Projektfelder fest:
 
@@ -305,7 +305,7 @@ Geben Sie in die Spalte setPlannedStartDate das geplante Startdatum für jedes P
 * **Legen Sie andere erforderliche Details fest.**
 Geben Sie bei Bedarf weitere Details ein, z. B. eine Beschreibung oder den aktuellen Status. Suchen Sie die Gruppen-IDs für jedes Projekt auf dem Blatt „Gruppe“ und geben Sie sie in die Spalte „setGroupID“ für die jeweiligen Projekte ein. Suchen Sie die Unternehmens-ID für die Projekte auf dem Blatt „Firma“ und geben Sie sie in die Spalte „setCompanyID“ ein. Suchen Sie die Benutzer-ID für jeden Projektbesitzer auf dem Blatt „Benutzer“ und geben Sie sie in die Spalte „setOwnerID“ ein. Suchen Sie die Benutzer-ID für jeden Projekt-Sponsor auf dem Benutzerblatt BENUTZER und geben Sie sie in die Spalte setSponsorID ein.
 
-![](assets/im9.png)
+![Werte festlegen](assets/im9.png)
 
 >[!NOTE]
 >
@@ -319,11 +319,11 @@ Sie können Informationen zu den Aufgaben des Projekts hinzufügen, wenn Sie das
 
 Sofern Sie in Workfront noch keine Aufgaben erstellt haben, sollte diese Tabelle leer sein.
 
-![](assets/im8.png)
+![Aufgabenblatt](assets/im8.png)
 
-![](assets/im7.png)
+![Leere Aufgabentabelle](assets/im7.png)
 
-![](assets/im6.png)
+![Spalten der Aufgabentabelle](assets/im6.png)
 
 Die einfachste Möglichkeit, Aufgaben zuzuordnen, besteht darin, jeweils ein Projekt zuzuordnen (insbesondere wenn die Aufgaben in jedem Projekt identisch sind). Sie können dann den Aufgabenplan für das erste Projekt kopieren und kleine Anpassungen am Aufgabenplan für die nachfolgenden Projekte vornehmen. In den restlichen Schritten wird davon ausgegangen, dass Sie Aufgaben nur für das Projekt Workfront implementieren erstellen. Je nach Szenario importieren Sie 9 Aufgaben pro Projekt. Geben Sie also TRUE in die Zeilen 3 bis 11 für die Spalte isNew ein.
 
@@ -364,7 +364,7 @@ Legen Sie die Dauer für jede Aufgabe fest, indem Sie die Anzahl der Stunden, Ta
 * Geben Sie für jede Aufgabe die Ganzzahldarstellung des abgeschlossenen Prozentsatzes in das Feld setPercentComplete ein. Dieser Wert sollte nicht das Prozentsymbol (%) enthalten.
 * Fügen Sie für jede Aufgabe, die Sie erstellen, nach Bedarf eine Beschreibung und weitere Details hinzu.
 
-  ![](assets/im5.png)
+  ![Details hinzufügen](assets/im5.png)
 
 * Die Spalten setPlannedStartDate und setTaskConstraint werden nicht zum Erstellen der Zeitleiste dieses Projekts verwendet, da wir auf Vorgängerbeziehungen angewiesen sind. Stattdessen können Sie für jede Aufgabe ein Datum eingeben. In diesem Fall müssen Sie auch eine gültige Aufgabenbeschränkung in der Spalte setTaskConstraint angeben. Weitere Informationen zu gültigen Werten für dieses Feld finden Sie in der Aufgabenbeschränkung und den entsprechenden Artikeln.
 

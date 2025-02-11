@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 8f64c009-09ad-45f6-8b59-5c1b4024532e
-source-git-commit: 75aaa531dba8037ed75c0d6baa6d7c69ec4cfefd
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '753'
+source-wordcount: '770'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 
 1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
 
-1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann auf **Zusammenfassungsbereich**.
+1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/dropdown-arrow.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann auf **Zusammenfassungsbereich**.
 
 1. Klicken Sie in der unten angezeigten Liste auf den Objekttyp, für den Sie das Bedienfeld Zusammenfassung anpassen möchten.
 
@@ -132,15 +132,15 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt auf Aufgaben oder Probleme geklickt haben, wählen Sie die Aufgabenkategorie oder das Problem aus, die bzw. das Sie anpassen möchten.
 
-   ![](assets/choose-cat-cstmz-nwe-adobe-branding.png)
+   ![Wählen Sie die anzupassende Kategorie aus](assets/choose-cat-cstmz-nwe-adobe-branding.png)
 
 1. (Bedingt) Wenn das Dropdown-Menü **Schaltfläche für primäre Aktion festlegen** angezeigt wird (wenn Sie **Aufgaben** oder **Probleme** in der Liste auf der linken Seite auswählen), klicken Sie auf die primäre Aktion (**Fertig** oder **Status**), die Benutzenden im Zusammenfassungsbereich zur Verfügung stehen soll, wenn sie eine Aufgabe oder ein Problem aufrufen.
 
-   ![](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
+   ![Primäre Aktion festlegen](assets/set-primary-action-button-dropdown-pdf-adobe-branding.png)
 
-1. ![](assets/add-item-plus-in-circle-blue.png) Fügen Sie ![](assets/close-or-hide---x.png) Felder für den ausgewählten Objekttyp hinzu oder blenden Sie sie aus.
+1. Felder ![Element hinzufügen](assets/add-item-plus-in-circle-blue.png) oder ![Element ausblenden](assets/close-or-hide---x.png) für den ausgewählten Objekttyp hinzufügen.
 
-   ![](assets/lt-home-add-hide-fields-adobe-branding.png)
+   ![Felder hinzufügen und ausblenden](assets/lt-home-add-hide-fields-adobe-branding.png)
 
 1. Wiederholen Sie die Schritte 3 bis 6, um das Bedienfeld Zusammenfassung für alle anderen Objekttypen anzupassen.
 1. Klicken Sie **Globale Einstellungen** unten links auf und aktivieren oder deaktivieren Sie dann eine der folgenden Optionen in Bezug auf Adobe Workfront-Objekte in der Zusammenfassung:

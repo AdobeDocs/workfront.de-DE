@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 6889b94a-1be6-4be9-8397-c38f890f9103
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2185'
+source-wordcount: '2189'
 ht-degree: 2%
 
 ---
@@ -82,13 +82,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![Symbol „Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, für die Sie die Voreinstellungen für entsperrte Aufgaben und Probleme konfigurieren möchten.
 1. Klicken Sie auf der Seite, die für die Gruppe angezeigt wird, im linken Bereich auf **Voreinstellungen für Aufgaben und Probleme**.
 1. Fahren Sie auf der angezeigten Seite mit einem der fünf unten aufgeführten Abschnitte fort, um die Einstellungen für die Bereiche Standardeinstellungen für neue Aufgaben, Probleme, Löschen, Tatsächliche Termine und Zugriff zu konfigurieren, und klicken Sie dann auf **Speichern**.
 
-   Wenn Sie den Mauszeiger über das Sperrsymbol ![](assets/lock-toggle-button-dimmed.png) für eine Voreinstellung bewegen, die Sie konfigurieren müssen, und eine QuickInfo angezeigt wird, die Ihnen mitteilt, dass gesperrt ist, können Sie Ihren Workfront-Administrator bitten, diese für alle Gruppen im Unternehmen zu entsperren.
+   Wenn Sie den Mauszeiger über das Sperrsymbol ![Sperrsymbol](assets/lock-toggle-button-dimmed.png) für eine Voreinstellung bewegen, die Sie konfigurieren müssen, und eine QuickInfo angezeigt wird, die Ihnen mitteilt, dass gesperrt ist, können Sie Ihren Workfront-Administrator bitten, diese für alle Gruppen im Unternehmen zu entsperren.
 
    Wenn er entsperrt ist, können Sie und andere Gruppenadministratoren ihn separat für Ihre eigenen Gruppen konfigurieren. Sie können sie auch für Ihre Gruppe und alle Untergruppen unter Ihrer Gruppe sperren.
 

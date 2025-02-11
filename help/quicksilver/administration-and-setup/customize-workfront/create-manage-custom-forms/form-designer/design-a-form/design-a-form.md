@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '6474'
+source-wordcount: '6492'
 ht-degree: 5%
 
 ---
@@ -60,10 +60,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie auf **Neues benutzerdefiniertes Formular.**
 1. Wählen Sie aus, an welche Objekttypen Sie das benutzerdefinierte Formular anhängen möchten, und klicken Sie dann auf **Weiter**.
 
-   ![](assets/choose-object-type.jpg)
+   ![Objekttyp auswählen](assets/choose-object-type.jpg)
 
 1. Geben **im Bereich „Titel ist erforderlich** den benutzerdefinierten Formulartitel ein.
-1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es mit weiteren Objekten verbunden werden kann, klicken Sie auf das **Hinzufügen**-Symbol ![](assets/add-objects-icon.png) nach **Objekttypen** und wählen Sie dann im angezeigten Menü den gewünschten Typ aus. Sie können dies wiederholen, um beliebig viele Objekttypen hinzuzufügen.
+1. (Optional) Wenn Sie dem Formular weitere Objekttypen hinzufügen möchten, damit es mit weiteren Objekten verbunden werden kann, klicken Sie auf das **Hinzufügen**-Symbol ![Objekte hinzufügen](assets/add-objects-icon.png) nach **Objekttypen** und wählen Sie dann im angezeigten Menü den gewünschten Typ aus. Sie können dies wiederholen, um beliebig viele Objekttypen hinzuzufügen.
 
    Sie können auch auf das X auf einem Objekttyp klicken, um ihn aus dem Formular zu löschen.
 
@@ -179,7 +179,7 @@ Hinzufügen eines Textfelds:
    * Text mit Formatierung
    * Beschreibender Text
 
-   ![](assets/drag-field-to-section.png)
+   ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
 
@@ -464,7 +464,7 @@ So fügen Sie Felder für automatische Textvervollständigung und Datum hinzu:
    * Typeahead
    * Datum
 
-   ![](assets/drag-field-to-section.png)
+   ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
 1. Konfigurieren Sie auf der rechten Seite des Bildschirms die Optionen, die für den Typ des benutzerdefinierten Felds verfügbar sind, das Sie hinzufügen:
 
@@ -698,7 +698,7 @@ So fügen Sie Bilder, PDF oder Videos hinzu:
    * PDF
    * Video
 
-   ![](assets/drag-field-to-section.png)
+   ![Feld in Abschnitt ziehen](assets/drag-field-to-section.png)
 
 1. Geben Sie eine der folgenden Eigenschaften für das Widget ein oder bearbeiten Sie sie:
 

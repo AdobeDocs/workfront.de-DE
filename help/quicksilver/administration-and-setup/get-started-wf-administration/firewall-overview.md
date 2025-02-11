@@ -9,10 +9,10 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 172999e7-fb05-49a6-ad57-84b59e80a28e
-source-git-commit: 5cd1cbd1976d5574668098be53daee780a9cc1fb
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '724'
-ht-degree: 0%
+source-wordcount: '728'
+ht-degree: 1%
 
 ---
 
@@ -105,10 +105,10 @@ Geben Sie dem Netzwerkadministrator die folgenden Informationen:
 
    Ihr Cluster wird oben rechts im Abschnitt **Basisinformationen** angezeigt.
 
-   ![](assets/locate-cluster.png)
+   ![Cluster suchen](assets/locate-cluster.png)
 
 1. Um Ihren Workfront-Plan anzuzeigen, wählen Sie **Lizenzen** aus.
 
    Der Plan wird oben rechts auf der Seite angezeigt.
 
-   ![](assets/locate-plan.png)
+   ![Plan suchen](assets/locate-plan.png)

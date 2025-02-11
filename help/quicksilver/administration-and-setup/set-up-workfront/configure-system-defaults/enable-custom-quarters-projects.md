@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f643d36-6235-4fd3-b6d3-54fbd03c9b33
-source-git-commit: 261ac44eb0d13ffbd61a2c70213adb591bf018aa
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '265'
+source-wordcount: '272'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Geben Sie einen Namen für das benutzerdefinierte Quartal ein, z. B. „Geschäftsjahr 1 2021“.
 1. Wählen Sie das Start- und Enddatum für das benutzerdefinierte Quartal aus.
 
-   ![](assets/custom-quarters-nwe.png)
+   ![Benutzerdefinierte Quartale](assets/custom-quarters-nwe.png)
 
 1. (Optional) Klicken Sie **[!UICONTROL Benutzerdefiniertes Quartal hinzufügen]**, um dem System zusätzliche benutzerdefinierte Quartale hinzuzufügen.
 1. (Optional) Erstellen Sie ein Berichterstellungselement, das sich auf das Geschäftsquartal bezieht.
 
    **Beispiel** Erstellen Sie einen Filter für eine [!UICONTROL Projekt]Liste und geben Sie das geplante Abschlussdatum eines Projekts an, das auf die benutzerdefinierten Quartale verweist.
 
-   ![](assets/example-of-project-filter-with-custom-quarters.png)
+   ![Projektfilter mit benutzerdefinierten Quartalen](assets/example-of-project-filter-with-custom-quarters.png)
 
    Die Verweise auf „Dieses Quartal“, „Nächstes Quartal“ und „Letztes Quartal“ werden durch neue Verweise auf die benutzerdefinierten Quartale ersetzt.
 

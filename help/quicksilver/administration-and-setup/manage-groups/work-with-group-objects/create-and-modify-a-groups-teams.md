@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51967cd7-962e-4354-a04b-6df4e31e70c6
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1010'
+source-wordcount: '1018'
 ht-degree: 3%
 
 ---
@@ -54,10 +54,10 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, für die Sie Teams erstellen oder ändern möchten.
-1. Klicken Sie im linken Bereich auf **Teams** ![](assets/teams.png) , um die mit der Gruppe und etwaigen Untergruppen verknüpften Teams aufzulisten.
+1. Klicken Sie im linken Bedienfeld auf **Teams** ![Teams](assets/teams.png), um die mit der Gruppe und mit etwaigen Untergruppen verknüpften Teams aufzulisten.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -100,7 +100,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
       </tbody> 
      </table>
 
-   * **Teams bearbeiten**: Wählen Sie mindestens ein Team aus, klicken Sie auf **das** Bearbeiten ![](assets/edit-icon.png) und verwenden Sie dann die folgenden Optionen, um es zu konfigurieren:
+   * **Teams bearbeiten**: Wählen Sie mindestens ein Team aus, klicken Sie auf **das**-Symbol ![Bearbeiten-Symbol](assets/edit-icon.png) und konfigurieren Sie es dann mit den folgenden Optionen:
 
      <table style="table-layout:auto"> 
       <col> 
@@ -149,5 +149,5 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
       </tbody> 
      </table>
 
-   * **Teams löschen**: Wählen Sie mindestens ein Team aus und klicken Sie dann auf das Symbol Löschen ![](assets/delete.png).
-   * **Teamliste exportieren**: Klicken Sie auf **Exportieren** ![](assets/export.png) und wählen Sie dann das Dateiformat für die exportierte Liste aus.
+   * **Teams löschen**: Wählen Sie mindestens ein Team aus und klicken Sie dann auf das Löschsymbol ![Löschsymbol](assets/delete.png).
+   * **Teamliste exportieren**: Klicken Sie auf **Exportieren** ![Symbol „Exportieren“](assets/export.png) und wählen Sie dann das Dateiformat für die exportierte Liste aus.

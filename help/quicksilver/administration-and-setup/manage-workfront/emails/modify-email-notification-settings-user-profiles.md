@@ -9,9 +9,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 658f97cd-0500-421d-9c89-26041ca59655
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '458'
+source-wordcount: '465'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ So ändern Sie E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
 
 1. Erweitern Sie eine Kategorie, um Benachrichtigungseinstellungen anzuzeigen, die sich auf diese Kategorie beziehen.
 
-   Wenn mindestens ein Benutzer aktiviert wurde und die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kontrollkästchen Kategorie für diese Benachrichtigung eine horizontale ![](assets/straight-line-instead-of-checkmark.jpg) anstelle eines Häkchens.
+   Wenn mindestens ein Benutzer aktiviert wurde und die Benachrichtigungen nicht mit den Benachrichtigungen der anderen ausgewählten Benutzer übereinstimmen, enthält das Kontrollkästchen Kategorie für diese Benachrichtigung eine horizontale Linie ![Linie anstelle ](assets/straight-line-instead-of-checkmark.jpg) Kontrollkästchens.
 
 
 1. Klicken Sie auf eine Benachrichtigung, die Benutzerinnen und Benutzer entweder täglich oder sofort erhalten sollen, oder löschen Sie alle Benachrichtigungen, die sie nicht mehr erhalten sollen.
@@ -80,7 +80,7 @@ So ändern Sie E-Mail-Benachrichtigungseinstellungen für mehrere Benutzer:
 
 1. Wenn Sie Benachrichtigungen als tägliche Zusammenfassung gesendet haben, wählen Sie die Tageszeit, zu der die Zusammenfassung zugestellt werden soll, oben im Abschnitt **Benachrichtigungen** im Menü **Tägliche Zusammenfassung nach** aus.
 
-   ![](assets/daily-digest-time.png)
+   ![Tägliche Digest-Zeit](assets/daily-digest-time.png)
 
    Die tägliche Zusammenfassung enthält Ereignisse, die den Kriterien der Benachrichtigungen 24 Stunden vor der ausgewählten Zeit entsprechen. Benutzende erhalten für jeden Benachrichtigungstyp eine tägliche Digest-E-Mail.
 

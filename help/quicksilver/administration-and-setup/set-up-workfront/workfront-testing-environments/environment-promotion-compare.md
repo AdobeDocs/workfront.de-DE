@@ -8,9 +8,10 @@ description: Sie können Objekte über Umgebungen hinweg vergleichen, um sicherz
 author: Becky
 feature: System Setup and Administration
 role: Admin
-source-git-commit: 2ff7a8b0ae3cc1f641c0d7c0b1384548c9603423
+exl-id: 085b0f04-5a9c-49b9-86d7-2363731ee067
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '467'
 ht-degree: 0%
 
 ---
@@ -85,7 +86,7 @@ In diesem Beispiel:
 
 So zeigen Sie bestimmte Objektunterschiede an:
 
-1. Klicken Sie auf das Lupensymbol ![](assets/compare-icon.png) in der Zeile für dieses Objekt.
+1. Klicken Sie auf das Lupensymbol ![Vergleichssymbol](assets/compare-icon.png) in der Zeile für dieses Objekt.
 
    Ein Fenster mit allen Feldern dieses Objekts wird geöffnet. Unterschiede sind rot markiert.
 

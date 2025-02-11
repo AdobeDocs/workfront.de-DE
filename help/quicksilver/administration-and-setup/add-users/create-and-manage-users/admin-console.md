@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: 9db8ea3f26dd7e8b4c8aa52fb9902832db7a6a5c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -102,13 +102,13 @@ Bevor Sie die Admin Console für Workfront verwenden, sollten Sie eine E-Mail er
 
 1. Wählen Sie auf der ](https://adminconsole.adobe.com/) [Adobe Admin Console die Registerkarte **Produkte** in der oberen Navigationsleiste aus und wählen Sie dann **Workfront**.
 
-   <!--![](assets/admin-product-1.png)-->
+   <!--![Admin Console product](assets/admin-product-1.png)-->
 
 1. Klicken Sie in der angezeigten Liste oben auf den Link.
 
    Dies ist die Produktionsinstanz, in der die Benutzer arbeiten.
 
-   <!--![](assets/instances-1.png)-->
+   <!--![Admin Console instances](assets/instances-1.png)-->
 
    >[!TIP]
    >
@@ -119,7 +119,7 @@ Bevor Sie die Admin Console für Workfront verwenden, sollten Sie eine E-Mail er
 
 1. Klicken Sie in der angezeigten Liste bei **ausgewählten Registerkarte** Produktprofile“ auf den Namen des Workfront-Produktprofils.
 
-   ![](assets/prod-profile-1.png)
+   ![Produktprofile](assets/prod-profile-1.png)
 
    Diese Liste enthält alle Benutzenden, die bereits Ihrer Produktionsinstanz von Workfront zugewiesen sind.
 
@@ -145,7 +145,7 @@ Sie müssen einen Benutzer zu Ihrer Produktionsinstanz von Workfront hinzufügen
 1. Wählen Sie **Admin hinzufügen** aus.
 1. Geben **im Feld „Produktprofil-** hinzufügen“ die E-Mail-Adressen oder Namen der Administratoren ein, die Sie hinzufügen möchten, und klicken Sie dann auf **Speichern**.
 
-   ![](assets/add-admin-1.png)
+   ![Administrator hinzufügen](assets/add-admin-1.png)
 
    Die Systemadministratoren werden in Workfront erstellt.
 
@@ -205,7 +205,7 @@ So validieren Sie einen Benutzer:
 
 {{step-1-to-users}}
 
-1. Wählen Sie den Benutzer aus und klicken Sie dann auf das **Mehr**-Symbol ![](assets/more-icon.png).
+1. Wählen Sie den Benutzer aus und klicken Sie dann auf das Symbol **Mehr** (![-Symbol](assets/more-icon.png).
 
 1. Um den Benutzer zu genehmigen, klicken Sie auf **Genehmigen** und dann auf **Senden**.
 

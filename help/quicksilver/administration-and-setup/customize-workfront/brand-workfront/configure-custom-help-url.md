@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d2b63508-1943-4f9e-888e-8f1bfb54c33e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '274'
+source-wordcount: '277'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Wenn Sie eine benutzerdefinierte interne Hilfeseite erstellen, die Informationen darüber enthält, wie Ihr Unternehmen Workfront verwendet, können Sie im Hauptmenü das Hilfesymbol so konfigurieren, dass es auf diese Seite verweist.
 
-![](assets/custom-help-button.png)
+![Benutzerdefinierte Hilfe-Schaltfläche](assets/custom-help-button.png)
 
 Dies hat keine Auswirkungen auf die kontextabhängigen Hilfelinks in Workfront, über die Benutzende zur Workfront-Hilfeseite gelangen.
 

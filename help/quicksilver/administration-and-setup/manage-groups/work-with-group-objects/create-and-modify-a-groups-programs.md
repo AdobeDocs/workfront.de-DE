@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51111523-8fb7-4379-995e-1834cac51872
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '395'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, für die Sie Programme erstellen oder ändern möchten.
 1. Klicken Sie im linken Bereich auf **Programme**, um die Programme aufzulisten, die mit der Gruppe verknüpft sind, auf die Sie Zugriff haben (und allen Untergruppen darunter).

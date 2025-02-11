@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1a1affed-1b06-442c-98b2-9f360eee767b
-source-git-commit: 90405d79f605d788331cb7a04ebf354dc4379bf5
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2693'
+source-wordcount: '2695'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Projektvoreinstellungen]** > **[!UICONTROL Projekte]**.
 
 1. Fahren Sie auf der **Projektvoreinstellungen** mit einem der vier unten aufgeführten Abschnitte fort, um Voreinstellungen für [!UICONTROL Projektstatus], [!UICONTROL Timelines], [!UICONTROL Business Cases] und [!UICONTROL Life after Death] zu konfigurieren.
-1. Wenn Sie möchten, dass alle Gruppen im Unternehmen dieselben Projektvoreinstellungen verwenden, stellen Sie sicher, dass jede Voreinstellung ![](assets/lock-toggle-button.png) gesperrt ist (dies ist die Standardeinstellung).
+1. Wenn Sie möchten, dass alle Gruppen im Unternehmen dieselben Projektvoreinstellungen verwenden, stellen Sie sicher, dass jede Voreinstellung gesperrt ist ![Umschalter für Sperren](assets/lock-toggle-button.png) (dies ist die Standardeinstellung).
 
    >[!IMPORTANT]
    >

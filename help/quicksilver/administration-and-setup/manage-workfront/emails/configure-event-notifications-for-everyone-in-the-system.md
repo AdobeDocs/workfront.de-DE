@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '593'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ Sie müssen Benachrichtigungen im Bereich Setup von Workfront aktivieren, bevor 
 
 1. Klicken Sie auf **E** > **Benachrichtigungen**.
 
-   ![](assets/notifications-area-under-setup-emails.png)
+   ![Benachrichtigungsbereich unter „E-Mails einrichten“](assets/notifications-area-under-setup-emails.png)
 
 
 1. Stellen Sie sicher **dass die Registerkarte** Ereignisbenachrichtigungen“ geöffnet ist.
@@ -88,7 +88,7 @@ Sie müssen Benachrichtigungen im Bereich Setup von Workfront aktivieren, bevor 
 
    Weitere Informationen zum Anpassen der Betreffzeilen von E-Mail-Benachrichtigungen finden Sie unter [Anpassen von E-Mail-Betreffen für ](../../../administration-and-setup/manage-workfront/emails/custom-email-subjects-event-notification.md).
 
-1. (Optional) Wenn Sie die Konfiguration für eine E-Mail-Benachrichtigung entsperren möchten, damit Gruppenadministratoren sie separat für ihre Gruppen konfigurieren können, klicken Sie auf die Schaltfläche ![](assets/lock-toggle-button.png) rechts neben der Benachrichtigung, um sie in die entsperrte Position ![](assets/unlock-toggle-button.png) zu schalten.
+1. (Optional) Wenn Sie die Konfiguration einer E-Mail-Benachrichtigung entsperren möchten, damit Gruppenadministratoren sie separat für ihre Gruppen konfigurieren können, klicken Sie auf die Schaltfläche ![Sperren-Umschalter](assets/lock-toggle-button.png) rechts neben der Benachrichtigung, um sie in die entsperrte Position zu ![Entsperren-Umschalter](assets/unlock-toggle-button.png).
 
    >[!NOTE]
    >

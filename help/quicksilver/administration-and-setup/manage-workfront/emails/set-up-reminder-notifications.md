@@ -5,9 +5,9 @@ author: Alina, Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 6c0fa8af-cd89-4941-a6f6-aa4e84a7dc67
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1226'
+source-wordcount: '1232'
 ht-degree: 2%
 
 ---
@@ -79,7 +79,7 @@ Informationen zum Erstellen einer E-Mail-Vorlage finden Sie unter [Konfigurieren
 
 1. Klicken Sie auf **E** > **Benachrichtigungen** > **Erinnerungsbenachrichtigungen**.
 
-   ![](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
+   ![Registerkarte „Erinnerungsbenachrichtigungen“](assets/remider-notifications-tab-in-setup-email-notifications-area.png)
 
 1. Klicken Sie **Neue Erinnerungsnachricht**.
 
@@ -176,4 +176,4 @@ So führen Sie eine Erinnerungsnachricht manuell an den Trigger durch:
 
    Die in der Erinnerungsnachricht angegebenen Benutzer erhalten eine E-Mail.
 
-![](assets/reminder-test.png)
+![Test der Erinnerungsbenachrichtigung](assets/reminder-test.png)

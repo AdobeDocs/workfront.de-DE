@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 87f1b6c0-6b74-4eac-87cd-899b1c74af25
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '246'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Um die SSO-Funktion in Workfront verwenden zu können, muss Ihr Unternehmen eine
 
 Federated Solutions ermöglichen es Benutzern, sich bei all ihren Anwendungen anzumelden, indem sie ihren Benutzernamen und ihr Passwort in einem zentralen Anmeldeportal eingeben.
 
-![](assets/overview-sso-wf-fed-only.png)
+![SSO Federated](assets/overview-sso-wf-fed-only.png)
 
 
 ## Firewall konfigurieren

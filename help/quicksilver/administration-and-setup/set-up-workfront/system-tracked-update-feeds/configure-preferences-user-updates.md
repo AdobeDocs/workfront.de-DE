@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: d6d18423-d13c-42e8-b8ee-43e6842b6481
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '283'
+source-wordcount: '289'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ Standardmäßig können Benutzende in Aktualisierungen keine Bilder hinzufügen.
 >* Auf Bilder kann über die Registerkarte [!UICONTROL Aktualisierungen] eines Objekts zugegriffen werden. Sie sind auch im Bereich [!UICONTROL Dokumente] unter dem [!UICONTROL Hauptmenü] verfügbar.
 >
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 1. Wählen Sie im linken Bedienfeld **[!UICONTROL Schnittstelle]** > **[!UICONTROL Aktualisierungs-Feeds]**.
 1. Wählen Sie die **[!UICONTROL Voreinstellungen]** aus.
 

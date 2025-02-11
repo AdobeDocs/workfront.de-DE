@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 3ab3ca43-d8e9-4545-a862-e6bf9419ef16
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '641'
 ht-degree: 2%
 
 ---
@@ -81,7 +81,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 1. Klicken **oben rechts** der Seite auf „Terminologie festlegen“.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Um einen von Workfront bereitgestellten Alternativbegriff zu verwenden, klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) neben der Bezeichnung und dann auf die gewünschte Alternativbezeichnung in der Dropdown-Liste.
+   * Um einen von Workfront bereitgestellten Alternativbegriff zu verwenden, klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/dropdown-arrow.png) neben der Bezeichnung und dann auf die gewünschte Alternativbezeichnung in der Dropdown-Liste.
 
      >[!NOTE]
      >

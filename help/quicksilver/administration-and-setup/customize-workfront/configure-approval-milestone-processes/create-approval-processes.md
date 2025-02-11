@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 1709e285-51a5-49a1-a03a-743a334fbe4d
-source-git-commit: a1ead3895afaf8b601a9c53e08d41b1cab51cb48
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '2191'
+source-wordcount: '2193'
 ht-degree: 1%
 
 ---
@@ -82,10 +82,10 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Oder
 
-   Wenn Sie einen Genehmigungsprozess auf Gruppenebene erstellen, klicken Sie auf **Gruppen** ![](assets/groups-icon.png) klicken Sie auf den Namen der Gruppe und dann auf **Genehmigungen**.
+   Wenn Sie einen Genehmigungsprozess auf Gruppenebene erstellen, klicken Sie auf **Gruppen** ![Symbol ](assets/groups-icon.png), klicken Sie auf den Namen der Gruppe und dann auf **Genehmigungen**.
 
    <!--hidden for the new tab redesign - August 2023: 
-   ![](assets/approvals-area-in-setup-processes.png)
+   ![Approvals area in setup](assets/approvals-area-in-setup-processes.png)
    -->
 
 1. Wählen Sie entweder die **Projektgenehmigungen**, **Aufgabengenehmigungen** oder **Problemgenehmigungen** aus.

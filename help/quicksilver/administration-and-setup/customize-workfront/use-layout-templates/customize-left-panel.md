@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: b100ea35-e045-4021-b5be-2c9071b381da
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1102'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ In einer Layout-Vorlage können Sie anpassen, was Benutzende im gesamten Bereich
 
 Sie können beispielsweise bestimmen, welches der folgenden Elemente Benutzern im linken Bereich beim Anzeigen einer Aufgabe angezeigt wird:
 
-![](assets/left-panel-adobe-branding.png)
+![Linker Bereich für Branding](assets/left-panel-adobe-branding.png)
 
 >[!IMPORTANT]
 >
@@ -70,7 +70,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 ## Passen Sie das linke Bedienfeld für einen Bereich in [!DNL Workfront] an:
 
 1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow.png) unter **[!UICONTROL Was Benutzer sehen]** und klicken Sie dann auf den Namen eines Objekttyps oder eines [!DNL Workfront] Bereichs, dessen linker Bereich angepasst werden soll.
+1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/dropdown-arrow.png) unter **[!UICONTROL Anpassen, was Benutzer sehen]** und klicken Sie dann auf den Namen eines Objekttyps oder [!DNL Workfront] Bereichs, dessen linker Bereich angepasst werden soll.
 
    Die Objekttypen und [!DNL Workfront] Bereiche, deren linker Bereich angepasst werden kann, sind in der folgenden Tabelle aufgeführt:
 
@@ -204,9 +204,9 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 
 1. Führen Sie in der **[!UICONTROL Linker Bereich]** einen der folgenden Schritte aus, um zu bestimmen, was Benutzende im linken Bereich für den ausgewählten [!DNL Workfront] Bereich oder Objekttyp sehen werden:
 
-   * Klicken Sie auf **Anzeigen** ![](assets/add-secondary-nav-item.png) oder **Ausblenden** ![](assets/delete-secondary-nav-item.png), um Abschnitte im linken Bedienfeld ein- oder auszublenden. Sie können keine Elemente ausblenden, die kein Symbol **Anzeigen** oder **Ausblenden** aufweisen.
+   * Klicken Sie auf **Anzeigen** ![Symbol anzeigen](assets/add-secondary-nav-item.png) oder **Ausblenden** ![Symbol ausblenden](assets/delete-secondary-nav-item.png), um Abschnitte im linken Bereich ein- oder auszublenden. Sie können keine Elemente ausblenden, die kein Symbol **Anzeigen** oder **Ausblenden** aufweisen.
 
-   * Ziehen Sie Elemente ![](assets/move-icon---dots.png), um ihre Reihenfolge im linken Bereich zu ändern.
+   * Ziehen Sie Elemente ![Symbol Verschieben](assets/move-icon---dots.png), um ihre Reihenfolge im linken Bedienfeld zu ändern.
 
    >[!NOTE]
    >

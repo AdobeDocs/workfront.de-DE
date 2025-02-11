@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 81e74a70-ea7e-4ed8-8b30-f01df0e73645
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -93,7 +93,7 @@ So passen Sie die Namen der Anfragetypen an:
 1. Klicken Sie auf die **[!UICONTROL Probleme]**.
 1. Bewegen Sie oben auf der Registerkarte **[!UICONTROL Probleme]** den Mauszeiger über den Namen eines Anfragetyps und klicken Sie dann auf das **[!UICONTROL Bearbeiten]**-Symbol.
 
-   ![](assets/edit-request-type-name-nwe.png)
+   ![Name des Anforderungstyps bearbeiten](assets/edit-request-type-name-nwe.png)
 
 1. Geben Sie im angezeigten Feld einen neuen Namen ein und drücken Sie dann die **[!UICONTROL Eingabetaste]**.
 

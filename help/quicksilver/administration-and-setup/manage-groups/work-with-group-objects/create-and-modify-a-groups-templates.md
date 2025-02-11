@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f97a12eb-9002-4f11-908a-c68c1e6dc9c9
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1280'
+source-wordcount: '1281'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, für die Sie Vorlagen erstellen oder ändern möchten.
 1. Klicken Sie im linken Bereich auf **Vorlagen**, um die Vorlagen aufzulisten, die mit der Gruppe und etwaigen Untergruppen, die sie möglicherweise hat, verknüpft sind.

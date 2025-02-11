@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 024b8606-a9b7-413a-b393-8e5cdff37dd4
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1875'
+source-wordcount: '1877'
 ht-degree: 0%
 
 ---
@@ -323,7 +323,7 @@ Weitere Informationen zu [!DNL Workfront] finden Sie unter [Erstellen oder Ände
 
 1. Klicken Sie auf **[!UICONTROL Registerkarte]** Gruppen“.
 
-   ![](assets/groupstab.png)
+   ![Registerkarte „Gruppen“](assets/groupstab.png)
 
 1. Stellen Sie sicher, dass der Benutzer zu mindestens einer [!DNL Workfront] gehört, die über Zugriffsebenen verfügt, die die Berechtigungen [!UICONTROL Erstellen] und [!UICONTROL Löschen] beinhalten.
 

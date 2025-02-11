@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8a55d364-962a-4eef-8968-b2233a71cf31
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '305'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Wenn Sie die Option **Einbetten von Workfront in einen iframe zulassen** aktivieren, ist die Option **SAML 2.0-Authentifizierung in Office 365-Add-Ins** und aktiviert.
    >
-   >![](assets/if-you-enable.png)
+   >![Einbettungsoption zulassen](assets/if-you-enable.png)
    >
 
 1. Klicken Sie auf **Speichern**.

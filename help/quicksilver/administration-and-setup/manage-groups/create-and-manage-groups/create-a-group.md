@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 4a039619-0943-4b5b-ba7a-1ad9b5c11df0
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1652'
+source-wordcount: '1656'
 ht-degree: 3%
 
 ---
@@ -69,7 +69,7 @@ Sie müssen ein Workfront-Administrator sein, um eine Gruppe der obersten Ebene 
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie über der Gruppenliste auf **Neue Gruppe**.
 
@@ -141,11 +141,11 @@ So erstellen Sie eine neue Gruppe der obersten Ebene durch Kopieren einer Gruppe
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
    In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
-1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol Kopieren ![](assets/copy-icon.png).
+1. Wählen Sie die Gruppe aus, die Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![ „Kopieren](assets/copy-icon.png).
 1. Geben Sie **Feld „Gruppe kopieren** einen **Gruppennamen** für die kopierte Gruppe ein.
 
 1. Geben Sie die folgenden Informationen an:

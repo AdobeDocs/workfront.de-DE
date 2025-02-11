@@ -5,9 +5,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8d1870ea-3f9e-4358-8e14-3dcfc3805637
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '476'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
@@ -59,14 +59,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe.
 1. Zeigen Sie auf der angezeigten Seite im Kopfzeilenbereich oben rechts den Bereich **Verwendete Lizenzen** an, um die Anzahl der **Plan** und **Work**-Lizenzen anzuzeigen.
 
    Wenn Sie eine Gruppe der obersten Ebene anzeigen und der Workfront-Administrator eine Höchstzahl jedes Lizenztyps für die Gruppe definiert hat, werden diese Zahlen ebenfalls angezeigt. In der folgenden Gruppe können beispielsweise maximal 10 Benutzende über eine Planlizenz und 15 über eine Arbeitslizenz verfügen:
 
-   ![](assets/licenses-used-allocated.png)
+   ![Zugeordnete Lizenzen](assets/licenses-used-allocated.png)
 
    Informationen dazu, wie Workfront-Admins die maximale Anzahl zugewiesener Lizenzen für eine Gruppe definieren, finden Sie im Abschnitt [Festlegen der maximalen Lizenzanzahl für eine Hauptgruppe](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md#set) im Artikel [Verwalten verfügbarer Lizenzen in Ihrem System](../../../administration-and-setup/get-started-wf-administration/manage-available-licenses-in-your-system.md).
 
@@ -74,15 +74,15 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Wenn es sich bei der gewünschten Gruppe um eine Untergruppe handelt, können Sie nur die Anzahl der verwendeten Lizenzen und nicht die maximale Anzahl der für die Gruppe zugewiesenen Lizenzen anzeigen. Dies liegt daran, dass Workfront-Admins keine maximale Lizenzanzahl für eine Untergruppe definieren.
    >
-   >![](assets/subgroup-used-licenses-only.png)
+   >![Verwendete Lizenzen in Untergruppe](assets/subgroup-used-licenses-only.png)
    >
 
 1. Für eine separate Zählung der einzelnen Lizenztypen, die derzeit in der Gruppe verwendet werden (einschließlich Überprüfung und Anfrage), klicken Sie auf den Textbereich direkt unter **Verwendete Lizenzen:**
 
-   ![](assets/click-text-to-see-more.png)
+   ![Hier klicken, um mehr zu sehen](assets/click-text-to-see-more.png)
 
    Das angezeigte Feld enthält dieselben Informationen für alle vier Workfront-Lizenztypen: Plan, Arbeit, Überprüfung und Anfrage. Unten im Feld sehen Sie die Gesamtzahl der Lizenzen, die von den Mitgliedern dieser Gruppe oder einer ihrer Untergruppen verwendet werden:
 
-   ![](assets/more-license-info.png)
+   ![Weitere Lizenzinformationen](assets/more-license-info.png)
 
    Bei Prüfungs- und Anfragelizenzen wird in der Spalte Maximal immer Unbegrenzt angezeigt.

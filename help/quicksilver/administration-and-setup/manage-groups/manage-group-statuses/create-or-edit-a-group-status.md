@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 75018e0e-ff74-4afb-9a99-34bbb39b6e14
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1344'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, in der Sie Status erstellen oder anpassen möchten.
 1. Klicken Sie im linken Bedienfeld auf **Status**.
@@ -87,7 +87,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Bedingt) Wenn der Status ein Problemstatus ist, stellen Sie sicher, dass **Masterliste** ausgewählt ist.
 
-   ![](assets/master-list.png)
+   ![Hauptliste](assets/master-list.png)
 
    Informationen zum Anpassen der anderen Problemtypen (Fehlerbericht, Änderungsanforderung, Problem, Anfrage) finden Sie unter [Anpassen von standardmäßigen Problemtypen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/customize-default-issue-types.md).
 
@@ -97,7 +97,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Um einen vorhandenen Status zu bearbeiten, bewegen Sie den Mauszeiger über den Status, den Sie bearbeiten möchten, und klicken Sie dann auf die **Bearbeiten** Option, die ganz rechts angezeigt wird.
 
-   ![](assets/group-statuses-edit.jpg)
+   ![Gruppenstatus](assets/group-statuses-edit.jpg)
 
    >[!NOTE]
    >Sie können einen Status für Ihre Gruppe nur bearbeiten, wenn Sie:
@@ -173,11 +173,11 @@ Wenn Sie Gruppenadministrator (oder Workfront-Administrator) sind, können Sie e
 1. Löschen Sie in dem Feld oben rechts **Systemstatus**, geben Sie den Namen einer Gruppe ein, in der Sie den Status ausblenden möchten, und klicken Sie dann auf den Namen, wenn er angezeigt wird.
 1. Bewegen Sie den Mauszeiger über den Status, den Sie aus der Gruppe ausblenden möchten, und klicken Sie dann auf **Bearbeiten** wenn er angezeigt wird.
 
-   ![](assets/hover-click-edit.jpg)
+   ![Status bearbeiten](assets/hover-click-edit.jpg)
 
 1. Aktivieren Sie die **Status ausblenden** Option, die angezeigt wird.
 
-   ![](assets/hide-group-status.png)
+   ![Status ausblenden](assets/hide-group-status.png)
 
 1. Klicken Sie auf **Speichern**.
 

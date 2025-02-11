@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: af8c9fc1-8398-437e-b326-3b94f6e7e7e5
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '246'
+source-wordcount: '247'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, der Sie einen Gruppenadministrator zuweisen möchten.
 1. Klicken Sie in der Kopfzeile nahe der rechten oberen Ecke auf eines der Benutzerprofilbilder unter &quot;**-**&quot;.

@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 3d523584-dcb8-4aa6-8217-611f22dc1450
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '960'
+source-wordcount: '977'
 ht-degree: 1%
 
 ---
@@ -77,7 +77,7 @@ Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis b
 
 ### Zuordnen von Benutzerattributen im klassischen Erlebnis
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
 1. Klicken Sie auf **System** > **Single Sign-On (SSO)**.
 
@@ -85,7 +85,7 @@ Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis b
 
 1. Klicken Sie **Benutzerattribute zuordnen**.
 
-   ![](assets/map-user-attributes.png)
+   ![Benutzerattribute zuordnen](assets/map-user-attributes.png)
 
 1. Ordnen Sie in der angezeigten Optionszeile die Attribute zu, die Sie für Ihre Workfront-Benutzenden benötigen.
 
@@ -123,7 +123,7 @@ Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis b
    1. Wählen Sie in der Dropdown-Liste den Attributmodifikator aus, den Sie verwenden möchten.
    1. Geben Sie in die zwei Felder rechts den Verzeichnisattributwert und den Wert ein, durch den Sie ihn ersetzen möchten.
 
-      ![](assets/rule-fields.png)
+      ![Regelfelder](assets/rule-fields.png)
 
    Sie können auf **Regel hinzufügen** klicken, um dem Attribut weitere Regeln hinzuzufügen.
 
@@ -132,7 +132,7 @@ Um festzustellen, ob sich Ihr Unternehmen auf dem einheitlichen Adobe-Erlebnis b
 
 ### Zuordnen von Benutzerattributen im einheitlichen Adobe-Erlebnis
 
-1. Klicken Sie auf **Hauptmenü**-Symbol ![](assets/main-menu-left.png) in der linken oberen Ecke von Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-left.png) in der linken oberen Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
 1. Klicken Sie auf **System** > **Single Sign-On (SSO)**.
 

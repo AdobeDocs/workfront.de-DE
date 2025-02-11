@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: e13e3479-391f-4aec-b998-e9b6057f256b
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '932'
 ht-degree: 0%
 
 ---
@@ -88,9 +88,9 @@ So generieren Sie manuell E-Mail-Einladungen an nicht registrierte Benutzer:
 
 1. Wählen Sie den Benutzer aus, der nach seinem Namen die **Nicht registriert**-Kennzeichnung anzeigt.
 
-   ![](assets/unreg-user-qs-350x221.png)
+   ![Nicht registriert](assets/unreg-user-qs-350x221.png)
 
-1. Klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) dann auf **Benutzer an die Registrierung erinnern**.
+1. Klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png) und dann auf **Benutzer an die Registrierung erinnern**.
 
    Der neue Benutzer erhält eine E-Mail-Einladung mit einem neuen Link, den er zum Erstellen seines Workfront-Kennworts verwenden kann.
 

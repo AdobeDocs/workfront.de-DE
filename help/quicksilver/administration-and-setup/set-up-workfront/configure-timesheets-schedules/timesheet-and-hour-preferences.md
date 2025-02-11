@@ -8,9 +8,9 @@ author: Alina and Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8cc49dc2-b23f-4899-85dd-bd53d5242dbe
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1424'
+source-wordcount: '1433'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. (Optional) Geben Sie **Suchfeld „Systemzeittabellen und**&quot; den Namen einer Gruppe ein und wählen Sie diese aus, wenn sie in der Liste angezeigt wird.
 
-   ![](assets/search-for-group-box-in-timesheets-preferences-page.png)
+   ![Nach Gruppenfeld suchen](assets/search-for-group-box-in-timesheets-preferences-page.png)
 
    Die Seite mit den Arbeitszeittabellen- und Stundeneinstellungen wird mit den Einstellungen für die ausgewählte Gruppe aktualisiert. Voreinstellungen auf Systemebene müssen entsperrt werden, um Einstellungen auf Gruppenebene ändern zu können. Weitere Informationen finden Sie im Abschnitt [Entsperren von Arbeitszeittabellen und Stundeneinstellungen für Gruppen](#unlock-timesheet-and-hour-preferences-for-groups) in diesem Artikel.
 
@@ -212,8 +212,8 @@ So entsperren Sie eine Projektvoreinstellung, damit Gruppen sie konfigurieren k�
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, klicken Sie auf den Umschalter **Entsperren** , um ![](assets/unlock-toggle-button.png) zu entsperren.
-   * Wenn alle Gruppen Ihre Konfiguration für eine Voreinstellung verwenden sollen, stellen Sie sicher, dass der Umschalter ![](assets/locked-preference-toggle.png) gesperrt ist (dies ist die Standardeinstellung).
+   * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, klicken Sie auf den Umschalter **Entsperren** (![-Umschalter](assets/unlock-toggle-button.png), um ihn zu entsperren .
+   * Wenn Sie möchten, dass alle Gruppen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass es sich um einen gesperrten Umschalter handelt ![Voreinstellung gesperrt](assets/locked-preference-toggle.png) (dies ist die Standardeinstellung).
 
      >[!IMPORTANT]
      >

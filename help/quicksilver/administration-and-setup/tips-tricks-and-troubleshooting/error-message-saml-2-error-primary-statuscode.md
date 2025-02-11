@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1ec18638-97b8-4307-9cea-05b28395eaee
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '359'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -70,8 +70,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Wählen **[!UICONTROL Vertrauensbeziehung]** > **[!UICONTROL Vertrauensstellungen der vertrauenden]** im linken Bereich aus.
 
 1. Klicken Sie mit der rechten Maustaste auf die Vertrauensstellung der vertrauenden Seite in Bezug auf [!DNL Adobe Workfront] und wählen Sie dann **[!UICONTROL Eigenschaften]** aus.
-1. Klicken Sie auf die **[!UICONTROL Erweitert]** und wählen Sie dann **[!UICONTROL SHA-1]** aus dem Dropdown **[!UICONTROL Menü Sicherer Hash-Algorithmus]** aus.\
-   ![](assets/1-350x287.png)
+1. Klicken Sie auf die **[!UICONTROL Erweitert]** und wählen Sie dann **[!UICONTROL SHA-1]** aus dem Dropdown **[!UICONTROL Menü Sicherer Hash-Algorithmus]** aus.
+   ![SHA-1](assets/1-350x287.png)
 
 ## Ursache 2: Das ADFS-Signaturzertifikat läuft bald ab und wurde durch ein neues Zertifikat mit sich überschneidenden Datumsangaben ersetzt
 

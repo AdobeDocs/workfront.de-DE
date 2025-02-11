@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 6fee45a6-1a55-4351-8b08-88244c742ed5
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '507'
+source-wordcount: '520'
 ht-degree: 6%
 
 ---
@@ -21,7 +21,7 @@ Als Workfront-Administrator können Sie die Reihenfolge der Projekt-, Aufgaben- 
 
 <!--The system version of this snippet mentions a single group because a sysadmin call also reorder statuses there. Group admin version of this article is still needed.-->
 
-![](assets/statuses.png)
+![Status](assets/statuses.png)
 
 >[!NOTE]
 >
@@ -125,7 +125,7 @@ Standardmäßig werden die Status in der folgenden Reihenfolge angezeigt:
 1. Klicken Sie im linken Bedienfeld auf **Projektvoreinstellungen > Status**.
 1. (Bedingt) Wenn Sie den Status für eine Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein. Klicken Sie dann auf den Namen, wenn er angezeigt wird.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Systemstatus](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Klicken Sie über der angezeigten Statusliste auf die Registerkarte **Projekte** oder **Aufgaben**.
 
@@ -137,12 +137,12 @@ Standardmäßig werden die Status in der folgenden Reihenfolge angezeigt:
 
 ## Status für Probleme neu anordnen
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
 1. Klicken Sie **Projektvoreinstellungen > Status.**
 1. (Bedingt) Wenn Sie den Status für eine Gruppe neu anordnen, geben Sie den Namen der Gruppe in das Feld oben rechts ein. Klicken Sie dann auf den Namen, wenn er angezeigt wird.
 
-   ![](assets/issue-statuses-group-name.png)
+   ![Problemstatus für Gruppe](assets/issue-statuses-group-name.png)
 
 1. Klicken Sie auf die **Probleme**.
 1. (Optional) Wählen Sie einen Problemtyp aus **Fehlerbericht**, **Änderungsanforderung**, **Problem** oder **Anfrage**).

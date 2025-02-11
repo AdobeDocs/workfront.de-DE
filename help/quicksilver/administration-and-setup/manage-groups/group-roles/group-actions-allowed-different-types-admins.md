@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f556aa0b-71c5-48a9-8a84-72f1fbb2c86e
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '541'
 ht-degree: 3%
 
 ---
@@ -226,7 +226,7 @@ In dieser Tabelle sind die verfügbaren Administrationsaktivitäten für aufgef�
  </tbody> 
 </table>
 
-&#42; In der Zugriffsebene des Gruppenadministrators muss **Bearbeiten** für die Einstellung **Benutzer** ausgewählt sein, wobei **Benutzeradmin (Gruppenbenutzer)** unter **Einstellungen optimieren** ![](assets/gear-icon-in-access-levels.png) ausgewählt sein muss. Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Benutzerzugriffs zum Bearbeiten von Benutzern mit einer benutzerdefinierten Zugriffsebene](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) im Artikel [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
+&#42; In der Zugriffsebene des Gruppenadministrators muss **Bearbeiten** für die Einstellung **Benutzer** ausgewählt sein, mit **Benutzeradmin (Gruppenbenutzer)** ausgewählt unter **Einstellungen optimieren** ![Einstellungen optimieren](assets/gear-icon-in-access-levels.png). Weitere Informationen finden Sie im Abschnitt [Konfigurieren des Benutzerzugriffs zum Bearbeiten von Benutzern mit einer benutzerdefinierten Zugriffsebene](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md#access-to-edit) im Artikel [Gewähren des Zugriffs für Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 &#42;&#42; In der Zugriffsebene des Gruppenadministrators muss der Zugriff auf diese Aktion aktiviert sein. Weitere Informationen finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
 

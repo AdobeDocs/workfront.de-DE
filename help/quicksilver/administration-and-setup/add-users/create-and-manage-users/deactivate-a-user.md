@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1084'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ So deaktivieren Sie einen Benutzer:
 
 {{step-1-to-users}}
 
-1. Wählen Sie einen Benutzer aus, klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) und klicken Sie dann auf **Deaktivieren**.
+1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol **Mehr** ![Mehr](assets/more-icon.png) und klicken Sie dann auf **Deaktivieren**.
 
 1. Klicken **in** angezeigten Feld auf „Deaktivieren“.
 
@@ -118,7 +118,7 @@ So planen Sie die Deaktivierung eines Benutzers:
 
    (Optional) Wählen Sie mehrere Benutzer aus, um sie für die Massendeaktivierung zu planen.
 
-1. Klicken Sie auf das Symbol Bearbeiten ![](assets/edit-icon.png).
+1. Klicken Sie auf das Symbol Bearbeiten ![Symbol Bearbeiten](assets/edit-icon.png).
 1. Klicken Sie im angezeigten Feld „Benutzer bearbeiten“ auf **Ressourcenplanung**, um zu diesem Bereich zu wechseln.
 1. Aktivieren Sie die **Deaktivierung planen**.
 
@@ -139,7 +139,7 @@ Es wird empfohlen, einen Bericht für Benutzer zu erstellen, für die Sie die De
 
 {{step-1-to-users}}
 
-1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) dann auf **Aktivieren**.
+1. Wählen Sie einen Benutzer aus, klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png) und dann auf **Aktivieren**.
 
 1. Weisen Sie **Dropdown-Menü eine neue Zugriffsebene** und klicken Sie dann auf **Reaktivieren**.
 <!--

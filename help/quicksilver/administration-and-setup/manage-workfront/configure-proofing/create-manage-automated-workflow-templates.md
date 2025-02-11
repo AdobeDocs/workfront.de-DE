@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: a9f182c0-11cb-4e94-be86-b19ba5102faa
-source-git-commit: 7a2cfddf4683b5b49121bbe3987498297b963ffa
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2079'
 ht-degree: 0%
 
 ---
@@ -209,7 +209,7 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für einen automatisi
     </tbody> 
    </table>
 
-1. Ändern **im Abschnitt „Workflow** den Namen eines beliebigen Schritts und erweitern Sie seine Einstellungen, ![](assets/arrow-button.png) alle erforderlichen Änderungen vorzunehmen:
+1. Ändern Sie im **Workflow** den Namen eines beliebigen Schritts und erweitern Sie seine Einstellungen ![Schaltfläche Erweitern](assets/arrow-button.png), um die erforderlichen Änderungen vorzunehmen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -256,7 +256,7 @@ Als Workfront Proof-Administrator können Sie eine Vorlage für einen automatisi
 
    Wenn Sie das Diagramm nicht sehen müssen, können Sie auf &quot;**&quot;**.
 
-1. Wenn Sie **Benutzer im Abschnitt** Freigegeben für“ löschen möchten, klicken Sie auf die Schaltfläche Mehr ![](assets/more-icon.png) rechts und anschließend auf **Entfernen**.
+1. Wenn Sie einen Benutzer im Abschnitt **Freigegeben für** löschen möchten, klicken Sie auf die Schaltfläche Mehr ![Mehr](assets/more-icon.png) rechts und anschließend auf **Entfernen**.
 
 ## Erstellen von automatisierten Workflow-Vorlagengruppen {#create-automated-workflow-template-groups}
 

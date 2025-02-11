@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2ebc3be5-2734-4012-9277-86176c070137
-source-git-commit: ec7dc62e23aae7fe09532da47a40438223c32766
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '821'
+source-wordcount: '828'
 ht-degree: 3%
 
 ---
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie im linken Bedienfeld auf **E-Mail** > **Benachrichtigungen** > **E-Mail-Vorlagen**.
 
-   ![](assets/email-templates-tab-under-setup-email-notifications-area.png)
+   ![Registerkarte E-Mail-Vorlagen](assets/email-templates-tab-under-setup-email-notifications-area.png)
 
 1. Klicken Sie auf **Neue E-Mail-Vorlage**.
 
@@ -239,7 +239,7 @@ Ein Projekt, das Sie verwalten, ist zu spät gekommen
 
 Dadurch wird eine E-Mail ähnlich der folgenden erzeugt:
 
-![](assets/project-became-late-email.png)
+![Projekt wurde zu einer verspäteten E-Mail](assets/project-became-late-email.png)
 
 #### Aufgabe oder Problem bezüglich des Starts der Erinnerung {#task-or-issue-about-to-start-reminder-example}
 

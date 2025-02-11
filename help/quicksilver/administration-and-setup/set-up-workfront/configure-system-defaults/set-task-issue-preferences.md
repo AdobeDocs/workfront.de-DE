@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2236'
+source-wordcount: '2238'
 ht-degree: 0%
 
 ---
@@ -300,7 +300,7 @@ So sperren oder entsperren Sie eine Aufgaben- oder Problem-Voreinstellung, damit
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie möchten, dass Administratoren von Gruppen unter Ihrer Gruppe eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie diese ![](assets/unlock-toggle-button.png).
+   * Wenn Sie möchten, dass Administratoren von Gruppen unter Ihrer Gruppe eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie sie ![Umschalter Entsperren](assets/unlock-toggle-button.png).
    * Wenn Sie möchten, dass Ihre Gruppe und alle darunter liegenden Gruppen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass sie gesperrt ist (dies ist die Standardeinstellung).
 
      >[!IMPORTANT]

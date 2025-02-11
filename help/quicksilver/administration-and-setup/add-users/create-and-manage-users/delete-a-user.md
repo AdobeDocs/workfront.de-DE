@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '871'
 ht-degree: 1%
 
 ---
@@ -132,7 +132,7 @@ Sie können Benutzer einzeln oder mehrere Benutzer gleichzeitig dauerhaft lösch
 
 {{step-1-to-users}}
 
-1. Wählen Sie mindestens einen zu löschenden Benutzer aus, klicken Sie auf die ![](assets/more-icon.png) Mehr und anschließend auf **Löschen**.
+1. Wählen Sie mindestens einen Benutzer aus, den Sie löschen möchten, klicken Sie auf das Menü Mehr ![Mehr](assets/more-icon.png) und dann auf **Löschen**.
 1. Klicken Sie im angezeigten Feld auf **Löschen**, um den Löschvorgang zu bestätigen.
 
    Der Prozess zum Löschen von Benutzenden wird als Hintergrundprozess ausgeführt, sodass Sie Workfront weiter verwenden können, wenn die Benutzenden gelöscht werden.

@@ -8,9 +8,9 @@ feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 author: Becky
 exl-id: 158430e5-8857-4bd8-86a6-2ba106b1638c
-source-git-commit: bb81e32263348128b7661db6102ad5ac14e9a434
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -77,7 +77,7 @@ Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für  [
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]** und wählen Sie dann **[!UICONTROL OAuth-Anwendungen]**.
 1. Klicken Sie **[!UICONTROL App-Integration erstellen]**.
-1. Bewegen Sie den Mauszeiger über die Anwendung und klicken **[!UICONTROL auf]** Bearbeiten![](assets/edit-icon.png), wenn sie ganz rechts angezeigt wird.
+1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Bearbeiten]** ![Bearbeiten-](assets/edit-icon.png), wenn sie ganz rechts angezeigt wird.
 1. (Optional) Bearbeiten Sie alle Details der Anwendung.
 
    Felder, die sich auf OAuth2- und JWT-Apps beziehen, finden Sie unter [Erstellen von OAuth2-Programmen für  [!DNL Workfront] -Integrationen](../../administration-and-setup/configure-integrations/create-oauth-application.md).
@@ -87,7 +87,7 @@ Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für  [
 {{step-1-to-setup}}
 
 1. Klicken Sie im linken Navigationsbereich auf **[!UICONTROL System]** und wählen Sie dann **[!UICONTROL OAuth-Anwendungen]**.
-1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Löschen]** ![](assets/delete.png) wenn sie ganz rechts angezeigt wird.
+1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Löschen]** ![Löschen](assets/delete.png), wenn sie ganz rechts angezeigt wird.
 
 ## Verwalten von Client-Geheimnissen in OAuth2-Anwendungen
 
@@ -143,4 +143,4 @@ Weitere Informationen finden Sie unter [Erstellen von OAuth2-Anwendungen für  [
 1. Klicken Sie **[!UICONTROL App-Integration erstellen]**.
 1. Bewegen Sie den Mauszeiger über die Anwendung und klicken Sie auf **[!UICONTROL Bearbeiten]**-Symbol, wenn es ganz rechts angezeigt wird.
 1. Suchen Sie den zu löschenden geheimen Client-Schlüssel.
-1. Klicken Sie auf das **[!UICONTROL Löschen]**-Symbol ![](assets/delete.png) neben dem Client-Geheimnis.
+1. Klicken Sie auf das **[!UICONTROL Löschen]**-Symbol ![Löschen](assets/delete.png) neben dem Client-Geheimnis.

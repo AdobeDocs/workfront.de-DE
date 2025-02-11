@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 0f9c543a-2ae2-4c2c-9c4d-647079263a7e
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Sie können mit der Vorbereitung Ihrer Importdatei beginnen, indem Sie einen Ber
    | ID | Die ID ist die alphanumerische GUID von Workfront. |
    | SSO-Benutzername | Durch Hinzufügen des Felds SSO-Benutzername wird sichergestellt, dass keine Benutzernamen vorhanden sind, die durch den Import überschrieben werden. Dieses Feld sollte für alle Benutzer leer sein, wenn Ihre Benutzer noch nicht für SSO aktualisiert wurden. |
 
-   ![](assets/users-with-sso-username-and-no-sso-access-only-field.png)
+   ![Benutzer mit SSO-Benutzername, aber ohne Zugriff](assets/users-with-sso-username-and-no-sso-access-only-field.png)
 
 1. Speichern Sie den Bericht.
 1. Klicken **oben** Bericht auf „Exportieren“ und exportieren Sie den Bericht nach Excel.
@@ -112,7 +112,7 @@ Sie können mit der Vorbereitung Ihrer Importdatei beginnen, indem Sie einen Ber
    * Die zweite Spalte muss den SSO-Benutzernamen enthalten, wie er in Ihrem SSO-System angezeigt wird.
    * Die Spalten dürfen keine Kopfzeilen und keine leeren Zeilen oben in der Namensliste enthalten.
 
-     ![](assets/update-users-for-sso-csv-file-for-import.png)
+     ![Benutzer-CSV aktualisieren](assets/update-users-for-sso-csv-file-for-import.png)
 
 1. Speichern Sie den Bericht als CSV- oder TSV-Datei auf Ihrem Computer.
 
@@ -145,6 +145,6 @@ Anweisungen zum Erstellen eines Benutzerberichts mit SSO-Benutzernamen-Informati
 1. Stellen Sie sicher, dass die Werte für die Spalte SSO-Benutzername mit dem SSO-Benutzernamen auf Ihrem SSO-Server übereinstimmen.
 1. Wenn die Spalte SSO-Benutzername leer ist, aktualisieren Sie die SSO-Benutzernamen Ihrer Benutzer.
 
-   ![](assets/users-with-sso-field-updated.png)
+   ![Benutzer mit SSO-Feld](assets/users-with-sso-field-updated.png)
 
    Anweisungen zum Aktualisieren Ihrer Benutzer für SSO finden Sie unter [Aktualisieren Ihrer Benutzer für SSO](#update-your-users-for-sso).

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5186d266-fa9f-445d-9dcc-bc07eb147b60
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1247'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
    In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
@@ -153,9 +153,9 @@ Sie können eine Untergruppe zu einer Gruppe der obersten Ebene machen, indem Si
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
-1. Wählen Sie die übergeordnete Gruppe der Gruppe aus, die Sie zu einer Gruppe der obersten Ebene machen möchten, und klicken Sie dann auf das Symbol Bearbeiten ![](assets/edit-icon.png).
+1. Wählen Sie die übergeordnete Gruppe der Gruppe aus, die Sie zu einer Gruppe der obersten Ebene machen möchten, und klicken Sie dann auf das Symbol Bearbeiten ![Symbol Bearbeiten](assets/edit-icon.png).
 1. Beginnen Sie im angezeigten **Gruppe bearbeiten** unter **Gruppenmitglieder und Gruppenadministratoren** mit der Eingabe des Namens der Untergruppe, die Sie zu einer Gruppe der obersten Ebene machen möchten, und klicken Sie dann rechts neben ihrem Namen auf das X, wenn sie angezeigt wird.
 1. Klicken Sie auf **Speichern**.
 

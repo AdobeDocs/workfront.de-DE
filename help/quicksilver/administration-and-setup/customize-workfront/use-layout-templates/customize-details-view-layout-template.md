@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 1474e1dd-9b10-476e-9526-6577efa8d1c2
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '577'
+source-wordcount: '596'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 <!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
 
-Als Adobe Workfront-Administrator können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn ein(e) Benutzende(r) beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios auf das Detailsymbol ![](assets/project-details-icon.png) im linken Bereich klickt.
+Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage bestimmen, welche Informationen angezeigt werden, wenn Benutzende beim Anzeigen einer Aufgabe, eines Problems, eines Dokuments, eines Programms oder eines Portfolios ![ das Detailsymbol (](assets/project-details-icon.png)) im linken Bereich klicken.
 
 <!--
 or billing record
@@ -38,22 +38,22 @@ Die Änderungen, die Sie an der Detailansicht für ein Objekt vornehmen, bestimm
 
 * Felder zum Erstellen eines Objekts, z. B. Aufgabe erstellen
 
-  ![](assets/new-task-dialog.png)
+  ![Dialogfeld „Neue Aufgabe“](assets/new-task-dialog.png)
 
 
 * Die Seite „Objekt bearbeiten“ wird beim Bearbeiten eines Objekts angezeigt, z. B. „Aufgabe bearbeiten“, „Problem bearbeiten“ und „Projekt bearbeiten“
 
-  ![](assets/edit-task-screen.png)
+  ![Aufgabenbildschirm bearbeiten](assets/edit-task-screen.png)
 
 
 * Die Bildschirme „Objekte bearbeiten“ werden angezeigt, wenn Objekte stapelweise bearbeitet werden. Derzeit wird dies für die Massenbearbeitung von Projekten unterstützt.
 
-  ![](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
+  ![Projekte anpassen](assets/customize-edit-projects-in-bulk-box-with-layout-template.png)
 
 
-* ![](assets/summary-panel-icon.png) des Zusammenfassungsbereichs für Listen von Aufgaben und Problemen
+* Zusammenfassungsbereich ![Zusammenfassungsbereich](assets/summary-panel-icon.png) für Listen von Aufgaben und Problemen
 
-  ![](assets/summary-area.png)
+  ![Zusammenfassungsbereich](assets/summary-area.png)
 
   >[!NOTE]
   >
@@ -100,14 +100,14 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 ## Anpassen, was Benutzenden in der Detailansicht angezeigt wird
 
 1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie auf den Abwärtspfeil ![](assets/dropdown-arrow-12x12.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann auf **Projekt**, **Aufgabe**, **Problem**, **Programm** oder **Portfolio.**
+1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/dropdown-arrow-12x12.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann auf **Projekt**, **Aufgabe**, **Problem**, **Programm** oder **Portfolio.**
 <!--
 , or billing record
 -->
 
 1. Führen Sie im **Details** einen der folgenden Schritte aus, um anzupassen, was Benutzende in der Detailansicht sehen:
 
-   * Ziehen Sie eine beliebige Abschnittsüberschrift ![](assets/move-icon---dots.png), um ihre Reihenfolge zu ändern.
+   * Ziehen Sie beliebige Abschnittsüberschriften ![Symbol „Verschieben](assets/move-icon---dots.png), um ihre Reihenfolge zu ändern.
    * Aktivieren oder deaktivieren Sie Optionen in den verschiedenen Bereichen (z **B.**, **Finanzen** und **Benutzerdefinierte Forms**), um sie ein- oder auszublenden.
 
      Wenn Sie alle Felder in einem dieser Abschnitte ausblenden, wird der gesamte Abschnitt ausgeblendet.

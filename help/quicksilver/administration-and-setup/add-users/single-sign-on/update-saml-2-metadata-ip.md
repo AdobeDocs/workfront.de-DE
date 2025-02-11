@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 75cd0ab5-8d76-40a4-96a8-00e9f0f4fec6
-source-git-commit: a54200ceeaadfeaac6767f06676cb11814959601
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '994'
+source-wordcount: '1000'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Standardmäßig ist ADFS so konfiguriert, dass automatisch nach Aktualisierungen
 1. Wählen Sie die Vertrauensstellung der vertrauenden Seite aus, die Sie zuvor für die Verwendung mit Workfront konfiguriert haben, und klicken Sie dann im rechten Bedienfeld auf **Aus Verbundmetadaten aktualisieren**.
 1. (Bedingt) Wenn diese Option abgeblendet ist (was bedeutet, dass die Vertrauensstellung der vertrauenden Seite zuvor mithilfe einer Metadatendatei konfiguriert wurde), führen Sie die folgenden Schritte aus.
 
-   1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+   1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
    1. Klicken Sie **System** > **Single Sign On (SSO)**.
 

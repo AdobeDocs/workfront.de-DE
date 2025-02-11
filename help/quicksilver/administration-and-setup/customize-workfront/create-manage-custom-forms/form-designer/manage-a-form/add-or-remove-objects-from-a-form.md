@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: c43ea6b2-7d5b-46f0-a092-f57128de60f0
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '477'
+source-wordcount: '483'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Sie können dem Formular zusätzliche Objekttypen hinzufügen, damit es mit mehr
 
 1. Klicken Sie oben im Formular auf das Pluszeichen + nach **Objekttypen** und wählen Sie dann im angezeigten Menü den gewünschten Typ aus. Sie können dies wiederholen, um beliebig viele Objekttypen hinzuzufügen.
 
-   ![](assets/add-new-object.png)
+   ![Neues Objekt hinzufügen](assets/add-new-object.png)
 
 1. Klicken Sie **Speichern und schließen**.
 
@@ -98,7 +98,7 @@ So löschen Sie einen Objekttyp:
 1. Wählen Sie das benutzerdefinierte Formular aus, das Sie bearbeiten möchten, und klicken Sie dann auf ![Symbol „Bearbeiten](assets/edit-icon2.png).
 1. Klicken Sie auf das X auf einem der **Objekttypen** die Sie aus dem Formular löschen möchten.
 
-   ![](assets/delete-object-types.png)
+   ![Objekttypen löschen](assets/delete-object-types.png)
 
 1. (Optional) Wiederholen Sie den vorherigen Schritt für jeden anderen Objekttyp, den Sie aus dem Formular entfernen möchten.
 1. Klicken Sie **Anwenden** und anschließend auf **Speichern und schließen**.

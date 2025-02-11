@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5b137cee-e03a-4176-a683-b77f2b27f5ce
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Wenn Sie Gruppenadministrator sind, lesen Sie [Festlegen eines Status als Standa
 
 Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Problemtypen dafür aktiviert sein (Fehlerbericht, Änderungsauftrag, Problem und Anfrage). Im folgenden Problemstatus kann beispielsweise der Status Erneut geöffnet nicht als Standardstatus verwendet werden, da der Problemtyp „Änderungsanforderung“ nicht ausgewählt ist:
 
-![](assets/all-4-issue-types-enabled.png)
+![Alle Problemtypen aktiviert](assets/all-4-issue-types-enabled.png)
 
 ## Festlegen eines benutzerdefinierten Status als Standardstatus
 
@@ -101,6 +101,6 @@ Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Prob
    >Wenn Sie den benutzerdefinierten Status für eine Gruppe festlegen und das Projekt später einer anderen Gruppe zuweisen, wird der Projektstatus neu geladen und kann sich ändern.
 
    1. Wechseln Sie zu dem Projekt, in dem Sie den benutzerdefinierten Status verwenden möchten.
-   1. Klicken Sie auf die ![](assets/more-icon.png) Mehr und dann auf **Bearbeiten**.
+   1. Klicken Sie auf das Menü Mehr ![Mehr-Symbol](assets/more-icon.png) und dann auf **Bearbeiten**.
    1. Wählen Sie in dem **Projekt bearbeiten** angezeigten Feld im Feld **Gruppe** unter **Projektverknüpfung** die Gruppe aus, in der sich der Status befindet.
    1. Klicken Sie auf **Änderungen speichern**.

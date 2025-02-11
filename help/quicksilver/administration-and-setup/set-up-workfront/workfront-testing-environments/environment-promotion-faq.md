@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 8fe93796b2bc89352ac2c924d6a5e3bf25551ff0
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '294'
 ht-degree: 3%
 
 ---
@@ -42,7 +42,7 @@ Nein. Die Umgebungsunterstützung ist sowohl für IMS-aktivierte als auch für N
    1. Klicken Sie **linken** auf „System“
    1. Um Ihren Workfront-Plan anzuzeigen, wählen Sie **Lizenzen** aus.
 Der Plan wird oben rechts auf der Seite angezeigt.
-      ![](assets/locate-plan.png)
+      ![Plan suchen](assets/locate-plan.png)
 
   Oder
 * Wenden Sie sich an Ihren Workfront-Kundenbetreuer.

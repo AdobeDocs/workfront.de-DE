@@ -10,9 +10,9 @@ role: Admin
 hide: true
 hidefromtoc: true
 exl-id: 7d909976-d3ff-4e60-9158-c3bffe498e6e
-source-git-commit: 321ffac87bd694325dfb05e4019b25479f58684a
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '428'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -97,9 +97,9 @@ So aktivieren Sie Frame.io-Benutzer:
 
 {{step-1-to-users}}
 
-1. Wählen Sie einen oder mehrere Benutzer aus und klicken Sie dann auf **Symbol** Bearbeiten![](assets/edit-icon.png).
+1. Wählen Sie einen oder mehrere Benutzer aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 1. Aktivieren Sie im Abschnitt Zugriff das Kontrollkästchen Zu Projekten in Frame.io hinzufügen und wählen Sie **Dropdown-Menü**Ja“ aus.
-   ![](assets/add-to-frame-project.png)
+   ![Zum Frame-Projekt hinzufügen](assets/add-to-frame-project.png)
 
    >[!NOTE]
    >

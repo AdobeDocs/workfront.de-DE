@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 94603393-bdea-4673-9256-08da14f6916e
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '889'
+source-wordcount: '905'
 ht-degree: 1%
 
 ---
@@ -31,19 +31,19 @@ Als Workfront-Administrator können Sie Workfront an den folgenden Stellen mit L
 
 * Anmeldebildschirm
 
-  ![](assets/brand-login-screen-nwe-adobe.jpg)
+  ![Marke im Anmeldebildschirm](assets/brand-login-screen-nwe-adobe.jpg)
 
 * Oberer Navigationsbereich
 
-  ![](assets/brand-top-nav-area-nwe-adobe.jpg)
+  ![Marke in der oberen Navigationsleiste](assets/brand-top-nav-area-nwe-adobe.jpg)
 
 * Hauptmenü
 
-  ![](assets/brand-main-menu-adobe.jpg)
+  ![Marke im Hauptmenü](assets/brand-main-menu-adobe.jpg)
 
 Sie können auch das Hintergrundbild und die Hintergrundfarbe des Anmeldebildschirms ändern:
 
-![](assets/wf_banner_on_login_screen-adobe.png)
+![Banner auf Anmeldebildschirm](assets/wf_banner_on_login_screen-adobe.png)
 
 >[!NOTE]
 >

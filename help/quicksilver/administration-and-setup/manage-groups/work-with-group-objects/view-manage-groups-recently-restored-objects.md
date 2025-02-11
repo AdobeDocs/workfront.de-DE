@@ -8,9 +8,9 @@ author: Caroline
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 8ec06363-080e-4f1d-8a50-fc14f06ad323
-source-git-commit: bd1a66950c6e16ef7eb05d385bd99fc2d3be35cc
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '360'
+source-wordcount: '361'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe.
 1. Klicken Sie im linken Bedienfeld auf **Kürzlich wiederhergestellt**.

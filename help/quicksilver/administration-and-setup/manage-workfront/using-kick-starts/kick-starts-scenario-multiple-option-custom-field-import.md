@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 70f3dac7-f449-4dc8-9d7d-a5284b37f9ec
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '2155'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -154,7 +154,7 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
    >
    >Informationen zu den Namen der Objekte in der Workfront-Datenbank finden Sie unter [API-Explorer](../../../wf-api/general/api-explorer.md).
    >
-   >![](assets/sheets-included-in-custom-data-export-kick-start-file.png)
+   >![Im Datenexport enthaltene Blätter](assets/sheets-included-in-custom-data-export-kick-start-file.png)
 
 
 1. Stellen Sie sicher, dass die folgenden Informationen korrekt formatiert sind:
@@ -206,7 +206,7 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
 
    Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
 
-   ![](assets/parameter-sheet-filled-out-kick-starts.png)
+   ![Parameterblatt ausgefüllt](assets/parameter-sheet-filled-out-kick-starts.png)
 
 1. Wählen Sie das **`POPT Parameter Options`** aus und fügen Sie Informationen zu den Optionen der einzelnen benutzerdefinierten Felder in den folgenden erforderlichen Spalten hinzu:
 
@@ -228,7 +228,7 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
    * Die Spalten **`setLabel`** und `**setValue`** enthalten in der Regel dieselben Informationen und sollten die gewünschten Namen in der Workfront-Benutzeroberfläche widerspiegeln. Der Wert einer Option ist beispielsweise der Name, der in Berichten angezeigt wird, während die Beschriftung in den benutzerdefinierten Formularen angezeigt wird, wenn sie an ein Objekt angehängt wird. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
    * **`setIsHidden`** = Geben Sie `TRUE` ein, wenn eine der Optionen ausgeblendet werden soll.
 
-   ![](assets/parameter-option-sheet-filled-out-kick-starts.png)
+   ![Parameterblatt ausgefüllt](assets/parameter-option-sheet-filled-out-kick-starts.png)
 
 
 1. (Optional) Wenn Sie auch ein benutzerdefiniertes Formular erstellen möchten, in dem Sie später die neuen Felder hinzufügen können, wählen Sie das **`CTGY Category`** aus und aktualisieren Sie die folgenden erforderlichen Spalten für die Informationen des benutzerdefinierten Formulars:
@@ -239,7 +239,7 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
 
    Um die `ID` einer Gruppe zu ermitteln, können Sie entweder einen Gruppenbericht erstellen und das Feld `ID` in der Ansicht hinzufügen oder zu einer Gruppe navigieren und die URL für die Gruppe suchen. Die Gruppen-ID befindet sich in der URL der Gruppenseite. Wenn beispielsweise die URL der Gruppe `https://companyName.my.workfront.com/group/575b000800467a6f66e747932c807464/members` ist, wird die Gruppen-ID `575b000800467a6f66e747932c807464`.
 
-   * **`setCatObjCode` **= Dies ist der Objekt-Code für den Objekttyp, für den das Formular erstellt werden soll. Geben Sie einen Code aus den folgenden Optionen ein:
+   * **`setCatObjCode`**= Dies ist der Objekt-Code für den Objekttyp, für den Sie das Formular erstellen möchten. Geben Sie einen Code aus den folgenden Optionen ein:
       * **`CMPY`** für Firma
       * Aufgabe **`TASK`**
       * **`PROJ`** für Projekt
@@ -259,7 +259,7 @@ So füllen Sie die Excel-Tabelle mit Informationen für die neuen benutzerdefini
 
    * **`setName`** = Dies ist der Name des benutzerdefinierten Formulars, wie er in der Benutzeroberfläche von Workfront angezeigt werden soll.
 
-     ![](assets/category-sheet-filled-out-kick-starts.png)
+     ![Kategorieblatt ausgefüllt](assets/category-sheet-filled-out-kick-starts.png)
 
 1. Speichern Sie die Tabelle als XLS- oder XLSX-Datei auf Ihrem Computer. Ihre Excel-Tabelle ist ausgefüllt und kann jetzt in Workfront importiert werden.
 
@@ -277,11 +277,11 @@ Fahren Sie nach dem Ausführen der in den vorherigen Abschnitten beschriebenen S
 1. Suchen Sie die von Ihnen vorbereitete Excel-Tabelle auf Ihrem Computer und wählen Sie sie aus, wenn Sie sie finden. Wenn Workfront die Datei erkennt, wird die Schaltfläche „Hochladen“ blau.
 1. Klicken Sie auf **Hochladen.**
 
-   ![](assets/kick-start-file-selected-and-upload-blue-button.png)
+   ![Datei ausgewählt und Schaltfläche „Hochladen“](assets/kick-start-file-selected-and-upload-blue-button.png)
 
 1. Es wird eine Benachrichtigung angezeigt, dass der Import erfolgreich war. Je nachdem, wie viele Informationen Sie importieren, kann dieser Schritt einige Sekunden bis eine Minute dauern.
 
-   ![](assets/kick-start-successful.png)
+   ![Kickstart erfolgreich](assets/kick-start-successful.png)
 
    Die neuen benutzerdefinierten Felder und Formulare befinden sich nun in Ihrem Workfront-System. Sie finden sie im Bereich „Benutzerdefinierte Forms&quot; unter „Setup“.
 
@@ -294,7 +294,7 @@ Fahren Sie nach dem Ausführen der in den vorherigen Abschnitten beschriebenen S
 
 1. (Bedingt) Wenn der Import nicht erfolgreich war, erhalten Sie eine Fehlermeldung über das Problem. Versuchen Sie, das Feld, die Tabelle und die Zeilennummer zu identifizieren, in der das Problem aufgetreten ist, und korrigieren Sie die Informationen in der Excel-Datei. Versuchen Sie dann erneut, die Datei zu importieren.
 
-   ![](assets/kick-start-error.png)
+   ![Kickstart-Fehler](assets/kick-start-error.png)
 
 1. (Bedingt) Je nachdem, was das Problem ist, werden, wie in der Fehlermeldung angegeben, möglicherweise bereits einige Informationen importiert. Sie müssen einen der folgenden Schritte ausführen, bevor Sie das Blatt erneut importieren können:
 

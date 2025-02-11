@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 407f6631-ecc1-4ed8-bfec-6d726ae87a3d
-source-git-commit: e9d1e35a9c94143a84eb2007985a42f0960a09f7
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
 1. Klicken Sie auf den Namen der Gruppe, für die Sie Firmen erstellen oder ändern möchten.
 1. Klicken Sie im linken Bereich auf **Firmen**, um die mit der Gruppe verbundenen Unternehmen und etwaigen Untergruppen aufzulisten.
@@ -86,8 +86,8 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuf�
    >
    >Wenn Sie administrativen Zugriff auf Unternehmen in Ihrer Zugriffsebene haben, können Sie auch unten in der Liste auf Weitere Unternehmen hinzufügen klicken. Dadurch wird eine Zeile hinzugefügt, in der Sie das neue Unternehmen schnell konfigurieren können.
 
-1. (Optional) Um Unternehmen zu bearbeiten oder zu löschen, wählen Sie mindestens ein Unternehmen aus und verwenden Sie dann die Schaltflächen der Symbolleiste, um ![](assets/edit-icon.png) zu bearbeiten oder ![](assets/delete.png) zu löschen.
+1. (Optional) Um Unternehmen zu bearbeiten oder zu löschen, wählen Sie mindestens ein Unternehmen aus und verwenden Sie dann die Schaltflächen in der Symbolleiste, um es zu bearbeiten ![Symbol „Bearbeiten](assets/edit-icon.png) oder zu löschen ![Symbol „Löschen](assets/delete.png).
 
    Informationen zum Bearbeiten eines Unternehmens finden Sie im Abschnitt [Erstellen oder Bearbeiten eines Unternehmens in Workfront](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md#adding-a-company-to-workfront) im Artikel [Erstellen und Bearbeiten von Unternehmen](../../../administration-and-setup/set-up-workfront/organizational-setup/create-and-edit-companies.md).
 
-1. (Optional) Um die Liste der Unternehmen zu exportieren, klicken Sie auf das Symbol „Exportieren“ ![](assets/export.png) wählen Sie dann das Dateiformat aus, das Sie für die exportierte Liste verwenden möchten.
+1. (Optional) Klicken Sie zum Exportieren der Unternehmensliste auf das Symbol „Exportieren![ und wählen ](assets/export.png) das gewünschte Dateiformat für die exportierte Liste aus.

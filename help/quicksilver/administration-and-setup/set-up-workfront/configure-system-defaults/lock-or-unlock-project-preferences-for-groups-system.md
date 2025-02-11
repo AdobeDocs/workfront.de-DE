@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f5a94eaf-ebb8-424b-80ff-ba40cc985a6e
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Anweisungen zum Sperren oder Entsperren eines Projekts, einer Aufgabe oder einer
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie sie ![](assets/unlock-toggle-button.png).
+   * Wenn Sie möchten, dass Gruppenadministratoren eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie sie ![Umschalter Entsperren](assets/unlock-toggle-button.png).
    * Wenn Sie möchten, dass alle Gruppen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass sie gesperrt ist (dies ist die Standardeinstellung).
 
      >[!IMPORTANT]

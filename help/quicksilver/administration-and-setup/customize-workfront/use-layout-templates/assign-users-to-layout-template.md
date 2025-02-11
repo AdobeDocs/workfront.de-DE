@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '917'
+source-wordcount: '919'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 
    Kürzlich hinzugefügte Namen werden mit blauem Hintergrund angezeigt. Dies ist hilfreich, wenn Sie eine vorhandene Layout-Vorlage bearbeiten, da Sie die soeben hinzugefügten Namen von den bereits in der Liste vorhandenen unterscheiden können.
 
-   Rechts neben dem Namen eines Benutzers, eines Aufgabengebiets, Teams oder einer Gruppe, der bzw. die bereits einer anderen Layout-Vorlage zugewiesen ist, wird ein Infosymbol ![](assets/info-icon.png). Sie können den Mauszeiger über das Symbol bewegen, um den Namen dieser Layout-Vorlage anzuzeigen und zu entscheiden, ob Sie die vorhandene Zuweisung überschreiben möchten.
+   Rechts neben dem Namen eines Benutzers![ eines Aufgabengebiets, Teams oder einer Gruppe, ](assets/info-icon.png) bereits einer anderen Layout-Vorlage zugewiesen ist, wird ein Infosymbol (Infosymbol) angezeigt. Sie können den Mauszeiger über das Symbol bewegen, um den Namen dieser Layout-Vorlage anzuzeigen und zu entscheiden, ob Sie die vorhandene Zuweisung überschreiben möchten.
 
 1. Wiederholen Sie die beiden vorherigen Schritte, um die Layout-Vorlage ggf. anderen Benutzern, Aufgabengebieten, Teams oder Gruppen zuzuweisen.
 

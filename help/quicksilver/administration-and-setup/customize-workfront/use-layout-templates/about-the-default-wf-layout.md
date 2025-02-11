@@ -9,16 +9,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: a68bca5e-1cec-432d-bb38-14b426a9c051
-source-git-commit: 52877ab16210699019c82e709f288b5f98e7d811
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '621'
+source-wordcount: '627'
 ht-degree: 9%
 
 ---
 
 # Über das standardmäßige Adobe Workfront-Layout
 
-Das Standard-Layout ist die Anordnung der ![](assets/main-menu-icon.png) Hauptmenü oder Hauptmenü ![](assets/lines-main-menu.png), falls verfügbar, des linken Bedienfelds und der Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layout-Vorlage vornimmt.
+Das Standardlayout besteht aus der Anordnung des Hauptmenüs ![Hauptmenüsymbol](assets/main-menu-icon.png) oder des Hauptmenüs ![Hauptmenüsymbol](assets/main-menu-icon.png) falls verfügbar, des linken Bedienfelds sowie der Ansichten, Gruppierungen und Filter, bevor ein Adobe Workfront-Administrator Änderungen mithilfe einer Layout-Vorlage vornimmt.
 
 Informationen dazu, wie Workfront-Admins das Standard-Layout von Benutzenden ändern können, indem sie ihnen eine Layout-Vorlage zuweisen, finden Sie [Zuweisen von Benutzenden zu einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
 

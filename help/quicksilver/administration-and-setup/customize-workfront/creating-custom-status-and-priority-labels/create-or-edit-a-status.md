@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 35c804b5-569d-4ba8-84b8-6129f0ffbc7f
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '961'
 ht-degree: 2%
 
 ---
@@ -72,13 +72,13 @@ Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstelle
 
 1. (Bedingt) Wenn Sie einen Status zur systemweiten Verwendung erstellen oder bearbeiten, stellen Sie sicher, dass **Systemstatus** im Feld oben rechts ausgewählt ist.
 
-   ![](assets/system-statuses-in-upper-rt-corner-new.jpg)
+   ![Systemstatus](assets/system-statuses-in-upper-rt-corner-new.jpg)
 
    Oder
 
    Wenn der Status für eine Gruppe oder Untergruppe lautet, beginnen Sie, den Namen der Gruppe in der oberen rechten Ecke einzugeben, und wählen Sie sie aus, wenn sie angezeigt wird.
 
-   ![](assets/system-statuses-in-upper-rt-corner-group.jpg)
+   ![Systemstatus für Gruppe](assets/system-statuses-in-upper-rt-corner-group.jpg)
 
 1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgaben** oder **Probleme**) aus, den Sie mit dem Status verknüpfen möchten.
 
@@ -88,7 +88,7 @@ Wenn Sie einen benutzerdefinierten Status für die gesamte Organisation erstelle
 
    Wenn Sie einen vorhandenen Status bearbeiten, halten Sie den Mauszeiger darüber und klicken Sie dann auf das **Bearbeiten**-Symbol, das ganz rechts angezeigt wird.
 
-   ![](assets/custom-status-edit.png)
+   ![Benutzerdefinierten Status bearbeiten](assets/custom-status-edit.png)
 
 1. Konfigurieren Sie den Status mithilfe der folgenden Optionen:
 

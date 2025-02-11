@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 54fc3f77-57d1-47f1-8e16-73626a6733ec
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '881'
+source-wordcount: '899'
 ht-degree: 8%
 
 ---
@@ -89,7 +89,7 @@ Sie können Felder hinzufügen, die [!DNL Workfront] für einen bestimmten Objek
 >
 >Sie können bis zu 300 integrierte und benutzerdefinierte Felder in den Aktualisierungs-Feeds verfolgen. Wenn Sie die maximale Anzahl von Feldern nachverfolgen und zusätzliche Felder nachverfolgen möchten, die nicht auf der Unterregisterkarte [!UICONTROL Alle Felder] angezeigt werden, müssen Sie zunächst einige der nachverfolgten Felder entfernen, um neue Felder nachverfolgen zu können. Weitere Informationen zum Entfernen von Feldern aus den Aktualisierungsfeldern finden Sie unter [Entfernen von Feldern, die nicht verfolgt werden sollen](#remove-fields-that-you-don-t-want-tracked).
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
 1. Klicken Sie im Bedienfeld links auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
 
@@ -111,7 +111,7 @@ Sie können Felder hinzufügen, die [!DNL Workfront] für einen bestimmten Objek
 
 Sie können Felder entfernen, die das System nicht für einen bestimmten Objekttyp über die [!DNL Workfront] nachverfolgen soll.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
 1. Klicken Sie auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
 
@@ -198,7 +198,7 @@ Sie können beispielsweise jedes Mal eine Aktualisierung aufzeichnen [!DNL Workf
 
 So konfigurieren Sie, welche Aktionen Sie verfolgen [!DNL Workfront]:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront] und klicken Sie dann auf **[!UICONTROL Setup]** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
 1. Klicken Sie auf **[!UICONTROL Schnittstelle]** > **[!UICONTROL Feeds aktualisieren]**.
 

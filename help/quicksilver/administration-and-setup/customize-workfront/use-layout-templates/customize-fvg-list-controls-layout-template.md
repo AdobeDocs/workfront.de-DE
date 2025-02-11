@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: e9b61da8-2eca-4d88-969b-ae337e402540
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '784'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Als Adobe Workfront-Admin können Sie mithilfe einer Layout-Vorlage festlegen, welche Listensteuerelemente in den Dropdown-Menüs Filtern, Anzeigen und Gruppieren angezeigt werden. Diese Menüs werden überall in Workfront über Listen angezeigt, z. B. über der Aufgabenliste für ein Projekt:
 
-![](assets/filter-view-grouping-layout-templates.png)
+![Layoutvorlagen für Gruppierungen filtern und anzeigen](assets/filter-view-grouping-layout-templates.png)
 
 Weitere Informationen zu Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -62,25 +62,25 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 ## Anpassen der Listensteuerelemente „Filtern“, „Anzeigen“ und „Gruppieren“:
 
 1. Beginnen Sie mit der Arbeit an einer Layout-Vorlage, wie unter [Erstellen und Verwalten von Layout-Vorlagen](../../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) beschrieben.
-1. Klicken Sie auf den Abwärtspfeil ![](assets/down-arrow-blue.png) unter **Anpassen, was Benutzer sehen** und klicken Sie dann **angezeigten Dropdown-Menü auf** Listen“.
+1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/down-arrow-blue.png) unter **Was Benutzer sehen** und klicken Sie dann auf **Listen** im angezeigten Dropdown-Menü.
 
-   ![](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
+   ![Anpassen, was Benutzer sehen](assets/customize-what-users-see-dropdown-on-pg-adobe-branding.png)
 
-1. Klicken Sie auf den Abwärtspfeil ![](assets/down-arrow-blue.png) unter **Liste zum Anpassen auswählen** und wählen Sie dann den Typ des Workfront-Objekts aus, für das Sie die Listensteuerelemente „Filter“, „Ansicht“ und „Gruppierung“ anpassen möchten.
+1. Klicken Sie auf den Abwärtspfeil ![Abwärtspfeil](assets/down-arrow-blue.png) unter **Wählen Sie eine anzupassende Liste aus** und wählen Sie dann den Typ des Workfront-Objekts aus, für das Sie die Listensteuerelemente „Filter“, „Ansicht“ und „Gruppierung“ anpassen möchten.
 
-   ![](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
+   ![Liste zum Anpassen auswählen](assets/select-a-list-to-customize-menu-on-pg-adobe-branding.png)
 
    >[!NOTE]
    >
    >Wenn Sie Projekte als anzupassende Liste auswählen und dann im Filterabschnitt Projekte deaktivieren, an denen ich mitarbeite oder deren Inhaber ich bin, können Benutzer diesen Filter nicht mehr sehen oder verwenden:
    >
-   >* In der Liste der Filter, die angezeigt wird, wenn sie auf das Filtersymbol ![](assets/filter-nwepng.png) über einer Liste klicken:
+   >* In der Liste der Filter, die angezeigt wird, wenn sie auf das Filtersymbol ![Filtersymbol](assets/filter-nwepng.png) oberhalb einer Liste klicken:
    >   
-   >  ![](assets/disable-filters-projects-im-on-or-own.png)
+   >  ![Filter deaktivieren](assets/disable-filters-projects-im-on-or-own.png)
    >   
    >* In der Kopfzeile des Bereichs Projekte:
    >   
-   >  ![](assets/disable-filter-pills.png)
+   >  ![Schaltfläche „Filter deaktivieren“](assets/disable-filter-pills.png)
 
 1. (Optional) Wenn Sie den Standardfilter, die Standardansicht oder die Standardgruppierung für die Layout-Vorlage ändern möchten, bewegen Sie den Mauszeiger über den Filter, die Ansicht oder die Gruppierung und klicken Sie auf **Als Standard festlegen**.
 

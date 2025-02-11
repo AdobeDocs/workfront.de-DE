@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Nolan, Lisa
 exl-id: d48b0dd7-933e-4e91-a2f1-8d64b1c6dbb3
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '191'
+source-wordcount: '194'
 ht-degree: 1%
 
 ---
@@ -60,6 +60,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Wählen Sie die Zugriffsebene aus, für die Sie integrierte Berichte ausblenden möchten, und klicken Sie dann auf **Bearbeiten**.
 1. Klicken Sie für **Berichte**-Objekt auf das Symbol **Einstellungen** neben der höchsten verfügbaren Zugriffsebene und deaktivieren Sie **Integrierte Berichte anzeigen**.
 
-   ![](assets/edit-access-level.png)
+   ![Zugriffsebene bearbeiten](assets/edit-access-level.png)
 
 1. Klicken Sie auf **Speichern**.

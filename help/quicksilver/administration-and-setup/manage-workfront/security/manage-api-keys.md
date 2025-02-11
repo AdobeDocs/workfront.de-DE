@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 1176d899-0585-430d-87f2-0823bda2f1be
-source-git-commit: 206ea3ad1398849e26dea7fe77f6d7c027825b6f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1330'
 ht-degree: 2%
 
 ---
@@ -107,7 +107,7 @@ Sie können API-Schlüssel für Benutzer in anderen Rollen als Workfront-Admins 
    1. Erweitern Sie **System** und klicken Sie dann auf **Single Sign-on (SSO)**.
    1. Wählen Sie im Feld **Typ** den SSO-Typ aus, den Ihr Unternehmen verwendet.
    1. Scrollen Sie bei ausgewähltem Typ nach unten und deaktivieren Sie das Kontrollkästchen **Aktivieren**.
-      ![](assets/sysadmin-security-sso-disable-31620-350x320.png)
+      ![SSO aktivieren](assets/sysadmin-security-sso-disable-31620-350x320.png)
    1. Klicken Sie auf **Speichern**.
 
 
@@ -187,7 +187,7 @@ Beschaffen Sie sich ein gültiges X.509-Zertifikat von einer vertrauenswürdigen
 
 Nachdem Sie das X.509-Zertifikat von Ihrer Zertifizierungsstelle erhalten haben, müssen Sie es in Workfront hochladen.
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
 1. Erweitern Sie **System** und klicken Sie dann auf **Kundeninformationen**.
 

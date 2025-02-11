@@ -8,9 +8,9 @@ author: Alina, Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2fb0c647-bb6d-46d0-a985-6ab820b4a7f2
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '900'
 ht-degree: 2%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie **Prozesse** > **Genehmigungen**.
 
-1. Klicken Sie auf **Symbol** Einstellungen![](assets/gear-icon-settings.png) neben dem Bereichsnamen **Genehmigungen**.
+1. Klicken Sie auf **Einstellungen**-Symbol ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png) neben dem Bereichsnamen **Genehmigungen**.
 
 1. Geben **im daraufhin angezeigten** die folgenden Informationen an:
 

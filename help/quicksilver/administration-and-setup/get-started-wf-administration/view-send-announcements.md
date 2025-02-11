@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 413e3051-fcb5-44d7-b6bd-6b05d39935e8
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '620'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Sie können problemlos Nachrichten, die Sie von Workfront erhalten, an Benutzer 
 
 1. Klicken Sie oben rechts auf der Workfront-Benutzeroberfläche auf das **Benachrichtigung**-Symbol und dann auf **Alle Ankündigungen**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Alle Ankündigungen](assets/announcement-access-350x212.png)
 
 1. Wählen **auf der** Ankündigungen die Nachricht aus, die weitergeleitet werden soll.
 1. Klicken Sie **Weiter**.
@@ -79,7 +79,7 @@ Sie können problemlos Nachrichten, die Sie von Workfront erhalten, an Benutzer 
 
 1. Klicken Sie oben rechts auf der Workfront-Benutzeroberfläche auf das **Benachrichtigung**-Symbol und dann auf **Alle Ankündigungen**.
 
-   ![](assets/announcement-access-350x212.png)
+   ![Alle Ankündigungen](assets/announcement-access-350x212.png)
 
 1. Klicken Sie auf der **Ankündigungen**-Seite auf **Neue Ankündigung.**
 

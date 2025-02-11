@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f8dd132-1086-4980-9b56-993a68231e96
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '738'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >* Wenn Sie Gruppenadministrator sind, können Sie sich nur als Benutzer in den von Ihnen verwalteten Gruppen anmelden. Außerdem muss in Ihrer Zugriffsebene die Berechtigung Benutzeradmin (Gruppenbenutzer) aktiviert sein:
    >   
-   >  ![](assets/group-admin-user.png)
+   >  ![Gruppen-Admin-Benutzer](assets/group-admin-user.png)
    >   
    >  Diese Einstellung ist standardmäßig deaktiviert. Weitere Informationen finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
    >   
@@ -153,7 +153,7 @@ Wenn Sie beispielsweise einen Kommentar zu einem Element abgeben, während Sie a
 ### Audit-Informationen anzeigen {#view-audit-information}
 
 1. Melden Sie sich bei Workfront als Workfront-Administrator oder Gruppenadministrator an.
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) oben rechts in Adobe Workfront und dann auf **Setup** ![](assets/gear-icon-settings.png).
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Setup** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 
 1. Klicken Sie auf **Anmelden als** und anschließend auf die Registerkarte **Zugriffsprotokoll**.
 

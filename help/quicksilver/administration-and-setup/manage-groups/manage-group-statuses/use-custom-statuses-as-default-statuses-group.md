@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 51018635-cd9a-402d-a136-c5bec4707cda
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '672'
+source-wordcount: '685'
 ht-degree: 0%
 
 ---
@@ -66,14 +66,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Problemtypen dafür aktiviert sein (Fehlerbericht, Änderungsauftrag, Problem und Anfrage). Im folgenden Problemstatus kann beispielsweise der Status Erneut geöffnet nicht als Standardstatus verwendet werden, da der Problemtyp „Änderungsanforderung“ nicht ausgewählt ist:
 
-![](assets/all-4-issue-types-enabled.png)
+![Alle Problemtypen aktiviert](assets/all-4-issue-types-enabled.png)
 
 ## Festlegen eines benutzerdefinierten Status als Standardstatus für eine Gruppe
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bereich auf **Gruppen** ![](assets/groups-icon.png) und klicken Sie dann auf den Namen der Gruppe, in der Sie Status erstellen oder anpassen möchten.
-1. Klicken Sie im linken Bedienfeld auf **Status** ![](assets/gear-icon-settings.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png) und klicken Sie dann auf den Namen der Gruppe, in der Sie Status erstellen oder anpassen möchten.
+1. Klicken Sie im linken Bedienfeld auf **Status** ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png).
 1. Öffnen Sie **Registerkarte**, **Aufgaben** oder **Probleme** je nach dem Typ des Status, den Sie als Standardstatus festlegen möchten.
 1. Klicken **oben rechts auf** Standardstatus festlegen“.
 1. Wählen Sie in dem angezeigten Dropdown-Bereich neben dem Status, für den Sie den Standardstatus festlegen möchten, den Standardstatus aus, den Sie festlegen möchten.
@@ -90,7 +90,7 @@ Wenn der benutzerdefinierte Status ein Problemstatus ist, müssen alle vier Prob
    >Wenn Sie das Projekt einer anderen Gruppe zuweisen, wird der Projektstatus neu geladen und kann sich ändern.
 
    1. Wechseln Sie zu dem Projekt, in dem Sie den benutzerdefinierten Status verwenden möchten.
-   1. Klicken Sie auf die ![](assets/more-icon.png) Mehr und dann auf **Bearbeiten**.
+   1. Klicken Sie auf das Menü Mehr ![Mehr-Symbol](assets/more-icon.png) und dann auf **Bearbeiten**.
    1. Wählen Sie in dem **Projekt bearbeiten** angezeigten Feld **Gruppe** unter **Projektverknüpfung** die Gruppe aus, mit der der benutzerdefinierte Status verknüpft ist.
 
    1. Klicken Sie auf **Änderungen speichern**.
@@ -109,4 +109,4 @@ Wenn Sie einen Standardstatus ausblenden (indem Sie die Option „Status ausblen
 
 Wenn kein verfügbarer Status des entsprechenden Typs vorhanden ist, wird der Statustyp als **Ausgeblendet** und ist nicht für Arbeitselemente verfügbar.
 
-![](assets/when-hide-default-status-no-equivalent.png)
+![Kein verfügbarer Status](assets/when-hide-default-status-no-equivalent.png)

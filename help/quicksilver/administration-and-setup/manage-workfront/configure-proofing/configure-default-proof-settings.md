@@ -8,9 +8,9 @@ author: Courtney
 feature: System Setup and Administration, Digital Content and Documents
 role: Admin
 exl-id: cfccb120-8759-49f2-8b7b-dabcd57d4fda
-source-git-commit: 5676910e53f1c4f49cab196e42bfbce8704887ca
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '557'
+source-wordcount: '563'
 ht-degree: 7%
 
 ---
@@ -125,15 +125,15 @@ So konfigurieren Sie Korrekturabzugsentscheidungen:
       >
       >Behalten Sie die Logik für eine Entscheidung bei, wenn Sie sie umbenennen. Die Standardentscheidung „Abgelehnt“ kann beispielsweise in &quot;*Version erforderlich“* werden, sie sollte jedoch nicht in „An Drucker *&quot;* werden.
 
-      ![](assets/rename-decision-350x109.png)
+      ![Entscheidung umbenannt](assets/rename-decision-350x109.png)
 
    1. **Entscheidungsreihenfolge neu anordnen**: Ziehen Sie die Entscheidungsfelder in die Reihenfolge, in der sie in der Korrekturabzugsansicht angezeigt werden sollen.
 
-      ![](assets/move-decision-350x110.png)
+      ![Entscheidung verschieben](assets/move-decision-350x110.png)
 
    1. **Entscheidung ausblenden**: Bewegen Sie den Mauszeiger über das Entscheidungsfeld und klicken Sie oben rechts auf das Symbol „Ausblenden“.
 
-      ![](assets/hide-decision-350x109.png)
+      ![Entscheidung ausblenden](assets/hide-decision-350x109.png)
 
 1. (Optional) Um zu den Workfront-Standardeinstellungen zurückzukehren, klicken Sie auf **Standardeinstellungen wiederherstellen**.
 1. Klicken Sie auf **Speichern**.

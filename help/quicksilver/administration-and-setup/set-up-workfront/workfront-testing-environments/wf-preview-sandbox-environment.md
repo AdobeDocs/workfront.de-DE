@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e5c02b8c-854e-4c42-a599-f680443f425d
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1282'
+source-wordcount: '1284'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Die Vorschauumgebung ist ideal für Schulungen, das Testen neuer Funktionen und 
 >
 >Der Name der Umgebung, auf die Sie zugreifen (Vorschau), und die Release-Version des Codes werden im Banner angezeigt. Klicken Sie **[!UICONTROL siehe Neue Funktionen]**, um Informationen über diese Version zu erhalten.
 >
->![](assets/preview-banner-nwe-350x161.png)
+>![Vorschau des Banners](assets/preview-banner-nwe-350x161.png)
 
 ## Zugriff auf die Vorschau-Sandbox
 

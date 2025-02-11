@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2b501a1e-fb56-44fa-8518-07537dc90a5b
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '174'
+source-wordcount: '182'
 ht-degree: 0%
 
 ---
@@ -24,13 +24,13 @@ Wenn ein Gruppenadministrator bzw. eine Gruppenadministratorin in niedrigere Zug
 
 Wenn einem Gruppenadministrator die Zugriffsebene Geänderter Planer mit den Anzeigeberechtigungen für Teams zugewiesen ist, aber bestimmten Benutzern die Zugriffsebene Arbeiter mit den Bearbeitungsberechtigungen für Teams zugewiesen ist, kann der Gruppenadministrator nicht mit der Zugriffsebene Geänderter Arbeiter interagieren.
 
-![](assets/group-admin-modified-access.png)
+![Gruppenadministrator hat Zugriff geändert](assets/group-admin-modified-access.png)
 
 
 >[!NOTE]
 >
 >Diese Logik gilt auch für das Dropdown-Menü Einstellungen optimieren . Beide Zugriffsebenen können Bearbeitungszugriff haben, aber die Einstellungen im Dropdown-Menü Einstellungen optimieren müssen für den Gruppenadministrator höher sein.
-> ![](assets/fine-tune-your-settings.png)
+> ![Optimieren Sie Ihre Einstellungen](assets/fine-tune-your-settings.png)
 
 ## Lösung
 

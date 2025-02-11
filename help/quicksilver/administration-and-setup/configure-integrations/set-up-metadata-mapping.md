@@ -8,9 +8,9 @@ author: Courtney, Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 7cf4787d-7cff-489e-bd5b-69db3ff09f6e
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '600'
+source-wordcount: '602'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ Bevor Sie Felder für den Metadatenzuordnungsprozess zuordnen können, müssen S
 
 1. Klicken Sie im linken Bereich auf **[!UICONTROL Dokumente]** > **[!UICONTROL Metadatenzuordnung]**.
 
-   ![](assets/metadata-mapping.png)
+   ![Metadatenzuordnung](assets/metadata-mapping.png)
 
 1. Geben **[!UICONTROL in das Feld Source-Feld für Zuordnung auswählen]** den Namen des Workfront-Felds ein, dem Sie [!DNL Workfront DAM] zuordnen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 1. Wählen **[!UICONTROL im Feld Zielfeld für Zuordnung auswählen]** das Feld aus, das Sie mit den Informationen im ausgewählten [!DNL Workfront] füllen möchten.

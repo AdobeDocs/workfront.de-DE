@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 99b81090-8d09-4130-a746-44ed1d76f971
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '766'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf den Namen der Gruppe, um deren Seite zu öffnen.
 
-1. Klicken Sie auf die ![](assets/more-icon.png) Mehr neben dem Namen der Gruppe und dann auf **Deaktivieren** oder **Reaktivieren**.
+1. Klicken Sie auf das Menü ![Mehr](assets/more-icon.png) neben dem Namen der Gruppe und dann auf **Deaktivieren** oder **Reaktivieren**.
 
    >[!NOTE]
    >
@@ -92,7 +92,7 @@ Beachten Sie Folgendes zu einer Gruppe, die Sie deaktivieren, indem Sie die Opti
 
   Informationen zur Reaktivierung einer Untergruppe in dieser Situation finden Sie unter [Informationen zur Reaktivierung einer Untergruppe unterhalb einer inaktiven übergeordneten Gruppe](#about-reactivating-a-subgroup-below-an-inactive-parent-group) in diesem Artikel.
 
-* Wenn Sie im Setup zum Bereich Gruppen gehen, werden nur aktive Gruppen in der Liste angezeigt, da Active der ![](assets/filter-nwepng.png) Standardfilter ist. Wenn Sie alle von Ihnen verwalteten Gruppen anzeigen möchten, einschließlich der inaktiven, können Sie den Filter Alle verwenden. Oder verwenden Sie den Filter Inaktiv , um nur die inaktiven aufzulisten.
+* Wenn Sie im Setup zum Bereich Gruppen gehen, werden nur aktive Gruppen in der Liste angezeigt, da Active der Standardfilter (![) ](assets/filter-nwepng.png). Wenn Sie alle von Ihnen verwalteten Gruppen anzeigen möchten, einschließlich der inaktiven, können Sie den Filter Alle verwenden. Oder verwenden Sie den Filter Inaktiv , um nur die inaktiven aufzulisten.
 
   Weitere Informationen zu Filtern in Listen finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

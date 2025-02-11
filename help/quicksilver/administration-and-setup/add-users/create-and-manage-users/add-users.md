@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1128'
+source-wordcount: '1130'
 ht-degree: 1%
 
 ---
@@ -151,7 +151,7 @@ So erstellen Sie einen neuen Benutzer durch Kopieren eines vorhandenen Benutzers
 
 {{step-1-to-users}}
 
-1. Wählen Sie den Benutzer aus, den Sie kopieren möchten, und klicken Sie dann auf das Symbol Kopieren ![](assets/copy-icon.png).
+1. Wählen Sie den Benutzer aus, den Sie kopieren möchten, und klicken Sie dann auf das Symbol „Kopieren![ „Kopieren](assets/copy-icon.png).
 1. Bearbeiten Sie im **Benutzer kopieren** angezeigten Feld die für den neuen Benutzer verfügbaren Felder.
 
    Informationen zu allen mit einem Benutzer verknüpften Feldern finden Sie unter [Bearbeiten des Benutzerprofils](../../../administration-and-setup/add-users/create-and-manage-users/edit-a-users-profile.md).

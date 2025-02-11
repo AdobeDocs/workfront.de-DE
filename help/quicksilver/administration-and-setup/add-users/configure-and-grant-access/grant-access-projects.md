@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ba6a9e68-68a1-4152-b024-cd39e06d556f
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -61,9 +61,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 ## Konfigurieren des Benutzerzugriffs auf Projekte mithilfe einer benutzerdefinierten Zugriffsebene
 
 1. Erstellen oder bearbeiten Sie die Zugriffsebene, wie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen“ ](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
-1. Klicken Sie auf das Zahnradsymbol ![](assets/gear-icon-settings.png) der Schaltfläche **Anzeigen** oder **Bearbeiten** auf der rechten Seite von „Projekte“ und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren** gewähren möchten.
+1. Klicken Sie auf das Zahnradsymbol ![Zahnradeinstellungssymbol](assets/gear-icon-settings.png) auf der Schaltfläche **Anzeigen** oder **Bearbeiten** rechts von „Projekte“ und wählen Sie dann die Funktionen aus, die Sie unter **Einstellungen optimieren**.
 
-   ![](assets/planner-fine-tune-your-settings-with-copy-projects.png)
+   ![Optimieren von Einstellungen zum Kopieren von Projekten](assets/planner-fine-tune-your-settings-with-copy-projects.png)
 
    >[!NOTE]
    >

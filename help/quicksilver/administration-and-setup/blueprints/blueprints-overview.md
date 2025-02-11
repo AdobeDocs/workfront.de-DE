@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 4c487598-2066-4507-8dfe-1a54d38f5eea
-source-git-commit: 55c8a3e5d0041a0e975bfd979a2d2e38930fea8d
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '831'
+source-wordcount: '834'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 
 Blueprints sind eine Reihe von Workfront-Objekten, die gängige Anwendungsfälle in Workfront abdecken. Sie können eine Blueprint herunterladen und installieren und dann die Objekte für Ihren spezifischen Anwendungsfall konfigurieren.
 
-![](assets/blueprints-main-page-catalog.png)
+![Blueprints-Hauptseite](assets/blueprints-main-page-catalog.png)
 
 >[!INFO]
 >

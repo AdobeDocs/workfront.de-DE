@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: dba052ed-83a2-44d2-b025-d970783c4151
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '325'
+source-wordcount: '329'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 Wenn für die Bedingungsart eines Projekts der Fortschrittsstatus anstelle der manuellen festgelegt wurde, zeigt Adobe Workfront automatisch eine von drei integrierten Standardbedingungen für das Projekt an (Zielgruppengerecht, Gefährdet oder In Schwierigkeiten), während es fortgesetzt wird, wie unter [Übersicht über Projektbedingung und Bedingungstyp](../../../manage-work/projects/manage-projects/project-condition-and-condition-type.md) erläutert.
 
-![](assets/condition-in-project-header-nwe.png)
+![Bedingung im Projekt-Header](assets/condition-in-project-header-nwe.png)
 
 Sie können Ihre benutzerdefinierten Bedingungen als Standardbedingungen festlegen, anstatt diese drei integrierten Standardbedingungen zu verwenden. Sie können beispielsweise die Standardbedingung On Target so ändern, dass sie in allen Projekten als Tracking Well angezeigt wird.
 

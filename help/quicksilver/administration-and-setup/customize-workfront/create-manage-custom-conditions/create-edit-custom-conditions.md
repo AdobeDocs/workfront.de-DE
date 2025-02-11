@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5c950862-4358-4aab-997b-223972662150
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '633'
 ht-degree: 2%
 
 ---
@@ -66,7 +66,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Um eine vorhandene Bedingung zu bearbeiten, bewegen Sie den Mauszeiger über die Bedingung, die Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten**-Symbol ganz rechts.
 
-   ![](assets/custom-condition-edit-nwe.jpg)
+   ![Benutzerdefinierte Bedingung](assets/custom-condition-edit-nwe.jpg)
 
 1. Konfigurieren Sie Ihre benutzerdefinierte Bedingung mit den folgenden Optionen:
 
@@ -110,21 +110,21 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Sie können Bedingungsterminologie und Farben für alle drei Objekttypen standardisieren. Kopieren Sie dazu den Bedingungsnamen und den Hex-Farb-Code von einer Registerkarte (Projekt, Aufgabe, Problem) in die entsprechende Bedingung auf den anderen beiden Registerkarten.
 
-1. (Optional) Ziehen Sie eine Bedingung ![](assets/move-icon---dots.png) eine neue Position, um die Liste neu anzuordnen.
+1. (Optional) Ziehen Sie ![Symbol Verschieben](assets/move-icon---dots.png) eine beliebige Bedingung an eine neue Position, um die Liste neu anzuordnen.
 
    Dadurch wird die Reihenfolge geändert, in der Bedingungen in Projekten, Aufgaben und Problemen angezeigt werden:
 
    * Wenn ein Benutzer ein Projekt bearbeitet
 
-     ![](assets/change-condition-edit-project.png)
+     ![Bedingung beim Bearbeiten eines Projekts ändern](assets/change-condition-edit-project.png)
 
    * Wenn ein(e) Benutzende(r) die Bedingung für eine Aufgabe oder ein Problem auf der Registerkarte Aktualisierungen ändert:
 
-     ![](assets/change-condition-update-comment.png)
+     ![Bedingung beim Aktualisieren des Kommentars ändern](assets/change-condition-update-comment.png)
 
    * Wenn ein(e) Benutzende(r) die Bedingung für eine Aufgabe oder ein Problem in einer Listenansicht ändert:
 
-     ![](assets/change-conditions-list-dropdown-only.png)
+     ![Bedingung in Liste ändern](assets/change-conditions-list-dropdown-only.png)
 
 1. Klicken Sie auf **Speichern**.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: b9a489e8-0ffe-4f52-bbd9-172e7273048c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '175'
 ht-degree: 0%
 
 ---
@@ -21,11 +21,11 @@ Sie können die Reihenfolge ändern, in der Bedingungen in Projekten, Aufgaben u
 
 * Wenn ein Benutzer ein Projekt bearbeitet
 
-  ![](assets/change-condition-edit-project.png)
+  ![Bedingung beim Bearbeiten eines Projekts ändern](assets/change-condition-edit-project.png)
 
 * Wenn ein Benutzer die Bedingung für eine Aufgabe oder ein Problem ändert
 
-  ![](assets/change-conditions-list-dropdown-only.png)
+  ![Bedingung in Liste ändern](assets/change-conditions-list-dropdown-only.png)
 
 ## Zugriffsanforderungen
 
@@ -68,7 +68,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie die **Projekte**, **Aufgaben** oder **Probleme** aus.
 
-1. ![](assets/move-icon---dots.png) ziehen, um ihre Reihenfolge zu ändern.
+1. Ziehen Sie ![Symbol „Verschieben](assets/move-icon---dots.png) Bedingungen, um ihre Reihenfolge zu ändern.
 
    Die neue Bestellung wird automatisch gespeichert.
 

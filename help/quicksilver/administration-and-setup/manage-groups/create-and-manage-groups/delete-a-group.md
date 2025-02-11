@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: f92eb1f5-fe98-4c7e-8ef7-8ed7134db8d4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '314'
 ht-degree: 2%
 
 ---
@@ -58,9 +58,9 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step-1-to-setup}}
 
-1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+1. Klicken Sie im linken Bereich auf **Gruppen** ![Gruppen](assets/groups-icon.png).
 
-1. Wählen Sie die Gruppe aus, die Sie löschen möchten, und klicken Sie dann auf das Symbol Löschen ![](assets/delete.png).
+1. Wählen Sie die Gruppe aus, die Sie löschen möchten, und klicken Sie dann auf das Symbol Löschen ![Löschen](assets/delete.png).
 
    >[!IMPORTANT]
    >
@@ -68,6 +68,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Beginnen Sie mit der Eingabe in das **Gruppe löschen** angezeigte Feld und wählen Sie dann den Namen der Gruppe aus, in die Sie die Mitglieder, Arbeitselemente und Untergruppen der zu löschenden Gruppe verschieben möchten.
 
-   Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol ![](assets/info-icon.png) neben der Gruppe klicken. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.
+   Sie können sicherstellen, dass Sie die richtige Gruppe auswählen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol ![Infosymbol](assets/info-icon.png) klicken, das daneben angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der darüber liegenden Gruppen und deren Administratoren.
 
 1. Klicken Sie **Löschen**.

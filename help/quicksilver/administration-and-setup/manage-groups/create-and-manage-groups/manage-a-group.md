@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 86c120de-16b8-4ca8-a7a1-76ece70c0505
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1309'
+source-wordcount: '1315'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ Sie können die Gruppe schnell bearbeiten, kopieren oder löschen, ohne die Haup
 
    In der angezeigten Liste werden die von Ihnen verwalteten Gruppen sowie alle zugehörigen Untergruppen angezeigt. Adobe Workfront-Administratoren können alle Gruppen anzeigen.
 
-1. Wählen Sie die Gruppe aus und klicken Sie dann auf das Symbol ![](assets/edit-icon.png) bearbeiten, ![](assets/copy-icon.png) kopieren oder ![](assets/delete.png) löschen .
+1. Wählen Sie die Gruppe aus und klicken Sie dann auf das Symbol ![Bearbeiten](assets/edit-icon.png), das Symbol ![Kopieren](assets/copy-icon.png) oder das Symbol ![Löschen](assets/delete.png).
 
    Wenn Sie Informationen zur Verwendung des angezeigten Felds benötigen, sehen Sie sich eine der folgenden Vorgehensweisen an:
 

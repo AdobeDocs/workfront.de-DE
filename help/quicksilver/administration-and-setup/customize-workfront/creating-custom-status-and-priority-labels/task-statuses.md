@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 2cdedc67-b7b0-4e83-a446-d71e3afe255c
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Informationen zum Bearbeiten des Systemstatus oder zum Erstellen neuer benutzerd
 
    Auf dieser Registerkarte werden die in Workfront verfügbaren Aufgabenstatus aufgeführt.
 
-   ![](assets/task-status.png)
+   ![Aufgabenstatus](assets/task-status.png)
 
    Einzelheiten zu den einzelnen integrierten Systemaufgabenstatus finden Sie unter [Systemaufgabenstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-task-statuses.md).
 

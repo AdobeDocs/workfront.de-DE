@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 5cb42dd8-1557-4fa4-ab3d-8278ce9afd96
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1685'
+source-wordcount: '1715'
 ht-degree: 6%
 
 ---
@@ -74,7 +74,7 @@ In Verbindung mit der Planlizenz richtet sich die integrierte Zugriffsebene „S
 
 Benutzende mit der Zugriffsebene „Systemadministrator“ können alles in Workfront tun. Sie können alle Workfront-Objekte und -Informationen anzeigen und bearbeiten, die von allen anderen Benutzenden in Workfront eingegeben wurden.
 
-Sie haben außerdem vollen Zugriff auf den Bereich Setup , in dem sie alle Einstellungen auf Systemebene ändern können. Und sie können auf alle Bereiche im Hauptmenü-![](assets/main-menu-icon.png) oder im Hauptmenü-![](assets/lines-main-menu.png) zugreifen, falls verfügbar.
+Sie haben außerdem vollen Zugriff auf den Bereich Setup , in dem sie alle Einstellungen auf Systemebene ändern können. Und sie können auf alle Bereiche im Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) zugreifen, falls verfügbar.
 
 Weitere Informationen finden Sie unter [Gewähren des vollständigen Administratorzugriffs für einen Benutzer](../../../administration-and-setup/add-users/configure-and-grant-access/grant-a-user-full-administrative-access.md).
 
@@ -86,7 +86,7 @@ Die Zugriffsebene des Planers, die ebenfalls an die Planlizenz angehängt ist, i
 * Alle, die für die Planung, Erstellung und Verwaltung von Aufgaben, Projekten, Portfolios und Programmen verantwortlich sind
 * Jeder, der für die Zuweisung von Arbeit (Aufgaben und Probleme) an andere Benutzer verantwortlich ist
 * Benutzer, die Berichte erstellen und Arbeitszeittabellen, Arbeitselemente und Dokumente genehmigen
-* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png) benötigen, falls verfügbar
+* Benutzer, die Zugriff auf alle Bereiche im Hauptmenü (![-Symbol) ](assets/main-menu-icon.png) Hauptmenü (![-Symbol](assets/main-menu-icon.png) benötigen, falls verfügbar
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Planer erstellen und den Umfang des Zugriffs festlegen, den sie für die verschiedenen Workfront-Objekttypen zulässt. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 
@@ -122,7 +122,7 @@ Benutzer mit dieser Zugriffsebene:
 * Kann Arbeiten und Dokumente genehmigen, jedoch keine Arbeitszeittabellen
 * Kann auf Berichte zugreifen und sie freigeben
 * Kann mit anderen Benutzenden im System kommunizieren
-* Kann nicht auf alle Bereiche im Hauptmenü ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png) zugreifen, falls verfügbar, und ihr Bereich „Benutzer“ heißt „Teams“. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur die Teams sehen, denen sie angehören, sowie die diesen Teams zugewiesenen Arbeiten.
+* Es können nicht alle Bereiche im Hauptmenü (![-Symbol) ](assets/main-menu-icon.png) Hauptmenü (![-Symbol) ](assets/main-menu-icon.png), falls verfügbar, aufgerufen werden. Ihr Bereich „Benutzer“ heißt „Teams“. Im Bereich Teams können Benutzer mit dieser Zugriffsebene nur die Teams sehen, denen sie angehören, sowie die diesen Teams zugewiesenen Arbeiten.
 * Die Möglichkeit, Objekte zu erstellen, ist eingeschränkt. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene von Worker erstellen und den Umfang des Zugriffs festlegen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -158,7 +158,7 @@ Beispielsweise könnte sich ein Stakeholder mit dieser Zugriffsebene bei Workfro
 Benutzer mit der Zugriffsebene des Reviewers:
 
 * Kann keine Arbeitselemente zugewiesen oder Arbeitszeittabellen genehmigt werden
-* Kann auf die Bereiche Anfragen und Dokumente im Hauptmenü ![](assets/main-menu-icon.png) oder im Hauptmenü ![](assets/lines-main-menu.png) zugreifen, falls verfügbar
+* Kann auf die Bereiche Anfragen und Dokumente im Hauptmenü (Hauptmenüsymbol![ oder im Hauptmenü (Hauptmenüsymbol](assets/main-menu-icon.png) zugreifen, ![ verfügbar](assets/main-menu-icon.png)
 * Die Möglichkeit, Objekte zu erstellen, ist eingeschränkt. Sie können keine Projekte, Portfolios, Programme oder Berichte erstellen.
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene des Reviewers erstellen und den Umfang des Zugriffs festlegen, der für die verschiedenen Objekttypen von Workfront ermöglicht wird. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
@@ -285,7 +285,7 @@ Benutzer mit dieser Zugriffsebene:
 * Kann Dokumente hochladen und genehmigen
 * Kann den Status der von ihnen gesendeten Probleme überprüfen
 * Kann Arbeitselementen nicht zugewiesen werden
-* Zugriff auf Anfragen ist nur über den Bereich Anfragen im Hauptmenü ![](assets/main-menu-icon.png) oder den Hauptmenü-![](assets/lines-main-menu.png) möglich, falls verfügbar. Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
+* Der Zugriff auf Anfragen ist nur über den Bereich Anfragen im Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder über das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) möglich, falls verfügbar. Weitere Informationen zu Anfrage-Warteschlangen finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 Sie können eine benutzerdefinierte Version der integrierten Zugriffsebene des Anforderers erstellen und den Umfang des Zugriffs festlegen, der für die verschiedenen Workfront-Objekttypen zulässig ist. Weitere Informationen finden Sie unter [Erstellen und Ändern benutzerdefinierter Zugriffsebenen](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).
 

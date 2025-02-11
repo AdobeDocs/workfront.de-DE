@@ -8,9 +8,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 37ad04a1-d3c8-48b2-aed8-fe40456196ec
-source-git-commit: ab774e937a15aaa04704e872579df880a9b80aaf
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 3%
 
 ---
@@ -99,7 +99,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Wenn beispielsweise eine Aufgabe am Freitag zugewiesen wurde und eine Dauer von 3 verstrichenen Tagen hat, wird das Abschlussdatum der Aufgabe auf Montag festgelegt (unter der Annahme, dass Samstag und Sonntag ein Wochenende ist). Wenn die Aufgabe eine Dauer von 3 Tagen hat (nicht abgelaufen), wird das Abschlussdatum der Aufgabe auf Mittwoch festgelegt.
 
-   ![](assets/time-increments-for-automatic-reminder.png)
+   ![Zeitinkremente](assets/time-increments-for-automatic-reminder.png)
 
 1. Klicken Sie auf **Speichern**.
 

@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 1fc91438-1ead-40d2-b0aa-863c1125c2fb
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '365'
+source-wordcount: '367'
 ht-degree: 0%
 
 ---
@@ -73,7 +73,7 @@ Informationen zum Bearbeiten eines Systemstatus und zum Erstellen benutzerdefini
 
    Auf dieser Registerkarte werden die in Workfront verfügbaren Projektstatus aufgeführt.
 
-   ![](assets/project-status.png)
+   ![Projektstatus](assets/project-status.png)
 
    Einzelheiten zu den einzelnen integrierten Systemprojektstatus finden Sie unter [Übersicht über Systemprojektstatus](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/system-project-statuses.md).
 

@@ -9,9 +9,9 @@ author: Caroline
 feature: System Setup and Administration
 role: Admin
 exl-id: b83e2e35-dd9d-4d98-b8d4-2f8718b3c6c1
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1077'
+source-wordcount: '1150'
 ht-degree: 2%
 
 ---
@@ -183,69 +183,69 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
 1. Zum Blatt „Firma“ gehen.
 
-   Es sollte leer bleiben, es sei denn, Unternehmen sind bereits im System. ![](assets/cmpysheet-350x16.png)
+   Es sollte leer bleiben, es sei denn, Unternehmen sind bereits im System. ![Firmenblatt](assets/cmpysheet-350x16.png)
 
-   ![](assets/companyid--1--350x78.png)
+   ![Unternehmens-ID](assets/companyid--1--350x78.png)
 
 1. Geben Sie TRUE in die Spalte **isNew** ein.
 1. Wiederholen Sie diese Aktion für jede hinzugefügte Firma. (Führen Sie in diesem Beispiel diese Aktion für die Zeilen 3-6 aus, da vier Unternehmen hinzugefügt werden.)
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![Unternehmen ist neu](assets/cmpyisnew-350x86.png)
 
 1. Geben Sie eine eindeutige ID an.
 
    Dies muss für jede Zeile der Spalte ID erfolgen. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
 
-   ![](assets/cmpyisnew-350x86.png)
+   ![Unternehmen ist neu](assets/cmpyisnew-350x86.png)
 
 1. Einen Namen festlegen.
 
    Geben Sie die Namen der einzelnen Kunden in der Spalte **setName** an.
 
-   ![](assets/companyid-350x78.png)
+   ![Unternehmens-ID](assets/companyid-350x78.png)
 
 1. Navigieren Sie zur Tabelle GRUPPE .
 
    Sofern Sie noch keine Gruppen in Workfront erstellt haben, sollte dieses Blatt nur die Standardgruppe anzeigen, die mit jedem Konto von Workfront bereitgestellt wurde.
 
-   ![](assets/groupsheet-350x15.png) ![](assets/emptygroupsheet-350x85.png)
+   ![Gruppenblatt](assets/groupsheet-350x15.png) ![Leeres Gruppenblatt](assets/emptygroupsheet-350x85.png)
 
 1. Legen Sie die Spalte **isNew** fest. Je nach Szenario werden 4 Gruppen importiert. Geben Sie also „TRUE“ in die Zeilen 4 bis 7 für die Spalte „isNew“ ein.
 1. Geben Sie eine eindeutige ID an.
 
    Dies muss für jede Zeile der Spalte ID erfolgen. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
 
-   ![](assets/groupids-350x85.png)
+   ![Gruppen-IDs](assets/groupids-350x85.png)
 
 1. Einen Namen festlegen.
 
    Geben Sie die Namen der einzelnen Abteilungen in der Spalte &quot;**&quot;**.
 
-   ![](assets/groupnames-350x85.png)
+   ![Gruppennamen](assets/groupnames-350x85.png)
 
    Geben Sie Rolleninformationen an. Navigieren Sie zum Funktionsblatt.
 
 1. Sofern Sie in Ihrem Konto noch keine Rollen erstellt oder gelöscht haben, sollte dieses Blatt acht Rollen anzeigen, die mit jedem Konto von Workfront bereitgestellt werden.
 
-   ![](assets/groupnames-350x85.png)
+   ![Gruppennamen](assets/groupnames-350x85.png)
 
 1. True-Anweisung festlegen.
 
    Es werden sieben Aufgabengebiete importiert. Geben Sie TRUE in die Zeilen 12 bis 18 für die Spalte „isNew“ ein.
 
-   ![](assets/roleisnew-350x104.png)
+   ![Rolle ist neu](assets/roleisnew-350x104.png)
 
 1. Geben Sie eine eindeutige ID an.
 
    Dies muss für jede Zeile der Spalte ID erfolgen. Ganzzahlen, die mit 1 beginnen, funktionieren beim Erstellen neuer Datensätze gut.
 
-   ![](assets/usersheet-350x16.png)
+   ![Benutzerblatt](assets/usersheet-350x16.png)
 
-   ![](assets/roleisnew--1--350x104.png)
+   ![Rolle ist neu](assets/roleisnew--1--350x104.png)
 
 1. Geben Sie für jede Rolle einen Namen an, indem Sie ihn in die Spalte „setName“ eingeben.
 
-   ![](assets/roleisnew-350x104.png)
+   ![Rolle ist neu](assets/roleisnew-350x104.png)
 
 1. Geben Sie bei Bedarf zusätzliche Details an.
 
@@ -255,23 +255,23 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
    Sofern Sie noch keine Benutzenden in Ihrem Konto erstellt haben, sollte dieses Blatt nur die Admin-Benutzenden anzeigen, die mit jedem Konto von Workfront ausgestattet sind.
 
-   ![](assets/rolenames-350x104.png) ![](assets/emptyusersheet-350x52.png)
+   ![Rollennamen](assets/rolenames-350x104.png) ![Leeres Benutzerblatt](assets/emptyusersheet-350x52.png)
 
 1. Legen Sie den Wert „True“ fest, indem Sie TRUE in die Zeilen 4 bis 9 für die Spalte „isNew“ eingeben, da 6 Benutzer importiert werden.
 
-   ![](assets/userisnew-350x52.png)
+   ![Benutzer ist neu](assets/userisnew-350x52.png)
 
 1. Legen Sie eine eindeutige ID fest, indem Sie in jeder Zeile für die Spalte ID eine eindeutige ID angeben. Normalerweise funktionieren Ganzzahlen, die bei 1 beginnen, gut für neue Datensätze.
 
-   ![](assets/userisnew-350x52.png)
+   ![Benutzer ist neu](assets/userisnew-350x52.png)
 
 1. Die Namen der einzelnen Benutzer in die Spalten „setFirstName“ und „setLastName“ eingeben.
 
-   ![](assets/usernames-350x52.png)
+   ![Benutzernamen](assets/usernames-350x52.png)
 
 1. Legen Sie Detailwerte fest, indem Sie Werte in die Spalten „setEmail“, „setPassword“ und „setUsername“ eingeben.
 
-   ![](assets/usercredentials-350x52.png)
+   ![Benutzeranmeldeinformationen](assets/usercredentials-350x52.png)
 
 1. Geben Sie Werte für die Zugriffsebene an.
 
@@ -279,13 +279,13 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
    Wiederholen Sie diesen Schritt für jeden Benutzer und jede Zugriffsebene.
 
-   ![](assets/copyalid-350x171.png) ![](assets/pastealid-350x59.png)
+   ![Zugriffsebenen-ID kopieren](assets/copyalid-350x171.png) ![Zugriffsebenen-ID einfügen](assets/pastealid-350x59.png)
 
 1. Details zur Hauptgruppe angeben.
 
    Gemäß dem Szenario gehört Chris Manning zur Marketing-Gruppe. Suchen Sie auf dem Blatt GRUPPE die ID für die Marketing-Gruppe, kopieren Sie sie in die Zwischenablage und fügen Sie sie auf dem Blatt BENUTZER in die Spalte **setHomeGroupID** in der Zeile von Chris ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
-   ![](assets/copygroupid-1-350x133.png) ![](assets/pastegroupid-350x59.png)
+   ![Gruppen-ID kopieren](assets/copygroupid-1-350x133.png) ![Gruppen-ID einfügen](assets/pastegroupid-350x59.png)
 
 1. Geben Sie Details zum Unternehmen an.
 
@@ -293,17 +293,17 @@ In den folgenden Tabellen werden die zu importierenden Benutzer und jeweils mehr
 
    Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
-   ![](assets/companyid--1--350x78.png)
+   ![Unternehmens-ID](assets/companyid--1--350x78.png)
 
-   ![](assets/pastecompanyid-350x84.png)
+   ![Firmen-ID einfügen](assets/pastecompanyid-350x84.png)
 
 1. Geben Sie Details zum Aufgabengebiet an.
 
    Dem Szenario zufolge wird Chris Manning die Rolle eines Unternehmensanalysten haben. Suchen Sie auf dem Blatt „Rolle“ die ID für die Rolle „Geschäftsanalyst“, kopieren Sie sie in die Zwischenablage und fügen Sie sie auf dem Blatt „Benutzer“ in die Zeile „setRoleID“ in der Zeile „Chris“ ein. &#x200B;Wiederholen Sie diesen Schritt für jede Benutzer- und Gruppenzuweisung.
 
-   ![](assets/copyroleid-350x149.png)
+   ![Rollenkennung kopieren](assets/copyroleid-350x149.png)
 
-   ![](assets/pasteroleid-350x95.png)
+   ![Rollenkennung einfügen](assets/pasteroleid-350x95.png)
 
 1. Geben Sie bei Bedarf weitere Benutzerdetails ein und speichern Sie dann die Datei.
 1. Importieren Sie die Excel-Datei.

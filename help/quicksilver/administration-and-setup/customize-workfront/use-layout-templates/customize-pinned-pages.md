@@ -8,16 +8,16 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '495'
+source-wordcount: '501'
 ht-degree: 4%
 
 ---
 
 # Anpassen von fixierten Seiten mithilfe einer Layout-Vorlage
 
-In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über die ![](assets/main-menu-icon.png) Hauptmenü oder die ![](assets/lines-main-menu.png) Hauptmenü zugegriffen wird, sofern verfügbar, oder um Dashboards.
+In einer Layout-Vorlage können Sie oben in Adobe Workfront die Seiten anheften, für die Benutzerinnen und Benutzer immer verfügbar sein sollen. Dabei kann es sich entweder um Seiten handeln, auf die über das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png) oder das Hauptmenü ![Hauptmenüsymbol) zugegriffen ](assets/main-menu-icon.png), falls verfügbar, oder um Dashboards.
 
 Alle Pins, die von Ihren Benutzerinnen und Benutzern eigenständig hinzugefügt wurden, werden rechts neben den Pins angezeigt, die Sie der Layout-Vorlage hinzufügen.
 

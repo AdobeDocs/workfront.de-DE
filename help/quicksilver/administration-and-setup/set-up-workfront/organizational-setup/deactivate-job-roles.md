@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 934cef1a-8157-45db-b000-24a08a94dd18
-source-git-commit: 439303273239549bb326c171be44eea321f5bb5f
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '664'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Es wird empfohlen, Folgendes zu tun, bevor Sie ein nicht verwendetes Aufgabengeb
 1. Klicken Sie auf den Namen des Aufgabengebiets, das Sie deaktivieren möchten.
 1. Wählen Sie im Dropdown **[!UICONTROL Menü]** Ist aktiv“ die Option **[!UICONTROL Nein]** aus.
 
-   ![](assets/deactivate-job-role-edit-role-box-nwe.png)
+   ![Aufgabengebiet deaktivieren](assets/deactivate-job-role-edit-role-box-nwe.png)
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
 

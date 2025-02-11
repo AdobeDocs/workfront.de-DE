@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 43668525-5572-4d82-8eed-0e320249f296
-source-git-commit: c389b4829f16bf82a5851a597f5dd358d9c96999
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '1239'
+source-wordcount: '1241'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ In diesem Artikel wird erläutert, wie Sie das Objekt finden und dann das Proble
 
    **Beispiel:** Feld 1 im Formular 1 = Ja, Feld 2 im Formular 2 = Ja, Feld 3 im Formular 3 = Ja. Dies bedeutet: „Das berechnete benutzerdefinierte Feld ist in Formular 1 vorhanden“ oder „Das berechnete benutzerdefinierte Feld ist in Formular 2 vorhanden“ usw.
 
-1. Klicken **[!UICONTROL auf]** Suchsymbol![](assets/search-icon.png) in der rechten oberen Ecke des Bildschirms auf **[!UICONTROL Erweiterte Suche]**.
+1. Klicken Sie **[!UICONTROL Suchsymbol]** ![Suchsymbol](assets/search-icon.png) in der rechten oberen Ecke des Bildschirms auf **[!UICONTROL Erweiterte Suche]**.
 1. Klicken Sie auf das Objekt Ihres benutzerdefinierten Formulars (z. B. „Problem„), klicken Sie **[!UICONTROL Ergebnisse filtern]** und dann auf **[!UICONTROL Filter hinzufügen]**.
 1. Beginnen Sie mit der Eingabe des Namens eines Kontrollkästchenfelds in das Feld **[!UICONTROL Beginnen Sie mit der Eingabe des Feldnamens]** und wählen Sie es aus, wenn es in der Liste angezeigt wird. Wählen Sie dann **[!UICONTROL Gleich]** aus und geben Sie **[!UICONTROL Ja]** (ohne Anführungszeichen) in das folgende Feld ein.
 

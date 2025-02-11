@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 594e002c-19e3-4baa-b5f8-223c3fdf8ca8
-source-git-commit: 822c4e13ab62d129d0a7c603105251e52578576d
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '873'
+source-wordcount: '876'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Der Adobe Workfront-Administrator legt fest, welche Zugriffsebene jede Benutzeri
 Benutzer erhalten auch Zugriff auf einzelne Objekte, wenn andere Benutzer bestimmte Berechtigungen für diese Objekte freigeben und gewähren.
 
 
-![](assets/security-model-hierachy.png)
+![Sicherheitsmodellhierarchie](assets/security-model-hierachy.png)
 
 Wenn Ihre Zugriffsebene beispielsweise besagt, dass Sie Aufgaben erstellen können, die Berechtigungen, die Sie für ein bestimmtes Projekt erhalten, jedoch nicht zulassen, dass Sie ihm Aufgaben hinzufügen, können Sie keine Aufgaben zum Projekt hinzufügen, obwohl Sie Aufgaben an einer anderen Stelle in Workfront erstellen können.
 

@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 5fbd4989-460b-4380-a136-8a9f6b79787d
-source-git-commit: 0bc2817255b8879de377c3916bb36be760f28f4c
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '252'
+source-wordcount: '253'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen Sie die Registerkarte des Objekttyps (**Projekt**, **Aufgabe** oder **Problem**), auf der sich die Bedingung befindet, die Sie löschen möchten.
 
-1. Bewegen Sie den Mauszeiger über die Bedingung, die Sie löschen möchten, und klicken Sie dann auf das **Löschen**-Symbol, ![](assets/delete.png) ganz rechts angezeigt wird.
+1. Bewegen Sie den Mauszeiger über die Bedingung, die Sie löschen möchten, und klicken Sie dann auf das **Löschen**-Symbol ![Löschen](assets/delete.png) das ganz rechts angezeigt wird.
 1. Klicken Sie in der angezeigten Bestätigungsmeldung auf **Bedingung löschen**.
 
 1. Wählen Sie **angezeigten Feld** Bedingung löschen“ in der Dropdown-Liste für alle Projekte, die die Bedingung verwendet haben, die Sie löschen möchten, eine neue Bedingung aus.

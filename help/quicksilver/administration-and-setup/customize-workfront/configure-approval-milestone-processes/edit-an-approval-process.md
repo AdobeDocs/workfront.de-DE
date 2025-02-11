@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration, Approvals
 role: Admin
 exl-id: 62aa8ac0-7e8a-4df6-b5d4-a32fa86a4597
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1950'
+source-wordcount: '1955'
 ht-degree: 1%
 
 ---
@@ -72,7 +72,7 @@ Sie müssen über Folgendes verfügen:
 
    Wenn Sie einen Genehmigungsprozess auf Gruppenebene bearbeiten, gehen Sie wie folgt vor:
 
-   1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![](assets/groups-icon.png).
+   1. Klicken Sie im linken Bedienfeld auf **Gruppen** ![Symbol „Gruppen](assets/groups-icon.png).
    1. Klicken Sie auf den Namen der Gruppe, für die Sie Gruppengenehmigungsprozesse auflisten oder verwalten möchten.
    1. Klicken Sie im linken Bedienfeld auf **Genehmigungen**. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
 
@@ -80,7 +80,7 @@ Sie müssen über Folgendes verfügen:
 
 1. Wählen Sie den Genehmigungsprozess aus, den Sie bearbeiten möchten, und klicken **oben in** Liste auf „Bearbeiten“. Das Feld Genehmigungsprozess bearbeiten wird angezeigt.
 
-   ![](assets/edit-approval-process-global-area-new.png)
+   ![Genehmigungsprozess bearbeiten](assets/edit-approval-process-global-area-new.png)
 
 1. Geben Sie die folgenden Informationen in dem angezeigten Feld ein:
 

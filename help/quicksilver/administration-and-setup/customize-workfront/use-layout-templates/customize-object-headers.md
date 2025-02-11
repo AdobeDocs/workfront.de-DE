@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: cbeaa0d7-a61a-4806-a871-96663d9ce124
-source-git-commit: a79e4146ce6d076ef0e3707416a9c21d643b96e1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Als Adobe Workfront-Administrator oder Gruppenadministrator können Sie eine Lay
 >
 >Das Anpassen von Objektkopfzeilen ist derzeit für Projekte, Aufgaben und Probleme verfügbar.
 
-![](assets/object-header-fields.png)
+![Objekt-Header-Felder](assets/object-header-fields.png)
 
 Informationen zum Erstellen von Layout-Vorlagen finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../use-layout-templates/create-and-manage-layout-templates.md).
 
@@ -80,7 +80,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
 
    <!--(NOTE: make sure the default names of these fields have not changed; otherwise, update screen shot)-->
 
-   ![](assets/object-header-field-x-and-grab-icons-in-lt.png)
+   ![Objektkopfzeilenfelder - Symbole zum Ausblenden und Verschieben](assets/object-header-field-x-and-grab-icons-in-lt.png)
 
 1. Die Kopfzeile eines Objekts kann bis zu fünf Felder enthalten.
 Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen, bevor Sie ein neues hinzufügen können.
@@ -95,7 +95,7 @@ Wenn Sie bereits fünf Felder ausgewählt haben, müssen Sie ein Feld entfernen,
    >* Wenn Sie das Feld „Gelöst von“ zur Kopfzeile eines Problems hinzufügen, ändert sich das Feld in „Problem, Aufgabe oder Projekt lösen“, wenn mit dem Problem ein Lösungsobjekt verknüpft ist.
 
 
-   ![](assets/add-field-to-header-in-lt-list.png)
+   ![Feld zur Kopfzeile hinzufügen](assets/add-field-to-header-in-lt-list.png)
 
 
 1. (Optional) Ziehen Sie die hinzugefügten Felder in eine andere Reihenfolge.

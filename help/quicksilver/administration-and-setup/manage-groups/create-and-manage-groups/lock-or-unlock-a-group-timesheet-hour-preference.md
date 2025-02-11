@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, People Teams and Groups
 role: Admin
 exl-id: 5b36106f-d521-4cc1-9f1f-647415c282b4
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '619'
+source-wordcount: '623'
 ht-degree: 0%
 
 ---
@@ -91,8 +91,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Führen Sie auf der angezeigten Seite einen der folgenden Schritte aus:
 
-   * Wenn Sie möchten, dass Administratoren von Gruppen unter Ihrer Gruppe eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie diese ![](assets/unlock-toggle-button.png).
-   * Wenn Sie möchten, dass alle Gruppen unter Ihnen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass sie ![](assets/lock-toggle-button.png) gesperrt ist (dies ist die Standardeinstellung).
+   * Wenn Sie möchten, dass Administratoren von Gruppen unter Ihrer Gruppe eine Voreinstellung für ihre Gruppen konfigurieren können, entsperren Sie sie ![Umschalter Entsperren](assets/unlock-toggle-button.png).
+   * Wenn Sie möchten, dass alle Gruppen unter Ihnen Ihre Konfiguration für eine Voreinstellung verwenden, stellen Sie sicher, dass sie gesperrt ist ![Umschalter sperren](assets/lock-toggle-button.png) (dies ist die Standardeinstellung).
 
      >[!IMPORTANT]
      >

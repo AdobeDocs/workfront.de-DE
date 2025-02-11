@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: d4f02102-0378-472f-9ebb-753502ec048b
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '639'
 ht-degree: 3%
 
 ---
@@ -98,7 +98,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      >[!NOTE]
      >
-     >Nur Benutzer mit einer Plan -Lizenz (im aktuellen Lizenzmodell) oder Benutzer mit einer Standard -Lizenz (im neuen Lizenzmodell) können den Bereich Benutzer ![](assets/users-icon-in-main-menu.png) im Hauptmenü sehen.
+     >Nur Benutzer mit einer Plan -Lizenz (im aktuellen Lizenzmodell) oder Benutzer mit einer Standard -Lizenz (im neuen Lizenzmodell) können den Bereich Benutzer ![Benutzersymbol](assets/users-icon-in-main-menu.png) im Hauptmenü sehen.
 
    * Anforde- rungen
    * Arbeitszeit- tabellen
@@ -123,9 +123,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Ausblenden ![](assets/remove-icon---x-in-circle.png) **Aktive Elemente** die nicht angezeigt werden sollen
-   * ![](assets/add-icon-plus-in-circle.png) **Verfügbare Elemente** anzeigen, die nicht im Hauptmenü angezeigt werden sollen.
-   * Ziehen Sie ![](assets/move-icon---dots.png) **Aktive Elemente**, um ihre Anzeigereihenfolge im Hauptmenü zu ändern.
+   * Ausblenden ![Symbol ausblenden](assets/remove-icon---x-in-circle.png) **Aktive Elemente** die nicht angezeigt werden sollen
+   * &quot;![-Symbol](assets/add-icon-plus-in-circle.png) **Verfügbare Elemente** anzeigen, die nicht im Hauptmenü angezeigt werden sollen.
+   * Ziehen Sie ![Symbol ziehen](assets/move-icon---dots.png) **Aktive Elemente**, um ihre Anzeigereihenfolge im Hauptmenü zu ändern.
 
 1. Klicken Sie **Fertig**.
 

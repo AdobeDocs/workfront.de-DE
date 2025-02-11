@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: caed65ab-a787-437b-9f5f-b3d4135bb980
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
 workflow-type: tm+mt
-source-wordcount: '430'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Wenn Sie [!DNL Adobe Workfront] [!UICONTROL Admin]-Zugriff haben, gibt es vier s
 * **[!UICONTROL Problem]** Ein Objekt in [!DNL Workfront], das ungeplante Arbeiten, ein auftretendes Problem oder etwas kommuniziert, das gelöst werden muss, um eine Aufgabe fortzusetzen.
 * **[!UICONTROL Anfrage]** Ein Problemtyp, der für eine Anfrage-Warteschlange gilt, in der Benutzer Anfragen in Workfront stellen.
 
-![](assets/default-issue-types.png)
+![Standardmäßige Problemtypen](assets/default-issue-types.png)
 
 ## Anfragetyp anpassen
 
@@ -86,8 +86,8 @@ So passen Sie einen Problemtyp an:
 1. Klicken Sie auf die **[!UICONTROL Probleme]**.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie den Mauszeiger über den Anfragetyp, den Sie anpassen möchten, klicken Sie auf das [!UICONTROL Bearbeiten]-Symbol ganz rechts ![](assets/edit-icon.png) und geben Sie dann einen neuen Namen für den Anfragetyp ein.
+   * Bewegen Sie den Mauszeiger über den Problemtyp, den Sie anpassen möchten, klicken Sie auf das Symbol [!UICONTROL Bearbeiten] ![Bearbeiten](assets/edit-icon.png) das ganz rechts angezeigt wird, und geben Sie dann einen neuen Namen für den Problemtyp ein.
 
-     ![](assets/customize-issue-type.png)
+     ![Problemtyp anpassen](assets/customize-issue-type.png)
 
    * Klicken Sie auf einen [!UICONTROL Anfragetyp], um die zugehörigen Status aufzulisten. Ziehen Sie dann die Handles, die angezeigt werden, wenn Sie den Mauszeiger über sie bewegen, und legen Sie sie in der Reihenfolge ab, in der sie im Dropdown-Menü **[!UICONTROL Status]** der Benutzenden angezeigt werden sollen.

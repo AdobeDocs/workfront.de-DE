@@ -6,10 +6,10 @@ navigation-topic: configure-proofing-functionality
 title: Konfigurieren, ob Korrekturabzüge automatisch generiert werden
 description: Sie können konfigurieren, ob das System automatisch Korrekturabzüge generiert, wenn Sie Benutzer bzw. Benutzerinnen angeben, die Dokumente zu Workfront hinzufügen. Diese Einstellung ist standardmäßig deaktiviert.
 author: Courtney
-source-git-commit: 62d1b9563d83bd82b569e143f69e379e2f4ffbc2
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '231'
-ht-degree: 3%
+source-wordcount: '245'
+ht-degree: 2%
 
 ---
 
@@ -45,17 +45,17 @@ Sie müssen über Folgendes verfügen:
 
 ## Konfigurieren, ob Korrekturabzüge automatisch für einen einzelnen Benutzer generiert werden
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Benutzer** ![Benutzer](assets/users-icon-in-main-menu.png).
 1. Wählen Sie einen Benutzer mit Proofing-Zugriff aus und klicken Sie dann auf **Bearbeiten**.
 1. Aktivieren **oder deaktivieren Sie** Abschnitt „Voreinstellungen **das Kontrollkästchen „Beim Hochladen von Dokumenten automatisch Korrekturabzüge**&quot;.
 
-   ![](assets/autogenerate-proofs-350x216.png)
+   ![Korrekturabzüge automatisch generieren](assets/autogenerate-proofs-350x216.png)
 
 1. Klicken Sie auf **Änderungen speichern**.
 
 ## Konfigurieren, ob Korrekturabzüge automatisch für mehrere Benutzer generiert werden
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Benutzer** ![](assets/users-icon-in-main-menu.png).
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Benutzer** ![Benutzersymbol](assets/users-icon-in-main-menu.png).
 1. Wählen Sie Benutzer mit Proofing-Zugriff aus und klicken Sie dann auf **Bearbeiten**.
 
    >[!IMPORTANT]
@@ -64,7 +64,7 @@ Sie müssen über Folgendes verfügen:
 
 1. Aktivieren Sie im Abschnitt **Voreinstellungen** das Kontrollkästchen **Beim Hochladen von Dokumenten automatisch Korrekturabzüge generieren** und wählen Sie dann **Ja** oder **Nein**.
 
-   ![](assets/autogenerate-proofs-bulk-350x285.png)
+   ![Korrekturabzüge für die automatische Massengenerierung](assets/autogenerate-proofs-bulk-350x285.png)
 
 1. Klicken Sie auf **Änderungen speichern**.
 

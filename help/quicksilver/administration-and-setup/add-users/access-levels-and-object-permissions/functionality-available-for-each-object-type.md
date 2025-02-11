@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 91b1b448-5a0b-4e64-a59e-458c8387ecbc
-source-git-commit: 2fa590235063e194d6277394f13b3d6be752ec4f
+source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
 workflow-type: tm+mt
-source-wordcount: '1953'
+source-wordcount: '1956'
 ht-degree: 10%
 
 ---
@@ -546,7 +546,7 @@ Nur Benutzer mit einer Planlizenz können vollen Zugriff auf ([ Objekt oder Bere
 | Informationen zu Aufgabengebieten in Plänen und Initiativen hinzufügen oder bearbeiten&#42; | ✓ | ✓ | ✓ |   |   |
 | Hinzufügen oder Bearbeiten von Kosteninformationen zu Plänen und Initiativen&#42; | ✓ | ✓ | ✓ |   |   |
 | Pläne und Initiativen löschen | ✓ | ✓ | ✓ |   |   |
-| Szenarien im Hauptmenü anzeigen ![](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
+| Szenarien im Hauptmenü anzeigen (![-Symbol](assets/esp-icon-in-main-menu.png) | ✓ | ✓ | ✓ | |   |
 | Pläne und Initiativen anzeigen, die der Benutzer erstellt hat&#42; | ✓ | ✓ | ✓ |   |   |
 
 {style="table-layout:auto"}

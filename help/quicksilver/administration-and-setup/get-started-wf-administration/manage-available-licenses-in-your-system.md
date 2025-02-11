@@ -8,9 +8,9 @@ author: Lisa, Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ea580dd0-efb7-4f56-beb3-07ad044efc8a
-source-git-commit: f036fbfc203f942fa5a22070860c3a20035a183b
+source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
 workflow-type: tm+mt
-source-wordcount: '1212'
+source-wordcount: '1216'
 ht-degree: 0%
 
 ---
@@ -186,7 +186,7 @@ So legen Sie die maximale Lizenzanzahl für eine Hauptgruppe fest:
 1. Klicken Sie in **Spalte &quot;**&quot; der Gruppe auf den Wert, für den Sie ein Maximum festlegen möchten.
 1. Geben Sie die maximale Zahl ein, und drücken Sie dann die Eingabetaste.
 
-   ![](assets/updated-max.png)
+   ![Maximale Lizenzen für Gruppe](assets/updated-max.png)
 
    >[!NOTE]
    >
