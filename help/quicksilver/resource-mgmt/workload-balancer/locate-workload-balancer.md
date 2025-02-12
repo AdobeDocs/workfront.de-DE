@@ -7,10 +7,10 @@ description: Sie können den Workload Balancer verwenden, um Ressourcen für Arb
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 3d7708e674af716657cc287c9f54a8cf56278da3
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '704'
-ht-degree: 0%
+source-wordcount: '714'
+ht-degree: 1%
 
 ---
 
@@ -87,7 +87,7 @@ In den folgenden Abschnitten wird gezeigt, wo Sie in Workfront auf den Workload 
 
 1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
-   ![](assets/nwe-balancer-global.png)
+   ![Workload Balancer](assets/nwe-balancer-global.png)
 
    Im Workload Balancer werden standardmäßig im Bereich Ressourcen die folgenden Informationen angezeigt:
 
@@ -104,7 +104,7 @@ Die Seite Ihres Home-Teams wird angezeigt.
 
 1. Klicken Sie **linken Bedienfeld** Workload Balancer“.
 
-   ![](assets/nwe-balancer-team-350x172.png)
+   ![Workload Balancer für Team](assets/nwe-balancer-team-350x172.png)
 
    Der Workload Balancer eines Teams zeigt standardmäßig die folgenden Informationen an:
 
@@ -124,7 +124,7 @@ Die Seite Ihres Home-Teams wird angezeigt.
 
    Der Workload Balancer für das Projekt wird angezeigt.
 
-   ![](assets/nwe-balancer-project-350x152.png)
+   ![Workload-Balancer für das Projekt](assets/nwe-balancer-project-350x152.png)
 
    Der Workload Balancer eines Projekts zeigt standardmäßig die folgenden Informationen an:
 

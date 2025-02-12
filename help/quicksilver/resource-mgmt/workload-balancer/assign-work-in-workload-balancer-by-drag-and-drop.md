@@ -6,9 +6,9 @@ description: Sie können Arbeitselemente mit dem Adobe Workfront Workload Balanc
 author: Lisa
 feature: Resource Management
 exl-id: caffcde8-3953-44a4-b945-76f2de84f4c6
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '883'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme, die Zuweisungen vornehmen</td> 
+   <td>Tragen Sie Berechtigungen oder höher zu den Projekten, Aufgaben und Problemen bei, die „Zuweisungen vornehmen“ enthalten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -76,13 +76,13 @@ Sie können einem Benutzer ein Element aus dem Bereich Nicht zugewiesene Arbeit 
 
    Wechseln Sie zum Bereich **Zugewiesene Arbeit** und erweitern Sie den Namen eines Benutzers, um die ihm zugewiesenen Arbeitselemente anzuzeigen, wenn Sie seine Elemente neu zuweisen möchten.
 
-1. (Bedingt) Klicken Sie im Workload Balancer eines Projekts auf das Symbol **Alle Benutzer anzeigen**, ![](assets/show-all-users-icon-project-workload-balancer.png) alle Workfront-Benutzer anzuzeigen.
+1. (Bedingt) Klicken Sie im Workload-Balancer eines Projekts auf das Symbol **Alle Benutzer anzeigen** ![Alle Benutzer anzeigen](assets/show-all-users-icon-project-workload-balancer.png), um alle Workfront-Benutzer anzuzeigen.
 
    Dadurch werden alle Benutzer angezeigt, auf die Sie Zugriff haben.
 
    Die Benutzer, die auch Teil des Projektteams sind und bereits Elementen im Projekt zugewiesen sind, haben das Projektsymbol rechts neben ihrem Namen im Bereich Zugewiesene Arbeit .
 
-   ![](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
+   ![Benutzer im Projekt](assets/user-on-the-project-indicator-highlighted-project-workload-balancer.png)
 
 
    >[!TIP]
@@ -100,7 +100,7 @@ Sie können einem Benutzer ein Element aus dem Bereich Nicht zugewiesene Arbeit 
    >
    >Die „Geplanten Stunden“ für den Benutzer, auf den Sie den Mauszeiger bewegen, werden in Echtzeit mit der Anzahl der täglichen geplanten Stunden aus dem Arbeitselement aktualisiert, um anzugeben, wie sich das Hinzufügen eines neuen Elements auf seine Gesamtzuweisung auswirken könnte.
 
-   ![](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
+   ![Element auf Zugewiesen ablegen](assets/drag-drop-item-from-unassigned-to-assigned-wb-nwe-350x152.png)
 
 1. Wenn Sie bereit sind, legen Sie das ausgewählte Arbeitselement in derselben Zeile wie den Namen des Benutzers im Bereich Zugewiesen ab. Das Element wird zugewiesen und die zugewiesenen geplanten Stunden werden für den Benutzer mit den neuen Stunden aus dem Arbeitselement aktualisiert.
 
@@ -118,7 +118,7 @@ Sie können einem Benutzer ein Element aus dem Bereich Nicht zugewiesene Arbeit 
 
 
 1. (Optional) Klicken Sie auf die Leiste eines Arbeitselements unter dem Namen eines Benutzers im Bereich Zugewiesene Arbeit und ziehen Sie es dann über den Bereich Nicht zugewiesene Arbeit , um die Zuweisung aufzuheben. Die Zuweisung des Elements für den Benutzer wurde aufgehoben, es kann jedoch weiterhin einem Aufgabengebiet zugewiesen sein. In diesem Fall wird es im Bereich Nicht zugewiesene Arbeit angezeigt. Wenn das Element einem anderen Benutzer zugewiesen wird, bleibt es im Bereich Zugewiesene Arbeit unter dem Namen des Benutzers, der noch zugewiesen ist.
-1. (Optional) Klicken Sie auf das **Zuordnungssymbol anzeigen** ![](assets/show-allocations-icon-small.png) und klicken Sie dann auf das **Weitere**![](assets/qs-more-menu.png) > **Zuordnungen bearbeiten**.
+1. (Optional) Klicken Sie auf das **Zuordnungssymbol anzeigen** ![Zuordnungssymbol anzeigen](assets/show-allocations-icon-small.png) und klicken Sie dann auf das **Mehr Menü** ![Mehr Menü](assets/qs-more-menu.png) > **Zuordnungen bearbeiten**.
 
    <!--
    (make sure these are still called this, and that the icon has not changed)

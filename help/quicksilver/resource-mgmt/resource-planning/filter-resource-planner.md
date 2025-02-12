@@ -6,9 +6,9 @@ description: Mithilfe von Filtern können Sie festlegen, welche Informationen im
 author: Lisa
 feature: Resource Management
 exl-id: 7186cae5-1e16-421e-b26d-afb50aa7f6eb
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2371'
+source-wordcount: '2390'
 ht-degree: 0%
 
 ---
@@ -129,7 +129,7 @@ Standardmäßig wird beim ersten Zugriff auf den Ressourcenplaner der <strong>St
    ![filter_icon.png](assets/filter-icon.png)
 oder
 Erweitern Sie das **Filter**-Dropdown-Menü und klicken Sie auf **Neuen Filter hinzufügen**.
-   ![](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
+   ![Filter-Dropdown](assets/rp-filter-dropdown-expanded-with-default-filter-selected-350x283.png)
 
 1. Um einen Filter mit den integrierten Kriterien zu erstellen, geben Sie eines der folgenden Felder an:
 
@@ -214,7 +214,7 @@ Sie können den Namen eines Filters ändern, ohne seine Kriterien zu ändern. Es
 1. Erweitern Sie das **Filter**-Dropdown-Menü. Suchen Sie den Filter, den Sie umbenennen möchten, und bewegen Sie den Mauszeiger über den Namen.
 1. Klicken Sie auf **Symbol** Filter umbenennen) neben dem Namen des Filters.
 
-   ![](assets/rp-filter-options-edit-350x154.png)
+   ![Filteroptionen bearbeiten](assets/rp-filter-options-edit-350x154.png)
 
 1. Geben Sie im Feld „Filtername“ einen **Namen für** Filter an.
 1. Klicken Sie auf **Speichern**.\
@@ -253,7 +253,7 @@ Sie können einen vorhandenen Filter duplizieren. Die ursprünglichen Filterkrit
 1. Bewegen Sie den Mauszeiger über den Namen eines gespeicherten Filters, den Sie duplizieren möchten.
 1. Klicken Sie auf **Symbol** Duplizieren“.
 
-   ![](assets/rp-filter-options---duplicate-350x154.png)\
+   ![Filter duplizieren](assets/rp-filter-options---duplicate-350x154.png)\
    Das Feld Filter duplizieren wird angezeigt.
 
 1. Geben **im Feld** Filtername“ einen neuen Namen für den doppelten Filter an.\
@@ -280,7 +280,7 @@ So entfernen Sie einen Filter:
 1. Suchen Sie den Filter, den Sie entfernen möchten, und bewegen Sie den Mauszeiger über den Namen.
 1. Klicken Sie auf **Symbol** Filter löschen“ neben dem Namen des Filters.
 
-   ![](assets/rp-filter-options---delete-350x154.png)
+   ![Filter löschen](assets/rp-filter-options---delete-350x154.png)
 
 1. Klicken **** im Dialogfeld **Filter löschen** auf Löschen.
 
@@ -303,13 +303,13 @@ Informationen zum Duplizieren von Filtern finden Sie [ Abschnitt „Duplizieren 
 1. Suchen Sie den Filter, den Sie freigeben möchten, und bewegen Sie den Mauszeiger über seinen Namen.
 1. Klicken Sie auf **Filter freigeben** neben dem Namen des Filters.
 
-   ![](assets/rp-filter-options---share-350x154.png)
+   ![Filter freigeben](assets/rp-filter-options---share-350x154.png)
 
    Das Dialogfeld Zugriff auf Filter wird angezeigt.
 
 1. (Optional) Um den Filter für alle Ressourcenplaner-Benutzer verfügbar zu machen, klicken Sie auf das Symbol **Einstellungen** und wählen Sie dann **Systemweit sichtbar machen**.
 
-   ![](assets/make-this-visible-system-wide-350x119.png)
+   ![Systemweit sichtbar machen](assets/make-this-visible-system-wide-350x119.png)
 
 1. Geben **in das Feld „Ressourcenplaner-Filterzugriff erteilen an** die Namen von Benutzern, Teams, Rollen, Gruppen oder Unternehmen ein, für die Sie den Filter freigeben möchten.
 1. Wählen Sie aus den folgenden Berechtigungsebenen aus:
@@ -321,10 +321,10 @@ Informationen zum Duplizieren von Filtern finden Sie [ Abschnitt „Duplizieren 
 
 1. (Optional) Klicken Sie auf **Erweiterte Einstellungen**, um Berechtigungen für jede Ebene hinzuzufügen, indem Sie sie auswählen, oder entfernen Sie Berechtigungen für jede Ebene, indem Sie die Auswahl aufheben.
 
-   ![](assets/rp-share-filter-manage-advanced-settings-350x271.png)
+   ![Filter freigeben](assets/rp-share-filter-manage-advanced-settings-350x271.png)
 
 1. Klicken Sie auf **Speichern**.
 
    Der Filter wird für die von Ihnen ausgewählten Entitäten freigegeben und im Bereich **Für mich freigegeben** angezeigt.
 
-   ![](assets/rp-shared-with-me-area.png)
+   ![Für mich freigegeben](assets/rp-shared-with-me-area.png)

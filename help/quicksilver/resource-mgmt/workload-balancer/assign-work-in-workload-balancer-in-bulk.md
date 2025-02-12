@@ -6,9 +6,9 @@ description: Mit dem Adobe Workfront Workload-Balancer können Sie Ressourcen me
 author: Lisa
 feature: Resource Management
 exl-id: fb0f80d3-7da4-4f5f-857d-3fb518ba12e2
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1551'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme, die Zuweisungen vornehmen</td> 
+   <td>Tragen Sie Berechtigungen oder höher zu den Projekten, Aufgaben und Problemen bei, die „Zuweisungen vornehmen“ enthalten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -87,7 +87,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Sie können Benutzern mithilfe des Workload Balancer im Bereich Ressource, auf Projekt- oder auf Teamebene Arbeit zuweisen. Weitere Informationen dazu, wo sich der Workload-Balancer in Workfront befindet, finden Sie unter [Suchen des Workload-Balancer](../../resource-mgmt/workload-balancer/locate-workload-balancer.md).
 
 
-1. Klicken Sie **Workload-Balancer oben ![](assets/bulk-assignments-wb.png) auf** Massenzuweisungen“.
+1. Klicken Sie **Massenzuweisungen** ![Massenzuweisungen](assets/bulk-assignments-wb.png) oben im Workload-Balancer.
 
    Das Bedienfeld Massenzuweisungen wird rechts neben dem Workload-Balancer geöffnet.
 
@@ -99,7 +99,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Der Projektname wird beim Zugriff auf den Workload-Balancer für ein Projekt standardmäßig ausgewählt.
 
-   ![](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
+   ![Projektname in Massenzuweisungen](assets/project-name-status-dropdown-bulk-assignments-wb-nwe-350x133.png)
 
 1. (Optional) Klicken Sie auf **Projektaufgaben auswählen** um die Aufgabe(n) auszuwählen, für die Sie Zuweisungen vornehmen möchten, wählen Sie dann im Dropdown-Menü **Aufgabe: Name** die Option Aufgaben nach Name (dies ist die Standardoption) oder Status aus und verwenden Sie die Filtermodifikatoren, um nach bestimmten Aufgaben zu suchen.
 
@@ -109,13 +109,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Sie können keine Aufgaben mit dem Status Abgeschlossen auswählen.
 
-   ![](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
+   ![Aufgabenstatus in Massenzuweisungen](assets/task-name-status-dropdown-bulk-assignments-wb-nwe-350x102.png)
 
    >[!TIP]
    >
    >Lassen Sie diese Auswahl leer, wenn Sie sowohl für Probleme als auch für Aufgaben Massenzuweisungen vornehmen möchten.
 
-1. (Optional) Klicken Sie auf **Symbol** Löschen![](assets/delete.png) neben einem der ausgewählten Kriterien
+1. (Optional) Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png) neben einem der ausgewählten Kriterien
 
    Oder
 
@@ -149,7 +149,7 @@ So weisen Sie einen Benutzer Arbeitselementen zu, die zuvor Aufgabengebieten zug
 
 1. Klicken Sie im Feld **Rollenzuweisung** auf den Dropdown-Pfeil, um aus einer Liste von Rollen auszuwählen. Es werden nur Rollen angezeigt, die derzeit innerhalb der angegebenen Projekte zugewiesen sind. Dies ist ein Pflichtfeld.
 
-   ![](assets/bulk-assignments-workload-balancer-assign-selected.png)
+   ![Funktionszuweisung](assets/bulk-assignments-workload-balancer-assign-selected.png)
 
 1. Klicken Sie im Feld **Zuzuweisender Benutzer** auf den Dropdown-Pfeil, um aus einer Liste empfohlener Benutzer auszuwählen oder den Namen eines anderen Benutzers einzugeben.
 
@@ -176,7 +176,7 @@ So weisen Sie einen Benutzer Arbeitselementen zu, die zuvor Aufgabengebieten zug
 
    Sie erhalten eine Bestätigung darüber, wie viele Arbeitselemente mit der ausgewählten Rolle durch den ausgewählten Benutzer ersetzt wurden.
 
-   ![](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
+   ![Massenzuweisungsbestätigung](assets/bulk-assign-user-confirmation-before-assigning-nwe-350x83.png)
 
 ### Benutzer ersetzen {#replace-user}
 
@@ -194,13 +194,13 @@ So ersetzen Sie einen Benutzer durch einen anderen Benutzer:
 1. Weisen Sie Arbeitselemente im Workload Balancer wie oben beschrieben zu und wählen Sie **Ersetzen**.
 1. Klicken Sie im Feld **Aktuell zugewiesener Benutzer** auf den Dropdown-Pfeil, um aus einer Benutzerliste auszuwählen. Es werden nur Benutzende angezeigt, die derzeit unvollständigen Arbeitselementen innerhalb der angegebenen Projekte zugewiesen sind. Dies ist ein Pflichtfeld.
 
-   ![](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
+   ![Benutzer ersetzen](assets/bulk-assignments-workload-balancer-replace-selected-350x345.png)
 
 1. Klicken Sie im Feld **Zuzuweisender Benutzer** auf den Dropdown-Pfeil, um aus einer Liste empfohlener Benutzer auszuwählen oder einen anderen Benutzernamen einzugeben. Die in der Liste aufgelisteten Benutzer entsprechen standardmäßig den Kriterien für Smart Assignments. Weitere Informationen finden Sie unter [Smart Assignments - Übersicht](../../manage-work/tasks/assign-tasks/smart-assignments.md).
 
    Workfront zeigt einen Hinweis zur Anzahl der Elemente an, bei denen der aktuell zugewiesene Benutzer den zweiten Benutzer ersetzt, und zu den Rollen, die er ersetzen wird.
 
-   ![](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
+   ![Massenaustausch-Benutzerbestätigung](assets/bulk-replace-user-confirmation-before-replacing-nwe-350x49.png)
 
 1. Klicken Sie **Ersetzen**.
 
@@ -227,11 +227,11 @@ So heben Sie die Zuweisung eines Benutzers zu Arbeitselementen in den ausgewähl
 
 1. Klicken Sie **Feld „Zuweisung des** aufheben“ auf den Dropdown-Pfeil, um aus einer Benutzerliste auszuwählen. Nur Benutzer, denen derzeit unvollständige Arbeitselemente innerhalb der angegebenen Projekte zugewiesen sind, werden angezeigt. Dies ist ein Pflichtfeld.
 
-   ![](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
+   ![Zuweisung des Benutzers aufheben](assets/bulk-assignments-workload-balancer-unassign-selected-350x318.png)
 
    Workfront zeigt einen Hinweis zur Anzahl der Elemente an, deren Zuweisung für den aktuell zugewiesenen Benutzer aufgehoben wird.
 
-   ![](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
+   ![Bestätigung zum Aufheben der Massenzuweisung](assets/bulk-unassign-user-confirmation-before-assigning-nwe-350x45.png)
 
 1. Klicken Sie **Zuweisung aufheben**.\
    Sie erhalten eine Bestätigung über die Anzahl der Arbeitselemente, aus denen der angegebene Benutzer entfernt wurde.

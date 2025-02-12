@@ -6,9 +6,9 @@ description: Sie können das Bedienfeld Zusammenfassung im Workload Balancer öf
 author: Lisa
 feature: Resource Management
 exl-id: dfc73b58-482e-46c7-a8c2-46070ee617f9
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '403'
+source-wordcount: '410'
 ht-degree: 2%
 
 ---
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme</td> 
+   <td>Berechtigungen oder höher zu den Projekten, Aufgaben und Problemen beitragen</td> 
   </tr> 
  </tbody> 
 </table>
@@ -78,11 +78,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Oder
 
-   Klicken Sie **das Symbol** Zusammenfassung öffnen![](assets/summary-panel-icon.png) und dann auf den Balken einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung zu öffnen.
+   Klicken Sie auf **Zusammenfassung öffnen** Symbol ![Zusammenfassung öffnen](assets/summary-panel-icon.png) und klicken Sie dann auf den Balken einer Aufgabe oder eines Problems, um das Bedienfeld Zusammenfassung zu öffnen.
 
    Oder
 
-   Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben einer Aufgabe oder einem Problem und klicken Sie dann auf **Zusammenfassung öffnen**.
+   Klicken Sie auf das **Mehr**-Menü ![Mehr-](assets/more-icon.png) rechts neben einer Aufgabe oder einem Problem und klicken Sie dann auf **Zusammenfassung öffnen**.
 
    Das Bedienfeld Zusammenfassung wird auf der rechten Seite geöffnet.
 
@@ -97,4 +97,4 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Weitere Informationen zum Aktualisieren von Informationen mithilfe der Zusammenfassung finden Sie unter [Übersicht](../../workfront-basics/the-new-workfront-experience/summary-overview.md).
 
 1. (Bedingt) Wenn Sie einen der Abschnitte des Arbeitselements geöffnet haben, klicken Sie im Browser auf die Schaltfläche **Zurück**, um zum Workload-Balancer zurückzukehren.
-1. Klicken Sie auf **Schließen**-Symbol ![](assets/close-icon.png) in der oberen rechten Ecke der Zusammenfassung, um sie zu schließen.
+1. Klicken Sie auf **Schließen** Symbol ![Schließen](assets/close-icon.png) in der oberen rechten Ecke der Zusammenfassung, um sie zu schließen.

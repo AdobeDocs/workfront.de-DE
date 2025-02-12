@@ -6,9 +6,9 @@ description: Ressourcenpools sind Sammlungen von Benutzern, die Ihnen bei der Ve
 author: Lisa
 feature: Resource Management
 exl-id: bbfe8257-ff02-4f06-9763-3f2ae4871c9d
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
@@ -80,14 +80,14 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Ressourcenpools können mit einer Vorlage auf die gleiche Weise verknüpft werden wie Ressourcenpools mit einem Projekt. Dieser Artikel beschreibt, wie Sie Ressourcenpools mit Projekten verknüpfen können.
 
-1. Wechseln Sie zu einem Projekt und klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png)neben dem Projektnamen und dann auf **Bearbeiten**.
+1. Gehen Sie zu einem Projekt und klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) neben dem Projektnamen und klicken Sie dann auf **Bearbeiten**.
 
 1. Klicken Sie **Projekteinstellungen**.
 
 1. Geben Sie zunächst den Namen eines Ressourcenpools in das Feld **Ressourcenpools** ein und wählen Sie ihn dann aus der Liste aus, wenn er angezeigt wird.\
    Sie können mehrere Ressourcenpools mit einem Projekt oder einer Vorlage verknüpfen.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Projekteinstellungen](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Klicken Sie auf **Speichern**.
 
@@ -104,7 +104,7 @@ Ressourcenpools können mit Vorlagen auf die gleiche Weise verknüpft werden wie
 So verknüpfen Sie Ressourcenpools mit mehreren Projekten in großen Mengen:
 
 1. Zu einer Projektliste gehen.
-1. Wählen Sie mehrere Projekte aus und klicken Sie dann oben in **Liste auf** Bearbeiten![](assets/edit-icon.png).
+1. Wählen Sie mehrere Projekte aus und klicken Sie dann oben in **Liste auf** Bearbeiten![Symbol ](assets/edit-icon.png)Bearbeiten“.
 
 1. Klicken Sie **Einstellungen**.
 1. Geben Sie zunächst den Namen eines Ressourcenpools in das Feld **Ressourcenpools** ein und wählen Sie ihn dann aus der Liste aus, wenn er angezeigt wird.\

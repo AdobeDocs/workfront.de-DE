@@ -6,9 +6,9 @@ description: Sie können den Ressourcenplaner verwenden, um die Zuordnung Ihrer 
 author: Lisa
 feature: Resource Management
 exl-id: 0de749df-5af9-4124-8539-06b82dca2ec4
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '506'
 ht-degree: 0%
 
 ---
@@ -87,7 +87,7 @@ So greifen Sie auf den Bereich „Planer“ im Bereich „Ressourcen“ zu:
 
 Der Planer wird standardmäßig angezeigt.  Informationen zur Budgetierung von Ressourcen im Ressourcenplaner finden Sie im Artikel [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Aufgabenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
 
-![](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
+![Ressourcenplaner als Standard](assets/qs-resource-management-area-with-planner-as-default-350x152.png)
 
 1. Klicken Sie **linken Bedienfeld**Ressourcenpools“.
 Informationen zum Erstellen von Ressourcenpools finden Sie unter [Ressourcenpools erstellen](../../resource-mgmt/resource-planning/resource-pools/create-resource-pools.md).
@@ -105,6 +105,6 @@ Wenn Sie den Ressourcenplaner für ein Projekt verwenden, stellen die Zuordnungs
    >
    >Sie können einen Ressourcenpool im Bereich Ressourcenbudgetierung des Business Case nur hinzufügen, wenn dem Projekt keine Ressourcenpools zugeordnet sind. Wenn das Projekt bereits über einen Ressourcenpool verfügt, werden die Benutzer im Pool und ihre Aufgabengebiete standardmäßig im Bereich Ressourcenbudgetierung angezeigt.
 
-   ![](assets/resource-budgeting-area-on-project-350x70.png)
+   ![Ressourcenbudgetierung](assets/resource-budgeting-area-on-project-350x70.png)
 
    Informationen zur Budgetierung von Ressourcen für ein Projekt finden Sie im Artikel [Budgetressourcen im Business Case](../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).

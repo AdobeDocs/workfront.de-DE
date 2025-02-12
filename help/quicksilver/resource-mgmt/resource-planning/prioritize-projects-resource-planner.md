@@ -6,9 +6,9 @@ description: Projekte werden im Ressourcenplaner nach Priorität geordnet aufgel
 author: Lisa
 feature: Resource Management
 exl-id: fe9c8cf9-f1e0-4cd5-9299-0f04893d71a5
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1300'
+source-wordcount: '1308'
 ht-degree: 1%
 
 ---
@@ -94,7 +94,7 @@ So bearbeiten Sie die Projektplanungspriorität:
 1. Navigieren Sie zum **Ressourcenplaner**.
 
 1. Klicken Sie in das Feld links neben dem Projektnamen, der eine Zahl enthält, und geben Sie eine Zahl ein, um die Planungspriorität zu ändern. Drücken Sie dann die Eingabetaste.\
-   ![](assets/mceclip4.png)\
+   ![Planungspriorität ändern](assets/mceclip4.png)\
    Oder\
    Bewegen Sie den Mauszeiger über den Projektnamen, klicken Sie auf die Anzeige links neben dem Projektnamen, ziehen Sie sie und legen Sie sie an der richtigen Stelle ab, um die Priorität zu ändern.
 
@@ -106,25 +106,25 @@ So bearbeiten Sie die Projektplanungspriorität:
 1. Klicken Sie auf **Speichern**.\
    Die Reihenfolge der Projekte ändert sich entsprechend Ihren Auswahlen. Dies wird zu Ihrer benutzerdefinierten Projektpriorität im Ressourcenplaner. Andere Benutzer können die Prioritätsreihenfolge für die Projekte im Ressourcenplaner nicht sehen, obwohl sie möglicherweise dieselben Projekte in ihren Ressourcenplanern anzeigen können.
 
-## Ordnen Sie Projekte entsprechend ihrer Portfolio-Priorität im Ressourcenplaner an
+## Bestellen von Projekten nach ihrer Portfolio-Priorität im Ressourcenplaner
 
 >[!IMPORTANT]
 >
->Ihr Unternehmen muss über einen Business- oder höheren Workfront-Plan verfügen, um Projekte im Portfolio Optimizer zu priorisieren.
+>Ihr Unternehmen muss über einen Business- oder höheren Workfront-Plan verfügen, um Projekte in Portfolio Optimizer zu priorisieren.
 >
 >Weitere Informationen zu den Workfront-Plänen finden Sie unter [Unsere Pläne](https://www.workfront.com/plans).
 >
->Informationen zum Priorisieren von Projekten im Portfolio Optimizer finden Sie unter [Priorisieren von Projekten im Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+>Informationen zum Priorisieren von Projekten in Portfolio Optimizer finden Sie unter [Priorisieren von Projekten in Portfolio Optimizer](../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
 1. Öffnen Sie **Ressourcenplaner** in der **Projektansicht**.
 1. Klicken Sie auf **Symbol** Einstellungen“.
-1. Aktivieren Sie **Einstellung &quot;Portfolio-** anzeigen“, um die Projektprioritäten entsprechend dem zugewiesenen Portfolio anzuzeigen. Die Priorität der Projekte entsprechend ihren Portfolios wird neben der Ressourcenplaner-Priorität angezeigt. Diese Einstellung ist standardmäßig deaktiviert.
+1. Aktivieren Sie **Einstellung &quot;Portfolio-** anzeigen“, um die Projektprioritäten entsprechend der Portfolio anzuzeigen, der sie zugewiesen sind. Die Priorität der Projekte entsprechend ihren Portfolios wird neben der Ressourcenplaner-Priorität angezeigt. Diese Einstellung ist standardmäßig deaktiviert.
 
    <!--
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: check screen shot to see if this is accurate still - should say Order, and not Sort:)</p>
    -->
 
-   ![](assets/rp-portfolio-priority-unordered-edit-350x180.png)
+   ![Portfolio-Priorität](assets/rp-portfolio-priority-unordered-edit-350x180.png)
 
    Die Portfolioprioritäten der Projekte werden nur in der Projektansicht des Ressourcenplaners angezeigt.
 
@@ -136,7 +136,7 @@ So bearbeiten Sie die Projektplanungspriorität:
    1. Geplantes Startdatum
    1. Projektname
 
-   ![](assets/rp-portfolio-priority-ordered-350x198.png)
+   ![Portfolio-Priorität sortiert](assets/rp-portfolio-priority-ordered-350x198.png)
 
 1. Klicken Sie auf **Speichern**.
 

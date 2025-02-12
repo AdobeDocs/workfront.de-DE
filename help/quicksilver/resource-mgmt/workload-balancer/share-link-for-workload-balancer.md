@@ -6,9 +6,9 @@ description: Sie können den Workload-Balancer für andere Benutzende freigeben,
 author: Lisa
 feature: Resource Management
 exl-id: e2d6b1f8-bdc9-4a34-bdc3-b56f7aa2e7a5
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '697'
 ht-degree: 1%
 
 ---
@@ -123,7 +123,7 @@ Sie benötigen den folgenden Zugriff, um Informationen im Workload Balancer übe
 
      Informationen zum Filtern von Informationen im Workload Balancer finden Sie unter [Filtern von Informationen im Workload Balancer](../../resource-mgmt/workload-balancer/filter-information-workload-balancer.md).
 
-1. Klicken Sie auf **Link-Symbol** ![](assets/wb-shearable-link-icon-small.png).
+1. Klicken Sie auf **Link-Symbol** ![Link-Symbol](assets/wb-shearable-link-icon-small.png).
 
    Dadurch wird der Link zur Zwischenablage hinzugefügt.
 

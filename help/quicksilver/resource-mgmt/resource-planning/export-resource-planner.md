@@ -6,9 +6,9 @@ description: Sie können Informationen aus jeder Ansicht des Ressourcenplaners i
 author: Lisa
 feature: Resource Management
 exl-id: 07acd28a-5dc0-45b4-bdf2-20abbd5e098c
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '626'
+source-wordcount: '628'
 ht-degree: 4%
 
 ---
@@ -74,7 +74,7 @@ Der **Planer** wird standardmäßig angezeigt.
 
    Das Dialogfeld Exportoptionen wird angezeigt.
 
-   ![](assets/rp-export-options-box-350x421.png)
+   ![Exportoptionen](assets/rp-export-options-box-350x421.png)
 
 1. Geben Sie die folgenden Informationen an:\
    **Startdatum**: Das Startdatum Ihres Exports. Die exportierte Datei enthält Informationen zu Zuordnung und Verfügbarkeit ab dem ersten Wochentag, der den hier angegebenen Tag enthält.\

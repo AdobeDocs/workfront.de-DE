@@ -7,9 +7,9 @@ description: Mithilfe des Adobe Workfront-Ressourcenplaners können Sie die Verf
 author: Lisa
 feature: Resource Management
 exl-id: 5a1be723-e3ac-443a-9c09-85e8839fcbef
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2621'
+source-wordcount: '2652'
 ht-degree: 1%
 
 ---
@@ -24,13 +24,13 @@ Mithilfe des Adobe Workfront-Ressourcenplaners können Sie die Verfügbarkeit Ih
 
 Sie müssen die Voraussetzungen erfüllen, um den Ressourcenplaner vollständig nutzen zu können. Weitere Informationen zum Ressourcenplaner finden Sie unter [Ressourcenplaner - Übersicht](../../resource-mgmt/resource-planning/get-started-resource-planner.md).
 
-![](assets/rp-project-view-all-functionality-350x117.png)
+![Ressourcenplaner](assets/rp-project-view-all-functionality-350x117.png)
 
 In den folgenden Abschnitten werden alle Bereiche des Ressourcenplaners beschrieben.
 
 ## Zeitlicher Ablauf der Projekte
 
-![](assets/timeline-calendar-resource-planner-nwe-350x25.png)
+![Timeline-Kalender](assets/timeline-calendar-resource-planner-nwe-350x25.png)
 
 
 
@@ -77,7 +77,7 @@ So navigieren Sie in der Zeitleiste:
 
 ## Projekt-/Rollen-/Benutzeransichtsauswahl
 
-![](assets/nwe-project-role-user-view-selection-resource-planner.png)
+![Nach Projekt, Rolle oder Benutzer anzeigen](assets/nwe-project-role-user-view-selection-resource-planner.png)
 
 Sie können die Ansicht im Ressourcenplaner ändern, je nachdem, wie die Informationen angezeigt werden sollen.
 
@@ -127,7 +127,7 @@ Beachten Sie bei der Auswahl der Projektansicht im Ressourcenplaner Folgendes:
    * Verfügbar
    * Geplant
    * Budgetiert
-   * Abweichung
+   * Variance
    * Net
 
      Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
@@ -150,7 +150,7 @@ Beachten Sie bei der Auswahl der Rollenansicht im Ressourcenplaner Folgendes:
    * Verfügbar
    * Geplant
    * Budgetiert
-   * Abweichung
+   * Variance
    * Net
 
      Weitere Informationen finden Sie unter [Budgetressourcen im Ressourcenplaner mithilfe der Projekt- und Rollenansichten](../../resource-mgmt/resource-planning/budget-resources-project-role-views-resource-planner.md).
@@ -194,7 +194,7 @@ Beachten Sie bei der Auswahl der Benutzeransicht im Ressourcenplaner Folgendes:
    * Wenn Sie berechtigt sind, die Projekte anzuzeigen, aber keine Aufgaben oder Probleme in den Projekten, wird der Projektname angezeigt und die Aufgaben und Probleme werden unter dem Abschnitt **Nicht zugängliche Elemente** aufgelistet.\
      Weitere Informationen zu Berechtigungen in Workfront finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-     ![](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
+     ![Nicht zugängliche Elemente](assets/inaccessible-items-in-rp-with---column-and-red-outline--1--350x187.png)
 
    
 
@@ -210,7 +210,7 @@ Beachten Sie bei der Auswahl der Benutzeransicht im Ressourcenplaner Folgendes:
 
 ## Projektname
 
-![](assets/project-name-highlighted-resource-planner-350x445.png)
+![Projektname](assets/project-name-highlighted-resource-planner-350x445.png)
 
 Im Ressourcenplaner werden die folgenden Projekte angezeigt:
 
@@ -232,13 +232,13 @@ Im Ressourcenplaner werden die folgenden Projekte angezeigt:
 
 Projekte werden im Ressourcenplaner nach Priorität geordnet aufgelistet, wobei das wichtigste Projekt ganz oben steht. Die Priorität wird durch eine Zahl vor dem Projektnamen angezeigt.
 
-![](assets/rp-planner-priority-highlighted-350x186.png)
+![Projektplanungspriorität](assets/rp-planner-priority-highlighted-350x186.png)
 
 Sie können eine Einstellung auch aktivieren, um die Projektprioritäten entsprechend ihren Portfolios anzuzeigen, wenn sie mit einem Portfolio verknüpft sind. Informationen zum Priorisieren von Projekten und Anzeigen von Portfolioprioritäten im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
 ## Name des Aufgabengebiets
 
-![](assets/role-highlighted-resource-planner-350x243.png)
+![Name des Aufgabengebiets](assets/role-highlighted-resource-planner-350x243.png)
 
 Die folgenden Kategorien von Aufgabengebieten sind im Ressourcenplaner aufgeführt:
 
@@ -254,7 +254,7 @@ Die folgenden Kategorien von Aufgabengebieten sind im Ressourcenplaner aufgefüh
 
 ## Benutzername
 
-![](assets/user-highlighted-resource-planner-350x272.png)
+![Benutzername](assets/user-highlighted-resource-planner-350x272.png)
 
 Die im Ressourcenplaner in der Projekt- und Rollenansicht aufgelisteten Benutzer gehören zu den Ressourcenpools, die mit den Projekten verknüpft sind.\
 Weitere Informationen zum Ausfüllen von Ressourcenpools mit Benutzern finden Sie unter [Zuordnen von Ressourcenpools zu Benutzern](../../resource-mgmt/resource-planning/resource-pools/associate-resource-pools-with-users.md).
@@ -310,11 +310,11 @@ So aktivieren Sie Einstellungen im Ressourcenplaner:
 1. Öffnen Sie den Ressourcenplaner.
 1. Klicken Sie auf **Symbol** Einstellungen“.
 
-   ![](assets/rp-settings-icon-edit-1.png)
+   ![Symbol für Ressourcenplaner-Einstellungen](assets/rp-settings-icon-edit-1.png)
 
    Das Feld Ressourcenplaner-Einstellungen wird angezeigt.
 
-   ![](assets/rp-settings-without-actual-hours-350x211.png)
+   ![Ressourcenplaner-Einstellungen](assets/rp-settings-without-actual-hours-350x211.png)
 
 1. Aktivieren Sie die Einstellung **Stunden aus Problemen einbeziehen**, um geplante Stunden aus Problemen im Ressourcenplaner anzuzeigen. Diese Einstellung ist standardmäßig deaktiviert.
 
@@ -327,7 +327,7 @@ So aktivieren Sie Einstellungen im Ressourcenplaner:
      >
      >**Wenn das geplante Start- und Abschlussdatum der Anfrage außerhalb der Zeitleiste des Projekts liegt, werden die geplanten Stunden für die Anfrage entsprechend den Datumsangaben der Anfrage angezeigt. Wenn beispielsweise die Projektzeitleiste zwischen Januar und März liegt, die Zeitleiste der Probleme jedoch im August, werden die geplanten Stunden für die Probleme im August angezeigt.**
 
-1. Portfolio (Bedingt und optional) Wenn Sie die Projektansicht ausgewählt haben, aktivieren Sie die Einstellung Projektprioritäten anzeigen , um die Projektprioritäten entsprechend dem Portfolio anzuzeigen, dem sie zugewiesen wurden. Die Priorität der Projekte entsprechend ihren Portfolios wird neben der Ressourcenplaner-Priorität angezeigt. Diese Einstellung ist standardmäßig deaktiviert.
+1. (Bedingt und optional) Wenn Sie die Projektansicht ausgewählt haben, aktivieren Sie die Einstellung Portfolio-Prioritäten anzeigen , um die Projektprioritäten entsprechend der Portfolio anzuzeigen, der sie zugewiesen wurden. Die Priorität der Projekte entsprechend ihren Portfolios wird neben der Ressourcenplaner-Priorität angezeigt. Diese Einstellung ist standardmäßig deaktiviert.
 
    Informationen zum Priorisieren von Projekten im Ressourcenplaner finden Sie unter [Priorisieren von Projekten im Ressourcenplaner](../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
@@ -348,7 +348,7 @@ So zeigen Sie den Ressourcenplaner im Vollbildmodus an:
 
 ## Exportoption
 
-![](assets/export-button-highlighted-resource-planner-350x92.png)
+![Export-Schaltfläche](assets/export-button-highlighted-resource-planner-350x92.png)
 
 Sie können Informationen aus jeder Ansicht des Ressourcenplaners in eine Excel-Datei (.xlsx) exportieren.\
 Informationen zum Exportieren von Informationen aus dem Ressourcenplaner finden Sie unter [Exportieren von Informationen aus dem Ressourcenplaner](../../resource-mgmt/resource-planning/export-resource-planner.md).

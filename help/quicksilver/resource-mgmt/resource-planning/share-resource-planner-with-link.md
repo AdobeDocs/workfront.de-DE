@@ -6,9 +6,9 @@ description: Adobe Workfront kann eine eindeutige URL für die Benutzeransicht d
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '655'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Adobe Workfront kann eine eindeutige URL für die Benutzeransicht des Ressourcenplaners generieren, die Sie als externe Seite in ein Dashboard einbetten oder separat in einer neuen Browser-Registerkarte öffnen können. Dies ist hilfreich, wenn Sie Informationen zum Ressourcenplaner für Benutzende freigeben, die möglicherweise nicht direkten Zugriff auf den Bereich Ressourcen haben.
 
-![](assets/rp-user-view-with-link-highlight-350x49.png)
+![Benutzeransicht mit Link](assets/rp-user-view-with-link-highlight-350x49.png)
 
 ## Zugriffsanforderungen
 

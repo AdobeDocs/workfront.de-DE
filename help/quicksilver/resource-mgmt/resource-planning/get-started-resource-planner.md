@@ -7,9 +7,9 @@ description: Mit dem Ressourcenplaner können Sie die Ressourcenzuweisung für d
 author: Lisa
 feature: Resource Management
 exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2075'
+source-wordcount: '2082'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Um den Ressourcenplaner erfolgreich für die Budgetierung Ihrer Ressourcen verwe
 >Wenn eine der folgenden Voraussetzungen fehlt, kann es sein, dass einige der Informationen über die Zuordnung oder die Verfügbarkeit der Ressourcen fehlen oder einen Nullwert aufweisen.\
 >Weitere Informationen dazu, warum Felder keine Daten enthalten oder keine Werte aufweisen, erhalten Sie, wenn Sie den Mauszeiger über die Felder bewegen.
 
-![](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
+![Keine Benutzer mit dieser Rolle](assets/no-users-with-this-role-in-the-res-pool-350x57.png)
 
 >[!NOTE]
 >
@@ -187,7 +187,7 @@ Stellen Sie sicher, dass die folgende Aufgaben- und Problemeinrichtung vorhanden
 
 Sie müssen verstehen, wie die Benutzerverfügbarkeit in Ihrer Workfront-Instanz gemäß den Ressourcenverwaltungseinstellungen in Ihrem System berechnet wird. Workfront kann die Benutzerverfügbarkeit anhand des Zeitplans des Benutzers auf der Seite „Benutzerprofil“ oder des Standardzeitplans Ihres Systems berechnen.
 
-![](assets/resource-management-preferences-section-in-setup-350x89.png)
+![Verwaltungseinstellungen](assets/resource-management-preferences-section-in-setup-350x89.png)
 
 Ihr Workfront-Administrator konfiguriert Ihre Voreinstellungen für die Ressourcenverwaltung.
 

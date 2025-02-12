@@ -6,9 +6,9 @@ description: Sie können Ressourcen im Adobe Workfront-Ressourcenplaner mithilfe
 author: Lisa
 feature: Resource Management
 exl-id: b1b48529-68e7-4aee-aaa1-d78e91fbb39c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '2121'
+source-wordcount: '2127'
 ht-degree: 0%
 
 ---
@@ -160,7 +160,7 @@ Informationen zum Zugriff, der für die Budgetierung von Ressourcen erforderlich
 
 So budgetieren Sie Zuteilungen im Ressourcenplaner in der ****:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
 1. Klicken Sie auf **Ressourcen**.
 1. Der **Planer** wird standardmäßig angezeigt.
@@ -225,7 +225,7 @@ Weitere Informationen zum Thema Ressourcenbudgetierung im Business Case finden S
 
 Bei Verwendung von Schnellverknüpfungen können Sie die Zuteilung von Budgets für Ihre Ressourcen stapelweise budgetieren. Die Schnelllinks sind nur für die Projekt- und Rollenansichten verfügbar.
 
-![](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
+![Optionen für die automatische Budgetierung](assets/rp-project-view-with-automatic-budgeting-options-on-project-350x173.png)
 
 >[!NOTE]
 >

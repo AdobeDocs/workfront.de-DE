@@ -7,9 +7,9 @@ author: Lisa
 feature: Resource Management
 role: User
 exl-id: 445cb250-53a4-488b-911d-3afca3a02c23
-source-git-commit: f7ad56375c20e26b0d45ae0966e2e156b5a200f1
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '733'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme, die Zuweisungen vornehmen</td> 
+   <td>Tragen Sie Berechtigungen oder höher zu den Projekten, Aufgaben und Problemen bei, die „Zuweisungen vornehmen“ enthalten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -77,9 +77,9 @@ Sie können Arbeitselemente, die noch keinem Benutzer zugewiesen wurden, oder El
 
    Wechseln Sie zum Bereich **Zugewiesene Arbeit** und erweitern Sie den Namen eines Benutzers, um die ihm zugewiesenen Arbeitselemente anzuzeigen, wenn Sie seine Elemente neu zuweisen möchten.
 
-1. Klicken Sie auf **Mehr** ![](assets/qs-more-menu.png) links neben einem Arbeitselementnamen und dann auf **Diese zuweisen**.
+1. Klicken Sie auf **Mehr** ![Mehr ](assets/qs-more-menu.png) links neben einem Arbeitselementnamen und dann auf **Diese zuweisen**.
 
-   ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+   ![Diese zuweisen zu](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    >[!TIP]
    >
@@ -101,7 +101,7 @@ Sie können Arbeitselemente, die noch keinem Benutzer zugewiesen wurden, oder El
    > Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-   ![](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
+   ![Erweiterte Zuweisungen](assets/assignments-box-with-advanced-assignments-delegations-wb.png)
 
    >[!TIP]
    >
@@ -130,7 +130,7 @@ Sie können Arbeitselemente, die noch keinem Benutzer zugewiesen wurden, oder El
 
      Weitere Informationen zu erweiterten Zuweisungen finden Sie unter [Erstellen erweiterter Zuweisungen](../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
-1. (Optional) Klicken Sie auf das **Zuordnungssymbol anzeigen** ![](assets/show-allocations-icon-small.png) und klicken Sie dann auf das **Weitere**![](assets/qs-more-menu.png) > **Zuordnungen bearbeiten**.
+1. (Optional) Klicken Sie auf das **Zuordnungssymbol anzeigen** ![Zuordnungssymbol anzeigen](assets/show-allocations-icon-small.png) und klicken Sie dann auf das **Mehr Menü** ![Mehr Menü](assets/qs-more-menu.png) > **Zuordnungen bearbeiten**.
 
    Oder
 

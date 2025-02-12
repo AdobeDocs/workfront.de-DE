@@ -6,9 +6,9 @@ description: Wenn Sie feststellen, dass es zu einer Überallokation Ihrer Ressou
 author: Lisa
 feature: Resource Management
 exl-id: bc49d45a-73a5-4b02-9054-9c9dbb54224d
-source-git-commit: 3c3175c347431b10aed1a6034df6c756056399b3
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Die Zeitleiste für die Projektzuordnung wird angezeigt.\
    Der Zeitrahmen, in dem die Stunden derzeit budgetiert sind, wird bei einem Budgetierungskonflikt orange und bei keinen Konflikten blau hervorgehoben.
 
-   ![](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
+   ![Budgetierungsdaten anpassen](assets/rp-adjust-budgeting-dates-with-no-done-button-350x63.png)
 
 1. Ziehen Sie den hervorgehobenen Zeitrahmen per Drag-and-Drop in eine andere Zeit, um zu verstehen, wo es keine Budgetkonflikte für das ausgewählte Projekt gibt. Wenn Sie einen Zeitrahmen finden, bei dem der Nettowert positiv ist, wird der hervorgehobene Zeitrahmen in Blau geändert.
 1. Klicken Sie auf das „x“ in der oberen rechten Ecke der Zeitleiste für die Projektzuordnung, um sie zu schließen.

@@ -6,9 +6,9 @@ description: Um Arbeitselemente effizient zu finden und sich auf die von Ihnen v
 author: Lisa
 feature: Resource Management
 exl-id: f8ffb40e-4e71-45fe-bcae-801d45d75a21
-source-git-commit: fcc4a105f0f49c34fea4bc11f4bf2c6f54cd7769
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2458'
+source-wordcount: '2526'
 ht-degree: 0%
 
 ---
@@ -160,11 +160,11 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
    Weitere Informationen zum Zugriff auf den Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicken Sie auf **Filter**-Symbol ![](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**.
+1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**.
 
    Das Feld Filter-Builder wird auf der rechten Seite angezeigt. Der Name des Bereichs, für den Sie den Filter erstellen, wird in der Kopfzeile des Felds angezeigt.
 
-   ![](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
+   ![Filterliste](assets/filters-list-wb-assigned-work-with-filters-listed-nwe-350x377.png)
 
 1. (Optional und bedingt) Wenn Sie auf den Workload-Balancer im Bereich „Ressourcen“ zugreifen, wird der vordefinierte Standardfilter möglicherweise bereits auf den Bereich Zugewiesene Arbeit angewendet. Sie können eine Kopie des Standardfilters bearbeiten und speichern.
 
@@ -189,7 +189,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
    1. (Bedingt) Wenn Sie auf **Felder durchsuchen** geklickt haben, geben Sie den Namen eines Felds in das Feld **Suchen** ein und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
-      ![](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
+      ![Nach einem Feld suchen](assets/new-filters-search-for-a-field-highlighted-wb-nwe-350x386.png)
 
       >[!TIP]
       >
@@ -204,15 +204,15 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
       >[!NOTE]
       >
-      > Wenn Sie Arbeitsobjekte aus einem bestimmten Portfolio anzeigen möchten, können Sie den folgenden Filter anwenden: &quot;Portfolio-ID ist gleich &lt; Name des Portfolios >&quot;.
+      > Wenn Sie Arbeitsobjekte aus einem bestimmten Portfolio anzeigen möchten, können Sie den Filter &quot;Portfolio-ID ist &lt; Name des Portfolios >&quot; anwenden.
       >
-      >![](assets/portfolio-name-filter-statement-wb-350x262.png)
+      >![Portfolio-Namensfilteranweisung](assets/portfolio-name-filter-statement-wb-350x262.png)
       >
       >Um Projekte mit dem Status „Zurückgestellt“ auszuschließen, müssen Sie den folgenden Filter anwenden: „Projekt: Status ist nicht gleich „Zurückgestellt“. Dadurch wird verhindert, dass Arbeitselemente aus zurückgestellten Projekten im Workload-Balancer angezeigt werden.
       >
-      >![](assets/project-status-filter-statement-wb.png)
+      >![Projektstatus-Filteranweisung](assets/project-status-filter-statement-wb.png)
 
-   1. (Optional) Klicken Sie auf das Symbol **Löschen**, ![](assets/delete.png) ein Filterkriterium zu entfernen.
+   1. (Optional) Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png), um ein Filterkriterium zu entfernen.
 
 1. (Optional) Klicken Sie auf **Filter hinzufügen**, um ein weiteres Filterkriterium hinzuzufügen, und wiederholen Sie dann die Aktionen in Schritt 4.
 
@@ -232,7 +232,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
 1. Klicken Sie **Als neu speichern**, um den Filter für die zukünftige Verwendung zu speichern.
 
-   ![](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
+   ![Filter Speichern unter](assets/new-filters-save-as-box-unassigned-area-wb-350x467.png)
 
    >[!TIP]
    >
@@ -241,7 +241,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 1. Klicken Sie in das **Nicht benannter Filter** und geben Sie den Namen des neuen Filters ein.
 1. (Optional) Wählen Sie im Dropdown-Menü **Symbol“ ein Symbol** den neuen Filter aus.
 
-   ![](assets/new-filters-select-icon-expanded-drop-down-wb.png)
+   ![Symbol auswählen](assets/new-filters-select-icon-expanded-drop-down-wb.png)
 
 1. (Optional) Fügen Sie eine Beschreibung für den Filter hinzu, um anzugeben, was eindeutig ist. Die Beschreibung wird unter dem Filternamen in der Liste der Filter angezeigt.
 1. Klicken Sie auf **Speichern**.
@@ -250,9 +250,9 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der vordefiniert
 
    Informationen zum Anwenden gespeicherter Filter finden Sie im Abschnitt [Löschen eines gespeicherten Filters im Workload Balancer](#delete-a-saved-filter-in-the-workload-balancer) in diesem Artikel.
 
-1. (Bedingt) Bewegen Sie den Mauszeiger über **Filtersymbol** ![](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**, um eine QuickInfo mit dem Namen oder der Anzahl der aktuell angewendeten Filter anzuzeigen.
+1. (Bedingt) Bewegen Sie den Mauszeiger über **Filtersymbol** ![Filtersymbol](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**, um eine QuickInfo mit dem Namen oder der Anzahl der aktuell angewendeten Filter anzuzeigen.
 
-   ![](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
+   ![Filtersymbol mit dem Namen des Filters](assets/filter-icon-with-number-and-tooltip-with-name-of-filter-wb-nwe-350x98.png)
 
 ## Duplizieren von Filtern
 
@@ -262,13 +262,13 @@ Sie können einen Filter duplizieren und bearbeiten, um einen neuen zu erstellen
 
    Weitere Informationen zum Zugriff auf den Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicken Sie auf **Filter**-Symbol ![](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**.
+1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**.
 
    Das Feld Filter-Builder wird auf der rechten Seite angezeigt. Der Name des Bereichs, für den Sie den Filter erstellen, wird in der Kopfzeile des Felds angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen vorhandenen Filter, klicken Sie auf die ![](assets/more-menu.png) **Mehr** und klicken Sie dann auf **Duplizieren**.
+1. Bewegen Sie den Mauszeiger über einen vorhandenen Filter und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Duplizieren**.
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Weitere Menüoptionen filtern](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -301,18 +301,18 @@ Gespeicherte Filter können im Workload Balancer bearbeitet werden.
 
    Weitere Informationen zum Zugriff auf den Workload Balancer finden Sie unter [Navigieren im Workload Balancer](../../resource-mgmt/workload-balancer/navigate-the-workload-balancer.md).
 
-1. Klicken Sie auf **Filtersymbol** ![](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesen** oder **Zugewiesene Arbeit**.\
+1. Klicken Sie auf **Filtersymbol** ![Filtersymbol](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesen** oder **Zugewiesene Arbeit**.\
    Der Filter-Builder wird auf der rechten Seite angezeigt.
 
-1. Bewegen Sie den Mauszeiger über den Filter, den Sie bearbeiten möchten, und klicken Sie dann auf die ![](assets/wb-edit-filter-icon.png) **Bearbeiten**.
+1. Bewegen Sie den Mauszeiger über den Filter, den Sie bearbeiten möchten, und klicken Sie dann auf **Bearbeiten** ![Filtersymbol bearbeiten](assets/wb-edit-filter-icon.png).
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Menü Mehr filtern](assets/filter-more-menu-options-wb.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Beliebige Filteranweisungen ändern
    * Klicken Sie **Filter hinzufügen**, um neue Filteranweisungen hinzuzufügen
-   * Klicken Sie auf das **Löschen**-Symbol ![](assets/delete.png), um vorhandene Filteranweisungen zu entfernen.
+   * Klicken Sie auf das **Löschen**-Symbol ![Löschen-Symbol](assets/delete.png), um vorhandene Filteranweisungen zu entfernen.
 
 1. (Optional) Klicken Sie auf **Anwenden**.
 
@@ -337,11 +337,11 @@ Beachten Sie Folgendes, bevor Sie einen Filter löschen:
 >Wenn Sie einen Filter löschen, der für andere freigegeben wurde, wird er auch für diese Benutzer gelöscht.
 
 1. Zum Workload Balancer wechseln
-1. Klicken Sie auf **Filtersymbol** ![](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**.\
+1. Klicken Sie auf **Filtersymbol** ![Filtersymbol](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**.\
    Das Feld Filter-Builder wird auf der rechten Seite angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen Filter, klicken Sie dann auf die ![](assets/more-menu.png) **Mehr** und klicken Sie dann auf **Löschen**.
-   ![](assets/filter-more-menu-options-wb.png)
+1. Bewegen Sie den Mauszeiger über einen Filter und klicken Sie dann auf das **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf **Löschen**.
+   ![Menü Mehr filtern](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -365,12 +365,12 @@ Beachten Sie beim Freigeben von Filtern im Workload Balancer Folgendes:
 So geben Sie einen Filter frei:
 
 1. Zum Workload Balancer wechseln
-1. Klicken Sie auf **Filtersymbol** ![](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**.\
+1. Klicken Sie auf **Filtersymbol** ![Filtersymbol](assets/filter-icon.png) in der oberen rechten Ecke der Bereiche **Nicht zugewiesene Arbeit** oder **Zugewiesene Arbeit**.\
    Das Feld Filter-Builder wird auf der rechten Seite angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen Filter, klicken Sie dann auf die ![](assets/more-menu.png) **Mehr** und klicken Sie dann auf **Freigeben.**
+1. Bewegen Sie den Mauszeiger über einen Filter und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und anschließend auf **Freigeben.**
 
-   ![](assets/filter-more-menu-options-wb.png)
+   ![Menü Mehr filtern](assets/filter-more-menu-options-wb.png)
 
    >[!TIP]
    >
@@ -388,7 +388,7 @@ So geben Sie einen Filter frei:
 
 1. (Optional) Klicken Sie auf den nach rechts zeigenden Pfeil neben dem Namen einer Entität, um deren Berechtigungen für den Filter zu bearbeiten, und aktivieren Sie dann entweder die Option **Anzeigen** oder **Verwalten**.
 
-   ![](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
+   ![Filterberechtigungen](assets/new-filters-granular-permissions-for-manage-wb-350x107.png)
 
 1. (Optional) Aktivieren oder deaktivieren Sie die zusätzlichen Berechtigungen für eine Entität, indem Sie einen der folgenden Schritte ausführen:
 
@@ -404,7 +404,7 @@ So geben Sie einen Filter frei:
 
    Die von Ihnen freigegebenen Filter werden im Bereich **Für mich freigegeben** des Filterfelds angezeigt.
 
-   ![](assets/new-filters-shared-with-me-area-wb-350x236.png)
+   ![Für mich freigegeben](assets/new-filters-shared-with-me-area-wb-350x236.png)
 
 <!--   
 
@@ -415,8 +415,8 @@ You can mark a filter as a favorite for quicker access to it.
 The filters that you mark as a favorite do not count towards your system Favorites list. There is no limit for how many filters you can favorite. 
 
 1. Go to the Workload Balancer
-1. Click the **Filter** icon ![](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
-1. Mouse over a filter, then click the **Favorite** ![](assets/favorites-icon-small.png). 
+1. Click the **Filter** icon ![Filter icon](assets/filter-icon.png) in the upper-right corner of the **Unassigned Work** or **Assigned Work** areas. The filter builder box displays on the right. 
+1. Mouse over a filter, then click the **Favorite** ![Favorites icon](assets/favorites-icon-small.png). 
 (NOTE: insert screen shot here with Favorite as part of this menu - same as above ones but with Favorite)
 1. The filter is listed in the **Favorited** section inside the filter panel. 
 1. (Optional) Click the **Favorite** icon again to remove the filter from the list of favorite filters

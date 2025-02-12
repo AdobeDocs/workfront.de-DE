@@ -6,9 +6,9 @@ description: Sie können die Zuweisung von Benutzenden zu Arbeitselementen im Be
 author: Lisa
 feature: Resource Management
 exl-id: e4293d4a-afb8-48ef-8a8e-6fad2ef82a25
-source-git-commit: 196d0aa4ed67cf564c823625515ef49d811e0e06
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '400'
+source-wordcount: '405'
 ht-degree: 2%
 
 ---
@@ -56,7 +56,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Contribute-Berechtigungen oder höher für die Projekte, Aufgaben und Probleme, die Zuweisungen vornehmen</td> 
+   <td>Tragen Sie Berechtigungen oder höher zu den Projekten, Aufgaben und Problemen bei, die „Zuweisungen vornehmen“ enthalten</td> 
   </tr> 
  </tbody> 
 </table>
@@ -75,9 +75,9 @@ So heben Sie die Zuweisung von Arbeitselementen zu Benutzenden auf:
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Suchen Sie das Element, dessen Zuweisung Sie aufheben möchten, im Bereich „Nicht zugewiesen“ eines Benutzers, klicken Sie darauf und ziehen Sie es per Drag-and-Drop in den Bereich „Nicht zugewiesen“ oder in den Bereich eines anderen Benutzers.
-   * Klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon-task-list.png) rechts neben dem Namen eines Arbeitselements, klicken Sie auf **Dies zuweisen zu**, entfernen Sie dann den Namen der dem Arbeitselement zugewiesenen Entitäten, oder geben Sie einen anderen Namen ein, und klicken Sie auf **Speichern**.
+   * Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon-task-list.png) rechts neben dem Namen eines Arbeitselements, klicken Sie auf **Dies zuweisen zu**, entfernen Sie dann den Namen der dem Arbeitselement zugewiesenen Entitäten, oder geben Sie einen anderen Namen ein, und klicken Sie auf **Speichern**.
 
-     ![](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
+     ![Diese zuweisen zu](assets/assign-this-to-link-from-task-wb-nwe-350x104.png)
 
    Das Element wird im Bereich Nicht zugewiesene Arbeit angezeigt, wenn es den Filterkriterien für diesen Bereich entspricht und keinem anderen Benutzer zugewiesen ist, oder es wird im Benutzerbereich angezeigt, wenn es einem anderen Benutzer zugewiesen ist.
 

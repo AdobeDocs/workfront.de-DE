@@ -6,9 +6,9 @@ description: Als Ressourcen-Manager können Sie Benutzern Arbeit zuweisen und ih
 author: Lisa
 feature: Resource Management
 exl-id: 9649e482-af24-4516-9a69-ef12b2f1d579
-source-git-commit: db0aab0e6e7e896a8e7c0afe2da709de7c3c2a4e
+source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
 workflow-type: tm+mt
-source-wordcount: '2898'
+source-wordcount: '2909'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute-Berechtigungen oder höher, die Zuweisungen an die Aufgaben und Probleme enthalten, für die Sie Zuweisungen verwalten möchten. </p> <p>Oder </p> <p>Verwalten Sie zusätzlich zur Aktualisierung der Zuweisungen Berechtigungen für die Aufgaben, für die Sie die geplanten Stunden aktualisieren möchten. Informationen zum Aktualisieren der geplanten Stunden im Workload Balancer finden Sie im Abschnitt <a href="#update-task-planned-hours-when-managing-user-allocations">Aktualisieren der geplanten Stunden bei der Verwaltung </a> Benutzerzuweisungen) in diesem Artikel.</p> </td> 
+   <td> <p>Tragen Sie Berechtigungen oder höher bei, die Zuweisungen an die Aufgaben und Probleme enthalten, für die Sie Zuweisungen verwalten möchten. </p> <p>Oder </p> <p>Verwalten Sie zusätzlich zur Aktualisierung der Zuweisungen Berechtigungen für die Aufgaben, für die Sie die geplanten Stunden aktualisieren möchten. Informationen zum Aktualisieren der geplanten Stunden im Workload Balancer finden Sie im Abschnitt <a href="#update-task-planned-hours-when-managing-user-allocations">Aktualisieren der geplanten Stunden bei der Verwaltung </a> Benutzerzuweisungen) in diesem Artikel.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -191,11 +191,11 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
    >
    >Benutzerzuweisungen können nur für Aufgaben und Probleme geändert werden. Benutzerzuweisungen für Projekte können nicht geändert werden.
 
-1. (Optional) Klicken Sie auf das Symbol **Zuordnungen anzeigen**, ![](assets/show-allocations-icon-small.png) Zuordnungen für alle Arbeitselemente anzuzeigen.
+1. (Optional) Klicken Sie auf das **Zuordnungen anzeigen**-Symbol ![Zuordnungen anzeigen](assets/show-allocations-icon-small.png), um Zuordnungen für alle Arbeitselemente anzuzeigen.
 
    Der Name der Aufgaben und der Projekte wird durch die Zuordnung des Benutzers für die Aufgabe oder das Projekt ersetzt.
 
-1. (Optional) Klicken Sie auf **Symbol** Einstellungen![](assets/gear-icon-settings.png) und wählen Sie eine der folgenden Optionen aus:
+1. (Optional) Klicken Sie auf **Einstellungen**-Symbol ![Einstellungen-](assets/gear-icon-settings.png)) und wählen Sie eine der folgenden Optionen aus:
 
    1. **Stunden aus Problemen einbeziehen**. Auf diese Weise können Sie zusätzlich zur Aufgabenzuweisung auch Problemzuweisungen verwalten.
    1. **Abgeschlossene Arbeiten anzeigen**. Hier werden Elemente angezeigt, die abgeschlossen wurden und während der Zeitleiste geplant sind, für die Sie Zuweisungen verwalten.
@@ -212,7 +212,7 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
       >
       >Der Workfront-Administrator entscheidet, welcher Zeitplan für die Berechnung der Benutzerkapazität im gesamten System im Bereich Ressourcenverwaltung unter „Setup“ verwendet werden soll. Weitere Informationen finden Sie unter [Voreinstellungen für die Ressourcenverwaltung konfigurieren](../../administration-and-setup/set-up-workfront/configure-system-defaults/configure-resource-mgmt-preferences.md).
 
-1. Klicken Sie auf **Mehr**-![](assets/qs-more-menu.png) für ein Arbeitselement und dann auf **Zuweisungen bearbeiten**.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-menu.png) für ein Arbeitselement und dann auf **Zuweisungen bearbeiten**.
 
    ![Mehr Menü für Arbeitselement](assets/more-menu-on-task-wb-nwe.png)
 
@@ -222,11 +222,11 @@ Im Rahmen der Zuweisung von Arbeit zu Benutzenden können Sie Benutzerzuweisunge
 
    Die Zuordnungsfelder können nun bearbeitet werden.
 
-1. Klicken Sie in das Feld jeder täglichen, wöchentlichen oder monatlichen Zuordnung, um die Anzahl der Stunden oder den Prozentwert, für die der Benutzer pro Tag, Woche oder Monat zugewiesen werden soll, manuell zu aktualisieren, und klicken Sie dann auf das Symbol **Speichern** ![](assets/checkmark-icon.png).
+1. Klicken Sie in das Feld jeder täglichen, wöchentlichen oder monatlichen Zuordnung, um die Anzahl der Stunden oder den Prozentwert, für die der Benutzer pro Tag, Woche oder Monat zugewiesen werden soll, manuell zu aktualisieren, und klicken Sie dann auf das **Speichern**-Symbol ![Speichern](assets/checkmark-icon.png).
 
    >[!TIP]
    >
-   >Klicken Sie auf das **Abbrechen**-Symbol ![](assets/cancel-allocations-wb.png), um die angepassten Zuordnungen zu entfernen.
+   >Klicken Sie auf das **Abbrechen**-Symbol ![Abbrechen](assets/cancel-allocations-wb.png), um die angepassten Zuordnungen zu entfernen.
 
    ![Speichern oder Abbrechen angepasster Zuweisungen](assets/wb-contouring-with-check-and-x-boxes-350x63.png)
 

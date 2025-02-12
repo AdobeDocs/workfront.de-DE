@@ -6,9 +6,9 @@ description: Sie können die Verfügbarkeit Ihrer Ressourcen und den Umfang der 
 author: Lisa
 feature: Resource Management
 exl-id: 5b3e52a6-af9b-4e68-8d6e-43a5151a2a2c
-source-git-commit: a5317e3126939d4c648977635af2dbc6add02780
+source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1243'
 ht-degree: 4%
 
 ---
@@ -148,7 +148,7 @@ Beachten Sie beim Ändern Ihrer Ansicht in den Ressourcenplaner Folgendes:
 
 1. (Bedingt) Wenn Sie **Anpassen** ausgewählt haben, geben Sie Optionen im Feld **Angezeigte Metriken anpassen** an, um Ihre benutzerdefinierte Ansicht einzurichten.
 
-   ![](assets/planner-customize-view-box-350x114.png)
+   ![Ansichtsfeld anpassen](assets/planner-customize-view-box-350x114.png)
 
 1. Wählen **in der Spalte** Ansichtstyp“ links eine der folgenden Ansichten aus:
 
@@ -163,7 +163,7 @@ Beachten Sie beim Ändern Ihrer Ansicht in den Ressourcenplaner Folgendes:
    | Verfügbar | ✔ | ✔ | ✔ |
    | Geplant | ✔ | ✔ | ✔ |
    | Budgetiert |   | ✔ | ✔ |
-   | Abweichung |   | ✔ | ✔ |
+   | Variance |   | ✔ | ✔ |
    | Net |   | ✔ | ✔ |
    | Tatsächlich | ✔ |   |   |
    | Differenz | ✔ |   |   |
@@ -189,7 +189,7 @@ Beachten Sie beim Ändern Ihrer Ansicht in den Ressourcenplaner Folgendes:
    >
    >Sie können nur eine benutzerdefinierte Ansicht haben.
 
-   ![](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
+   ![Dropdown-Liste „Planerstunden“](assets/planner-hours-drop-down-with-custom-and-customize-option-183x281.png)
 
 ## Anzeigen des Diagramms für die Benutzerzuordnung
 
