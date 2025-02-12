@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '6492'
+source-wordcount: '6493'
 ht-degree: 5%
 
 ---
@@ -23,7 +23,7 @@ Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer in Adobe 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -82,7 +82,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * [Hinzufügen von Optionsfeldern, Kontrollkästchen-Gruppen und Dropdown-Listen](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Felder für automatische Textvervollständigung und Datum hinzufügen](#add-typeahead-and-date-fields)
    * [Hinzufügen externer Suchfelder](#add-external-lookup-fields)
-   * [Bilder, PDF und Videos hinzufügen](#add-images-pdfs-and-videos)
+   * [Bilder, PDFs und Videos hinzufügen](#add-images-pdfs-and-videos)
    * [Native Workfront-Felder hinzufügen](#add-workfront-native-fields)
    * [Adobe XD-Dateien hinzufügen](#add-adobe-xd-files)
    * [Planning-Verbindungsfelder hinzufügen](#add-planning-connection-fields)
@@ -513,7 +513,7 @@ So fügen Sie Felder für automatische Textvervollständigung und Datum hinzu:
       <td role="rowheader">Referenzierter Objekttyp</td> 
       <td> <p>Wählen Sie den Objekttyp aus, den Sie mit dem Feld verknüpfen möchten.</p> <p>Nachdem Sie auf Anwenden oder Speichern+Schließen geklickt haben, können Sie den Objekttyp für das Feld nicht mehr ändern.</p> <p><b>HINWEIS</b>:   
         <ul> 
-         <li>Wenn der Workfront-Administrator bzw. die Administratorin den Namen für Portfolios, Programme oder Projekte in der Workfront-Benutzeroberfläche angepasst hat, wird in dieser Dropdown-Liste der standardmäßige Workfront-Name für das Objekt und nicht der benutzerdefinierte Name angezeigt. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie Hilfe benötigen.<br></li> 
+         <li>Wenn Ihr Workfront-Administrator den Namen für Portfolios, Programme oder Projekte in der Workfront-Benutzeroberfläche angepasst hat, wird in dieser Dropdown-Liste der standardmäßige Workfront-Name für das Objekt angezeigt, nicht der benutzerdefinierte Name. Wenden Sie sich an Ihren Workfront-Administrator, wenn Sie Hilfe benötigen.<br></li> 
          <li>Die folgenden Objekttypen werden in iOS und Android Workfront Mobile Apps unterstützt: Benutzer, Unternehmen, Gruppe, Aufgabengebiet, Portfolio, Programm, Projekt und Vorlage.</li> 
         </ul> </p> </td> 
          <td><ul>
@@ -668,9 +668,9 @@ So fügen Sie eine externe Suche hinzu:
 >* Wartezeit zwischen weiteren Zustellversuchen: 500 ms
 >* Erwartete Antwortstatus: 2xx
 
-### Bilder, PDF und Videos hinzufügen
+### Bilder, PDFs und Videos hinzufügen
 
-Sie können einem benutzerdefinierten Formular Bilder, PDF und Videos hinzufügen. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können das Bild, die PDF oder das Video nur in den folgenden Bereichen sehen:
+Sie können Bilder, PDFs und Videos zu einem benutzerdefinierten Formular hinzufügen. Benutzer, die mit dem Objekt arbeiten, an das das benutzerdefinierte Formular angehängt ist, können das Bild, die PDF oder das Video nur in den folgenden Bereichen sehen:
 
 * Der Bereich Details des Objekts (z. B. für ein Projekt der Bereich Projektdetails)
 * Das Bearbeitungsfeld für das Objekt, wenn es das neue Erscheinungsbild von Adobe Workfront aufweist (z. B. die Felder Projekt bearbeiten und Aufgabe bearbeiten )
@@ -685,12 +685,12 @@ The Workfront Mobile app -->
 +++ **Erweitern , um Beschreibungen der verfügbaren Felder anzuzeigen**
 
 * **Image**: Ermöglicht Benutzern das Hinzufügen von Bilddateien.
-* **PDF**: Ermöglicht Benutzenden das Hinzufügen von PDFs
+* **PDF**: Ermöglicht Benutzern das Hinzufügen von PDFs
 * **Videos**: Ermöglicht Benutzern das Hinzufügen von Videodateien.
 
 +++
 
-So fügen Sie Bilder, PDF oder Videos hinzu:
+So fügen Sie Bilder, PDFs oder Videos hinzu:
 
 1. Suchen Sie auf der linken Seite des Bildschirms eines der folgenden Felder und ziehen Sie es in einen Bereich auf der Arbeitsfläche.
 
@@ -987,7 +987,7 @@ So fügen Sie ein Feld für eine Planungsverbindung hinzu:
       Sie können aus den folgenden Objekttypen auswählen:
       <ul><li> Projekt</li>
       <li> Portfolio</li><li> Programm</li><li> Firma</li><li> Gruppe</li></ul>
-       <p>Es sind nur Workfront-Objekttypen für die Objekttypen des Formulars verfügbar.</p> <p> Wenn beispielsweise in der Liste „Objekttypen“ oben im Formular-Designer „Projekt“ angezeigt wird, können Sie in diesem Feld nur „Projekt“ auswählen und keine Portfolios auswählen. Es ist aber auch möglich, Portfolios mit Datensatztypen zu verbinden.</p>
+       <p>Es sind nur Workfront-Objekttypen für die Objekttypen des Formulars verfügbar.</p> <p> Wenn beispielsweise in der Liste „Objekttypen“ oben im Formular-Designer „Projekt“ angezeigt wird, können Sie in diesem Feld nur „Projekt“ auswählen und keine Portfolios auswählen. Portfolios können aber auch mit Datensatztypen verbunden werden.</p>
       </td>
      </tr>
      <tr> 

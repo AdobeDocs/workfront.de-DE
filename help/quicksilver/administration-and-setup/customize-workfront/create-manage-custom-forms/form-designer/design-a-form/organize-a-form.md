@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 08de894a-82f0-4440-a350-680d6648f01e
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1329'
+source-wordcount: '1330'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer organisie
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -139,9 +139,9 @@ In einem benutzerdefinierten Formular mit einem Abschnittsumbruch, der mit der B
 >
 >**Beispiel** In einem benutzerdefinierten Formular, das mit dem Projektobjekttyp verknüpft ist, wird ein Abschnittsumbruch mit der Berechtigung „Eingeschränkte Bearbeitung“ konfiguriert.
 >
->Sie fügen dem Formular den Objekttyp Portfolio hinzu, was bedeutet, dass die Option Eingeschränkte Bearbeitungsberechtigung für den Abschnittsumbruch im Formular nicht mehr verfügbar ist.
+>Sie fügen dem Formular den Portfolio-Objekttyp hinzu, was bedeutet, dass die Option zur eingeschränkten Bearbeitung für den Abschnittsumbruch im Formular nicht mehr verfügbar ist.
 >
->Eine Meldung auf dem Bildschirm fordert Sie auf, zur Bearbeitungsberechtigung zu wechseln, die die niedrigste Berechtigungsstufe ist, die sowohl mit dem Projektobjekttyp als auch mit dem Portfolio-Objekttyp kompatibel ist.
+>Eine Meldung auf dem Bildschirm fordert Sie auf, zur Bearbeitungsberechtigung zu wechseln. Dies ist die niedrigste Berechtigungsstufe, die sowohl mit dem Projektobjekttyp als auch mit dem Portfolio-Objekttyp kompatibel ist.
 
 
 ## Positionieren von benutzerdefinierten Feldern und Widgets in einem benutzerdefinierten Formular

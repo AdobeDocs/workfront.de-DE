@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '3275'
+source-wordcount: '3276'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Informationen dazu, wie Benutzer ihre eigenen Profile aktualisieren, finden Sie 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -110,7 +110,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <li> <p><b>Zeitzone</b>: Die Zeitzone des Benutzers.</p> <p>Informationen zur Unterstützung von Benutzern bei der Zusammenarbeit in Workfront über Zeitzonen hinweg finden Sie <a href="../../../workfront-basics/tips-tricks-and-troubleshooting/working-across-timezones.md" class="MCXref xref">Arbeiten über Zeitzonen hinweg</a>.</p> </li>
 
    <li><p><b>E-Mail</b>Gebietsschema: Das bevorzugte E-Mail-Gebietsschema des Benutzers. Dies wirkt sich auf das Format der Zahlen und Daten in den E-Mails aus, die von Workfront an diesen Benutzer gesendet werden.</p>
-      <p><b>HINWEIS:</b> Wenn Ihr Unternehmen das einheitliche Adobe-Erlebnis verwendet, werden die Spracheinstellungen des Benutzers in seinem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Weitere Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>.</p></li>
+      <p><b>HINWEIS</b> Wenn Ihr Unternehmen Adobe Unified Experience nutzt, werden die Spracheinstellungen des Benutzers in seinem Adobe-Profil gespeichert und das E-Mail-Gebietsschema wird nicht verwendet. Informationen zum Zugriff auf diese Voreinstellungen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Einheitliches Adobe-Erlebnis für Workfront</a>.</p></li>
 
    <li><b>E-Mails von dieser Testumgebung empfangen</b>: Aktivieren Sie diese Option, wenn Sie E-Mail-Benachrichtigungen von der Umgebung erhalten möchten, in der Sie derzeit angemeldet sind.
       <p><b>NOTIZ</b></p>

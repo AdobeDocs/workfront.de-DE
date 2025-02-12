@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b37c34a-d628-4d9b-9688-e4b9f89c666b
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '577'
 ht-degree: 1%
 
 ---
@@ -23,7 +23,7 @@ Sie können sehen, wie oft sich Benutzende bei Adobe Workfront angemeldet haben 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -69,7 +69,7 @@ Die Anmeldung bei Workfront auf eine der folgenden Arten zählt als Anmeldung be
 
   >[!NOTE]
   >
-  >Die Anmeldung bei Workfront über die Workfront-API ist nur für Organisationen verfügbar, die noch nicht in die Adobe-Geschäftsplattform integriert wurden.
+  >Die Anmeldung bei Workfront über die Workfront-API ist nur für Organisationen verfügbar, die noch nicht in die Adobe Business-Plattform integriert wurden.
 
 ## Anzeigen von Nutzungsinformationen in einer Benutzerliste oder einem Bericht
 

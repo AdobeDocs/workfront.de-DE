@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: e95dbc32-915b-4ea7-a5ad-e1da99edfbe3
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '1130'
+source-wordcount: '1131'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ ht-degree: 1%
 >
 >Gruppenadministratoren in Organisationen, die in die Adobe Admin Console integriert wurden, können mit diesem Verfahren Benutzende erstellen und diese zur Genehmigung durch den Administrator einreichen.
 >
->Eine Liste der Verfahren, die sich je nachdem unterscheiden, ob Ihr Unternehmen Adobe Admin Console verwendet hat, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen in die Adobe Admin Console integriert wurde, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Sie können Benutzende in Adobe Workfront hinzufügen, indem Sie einzelne Benutzende von Grund auf neu erstellen oder bestehende Benutzende kopieren.
 
@@ -42,7 +42,7 @@ As an Adobe administrator, you can add users in Adobe Workfront by adding them t
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -120,9 +120,9 @@ Bevor Sie einen Benutzer hinzufügen, sammeln Sie die unten aufgeführten Inform
    >
    >* Wenn Ihr Workfront-Administrator eine SSO-Integration mit Workfront aktiviert hat, wird das Feld Nur &lt;SSO-Konfiguration>-Authentifizierung zulassen ausgeblendet, wenn Sie die E-Mail-Einladung deaktivieren. Das Feld Federation-ID oder &lt;SSO Configuration> Benutzername bleibt sichtbar.
    >
-   * Wenn Ihr Unternehmen in die Admin Console integriert wurde und Sie einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
+   * Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
    >
-   Bestehende Adobe-Benutzer erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
+   Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
 
 1. Klicken Sie **Diese Person hinzufügen**.
 
@@ -168,6 +168,6 @@ Wenn Sie die Option zum Senden einer Einladung an den Benutzer ausgewählt haben
 
 >[!NOTE]
 >
-Wenn Ihr Unternehmen in die Admin Console integriert wurde und Sie einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
+Wenn Ihre Organisation in die Admin Console integriert wurde und Sie eine Benutzerin bzw. einen Benutzer über Workfront hinzufügen, haben Sie keine Möglichkeit, eine E-Mail-Einladung zu senden.
 >
-Bestehende Adobe-Benutzer erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.
+Bestehende Adobe-Benutzende erhalten möglicherweise eine E-Mail, in der sie darauf hingewiesen werden, dass Workfront verfügbar ist. Dies ist eine Voreinstellung, die vom Adobe-Administrator für das Produkt gesteuert wird.

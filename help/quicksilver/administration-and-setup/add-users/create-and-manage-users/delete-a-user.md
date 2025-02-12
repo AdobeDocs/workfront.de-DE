@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: da57dea3-082b-4a86-ae13-5bf55401122e
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
 workflow-type: tm+mt
-source-wordcount: '871'
+source-wordcount: '872'
 ht-degree: 1%
 
 ---
@@ -19,9 +19,9 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht auf der Adobe Business Platform integriert haben. Wenn Sie das Onboarding für die Adobe-Geschäftsplattform abgeschlossen haben, müssen Sie Benutzende in der Adobe Admin Console löschen.
+>Das auf dieser Seite beschriebene Verfahren gilt nur für Organisationen, die noch nicht in die Adobe Business Platform integriert haben. Wenn Sie in die Adobe Business-Plattform integriert wurden, müssen Sie Benutzende in der Adobe Admin Console löschen.
 >
->Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen die Adobe-Geschäftsplattform eingeführt hat, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
+>Eine Liste der Verfahren, die sich je nachdem, ob Ihr Unternehmen die Adobe Business Platform verwendet, unterscheiden, finden Sie unter [Plattformbasierte Administrationsunterschiede (Adobe Workfront/Adobe Business Platform)](../../../administration-and-setup/get-started-wf-administration/actions-in-admin-console.md).
 
 Wenn ein(e) Benutzende(r) Ihre Organisation verlässt, können Sie diesen/diese Benutzende aus Adobe Workfront entfernen.
 
@@ -43,7 +43,7 @@ Wenn ein(e) Benutzende(r) Ihre Organisation verlässt, können Sie diesen/diese 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
