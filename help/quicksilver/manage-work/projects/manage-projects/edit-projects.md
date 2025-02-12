@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 0a7bb953e7e02e24857bfb7ff671538e184bda17
 workflow-type: tm+mt
-source-wordcount: '7528'
+source-wordcount: '7694'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,9 @@ ht-degree: 1%
 
 <!--Audited: 07/2024-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available for all customers in the Preview environment and for a select group of customers in the Production environment.</span>-->
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 <!--
 <p>***Linked to many articles,</p>
@@ -98,7 +100,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
 
 1. (Optional) Klicken Sie **Projekte, an** ich beteiligt bin **oder Projekte,** ich besitze) in der oberen rechten Ecke, um Projekte anzuzeigen, bei denen Sie der Eigentümer sind, oder Projekte, bei denen Sie Teil des Projektteams sind.
 
-   ![](assets/projects-on-my-own-buttons-350x302.png)
+   ![Projekte auf meinen eigenen Schaltflächen](assets/projects-on-my-own-buttons-350x302.png)
 
    >[!NOTE]
    >
@@ -108,7 +110,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
 
 1. (Optional) Um eingeschränkte Informationen zu einem Projekt zu bearbeiten, klicken Sie **linken Bereich auf** Projektdetails“. Wenn Sie alle Projektinformationen bearbeiten möchten, fahren Sie mit Schritt 5 fort. <!--accurate?!-->
 
-   ![](assets/nwe-project-details-expanded-350x298.png)
+   ![Projektdetails erweitert](assets/nwe-project-details-expanded-350x298.png)
 
    >[!NOTE]
    >
@@ -116,15 +118,15 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
 
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
-   1. (Optional) Klicken Sie auf das **Alle reduzieren**-Symbol ![](assets/collapse-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** ![](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
+   1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren** ![Symbol Alle reduzieren](assets/collapse-icon.png) in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
    1. Weitere Informationen zum Bearbeiten von Informationen auf der Registerkarte Projektdetails finden Sie in den folgenden Artikeln:
 
       * [Verwalten von Informationen im Projektübersichtsbereich](../../../manage-work/projects/manage-projects/understand-project-overview-area.md)
       * [Verwalten von Informationen im Projektfinanzierungsbereich](../../../manage-work/projects/project-finances/manage-project-finance-area.md)
 
    1. (Optional) Um ein benutzerdefiniertes Formular anzuhängen, geben Sie zunächst den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
-   1. (Optional) Klicken Sie auf das **Exportieren**-Symbol ![](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
+   1. (Optional) Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
 
       * Alle auswählen (wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular angehängt ist)
       * Übersicht
@@ -132,16 +134,16 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
 
       Die PDF-Datei wird auf Ihren Computer heruntergeladen.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Auswahlfeld „Problemdetails exportieren“ mit der Schaltfläche „Exportieren“](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Weitere Informationen finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
    Um Informationen zu den im Abschnitt Projektdetails angezeigten Feldern zu erhalten, fahren Sie mit dem Bearbeiten des Projekts im Feld Projekt bearbeiten wie unten beschrieben fort.
-1. Um alle Projektinformationen zu bearbeiten, klicken Sie auf das **Mehr**-Menü ![](assets/qs-more-menu.png) neben dem Projektnamen und dann auf **Bearbeiten**.
+1. Um alle Projektinformationen zu bearbeiten, klicken Sie auf das Menü **Mehr** ![Mehr](assets/qs-more-menu.png) neben dem Projektnamen und dann auf **Bearbeiten**.
 
    Oder
 
-   Wählen Sie aus einer Projektliste ein oder mehrere Projekte aus und klicken Sie dann oben in **Liste auf** Bearbeiten![](assets/edit-icon.png).
+   Wählen Sie aus einer Projektliste ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png).
 
    Weitere Informationen zur Massenbearbeitung von Projekten finden Sie im Abschnitt [Massenbearbeitung von Projekten](#edit-projects-in-bulk) in diesem Artikel.
 
@@ -167,6 +169,9 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
    * [Aufgabeneinstellungen](#task-settings)
    * [Problemeinstellungen](#issue-settings)
    * [Zugriff](#access)
+   * [Verknüpfte Ordner](#linked-folders-conditional-availability) (bedingte Verfügbarkeit)
+     <!--* <span class="preview">[Comment](#comment)</span>-->
+
 
    >[!NOTE]
    >
@@ -177,7 +182,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Projektname“.
 
-   ![](assets/nwe-project-name-in-edit-project-box-350x125.png)
+   ![Bereich „Projektname“ im Feld „Projekt bearbeiten“](assets/nwe-project-name-in-edit-project-box-350x125.png)
 
 1. Aktualisieren Sie den Namen des Projekts.
 
@@ -188,7 +193,7 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Übersicht“.
 
-   ![](assets/nwe-overview-in-edit-project-box-350x172.png)
+   ![Übersichtsbereich im Projekt-Bearbeitungsfeld](assets/nwe-overview-in-edit-project-box-350x172.png)
 
 1. Aktualisieren Sie die folgenden Informationen zum Projekt:
 
@@ -242,14 +247,14 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td>Geben Sie ein Portfolio an, zu dem das Projekt gehört. Sie müssen zuerst ein Portfolio erstellen, bevor es in der Dropdown-Liste angezeigt wird. Einem Projekt können nur aktive Portfolios zugeordnet werden. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.
+         <td>Geben Sie eine Portfolio an, zu der das Projekt gehört. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. Einem Projekt können nur aktive Portfolios zugeordnet werden. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.
          <p><b>NOTIZ</b></p>
          <p>Sie müssen über Verwaltungsberechtigungen für das Portfolio verfügen, um es zum Projekt hinzufügen oder daraus entfernen zu können.</p>
       </td> 
       </tr> 
       <tr> 
          <td role="rowheader"><strong>Programm</strong></td> 
-         <td> <p>Wenn Sie ein Portfolio für das Projekt ausgewählt haben, geben Sie ein Programm für das Projekt an. Einige Portfolios haben möglicherweise keine Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. Einem Projekt können nur aktive Programme zugeordnet werden. </p> <p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p> 
+         <td> <p>Wenn Sie eine Portfolio für das Projekt ausgewählt haben, geben Sie ein Programm für das Projekt an. Einige Portfolios verfügen möglicherweise nicht über Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. Einem Projekt können nur aktive Programme zugeordnet werden. </p> <p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p> 
       <p><b>NOTIZ</b></p>
          <p>Sie müssen über Verwaltungsberechtigungen für das Programm verfügen, um es zum Projekt hinzufügen oder entfernen zu können.</p>   
       </td> 
@@ -334,7 +339,7 @@ So bearbeiten Sie beim Bearbeiten eines Projekts Informationen zu benutzerdefini
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken Bedienfeld** Benutzerdefinierte Forms&quot;.
 
-   ![](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
+   ![Benutzerdefinierte Formulare im Feld „Projekt bearbeiten“](assets/nwe-custom-forms-in-edit-project-box-350x170.png)
 
 1. Klicken Sie auf **Benutzerdefiniertes Formular hinzufügen** und wählen Sie ein Formular aus der Liste aus, um es an das Projekt anzuhängen. Standardmäßig werden die ersten 40 Formulare in alphabetischer Reihenfolge angezeigt. Wenn das Formular nicht in der Liste angezeigt wird, fangen Sie an, seinen Namen einzugeben, und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 
@@ -369,7 +374,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Finanzen“.
 
-   ![](assets/nwe-finance-in-edit-project-box-350x183.png)
+   ![Finanzbereich im Projektbearbeitungsfeld](assets/nwe-finance-in-edit-project-box-350x183.png)
 
 1. Aktualisieren Sie die folgenden Finanzinformationen für das Projekt:
 
@@ -399,7 +404,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Geplanter Nutzen</strong> </td> 
-      <td> <p>Schätzen Sie den geplanten Nutzen des Projekts. Dies wird im Business Case des Projekts und im Portfolio Optimizer verwendet. Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten im Portfolio Optimizer</a> .<br></p> </td> 
+      <td> <p>Schätzen Sie den geplanten Nutzen des Projekts. Dies wird im Business Case des Projekts und in Portfolio Optimizer verwendet. Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p> <p>Weitere Informationen finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten in Portfolio Optimizer</a> .<br></p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader"><strong>Tatsächlicher Gewinn</strong> </td> 
@@ -427,7 +432,7 @@ So bearbeiten Sie Felder im Bereich Finanzen:
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Projekteinstellungen“.
 
-   ![](assets/nwe-project-settings-in-edit-project-box-350x380.png)
+   ![Projekteinstellungen im Projektbearbeitungsfeld](assets/nwe-project-settings-in-edit-project-box-350x380.png)
 
 1. Aktualisieren Sie die folgenden Informationen:
 
@@ -551,7 +556,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Aufgabeneinstellungen“.
 
-   ![](assets/nwe-task-settings-in-edit-project-box-350x211.png)
+   ![Aufgabeneinstellungen im Feld „Projekt bearbeiten“](assets/nwe-task-settings-in-edit-project-box-350x211.png)
 
 1. Wählen Sie **Feld „Standardmäßiger Aufgabengenehmigungsprozess** den Aufgabengenehmigungsprozess aus, den Sie allen neuen Aufgaben zuordnen möchten, wenn Sie sie zum Projekt hinzufügen.
 
@@ -565,7 +570,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 1. Wählen Sie im Feld **Standardmäßige benutzerdefinierte Forms** das benutzerdefinierte Formular bzw. die benutzerdefinierten Formulare aus, die Sie mit allen neuen Aufgaben verknüpfen möchten, wenn Sie sie zum Projekt hinzufügen. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können bis zu zehn benutzerdefinierte Formulare mit einer Aufgabe verknüpfen.
 1. (Optional) Wählen Sie **Work Effort verwenden, um die geplanten Stunden für die Aufgabe automatisch zu berechnen**, wenn Sie die Verwaltung des Aufgabenaufwands mithilfe des Work Effort anstelle der geplanten Stunden aktivieren möchten.
 
-   ![](assets/nwe-work-effort-on-projects-350x182.png)
+   ![Work Effort in the edit project box](assets/nwe-work-effort-on-projects-350x182.png)
 
 1. (Bedingt und optional) Wenn Sie Work Effort verwenden ausgewählt haben, um die geplanten Stunden für die Aufgabe automatisch zu berechnen, klicken Sie für jede Aufwandsebene auf das Dropdown-Menü und wählen Sie für jede Stufe einen Prozentsatz aus. Die folgenden Prozentwerte sind Standardwerte:
 
@@ -590,7 +595,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken Bedienfeld auf** Problemeinstellungen“.
 
-   ![](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
+   ![Problemeinstellungen im Feld „Projekt bearbeiten“](assets/nwe-issue-settings-in-edit-project-box-350x306.png)
 
 1. (Optional) Deaktivieren Sie die Option **Benutzer dürfen Probleme inline hinzufügen**. Er ist standardmäßig ausgewählt.
 
@@ -622,7 +627,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 1. Beginnen Sie mit der Bearbeitung Ihres Projekts wie oben beschrieben.
 1. Klicken Sie **linken** auf „Zugriff“.
 
-   ![](assets/nwe-access-in-edit-project-box-350x262.png)
+   ![Zugriffsbereich im Feld „Projekt bearbeiten“](assets/nwe-access-in-edit-project-box-350x262.png)
 
 1. Geben Sie die folgenden **Zugriff**-Informationen für das Projekt an:
 
@@ -632,23 +637,23 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
     <tbody> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Wenn jemand einer Aufgabe zugewiesen wird</strong></td> 
-      <td><p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong>-Zugriff auf eine Aufgabe. Dem Benutzer, der einer Aufgabe zugewiesen ist, wird automatisch dieser Zugriff auf die Aufgabe gewährt.</p></td> 
+      <td><p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Beitragen, </strong> oder <strong>Verwalten</strong> Zugriff auf eine Aufgabe. Dem Benutzer, der einer Aufgabe zugewiesen ist, wird automatisch dieser Zugriff auf die Aufgabe gewährt.</p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Gewährt auch Zugriff auf das Projekt</strong></td> 
-      <td><p>Wählen Sie aus <strong>Ansicht</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong>-Zugriff auf das Projekt. Der/die Benutzende, der/die einer Aufgabe zugewiesen wurde, erhält automatisch auch diesen Zugriff auf das Projekt.<br></p></td> 
+      <td><p>Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong> oder <strong>Verwalten</strong>-Zugriff auf das Projekt. Der/die Benutzende, der/die einer Aufgabe zugewiesen wurde, erhält automatisch auch diesen Zugriff auf das Projekt.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Wenn jemand einem Problem zugewiesen wird</strong></td> 
-      <td><p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong>-Zugriff auf ein Problem. Der Person, die einem Problem zugewiesen wurde, wird automatisch dieser Zugriff auf das Problem gewährt. Weitere Informationen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines </a>.<br></p></td> 
+      <td><p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Beitragen</strong> oder <strong>Verwalten</strong> Zugriff auf ein Problem. Der Person, die einem Problem zugewiesen wurde, wird automatisch dieser Zugriff auf das Problem gewährt. Weitere Informationen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines </a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Gewährt auch Zugriff auf das Projekt</strong></td> 
-      <td><p>Wählen Sie aus <strong>Ansicht</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong>-Zugriff auf das Projekt. Der einem Problem zugewiesene Benutzer erhält automatisch auch diesen Zugriff auf das Projekt.<br></p></td> 
+      <td><p>Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong> oder <strong>Verwalten</strong>-Zugriff auf das Projekt. Der einem Problem zugewiesene Benutzer erhält automatisch auch diesen Zugriff auf das Projekt.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Wenn jemand eine Anfrage sendet: Erteilen Sie ihm Zugriff</strong></td> 
-      <td><p>Wählen Sie aus <strong>Ansicht</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong> Zugriff auf die Anfrage. Wenn es sich bei dem Projekt auch um eine Anfrage-Warteschlange handelt und ein(e) Benutzende(r) eine Anfrage an das Projekt sendet, erhält er/sie diesen Zugriff auf die gesendete Anfrage. Informationen zum Einrichten eines Projekts als Anfrage-Warteschlange finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anfrage-Warteschlange</a>.<br></p></td> 
+      <td><p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Beitragen</strong> oder <strong>Verwalten</strong> Zugriff auf die Anfrage. Wenn es sich bei dem Projekt auch um eine Anfrage-Warteschlange handelt und ein(e) Benutzende(r) eine Anfrage an das Projekt sendet, erhält er/sie diesen Zugriff auf die gesendete Anfrage. Informationen zum Einrichten eines Projekts als Anfrage-Warteschlange finden Sie unter <a href="../../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md" class="MCXref xref">Erstellen einer Anfrage-Warteschlange</a>.<br></p></td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader"><strong>Benutzer aus demselben Unternehmen erben für alle Anforderungen dieselben Berechtigungen.</strong></td> 
@@ -663,7 +668,7 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
 
 1. Klicken Sie auf **Speichern**.
 
-### Verknüpfte Ordner
+### Verknüpfte Ordner (bedingte Verfügbarkeit) {#linked-folders}
 
 Die Funktion „Verknüpfte Ordner“ erstellt automatisch Ordner in Adobe Experience Manager Assets und verbindet diese Ordner mit Workfront.
 
@@ -673,11 +678,28 @@ Dieser Abschnitt wird nur angezeigt, wenn Folgendes zutrifft:
 * Ihr Unternehmen hat eine Integration mit Adobe Experience Manager aktiviert und konfiguriert
 * Die Vorlage, mit der dieses Projekt erstellt wurde, verfügt über aktivierte und konfigurierte verknüpfte Ordner.
 
-Anweisungen zum Bearbeiten verknüpfter Ordner finden Sie unter [Bearbeiten von Workflow-Werten in einem Projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) im Artikel Verwenden von Workflows in der Experience Manager Assets-Integration.
+Anweisungen zum Bearbeiten verknüpfter Ordner finden Sie unter [Bearbeiten von Workflow-Werten in einem Projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) im Artikel [Verwenden von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
 
 >[!NOTE]
 >
 >Da verknüpfte Ordner beim Erstellen des Projekts erstellt werden, ist die Bearbeitung des Workflows „Verknüpfter Ordner“ für ein vorhandenes Projekt ineffektiv. Das Bearbeiten dieser Werte beim Erstellen eines Projekts funktioniert erwartungsgemäß.
+
+<!--
+<div class="preview">
+
+### Comment
+
+1. Begin editing your project as described above.
+1. Click **Comment** in the left panel.
+
+   ![project-comment-in-edit-project-box](assets/project-comment-in-edit-project-box.png)
+
+1. Add a comment in the space provided. Workfront adds the comment in the Updates area of the project. For more information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
+1. Click **Save**. 
+
+</div>
+
+-->
 
 ## Bearbeiten eines Projekts im Projekt-Header (eingeschränkt)
 
@@ -685,7 +707,7 @@ Sie können eine begrenzte Menge an Informationen im Projekt-Header bearbeiten.
 
 Ihr System- oder Gruppenadministrator kann die Felder anpassen, die Sie im Projekt-Header sehen.
 
-![](assets/project-header-350x18.png)
+![Projekt-Header](assets/project-header-350x18.png)
 
 Die folgenden Felder sind standardmäßig in der Projekt-Kopfzeile enthalten.
 
@@ -719,21 +741,21 @@ Beachten Sie beim Massenbearbeiten von Projekten Folgendes:
 
 * Wenn Sie Projekte auswählen, die unterschiedliche Werte für dasselbe Feld haben, wird im Feld Projekte bearbeiten die Kennzeichnung „Mehrere Werte“ angezeigt. Bei Feldern, die Kontrollkästchen, Optionsfelder und Umschalter sind, wird neben diesen ein Indikator für „Mehrere Werte“ angezeigt.
 
-  ![](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
+  ![Mehrwertanzeige für Datumsangaben im Feld für die Massenbearbeitung von Projekten](assets/multiple-values-indicator-dates-bulk-edit-projects.png)
 
 * Wenn die ausgewählten Optionen in mindestens einem der ausgewählten Projekte unterschiedlich sind, werden zusätzlich zum Indikator „Mehrere Werte“ Felder mit mehreren Optionen auf eine der folgenden Arten angezeigt:
 
    * Kontrollkästchen-Felder enthalten eine Zeile anstelle eines Kontrollkästchens für die Option, die für einige, aber nicht für alle ausgewählten Projekte aktiviert ist.
 
-     ![](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
+     ![Kontrollkästchen für die Anzeige mehrerer Werte im Feld für die Massenbearbeitung von Projekten](assets/multiple-values-indicator-check-boxes-bulk-edit-projects.png)
 
    * Felder vom Typ Umschalter werden abgeblendet angezeigt, wobei der Umschalter in der Mitte für die Option steht, die für einige, aber nicht für alle ausgewählten Projekte aktiviert ist.
 
-  ![](assets/multiple-values-highlighted-bulk-edit-projects.png)
+  ![Mehrere Werte in Projekten für die Massenbearbeitung hervorgehoben](assets/multiple-values-highlighted-bulk-edit-projects.png)
 
    * Für Felder vom Typ Optionsfelder, für die einige Optionen ausgewählt sind, aber nicht alle, werden alle Optionsfelder als leer angezeigt.
 
-     ![](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
+     ![Optionsfeld Mehrwertanzeige für Massenbearbeitung eines Projekts](assets/multiple-values-indicator-radio-buttons-bulk-edit-projects.png)
 
 * Wenn Sie eine Option in einem Feld mit mehreren Optionen aktualisieren (z. B. in einem Feld, das als eine Reihe von Ein-/Ausschaltern oder Kontrollkästchen angezeigt wird), müssen alle anderen Optionen zwischen den ausgewählten Projekten übereinstimmen.
 
@@ -748,10 +770,10 @@ So bearbeiten Sie Projekte stapelweise:
 {{step1-to-projects}}
 
 1. Mehrere Projekte in der Liste auswählen.
-1. Klicken Sie oben **der Liste** das Symbol „Bearbeiten“ ![](assets/edit-icon.png).
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) oben in der Liste.
 Das **Projekte bearbeiten** wird geöffnet.
 
-   ![](assets/edit-projects-in-bulk-modal-unshimmed.png)
+   ![Projekte im Bulk-Modus bearbeiten](assets/edit-projects-in-bulk-modal-unshimmed.png)
 
 Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Layout-Vorlage geändert hat, werden die Bereiche im linken Bereich des Felds Projekt bearbeiten oder die in diesen Bereichen aufgelisteten Felder möglicherweise neu angeordnet oder nicht angezeigt. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
@@ -765,7 +787,7 @@ Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre L
 
    Die benutzerdefinierten Formulare, die an alle ausgewählten Projekte angehängt sind, werden im Unterabschnitt **Benutzerdefinierte Formulare gemeinsam** im Bereich **Benutzerdefinierte Forms** angezeigt.
 
-   ![](assets/custom-forms-in-common-unshimmed.png)
+   ![Benutzerdefinierte Formulare, die in Massenbearbeitungsprojekten gemeinsam verwendet werden](assets/custom-forms-in-common-unshimmed.png)
 
    >[!TIP]
    >
@@ -774,7 +796,7 @@ Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre L
 1. Geben Sie den Namen eines benutzerdefinierten Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein.
 
 
-   ![](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
+   Der Indikator ![Forms ist bereits in Massenbearbeitungsprojekten angefügt](assets/forms-already-attached-indication-in-bulk-editing-projects-unshimmed.png)
 
    Die benutzerdefinierten Formulare, die bereits an die ausgewählten Projekte angehängt sind, werden im Unterabschnitt &quot;**Formulare** im Feld **Benutzerdefiniertes Formular hinzufügen** angezeigt.
 
@@ -802,9 +824,10 @@ Weitere Informationen zum Bearbeiten des Bereichs Aufgabeneinstellungen finden S
 Weitere Informationen zum Bearbeiten des Bereichs „Anfrageeinstellungen“ finden Sie im Abschnitt [Anfrageeinstellungen](#issue-settings) in diesem Artikel.
 1. Klicken Sie **Zugriff**, um die Zugriffseinstellungen für alle ausgewählten Projekte zu bearbeiten.
 Weitere Informationen zum Bearbeiten des Zugriffsbereichs finden Sie im Abschnitt [Zugriff](#access) in diesem Artikel.
+   <!--1. <span class="preview">Click **Comment**, then add a comment in the space provided. Workfront adds the comment in the **Updates** area of each project. For information about updating work, see [Update work](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).</span>-->
 1. (Optional) Um Informationen zu entfernen, die Sie im Feld „Projekte bearbeiten“ hinzugefügt haben, bewegen Sie den Mauszeiger über ein bearbeitetes Feld und klicken Sie dann auf das Symbol **x** „Verwerfen“ oben rechts im Feld.
 
-   ![](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
+   ![Verwerfen-Symbol für Feldbearbeitungsprojekte in großen Mengen](assets/discard-icon-for-field-edit-projects-in-bulk-unshimmed.png)
 
 1. (Optional) Klicken Sie **Abbrechen** unten auf der Seite **Projekte bearbeiten**, um alle Änderungen an allen Projekten zu entfernen.
 1. Klicken Sie auf **Speichern**.

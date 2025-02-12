@@ -8,9 +8,9 @@ feature: Get Started with Workfront
 role: User
 topic: Collaboration
 exl-id: a8271f3c-7a08-4eb3-aaff-deb250f5af73
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '736'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Die Antwort auf einen Kommentar im Abschnitt Aktualisierungen eines Objekts ist 
 1. (Optional) Um Text aus einer vorherigen Aktualisierung in Ihre Antwort einzubeziehen, klicken Sie auf das Menü **Mehr** in der oberen rechten Ecke des Kommentars, auf den Sie antworten möchten, und klicken Sie dann auf **Antwort zitieren**. Text aus der vorherigen Aktualisierung wird im Eingabebereich angezeigt, der mit einer vertikalen grauen Linie markiert ist.
 1. Klicken Sie **Antworten**.
 
-   ![](assets/reply-to-update-empty-box.png)
+   ![Antwort zur Aktualisierung eines leeren Felds](assets/reply-to-update-empty-box.png)
 
    Am unteren Rand des Feldes **Antwort hinzufügen…** können Sie die Benutzer sehen, die aktiv an der Konversation beteiligt sind, weitere hinzufügen oder diejenigen entfernen, die nicht mehr relevant sind. Diese Benutzenden erhalten zusammen mit allen Benutzenden, die das Objekt abonniert haben, eine Benachrichtigung, sobald eine Aktualisierung oder Antwort für das Objekt vorgenommen wird. Sie können auch weitere Benutzer taggen , um sie in Ihre Antwort aufzunehmen.  Informationen zum Tagging weiterer Benutzer finden Sie unter [Andere bei Aktualisierungen taggen](../../workfront-basics/updating-work-items-and-viewing-updates/tag-others-on-updates.md).
 
@@ -115,7 +115,7 @@ Die Antwort auf einen Kommentar im Abschnitt Aktualisierungen eines Objekts ist 
 
 1. Klicken Sie **Senden**, um die Antwort zu speichern.
 
-1. (Optional) Klicken Sie auf die ![](assets/more-menu.png) **Mehr** in der oberen rechten Ecke des Kommentars, auf den Sie antworten möchten, um weitere Optionen zur Verwaltung der Antwort zu erhalten. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
+1. (Optional) Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke des Kommentars, auf den Sie antworten möchten, um weitere Optionen zum Verwalten der Antwort zu erhalten. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../updating-work-items-and-viewing-updates/update-work.md).
 
 <!--
 ### Reply to an update or reply in the legacy Updates section

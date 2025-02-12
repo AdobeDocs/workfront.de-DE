@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 215883a4-e882-438e-9c21-954c0b1d741b
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 7ef4d6c852328ff30e8b8c21398100f2f73e0dea
 workflow-type: tm+mt
-source-wordcount: '949'
+source-wordcount: '954'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -116,7 +116,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
   >[!NOTE]
   >
-  >   Nur Benutzer von Kunden, die sich für das einheitliche Adobe-Erlebnis entschieden haben, erhalten sowohl eine In-App-Benachrichtigung als auch eine E-Mail-Benachrichtigung. Informationen dazu, ob Ihr Unternehmen das einheitliche Adobe-Erlebnis verwendet, finden Sie unter [Einheitliches Adobe-Erlebnis für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+  >   Nur Benutzer von Kunden, die sich für Adobe Unified Experience entschieden haben, erhalten sowohl eine In-App-Benachrichtigung als auch eine E-Mail-Benachrichtigung. Informationen dazu, ob Ihr Unternehmen Adobe Unified Experience verwendet, finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 * Sie können eine Aktualisierung zu Datensätzen hinzufügen und den Änderungsverlauf aus den folgenden Bereichen von Workfront Planning überprüfen:
 
@@ -143,7 +143,7 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
 1. Beginnen Sie mit der Eingabe eines Kommentars in das Feld **Neuer Kommentar**.
 
-   ![](assets/empty-comment-box-on-record.png)
+   ![Leeres Kommentarfeld im Datensatz](assets/empty-comment-box-on-record.png)
 
    >[!TIP]
    >
@@ -152,7 +152,7 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 1. (Optional) Um eine Änderung rückgängig zu machen oder wiederherzustellen, verwenden Sie die folgenden Tastenkombinationen:
    * Strg+Z (⌘+Z für Mac), um eine Änderung rückgängig zu machen
    * Strg+Y (⌘+Y für Mac), um eine Änderung wiederherzustellen
-1. (Optional und bedingt) Wenn Ihre Workfront-Instanz Teil von Adobe Unified Experience ist, fügen Sie **@** und anschließend den Namen eines Benutzers hinzu, um jemanden in der Aktualisierung zu taggen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
+1. (Optional und bedingt) Wenn Ihre Workfront-Instanz Teil von Adobe Unified Experience ist, fügen Sie **@** hinzu, gefolgt vom Namen eines Benutzers, um jemanden in der Aktualisierung zu taggen. Weitere Informationen finden Sie im Abschnitt [Überlegungen zum Kommentieren eines Datensatzes](#considerations-about-commenting-on-a-record) in diesem Artikel.
 
 1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Emojis oder Links zu Ihrer Aktualisierung hinzuzufügen, um Ihren Inhalt zu verbessern.
 
