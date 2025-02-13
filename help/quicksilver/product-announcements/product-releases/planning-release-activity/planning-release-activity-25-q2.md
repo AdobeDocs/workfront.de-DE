@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '662'
+source-wordcount: '756'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,16 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Von KI-Assistent durchgeführte Aktionen überprüfen und bestätigen
+
+>[!NOTE]
+>
+>Vorschau-Version: 13. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Um sicherzustellen, dass der KI-Assistent die gewünschten Aktionen ausführt, können Sie diese Aktionen jetzt überprüfen und bestätigen, bevor sie ausgeführt werden. Wenn Sie jetzt eine Eingabeaufforderung eingeben, die eine Aktion ausführt, wie z. B. das Erstellen, Aktualisieren oder Löschen eines Datensatzes, zeigt der KI-Assistent die auszuführenden Aktionen an und bittet um Bestätigung, dass dies die richtigen Aktionen sind.
+
+Zuvor war dieser Bestätigungsschritt nicht verfügbar.
 
 ## Zu Formelfeldern hinzugefügte Funktionen
 
@@ -48,7 +58,7 @@ For information, see [Edit records](/help/quicksilver/planning/records/edit-reco
 
 >[!NOTE]
 >
->Vorschau-Version: 30. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+>Vorschau-Version: 30. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (13. Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
 
 Sie können jetzt in Workfront Planning Ansichten und Arbeitsbereiche für Teams, Aufgabengebiete und Unternehmen freigeben. Vor dieser Verbesserung konnten Sie Ansichten und Arbeitsbereiche für Benutzende und Gruppen freigeben.
 
@@ -62,7 +72,7 @@ Weitere Informationen finden Sie in den folgenden Artikeln:
 
 >[!NOTE]
 >
->Vorschau-Version: 23. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+>Vorschau-Version: 23. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (13. Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
 
 Sie können jetzt Text aus einer Quelle kopieren, die nicht in Workfront enthalten ist, und ihn in ein mit Workfront Planning verbundenes Feld oder ein Feld vom Typ „Personen“ einfügen. Diese Verbesserung ist beim Bearbeiten von Datensätzen in der Tabellenansicht verfügbar.  Der Text muss mit einem vorhandenen Benutzer (für Felder vom Typ „Personen„) oder mit einem vorhandenen Datensatz oder Objekt (für einen verbundenen Datensatz) übereinstimmen. Sie können mehrere Werte für mehrere Felder kopieren und einfügen und die Datensätze stapelweise aktualisieren.
 
@@ -74,7 +84,7 @@ Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilve
 
 >[!NOTE]
 >
->Vorschau-Version: 23. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+>Vorschau-Version: 23. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (13. Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
 
 Mit dieser Version haben wir den Filter-Builder in Workfront Planning aktualisiert, um mehrstufige Filter zuzulassen.
 
@@ -92,7 +102,7 @@ Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/qui
 
 >[!NOTE]
 >
->Vorschau-Version: 22. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+>Vorschau-Version: 22. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (13. Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
 
 Sie können jetzt Projekte mithilfe einer Vorlage erstellen, während Sie Projekte mit vorhandenen Datensätzen verbinden.
 
@@ -106,7 +116,7 @@ Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Wor
 
 >[!NOTE]
 >
->Vorschau-Version: 22. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+>Vorschau-Version: 22. Januar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.2 (13. Februar 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
 
 Um die Anzeige von Titeln in der Kopfzeile der Anzeigeseite zu verbessern, haben wir Verbesserungen vorgenommen, sodass Titel mehr Platz haben, Überschneidungen vermieden und das Abschneiden elegant gehandhabt wird.
 

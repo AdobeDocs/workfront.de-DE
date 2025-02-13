@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: dcfae507d531e0062bfa9552f6c397be3e8bb007
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '76'
+source-wordcount: '217'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,23 @@ Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschie
 
 Eine Liste aller Änderungen, die mit der Version aus dem zweiten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version aus dem zweiten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--## New look and feel for the Share dialog 
+## Temporäre Änderungen des Erscheinungsbilds von Dokument-E-Mails
 
 >[!NOTE]
 >
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
+>Vorschau-Version: 13. Februar 2025; Produktionsversion für alle Kunden: 13. Februar 2025
 
-We have updated the look and feel of the Share dialog modern design that is consistent with other areas of Workfront. There are slight visual differences including:
+E-Mails, die sich auf das Hinzufügen oder Freigeben von Dokumenten beziehen, haben im E-Mail-Textkörper kein Miniaturbild mehr. Einige Kunden sehen auch die alte E-Mail mit der Aufgaben- und Problemzuweisung, die nur den Avatar des Verantwortlichen anzeigt.
 
-* The "Visible system-wide" option now displays "Everyone in the system can view". This option still functions as it did previously. 
-* There is a new icon to access advanced share settings.-->
+Diese Änderungen sind temporär, da wir E-Mail-Verzögerungen untersuchen.
+
+## Neues Erscheinungsbild für das Dialogfeld Freigeben
+
+>[!NOTE]
+>
+>Vorschau-Version: 13. Februar 2025; Produktionsversion für alle Kunden: Mit Version 25.3 (März 2025)
+
+Das Erscheinungsbild des Dialogfelds Freigeben wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Es gibt leichte visuelle Unterschiede, darunter:
+
+* Die Option „Systemweit sichtbar“ zeigt jetzt „Jeder im System kann anzeigen“. Diese Option funktioniert weiterhin wie zuvor.
+* Über ein neues Symbol können Sie auf erweiterte Freigabeeinstellungen zugreifen.

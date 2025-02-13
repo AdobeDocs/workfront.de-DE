@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: 55cc75c5-8b8c-48e7-b114-b41fe3d545d8
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '546'
 ht-degree: 4%
 
 ---
@@ -33,7 +33,7 @@ Nachdem Sie eine Layout-Vorlage konfiguriert haben, müssen Sie sie Benutzern zu
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -44,10 +44,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td><p>Neu: Standard</p>
-  <p> Aktuell: Plan</p>
-   </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Standard</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Plan</p></li>
+         </ul>
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -57,7 +64,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -91,23 +98,28 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
       * Blueprints
       * In Planung
 
-   >[!IMPORTANT]
-   >
-   >Für die Anzeige der Szenarien, Ziele und Planungsbereiche sind zusätzliche Lizenzen erforderlich.
-   >
-   >* Informationen zu Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md).
-   >
-   >* Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
-   >
-   >* Weitere Informationen zu Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
+     >[!IMPORTANT]
+     >
+     >Für die Ansicht der Ziele, Szenarien und Planungsbereiche sind zusätzliche Lizenzen erforderlich.
+     >
+     >* Informationen zu Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md).
+     >
+     >* Weitere Informationen zum Workfront-Szenarioplaner finden Sie unter [Szenarioplaner - Übersicht](../../../scenario-planner/scenario-planner-overview.md).
+     >
+     >* Weitere Informationen zu Workfront Planning finden Sie unter [Adobe Workfront Planning Overview](/help/quicksilver/planning/general/planning-overview.md).
 
-   * Klicken Sie **Dashboard hinzufügen**, geben Sie dann einen beschreibenden **benutzerdefinierten Abschnittstitel** ein und fügen Sie das Dashboard hinzu.
+   * Klicken Sie **Dashboard hinzufügen**
+      * Geben Sie einen beschreibenden Namen in das Feld <!--**Quick link name**-->**Benutzerdefinierter Name** ein
+      * Wählen Sie ein Dashboard im <!-- dropdown for existing or canvas dashboard, called "Choose a dashboard" now --> **Dashboard hinzufügen** aus
+      * Klicken Sie **Hinzufügen**.
 
 1. Wiederholen Sie diesen Schritt, um alle weiteren Seiten anzuheften.
 
-1. (Optional) Um eine Nadel umzubenennen, bewegen Sie den Mauszeiger über die Nadel, klicken Sie auf den Pfeil neben dem Namen der Nadel und wählen Sie **Nadel umbenennen**. Geben Sie den neuen Pin-Namen ein, und klicken Sie auf das Häkchen, oder drücken Sie die Eingabetaste.
+1. (Optional) Um eine Nadel zu verschieben, bewegen Sie den Mauszeiger über die Nadel und klicken Sie auf das Menüsymbol „Mehr“ ![](assets/more-icon.png) neben dem Namen der Nadel. Klicken Sie dann auf **Nach links** oder **Nach rechts verschieben**, um die Nadel in die ausgewählte Richtung zu verschieben, oder klicken Sie auf **Nach vorne verschieben**, um die Nadel in die ganz linke Position zu verschieben.
 
-   Nach dem Klicken auf das Häkchen oder dem Drücken der Eingabetaste wird für einige Sekunden ein kleines Popup-Fenster angezeigt, in dem Sie die Änderung des Pinnamens rückgängig machen können, bevor sie gespeichert wird.
+1. (Optional) Um eine Nadel umzubenennen, bewegen Sie den Mauszeiger über die Nadel und klicken Sie auf das Menüsymbol ![Mehr](assets/more-icon.png) neben dem Namen der Nadel. Klicken Sie dann auf **Nadel umbenennen**. Geben Sie einen neuen Namen ein und klicken Sie dann auf **Speichern**.
+
+1. (Optional) Um eine Nadel zu löschen, bewegen Sie den Mauszeiger über die Nadel und klicken Sie auf das Menüsymbol ![Mehr](assets/more-icon.png) neben dem Namen der Nadel. Klicken Sie dann auf **Nadel entfernen**.
 
 1. Passen Sie die Layout-Vorlage weiter an.
 
