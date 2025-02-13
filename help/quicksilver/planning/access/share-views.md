@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: cf3b5d3f8e3a8a1922da757a41b4c5e0ee84e6fd
+source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
 workflow-type: tm+mt
-source-wordcount: '1519'
+source-wordcount: '1583'
 ht-degree: 1%
 
 ---
@@ -82,8 +82,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Ihr Unternehmen muss in das einheitliche Adobe-Erlebnis integriert sein, damit Benutzer Berechtigungen für eine Ansicht über eine Berechtigungsanfrage anfordern und erteilen können. </p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
+<p>Das Unternehmen muss in das einheitliche Adobe-Erlebnis integriert sein, damit Benutzer Berechtigungen für eine Ansicht über eine Berechtigungsanfrage anfordern und erteilen können. </p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -200,9 +200,9 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie Verwaltun
 
    Dadurch wird die Seite „Datensatztyp“ geöffnet.
 
-1. Bewegen Sie auf der Registerkarte Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf das **** Mehr rechts neben dem Ansichtsnamen ![](assets/more-menu.png) dann auf **Freigeben**.
+1. Bewegen Sie auf der Registerkarte Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen und klicken Sie dann auf **Freigeben**.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![Mehr Menü für Ansichten mit Freigabeoption erweitert](assets/more-menu-for-views-expanded-with-share-option.png)
 
    Die **Interne Freigabe**-Registerkarte sollte standardmäßig ausgewählt sein.
 
@@ -211,13 +211,9 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie Verwaltun
    * **Nur eingeladene Personen können zugreifen**: Sie müssen Benutzer, Gruppen, <span class="preview">Team, Firma oder Aufgabengebiet</span> angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
    * **Jeder Benutzer im Arbeitsbereich kann Folgendes anzeigen** Alle Benutzer mit Ansichts- oder höheren Berechtigungen für Arbeitsbereiche können auf die Ansicht zugreifen.
 
-1. Beginnen Sie im Feld **Ansichtszugriff gewähren auf** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines <span class="preview">Teams, einer Firma oder eines </span> und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
+1. Beginnen Sie im Feld **Zugriff auf diese Ansicht gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines <span class="preview">Teams, einer Firma oder eines </span> und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
-   <div class="preview">
-
-   ![](assets/sharing-a-view-ui-with-groups.png)
-
-   </div>
+   ![Freigeben einer Ansicht für Gruppen](assets/sharing-a-view-ui-with-groups.png)
 
 1. Wählen Sie eine der folgenden Berechtigungsebenen aus dem Dropdown-Menü aus:
    * Anzeigen
@@ -230,7 +226,7 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie Verwaltun
 1. Klicken Sie **Link kopieren**, um einen Link in die Ansicht in die Zwischenablage zu kopieren.
 1. Klicken Sie auf **Speichern**.
 
-   Die Ansicht wird mit einem Personen -Symbol ![](assets/view-shared-with-others-people-icon.png), um anzugeben, dass die Ansicht jetzt für andere Benutzer freigegeben ist.
+   Die Ansicht wird mit dem Symbol Personen ![Mit anderen Benutzern geteilt anzeigen](assets/view-shared-with-others-people-icon.png) aktualisiert, um anzugeben, dass die Ansicht jetzt für andere Benutzer freigegeben ist.
 
    >[!TIP]
    >
@@ -255,25 +251,25 @@ So geben Sie eine Ansicht in Workfront Planning öffentlich frei:
 
    Dadurch wird die Seite „Datensatztyp“ geöffnet.
 
-1. Bewegen Sie auf der Registerkarte Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf das **** Mehr rechts neben dem Ansichtsnamen ![](assets/more-menu.png) dann auf **Freigeben**.
+1. Bewegen Sie auf der Registerkarte Ansicht den Mauszeiger über die Ansicht, die Sie freigeben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen und klicken Sie dann auf **Freigeben**.
 
-   ![](assets/more-menu-for-views-expanded-with-share-option.png)
+   ![Mehr Menü für Ansichten mit Freigabeoption erweitert](assets/more-menu-for-views-expanded-with-share-option.png)
 
 1. Klicken Sie auf **Öffentliche Freigabe**.
 
-   ![](assets/public-sharing-tab-for-views.png)
+   ![Registerkarte „Öffentliche Freigabe“ für Ansichten](assets/public-sharing-tab-for-views.png)
 
 1. Aktivieren Sie die Einstellung **Öffentlichen Link erstellen**.
 
    Ein Link wird verfügbar. Dies ist ein öffentlicher Link. Bei der Freigabe kann jeder Benutzer mit dem Link, einschließlich Personen von außerhalb Ihres Unternehmens, auf die Seite „Datensatztyp“ zugreifen und Datensätze und Felder auf der Seite anzeigen.
 
-1. Klicken Sie auf das **Link kopieren**-Symbol ![](assets/copy-link-view.png), um den Link in die Zwischenablage zu kopieren.
+1. Klicken Sie auf das **Link kopieren**-Symbol ![Link-Ansicht kopieren](assets/copy-link-view.png), um den Link in die Zwischenablage zu kopieren.
 
 1. Geben Sie manuell ein Datum ein oder verwenden Sie den Kalender im Feld **Link-**), um ein Ablaufdatum für den öffentlichen Link auszuwählen. Die Datensatz-Seitenansicht ist nach dem ausgewählten Datum nicht mehr zugänglich.
 
 1. Klicken Sie auf **Speichern**.
 
-   Die Ansicht wird mit einem globalen Symbol ![](assets/public-shared-view-icon-highlighted.png), um anzugeben, dass die Ansicht öffentlich freigegeben ist.
+   Die Ansicht wird mit dem globalen Symbol ![Symbol „Öffentliche freigegebene Ansicht“ hervorgehoben](assets/public-shared-view-icon-highlighted.png) um anzugeben, dass die Ansicht öffentlich freigegeben ist.
 
    >[!TIP]
    >
@@ -289,16 +285,16 @@ Benutzende, die auf einen Link zu einer Ansicht zugreifen, für die sie keine Be
 1. (Bedingt) Wenn Sie der Manager einer Ansicht sind, erhalten Sie möglicherweise eine Anfrage eines anderen Benutzers, in den folgenden Bereichen auf die Ansicht zuzugreifen:
 
    * In-App-Benachrichtigung
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![In-App-Benachrichtigung über Zugriffsanfrage für Ansicht](assets/in-app-notification-for-access-request-for-view.png)
    * Eine E-Mail-Benachrichtigung
-     ![](assets/in-app-notification-for-access-request-for-view.png)
+     ![In-App-Benachrichtigung über Zugriffsanfrage für Ansicht](assets/in-app-notification-for-access-request-for-view.png)
 1. (Bedingt) Klicken Sie im Benachrichtigungsbereich in Workfront auf die In-App-Benachrichtigung
 oder
 Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** und klicken Sie dann auf die Benachrichtigung in der Liste.
 
    Das **Ausstehende**&quot; wird angezeigt.
 
-   ![](assets/notifications-list-approval-box.png)
+   ![Benachrichtigungslisten-Genehmigungsfeld](assets/notifications-list-approval-box.png)
 1. (Optional) Wählen Sie für den Benutzer, dessen Berechtigungen Sie genehmigen möchten, eine der folgenden Optionen aus dem Dropdown-Menü rechts neben dem Namen des Benutzers aus:
    * **Anzeigen**
    * **Verwalten**
@@ -312,7 +308,7 @@ Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** 
 {{step1-to-planning}}
 
 1. Öffnen Sie den Arbeitsbereich, dessen Ansicht Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz . Dadurch wird die Seite „Datensatztyp“ geöffnet.
-1. Bewegen Sie den Mauszeiger über den Registerkartennamen der Ansicht, deren Freigabe Sie entfernen möchten, klicken Sie auf die ![](assets/more-menu.png) **Mehr** und klicken Sie dann auf **Freigeben**.
+1. Bewegen Sie den Mauszeiger über den Namen der Registerkarte der Ansicht, deren Freigabe Sie entfernen möchten, und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) und dann auf **Freigeben**.
 1. Gehen Sie wie folgt vor, um die interne Freigabe einer Ansicht zu entfernen:
 
    1. Stellen Sie sicher **dass die Registerkarte** Interne Freigabe“ ausgewählt ist.
