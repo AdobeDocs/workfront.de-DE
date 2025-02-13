@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 role: User
 exl-id: e2dce29e-7370-4580-8326-99c4437998bf
-source-git-commit: 830ad0411084844ace1e1e543c3ebefcb558af80
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1412'
+source-wordcount: '1419'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Die Zuweisung von Problemen und Aufgaben ist in Adobe Workfront ähnlich. Allgem
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p> Anzeigen von Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem/der sich das Problem befindet, wenn ein Problem zugewiesen wird</p><p>Contribute-Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem/der sich das Problem befindet, wenn mehrere Probleme zugewiesen werden.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p> Anzeigen von Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem/der sich das Problem befindet, wenn ein Problem zugewiesen wird</p><p>Tragen Sie Berechtigungen oder mehr zu dem Projekt oder der Aufgabe bei, in dem/der sich das Problem befindet, wenn Sie mehrere Probleme zuweisen.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -166,7 +166,7 @@ So weisen Sie Probleme in einer Liste zu:
 
    * Klicken Sie in die Felder **Zugewiesen an** oder **Zugewiesen** und geben Sie den Namen eines aktiven Benutzers ein, den Sie dem Problem zuweisen möchten. Klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
 
-     ![](assets/assigned-to-field-task-list-nwe.png)
+     ![Feld „Zugewiesen an“](assets/assigned-to-field-task-list-nwe.png)
 
    * Klicken Sie in das **Arbeitsaufträge** und geben Sie den Namen eines aktiven Benutzers, eines Aufgabengebiets oder eines aktiven Teams ein, den/das Sie dem Problem zuweisen möchten. Klicken Sie dann auf das Problem, wenn es in der Liste angezeigt wird.
 
@@ -181,7 +181,7 @@ So weisen Sie Probleme in einer Liste zu:
    >Die Einstellung Kontaktinformationen anzeigen muss in Ihrer Zugriffsebene aktiviert sein, damit Benutzer die E-Mails von Benutzern anzeigen können. Weitere Informationen finden Sie unter [Gewähren des Benutzerzugriffs](../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-other-users.md).
 
 
-1. (Bedingt) Wenn im Feld Arbeitsaufträge angezeigt, klicken Sie auf das **Personen** Symbol ![](assets/teams.png) in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Feld Erweiterte Arbeitsaufträge zu öffnen und erweiterte Arbeitsaufträge zu erstellen. Weitere Informationen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
+1. (Bedingt) Wenn im Feld Arbeitsaufträge angezeigt, klicken Sie auf das **Personen**![Personen-Symbol](assets/teams.png) in der oberen rechten Ecke des Arbeitsauftragsfelds, um das Feld Erweiterte Arbeitsaufträge zu öffnen und erweiterte Arbeitsaufträge zu erstellen. Weitere Informationen finden Sie unter [Erstellen erweiterter Zuweisungen](../../../manage-work/tasks/assign-tasks/create-advanced-assignments.md).
 
    >[!TIP]
    >
@@ -193,7 +193,7 @@ So weisen Sie Probleme in einer Liste zu:
 
 1. Navigieren Sie zu einer Liste von Problemen, die Sie stapelweise zuweisen möchten.
 1. Wählen Sie mehrere Probleme in der Liste aus.
-1. Klicken Sie auf **Bearbeiten-Symbol** ![](assets/qs-edit-icon.png).
+1. Klicken Sie auf **Bearbeitungssymbol** ![Bearbeitungssymbol](assets/qs-edit-icon.png).
 
    Das **„Anfragen bearbeiten** wird geöffnet.
 

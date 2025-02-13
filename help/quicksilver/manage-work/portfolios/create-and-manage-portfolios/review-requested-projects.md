@@ -6,9 +6,9 @@ description: Projektanfragen werden in Adobe Workfront als Projekte mit dem Stat
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1acfb885-0da3-495d-ba66-e80e339e90de
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '433'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -48,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Portfolios auf [!UICONTROL View] oder höher</p> <p>[!UICONTROL Bearbeiten] Zugriff auf Projekte</p>  </td> 
+   <td> <p>Zugriff auf Portfolios über [!UICONTROL View] oder höher</p> <p>[!UICONTROL Bearbeiten] Zugriff auf Projekte</p>  </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -99,7 +99,7 @@ Weitere Informationen zur Genehmigung von Projektanfragen durch Erstellen eines 
 
    * Ändern Sie den Status des Projekts in einen beliebigen anderen Status **[!UICONTROL Dropdown]** Menü „Status“.
 
-     ![](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
+     ![Ändern des Projektstatus aus der Dropdown-Liste](assets/project-status-change-from-drop-down-in-header-nwe-350x294.png)
  
 
  

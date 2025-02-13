@@ -6,9 +6,9 @@ description: Sie können die Ihnen zugewiesene Arbeit vorübergehend delegieren,
 author: Alina
 feature: Work Management
 exl-id: 42b3112f-4f39-4078-aaa0-623559384a12
-source-git-commit: 9d0caff0381ee50bf8dd7060bebafb5354c0f0d8
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1547'
 ht-degree: 0%
 
 ---
@@ -111,7 +111,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
 
 1. Klicken Sie [!UICONTROL **Delegieren**] in der oberen linken Ecke der Widgets [!UICONTROL **Meine Arbeit**], [!UICONTROL **Meine Aufgaben**] oder [!UICONTROL **Meine Probleme**].
 
-   ![](assets/delegate-button-on-my-work-widget.png)
+   ![Schaltfläche „Delegieren](assets/delegate-button-on-my-work-widget.png)
 
 1. Aktualisieren Sie Folgendes:
 
@@ -133,7 +133,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
      >
      >Wenn Sie das Feld Enddatum leer lassen und die Option Kein Enddatum nicht ausgewählt ist, wird die Delegierung nur für den aktuellen Tag festgelegt.
 
-     ![](assets/delegate-box-expanded-in-home.png)
+     ![Delegationsfeld erweitert](assets/delegate-box-expanded-in-home.png)
      <!--check screen shot - submitted bug for casing-->
 
 1. Klicken Sie auf [!UICONTROL **Speichern**].
@@ -158,7 +158,7 @@ So delegieren Sie Ihre Aufgaben und Probleme an andere:
       </MadCap:conditionalText>
       -->
 
-     ![](assets/edit-delegation-button-on-my-work-widget.png)
+     ![Schaltfläche „Delegierung bearbeiten“](assets/edit-delegation-button-on-my-work-widget.png)
 
    * Wenn Ihre Ereignisbenachrichtigungen und Ihre persönlichen Benachrichtigungen aktiviert sind, erhalten Sie auch eine E-Mail-Bestätigung Ihrer Delegierung.
 
@@ -179,7 +179,7 @@ Sie können eine Delegierung ablaufen lassen, wenn Sie ein Enddatum ausgewählt 
    >
    >    Sie können nur das Enddatum einer Delegierung bearbeiten, wenn die Delegierung bereits begonnen hat.
 
-   ![](assets/stop-delegation-box-new-home-tasks-and-issues.png)
+   ![Schaltfläche „Delegierung beenden“](assets/stop-delegation-box-new-home-tasks-and-issues.png)
 
 1. (Bedingt) Klicken Sie auf [!UICONTROL **Speichern**], um die neuen Delegierungsdaten zu speichern
 
@@ -213,11 +213,11 @@ Das Feld [!UICONTROL Arbeitsaufträge] kann in den folgenden Bereichen aufgerufe
 
   Das Feld [!UICONTROL Arbeitsaufträge] in der Aufgaben- oder Problem-Kopfzeile ändert sich in [!UICONTROL Arbeitsaufträge und Zuweisungen].
 
-  ![](assets/assignments-and-delegates-panel-in-task-header.png)
+  ![Bedienfeld „Zuweisungen und Delegierte“ in der Aufgabenkopfzeile](assets/assignments-and-delegates-panel-in-task-header.png)
 
 * Der [!UICONTROL Workload-Balancer] beim manuellen Zuweisen von Aufgaben oder Problemen
 
-  ![](assets/assignments-and-delegates-panel-in-workload-balancer.png)
+  ![Bedienfeld „Zuweisungen und Zuweisungen“ im Balancer](assets/assignments-and-delegates-panel-in-workload-balancer.png)
 
 >[!NOTE]
 >
@@ -240,7 +240,7 @@ Wenn eine Aufgabe oder ein Problem delegiert wird und die [!UICONTROL Delegierun
    * [!UICONTROL **An mich delegiert**], um Aufgaben und Probleme anzuzeigen, die Ihnen von einem anderen Benutzer zugewiesen wurden.
    * [!UICONTROL **Delegiert von mir**], um Aufgaben und Probleme anzuzeigen, die von Ihnen an andere Benutzer delegiert wurden.
 
-     ![](assets/delegated-tasks-and-issues-new-home-filter.png)
+     ![Filter „Delegierte Aufgaben und Probleme“](assets/delegated-tasks-and-issues-new-home-filter.png)
 
 1. (Optional) Klicken Sie auf das [!UICONTROL **Sortieren**] Dropdown-Menü, um die Liste nach folgenden Kriterien zu sortieren:
    * [!UICONTROL Fälligkeitsdatum] Dies ist die standardmäßige Sortieroption.

@@ -6,9 +6,9 @@ description: Wenn nach dem Senden des Problems noch mehr Arbeit zum Abschließen
 author: Alina
 feature: Work Management
 exl-id: 9d8e50ab-9fed-4ded-83e1-29dc92c37171
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1048'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Anzeigen der Berechtigungen für das Problem</p> <p>Contribute-Berechtigungen für das Projekt</p> <p>Sie erhalten Verwaltungsberechtigungen für die Aufgabe, nachdem das Problem konvertiert wurde</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Anzeigen der Berechtigungen für das Problem</p> <p>Beitragen von Berechtigungen zum Projekt</p> <p>Sie erhalten Verwaltungsberechtigungen für die Aufgabe, nachdem das Problem konvertiert wurde</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf das Problem, das Sie konvertieren möchten, um zur Landingpage des Problems zu gelangen.
 1. Klicken Sie auf das [!UICONTROL **Mehr**]-Menü des Problems und dann auf [!UICONTROL **In Aufgabe konvertieren**].
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menü „Problem Mehr“](assets/qs-issue-more-menu-highlighted-350x469.png)
 
    >[!TIP]
    >
@@ -62,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Aktualisieren Sie den Aufgabennamen im Abschnitt [!UICONTROL Aufgabenname]. Standardmäßig entspricht der Name der Aufgabe dem Namen des ursprünglichen Problems.
 
-   ![](assets/convert-to-task-box-nwe.png)
+   ![In Aufgabenfeld konvertieren](assets/convert-to-task-box-nwe.png)
 
 1. Klicken Sie [!UICONTROL **Zielprojekt**], geben Sie dann den Namen des Projekts, in dem Sie die neue Aufgabe platzieren möchten, in das Feld [!UICONTROL **Zielprojekt**] ein und wählen Sie es aus, wenn es in der Liste angezeigt wird. Das Projekt des Problems ist standardmäßig ausgewählt.
 

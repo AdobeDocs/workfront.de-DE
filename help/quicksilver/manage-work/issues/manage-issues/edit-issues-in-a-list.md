@@ -6,9 +6,9 @@ description: Sie können ein einzelnes Problem bearbeiten oder Probleme in einer
 author: Alina
 feature: Work Management
 exl-id: a3276d83-c08f-4480-9092-aa47ba76d794
-source-git-commit: 24cc3ece515fd778a9bc9e8afbcd534f48b24230
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '882'
+source-wordcount: '896'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Aktionen in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen für das Problem</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte </a>.</p> </td> 
+   <td> <p>Tragen Sie zu dem Problem bei oder erhöhen Sie die Berechtigungen.</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -65,7 +65,7 @@ So bearbeiten Sie ein Problem inline:
 1. Navigieren Sie zu einer Liste von Problemen in einem Projekt oder einer Aufgabe.
 1. Klicken Sie in ein Feld, für das Sie über die Berechtigung zum manuellen Aktualisieren verfügen. Das Feld kann nun bearbeitet werden, und Sie können Ihre Änderungen vornehmen.
 
-   ![](assets/edit-issues-inline-350x34.png)
+   ![Probleme inline bearbeiten](assets/edit-issues-inline-350x34.png)
 
 1. Drücken Sie die Eingabetaste, wenn Sie Ihre Änderungen akzeptieren möchten. Änderungen werden sofort gespeichert.
 
@@ -76,9 +76,9 @@ So bearbeiten Sie ein Problem inline:
 1. Navigieren Sie zu einer Liste von Problemen in einem Projekt oder einer Aufgabe.
 1. Führen Sie einen der folgenden Schritte aus
 
-   * Wählen Sie das Problem in der Liste aus und klicken Sie dann in der Symbolleiste auf Symbol bearbeiten ![](assets/qs-edit-icon.png).
-   * Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon-task-list.png) rechts neben dem Problemnamen und dann auf **In neuer Registerkarte öffnen**. Dadurch wird die Problemseite in einer neuen Registerkarte geöffnet. Klicken Sie auf **Mehr** > **Bearbeiten** auf der Problemseite.
-   * Klicken Sie auf das **Mehr** Menü ![](assets/more-icon-task-list.png) rechts neben dem Problemnamen und dann auf **Bearbeiten**.
+   * Wählen Sie das Problem in der Liste aus und klicken Sie dann in der Symbolleiste auf ![Symbol bearbeiten](assets/qs-edit-icon.png).
+   * Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-icon-task-list.png) rechts neben dem Problemnamen und klicken Sie dann auf **In neuer Registerkarte öffnen**. Dadurch wird die Problemseite in einer neuen Registerkarte geöffnet. Klicken Sie auf **Mehr** > **Bearbeiten** auf der Problemseite.
+   * Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-icon-task-list.png) rechts neben dem Problemnamen und dann auf **Bearbeiten**.
 
      Bei jeder dieser Aktionen wird das Feld „Problem bearbeiten“ geöffnet.
 
@@ -93,7 +93,7 @@ Sie können ein Problem in einer Liste mithilfe der Zusammenfassung bearbeiten.
 
    Die Liste der Probleme im Projekt wird angezeigt.
 
-1. Wählen Sie ein Problem aus, das Sie bearbeiten möchten, und klicken Sie dann auf **Symbol „Zusammenfassung öffnen** ![](assets/qs-open-summary-icon-in-new-toolbar-small.png) in der rechten oberen Ecke der Problemliste.
+1. Wählen Sie ein Problem aus, das Sie bearbeiten möchten, und klicken Sie dann auf **Zusammenfassung öffnen** Symbol ![Zusammenfassung öffnen](assets/qs-open-summary-icon-in-new-toolbar-small.png) in der oberen rechten Ecke der Problemliste.
 
    Die **Zusammenfassung** wird geöffnet.
 
@@ -119,7 +119,7 @@ So bearbeiten Sie Probleme stapelweise:
 1. Klicken Sie auf einen Projektnamen, um auf das Projekt zuzugreifen.
 1. Klicken Sie **linken** auf „Probleme“.
 1. Wählen Sie mehrere Probleme in der Liste aus.
-1. Klicken Sie auf **Symbol** Bearbeiten![](assets/edit-icon.png).
+1. Klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
    Das **„Anfragen bearbeiten** wird geöffnet.
 

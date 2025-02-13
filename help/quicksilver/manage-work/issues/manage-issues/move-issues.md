@@ -6,9 +6,9 @@ description: Sie können Probleme zwischen Projekten und Aufgaben verschieben.
 author: Alina
 feature: Work Management
 exl-id: 8ab9be3e-0412-43d9-ad1e-75c43613fa82
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '868'
+source-wordcount: '887'
 ht-degree: 1%
 
 ---
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Contribute-Berechtigungen für das Element, in das Sie das Problem verschieben, mit der Möglichkeit, Probleme hinzuzufügen.</td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Sie können Berechtigungen mit der Möglichkeit, Probleme hinzuzufügen, an das Element beitragen, in das Sie das Problem verschieben.</td> 
   </tr> 
  </tbody> 
 </table>
@@ -91,7 +91,7 @@ Sie können ein oder mehrere Probleme aus einer Problemliste oder einem Problemb
 1. Wenn Sie sich für ein Projekt entschieden haben, klicken Sie im **Bereich auf** Probleme“.
 1. Wählen Sie das zu verschiebende Problem bzw. die zu verschiebenden Probleme aus und klicken Sie oben in der Problemliste auf **Mehr** und dann auf **Verschieben nach**.
 
-   ![](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
+   ![Kopieren und Verschieben nach Links](assets/copy-and-move-to-links-for-issue-in-a-list-nwe-350x119.png)
 
 1. Fahren Sie mit dem Verschieben der Probleme fort, wie im Abschnitt [Verschieben eines einzelnen Problems](#move-a-single-issue) beschrieben, beginnend mit Schritt 2.
 
@@ -101,13 +101,13 @@ Sie können ein Problem beim Anzeigen verschieben.
 
 ### Einzelnes Problem verschieben
 
-1. Gehen Sie zu einem Problem, das Sie verschieben möchten, klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Problemnamen und dann auf **Verschieben nach**.
+1. Gehen Sie zu einem Problem, das Sie verschieben möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts neben dem Problemnamen und dann auf **Verschieben nach**.
 
-   ![](assets/nwe-move-at-issue-level-highlighted-350x579.png)
+   ![Auf Anfrageebene verschieben](assets/nwe-move-at-issue-level-highlighted-350x579.png)
 
    Das **Problem verschieben** wird angezeigt.
 
-   ![](assets/move-issue-box-nwe-350x280.png)
+   ![Problemfeld verschieben](assets/move-issue-box-nwe-350x280.png)
 
 1. Geben **im Abschnitt „Zielprojekt auswählen** den Namen des Projekts an, in das Sie die Probleme verschieben möchten. Der Name des aktuellen Projekts wird standardmäßig angezeigt.
 
@@ -118,7 +118,7 @@ Sie können ein Problem beim Anzeigen verschieben.
 1. (Bedingt) Klicken Sie auf **Zugriff anfordern** wenn Sie keinen Zugriff haben, um Probleme in das Projekt zu verschieben.
 1. (Bedingt) Das Problem wird weiterhin in das ausgewählte Zielprojekt verschoben, ohne Zugriff anzufordern, wenn Sie Zugriff zum Hinzufügen von Problemen zu einer der Aufgaben im Zielprojekt haben.
 
-   ![](assets/move-issue-request-access-from-project-nwe-350x118.png)
+   ![Problem verschieben und Zugriff anfordern](assets/move-issue-request-access-from-project-nwe-350x118.png)
 
    >[!TIP]
    >

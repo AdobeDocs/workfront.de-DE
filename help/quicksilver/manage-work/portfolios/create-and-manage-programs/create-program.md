@@ -6,9 +6,9 @@ description: Ein Programm stellt eine Sammlung von Projekten dar, die eine gemei
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6ec353c2-2241-47c2-8c59-1d8ddc43781e
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1228'
+source-wordcount: '1230'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Programme sind eine Unterteilung von Portfolios und können nicht außerhalb ein
 
 Sie können Programme erstellen, um Ihre Portfolios zu organisieren, wenn sie zu groß werden.
 
-Sie können beispielsweise über ein Portfolio für das Marketing-Geschäftsjahr 2024 verfügen, das alle Projekte Ihrer Marketing-Abteilung enthält. Sie sollten sich überlegen, Ihre Projekte weiter in Geschäftsquartalen zu organisieren und die Programme für das Marketing-Geschäftsquartal 1-4 2024 innerhalb des Portfolios für das Marketing-Geschäftsjahr 2024 hinzuzufügen.
+Sie können beispielsweise Portfolio für das Marketing-Geschäftsjahr 2024 verwenden, das alle Projekte Ihrer Marketing-Abteilung enthält. Sie sollten sich überlegen, Ihre Projekte weiter in Geschäftsquartalen zu organisieren und die Programme für das Marketing-Geschäftsquartal 1-4 2024 innerhalb des Marketing-Geschäftsjahres 2024 in Portfolio hinzuzufügen.
 
 ## Zugriffsanforderungen
 
@@ -80,12 +80,12 @@ Sie können ein Programm in Workfront mit einer der folgenden Methoden erstellen
 
       1. Klicken Sie **[!UICONTROL Hauptmenü auf]** Programme“.
       1. Klicken Sie auf **[!UICONTROL Neues Programm]**.
-      1. Geben Sie in das angezeigte Feld den Namen eines vorhandenen Portfolios in das Feld **[!UICONTROL Portfolio auswählen]** ein.
+      1. Geben Sie in das angezeigte Feld den Namen einer bestehenden Portfolio in das Feld **[!UICONTROL Portfolio auswählen]** ein.
       1. Geben Sie den Namen des neuen Programms in das Feld **[!UICONTROL Name]** ein.
       1. Klicken Sie auf **[!UICONTROL Speichern]**.
-   * Erstellen Sie ein Programm aus dem Bereich [!UICONTROL Portfolios ]:
+   * Erstellen Sie ein Programm aus dem Bereich [!UICONTROL Portfolios]:
 
-      1. Klicken Sie im Hauptmenü ]**{[!UICONTROL }Portfolios ] und öffnen Sie dann ein Portfolio.**[!UICONTROL 
+      1. Klicken Sie **[!UICONTROL Portfolios]** im [!UICONTROL Hauptmenü] und öffnen Sie dann ein Portfolio.
       1. Klicken Sie im linken Bedienfeld auf **[!UICONTROL Programme]**.
       1. Klicken Sie auf **[!UICONTROL Dropdown]** Menü „Neues Programm“ und dann auf **[!UICONTROL Neues Programm]**.
 
@@ -146,7 +146,7 @@ Sie können die folgenden Informationen angeben:
    Informationen zum Hinzufügen von Projekten zu Programmen finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.
-1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr]**-![](assets/more-icon.png) neben dem Programmnamen und klicken Sie auf **[!UICONTROL Programm deaktivieren]**.
+1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png) neben dem Programmnamen und klicken Sie auf **[!UICONTROL Programm deaktivieren]**.
 
    Wenn Sie ein Programm deaktivieren, wird das Programm nicht mehr in einer Liste von Programmen angezeigt, wenn Benutzer versuchen, es zu einem Projekt hinzuzufügen. Sie können weiterhin über den Bereich [!UICONTROL Programme] auf das Programm zugreifen.
 

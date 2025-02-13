@@ -6,9 +6,9 @@ description: Navigieren innerhalb eines Portfolios
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 6c1795ab-422f-419c-b5e9-1f1323800b39
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '598'
+source-wordcount: '608'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ ht-degree: 0%
 
 In [!DNL Adobe Workfront] stellt ein Portfolio eine Sammlung von Projekten dar, die um dieselben Ressourcen, Budgets, Zeitpläne und Prioritäten konkurrieren. Der Hauptzweck des Portfolios besteht darin, Führungskräfte und Projektmanager bei der Auswahl der Projekte zu unterstützen, die für eine Organisation den größten Nutzen bringen.
 
-Weitere Informationen zu Portfolios finden Sie unter Übersicht über das [Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+Weitere Informationen zu Portfolios finden Sie in der Übersicht über [Portfolio in [!DNL Adobe Workfront]](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Zugriffsanforderungen
 
@@ -60,21 +60,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Navigieren innerhalb eines Portfolios
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenü](assets/main-menu-icon.png) in der oberen rechten Ecke von [!DNL Adobe Workfront].
 
-1. Klicken Sie auf [!UICONTROL Portfolios ].
+1. Klicken Sie [!UICONTROL Portfolios].
 1. Wählen Sie **[!UICONTROL Dropdown]** Menü „Filter“ Folgendes aus:
 
-   * **[!UICONTROL Portfolios in meinem Besitz]**: Enthält eine Liste der Portfolios, für die Sie als [!UICONTROL Portfolio-Manager] angegeben sind.
+   * **[!UICONTROL Portfolios, die ich besitze]**: Enthält eine Liste der Portfolios, für die Sie als [!UICONTROL Portfolio-Manager] festgelegt sind.
    * **[!UICONTROL Alle]**: Umfasst alle Portfolios, für die Sie zumindest Ansichtszugriff haben.
 
      Weitere Informationen zum Zugriff auf Portfolios finden Sie unter [Übersicht über Zugriffsebenen](../../../administration-and-setup/add-users/access-levels-and-object-permissions/access-levels-overview.md).
-Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Portfolio freigeben](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
+Weitere Informationen zu Berechtigungen für Portfolios finden Sie unter [Freigeben eines Portfolios](../../../workfront-basics/grant-and-request-access-to-objects/share-a-portfolio.md).
 
      Informationen zum Hinzufügen neuer Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
 1. Klicken Sie auf den Namen eines Portfolios, um darauf zuzugreifen.
-Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfoliodetails] innerhalb eines Portfolios angezeigt:
+Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio-Details] innerhalb eines Portfolios angezeigt:
 
    * Gibt an, ob das Portfolio [!UICONTROL rechtzeitig]
    * Gibt an, ob das Portfolio &quot;[!UICONTROL  Budget“ ]
@@ -105,11 +105,11 @@ Die folgenden Portfolioleistungsmetriken werden im Bereich [!UICONTROL Portfolio
 1. Klicken Sie **[!UICONTROL linken Bedienfeld]**Programme“, um Programme innerhalb des Portfolios zu erstellen oder vorhandene zu verwalten.
 Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](../../../manage-work/portfolios/create-and-manage-programs/create-and-manage-programs.md) Programmen“.
 
-1. (Optional) Erweitern Sie den Bereich **[!UICONTROL Portfoliodetails]** im linken Bereich und klicken Sie dann auf **[!UICONTROL Übersicht]** oder **[!UICONTROL Benutzerdefiniertes Forms]**, um Informationen über das Portfolio zu bearbeiten.
+1. (Optional) Erweitern Sie den Bereich **[!UICONTROL Portfolio]** Details im linken Bereich und klicken Sie dann auf **[!UICONTROL Übersicht]** oder **[!UICONTROL Benutzerdefinierte Forms]**, um Informationen zum Portfolio zu bearbeiten.
 
-1. Portfolio (Optional) Klicken Sie im linken ]**auf**[!UICONTROL  Portfoliooptimierung, um die Performance des Portfolios zu optimieren.
+1. Portfolio (Optional) Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Optimierung, um die Leistung des Portfolios zu optimieren.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio Optimizer mit Projekten](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    >[!IMPORTANT]
    >
@@ -119,7 +119,7 @@ Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](.
 
 1. (Optional) Klicken Sie **linken Bereich** Dokumente“, um Dokumente an das Portfolio anzuhängen.
 1. (Optional) Klicken Sie **[!UICONTROL linken]** auf „Updates“, um dem Aktualisierungsverlauf des Portfolios Kommentare hinzuzufügen. Weitere Informationen finden Sie unter [Arbeit aktualisieren](../../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
-1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr]-Menü** ![](assets/qs-more-icon-on-an-object.png), um eine der folgenden Aktionen durchzuführen:
+1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr] Menü** ![Mehr ](assets/qs-more-icon-on-an-object.png), um einen der folgenden Schritte auszuführen:
 
    * Deaktivieren Sie das Portfolio. Wenn ein Portfolio deaktiviert ist, können Sie es nicht mehr mit Projekten auf Projektebene verknüpfen.
    * Löschen Sie das Portfolio.
@@ -130,4 +130,4 @@ Informationen zu Programmen finden Sie im Abschnitt [Erstellen und Verwalten ](.
 
    * Portfolio für andere Benutzer freigeben.
 
-1. (Optional) Klicken Sie auf das **Stern**-Symbol ![](assets/qs-star-icon-favorites-39x38.png) rechts neben dem Portfolionamen, um das Portfolio zu Ihrer Favoritenliste hinzuzufügen.
+1. (Optional) Klicken Sie auf das **Stern**-Symbol ![Stern](assets/qs-star-icon-favorites-39x38.png) rechts neben dem Portfolionamen, um das Portfolio zu Ihrer Favoritenliste hinzuzufügen.

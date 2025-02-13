@@ -6,9 +6,9 @@ description: Sie können Informationen zu Programmen bearbeiten, die Sie erstell
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 7dcdfc5a-3fc1-48a8-ae28-a6a0a458732e
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '1034'
 ht-degree: 0%
 
 ---
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Wenn Sie alle Informationen über das Programm bearbeiten möchten, gehen Sie zu Schritt 4.
 
-   ![](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
+   ![Programmdetails mit Abschnitt für benutzerdefiniertes Formular](assets/program-details-with-a-custom-form-section-nwe-350x137.png)
 
    >[!NOTE]
    >
@@ -81,10 +81,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Gehen Sie wie folgt vor, um Informationen [!UICONTROL  Abschnitt ]Details“ zu bearbeiten:
 
    1. (Optional) Klicken Sie auf **[!UICONTROL Symbol „Alle]** reduzieren“ in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** ![](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
    1. Informationen zu den im Abschnitt [!UICONTROL Programmdetails] angezeigten Feldern erhalten Sie, indem Sie das Programm wie unten beschrieben im Feld [!UICONTROL Programm ] bearbeiten.
    1. (Optional) Wenn keine benutzerdefinierten Formulare an das Programm angehängt sind, geben Sie den Namen eines Formulars in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.
-   1. (Optional) Klicken Sie auf das **[!UICONTROL Exportieren]**-Symbol ![](assets/export.png), um die Informationen [!UICONTROL Übersicht] und benutzerdefinierte Formulare in eine PDF-Datei zu exportieren, und klicken Sie dann auf **[!UICONTROL Exportieren]**. Wählen Sie aus den folgenden Optionen aus:
+   1. (Optional) Klicken Sie auf **[!UICONTROL Export]**-Symbol ![Export](assets/export.png), um die [!UICONTROL Übersicht] und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **[!UICONTROL Exportieren]**. Wählen Sie aus den folgenden Optionen aus:
 
       * Alle auswählen (wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular angehängt ist)
       * [!UICONTROL Übersicht]
@@ -92,19 +92,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
       Die PDF-Datei wird auf Ihren Computer heruntergeladen.
 
-      ![](assets/export-portfolio-details-box-with-export-button-350x368.png)
+      ![Portfoliodetails exportieren](assets/export-portfolio-details-box-with-export-button-350x368.png)
 
       Weitere Informationen finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
 
 1. Führen Sie einen der folgenden Schritte aus, um alle Informationen zu einem oder mehreren Programmen zu bearbeiten:
 
-   * Klicken Sie auf das **[!UICONTROL Mehr]**-![](assets/more-icon.png) neben dem Programmnamen und dann &#x200B;**[!UICONTROL Bearbeiten].**
-   * Gehen Sie zu einer Liste von Programmen und wählen Sie ein oder mehrere Programme aus, die Sie bearbeiten möchten, und klicken Sie dann oben in der Liste auf **[!UICONTROL Bearbeiten]**-Symbol ![](assets/edit-icon.png).
+   * Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png) neben dem Programmnamen und dann &#x200B;**[!UICONTROL Bearbeiten].**
+   * Gehen Sie zu einer Liste von Programmen und wählen Sie ein oder mehrere Programme aus, die Sie bearbeiten möchten, und klicken Sie dann oben in der Liste auf **[!UICONTROL Bearbeiten]**-Symbol ![Bearbeiten](assets/edit-icon.png)Symbol.
 
    Das **[!UICONTROL Programm bearbeiten]** Dialogfeld wird angezeigt.
 
-   ![](assets/edit-program-box-nwe-350x236.png)
+   ![Feld „Programm bearbeiten“](assets/edit-program-box-nwe-350x236.png)
 
    Alle Programmfelder sind im Feld [!UICONTROL Programm bearbeiten] verfügbar und werden nach den im linken Bereich aufgelisteten Bereichen gruppiert.
 
@@ -140,7 +140,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Beschreibung]</td> 
-      <td> <p>Geben Sie eine Beschreibung für das Portfolio ein, um anzugeben, was eindeutig ist. </p> </td> 
+      <td> <p>Geben Sie eine Beschreibung für die Portfolio ein, um anzugeben, was eindeutig ist. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Programm-Manager]</td> 
@@ -177,7 +177,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Beginnen Sie mit der Bearbeitung eines Programms wie oben beschrieben.
 1. Klicken Sie **[!UICONTROL Kommentar]**.
 
-   ![](assets/comment-box-in-program-edit-box-classic-350x195.png)
+   ![Kommentarfeld im Feld „Programm bearbeiten“](assets/comment-box-in-program-edit-box-classic-350x195.png)
 
 1. Fügen Sie im Feld **[!UICONTROL Aktualisierung für das Programm posten]** einen Kommentar hinzu.
 1. (Optional) Klicken Sie auf das **[!UICONTROL Personen]**-Symbol, um dem Kommentar einen Benutzer oder ein Team hinzuzufügen.

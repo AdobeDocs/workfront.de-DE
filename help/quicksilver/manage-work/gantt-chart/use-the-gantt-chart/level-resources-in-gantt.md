@@ -6,9 +6,9 @@ description: Informationen zum Abgleichen von Ressourcen im Gantt-Diagramm.
 author: Alina
 feature: Work Management
 exl-id: ba96c01d-03b8-4728-b5e3-b10d227f51b0
-source-git-commit: 980e6c2cea2ceb98abda6b98811e734d895ad274
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '592'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -64,7 +64,7 @@ Beachten Sie beim Abgleichen von Ressourcen für ein Projekt Folgendes:
 * Vorgängerbeziehungen haben Vorrang vor dem Abgleich von Ressourcen.
 * **[!UICONTROL Ressourcenabgleich]** muss für das Projekt auf **[!UICONTROL Manuell]** gesetzt werden, um den Abgleich im [!UICONTROL Gantt-Diagramm] anzupassen. Wenn Sie über Verwaltungsberechtigungen für das Projekt verfügen, können Sie die Ressourcen automatisch auf Systemebene verwalten, indem Sie diese Einstellung für das Projekt anpassen und **[!UICONTROL Automatisch]** anstelle von **[!UICONTROL Manuell]** im **[!UICONTROL Projekt bearbeiten]** auswählen.
 
-  ![](assets/resource-leveling-mode-350x177.png)
+  ![Abgleichsmodus für Ressourcen](assets/resource-leveling-mode-350x177.png)
 
 * Als Projektbesitzer oder Aufgabenbevollmächtigter können Sie eine Abgleichsverzögerung für eine Aufgabe einführen, um anzugeben, dass die Aufgabe möglicherweise zusätzliche Zeit benötigt. Informationen zum Hinzufügen einer Abgleichsverzögerung zu einer Aufgabe finden Sie unter [Aktualisieren der Abgleichsverzögerung für Aufgaben](../../../manage-work/tasks/task-information/task-leveling-delay.md).
 
@@ -83,7 +83,7 @@ Sie können die Aufgabenliste (Gantt[!UICONTROL Diagramm) verwenden] um Ihre Res
    >
    >Sie können Ressourcen im [!UICONTROL Gantt-Diagramm“ nicht abgleichen] wenn die Option [!UICONTROL Automatisches Speichern] aktiviert ist.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manuelle Einstellung aktiviert](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Klicken Sie auf **[!UICONTROL Dropdown-Menü]** Ressourcen abgleichen“.
 

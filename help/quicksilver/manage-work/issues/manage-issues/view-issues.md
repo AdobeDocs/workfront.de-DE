@@ -6,9 +6,9 @@ description: Sie können Probleme anzeigen, die mit einem Projekt, einer Aufgabe
 author: Alina
 feature: Work Management
 exl-id: b6791c8f-b356-4235-8b0e-952e29a88952
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1035'
+source-wordcount: '1038'
 ht-degree: 0%
 
 ---
@@ -142,7 +142,7 @@ Sie können Symbole in der Ansicht eines Projekt- oder Aufgabenberichts oder ein
 
 So fügen Sie Symbole hinzu, die anzeigen, ob ein Projekt in einem Projektbericht Probleme aufweist:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 1. Klicken Sie **Reporting** > **Neuer Bericht** > **Projektbericht**.
 1. Beginnen Sie im Feld **In dieser Spalte anzeigen** mit der Eingabe **Statussymbole** und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 

@@ -6,9 +6,9 @@ description: Die Aufgabenliste Gantt-Diagramm zeigt Details zu Aufgaben an, die 
 author: Alina
 feature: Work Management
 exl-id: 0a8e6fd5-985c-49e5-842d-67ade29ee1c9
-source-git-commit: e2f6eada24b4e48bce58189ec16447eda89f4a09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1030'
+source-wordcount: '1041'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 1. Wechseln Sie zu dem Projekt, das Sie ändern möchten.
 1. Klicken Sie **[!UICONTROL linken]** auf „Aufgaben“.
 
-   ![](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
+   ![Aufgabenbereich](assets/qs-tasks-area-highlighted-in-the-secondary-nav-350x206.png)
 
 1. Klicken Sie auf **[!UICONTROL Symbol]** Gantt-Diagramm“.
 
@@ -73,7 +73,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planungsmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline Planning]**, um Ihre Änderungen manuell zu speichern.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manuelle Einstellung aktiviert](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Bewegen Sie den Mauszeiger über die Zeitleiste einer Aufgabe und ziehen Sie die Zeitleisten-Anzeige auf ein anderes Datum.
 1. Anzeige ignorieren, wenn das richtige neue Abschlussdatum für die Aufgabe erreicht ist.
@@ -103,7 +103,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planungsmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline Planning]**, um Ihre Änderungen manuell zu speichern.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manuelle Einstellung aktiviert](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Um eine Vorgängerbeziehung zu erstellen, klicken Sie auf den Startpunkt einer Aufgabe und ziehen Sie sie an den Endpunkt der Aufgabe.
 1. Um eine Vorgängerbeziehung zu löschen, klicken Sie auf eine Vorgängerzeile, die zwei Aufgaben verbindet, um sie auszuwählen, und drücken Sie dann **[!UICONTROL Löschen]** auf Ihrer Tastatur.\
@@ -135,7 +135,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Planungsmodus]** und wählen Sie **[!UICONTROL Manuelles Speichern von Standard]** oder **[!UICONTROL Timeline Planning]**, um Ihre Änderungen manuell zu speichern.
 
-   ![](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
+   ![Manuelle Einstellung aktiviert](assets/manual-standard-setting-enabled-quicksilver-task-list-350x493.png)
 
 1. Bewegen Sie den Mauszeiger über die Mitte der Aufgabe und suchen Sie den multidirektionalen Pfeil.
 1. Klicken und ziehen Sie die Aufgabe auf das gewünschte Datum.

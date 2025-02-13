@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 2a4488fb-fe2f-422a-887c-996f6367afc5
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1533'
+source-wordcount: '1540'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen mit der Möglichkeit, Probleme zu der Aufgabe oder dem Projekt hinzuzufügen, in dem/dem das Problem erstellt wurde</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte </a>.</p> </td> 
+   <td> <p>Tragen Sie zu oder höheren Berechtigungen mit der Möglichkeit bei, Probleme zu der Aufgabe oder dem Projekt hinzuzufügen, in dem Sie das Problem erstellen</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -111,7 +111,7 @@ To create an issue on a task or a project:
 1. (Conditional) If the project creator created Queue Topics or Topic Groups on the project they are added to the new issue form. Specify the **Topic Group** or the **Queue Topic** of your new issue. Topic Groups and Queue Topics have names customized to your environment.  
    For more information about creating Topic Groups, see [Create Topic Groups](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). For more information about creating Queue Topics, see [Create Queue Topics](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
 
-   ![](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
+   ![New issue screen](assets/new-issue-screen-when-creating-issue-from-list-project-level-nwe-350x422.png)
 
    * If there is only one Queue Topic set on the project, it is displayed automatically.
    * If the Topic Group does not have any Queue Topics or Topic Groups under it, nothing is available in the Topic Group drop-down.
@@ -163,7 +163,7 @@ So erstellen Sie ein Problem bei einer Aufgabe oder einem Projekt:
 1. Klicken Sie **oben** der Problemliste auf „Neues Problem“.
 Das Feld „Neues Problem“ wird angezeigt.
 
-   ![](assets/new-issue-box-matches-new-request-ui.png)
+   ![Neues Problemfeld](assets/new-issue-box-matches-new-request-ui.png)
 
 1. (Bedingt) Wenn der Projektersteller Warteschlangenthemen oder Themengruppen für das Projekt erstellt hat, werden sie zum neuen Anfrageformular hinzugefügt. Geben Sie **Themengruppe** oder das **Warteschlangenthema** Ihres neuen Problems an. Themengruppen und Warteschlangenthemen haben Namen, die an Ihre Umgebung angepasst wurden.\
    Weitere Informationen zum Erstellen von Themengruppen finden Sie unter [Themengruppen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-topic-groups.md). Weitere Informationen zum Erstellen von Warteschlangenthemen finden Sie unter [Warteschlangenthemen erstellen](../../../manage-work/requests/create-and-manage-request-queues/create-queue-topics.md).
@@ -231,7 +231,7 @@ So erstellen Sie Probleme inline:
    >
    >Diese Option ist abgeblendet, wenn die Einstellung Benutzenden erlauben, Probleme inline hinzuzufügen im Feld Projekt bearbeiten deaktiviert ist. Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
-   ![](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
+   ![Schaltfläche „Weitere Probleme hinzufügen“](assets/add-more-issues-button-highlighted-issue-list-nwe-350x272.png)
 
 1. Beginnen Sie, den Namen des Problems in das Namensfeld einzugeben, und fügen Sie dann weitere Informationen über das Problem inline hinzu.
 

@@ -6,9 +6,9 @@ description: Sie können Probleme oder Anfragen in Adobe Workfront löschen, wen
 author: Alina
 feature: Work Management
 exl-id: 31cc802f-7fa6-420c-8494-a45313df1f10
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '728'
+source-wordcount: '735'
 ht-degree: 1%
 
 ---
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Contribute oder höhere Berechtigungen für das Projekt oder die Aufgabe</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Mitwirken an oder höhere Berechtigungen für das Projekt oder die Aufgabe</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -110,7 +110,7 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
 1. Klicken Sie auf **Projekte**.
 1. Klicken Sie auf den Projektnamen, der die Probleme enthält, die Sie löschen möchten.
 1. Klicken Sie **linken** auf „Probleme“.
-1. Wählen Sie ein Problem aus und klicken Sie dann oben in **Liste auf** Symbol „Löschen![](assets/delete.png) .
+1. Wählen Sie ein Problem aus und klicken Sie dann oben in **Liste** Symbol ![Löschen](assets/delete.png) .
 
 1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen**.\
    Ihr Workfront-Administrator erlaubt möglicherweise nicht das Löschen von Anfragen, bei denen Stunden protokolliert werden.\
@@ -123,12 +123,12 @@ Je nachdem, wie Ihr Workfront- oder Gruppen-Administrator die Einstellungen für
 1. Klicken Sie auf den Projektnamen, der das Problem enthält, das Sie löschen möchten.
 1. Klicken Sie **linken** auf „Probleme“.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Probleme-Symbol](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. Klicken Sie auf den Namen des Problems, das Sie löschen möchten.
 1. Klicken Sie auf das **Mehr**-Menü rechts neben dem Problemnamen.
 
-   ![](assets/qs-issue-more-menu-highlighted-350x469.png)
+   ![Menü „Problem Mehr“](assets/qs-issue-more-menu-highlighted-350x469.png)
 
 1. Klicken Sie **Problem löschen**.
 1. Wenn der Löschvorgang zulässig ist, klicken Sie auf **Ja, löschen**.

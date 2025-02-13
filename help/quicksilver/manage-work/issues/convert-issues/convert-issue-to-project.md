@@ -6,9 +6,9 @@ description: Konvertieren eines Problems in ein Projekt in Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: e3ba15a3-6169-466c-9912-32a8afdcc68d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '1975'
 ht-degree: 1%
 
 ---
@@ -69,12 +69,12 @@ Sie können ein Problem in ein leeres Projekt konvertieren.
 1. Gehen Sie zu einem Projekt und klicken Sie **[!UICONTROL linken Bereich]** Probleme“.
 1. Führen Sie in der angezeigten Problemliste einen der folgenden Schritte aus:
 
-   * Um ein Problem in ein leeres Projekt zu konvertieren, klicken Sie auf den Namen des Problems, klicken Sie auf das **[!UICONTROL Mehr]**-Menü ![](assets/more-icon.png) rechts neben dem Problemnamen und dann auf **[!UICONTROL In ein leeres Projekt konvertieren]**.
+   * Um ein Problem in ein leeres Projekt zu konvertieren, klicken Sie auf den Namen des Problems, klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr](assets/more-icon.png) rechts neben dem Problemnamen und klicken Sie dann auf **[!UICONTROL In ein leeres Projekt konvertieren]**.
 
 
      Oder
 
-     Wählen Sie das Problem in der Problemliste aus, klicken Sie oben in der Liste auf **[!UICONTROL Mehr]**-![](assets/more-icon.png) und dann auf **[!UICONTROL In ein leeres Projekt konvertieren]**.
+     Wählen Sie das Problem in der Problemliste aus, klicken Sie oben in der Liste auf **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png) und klicken Sie dann auf **[!UICONTROL In ein leeres Projekt konvertieren]**.
 
      >[!IMPORTANT]
      >
@@ -122,7 +122,7 @@ Sie können ein Problem in ein leeres Projekt konvertieren.
    * Überprüfen Sie die benutzerdefinierten Formulare, die an das Problem angehängt sind. Sie werden in das neue Projekt übertragen, wenn sie auch benutzerdefinierte Projektformulare sind.
    * Weitere benutzerdefinierte Formulare hinzufügen
    * Stellen Sie sicher, dass alle erforderlichen Felder über gültige Informationen verfügen.
-   * Ordnen Sie die benutzerdefinierten Formulare neu an, indem Sie sie ![](assets/drag-object-icon.png) die gewünschte Position ziehen.
+   * Ordnen Sie die benutzerdefinierten Formulare neu an, indem Sie sie ![Drag-Symbol](assets/drag-object-icon.png) an die gewünschte Position ziehen.
    * Klicken Sie auf das **x**-Symbol rechts neben jedem Formular, das Sie nicht in das Projekt übertragen möchten. Dadurch wird das Formular aus dem Projekt entfernt.
    * Falls erforderlich, übertragen Sie benutzerdefinierte Formularinformationen von der Anfrage an das Projekt.
 
@@ -153,7 +153,7 @@ Sie können ein Problem in ein leeres Projekt konvertieren.
 Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
 
 1. Gehen Sie zu einem Projekt und klicken Sie **[!UICONTROL linken Bereich]** Probleme“.
-1. Klicken Sie in der angezeigten Problemliste auf den Namen des Problems, klicken Sie auf das Menü **[!UICONTROL Mehr]** rechts ![](assets/more-icon.png) dem Problemnamen, klicken Sie dann auf **Aus Vorlage in Projekt konvertieren** und geben Sie den Namen einer Vorlage in das Feld **Suchvorlage** ein. Klicken Sie dann auf den Namen der Vorlage, wenn sie in der Liste angezeigt wird. Fahren Sie mit Schritt 3 fort.
+1. Klicken Sie in der angezeigten Problemliste auf den Namen des Problems, klicken Sie auf das Menü **[!UICONTROL Mehr]** ![Mehr](assets/more-icon.png) rechts neben dem Problemnamen, klicken Sie dann auf **Aus Vorlage in Projekt konvertieren** und geben Sie den Namen einer Vorlage in das Feld **Suchvorlage** ein. Klicken Sie dann auf den Namen der Vorlage, wenn sie in der Liste angezeigt wird. Fahren Sie mit Schritt 3 fort.
 
    >[!TIP]
    >
@@ -161,7 +161,7 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
 
    Das Feld Neues Projekt aus Vorlage wird angezeigt.
 
-   ![](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
+   ![Neues Projekt aus Vorlage](assets/new-project-from-template-small-box-with-template-details-panel-nwe-350x279.png)
 
    >[!TIP]
    >
@@ -180,7 +180,7 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
    * Die Anzahl aller Aufgaben in der Vorlage
    * Die Namen der benutzerdefinierten Vorlagenformulare
 
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Vorlage und klicken Sie auf das **Favoriten**-Symbol, ![](assets/favorites-icon-small.png) sie als Favorit für die zukünftige Verwendung zu markieren.
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Vorlage und klicken Sie auf das **Favoriten**-Symbol ![Favoriten](assets/favorites-icon-small.png), um diese als Favorit für die zukünftige Verwendung zu markieren.
 
    >[!TIP]
    >
@@ -190,7 +190,7 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
 
    Das [!UICONTROL In Projekt konvertieren] wird geöffnet.
 
-   ![](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
+   ![In Projekt konvertieren](assets/convert-to-project-from-template-large-project-box-nwe-350x291.png)
 
 1. Wenn ein Feld bereits in der Vorlage ausgefüllt ist, wird das Feld im Feld [!UICONTROL In Projekt konvertieren] vorausgefüllt. Sie können die vorausgefüllten Werte bearbeiten, um sie besser an Ihr Projekt anzupassen. Weitere Informationen finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -230,7 +230,7 @@ Sie können ein Problem mithilfe einer Vorlage in ein Projekt konvertieren.
       * Überprüfen Sie die benutzerdefinierten Formulare, die an die Vorlage angehängt sind. Sie werden auf das neue Projekt übertragen.
       * Überprüfen Sie die benutzerdefinierten Formulare, die an das Problem angehängt sind. Sie werden auf das Projekt übertragen, wenn sie ebenfalls Projekteformulare sind.
       * Stellen Sie sicher, dass alle erforderlichen Felder über gültige Informationen verfügen.
-      * Ordnen Sie die benutzerdefinierten Formulare neu an, indem Sie sie ![](assets/drag-object-icon.png) die gewünschte Position ziehen.
+      * Ordnen Sie die benutzerdefinierten Formulare neu an, indem Sie sie ![Drag-Symbol](assets/drag-object-icon.png) an die gewünschte Position ziehen.
       * Klicken Sie auf das **x**-Symbol rechts neben jedem Formular, das Sie nicht in das Projekt übertragen möchten.
       * Falls erforderlich, übertragen Sie benutzerdefinierte Formularinformationen von der Anfrage an das Projekt.
 

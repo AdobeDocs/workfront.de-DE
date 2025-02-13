@@ -6,9 +6,9 @@ description: Die Gantt-Diagramme in Adobe Workfront bieten eine visuelle Darstel
 author: Alina
 feature: Work Management
 exl-id: 96c4e254-ebbe-41d8-a178-7a79ac0abbbd
-source-git-commit: 30eb12a4155b218b001b4d235229fbb0fbe40a45
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '530'
+source-wordcount: '538'
 ht-degree: 1%
 
 ---
@@ -69,9 +69,9 @@ So greifen Sie auf die Aufgabenliste [!UICONTROL Gantt-Diagramm] eines Projekts 
    * Eine Aufgabe oder Vorlagenaufgabe, und klicken Sie dann im **]Bereich auf[!UICONTROL ** Teilaufgaben“.
    * Aufgabenbericht
 
-1. Klicken Sie auf [!UICONTROL **Gantt**]-Symbol ![](assets/gantt-icon-nwe.png) oben in der Aufgabenliste.
+1. Klicken Sie auf [!UICONTROL **Gantt**]-Symbol ![Gantt](assets/gantt-icon-nwe.png) oben in der Aufgabenliste.
 
-   ![](assets/task-list-gantt.png)
+   ![Aufgabenliste - Gantt](assets/task-list-gantt.png)
 
    Die Aufgabenliste [!UICONTROL Gantt-Diagramm] wird rechts neben der Aufgabenliste geöffnet.
 
@@ -108,13 +108,13 @@ So greifen Sie auf die Projektliste [!UICONTROL Gantt-Diagramm] zu:
 1. Wechseln Sie zu einem der folgenden Bereiche:
 
    * Der [!UICONTROL **Projekte**] Bereich
-   * Der [!UICONTROL **Projekte**] eines [!UICONTROL Portfolios ]
+   * Der [!UICONTROL **Projekte**] eines [!UICONTROL Portfolio]
    * Der [!UICONTROL **Projekte**] eines [!UICONTROL Programms]
    * Ein [!UICONTROL **Projekt**] Bericht
 
 1. Klicken Sie oben [!UICONTROL **der Projektliste auf**] Gantt“-Symbol.
 
-   ![](assets/project-list-gantt.png)
+   ![Projektliste Gantt](assets/project-list-gantt.png)
 
    Die Projektliste [!UICONTROL Gantt-Diagramm] wird geöffnet.
 

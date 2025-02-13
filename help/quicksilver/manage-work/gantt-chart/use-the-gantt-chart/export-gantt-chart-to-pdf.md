@@ -1,24 +1,24 @@
 ---
 navigation-topic: use-the-gantt-chart
-title: Exportieren des Gantt-Diagramms auf PDF
-description: Sie können das Gantt-Diagramm auf eine PDF exportieren. Nachdem Sie das Gantt-Diagramm auf PDF exportiert haben, können Sie es ausdrucken oder an eine E-Mail anhängen, um es für andere Benutzer freizugeben.
+title: Exportieren des Gantt-Diagramms nach PDF
+description: Sie können das Gantt-Diagramm in eine PDF exportieren. Nachdem Sie das Gantt-Diagramm nach PDF exportiert haben, können Sie es ausdrucken oder an eine E-Mail anhängen, um es für andere Benutzer freizugeben.
 author: Alina
 feature: Work Management
 exl-id: 91aad9e0-25c9-4eae-aa66-8aab763d3b76
-source-git-commit: 3097aca9b8fd856bbf3f91a354b5083fa7b23830
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1045'
+source-wordcount: '1049'
 ht-degree: 1%
 
 ---
 
-# Exportieren des [!UICONTROL Gantt-Diagramms] auf PDF
+# Exportieren des [!UICONTROL Gantt-Diagramms] nach PDF
 
 <!--Audited: 09/2024-->
 
-Sie können das [!UICONTROL Gantt-Diagramm] auf eine PDF exportieren.
+Sie können das [!UICONTROL Gantt-Diagramm] in eine PDF exportieren.
 
-Nachdem Sie das [!UICONTROL Gantt-Diagramm] auf PDF exportiert haben, können Sie es ausdrucken oder an eine E-Mail anhängen, um es für andere Benutzer freizugeben.
+Nachdem Sie das [!UICONTROL Gantt-Diagramm] in PDF exportiert haben, können Sie es ausdrucken oder an eine E-Mail anhängen, um es für andere Benutzer freizugeben.
 
 ## Zugriffsanforderungen
 
@@ -56,7 +56,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
 ## Exportieren Sie das [!UICONTROL Gantt-Diagramm]
 
-1. Rufen Sie das [!UICONTROL Gantt-]) auf, das Sie nach PDF exportieren möchten, wie in [Erste Schritte mit dem [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md) beschrieben.
+1. Greifen Sie auf das [!UICONTROL Gantt]Diagramm) zu, das Sie nach PDF exportieren möchten, wie in [Erste Schritte mit dem [!UICONTROL Gantt-Diagramm]](../../../manage-work/gantt-chart/use-the-gantt-chart/get-started-with-gantt.md) beschrieben.
 1. Stellen Sie sicher, dass Sie das [!UICONTROL Gantt-Diagramm] so konfiguriert haben, dass die entsprechenden Informationen vor dem Export angezeigt werden.
 
    >[!NOTE]
@@ -75,7 +75,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
    * Wählen Sie die **Zu voraussichtlichen Terminen wechseln** aus, um voraussichtliche anstatt geplante Termine anzuzeigen. Standardmäßig werden geplante Termine angezeigt.
 
-   * Klicken Sie auf **Einstellungen** in der oberen rechten Ecke des Gantt-Diagramms ![](assets/settings-icon.png) und wählen Sie aus, welche Informationen Sie im Gantt-Diagramm anzeigen möchten. Nach der Auswahl werden diese Informationen in die exportierte Gantt-PDF-Datei aufgenommen.
+   * Klicken Sie auf **Einstellungen**-Symbol ![Einstellungen](assets/settings-icon.png) in der oberen rechten Ecke des Gantt-Diagramms und wählen Sie aus, welche Informationen Sie im Gantt-Diagramm anzeigen möchten. Nach der Auswahl werden diese Informationen in die exportierte Gantt-PDF-Datei aufgenommen.
 
      Wählen Sie aus den folgenden Optionen aus:
 
@@ -95,7 +95,7 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
      >[!NOTE]
      >
-     > Zuweisungen werden nicht im [!UICONTROL Gantt-Diagramm] angezeigt, wenn das [!UICONTROL Gantt-Diagramm] auf PDF exportiert wird. Wenn das [!UICONTROL Gantt-]) auf PDF exportiert wird, werden Zuweisungen nur in der Listenansicht angezeigt.
+     > Zuweisungen werden nicht im [!UICONTROL Gantt-Diagramm] angezeigt, wenn das [!UICONTROL Gantt-Diagramm] nach PDF exportiert wird. Wenn das [!UICONTROL Gantt-]) nach PDF exportiert wird, werden Zuweisungen nur in der Listenansicht angezeigt.
 
    * Der Zeitraum, der auf dem [!UICONTROL Gantt-Diagramm“ angezeigt ].
 
@@ -105,12 +105,12 @@ Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel zu befo
 
 1. (Optional) Um nur bestimmte Aufgaben in die exportierte PDF aufzunehmen, wählen Sie die Aufgaben aus, die Sie einbeziehen möchten.
 
-   Wenn Sie keine Aufgaben auswählen, werden alle Aufgaben auf der exportierten PDF gespeichert.
+   Wenn Sie keine Aufgaben auswählen, werden alle Aufgaben in die exportierte PDF aufgenommen.
 
    Wenn Sie beispielsweise das [!UICONTROL Gantt-Diagramm] für ein Projekt mit 50 Vorgängen anzeigen, aber nur 10 Vorgänge auf dem exportierten [!UICONTROL Gantt-Diagramm] anzeigen möchten, wählen Sie die 10 Vorgänge aus, die angezeigt werden sollen.
 
-1. Klicken Sie auf das Drucker-Symbol ![](assets/printer-icon.png) in der oberen rechten Ecke des Gantt-Diagramms.
-Das **[!UICONTROL Auf PDF exportieren]** wird angezeigt.
+1. Klicken Sie auf das Druckersymbol ![Druckersymbol](assets/printer-icon.png) in der rechten oberen Ecke des Gantt-Diagramms.
+Das **[!UICONTROL In PDF exportieren]** wird angezeigt.
 
    ![exported_Gantt_UI.png](assets/exported-gantt-ui-350x225.png)
 
@@ -118,7 +118,7 @@ Das **[!UICONTROL Auf PDF exportieren]** wird angezeigt.
 
    * **[!UICONTROL Was ich sehe]:** Exportiert alle Aufgaben (einschließlich aller Unteraufgaben), die vor dem Exportieren von bis zu 500 Elementen auf dem Bildschirm angezeigt werden. (Dies wird nicht im Abschnitt **[!UICONTROL Vorschau]** angezeigt; der Abschnitt [!UICONTROL Vorschau] enthält nur Beispieldaten.)
 
-     Teilaufgaben werden auf der exportierten PDF auch dann eingeschlossen, wenn die übergeordnete Aufgabe reduziert ist und die Teilaufgaben nicht sichtbar sind. Um nur übergeordnete Aufgaben einzubeziehen, wählen Sie die einzubeziehenden übergeordneten Aufgaben aus und lassen Sie alle Unteraufgaben deaktiviert.
+     Teilaufgaben werden auch dann in die exportierte PDF aufgenommen, wenn die übergeordnete Aufgabe reduziert ist und die Teilaufgaben nicht sichtbar sind. Um nur übergeordnete Aufgaben einzubeziehen, wählen Sie die einzubeziehenden übergeordneten Aufgaben aus und lassen Sie alle Unteraufgaben deaktiviert.
 
      >[!TIP]
      >
@@ -140,7 +140,7 @@ Das **[!UICONTROL Auf PDF exportieren]** wird angezeigt.
      >   * Wenn es mehr als 500 Elemente enthält
 
 
-1. Wenn die PDF nach dem Export auf PDF gedruckt wird, wählen Sie im Dropdown-Menü **[!UICONTROL Seitengröße]** die Papiergröße aus, auf die Sie drucken möchten.
+1. Wenn der PDF nach dem Export in PDF gedruckt wird, wählen Sie **[!UICONTROL Dropdown-Menü]**Seitengröße“ die Papiergröße aus, in die gedruckt werden soll.
 Sie können aus den folgenden Optionen auswählen:
 
    * **[!UICONTROL Brief]**
@@ -150,8 +150,8 @@ Sie können aus den folgenden Optionen auswählen:
    * **[!UICONTROL A2]**
    * **[!UICONTROL A3]** (nur für einige Sprachen verfügbar)
    * **[!UICONTROL A4]**
-1. Wählen Sie **[!UICONTROL Abschnitt]** aus, ob die PDF im Querformat oder im Hochformat exportiert werden soll.
-1. Wählen Sie **[!UICONTROL Legende anzeigen]** aus, wenn Sie die Legende auf Ihrer exportierten PDF verwenden möchten.
+1. Wählen **[!UICONTROL im Abschnitt]** aus, ob der PDF im Querformat oder im Hochformat exportiert werden soll.
+1. Wählen Sie **[!UICONTROL Legende anzeigen]** aus, wenn Sie die Legende in Ihre exportierte PDF aufnehmen möchten.
 1. Klicken Sie **[!UICONTROL Exportieren]**.
 
    Die PDF-Datei des [!UICONTROL Gantt-]) wird erstellt und auf Ihren Computer heruntergeladen.

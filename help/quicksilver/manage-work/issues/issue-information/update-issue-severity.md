@@ -6,9 +6,9 @@ description: Sie können Probleme in Adobe Workfront mit einem Schweregrad verkn
 author: Alina
 feature: Work Management
 exl-id: 81302e9c-8861-4a08-b8b3-c4eeac54524e
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '333'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Probleme sind unerwartete Ereignisse, die verhindern können, dass Ihre Projekte
 Ihr Workfront-Administrator definiert die in Workfront verfügbaren Schweregrade. Nachdem sie eingerichtet wurden, können Sie sie mit einem Problem verknüpfen.\
 Weitere Informationen zum Erstellen von Schweregraden in Workfront finden Sie unter [Erstellen oder Anpassen von ](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-issue-severities.md).
 
-Sie müssen über Contribute-Berechtigungen für ein Problem verfügen, um dessen Schweregrad aktualisieren zu können. 
+Sie müssen über Beitragsberechtigungen für ein Problem verfügen, um dessen Schweregrad aktualisieren zu können. 
 
 Sie können den Schweregrad von Problemen in den folgenden Bereichen von Workfront aktualisieren:
 
@@ -70,7 +70,7 @@ So aktualisieren Sie den Schweregrad eines Problems im Bereich „Problemdetails
 
 1. Klicken Sie auf das **Schweregrad** im Bereich **Grundlegende Informationen**.
 
-   ![](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
+   ![Schweregrad des Problems](assets/nwe-issue-severity-field-in-details-highlighted-350x112.png)
 
 1. Wählen Sie den entsprechenden **Schweregrad** aus dem Dropdown-Menü aus.
 

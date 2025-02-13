@@ -6,9 +6,9 @@ description: Portfolios sind Sammlungen von Projekten oder Programmen in Adobe W
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: f88669d2-e8e9-4905-a771-1427b1fd32b2
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '358'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -71,22 +71,22 @@ Beachten Sie bei der Entscheidung, ob Portfolios gelöscht oder deaktiviert werd
 
 ## Portfolio deaktivieren
 
-Wenn Sie ein Portfolio deaktivieren, können Sie weiterhin über den Bereich [!UICONTROL Portfolios ] darauf zugreifen. Wenn Benutzende versuchen, es zu einem Projekt hinzuzufügen, wird es jedoch nicht mehr in der Liste der Portfolios angezeigt.
+Wenn Sie ein Portfolio deaktivieren, können Sie weiterhin über den Bereich [!UICONTROL Portfolios] darauf zugreifen. Wenn Benutzer versuchen, es zu einem Projekt hinzuzufügen, wird es jedoch nicht mehr in der Liste der Portfolios angezeigt.
 
 >[!NOTE]
 >
->Je nachdem, wie Ihr [!DNL Workfront]- oder Gruppenadministrator Ihre Layoutvorlage konfiguriert, wird der Bereich [!UICONTROL Portfolios ] möglicherweise nicht im [!UICONTROL Hauptmenü] angezeigt. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
+>Je nachdem, wie Ihr [!DNL Workfront]- oder Gruppenadministrator Ihre Layoutvorlage konfiguriert, wird der Bereich [!UICONTROL Portfolios] möglicherweise nicht im [!UICONTROL Hauptmenü] angezeigt. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md).
 
 {{step1-click-main-menu}}
 
-1. Klicken Sie auf **[!UICONTROL Portfolios]** .
+1. Klicken Sie **[!UICONTROL Portfolios]** .
 1. Klicken Sie auf den Namen des Portfolios.
-1. Klicken Sie auf **Mehr**-![](assets/more-icon.png) rechts neben dem Portfolionamen und dann auf **[!UICONTROL Portfolio deaktivieren]**.
+1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-icon.png) rechts neben dem Portfolionamen und klicken Sie dann auf **[!UICONTROL Portfolio deaktivieren]**.
 
 ## Löschen eines Portfolios
 
 {{step1-click-main-menu}}
 
-1. Klicken Sie auf **[!UICONTROL Portfolios]** .
-1. Wählen Sie das Portfolio aus und klicken Sie dann auf **[!UICONTROL Löschen]**&#x200B; das [!UICONTROL Löschen]-Symbol ![](assets/delete.png).
+1. Klicken Sie **[!UICONTROL Portfolios]** .
+1. Wählen Sie das Portfolio aus und klicken Sie dann auf **[!UICONTROL Löschen]**&#x200B; das [!UICONTROL Löschen]-Symbol ![Löschen-Symbol](assets/delete.png).
 1. Klicken Sie **[!UICONTROL Ja, löschen]** zur Bestätigung.

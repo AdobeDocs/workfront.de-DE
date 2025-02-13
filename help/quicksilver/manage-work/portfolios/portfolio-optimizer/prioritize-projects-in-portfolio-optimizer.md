@@ -6,25 +6,25 @@ description: Sie können Ihre Projekte im Portfolio Optimizer nach Priorität or
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 54e33746-5995-49de-8e21-bf973f0694a6
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '534'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
 
 # Priorisieren von Projekten im [!UICONTROL Portfolio Optimizer]
 
-Sie können Ihre Projekte im [!UICONTROL Portfolio Optimizer] priorisieren, um die Reihenfolge festzulegen, in der sie abgeschlossen werden sollen.
+Sie können Ihre Projekte in [!UICONTROL Portfolio Optimizer] priorisieren, um die Reihenfolge festzulegen, in der sie abgeschlossen werden sollen.
 
-Beachten Sie bei der Verwendung des [!UICONTROL Portfolio-Optimizers Folgendes]:
+Beachten Sie bei der Verwendung des [!UICONTROL Portfolio Optimizer] Folgendes:
 
-* Die Projekte oben in [!UICONTROL Portfolio Optimizer] werden als wichtiger erachtet als die unten aufgeführten. Sie müssen die Projekte in der Reihenfolge ihrer Priorität im [!UICONTROL Portfolio Optimizer} abschließen] damit das Portfolio optimiert werden kann.
+* Die Projekte oben in [!UICONTROL Portfolio Optimizer] werden als wichtiger erachtet als die unten aufgeführten. Sie müssen die Projekte in der Reihenfolge ihrer Priorität in [!UICONTROL Portfolio Optimizer} abschließen] damit die Portfolio optimiert werden kann.
 * Die Priorität von Projekten in [!UICONTROL Portfolio Optimizer] hat nichts mit dem Feld [!UICONTROL Priorität] auf der Registerkarte [!UICONTROL Projektdetails] eines Projekts zu tun.
 
   Das Feld [!UICONTROL Priorität] auf der Registerkarte [!UICONTROL Projektdetails] ist eine visuelle Markierung, die Sie manuell angeben, um zu verstehen, wie wichtig ein Projekt sein sollte.
 
-* Die Priorität von Projekten im Portfolio-Optimizer ist in der [!DNL Resource Planner] sichtbar, wenn er dort aktiviert ist. In der [!DNL Resource Planner] erhalten Projekte Ressourcen in der Reihenfolge ihrer Priorität [!UICONTROL Ressourcenplaner] und nicht der Priorität [!UICONTROL Portfolio ].
+* Die Priorität von Projekten in Portfolio Optimizer ist in der [!DNL Resource Planner] sichtbar, wenn sie dort aktiviert ist. In der [!DNL Resource Planner] erhalten Projekte Ressourcen in der Reihenfolge ihrer Priorität [!UICONTROL Ressourcenplaner] und nicht der Priorität [!UICONTROL Portfolio].
 
   Informationen zur Priorisierung von Projekten im [!UICONTROL Ressourcenplaner] finden Sie im Artikel [Priorisieren von Projekten im [!UICONTROL Ressourcenplaner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).
 
@@ -55,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Manage]-Berechtigungen für das Portfolio</p> <p>Contribute oder höhere Berechtigungen für die Projekte</p> 
+   <td> <p>[!UICONTROL Manage]-Berechtigungen für das Portfolio</p> <p>Mitwirken an oder höhere Berechtigungen für die Projekte</p> 
    <p>Sie müssen über Verwaltungsberechtigungen für alle Projekte in der Liste verfügen, um „Projektpriorität festlegen<b> verwenden zu </b>.</p>
     </td> 
   </tr> 
@@ -68,15 +68,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Ändern der Priorität von Projekten im [!UICONTROL Portfolio Optimizer]
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
-1. Klicken Sie auf **[!UICONTROL Portfolios]**.
+1. Klicken Sie **[!UICONTROL Portfolios]**.
 1. (Optional) Wählen Sie den richtigen Filter im Dropdown-Menü **[!UICONTROL Filter]** aus, um die richtige Liste der Portfolios anzuzeigen.
 1. Klicken Sie auf den Namen eines Portfolios, um es zu öffnen.
 1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Optimierung.
 1. Ändern Sie im Bereich [!UICONTROL Projektoptimierung] die Priorität Ihrer Projekte, indem Sie die Projekte nach ihrer Priorität ziehen und dann an die gewünschte Anzeigeposition ablegen.
 
-   ![](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
+   ![Portfolio Optimizer mit Projekten](assets/portfolio-optimizer-with-projects-nwe-350x89.png)
 
    Klicken Sie **[!UICONTROL Bereich &quot;]**&quot; im Bereich „Projektoptimierung“, wenn Sie die Neuanordnung Ihrer Projekte abgeschlossen haben. Die Projekte erhalten eine neue Nummer basierend auf der neuen Bestellung.
 
@@ -86,6 +86,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Dies ändert nicht unbedingt die Reihenfolge der Projekte im [!UICONTROL Portfolio Optimizer], da die Liste der Projekte möglicherweise nach einer anderen Spalte als der Spalte **#** sortiert ist. Klicken Sie auf die Spaltenüberschrift **#**, um die Liste nach Projektpriorität zu sortieren.
 
-   Sie können die Priorität des Projekts so anzeigen, wie sie in [!UICONTROL Portfolio Optimizer] im Ressourcenplaner angezeigt wird, indem Sie die Einstellung **[!UICONTROL Portfolio-Prioritäten anzeigen]** im Ressourcenplaner aktivieren.
+   Sie können die Priorität des Projekts so anzeigen, wie sie in [!UICONTROL Portfolio Optimizer] im Ressourcenplaner angezeigt wird, indem Sie die **[!UICONTROL Portfolio-Prioritäten anzeigen]** im Ressourcenplaner aktivieren.
 
    Informationen zur Priorisierung von Projekten im [!UICONTROL Ressourcenplaner] finden Sie im Artikel [Priorisieren von Projekten im [!UICONTROL Ressourcenplaner]](../../../resource-mgmt/resource-planning/prioritize-projects-resource-planner.md).

@@ -2,19 +2,19 @@
 content-type: overview
 product-area: portfolios
 navigation-topic: portfolio-optimizer
-title: Übersicht über die Portfolio Optimizer-Bewertung
-description: Den Portfolio Optimizer-Wert finden Sie im Portfolio Optimizer. Er wird für jedes Projekt in [!UICONTROL  Spalte ]Score“ angezeigt. Dies stellt eine Bewertung für jedes Projekt im Portfolio dar.
+title: Überblick über die Portfolio Optimizer-Bewertung
+description: Den Portfolio Optimizer-Score finden Sie im Portfolio Optimizer. Er wird für jedes Projekt in [!UICONTROL  Spalte ]Score“ angezeigt. Dies stellt eine Bewertung für jedes Projekt im Portfolio dar.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 4451b1a3-57ae-4c66-a6a1-a85bd51a1648
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '737'
 ht-degree: 0%
 
 ---
 
-# Übersicht über die Bewertung von [!UICONTROL Portfolio Optimizer]
+# Übersicht über die Bewertung von [!UICONTROL Portfolio ]Optimizer&#39;
 
 <!--Audited: 01/2025-->
 
@@ -22,7 +22,7 @@ Den Wert für [!UICONTROL Portfolio Optimizer] finden Sie im [!UICONTROL Portfol
 
 Informationen zum Auffinden von [!UICONTROL Portfolio Optimizer] finden Sie im Artikel [[!UICONTROL Portfolio Optimizer] - Übersicht](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
-Informationen dazu, wie [!DNL Adobe Workfront] den Projektwert und andere Projektinformationen zur Optimierung von Projekten im [!UICONTROL Portfolio Optimizer] verwendet, finden Sie unter [Optimieren von Projekten im Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
+Informationen dazu, wie [!DNL Adobe Workfront] den Projektwert und andere Projektinformationen zur Optimierung von Projekten in [!UICONTROL Portfolio Optimizer] verwendet, finden Sie unter [Optimieren von Projekten in Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 
 ## Unterschied zwischen dem [!UICONTROL Alignment Score] und dem [!UICONTROL Portfolio Optimizer-Score]
 
@@ -30,21 +30,21 @@ Es gibt einen Unterschied zwischen dem Alignment-Score und dem Portfolio-Optimiz
 
 Die Alignment-Punktzahl eines Projekts wird anhand der Punkte berechnet, die nach Abschluss der Scorecard erzielt wurden. Dieser Wert wird dann zur Bestimmung des Portfolioausrichtungswerts verwendet. Der Ausrichtungswert wird als Prozentsatz angezeigt.
 
-Der Ausrichtungswert eines Projekts wird in der Spalte **[!UICONTROL Ausrichtung]** des [!UICONTROL Portfolio Optimizer] oder im Feld [!UICONTROL Ausrichtung] der [!UICONTROL Business Case-Zusammenfassung].
+Der Ausrichtungswert eines Projekts wird in der Spalte **[!UICONTROL Ausrichtung]** des [!UICONTROL Portfolio Optimizer] oder im Feld [!UICONTROL Ausrichtung] der [!UICONTROL Zusammenfassung eines Business-Case] angezeigt.
 
-![](assets/business-case-summary-aligned-field-highlighted.png)
+![Zusammenfassung eines Business-Case](assets/business-case-summary-aligned-field-highlighted.png)
 
-![](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
+![Projektausrichtungs-Score](assets/project-alignment-score-portfolio-optimizer-highlighted-350x174.png)
 
 Weitere Informationen zum Generieren der Ausrichtungsbewertung eines Projekts finden Sie im Artikel [Anwenden einer Scorecard auf ein Projekt und Generieren einer Ausrichtungsbewertung](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
-Der [!UICONTROL Portfolio-Optimizer]-Wert ist ein im [!UICONTROL Portfolio-Optimizer automatisch berechneter ], nach dem Projekte priorisiert werden können. Der Portfolio-Optimizer-Score wird als Indikatorsymbol zusammen mit einer Zahl angezeigt und in der Spalte **[!UICONTROL Score]** des [!UICONTROL Portfolio-Optimizer] angezeigt.
+Der [!UICONTROL Portfolio-Optimizer]-Wert ist ein im [!UICONTROL Portfolio Optimizer} automatisch berechneter Rang] nach dem Projekte priorisiert werden können. Der Portfolio-Optimizer-Score wird als Indikatorsymbol zusammen mit einer Zahl angezeigt und in der Spalte **[!UICONTROL Score]** des [!UICONTROL Portfolio Optimizer] angezeigt.
 
 >[!NOTE]
 >
 >Ein Projekt kann in [!UICONTROL Portfolio Optimizer} nur bewertet ], wenn sein Business Case abgeschlossen wurde. Weitere Informationen zum Abschließen eines Business-Case finden Sie im Artikel [[!UICONTROL Erstellen eines Business-Case] für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-![](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
+![Projektpunktzahl](assets/portfolio-optimizer-project-score-highlighted-350x132.png)
 
 Die Punktzahl für jedes Projekt wird anhand der Wichtigkeit der folgenden Kategorien berechnet:
 
@@ -54,17 +54,17 @@ Die Punktzahl für jedes Projekt wird anhand der Wichtigkeit der folgenden Kateg
 * [!UICONTROL Risiko/Gewinn]
 * [!UICONTROL ROI]
 
-## Berechnen des Scores von [!UICONTROL Portfolio Optimizer]
+## Berechnen des Punktwerts für [!UICONTROL Portfolio Optimizer]
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: This was edited based on this issue, per Anna: https://hub.workfront.com/issue/603d0c58000095ea0bc00ce5e2110693/overview)</p>
 -->
 
-[!DNL Workfront] erstellt einen Score mit dem [!UICONTROL Portfolio-]. Dies ist ein Ranking, das bei der Priorisierung von Projekten hilfreich ist. Die Werte im Portfolio basieren auf Werten, die in die Business Cases der Projekte eingegeben wurden, und werden zur Berechnung einer Punktzahl für das Projekt verwendet. Projekte mit einer höheren Punktzahl könnten als wichtiger erachtet werden und so priorisiert werden, dass sie zuerst abgeschlossen werden.
+[!DNL Workfront] erstellt einen Score mit dem [!UICONTROL Portfolio Optimizer]. Dies ist ein Ranking, das bei der Priorisierung von Projekten hilfreich ist. Die Werte im Portfolio basieren auf Werten, die in die Business Cases der Projekte eingegeben wurden, und werden zur Berechnung einer Punktzahl für das Projekt verwendet. Projekte mit einer höheren Punktzahl könnten als wichtiger erachtet werden und so priorisiert werden, dass sie zuerst abgeschlossen werden.
 
 Gehen Sie wie folgt vor, um das Ranking eines Projekts zu ermitteln:
 
-1. Zum [!UICONTROL Portfolio Optimizer] wechseln.
+1. Wechseln Sie zum [!UICONTROL Portfolio Optimizer].
 1. Bewegen Sie den Mauszeiger über das Ranking-Symbol, um die Portfolio-Optimizer-Bewertung für ein Projekt anzuzeigen.
 
 ![ranking_icon_in_portfolio_optimizer_new.png](assets/ranking-icon-in-portfolio-optimizer-new-350x160.png)
@@ -87,7 +87,7 @@ Im Folgenden finden Sie Kriterien, nach denen Sie ein Projekt bewerten können:
 * [!UICONTROL Risiko/Gewinn]
 * [!UICONTROL ROI]
 
-![](assets/optimizer-sliding-value-options-350x77.png)
+![Optionen für gleitende Werte](assets/optimizer-sliding-value-options-350x77.png)
 
 Informationen zum Optimieren von Projekten im Portfolio finden Sie unter [Optimieren von Projekten im [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md).
 

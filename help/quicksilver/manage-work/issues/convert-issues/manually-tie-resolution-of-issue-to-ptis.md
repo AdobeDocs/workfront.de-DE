@@ -6,9 +6,9 @@ description: Sie können die Lösung eines Problems manuell mit der Lösung eine
 author: Alina
 feature: Work Management
 exl-id: f57f67cb-60b3-4a95-9963-fa339e542551
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 1. Navigieren Sie zu einem Problem, dessen Lösung Sie mit der Lösung eines anderen Problems oder mit der Lösung einer Aufgabe oder eines Projekts verknüpfen möchten.
 1. Klicken Sie im linken Bereich auf **Problemdetails** und erweitern Sie dann den Bereich **Übersicht**.
 
-   ![](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
+   ![Symbol „Problemdetails“](assets/qs-issue-details-icon-expanded-with-overview-section-350x462.png)
 
 1. Klicken Sie auf **Feld** Aufgelöst von“ und wählen Sie aus den folgenden Typen von aufzulösenden Objekten:
 

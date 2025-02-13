@@ -6,9 +6,9 @@ description: Sie können ein Problem oder eine Anfrage kopieren und im selben od
 author: Alina
 feature: Work Management
 exl-id: a28adc22-825f-401e-9ed2-efddaa297b8d
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1046'
+source-wordcount: '1064'
 ht-degree: 1%
 
 ---
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Contribute-Berechtigungen für das Element, in das Sie das Problem kopieren, mit der Möglichkeit, Probleme hinzuzufügen.</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte </a>.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Tragen Sie Berechtigungen für das Element bei, in das Sie das Problem kopieren, mit der Möglichkeit, Probleme hinzuzufügen.</p> <p> Informationen zum Gewähren von Berechtigungen für Probleme finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines Problems </a></p> <p>Informationen zum Anfordern zusätzlicher Berechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriff auf Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -95,7 +95,7 @@ Sie können ein oder mehrere Probleme aus einer Problemliste oder aus einem Prob
 1. Wenn Sie sich für ein Projekt entschieden haben, klicken Sie im **Bereich auf** Probleme“.
 1. Wählen Sie das oder die zu kopierenden Probleme aus und klicken Sie oben in der Problemliste auf **Mehr** und dann auf **Kopieren nach**.
 
-   ![](assets/copy-issue-in-list-nwe-350x169.png)
+   ![Problem in Liste kopieren](assets/copy-issue-in-list-nwe-350x169.png)
 
 1. Fahren Sie mit dem Kopieren des Problems fort, wie im Abschnitt [Kopieren eines einzelnen Problems](#copy-a-single-issue) beschrieben, beginnend mit Schritt 2.
 
@@ -109,13 +109,13 @@ Sie können ein oder mehrere Probleme aus einer Problemliste oder aus einem Prob
 
 Sie können ein Problem kopieren, wenn Sie es anzeigen.
 
-1. Gehen Sie zu einem Problem, das Sie kopieren möchten, und klicken Sie dann auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Problemnamen und dann **Kopieren** nach.
+1. Gehen Sie zu einem Problem, das Sie kopieren möchten, und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-icon.png) rechts neben dem Problemnamen und dann **Kopieren** nach.
 
-   ![](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
+   ![Kopie auf Anfrageebene](assets/nwe-copy-at-issue-level-highlighted-350x580.png)
 
    Das **Problem kopieren** wird angezeigt.
 
-   ![](assets/copy-issue-box-nwe-350x285.png)
+   ![Problemfeld kopieren](assets/copy-issue-box-nwe-350x285.png)
 
 1. Geben **im Abschnitt „Zielprojekt auswählen** den Namen des Projekts an, in das Sie die Probleme kopieren möchten. Der Name des aktuellen Projekts wird standardmäßig angezeigt.
 
@@ -126,7 +126,7 @@ Sie können ein Problem kopieren, wenn Sie es anzeigen.
 1. (Bedingt) Klicken Sie auf **Zugriff anfordern** wenn Sie keinen Zugriff haben, um Probleme in das Projekt zu kopieren.
 1. (Bedingt) Kopieren Sie das Problem weiterhin in das ausgewählte Zielprojekt, ohne Zugriff anzufordern, wenn Sie Zugriff zum Hinzufügen von Problemen zu einer der Aufgaben im Zielprojekt haben.
 
-   ![](assets/copy-issue-request-access-from-project-nwe-350x125.png)
+   ![Problem kopieren und Zugriff anfordern](assets/copy-issue-request-access-from-project-nwe-350x125.png)
 
    >[!TIP]
    >

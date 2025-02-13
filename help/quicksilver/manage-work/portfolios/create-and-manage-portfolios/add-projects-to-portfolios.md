@@ -6,9 +6,9 @@ description: Es wird empfohlen, Projekte zu Portfolios hinzuzufügen, wenn Sie s
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 97f36c18-3ac8-45ac-b5bc-dfe8b1363faf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
   </tr> 
   <tr> 
    <td role="rowheader">Zugriffsebene</td> 
-   <td> <p>[!UICONTROL Bearbeiten] Portfolios aufrufen</p> <p>[!UICONTROL Bearbeiten] Zugriff auf Projekte</p> </td> 
+   <td> <p>[!UICONTROL Bearbeiten] Zugriff auf Portfolios</p> <p>[!UICONTROL Bearbeiten] Zugriff auf Projekte</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -61,7 +61,7 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
 
 1. Gehen Sie zu einem Portfolio und klicken Sie **[!UICONTROL linken Bereich]** Projekte“.
 
-   ![](assets/qs-portfolio-with-projects-350x90.png)
+   ![Portfolio mit Projekten](assets/qs-portfolio-with-projects-350x90.png)
 
 1. Klicken Sie **[!UICONTROL Neues Projekt]** und wählen Sie eine Methode zum Hinzufügen eines Projekts aus.
 
@@ -98,11 +98,11 @@ Beachten Sie beim Hinzufügen von Projekten zu Portfolios Folgendes:
     </tbody> 
    </table>
 
-   ![](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
+   ![Dropdown-Liste „Neues Projekt“](assets/new-project-dropdown-expanded-from-portfolio-nwe-350x376.png)
 
 1. (Bedingt) Wenn Sie ein vorhandenes Projekt hinzufügen möchten, geben Sie den Namen eines Projekts in das Feld **[!UICONTROL Projekte hinzufügen]** ein und klicken Sie auf die gewünschten Projektnamen, wenn sie in der Liste angezeigt werden. Sie können mehrere Projekte gleichzeitig hinzufügen.
 
-   ![](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
+   ![Vorhandenes Projekt hinzufügen](assets/add-existing-project-from-portfolio-window-nwe-350x545.png)
 
 1. Klicken Sie **[!UICONTROL Projekte hinzufügen]**.
 

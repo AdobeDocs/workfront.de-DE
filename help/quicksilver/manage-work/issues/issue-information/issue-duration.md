@@ -6,9 +6,9 @@ description: Die Dauer eines Problems entspricht der Anzahl der Tage zwischen de
 author: Alina
 feature: Work Management
 exl-id: 5a8f7c74-21e4-4e90-bb55-b4ff6e35a751
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '101'
+source-wordcount: '104'
 ht-degree: 0%
 
 ---
@@ -23,4 +23,4 @@ Sie können die Dauer eines Problems in einem Problembericht oder die Ansicht ei
 
 Weitere Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
-![](assets/nwe-issue-duration-view-highlighted-350x73.png)
+![Ansicht „Problemdauer“](assets/nwe-issue-duration-view-highlighted-350x73.png)

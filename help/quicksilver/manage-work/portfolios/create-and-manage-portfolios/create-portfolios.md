@@ -2,13 +2,13 @@
 product-area: portfolios
 navigation-topic: create-and-manage-portfolios
 title: Erstellen von Portfolios
-description: Ein Portfolio ist eine Zusammenstellung von Projekten, die um dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einem Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden würden.
+description: Ein Portfolio ist eine Sammlung von Projekten, die um dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einer Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden würden.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: fdaed68d-d9cc-4514-8f80-b169cdd739bd
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '668'
+source-wordcount: '671'
 ht-degree: 1%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 1%
 
 <!--Audited: 7/2024-->
 
-Ein Portfolio ist eine Zusammenstellung von Projekten, die um dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einem Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden würden.
+Ein Portfolio ist eine Sammlung von Projekten, die um dieselben Ressourcen, Budgets und Zeitpläne konkurrieren. Die Projekte in einer Portfolio sind so ähnlich, dass sie denselben Ressourcenpool verwenden und mit derselben Scorecard gemessen werden würden.
 
-Sie können Portfolios verwenden, um Projekte zu gruppieren, die zu denselben Produktlinien, Geschäftsbereichen, Abteilungen, Unternehmen oder anderen Geschäftsbereichen gehören.
+Mit Portfolios können Sie Projekte gruppieren, die zu denselben Produktlinien, Abteilungen, Abteilungen, Unternehmen oder anderen Geschäftsbereichen gehören.
 
 ## Zugriffsanforderungen
 
@@ -57,7 +57,7 @@ Sie können Portfolios verwenden, um Projekte zu gruppieren, die zu denselben Pr
 
 Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
-* Erstellen Sie ein Portfolio von Grund auf neu, beginnend im Bereich Portfolios des Hauptmenüs. Dieser Artikel beschreibt, wie Sie ein Portfolio von Grund auf neu erstellen können.
+* Erstellen Sie ein Portfolio von Grund auf neu, indem Sie im Bereich Portfolios des Hauptmenüs beginnen. Dieser Artikel beschreibt, wie Sie ein Portfolio von Grund auf neu erstellen können.
 
 * Importieren Sie ein Portfolio mithilfe von Kickstarts.
 
@@ -78,19 +78,19 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
 {{step1-click-main-menu}}
 
-1. Klicken Sie auf **[!UICONTROL Portfolios]**.
-1. Klicken Sie auf **[!UICONTROL Neues Portfolio]**.
-1. Ersetzen **[!UICONTROL Nicht benanntes Portfolio]** durch den Namen, den Sie für das Portfolio verwenden möchten.
+1. Klicken Sie **[!UICONTROL Portfolios]**.
+1. Klicken Sie **[!UICONTROL Neue Portfolio]**.
+1. Ersetzen **[!UICONTROL Nicht benannte Portfolio]** durch den Namen, den Sie für das Portfolio vergeben möchten.
 
    Der Name kann bis zu 255 Zeichen lang sein.
 
-1. (Optional) Klicken Sie oben auf der Portfolio-]**auf den Namen unter**[!UICONTROL  Portfoliomanager, um einen anderen Portfoliomanager zuzuweisen.
+1. (Optional) Klicken Sie auf den Namen unter **[!UICONTROL Portfolio Manager]** in der Kopfzeile oben auf der Seite, um einen anderen Manager für das Portfolio zuzuweisen.
 
-   ![](assets/portfolio-manager-name-350x51.jpg)
+   ![Portfolio Manager-Name](assets/portfolio-manager-name-350x51.jpg)
 
    Als Ersteller des Portfolios werden Sie standardmäßig als Portfolio-Manager zugewiesen.
 
-1. Klicken Sie im linken Bereich ]****[!UICONTROL  Portfolio-Details.
+1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Details.
 1. Ändern Sie **[!UICONTROL Bereich]**&#x200B;Übersicht“ eine der folgenden Informationen:
 
    <table style="table-layout:auto"> 
@@ -99,11 +99,11 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
     <tbody> 
      <tr> 
       <td role="rowheader">[!UICONTROL Beschreibung]</td> 
-      <td> <p>Geben Sie eine Beschreibung für das Portfolio ein, um anzugeben, was eindeutig ist. </p> </td> 
+      <td> <p>Geben Sie eine Beschreibung für die Portfolio ein, um anzugeben, was eindeutig ist. </p> </td> 
      </tr> 
      <tr> 
       <td role="rowheader">[!UICONTROL Portfolio Manager]</td> 
-      <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Portfolio-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Dies ist dasselbe wie der [!UICONTROL Portfolio Owner]. Dies ist die Person, die die in den Projekten des Portfolios definierten Arbeiten überwachen und den Business Case genehmigen kann.</p> <p>Wichtig: Wenn Sie jemanden als [!UICONTROL Portfolio Manager] festlegen, erhält er automatisch [!UICONTROL Manage]-Berechtigungen für das Portfolio, die Programme und die Projekte im Portfolio. </p> <p>Tipp: Sie können den [!UICONTROL Portfolio Manager] auch in der Kopfzeile oben auf der Seite aktualisieren.</p> </td> 
+      <td> <p>Geben Sie den Namen eines Benutzers ein, den Sie als Portfolio-Manager angeben möchten, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird. Dies ist dasselbe wie der [!UICONTROL Portfolio-Besitzer]. Dies ist die Person, die die in den Projekten des Portfolios definierten Arbeiten überwachen und den Business Case genehmigen kann.</p> <p>Wichtig: Wenn Sie jemanden als [!UICONTROL Portfolio Manager] festlegen, erhält er automatisch [!UICONTROL Manage]-Berechtigungen für das Portfolio, die Programme und die Projekte im Portfolio. </p> <p>Tipp: Sie können auch den [!UICONTROL Portfolio Manager] in der Kopfzeile oben auf der Seite aktualisieren.</p> </td> 
      </tr> 
      <tr data-mc-conditions=""> 
       <td role="rowheader">Gruppe </td> 
@@ -112,7 +112,7 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
     </tbody> 
    </table>
 
-1. (Optional) Klicken Sie in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** oben rechts auf der Seite [!UICONTROL Portfoliodetails], um ein benutzerdefiniertes Formular für das Portfolio auszuwählen und die benutzerdefinierten Felder zu aktualisieren.
+1. (Optional) Klicken Sie in das Feld **[!UICONTROL Benutzerdefiniertes Formular hinzufügen]** oben rechts auf der Seite [!UICONTROL Portfolio-], um ein benutzerdefiniertes Formular für das Portfolio auszuwählen und die benutzerdefinierten Felder zu aktualisieren.
 
    >[!TIP]
    >
@@ -125,7 +125,7 @@ Sie können Portfolios in Workfront mit einer der folgenden Methoden erstellen:
 
 1. (Optional) Klicken Sie **[!UICONTROL linken Bereich]** Projekte) und dann auf **[!UICONTROL Projekte hinzufügen]**, um Projekte zum Portfolio hinzuzufügen.
 
-   Weitere Informationen zum Hinzufügen von Projekten zu einem Portfolio finden Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
+   Weitere Informationen zum Hinzufügen von Projekten zu einer Portfolio finden Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

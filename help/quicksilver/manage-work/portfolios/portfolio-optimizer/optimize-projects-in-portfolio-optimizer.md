@@ -1,21 +1,21 @@
 ---
 product-area: portfolios;projects
 navigation-topic: portfolio-optimizer
-title: Optimieren von Projekten im Portfolio Optimizer
-description: Mit dem [!UICONTROL Portfolio-Optimizer] können Sie Ihre Projekte anhand ihrer Bewertungen und anderer Werte priorisieren. Der Optimizer berücksichtigt wichtige Projektinformationen wie Kosten, Ausrichtung, Risiko und ROI, um die Projekte nach dem zu priorisieren, was für Sie wichtiger ist.
+title: Optimieren von Projekten in Portfolio Optimizer
+description: Mit dem [!UICONTROL Portfolio Optimizer] können Sie Ihre Projekte anhand ihrer Bewertungen und anderer Werte priorisieren. Der Optimizer berücksichtigt wichtige Projektinformationen wie Kosten, Ausrichtung, Risiko und ROI, um die Projekte nach dem zu priorisieren, was für Sie wichtiger ist.
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 25debc5b-5d7d-453f-ab0a-9bf3fba05693
-source-git-commit: b07b4926ab1b1eee9b7698a445644e1cd312fa09
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '490'
 ht-degree: 0%
 
 ---
 
 # Optimieren von Projekten im [!UICONTROL Portfolio Optimizer]
 
-Mit dem [!UICONTROL Portfolio-Optimizer] können Sie Ihre Projekte anhand ihrer Bewertungen und anderer Werte priorisieren. Der [!UICONTROL Optimizer] berücksichtigt wichtige Projektinformationen wie Kosten, Ausrichtung, Risiko und ROI, um die Projekte nach dem zu priorisieren, was für Sie wichtiger ist.
+Mit dem [!UICONTROL Portfolio Optimizer] können Sie Ihre Projekte anhand ihrer Bewertungen und anderer Werte priorisieren. Der [!UICONTROL Optimizer] berücksichtigt wichtige Projektinformationen wie Kosten, Ausrichtung, Risiko und ROI, um die Projekte nach dem zu priorisieren, was für Sie wichtiger ist.
 
 ## Zugriffsanforderungen
 
@@ -42,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>[!UICONTROL Manage]-Berechtigungen für das Portfolio</p> <p>Contribute oder höhere Berechtigungen für die Projekte</p> 
+   <td> <p>[!UICONTROL Manage]-Berechtigungen für das Portfolio</p> <p>Mitwirken an oder höhere Berechtigungen für die Projekte</p> 
    <p>Sie müssen über Verwaltungsberechtigungen für alle Projekte in der Liste verfügen, um „Projektpriorität festlegen<b> verwenden zu </b>.</p>
     </td> 
   </tr> 
@@ -53,15 +53,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## Optimieren von Projekten im Portfolio Optimizer
+## Optimieren von Projekten in Portfolio Optimizer
 
-1. Öffnen Sie ein Portfolio und klicken Sie dann im linken ]**auf**[!UICONTROL  Portfolio-Optimierung.
+1. Öffnen Sie eine Portfolio und klicken Sie dann im linken ]**auf**[!UICONTROL  Portfolio-Optimierung.
 
-   Der [!UICONTROL Portfolio-Optimizer] wird angezeigt.
+   Der [!UICONTROL Portfolio Optimizer] wird angezeigt.
 
 1. Klicken Sie auf **[!UICONTROL Optimieren]**-Symbol .
 
-   ![](assets/optimize-icon-portfolio-optimizer.png)
+   ![Symbol „Optimieren“](assets/optimize-icon-portfolio-optimizer.png)
 
    Die Kategorien, nach denen ein Projekt bewertet werden kann, werden links neben dem Symbol [!UICONTROL Optimieren] angezeigt.
 
@@ -77,7 +77,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Dadurch werden die [!UICONTROL Score]-Werte für jedes Projekt in der Spalte **[!UICONTROL Score]** aktualisiert.
 
-   Informationen zum Score [!UICONTROL Portfolio Optimizer] finden Sie unter [Übersicht über den Score [!UICONTROL Portfolio ]Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
+   Weitere Informationen zum [!UICONTROL Portfolio Optimizer]-Score finden Sie unter [Übersicht über den [!UICONTROL Portfolio Optimizer]-Score](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-score.md).
 
 1. Nachdem die richtigen Gewichtungen für die Spalte **[!UICONTROL Score]** festgelegt wurden, klicken Sie auf die Kopfzeile der Spalte **[!UICONTROL Score]**, um nach dieser Spalte zu sortieren. Das Projekt mit der höchsten Punktzahl wird oben in der Liste angezeigt.
 
@@ -89,6 +89,6 @@ Dadurch wird die Reihenfolge der Projekte im [!UICONTROL Portfolio Optimizer] ge
    >
    >   Sie müssen über Verwaltungsberechtigungen für alle Projekte in der Liste verfügen, um „Projektpriorität festlegen **verwenden zu**.
 
-   Weitere Informationen zum Priorisieren von Projekten im [!UICONTROL Portfolio Optimizer] finden Sie im Artikel [Priorisieren von Projekten im [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
+   Weitere Informationen zum Priorisieren von Projekten in [!UICONTROL Portfolio Optimizer] finden Sie im Artikel [Priorisieren von Projekten in [!UICONTROL Portfolio Optimizer]](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
-1. Klicken Sie **[!UICONTROL Speichern]**, um Ihren [!UICONTROL Portfolio Optimizer zu ].
+1. Klicken Sie **[!UICONTROL Speichern]**, um Ihren [!UICONTROL Portfolio Optimizer] zu speichern.

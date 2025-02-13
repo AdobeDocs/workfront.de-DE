@@ -7,9 +7,9 @@ description: Ein lösbares Objekt ist ein Problem, dessen Auflösung an ein Lös
 author: Alina
 feature: Work Management
 exl-id: 2ff034ec-6116-42af-a55f-1fb24fc12b2f
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '1778'
+source-wordcount: '1788'
 ht-degree: 1%
 
 ---
@@ -79,10 +79,10 @@ Je nachdem, wie der Workfront- oder Gruppen-Administrator die Problemeinstellung
 Die folgenden Szenarien sind vorhanden:
 
 * Wenn der Workfront- oder Gruppen-Administrator die **Ursprüngliches Problem beibehalten und seine Lösung mit der Aufgabe verknüpfen** und die **Ursprüngliches Problem beibehalten und seine Lösung mit dem Projekt verknüpfen** ausgewählt hat und die **Zulassen, dass diese Einstellungen während der Konvertierung geändert werden** nicht ausgewählt ist, können Sie diese Einstellungen beim Konvertieren von Problemen in Aufgaben oder Projekte nicht ändern.\
-  ![](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
+  ![Bereich „Projektvoreinstellungen - Probleme“](assets/qs-setup-project-preferences-issues-area-some-boxes-unselected-350x217.png)
 
 * Wenn der Workfront- oder Gruppen-Administrator die **Ursprüngliches Problem beibehalten und seine Lösung mit der Aufgabe verknüpfen** und die **Ursprüngliches Problem beibehalten und seine Lösung mit dem Projekt verknüpfen** ausgewählt oder deaktiviert hat und die **Zulassen, dass diese Einstellungen während** Konvertierung geändert werden ausgewählt ist, können Sie diese Einstellungen ändern, während Sie Probleme in Aufgaben oder Projekte konvertieren.\
-  ![](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
+  ![Option zum Beibehalten des Problems](assets/qs-options-to-keep-issue-when-coverting-it-inside-the-issue-350x113.png)
 
 Weitere Informationen zum Konvertieren von Problemen in Aufgaben und Projekte finden Sie unter [Übersicht über das Konvertieren von Problemen in Adobe Workfront](../../../manage-work/issues/convert-issues/convert-issues.md).
 
@@ -202,7 +202,7 @@ Das Auffinden des Lösungsobjekts ist für Aufgaben und Projekte identisch.
 
 In einer Liste von Problemen können Sie Probleme, die als Lösungsobjekte gekennzeichnet sind, über Statussymbole identifizieren, indem Sie dieses Symbol in den Spalten **Statussymbole** oder **Flags** suchen:
 
-![](assets/ro1.png)
+![Problemlösendes Objekt](assets/ro1.png)
 
 ## Anzeigen von Informationen zu auflösbaren und auflösenden Objekten in einem Bericht
 

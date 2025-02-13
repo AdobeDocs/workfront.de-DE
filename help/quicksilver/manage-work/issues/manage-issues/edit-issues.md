@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '2523'
+source-wordcount: '2551'
 ht-degree: 2%
 
 ---
@@ -45,7 +45,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute-Berechtigungen für ein Problem , um die folgenden Felder im Detailbereich zu bearbeiten: </p>
+   <td> <p>Tragen Sie Berechtigungen zu einem Problem bei, um die folgenden Felder im Bereich Details zu bearbeiten: </p>
    <ul>
    <li>Beschreibung</li>
    <li>Status</li>
@@ -74,7 +74,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 1. (Optional) Klicken Sie auf **Aufgaben** und dann auf den Namen einer Aufgabe, um die Aufgabe zu öffnen.
 1. Klicken Sie **linken** auf „Probleme“.
 
-   ![](assets/qs-issues-icon-highlighted-on-project-350x278.png)
+   ![Probleme-Symbol](assets/qs-issues-icon-highlighted-on-project-350x278.png)
 
 1. (Optional) Um eingeschränkte Informationen zu einem Problem zu bearbeiten, klicken Sie **linken Bereich auf** Problemdetails“.
 
@@ -85,9 +85,9 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
    Gehen Sie wie folgt vor, um Informationen im Abschnitt Details zu bearbeiten:
 
    1. (Optional) Klicken Sie auf **Symbol „Alle** reduzieren“ in der oberen rechten Ecke, um alle Bereiche zu reduzieren.
-   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** ![](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
+   1. (Optional und bedingt) Wenn ein Bereich reduziert ist, klicken Sie auf den **Nach rechts zeigenden Pfeil** Nach ![rechts zeigenden Pfeil](assets/right-pointing-arrow.png) neben jedem Bereich, um den Bereich zu erweitern, den Sie bearbeiten möchten.
    1. (Optional) Um ein benutzerdefiniertes Formular anzuhängen, geben Sie zunächst den Namen eines Formulars in das Feld **Benutzerdefiniertes Formular hinzufügen** ein, wählen Sie es aus, wenn es in der Liste angezeigt wird, und klicken Sie dann auf **Änderungen speichern**.
-   1. (Optional) Klicken Sie auf das **Exportieren**-Symbol ![](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
+   1. (Optional) Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export.png), um die Übersichts- und benutzerdefinierten Formularinformationen in eine PDF-Datei zu exportieren, und klicken Sie dann auf **Exportieren**. Wählen Sie aus den folgenden Optionen aus:
 
       * Alle auswählen (wird nur angezeigt, wenn mindestens ein benutzerdefiniertes Formular angehängt ist)
       * Übersicht
@@ -95,7 +95,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 
       Die PDF-Datei wird auf Ihren Computer heruntergeladen.
 
-      ![](assets/export-issue-details-selection-box-with-export-button-350x418.png)
+      ![Problemdetails exportieren](assets/export-issue-details-selection-box-with-export-button-350x418.png)
 
       Weitere Informationen finden Sie unter [Exportieren benutzerdefinierter Formulare und Objektdetails](../../../workfront-basics/work-with-custom-forms/export-custom-forms-details.md).
 
@@ -134,7 +134,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 1. Beginnen Sie mit der Bearbeitung eines Problems, wie oben beschrieben.
 1. Klicken Sie **Anfragename**.
 
-   ![](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
+   ![Abschnitt „Anfragename“](assets/issue-name-section-edit-issue-box-nwe-350x127.png)
 
 1. Aktualisieren Sie das Feld **Problemname**.
 1. Klicken Sie **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.
@@ -144,7 +144,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 1. Beginnen Sie mit der Bearbeitung eines Problems, wie oben beschrieben.
 1. Klicken Sie auf **Übersicht**.
 
-   ![](assets/overview-section-edit-issue-box-nwe-350x284.png)
+   ![Abschnitt „Problemübersicht“](assets/overview-section-edit-issue-box-nwe-350x284.png)
 
 1. Aktualisieren oder überprüfen Sie eines der Felder in der folgenden Tabelle:
 
@@ -271,7 +271,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 1. Beginnen Sie mit der Bearbeitung des Problems wie oben beschrieben.
 1. Klicken Sie **linken** auf „Arbeitsaufträge“.
 
-   ![](assets/assignments-section-edit-issue-box-nwe-350x230.png)
+   ![Abschnitt „Problemzuweisungen“](assets/assignments-section-edit-issue-box-nwe-350x230.png)
 
 1. Klicken Sie auf **Personen, Rollen und Teams suchen** und geben Sie den Namen eines Benutzers, einer Rolle oder eines Teams ein, den/das Sie der Aufgabe zuweisen möchten. Klicken Sie dann auf den Namen oder drücken Sie die Eingabetaste, wenn er/sie in der Liste angezeigt wird.
 
@@ -322,7 +322,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 1. Beginnen Sie mit der Bearbeitung eines Problems, wie oben beschrieben.
 1. Klicken Sie **Benutzerdefinierte Forms**.
 
-   ![](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
+   ![Problem mit dem Abschnitt für benutzerdefinierte Formulare](assets/custom-forms-section-edit-issue-box-nwe-350x132.png)
 
 1. Wählen Sie im Feld **Benutzerdefiniertes Formular hinzufügen** das oder die benutzerdefinierten Formulare aus, die Sie mit dem Problem verknüpfen möchten. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können bis zu zehn benutzerdefinierte Formulare zu einem Problem hinzufügen.
 
@@ -339,7 +339,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
 1. Beginnen Sie mit der Bearbeitung eines Problems, wie oben beschrieben.
 1. Klicken Sie **Einstellungen**.
 
-   ![](assets/settings-section-edit-issue-box-nwe-350x240.png)
+   ![Symbol für Problemeinstellungen](assets/settings-section-edit-issue-box-nwe-350x240.png)
 
    Aktualisieren Sie die folgenden Informationen:
 
@@ -383,7 +383,7 @@ Sie können eine begrenzte Menge an Informationen in der Anfrage-Kopfzeile bearb
 
 Ihr System- oder Gruppenadministrator kann die Felder anpassen, die Sie im Problem-Header sehen. Weitere Informationen finden Sie unter [Anpassen von Objektkopfzeilen mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md).
 
-![](assets/issue-header-350x19.png)
+![Problem-Header](assets/issue-header-350x19.png)
 
 Die folgenden Felder sind standardmäßig in der Anfrage-Kopfzeile enthalten:
 

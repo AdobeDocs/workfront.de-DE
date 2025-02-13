@@ -6,9 +6,9 @@ description: Ändern von Benutzerzuweisungen für mehrere Probleme in einer List
 author: Alina
 feature: Work Management
 exl-id: e1e75027-1847-44cf-afeb-b19394dc3ea5
-source-git-commit: 070b0525f0cb2880d3c7daf88777ba48968ce759
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '751'
 ht-degree: 1%
 
 ---
@@ -29,7 +29,7 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht
 
 >[!NOTE]
 >
->Sie müssen mindestens über Contribute-Berechtigungen für ein Problem verfügen, um Zuweisungen an das Problem vornehmen zu können.
+>Sie müssen mindestens über die Berechtigung Beitragen für ein Problem verfügen, um Zuweisungen an das Problem vornehmen zu können.
 
 ## Zugriffsanforderungen
 
@@ -54,7 +54,7 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Contribute-Berechtigungen oder höher für das Projekt oder die Aufgabe, in dem/der sich das Problem befindet, wenn mehrere Probleme zugewiesen werden.</p>  </td> 
+   <td> <p>Verwalten von Berechtigungen für das Problem</p> <p>Tragen Sie Berechtigungen oder mehr zu dem Projekt oder der Aufgabe bei, in dem/der sich das Problem befindet, wenn Sie mehrere Probleme zuweisen.</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,13 +102,13 @@ Allgemeine Informationen zum Zuweisen von Problemen finden Sie unter [Übersicht
    1. Geben Sie den Namen des Benutzers oder der Rolle ein, nach dem bzw. der gefiltert werden soll, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
    1. Klicken Sie auf **Filter speichern.**
 
-1. Wählen Sie die Probleme aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/qs-edit-icon.png).
+1. Wählen Sie die Probleme aus, für die Sie Zuweisungen ändern möchten, und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png).
 
    Die **Probleme bearbeiten** wird angezeigt. Die bearbeiteten Elemente werden in der oberen linken Ecke der Seite angezeigt.
 
 1. Gehen Sie zum Abschnitt **Arbeitsaufträge** und wählen Sie dann **Verantwortlicher** aus.
 
-   ![](assets/classic-assignmens-area-on-edit-box-350x119.png)
+   ![Bereich „Zuweisungen](assets/classic-assignmens-area-on-edit-box-350x119.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 

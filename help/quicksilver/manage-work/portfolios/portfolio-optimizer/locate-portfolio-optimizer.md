@@ -6,9 +6,9 @@ description: Den [!UICONTROL Portfolio Optimizer finden Sie] wenn Sie auf ein Po
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: de9abb4e-0bf2-4673-8be1-3f0f35e17eaf
-source-git-commit: 2bfb6d03f3d0f792180a67ade8a704e4c899a671
+source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
 workflow-type: tm+mt
-source-wordcount: '141'
+source-wordcount: '143'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Suchen Sie den [!UICONTROL Portfolio Optimizer]
 
-1. Klicken Sie im **[!UICONTROL Hauptmenü]** auf **[!UICONTROL Portfolios]**.
+1. Klicken Sie **[!UICONTROL Hauptmenü]** Portfolios **[!UICONTROL .]**
 
    Die Portfolios, deren Inhaber Sie sind, werden standardmäßig angezeigt.
 
@@ -61,6 +61,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf den Namen eines Portfolios, um darauf zuzugreifen.
 1. Klicken Sie im linken ]**auf**[!UICONTROL  Portfolio-Optimierung.
 
-   Der [!UICONTROL Portfolio-Optimizer] wird angezeigt.
+   Der [!UICONTROL Portfolio Optimizer] wird angezeigt.
 
-   ![](assets/nwe-portfolio-optimizer-350x83.png)
+   ![Portfolio Optimizer](assets/nwe-portfolio-optimizer-350x83.png)
