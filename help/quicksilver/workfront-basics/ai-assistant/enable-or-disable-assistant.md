@@ -5,9 +5,9 @@ description: Sie können steuern, welche Zugriffsebenen in Ihrer Organisation Zu
 author: Becky
 feature: Get Started with Workfront
 exl-id: eec9f484-e29b-4256-b9ef-b45eb2e78eac
-source-git-commit: 88efd929f48ba73993a2bb503b6c3fa3420f90d2
+source-git-commit: d6fd224fb8a7b8094946814ae905bc0ff6e8223c
 workflow-type: tm+mt
-source-wordcount: '228'
+source-wordcount: '258'
 ht-degree: 1%
 
 ---
@@ -55,7 +55,10 @@ So deaktivieren Sie den KI-Assistenten für eine bestimmte Zugriffsebene:
 1. Wählen **Zugriffsebenen** in der linken Navigationsleiste aus.
 1. Wählen Sie die Zugriffsebene aus, für die Sie den KI-Assistenten aktivieren möchten.
 1. Scrollen Sie im Fenster Zugriffsebene bearbeiten nach unten zum unteren Rand des Fensters und klicken Sie auf **Zusätzliche Einschränkungen festlegen…**.
-1. Aktivieren Sie im Bereich Zusätzliche Einschränkungen festlegen die Option **Workfront-KI-Assistenten deaktivieren**.
+1. Aktivieren Sie im Bereich Zusätzliche Einschränkungen festlegen die Option **KI-Funktionen deaktivieren**.
 1. Klicken Sie auf **Speichern**.
 1. Wiederholen Sie die Schritte 3-6 für jede Zugriffsebene, für die Sie den KI-Assistenten deaktivieren möchten.
 
+>[!NOTE]
+>
+>Wenn KI-Funktionen zu Workfront hinzugefügt werden, werden einige KI-Funktionen die Funktionsweise von Workfront grundlegend verändern. Die Möglichkeit, alle KI-Funktionen zu deaktivieren, wird wahrscheinlich in naher Zukunft eingestellt.
