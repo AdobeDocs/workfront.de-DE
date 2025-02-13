@@ -2,20 +2,20 @@
 product-area: workfront-integrations;setup
 navigation-topic: adobe-workfront-for-creative-cloud
 title: Installieren und öffnen [!DNL Adobe Workfront for design and video]
-description: Sie können  [!DNL Adobe Workfront for design and video]  vom Adobe Marketplace installieren.
+description: Sie können  [!DNL Adobe Workfront for design and video]  über den Adobe Marketplace installieren.
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: f4fbae93-b54b-4d08-82c3-72a9a760c317
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 9473926f1b90f4e76c82b7e5dd15c50a667102df
 workflow-type: tm+mt
-source-wordcount: '540'
+source-wordcount: '643'
 ht-degree: 1%
 
 ---
 
 # Installieren und Öffnen von [!DNL Adobe Workfront for design and video]
 
-Sie können [!DNL Adobe Workfront for design and video] über die [!DNL Adobe Marketplace] installieren. Dieses Plug-in unterstützt die folgenden Creative Cloud-Anwendungen:
+Sie können [!DNL Adobe Workfront for design and video] über die [!DNL Adobe Marketplace] installieren. Dieses Plug-in unterstützt die folgenden Creative Cloud-Programme:
 
 {{cc-plugin-app-list}}
 
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> -->
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td><p>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</p><p>Weitere Informationen finden Sie in der <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud-Support-Richtlinie</a>.</p></td> 
+   <td><p>Sie müssen zusätzlich zu einer [!DNL Workfront] über eine [!DNL Adobe Creative Cloud]-Lizenz verfügen.</p><p>Weitere Informationen finden Sie unter <a href="https://helpx.adobe.com/support/programs/cc-support-policy.html#cce" class="MCXref xref" xrefformat="{para}">Creative Cloud-Support-Richtlinie</a>.</p></td> 
   </tr> 
  </tbody> 
 </table>
@@ -107,7 +107,7 @@ Sie können [!DNL Adobe Workfront for design and video] selbst über die [!DNL A
 
    >[!TIP]
    >
-   >Wenn [!DNL Adobe Workfront for design and video] nach dem Öffnen im Menü Erweiterungen nicht angezeigt wird, befindet sie sich möglicherweise hinter der Creative Cloud-App. Versuchen Sie, die App zu minimieren, um das Plug-in zu finden.
+   >Wenn [!DNL Adobe Workfront for design and video] nach dem Öffnen im Menü Erweiterungen nicht angezeigt wird, liegt sie möglicherweise hinter der Creative Cloud-App. Versuchen Sie, die App zu minimieren, um das Plug-in zu finden.
 
 1. Im folgenden Abschnitt finden Sie Informationen zur Anmeldung bei [!DNL Adobe Workfront for design and video].
 
@@ -141,3 +141,25 @@ Sie können [!DNL Adobe Workfront for design and video] selbst über die [!DNL A
 1. Klicken Sie **[!UICONTROL Zugriff zulassen]**, um die Anmeldung abzuschließen.
 1. Gehen Sie zurück zu [!DNL Adobe Photoshop], um Ihre Arbeit zu sehen.
 
+### Fehlerbehebung bei Anmeldefehlern
+
+**Fehler „Irgendetwas ist schiefgelaufen“ wird beim Anmeldeversuch angezeigt**
+
+
+Sie können keine URL verwenden, die mit `experience.adobe.com` beginnt, um sich beim Plug-in anzumelden.
+
+![Fehler bei der Anmeldung](assets/plugin-log-in-error.png) ![Domain](assets/incorrect-domain.png)
+
+
+Um dieses Problem zu beheben,
+
+1. Löschen Sie den Ordner, in dem die Domain für das Plug-in gespeichert ist.
+
+   >[!TIP]
+   >
+   >Wechseln Sie in einem Mac zum Finder und drücken Sie **Befehlstaste+Umschalt+.** ausgeblendete Ordner anzuzeigen, navigieren Sie zu **/users/library/application support** und löschen Sie dann den Ordner **Workfront**.
+
+
+1. Navigieren Sie zurück zum Plug-in und geben Sie Ihre Workfront-Domain ein. Die Domain muss `company-name.my.workfront.com` und darf nicht `experience.adobe.com` sein.
+
+   Wenn [ Ihre Workfront-Domain ](/help/quicksilver/wf-api/tips-tricks-and-troubleshooting/locate-domain-for-api.md) Adobe Unified Experience verwenden, navigieren Sie zu „Setup“, „Kundeninformationen“.

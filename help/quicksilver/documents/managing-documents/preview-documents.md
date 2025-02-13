@@ -6,9 +6,9 @@ description: Sie können eine Vorschau eines Dokuments im Bereich Dokumente anze
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1e12003d-4ea6-4449-9536-05feca793c44
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: f8ce7b64b117b709328be982339fd28ef4a741a7
 workflow-type: tm+mt
-source-wordcount: '202'
+source-wordcount: '228'
 ht-degree: 0%
 
 ---
@@ -54,8 +54,20 @@ Sie müssen über Folgendes verfügen:
 
 ## Dokument in der Vorschau anzeigen
 
+Sie können eine Vorschau eines Dokuments in Workfront anzeigen.
+
 1. Bewegen Sie in einer Dokumentliste den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Dokumentdetails**.
 1. Klicken Sie auf der angezeigten Seite auf das Miniaturbild des Dokuments.
 
    * Wenn Sie das Dokument nicht zur Überprüfung vorbereitet haben, wird es in einer neuen Browser-Registerkarte angezeigt.
    * Wenn Sie das Dokument zur Überprüfung vorbereitet haben, wird die Korrekturabzugsansicht geöffnet, um es anzuzeigen.
+
+Die folgenden Dateiformate können im Vorschaufenster nicht angezeigt werden:
+
+* .mp4
+* .gif
+* .jpeg
+* .png
+* .tiff
+* .plain
+* .pdf
