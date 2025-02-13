@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: f92ceed7-b191-425b-9fff-1b0947f32db8
-source-git-commit: 222e940432f9cdea2b7da7fefbb429d75a3824d7
+source-git-commit: d4ebdcc942f119dc229e2a3216dbe82b3d701cba
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '951'
 ht-degree: 4%
 
 ---
@@ -113,11 +113,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Benutzer automatisch abmelden nach</td> 
-      <td> Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität von Workfront abgemeldet wird. Standardmäßig werden Benutzer nach 8 Stunden Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> </td> 
+      <td> Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität von Workfront abgemeldet wird. Standardmäßig werden Benutzer nach 8 Stunden Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> <p>Diese Einstellung ist nicht für Organisationen verfügbar, die zu Adobe IMS migriert wurden.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Mobile Benutzer automatisch abmelden nach </td> 
-      <td>Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität bei der Workfront-Anwendung abgemeldet wird. Standardmäßig werden Benutzer nach 7 Tagen Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p></td> 
+      <td>Hier können Sie angeben, wann ein Benutzer nach einer gewissen Zeit der Inaktivität bei der Workfront-Anwendung abgemeldet wird. Standardmäßig werden Benutzer nach 7 Tagen Inaktivität abgemeldet. <p>Diese Option wirkt sich auch auf Workfront-Kunden aus, die eine Single Sign-on-Lösung verwenden.</p> <p>Diese Einstellung ist nicht für Organisationen verfügbar, die zu Adobe IMS migriert wurden.</p></td> 
      </tr> 
      <tr> 
       <td role="rowheader">Hilfe-URL</td> 
