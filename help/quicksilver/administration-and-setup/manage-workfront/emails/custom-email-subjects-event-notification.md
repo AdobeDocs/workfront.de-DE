@@ -6,9 +6,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 2f39a091-aec2-4013-a835-0ab1c8789dc3
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3c8438fef3333c5f7ceab7b19b6755d4e4246cb9
 workflow-type: tm+mt
-source-wordcount: '612'
+source-wordcount: '614'
 ht-degree: 4%
 
 ---
@@ -82,7 +82,7 @@ Einige Ereignisbenachrichtigungen haben mehrere Betreffzeilen, je nachdem, welch
 
 Beispiel: „Jemand nimmt mich in eine direkte Aktualisierung auf“ hat zwei verschiedene Betreffzeilen: die erste ist für Aufgaben, Probleme, Vorlagenaufgaben und Dokumente (auch als „referenceObject“ bezeichnet) und die zweite für Objekte, die es Benutzern ermöglichen, Kommentare zu machen, wie Portfolio, Programm usw. (auch als „topReferenceObject“ bezeichnet).
 
-![Ereignis hat nicht mehrere Betreffzeilen](assets/Ev-not-mult-subj-lines.png)
+![Ereignis hat nicht mehrere Betreffzeilen](assets/ev-multiple-subject.png)
 
 Wenn ein(e) Benutzende(r) in eine Konversation über die Aufgabe, das Problem, die Vorlagenaufgabe oder das Dokument einbezogen wird, wird eine E-Mail mit der ersten Betreffzeile generiert. Die Betreffzeile enthält „referenceObject:name“, und das System definiert das Objekt und zeigt den entsprechenden Namen im Feld Betreff an. Die Betreffzeile der E-Mail sieht in etwa so aus: „Kommentar zu Aufgabe 123 im Projekt-ABC“.
 
@@ -96,6 +96,8 @@ Einige Ereignisbenachrichtigungen haben auch mehrere E-Mail-Betreffe, um die ver
 
 Die Anforderung, ein Dokument zu einem Problem hinzuzufügen, ist beispielsweise ein Ereignis, das zwei verschiedene E-Mails in Trigger setzen kann: eine für den Zeitpunkt, zu dem das Dokument hinzugefügt wird, und eine für den Zeitpunkt, zu dem das Dokument bearbeitet wird.
 
-![Unterschiedliche Ereignisaktionen](assets/ev-not-mult-subj-lines-diff-actions.png)
+
+
+![Ereignis hat nicht mehrere Betreffzeilen](assets/Ev-not-mult-subj-lines.png)
 
 Informationen zum Bearbeiten der E-Mail-Betreffzeilen und Hinzufügen zusätzlicher Felder zu den Betreffzeilen finden Sie unter [Anpassen der E-Mail-Betreffzeilen für ](#customize-email-subject-lines-for-event-notifications)) in diesem Artikel.
