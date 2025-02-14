@@ -1,20 +1,20 @@
 ---
 title: Aktualisierungen der Benutzeroberfläche
-description: Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in Adobe Workfront durchführen, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Anwendungen zu vereinheitlichen.
+description: Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in Adobe Workfront durchführen, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Programmen zu vereinheitlichen.
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
 workflow-type: tm+mt
-source-wordcount: '1264'
+source-wordcount: '1469'
 ht-degree: 0%
 
 ---
 
 # Modernisierung der Benutzeroberfläche
 
-Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in Adobe Workfront durchführen, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Anwendungen zu vereinheitlichen. Diese Änderungen sind in erster Linie visueller Natur und werden Workflows nicht wesentlich verändern, es sei denn, es wird anders angegeben.
+Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in Adobe Workfront durchführen, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Programmen zu vereinheitlichen. Diese Änderungen sind in erster Linie visueller Natur und werden Workflows nicht wesentlich verändern, es sei denn, es wird anders angegeben.
 
 >[!IMPORTANT]
 >
@@ -23,6 +23,22 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration und Einrichtung
+
+### Aktualisierung der Benutzeroberfläche zum Anpassen von Ereignisbenachrichtigungs-Betreffen
+
+**Vorschau-Version: 13. Februar 2025; ab der Woche vom 13. Februar 2025**
+
+Das Dialogfeld Benachrichtigungsbetreff für Ereignisse wurde um ein moderneres Design erweitert, das zu anderen Bereichen von Workfront passt.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > E-Mail > Benachrichtigungen > Ereignisbenachrichtigungen > Klicken Sie auf eine Ereignisbenachrichtigung.
+
+### Aktualisierung der Benutzeroberfläche für den Bereich Teams
+
+**Vorschau-Version: 13. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben den Bereich Teams um ein moderneres Design erweitert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Um die Einstellungen anzuzeigen, gehen Sie zu Einrichtung > Teams.
 
 ### Aktualisierung der Benutzeroberfläche für die Einstellungen des Genehmigungsprozesses im Setup
 
@@ -34,7 +50,7 @@ Um die Einstellungen anzuzeigen, gehen Sie zu Einrichtung > Voreinstellungen > G
 
 ### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen unter Setup > Gruppen
 
-**Vorschau-Version: 30. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 30. Januar 2025; Produktions-Version: Ab der Woche vom 6. Februar 2025**
 
 Wir haben die Listen für Projekt-, Aufgaben- und Problem-Genehmigungen unter Setup > Gruppen > Genehmigungen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -44,7 +60,7 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ### Aktualisierung der Benutzeroberfläche für die Seite „Korrekturabzugsrollen“ im Setup
 
-**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: Beginn der Woche vom 30. Januar 2025**
 
 Das Erscheinungsbild der Seite Korrekturabzug-Rollen wurde mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -72,7 +88,7 @@ Um diese Seite anzuzeigen, gehen Sie zu Einrichtung > E-Mail > Benachrichtigunge
 
 ### Aktualisierung der Benutzeroberfläche für die E-Mail-Einladungsseite im Setup
 
-**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: Beginn der Woche vom 30. Januar 2025**
 
 Wir haben die E-Mail-Einladungsseite mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -82,7 +98,7 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ### Aktualisierungen der Benutzeroberfläche für die Seite „Ereignisbenachrichtigungen“ in einer Gruppe
 
-**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau der Version: 23. Januar 2025; Beginn der Woche vom 30. Januar 2025**
 
 Wir haben die Ereignisbenachrichtigungsseite in einer Gruppe mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -102,7 +118,7 @@ Um diese Seite anzuzeigen, gehen Sie zu Einrichtung > E-Mail > Benachrichtigunge
 
 ### Aktualisierung der Benutzeroberfläche für das Dialogfeld „SharePoint hinzufügen“
 
-**Vorschau-Version: 16. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 16. Januar 2025; Beginn der Woche vom 30. Januar 2025**
 
 Das Dialogfeld SharePoint hinzufügen unter Einrichtung > Dokumente > SharePoint-Integration wurde durch ein moderneres Design ergänzt, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -118,6 +134,14 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ## Agile
 
+### Seite Übersicht über die Aktualisierung der Benutzeroberfläche für Iterationen
+
+**Vorschau-Version: 13. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben die Seite Iterationen - Übersicht mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen eines Teams > Iterationen > Wählen einer Iteration > Übersicht .
+
 ### Hinzufügen von Storys und Problemen zu einer Iteration
 
 **Vorschau-Version: 6. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
@@ -126,7 +150,7 @@ Wir haben das Dialogfeld Story hinzufügen und Problem hinzufügen mit einem mod
 
 Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
 
-Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen eines Teams > Iterationen > Wählen Sie eine Iteration aus und klicken Sie dann auf **Neue Story** oder **Neues Problem**.
+Um diese Änderung anzuzeigen, gehen Sie zu Teams > Team auswählen > Iterationen > Eine Iteration auswählen und klicken Sie dann auf **Neue Story** oder **Neues Problem**.
 
 ### Aktualisierung der Benutzeroberfläche für den Bereich Teams > Auftragsbestand
 
@@ -151,7 +175,7 @@ Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > I
 
 ### Stories und Probleme aus Rückstand hinzufügen
 
-**Vorschau-Version: 30. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 30. Januar 2025; ab der Woche vom 6. Februar 2025**
 
 Wir haben das Dialogfeld Story hinzufügen und Problem hinzufügen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
@@ -159,11 +183,21 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > Auftragsbestand und klicken Sie dann auf **Neue Story** oder **Neues**.
 
+## Dokumente
+
+### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen in einem Dokument
+
+**Vorschau-Version: 13. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben den Bereich Genehmigungen in einem Dokument mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
+
+Um diese Änderung anzuzeigen, gehen Sie zu einem Dokument > Klicken Sie auf Dokumentdetails > Genehmigungen.
+
 ## Berichte und Dashboards
 
 ### Aktualisierter Teambericht mit neuem Stil
 
-**Vorschau-Version: 30. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 30. Januar 2025; ab der Woche vom 6. Februar 2025**
 
 Wir haben den Teambericht mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -174,7 +208,7 @@ Um einen Team-Bericht zu erstellen, gehen Sie zu Berichte > Neuer Bericht > Team
 
 ### Aktualisierte E-Mail-Berichte mit neuem Stil
 
-**Vorschau-Version: 23. Januar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 23. Januar 2025; Produktionsversion: Ab der Woche vom 6. Februar 2025**
 
 Die Benutzeroberfläche der folgenden E-Mail-Berichte wurde aktualisiert:
 
