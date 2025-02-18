@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
 workflow-type: tm+mt
-source-wordcount: '1419'
-ht-degree: 1%
+source-wordcount: '1530'
+ht-degree: 0%
 
 ---
 
@@ -77,7 +77,11 @@ Anstatt ein benutzerdefiniertes Formular im Standardfreigabestatus zu belassen (
     <tbody> 
      <tr> 
       <td role="rowheader">Anzeigen</td> 
-      <td> <p>Möglichkeit zum Anzeigen und Ausfüllen des benutzerdefinierten Formulars für Objekte.</p> <p><b>HINWEIS</b>: Für Benutzende mit Light- und Contributor-Lizenzen (oder Arbeits-, Prüfungs- und Anfragelizenzen) ist dies die höchste verfügbare Option.</p> <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
+      <td> <p>Diese Option bietet die Möglichkeit, das benutzerdefinierte Formular für Objekte anzuzeigen und auszufüllen. Auf Objektebene müssen Benutzer außerdem mindestens über Beitragszugriff verfügen, wenn die erweiterte Einstellung <strong>Benutzerdefiniertes Formular bearbeiten</strong> aktiviert ist. Wenn das Formular beispielsweise an ein Projekt angehängt ist, müssen Benutzende Beitragszugriff auf dieses Projekt haben, sonst können sie das Formular nicht ausfüllen.</p>
+
+   <p><b>HINWEIS</b>: Für Benutzende mit Light- und Contributor-Lizenzen (oder Arbeits-, Prüfungs- und Anfragelizenzen) ist dies die höchste verfügbare Option.</p>
+
+   <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
        <ul> 
         <li><strong>An benutzerdefinierte Daten anhängen</strong>: Möglichkeit, das benutzerdefinierte Formular an Projekte, Aufgaben und Probleme anzuhängen, für die sie Verwaltungszugriff haben</li> 
         <li> <p><strong>Freigeben</strong>: Möglichkeit, das benutzerdefinierte Formular für andere Personen im System freizugeben</p> <p>Benutzende mit einer Light- oder Contributor-Lizenz (oder Arbeits-, Prüfungs- oder Anfragelizenz) können ein benutzerdefiniertes Formular nur über die API oder einen benutzerdefinierten Formularbericht freigeben.</p> </li>
@@ -85,7 +89,7 @@ Anstatt ein benutzerdefiniertes Formular im Standardfreigabestatus zu belassen (
      </tr> 
      <tr> 
       <td role="rowheader">Verwalten</td> 
-      <td> <p>Nur für Benutzer mit einer Standard- oder Plan-Lizenz verfügbar. </p> <p>Benutzer können das Formular nicht nur zu Objekten hinzufügen, auf die sie Zugriff haben, um es zu bearbeiten, sondern auch das benutzerdefinierte Formular vollständig bearbeiten, einschließlich Felder hinzufügen, bearbeiten und löschen.</p> <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
+      <td> <p>Diese Option ist nur für Benutzer mit einer Standard- oder Planlizenz verfügbar. </p> <p>Benutzer können das Formular nicht nur zu Objekten hinzufügen, auf die sie Zugriff haben, um es zu bearbeiten, sondern auch das benutzerdefinierte Formular vollständig bearbeiten, einschließlich Felder hinzufügen, bearbeiten und löschen.</p> <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
        <ul> 
         <li> <p><strong>An benutzerdefinierte Daten anhängen</strong>: Möglichkeit, das benutzerdefinierte Formular an Projekte, Aufgaben und Probleme anzuhängen, für die sie Verwaltungszugriff haben</p> </li> 
         <li><strong>Löschen</strong>: Löschen des benutzerdefinierten Formulars aus dem System</li> 
@@ -127,7 +131,9 @@ Anstatt ein benutzerdefiniertes Formular im Standardfreigabestatus zu belassen (
     <tbody> 
      <tr> 
       <td role="rowheader">Anzeigen</td> 
-      <td> <p>Möglichkeit zum Anzeigen und Ausfüllen des benutzerdefinierten Formulars für Objekte.</p> <p><b>HINWEIS</b>: Für Benutzende mit Light- und Contributor-Lizenzen (oder Arbeits-, Prüfungs- und Anfragelizenzen) ist dies die höchste verfügbare Option.</p> <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
+      <td> <p>Diese Option bietet die Möglichkeit, das benutzerdefinierte Formular für Objekte anzuzeigen und auszufüllen. Auf Objektebene müssen Benutzer außerdem mindestens über Beitragszugriff verfügen, wenn die erweiterte Einstellung <strong>Benutzerdefiniertes Formular bearbeiten</strong> aktiviert ist. Wenn das Formular beispielsweise an ein Projekt angehängt ist, müssen Benutzende Beitragszugriff auf dieses Projekt haben, sonst können sie das Formular nicht ausfüllen.</p>
+
+   <p><b>HINWEIS</b>: Für Benutzende mit Light- und Contributor-Lizenzen (oder Arbeits-, Prüfungs- und Anfragelizenzen) ist dies die höchste verfügbare Option.</p> <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
        <ul> 
         <li><strong>An benutzerdefinierte Daten anhängen</strong>: Möglichkeit, das benutzerdefinierte Formular an Projekte, Aufgaben und Probleme anzuhängen, für die sie Verwaltungszugriff haben</li> 
         <li> <p><strong>Freigeben</strong>: Möglichkeit, das benutzerdefinierte Formular für andere Personen im System freizugeben</p> <p>Benutzende mit einer Light- oder Contributor-Lizenz (oder Arbeits-, Prüfungs- oder Anfragelizenz) können ein benutzerdefiniertes Formular nur über die API oder einen benutzerdefinierten Formularbericht freigeben.</p> </li>
@@ -135,7 +141,7 @@ Anstatt ein benutzerdefiniertes Formular im Standardfreigabestatus zu belassen (
      </tr> 
      <tr> 
       <td role="rowheader">Verwalten</td> 
-      <td> <p>Nur für Benutzer mit einer Standard- oder Plan-Lizenz verfügbar. </p> <p>Benutzer können das Formular nicht nur zu Objekten hinzufügen, auf die sie Zugriff haben, um es zu bearbeiten, sondern auch das benutzerdefinierte Formular vollständig bearbeiten, einschließlich Felder hinzufügen, bearbeiten und löschen.</p> <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
+      <td> <p>Diese Option ist nur für Benutzer mit einer Standard- oder Planlizenz verfügbar. </p> <p>Benutzer können das Formular nicht nur zu Objekten hinzufügen, auf die sie Zugriff haben, um es zu bearbeiten, sondern auch das benutzerdefinierte Formular vollständig bearbeiten, einschließlich Felder hinzufügen, bearbeiten und löschen.</p> <p>Klicken Sie <strong>Erweiterte Einstellungen</strong>, um anzugeben, ob Folgendes zulässig sein soll:</p> 
        <ul> 
         <li> <p><strong>An benutzerdefinierte Daten anhängen</strong>: Möglichkeit, das benutzerdefinierte Formular an Projekte, Aufgaben und Probleme anzuhängen, für die sie Verwaltungszugriff haben</p> </li> 
         <li><strong>Löschen</strong>: Löschen des benutzerdefinierten Formulars aus dem System</li> 
