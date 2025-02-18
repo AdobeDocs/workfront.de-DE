@@ -7,10 +7,10 @@ description: Sie können Datenausdrücke verwenden, um berechnete benutzerdefini
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cfb3ace9-76c3-4006-878f-e2ad25ffa03b
-source-git-commit: e66d4223b13bcd4813156f147769e7ee99c3f8ef
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
-source-wordcount: '2425'
-ht-degree: 0%
+source-wordcount: '2433'
+ht-degree: 2%
 
 ---
 
@@ -399,7 +399,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
   </tr>
   <tr> 
    <td><strong>ARRAYELEMENT</strong> </td> 
-   <td> <p>Gibt das Element mit der angegebenen Zahl im Array zurück. Wenn der Index außerhalb des Bereichs liegt, gibt er leer zurück.</p> 
+   <td> <p>Gibt das Element unter der im Array angegebenen Nummer zurück. Wenn der Index außerhalb des zulässigen Bereichs liegt, wird ein leerer Wert zurückgegeben.</p> 
    <p>Der Ausdruck ist wie folgt formatiert:</p>
    <p><code>ARRAYELEMENT(array, number)</code></p> 
    </td> 
@@ -458,7 +458,8 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
   </tr> 
   <tr> 
    <td><strong>FORMAT</strong> </td> 
-   <td><p>Gibt formatierten Text zurück. Die Farboptionen sind $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE und die anderen Formatierungsoptionen sind $$BOLD, $$ITALIC, $$UNDERLINE. Pro Funktion kann nur eine Farboption zusammen mit bis zu drei anderen Formatierungsoptionen verwendet werden. Wenn keine Farboption festgelegt ist, wird die Standardfarbe des Systems angewendet.</p>
+   <td><p>Gibt formatierten Text zurück. Nur die hier aufgeführten Parameteroptionen sind im FORMAT zulässig.</p>
+   <p>Die Farboptionen sind $$POSITIVE, $$INFORMATIVE, $$NEGATIVE, $$NOTICE und die anderen Formatierungsoptionen sind $$BOLD, $$ITALIC, $$UNDERLINE. Es ist nur eine Farboption zusammen mit bis zu drei anderen Formatierungsoptionen zulässig. Wenn keine Farboption festgelegt ist, wird die Standardfarbe des Systems angewendet.</p>
    <p>Der Ausdruck ist wie folgt formatiert:</p>
    <p><code>FORMAT($$POSITIVE, $$BOLD, $$ITALIC)</code></p>
    <p>Hinweis: Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 
@@ -573,7 +574,7 @@ Sie können ein berechnetes benutzerdefiniertes Feld erstellen, das einen textfo
   </tr> 
   <tr> 
    <td><strong>SWITCH</strong> </td> 
-   <td> <p>Wertet den Ausdruck anhand einer Werteliste aus und gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht.</p>
+   <td> <p>Wertet den Ausdruck anhand einer Liste von Werten aus und gibt das Ergebnis zurück, das dem ersten übereinstimmenden Wert entspricht.</p>
    <p>Der Ausdruck ist wie folgt formatiert:</p>
    <p><code>SWITCH(expression, value1, result1, [value2, result2], ...)</code></p>
    <p>Dieser Ausdruck wird in Workfront Planning nicht unterstützt.</p></td> 

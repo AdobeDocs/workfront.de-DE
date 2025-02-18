@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 6a46486b62974f1cc7033b4497d32ab787b05bf2
 workflow-type: tm+mt
 source-wordcount: '6493'
 ht-degree: 5%
@@ -663,7 +663,7 @@ So fügen Sie eine externe Suche hinzu:
 >Bei den folgenden Elementen handelt es sich um technische Einschränkungen des Aufrufs an die externe API:
 >
 >* Maximale Anzahl von Optionen: 2000 (es werden nur die ersten 2000 eindeutigen Optionen aus der zurückgegebenen JSON-Datei angezeigt)
->* Maximale Wartezeit: 3 Sekunden
+>* Zeitüberschreitung: 30 Sekunden
 >* Anzahl weiterer Versuche: 3
 >* Wartezeit zwischen weiteren Zustellversuchen: 500 ms
 >* Erwartete Antwortstatus: 2xx
