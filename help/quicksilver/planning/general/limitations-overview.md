@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -31,7 +31,7 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 |-------------------------------------------------------------------------------|:---------------------------------------------------------------------------------------------------------------:|
 | Anzahl der Arbeitsbereiche für eine Workfront-Instanz | Unbegrenzt* |
 | Anzahl der Abschnitte für einen Arbeitsbereich | 50 |
-| Anzahl der Datensatztypen für einen Arbeitsbereich | 1.000 (dies umfasst Datensatztypen aus allen Bereichen sowie aus denjenigen, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
+| Anzahl der Datensatztypen für einen Arbeitsbereich | 100 (dies umfasst Datensatztypen aus allen Bereichen sowie aus denjenigen, die bei Verwendung einer Workspace-Vorlage erstellt werden) |
 | Anzahl von Datensätzen für einen Datensatztyp | 25.000 |
 | Anzahl von Datensätzen für einen Arbeitsbereich | 25.000 für Kunden mit Planning <br> 500.000 für Kunden mit Planning Plus |
 | Gesamtzahl der Datensätze für eine Instanz von Workfront Planning | 500.000 für Kunden mit Planning <br>2 Millionen für Kunden mit Planning Plus |
