@@ -5,9 +5,9 @@ description: 'In-App-Benachrichtigungen halten Sie über zwei Arten von Informat
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 4c5da114-33cc-422b-84f4-67bc7fcd67c6
-source-git-commit: 3210474976f435c75c8cfa38e263f9211b9d016d
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '947'
+source-wordcount: '971'
 ht-degree: 0%
 
 ---
@@ -57,7 +57,7 @@ Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder 
 >
 >Sie können alle In-App-Benachrichtigungen sowohl in der Web-Anwendung als auch in der Mobile App anzeigen. Nur einige dieser Benachrichtigungen werden als Push-Benachrichtigungen in der Mobile App gesendet. Weitere Informationen zu Benachrichtigungen in der Mobile App finden Sie unter [[!DNL Adobe Workfront] für iOS](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-ios.md) oder [[!DNL Adobe Workfront] für Android](../../workfront-basics/mobile-apps/using-the-workfront-mobile-app/workfront-for-android.md).
 
-1. Klicken Sie auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) in der rechten oberen Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
+1. Klicken Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notifications-icon-jewel.jpg) in der oberen rechten Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
 
    Ihre letzten ungelesenen Benachrichtigungen werden unter dem nummerierten Symbol angezeigt, die neuesten befinden sich oben.
 
@@ -67,7 +67,7 @@ Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder 
 
    Am unteren Rand jeder Benachrichtigung werden der [!UICONTROL Benachrichtigungstyp] und ein entsprechendes Kennungssymbol angezeigt. Auf diese Weise können Sie ermitteln, was mit dem erwähnten [!DNL Workfront] passiert ist, und Sie benachrichtigen, wenn ein Aktionselement vorhanden ist:
 
-   * Ankündigungs-Benachrichtigungen werden durch das Symbol [!UICONTROL Ankündigungen] gekennzeichnet. ![](assets/announcement.png)
+   * Ankündigungs-Benachrichtigungen werden durch das Symbol [!UICONTROL Ankündigungen] gekennzeichnet. ![Ankündigungssymbol](assets/announcement.png)
 
    * Alle anderen Benachrichtigungen werden durch Symbole angezeigt, die den Typ des Arbeitselements angeben, mit dem sie verknüpft sind.
 
@@ -80,21 +80,21 @@ Das Symbol rechts neben dem blauen Punkt zeigt eine der folgenden Optionen an:
 
 1. (Optional) Wenn Sie das Datum anzeigen möchten, an dem Sie eine Benachrichtigung erhalten haben, bewegen Sie den Mauszeiger über die Tages- oder Uhrzeitanzeige in der oberen rechten Ecke der Benachrichtigung.
 
-   ![](assets/hoveroverdate-350x437.png)
+   ![Mauszeiger über Datum bewegen](assets/hoveroverdate-350x437.png)
 
 1. Klicken Sie auf die Benachrichtigung, die Sie anzeigen möchten:
 
    * Wenn die angeklickte Benachrichtigung ein Arbeitselement betrifft, wird das zugehörige [!DNL Workfront] geöffnet, wobei die vollständige Meldung auf der Registerkarte **[!UICONTROL Updates]** angezeigt wird. Sie können **[!UICONTROL einen neuen Aktualisierungsbereich starten]** oder **[!UICONTROL Antwort eingeben]**.
 
-     ![](assets/object-opens-click-work-ntfctn-qs-350x183.png)
+     ![Aktualisieren oder beantworten](assets/object-opens-click-work-ntfctn-qs-350x183.png)
 
-   * Wenn die Benachrichtigung, auf die Sie klicken, auf eine Ankündigung ![](assets/announcement.png), wird die Seite **[!UICONTROL Ankündigungen]** angezeigt, auf der alle Ihre Ankündigungen aufgeführt sind. Die angeklickte Ankündigung wird auf der linken Seite ausgewählt und die Nachricht wird auf der rechten Seite angezeigt.
+   * Wenn die Benachrichtigung, auf die Sie klicken, eine Ankündigung ![Ankündigungssymbol](assets/announcement.png) ist, wird die Seite **[!UICONTROL Ankündigungen]** mit allen Ihren Ankündigungen angezeigt. Die angeklickte Ankündigung wird auf der linken Seite ausgewählt und die Nachricht wird auf der rechten Seite angezeigt.
 
-     ![](assets/announcements-page-qs-350x210.png)
+     ![Seite „Ankündigungen“](assets/announcements-page-qs-350x210.png)
 
 1. (Optional) Laden Sie alle in der Benachrichtigung enthaltenen Anhänge herunter oder laden Sie alle Anhänge als ZIP-Datei herunter.
 
-   ![](assets/download-attachments-350x106.png)
+   ![Anhänge herunterladen](assets/download-attachments-350x106.png)
 
 ## Benachrichtigungen bestätigen
 
@@ -111,7 +111,7 @@ Durch Klicken auf das nummerierte Symbol zum Öffnen der Benachrichtigungsliste 
 
 So bestätigen Sie eine Benachrichtigung und löschen sie aus der Liste Benachrichtigungen :
 
-1. Klicken Sie auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) in der rechten oberen Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
+1. Klicken Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notifications-icon-jewel.jpg) in der oberen rechten Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie auf den blauen Punkt in der oberen linken Ecke der Benachrichtigung.
@@ -123,7 +123,7 @@ So bestätigen Sie eine Benachrichtigung und löschen sie aus der Liste Benachri
 
 So zeigen Sie bereits bestätigte Benachrichtigungen an:
 
-1. Klicken Sie auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) in der rechten oberen Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
+1. Klicken Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notifications-icon-jewel.jpg) in der oberen rechten Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
 1. Klicken Sie **[!UICONTROL Alle]**&quot; in der rechten unteren Ecke der Benachrichtigungsliste.
 1. Scrollen Sie auf **[!UICONTROL angezeigten]** („Benachrichtigungen„) nach unten, um Ihre früheren Benachrichtigungen anzuzeigen.
 1. (Optional) Um eine bestätigte Benachrichtigung wieder in Ihre Benachrichtigungsliste einzufügen, klicken Sie auf den blauen Kreis neben der Benachrichtigung.
@@ -139,7 +139,7 @@ Sie können jedoch Ankündigungsbenachrichtigungen löschen. Sie können auch au
 
 ### Löschen einer Ankündigung
 
-1. Klicken Sie auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) in der rechten oberen Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
+1. Klicken Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notifications-icon-jewel.jpg) in der oberen rechten Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
 1. Klicken Sie **[!UICONTROL Ankündigungen]** oder **[!UICONTROL Alle Ankündigungen anzeigen]**.
 
 1. Klicken Sie auf der **[!DNL Announcements]** Seite, die angezeigt wird, in der Liste links auf die Ankündigung, die Sie löschen möchten, und klicken Sie dann **[!UICONTROL Löschen]** in der oberen rechten Ecke der Seite.
@@ -148,7 +148,7 @@ Sie können jedoch Ankündigungsbenachrichtigungen löschen. Sie können auch au
 
 Sie können auf eine Benachrichtigung zugreifen, die Sie in den letzten 30 Tagen gelöscht haben.
 
-1. Klicken Sie auf das nummerierte Symbol ![](assets/notifications-icon-jewel.jpg) in der rechten oberen Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
+1. Klicken Sie auf das nummerierte Symbol ![Benachrichtigungssymbol](assets/notifications-icon-jewel.jpg) in der oberen rechten Ecke von [!DNL Workfront], um die Liste der Benachrichtigungen zu öffnen.
 1. Klicken Sie **[!UICONTROL Ankündigungen]** oder **[!UICONTROL Alle Ankündigungen anzeigen]**.
 
 1. Klicken Sie auf **[!UICONTROL angezeigten]** Ankündigungen“ auf **[!UICONTROL Gelöscht]**.

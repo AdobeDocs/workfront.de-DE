@@ -5,9 +5,9 @@ description: Adobe Workfront sendet Benachrichtigungen zu Elementen, die Ihnen z
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 5eee62b8-d72e-4263-a0c5-749047bc6812
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '1574'
+source-wordcount: '1603'
 ht-degree: 0%
 
 ---
@@ -75,12 +75,12 @@ So abonnieren Sie beispielsweise ein Problem:
    >
    >Um Projekte zu abonnieren, haben Sie folgende Möglichkeiten:
    >
-   >* Gehen Sie zu dem Projekt, das Sie abonnieren möchten, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann **[!UICONTROL Abonnieren]**.
-   >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/qs-more-menu.png) oben in der Liste und klicken Sie dann auf **[!UICONTROL Abonnieren]**. Dies ist nur in einer Liste von Projekten verfügbar.
+   >* Gehen Sie zu dem Projekt, das Sie abonnieren möchten, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann **[!UICONTROL Abonnieren]**.
+   >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, klicken Sie oben in der Liste auf das **[!UICONTROL Mehr]**-Symbol ![Mehr ](assets/qs-more-menu.png) und klicken Sie dann auf **[!UICONTROL Abonnieren]**. Dies ist nur in einer Liste von Projekten verfügbar.
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png) und dann auf **[!UICONTROL Abonnieren]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr-Symbol](assets/more-icon.png) und dann auf **[!UICONTROL Abonnieren]**.
 
-   ![](assets/subscribe-to-a-work-item-350x258.png)
+   ![Arbeitselement abonnieren](assets/subscribe-to-a-work-item-350x258.png)
 
    Ein Häkchen erscheint auf der Glocke und die Zahl daneben wird aktualisiert, um Sie zur Anzahl der abonnierten Benutzer hinzuzufügen.
 
@@ -102,12 +102,12 @@ Um beispielsweise das Abonnement für ein Problem zu kündigen:
    >
    >Um ein Projektabonnement zu kündigen, haben Sie folgende Möglichkeiten:
    >
-   >* Gehen Sie zu dem Projekt, das Sie abbestellen möchten, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **[!UICONTROL Abmelden]**.
-   >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/qs-more-menu.png) oben in der Liste und klicken Sie dann auf **[!UICONTROL Abmelden]**. Dies ist nur in einer Liste von Projekten verfügbar.
+   >* Gehen Sie zu dem Projekt, das Sie abbestellen möchten, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr-](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann **[!UICONTROL Abmelden]**.
+   >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, klicken Sie oben in der Liste auf das **[!UICONTROL Mehr]**-Symbol ![Mehr](assets/qs-more-menu.png) und klicken Sie dann auf **[!UICONTROL Abmelden]**. Dies ist nur in einer Liste von Projekten verfügbar.
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png) und dann auf **[!UICONTROL Abmelden]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr-Symbol](assets/more-icon.png) und dann auf **[!UICONTROL Abmelden]**.
 
-   ![](assets/unsubscribe-to-a-work-item-350x258.png)
+   ![Abo von einem Arbeitselement beenden](assets/unsubscribe-to-a-work-item-350x258.png)
 
 1. Sie können ein Abonnement auch kündigen, indem Sie in der Abonnement-E[!UICONTROL Mail auf den Link ]Abmelden“ klicken.
 
@@ -136,7 +136,7 @@ Allen Abonnentinnen und Abonnenten wird [!UICONTROL Ansicht] Berechtigung für d
    >   
    >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus.
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png).
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr-Symbol](assets/more-icon.png).
 1. Klicken Sie auf die Nummernblase neben dem Link **[!UICONTROL Abonnieren]**.
 1. Geben Sie in das sich öffnende Feld den Namen des Benutzers in das Feld **[!UICONTROL Andere abonnieren]** und wählen Sie dann den Benutzer aus den angezeigten Optionen aus.
 
@@ -159,7 +159,7 @@ Wenn jemand einen Kommentar zur Registerkarte [!UICONTROL Aktualisierungen] des 
    >   
    >* Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus.
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png).
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr-Symbol](assets/more-icon.png).
 1. Klicken Sie auf die Nummernblase neben dem Link **[!UICONTROL Abonnieren]** oder **[!UICONTROL Abmelden]**.
 1. Auf der **[!UICONTROL Abonnenten]** Seite, die angezeigt wird, klicken Sie auf das „X“ neben dem Namen des Benutzers, den Sie abmelden möchten.
 
@@ -175,7 +175,7 @@ Wenn jemand einen Kommentar zur Registerkarte [!UICONTROL Aktualisierungen] des 
 
 Sobald jemand einen Kommentar zu einem Element postet, das Sie abonniert haben, erhalten Sie eine In-App-Benachrichtigung.
 
-![](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
+![In-App-Benachrichtigung](assets/in-app-not---cmmnt-sbscibd-to-350x164.png)
 
 Weitere Informationen finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md).
 

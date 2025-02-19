@@ -6,9 +6,9 @@ description: 'Benachrichtigungen: Ziele'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: f6335f4e94d286681adfb50165562b2c41b5acac
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '567'
+source-wordcount: '569'
 ht-degree: 4%
 
 ---
@@ -72,7 +72,7 @@ Der Benutzer, dessen [!DNL Goals]-Benachrichtigungen aktualisiert werden, muss �
 
 Die in der folgenden Tabelle aufgeführten Benachrichtigungen informieren Sie über Ereignisse, die in [!DNL Workfront Goals] stattfinden, z. B. wenn Ihnen ein Ziel, ein Ergebnis oder eine Aktivität zugewiesen wird oder wenn jemand ein Ziel, ein Ergebnis oder eine Aktivität in Ihrem Besitz aktualisiert. Informationen zum Konfigurieren der empfangenen Benachrichtigungen finden Sie unter [Ändern eigener E-Mail-Benachrichtigungen](../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/goals-notifications-preferences-350x114.png)
+![Benachrichtigungseinstellungen](assets/goals-notifications-preferences-350x114.png)
 
 >[!NOTE]
 >

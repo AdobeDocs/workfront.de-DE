@@ -5,9 +5,9 @@ description: Wenn Sie E-Mail-Benachrichtigungen von der Sandbox-Vorschau-Umgebun
 author: Lisa
 feature: Get Started with Workfront
 exl-id: e5c7e387-d08d-42f6-a9e6-f44e514ef902
-source-git-commit: f3ba39e02d690dd3a0d50ecdb22af0c12a3d4ffb
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -73,7 +73,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Für mehrere Benutzer: Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und klicken Sie dann auf **[!UICONTROL Benutzer]** ![](assets/users-icon-in-main-menu.png).  Wählen Sie dann mehrere Benutzer aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
+   Für mehrere Benutzer: Klicken Sie auf **[!UICONTROL Hauptmenü]** Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **[!UICONTROL Benutzer]** ![Benutzersymbol](assets/users-icon-in-main-menu.png).  Wählen Sie dann mehrere Benutzer aus und klicken Sie auf **[!UICONTROL Bearbeiten]**.
 
 1. Klicken Sie auf **[!UICONTROL Voreinstellungen]**.
 1. Wählen **[!UICONTROL E-Mails von dieser Testumgebung empfangen]** aus.

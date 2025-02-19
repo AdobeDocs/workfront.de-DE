@@ -7,9 +7,9 @@ description: Sie können einen Link zu einer internen benutzerdefinierten URL an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e402fed-71ce-438a-8da9-8f8d37550ea8
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '544'
+source-wordcount: '547'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Wenn Sie Zugriff auf das Erstellen eines benutzerdefinierten Formulars haben, k�
 
 Die Aufgabe **Ansicht** im folgenden Beispiel zeigt das **Berechnetes benutzerdefiniertes Feld** namens „Benutzerdefinierte URL“ als direkten Link zur Unterregisterkarte **Übersicht** innerhalb der Registerkarte **Details** sowie das **URL**-Feld der Aufgabe.
 
-![](assets/task-view-with-custom-url-field-quicksilver-350x70.png)
+(assets/task-view-with-custom-url-field-quicksilver-350x70.png)
 
 So passen Sie diese Ansicht an:
 

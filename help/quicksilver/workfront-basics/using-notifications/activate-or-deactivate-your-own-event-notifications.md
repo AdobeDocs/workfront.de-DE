@@ -7,9 +7,9 @@ description: In diesem Artikel wird beschrieben, wie Sie Ihre E-Mail-Benachricht
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 3d1f877e-6bb4-494e-b08e-c18ec87dd001
-source-git-commit: f9afe7c8f04777dd547ea1e202e7844bdfd3518e
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '620'
+source-wordcount: '635'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2024 -->
 
-Ihr Adobe-[!DNL Workfront] konfiguriert, welche E-Mail-Benachrichtigungen Benutzende erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Konfigurieren von ] für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
+Der Adobe-[!DNL Workfront] konfiguriert, welche E-Mail-Benachrichtigungen Benutzende erhalten, wenn Ereignisse in Workfront auftreten (wie unter [[!UICONTROL Konfigurieren von ] für alle Personen im System](../../administration-and-setup/manage-workfront/emails/configure-event-notifications-for-everyone-in-the-system.md) beschrieben).
 
 Ihr Gruppenadministrator kann auch konfigurieren, welche Benachrichtigungen für Sie und die Benutzer in Ihrer [!UICONTROL Hauptgruppe“ aktiviert ]. Wenn Ihre [!UICONTROL Hauptgruppe] eine Untergruppe ist, erhalten Sie die Benachrichtigungen, die für die Gruppe der obersten Ebene über Ihrer Gruppe aktiviert sind.
 
@@ -67,13 +67,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-click-profile-pic}}
 
-1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/more-icon.png) neben Ihrem Namen und dann auf **[!UICONTROL Bearbeiten]**.
+1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr](assets/more-icon.png) neben Ihrem Namen und dann auf **[!UICONTROL Bearbeiten]**.
 
 1. Gehen Sie im **[!UICONTROL Person bearbeiten]** angezeigten Feld zum Abschnitt **[!UICONTROL Benachrichtigungen]**.
 
 1. Klicken Sie auf eine Kategorie, um die Benachrichtigungseinstellungen anzuzeigen, die sich auf diese Kategorie beziehen.
 
-   ![](assets/my-profile-notifications.png)
+   ![Meine Profilbenachrichtigungen](assets/my-profile-notifications.png)
 
 1. Aktivieren oder deaktivieren Sie die Kontrollkästchen auf der rechten Seite, um anzugeben, ob Sie Benachrichtigungen täglich, sofort oder beides erhalten möchten.
 
@@ -90,13 +90,13 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wenn Sie Benachrichtigungen als tägliche Zusammenfassung gesendet haben, wählen Sie die Tageszeit, zu der Sie Benachrichtigungen erhalten möchten, oben im Abschnitt **[!UICONTROL Benachrichtigungen]** im Menü **[!UICONTROL Tägliche Zusammenfassung senden nach]** aus.
 
-   ![](assets/digest-time-stamp-my-settings-350x78.png)
+   ![Daily Digest - Tageszeit auswählen](assets/digest-time-stamp-my-settings-350x78.png)
 
    Die tägliche Zusammenfassung enthält Ereignisse, die den Kriterien der Benachrichtigungen 24 Stunden vor der ausgewählten Zeit entsprechen. Sie erhalten für jeden Benachrichtigungstyp eine tägliche Auswahl-E-Mail.\
    Die tägliche Zusammenfassung kann nach der von Ihnen ausgewählten Zeit eintreffen, je nachdem, wie viele E-Mails im System für den Versand in die Warteschlange gestellt werden. Die aufgelistete Zeit ist die Ortszeit, die in Ihren Browser-Einstellungen angegeben ist.
 
 1. (Bedingt und optional) Wenn Sie die E-Mail-Benachrichtigungseinstellungen in der Vorschau -Umgebung ändern, aktivieren Sie die Einstellung **[!UICONTROL E-Mails von dieser Testumgebung empfangen]**, um E-Mails zu empfangen. E-Mails werden nicht automatisch aus der Vorschau-Umgebung generiert.
 
-   ![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+   ![E-Mails von Sandbox empfangen](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 1. Klicken Sie auf **[!UICONTROL Änderungen speichern]**.

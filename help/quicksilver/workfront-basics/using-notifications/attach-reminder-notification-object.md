@@ -7,9 +7,9 @@ description: 'Sie können Erinnerungsnachrichten mit verschiedenen Objekttypen v
 author: Lisa
 feature: Get Started with Workfront
 exl-id: ea04d807-1a9f-4a23-96de-cd83f0821ba0
-source-git-commit: 3a819fc18e0b5f438a55265ea0c5c9679ef0fdd6
+source-git-commit: 6a1152bb86a856d60585db7d6ffd43a59a212a72
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '290'
 ht-degree: 1%
 
 ---
@@ -56,14 +56,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Erinnerungsnachrichten an ein Objekt anhängen
 
 1. Wechseln Sie zu dem Objekt, an das Sie die Erinnerungsnachricht anhängen möchten.
-1. Klicken Sie auf das Symbol Bearbeiten ![](assets/edit-icon.png).
+1. Klicken Sie auf das Symbol Bearbeiten ![Symbol Bearbeiten](assets/edit-icon.png).
 1. Klicken Sie im linken Bereich des angezeigten **[!UICONTROL Bearbeiten]** auf **[!UICONTROL Einstellungen]**.
 
 1. Wählen **[!UICONTROL unter „Erinnerungsnachricht]** die Benachrichtigungen aus, die Sie an das Objekt anhängen möchten.
 
    In diesem Beispiel ist das bearbeitete Objekt eine Aufgabe:
 
-   ![](assets/reminder-notification-select-one-350x213.png)
+   ![Erinnerungsnachricht](assets/reminder-notification-select-one-350x213.png)
 
    Wenn der [!DNL Workfront] mehrere Erinnerungsbenachrichtigungen erstellt hat, können Sie mehrere Benachrichtigungen an ein einzelnes Objekt anhängen.
 
