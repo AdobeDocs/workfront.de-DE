@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: a6a1f178-189a-4c41-835b-7726081a2b49
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '7828'
+source-wordcount: '7703'
 ht-degree: 1%
 
 ---
@@ -169,7 +169,6 @@ Informationen zum Erstellen eines Projekts über eine Vorlage finden Sie unter [
    * [Aufgabeneinstellungen](#task-settings)
    * [Problemeinstellungen](#issue-settings)
    * [Zugriff](#access)
-   * [Verknüpfte Ordner](#linked-folders-conditional-availability) (bedingte Verfügbarkeit)
    * <span class="preview">[Kommentar](#comment)</span>
 
 
@@ -667,22 +666,6 @@ Informationen darüber, wie sich diese Einstellungen auf die Erstellung neuer Au
    </table>
 
 1. Klicken Sie auf **Speichern**.
-
-### Verknüpfte Ordner (bedingte Verfügbarkeit) {#linked-folders}
-
-Die Funktion „Verknüpfte Ordner“ erstellt automatisch Ordner in Adobe Experience Manager Assets und verbindet diese Ordner mit Workfront.
-
-Dieser Abschnitt wird nur angezeigt, wenn Folgendes zutrifft:
-
-* Ihre Organisation wurde in die Adobe Admin Console migriert
-* Ihr Unternehmen hat eine Integration mit Adobe Experience Manager aktiviert und konfiguriert
-* Die Vorlage, mit der dieses Projekt erstellt wurde, verfügt über aktivierte und konfigurierte verknüpfte Ordner.
-
-Anweisungen zum Bearbeiten verknüpfter Ordner finden Sie unter [Bearbeiten von Workflow-Werten in einem Projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) im Artikel [Verwenden von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
-
->[!NOTE]
->
->Da verknüpfte Ordner beim Erstellen des Projekts erstellt werden, ist die Bearbeitung des Workflows „Verknüpfter Ordner“ für ein vorhandenes Projekt ineffektiv. Das Bearbeiten dieser Werte beim Erstellen eines Projekts funktioniert erwartungsgemäß.
 
 <div class="preview">
 

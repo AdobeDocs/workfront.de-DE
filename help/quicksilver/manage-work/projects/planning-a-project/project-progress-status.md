@@ -7,9 +7,9 @@ description: Adobe Workfront ermittelt den Fortschrittsstatus eines Projekts anh
 author: Alina
 feature: Work Management
 exl-id: 922ca4cf-c526-4704-9966-de67b0c36a2a
-source-git-commit: 4e3cafafb121371249fb73f2f001477bdbad2d77
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '390'
 ht-degree: 1%
 
 ---
@@ -32,7 +32,7 @@ Im Folgenden finden Sie den Fortschrittsstatus von Projekten in Workfront:
   </tr> 
   <tr> 
    <td>Gefährdet</td> 
-   <td> Der Fortschrittsstatus eines Projekts ist <strong>Gefährdet</strong> wenn <strong>alle</strong> der folgenden Bedingungen zutreffen:<ul><li>Sowohl die geschätzten als auch die erwarteten Abschlussdaten liegen in der Zukunft</li><li> Das geschätzte und das voraussichtliche Abschlussdatum liegen hinter dem geplanten Abschlussdatum</li><li> Das geschätzte Abschlussdatum liegt hinter dem erwarteten Abschlussdatum</li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
+   <td> Der Fortschrittsstatus eines Projekts ist <strong>Gefährdet</strong> wenn <strong>alle</strong> der folgenden Bedingungen zutreffen:<ul><li>Sowohl die geschätzten als auch die erwarteten Abschlussdaten liegen in der Zukunft</li><li> Das geschätzte Abschlussdatum liegt sowohl nach dem geplanten Abschlussdatum als auch nach dem voraussichtlichen Abschlussdatum </li></ul><p> <img src="assets/project-at-risk-progress-status-350x67.png" style="width: 350;height: 67;"> </p> </td> 
   </tr> 
   <tr> 
    <td>In Verzug</td> 

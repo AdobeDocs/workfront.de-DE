@@ -6,9 +6,9 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen in Projektpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '4720'
+source-wordcount: '4809'
 ht-degree: 2%
 
 ---
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Objektberechtigungen</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-Berechtigungen für eine Vorlage, um sie auf der Registerkarte Vorlagendetails zu bearbeiten</p> </li> 
+     <li> <p>Berechtigungen zu einer Vorlage beitragen , um sie auf der Registerkarte Vorlagendetails zu bearbeiten</p> </li> 
      <li> <p>Verwalten von Berechtigungen für eine Vorlage, um sie im Feld Vorlage bearbeiten zu bearbeiten</p> </li> 
    </td> 
   </tr> 
@@ -592,6 +592,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    * [Aufgabeneinstellungen](#task-settings)
    * [Problemeinstellungen](#issue-settings)
    * [Zugriff](#access-preview)
+   * [Verknüpfte Ordner](#linked-folders-conditional-availability) (bedingte Verfügbarkeit)
 
 
 ### Vorlagenname{#template-name}
@@ -658,11 +659,11 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
    <tr> 
          <td role="rowheader"><strong>Portfolio</strong></td> 
-         <td><p>Geben Sie ein Portfolio für die Projekte an, die aus dieser Vorlage erstellt werden. Sie müssen zuerst ein Portfolio erstellen, bevor es in der Dropdown-Liste angezeigt wird. </p><p>In der Liste werden nur aktive Portfolios angezeigt. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</p></td> 
+         <td><p>Geben Sie eine Portfolio für die Projekte an, die aus dieser Vorlage erstellt werden. Sie müssen zunächst eine Portfolio erstellen, bevor sie in der Dropdown-Liste angezeigt wird. </p><p>In der Liste werden nur aktive Portfolios angezeigt. Weitere Informationen zum Erstellen von Portfolios finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md" class="MCXref xref">Erstellen eines Portfolios </a>.</p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Programm</strong></td> 
-         <td><p>Wenn Sie ein Portfolio für die Vorlage ausgewählt haben, geben Sie ein <strong>Programm</strong> für das zukünftige Projekt an. Einige Portfolios haben möglicherweise keine Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. In der Liste werden nur aktive Programme angezeigt.</p><p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p></td> 
+         <td><p>Wenn Sie eine Portfolio für die Vorlage ausgewählt haben, geben Sie ein <strong>Programm</strong> für das zukünftige Projekt an. Einige Portfolios verfügen möglicherweise nicht über Programme. Sie müssen zuerst ein Programm erstellen, bevor es in dieser Dropdown-Liste angezeigt wird. In der Liste werden nur aktive Programme angezeigt.</p><p>Weitere Informationen zum Erstellen von Programmen finden Sie unter <a href="../../../manage-work/portfolios/create-and-manage-programs/create-program.md" class="MCXref xref">Erstellen eines Programms</a>.</p></td> 
        </tr>  
        <tr data-mc-conditions="QuicksilverOrClassic.Quicksilver"> 
          <td role="rowheader"><strong>Gruppe</strong></td> 
@@ -737,7 +738,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    </tr> 
          <tr> 
          <td role="rowheader"><strong>Geplanter Gewinn</strong></td> 
-         <td><p>Geben Sie den geplanten Nutzen der Projekte an, die aus dieser Vorlage erstellt werden. Der Planned Benefit wird im Business Case des Projekts und im Portfolio Optimizer verwendet. </p><p>Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p><p>Weitere Informationen zur Verwendung von Portfolio Optimizer finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten im Portfolio Optimizer</a> </p></td> 
+         <td><p>Geben Sie den geplanten Nutzen der Projekte an, die aus dieser Vorlage erstellt werden. Der Planned Benefit wird im Business Case des Projekts und des Portfolio Optimizer verwendet. </p><p>Weitere Informationen zum geplanten Nutzen eines Projekts finden Sie unter <a href="../../../manage-work/projects/project-finances/project-planned-benefit.md" class="MCXref xref">Übersicht über den geplanten Nutzen eines Projekts</a>. Der geplante Nutzen eines Projekts wird bei der Berechnung des Nettowerts eines Projekts berücksichtigt. </p><p>Weitere Informationen zur Verwendung von Portfolio Optimizer finden Sie unter <a href="../../../manage-work/portfolios/portfolio-optimizer/manage-projects-in-portfolio-optimizer.md" class="MCXref xref">Verwalten von Projekten in Portfolio Optimizer</a> </p></td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Fixkosten</strong></td> 
@@ -991,23 +992,23 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
        <tbody> 
        <tr> 
          <td role="rowheader"><strong>Wenn jemand einer Aufgabe zugewiesen wird</strong> </td> 
-         <td> <p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong>-Zugriff auf eine Aufgabe. Dem Benutzer, der einer Aufgabe zugewiesen ist, wird automatisch dieser Zugriff auf die Aufgabe gewährt. </p> </td> 
+         <td> <p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Beitragen, </strong> oder <strong>Verwalten</strong> Zugriff auf eine Aufgabe. Dem Benutzer, der einer Aufgabe zugewiesen ist, wird automatisch dieser Zugriff auf die Aufgabe gewährt. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Gewähren Sie auch Zugriff auf das Projekt</strong> </td> 
-         <td> <p> Wählen Sie aus <strong>Ansicht</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong>-Zugriff auf das Projekt. Der/die Benutzende, der/die einer Aufgabe zugewiesen wurde, erhält automatisch auch diesen Zugriff auf das Projekt. </p> </td> 
+         <td> <p> Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong> oder <strong>Verwalten</strong>-Zugriff auf das Projekt. Der/die Benutzende, der/die einer Aufgabe zugewiesen wurde, erhält automatisch auch diesen Zugriff auf das Projekt. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Wenn jemand einem Problem zugewiesen wird</strong> </td> 
-         <td> <p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong>-Zugriff auf ein Problem. Der Person, die einem Problem zugewiesen wurde, wird automatisch dieser Zugriff auf das Problem gewährt. </p> </td> 
+         <td> <p>Wählen Sie aus <strong>Anzeigen</strong>, <strong>Beitragen</strong> oder <strong>Verwalten</strong> Zugriff auf ein Problem. Der Person, die einem Problem zugewiesen wurde, wird automatisch dieser Zugriff auf das Problem gewährt. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Gewähren Sie auch Zugriff auf das Projekt</strong> </td> 
-         <td> <p> Wählen Sie aus <strong>Ansicht</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong>-Zugriff auf das Projekt. Der einem Problem zugewiesene Benutzer erhält automatisch auch diesen Zugriff auf das Projekt. </p> </td> 
+         <td> <p> Wählen Sie aus <strong>Ansicht</strong>, <strong>Beitragen</strong> oder <strong>Verwalten</strong>-Zugriff auf das Projekt. Der einem Problem zugewiesene Benutzer erhält automatisch auch diesen Zugriff auf das Projekt. </p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Wenn jemand eine Anfrage einreicht: Erteilen Sie ihm Zugriff</strong> </td> 
-         <td> <p> Wählen Sie aus <strong>Ansicht</strong>, <strong>Contribute</strong> oder <strong>Verwalten</strong> Zugriff auf die Anfrage. Wenn er/sie eine Anfrage an das Projekt sendet, erhält er/sie Zugriff auf die von ihm/ihr gesendete Anfrage. Weitere Informationen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines </a>.</p> </td> 
+         <td> <p> Wählen Sie aus <strong>Anzeigen</strong>, <strong>Beitragen</strong> oder <strong>Verwalten</strong> Zugriff auf die Anfrage. Wenn er/sie eine Anfrage an das Projekt sendet, erhält er/sie Zugriff auf die von ihm/ihr gesendete Anfrage. Weitere Informationen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md" class="MCXref xref">Freigeben eines </a>.</p> </td> 
        </tr> 
        <tr> 
          <td role="rowheader"><strong>Personen aus demselben Unternehmen erben dieselben Berechtigungen für alle Anfragen</strong> </td> 
@@ -1030,6 +1031,23 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 
    Wenn Sie diese Vorlage jetzt zum Erstellen eines Projekts verwenden, werden alle diese Einstellungen auf das neue Projekt übertragen.
 
+
+### Verknüpfte Ordner (bedingte Verfügbarkeit) {#linked-folders}
+
+Die Funktion „Verknüpfte Ordner“ erstellt automatisch Ordner in Adobe Experience Manager Assets und verbindet diese Ordner mit Workfront.
+
+Dieser Abschnitt wird nur angezeigt, wenn Folgendes zutrifft:
+
+* Ihre Organisation wurde in die Adobe Admin Console migriert
+* Ihr Unternehmen hat eine Integration mit Adobe Experience Manager aktiviert und konfiguriert
+* Die Vorlage hat verknüpfte Ordner aktiviert und konfiguriert.
+
+Anweisungen zum Bearbeiten verknüpfter Ordner finden Sie unter [Bearbeiten von Workflow-Werten in einem Projekt](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md#edit-workflow-values-in-a-project) im Artikel [Verwenden von Workflows in der Experience Manager Assets-Integration](/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/use-aem-workflows.md).
+
+<!--I don't think this note is valid anymore - this note was on Edit project when this section was in that article, by mistake: 
+>[!NOTE]
+>
+>Because linked folders are created when the project is created, editing the linked folder workflow on an existing project is ineffective. Editing these values when creating a project functions as expected.-->
 
 ## Stapelweises Bearbeiten von Vorlagen
 

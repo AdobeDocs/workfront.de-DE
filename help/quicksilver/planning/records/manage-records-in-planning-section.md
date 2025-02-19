@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1433'
+source-wordcount: '1475'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
    <td>
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
 
 </tr>
@@ -84,20 +84,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
   <tr>
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td>
-   <td> <p>Zugriff auf Projekte, Programme und Portfolios anzeigen oder höher anzeigen</p>  
+   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Projekte, Programme und Portfolios</p>  
 </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <p>Zeigen Sie in Workfront Berechtigungen oder höhere Berechtigungen für ein Projekt, ein Portfolio oder ein Programm an</a> </p> 
-   <p>In Workfront Planning können Sie Berechtigungen für einen Arbeitsbereich anzeigen , um verbundene Datensätze anzuzeigen, oder Contribute oder höhere Berechtigungen für einen Arbeitsbereich anzeigen , um Datensätze zu verbinden oder zu trennen</a> </p>  
+   <p>Zeigen Sie in Workfront Planning Berechtigungen für einen Arbeitsbereich an, um verbundene Datensätze anzuzeigen, oder fügen Sie oder höhere Berechtigungen für einen Arbeitsbereich hinzu, um Datensätze zu verbinden oder zu trennen</a> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Workfront Planning-Arbeitsbereiche, einschließlich der nicht erstellten</p> 
   </td>
   </tr>
 <tr>
    <td role="rowheader"><p>Layoutvorlage</p></td>
-   <td> <p>Um den Planungsbereich oder den Planungsabschnitt für ein Workfront-Objekt anzeigen zu können, muss allen Benutzenden, einschließlich Workfront-Administratoren, eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü und den Planungsbereich für Projekte, Portfolios und Programme enthält. </p> Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Übersicht über den Adobe Planning-Zugriff</a>. </p>  </p>  
+   <td> <p>Um den Planungsbereich oder den Planungsabschnitt für ein Workfront-Objekt anzeigen zu können, muss allen Benutzenden, einschließlich Workfront-Administratoren, eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü und den Planungsbereich für Projekte, Portfolios und Programme enthält. </p> Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht für Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
  </tbody>
@@ -172,7 +172,10 @@ Folgendes geschieht:
    * Der Datensatz ist nicht mehr mit dem Workfront-Objekt verbunden.
    * Das Workfront-Objekt wird auch aus dem verknüpften Feld des Datensatzes aus Workfront Planning entfernt.
    * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden ebenfalls gelöscht.
-1. Klicken Sie **Verbinden**, um weitere Datensätze für die verbundenen Datensatztypen zu verbinden. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+1. Klicken Sie **Verbinden**, um weitere Datensätze für die verbundenen Datensatztypen zu verbinden.
+
+   Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
+1. (Optional) Wenn Sie einen Datensatz für die Verbindung nicht finden können und Sie ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen**, um einen neuen Datensatz hinzuzufügen. Weitere Informationen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie mit anderen Datensätzen verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
    Folgendes geschieht:
 
@@ -204,7 +207,7 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld f�
 * Sie müssen ein benutzerdefiniertes Formular mit einem benutzerdefinierten Feld für die Planning-Verbindung an ein Workfront-Objekt anhängen, das über Workfront Planning verbunden werden kann, wenn Sie den richtigen Zugriff haben.
 * Workfront Planning-Datensatztypen müssen zunächst mit Workfront-Objekttypen verbunden werden. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Sie können Datensätze nur für Objekte, die Workfront Planning-Verbindungen aufweisen können, mit dem Feld Planning-Verbindung eines Workfront-Objekts verbinden oder davon trennen.
-* Sie müssen über Contribute-Berechtigungen für einen Arbeitsbereich in Workfront Planning verfügen, um Datensätze mit dem Feld Planning-Verbindung eines Workfront-Objekts verbinden oder trennen zu können.
+* Sie müssen Beitragsberechtigungen für einen Arbeitsbereich in Workfront Planning besitzen, um Datensätze mit dem Feld Planning-Verbindung eines Workfront-Objekts verbinden oder trennen zu können.
 * Ein Planning-Verbindungsfeld kann nicht bearbeitet werden, wenn Workfront-Objekte stapelweise bearbeitet werden.
 
 ### Verwalten von Datensatzverbindungen über den Feldtyp Planungsverbindung

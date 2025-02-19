@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 597d8db034269e673dbe46e8c0f4934bf9509e2f
+source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
 workflow-type: tm+mt
-source-wordcount: '1593'
+source-wordcount: '1621'
 ht-degree: 0%
 
 ---
@@ -256,10 +256,16 @@ Sie müssen über Folgendes verfügen, bevor Sie neue Datensätze hinzufügen k�
 
 So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinden:
 
-1. Verbinden Sie Workfront-Planungsdatensätze, wie im Artikel [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md) beschrieben. Sie können Datensätze aus einem Verbindungsfeld in den folgenden Bereichen von Workfront Planning verbinden:
+1. Verbinden Sie Workfront-Planungsdatensätze, wie im Artikel [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md) beschrieben. Sie können Datensätze aus den folgenden Bereichen verbinden:
 
-   * Die Tabellenansicht
-   * Die Detailseite oder das Vorschaufeld eines Datensatzes
+   * Ein Verbindungsfeld in den folgenden Bereichen von Workfront Planning:
+
+      * Die Tabellenansicht
+      * Die Detailseite oder das Vorschaufeld eines Datensatzes
+
+   * Ein Verbindungsfeld im Abschnitt Planung eines Projekts, Portfolios oder Programms in Workfront.
+
+     Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 1. (Bedingt) Wenn Sie einen Datensatz beim Versuch, ihn aus dem Feld Verbundener Datensatz eines anderen Datensatzes hinzuzufügen, nicht finden können, suchen Sie nach einem Datensatz und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird. Der eingegebene Name folgt auch der Schaltfläche Hinzufügen .
 

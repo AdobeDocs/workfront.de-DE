@@ -7,9 +7,9 @@ author: Alina
 feature: Timesheets
 role: User
 exl-id: 120173a8-95f1-4233-ab40-d3bcfe38c977
-source-git-commit: 98040582995af736d3716e24c7530dd4cda4d3a6
+source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
 workflow-type: tm+mt
-source-wordcount: '3826'
+source-wordcount: '3824'
 ht-degree: 0%
 
 ---
@@ -51,11 +51,11 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um die Schritte in die
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Anzeigen des oder eines höheren Zugriffs auf den Typ des Arbeitselements, für das Sie die Zeit protokollieren </p> <p>Sie benötigen beispielsweise Ansichtszugriff auf Anfragen, um die Zeit für Probleme zu protokollieren</p> </td> 
+   <td> <p>Bearbeitungszugriff auf den Typ des Arbeitselements, für das Sie die Zeit protokollieren </p> <p>Sie benötigen beispielsweise Bearbeitungszugriff auf Anfragen, um die Zeit für Probleme zu protokollieren</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute- oder höhere Berechtigungen für das Arbeitselement, für das Sie die Zeit protokollieren, einschließlich der Berechtigungen zum Protokollieren von Stunden</p> </td> 
+   <td> <p>Tragen Sie zu oder höhere Berechtigungen für das Arbeitselement bei, für das Sie die Zeit protokollieren, die Berechtigungen zum Protokollieren von Stunden enthält</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -420,7 +420,7 @@ Oder
 Sie müssen über alle folgenden verfügen:
 
 * Eine Planlizenz mit administrativem Zugriff auf Arbeitszeittabellen und Stunden. Weitere Informationen zum Gewähren von administrativem Zugriff auf Arbeitszeittabellen und Stunden finden Sie unter [Gewähren von administrativem Zugriff für Benutzer auf bestimmte Bereiche](../../administration-and-setup/add-users/configure-and-grant-access/grant-users-admin-access-certain-areas.md).
-* Contribute oder höhere Berechtigungen für das Projekt mit Zugriff auf „Stunden protokollieren“. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
+* Tragen Sie mit Zugriff auf „Stunden protokollieren“ Berechtigungen oder höhere Berechtigungen zum Projekt bei. Weitere Informationen zum Gewähren von Berechtigungen für Projekte finden Sie unter [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md).
 * Ihr Workfront-Administrator muss die Einstellung Zeit direkt in Projekten protokollieren im Abschnitt **Arbeitszeittabelle und Stunden > Voreinstellungen** des Bereichs Setup aktivieren, wenn Sie die Zeit direkt in einem Projekt protokollieren möchten. Weitere Informationen dazu, wie Benutzenden ermöglicht wird, Stunden direkt in Projekten zu protokollieren, finden Sie [Konfigurieren von Arbeitszeittabellen- und Stundeneinstellungen](../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/timesheet-and-hour-preferences.md).
 
 So protokollieren Sie die Zeit im Abschnitt Stunden eines Projekts, einer Aufgabe oder eines Problems:
