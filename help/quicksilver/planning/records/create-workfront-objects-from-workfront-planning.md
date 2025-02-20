@@ -6,16 +6,16 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7c3db950-4cd9-424c-a7a7-4fa7dfa995f6
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '854'
-ht-degree: 1%
+source-wordcount: '1140'
+ht-degree: 2%
 
 ---
 
 <!--update the metadata with real information when making this available in TOC and in the left nav-->
 
-# Erstellen von Workfront-Objekten aus Workfront Planning <!--as you connect them to records-->
+# Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden
 
 <!-- update the title (and all the links to this article) at preview, to be this: Create Workfront objects from Workfront Planning as you connect them to records-->
 <!-- remove preview and production at release time-->
@@ -26,41 +26,29 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-<!--
-You can create Adobe Workfront objects from Workfront Planning in the following ways: 
+Sie können Adobe Workfront-Objekte aus Workfront Planning wie folgt erstellen:
 
-* As you try to connect Workfront objects from Planning records
+* Beim Verbinden von Workfront-Objekten aus Planungsdatensätzen
 
-    This article describes how to create Workfront objects from Workfront Planning as you try to connect them from Planning records. 
-* <span class="preview">When you use automations from a record's page.</span> 
+  In diesem Artikel wird beschrieben, wie Sie Workfront-Objekte aus Workfront Planning erstellen, während Sie sie aus Planning-Datensätzen verbinden.
+* <span class="preview">Wenn Sie Automatisierungen von der Datensatzseite aus verwenden.</span>
 
-    For information about creating Workfront objects using automations, see [Create objects using Adobe Workfront Planning record automations](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). 
--->
+  <span class="preview">Informationen zum Erstellen von Workfront-Objekten mithilfe von Automatisierungen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md). </span>
 
 Sie können die folgenden Typen von Workfront-Objekten aus Workfront Planning erstellen, wenn Sie einen Workfront Planning-Datensatz mit den folgenden Workfront-Objekttypen verbinden:
 
 * Projekte
 * Portfolios
-  <!--* <span class="preview">Programs</span>-->
+* <span class="preview">Programme</span>
 
 >[!IMPORTANT]
 >
->* Sie können nur Projekte und Portfolios in Workfront erstellen, wenn Sie sie über einen Datensatz verbinden.
+>* Sie können in Workfront nur Projekte, Portfolios und <span class="preview">Programme</span> erstellen, wenn Sie sie über einen Datensatz verbinden.
 >
->* Sie können keine Programme, Gruppen oder Unternehmen erstellen, wenn Sie sie über einen Datensatz in Workfront Planning verbinden.
+>* Sie können keine Gruppen oder Unternehmen erstellen, wenn Sie sie über einen Datensatz in Workfront Planning verbinden.
 >
 
-<!--replace the IMPORTANT above with this when we release programs: 
-
->[!IMPORTANT]
->
->* You can create only projects, portfolios, and <span class="preview">programs</span> in Workfront when connecting them from a record. 
->
->* You cannot create groups or companies when connecting them from a record in Workfront Planning. 
->
--->
-
-Sie können Projekte und Portfolios <!--<span class="preview"> and programs </span>--> über ein Verbindungsfeld in folgenden Bereichen von Workfront Planning verbinden:
+Sie können Projekte, Portfolios, <span class="preview"> und Programme </span> aus einem Verbindungsfeld in folgenden Bereichen von Workfront Planning verbinden:
 
 * Die Tabellenansicht eines Datensatztyps
 * Die Detailseite oder das Vorschaufeld eines Datensatzes
@@ -145,7 +133,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie müssen über Folgendes verfügen, bevor Sie neue Projekte oder Portfolios hinzufügen können, indem Sie sie mit vorhandenen Datensätzen verbinden:
 
-* Datensatztypen, die mit Workfront-Projekten oder -Portfolios <!--or <span class="preview">programs</span>--> verbunden sind. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
+* Datensatztypen, die mit Workfront-Projekten, -Portfolios oder -<span class="preview"> verbunden </span>. Weitere Informationen finden Sie unter [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md).
 * Einträge. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 * Die richtigen Zugriffsberechtigungen in Workfront Planning und Workfront, wie im Abschnitt [Zugriffsanforderungen“ in ](#access-requirements) Artikel beschrieben.
 
@@ -155,7 +143,11 @@ So erstellen Sie Projekte, während Sie sie mit anderen Datensätzen verbinden:
 
 1. Wechseln Sie zur Detailseite eines Datensatzes oder zur Tabelle des Datensatztyps und verbinden Sie Workfront Planning-Datensätze mit Workfront-Projekten, wie im Artikel [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md) beschrieben.
 
-1. (Bedingt) <!--<span class="preview">Click **Add project**</span> Or Start typing the name of a project, then click **Add project** if you cannot find it.--> Wenn Sie ein Projekt nicht finden können, wenn Sie versuchen, es über das Feld Verbundener Datensatz eines anderen Datensatzes hinzuzufügen, fügen Sie einen Namen hinzu und klicken Sie dann auf **Projekt hinzufügen**. Auf die Schaltfläche Hinzufügen folgt der von Ihnen eingegebene Projektname.
+1. (Bedingt) <span class="preview">Klicken Sie auf **Projekt hinzufügen**</span>
+oder
+Geben Sie den Namen eines Projekts ein und klicken Sie dann auf **Projekt hinzufügen**, wenn Sie es nicht finden können.
+
+   Wenn Sie ein Projekt nicht finden können, wenn Sie versuchen, es über das Feld Verbundener Datensatz eines anderen Datensatzes hinzuzufügen, fügen Sie einen Namen hinzu und klicken Sie dann auf **Projekt hinzufügen**. Auf die Schaltfläche Hinzufügen folgt der von Ihnen eingegebene Projektname.
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction above out and say "Click Add to add a new project"; take this out too: "The Add button is followed by the project name you typed."-->
 
@@ -180,7 +172,11 @@ So erstellen Sie Portfolios, während Sie sie mit Planungsdatensätzen verbinden
 
    <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new portfolio"; take this out too: "The Add button is followed by the portfolio name you typed."-->
 
-1. (Bedingt) <!--<span class="preview">Click **Add portfolio**</span> Or Start typing the name of a portfolio, then click **Add portfolio** if you cannot find it.--> Wenn Sie ein Portfolio beim Versuch, es über das verbundene Datensatzfeld eines anderen Datensatzes hinzuzufügen, nicht finden können, fügen Sie einen Namen hinzu und klicken Sie dann auf **Portfolio hinzufügen**. Auf die Schaltfläche Hinzufügen folgt auch der von Ihnen eingegebene Portfolioname.
+1. (Bedingt) <span class="preview">Klicken Sie auf **Portfolio hinzufügen**</span>
+
+   Oder
+
+   Geben Sie den Namen eines Portfolios ein und klicken Sie auf **Portfolio hinzufügen** wenn Sie es nicht finden können.—> Wenn Sie ein Portfolio beim Versuch, es aus dem verbundenen Datensatzfeld eines anderen Datensatzes hinzuzufügen, nicht finden können, fügen Sie einen Namen hinzu und klicken Sie dann auf **Portfolio hinzufügen**. Auf die Schaltfläche Hinzufügen folgt auch der von Ihnen eingegebene Portfolioname.
 
    ![Portfolio beim Verbinden über ein Verbindungsfeld hinzufügen](assets/add-portfolio-when-connecting-it-from-connection-field.png)
 
@@ -188,36 +184,33 @@ So erstellen Sie Portfolios, während Sie sie mit Planungsdatensätzen verbinden
 
 1. (Optional) Klicken Sie in Workfront Planning auf den Namen des neuen Portfolios, um die Portfolioseite in Workfront zu öffnen und zusätzliche Aktualisierungen am Portfolio vorzunehmen.
 
-<!--
-
 <div class="preview">
 
-## Create programs as you connect them with records from Workfront Planning
+## Erstellen Sie Programme, während Sie sie mit Datensätzen aus Workfront Planning verbinden
 
-To create programs as you are connecting them from Planning records: 
+So erstellen Sie Programme, während Sie sie aus Planungsdatensätzen verbinden:
 
-1. Go to a record's details page or to the record type's table and start connecting Workfront Planning records with Workfront portfolios, as described in the article [Connect records](/help/quicksilver/planning/records/connect-records.md). 
+1. Wechseln Sie zur Detailseite eines Datensatzes oder zur Tabelle des Datensatztyps und verbinden Sie Workfront Planning-Datensätze mit Workfront-Portfolios, wie im Artikel [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md) beschrieben.
 
-    ******** at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed." ***********
-    
-1. Click **Add program** 
+   <!--at production or when the permanent Add button is released to preview, take the first part of the direction below out and say "Click Add to add a new program"; take this out too: "The Add button is followed by the program name you typed."-->
 
-    Or 
-    
-    Start typing the name of a program, then click **Add program** if you cannot find it. The Add button is followed by the program name you typed. 
+1. Klicken Sie **Programm hinzufügen**
 
-    ![Add Workfront program when connecting it from connection field](assets/add-wf-program-when-connecting-it-from-connection-field.png)
+   Oder
 
-    The **Create program** box opens.
+   Geben Sie den Namen eines Programms ein und klicken Sie auf **Programm hinzufügen**, wenn Sie es nicht finden können. Auf die Schaltfläche Hinzufügen folgt der von Ihnen eingegebene Programmname.
 
-1. Update the **Program name**. This is a required field.
-1. Choose a **Portfolio** from the drop-down, or start typing the name of a portfolio, then select it when it displays in the list. This is a required field. 
-1. Click **Create**.
+   ![Fügen Sie das Workfront-Programm hinzu, wenn Sie es über das Verbindungsfeld verbinden](assets/add-wf-program-when-connecting-it-from-connection-field.png)
 
-    The program is created and added to the connection field of the record you selected. 
+   Das **Programm erstellen** wird geöffnet.
 
-1. (Optional) Click the name of the new program from Workfront Planning to open the program's page in Workfront and make additional updates to it. 
+1. Aktualisieren Sie den **Programmnamen**. Dies ist ein Pflichtfeld.
+1. Wählen Sie eine **Portfolio** aus der Dropdown-Liste aus oder tippen Sie den Namen eines Portfolios und wählen Sie es aus, wenn es in der Liste angezeigt wird. Dies ist ein Pflichtfeld.
+1. Klicken Sie auf **Erstellen**.
+
+   Das Programm wird erstellt und dem Feld Verbindung des ausgewählten Datensatzes hinzugefügt.
+
+1. (Optional) Klicken Sie in Workfront Planning auf den Namen des neuen Programms, um die Programmseite in Workfront zu öffnen und zusätzliche Aktualisierungen vorzunehmen.
 
 </div>
 
--->

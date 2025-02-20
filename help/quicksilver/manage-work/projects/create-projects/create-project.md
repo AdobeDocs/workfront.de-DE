@@ -6,9 +6,9 @@ description: Ein Projekt ist eine große Arbeitseinheit in Adobe Workfront. Sie 
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: eb68357ed4fd8f323707aa4a54a0f946253bf4e0
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '1382'
+source-wordcount: '1388'
 ht-degree: 1%
 
 ---
@@ -114,7 +114,7 @@ Sie können ein Projekt in Workfront mit einer der folgenden Methoden erstellen:
 
   Informationen zum Importieren von Projekten mithilfe von Kickstarts finden Sie unter [Kickstartszenario: Einfache Vorbereitung für den Projekt- und Aufgabenimport](../../../administration-and-setup/manage-workfront/using-kick-starts/kick-starts-scenario-simple-project-task-import-prep.md).
 
-* Publish ist eine Initiative aus einem Szenario im Adobe Workfront-Szenarioplaner.
+* Veröffentlichen Sie eine Initiative aus einem Szenario im Adobe Workfront-Szenarioplaner.
 
   Der Szenario-Planer erfordert eine der folgenden Aktionen:
 
@@ -129,7 +129,7 @@ Sie können ein Projekt in Workfront mit einer der folgenden Methoden erstellen:
 
   Informationen zum Zugriff auf Workfront Planning finden Sie unter [Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
-  Informationen zum Erstellen von Projekten durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Projekten, wenn diese mit Datensätzen aus Workfront Planning verbunden werden“ im Artikel [Erstellen von Workfront-Objekten aus Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
+  Informationen zum Erstellen von Projekten durch Hinzufügen zu Datensätzen finden Sie im Abschnitt „Erstellen von Projekten, wenn diese mit Datensätzen aus Workfront Planning verbunden werden“ im Artikel [Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
 ## Voraussetzungen
 

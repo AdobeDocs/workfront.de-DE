@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 966c2a2b0159c89a41d4502fb0eb0e318f3e5ba9
+source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
 workflow-type: tm+mt
-source-wordcount: '2956'
+source-wordcount: '3082'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Datensätze verbinden
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -112,7 +112,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
-   <td> <p>Es gibt keine Steuerelemente für Zugriffsebenen für Adobe Workfront Planning-Objekte</p>   
+   <td> <p>Es gibt keine Steuerelemente für Zugriffsebenen für Adobe Workfront Planning-Objekte</p> 
+   <p>Zeigen Sie Berechtigungen für die Objekttypen an, die Sie von Workfront aus verknüpfen möchten, oder höhere Berechtigungen.</p>   
 </td> 
   </tr> 
 <tr> 
@@ -169,7 +170,7 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
 1. (Optional) Fügen Sie dem ausgewählten Datensatztyp Datensätze hinzu, indem Sie der Tabelle eine neue Zeile hinzufügen. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit einem anderen Datensatztyp verbunden haben, wechseln Sie zum verbundenen Feld eines Datensatzes und klicken Sie in das Feld oder klicken Sie auf **Verbinden**, um einen Datensatz hinzuzufügen.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Verbinden anderer Datensätze in der Tabellenansicht](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -182,7 +183,13 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
    >
 
 1. (Bedingt) Wenn Sie beim Verbinden der Datensatztypen die Option Eins zu viele oder Eins zu eins für den Verbindungstyp ausgewählt haben und versuchen, einen Datensatz oder ein Objekt, das bereits an anderer Stelle verbunden ist, zu verbinden, erhalten Sie eine Warnung, dass beim erneuten Verbinden der Datensatz aus der ursprünglichen Verbindung entfernt wird. Klicken Sie auf **Verbinden**, um das Entfernen zuzulassen und den Datensatz zu verbinden, oder auf **Abbrechen**, um zum Feld zurückzukehren und einen anderen Datensatz auszuwählen.
-1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden können und Sie ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen**, um einen neuen Datensatz hinzuzufügen. Weitere Informationen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie mit anderen Datensätzen verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden und Sie es hinzufügen möchten, <span class="preview">klicken Sie auf **+ Hinzufügen**</span>
+
+   Oder
+
+   Geben Sie einen Namen für das Objekt ein und klicken Sie dann auf **+ Hinzufügen** um es zu erstellen und hinzuzufügen.
+
+   Weitere Informationen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie mit anderen Datensätzen verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
    >[!TIP]
    >
@@ -251,7 +258,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
 
 1. (Bedingt) Nachdem Sie den ausgewählten Datensatztyp mit einem Workfront-Objekttyp verbunden haben, wechseln Sie zum verbundenen Feld eines Datensatzes und klicken Sie entweder auf das Feld oder auf **Verbinden**, um Workfront-Objekte hinzuzufügen.
 
-   ![](assets/connect-projects-smaller-box-in-table-view.png)
+   ![Verknüpfen von Projekten in der Tabellenansicht](assets/connect-projects-smaller-box-in-table-view.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -262,7 +269,11 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
    >
    >Sie können die Seite eines Datensatzes aus der Ansicht öffnen, auf das verknüpfte Datensatzfeld doppelklicken oder im Feld auf **Verbinden** klicken, um Objekte aus dem verknüpften Objekttyp hinzuzufügen.
 
-1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden und Sie es hinzufügen möchten, klicken Sie auf **+ Hinzufügen**, um ein neues Projekt oder Portfolio zu erstellen und hinzuzufügen.
+1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden und Sie es hinzufügen möchten, <span class="preview">klicken Sie auf **+ Hinzufügen**</span>
+
+   Oder
+
+   Beginnen Sie mit der Eingabe eines Namens für das Objekt und klicken Sie dann auf **+ Hinzufügen**, um ein neues Projekt, Portfolio oder Programm zu erstellen und hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 
@@ -415,7 +426,7 @@ Verbinden von Datensätzen mit Experience Manager-Assets:
 1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 1. Klicken Sie auf **Registerkarte** Verbindungen“ in der Vorschau oder Seite des Datensatzes.
 
-   ![](assets/connections-tab-on-record-in-workfront-planning.png)
+   ![Registerkarte „Verbindungen“ im Datensatz in Workfront Planning](assets/connections-tab-on-record-in-workfront-planning.png)
 
    Alle Datensatz- oder Objekttypen, die mit dem ausgewählten Datensatztyp verknüpft sind, werden als Abschnitte angezeigt. Verbundene Datensätze oder Objekte werden unter ihren Datensatz- oder Objekttyp-Namen auf Karten angezeigt.
 
@@ -428,7 +439,13 @@ Verbinden von Datensätzen mit Experience Manager-Assets:
 1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil links neben einem Abschnitt, um ihn zu reduzieren.
 
 1. (Bedingt) Klicken Sie auf **Verbinden**, um weitere Datensätze oder Objekte desselben Typs hinzuzufügen.
-1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden können und Sie ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen**, um einen neuen Datensatz hinzuzufügen. Weitere Informationen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie mit anderen Datensätzen verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden können und Sie ihn hinzufügen möchten, <span class="preview">klicken Sie auf **+ Hinzufügen**</span>
+
+   Oder
+
+   Beginnen Sie mit der Eingabe eines Namens für das Objekt und klicken Sie dann auf **+ Hinzufügen**, um es zu erstellen und zum Datensatz hinzuzufügen.
+
+   Weitere Informationen finden Sie im Abschnitt „Erstellen von Datensätzen, während Sie sie mit anderen Datensätzen verbinden“ im Artikel [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 1. Führen Sie die in den vorherigen Abschnitten beschriebenen Schritte aus, um Datensätze aus Workfront Planning oder Objekte aus Workfront oder Experience Manager Assets zu verbinden.
 Die Datensätze und Objekte werden sofort hinzugefügt.
 1. (Optional) Bewegen Sie den Mauszeiger über die verbundene Karte eines Datensatzes oder Objekts und klicken Sie dann auf das Symbol **Datensatz trennen**, ![](assets/disconnect-icon-with-tooltip.png) ihn vom ausgewählten Datensatz zu trennen.
