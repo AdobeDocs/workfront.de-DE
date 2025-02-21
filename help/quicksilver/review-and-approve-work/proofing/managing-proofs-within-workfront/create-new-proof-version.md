@@ -6,9 +6,9 @@ description: Das Verwalten des Feedbacks über mehrere Versionen oder Revisionen
 author: Courtney
 feature: Digital Content and Documents
 exl-id: ee0c859e-349b-4e7a-ac80-164740b950f0
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1734'
+source-wordcount: '1737'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Erstellen einer neuen Version eines Korrekturabzugs:
 
    Wählen Sie die Zeile aus, in der der Korrekturabzug aufgeführt ist **klicken Sie auf „Neu hinzufügen** > **Version** und klicken Sie dann auf die Option, die Sie zum Hinzufügen der neuen Version des Korrekturabzugs verwenden möchten.
 
-   ![](assets/add-new-version-350x185.png)
+   ![Neue Version hinzufügen](assets/add-new-version-350x185.png)
 
 ## Erstellen einer neuen Version eines Korrekturabzugs über die Proofing-Anzeige (nur Workfront Proof)
 

@@ -6,9 +6,9 @@ description: Wenn Sie als Mitarbeiter ein persönliches Ziel haben, sollten Sie 
 author: Alina
 feature: Workfront Goals
 exl-id: 4276f1c9-2ee9-4f74-b011-ae1e19fefe35
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '767'
 ht-degree: 1%
 
 ---
@@ -103,7 +103,7 @@ Aligning goals by connecting them differs depending on what environment you use.
 
 1. Click **Align to another goal** in the upper-right corner of the right panel.
 
-   ![](assets/align-to-another-goal-link-highlighted-350x128.png)
+   ![Align to another goal](assets/align-to-another-goal-link-highlighted-350x128.png)
 
 1. Start typing the name of an existing goal or the name of an owner in the **Align to another goal** field, then select it when it appears in the list. Only goals that are from the same or future periods display in the list. 
 1. Click **Save**.
@@ -111,12 +111,12 @@ Aligning goals by connecting them differs depending on what environment you use.
    The goal you started with (Goal 2) is now the child goal of the goal you aligned it with (Goal 1).   
    The aligned goals display connected in the Goal Alignment section with Goal 2 as secondary to Goal 1.
 
-   ![](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![Aligned cards](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Optional) To view the goals in the Goal Alignment section, do one of the following:
 
    * Click the Goal Alignment section in the left panel and find the goals by applying the correct filter. For information about filtering information in Workfront Goals, see [Filter information in Adobe Workfront Goals](../../workfront-goals/goal-management/filter-information-wf-goals.md).
-   * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the **Alignment icon** ![](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
+   * Click the Goal List, Check-in, or Pulse sections in the left panel and find one of the goals, then click the **Alignment icon** ![Align icon](assets/align-icon.png) next to the goal name to go directly to the goal in the Goal Alignment section.
 
    For information about the Goal Alignment section, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md). 
 
@@ -152,7 +152,7 @@ Aligning goals by connecting them differs depending on what environment you use.
    Die abgestimmten Ziele werden im Abschnitt „Zielausrichtung“ mit Ziel 2 als sekundärer Ziel 1 verbunden angezeigt.
 Das untergeordnete Ziel wird im Abschnitt Fortschrittsanzeigen des übergeordneten Ziels angezeigt, da sein Fortschritt den Fortschritt des übergeordneten Ziels aktualisiert.
 
-   ![](assets/goal-1-and-2-aligned-cards-350x427.png)
+   ![Abgestimmte Karten](assets/goal-1-and-2-aligned-cards-350x427.png)
 
 1. (Optional) Um die Ziele im Abschnitt „Zielausrichtung“ anzuzeigen, gehen Sie zum Bereich „Ziele“ von Workfront und klicken Sie dann **Abschnitt &quot;**&quot; im linken Bedienfeld. Informationen zum Abschnitt „Zielausrichtung“ finden Sie unter [Navigieren im Abschnitt „Zielausrichtung“ in Adobe Workfront-](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 

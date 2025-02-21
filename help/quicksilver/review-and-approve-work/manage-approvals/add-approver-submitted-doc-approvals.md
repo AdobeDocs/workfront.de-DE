@@ -6,9 +6,9 @@ description: Sie können einer Dokumentgenehmigung direkt im Bereich Startseite 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 2418565a-639c-424e-873a-f6512efc5cb5
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '337'
+source-wordcount: '342'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder Hochladen von Zugriff auf Projekte, Aufgaben, Probleme, Vorlagen, Portfolios, Programme, Berichte, Dashboards, Kalender und Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Projekte, Aufgaben, Probleme, Vorlagen, Portfolios, Programme, Berichte, Dashboards, Kalender und Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -52,14 +52,14 @@ Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welch
 
 ## Hinzufügen zusätzlicher genehmigender Personen zu übermittelten Dokumentengenehmigungen
 
-1. Klicken Sie auf **Startseite**-Symbol ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Startseite**-Symbol ![Startseite](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
 1. Navigieren Sie im **Arbeitsliste** zur Gruppierung **Genehmigungen, die ich** habe“.
 

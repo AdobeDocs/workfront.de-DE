@@ -7,9 +7,9 @@ description: Sie können für einen einfachen Korrekturabzug nach seiner Erstell
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8e0c6fd3-5506-4b23-b64a-473c4d20b506
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '229'
+source-wordcount: '231'
 ht-degree: 2%
 
 ---
@@ -62,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf **Proofing-Workflow**.
 1. Wählen Sie im **Workflow** die Option **Keine Frist** aus.
 
-   ![](assets/no-deadline-basic-proof-350x70.png)
+   ![Keine Frist](assets/no-deadline-basic-proof-350x70.png)
 
 1. Wählen Sie ein Datum und eine Uhrzeit aus und klicken Sie dann auf eine beliebige Stelle auf dem Bildschirm.
 1. Wählen Sie aus, ob Sie Validierungsverantwortliche über die neue Frist benachrichtigen möchten.

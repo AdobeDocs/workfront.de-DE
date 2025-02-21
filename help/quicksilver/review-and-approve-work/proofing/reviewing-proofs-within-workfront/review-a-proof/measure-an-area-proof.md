@@ -6,9 +6,9 @@ description: Sie können einen Bereich innerhalb eines Korrekturabzugs messen.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: c44de4f0-654e-4b1e-b3d6-2bd8f1ee9d8a
-source-git-commit: 9d2c65516ca1fc612f5f7ee4ee4453019d836cb3
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -60,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    ![measurement_tool_button.png](assets/measurement-tool-button-350x128.png)
 
 1. (Optional) Klicken Sie auf **Markup-Farbe messen**, um die Farboptionen zu erweitern, und klicken Sie dann auf eine Farbe und **Deckkraft**, die auf Ihrem Korrekturabzug leicht zu sehen ist.\
-   ![](assets/selection-color-350x330.png)
+   ![Auswahlfarbe](assets/selection-color-350x330.png)
 
    Die Standardfarbe des Messwerkzeugs ist rot.
 
@@ -70,7 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    >[!NOTE]
    >
-   >Die Optionen für die Maßeinheit sind nur für Testsendungen verfügbar, die von einer PDF erstellt wurden.
+   >Die Optionen für die Maßeinheit sind nur für Korrekturabzüge verfügbar, die über eine PDF erstellt wurden.
 
 1. Ziehen Sie das Messfenster in den Bereich des Korrekturabzugs, den Sie messen möchten.
 
@@ -79,7 +79,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Ziehen Sie die Ecken oder Kanten des Messfensters, um dessen Größe zu ändern.
 1. (Optional) Wenn der Messbereich eine exakte Größe aufweisen soll, geben Sie **Auswahlgröße** Werte ein.
 1. (Optional) Wenn Sie einen bestimmten Prozentsatz innerhalb eines Bereichs messen möchten, aktivieren Sie das Kontrollkästchen Prozentsatz berechnen. Es wird ein neues Feld angezeigt, in dem Sie es anpassen können\
-   ![](assets/calculate-percentage-350x230.png)
+   ![Prozentsatz berechnen](assets/calculate-percentage-350x230.png)
 
 1. Klicken Sie auf **Symbol** Bereich messen“ oben in der Proofing-Anzeige, um das Tool zu schließen, wenn Sie fertig sind.
 

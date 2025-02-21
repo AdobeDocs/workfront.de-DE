@@ -6,9 +6,9 @@ description: Durch das Delegieren von Genehmigungsanfragen können Sie einen and
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 01b76dd5-98cb-4f0d-97ff-7e665f843a9c
-source-git-commit: 69c1e99b996025615e96a84bc8e91cbe2ae6ee48
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1194'
+source-wordcount: '1209'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Beachten Sie beim Delegieren von Genehmigungen Folgendes:
 
 So delegieren Sie Genehmigungen an einen anderen Benutzer:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
 1. Gehen Sie zum Widget Meine Genehmigungen und klicken Sie auf **Meine Genehmigungen delegieren**.
 
@@ -112,7 +112,7 @@ So delegieren Sie Genehmigungen an einen anderen Benutzer:
    >
    >Workfront-Admins können die Delegierung von Genehmigungen über den Bereich „Setup“ deaktivieren. Wenn die Delegierung von Genehmigungen deaktiviert ist, wird die Schaltfläche Genehmigungen delegieren nicht angezeigt.
 
-   ![](assets/delegate-approvals-home.png)
+   ![Genehmigungen in der Startseite delegieren](assets/delegate-approvals-home.png)
 
 1. Geben Sie im Abschnitt „Meine Genehmigungen delegieren“ folgende Informationen an:
 
@@ -144,11 +144,11 @@ So delegieren Sie Genehmigungen an einen anderen Benutzer:
 
 ## Aktualisieren oder Beenden einer Genehmigungsdelegierung {#update-or-stop-an-approval-delegation}
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
 
 1. Gehen Sie zum Widget Meine Genehmigungen und klicken Sie dann auf **Delegierung bearbeiten**.
-   ![](assets/edit-delegations.png)
+   ![Delegierungen bearbeiten](assets/edit-delegations.png)
 <!--
    Or
 
@@ -170,7 +170,7 @@ Im Widget Meine Genehmigungen können Sie nur die folgenden Arten von Genehmigun
 
 So zeigen Sie delegierte Genehmigungen an:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
 1. Klicken Sie im **Meine Genehmigungen** auf das Dropdown-Menü **Filter** und dann auf **Delegierte Genehmigungen**.\
    Alle an Sie delegierten Genehmigungen werden in der Liste angezeigt.

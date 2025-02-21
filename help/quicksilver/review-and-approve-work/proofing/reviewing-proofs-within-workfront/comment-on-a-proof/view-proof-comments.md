@@ -6,9 +6,9 @@ description: Sie können Korrekturabzugskommentare anderer Prüfer anzeigen und 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 32a068ab-0d99-4ab5-a98d-dc3abd953948
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '671'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ So zeigen Sie Kommentare im Proofing Viewer an:
 In Workfront können Sie Korrekturabzugskommentare anzeigen, ohne die Korrekturabzugsansicht zu starten.
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
-1. Klicken Sie auf die Zeile mit dem Dokument und dann auf **Symbol** Zusammenfassung![](assets/summary-panel-icon.png) rechts auf der Seite.\
+1. Klicken Sie auf die Zeile mit dem Dokument und dann auf **Zusammenfassung** Symbol ![Zusammenfassung](assets/summary-panel-icon.png) rechts auf der Seite.\
    Die Kommentare werden im Abschnitt Aktualisierungen der Dokumentzusammenfassung angezeigt.
 
 ## Alle Kommentare als gelesen markieren
@@ -96,7 +96,7 @@ Als Prüfer eines Korrekturabzugs können Sie schnell alle Kommentare als gelese
 
 1. Klicken Sie über der Kommentarliste auf das Symbol **Mehr** und dann auf **Alle als gelesen markieren**.
 
-1. ![](assets/mceclip8-350x173.png)
+1. ![Alle als gelesen markieren](assets/mceclip8-350x173.png)
 
 ## Antworten auf Korrekturabzugskommentare von der Korrekturabzugsansicht
 

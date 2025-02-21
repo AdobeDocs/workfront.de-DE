@@ -8,9 +8,9 @@ description: Sie können Projekte mit Zielen verbinden, um den Fortschritt des Z
 author: Alina
 feature: Workfront Goals
 exl-id: 683c9cd9-6c7b-4d50-b326-b4000c9863e8
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '923'
+source-wordcount: '931'
 ht-degree: 1%
 
 ---
@@ -112,7 +112,7 @@ Sie müssen über Folgendes verfügen:
 
 There is an indication on the goal list that the project no longer updates progress for the goal.
 
-  ![](assets/goal-closed-project-active-warning-goal-list-350x94.png)
+  ![Goal closed](assets/goal-closed-project-active-warning-goal-list-350x94.png)
 -->
 
 * Wenn Sie ein Projekt löschen, das an ein Ziel angehängt ist, wird das Projekt auch aus dem Ziel gelöscht.
@@ -124,14 +124,14 @@ There is an indication on the goal list that the project no longer updates progr
 
 ## Projekte zu Zielen hinzufügen
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) (Entwurf für diese Shell: oder klicken Sie auf das **Hauptmenü** ![](assets/three-line-main-menu-icon.png) in der oberen linken Ecke, falls verfügbar.) und dann auf **Ziele**.
+1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) (entwerfen Sie diese für Shell: oder klicken Sie auf das **Hauptmenü** ![Hauptmenüzeilen](assets/three-line-main-menu-icon.png) in der oberen linken Ecke, falls verfügbar.) , dann **Ziele**.
 1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite Ziel zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
 1. Klicken Sie **Dropdown-Menü** Neue Fortschrittsanzeige“ auf **Vorhandenes Projekt hinzufügen**.
 
    Das Feld Projekte zum Ziel hinzufügen wird angezeigt.
 1. (Optional) Aktualisieren Sie **Ansicht**, **Filter** oder **Gruppierung**, indem Sie auf die entsprechenden Symbole in der rechten oberen Ecke der Liste klicken, um die Anzeige der Projektliste zu ändern.
-1. (Optional) Klicken Sie auf das **Suchen**-Symbol ![](assets/search-icon.png) und geben Sie den Namen eines Projekts ein, um es schnell in der Liste zu finden.
+1. (Optional) Klicken Sie auf das Symbol **Suchen** ![Suchsymbol](assets/search-icon.png) und geben Sie den Namen eines Projekts ein, um es schnell in der Liste zu finden.
 1. Wählen Sie die Projekte aus, die Sie zum Ziel hinzufügen möchten, und klicken Sie dann auf **Hinzufügen**.
 
    Die ausgewählten Projekte werden zum Ziel hinzugefügt und im Abschnitt Fortschrittsanzeigen der Zielseite unter der Gruppierung **Projekt** angezeigt.

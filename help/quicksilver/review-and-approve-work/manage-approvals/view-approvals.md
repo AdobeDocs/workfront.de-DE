@@ -6,9 +6,9 @@ description: Genehmigungsprozesse bieten die Flexibilität, mehrstufige Genehmig
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 1071e456-f111-4c52-b13a-ac1113f69cec
-source-git-commit: b0b83e8a8a2a076ec20691183605e3d25d10129d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '796'
+source-wordcount: '802'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Sie können Validierungen aus den folgenden Bereichen anzeigen oder verwalten:
 
 ## Prüfungsarbeit, die zur Genehmigung im Bereich Startseite eingereicht wird {#review-work-you-submit-for-approval-in-the-home-area}
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
 1. (Bedingt) Klicken Sie auf das **Filter** Dropdown-Menü und wählen Sie **Von mir gesendete Genehmigungen** aus, um die von Ihnen gesendeten Genehmigungen anzuzeigen.
 
@@ -133,6 +133,6 @@ So zeigen Sie den aktuellen Status an, in dem sich eine Aufgabe oder ein Problem
 
    Die Registerkarte Genehmigungen enthält vollständige Informationen zu allen früheren Genehmigungspfaden und -schritten. Sie können genau sehen, wer eine Entscheidung über die Genehmigung getroffen hat oder ob die Genehmigung für ein Team, ein Aufgabengebiet oder einen Benutzer festgelegt ist.
 
-   ![](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
+   ![Registerkarte „Genehmigungen“ erweitert](assets/approvals-tab-expanded-on-issue-nwe-350x320.png)
 
    Weitere Informationen zum Erstellen eines Genehmigungsprozesses finden Sie unter [Erstellen eines Genehmigungsprozesses für Arbeitselemente](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).

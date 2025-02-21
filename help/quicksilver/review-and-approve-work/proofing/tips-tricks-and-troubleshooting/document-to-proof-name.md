@@ -6,9 +6,9 @@ title: Dokumentname nach dem Hochladen geändert und enthält ein ungültiges Ze
 description: Bestimmte Dokumente können nicht in Korrekturabzüge konvertiert werden.
 author: Courtney
 exl-id: 7771deb5-cf9f-4a32-a444-b701bec1619e
-source-git-commit: 3e16f69f5b3c2b37093b00841945e6529394fa94
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '133'
+source-wordcount: '135'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,6 @@ Entfernen Sie das ungültige Zeichen aus dem Dokumentnamen:
 
    Ungültige Zeichen: `! # % * \ | ' " / ? < > { } [ ]`
 
-   ![](assets/doc-name.png)
+   ![Dokumentname](assets/doc-name.png)
 
 1. Aktualisieren Sie die Seite und erstellen Sie den Korrekturabzug.

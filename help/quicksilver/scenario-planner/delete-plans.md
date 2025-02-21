@@ -6,9 +6,9 @@ description: Sie können von Ihnen erstellte Pläne löschen. Mit Ihnen geteilte
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 74515723-3822-425a-aa9e-970af63f9189
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '508'
+source-wordcount: '512'
 ht-degree: 1%
 
 ---
@@ -90,7 +90,7 @@ Löschen eines Plans:
 Eine Liste mit Plänen wird angezeigt.
 
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen.
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr ](assets/more-menu.png) rechts neben dem Plannamen und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
 
    Der Plan wird gelöscht und Sie kehren zur Liste der Pläne zurück.
 
@@ -114,7 +114,7 @@ So löschen Sie ein Szenario:
    Standardmäßig wird das anfängliche Szenario angezeigt.
 
 1. Klicken Sie **[!UICONTROL Szenarien vergleichen]**.
-1. Klicken Sie in der rechten oberen Ecke der Szenariokarte auf das ![](assets/more-menu.png) **[!UICONTROL Mehr]** und klicken Sie dann auf **[!UICONTROL Löschen]**.
+1. Klicken Sie oben rechts auf der Szenariokarte auf das Menü **[!UICONTROL Mehr]** ![Mehr](assets/more-menu.png) und dann auf **[!UICONTROL Löschen]**.
 
    Das Szenario wird gelöscht.
 

@@ -7,10 +7,10 @@ description: Wenn Sie die langfristige Strategie Ihres Unternehmens planen, gibt
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 9a79ef81-6271-4cc9-b701-3ba0aeafb324
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '950'
-ht-degree: 2%
+source-wordcount: '964'
+ht-degree: 1%
 
 ---
 
@@ -79,7 +79,7 @@ Ein Szenario ist eine Kopie eines Plans. Sie können so viele Szenarien erstelle
 
 1. Klicken Sie auf den Abwärtspfeil neben einem vorhandenen Szenario und dann auf das Symbol **[!UICONTROL Kopieren]**.
 
-   ![](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
+   ![Szenario ](assets/copy-scenarios-ui-and-highlighted-icon-350x95.png)
 
    Dadurch wird ein neues Szenario mit denselben Informationen wie das kopierte Szenario erstellt. Sie erhält automatisch den Namen &quot;[!UICONTROL Szenario 2]&quot;, wenn es sich um das zweite Szenario Ihres Plans handelt, &quot;[!UICONTROL Szenario 3]&quot;, wenn es das dritte ist usw. Sie können Ihre Szenarien nicht umbenennen. Die Anzahl der Kopien, die Sie erstellen können, ist unbegrenzt.
 
@@ -116,7 +116,7 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie sie vergleichen, um das b
 
    Alle vorhandenen Szenarien für den Plan werden nebeneinander im Kartenformat angezeigt. Das anfängliche Szenario wird immer zuerst aufgeführt und ist statisch.
 
-   ![](assets/scenario-cards-overlapping-350x166.png)
+   ![Szenariokarten](assets/scenario-cards-overlapping-350x166.png)
 
 1. (Optional) Scrollen Sie nach rechts, um alle Szenariokarten anzuzeigen.
 
@@ -174,7 +174,7 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie sie vergleichen, um das b
    >Wenn die Informationen zwischen dem ursprünglichen Szenario und zusätzlichen Szenarien unterschiedlich sind, wird neben dem geänderten Wert ein Aufwärts- oder Abwärtspfeil angezeigt, um eine Steigerung oder Abnahme dieses Werts im Vergleich zum ursprünglichen Szenario anzuzeigen.
    >
    >
-   >![](assets/arrows-on-scenario-cards-highlighted-350x70.png)
+   >![Pfeile auf Szenariokarten](assets/arrows-on-scenario-cards-highlighted-350x70.png)
    >
    >Beispielsweise können sich das Budget, die Anzahl der Aufgabengebiete und die Anzahl der Initiativen von einem Szenario zum anderen ändern.
 
@@ -188,9 +188,9 @@ Nachdem Sie Ihre Szenarien erstellt haben, können Sie sie vergleichen, um das b
 
    Klicken Sie auf das Beschreibungsfeld, um es zu aktualisieren, und klicken Sie dann auf eine beliebige Stelle auf dem Bildschirm, um Ihre Änderungen zu speichern.
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr]**-![](assets/more-icon.png), um das Szenario **[!UICONTROL Kopieren]** oder **[!UICONTROL Löschen]**.
+1. (Optional) Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-icon.png), um das Szenario **[!UICONTROL Kopieren]** oder **[!UICONTROL Löschen]**.
 
-   ![](assets/copy-or-delete-scenario-links-from-card-350x109.png)
+   ![Szenario kopieren oder ](assets/copy-or-delete-scenario-links-from-card-350x109.png)
 
    Wenn Sie ein Szenario kopieren, wird es automatisch auf der Kartenseite angezeigt und gemäß diesem Muster umbenannt: &quot;[!UICONTROL Szenario] `<next number in order>`.“
 

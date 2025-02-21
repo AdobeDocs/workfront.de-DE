@@ -6,9 +6,9 @@ description: Automatisierte Workflows erleichtern die Verwaltung des Überprüfu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 852f960f-1b57-4a8a-a928-407ad52418e6
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1236'
+source-wordcount: '1242'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken Bedienfeld auf **Workflow** ![](assets/workflow-icon-proofing-viewer.png) und dann auf das Symbol Bearbeiten ![](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
+   Wenn Sie den Korrekturabzug im Proofing Viewer ansehen, klicken Sie im linken ](assets/workflow-icon-proofing-viewer.png) auf **Workflow** ![Workflow-Symbol und dann auf das Symbol „Bearbeiten![Symbol „Bearbeiten“](assets/edit-icon-proofing-viewer.png), um die automatisierten Workflow-Einstellungen für den Korrekturabzug zu öffnen.
 
 1. (Bedingt) Wenn für den Korrekturabzug derzeit ein einfacher Workflow (ohne Phasen) verwendet wird, klicken Sie im angezeigten **auf In automatisierten Workflow**.
 
@@ -155,7 +155,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Wenn Sie dem automatisierten Workflow Stadien hinzufügen, wird auf dem Bildschirm ein Diagramm erstellt, das diese Stadien darstellt:
 
-   ![](assets/workflow-diagram-existing-proof-qs-350x215.png)
+   ![Workflow-](assets/workflow-diagram-existing-proof-qs-350x215.png)
 
 1. Wenn Sie alle Schritte hinzugefügt haben, klicken Sie auf **Fertig**.
 

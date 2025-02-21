@@ -6,9 +6,9 @@ description: Sie können den Bericht zu Korrekturabzugsgenehmigungen verwenden, 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f8c924e-7c33-43f3-a9d6-75c56af28527
-source-git-commit: 8a388ffa2d30683c08637a4273f628c553e55fdb
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '296'
+source-wordcount: '299'
 ht-degree: 1%
 
 ---
@@ -56,7 +56,7 @@ Sie müssen über Folgendes verfügen:
 
 1. Klicken Sie **Neuer Bericht** und blättern Sie zur Auswahl **Korrekturabzugsgenehmigung**.
 
-   ![](assets/proof-approval-report.png)
+   ![Bericht zur Korrekturabzugsgenehmigung](assets/proof-approval-report.png)
 
 1. (Optional) Fügen Sie weitere Felder hinzu.
 1. Klicken Sie auf **Speichern + schließen**.

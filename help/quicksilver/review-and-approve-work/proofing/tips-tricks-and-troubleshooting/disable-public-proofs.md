@@ -8,9 +8,9 @@ description: Sie können die Möglichkeit deaktivieren, einen Korrekturabzug fü
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 73f08e12-f70d-4347-8a5b-441f94d24590
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '334'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Sie müssen der Eigentümer oder Ersteller des Korrekturabzugs sein oder über d
 1. Bewegen Sie den Mauszeiger über den Korrekturabzug und wählen Sie **Dokumentdetails** aus.
 1. Klicken Sie im linken Bedienfeld auf **Einstellungen für Proofing Viewer** und deaktivieren Sie dann das Kontrollkästchen **Freigabe von Korrekturabzug über öffentliche URL oder Einbettungs-Code**.
 
-   ![](assets/proofing-viewer-settings-350x200.png)
+   ![Einstellungen der Korrekturabzugsansicht](assets/proofing-viewer-settings-350x200.png)
 
 1. Klicken Sie auf **Speichern**.
 
@@ -64,9 +64,9 @@ Sie müssen der Eigentümer oder Ersteller des Korrekturabzugs sein oder über d
 
 Sie können die Einstellung Öffentlicher Korrekturabzug für einzelne Benutzende in Ihrer Workfront-Instanz deaktivieren. Sie müssen über ein Profil mit Korrekturabzugsberechtigung oder Administrator verfügen, um diese Änderung vorzunehmen.
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Proofing**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Proofing**.
 1. Klicken Sie **oben** auf „Kontoeinstellungen“.
 1. Klicken Sie auf **Registerkarte** Benutzer“ und dann auf den Namen eines Benutzers.
 1. Deaktivieren Sie im Abschnitt **Standardeinstellungen für** Korrekturabzug **das Kontrollkästchen Öffentliche Freigabe**.
 
-   ![](assets/default-proof-settings--public-sharing-350x210.png)
+   ![Öffentliche Freigabe](assets/default-proof-settings--public-sharing-350x210.png)

@@ -6,9 +6,9 @@ description: Sie können vorhandene Ziele aus jedem Zeitraum und in jedem Status
 author: Alina
 feature: Workfront Goals
 exl-id: 74db534c-6897-40c2-bea9-a9d30a40f61c
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '631'
+source-wordcount: '640'
 ht-degree: 1%
 
 ---
@@ -104,9 +104,9 @@ Editing goals differs depending on what environment you use.
 ### Edit goals in the Production environment
 
 1. Go to a goal that you want to edit and click the goal name to open the **Goal Details** panel. 
-1. Click the **More icon** ![](assets/more-icon.png), then click **Edit**.
+1. Click the **More icon** ![More icon](assets/more-icon.png), then click **Edit**.
 
-   ![](assets/edit-goal-highlighted.png)
+   ![Edit goal](assets/edit-goal-highlighted.png)
 
 1. Update the name of the goal in the **Goal** field. 
 1. Select a time period when the goal should be completed.
@@ -144,17 +144,17 @@ Editing goals differs depending on what environment you use.
 
 -->
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Ziele**.\
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.\
    Eine Liste der Ziele wird angezeigt.
 1. Klicken Sie auf ein Ziel.\
    Die Zielseite wird angezeigt.
 
-   ![](assets/goal-page-unshimmed.png)
+   ![Zielseite](assets/goal-page-unshimmed.png)
 
 1. Führen Sie einen der folgenden Schritte aus, um Informationen für das Ziel zu bearbeiten:
    * Klicken Sie auf Felder, die in der Zielkopfzeile angezeigt werden, um sie zu aktualisieren. Nicht alle Felder in der Kopfzeile können bearbeitet werden.
-   * Klicken Sie auf **Mehr** Symbol ![](assets/more-icon.png) rechts neben dem Zielnamen und dann auf **Bearbeiten**.
-   * Klicken Sie **linken** auf „Zieldetails“ und klicken Sie oben rechts auf **** Bearbeiten![](assets/edit-icon.png) und dann auf **Alle bearbeiten**. Beginnen Sie mit der Aktualisierung der Felder im Abschnitt Zieldetails .
+   * Klicken Sie auf **Mehr**![Mehr](assets/more-icon.png) rechts neben dem Zielnamen und dann auf **Bearbeiten**.
+   * Klicken Sie **linken** auf „Zieldetails“ und klicken Sie oben rechts auf **Bearbeiten** ![Bearbeiten](assets/edit-icon.png) und dann auf **Alle bearbeiten**. Beginnen Sie mit der Aktualisierung der Felder im Abschnitt Zieldetails .
 
      >[!IMPORTANT]
      >

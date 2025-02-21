@@ -6,9 +6,9 @@ description: Wenn Sie ein Ziel erstellen, wird es von Adobe Workfront Goals mit 
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '501'
 ht-degree: 1%
 
 ---
@@ -116,8 +116,8 @@ Sie können Ziele aktivieren, die Sie erstellt haben, oder ein Ziel, für das Si
 
 1. Navigieren Sie zu einem Ziel, das Sie aktivieren möchten. Die Zielseite wird geöffnet.
 
-1. Klicken Sie auf **Mehr**-![](../goal-management/assets/more-icon.png) rechts neben dem Zielnamen und dann auf **Aktivieren**.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](../goal-management/assets/more-icon.png) rechts neben dem Zielnamen und klicken Sie dann auf **Aktivieren**.
 
-   ![](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
+   ![Mehr Menü erweitert](assets/more-menu-on-goal-expanded-with-activate-unshimmed.png)
 
    Der Zielstatus ändert sich in Aktiv. Sie können jetzt den Fortschritt beim Ziel verfolgen. Das Ziel wird im Abschnitt Einchecken angezeigt und wird in den Diagrammabschnitten der Workfront-Ziele berücksichtigt

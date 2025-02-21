@@ -6,9 +6,9 @@ description: Sie können die Ausrichtung zwischen zwei Zielen entfernen, wenn es
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '451'
+source-wordcount: '456'
 ht-degree: 1%
 
 ---
@@ -101,9 +101,9 @@ Removing goal alignment differs depending on which environment you use.
 
 1. Go to a child goal aligned to a parent goal. 
 1. Click the goal name to open the **Goal Details** panel. 
-1. Click the **gear icon** ![](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
+1. Click the **gear icon** ![Gear icon](assets/gear-icon-settings.png) next to the parent goal, then click **Remove alignment**.
 
-   ![](assets/edit-remove-alignment-350x88.png)
+   ![Reove alignment](assets/edit-remove-alignment-350x88.png)
 
    The goal becomes a standalone goal and its progress no longer influences the progress of the original parent goal. 
 
@@ -117,9 +117,9 @@ Removing goal alignment differs depending on which environment you use.
 1. Rufen Sie den **Ziele** in Workfront auf und klicken Sie auf den Namen eines Ziels, um die Zielseite zu öffnen.
 1. Klicken Sie auf der Zielseite eines übergeordneten Ziels im linken Bereich **Fortschrittsanzeigen**.
 
-   ![](assets/remove-goal-alignment-from-list-unshimmed.png)
+   ![Zielausrichtung erneut verschieben](assets/remove-goal-alignment-from-list-unshimmed.png)
 
-1. Wählen **in der Gruppierung Typ: Ziel** ein Ziel aus und klicken Sie dann oben in der Liste ![](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png) auf das Symbol **Trennen** .
+1. Wählen **in der Gruppierung Typ: Ziel** ein Ziel aus und klicken Sie dann oben in der Liste auf das **Trennen**-Symbol ![Verbindung trennen](assets/disconnect-goal-to-remove-alignment-icon-unshimmed.png).
 
    Das Dialogfeld Trennen wird angezeigt.
 

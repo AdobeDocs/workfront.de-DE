@@ -6,9 +6,9 @@ description: Im Abschnitt Diagramme der Adobe Workfront-Ziele können Sie den Ge
 author: Alina
 feature: Workfront Goals
 exl-id: 8d5f3617-c7bf-44ce-99b0-d4ebda106f25
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '976'
+source-wordcount: '987'
 ht-degree: 0%
 
 ---
@@ -113,7 +113,7 @@ Die folgenden Diagramme sind im Abschnitt Diagramme für Workfront-Ziele verfüg
 
 ## Überprüfen des Zielfortschritts in Diagrammen
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -122,7 +122,7 @@ Die folgenden Diagramme sind im Abschnitt Diagramme für Workfront-Ziele verfüg
 
 1. Klicken Sie **linken** auf „Diagramme“.
 
-   ![](assets/graphs-in-left-panel.png)
+   ![Diagramme im linken Bedienfeld](assets/graphs-in-left-panel.png)
 
    Der Abschnitt Diagramme wird angezeigt.
 
@@ -141,7 +141,7 @@ Die folgenden Diagramme sind im Abschnitt Diagramme für Workfront-Ziele verfüg
 
 1. Überprüfen Sie die Informationen in der folgenden Tabelle, wenn Sie die Zielintegritätstabelle überprüfen.
 
-   ![](assets/gauge-graph-wf-align-350x230.png)
+   ![Tacho-Diagramm](assets/gauge-graph-wf-align-350x230.png)
 
    | Gesamtzahl der Ziele | Die Zahl am unteren Rand des Diagramms gibt die Anzahl aller Ziele im ausgewählten Zeitraum in allen ausgewählten Status an. |
    |---|---|
@@ -151,7 +151,7 @@ Die folgenden Diagramme sind im Abschnitt Diagramme für Workfront-Ziele verfüg
 
 1. Überprüfen Sie die Informationen in der folgenden Tabelle, wenn Sie die Tabelle für den Zielfortschritt überprüfen.
 
-   ![](assets/line-graph-wf-align-350x161.png)
+   ![Liniendiagramm](assets/line-graph-wf-align-350x161.png)
 
    <table style="table-layout:auto"> 
     <col> 

@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie die Wiedergabe in einem Video-Korrekturabzug 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e1dce216-c41d-447b-b5b0-64b04b4132ff
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '355'
+source-wordcount: '357'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Für eine detailliertere Ansicht des Videonachweises können Sie das Video Bild 
 
 1. Klicken Sie unten im Proofing Viewer auf die Pfeile **Vorwärts** und **Zurück**, um das Video Bild für Bild zu überprüfen.
 
-   ![](assets/frame-.png)
+   ![Frame](assets/frame-.png)
 
 ## Ändern der Wiedergabelautstärke
 
@@ -82,7 +82,7 @@ Sie können die Lautstärke bei der Videowiedergabe einstellen.
 
 1. Bewegen Sie den Mauszeiger in der rechten unteren Ecke der Proofing Viewer über das Symbol **Lautstärke** und ziehen Sie dann den Schieberegler, um eine neue Lautstärke auszuwählen.
 
-   ![](assets/phq-viewer-volume.png)
+   ![Lautstärke](assets/phq-viewer-volume.png)
 
    Oder
 

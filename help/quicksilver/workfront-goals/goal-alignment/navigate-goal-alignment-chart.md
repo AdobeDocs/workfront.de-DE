@@ -6,9 +6,9 @@ description: Verwenden Sie den Abschnitt Zielausrichtung , um eine ganzheitliche
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 09e34ecdfeec531ebbaaba4fb8682496c53d86bf
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '921'
+source-wordcount: '937'
 ht-degree: 1%
 
 ---
@@ -137,11 +137,11 @@ Oder
 
    Bei Zielen, die mit anderen Zielen abgestimmt sind, wird die Anzahl der abgestimmten Ziele unter der Zielkarte angezeigt.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Ausrichtungsdiagramm-Pfeil](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
 1. Klicken Sie unter einem Ziel auf **Pfeil nach unten**, um die untergeordneten Ziele weiter zu erweitern und anzuzeigen.
 
-   ![](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
+   ![Ausrichtungsdiagramm-Pfeil](assets/alignment-chart-arrow-for-aligned-goals-highlighted-350x241.png)
 
    >[!TIP]
    >
@@ -149,7 +149,7 @@ Oder
 
 1. (Bedingt) Wenn der aktuelle Filter einige der Ziele ausschließt, die an einer Ausrichtung beteiligt sind, wird eine Warnmeldung angezeigt, die darauf hinweist, dass nicht alle Ziele angezeigt werden.
 
-   ![](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
+   ![Übergeordnetes Ziel ausgeschlossen](assets/parent-goal-excluded-by-filter-alignment-section-350x230.png)
 
 1. Klicken Sie **Anzeigen**, um die derzeit durch den Filter eliminierten Ziele anzuzeigen.
 
@@ -158,14 +158,14 @@ Oder
    * Verbundene Ziele, die zuvor durch den Filter eliminiert wurden, werden jetzt im Ausrichtungsdiagramm angezeigt.
    * Der Filter in der oberen rechten Ecke ist gelb umrandet, um anzugeben, dass er derzeit nicht angewendet wird.
 
-     ![](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
+     ![Gelbe Filterhervorhebung](assets/reapply-filter-link-and-yellow-filter-highlight-350x120.png)
 
      Links neben dem Filternamen wird der Link Filter erneut anwenden angezeigt.
 
 1. (Optional) Klicken Sie auf **Filter erneut anwenden**, um zu den ursprünglichen Ergebnissen zurückzukehren und die Zielhierarchie anzuzeigen.
 1. (Optional) Bewegen Sie den Mauszeiger über die Fortschrittsanzeige, um zu sehen, wo das Ziel des Fortschritts für den aktuellen Tag liegen soll.
 
-   ![](assets/progress-mouse-over-alignment-chart-350x163.png)
+   ![Maus über Ausrichtungsdiagramm](assets/progress-mouse-over-alignment-chart-350x163.png)
 
    Daraufhin werden die folgenden Informationen angezeigt:
 

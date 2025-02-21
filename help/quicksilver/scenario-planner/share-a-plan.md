@@ -7,9 +7,9 @@ description: Sie können einen Plan, den Sie im Adobe Workfront-Szenarioplaner e
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: b8bbb533-4384-414c-8574-4e137962b8ca
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '913'
 ht-degree: 1%
 
 ---
@@ -119,7 +119,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie bei der Fr
   <tr> 
    <td>Szenarien anzeigen</td> 
    <td>✓</td> 
-   <td>✓ <span style="font-weight: normal;"></span> </td> 
+   <td><span style="font-weight: normal;">✓</span> </td> 
   </tr> 
   <tr> 
    <td>Aufgabengebiete anzeigen</td> 
@@ -157,7 +157,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Sie bei der Fr
    <td> </td> 
   </tr> 
   <tr data-mc-conditions=""> 
-   <td>Publish-Szenarien**</td> 
+   <td>Szenarien veröffentlichen**</td> 
    <td>✓</td> 
    <td> </td> 
   </tr> 
@@ -186,7 +186,7 @@ Informationen zu Projektberechtigungen finden Sie unter [Freigeben eines Projekt
    >
    >Sie können einen Plan freigeben, indem Sie oben rechts in der Kopfzeile des Plans auf die Avatare der Benutzer klicken, für die der Plan freigegeben ist.
 
-1. (Bedingt) Wenn Sie einen Plan geöffnet haben, klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![](assets/more-icon.png) rechts neben dem Namen [!UICONTROL Plan] und klicken Sie dann auf **[!UICONTROL Freigeben]**
+1. (Bedingt) Wenn Sie einen Plan geöffnet haben, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![Mehr](assets/more-icon.png) rechts neben dem Namen [!UICONTROL Plan] und klicken Sie dann auf **[!UICONTROL Freigeben]**
 
    Oder
 

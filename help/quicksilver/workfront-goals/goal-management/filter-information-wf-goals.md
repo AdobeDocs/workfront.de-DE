@@ -6,9 +6,9 @@ description: Sie können Ziele anzeigen, die Sie oder eine andere Person in Adob
 author: Alina
 feature: Workfront Goals
 exl-id: ec9b6789-fffe-425c-8316-eefe670ad0d6
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '1366'
+source-wordcount: '1379'
 ht-degree: 2%
 
 ---
@@ -128,7 +128,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
 
 1. Klicken **oben** der Liste auf „Filter“.
 
-   ![](assets/filter-icon-and-label.png)
+   ![Filtersymbol](assets/filter-icon-and-label.png)
 
    Standardmäßig wendet Workfront den Filter **Alle** an, der alle Ziele in Ihrem System anzeigt.
 
@@ -172,7 +172,7 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
       </tbody> 
      </table>
 
-   * Bewegen Sie den Mauszeiger über den Namen eines Filters und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png) neben dem Namen, um ihn anzupassen und spezifische Namen von Benutzern, Teams, Gruppen oder den Namen Ihrer Organisation hinzuzufügen. Wählen Sie dann den Namen aus, wenn er in der Liste angezeigt wird.
+   * Bewegen Sie den Mauszeiger über den Namen eines Filters und klicken Sie dann auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png) neben dem Namen, um ihn anzupassen und spezifische Namen von Benutzern, Teams, Gruppen oder den Namen Ihrer Organisation hinzuzufügen. Wählen Sie dann den Namen aus, wenn er in der Liste angezeigt wird.
 
    * Klicken Sie **Neuer Filter**, um einen neuen Filter zu erstellen, und wählen Sie dann eine der folgenden Optionen aus, um den neuen Filter anzupassen:
 
@@ -249,11 +249,11 @@ Sie können einen Filter von Grund auf neu erstellen oder einen der integrierten
 
 1. (Optional und bedingt) Klicken Sie beim Anzeigen von Zielen im Abschnitt Zielausrichtung auf **Anzeigen**, wenn Sie die herausgefilterten Ziele anzeigen möchten.
 
-   ![](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
+   ![Link „Anzeigen“ für gefilterte Elemente](assets/show-them-link-on-filtered-items-goal-list-350x109.png)
 
    Der Filtername ist gelb umrandet, um anzugeben, dass er ignoriert wird.
 
-   ![](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
+   ![Gelbe Kontur filtern](assets/filter-yellow-outline-next-to-reapply-filter-link-350x118.png)
 
 
 1. (Optional und bedingt) Klicken Sie auf **Filter erneut anwenden** um den Filter anzuwenden und die im vorherigen Schritt angezeigten Elemente wegzulassen.

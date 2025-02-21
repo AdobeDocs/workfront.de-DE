@@ -6,9 +6,9 @@ description: Sie können vorhandene Projekte in einen Plan importieren. Die impo
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 20429bb1-c158-433b-9790-325cd577248e
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1690'
+source-wordcount: '1710'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
      <ul> 
       <li> <p>Wenn ein(e) Benutzende(r), der/die einer Aufgabe oder einem Problem zugewiesen wurde, seine/ihre Rolle geändert hat, nachdem er/sie seine/ihre Zuweisung als [!UICONTROL Done] markiert hat, importiert [!DNL Workfront] die Rolle, die der/die Benutzende erfüllt hat, bevor er/sie die Zuweisung als [!UICONTROL Done] markiert hat.</p> </li> 
       <li> <p>Wenn ein(e) Benutzende(r), der/die einer Aufgabe oder einem Problem zugewiesen wurde, die Rolle während der Lebensdauer des Projekts geändert hat, aber seine/ihre Zuweisung zu der Aufgabe oder dem Problem beim Importieren des Projekts nicht als [!UICONTROL Done] markiert ist, importiert [!DNL Workfront] nur die aktuelle Rolle des/r zugewiesenen Benutzenden. </p> </li> 
-     </ul> <p>Informationen über den Status eines Arbeitsauftrags finden Sie unter „Arbeitsauftragsstatus“ in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossar der [!DNL Workfront] Terminologie von Adobe</a>. </p> </p> </td> 
+     </ul> <p>Informationen zum Status eines Arbeitsauftrags finden Sie unter „Arbeitsauftragsstatus“ in <a href="../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md" class="MCXref xref">Glossar der [!DNL Workfront] Terminologie von Adobe</a>. </p> </p> </td> 
   </tr> 
   <tr> 
    <td>Projekt [!UICONTROL Geplante Stunden] mit Aufgabengebieten verknüpft, die Aufgaben oder Problemen zugewiesen sind</td> 
@@ -164,7 +164,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
 
    Das [!UICONTROL Projekte importieren] wird angezeigt. Projekte, deren Termine im Zeitrahmen Ihres Plans enthalten sind, werden in einer Liste angezeigt.
 
-   ![](assets/project-import-ui-projects-selected-350x72.png)
+   ![Projekte importieren](assets/project-import-ui-projects-selected-350x72.png)
 
    >[!TIP]
    >
@@ -174,9 +174,9 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: the status of the projects in the import projects UI might change; right now it's ALL statuses)</p>
    -->
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Filtersymbol]** ![](assets/filter-nwepng.png) und wählen Sie einen verfügbaren Filter aus der Liste aus, um die Anzahl der Projekte in Ihrer Liste zu reduzieren. Standardmäßig wird die Liste der Projekte nach dem aktuell ausgewählten Projektfilter der Benutzerin bzw. des Benutzers in einer Projektliste gefiltert.
+1. (Optional) Klicken Sie auf **[!UICONTROL Filtersymbol]** ![Filtersymbol](assets/filter-nwepng.png) und wählen Sie einen verfügbaren Filter aus der Liste aus, um die Anzahl der Projekte in Ihrer Liste zu reduzieren. Standardmäßig wird die Liste der Projekte nach dem aktuell ausgewählten Projektfilter der Benutzerin bzw. des Benutzers in einer Projektliste gefiltert.
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Suchsymbol]** ![](assets/search-icon.png) und fügen Sie ein Keyword hinzu, das in einem beliebigen Feld auf dem Bildschirm angezeigt wird. Die Elemente, die das Suchwort enthalten, werden automatisch in der Liste angezeigt und alle Elemente sind ausgeblendet.
+1. (Optional) Klicken Sie auf **[!UICONTROL Suchsymbol]** ![Suchsymbol](assets/search-icon.png) und fügen Sie ein Keyword hinzu, das in einem beliebigen Feld auf dem Bildschirm angezeigt wird. Die Elemente, die das Suchwort enthalten, werden automatisch in der Liste angezeigt und alle Elemente sind ausgeblendet.
 
 1. (Bedingt) Klicken Sie auf das Symbol **[!UICONTROL X]**, um die Suche zu entfernen und alle Projekte anzuzeigen.
 1. Wählen Sie bis zu 100 Projekte aus und klicken Sie auf **[!UICONTROL Importieren]**.
@@ -185,10 +185,10 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
 
    Beachten Sie Folgendes:
 
-   * Rechts neben dem Namen der Initiative wird ein Projekt-![](assets/project-icon-sp.png) angezeigt.
+   * Rechts neben dem Namen ![ Initiative wird ](assets/project-icon-sp.png) Projektsymbol (Projektsymbol) angezeigt.
    * Wenn der Projektzeitplan die Dauer des Plans überschreitet, endet der Balken der Initiative mit einem spitzen Rand nach links (wenn das Startdatum vor dem Datum des Plans liegt) oder nach rechts (wenn das Enddatum nach dem Datum des Plans liegt).
 
-     ![](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
+     ![Projektleiste vor dem Startdatum](assets/project-bar-earlier-than-the-plan-start-date-350x39.png)
 
    * Die Anzahl der Monate und Aufgabengebiete wurde aktualisiert, damit sie denen des Projekts entsprechen.
 
@@ -198,7 +198,7 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
 
 1. Klicken Sie auf die Leiste für die neue Initiative, um das Bedienfeld mit den Details der Initiative auf der rechten Seite zu öffnen.
 
-   ![](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
+   ![Dauer der Initiative](assets/initiative-duration-with-project-duration-details-panel-350x292.png)
 
    Überprüfen Sie **[!UICONTROL Bereich „Dauer]** Initiative“ die folgenden Informationen:
 
@@ -234,4 +234,4 @@ Wenn Sie ein Projekt in einen Plan importieren, werden einige Projektinformation
 1. (Optional) Um die Änderungen an der Initiative in dem Projekt zu aktualisieren, aus dem sie importiert wurde, veröffentlichen Sie das Projekt aus dem Plan. Informationen zu Veröffentlichungsplänen finden Sie unter [Aktualisieren oder Erstellen von Projekten durch Veröffentlichung von Initiativen in der [!DNL Scenario Planner]](../scenario-planner/publish-scenarios-update-projects.md).
 1. (Optional) Klicken Sie auf das Projektsymbol, um auf das verknüpfte Projekt zuzugreifen.
 
-   ![](assets/project-icon-on-initiative-highlighted-350x49.png)
+   ![Projektsymbol auf Initiative](assets/project-icon-on-initiative-highlighted-350x49.png)

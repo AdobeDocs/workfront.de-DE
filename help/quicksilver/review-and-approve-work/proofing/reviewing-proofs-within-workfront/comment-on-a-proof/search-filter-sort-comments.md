@@ -6,9 +6,9 @@ description: Sie können Korrekturabzugskommentare suchen, filtern und sortieren
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 03edaa7e-08c3-4ab1-83ab-747694cf1c17
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '862'
+source-wordcount: '864'
 ht-degree: 0%
 
 ---
@@ -120,7 +120,7 @@ Wenn Sie die Kommentarliste sortieren, wird die von Ihnen gewählte Sortieroptio
 1. Wenn der Kommentarbereich nicht geöffnet ist, klicken **oben rechts auf** Kommentare anzeigen“.
 
 1. Klicken Sie auf das Menü Sortierung , um es zu öffnen.
-1. ![](assets/mceclip3.png)
+1. ![Menü „Sortierung“](assets/mceclip3.png)
 
 1. Wählen Sie eine der folgenden Sortieroptionen:
 

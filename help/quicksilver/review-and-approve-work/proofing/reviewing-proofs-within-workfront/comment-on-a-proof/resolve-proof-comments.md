@@ -6,9 +6,9 @@ description: Sie können Kommentare als aufgelöst markieren, nachdem sie adress
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 89ba3a34-3347-41dc-939e-94d4c1511c31
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '371'
 ht-degree: 1%
 
 ---
@@ -63,7 +63,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Kommentar auswählen.
 1. Klicken Sie auf das Häkchensymbol in der rechten unteren Ecke des Kommentars. Ein grünes Häkchen wird in der oberen linken Ecke des Kommentars angezeigt und eine Kennzeichnung „Thread aufgelöst“ und eine Meldung werden darunter angezeigt. Der Benutzer, der den Kommentar gesendet hat, erhält eine E-Mail-Benachrichtigung, dass der Kommentar aufgelöst wurde.
 
-   ![](assets/resolve-comment-350x247.png)
+   ![Kommentar auflösen](assets/resolve-comment-350x247.png)
 
 ## Erneutes Öffnen eines aufgelösten Kommentars
 
@@ -74,4 +74,4 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Kommentar auswählen.
 1. Klicken Sie auf das grüne Häkchen in der rechten unteren Ecke des Kommentars (rechts neben der Schaltfläche **Antworten**). Das Häkchen in der oberen linken Ecke des Kommentars verschwindet und eine Beschriftung „Thread wieder geöffnet“ und eine Nachricht werden darunter angezeigt. Der Benutzer, der den Kommentar gesendet hat, erhält eine E-Mail-Benachrichtigung, dass der Kommentar erneut geöffnet wurde.
 
-   ![](assets/reopen-resolved-comment-350x334.png)
+   ![Gelösten Kommentar erneut öffnen](assets/reopen-resolved-comment-350x334.png)

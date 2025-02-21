@@ -6,9 +6,9 @@ description: Sie können einen Korrekturabzug für ein Dokument erstellen, wenn 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 609e95fa-1fb3-4cc4-9ee8-403fd2f30e10
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '667'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -66,7 +66,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Gehen Sie zum Projekt, zur Aufgabe oder zum Problem, in dem bzw. dem Sie einen neuen Korrekturabzug erstellen möchten.
 1. Klicken Sie auf die **Dokumente**.
-1. Klicken Sie im linken Bedienfeld auf Dokumente ![](assets/document-icon.png) .
+1. Klicken Sie ![ linken Bedienfeld auf Dokumente ](assets/document-icon.png)Dokumentensymbol).
 1. Klicken Sie **Neu hinzufügen** und klicken Sie dann **angezeigten Menü auf** Korrekturabzug.
 
    >[!TIP]

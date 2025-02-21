@@ -6,9 +6,9 @@ description: In diesem Artikel wird beschrieben, wie Sie Ziele in Adobe Workfron
 author: Alina
 feature: Workfront Goals
 exl-id: a729f334-6ca4-4cf5-a3ef-01a7effb7153
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '463'
+source-wordcount: '472'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Ak
 
 ## Zugriff auf Workfront-Ziele
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Ziele**.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
 
    <!-- drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -127,7 +127,7 @@ Accessing goals differs depending on what environment you use.
 
 To access an individual goal in the Production environment:
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner of Workfront, then click **Goals** .
 
      (!--drafted for Shell release: Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,11 +155,11 @@ So greifen Sie auf ein einzelnes Ziel zu:
 
 1. Klicken Sie auf **Hauptmenü** in der rechten oberen Ecke von Workfront und dann auf **Ziele** .
 Die Liste Ziel wird standardmäßig angezeigt.
-   ![](assets/goal-list-unshimmed.png)
+   ![Liste der Ziele](assets/goal-list-unshimmed.png)
 1. Klicken Sie auf den Namen eines Ziels in der Liste.
 Die Seite des Ziels wird angezeigt.
-   ![](assets/goal-page-unshimmed.png)
-1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben dem Zielnamen, um das Ziel weiter zu bearbeiten oder freizugeben.
+   ![Zielseite](assets/goal-page-unshimmed.png)
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/more-icon.png) rechts neben dem Zielnamen, um das Ziel weiter zu bearbeiten oder freizugeben.
 1. Klicken Sie **linken** auf „Zieldetails“, um Informationen zum Ziel zu bearbeiten. Weitere Informationen finden Sie unter [Aktualisieren von Zielen im Abschnitt „Zieldetails“ in Adobe Workfront-](../goal-management/update-goals-in-goal-details-panel.md).
 
 

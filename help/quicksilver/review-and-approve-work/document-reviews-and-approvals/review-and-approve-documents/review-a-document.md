@@ -6,9 +6,9 @@ description: Als Reviewer können Sie eine Vorschau eines Dokuments anzeigen, da
 author: Nolan
 feature: Work Management, Digital Content and Documents
 exl-id: 371970e4-cd3e-49b6-8a2d-6cb8fa628679
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '525'
+source-wordcount: '527'
 ht-degree: 0%
 
 ---
@@ -94,5 +94,5 @@ Add once functionality is added
 
 1. (Optional) Nachdem Sie das Dokument geprüft haben, können Sie dem Anforderer im Abschnitt **des Dokuments einen Kommentar**. Weitere Informationen zum Kommentieren finden Sie unter [Arbeit aktualisieren](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
-1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie zum Abschnitt **Versionen** des Bereichs „Dokumentzusammenfassung“ scrollen und dann auf das Symbol Mehr ![](../assets/more-icon.png) neben der Version klicken, die Sie überprüfen möchten, und **Herunterladen** oder **Vorschau** auswählen.
+1. (Optional) Sie können auch eine bestimmte Version des Dokuments in der Vorschau anzeigen oder herunterladen, indem Sie zum Abschnitt **Versionen** des Bereichs Dokumentzusammenfassung scrollen und dann auf das Symbol Mehr ![Mehr](../assets/more-icon.png) neben der Version klicken, die Sie überprüfen möchten, und **Herunterladen** oder **Vorschau** auswählen.
 1. Um aufzuzeichnen, dass Sie Ihre Überprüfung abgeschlossen haben, klicken Sie auf **Überprüfung abschließen**.

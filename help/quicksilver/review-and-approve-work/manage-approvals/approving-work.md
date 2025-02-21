@@ -6,9 +6,9 @@ description: Genehmigende Arbeit
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6e43edbb-14dd-493d-a76b-84be6c3bef82
-source-git-commit: 7366e3dd37b686a3566ca6d39e28eb6762c6d1ff
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '914'
 ht-degree: 1%
 
 ---
@@ -66,7 +66,7 @@ Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, 
 
 ## Genehmigen von Arbeit im Bereich „Startseite“
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Genehmigungen** hinzuzufügen.
 1. (Bedingt) Klicken Sie auf das **Filter** Dropdown-Menü und wählen Sie **Alle**, um die Ihnen zugewiesenen und delegierten Genehmigungen anzuzeigen.
 
@@ -77,7 +77,7 @@ Weitere Informationen zum Anzeigen von Elementen, die auf Genehmigungen warten, 
 
 1. Wählen Sie das Element aus, für das Sie eine Genehmigungsentscheidung treffen möchten.
 
-   ![](assets/my-approvals-widget.png)
+   ![Widget „Meine Genehmigungen“](assets/my-approvals-widget.png)
 
 1. Klicken Sie im rechten Bedienfeld auf eine der verfügbaren Optionen, wenn Sie eine Genehmigungsentscheidung treffen. Die folgenden Optionen werden je nach Art des zu genehmigenden Elements in der rechten oberen Ecke der Seite angezeigt:
 
@@ -146,7 +146,7 @@ So genehmigen Sie Arbeiten direkt aus einem Projekt, einer Aufgabe oder einem Pr
 
    Genehmigungsinformationen zum aktuellen Genehmigungsprozess eines Projekts, einer Aufgabe oder eines Problems werden in der Kopfzeile des Elements angezeigt.
 
-   ![](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
+   ![Aktueller Genehmigungsprozess im Projekt-Header](assets/current-approval-process-in-project-header-with-stages-nwe-350x92.png)
 
    Folgende Validierungsinformationen stehen zur Verfügung:
 
@@ -172,8 +172,8 @@ So genehmigen Sie Arbeiten direkt aus einem Projekt, einer Aufgabe oder einem Pr
 
 1. Wechseln Sie zum Bereich Dokumente , der das Dokument enthält, das Ihre Genehmigung erfordert.
 1. Wählen Sie das Dokument aus und klicken Sie dann auf **Genehmigen**, **Änderungen** oder **Ablehnen**.\
-   ![](assets/approval-approve-document-350x215.png)\
-   ![](assets/document-approval-350x199.png)
+   ![Dokument genehmigen](assets/approval-approve-document-350x215.png)\
+   ![Dokumentengenehmigung](assets/document-approval-350x199.png)
 
 1. (Optional) Wenn ein Korrekturabzug für das Dokument generiert wurde, können Sie das Dokument innerhalb der Proofing-Oberfläche genehmigen, wie in [Genehmigen eines Dokuments aus einem Korrekturabzug](#approve-a-document-from-a-proof) beschrieben.
 
@@ -185,7 +185,7 @@ Abhängig von Ihren Benachrichtigungseinstellungen erhalten Sie möglicherweise 
 1. Führen Sie einen der folgenden Schritte aus, um das Dokument zu überprüfen:
 
    * Anzeigen der Metadaten zum Dokument.
-   * Wenn ein Korrekturabzug zur Überprüfung des Dokuments mit Markup und Kommentaren erstellt wurde, klicken Sie auf **Korrekturabzug öffnen** ![](assets/open-proof-icon-qs.png) in der oberen rechten Ecke und prüfen Sie den Korrekturabzug.
+   * Wenn ein Korrekturabzug zur Überprüfung des Dokuments mit Markup und Kommentaren erstellt wurde, klicken Sie auf **Korrekturabzug öffnen** ![Korrekturabzug öffnen](assets/open-proof-icon-qs.png) in der oberen rechten Ecke und prüfen Sie den Korrekturabzug.
 
      <!--   
      <span style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">[Andrzej, does it make sense to leave this here if it's s document approval?&nbsp;Would there never be a proof in that situation?]</span>   

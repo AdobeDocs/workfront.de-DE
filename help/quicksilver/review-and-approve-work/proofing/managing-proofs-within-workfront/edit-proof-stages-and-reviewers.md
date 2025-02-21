@@ -6,9 +6,9 @@ description: Erfahren Sie, wie Sie Testversandphasen und Prüfer bearbeiten.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 91549c2d-d7b1-461c-a3c4-ad0032acfb23
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 1%
 
 ---
@@ -98,7 +98,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Reviewer-Details bearbeiten
 
 1. Bewegen Sie in Workfront den Mauszeiger über den Korrekturabzug und klicken Sie dann auf **Korrekturabzugsdetails**, um die Seite mit den Korrekturabzugsdetails zu öffnen.
-1. Klicken **Abschnitt „Workflow** auf das Menü **Mehr** ![](assets/more-button-small.png) rechts neben dem Namen des Reviewers und klicken Sie dann im angezeigten Dropdown-Menü auf **Bearbeiten**.
+1. Klicken **Abschnitt „Workflow** auf das Menü **Mehr** ![Mehr](assets/more-button-small.png) rechts neben dem Namen des Reviewers und klicken Sie dann im angezeigten Dropdown-Menü auf **Bearbeiten**.
 
 1. Bearbeiten Sie **angezeigten** „Reviewer bearbeiten“ eine der folgenden Details:
 

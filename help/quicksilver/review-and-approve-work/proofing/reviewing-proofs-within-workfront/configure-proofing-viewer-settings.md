@@ -6,9 +6,9 @@ description: Sie können Einstellungen für den Web Proofing Viewer und den Desk
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 3993cd67-90a9-4d7e-bbc0-7b9bd1057f54
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1417'
+source-wordcount: '1424'
 ht-degree: 0%
 
 ---
@@ -80,13 +80,13 @@ So konfigurieren Sie Einstellungen für die Proofing-Anzeige:
 1. Öffnen Sie Web Proofing Viewer oder Desktop Proofing Viewer auf eine der folgenden Arten:
 
    * Wenn Sie einen Korrekturabzug in Adobe Workfront erstellen, gehen Sie zu einer Dokumentliste, die einen Korrekturabzug enthält, den Sie anzeigen möchten, bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Korrekturabzug öffnen**.
-   * Wenn Sie Workfront Proof verwenden, klicken Sie auf das Symbol **Zum Korrekturabzug gehen** für den Korrekturabzug im Dashboard oder in einer ![](assets/go-to-proof-blue-icon.png) mit der Ansichtsliste.
+   * Wenn Sie Workfront Proof verwenden, klicken Sie auf das Symbol **Zum Korrekturabzug gehen** für den Korrekturabzug im Dashboard oder in einer Ansichtsliste ![Zum Korrekturabzug gehen](assets/go-to-proof-blue-icon.png).
 
 1. Wenn die linke Symbolleiste nicht angezeigt wird, klicken Sie auf **Menü**-Symbol in der linken oberen Ecke der Web-Korrekturabzugsanzeige.
 
-   ![](assets/menu-icon-in-proofing-viewer-350x228.png)
+   ![Menüsymbol](assets/menu-icon-in-proofing-viewer-350x228.png)
 
-1. Klicken Sie in der linken Symbolleiste auf das Symbol **Einstellungen** ![](assets/settings-icon-in-pv.png).
+1. Klicken Sie in der linken Symbolleiste auf das Symbol **Einstellungen** (![) ](assets/settings-icon-in-pv.png).
 
 1. Konfigurieren Sie eine der folgenden **Einstellungen** die angezeigt werden.
 

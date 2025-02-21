@@ -6,10 +6,10 @@ description: Sie können zwei Ziele manuell ausrichten oder die Ergebnisse und A
 author: Alina
 feature: Workfront Goals
 exl-id: 48371389-952c-4732-b519-9774cd4d1b93
-source-git-commit: 330ee20ad14ea7409db1c6f627ed6aa0e0c5c014
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '642'
-ht-degree: 16%
+source-wordcount: '649'
+ht-degree: 15%
 
 ---
 
@@ -109,9 +109,9 @@ Beachten Sie beim Konvertieren von Ergebnissen und Aktivitäten in Ziele Folgend
 1. Click the name of the goal to open the **Goal Details** panel.
 1. Expand the **Results** or **Activities** right-pointing arrows to see a list of results or activities for the goal. 
 
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result or activity name that you want to convert, then click **Convert into a Goal**.
 
-   ![](assets/convert-to-goal-link-highlighted-350x191.png)
+   ![Convert to goal](assets/convert-to-goal-link-highlighted-350x191.png)
 
 1. (Optional) Remove the name of the original activity or result owner from the **Goal Owner** field and replace it with another user, team, group, or your organization's name. By default, Workfront selects the owner of the result or the activity as the goal owner. 
 1. Click **Convert**. The activity or result displays as an aligned goal in the Goal Details panel of the original goal and the original activity or result is removed from the original goal and transferred to the second goal. By default, the new goal has the same name as the original converted result or activity. 
@@ -120,9 +120,9 @@ Beachten Sie beim Konvertieren von Ergebnissen und Aktivitäten in Ziele Folgend
 
 1. Navigieren Sie zu einem Ziel mit einem Ergebnis oder einer Aktivität, die Sie in ein Ziel konvertieren möchten.
 1. Klicken Sie auf der Zielseite im linken Bereich **Fortschrittsanzeigen**.
-1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsanzeigen aus und klicken Sie dann auf **In Ziel** umwandeln![](assets/convert-to-goal-icon-unshimmed.png) oben in der Liste der Fortschrittsanzeigen. Das Feld In Ziel konvertieren wird geöffnet.
+1. Wählen Sie ein Ergebnis oder eine Aktivität in der Liste der Fortschrittsindikatoren aus und klicken Sie dann oben in der Fortschrittsindikatorliste auf **In Ziel** Konvertieren![-Symbol ](assets/convert-to-goal-icon-unshimmed.png)In Ziel konvertieren . Das Feld In Ziel konvertieren wird geöffnet.
 
-   ![](assets/convert-to-goal-box-unshimmed.png)
+   ![In Zielfeld konvertieren](assets/convert-to-goal-box-unshimmed.png)
 1. Aktualisieren Sie die folgenden Informationen:
    * **Zielname**: Standardmäßig hat das neue Ziel denselben Namen wie das ursprüngliche Ergebnis oder die ursprüngliche Aktivität.
    * **Zeitraum**: Standardmäßig ist der Zeitraum des neuen Ziels das aktuelle Quartal. Sie können die Einstellung **Benutzerdefinierte Datumswerte aktivieren** auswählen, um einen benutzerdefinierten Zeitraum für das neue Ziel zu definieren.

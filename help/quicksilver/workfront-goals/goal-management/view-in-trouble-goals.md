@@ -6,9 +6,9 @@ description: Ziele mit dem Status In Schwierigkeiten laufen Gefahr, nicht erreic
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '818'
+source-wordcount: '827'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Sie müssen über Folgendes verfügen:
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
-## Recommendations für die Zielverhütung zum Erreichen eines Fortschritts von In Schwierigkeiten
+## Empfehlungen zur Vermeidung von Zielen, um einen Fortschritt von In Schwierigkeiten zu erreichen
 
 Bevor Ziele einen Fortschritt von „In Schwierigkeiten“ erreichen, können Sie sie häufig überwachen und ihren Fortschritt anpassen, wenn sie einen Fortschritt von „Gefährdet“ erreichen. Gefährdete Ziele laufen Gefahr, in Schwierigkeiten zu geraten. Weitere Informationen zum Zielfortschritt finden Sie unter [Übersicht über den Zielfortschritt und die Bedingung in Adobe Workfront Goals](../../workfront-goals/goal-management/calculate-goal-progress.md)
 
@@ -97,7 +97,7 @@ Sie können Ziele in jedem Abschnitt der Workfront-Ziele überprüfen. Informat
 
 In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-management/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -124,7 +124,7 @@ In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
 
 1. Bewegen Sie den Mauszeiger über die Fortschrittsleistenanzeige, um den tatsächlichen Fortschrittsprozentsatz und den erwarteten Wert für den aktuellen Tag anzuzeigen.
 
-   ![](assets/goal-progress-hover-over-detail-unshimmed.png)
+   ![GOal-Fortschritt - Details zum Mauszeiger](assets/goal-progress-hover-over-detail-unshimmed.png)
 
 1. (Optional) Verwenden Sie die Filter, um Ziele zu finden, die zu einem bestimmten Eigentümer gehören.
 
@@ -134,7 +134,7 @@ In diesem Artikel wird beschrieben, wie Sie Ziele in der Zielliste überprüfen.
 
    Informationen zum Aktualisieren von Ergebnissen und Aktivitäten finden Sie unter [Aktualisieren des Zielfortschritts in Adobe Workfront Goals](../goal-review-and-workfront-goals-sections/check-in-goals.md)
 
-   ![](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
+   ![Tatsächlicher Fortschritt](assets/actual-progress-editable-column-in-indicator-list-unshimmed.png)
 
    >[!NOTE]
    >

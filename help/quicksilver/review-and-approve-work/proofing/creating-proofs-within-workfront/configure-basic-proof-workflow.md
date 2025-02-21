@@ -6,9 +6,9 @@ description: Mit einem einfachen Workflow können Sie mehrere Prüfer zu einem K
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4f5d0c0e-e070-4f32-89c4-3b511a3b7fdc
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1858'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wählen Sie im Abschnitt Workflow-Typ die Option **Allgemein**.
 1. Geben Sie die Benutzer an, die Sie hinzufügen möchten, und wählen Sie dann die Rolle Testversand aus.
 
-   ![](assets/new-proof---roles-350x213.png)
+   ![Neue Korrekturabzug-Rollen](assets/new-proof---roles-350x213.png)
 
 1. In der folgenden Tabelle sind die einzelnen Rollen und die damit verbundenen Rechte aufgeführt.
 
@@ -193,7 +193,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       <td> <p><strong>Moderator</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
-      <td> <p>✓ <strong></strong> </p> </td> 
+      <td> <p><strong>✓</strong> </p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> </td> 
       <td> <p>✓</p> <p> </p> </td> 
@@ -347,6 +347,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie nach der Erstellung des Korrekturabzugs auf **Korrekturabzug öffnen**, um die Korrekturabzugsansicht zu starten.
 
-   ![](assets/open-proof-350x132.png)
+   ![Korrekturabzug öffnen](assets/open-proof-350x132.png)
 
    Benutzer, für die das Proofing nicht aktiviert ist, können weiterhin das Dokument anzeigen und Kommentare zum Korrekturabzug abgeben.

@@ -6,9 +6,9 @@ description: Wenn Initiativen miteinander in Konflikt stehen, konkurrieren sie u
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: d3a3e177-bece-4e03-89d7-9cee6127bc55
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2172'
+source-wordcount: '2220'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Dies kann in jedem der folgenden Fälle eintreten:
 
 1. Stellen Sie sicher **[!UICONTROL dass „Konflikte anzeigen]** aktiviert ist. Sie ist standardmäßig aktiviert.
 
-   ![](assets/show-scenarios-toggle-on.png)
+   ![Umschalter „Szenarien anzeigen“](assets/show-scenarios-toggle-on.png)
 
    Die erste Initiative mit Konflikten zeigt die Monate mit Konflikten in rot an. Neben dem Namen der Initiative wird ein Warnsymbol angezeigt.
 
@@ -111,13 +111,13 @@ Dies kann in jedem der folgenden Fälle eintreten:
 
    Wenn bei einer Initiative ein Konflikt auftritt, bedeutet dies, dass die Anzahl der Aufgabengebiete für mindestens eine bestimmte Funktion, die entstandenen Kosten oder beide die Anzahl der Aufgabengebiete bzw. das Budget überschreiten, die für den Plan für einen bestimmten Monat definiert wurden.
 
-   ![](assets/initiatives-on-plan-with-conflicts-350x126.png)
+   ![Initiativen für Plan mit Konflikt](assets/initiatives-on-plan-with-conflicts-350x126.png)
 
 1. Führen Sie einen der folgenden Schritte aus, um mehr über die möglichen Konflikte zu erfahren:
 
    * Bewegen Sie den Mauszeiger über das Warnsymbol neben dem Namen der Initiative, um zu verstehen, ob Sie ein Aufgabengebiet oder einen Budgetkonflikt haben.
 
-     ![](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
+     ![Budget-Aufgabengebiet-Konflikt](assets/budget-job-role-conflict-tooltip-on-warning-icon-350x109.png)
 
      Je nachdem, ob Sie Aufgabengebiete überlastet oder die Kosten für Ihre Initiative überschätzt haben, sehen Sie beim Bewegen des Mauszeigers über das Warnsymbol möglicherweise eine der folgenden Optionen:
 
@@ -127,7 +127,7 @@ Dies kann in jedem der folgenden Fälle eintreten:
 
    * Wenn Sie den Plan nach Monat anzeigen, bewegen Sie den Mauszeiger über einen Monat in der Zeitleiste des Plans, um die erforderlichen Ressourcen für diesen Monat anzuzeigen und zu sehen, ob die Konflikte für den Monat Personen oder kostenbezogen sind.
 
-     ![](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
+     ![Details zu Konflikten in der monatlichen Zeitleiste](assets/details-of-conflicts-on-monthly-plan-timeline-pop-up-350x178.png)
 
      Überprüfen Sie die folgenden monatlichen Informationen auf Planebene:
 
@@ -140,7 +140,7 @@ Dies kann in jedem der folgenden Fälle eintreten:
 
    * Bewegen Sie den Mauszeiger einen Monat über den roten Balken einer Initiative, um das Feld mit zusätzlichen Informationen über den in diesem Monat auftretenden Konflikt anzuzeigen.
 
-     ![](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
+     ![Details zu Konflikten in der Zeitleiste der Initiative](assets/details-of-conflicts-on-initiative-timeline-pop-up-350x113.png)
 
      Überprüfen Sie die folgenden Felder im Feld Zusätzliche Informationen auf der Ebene der Initiative:
 
@@ -181,7 +181,7 @@ Dies kann in jedem der folgenden Fälle eintreten:
 
    * Klicken Sie auf das Warnsymbol neben dem Namen der Initiative.
    * Klicken Sie auf den Balken einer Initiative.
-   * Klicken Sie auf **[!UICONTROL Mehr]**-Symbol ![](assets/more-icon.png) rechts neben dem Namen der Initiative und dann auf **[!UICONTROL Bearbeiten]**.
+   * Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr](assets/more-icon.png) rechts neben dem Namen der Initiative und dann auf **[!UICONTROL Bearbeiten]**.
 
      Das Bedienfeld mit den Initiativdetails wird auf der rechten Seite angezeigt.
 
@@ -192,11 +192,11 @@ Dies kann in jedem der folgenden Fälle eintreten:
 
 1. (Bedingt) Für Initiativen mit Aufgabengebiet-Konflikten gehen Sie zum Abschnitt **[!UICONTROL Erforderliche Aufgabengebiete]**, um alle für Ihre Initiative erforderlichen Aufgabengebiete anzuzeigen. Identifizieren Sie, welche Aufgabengebiete möglicherweise überlastet sind. Überprüfen Sie die Anzahl der VZÄ oder Stunden, die für jedes Aufgabengebiet für jeden Monat der Initiative benötigt werden. Das Feld mit der FTE- oder Stunden-Nummer für Monate mit Überallokationen wird in einem roten Umriss angezeigt.
 
-   ![](assets/details-panel-overallocated-roles-350x275.png)
+   ![Überlastete Rollen](assets/details-panel-overallocated-roles-350x275.png)
 
 1. (Optional) Klicken Sie auf den Pfeil nach rechts neben den Monaten in der Zeitleiste der Initiative, um anzuzeigen, in welchen zusätzlichen Monaten Aufgabengebiet-Konflikte angezeigt werden.
 
-   ![](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
+   ![Rechter Fehler im Detailfeld](assets/right-arrow-initiative-months-inside-details-box-highlighted-350x145.png)
 
 1. (Optional) Klicken Sie unter **[!UICONTROL Aufgabengebiet, das einen Konflikt anzeigt, auf Details anzeigen]**, um zu sehen, wo die Konflikte auftreten, und um die konfliktbehafteten Monate im Diagrammbereich des Plans hervorzuheben. Für jedes Aufgabengebiet werden zusätzliche Informationen angezeigt.
 
@@ -225,12 +225,12 @@ Dies kann in jedem der folgenden Fälle eintreten:
    >
    >Im Diagramm des Plans werden die Monate, in denen die Aufgabengebiete zugewiesen sind, mit dem Namen und der Anzahl der erforderlichen Aufgabengebiete für jede Initiative angezeigt, in der sie benötigt werden. Sie müssen die Ansicht [!UICONTROL Monat] auswählen, um den Namen der Aufgabengebiete anzuzeigen
 
-   ![](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
+   ![Widersprüchliche Aufgabengebiete](assets/conflicting-job-role-months-on-plan-after-clicking-show-details-350x158.png)
 
 1. Führen Sie einen der folgenden Schritte aus, um Konflikte mit Aufgabengebieten zu lösen:
 
    * Passen Sie die Anzahl der Aufgabengebiete für jeden Monat der Initiative manuell auf eine niedrigere Zahl an.
-   * Bewegen Sie den Mauszeiger über den Namen des Aufgabengebiets und klicken Sie auf das Symbol **[!UICONTROL Löschen]**, ![](assets/delete.png) das Aufgabengebiet aus der Initiative zu entfernen.
+   * Bewegen Sie den Mauszeiger über den Namen des Aufgabengebiets und klicken Sie auf das Symbol **[!UICONTROL Löschen]**![ Löschen](assets/delete.png), um das Aufgabengebiet aus der Initiative zu entfernen.
    * Wählen Sie **[!UICONTROL Rollen zu den verfügbaren Ressourcen des Szenarios hinzufügen]** und klicken Sie dann auf **[!UICONTROL Anwenden]**.
 
      Dadurch wird die fehlende Anzahl von Aufgabengebiets-VZÄ oder Stunden zum Feld „Verfügbar[!UICONTROL  des ] hinzugefügt.
@@ -239,7 +239,7 @@ Dies kann in jedem der folgenden Fälle eintreten:
      >
      >Mit den Rollen, die Sie zum Beheben der Konflikte hinzufügen, [!UICONTROL  die Aufgabengebiete ]Verfügbar“ für das ausgewählte Szenario und nicht für alle Szenarien im Plan geändert.
 
-     Ein grüner Aufwärtspfeil ![](assets/upward-green-arrow.png) für den Monat in der Zeitleiste des Plans angezeigt, um anzugeben, dass dem Plan in diesem Monat weitere Ressourcen hinzugefügt wurden. Sie müssen die Ansicht [!UICONTROL Monat] auswählen, um diesen Indikator anzuzeigen.
+     Ein grüner Aufwärtspfeil (![ grüner Aufwärtspfeil) ](assets/upward-green-arrow.png) den Monat in der Zeitleiste des Plans an, um anzugeben, dass dem Plan in diesem Monat weitere Ressourcen hinzugefügt wurden. Sie müssen die Ansicht [!UICONTROL Monat] auswählen, um diesen Indikator anzuzeigen.
 
    * (Bedingt) Schließen Sie das Bedienfeld Details und geben Sie der Initiative eine höhere Priorität, um Budgetressourcen vom Plan nach Möglichkeit zuerst zu erhalten. Informationen zum Aktualisieren der Priorität der Initiative finden [ unter „Aktualisieren der Prioritäten der Initiative im ](../scenario-planner/prioritize-initiatives.md)&quot;.
 
@@ -248,7 +248,7 @@ Dies kann in jedem der folgenden Fälle eintreten:
 1. (Bedingt) Initiativen mit Kostenkonflikten können die Kosten für jeden Monat der Dauer der Initiative im Bereich **[!UICONTROL Kosten]** im Bedienfeld „Details der Initiative“ überprüfen. Stellen Sie fest, in welchen Monaten möglicherweise nicht genügend Geld im Budget des Plans vorhanden ist, um die Kosten für die ausgewählte Initiative zu decken. Das Feld mit dem nicht ausreichenden verfügbaren Budget wird in roter Umrandung angezeigt.
 1. (Optional) Klicken Sie auf den Pfeil nach rechts neben den Monaten in der Zeitleiste der Initiative, um zusätzliche Monate anzuzeigen, deren Budget nicht ausreicht, um die Kosten zu decken.
 
-   ![](assets/details-panel-insufficient-costs-350x239.png)
+   ![Pfeil für unzureichende Kosten](assets/details-panel-insufficient-costs-350x239.png)
 
 1. (Optional) Klicken Sie **[!UICONTROL Details anzeigen]** unter den Kosteninformationen, um zu sehen, wo der Konflikt auftritt, und um die konfliktbehafteten Monate im Diagramm des Plans hervorzuheben. Die folgenden zusätzlichen Felder werden für jeden Kostentyp angezeigt:
 
@@ -275,7 +275,7 @@ Dies kann in jedem der folgenden Fälle eintreten:
    >
    >Im Diagramm des Plans werden in den Monaten, in denen die Kosten nicht ausreichen, der Name und die Anzahl der für die Initiative noch benötigten Aufgabengebiete angezeigt. Sie müssen die Monatsansicht auswählen, um die Kostenbeträge anzuzeigen.
 
-   ![](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
+   ![Widersprüchliche Kosten](assets/conflicting-costs-months-on-plan-after-clicking-show-details-350x139.png)
 
    >[!NOTE]
    >

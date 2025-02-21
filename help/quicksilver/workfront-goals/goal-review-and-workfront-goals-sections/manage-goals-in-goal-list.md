@@ -6,9 +6,9 @@ description: Nachdem Sie oder andere Benutzende Ziele erstellt haben, können Si
 author: Alina
 feature: Workfront Goals
 exl-id: 2a2c1240-f796-4cb8-b8a6-2ad5853916b9
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '803'
+source-wordcount: '817'
 ht-degree: 2%
 
 ---
@@ -101,7 +101,7 @@ Beachten Sie bei der Überprüfung der Liste der Ziele Folgendes:
 
 ### Manage the Goal List in the Production environment
 
-1. Click the **Main Menu** icon ![](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
+1. Click the **Main Menu** icon ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **Goals**.
 
    (!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    --)
@@ -155,14 +155,14 @@ Beachten Sie bei der Überprüfung der Liste der Ziele Folgendes:
 
    An arrow displays to the right of the field by which the list is sorted.
 
-   ![](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
+   ![Goal list with goal expanded](assets/goal-list-with-goal-expanded-+-result-+-activity-350x117.png)
 
 1. (Optional) Click the field in the column again to sort the same column in a descending order. 
 1. Click the right-pointing arrow to the left of the goal name to expand a goal
 
    Or
 
-   Click the right-pointing arrow ![](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
+   Click the right-pointing arrow ![Right-pointing arrow](assets/right-pointing-arrow.png) in the header of the list to expand all the goals in the list and view additional information about each goal, including any of the following:
 
    * Results names, owners, and progress
 
@@ -190,12 +190,12 @@ Beachten Sie bei der Überprüfung der Liste der Ziele Folgendes:
 
    For more information, see [Print the Goal List in Adobe Workfront Goals](../../workfront-goals/goal-management/print-the-goal-list.md). 
 
-1. Click the **Alignment icon** ![](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
+1. Click the **Alignment icon** ![Alignment icon](assets/align-icon.png) next to an aligned to open the goal's card in the Goal Alignment section. For more information, see [Navigate the Goal Alignment section in Adobe Workfront Goals](../../workfront-goals/goal-alignment/navigate-goal-alignment-chart.md).
 -->
 
 So verwalten Sie Ziele in der Liste „Ziele“:
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Ziele**.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../goal-review-and-workfront-goals-sections/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -232,7 +232,7 @@ So verwalten Sie Ziele in der Liste „Ziele“:
 
      Weitere Informationen finden Sie unter [Berechnen des Zielfortschritts in Adobe Workfront-](../goal-management/calculate-goal-progress.md).
 
-1. Klicken Sie auf das Filtersymbol ![](assets/filter-icon.png) in der rechten oberen Ecke der Zielliste und wenden Sie Filter an, um nur Ziele anzuzeigen, die für Sie wichtig sind.
+1. Klicken Sie oben rechts in der ![ auf das Filtersymbol ](assets/filter-icon.png)Filtersymbol) und wenden Sie Filter an, um nur Ziele anzuzeigen, die für Sie wichtig sind.
 
    Informationen zur Verwendung von Filtern in Workfront Goals finden Sie unter [Filtern von Informationen in Adobe Workfront Goals](../goal-management/filter-information-wf-goals.md).
 
@@ -242,10 +242,10 @@ Rechts neben dem Feld, nach dem die Liste sortiert wird, wird ein Pfeil angezeig
 1. (Optional) Klicken Sie erneut auf das Feld in der Spalte, um dieselbe Spalte in absteigender Reihenfolge zu sortieren.
 1. Klicken Sie auf den Namen eines Ziels, um die Seite des Ziels zu öffnen.
 1. Wählen Sie ein Ziel in der Liste aus und klicken Sie dann oben in der Liste auf eine der folgenden Optionen:
-   * **Bearbeiten**-Symbol ![](assets/edit-icon.png) zum Bearbeiten von Informationen zum Ziel. Weitere Informationen finden Sie unter [Bearbeiten von Zielen in Adobe Workfront-](../goal-management/edit-goals.md).
-   * **Freigeben**-Symbol ![](assets/share-icon.png) das Ziel für andere Personen freigeben. Weitere Informationen finden Sie unter [Freigeben eines Ziels in Adobe Workfront Goals](../workfront-goals-settings/share-a-goal.md).
-   * **Ausrichtung öffnen** wird ![](assets/align-icon-unshimmed.png), um den Bereich „Zielausrichtung“ zu öffnen. Diese Option wird nur angezeigt, wenn das ausgewählte Ziel mit einem anderen Ziel ausgerichtet ist.
-   * **Löschen** wird ![](assets/delete-icon.png), um das Ziel zu löschen. Klicken Sie dann zur Bestätigung **Löschen**.  Weitere Informationen finden Sie unter [Löschen und Deaktivieren von Zielen in Adobe Workfront-](../goal-management/delete-and-deactivate-goals.md).
+   * **Bearbeiten**-Symbol ![Bearbeiten-](assets/edit-icon.png)), um Informationen zum Ziel zu bearbeiten. Weitere Informationen finden Sie unter [Bearbeiten von Zielen in Adobe Workfront-](../goal-management/edit-goals.md).
+   * **Freigeben**-Symbol ![Freigeben-Symbol](assets/share-icon.png), um das Ziel für andere Personen freizugeben. Weitere Informationen finden Sie unter [Freigeben eines Ziels in Adobe Workfront Goals](../workfront-goals-settings/share-a-goal.md).
+   * **Open align** icon ![Open align icon](assets/align-icon-unshimmed.png) zum Öffnen des Bereichs „Zielausrichtung“. Diese Option wird nur angezeigt, wenn das ausgewählte Ziel mit einem anderen Ziel ausgerichtet ist.
+   * **Löschen**-Symbol ![Löschen-Symbol](assets/delete-icon.png) um das Ziel zu löschen, und klicken Sie dann zur Bestätigung **Löschen**.  Weitere Informationen finden Sie unter [Löschen und Deaktivieren von Zielen in Adobe Workfront-](../goal-management/delete-and-deactivate-goals.md).
 
 
 

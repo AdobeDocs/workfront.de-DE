@@ -2,20 +2,20 @@
 product-area: documents
 navigation-topic: create-proofs-within-workfront
 title: Erstellen eines interaktiven Korrekturabzugs für eine Website oder andere Web-Inhalte
-description: Sie können für Web-Inhalte einen neuen interaktiven Korrekturabzug oder eine neue Version eines vorhandenen interaktiven Korrekturabzugs erstellen. Dabei kann es sich um eine Website oder andere Arten interaktiver Inhalte handeln, z. B. Anzeigen mit Streaming-Video oder Audio, HTML-Animationen und interaktiven Bannern.
+description: Sie können für Web-Inhalte einen neuen interaktiven Korrekturabzug oder eine neue Version eines vorhandenen interaktiven Korrekturabzugs erstellen. Dabei kann es sich um eine Website oder andere interaktive Inhalte handeln, z. B. Anzeigen mit Streaming-Video oder Audio, HTML-Animationen und interaktive Banner.
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 56e5eeea-1ab9-43c8-bc84-d10638171871
-source-git-commit: ac908d52d1538b1ffe7d9bfca94cb9921445633d
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '559'
+source-wordcount: '561'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines interaktiven Korrekturabzugs für eine Website oder andere Web-Inhalte
 
-Sie können für Web-Inhalte einen neuen interaktiven Korrekturabzug oder eine neue Version eines vorhandenen interaktiven Korrekturabzugs erstellen. Dabei kann es sich um eine Website oder andere Arten interaktiver Inhalte handeln, z. B. Anzeigen mit Streaming-Video oder Audio, HTML-Animationen und interaktiven Bannern.
+Sie können für Web-Inhalte einen neuen interaktiven Korrekturabzug oder eine neue Version eines vorhandenen interaktiven Korrekturabzugs erstellen. Dabei kann es sich um eine Website oder andere interaktive Inhalte handeln, z. B. Anzeigen mit Streaming-Video oder Audio, HTML-Animationen und interaktive Banner.
 
 Bei einem interaktiven Korrekturabzug können Reviewer wie gewohnt mit der Website oder anderen Web-Inhalten navigieren und interagieren.
 
@@ -82,7 +82,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf die hinzugefügte URL.
 
-   ![](assets/click-url-350x137.png)
+   ![Klick-URL](assets/click-url-350x137.png)
 
 1. (Optional) Wenn Sie den Namen des Korrekturabzugs von der Website-URL in etwas Anderes ändern möchten, geben Sie einen **Korrekturabzugsnamen“**.
 1. Wählen Sie **Interaktiv** aus und klicken Sie dann auf **Fertig**.

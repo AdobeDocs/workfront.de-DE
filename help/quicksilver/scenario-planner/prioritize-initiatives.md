@@ -6,9 +6,9 @@ description: Die Priorisierung von Initiativen ist wichtig, da Initiativen Aufga
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 45f019de-b29c-477b-8bd1-f32ef21c1015
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '539'
+source-wordcount: '545'
 ht-degree: 1%
 
 ---
@@ -92,7 +92,7 @@ Eine Liste mit Plänen wird angezeigt.
 
      Workfront zeigt die Anzahl der ausgewählten Initiativen an.
 
-     ![](assets/multi-select-initiative-number.png)
+     ![Multi-Select-](assets/multi-select-initiative-number.png)
 
    * Klicken Sie **[!UICONTROL unten im Plan auf]** Priorisieren) und wählen Sie dann eine der folgenden Optionen aus:
 
@@ -100,7 +100,7 @@ Eine Liste mit Plänen wird angezeigt.
       * **[!UICONTROL Unten]**: Verschiebt die ausgewählten Initiativen an das Ende der Liste. Die ausgewählten Initiativen werden im Plan als letzte aufgeführt.
       * **[!UICONTROL Eine Zahl auswählen]**: Verschiebt die ausgewählten Initiativen nach der hier angegebenen Initiative.
 
-        ![](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
+        ![Initiativen priorisieren](assets/prioritize-initiatives-expanded-highlighted-350x171.png)
 
      [!DNL Workfront] platziert die ausgewählten Initiativen sofort an die angegebene Stelle und die Anzahl aller Initiativen wird entsprechend aktualisiert.
 

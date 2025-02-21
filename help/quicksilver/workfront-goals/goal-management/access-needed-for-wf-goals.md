@@ -7,9 +7,9 @@ description: Ihr Adobe Workfront-Administrator muss sicherstellen, dass bestimmt
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '725'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Als Workfront-Administrator können Sie die Anzahl der Workfront-Ziellizenzen in
 
 Ihr Workfront- oder Gruppenadministrator muss Ihnen eine Layout-Vorlage zuweisen, die den Bereich Ziele im Hauptmenü enthält, damit Sie auf die Workfront-Ziele zugreifen können.
 
-![](assets/layout-template-align-highlighted-350x220.png)
+![Layoutvorlage](assets/layout-template-align-highlighted-350x220.png)
 
 Ihr Workfront-Administrator oder Gruppenadministrator kann Ihrer Layoutvorlage auch Folgendes hinzufügen, damit Sie einfach auf Workfront-Ziele zugreifen können:
 

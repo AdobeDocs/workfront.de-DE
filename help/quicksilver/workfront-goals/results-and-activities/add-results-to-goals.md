@@ -7,9 +7,9 @@ description: Die Ergebnisse messen den Fortschritt eines Ziels. Ohne die Verknü
 author: Alina
 feature: Workfront Goals
 exl-id: 30e22482-22e2-432d-bb73-7f9a9160aba2
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '587'
+source-wordcount: '593'
 ht-degree: 3%
 
 ---
@@ -102,7 +102,7 @@ Adding results to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add a result and click the name to open the **Goal Details** panel.
 1. Click **Add results**.
 
-   ![](assets/add-result-inside-goal-details-highlighted-350x145.png)
+   ![Add result inside goal](assets/add-result-inside-goal-details-highlighted-350x145.png)
 
 1. Start typing the result you want to achieve in the **Result** field. This is the name of the result and it displays wherever the goal displays. 
 1. (Optional) If you want to set the Result Owner as someone other than yourself, click your name in the **Owner** field and start typing the name of the user that you want to assign as the owner of the result, then click it when it appears in the drop-down list.
@@ -113,7 +113,7 @@ Adding results to goals differs depending on which environment you use.
 
 1. In the Value drop-down menu, select the type of value that you want to measure your success by.
 
-   ![](assets/results-value-initial-target-boxes-350x49.png)
+   ![Results value](assets/results-value-initial-target-boxes-350x49.png)
 
    Select from the following options:
 
@@ -137,7 +137,7 @@ Adding results to goals differs depending on which environment you use.
 
 -->
 
-1. Klicken Sie auf das Hauptmenü ![](assets/main-menu-icon.png) dann auf **Ziele**.
+1. Klicken Sie auf das Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png), dann **Ziele**.
 
 1. Klicken Sie in **Zielliste** auf den Namen eines Ziels, um die Zielseite zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
@@ -145,7 +145,7 @@ Adding results to goals differs depending on which environment you use.
 
    Das Feld Neues Ergebnis wird geöffnet.
 
-   ![](assets/new-result-box-unshimmed.png)
+   ![Neues Ergebnisfeld](assets/new-result-box-unshimmed.png)
 
 1. Geben Sie einen Namen für das Ergebnis in das Feld **Ergebnisname** ein. Dies ist ein Pflichtfeld.
 1. (Optional) Entfernen Sie Ihren Namen aus dem Feld **Ergebnisbesitzer**, wenn Sie das Ergebnis einem anderen Benutzer zuweisen möchten. Standardmäßig sind Sie der Eigentümer einer von Ihnen erstellten Aktivität.

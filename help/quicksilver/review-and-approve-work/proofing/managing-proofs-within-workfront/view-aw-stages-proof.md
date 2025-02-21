@@ -6,9 +6,9 @@ description: Sie können den Fortschritt eines Korrekturabzugs, der mit einem au
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 71df1445-c64c-4de2-a9b8-23bd47898b6d
-source-git-commit: f252e3562b8ea73486d407138251b3d15d4b9f3a
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '537'
+source-wordcount: '549'
 ht-degree: 0%
 
 ---
@@ -69,24 +69,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Die Linien zwischen den Stadien stellen die Abhängigkeiten zwischen den Stadien dar. Die Linien, die zu inaktiven Stufen führen, sind gepunktet, bis die Stufe aktiviert ist.
 
-   Sie können den Mauszeiger über eine Phase im Diagramm bewegen, um deren Fortschritt anzuzeigen. Wenn die Phase nicht aktiv ist und Sie über Bearbeitungsrechte für die Phase verfügen, können Sie auf die Schaltfläche Phase aktivieren ![](assets/activate-stage-btn.png) klicken, um die Phase zu starten. Wenn die Phase aktiv ist und Sie über Bearbeitungsrechte für die Phase verfügen, können Sie sie sperren. ![](assets/lock-stage-btn.png) Weitere Informationen über die Fortschrittsleiste (S, O, C, D) finden Sie unter  [Fortschritt und Status eines Korrekturabzugs in Workfront Proof anzeigen](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
+   Sie können den Mauszeiger über eine Phase im Diagramm bewegen, um deren Fortschritt anzuzeigen. Wenn die Phase nicht aktiv ist und Sie Bearbeitungsrechte für die Phase haben, können Sie auf die Schaltfläche Phase aktivieren ![Phase aktivieren](assets/activate-stage-btn.png) klicken, um die Phase zu starten. Wenn die Phase aktiv ist und Sie über Bearbeitungsrechte für die Phase verfügen, können Sie sie sperren. ![Phase sperren](assets/lock-stage-btn.png) Weitere Informationen zur Fortschrittsleiste (S, O, C, D) finden Sie unter  [Fortschritt und Status eines Korrekturabzugs in Workfront Proof anzeigen](../../../workfront-proof/wp-work-proofsfiles/manage-your-work/view-progress-and-status-of-proof.md).
 
 ## Stadium anzeigen
 
 1. Bewegen Sie in einer Dokumentliste, die das Dokument enthält, den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Proofing-Workflow**.
 1. Klicken Sie im Diagramm auf die Phase, die Sie anzeigen möchten.
 
-   ![](assets/view-stage-diagram-350x204.png)
+   ![Anzeigen des Stadiendiagramms](assets/view-stage-diagram-350x204.png)
 
 1. Um die Details für eine Phase zu erweitern, klicken Sie auf den Pfeil nach der Seite unter dem Namen.
 
-   ![](assets/stage-details-caret-350x167.png)
+   ![Staging-Details](assets/stage-details-caret-350x167.png)
 
 ## Alle Stadien anzeigen
 
 So zeigen Sie alle Phasen eines automatisierten Workflows an:
 
-1. Klicken Sie oben auf der ![](assets/change-view-btn.png) auf die Schaltfläche Ansicht ändern und dann auf **Alle Stadien anzeigen**.
+1. Klicken Sie oben auf der Seite auf die Schaltfläche Ansicht ändern ![Ansicht ändern](assets/change-view-btn.png) und klicken Sie dann auf **Alle Stadien anzeigen**.
 
    Alle Phasen des automatisierten Workflows werden im Abschnitt aufgelistet, die Details sind jedoch ausgeblendet.
 
@@ -96,5 +96,5 @@ So zeigen Sie alle Phasen eines automatisierten Workflows an:
 
 So zeigen Sie alle Phasen Ihres automatisierten Workflows mit erweiterten Details an:
 
-1. Klicken Sie oben auf der ![](assets/change-view-btn.png) auf die Schaltfläche Ansicht ändern und dann auf **Alle Stadien im Detail anzeigen**.
+1. Klicken Sie oben auf der Seite auf die Schaltfläche Ansicht ändern ![Ansicht ändern](assets/change-view-btn.png) und klicken Sie dann auf **Alle Stadien im Detail anzeigen**.
 1. Um die Details eines Schritts anzuzeigen, klicken Sie auf den Abwärtspfeil unter dem Namen.

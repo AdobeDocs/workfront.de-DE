@@ -7,9 +7,9 @@ description: Nachdem Ihnen der Adobe Workfront-Administrator den richtigen Zugri
 author: Alina
 feature: Workfront Goals
 exl-id: 922a05f9-2995-4401-a6d2-e5a331270fd3
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '763'
+source-wordcount: '779'
 ht-degree: 1%
 
 ---
@@ -121,9 +121,9 @@ Editing results differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit a result and click the goal name to open the **Goal Details** panel.
 1. Click **Results**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the result you want to edit.
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the result you want to edit.
 
-   ![](assets/results-gear-icon-options-350x85.png)
+   ![Results gear icon](assets/results-gear-icon-options-350x85.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -139,14 +139,14 @@ Editing results differs depending on which environment you use.
 -->
 
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) dann auf **Ziele**.
+1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
 1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite Ziel zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
-1. Wählen Sie ein Ergebnis in der Liste der Fortschrittsanzeigen aus und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Wählen Sie ein Ergebnis in der Liste der Fortschrittsanzeigen aus und klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
    Das Feld Ergebnis bearbeiten wird geöffnet.
 
-   ![](assets/edit-result-box-unshimmed.png)
+   ![Ergebnisfeld bearbeiten](assets/edit-result-box-unshimmed.png)
 
 1. Bearbeiten Sie die folgenden Informationen:
    * **Ergebnisname**: Der Name des Ergebnisses. Verwenden Sie einen beschreibenden Namen, der veranschaulicht, welches Ergebnis Sie erreichen müssen, um das Ziel abzuschließen.
@@ -170,9 +170,9 @@ Editing activities differs depending on which environment you use.
 
 1. Go to the goal for which you want to edit an activity and click the goal name to open the **Goal Details** panel.
 1. Click **Activities**.
-1. Click the **gear icon** ![](assets/settings-gear-icon.png) to the right of the activity you want to edit .
+1. Click the **gear icon** ![Gear icon](assets/settings-gear-icon.png) to the right of the activity you want to edit .
 
-   ![](assets/activities-gear-icon-options-350x84.png)
+   ![Activities gear icon](assets/activities-gear-icon-options-350x84.png)
 
 1. Click **Edit** to edit the following information:
 
@@ -184,14 +184,14 @@ Editing activities differs depending on which environment you use.
 1. Click **Save**.
 -->
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) dann auf **Ziele**.
+1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
 1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite Ziel zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
-1. Wählen Sie eine Aktivität in der Liste Fortschrittsanzeigen aus und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Wählen Sie eine Aktivität in der Liste Fortschrittsanzeigen aus und klicken Sie auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png).
 
    Das Feld Aktivität bearbeiten wird geöffnet.
 
-   ![](assets/edit-activity-box-unshimmed.png)
+   ![Aktivitätsfeld bearbeiten](assets/edit-activity-box-unshimmed.png)
 
 1. Bearbeiten Sie die folgenden Informationen:
    * **Aktivitätsname**: Der Name der Aktivität. Verwenden Sie einen beschreibenden Namen, der veranschaulicht, welche Aktivität Sie durchführen sollten, um anzugeben, dass das Ziel abgeschlossen ist.

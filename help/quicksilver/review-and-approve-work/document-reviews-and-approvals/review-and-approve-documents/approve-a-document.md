@@ -6,9 +6,9 @@ description: Wenn Sie einem Dokument als genehmigende Person zugewiesen sind, gi
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 3755eb0d384e7274b88fbeafc2affa85f735efbc
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1078'
+source-wordcount: '1083'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Genehmigen eines Dokuments von der Startseite aus
 
-1. Klicken Sie auf **Startseite**-Symbol ![](../assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Startseite**-Symbol ![Startseite](../assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
    >
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
    >
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![](../assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](../assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
 1. Klicken **oben links auf** Filter“ und stellen Sie sicher, dass **Genehmigungen** aktiviert ist.
 
@@ -103,7 +103,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Wenn für die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung aussteht, werden die Schaltflächen für die Genehmigungsentscheidung oben rechts auf der Seite angezeigt. Wenn andere Versionen des Dokuments ausstehende Genehmigungen für Sie haben, wird im Dropdown-Menü Version ein roter Punkt angezeigt.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klicken Sie oben rechts auf der Seite auf eine der beiden folgenden Genehmigungsoptionen:
@@ -127,7 +127,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Wenn für die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung aussteht, werden die Schaltflächen für Genehmigungsentscheidungen in der oberen rechten Ecke des Bereichs Dokumentzusammenfassung angezeigt. Wenn andere Versionen des Dokuments ausstehende Genehmigungen für Sie haben, wird im Dropdown-Menü Version ein roter Punkt angezeigt.
 
    <!--
-   ![](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
+   ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
    -->
 
 1. Klicken Sie oben rechts im Bereich Dokumentzusammenfassung auf eine der beiden folgenden Genehmigungsoptionen:

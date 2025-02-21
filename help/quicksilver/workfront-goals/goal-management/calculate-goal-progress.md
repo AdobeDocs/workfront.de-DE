@@ -6,9 +6,9 @@ description: Der Zielfortschritt wird von Fortschrittsindikatoren wie Aktivität
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '833'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Nachdem Sie ein Ziel aktiviert haben, beginnt Workfront Goals mit der Berechnung
 | Erwarteter Prozentsatz der Fertigstellung | Welcher Anteil des Ziels sollte bis jetzt abgeschlossen sein, damit das Ziel termingerecht abgeschlossen werden kann. Workfront Goals berechnet diesen Wert anhand der Zieldauer und des aktuellen Zeitpunkts. Das Ziel sollte diesen Wert zur aktuellen Zeit anzeigen, wenn er termingerecht abgeschlossen werden soll. |
 | Fortschritt | Eine Kennzeichnung, die angibt, ob das Ziel pünktlich erreicht werden soll oder ob das Risiko besteht oder die Aufgabe nicht abgeschlossen werden kann. |
 
-![](assets/in-trouble-goal-progress-expanded.png)
+![In Schwierigkeiten](assets/in-trouble-goal-progress-expanded.png)
 
 <!--drafted for the redesign: replace the screen shot above with the redesigned one which is white, not black-->
 
@@ -108,7 +108,7 @@ Beispiel: Wenn der erwartete Prozentsatz der Fertigstellung zum aktuellen Zeitpu
 
 Die folgende Grafik zeigt die Beziehung zwischen den Bedingungsbeschriftungen und dem Fortschrittsprozentsatz:
 
-![](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
+![Fortschrittsstatus-Beschriftungen werden grafisch dargestellt](assets/progress-status-labels-charted-after-match-with-project-condition-350x147.png)
 
 In der folgenden Tabelle sind die Beschriftungen der Zielbedingungen und die mit den einzelnen Beschriftungen verknüpften Prozentsätze des Zielfortschritts aufgeführt.
 

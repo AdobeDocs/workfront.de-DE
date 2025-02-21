@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: d80d7ea1-698a-4b78-bf65-bad6bbdfc423
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -67,7 +67,7 @@ You must have the following access to perform the steps in this article:
 
 1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** und klicken Sie dann auf **Hinzufügen**.
 
-   ![](assets/doc-summary-add-approvers.png)
+   ![Genehmigende Personen in der Dokumentzusammenfassung hinzufügen](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Legen Sie eine Frist für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Termin per E-Mail benachrichtigt.
 
@@ -75,14 +75,14 @@ You must have the following access to perform the steps in this article:
 
 1. Um einen Reviewer hinzuzufügen, aktivieren Sie das **Reviewer** und geben Sie einen Benutzer- oder Teamnamen ein.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Genehmigende Person und Frist hinzufügen](assets/add-approver-and-deadline.png)
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
 
 ## Erstellen einer Prüfungs- oder Genehmigungsanfrage über die Seite Dokumentdetails
 
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Dokumentdetails**.
-   ![](assets/doc-details.png)
+   ![Dokumentdetails](assets/doc-details.png)
 
 1. Wählen Sie in der Nähe des Dokumentnamens die Version des Dokuments aus, für das Sie eine Genehmigung erstellen möchten. Standardmäßig ist die neueste Version ausgewählt.
 
@@ -94,7 +94,7 @@ You must have the following access to perform the steps in this article:
 
 1. Um einen Reviewer hinzuzufügen, aktivieren Sie das **Reviewer** und geben Sie einen Benutzer- oder Teamnamen ein.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Genehmigende Person und Frist hinzufügen](assets/add-approver-and-deadline.png)
 
 1. Wiederholen Sie den vorherigen Schritt, um weitere genehmigende Personen oder Prüfer hinzuzufügen.
 
@@ -110,5 +110,5 @@ Document approval decisions are not automatically reset when you upload a new ve
 
 1. Scroll down to the **Approvals** section in the Summary, click the More icon, then click Resubmit.
 
-   ![](assets/nwe-resubmit-approval-350x149.png)
+   ![Resubmit approval](assets/nwe-resubmit-approval-350x149.png)
 -->

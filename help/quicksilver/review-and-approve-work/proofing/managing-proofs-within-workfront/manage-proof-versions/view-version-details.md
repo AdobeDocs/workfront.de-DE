@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents
 exl-id: 360d0f4a-a78c-4c17-b4a1-6d4b811f7bb6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '361'
+source-wordcount: '363'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Bewegen Sie in einer Dokumentliste den Mauszeiger über die Zeile, die den Korrekturabzug enthält, und klicken Sie dann auf **Dokumentdetails**.
 1. Klicken Sie oben auf der Seite Dokumentdetails auf das Dropdown-Menü neben dem Namen und dann auf den Namen der Version, die Sie anzeigen und verwalten möchten.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Versions-Dropdown](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Neben der Anzeige der Versionsdetails können Sie Änderungen an der Version vornehmen, z. B. an ihrem Namen, ihren Metadaten und den Proofing-Einstellungen (wenn es sich um einen Dokument-Korrekturabzug handelt).
 

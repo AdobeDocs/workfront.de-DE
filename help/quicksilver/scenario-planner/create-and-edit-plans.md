@@ -6,9 +6,9 @@ description: Sie können Pläne im Rahmen der Verwendung des Workfront-Szenariop
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 15c0e519-0164-449d-84f3-470d0d4eb795
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '2397'
+source-wordcount: '2434'
 ht-degree: 0%
 
 ---
@@ -89,7 +89,7 @@ So erstellen oder bearbeiten Sie einen Plan:
 
 Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfront Scenario Planner] angezeigt.
 
-1. (Optional) Klicken Sie auf **[!UICONTROL Filter]**-Symbol ![](assets/filter-icon-34x37.png)in der oberen rechten Ecke der Planliste und wählen Sie aus den folgenden Optionen aus:
+1. (Optional) Klicken Sie auf **[!UICONTROL Filter]**-Symbol ![Filtersymbol](assets/filter-icon-34x37.png) in der oberen rechten Ecke der Liste „Plan“ und wählen Sie eine der folgenden Optionen aus:
 
    | Filter | Beschreibung |
    |---|---|
@@ -97,9 +97,9 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
    | [!UICONTROL Meine Pläne] | Zeigt von Ihnen erstellte Pläne an. |
    | [!UICONTROL Für mich freigegeben] | Zeigt für Sie freigegebene Pläne an. |
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![Dropdown-Optionen für Pläne und Filter](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Suchen]**-Symbol ![](assets/search-icon.png), um ein Keyword einzugeben und schnell einen Plan in der Liste zu finden.
+1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Suche]** ![Suchsymbol](assets/search-icon.png), um ein Keyword einzugeben und schnell einen Plan in der Liste zu finden.
 
 1. Klicken Sie auf den Namen eines vorhandenen Plans, um ihn zu bearbeiten, und fahren Sie mit Schritt 7 fort.
 
@@ -115,11 +115,11 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: is the step still accurate)</p>
    -->
 
-   ![](assets/new-plan-button.png)
+   ![Schaltfläche „Neuer Plan“](assets/new-plan-button.png)
 
    Das Feld [!UICONTROL Neuer Plan] wird angezeigt.
 
-   ![](assets/new-plan-ui-adding-a-new-plan-350x306.png)
+   ![Neues Planfeld](assets/new-plan-ui-adding-a-new-plan-350x306.png)
 
 1. (Bedingt) Geben Sie beim Erstellen eines neuen Plans die folgenden Informationen an:
 
@@ -172,7 +172,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
 1. (Optional) Wählen Sie aus dem Dropdown-Menü Zeitleiste eine der Optionen in der folgenden Tabelle aus, um die Ansicht der Zeitleiste des Plans zu ändern.
 
-   ![](assets/month-dropdown-with-all-options.png)
+   ![Monat Dropdown](assets/month-dropdown-with-all-options.png)
 
    | Dropdown-Menüoption | Beschreibung |
    |---|---|
@@ -183,7 +183,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 1. (Optional) Scrollen Sie von links nach rechts, um die gesamte Laufzeit des Plans anzuzeigen.
 1. (Optional) Klicken Sie auf die **[!UICONTROL Heute]**, um zum aktuellen Tag zurückzukehren.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Indikator „Heute](assets/today-indicator-350x160.png)
 
 1. Klicken Sie auf **[!UICONTROL Feld „Aufgabengebiete]** in der Kopfzeile des Plans, um Aufgabengebiete hinzuzufügen, die für die Ausführung des Plans verfügbar sein werden.
 
@@ -193,7 +193,7 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
    >
    >Die Rollenzuordnungseinheit (FTE oder Stunden), die [!DNL Workfront] für diesen Plan verwendet, wird im Titel des Felds in Klammern angezeigt.
 
-   ![](assets/adding-people-to-plan-350x206.png)
+   ![Personen zum Plan hinzufügen](assets/adding-people-to-plan-350x206.png)
 
 1. Klicken Sie auf **[!UICONTROL Feld „Aufgabengebiet eingeben]** und wählen Sie eine Funktion aus der Liste aus oder geben Sie den Namen eines aktiven Aufgabengebiets ein.
 
@@ -239,12 +239,12 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
     </tbody> 
    </table>
 
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Aufgabengebiets oder klicken Sie auf die Registerkarte, nachdem Sie die Rolleninformationen aktualisiert haben, und klicken Sie dann auf das **[!UICONTROL Papierkorbsymbol]** ![](assets/delete.png), um es aus dem Plan zu entfernen.
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Aufgabengebiets oder klicken Sie auf die Registerkarte, nachdem Sie die Rolleninformationen aktualisiert haben, und klicken Sie dann auf das **[!UICONTROL Papierkorbsymbol]** ![Löschsymbol](assets/delete.png), um es aus dem Plan zu entfernen.
 1. Klicken Sie **[!UICONTROL Aufgabengebiet-Verteilung]**.
 
    Das Bedienfeld „Verteilung des Aufgabengebiets“ wird für alle Monate während der Laufzeit des Szenarios angezeigt.
 
-   ![](assets/job-role-monthly-distribution-box-fte-350x144.png)
+   ![Monatliche Verteilung des Aufgabengebiets](assets/job-role-monthly-distribution-box-fte-350x144.png)
 
 1. Geben Sie den Namen eines Aufgabengebiets ein, um es dem Plan hinzuzufügen, im Feld **[!UICONTROL Beginnen Sie mit der Eingabe des Aufgabengebiets]** und klicken Sie dann auf die Eingabetaste , wenn es in der Liste angezeigt wird. Dadurch wird das Aufgabengebiet zur Spalte [!UICONTROL Aufgabengebiet] hinzugefügt.
 1. Aktualisieren oder überprüfen Sie die folgenden Informationen für jeden Monat des Szenarios:
@@ -334,13 +334,13 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
 1. Klicken Sie **[!UICONTROL Erweitert]**, um die monatliche Budgetverteilung anzuzeigen. Die Jahres- und Monatsbudgets sind stets gerundete Zahlen. Wenn der Budgetbetrag aufgrund von Dezimalstellen nicht gleichmäßig auf alle Monate innerhalb eines Jahres verteilt werden kann, wird unter der jährlichen Budgetverteilung ein Indikator **[!UICONTROL Verbleibend]** angezeigt.
 
-   ![](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
+   ![Erweiterte und verbleibende Links](assets/adanced-and-remaining-links-on-plan-budget-350x507.png)
 
 1. Passen Sie die monatlichen Budgets manuell an, um die Überschreitungen zu vermeiden.
 
    Wenn die Summe aller monatlichen Budgetbeträge größer ist als das Jahresbudget, wird unter der jährlichen Budgetverteilung ein Warnindikator **[!UICONTROL Überschreitung]** angezeigt. Passen Sie die monatlichen Budgetbeträge manuell an, bis sie dem verfügbaren Budget für den Plan entsprechen oder darunter liegen.
 
-   ![](assets/exceeding-budget-warning-on-plan-350x483.png)
+   ![Budgetwarnung wird überschritten](assets/exceeding-budget-warning-on-plan-350x483.png)
 
 1. Deaktivieren Sie die Einstellung **[!UICONTROL Personalkosten einbeziehen]**, um Kosten im Zusammenhang mit Aufgabengebieten von der Anrechnung auf die Gesamtkosten des Plans auszuschließen. Fixkosten werden immer auf die Gesamtkosten des Plans angerechnet. Diese Einstellung ist standardmäßig aktiviert und wirkt sich auf alle Szenarien im Plan aus.
 1. Klicken Sie auf eine beliebige Stelle außerhalb des Felds [!UICONTROL Finanzen], um es zu schließen. Die eingegebenen Informationen werden automatisch gespeichert.
@@ -360,6 +360,6 @@ Eine Liste der vorhandenen Pläne, die Sie erstellt haben, wird im [!DNL Workfro
 
    Ihr Plan wird erstellt oder aktualisiert.
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Favoritensymbol]** ![](assets/favorites-icon-small.png) rechts neben dem Plannamen, um den Plan zu Ihrer Favoritenliste hinzuzufügen.
+1. (Optional) Klicken Sie auf **[!UICONTROL Favoritensymbol]** ![Favoritensymbol](assets/favorites-icon-small.png) rechts neben dem Plannamen, um den Plan zu Ihrer Favoritenliste hinzuzufügen.
 
 1. (Optional) Kopieren Sie die URL des Plans und senden Sie sie an jeden anderen Benutzer, der sie möglicherweise überprüfen oder aktualisieren muss. Sie müssen mindestens [!UICONTROL Ansicht] Zugriff auf ihrer Zugriffsebene haben, um den Plan anzeigen zu können. Sie müssen über [!UICONTROL Bearbeiten]-Zugriff verfügen, um sie zu bearbeiten. Wenn sie Finanzinformationen zum Plan, wie Budgets, Kosten und Informationen zu den Aufgabengebieten, überprüfen müssen, müssen sie auch in ihrer Zugriffsebene Zugriff auf [!UICONTROL Finanzdaten] haben. Weitere Informationen über den Zugriff, der für den [!DNL Scenario Planner] erforderlich ist, finden Sie unter [Zugriff erforderlich für die Verwendung des  [!DNL Scenario Planner]](../scenario-planner/access-needed-to-use-sp.md).

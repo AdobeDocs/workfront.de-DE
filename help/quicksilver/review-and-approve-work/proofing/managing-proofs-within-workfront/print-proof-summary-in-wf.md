@@ -6,9 +6,9 @@ description: Sie können eine Korrekturabzugszusammenfassung drucken, als PDF sp
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 129c8e6b-5c66-445b-a5d0-7b1460aeabd6
-source-git-commit: 918d51e3b832a3104777346cebd54a4830e2d826
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '765'
+source-wordcount: '772'
 ht-degree: 1%
 
 ---
@@ -65,7 +65,7 @@ Sie können eine Zusammenfassung eines Korrekturabzugs direkt aus der Dokumentli
 
    Oder
 
-   Klicken Sie während der Anzeige des Korrekturabzugs in der Korrekturabzugsansicht auf das Symbol **Drucken** in der linken Symbolleiste ![](assets/print-icon-in-pv.png). (Wenn die linke Symbolleiste nicht sichtbar ist, klicken Sie auf das Menüsymbol ![](assets/menu-icon-in-pv.png) in der linken oberen Ecke der Korrekturabzugsansicht.)
+   Klicken Sie während der Anzeige des Korrekturabzugs in der Korrekturabzugsansicht auf das Symbol **Drucken** (![) ](assets/print-icon-in-pv.png) der linken Symbolleiste. (Wenn die linke Symbolleiste nicht sichtbar ist, klicken Sie auf das Menüsymbol ![Menüsymbol](assets/menu-icon-in-pv.png) in der linken oberen Ecke der Korrekturabzugsanzeige.)
 
 1. Verwenden Sie eine der folgenden Optionen:
 
@@ -118,7 +118,7 @@ Sie können eine Zusammenfassung eines Korrekturabzugs direkt aus der Dokumentli
 
 ## Exportieren einer Zusammenfassung eines Korrekturabzugs als XLS oder PDF
 
-Sie können eine Korrekturabzugszusammenfassung für statische Inhalte als XLS- oder PDF-Datei exportieren. Testversand-Exporte umfassen nur den Inhalt des Testversands.
+Sie können eine Korrekturabzugszusammenfassung für statische Inhalte als XLS- oder als PDF-Datei exportieren. Testversand-Exporte umfassen nur den Inhalt des Testversands.
 
 1. Bewegen Sie in der Dokumentliste, die den Korrekturabzug enthält, den Mauszeiger über die Zeile, die das Dokument enthält, und klicken Sie dann auf **Druckzusammenfassung**.
 
@@ -126,8 +126,8 @@ Sie können eine Korrekturabzugszusammenfassung für statische Inhalte als XLS- 
 
 1. Klicken Sie oben rechts auf der Seite auf das XLS- oder PDF-Symbol.
 
-   ![](assets/xls-pdf-icons-350x136.png)
+   ![XLS-PDF-Symbol](assets/xls-pdf-icons-350x136.png)
 
 Wenn die exportierte Datei fertig ist, erhalten Sie eine E-Mail, aus der Sie die Datei herunterladen können.
 
-Wenn Sie die Zusammenfassung als PDF-Datei exportiert haben, werden die Kommentare zum Korrekturabzug im PDF-Lesegerät angezeigt. Wenn einem Kommentar mehrere Markierungen zugeordnet sind, wird der Kommentar mehrmals in der Liste Kommentare angezeigt (einmal für jedes Markup).
+Wenn Sie die Zusammenfassung als PDF-Datei exportiert haben, werden Kommentare zum Korrekturabzug im PDF-Reader angezeigt. Wenn einem Kommentar mehrere Markierungen zugeordnet sind, wird der Kommentar mehrmals in der Liste Kommentare angezeigt (einmal für jedes Markup).

@@ -6,9 +6,9 @@ description: Ein automatisierter Workflow erleichtert die Verwaltung des Überpr
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 977fe1bc-458f-4301-8056-dc51c61edb6c
-source-git-commit: 84c5772d130be78d9f9b9aef342c57183d5ec985
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1831'
+source-wordcount: '1838'
 ht-degree: 0%
 
 ---
@@ -139,7 +139,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
       Zusätzlich zu den Optionen **Bei der Erstellung eines Korrekturabzugs**, **An einem bestimmten Datum und zu einer bestimmten Uhrzeit** oder **Manuell** können Sie eine Option auswählen, die von dem abhängt, was im vorherigen Schritt aufgetreten ist:
 
-      ![](assets/activate-stage-options-for-stage-2-plus-350x177.png)
+      ![Aktivieren von Staging-Optionen](assets/activate-stage-options-for-stage-2-plus-350x177.png)
 
    1. Wenn Sie eine Option Phase aktivieren ausgewählt haben, die von dem abhängt, was im vorherigen Schritt geschehen ist, verwenden Sie die Optionen, die angezeigt werden, um die Aktivierungseinstellung zu konfigurieren.
 
@@ -149,7 +149,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Wenn Sie dem automatisierten Workflow Stadien hinzufügen, wird auf dem Bildschirm ein Diagramm erstellt, das diese Stadien darstellt:
 
-   ![](assets/stages-diagram-350x213.png)
+   ![Stadiendiagramm](assets/stages-diagram-350x213.png)
 
 1. Fahren Sie mit [E-Mail-Einstellungen für den Korrekturabzug konfigurieren](#configure-email-settings-for-the-proof) unten fort.
 
@@ -230,6 +230,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie nach der Erstellung des Korrekturabzugs auf **Korrekturabzug öffnen**, um die Korrekturabzugsansicht zu starten.
 
-   ![](assets/open-proof-350x132.png)
+   ![Korrekturabzug öffnen](assets/open-proof-350x132.png)
 
    Benutzer, für die das Proofing nicht aktiviert ist, können weiterhin das Dokument anzeigen und Kommentare zum [ machen.](../../../timesheets/config-timesheet-prefs/config-time-logged-hrs-days.md)

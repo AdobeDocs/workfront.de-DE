@@ -6,9 +6,9 @@ description: Sie können eine neue Dokumentversion hochladen und die Genehmigung
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 0eb8cfba-2317-419c-b28f-da2e7a99401c
-source-git-commit: 162f63d52c97c6d4894d35565c68eb2858369b53
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '480'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welch
 
 1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bereich Dokumentzusammenfassung und klicken Sie dann auf **Hinzufügen**.
 
-![](assets/doc-summary-add-approvers.png)
+![Genehmigende Personen in der Dokumentzusammenfassung hinzufügen](assets/doc-summary-add-approvers.png)
 
 1. (Optional) Legen Sie eine Frist für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Termin per E-Mail benachrichtigt.
 
@@ -89,4 +89,4 @@ Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welch
 
 1. Um neue genehmigende Personen und Prüfer hinzuzufügen, klicken Sie auf **Prüfer** oder **genehmigende Person** und beginnen Sie mit der Eingabe des Benutzers oder Teams.
 
-   ![](assets/add-approver-and-deadline.png)
+   ![Genehmigende Person und Frist hinzufügen](assets/add-approver-and-deadline.png)

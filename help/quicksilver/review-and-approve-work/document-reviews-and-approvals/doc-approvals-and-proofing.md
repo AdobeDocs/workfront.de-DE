@@ -6,9 +6,9 @@ description: Sie können neue Dokumentgenehmigungen mit Proofing verwenden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: bea547e7a7400798d4544fb4f299f72e18a700be
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '940'
+source-wordcount: '950'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Sie haben die Möglichkeit, Prüfer, genehmigende Personen oder eine Mischung au
 So weisen Sie Teilnehmer zu:
 
 1. Wählen Sie das hochgeladene Dokument aus und öffnen Sie die Dokumentzusammenfassung.
-   ![](assets/open-doc-summary.png)
+   ![Dokumentzusammenfassung öffnen](assets/open-doc-summary.png)
 
 1. Scrollen Sie nach unten zum Abschnitt Genehmigungen und klicken Sie dann auf **Hinzufügen**.
 
@@ -62,7 +62,7 @@ So weisen Sie Teilnehmer zu:
 
 1. Um einen Reviewer hinzuzufügen, klicken Sie auf die Schaltfläche Reviewer und geben Sie einen Benutzer- oder Teamnamen ein.
 
-   ![](assets/add-approvers.png)
+   ![Genehmigende Personen hinzufügen](assets/add-approvers.png)
 
 1. Nachdem Sie alle validierungsverantwortlichen Personen und genehmigenden Personen hinzugefügt haben, klicken Sie auf **Senden**. Die Teilnehmer werden per E-Mail benachrichtigt.
 
@@ -77,7 +77,7 @@ Hinzufügen einer neuen Version:
 1. Nachdem das Dokument hochgeladen wurde, wählen Sie das Dokument aus und klicken Sie auf **Korrekturabzug erstellen** > **Einfacher Korrekturabzug**.
 
 1. Wählen Sie das Dokument erneut aus und öffnen Sie die Dokumentzusammenfassung.
-   ![](assets/open-doc-summary.png)
+   ![Dokumentzusammenfassung öffnen](assets/open-doc-summary.png)
 
 1. Scrollen Sie nach unten zum Abschnitt Genehmigungen und klicken Sie dann auf **Hinzufügen**.
 
@@ -89,7 +89,7 @@ Hinzufügen einer neuen Version:
 
 1. Um einen Reviewer hinzuzufügen, klicken Sie auf die Schaltfläche Reviewer und geben Sie einen Benutzer- oder Teamnamen ein <span class="preview">oder wählen Sie einen Reviewer aus der vorherigen Version aus. </span>
 
-   ![](assets/add-approvers.png)
+   ![Genehmigende Personen hinzufügen](assets/add-approvers.png)
 
 1. Nachdem Sie alle validierungsverantwortlichen Personen und genehmigenden Personen hinzugefügt haben, klicken Sie auf **Senden**. Die Teilnehmer werden per E-Mail benachrichtigt.
 

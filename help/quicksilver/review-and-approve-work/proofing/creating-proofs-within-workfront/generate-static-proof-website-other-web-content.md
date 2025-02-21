@@ -6,9 +6,9 @@ description: Sie können für Web-Inhalte einen neuen statischen Korrekturabzug 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1c0511f6-c60b-4a81-bfff-55b6f866add6
-source-git-commit: 0a7cdf217d3c8227c569831b16f09c0b1d9c7111
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '776'
+source-wordcount: '778'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Um einen statischen Korrekturabzug zu erstellen, muss die Website öffentlich zu
 
    Es werden Optionen zum Konfigurieren des Website-Korrekturabzugs angezeigt.
 
-   ![](assets/interactive-proof-radio-btn-area-350x199.png)
+   ![Interaktiver Korrekturabzug](assets/interactive-proof-radio-btn-area-350x199.png)
 
 1. (Optional) Wenn Sie den Namen des Korrekturabzugs von der Website-URL in etwas Anderes ändern möchten, geben Sie einen **Korrekturabzugsnamen“**
 1. Stellen Sie sicher **dass &quot;**&quot; ausgewählt ist, und verwenden Sie eine der folgenden Optionen:

@@ -7,9 +7,9 @@ description: Sie können Zugriff auf einen Plan im Adobe Workfront-Szenarioplane
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: fa47cb8c-a3ca-4748-b67d-2d8ed34b9b4a
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '500'
+source-wordcount: '511'
 ht-degree: 1%
 
 ---
@@ -80,7 +80,7 @@ So fordern Sie Berechtigungen an:
 
 1. Klicken Sie auf einen Link zu einem Plan.
 
-   ![](assets/request-access-to-plan-350x277.png)
+   ![Zugriff auf Plan anfordern](assets/request-access-to-plan-350x277.png)
 
 1. Geben Sie **[!UICONTROL Dropdown-Menü „Zugriff anfordern]**&quot; an, welche Berechtigungsstufe Sie gewähren möchten. Wählen Sie aus den folgenden Optionen aus:
 
@@ -98,11 +98,11 @@ So fordern Sie Berechtigungen an:
    Folgendes geschieht:
 
    * [!DNL Workfront] sendet eine E-Mail-Benachrichtigung an den Planbesitzer, wo er die angeforderten Berechtigungen erteilen kann.\
-     ![](assets/request-access-to-plan-email-350x156.png)
+     ![E-Mail-Benachrichtigung zum Zugriff anfordern](assets/request-access-to-plan-email-350x156.png)
 
    * Nachdem der Planeigentümer die angeforderten Berechtigungen erteilt hat, erhalten Sie eine E-Mail, dass die Berechtigungen erteilt wurden, wenn Ihr [!DNL Workfront]-Administrator die Benachrichtigung Objektfreigabe für Benutzer in Ihrem System aktiviert hat und Sie die E-Mail-Benachrichtigung [!UICONTROL Jemand gibt ein Objekt für mich frei] in Ihrem Profil aktivieren.
 
-     ![](assets/access-granted-to-plan-email-350x172.png)
+     ![Zugriff auf E-Mail gewährt](assets/access-granted-to-plan-email-350x172.png)
 
    * Sie können auch Berechtigungen für Pläne aus dem Bereich [!UICONTROL Startseite] und aus der [!DNL Workfront]-Mobile-App erteilen.
 

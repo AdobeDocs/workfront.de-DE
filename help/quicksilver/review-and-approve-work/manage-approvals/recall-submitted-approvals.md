@@ -6,9 +6,9 @@ description: Sie können die folgenden Objekte, die zur Genehmigung eingereicht 
 author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 exl-id: 33df75f0-47d0-4848-8d9a-203f40d8831c
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1251'
 ht-degree: 1%
 
 ---
@@ -69,14 +69,14 @@ Wenn Sie eine Genehmigung zurückrufen, die mit dem Anfangsstatus des Projekts v
 
 So rufen Sie eine von Ihnen gesendete Projektgenehmigung ab:
 
-1. Klicken Sie auf **Startseite**-Symbol ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Startseite**-Symbol ![Startseite](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
 1. Navigieren **im Bereich** Arbeitsliste“ zur Gruppierung **Genehmigungen, die ich** habe“.
 
@@ -84,7 +84,7 @@ So rufen Sie eine von Ihnen gesendete Projektgenehmigung ab:
 
    Dadurch wird das Projekt rechts neben der Arbeitsliste geöffnet.
 
-   ![](assets/project-pending-approval-phome-nwe-350x106.png)
+   ![Projekt noch nicht genehmigt](assets/project-pending-approval-phome-nwe-350x106.png)
 
 1. Klicken **oben rechts** Bereich auf „Rückruf“.
 
@@ -100,14 +100,14 @@ Wenn Sie eine Genehmigung zurückrufen, die mit dem Anfangsstatus der Aufgabe ve
 
 So rufen Sie eine von Ihnen gesendete Aufgabengenehmigung ab:
 
-1. Klicken Sie auf **Startseite**-Symbol ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Startseite**-Symbol ![Startseite](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
 1. Navigieren **im Bereich** Arbeitsliste“ zur Gruppierung **Genehmigungen, die ich** habe“.
 
@@ -115,7 +115,7 @@ So rufen Sie eine von Ihnen gesendete Aufgabengenehmigung ab:
 
    Dadurch wird die Aufgabe rechts neben der Arbeitsliste geöffnet.
 
-   ![](assets/task-pending-approval-home-nwe-350x97.png)
+   ![Aufgabe noch nicht genehmigt](assets/task-pending-approval-home-nwe-350x97.png)
 
 1. Klicken **oben rechts** Bereich auf „Rückruf“.
 
@@ -129,14 +129,14 @@ Wenn Sie sich an eine Genehmigung erinnern, die mit dem Anfangsstatus des Proble
 >
 >Sie können den ersten Status eines Problems mithilfe einer Vorlage mit einem Genehmigungsprozess verknüpfen. Weitere Informationen zum Erstellen einer Anfrage-Warteschlange finden Sie unter [Erstellen einer Anfrage-Warteschlange](../../manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-1. Klicken Sie auf **Startseite**-Symbol ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Startseite**-Symbol ![Startseite](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
 1. Navigieren **im Bereich** Arbeitsliste“ zur Gruppierung **Genehmigungen, die ich** habe“.
 
@@ -144,7 +144,7 @@ Wenn Sie sich an eine Genehmigung erinnern, die mit dem Anfangsstatus des Proble
 
    Dadurch wird das Problem rechts neben der Arbeitsliste geöffnet.
 
-   ![](assets/issue-pending-approval-home-nwe-350x103.png)
+   ![Problem mit ausstehender Genehmigung](assets/issue-pending-approval-home-nwe-350x103.png)
 
 1. Klicken **oben rechts** Bereich auf „Rückruf“.
 
@@ -152,14 +152,14 @@ Wenn Sie sich an eine Genehmigung erinnern, die mit dem Anfangsstatus des Proble
 
 Wenn Sie eine Arbeitszeittabellen-Genehmigung zurückrufen, kehrt die Arbeitszeittabelle zu dem Status zurück, in dem sie sich befand, bevor sie zur Genehmigung eingereicht wurde.
 
-1. Klicken Sie auf **Startseite**-Symbol ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Startseite**-Symbol ![Startseite](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
 1. Navigieren **im Bereich** Arbeitsliste“ zur Gruppierung **Genehmigungen, die ich** habe“.
 
@@ -167,7 +167,7 @@ Wenn Sie eine Arbeitszeittabellen-Genehmigung zurückrufen, kehrt die Arbeitszei
 
    Dadurch wird die Arbeitszeittabelle rechts neben der Arbeitsliste geöffnet.
 
-   ![](assets/timesheet-pending-approval-home-nwe-350x157.png)
+   ![Arbeitszeittabelle mit ausstehender Genehmigung](assets/timesheet-pending-approval-home-nwe-350x157.png)
 
 1. Klicken **oben rechts** Bereich auf „Rückruf“.
 
@@ -175,14 +175,14 @@ Wenn Sie eine Arbeitszeittabellen-Genehmigung zurückrufen, kehrt die Arbeitszei
 
 Um eine Dokumentengenehmigung zurückzurufen, müssen Sie einen oder alle Benutzer manuell aus der Genehmigung entfernen.
 
-1. Klicken Sie auf **Startseite**-Symbol ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Startseite**-Symbol ![Startseite](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
 1. Navigieren **im Bereich** Arbeitsliste“ zur Gruppierung **Genehmigungen, die ich** habe“.
 
@@ -199,14 +199,14 @@ Um eine Dokumentengenehmigung zurückzurufen, müssen Sie einen oder alle Benutz
 
 ## Alle Anforderungen
 
-1. Klicken Sie auf **Startseite**-Symbol ![](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Startseite**-Symbol ![Startseite](assets/home-icon-30x29.png) in der linken oberen Ecke von Adobe Workfront.
 
    >[!NOTE]
    >
    >Ihr Workfront-Administrator kann die folgenden Änderungen am Startseiten-Symbol in Ihrer Umgebung vornehmen:
    >
    >* Ersetzen Sie sie durch ein Bild, das Ihre Organisation illustriert. In diesem Fall sieht das Symbol anders aus als in diesem Artikel gezeigt.
-   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
+   >* Ersetzen Sie die damit verknüpfte Seite durch eine andere Seite. Klicken Sie in diesem Fall auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke der Seite und dann auf **Startseite**.
 
 1. Navigieren **im Bereich** Arbeitsliste“ zur Gruppierung **Genehmigungen, die ich** habe“.
 
@@ -214,6 +214,6 @@ Um eine Dokumentengenehmigung zurückzurufen, müssen Sie einen oder alle Benutz
 
    Dadurch wird die Zugriffsanfrage rechts neben der Arbeitsliste geöffnet.
 
-   ![](assets/access-request-pending-approval-nwe-350x104.png)
+   ![Zugriffsanforderung mit ausstehender Genehmigung](assets/access-request-pending-approval-nwe-350x104.png)
 
 1. Klicken **oben rechts** Bereich auf „Rückruf“.

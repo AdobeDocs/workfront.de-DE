@@ -6,9 +6,9 @@ description: Nachdem Sie Projekte und Initiativen miteinander verbunden haben, k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: cdc3a1b0-7021-4853-9b51-c3682fd55430
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '800'
+source-wordcount: '816'
 ht-degree: 1%
 
 ---
@@ -87,12 +87,12 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **[!UICONTROL Monat]**, um den Workload-Balancer nach Monat anzuzeigen, klicken Sie auf das Dropdown-Menü neben einem Monat in der ![](assets/drop-down-next-to-month-month-view-wb.png) und dann auf **[!UICONTROL Mehr]**.
-   * Klicken Sie oben **[!UICONTROL in der Symbolleiste auf]** Symbol „Rollenzuweisung anzeigen![](assets/show-role-allocation-icon.png) .
+   * Klicken Sie auf **[!UICONTROL Monat]** um den Workload-Balancer nach Monat anzuzeigen, klicken Sie auf das Dropdown-Menü neben einem Monat in der Zeitleiste ![Dropdown neben Monat](assets/drop-down-next-to-month-month-view-wb.png) und klicken Sie dann auf **[!UICONTROL Mehr]**.
+   * Klicken Sie auf **[!UICONTROL Rollenzuweisung anzeigen]** Symbol ![Rollenzuweisung anzeigen](assets/show-role-allocation-icon.png) in der oberen rechten Ecke der Symbolleiste.
 
    Das Bedienfeld [!UICONTROL Rollenzuweisung] wird angezeigt.
 
-   ![](assets/role-allocation-panel-months-collapsed-350x319.png)
+   ![Bedienfeld für die Rollenzuweisung](assets/role-allocation-panel-months-collapsed-350x319.png)
 
    >[!CAUTION]
    >
@@ -162,7 +162,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
 
 1. (Optional) Klicken Sie auf das Dropdown-Symbol, um einen der Monate im Bedienfeld [!UICONTROL Rollenzuweisung] oder in der Zeitleiste des [!UICONTROL Workload-Balancer] zu erweitern.
 
-   ![](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
+   ![Monat im Bedienfeld „Rollenzuweisung“ ](assets/month-expanded-highlighted-role-allocation-panel-wb-350x145.png)
 
    Die gleichen Informationen, die im Bereich &quot;[!UICONTROL &quot; angezeigt ], werden auch für jeden Monat angezeigt.
 

@@ -7,9 +7,9 @@ description: Sie können Projekte aus bestehenden Initiativen erstellen und Proj
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 46d3666a-4454-4a84-8c02-a79f3947a18f
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1671'
+source-wordcount: '1729'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Bevor Sie beginnen:
 
 {{step1-to-scenario-planner}}
 
-1. (Optional und bedingt) Wenn Sie aus einem vorhandenen Plan veröffentlichen möchten, klicken Sie auf das **[!UICONTROL Filter]**-Symbol ![](assets/filter-nwepng.png) in der oberen rechten Ecke des Plans und wählen Sie eine der folgenden Optionen aus:
+1. (Optional und bedingt) Wenn Sie aus einem vorhandenen Plan veröffentlichen möchten, klicken Sie auf das **[!UICONTROL Filter]**-Symbol ![Filtersymbol](assets/filter-nwepng.png) in der oberen rechten Ecke des Plans und wählen Sie eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -126,9 +126,9 @@ Bevor Sie beginnen:
     </tbody> 
    </table>
 
-   ![](assets/plans-filters-dropdown-options-scenario-planer.png)
+   ![Dropdown-Optionen filtern](assets/plans-filters-dropdown-options-scenario-planer.png)
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Suchen]**-Symbol ![](assets/search-icon.png) und geben Sie den Namen eines Plans ein, um ihn schnell in der Liste zu finden.
+1. (Optional) Klicken Sie auf das **[!UICONTROL Suchen]**-Symbol ![Suchsymbol](assets/search-icon.png) und geben Sie den Namen eines Plans ein, um ihn schnell in der Liste zu finden.
 1. (Bedingt) Um aus einem neuen Plan zu veröffentlichen, erstellen Sie einen Plan.
 
    Weitere Informationen zum Erstellen von Plänen finden Sie [Erstellen und Bearbeiten von Plänen in der [!DNL Scenario Planner]](../scenario-planner/create-and-edit-plans.md) .
@@ -142,21 +142,21 @@ Bevor Sie beginnen:
    Informationen zum Erstellen von Initiativen finden Sie unter [Erstellen und Bearbeiten von Initiativen im [!DNL Scenario Planner]](../scenario-planner/create-and-edit-initiatives.md).
 
 1. Klicken Sie **[!UICONTROL Plan speichern]**.
-1. Publish Wählen Sie das Szenario, das Sie veröffentlichen möchten **[!UICONTROL aus dem Dropdown-Menü]** Anfängliches Szenario“ aus und klicken Sie dann oben rechts auf **[!UICONTROL Zu]** wechseln![](assets/go-to-publish-button-icon.png).
+1. Wählen Sie das Szenario, das Sie veröffentlichen möchten, aus dem Dropdown-Menü **[!UICONTROL Anfangsszenario]** und klicken Sie dann oben rechts auf **[!UICONTROL Zum Veröffentlichen]** ![Zum Veröffentlichen gehen](assets/go-to-publish-button-icon.png).
 
    Oder
 
-   Klicken Sie auf **[!UICONTROL Szenarien vergleichen]**, bewegen Sie den Mauszeiger über die Szenariokarte, von der Sie veröffentlichen möchten, und klicken Sie dann auf **[!UICONTROL Zu Publish wechseln]** ![](assets/go-to-publish-button-icon.png).
+   Klicken Sie auf **[!UICONTROL Szenarien vergleichen]**, bewegen Sie den Mauszeiger über die Szenariokarte, von der aus Sie veröffentlichen möchten, und klicken Sie dann auf **[!UICONTROL Zum Veröffentlichen wechseln]** ![Zum Veröffentlichen wechseln](assets/go-to-publish-button-icon.png).
 
-   Die Seite [!UICONTROL Publish-Initiativen] mit einer Liste aller Initiativen im Szenario wird angezeigt. Wenn eine der Initiativen zuvor veröffentlicht wurde, wird das Projektsymbol ![](assets/project-icon-sp.png) nach ihrem Namen und dem Datum **[!UICONTROL Zuletzt veröffentlicht]** in der Liste angezeigt.
+   Die Seite [!UICONTROL Initiativen veröffentlichen] wird mit einer Liste aller Initiativen im Szenario angezeigt. Wenn eine der Initiativen zuvor veröffentlicht wurde, wird das Projektsymbol ![Projektsymbol](assets/project-icon-sp.png) nach ihrem Namen und dem **[!UICONTROL Letzte Veröffentlichung]** in der Liste angezeigt.
 
    >[!TIP]
    >
-   >Initiativen, die durch den Import von Projekten erstellt wurden, zeigen auch das Projektsymbol ![](assets/project-icon-sp.png) rechts neben ihrem Namen an
+   >Initiativen, die durch den Import von Projekten erstellt wurden, zeigen auch das Projektsymbol ![Projektsymbol](assets/project-icon-sp.png) rechts neben ihrem Namen an
 
-   ![](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
+   ![Projektsymbol und Datum der letzten Veröffentlichung](assets/project-icons-and-last-published-date-in-publish-initiative-page-350x63.png)
 
-1. (Optional und bedingt) Wenn Sie aus einem vorhandenen Plan veröffentlichen möchten, klicken Sie auf das **[!UICONTROL Filter]**-Symbol ![](assets/filter-nwepng.png) in der oberen rechten Ecke des Plans und wählen Sie eine der folgenden Optionen aus:
+1. (Optional und bedingt) Wenn Sie aus einem vorhandenen Plan veröffentlichen möchten, klicken Sie auf das **[!UICONTROL Filter]**-Symbol ![Filtersymbol](assets/filter-nwepng.png) in der oberen rechten Ecke des Plans und wählen Sie eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -177,10 +177,10 @@ Bevor Sie beginnen:
     </tbody> 
    </table>
 
-   ![](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
+   ![Filter „Initiativen“](assets/initiatives-fitler-in-publishing-screen-scenario-planner.png)
 
-1. (Optional) Klicken Sie auf das **[!UICONTROL Suchen]**-Symbol ![](assets/search-icon.png) und geben Sie den Namen einer Initiative ein, um sie schnell in der Liste zu finden.
-1. Wählen Sie eine oder mehrere Initiativen aus, um diese zu veröffentlichen und Projekte zu erstellen oder zu aktualisieren, und klicken Sie dann auf **[!UICONTROL Publish-Initiativen]**.
+1. (Optional) Klicken Sie auf das **[!UICONTROL Suchen]**-Symbol ![Suchen](assets/search-icon.png) und geben Sie den Namen einer Initiative ein, um sie schnell in der Liste zu finden.
+1. Wählen Sie eine oder mehrere Initiativen aus, um diese zu veröffentlichen und Projekte zu erstellen oder zu aktualisieren, und klicken Sie dann auf **[!UICONTROL Initiativen veröffentlichen]**.
 
    Dadurch wird aus jeder ausgewählten Initiative ein neues Projekt erstellt oder die vorhandenen verbundenen Projekte werden aktualisiert, wenn die veröffentlichten Initiativen bereits mit einem Projekt verknüpft waren.
 
@@ -193,17 +193,17 @@ Bevor Sie beginnen:
    * Wenn Sie eine Initiative veröffentlicht haben, klicken Sie auf **[!UICONTROL Verknüpftes Projekt anzeigen]**, um das von der Initiative erstellte oder aktualisierte Projekt zu öffnen.
    * Wenn Sie mehr als eine Initiative veröffentlicht haben, klicken Sie auf **[!UICONTROL Verknüpfte Projekte anzeigen]**, um eine Liste der in Initiativen veröffentlichten Projekte zu öffnen. [!DNL Workfront] wendet standardmäßig den Filter Projekte [!DNL Scenario Planner] auf die Liste der Projekte an. Die zuletzt veröffentlichten Projekte werden oben in der Liste angezeigt.
 
-     ![](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
+     ![Szenario-Planer nach der Veröffentlichung von Initiativen](assets/scenario-planner-filter-after-publishing-initiatives-350x81.png)
 
 1. Gehen Sie zu den folgenden Bereichen, um Informationen über die Initiative zum Projekt anzuzeigen:
 
    * **Der Abschnitt [!UICONTROL Updates]**: Eine Aktualisierung wird veröffentlicht, um anzugeben, dass das Projekt von der Initiative erstellt oder aktualisiert wurde. Die Aktualisierung enthält den Namen der Initiative, die das Projekt erstellt oder aktualisiert hat, und den verknüpften Namen des Plans, der die Initiative enthält. Sie können auf den Namen des Plans in der Aktualisierung klicken, um den Plan in der [!DNL Scenario Planner] zu öffnen.
 
-     ![](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
+     ![Update-Stream zur Bestätigung der Veröffentlichung](assets/update-stream-confirmation-of-publish-on-project-350x65.png)
 
    * **Der [!UICONTROL Überblick] im Abschnitt [!UICONTROL Projektdetails]**: In diesem Bereich wird ein neuer [!DNL Scenario Planner]-Abschnitt erstellt, der Informationen aus der verknüpften Initiative enthält.
 
-     ![](assets/scenario-planner-on-project-details-350x135.png)
+     ![Szenario-Planer zu Projektdetails](assets/scenario-planner-on-project-details-350x135.png)
 
      Die folgenden Informationen zur Initiative werden im [!DNL Scenario Planner] Bereich des Abschnitts [!UICONTROL Projektdetails] veröffentlicht:
 
@@ -257,7 +257,7 @@ Bevor Sie beginnen:
 
      Weitere Informationen finden Sie unter [Übersicht über die Abstimmung der Ressourcenzuweisungen zwischen Projekten und Initiativen](../scenario-planner/overview-reconcile-allocations-between-projects-initiatives.md).
 
-     ![](assets/role-allocation-panel-350x174.png)
+     ![Bedienfeld für die Rollenzuweisung](assets/role-allocation-panel-350x174.png)
 
      Änderungen an den Daten oder Ressourcen des Projekts wirken sich nicht auf die entsprechende Initiative oder einen der Projektbereiche aus, die Informationen zur Initiative enthalten.
 
@@ -265,20 +265,20 @@ Bevor Sie beginnen:
 
      Weitere Informationen finden Sie unter [Budgetressourcen im [!UICONTROL Business Case] mit dem [!DNL Scenario Planner]](../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
-     ![](assets/sp-in-business-case-selected-350x110.png)
+     ![Szenario-Planer im Business Case](assets/sp-in-business-case-selected-350x110.png)
 
 1. (Optional) Überprüfen Sie die folgenden Informationen in der [!DNL Scenario Planner], nachdem Sie ein Szenario veröffentlicht haben:
 
    * Das veröffentlichte Szenario wird das erste Szenario, nachdem Sie Initiativen daraus veröffentlicht haben.
    * Sie können aus keinem anderen Szenario veröffentlichen, nachdem Sie ein Szenario mindestens einmal veröffentlicht haben.
-   * Die Option [!UICONTROL Zu Publish wechseln] wird aus allen anderen Szenarien entfernt, nachdem mindestens eine Initiative aus einem Szenario veröffentlicht wurde.
+   * Die Option [!UICONTROL Zur Veröffentlichung wechseln] wird aus allen anderen Szenarien entfernt, nachdem mindestens eine Initiative aus einem Szenario veröffentlicht wurde.
    * Neben den Projektsymbolen der veröffentlichten Initiativen wird ein grüner Indikator im Plan angezeigt.
 
-     ![](assets/indicator-for-published-initiative-icon-350x119.png)
+     ![Indikator für veröffentlichte Initiative](assets/indicator-for-published-initiative-icon-350x119.png)
 
    * Oben im Szenario wird ein grüner Indikator „Veröffentlicht“ und auf der Szenariokarte angezeigt. Das Feld Veröffentlicht wird auf der Szenariokarte ausgefüllt und zeigt die Anzahl der Initiativen im Szenario an, die veröffentlicht wurden.
 
-     ![](assets/published-scenario-highlighted-350x632.png)
+     ![Veröffentlichtes Szenario](assets/published-scenario-highlighted-350x632.png)
 
      >[!TIP]
      >

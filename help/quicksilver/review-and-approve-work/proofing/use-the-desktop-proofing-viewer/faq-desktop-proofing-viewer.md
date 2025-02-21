@@ -7,9 +7,9 @@ description: Nein. Der Desktop Proofing Viewer wurde speziell für das Echtzeit-
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e5c9f039-2a6e-47be-a125-f0ce23cfaeaa
-source-git-commit: a849ecaf6097dcdc924aaab2867f37bf57d5bc09
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '439'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Weitere Informationen finden Sie unter
 
 Öffnen Sie einen interaktiven Korrekturabzug und laden Sie die App direkt über den Startbildschirm herunter.
 
-![](assets/mceclip0-350x114.png) 
+![Startbildschirm](assets/mceclip0-350x114.png) 
 
 ## Erfordert die Neuinstallation neuer Versionen des Desktop-Viewers eine Neuinstallation?
 

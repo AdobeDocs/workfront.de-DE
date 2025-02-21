@@ -7,9 +7,9 @@ description: Als Business Manager können Sie mit dem Adobe Workfront-Szenariopl
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: df2b895b-8bc1-4a55-b0d7-8a06db420315
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1150'
+source-wordcount: '1160'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Beachten Sie beim Erstellen von Plänen Folgendes:
 
 Sie können allgemeine Informationen zu Plänen für Aufgabengebiete überprüfen, die die Anzahl der für den Plan verfügbaren Aufgabengebiete sowie die Anzahl der für die Durchführung der Initiativen erforderlichen Aufgabengebiete angeben. Sie können diese Informationen im Feld [!UICONTROL Aufgabengebiete] in der Kopfzeile des Plans einsehen.
 
-![](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
+![Aufgabengebiet-Feld im Plan](assets/job-role-box-on-plan-not-expanded-fte-350x141.png)
 
 Im Feld „Aufgabengebiet“ können Sie Folgendes anzeigen:
 
@@ -78,7 +78,7 @@ Informationen zum Zugriff auf einen Plan und zum Anzeigen detaillierter Informat
 
 Sie können Finanzinformationen zu einem Plan überprüfen, insbesondere das geplante Budget, wie dieses Budget verwendet wird und welchen Nettowert der Plan hat. Der Nettowert eines Plans basiert auf dem Nettowert seiner Initiativen. Sie können diese Informationen in den Feldern [!UICONTROL Finanzen] und [!UICONTROL Zusammenfassung] in der Kopfzeile des Plans anzeigen.
 
-![](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
+![Budget- und Nettowertfelder](assets/budget-net-value-boxes-on-plan-not-expanded-350x86.png)
 
 Sie können Folgendes in den Feldern [!UICONTROL Finanzen] und [!UICONTROL Zusammenfassung] des Plans anzeigen:
 

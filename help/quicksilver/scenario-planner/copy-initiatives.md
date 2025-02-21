@@ -6,9 +6,9 @@ description: Sie können Initiativen durch Kopieren vorhandener Initiativen erst
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 0aadb074-69c3-4229-a01a-7cabdb87e7cb
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '500'
 ht-degree: 1%
 
 ---
@@ -102,7 +102,7 @@ Eine Liste mit Plänen wird angezeigt.
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen, und suchen Sie dann die Initiativen, die Sie kopieren möchten.
 1. Aktivieren Sie das Kästchen links neben der Initiative bzw. den Initiativen, die Sie kopieren möchten, und klicken Sie dann **[!UICONTROL Kopieren]** aus dem Menü, das unten im Plan angezeigt wird.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Initiative kopieren](assets/bottom-manage-initiative-menu-350x45.png)
 
    [!DNL Workfront] kopiert die Initiativen sofort und platziert sie unter der zuletzt ausgewählten Initiative.
 

@@ -7,9 +7,9 @@ author: Courtney and Alina
 feature: Work Management, Digital Content and Documents
 sexl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
 exl-id: 20bc2f2a-3ec7-4531-a0a8-ec54c14e15d0
-source-git-commit: c6e3e3d8d4fd6b6916c8fd49983bc3572949acaa
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '1880'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -123,19 +123,19 @@ So verknüpfen Sie einen vorhandenen globalen Genehmigungsprozess mit einem Proj
 
    Möglicherweise müssen Sie auf **Mehr anzeigen** und dann auf **Genehmigungen** klicken.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Abschnitt „Genehmigungen“ in der Aufgabe](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
-1. ![](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
+1. ![Vorhandene verwenden oder Einzelnutzungsgenehmigungen erstellen](assets/use-existing-or-create-single-use-approvals-menus-on-pti-classic-350x50.png)
 
    Der ausgewählte Genehmigungsprozess wird angezeigt.
 
 1. Erweitern Sie das **Vorhandenes verwenden** Dropdown-Menü und wählen Sie einen vorhandenen Genehmigungsprozess aus.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Menü „Genehmigungen“](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
    Der ausgewählte Genehmigungsprozess wird angezeigt.
 
-   ![](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
+   ![Vorhandene Genehmigung an Aufgabe angehängt](assets/existing-approval-attached-to-task-redesigned-nwe-350x355.png)
 
 1. Klicken Sie auf **Speichern**.
 1. (Optional) Klicken Sie auf Genehmigungsprozess bearbeiten , wenn Sie die vorhandene Genehmigung, die Sie dem Element zugeordnet haben, ändern möchten. Dadurch wird der globale Genehmigungsprozess in einen einmaligen Genehmigungsprozess geändert. Weitere Informationen finden Sie im Abschnitt [Ändern eines globalen Genehmigungsprozesses für die Verwendung für ein bestimmtes Objekt](#modify-a-global-approval-process-for-use-on-a-specific-object) in diesem Artikel.
@@ -168,7 +168,7 @@ So ändern Sie einen Genehmigungsprozess, der bereits an ein Element angehängt 
    >
    >Stellen Sie sicher, dass Sie beim Hinzufügen **Genehmigung auf** Speichern“ klicken.
 
-1. Nachdem der globale Genehmigungsprozess hinzugefügt wurde, klicken Sie auf das **Bearbeiten** Symbol ![](assets/edit-icon.png) in der rechten oberen Ecke der Seite „Genehmigung“. Diese Aktion wandelt den globalen Genehmigungsprozess oder den Genehmigungsprozess auf Gruppenebene in einen einmaligen Genehmigungsprozess um.
+1. Nachdem der globale Genehmigungsprozess hinzugefügt wurde, klicken Sie auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png) in der rechten oberen Ecke der Seite „Genehmigung“. Diese Aktion wandelt den globalen Genehmigungsprozess oder den Genehmigungsprozess auf Gruppenebene in einen einmaligen Genehmigungsprozess um.
 1. Nehmen Sie Änderungen am vorhandenen Genehmigungsprozess vor. Weitere Informationen finden Sie im Abschnitt [Verknüpfen eines einmaligen Genehmigungsprozesses mit einem Projekt, einer Aufgabe, einem Problem, einer Vorlage oder einer ](#associate-a-single-use-approval-process-with-a-project-task-issue-template-or-template-task)) in diesem Artikel.
 1. Klicken Sie **Speichern** und anschließend erneut auf **Speichern**, um zu bestätigen, dass Sie den globalen Genehmigungsprozess in einen einmaligen Genehmigungsprozess konvertieren möchten, der nur für dieses Objekt verfügbar ist.
 
@@ -193,11 +193,11 @@ So erstellen Sie einen Genehmigungsprozess für den einmaligen Gebrauch:
 
    Möglicherweise müssen Sie auf **Mehr anzeigen** > **Genehmigungen** klicken.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Abschnitt „Genehmigungen“ in der Aufgabe](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klicken Sie **Einmalige Verwendung erstellen**.
 
-   ![](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
+   ![Menü „Genehmigungen“](assets/pti-approval-menus-to-attach-existing-or-single-use-approval-redesigned-nwe-350x115.png)
 
 1. Führen Sie die Schritte ab Schritt 6 im Abschnitt „Erstellen eines globalen Genehmigungsprozesses auf Systemebene oder Gruppenebene für Arbeitselemente“ im Artikel „Erstellen [ Genehmigungsprozesses für Arbeitselemente“ ](../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 
@@ -232,12 +232,12 @@ So entfernen oder löschen Sie einen Genehmigungsprozess aus einem Arbeitselemen
 
    Möglicherweise müssen Sie auf **Mehr anzeigen** > **Genehmigungen** klicken.
 
-   ![](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
+   ![Abschnitt „Genehmigungen“ in der Aufgabe](assets/approvals-section-on-task-highlighted-nwe-350x246.png)
 
 1. Klicken Sie auf eines der folgenden Symbole in der rechten oberen Ecke des Abschnitts Genehmigungen , je nachdem, welcher Genehmigungstyp mit dem Element verknüpft ist:
 
-   * **Das Symbol** entfernen ![](assets/remove-icon---x-in-circle.png) für globale Genehmigungen oder Genehmigungen auf Gruppenebene.
-   * **Das Symbol** Löschen“ ![](assets/delete.png) für Genehmigungen zur einmaligen Verwendung.
+   * **Entfernen** Symbol ![Entfernen-Symbol](assets/remove-icon---x-in-circle.png) für globale Genehmigungen oder Gruppengenehmigungen.
+   * **Das Symbol** Löschen![Symbol Löschen](assets/delete.png) für Genehmigungen zur einmaligen Verwendung.
 
 1. Klicken Sie **Entfernen** oder **Löschen** zur Bestätigung.
 

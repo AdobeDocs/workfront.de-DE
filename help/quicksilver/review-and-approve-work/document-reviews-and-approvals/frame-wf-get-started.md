@@ -9,9 +9,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 68b91aad-af76-473f-861d-da846fdfb84c
-source-git-commit: 7b3658e2f13ea75cd7ae09cb7c3486dfc4a0bdb3
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '1151'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -32,7 +32,7 @@ Workfront-Administratoren initiieren die Integration von Workfront und Frame.io,
 
 >[!IMPORTANT]
 >
->Diese Funktion wird in Kürze verfügbar sein. Im Moment werden Frame.io-Konten manuell vom Workfront-Team hinzugefügt. Wenden Sie sich an Ihren Adobe-Kundenbetreuer.
+>Diese Funktion wird in Kürze verfügbar sein. Im Moment werden Frame.io-Konten manuell vom Workfront-Team hinzugefügt. Wenden Sie sich an Ihren Adobe-Kundenbetreuer, um Hilfe zu erhalten.
 
 <!--For more information, see [Configure the [!DNL Workfront] and [!DNL Frame.io] integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
@@ -54,7 +54,7 @@ Wenn ein(e) Benutzende(r) in Workfront als Frame.io-Benutzende(r) gekennzeichnet
 
 Weitere Informationen finden Sie unter [Konfigurieren der  [!DNL Workfront] - [!DNL Frame.io] -Integration](/help/quicksilver/administration-and-setup/configure-integrations/configure-wf-and-frame.md).
 
-![](assets/Frame-enabled-user.png)
+![Frame-fähiger Benutzer](assets/Frame-enabled-user.png)
 
 
 ### Erstellen eines Projekts, das mit Frame.io verbunden ist
@@ -114,7 +114,7 @@ Reviewer und genehmigende Personen können einem Genehmigungs-Workflow für den 
   Weitere Informationen finden Sie unter [Erstellen einer Validierungsvorlage](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/create-approval-template.md)
 
 
-![](assets/assign-template.png)
+![Vorlage zuweisen](assets/assign-template.png)
 
 
 #### Zugriff auf den Frame.io-Viewer
@@ -123,7 +123,7 @@ Benutzer können auf folgende Weise auf den Viewer Frame.io zugreifen:
 
 * Workfront-E-Mail-Benachrichtigungen
 * Das Widget „Meine Genehmigung“ im neuen Workfront-Startbereich
-  ![](assets/awaiting-my-approval.png)
+  ![Warten auf meine Genehmigung](assets/awaiting-my-approval.png)
 
 >[!NOTE]
 >
@@ -145,7 +145,7 @@ Reviewer können ihre Überprüfung im Viewer Frame.io als abgeschlossen markier
 
 Weitere Informationen zu Entscheidungen in Workfront finden Sie unter [Übersicht über den ](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/manage-document-approvals/document-approval-status.md).
 
-![](assets/frame-viewer-and-decision.png)
+![Frame-Viewer und Entscheidung](assets/frame-viewer-and-decision.png)
 
 
 <!-- upload assets directly to workfront to be reviewed in Frame.io/ Will have to send manually at first
@@ -158,4 +158,4 @@ Reviewer/approver needs to go through email to get to frame vier
 Projektkoordinatoren können den Fortschritt bei allen während des Fluges erteilten Genehmigungen im Bereich &quot;Workfront-Startseite“ mit dem folgenden Widget überwachen:
 
 * **Alle Genehmigungen**: Zeigt zwei Diagramme mit Informationen über die durchschnittliche Genehmigungsdauer und -entscheidungen sowie Listenansichten mit ausstehenden und überfälligen Genehmigungen an.
-  ![](assets/all-approvals.png)
+  ![Alle Genehmigungen](assets/all-approvals.png)

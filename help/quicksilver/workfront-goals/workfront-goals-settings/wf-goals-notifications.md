@@ -7,9 +7,9 @@ description: Adobe Workfront Goals enthält eine Reihe vordefinierter Ereignisbe
 author: Alina
 feature: Workfront Goals
 exl-id: 40f9b9a3-c829-480b-9897-099b68389cd4
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '223'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -140,4 +140,4 @@ A personal goal is a goal where you are designated as the owner.
 
 Wenn das durch die von Ihnen aktivierte Benachrichtigung definierte Ereignis eintritt, erhalten Sie eine E-Mail, in der das Ereignis beschrieben wird. Im Folgenden finden Sie ein Beispiel für eine E-Mail, die Sie darüber informiert, dass Sie als Eigentümer eines neuen Ziels zugewiesen sind:
 
-![](assets/wf-align-notification-email-350x164.png)
+![E-Mail zur Zielbenachrichtigung](assets/wf-align-notification-email-350x164.png)

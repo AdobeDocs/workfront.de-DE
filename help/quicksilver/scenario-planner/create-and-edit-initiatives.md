@@ -6,9 +6,9 @@ description: Wenn Sie den Adobe Workfront-Szenarioplaner verwenden, können Sie 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: a811bad0-d3c0-4cba-8b78-d9a14ffc8482
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '1626'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -102,7 +102,7 @@ So erstellen Sie Initiativen von Grund auf:
 1. (Optional) Ziehen Sie das Ende der Initiativleiste, um ihre Dauer auf mehr als einen Monat zu verlängern, und geben Sie sie an die Stelle frei, an der der Endmonat der Initiative sein soll.
 1. (Optional und bedingt) Wenn die Dauer der Initiative kürzer als die des Plans ist, ziehen Sie die Initiativleiste per Drag-and-Drop an eine andere Position auf der Zeitleiste des Plans, um sie in einen anderen Zeitrahmen zu verschieben.
 
-   ![](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
+   ![Initiative in der Timeline verschieben](assets/move-initiative-back-and-forth-on-the-timeline-350x71.png)
 
    >[!IMPORTANT]
    >
@@ -120,7 +120,7 @@ So erstellen Sie Initiativen von Grund auf:
 1. (Optional) Scrollen Sie von links nach rechts, um die gesamte Dauer der Initiative anzuzeigen.
 1. (Optional) Klicken Sie auf die **[!UICONTROL Heute]**, um zum aktuellen Datum zurückzukehren.
 
-   ![](assets/today-indicator-350x160.png)
+   ![Indikator „Heute](assets/today-indicator-350x160.png)
 
    >[!TIP]
    >
@@ -128,7 +128,7 @@ So erstellen Sie Initiativen von Grund auf:
 
 1. Klicken Sie auf den Balken einer Initiative. Das Bedienfeld mit den Details der Initiative wird auf der rechten Seite geöffnet.
 
-   ![](assets/initiative-details-panel-multiple-months-350x626.png)
+   ![Bedienfeld „Initiativen-Details“](assets/initiative-details-panel-multiple-months-350x626.png)
 
    Geben Sie die folgenden Informationen an oder überprüfen Sie sie:
 
@@ -196,7 +196,7 @@ So erstellen Sie Initiativen von Grund auf:
    >
    >Wenn Sie bereits die Anzahl der Aufgabengebiete und das Budget für Ihren Plan sowie die Anzahl der Aufgabengebiete und die Kosten für die Initiative, die Sie bearbeiten, sowie für alle darüber liegenden Initiativen definiert haben und diese die für den Plan angegebenen Beträge überschreiten, haben [!DNL Workfront] möglicherweise nicht genügend Ressourcen, um die Initiative abzuschließen. [!DNL Workfront] kennzeichnet dies als Konflikt beim Versuch, diese Initiative zu erreichen, und zeigt sie als roten Balken an. Alle Initiativen, die auf die konfliktbehaftete Initiative folgen, werden in einem roten Hintergrund angezeigt. Möglicherweise müssen Sie einige Anforderungen Ihrer Initiativen anpassen, beginnend mit der ersten Initiative, die nicht über ausreichende Ressourcen verfügt. Informationen zum Anpassen widersprüchlicher Initiativen finden Sie unter [Beheben von Initiativkonflikten im [!DNL Scenario Planner]](../scenario-planner/resolve-conflicts-in-sp.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Aufgabengebiets und klicken Sie dann auf das **[!UICONTROL Papierkorbsymbol]** ![](assets/delete.png), um es aus der Initiative zu entfernen.
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen eines Aufgabengebiets und klicken Sie dann auf das **[!UICONTROL Papierkorbsymbol]** ![Löschsymbol](assets/delete.png), um es aus der Initiative zu entfernen.
 
 1. (Bedingt) Wenn Sie Änderungen an der Initiative vorgenommen haben, klicken Sie auf **[!UICONTROL Übernehmen]**.
 

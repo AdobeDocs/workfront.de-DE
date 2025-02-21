@@ -6,9 +6,9 @@ description: Nachdem Sie Projekte und Initiativen miteinander verbunden haben, k
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 77152e46-0b7b-4937-9d16-1a20c2a7fdf1
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '673'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
@@ -79,7 +79,7 @@ Wenn Ihr Unternehmen eine [!DNL Workfront Scenario Planner] Lizenz erworben hat,
 
 1. Wechseln Sie zu dem Projekt, in dem Sie die Zuordnung der Aufgabengebiete für das Projekt sowie für die zugehörige Initiative überprüfen möchten.
 1. Klicken Sie **[!UICONTROL linken]** auf „Aufgaben“.
-1. Klicken Sie oben **[!UICONTROL in der Symbolleiste auf]** Symbol „Rollenzuweisung anzeigen![](assets/show-role-allocation-icon.png) .
+1. Klicken Sie auf **[!UICONTROL Rollenzuweisung anzeigen]** Symbol ![Rollenzuweisung anzeigen](assets/show-role-allocation-icon.png) in der oberen rechten Ecke der Symbolleiste.
 
    Das Bedienfeld [!UICONTROL Rollenzuweisung] wird angezeigt.
 

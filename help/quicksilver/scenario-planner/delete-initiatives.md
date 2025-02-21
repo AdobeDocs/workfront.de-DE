@@ -6,9 +6,9 @@ description: Sie können Initiativen in einem von Ihnen erstellten Plan oder in 
 author: Alina
 feature: Workfront Scenario Planner
 exl-id: 799ca02e-c513-4409-b327-1ce7d8eb19ae
-source-git-commit: bbc3ac852dae3d9a503b4585dfc229d43c9aed28
+source-git-commit: 7cfe82eb703e2a043c264cf86c0e5424d1e33d78
 workflow-type: tm+mt
-source-wordcount: '513'
+source-wordcount: '518'
 ht-degree: 2%
 
 ---
@@ -90,7 +90,7 @@ Eine Liste mit Plänen wird angezeigt.
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen, und suchen Sie dann die Initiative, die Sie löschen möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-menu.png) rechts neben dem Namen der Initiative und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
+   * Klicken Sie auf das **[!UICONTROL Mehr]** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen der Initiative und klicken Sie dann auf **[!UICONTROL Löschen]** > **[!UICONTROL Ja, löschen]**.
 
    * Aktivieren Sie das Kästchen links von der Initiative und klicken Sie dann im unverankerten ]**, das unten im Plan angezeigt wird, auf**[!UICONTROL  Löschen und dann auf **[!UICONTROL Ja, löschen]**.
 
@@ -107,7 +107,7 @@ Eine Liste mit Plänen wird angezeigt.
 1. Klicken Sie auf den Namen eines Plans, um ihn zu öffnen, und suchen Sie dann die Initiative, die Sie löschen möchten.
 1. Markieren Sie die Kästchen links neben den Initiativen, die Sie löschen möchten, und klicken Sie dann im unten im Plan angezeigten ]**auf**[!UICONTROL  Löschen und anschließend auf **[!UICONTROL Ja, löschen]**.
 
-   ![](assets/bottom-manage-initiative-menu-350x45.png)
+   ![Menü „Initiative verwalten“](assets/bottom-manage-initiative-menu-350x45.png)
 
    Die Initiativen und ihre Aufgabengebiete sowie Kosteninformationen werden aus dem Plan gelöscht.
 

@@ -7,9 +7,9 @@ description: Mit der Korrekturabzugsanzeige können Sie zwei verschiedene Korrek
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 515562f6-ed19-446c-8f8c-4ad5f07e6d11
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '339'
+source-wordcount: '344'
 ht-degree: 2%
 
 ---
@@ -68,13 +68,13 @@ Sie können zwei Korrekturabzüge in einer einzigen Dokumentliste vergleichen, z
    <p data-mc-conditions="QuicksilverOrClassic.Draft mode">If this button is not visible, ensure that two proofed documents are selected.</p>
    -->
 
-   ![](assets/compare-proofs-select-docs-350x138.jpg)
+   ![Testsendungen vergleichen](assets/compare-proofs-select-docs-350x138.jpg)
 
    Beide Korrekturabzüge werden in der Korrekturabzugsansicht nebeneinander angezeigt. Sie können jedes Dokument überprüfen und vergleichen.
 
    Separate Breadcrumbs über jedem Korrekturabzug ermöglichen es Ihnen, das mit dem Korrekturabzug verknüpfte Arbeitselement anzuzeigen und zu ihm zu wechseln:
 
-   ![](assets/compare-proofs-breadcrumbs-350x148.jpg)
+   ![Korrekturabzüge vergleichen - Breadcrumbs](assets/compare-proofs-breadcrumbs-350x148.jpg)
 
    Informationen zu den Tools, mit denen Sie die beiden Testsendungen vergleichen können, finden Sie unter  [Verwenden Sie die Vergleichs](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md#using-compare-tools)-Tools unter [Korrekturabzüge im Proofing-Viewer vergleichen](../../../../workfront-proof/wp-work-proofsfiles/review-proofs-wpv/compare-proofs.md).
 

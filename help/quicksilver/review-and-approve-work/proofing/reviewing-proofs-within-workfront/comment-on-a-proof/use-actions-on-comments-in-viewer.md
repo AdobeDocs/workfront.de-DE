@@ -6,9 +6,9 @@ description: Sie können Aktionen verwenden, um zu verfolgen, was in jedem Komme
 author: Courtney
 feature: Digital Content and Documents
 exl-id: d1ee871c-ef61-44ca-8287-1093c5e5cb97
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '438'
+source-wordcount: '441'
 ht-degree: 2%
 
 ---
@@ -67,7 +67,7 @@ So wenden Sie eine Aktion auf einen vorhandenen Kommentar im Proofing Viewer an:
 
    * Klicken Sie unten rechts im Kommentar auf das Flag-Symbol und dann im Dropdown-Menü auf die gewünschte Aktion.
 
-     ![](assets/actions-flag-icon-350x198.png)
+     ![Symbol für Aktionsmarkierung](assets/actions-flag-icon-350x198.png)
 
    * Klicken Sie auf das **Mehr**-Symbol (drei horizontale Punkte auf dem Kommentar) und klicken Sie dann im unteren Bereich des angezeigten Dropdown-Menüs auf die gewünschte Aktion.
 

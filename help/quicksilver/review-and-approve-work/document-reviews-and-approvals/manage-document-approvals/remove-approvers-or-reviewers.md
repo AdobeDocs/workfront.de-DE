@@ -6,9 +6,9 @@ description: Sie können einzelne genehmigende Personen oder Prüfende Personen 
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 6877ee90-9a70-4616-98f4-4b0ff932d79a
-source-git-commit: 850d21fafcf2192600f9011ee936a9bc40f969a4
+source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
 workflow-type: tm+mt
-source-wordcount: '512'
+source-wordcount: '516'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Anzeigen oder Hochladen von Zugriff auf Projekte, Aufgaben, Probleme, Vorlagen, Portfolios, Programme, Berichte, Dashboards, Kalender und Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td> <p>Anzeigen oder Erweitern des Zugriffs auf Projekte, Aufgaben, Probleme, Vorlagen, Portfolios, Programme, Berichte, Dashboards, Kalender und Dokumente</p> <p>Hinweis: Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
@@ -60,7 +60,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen **Genehmigungen** im linken Bereich aus.
 
-1. Bewegen Sie den Mauszeiger über den Namen der genehmigenden Person oder der prüfenden Person, die Sie entfernen möchten, und klicken Sie dann auf das Symbol **Löschen**, ![](../assets/delete.png) nach ihrem Namen angezeigt wird.
+1. Bewegen Sie den Mauszeiger über den Namen der genehmigenden Person oder der prüfenden Person, die Sie entfernen möchten, und klicken Sie dann auf das **Löschen**-Symbol ![Löschen-Symbol](../assets/delete.png), das nach ihrem Namen angezeigt wird.
 
    Die Genehmigungs- oder Überprüfungsanfrage wird entfernt und die genehmigende Person erhält eine Benachrichtigung, dass ihre Genehmigung nicht mehr erforderlich ist. Ihr genehmigungsbezogener Freigabezugang wird ebenfalls entfernt.
 
@@ -76,7 +76,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Wählen Sie in der Dropdown-Liste Version die Version des Dokuments aus, für das Sie eine genehmigende Person oder eine prüfende Person entfernen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bereich Dokumentzusammenfassung. Bewegen Sie den Mauszeiger über den Namen der genehmigenden Person oder der prüfenden Person, die Sie entfernen möchten, und klicken Sie dann auf das Symbol **Löschen**, ![](../assets/delete.png) nach ihrem Namen angezeigt wird.
+1. Scrollen Sie nach unten zum Abschnitt **Genehmigungen** im Bereich Dokumentzusammenfassung. Bewegen Sie den Mauszeiger über den Namen der genehmigenden Person oder der prüfenden Person, die Sie entfernen möchten, und klicken Sie dann auf das **Löschen**-Symbol ![Löschen-Symbol](../assets/delete.png), das nach ihrem Namen angezeigt wird.
 
    Die Genehmigungs- oder Überprüfungsanfrage wird entfernt und die genehmigende Person erhält eine Benachrichtigung, dass ihre Genehmigung nicht mehr erforderlich ist. Ihr genehmigungsbezogener Freigabezugang wird ebenfalls entfernt.
 

@@ -7,9 +7,9 @@ description: Aktivitäten messen den Fortschritt eines Ziels. Ohne zugehörige E
 author: Alina
 feature: Workfront Goals
 exl-id: 4d6ef324-4b5c-402b-b64d-b1a2a7d2ab57
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '449'
+source-wordcount: '455'
 ht-degree: 1%
 
 ---
@@ -101,7 +101,7 @@ Adding activities to goals differs depending on which environment you use.
 1. Go to the goal for which you want to add an activity and click the name to open the **Goal Details** panel.
 1. Click **Add activities**.
 
-   ![](assets/add-activity-inside-goal-details-highlighted-350x152.png)
+   ![Add activity inside goal](assets/add-activity-inside-goal-details-highlighted-350x152.png)
 
 1. From the **Activity Type** drop-down menu, select the type of activity you want to associate with your goal.&nbsp;Select **Manual progress bar** or **Project**. Manual progress bar is the default selection. 
 1. (Conditional) Depending on which activity type you selected, do the following:
@@ -144,14 +144,14 @@ Adding activities to goals differs depending on which environment you use.
 -->
 
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) dann auf **Ziele**.
+1. Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Ziele**.
 1. Klicken Sie in der Liste Ziel auf den Namen eines Ziels, um die Seite des Ziels zu öffnen.
 1. Klicken Sie **linken Bereich** Fortschrittsanzeigen“.
 1. Klicken Sie im Dropdown-Menü Neue Fortschrittsanzeige auf **Aktivität erstellen**.
 
    Das Feld Neue Aktivität wird geöffnet.
 
-   ![](assets/new-activity-box-unshimmed.png)
+   ![Neues Aktivitätsfeld](assets/new-activity-box-unshimmed.png)
 
 1. Geben Sie im Feld Aktivitätsname einen Namen für die Aktivität ein. Dies ist ein Pflichtfeld.
 1. (Optional) Entfernen Sie Ihren Namen aus dem Feld **Aktivitätsinhaber**, wenn Sie die Aktivität einem anderen Benutzer zuweisen möchten. Standardmäßig sind Sie der Eigentümer einer von Ihnen erstellten Aktivität.

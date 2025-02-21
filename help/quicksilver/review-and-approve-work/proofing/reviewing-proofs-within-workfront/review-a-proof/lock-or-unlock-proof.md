@@ -6,9 +6,9 @@ description: Sie können einen Korrekturabzug jederzeit im Überprüfungsprozess
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 39dc8c17-b087-4c7c-be19-3bbe93577966
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '382'
+source-wordcount: '394'
 ht-degree: 1%
 
 ---
@@ -61,13 +61,13 @@ Korrekturabzug sperren:
 
    Oder
 
-   Wenn Sie einen Korrekturabzug für eine frühere Version des Dokuments öffnen möchten, klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) für diese Version in der Zusammenfassung und dann auf **Korrekturabzug öffnen**.
+   Wenn Sie einen Korrekturabzug für eine frühere Version des Dokuments öffnen möchten, klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png) für diese Version in der Zusammenfassung und dann auf **Korrekturabzug öffnen**.
 
    Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klicken Sie im linken Bedienfeld auf das Symbol **Sperren** ![](assets/unlock-proof-icon.png).
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Sperren** (![-Symbol](assets/unlock-proof-icon.png).
 
-   ![](assets/lock-proof-350x277.png)
+   ![Korrekturabzug sperren](assets/lock-proof-350x277.png)
 
 ## Korrekturabzug entsperren
 
@@ -79,10 +79,10 @@ So entsperren Sie einen Korrekturabzug:
 
    Oder
 
-   Wenn Sie einen Korrekturabzug für eine frühere Version des Dokuments öffnen möchten, klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) für diese Version in der Zusammenfassung und dann auf **Korrekturabzug öffnen**.
+   Wenn Sie einen Korrekturabzug für eine frühere Version des Dokuments öffnen möchten, klicken Sie auf das Symbol Mehr ![Mehr](assets/more-icon.png) für diese Version in der Zusammenfassung und dann auf **Korrekturabzug öffnen**.
 
    Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../../../documents/managing-documents/summary-for-documents.md).
 
-1. Klicken Sie im linken Bedienfeld auf das **Entsperren**-Symbol ![](assets/unlock-proof-icon.png) und dann auf **Ja, Entsperren**.
+1. Klicken Sie im linken Bedienfeld auf das Symbol **Entsperren** ![Entsperren](assets/unlock-proof-icon.png) und klicken Sie dann auf **Ja, Entsperren**.
 
-   ![](assets/copy-of-unlock-proof-350x279.png)
+   ![Korrekturabzug entsperren](assets/copy-of-unlock-proof-350x279.png)

@@ -6,9 +6,9 @@ description: Während des Prüfungs- und Genehmigungsprozesses können Sie eine 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: e7d60d6f-b6bd-4082-b50c-e42d4b72c149
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -61,15 +61,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Suchen Sie das Dokument für den Korrekturabzug, der die Benutzer enthält, die Sie benachrichtigen möchten.
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Proofing-Workflow**.
 
-   ![](assets/proof-workflow-doc-list-350x92.png)
+   ![Proofing-Workflow](assets/proof-workflow-doc-list-350x92.png)
 
 1. Um eine Nachricht an alle Benutzer auf der Bühne zu senden, klicken Sie auf das **Mehr**-Menü auf der Bühne und wählen Sie **Nachricht an alle**.
 
-   ![](assets/message-stage-350x122.png)
+   ![Nachricht auf der Bühne](assets/message-stage-350x122.png)
 
 1. Um eine Nachricht an einen einzelnen Benutzer zu senden, klicken Sie auf das Menü **Mehr** neben dem Benutzer und wählen Sie **Nachricht** aus.
 
-   ![](assets/message-user-350x121.png)
+   ![Nachrichtenbenutzer](assets/message-user-350x121.png)
 
 1. Geben **im Abschnitt &quot;**&quot; die folgenden Informationen an:
 

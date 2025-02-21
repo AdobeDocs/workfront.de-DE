@@ -6,9 +6,9 @@ description: Sie können eine einzelne Version oder alle Versionen eines Korrekt
 author: Courtney
 feature: Digital Content and Documents
 exl-id: eb61cc0b-b402-48db-aa88-9a1dea3180d6
-source-git-commit: 7477b62cf0e2e61966f8e74cf268217e2ceb67ef
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '222'
+source-wordcount: '227'
 ht-degree: 4%
 
 ---
@@ -53,9 +53,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Herunterladen einer einzelnen Testversand-Version
 
 1. Klicken Sie in der Dokumentliste auf den Testversand.
-1. Klicken Sie in der Zusammenfassung unter **Versionen** auf das Menü Mehr ![](assets/more-icon.png) rechts von der Version und klicken Sie dann in **angezeigten Dropdown-Liste auf** Herunterladen.
+1. Klicken Sie in der Zusammenfassung unter **Versionen** auf das Menü Mehr ![Mehr-Symbol](assets/more-icon.png) rechts neben der Version und klicken Sie dann in **angezeigten Dropdown-Liste auf** Herunterladen.
 
-   ![](assets/more-versions-350x143.png)
+   ![Version herunterladen](assets/more-versions-350x143.png)
 
 ## Herunterladen aller Versionen eines Korrekturabzugs
 

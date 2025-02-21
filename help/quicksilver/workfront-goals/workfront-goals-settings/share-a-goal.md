@@ -6,9 +6,9 @@ description: Wenn Sie ein Ziel freigeben, erteilen Sie jemandem, der es nicht er
 author: Alina
 feature: Workfront Goals
 exl-id: 747449cf-9092-4b9f-9add-db2e7d3fab48
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
 workflow-type: tm+mt
-source-wordcount: '788'
+source-wordcount: '795'
 ht-degree: 4%
 
 ---
@@ -117,7 +117,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Teilen eines Ziels
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) > **Ziele** in der oberen rechten Ecke.
 
    <!-- Add this when Shell is available to all: or (if available), click the **Main Menu** icon ![Main menu icon](../workfront-goals-settings/assets/three-line-main-menu-icon.png) in the upper-left corner)
    -->
@@ -128,11 +128,11 @@ Sie müssen über Folgendes verfügen:
 
 1. Klicken Sie auf **Mehr** neben dem Zielnamen und dann auf **Freigeben**.
 
-   ![](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
+   ![Menü „Mehr“](assets/more-menu-highlighted-goal-details-panel-with-share-link-350x156.png)
 
    Das Feld Zielzugriff wird angezeigt.
 
-   ![](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
+   ![Zielzugriff](assets/goal-access-sharing-box-manage-system-wide-deselected-350x400.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 

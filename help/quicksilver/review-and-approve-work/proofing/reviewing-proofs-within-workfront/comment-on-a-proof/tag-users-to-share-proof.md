@@ -6,9 +6,9 @@ description: Wenn Sie einen Korrekturabzug im Proofing Viewer kommentieren, kön
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4efbfdeb-3834-48dd-aa5b-515891bac519
-source-git-commit: 8af531868249f609113af6d2a8465af01edcbc3f
+source-git-commit: 1e67375c12bc473130127887e6cd4fa474c4fb02
 workflow-type: tm+mt
-source-wordcount: '721'
+source-wordcount: '725'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ So taggen Sie jemanden und geben einen Korrekturabzug in einem Kommentar frei:
 1. Schließen Sie den Kommentar ab und klicken Sie dann auf **Posten**.
 1. (Bedingt) Wenn Sie eine Person getaggt haben, die dem Korrekturabzug noch nicht hinzugefügt wurde, geben Sie für jeden Benutzer, der in dem angezeigten Feld aufgeführt ist, eine **Rolle des** und **E-Mail-**). Klicken Sie dann auf **Personen hinzufügen und einen Kommentar posten**.
 
-   ![](assets/add-people-to-proof-350x220.png)
+   ![Personen zum Korrekturabzug hinzufügen](assets/add-people-to-proof-350x220.png)
 
    Informationen zu Korrekturabzug-Rollen finden Sie unter . Informationen zu E-Mail-Warnhinweisen bei Korrekturabzügen finden Sie im Abschnitt im Artikel [Konfigurieren von E-Mail-Benachrichtigungseinstellungen in Workfront Proof](../../../../workfront-proof/wp-emailsntfctns/email-alerts/config-email-notification-settings-wp.md).
 
