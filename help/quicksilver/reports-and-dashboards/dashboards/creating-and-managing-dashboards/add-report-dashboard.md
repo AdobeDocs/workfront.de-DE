@@ -6,9 +6,9 @@ description: Sie können einen Bericht direkt aus einem Bericht zu einem neuen o
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 42d5945d-66c5-430b-8a37-dca9c2973716
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '345'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 <!-- Audited: 1/2025 -->
 
-Sie können einen Bericht direkt aus einem Bericht zu einem neuen oder vorhandenen Dashboard hinzufügen. Sie können auch einen vorhandenen Bericht zu einem Dashboard hinzufügen, wie unter [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) beschrieben.
+Sie können einen Bericht direkt aus einem Bericht zu einem neuen oder vorhandenen Dashboard hinzufügen. Sie können auch einen vorhandenen Bericht zu einem Dashboard hinzufügen, wie unter [Erstellen eines Dashboards](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/create-dashboard.md) beschrieben. Beachten Sie, dass maximal 25 Berichte, Kalender oder externe Seiten zu einem einzelnen Dashboard hinzugefügt werden können.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 Sie müssen einen Bericht erstellen, bevor Sie ihn einem Dashboard hinzufügen können.
 
-Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
+Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
 ## Hinzufügen eines Berichts zu einem vorhandenen Dashboard
 

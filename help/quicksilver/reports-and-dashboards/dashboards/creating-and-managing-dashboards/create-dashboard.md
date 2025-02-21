@@ -6,9 +6,9 @@ description: Sie können Dashboards erstellen, um schnell auf Informationen in A
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6a284df4-f011-4b4c-b44c-2e20918f643f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '484'
+source-wordcount: '495'
 ht-degree: 1%
 
 ---
@@ -83,7 +83,7 @@ Sie können vorhandene externe Seiten zu einem Dashboard hinzufügen oder eine a
     <tbody>
      <tr>
       <td role="rowheader"><strong>Name</strong></td>
-      <td><p>Dies ist der Name Ihres Dashboards.</p><p>Wenn Sie keinen Namen angeben, wird standardmäßig der Name des ersten Berichts auf dem Dashboard zum Namen des Dashboards.</p></td>
+      <td><p>Dies ist der Name Ihres Dashboards. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.</p><p>Wenn Sie keinen Namen angeben, wird standardmäßig der Name des ersten Berichts auf dem Dashboard zum Namen des Dashboards.</p></td>
      </tr>
      <tr>
       <td role="rowheader"><strong>Beschreibung (optional)</strong></td>

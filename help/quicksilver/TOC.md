@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 34fe190983a165a69f9dfbb49f619e84f6216fa8
 workflow-type: tm+mt
-source-wordcount: '13034'
+source-wordcount: '13007'
 ht-degree: 2%
 
 ---
@@ -1487,10 +1487,10 @@ ht-degree: 2%
       * Dashboard-Berichtstypen für die Arbeitsfläche {#report-types}
          * [Übersicht über die Berichtstypen im Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Hinzufügen eines vorhandenen Berichts zu einem Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-         * [Erstellen eines KPI-Berichts in einem Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-         * [Erstellen eines Diagrammberichts in einem Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-         * [Erstellen eines Tabellenberichts in einem Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-         * [Hinzufügen eines Berichts über ausstehende Genehmigungen zu einem Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
    * Berichte {#reports}
       * [Berichte](reports-and-dashboards/reports/reports-overview.md)
       * Grundlagen der Berichterstellung {#report-basics}
@@ -2062,7 +2062,7 @@ ht-degree: 2%
       * [Seiten-Layout des Datensatzes verwalten](planning/records/manage-the-record-page.md)
       * [Verwalten von Datensätzen im Planungsabschnitt von Adobe Workfront-Objekten](planning/records/manage-records-in-planning-section.md)
       * [Exportieren der Details eines Datensatzes](planning/records/export-the-record-page.md)
-      * [Erstellen von Workfront-Objekten aus Workfront Planning](planning/records/create-workfront-objects-from-workfront-planning.md)
+      * [Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden](planning/records/create-workfront-objects-from-workfront-planning.md)
       * [Erstellen von Objekten mithilfe von Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
    * Adobe Workfront-Planungsanfragen {#adobe-workfront-planning-requests}
       * [Adobe Workfront-Planungsanfragen: Artikelindex](planning/requests/requests-article-index.md)

@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '1093'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,56 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Neuer Ausdruck zu Formelfeldern hinzugefügt
+
+>[!NOTE]
+>
+>Vorschau-Version: 20. Februar 2025; Produktionsversion für alle Kunden: 20. Februar 2025
+
+Wir haben den JSONELEMENT-Ausdruck zu Formelfeldern hinzugefügt. Dieser Ausdruck gibt die Daten aus JSON zurück, die von dem bereitgestellten JSONPath bereitgestellt werden.
+
+Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
+
+## Echtzeit-Anwesenheitsindikatoren in der Detailvorschau oder -seite eines Datensatzes
+
+>[!NOTE]
+>
+>Vorschau-Version: 20. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Um zu verstehen, welche Informationen von anderen Benutzenden bearbeitet werden, wenn sie auf der Vorschau- oder Detailseite eines Datensatzes arbeiten, haben wir für diesen Bereich von Workfront Planning Echtzeit-Präsenzindikatoren eingeführt.
+
+Das von einem anderen Benutzer bearbeitete Feld wird nun hervorgehoben, und die Avatare anderer Benutzer werden oben rechts auf der Vorschau- oder Detailseite für Sie sichtbar sein.
+
+Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+
+## Verbesserungen beim Erstellen von Workfront-Objekten beim Verbinden mit Planungsdatensätzen
+
+>[!NOTE]
+>
+>Vorschau-Version: 20. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Sie können jetzt ganz einfach Projekte, Portfolios und Programme erstellen, indem Sie sie über ein vorhandenes Verbindungsfeld mit einem Datensatz verbinden.
+
+Bei dieser Verbesserung stehen die folgenden Funktionen zur Verfügung:
+
+* Eine Schaltfläche „Dauerhaft hinzufügen“ beim Herstellen einer Verbindung zu einem Planungsdatensatz, einem Workfront-Projekt, -Portfolio oder einem anderen Planungsdatensatz
+
+* Möglichkeit, Programme hinzuzufügen und sie mithilfe einer persistenten Schaltfläche „Hinzufügen“ in einem Verbindungsfeld einem Portfolio zuzuordnen.
+
+Weitere Informationen finden Sie unter [Erstellen von Workfront-Objekten aus Workfront Planning](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md).
+
+## Automatisierungen konfigurieren, um Objekte und Datensätze basierend auf einem vorhandenen Datensatz zu erstellen
+
+>[!NOTE]
+>
+>Vorschau-Version: 20. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Als Workspace-Manager können Sie jetzt benutzerdefinierte Automatisierungen für einen Datensatztyp konfigurieren, um automatisch entweder ein verbundenes Workfront-Objekt oder einen Planning-Datensatz zu erstellen.
+
+Die erstellten Objekte oder Datensätze werden sofort mit dem Datensatz verbunden, in dem die Automatisierung konfiguriert und ausgelöst wird.
+
+Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
 ## Von KI-Assistent durchgeführte Aktionen überprüfen und bestätigen
 
@@ -41,18 +91,6 @@ Zuvor war dieser Bestätigungsschritt nicht verfügbar.
 Die folgenden Ausdrücke sind jetzt in Workfront-Formelfeldern verfügbar: ARRAY, ARRAYLENGTH, ARRAYELEMENT. Definitionen und Beispiele für jeden Ausdruck sind im Formeleditor verfügbar.
 
 Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
-
-<!--## Real-time presence indicators in a record's details preview or page
-
->[!NOTE]
->
->Preview release: January 30, 2025; Production for fast release: With the 25.2 release (February 2025); Production for quarterly release: With the 25.4 release (April 2025)
-
-To understand what information is edited by other users when working in a record's preview or details page, we have introduced real-time presence indicators for this area of Workfront Planning.
-
-The field edited by another user will now be highlighted, and other users' avatars will be visible to you in the upper-right corner of the preview or details page.
-
-For information, see [Edit records](/help/quicksilver/planning/records/edit-records.md).-->
 
 ## Freigeben von Workfront-Planungselementen für Teams, Aufgabengebiete und Unternehmen
 

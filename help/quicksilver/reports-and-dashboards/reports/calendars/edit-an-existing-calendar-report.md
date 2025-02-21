@@ -6,9 +6,9 @@ description: Sie können einen vorhandenen Kalender ändern, indem Sie einen Lin
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '331'
 ht-degree: 0%
 
 ---
@@ -62,9 +62,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 {{step1-to-calendars}}
 
-1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf das Feld [!UICONTROL Kalendername] und nehmen Sie dann die gewünschten Änderungen vor.
+1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf das Feld [!UICONTROL Kalendername] und nehmen Sie dann die gewünschten Änderungen vor. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.
+
    ![Berichtsnamen ändern](assets/titlechange-250x230.png)
-Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, wird der geänderte Kalendername automatisch in der Kalenderansicht aktualisiert.
+
+   Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, wird der geänderte Kalendername automatisch in der Kalenderansicht aktualisiert.
 
 1. (Optional) So fügen Sie ein Projekt zum Kalenderbericht hinzu:
 

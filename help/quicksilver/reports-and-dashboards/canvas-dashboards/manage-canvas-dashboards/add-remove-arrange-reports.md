@@ -6,9 +6,9 @@ description: Nachdem Sie ein Arbeitsflächen-Dashboard erstellt haben, können S
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 840f2e1f-592f-44c1-b2e9-7201e424209a
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
 workflow-type: tm+mt
-source-wordcount: '570'
+source-wordcount: '555'
 ht-degree: 0%
 
 ---
@@ -58,7 +58,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie im **Bericht hinzufügen** unterhalb des Berichtstyps, **Sie Ihrem Arbeitsflächen-Dashboard hinzufügen möchten, auf Hinzufügen**.
 
-1. Fahren Sie mit dem Einrichten des Berichts entsprechend dem ausgewählten Berichtstyp fort. Detaillierte Informationen zum Einrichten der einzelnen Berichtstypen finden Sie unter [Berichtstypen für das Arbeitsflächen-Dashboard](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md). Wenn Sie das Fenster schließen, bevor Sie die Einrichtung abgeschlossen haben, wird Ihrem Arbeitsflächen-Dashboard weiterhin ein leerer Bericht hinzugefügt. Sie können die Einrichtung zu einem späteren Zeitpunkt abschließen, indem Sie auf **Schaltfläche** Konfiguration“ in der Mitte des leeren Berichts klicken.
+1. Fahren Sie mit dem Einrichten des Berichts entsprechend dem ausgewählten Berichtstyp fort. <!--For detailed information about setting up each type of report, see [Canvas Dashboard report types](/help/quicksilver/reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md).--> Wenn Sie das Fenster schließen, bevor Sie die Einrichtung abgeschlossen haben, wird Ihrem Arbeitsflächen-Dashboard weiterhin ein leerer Bericht hinzugefügt. Sie können die Einrichtung zu einem späteren Zeitpunkt abschließen, indem Sie auf **Schaltfläche** Konfiguration“ in der Mitte des leeren Berichts klicken.
 
 ## Verschieben oder Ändern der Größe von Berichten in einem Arbeitsflächen-Dashboard
 
