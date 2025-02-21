@@ -6,9 +6,9 @@ description: Adobe Workfront verfügt über eine umfangreiche Liste integrierter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 0022892cabb9a44fb21e33d88148b098c937f388
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2964'
+source-wordcount: '2970'
 ht-degree: 10%
 
 ---
@@ -115,7 +115,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Gefährdete Projekte</td> 
-   <td>Ein Projektbericht, der aktuelle und geplante Projekte ausgibt, die den Status „Gefährdet“ oder „In Schwierigkeiten“ aufweisen. Der Bericht zeigt die folgenden Felder an: die Beschreibung, das geplante Abschlussdatum, das voraussichtliche Abschlussdatum, den Prozentsatz der Fertigstellung, den Status und die Priorität der Projekte. Der Bericht ist nach Portfolio-Name gruppiert.</td> 
+   <td>Ein Projektbericht, der aktuelle und geplante Projekte ausgibt, die den Status „Gefährdet“ oder „In Schwierigkeiten“ aufweisen. Der Bericht zeigt die folgenden Felder an: die Beschreibung, das geplante Abschlussdatum, das voraussichtliche Abschlussdatum, den Prozentsatz der Fertigstellung, den Status und die Priorität der Projekte. Der Bericht ist nach Portfolio-Namen gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Einnahmenfakturierung nach Firma</td> 
@@ -167,7 +167,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Lohnkosten im Vgl. zu sonstigen Aufwendungen nach Programm</td> 
-   <td>Ein Projektbericht, der die geplanten Lohnkosten, tatsächlichen Lohnkosten, geplanten Ausgaben und tatsächlichen Ausgaben der Projekte ausgibt. Der Bericht ist nach Portfolio- und Programmname gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der die geplanten Lohnkosten, tatsächlichen Lohnkosten, geplanten Ausgaben und tatsächlichen Ausgaben der Projekte ausgibt. Der Bericht ist nach Portfolio-Name und Programmname gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Monatliche geplante Portfoliokosten im Vgl. zu Ist-Kosten nach Projekt</td> 
@@ -199,7 +199,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Meine Portfolios</td> 
-   <td>Ein Portfolio-Bericht, der die aktiven Portfolios ausgibt, bei denen der angemeldete Benutzer der Portfolio-Manager ist.</td> 
+   <td>Ein Portfolio-Bericht, der aktive Portfolios ausgibt, in denen der angemeldete Benutzer Portfolio Manager ist.</td> 
   </tr> 
   <tr> 
    <td>Meine Programme</td> 
@@ -243,11 +243,11 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Überbudgetiertes Projekt nach Portfolio</td> 
-   <td>Ein Projektbericht, der die geplanten Kosten und Istkosten der Projekte ausgibt. Der Bericht ist nach Portfolio-Name gruppiert.</td> 
+   <td>Ein Projektbericht, der die geplanten Kosten und Istkosten der Projekte ausgibt. Der Bericht ist nach Portfolio-Namen gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Geplante Portfoliokosten nach Programm</td> 
-   <td>Ein Projektbericht, der die geplanten Kosten und Istkosten der Projekte ausgibt. Der Bericht wird nach Portfolio-Name (gruppiert nach Programmname) angezeigt und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der die geplanten Kosten und Istkosten der Projekte ausgibt. Der Bericht wird nach Portfolio-Name, gruppiert nach Programmname, angezeigt und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Geplante Portfoliokosten nach Projekt</td> 
@@ -255,7 +255,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Geplanter Portfolioumsatz nach Programm</td> 
-   <td>Ein Projektbericht, der die geplanten Einnahmen und die tatsächlichen Einnahmen der Projekte ausgibt. Der Bericht wird nach Portfolio-Name (gruppiert nach Programmname) angezeigt und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der die geplanten Einnahmen und die tatsächlichen Einnahmen der Projekte ausgibt. Der Bericht wird nach Portfolio-Name, gruppiert nach Programmname, angezeigt und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Geplanter Portfolioumsatz nach Projekt</td> 
@@ -279,7 +279,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Nach Programm und Monat gruppierte Portfoliokosten</td> 
-   <td>Ein Matrix-Projektbericht, der die geplanten Kosten, budgetierten Kosten und Istkosten der Projekte ausgibt. Der Bericht ist nach Portfolio, Programmname und Monat des geplanten Startdatums der Projekte gruppiert.</td> 
+   <td>Ein Matrix-Projektbericht, der die geplanten Kosten, budgetierten Kosten und Istkosten der Projekte ausgibt. Der Bericht ist nach Portfolio-Name, Programmname und dem Monat des geplanten Startdatums der Projekte gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Portfolioprojekte nach Status gruppiert nach Programm</td> 
@@ -291,11 +291,11 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
   </tr> 
   <tr> 
    <td>Portfolioumsatz nach Programm</td> 
-   <td>Ein Projektbericht, der den Portfolio-Namen, Programmnamen, die geplanten Einnahmen und die tatsächlichen Einnahmen der Projekte ausgibt. Der Bericht ist nach Portfolio- und Programmname gruppiert und enthält ein Diagramm.</td> 
+   <td>Ein Projektbericht, der den Portfolio-Namen, den Programmnamen, die geplanten Einnahmen und die tatsächlichen Einnahmen der Projekte ausgibt. Der Bericht ist nach dem Portfolio-Namen und dem Programmnamen gruppiert und enthält ein Diagramm.</td> 
   </tr> 
   <tr> 
    <td>Nach Programm und Monat gruppierte Portfolioeinnahmen</td> 
-   <td>Ein Matrix-Projektbericht, der die geplanten Einnahmen, tatsächlichen Einnahmen, den Portfolio- und Programmnamen ausgibt. Der Bericht ist nach Portfolio, Programmname und Monat des geplanten Startdatums der Projekte gruppiert.</td> 
+   <td>Ein Matrix-Projektbericht, der die geplanten Einnahmen, tatsächlichen Einnahmen, den Portfolio-Namen und den Programmnamen ausgibt. Der Bericht ist nach dem Portfolio-Namen, dem Programmnamen und dem Monat des geplanten Startdatums der Projekte gruppiert.</td> 
   </tr> 
   <tr> 
    <td>Projektkosten und -einnahmen nach Aufgabenstatus</td> 
@@ -383,7 +383,7 @@ Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die 
 1. Wählen Sie unter dem **Report**-Objekt **Globale ID** aus.
 
 1. Wählen Sie im Dropdown-Menü des Filtermodifikators die Option **Ist nicht leer**.\
-   ![](assets/qs-global-id-filter-for-system-reports-350x179.png)
+   ![Globaler ID-Filter für Systemberichte](assets/qs-global-id-filter-for-system-reports-350x179.png)
 
 1. Klicken Sie auf **Filter speichern**.\
    Die Berichtsliste zeigt nur integrierte Berichte an.\

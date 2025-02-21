@@ -7,9 +7,9 @@ description: Sie können Gruppierungen in Listen und Berichten umbenennen, um si
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 072d3c2b-9ede-4bb9-9a27-dc77ceb732c4
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '350'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,11 @@ Sie können Gruppierungen umbenennen, damit sie Ihren Benutzern vertrauter sind.
 
 Wenn Sie beispielsweise die standardmäßige Gruppierung Portfolio-Name auf eine Liste von Projekten anwenden, wird der Name der Gruppierung als *Portfolio: Name:`<name of portfolio>`* angezeigt.
 
-![](assets/grouping-unedited-name-350x167.png)
+![Gruppierung nach nicht bearbeitetem Namen](assets/grouping-unedited-name-350x167.png)
 
 Sie können diese Gruppierung im Textmodus ändern, um einen leichter lesbaren Namen anzuzeigen.
 
-![](assets/grouping-edited-name-350x160.png)
+![Gruppieren nach bearbeitetem Namen](assets/grouping-edited-name-350x160.png)
 
 ## Zugriffsanforderungen
 
@@ -103,7 +103,7 @@ So ändern Sie den Anzeigenamen in einer Projektgruppierung:
      >Sie können die `group.0.name=` und die `group.0.displayname=` auch leer lassen. In diesem Fall zeigt die Gruppierung den Wert an, nach dem gruppiert werden soll.
 
 
-     ![](assets/grouping-edited-name-no-name-350x162.png)
+     ![Gruppierung nach bearbeitetem Namen ohne Namen](assets/grouping-edited-name-no-name-350x162.png)
 
 1. Klicken Sie **Fertig** und dann **Gruppierung speichern**.
 1. (Optional) Aktualisieren Sie den Gruppierungsnamen und klicken Sie dann auf **Gruppierung speichern**.

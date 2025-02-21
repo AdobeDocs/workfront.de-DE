@@ -6,9 +6,9 @@ description: Sie können bedingte Formatierung verwenden, um zwei verschiedene F
 author: Nolan
 feature: Reports and Dashboards
 exl-id: da4447ba-6e76-4701-88ee-87a30393bed9
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: '469'
 ht-degree: 1%
 
 ---
@@ -76,7 +76,7 @@ So vergleichen Sie das geplante Startdatum und das tatsächliche Startdatum eine
 1. Geben Sie die Vergleichskriterien mithilfe der vorhandenen Werte aus dem Builder ein und geben Sie Ihre bedingte Formatierung an.\
    Beispielsweise möchten wir Aufgaben hervorheben, deren tatsächliches Startdatum nach dem geplanten Startdatum liegt (oder größer ist). Wählen Sie den Modifikator Größer als und danach im Datumsfeld ein tatsächliches Datum aus.
 
-   ![](assets/cond-format-1-350x84.png)
+   ![Bedingte Formatierung für tatsächliches Startdatum](assets/cond-format-1-350x84.png)
 
 1. (Optional) Wählen Sie **Auf gesamte Zeile anwenden** aus, wenn Sie die Formatierung auf die gesamte Zeile anwenden möchten.
 1. Klicken Sie auf **Speichern**.
@@ -104,7 +104,7 @@ So vergleichen Sie das geplante Startdatum und das tatsächliche Startdatum eine
 
 1. Stellen Sie sicher, dass die `righttext` Codezeile mit der Anweisung in der `rightmethod` Codezeile übereinstimmt.
 
-   ![](assets/cond-format-2-350x171.png)
+   ![Bedingte Formatierung](assets/cond-format-2-350x171.png)
 
 1. Klicken Sie auf **Speichern**.
 1. Klicken Sie auf **Speichern + schließen**.

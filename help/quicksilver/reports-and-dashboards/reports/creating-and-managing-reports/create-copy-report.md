@@ -7,9 +7,9 @@ description: Sie können eine Kopie jedes Berichts erstellen, auf den Sie Zugrif
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 84737f48-efc5-45f1-acd1-b9f5d353f80f
-source-git-commit: 9396cd2ac073a57b7d99618cdf09e54ddcf95130
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -104,7 +104,7 @@ Wenn Sie eine Kopie eines benutzerdefinierten Berichts erstellen möchten, gehen
 
 Wenn Sie eine Kopie eines Standardberichts erstellen möchten, gehen Sie wie folgt vor:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
 1. Klicken Sie **Berichte** und dann **Alle Berichte**.
 1. Klicken Sie auf den Namen eines Standardberichts, um ihn zu öffnen.
@@ -124,6 +124,6 @@ Wenn Sie eine Kopie eines Standardberichts erstellen möchten, gehen Sie wie fol
 1. Klicken Sie **Fertig**.
 1. Klicken Sie **Als neuen Bericht speichern**.
 
-   ![](assets/unshimmed-save-as-new-report.png)
+   ![Als neuen Bericht speichern](assets/unshimmed-save-as-new-report.png)
 
 1. (Optional) Um die neue Version des Berichts für andere Benutzer freizugeben, klicken Sie auf **Berichtsaktionen** und dann auf **Freigabe**.

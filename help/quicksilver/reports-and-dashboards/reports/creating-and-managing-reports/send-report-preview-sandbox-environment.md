@@ -6,9 +6,9 @@ description: Die Informationen auf dieser Seite beziehen sich auf Funktionen, di
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 568360df-bec9-4767-8b5a-32a294d05d47
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Ob ein zugestellter Bericht in der Vorschau-Umgebung erstellt wird oder nicht, h
 
 Informationen zur Aktivierung von E-Mails aus der Sandbox-Umgebung finden Sie unter [Aktivieren des Versands von E-Mails aus der Sandbox-Vorschau-Umgebung](../../../workfront-basics/using-notifications/enable-delivery-emails-from-preview-sandbox-environment.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Option „E-Mails von Sandbox empfangen“](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Die Planung von Berichten für den Versand in der Vorschau -Umgebung ist identisch mit der Planung von Berichten in der Produktionsumgebung. Informationen zur Planung eines Berichts für den Versand finden Sie unter [Übersicht über den Berichtsversand](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 
@@ -100,7 +100,7 @@ Ob ein bereitgestellter Bericht in der benutzerdefinierten Aktualisierungs-Sandb
 
 Informationen zur Aktivierung von E-Mails in der Vorschau-Umgebung finden Sie im Abschnitt [Anzeigen und Ändern Ihrer E-Mail](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md#view)Benachrichtigungseinstellungen im Artikel [Ändern Ihrer eigenen E-Mail-Benachrichtigungen](../../../workfront-basics/using-notifications/activate-or-deactivate-your-own-event-notifications.md).
 
-![](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
+![Option „E-Mails von Sandbox empfangen“](assets/receive-emails-from-sandbox-setting-edit-350x223.png)
 
 Die Planung von Berichten für die Bereitstellung in der benutzerdefinierten Aktualisierungs-Sandbox-Umgebung ist identisch mit der Planung von Berichten in der Produktionsumgebung. Informationen zur Planung eines Berichts für den Versand finden Sie unter [Übersicht über den Berichtsversand](../../../reports-and-dashboards/reports/creating-and-managing-reports/set-up-report-deliveries.md).
 

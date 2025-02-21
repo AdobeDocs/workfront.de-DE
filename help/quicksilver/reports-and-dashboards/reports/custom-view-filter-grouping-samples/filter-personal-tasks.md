@@ -7,9 +7,9 @@ description: Dieser Aufgabenfilter gibt Ad-hoc-Arbeitsanfragen zurück, die an e
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 204cfae1-7c57-4223-9e00-ac94e1e2ba3a
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Ad-hoc-Arbeitsanfragen und -Aufgabenelemente werden in Adobe Workfront als pers�
 
 Persönliche Aufgaben sind nicht mit einem Projekt verbunden, können jedoch bei Bedarf in ein Projekt verschoben werden. Weitere Informationen finden Sie unter [Persönliche Aufgaben erstellen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/create-personal-tasks.md).
 
-![](assets/personal-tasks-report.png)
+![Bericht zu persönlichen Aufgaben](assets/personal-tasks-report.png)
 
 ## Zugriffsanforderungen
 

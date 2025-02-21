@@ -6,7 +6,7 @@ description: Sie können Adobe Workfront-Daten aus verschiedenen Listen, Bericht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7fd45fa2-f5d2-411d-849e-cff5be420fbc
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
 source-wordcount: '2247'
 ht-degree: 0%
@@ -190,7 +190,7 @@ Wenden Sie sich bei Problemen oder Problemen mit Ihrem Limit an den technischen 
    >[!NOTE]
    >
    >To export a Dashboard report, you must have a Plan license.  
-   >![](assets/nwe-dashboard-export-note-350x271.png)
+   >![Export dashboard note](assets/nwe-dashboard-export-note-350x271.png)
    -->
 
    Oder
@@ -242,24 +242,24 @@ Wenn Sie eine Liste von Aufgaben oder Problemen exportieren **kann der** Dateina
 * Beim Exportieren von Aufgaben- und Problemlisten in ein Projekt:
 
    * *The_project_name_exported_Tasks*(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
-   * *THE_PROJECT_NAME_EXPORTED_ISSUES*(*im PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Format)*
+   * *THE_PROJECT_NAME_EXPORTED_ISSUES*(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
 
 * Beim Exportieren von Aufgaben- und Problemlisten in eine Aufgabe (Teilaufgaben):
 
-   * **The_project_name_the_task_name_exported_Tasks**(*im PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Format)*
-   * **The_project_name_the_task_name_exported_Issues**(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
+   * **The_project_name_the_task_name_exported_Tasks**(*in PDF, Excel, Excel (.xlsx) oder tabulatorgetrennten Formaten)*
+   * **The_project_name_the_task_name_exported_Issues**(*in PDF, Excel, Excel (.xlsx) oder tabulatorgetrennten Formaten)*
 
-Wenn Sie eine Liste anderer Objekte aus einem Projekt in eine PDF-Datei exportieren, gibt der Dateiname des exportierten Dokuments den Typ der exportierten Objekte an.\
+Wenn Sie eine Liste aller anderen Objekte aus einem Projekt in eine PDF-Datei exportieren, gibt der Dateiname des exportierten Dokuments den Typ der exportierten Objekte an.\
 Der Dateiname kann beispielsweise wie folgt lauten:
 
-* *Exportierte_Benutzer* beim Exportieren der Registerkarte „Personen“ im Projekt (*im PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Format)*
-* *Exportierte_Risiken* beim Exportieren einer Liste von Risiken für das Projekt (*im PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Format)*
+* *Exportierte_Benutzer* beim Exportieren der Registerkarte „Personen“ im Projekt (*in PDF, Excel, Excel (.xlsx) oder tabulatorgetrennten Formaten)*
+* *Exportierte_Risiken* beim Exportieren einer Liste von Risiken für das Projekt (*in PDF, Excel, Excel (.xlsx) oder tabulatorgetrennten Formaten)*
 
 #### Dateinamen für exportierte Berichte {#file-names-for-exported-reports}
 
 Wenn Sie einen Bericht exportieren, lautet der Dateiname des exportierten Berichts:
 
-*The_report_name*(*im PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Format)*
+*The_report_name*(*in PDF-, Excel-, Excel- (.xlsx) oder tabulatorgetrennten Formaten)*
 
 ### Titel {#titles}
 
@@ -277,7 +277,7 @@ Wenn Sie Aufgaben- und Problemlisten in einer Aufgabe in eine PDF-Datei exportie
 * *Projektname - Aufgabenname - Exportierte Aufgaben*
 * *Projektname - Aufgabenname - Exportierte Probleme*
 
-Wenn Sie eine Liste anderer Objekte aus einem Projekt in eine PDF-Datei exportieren, gibt der Titel des exportierten Dokuments den Typ der exportierten Objekte an.\
+Wenn Sie eine Liste aller anderen Objekte aus einem Projekt in eine PDF-Datei exportieren, gibt der Titel des exportierten Dokuments den Typ der exportierten Objekte an.\
 Der Titel kann beispielsweise lauten:
 
 * *Exportierte Benutzer* beim Exportieren der Registerkarte „Personen“ im Projekt.
@@ -303,7 +303,7 @@ Der Zeitstempel enthält:
 
 Je nach Typ des zu exportierenden Dokuments werden Zeitstempel an verschiedenen Stellen angezeigt:
 
-* **PDF:** Zeitstempel werden auf der Fußzeile jeder Seite und im Dateinamen angezeigt.
+* **PDF:** Zeitstempel werden in der Fußzeile jeder Seite und im Dateinamen angezeigt.
 * **Excel:** Zeitstempel werden im Dateinamen angezeigt.
 
 ### Formatierung {#formatting}

@@ -6,9 +6,9 @@ description: Matrix-Berichte präsentieren zusammenfassende Informationen in agg
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 714f2802-089f-4a41-8205-f397cf474a24
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1075'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -23,14 +23,14 @@ Sie können für jeden Bericht, der zwei oder mehr Gruppierungen enthält, einen
 
 Beispiel: Sie möchten einen Stundenbericht erstellen, der die während eines Zeitraums von drei Monaten protokollierten Stunden ausgibt, und Sie möchten, dass der Bericht nach dem Eintritt der Stunden sowie nach Monat und Woche organisiert ist.
 
-![](assets/report-matrix-overview-350x123.png)
+![Berichtsmatrix - Übersicht](assets/report-matrix-overview-350x123.png)
 
 ## Anzeige von Daten in einem Matrixbericht
 
 Informationen im Matrixbericht werden immer als numerischer Wert angezeigt. In den meisten Fällen sind Spalten mit einem numerischen Wert am besten für die Anzeige in einem Matrixbericht geeignet (z. B. protokollierte Stunden und Istkosten).
 
 Andere Spalten (z. B. Status ) können jedoch weiterhin im Matrixbericht angezeigt werden, wie in der folgenden Grafik dargestellt:\
-![](assets/report-matrix-status-350x73.png)
+![Matrix-Status](assets/report-matrix-status-350x73.png)
 
 ## Zugriffsanforderungen
 
@@ -91,7 +91,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       >
       >Wenn diese Option nicht ausgewählt ist, werden die Informationen aus der Spalte im Matrixbericht nicht korrekt angezeigt.
 
-      ![](assets/qs-report-matrix-summarized-350x392.png)
+      ![Matrix zusammengefasst](assets/qs-report-matrix-summarized-350x392.png)
 
    1. Wiederholen Sie diesen Vorgang für jede Spalte auf der Registerkarte Spalten (Ansicht) und klicken Sie dann auf **Fertig**.
 
@@ -105,10 +105,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    1. Geben Sie im Abschnitt **Spaltengruppierungen** die Spaltengruppierung an, die die vertikalen Gruppierungen der Tabelle festlegt.
    1. (Optional) Um eine zusätzliche Spaltengruppierung hinzuzufügen, klicken Sie auf **Sekundäre Spaltengruppierung hinzufügen**.
    1. (Bedingt) Wenn Sie eine Gruppierung nach Datum hinzufügen, geben Sie auch an, ob die Ergebnisse nach Tag, Woche, Monat, Quartal oder Jahr gruppiert werden sollen.\
-      ![](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
+      ![Gruppieren nach Datumsoptionen](assets/qs-grouping-by-date-options-for-matrix-report-350x450.png)
 
    1. (Bedingt) Wenn Sie beispielsweise ausgewählt haben, dass die Ergebnisse nach Datum gruppiert und nach Quartal angezeigt werden sollen, geben Sie an, ob Quartale ohne Daten angezeigt werden sollen, indem Sie das Kontrollkästchen **Quartale ohne Ergebnisse anzeigen** aktivieren.\
-      ![](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
+      ![Quartale ohne Ergebnisse anzeigen](assets/qs-show-quarters-with-no-results-on-matrix-report-350x175.png)
 
       >[!NOTE]
       >

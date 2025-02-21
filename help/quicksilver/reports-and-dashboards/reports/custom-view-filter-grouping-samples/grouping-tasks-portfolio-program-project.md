@@ -7,9 +7,9 @@ description: Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fdad6a1-54b3-4d3e-8f21-4f2efc2dc27a
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '210'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Verwenden Sie diese Aufgabengruppierung, um Aufgaben nach Portfolio, Programm und Projekt zu gruppieren, dem sie zugeordnet sind.
 
-![](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
+![Portfolio-Programmprojektgruppierung](assets/portfolio-program-project-grouping-for-tasks-350x120.png)
 
 ## Zugriffsanforderungen
 

@@ -7,9 +7,9 @@ description: Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bb489920-6b17-4689-b432-b0c28bcb5d10
-source-git-commit: a7cdee912e5047f1c8ef224aff6a41eaa3633df6
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ ht-degree: 0%
 
 Sie können diese Spalte zu einer Aufgabenansicht hinzufügen, um den Namen der übergeordneten Aufgaben in Großbuchstaben anzuzeigen.
 
-![](assets/column-task-with-all-caps-parent-350x112.png)
+![Spalte mit übergeordneter Aufgabe in Großbuchstaben](assets/column-task-with-all-caps-parent-350x112.png)
 
 ## Zugriffsanforderungen
 
@@ -67,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Diese Spalte in einer Aufgabenansicht erstellen:
 
 1. Zu einer Aufgabenliste gehen.
-1. Wählen **aus dem Dropdown** Menü „Ansicht“ eine Ansicht aus und klicken Sie dann auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Wählen **aus dem Dropdown** Menü „Ansicht“ eine Ansicht aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 Oder\
    Wählen Sie **Dropdown** Menü „Ansicht“ die Option **Neue Ansicht**.
 

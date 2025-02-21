@@ -4,9 +4,9 @@ description: Mit Web-Inhaltsbausteinen können Sie Informationen von externen We
 hidefromtoc: true
 hide: true
 exl-id: 29f0c2e1-1644-4989-81b1-c6db6bfec905
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '320'
+source-wordcount: '332'
 ht-degree: 1%
 
 ---
@@ -21,12 +21,12 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 ## Hinzufügen oder Bearbeiten eines Web-Inhaltsbausteins
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Reporting**.
 1. Klicken Sie **Neuer Bericht**.
 
    Oder
 
-   Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon-27x15.png) in der Berichtskopfzeile und dann auf **Bearbeiten**.
+   Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das Symbol **Mehr** ![Mehr](assets/more-icon-27x15.png) in der Berichtskopfzeile und dann auf **Bearbeiten**.
 
 1. Klicken Sie auf der rechten Seite des Bildschirms unter **Block hinzufügen** entweder auf:
 
@@ -41,9 +41,9 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
    >Sie können die Größe des Blocks nach der Platzierung ändern, indem Sie an den Eckengriffen ziehen.
 
 1. Klicken Sie **Unbenannter Webinhalt** in der Blockkopfzeile und geben Sie dann einen Titel für den Block ein.
-1. Klicken Sie auf **Symbol** Bearbeiten![](assets/edit-icon.png) in der Blockkopfzeile.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der Blockkopfzeile.
 
-   ![](assets/web-content-block-header-350x76.png)
+   ![Bearbeitungssymbol in der Blockkopfzeile](assets/web-content-block-header-350x76.png)
 
 1. Geben **daraufhin geöffneten Bedienfeld** Einstellungen“ die vollständige URL für die Seite, die Sie anzeigen möchten (einschließlich &quot;https://„), in das Feld **URL** ein.
 

@@ -4,9 +4,9 @@ description: Gruppieren von Tabellenzeilen auf der Reporting-Arbeitsfläche
 hidefromtoc: true
 hide: true
 exl-id: 355bbe5b-9c66-4b6b-b479-a48a20b53fe6
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '360'
 ht-degree: 2%
 
 ---
@@ -21,18 +21,18 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 ## Gruppieren von Zeilen in einer Tabelle
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
 1. Klicken Sie **Neuer Bericht**.
 
    Oder
 
-   Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das **Mehr Menü**-Symbol ![](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten** aus.
+   Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das Symbol **Mehr Menü** Symbol ![Mehr](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten**.
 
 1. Um Zeilen in einer neuen Tabelle zu gruppieren, ziehen oder doppelklicken Sie auf einen Tabellenblock auf der Arbeitsfläche.
 
    Oder
 
-   Um Zeilen in einer vorhandenen Tabelle zu gruppieren, klicken Sie auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png) in der Tabellenkopfzeile.
+   Um Zeilen in einer vorhandenen Tabelle zu gruppieren, klicken Sie auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png) in der Tabellenkopfzeile.
 
 1. Suchen Sie im rechten Bedienfeld ein Feld, nach dem Sie gruppieren möchten, und ziehen Sie es in den Abschnitt **Gruppe**.
 
@@ -91,10 +91,10 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Um eine weitere Gruppe hinzuzufügen, ziehen Sie ein weiteres Feld aus dem Seitenbereich.
-   * Um Zeilen in einer standardmäßig ausgeblendeten Gruppe anzuzeigen, klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) neben der Gruppe und dann auf **Gruppe reduzieren**.
+   * Um Zeilen in einer standardmäßig ausgeblendeten Gruppe anzuzeigen, klicken Sie auf das Symbol **Mehr Menü** ![Mehr](assets/more-icon.png) neben der Gruppe und dann auf **Gruppe reduzieren**.
 
      Jede Gruppe kann einzeln so konfiguriert werden, dass Zeilen mit reduzierten oder erweiterten Zeilen angezeigt werden. Standardmäßig werden alle gruppierten Zeilen reduziert.
 
-   * Um eine Zählung in der Gruppenzeile anzuzeigen, klicken Sie auf das Symbol **Mehr** neben der Gruppe ![](assets/more-icon-27x15.png) dann auf **Zählung anzeigen**.
-   * Um eine Gruppe zu entfernen, klicken Sie auf das Symbol **Mehr** neben der Gruppe ![](assets/more-icon.png) auf **Gruppe entfernen**.
-   * Um mehrere von Ihnen erstellte Gruppen neu anzuordnen, ziehen Sie sie ![](assets/move-icon---dots.png) in eine neue Reihenfolge.
+   * Um eine Zählung in der Gruppenzeile anzuzeigen, klicken Sie auf das Symbol **Mehr Menü** Symbol ![Mehr](assets/more-icon-27x15.png) neben der Gruppe und dann auf **Zählung anzeigen**.
+   * Um eine Gruppe zu entfernen, klicken Sie auf das Symbol **Mehr** Symbol ![Mehr](assets/more-icon.png) neben der Gruppe und dann auf **Gruppe entfernen**.
+   * Um mehrere von Ihnen erstellte Gruppen neu anzuordnen, ziehen Sie sie ![Symbol Verschieben](assets/move-icon---dots.png) in eine neue Reihenfolge.

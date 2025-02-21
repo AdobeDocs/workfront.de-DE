@@ -7,9 +7,9 @@ description: Wenn Sie einen Bericht über Berichte erstellen, können Sie bestim
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3861ac81-d2e4-4dec-b9cd-96eee0b66a38
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '656'
+source-wordcount: '659'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen eines Berichts zu vorhandenen Berichten {#create-the-report-about-existing-reports}
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 1. Klicken Sie **Berichte** und dann **Neuer Bericht**.
 1. Wählen Sie **Dropdown-Menü** Neuer Bericht **, um** Bericht zu vorhandenen Berichten zu erstellen.
 

@@ -6,9 +6,9 @@ description: Sie können eine externe Web-Seite in ein Dashboard einbetten, um Z
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 04b623b5-38b0-4c32-b54e-204f1d422e45
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1011'
+source-wordcount: '1030'
 ht-degree: 1%
 
 ---
@@ -24,7 +24,7 @@ Wenn Ihr Unternehmen beispielsweise über ein Web-basiertes Dokument-Repository,
 >[!IMPORTANT]
 >
 >* Aus Sicherheitsgründen erlauben einige Websites nicht, Web-Seiten als iframe einzubetten. Wenn die Web-Seite, die Sie in ein Dashboard einbetten möchten, dies nicht zulässt, wird die Seite nicht im Dashboard angezeigt. Sie können jedoch weiterhin auf die externe Seite zugreifen, indem Sie auf den Namen des Dashboards klicken.\
->![](assets/qs-empty-external-page-report-350x165.png)\
+>![Leerer Bericht für externe Seiten](assets/qs-empty-external-page-report-350x165.png)\
 >Um das Einbetten einer Website zu ermöglichen, für die Sie verantwortlich sind, wenden Sie sich an Ihren Webadministrator, um die Einstellung **X-Frame-Options** anzupassen. Weitere Informationen finden Sie unter [X-Frame-Options](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers/X-Frame-Options).
 >
 >
@@ -118,7 +118,7 @@ oder\
 
 1. Klicken Sie **Externe Seite hinzufügen** unter dem Bereich **Layout auswählen/Berichte hinzufügen/Kalender**.
 
-   ![](assets/qs-add-external-page-350x239.png)
+   ![Externe Seite hinzufügen](assets/qs-add-external-page-350x239.png)
 
    Das **„Externe Seite hinzufügen** wird angezeigt.
 
@@ -132,7 +132,7 @@ oder\
 
       * Eine (verschlüsselte) HTTPS-URL zu einer Web-Seite.\
         Nur HTTPS-Seiten (verschlüsselt) werden mit der URL geladen.\
-        ![](assets/add-external-page-dialog-qs-350x247.png)
+        ![Dialogfeld „Externe Seite hinzufügen“](assets/add-external-page-dialog-qs-350x247.png)
 
       * Eine Vorlagen-URL, die Sitzungsinformationen für eine bestimmte Website enthält.\
         Beispiel: *https://localhost/?session={!$$SESSION}*
@@ -170,10 +170,10 @@ So aktualisieren Sie die Informationen für eine externe Seite, die in einem Das
    Das **Dashboard Details** wird geöffnet.
 
 1. Suchen Sie im Bereich **Layout auswählen/Berichte hinzufügen** des Felds **Dashboard-Details** die externe Seite, die Sie aktualisieren möchten, bewegen Sie den Mauszeiger darüber und klicken Sie auf das Symbol **Bearbeiten**.\
-   ![](assets/nwe-inline-edit-external-page-350x226.png)
+   ![Inline-Bearbeitung der externen Seite](assets/nwe-inline-edit-external-page-350x226.png)
 
 1. Aktualisieren Sie im Feld **Externe Seite bearbeiten** die Felder, die Sie ändern möchten, und klicken Sie dann auf **Speichern**.
-1. (Optional) Klicken Sie auf das Symbol **Löschen**, ![](assets/delete.png) die externe Seite aus dem Dashboard zu entfernen. Weitere Informationen finden Sie unter [Entfernen einer externen Seite aus einem Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
+1. (Optional) Klicken Sie auf das **Löschen**-Symbol ![Löschen-Symbol](assets/delete.png), um die externe Seite aus dem Dashboard zu entfernen. Weitere Informationen finden Sie unter [Entfernen einer externen Seite aus einem Dashboard](../../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/remove-external-page-from-dashboard.md).
 1. Klicken Sie auf **Speichern + schließen**.
 
 ## Anzeigen externer Seiten in einem Bericht
@@ -184,7 +184,7 @@ Sie können alle externen Seiten in Workfront in einem externen Seitenbericht an
 
 1. Klicken Sie **Neuer Bericht** und wählen Sie **Externer Abschnitt**.
 
-   ![](assets/external-page-new-report-in-dropdown-nwe.png)
+   ![Externer Abschnitt](assets/external-page-new-report-in-dropdown-nwe.png)
 
 1. (Optional) Aktualisieren Sie die Registerkarten Ansicht, Filter oder Gruppierungen des Berichts.
 

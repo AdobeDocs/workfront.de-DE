@@ -7,9 +7,9 @@ description: Sie können Benutzer, Aufgabengebiete und Teams, die mit Objekten i
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 9abdaafb-da2c-4b5d-9117-59afa4a1e71f
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '674'
 ht-degree: 2%
 
 ---
@@ -55,7 +55,7 @@ Sie können nach Benutzern, Aufgabengebieten oder Teams filtern, die mit den fol
 
 Sie können alle Benutzenden, die mit im Projekt verknüpft sind, in der Ansicht einer Projektliste oder eines Berichts anzeigen. Dazu gehören alle Benutzenden, die im Abschnitt Personen des Projekts aufgeführt sind. Sie können auch die Rollen anzeigen, denen sie zugeordnet sind, wenn sie Aufgaben oder Problemen im Projekt zugewiesen wurden, und zwar in einem Projektbericht.
 
-![](assets/project-with-user-and-role-information-report-350x100.png)
+![Projekt mit Benutzer- und Rolleninformationen](assets/project-with-user-and-role-information-report-350x100.png)
 
 Informationen zum Erstellen eines Projektberichts, in dem alle Benutzenden und ihre Rollen im Projekt angezeigt werden, finden Sie [Ansicht: Liste der Projektbenutzenden mit Aufgabengebieten](../../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/view-project-user-list.md).
 
@@ -65,7 +65,7 @@ Sie können nicht nach Benutzern oder Aufgabengebieten filtern, die mit Projekte
 
 Sie können alle Benutzer, Rollen oder Teams, die einer Aufgabe zugewiesen sind, in der Ansicht einer Aufgabenliste oder eines Berichts anzeigen, indem Sie das Feld Zuweisungen zur Ansicht hinzufügen.
 
-![](assets/assignments-field-task-view-350x124.png)
+![Zuweisungsfeld](assets/assignments-field-task-view-350x124.png)
 
 Sie können nach Benutzern, Aufgabengebieten oder Teams filtern, die Aufgaben zugewiesen wurden, indem Sie in einem Aufgabenfilter auf die folgenden Felder verweisen:
 
@@ -73,7 +73,7 @@ Sie können nach Benutzern, Aufgabengebieten oder Teams filtern, die Aufgaben zu
 * Arbeitsauftrag – Aufgabengebiete
 * Team
 
-![](assets/assignment-users-roles-task-filter-350x334.png)
+![Arbeitsauftrag - Benutzer und Rollen im Aufgabenfilter](assets/assignment-users-roles-task-filter-350x334.png)
 
 ## Alle Benutzer, Aufgabengebiete oder Teams anzeigen, die einem Problem zugewiesen sind
 

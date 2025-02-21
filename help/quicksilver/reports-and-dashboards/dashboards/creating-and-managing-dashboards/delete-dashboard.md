@@ -6,9 +6,9 @@ description: Wenn Sie ein Dashboard nicht mehr verwenden, können Sie es aus Ado
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 706a3e16-34d7-49d8-9688-109ce4f95c2f
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '275'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -72,7 +72,7 @@ So löschen Sie ein Dashboard:
 1. Wechseln Sie zum Dashboard, das Sie bearbeiten möchten.
 1. Klicken Sie **Dashboard-Aktionen** und dann auf **Löschen**.
 
-   ![](assets/unshimmed-delete-dashboard.png)
+   ![Dashboard löschen](assets/unshimmed-delete-dashboard.png)
 
 1. Um zu bestätigen, dass Sie das Dashboard löschen möchten, klicken Sie auf **Ja, löschen.**
 Das Dashboard wurde aus Workfront entfernt.
@@ -84,9 +84,9 @@ Wenn Sie mehrere Dashboards löschen, können Sie die Dashboards aus dem Bereich
 So löschen Sie mehrere Dashboards:
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Dashboards]**.
-1. Wählen Sie jedes Dashboard in der Liste aus, das Sie löschen möchten, und klicken Sie dann auf **Löschen** ![](assets/delete.png).
+1. Wählen Sie jedes Dashboard in der Liste aus, das Sie löschen möchten, und klicken Sie dann auf **Löschen** ![Symbol „Löschen](assets/delete.png).
 
-   ![](assets/unshimmed-delete-dashboard-list.png)
+   ![Dashboard löschen](assets/unshimmed-delete-dashboard-list.png)
 
 1. Um zu bestätigen, dass Sie das Dashboard löschen möchten, klicken Sie auf **Ja, löschen.**
 Das Dashboard wurde aus Workfront entfernt.

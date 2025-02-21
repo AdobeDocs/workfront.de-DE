@@ -4,9 +4,9 @@ description: Konfigurieren einer Tabellenspalte auf der Reporting-Arbeitsfläche
 hidefromtoc: true
 hide: true
 exl-id: ce33888f-344d-4f69-b527-9679340d134b
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '1052'
 ht-degree: 2%
 
 ---
@@ -28,10 +28,10 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 ## Ändern von Spalten in einer Tabelle
 
-1. Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das **Mehr Menü**-Symbol ![](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten** aus.
-1. Klicken Sie in der Tabellenkopfzeile im Bericht auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das Symbol **Mehr Menü** Symbol ![Mehr](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten**.
+1. Klicken Sie in der Tabellenkopfzeile im Bericht auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Bearbeitungssymbol in der Tabellenkopfzeile](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >

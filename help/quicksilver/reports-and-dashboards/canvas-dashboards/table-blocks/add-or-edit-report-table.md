@@ -4,9 +4,9 @@ description: Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Reporting-
 hidefromtoc: true
 hide: true
 exl-id: d706659c-457f-4da0-a6e7-03ea29cab700
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '482'
+source-wordcount: '500'
 ht-degree: 0%
 
 ---
@@ -21,20 +21,20 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 ## Hinzufügen oder Bearbeiten von Tabellenblöcken
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
 1. Klicken Sie **Neuer Bericht**.
 
    Oder
 
-   Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon-27x15.png) in der Berichtskopfzeile und dann auf **Bearbeiten**.
+   Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das Symbol **Mehr** ![Mehr](assets/more-icon-27x15.png) in der Berichtskopfzeile und dann auf **Bearbeiten**.
 
 1. Auf der rechten Seite des Bildschirms unter **Block hinzufügen** entweder:
 
-   Ziehen Sie das **Tabelle**-Symbol ![](assets/table-icon.png) direkt an die gewünschte Position auf der Arbeitsfläche.
+   Ziehen Sie das **Tabelle**-Symbol ![Tabellensymbol](assets/table-icon.png) direkt an die gewünschte Position auf der Arbeitsfläche.
 
    Oder
 
-   Doppelklicken Sie auf das Symbol **Tabelle**, ![](assets/table-icon.png) eine Tabelle oben auf der Arbeitsfläche hinzuzufügen.
+   Doppelklicken Sie auf das **Tabelle**-Symbol ![Tabelle](assets/table-icon.png), um oben auf der Arbeitsfläche eine Tabelle hinzuzufügen.
 
    >[!TIP]
    >
@@ -42,14 +42,14 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 1. Klicken Sie **Nicht benannte Tabelle** in der Tabellenkopfzeile und geben Sie dann einen Titel für die Tabelle ein.
 
-   ![](assets/table-name-350x142.png)
+   ![Tabellenname](assets/table-name-350x142.png)
 
 1. Klicken Sie **Bearbeiten** in der Mitte des Tabellenblocks, um die Tabelle zu konfigurieren.
 
    >[!NOTE]
    >
-   >Wenn die Tabelle bereits Teil der Arbeitsfläche war (z. B. beim Bearbeiten eines vorhandenen Berichts), wird **Schaltfläche** Bearbeiten“ nicht in der Mitte des Blocks angezeigt. Um die Tabelle zu bearbeiten, klicken Sie stattdessen auf **Bearbeiten**-Symbol ![](assets/edit-icon.png) in der Tabellenkopfzeile.
-   >![](assets/edit-icon-table-header-350x71.png)
+   >Wenn die Tabelle bereits Teil der Arbeitsfläche war (z. B. beim Bearbeiten eines vorhandenen Berichts), wird **Schaltfläche** Bearbeiten“ nicht in der Mitte des Blocks angezeigt. Um die Tabelle zu bearbeiten, klicken Sie stattdessen auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der Tabellenkopfzeile.
+   >![Bearbeitungssymbol in der Tabellenkopfzeile](assets/edit-icon-table-header-350x71.png)
 
 1. Suchen Sie im Bedienfeld **Felder** auf der rechten Seite ein Feld, das Sie als Spalte zur Tabelle hinzufügen möchten, und ziehen Sie es dann entweder in die Tabelle an der gewünschten Stelle, oder doppelklicken Sie darauf, um es als letzte Spalte in der Tabelle hinzuzufügen.
 

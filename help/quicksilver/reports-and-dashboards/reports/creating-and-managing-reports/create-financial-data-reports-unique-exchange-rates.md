@@ -6,9 +6,9 @@ description: Wenn in Adobe Workfront mehrere Wechselkurse konfiguriert wurden, k
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a0837c70-8330-4c38-98dc-8cf2e7e2e4bd
-source-git-commit: 2322415c173919a1fecffabb4b561645d33eea8d
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '984'
 ht-degree: 0%
 
 ---
@@ -117,13 +117,13 @@ So zeigen Sie zwei Projekte mit benutzerdefinierten Währungen in einem Bericht 
 
 1. Erstellen Sie zwei Projekte mit unterschiedlichen Währungen.
 
-   ![](assets/qs-currency-350x217.png)
+   ![Währung](assets/qs-currency-350x217.png)
 
 1. Stunden für beide Projekte protokollieren.
 
    Weitere Informationen zur Zeitprotokollierung finden Sie unter [Zeit protokollieren](../../../timesheets/create-and-manage-timesheets/log-time.md).
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Reporting**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Reporting**.
 1. Klicken Sie **Neuer Bericht**, dann **Projektbericht**.
 1. Fügen Sie auf der Registerkarte **Spalten (Ansicht)** die Spalte **Istkosten** hinzu und fassen Sie sie nach **Summe** zusammen.
 
@@ -182,6 +182,6 @@ So bearbeiten Sie ein Finanzfeld in einem Bericht inline:
 1. Klicken Sie **Berichteinstellungen**.
 1. Klicken Sie auf **Dropdown-** „Standardwährung“ und wählen Sie dann **Originalwährung des Projekts**.
 
-   ![](assets/qs-report-settings-default-currency-350x370.png)
+   ![Standardwährung](assets/qs-report-settings-default-currency-350x370.png)
 
 1. Klicken Sie **Fertig**.

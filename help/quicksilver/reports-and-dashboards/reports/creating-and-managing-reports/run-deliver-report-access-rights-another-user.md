@@ -6,9 +6,9 @@ description: Standardmäßig können Benutzende nur die Objekte in einem Bericht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e5e2b683-876c-45b4-ab61-07b1ad0b5650
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1179'
+source-wordcount: '1193'
 ht-degree: 0%
 
 ---
@@ -86,7 +86,7 @@ So führen Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers aus
 1. Klicken Sie **Berichteinstellungen**.
 
 1. Geben **im Feld „Diesen Bericht ausführen mit Zugriffsrechten von:**&quot; den Namen des Benutzers ein, als den der Bericht angezeigt werden soll, und wählen Sie ihn aus, wenn Sie ihn in der Liste sehen.\
-   ![](assets/unshimmed-access-rights-of.png)
+   ![Ausführen mit Zugriffsrechten von](assets/unshimmed-access-rights-of.png)
 
    >[!NOTE]
    >
@@ -108,7 +108,7 @@ Sie können Berichte so einrichten, dass sie als Anhang an eine E-Mail gesendet 
 
 So stellen Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers bereit:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront und dann auf **Berichte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **Berichte**.
 
 1. Wählen Sie den Bericht aus, den Sie mit den Zugriffsrechten eines anderen Benutzers bereitstellen möchten.
 1. Klicken Sie auf den Namen des Berichts, um ihn auszuwählen.
@@ -116,7 +116,7 @@ So stellen Sie einen Bericht mit den Zugriffsrechten eines anderen Benutzers ber
 1. Klicken Sie **Bericht senden**.
 
 1. Beginnen Sie im Feld **Diesen Bericht mit den Zugriffsrechten von bereitstellen:** mit der Eingabe des Benutzernamens, den der Bericht anzeigen soll, als ob er in einer E-Mail zugestellt wird, und wählen Sie ihn aus, wenn Sie ihn in der Liste sehen. Der Standardwert ist der Name des Benutzers, der den Bericht erstellt.\
-   ![](assets/unshimmed-send-report-access-rights-of.png)
+   ![Bericht wurde gesendet mit Zugriffsrechten von](assets/unshimmed-send-report-access-rights-of.png)
 
    >[!NOTE]
    >

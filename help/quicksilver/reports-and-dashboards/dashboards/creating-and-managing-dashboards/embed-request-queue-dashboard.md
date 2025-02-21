@@ -6,9 +6,9 @@ description: Sie können eine neue Anfrage-Warteschlange in ein Dashboard einbet
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2d129095-c7ee-45b1-94ce-055d1d91e2fe
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1137'
+source-wordcount: '1150'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Benutzer können bei Bedarf den Anfragetyp ändern oder ein anderes Thema auswä
 
    Dadurch wird der Link in die Anfrage-Warteschlange oder das Warteschlangen-Thema so kopiert, wie Sie es auf dem Bildschirm anzeigen. Benutzer können den Anfragetyp oder eine beliebige Themengruppe und Warteschlangenthemen aktualisieren, die verfügbar sind.
 
-   ![](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
+   ![Anfrage-Warteschlange mit Freigabepfad](assets/share-request-queue-with-share-path-link-embedded-in-dashboard-nwe-350x116.png)
 
 ### Anforderungswarteschlange und Möglichkeit zum Ändern des Anforderungstyps verknüpfen {#obtain-a-link-to-a-request-queue-and-ability-to-change-the-request-type}
 
@@ -121,7 +121,7 @@ Wenn Sie einen Link für einen Anfragetyp freigeben, wird der Anfragetyp für de
 
    Benutzende können eine beliebige Themengruppe oder ein Warteschlangen-Thema auswählen oder einen anderen Anfragetyp auswählen.
 
-   ![](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
+   ![Anfrage-Warteschlangen-URL](assets/share-request-queue-with-direct-url-embedded-in-dashboard-nwe-350x118.png)
 
 ### Abrufen eines Links zu einer Anfrage-Warteschlange ohne Möglichkeit, den Anfragetyp zu ändern {#obtain-a-link-to-a-request-queue-with-no-ability-to-change-the-request-type}
 
@@ -150,7 +150,7 @@ Wenn Sie einen Link für einen vorab ausgewählten Anfragetyp freigeben, ist der
 
    Benutzende können eine beliebige Themengruppe oder ein Warteschlangenthema auswählen, das sie für den ausgewählten Anfragetyp benötigen. Benutzende können keinen anderen Anfragetyp auswählen.
 
-   ![](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
+   ![Anfrage-Warteschlangen-Code](assets/share-request-queue-with-embedded-code-embedded-in-dashboard-nwe-350x210.png)
 
 ## Einbetten einer Anfrage-Warteschlange in ein Dashboard
 
@@ -164,7 +164,7 @@ Sie können einen Link zur Anfragewarteschlange oder zu einem Warteschlangen-The
 
 1. Klicken Sie **Externe Seite hinzufügen**.
 
-   ![](assets/add-external-page-highlighted---nwe-350x214.png)
+   ![Externe Seite](assets/add-external-page-highlighted---nwe-350x214.png)
 
 1. Bearbeiten **im Feld** Externe Seite hinzufügen“ die folgenden Felder:
 

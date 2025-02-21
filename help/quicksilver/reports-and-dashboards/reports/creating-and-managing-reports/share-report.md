@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum An
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 225e815a-0354-493d-bbcf-59304ef77570
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -122,7 +122,7 @@ Die Freigabe eines Berichts oder mehrerer Berichte aus einer Liste ist identisch
 
    * **Alle im System können anzeigen** Wählen Sie diese Option aus, damit jeder in Workfront mit Zugriff auf Berichte den Bericht anzeigen kann.
 
-1. (Optional) Klicken Sie auf das **Zahnrad**-Symbol ![](assets/gear-icon-settings-with-dn-arrow.jpg) in der oberen rechten Ecke des Freigabefelds und wählen Sie dann optional die folgende Option aus:
+1. (Optional) Klicken Sie auf **Zahnrad**-Symbol ![Zahnradsymbol-Einstellungen](assets/gear-icon-settings-with-dn-arrow.jpg) in der oberen rechten Ecke des Freigabefelds und wählen Sie dann optional die folgende Option:
 
    * **Für externe Benutzer veröffentlichen: Wählen** diese Option aus, um eine URL zu generieren, die für andere freigegeben werden kann. Jeder Benutzer mit der URL kann auf den Bericht zugreifen, ohne über eine Adobe Workfront-Lizenz zu verfügen.
 

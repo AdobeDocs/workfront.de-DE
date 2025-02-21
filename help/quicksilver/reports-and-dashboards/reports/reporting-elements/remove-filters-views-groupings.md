@@ -6,9 +6,9 @@ description: Sie können Filter, Ansichten oder Gruppierungen aus Listen und Ber
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 422d262e-e19d-4070-85f1-77ecb7430342
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '811'
 ht-degree: 1%
 
 ---
@@ -116,7 +116,7 @@ Die folgenden Szenarien bestehen, wenn Sie einen Filter, eine Ansicht oder eine 
 ### Entfernen von Filtern, Ansichten oder Gruppierungen mit dem Legacy-Builder
 
 1. Navigieren Sie zu einer Liste von Objekten oder einem Bericht.
-1. (Bedingt) Klicken Sie in einer Liste auf das Symbol **Filter**, **Ansicht** oder **Gruppierung**, bewegen Sie dann den Mauszeiger über den Filter, die Ansicht oder die Gruppierung, die Sie entfernen möchten, klicken Sie auf das Symbol **Mehr** ![](assets/more-icon.png) und dann auf **Entfernen**. Der Filter, die Ansicht oder die Gruppierung wird entfernt.
+1. (Bedingt) Klicken Sie in einer Liste auf das Symbol **Filter**, **Ansicht** oder **Gruppierung** und bewegen Sie dann den Mauszeiger über den Filter, die Ansicht oder die Gruppierung, die Sie entfernen möchten, klicken Sie auf das Symbol **Mehr** ![Mehr-Symbol](assets/more-icon.png) und dann auf **Entfernen**. Der Filter, die Ansicht oder die Gruppierung wird entfernt.
 1. (Bedingt) Klicken Sie in einem Bericht auf das **Gruppierung**, **Filter** oder **Ansicht** und wählen Sie **Gruppierung entfernen**, **Filter entfernen** oder **Ansicht entfernen**.
 
    Das Dialogfeld **Meine**, **Meine Filter,** oder **Meine Ansichten** wird angezeigt.

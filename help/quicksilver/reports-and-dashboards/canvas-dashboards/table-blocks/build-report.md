@@ -4,9 +4,9 @@ description: Erstellen eines Berichts auf der Reporting-Arbeitsfläche
 hidefromtoc: true
 hide: true
 exl-id: eac210d8-0e25-4aae-94f4-b26a81240482
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '464'
 ht-degree: 0%
 
 ---
@@ -25,11 +25,11 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 >
 >Alle Ihre Änderungen werden automatisch gespeichert, wenn Sie die Blöcke in Ihrem Bericht erstellen und bearbeiten.
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
 1. Klicken Sie **Neuer Bericht**.
 1. Geben Sie in der linken oberen Ecke der Arbeitsfläche „Bearbeiten“ einen Namen für Ihren Bericht ein.
 
-   Sie können den Namen des Berichts jederzeit ändern, indem Sie auf das Symbol **Bearbeiten** neben ![](assets/edit-icon.png) Namen klicken.
+   Sie können den Namen des Berichts jederzeit ändern, indem Sie auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png) neben seinem Namen klicken.
 
 1. Ziehen Sie die Blöcke, die Sie der Arbeitsfläche hinzufügen möchten, von der rechten Seite des Bildschirms auf die Arbeitsfläche.
 

@@ -6,9 +6,9 @@ description: Sie können eine Gruppierung in einer Liste oder einem Bericht im T
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2eeecc16-ea6d-4a56-8ea3-e213706e89bf
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1537'
+source-wordcount: '1539'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
 1. Führen Sie einen der folgenden Schritte aus:
 
    1. Um über einen Bericht auf die Gruppierung zuzugreifen, gehen Sie zum Bericht und klicken Sie auf **Berichtsaktionen** > **Bearbeiten** > **Gruppierungen**.
-   1. Um auf die Gruppierung über eine Liste zuzugreifen, gehen Sie zur Liste und klicken Sie **Dropdown-Menü** Gruppierung mit der Maus auf die Gruppierung, die Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+   1. Um auf die Gruppierung über eine Liste zuzugreifen, gehen Sie zur Liste und klicken Sie **Dropdown-Menü** Gruppierung mit der Maus auf die Gruppierung, die Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png).
 
       Der Gruppierungs-Builder wird geöffnet.
 
@@ -194,7 +194,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
        <ol> 
         <li value="1"> <p> Wenn der Name des angezeigten Felds eine Phrase anstelle eines einzelnen Substantivs ist, müssen Sie für das <code>valuefield</code> die Binnenmajuskeln-Syntax verwenden. Für das geplante Startdatum einer Aufgabe lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=plannedStartDate</code> </p> </li> 
         <li value="2"> <p>Wenn Sie ein benutzerdefiniertes Feld anzeigen möchten, ist der <code>valuefield</code> Wert der tatsächliche Name des Felds, wie er in der Benutzeroberfläche angezeigt wird. Für ein benutzerdefiniertes Feld mit dem Namen „Weitere Informationen“ lautet der Code beispielsweise:</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=More information</code> </p> </li> 
-        <li value="3"> <p>Wenn Sie nach Objekten gruppieren möchten, die sich auf andere Objekte beziehen, indem Sie die <code>valuefield</code> Codezeile verwenden, werden die Objektnamen und Attribute durch Doppelpunkte getrennt.</p> <p>Beispielsweise hat eine Gruppierung nach Portfolio Name für eine Aufgabenliste den folgenden Wert für die Zeile valueField :</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dies bedeutet, dass Sie über das Objekt des Berichts (Aufgabe) auf das nächste zugehörige Objekt (Projekt) zugreifen können. Von dort aus können Sie auf das folgende zugehörige Objekt über Projekt (Portfolio) zugreifen. Anschließend können Sie auf den Portfolionamen (Namen) zugreifen.</p> </li> 
+        <li value="3"> <p>Wenn Sie nach Objekten gruppieren möchten, die sich auf andere Objekte beziehen, indem Sie die <code>valuefield</code> Codezeile verwenden, werden die Objektnamen und Attribute durch Doppelpunkte getrennt.</p> <p>Beispielsweise hat eine Gruppierung nach Portfolio-Name für eine Aufgabenliste den folgenden Wert für die Zeile valueField :</p> <p class="example" data-mc-autonum="<b>Example: </b>"><span class="autonumber"><span><b>Beispiel: </b></span></span><code>group.0.valuefield=project:portfolio:name</code> </p> <p>Dies bedeutet, dass Sie über das Objekt des Berichts (Aufgabe) auf das nächste zugehörige Objekt (Projekt) zugreifen können. Von dort aus können Sie auf das folgende zugehörige Objekt über Projekt (Portfolio) zugreifen. Anschließend können Sie auf den Portfolionamen (Namen) zugreifen.</p> </li> 
        </ol> <p>Informationen dazu, wie Objekte miteinander verbunden werden, finden Sie im Abschnitt <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#understanding-interdependency-and-hierarchy-of-objects" class="MCXref xref">Interdependenz und Hierarchie von Objekten</a> in <a href="../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md" class="MCXref xref">Objekte in Adobe Workfront verstehen</a>.</p> <p>Hinweis: Wenn Sie ein Feld im Textmodus auswählen, das in der Standardschnittstelle nicht gültig ist, und zur Standardschnittstelle wechseln, wird die Gruppierung gelöscht.</p> </td> 
      </tr> 
      <tr> 

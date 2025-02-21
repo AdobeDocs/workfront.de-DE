@@ -6,9 +6,9 @@ description: Sie können einen Bericht nach dem Zeitrahmen eines Datums filtern,
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 12e8bc389c42510b5adbb0190eb71c9f6a9f52a7
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1016'
+source-wordcount: '1024'
 ht-degree: 5%
 
 ---
@@ -70,14 +70,14 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
 
 ## Filtern eines Berichts nach dem Zeitrahmen eines Datums {#filter-a-report-by-the-time-frame-of-a-date}
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Reporting**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Reporting**.
 
 1. Klicken Sie **Neuer Bericht** und wählen Sie dann den gewünschten Berichtstyp aus.\
    Wählen Sie beispielsweise **Stundenbericht**.
 
 1. Wählen Sie die **Filter** aus.
 1. Klicken Sie **Filterregel hinzufügen** und wählen Sie dann **Stundeneintragsdatum** aus.\
-   ![](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
+   ![Stundenbericht nach Zeitrahmen filtern](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
 1. Wählen Sie im folgenden Dropdown-Menü eine der folgenden Optionen aus:
 
@@ -106,7 +106,7 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
       <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie einen Datumsbereich an, in dem die Stunden eingegeben wurden. Der Bericht zeigt die Stunden an, die zwischen den angegebenen Daten eingegeben wurden.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Kleiner als</td> 
+      <td role="rowheader">Less Than</td> 
       <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie ein Datum an, vor dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die vor dem angegebenen Datum eingegeben wurden, ohne das angegebene Datum einzubeziehen.</td> 
      </tr> 
      <tr> 
@@ -114,7 +114,7 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
       <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie ein Datum an, vor dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die vor dem angegebenen Datum eingegeben wurden, einschließlich des angegebenen Datums.</td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Größer als</td> 
+      <td role="rowheader">Greater Than</td> 
       <td>Geben Sie nach Auswahl dieses Modifikators ein Datum an, nach dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die nach dem angegebenen Datum eingegeben wurden, ohne das angegebene Datum einzubeziehen.</td> 
      </tr> 
      <tr> 

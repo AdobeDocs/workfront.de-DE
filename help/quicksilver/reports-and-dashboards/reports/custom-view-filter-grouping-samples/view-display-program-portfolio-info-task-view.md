@@ -3,24 +3,24 @@ content-type: reference
 product-area: reporting;projects;portfolios;programs
 navigation-topic: custom-view-filter-and-grouping-samples
 title: 'Anzeigen : Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht'
-description: Diese Aufgabenansicht zeigt das Programm und das Portfolio an, die mit dem Projekt der Aufgabe verknüpft sind. Diese Informationen sind beim Erstellen einer Aufgabenansicht in Report Builder nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
+description: Diese Aufgabenansicht zeigt das Programm und Portfolio an, die mit dem Projekt der Aufgabe verknüpft sind. Diese Informationen sind beim Erstellen einer Aufgabenansicht in Report Builder nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cdd5a1e9-3cbf-4951-b803-fca544b2519a
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '284'
 ht-degree: 0%
 
 ---
 
 # Anzeigen : Anzeigen von Programm- und Portfolio-Informationen in einer Aufgabenansicht
 
-Diese Aufgabenansicht zeigt das Programm und das Portfolio an, die mit dem Projekt der Aufgabe verknüpft sind. Diese Informationen sind beim Erstellen einer Aufgabenansicht in Report Builder nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
+Diese Aufgabenansicht zeigt das Programm und Portfolio an, die mit dem Projekt der Aufgabe verknüpft sind. Diese Informationen sind beim Erstellen einer Aufgabenansicht in Report Builder nicht verfügbar. Diese Informationen sind nur im Textmodus verfügbar.
 
-Die Ansicht enthält auch Links zum Projekt, zum Programm und zum Portfolio aus einer Aufgabenliste.
+Die Ansicht enthält auch Links zu Projekten, Programmen und Portfolio aus einer Aufgabenliste.
 
-![](assets/view--program-and-portfolio-350x116.png)
+![Programm und Portfolio anzeigen](assets/view--program-and-portfolio-350x116.png)
 
 ## Zugriffsanforderungen
 

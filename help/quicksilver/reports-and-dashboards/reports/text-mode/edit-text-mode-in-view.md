@@ -6,9 +6,9 @@ description: Sie können eine Ansicht in einer Liste oder einem Bericht im Textm
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b99a2d14-a226-4075-9b1b-ac9426fd41b8
-source-git-commit: e620074ab0509e3052678e8c7e46e9629f3b34f2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '459'
+source-wordcount: '461'
 ht-degree: 2%
 
 ---
@@ -86,7 +86,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
 1. Führen Sie einen der folgenden Schritte aus:
 
    1. Um von einem Bericht aus auf die Ansicht zuzugreifen, gehen Sie zum Bericht und klicken Sie dann auf **Berichtsaktionen** > **Bearbeiten** > **Spalten (Ansicht)**.
-   1. Um auf die Ansicht aus einer Liste zuzugreifen, gehen Sie zur Liste und klicken Sie im Dropdown-Menü **Ansicht** mit der Maus auf die Ansicht, die Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+   1. Um auf die Ansicht aus einer Liste zuzugreifen, gehen Sie zur Liste und klicken Sie im Dropdown-Menü **Ansicht** mit der Maus auf die Ansicht, die Sie ändern möchten, und klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
       Der View Builder wird geöffnet.
 

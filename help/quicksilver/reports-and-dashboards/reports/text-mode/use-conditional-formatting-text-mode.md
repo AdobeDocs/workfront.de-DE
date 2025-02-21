@@ -6,9 +6,9 @@ description: Bedingte Formatierung im Textmodus verwenden
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 48fc8450-35c6-4d59-89d3-0feffe662b25
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1682'
+source-wordcount: '1734'
 ht-degree: 1%
 
 ---
@@ -189,10 +189,10 @@ styledef.case.0.comparison.trueproperty.0.value=03a219
 >* Diese Anweisung kann zwar auf eine Spalte mit dem Firmennamen angewendet werden, aber auch auf jede andere Spalte im Bericht. Grüner Text wird nur angezeigt, wenn dem Projekt eine Firma zugeordnet ist. Denken Sie an die `[field name]`, `[value]` und `[qualifier]`, unabhängig davon, ob die Konditionierung letztendlich in der Spalte angezeigt wird oder nicht.
 >* Bei der Arbeit mit Kriterien empfehlen wir die Verwendung von `cicontains` anstelle von `equal`. Standardmäßig sucht `equal` nach ID-Nummern. Mithilfe des `cicontains` können Sie auf Elemente anhand ihres Namens zugreifen.
 
-![](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
+![Beispiel für den Textmodus](assets/screen-shot-2013-08-15-at-2.53.51-pm-350x199.png){width="500"}
 
 
-![](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
+![Beispielergebnisse für den Textmodus](assets/screen-shot-2013-08-15-at-2.54.08-pm-350x185.png){width="400"}
 
 Unabhängig davon, ob Textfarbe, Ausrichtung, Schriftstil oder Hintergrundfarbe auf einen Textmodus angewendet werden, wird dieselbe Anweisung (siehe oben) verwendet.
 
@@ -297,9 +297,9 @@ styledef.case.0.comparison.truetext=not today
 >
 >Die Zeilen, die mit `case.0.` Anwendungsfall beginnen, vergleichen zur Identifizierung der Verwendung von Text. Die Zeilen, die mit `styledef.case.0.` beginnen, sind frühzeitige Anweisungen zur bedingten Formatierung, bei denen wir die Verwendung von Text durch den `truetext`-Ausdruck identifizieren. Stellen Sie sicher, dass Sie `truetext` auf einen Wert setzen, anstatt ihn leer zu lassen.
 
-![](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
+![Anwendungsbeispiel für Text](assets/screen-shot-2013-08-15-at-3.22.02-pm-350x196.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
+![Textergebnisse anwenden](assets/screen-shot-2013-08-15-at-3.22.16-pm-350x151.png){width="400"}
 
 #### Anwenden von Zeilenformaten {#apply-row-formats}
 
@@ -359,30 +359,30 @@ image.case.0.comparison.truetext=/interface/images/v4_redux/icons/casebuilder/em
 >
 >Beachten Sie, dass die Anweisung den `icon=true`-Ausdruck verwendet. Diese Anweisung unterscheidet sich auch insofern von anderen bedingten Formatierungsanweisungen, als sie nicht das `style.def` Format, sondern ein eindeutiges Bildformat verwendet.
 
-![](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
+![Symbol Textmodus](assets/screen-shot-2013-08-15-at-3.35.08-pm-350x199.png){width="500"}
 
-![](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
+![Symbol Ergebnisse des Textmodus](assets/screen-shot-2013-08-15-at-3.35.22-pm-1-350x167.png){width="400"}
 
 Um die verfügbaren Bilder zu verwenden, wenden Sie den folgenden Code und die folgenden Werte an:
 
 | **Symbol** | **Line: image.case.0.compare.trueText=** |
 |---|---|
-| ![](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
-| Happy Face ![](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
-| Blaue ![](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
-| Grüne ![](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
-| ![](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
-| Gelbe ![](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
-| ![](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
-| Blauer Kreis ![](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
-| ![](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
-| Grüner Kreis ![](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
-| ![](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
-| Rosa Kreis ![](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
-| Violette ![](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
-| Roter ![](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
-| Weißer Kreis ![](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
-| Gelber Kreis ![](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
+| Stirnseite ![Stirnseite](assets/face-sad.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_frown.gif` |
+| Happy Face ![Happy Face](assets/face-happy.png) | =`/interface/images/v4_redux/icons/casebuilder/emoticon_smile.gif` |
+| Blaue Flagge ![Blaue Flagge](assets/flag-blue-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_blue.gif` |
+| Grüne Markierung ![Grüne Markierung](assets/flag-green-large.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_green.gif` |
+| Red Flag ![Red Flag](assets/flag-red-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_red.gif` |
+| Gelbe Flagge ![Gelbe Flagge](assets/flag-yellow-style2.png) | =`/interface/images/v4_redux/icons/casebuilder/flag_yellow.gif` |
+| Schwarzer Kreis ![Schwarzer Kreis](assets/dot-black.png) | =`/interface/images/v4_redux/icons/casebuilder/light_black.gif` |
+| Blauer Kreis ![Blauer Kreis](assets/dot-blue.png) | =`/interface/images/v4_redux/icons/casebuilder/light_blue.gif` |
+| Grauer Kreis ![grauer Kreis](assets/dot-gray.png) | =`/interface/images/v4_redux/icons/casebuilder/light_grey.gif` |
+| Grüner Kreis ![grüner Kreis](assets/dot-green.png) | =`/interface/images/v4_redux/icons/casebuilder/light_green.gif` |
+| Orangefarbener Kreis ![orangefarbener Kreis](assets/dot-orange.png) | =`/interface/images/v4_redux/icons/casebuilder/light_orange.gif` |
+| Rosa Kreis ![Rosa Kreis](assets/dot-pink.png) | =`/interface/images/v4_redux/icons/casebuilder/light_pink.gif` |
+| Violetter Kreis ![Violetter Kreis](assets/dot-purple.png) | =`/interface/images/v4_redux/icons/casebuilder/light_purple.gif` |
+| Roter Kreis ![Roter Kreis](assets/dot-red.png) | =`/interface/images/v4_redux/icons/casebuilder/light_red.gif` |
+| Weißer Kreis ![weißer Kreis](assets/dot-white.png) | =`/interface/images/v4_redux/icons/casebuilder/light_white.gif` |
+| Gelber Kreis ![gelber Kreis](assets/dot-yellow.png) | =`/interface/images/v4_redux/icons/casebuilder/light_yellow.gif` |
 
 {style="table-layout:auto"}
 

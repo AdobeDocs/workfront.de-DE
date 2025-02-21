@@ -7,9 +7,9 @@ description: Erfahren Sie mehr über die mehrzeilige Projektansicht in Berichten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 3c6028c0-2c9f-4f86-aa6c-bf089844bac8
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '270'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ In dieser Projektansicht haben Sie folgende Möglichkeiten:
 * Zeigt den Projektbesitzer in Klammern nach dem Projektnamen an.
 * Zeigt den Projektnamen als Link zum Projekt an.
 
-![](assets/project-multi-row-stacked-view-350x219.png)
+![Projektzeile mit gestapelter Ansicht](assets/project-multi-row-stacked-view-350x219.png)
 
 ## Zugriffsanforderungen
 

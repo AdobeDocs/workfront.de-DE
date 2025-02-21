@@ -7,9 +7,9 @@ description: Erfahren Sie, wie Sie Zeit- und Datumsunterschiede berechnen.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 548dd91f-02bc-43ed-8322-d0facf3488f0
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '613'
+source-wordcount: '621'
 ht-degree: 0%
 
 ---
@@ -70,7 +70,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum und dem tatsächlichen Abschlussdatum einer Aufgabe berechnen.
 
-![](assets/view-planned-actual-completion-dates-datediff-column-new.png)
+![Datumsunterschied anzeigen](assets/view-planned-actual-completion-dates-datediff-column-new.png)
 
 1. Zu einer Aufgabenliste gehen.
 1. Klicken Sie **Dropdown** Menü „Ansicht“ auf **Neue Ansicht**.
@@ -100,7 +100,7 @@ Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum u
 Eine Liste der Objekte und der ihnen übergeordneten Objekte finden Sie im Abschnitt „Grundlagen der Interdependenz und Hierarchie von Objekten“ in [Grundlegendes zu Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).\
 Sie können beispielsweise die Differenz zwischen dem geplanten Abschlussdatum einer Aufgabe und dem geplanten Abschlussdatum der übergeordneten Aufgabe oder des Projekts, in dem die Aufgabe ausgeführt wird, berechnen.
 
-![](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
+![Geplanten Abschlussdatumsunterschied anzeigen](assets/view-project-planned-task-planned-completion-dates-datediff-column-new.png)
 
 1. Zu einer Aufgabenliste gehen.
 1. Klicken Sie **Dropdown** Menü „Ansicht“ auf **Neue Ansicht**.

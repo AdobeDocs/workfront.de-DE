@@ -6,9 +6,9 @@ description: Sie können Berichte in Adobe Workfront verwenden, um Informationen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '498'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 So greifen Sie auf Berichte zu, die Sie erstellt haben oder die für Sie freigegeben oder öffentlich freigegeben wurden:
 
-1. Klicken Sie im ![](assets/main-menu-icon.png) **Hauptmenü** auf **Berichte**.
+1. Klicken Sie im **Hauptmenü** (![-](assets/main-menu-icon.png)) auf **Berichte**.
 
 1. Klicken Sie je nach dem Bericht, den Sie anzeigen möchten, auf eine der folgenden Optionen:
 
@@ -67,10 +67,10 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
 
 ### Erstellen eines neuen Ordners für Berichte {#create-a-new-folder-for-reports}
 
-1. Klicken Sie im ![](assets/main-menu-icon.png) **Hauptmenü** auf **Berichte**.
+1. Klicken Sie im **Hauptmenü** (![-](assets/main-menu-icon.png)) auf **Berichte**.
 
 1. Klicken Sie auf das **Neuer Ordner**-Symbol.\
-   ![](assets/nwe-new-folder-350x346.png)
+   ![Symbol für neuen Ordner](assets/nwe-new-folder-350x346.png)
 
 1. Geben Sie einen Namen für den neuen Ordner ein und drücken Sie dann die Eingabetaste.
 1. Fügen Sie im Ordner **Meine**&quot; Berichte zum Ordner „NEU“ hinzu.\
@@ -82,7 +82,7 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
 
 ### Hinzufügen von Berichten zu Ordnern {#add-reports-to-a-folder}
 
-1. Klicken Sie im ![](assets/main-menu-icon.png) **Hauptmenü** auf **Berichte**.
+1. Klicken Sie im **Hauptmenü** (![-](assets/main-menu-icon.png)) auf **Berichte**.
 
 1. Klicken Sie **Meine Berichte**.\
    Oder\
@@ -94,4 +94,4 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
    >
    >Sie können nur Berichte aus dem Ordner **Meine Berichte** in andere Ordner verschieben, die unter &quot;**Berichte“** sind. Sie können keine Berichte aus oder in den Ordner **Für mich freigegeben** oder **Alle Berichte** in oder aus anderen Ordnern verschieben.
 
-   ![](assets/nwe-drag-report-to-folder-350x292.png)
+   ![Bericht in Ordner ziehen](assets/nwe-drag-report-to-folder-350x292.png)

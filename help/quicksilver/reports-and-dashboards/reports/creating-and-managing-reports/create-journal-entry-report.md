@@ -5,9 +5,9 @@ author: Nolan
 draft: Probably
 feature: Reports and Dashboards
 exl-id: ecf947ce-54d8-4103-8903-f455b1d86c39
-source-git-commit: 158af1f48fba264b98108b5f0a573b7904eb875e
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2767'
+source-wordcount: '2798'
 ht-degree: 4%
 
 ---
@@ -181,7 +181,7 @@ Diese Informationen können beim Auditing hilfreich sein und veranschaulichen, w
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht** und wählen Sie **Journaleintrag**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Journaleintrag auswählen](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder wird geladen.
 
@@ -255,7 +255,7 @@ Diese Informationen können beim Auditing hilfreich sein und veranschaulichen, w
 
 1. Klicken Sie auf **Registerkarte** Filter **auf Filterregel hinzufügen** und fügen Sie dann die Filterregel hinzu **Feldname** > **Gleich** > **Status**.
 
-   ![](assets/nwe-journal-entry-status-filter-rules-350x90.png)
+   ![Journaleintragsstatus-Filter](assets/nwe-journal-entry-status-filter-rules-350x90.png)
 
    >[!TIP]
    >
@@ -295,7 +295,7 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht** und wählen Sie **Journaleintrag**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Journaleintrag auswählen](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder wird geladen.
 
@@ -342,7 +342,7 @@ So sehen Sie, wann eine Aufgabe oder ein Problem gelöscht wurde:
    * **Projekt-ID** > **Gleich** > **&lt; Projektname >**
 
      <!--WRITER check link; this png file has spaces
-     [![](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
+     [![Task or issue deleted](assets/classic-task-or-issue-deleted-350x90.png)](../../../Resources/Images/Reports/Creating and Managing Reports/QS_Task or issue deleted.png)-->
 
    Weitere Informationen zum Hinzufügen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -379,7 +379,7 @@ So zeigen Sie, wie sich benutzerdefinierte Felder im Laufe des Lebenszyklus eine
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht** und wählen Sie **Journaleintrag**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Journaleintrag auswählen](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder wird geladen.
 
@@ -450,7 +450,7 @@ So zeigen Sie, wie sich benutzerdefinierte Felder im Laufe des Lebenszyklus eine
 
    * **Projekt-** > **Gleich** > **&lt; Projekt >**.
 
-   ![](assets/qs-custom-form-changes-filter-350x92.png)
+   ![Filter für benutzerdefinierte Formularänderungen](assets/qs-custom-form-changes-filter-350x92.png)
 
    Weitere Informationen zum Hinzufügen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -481,7 +481,7 @@ Sie können die Auswertung „Journaleintrag“ so einrichten, dass sie anzeigt,
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht** und wählen Sie **Journaleintrag**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Journaleintrag auswählen](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder wird geladen.
 
@@ -551,7 +551,7 @@ Sie können die Auswertung „Journaleintrag“ so einrichten, dass sie anzeigt,
    * **Feldname** > **Gleich** > **Datum**
    * **Projekt-** > **Gleich** > **&lt; Projektname >**.
 
-   ![](assets/qs-planned-completion-date-change-filter-350x91.png)
+   ![Filter für Änderung des geplanten Abschlussdatums](assets/qs-planned-completion-date-change-filter-350x91.png)
 
    Weitere Informationen zum Hinzufügen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 
@@ -582,7 +582,7 @@ Sie können die Auswertung „Journaleintrag“ so einrichten, dass sie anzeigt,
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht** und wählen Sie **Journaleintrag**.
 
-   ![](assets/nwe-select-journal-entry-350x273.png)
+   ![Journaleintrag auswählen](assets/nwe-select-journal-entry-350x273.png)
 
    Report Builder wird geladen.
 
@@ -640,7 +640,7 @@ Sie können die Auswertung „Journaleintrag“ so einrichten, dass sie anzeigt,
    * **Feldname** > **Gleich** > **EigentümerID**
    * **Projekt-** > **Gleich** > **&lt; Projektname >**.
 
-   ![](assets/qs-owner-changes-filter-350x94.png)
+   ![Filter für Besitzer-Änderung](assets/qs-owner-changes-filter-350x94.png)
 
    Weitere Informationen zum Hinzufügen von Filtern finden Sie unter [Filter - Übersicht](../../../reports-and-dashboards/reports/reporting-elements/filters-overview.md).
 

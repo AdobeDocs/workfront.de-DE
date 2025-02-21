@@ -4,9 +4,9 @@ description: Erstellen eines Formelfelds auf der Reporting-Arbeitsfläche
 hidefromtoc: true
 hide: true
 exl-id: 22a2c3d7-39db-4f5d-94f3-222ca3ee0615
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '653'
+source-wordcount: '662'
 ht-degree: 7%
 
 ---
@@ -22,16 +22,16 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 ## Erstellen eines Formelfelds
 
 1. Erstellen Sie einen Tabellenblock oder navigieren Sie zu diesem, wie in [Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) beschrieben.
-1. Klicken Sie in der Tabellenkopfzeile im Bericht auf das Symbol **Bearbeiten** ![](assets/edit-icon.png).
+1. Klicken Sie in der Tabellenkopfzeile im Bericht auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png).
 
-   ![](assets/edit-icon-table-header-350x71.png)
+   ![Bearbeitungssymbol in der Tabellenkopfzeile](assets/edit-icon-table-header-350x71.png)
 
    >[!NOTE]
    >
    >Wenn Sie die Tabelle gerade erstellt und noch keine Felder hinzugefügt haben, klicken Sie stattdessen auf die Schaltfläche Bearbeiten in der Mitte der Tabelle.
 
 1. Klicken Sie **Neu +** oben in der Liste **Felder** im rechten Bedienfeld.
-1. Klicken Sie auf der neu **Seite links oben auf das Symbol ![](assets/edit-icon.png)Bearbeiten** neben dem Feldnamen, um den Namen des Formelfelds zu ändern.
+1. Klicken Sie auf der neu geöffneten Seite **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) neben dem Feldnamen oben links, um den Namen des Formelfelds zu ändern.
 1. Ziehen Sie **Funktionen** oder **Felder** aus dem linken Bereich auf den Feld-Builder in der Mitte, um sie zu Ihrem Formelfeld hinzuzufügen.
 
 

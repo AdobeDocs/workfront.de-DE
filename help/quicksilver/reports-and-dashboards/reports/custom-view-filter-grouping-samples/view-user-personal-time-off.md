@@ -7,9 +7,9 @@ description: 'Anzeigen: Arbeitsfreie Zeit des Benutzers'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b55b302-5cdc-4437-9ce4-a15b5b43dccb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '257'
+source-wordcount: '260'
 ht-degree: 5%
 
 ---
@@ -71,7 +71,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Freizeit des Benutzers anzeigen
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Berichte > Neuer Bericht**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke und dann auf **Berichte > Neuer Bericht**.
 1. Wählen Sie aus dem Dropdown-Menü **Ausfallzeit** aus.
 1. Klicken Sie auf **Speichern + schließen**.
 

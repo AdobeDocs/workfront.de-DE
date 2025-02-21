@@ -4,9 +4,9 @@ description: Konfigurieren einer KPI-Visualisierung auf der Reporting-Arbeitsfl�
 hidefromtoc: true
 hide: true
 exl-id: 38beccf6-d7bc-478f-8bba-56607d315e6f
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '256'
+source-wordcount: '258'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Bevor Sie beginnen, m체ssen Sie sich f체r die Betaversion der Reporting-Arbeitsf
 
 1. F체gen Sie zun채chst einen Visualisierungsblock mit dem Visualisierungstyp **KPI** zu einem Bericht hinzu, wie in [Hinzuf체gen oder Bearbeiten eines Visualisierungsblocks auf der Reporting-Arbeitsfl채che](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) beschrieben.
 
-1. Klicken Sie auf das Symbol Visualisierung bearbeiten ![](assets/edit-icon.png) in der oberen rechten Ecke der Visualisierung und f체hren Sie dann einen der folgenden Schritte aus.
+1. Klicken Sie auf das Symbol Visualisierung bearbeiten ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke der Visualisierung und f체hren Sie dann einen der folgenden Schritte aus.
 
    1. Auf der Registerkarte **Einstellungen**:
 

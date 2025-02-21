@@ -4,9 +4,9 @@ description: Konfigurieren der Kreisvisualisierung auf der Reporting-Arbeitsflä
 hidefromtoc: true
 hide: true
 exl-id: 0497edb5-9322-406a-b53b-ec498afdd96e
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '289'
+source-wordcount: '291'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,7 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 1. Fügen Sie zunächst einen Visualisierungsblock mit dem **Kreis** Visualisierungstyp zu einem Bericht hinzu, wie in [Hinzufügen oder Bearbeiten eines Visualisierungsblocks auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/visualization-blocks/add-or-edit-report-visualization.md) beschrieben.
 
-1. Klicken Sie auf das Symbol Visualisierung bearbeiten ![](assets/edit-icon.png) in der oberen rechten Ecke der Visualisierung und führen Sie dann einen der folgenden Schritte aus.
+1. Klicken Sie auf das Symbol Visualisierung bearbeiten ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke der Visualisierung und führen Sie dann einen der folgenden Schritte aus.
 
    1. Auf der Registerkarte **Einstellungen**:
 

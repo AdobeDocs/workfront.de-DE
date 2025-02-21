@@ -6,9 +6,9 @@ description: Sie können die Art der Informationen, die Sie auf dem Bildschirm a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1718'
+source-wordcount: '1731'
 ht-degree: 1%
 
 ---
@@ -97,7 +97,7 @@ Das **Ansicht anpassen** wird angezeigt.
 
         Für Zahlen- und Währungsfelder können Sie die Werte durch die folgenden Optionen zusammenfassen:
 
-         * Anzahl
+         * Count
          * Summe
          * Durchschnitt
          * Maximum
@@ -123,7 +123,7 @@ Das **Ansicht anpassen** wird angezeigt.
          <tbody> 
           <tr> 
            <td role="rowheader"><strong>Benutzerdefiniertes Spalten-Label</strong></td> 
-           <td><p>Geben Sie eine benutzerdefinierte Beschriftung für die Spalte an. Diese Beschriftung ersetzt die Standardbeschriftung.</p></td> 
+           <td><p>Geben Sie eine benutzerdefinierte Beschriftung für die Spalte an. Diese Beschriftung ersetzt die Standardbeschriftung. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.</p></td> 
           </tr> 
           <tr> 
            <td role="rowheader"><strong>Feldformat</strong></td> 
@@ -179,7 +179,7 @@ So erstellen oder passen Sie eine Agile-Ansicht an:
       Die Agile-Standardansicht kann nicht angepasst werden.
 
    1. Klicken Sie erneut auf **Dropdown** Menü „Ansicht“ und dann auf **Ansicht anpassen**.\
-      ![](assets/view-agile-customize.png)
+      ![Ansicht anpassen](assets/view-agile-customize.png)
 
 1. (Bedingt) Um eine neue Agile-Ansicht zu erstellen, klicken Sie auf **Neue Ansicht**.\
    Das **Anpassen der Agile-**&quot; wird angezeigt.

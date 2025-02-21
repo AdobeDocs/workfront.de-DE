@@ -7,9 +7,9 @@ description: Um mehrere Felder in Adobe Workfront zu aggregieren und diesen Aggr
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 17ac554d-0c90-4592-946e-a89f1784571d
-source-git-commit: 1ae65d18419bf4235a7c97614b539811643110cc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '815'
+source-wordcount: '817'
 ht-degree: 0%
 
 ---
@@ -85,7 +85,7 @@ Weitere Informationen zur Syntax, die Sie in einer berechneten benutzerdefiniert
 
 ## Aktionen, durch die die Aktualisierung eines berechneten benutzerdefinierten Felds Trigger wird
 
-* Klicken Sie auf der Hauptseite eines Objekts auf das Symbol Mehr ![](assets/more-icon.png) dann auf **Ausdrücke neu berechnen**
+* Klicken Sie auf der Hauptseite eines Objekts auf das Symbol Mehr ![Symbol Mehr](assets/more-icon.png) und klicken Sie dann auf **Ausdrücke neu berechnen**
 
 * Massenbearbeitung mehrerer Objekte, wenn **Benutzerdefinierte Ausdrücke neu**) aktiviert ist
 * Das Bearbeiten eines benutzerdefinierten Formulars, wenn **Aktualisieren vorheriger Berechnungen** für das berechnete benutzerdefinierte Feld aktiviert ist

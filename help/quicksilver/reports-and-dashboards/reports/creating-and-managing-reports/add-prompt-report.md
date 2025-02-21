@@ -6,9 +6,9 @@ description: Filter und Eingabeaufforderungen sind insofern ähnlich, als sie be
 author: Nolan
 feature: Reports and Dashboards
 exl-id: b4058fb3-7360-474f-8be1-1c6b584749b0
-source-git-commit: 93fca2a98a8b9d4370841b10be10ed2ba15283c9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1363'
+source-wordcount: '1369'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Anweisungen zum Erstellen eines Berichts finden Sie unter [Erstellen eines Beric
 
 1. Klicken Sie auf **Schaltfläche &quot;**&quot;.
 1. Klicken Sie auf **Registerkarte** Eingabeaufforderungen“ und dann auf **Eingabeaufforderung hinzufügen**.\
-   ![](assets/create-report-prompt-tab.png)
+   ![Registerkarte „Berichtsaufforderungen“](assets/create-report-prompt-tab.png)
 
 1. (Bedingt) Wählen Sie das Feld aus, auf dem die Eingabeaufforderung basieren soll. Geben Sie den Namen des Felds ein und klicken Sie auf das Feld, um es auszuwählen, wenn es in der Liste angezeigt wird.\
    Die Optionen, die Benutzern zur Verfügung stehen, die den Bericht ausführen, unterscheiden sich je nach ausgewähltem Feld.\
@@ -144,7 +144,7 @@ So führen Sie einen Bericht mit einer Eingabeaufforderung aus:
 
 1. Rufen Sie den Bericht über die Eingabeaufforderung auf.
 
-   ![](assets/run-report-prompts.png)
+   ![Berichtaufforderungen ausführen](assets/run-report-prompts.png)
 
 1. Bedingung für eine oder alle Eingabeaufforderungen auf der Registerkarte **Eingabeaufforderungen“**.\
    (Optional) Sie können die Eingabeaufforderungen leer lassen und den Bericht nicht nach den Eingabeaufforderungsbedingungen filtern.

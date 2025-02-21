@@ -6,9 +6,9 @@ description: Berichtsnutzung anzeigen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 51d9067c-8c55-433e-b560-7da241ef33ae
-source-git-commit: 54f4c136cfaaaaaa90a4fc64d3ffd06816cff9cb
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1001'
+source-wordcount: '1011'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Anzeigen von Berichtverwendungsinformationen in der Ansicht einer Berichtsliste
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront und dann auf **Berichte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **Berichte**.
 
 1. Klicken Sie in der Berichtsliste auf das **Anzeigen** Dropdown-Menü.
 1. (Optional) Wählen Sie die Ansicht **Berichtsnutzung**, um die häufigsten Berichtverwendungsinformationen anzuzeigen.\
@@ -97,7 +97,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Filtern einer Berichtsliste nach Nutzungsinformationen {#filter-a-report-list-by-usage-information}
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront und dann auf **Berichte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **Berichte**.
 1. Klicken Sie in der Berichtsliste auf das **Filter** Dropdown-Menü.
 1. Klicken Sie **Neuer Filter** und dann auf **Filterregel hinzufügen**.
 1. Beginnen Sie mit der Eingabe eines der folgenden Felder und wählen Sie sie aus, wenn sie in der Liste unter dem **Berichtsobjekt** angezeigt werden, um sie als neue Filterregel hinzuzufügen:
@@ -112,7 +112,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * **Zuletzt angezeigt am**: Zeigt das Datum an, an dem der Bericht zuletzt angezeigt wurde
 
 1. Wählen Sie einen Modifikator für Ihr Feld aus und geben Sie bei Aufforderung einen Wert an.\
-   ![](assets/qs-report-usage-filter-statistics-350x150.png)
+   ![Filterstatistiken zur Berichtsnutzung](assets/qs-report-usage-filter-statistics-350x150.png)
 
 1. Klicken Sie auf **Filter speichern**.\
    Dadurch wird eine Liste von Berichten angezeigt, die den von Ihnen definierten Nutzungsinformationen entsprechen.\

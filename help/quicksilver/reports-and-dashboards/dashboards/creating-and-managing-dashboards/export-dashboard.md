@@ -6,9 +6,9 @@ description: Sie können ein Dashboard mithilfe der in Ihrem Webbrowser verfügb
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 6c8dc5be-6adb-400a-b86a-a7f7e84d0ba7
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '375'
 ht-degree: 6%
 
 ---
@@ -77,7 +77,7 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Erstellen eines Das
 1. Wechseln Sie zum Dashboard, das Sie exportieren möchten.
 1. Klicken Sie **Dashboard-Aktionen** und wählen Sie **Druckvorschau** aus.
 
-   ![](assets/dashboard-actions-print-350x254.png)
+   ![Dashboard-Druckvorschau](assets/dashboard-actions-print-350x254.png)
 
    Das Fenster Druckvorschau wird geöffnet.
 
@@ -105,7 +105,7 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Erstellen eines Das
      </tr> 
      <tr> 
       <td>Internet Explorer, Microsoft Edge und Mozilla Firefox</td> 
-      <td> <p>Hinweis: Wenn Sie Internet Explorer 11 verwenden, können Sie die Print-to-PDF-Funktion möglicherweise nicht verwenden, ohne ein Plug-in eines Drittanbieters zu installieren.</p> 
+      <td> <p>Hinweis: Wenn Sie Internet Explorer Version 11 verwenden, können Sie die Funktion „In PDF drucken“ möglicherweise nicht verwenden, ohne ein Plug-in eines Drittanbieters zu installieren.</p> 
        <ol> 
         <li value="1">Wählen Sie im Feld <strong>Drucker</strong> oder <strong>Drucker auswählen</strong> die Option <strong>Microsoft Print to PDF</strong> und ändern Sie dann alle anderen Druckoptionen, die Sie ändern möchten.</li> 
         <li value="2">Klicken Sie <strong>Drucken</strong>.</li> 

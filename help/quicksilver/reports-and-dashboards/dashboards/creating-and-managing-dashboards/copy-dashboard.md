@@ -6,9 +6,9 @@ description: Sie können ein Dashboard und alle zugehörigen Inhalte (Berichte, 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a88cc171-2bb1-40f0-a778-8dac7eecb718
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '896'
+source-wordcount: '898'
 ht-degree: 0%
 
 ---
@@ -71,7 +71,7 @@ Informationen zum Erstellen von Dashboards finden Sie unter [Erstellen eines Das
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Dashboards]**.
 
-1. Wählen Sie das Dashboard aus, das Sie kopieren möchten, und klicken Sie dann auf **Kopieren** ![](assets/copy-icon.png).\
+1. Wählen Sie das Dashboard aus, das Sie kopieren möchten, und klicken Sie dann auf **Kopieren** ![Symbol „Kopieren](assets/copy-icon.png).\
    Oder\
    Öffnen Sie das Dashboard, das Sie kopieren möchten, und klicken Sie dann auf **Dashboard-Aktionen** > **Kopieren**.\
    Das Dialogfeld Dashboard-Kopie wird angezeigt. Alle Elemente im ursprünglichen Dashboard werden angezeigt.

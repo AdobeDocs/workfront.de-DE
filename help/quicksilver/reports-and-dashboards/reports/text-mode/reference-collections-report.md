@@ -6,9 +6,9 @@ description: Referenzieren von Sammlungen in einem Bericht
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 18ba3f4b-ae03-4694-a2fe-fdbeeb576ea9
-source-git-commit: af4a82ad11b57c7a7457d5d7ee74ee18494a1dc0
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2539'
+source-wordcount: '2560'
 ht-degree: 0%
 
 ---
@@ -151,7 +151,7 @@ Die Ansicht zeigt Aufgaben- oder Probleminformationen in einem Listenformat an, 
 
 So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Berichte**.
+1. Klicken Sie auf das **Hauptmenü** (![-](assets/main-menu-icon.png)) und dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht**.
 1. Wählen Sie das Objekt Ihres Berichts aus.
 1. Navigieren Sie weg von Ihrem Bericht und ermitteln Sie mithilfe des [API-Explorers](../../../wf-api/general/api-explorer.md), welche Sammlungen für das Objekt verfügbar sind, das Sie für Ihren Bericht ausgewählt haben.
@@ -236,7 +236,7 @@ So fügen Sie eine Sammlungsspalte in einer Berichtsansicht hinzu:
 
 1. Die folgende Spalte wird im Projektbericht angezeigt und listet alle Aufgaben in jedem Projekt neben ihren primären Beauftragten auf:
 
-   ![](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
+   ![Projektbericht mit Aufgaben- und Empfängersammlung](assets/project-report-with-task-and-assignee-collection-view-nwe-350x222.png){width=400}
 
 1. Klicken Sie auf **Speichern**.
 1. (Optional) Fahren Sie mit der Bearbeitung des Berichts fort.
@@ -261,7 +261,7 @@ Die Zeilen in einer Textmodusansicht für eine Sammlung sind in der folgenden Ta
  <tbody> 
   <tr> 
    <td><code>valueformat=HTML</code> </td> 
-   <td> <p>Sie können verschiedene Werte für diese Zeile verwenden. Es wird jedoch empfohlen, dass die <code style="font-weight: normal;">valueformat</code> für eine Sammlungsliste <strong>HTML. sein sollte</strong></p>
+   <td> <p>Sie können verschiedene Werte für diese Zeile verwenden. Es wird jedoch empfohlen, dass der <code style="font-weight: normal;">valueformat</code> für eine Sammlungsliste <strong>HTML lautet</strong></p>
    </td> 
   </tr> 
   <tr> 
@@ -309,7 +309,7 @@ Sie können beispielsweise nach Aufgaben- oder Probleminformationen in einem Pro
 
 So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Berichte**.
+1. Klicken Sie auf das **Hauptmenü** (![-](assets/main-menu-icon.png)) und dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht**.
 1. Wählen Sie das Objekt Ihres Berichts aus.
 1. Navigieren Sie weg von Ihrem Bericht und ermitteln Sie mithilfe des [API-Explorers](../../../wf-api/general/api-explorer.md), welche Sammlungen für das Objekt verfügbar sind, das Sie für Ihren Bericht ausgewählt haben.
@@ -350,7 +350,7 @@ So fügen Sie einen Verweis auf eine Sammlung in einem Berichtsfilter hinzu:
 
    Dieser Bericht zeigt nur Projekte an, die mindestens eine Aufgabe mit dem Wort „Marketing“ in ihrem Namen haben.
 
-   ![](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
+   ![Nur Marketing-Aufgaben im Projekt](assets/marketing-only-tasks-in-project-report-nwe-350x309.png){width=400}
 
 1. Verwenden Sie den folgenden Code, um nach dem Namen eines Problems zu filtern:
 
@@ -386,7 +386,7 @@ Weitere Informationen zum Erstellen einer Filteranweisung mit einer Sammlungsref
 
 So fügen Sie in der benutzerdefinierten Eingabeaufforderung eines Berichts einen Verweis auf eine Sammlung hinzu:
 
-1. Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) und dann auf **Berichte**.
+1. Klicken Sie auf das **Hauptmenü** (![-](assets/main-menu-icon.png)) und dann auf **Berichte**.
 1. Klicken Sie **Neuer Bericht**.
 1. Wählen Sie das Objekt Ihres Berichts aus.
 1. Erstellen Sie einen Filter mit einer Sammlungsreferenz, wie im Abschnitt [Referenzieren einer Sammlung im Filter eines Berichts](#reference-a-collection-in-the-filter-of-a-report) in diesem Artikel beschrieben.

@@ -7,9 +7,9 @@ description: Sie können einen Bericht erst nach der Erstellung eines zusätzlic
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cda77319-dce6-409d-8f59-53838820cafb
-source-git-commit: 66de6c952272f52876f8e912c96d1526575b6f0b
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1004'
+source-wordcount: '1019'
 ht-degree: 0%
 
 ---
@@ -125,7 +125,7 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
 1. Ersetzen Sie „Benutzerdefiniertes Mehrfachauswahlfeld“ durch den tatsächlichen Namen des benutzerdefinierten Mehrfachauswahlfelds, wie er in Workfront angezeigt wird.
 
-   ![](assets/calculated-multi-select-custom-field-nwe-350x223.png)
+   ![Berechnetes benutzerdefiniertes Mehrfachauswahl-Feld](assets/calculated-multi-select-custom-field-nwe-350x223.png)
 
 1. (Optional) Wenn das benutzerdefinierte Feld mit mehreren Auswahlmöglichkeiten bereits in diesem Formular vorhanden und dieses Formular bereits mit Objekten verbunden ist, aktivieren Sie die Option **Auf vorhandene Berechnungen anwenden**.
 
@@ -140,11 +140,11 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
 1. (Optional) Um sicherzustellen, dass alle berechneten Felder, nach denen Sie ein Diagramm erstellen möchten, mit Werten gefüllt werden, wählen Sie auf der Registerkarte Details des Berichts alle Objekte aus, die das benutzerdefinierte Formular mit dem benutzerdefinierten Mehrfachauswahlfeld und dem berechneten benutzerdefinierten Feld enthalten, und klicken Sie dann auf **Bearbeiten**.
 1. (Optional und bedingt) Wählen Sie das Feld **Benutzerdefinierte Ausdrücke neu berechnen** und klicken Sie dann auf **Änderungen speichern**.\
-   ![](assets/recalculate-custom-expressions-350x259.png)
+   ![Benutzerdefinierte Ausdrücke neu ](assets/recalculate-custom-expressions-350x259.png)
 
    >[!NOTE]
    >
-   >Diese Option wurde aus der Massenbearbeitung von Projekten entfernt.  Sie können Ausdrücke für Projekte weiterhin stapelweise neu berechnen, indem Sie oben in einer Projektliste auf das **Mehr**-Symbol ![](assets/more-icon-45x33.png) und dann **Ausdrücke neu berechnen**.
+   >Diese Option wurde aus der Massenbearbeitung von Projekten entfernt.  Sie können Ausdrücke für Projekte weiterhin stapelweise neu berechnen, indem Sie oben in einer Projektliste auf das **Mehr**-Symbol ![Mehr](assets/more-icon-45x33.png) und dann auf **Ausdrücke neu berechnen** klicken.
 
 1. Wechseln Sie zum Bericht, in dem Sie das Diagramm für das berechnete Feld hinzufügen möchten, das auf das benutzerdefinierte Feld mit Mehrfachauswahl verweist.
 1. Klicken Sie **Berichtsaktionen** und dann **Bearbeiten**.
@@ -160,4 +160,4 @@ So erstellen Sie das berechnete benutzerdefinierte Feld, das auf das benutzerdef
 
    Der Bericht zeigt die Ergebnisse gruppiert nach dem berechneten Mehrfachauswahlfeld in einem Diagramm an.
 
-   ![](assets/chart-multi-select-field-column-chart-example.png)
+   ![Mehrfachauswahlfeld im Diagramm](assets/chart-multi-select-field-column-chart-example.png)

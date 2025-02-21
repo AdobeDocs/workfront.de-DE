@@ -6,9 +6,9 @@ description: Sie können die benutzerdefinierten Formulare eines Objekts in den 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8b0d2e7f-cc92-4f43-a91c-ab2b2d8a1c01
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '951'
+source-wordcount: '967'
 ht-degree: 2%
 
 ---
@@ -82,7 +82,7 @@ Verwenden Sie beim Erstellen des Berichts einfach den Objekttyp des Formulars al
 
 Beispielsweise könnte ein benutzerdefiniertes Formular auf alle Projekte angewendet werden, das das benutzerdefinierte Feld (**)**. Um einen Bericht zu erstellen, der alle Projekte auflistet, bei denen Olivia Kim Beraterin ist, verwenden Sie **Objekttyp** Projekt“ als Feldquelle und verwenden Sie **Berater** als Feldnamen. Setzen Sie den Filterqualifizierer auf **Gleich** und geben Sie dann Olivia Kim ein.
 
-![](assets/qs-consultant-filter-example-350x126.png)
+![Beraterfilter](assets/qs-consultant-filter-example-350x126.png)
 
 Weitere Informationen zum Erstellen eines Berichts finden Sie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
@@ -111,13 +111,13 @@ So zeigen Sie alle benutzerdefinierten Formulare an, die mit einem Objekt verkn�
 1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
 1. Erweitern Sie auf **Registerkarte** den Objekttyp, auf den das benutzerdefinierte Formular angewendet wird, auf das Sie verweisen möchten, und klicken Sie dann auf **Kategoriename**.\
    Um beispielsweise alle benutzerdefinierten Formulare anzuzeigen, die mit einer Aufgabe verknüpft sind, erweitern Sie die Feldquelle **Aufgabe** und klicken Sie dann auf den Feldnamen **Kategoriename**.\
-   ![](assets/qs-category-name-column-350x267.png)
+   ![Spalte mit Kategorienamen](assets/qs-category-name-column-350x267.png)
 
 So zeigen Sie nur das primäre benutzerdefinierte Formular an, das mit dem -Objekt verknüpft ist:
 
 1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
 1. Erweitern Sie auf **Registerkarte** die Feldquelle **Kategorie** und klicken Sie dann auf den Feldnamen **Name**.\
-   ![](assets/qs-category-name-column-2-350x248.png)
+   ![Kategoriename](assets/qs-category-name-column-2-350x248.png)
 
 ### Referenzieren benutzerdefinierter Formulare in einem Berichtsfilter {#reference-custom-forms-in-a-report-filter}
 
@@ -125,7 +125,7 @@ So filtern Sie nach allen benutzerdefinierten Formularen, die mit dem Objekttyp 
 
 1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
 1. Erweitern Sie auf **Registerkarte** Filter **die Option Kategorien** und klicken Sie dann auf **Name**.\
-   ![](assets/qs-categories-name-filter-350x311.png)
+   ![Filter für Kategorienamen](assets/qs-categories-name-filter-350x311.png)
 
 1. Wählen Sie den Bedingungsqualifizierer aus, den Sie verwenden möchten:
 
@@ -133,8 +133,8 @@ So filtern Sie nach allen benutzerdefinierten Formularen, die mit dem Objekttyp 
    * Nicht leer
    * Enthält
    * Enthält nicht
-   * Gleich (ignoriert Groß- und Kleinschreibung)
-   * Ungleich
+   * Equal
+   * Not Equal
 
    Weitere Informationen zu den einzelnen Qualifizierern finden Sie im Artikel [Filter- und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -150,7 +150,7 @@ So filtern Sie nur nach dem primären benutzerdefinierten Formular, das mit dem 
 
 1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
 1. Erweitern Sie auf **Registerkarte** die Feldquelle **Kategorie** und klicken Sie dann auf den Feldnamen **Name**.\
-   ![](assets/qs-category-name-filter-350x437.png)
+   ![Filter für Kategorienamen](assets/qs-category-name-filter-350x437.png)
 
 1. Wählen Sie den Bedingungsqualifizierer aus, den Sie verwenden möchten:
 
@@ -158,8 +158,8 @@ So filtern Sie nur nach dem primären benutzerdefinierten Formular, das mit dem 
    * Nicht leer
    * Enthält
    * Enthält nicht
-   * Gleich (ignoriert Groß- und Kleinschreibung)
-   * Ungleich
+   * Equal
+   * Not Equal
 
    Weitere Informationen zu den einzelnen Qualifizierern finden Sie im Artikel [Filter- und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
 
@@ -175,4 +175,4 @@ So filtern Sie nur nach dem primären benutzerdefinierten Formular, das mit dem 
 
 1. Beginnen Sie mit der Erstellung eines Berichts, wie im Artikel [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
 1. Erweitern Sie auf der **Gruppierungen** die Option **Kategorie** und klicken Sie dann auf **Name**.\
-   ![](assets/qs-category-name-grouping-350x373.png)
+   ![Gruppierung Kategoriename](assets/qs-category-name-grouping-350x373.png)

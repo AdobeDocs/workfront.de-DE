@@ -7,9 +7,9 @@ description: Diese Aufgabenansicht ähnelt der Ansicht „Alle Daten“, die mit
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 20df7cd8-113e-4c0d-b3f5-1def7db968a5
-source-git-commit: 4247f2b437a5627ac4cba5289573eb4f1c18c583
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '335'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Diese Ansicht zeigt ein Beispiel für berechnete Spalten, bei denen Sie die Wert
 
 Weitere Informationen zur Verwendung von Berechnungen in einer Ansicht finden Sie [ Abschnitt „Übersicht über häufig verwendete Anwendungen für ](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md)&quot; in  [Übersicht über häufige Verwendungen für den Textmodus](../../../reports-and-dashboards/reports/text-mode/understand-common-uses-text-mode.md).
 
-![](assets/view-task-with-all-dates-variance.png)
+![Aufgabe mit allen Datumsangaben anzeigen](assets/view-task-with-all-dates-variance.png)
 
 ## Zugriffsanforderungen
 

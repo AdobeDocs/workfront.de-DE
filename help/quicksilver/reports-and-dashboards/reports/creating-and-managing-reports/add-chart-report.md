@@ -6,9 +6,9 @@ description: Sie können Ihre Berichte verbessern, indem Sie ein Diagramm hinzuf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9b58d68c-4b7b-4344-bde3-7c65e2e1aac8
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '2734'
+source-wordcount: '2747'
 ht-degree: 0%
 
 ---
@@ -277,11 +277,11 @@ So fügen Sie **Bericht ein** hinzu:
 
    Wenn Sie beispielsweise **Projektname** in einem Aufgabenbericht ausgewählt haben, können Sie **Aufgabenstatus** als Feld **Sprechblasenfarbe** hinzufügen.
 
-   ![](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
+   ![Aufgabenstatus als Sprechblasenfarbe](assets/bubbles-field-correct-can-select-bubbles-color-example.png)
 
    Wenn Sie jedoch **Aufgabenstatus** für das Feld **Blasen** ausgewählt haben, können Sie kein Feld **Bubble Color** auswählen. Außerdem können Sie für das Feld **Bubble Color** nicht **Projektname** auswählen, selbst wenn Sie **Projektname** für das Feld **Bubbles** auswählen.
 
-   ![](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
+   ![Sprechblasenfarbe kann nicht ausgewählt werden](assets/bubbles-field-wrong-cannot-select-bubbles-color-example.png)
 
 1. Klicken Sie **Speichern + Schließen**, um die Änderungen am Interface Builder zu speichern.
 
@@ -304,7 +304,7 @@ So passen Sie Diagrammfarben an:
 
 1. Klicken Sie auf **Benutzerdefinierte Farben**, wenn dieses Feld verfügbar ist.\
    Das Dialogfeld Benutzerdefinierte Farben wird angezeigt.\
-   ![](assets/unshimmed-custom-colors-in-charts.png)
+   ![Benutzerdefinierte Farben in Diagrammen](assets/unshimmed-custom-colors-in-charts.png)
 
    >[!NOTE]
    >

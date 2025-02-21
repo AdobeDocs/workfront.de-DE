@@ -4,9 +4,9 @@ description: Hinzufügen oder Bearbeiten eines Visualisierungsblocks auf der Rep
 hidefromtoc: true
 hide: true
 exl-id: 14750eb1-d0a3-42ea-bd2e-100b633322ff
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '437'
 ht-degree: 1%
 
 ---
@@ -32,12 +32,12 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 >
 >Alle Ihre Änderungen werden automatisch gespeichert, wenn Sie die Blöcke in Ihrem Bericht erstellen und bearbeiten.
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
 1. Klicken Sie auf **Neuer Bericht** und erstellen Sie dann einen Bericht mit Tabellen, die Daten enthalten, wie in [Erstellen eines Berichts auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/manage-reports/build-report.md) und [Hinzufügen oder Bearbeiten eines Tabellenblocks auf der Reporting-Arbeitsfläche](../../../reports-and-dashboards/reporting-canvas/table-blocks/add-or-edit-report-table.md) beschrieben.
 
    Oder
 
-   Klicken Sie in einem vorhandenen Bericht mit Tabellen, die Daten enthalten, auf das **Mehr Menü**-Symbol ![](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten**.
+   Klicken Sie in einem vorhandenen Bericht mit Tabellen, die Daten enthalten, auf das Symbol **Mehr Menü** Symbol ![Mehr](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten**.
 
 1. Klicken Sie auf der rechten Seite des Bildschirms unter **Block hinzufügen** entweder auf:
 
@@ -57,7 +57,7 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 1. (Bedingt) Wenn der Bericht mehr als eine Tabelle enthält, wählen Sie im angezeigten Feld **Visualisierung erstellen** die Quelltabelle für die Visualisierung aus.
 
-   ![](assets/select-table-on-vis-350x155.png)
+   ![Tabelle bei der Visualisierung auswählen](assets/select-table-on-vis-350x155.png)
 
    >[!NOTE]
    >
@@ -65,7 +65,7 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 1. Wählen Sie den Visualisierungstyp aus, den Sie hinzufügen möchten.
 
-   ![](assets/select-vis-type-350x205.png)
+   ![Visualisierungstyp auswählen](assets/select-vis-type-350x205.png)
 
    Ihre Visualisierung wird angezeigt und stellt die Daten der ausgewählten Tabelle dar.
 

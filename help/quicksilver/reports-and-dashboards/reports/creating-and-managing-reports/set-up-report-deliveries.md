@@ -6,9 +6,9 @@ description: Übersicht über den Berichtsversand
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 1637df59-ca1d-4cf6-b83d-2b27936cdb96
-source-git-commit: a2cb33150ae50b00485f894dc81d7c719524a182
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1534'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Berichte, die für die Bereitstellung im Excel-, Excel- (XLSX-) oder TSV-Format 
 
 >[!NOTE]
 >
->Wenn der Bericht eine Beschreibung enthält, wird er in die exportierte Datei aufgenommen, wenn die Datei als PDF- oder HTML-Datei formatiert ist.
+>Wenn der Bericht eine Beschreibung enthält, wird er in die exportierte Datei aufgenommen, sofern die Datei als PDF- oder HTML-Datei formatiert ist.
 
 ### Zeitstempel {#timestamps}
 
@@ -189,7 +189,7 @@ Sie können sehen, ob ein Bericht für die Bereitstellung konfiguriert wurde, in
 
 * **Ein Filter** für das Berichtsobjekt: Erstellen Sie einen Filter für eine Liste von Berichten oder einen Bericht zu Berichten mit der folgenden Anweisung: *ID des terminierten Berichts ist nicht leer*.\
   Dadurch werden nur Berichte angezeigt, die in Ihrer Liste oder Ihrem Bericht geplant wurden.\
-  ![](assets/qs-scheduled-report-filter-350x101.png)\
+  ![Filter für geplante Berichte](assets/qs-scheduled-report-filter-350x101.png)\
   Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md). Informationen zum Erstellen eines Berichts zu Berichten finden Sie unter [Erstellen eines Berichts zu Berichtsaktivitäten](../../../reports-and-dashboards/reports/report-usage/create-report-reporting-activities.md).
 
 <!--

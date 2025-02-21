@@ -7,9 +7,9 @@ description: Sie können den Namen eines Objekts in einer Ansicht mit einem Bild
 author: Nolan
 feature: Reports and Dashboards
 exl-id: e1e4a993-f05c-4b6e-b00a-e96c9ab4c94f
-source-git-commit: ecce7484423419823effa2cb41da892ba3fb207c
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ Sie können den Namen eines Objekts in einer Ansicht mit einem Bild im Textmodus
 >
 >Bilder erscheinen in der tatsächlichen Auflösung. Versuchen Sie daher, kleine Bilder zu verwenden.
 
-![](assets/replace-project-name-with-image-and-link-350x125.png)
+![Projektname durch Bild und Link ersetzen](assets/replace-project-name-with-image-and-link-350x125.png)
 
 ## Zugriffsanforderungen
 
@@ -86,7 +86,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    1. Klicken Sie mit der rechten Maustaste und wählen **Bildspeicherort kopieren** oder **Link abrufen** je nach Browser. Jetzt haben Sie die URL für dieses bestimmte Bild und können es aus Ihrer Zwischenablage einfügen.
    1. Stellen Sie sicher, dass alle Personen mit diesem Link die Berechtigung zum Anzeigen des Bildes haben, indem sie einfach zu dem Link gehen, und sie benötigen keine Anmeldung, um darauf zuzugreifen.
 
-1. Gehen Sie zu einem Projekt, klicken Sie auf das **Mehr**-Menü ![](assets/more-icon-45x33.png) neben dem Namen des Projekts und klicken Sie dann auf **Bearbeiten**.
+1. Gehen Sie zu einem Projekt, klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon-45x33.png) neben dem Namen des Projekts und klicken Sie dann auf **Bearbeiten**.
 
 1. Fügen Sie im Feld **URL** den Link zum Bild hinzu.
 1. Gehe zu einer Projektansicht in einer Projektliste.

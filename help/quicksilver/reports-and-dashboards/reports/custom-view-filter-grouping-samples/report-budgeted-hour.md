@@ -7,9 +7,9 @@ description: 'Bericht: Budgetierte Stunde'
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 2c0b60a6-fae4-4b29-8243-2a7f7d1f574b
-source-git-commit: a6874c3a2dfda02b8a25f78056767d8c59c888e9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '670'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ Wenn Sie Informationen zu budgetierten Stunden für andere Benutzer freigeben m�
 >
 >Budgetierte Stunden werden in der Adobe Workfront-Datenbank normalerweise stündlich aktualisiert (selten, es kann maximal drei Stunden dauern). Durch Aktualisieren des Berichts werden die darin enthaltenen Stundeninformationen nicht unbedingt aktualisiert. Sie können die seit der letzten Aktualisierung verstrichene Zeit in der oberen rechten Ecke jedes Berichts Budgetierte Stunde anzeigen. Durch die Aktualisierung des Berichts werden die darin enthaltenen Informationen nur dann aktualisiert, wenn seit der letzten Aktualisierung mehr als eine Stunde vergangen ist.
 >
->![](assets/budgeted-hour-report-time-sync-warning-350x74.png)
+>![Warnung zur Synchronisierung der budgetierten Berichtszeit](assets/budgeted-hour-report-time-sync-warning-350x74.png)
 
 ## Zugriffsanforderungen
 
@@ -72,7 +72,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen eines Berichts zur budgetierten Stunde
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **Berichte**.
 
 1. Klicken Sie auf **Neuer Bericht** > **Mehr** > **Budgetierte Stunde**.
 

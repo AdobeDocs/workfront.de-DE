@@ -4,9 +4,9 @@ description: Exportieren eines Berichts auf der Reporting-Arbeitsfläche
 hidefromtoc: true
 hide: true
 exl-id: bd9e2e6f-338e-4cfc-aee5-6de6ecff4f09
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '181'
+source-wordcount: '183'
 ht-degree: 2%
 
 ---
@@ -27,7 +27,7 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 ## Exportieren eines Berichts
 
 1. Navigieren Sie zu dem Bericht, den Sie exportieren möchten.
-1. Klicken Sie in der Berichtskopfzeile auf das Symbol **Mehr**, klicken Sie ![](assets/more-icon-27x15.png) auf **Exportieren** und wählen Sie dann das Dateiformat aus, das Sie erstellen möchten.
+1. Klicken Sie in der Berichtskopfzeile auf das Symbol **Mehr** ![Mehr](assets/more-icon-27x15.png) klicken Sie auf **Exportieren** und wählen Sie dann das gewünschte Dateiformat aus.
 
    >[!NOTE]
    >

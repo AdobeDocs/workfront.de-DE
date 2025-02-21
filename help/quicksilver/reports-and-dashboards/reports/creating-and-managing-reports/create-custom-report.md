@@ -6,9 +6,9 @@ description: Sie können durch die Erstellung von Berichten Zugriff auf die Info
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 10c4df37-f09f-4b91-9cfd-3d0c3835bc7b
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1817'
 ht-degree: 1%
 
 ---
@@ -24,41 +24,40 @@ Weitere Informationen zu integrierten Berichten finden Sie unter [Verwenden von 
 
 Informationen zum Erstellen eines Berichts durch Kopieren finden Sie unter [Erstellen einer Berichtskopie](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
-Weitere Informationen zum Erstellen und Verwalten von Berichten, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt Lernen auf der Adobe Experience League-Site.
+Weitere Informationen zum Erstellen und Verwalten von Berichten, einschließlich Klassen, Videos und Tutorials, finden Sie im Abschnitt „Lernen“ auf der Adobe Experience League-Website.
 
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
+Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
  <col> 
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Neu: Standard </p>
    oder
    <p>Aktuell: Plan </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p> <p><b>NOTIZ</b></p>
-   <p> Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Sie erhalten Verwaltungsberechtigungen für die von Ihnen erstellten Berichte.</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Sie erhalten Verwaltungsberechtigungen für die von Ihnen erstellten Berichte.</p></td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -72,11 +71,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Spezifische Informationen zu verfügbaren Objektberichten finden Sie im Abschnitt [Berichte zu Objekten](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md#reporting-on-objects) im Artikel &quot;[ von Objekten in Adobe Workfront](../../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-   ![](assets/nwe-select-new-report-350x666.png)
+   ![Neuen Bericht auswählen](assets/nwe-select-new-report-350x666.png)
 
    >[!TIP]
    >
    >Sie können auch einen Bericht erstellen, indem Sie eine Kopie eines vorhandenen Berichts erstellen. Weitere Informationen finden Sie unter [Erstellen einer Berichtskopie](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
+
+1. (Optional) Um den Titel Ihres neuen Berichts zu bearbeiten, geben Sie den gewünschten Berichtstitel in das Textfeld oben links im Report Builder ein. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.
 
 1. Fügen Sie in Report Builder Folgendes zu Ihrem Bericht hinzu:
 
@@ -126,11 +127,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Um eine vorhandene Spalte zu ändern, klicken Sie auf die Spalte, klicken Sie auf das **Entfernen**-Symbol ![](assets/remove-column-icon.png) rechts neben dem aktuellen Feld im Bereich **In diesem Spaltenfeld anzeigen** in der oberen linken Ecke von Report Builder, und beginnen Sie mit der Eingabe eines neuen Felds. Klicken Sie dann auf dieses, wenn es in der Liste angezeigt wird.
+   Um eine vorhandene Spalte zu ändern, klicken Sie auf die Spalte, klicken Sie auf das **Entfernen**-Symbol ![Entfernen-Symbol](assets/remove-column-icon.png) rechts neben dem aktuellen Feld im Bereich **In diesem Spaltenfeld** anzeigen) in der linken oberen Ecke von Report Builder, und beginnen Sie mit der Eingabe eines neuen Felds. Klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
    Weitere Informationen zu den Feldern, die Sie in den Spalten sehen, finden Sie unter [Glossar der Adobe Workfront-Terminologie](../../../workfront-basics/navigate-workfront/workfront-navigation/workfront-terminology-glossary.md).
 
-   ![](assets/nwe-add-column-typeahead-350x459.png)
+   ![Spaltentypvervollständigung hinzufügen](assets/nwe-add-column-typeahead-350x459.png)
 
 1. (Optional) Klicken Sie im Bereich **Spalteneinstellungen** auf **Sortieren nach dieser Spalte**, um die Werte in der Spalte entweder in aufsteigender oder in absteigender alphabetischer Reihenfolge zu sortieren. Geben Sie dann an, ob die Liste diese Spalte als erste Sortierung verwenden soll.
 
@@ -202,7 +203,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Wählen Sie **Vorhandene Gruppierung anwenden**, um eine vorhandene Gruppierung auszuwählen, wenn sie in der Liste angezeigt wird.
 
-   ![](assets/nwe-add-grouping-350x230.png)
+   ![Gruppierung hinzufügen](assets/nwe-add-grouping-350x230.png)
 
 1. Beginnen Sie, das Feld einzugeben, das Sie als Gruppierung hinzufügen möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt ausgefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es dieser Gruppierung hinzuzufügen.
 1. (Optional) Sie können eine Gruppierung im Textmodus erstellen, indem Sie auf **In Textmodus wechseln** klicken. Weitere Informationen zum Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
@@ -234,7 +235,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Oder\
    Wählen **Vorhandenen Filter anwenden**, um einen vorhandenen Filter zu verwenden.
 
-   ![](assets/nwe-add-a-filter-350x93.png)
+   ![Filter hinzufügen](assets/nwe-add-a-filter-350x93.png)
 
 1. Wenn Sie auf **Filterregel hinzufügen** geklickt haben, geben Sie das Feld ein, das Sie als Filter hinzufügen möchten. Wenn das Feld verfügbar ist, wird es für jedes Objekt ausgefüllt, mit dem es verknüpft werden kann. Klicken Sie auf den Namen des Felds, um es diesem Filter hinzuzufügen.\
    Verwenden Sie Filtermodifikatoren, um Ihren Filter zu erstellen. Weitere Informationen zu Filtermodifikatoren finden Sie unter [Filter- und Bedingungsmodifikatoren](../../../reports-and-dashboards/reports/reporting-elements/filter-condition-modifiers.md).
@@ -254,7 +255,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Beginnen Sie mit der Erstellung eines Berichts, wie [ Abschnitt „Erstellen eines ](#create-a-report)&quot; in diesem Artikel beschrieben.
 1. Wählen Sie in Report Builder die Registerkarte **Diagramm** und wählen Sie dann den Diagrammtyp aus, den Sie hinzufügen möchten.
 
-   ![](assets/nwe-add-a-chart-350x247.png)
+   ![Diagramm hinzufügen](assets/nwe-add-a-chart-350x247.png)
 
    Weitere Informationen zum Erstellen eines Diagramms in einem Bericht finden Sie unter [Hinzufügen eines Diagramms zu einem Bericht](../../../reports-and-dashboards/reports/creating-and-managing-reports/add-chart-report.md).
 

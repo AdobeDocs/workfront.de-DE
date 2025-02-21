@@ -7,9 +7,9 @@ description: Sie können die folgenden Aufgabenfilter anwenden, um Arbeitsaufgab
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 4c3956e1-59e0-4bf2-8739-8064271d6281
-source-git-commit: a19668ac2238448010b5a177120f936ef7ba5bba
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '808'
+source-wordcount: '841'
 ht-degree: 1%
 
 ---
@@ -70,7 +70,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um Aufgaben ohne untergeordnete Elemente anzuzeigen. Sie könnten eigene Eltern haben und Kinder anderer Aufgaben sein.
 
-1. Klicken Sie im **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder im ![](assets/lines-main-menu.png) **Hauptmenü** in der oberen linken Ecke, falls verfügbar, auf **Berichte**.
+1. Klicken Sie im **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder im **Hauptmenü** ![Hauptmenüsymbol](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, auf **Berichte**.
 
 1. Klicken Sie **Neuer Bericht**.
 1. Wählen Sie einen **Aufgabenbericht**.
@@ -79,7 +79,7 @@ Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um Aufgaben
 1. Beginnen Sie in der Zeile **Feldname eingeben…** mit der Eingabe von **Anzahl der untergeordneten Elemente** und klicken Sie dann auf **Aufgabe >> Anzahl der untergeordneten Elemente** wenn es in der Liste angezeigt wird.
 
 1. Wählen Sie **Gleich (Groß- und Kleinschreibung** für Ihren Modifikator aus und geben Sie **0** für die Anzahl der untergeordneten Elemente ein.\
-   ![](assets/parent-task-filter-from-the-ui-350x76.png)
+   ![Filter der übergeordneten Aufgabe](assets/parent-task-filter-from-the-ui-350x76.png)
 
    Oder
 
@@ -99,7 +99,7 @@ Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um Aufgaben
 
 Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um Aufgaben mit übergeordneten Elementen anzuzeigen, d. h. es handelt sich um untergeordnete Aufgaben. Diese Aufgaben können jedoch auch eigene untergeordnete Elemente haben, da der Filter deren untergeordnete Elemente nicht ausschließt. Untergeordnete Aufgaben, die anderen Aufgaben ebenfalls übergeordnet sind, werden nicht als Arbeitsaufgaben betrachtet.
 
-1. Klicken Sie im **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder im ![](assets/lines-main-menu.png) **Hauptmenü** in der oberen linken Ecke, falls verfügbar, auf **Berichte**.
+1. Klicken Sie im **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder im **Hauptmenü** ![Hauptmenüsymbol](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, auf **Berichte**.
 
 1. Klicken Sie **Neuer Bericht**.
 1. Wählen Sie einen **Aufgabenbericht**.
@@ -108,7 +108,7 @@ Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um Aufgaben
 1. Beginnen Sie in der Zeile **Feldname eingeben …** mit der Eingabe **Übergeordnete ID** und wählen Sie dann **Aufgabe >> Übergeordnete ID** aus, wenn sie in der Liste angezeigt wird.
 1. Wählen Sie **Modifikator** Ist nicht leer“ aus.
 
-   ![](assets/filter-parent-id-not-blank-350x100.png)
+   ![Übergeordnete ID ist nicht leer](assets/filter-parent-id-not-blank-350x100.png)
 
    Oder
 
@@ -124,7 +124,7 @@ Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um Aufgaben
 
 Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um eigenständige Arbeitsaufgaben anzuzeigen. Diese Aufgaben haben keine Eltern und keine eigenen Kinder.
 
-1. Klicken Sie im **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder im ![](assets/lines-main-menu.png) **Hauptmenü** in der oberen linken Ecke, falls verfügbar, auf **Berichte**.
+1. Klicken Sie im **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder im **Hauptmenü** ![Hauptmenüsymbol](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, auf **Berichte**.
 
 1. Klicken Sie **Neuer Bericht**.
 1. Wählen Sie einen **Aufgabenbericht**.
@@ -136,7 +136,7 @@ Sie können den folgenden Filter auf einen Aufgabenbericht anwenden, um eigenst�
 1. Geben Sie in **Feldnamen eingeben …** Zeile beginnen Sie mit der Eingabe **Übergeordnete ID** und wählen Sie dann **Aufgabe > Übergeordnete ID** aus der Liste aus.
 1. Wählen Sie **Modifikator &quot;**&quot; aus.
 
-   ![](assets/filter-parent-id-blank-and-zero-children-350x121.png)
+   ![Übergeordnete ID ist leer und keine untergeordneten Elemente](assets/filter-parent-id-blank-and-zero-children-350x121.png)
 
    Oder
 

@@ -7,9 +7,9 @@ description: Erstellen eines Berichts zur Benutzerdelegierung
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c860574b-0488-499e-8d36-d0f3f85aac2d
-source-git-commit: 394eb1aed6508399b6459430acec7c0729036edc
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '326'
+source-wordcount: '333'
 ht-degree: 2%
 
 ---
@@ -83,11 +83,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen eines Berichts zur Benutzerdelegierung
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Berichte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Berichte**.
 
 1. Klicken Sie **Neuer Bericht** und wählen Sie dann **Benutzerdelegierung** aus.
 
-   ![](assets/classic-new-report-user-delegation-350x644.png)
+   ![Benutzerdelegierung für neuen Bericht](assets/classic-new-report-user-delegation-350x644.png)
 
    Die folgenden Felder werden standardmäßig in diesem Bericht angezeigt:
 

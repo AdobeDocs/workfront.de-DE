@@ -6,9 +6,9 @@ description: Sie können einen Filter in einer Liste oder einem Bericht im Textm
 author: Nolan
 feature: Reports and Dashboards
 exl-id: bfd1d49f-72cd-466d-8b35-8ae9848646be
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1042'
+source-wordcount: '1044'
 ht-degree: 1%
 
 ---
@@ -87,7 +87,7 @@ Informationen zum Erstellen eines Berichts finden Sie unter [Erstellen eines ben
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   Um auf den Filter aus einer Liste zuzugreifen, wechseln Sie zur Liste, klicken Sie auf das Symbol **Filter**, bewegen Sie dann den Mauszeiger über den Filter im seitlichen Bedienfeld **Filter**, das Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![](assets/edit-icon.png). Entweder wird im **Filter** Seitenbereich Ihr ausgewählter Filter angezeigt oder der Legacy-Filter-Builder wird geöffnet.
+   Um auf den Filter aus einer Liste zuzugreifen, wechseln Sie zur Liste, klicken Sie auf das Symbol **Filter**, bewegen Sie dann den Mauszeiger über den Filter im seitlichen Bedienfeld **Filter**, das Sie ändern möchten, und klicken Sie auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png). Entweder wird im **Filter** Seitenbereich Ihr ausgewählter Filter angezeigt oder der Legacy-Filter-Builder wird geöffnet.
 
    ODER
 

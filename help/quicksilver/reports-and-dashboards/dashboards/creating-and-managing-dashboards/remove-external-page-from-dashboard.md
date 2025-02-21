@@ -6,9 +6,9 @@ description: Sie können eine externe Seite aus einem Dashboard entfernen, wenn 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9e400b8a-bbb8-4d1f-b419-d4a4518c0b2e
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '239'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -69,11 +69,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Klicken Sie **Dashboard-Aktionen** und dann auf **Bearbeiten**.
 
-   ![](assets/unshimmed-edit-dashboard.png)
+   ![Dashboard bearbeiten](assets/unshimmed-edit-dashboard.png)
 
-1. Suchen Sie rechts im Bildschirm die externe Seite, die Sie entfernen möchten, und klicken Sie auf das Symbol **Löschen** ![](assets/delete.png).
+1. Suchen Sie rechts im Bildschirm die externe Seite, die Sie entfernen möchten, und klicken Sie auf das Symbol **Löschen** ![Löschen](assets/delete.png).
 
-   ![](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
+   ![Symbol „Externe Seite löschen“ im Dashboard](assets/delete-external-page-icon-inside-dashboard-nwe-350x284.png)
 
 1. Klicken Sie **Speichern + Schließen** in der linken unteren Ecke.
 

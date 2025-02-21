@@ -7,9 +7,9 @@ description: Einige Objekte, die Sie in einer Ansicht anzeigen, verknüpfen stan
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 08264437-f12d-43fa-8cb4-264806c6479b
-source-git-commit: 17a277a5a63a521ec7285e3f5051bfd42fc204bf
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '390'
+source-wordcount: '392'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Oder
 
-   Klicken Sie auf **Bearbeiten-Symbol** ![](assets/edit-icon.png)
+   Klicken Sie auf **Bearbeiten** ![Bearbeiten](assets/edit-icon.png)
 
    Um eine vorhandene Ansicht zu bearbeiten, wählen Sie diese aus.
 

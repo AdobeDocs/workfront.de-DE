@@ -5,9 +5,9 @@ hidefromtoc: true
 hide: true
 recommendations: noDisplay, noCatalog
 exl-id: b02ca181-e3c3-41e9-ab45-b1b606909127
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '639'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Eine neue Option Arbeitsflächen-Dashboards im linken Bereich der bestehenden Da
 
 1. Klicken Sie auf das **Anpassen, was Benutzer sehen** Dropdown-Menü und dann auf **Dashboards**.
 
-1. Klicken Sie in der **unten angezeigten**-Liste auf das ![](assets/delete-secondary-nav-item.png) neben „Arbeitsflächen **Dashboards**. Das Symbol ändert sich in ![](assets/add-secondary-nav-item.png), um anzuzeigen, dass es jetzt im linken Bedienfeld der Dashboards sichtbar ist.
+1. Klicken Sie in der **unten angezeigten** auf das Symbol ![Sekundäres Navigationselement löschen](assets/delete-secondary-nav-item.png) neben **Arbeitsflächen-Dashboards**. Das Symbol ändert sich in ![Sekundäres Nav-Element hinzufügen](assets/add-secondary-nav-item.png) um anzuzeigen, dass es jetzt im linken Bedienfeld der Dashboards sichtbar ist.
 
 1. Klicken **unten** Bildschirm auf „Speichern“.
 
@@ -49,7 +49,7 @@ Eine neue Option Arbeitsflächen-Dashboards im linken Bereich der bestehenden Da
 
 1. Stellen Sie sicher, dass Sie die Option Arbeitsflächen-Dashboards in Ihrer Layout-Vorlage aktiviert haben. Anweisungen **Sie oben unter „Hinzufügen von** zum Dashboards-Menü“.
 
-1. Klicken Sie auf das Hauptmenüsymbol ![](assets/main-menu-icon.png) dann auf **Dashboards**.
+1. Klicken Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Dashboards**.
 
 1. Klicken Sie im linken Bedienfeld auf **Arbeitsflächen-Dashboards**.
 

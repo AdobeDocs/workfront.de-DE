@@ -7,9 +7,9 @@ description: Sie können die Informationen, die in mehreren separaten Spalten an
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d4f9db12-59ce-4cfc-90dd-e611b49fafdf
-source-git-commit: 8c51f8acbe4cefc2404709d9b52c2fe5ec3c7fca
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1076'
+source-wordcount: '1091'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
   Die folgenden Ausnahmen sind vorhanden:
 
    * Beim Anzeigen von Informationen in Workfront wird die Formatierung der ersten Spalte beibehalten und die Formatierung für alle anderen Spalten wird ignoriert, wenn die Spalten, aus denen eine zusammengeführte Spalte besteht, unterschiedliche Formatierungen aufweisen.
-   * Beim Exportieren der Ansicht in eine PDF-Datei gilt die bedingte Formatierung für die erste Spalte in einer zusammengeführten Spalte.
+   * Beim Exportieren der Ansicht in eine PDF-Datei wird die bedingte Formatierung auf die erste Spalte in einer zusammengeführten Spalte angewendet.
    * Beim Exportieren der Ansicht in eine Excel-Datei werden zusammengeführte Spalten als separate Spalten angezeigt. Die einzelnen Spalten zeigen auch ihre jeweiligen bedingten Formatierungsregeln an.
 
 * Spalten mit dem **viewAlias**-Attribut können die Anzahl der Spalten begrenzen, die zusammengeführt werden können. Um diese Einschränkungen zu vermeiden, vermeiden Sie die Verwendung des **viewalias**-Attributs. Wenn Sie das Attribut **viewalias** in eine Spalte einbeziehen müssen, stellen Sie sicher, dass dies das letzte in der Spalte aufgeführte Element ist.
@@ -95,7 +95,7 @@ Sie können die Daten aus mehreren separaten Spalten zusammenführen, um sie in 
 So führen Sie Daten aus zwei Spalten ohne Zeilenumbruch zusammen:
 
 1. Navigieren Sie zu einer Liste von Objekten.
-1. Wählen Sie aus **Dropdown** Liste „Ansicht“ eine Ansicht aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png), um die Ansicht zu bearbeiten.
+1. Wählen Sie aus **Dropdown** Liste Ansicht eine Ansicht aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), um die Ansicht zu bearbeiten.
 1. Wechseln Sie zur ersten Spalte, die Sie zusammenführen möchten, und klicken Sie dann auf **In Textmodus wechseln** > **Textmodus bearbeiten**.
 1. Fügen Sie der ersten Spalte, die Sie zusammenführen möchten, folgenden Text hinzu:
 
@@ -121,7 +121,7 @@ So führen Sie Daten aus zwei Spalten ohne Zeilenumbruch zusammen:
    column.3.valueformat=HTML
    ```
 
-   ![](assets/shared-column-no-line-breaks-350x142.png)
+   ![Freigegebene Spalte ohne Zeilenumbrüche](assets/shared-column-no-line-breaks-350x142.png)
 
 
 1. Klicken Sie **Fertig** und dann **Ansicht speichern**.
@@ -131,7 +131,7 @@ So führen Sie Daten aus zwei Spalten ohne Zeilenumbruch zusammen:
 Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusammenzuführen und in einer gemeinsamen Spalte mit einem Zeilenumbruch zwischen den Werten jeder Spalte anzuzeigen:
 
 1. Navigieren Sie zu einer Liste von Objekten.
-1. Wählen Sie aus **Dropdown** Liste „Ansicht“ eine Ansicht aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png), um die Ansicht zu bearbeiten.
+1. Wählen Sie aus **Dropdown** Liste Ansicht eine Ansicht aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), um die Ansicht zu bearbeiten.
 1. Fügen Sie zwischen den beiden Spalten, die Sie zusammenführen möchten, eine dritte Spalte hinzu.
 
    >[!TIP]
@@ -182,6 +182,6 @@ Führen Sie die folgenden Schritte aus, um die Daten aus mehreren Spalten zusamm
    column.5.valueformat=HTML 
    ```
 
-   ![](assets/shared-column-with-line-breaks-350x199.png)
+   ![Freigegebene Spalte mit Zeilenumbrüchen](assets/shared-column-with-line-breaks-350x199.png)
 
 1. Klicken Sie **Fertig** und dann **Ansicht speichern**.

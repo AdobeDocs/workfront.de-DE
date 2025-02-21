@@ -4,9 +4,9 @@ description: Filtern einer Tabelle auf der Reporting-Arbeitsfläche
 hidefromtoc: true
 hide: true
 exl-id: 1838b142-d845-4795-b27f-80bfba18e9d4
-source-git-commit: 535e9c8481ce0781ee0d35636bb6d56de4d1e102
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '864'
+source-wordcount: '871'
 ht-degree: 0%
 
 ---
@@ -46,19 +46,19 @@ Bevor Sie beginnen, müssen Sie sich für die Betaversion der Reporting-Arbeitsf
 
 ## Konfigurieren von Filterregeln für Tabellen
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Reporting**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Reporting**.
 
 1. Klicken Sie **Neuer Bericht**.
 
    Oder
 
-   Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das **Mehr Menü**-Symbol ![](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten** aus.
+   Um zu einem vorhandenen Bericht zu wechseln, klicken Sie auf das Symbol **Mehr Menü** Symbol ![Mehr](assets/more-icon.png) in der Berichtskopfzeile und wählen Sie dann **Bearbeiten**.
 
 1. Um Zeilen in einer neuen Tabelle zu gruppieren, ziehen oder doppelklicken Sie auf einen Tabellenblock auf der Arbeitsfläche.
 
    Oder
 
-   Um Zeilen in einer vorhandenen Tabelle zu gruppieren, klicken Sie auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png) in der Tabellenkopfzeile.
+   Um Zeilen in einer vorhandenen Tabelle zu gruppieren, klicken Sie auf das Symbol **Bearbeiten** ![Symbol Bearbeiten](assets/edit-icon.png) in der Tabellenkopfzeile.
 
 1. Suchen Sie im rechten Bedienfeld das Feld, nach dem Sie Ihre Tabelle filtern möchten, und ziehen Sie es dann in den Abschnitt Filter .
 

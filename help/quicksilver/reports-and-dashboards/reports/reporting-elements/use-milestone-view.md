@@ -6,9 +6,9 @@ description: Sie können die Meilenstein -Ansicht auf eine Projektliste oder ein
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1302'
+source-wordcount: '1312'
 ht-degree: 0%
 
 ---
@@ -126,16 +126,16 @@ Beim Anzeigen einer Projektliste oder eines Projektberichts in der Meilenstein -
 * **Aufgabenstatussymbole:** neben jedem Projekt und jeder Aufgabe wird in der Meilenstein -Ansicht ein Statussymbol angezeigt.
 
    * Im Zeitplan\
-     ![](assets/gantt-ontime.png)
+     ![Symbol „Einschaltzeit“](assets/gantt-ontime.png)
 
    * In Verzug\
-     ![](assets/gantt-behind.png)
+     ![Hinter-Symbol](assets/gantt-behind.png)
 
    * Gefährdet\
-     ![](assets/gantt-atrisk.png)
+     ![Risiko-Symbol](assets/gantt-atrisk.png)
 
    * Verspätet\
-     ![](assets/gantt-late.png)
+     ![Spätsymbol](assets/gantt-late.png)
 
   Sie können die Anzeige dieser Statussymbole deaktivieren, wie im Abschnitt [Konfigurieren, welche Informationen in der Meilenstein-Ansicht angezeigt werden](#configure-what-information-displays-in-the-milestone-view) in diesem Artikel beschrieben.\
   Weitere Informationen zu den einzelnen Statustypen finden Sie im Artikel [Übersicht über den Aufgabenstatus](../../../manage-work/tasks/task-information/task-progress-status.md).
@@ -183,7 +183,7 @@ So konfigurieren Sie, ob Projektstatussymbole und der Prozentsatz der Projektabs
 {{step1-to-projects}}
 
 1. Klicken Sie auf **Dropdown** Menü „Ansicht“ und dann auf **Meilenstein**.\
-   Wenn Sie eine Liste von Projekten in einem Portfolio oder Programm anzeigen, wählen Sie die Unterregisterkarte **Meilenstein** aus.
+   Wenn Sie eine Liste von Projekten in einer Portfolio oder einem Programm anzeigen, wählen Sie die Unterregisterkarte **Meilenstein** aus.
 
 1. Klicken Sie **Optionen** in der oberen rechten Ecke der Ansicht Meilenstein .\
    ![milestone_view_options.png](assets/milestone-view-options-350x141.png)

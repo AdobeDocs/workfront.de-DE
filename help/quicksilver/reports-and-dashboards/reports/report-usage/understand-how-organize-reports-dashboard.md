@@ -7,9 +7,9 @@ description: Sie können sehen, ob ein Bericht zu einem Dashboard in Adobe Workf
 author: Nolan
 feature: Reports and Dashboards
 exl-id: ce00c307-9e64-49f5-997b-f7fc461c960c
-source-git-commit: d738ef3f6642d5b1a646f58896575a2971bbc06a
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '652'
 ht-degree: 1%
 
 ---
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 So erstellen Sie eine Ansicht mit Dashboard-Informationen für eine Berichtsliste:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront und dann auf **Berichte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **Berichte**.
 1. Klicken Sie in der Berichtsliste auf das **Anzeigen** Dropdown-Menü.
 1. Klicken Sie **Neue Ansicht**.
 1. Klicken Sie auf **Spalte hinzufügen**.
@@ -77,13 +77,13 @@ So erstellen Sie eine Ansicht mit Dashboard-Informationen für eine Berichtslist
 
 1. Klicken Sie auf **Ansicht speichern**.\
    Die Dashboards, auf denen ein Bericht angezeigt wird, werden in der Spalte Dashboards der Berichtsliste angezeigt.\
-   ![](assets/qs-dashboards-in-report-view.png)
+   ![Dashboards im Bericht](assets/qs-dashboards-in-report-view.png)
 
 ## Filtern einer Berichtsliste nach Dashboard-Informationen
 
 So filtern Sie eine Liste von Berichten nach Dashboard-Informationen:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront und dann auf **Berichte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **Berichte**.
 
 1. Klicken Sie in der Berichtsliste auf das **Filter** Dropdown-Menü.
 1. Klicken Sie **Neuer Filter** und dann auf **Filterregel hinzufügen**.
@@ -93,7 +93,7 @@ So filtern Sie eine Liste von Berichten nach Dashboard-Informationen:
 1. Wählen Sie unter **Objekt** Dashboards“ **Name** aus.
 
 1. Wählen Sie **Dropdown-Menü** Modifikator“ aus und geben Sie dann den Namen des Dashboards ein, nach dem Sie filtern möchten. Sie können mehrere Dashboards für Ihren Filter auswählen.\
-   ![](assets/qs-dashboards-in-report-filters-350x143.png)
+   ![Dashboards in Berichtsfiltern](assets/qs-dashboards-in-report-filters-350x143.png)
 
 1. Klicken Sie auf **Speichern + schließen**.\
    Dadurch wird eine Liste von Berichten angezeigt, die nur in den angegebenen Dashboards aufgeführt sind.\

@@ -7,9 +7,9 @@ description: Häufig gestellte Fragen zu Berichten
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 5e267d45-7922-4c0f-8530-59a8c152f625
-source-git-commit: 548e713700fda79070f59f3dc3457410d2c50133
+source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
 workflow-type: tm+mt
-source-wordcount: '1509'
+source-wordcount: '1519'
 ht-degree: 0%
 
 ---
@@ -90,7 +90,7 @@ Informationen zum Ändern von Filtern und Gruppierungen finden Sie in den Artike
 ### Antwort
 
 Der Bericht oder Kalender kann über eine Platzhalterfiltervariable verfügen, die auf den angemeldeten Benutzer verweist. In diesem Fall zeigt der Bericht Informationen basierend auf dem angemeldeten Benutzer an. Passen Sie den Filter an, um den Platzhalter zu entfernen, der auf den angemeldeten Benutzer verweist.\
-![](assets/qs--user.id-filter-variable-350x79.png)
+![Benutzer-ID-Filtervariable](assets/qs--user.id-filter-variable-350x79.png)
 
 Eine vollständige Liste der benutzerbasierten Platzhalterfiltervariablen finden Sie unter [Übersicht über Platzhalterfiltervariablen](../../../reports-and-dashboards/reports/reporting-elements/understand-wildcard-filter-variables.md).
 
@@ -122,7 +122,7 @@ Verwenden Sie den folgenden Filter in einem Aufgaben- oder Problembericht, um al
 1. Wählen Sie den **Gleich**.
 1. Beginnen Sie, *$$USER.ID* in das Textfeld einzugeben und wählen Sie es aus der angezeigten Dropdown-Liste aus.\
    Dadurch wird sichergestellt, dass alle Aufgaben und Probleme angezeigt werden, die dem angemeldeten Benutzer zugewiesen sind. Sie können den Platzhalter durch einen bestimmten Benutzernamen ersetzen.\
-   ![](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
+   ![Mir zugewiesene Aufgaben](assets/qs-tasks-assigned-to-me-assignment-users-name-filter-350x63.png)
 
 1. Klicken Sie auf **Speichern + schließen**.
 
@@ -143,7 +143,7 @@ Es gibt jedoch einige Dinge, die verhindern können, dass diese Links angezeigt 
 * Wenn Sie eine **Ansicht** auf diese Listen angewendet haben, bei der eine andere Währung als die Standardwährung für das Projekt ausgewählt ist, werden die Links nicht angezeigt. Ändern Sie **Ansicht** in **Originalwährung des Projekts** und die Links sollten angezeigt werden, damit Sie Ihren Projekten Probleme und Aufgaben hinzufügen können.\
   Weitere Informationen zum Ändern der Währung in Ihrer Ansicht finden Sie unter [Erstellen von Finanzdatenberichten mit eindeutigen Wechselkursen](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-financial-data-reports-unique-exchange-rates.md).
 
-![](assets/nwe-project-original-currency-350x229.png)
+![Projektwährung](assets/nwe-project-original-currency-350x229.png)
 
 ## Werden die Informationen in meinem Bericht oder Dashboard automatisch aktualisiert?
 
