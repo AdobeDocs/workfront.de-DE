@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: f9dea6c80c0d681e3638c9baf36e6e511693b59c
+source-git-commit: 0cbce301426ee42bc00f8b0930a13d0d7875e382
 workflow-type: tm+mt
-source-wordcount: '1322'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Bevor Sie Admin Console für Workfront verwenden, sollten Sie eine E-Mail erhalt
   >
   >Nehmen Sie keine Änderungen am Produktprofil selbst vor.
 
-* Adobe Admin Console-Administratoren können automatische Zuweisungsregeln einrichten, um den Prozess der Zuweisung von Adobe-Produkten zu Benutzenden in ihrer Organisation zu automatisieren. Weitere Informationen und Anweisungen finden Sie unter [Verwalten automatischer Zuweisungsregeln](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in der Dokumentation zu Adobe.
+* Adobe Admin Console-Administratoren können automatische Zuweisungsregeln einrichten, um den Prozess der Zuweisung von Adobe-Produkten zu Benutzenden in ihrer Organisation zu automatisieren. Ihr Unternehmen muss in das einheitliche Adobe-Erlebnis migriert werden, um diese Funktion nutzen zu können. Weitere Informationen und Anweisungen finden Sie unter [Verwalten automatischer Zuweisungsregeln](https://helpx.adobe.com/enterprise/using/automatic-assignment-rules.html) in der Dokumentation zu Adobe.
 
 ## Zugriff auf den Benutzer- und Administratorbereich Ihrer Produktionsinstanz von Workfront {#access-the-user-and-admin-area-for-your-production-instance-of-workfront}
 
