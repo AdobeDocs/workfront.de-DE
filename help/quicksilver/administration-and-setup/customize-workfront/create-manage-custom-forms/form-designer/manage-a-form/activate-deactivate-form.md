@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 6d9a409d-8d16-4c58-ad02-f60aa1ac1714
-source-git-commit: c1bc2832d1c52885e737056172e7aec93a951e6c
+source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
 workflow-type: tm+mt
-source-wordcount: '367'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Sie können ein benutzerdefiniertes Formular erneut aktivieren oder deaktivieren
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 

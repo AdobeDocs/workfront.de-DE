@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: a264512f-54ab-426e-8dd7-5602ece81c57
-source-git-commit: 2a356b2cc98f8226d2a616cdd907a3aebaeecee0
+source-git-commit: a7be72f0a594a21baed2592d8a2e467118ab1b7f
 workflow-type: tm+mt
-source-wordcount: '1530'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ Sie können den Zugriff für ein benutzerdefiniertes Formular konfigurieren, um 
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
-Sie müssen über Folgendes verfügen, um die Schritte in diesem Artikel auszuführen:
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
