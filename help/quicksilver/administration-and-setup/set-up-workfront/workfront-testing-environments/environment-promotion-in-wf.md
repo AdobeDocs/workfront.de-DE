@@ -9,9 +9,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b4c04f5-f519-44e9-8429-0ce80c2d7c5b
-source-git-commit: 9a588df1ef48b40056c5228c8ff03b5819eb4410
+source-git-commit: 0cc1ab3a7412b7200ddab1a789ef5e9d86c3949f
 workflow-type: tm+mt
-source-wordcount: '1041'
+source-wordcount: '1046'
 ht-degree: 2%
 
 ---
@@ -82,8 +82,8 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 | Rolle (ROLE) | Funktion |
 | Team (Team) | <br> |
 | Firma (COMPY) | Firma<br>Überschreibungsrate<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter <br>Kategorieanzeigelogik<br>Gruppe |
-| Portfolio (PORT) | Portfolio <br>Programm<br>Gruppe<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter Option<br>Kategorieanzeigelogik |
-| Programm (PRGM) | Programm<br>Portfolio <br>Gruppe<br>Kategorie<br>Kategorie Parameter<br>Parameter<br>Parametergruppe<br>Parameter Option<br>Kategorieanzeigelogik |
+| Portfolio (PORT) | Portfolio<br>program<br>group<br>category<br>category Parameter<br>parameter<br>parameter group<br>parameter-Option<br>category Anzeigelogik |
+| Programm (PRGM) | program<br>Portfolio<br>group<br>category<br>category-parameter<br>parameter<br>parameter group<br>parameter-option<br>category-Anzeigelogik |
 
 ### Andere Konfigurationsobjekte
 
@@ -100,6 +100,7 @@ Da sich die Umgebungsförderung mit der Objektkonfiguration befasst, werden Tran
 | Zugriffsebene (ACSLV) | Zugriffsebene |
 | Tarifkarte (RTCR) | Tarifkarte |
 | Speicherort/Klassifikator (CLSF) | Speicherort/Klassifikator |
+| Geschäftsregeln (BSNRUL) | Verfahrensregeln |
 
 \* Derzeit nicht verfügbar
 
