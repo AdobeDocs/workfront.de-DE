@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 0343fe74-1be4-43e2-9e3d-8aa1f7ea26fa
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '3276'
+source-wordcount: '3325'
 ht-degree: 0%
 
 ---
@@ -86,8 +86,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
       <td> 
        <ul> 
         <li><p><b>Vorname</b></p></li>
-        <li><p><b>Nachname</b></p></li> 
-        <li> <p><b>E-Mail-Adresse</b> Die E-Mail-Adresse für einen Benutzer ist auch dessen Benutzername in Workfront. Bei diesem Feld wird zwischen Groß- und Kleinschreibung unterschieden und es muss eindeutig sein. Wenn ein(e) Benutzende(r) versucht, innerhalb eines 10-minütigen Fensters dreimal eine nicht eindeutige E-Mail-Adresse hinzuzufügen, wird eine reCAPTCHA-Antwort angezeigt.</p> <p> Wählen Sie die Einstellung <b>Ich bin kein Roboter</b> aus, bevor Sie fortfahren können.</p><p>Wenn Sie die E-Mail-Zulassungsliste verwenden und eine E-Mail-Domain eingeben, die nicht auf der Liste steht, erhält der/die Benutzende keine E-Mail-Benachrichtigungen. Weitere Informationen über die Zulassungsliste auf die Zulassungsliste setzte finden Sie unter <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Konfigurieren Ihrer E-Mail</a>.</p> </li> 
+        <li><p><b>Nachname</b></p><p><b>HINWEIS:</b></p><p>Beim Bearbeiten des Benutzernamens in Workfront wird der Benutzername in der Adobe Admin Console nicht bearbeitet.</p></li> 
+        <li> <p><b>E-Mail-Adresse</b> Die E-Mail-Adresse für einen Benutzer ist auch dessen Benutzername in Workfront. Bei diesem Feld wird zwischen Groß- und Kleinschreibung unterschieden und es muss eindeutig sein. Wenn ein(e) Benutzende(r) versucht, innerhalb eines 10-minütigen Fensters dreimal eine nicht eindeutige E-Mail-Adresse hinzuzufügen, wird eine reCAPTCHA-Antwort angezeigt.</p> <p> Wählen Sie die Einstellung <b>Ich bin kein Roboter</b> aus, bevor Sie fortfahren können.</p><p>Wenn Sie die E-Mail-Zulassungsliste verwenden und eine E-Mail-Domain eingeben, die nicht auf der Liste steht, erhält der/die Benutzende keine E-Mail-Benachrichtigungen. Weitere Informationen über die Zulassungsliste auf die Zulassungsliste setzte finden Sie unter <a href="../../../administration-and-setup/get-started-wf-administration/configure-your-email-allowlist.md" class="MCXref xref">Konfigurieren Ihrer E-Mail</a>.</p><p>Wenn Ihre Organisation in die Adobe Admin Console migriert wurde, können Sie die E-Mail-Adresse von Benutzenden in Workfront nicht bearbeiten. Die E-Mail-Adresse des Benutzers ist in der Adobe Admin Console festgelegt. </li> 
         <li> <p><b>Kennwort zurücksetzen</b>: Klicken Sie auf diesen Link, um das Kennwort des Benutzers zurückzusetzen. Sie müssen Ihr eigenes Kennwort eingeben, bevor Sie das Kennwort eines anderen Benutzers zurücksetzen können.</p> <p>Zum Zurücksetzen des Kennworts eines anderen Benutzers müssen Sie ein Workfront-Administrator oder ein Gruppenadministrator sein.</p> <p><b>HINWEIS</b>:  
           <ul> 
            <li> <p>Wenn Sie Gruppenadministrator sind, können Sie Kennwörter nur für Benutzer in den Gruppen zurücksetzen, in denen Sie als Administrator festgelegt sind. Außerdem muss in Ihrer Zugriffsebene die Berechtigung Benutzeradmin (Gruppenbenutzer) aktiviert sein:</p> <p> <img src="assets/group-admin-user.png" > </p> <p>Diese Einstellung ist standardmäßig deaktiviert. Weitere Informationen finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </li> 

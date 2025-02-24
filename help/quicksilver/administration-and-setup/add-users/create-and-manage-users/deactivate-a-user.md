@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: aba243ba-46c2-4eb7-b704-4368bf0ae3cc
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
 workflow-type: tm+mt
-source-wordcount: '1085'
+source-wordcount: '1105'
 ht-degree: 0%
 
 ---
@@ -39,11 +39,14 @@ Sie können einen Benutzer jederzeit reaktivieren.
 
 >[!IMPORTANT]
 >
->Es wird empfohlen, Benutzer zu deaktivieren, die die Organisation verlassen haben, anstatt sie zu löschen. Wenn ein(e) Benutzende(r) gelöscht wird, geht der gesamte Verlauf in Workfront verloren, der diesem/r Benutzenden zugeordnet ist. Dazu gehören ihre Arbeitszuweisungen, ihre Zuordnung zu Notizen, Stunden, Dokumenten und allen anderen Objekten, die sie einmal erstellt haben.
+>* Es wird empfohlen, Benutzer zu deaktivieren, die die Organisation verlassen haben, anstatt sie zu löschen. Wenn ein(e) Benutzende(r) gelöscht wird, geht der gesamte Verlauf in Workfront verloren, der diesem/r Benutzenden zugeordnet ist. Dazu gehören ihre Arbeitszuweisungen, ihre Zuordnung zu Notizen, Stunden, Dokumenten und allen anderen Objekten, die sie einmal erstellt haben.
 >
->Wenn Sie einen Benutzer in Workfront deaktivieren, werden die Lizenzen des Benutzers sowohl für Workfront als auch für das digitale Proofing entfernt. Darüber hinaus kann dem Benutzer keine Arbeit mehr zugewiesen werden. Wenn eine Benutzerin bzw. ein Benutzer deaktiviert wird, steht die Workfront-Lizenz und Proofing-Lizenz dieser Person zur Verwendung durch eine andere Person zur Verfügung. Alle anderen Informationen im Profil des deaktivierten Benutzers bleiben unverändert.
+>   Wenn Sie einen Benutzer in Workfront deaktivieren, werden die Lizenzen des Benutzers sowohl für Workfront als auch für das digitale Proofing entfernt. Darüber hinaus kann dem Benutzer keine Arbeit mehr zugewiesen werden. Wenn eine Benutzerin bzw. ein Benutzer deaktiviert wird, steht die Workfront-Lizenz und Proofing-Lizenz dieser Person zur Verwendung durch eine andere Person zur Verfügung. Alle anderen Informationen im Profil des deaktivierten Benutzers bleiben unverändert.
 >
->Weitere Informationen über die Auswirkungen des Löschens und der Deaktivierung von Benutzern finden Sie unter [Benutzer löschen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>   Weitere Informationen über die Auswirkungen des Löschens und der Deaktivierung von Benutzern finden Sie unter [Benutzer löschen](../../../administration-and-setup/add-users/create-and-manage-users/delete-a-user.md).
+>
+>* Wenn Sie einen Benutzer in Workfront deaktivieren, wird er nicht aus dem Workfront-Produktprofil in Adobe Admin Console entfernt.
+
 
 ## Zugriffsanforderungen
 
