@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 93c6bc15-d945-4cfc-8e87-f5b4e6fac2f4
-source-git-commit: 799115d836d67a81fe69cd04c8e75014d48d2443
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '709'
+source-wordcount: '748'
 ht-degree: 1%
 
 ---
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -136,53 +136,46 @@ Sie können einen Datensatz personalisieren, indem Sie oben auf der Datensatzvor
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen**, das in der ersten Spalte ![](assets/open-details-icon-in-table-name-field.png).
+   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** (![) ](assets/open-details-icon-in-table-name-field.png) der ersten Spalte.
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   <!--<div class="preview">
+   ![Vorschaufeld Details](assets/details-box.png)
 
-    ![](assets/details-box.png) 
 
-    </div>-->
-
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau <!--check the icon; they are changing it-->, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+1. (Optional) Klicken Sie auf **Symbol „In neuer Registerkarte** öffnen![ Symbol „In neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die Datensatzseite wird geöffnet.
 
-   <!--<div class="preview">
-
-    ![](assets/details-page.png)
-
-    </div>-->
+   ![Detailseite](assets/details-page.png)
 
 1. Bewegen Sie auf der Seite „Datensatzvorschau“ oder „Details“ den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann auf **Abdeckung hinzufügen**.
 
    Oder
 
-   Bewegen Sie den Mauszeiger über ein vorhandenes Cover-Bild und klicken Sie auf das **Mehr**-![](assets/more-menu.png) und dann auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
+   Bewegen Sie den Mauszeiger über ein vorhandenes Titelbild und klicken Sie auf das Menü **Mehr** ![Mehr ](assets/more-menu.png) und dann auf **Hochladen**. <!--check the casing here; I logged a bug for this-->
 Das **„Datensatzabdeckung** wird auf der Registerkarte **Hochladen** geöffnet.
 
-   ![](assets/record-cover-box-for-upload.png)
+   ![Plattenhülle zum Hochladen](assets/record-cover-box-for-upload.png)
 
 1. Klicken Sie **Bilder durchsuchen** und suchen Sie ein Bild auf Ihrem Computer, um es auszuwählen und hinzuzufügen.
 
-1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
+1. (Optional) Um das Bild vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Neues Bild hochladen** ![ (Symbol Neues Bild hochladen](assets/upload-new-image-icon.png) und laden Sie ein neues Bild hoch.
 
 1. (Optional) Klicken Sie auf **Galerie** und klicken Sie dann auf ein Bild in der Galerie. Die Bildergalerie kann nicht geändert werden.
 
-   ![](assets/record-cover-box-for-gallery.png)
+   ![Plattendeckelkasten für Galerie](assets/record-cover-box-for-gallery.png)
 
 1. Klicken Sie **Bild verwenden**.
 
    Das Bild wird oben auf der Datensatzvorschau- oder Detailseite hochgeladen und die Änderungen werden automatisch gespeichert.
 
-   ![](assets/record-page-with-cover-image.png)
+   ![Seite mit Titelbild aufzeichnen](assets/record-page-with-cover-image.png)
 
-1. (Optional) Bewegen Sie den Mauszeiger über das Bild und klicken Sie dann auf das **Mehr**-![](assets/more-menu.png) in der rechten unteren Ecke des Titelbilds. Führen Sie dann einen der folgenden Schritte aus:
+1. (Optional) Bewegen Sie den Mauszeiger über das Bild und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) in der rechten unteren Ecke des Titelbilds. Führen Sie dann einen der folgenden Schritte aus:
 
    * Klicken Sie **Hochladen**, wenn Sie das Titelbild ersetzen möchten, und wiederholen Sie Schritt 6, um ein neues Bild hochzuladen und zu speichern.
-   * Klicken Sie **Neu positionieren** und verwenden Sie das ![](assets/reposition-tool-icon.png) **Neu positionieren**, um das Titelbild zu zentrieren. Klicken Sie anschließend **Speichern**.
+   * Klicken Sie **Neu positionieren** und verwenden Sie das **Neu positionieren** Tool ![Symbol „Neu positionieren“](assets/reposition-tool-icon.png), um das Titelbild zu zentrieren, und klicken Sie dann auf **Speichern** wenn Sie fertig sind.
    * Klicken Sie **Entfernen**, um das Titelbild zu entfernen.
 
    Workfront speichert Ihre Änderungen automatisch.

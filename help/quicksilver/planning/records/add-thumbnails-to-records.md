@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
 workflow-type: tm+mt
-source-wordcount: '872'
+source-wordcount: '913'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -132,9 +132,9 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
 
    Dadurch wird die Seite „Datensatztyp“ geöffnet.
 1. Wählen Sie eine Tabellenansicht aus dem Dropdown **Menü** Ansicht“ aus. Alle Datensätze des ausgewählten Typs werden in einer Tabelle angezeigt.
-1. Bewegen Sie den Mauszeiger über die Primärfeldinformationen und klicken Sie auf die ![](assets/more-menu.png) **Mehr** und dann auf **Miniatur**.
+1. Bewegen Sie den Mauszeiger über die Primärfeldinformationen und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Miniatur**.
 
-   ![](assets/record-more-menu-expanded.png)
+   ![Menü „Mehr aufzeichnen“ erweitert](assets/record-more-menu-expanded.png)
 
    >[!TIP]
    >
@@ -180,15 +180,15 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
 1. Klicken Sie in einer beliebigen Ansicht auf einen Datensatz, um ihn zu öffnen.
 
    Das Vorschaufeld Details wird angezeigt.
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png) oben rechts.
+1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke.
 
    Die Detailseite des Datensatzes wird geöffnet.
 
-1. (Bedingt) Bewegen Sie auf der Seite „Datensatzvorschau“ oder „Details“ den Mauszeiger über das Miniaturbild oder ![](assets/record-thumbnail-icon-on-details-page.png), bewegen Sie dann den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann auf **Miniaturansicht hinzufügen** oder **Miniaturansicht bearbeiten**.
+1. (Bedingt) Bewegen Sie auf der Seite „Datensatzvorschau“ oder „Details“ den Mauszeiger über das Miniaturbild oder Symbol ![Miniaturansicht aufzeichnen auf der Detailseite](assets/record-thumbnail-icon-on-details-page.png) bewegen Sie dann den Mauszeiger über den Bereich über dem Datensatznamen und klicken Sie dann auf **Miniaturansicht hinzufügen** oder **Miniaturansicht bearbeiten**.
 
    Die **Hochladen** wird standardmäßig im Feld **Miniaturansicht aufzeichnen** geöffnet.
 
-   ![](assets/record-thumbnail-box-for-upload.png)
+   ![Aufzeichnen des Miniaturfelds zum Hochladen](assets/record-thumbnail-box-for-upload.png)
 
 1. Datei per Drag-and-Drop ziehen, um sie als Miniatur hinzuzufügen
 
@@ -197,12 +197,12 @@ Sie können eine Miniaturansicht wie folgt hinzufügen:
    Klicken Sie **Bilder durchsuchen** und suchen Sie dann nach einer Bilddatei, die Sie hinzufügen möchten. Die Datei muss auf Ihrem Computer gespeichert werden.
 
 1. (Optional) Verwenden Sie nach dem Hochladen des Bildes im Feld **Miniaturansicht aufzeichnen** das Größenänderungswerkzeug, um das Bild zuzuschneiden und seine Größe zu ändern.
-1. (Optional) Klicken Sie auf das Symbol **Neues Bild hochladen**, ![](assets/upload-new-image-icon.png) ein anderes Bild hochzuladen.
+1. (Optional) Klicken Sie auf das Symbol **Neues Bild hochladen** (![ Symbol Neues Bild hochladen](assets/upload-new-image-icon.png), um ein anderes Bild hochzuladen.
 1. (Optional) Klicken Sie auf die **Galerie** und dann auf ein Bild. Die Bildergalerie kann nicht geändert werden.
 
-   ![](assets/record-thumbnail-box-for-gallery.png)
+   ![Aufzeichnen des Miniaturfelds für die Galerie](assets/record-thumbnail-box-for-gallery.png)
 
-1. (Optional) Um die Miniaturansicht vor dem Speichern zu entfernen, klicken Sie auf das **Entfernen**-Symbol ![](assets/remove-image-icon.png) rechts neben dem Bild.
+1. (Optional) Um die Miniaturansicht vor dem Speichern zu entfernen, klicken Sie auf das Symbol **Entfernen** ![Symbol „Bild entfernen](assets/remove-image-icon.png) rechts neben dem Bild.
 
 1. Klicken Sie **Bild verwenden**, um das Bild als Miniatur hinzuzufügen.
 Dadurch wird das Feld **Miniaturansicht aufzeichnen** geschlossen.
@@ -212,7 +212,7 @@ Die Miniaturansicht wird in den Bereichen von Workfront Planning angezeigt, in d
    >
    >   Sie müssen das Feld Miniaturansicht in der Tabellenansicht aktivieren, um Miniaturansichten in dieser Ansicht anzuzeigen. Sie ist standardmäßig deaktiviert.
 
-1. (Optional) Um die Miniaturansicht nach dem Speichern zu entfernen, klicken Sie auf einen Datensatz in einer beliebigen Ansicht, um die Detailseite zu öffnen. Bewegen Sie dann den Mauszeiger über das Miniaturbild und klicken Sie auf das Symbol **Mehr** Menü ![](assets/more-menu.png)> **Entfernen** ![](assets/remove-image-icon.png). Das Miniaturbild wird entfernt.
+1. (Optional) Um die Miniaturansicht nach dem Speichern zu entfernen, klicken Sie auf einen Datensatz in einer beliebigen Ansicht, um die Detailseite zu öffnen. Bewegen Sie dann den Mauszeiger über das Miniaturbild und klicken Sie auf das **Mehr**-Menü ![Mehr Menüsymbol](assets/more-menu.png)> **Entfernen**-Symbol ![Entfernen-Symbol](assets/remove-image-icon.png). Das Miniaturbild wird entfernt.
 
 
 
