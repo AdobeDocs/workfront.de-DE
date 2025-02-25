@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '292'
+source-wordcount: '308'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Hochladen von Dateien in den Prioritäten
 
 Sie können Dateien aus der Arbeitsliste „Prioritäten“ oder aus einzelnen Arbeitselementen hochladen. Dateien, die über Prioritäten hochgeladen wurden, werden auf der Registerkarte Dokumente des Arbeitselements angezeigt.
+
+Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie können keine Arbeitselemente sehen, die Ihrem Team zugewiesen sind.
 
 ## Zugriffsanforderungen
 

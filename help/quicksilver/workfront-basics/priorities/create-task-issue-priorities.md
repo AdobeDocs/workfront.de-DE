@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 289febf91616c04c0341dbb53bf1b68be03a671d
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '241'
+source-wordcount: '263'
 ht-degree: 4%
 
 ---
@@ -37,7 +37,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><strong>Adobe Workfront-Lizenz*</strong></td> 
    <td> 
    <p>Aktuell: Anforderung oder höher für Anforderungen; Überprüfung oder höher für Probleme; Arbeit oder höher für Aufgaben</p>
-   <p>Neu: Mitwirkender oder höher für Anfragen; Leicht oder höher für Anfragen <!--and documents-->: Standard oder höher</p> 
+   <p>Neu: Mitwirkender oder höher für Anfragen; Leicht oder höher für Anfragen und Dokumente: Standard oder höher</p> 
    </td> 
   </tr> 
   <tr> 
@@ -57,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Erstellen von Aufgaben oder Problemen in Prioritäten
 
-Sie können eine Aufgabe oder ein Problem in einem Projekt erstellen.
+Sie können eine Aufgabe oder ein Problem in einem Projekt erstellen. Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie können keine Arbeitselemente sehen, die Ihrem Team in der Prioritätenarbeitsliste zugewiesen sind.
 
 >[!NOTE]
 >
@@ -69,7 +69,7 @@ Erstellen einer Aufgabe oder eines Problems in einem Projekt:
 
 1. Klicken **oben** auf „Neu erstellen“.
    ![](assets/create-new.png)
-&lt;!—Neuer Bildschirm für Produktions-![](assets/create-new--.png)—>
+Neuer Bildschirm für ![](assets/create-new--.png)
 1. Geben Sie die folgenden Informationen an:
 
    | Feld | Anleitung |

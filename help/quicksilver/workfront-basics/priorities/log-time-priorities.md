@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 5457f516-c213-4b82-b033-bc8db943a217
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '480'
+source-wordcount: '496'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Zeit in Prioritäten protokollieren
 
 Sie können die Zeit für Arbeitselemente in Adobe Workfront protokollieren, um die Anzahl der Stunden anzugeben, die Sie mit deren Bearbeitung verbringen. Die Zeit, die Sie protokollieren, wird in Ihrer Arbeitszeittabelle angezeigt.
+
+Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie können keine Arbeitselemente sehen, die Ihrem Team zugewiesen sind.
 
 ## Zugriffsanforderungen
 
@@ -44,7 +46,7 @@ Sie müssen über die folgenden Zugriffsrechte verfügen, um die Schritte in die
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute- oder höhere Berechtigungen für das Arbeitselement, für das Sie die Zeit protokollieren, einschließlich der Berechtigungen zum Protokollieren von Stunden</p> </td> 
+   <td> <p>Tragen Sie zu oder höhere Berechtigungen für das Arbeitselement bei, für das Sie die Zeit protokollieren, die Berechtigungen zum Protokollieren von Stunden enthält</p> </td> 
   </tr> 
  </tbody> 
 </table>

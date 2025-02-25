@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 17767006-2329-43b7-b4b3-0ca323cc41e0
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '999'
-ht-degree: 3%
+source-wordcount: '1019'
+ht-degree: 2%
 
 ---
 
@@ -22,6 +22,8 @@ Mit Prioritäten können Sie Folgendes genießen
 * Tägliche Aufgaben verwalten und priorisieren: Organisieren Sie Ihren Tag oder Ihre Woche mit konsolidierter Navigation für mehr Klarheit
 * Höhere Produktivität: Schnellerer Zugriff auf den Projektkontext und schnellere Ausführung von Aufgaben mit weniger Klicks
 * Personalisierte Funktionen: Profitieren Sie von Funktionen, die speziell für Aufgabenbesitzer entwickelt wurden
+
+Die Prioritätenarbeitsliste und der Kalender zeigen Arbeitselemente an, die Ihnen zugewiesen sind. Sie können keine Arbeitselemente sehen, die Ihrem Team zugewiesen sind.
 
 ## Suchen und Organisieren Ihrer Arbeit
 

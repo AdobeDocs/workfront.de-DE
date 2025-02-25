@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: d24ad7d1-3a88-479e-beaf-69f8264c9a6b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '537'
 ht-degree: 4%
 
 ---
@@ -65,6 +65,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 +++
 
 ## Arbeiten im Kalender anzeigen
+
+Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie können keine Arbeitselemente sehen, die Ihrem Team im Prioritätskalender zugewiesen sind.
 
 {{step1-to-priorities}}
 

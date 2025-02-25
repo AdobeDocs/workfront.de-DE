@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: d829be62c275ea91d1c97c2d3dd994e325ce9738
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '184'
+source-wordcount: '200'
 ht-degree: 1%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 1%
 # Wichtige Arbeitselemente priorisieren
 
 Sie können die Spalte Mein Fokus verwenden, um Ihre Arbeit zu priorisieren. Die Spalte Mein Fokus ist ein persönlicher Wert und hat keinen Einfluss auf die Priorität, die für die Aufgabe oder das Problem festgelegt wurde.
+
+Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie können keine Arbeitselemente sehen, die Ihrem Team zugewiesen sind.
 
 ## Priorisieren Sie Ihre Arbeit mit der Spalte Mein Fokus .
 

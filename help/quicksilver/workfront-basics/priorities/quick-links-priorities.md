@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -16,6 +16,8 @@ ht-degree: 0%
 # Hinzufügen und Verwalten von Schnellverknüpfungen in Prioritäten
 
 Sie können Links, die Sie häufig im Rahmen einer Aufgabe oder eines Problems besuchen, speichern und auf die Sie über die Registerkarte Übersicht unter Prioritäten zugreifen.
+
+Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie können keine Arbeitselemente sehen, die Ihrem Team zugewiesen sind.
 
 ## Zugriffsanforderungen
 
