@@ -1487,10 +1487,12 @@ ht-degree: 2%
       * Dashboard-Berichtstypen für die Arbeitsfläche {#report-types}
          * [Übersicht über die Berichtstypen im Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/report-types-overview.md)
          * [Hinzufügen eines vorhandenen Berichts zu einem Arbeitsflächen-Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-existing-report.md)
-        <!--* [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
-      * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
-      * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
-      * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)-->
+<!--
+         * [Build a KPI report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-kpi-report.md)
+         * [Build a chart report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-chart-report.md)
+         * [Build a table report in a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/build-table-report.md)
+         * [Add a pending approvals report to a Canvas Dashboard](reports-and-dashboards/canvas-dashboards/report-types/add-pending-approvals-report.md)
+-->
    * Berichte {#reports}
       * [Berichte](reports-and-dashboards/reports/reports-overview.md)
       * Grundlagen der Berichterstellung {#report-basics}
