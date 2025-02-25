@@ -2,13 +2,13 @@
 product-area: reporting
 navigation-topic: reporting-elements
 title: Meilenstein-Ansicht verwenden
-description: Sie können die Meilenstein -Ansicht auf eine Projektliste oder einen Bericht anwenden.
+description: Sie können die Meilenstein -Ansicht auf eine Projektliste oder einen Bericht anwenden. In der Ansicht Meilenstein können Sie alle Meilensteine anzeigen, die mit Aufgaben innerhalb der angezeigten Projekte verknüpft sind.
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c55e53b5-5559-4b6a-a8d7-5028be6af30f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '1312'
+source-wordcount: '1360'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,13 @@ ht-degree: 0%
 
 <!-- Audited: 11/2024 -->
 
-Sie können die Meilenstein -Ansicht auf eine Projektliste oder einen Bericht anwenden.
+Sie können die Meilenstein -Ansicht auf eine Projektliste oder einen Bericht anwenden. In der Ansicht Meilenstein können Sie alle Meilensteine anzeigen, die mit Aufgaben innerhalb der angezeigten Projekte verknüpft sind.
 
-Bevor Sie die Ansicht Meilenstein verwenden können, müssen Meilensteine konfiguriert, Meilensteinpfade zu Projekten hinzugefügt und Meilensteine mit Aufgaben verknüpft werden, wie in den Artikeln [Erstellen eines Meilensteinpfads](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md) und [Zuordnen von Meilensteinen zu Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md) beschrieben.
+Bevor Sie die Meilenstein -Ansicht verwenden können, müssen die folgenden Elemente vorhanden sein:
+
+* Meilensteinpfade werden konfiguriert. Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+* Meilensteinpfade müssen Projekten hinzugefügt werden. Weitere Informationen finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+* Meilensteine sind mit Aufgaben verbunden. Weitere Informationen finden Sie unter [Zuordnen von Meilensteinen zu Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 Die Meilenstein -Ansicht ist beim Anzeigen einer Projektliste oder eines Projektberichts verfügbar. In den folgenden Abschnitten wird beschrieben, wie Sie die Meilenstein -Ansicht anzeigen und verwenden.
 

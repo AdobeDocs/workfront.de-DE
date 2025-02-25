@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: ea1ac823fc414608f5205ac5bd9f29c1209fb7dc
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
-source-wordcount: '516'
+source-wordcount: '700'
 ht-degree: 3%
 
 ---
@@ -22,6 +22,10 @@ ht-degree: 3%
 <!--
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
+
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Als Adobe Workfront-Administrator können Sie Meilensteinpfade erstellen, die dann auf jedes Projekt im System angewendet werden können. Die Änderungen an Meilensteinpfaden in diesem Bereich wirken sich auf das gesamte Workfront-System aus.
 
@@ -116,3 +120,38 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
    Ihr Meilensteinpfad kann jetzt mit einem Projekt verknüpft werden.
 
    Weitere Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten und Meilensteinen mit Aufgaben finden Sie unter [Verknüpfen von Meilensteinen mit Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
+
+
+## Anzeigen von Meilensteinpfaddetails in einem Bericht
+
+Sie können die Details eines Meilensteinpfads in einem Projektbericht anzeigen.
+
+Sie müssen einem Projekt einen Meilensteinpfad zuordnen, bevor Sie dessen Details in einem Projektbericht anzeigen können.
+
+Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten finden Sie unter [Projekte bearbeiten](/help/quicksilver/manage-work/projects/manage-projects/edit-projects.md).
+
+{{step1-to-reports}}
+
+1. Klicken Sie **Neuer Bericht** und dann auf **Projekt**.
+1. Klicken Sie auf **Spalte hinzufügen**.
+1. Beginnen Sie im Bereich **In dieser Spalte anzeigen** mit der Eingabe **Meilensteinpfad** und klicken Sie dann auf **Meilensteinpfadname**, wenn er angezeigt wird.
+1. (Optional) Klicken Sie **Filter** und fügen Sie dem Bericht den folgenden Filter hinzu: **Projektmeilensteinpfad-ID ist nicht leer**.
+
+   Der Filter stellt sicher, dass Sie im Bericht nur Projekte anzeigen, die mit einem Meilensteinpfad verknüpft sind.
+
+1. Klicken Sie auf **Speichern + schließen**.
+1. Fügen Sie einen Namen für Ihren Bericht hinzu und klicken Sie dann auf **Übernehmen**.
+
+   Der Projektbericht wird angezeigt. Die mit jedem Projekt verknüpften Meilensteinpfade werden in der letzten Spalte des Berichts angezeigt.
+1. Klicken Sie auf den Namen eines Meilensteinpfads in der letzten Spalte des Berichts.
+
+   Die Details des Meilensteinpfads werden angezeigt. Es werden auch Details zu jedem Meilenstein angezeigt.
+
+   ![Meilensteinpfaddetails aus dem Projektbericht](assets/milestone-details-from-project-report.png)
+
+   <!--replace screen shot above with unshimming and mark it for Preview-->
+
+1. (Optional) Klicken Sie auf **Zurück**, um zum Projektbericht zurückzukehren.
+
+
+

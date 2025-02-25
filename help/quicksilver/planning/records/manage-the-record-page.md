@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
 workflow-type: tm+mt
 source-wordcount: '1772'
 ht-degree: 0%
@@ -295,7 +295,7 @@ So fügen Sie eine Seite mit einer Verbindungsansicht hinzu:
 Die Tabellenansicht des ausgewählten Datensatztyps und die verbundenen Datensätze werden in der Tabellenansicht angezeigt.
 Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Registerkarte des verbundenen Datensatzes angezeigt.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, five fields from the connected record display in the connected record's table view by default. Some connection fields display in addition to other fields. All lookup fields are hidden.</span> (*****be more specific about which connected fields show, if Robert responds*******)-->
+   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
 
    Die Tabellenansicht ist schreibgeschützt.
 
@@ -313,7 +313,7 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    * Sortieren
    * Gruppierung
 
-   <!--Add to the list above some of the capabilities in the note with a preview tag when they are available.-->
+   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
    Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
