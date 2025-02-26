@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7fc2239de2488d2e3e5c434ab45e8a1d24c0b28f
+source-git-commit: 5510f99e9e5c8c4c5f85953e19563f9ab18b0fae
 workflow-type: tm+mt
-source-wordcount: '1479'
+source-wordcount: '1538'
 ht-degree: 2%
 
 ---
@@ -115,6 +115,49 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
+## Einschränkungen bei der Anzeige von Feldern und Werten in Anfrageformularen
+
+<!--
+
+There are limitations in how certain fields display on the request form and how their values later display on the records or the request details page, after you submit a request. 
+
+For information about submitting requests to create records, see [Submit Adobe Workfront Planning requests to create records](/help/quicksilver/planning/requests/submit-requests.md). 
+
+The following are limitations for how certain fields display in request forms, records created by a request form, or on the request details page: -->
+
+* Sie können keine Felder der folgenden Typen zu einem Anfrageformular hinzufügen:
+
+   * Erstellt von und Zuletzt geändert von
+   * Erstellungsdatum und Datum der letzten Änderung
+   * Formel. Formelfelder werden in der Vorschau-Umgebung unterstützt.
+   * Suchfelder der Workfront-Objekte
+   * Suchfelder für verknüpfte Datensätze in Workfront
+
+<!--at release to Preview, replace the above with this:  
+>
+>Fields of the following types do not display in the request form:
+>* Created by and Last modified by
+>* Created date and Last modified date
+>* Formula. <span class="preview">Formula fields display in request forms in the Preview environment.</span>
+>* Workfront objects' lookup fields
+>* Workfront Planning connected records' lookup fields-->
+
+* Unterschied zwischen der Anzeige von Feldformaten im Formular-Builder für Anfragen und der Formatierung der Werte im Datensatz oder auf der Seite mit den Anfragedetails:
+
+   * Die Felder Währung, Zahl und Prozentsatz werden im Formular-Builder als einzeiliges Textfeld angezeigt.
+
+     Das Feldformat wird jedoch beibehalten und die Werte der Zahlen in diesen Feldern werden als Währungs-, Zahl- und Prozentwerte auf dem Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
+
+<!--
+* The following describes how some field values display on request forms and the request details pages: 
+
+   * Special formatting for Currency, Number, and Percentage fields is not preserved. For example, the decimal precision is not preserved for these fields' values in these areas.
+   * People field values display as IDs.
+   * Formula fields that don't refer to other fields or calculations don't display any values. For example, a field with a `STRING` formula displays a "N/A" value.
+   * Formula fields that refer to Currency fields display the values without accounting for exchange rates.
+   * The values of Paragraph fields that contain special formatting display a "N/A" value on the request form and they display html tags instead of the formatted text in the request details page.
+-->
+
 ## Erstellen eines Anfrageformulars für einen Datensatztyp
 
 {{step1-to-planning}}
@@ -140,34 +183,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Das Anfrageformular enthält standardmäßig die folgenden Informationen:
 
    * Verfügbare Datensatzfelder in der Tabellenansicht des ausgewählten Datensatztyps. <!--they are working on removing the limitation below-->
-
-   <!-- when we go to prod, the Preview batch below will become the only batch-->
-
-   >[!IMPORTANT]
-   >
-   >Felder der folgenden Typen werden nicht im Anfrageformular angezeigt:
-   >
-   >* Erstellt von und Zuletzt geändert von
-   >* Erstellungsdatum und Datum der letzten Änderung
-   >* Formel
-   >* Suchfelder der Workfront-Objekte
-   >* Suchfelder für verknüpfte Datensätze in Workfront
-   >
-
-   <!--before release to prod: 
-    > Depending on what environment you use to create a request form, the following scenarios exist:
-   >
-   >* Fields of the following types do not display in the request form in the Production environment: 
-   >
-   >    * Created by and Last modified by
-   >    * Created date and Last modified date
-   >    * Formula
-   >    * People 
-   >    * Workfront connected fields
-   >    * Workfront objects' lookup fields
-   >    * Workfront Planning records' connected fields
-   >    * Workfront Planning connected records' lookup fields
-   >    * AEM Assets connection fields-->
 
    * **Standardabschnitt**: Dies ist der standardmäßige Abschnittsumbruch, den Workfront auf das Anfrageformular anwendet. Alle Datensatzfelder werden im Bereich **Standard** angezeigt.
    * **Betreff** Feld: Das Feld, das die Anfrage in Workfront identifiziert. Die Konfiguration und der Wert des Felds Betreff können nicht bearbeitet werden.
@@ -196,12 +211,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * **Erforderliches Feld festlegen**: Wenn diese Option aktiviert ist, muss das Feld einen Wert enthalten. Andernfalls kann das Formular nicht gesendet werden.
    * **Logik hinzufügen**: Definieren Sie, welche Bedingungen erfüllt sein müssen, damit das Feld angezeigt oder ausgeblendet wird.
 
-   >[!NOTE]
+   >[!TIP]
    >
    >   Der Feldtyp der einzelnen Felder wird oben im rechten Bereich angezeigt, nachdem Sie das Feld im Formular ausgewählt haben.
-   >   
-   >
-   >   Die Felder Währung, Zahl und Prozentsatz werden als einzeilige Textfelder angezeigt. Das Feldformat wird jedoch beibehalten und die Werte in diesen Feldern werden als Währungs-, Zahl- und Prozentwerte angezeigt.
+   >     
 
 1. (Optional) Klicken Sie auf **Registerkarte** Inhaltselemente“ auf der linken Seite des Formulars und fügen Sie eines der folgenden Elemente hinzu:
 
