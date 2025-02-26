@@ -6,9 +6,9 @@ description: Sie können Ihr Kennwort  [!DNL Adobe Workfront] . Als wichtige Sic
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '253'
+source-wordcount: '255'
 ht-degree: 1%
 
 ---
@@ -27,7 +27,9 @@ Sie können Ihr [!DNL Adobe Workfront] zurücksetzen. Als wichtige Sicherheitsma
 
 ## Zugriffsanforderungen
 
-Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -36,17 +38,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td> 
+      <p>Neu:</p>
+         <ul>
+         <li><p>Mitwirkender oder höher</p></li>
+         </ul>
+      <p>Aktuell:</p>
+         <ul>
+         <li><p>Anfrage oder höher</p></li>
+         </ul>
+   </td>
   </tr> 
  </tbody> 
 </table>
 
-Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder Lizenztyp Sie haben.
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Passwort in [!DNL Adobe Workfront] zurücksetzen
 

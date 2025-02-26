@@ -6,9 +6,9 @@ description: Sie können einen Bericht nach dem Zeitrahmen eines Datums filtern,
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '1024'
+source-wordcount: '1027'
 ht-degree: 5%
 
 ---
@@ -129,11 +129,11 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
 
 ## Integrierte Zeitrahmen-Modifikatoren {#built-in-time-frame-modifiers}
 
-Adobe Workfront verfügt über integrierte Zeitrahmen-Modifikatoren, die Sie ohne Definition eines bestimmten Datums verwenden können. 
+Adobe Workfront verfügt über integrierte Zeitrahmen-Modifikatoren, die Sie ohne Definition eines bestimmten Datums verwenden können.
 
-Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder eine Eingabeaufforderung in jedem Bericht zur Verfügung. 
+Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder eine Eingabeaufforderung in jedem Bericht zur Verfügung.
 
-Weitere Informationen zum Filtern eines Berichts nach einem mit einem Datum verknüpften Zeitrahmen finden Sie unter  [Filtern eines Berichts nach dem Zeitrahmen eines Datums](#filter-a-report-by-the-time-frame-of-a-date).
+Weitere Informationen zum Filtern eines Berichts nach einem mit einem Datum verknüpften Zeitrahmen finden Sie im obigen Abschnitt [Filtern eines Berichts nach dem Zeitrahmen eines ](#filter-a-report-by-the-time-frame-of-a-date)).
 
 Wenn Sie beispielsweise einen Stundenbericht erstellen und Stunden anzeigen möchten, die in einem bestimmten Zeitrahmen eingegeben wurden, können Sie aus den folgenden integrierten Zeitrahmen-Filteroptionen wählen:
 

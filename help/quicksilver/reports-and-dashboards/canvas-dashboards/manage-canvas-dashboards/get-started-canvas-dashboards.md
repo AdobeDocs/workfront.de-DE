@@ -6,9 +6,9 @@ description: Grundlegende Anweisungen zur Verwendung von Arbeitsflächen-Dashboa
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 43456634-f891-4262-93be-bdb9e7d58c77
-source-git-commit: 3c862954e36dadb5b26438bb4bc42c75c46f08f5
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '608'
+source-wordcount: '618'
 ht-degree: 0%
 
 ---
@@ -23,11 +23,11 @@ Arbeitsflächen-Dashboards ermöglichen es Ihnen, Ihre Adobe Workfront-Daten ein
 
 ## Voraussetzungen
 
-* Sie müssen über eine Planlizenz (aktuelle Lizenzen) oder Standardlizenz (neue Lizenzen) verfügen, um ein Arbeitsflächen-Dashboard zu erstellen.\
-  Informationen zu Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) für aktuelle Lizenzen und [Übersicht über neue ](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md)).
+* Ihre Organisation muss Teil der geschlossenen Beta-Version der Arbeitsflächen-Dashboards sein. Weitere Informationen finden Sie unter [Beta-Informationen zu Canvas-Dashboards](/help/quicksilver/product-announcements/betas/canvas-dashboards-beta/canvas-dashboards-beta-information.md).
 
-* Ihr Workfront-Administrator muss Ihnen Zugriff auf Bearbeiten-Dashboards in Ihrer Zugriffsebene gewähren, um ein Arbeitsflächen-Dashboard zu erstellen oder zu bearbeiten.\
-  Informationen zum Gewähren des Bearbeitungszugriffs für Dashboards finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
+* Sie müssen über eine Planlizenz (aktuelle Lizenzen) oder Standardlizenz (neue Lizenzen) verfügen, um ein Arbeitsflächen-Dashboard zu erstellen. Informationen zu Workfront-Lizenztypen finden Sie unter [Lizenzübersicht](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md) oder [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+
+* Ihr Workfront-Administrator muss Ihnen Bearbeitungszugriff auf Dashboards in Ihrer Zugriffsebene gewähren, um ein Arbeitsflächen-Dashboard zu erstellen oder zu bearbeiten. Informationen zum Gewähren von Bearbeitungszugriff finden Sie unter [Gewähren des Zugriffs auf Berichte, Dashboards und Kalender](/help/quicksilver/administration-and-setup/add-users/configure-and-grant-access/grant-access-reports-dashboards-calendars.md).
 
 ## Navigieren zu einem Arbeitsflächen-Dashboard
 

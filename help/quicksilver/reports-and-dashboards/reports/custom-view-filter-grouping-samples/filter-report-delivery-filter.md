@@ -7,7 +7,7 @@ description: Dieser Berichtsfilter zeigt alle Berichte an, die automatisch in Ad
 author: Lisa and Nolan
 feature: Reports and Dashboards
 exl-id: 7b937384-80c9-4bc7-94be-5573cf86b35b
-source-git-commit: 7b25d3b5fe69f610e245db5ada116ea967f22c7b
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
 source-wordcount: '193'
 ht-degree: 1%
@@ -65,8 +65,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 So wenden Sie diesen Filter an:
 
 1. Navigieren Sie zu einer Liste mit Berichten.
+
 1. Wählen Sie **Dropdown** Menü „Filter“ die Option **Neuer Filter**.
 
 1. Klicken **Wechseln Sie in den Textmodus**.
-1. Kopieren Sie **Bereich Filterregeln für Ihren Bericht festlegen** folgenden Code und fügen Sie ihn ein: `scheduledReportID=0<br>scheduledReportID_Mod=notnull`
+
+1. Kopieren Sie **Bereich Filterregeln für Ihren Bericht festlegen** folgenden Code und fügen Sie ihn ein:
+
+   ```
+   scheduledReportID=0
+   scheduledReportID_Mod=notnull
+   ```
+
 1. Klicken Sie auf **Filter speichern**.

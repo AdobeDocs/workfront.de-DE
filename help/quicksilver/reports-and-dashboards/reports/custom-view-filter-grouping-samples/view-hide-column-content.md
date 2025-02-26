@@ -7,9 +7,9 @@ description: Sie können Informationen in der Spalte einer Ansicht ausblenden. S
 author: Nolan
 feature: Reports and Dashboards
 exl-id: f4c3e1ca-d750-4f8b-835c-254c20ad72b3
-source-git-commit: 6405c01c8b1d842a4175f9caa18a7ed31316a3a1
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '373'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,6 @@ Sie können Informationen in der Spalte einer Ansicht ausblenden. Sie können di
 >* Sie können ausgeblendete Spalten verwenden, um nach einem bestimmten Objekt zu sortieren, das Sie nicht in der Ansicht anzeigen möchten.\
 >  Sie können beispielsweise in einer Vorgangsansicht nach Vorgangsnummer sortieren und die Informationen zur Vorgangsnummer aus der Ansicht ausblenden. In diesem Fall hilft das Objekt, auf das in der Spalte verwiesen wird, beim Sortieren der Ansicht, aber die Informationen zu diesem Objekt werden nicht in der Ansicht angezeigt.
 >* Beachten Sie beim Ausblenden einer Spalte, dass die Informationen in der Spalte ausgeblendet sind, die Spalte jedoch weiterhin in der Ansicht vorhanden ist.
->
 
 ## Zugriffsanforderungen
 
@@ -43,7 +42,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td> <p>Neu:<ul><li>Mitwirkende zum Ändern einer Ansicht</li><li>Standard zum Ändern eines Berichts</li></ul></p><p>Oder</p>Aktuell:<ul><li>Änderung einer Ansicht anfordern</li><li>Planen der Änderung eines Berichts</li></ul></p> </td> 
+   <td> <p>Neu:<ul><li>Mitwirkende zum Ändern einer Ansicht</li><li>Standard zum Ändern eines Berichts</li></ul></p><p>Aktuell:<ul><li>Änderung einer Ansicht anfordern</li><li>Planen der Änderung eines Berichts</li></ul></p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -67,7 +66,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Klicken Sie auf **Spalte hinzufügen** und geben Sie „Aufgabennummer“ in das Feld **In dieser Spalte anzeigen** und wählen Sie diese aus, wenn sie in der Liste angezeigt wird.
 
-1. Klicken Sie **Wechseln Sie in den Textmodus** und dann **Text bearbeiten**.
+1. Klicken Sie **Wechseln Sie in den Textmodus** und dann **Textmodus bearbeiten**.
 1. Entfernen Sie den Text aus dem Feld **Textmodus bearbeiten** und ersetzen Sie ihn durch den folgenden Code:
 
    ```
@@ -85,7 +84,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    Die wichtigsten Änderungen in diesem Code, die die Spalte ausblenden, sind:
 
    * `displayname=`: Diese Zeile muss leer sein.
-   * `valuefield=`: Dies wurde durch `value` ersetzt und muss leer sein.
+   * `valuefield=`: Diese Zeile muss durch `value=` ersetzt werden, die leer sein muss.
    * `width=`: Abhängig vom Feld muss dieser den Wert **0** oder **1** haben.
 
 1. Klicken Sie **Fertig** und dann **Ansicht speichern**.

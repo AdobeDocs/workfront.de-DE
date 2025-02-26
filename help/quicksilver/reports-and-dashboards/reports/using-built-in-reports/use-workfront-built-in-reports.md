@@ -6,9 +6,9 @@ description: Adobe Workfront verfügt über eine umfangreiche Liste integrierter
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 32a47c25-192a-4e97-9016-42e6b6e201b9
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '2970'
+source-wordcount: '2986'
 ht-degree: 10%
 
 ---
@@ -19,9 +19,7 @@ ht-degree: 10%
 
 Adobe Workfront verfügt über eine umfangreiche Liste integrierter Berichte, die Sie verwenden können.
 
-Workfront-Admins können integrierte Berichte ausblenden, sodass Benutzende keinen Zugriff darauf haben.
-
-Weitere Informationen zum Ausblenden integrierter Berichte finden Sie unter [Integrierte Berichte ausblenden](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
+Workfront-Admins können integrierte Berichte ausblenden, sodass Benutzende keinen Zugriff darauf haben. Weitere Informationen zum Ausblenden integrierter Berichte finden Sie unter [Integrierte Berichte ausblenden](../../../administration-and-setup/manage-workfront/configure-reports/hide-built-in-reports.md).
 
 ## Zugriffsanforderungen
 
@@ -67,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Übersicht über integrierte Berichte {#overview-of-built-in-reports}
 
-Sie können einen integrierten Bericht anpassen und als neuen Bericht speichern. Weitere Informationen zum Anpassen von integrierten Berichten finden Sie unter [Erstellen eines benutzerdefinierten Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
+Sie können einen integrierten Bericht erstellen und als neuen Bericht speichern. Weitere Informationen zum Erstellen von Kopien integrierter Berichte finden Sie unter [Erstellen einer neuen Version eines ](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md#create-a-new-version-of-a-report)) im Artikel [Erstellen einer Kopie eines Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-copy-report.md).
 
 Die folgenden Berichte sind im Lieferumfang des Workfront-Pakets enthalten. Die Berichte stehen allen Benutzern zur Verfügung, die zumindest Ansichtsrechte für integrierte Berichte in ihrer Zugriffsebene haben.
 

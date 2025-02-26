@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
 workflow-type: tm+mt
-source-wordcount: '986'
+source-wordcount: '1007'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 2%
 
 Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Projekten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Projekte ](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md).
 
-Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Contribute oder Verwalten bestimmter Projekte erteilen, auf die Sie Zugriff haben, um sie freizugeben.
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Mitwirken oder Verwalten bestimmter Projekte erteilen, auf die Sie Zugriff haben, um sie freizugeben.
 
 Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen man für dieses Element ausführen kann.
 
@@ -64,8 +64,8 @@ Sie können ein Projekt wie folgt freigeben:
 
 * Führen Sie automatisch einen der folgenden Schritte aus:
 
-   * Platzieren Sie ein Projekt in einem **Portfolio** oder **Programm**, das bereits für andere freigegeben ist. Benutzer erhalten für das Projekt dieselben Berechtigungen wie für das Portfolio oder Programm.\
-     Informationen zum Hinzufügen eines Projekts zu einem **Portfolio** Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
+   * Platzieren Sie ein Projekt in einem **Portfolio** oder **Program**, das bereits für andere freigegeben ist. Benutzer erhalten für das Projekt dieselben Berechtigungen wie für das Portfolio oder Programm.\
+     Informationen zum Hinzufügen eines Projekts zu einer **Portfolio** finden Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
      Informationen zum Hinzufügen eines Projekts zu einem **Programm** finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
 
      Weitere Informationen zum Anzeigen geerbter Berechtigungen für ein Objekt finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
@@ -104,9 +104,9 @@ Sie können ein Projekt wie folgt freigeben:
 
 ## Einschränkungen für verschiedene Lizenztypen
 
-* Benutzer mit einer Worker-Lizenz sind nicht berechtigt, Projekte zu verwalten. Für Worker lautet die höchste Freigabeberechtigung Contribute.
-* Benutzer mit einer Anfragelizenz können Projektinformationen anzeigen, haben jedoch eingeschränkten Projektzugriff.
-* Eine Ausnahme vom Ändern des Status eines Projekts tritt auf, wenn ein(e) Benutzende(r) mit der Berechtigung Anzeigen oder Contribute ebenfalls in einen Genehmigungsprozess eingeschlossen ist. Sie können das Projekt genehmigen, was den Status des Projekts ändert, aber der Status ist der vordefinierte Status für die Genehmigung oder Ablehnung.
+* Benutzer mit einer Light-Lizenz und darunter (oder einer Work-Lizenz und darunter für das alte Lizenzmodell) haben keine Berechtigung zum Verwalten von Projekten. Für diese Benutzer ist die höchste Freigabeberechtigung Beitragen.
+* Benutzer mit einer Mitwirkendenlizenz (oder einer Anfragelizenz für das alte Lizenzmodell) können Projektinformationen anzeigen, haben jedoch eingeschränkten Projektzugriff.
+* Eine Ausnahme vom Ändern des Status eines Projekts tritt auf, wenn ein Benutzer mit der Berechtigung Anzeigen oder Beitragen auch in einen Genehmigungsprozess eingeschlossen wird. Sie können das Projekt genehmigen, was den Status des Projekts ändert, aber der Status ist der vordefinierte Status für die Genehmigung oder Ablehnung.
 * Um ein Projekt kopieren zu können, muss ein Benutzer auch Zugriff zum Erstellen von Projekten auf seiner Zugriffsebene haben.
 
 <!--
@@ -144,7 +144,7 @@ In der folgenden Tabelle sind die Berechtigungen aufgeführt, die Benutzer bei d
   <tr> 
    <th> <p><strong>Aktionen</strong> </p> </th> 
    <th> <p><strong>Verwalten</strong> </p> </th> 
-   <th> <p><strong>Contribute</strong> </p> </th> 
+   <th> <p><strong>Beitragen</strong> </p> </th> 
    <th> <p><strong>Anzeigen</strong> </p> </th> 
   </tr> 
  </thead> 
