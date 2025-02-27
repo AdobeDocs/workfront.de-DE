@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '3082'
+source-wordcount: '3249'
 ht-degree: 1%
 
 ---
@@ -155,8 +155,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines Planning-Datensatzes verbinden:
 
 * Die verbundenen Datensatzfelder in der Tabellenansicht.
-* Die Vorschau oder Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
-* Die Vorschau oder Seite des Datensatzes auf der Registerkarte Verbindungen .
+* Das Vorschaufeld oder die Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
+* Das Vorschaufeld oder die Seite des Datensatzes auf der Registerkarte Verbindungen .
+* <span class="preview">Die Seite des Datensatzes auf der Registerkarte „Verbindungsansicht“.</span> <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Verbinden von Workfront-Planungsdatensätzen über die Tabellenansicht oder den Detailbereich eines Datensatzes
 
@@ -462,3 +463,25 @@ Sie müssen über Folgendes verfügen, um Workfront-Planungsdatensätze mit Work
 * Ihr Workfront- oder Gruppenadministrator muss den Abschnitt Planung zu den Workfront-Projekten, -Portfolios und -Programmen in Ihrer Layout-Vorlage hinzufügen.
 
 Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Planungsabschnitt von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+
+<div class="preview">
+
+## Verbinden von Datensätzen über die Registerkarte „Verbindungsansicht“ auf der Detailseite eines Datensatzes
+
+<!--section needs title edit when they rename the "Connection view" page type-->
+
+1. Navigieren Sie zu einer beliebigen Ansicht eines Datensatztyps, der mit anderen Planungs-Datensatztypen oder Objekttypen aus anderen Anwendungen verbunden ist.
+1. Führen Sie die in den vorherigen Unterabschnitten beschriebenen Schritte aus, um einen Datensatz in der Ansicht zu finden, die Sie mit anderen Datensätzen oder Objekten verbinden möchten.
+1. Klicken Sie auf den Namen eines Datensatzes.
+
+   Die Vorschauseite wird geöffnet.
+1. Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. Klicken Sie auf eine vorhandene Registerkarte für die Verbindungsansicht in der Vorschau oder Seite des Datensatzes. Sie müssen zunächst eine Verbindungsansichtsseite erstellen. Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
+
+   In der Tabellenansicht wird eine verbundene Datensatztypseite angezeigt.
+1. Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen.
+
+   ![Schaltfläche „Verbinden“ auf der Registerkarte „Details verbundener Datensätze“ hervorgehoben](assets/connect-button-highlighted-in-connected-record-details-tab.png)
+1. (Optional) Wenn Sie einen verbundenen Datensatz nicht finden können, klicken Sie auf **+ Hinzufügen** um ihn zu erstellen und zu verbinden.
+
+</div>

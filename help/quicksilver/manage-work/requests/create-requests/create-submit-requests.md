@@ -6,9 +6,9 @@ description: Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufg
 author: Lisa
 feature: Work Management
 exl-id: 8b023a3d-326d-4d63-9e1e-8171553a9e23
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '2411'
+source-wordcount: '2740'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,10 @@ ht-degree: 1%
 </div>
 -->
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
 Geplante Arbeiten werden in Adobe Workfront durch Projekte und Aufgaben dargestellt. Sie können jedoch in einer Umgebung arbeiten, in der ungeplante Arbeit in Form von Anfragen jederzeit eintreffen kann. Workfront bietet einen Workflow, der diesen Umgebungstyp durch die Verwendung von Anfrage-Warteschlangen unterstützt.
 
 Nachdem Sie eine Anfrage in einer Anfragewarteschlange erstellt haben, können Sie sie entweder dem Abschluss zuweisen oder in eine Aufgabe oder ein Projekt konvertieren.\
@@ -35,7 +39,14 @@ Sie können eine Workfront-Anfrage wie folgt erstellen:
 * Von Grund auf wie in diesem Artikel beschrieben.
 * Aus Entwürfen. Weitere Informationen finden Sie unter [Erstellen von Anfragen aus Entwürfen](../../../manage-work/requests/create-requests/create-requests-from-drafts.md).
 * von einer vorhandenen Anfrage durch Kopieren und Senden einer Kopie. Weitere Informationen finden Sie unter [Anforderungen kopieren und senden](../../../manage-work/requests/create-requests/copy-and-submit-requests.md).
-* So erstellen Sie in einem Workfront Planning-Anforderungsformular Datensätze in Workfront Planning. Ihr Unternehmen muss ein Workfront Planning-Paket erwerben. Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
+
+Sie können eine Workfront-Planungsanfrage von Grund auf neu erstellen, um Datensätze in Workfront Planning auf folgende Weise zu erstellen:
+
+* Von einem Link zu einem Workfront Planning-Anfrageformular.
+
+* <span class="preview">Von einem Workfront-Planungsanfrageformular im Bereich Anfragen von Workfront. </span>
+
+  Ihr Unternehmen muss ein Workfront Planning-Paket erwerben. Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 
 ## Zugriffsanforderungen
 
@@ -113,6 +124,15 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
 {{step1-to-requests}}
 
+1. <span class="preview"> (Optional und bedingt) Wählen Sie die Einstellung **Zu neuem Erlebnis wechseln** oben rechts im Bildschirm aus, wenn die folgenden Dinge auf Ihr Unternehmen und Ihre Workfront-Instanz zutreffen: </span>
+
+   * <span class="preview">Ihr Unternehmen hat ein Workfront-Paket erworben</span>
+   * <span class="preview">Ihr Unternehmen wurde in das einheitliche Adobe-Erlebnis integriert.
+   * <span class="preview">Ihr Administrator hat Ihnen Zugriff auf Workfront Planning gewährt</span>
+   * <span class="preview">Sie haben mindestens Anzeigeberechtigungen für einen Workfront Planning-Arbeitsbereich</span>
+
+   Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md)
+
 1. Klicken **oben** auf der Seite auf „Neue Anfrage“.
 
    >[!TIP]
@@ -120,7 +140,19 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
    >* Die Option Neue Anfrage kann aus jedem Abschnitt im Bereich Anfragen aufgerufen werden.
    >* Die Option Neue Anfrage ist abgeblendet, wenn Sie keinen Zugriff zum Erstellen von Problemen haben.
 
-1. (Bedingt) Klicken Sie in das Feld **Anfragetyp** und führen Sie einen der folgenden Schritte aus:
+   Das **Neue Anfrage**-Feld wird geöffnet.
+
+1. <span class="preview">(Bedingt) Wenn Sie zu der neuen -Version gewechselt haben, die Workfront Planning enthält, wird im Feld **Neue Anfrage** Folgendes angezeigt:</span>
+
+   * <span class="preview">Die 6 zuletzt aufgerufenen Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt „Zuletzt verwendet“ angezeigt. </span>
+   * <span class="preview">50 zusätzliche Workfront-Anfragewarteschlangen und Planungsanfrageformulare werden im Abschnitt **Alle Anfrageformulare** in alphabetischer Reihenfolge angezeigt. Sie können nach einer Anfrage-Warteschlange suchen, die standardmäßig nicht angezeigt wird. </span>
+
+   ![Neues Anfragefeld mit einheitlichem Workflow für Planungsanfragen](assets/new-request-box-with-unified-workflow-for-planning-requests.png)
+
+   <span class="preview">Klicken Sie auf eine der Workfront-Anfrage-Warteschlangenkarten, oder suchen Sie nach einer und klicken Sie dann auf die Karte, wenn sie in der Liste angezeigt wird. </span>
+1. (Bedingt) <span class="preview">Wenn Sie zu der neuen -Version gewechselt haben, die Workfront Planning enthält, wählen Sie Ihre Themengruppen und Warteschlangenthemen aus und aktualisieren Sie das Formular weiter</span>
+
+   Klicken Sie andernfalls in das Feld **Anfragetyp** und führen Sie einen der folgenden Schritte aus:
 
    * Wählen Sie im Abschnitt **Letzte Pfade** einen Pfad aus, den Sie kürzlich zum Öffnen einer Anfrage-Warteschlange verwendet haben. Ein Pfad enthält die Anfrage-Warteschlange, die Themengruppen und das Warteschlangenthema, das Sie kürzlich übermittelt haben. Die letzten drei Pfade werden standardmäßig angezeigt.
 
@@ -301,6 +333,8 @@ So erstellen Sie eine Anfrage in der Workfront-Web-App:
 
    Wenn Sie die Anfrage senden, wird der Entwurf automatisch gelöscht und kann nicht wiederhergestellt werden.
 
+   Gesendete Anfragen werden im Abschnitt **Gesendet** des Bereichs Anfragen aufgeführt. <span class="preview">Wenn Sie die neue -Version verwenden, die Workfront Planning enthält, werden die von Workfront gesendeten Anfragen auf der Registerkarte **Workfront** im Bereich Anfragen angezeigt. </span>
+
    Informationen zum Bearbeiten eingehender Anfragen finden Sie im Artikel [Verwalten von Arbeits- und Teamanfragen](../../../people-teams-and-groups/work-with-team-requests/manage-work-and-team-requests.md).
 
    Informationen zum Auffinden gesendeter oder entworfener Anfragen finden Sie auch unter [Gesendete Anfragen suchen](../../../manage-work/requests/create-requests/locate-submitted-requests.md).
@@ -348,7 +382,7 @@ Sie können Anfragen mit allen Programmen senden, die in Workfront integriert wu
 
 ## Erstellen von Anfragen mithilfe eines Workfront Planning-Anfrageformulars
 
-Sie können eine Anfrage mithilfe eines Workfront Planning-Anfrageformulars hinzufügen. Durch das Hinzufügen von Workfront Planning-Anfragen können Planungsdatensätze erstellt werden, wenn das Anforderungsformular genehmigt wurde oder keine Genehmigung erforderlich ist.
+Sie können eine Workfront-Planungsanfrage mithilfe eines Planungsanfrageformulars hinzufügen. Durch das Hinzufügen von Workfront Planning-Anfragen können Planungsdatensätze erstellt werden, wenn das Anforderungsformular genehmigt wurde oder keine Genehmigung erforderlich ist.
 
 Ihr Unternehmen muss ein Workfront Planning-Paket erwerben, um Planungsanfragen senden zu können.
 

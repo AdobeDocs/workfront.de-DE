@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '1772'
+source-wordcount: '1914'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Seiten-Layout des Datensatzes verwalten
 
-<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -161,11 +161,11 @@ So fügen Sie einen Abschnitt zu einer Datensatzvorschau oder Seite hinzu:
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png)  
+   ![Detailfeld](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
@@ -244,23 +244,29 @@ Folgendes geschieht:
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-    ![Details box](assets/details-box.png) 
+   ![Detailfeld](assets/details-box.png)
 
-    </div>-->
+   </div>
 
 1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Detailfeld in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die **Details** des Datensatzes wird standardmäßig geöffnet.
 
-   <!--<div class="preview">
+   <div class="preview">
 
-   ![Details page](assets/details-page.png)
+   ![Detailseite](assets/details-page.png)
 
-   </div>-->
+   </div>
 
-1. Klicken Sie auf der **„Details** auf das **grab**-Symbol ![grab icon](assets/grab-icon.png) links neben einem Feldnamen und ziehen Sie es dann an die gewünschte Stelle. <!--You can drag and drop fields to another section. You must have at least one field in a section.-->
+1. Klicken Sie auf der **„Details** auf das **grab**-Symbol ![grab icon](assets/grab-icon.png) links neben einem Feldnamen und ziehen Sie es dann an die gewünschte Stelle.
+
+   >[!TIP]
+   >
+   >Sie können Felder per Drag-and-Drop in einen anderen Abschnitt ziehen.
+   >Mindestens ein Feld in einem Abschnitt ist erforderlich.
+   >
 
    Die neue Position des Felds wird sowohl in der Vorschau als auch auf der Seite aller Datensätze desselben Typs für alle Benutzer aktualisiert, die die Datensätze anzeigen.
 
@@ -295,23 +301,29 @@ So fügen Sie eine Seite mit einer Verbindungsansicht hinzu:
 Die Tabellenansicht des ausgewählten Datensatztyps und die verbundenen Datensätze werden in der Tabellenansicht angezeigt.
 Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Registerkarte des verbundenen Datensatzes angezeigt.
 
-   <!--<span class="preview">When you access Workfront Planning from the Preview environment, the first five fields from the connected record table display by default. No lookup fields display by default. -->
+   <span class="preview">Beim Zugriff auf Workfront Planning über die Vorschau -Umgebung werden standardmäßig die ersten fünf Felder der verbundenen Datensatztabelle angezeigt. Standardmäßig werden keine Suchfelder angezeigt.</span>
 
    Die Tabellenansicht ist schreibgeschützt.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
+   <div class="preview">
+
    ![Tabellenansicht mit Audience-Verbindung unter Kampagnendetails](assets/audience-connected-table-view-under-campaign-details-page.png)
+
+   </div>
+
 1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte
 
    Oder
 
    Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Umbenennen**, um die Registerkarte in eine neue Ansicht umzubenennen.
-1. (Optional) Verwenden Sie eines der folgenden Ansichtselemente in der Symbolleiste, um die Tabellenansicht zu verwalten
+1. (Optional) Verwenden Sie eines der folgenden Ansichtselemente in der Symbolleiste, um die Tabellenansicht zu verwalten:
 
    * Filter
    * Sortieren
    * Gruppierung
+   * <span class="preview">Felder, zum Anzeigen, Ausblenden oder Neuanordnen von Feldern</span>
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -321,11 +333,14 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    >
    >   In der Tabellenansicht der Registerkarte eines verbundenen Datensatzes können Sie keine der folgenden Aktionen ausführen:
    >
-   >   * Felder ausblenden
+   >   * Felder ausblenden oder neu anordnen. <span class="preview">Sie können Felder in der Vorschau-Umgebung ausblenden und neu anordnen.</span>
    >   * Erstellen, Bearbeiten oder Löschen von Feldern
-   >   * Felder neu anordnen
    >
-1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) und klicken Sie dann auf **Löschen**, um die neue Registerkarte Verbundene Ansicht zu entfernen.
+
+1. <span class="preview">Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)</span>
+1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbindungsansicht“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die neue Registerkarte „Verbundene Ansicht“ zu entfernen.
+
+
 
 
 <!--

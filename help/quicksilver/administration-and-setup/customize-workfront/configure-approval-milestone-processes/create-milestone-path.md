@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: f3f33d870859408db5ec3dc306cf1d4209c126a3
+source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
 workflow-type: tm+mt
-source-wordcount: '700'
+source-wordcount: '779'
 ht-degree: 3%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 3%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Als Adobe Workfront-Administrator können Sie Meilensteinpfade erstellen, die dann auf jedes Projekt im System angewendet werden können. Die Änderungen an Meilensteinpfaden in diesem Bereich wirken sich auf das gesamte Workfront-System aus.
 
@@ -145,11 +145,19 @@ Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten finden Sie unt
    Der Projektbericht wird angezeigt. Die mit jedem Projekt verknüpften Meilensteinpfade werden in der letzten Spalte des Berichts angezeigt.
 1. Klicken Sie auf den Namen eines Meilensteinpfads in der letzten Spalte des Berichts.
 
-   Die Details des Meilensteinpfads werden angezeigt. Es werden auch Details zu jedem Meilenstein angezeigt.
+   Die Details des Meilensteinpfads werden angezeigt.
+
+   <div class="preview">
 
    ![Meilensteinpfaddetails aus dem Projektbericht](assets/milestone-details-from-project-report.png)
 
-   <!--replace screen shot above with unshimming and mark it for Preview-->
+   Auf der Seite mit den Meilensteinpfaddetails werden die folgenden Informationen angezeigt:
+
+   * Meilensteinpfad - Name, ID und Beschreibung
+   * Meilensteinpfadgruppen
+   * Meilensteinnamen, Beschreibungen, Farben und Farbsymbole
+
+   </div>
 
 1. (Optional) Klicken Sie auf **Zurück**, um zum Projektbericht zurückzukehren.
 
