@@ -5,9 +5,9 @@ description: Überblick über den KI-Assistenten
 author: Becky
 feature: Get Started with Workfront
 exl-id: e5f2408b-2c29-4257-8bdc-bf20880de265
-source-git-commit: 0a2ff1ab802b2bd08cd680376321552a8018cb74
+source-git-commit: f496d5170ff087167130a6463e18ea44af50e21f
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '817'
 ht-degree: 1%
 
 ---
@@ -139,3 +139,30 @@ So fordern Sie die Adobe Gen AI-Vereinbarung an:
 1. Geben Sie den Namen und die E-Mail-Adresse der Person in Ihrem Unternehmen ein, die die Adobe Gen AI-Vereinbarung unterzeichnen wird.
 
    Die Vereinbarung wird dieser Person zur Unterzeichnung übermittelt. Nachdem er signiert und zurückgegeben wurde, ist der KI-Assistent für Ihre Organisation aktiviert.
+
+## Tipps zum Erstellen von Eingabeaufforderungen im KI-Assistenten
+
+Verwenden Sie die folgenden Keywords in Ihren Eingabeaufforderungen, um den Kontext und die Hilfe beim Auffinden der richtigen Informationen bereitzustellen. Bei Schlüsselwörtern wird nicht zwischen Groß- und Kleinschreibung unterschieden.
+
+Geben Sie bei der Eingabe Ihrer Eingabeaufforderung den Satz `using (keyword)` ein.
+
+| Schlüsselwort | Ergebnis |
+|---|---|
+| `workfront` | Interagiert mit Workfront. |
+| `planning ` | Interagiert mit Workfront Planning. |
+| `help` | Gibt Informationen aus der Experience League-Dokumentation zurück. |
+| `formula` | Prüft Formeln zur Verwendung in Planning, Setup oder benutzerdefinierten Formularen und gibt sie zurück. |
+| `health` | Überprüft den Projektzustand mit dem Projektgesundheitsberater. |
+| `summarize` | Fasst Elemente zusammen, z. B. beim Hochladen einer Datei oder Zusammenfassen eines Projekts. |
+
+>[!NOTE]
+>
+> Nicht alle Keywords sind in allen Bereichen verfügbar.
+>
+>* Das Schlüsselwort `formula` ist nur in Planning, Setup und im benutzerdefinierten Formular-Builder verfügbar.
+>* Das `planning` Keyword ist nur in Workfront Planning verfügbar.
+
+
+
+
+
