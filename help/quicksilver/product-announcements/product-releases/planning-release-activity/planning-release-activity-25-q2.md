@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
 workflow-type: tm+mt
-source-wordcount: '1093'
+source-wordcount: '1481'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,62 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Den Datensatznamen einer Detailseite einer Workfront-Planungsanfrage im Namen der Browser-Registerkarte anzeigen
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Die Anzeige der Detailseite einer Workfront-Planungsanfrage im Browser wurde aktualisiert. Jetzt wird der Name des durch die Anfrage erstellten Datensatzes als Name der Browser-Registerkarte angezeigt. Vor dieser Verbesserung wurde auf der Browser-Registerkarte &quot;Workfront&quot; angezeigt.
+
+## Einheitlicher Anforderungs-Workflow für Workfront und Planning
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Sie können jetzt sowohl Workfront- als auch Workfront-Planungsanfragen im Bereich Anfragen des Hauptmenüs senden.
+
+Mit diesem Update sind jetzt die folgenden Funktionen verfügbar:
+
+* Ein neuer Umschalter neben der Schaltfläche Neue Anfrage ermöglicht dieses Erlebnis im Bereich Anfragen . Durch Deaktivieren des Umschalters können Sie nur Workfront-Anfragen senden.
+
+* Sie finden sowohl Workfront-Anfragewarteschlangen als auch Workfront-Planungsanfrageformulare in einem einheitlichen durchsuchbaren Bereich.
+
+* Die 6 letzten Anfragen werden zuerst im einheitlichen durchsuchbaren Bereich angezeigt.
+
+Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Formelfelder werden jetzt in Anfrageformularen unterstützt
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Sie können in Workfront Planning jetzt Formelfelder zu einem Datensatztyp-Anfrageformular hinzufügen.
+
+Vor dieser Verbesserung konnten diese Feldtypen nicht zu Anfrageformularen hinzugefügt werden.
+
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Aktualisierungen der Seite „Verbindungsansicht“ eines Datensatzes
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Die Verbindungsansicht einer Datensatzseite wurde mit den folgenden Funktionen aktualisiert:
+
+* Standardmäßig werden in der Tabellenansicht nur die ersten 5 Felder des verbundenen Datensatzes angezeigt. Vor diesem Update wurden alle Felder angezeigt.
+
+* Sie können jetzt Spalten in der Tabellenansicht des verbundenen Datensatzes ausblenden.
+
+* Sie können Spalten mithilfe des Symbols Felder in der Symbolleiste der Tabelle neu anordnen.
+
+* Sie können Datensätze verbinden und trennen.
+
+Weitere Informationen finden Sie unter [Seitenlayout für Einträge verwalten](/help/quicksilver/planning/records/manage-the-record-page.md).
 
 ## Neuer Ausdruck zu Formelfeldern hinzugefügt
 
