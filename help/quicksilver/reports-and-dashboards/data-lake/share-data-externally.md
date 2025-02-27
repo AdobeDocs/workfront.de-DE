@@ -7,9 +7,9 @@ description: Mit Workfront Data Connect können Sie die Workfront-Daten Ihres Un
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8348f5ff-c1f8-4608-b683-15f6407c6128
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '607'
+source-wordcount: '595'
 ht-degree: 1%
 
 ---
@@ -18,7 +18,7 @@ ht-degree: 1%
 
 Mit Workfront Data Connect können Sie die Workfront-Daten Ihres Unternehmens mit Business Intelligence-Tools verwenden oder in einem externen Data Warehouse speichern.
 
-Um Ihren Data Connect Data Lake mit einem externen Produkt zu verbinden, müssen Sie zunächst eine Verbindung erstellen, wie in [Erstellen eines Leserkontos oder einer Verbindung zum Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) beschrieben. Anschließend müssen Sie alle erforderlichen IPs zur Zulassungsliste auf die Zulassungsliste setzte hinzufügen, wie in [Hinzufügen von IPs zur-](#add-ips-to-the-allowlist) unten beschrieben.
+Um Ihren Data Connect Data Lake mit einem externen Produkt zu verbinden, müssen Sie zunächst eine Verbindung erstellen, wie in [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md) beschrieben. Anschließend müssen Sie alle erforderlichen IPs zur Zulassungsliste auf die Zulassungsliste setzte hinzufügen, wie in [Hinzufügen von IPs zur-](#add-ips-to-the-allowlist) unten beschrieben.
 
 Die meisten Produkte benötigen die folgenden Informationen zu Ihrem Data Lake, um eine Verbindung herzustellen:
 
@@ -31,7 +31,7 @@ Die meisten Produkte benötigen die folgenden Informationen zu Ihrem Data Lake, 
 | Schema | `WF` |
 | Funktion | `READER_ROLE` |
 | Benutzername | Der beim Erstellen der Verbindung gewählte Benutzername (auf der Seite **Data Connect** in Workfront*) |
-| Kennwort | Das beim ersten Snowflake-Login gewählte Passwort* |
+| Kennwort | Das Kennwort, das bei der ersten Anmeldung bei Snowflake ausgewählt wurde* |
 
 *Informationen dazu, wo die Seite **Data Connect** mit Ihren Verbindungen zu finden ist, finden Sie unter [Erstellen eines Leserkontos oder einer Verbindung für Snowflake](/help/quicksilver/reports-and-dashboards/data-lake/create-a-reader-account.md).
 
@@ -55,19 +55,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Adobe Workfront-Plan</td> 
    <td><p>In den folgenden Plänen enthalten:</p>
     <ul>
-        <li>Ultimativ</li> 
+        <li><p>Ultimativ</p></li> 
     </ul>    
-   <p>Kann als Add-on zu den folgenden Plänen erworben werden:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Auswählen</li> 
-        <li>Erstklassig</li>
-    </ul> 
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul>--> 
     <p>Workfront Data Connect ist nicht für veraltete Workfront-Pläne verfügbar.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

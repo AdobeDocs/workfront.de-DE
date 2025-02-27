@@ -7,10 +7,10 @@ description: Auf der Registerkarte Workfront Data Connect-Metriken können Sie d
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 29185bd1-e058-4b42-a508-53406fb9ddd2
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '346'
-ht-degree: 1%
+source-wordcount: '334'
+ht-degree: 0%
 
 ---
 
@@ -34,17 +34,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <ul>
         <li>Ultimativ</li> 
     </ul>    
-   <p>Kann als Add-on zu den folgenden Plänen erworben werden:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Auswählen</li> 
-        <li>Erstklassig</li>
-    </ul> 
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul>--> 
     <p>Workfront Data Connect ist nicht für veraltete Workfront-Pläne verfügbar.</p> 
    </td> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 

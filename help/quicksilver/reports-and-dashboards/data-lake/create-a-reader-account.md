@@ -7,16 +7,16 @@ description: Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Sn
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 70d83a10-f926-4229-ac10-7659f2ca5e7a
-source-git-commit: 7b50876f1be16473704eddeb3157dacfacd96e90
+source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
 workflow-type: tm+mt
-source-wordcount: '666'
+source-wordcount: '654'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines Leserkontos oder einer Verbindung für Snowflake
 
-Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Snowflake-Reader-Konto (oder Service-Konto) für Ihr Unternehmen erstellen und dann für jeden Benutzer bzw. jedes Tool, auf den bzw. die Sie Zugriff auf Data Connect haben möchten, eine neue Verbindung erstellen.
+Um auf Data Connect-Daten zuzugreifen, müssen Sie zunächst ein Snowflake-Leserkonto (oder ein Service-Konto) für Ihr Unternehmen erstellen und dann für jeden Benutzer oder jedes Tool, auf den bzw. die Sie Zugriff auf Data Connect haben möchten, eine neue Verbindung erstellen.
 
 Nachdem Sie eine Verbindung erstellt haben, können Sie die zugehörige URL und den Benutzernamen finden, indem Sie auf der Seite **Datenverbindung** (**Hauptmenü** > **Setup** > **System** > **Datenverbindung**) auf der Registerkarte **Vorhandene Verbindungen** klicken.
 
@@ -38,17 +38,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     <ul>
         <li>Ultimativ</li> 
     </ul>    
-   <p>Kann als Add-on zu den folgenden Plänen erworben werden:</p> 
+   <!--<p>Can be purchased as an add-on to the following plans:</p> 
     <ul>
-        <li>Auswählen</li> 
-        <li>Erstklassig</li>
-    </ul> 
+        <li>Select</li> 
+        <li>Prime</li>
+    </ul>--> 
     <p>Workfront Data Connect ist nicht für veraltete Workfront-Pläne verfügbar.</p> 
-   </td> </td> 
+   </td>
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz</td> 
-   <td>Plan</td> 
+   <td><p>Plan</p></td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
@@ -63,11 +63,11 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Erstellen eines Leserkontos
 
-Bevor Sie Verbindungen erstellen können, müssen Sie ein neues Snowflake-Leserkonto für Ihr Unternehmen erstellen.
+Sie müssen ein neues Snowflake-Leserkonto für Ihr Unternehmen erstellen, bevor Sie Verbindungen erstellen können.
 
 >[!IMPORTANT]
 >
->Dieser Vorgang darf pro Organisation nur einmal abgeschlossen werden. Wenn **Schaltfläche &quot;Reader-Konto erstellen** an dem unten beschriebenen Speicherort nicht vorhanden ist, wurde Ihr Leserkonto bereits erstellt.
+>Dieser Vorgang darf pro Organisation nur einmal abgeschlossen werden. Wenn die **Reader-Konto erstellen** an dem unten beschriebenen Speicherort nicht vorhanden ist, wurde Ihr Leserkonto bereits erstellt.
 
 So erstellen Sie ein Leserkonto:
 
@@ -75,11 +75,11 @@ So erstellen Sie ein Leserkonto:
 
 1. Klicken Sie im linken Bedienfeld auf **System** > **Datenverbindung**.
 
-1. Klicken Sie auf **Schaltfläche Reader-** erstellen , um mit der Erstellung des Leserkontos Ihrer Organisation zu beginnen. Der Vorgang wird automatisch durchgeführt, er kann jedoch einige Minuten dauern.
+1. Klicken Sie auf **Reader-Konto erstellen**, um mit der Erstellung des Leserkontos Ihrer Organisation zu beginnen. Der Vorgang wird automatisch durchgeführt, er kann jedoch einige Minuten dauern.
 
 1. Nach Abschluss des Vorgangs wird ein Dialogfeld angezeigt, in dem erklärt wird, dass Ihr Leserkonto jetzt aktiv ist. Aktualisieren Sie die Browser-Seite, um auf die Schaltfläche **Neue Verbindung erstellen** zuzugreifen.
 
-Dialogfeld für das Erstellen des ![Reader-Kontos](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)
+Dialogfeld für das Erstellen des Reader-Kontos](/help/quicksilver/reports-and-dashboards/data-lake/assets/data-connect-reader-account-created.png)![
 
 ## Erstellen einer Verbindung
 
@@ -93,15 +93,15 @@ Dialogfeld für das Erstellen des ![Reader-Kontos](/help/quicksilver/reports-and
 
    ![Neue Verbindung erstellen](/help/quicksilver/reports-and-dashboards/data-lake/assets/new-reader-connection.png) {width="500"}
 
-1. Es **ein** Standardkennwort) sowie eine URL generiert, über die Ihre Daten per Snowflake angezeigt werden können. Sie müssen das Passwort zusammen mit dem Benutzernamen verwenden, den Sie zum ersten Mal für die Anmeldung bei Snowflake ausgewählt haben. Vergewissern Sie sich also, dass Sie es sowie die URL aufzeichnen. Markieren Sie das Kästchen mit der Angabe, dass Sie dies getan haben, und klicken Sie dann auf **Schließen**.
+1. Es **ein** Standardkennwort) sowie eine URL generiert, über die Ihre Daten über Snowflake angezeigt werden können. Sie müssen das Kennwort zusammen mit dem Benutzernamen verwenden, den Sie zum ersten Mal für die Anmeldung bei Snowflake ausgewählt haben. Vergewissern Sie sich also, dass Sie sowohl den Benutzernamen als auch die URL aufzeichnen. Markieren Sie das Kästchen mit der Angabe, dass Sie dies getan haben, und klicken Sie dann auf **Schließen**.
 
    ![Standardkonto-Passwort](/help/quicksilver/reports-and-dashboards/data-lake/assets/default-password-reader-account.png) {width="500"}
 
-1. Öffnen Sie Snowflake mit einem Browser, um zur URL aus dem vorherigen Schritt zu navigieren, geben Sie den ausgewählten Benutzernamen und das Standardkennwort aus dem vorherigen Schritt ein und klicken Sie dann auf **Anmelden**.
+1. Öffnen Sie Snowflake mithilfe eines Browsers, um zur URL aus dem vorherigen Schritt zu navigieren, geben Sie den ausgewählten Benutzernamen und das Standardkennwort aus dem vorherigen Schritt ein und klicken Sie dann auf **Anmelden**.
 
 1. Nach der erstmaligen erfolgreichen Anmeldung werden Sie aufgefordert, ein neues Kennwort auszuwählen. Geben Sie ein Kennwort Ihrer Wahl in die Felder **Neues Kennwort** und **Kennwort bestätigen** ein und klicken Sie dann auf **Senden**.
 
-   ![Reset Snowflake Password](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
+   ![Snowflake-Kennwort zurücksetzen](/help/quicksilver/reports-and-dashboards/data-lake/assets/reset-snowflake-password.png) {width="300"}
 
 1. Sie können jetzt Ihren Benutzernamen und Ihr neues Passwort verwenden, um auf Ihren Data Connect Data Lake in Snowflake oder das Business-Visualisierungs-Tool Ihrer Wahl zuzugreifen.
 
