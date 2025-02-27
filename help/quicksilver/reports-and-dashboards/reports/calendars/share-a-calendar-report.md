@@ -6,14 +6,16 @@ description: Sie können einen Kalender für andere Benutzer freigeben und öffe
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 77eed0fe-2d47-40c4-a03d-590f7fa17dbe
-source-git-commit: d90459cb4f6fb1960552f0ab174e963582312b5c
+source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
 workflow-type: tm+mt
-source-wordcount: '589'
+source-wordcount: '668'
 ht-degree: 0%
 
 ---
 
 # Kalenderbericht freigeben
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können einen Kalender für andere Benutzer freigeben und öffentlich verfügbar machen, sodass ihn jemand ohne [!DNL Adobe Workfront] Lizenz anzeigen kann.
 
@@ -63,6 +65,8 @@ Kalender, die für Sie freigegeben wurden, werden mit einem Sternchen (&#42;) ne
 So geben Sie einen Kalender in [!DNL Workfront] frei:
 
 1. Wechseln Sie zu dem Kalender, den Sie freigeben möchten.
+1. <span class="preview">Klicken Sie in der Vorschau auf das Menü **Mehr** neben dem Kalendernamen und dann auf **Freigabe**.
+   ![Menü „Kalender Mehr“](assets/more-menu-calendar.png)</span>
 1. Klicken Sie **[!UICONTROL Kalenderaktionen]** und dann auf **[!UICONTROL Freigabe]**.
 
 1. Beginnen Sie im Feld **[!UICONTROL Kalenderzugriff erteilen an]** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie den Kalender freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.\
@@ -74,16 +78,18 @@ So geben Sie einen Kalender in [!DNL Workfront] frei:
    * **[!UICONTROL Anzeigen]:** Benutzer können den Kalender überprüfen und freigeben.
 
      ![Kalender mit Ansichtszugriff freigeben](assets/calendar-share-view-permissions-350x249.png)
+     <!--![Share calendar with view access](assets/view-calendar.png)-->
 
    * **[!UICONTROL Verwalten]:** Benutzer haben vollen Zugriff auf den Kalender abzüglich Administratorrechten, die auf Zugriffsebene gewährt werden, sowie alle Anzeigeberechtigungen.
 
      ![Kalender mit Verwaltungszugriff freigeben](assets/calendar-share-manage-permissions-350x241.png)
+     <!--![Share calendar with manage access](assets/manage-calendar.png)-->
 
      >[!NOTE]
      >
      >Der [!DNL Workfront] und der Ersteller des Kalenders können Berechtigungen aus diesen Entitäten entfernen.
 
-1. (Optional) Abhängig von der Rolle eines Benutzers können Sie möglicherweise auf **[!UICONTROL Erweiterte Optionen]** und dann auf **[!UICONTROL Freigeben]** klicken&#x200B; damit der Benutzer den Kalender für andere Benutzer freigeben kann.
+1. (Optional) Abhängig von der Rolle eines Benutzers können Sie möglicherweise auf **[!UICONTROL Erweiterte Optionen]** und dann auf **[!UICONTROL Freigeben]** klicken&#x200B;, damit der Benutzer den Kalender für andere Benutzer freigeben kann.
 
    Weitere Informationen zu den Berechtigungsebenen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -98,9 +104,12 @@ Sie können einen Kalender öffentlich machen und einen Link für Personen freig
 
 1. Wechseln Sie zu dem Kalender, den Sie freigeben möchten.
 1. Klicken Sie **[!UICONTROL Kalenderaktionen]** und dann auf **[!UICONTROL Freigabe]**.
+1. <span class="preview">Klicken Sie in der Vorschau auf das Menü **Mehr** neben dem Kalendernamen.
+   ![Menü „Kalender Mehr“](assets/more-menu-calendar.png)</span>
 
 1. Klicken Sie auf das Zahnradsymbol und dann auf **[!UICONTROL Für externe Benutzer veröffentlichen]**.
 1. Klicken Sie **[!UICONTROL Link kopieren]**.
+1. <span class="preview">Klicken Sie in der Vorschau auf **Öffentlichen Link kopieren**.</span>
 1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
 ## Kalender über einen privaten Link freigeben
@@ -108,8 +117,9 @@ Sie können einen Kalender öffentlich machen und einen Link für Personen freig
 Sie können einen Link für einen privaten Kalender für [!DNL Workfront] Benutzer freigeben. Benutzer müssen sich anmelden, um den Kalender anzuzeigen, wenn sie den Link verwenden.
 
 1. Wechseln Sie zu dem Kalender, den Sie freigeben möchten.
+1. <span class="preview">Klicken Sie in der Vorschau auf das Menü **Mehr** neben dem Kalendernamen und dann auf **[!UICONTROL Freigebbaren Link abrufen]**.
+   ![Menü „Kalender Mehr“](assets/more-menu-calendar.png)</span>
 1. Klicken Sie auf **[!UICONTROL Kalenderaktionen]** und dann auf **[!UICONTROL Freigabe-Link abrufen]**.
-
 1. Klicken Sie **[!UICONTROL Link kopieren]**.
 
    >[!NOTE]

@@ -6,14 +6,16 @@ description: Sie können einen vorhandenen Kalender ändern, indem Sie einen Lin
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
 workflow-type: tm+mt
-source-wordcount: '331'
+source-wordcount: '510'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten eines vorhandenen Kalenderberichts
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können einen vorhandenen Kalender ändern, indem Sie einen Link zu einem Projekt hinzufügen oder löschen. Sie können auch die mit einem Kalenderbericht verknüpften Kalendergruppierungen ändern.
 
@@ -58,7 +60,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Bearbeiten eines vorhandenen Kalenderberichts
+## Bearbeiten eines vorhandenen Kalenderberichts in der Produktionsumgebung
 
 {{step1-to-calendars}}
 
@@ -87,3 +89,34 @@ Elemente aus dem Projekt und den zugehörigen Aufgaben und Problemen werden dem 
       * [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
       * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+<div class="preview">
+
+## Bearbeiten eines vorhandenen Kalenderberichts in der Vorschau
+
+{{step1-to-calendars}}
+
+1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf das Menü **Mehr** und wählen Sie **Bearbeiten**.
+   ![Menü Mehr](assets/new-more-menu-calendar.png)
+Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, wird der geänderte Kalendername automatisch in der Kalenderansicht aktualisiert.
+
+1. (Optional) So fügen Sie ein Projekt zum Kalenderbericht hinzu:
+   1. Klicken Sie **[!UICONTROL Zum Kalender hinzufügen].**
+   1. Geben Sie den Namen eines Projekts ein, dem Sie Kalenderereignisse hinzufügen möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+   1. Klicken Sie **Hinzufügen**.
+      ![Ein Projekt zu einem Kalender hinzufügen](assets/add-a-calendar-project.png)
+
+
+1. (Optional) So fügen Sie eine Kalendergruppierung hinzu oder ändern eine vorhandene Kalendergruppierung:
+   1. Klicken Sie auf das **Mehr** neben dem Projektnamen und dann auf **Bearbeiten**.
+      ![Projekt im Kalender bearbeiten](assets/edit-project-in-calendar.png)e
+
+   1. Wählen Sie aus, wie Sie Ihre Elemente gruppieren möchten:
+
+      * [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
+      * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
+      * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
+
+
+      </div>
