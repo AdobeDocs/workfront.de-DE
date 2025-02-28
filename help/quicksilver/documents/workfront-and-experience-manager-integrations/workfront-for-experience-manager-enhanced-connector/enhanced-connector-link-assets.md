@@ -5,9 +5,9 @@ author: Courtney
 draft: Probably
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 35c80f6a-419b-4237-8139-f59ab7bbd5c7
-source-git-commit: dd8718b00a310bee6caa13db7644b86174b476f4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '582'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
@@ -84,7 +84,7 @@ So verknüpfen Sie ein Asset mit Experience Manager Assets:
 
 1. Wählen Sie die gewünschten Assets.
 
-   ![](assets/select-an-asset.png)
+   ![Asset auswählen](assets/select-an-asset.png)
 
 1. Klicken Sie auf **Link**.
 
@@ -103,7 +103,7 @@ So verknüpfen Sie einen Ordner mit Experience Manager Assets:
 
 1. Wählen Sie die gewünschten Ordner.
 
-   ![](assets/select-a-folder.png)
+   ![Ordner auswählen](assets/select-a-folder.png)
 
 1. Klicken Sie auf **Link**.
 
@@ -127,6 +127,6 @@ So verknüpfen Sie eine neue Version aus Experience Manager Assets:
 
 1. Wählen Sie das gewünschte Asset aus.
 
-   ![](assets/select-an-asset.png)
+   ![Asset auswählen](assets/select-an-asset.png)
 
 1. Klicken Sie auf **Link**.
