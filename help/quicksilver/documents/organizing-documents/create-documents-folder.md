@@ -6,9 +6,9 @@ description: Dokumente können in Ordnern organisiert werden. Sie können persö
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 41974d6b-fb00-49b7-9db2-36519994e0fd
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '307'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Klicken Sie bei geöffnetem Workfront **Objekt** linken Bereich auf Dokumente .
 
 1. Klicken Sie auf die Anzeigeoptionen über dem rechten Bedienfeld, um zu ändern, wie die Dokumente angezeigt werden.
 
-   ![](assets/screenshot-2016-07-07-12.46.54.png)
+   ![Optionen für die Dokumentansicht](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Ordner und Unterordner erstellen
 
