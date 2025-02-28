@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 484aa52e-7f87-40ab-a5e9-3b0c55232189
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '308'
+source-wordcount: '321'
 ht-degree: 0%
 
 ---
@@ -55,12 +55,12 @@ Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welch
 {{step1-to-priorities}}
 
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Hochladen**.
-   ![](assets/update-log-upload.png)
+   ![Update, Protokollierungszeit und Upload](assets/update-log-upload.png)
 1. (Optional) Ordner auswählen.
 1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
 oder
 Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
-   ![](assets/add-files.png)
+   ![Dateien hinzufügen](assets/add-files.png)
 1. (Optional) Hinzufügen eines Kommentars.
 1. (Optional) Weitere Dateien hinzufügen.
 
@@ -68,7 +68,7 @@ Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Do
    >
    >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
 1. Klicken Sie **Hochladen**.
-   ![](assets/upload-file-module.png)
+   ![Datei hochladen](assets/upload-file-module.png)
 
 
 ## Hochladen einer Datei in ein Arbeitselement
@@ -81,7 +81,7 @@ Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Do
 1. Datei per Drag-and-Drop verschieben oder Befehl/Strg+V aus der Zwischenablage einfügen
 oder
 Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Document Cloud-Anbieter zu importieren.
-   ![](assets/add-files.png)
+   ![Dateien hinzufügen](assets/add-files.png)
 1. (Optional) Hinzufügen eines Kommentars.
 1. (Optional) Weitere Dateien hinzufügen.
 
@@ -89,4 +89,4 @@ Klicken Sie **Dateien hinzufügen**, um Dateien zu durchsuchen oder von einem Do
    >
    >Zusätzliche Dateien werden als separate Dokumente hochgeladen.
 1. Klicken Sie **Hochladen**.
-   ![](assets/upload-file-module.png)
+   ![Datei hochladen](assets/upload-file-module.png)
