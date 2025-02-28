@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management
 exl-id: a0e80c4d-29a8-4bf8-aa19-0c2d493236c6
 recommendations: noDisplay, noCatalog
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '888'
+source-wordcount: '895'
 ht-degree: 1%
 
 ---
@@ -135,7 +135,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können Projekte aus einer Projektliste löschen.
 
 1. Navigieren Sie zu einer Liste von Projekten oder einem Projektbericht.
-1. Wählen Sie das bzw. die Projekte aus, die Sie löschen möchten, und klicken Sie dann oben in **Liste auf** Symbol „Löschen“ ![](assets/delete-icon.png).
+1. Wählen Sie das bzw. die Projekte aus, die Sie löschen möchten, und klicken Sie dann oben in **Liste auf** Löschen![Symbol &quot;](assets/delete-icon.png)&quot;.
 
 1. Klicken Sie auf **Ja, löschen**, um den Löschvorgang zu bestätigen.
 
@@ -144,9 +144,9 @@ Sie können Projekte aus einer Projektliste löschen.
 ## Löschen eines Projekts auf Projektebene
 
 1. Wechseln Sie zu dem Projekt, das Sie löschen möchten.
-1. Klicken Sie auf **Mehr**-Symbol ![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **Projekt löschen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Projekt löschen**.
 
-   ![](assets/more-icon-expanded-delete-project-highlighted.png)
+   ![Mehr Menü erweitert](assets/more-icon-expanded-delete-project-highlighted.png)
 
 1. Klicken Sie **Ja, löschen**.
 
