@@ -5,9 +5,9 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Adobe Workfront
 author: Alina
 feature: Work Management
 exl-id: d5f3e348-dc7d-4265-a5ce-8eef152db410
-source-git-commit: 8420f65e84edd42204d91aa503ff0b95153a1e67
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '945'
 ht-degree: 0%
 
 ---
@@ -120,11 +120,11 @@ Bevor Sie beginnen, müssen Sie Folgendes tun:
 
    * Wenn Sie soeben Informationen aus dem Szenario-Planer veröffentlicht haben, wählen Sie im Feld **Wählen Sie die Stunden, die zur Berechnung der budgetierten Lohnkosten des Projekts verwendet werden sollen** im Bereich Ressourcenbudgetierung die Option Szenario-Planer aus und klicken Sie dann auf **Auswählen**.
 
-     ![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+     ![Business-Case im Ressourcenplaner mit der Schaltfläche „Auswählen“](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
    * Wenn der Ressourcenplaner zuvor für die Budgetierung von Ressourcen für das Projekt ausgewählt wurde, klicken Sie auf **Ändern** > **Szenario-Planer** > **Wählen**.
 
-     ![](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
+     ![Business-Case im Szenario-Planer mit der Schaltfläche „Auswählen“](assets/business-case-rp-selected-change-option-to-switch-to-sp-highlighted-350x37.png)
 
      Workfront verwendet die erforderlichen Aufgabengebietsstunden aus der verknüpften Initiative, um die budgetierten Arbeitskosten und budgetierten Stunden des Projekts zu berechnen. Dies ist die empfohlene Option. Kosten werden im Business Case in der Währung des Projekts angezeigt.
 
