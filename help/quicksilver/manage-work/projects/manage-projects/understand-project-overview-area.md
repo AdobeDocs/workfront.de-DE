@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 6113bc62-18f2-4558-bc2f-986b1e7d1a83
-source-git-commit: 5b7a5aff0f8bdf7cf8429ac29b50c3beaf4bd3b4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1453'
 ht-degree: 3%
 
 ---
@@ -63,13 +63,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Klicken Sie auf **Bearbeiten**-Symbol ![](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Übersicht**. Dadurch wird der Bereich Überblick zur Bearbeitung geöffnet.
+   Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Übersicht**. Dadurch wird der Bereich Überblick zur Bearbeitung geöffnet.
 
    >[!NOTE]
    >
    >Je nachdem, wie Workfront-Admins Ihre Layout-Vorlage konfiguriert haben, wird der Abschnitt Übersicht möglicherweise nicht zuerst aufgeführt. In diesem Fall wird er reduziert. Weitere Informationen finden Sie unter [Anpassen der Detailansicht mithilfe einer Layout-Vorlage](../../../administration-and-setup/customize-workfront/use-layout-templates/customize-details-view-layout-template.md).
 
-1. (Bedingt) Wenn ein bestimmtes Feld vorhanden ist, das bei einem Projekt aktualisiert werden muss, aber in diesem Abschnitt nicht angezeigt wird, klicken Sie auf das **Mehr** Menü ![](assets/more-icon.png) neben dem Projektnamen und dann auf **Bearbeiten**, um weitere Projektfelder anzuzeigen.
+1. (Bedingt) Wenn ein bestimmtes Feld vorhanden ist, das bei einem Projekt aktualisiert werden muss, aber in diesem Abschnitt nicht angezeigt wird, klicken Sie auf das **Mehr Menü** ![Mehr Symbol](assets/more-icon.png) neben dem Projektnamen und dann **Bearbeiten**, um weitere Projektfelder anzuzeigen.
 
    Weitere Informationen zum Bearbeiten von Projekten finden Sie unter [Projekte bearbeiten](../../../manage-work/projects/manage-projects/edit-projects.md).
 
@@ -170,7 +170,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    | Feld | Beschreibung |
    |---|---|
    | Referenznummer | Dies ist ein automatisch generiertes Feld, das für jedes Projekt einen eindeutigen Wert aufweist. |
-   | Projizierter Starttermin | Dies ist ein „Echtzeit“-Datum, an dem die Arbeit basierend auf abgeschlossener und verbleibender Arbeit beginnen soll. |
+   | Voraussichtlicher Starttermin | Dies ist ein „Echtzeit“-Datum, an dem die Arbeit basierend auf abgeschlossener und verbleibender Arbeit beginnen soll. |
    | Voraussichtliches Abschlussdatum | Dies ist ein „Echtzeit“-Datum, an dem das Projekt abgeschlossen wird, basierend auf dem Fortschritt der abgeschlossenen Aufgaben und auf Fortschrittsaktualisierungen zu den Aufgaben, die entweder den Status „Neu“ oder „In Bearbeitung“ haben. |
    | Geplante Stunden | Für das Projekt geplante Stunden. Diese Stunden sind die insgesamt geplanten Stunden für jede Aufgabe. |
    | Tatsächliche Stunden | Für das Projekt protokollierte Stunden Diese Stunden sind die Summe der für das Projekt, die Aufgaben oder die Probleme des Projekts protokollierten Stunden. |
