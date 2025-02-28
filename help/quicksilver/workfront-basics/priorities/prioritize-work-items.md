@@ -6,10 +6,10 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 31793b0e-444c-492c-b1a2-909a2e97628b
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '200'
-ht-degree: 1%
+source-wordcount: '202'
+ht-degree: 0%
 
 ---
 
@@ -33,7 +33,7 @@ Mit Priorität werden die Ihnen zugewiesenen Arbeitselemente angezeigt. Sie kön
    | **normal** | Normal ist für Routineaufgaben, die Sie bearbeiten werden, nachdem dringende und Elemente mit hoher Priorität abgeschlossen sind. Dies ist die Standardeinstellung für Aufgaben und Probleme. |
    | **Niedrig** | Niedrig ist für Arbeitselemente, die nicht sofort bearbeitet werden müssen, und kann verschoben werden, bis alle Arbeitselemente mit höherer Priorität erledigt sind. |
 
-   ![](assets/my-focus-new.png)
+   ![Mein Fokus](assets/my-focus-new.png)
 
    >[!TIP]
    >
