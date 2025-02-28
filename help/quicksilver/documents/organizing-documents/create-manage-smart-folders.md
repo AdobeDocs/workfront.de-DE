@@ -6,9 +6,9 @@ description: Intelligente Ordner werden zum Verwalten von Dokumenten außerhalb 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 62dfc6b9-72a4-4dd5-acd7-42269cd99b1b
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '572'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um die Ansicht zu ändern, verwenden Sie die Ansichtsoptionen in der oberen rechten Ecke.
 
-![](assets/screenshot-2016-07-07-12.46.54.png)
+![Smart-Ordner bearbeiten](assets/screenshot-2016-07-07-12.46.54.png)
 
 ## Erstellen eines Smart-Ordners 
 
@@ -68,11 +68,11 @@ Sie können Ordner in der Miniatur-, Standard- oder Listenansicht anzeigen. Um d
 ## Bearbeiten von Smart-Ordnern 
 
 1. Wechseln Sie zum Bereich **Dokumente**, der den Smart-Ordner enthält, den Sie bearbeiten möchten.
-1. Klicken Sie in **Spalte** Ordner **auf das Symbol ![](assets/more-icon.png)Mehr** neben dem Smart-Ordner, den Sie bearbeiten möchten.
+1. Klicken Sie in **Spalte** auf das Symbol **Mehr** Mehr![Menü ](assets/more-icon.png) neben dem Smart-Ordner, den Sie bearbeiten möchten.
 1. Klicken Sie **Bearbeiten**.
 
    Das **Smart-Ordner bearbeiten** wird angezeigt.\
-   ![](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
+   ![Smart-Ordner bearbeiten](assets/screen-shot-2013-08-14-at-8.42.04-am-350x167.png)
 
 1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **Ordner speichern**.
 
