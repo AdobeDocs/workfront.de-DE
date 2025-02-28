@@ -6,9 +6,9 @@ description: Sie können eine Vorlagenaufgabe in dieselbe Vorlage oder in eine a
 author: Alina
 feature: Work Management
 exl-id: a2e09e63-5c88-460c-9996-3a39fbb82150
-source-git-commit: b02c81873d84946f8db54bcf9a1a464de38781de
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2128'
+source-wordcount: '2140'
 ht-degree: 3%
 
 ---
@@ -87,9 +87,9 @@ Sie können eine einzelne Vorlagenaufgabe kopieren oder mehrere Vorlagenaufgaben
 1. Führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf den Namen einer Vorlagenaufgabe, um sie zu öffnen.
    * Eine oder mehrere Vorlagenaufgaben in der Liste auswählen.
-1. (Bedingt) Klicken Sie auf das **Mehr**-![](assets/more-icon.png) oben in der Vorlagenaufgabenliste oder rechts neben dem Namen der Vorlagenaufgabe, wenn Sie die Aufgabe geöffnet haben, und klicken Sie dann auf **Kopieren nach** oder **Kopieren**, je nachdem, von wo aus Sie auf die Option Kopieren zugreifen.
+1. (Bedingt) Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/more-icon.png) oben in der Vorlagenaufgabenliste oder rechts neben dem Namen der Vorlagenaufgabe, wenn Sie die Aufgabe geöffnet haben. Klicken Sie dann je nachdem, von wo aus Sie auf die Option Kopieren zugreifen, auf **Kopieren nach** oder **Kopieren**.
 Das Feld Vorlagenaufgabe kopieren wird geöffnet.
-   ![](assets/copy-template-task-box-unshimmed.png)
+   ![Feld für Vorlagenaufgabe kopieren](assets/copy-template-task-box-unshimmed.png)
 1. (Optional) Benennen Sie die Vorlagenaufgabe im Feld **Name der Vorlagenaufgabe** um.
 
    >[!TIP]
@@ -210,9 +210,9 @@ Sie können eine Vorlagenaufgabe entweder in eine andere Vorlagenaufgabe in ders
 1. Führen Sie einen der folgenden Schritte aus:
    * Klicken Sie auf den Namen einer Vorlagenaufgabe, um sie zu öffnen.
    * Eine oder mehrere Vorlagenaufgaben in der Liste auswählen.
-1. (Bedingt) Klicken Sie auf das **Mehr**-![](assets/more-icon.png) oben in der Vorlagenaufgabenliste oder rechts neben dem Namen der Vorlagenaufgabe, wenn Sie die Aufgabe geöffnet haben, und klicken Sie dann auf **Verschieben nach** oder **Verschieben**, je nachdem, von wo aus Sie auf die Option Verschieben zugreifen.
+1. (Bedingt) Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/more-icon.png) oben in der Vorlagenaufgabenliste oder rechts neben dem Namen der Vorlagenaufgabe, wenn Sie die Aufgabe geöffnet haben, und klicken Sie dann auf **Verschieben nach** oder **Verschieben**, je nachdem, von wo aus Sie auf die Option Verschieben zugreifen.
 Das Feld Vorlagenaufgabe verschieben wird geöffnet.
-   ![](assets/move-template-task-box-unshimmed.png)
+   ![Feld für Vorlagenaufgabe verschieben](assets/move-template-task-box-unshimmed.png)
 
 1. (Optional) Benennen Sie die Vorlagenaufgabe im Feld **Name der Vorlagenaufgabe** um.
 
