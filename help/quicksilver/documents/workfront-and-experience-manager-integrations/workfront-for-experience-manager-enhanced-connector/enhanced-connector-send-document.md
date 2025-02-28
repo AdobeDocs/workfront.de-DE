@@ -6,9 +6,9 @@ description: Sie können Dokumente von Workfront an Experience Manager Assets se
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: d687d2db-28e0-45e8-9d60-8419921f02e9
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '453'
+source-wordcount: '457'
 ht-degree: 1%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 Bevor Sie beginnen, müssen Sie
 
-* Installieren Sie den erweiterten Connector von Workfront for Experience Manager.
+* Installieren Sie den erweiterten Connector von Workfront für Experience Manager.
 
 ## Senden eines Dokuments an Experience Manager Assets
 
@@ -69,7 +69,7 @@ Senden eines Dokuments:
    >
    >Für diese Integration kann ein beliebiger Name ausgewählt werden, sodass Experience Manager Assets nicht explizit erwähnt wird.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Senden an](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Wählen Sie aus, wohin das Asset gesendet werden soll, und klicken Sie dann auf **Ordner auswählen**.
 1. Wenn Sie das gewünschte Ziel gefunden haben, klicken Sie auf **Speichern**.
@@ -87,6 +87,6 @@ So senden Sie die neueste Version:
    >
    >Für diese Integration kann ein beliebiger Name ausgewählt werden, sodass Experience Manager Assets nicht explizit erwähnt wird.
 
-   ![](assets/copy-of-send-to-in-toolbar-350x149.png)
+   ![Senden an](assets/copy-of-send-to-in-toolbar-350x149.png)
 
 1. Klicken Sie auf **Speichern**. Die neue Version wird am selben Speicherort wie die vorherige Version gespeichert.
