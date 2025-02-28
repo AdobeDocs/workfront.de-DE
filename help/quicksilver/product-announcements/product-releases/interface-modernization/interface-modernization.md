@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
+source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
 workflow-type: tm+mt
-source-wordcount: '1471'
+source-wordcount: '1473'
 ht-degree: 0%
 
 ---
@@ -144,7 +144,7 @@ Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen eines Teams > Iterat
 
 ### Hinzufügen von Storys und Problemen zu einer Iteration
 
-**Vorschau-Version: 6. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 6. Februar 2025; Produktions-Version: Ab der Woche vom 13. Februar 2025**
 
 Wir haben das Dialogfeld Story hinzufügen und Problem hinzufügen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
