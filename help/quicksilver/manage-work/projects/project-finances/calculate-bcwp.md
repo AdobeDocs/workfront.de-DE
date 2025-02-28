@@ -7,9 +7,9 @@ description: Die budgetierten Kosten der geleisteten Arbeit (BCWP), auch als Ert
 author: Lisa
 feature: Work Management
 exl-id: 203709a7-e522-4875-b3eb-40b967a938ec
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '588'
+source-wordcount: '594'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Sie können konfigurieren, ob der SKAA in Stunden oder Kosten berechnet wird, in
 1. Gehen Sie zu einem Projekt und erweitern **Projektdetails** im linken Bereich.
 1. Suchen Sie im Bereich **Finanzen** das Feld **Leistungsindexmethode** und doppelklicken Sie darauf, um es zu bearbeiten.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM-Optionen](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -125,7 +125,7 @@ Sie können den Wert der budgetierten Kosten der geleisteten Arbeit in einem Ber
 1. Klicken Sie auf **Spalte hinzufügen**.
 1. Beginnen Sie im Feld **In dieser Spalte anzeigen** mit der Eingabe **BCWP** und klicken Sie, um es auszuwählen, wenn es in der Liste angezeigt wird.
 
-   ![](assets/bcwp-project-view.png)
+   ![BCWP in der Projektansicht](assets/bcwp-project-view.png)
 
 1. Klicken Sie auf **Ansicht speichern**.
 1. Das BCWP-Feld wird in der Ansicht angezeigt.
