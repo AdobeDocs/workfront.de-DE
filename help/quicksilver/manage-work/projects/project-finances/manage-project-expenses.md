@@ -6,9 +6,9 @@ description: Der Prozess zum Erstellen und Verwalten von Ausgaben ist für Proje
 author: Lisa
 feature: Work Management
 exl-id: 80c41b08-3618-4d6e-8d07-1736b2f824ea
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '544'
 ht-degree: 1%
 
 ---
@@ -46,7 +46,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td>Contribute oder höhere Berechtigungen für das Projekt mit Berechtigungen zum Anzeigen oder Verwalten von Finanzdaten</td> 
+   <td>Tragen Sie mit Berechtigungen zum Anzeigen oder Verwalten von Finanzen zum Projekt bei oder erhöhen Sie die Berechtigungen</td> 
   </tr> 
  </tbody> 
 </table>
@@ -74,7 +74,7 @@ Das **Kosten hinzufügen** wird angezeigt.
    * **Tatsächlicher Betrag** Der Betrag, den die tatsächlichen Kosten der Ausgabe ausmachen.\
      Dies wirkt sich auf die Ist-Kosten des Projekts aus.
 
-   * **Geplantes Datum:** Das erwartete Datum für den Eintritt der Ausgabe. Sie können das Datum im Format *mm/tt/jj)* oder auf das Kalendersymbol klicken  Datum ![](assets/calendar-icon.png) und dynamisch auswählen.
+   * **Geplantes Datum:** Das erwartete Datum für den Eintritt der Ausgabe. Sie können das Datum im Format *mm/tt/jj)* oder auf das Kalendersymbol klicken  ![Kalendersymbol](assets/calendar-icon.png) und das Datum dynamisch auswählen.
 
    * **Zahlungsdatum:** Datum, an dem die Ausgabe bezahlt wurde.
    * **Fakturierbar:** Wählen Sie diese Option, wenn Sie diese Ausgabe in Rechnung stellen möchten. Die Kategorisierung einer Ausgabe als fakturierbar ist beim Erstellen von Rechnungsnachweisen wichtig.
