@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: a7237746-0a18-408b-b932-8a608fd72eee
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '531'
+source-wordcount: '541'
 ht-degree: 0%
 
 ---
@@ -66,8 +66,8 @@ Sie können einen Kommentar aus der Arbeitsliste hinzufügen:
 
 1. Suchen Sie das Arbeitselement, das Sie aktualisieren möchten.
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf **Neues Update hinzufügen**.
-   ![](assets/add-update.png)
-   <!--new screen for prod ![](assets/update-log-upload.png)-->
+   ![Neues Update hinzufügen](assets/add-update.png)
+   <!--new screen for prod ![Update](assets/update-log-upload.png)-->
 1. Beginnen Sie mit der Eingabe Ihres Kommentars.
 1. (Optional) Geben Sie in das Feld **Personen oder Teams taggen** den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams ein, das Sie in diesen Kommentar einbeziehen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird.
 1. (Optional) Verwenden Sie die Optionen in der Rich-Text-Symbolleiste, um Ihren Text zu formatieren, Ihrem Kommentar Emojis, Links oder Bilder hinzuzufügen, um Ihre Inhalte zu verbessern.
@@ -90,7 +90,7 @@ Sie können Kommentare hinzufügen und Kommentare und Systemaktualisierungen in 
 1. (Optional) Verwenden Sie die **Kommentare**, um Aktualisierungen vorzunehmen, die andere im Arbeitselement vorgenommen haben.
 1. (Optional) Auf der Registerkarte **Systemaktivität** können Sie die Systemaktivität im Zusammenhang mit dem Arbeitselement anzeigen.
 1. (Optional) Um einen Kommentar hinzuzufügen, wechseln Sie zur Registerkarte **Kommentar** und beginnen Sie mit der Eingabe in das Feld Neuer Kommentar . Klicken Sie **Absenden** wenn Sie fertig sind.
-   ![](assets/updates-area-in-overview.png)
+   ![Bereich Aktualisierungen](assets/updates-area-in-overview.png)
 
 ## Auf einen Kommentar antworten
 
@@ -101,7 +101,7 @@ Sie können auf einen Kommentar in einem Arbeitselement antworten:
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite **Übersicht** zu öffnen.
 1. Suchen Sie den **Updates** in der rechten unteren Ecke des Bildschirms.
 1. Suchen Sie auf **Registerkarte** den Kommentar, auf den Sie antworten möchten, und klicken Sie dann auf **Antworten**.
-1. (Bedingt) Wenn Sie antworten möchten, um den Inhalt einer Nachricht in Ihre Antwort zu übernehmen, klicken Sie auf das **Mehr**-Menüsymbol ![](assets/more-icon.png) neben dem Nachrichtentext und wählen Sie **Antwort zitieren**.
+1. (Bedingt) Wenn Sie antworten möchten, um den Inhalt einer Nachricht in Ihre Antwort zu übernehmen, klicken Sie auf das **Mehr** Menüsymbol ![Mehr Menü](assets/more-icon.png) neben dem Nachrichtentext und wählen Sie **Antwort zitieren**.
 
 1. Geben Sie Ihre Antwort ein und klicken Sie dann auf **Senden**.
 
@@ -109,4 +109,4 @@ Sie können auf einen Kommentar in einem Arbeitselement antworten:
    >
    >Sie können Ihren Kommentar nur innerhalb von 15 Minuten nach seiner Übermittlung bearbeiten. Um einen Kommentar zu bearbeiten, klicken Sie auf das Menü Mehr in der oberen rechten Ecke des Kommentars und dann auf Bearbeiten.
 
-   ![](assets/reply-to-comment.png)
+   ![Auf Kommentar antworten](assets/reply-to-comment.png)
