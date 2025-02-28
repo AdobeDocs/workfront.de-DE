@@ -6,9 +6,9 @@ description: Ein Kalenderbericht ist ein dynamischer Bericht, der Ihre Arbeit vi
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 40cc8628-7641-41ce-b8e5-7f5ed5ad36c7
-source-git-commit: c88c8dc7431f3bc711ae1942df12925fafa7eff0
+source-git-commit: 40bbb198216b2806154f83730d8afedd5f355a3e
 workflow-type: tm+mt
-source-wordcount: '1106'
+source-wordcount: '1104'
 ht-degree: 1%
 
 ---
@@ -205,7 +205,6 @@ Nachdem Sie eingerichtet haben, wie Elemente angezeigt werden sollen, müssen Si
    * **[!UICONTROL Aufgaben]**
    * **[!UICONTROL Projekte]**
    * **[!UICONTROL Probleme]**
-   * **Ausfallzeit**
 
 1. Klicken Sie auf **[!UICONTROL Aufgaben hinzufügen]**, **[!UICONTROL Projekte hinzufügen]**, **[!UICONTROL Probleme hinzufügen]** oder **Urlaub** je nach Objekttyp, den Sie dem Kalender hinzufügen.
 

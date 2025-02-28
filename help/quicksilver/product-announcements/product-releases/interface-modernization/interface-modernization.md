@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 946b7d2ed2d45c3622706a0d0336b3261c22a2ad
+source-git-commit: 491a32e677b913c71396316d365fc1f18750124e
 workflow-type: tm+mt
-source-wordcount: '1469'
+source-wordcount: '1471'
 ht-degree: 0%
 
 ---
@@ -187,7 +187,7 @@ Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > A
 
 ### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen in einem Dokument
 
-**Vorschau-Version: 13. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 13. Februar 2025; Produktionsversion: Beginn der Woche vom 27. Februar 2025**
 
 Wir haben den Bereich Genehmigungen in einem Dokument mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
