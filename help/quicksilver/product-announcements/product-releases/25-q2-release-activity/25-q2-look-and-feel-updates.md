@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ea9c674b798c48927c7a0a542d36d5ded15ea3f1
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '424'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,18 @@ Wir haben das Erscheinungsbild des Workfront-Kalenders auf ein modernes Design a
 * Und mehr
 
 Weitere Informationen finden Sie in den Artikeln [Kalender](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
+
+## Aktualisierte Ansicht eines Projekt-Meilensteinpfads in einer Projektansicht
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+
+Beim Zugriff auf den Meilensteinpfad über eine Projektliste oder einen Bericht hat die Seite mit den Meilensteindetails jetzt ein neues Erscheinungsbild. Sie müssen das Feld Meilensteinpfadname zur Ansicht der Liste oder des Berichts hinzufügen, um auf die Detailseite des Meilensteinpfads zugreifen zu können.
+
+Mit diesem Update haben wir auch Informationen über die Farben und Farbcodes jedes Meilensteins hinzugefügt.
+
+Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Temporäre Änderungen des Erscheinungsbilds von Dokument-E-Mails
 

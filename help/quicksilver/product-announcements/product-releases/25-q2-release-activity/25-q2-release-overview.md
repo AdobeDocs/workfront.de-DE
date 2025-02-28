@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 2d40585a48f42c767d49530b427d2e4d66f88148
+source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
 workflow-type: tm+mt
-source-wordcount: '965'
+source-wordcount: '959'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,6 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
             Hinzufügen eines Kommentars zu Projekten, wenn diese im Feld Projekt bearbeiten bearbeitet werden</a></p>
-            [!BADGE New in Preview ]{type=Negative}
             <p>Sie können einem Projekt jetzt einen Kommentar hinzufügen, während Sie es im Feld Projekt bearbeiten bearbeiten. Sie können auch einen Kommentar zu mehreren Projekten gleichzeitig hinzufügen, wenn Sie sie stapelweise bearbeiten. Vor diesem Update gab es diese Funktion nicht beim Bearbeiten von Projekten.</p>
         </td>
         <td>
