@@ -6,9 +6,9 @@ description: Sie können ein Asset in Adobe Workfront, das mit Experience Manage
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 1118a357-7412-4ae0-8daf-01db650df549
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '277'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über Experience Manager-as a Cloud Service oder Assets Essentialss verfügen und dem Produkt als Benutzerin bzw. Benutzer in der Admin Console hinzugefügt werden.</td> 
+   <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</td> 
   </tr> 
   <tr> 
    <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
@@ -66,4 +66,4 @@ Bevor Sie beginnen,
 1. Wählen Sie in der Dokumentliste das Dokument aus.
 1. Bewegen Sie in der Dokumentzusammenfassung rechts den Mauszeiger über die Miniaturansicht oben und wählen Sie **Vorschau** oder **Herunterladen**.
 
-   ![](assets/preview-or-download-350x107.png)
+   ![Vorschau oder Download](assets/preview-or-download-350x107.png)
