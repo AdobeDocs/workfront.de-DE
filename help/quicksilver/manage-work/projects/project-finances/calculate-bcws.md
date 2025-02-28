@@ -7,9 +7,9 @@ description: Die budgetierten Kosten der geplanten Arbeit (BCWS), auch als Gepla
 author: Lisa
 feature: Work Management
 exl-id: b9a36333-9430-42bd-99dd-3ad82803b633
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '615'
+source-wordcount: '621'
 ht-degree: 2%
 
 ---
@@ -77,7 +77,7 @@ Sie können konfigurieren, ob der SKBA in Stunden oder Kosten berechnet wird, in
 1. Gehen Sie zu einem Projekt und klicken **im linken Bereich** Projektdetails“.
 1. Suchen Sie im Bereich **Finanzen** das Feld **Leistungsindexmethode** und doppelklicken Sie darauf, um es zu bearbeiten.
 
-   ![](assets/pim-options-hour-cost-based-nwe.png)
+   ![PIM-Optionen](assets/pim-options-hour-cost-based-nwe.png)
 
 1. Wählen Sie aus den folgenden Optionen aus:
 
@@ -126,7 +126,7 @@ Sie können den Wert der budgetierten Kosten geplanter Arbeit in einem Bericht o
 1. Klicken Sie auf **Spalte hinzufügen**.
 1. Beginnen Sie im Feld **In dieser Spalte anzeigen** mit der Eingabe **BCWS** und klicken Sie, um es auszuwählen, wenn es in der Liste angezeigt wird.
 
-   ![](assets/bcws-in-project-view.png)
+   ![BCWS in der Projektansicht](assets/bcws-in-project-view.png)
 
 1. Klicken Sie auf **Ansicht speichern**.
 1. Das **BCWS**-Feld wird in der Ansicht angezeigt.
