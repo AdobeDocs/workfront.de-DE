@@ -6,9 +6,9 @@ description: Sie können ein Asset in Adobe Workfront, das über Experience Mana
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 4516ddf7-b39d-4bd7-8e59-4b3bdad5b643
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '219'
+source-wordcount: '222'
 ht-degree: 0%
 
 ---
@@ -62,4 +62,4 @@ Bevor Sie beginnen, müssen Sie
 1. Wählen Sie in der Dokumentliste das Dokument aus.
 1. Bewegen Sie in der Dokumentzusammenfassung rechts den Mauszeiger über die Miniaturansicht oben und wählen Sie **Vorschau** oder **Herunterladen**.
 
-   ![](assets/view-or-download-enhanced-connector-350x123.png)
+   ![Vorschau oder Download](assets/view-or-download-enhanced-connector-350x123.png)
