@@ -6,9 +6,9 @@ description: Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie autom
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '421'
+source-wordcount: '425'
 ht-degree: 0%
 
 ---
@@ -99,7 +99,7 @@ Wenn Sie einen Benutzer als Projektbesitzer eines Projekts hinzufügen, erteilt 
 
 1. Wechseln Sie zu dem Projekt, das Sie aktualisieren möchten.
 1. Klicken Sie **linken** auf „Projektdetails“.
-1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails und dann auf **Übersicht**.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails und dann auf **Übersicht**.
 
 1. Geben Sie den Namen eines Benutzers für das Feld **Projektbesitzer** an.
 
@@ -121,7 +121,7 @@ Wenn Sie einen Benutzer als Projektsponsor eines Projekts hinzufügen, erteilt W
 
 1. Wechseln Sie zu dem Projekt, das Sie aktualisieren möchten.
 1. Klicken Sie **linken** auf „Projektdetails“.
-1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails und dann auf **Übersicht**.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails und dann auf **Übersicht**.
 
 1. Geben Sie den Namen eines Benutzers für das Feld **Projektsponsor** an.
 
