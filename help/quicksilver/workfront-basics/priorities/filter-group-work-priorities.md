@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
 workflow-type: tm+mt
-source-wordcount: '643'
+source-wordcount: '652'
 ht-degree: 4%
 
 ---
@@ -66,7 +66,7 @@ Sie können die Ihnen zugewiesenen Aufgaben und Probleme filtern.
 1. Klicken **oben links** der Arbeitsliste auf „Filter“.
 1. Klicken Sie **Standardfilter**.
 1. Wählen Sie einen oder mehrere Filter aus, um Ihre Arbeitselemente einzugrenzen.
-   ![](assets/filter-new.png)
+   ![filter](assets/filter-new.png)
 
 +++Erweitern um detaillierte Informationen zu den verfügbaren Filtern
 <table>
@@ -157,7 +157,7 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 
 1. Klicken **oben links** der Arbeitsliste auf „Gruppen“.
 1. Gruppe auswählen, um die Arbeitsliste zu organisieren
-   ![](assets/groups-new.png)
+   ![Gruppen](assets/groups-new.png)
 
 +++Erweitern um detaillierte Informationen zu verfügbaren Gruppen anzuzeigen
 
@@ -184,7 +184,7 @@ Sie können einzelne Arbeitselemente beim Gruppieren nach „Meine Priorität“
 
 Um Ihre Arbeit innerhalb einer Gruppe zu sortieren, öffnen Sie **Gruppe** und klicken Sie auf **Aufsteigend sortieren** oder **Absteigend sortieren**.
 
-![](assets/sort-in-groups.png)
+![In Gruppen sortieren](assets/sort-in-groups.png)
 
 ### Sortierungsspalten
 
@@ -196,4 +196,4 @@ Um einzelne Spalten zu sortieren, gehen Sie zur Spalte und klicken Sie auf den A
 
 Um alle Gruppenabschnitte zu erweitern oder zu reduzieren, öffnen Sie **Gruppe** und klicken Sie auf **Alle erweitern** oder **Alle reduzieren**.
 
-![](assets/expand-collapse-groups.png)
+![Gruppen erweitern oder reduzieren](assets/expand-collapse-groups.png)
