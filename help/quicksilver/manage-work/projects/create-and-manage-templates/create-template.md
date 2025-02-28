@@ -6,9 +6,9 @@ description: Sie können Vorlagen im Bereich Vorlagen erstellen und löschen. Be
 author: Alina
 feature: Work Management
 exl-id: 5094ba3f-3cb0-4301-aa7d-88c64d112b78
-source-git-commit: 8769637342ab65f1e627107f7bfb41f9a3f61cca
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '574'
 ht-degree: 2%
 
 ---
@@ -102,7 +102,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    >
    >Aufgaben können nicht direkt über dieses Gantt-Diagramm bearbeitet werden.
 
-1. Um Informationen zu Ihrer neuen Vorlage hinzuzufügen, klicken Sie auf das ![](assets/more-icon.png) **Mehr** und anschließend auf **Bearbeiten**.
+1. Um Informationen zu Ihrer neuen Vorlage hinzuzufügen, klicken Sie auf das Menü **Mehr** ![Mehr-Symbol](assets/more-icon.png) und dann auf **Bearbeiten**.
 
    Informationen zum Bearbeiten einer Vorlage finden Sie unter [Projektvorlagen bearbeiten](../../../manage-work/projects/create-and-manage-templates/edit-templates.md).
 
