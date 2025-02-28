@@ -6,9 +6,9 @@ description: Sie können Dokumente entweder einzeln oder zusammen aus Adobe Work
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 083c604a-b2ca-4279-a90d-b103e3575dad
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '286'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie das Dokument, das Sie benötigen.
 
-1. Klicken Sie auf **Symbol** Ausgewählte herunterladen![](assets/download-icon.png).
+1. Klicken Sie auf das Symbol **Ausgewählte herunterladen** ![Symbol „Ausgewählte herunterladen](assets/download-icon.png).
 
 ## Mehrere Dokumente gleichzeitig herunterladen
 
@@ -69,6 +69,6 @@ Sie können mehrere Dokumente gleichzeitig herunterladen. 
    >Dokumente, die mit Workfront von Box, Dropbox, Google Drive usw. verknüpft sind, können nicht zusammen heruntergeladen werden.
 
 1. (Optional) Wählen Sie aus der Ordnerliste die Ordner aus, die die Dokumente enthalten, die Sie herunterladen möchten.
-1. Klicken Sie auf das Symbol Ausgewählte herunterladen ![](assets/download-icon.png).
+1. Klicken Sie auf das Symbol Ausgewählte herunterladen ![Symbol „Ausgewählte herunterladen](assets/download-icon.png).
 
    Ordner werden als ZIP-Dateien heruntergeladen und sind auf 4 GB beschränkt.
