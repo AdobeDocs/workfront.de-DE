@@ -6,10 +6,10 @@ description: Das Widget Meine Arbeit zeigt alle Ihnen zugewiesenen Aufgaben, Pro
 author: Courtney
 feature: Get Started with Workfront
 exl-id: e110f0f6-4ecb-419b-a368-c3f802de5920
-source-git-commit: f20f1c5d10869901ba5284a4425e38d279265a06
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '725'
-ht-degree: 5%
+source-wordcount: '744'
+ht-degree: 4%
 
 ---
 
@@ -39,7 +39,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
-   <td> <p>Aktuell: Contribute</p>
+   <td> <p>Aktuell: Beitragen</p>
    <p>Oder</p> 
    <p>Neu:[!UICONTROL light] oder höher<p> 
   </td> 
@@ -50,7 +50,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>  
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Contribute-Berechtigungen oder höher für die Aufgaben und Probleme, an denen Sie arbeiten müssen</p>  </td> 
+   <td> <p>Tragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen bei, an denen Sie arbeiten müssen</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -63,7 +63,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 Sie können die Filter Meine Arbeit so anpassen, dass sie auf bestimmte Elemente in Ihrer Arbeitsliste fokussiert sind:
 
-![](assets/filter-my-work-widget.png)
+![Mein Arbeitsfilter](assets/filter-my-work-widget.png)
 
 ### Filterdetails
 
@@ -135,7 +135,7 @@ Sie können die Arbeitsliste sortieren nach
 >Um eine Liste zu erstellen, die alle überfälligen Elemente oben im Widget Meine Arbeit anzeigt, sortieren Sie nach Fälligkeitsdatum und wenden Sie keine Gruppierung an.
 
 
-![](assets/sort-my-work-widget.png)
+![Sortieren im Widget „Meine Arbeit“](assets/sort-my-work-widget.png)
 
 ### Gruppe
 
@@ -151,7 +151,7 @@ Das Fälligkeitsdatum wird durch das geplante Abschlussdatum bestimmt.
 >Wenn Sie eine Gruppierung anwenden, bestimmt Ihre Auswahl im Menü Sortieren die Reihenfolge innerhalb der Gruppierung.
 
 
-![](assets/group-my-work-widget.png)
+![Gruppieren in Widget „Meine Arbeit“](assets/group-my-work-widget.png)
 
 ## Aktualisieren von Arbeitselementinformationen in der Zusammenfassung
 
@@ -167,7 +167,7 @@ Workfront-Admins können anpassen, welche Felder in der Layout-Vorlage in der Zu
 * Zeit erfassen
 * Angehängte Genehmigungsprozesse anzeigen
 
-Um die Zusammenfassung zu öffnen, bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf **Zusammenfassung** Symbol ![](assets/open-summary-new-home.png).
+Um die Zusammenfassung zu öffnen, bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf **Zusammenfassung** Symbol ![Zusammenfassung](assets/open-summary-new-home.png).
 
 Weitere Informationen zur Verwendung des Bedienfelds Zusammenfassung finden Sie unter [Übersicht](/help/quicksilver/workfront-basics/the-new-workfront-experience/summary-overview.md).
 
@@ -182,7 +182,7 @@ Das Schnellaktionsmenü bietet folgende Möglichkeiten
 
 Um das Schnellaktionsmenü zu finden, bewegen Sie den Mauszeiger über das Arbeitselement. Die Liste der Schnellaktionen wird neben der Schaltfläche **Bearbeiten** oder **Fertig** angezeigt.
 
-![](assets/quick-actions-new-home.png)
+![Schnellaktionsmenü](assets/quick-actions-new-home.png)
 
 
 ## Anzeigen von Genehmigungen und Teamanfragen
