@@ -6,9 +6,9 @@ description: Durch Auswahl eines Aktualisierungstyps für ein Projekt können Si
 author: Alina
 feature: Work Management
 exl-id: ffdfffec-d217-4daa-9849-cb0c794992c0
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '710'
 ht-degree: 0%
 
 ---
@@ -91,7 +91,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 Wenn die Aufgaben aktualisiert werden, werden ihre übergeordneten Objekte (übergeordnete Aufgaben oder das Projekt) zu dem Zeitpunkt aktualisiert, der durch den Aktualisierungstyp angegeben wird.  So geben Sie einen Aktualisierungstyp für Ihr Projekt an:
 
 1. Wechseln Sie zu dem Projekt, dessen Aktualisierungstyp Sie angeben möchten.
-1. Klicken Sie auf die ![](assets/more-icon.png) Mehr neben dem Namen des Projekts und dann auf **Bearbeiten** .
+1. Klicken Sie auf das Menü ![Mehr](assets/more-icon.png) neben dem Namen des Projekts und dann auf **Bearbeiten** .
 
 1. Klicken Sie auf **Projekt** **Einstellungen**.
 
