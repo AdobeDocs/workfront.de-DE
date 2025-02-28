@@ -7,9 +7,9 @@ description: Nachdem Sie eine Vorlage erstellt haben, können Sie die Informatio
 author: Alina
 feature: Work Management
 exl-id: 2df8522e-7eee-4440-be0f-f7483c5acdb0
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '2406'
+source-wordcount: '2420'
 ht-degree: 4%
 
 ---
@@ -54,7 +54,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen </td> 
-   <td> <p>Verwalten von Berechtigungen für eine Vorlage. </p> <p>Contribute oder höhere Berechtigungen für die Vorlagenaufgabe.</p> </td> 
+   <td> <p>Verwalten von Berechtigungen für eine Vorlage. </p> <p>Beitragen oder höhere Berechtigungen für die Vorlagenaufgabe.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -82,8 +82,8 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
 1. Klicken Sie auf den Namen einer Vorlagenaufgabe in der Liste, um die Vorlagenaufgabe zu öffnen.
 1. (Optional) Um mehrere Vorlagenaufgaben in großen Mengen zu bearbeiten, wählen Sie mehrere Vorlagenaufgaben aus und klicken Sie dann **Bearbeiten** oben in der Vorlagenliste.
 1. (Bedingt) Um eingeschränkte Informationen zu einer Vorlagenaufgabe zu bearbeiten, klicken Sie im linken Bereich auf **Vorlagenaufgabendetails** und gehen Sie dann in die Bereiche des Abschnitts Details , um Informationen für die einzelnen Bereiche zu bearbeiten.
-1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren**, ![](assets/collapse-all-icon.png) alle Bereiche zu reduzieren.
-1. Um Informationen im Abschnitt Details zu bearbeiten, klicken Sie auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png) und wählen Sie dann einen der folgenden Bereiche aus oder klicken Sie auf **Alle bearbeiten**, um Informationen in allen Bereichen zu bearbeiten:
+1. (Optional) Klicken Sie auf das Symbol **Alle reduzieren** ![Symbol Alle reduzieren](assets/collapse-all-icon.png), um alle Bereiche zu reduzieren.
+1. Um Informationen im Abschnitt Details zu bearbeiten, klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) und wählen Sie dann einen der folgenden Bereiche aus oder klicken Sie auf **Alle bearbeiten**, um Informationen in allen Bereichen zu bearbeiten:
 
    * Übersicht
    * Benutzerdefinierte Formulare
@@ -96,7 +96,7 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
    >
    >Um Informationen zu allen Feldern zu erhalten, die im Bereich Details angezeigt werden, setzen Sie den Vorgang mit Bearbeiten aller Felder im Feld Vorlagenaufgabe bearbeiten fort, wie unten beschrieben.
 
-1. (Bedingt) Um alle Informationen zur Vorlagenaufgabe zu bearbeiten, klicken Sie auf das **Mehr**-Menü ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Vorlagenaufgabe und dann auf **Bearbeiten**.
+1. (Bedingt) Um alle Informationen zur Vorlagenaufgabe zu bearbeiten, klicken Sie auf das Menü **Mehr** ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Namen der Vorlagenaufgabe und anschließend auf **Bearbeiten**.
 
    Das **Vorlagenaufgabe bearbeiten** wird angezeigt.
 
@@ -104,7 +104,7 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
    >
    >Sie können auch eine Vorlagenaufgabe in einer Liste auswählen und dann auf Bearbeiten klicken, um das Feld Vorlagenaufgabe bearbeiten zu öffnen.
 
-   ![](assets/edit-template-tasks-box-classic-350x356.png)
+   ![Vorlagenaufgabe bearbeiten](assets/edit-template-tasks-box-classic-350x356.png)
 
 1. Erwägen Sie, Informationen in einem der folgenden Abschnitte anzugeben:
 
@@ -268,7 +268,7 @@ Sie können eine Vorlagenaufgabe mithilfe der Bereiche Vorlagenaufgabe bearbeite
 1. Beginnen Sie mit der Bearbeitung einer Vorlagenaufgabe, wie oben beschrieben.
 1. Klicken Sie **Einstellungen**.
 
-   ![](assets/edit-template-tasks-settings-classic-350x231.png)
+   ![Einstellungen für Vorlagenaufgaben bearbeiten](assets/edit-template-tasks-settings-classic-350x231.png)
 
 1. Aktualisieren Sie eines der folgenden:
 
