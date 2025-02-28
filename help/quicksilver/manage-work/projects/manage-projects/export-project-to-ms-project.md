@@ -6,9 +6,9 @@ description: Sie können Adobe Workfront-Projekte in Microsoft Project exportier
 author: Alina
 feature: Work Management
 exl-id: 3f0f3644-a763-4b72-a93a-85af8626b5b3
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '307'
+source-wordcount: '316'
 ht-degree: 0%
 
 ---
@@ -88,15 +88,15 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 
 Sie können ein Projekt aus Workfront über die Projektseite oder aus einer Projektliste oder einem Bericht exportieren.
 
-1. Wechseln Sie zu dem Projekt, das Sie exportieren möchten, und klicken Sie auf das **Mehr**-Symbol ![](assets/qs-more-menu.png) rechts neben dem Projektnamen
+1. Gehen Sie zu dem Projekt, das Sie exportieren möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) rechts neben dem Projektnamen
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oder
 
-   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf das Symbol Mehr ![](assets/qs-more-menu.png).
+   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus, und klicken Sie dann oben in der Liste ![ das Symbol Mehr ](assets/qs-more-menu.png)Mehr Menü).
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Mehr Menü erweitert](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 1. Klicken Sie **MS Project exportieren**.
 
