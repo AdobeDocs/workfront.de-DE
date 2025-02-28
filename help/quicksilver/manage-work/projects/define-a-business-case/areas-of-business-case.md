@@ -6,9 +6,9 @@ description: In diesem Artikel werden die Bereiche des Business Case eines Proje
 author: Alina
 feature: Work Management
 exl-id: 0646e4f0-e8fb-48f2-b533-358229543081
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1603'
+source-wordcount: '1607'
 ht-degree: 2%
 
 ---
@@ -51,9 +51,9 @@ Erwägen Sie, die folgenden Felder zu bearbeiten:
 
   Erwägen Sie, eine andere Person als den Projektbesitzer als Sponsor des Projekts hinzuzufügen. Der Sponsor erhält die Genehmigung des Business Case. 
 
-* **Portfolio**: Geben Sie ein Portfolio für das Projekt an. Sie müssen das Portfolio erstellen und den Status **Aktiv** annehmen, bevor es in diesem Dropdown-Menü ausgewählt werden kann.
+* **Portfolio**: Geben Sie eine Portfolio für das Projekt an. Sie müssen den Portfolio erstellen und ihn im Status **Aktiv** platzieren, bevor er in diesem Dropdown-Menü ausgewählt werden kann.
 
-  Weitere Informationen zu Portfolios finden Sie unter Übersicht über das [Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie unter Übersicht über Portfolio in Adobe Workfront [](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
   Weitere Informationen zum Erstellen von Portfolios finden Sie unter [Erstellen eines Portfolios](../../../manage-work/portfolios/create-and-manage-portfolios/create-portfolios.md).
 
@@ -81,7 +81,7 @@ Ziele definieren die Ziele für das Projekt. Dieser Bereich ist im Business-Case
 >
 >Sie können strategische Ziele für Ihr Unternehmen erstellen, die nicht mit dem individuellen Business Case eines Projekts verbunden sind. Sie müssen Zugriff auf Adobe Workfront-Ziele haben, um strategische Ziele erstellen zu können. Sie können sie dann mit Projekten außerhalb ihrer Business Cases verbinden. Informationen zum Erstellen von Zielen mithilfe von Workfront-Zielen finden Sie unter [Adobe Workfront-Ziele - Übersicht](../../../workfront-goals/goal-management/wf-goals-overview.md).
 
-Die Definition der Ziele ist optional, damit das Projekt ein Score in Portfolio Optimizer erhalten kann. Dieser Abschnitt ist der einzige optionale Abschnitt im Business Case. Alle anderen Abschnitte des Business Case müssen abgeschlossen sein, bevor das Projekt in Portfolio Optimizer bewertet wird. Sie können bei der Erstellung des Ziels eine Prioritätsstufe für ein Ziel angeben.
+Die Definition der Ziele ist optional, damit das Projekt einen Score in Portfolio Optimizer erhalten kann. Dieser Abschnitt ist der einzige optionale Abschnitt im Business Case. Alle anderen Abschnitte des Business Case müssen abgeschlossen sein, bevor das Projekt in Portfolio Optimizer bewertet wird. Sie können bei der Erstellung des Ziels eine Prioritätsstufe für ein Ziel angeben.
 
 Weitere Informationen zu Zielen finden Sie unter  [Erstellen von Business Case-Zielen](../../../manage-work/projects/define-a-business-case/create-business-case-goals.md).
 
@@ -115,7 +115,7 @@ Die budgetierten Stunden für die Ressourcen im Projekt werden im Bereich Ressou
 
 Weitere Informationen zur Budgetierung von Ressourcen für das Projekt im Business Case finden Sie [Budgetressourcen im Business Case](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case.md).
 
-![](assets/business-case-sp-selected-with-choose-button-350x121.png)
+![Business Case-Ressourcenbudgetierung](assets/business-case-sp-selected-with-choose-button-350x121.png)
 
 Beachten Sie beim Anzeigen des Abschnitts „Ressourcenbudgetierung“ des Business Case Folgendes:
 
@@ -125,7 +125,7 @@ Beachten Sie beim Anzeigen des Abschnitts „Ressourcenbudgetierung“ des Busin
 
      Weitere Informationen finden Sie [Budgetressourcen im Business Case mit dem Ressourcenplaner](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-resource-planner.md).
 
-   * Der Szenario-Planer , wenn Ihr Unternehmen eine zusätzliche Lizenz für das Adobe des Szenario-Planers erworben hat
+   * Der Szenario-Planer , wenn Ihr Unternehmen eine zusätzliche Lizenz für Adobe Scenario Planner erworben hat
 
      Weitere Informationen finden Sie unter [Budgetressourcen im Business Case mit dem Szenario-Planer](../../../manage-work/projects/define-a-business-case/budget-resources-in-business-case-use-scenario-planner.md).
 
@@ -213,7 +213,7 @@ Weitere Informationen zu diesen Feldern finden Sie unter [Übersicht über Busin
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: made this into a standalone article, linked in the first paragraph of this section)</p>
 -->
 
-Sie können den Business Case in eine PDF-Datei exportieren, falls Sie ihn drucken müssen oder in einem kürzeren Format an eine E-Mail anhängen. 
+Sie können den Business Case in eine PDF-Datei exportieren, für den Fall, dass Sie ihn drucken müssen, oder ihn in einem kürzeren Format an eine E-Mail anhängen. 
 
 Weitere Informationen finden [ unter „Business Case eines Projekts exportieren](../../../manage-work/projects/define-a-business-case/export-business-case.md).
 
