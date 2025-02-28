@@ -8,9 +8,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '564'
 ht-degree: 1%
 
 ---
@@ -96,7 +96,7 @@ Sie müssen das geplante Abschlussdatum eines Projekts manuell festlegen, wenn S
 
 So planen Sie ein Projekt ab dem Abschlussdatum:
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Projekte**.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Projekte**.
 
 1. Klicken Sie **Neues Projekt** und dann **Neues Projekt**.
 
@@ -117,7 +117,7 @@ Das geplante Abschlussdatum eines Projekts wird automatisch von Workfront berech
 
 So planen Sie ein Projekt ab dem Startdatum:
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Projekte**.
+1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Projekte**.
 
 1. Klicken Sie **Neues Projekt** und dann **Neues Projekt**.
 
