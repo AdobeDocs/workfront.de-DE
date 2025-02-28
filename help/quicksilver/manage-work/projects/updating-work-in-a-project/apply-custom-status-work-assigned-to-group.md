@@ -6,9 +6,9 @@ description: Wenn ein Projekt mit einer Gruppe verknüpft ist, können Sie sowoh
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: 6bb6b834c5af8ad48179fc0d60b184d083b360e4
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '351'
+source-wordcount: '353'
 ht-degree: 0%
 
 ---
@@ -92,7 +92,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 Wenn Sie die Gruppe für ein Projekt aktualisieren, ändern sich die verfügbaren Optionen für den Status von Aufgaben, Problemen oder das Projekt, sodass sie mit der Gruppe übereinstimmen.
 
 1. Gehen Sie zu einem Projekt oder erstellen Sie ein neues Projekt, wie in [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md) beschrieben.
-1. Klicken Sie auf das **Mehr**-![](assets/more-icon.png) und dann auf **Bearbeiten**.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png) und dann auf **Bearbeiten**.
 
 1. Wählen Sie in dem **Projekt bearbeiten** unten im Abschnitt **Übersicht** die Gruppe im Dropdownmenü **Gruppe** aus.
 
