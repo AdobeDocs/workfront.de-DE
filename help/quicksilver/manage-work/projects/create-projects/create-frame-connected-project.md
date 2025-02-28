@@ -8,9 +8,9 @@ feature: Work Management
 hide: true
 hidefromtoc: true
 exl-id: 230d8e62-a3c9-4e38-9b26-5ba1c4f56391
-source-git-commit: 60eefed6b3931f681aa86ab2c533662e76793744
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1169'
+source-wordcount: '1180'
 ht-degree: 1%
 
 ---
@@ -95,7 +95,7 @@ Wenn Sie das Projekt von Grund auf neu erstellen, fügt Workfront automatisch di
 
 Fahren Sie mit dem nächsten Abschnitt fort.
 
-![](assets/template-group.png)
+![Vorlagengruppe](assets/template-group.png)
 
 ### Aufgaben hinzufügen und Frame.io-fähige Benutzer zuweisen
 
@@ -105,7 +105,7 @@ Fahren Sie mit dem nächsten Abschnitt fort.
    Oder
 
    Klicken Sie **Neue Vorlagenaufgabe**, um jeweils eine Aufgabe hinzuzufügen und zusätzliche Einstellungen zu konfigurieren.
-   ![](assets/add-tasks-to-template.png)
+   ![Aufgaben zur Vorlage hinzufügen](assets/add-tasks-to-template.png)
 1. Aufgabennamen hinzufügen.
 1. Weisen Sie im **Arbeitsaufträge** Benutzer oder Teams zu. Wenn Sie einen für Frame.io aktivierten Benutzer einzeln oder im Team zuweisen, erhält dieser Mitarbeiter Zugriff auf das Frame.io-Projekt und wird per E-Mail über die Aufgabe im Frame.io-Projekt informiert. Von dieser E-Mail aus können sie sich dem Frame.io-Projekt anschließen und mit der Arbeit beginnen.
 1. Wiederholen Sie die Schritte 1 und 2 nach Bedarf.
@@ -133,7 +133,7 @@ Nachdem Sie eine Vorlage erstellt haben, können Sie sie zum Erstellen von Proje
 1. Klicken Sie auf **Neues Projekt aus Vorlage**.
 1. Beginnen Sie mit der Eingabe des Namens der gewünschten Vorlage über das Suchfeld.
 1. Wählen Sie den Vorlagennamen aus und klicken Sie dann auf **Vorlage verwenden**.
-   ![](assets/find-your-template.png)
+   ![Finden Sie Ihre Vorlage](assets/find-your-template.png)
 1. Passen Sie alle Projekteinstellungen nach Bedarf an und klicken Sie dann auf **Projekt erstellen**.
 1. Klicken Sie im linken Bedienfeld auf **Dokumente**.
 1. Verwenden Sie den unidirektionalen Synchronisierungsordner, um Kreativmaterialien automatisch für Frame.io freizugeben. [!BADGE Bald verfügbar]{type=Informative}
@@ -176,7 +176,7 @@ Fahren Sie mit dem nächsten Abschnitt fort.
    Oder
 
    Klicken Sie **Neue Aufgabe**, um jeweils eine Aufgabe hinzuzufügen und zusätzliche Einstellungen zu konfigurieren.
-   ![](assets/add-project-tasks.png)
+   ![Neue Aufgabe](assets/add-project-tasks.png)
 1. Aufgabennamen hinzufügen.
 1. Weisen Sie im **Arbeitsaufträge** Benutzer oder Teams zu. Wenn Sie einen für Frame.io aktivierten Benutzer einzeln oder im Team zuweisen, erhält dieser Mitarbeiter Zugriff auf das Frame.io-Projekt und wird per E-Mail über die Aufgabe im Frame.io-Projekt informiert. Von dieser E-Mail aus können sie sich dem Frame.io-Projekt anschließen und mit der Arbeit beginnen.
 1. Wiederholen Sie die Schritte 1 und 2 nach Bedarf.
