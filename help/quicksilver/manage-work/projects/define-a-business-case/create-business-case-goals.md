@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Business Case-Ziele erstellen
-description: Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, um die Ziele eines Projekts zu definieren. Business Case-Ziele werden verwendet, um dem Portfolio-Manager oder Projektsponsor den Zweck der Projektabwicklung zu kommunizieren.
+description: Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, um die Ziele eines Projekts zu definieren. Business Case-Ziele werden verwendet, um dem Portfolio-Manager oder Projektsponsor zu kommunizieren, wann ein Projekt abgeschlossen werden soll.
 author: Alina
 feature: Work Management
 exl-id: c5f4c095-ea21-4205-a747-e8923de7030f
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '487'
+source-wordcount: '494'
 ht-degree: 1%
 
 ---
 
 # Business Case-Ziele erstellen
 
-Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, um die Ziele eines Projekts zu definieren. Business Case-Ziele werden verwendet, um dem Portfolio-Manager oder Projektsponsor den Zweck der Projektabwicklung zu kommunizieren.
+Beim Erstellen eines Business Case können Sie eine Reihe von Zielen erstellen, um die Ziele eines Projekts zu definieren. Business Case-Ziele werden verwendet, um dem Portfolio-Manager oder Projektsponsor zu kommunizieren, wann ein Projekt abgeschlossen werden soll.
 
 <!--
 <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: below snippet: NWE only, not classic)</p>
@@ -31,9 +31,9 @@ Beachten Sie beim Erstellen von Business Case-Zielen für Ihre Projekte Folgende
 
 * Ziele sind kein obligatorischer Abschnitt im Business Case eines Projekts.
 
-  Ein Projekt kann eine Bewertung erhalten, die im Portfolio-Optimizer priorisiert werden soll, selbst wenn der Abschnitt „Ziele“ des Business-Case nicht definiert ist.
+  Ein Projekt kann eine Punktzahl erhalten, die in Portfolio Optimizer priorisiert werden soll, auch wenn der Abschnitt „Ziele“ des Business-Case nicht definiert ist.
 
-  Weitere Informationen zum Portfolio Optimizer-Score finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren eines Alignment-Scores](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Weitere Informationen zum Portfolio Optimizer-Score finden Sie unter [Anwenden einer Scorecard auf ein Projekt und Generieren eines Ausrichtungsscores](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 * Sie können keine Berichte zu Business Case-Zielen erstellen.
 
@@ -75,7 +75,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Der Business Case wird angezeigt.
 
-   ![](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
+   ![Informationen zum Business-Case](assets/business-case-page-info-goals-expenses-nwe-350x123.png)
 
 1. Klicken **Abschnitt „Ziele** auf **Ziele bearbeiten**.
 
@@ -88,7 +88,7 @@ Wählen Sie **Dropdown** Menü Wichtigkeit die Wichtigkeitsstufe aus:
    * Niedrig
    * Minimal
 
-     ![](assets/g1-350x76.png)
+     Importance(assets/g1-350x76.png)
 
      Die Wichtigkeitsstufen von Zielen können nicht angepasst werden.
 
