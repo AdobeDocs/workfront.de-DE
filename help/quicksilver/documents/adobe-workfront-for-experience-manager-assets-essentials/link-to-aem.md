@@ -2,20 +2,20 @@
 product-area: documents;workfront-integrations
 navigation-topic: adobe-workfront-for-experince-manager-asset-essentials
 title: Verknüpfen von Assets und Ordnern aus Experience Manager Assets oder Assets Essentials
-description: Sie können ein Asset oder einen Ordner aus Experience Manager Assets oder Assets Essentials mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt. Assets, die von Assets Essentials versandt werden, werden nicht auf den gesamten Dokumentenspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden für den Gesamtspeicher mitgezählt.
+description: Sie können ein Asset oder einen Ordner aus Experience Manager Assets oder Assets Essentials mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt. Assets, die von Assets Essentials gesendet wurden, werden nicht für den gesamten Dokumentspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden für den gesamten Speicher gezählt.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: dbd19985-88b1-48ca-9cba-b7933ff2c191
-source-git-commit: b87839d6c6dbfe978a3e14ef4b448560742f95c3
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '681'
+source-wordcount: '690'
 ht-degree: 0%
 
 ---
 
 # Verknüpfen von Assets und Ordnern aus Experience Manager Assets oder Assets Essentials
 
-Sie können ein Asset oder einen Ordner aus Experience Manager Assets oder Assets Essentials mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt. Assets, die von Assets Essentials versandt werden, werden nicht auf den gesamten Dokumentenspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden für den Gesamtspeicher mitgezählt.
+Sie können ein Asset oder einen Ordner aus Experience Manager Assets oder Assets Essentials mit jedem Adobe Workfront-Objekt verknüpfen, das Dokumente unterstützt. Assets, die von Assets Essentials gesendet wurden, werden nicht für den gesamten Dokumentspeicher in Workfront angerechnet. Dokumente, die von Workfront hochgeladen und an Assets Essentials gesendet wurden, werden für den gesamten Speicher gezählt.
 
 Metadatenfelder werden zuerst zugeordnet, wenn Sie ein Asset von Workfront an Experience Manager Assets oder Assets Essentials senden. Wenn Ihr Workfront-Administrator die Synchronisierung von Objektmetadaten aktiviert hat, bleiben die Felder auf dem neuesten Stand, wenn sie in einer der Anwendungen geändert werden.
 
@@ -39,10 +39,10 @@ Sie müssen über Folgendes verfügen:
   </tr> 
   <tr> 
    <td role="rowheader">Produkt</td> 
-   <td>Sie müssen über Experience Manager-as a Cloud Service oder Assets Essentialss verfügen und dem Produkt als Benutzerin bzw. Benutzer in der Admin Console hinzugefügt werden.</td> 
+   <td>Sie müssen über Experience Manager as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer in der Admin Console hinzugefügt werden.</td> 
   </tr> 
    <tr> 
-    <td role="rowheader">Berechtigungen für Experience Manager</td> 
+    <td role="rowheader">Experience Manager-Berechtigungen</td> 
     <td>Sie müssen Schreibzugriff auf den Ordner haben.</td> 
    </tr>
   <tr> 
@@ -74,40 +74,40 @@ Sie können ein Asset aus Experience Manager Assets oder Assets Essentials mit W
 * [Hochladen einer neuen Version eines Dokuments](../../documents/managing-documents/upload-new-document-version.md)
 
 1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
-1. Klicken Sie **Neu hinzufügen** und wählen Sie dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Wählen Sie **Neu hinzufügen** und dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Assets oder Assets Essentials möglicherweise nicht explizit erwähnt werden.
+   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen und darf daher Assets oder Assets Essentials nicht explizit erwähnen.
 
 1. Wählen Sie die gewünschten Assets.
 
-   ![](assets/select-an-asset.png)
+   ![Asset auswählen](assets/select-an-asset.png)
 
 1. Klicken Sie **Auswählen**.
 
 ## Verknüpfen von Ordnern aus Experience Manager Assets oder Assets Essentials
 
-Die Berechtigungen zum Anzeigen einzelner Assets in einem Ordner hängen von den Berechtigungen von Experience Manager Assets oder Assets Essentials ab.
+Die Berechtigungen zum Anzeigen einzelner Assets innerhalb eines Ordners basieren auf Experience Manager Assets- oder Assets Essentials-Berechtigungen.
 
 1. Wechseln Sie zum **Dokumente** in Workfront, in dem Sie den Ordner ablegen möchten.
-1. Klicken Sie **Neu hinzufügen** und wählen Sie dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
+1. Wählen Sie **Neu hinzufügen** und dann die Experience Manager-Integration aus, die Ihr Administrator eingerichtet hat.
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Assets oder Assets Essentials möglicherweise nicht explizit erwähnt werden.
+   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen und erwähnt daher möglicherweise nicht speziell Assets oder Assets Essentials.
 
 1. Wählen Sie die gewünschten Ordner.
 
-   ![](assets/select-a-folder.png)
+   ![Ordner auswählen](assets/select-a-folder.png)
 
 1. Klicken Sie **Auswählen**.
 
-## Verknüpfen neuer Versionen von Experience Manager Assets oder Assets Essentials
+## Verknüpfen einer neuen Version aus Experience Manager Assets oder Assets Essentials
 
-Sie können ein neues Asset aus den Assets Essentials abrufen und es als neue Version einem vorhandenen Asset hinzufügen. Wenn das Dokument bereits verknüpft ist und eine neue Version in Assets Essentials hinzugefügt wurde, wird die neue Version automatisch in Workfront angezeigt.
+Sie können ein neues Asset aus Assets Essentials abrufen und es einem vorhandenen Asset als neue Version hinzufügen. Wenn das Dokument bereits verknüpft ist und in Assets Essentials eine neue Version hinzugefügt wurde, wird die neue Version automatisch in Workfront angezeigt.
 
-So verknüpfen Sie eine neue Version aus Assets Essentials:
+So verknüpfen Sie eine neue Version von Assets Essentials:
 
 1. Wechseln Sie zum **Dokumente** in Workfront, wo Sie das Dokument hinzufügen möchten.
 1. Wählen Sie das Asset aus, das Sie durch eine neue Version ersetzen möchten. Sie können keine neue Version eines Assets in einem verknüpften Ordner erstellen.
@@ -115,11 +115,11 @@ So verknüpfen Sie eine neue Version aus Assets Essentials:
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Assets oder Assets Essentials möglicherweise nicht explizit erwähnt werden.
+   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen und erwähnt daher möglicherweise nicht speziell Assets oder Assets Essentials.
 
 1. Wählen Sie das gewünschte Asset aus.
 
-   ![](assets/select-an-asset.png)
+   ![Asset auswählen](assets/select-an-asset.png)
 
 1. Klicken Sie **Auswählen**.
 
