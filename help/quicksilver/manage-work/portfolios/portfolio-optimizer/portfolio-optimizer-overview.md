@@ -7,9 +7,9 @@ description: Der [!UICONTROL Portfolio Optimizer] ist das Tool, das für die Eva
 author: Alina
 feature: Work Management, Strategic Planning
 exl-id: 1e48a24c-65de-49c2-85a8-dc931ac40c52
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '1657'
+source-wordcount: '1647'
 ht-degree: 0%
 
 ---
@@ -128,7 +128,7 @@ Die folgenden Finanzfelder werden in [!UICONTROL Portfolio Optimizer] angezeigt:
   </tr> 
   <tr> 
    <td>[!UICONTROL verbleibt]</td> 
-   <td> <p>Das verbleibende Budget nach Abzug aller [!UICONTROL budgetierten Kosten] für alle Projekte innerhalb des Portfolios vom Budget des Portfolios.</p> <p>Das [!UICONTROL Verbleibendes Portfolio-Budget] wird nach folgender Formel berechnet:</p> <p><em>[!UICONTROL Verbleibendes Portfolio-Budget] = [!UICONTROL Portfolio-Gesamtbudget] - [!UICONTROL budgetierte Gesamtkosten] aller Portfolio-Projekte</em> </p> <p>Die gesamten [!UICONTROL Budgetierten Kosten] aller Projekte im Portfolio werden in der Indikatorleiste unter dem Feld Budget dargestellt. </p> <p>Weitere Informationen zum Nachverfolgen von Kosten für ein Projekt finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a>.</p> </td> 
+   <td> <p>Das verbleibende Budget nach den [!UICONTROL Gesamtkosten] für alle Projekte innerhalb des Portfolios wurde vom Budget des Portfolios abgezogen.</p> <p>Das [!UICONTROL Verbleibendes Portfolio-Budget] wird nach folgender Formel berechnet:</p> <p><em>[!UICONTROL Verbleibendes Portfolio-Budget] = [!UICONTROL Portfolio-Gesamtbudget] - [!UICONTROL budgetierte Gesamtkosten] aller Portfolio-Projekte</em> </p> <p>Das Portfoliobudget ist ein manueller Eintrag im Feld Budget von Portfolio Optimizer. </p> <p>Weitere Informationen zum Nachverfolgen von Kosten für ein Projekt finden Sie unter <a href="../../../manage-work/projects/project-finances/track-costs.md" class="MCXref xref">Kosten nachverfolgen</a>.</p> </td> 
   </tr> 
   <tr> 
    <td>[!UICONTROL Gesamtkosten]</td> 

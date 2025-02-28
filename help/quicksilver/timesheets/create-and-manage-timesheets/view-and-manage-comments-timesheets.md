@@ -6,9 +6,9 @@ description: Sie können Kommentare zu Arbeitszeittabellen, zu den in den Arbeit
 author: Alina
 feature: Timesheets
 exl-id: 6260d176-3cfb-4bc2-93cb-00687e030248
-source-git-commit: 1eb1e919bede7e366956d8c0bd969329a641123f
+source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
 workflow-type: tm+mt
-source-wordcount: '848'
+source-wordcount: '901'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ Sie können zu den folgenden Elementen in einer Arbeitszeittabelle Kommentare ab
 * Auf der Arbeitszeittabelle
 * Zu den Stundeneinträgen
 * Für ein einzelnes Element, z. B. eine Aufgabe oder ein Problem
+
+Sie können Aktualisierungen aus einer Arbeitszeittabelle oder aus einzelnen Stundeneinträgen in einem Notizbericht anzeigen. Weitere Informationen finden Sie unter [Alle Aktualisierungen in einem Notizbericht anzeigen](/help/quicksilver/workfront-basics/updating-work-items-and-viewing-updates/view-all-updates-in-a-report.md).
 
 ## Zugriffsanforderungen
 
@@ -73,7 +75,7 @@ Der Bereich **Arbeitszeittabellen** wird geöffnet.
 1. Klicken **oben rechts** der Arbeitszeittabelle auf „Kommentare anzeigen“.
 Kommentare werden unter dem Element angezeigt, in dem der Stundeneintrag und der Kommentar protokolliert wurden.
 
-   ![](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
+   ![Kommentare unter Aufgaben erweitert, Arbeitszeittabelle neu gestaltet](assets/comments-expanded-under-tasks-redesigned-timesheet.png)
 
 
 ## Kommentare zu einer Arbeitszeittabelle abgeben {#make-comments-on-a-timesheet}
@@ -86,7 +88,7 @@ Kommentare werden unter dem Element angezeigt, in dem der Stundeneintrag und der
 
 Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentieren der gesamten Arbeitszeittabelle ähnelt dem Kommentieren anderer Objekte.
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol oben rechts ![](assets/main-menu-icon.png) oder auf das **Hauptmenü**-Symbol ![](assets/lines-main-menu.png) oben links oder auf Workfront, falls verfügbar.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü**-Symbol ![Hauptmenü](assets/lines-main-menu.png) in der oberen linken Ecke oder auf Workfront, falls verfügbar.
 
 1. Klicken Sie **Arbeitszeittabellen**.
 1. Wechseln Sie zur Arbeitszeittabelle, in der Sie einen Kommentar abgeben möchten.
@@ -113,7 +115,7 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
 
 ### Kommentar zu einem einzelnen Stundeneintrag in einer Arbeitszeittabelle {#comment-on-an-individual-hour-entry-in-a-timesheet}
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
 1. Klicken Sie **Arbeitszeittabellen**.
 1. Gehen Sie zur Arbeitszeittabelle, zu der Sie einen Kommentar abgeben möchten, und klicken Sie **linken Bereich** Arbeitszeittabelle“.
@@ -128,11 +130,11 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
 
    * Geben Sie einen neuen Kommentar ein und klicken Sie auf **Fertig**.
    * Bearbeiten Sie einen vorhandenen Kommentar und klicken Sie auf **Fertig** oder klicken Sie auf **Abbrechen**, um die Änderungen zu verwerfen.
-   * Klicken Sie auf das **Löschen**-Symbol ![](assets/delete.png), um einen gespeicherten Kommentar zu löschen.
+   * Klicken Sie auf das **Löschen**-Symbol ![Löschen-Symbol](assets/delete.png), um einen gespeicherten Kommentar zu löschen.
 
      Eine blaue Markierung wird oben rechts im Stundeneingabefeld angezeigt, um anzugeben, dass mit dem Zeiteintrag Kommentare protokolliert wurden.
 
-   ![](assets/commment-button-on-hour-log-redesigned-timesheet.png)
+   ![Schaltfläche „Kommentar“ im Protokoll wurde umgestaltet Arbeitszeittabelle](assets/commment-button-on-hour-log-redesigned-timesheet.png)
 
    >[!TIP]
    >
@@ -152,7 +154,7 @@ Sie können allgemeine Kommentare zur Arbeitszeittabelle abgeben. Das Kommentier
 
 Sie können nur Aufgaben und Probleme in einer Arbeitszeittabelle kommentieren. Sie können keine Projekte oder allgemeine Zeit kommentieren.
 
-1. Klicken Sie auf [!UICONTROL **Hauptmenü**] Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf [!UICONTROL **Hauptmenü**]-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 1. Klicken Sie [!UICONTROL **Arbeitszeittabellen**].
 1. Wechseln Sie zur Arbeitszeittabelle, auf der Sie einen Kommentar abgeben möchten, und klicken Sie [!UICONTROL **linken**] auf „Arbeitszeittabelle“.
 1. Klicken Sie auf die Zeile einer Aufgabe oder eines Problems und dann auf [!UICONTROL **Zusammenfassung öffnen**].
