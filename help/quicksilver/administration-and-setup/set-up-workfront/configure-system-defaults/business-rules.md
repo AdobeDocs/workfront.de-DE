@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
 workflow-type: tm+mt
 source-wordcount: '1270'
 ht-degree: 0%
@@ -75,7 +75,10 @@ Weitere Informationen zu datumsbasierten Platzhaltern finden Sie unter [Verwende
 Ein API-Platzhalter ist auch in Geschäftsregeln verfügbar. Verwenden Sie `$$ISAPI`, um die Regel nur in der API in Trigger zu setzen. Verwenden Sie `!$$ISAPI`, um die Regel nur in der Benutzeroberfläche durchzusetzen, und lassen Sie zu, dass Benutzer die Regel über die API umgehen.
 
 * Beispielsweise verbietet diese Regel Benutzenden, abgeschlossene Projekte über die API zu bearbeiten. Wenn der Platzhalter nicht verwendet wurde, blockiert die Regel die Aktion sowohl in der Benutzeroberfläche als auch in der API.
-  `IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")`
+
+  ```
+  IF({status} = "CPL" && $$ISAPI, "You cannot edit completed projects through the API.")
+  ```
 
 Die Platzhalter `$$BEFORE_STATE` und `$$AFTER_STATE` werden in Ausdrücken verwendet, um vor und nach jeder Bearbeitung auf die Feldwerte des Objekts zuzugreifen.
 
@@ -85,8 +88,17 @@ Die Platzhalter `$$BEFORE_STATE` und `$$AFTER_STATE` werden in Ausdrücken verwe
 
 Einige einfache Szenarien für Geschäftsregeln sind:
 
-* Benutzende können in der letzten Februarwoche keine neuen Ausgaben hinzufügen. Diese Formel könnte wie folgt angegeben werden: `IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")`
-* Benutzende können den Projektnamen eines Projekts mit dem Status „Abgeschlossen“ nicht bearbeiten. Diese Formel könnte wie folgt angegeben werden: `IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")`
+* Benutzende können in der letzten Februarwoche keine neuen Ausgaben hinzufügen. Diese Formel könnte wie folgt angegeben werden:
+
+  ```
+  IF(MONTH($$TODAY) = 2 && DAYOFMONTH($$TODAY) >= 22, "You cannot add new expenses during the last week of February.")
+  ```
+
+* Benutzende können den Projektnamen eines Projekts mit dem Status „Abgeschlossen“ nicht bearbeiten. Diese Formel könnte wie folgt angegeben werden:
+
+  ```
+  IF({status} = "CPL" && {name} != $$BEFORE_STATE.{name}, "You cannot edit the project name.")
+  ```
 
 Ein Szenario mit verschachtelten IF-Anweisungen ist:
 
