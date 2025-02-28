@@ -6,9 +6,9 @@ description: Ein Projekt ist eine große Arbeitseinheit in Adobe Workfront. Sie 
 author: Alina
 feature: Work Management
 exl-id: d4e28fa6-25f9-4765-b051-8960c8873d5a
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1390'
 ht-degree: 1%
 
 ---
@@ -204,7 +204,7 @@ Beachten Sie Folgendes:
 
    Weitere Informationen zum Hinzufügen von Aufgaben zu einem Projekt finden Sie unter [Erstellen von Aufgaben in einem Projekt](../../../manage-work/tasks/create-tasks/create-tasks-in-project.md).
 
-1. Bearbeiten Sie die Projektdetails, indem Sie auf das Menü **Mehr** und dann **Bearbeiten** neben dem Namen des Projekts ![](assets/qs-edit-icon.png).
+1. Bearbeiten Sie die Projektdetails, indem Sie auf das **Mehr**-Menü und dann **Bearbeiten** ![Bearbeiten-](assets/qs-edit-icon.png) neben dem Namen des Projekts klicken.
 
    Das **Projekt bearbeiten** wird geöffnet.
 
