@@ -6,9 +6,9 @@ description: Durch die Neuberechnung der Timelines können Manager sehen, wie si
 author: Alina
 feature: Work Management
 exl-id: ec5d9a07-e45a-4aa2-9f41-9421ca5d5920
-source-git-commit: 7c2d6d1960752a109c02039c1af8d1d1850bcb8c
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1058'
+source-wordcount: '1064'
 ht-degree: 0%
 
 ---
@@ -174,13 +174,13 @@ Als Projektbesitzer können Sie die Timelines für einzelne Projekte manuell neu
 
 Sie können die Zeitleiste eines Projekts in Workfront auf der Projektseite oder in einer Projektliste oder einem Bericht neu berechnen.
 
-1. Gehen Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![](assets/qs-more-menu.png) links neben dem Projektnamen
+1. Gehen Sie zu dem Projekt, für das Sie die Zeitleiste neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-menu.png) links neben dem Projektnamen
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oder
 
-   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf **Mehr**-Symbol ![](assets/qs-more-menu.png).
+   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/qs-more-menu.png)Mehr Menü).
 
    ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
