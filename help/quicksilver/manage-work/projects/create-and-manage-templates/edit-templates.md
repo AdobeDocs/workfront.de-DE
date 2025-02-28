@@ -6,9 +6,9 @@ description: Sie können Projektvorlagen bearbeiten, um Änderungen in Projektpr
 author: Alina
 feature: Work Management
 exl-id: da0fca31-6a50-4862-ad9a-a453ef968773
-source-git-commit: d85ccb9dbef343ecc8808412e89264b3ea6ab25e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '4809'
+source-wordcount: '4854'
 ht-degree: 2%
 
 ---
@@ -71,7 +71,7 @@ Editing a template differs depending on what environment you choose.
 
 1. Go to the template you want to edit.
 1. (Conditional) To edit limited information about the template,  click **Template Details** in the left panel, then go to the areas listed in the left panel to edit information for each area. 
-1. To edit information in the Details section, click the **Edit** icon ![](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
+1. To edit information in the Details section, click the **Edit** icon ![Edit icon](assets/edit-icon.png), then select from any of the areas below, or click **Edit all** to edit information in all areas:
 
    * Overview
    * Custom Forms
@@ -84,7 +84,7 @@ Editing a template differs depending on what environment you choose.
    >
    >For information about all fields that display in the Details area, continue with editing all fields using the Edit Template box below.
 
-1. (Conditional) To edit all information about the template, click the **More** menu ![](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
+1. (Conditional) To edit all information about the template, click the **More** menu ![More icon](assets/qs-more-icon-on-an-object.png) next to the name of the template, then click **Edit**.
 
    The **Edit Template** box opens. The sections in this box contain the same fields available in  the Template Details section .
 
@@ -105,7 +105,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Overview**.
 
-   ![](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
+   ![Edit template overview](assets/edit-template-overview-with-tasks-and-issues-350x210.png)
 
 1. Update the following fields:
 
@@ -204,7 +204,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Finance**.
 
-   ![](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
+   ![Edit template finance](assets/edit-template-finance-with-tasks-and-issues-350x259.png)
 
 1. Update the following fields:
 
@@ -250,7 +250,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Portfolio**.
 
-   ![](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
+   ![Edit template portfolio](assets/edit-template-portfolio-with-tasks-and-issues-350x228.png)
 
 1. Update the following fields:
 
@@ -283,7 +283,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Settings**.
 
-   ![](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
+   ![Edit template settings](assets/edit-template-settings-with-tasks-and-issues-350x336.png)
 
 1. Update the following fields: 
 
@@ -411,7 +411,7 @@ Editing a template differs depending on what environment you choose.
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Access**.
 
-   ![](assets/edit-template-access-with-tasks-and-issues-350x241.png)
+   ![Edit template access](assets/edit-template-access-with-tasks-and-issues-350x241.png)
 
    The Access you specify for your template will become the Access of users associated with the project when the template is used to create a project.
 
@@ -488,7 +488,7 @@ For information about how these settings affect creating new tasks, see [Create 
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Tasks**.
 
-   ![](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
+   ![Edit template tasks](assets/edit-template-with-tasks-and-issue-sections-350x144.png)
 
 1. In the **Task Default Approval Process** box, select the Approval Process you want to associate with all new tasks when you add them to a project created from this template. You must create an Approval Process for tasks before you can associate it with tasks. Only active approval processes display in the list. For more information about creating Approval Processes, see [Creating Approval Processes](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. In the **Task Default Custom Forms** box, select the custom form or forms that you want to associate with all new tasks when you add them to a project created from this template. You must build the custom forms before they are available to select in this field. Only active custom forms display in the list. You can associate up to ten custom forms with a task.
@@ -516,7 +516,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Begin editing your template as described above.
 1. In the **Edit Template** box, click **Issues**.
 
-   ![](assets/edit-template-box-with-issues-nwe-350x171.png)
+   ![Edit template issues](assets/edit-template-box-with-issues-nwe-350x171.png)
 
 1. (Optional) Deselect the **Allow users to add issues inline** option. It is enabled by default.
 
@@ -565,7 +565,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 
 1. Wechseln Sie zu der Vorlage, die Sie bearbeiten möchten.
 1. (Bedingt) Um eingeschränkte Informationen über die Vorlage zu bearbeiten, klicken Sie im linken Bereich auf **Vorlagendetails** und gehen Sie dann zu den Bereichen, die im linken Bereich aufgelistet sind, um die Informationen für die einzelnen Bereiche zu bearbeiten.
-1. Um Informationen im Abschnitt Details zu bearbeiten, klicken Sie auf das **Bearbeiten**-Symbol ![](assets/edit-icon.png) und wählen Sie dann einen der folgenden Bereiche aus oder klicken Sie auf **Alle bearbeiten**, um Informationen in allen Bereichen zu bearbeiten:
+1. Um Informationen im Abschnitt Details zu bearbeiten, klicken Sie auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) und wählen Sie dann einen der folgenden Bereiche aus oder klicken Sie auf **Alle bearbeiten**, um Informationen in allen Bereichen zu bearbeiten:
 
    * Übersicht
    * Benutzerdefinierte Formulare
@@ -578,7 +578,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
    >
    >Informationen zu allen Feldern, die im Detailbereich angezeigt werden, finden Sie im Feld Vorlage bearbeiten weiter unten.
 
-1. (Bedingt) Um alle Informationen über die Vorlage zu bearbeiten, klicken Sie auf das **Mehr**-Menü ![](assets/qs-more-icon-on-an-object.png) neben dem Namen der Vorlage und dann auf **Bearbeiten**.
+1. (Bedingt) Um alle Informationen über die Vorlage zu bearbeiten, klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Namen der Vorlage und dann auf **Bearbeiten**.
 
    Das **„Vorlage bearbeiten** wird geöffnet. Die Abschnitte in diesem Feld enthalten dieselben Felder, die auch im Abschnitt Vorlagendetails verfügbar sind.
 
@@ -612,7 +612,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Klicken Sie im Feld **Vorlage bearbeiten** auf **Übersicht**.
 
-   ![](assets/edit-template-box-overview-section.png)
+   ![Feld „Vorlage bearbeiten“](assets/edit-template-box-overview-section.png)
 
 1. Aktualisieren Sie die folgenden Felder:
 
@@ -710,7 +710,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Klicken Sie im Feld **Vorlage bearbeiten** auf **Finanzen**.
 
-   ![](assets/edit-template-box-finance-section.png)
+   ![Bearbeiten des Vorlagenfelds - Finanzen](assets/edit-template-box-finance-section.png)
 
 1. Aktualisieren Sie die folgenden Felder:
 
@@ -766,7 +766,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Klicken Sie im Feld **Vorlage bearbeiten** auf **Benutzerdefinierte Forms**.
 
-   ![](assets/edit-template-box-custom-forms-section.png)
+   ![Bearbeiten eines Vorlagenfelds für benutzerdefinierte Formulare](assets/edit-template-box-custom-forms-section.png)
 
    Die Namen der benutzerdefinierten Formulare, die bereits mit der Vorlage verbunden sind, werden im linken Bereich angezeigt.
 
@@ -793,7 +793,7 @@ By editing issue settings, you can prevent users from adding issues inline in th
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Klicken Sie **Feld** Vorlage bearbeiten **auf Projekteinstellungen**.
 
-   ![](assets/edit-template-box-project-settings-section.png)
+   ![Bearbeiten der Einstellungen des Vorlagenfelds](assets/edit-template-box-project-settings-section.png)
 
 1. Aktualisieren Sie die folgenden Felder:
 
@@ -925,7 +925,7 @@ Weitere Informationen darüber, wie sich diese Einstellungen auf das Erstellen n
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Klicken Sie im Feld **Vorlage bearbeiten** auf **Aufgabeneinstellungen**.
 
-   ![](assets/edit-template-box-tax-settings-section.png)
+   ![Einstellungen für Vorlagenfelder bearbeiten](assets/edit-template-box-tax-settings-section.png)
 
 1. Wählen Sie im Feld **Standardgenehmigungsprozess der Aufgabe** den Genehmigungsprozess aus, den Sie allen neuen Aufgaben zuordnen möchten, wenn Sie sie einem aus dieser Vorlage erstellten Projekt hinzufügen. Sie müssen einen Genehmigungsprozess für Aufgaben erstellen, bevor Sie ihn mit Aufgaben verknüpfen können. In der Liste werden nur aktive Genehmigungsprozesse angezeigt. Weitere Informationen zum Erstellen von Genehmigungsprozessen finden Sie unter [Erstellen von Genehmigungsprozessen](../../../administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-approval-processes.md).
 1. Wählen Sie im Feld **Standardmäßige benutzerdefinierte Forms** das benutzerdefinierte Formular bzw. die benutzerdefinierten Formulare aus, die Sie mit allen neuen Aufgaben verknüpfen möchten, wenn Sie sie einem aus dieser Vorlage erstellten Projekt hinzufügen. Sie müssen die benutzerdefinierten Formulare erstellen, bevor sie in diesem Feld ausgewählt werden können. In der Liste werden nur aktive benutzerdefinierte Formulare angezeigt. Weitere Informationen zum Erstellen benutzerdefinierter Formulare finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). Sie können bis zu zehn benutzerdefinierte Formulare mit einer Aufgabe verknüpfen.
@@ -953,7 +953,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Klicken Sie im Feld **Vorlage bearbeiten** auf **Problemeinstellungen**.
 
-   ![](assets/edit-template-box-issue-settings-section.png)
+   ![Problemeinstellungen im Feld „Vorlage bearbeiten“](assets/edit-template-box-issue-settings-section.png)
 
 1. (Optional) Deaktivieren Sie die Option **Benutzer dürfen Probleme inline hinzufügen**. Sie ist standardmäßig aktiviert.
 
@@ -980,7 +980,7 @@ Durch die Bearbeitung von Anfrageeinstellungen können Sie Benutzer daran hinder
 1. Beginnen Sie mit der Bearbeitung Ihrer Vorlage wie oben beschrieben.
 1. Klicken Sie im Feld **Vorlage bearbeiten** auf **Zugriff**.
 
-   ![](assets/edit-template-box-access-section.png)
+   ![Zugriff auf das Vorlagenfeld bearbeiten](assets/edit-template-box-access-section.png)
 
    Der Zugriff, den Sie für Ihre Vorlage angeben, wird zum Zugriff der mit dem Projekt verknüpften Benutzer, wenn die Vorlage zum Erstellen eines Projekts verwendet wird.
 
@@ -1055,7 +1055,7 @@ Sie können Vorlagen stapelweise bearbeiten und alle zugehörigen Informationen 
 
 So bearbeiten Sie Vorlagen stapelweise:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
 1. Klicken Sie auf **Vorlagen**.
 1. Mehrere Vorlagen in der Liste auswählen.
@@ -1063,7 +1063,7 @@ So bearbeiten Sie Vorlagen stapelweise:
 
    Das **Vorlage bearbeiten** wird geöffnet.
 
-   ![](assets/edit-templates-in-bulk-box-nwe-350x327.png)
+   ![Vorlagen bearbeiten](assets/edit-templates-in-bulk-box-nwe-350x327.png)
 
 1. Klicken Sie auf die Abschnitte auf der linken Seite, um alle ausgewählten Vorlagen zu bearbeiten.
 
@@ -1130,12 +1130,12 @@ Deaktivierte Vorlagen wirken sich nicht auf bestehende Projekte aus, die mit ihn
 
 So deaktivieren Sie eine Vorlage:
 
-1. Wechseln Sie zu einer aktiven Vorlage und klicken Sie auf das ![](assets/qs-more-icon-on-an-object.png) **Mehr** neben dem Vorlagennamen. Klicken Sie dann auf **Deaktivieren**.
+1. Wechseln Sie zu einer aktiven Vorlage und klicken Sie auf das Menü **Mehr** ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Vorlagennamen und dann auf **Deaktivieren**.
 
-   ![](assets/deactivate-template-link-in-more-menu.png)
+   ![Vorlage deaktivieren](assets/deactivate-template-link-in-more-menu.png)
 
    Die Vorlage ist nicht mehr aktiv und Benutzer können sie nicht mehr finden, um Projekte daraus zu erstellen.
-1. (Optional) Um die Vorlage zu aktivieren, klicken Sie auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) neben dem Vorlagennamen und dann auf **Aktivieren**.
+1. (Optional) Um die Vorlage zu aktivieren, klicken Sie auf das Symbol **Mehr** ![Mehr](assets/qs-more-icon-on-an-object.png) Menü neben dem Vorlagennamen und dann auf **Aktivieren**.
 
    Die Vorlage ist jetzt aktiv und kann an Projekte angehängt oder zum Erstellen von Projekten verwendet werden.
 
