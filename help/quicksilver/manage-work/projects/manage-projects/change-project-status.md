@@ -6,9 +6,9 @@ description: Sie können den Status eines Projekts bei Bedarf manuell in einen a
 author: Alina
 feature: Work Management
 exl-id: 80098514-fd44-436d-836b-bd9c1b52b3a9
-source-git-commit: 7363e86f5c507e40955e16843c6776777c7ad823
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '372'
+source-wordcount: '377'
 ht-degree: 0%
 
 ---
@@ -67,10 +67,10 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wechseln Sie zu dem Projekt, dessen Status Sie aktualisieren möchten.
 1. Klicken Sie in der Projekt-Kopfzeile im Feld **Status** auf den Namen des Status und wählen Sie dann einen neuen Status aus.
 
-   ![](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
+   ![Projektstatus ändern](assets/change-project-status-in-header-drop-down-nwe-350x371.png)
 
    Oder
 
-   Klicken Sie auf den **Mehr**-![](assets/qs-more-menu.png) neben dem Namen des Projekts, klicken Sie auf **Bearbeiten** und wählen Sie einen neuen Status im Feld **Status** aus. Klicken Sie dann auf **Speichern**.
+   Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-menu.png) neben dem Namen des Projekts und klicken Sie auf **Bearbeiten** und wählen Sie einen neuen Status im Feld **Status** aus und klicken Sie dann auf **Speichern**.
 
    Der Projektstatus wird auf den ausgewählten Status aktualisiert.
