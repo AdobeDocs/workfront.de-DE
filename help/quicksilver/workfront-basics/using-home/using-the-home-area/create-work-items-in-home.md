@@ -6,9 +6,9 @@ description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: 36c4505b396f38617a7e82ae637596ff6c046d57
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '811'
+source-wordcount: '847'
 ht-degree: 2%
 
 ---
@@ -71,12 +71,12 @@ Sie und andere Benutzer können Ihre persönlichen Aufgaben in einem persönlich
 
 So erstellen Sie ein Aufgabenelement:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü** ![](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Startseite]**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Home]**.
 1. (Bedingt) Klicken Sie auf **Anpassen** und anschließend auf **Aufgaben**, um das Aufgaben-Widget zu Ihrem Startbildschirm hinzuzufügen.
 1. Gehen Sie zum **Aufgaben**-Widget und klicken Sie dann auf **Aufgabe hinzufügen**.
 1. Geben Sie den Namen für Ihr persönliches Aufgabenelement ein und klicken Sie dann auf die Eingabetaste.
-1. (Optional) Klicken Sie auf das **Datum**-Symbol ![](assets/date-icon.png), um ein Fälligkeitsdatum für das Element hinzuzufügen.
-   ![](assets/my-work-to-dos.png)
+1. (Optional) Klicken Sie auf das **Datum**-Symbol ![Datum-Symbol](assets/date-icon.png), um ein Fälligkeitsdatum für das Element hinzuzufügen.
+   ![Meine Aufgaben](assets/my-work-to-dos.png)
 1. (Optional) Erstellen Sie einen persönlichen Aufgabenbericht oder Filter. Informationen zum Erstellen eines Filters für eine persönliche Aufgabe finden Sie unter [Filter: persönliche Aufgabe](/help/quicksilver/reports-and-dashboards/reports/custom-view-filter-grouping-samples/filter-personal-tasks.md).
 Sie können Ihre Aufgabenelemente sowie die Aufgabenelemente anderer Benutzer im persönlichen Aufgabenbericht anzeigen.
 
@@ -84,10 +84,10 @@ Sie können Ihre Aufgabenelemente sowie die Aufgabenelemente anderer Benutzer im
 
 Sie können eine Aufgabe direkt aus dem Bereich Startseite zu einem vorhandenen Projekt hinzufügen:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Fügen Sie das Widget **Meine Aufgaben** zu Ihrem Startbildschirm hinzu. Klicken Sie **Anpassen** und suchen Sie nach **Meine Aufgaben**.
 1. Gehen Sie zum Widget **Meine Aufgaben** und klicken Sie dann auf **Neu**.
-   ![](assets/create-new-task.png)
+   ![Neue Aufgabe erstellen](assets/create-new-task.png)
 1. Geben **im Dialogfeld** Neue Aufgabe“ den Aufgabennamen ein.
 1. Geben Sie zunächst einen Projektnamen ein und wählen Sie dann den Namen aus der Liste aus.
 1. (Optional) Geben Sie Informationen in die folgenden Felder ein:
@@ -107,10 +107,10 @@ Sie können eine Aufgabe direkt aus dem Bereich Startseite zu einem vorhandenen 
 
 Sie können ein Problem direkt über den Startseiten-Bereich zu einem vorhandenen Projekt hinzufügen:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Fügen Sie das Widget **Meine Probleme** zu Ihrem Startbildschirm hinzu. Klicken Sie **Anpassen** und suchen Sie nach **Meine Probleme**.
 1. Gehen Sie zum Widget **Meine Probleme** und klicken Sie dann auf **Neu**.
-   ![](assets/create-new-issue.png)
+   ![Neues Problem erstellen](assets/create-new-issue.png)
 1. Beginnen Sie **Dialogfeld „Neues Problem** mit der Eingabe eines Projektnamens und wählen Sie dann den Namen aus der Liste aus.
 1. Geben Sie einen Problemnamen ein.
 1. (Optional) Geben Sie Informationen in die folgenden Felder ein:
@@ -128,10 +128,10 @@ Sie können ein Problem direkt über den Startseiten-Bereich zu einem vorhandene
 
 Sie können eine Anfrage direkt über den Bereich Startseite erstellen:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Fügen Sie das Widget **Meine Anfragen** zu Ihrem Startbildschirm hinzu. Klicken Sie **Anpassen** und suchen Sie nach **Meine Anfragen**.
 1. Gehen Sie zum **Meine Anfragen**-Widget und klicken Sie auf **Neu**.
-   ![](assets/create-new-request.png)
+   ![Neue Anfrage erstellen](assets/create-new-request.png)
 
 1. Geben Sie **Dialogfeld &quot;** Anfrage“ den Namen der Anfrage-Warteschlange ein.
 1. Füllen Sie die entsprechenden Felder aus.
@@ -143,10 +143,10 @@ Weitere Informationen zum Senden von Anfragen finden Sie unter [Erstellen und Se
 
 Sie können ein Projekt direkt im Bereich Startseite erstellen:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Fügen Sie das Widget **Meine Projekte** zu Ihrem Startbildschirm hinzu. Klicken Sie **Anpassen** und suchen Sie nach **Meine Projekte**.
 1. Gehen Sie zum Widget **Meine Projekte** und klicken Sie dann auf **Neu**.
-   ![](assets/create-new-project.png)
+   ![Neues Projekt erstellen](assets/create-new-project.png)
 1. Wählen Sie eine der folgenden Optionen:
 
    | Feld | Anleitung |
@@ -161,7 +161,7 @@ Sie können ein Projekt direkt im Bereich Startseite erstellen:
 
 You can create a board directly from the Home area:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. (Conditional) Add the **Boards** widget to your home screen. Click **Customize**, and find **Boards**. -->
 
 
@@ -171,13 +171,13 @@ You can create a board directly from the Home area:
 <!--
 ## Delete a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
-1. Hover over the item, then click the **Delete** icon ![](assets/delete-to-do.png). 
+1. Hover over the item, then click the **Delete** icon ![Delete icon](assets/delete-to-do.png). 
 
 ## Edit a to-do item
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, then click **[!UICONTROL Home]**.
 1. Go to the to-do widget.
 1. Edit the item name.
-1. Click on the **Date** icon ![](assets/date-icon.png) to add or adjust a due date. -->
+1. Click on the **Date** icon ![Date icon](assets/date-icon.png) to add or adjust a due date. -->
