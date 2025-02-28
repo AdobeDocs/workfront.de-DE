@@ -5,9 +5,9 @@ description: Zusätzlich zur Einrichtung von Einnahmen und zur Verfolgung von Au
 author: Lisa
 feature: Work Management
 exl-id: 6f17a892-7f64-4712-8ee2-7a1940b99be3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1896'
+source-wordcount: '1898'
 ht-degree: 0%
 
 ---
@@ -241,7 +241,7 @@ Nachdem Sie einen Rechnungsnachweis erstellt und Stunden, Ausgaben und Einnahmen
 
    Oder
 
-   Klicken Sie auf **Bearbeiten** oben rechts ![](assets/edit-icon.png) und bearbeiten Sie dann die Informationen in allen verfügbaren Feldern.
+   Klicken Sie auf **Bearbeiten** Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke und bearbeiten Sie dann Informationen in allen verfügbaren Feldern.
 
    Aktualisieren Sie Folgendes:
 
