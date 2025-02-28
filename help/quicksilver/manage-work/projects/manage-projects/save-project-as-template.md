@@ -6,9 +6,9 @@ description: Speichern eines Projekts als Vorlage „Als Vorlage speichern“ au
 author: Alina
 feature: Work Management
 exl-id: 4b5dfe12-f984-47c6-8e19-78b549f19159
-source-git-commit: dc3461803e23f61877c31efa2c52fffdc7bd79bf
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '450'
+source-wordcount: '452'
 ht-degree: 1%
 
 ---
@@ -85,7 +85,7 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
 ## Speichern eines Projekts als Vorlage
 
 1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
-1. Klicken Sie auf die ![](assets/qs-more-icon-on-an-object.png) **Mehr** und dann auf **Als Vorlage speichern**.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann **Als Vorlage speichern**.
 1. Geben Sie die folgenden Informationen für die Vorlage an:
 
    <table style="table-layout:auto"> 
