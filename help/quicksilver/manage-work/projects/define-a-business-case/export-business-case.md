@@ -2,20 +2,20 @@
 product-area: projects
 navigation-topic: business-case-and-scorecards
 title: Business Case eines Projekts exportieren
-description: Sie können den Business Case in eine PDF-Datei exportieren, falls Sie ihn drucken müssen oder in einem kürzeren Format an eine E-Mail anhängen.
+description: Sie können den Business Case in eine PDF-Datei exportieren, für den Fall, dass Sie ihn drucken müssen, oder ihn in einem kürzeren Format an eine E-Mail anhängen.
 author: Alina
 feature: Work Management
 exl-id: 834c56c4-ca11-4aff-b67e-0eac9fa23403
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '248'
+source-wordcount: '251'
 ht-degree: 0%
 
 ---
 
 # Business Case eines Projekts exportieren
 
-Sie können den Business Case in eine PDF-Datei exportieren, falls Sie ihn drucken müssen oder in einem kürzeren Format an eine E-Mail anhängen. 
+Sie können den Business Case in eine PDF-Datei exportieren, für den Fall, dass Sie ihn drucken müssen, oder ihn in einem kürzeren Format an eine E-Mail anhängen. 
 
 ## Zugriffsanforderungen
 
@@ -52,9 +52,9 @@ Sie müssen über Folgendes verfügen:
 1. Klicken Sie **linken Bedienfeld** Business Case“.
 1. Klicken Sie oben rechts **der Zusammenfassung eines** auf **Exportieren**.
 
-   ![](assets/bc-summary--350x587.png)\
-   Eine PDF  Die Datei wird auf Ihren Computer heruntergeladen. Die Datei enthält alle Bereiche des Business Case in einem leicht lesbaren Format.
+   ![Zusammenfassung eines Business-Case](assets/bc-summary--350x587.png)\
+   Ein PDF  Die Datei wird auf Ihren Computer heruntergeladen. Die Datei enthält alle Bereiche des Business Case in einem leicht lesbaren Format.
 
    ![BC_Summary_exported.png](assets/bc-summary-exported-350x160.png)
 
-1. (Optional) Sie können die PDF-Datei an eine E-Mail anhängen oder ausdrucken, um sie für andere freizugeben. 
+1. (Optional) Sie können die PDF-Datei an eine E-Mail anhängen oder sie ausdrucken, um sie für andere freizugeben. 
