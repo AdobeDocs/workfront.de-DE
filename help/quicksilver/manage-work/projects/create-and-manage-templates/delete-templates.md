@@ -6,9 +6,9 @@ description: Es wird empfohlen, Vorlagen, die Sie nicht mehr verwenden, zu deakt
 author: Alina
 feature: Work Management
 exl-id: 41e0979c-f8ef-4a07-8848-e4ee8cc212c5
-source-git-commit: 02d20209b8bf53c84308707a89a5abf399494b64
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '418'
 ht-degree: 0%
 
 ---
@@ -67,6 +67,6 @@ Dadurch wird eine Liste von Vorlagen geöffnet
 
    Oder
 
-   Klicken Sie auf den Namen einer Vorlage, um darauf zuzugreifen, und klicken Sie dann auf das Menü **Mehr** ![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlage löschen > Ja, löschen**.
+   Klicken Sie auf den Namen einer Vorlage, um darauf zuzugreifen, und klicken Sie dann auf das Menü **Mehr** ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) , dann auf **Vorlage löschen > Ja, löschen**.
 
    Die Vorlage kann nicht mehr mit einem Projekt verknüpft werden.
