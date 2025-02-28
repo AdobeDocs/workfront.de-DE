@@ -6,9 +6,9 @@ description: Sie können ein Dokument auschecken, um zu verhindern, dass andere 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 15d9ea43-1cee-4cb1-9365-4374a291c090
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '684'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -77,9 +77,9 @@ Wenn Sie über Verwaltungsberechtigungen für ein Dokument verfügen, können Si
 
    Informationen zum Hinzufügen von Dokumenten finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
-1. Klicken Sie auf **Symbol** Auschecken![](assets/check-out-25x23.png).
+1. Klicken Sie auf das **Auschecken**-Symbol ![Auschecken-Symbol](assets/check-out-25x23.png).
 
-1. Rechts neben dem Dokumentnamen wird ein Sperrsymbol ![](assets/lock-icon-locked-qs.png). Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
+1. Rechts neben dem ![ wird ein Sperrsymbol ](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt. Das Dokument bleibt nach der Abmeldung von Workfront ausgecheckt.
 1. Nur der Benutzer, der das Dokument ausgecheckt hat, oder der Workfront-Administrator können das Dokument einchecken.
 
 ## Ausgecheckte Dokumente verwalten
@@ -103,6 +103,6 @@ Einchecken eines Dokuments:
 
 1. Wechseln Sie zum Bereich, in dem Ihr Dokument gespeichert ist, und wählen Sie das Dokument aus. 
 
-   Rechts neben dem Dokumentnamen wird ein Sperrsymbol ![](assets/lock-icon-locked-qs.png).
+   Rechts neben dem ![ wird ein Sperrsymbol ](assets/lock-icon-locked-qs.png)Sperrsymbol) angezeigt.
 
-1. Klicken Sie auf **Symbol** Einchecken![](assets/check-in-25x22.png).
+1. Klicken Sie auf **Symbol** Einchecken![ (Einchecksymbol](assets/check-in-25x22.png).
