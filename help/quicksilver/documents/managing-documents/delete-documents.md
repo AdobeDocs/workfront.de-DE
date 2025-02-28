@@ -6,9 +6,9 @@ description: Sie können hochgeladene Dokumente löschen. Wenn Sie Verwaltungszu
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 1a4c4849-bca1-4ae3-9111-d0ed4dacca14
-source-git-commit: 060557085c6941fab4ca8df22641679199f5c55b
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '234'
+source-wordcount: '236'
 ht-degree: 0%
 
 ---
@@ -55,7 +55,7 @@ Löschen eines Dokuments:
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie das Dokument, das Sie benötigen.
 
-1. Klicken Sie auf das **Löschen**-Symbol ![](assets/delete.png) über dem Bereich Dokumente .
+1. Klicken Sie auf das **Löschen**-Symbol ![Löschen](assets/delete.png) über dem Bereich Dokumente .
 
 1. Klicken Sie im angezeigten Feld zur Bestätigung auf **Ja, Löschen**.
 
