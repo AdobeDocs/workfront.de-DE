@@ -6,9 +6,9 @@ description: Sie können die Finanzinformationen eines Projekts anzeigen oder be
 author: Lisa
 feature: Work Management
 exl-id: 147f5d55-a827-4cca-9ab0-afb03a4bcd5a
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1285'
+source-wordcount: '1297'
 ht-degree: 2%
 
 ---
@@ -69,9 +69,9 @@ Beachten Sie beim Anzeigen oder Bearbeiten von Informationen im Bereich „Finan
 
 1. Gehe zu einem Projekt.
 1. Klicken Sie **linken** auf „Projektdetails“.
-1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen**.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen**.
 
-   ![](assets/finance-area-in-details-view-only-nwe-350x188.png)
+   ![Finanzbereich in der Detailansicht](assets/finance-area-in-details-view-only-nwe-350x188.png)
 
    >[!NOTE]
    >
@@ -156,14 +156,14 @@ So bearbeiten Sie Informationen zur Unterregisterkarte „Projektfinanzierung“
    >Sie müssen Berechtigungen verwalten für das Projekt, um die folgenden Schritte ausführen zu können. Es wird außerdem empfohlen, dass nur der/die Projektbesitzer(in) Änderungen an der Unterregisterkarte Finanzen des Projekts vornehmen sollte.
 
 1. Klicken Sie **linken** auf „Projektdetails“.
-1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen** . Dadurch wird der Bereich Finanzen zur Bearbeitung geöffnet.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png) in der oberen rechten Ecke des Abschnitts Details und dann auf **Finanzen** . Dadurch wird der Bereich Finanzen zur Bearbeitung geöffnet.
 1. Bearbeiten Sie alle Felder, die bearbeitet werden können, indem Sie einfach auf das Feld klicken oder auf **+Hinzufügen** klicken, um einem leeren Feld Informationen hinzuzufügen.
 
    >[!TIP]
    >
    >Felder können nicht bearbeitet werden, wenn sie automatisch von Workfront berechnet werden oder wenn keine Bearbeitungsberechtigungen dafür vorliegen.
 
-   ![](assets/edit-finance-area-in-project-details-nwe-350x275.png)
+   ![Finanzbereich bearbeiten](assets/edit-finance-area-in-project-details-nwe-350x275.png)
 
 1. Aktualisieren Sie eines der folgenden Felder.
 
