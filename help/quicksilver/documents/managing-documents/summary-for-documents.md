@@ -7,10 +7,10 @@ description: Die Zusammenfassung ermöglicht die direkte Interaktion mit wichtig
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 7a4a4bd3-ad60-4d84-b4b0-332c2a4eb8fb
-source-git-commit: 18dfb67626982d73ad33871b8afce4a3f0d4cdb3
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '394'
-ht-degree: 3%
+source-wordcount: '418'
+ht-degree: 2%
 
 ---
 
@@ -56,11 +56,11 @@ Sie müssen über Folgendes verfügen:
 ## Zusammenfassungsansicht öffnen
 
 1. Navigieren Sie zum Bereich **Dokumente** und wählen Sie ein Element in der Liste aus.
-1. Klicken Sie auf das ![](assets/qs-summary-in-new-toolbar-small.png) **Zusammenfassung öffnen**.
+1. Klicken Sie auf **Zusammenfassung öffnen** ![Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png).
 
    Nachdem Sie die Zusammenfassung geöffnet haben, bleibt sie geöffnet, während Sie auf andere Dokumente klicken, und bleibt geöffnet, bis Sie sie manuell schließen.
 
-   ![](assets/summary-details-350x585.png)
+   ![Zusammenfassungsdetails](assets/summary-details-350x585.png)
 
 ## Details
 
@@ -69,19 +69,19 @@ Verwenden Sie den Abschnitt Details , um allgemeine Übersichtsinformationen anz
 * [Übersicht](#overview)
 * [Benutzerdefinierte Formulare](#custom-forms)
 
-![](assets/copy-of-doc-summary-details-section-350x404.png)
+![Details zur Dokumentzusammenfassung](assets/copy-of-doc-summary-details-section-350x404.png)
 
 ### Übersicht {#overview}
 
 Erweitern Sie den Abschnitt Überblick , um eine Miniaturansicht anzuzeigen oder herunterzuladen, einen Korrekturabzug zu öffnen, die allgemeine Beschreibung zu aktualisieren, das Dokument zu überprüfen und vieles mehr.
 
-![](assets/copy-of-doc-summary-with-overview-350x560.png)
+![Dokumentzusammenfassung - Übersicht](assets/copy-of-doc-summary-with-overview-350x560.png)
 
 ### Benutzerdefinierte Formulare {#custom-forms}
 
 Verwenden Sie den Abschnitt Benutzerdefinierte Forms , um benutzerdefinierte Formulare, die mit dem Dokument verknüpft sind, hinzuzufügen, zu bearbeiten oder anzuzeigen. Beginnen Sie mit der Eingabe des Namens des benutzerdefinierten Formulars, um es dem Dokument hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen oder Bearbeiten eines benutzerdefinierten Formulars zu einem Dokument](../../documents/managing-documents/add-custom-form-documents.md).
 
-![](assets/add-custom-form-doc-summary-350x265.png)
+![Hinzufügen eines benutzerdefinierten Formulars in der Dokumentzusammenfassung](assets/add-custom-form-doc-summary-350x265.png)
 
 ## Updates
 
@@ -98,7 +98,7 @@ Genehmigungen von Korrekturabzügen müssen im Workflow für Korrekturabzüge hi
 * [Arbeit genehmigen](../../review-and-approve-work/manage-approvals/approving-work.md)
 * [Dokumentgenehmigungen anfordern](../../review-and-approve-work/manage-approvals/request-document-approvals.md)
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Genehmigungen der Dokumentzusammenfassung](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
 
 ## Versionen
 
@@ -110,4 +110,4 @@ Im Abschnitt Versionen können Sie die Anzahl der Versionen anzeigen, die für e
 * Zu den Dokumentdetails
 * Löschen von Korrekturabzügen oder Dokumenten
 
-![](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
+![Versionen der Dokumentzusammenfassung](assets/summary-upddates,-approvals,-versions,-custom-forms-350x415.png)
