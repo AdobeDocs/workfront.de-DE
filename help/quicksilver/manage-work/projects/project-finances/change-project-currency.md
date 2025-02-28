@@ -6,9 +6,9 @@ description: Als Projekt-Manager können Sie ein Projekt so konfigurieren, dass 
 author: Lisa
 feature: Work Management
 exl-id: c496fe92-5c17-41a5-972b-1c063643bde3
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '529'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Klicken Sie **linken Bereich auf** Projektdetails“ und navigieren Sie dann zum Bereich **Finanzen**.
 1. Klicken Sie **** Feld **Währung** auf „Hinzufügen“ und wählen Sie die Währung aus, die Sie als Standardwährung für das Projekt verwenden möchten. Alle Währungen, die Ihr Workfront-Administrator für Ihre Workfront-Instanz festgelegt hat, werden angezeigt.
 
-   ![](assets/currency-on-project-expanded-nwe.png)
+   ![Währung des Projekts](assets/currency-on-project-expanded-nwe.png)
 
 1. (Bedingt) Wenn Sie eine andere Währung als die Standardwährung auswählen, die für Ihr Workfront-System festgelegt wurde, geben Sie den Kurs für die ausgewählte Währung an, da sie sich auf die Währung bezieht, die im System als Basiswährung festgelegt wurde.
 1. Klicken Sie auf **Änderungen speichern**.
