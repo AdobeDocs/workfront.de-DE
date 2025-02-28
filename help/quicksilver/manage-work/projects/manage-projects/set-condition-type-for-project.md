@@ -6,9 +6,9 @@ description: Als Projekt-Manager können Sie festlegen, wie die Bedingung eines 
 author: Alina
 feature: Work Management
 exl-id: e6b99c48-5ccc-4956-8465-6f22f14468ef
-source-git-commit: 097cad00835f3fb415c06c93dcf11325736c5250
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '380'
+source-wordcount: '382'
 ht-degree: 1%
 
 ---
@@ -41,7 +41,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Objektberechtigungen</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-Berechtigungen für ein Projekt zum Bearbeiten des Bedingungstyps im Bereich „Projektdetails“ </p> </li> 
+     <li> <p>Tragen Sie Berechtigungen zu einem Projekt bei, um den Bedingungstyp im Bereich Projektdetails zu bearbeiten </p> </li> 
      <li> <p>Verwalten Sie die Berechtigungen für ein Projekt, um den Bedingungstyp im Feld Projekt bearbeiten zu bearbeiten</p> </li> 
     </ul> <p> Informationen zu Projektberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md" class="MCXref xref">Freigeben eines Projekts in Adobe Workfront</a>.</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
@@ -55,7 +55,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Wechseln Sie zu dem Projekt, für das Sie den Bedingungstyp aktualisieren möchten.
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **Mehr**-![](assets/qs-more-menu.png) rechts neben dem Projektnamen und dann auf **Bearbeiten**.
+   * Klicken Sie auf **Mehr** Menü ![Mehr](assets/qs-more-menu.png) rechts neben dem Projektnamen und klicken Sie dann auf **Bearbeiten**.
    * Klicken Sie **linken** auf „Projektdetails“.
 
    ![](assets/update-condition-type-nwe-350x108.png)
