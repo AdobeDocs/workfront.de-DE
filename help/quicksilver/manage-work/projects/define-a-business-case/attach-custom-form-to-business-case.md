@@ -5,9 +5,9 @@ description: Benutzerdefinierte Forms werden verwendet, um Informationen zu erfa
 author: Alina
 feature: Work Management
 exl-id: f781fd00-968c-4e5d-b82c-a74acedb2734
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -73,9 +73,9 @@ So fügen Sie ein benutzerdefiniertes Formular hinzu:
 
 1. Wählen **Abschnitt „Benutzerdefiniertes Formular** aus dem Dropdown-Menü das benutzerdefinierte Formular aus, das Sie anhängen möchten.
 
-   ![](assets/custom-forms-drop-down-menu.png)
+   ![Benutzerdefinierte Formulare - Dropdown](assets/custom-forms-drop-down-menu.png)
 
 1. (Optional) Wählen Sie **Benutzerdefiniertes Formular bearbeiten** aus.\
-   ![](assets/acf1-350x122.png)
+   ![Benutzerdefiniertes Formular bearbeiten](assets/acf1-350x122.png)
 
 1. (Optional) Geben Sie Informationen in die Felder des benutzerdefinierten Formulars ein und klicken Sie dann auf **Speichern** .
