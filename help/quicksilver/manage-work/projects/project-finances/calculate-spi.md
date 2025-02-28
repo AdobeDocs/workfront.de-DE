@@ -7,9 +7,9 @@ description: Der Zeitplan-Leistungsindex (SPI) beschreibt die Beziehung zwischen
 author: Lisa
 feature: Work Management
 exl-id: 38259774-f22b-4b69-9e22-5b541118a7de
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '419'
 ht-degree: 0%
 
 ---
@@ -98,6 +98,6 @@ Wenn Sie beispielsweise ein Projekt mit einer Aufgabe haben und die Aufgabe 10 g
 
    1. Klicken Sie **linken** auf „Aufgabendetails“ und dann auf den Bereich **Finanzen**.
 
-      ![](assets/spi-on-project-nwe.png)
+      ![SPI im Projekt](assets/spi-on-project-nwe.png)
 
 1. Suchen Sie das Feld **CPI/SPI/CSI**.
