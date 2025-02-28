@@ -5,9 +5,9 @@ description: Nachdem Sie den Business Case für eine Projektanfrage abgeschlosse
 author: Alina
 feature: Work Management
 exl-id: 60abb054-5cb0-4dd6-9091-c9dcd635a630
-source-git-commit: 2def8297fe606adaeaef6cc079b718531377919d
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '733'
+source-wordcount: '735'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Beachten Sie bei der Genehmigung eines Business Case für ein Projekt Folgendes:
 * Sie müssen die einzelnen Projekte, für die eine Business Case-Genehmigung erforderlich ist, manuell aufrufen, um zu sehen, dass sie noch nicht genehmigt wurden. Es gibt keinen Workfront-Benachrichtigungsmechanismus, der jemanden darauf hinweist, dass er den Business Case eines Projekts genehmigen muss.
 * Sie können die Projekte finden, die auf die Genehmigung des Business Case warten, indem Sie entweder einen Projektbericht erstellen oder auf das Portfolio zugreifen, dem sie zugeordnet sind.
 
-  Weitere Informationen zu Portfolios finden Sie im Artikel [Übersicht über Portfolios in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
+  Weitere Informationen zu Portfolios finden Sie im Artikel [Übersicht über Portfolio in Adobe Workfront](../../../manage-work/portfolios/portfolios-overview/portfolio-overview.md).
 
 ## Genehmigen des Business Case durch Erstellen eines Projektberichts
 
@@ -106,7 +106,7 @@ So erstellen Sie einen Bericht für Projekte, für die die Genehmigung ihrer Bus
    Project Portfolio Owner ID Equals $$USER. ID
    ```
 
-   , um anzuzeigen, wo Sie als Portfolio-Manager fungieren.
+   , um anzuzeigen, wo Sie als Portfolio-Manager festgelegt sind.
 
 1. Klicken Sie **Speichern+Schließen**.
 
@@ -116,7 +116,7 @@ So erstellen Sie einen Bericht für Projekte, für die die Genehmigung ihrer Bus
 1. Klicken Sie **linken Bedienfeld** Business Case“.
 1. Klicken Sie **Bereich** Genehmigen“ oder **Ablehnen**, um den Business Case zu genehmigen oder abzulehnen.
 
-   ![](assets/business-case-summary-with-rp-information--1-.png)
+   ![Business Case](assets/business-case-summary-with-rp-information--1-.png)
 
    Der Projektstatus wird in &quot;**&quot; geändert** wenn der Business Case genehmigt wurde.
 
