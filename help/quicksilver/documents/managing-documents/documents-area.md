@@ -7,9 +7,9 @@ description: Im Bereich Dokumente können Sie Metadaten für in Adobe Workfront 
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 64612345-d1ce-41db-939b-3af30d1c6a51
-source-git-commit: 8bf345be3632061b89d239697077fd42c9d9cfd6
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '398'
+source-wordcount: '414'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,13 @@ ht-degree: 0%
 
 Im Bereich Dokumente können Sie Metadaten für in Adobe Workfront hochgeladene Dokumente organisieren, verwalten und anzeigen. Sie können auch die Korrekturabzugsentscheidung sehen.
 
-![](assets/documents-area-v2-350x199.png)
+![Bereich Dokumente](assets/documents-area-v2-350x199.png)
 
 Es gibt zwei Arten von Dokumentbereichen. Die Funktionen sind für beide identisch:
 
-* **Dokumentbereich in einem Programm, einem Portfolio, einem Projekt, einer Aufgabe oder einem Problem:** Listet alle Dokumente auf, auf die Sie für ein bestimmtes Projekt, eine bestimmte Aufgabe oder ein bestimmtes Problem Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken Sie **linken Bereich auf** Dokumente![](assets/document-icon-12x14.png) , während Sie ein Projekt, eine Aufgabe oder ein Problem anzeigen.
+* **Dokumentbereich in einem Programm, einem Portfolio, einem Projekt, einer Aufgabe oder einem Problem:** Listet alle Dokumente auf, auf die Sie für ein bestimmtes Projekt, eine bestimmte Aufgabe oder ein bestimmtes Problem Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken Sie **Dokumente** ![Symbol „Dokumente](assets/document-icon-12x14.png) im linken Bereich, während Sie ein Projekt, eine Aufgabe oder ein Problem anzeigen.
 
-* **Bereich „Globale Dokumente“** Listet alle Dokumente auf, auf die Sie in Workfront Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken **im Hauptmenü auf** Dokumente![](assets/document-icon.png) ![](assets/main-menu-icon.png).
+* **Bereich „Globale Dokumente“** Listet alle Dokumente auf, auf die Sie in Workfront Zugriff haben. Um auf diesen Bereich zuzugreifen, klicken Sie auf **Dokumente** ![Dokumentensymbol](assets/document-icon.png) im Hauptmenü ![Hauptmenüsymbol](assets/main-menu-icon.png).
 
 Informationen zum Hochladen von Dokumenten in Workfront finden Sie unter [Hinzufügen von Dokumenten zu Adobe Workfront aus Ihrem Dateisystem](../../documents/adding-documents-to-workfront/add-documents-from-file-system.md).
 
@@ -44,7 +44,7 @@ Wenn für das Dokument ein Proofing eingerichtet wurde, enthält der Abschnitt D
 
 Sie können auf die Überschrift Details klicken, um den Bereich Vollständige Dokumentdetails aufzurufen, wenn Sie alle Informationen zu einem Dokument benötigen.
 
-![](assets/documents-area-v2-350x199.png)
+![Bereich Dokumente](assets/documents-area-v2-350x199.png)
 
 Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../documents/managing-documents/summary-for-documents.md).
 
@@ -52,7 +52,7 @@ Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für
 
 Sobald eine Korrekturabzugsentscheidung getroffen wurde, wird sie in der Dokumentliste angezeigt.
 
-![](assets/proof-decision---doc-list-350x168.png)
+![Korrekturabzugsentscheidung in Dokumentliste](assets/proof-decision---doc-list-350x168.png)
 
 ## Ordner
 
