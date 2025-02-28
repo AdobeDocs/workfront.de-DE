@@ -6,9 +6,9 @@ description: Sie können ein benutzerdefiniertes Formular zu einem Dokument oder
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 6c974293-1f54-447b-8d42-8d039f7911f1
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '327'
+source-wordcount: '334'
 ht-degree: 1%
 
 ---
@@ -61,7 +61,7 @@ So fügen Sie einem Dokument ein benutzerdefiniertes Formular hinzu:
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie das Dokument, das Sie benötigen.
 
-1. Klicken Sie auf **Symbol** Zusammenfassung![](assets/summary-panel-icon.png) und suchen Sie dann den Abschnitt **Details**.
+1. Klicken Sie auf das **Zusammenfassung**-Symbol ![Zusammenfassung-Symbol](assets/summary-panel-icon.png) und suchen Sie dann den Abschnitt **Details**.
 1. Beginnen Sie im Feld **Benutzerdefiniertes Formular hinzufügen** mit der Eingabe und wählen Sie ein benutzerdefiniertes Formular aus. Das Formular wird automatisch im Dokument gespeichert.
 
    >[!NOTE]
@@ -73,8 +73,8 @@ So fügen Sie einem Dokument ein benutzerdefiniertes Formular hinzu:
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie das Dokument, das Sie benötigen.
 
-1. Klicken Sie auf **Symbol** Zusammenfassung![](assets/summary-panel-icon.png) und suchen Sie dann oben **Abschnitt** Details“.
+1. Klicken Sie auf **Zusammenfassung**-Symbol ![Zusammenfassung-Symbol](assets/summary-panel-icon.png) und suchen Sie dann oben den Abschnitt **Details**.
 1. Klicken **oben rechts auf** Bearbeiten“ und erweitern Sie dann das gewünschte Formular.
 1. Nehmen Sie die erforderlichen Änderungen vor und klicken Sie dann auf **Speichern**.
 
-   ![](assets/edit-custom-form-350x265.png)
+   ![Benutzerdefiniertes Formular bearbeiten](assets/edit-custom-form-350x265.png)
