@@ -6,9 +6,9 @@ description: Sie können eine Vorlage für Benutzer freigeben oder mithilfe der 
 author: Alina
 feature: Work Management
 exl-id: 99c6b241-a2c9-4b6c-b605-177bbbc3f21a
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '780'
+source-wordcount: '787'
 ht-degree: 2%
 
 ---
@@ -62,10 +62,10 @@ Sie können Ihre Vorlagen mithilfe der Vorlagenfreigabe für andere Benutzer fre
 
 Freigeben einer Vorlage:
 
-1. Klicken Sie im **-**-![](assets/main-menu-icon.png) auf **Vorlagen**.
+1. Klicken Sie auf dem **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) auf **Vorlagen**.
 
 1. Führen Sie einen der folgenden Schritte aus:\
-   Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das **Mehr**-![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlagenfreigabe**.
+   Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das Menü **Mehr** ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlagenfreigabe**.
 
    Oder
 
@@ -100,7 +100,7 @@ Bei der gemeinsamen Nutzung von Vorlagen für Projekte können Sie auf Vorlagene
 So geben Sie zukünftige Projekte, die aus einer Vorlage erstellt wurden, für Benutzer frei:
 
 1. Führen Sie einen der folgenden Schritte aus:\
-   Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das **Mehr**-![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlagenfreigabe**.
+   Klicken Sie auf den Namen einer Vorlage, um sie zu öffnen, und klicken Sie dann auf das Menü **Mehr** ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlagenfreigabe**.
 
    ![Projekt aus Vorlage freigeben](assets/project-sharing-on-template-nwe-2022-350x172.png)
 
@@ -119,7 +119,7 @@ So geben Sie zukünftige Projekte, die aus einer Vorlage erstellt wurden, für B
    * **Kein Zugriff**: Sie können angeben, welche Benutzer keinen Zugriff auf die Vorlage haben.\
      Diese Option ist nur bei der Massenfreigabe von Projekten aus Vorlagen verfügbar. 
    * **Anzeigen**: Benutzer mit diesen Berechtigungen können Projekte anzeigen, die aus der Vorlage erstellt wurden.
-   * **Contribute**: Benutzer mit diesen Berechtigungen können zu Projekten beitragen, die aus der Vorlage erstellt wurden 
+   * **Beitragen**: Benutzer mit diesen Berechtigungen können zu Projekten beitragen, die aus der Vorlage erstellt wurden 
    * **Verwalten**: Benutzer mit diesen Berechtigungen können Projekte verwalten oder löschen, die aus dieser Vorlage erstellt wurden.
 
 1. (Optional) Klicken Sie auf **Optionen**, um die Projekte systemweit verfügbar zu machen.
