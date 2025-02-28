@@ -6,9 +6,9 @@ description: Sie können die Workfront-Erweiterung verwenden, um digitale Inhalt
 author: Courtney
 feature: Workfront Integrations and Apps, Digital Content and Documents
 exl-id: 40945eac-e8de-42af-b6ba-f3082c208e02
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '3087'
+source-wordcount: '3107'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Wir ersetzen die Workfront-Erweiterung für Illustrator und InDesign durch [aktualisierte Creative Cloud-Plug-ins](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Ab Ende 2022 wird diese Erweiterung nicht mehr unterstützt und ist unverändert verfügbar.
+>Wir ersetzen die Workfront-Erweiterung für Illustrator und InDesign durch &quot;[ Creative Cloud-Plug-ins](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-toc.md). Ab Ende 2022 wird diese Erweiterung nicht mehr unterstützt und ist unverändert verfügbar.
 
 Sie können die Workfront-Erweiterung verwenden, um digitale Inhalte, die Sie in Adobe Illustrator Adobe InDesign speichern und erstellen, nach Workfront zu exportieren. Dadurch wird der Prozess der Dokumentüberprüfung und -validierung beschleunigt.
 
@@ -70,9 +70,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## Melden Sie sich über Illustrator oder InDesign bei der Workfront-Erweiterung an {#log-in-to-workfront-extension-from-illustrator-or-indesign}
+## Anmelden bei der Workfront-Erweiterung über Illustrator oder InDesign {#log-in-to-workfront-extension-from-illustrator-or-indesign}
 
-Wenn Sie sich von einer der unterstützten Adobe-Anwendungen bei Workfront anmelden, werden Sie bei allen unterstützten Adobe-Anwendungen angemeldet.
+Wenn Sie sich von einem der unterstützten Adobe-Programme bei Workfront anmelden, werden Sie bei allen unterstützten Adobe-Programmen angemeldet.
 
 1. Wechseln Sie zur Adobe-Anwendung, in der Sie die Workfront-Erweiterung verwenden möchten.
 
@@ -101,12 +101,12 @@ Beachten Sie beim Hochladen oder Exportieren einer Datei aus Adobe Creative Clou
 * Ihre Zugriffsebene muss das Hochladen von Dokumenten auf Workfront zulassen. Weitere Informationen finden Sie unter [Zugriff auf Dokumente gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-documents.md).
 * Sie müssen über die Berechtigung zum Hochladen von Dokumenten in das Element verfügen, in dem Sie es haben möchten. Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 * Die Datei wird für das ausgewählte Workfront-Objekt in den Bereich Dokumente hochgeladen.
-* Sie können ein Dokument nicht in den Bereich Dokumente im Hauptmenü ![](assets/main-menu-icon.png) von einer Adobe Creative Cloud-Anwendung exportieren.
+* Sie können ein Dokument nicht in den Bereich Dokumente im Hauptmenü (![) ](assets/main-menu-icon.png) einer Adobe Creative Cloud-Anwendung exportieren.
 
 In den folgenden Abschnitten werden die folgenden Punkte erläutert:
 
 * [Datei hochladen](#upload-a-file)
-* [Exportieren einer aktuell in Illustrator oder InDesign geöffneten Datei](#export-a-file-currently-open-in-illustrator-or-indesign)
+* [Exportieren Sie eine derzeit in Illustrator oder InDesign geöffnete Datei](#export-a-file-currently-open-in-illustrator-or-indesign)
 * [Hochladen einer neuen Dateiversion von Illustrator oder InDesign](#upload-a-new-version-of-a-file-from-illustrator-or-indesign)
 
 ### Datei hochladen {#upload-a-file}
@@ -135,7 +135,7 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
 
 1. (Optional) Geben Sie einen neuen Namen für die Datei ein.
 
-   ![](assets/rename-file-uploading.png)
+   ![Datei ](assets/rename-file-uploading.png)
 
 1. Klicken Sie **Hochladen**.
 
@@ -165,7 +165,7 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
 1. (Bedingt) Wenn das Arbeitselement, in das Sie die Datei hochladen möchten, Dokumentordner enthält, wählen Sie einen Dokumentordner im Feld **Klicken, um einen Dokumentordner auszuwählen** aus und klicken Sie dann auf **Auswählen**.
 1. (Optional) Um das Dokument umzubenennen, klicken Sie auf den Dokumentnamen und geben Sie einen neuen Namen ein.
 
-   ![](assets/rename-doc-exporting.png)
+   ![Dokument beim Exportieren umbenennen](assets/rename-doc-exporting.png)
 
 1. Klicken Sie **Exportieren**.
 
@@ -181,7 +181,7 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
 
 ### Hochladen einer neuen Dateiversion von Illustrator oder InDesign {#upload-a-new-version-of-a-file-from-illustrator-or-indesign}
 
-1. Wenn Sie eine Datei, an der Sie arbeiten, in eine unterstützte Adobe-Anwendung als neue Dateiversion in Workfront exportieren möchten, öffnen Sie die Datei in der Adobe-Anwendung.
+1. Wenn Sie eine Datei, an der Sie in einem unterstützten Adobe-Programm arbeiten, als neue Version einer Datei in Workfront exportieren möchten, öffnen Sie die Datei im Adobe-Programm.
 1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **** > **Erweiterungen** > **Workfront**.
 
    Eine Liste der Ihnen zugewiesenen Arbeitselemente wird angezeigt, wenn das Projekt einen aktuellen Status aufweist. Wenn keine Liste angezeigt wird, melden Sie sich bei Workfront an.
@@ -192,11 +192,11 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
 
    Sie können danach suchen, indem Sie den Namen in das Feld **Suche** eingeben und **Projekt**, **Aufgabe** oder **Problem** aus dem Dropdown-Menü rechts neben dem Feld **Suchen** auswählen. Wenn der Name des Arbeitselements nicht in der Liste angezeigt wird, drücken Sie die **Eingabetaste**, um alle Workfront-Elemente zu suchen, auf die Sie Zugriff haben.
 
-   Alle Dokumente, die in Projekte, Aufgaben oder Probleme hochgeladen wurden, werden in einer Liste angezeigt, unabhängig davon, ob sie von der Adobe-Anwendung hochgeladen wurden.
+   Alle Dokumente, die in Projekte, Aufgaben oder Probleme hochgeladen wurden, werden in einer Liste angezeigt, unabhängig davon, ob sie über das Adobe-Programm hochgeladen wurden.
 
 1. Klicken Sie im Dropdown **Menü „Zum Auswählen des** klicken“ auf das Format, in dem Sie die Datei in Workfront speichern möchten.
 
-   Dies ist erforderlich, wenn Sie eine Datei exportieren, die in der Adobe-Anwendung geöffnet ist. Eine Liste der unterstützten Formate für jede unterstützte Anwendung finden Sie unter [Unterstützte exportierte Dateiformate](#supported-exported-file-formats) in diesem Artikel.
+   Dies ist erforderlich, wenn Sie eine in der Adobe-Anwendung geöffnete Datei exportieren. Eine Liste der unterstützten Formate für jede unterstützte Anwendung finden Sie unter [Unterstützte exportierte Dateiformate](#supported-exported-file-formats) in diesem Artikel.
 
 1. Wenn Sie eine in der Adobe-Anwendung geöffnete Datei als neue Version des ausgewählten Workfront-Dokuments exportieren, klicken Sie auf **Exportieren**.
 
@@ -211,11 +211,11 @@ Sie können Ihre Dateien in ein Projekt, eine Aufgabe oder ein Problem hochladen
    >Der Name des Dokuments in Workfront wird standardmäßig ausgefüllt und kann nicht bearbeitet werden. Ebenso wenig ändert sich der Name der Datei, die Sie hochladen oder als neue Version exportieren.
    >
    >
-   >![](assets/doc-name-cant-be-changed.png)
+   >![Dokumentname kann nicht geändert werden](assets/doc-name-cant-be-changed.png)
 
-## Kommentar zu einem Workfront-Dokument von Illustrator oder InDesign {#comment-on-a-workfront-document-from-illustrator-or-indesign}
+## Kommentar zu einem Workfront-Dokument aus Illustrator oder InDesign {#comment-on-a-workfront-document-from-illustrator-or-indesign}
 
-Sie können einem Workfront-Dokument innerhalb einer Adobe-Anwendung direkt Kommentare hinzufügen. In Workfront werden Ihre Kommentare im Bereich Dokumentaktualisierungen und im Bereich Aktualisierungen für das Workfront-Element angezeigt, in dem das Dokument gespeichert ist.
+Sie können Kommentare direkt zu einem Workfront-Dokument in einer Adobe-Anwendung hinzufügen. In Workfront werden Ihre Kommentare im Bereich Dokumentaktualisierungen und im Bereich Aktualisierungen für das Workfront-Element angezeigt, in dem das Dokument gespeichert ist.
 
 1. Öffnen Sie eine der unterstützten Adobe-Anwendungen.
 1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **** > **Erweiterungen** > **Workfront**.
@@ -243,7 +243,7 @@ Sie können einem Workfront-Dokument innerhalb einer Adobe-Anwendung direkt Komm
 
 ## Dokumentengenehmigung von Illustrator oder InDesign anfordern
 
-Sie können eine Workfront-Dokumentgenehmigung direkt von einer Adobe-Anwendung aus anfordern.
+Sie können eine Workfront-Dokumentgenehmigung direkt von einem Adobe-Programm aus anfordern.
 
 Sie können eine Dokumentgenehmigung von den folgenden Entitäten anfordern:
 
@@ -255,9 +255,9 @@ Sie können wie folgt eine Genehmigung für ein Dokument von einem Adobe-Program
 * Durch Anhängen einer genehmigenden Person an das Dokument.
 * Indem Sie ein Dokument kommentieren, die Person benachrichtigen, wenn Sie einen Kommentar abgeben, und sie als genehmigende Person an das Dokument anhängen.
 
-  Informationen zum Anfordern einer Genehmigung beim Kommentieren eines Dokuments finden Sie im Abschnitt [Kommentar zu einem Workfront-Dokument von Illustrator oder InDesign](#comment-on-a-workfront-document-from-illustrator-or-indesign) in diesem Artikel.
+  Informationen zum Anfordern einer Genehmigung beim Kommentieren eines Dokuments finden Sie im Abschnitt [Kommentar zu einem Workfront-Dokument aus Illustrator oder InDesign](#comment-on-a-workfront-document-from-illustrator-or-indesign) in diesem Artikel.
 
-So fordern Sie eine Genehmigung für ein Dokument von einer Adobe-Anwendung an:
+So fordern Sie eine Genehmigung für ein Dokument von einem Adobe-Programm an:
 
 1. Öffnen Sie eine der unterstützten Adobe-Anwendungen.
 1. Wenn die Workfront-Erweiterung nicht angezeigt wird, klicken Sie auf **** > **Erweiterungen** > **Workfront**.
@@ -276,7 +276,7 @@ So fordern Sie eine Genehmigung für ein Dokument von einer Adobe-Anwendung an:
 
    * Geben Sie den Namen einer genehmigenden Person ein und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 
-     ![](assets/adobe-cc-adding-a-doc-approver-350x189.png)
+     ![Genehmigende Person für Dokumente hinzufügen](assets/adobe-cc-adding-a-doc-approver-350x189.png)
 
    * Geben Sie die E-Mail-Adresse eines externen Benutzers ein.
 
@@ -287,7 +287,7 @@ So fordern Sie eine Genehmigung für ein Dokument von einer Adobe-Anwendung an:
 
    Weitere Informationen zu Benachrichtigungen in Workfront finden Sie unter [Anzeigen und Verwalten von In-App-Benachrichtigungen](../../workfront-basics/using-notifications/view-and-manage-in-app-notifications.md). Informationen zum Empfang von E-Mail-Benachrichtigungen finden Sie unter [Adobe Workfront-Benachrichtigungen](../../workfront-basics/using-notifications/wf-notifications.md).
 
-## Erstellen eines Korrekturabzugs von Illustrator oder InDesign {#generate-a-proof-from-illustrator-or-indesign}
+## Erstellen eines Korrekturabzugs aus Illustrator oder InDesign {#generate-a-proof-from-illustrator-or-indesign}
 
 Wenn Ihr Unternehmen automatisierte Workflow-Vorlagen verwendet, können Sie einen Korrekturabzug für ein Dokument erstellen, das Sie in einer Adobe-Anwendung erstellen, ohne die Anwendung verlassen zu müssen. Informationen zum Erstellen von Testsendungen finden Sie unter [Erstellen von Testsendungen](../../review-and-approve-work/proofing/creating-proofs-within-workfront/create-proofs-in-wf.md). Informationen zu automatisierten Workflow-Vorlagen finden Sie unter [Automatisierte Workflow-Vorlagen](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md#automate) in [Automatisierter Workflow - Übersicht](../../review-and-approve-work/proofing/proofing-overview/automated-workflow.md).
 
@@ -325,7 +325,7 @@ Wenn Ihr Unternehmen automatisierte Workflow-Vorlagen verwendet, können Sie ein
 
    Sie können den Fortschritt der Testversand-Erstellung sehen. Ein Warnhinweis wird angezeigt, wenn die Erstellung abgeschlossen ist. Sie können die Aufgabe öffnen, in der Sie den Korrekturabzug erstellt haben und er dort aufgeführt ist.
 
-## Hochladen einer neuen Version eines Korrekturabzugs, ohne Illustrator oder InDesign verlassen zu müssen
+## Hochladen einer neuen Version eines Korrekturabzugs, ohne Illustrator oder InDesign zu verlassen
 
 1. Klicken Sie auf ein vorhandenes Dokument mit einem Korrekturabzug und dann auf **Auswählen** in der rechten unteren Ecke.
 1. Klicken Sie **Als neue Korrekturabzugsversion hochladen**, um sie zu aktivieren.
@@ -348,9 +348,9 @@ Wenn Ihr Unternehmen automatisierte Workflow-Vorlagen verwendet, können Sie ein
 
 ## Melden Sie sich von der Workfront-Erweiterung ab
 
-1. Klicken Sie im Adobe-Programm auf **Window** > **Extensions** > **Workfront**.
+1. Klicken Sie im Adobe-Programm auf **Fenster** > **Erweiterungen** > **Workfront**.
 
-1. Klicken Sie auf **Mehr**-![](assets/more-menu.png) in der oberen rechten Ecke des Bedienfelds.
+1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke des Bedienfelds.
 
 1. (Optional) Klicken Sie auf **Feedback**, um eine kurze Umfrage zu öffnen und Workfront Ihr Feedback zu Workfront for Adobe Creative Cloud zu senden.
 1. Klicken Sie **Abmelden**.\
@@ -363,30 +363,30 @@ Wenn Ihr Unternehmen automatisierte Workflow-Vorlagen verwendet, können Sie ein
 
 ### Unterstützte exportierte Dateiformate für Adobe InDesign  {#supported-exported-file-formats-for-adobe-indesign}
 
-Workfront unterstützt die folgenden Dateiformate zum Exportieren einer Datei von InDesign nach Workfront:
+Workfront unterstützt die folgenden Dateiformate für den Export einer Datei von InDesign nach Workfront:
 
 * EPS - Encapsulated PostScript
-* EPUB - Feste elektronische Publikation
-* EPUB - Reflowable elektronische Publikation &#42;
-* HTML - HyperText Markup Language
+* EPUB - Elektronische Publikation mit festem Layout
+* EPUB - Reflowable Electronic Publication &#42;
+* HTML - HyperText-Markupsprache
 * IDML - InDesign Markup Language &#42;
-* JPG, JPEG - Joint Fotografic Experts Group
-* PDF - Adobe Portable Document File
+* JPG, JPEG - Gemeinsame Expertengruppe für Fotografie
+* PDF - Portable Document File von Adobe
 * PNG - Portable Network Graphics
-* SWF - Flash Player &#42;
+* SWF - Flash Player-&#42;
 * XML - Extensible Markup Language &#42;
 
-&#42; Dieses Dateiformat ist nicht verfügbar, wenn **Neuen Korrekturabzug hochladen** aktiviert ist (weitere Informationen zu dieser Option finden Sie unter [Erstellen eines Korrekturabzugs von Illustrator oder InDesign](#generate-a-proof-from-illustrator-or-indesign) in diesem Artikel). Wenn dieses Dateiformat bereits vor dem Aktivieren von **Neuen Korrekturabzug hochladen** ausgewählt ist, ändert das System das Dateiformat in PDF. Sie können ein anderes Format aus der Liste auswählen.
+&#42; Dieses Dateiformat ist nicht verfügbar, wenn **Neuen Korrekturabzug hochladen** aktiviert ist (weitere Informationen zu dieser Option finden Sie unter [Erstellen eines Korrekturabzugs aus Illustrator oder InDesign](#generate-a-proof-from-illustrator-or-indesign) in diesem Artikel). Wenn dieses Dateiformat bereits ausgewählt ist, bevor Sie **neuen Korrekturabzug hochladen** aktivieren, ändert das System das Dateiformat in PDF. Sie können ein anderes Format aus der Liste auswählen.
 
 ### Unterstützte exportierte Dateiformate für Adobe Illustrator  {#supported-exported-file-formats-for-adobe-illustrator}
 
 Workfront unterstützt die folgenden Dateiformate für den Export einer Datei von Illustrator nach Workfront:
 
 * DWG - AutoCAD-Zeichnung, AutoCAD Interchange-Datei &#42;
-* JPG, JPEG - Joint Fotografic Experts Group
+* JPG, JPEG - Gemeinsame Expertengruppe für Fotografie
 * PNG - Portable Network Graphics
 * PSD - Photoshop-Dokument
-* SWF - Flash Player &#42;
-* TIFF - Dateiformat des getaggten Bildes
+* SWF - Flash Player-&#42;
+* TIFF - Dateiformat für getaggte Bilder
 
-&#42; Dieses Dateiformat ist nicht verfügbar, wenn **Neuen Korrekturabzug hochladen** aktiviert ist (weitere Informationen zu dieser Option finden Sie unter [Erstellen eines Korrekturabzugs von Illustrator oder InDesign](#generate-a-proof-from-illustrator-or-indesign) in diesem Artikel). Wenn dieses Dateiformat bereits ausgewählt ist, bevor Sie **neuen Korrekturabzug hochladen** aktivieren, ändert das System das Dateiformat in PNG. Sie können ein anderes Format aus der Liste auswählen.
+&#42; Dieses Dateiformat ist nicht verfügbar, wenn **Neuen Korrekturabzug hochladen** aktiviert ist (weitere Informationen zu dieser Option finden Sie unter [Erstellen eines Korrekturabzugs aus Illustrator oder InDesign](#generate-a-proof-from-illustrator-or-indesign) in diesem Artikel). Wenn dieses Dateiformat bereits ausgewählt ist, bevor Sie **neuen Korrekturabzug hochladen** aktivieren, ändert das System das Dateiformat in PNG. Sie können ein anderes Format aus der Liste auswählen.
