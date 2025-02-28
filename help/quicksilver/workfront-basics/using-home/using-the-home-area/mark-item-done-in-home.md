@@ -6,9 +6,9 @@ description: Sie können eine Aufgabe oder ein Problem als „Erledigt“ markie
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 4c3638aa-5ee3-422a-9fee-41c4749fe48b
-source-git-commit: bc60d2cd3dee9be2351d751bafff0e35267ea640
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
+source-wordcount: '863'
 ht-degree: 0%
 
 ---
@@ -47,7 +47,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Contribute-Berechtigungen oder höher für die Aufgaben und Probleme, an denen Sie arbeiten müssen</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
+   <td> <p>Tragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen bei, an denen Sie arbeiten müssen</p> <p>Informationen zum Anfordern zusätzlicher Zugriffsberechtigungen finden Sie unter <a href="../../../workfront-basics/grant-and-request-access-to-objects/request-access.md" class="MCXref xref">Anfordern von Zugriffsberechtigungen für Objekte </a>.</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -58,21 +58,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Markieren eines Arbeitselements als „Fertig“ im Widget „Meine Arbeit“
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Arbeit** hinzuzufügen.
 1. Suchen Sie das Arbeitselement und klicken Sie dann **[!UICONTROL Arbeitselement auf]**Als abgeschlossen markieren“.
 Unter [Verstehen der Optionen der Schaltfläche [!UICONTROL Fertig] finden ](#understand-the-options-of-the-done-button) detailliertere Informationen darüber, wie diese Schaltfläche angezeigt werden könnte.
-   ![](assets/my-work-done.png)
+   ![Meine Arbeit als erledigt markieren](assets/my-work-done.png)
 
 
 ## Markieren eines Arbeitselements im Bedienfeld Zusammenfassung
 
 Sie können ein Arbeitselement im Widget „Meine Aufgaben“ und „Meine Probleme“ über das Bedienfeld „Zusammenfassung“ als „Fertig“ markieren.
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um die Widgets **Meine Aufgaben** oder **Meine Probleme** hinzuzufügen.
 1. Bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung**.
-   ![](assets/open-summary-new-home.png)
+   ![Zusammenfassung öffnen](assets/open-summary-new-home.png)
 1. Klicken **oben** Zusammenfassungsbereich auf „Als erledigt markieren“.
 
 
@@ -113,5 +113,5 @@ Wenn die Schaltfläche „Fertig“ mit mehreren Status verknüpft ist, werden d
 >
 >Bei einer Aufgabe oder einem Problem mit mehreren Verantwortlichen ist jeder Benutzer dafür verantwortlich anzugeben, dass seine eigene Zuweisung zu der Aufgabe oder dem Problem tatsächlich abgeschlossen wurde. Aus diesem Grund muss jeder Verantwortliche auf [!UICONTROL Fertig] klicken, um anzuzeigen, dass er die ihm zugewiesene Arbeit am Element erledigt hat.
 
-![](assets/done-with-my-part.png)
+![Fertig mit meinem Teil](assets/done-with-my-part.png)
 
