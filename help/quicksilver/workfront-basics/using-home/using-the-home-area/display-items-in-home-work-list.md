@@ -6,9 +6,9 @@ description: Jedes Widget enthält eine eigene Arbeitsliste. Arbeitslisten zeige
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: eac2e065-9e32-43c1-90ff-0f841b508c35
-source-git-commit: 0bd250b323a4e8e83d7ce8b42d0446c3879d7e6b
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '1016'
 ht-degree: 4%
 
 ---
@@ -51,7 +51,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Contribute-Berechtigungen oder höher für die Aufgaben und Probleme, an denen Sie arbeiten müssen</p>  </td> 
+   <td> <p>Tragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen bei, an denen Sie arbeiten müssen</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -104,7 +104,7 @@ Sie können Elemente in der (Arbeitsliste[!UICONTROL  eines Widgets filtern] um 
 
 So filtern Sie Ihre Arbeit:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um eines der folgenden Widgets hinzuzufügen:
 
    | Widget | Beschreibung |
@@ -117,12 +117,12 @@ So filtern Sie Ihre Arbeit:
    | Meine Anfragen | Zeigt alle von Ihnen gesendeten Anfragen an |
    | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an |
 
-1. Klicken Sie auf **Filter**-Symbol ![](assets/filter-nwepng.png) in der rechten oberen Ecke der Widget-Arbeitsliste.
+1. Klicken Sie auf **Filter**-Symbol ![Filtersymbol](assets/filter-nwepng.png) in der rechten oberen Ecke der Widget-Arbeitsliste.
 1. Wählen Sie **Filter**Vorgeschlagen“ oder einen von Ihnen erstellten Filter aus.
 Detaillierte Informationen zu vorgeschlagenen Filtern finden Sie unter [Übersicht über Widget-Filter für Startseite](/help/quicksilver/workfront-basics/using-home/using-the-home-area/widget-filter-overview-home.md).
 1. (Optional) Schalten Sie **Filter stapeln** ein, um mehrere Filteroptionen auszuwählen.
 
-   ![](assets/my-task-filter-open.png)
+   ![Filter „Meine Aufgabe“ geöffnet](assets/my-task-filter-open.png)
 
 
 ## Arbeiten gruppieren
@@ -131,7 +131,7 @@ Sie können das Widget &quot;[!UICONTROL &quot; gruppieren] um Ihre Arbeitseleme
 
 So gruppieren Sie Ihre Arbeitsliste:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um eines der folgenden Widgets hinzuzufügen:
 
    | Widget | Beschreibung |
@@ -144,16 +144,16 @@ So gruppieren Sie Ihre Arbeitsliste:
    | Meine Anfragen | Zeigt alle von Ihnen gesendeten Anfragen an |
    | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an |
 
-1. Klicken Sie auf **Symbol** Gruppe![](assets/group-icon.png) in der rechten oberen Ecke der Widget-Arbeitsliste.
+1. Klicken Sie auf **Gruppen**-Symbol ![Gruppensymbol](assets/group-icon.png) in der rechten oberen Ecke der Widget-Arbeitsliste.
 1. Wählen Sie eine **vorgeschlagene** Gruppierung oder eine von Ihnen erstellte Gruppierung aus.
-   ![](assets/grouping-expanded.png)
+   ![Gruppierung erweitert](assets/grouping-expanded.png)
 
 
 ## Anpassen von Arbeitslistenspalten
 
 Sie können auswählen, welche Spalten in der Widget-Arbeitsliste angezeigt werden sollen:
 
-1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) und dann auf **[!UICONTROL Home]**.
+1. Klicken Sie oben rechts auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **[!UICONTROL Startseite]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um eines der folgenden Widgets hinzuzufügen:
 
    | Widget | Beschreibung |
@@ -166,10 +166,10 @@ Sie können auswählen, welche Spalten in der Widget-Arbeitsliste angezeigt werd
    | Meine Anfragen | Zeigt alle von Ihnen gesendeten Anfragen an |
    | Meine Genehmigungen | Zeigt alle ausstehenden, zugewiesenen, delegierten und gesendeten Genehmigungen an |
 
-1. Klicken Sie auf **Spalte** Symbol ![](assets/column-icon.png) in der rechten oberen Ecke der Widget-Arbeitsliste.
+1. Klicken Sie auf **Spalten**-Symbol ![Spaltensymbol](assets/column-icon.png) in der rechten oberen Ecke der Widget-Arbeitsliste.
 1. Schalten Sie die Spalten je nach Ihren Voreinstellungen ein oder aus.
-1. (Optional) Klicken Sie auf das Symbol **Ziehen**, ![](assets/drag-icon.png) die Spalten neu anzuordnen.
-   ![](assets/columns-expanded.png)
+1. (Optional) Klicken Sie auf das Symbol **Ziehen** ![Ziehen-Symbol](assets/drag-icon.png), um die Spalten neu anzuordnen.
+   ![Spalten erweitert](assets/columns-expanded.png)
 
 
 ## Verspätete Elemente anzeigen
