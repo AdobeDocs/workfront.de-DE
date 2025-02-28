@@ -7,9 +7,9 @@ description: Projekte, Aufgaben und Probleme haben in Adobe Workfront ein tatsä
 author: Alina
 feature: Work Management
 exl-id: 4357b072-24f6-4f89-b624-f066f8af0722
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '598'
 ht-degree: 0%
 
 ---
@@ -83,7 +83,7 @@ Sie können das tatsächliche Startdatum eines Projekts in den folgenden Bereich
 
 So suchen Sie das tatsächliche Startdatum im Abschnitt Details des Projekts:
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Workfront und dann auf **Projekte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Workfront und dann auf **Projekte**.
 1. Klicken Sie auf das Projekt, für das Sie das tatsächliche Startdatum anzeigen möchten.
 1. Klicken Sie **linken Bereich auf** Projektdetails“ und navigieren Sie dann zum Abschnitt **Übersicht**.
 
