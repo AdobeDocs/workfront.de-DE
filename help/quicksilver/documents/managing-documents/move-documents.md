@@ -6,9 +6,9 @@ description: Ein Benutzer mit Verwaltungsrechten für ein Dokument kann das Doku
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 46039017-58b3-4e9d-8dcd-6e1f52d98d27
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '266'
+source-wordcount: '268'
 ht-degree: 0%
 
 ---
@@ -63,7 +63,7 @@ Sie müssen über Folgendes verfügen:
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 1. Suchen Sie das Dokument, das Sie benötigen.
 
-1. Klicken Sie auf **Symbol** Verschieben![](assets/move-document--25x19.png).
+1. Klicken Sie auf das **Verschieben**-Symbol ![Verschieben-Symbol](assets/move-document--25x19.png).
 1. Klicken Sie im angezeigten Dropdown-Menü auf **Problem**, **Projekt** oder **Aufgabe**, um den Objekttyp anzugeben, in den Sie das Dokument verschieben möchten. 
 
 1. Geben Sie den Namen von **Problem**, **Projekt** oder **Aufgabe** in das Textfeld ein.
