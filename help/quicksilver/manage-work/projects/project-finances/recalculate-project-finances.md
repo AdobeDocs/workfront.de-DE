@@ -6,9 +6,9 @@ description: Die Finanzen werden für ein Projekt berechnet, da Änderungen in d
 author: Lisa
 feature: Work Management
 exl-id: 5a90c5a1-8b26-4b6f-b9ec-f446a2e94ff0
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '1617'
+source-wordcount: '1633'
 ht-degree: 0%
 
 ---
@@ -149,15 +149,15 @@ Sie können die Finanzen von Projekten in Workfront auf der Projektseite oder in
 
 Sie können die Finanzen neu berechnen, während Sie sie stapelweise bearbeiten. Weitere Informationen finden Sie im Abschnitt [Manuelles Neuberechnen der Finanzen in ](#manually-recalculate-finances-in-bulk)) in diesem Artikel.
 
-1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
+1. Wechseln Sie zu dem Projekt, für das Sie die Finanzen neu berechnen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen.
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Dropdown „Mehr“ auf Projektebene](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oder
 
-   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png).
+   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein oder mehrere Projekte aus und klicken Sie dann oben in der Liste auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ausdrücke neu ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -181,9 +181,9 @@ Sie können die Finanzen mehrerer Projekte manuell neu berechnen, indem Sie sie 
 So berechnen Sie die Finanzen mehrerer Projekte manuell neu:
 
 1. Zu einer Projektliste gehen.
-1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie dann oben in **Liste auf** Mehr![](assets/qs-more-icon-on-an-object.png).
+1. Wählen Sie mehrere Projekte in der Liste aus und klicken Sie dann oben in der Liste auf **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png)Mehr Menü).
 
-   ![](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
+   ![Ausdrücke neu ](assets/recalculate-expressions-timeline-finances-drop-down-in-project-list-nwe.png)
 
    >[!TIP]
    >
@@ -207,4 +207,4 @@ Die finanzielle Neuberechnung von Projekten in Workfront wird durch folgende Ma�
 >
 >Wenn Sie den Projektstatus ändern, werden nur die geplanten Werte neu berechnet.
 
-Sie können die Finanzen auch manuell unter dem Menü **Mehr** auf Projektebene neu ![](assets/qs-more-menu.png), indem Sie auf **Finanzen neu berechnen** klicken.
+Sie können die Finanzen auch manuell unter dem Menü **Mehr** ![Mehr](assets/qs-more-menu.png) auf Projektebene neu berechnen, indem Sie auf **Finanzen neu berechnen** klicken.
