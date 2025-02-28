@@ -6,9 +6,9 @@ description: Sie können eine Vorlage entweder während der ersten Erstellungsph
 author: Alina
 feature: Work Management
 exl-id: bce9af59-5467-4458-b923-01bfa469e2d8
-source-git-commit: 31ee3259167532e1e1efa75d635786762f6e476e
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1138'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -77,15 +77,15 @@ Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Sc
 
 Sie können eine Vorlage in Workfront von der Projektseite aus oder aus einer Projektliste oder einem Bericht an ein Projekt anhängen.
 
-1. Wechseln Sie zu dem Projekt, an das Sie eine Vorlage anhängen möchten, und klicken Sie **rechts neben dem Projektnamen auf** Mehr![](assets/qs-more-icon-on-an-object.png)
+1. Wechseln Sie zu dem Projekt, an das Sie eine Vorlage anhängen möchten, und klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/qs-more-icon-on-an-object.png) rechts neben dem Projektnamen
 
-   ![](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
+   ![Dropdown „Mehr“](assets/project-level-more-drop-down-expanded-nwe-350x516.png)
 
    Oder
 
-   Gehen Sie zu einer Projektliste oder einem Bericht, wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf **** Mehr![](assets/qs-more-icon-on-an-object.png)Symbol.
+   Gehen Sie zu einer Projektliste oder einem Bericht und wählen Sie ein Projekt aus und klicken Sie dann oben in der Liste auf **Mehr** Symbol ![Mehr](assets/qs-more-icon-on-an-object.png)Symbol.
 
-   ![](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
+   ![Mehr Menü erweitert](assets/more-menu-expanded-in-a-list-one-project-selected-nwe.png)
 
 
 1. Klicken Sie **Vorlage anhängen**.
@@ -106,16 +106,16 @@ Sie können eine Vorlage in Workfront von der Projektseite aus oder aus einer Pr
    * Gesamtzahl der Aufgaben
    * Namen der benutzerdefinierten Formulare in Anhängen
 
-   ![](assets/attach-template-box-template-preview-area-nwe-350x282.png)
+   ![Vorlagenfeld anhängen](assets/attach-template-box-template-preview-area-nwe-350x282.png)
 
-1. (Optional) Klicken Sie auf das **Favoriten**-Symbol ![](assets/favorites-icon-small.png) links neben dem Vorlagennamen, um die Vorlage als Favorit zu markieren. Dadurch wird die Vorlage in die Favoritenliste verschoben.
+1. (Optional) Klicken Sie auf **Favoriten**-Symbol ![Favoriten-](assets/favorites-icon-small.png)) links neben dem Vorlagennamen, um die Vorlage als Favorit zu markieren. Dadurch wird die Vorlage in die Favoritenliste verschoben.
 
-   ![](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
+   ![Favoritensymbol in der Vorlagenliste](assets/favorites-icon-on-template-list-in-attach-template-box-nwe-350x79.png)
 
-1. (Optional) Klicken Sie erneut auf **Symbol** Favoriten![](assets/favorites-icon-selected.png), um es aus der Favoritenliste zu entfernen.
+1. (Optional) Klicken Sie erneut auf **Favoriten**-Symbol ![Favoriten-Symbol](assets/favorites-icon-selected.png), um es aus der Favoritenliste zu entfernen.
 1. Klicken Sie **Anpassen und anhängen**.
 
-   ![](assets/attach-template-large-box-nwe-350x262.png)
+   ![Vorlage anhängen](assets/attach-template-large-box-nwe-350x262.png)
 
 1. Aktualisieren Sie die Informationen in den folgenden Abschnitten, bevor Sie die Vorlage anhängen (oder klicken Sie **Vorlage**):
 
@@ -193,6 +193,6 @@ So verstehen Sie, welche Vorlage auf ein Projekt angewendet wird:
 1. Klicken Sie **linken** auf „Projektdetails“.
 1. Suchen Sie den Namen der an das Projekt angehängten Vorlage im Feld **Vorlage** unten im Abschnitt **Übersicht** unter **Projektbeziehungen** .
 
-   ![](assets/nwe-template-info-on-project-350x356.png)
+   ![Vorlageninformationen zum Projekt](assets/nwe-template-info-on-project-350x356.png)
 
 
