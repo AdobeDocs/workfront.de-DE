@@ -6,9 +6,9 @@ description: Sie können Ressourcenmanager für ein Projekt bestimmen, um anzuge
 author: Alina
 feature: Work Management
 exl-id: ae2a89e7-8049-4ee6-9b28-ce247d3f2a6f
-source-git-commit: 59c3a57e334d1660e3e59da480a90060b1ba81b7
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '826'
+source-wordcount: '829'
 ht-degree: 1%
 
 ---
@@ -167,7 +167,7 @@ Benutzer, die einem Projekt oder einer Vorlage als Ressourcen-Manager hinzugefü
 
 ## Ressourcenmanager für eine Vorlage bestimmen
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront.
 
 1. Klicken Sie auf **Vorlagen**.
 
