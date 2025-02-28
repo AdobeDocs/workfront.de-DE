@@ -1,20 +1,20 @@
 ---
 navigation-topic: business-case-and-scorecards
 title: Erstellen eines Business Case für ein Projekt
-description: Sie können den Business Case verwenden, um ein Projekt anzufordern und den Zweck, das Budget und den potenziellen Nutzen für das Projekt zu definieren. Der Portfolio-Manager oder Projektsponsor verwendet die Informationen des Business Case, um das Projekt zu analysieren und zu priorisieren, bevor es genehmigt wird.
+description: Sie können den Business Case verwenden, um ein Projekt anzufordern und den Zweck, das Budget und den potenziellen Nutzen für das Projekt zu definieren. Der Portfolio-Manager oder Projektsponsor verwendet die Informationen aus dem Business Case, um das Projekt zu analysieren und zu priorisieren, bevor es genehmigt wird.
 author: Alina
 feature: Work Management
 exl-id: db69b3bf-04e3-49b4-ae0d-ab6145389db5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '828'
+source-wordcount: '833'
 ht-degree: 0%
 
 ---
 
 # Erstellen eines Business Case für ein Projekt
 
-Sie können den Business Case verwenden, um ein Projekt anzufordern und den Zweck, das Budget und den potenziellen Nutzen für das Projekt zu definieren. Der Portfolio-Manager oder Projektsponsor verwendet die Informationen des Business Case, um das Projekt zu analysieren und zu priorisieren, bevor es genehmigt wird.
+Sie können den Business Case verwenden, um ein Projekt anzufordern und den Zweck, das Budget und den potenziellen Nutzen für das Projekt zu definieren. Der Portfolio-Manager oder Projektsponsor verwendet die Informationen aus dem Business Case, um das Projekt zu analysieren und zu priorisieren, bevor es genehmigt wird.
 
 ## Zugriffsanforderungen
 
@@ -54,13 +54,13 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Business Case anfordern
 
   Informationen zu den Bereichen des Business Case finden Sie im Artikel [Überblick über die Bereiche des Business Case](../../../manage-work/projects/define-a-business-case/areas-of-business-case.md).
 
-* Sie müssen alle Bereiche des Business Case mit Ausnahme des Bereichs Ziele abschließen, wenn Sie möchten, dass Ihr Projekt in Portfolio Optimizer eine Bewertung erhält. Das Ausfüllen des Bereichs Ziele ist optional. Das Projekt erhält eine Bewertung im Portfolio-Optimizer, auch wenn dieser Bereich nicht abgeschlossen ist.
+* Sie müssen alle Bereiche des Business Case mit Ausnahme des Bereichs Ziele abschließen, wenn Sie möchten, dass Ihr Projekt in Portfolio Optimizer eine Bewertung erhält. Das Ausfüllen des Bereichs Ziele ist optional. Das Projekt erhält eine Bewertung in Portfolio Optimizer, auch wenn dieser Bereich nicht abgeschlossen ist.
 
-  Informationen zum Arbeiten mit Scorecards und mit dem Portfolio Optimizer finden Sie im Artikel [Anwenden einer Scorecard auf ein Projekt und Generieren eines Ausrichtungswerts](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
+  Informationen zum Arbeiten mit Scorecards und mit Portfolio Optimizer finden Sie im Artikel [Anwenden einer Scorecard auf ein Projekt und Generieren eines Ausrichtungswerts](../../../manage-work/projects/define-a-business-case/apply-scorecard-to-project-to-generate-alignment-score.md).
 
 ## Erstellen eines Business Case
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![](assets/main-menu-icon.png) und dann auf **Projekte**.
+1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Projekte**.
 1. Klicken Sie auf **Neues Projekt** und wählen Sie **Projekt anfordern** aus.\
    Standardmäßig weist das Projekt den Status **Idee** auf.
 
@@ -69,7 +69,7 @@ Beachten Sie Folgendes, wenn Sie ein Projekt über einen Business Case anfordern
    >Wenn der Ideenstatus in Ihrer Workfront-Instanz gelöscht wurde, wird das Projekt in den Standardstatus für neue Projekte versetzt, wie im Bereich Projektvoreinstellungen definiert. Informationen zum Einrichten von Projektvoreinstellungen finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
 1. Geben Sie einen Namen für Ihr Projekt ein und drücken Sie dann die Eingabetaste.
-1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![](assets/qs-more-icon-on-an-object.png) und dann auf **Vorlage anhängen**, um die Arbeitsaufschlüsselungsstruktur Ihres Projekts zu erstellen.
+1. (Optional) Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann **Vorlage anhängen**, um die Arbeitsaufschlüsselungsstruktur Ihres Projekts zu erstellen.
 
    Oder
 
