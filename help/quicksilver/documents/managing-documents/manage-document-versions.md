@@ -6,9 +6,9 @@ description: Sie können mehrere Versionen eines Dokuments in Workfront verwalte
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 477153e4-847b-46ec-8107-72a7399c3767
-source-git-commit: 9aa6822c9c1ecade776d4c71b113c1afd997f40c
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '528'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -64,15 +64,15 @@ Sie müssen über Folgendes verfügen:
 
 1. Klicken Sie oben auf der Seite Dokumentdetails auf das Dropdown-Menü neben dem Namen und dann auf den Namen der Version, die Sie anzeigen und verwalten möchten.
 
-   ![](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
+   ![Versions-Dropdown in den Dokumentdetails](assets/version-drop-dn-doc-dtls-nwe-350x93.png)
 
    Neben der Anzeige der Versionsdetails können Sie Änderungen an der Version vornehmen, z. B. an ihrem Namen, ihren Metadaten und den Proofing-Einstellungen (wenn es sich um einen Dokument-Korrekturabzug handelt).
 
 ## Einzelne Dokumentversion herunterladen
 
-1. Klicken Sie in der Zusammenfassung unter **Versionen** auf das Menü Mehr ![](assets/more-icon.png) rechts von der Version und klicken Sie dann in **angezeigten Dropdown-Liste auf** Herunterladen.
+1. Klicken Sie in der Zusammenfassung unter **Versionen** auf das Menü Mehr ![Mehr](assets/more-icon.png) rechts neben der Version und klicken Sie dann in der angezeigten Dropdown-Liste auf **Herunterladen**.
 
-   ![](assets/more-versions-350x143.png)
+   ![Ein einzelnes Dokument herunterladen](assets/more-versions-350x143.png)
 
 ## Herunterladen aller Versionen eines Dokuments
 
@@ -105,4 +105,4 @@ Löschen einer Dokumentversion:
 
    Wenn das Dokument mit einer externen Quelle verknüpft ist, wird dieser Link gelöscht und das Dokument ist nicht mehr über Workfront zugänglich.
 
-   ![](assets/more-versions-350x143.png)
+   ![Dokumentversion löschen](assets/more-versions-350x143.png)
