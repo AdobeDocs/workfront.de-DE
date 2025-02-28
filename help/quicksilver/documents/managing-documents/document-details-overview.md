@@ -7,9 +7,9 @@ description: Auf der Seite „Dokumentdetails“ können Sie die Eigenschaften e
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 69f0560f-8612-431d-9765-0216bf47d8b0
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 5595b1c286d82f77bca9ee16e20bae8380ce45b5
 workflow-type: tm+mt
-source-wordcount: '203'
+source-wordcount: '207'
 ht-degree: 2%
 
 ---
@@ -24,7 +24,7 @@ Auf der Seite „Dokumentdetails“ können Sie die Eigenschaften eines Dokument
 
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf **Dokumentdetails**.
 
-   ![](assets/document-details-350x179.png)
+   ![Dokumentdetails](assets/document-details-350x179.png)
 
 ## Durchführen grundlegender Aktionen für Dokumente und Korrekturabzüge
 
@@ -37,7 +37,7 @@ Sie können die folgenden Aktionen für Dokumente und Korrekturabzüge auf der S
 * Dokumentbeschreibung bearbeiten
 * Ein- oder Auschecken eines Dokuments
 
-Darüber hinaus können Sie das Symbol Mehr ![](assets/more-icon.png) neben dem Dokumentnamen verwenden, um die folgenden Aktionen durchzuführen:
+Darüber hinaus können Sie über das Symbol Mehr ![Menü Mehr](assets/more-icon.png) neben dem Dokumentnamen die folgenden Aktionen ausführen:
 
 * Freigeben
 * Verschieben
