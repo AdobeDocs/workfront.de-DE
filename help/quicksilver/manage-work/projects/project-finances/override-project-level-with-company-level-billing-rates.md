@@ -6,9 +6,9 @@ description: Abrechnungssätze auf Projektebene mit Abrechnungssätzen auf Firme
 author: Lisa
 feature: Work Management
 exl-id: 02ea4c7c-0473-4cc4-913c-3baa613767b7
-source-git-commit: e5a87b92bf1f6c2e0485ba8a2eb73e52c422b2fc
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '476'
 ht-degree: 1%
 
 ---
@@ -64,7 +64,7 @@ Wenn eine Firma mit einem Projekt verknüpft ist und diese Option aktiviert ist,
 Wenn ein(e) Benutzende(r) die Finanzierungsdaten für das Projekt manuell neu berechnet, werden alle Änderungen an den Abrechnungssätzen auf Firmenebene angewendet. Historische Einnahmenberechnungen werden ebenfalls überschrieben, es sei denn, sie sind als „In Rechnung gestellt“ gekennzeichnet.
 
 1. Gehe zu einem Projekt.
-1. Klicken Sie auf das **Mehr**-Menü ![](assets/qs-more-icon-on-an-object.png) neben dem Namen des Projekts in der Kopfzeile und dann auf **Bearbeiten**.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Namen des Projekts in der Kopfzeile und dann auf **Bearbeiten**.
 1. Aktivieren **im Abschnitt** die Option **Zulassen, dass Abrechnungssätze auf Firmenebene Abrechnungssätze auf Projektebene überschreiben**.
 
    >[!CAUTION]
@@ -103,4 +103,4 @@ Nachdem Sie die Option zum Außerkraftsetzen der Abrechnungssätze auf Firmenebe
    * Einzelnes Projekt:
 
       1. Gehen Sie zu dem Projekt, für das Sie die Außerkraftsetzung der Abrechnungssätze auf Firmenebene aktiviert haben.
-      1. Klicken Sie auf das **Mehr**-Menü ![](assets/qs-more-icon-on-an-object.png) neben dem Projektnamen in der Kopfzeile und dann auf **Finanzen neu berechnen**.
+      1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/qs-more-icon-on-an-object.png) neben dem Projektnamen in der Kopfzeile und dann auf **Finanzen neu berechnen**.
