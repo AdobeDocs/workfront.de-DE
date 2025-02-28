@@ -7,9 +7,9 @@ description: Der Cost Schedule Performance Index (CSI) ist eine automatische Ber
 author: Lisa
 feature: Work Management
 exl-id: 38a8c5e0-b812-499d-8fe7-a71ddccb3aad
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '340'
+source-wordcount: '341'
 ht-degree: 0%
 
 ---
@@ -52,7 +52,7 @@ CSI hat die folgenden drei möglichen Werte:
 * \>1 = Kombination aus Unterbudgetplan
 * &lt;1 = Kombination aus überbudgetiertem Zeitplan
 
-![](assets/csi-highlighted.png)
+![CSI](assets/csi-highlighted.png)
 
 ## Suchen Sie den Kostenplan-Leistungsindex (CSI)
 
