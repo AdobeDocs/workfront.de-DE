@@ -6,9 +6,9 @@ description: Im Bereich [!UICONTROL Meine Updates] können Sie schnell die Geneh
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 809605a0-8c24-4873-b98f-504a158be022
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '787'
+source-wordcount: '823'
 ht-degree: 0%
 
 ---
@@ -76,13 +76,13 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 
 1. Klicken Sie **[!UICONTROL Hauptmenü]** auf **[!UICONTROL Meine Aktualisierungen]**.
 
-   ![](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
+   ![Meine Updates im Hauptmenü](assets/access-my-updates-from-main-menu-reviewer-user-nwe-350x294.png)
 
    Der Bereich [!UICONTROL Meine Updates] wird geöffnet.
 
    Die Genehmigungen und Zugriffsanfragen, die Ihnen zugewiesen wurden, werden in der ersten Hälfte der Seite unter &quot;**Updates“**.
 
-   ![](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
+   ![Meine Aktualisierungen Erwähnungen für Reviewer](assets/my-updates-mentions-for-reviwers-nwe-350x418.png)
 
 1. (Optional) Scrollen Sie zum unteren Rand des Bereichs [!UICONTROL **Meine Aktualisierungen**] und klicken Sie auf den nach rechts zeigenden Pfeil, um weitere Genehmigungen anzuzeigen, die auf zusätzlichen Seiten angezeigt werden.
 
@@ -90,9 +90,9 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
    >
    >Die ersten fünf Genehmigungen oder Zugriffsanfragen werden standardmäßig angezeigt. Die verbleibenden Genehmigungen werden auf zusätzlichen Seiten angezeigt. Sie können maximal 2.000 Genehmigungen im Bereich [!UICONTROL Meine Updates] anzeigen.
 
-   ![](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
+   ![Paginierung für „Meine Aktualisierungen“](assets/pagination-for-my-updates-page-highlighted-nwe-350x78.png)
 
-1. (Optional) Erweitern Sie das **[!UICONTROL Filter]** Dropdown-![](assets/filter-nwepng.png) in der oberen rechten Ecke des Abschnitts **[!UICONTROL Meine Aktualisierungen]** und wählen Sie aus den folgenden Optionen:
+1. (Optional) Erweitern Sie das **[!UICONTROL Filter]** Dropdown-Menü ![Filtersymbol](assets/filter-nwepng.png) in der oberen rechten Ecke des Abschnitts **[!UICONTROL Meine Aktualisierungen]** und wählen Sie aus den folgenden Optionen:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -117,13 +117,13 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 
 1. Gehen Sie wie folgt vor, um ein Element zu genehmigen oder abzulehnen oder Änderungen an einem Dokument vorzuschlagen:
 
-   1. (Optional) Klicken Sie auf das **Dropdown**-Symbol ![](assets/down-arrow-blue.png) neben Ihrer Genehmigungsentscheidung (**[!UICONTROL Genehmigen]**, **[!UICONTROL Änderungen]**,**[!UICONTROL Ablehnen]**) und fügen Sie einen Kommentar hinzu und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
+   1. (Optional) Klicken Sie auf das **Dropdown**-Symbol ![Dropdown-Symbol](assets/down-arrow-blue.png) neben Ihrer Genehmigungsentscheidung (**[!UICONTROL Genehmigen]**, **[!UICONTROL Änderungen]**,**[!UICONTROL Ablehnen]**) und fügen Sie einen Kommentar hinzu und klicken Sie dann auf **[!UICONTROL Hinzufügen]**.
 
       Oder
 
       Klicken Sie **[!UICONTROL Überspringen]**, wenn Sie keinen Kommentar eingeben möchten.
 
-      ![](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
+      ![Schaltflächen für Genehmigungsentscheidungen mit Kommentarfeld](assets/approval-decision-buttons-in-my-updates-with-comment-box-nwe-350x183.png)
 
       >[!NOTE]
       >
@@ -136,7 +136,7 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
       >Wenn Sie Ihrer Entscheidung keinen Kommentar hinzufügen möchten, können Sie auf die Schaltfläche **[!UICONTROL Genehmigen]**, **[!UICONTROL Ablehnen]** oder **[!UICONTROL Änderungen]** klicken und die Genehmigungsentscheidung wird sofort erteilt.
       >
       >
-      >![](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
+      >![Schaltflächen für Genehmigungsentscheidungen](assets/approval-decision-buttons-in-my-updates-nwe-350x169.png)
       >
       >Weitere Informationen zur Genehmigung von Arbeiten finden Sie unter [Arbeit genehmigen](../../../review-and-approve-work/manage-approvals/approving-work.md).
 
@@ -146,7 +146,7 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 
    Erweitern Sie das **[!UICONTROL Zugriff ändern]** Dropdown-Menü, um den Zugriff zu ändern, der vor der Gewährung angefordert wurde.
 
-   ![](assets/grant-access-button-in-my-updates-nwe-350x224.png)
+   ![Zugriffsschaltfläche ändern](assets/grant-access-button-in-my-updates-nwe-350x224.png)
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Ignorieren]**, um die Zugriffsanfrage aus Ihrer Genehmigungsliste zu löschen, ohne sie zu gewähren.
 1. Klicken Sie **[!UICONTROL Meine Genehmigungen delegieren]**, um die an Sie übermittelten Genehmigungen zu delegieren, wenn Sie für einige Zeit nicht mehr zur Verfügung stehen, um Genehmigungsentscheidungen zu treffen. Weitere Informationen zum Delegieren von Genehmigungen finden Sie unter [Delegieren von Genehmigungsanfragen](../../../review-and-approve-work/manage-approvals/delegate-approval-requests.md).
@@ -166,6 +166,6 @@ Bevor Sie beginnen, benötigen Sie Folgendes:
 
      Wenn Sie mit dem Hinzufügen der Antwort fertig sind, klicken Sie auf **[!UICONTROL Senden]**.
 
-     ![](assets/reply-in-the-my-updates-area.png)
+     ![Antworten im Bereich Meine Aktualisierungen](assets/reply-in-the-my-updates-area.png)
 
 1. (Optional) Klicken Sie auf **[!UICONTROL Aktuelle Seite anheften]**, um den Bereich [!UICONTROL Meine Aktualisierungen] an Ihre obere Navigation anzuheften.
