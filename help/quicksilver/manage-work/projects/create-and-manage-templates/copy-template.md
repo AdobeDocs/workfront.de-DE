@@ -6,10 +6,10 @@ description: Anstatt eine neue Projektvorlage von Grund auf neu zu erstellen, k�
 author: Alina
 feature: Work Management
 exl-id: b2e0878b-8245-4e01-819d-c3746f553d95
-source-git-commit: e416a23cab139bff6d0d59b3816fb192c8f92b0b
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '333'
-ht-degree: 3%
+source-wordcount: '335'
+ht-degree: 2%
 
 ---
 
@@ -69,7 +69,7 @@ Die folgenden Elemente werden niemals aus einem vorhandenen Projekt in ein neues
 ## Kopieren einer Vorlage
 
 1. Wechseln Sie zu der Vorlage, die Sie kopieren möchten.
-1. Klicken Sie auf die ![](assets/qs-more-icon-on-an-object.png) **Mehr** und dann auf **Kopieren**.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann auf **Kopieren**.
 1. Geben Sie einen Namen für die Vorlage im Feld **Neuer Vorlagenname** an.
 
    Standardmäßig lautet der neue Name **Kopie von `<original template name>`.**
