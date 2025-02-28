@@ -6,10 +6,10 @@ description: Sie können Aktualisierungen zu einem Arbeitselement im Bereich [!U
 author: Lisa
 feature: Get Started with Workfront, Work Management
 exl-id: db643781-4f52-4a8c-8c13-0bbc4c7056fd
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
 workflow-type: tm+mt
-source-wordcount: '846'
-ht-degree: 7%
+source-wordcount: '869'
+ht-degree: 6%
 
 ---
 
@@ -52,7 +52,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
   <tr> 
    <td role="rowheader"><strong>Objektberechtigungen</strong></td> 
-   <td> <p>Contribute-Berechtigungen oder höher für die Aufgaben und Probleme, an denen Sie arbeiten müssen</p> </td> 
+   <td> <p>Tragen Sie Berechtigungen oder höher zu den Aufgaben und Problemen bei, an denen Sie arbeiten müssen</p> </td> 
   </tr> 
  </tbody> 
 </table>
@@ -67,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 You can view updates on any work item in the [!UICONTROL Work List]:
 
-1. Click the **[!UICONTROL Main Menu]** ![](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
+1. Click the **[!UICONTROL Main Menu]** ![Main Menu icon](assets/main-menu-icon.png) in the upper-right corner, or the **Main Menu** ![Main Menu lines icon](assets/lines-main-menu.png) in the upper-left corner, if available, then click **[!UICONTROL Home]**.
 1. In the **[!UICONTROL Work List]** area, select the item where you want to view updates.\
    Updates are displayed in the right panel.
 
@@ -104,13 +104,13 @@ Sie können Arbeitselemente in den folgenden Widgets im Bereich Startseite bearb
 
 Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL  Arbeit“ ]:
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das ![](assets/lines-main-menu.png) **Hauptmenü** in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Startseite]**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Home]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget [!UICONTROL **Meine Arbeit**] hinzuzufügen.
 
 1. Suchen Sie das Arbeitselement, das Sie aktualisieren möchten, im Widget [!UICONTROL **Meine Arbeit**].
 1. Bewegen Sie den Mauszeiger über den Namen und klicken Sie dann auf das Symbol **Neue Aktualisierung hinzufügen**.
 
-   ![](assets/add-update-on-widget.png)
+   ![Update zum Widget hinzufügen](assets/add-update-on-widget.png)
 
 1. Beginnen Sie mit der Eingabe Ihres Kommentars.
 1. (Optional) Geben Sie in das Feld **Personen oder Teams taggen** den Namen oder die E-Mail-Adresse eines Benutzers oder eines Teams ein, das Sie in diesen Kommentar einbeziehen möchten, und wählen Sie es aus, wenn es in der Liste angezeigt wird.
@@ -132,7 +132,7 @@ Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL
 
 1. Klicken Sie **Antworten**.
 
-   ![](assets/reply-to-comment-in-mentions-widget.png)
+   ![Auf Kommentar antworten](assets/reply-to-comment-in-mentions-widget.png)
 
 1. Beginnen Sie mit der Eingabe Ihres Kommentars.
 1. (Optional) Beginnen Sie im Feld **Personen taggen** mit der Eingabe des Namens eines Benutzers oder Teams, das in diesen Kommentar aufgenommen werden soll, und wählen Sie ihn aus, wenn er/sie in der Liste angezeigt wird.
@@ -149,11 +149,11 @@ Sie können Aktualisierungen zu jedem Arbeitselement im Widget &quot;[!UICONTROL
 
 Sie können jedes Feld in jedem Arbeitselement bearbeiten, zu dessen Bearbeitung Sie Zugriff haben.
 
-1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das ![](assets/lines-main-menu.png) **Hauptmenü** in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Startseite]**.
+1. Klicken Sie auf **[!UICONTROL Hauptmenü]** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das Symbol **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, und klicken Sie dann auf **[!UICONTROL Home]**.
 1. (Bedingt) Klicken Sie auf **Anpassen**, um das Widget **Meine Arbeit** hinzuzufügen.
 
 1. Bewegen Sie den Mauszeiger über das Arbeitselement und klicken Sie dann auf das Symbol **Zusammenfassung**.
-   ![](assets/open-summary-new-home.png)
+   ![Zusammenfassung öffnen](assets/open-summary-new-home.png)
 
 1. Bewegen Sie im Bedienfeld Zusammenfassung den Mauszeiger über das Feld, das Sie bearbeiten möchten.
 Wenn Sie berechtigt sind, das Feld zu bearbeiten, wird das Feld hervorgehoben, wenn Sie den Mauszeiger darüber bewegen.
