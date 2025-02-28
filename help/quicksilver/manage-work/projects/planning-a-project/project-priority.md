@@ -7,9 +7,9 @@ description: Es gibt mehrere Möglichkeiten, Prioritäten für Projekte zu verwe
 author: Alina
 feature: Work Management
 exl-id: b1e0b6c5-f2a7-455b-836b-6c0ead85e3ad
-source-git-commit: b08edd8dd7c339dffdba4c9ff5aa0a365229e794
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '663'
 ht-degree: 1%
 
 ---
@@ -86,7 +86,7 @@ Im Folgenden finden Sie Prioritätstypen, mit denen Sie Projekte in Adobe Workfr
 
   Weitere Informationen finden Sie im Abschnitt [Überlegungen zur Projektpriorität](#considerations-about-project-priority) in diesem Artikel.
 
-* **Die Priorität eines Projekts im Portfolio Optimizer**, wenn das Projekt mit einem Portfolio verknüpft ist:
+* **Die Priorität eines Projekts in Portfolio Optimizer**, wenn das Projekt mit einem Portfolio verknüpft ist:
 
   Weitere Informationen zur Priorität eines Projekts in Portfolio Optimizer finden Sie im Artikel [Priorisieren von Projekten in Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md).
 
@@ -104,7 +104,7 @@ Beachten Sie bei der Auswahl einer Priorität für Ihre Projekte Folgendes:
 
   Weitere Informationen zum Erstellen von Prioritäten in Workfront finden Sie im Artikel [Erstellen und Anpassen von Prioritäten](../../../administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-customize-priorities.md).
 
-* Wenn Sie das Feld Priorität eines Projekts aktualisieren, wird diese Priorität nicht an den Portfolio-Optimizer oder den Ressourcenplaner übertragen. Das Feld Priorität des Projekts ist lediglich eine manuelle Markierung, die Sie auf das Projekt setzen, um anderen Benutzern seine Bedeutung zu verdeutlichen.
+* Wenn Sie das Feld Priorität eines Projekts aktualisieren, wird diese Priorität nicht an Portfolio Optimizer oder den Ressourcenplaner übertragen. Das Feld Priorität des Projekts ist lediglich eine manuelle Markierung, die Sie auf das Projekt setzen, um anderen Benutzern seine Bedeutung zu verdeutlichen.
 * Der Prioritätswert eines Projekts wird hauptsächlich zu Berichtszwecken verwendet.
 
   Sie können beispielsweise nach allen Projekten suchen, die den Prioritätswert „Dringend“ aufweisen, wenn Sie dieses Feld in einem Projektfilter verwenden.
@@ -119,7 +119,7 @@ Beachten Sie bei der Auswahl einer Priorität für Ihre Projekte Folgendes:
 
 1. Wechseln Sie zu dem Projekt, dessen Priorität Sie aktualisieren möchten.
 1. Klicken Sie **linken** auf „Projektdetails“.
-1. Klicken Sie auf **Bearbeiten**-Symbol ![](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails und dann auf **Übersicht**.
+1. Klicken Sie auf **Bearbeiten**-Symbol ![Bearbeiten](assets/qs-edit-icon.png) in der oberen rechten Ecke des Bereichs Projektdetails und dann auf **Übersicht**.
 
 1. Wählen **im Feld** eine der folgenden Optionen aus:
 
