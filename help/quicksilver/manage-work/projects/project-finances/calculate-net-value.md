@@ -7,9 +7,9 @@ description: Der Nettowert eines Projekts entspricht dem erwarteten Gesamtwert d
 author: Lisa
 feature: Work Management
 exl-id: 44e3f211-c816-4ee1-aafc-c40fc8732f1a
-source-git-commit: 6afa65f921864403c10541d283ef717dce81aed7
+source-git-commit: b983a780198743a2b87b4b48cf4d6afdf1cee437
 workflow-type: tm+mt
-source-wordcount: '397'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -48,15 +48,15 @@ Den Nettowert für ein Projekt finden Sie in den folgenden Bereichen in Workfron
 * Im Business Case-Zusammenfassungsbereich des Business Case \
   Weitere Informationen zum Bereich „Zusammenfassung eines Business-Case“ finden Sie im Abschnitt „Grundlagen zur Zusammenfassung eines Business-Case“ im Artikel [Erstellen eines Business-Case für ](../../../manage-work/projects/define-a-business-case/create-business-case.md) Projekt[Erstellen eines Business-Case für ein Projekt](../../../manage-work/projects/define-a-business-case/create-business-case.md).
 
-  ![](assets/net-value-on-business-case-summary-highlighted-350x444.png)
+  ![Nettowert im Business Case](assets/net-value-on-business-case-summary-highlighted-350x444.png)
 
-* Im Portfolio-Optimizer, wenn das Projekt mit einem Portfolio verknüpft ist
+* In Portfolio Optimizer, wenn das Projekt mit einem Portfolio verknüpft ist
 
   >[!TIP]
   >
   >Die Summe aller Projekt-Nettowerte ist der Nettowert des Portfolios.
 
-  Weitere Informationen zum Portfolio-Optimizer finden Sie unter Übersicht über den [Portfolio-Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
+  Weitere Informationen zu Portfolio Optimizer finden Sie unter [Übersicht über Portfolio Optimizer](../../../manage-work/portfolios/portfolio-optimizer/portfolio-optimizer-overview.md).
 
 * Im Feld Nettowert des Projekts der folgenden Listen und Berichte:
 
