@@ -6,9 +6,9 @@ description: Sie können Vorlagen als Framework verwenden, um Projekte in Adobe 
 author: Alina
 feature: Work Management
 exl-id: 622cbfe0-b8c0-4045-bef2-9e21d45bfda0
-source-git-commit: 7b0da61c301fe8f1f24aa27a469952fbd46987c5
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1180'
 ht-degree: 0%
 
 ---
@@ -65,14 +65,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader">Zugriffsebene</td> 
    <td> <p>Zugriff auf Projekte und Vorlagen bearbeiten</p>
 
-<p>Bearbeiten Sie den Zugriff auf Portfolios und Programme, wenn die verwendete Vorlage ein Portfolio und ein Programm enthält</p>
+<p>Bearbeiten Sie den Zugriff auf Portfolios und Programme, wenn die verwendete Vorlage einen Portfolio und ein Programm enthält</p>
 
 </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Anzeigen von Berechtigungen für eine Vorlage</p> 
-  <p>Wenn die verwendete Vorlage ein Portfolio und ein Programm enthält, müssen Sie über Verwaltungsberechtigungen für das Portfolio und das Programm verfügen, um das Projekt zu erstellen </p> 
+  <p>Wenn die verwendete Vorlage eine Portfolio und ein Programm enthält, müssen Sie über Verwaltungsberechtigungen für das Portfolio und das Programm verfügen, um das Projekt zu erstellen </p> 
    <p>Wenn Sie ein Projekt erstellen, erhalten Sie automatisch Verwaltungsberechtigungen für das Projekt.</p></td> 
   </tr> 
  </tbody> 
@@ -97,13 +97,13 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
 
      >[!TIP]
      >
-     >Wenn Sie ein Projekt mit einer Vorlage aus einem Portfolio erstellen, wird das Feld Portfolio des neuen Projekts aktualisiert und zeigt das Portfolio an, aus dem Sie das Projekt erstellen möchten. Dadurch wird das Portfolio-Feld in der Vorlage überschrieben, falls angegeben.
+     >Wenn Sie ein Projekt mit einer Vorlage aus einem Portfolio erstellen, wird das Portfolio-Feld des neuen Projekts aktualisiert und zeigt das Portfolio an, aus dem Sie das Projekt erstellen möchten. Dadurch wird das Portfolio-Feld in der Vorlage überschrieben, falls es angegeben ist.
 
    * Wechseln Sie zu einem Programm und erweitern Sie dann **Neues Projekt**.
 
      >[!TIP]
      >
-     >Wenn Sie ein Projekt mithilfe einer Vorlage aus einem Programm erstellen, wird das Feld Programm der neuen Projekte aktualisiert und zeigt das Programm an, aus dem Sie das Projekt erstellen möchten. Das Feld Portfolio der Vorlage wird aktualisiert und zeigt das Portfolio des Programms an, aus dem Sie das Projekt erstellen möchten. Dadurch werden die Programm- und Portfolio-Felder der Vorlage überschrieben, sofern sie angegeben sind.
+     >Wenn Sie ein Projekt mithilfe einer Vorlage aus einem Programm erstellen, wird das Feld Programm der neuen Projekte aktualisiert und zeigt das Programm an, aus dem Sie das Projekt erstellen möchten. Das Feld Portfolio der Vorlage wird aktualisiert und zeigt das Portfolio des Programms an, aus dem Sie das Projekt erstellen möchten. Dadurch werden die Programmfelder und Portfolio-Felder in der Vorlage überschrieben, falls sie angegeben sind.
 
    * Wenn Sie Gruppenadministrator sind, können Sie im Abschnitt Projekte einer Gruppe, die Sie verwalten, auch ein Projekt erstellen. Weitere Informationen finden Sie unter [Erstellen und Ändern der Projekte einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
@@ -137,7 +137,7 @@ Sie können ein Projekt über den Bereich Projekte im Hauptmenü oder über den 
       * Die Anzahl aller Aufgaben in der Vorlage
       * Die Namen der benutzerdefinierten Vorlagenformulare
 
-   1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Vorlage im linken Bereich und klicken Sie auf das ![](assets/favorites-icon-small.png) **Favoriten** **Symbol**, um sie für die zukünftige Verwendung als Favorit zu markieren.
+   1. (Optional) Bewegen Sie den Mauszeiger über den Namen einer Vorlage im linken Bereich und klicken Sie auf das Symbol **Favoriten** **Symbol** ![Favoriten](assets/favorites-icon-small.png), um sie für die zukünftige Verwendung als Favorit zu markieren.
 
       Oder
 
@@ -175,7 +175,7 @@ Anstatt im Bereich Projekte zu beginnen, können Sie ein Projekt aus einer Vorla
 {{step1-to-templates}}
 
 1. Klicken Sie auf den Namen einer Vorlage, die Sie verwenden möchten.
-1. Klicken Sie auf die ![](assets/more-icon.png) **Mehr** und dann auf **Projekt erstellen**.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/more-icon.png) und dann auf **Projekt erstellen**.
 
    ![Erstellen eines Projekts aus einer Vorlage](assets/project-sharing-on-template.png)
 
