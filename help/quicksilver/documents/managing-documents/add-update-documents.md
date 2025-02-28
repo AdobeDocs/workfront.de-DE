@@ -6,9 +6,9 @@ description: Sie können Aktualisierungen zu einem Dokument hinzufügen oder dar
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 8ecf8281-7fbd-446e-80e4-f9f0a864ad65
-source-git-commit: c644f283d56a4ef3f0e013d369e3161374673be5
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '378'
+source-wordcount: '381'
 ht-degree: 0%
 
 ---
@@ -60,7 +60,7 @@ Sie müssen über Folgendes verfügen:
 1. Gehen Sie zu dem Objekt, das das Dokument enthält, und wählen Sie **Dokumente** im linken Bereich aus.
 1. Suchen Sie das benötigte Dokument und führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf das Dokument in der Liste, auf das Symbol **Zusammenfassung öffnen** oben rechts ![](assets/qs-summary-in-new-toolbar-small.png) und fügen Sie dann einen neuen Kommentar hinzu, oder klicken Sie auf **Antworten**, um einer vorhandenen Anmerkung eine Antwort hinzuzufügen. Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../documents/managing-documents/summary-for-documents.md).
+   * Klicken Sie auf das Dokument in der Liste, auf das Symbol **Zusammenfassung öffnen** Symbol ![Zusammenfassung öffnen](assets/qs-summary-in-new-toolbar-small.png) in der oberen rechten Ecke und fügen Sie dann einen neuen Kommentar hinzu oder klicken Sie auf **Antworten**, um einer vorhandenen Anmerkung eine Antwort hinzuzufügen. Weitere Informationen zur Zusammenfassung finden Sie unter [Zusammenfassung für Dokumente - Übersicht](../../documents/managing-documents/summary-for-documents.md).
    * Bewegen Sie den Mauszeiger über das Dokument **klicken Sie** linken Bereich auf **Dokumentdetails** und dann auf „Aktualisierungen“.
 Weitere Informationen zum Hinzufügen von Aktualisierungen zu Objekten finden Sie unter [Arbeit aktualisieren](../../workfront-basics/updating-work-items-and-viewing-updates/update-work.md).
 
