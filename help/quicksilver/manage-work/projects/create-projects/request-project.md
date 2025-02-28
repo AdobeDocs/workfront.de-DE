@@ -6,9 +6,9 @@ description: Sie können die Genehmigung eines Projekts beantragen, bevor Sie mi
 author: Alina
 feature: Work Management
 exl-id: 6557a7a5-3d5e-476d-b834-007c9e120397
-source-git-commit: 49bd393af77a67aa1e3a443c4189569178e99ada
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '530'
 ht-degree: 2%
 
 ---
@@ -28,7 +28,7 @@ Durch das Ausfüllen des Business Case und das Einreichen des Projekts zur Geneh
 Sie können ein Projekt anfordern, wenn Sie ein neues Projekt in den folgenden Bereichen von Adobe Workfront hinzufügen:
 
 * Im Bereich Projekte
-* Im Bereich Projekte eines Portfolios
+* Im Bereich Projekte einer Portfolio
 * Im Projektbereich eines Programms
 * Wenn Sie Gruppenadministrator sind, wählen Sie im Bereich Gruppen für die Gruppe des Projekts den Bereich Gruppen aus.
 
@@ -70,14 +70,14 @@ Sie können ein Projekt anfordern, wenn Sie ein neues Projekt in den folgenden B
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Klicken Sie auf **Hauptmenü** ![](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das ![](assets/lines-main-menu.png) **Hauptmenü** in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Projekte** und erweitern Sie dann **Neues Projekt**.
+   * Klicken Sie auf **Hauptmenü** ![Hauptmenüsymbol](assets/main-menu-icon.png) in der oberen rechten Ecke oder auf das **Hauptmenü** ![Hauptmenüzeilen](assets/lines-main-menu.png) in der oberen linken Ecke, falls verfügbar, klicken Sie auf **Projekte** und erweitern Sie dann **Neues Projekt**.
    * Gehen Sie zu einem Portfolio und erweitern Sie dann **Neues Projekt**.
    * Wechseln Sie zu einem Programm und erweitern Sie dann **Neues Projekt**.
    * Wenn Sie Gruppenadministrator sind, können Sie im Abschnitt Projekte einer Gruppe, die Sie verwalten, auch ein Projekt erstellen. Weitere Informationen finden Sie unter [Erstellen und Ändern der Projekte einer Gruppe](../../../administration-and-setup/manage-groups/work-with-group-objects/create-and-modify-a-groups-projects.md).
 
 1. Klicken Sie **Projekt anfordern**.
 
-   ![](assets/new-project-dropdown-nwe-350x358.png)
+   ![Dropdown-Liste „Neues Projekt“](assets/new-project-dropdown-nwe-350x358.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -89,4 +89,4 @@ Sie können ein Projekt anfordern, wenn Sie ein neues Projekt in den folgenden B
 
      Informationen zum Erstellen eines Projekts finden Sie unter [Erstellen eines ](../../../manage-work/projects/create-projects/create-project.md) oder [Erstellen eines Projekts mithilfe einer Vorlage](../../../manage-work/projects/create-projects/create-project-from-template.md).
 
-   Das angeforderte Projekt hat den Status **angefordert** und wird auf der Registerkarte **Angeforderte Projekte** eines Portfolios angezeigt, wenn Sie es mit einem Portfolio verknüpft haben. Ein Portfolio-Manager kann sie jetzt überprüfen und entweder genehmigen oder ablehnen. In diesem Fall ändert sich der Status des Projekts in **Genehmigt** oder **Abgelehnt**.
+   Das angeforderte Projekt hat den Status **angefordert** und wird auf der Registerkarte **Angeforderte Projekte** einer Portfolio angezeigt, wenn Sie es mit einer Portfolio verknüpft haben. Ein Portfolio-Manager kann sie jetzt überprüfen und entweder genehmigen oder ablehnen. In diesem Fall ändert sich der Status des Projekts in **Genehmigt** oder **Abgelehnt**.
