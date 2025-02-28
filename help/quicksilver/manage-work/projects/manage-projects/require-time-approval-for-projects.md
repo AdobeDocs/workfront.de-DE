@@ -6,9 +6,9 @@ description: Genehmigung von Zeit für ein Projekt verlangen
 author: Alina
 feature: Work Management
 exl-id: e4a27640-9f5c-4a9f-82cc-3384694594af
-source-git-commit: bffa5992a530761afe57ec62b4cbba2bf03ad1e6
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '763'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
      <li>Sie sind der Projektbesitzer mit den oben angegebenen Zugriffsrechten und Berechtigungen. In diesem Fall können Sie Folgendes tun, wenn eine der folgenden Bedingungen vorliegt: 
       <ul>
        <li>Wenn Sie über Verwaltungsberechtigungen für das Projekt verfügen, können Sie Stunden genehmigen oder ablehnen, die von einem anderen Benutzer für das Projekt protokolliert wurden.</li>
-       <li> Wenn Sie Contribute- oder Ansichtszugriff auf das Projekt haben, können Sie nur die von Ihnen oder einer anderen Person, die Sie meldet, protokollierten Stunden genehmigen oder ablehnen.<br></li>
+       <li> Wenn Sie Zugriff auf „Beitragen“ oder „Anzeigen“ für das Projekt haben, können Sie nur die von Ihnen oder einem anderen Benutzer, der Sie meldet, protokollierten Stunden genehmigen oder ablehnen.<br></li>
       </ul></li> 
      <li>Sie verfügen über eine Planlizenz mit administrativem Zugriff auf Arbeitszeittabellen und Stunden. In diesem Fall:
       <ul>
@@ -80,7 +80,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 So fordern Sie die Genehmigung des Projektleiters für Stunden im Projekt an:
 
 1. Wechseln Sie zu dem Projekt, für das Sie eine Genehmigung für Stunden benötigen.
-1. Klicken Sie auf **Mehr**-Symbol ![](assets/more-icon.png) rechts neben dem Projektnamen und dann auf **Bearbeiten**.\
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png) rechts neben dem Projektnamen und klicken Sie dann auf **Bearbeiten**.\
    Das Dialogfeld Projekt bearbeiten wird angezeigt.
 
 1. Wählen Sie **Abschnitt** Projekteinstellungen“ **Zeit für die Genehmigung für dieses Projekt erforderlich** aus.
