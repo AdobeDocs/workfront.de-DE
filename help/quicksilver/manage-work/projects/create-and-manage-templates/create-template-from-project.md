@@ -7,9 +7,9 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 923deab4-205b-4312-9ec4-4471fd6cea26
-source-git-commit: 79822d258642675331e1998dd3552e3078db41f8
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '478'
+source-wordcount: '493'
 ht-degree: 1%
 
 ---
@@ -62,7 +62,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Vorlage aus Projekt erstellen
 
 1. Wechseln Sie zu dem Projekt, das Sie als Vorlage speichern möchten.
-1. Klicken Sie auf die ![](assets/qs-more-icon-on-an-object.png) **Mehr** und dann auf **Als Vorlage speichern**.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr-Symbol](assets/qs-more-icon-on-an-object.png) und dann **Als Vorlage speichern**.
 1. Geben Sie die folgenden Informationen für die Vorlage an:
 
    <table style="table-layout:auto"> 
@@ -94,17 +94,17 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf **Forms verwalten**, um die Formulare zu entfernen oder neu anzuordnen. Informationen zum Entfernen und Neuanordnen benutzerdefinierter Formulare aus der Vorlage finden Sie unter [Benutzerdefinierte Formulare](../../../administration-and-setup/customize-workfront/create-manage-custom-forms/create-and-manage-custom-forms.md).
 
-   ![](assets/save-as-template-first-step-350x159.png)
+   ![Als Vorlage speichern erster Schritt](assets/save-as-template-first-step-350x159.png)
 
 1. Klicken Sie auf **Nächster Schritt.**
 1. Aktivieren **im Abschnitt Optionen** Kontrollkästchen neben den Informationen, die Sie aus der Vorlage entfernen möchten.
 
-   ![](assets/save-as-template-options-step-350x109.png)
+   ![Als Vorlagenoptionen speichern](assets/save-as-template-options-step-350x109.png)
 
 1. Klicken Sie auf **Nächster Schritt.**
 1. Wählen Sie im **Ausschließen** alle Aufgaben aus, die Sie aus dem Projekt ausschließen möchten.
 
-   ![](assets/save-as-template-exclude-350x205.png)
+   ![Als Vorlage speichern ausschließen](assets/save-as-template-exclude-350x205.png)
 
 1. Klicken Sie auf **Beenden und Vorlage speichern.**
 
