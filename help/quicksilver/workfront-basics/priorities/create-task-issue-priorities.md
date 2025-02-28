@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 240cda0f-0acf-4b5c-872d-b7f5cee0b769
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '263'
+source-wordcount: '268'
 ht-degree: 4%
 
 ---
@@ -68,8 +68,8 @@ Erstellen einer Aufgabe oder eines Problems in einem Projekt:
 {{step1-to-priorities}}
 
 1. Klicken **oben** auf „Neu erstellen“.
-   ![](assets/create-new.png)
-Neuer Bildschirm für ![](assets/create-new--.png)
+   ![Neu erstellen](assets/create-new.png)
+Neuer Bildschirm für Produktion ![Neu erstellen (Produktion)](assets/create-new--.png)
 1. Geben Sie die folgenden Informationen an:
 
    | Feld | Anleitung |
