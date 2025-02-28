@@ -9,9 +9,9 @@ hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
 exl-id: 74e0a85b-a8aa-4e39-9c2e-0f09957ebafa
-source-git-commit: 04259d63523050d5bd43e5e776c21237e5a5cfe4
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '1325'
+source-wordcount: '1357'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Sie müssen über Folgendes verfügen:
 
 1. Klicken Sie im Abschnitt Benutzer auf **Entwickler** > **Entwickler hinzufügen**.
 
-   ![](assets/manage-users-admin-console.png)
+   ![Verwalten von Entwicklern in Admin Console](assets/manage-users-admin-console.png)
 
    >[!NOTE]
    >
@@ -51,7 +51,7 @@ Sie müssen über Folgendes verfügen:
 
 1. Fügen Sie die erforderlichen Produkte zum Entwicklerprofil hinzu und klicken Sie auf **Speichern**.
 
-![](assets/add-developer.png)
+![Entwickler hinzufügen](assets/add-developer.png)
 
 ## Zugriff auf AppBuilder erhalten
 
@@ -72,7 +72,7 @@ Wenn AppBuilder ordnungsgemäß konfiguriert ist, sollte beim Erstellen eines ne
    >
    >Wenn diese Option nicht angezeigt wird, sind Sie in der Admin Console falsch konfiguriert und haben keinen Zugriff auf den App Builder-Katalog. Diese Option wird nur angezeigt, wenn Sie Zugriff auf AppBuilder haben.
 
-   ![](assets/create-from-template.png)
+   ![Erstellen eines Projekts aus einer Vorlage](assets/create-from-template.png)
 
 1. **App Builder**.
 
@@ -89,7 +89,7 @@ Wenn AppBuilder ordnungsgemäß konfiguriert ist, sollte beim Erstellen eines ne
 
 ## Adobe IO (AIO) CLI
 
-Adobe bietet eine Open-Source-CLI, die zum Erstellen der App Builder-Programme verwendet werden kann. Die Dokumentation finden Sie hier: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) sowie Adobe App Builder Instructions [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
+Adobe bietet eine Open-Source-CLI, die zum Erstellen der App Builder-Programme verwendet werden kann. Die Dokumentation finden Sie hier: [https://github.com/adobe/aio-cli](https://github.com/adobe/aio-cli) sowie Adobe App Builder-Anweisungen [https://developer.adobe.com/app-builder/docs/getting_started/first_app/](https://developer.adobe.com/app-builder/docs/getting_started/first_app/).
 
 1. Installation
    1. Um das Tool zu installieren (stellen Sie sicher, dass Sie sich zuerst auf dem Knoten 18 befinden), führen Sie `npm install -g @adobe/aio-cli ` aus.
@@ -102,20 +102,20 @@ Adobe bietet eine Open-Source-CLI, die zum Erstellen der App Builder-Programme v
 
 1. Konfigurationsauswahl
    1. Wählen Sie anschließend Organisation und Projekt aus den bereitgestellten Optionen aus.\
-      ![](assets/select-org.png)
-      ![](assets/select-project.png)
+      ![Organisation auswählen](assets/select-org.png)
+      ![Projekt auswählen](assets/select-project.png)
 
 1. Vorlagenauswahl und Einrichtung
    1. Durchsuchen Sie alle verfügbaren Vorlagen und wählen Sie die Vorlage **@adobe/aem-cf-editor-ui-ext-tpl** für Ihr Projekt aus.
-      ![](assets/search-template.png)
-      ![](assets/select-template.png)
+      ![Suchvorlage](assets/search-template.png)
+      ![Vorlage auswählen](assets/select-template.png)
 
 1. Definieren der Erweiterung
    1. Benennen Sie Ihre Erweiterung.
    1. Geben Sie eine beschreibende Zusammenfassung der Funktionalität Ihrer Erweiterung an.
    1. Wählen Sie eine anfängliche Versionsnummer aus, mit der Sie beginnen möchten.
    1. Bestätigen Sie den Abschluss, indem **Ich bin fertig** auswählen.
-      ![](assets/define-extension.png)
+      ![Erweiterung definieren](assets/define-extension.png)
 
 1. Navigieren Sie zu Ihrem Projektordner
    1. Zugriff auf den src-Ordner
@@ -308,7 +308,7 @@ Adobe bietet eine Open-Source-CLI, die zum Erstellen der App Builder-Programme v
           export default Review;
       ```
 
-## Publish-Programme
+## Programme veröffentlichen
 
 >[!IMPORTANT]
 >
@@ -326,12 +326,12 @@ Damit ein Gastantrag in Workfront geladen werden kann, muss der Antrag an den Pr
 1. Suchen Sie das Projekt, das Sie zum Erstellen des AppBuilder-Programms verwendet haben.
 
 1. Wählen Sie die Produktions-Workspace aus.
-   ![](assets/find-application.png)
+   ![Produktions-Arbeitsbereich auswählen](assets/find-application.png)
 
 1. Senden Sie den Antrag zur privaten Überprüfung (Sie erhalten Warnungen, dass wir nicht auf dem App Exchange-Marktplatz veröffentlichen, was in Ordnung ist).
 
 1. Füllen Sie das Formular aus (Titel, Beschreibung, Symbol und Hinweis für den Prüfer).
-   ![](assets/submission-details.png)
+   ![Formular zur privaten Überprüfung ausfüllen](assets/submission-details.png)
 
 >[!IMPORTANT]
 >
@@ -341,14 +341,14 @@ Damit ein Gastantrag in Workfront geladen werden kann, muss der Antrag an den Pr
 
 1. Navigieren Sie als Systemadministrator zu [https://stage.exchange.adobe.com/](https://stage.exchange.adobe.com/) oder [https://exchange.adobe.com/](https://exchange.adobe.com/).
 
-1. Klicken Sie **Verwalten** > **Experience Cloud-Anwendungen**. Die eingereichten Apps sollten mit Optionen zum Genehmigen/Ablehnen angezeigt werden.
+1. Klicken Sie **Verwalten** > **Experience Cloud Applications**. Die eingereichten Apps sollten mit Optionen zum Genehmigen/Ablehnen angezeigt werden.
 Nach der Genehmigung sollten die veröffentlichten Anwendungserweiterungen automatisch in Ihrer Workfront-Umgebung geladen werden.
 
-   ![](assets/approve-submission.png)
+   ![Genehmigte Übermittlung](assets/approve-submission.png)
 
 ## Zusätzliche Hilfe
 
-Adobe verfügt über eine großartige Dokumentation, wie Sie mit der Erstellung von Apps für AppBuilder beginnen und diese bereitstellen können.
+Adobe bietet eine hervorragende Dokumentation zu den ersten Schritten beim Erstellen von Apps für AppBuilder und deren Bereitstellung.
 
 Im Folgenden finden Sie einige hilfreiche Links:
 
@@ -362,7 +362,7 @@ Im Folgenden finden Sie einige hilfreiche Links:
 
 Beim Entwickeln Ihres App Builder-Programms für Workfront müssen Sie Ihr Programm möglicherweise in Workfront testen, ohne es zu veröffentlichen. Glücklicherweise haben wir dafür eine Lösung.
 
-Innerhalb Ihrer App Builder-App können Sie `aio app run` für die lokale Entwicklung initiieren. Dadurch erhalten Sie eine URL, normalerweise `https://localhost:9080`. Alternativ können Sie `aio app deploy` ausführen, um eine statische Adobe-Domain zu erhalten. Notieren Sie sich diese URLs für die zukünftige Verwendung.
+Innerhalb Ihrer App Builder-App können Sie `aio app run` für die lokale Entwicklung initiieren. Dadurch erhalten Sie eine URL, normalerweise `https://localhost:9080`. Alternativ können Sie `aio app deploy` ausführen, um eine statische Adobe-Domain abzurufen. Notieren Sie sich diese URLs für die zukünftige Verwendung.
 
 Navigieren Sie dann in Ihrem Browser zur Dokumentdetailseite, für die Sie eine Entwicklung durchführen möchten. Öffnen Sie die Entwickler-Tools und greifen Sie auf den lokalen Speicher für workfront.com oder workfront.adobe.com zu. Hier müssen Sie einen Eintrag hinzufügen. Verwenden Sie `appBuilderDocDetailsOverride` als Schlüssel und die zuvor erwähnte App Builder-URL als Wert.
 
