@@ -6,9 +6,9 @@ description: Sie können die Rollenzuweisung für alle Aufgabengebiete anzeigen,
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: 67deb48ebc90dd4a93c2af1cb89442ee2486cb16
+source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
 workflow-type: tm+mt
-source-wordcount: '468'
+source-wordcount: '471'
 ht-degree: 1%
 
 ---
@@ -100,7 +100,7 @@ Sie müssen über Folgendes verfügen:
 
 ## Geplante Projektstunden im Bedienfeld „Rollenzuweisung“ anzeigen
 
-1. Klicken Sie auf **Hauptmenü** Symbol ![](assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront und dann auf **Projekte**.
+1. Klicken Sie auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) in der rechten oberen Ecke von Adobe Workfront und dann auf **Projekte**.
 1. Klicken Sie auf den Namen eines Projekts, um darauf zuzugreifen. Dadurch wird die Projektseite geöffnet.
 1. Klicken Sie im linken Bedienfeld auf eine der folgenden Optionen:
 
