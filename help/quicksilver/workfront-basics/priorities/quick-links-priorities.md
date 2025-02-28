@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 2d76077d-2913-40b8-9596-4e201d12ec1a
-source-git-commit: 20cb2237a534b51ab5c75e393369bdd92c233efb
+source-git-commit: fbcdc88701b8b501b68d29e76b0148ddf07e5b52
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '305'
 ht-degree: 0%
 
 ---
@@ -65,7 +65,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie **Abschnitt &quot;**&quot; auf **Link hinzufügen**.
 1. Fügen Sie die URL in das Feld **Link hinzufügen** ein.
 1. Klicken Sie auf **Speichern**.
-   ![](assets/add-link.png)
+   ![Link hinzufügen](assets/add-link.png)
 
 ## Kopieren eines Schnelllinks in die Zwischenablage
 
@@ -73,8 +73,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
 1. Suchen Sie **Abschnitt &quot;**&quot; den Link, den Sie kopieren möchten.
-1. Klicken Sie auf das Symbol Kopieren ![](assets/copy-icon.png).
-   ![](assets/copy-link.png)
+1. Klicken Sie auf das Kopiersymbol ![Kopiersymbol](assets/copy-icon.png).
+   ![Link kopieren](assets/copy-link.png)
 
 ## Schnelllink öffnen
 
@@ -83,7 +83,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
 1. Suchen Sie **Abschnitt** Schnelllinks“ den Link, den Sie öffnen möchten.
 1. Klicken Sie auf den Link. Der Link wird in einer neuen Registerkarte geöffnet.
-   ![](assets/open-link.png)
+   ![Link öffnen](assets/open-link.png)
 
 ## Schnellverknüpfungen löschen
 
@@ -91,5 +91,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. Klicken Sie auf den Namen eines Arbeitselements, um die Seite Überblick zu öffnen.
 1. Klicken **oben rechts** Bildschirm auf „Details bearbeiten“.
-   ![](assets/edit-details.png)
-1. Suchen Sie den Link, den Sie entfernen möchten, und klicken Sie dann auf das Symbol Löschen ![](assets/delete-icon.png).
+   ![Details bearbeiten](assets/edit-details.png)
+1. Suchen Sie den Link, den Sie entfernen möchten, und klicken Sie dann auf das Löschsymbol ![Löschsymbol](assets/delete-icon.png).
