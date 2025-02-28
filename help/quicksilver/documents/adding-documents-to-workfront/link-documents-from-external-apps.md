@@ -6,9 +6,9 @@ description: Sie können Dokumente und Ordner aus externen Quellen mit Adobe Wor
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: 97823f70-6544-445a-9a81-abe1e2f3de55
-source-git-commit: fde2ad9a8ef1b7f659f8f52c157726d0562b972a
+source-git-commit: 85a2f154b3b561cdf53c68d50e66b8945f9f9823
 workflow-type: tm+mt
-source-wordcount: '2608'
+source-wordcount: '2620'
 ht-degree: 0%
 
 ---
@@ -114,12 +114,12 @@ Sie können Dokumente von einer externen Anwendung wie Google und Microsoft OneD
 
 >[!IMPORTANT]
 >
->Dropbox speichert Dokumente anhand des Dateipfads. Wenn eine von Dropbox verknüpfte Datei verschoben, umbenannt oder gelöscht wird, ist der Zugriff in Workfront daher nicht mehr möglich.
+>Dropbox speichert Dokumente basierend auf dem Dateipfad. Wenn eine über Dropbox verknüpfte Datei verschoben, umbenannt oder gelöscht wird, ist der Zugriff in Workfront daher nicht mehr möglich.
 
 1. Wechseln Sie zum **Dokumente** in Workfront, in dem Sie das Dokument benötigen.
 1. Klicken Sie **Neu hinzufügen** und dann auf den externen Dokumentanbieter, in dem Sie Dokumente mit Workfront verknüpfen möchten.
 
-   Um beispielsweise Dokumente von Dropbox aus zu verknüpfen, klicken Sie auf **Von Dropbox**.
+   Um beispielsweise Dokumente aus Dropbox zu verknüpfen, klicken Sie auf **Aus Dropbox**.
 
    Externe Anbieter, die Sie bereits autorisiert haben, werden oben in der Liste angezeigt.
 
@@ -163,7 +163,7 @@ Sie können eine neue Version eines Dokuments hinzufügen, das über eine extern
 
 1. Klicken Sie **Neu hinzufügen** > **Version** und klicken Sie dann auf den externen Dokumentanbieter.
 
-   Um beispielsweise eine neue Dokumentversion von Dropbox aus zu verknüpfen, klicken Sie auf **Von Dropbox**.
+   Um beispielsweise eine neue Version eines Dokuments aus Dropbox zu verknüpfen, klicken Sie auf **Aus Dropbox**.
 
    Externe Anbieter, die Sie bereits autorisiert haben, werden oben in der Liste angezeigt.
 
@@ -248,7 +248,7 @@ Benutzende ohne Workfront-Zugriff können das Dokument in der externen Anwendung
 1. Wählen Sie ein Dokument aus, das in Workfront hochgeladen wird.
 1. Klicken Sie auf **Mehr** > **Senden an** und wählen Sie dann den Cloud-Anbieter aus, bei dem Sie das verknüpfte Dokument speichern möchten.
 
-   Sie können dazu auch den ![](assets/more-icon.png) Mehr auf der Seite Dokumentdetails verwenden.
+   Sie können dazu auch das Menü Mehr ![Mehr](assets/more-icon.png) auf der Seite Dokumentdetails verwenden.
 
 1. Wählen Sie den Ordner im Programm des Anbieters aus, in dem Sie das Dokument speichern möchten.
 
@@ -278,7 +278,7 @@ Beim Synchronisieren von Ordnerinhalten aus einer externen Dokumentanwendung ver
 
 ### Externe Ordner verknüpfen {#link-one-or-more-external-folders}
 
-1. Wechseln Sie zu dem Bereich in Workfront, in dem Sie den Ordner haben möchten, und klicken Sie dann **linken Bedienfeld auf** Dokumente ![](assets/document-icon.png) .
+1. Wechseln Sie zu dem Bereich in Workfront, in dem Sie den Ordner haben möchten, und klicken Sie **Dokumente** ![Dokumentensymbol](assets/document-icon.png) im linken Bedienfeld .
 
 1. Klicken Sie **Neu hinzufügen** und anschließend auf den externen Dokumentanbieter, von dem aus Sie einen Ordner mit Workfront verknüpfen möchten.
 1. (Bedingt) Wenn Sie den externen Service noch nicht autorisiert haben, geben Sie Ihre Anmeldedaten für den externen Anbieter an und klicken Sie dann auf **Anmelden**.
@@ -301,9 +301,9 @@ Beim Synchronisieren von Ordnerinhalten aus einer externen Dokumentanwendung ver
 
    In Workfront wird das Logo des Cloud-Anbieters neben dem Ordner angezeigt, was darauf hinweist, dass es mit dem externen Cloud-Anbieter verknüpft ist.
 
-1. (Optional) Um den Ordner so umzubenennen, dass sich der Ordnername in Workfront von dem Ordnernamen in der externen Dokumentanwendung unterscheidet, wählen Sie den Ordner im Abschnitt **Ordner** aus, klicken Sie auf das ![](assets/more-icon.png) Mehr neben dem Ordnernamen und dann auf **Umbenennen**.
+1. (Optional) Um den Ordner so umzubenennen, dass sich der Ordnername in Workfront vom Ordnernamen in der externen Dokumentanwendung unterscheidet, wählen Sie den Ordner im Abschnitt **Ordner** aus, klicken Sie auf das Menü Mehr ![Mehr](assets/more-icon.png), das neben dem Ordnernamen angezeigt wird, und klicken Sie dann auf **Umbenennen**.
 
-   ![](assets/documents-folderlink-rename-nwe-350x154.png)
+   ![Ordner umbenannt](assets/documents-folderlink-rename-nwe-350x154.png)
 
 Dadurch wird der Ordner in der externen Anwendung nicht umbenannt.
 
@@ -317,7 +317,7 @@ Sie können einen neuen Ordner innerhalb eines vorhandenen verknüpften Ordners 
 
    Um einen vorhandenen Ordner in einen vorhandenen verknüpften Ordner zu ziehen, gehen Sie zum Bereich Dokumente , in dem Sie den Unterordner haben möchten, und ziehen Sie ihn dann in den verknüpften Ordner.
 
-   ![](assets/documents-link-folder-move-nwe-350x113.png)
+   ![In verknüpften Ordner ziehen](assets/documents-link-folder-move-nwe-350x113.png)
 
    >[!NOTE]
    >
@@ -363,4 +363,4 @@ Wenn der Name in Workfront und in der externen Anwendung übereinstimmen soll, m
 
 >[!IMPORTANT]
 >
->Benennen Sie ein mit Dropbox verknüpftes Dokument in Workfront nicht um. Dadurch ist der Zugriff auf die Datei in Workfront nicht mehr möglich. Benennen Sie stattdessen die Datei in Dropbox um und synchronisieren Sie dann die Datei erneut.
+>Benennen Sie ein mit Dropbox verknüpftes Dokument in Workfront nicht um. Dadurch wird die Datei in Workfront unzugänglich. Benennen Sie stattdessen die Datei in Dropbox um und synchronisieren Sie dann die Datei erneut.
