@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 8b99f939-12fe-4470-9dc8-f8a92c6db334
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: 3f2cc191c316d107f16a12160cb126203b05387c
 workflow-type: tm+mt
-source-wordcount: '2238'
+source-wordcount: '2251'
 ht-degree: 0%
 
 ---
@@ -96,7 +96,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Umsatztyp]</td> 
-    <td> <p>Berechnet den geplanten und tatsächlichen Umsatz einer Aufgabe. Wenn der <strong>[!UICONTROL Revenue Type]</strong> auf <strong>[!UICONTROL Not Billable]</strong> festgelegt ist, erzeugen die geplanten Stunden und die tatsächlich aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe, und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p> </td> 
+    <td> <p>Berechnet den geplanten und tatsächlichen Umsatz einer Aufgabe. Wenn der <strong>[!UICONTROL Revenue Type]</strong> auf <strong>[!UICONTROL Not Billable]</strong> festgelegt ist, erzeugen die geplanten Stunden und die tatsächlich aufgezeichneten Stunden keine Umsatzschätzung für die Aufgabe, und die Arbeit an der Aufgabe trägt nicht zum Umsatz auf Projektebene bei.</p>
+         <p>Informationen zu den verschiedenen Umsatztypen finden Sie unter <a href="/help/quicksilver/manage-work/projects/project-finances/billing-and-revenue-overview.md">Übersicht über Abrechnung und Umsatz</a>.</p></td> 
     </tr> 
     <tr> 
     <td role="rowheader">[!UICONTROL Kostentyp]</td> 
