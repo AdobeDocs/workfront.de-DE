@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 116b9823818ac6103641c2e6ce283dfb47282851
+source-git-commit: 2d38448bf7da12b8f896d444d560f746e0e9798f
 workflow-type: tm+mt
-source-wordcount: '1473'
+source-wordcount: '1526'
 ht-degree: 0%
 
 ---
@@ -24,6 +24,14 @@ Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produk
 
 ## Administration und Einrichtung
 
+### Aktualisierung der Benutzeroberfläche für das Ankündigungscenter
+
+**Vorschau-Version: 27. Februar 2025; wird noch bekannt gegeben**
+
+Wir haben das Announcement Center mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Um diese Änderung anzuzeigen, klicken Sie oben rechts auf das Symbol Benachrichtigungen und wählen Sie Alle Ankündigungen aus.
+
 ### Aktualisierung der Benutzeroberfläche zum Anpassen von Ereignisbenachrichtigungs-Betreffen
 
 **Vorschau-Version: 13. Februar 2025; ab der Woche vom 13. Februar 2025**
@@ -34,7 +42,7 @@ Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > E-Mail > Benachrichtig
 
 ### Aktualisierung der Benutzeroberfläche für den Bereich Teams
 
-**Vorschau-Version: 13. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 13. Februar 2025; Produktionsversion: Beginn der Woche vom 20. Februar 2025**
 
 Wir haben den Bereich Teams um ein moderneres Design erweitert, das mit anderen Bereichen von Workfront konsistent ist.
 
@@ -136,7 +144,7 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 ### Seite Übersicht über die Aktualisierung der Benutzeroberfläche für Iterationen
 
-**Vorschau-Version: 13. Februar 2025; Produktionsversion: wird noch bekannt gegeben**
+**Vorschau-Version: 13. Februar 2025; Produktionsversion: Beginn der Woche vom 20. Februar 2025**
 
 Wir haben die Seite Iterationen - Übersicht mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
 
