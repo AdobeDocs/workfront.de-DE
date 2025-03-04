@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '1394'
-ht-degree: 1%
+source-wordcount: '996'
+ht-degree: 2%
 
 ---
 
@@ -67,7 +67,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -98,7 +98,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-
 ## Überlegungen zum Erstellen von Datensatztypen
 
 * Datensatztypen können auf folgende Weise in einem Arbeitsbereich erstellt werden:
@@ -108,11 +107,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
         Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
-      * Wenn Sie sie mithilfe einer Excel- oder CSV-Datei importieren.
+      * Wenn Sie sie mithilfe einer CSV- oder Excel-Datei importieren.
 
      >[!TIP]
      >
-     >Wenn Sie einen Datensatztyp aus einer Excel- oder CSV-Datei importieren, können Sie auch Datensätze und Felder importieren.
+     >Wenn Sie einen Datensatztyp aus einer CSV- oder Excel-Datei importieren, können Sie auch Datensätze und Felder importieren.
 
    * Manuell:
 
@@ -152,7 +151,7 @@ Informationen darüber, welche Datensatztypen in den einzelnen Vorlagen enthalte
    Das Feld Datensatztyp hinzufügen wird geöffnet.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
-   ![](assets/add-record-type-box-with-appearance-options.png)
+   ![Feld für Datensatztyp mit Darstellungsoptionen hinzufügen](assets/add-record-type-box-with-appearance-options.png)
 
 1. Aktualisieren Sie die folgenden Informationen:
 
@@ -167,12 +166,12 @@ Informationen darüber, welche Datensatztypen in den einzelnen Vorlagen enthalte
    Die Karte Datensatztyp wird dem ausgewählten Abschnitt und Arbeitsbereich hinzugefügt.
 Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
-   ![](assets/record-type-card-with-description.png)
+   ![Karte vom Typ „Datensatz“ mit Beschreibung](assets/record-type-card-with-description.png)
 
-1. (Optional) Zeigen Sie mit der Maus auf die Karte für den Datensatztyp und klicken Sie auf das Symbol **Mehr** oben rechts ![](assets/more-menu.png) und dann auf **Bearbeiten**, um Informationen zum Datensatztyp zu ändern.
+1. (Optional) Zeigen Sie mit der Maus auf die Karte für den Datensatztyp und klicken Sie oben rechts auf **Mehr**-Symbol ![Mehr](assets/more-menu.png) und dann auf **Bearbeiten**, um Informationen zum Datensatztyp zu ändern.
 1. (Optional) Klicken Sie auf die Karte „Datensatztyp“, um die Seite „Datensatztyp“ zu öffnen.
 
-   ![](assets/operational-record-type-blank.png)
+   ![Operativer Datensatztyp leer](assets/operational-record-type-blank.png)
 
    Die Seite „Datensatztyp“ wird standardmäßig in der Tabellenansicht angezeigt. Die Spalten der Tabelle sind Felder, die mit dem neuen Datensatztyp verknüpft sind. Jede Zeile ist ein eindeutiger Datensatz, den Sie hinzufügen müssen.
 
@@ -188,7 +187,7 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
 
    Oder
 
-   Klicken Sie auf das **Mehr**-Symbol ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten**, um ihn umzubenennen oder die zugehörigen Informationen zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
+   Klicken Sie auf das **Mehr**-Symbol ![Mehr ](assets/more-menu.png) rechts neben dem Namen des Datensatztyps und klicken Sie auf **Bearbeiten**, um ihn umzubenennen oder die zugehörigen Informationen zu ändern. Weitere Informationen finden Sie unter [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
 1. (Optional) Klicken Sie auf **+ Neuer**, um Datensätze des ausgewählten Datensatztyps hinzuzufügen. Weitere Informationen finden Sie unter [Einträge erstellen](/help/quicksilver/planning/records/create-records.md).
 1. (Optional) Klicken Sie auf das Symbol **+** in der oberen rechten Ecke der Tabelle, um dem Datensatztyp weitere Felder hinzuzufügen.
@@ -208,71 +207,14 @@ Die Beschreibung des Datensatztyps wird auf der Karte angezeigt.
    * [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md)
    * [Datensatzansichten verwalten](/help/quicksilver/planning/views/manage-record-views.md)
 
-## Erstellen von Datensatztypen durch Importieren einer Excel- oder CSV-Datei
+## Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 
-Beachten Sie beim Importieren von Datensatztypen mit einer Excel- oder CSV-Datei Folgendes:
+Beim Importieren von Informationen aus einer CSV- oder Excel-Datei können Sie Folgendes importieren:
 
-* Jedes Blatt der Excel-Datei wird zu einem Datensatztyp. Der Name des Blatts wird zum Namen des Datensatztyps.
-* Wenn nur ein Blatt vorhanden ist oder Sie eine CSV-Datei importieren, wird der Name der Datei zum Namen des Datensatztyps.
-* Die Spaltenüberschriften der einzelnen Tabellen werden zu den Feldern, die mit jedem Datensatztyp verknüpft sind.
-* Felder sind für die jeweiligen Datensatztypen eindeutig.
-* Jede Zeile in jedem Blatt wird zu einem eindeutigen Datensatz, der mit seinem jeweiligen Datensatztyp verknüpft ist.
-* Jedes Blatt der Excel-Datei sollte Folgendes nicht überschreiten:
-   * 10.000 Zeilen
-   * 500 Spalten
-* Die Excel-Datei sollte nicht größer als 5 MB sein.
-* Leere Blätter werden nicht unterstützt.
+* Datensatztypen
+* Einträge
+* Datensatzfelder
 
-So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
+Weitere Informationen finden Sie unter [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md).
 
-{{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensatztypen erstellen möchten,
-
-   Oder
-
-   Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichsnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
-1. Klicken Sie **Datensatztyp hinzufügen**.
-1. Klicken Sie auf **Aus Datei**.
-1. Ziehen Sie eine zuvor auf Ihrem Computer gespeicherte Excel- oder CSV-Datei per Drag-and-Drop oder klicken Sie **CSV- oder Excel-Datei auswählen** um eine Datei zu suchen.
-1. Klicken Sie auf **Vorschau und Bearbeitung**.
-
-   Das **„Vorschau und**&quot; wird mit den folgenden Informationen angezeigt:
-
-   * Die Namen der Tabellen oder der zukünftigen Datensatztypen werden im linken Bereich angezeigt. Workfront Planning wählt standardmäßig ein Symbol und eine Farbe für jeden neuen Datensatztyp aus.
-   * Das erste Blatt oder der erste Datensatztyp wird ausgewählt, und die Namen der mit ihm verknüpften Felder werden als Spaltenüberschriften angezeigt. Der Typ jedes Felds ist standardmäßig ausgewählt.
-   * Jede Zeile stellt einen neuen Datensatz dar. Nur die ersten 10 Datensätze werden im Vorschau- und Bearbeitungsfeld angezeigt.
-
-   ![](assets/preview-and-edit-box.png)
-
-1. (Optional) Klicken Sie auf den Namen der einzelnen Blätter im linken Bereich, um die darin enthaltenen Informationen zu überprüfen.
-
-   >[!NOTE]
-   >
-   >Leere Blätter werden nicht unterstützt und sind abgeblendet.
-
-1. (Optional) Deaktivieren Sie im linken Bereich die Auswahl der Blätter, die Sie nicht importieren möchten.
-
-   ![](assets/select-sheets-to-import-drop-down-with-unselected.png)
-
-   Blättert, wenn Sie die Auswahl aufgehoben haben, wird die Anzeige mit grauem Hintergrund angezeigt.
-
-1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil rechts neben der Spaltenüberschrift, um eine der folgenden Aktionen durchzuführen:
-
-   * Eines der Felder umbenennen
-   * Ändern des **Feldtyps**
-   * Aktualisieren Sie das Feld **Beschreibung**
-
-1. (Bedingt) Klicken Sie nach dem Aktualisieren der Feldinformationen auf **Speichern**.
-
-1. Klicken Sie **Importieren** wenn Sie bereit sind, Ihre Datei zu importieren.
-
-   Die folgenden Informationen werden in Workfront Planning importiert:
-
-   * Neue Datensatztypen
-   * Neue Felder, die mit jedem Datensatztyp verknüpft sind
-   * Neue Datensätze, die mit jedem Datensatztyp verknüpft sind
-
-   Sie können mit der Verwaltung von Feldern und Datensätzen auf den Datensatztypseiten beginnen.
-
-   Alle Personen mit Zugriff auf Workfront Planning können jetzt die importierten Datensatztypen und deren Informationen anzeigen und bearbeiten.

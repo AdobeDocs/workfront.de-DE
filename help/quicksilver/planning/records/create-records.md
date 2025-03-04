@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
 source-wordcount: '1801'
 ht-degree: 0%
@@ -33,6 +33,7 @@ Sie können Datensätze wie folgt erstellen:
 * [Datensätze erstellen, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
 * [Erstellen von Datensätzen durch Senden eines Anforderungsformulars an einen Datensatztyp](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Erstellen von Datensätzen beim Importieren von Datensatztypen aus einer CSV- oder Excel-Datei](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
+<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
 * <span class="preview">[Erstellen von Datensätzen mithilfe von Automatisierungen](#create-records-by-using-automations)</span>
 
 
@@ -304,6 +305,19 @@ Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfra
 Sie können Datensätze importieren, wenn Sie Datensatztypen mithilfe einer CSV- oder Excel-Datei importieren.
 
 Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
+
+<!--
+<div class="preview">
+
+## Create records when importing records from a CSV or Excel file
+
+You can import records for existing record types when you import information from a CSV or Excel file. 
+
+For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+
+</div> 
+
+-->
 
 <div class="preview">
 

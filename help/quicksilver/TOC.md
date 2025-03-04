@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
+source-git-commit: c9a5ba9a35bddfc45756cf04cd1a3da9d7a3105f
 workflow-type: tm+mt
-source-wordcount: '13018'
+source-wordcount: '13041'
 ht-degree: 2%
 
 ---
@@ -2017,6 +2017,7 @@ ht-degree: 2%
       * [Erstellen von Arbeitsbereichen](planning/architecture/create-workspaces.md)
       * [Übersicht über Datensatztypen](planning/architecture/overview-of-record-types.md)
       * [Datensatztypen erstellen](planning/architecture/create-record-types.md)
+      * [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/architecture/import-file-to-create-record-types.md)
       * [Verbinden von Datensatztypen - Übersicht](planning/architecture/connect-record-types-overview.md)
       * [Verbinden von Datensatztypen](planning/architecture/connect-record-types.md)
       * [Datensatztypen bearbeiten](planning/architecture/edit-record-types.md)
@@ -2045,6 +2046,7 @@ ht-degree: 2%
    * Adobe Workfront-{#adobe-workfront-planning-records}
       * [Einträge: Artikelindex](planning/records/records-information.md)
       * [Erstellen von Datensätzen](planning/records/create-records.md)
+      * [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](planning/records/import-file-to-create-records.md)
       * [Übersicht über verbundene Datensätze](planning/records/connected-records-overview.md)
       * [Datensätze verbinden](planning/records/connect-records.md)
       * [Datensätze bearbeiten](planning/records/edit-records.md)

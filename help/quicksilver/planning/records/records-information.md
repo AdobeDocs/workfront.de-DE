@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 exl-id: 7f32ebab-b8dd-496d-b510-99055924b0c7
 recommendations: noDisplay, noCatalog
-source-git-commit: 92344bc1b2dfc10e6b5ce80cb041c383f36be351
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
 source-wordcount: '142'
 ht-degree: 1%
@@ -26,7 +26,8 @@ Nachdem Sie Datensatztypen in Adobe Workfront Planning erstellt haben, können S
 
 In den folgenden Artikeln wird beschrieben, wie Sie Datensätze und deren Informationen in Adobe Workfront Planning erstellen und verwalten können:
 
-* [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md)
+* [Einträge erstellen](/help/quicksilver/planning/records/create-records.md)
+  <!--* <span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>-->
 * [Erstellen von Workfront-Objekten aus Workfront Planning, während Sie sie mit Datensätzen verbinden](/help/quicksilver/planning/records/create-workfront-objects-from-workfront-planning.md)
 * [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md)
 * [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md)

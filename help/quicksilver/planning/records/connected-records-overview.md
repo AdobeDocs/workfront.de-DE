@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 22a1525658f4ba60d638d5080f8c178fcf500441
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '558'
+source-wordcount: '570'
 ht-degree: 0%
 
 ---
@@ -54,10 +54,11 @@ In den folgenden Bereichen können Sie Datensätze mit anderen Datensätzen oder
    * Die verbundenen Datensatzfelder in der Tabellenansicht eines Datensatztyps in Planning.
    * Die Vorschau oder Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
    * Die Vorschau oder Seite des Datensatzes auf der Registerkarte Verbindungen .
+   * <span class="preview">Die Seite des Datensatzes in einer Verbindungsansicht-Registerkarte eines verbundenen Datensatzes.</span>
 
-* Sie können Workfront-Objekte in den folgenden Bereichen mit Workfront-Planungsdatensätzen verbinden:
+* Sie können Workfront-Objekte in den folgenden Bereichen von Workfront mit Workfront-Planungsdatensätzen verbinden:
 
-   * Im Planungsabschnitt eines Workfront-Objekts.
-   * <span class="preview">Von einem Planning-Verbindungsfeld im benutzerdefinierten Formular eines Workfront-Objekts. </span>
+   * Der Planungsabschnitt eines Workfront-Objekts.
+   * <span class="preview">Ein Feld für die Planning-Verbindung im benutzerdefinierten Formular eines Workfront-Objekts. </span>
 
   Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md)

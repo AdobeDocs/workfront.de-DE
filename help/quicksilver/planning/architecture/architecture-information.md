@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 0da08e30-51a8-4163-ae1e-821a099fac3b
-source-git-commit: 78a54ec94dd5a5746144e99e14c622e8b3a7ea71
+source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
 workflow-type: tm+mt
-source-wordcount: '189'
+source-wordcount: '201'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,7 @@ In den Artikeln in den folgenden Abschnitten wird beschrieben, wie Sie die Adobe
 * [Liste der Arbeitsbereich-Vorlagen](/help/quicksilver/planning/architecture/workspace-templates.md)
 * [Übersicht über Datensatztypen](/help/quicksilver/planning/architecture/overview-of-record-types.md)
 * [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md)
+* [Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/architecture/import-file-to-create-record-types.md)
 * [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md)
 * [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md)
 * [Verbinden von Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types.md)
