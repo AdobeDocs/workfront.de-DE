@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: f469147947715dd1bae2718565cd521fa8bc6e96
 workflow-type: tm+mt
 source-wordcount: '2407'
 ht-degree: 3%
@@ -452,11 +452,11 @@ Die Möglichkeit, Ereignisabonnements zu aktualisieren oder herabzustufen, stell
 
 Weitere Informationen zur Versionierung von Ereignisabonnements, einschließlich spezifischer Unterschiede zwischen der Version und wichtigen Daten, finden Sie unter [Versionierung von Ereignisabonnements](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
-### Änderung einer einzelnen Abonnementversion
-
 >[!NOTE]
 >
 >Wenn Sie Ihr Ereignisabonnement auf eine andere Version aktualisieren oder herunterstufen, erhalten Sie nach der Versionsänderung für jeden Ereignisversand für ein Zeitfenster von fünf Minuten doppelte Ereignisse. Die Duplikate enthalten je eines der Ereignisabonnements, Version 1 und Version 2. Dadurch wird sichergestellt, dass Sie keine Ereignisse aufgrund einer Änderung der Ereignisabonnementversion verpassen.
+
+### Änderung einer einzelnen Abonnementversion
 
 Die Anfragesyntax zum Ändern der Version für ein einzelnes Abonnement lautet:
 

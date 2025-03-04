@@ -8,9 +8,9 @@ author: Becky
 feature: Workfront Integrations and Apps
 recommendations: noDisplay, noCatalog
 exl-id: c374416e-9680-4725-ab2d-256dff6f03b1
-source-git-commit: c4e5aea70a8013643d3d9ce1c588ff560d2c3afd
+source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '107'
 ht-degree: 0%
 
 ---
@@ -28,3 +28,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Fügen Sie Ihrer  [!DNL Outlook]  eine E-Mail als Aufgabe hinzu](../../workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
 * [Anzeigen zusätzlicher Informationen über  [!DNL Adobe Workfront for Outlook]  und Abmelden](../../workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
 * [Aktivieren  [!DNL Outlook for Office]  Verwendung mit  [!DNL Adobe Workfront]  2.0](../../workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+* [Fehlerbehebung: OutlookIdentityToken-Fehler bei Verwendung von Workfront für Outlook](/help/quicksilver/workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)

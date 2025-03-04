@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: d02e781be70b34a77e8c780cc29c7a234dd62e68
+source-git-commit: 77cc1acde87b2ada96117daa06e98ba38e64fa8a
 workflow-type: tm+mt
-source-wordcount: '13010'
+source-wordcount: '13018'
 ht-degree: 2%
 
 ---
@@ -2145,6 +2145,7 @@ ht-degree: 2%
       * [Outlook-E-Mail als Aufgabe zu Ihrer Auftragsliste hinzufügen](workfront-integrations-and-apps/using-workfront-with-outlook/add-outlook-email-as-task-to-your-work-list.md)
       * [Anzeigen zusätzlicher Informationen zu Adobe Workfront for Outlook und Abmelden](workfront-integrations-and-apps/using-workfront-with-outlook/view-additional-infor-wf-outlook-and-log-out.md)
       * [Aktivieren von Outlook for Office für die Verwendung mit Adobe Workfront und SAML 2.0](workfront-integrations-and-apps/using-workfront-with-outlook/enable-outlook-for-office-for-use-with-wf-and-saml-2.md)
+      * [Fehlerbehebung: OutlookIdentityToken-Fehler bei Verwendung von Workfront für Outlook](workfront-integrations-and-apps/using-workfront-with-outlook/troubleshooting-outlookidentitytoken-error.md)
    * Adobe Workfront für Microsoft Teams {#workfront-for-microsoft-teams}
       * [[!DNL Adobe Workfront for Microsoft Teams]: Artikelindex](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md)
       * [Übersicht über Adobe Workfront für Microsoft Teams](workfront-integrations-and-apps/using-workfront-with-microsoft-teams/workfront-for-microsoft-teams.md)
