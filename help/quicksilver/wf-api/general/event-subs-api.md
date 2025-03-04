@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: c3646a5d-42f4-4af8-9dd0-e84977506b79
-source-git-commit: 193a1ecafb5dd919a2fa760ce5ab2a9903881900
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '2362'
+source-wordcount: '2407'
 ht-degree: 3%
 
 ---
@@ -350,6 +350,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -422,6 +424,8 @@ GET https://<HOSTNAME>/attask/eventsubscription/api/v1/subscriptions/<SUBSCRIPTI
     "id": "750a636c-5628-48f5-ba26-26b7ce537ac2",
     "date_created": "2024-04-11T17:10:10.305981",
     "date_modified": "2024-04-11T17:10:10.305981",
+    "version": "v2",
+    "dateVersionUpdated": "2025-01-15T04:04:04.407945"
     "customerId": "504f9640000013401be513579fbebffa",
     "objId": null,
     "objCode": "PROJ",
@@ -449,6 +453,10 @@ Die Möglichkeit, Ereignisabonnements zu aktualisieren oder herabzustufen, stell
 Weitere Informationen zur Versionierung von Ereignisabonnements, einschließlich spezifischer Unterschiede zwischen der Version und wichtigen Daten, finden Sie unter [Versionierung von Ereignisabonnements](/help/quicksilver/wf-api/general/event-subs-versioning.md).
 
 ### Änderung einer einzelnen Abonnementversion
+
+>[!NOTE]
+>
+>Wenn Sie Ihr Ereignisabonnement auf eine andere Version aktualisieren oder herunterstufen, erhalten Sie nach der Versionsänderung für jeden Ereignisversand für ein Zeitfenster von fünf Minuten doppelte Ereignisse. Die Duplikate enthalten je eines der Ereignisabonnements, Version 1 und Version 2. Dadurch wird sichergestellt, dass Sie keine Ereignisse aufgrund einer Änderung der Ereignisabonnementversion verpassen.
 
 Die Anfragesyntax zum Ändern der Version für ein einzelnes Abonnement lautet:
 
@@ -822,7 +830,7 @@ Im Feld `filterConnector` in der Abonnement-Payload können Sie auswählen, wie 
 
 ## Löschen von Ereignisabonnements
 
-Verwenden Sie beim Löschen des Workfront-HTTP-Inhalts die DELETE-Methode. Die Anfragesyntax zum Löschen eines einzelnen Ereignisabonnements nach Abonnement-ID lautet wie folgt:
+Verwenden Sie beim Löschen des Workfront-HTTP die DELETE-Methode. Die Anfragesyntax zum Löschen eines einzelnen Ereignisabonnements nach Abonnement-ID lautet wie folgt:
 
 **Anfrage-URL:**
 

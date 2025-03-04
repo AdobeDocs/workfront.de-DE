@@ -5,9 +5,9 @@ description: Im Rahmen der Ressourcenplanung können Sie mit dem Ressourcenplane
 author: Alina
 feature: Work Management
 exl-id: 51ebb940-111c-442f-a8a6-287a04d2db68
-source-git-commit: 928ea5da9955b8c1c98782df81698c49987d4c18
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1237'
+source-wordcount: '1247'
 ht-degree: 0%
 
 ---
@@ -108,11 +108,11 @@ So wenden Sie Ressourcenpools und Budgetprojektressourcen im Business Case auf e
 
    * Wählen Sie Ressourcenplaner im Feld **Wählen Sie die Stunden aus, die zur Berechnung der budgetierten Lohnkosten des Projekts verwendet werden sollen** und klicken Sie dann auf **Wählen > Ressourcenbudgetierung bearbeiten**.
 
-     ![](assets/business-case-rp-selected-with-choose-button-350x120.png)
+     ![Business Case im Ressourcenplaner](assets/business-case-rp-selected-with-choose-button-350x120.png)
 
    * Wenn der Szenario-Planer für die Budgetierung von Ressourcen für das Projekt ausgewählt wurde, klicken Sie auf **Ändern** > **Ressourcenbudgetierung bearbeiten**.
 
-     ![](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
+     ![Business Case im Szenario-Planer](assets/business-case-sp-selected-change-option-to-switch-to-rp-highlighted-350x88.png)
 
    Hierbei werden die budgetierten Stunden des Projekts verwendet, um die budgetierten Lohnkosten für das Projekt zu berechnen.
 

@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: 3e082ddde7cb84fb8bf3b5a23c363fd3b4cfe3d2
+source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
 workflow-type: tm+mt
-source-wordcount: '1124'
+source-wordcount: '1192'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ Die neue Version ist keine Änderung der Workfront-API, sondern eine Änderung d
 
 Die Möglichkeit, Ereignisabonnements zu aktualisieren oder herabzustufen, stellt sicher, dass vorhandene Abonnements nicht beschädigt werden, wenn Änderungen an der Ereignisstruktur vorgenommen werden, sodass Sie ohne Lücke in Ihrem Ereignisabonnement testen und auf die neue Version aktualisieren können.
 
+
+Wenn Sie Ihr Ereignisabonnement auf eine andere Version aktualisieren oder herunterstufen, erhalten Sie nach der Versionsänderung für jeden Ereignisversand für ein Zeitfenster von fünf Minuten doppelte Ereignisse. Die Duplikate enthalten je eines der Ereignisabonnements, Version 1 und Version 2. Dadurch wird sichergestellt, dass Sie keine Ereignisse aufgrund einer Änderung der Ereignisabonnementversion verpassen.
+
 Informationen zu den Endpunkten, die zum Aktualisieren oder Herunterstufen von Ereignisabonnements verwendet werden, finden Sie [Ereignisabonnement-Versionierung](/help/quicksilver/wf-api/general/event-subs-api.md#event-subscription-versioning) im Artikel Ereignisabonnement-API.
 
 >[!IMPORTANT]
@@ -30,6 +33,7 @@ Informationen zu den Endpunkten, die zum Aktualisieren oder Herunterstufen von E
 >
 >* **25.2 Version** (10. April 2025): Alle neuen Abonnements, die nach der Version 25.2 erstellt wurden, werden als Version 2 erstellt.
 >* **25.3 Version** (17. Juli 2025): Abonnements können nach der Version 25.3 nicht mehr auf Version 1 heruntergestuft werden.
+>* **1. September 2025**: Alle verbleibenden Version 1-Abonnements werden auf Version 2 migriert.
 
 ## Änderungen zwischen Version 1 und Version 2
 
