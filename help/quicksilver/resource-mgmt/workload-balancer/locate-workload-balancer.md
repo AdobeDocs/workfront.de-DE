@@ -7,9 +7,9 @@ description: Sie können den Workload Balancer verwenden, um Ressourcen für Arb
 author: Lisa
 feature: Resource Management
 exl-id: 88029c9d-b588-4d33-801a-04f49b12a6e8
-source-git-commit: 23c6d9335b0adcafc4e2ecdd8ef2d0ab09709fa8
+source-git-commit: 496420d1c74b7c29d0fb2ff7109ea8478680d117
 workflow-type: tm+mt
-source-wordcount: '714'
+source-wordcount: '724'
 ht-degree: 1%
 
 ---
@@ -97,6 +97,8 @@ In den folgenden Abschnitten wird gezeigt, wo Sie in Workfront auf den Workload 
      Es wird empfohlen, Filter zu verwenden, wenn Benutzer im Bereich Zugewiesene Arbeit angezeigt werden. Weitere Informationen finden Sie unter [Filtern von Informationen im Workload Balancer](../workload-balancer/filter-information-workload-balancer.md).
 
 ### Zugriff auf den Workload Balancer für ein Team
+
+Weitere Informationen zu Teams in Workfront finden Sie unter [Team-Übersicht](/help/quicksilver/people-teams-and-groups/create-and-manage-teams/teams-overview.md).
 
 {{step1-to-team}}
 
