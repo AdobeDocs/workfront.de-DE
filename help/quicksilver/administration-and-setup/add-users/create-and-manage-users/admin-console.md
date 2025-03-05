@@ -5,9 +5,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: ae657964-d4a5-4c3b-afc6-8dde7695955d
-source-git-commit: bb6697241701160f878dc3fde2c7dd4d57ec097e
+source-git-commit: 47aa463406c2807a375297f296b3e81eca1285bb
 workflow-type: tm+mt
-source-wordcount: '1449'
+source-wordcount: '1533'
 ht-degree: 0%
 
 ---
@@ -223,10 +223,18 @@ So validieren Sie einen Benutzer:
    Abgelehnte Benutzende werden automatisch aus Workfront gelöscht.
 
 
+## Bearbeiten bestehender Benutzer in der Adobe Admin Console
 
+Sie können die folgenden Benutzerdetails in der Adobe Admin Console bearbeiten:
 
+* Benutzergruppen und Produkte, die mit dem Benutzer verknüpft sind
+* Administratorrechte
+* Land
 
+Informationen zum Bearbeiten eines einzelnen Benutzers in der Adobe Admin Console finden Sie unter [Bearbeiten von Benutzerdetails](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#edit-user-details) im Artikel Verwalten von Benutzern einzeln in der Adobe-Dokumentation.
 
+Informationen zur Massenbearbeitung von Benutzerinnen und Benutzern in der Adobe Admin Console finden Sie unter
+[Bearbeiten von Benutzerdetails](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html#edit-user-details) im Artikel Verwalten mehrerer Benutzer in der Dokumentation zu Adobe .
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">
 <p>&nbsp;</p>
