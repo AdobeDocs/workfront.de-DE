@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: e82cf1b586ea3b08f419802bd1e88c6567b61b95
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1522'
+source-wordcount: '1518'
 ht-degree: 1%
 
 ---
@@ -58,9 +58,9 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
      >[!IMPORTANT]
      >
-     >Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss auf der Adobe-Geschäftsplattform oder der Adobe Admin Console integriert sein, um Workfront-Planungsdatensätze mit Adobe Experience Manager Assets zu verbinden.
+     >Sie müssen über eine Adobe Experience Manager Assets-Lizenz verfügen und die Workfront-Instanz Ihres Unternehmens muss in die Adobe Business Platform oder die Adobe Admin Console integriert sein, um Workfront-Planungsdatensätze mit Adobe Experience Manager Assets zu verbinden.
      >
-     >Wenn Sie Fragen zum Onboarding in der Adobe Admin Console haben, lesen Sie die häufig gestellten Fragen zum [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
+     >Wenn Sie Fragen zum Onboarding in der Adobe Admin Console haben, lesen Sie die häufig gestellten Fragen zu [Adobe Unified Experience](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/unified-experience-faq.md).
 
 * Nachdem Sie Datensätze für die verbundenen Datensatztypen erstellt haben, können Sie sie über das Feld Verbundener Datensatz miteinander verknüpfen.  Weitere Informationen finden Sie unter [Verbinden von Datensätzen](/help/quicksilver/planning/records/connect-records.md).
 
@@ -74,9 +74,9 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
 
       * Für den Datensatztyp, von dem aus Sie eine Verbindung herstellen, wird ein verknüpftes Datensatzfeld erstellt. Für den Objekttyp des anderen Programms wird automatisch kein verknüpftes Datensatzfeld erstellt.
       * Auf Felder für Planungsdatensätze kann nicht über Workfront-Objekte zugegriffen werden.
-      * Die Planungsdatensätze sind auf der Registerkarte Planung des Workfront-Objekts sichtbar. Weitere Informationen finden Sie [Verwalten von Datensätzen im Planungsabschnitt von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+      * Die Planungsdatensätze sind auf der Registerkarte Planung des Workfront-Objekts sichtbar. Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
       * <span class="preview">Sie können ein benutzerdefiniertes Feld für die Planning-Verbindung erstellen und es an das benutzerdefinierte Formular eines Workfront-Objekts anhängen. Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md). </span>
-      * Auf Planungs-Datensatzfelder kann über Experience Manager-Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
+      * Auf Planungs-Datensatzfelder kann über Experience Manager Assets zugegriffen werden, wenn der Workfront-Administrator die Metadatenzuordnung durch die Integration zwischen Workfront und Adobe Experience Manager Assets konfiguriert. Weitere Informationen finden Sie unter &quot;[ der Asset-Metadatenzuordnung zwischen Adobe Workfront und Experience Manager Assets ](https://experienceleague.adobe.com/docs/experience-manager-cloud-service/content/assets/integrations/configure-asset-metadata-mapping.html?lang=en).
 
 
    * **Beim Hinzufügen von Suchfeldern aus dem Datensatz oder Objekt, mit dem Sie eine Verbindung herstellen**: Zusätzlich zum Erstellen eines verknüpften Datensatzfelds können Sie auch eine Verbindung zu Feldern aus dem verbundenen Datensatz oder Objekttyp herstellen, die als Suchfelder bezeichnet werden. Ein verknüpftes Feld (oder Suchfeld) mit Informationen aus dem Datensatz, mit dem Sie eine Verbindung herstellen, wird für den Datensatz angezeigt, von dem aus Sie eine Verbindung herstellen.

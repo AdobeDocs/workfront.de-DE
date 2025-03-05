@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '517'
+source-wordcount: '515'
 ht-degree: 1%
 
 ---
@@ -71,7 +71,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td> 
    <td> 
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -89,7 +89,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>  <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich zum Freigeben eines Datensatzes über einen Link </p>
-   <p>Verwalten von Berechtigungen für einen Arbeitsbereich zum Freigeben von Datensätzen beim Freigeben des Arbeitsbereichs, zu dem der Datensatz gehört </p>
+   <p>Verwalten von Berechtigungen für einen Arbeitsbereich, um Datensätze freizugeben, zu denen der Datensatz gehört </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr> 
 <tr> 
@@ -145,7 +145,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Permissions</p></td>
    <td> <p>View or higher permissions to a workspace to share a record using a link </p>
-   <p>Manage permissions to a workspace to share records while sharing the workspace the record belongs to </p>
+   <p>Manage permissions to a workspace to share the workspace the record belongs to </p>
    <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
 </td>
   </tr>

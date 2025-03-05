@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 2a640cd5-f4a8-4ff3-81b6-32f85f6e4535
-source-git-commit: f6484489f4726b606cc9840beed77ec8ab48a518
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '364'
 ht-degree: 1%
@@ -44,7 +44,7 @@ In der folgenden Tabelle sind die Beschränkungen für die Anzahl der Objekte au
 | Die Rate, mit der API-Anfragen gestellt werden können | 200 Anfragen pro Minute |
 | Anzahl der Ansichten, die ein Benutzer für einen Datensatztyp erstellen kann | 100 |
 | CSV-Größe der Excel-Datei, die Sie importieren können, um Datensatztypen zu erstellen | 5 MB |
-| Anzahl der Zeilen, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 10.000 |
+| Anzahl der Zeilen, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 25.000 |
 | Anzahl der Spalten, die Sie in eine CSV- oder Excel-Datei importieren können, um Datensatztypen zu erstellen | 500 |
 
 *Es wird empfohlen, nicht zu viele Arbeitsbereiche zu verwenden, da diese möglicherweise schwer zu verwalten sind und Ihre Workflows zu fragmentiert sind.

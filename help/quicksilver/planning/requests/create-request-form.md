@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '1869'
+source-wordcount: '1865'
 ht-degree: 1%
 
 ---
@@ -144,7 +144,7 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
    * Personenfeldwerte werden als IDs angezeigt.
    * Formelfelder, die nicht auf andere Felder oder Berechnungen verweisen, zeigen keine Werte an. Beispiel: Ein Feld mit einer `STRING` Formel zeigt den Wert „K. A.“ an.
    * Formelfelder, die auf Währungsfelder verweisen, zeigen die Werte ohne Berücksichtigung von Wechselkursen an.
-   * Die Werte von Absatzfeldern mit spezieller Formatierung zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Anfragedetailseite werden HTML-Tags anstelle des formatierten Textes angezeigt.
+   * Die Werte der Absatzfelder zeigen auf dem Anfrageformular den Wert „K. A.“ an und auf der Seite mit den Anfragedetails werden HTML-Tags anstelle des formatierten Texts angezeigt.
 
 </div>
 

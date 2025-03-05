@@ -3,13 +3,13 @@ title: Erstellen von Datensätzen durch Importieren von Informationen aus einer 
 description: Datensätze sind einzelne Instanzen von Datensatztypen, die die Objekttypen von Adobe Workfront Planning sind. In Workfront Planning können Sie Datensätze erstellen, indem Sie Informationen aus einer CSV- oder Excel-Datei importieren.
 hide: true
 hidefromtoc: true
-source-git-commit: 9f17fcab210768923e866d2f1596f40ddf8a558e
+exl-id: 940945df-391c-4672-9d9d-180d5028509b
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '884'
-ht-degree: 1%
+source-wordcount: '985'
+ht-degree: 0%
 
 ---
-
 
 <!-- add the following in the metadata when live:
 
@@ -82,12 +82,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
    <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p> 
-   <p>Bearbeiten Sie den Zugriff in Workfront für die Objekttypen, die Sie erstellen möchten (Projekte und Portfolios), während Sie die Datensätze mit ihnen verbinden. </p>  
+   <p>Bearbeiten Sie den Zugriff in Workfront für die Objekttypen, die Sie erstellen möchten (Projekte, Programme und Portfolios), während Sie die Datensätze mit ihnen verbinden. </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td> <p>Verwalten Sie die Berechtigungen für den Arbeitsbereich, dem Sie Datensätze hinzufügen möchten. </p>  
+   <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu dem Arbeitsbereich bei, dem Sie Datensätze hinzufügen möchten. </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
@@ -103,23 +103,23 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## Überlegungen zum Importieren von Datensatztypen mithilfe einer Excel- oder CSV-Datei
+## Überlegungen zum Importieren von Datensätzen mithilfe einer Excel- oder CSV-Datei
 
 * Die Spaltenüberschriften in jedem Blatt werden zu den Feldern, die mit Datensätzen verknüpft sind.
 * Jede Zeile in jedem Blatt wird zu einem eindeutigen zugeordneten Datensatz.
 * Wenn die Excel-Datei mehr als ein Blatt enthält, werden nur die Informationen aus einem Blatt importiert, die Sie während des Importvorgangs auswählen.
 * Die Datei sollte folgende Werte nicht überschreiten:
-   * 10.000 Zeilen
+   * 25.000 Zeilen
    * 500 Spalten
 * Die Datei sollte nicht größer als 5 MB sein.
 * Leere Blätter werden nicht unterstützt.
 * Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
-   * Suchfelder von verbundenen Datensätzen oder verbundenen Workfront-Objekten
+   * Verbindungen und Suchfelder verbundener Datensätze <!--or connected Workfront objects-->
    * Formelfelder
    * Erstellungsdatum, Erstellt von
    * Datum der letzten Änderung, letzte Änderung von
    * Personen
-* Wenn ein Feld mit mehreren oder nur einer Auswahl importiert wird und es mehr Auswahlmöglichkeiten als ein ähnliches Feld in Planning hat, werden die zusätzlichen Optionen während des Imports erstellt.
+   * Wenn ein Feld mit mehreren oder nur einer Auswahl importiert wird und es mehr Auswahlmöglichkeiten als ein ähnliches Feld in Planning hat, werden die zusätzlichen Optionen während des Imports erstellt. Nur Benutzer mit der Berechtigung Verwalten für den Arbeitsbereich können neue Auswahlmöglichkeiten importieren.
 
 ## Erstellen von Datensätzen durch Importieren einer CSV- oder Excel-Datei
 
@@ -144,11 +144,16 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Jede Zeile stellt einen neuen Datensatz dar. Nur die ersten 10 Datensätze werden im Vorschau- und Bearbeitungsfeld angezeigt.
 
-1. (Optional) Wählen Sie **Fehlende Optionen erstellen** in der linken unteren Bildschirmecke aus. Wenn diese Option aktiviert ist, werden die fehlenden Einfach- und Mehrfachauswahlfelder hinzugefügt.
+1. (Optional und bedingt) Wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, wählen **in der linken unteren Ecke** Bildschirms die Option „Fehlende Optionen erstellen“. Wenn diese Option aktiviert ist, werden die fehlenden Einfach- und Mehrfachauswahlfelder hinzugefügt.
 
-   Wenn der ausgewählte Datensatztyp beispielsweise über ein Statusfeld mit einer einzigen Auswahl wie Neu, In Bearbeitung und Geschlossen verfügt und ein aus einer Datei importiertes Statusfeld auch über eine Option für den Status Halten verfügt, wird die Statusoption Halten ebenfalls hinzugefügt
+>[!NOTE]
+>
+>Wenn der ausgewählte Datensatztyp beispielsweise über ein Statusfeld mit einer einzigen Auswahl wie Neu, In Bearbeitung und Geschlossen verfügt und ein aus einer Datei importiertes Statusfeld auch über eine Option für den Status Halten verfügt, wird die Option für den Status Halten ebenfalls hinzugefügt.
+>
+>Wenn Sie keine Verwaltungsberechtigungen für den Arbeitsbereich haben, können Sie Datensätze importieren, die zusätzlichen Auswahlmöglichkeiten werden jedoch nicht erstellt. Stattdessen erhalten Sie die folgende Nachricht in der oberen rechten Ecke des Felds Planungsfelder Ihren Spaltenüberschriften zuordnen : **Die Auswahlmöglichkeiten, die nicht in der Verbindung vorhanden sind, Einfach- oder Mehrfachauswahlfelder werden nicht hinzugefügt**.
 
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step-->
+
+    &lt;!- Wenn wir verbundene Datensätze hinzufügen und sich das Infosymbol im Tool ändert, fügen Sie diese Elemente auch zu diesem Schritt hinzu—>
 
 1. Klicken Sie **Importieren**.
 

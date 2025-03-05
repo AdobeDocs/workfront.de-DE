@@ -5,13 +5,13 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
 source-wordcount: '754'
 ht-degree: 1%
 
 ---
-
 
 # Erstellen von Datensatztypen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 
@@ -101,7 +101,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Felder sind für die jeweiligen Datensatztypen eindeutig.
 * Jede Zeile in jedem Blatt wird zu einem eindeutigen Datensatz, der mit seinem jeweiligen Datensatztyp verknüpft ist.
 * Jedes Blatt der Excel-Datei sollte Folgendes nicht überschreiten:
-   * 10.000 Zeilen
+   * 25.000 Zeilen
    * 500 Spalten
 * Die Datei sollte nicht größer als 5 MB sein.
 * Leere Blätter werden nicht unterstützt.

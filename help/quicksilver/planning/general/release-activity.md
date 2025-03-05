@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53911aa3-74fd-4747-9008-f86a521ffba6
-source-git-commit: a6104204cae2a2d8fb021da254437008d55a43b6
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '7392'
+source-wordcount: '7388'
 ht-degree: 0%
 
 ---
@@ -563,7 +563,7 @@ Produktion: 21. Juni 2024
 
 Vorschau: noch festzulegen
 
-Wir haben geändert, welche Benutzertypen vollen Zugriff auf Arbeitsbereiche haben können. Jetzt können nur noch lizenzierte Standard- oder Planbenutzer Verwaltungsberechtigungen für Arbeitsbereiche haben. Der Zugriff auf Datensatztypen, Datensätze und Felder wird von einem Arbeitsbereich übernommen. Alle anderen Benutzer haben schreibgeschützten Zugriff auf Arbeitsbereiche und deren Objekttypen. Vor diesem Update konnten Light- und Worker-lizenzierte Benutzende Contribute-Berechtigungen für Arbeitsbereiche erhalten.
+Wir haben geändert, welche Benutzertypen vollen Zugriff auf Arbeitsbereiche haben können. Jetzt können nur noch lizenzierte Standard- oder Planbenutzer Verwaltungsberechtigungen für Arbeitsbereiche haben. Der Zugriff auf Datensatztypen, Datensätze und Felder wird von einem Arbeitsbereich übernommen. Alle anderen Benutzer haben schreibgeschützten Zugriff auf Arbeitsbereiche und deren Objekttypen. Vor diesem Update konnten Light- und Worker-lizenzierte Benutzer die Contribute-Berechtigung für Arbeitsbereiche erhalten.
 
 Weitere Informationen finden Sie unter [Lizenztyp - Übersicht bei Verwendung von Adobe Workfront Planning](/help/quicksilver/planning/access/license-type-overview.md).
 
@@ -715,7 +715,7 @@ Die folgenden Aktionen sind im Abschnitt Planung in Workfront verfügbar:
 
 * Öffnen Sie das Vorschaufeld oder die Seite mit den Details, um weitere Informationen zu den verbundenen Datensätzen anzuzeigen
 
-Weitere Informationen finden Sie [Verwalten von Datensätzen im Planungsabschnitt von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
 ## Woche vom 13. Mai 2024
 
@@ -794,13 +794,13 @@ Das Erscheinungsbild von Karten vom Typ Datensatz wurde aktualisiert, wenn diese
 
 Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-### Aktivieren von Workfront-Planungsbenachrichtigungen für Adobe Unified Experience-Kunden
+### Aktivieren von Workfront Planning-Benachrichtigungen für Kunden von Adobe Unified Experience
 
 Produktion: 8. Mai 2024
 
 Vorschau: Noch festzulegen
 
-Wenn Sie Adobe Unified Experience-Kunde sind und jemand Sie zu einem Kommentar auf der Datensatzseite hinzufügt, erhalten Sie eine In-App- und E-Mail-Benachrichtigung zum Kommentar. Sie können Ihre Benachrichtigungseinstellungen im Bereich Voreinstellungen Ihres Adobe Experience Cloud-Profils verwalten. Weitere Informationen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Wenn Sie Adobe Unified Experience-Kunde sind und jemand Sie zu einem Kommentar auf der Datensatzseite hinzufügt, erhalten Sie eine In-App- und eine E-Mail-Benachrichtigung zum Kommentar. Sie können Ihre Benachrichtigungseinstellungen im Bereich Voreinstellungen Ihres Adobe Experience Cloud-Profils verwalten. Weitere Informationen finden Sie unter [Kontoeinstellungen und Benachrichtigungen](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Weitere Informationen zu Workfront-Planungsbenachrichtigungen finden Sie unter [Adobe Workfront-Planungsbenachrichtigungen: Artikelindex](/help/quicksilver/planning/notifications/notifications-information.md).
 
@@ -1101,7 +1101,7 @@ Im Folgenden finden Sie die höchsten Berechtigungsebenen, die Benutzer je nach 
 
 * Benutzer mit einer Planlizenz (oder Standardlizenz, im neuen Lizenzmodell) können Arbeitsbereiche, Datensatztypen und Datensätze erstellen und verwalten.
 
-* Benutzer mit einer Arbeitslizenz (oder Light, im neuen Lizenzmodell) können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und Datensätze dieses Arbeitsbereichs anzeigen und zu ihm beitragen.  Benutzende mit Arbeits- (oder Light-) Lizenz können auch Datensätze in Arbeitsbereichen erstellen, bearbeiten und löschen, in denen sie Zugriff auf Contribute haben.
+* Benutzer mit einer Arbeitslizenz (oder Light, im neuen Lizenzmodell) können einen für sie freigegebenen Arbeitsbereich sowie die Datensatztypen und Datensätze dieses Arbeitsbereichs anzeigen und zu ihm beitragen.  Benutzer der Arbeits- (oder Light-) Lizenz können auch Datensätze in Arbeitsbereichen erstellen, bearbeiten und löschen, in denen sie Contribute-Zugriff haben.
 
 * Benutzende mit einer Prüfungs- oder Antragstellerlizenz (oder Mitwirkende, im neuen Lizenzmodell) können nur die Arbeitsbereiche anzeigen, die für sie freigegeben wurden, sowie die Datensatztypen und Datensätze dieser Arbeitsbereiche. Sie können keine Datensatztypen oder Datensätze erstellen, bearbeiten oder löschen.
 
@@ -1237,7 +1237,7 @@ Im Folgenden finden Sie die Berechtigungsebenen für Arbeitsbereiche:
 
 * Ansicht: Benutzer können Arbeitsbereiche anzeigen, die für sie freigegeben sind. Sie können auch Datensatztypen und Datensätze aus dem freigegebenen Arbeitsbereich anzeigen.
 
-* Contribute: Benutzerinnen und Benutzer können Datensätze in dem Arbeitsbereich erstellen, bearbeiten oder löschen, der für sie freigegeben ist.  Sie können keine Datensatztypen oder Arbeitsbereiche erstellen oder bearbeiten, die für sie freigegeben sind.
+* Beitragen: Benutzerinnen und Benutzer können Datensätze in dem Arbeitsbereich erstellen, bearbeiten oder löschen, der für sie freigegeben ist.  Sie können keine Datensatztypen oder Arbeitsbereiche erstellen oder bearbeiten, die für sie freigegeben sind.
 
 * Verwalten: Benutzer können Arbeitsbereiche, Datensatztypen, Datensätze und Felder in Arbeitsbereichen, die für sie freigegeben sind, erstellen, bearbeiten und löschen.
 

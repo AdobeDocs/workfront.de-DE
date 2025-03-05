@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
 workflow-type: tm+mt
-source-wordcount: '3332'
+source-wordcount: '3330'
 ht-degree: 1%
 
 ---
@@ -118,7 +118,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Verwalten von Berechtigungen für einen Arbeitsbereich zum Verbinden von Datensätzen </p>  
+   <td>   <p>Beitragen von oder höheren Berechtigungen zu einem Arbeitsbereich, um Datensätze zu verbinden </p>  
    <p>Zeigen Sie eine oder höhere Berechtigungen für einen Arbeitsbereich an, um alle Verbindungen zu Objekten und Feldern von anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in der anderen Anwendung. </p>
    <p>Zeigen Sie Berechtigungen zum Anzeigen oder höhere Berechtigungen für die Objekte an, die Sie von Workfront oder Experience Manager Assets aus verknüpfen möchten. </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p> </td> 
@@ -494,4 +494,4 @@ Sie müssen über Folgendes verfügen, um Workfront-Planungsdatensätze mit Work
       * Gruppe
       * Firma
 
-  Weitere Informationen finden Sie unter [Verwalten von Datensätzen im Planungsabschnitt von Adobe Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
+  Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
