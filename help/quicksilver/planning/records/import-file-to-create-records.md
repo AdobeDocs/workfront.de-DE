@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
 source-wordcount: '964'
 ht-degree: 0%
@@ -148,9 +148,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >Wenn Sie keine Verwaltungsberechtigungen für den Arbeitsbereich haben, können Sie Datensätze importieren, die zusätzlichen Auswahlmöglichkeiten werden jedoch nicht erstellt. Stattdessen erhalten Sie die folgende Nachricht in der oberen rechten Ecke des Felds Planungsfelder Ihren Spaltenüberschriften zuordnen : **Die Auswahlmöglichkeiten, die nicht in der Verbindung vorhanden sind, Einfach- oder Mehrfachauswahlfelder werden nicht hinzugefügt**.
 
-
-   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
-
 1. Klicken Sie **Importieren**.
 
    Die folgenden Informationen werden in Workfront Planning importiert:
@@ -162,3 +159,5 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    Sie können mit der Verwaltung von Feldern und Datensätzen auf der Seite „Datensatztypen“ beginnen.
 
    Alle Personen mit Zugriff auf Workfront Planning und den Arbeitsbereich können jetzt die importierten Datensätze und deren Informationen anzeigen und bearbeiten.
+
+   <!--when we add connected records and the info icon in the tool changes, also add those items to the Import step and to the NOTE above it-->

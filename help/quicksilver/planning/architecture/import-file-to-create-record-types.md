@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2afd6d57-d658-4065-86f5-2324d3818d1f
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '757'
+source-wordcount: '795'
 ht-degree: 1%
 
 ---
@@ -105,6 +105,12 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * 500 Spalten
 * Die Datei sollte nicht größer als 5 MB sein.
 * Leere Blätter werden nicht unterstützt.
+* Felder der folgenden Typen werden nicht unterstützt und können nicht den Feldern im Importblatt zugeordnet werden:
+   * Verbindungen und Suchfelder verbundener Datensätze <!--or connected Workfront objects-->
+   * Formelfelder
+   * Erstellungsdatum, Erstellt von
+   * Datum der letzten Änderung, letzte Änderung von
+   * Personen
 
 So importieren Sie Datensatztypen mithilfe einer Excel- oder CSV-Datei:
 

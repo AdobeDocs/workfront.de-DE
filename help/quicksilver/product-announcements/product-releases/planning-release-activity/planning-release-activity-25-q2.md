@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
+source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
 workflow-type: tm+mt
-source-wordcount: '1660'
+source-wordcount: '1662'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
 
-## Suchfelder für verbundene Datensätze zu Planning-Verbindungsfeldern in benutzerdefinierten Workfront-Formularen hinzufügen
+## Hinzufügen von Suchfeldern aus verbundenen Datensätzen in den Feldern für die Planning-Verbindung von benutzerdefinierten Workfront-Formularen
 
 >[!NOTE]
 >
