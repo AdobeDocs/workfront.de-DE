@@ -4,9 +4,9 @@ description: Projektverbesserungen im zweiten Quartal 2025
 author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 7dba8033919f015bed4d9e1f8c7581c94f9fff4c
+source-git-commit: 1123c028a1971c7a66158b95642154e540dc3d0e
 workflow-type: tm+mt
-source-wordcount: '114'
+source-wordcount: '115'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im zweiten Quartal 2025 ve
 
 >[!NOTE]
 >
->Vorschau-Version: 6. Februar 2025; Produktion, alle Kunden: 13. März 2025
+>Vorschau-Version: 6. Februar 2025; Produktion für alle Kunden: 13. März 2025
 
 Sie können jetzt mehrere Dokumente gleichzeitig in einem Dokumentbericht bearbeiten. Sie können die Beschreibungen bearbeiten und benutzerdefinierte Formulare aktualisieren.
 
