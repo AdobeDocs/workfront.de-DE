@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 22a293cf4ded2c24c58f3948c1e7b41fa1055e3f
+source-git-commit: b03ac1037e03a70c7e685f5e6e53ce86755868c7
 workflow-type: tm+mt
-source-wordcount: '1481'
+source-wordcount: '1660'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,29 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Suchfelder für verbundene Datensätze zu Planning-Verbindungsfeldern in benutzerdefinierten Workfront-Formularen hinzufügen
+
+>[!NOTE]
+>
+>Vorschau: 6. März 2025; Produktion für die schnelle Veröffentlichung: 13. März 2025; Produktion für alle Kunden: 10. April 2025
+
+Um problemlos auf alle Informationen aus verbundenen Datensätzen aus Workfront-Objekten zugreifen zu können, haben wir die Suchfelder der verbundenen Datensätze zu den Feldern für die Planning-Verbindung in Workfront hinzugefügt.
+
+Sie können einem Datensatz, der mit einem Workfront-Objekt verbunden ist, im benutzerdefinierten Feld Planning-Verbindung bis zu sieben Suchfelder hinzufügen. Als Teil dieser Verbesserung können Sie jetzt die verbundenen Datensätze und ihre Felder in einem leicht lesbaren Tabellenformat in der benutzerdefinierten Form eines Workfront-Objekts anzeigen.
+
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md).
+
+## Importieren von Datensätzen mithilfe einer CSV- oder Excel-Datei
+
+>[!NOTE]
+>
+>Vorschau-Version: 6. März 2025; Produktion für alle Kunden: 10. April 2025
+
+Sie können jetzt Datensätze mithilfe einer CSV- oder Excel-Tabelle von der Seite eines Datensatztyps importieren.
+Vor dieser Verbesserung konnten Sie Datensätze nur beim Erstellen von Datensatztypen importieren. Mit dieser Aktualisierung können Sie Datensätze in vorhandene Datensatztypen importieren.
+
+Weitere Informationen finden Sie unter [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
 ## Den Datensatznamen einer Detailseite einer Workfront-Planungsanfrage im Namen der Browser-Registerkarte anzeigen
 
