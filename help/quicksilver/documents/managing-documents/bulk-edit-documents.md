@@ -8,16 +8,16 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f6e54d4c1e0e4bbe7e10d1fe00255b6127e95643
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '572'
+source-wordcount: '750'
 ht-degree: 0%
 
 ---
 
 # Dokumente stapelweise bearbeiten
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können die Beschreibung bearbeiten, benutzerdefinierte Formulare hinzufügen und benutzerdefinierte Formulare in mehreren Dokumenten gleichzeitig bearbeiten.
 
@@ -96,3 +96,34 @@ So bearbeiten Sie Dokumente stapelweise:
     </tr>
     </table>
 1. Klicken Sie auf **Speichern**.
+
+<span class="preview">
+
+## Stapelweises Bearbeiten von Dokumenten in einem Dokumentbericht
+
+1. Navigieren Sie zu einem vorhandenen Dokumentbericht.
+oder
+Erstellen Sie einen Dokumentbericht, wie in [Erstellen eines benutzerdefinierten Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md) beschrieben.
+1. Wählen Sie die Dokumente aus, die Sie bearbeiten möchten.
+1. Klicken Sie auf das Symbol Bearbeiten ![Bearbeiten](assets/edit-icon.png).
+   ![Position des Bearbeitungssymbols auf der Seite](assets/edit-multiple-documents.png)
+1. (Optional) Fügen Sie „Beschreibung **hinzu oder bearbeiten Sie**. Wenn die Beschreibung für jedes Dokument unterschiedlich ist, wird _Mehrere Werte_ im Beschreibungsfeld angezeigt. Sie können dieselbe Beschreibung für alle Dokumente hinzufügen, aber Sie können einzelne Dokumentbeschreibungen nicht gleichzeitig bearbeiten.
+1. Nehmen Sie mit benutzerdefinierten Formularen die folgenden Änderungen vor:
+
+   <table>
+    <tr>
+    <td><strong>Formulare hinzufügen</strong></td>
+    <td>Im Feld <strong>Benutzerdefiniertes Formular hinzufügen</strong> können Sie zwischen angehängten Formularen und Formularen wählen, die hinzugefügt werden sollen. Anhänge befinden sich auf einigen der ausgewählten Dokumente, jedoch nicht auf allen. Ein Formular, das an alle ausgewählten Dokumente angehängt ist, wird automatisch im Bearbeitungsfenster angezeigt.  </td>
+    </tr>
+    <tr>
+    <td><strong>Formulare bearbeiten</strong></td>
+    <td>Bearbeiten Sie alle angehängten benutzerdefinierten Formulare. Die von Ihnen geänderten Informationen überschreiben die vorhandenen Informationen in den einzelnen Dokumenten. Felder mit unterschiedlichen Werten in allen Dokumenten werden als „Mehrere Werte“ angezeigt. </td>
+    </tr>
+    <tr>
+    <td><strong>Formulare neu anordnen</strong></td>
+    <td>Klicken Sie auf das benutzerdefinierte Formular und ziehen Sie es, um es neu anzuordnen.</td>
+    </tr>
+    </table>
+1. Klicken Sie auf **Speichern**.
+
+</span>

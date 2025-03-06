@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0639cb37-212c-46d5-bfe0-b524efc085d3
-source-git-commit: a9abbeaa9abd0e905c60000a218eddb85d0389b9
+source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
 workflow-type: tm+mt
-source-wordcount: '215'
+source-wordcount: '206'
 ht-degree: 0%
 
 ---
@@ -26,11 +26,7 @@ Eine Liste aller zu diesem Zeitpunkt im ersten Quartal 2025 verfügbaren Änderu
 
 Sie können jetzt mehrere Dokumente gleichzeitig bearbeiten. Sie können die Beschreibungen bearbeiten und benutzerdefinierte Formulare aktualisieren.
 
-<!--For more information, see [Edit documents in bulk](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).-->
-
->[!IMPORTANT]
->
->Die unten aufgeführten Funktionen sind Teil einer stufenweisen Veröffentlichung und nur für bestimmte Kunden verfügbar.
+Weitere Informationen finden Sie unter [Dokumente stapelweise bearbeiten](/help/quicksilver/documents/managing-documents/bulk-edit-documents.md).
 
 ## Neuer zurückgezogener Status für Genehmigungen der Dokumentversion verfügbar
 
