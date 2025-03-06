@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: c887569d59c7751210671cab97c492ee1752fffc
+source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
 workflow-type: tm+mt
-source-wordcount: '1463'
+source-wordcount: '1465'
 ht-degree: 6%
 
 ---
@@ -184,7 +184,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
      </tr> 
      <tr> 
       <td role="rowheader">Nur Firmen, Gruppen &amp; Teams anzeigen, der Sie angehören</td> 
-      <td>Ermöglicht Benutzenden, Elemente nur für Unternehmen, Gruppen und Teams anzuzeigen und freizugeben, denen sie angehören.<p><strong>HINWEIS</strong>: Benutzer mit Anfordererlizenzen können keine Unternehmen anzeigen, denen sie nicht angehören, selbst wenn diese Option aktiviert ist.</td> 
+      <td>Ermöglicht Benutzenden, Elemente nur für Unternehmen, Gruppen und Teams anzuzeigen und freizugeben, denen sie angehören.<p><strong>HINWEIS</strong>: Benutzer mit Anforderer- oder Mitwirkerlizenzen können keine Unternehmen anzeigen, denen sie nicht angehören, selbst wenn diese Option aktiviert ist.</td> 
      </tr> 
      <tr> 
       <td role="rowheader">Anzeige von "Geplante Stunden" oder "Tatsächliche Stunden" nicht zulassen</td> 
