@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1567'
+source-wordcount: '1793'
 ht-degree: 1%
 
 ---
@@ -18,22 +18,16 @@ ht-degree: 1%
 
 # Verwalten von Datensatzverbindungen aus Workfront-Objekten
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
 
 {{planning-important-intro}}
 
 Sie können Workfront-Planungsdatensätze in Workfront in den folgenden Bereichen der mit ihnen verbundenen Objekte anzeigen:
 
 * Der Abschnitt Planung eines Workfront-Objekts: Zeigt alle mit einem Objekt verbundenen Datensatztypen und die entsprechenden verbundenen Datensätze an.
-* Benutzerdefiniertes Feld für Planning-Verbindung: Zeigt einen Datensatztyp und die entsprechenden verbundenen Datensätze an.
-
-<!--replace the last sentence above with this: 
-
-Displays one record type, its respective connected records, <span class="preview">and up to 7 lookup fields of the connected records.</span>
-
--->
+* Benutzerdefiniertes Feld für Planning-Verbindung: Zeigt einen Datensatztyp, die entsprechenden verbundenen Datensätze <span class="preview">und bis zu 7 Suchfelder der verbundenen Datensätze.</span>
 
 ## Zugriffsanforderungen
 
@@ -210,12 +204,11 @@ Weitere Informationen finden Sie unter [Formular erstellen](/help/quicksilver/ad
 
 Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld für die Planning-Verbindung eines Workfront-Objekts anzeigen:
 
-<!--
-* A Planning connection field displays in the following ways on a Workfront object's custom form, after Planning records are connected to the Workfront object:
+* Ein Feld für die Planning-Verbindung wird im benutzerdefinierten Formular eines Workfront-Objekts wie folgt angezeigt, nachdem Planning-Datensätze mit dem Workfront-Objekt verknüpft wurden:
 
-   * If only the primary field of the connected record is selected, as a field with multiple values, if the connection allows for multiple records to be linked. For information, see [Connect record types overview](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
-   * <span class="preview">If any additional lookup fields from the connected record are selected, the Planning connection field displays as a table. Up to 7 fields can be selected for the Planning connection field. The table view is read-only.  </span>
--->
+   * Wenn nur das primäre Feld des verbundenen Datensatzes ausgewählt ist, wird das Feld Planning-Verbindung als Feld mit mehreren Werten angezeigt, wenn die Verbindung die Verknüpfung mehrerer Datensätze zulässt. Weitere Informationen finden Sie unter [Übersicht über Datensatztypen verbinden](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
+   * <span class="preview">Wenn zusätzliche Suchfelder aus dem verbundenen Datensatz ausgewählt sind, wird das Feld Planning-Verbindung als Tabelle angezeigt. Für das Feld Verbindung planen können bis zu 7 Felder ausgewählt werden. Die Tabellenansicht ist schreibgeschützt.  </span>
+
 * Es kann nur ein Datensatztyp mit einem Planning-Verbindungsfeld verknüpft werden. Die Anzahl der Planning-Verbindungsfelder in einem Formular ist unbegrenzt.
 * Sie müssen über die richtigen Zugriffsrechte und Berechtigungen für das Objekt, den Datensatz und Workfront Planning verfügen, um ein benutzerdefiniertes Formular mit einem benutzerdefinierten Feld für die Planning-Verbindung an ein Workfront-Objekt anzuhängen.
 * Sie müssen Beitragsberechtigungen für einen Arbeitsbereich in Workfront Planning besitzen, um Datensätze mit dem Feld Planning-Verbindung eines Workfront-Objekts verbinden oder trennen zu können.
@@ -264,13 +257,13 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld f�
    * Die Datensätze werden sofort mit dem Workfront-Objekt verbunden und im Feld Planning-Verbindung sowie im Abschnitt Planning des Workfront-Objekts angezeigt.
    * Das Workfront-Objekt wird dem verbundenen Feld des Workfront-Planungsdatensatzes hinzugefügt.
    * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden in Workfront Planning ausgefüllt.
-   <!--* <span class="preview">If any record lookup fields were added when the custom form was set up, the record's lookup fields populate automatically in a table view. The table view in the Planning connection field is read-only</span>
-   
-      ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)-->
+   * <span class="preview">Wenn Ihr Workfront- oder Gruppen-Administrator beim Erstellen des benutzerdefinierten Formulars Datensatzsuchfelder hinzugefügt hat, werden die Suchfelder des Datensatzes automatisch in einer Tabellenansicht ausgefüllt. Die Tabellenansicht im Feld Planning-Verbindung ist schreibgeschützt</span>
 
-1. (Optional) Klicken Sie auf den Namen einer <!--<span class="preview">or hover the name of the record in the table, then click the **Open record** icon ![Open record icon on Planning connection custom form](assets/open-record-icon-on-planning-connection-custom-form.png)</span>--> im Feld Planning-Verbindung, um sie in Workfront Planning zu öffnen.
+     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+
+1. (Optional) Klicken Sie auf den Namen eines Datensatzes <span class="preview">oder bewegen Sie den Mauszeiger über den Namen des Datensatzes in der Tabelle und klicken Sie dann auf das Symbol **Datensatz öffnen** ![Symbol „Datensatz öffnen“ im benutzerdefinierten Formular „Planning-](assets/open-record-icon-on-planning-connection-custom-form.png)</span>&quot; im Feld „Planning-Verbindung“, um den Datensatz in Workfront Planning zu öffnen.
 Das Vorschaufeld mit den Details der Workfront-Planungsdatensätze wird geöffnet.
-Sie können Informationen zum Datensatz überprüfen oder bearbeiten oder auf das Symbol **In neuer Registerkarte öffnen** (![ Datensatz in neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) klicken, um die Seite mit den Datensatzdetails zu öffnen.
+1. Überprüfen oder bearbeiten Sie Informationen zum Datensatz oder klicken Sie auf das Symbol **In neuer Registerkarte öffnen** ![Datensatz in neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite mit den Datensatzdetails zu öffnen.
 
 1. (Optional) Klicken Sie im benutzerdefinierten Formular in Workfront auf das Symbol **Entfernen**, das in einem Datensatz ![](assets/remove-icon.png) wird, um es aus dem Feld „Planning-Verbindung“ zu entfernen und vom Workfront-Objekt zu trennen.
 Das Workfront-Objekt wird vom Planungsdatensatz getrennt und alle Suchinformationen aus Workfront werden aus dem Datensatz entfernt.

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '1818'
 ht-degree: 2%
 
 ---
@@ -277,9 +277,9 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
      ![](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
-  Nachdem Sie eine Verbindung zwischen den Datensatztypen hergestellt haben, können Sie einzelne Datensätze dieser Typen miteinander verbinden. Die Verbindung zwischen den Datensätzen wird als verknüpftes Datensatzfeld angezeigt.
+  Nachdem Sie eine Verbindung zwischen den Datensatztypen hergestellt haben, können Sie einzelne Datensätze oder Objekte dieser Typen miteinander verbinden. Die Verbindung zwischen den Datensätzen wird als verbundenes Datensatzfeld oder als Verbindung angezeigt.
 
-* **Verknüpfte Felder** (oder Suchfelder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verknüpft haben, können Sie die Felder der verknüpften Datensätze in dem Datensatz referenzieren, von dem aus Sie eine Verbindung herstellen.
+* **Suchfelder** (oder verknüpfte Felder): Nachdem Sie die Verbindung zwischen zwei Datensatztypen hergestellt und einzelne Datensätze miteinander verbunden haben, können Sie die Felder der verbundenen Datensätze aus dem Datensatz referenzieren, von dem aus Sie eine Verbindung herstellen.
 
   Wenn Sie beispielsweise einen Campaign-Datensatztyp mit einem Workfront-Projektobjekttyp verbinden, können Sie das Budgetfeld der verbundenen Projekte in den Kampagnendatensätzen anzeigen.
 

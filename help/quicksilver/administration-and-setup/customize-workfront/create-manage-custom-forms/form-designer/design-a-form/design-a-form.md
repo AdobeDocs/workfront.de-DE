@@ -8,21 +8,19 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '6493'
+source-wordcount: '6615'
 ht-degree: 5%
 
 ---
 
 # Erstellen eines benutzerdefinierten Formulars
 
-<!--
-<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
--->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer in Adobe Workfront entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten über diese Objekte zu erfassen.
 
@@ -85,7 +83,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    * [Vorhandenes Feld oder Widget wiederverwenden, das bereits in einem anderen benutzerdefinierten Formular verwendet wurde](#reuse-an-existing-field-or-widget-already-used-in-another-custom-form)
    * [Hinweise zu Feldnamen und Kennzeichnungen](#notes-on-field-names-and-labels)
    * [Textfelder hinzufügen](#add-text-fields)
-   * [Berechnete Felder hinzufügen](#add-calculated-fields)
+   * [Hinzufügen von berechneten Feldern](#add-calculated-fields)
    * [Hinzufügen von Optionsfeldern, Kontrollkästchen-Gruppen und Dropdown-Listen](#add-radio-buttons-checkboxes-and-dropdowns)
    * [Felder für automatische Textvervollständigung und Datum hinzufügen](#add-typeahead-and-date-fields)
    * [Hinzufügen externer Suchfelder](#add-external-lookup-fields)
@@ -286,7 +284,7 @@ Hinzufügen eines Textfelds:
 
    Klicken Sie **Speichern und schließen**.
 
-### Berechnete Felder hinzufügen
+### Hinzufügen von berechneten Feldern
 
 In einem benutzerdefinierten Formular können Sie ein berechnetes benutzerdefiniertes Feld hinzufügen, das vorhandene Daten verwendet, um neue Daten zu generieren, wenn das benutzerdefinierte Formular an ein Objekt angehängt wird.
 
@@ -1009,19 +1007,14 @@ So fügen Sie ein Feld für eine Planungsverbindung hinzu:
       <td role="rowheader">Verbindungsfeld</td> 
       <td><p>(Erforderlich) Wählen Sie das Verbindungsfeld zwischen dem ausgewählten Planungs-Datensatztyp, den Sie auf den Workfront-Objekten anzeigen möchten, und dem Workfront-Objekttyp aus. </p> <p> <b>HINWEIS</b></p><p>Sie können mehrere Verbindungsfelder zwischen demselben Objekt und Datensatztyp haben, aber Sie können nur ein Feld auswählen.</p>  </td> 
      </tr>
-    </tbody> 
+
+<tr> 
+      <td role="rowheader"><span class="preview">Eintragstypfelder</span></td> 
+      <td><p><span class="preview">(Optional) Wählen Sie aus dem verbundenen Datensatztyp bis zu 7 Suchfelder aus, die im benutzerdefinierten Formular angezeigt werden sollen. Das primäre Feld ist standardmäßig ausgewählt und kann nicht bearbeitet werden. </span></p> <span class="preview"><p> Die ausgewählten Felder des verbundenen Datensatzes werden in einer Tabellenansicht im benutzerdefinierten Formular angezeigt. Wenn das Formular mit einem Workfront-Objekt verbunden ist, ist die Tabellenansicht schreibgeschützt. </span></p>  
+    <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
+     </tr>
+      </tbody> 
    </table>
-
-
-   <!--
-
-    Add this to the table - one more row at the bottom at release time: 
-
-    <span class="preview">Record type fields</span>
-      
-    <p><span class="preview">(Optional) Select up to 7 lookup fields from the connected record type to display in the custom form. The primary field is selected by default and cannot be edited. </span></p> <span class="preview"><p> The connected record's fields that you select display in the table view on the custom form. The records that will later display on the selected Workfront objects' custom form will not be editable in the table view of the custom form.</span></p>  
-    <img src="assets/planning-connections-field-with-table-on-form-preview.png">
-    -->
 
 1. (Optional) Wiederholen Sie die vorherigen Schritte, um weitere Felder hinzuzufügen.
 

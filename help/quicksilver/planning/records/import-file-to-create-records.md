@@ -1,22 +1,18 @@
 ---
 title: Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 description: Datensätze sind einzelne Instanzen von Datensatztypen, die die Objekttypen von Adobe Workfront Planning sind. In Workfront Planning können Sie Datensätze erstellen, indem Sie Informationen aus einer CSV- oder Excel-Datei importieren.
-hide: true
-hidefromtoc: true
+feature: Workfront Planning
+role: User, Admin
+author: Alina
+recommendations: noDisplay, noCatalog
 exl-id: 940945df-391c-4672-9d9d-180d5028509b
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '985'
+source-wordcount: '964'
 ht-degree: 0%
 
 ---
 
-<!-- add the following in the metadata when live:
-
-feature: Workfront Planning
-role: User, Admin
-author: Alina
-recommendations: noDisplay, noCatalog-->
 
 # Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei
 
@@ -125,14 +121,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 {{step1-to-planning}}
 
-1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensatztypen erstellen möchten,
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze erstellen möchten,
 
    Oder
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichsnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. Klicken Sie auf die Karte des Datensatztyps, in den Sie die Datensätze importieren möchten.
 1. Klicken **oben** auf „Neuer Datensatz“.
-1. Klicken Sie **Aus Datei hochladen** und dann **Weiter**.
+1. Klicken Sie **Aus Datei hochladen** und dann **Weiter**. <!--add screen shot when all three buttons are added - with the Submit a request button-->
 1. Ziehen Sie eine zuvor auf Ihrem Computer gespeicherte Excel- oder CSV-Datei per Drag-and-Drop oder klicken Sie **CSV- oder Excel-Datei auswählen** um eine Datei zu suchen.
 1. Klicken Sie auf **Vorschau und Bearbeitung**.
 1. (Bedingt) Wenn die importierte Datei mehr als ein Blatt enthält, wählen Sie das Optionsfeld des zu importierenden Blatts im Feld **Zu importierendes Blatt auswählen** aus und klicken dann auf **Weiter**. Fahren Sie andernfalls mit dem nächsten Schritt fort.
@@ -146,14 +142,14 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 1. (Optional und bedingt) Wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, wählen **in der linken unteren Ecke** Bildschirms die Option „Fehlende Optionen erstellen“. Wenn diese Option aktiviert ist, werden die fehlenden Einfach- und Mehrfachauswahlfelder hinzugefügt.
 
->[!NOTE]
->
->Wenn der ausgewählte Datensatztyp beispielsweise über ein Statusfeld mit einer einzigen Auswahl wie Neu, In Bearbeitung und Geschlossen verfügt und ein aus einer Datei importiertes Statusfeld auch über eine Option für den Status Halten verfügt, wird die Option für den Status Halten ebenfalls hinzugefügt.
->
->Wenn Sie keine Verwaltungsberechtigungen für den Arbeitsbereich haben, können Sie Datensätze importieren, die zusätzlichen Auswahlmöglichkeiten werden jedoch nicht erstellt. Stattdessen erhalten Sie die folgende Nachricht in der oberen rechten Ecke des Felds Planungsfelder Ihren Spaltenüberschriften zuordnen : **Die Auswahlmöglichkeiten, die nicht in der Verbindung vorhanden sind, Einfach- oder Mehrfachauswahlfelder werden nicht hinzugefügt**.
+   >[!NOTE]
+   >
+   >Wenn der ausgewählte Datensatztyp beispielsweise über ein Statusfeld mit einer einzigen Auswahl wie Neu, In Bearbeitung und Geschlossen verfügt und ein aus einer Datei importiertes Statusfeld auch über eine Option für den Status Halten verfügt, wird die Option für den Status Halten ebenfalls hinzugefügt.
+   >
+   >Wenn Sie keine Verwaltungsberechtigungen für den Arbeitsbereich haben, können Sie Datensätze importieren, die zusätzlichen Auswahlmöglichkeiten werden jedoch nicht erstellt. Stattdessen erhalten Sie die folgende Nachricht in der oberen rechten Ecke des Felds Planungsfelder Ihren Spaltenüberschriften zuordnen : **Die Auswahlmöglichkeiten, die nicht in der Verbindung vorhanden sind, Einfach- oder Mehrfachauswahlfelder werden nicht hinzugefügt**.
 
 
-    &lt;!- Wenn wir verbundene Datensätze hinzufügen und sich das Infosymbol im Tool ändert, fügen Sie diese Elemente auch zu diesem Schritt hinzu—>
+   <!--when we add connected records and the info icon in the tool changes, also add those items to this step and to the NOTE-->
 
 1. Klicken Sie **Importieren**.
 
@@ -161,7 +157,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * Neue Datensätze, die unten in der Tabellenansicht des ausgewählten Datensatztyps angezeigt werden.
    * Neue Feldwerte für vorhandene Felder, die mit jedem Datensatz verknüpft sind.
-   * Neue Auswahlmöglichkeiten für ein Mehrfachauswahlfeld oder ein Einzelauswahlfeld, das in Planning nicht vorhanden war.
+   * Neue Auswahlmöglichkeiten für ein Mehrfachauswahlfeld oder ein Einzelauswahlfeld, das in Planning nicht vorhanden war.  <!--when we add connected records - add those here too-->
 
    Sie können mit der Verwaltung von Feldern und Datensätzen auf der Seite „Datensatztypen“ beginnen.
 

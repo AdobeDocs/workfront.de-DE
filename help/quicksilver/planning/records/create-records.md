@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
 workflow-type: tm+mt
-source-wordcount: '1804'
+source-wordcount: '1858'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Sie können Datensätze wie folgt erstellen:
 * [Datensätze erstellen, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
 * [Erstellen von Datensätzen durch Senden eines Anforderungsformulars an einen Datensatztyp](#create-records-by-submitting-a-request-form-to-a-record-type)
 * [Erstellen von Datensätzen beim Importieren von Datensatztypen aus einer CSV- oder Excel-Datei](#create-records-when-importing-record-types-from-a-csv-or-excel-file)
-<!--* <Span class="preview">[Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md)</span> -->
+* <Span class="preview">[Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md)</span>
 * <span class="preview">[Erstellen von Datensätzen mithilfe von Automatisierungen](#create-records-by-using-automations)</span>
 
 Informationen zum Verwalten von Datensätzen in der Tabellen- oder Zeitleisten -Ansicht finden Sie in den folgenden Artikeln:
@@ -271,8 +271,6 @@ So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinde
    oder
 Geben Sie einen Namen ein und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird. Der eingegebene Name folgt auch der Schaltfläche Hinzufügen .
 
-   <!--remove the first part of the step above to say just Click Add when the button will be persistent, for preview and production-->
-
    ![Schaltfläche „Hinzufügen“ zum Erstellen von Datensätzen im hervorgehobenen Kontext](assets/add-button-to-create-records-in-context-highlighted.png)
 
    Der Datensatz wird erstellt und dem verbundenen Datensatzfeld hinzugefügt.
@@ -305,18 +303,15 @@ Sie können Datensätze importieren, wenn Sie Datensatztypen mithilfe einer CSV-
 
 Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<!--
 <div class="preview">
 
-## Create records when importing records from a CSV or Excel file
+## Erstellen von Datensätzen beim Importieren von Datensätzen aus einer CSV- oder Excel-Datei
 
-You can import records for existing record types when you import information from a CSV or Excel file. 
+Sie können Datensätze für vorhandene Datensatztypen importieren, wenn Sie Informationen aus einer CSV- oder Excel-Datei importieren.
 
-For information, see [Create Records by importing information from a CSV or Excel file](/help/quicksilver/planning/records/import-file-to-create-records.md). 
+Weitere Informationen finden Sie unter [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md).
 
-</div> 
-
--->
+</div>
 
 <div class="preview">
 
