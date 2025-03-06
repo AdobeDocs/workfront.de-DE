@@ -7,9 +7,9 @@ author: Lisa
 feature: Work Management, Resource Management
 role: User
 exl-id: 09780f78-4eb8-404d-859b-d066d462776d
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 4072e71dc0ba76871e17da7718ed4b77a3cdbda6
 workflow-type: tm+mt
-source-wordcount: '1171'
+source-wordcount: '1109'
 ht-degree: 0%
 
 ---
@@ -18,13 +18,7 @@ ht-degree: 0%
 
 <!-- Audited: 07/2024-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar oder in der Produktionsumgebung für Kunden, die schnelle Versionen aktiviert haben.</span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md).</span>
-
-<span class="preview">Informationen zur aktuellen Version finden Sie unter [Versionsübersicht 4. Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md).</span>
-
-Mithilfe von „Erweiterte Zuweisungen“ können Sie Aufgaben- oder Problemzuweisungen verwalten.
+Sie können Aufgaben- oder Problemzuweisungen mithilfe von „Erweiterte Zuweisungen“ verwalten.
 
 Sie können bei erweiterten Zuweisungen die folgenden Zuweisungsinformationen anpassen:
 
@@ -72,7 +66,7 @@ Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen für eine Aufgabe oder ein Problem</p>  </td> 
+   <td> <p>Mitwirken an oder höhere Berechtigungen für eine Aufgabe oder ein Problem</p>  </td> 
   </tr> 
  </tbody> 
 </table>
@@ -102,7 +96,7 @@ Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte 
 
    <span class="preview">![Klicken Sie auf Erweitert](assets/assignments-box-in-task-header.png)</span>
 
-1. Beginnen Sie im Feld **Personen, Rollen und Teams suchen** mit der Eingabe des Namens eines Benutzers, einer Rolle oder eines Teams und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Geben Sie **Feld „Personen, Rollen und Teams suchen** den Namen eines Benutzers, einer Rolle oder eines Teams ein und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!NOTE]
    >
@@ -140,10 +134,6 @@ Darüber hinaus können Sie in den folgenden Bereichen von Workfront erweiterte 
      >Je nachdem, wie der Workfront-Administrator oder der Gruppenadministrator Ihre Projektvoreinstellungen eingerichtet hat, kann Workfront den Zeitplan des Aufgabenbesitzers verwenden, um den Zeitplan der Aufgabe zu berechnen, wenn mehrere Benutzende der Aufgabe zugewiesen sind. Informationen zu mehreren Aufgabenzuweisungen finden Sie im Abschnitt „Mehrere Benutzer einer Aufgabe zuweisen“ im Artikel &quot;[ zuweisen](../../../manage-work/tasks/assign-tasks/assign-tasks.md).
 
    * **Zuteilungen** : Wenn der Dauertyp einer Aufgabe „Einfach“ ist, geben Sie die Anzahl der Stunden an, die jeder Benutzer bzw. jedes Aufgabengebiet der Aufgabe zugewiesen werden soll. Die Summe aller zugewiesenen Stunden für jeden Benutzer ist gleich der Zahl im Feld **Geplante Stunden** am unteren Rand der Spalte „Zuordnungen“. Geben Sie in allen anderen Fällen den Prozentsatz der Zeit (oder Zuordnung) an, die der Beauftragte für die Lösung der Aufgabe oder des Problems aufwenden soll.
-
-     <!--   
-     <p data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE: make sure this is right in the new UI for both classic and QS???)</p>   
-     -->
 
      >[!TIP]
      >   
