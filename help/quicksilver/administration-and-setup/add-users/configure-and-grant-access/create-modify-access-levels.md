@@ -8,7 +8,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: f9bf60fc39cc7cd26e242e7cc782ece060cc5471
+source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 6%
@@ -221,3 +221,6 @@ Wenn Sie einem Standard- oder Planer-Benutzer administrativen Zugriff auf Aufgab
 Wenn Sie später den administrativen Zugriff auf Aufgabengebiete für den Benutzer deaktivieren, sind Aufgabengebiete für den Benutzer weiterhin sichtbar, da die Einstellung „Aufgabengebiet bearbeiten - Abrechnung und Kostensätze“ weiterhin aktiviert ist.
 
 Wenn dies eintritt und Sie den Zugriff des Benutzers auf die Anzeige von Aufgabengebieten entfernen müssen, müssen Sie die Berechtigungseinstellung „Rolle bearbeiten - Abrechnung und Kostensätze“ des Benutzers deaktivieren. Anweisungen finden Sie unter [Zugriff auf Finanzdaten gewähren](grant-access-financial.md).
+
+
+
