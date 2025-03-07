@@ -6,7 +6,7 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 0de6119d-6a47-41f2-87da-2c6752ca436b
-source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
+source-git-commit: 6d0074438b4711198fd94105544efe39665a785e
 workflow-type: tm+mt
 source-wordcount: '338'
 ht-degree: 0%
@@ -44,6 +44,25 @@ Data Connect ist im neuen Ultimate-Plan <!--, and can be purchased as an add-on 
 ### Replizieren von Visualisierungen für erweiterte Analysen
 
 Sie können Workfront Data Connect verwenden, um die erweiterten Analytics-Visualisierungen zu replizieren, die Sie zusätzlich zu vielen neuen Visualisierungsoptionen als am wertvollsten erachten. Je näher wir der Einstellung kommen, desto mehr fügen wir spezifische Beispiele für Abfragen, die Visualisierungen von Enhanced Analytics replizieren, zur Seite [Workfront Data Connect-Beispielabfragen](/help/quicksilver/reports-and-dashboards/data-lake/basic-query-examples.md) hinzu.
+
+<!--Use the queries in the articles below to create data visualizations similar to those in Enhanced Analytics:
+
+
+* [KPI queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
+
+Coming soon:
+
+* Flight plan queries
+* Project activities queries
+* Project treemap queries
+* People queries
+
+
+* [Flight plan queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
+* [Project activities queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
+* [Project treemap queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md) 
+* [People queries](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+-->
 
 ### Hilfe anfordern
 
