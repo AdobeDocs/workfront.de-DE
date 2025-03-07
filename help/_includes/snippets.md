@@ -1,5 +1,5 @@
 ---
-source-git-commit: 2d75f74c7281a3ea288c892db6895754a697e198
+source-git-commit: affff16630379333465c118734babf7a239af272
 workflow-type: tm+mt
 source-wordcount: '2648'
 ht-degree: 1%
@@ -88,7 +88,7 @@ ht-degree: 1%
 Sie können die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeiger darüber bewegen und auf das Informationssymbol klicken <img src="assets/info-icon.png">, die daneben angezeigt wird. Dadurch wird eine QuickInfo angezeigt, die Informationen über die Gruppe auflistet, wie z. B. die Hierarchie der Gruppen darüber und die Namen der Administratoren.
 
 
-## Wichtiger Hinweis zum Onboarding von Admin Consolen {#important-admin-console-onboard}
+## Wichtiger Hinweis zum Admin Console-Onboarding {#important-admin-console-onboard}
 
 >[!IMPORTANT]
 >
@@ -127,7 +127,7 @@ Sie können die richtige Gruppe mit dem Team verknüpfen, indem Sie den Mauszeig
 
 ## Verknüpfte Ordner einrichten {#setup-linked-folder}
 
-Sie können Benutzenden erlauben, in einem Workfront-Projekt Ordner zu erstellen, die mit dem Experience Manager verknüpft sind. Wenn ein Ordner verknüpft ist, wird jedes zum Ordner hinzugefügte Asset automatisch sowohl in Workfront als auch in Experience Manager angezeigt. Wenn ein Asset zum ersten Mal zum verknüpften Ordner in Workfront hinzugefügt wird, werden die Metadaten des Assets an Experience Manager Assets gesendet.
+Sie können Benutzern erlauben, in einem Workfront-Projekt Ordner zu erstellen, die mit Experience Manager verknüpft sind. Wenn ein Ordner verknüpft ist, wird jedes zum Ordner hinzugefügte Asset automatisch sowohl in Workfront als auch in Experience Manager angezeigt. Wenn ein Asset zum ersten Mal zum verknüpften Ordner in Workfront hinzugefügt wird, werden die Metadaten des Assets an Experience Manager Assets gesendet.
 
 In den folgenden Schritten geben Sie an, wo die verknüpften Ordner erstellt werden sollen. Jede Integration kann für alle verknüpften Ordner nur einen Speicherort haben.
 
@@ -171,7 +171,7 @@ So richten Sie verknüpfte Ordner ein:
 
 Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwendung installieren:
 * Informationen zu Photoshop finden Sie unter [Installieren von Adobe Workfront für Photoshop](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-cc-install-ps.md)
-* Informationen zu XD finden Sie [Installieren von Adobe Workfront für XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
+* Informationen zu XD finden Sie unter [Installieren von Adobe Workfront für XD](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-adobe-xd-install.md)
 * Informationen zu InDesign, Illustrator, Premiere Pro und After Effects finden Sie unter [Installieren von Adobe Workfront für Design und Video](/help/quicksilver/workfront-integrations-and-apps/adobe-workfront-for-creative-cloud/wf-install-cc.md)
 
 ## Liste der CC-Anwendungen {#cc-app-list}
@@ -315,7 +315,7 @@ Sie müssen das richtige Plug-in für die verwendete Adobe Creative Cloud-Anwend
 
 <!-- Manage Work -->
 
-## 1. Schritt - Erreichbarkeit der Portfolios - {#step1-to-portfolios}
+## Schritt 1: Zugriff auf Portfolios - {#step1-to-portfolios}
 
 1. Klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon.png) in der oberen rechten Ecke von Adobe Workfront oder (falls verfügbar) klicken Sie auf das **[!UICONTROL Hauptmenü]**-Symbol ![Hauptmenü](/help/_includes/assets/main-menu-icon-left-nav.png) in der oberen linken Ecke und klicken Sie dann auf **[!UICONTROL Portfolios]**.
 
@@ -495,3 +495,5 @@ For each snippets, create a head 2 section and add an anchor, such as
 In any .md file, add {{classic-note}} where you want that shared snippet content to appear.
 
 -->
+
+

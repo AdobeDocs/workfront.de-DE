@@ -2,21 +2,21 @@
 content-type: reference
 product-area: documents;workfront-integrations
 navigation-topic: documents-navigation-topic
-title: Erstellen eines Ordners, der mit Experience Manager Assets oder Assets Essentials verknüpft ist
-description: In Workfront können Sie einen Ordner erstellen, der mit Experience Manager Assets oder Assets Essentials verknüpft ist.
+title: Erstellen eines mit Experience Manager Assets oder Assets Essentials verknüpften Ordners
+description: Sie können in Workfront einen Ordner erstellen, der mit Experience Manager Assets oder Assets Essentials verknüpft ist.
 author: Courtney
 feature: Digital Content and Documents, Workfront Integrations and Apps
 exl-id: eb2b3b21-bc0b-45d3-85fa-1715cf927cb7
-source-git-commit: 84760d5fe301bd0a44879490fb030bd29821bd41
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '439'
 ht-degree: 0%
 
 ---
 
-# Erstellen eines Ordners, der mit Experience Manager Assets oder Assets Essentials verknüpft ist
+# Erstellen eines mit Experience Manager Assets oder Assets Essentials verknüpften Ordners
 
-In Workfront können Sie einen Ordner erstellen, der mit Experience Manager Assets oder Assets Essentials verknüpft ist. Da der Ordner verknüpft ist, wird jedes zum Ordner hinzugefügte Asset automatisch sowohl in Workfront als auch in Experience Manager angezeigt. Sie müssen das Asset nicht manuell senden, wenn es sich in einem verknüpften Ordner befindet.
+Sie können in Workfront einen Ordner erstellen, der mit Experience Manager Assets oder Assets Essentials verknüpft ist. Da der Ordner verknüpft ist, wird jedes zum Ordner hinzugefügte Asset automatisch sowohl in Workfront als auch in Experience Manager angezeigt. Sie müssen das Asset nicht manuell senden, wenn es sich in einem verknüpften Ordner befindet.
 
 Wenn ein Asset aus einem verknüpften Ordner innerhalb von Experience Manager Assets oder Assets Essentials gelöscht oder verschoben wird, behält Workfront eine Kopie des Assets im Bereich Projekt > Dokumente bei.
 
@@ -42,7 +42,7 @@ Sie müssen über Folgendes verfügen:
   <tr>
    <td><strong>Produkt</strong>
    </td>
-   <td>Sie müssen über Experience Manager Assets as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzerin bzw. Benutzer hinzugefügt werden.
+   <td>Sie müssen über Experience Manager Assets as a Cloud Service oder Assets Essentials verfügen und Sie müssen dem Produkt als Benutzer hinzugefügt werden.
    </td>
   </tr>
   <tr>
@@ -54,7 +54,7 @@ Sie müssen über Folgendes verfügen:
   <tr>
    <td><strong>Konfigurationen der Zugriffsebene</strong>
    </td>
-   <td>Sie müssen ein Workfront-Administrator sein, um eine Experience Manager-Integration zu konfigurieren. Nach der Konfiguration können Benutzer mit Planlizenz verknüpfte Ordner für einzelne Projekte einrichten.
+   <td>Sie müssen ein Workfront-Administrator sein, um eine Experience Manager-Integration konfigurieren zu können. Nach der Konfiguration können Benutzer mit Planlizenz verknüpfte Ordner für einzelne Projekte einrichten.
    </td>
   </tr>
 </table>
@@ -75,7 +75,12 @@ Bevor Sie beginnen,
 
 Der verknüpfte Ordner wird an dem Speicherort erstellt, der vom Workfront-Administrator bei der Einrichtung der Integration angegeben wurde. Jede Integration kann nur einen Ordnerspeicherort für verknüpfte Ordner haben.
 
-Der Name des verknüpften Ordners wird automatisch auf Grundlage des Portfolios, des Programms und des zugehörigen Projekts erstellt und kann nicht geändert werden. Wenn das Projekt keinem Portfolio oder Programm zugeordnet ist, zeigt der verknüpfte Ordner den Projektnamen und das Erstellungsdatum an.
+Der Name des verknüpften Ordners wird automatisch auf der Basis von Portfolio, Programm und dem zugehörigen Projekt erstellt und kann nicht geändert werden. Wenn das Projekt nicht mit einer Portfolio oder einem Programm verknüpft ist, zeigt der verknüpfte Ordner den Projektnamen und das Erstellungsdatum an.
+
+>[!NOTE]
+>
+>Sie können kein neues Dokument oder keine neue Korrekturabzugsversion innerhalb eines verknüpften Ordners erstellen.
+
 
 So erstellen Sie einen verknüpften Ordner:
 
@@ -84,7 +89,7 @@ So erstellen Sie einen verknüpften Ordner:
 
    >[!NOTE]
    >
-   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen, sodass Experience Manager Assets oder Assets Essentials möglicherweise nicht explizit erwähnt werden.
+   >Der Workfront-Administrator kann einen beliebigen Namen für diese Integration auswählen und erwähnt daher möglicherweise nicht speziell Experience Manager Assets oder Assets Essentials.
 
-1. Wählen Sie **Verknüpften Ordner erstellen** aus. Das System erstellt automatisch einen Ordner im Experience Manager basierend auf dem Speicherort, der beim Einrichten der Integration angegeben wurde.
+1. Wählen Sie **Verknüpften Ordner erstellen** aus. Das System erstellt automatisch einen Ordner in Experience Manager basierend auf dem Speicherort, der beim Einrichten der Integration angegeben wurde.
    ![Verknüpften Ordner erstellen](assets/linked-folder.png)

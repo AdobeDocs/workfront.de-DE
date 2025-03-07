@@ -7,14 +7,19 @@ description: Die Flugplan-Visualisierung zeigt, wie viele Projekte (innerhalb de
 author: Nolan
 feature: Reports and Dashboards
 exl-id: c64ed752-151a-40f7-ab18-684e2cd032bc
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '885'
+source-wordcount: '927'
 ht-degree: 4%
 
 ---
 
 # Anzeigen der Flugplanvisualisierung in Enhanced Analytics
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
+
 
 Die Flugplan-Visualisierung zeigt, wie viele Projekte (innerhalb der angewendeten Filterkriterien) in Bearbeitung waren, welche Zustandsänderungen während der Laufzeit dieser Projekte eingetreten sind und wie gut diese Projekte die geplanten Fertigstellungsfristen eingehalten haben.
 

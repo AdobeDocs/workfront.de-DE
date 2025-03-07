@@ -7,9 +7,9 @@ description: Im erweiterten Analysebereich werden oben im Bildschirm vier wichti
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 44e43618-9a0b-4585-8659-c1fe055516be
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '524'
+source-wordcount: '566'
 ht-degree: 1%
 
 ---
@@ -18,8 +18,11 @@ ht-degree: 1%
 
 >[!IMPORTANT]
 >
->Für die Verwendung dieser Funktion ist ein Geschäftsplan oder höher erforderlich.\
->Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Adobe Workfront-Pläne](https://www.workfront.com/plans).
+>Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
+
+
+Für die Verwendung dieser Funktion ist ein Geschäftsplan oder höher erforderlich.\
+Weitere Informationen zu den verschiedenen verfügbaren Plänen finden Sie unter [Adobe Workfront-Pläne](https://www.workfront.com/plans).
 
 Im erweiterten Analysebereich werden oben im Bildschirm vier wichtige Leistungsindikatoren (KPIs) angezeigt. Mit diesen Metriken können Sie schnell ermitteln, wie lange Projekte dauern, wie groß die Projekte sind und wie viele Projekte in einem bestimmten Zeitrahmen abgeschlossen werden. Diese Zahlen sind nicht auf die maximal 50 Projekte beschränkt, die für die Visualisierungen auf dieser Seite angezeigt werden. Stattdessen basieren diese Daten auf allen Projekten, die für beliebige Filtersätze gelten. Diese Zahlen werden angepasst, wenn Sie den ausgewählten Datumsbereich oder einen der Filter ändern.
 

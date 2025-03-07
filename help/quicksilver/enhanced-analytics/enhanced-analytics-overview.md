@@ -7,14 +7,19 @@ description: Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a14ad57c-859b-43df-84c0-575ccda86e50
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1246'
 ht-degree: 3%
 
 ---
 
 # Erweiterte Analyse - Übersicht
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
+
 
 Enhanced Analytics ist ein leistungsstarkes Tool in Adobe Workfront mit vordefinierten Visualisierungen, mit denen Sie Projektdaten betrachten und Trends bei der Planung und beim Abschluss identifizieren können. Dieser Einblick in Ihre Projekte hilft Ihnen, Ihre aktuelle Arbeit zu verwalten und Ihre zukünftigen Arbeiten genauer zu planen.
 

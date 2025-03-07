@@ -6,14 +6,19 @@ description: Mit den Filtern im erweiterten Analysebereich von Adobe Workfront k
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 25854c04-d914-4302-a36b-e8134637efe1
-source-git-commit: 4cab7bed6cb4c25d96e70ccce2ece7f6d156f435
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '1486'
+source-wordcount: '1528'
 ht-degree: 0%
 
 ---
 
 # Anwenden von Filtern in erweiterten Analysen
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
+
 
 <!-- Audited: 12/2023 -->
 
@@ -52,7 +57,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr>
   <tr> 
    <td>Konfigurationen der Zugriffsebene</td> 
-   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Sie müssen auch Ansichtszugriff auf Aufgaben, Portfolios und Benutzende haben, um bestimmte Projektfeldfilteroptionen anzeigen zu können.</p> <p>Hinweis: Wenn im Abschnitt <strong>Zusätzliche Einschränkungen festlegen</strong> des Dialogfelds „Zugriffsebene bearbeiten“ Einschränkungen ausgewählt sind, werden möglicherweise nicht alle Informationen in den Filtern oder auf der Seite „Erweiterte Analyse“ angezeigt, nachdem der Filter angewendet wurde.</p> </td> 
+   <td> <p>Zugriff auf Projekte anzeigen</p> <p>Sie müssen auch Ansichtszugriff auf Aufgaben, Portfolios und Benutzer haben, um bestimmte Projektfeldfilteroptionen anzeigen zu können.</p> <p>Hinweis: Wenn im Abschnitt <strong>Zusätzliche Einschränkungen festlegen</strong> des Dialogfelds „Zugriffsebene bearbeiten“ Einschränkungen ausgewählt sind, werden möglicherweise nicht alle Informationen in den Filtern oder auf der Seite „Erweiterte Analyse“ angezeigt, nachdem der Filter angewendet wurde.</p> </td> 
   </tr> 
   <tr> 
    <td> <p>Objektberechtigungen </p> </td> 

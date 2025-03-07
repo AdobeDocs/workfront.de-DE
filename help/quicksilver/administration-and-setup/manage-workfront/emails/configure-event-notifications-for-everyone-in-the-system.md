@@ -5,9 +5,9 @@ author: Nolan
 feature: System Setup and Administration
 role: Admin
 exl-id: 027ecebd-d9de-4cdd-b15a-88de18367591
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: e9c6a01e80d34bc873c9a06ae0782dc65afb2445
 workflow-type: tm+mt
-source-wordcount: '593'
+source-wordcount: '571'
 ht-degree: 1%
 
 ---
@@ -90,8 +90,6 @@ Sie müssen Benachrichtigungen im Bereich Setup von Workfront aktivieren, bevor 
 
 1. (Optional) Wenn Sie die Konfiguration einer E-Mail-Benachrichtigung entsperren möchten, damit Gruppenadministratoren sie separat für ihre Gruppen konfigurieren können, klicken Sie auf die Schaltfläche ![Sperren-Umschalter](assets/lock-toggle-button.png) rechts neben der Benachrichtigung, um sie in die entsperrte Position zu ![Entsperren-Umschalter](assets/unlock-toggle-button.png).
 
-   >[!NOTE]
-   >
-   >Diese Funktion steht zunächst nur Kunden auf Cluster 4 im Rahmen eines schrittweisen Rollouts zur Verfügung. Kurz darauf wird es für andere Cluster verfügbar sein. Dieser Artikel wird aktualisiert, sobald dieser auftritt.
-
    Weitere Informationen finden Sie unter [Konfiguration von Ereignisbenachrichtigungen für alle Gruppen entsperren oder sperren](../../../administration-and-setup/manage-workfront/emails/unlock-configuration-of-event-notifications-for-groups.md).
+
+Benutzer können die Häufigkeit dieser Benachrichtigungen in ihrem Benutzerprofil anpassen.

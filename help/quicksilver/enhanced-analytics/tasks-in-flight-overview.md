@@ -7,14 +7,19 @@ description: Die Aufgaben in der Flugvisualisierung zeigt, wie viele Aufgaben (i
 author: Nolan
 feature: Reports and Dashboards
 exl-id: cc738450-362a-49e8-836f-611fa82057b5
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '749'
+source-wordcount: '791'
 ht-degree: 4%
 
 ---
 
 # Anzeigen der Aufgaben in der Flugvisualisierung in Enhanced Analytics
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
+
 
 Die Aufgaben in der Flugvisualisierung zeigt, wie viele Aufgaben (innerhalb der angewendeten Filterkriterien) für ein Projekt gerade ausgeführt werden, wie viel Arbeit in Prozent für jede Aufgabe abgeschlossen ist und wie terminiert die Aufgaben sind.
 

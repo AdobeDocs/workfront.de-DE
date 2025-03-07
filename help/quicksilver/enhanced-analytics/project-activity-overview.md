@@ -7,14 +7,19 @@ description: Die Visualisierung der Projektaktivität zeigt eine aggregierte Ans
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 9ef52be8-48d0-4f83-a214-dd32e794c73e
-source-git-commit: 325334010d5f1206931cc9ace67f9511d614ffca
+source-git-commit: 59e021aa3ae66e4fc8d9ce9eb57616f948e6cd90
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '820'
 ht-degree: 8%
 
 ---
 
 # Visualisierung der Projektaktivität in Enhanced Analytics anzeigen
+
+>[!IMPORTANT]
+>
+>Enhanced Analytics wird in der Woche des 26. Mai aus Workfront entfernt. Workfront Data Connect ist eine neue, alternative Lösung und kann verwendet werden, um alle derzeit verwendeten Visualisierungen von Enhanced Analytics zu replizieren. <br>Weitere Informationen finden Sie im Handbuch [Erweiterte Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md)Einstellung“.
+
 
 <!-- Audited: 12/2023 -->
 

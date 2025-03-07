@@ -7,7 +7,7 @@ description: Sie können einen Korrekturabzug konfigurieren, den Sie in Korrektu
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: ca379054-4737-4796-a812-f2ec38b437ba
-source-git-commit: c3e15a052533d43065b50a9f56169b82f8dc3765
+source-git-commit: 5635906462cf838c3ca162cb47b16f157e6a66f6
 workflow-type: tm+mt
 source-wordcount: '1055'
 ht-degree: 1%
@@ -113,11 +113,12 @@ Durch die Aktivierung des Abonnements für den Korrekturabzug können Personen, 
 
 Wenn das Abonnement für einen Korrekturabzug aktiviert wurde, werden die folgenden Felder aktiv:
 
-* **[!UICONTROL Abonnentenvalidierung erforderlich]** - Abonnenten müssen auf einen Link in einer E-Mail klicken, um auf einen Korrekturabzug zuzugreifen\
+* **[!UICONTROL Abonnentenrolle]** - Dies ist die Standardrolle für den Korrekturabzug, die allen Reviewern zugewiesen wird, die den Korrekturabzug selbst abonnieren.
+* **[!UICONTROL E-Mail-Warnhinweiseinstellungen für Abonnenten]** - Dies ist der standardmäßige E-Mail-Warnhinweis, der allen Reviewern zugewiesen wird, die den Testversand selbst abonnieren.
+* **[!UICONTROL Zugriff auf Korrekturabzug über einen E-Mail-Link erforderlich für]** - Abonnenten müssen auf einen Link in einer E-Mail klicken, um auf einen Korrekturabzug zuzugreifen\
    Die Auswahl dieser Option bedeutet, dass die abonnierende Person keinen sofortigen Zugriff auf den Korrekturabzug erhält, sondern einen Link zum Korrekturabzug in einer E-Mail erhält. Mit der Abonnentenvalidierung soll sichergestellt werden, dass die Person eine korrekte E-Mail-Adresse eingegeben hat, zu der sie Zugriff hat.
 
-* **[!UICONTROL Standardrolle für neue Abonnenten]** - Dies ist die Standardrolle für Korrekturabzüge, die allen Reviewern zugewiesen wird, die den Korrekturabzug selbst abonnieren.
-* **[!UICONTROL Standard-E-Mail-Warnhinweis für neue Abonnenten]** - Dies ist der standardmäßige E-Mail-Warnhinweis, der allen Reviewern zugewiesen wird, die den Testversand selbst abonnieren.
+
 
 Siehe auch [Abonnieren eines Korrekturabzugs in [!DNL Workfront Proof]](../../../workfront-proof/wp-work-proofsfiles/share-proofs-and-files/subscribe-to-proof.md)
 
