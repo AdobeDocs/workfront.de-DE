@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3695c5bb566434d70907bfecf775ccd12b9208f4
+source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
 workflow-type: tm+mt
-source-wordcount: '1586'
+source-wordcount: '1589'
 ht-degree: 0%
 
 ---
@@ -62,7 +62,7 @@ Um die Einstellungen anzuzeigen, gehen Sie zu Einrichtung > Voreinstellungen > G
 
 Wir haben die Listen für Projekt-, Aufgaben- und Problem-Genehmigungen unter Setup > Gruppen > Genehmigungen mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
-Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Gruppen > Genehmigungen.
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Gruppen > Gruppe wählen > Genehmigungen.
 
 Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
 
