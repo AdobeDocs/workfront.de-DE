@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 1e372089de40c49cd99c0b0d95a614f6e6c4a997
+source-git-commit: 321a29a4792bf8a40c04e46e8b29bf44e092678f
 workflow-type: tm+mt
-source-wordcount: '13061'
+source-wordcount: '13063'
 ht-degree: 2%
 
 ---
@@ -1702,13 +1702,13 @@ ht-degree: 2%
       * [Datenwörterbuch für Workfront Data Connect](reports-and-dashboards/data-lake/data-dictionary.md)
       * [Beispiele für Workfront Data Connect-Abfragen](reports-and-dashboards/data-lake/basic-query-examples.md)
       * [Anzeigen von Workfront Data Connect-Nutzungsmetriken](reports-and-dashboards/data-lake/view-usage-metrics.md)
-      * [Erweiterte Analytics-Abfragen]{#enhanced-analytics-queries}
+      * Erweiterte Analytics-Abfragen{#enhanced-analytics-queries}
          * [Erweiterte Analytics-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/enhanced-analytics-queries.md)
          * [KPI-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/kpi-queries.md)
          * [Flugplan-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/flight-plan-queries.md)
          * [Projektaktivitäten-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-activity-queries.md)
          * [Projekt-Treemap-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/project-tree-map-queries.md)
-         * [Personenabfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/people-queries.md)
+         * [Aktivität nach Team-Abfragen](/help/quicksilver/reports-and-dashboards/data-lake/enhanced-analytics-queries/team-queries.md)
 * Verwalten von Ressourcen {#manage-resources}
    * [Verwalten von Ressourcen](resource-mgmt/manage-resources.md)
    * Ressourcen-Management {#resource-management}
