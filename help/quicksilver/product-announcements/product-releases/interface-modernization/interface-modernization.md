@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: b4747df73cedfb512fb54f912a5370cbb3a4c6a7
+source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
 workflow-type: tm+mt
-source-wordcount: '1589'
+source-wordcount: '1634'
 ht-degree: 0%
 
 ---
@@ -141,6 +141,14 @@ Wir haben die Listen für Projekt-, Aufgaben- und Problemgenehmigungen in Setup 
 Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
 
 ## Agile
+
+### Aktualisierungen der Benutzeroberfläche für Teamanfragen
+
+**Vorschau-Version: 6. März 2025; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben die Seite „Teamanfragen“ mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Teams > Team auswählen > Team-Anfragen .
 
 ### Seite Übersicht über die Aktualisierung der Benutzeroberfläche für Iterationen
 
