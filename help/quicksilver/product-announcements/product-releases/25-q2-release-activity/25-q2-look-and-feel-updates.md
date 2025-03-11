@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: f90a1066202e2c949ab5bfebf85897060f1c29d2
+source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
 workflow-type: tm+mt
-source-wordcount: '424'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -68,3 +68,5 @@ Das Erscheinungsbild des Dialogfelds Freigeben wurde auf ein modernes Design akt
 
 * Die Option „Systemweit sichtbar“ zeigt jetzt „Jeder im System kann anzeigen“. Diese Option funktioniert weiterhin wie zuvor.
 * Über ein neues Symbol können Sie auf erweiterte Freigabeeinstellungen zugreifen.
+
+Weitere Informationen darüber, wo das Dialogfeld „Freigeben“ zu finden ist, finden Sie unter [Gewähren und Anfordern von Berechtigungen für Objekte](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
