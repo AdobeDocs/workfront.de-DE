@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1865'
 ht-degree: 1%
@@ -95,7 +95,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <ul>
-   <li><p>Verwalten von Berechtigungen für einen Arbeitsbereich</p></li>
+   <li><p>Verwalten von Berechtigungen für eine Workspace-<!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Systemadministratoren können Arbeitsbereiche verwalten, die sie nicht erstellt haben. </p></li>
     </ul>
    <p>Informationen zu Freigabeberechtigungen für Workfront Planning-Objekte finden Sie unter  

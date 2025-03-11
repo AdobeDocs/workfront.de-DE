@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: ba17bd824717f61e72fb9a73c8b90fbe755e20d8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '658'
 ht-degree: 1%
@@ -68,7 +68,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Adobe Workfront-Plattform</p></td>
    <td>
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p>
    </td>
 
 </tr>
@@ -89,7 +89,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <ul>
-   <li><p>Verwalten von Berechtigungen für einen Arbeitsbereich</p></li>
+   <li><p>Verwalten von Berechtigungen für eine Workspace-<!--<span class="preview">and record type</span>--> </p></li>
     <li><p>Systemadministratoren können Arbeitsbereiche verwalten, die sie nicht erstellt haben. </p></li>
     </ul>
    <p>Informationen zu Freigabeberechtigungen für Workfront Planning-Objekte finden Sie unter  
@@ -149,7 +149,7 @@ Wenn ein Anfrageformular irrelevant wird und Sie nicht mehr möchten, dass jeman
 
    Unten im Bildschirm wird eine Bestätigung angezeigt, die Sie darüber informiert, dass die Veröffentlichung des Formulars aufgehoben wurde.
 
-   Die Schaltfläche **Veröffentlichung aufheben** ändert sich in **Publish**.
+   Die Schaltfläche **Veröffentlichung aufheben** ändert sich in **Veröffentlichen**.
 
 1. Klicken Sie auf **Speichern**.
 

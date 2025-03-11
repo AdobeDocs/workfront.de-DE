@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '3330'
+source-wordcount: '3327'
 ht-degree: 1%
 
 ---
@@ -58,7 +58,7 @@ Sie können Folgendes verbinden:
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -118,8 +118,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Beitragen von oder höheren Berechtigungen zu einem Arbeitsbereich, um Datensätze zu verbinden </p>  
-   <p>Zeigen Sie eine oder höhere Berechtigungen für einen Arbeitsbereich an, um alle Verbindungen zu Objekten und Feldern von anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in der anderen Anwendung. </p>
+   <td>   <p>Mitwirken an oder höhere Berechtigungen für einen Arbeitsbereich <!--<span class="preview">and record type</span>--> Verbinden von Datensätzen </p>  
+   <p>Anzeigen von oder höhere Berechtigungen für einen Workspace-<!--<span class="preview">and record type</span>-->, um alle Verbindungen zu Objekten und Feldern von anderen Anwendungen anzuzeigen, unabhängig von Ihrem Zugriff in der anderen Anwendung. </p>
    <p>Zeigen Sie Berechtigungen zum Anzeigen oder höhere Berechtigungen für die Objekte an, die Sie von Workfront oder Experience Manager Assets aus verknüpfen möchten. </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p> </td> 
   </tr> 

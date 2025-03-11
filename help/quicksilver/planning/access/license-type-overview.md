@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: ddcefb0baf10df9ae9ac3b29d7da1e2a070101c8
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '521'
+source-wordcount: '584'
 ht-degree: 0%
 
 ---
@@ -24,7 +24,7 @@ ht-degree: 0%
 
 Ihr Adobe Workfront-Lizenztyp arbeitet mit Ihren Adobe Workfront Planning-Berechtigungen zusammen, um den folgenden Zugriff zu gewähren:
 
-* Arbeitsbereiche anzeigen, beitragen oder verwalten
+* Arbeitsbereiche anzeigen, beitragen oder verwalten <!--<span class="preview">or record types</span>-->
 * Ansichten anzeigen oder verwalten.
 
 Informationen zu Berechtigungen für Objekte in Workfront Planning finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
@@ -39,9 +39,20 @@ Durch das Gewähren von Benutzerberechtigungen für einen Arbeitsbereich werden 
 
 Sie müssen Benutzenden zusätzlich zu den für Arbeitsbereiche separate Berechtigungen für Ansichten gewähren, damit sie auf Ansichten zugreifen und diese verwalten können.
 
+
+<div class="preview">
+
+Beachten Sie beim Arbeiten mit Berechtigungen für Datensatztypen Folgendes:
+
+* Benutzer erben automatisch Berechtigungen für Datensatztypen von Arbeitsbereichen.
+* Wenn ein(e) Benutzende(r) Verwaltungsberechtigungen für einen Arbeitsbereich hat, kann er/sie keinen geringeren Zugriff auf den Datensatztyp haben.
+* Benutzende können nicht über größere Berechtigungen für einen Datensatztyp verfügen als für den Arbeitsbereich, zu dem der Datensatztyp gehört.
+
+</div>
+
 | Adobe Workfront Lizenztyp* | Höchste in Adobe Workfront Planning zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Benutzer können Arbeitsbereiche und Ansichten verwalten. Sie können Workspaces, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p> <br> <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
+| Standard | <p>Benutzer können <span class="preview">, Datensatztypen, </span> und Ansichten von Arbeitsbereichen verwalten. Sie können Workspaces, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p> <br> <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
 | Licht oder Mitwirkender | <p>Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen.</p> <br> <p>Benutzer können die Ansichten anzeigen, die für sie freigegeben wurden, sie können jedoch keine eigenen erstellen. </p><br> <p>Benutzende können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen.</p> |
 
 *Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar.
@@ -60,9 +71,11 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 ### Lizenztypen und Workspace-Berechtigungen
 
-Nur Benutzer mit einer Standardlizenz können Berechtigungen zum Beitragen oder Verwalten für Arbeitsbereiche haben. Benutzer aller anderen Lizenztypen können Ansichtsberechtigungen für Arbeitsbereiche haben, die für sie freigegeben wurden.
+Nur Benutzer mit einer Standardlizenz können Berechtigungen zum Beitragen oder Verwalten für Arbeitsbereiche (<span class="preview"> Datensatztypen) </span>. Benutzende mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Arbeitsbereiche verfügen <span class="preview"> und Datensatztypen </span> für sie freigegeben.
 
 Systemadministratoren können alle Arbeitsbereiche im System anzeigen, auch die, die sie nicht erstellt haben.
+
+<!--does the shot below need to be replaced for record types??-->
 
 >[!INFO]
 >

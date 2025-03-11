@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: 4ec3732d547cb3976c1376cbd0cf86b44b0e691b
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '1798'
 ht-degree: 0%
@@ -90,7 +90,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr>
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
-   <p>Anzeigen von oder höhere Berechtigungen für einen Arbeitsbereich, wenn Sie Workfront-Benutzer sind</p> 
+   <p>Zeigen Sie Berechtigungen oder höhere Berechtigungen für einen Workspace-<!--<span class="preview">and record type</span>--> an, wenn Sie ein Workfront-Benutzer sind</p> 
   </td>
   </tr>
 <tr>

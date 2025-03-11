@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: a6eb8c7c-a34d-4c84-a45c-7e7f050a4302
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '433'
 ht-degree: 1%
 
 ---
@@ -28,7 +28,7 @@ In-App-Benachrichtigungen von Workfront Planning können empfangen werden, wenn 
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -66,7 +66,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> 
 <p>Die Workfront-Instanz Ihres Unternehmens muss in das einheitliche Adobe-Erlebnis integriert werden.</p> 
 <p>Die Benutzenden in Ihrem Unternehmen erhalten nur dann Benachrichtigungen von Workfront Planning, wenn Ihr Unternehmen zum einheitlichen Adobe-Erlebnis hinzugefügt wird. </p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -101,7 +101,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <!--
 OLD:
 
-+++ Expand to view access requirements for Workfront Planning. 
++++ Expand to view access requirements.. 
 
 <table style="table-layout:auto">
  <col>

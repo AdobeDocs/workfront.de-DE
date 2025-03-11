@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 9629558bfc2c4fa7fb040bcc45534164e0d8b3b4
+source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
 workflow-type: tm+mt
-source-wordcount: '614'
+source-wordcount: '611'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die in diesem Artikel beschriebene Funktion ist nur verfügbar, wenn Ihr Unternehmen das einheitliche Adobe-Erlebnis eingeführt hat.
+>Die in diesem Artikel beschriebene Funktion ist nur verfügbar, wenn Ihr Unternehmen in das einheitliche Adobe-Erlebnis integriert wurde.
 >
->Weitere Informationen finden Sie unter [Adobe Unified Experience für Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
+>Weitere Informationen finden Sie unter [Adobe Unified Experience for Workfront](/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md).
 
 
 Sie können Berechtigungen für eine Ansicht oder einen Arbeitsbereich anfordern, wenn jemand einen Link zur Ansicht oder zum Arbeitsbereich, auf den Sie keinen Zugriff haben, für Sie freigibt.
@@ -36,7 +36,7 @@ Informationen zum Gewähren von Berechtigungen für Ansichten und Arbeitsbereich
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -74,8 +74,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td> 
 <p>Um auf alle Funktionen von Workfront zugreifen zu können, muss die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert sein.</p> 
 <p><b>WICHTIG</b></p>
-<p>Die Benutzenden in Ihrer Organisation können nur dann Berechtigungen für Ansichten und Arbeitsbereiche anfordern, wenn in Ihrer Organisation das einheitliche Adobe-Erlebnis integriert ist. </p>
-<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience für Workfront</a>. </p> 
+<p>Die Benutzenden in Ihrem Unternehmen können nur dann Berechtigungen für Ansichten und Arbeitsbereiche anfordern, wenn Ihr Unternehmen in das einheitliche Adobe-Erlebnis integriert ist. </p>
+<p>Weitere Informationen finden Sie unter <a href="/help/quicksilver/workfront-basics/navigate-workfront/workfront-navigation/adobe-unified-experience.md">Adobe Unified Experience for Workfront</a>. </p> 
    </td> 
    </tr> 
   </tr> 
@@ -94,7 +94,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td>  <p>Nachdem Ihre Genehmigungsanfrage erteilt wurde, können Sie die folgenden Berechtigungen erhalten:</p>
    <ul><li><p>Anzeigen oder Verwalten für eine Ansicht</p></li>
-   <li><p>Anzeigen, Contribute oder Verwalten eines Arbeitsbereichs</p></li></ul>  
+   <li><p>Anzeigen, Beitragen oder Verwalten eines Arbeitsbereichs</p></li></ul>  
    <p>Nur Benutzer mit der Berechtigung Verwalten für einen Arbeitsbereich und eine Ansicht können eine Ansicht öffentlich freigeben.</p></td> 
   </tr> 
 <tr> 

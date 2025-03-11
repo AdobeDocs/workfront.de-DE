@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: 00e58ea9a207037b701e1be010c2c4c2995d60e0
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '867'
+source-wordcount: '922'
 ht-degree: 6%
 
 ---
@@ -18,17 +18,17 @@ ht-degree: 6%
 
 # Übersicht über Freigabeberechtigungen in Adobe Workfront Planning
 
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+
+
+
 {{planning-important-intro}}
 
 Sie können Berechtigungen für einen Adobe Workfront Planning-Arbeitsbereich oder eine Ansicht freigeben oder entfernen.
 
 In diesem Artikel werden die Berechtigungsebenen für Workfront Planning-Objekte beschrieben.
-
-Informationen zum Freigeben von Arbeitsbereichen oder Ansichten finden Sie in den folgenden Artikeln:
-
-* [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
-
-* [Ansichten freigeben](/help/quicksilver/planning/access/share-views.md)
 
 ## Objekte, die Sie in Adobe Workfront Planning freigeben können
 
@@ -39,6 +39,22 @@ Sie können die folgenden Objekte gemeinsam nutzen:
    * Sie können Arbeitsbereiche für Personen innerhalb Ihrer Organisation freigeben.
    * Wenn Sie einen Arbeitsbereich freigeben, werden alle Datensatztypen, Datensätze und Felder, die mit den Arbeitsbereichen verknüpft sind, ebenfalls freigegeben.
    * Wenn Sie einen Arbeitsbereich freigeben, werden Ansichten nicht freigegeben. Ansichten werden separat freigegeben.
+
+  Weitere Informationen finden Sie unter [Freigeben von Arbeitsbereichen](/help/quicksilver/planning/access/share-workspaces.md)
+
+<!--
+<div class="preview">
+
+* Record types
+
+    * You can share record types with people inside your organization.
+    * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
+    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+
+    For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
+
+</div>
+-->
 
 * Ansichten
 
@@ -53,6 +69,14 @@ Intern können Sie einen Arbeitsbereich oder eine Ansicht für die folgenden Wor
 
 * Benutzende
 * Gruppen
+
+<div class="preview">
+
+* Teams
+* Firmen
+* Aufgabengebiete
+
+</div>
 
 ## Überlegungen zur Freigabe von Objekten in Adobe Workfront Planning
 
@@ -78,7 +102,7 @@ Die Tabellen in den folgenden Abschnitten veranschaulichen die Berechtigungseben
 >
 >Nicht alle Benutzer können über die unten beschriebenen Berechtigungsebenen verfügen. Die individuelle Lizenz eines Benutzers bestimmt, welche Berechtigungsstufe er für Workfront Planning-Objekte erhalten kann.
 >
->Nur Benutzer mit Standard- (oder Plan-) Lizenzen können über die Berechtigungen &quot;Contribute&quot; oder „Verwalten“ für Arbeitsbereiche und „Verwalten“ für Ansichten verfügen.
+>Nur Benutzer von Standard- (oder Plan-) Lizenzen können über die Berechtigungen Beitragen oder Verwalten für Arbeitsbereiche und Verwalten von Berechtigungen für Ansichten verfügen.
 > 
 >Benutzer mit allen anderen Lizenztypen können Ansichtsberechtigungen für Arbeitsbereiche und Ansichten haben.
 >
@@ -105,7 +129,7 @@ Im Folgenden finden Sie die Berechtigungsebenen für Arbeitsbereiche:
 
 ### Berechtigungen für Datensatztyp
 
-Berechtigungen vom Typ Datensatz werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+<!--In the Production environment,--> Berechtigungen vom Typ „Datensatz“ werden immer vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
 
 Im Folgenden finden Sie die Berechtigungsebenen für Datensatztypen:
 
@@ -116,6 +140,27 @@ Im Folgenden finden Sie die Berechtigungsebenen für Datensatztypen:
 | Löschen | ✓ |            |       |
 | Bearbeiten | ✓ |            |       |
 | Anzeigen | ✓ | ✓ | ✓ |
+
+<!--
+
+<div class="preview">
+
+In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+
+You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+
+The following scenarios exist: 
+
+|   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
+|--------|--------|-------------|
+| Manage |   Manage    |   Manage, No permissions           | 
+| Contribute |     Contribute |  Contribute, View, No permissions        |
+| View   |  View     |      View, No permissions        |     
+
+
+</div>
+
+-->
 
 ### Datensatzberechtigungen
 

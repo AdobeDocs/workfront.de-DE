@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: be51023c-8e11-42e7-aa4f-34484c30eb03
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '570'
 ht-degree: 0%
@@ -41,8 +41,8 @@ Weitere Informationen zum Verbinden von Datensätzen miteinander oder mit einem 
 
   Die Werte der Suchfelder werden in den Workfront-Planungsdatensatz eingegeben, aus dem Sie eine Verknüpfung herstellen, nachdem sie im ursprünglichen Datensatz oder Objekt aktualisiert wurden.
 
-* Jeder, der Zugriff auf Workfront Planning und View oder höhere Berechtigungen für den Arbeitsbereich hat, kann die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Programmen anzeigen, mit denen Sie eine Verbindung herstellen.
-* Sie können die Verbindungen aller anderen anzeigen und bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, in dem sich die verbundenen Datensätze befinden.
+* Alle Personen mit Zugriff auf Workfront Planning and View oder höheren Berechtigungen für den Workspace <!--<span class="preview">and record type</span>--> können die Verbindungen sehen, die Sie zwischen Datensätzen oder zwischen Datensätzen und Objekten anderer Anwendungen herstellen. Sie können verbundene Datensätze und Objekte unabhängig von ihren Berechtigungen in den Programmen anzeigen, mit denen Sie eine Verbindung herstellen.
+* Sie können die Verbindungen aller anderen Benutzer anzeigen und bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, <!--<span class="preview">and record type</span>--> dem sich die verbundenen Datensätze befinden.
 * Je nach Verbindungstyp, den Sie beim Verbinden der Datensatztypen ausgewählt haben, können Sie einen Datensatz mit einem oder mehreren Objekten aus einer anderen Anwendung verbinden. Weitere Informationen finden Sie im Abschnitt „Verbindungstypen“ im Artikel &quot;[ Datensatztypen - Übersicht](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
 ## Bereiche, in denen Datensätze verbunden werden können

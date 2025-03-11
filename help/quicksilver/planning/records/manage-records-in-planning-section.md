@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1797'
 ht-degree: 1%
 
 ---
@@ -31,7 +31,7 @@ Sie können Workfront-Planungsdatensätze in Workfront in den folgenden Bereiche
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -92,7 +92,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td role="rowheader"><p>Objektberechtigungen</p></td>
    <td>
    <p>Zeigen Sie in Workfront Berechtigungen oder höhere Berechtigungen für ein Projekt, ein Portfolio oder ein Programm an</a> </p> 
-   <p>Zeigen Sie in Workfront Planning Berechtigungen für einen Arbeitsbereich an, um verbundene Datensätze anzuzeigen, oder fügen Sie oder höhere Berechtigungen für einen Arbeitsbereich hinzu, um Datensätze zu verbinden oder zu trennen</a> </p>  
+   <p>In Workfront Planning:
+   <ul><li>
+   Anzeigen von Berechtigungen für einen Workspace-<!--<span class="preview">and record type</span>-->, um alle verbundenen Datensätze anzuzeigen </li>
+   oder
+   <li> Mitwirken an oder höhere Berechtigungen für einen Workspace-<!--<span class="preview">and record type</span>-->, um Datensätze zu verbinden oder zu trennen</a></li></ul> </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Workfront Planning-Arbeitsbereiche, einschließlich der nicht erstellten</p> 
   </td>
   </tr>

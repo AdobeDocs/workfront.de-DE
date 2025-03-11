@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 83ff53ac-f18e-4b71-bdb2-57e05d69ed29
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '510'
 ht-degree: 1%
 
 ---
@@ -17,6 +17,10 @@ ht-degree: 1%
 <!--should this move to the Access folder when we have sharing for ALL the objects???-->
 
 # Freigeben von Datensätzen
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +32,28 @@ Sie können einen Adobe Workfront Planning-Datensatz wie folgt freigeben:
 
 * Kopieren Sie bei der Anzeige von Datensätzen in der Tabellenansicht des Datensatztyps einen Link auf die Seite des Datensatzes.
 
-* Sie können alle Datensätze in einem Arbeitsbereich für andere Benutzer freigeben, indem Sie den Arbeitsbereich freigeben. Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md).
+* Sie können alle Datensätze in einem Arbeitsbereich für andere Benutzer freigeben, indem Sie den Arbeitsbereich-<!--<span class="preview">and record type</span>--> freigeben. Weitere Informationen finden Sie unter [Freigeben eines Arbeitsbereichs](/help/quicksilver/planning/access/share-workspaces.md).
+
+<!-- replace the last sentence above with this: 
+
+For more information see the following articles:
+
+* [Share a workspace](/help/quicksilver/planning/access/share-workspaces.md)
+
+
+<div class="preview">
+
+* [Share a record type](/help/quicksilver/planning/access/share-record-types.md)
+
+</div>
+
+-->
 
 In diesem Artikel wird beschrieben, wie Sie einen Link zur Datensatzseite aus der Tabellenansicht eines Datensatztyps kopieren können.
 
 ## Zugriffsanforderungen
 
-+++ Erweitern Sie , um die Zugriffsanforderungen für Workfront Planning anzuzeigen.
++++ Erweitern Sie , um die Zugriffsanforderungen anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -88,8 +107,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>  <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich zum Freigeben eines Datensatzes über einen Link </p>
-   <p>Verwalten von Berechtigungen für einen Arbeitsbereich, um Datensätze freizugeben, zu denen der Datensatz gehört </p>
+   <td>  <p>Anzeigen von oder höheren Berechtigungen für einen Arbeitsbereich zum Freigeben <!--<span class="preview">and record type</span>--> Datensatzes über einen Link </p>
+   <p>Verwalten von Berechtigungen für einen Arbeitsbereich <!--<span class="preview">and record type</span>--> Freigeben der Datensätze im Arbeitsbereich </p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr> 
 <tr> 

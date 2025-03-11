@@ -6,7 +6,7 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 83c716dea3815ed9a2ce4c3d0598ef42b128de87
+source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 1%
@@ -15,6 +15,10 @@ ht-degree: 1%
 
 
 # Übersicht über Primäre Felder
+
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -49,4 +53,4 @@ Weitere Informationen zum Bestimmen eines Felds als primäres Feld finden Sie un
 * Das Ändern des primären Felds in der Tabellenansicht wirkt sich auf die Ansicht für alle anderen Benutzenden aus, die es auswählen.
 * Das Ändern des Primärfelds in einer Tabellenansicht wirkt sich auf alle Tabellenansichten des Datensatztyps aus.
 * Der im primären Feld aufgeführte Wert ist immer mit der Seite des Datensatzes per Hyperlink verbunden.
-* Wenn Sie für einen Arbeitsbereich über Contribute- oder höhere Berechtigungen verfügen, können Sie den Wert von Primärfeldern (mit Ausnahme von Formelfeldern) bearbeiten. Formeln sind Berechnungen, die automatisch aktualisiert werden.
+* Wenn Sie Beitragen oder höhere Berechtigungen für eine Workspace-<!--<span class="preview">and record type</span>--> haben, können Sie den Wert von Primärfeldern (mit Ausnahme von Formelfeldern) bearbeiten. Formeln sind Berechnungen, die automatisch aktualisiert werden.
