@@ -1,23 +1,31 @@
 ---
 product-area: projects;user-management
 navigation-topic: assign-tasks
-title: Verwalten der Stunden für die Zuordnung von Benutzern und Rollen bei Aufgaben
+title: Verwalten der Stunden für die Zuweisung von Benutzenden und Rollen bei Aufgaben
 description: Wenn Sie einer Aufgabe Benutzer oder Rollen zuweisen, wird ihnen eine bestimmte Anzahl von Stunden zugewiesen, um die Aufgabe abzuschließen. Sie können die Anzahl der Stunden, die jedem Benutzer bzw. jeder Aufgabenrolle zugewiesen werden, wenn er bzw. sie einer Aufgabe zugewiesen wird, manuell ändern, wenn der Aufgabendauer-Typ „Einfach“ ist.
 author: Lisa
 feature: Work Management
 exl-id: 2c0cd6ef-8719-4680-aa63-5e229de0f819
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
 # Verwalten der Stunden für die Zuordnung von Benutzern und Rollen bei Aufgaben
 
+Zuordnungsstunden stellen die Gesamtzeit dar, in der eine zugewiesene Ressource an einem Vorgang arbeiten soll. Die Stunden stellen die Zeit dar, die einem Benutzer an einem bestimmten Tag oder Wochentag, einer bestimmten Woche oder einem bestimmten Monat während der Dauer der Aufgabe zugewiesen wird.
+
+>[!NOTE]
+>
+>Wenn Sie Benutzende einer Arbeit zuweisen, wirkt sich ihre Verfügbarkeit entsprechend den Zeitplänen auf die geplanten und erwarteten Termine von Aufgaben und Problemen aus. Weitere Informationen zu Zeitplänen finden Sie unter [Erstellen eines Zeitplans](../../../administration-and-setup/set-up-workfront/configure-timesheets-schedules/create-schedules.md).
+
 ## Zugriffsanforderungen
 
 +++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -28,22 +36,22 @@ ht-degree: 0%
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Neu: Standard </p>
    <p>Aktuell: Arbeit oder höher</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Aufgaben bearbeiten</p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
-   <td> <p>Contribute oder höhere Berechtigungen für die Aufgabe</p> <p>Bearbeiten von Berechtigungen zum Aktualisieren von Zuordnungsstunden im Feld Aufgabe bearbeiten</p> </td> 
+   <td> <p>Tragen Sie zur Aufgabe bei oder erhöhen Sie die Berechtigungen.</p> <p>Bearbeiten von Berechtigungen zum Aktualisieren von Zuordnungsstunden im Feld Aufgabe bearbeiten</p> </td> 
   </tr> 
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 

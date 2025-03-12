@@ -7,9 +7,9 @@ description: Bei der Verwaltung von Aufgaben- und Problemzuweisungen können Sie
 author: Lisa
 feature: Work Management
 exl-id: 8d17eff6-5ff0-4985-b575-4934a3bb7c0b
-source-git-commit: 259fd0e3fdaa07bfdb0301d60bf0d9b1090b4ef7
+source-git-commit: 1211a441b542df49480d933d4c25b0c31ef0883d
 workflow-type: tm+mt
-source-wordcount: '556'
+source-wordcount: '583'
 ht-degree: 0%
 
 ---
@@ -51,23 +51,23 @@ Smart Assignments können in den folgenden Bereichen angezeigt werden, in denen 
 
 * Eine Problemliste oder ein Bericht in der Spalte „Zuweisungen“
 
-  ![](assets/smart-assignments-issue-list.png)
+  ![Spalte „Problemlistenzuweisungen“](assets/smart-assignments-issue-list.png)
 
 * Aufgabenliste oder Bericht in der Spalte „Zuweisungen“
 
-  ![](assets/smart-assignments-task-list.png)
+  ![Aufgabenlistenzuweisungen-Spalte](assets/smart-assignments-task-list.png)
 
 * Eine Aufgabenkopfzeile im Feld Arbeitsaufträge
 
-  ![](assets/smart-assignments-task-header-nwe-350x302.png)
+  ![Feld für Aufgabenkopfzeilenzuweisungen](assets/smart-assignments-task-header-nwe-350x302.png)
 
 * Eine Anfragekopfzeile im Feld „Zuweisungen“
 
-  ![](assets/smart-assignments-issue-header.png)
+  ![Feld „Kopfzeilenzuweisungen für Probleme“](assets/smart-assignments-issue-header.png)
 
 * Das Bedienfeld „Aufgaben- oder Problemzusammenfassung“ im Bereich „Zuweisungen“
 
-  ![](assets/issue-assignments-summary-panel.png)
+  ![Bereich „Zusammenfassungsfeldzuweisungen“](assets/issue-assignments-summary-panel.png)
 
 <!--* The Assignments field in the New Task box, when adding a task to a project
 
@@ -81,8 +81,7 @@ Smart Assignments können in den folgenden Bereichen angezeigt werden, in denen 
 
 * Lastenausgleich im Bereich Diesem Bereich zugewiesen bei der Zuweisung einer Aufgabe oder eines Problems
 
-  ![](assets/smart-assignments-workload-balancer-bulk-assignments.png)
-
+  ![Bereich „Workload Balancer-Zuweisungen“](assets/smart-assignments-workload-balancer-bulk-assignments.png)
 
 ## Kriterien für intelligente Zuweisungen
 
@@ -153,7 +152,7 @@ Die identifizierten Zuweisungen werden in den Abschnitten **Benutzer und Teams**
 >
 >The following criteria applies for tasks only when the first phase of the task smart assignment calculation did not find any matches. For information, see the section [First phase of smart assignment calculation for tasks](#first-phase-of-smart-assignment-calculation-for-tasks) in this article. The following criteria always applies for issues, by default. -->
 
-![](assets/smart-assignments-issue-header.png)
+![Beispiel für intelligente Zuweisung](assets/smart-assignments-issue-header.png)
 
 Benutzer werden in der Dropdown-Liste Smart Assignments empfohlen, basierend auf einer Kombination der folgenden Kriterien (aufgeführt in der Reihenfolge von Wichtig bis Unwichtig):
 
