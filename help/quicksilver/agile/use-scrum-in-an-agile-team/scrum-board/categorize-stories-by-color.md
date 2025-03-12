@@ -6,9 +6,9 @@ description: Die Standardfarbzuordnung von Scrum-Board-Storys unterscheidet sich
 author: Lisa
 feature: Agile
 exl-id: 8e351505-73d1-4c8f-b369-53c965b88c95
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '423'
+source-wordcount: '427'
 ht-degree: 0%
 
 ---
@@ -59,8 +59,8 @@ Wenn die Agile-Team-Einstellungen so konfiguriert wurden, dass die Option [!UICO
 1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
 1. Bewegen Sie den Mauszeiger über das farbige Banner oben auf der Story-Kachel.
 
-   ![](assets/agile-story-color1-nwe-350x140.png)
+   ![Story-Karte](assets/agile-story-color1-nwe-350x140.png)
 
 1. Klicken Sie **[!UICONTROL Farbe ändern]** und wählen Sie dann die gewünschte Farbe aus.
 
-   ![](assets/agile-story-color2-nwe-350x138.png)
+   ![Farbe wählen](assets/agile-story-color2-nwe-350x138.png)

@@ -7,9 +7,9 @@ description: Das Burndown-Diagramm bietet eine visuelle Darstellung des Fortschr
 author: Lisa
 feature: Agile
 exl-id: 414e3315-35ed-4aa4-a2d8-be42ec585f29
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '936'
+source-wordcount: '970'
 ht-degree: 0%
 
 ---
@@ -31,31 +31,31 @@ Das Burndown-Diagramm enthält die folgenden visuellen Indikatoren:
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-dottedblue.png" alt="Ideale Abbrandrate ab"> </td> 
    <td> <p>Ideale Burndown-Rate basierend auf dem Beginn der Iteration</p> <p>Diese Zeile wird nicht angezeigt, wenn sich der Umfang der Iteration nie ändert (Stunden oder Punkte werden nie hinzugefügt oder entfernt).</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird. Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Burndown-Diagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Wie sich Urlaubstage auf das Burndown-Diagramm auswirken</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-solidblue.png" alt="Ideale Burndown-Rate für Storys oder Aufgaben"> </td> 
    <td> <p>Ideale Burndown-Rate basierend auf aktuellen Storys oder Aufgaben.</p> <p>Die aktuelle ideale Burndown-Rate (durchgezogene blaue Linie) unterscheidet sich von der ursprünglichen idealen Burndown-Rate (gepunktete blaue Linie), wenn Stunden oder Punkte zu der Iteration hinzugefügt oder aus ihr entfernt werden, nachdem die Iteration beginnt.</p> <p>Diese Zeile wird als flach angezeigt, wenn die Arbeit an einem freien Tag erledigt wird.</p> <p>Weitere Informationen finden Sie unter <a title="Verwenden des Agile-Burndown-Diagramms" href="#how-days-off-affect-the-burndown-chart" class="MCXref xref">Wie sich Urlaubstage auf das Burndown-Diagramm auswirken</a>.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-red.png" alt="Tatsächliche Burndown-Rate in rot"> </td> 
    <td> <p>Die tatsächliche Burndown-Rate wird rot angezeigt, wenn die Burndown-Rate geringer ist als das Ideal (es verbleiben mehr Punkte oder Stunden pro Tag als die ideale Burndown-Berechnung).</p> <p>Die folgende Formel wird zur Berechnung der tatsächlichen Burndown-Rate verwendet:</p> <p>[SUM(Punkt- oder Stundenwert in Arbeit * Prozent abgeschlossen) + Punkt- oder Stundenwert der abgeschlossenen Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-green.png" alt="Tatsächliche Abbrandrate in grün"> </td> 
    <td> <p>Die tatsächliche Burndown-Rate wird grün angezeigt, wenn die Burndown-Rate gleich oder besser als das Ideal ist (gleich oder weniger Punkte pro Tag als die ideale Burndown-Berechnung).</p> <p>Die folgende Formel wird zur Berechnung der tatsächlichen Burndown-Rate verwendet:</p> <p>[SUM(Punkt- oder Stundenwert in Arbeit * Prozent abgeschlossen) + Punkt- oder Stundenwert der abgeschlossenen Arbeit]</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Änderung des Umfangs"> </td> 
    <td> <p>Änderung des Umfangs (Stunden oder Punkte werden der Iteration hinzugefügt oder daraus entfernt).</p> <p>Umfangsänderungen werden immer in der Tagesmitte als vertikale Linie angezeigt. Darüber hinaus wird ein blauer Punkt in der Mitte eines beliebigen Tages angezeigt, an dem eine Umfangsänderung stattgefunden hat.</p> <p>Die vertikale Achse des Burndown-Diagramms zeigt die Story-Punkte oder -Stunden an.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Änderung des Datumsbereichs"> </td> 
    <td> <p>Änderung des Datumsbereichs (Dauer der Iteration wird erhöht oder verringert).</p> <p>Ein blauer Punkt in der Mitte eines beliebigen Tages wird angezeigt, an dem die Iterationsdauer geändert wurde.</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt=""> </td> 
+   <td role="rowheader"> <img src="assets/agile-iteration-burndown-scope.png" alt="Grüner Punkt für Arbeit abgebrannt"> </td> 
    <td> <p>Bei jedem Abbrennen der Arbeit wird ein grüner oder roter Punkt auf der tatsächlichen Abbrandrate angezeigt. (Wenn die tatsächliche Burndown-Rate an diesem Tag rot ist, ist der Punkt rot; wenn die tatsächliche Burndown-Rate an diesem Tag grün ist, ist der Punkt grün.)</p> <p>Arbeit wird ausgebrannt, wenn eine der folgenden Situationen eintritt:</p> 
     <ul> 
      <li> Der [!UICONTROL Prozent abgeschlossen] wird in der Story erhöht.<br>[!UICONTROL Percent Complete] wird erhöht, wenn: 

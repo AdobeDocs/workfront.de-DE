@@ -6,9 +6,9 @@ description: Sie können die Größe des Burndown-Diagramms ändern oder reduzie
 author: Lisa
 feature: Agile
 exl-id: ad7ea883-987a-4278-8d24-7c1dd4e542a3
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '258'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wechseln Sie zur Iteration, die das Burndown-Diagramm enthält, dessen Größe Sie ändern möchten.
 1. Bewegen Sie den Mauszeiger über die untere Linie des Burndown-Diagramms und ziehen Sie das Diagramm auf die gewünschte Größe.
-   ![](assets/burndown-resize.png)
+   ![Größe des Burndown-Diagramms ändern](assets/burndown-resize.png)
 
 ## Burndown-Diagramm reduzieren
 

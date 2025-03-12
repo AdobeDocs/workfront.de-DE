@@ -6,9 +6,9 @@ description: Sie können Arbeitselemente und Projekte über den Bereich "[!UICON
 author: Courtney
 feature: Get Started with Workfront, Work Management
 exl-id: 9db6e509-ea6a-493a-9d86-21a163da1915
-source-git-commit: fddb927f2c9639b4c26d590bbea7dba684ed2b6c
+source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
 workflow-type: tm+mt
-source-wordcount: '847'
+source-wordcount: '842'
 ht-degree: 2%
 
 ---
@@ -19,7 +19,6 @@ Sie können Arbeitselemente und Projekte über den Bereich &quot;[!UICONTROL &qu
 
 Von zu Hause aus haben Sie folgende Möglichkeiten
 
-* Erstellen Sie persönliche Aufgaben für sich selbst
 * Anfragen senden
 * Hinzufügen von Aufgaben und Problemen zu bestimmten Projekten
 * Erstellen Sie Projekte aus einer Vorlage, einem leeren Projekt oder importieren Sie ein MS Project.

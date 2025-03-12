@@ -6,7 +6,7 @@ description: Sie können eine agile Story bei einer Iteration auf verschiedene A
 author: Lisa
 feature: Agile
 exl-id: d16ee940-3551-44da-8fe6-093f4fcac070
-source-git-commit: 452f8ddc5268a0d67e32090d166199f2fad7dbc7
+source-git-commit: 9a363dc0c591985c7ae8edb4a511fd648b486f1c
 workflow-type: tm+mt
 source-wordcount: '710'
 ht-degree: 0%
@@ -65,7 +65,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
    1. Wählen Sie im linken Bereich **[!UICONTROL Iterationen]**, um eine bestimmte Iteration auszuwählen, oder wählen Sie **[!UICONTROL Aktuelle Iteration]**.
    1. Klicken Sie auf den Namen der spezifischen Iteration, für die Sie eine Story erstellen möchten.
 
-   ![Neue Story zur Iteration hinzufügen](assets/iteration-add-story.png)
+   ![Neue Story zur Iteration hinzufügen](assets/iteration-stories-list.png)
 
 1. Klicken Sie auf **[!UICONTROL Neue Story].**
 1. Geben Sie die folgenden Informationen an:

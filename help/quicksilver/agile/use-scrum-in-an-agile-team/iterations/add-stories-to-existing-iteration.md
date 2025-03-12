@@ -6,9 +6,9 @@ description: Sie haben verschiedene Möglichkeiten, um einer Iteration Stories h
 author: Lisa
 feature: Agile
 exl-id: b016fda1-789a-42b3-9f97-2c61c4ec0917
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '627'
+source-wordcount: '629'
 ht-degree: 0%
 
 ---
@@ -98,7 +98,7 @@ Sie können jeder Iteration eine beliebige Aufgabe oder ein beliebiges Problem h
 oder
 Wechseln Sie zum Projekt, Bericht oder Dashboard, das die Aufgabe oder das Problem enthält, die bzw. das Sie einer Iteration hinzufügen möchten. Wählen Sie dann eine oder mehrere Aufgaben oder Probleme aus.
 
-1. Klicken Sie auf **[!UICONTROL Mehr]** ![](assets/more-icon.png) > **[!UICONTROL Zu Iteration hinzufügen]**.
+1. Klicken Sie auf **[!UICONTROL Mehr]** ![Mehr-Symbol](assets/more-icon.png) > **[!UICONTROL Zu Iteration hinzufügen]**.
 Nicht-agilen Teams können keine Aufgaben oder Probleme zugewiesen werden.
 
 1. Beginnen Sie im Feld **[!UICONTROL Hinzufügen zu]** mit der Eingabe des Namens der Iteration und wählen Sie sie aus, wenn sie in der Liste angezeigt wird.

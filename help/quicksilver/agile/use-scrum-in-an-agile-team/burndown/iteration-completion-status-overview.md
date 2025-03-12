@@ -7,9 +7,9 @@ description: Die in diesem Artikel beschriebenen Informationen zum Abschluss wer
 author: Lisa
 feature: Agile
 exl-id: cc6bebdb-f2aa-4e85-9f9f-15e7753d84cb
-source-git-commit: d660707dd69fab78095eed1414092a7c909ba174
+source-git-commit: 91dc9946566e15bf32d0d89975e3e6b66b39e873
 workflow-type: tm+mt
-source-wordcount: '646'
+source-wordcount: '649'
 ht-degree: 0%
 
 ---
@@ -20,7 +20,7 @@ Die in diesem Artikel beschriebenen Informationen zum Abschluss werden über dem
 
 Prozentsatz der Fertigstellung einer Iteration:
 
-![](assets/burndown-percentcomplete-350x47.png)
+![Bedienfeld „Iterationsdetails“](assets/burndown-percentcomplete-350x47.png)
 
 Diese Informationen geben den Abschlussstatus der Iteration für den Tag an, der derzeit im Burndown-Diagramm ausgewählt ist. Standardmäßig wird der Abschlussstatus basierend auf dem aktuellen Datum angezeigt.
 

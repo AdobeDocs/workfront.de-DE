@@ -6,9 +6,9 @@ description: Iterationen sind eine Schlüsselkomponente für agile Scrum-Teams b
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6ae8e48361114e897d0be83ae81f8344074a5ec2
+source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
 workflow-type: tm+mt
-source-wordcount: '1063'
+source-wordcount: '1119'
 ht-degree: 0%
 
 ---
@@ -101,7 +101,14 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
 1. (Optional) Klicken Sie auf das Symbol **[!UICONTROL Team wechseln]** ![Symbol Team wechseln](assets/switch-team-icon.png) und wählen Sie dann entweder ein neues Scrum-Team aus dem Dropdown-Menü aus oder suchen Sie in der Suchleiste nach einem Team.
 
-1. Wählen **[!UICONTROL im]** Bedienfeld „Auftragsbestand“ aus. Klicken Sie dann auf **[!UICONTROL Wiederholung planen]**.
+1. Wählen **[!UICONTROL im]** Bedienfeld „Auftragsbestand“ aus.
+
+1. Wählen Sie auf der Registerkarte **** oder **Probleme** mindestens ein Arbeitselement aus und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
+
+>[!NOTE]
+>
+> Sie können bei der Planung einer Iteration auf der Registerkarte „Auftragsbestand“ nicht zwischen den Registerkarten „Storys“ oder „Probleme“ wechseln. Sie können vorhandene Storys oder Probleme hinzufügen, sobald die Iteration erstellt wurde. Weitere Informationen finden Sie unter [Storys aus dem Rückstand in eine Iteration oder Pinnwand verschieben](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+
 
 1. Geben Sie die folgenden Informationen an:
 

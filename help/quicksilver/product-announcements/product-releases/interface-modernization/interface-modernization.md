@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 1a0902c7c6e1b7f647564e448daf74748d9cb3db
+source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
 workflow-type: tm+mt
-source-wordcount: '1634'
+source-wordcount: '1706'
 ht-degree: 0%
 
 ---
@@ -23,6 +23,8 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
 
 ## Administration und Einrichtung
+
++++Erweitern Sie , um Aktualisierungen der Administrations- und Setup-Benutzeroberfläche anzuzeigen
 
 ### Aktualisierung der Benutzeroberfläche für das Ankündigungscenter
 
@@ -140,7 +142,11 @@ Wir haben die Listen für Projekt-, Aufgaben- und Problemgenehmigungen in Setup 
 
 Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funktionalität wurde nicht geändert.
 
++++
+
 ## Agile
+
++++Erweitern, um Aktualisierungen der Agile-Benutzeroberfläche anzuzeigen
 
 ### Aktualisierungen der Benutzeroberfläche für Teamanfragen
 
@@ -177,7 +183,8 @@ Wir haben den Bereich Teams > Auftragsbestand um ein moderneres Design erweitert
 Dieses Update enthält die folgenden Änderungen:
 
 * Visuelle Verbesserungen der Registerkarte Storys und Probleme sowie des Dialogfelds Story aufschlüsseln
-* Ein neues Dialogfeld für das Tool „Iteration planen“
+* Ein neues Dialogfeld für das Tool „Iteration planen“. Sie müssen eine Story oder ein Problem auswählen, damit die Schaltfläche „Iteration planen“ angezeigt wird.
+* Bei der Planung einer Iteration können Sie nicht mehr zwischen der Registerkarte Storys und Probleme wechseln. Sie können Storys oder Probleme über die Registerkarte „Rückstand“ hinzufügen, sobald die Iteration erstellt wurde.
 
 ### Aktualisierung der Benutzeroberfläche für die Liste „Iterationen“
 
@@ -199,7 +206,11 @@ Diese Aktualisierung beinhaltet visuelle Änderungen für den Bereich . Die Funk
 
 Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > Auftragsbestand und klicken Sie dann auf **Neue Story** oder **Neues**.
 
++++
+
 ## Dokumente
+
++++Erweitern, um Aktualisierungen der Dokumentenschnittstelle anzuzeigen
 
 ### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen in einem Dokument
 
@@ -217,7 +228,11 @@ Das Dialogfeld für die Bearbeitung intelligenter Ordner wurde um ein moderneres
 
 Um diese Änderung anzuzeigen, navigieren Sie zu Dokumente > Klicken Sie auf das Menü Mehr neben dem Namen des Smart-Filters > Klicken Sie auf Bearbeiten.
 
++++
+
 ## Berichte und Dashboards
+
++++Erweitern Sie , um Berichte und Aktualisierungen der Benutzeroberfläche von Dashboards anzuzeigen
 
 ### Aktualisierter Teambericht mit neuem Stil
 
@@ -271,3 +286,5 @@ Wir haben eine neue Schaltfläche Textmodus bearbeiten und Modal bearbeiten zu d
 
 * Legacy-Filter
 * Gruppierungen
+
++++
