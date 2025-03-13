@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
+source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
 workflow-type: tm+mt
-source-wordcount: '1158'
+source-wordcount: '1165'
 ht-degree: 0%
 
 ---
@@ -57,8 +57,8 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li>Vorschau der Version: 31. Januar 2025</li>
-                <li><span class="preview">Produktionsversion für alle Kunden: 31. Januar 2025</span></li>
+                <li>Vorschau der Version: 13. März 20255</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.4 (April 2025)</li>
             </ul>
         </td>
     </tr>                          
