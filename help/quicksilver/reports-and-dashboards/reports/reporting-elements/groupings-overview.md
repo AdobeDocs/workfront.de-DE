@@ -7,9 +7,9 @@ description: Sie können Gruppierungen hinzufügen, um das Layout der Informatio
 author: Nolan
 feature: Reports and Dashboards
 exl-id: d050372e-c4a0-4c49-b220-5b35334ab8d0
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: 69dec186cdb8a6d29853703edb41073282cdd447
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '813'
 ht-degree: 0%
 
 ---
@@ -64,13 +64,17 @@ Sie können Berichtsinformationen bei der Verwendung von Gruppierungen weiter ve
 
 Sie können die im Bericht angezeigten Daten in Ihrer Gruppierungszeile aggregieren, indem Sie die Werte in den einzelnen Spalten des Berichts zusammenfassen. Weitere Informationen über die Zusammenfassung von Spaltendaten in einer Gruppierung finden Sie unter [Ansichten - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/views-overview.md).
 
+
 >[!NOTE]
 >
->Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
+>Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in > Gruppierungen aggregieren:
 >
->* Alle Zahlen- und Währungsfelder mit Ausnahme der tatsächlichen Stunden (z. B. geplante/Ist-Arbeitskosten, geplante/Ist-Ausgaben-Kosten, geplante/Ist-Kosten, geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Aufgaben.
->* Tatsächliche Stunden aggregieren die Werte für die übergeordnete Hauptaufgabe und die eigenständigen Aufgaben. Sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
+>* Alle Zahlen-, Währungs- und Datumsfelder außer „Tatsächliche Stunden“ aggregieren Werte nur für untergeordnete Aufgaben und eigenständige Aufgaben. Sie aggregieren keine Werte für übergeordnete Aufgaben oder übergeordnete Elemente von übergeordneten Elementen. Bei der Aggregation von Zahlen-, Währungs- und Datumsfeldern in einer Liste, die nur übergeordnete Aufgaben enthält, wird in der Gruppierungsleiste kein aggregierter Wert angezeigt.
+>
+>* Tatsächliche Stunden aggregieren Werte für die übergeordneten und eigenständigen Hauptaufgaben. Sie aggregieren nicht die Zahlen für untergeordnete Aufgaben oder die übergeordneten Aufgaben. <!--Examples of Actual hours include Planned/Actual Labor Cost, Planned/Actual Expense Cost, Planned/Actual Cost, and Planned Hours.-->
+>
 >* Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben.
+
 
 ### Nach Gruppierung sortieren {#sort-by-a-grouping}
 
@@ -84,3 +88,13 @@ Wie Sie eine Gruppierung entfernen, hängt davon ab, ob Sie die Gruppierung ursp
 * **Wenn die Gruppierung für Sie freigegeben wurde und Sie sie entfernen** wird die Gruppierung nur für Sie entfernt. Der Benutzer, der sie ursprünglich erstellt hat, und alle anderen Benutzer, für die sie freigegeben wurde, haben weiterhin Zugriff auf die Gruppierung.
 
 Informationen zum Entfernen einer Gruppierung finden Sie im Artikel [Entfernen von Filtern, Ansichten und Gruppierungen](../../../reports-and-dashboards/reports/reporting-elements/remove-filters-views-groupings.md).
+
+
+<!--Original note
+
+The following exceptions apply for parent objects (for example, parent tasks) when you are aggregating values for the following fields in groupings:
+All the number and currency fields except Actual Hours (for example, Planned/ Actual Labor Cost, Planned/ Actual Expense Cost, Planned/ Actual Cost, Planned Hours) aggregate only the values for the children tasks, and standalone tasks. They do not aggregate the values for the parent tasks or parents of parents.
+Actual Hours aggregate the values for the main parent and the standalone tasks; they do not aggregate the numbers for the parents of parent tasks or the children tasks.
+Custom data fields for number and currency values aggregate all tasks: parents, children, parents of parents, and standalone tasks.
+
+-->

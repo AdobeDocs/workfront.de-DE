@@ -6,9 +6,9 @@ description: Iterationen sind eine Schlüsselkomponente für agile Scrum-Teams b
 author: Lisa
 feature: Agile
 exl-id: a25cdd4a-f2e3-4b8a-a7f4-3757940b635e
-source-git-commit: 6fb0870b919baf49e17d48586b2a9661e5cb4b94
+source-git-commit: e24c97e78b210fc385052b573fe69d092b521a90
 workflow-type: tm+mt
-source-wordcount: '1119'
+source-wordcount: '1036'
 ht-degree: 0%
 
 ---
@@ -103,11 +103,11 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
 
 1. Wählen **[!UICONTROL im]** Bedienfeld „Auftragsbestand“ aus.
 
-1. Wählen Sie auf der Registerkarte **** oder **Probleme** mindestens ein Arbeitselement aus und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
+1. Wählen Sie auf der Registerkarte **** oder **Probleme** die Arbeitselemente aus, die Sie der Iteration hinzufügen möchten, und klicken Sie dann auf **[!UICONTROL Iteration planen]**.
 
 >[!NOTE]
 >
-> Sie können bei der Planung einer Iteration auf der Registerkarte „Auftragsbestand“ nicht zwischen den Registerkarten „Storys“ oder „Probleme“ wechseln. Sie können vorhandene Storys oder Probleme hinzufügen, sobald die Iteration erstellt wurde. Weitere Informationen finden Sie unter [Storys aus dem Rückstand in eine Iteration oder Pinnwand verschieben](/help/quicksilver/agile/work-in-an-agile-environment/manage-the-agile-backlog.md#move-stories-from-the-backlog-to-an-iteration-or-board).
+> Sie können bei der Planung einer Iteration auf der Registerkarte „Auftragsbestand“ nicht zwischen den Registerkarten „Storys“ oder „Probleme“ wechseln oder zusätzliche Aufgaben hinzufügen. Sie können vorhandene Storys oder Probleme hinzufügen, sobald die Iteration erstellt wurde. Weitere Informationen finden Sie unter [Hinzufügen von Aufgaben oder Problemen zu einer vorhandenen Iteration auf der Registerkarte „Auftragsbestand](#add-tasks-or-issues-to-an-existing-iteration-on-the-backlog-tab) unten.
 
 
 1. Geben Sie die folgenden Informationen an:
@@ -143,19 +143,20 @@ Verwenden Sie die Funktion [!UICONTROL Wiederholung planen], um eine Iteration m
     </tbody> 
    </table>
 
-1. (Optional) Wählen Sie Storys aus, um sie der Iteration jetzt hinzuzufügen. Alternativ können Sie diesen Schritt überspringen und einer Iteration zu einem späteren Zeitpunkt Storys hinzufügen. Die Geschichten am Anfang des Rückstands haben eine höhere Priorität. Geschichten werden grün hervorgehoben, wenn sie die gewünschte Kapazität haben. Wenn dies nicht der Fall ist, werden sie rot hervorgehoben.
-Sie können einer einzigen Iteration sowohl Aufgaben als auch Probleme hinzufügen:
+1. Klicken Sie auf **[!UICONTROL Speichern].** Die Iteration wird erstellt.
 
-   * **Aufgaben zur Iteration hinzufügen:** Stellen Sie sicher, dass auf der Registerkarte **[!UICONTROL Backlog]** die Registerkarte **[!UICONTROL Storys]** ausgewählt ist (diese Registerkarte ist standardmäßig ausgewählt, wenn der Backlog angezeigt wird). Wählen Sie die Storys aus, die Sie der Iteration hinzufügen möchten.
+## Aufgaben oder Probleme zu einer vorhandenen Iteration auf der Registerkarte „Auftragsbestand“ hinzufügen
 
-     Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie ] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
+1. Klicken Sie auf **Registerkarte** Auftragsbestand“ auf die Registerkarte **Storys** oder **Probleme**.
 
-   * **So fügen Sie Probleme zur Iteration hinzu** Klicken Sie auf der Registerkarte **[!UICONTROL Auftragsbestand]** auf die Registerkarte **[!UICONTROL Probleme]**. Wählen Sie die Probleme aus, die Sie der Iteration hinzufügen möchten.
+1. Wählen Sie die Storys oder Probleme aus, die Sie der Iteration hinzufügen möchten. Die Geschichten am Anfang des Rückstands haben eine höhere Priorität.
 
-1. Klicken Sie auf **[!UICONTROL Speichern].**
-Die Iteration wird erstellt.
+   ![Verschieben eines Arbeitselements](assets/move-to-iteration.png)
 
-1. (Optional) Informationen zum Hinzufügen von Storys zu einer vorhandenen Iteration finden Sie unter [Hinzufügen von Storys zu einer vorhandenen Iteration](../../../agile/use-scrum-in-an-agile-team/iterations/add-stories-to-existing-iteration.md).
+   >[!NOTE]
+   >
+   >  Wenn Sie Aufgaben zu einer Iteration hinzufügen, wird das Startdatum der Aufgabe wie unter [[!UICONTROL Erfahren Sie, wie ] Startdaten einer Aufgabe berechnet werden, wenn sie zu einer Iteration hinzugefügt werden](#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration) beschrieben berechnet.
+
 
 ## Verstehen, wie Aufgabenstarttermine berechnet werden, wenn sie zu einer Iteration hinzugefügt werden {#understand-how-task-start-dates-are-calculated-when-added-to-an-iteration}
 
