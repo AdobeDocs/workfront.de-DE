@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: cbadf0a758369bf9835b5804a036fddbc37dbb51
+source-git-commit: a86b91ee323e9efdca33655eaaac805a019cbb1c
 workflow-type: tm+mt
-source-wordcount: '1079'
+source-wordcount: '1158'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
 
 | Monatliche Version | Vierteljährliche Veröffentlichung |
 | ----------------- | ----------------- |
-| <ul><li>25.2 (13. Februar 2025)</li><li>25.3 (März 2025)</li><li>25.4 (April 2025)</li></ul> | <ul><li>25.4 (April 2025)</li></ul> |
+| <ul><li>25.2 (13. Februar 2025)</li><li>25.3 (13. März 2025)</li><li>25.4 (10. April 2025)</li></ul> | <ul><li>25.4 (10. April 2025)</li></ul> |
 
 >[!NOTE]
 >
@@ -47,6 +47,21 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verbesserungen der Logik benutzerdefinierter Formulare</a></p>
+            <p>Der Logik-Builder für benutzerdefinierte Formulare verfügt über eine aktualisierte Schnittstelle, die Ihnen mehr Platz zum Erstellen von Logikregeln bietet. Dieses neue Design kann leichter zusätzliche Logiktypen aufnehmen, die in Zukunft hinzugefügt werden können.</p><p>Zusätzlich zu den aktuellen Optionen zum Anzeigen und Überspringen der Logik ist auch eine Validierungslogik verfügbar.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau der Version: 31. Januar 2025</li>
+                <li><span class="preview">Produktionsversion für alle Kunden: 31. Januar 2025</span></li>
+            </ul>
+        </td>
+    </tr>                          
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -74,7 +89,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Gleichzeitiges Bearbeiten mehrerer Dokumente in einem Dokumentbericht </a></p>
+            Gleichzeitiges Bearbeiten mehrerer Dokumente in einem Dokumentbericht </a></p>[!BADGE In Production ]{type=Informative}
             <p>Sie können jetzt mehrere Dokumente gleichzeitig in einem Dokumentbericht bearbeiten. Sie können die Beschreibungen bearbeiten und benutzerdefinierte Formulare aktualisieren.</p>
         </td>
         <td>
@@ -97,7 +112,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Hinzufügen eines Kommentars zu Projekten, wenn diese im Feld Projekt bearbeiten bearbeitet werden</a></p>
+            Fügen Sie Projekten bei ihrer Bearbeitung im Feld Projekt bearbeiten einen Kommentar hinzu</a>[!BADGE In Production for Fast Release]{type=Positive}</p>
             <p>Sie können einem Projekt jetzt einen Kommentar hinzufügen, während Sie es im Feld Projekt bearbeiten bearbeiten. Sie können auch einen Kommentar zu mehreren Projekten gleichzeitig hinzufügen, wenn Sie sie stapelweise bearbeiten. Vor diesem Update gab es diese Funktion nicht beim Bearbeiten von Projekten.</p>
         </td>
         <td>

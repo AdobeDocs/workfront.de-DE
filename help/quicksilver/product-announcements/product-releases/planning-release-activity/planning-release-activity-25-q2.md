@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: 45cce14e126d6ee4444380d25cdd4df610962d40
+source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
 workflow-type: tm+mt
-source-wordcount: '1662'
+source-wordcount: '1935'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,31 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Mehrere Anforderungsformulare von einem Datensatztyp einrichten und verwalten
+
+>[!NOTE]
+>
+>Vorschau: 13. März 2025; Produktion für alle Kunden: 10. April 2025
+
+Um Ihnen bei der Anpassung Ihrer Anfrageformulare für verschiedene Stakeholder aus verschiedenen Bereichen Ihres Unternehmens zu helfen, führen wir jetzt die Möglichkeit ein, mehr als ein Anfrageformular für einen Datensatztyp zu erstellen und zu verwalten. Vor dieser Verbesserung konnten Sie nur ein Formular für einen Datensatztyp erstellen.
+
+Alle Anfragen, die mit den verschiedenen Formularen gesendet werden, können Datensätze für den ausgewählten Datensatztyp erstellen. Sie können jetzt mehrere Anfrageformulare für denselben Datensatztyp einrichten. Die Formulare werden in einer neuen Tabellenansicht für Anforderungsformulare für den Datensatztyp aufgeführt. Wenn Sie Anfrageformulare verwalten, können Sie jetzt ein Anfrageformular für den Datensatztyp bearbeiten, veröffentlichen, freigeben, kopieren oder aus der Liste der Anfrageformulare löschen.
+
+Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+## Einfacher Zugriff auf veröffentlichte Anfrageformulare auf der Seite mit dem Datensatztyp
+
+>[!NOTE]
+>
+>Vorschau: 13. März 2025; Produktion für alle Kunden: 10. April 2025
+
+Sie können jetzt über die Schaltfläche Neuer Datensatz in der rechten oberen Ecke der Seite des Datensatztyps auf Anfrageformulare zugreifen. Für Benutzende mit Anzeigeberechtigungen für den Arbeitsbereich wird der neue Datensatz als Schaltfläche „Datensatz anfordern“ angezeigt.
+
+Sie können Datensätze nicht nur manuell erstellen und eine CSV- oder Excel-Datei importieren, sondern auch von der Seite „Datensatztyp“ aus Datensätze aus einem Anfrageformular erstellen.
+Vor dieser Verbesserung konnten Sie Datensätze mithilfe eines Anfrageformulars nur über einen direkten Link zu einem Formular oder aus dem Bereich Anfragen von Workfront erstellen.
+
+Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 
 ## Hinzufügen von Suchfeldern aus verbundenen Datensätzen in den Feldern für die Planning-Verbindung von benutzerdefinierten Workfront-Formularen
 

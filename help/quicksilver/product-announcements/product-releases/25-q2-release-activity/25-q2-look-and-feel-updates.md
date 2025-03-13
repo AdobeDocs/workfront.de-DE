@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 69389422fc33839c3f557c3866f0d88b4a8ea837
+source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '469'
 ht-degree: 0%
 
 ---
@@ -18,11 +18,38 @@ Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschie
 
 Eine Liste aller Änderungen, die mit der Version aus dem zweiten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version aus dem zweiten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
+## Avatare werden in bestimmten E-Mail-Benachrichtigungen nicht mehr angezeigt
+
+>[!NOTE]
+>
+>Vorschau-Version: 13. März 2025; Produktionsversion für alle Kunden: 13. März 2025
+
+
+Avatare werden in den folgenden E-Mail-Benachrichtigungen nicht mehr angezeigt:
+
+* Alle Benachrichtigungen zu Kommunikationsereignissen
+* Neue Zuweisungsbenachrichtigungen
+* Alle Benachrichtigungen zum Abschluss von Vorgängeraufgaben
+
+<!--
+
+## Look and feel updates to a Milestone Path list 
+
+>[!NOTE]
+>
+>Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+
+We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+
+For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+
+-->
+
 ## Aktualisierungen des Erscheinungsbilds im Workfront-Kalender
 
 >[!NOTE]
 >
->Vorschau-Version: 27. Februar 2025; Produktionsversion für alle Kunden: Mit Version 25.3 (März 2025)
+>Vorschau-Version: 27. Februar 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
 
 Wir haben das Erscheinungsbild des Workfront-Kalenders auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Es gibt kleine Funktionsunterschiede zum aktuellen Workfront-Kalender, darunter:
 
@@ -38,7 +65,7 @@ Weitere Informationen finden Sie in den Artikeln [Kalender](/help/quicksilver/re
 
 >[!NOTE]
 >
->Vorschau-Version: 27. Februar 2025; Produktion für die schnelle Veröffentlichung: Mit der Version 25.3 (März 2025); Produktion für die vierteljährliche Veröffentlichung: Mit der Version 25.4 (April 2025)
+>Vorschau-Version: 13. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
 
 Beim Zugriff auf den Meilensteinpfad über eine Projektliste oder einen Bericht hat die Seite mit den Meilensteindetails jetzt ein neues Erscheinungsbild. Sie müssen das Feld Meilensteinpfadname zur Ansicht der Liste oder des Berichts hinzufügen, um auf die Detailseite des Meilensteinpfads zugreifen zu können.
 
@@ -62,7 +89,7 @@ Diese Änderungen sind temporär, da wir E-Mail-Verzögerungen untersuchen.
 
 >[!NOTE]
 >
->Vorschau-Version: 13. Februar 2025; Produktionsversion für alle Kunden: Mit Version 25.3 (März 2025)
+>Vorschau-Version: 13. Februar 2025; Produktionsversion für alle Kunden: Mit Version 25.3 (13. März 2025)
 
 Das Erscheinungsbild des Dialogfelds Freigeben wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Es gibt leichte visuelle Unterschiede, darunter:
 
