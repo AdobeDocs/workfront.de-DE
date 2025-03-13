@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: 9cab5818ce9fed8a4ac9d8ff305163e95cc45758
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '779'
+source-wordcount: '875'
 ht-degree: 3%
 
 ---
@@ -115,26 +115,28 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
    </table>
 
 1. Klicken Sie **Meilenstein hinzufügen** und fügen Sie weitere Meilensteine nach Bedarf hinzu, bis der Pfad abgeschlossen ist.
+
 1. Klicken Sie **Meilensteinpfad erstellen** um Ihre Änderungen zu speichern.
 
    Ihr Meilensteinpfad kann jetzt mit einem Projekt verknüpft werden.
 
    Weitere Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten und Meilensteinen mit Aufgaben finden Sie unter [Verknüpfen von Meilensteinen mit Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
-<!--
-1. <span class="preview">(Optional) Click the **Export** icon ![Export icon](assets/export-icon.png), then select from the following formats to export the milestone path list to a file: </span>
+
+1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Export** ![Export-Symbol](assets/export-icon.png) und wählen Sie dann eines der folgenden Formate aus, um die Liste der Meilensteinpfade in eine Datei zu exportieren: </span>
 
    * PDF
    * Excel
    * Excel (xlsx)
-   * Tab Delimited
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Edit** icon ![Edit icon](assets/edit-icon.png) to edit milestone information. </span>
-1. <span class="preview">(Optional) Select a milestone in the milestone list, then click the **Delete** icon ![Delete icon](assets/delete-icon.png) to delete it. </span>
-1. <span class="preview">Click **Yes, Delete it**. </span>
-   <span class="preview">The milestone is deleted and cannot be recovered. Any project information associated with the milestone and any task information associated with the milestone paths is also deleted. </span>
+   * Durch Tabulatoren getrennt
 
-   </div>
--->
+1. <span class="preview">(Optional) Wählen Sie in der Meilenstein-Liste einen Meilenstein aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), um Meilenstein-Informationen zu bearbeiten. </span>
+1. <span class="preview">(Optional) Wählen Sie in der Meilenstein-Liste einen Meilenstein aus und klicken Sie dann auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png), um ihn zu löschen. </span>
+1. <span class="preview">Klicken Sie auf **Ja, löschen Sie**. </span>
+   <span class="preview">Der Meilenstein wurde gelöscht und kann nicht wiederhergestellt werden. Alle mit dem Meilenstein verknüpften Projektinformationen und alle mit den Meilensteinpfaden verknüpften Aufgabeninformationen werden ebenfalls gelöscht. </span>
+
+
+<div class="preview">
 
 ## Anzeigen von Meilensteinpfaddetails in einem Bericht
 
@@ -171,9 +173,8 @@ Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten finden Sie unt
    * Meilensteinpfadgruppen
    * Meilensteinnamen, Beschreibungen, Farben und Farbsymbole
 
-   </div>
-
 1. (Optional) Klicken Sie auf **Zurück**, um zum Projektbericht zurückzukehren.
 
+</div>
 
 

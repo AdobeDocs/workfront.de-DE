@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1798'
+source-wordcount: '1828'
 ht-degree: 0%
 
 ---
@@ -24,11 +24,14 @@ ht-degree: 0%
 
 {{planning-important-intro}}
 
-Nachdem in Adobe Workfront Planning von einer Datensatztypseite aus ein Link zu einem Anforderungsformular für Sie freigegeben wurde, können Sie eine Anforderung hinzufügen, um Datensätze für den Datensatztyp zu erstellen, der mit dem Anforderungsformular verknüpft ist.
+Nachdem ein Workspace-Manager ein Anfrageformular für einen Datensatztyp in Adobe Workfront Planning erstellt hat, können Sie das Formular zum Senden von Anfragen verwenden, die Datensätze für den mit dem Formular verknüpften Datensatztyp erstellen.
+
+Sie können eine Workfront-Planungsanfrage aus den folgenden Bereichen senden:
+
+* Vom Bereich Anfragen in Workfront oder über einen direkten Link zum Anfrageformular. In diesem Artikel wird beschrieben, wie Sie eine Anfrage zum Hinzufügen neuer Datensätze zu einem Datensatztyp über den Bereich Anfragen in Workfront oder über einen freigegebenen Link senden können.
+* <span class="preview">Auf der Seite „Datensatztyp“, wenn Sie einen neuen Datensatz hinzufügen oder anfordern. Weitere Informationen finden Sie [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).</span>
 
 Workfront-Benutzende und externe Benutzende können Anfragen an Planning-Datensatztypen senden und Datensätze erstellen. <!--double check on the external users-->
-
-In diesem Artikel wird beschrieben, wie Sie eine Anfrage zum Hinzufügen neuer Datensätze zu einem Datensatztyp senden können.
 
 Informationen dazu, wie ein Workspace-Manager ein Anfrageformular erstellen und mit einem Datensatztyp verknüpfen kann, finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
@@ -113,34 +116,41 @@ Folgendes muss vorhanden sein, bevor Sie eine Anfrage an ein Workfront Planning-
 * In Workfront Planning muss Folgendes vorhanden sein:
 
    * Ein Arbeitsbereich
-   * Ein mit einem Anfrageformular verknüpfter Datensatztyp. Weitere Informationen finden Sie unter [Erstellen eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+   * Ein Datensatztyp.
+   * Ein mit einem Datensatztyp verknüpftes Anforderungsformular.
 
-* Das Anfrageformular muss für einen Link freigegeben werden, sodass Sie darauf zugreifen können. Die folgenden Szenarien sind vorhanden:
+     Weitere Informationen finden Sie unter [Erstellen eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
-   * Wenn Sie über ein Workfront-Konto verfügen, wurde der Link nur für interne Personen freigegeben, und Sie haben Zugriff auf den Arbeitsbereich, der Ihnen zur Verfügung steht, oder darüber hinaus. Personen außerhalb von Workfront können nicht auf einen intern freigegebenen Link zugreifen.
-   * Wenn Sie kein Workfront-Konto haben, wurde der Link für externe Personen freigegeben. Benutzende von Workfront können auch auf einen Link zugreifen, der für externe Personen freigegeben ist.
+* Das Anfrageformular muss so freigegeben werden, dass Sie darauf zugreifen können. Die folgenden Szenarien sind vorhanden:
+
+   * Intern muss das Formular für Benutzende freigegeben werden, die über die Berechtigung zum Anzeigen oder eine höhere Berechtigung für den Arbeitsbereich verfügen.
+
+     Workfront-Benutzer können entweder über einen Link auf das Formular zugreifen <span class="preview">oder das Anfrageformular im Bereich Anfragen von Workfront finden.</span>
+
+   * Wenn Sie kein Workfront-Konto haben, wurde ein Link zum Formular für externe Personen freigegeben.
+
+     Benutzende von Workfront können auch auf einen Link zugreifen, der für externe Personen freigegeben ist.
 
 * Der Link zum Formular darf nicht abgelaufen sein.
 
 ## Überlegungen zum Senden von Anfragen an Workfront Planning
 
-* Der Zugriff auf ein Anforderungsformular für Workfront Planning-Anforderungen ist nur über einen bestimmten Link zum Formular möglich.
-* Eine Anforderung kann nicht in Workfront bearbeitet werden, nachdem sie an Workfront Planning übermittelt wurde.
+* Eine Anfrage kann nach dem Senden nicht mehr in Workfront bearbeitet werden.
 * Jede gesendete Anfrage erstellt einen Datensatz für den Datensatztyp, der mit dem von Ihnen verwendeten Formular verknüpft ist, wenn das Formular nicht mit einer Genehmigung verknüpft ist oder wenn die Genehmigung von allen genehmigenden Personen erteilt wurde.
-* Datensätze, die durch das Übermitteln von Anfrageformularen erstellt wurden, können nicht von Datensätzen unterschieden werden, die über eine andere Methode hinzugefügt wurden. Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
+* Datensätze, die durch das Übermitteln von Anfrageformularen erstellt wurden, können nicht von Datensätzen unterschieden werden, die über eine andere Methode in Workfront Planning hinzugefügt wurden.
+
+  Weitere Informationen finden Sie unter [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).
 * Gesendete Anfragen werden in Workfront im Bereich Anfragen auf der Registerkarte Planung des Abschnitts Gesendet angezeigt.
-* Die Anzeige bestimmter Feldtypen in einem Anfrageformular oder auf der Seite mit den Anfragedetails nach dem Senden eines Formulars ist eingeschränkt. Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+* Die Anzeige bestimmter Feldtypen in einem Anfrageformular oder auf der Seite mit den Anfragedetails nach dem Senden eines Formulars ist eingeschränkt.
+
+  Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 <!--Not sure how to change the request status, but dev also said: Changing the names of the statuses might lead to some inconsistency between unified-approvals-service and intake-approvals-flow.-->
 
 
-## Anforderung an Workfront Planning senden
-
-Das Senden von Anfragen an Workfront Planning unterscheidet sich je nach der verwendeten Umgebung.
-
 <div class="preview">
 
-### Senden einer Anfrage an Workfront Planning in der Vorschau-Umgebung
+## Senden einer Anfrage an Workfront Planning im Bereich „Anfragen“ von Workfront
 
 >[!NOTE]
 >
@@ -214,7 +224,7 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
 
    >[!TIP]
    >
-   >* Wenn der Datensatzname nicht zum Anfrageformular hinzugefügt wurde, wird der Name des Datensatzes im Datensatzfeld der Anfrage als „Nicht **&quot;**.
+   >* Wenn das Primärfeld des Datensatzes im Anfrageformular nicht aktualisiert wurde, wird der Name des Datensatzes im Datensatzfeld der Anfrage als „Nicht **&quot;**.
    >
    >* Wenn das Anfrageformular mit einer Genehmigung verknüpft ist, muss die Genehmigung erteilt werden, bevor Sie auf den Datensatz auf der Anfrageseite zugreifen können.
 
@@ -224,7 +234,7 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
 
 </div>
 
-### Senden einer Anfrage an Workfront Planning in der Produktionsumgebung
+## Senden einer Anfrage an Workfront Planning über einen freigegebenen Link in ein Anfrageformular
 
 1. Navigieren Sie zu dem Link, der von einem Workfront Planning-Datensatztyp für Sie freigegeben wurde.
 

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '1844'
+source-wordcount: '2411'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,8 @@ In Adobe Workfront Planning ist ein Datensatz eine Instanz eines Datensatztyps.
 
 Sie können Datensätze wie folgt erstellen:
 
-* [Hinzufügen von Datensätzen von der Seite „Datensatztyp“ in der Tabellenansicht](#create-records-by-adding-them-to-a-record-type-in-a-record-type-table)
+* [Erstellen Sie Datensätze, indem Sie sie inline über die Tabellenansicht des Datensatztyps hinzufügen](#create-records-by-adding-them-inline-from-the-record-type-table-view)
+* <span class="preview">[Erstellen von Datensätzen mit der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
 * [Kopieren und Einfügen einer Liste von Datensätzen aus einer externen Liste](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplizieren von Datensätzen aus einer Tabellenansicht](#create-records-by-duplicating-them)
 * [Datensätze erstellen, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
@@ -97,7 +98,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu dem Arbeitsbereich <!--<span class="preview">and record type</span>-->, dem Sie Datensätze hinzufügen möchten. </p>  
+   <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu dem Arbeitsbereich <!--<span class="preview">and record type</span>-->, dem Sie Datensätze hinzufügen möchten. </p>
+   <p><span class="preview">Zeigen Sie Berechtigungen oder höhere Berechtigungen für den Arbeitsbereich an, <!--<span class="preview">and record type</span>--> Datensätze mithilfe der Schaltfläche Datensatz anfragen auf der Seite Datensatz zu erstellen</span></p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
@@ -113,9 +115,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 +++
 
-## Erstellen von Datensätzen durch Hinzufügen zu einem Datensatztyp in einer Datensatztyptabelle
+## Erstellen Sie Datensätze, indem Sie sie inline über die Tabellenansicht des Datensatztyps hinzufügen
 
-Sie können Datensätze in der Tabellenansicht einer Datensatztypseite erstellen.
+Sie können Datensätze in der Tabellenansicht einer Datensatztypseite erstellen, indem Sie sie inline hinzufügen.
 
 Informationen zum Bearbeiten von Datensatzinformationen finden Sie unter [Bearbeiten von Datensätzen](/help/quicksilver/planning/records/edit-records.md).
 
@@ -128,27 +130,28 @@ Informationen zum Bearbeiten von Datensatzinformationen finden Sie unter [Bearbe
 1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
 
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
-Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
+Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
-1. (Bedingt) Führen Sie je nach angezeigter Ansicht einen der folgenden Schritte aus:
+1. (Bedingt) Führen Sie in der Tabellenansicht einen der folgenden Schritte aus:
 
-   * In der Tabellenansicht:
+   * Klicken Sie **Neuer Datensatz** in der letzten Zeile der Tabelle
 
-      * Klicken Sie **Neuer Datensatz** in der letzten Zeile der Tabelle
+   * Klicken Sie **einer beliebigen Spalte oder Zeile** Tabelle auf der Tastatur auf „Umschalt+Eingabe“. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, von dem aus Sie beginnen.
+   * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Feld und dann auf **Datensatz oben einfügen** oder **Datensatz unten einfügen**.
 
-      * Klicken Sie **einer beliebigen Spalte oder Zeile** Tabelle auf der Tastatur auf „Umschalt+Eingabe“. Dadurch wird eine leere Zeile unter dem Datensatz hinzugefügt, von dem aus Sie beginnen.
-      * Bewegen Sie den Mauszeiger über das Primärfeld eines Datensatzes und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Feld und dann auf **Datensatz oben einfügen** oder **Datensatz unten einfügen**.
+   ![Hinzufügen einer neuen Kampagne in der Tabellenzeile](assets/adding-a-new-campaign-in-table-row.png)
 
-     ![Hinzufügen einer neuen Kampagne in der Tabellenzeile](assets/adding-a-new-campaign-in-table-row.png)
+   Workfront lädt für jeden neuen Datensatz automatisch eine Miniaturansicht hoch. Sie können diese Bilder später ändern. Weitere Informationen finden Sie [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-   * Aus jeder Ansicht:
+   Der Tabelle wird ein neuer Datensatz hinzugefügt.
 
-      * Klicken **oben rechts** der Seite auf „Neuer Datensatz“. Das Feld für die Datensatzvorschau wird geöffnet.
+1. Klicken Sie auf das primäre Feld des neuen Datensatzes
 
-     Workfront lädt für jeden neuen Datensatz automatisch eine Miniaturansicht und ein Titelbild hoch. Sie können diese Bilder später ändern. Weitere Informationen finden Sie in den folgenden Artikeln:
+   Oder
 
-      * [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md)
-      * [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md)
+   Klicken Sie auf **Details öffnen**-Symbol ![Details öffnen“ im Feld ](assets/open-details-icon-in-table-name-field.png)Tabellenname“ links neben dem Datensatznamen.
+
+   Das Vorschaufeld wird in der Tabelle geöffnet.
 
 1. Beginnen Sie mit der Eingabe von Informationen über den neuen Datensatz in die Felder, die Sie im Vorschaufeld sehen.
 
@@ -158,23 +161,94 @@ Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
    >
    >  * Felder, die auf andere Datensatztypen oder berechnete Felder verweisen, sind schreibgeschützt.
 
-1. (Bedingt) Wenn Sie der Tabelle Datensätze hinzufügen, fügen Sie weitere Informationen in jeder Zeile hinzu und klicken Sie dann auf **Eingabetaste** auf der Tastatur, um die Änderungen zu speichern.
+1. (Bedingt) Fügen Sie beim Hinzufügen von Datensätzen in der Tabelle vor dem Öffnen des Vorschaufelds des Datensatzes weitere Informationen in jeder Zeile hinzu und klicken Sie dann auf der Tastatur auf **Eingabetaste** um die Änderungen zu speichern.
 
    Oder
 
-   Klicken Sie auf den Namen des neuen Datensatzes oder auf das Symbol **Details öffnen** ![Detailsymbol öffnen im Feld &quot;](assets/open-details-icon-in-table-name-field.png)&quot; links neben dem Datensatznamen. In der Tabelle wird eine Vorschau mit den detaillierten Informationen des Datensatzes geöffnet.
+   Klicken Sie auf den Namen des neuen Datensatzes oder auf das Symbol **Details öffnen** ![Detailsymbol öffnen im Feld &quot;](assets/open-details-icon-in-table-name-field.png)&quot; links neben dem Datensatznamen, um das Vorschaufeld zu öffnen und die Datensatzinformationen im Detailbereich zu bearbeiten.
 
    >[!TIP]
    >
    >Sie können auf das Symbol **Details öffnen** nur über das Namensfeld des Datensatzes zugreifen, wenn das Namensfeld ein primäres Feld ist.
 
-1. Beginnen Sie mit der Bearbeitung der Datensatzinformationen in der Vorschau des Datensatzes. Workfront speichert Ihre Änderungen automatisch.
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Datensatzseite in einer neuen Registerkarte zu öffnen. Bearbeitung des Datensatzes auf der Datensatzseite fortsetzen. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
+1. (Optional) Klicken Sie im Vorschaufeld des Datensatzes auf das Symbol **In neuer Registerkarte öffnen** ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Bearbeitung des Datensatzes auf der Datensatzseite fortsetzen. Weitere Informationen finden Sie unter [Datensätze bearbeiten](/help/quicksilver/planning/records/edit-records.md).
 
-1. (Optional) Verwenden Sie die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze oder deren Informationen rückgängig zu machen oder wiederherzustellen, wenn Sie sie in der Tabellenansicht hinzufügen:
+   Workfront speichert Ihre Änderungen automatisch.
+
+1. (Optional) Schließen Sie das Vorschaufeld oder klicken Sie auf den Rückwärtspfeil links neben dem Datensatznamen, wenn Sie die Seite des Datensatzes geöffnet haben.
+
+1. (Optional) Verwenden Sie in der Tabellenansicht die folgenden Tastaturbefehle, um das Hinzufügen neuer Datensätze oder deren Informationen rückgängig zu machen oder wiederherzustellen, wenn Sie sie in der Tabellenansicht hinzufügen:
 
    * STRG + Z (⌘ + Z für Mac), um eine Änderung rückgängig zu machen
    * Strg+Umsch+Z (⌘+Umschalt+Z für Mac), um eine Änderung wiederherzustellen
+
+<div class="preview">
+
+## Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht
+
+Benutzende mit der Berechtigung Anzeigen für den Arbeitsbereich <!--<span class="preview">and record type</span>--> können Datensätze nur mithilfe der Schaltfläche Datensatz anfragen auf der Seite Datensatztyp erstellen.
+
+Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereich <!--<span class="preview">and record type</span>--> können mithilfe der Schaltfläche Neuer Datensatz auf der Seite Datensatztyp Datensätze erstellen.
+<!--did the permissions to record types get released?? if not, take the record type reference here out; AND else-where in this article, including access requirements table-->
+
+>[!IMPORTANT]
+>
+>Ein Workspace-Manager muss ein Anfrageformular für den Datensatztyp erstellen, damit Benutzer mit der Berechtigung Anzeigen Datensätze mithilfe eines Anfrageformulars hinzufügen können. Andernfalls können Benutzer mit Anzeigeberechtigung keine Datensätze erstellen.
+
+{{step1-to-planning}}
+
+1. Klicken Sie auf den Arbeitsbereich, in dem Sie Datensätze hinzufügen möchten.
+
+   Der Arbeitsbereich wird geöffnet und die Datensatztypen werden als Karten angezeigt.
+
+1. Klicken Sie auf eine Karte vom Typ Datensatz. Weitere Informationen zum Erstellen eines Datensatztyps finden Sie unter [Erstellen von Datensatztypen](/help/quicksilver/planning/architecture/create-record-types.md).
+
+   Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
+Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
+
+1. Klicken Sie in einer beliebigen Ansicht je nach den <!--<span class="preview">and record type</span>--> des Arbeitsbereichs in der rechten oberen Ecke Ihres Bildschirms auf eine der folgenden Optionen:
+
+   * Klicken Sie auf **Neuer Datensatz**, wenn Sie für die Workspace-<!--<span class="preview">and record type</span>--> Beitragen oder höhere Berechtigungen haben
+
+     Oder
+
+   * Klicken Sie **Eintrag anfragen**, wenn Sie über Anzeigeberechtigungen für die Workspace-<!--<span class="preview">and record type</span>--> verfügen.
+
+1. (Bedingt) Wenn Sie auf **Neuer Datensatz** geklickt haben, führen Sie folgende Schritte aus:
+
+   1. Klicken Sie auf eine der folgenden Möglichkeiten, um einen Datensatz zu erstellen, und klicken Sie dann auf **Weiter**:
+
+      * **Manuell hinzufügen**. Das Vorschaufeld des Datensatzes wird geöffnet.\
+        Fügen Sie Informationen über den Datensatz hinzu, wie im Abschnitt [Erstellen von Datensätzen durch Hinzufügen inline über die Tabellenansicht des Datensatztyps](#create-records-by-adding-them-inline-from-the-record-type-table-view) in diesem Artikel beschrieben, beginnend mit Schritt 6. <!--insure this stays accurate-->
+      * **Aus Datei hochladen**
+Fügen Sie Datensätze hinzu, wie im Artikel [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md) beschrieben, beginnend mit Schritt 6. <!--ensure this stays accurate-->
+      * **Anforderung einreichen**
+Das Anfrageformular des Datensatztyps wird geöffnet.
+
+        Ein Workspace-Manager muss ein Anfrageformular erstellen, um einen Datensatz mithilfe eines Anfrageformulars hinzufügen zu können.
+
+        >[!TIP]
+        >
+        >Einige Datensatztypen können mehrere Formulare aufweisen. Klicken Sie auf eines, um es zu öffnen.
+
+        Fügen Sie den Datensatz hinzu, wie im Artikel [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md) beschrieben, beginnend mit Schritt 6. <!--ensure this stays accurate-->
+
+      ![](assets/three-ways-to-create-records-choice-modal.png)
+
+1. (Bedingt) Wenn Sie auf **Eintrag anfragen** klicken, führen Sie folgende Schritte aus:
+
+   1. (Bedingt) Wenn der Datensatztyp über mehr als ein Anfrageformular verfügt, klicken Sie auf eines, um es auszuwählen.
+   2. Fahren Sie mit dem Hinzufügen von Informationen im Formular fort, um den Datensatz zu erstellen, wie im Artikel [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md) beschrieben, beginnend mit Schritt 6. <!--ensure this stays accurate-->
+
+1. (Bedingt) Überprüfen Sie die neuen Datensätze.
+
+   Je nachdem, wie Sie den Datensatz hinzugefügt haben, können einige der folgenden Probleme auftreten:
+
+   * Ein neuer Datensatz wird dem Datensatztyp hinzugefügt, es sei denn, Sie haben sich dafür entschieden, ihn über ein Anfrageformular mit einem Genehmigungsprozess hinzuzufügen. Die Genehmigung muss von allen genehmigenden Personen erteilt werden, bevor der Datensatz erstellt wird.
+   * Mehrere Datensätze werden dem Datensatztyp hinzugefügt, wenn Sie Datensätze mithilfe einer CSV- oder Excel-Tabelle hinzugefügt haben.
+   * Eine neue Anfrage wird auf der Registerkarte Planung im Bereich Workfront-Anfragen hinzugefügt, wenn Sie die Anfrage durch Senden eines Anfrageformulars hinzugefügt haben.
+
+</div>
 
 <!-- this is not possible anymore: 
 

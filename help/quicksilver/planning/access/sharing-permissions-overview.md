@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 698036a6-b3b4-44a9-91ee-63fdb6a646a1
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '944'
 ht-degree: 6%
 
 ---
@@ -32,7 +32,7 @@ In diesem Artikel werden die Berechtigungsebenen für Workfront Planning-Objekte
 
 ## Objekte, die Sie in Adobe Workfront Planning freigeben können
 
-Sie können die folgenden Objekte gemeinsam nutzen:
+Sie können die folgenden Objekte in Workfront Planning manuell freigeben:
 
 * Arbeitsbereiche
 
@@ -49,7 +49,7 @@ Sie können die folgenden Objekte gemeinsam nutzen:
 
     * You can share record types with people inside your organization.
     * The level of permissions granted for the workspace displays as Inherited permissions for the record type. 
-    * You cannot share a workspace with a higher permission level than the user has on the workspace. 
+    * You cannot share a record type with a higher permission level than the user has on the workspace. 
 
     For more information, see [Share record types](/help/quicksilver/planning/access/share-record-types.md). 
 
@@ -77,6 +77,8 @@ Intern können Sie einen Arbeitsbereich oder eine Ansicht für die folgenden Wor
 * Aufgabengebiete
 
 </div>
+
+<span class="preview"> Wenn Sie Arbeitsbereiche und Datensatztypen für andere freigeben, wird die Berechtigungsstufe des Datensatztyps automatisch auf die Datensätze und die mit ihnen verknüpften Felder übernommen. </span>
 
 ## Überlegungen zur Freigabe von Objekten in Adobe Workfront Planning
 
@@ -129,7 +131,7 @@ Im Folgenden finden Sie die Berechtigungsebenen für Arbeitsbereiche:
 
 ### Berechtigungen für Datensatztyp
 
-<!--In the Production environment,--> Berechtigungen vom Typ „Datensatz“ werden immer vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+<!--In the Production environment,--> Berechtigungen vom Typ Datensatz werden <!--always--> vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
 
 Im Folgenden finden Sie die Berechtigungsebenen für Datensatztypen:
 
@@ -145,18 +147,17 @@ Im Folgenden finden Sie die Berechtigungsebenen für Datensatztypen:
 
 <div class="preview">
 
-In the Preview environment, Record Type permissions are inherited when you grant permissions to the workspace. 
+In the Preview environment, you can remove the record type's inherited permissions received from the workspace. 
 
-You can remove inherited permissions from the record type, but you can never grant higher permissions for the record type than users have on the workspace. 
+You can give users different permissions on the record type than they have on the workspace. However, you can never grant higher permissions for the record type than users have on the workspace. 
 
 The following scenarios exist: 
 
 |   Workspace permissions     | Automatic inherited permissions for a Record Type |Possible Record Type permissions when Inherited permissions are turned off (granted manually)| 
 |--------|--------|-------------|
-| Manage |   Manage    |   Manage, No permissions           | 
-| Contribute |     Contribute |  Contribute, View, No permissions        |
-| View   |  View     |      View, No permissions        |     
-
+| Manage |   Manage    |   Manage, Remove permissions           | 
+| Contribute |     Contribute |  Contribute, View, Remove permissions        |
+| View   |  View     |      View, Remove permissions        |     
 
 </div>
 
@@ -164,7 +165,7 @@ The following scenarios exist:
 
 ### Datensatzberechtigungen
 
-Datensatzberechtigungen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+Datensatzberechtigungen werden vom (<!--<span class="preview">the record type</span>, when you grant permissions to -->) <!-- and <span class="preview">the record type</span>-->.
 
 Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 
@@ -178,7 +179,8 @@ Im Folgenden finden Sie die Berechtigungsebenen für Datensätze:
 
 ### Feldberechtigungen
 
-Feldberechtigungen werden vererbt, wenn Sie Berechtigungen für den Arbeitsbereich erteilen.
+Feldberechtigungen werden von (<!--<span class="preview">the record type</span>, when you grant permissions to --> Workspace-<!--and <span class="preview">the record type</span>--> übernommen.
+
 Die folgenden Berechtigungen beziehen sich auf die Felder selbst und nicht auf die mit den einzelnen Feldern verknüpften Werte. Zum Bearbeiten von Feldwerten benötigen Sie Berechtigungen zum Bearbeiten von Datensätzen.
 
 |        | Verwalten | Mitwirken | Anzeigen |

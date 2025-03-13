@@ -3,13 +3,13 @@ title: Datensatztypen freigeben
 description: Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit bei der Verwendung von Adobe Workfront Planning sicherzustellen.
 hide: true
 hidefromtoc: true
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+exl-id: bf49db73-09f1-417e-836b-16c6062740d4
+source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
 workflow-type: tm+mt
-source-wordcount: '1186'
+source-wordcount: '1188'
 ht-degree: 0%
 
 ---
-
 
 <!-- add these to metadata on release:
 
@@ -30,8 +30,9 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 
 >[!IMPORTANT]
 >
->* Durch das Gewähren von Berechtigungen für einen Arbeitsbereich erhalten Benutzerinnen und Benutzer dieselben Berechtigungen für die Datensatztypen im Arbeitsbereich.
->* Durch die Erteilung von Berechtigungen für den Datensatztyp können Benutzende geringere Berechtigungen erhalten und nicht höhere Berechtigungen, die sie bereits über vom Arbeitsbereich haben.
+>* Durch das Gewähren von Berechtigungen für einen Arbeitsbereich erhalten Benutzerinnen und Benutzer standardmäßig dieselben Berechtigungen für die Datensatztypen im Arbeitsbereich.
+>* Sie können Berechtigungen für einzelne Datensatztypen anpassen.
+>* Sie können Personen keinen höheren Zugriff auf einen Datensatztyp gewähren als Personen, die Zugriff auf den Arbeitsbereich haben.
 > Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
 
 ## Zugriffsanforderungen
@@ -117,18 +118,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 * Automatisch erben Benutzende die Berechtigungen für den Datensatztyp vom Arbeitsbereich.
 * Sie können Benutzern manuell Ansichtsberechtigungen für einen Datensatztyp erteilen oder die geerbten Berechtigungen aus dem Arbeitsbereich entfernen.
 
-* Benutzende, die zum Datensatztyp hinzugefügt wurden und keine Workspace-Berechtigungen haben, werden automatisch zur Workspace-Freigabe mit Ansichtsberechtigungen hinzugefügt.
+* Benutzende, die zum Freigabefeld für Datensatztypen hinzugefügt wurden und keine Arbeitsbereich-Berechtigungen haben, werden automatisch zur Arbeitsbereich-Freigabe mit Ansichtsberechtigungen hinzugefügt.
 
   Wenn Sie einem Benutzer, der keine Workspace-Berechtigungen hat, höhere Berechtigungen als Anzeigen für einen Datensatztyp gewähren möchten, müssen Sie den Workspace zunächst für ihn freigeben. Wenn Sie nur den Datensatztyp freigeben, können diese nur Anzeigeberechtigungen für den Datensatztyp erhalten. Außerdem werden sie zum Arbeitsbereich mit Anzeigeberechtigungen hinzugefügt. Da Sie dem Datensatztyp Berechtigungen erteilen, gibt es im Freigabefeld einen Hinweis darauf, dass er auch zum Arbeitsbereich hinzugefügt wird.
 
 * Es können niemandem höhere Berechtigungen für den Datensatztyp erteilt werden als jemandem für einen Arbeitsbereich.
 
-  Sie können beispielsweise niemandem Berechtigungen zum Anzeigen eines Arbeitsbereichs und zum Verwalten von Berechtigungen für einen Datensatztyp erteilen.
+  Sie können beispielsweise niemandem die Berechtigung Anzeigen für einen Arbeitsbereich und die Berechtigung Verwalten für einen Datensatztyp erteilen.
 
 
 ## Freigeben von Berechtigungen für einen Datensatztyp
 
-Sie können von Ihnen erstellte Datensatztypen oder Datensatztypen, für die Sie Verwaltungsberechtigungen haben, für Benutzende, Gruppen, Teams, Unternehmen und Aufgabengebiete in Workfront Planning freigeben.
+Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpassen, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen.
 
 {{step1-to-planning}}
 
@@ -145,7 +146,7 @@ Sie können von Ihnen erstellte Datensatztypen oder Datensatztypen, für die Sie
 1. (Optional) Wählen Sie im Bereich **Wer hat Zugriff** eine der folgenden Optionen aus: <!--the Only invited people is supposed to be removed - rewrite this - according to Vahan-->
 
    * **Nur eingeladene Personen können zugreifen**: Sie müssen Benutzer, Gruppen, Teams, Unternehmen oder Aufgabengebiete angeben, für die Sie die Ansicht freigeben möchten.
-   * **Jeder im Arbeitsbereich kann Folgendes anzeigen**: Alle Benutzer mit der Berechtigung „Anzeigen“ oder einer höheren Berechtigung für den Arbeitsbereich können auf die Ansicht zugreifen. Dies ist die Standardoption.
+   * **Jeder im Arbeitsbereich kann Folgendes anzeigen**: Alle Benutzer mit der Berechtigung „Anzeigen“ oder einer höheren Berechtigung für den Arbeitsbereich können auf die Ansicht zugreifen. Dies ist die Standardoption. <!--rewrite this based on what Lilit says in the proof: At this point, once the inherited permissions are disabled, everyone in the workspace except workspace managers will have View permission to the record type because the "Everyone in the workspace can view"  setting cannot be changed. -->
 
 1. (Optional) Erweitern Sie die Option **Vererbte Berechtigungen**, um Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete anzuzeigen, die Berechtigungen vom Arbeitsbereich erben.
 
@@ -157,7 +158,7 @@ Sie können von Ihnen erstellte Datensatztypen oder Datensatztypen, für die Sie
 
    1. Deaktivieren von geerbten Berechtigungen.
    1. Fügen Sie im Feld **Zugriff auf diesen Datensatztyp gewähren** die Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete hinzu, denen Sie eine andere Berechtigungsstufe gewähren möchten.
-1. Wählen Sie eine Berechtigungsstufe.
+   1. Berechtigungsstufe wählen.
 
    >[!IMPORTANT]
    >
@@ -207,6 +208,8 @@ Users who access a link to a record type to which they do not have permissions c
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
 
 ## Entfernen von Berechtigungen für einen Datensatztyp
+
+<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 {{step1-to-planning}}
 

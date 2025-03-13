@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 10dee6f9-06ff-435a-81a4-2125642fab59
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
 workflow-type: tm+mt
-source-wordcount: '584'
+source-wordcount: '548'
 ht-degree: 0%
 
 ---
@@ -39,41 +39,41 @@ Durch das Gewähren von Benutzerberechtigungen für einen Arbeitsbereich werden 
 
 Sie müssen Benutzenden zusätzlich zu den für Arbeitsbereiche separate Berechtigungen für Ansichten gewähren, damit sie auf Ansichten zugreifen und diese verwalten können.
 
+<!--
 
 <div class="preview">
 
-Beachten Sie beim Arbeiten mit Berechtigungen für Datensatztypen Folgendes:
+Consider the following when working with record type permissions: 
 
-* Benutzer erben automatisch Berechtigungen für Datensatztypen von Arbeitsbereichen.
-* Wenn ein(e) Benutzende(r) Verwaltungsberechtigungen für einen Arbeitsbereich hat, kann er/sie keinen geringeren Zugriff auf den Datensatztyp haben.
-* Benutzende können nicht über größere Berechtigungen für einen Datensatztyp verfügen als für den Arbeitsbereich, zu dem der Datensatztyp gehört.
+* Users automatically inherit record type permissions from workspaces. 
+* When a user has Manage permissions to a workspace, they cannot have a lesser access to record type. 
+* Users cannot have greater permissions to a record type than they have for the workspace the record type belongs to.
 
 </div>
+-->
 
 | Adobe Workfront Lizenztyp* | Höchste in Adobe Workfront Planning zulässige Berechtigungen |
 |------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| Standard | <p>Benutzer können <span class="preview">, Datensatztypen, </span> und Ansichten von Arbeitsbereichen verwalten. Sie können Workspaces, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p> <br> <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
+| Standard | <p>Benutzer können Arbeitsbereiche <!--<span class="preview">, record types, </span> --> Ansichten verwalten. Sie können Workspaces, Datensatztypen, Datensätze, Felder und Ansichten erstellen, bearbeiten oder löschen.</p> <br> <p>Systemadministratoren haben Verwaltungsberechtigungen für alle Arbeitsbereiche, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.</p> |
 | Licht oder Mitwirkender | <p>Benutzer können die für sie freigegebenen Arbeitsbereiche sowie die Datensatztypen, Datensätze und Felder dieser Arbeitsbereiche anzeigen.</p> <br> <p>Benutzer können die Ansichten anzeigen, die für sie freigegeben wurden, sie können jedoch keine eigenen erstellen. </p><br> <p>Benutzende können keine Arbeitsbereiche, Datensatztypen, Datensätze oder Felder erstellen, bearbeiten oder löschen.</p> |
 
 *Workfront Planning ist nicht für ältere Workfront-Lizenzen verfügbar.
 Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 
-<!--OLD 
+### Lizenztypen und Berechtigungen für Arbeitsbereiche
 
-| Adobe Workfront license type*                                   | Highest permissions allowed in Adobe Workfront Planning                                                                                                                                             |
-|------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-|New: Standard <br> or <br>Current: Plan                    | Users can manage workspaces. They can create, edit, or delete workspaces, record types, records, and fields. <br> System administrators have Manage permissions to all workspaces, including the ones they did not create.                                                                                                                     |
-| New: Light, Contributor <br> or <br>Current: Work, Requestor, Reviewer                      | Users can view the workspaces shared with them, as well as the record types, records, and fields of those workspaces. <br> Users cannot create, edit, or delete workspaces, record types, records, or fields.|
+<!--should we add "record types" in the title above and to this section?-->
 
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
--->
+Nur Benutzer mit einer Standardlizenz können Berechtigungen zum Beitragen oder Verwalten für Arbeitsbereiche <!--<span class="preview">and record types</span>-->. Die Berechtigungen Beitragen und Verwalten für Arbeitsbereiche <!--<span class="preview">and record types</span>--> auch auf Datensatztypen, Datensätze und Felder übertragen.
 
-### Lizenztypen und Workspace-Berechtigungen
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
 
-Nur Benutzer mit einer Standardlizenz können Berechtigungen zum Beitragen oder Verwalten für Arbeitsbereiche (<span class="preview"> Datensatztypen) </span>. Benutzende mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Arbeitsbereiche verfügen <span class="preview"> und Datensatztypen </span> für sie freigegeben.
+Benutzer aller anderen Lizenztypen können Ansichtsberechtigungen für Arbeitsbereiche, die für sie freigegeben <!--<span class="preview"> and record types </span> -->, sowie für ihre Datensatztypen, Datensätze und Felder besitzen.
 
-Systemadministratoren können alle Arbeitsbereiche im System anzeigen, auch die, die sie nicht erstellt haben.
+<!--take "record types" out from the end of the sentence above when we release record type-level access-->
+
+Systemadministratoren können alle Arbeitsbereiche im System anzeigen, einschließlich der Arbeitsbereiche, die sie nicht erstellt haben.
 
 <!--does the shot below need to be replaced for record types??-->
 
@@ -88,7 +88,7 @@ Systemadministratoren können alle Arbeitsbereiche im System anzeigen, auch die,
 >![Berechtigungen für Mitwirkende auf Arbeitsbereich ausgegraut](assets/permissions-grayed-out-for-contributor-user-on-workspace.png)
 
 
-### Lizenztypen und Anzeigeberechtigungen
+### Lizenztypen und Berechtigungen für Ansichten
 
 Nur Benutzer mit einer Standardlizenz können über Verwaltungsberechtigungen für Ansichten verfügen. Benutzer mit allen anderen Lizenztypen können über Anzeigeberechtigungen für Ansichten verfügen, die für sie freigegeben wurden.
 
