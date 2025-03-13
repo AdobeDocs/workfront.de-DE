@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: a17f501e732e4ba72bf224c7dd9efef7f90b47e7
+source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
 workflow-type: tm+mt
-source-wordcount: '469'
+source-wordcount: '519'
 ht-degree: 0%
 
 ---
@@ -31,19 +31,15 @@ Avatare werden in den folgenden E-Mail-Benachrichtigungen nicht mehr angezeigt:
 * Neue Zuweisungsbenachrichtigungen
 * Alle Benachrichtigungen zum Abschluss von Vorgängeraufgaben
 
-<!--
-
-## Look and feel updates to a Milestone Path list 
+## Look-and-Feel-Aktualisierungen der Liste Meilensteinpfad
 
 >[!NOTE]
 >
->Preview release: March 6, 2025; Production release for all customers: April 10, 2025
+>Vorschau-Version: 6. März 2025; Produktionsversion für alle Kunden: 10. April 2025
 
-We have updated the look and feel of the Milestone Path list in the Setup area, to match the design of other areas of Workfront.  
+Das Erscheinungsbild der Liste Meilensteinpfad im Bereich Setup wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert.
 
-For information, see [Create a milestone path](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
--->
+Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
 ## Aktualisierungen des Erscheinungsbilds im Workfront-Kalender
 
@@ -89,7 +85,7 @@ Diese Änderungen sind temporär, da wir E-Mail-Verzögerungen untersuchen.
 
 >[!NOTE]
 >
->Vorschau-Version: 13. Februar 2025; Produktionsversion für alle Kunden: Mit Version 25.3 (13. März 2025)
+>Vorschau-Version: 13. Februar 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
 
 Das Erscheinungsbild des Dialogfelds Freigeben wurde auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Es gibt leichte visuelle Unterschiede, darunter:
 
