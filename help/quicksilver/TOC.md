@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: e02a593ddca923067eb61f838a7ade17e7fc3652
+source-git-commit: 92efd05bc97e2e957825cbe7a5ca6d43ca795d6b
 workflow-type: tm+mt
-source-wordcount: '13072'
+source-wordcount: '13071'
 ht-degree: 2%
 
 ---
@@ -558,7 +558,7 @@ ht-degree: 2%
             * [Erstellen eines benutzerdefinierten Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md)
             * [Erstellen eines Formulars aus einer Kopie](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-from-copy.md)
             * [Hinzufügen berechneter Felder zu einem Formular](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md)
-            * [Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
+            * [Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md)
             * [Beispiele für das externe Suchfeld in einem benutzerdefinierten Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/external-lookup-examples.md)
             * [Organisieren und Vorschau eines Formulars](administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/organize-a-form.md)
          * Verwalten benutzerdefinierter {#manage-custom-forms}

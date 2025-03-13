@@ -5,16 +5,16 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 4dc32da0-9680-4b7f-a959-d4a0652618c5
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: c21029e098f6b4f51f8698155e2b8a2e789c8bfc
 workflow-type: tm+mt
-source-wordcount: '595'
+source-wordcount: '594'
 ht-degree: 1%
 
 ---
 
 # Exportieren benutzerdefinierter Formulare und Objektdetails
 
-Sie können die Übersicht und die benutzerdefinierten Formularinformationen aus dem Abschnitt Details eines Objekts in eine PDF-Datei exportieren. Sie können die PDF dann ausdrucken oder für andere freigeben.
+Sie können die Übersicht und die benutzerdefinierten Formularinformationen aus dem Abschnitt Details eines Objekts in eine PDF-Datei exportieren. Anschließend können Sie die PDF drucken oder für andere Benutzer freigeben.
 
 Diese Funktion wird für die folgenden Objekte unterstützt:
 
@@ -97,19 +97,15 @@ Der Export von Informationen aus dem Abschnitt Details eines Objekts ist für al
    >
    >Die folgenden Szenarien sind möglich:
    >
-   >   
-   >   
    >   * Wenn Ihre Gruppe oder der Workfront-Administrator alle Felder im Bereich Übersicht aufhebt und an das Objekt benutzerdefinierte Formulare angehängt sind, wird der Abschnitt Übersicht nicht angezeigt.
    >   * Wenn Ihre Gruppe oder der Workfront-Administrator alle Felder im Bereich Übersicht abwählt und an das Objekt keine benutzerdefinierten Formulare angehängt sind, ist das Dropdown-Menü „Export“ nicht sichtbar.
    >   * Wenn an das Objekt keine benutzerdefinierten Formulare angehängt sind, können Sie nur den Bereich Überblick exportieren.
-   >   * Benutzerdefinierte Felder, die sich hinter einer Logik befinden und im Formular nicht sichtbar sind, werden nicht exportiert. Informationen zum Hinzufügen von Logik zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem Formular](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
-   >   
-   >
+   >   * Benutzerdefinierte Felder, die sich hinter einer Logik befinden und im Formular nicht sichtbar sind, werden nicht exportiert. Informationen zum Hinzufügen von Logik zu einem benutzerdefinierten Formular finden Sie unter [Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/display-skip-logic-form-designer.md).
 
    Es wird eine PDF-Datei erstellt und auf den Computer heruntergeladen. Die PDF-Datei enthält die folgenden Informationen:
 
    * Der Name des Objekts, an das das Formular angehängt ist
    * Der Name des Benutzers, der die PDF exportiert hat
-   * Datum und Uhrzeit der Produktion der PDF
+   * Datum und Uhrzeit der Erstellung des PDFS
    * Der Name der exportierten Formulare
    * Informationen aus den im Formular ausgefüllten Feldern

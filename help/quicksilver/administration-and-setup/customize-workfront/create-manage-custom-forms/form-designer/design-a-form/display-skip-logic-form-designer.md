@@ -1,5 +1,5 @@
 ---
-title: Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem Formular
+title: Hinzufügen von Logikregeln zu benutzerdefinierten Forms- und -Feldern
 user-type: administrator
 product-area: system-administration
 navigation-topic: create-and-manage-custom-forms
@@ -8,16 +8,20 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 554e08c22f6ee142a9ced8fa991d0126b6360b0c
+source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1745'
 ht-degree: 0%
 
 ---
 
-# Hinzufügen einer Anzeigelogik und Überspringen einer Logik zu einem Formular
+# Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern
 
-Sie können festlegen, welche Abschnitte eines benutzerdefinierten Formulars angezeigt oder übersprungen werden sollen, je nachdem, welche Auswahl ein Benutzer beim Ausfüllen trifft.
+{{highlighted-preview}}
+
+Mit logischen Regeln können Sie die Felder in Ihrem Formular weiter anpassen.
+
+Beispielsweise können Sie basierend auf den Entscheidungen, die ein Benutzer beim Ausfüllen eines benutzerdefinierten Formulars trifft, Felder oder Abschnitte in einem benutzerdefinierten Formular anzeigen oder überspringen.
 
 >[!NOTE]
 >
@@ -57,7 +61,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Logiksymbole anzeigen und überspringen
 
-Benutzerdefinierte Formulare zeigen Symbole an, um anzugeben, welche Logik auf bestimmte Felder angewendet wird. Symbole auf einem Feld im Formular-Designer geben an, dass Logik auf das Feld angewendet wird.
+Benutzerdefinierte Formulare zeigen Symbole an, um anzugeben, wann die Logik zum Anzeigen oder Überspringen auf bestimmte Felder angewendet wird. Symbole auf einem Feld im Formular-Designer geben an, dass Logik auf das Feld angewendet wird.
 
 | Symbol | Speicherort auf dem Feld im Formular-Designer | Definition |
 |--- |--- |--- |
@@ -96,31 +100,104 @@ Informationen zu benutzerdefinierten Feldern und Widgets in benutzerdefinierten 
 
 Die Anzeigelogik definiert, welche benutzerdefinierten Felder im Formular angezeigt werden, wenn Benutzende einen bestimmten Wert in einem Multiple-Choice-Feld auswählen. Die Logik wird dem Zielfeld hinzugefügt, das nur angezeigt wird, wenn der Wert ausgewählt ist.
 
+<!--
+>[!NOTE]
+>
+><span class="preview">This procedure describes the basic mode for display logic. Advanced display logic is also available. For more information, see [Add advanced display logic to a custom form](#add-advanced-display-logic-to-a-custom-form), in this article.</span>
+-->
+
 {{step-1-to-setup}}
 
 1. Klicken Sie **Benutzerdefinierte Forms**.
 1. Ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular öffnen. Siehe [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) für Details.
 1. Fügen Sie dem Formular nach Bedarf Felder hinzu. Mindestens ein Multiple-Choice-Feld (Optionsfeld, Dropdown oder Kontrollkästchen) muss vor dem Zielfeld positioniert werden, das angezeigt wird.
-1. Wählen Sie das Zielfeld aus und klicken **unten links** Bildschirm auf „Logik hinzufügen“.
-1. Wählen Sie die **Anzeigelogik** aus.
-1. Klicken Sie **Logik-Builder auf** Anzeigeregel hinzufügen“.
+1. Wählen Sie das Zielfeld aus und klicken Sie auf **Logik**.
+1. Wählen Sie die **Anzeige** im Logikgenerator aus.
+1. Klicken Sie **Anzeigeregel hinzufügen**.
+
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+
+   ![Display Logic Builder](assets/simple-display-logic1-val-only-in-menu.png)
+
+   Beispielbild in der Produktionsumgebung:
 
    ![Display Logic Builder](assets/custom-form-logic-builder-display-blank.png)
 
-1. Gehen Sie im Builder wie folgt vor, um die logische Anweisung zu erstellen.
+1. Gehen Sie wie folgt vor, um die Logikanweisung im Builder zu erstellen.
 
    1. Die erste Option besteht darin, das definierende Feld auszuwählen. Dies ist das Feld mit dem Auswahlwert, der die Zielgruppe anzeigt. Es muss ein Multiple-Choice-Feld sein.
    1. Die zweite Option besteht darin, den Auswahlwert auszuwählen. Nur die für dieses Feld bereits definierten Werte sind verfügbar.
    1. Die dritte Option ist **Ausgewählt** oder **Nicht ausgewählt**. Die Auswahl **Ausgewählt** bedeutet, dass bei Auswahl des Werts das Zielfeld angezeigt wird. Die Auswahl **Nicht ausgewählt** bedeutet, dass das Zielfeld angezeigt wird, wenn ein anderer Wert im definierenden Feld ausgewählt wird.
    1. Um eine Und **Regel** die Logikanweisung hinzuzufügen, klicken Sie **Regel hinzufügen** direkt unter der soeben erstellten Regel. Befolgen Sie die gleichen Anweisungen, um die Regel zu erstellen. Alle - und -Regeln müssen erfüllt sein, damit das Zielfeld angezeigt wird.
 
+      <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+
+      ![Display Logic Builder](assets/simple-display-logic2.png)
+
+      Beispielbild in der Produktionsumgebung:
+
       ![Display Logic Builder](assets/custom-form-logic-builder-display1.png)
 
    1. Um eine **OR**-Regel zur Logikanweisung hinzuzufügen, klicken Sie **Regel hinzufügen** unten im Logik-Builder. Klicken Sie dann im Bereich **auf „Regel hinzufügen** und folgen Sie denselben Anweisungen, um die Regel zu erstellen. Wenn eine OR-Regel erfüllt ist, wird das Zielfeld angezeigt.
 
-1. Klicken Sie **Speichern** wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
+1. Klicken Sie auf **Speichern** <span class="preview">oder **Anwenden**</span> wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
 
    Die Symbole für die Anzeigelogik werden dem Zielfeld und dem definierenden Feld im Formular-Designer hinzugefügt.
+
+<!--
+<div class="preview">
+
+## Add advanced display logic to a custom form
+
+The advanced display logic for custom form fields allows you to build complex logic using formulas. You can apply this logic to the following field types: drop-down, radio button, checkbox, typeahead, single line text, paragraph text, date field, text with formatting, and calculated fields.
+
+### Examples
+
+You can use advanced display logic to control the visibility of custom form sections based on user roles and the visibility of a field based on another field's status.
+
+No logic is applied to the default section on the form, so it is always visible to all users.
+
+Using the following condition, the Resources Required section is only displayed when a user with the job role of Resource Manager views the form.
+
+```IF($$USER.{roleID}="123abc", true)```
+
+Note that ```123abc``` represents the role ID of the Resource Manager.
+
+![Form section displayed for role](assets/advanced-display-on-form1.png)
+
+The same condition with a different role ID is applied to the Project Financial KPIs section to define that  only the Financial Advisor role can view the section.
+
+Using the following condition, the Sold KPI field only becomes visible when the project is complete. This logic is applied directly to the field instead of to a form section. There is no need to specify which role can view the field, because that is already defined in the section that the field is in.
+
+```IF({status}="CPL", true)```
+
+![Field is visible on complete project](assets/advanced-display-on-form2.png)
+
+### Define advanced display logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Display** tab on the logic builder.
+1. Turn on **Advanced mode**.
+   
+   This option might be turned on automatically, for fields that do not support the simple mode of display logic.
+
+   ![Advanced mode for display logic](assets/advanced-display-logic-blank-editor.png)
+
+1. Build the display condition in the editor.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field and the display logic icon is added in the form designer.
+
+</div>
+-->
 
 ## Hinzufügen einer Logik zum Überspringen zu einem benutzerdefinierten Formular
 
@@ -132,24 +209,145 @@ Die Überspringen-Logik definiert benutzerdefinierte Formularfelder, die übersp
 1. Ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular öffnen. Siehe [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) für Details.
 1. Fügen Sie dem Formular nach Bedarf Felder hinzu. Das definierende Feld für die Logik zum Überspringen muss ein Multiple-Choice-Feld sein (Optionsfeld, Dropdown oder Kontrollkästchen).
 1. Wählen Sie das definierende Feld aus und klicken **unten links** Bildschirm auf „Logik hinzufügen“.
-1. Wählen Sie die **Logik überspringen** aus.
-1. Klicken Sie **Logikgenerator auf** Regel zum Überspringen hinzufügen“.
+1. Wählen Sie die **Überspringen** im Logikgenerator.
+1. Klicken Sie **Regel zum Überspringen hinzufügen**.
+
+
+   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+
+   ![Logikgenerator überspringen](assets/skip-logic1-val-only-in-menu.png)
+
+   Beispielbild in der Produktionsumgebung:
 
    ![Logikgenerator überspringen](assets/custom-form-logic-builder-skip-blank.png)
 
-1. Gehen Sie im Builder wie folgt vor, um die logische Anweisung zu erstellen.
+1. Gehen Sie wie folgt vor, um die Logikanweisung im Builder zu erstellen.
 
    1. Das definierende Feld wird im Builder angezeigt. Dies ist das Feld, auf das Sie die Logik zum Überspringen angewendet haben.
    1. Die erste Option besteht darin, den Auswahlwert auszuwählen. Nur die bereits für das Feld definierten Werte sind verfügbar.
    1. Die zweite Option ist **Ausgewählt** oder **Nicht ausgewählt**. Die Auswahl **Ausgewählt** bedeutet, dass bei Auswahl des Werts das Zielfeld angezeigt wird und die Felder dazwischen übersprungen werden. Die Auswahl **Nicht ausgewählt** bedeutet, dass, wenn ein anderer Wert im definierenden Feld ausgewählt ist, das Zielfeld angezeigt wird und die Felder dazwischen übersprungen werden.
    1. Die dritte Option ist das Zielfeld oder der Ort, zu dem Sie wechseln möchten. Wählen Sie einen Feldnamen oder &quot;**des Formulars“**. Möglicherweise müssen Sie zuerst auf das Wort „leer“ klicken, bevor Sie eine Option auswählen.
 
+      <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
+
+      ![Logikgenerator überspringen](assets/skip-logic2.png)
+
+      Beispielbild in der Produktionsumgebung:
+
       ![Logikgenerator überspringen](assets/custom-form-logic-builder-skip1.png)
 
    1. Um eine **OR**-Regel zur Logikanweisung hinzuzufügen, klicken Sie **Regel hinzufügen** unten im Logik-Builder. Wählen Sie dann die Optionen aus, die denselben Aufforderungen folgen, um die Regel zu erstellen. Wenn eine **Oder**-Regel erfüllt ist, wird das Zielfeld angezeigt.
 
-1. Klicken Sie **Speichern** wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
+1. Klicken Sie auf **Speichern** <span class="preview">oder **Anwenden**</span> wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
 
    Die Symbole zum Überspringen werden dem Zielfeld und dem definierenden Feld im Formular-Designer hinzugefügt.
 
+<div class="preview">
 
+## Hinzufügen von Validierungslogik zu einem benutzerdefinierten Formular
+
+Validierungslogik wird mithilfe von Formeln erstellt, und Sie können die Logik so einfach oder so komplex gestalten, wie Sie benötigen. Die Validierung kann auf den Werten anderer Felder oder dem Status von Objekten basieren, und Sie können eine Fehlermeldung bereitstellen, die angibt, wenn die Validierung fehlschlägt.
+
+Wenn das Feld mit der angewendeten Logik die definierten Validierungsbedingungen erfüllt, wenn ein Benutzer das benutzerdefinierte Formular ausfüllt, wird das Feld hervorgehoben und die Fehlermeldung angezeigt.
+
+Sie können Validierungslogik auf die folgenden Feldtypen anwenden: Dropdown, Optionsschaltfläche, Kontrollkästchen, automatische Textvervollständigung, einzeiliger Text, Absatztext, Datumsfeld, Text mit Formatierung und berechnete Felder.
+
+### Beispiele
+
+Unter Verwendung der folgenden Bedingung zeigt das Feld Budget eine Nachricht unter dem Feld an, wenn der Benutzer einen Wert eingibt, der die Nachricht Trigger. Wenn der eingegebene Wert beispielsweise negativ ist, wird die erste Meldung angezeigt. Wenn der/die Benutzende versucht, den Projektstatus in „aktuell“ zu ändern, bevor er/sie einen Budgetwert eingibt, wird die zweite Meldung angezeigt.
+
+```
+IF({DE:Budget Field} < 0,
+     "Budget cannot be negative",
+     IF({DE:Budget Field} == 0 && {status} == "CUR", "Budget must be specified before moving to Current status")
+)
+```
+
+Ein weiteres einfaches Beispiel: Ein Telefonnummernfeld muss eine bestimmte Anzahl von Ziffern enthalten, damit es gültig ist.
+
+Ein zusätzliches Beispiel für die Validierung anhand anderer Felder ist ein Feld für die Größe des Besprechungsraums (klein, mittel oder groß) und ein separates Feld für die Anzahl der Besprechungsteilnehmer. Die Anzahl der Personen für jede Raumgröße wird in die Validierungsformel geschrieben. Wenn die Anzahl der Teilnehmer, die der Benutzer betritt, für den ausgewählten Besprechungsraum zu hoch ist, wird die Fehlermeldung angezeigt.
+
+### Validierungslogik definieren
+
+{{step-1-to-setup}}
+
+1. Klicken Sie **Benutzerdefinierte Forms**.
+1. Ein neues benutzerdefiniertes Formular erstellen oder ein vorhandenes Formular öffnen. Siehe [Erstellen eines benutzerdefinierten Formulars](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) für Details.
+1. Fügen Sie dem Formular nach Bedarf Felder hinzu.
+1. Wählen Sie das Feld aus, auf das Logik angewendet werden soll, und klicken Sie auf **Logik hinzufügen**.
+1. Wählen Sie die **Validierung** im Logikgenerator aus.
+
+   ![Validierungslogik-Builder](assets/validation-logic-blank-editor-val-only-in-menu.png)
+
+1. Erstellen Sie die Validierungsbedingung im Editor, einschließlich der Fehlermeldung, die angezeigt werden soll, wenn die Validierung nicht erfüllt ist.
+
+   Weitere Informationen zu Berechnungen und Ausdrücken finden Sie unter [Hinzufügen berechneter Felder zu einem ](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) und [Übersicht über berechnete Datenausdrücke](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Klicken Sie **Apply**.
+
+   Die Logik wird auf das Feld im Formular-Designer angewendet.
+
+</div>
+
+<!--
+<div class="preview">
+
+## Add formatting logic to a custom form
+
+Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+
+Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
+
+### Example
+
+Using the following condition, the Budget field appears red when the user enters a value of 1000 or more. The field appears yellow when the user enters a value of 500 or more.
+
+To add a hover-over definition of the formatting, use the Instructions field in the custom form. For example, a message on the Budget field could say "Please enter a budget within a reasonable range. Values over 500 are a warning notice, and above 1000 is considered too high."
+
+```
+IF(
+     {DE:Budget Field} >=1000,
+     FORMAT($$NEGATIVE),
+     IF({DE:Budget Field} >= 500, FORMAT($$NOTICE))
+)
+```
+
+### Define formatting logic
+
+{{step-1-to-setup}}
+
+1. Click **Custom Forms**.
+1. Create a new custom form or open an existing form. See [Create a custom form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/design-a-form.md) for details.
+1. Add fields to the form as needed.
+1. Select the field to apply logic to, and click **Add Logic**.
+1. Select the **Formatting** tab on the logic builder.
+
+   ![Formatting logic builder](assets/formatting-logic-blank-editor.png)
+
+1. Build the formatting condition in the editor.
+
+   You can add up to five formatting rules per field.
+
+   The field highlighting color options are:
+
+   * `$$POSITIVE (green)`
+   * `$$INFORMATIVE (blue)`
+   * `$$NEGATIVE (red)`
+   * `$$NOTICE (orange)`
+   
+   The text formatting options are:
+   
+   * `$$BOLD`
+   * `$$ITALIC`
+   * `$$UNDERLINE`
+
+   Only one color option may be used per function, along with up to three additional text formatting options. If no color option is specified, the system's default color is applied.
+
+   For more information about calculations and expressions, see [Add calculated fields to a form](/help/quicksilver/administration-and-setup/customize-workfront/create-manage-custom-forms/form-designer/design-a-form/add-a-calculated-field.md) and [Overview of calculated data expressions](/help/quicksilver/reports-and-dashboards/reports/calc-cstm-data-reports/calculated-data-expressions.md).
+
+1. Click **Apply**.
+   
+   The logic is applied to the field in the form designer.
+
+</div>
+-->
