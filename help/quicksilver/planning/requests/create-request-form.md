@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
 workflow-type: tm+mt
-source-wordcount: '2084'
+source-wordcount: '2121'
 ht-degree: 1%
 
 ---
@@ -160,7 +160,8 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
 
-1. Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile der Seite und klicken Sie dann auf **Anforderungsformular erstellen** <span class="preview">oder **Anforderungsformular verwalten**, wenn Sie bereits über ein Formular verfügen und weitere erstellen möchten</span>.
+1. Klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile der Seite und klicken Sie dann auf **Anforderungsformular erstellen** <span class="preview">oder **Anforderungsformulare verwalten**, wenn Sie bereits über ein Formular verfügen und weitere erstellen möchten</span>.
+1. <span class="preview">(Bedingt) Wenn Sie ein weiteres Formular hinzufügen möchten, klicken Sie auf **Neues Anfrageformular**</span>.
 1. Aktualisieren Sie den Namen des Anfrageformulars. Standardmäßig lautet der Name des Formulars &quot;**Formular**. <!--check this; you logged a bug to rename it to 'Untitled request form' but was it fixed?-->
 1. (Optional) Fügen Sie **Anfrageformular eine** Beschreibung“ hinzu.
 
@@ -271,7 +272,7 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
    >[!TIP]
    >
-   ><span class="preview">Nach Ablauf des Freigabedatums ist das Anfrageformular nicht mehr im Bereich Anfragen von Workfront verfügbar.</span>
+   ><span class="preview">Nach Ablauf des Freigabedatums ist das Anfrageformular nicht mehr im Bereich Anfragen von Workfront verfügbar und die Links, die für andere Benutzende freigegeben wurden, sind nicht mehr zugänglich.</span>
 
 
 1. <span class="preview">(Optional)</span> Klicken Sie auf **Speichern und Link kopieren**, um die Freigabedetails für das Formular zu speichern. Wenn das Formular zuvor gespeichert wurde, klicken Sie auf **Link kopieren**.
@@ -300,12 +301,20 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 1. <span class= "preview">Klicken Sie auf den nach links zeigenden Pfeil links neben **Anfrageformulare** in der Kopfzeile, um die Tabelle mit den Anfrageformularen zu schließen.   </span>
 
    <span class= "preview">Die Seite „Datensatztyp“ wird geöffnet. </span>
-1. (Optional und bedingt) Klicken Sie in der Produktionsumgebung auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile und führen Sie dann einen der folgenden Schritte aus:
-   * Klicken Sie **Anfrageformular aktualisieren**, um Änderungen am Anfrageformular vorzunehmen.
-   * Klicken Sie auf **Link zum Anfrageformular kopieren**, um den Link zum Formular für andere freizugeben.
+1. (Optional und bedingt) Führen Sie je nach verwendeter Umgebung eine der folgenden Aktionen aus, um ein vorhandenes Formular zu bearbeiten:
 
-1. <span class="preview"> (optional und bedingt) Klicken Sie in der Vorschau-Umgebung auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile und dann auf **Anforderungsformulare verwalten**. </span>
+   * Aus der Produktionsumgebung:
 
-   <span class="preview">Dadurch wird die Tabellenansicht für Anforderungsformulare geöffnet. </span>
-1. <span class="preview">Klicken Sie auf ein Anfrageformular, um es zu öffnen und zu bearbeiten.</span>
-1. <span class= "preview">(Optional) Wechseln Sie zum Bereich **Anfragen** in Workfront und suchen Sie das freigegebene Formular, um eine Anfrage zu senden. Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).</span>
+      1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile und führen Sie dann einen der folgenden Schritte aus:
+
+      1. Klicken Sie **Anfrageformular aktualisieren**, um Änderungen am Anfrageformular vorzunehmen.
+      1. Klicken Sie auf **Link zum Anfrageformular kopieren**, um den Link zum Formular für andere freizugeben.
+
+   * <span class="preview">In der Vorschau-Umgebung:
+
+      1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile und dann auf **Anfrageformulare verwalten** </span>
+
+         <span class="preview">Dadurch wird die Tabellenansicht für Anforderungsformulare geöffnet. </span>
+
+      1. <span class="preview">Klicken Sie auf ein Anfrageformular, um es zu öffnen und zu bearbeiten.</span>
+      1. <span class= "preview">(Optional) Wechseln Sie zum Bereich **Anfragen** in Workfront und suchen Sie das freigegebene Formular, um eine Anfrage zu senden. Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).</span>
