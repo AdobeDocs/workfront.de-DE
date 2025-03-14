@@ -6,14 +6,19 @@ description: Sie können die Auslastung Ihrer Ressourcen im Auslastungsbericht a
 author: Lisa
 feature: Resource Management
 exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '7252'
+source-wordcount: '7283'
 ht-degree: 0%
 
 ---
 
-# Informationen zur Ressourcenauslastung anzeigen
+# Informationen zur Ressourcenauslastung anzeigen {#view-resource-utilization-information}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-utilization"
+>title="Auslastungsbericht"
+>abstract="Mit dem Auslastungsbericht können Sie den Fortschritt, die Kosten oder den Umsatz eines Projekts, Programms oder Portfolios in einem einzigen Bericht anzeigen. Sie können auch den Umsatz mit den Kosten vergleichen."
 
 <!-- Audited: 01/2024 -->
 
@@ -668,7 +673,7 @@ Siehe [Verfolgen von Fortschritt, Kosten und Umsatz mit dem Auslastungsbericht](
 
    Der Auslastungsbericht wird in einer Diagrammansicht angezeigt.
 
-1. (Optional) Konfigurieren Sie das Diagramm so, dass Projekte, Programme oder Portfolios angezeigt werden, indem Sie die entsprechende Option aus dem Dropdown **Menü „Anzeigen** auswählen.
+1. (Optional) Konfigurieren Sie das Diagramm so, dass Projekte, Programme oder Portfolios angezeigt werden, indem Sie die entsprechende Option aus dem Dropdown-Menü **Anzeigen** auswählen.
 1. (Optional) Bewegen Sie den Mauszeiger über einen bestimmten Zeitpunkt im Bericht, um Daten für diesen Zeitpunkt anzuzeigen.
 
    ![Bewegen Sie den Mauszeiger über einen Datenpunkt](assets/utilization-chart-hover.png)

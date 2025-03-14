@@ -7,14 +7,19 @@ description: Nachdem Projektmanager die Arbeit an Projekten durch Erstellen von 
 author: Lisa
 feature: Resource Management
 exl-id: 9398bd04-9df7-4b77-8361-fdb5bdce6829
-source-git-commit: 233e61c011cc87f49d0d4082a20b7790104c96c8
+source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
-source-wordcount: '1176'
+source-wordcount: '1194'
 ht-degree: 0%
 
 ---
 
-# Übersicht über den Workload Balancer
+# Übersicht über den Workload Balancer {#workload-balancer-overview}
+
+>[!CONTEXTUALHELP]
+>id="wf-resourcing-workload-balancer"
+>title="Workload Balancer"
+>abstract="Projektbesitzer und Team-Manager können den Workload-Balancer verwenden, um Benutzenden Arbeitselemente zuzuweisen."
 
 <!--
 <p>(NOTE: this is linked from the UI for the Workload Balancer page. DO NOT CHANGE TITLE OR LINK) </p>
@@ -30,7 +35,7 @@ Nachdem Projektmanager die Arbeit an Projekten durch Erstellen von Vorgängen ge
 
 In diesem Artikel werden der allgemeine Zweck des Workload Balancer und einige der Best Practices beschrieben, mit denen Sie Ihre Projekte und Ressourcen einrichten können, um ihn erfolgreich zu verwenden.
 
-Um sich die Video-Tutorials zum Workload Balancer anzusehen, gehen Sie auf die Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de) . Wählen Sie im linken Menü **Ressourcen verwalten** > **Workload-Balancer** und wählen Sie ein Tutorial.
+Um sich die Video-Tutorials zum Workload Balancer anzusehen, gehen Sie zur Seite [Workfront-Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de) . Wählen Sie im linken Menü **Ressourcen verwalten** > **Workload-Balancer** und wählen Sie ein Tutorial.
 
 ## Suchen des Workload Balancer
 
