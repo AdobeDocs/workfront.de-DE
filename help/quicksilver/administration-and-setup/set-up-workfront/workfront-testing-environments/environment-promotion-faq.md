@@ -9,7 +9,7 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: e9794262-80cc-4641-a5c6-7130cf008ba2
-source-git-commit: 612243e928c6053d9b02715d9fcfef4dae25cb7a
+source-git-commit: b8d5abc996a3902a8ab8cdce9a8f8d92d4736db1
 workflow-type: tm+mt
 source-wordcount: '294'
 ht-degree: 3%
@@ -26,7 +26,7 @@ Die folgenden Fragen werden häufig zur Umgebungsförderung gestellt:
 
 Eine domänenübergreifende Umgebungsförderung wird derzeit nicht unterstützt. Sie müssen zwischen Umgebungen in derselben Domain weiterleiten.
 
-## Ist die Adobe Business Platform / IMS eine Voraussetzung für die Umgebungsförderung?
+## Ist die Adobe Business Platform/IMS eine Voraussetzung für die Umgebungsförderung?
 
 ### Antwort
 
@@ -70,5 +70,4 @@ Das Paket-Rollback ist für das neueste Paket innerhalb von 24 Stunden nach der 
 ### Antwort
 
 * „Vorhandenes verwenden“ bedeutet, dass die Bereitstellung übersprungen oder ignoriert wird, da sie dem vorhandenen Objekt in der Zielumgebung zugeordnet ist und keine Änderungen vornimmt.
-* Zum Überspringen von Objekten wird empfohlen, Folgendes zu entfernen
-Alle Objekte, die Sie nicht aus dem Promotion-Paket oder aus der Quellumgebung direkt installieren möchten. Bauen Sie das Paket nach dem Entfernen der Objekte neu zusammen.
+* Zum Überspringen von Objekten empfehlen wir, alle Objekte, die Sie nicht installieren möchten, aus dem Promotion-Paket oder direkt aus der Quellumgebung zu entfernen. Bauen Sie das Paket nach dem Entfernen der Objekte neu zusammen.
