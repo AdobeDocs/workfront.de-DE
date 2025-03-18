@@ -1,15 +1,15 @@
 ---
 product-area: projects
 navigation-topic: plan-a-project
-title: Projektübersicht planen
-description: Projektübersicht planen
+title: Planen eines Projekts - Übersicht
+description: Finden Sie heraus, was ein Projekt ist, wie sein Umfang und seine Struktur festgelegt werden, sowie wichtige Konzepte wie Zeitpläne, Zeitpläne und Start- und Abschlussdaten.
 author: Alina
 feature: Work Management
 recommendations: noDisplay, noCatalog
 exl-id: 23372e16-3933-445d-977c-901f52299cb2
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1394'
+source-wordcount: '1414'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 0%
 < see if you need to add something about approval settings and users's time off might add time to tasks' timelines - Ninja story 2019.3) </p>
 -->
 
-Ein Projekt ist ein großes Arbeitselement in Adobe Workfront. Sie können ein Projekt in Aufgaben aufteilen, die kleinere Arbeitselemente sind, z. B. Aufgaben. Aufgaben können Benutzern oder Teams zugewiesen werden, die für den Abschluss verantwortlich sind. Wenn alle Benutzer ihre Aufgaben abgeschlossen haben, ist auch das Projekt abgeschlossen.
+Ein Projekt ist ein großes Arbeitselement in Adobe Workfront. Sie können ein Projekt in Aufgaben aufteilen, die kleinere Arbeitselemente sind. Aufgaben können Benutzern oder Teams zugewiesen werden, die für den Abschluss verantwortlich sind. Wenn alle Benutzer ihre Aufgaben abgeschlossen haben, ist auch das Projekt abgeschlossen.
 
 Neben der Planung Ihrer Aufgaben in einem Projekt gehen viele weitere Details in die Projektplanung ein. Von der Ermittlung der wirtschaftlichen Auswirkungen bis hin zur Berücksichtigung der Ressourcenverfügbarkeit gibt es viele Elemente von Projekten, die Aufmerksamkeit erfordern.
 

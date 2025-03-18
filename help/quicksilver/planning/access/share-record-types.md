@@ -4,9 +4,9 @@ description: Sie können einen Datensatztyp für andere freigeben, um die Zusamm
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 5005493bb98b63f4c463f424be43a9d422744846
+source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
 workflow-type: tm+mt
-source-wordcount: '1188'
+source-wordcount: '1308'
 ht-degree: 0%
 
 ---
@@ -31,8 +31,10 @@ Sie können einen Datensatztyp für andere freigeben, um die Zusammenarbeit beim
 >[!IMPORTANT]
 >
 >* Durch das Gewähren von Berechtigungen für einen Arbeitsbereich erhalten Benutzerinnen und Benutzer standardmäßig dieselben Berechtigungen für die Datensatztypen im Arbeitsbereich.
->* Sie können Berechtigungen für einzelne Datensatztypen anpassen.
->* Sie können Personen keinen höheren Zugriff auf einen Datensatztyp gewähren als Personen, die Zugriff auf den Arbeitsbereich haben.
+>* Darüber hinaus können Sie die Berechtigungen für einzelne Datensatztypen anpassen.
+>* Sie können Personen jedoch keine Berechtigungen erteilen, die höher sind als die Berechtigungen, die sie für den Arbeitsbereich haben.
+>* Personen mit der Berechtigung Verwalten für den Arbeitsbereich behalten immer ihren Verwaltungszugriff auf alle Datensatztypen im Arbeitsbereich. Ihre Berechtigungen können für Datensatztypen nicht herabgesetzt werden, auch wenn die geerbten Berechtigungen deaktiviert sind.
+> 
 > Weitere Informationen finden Sie im Abschnitt [Überlegungen bei der Freigabe ](#considerations-when-sharing-record-types) Datensatztypen“ in diesem Artikel.
 
 ## Zugriffsanforderungen
@@ -111,21 +113,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Überlegungen zur Freigabe von Datensatztypen
 
 * Allgemeine Informationen zum Freigeben von Objekten in Workfront Planning finden Sie auch unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
+
+* Derzeit können Sie beim Freigeben von Datensatztypen Folgendes erreichen:
+   * Erteilen Sie Benutzern Anzeigeberechtigungen für einen Arbeitsbereich, wenn Sie einen Datensatztyp zum ersten Mal für sie freigeben und sie keine Berechtigungen für den Arbeitsbereich haben.
+
+     Dadurch erhalten sie auch Ansichtsberechtigungen für alle Datensatztypen im Arbeitsbereich.
+
+     Da Sie dem Datensatztyp Berechtigungen erteilen, gibt es im Freigabefeld einen Hinweis darauf, dass er auch zum Arbeitsbereich hinzugefügt wird.
+   * Wenn Sie geerbte Berechtigungen deaktivieren, können Sie den Datensatztyp nur für alle Personen im Arbeitsbereich anzeigen (mit Ausnahme von Arbeitsbereich-Managern).
+
+     Personen mit der Berechtigung Verwalten für den Arbeitsbereich verfügen immer über die Berechtigung Verwalten für die Datensatztypen, auch wenn Sie geerbte Berechtigungen für den Datensatztyp deaktivieren.
+  <!-- checking with Lilit - this doesn't make much sense: * Add people with Contribute permission to the workspace, who will retain Contribute permission to the record type. This way, only the selected people can manage records in the record type, while others can only view them. -->
+   * Berechtigung von Benutzern für einen Datensatztyp herabsetzen. Es ist nicht möglich, die Berechtigung einer Person auf einen Datensatztyp zu erhöhen, verglichen mit dem, was diese Person im Arbeitsbereich hat.
+
+     Wenn beispielsweise jemand die Berechtigung Beitragen für den Arbeitsbereich hat, können Sie seine Berechtigung für die Anzeige in einen bestimmten Datensatztyp ändern. Wenn er/sie jedoch über die Berechtigung Anzeigen für den Arbeitsbereich verfügt, können Sie ihm/ihr keine Beitragsberechtigung für einen Datensatztyp erteilen.
+
+* Es ist nicht möglich, den Zugriff auf einen Datensatztyp für Personen im Arbeitsbereich zu entfernen. Jeder hat immer mindestens die Berechtigung Anzeigen .
+
 * Sie können einen Datensatztyp intern für die folgenden Entitäten freigeben:
 
    * Workfront-Benutzende, -Gruppen, -Teams, -Unternehmen und -Aufgabengebiete
 * Datensatztypen können nicht extern für Benutzende außerhalb von Workfront freigegeben werden.
-* Automatisch erben Benutzende die Berechtigungen für den Datensatztyp vom Arbeitsbereich.
-* Sie können Benutzern manuell Ansichtsberechtigungen für einen Datensatztyp erteilen oder die geerbten Berechtigungen aus dem Arbeitsbereich entfernen.
-
-* Benutzende, die zum Freigabefeld für Datensatztypen hinzugefügt wurden und keine Arbeitsbereich-Berechtigungen haben, werden automatisch zur Arbeitsbereich-Freigabe mit Ansichtsberechtigungen hinzugefügt.
-
-  Wenn Sie einem Benutzer, der keine Workspace-Berechtigungen hat, höhere Berechtigungen als Anzeigen für einen Datensatztyp gewähren möchten, müssen Sie den Workspace zunächst für ihn freigeben. Wenn Sie nur den Datensatztyp freigeben, können diese nur Anzeigeberechtigungen für den Datensatztyp erhalten. Außerdem werden sie zum Arbeitsbereich mit Anzeigeberechtigungen hinzugefügt. Da Sie dem Datensatztyp Berechtigungen erteilen, gibt es im Freigabefeld einen Hinweis darauf, dass er auch zum Arbeitsbereich hinzugefügt wird.
-
-* Es können niemandem höhere Berechtigungen für den Datensatztyp erteilt werden als jemandem für einen Arbeitsbereich.
-
-  Sie können beispielsweise niemandem die Berechtigung Anzeigen für einen Arbeitsbereich und die Berechtigung Verwalten für einen Datensatztyp erteilen.
-
+* Wenn Sie einem Benutzer, der keine Workspace-Berechtigungen hat, höhere als die Anzeigeberechtigungen für einen Datensatztyp gewähren möchten, müssen Sie zunächst den Workspace für ihn mit einer höheren Berechtigung als „Anzeigen“ freigeben.
 
 ## Freigeben von Berechtigungen für einen Datensatztyp
 
@@ -154,16 +163,23 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
    >
    >Sie können keine einzelnen Entitäten aus der Liste „Geerbte Berechtigungen“ entfernen.
 
+
 1. (Optional und bedingt) Wenn Sie den Datensatztyp für bestimmte Entitäten freigeben und ihnen einen anderen Zugriff auf den Datensatztyp gewähren möchten, als sie bereits für den Arbeitsbereich haben, gehen Sie wie folgt vor:
 
-   1. Deaktivieren von geerbten Berechtigungen.
+1. **Deaktivieren** Vererbte Berechtigungen.
+
+   >[!TIP]
+   >
+   >Workspace-Manager verfügen weiterhin über Verwaltungsberechtigungen für den Datensatztyp.
+
    1. Fügen Sie im Feld **Zugriff auf diesen Datensatztyp gewähren** die Benutzer, Teams, Gruppen, Unternehmen oder Aufgabengebiete hinzu, denen Sie eine andere Berechtigungsstufe gewähren möchten.
    1. Berechtigungsstufe wählen.
+
 
    >[!IMPORTANT]
    >
    >* Sie können Benutzenden nie größere Berechtigungen für einen Datensatztyp erteilen als für einen Arbeitsbereich.
-   >* Benutzenden mit der Berechtigung Verwalten für einen Datensatztyp kann keine geringere Berechtigung erteilt werden, wenn sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen.
+   >* Sie können Benutzenden keine geringere Berechtigung als „Verwalten“ für einen Datensatztyp erteilen, wenn sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen.
    >* Sie können Benutzenden eine geringere Berechtigung für den Datensatztyp erteilen, wenn sie über die Berechtigung Beitragen für den Arbeitsbereich verfügen.
    > Weitere Informationen finden Sie unter [Übersicht über Freigabeberechtigungen in Adobe Workfront Planning](/help/quicksilver/planning/access/sharing-permissions-overview.md).
 
@@ -224,6 +240,6 @@ Users who access a link to a record type to which they do not have permissions c
 
 1. Klicken Sie auf **Speichern**.
 
-   Die Benutzer haben keinen Zugriff mehr auf den Datensatztyp. Sie könnten weiterhin Berechtigungen für den Arbeitsbereich haben, es sei denn, Sie entfernen sie auch aus den Arbeitsbereich-Berechtigungen.
+   Die Benutzer haben keinen Zugriff mehr auf den Datensatztyp. Sie können weiterhin Berechtigungen für den Arbeitsbereich haben, es sei denn, Sie entfernen sie auch aus den Arbeitsbereich-Berechtigungen.
 
    Es gibt keine Benachrichtigung für die Benutzer, die vom Zugriff auf entfernt wurden, dass sie diesen Zugriff nicht mehr haben.
