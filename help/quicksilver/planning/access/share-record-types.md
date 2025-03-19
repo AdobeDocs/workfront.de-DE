@@ -4,7 +4,7 @@ description: Sie können einen Datensatztyp für andere freigeben, um die Zusamm
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 3cbcc2dd2efb457f5f0c4213110af54230a23eb0
+source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -243,3 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
    Die Benutzer haben keinen Zugriff mehr auf den Datensatztyp. Sie können weiterhin Berechtigungen für den Arbeitsbereich haben, es sei denn, Sie entfernen sie auch aus den Arbeitsbereich-Berechtigungen.
 
    Es gibt keine Benachrichtigung für die Benutzer, die vom Zugriff auf entfernt wurden, dass sie diesen Zugriff nicht mehr haben.
+
