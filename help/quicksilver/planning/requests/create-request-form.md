@@ -6,7 +6,7 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 49f25b03-90bb-4317-9e48-289fd61df791
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '2121'
 ht-degree: 1%
@@ -134,7 +134,7 @@ Informationen zum Senden von Workfront-Planungsanfragen finden Sie unter [Senden
 
    * Die Felder Währung, Zahl und Prozentsatz werden im Formular-Builder als einzeiliges Textfeld angezeigt.
 
-     Das Feldformat wird jedoch beibehalten und die Werte der Zahlen in diesen Feldern werden als Währungs-, Zahl- und Prozentwerte auf dem Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
+     Das Feldformat wird jedoch beibehalten und die Feldwerte werden nach dem Senden der Anfrage als Währung, Zahlen und Prozentsätze auf dem Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
 
 <div class="preview">
 

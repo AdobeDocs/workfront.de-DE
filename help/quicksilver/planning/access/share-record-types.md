@@ -4,7 +4,7 @@ description: Sie können einen Datensatztyp für andere freigeben, um die Zusamm
 hide: true
 hidefromtoc: true
 exl-id: bf49db73-09f1-417e-836b-16c6062740d4
-source-git-commit: 08c9eb508861d585d8f76de5bb523132f3be371f
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
 source-wordcount: '1308'
 ht-degree: 0%
@@ -17,6 +17,8 @@ author: Alina
 feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog-->
+
+<!-- take the Remove permissions section out, at the end - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
 
 # Datensatztypen freigeben
 
@@ -196,6 +198,25 @@ Sie können Berechtigungen an einzelne Datensatztypen eines Arbeitsbereichs anpa
 
 1. Geben Sie den kopierten Link für andere frei. Benutzer, die den Link erhalten, müssen aktive Benutzer sein und sich bei Workfront anmelden, um auf die Seite für den Datensatztyp zugreifen und sie in der ausgewählten Ansicht anzeigen zu können.
 
+## Entfernen von Berechtigungen für einen Datensatztyp
+
+{{step1-to-planning}}
+
+1. Öffnen Sie den Arbeitsbereich, dessen Datensatztypen Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz . Dadurch wird die Seite „Datensatztyp“ geöffnet.
+
+1. Klicken Sie auf der Registerkarte einer beliebigen Ansicht **Freigeben** in der oberen rechten Ecke des Datensatztyps.
+
+   Das Feld **Freigeben** wird geöffnet.
+1. Suchen Sie die Person, Gruppe, Team, Firma oder Aufgabengebiet, deren Berechtigungen Sie entfernen möchten, erweitern Sie das Dropdown-Menü Berechtigungen rechts neben ihrem Namen und klicken Sie auf **Entfernen**. <!--check the screen shot below - the UI text for View might not be accurate-->
+
+   ![Entfernen Sie die Option aus der Dropdown-Liste für die Freigabe des Datensatztyps](assets/remove-option-on-record-type-sharing-drop-down.png)
+
+1. Klicken Sie auf **Speichern**.
+
+   Die Benutzer haben keinen Zugriff mehr auf den Datensatztyp. Sie können weiterhin Berechtigungen für den Arbeitsbereich haben, es sei denn, Sie entfernen sie auch aus den Arbeitsbereich-Berechtigungen.
+
+   Es gibt keine Benachrichtigung für die Benutzer, die vom Zugriff auf entfernt wurden, dass sie diesen Zugriff nicht mehr haben.
+
 <!-- This is not working yet: *************************** edit this before publishing, because this was not tested with record types - this section came from sharing views *******************: 
 
 ## Grant permissions to a record type from a permission request
@@ -222,25 +243,4 @@ Users who access a link to a record type to which they do not have permissions c
 1. Click the left-pointing arrow to the left of **Pending access requests**, then click **Save**.
 
    If you approved the request, the users are added to the sharing box of the view. The user requesting the permission receives an email confirmation that their request was approved. <!--will they also get an in-app notification??-->
-
-## Entfernen von Berechtigungen für einen Datensatztyp
-
-<!-- take this section out - this is what Lilit said: Because of "Everyone in the workspace can view" wildcard, currently it's not possible to entirely remove access to a record type. Let's take out this section. -->
-
-{{step1-to-planning}}
-
-1. Öffnen Sie den Arbeitsbereich, dessen Datensatztypen Sie nicht mehr freigeben möchten, und klicken Sie dann auf eine Karte vom Typ Datensatz . Dadurch wird die Seite „Datensatztyp“ geöffnet.
-
-1. Klicken Sie auf der Registerkarte einer beliebigen Ansicht **Freigeben** in der oberen rechten Ecke des Datensatztyps.
-
-   Das Feld **Freigeben** wird geöffnet.
-1. Suchen Sie die Person, Gruppe, Team, Firma oder Aufgabengebiet, deren Berechtigungen Sie entfernen möchten, erweitern Sie das Dropdown-Menü Berechtigungen rechts neben ihrem Namen und klicken Sie auf **Entfernen**. <!--check the screen shot below - the UI text for View might not be accurate-->
-
-   ![Entfernen Sie die Option aus der Dropdown-Liste für die Freigabe des Datensatztyps](assets/remove-option-on-record-type-sharing-drop-down.png)
-
-1. Klicken Sie auf **Speichern**.
-
-   Die Benutzer haben keinen Zugriff mehr auf den Datensatztyp. Sie können weiterhin Berechtigungen für den Arbeitsbereich haben, es sei denn, Sie entfernen sie auch aus den Arbeitsbereich-Berechtigungen.
-
-   Es gibt keine Benachrichtigung für die Benutzer, die vom Zugriff auf entfernt wurden, dass sie diesen Zugriff nicht mehr haben.
 

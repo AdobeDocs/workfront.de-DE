@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7e2bb0ee-5f25-4307-9fec-876590c0ae1a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 4df268c9b5a99991bee3f1862c83fe0079d162c1
 workflow-type: tm+mt
-source-wordcount: '4333'
+source-wordcount: '4611'
 ht-degree: 1%
 
 ---
@@ -231,7 +231,8 @@ OLD:
    * [Erstellt von](#created-by)
    * [Erstellungsdatum](#created-date)
    * [Zuletzt geändert von](#last-modified-by)
-   * [Zuletzt geändert am](#last-modified-date)
+   * [Datum der letzten Änderung](#last-modified-date)
+     <!--* [Object](#object-field-type)-->
 
    >[!IMPORTANT]
    >
@@ -248,7 +249,7 @@ Einzeilige Textfelder erfassen begrenzte alphanumerische Informationen. Sie kön
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzeiliger Text** aus.
 
-   ![](assets/single-line-text-field-type.png)
+   ![Einzeiliger Textfeldtyp](assets/single-line-text-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Detailseite des Datensatzes angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -273,7 +274,7 @@ Absatzfelder erfassen zusätzliche alphanumerische Informationen über einen Dat
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den **Absatz**-Feldtyp aus.
 
-   ![](assets/paragraph-field-type.png)
+   ![Absatzfeldtyp](assets/paragraph-field-type.png)
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
@@ -290,7 +291,7 @@ Sie können ein Feld mit Mehrfachauswahl verwenden, um zusätzliche Informatione
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann **Feldtyp Mehrfachauswahl** aus.
 
-   ![](assets/multi-select-field-type.png)
+   ![Feldtyp mit Mehrfachauswahl](assets/multi-select-field-type.png)
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
@@ -319,7 +320,7 @@ Mit Einzelauswahlfeldern können Sie zusätzliche Informationen in jedem beliebi
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Einzelauswahl** aus.
 
-   ![](assets/single-select-field-type.png)
+   ![Feldtyp für Einzelauswahl](assets/single-select-field-type.png)
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
@@ -348,7 +349,7 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Datum** aus.
 
-   ![](assets/date-field-type.png)
+   ![Datumsfeldtyp](assets/date-field-type.png)
 
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
@@ -377,9 +378,17 @@ Sie können ein Datumsfeld verwenden, um zusätzliche Informationen im Datums- u
 
 Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
 
+>[!TIP]
+>
+>Zahlenfelder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
+>
+>Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Zahlen angezeigt.
+>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zahl** aus.
 
-   ![](assets/number-field-type.png)
+   ![Feldtyp Zahl](assets/number-field-type.png)
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
@@ -399,9 +408,17 @@ Zahlenfeldtypen erfassen Informationen in einem Zahlenformat.
 
 Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von einem Prozentzeichen.
 
+>[!TIP]
+>
+>Prozentuale Felder werden in einem Formular-Builder für Anfragen als einzeiliger Textfeldtyp angezeigt.
+>
+>Das Feldformat wird jedoch beibehalten und die Werte dieser Felder werden nach dem Senden der Anfrage als Prozentwerte für den Datensatztyp und auf der Seite mit den Anfragedetails angezeigt.
+>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
+
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Prozentsatz** aus.
 
-   ![](assets/percentage-field-type.png)
+   ![Feldtyp Prozentsatz](assets/percentage-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
@@ -431,9 +448,16 @@ Prozentuale Feldtypen erfassen Informationen in einem Zahlenformat, gefolgt von 
 
 Währungs -Feldtypen erfassen Informationen in einem Zahlenformat mit vorangestelltem Währungssymbol.
 
+>[!TIP]
+>
+>Währungsfelder werden in einem Formular-Builder für Anfragen als einzeilige Textfelder angezeigt.
+>
+>Das Feldformat wird jedoch beibehalten, und die Werte dieser Felder werden nach dem Senden der Anfrage auf der Seite mit den Datensatztypen und Anfragedetails als Währung angezeigt.
+>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
+
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Währung** aus.
 
-   ![](assets/currency-field-type.png)
+   ![Feldtyp Währung](assets/currency-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -456,7 +480,7 @@ Sie können den Feldtyp Kontrollkästchen verwenden, um einem Datensatz eine ein
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Kontrollkästchen** aus.
 
-   ![](assets/checkbox-field-type.png)
+   ![Checkbox-Feldtyp](assets/checkbox-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird. <!--ensure they updated this; and update the screen shot: it used to be "Label"-->
@@ -473,7 +497,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Formel** aus.
 
-   ![](assets/new-formula-field-with-list-of-expressions.png)
+   ![Neues Formelfeld mit Ausdrucksliste](assets/new-formula-field-with-list-of-expressions.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
@@ -483,7 +507,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
 
 1. Klicken Sie auf den ausgewählten Ausdruck, um die Definition anzuzeigen und ihre Formatierung anzuzeigen.
 
-   ![](assets/description-of-formula-expression.png)
+   ![Beschreibung des Formelausdrucks](assets/description-of-formula-expression.png)
 
    Weitere Informationen dazu, welche Ausdrücke unterstützt werden, finden Sie unter [Übersicht über Formelfelder](/help/quicksilver/planning/fields/formula-fields.md).
 
@@ -501,7 +525,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
    >
    >* Sie können auf ein Feld verweisen, das bis zu vier Felder (und Objekte) vom aktuellen Datensatztyp entfernt ist. Wenn Sie z. B. ein Formelfeld für eine Aktivitätsdatensatzart (1) erstellen und die Aktivität mit der Kampagnendatensatzart (2) verknüpft ist, die mit einem Workfront-Projekt (3) verbunden ist, können Sie in der Formel, die Sie für die Aktivitätsdatensatzart erstellen, auf das Budgetfeld (4) des Projekts verweisen.
    >
-   >![](assets/formula-example-project-budget-four-fields-removed.png)
+   >![Formel Beispiel Projektbudget Vier Felder wurden entfernt ](assets/formula-example-project-budget-four-fields-removed.png)
    >
 
 1. Wählen Sie im Feld **Format** eine der folgenden Optionen, um das Format des im Feld „Formeltyp“ angezeigten Ergebnisses zu bestimmen:
@@ -516,7 +540,7 @@ Weitere Informationen finden Sie unter [Übersicht über Formelfelder](/help/qui
      >
      >Wir empfehlen Tags für Felder, die Arrays anzeigen. In diesem Fall wird jedes Array-Element als separates Tag angezeigt.
 
-     ![](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
+     ![Liste der Formelfeldformate mit ausgewähltem Tag hervorgehoben](assets/formula-field-formats-list-with-tag-selected-highlighted.png)
 
    * **Datum**: Das Ergebnis des Formelfelds wird als Datum angezeigt.
 
@@ -536,11 +560,15 @@ Sie können den Feldtyp Personen verwenden, um eine <!--, job role, or team--> z
 
 >[!TIP]
 >
->Wenn Sie den Namen eines Benutzers in ein Feld „Personen“ einfügen, werden der Name des Benutzers und sein primäres Aufgabengebiet im Feld angezeigt.
+>* Wenn Sie den Namen eines Benutzers in ein Feld „Personen“ einfügen, werden der Name des Benutzers und sein primäres Aufgabengebiet im Feld angezeigt.
+>
+>* Personenfelder werden in einem Formular-Builder als Referenz- (oder Verbindungs-) Feldtyp angezeigt.
+>
+>Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Personen** aus.
 
-   ![](assets/people-field-type.png)
+   ![Personen-Feldtyp](assets/people-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
    * **Name**: Der Name des Feldtyps, wie er in einer Tabelle oder auf der Datensatzseite angezeigt wird.
@@ -561,7 +589,7 @@ Mit dem Feldtyp Erstellt von können Sie den Benutzer, der den Datensatz erstell
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellt von** aus.
 
-   ![](assets/created-by-field-type.png)
+   ![Erstellt nach Feldtyp](assets/created-by-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
@@ -579,7 +607,7 @@ Mit dem Feldtyp Erstellungsdatum können Sie das Datum, an dem der Datensatz ers
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
 
-   ![](assets/created-date-field-type.png)
+   ![Feldtyp für Erstellungsdatum](assets/created-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -612,7 +640,7 @@ Mit dem Feldtyp Zuletzt geändert von können Sie den Benutzer, der den Datensat
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Zuletzt geändert von** aus.
 
-   ![](assets/last-modified-by-field-type.png)
+   ![Zuletzt geändert nach Feldtyp](assets/last-modified-by-field-type.png)
 
 1. Fügen Sie die folgenden Informationen auf der Registerkarte **Neues Feld** hinzu:
 
@@ -630,7 +658,7 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
 
 1. Beginnen Sie mit der Erstellung eines Felds, wie im Abschnitt [Erstellen neuer Felder](#create-fields-from-scratch) in diesem Artikel beschrieben, und wählen Sie dann den Feldtyp **Erstellungsdatum** aus.
 
-   ![](assets/last-modified-date-field-type.png)
+   ![Feldtyp „Datum der letzten Änderung“](assets/last-modified-date-field-type.png)
 
    <!--check the image above - added bug fix for UI text changes-->
 
@@ -656,6 +684,52 @@ Mit dem Feldtyp Datum der letzten Änderung können Sie einem Datensatz das Datu
 1. Klicken Sie auf **Erstellen**.
 
    Das neue Feld vom Typ „Zuletzt geändert“ wird als Spalte zum Datensatztyp hinzugefügt und seine Werte werden mit dem Datum (oder Datum und Uhrzeit) vorausgefüllt, an dem der Datensatz zuletzt geändert wurde.
+
+<!--
+
+## Object field type
+
+You can use the Object field type when you need to store several fields that might include several pieces of information. For example, you can store the source, code, error message, or details of an object in one field. In this case, instead of having several separate single-line text fields for that, you can use an Object field to store all information in one place. 
+
+For example, when using an Object-type field, you can store the following type of information: 
+
+```
+"{
+""source"": ""string"",
+""code"": ""string"",
+""subCode"": ""string"",
+""message"": ""string"",
+""details"": ""string""
+}"
+
+```
+
+You can also store an array of values in one field and you would rather rely on user input for each element of the array, instead of using a multi-select field type for the same purpose. For example, you can store information in the following format: 
+
+`["EMEA", "APAC"] `
+
+Consider the following when using Object-type fields:
+
+* In addition to strings and arrays, you can store other value formats like HTML.
+* There is no format validation for this field. 
+* Object-type fields have a limit of 10,000 characters.
+
+Create an Object field: 
+
+1. Start creating a field as described in the section [Create fields from scratch](#create-fields-from-scratch) in this article, then select the **Created date** field type.
+
+    ![Object field type](assets/object-field-type.png)
+
+1. Add the following information in the **New field** tab:
+
+     * **Name**: The name of the field type, as it will appear in a table or the record page. (***********this might change and they might prepopulate it with "Created date"********)
+     * **Description**: Additional information about the field. The description of a field displays when you hover over the field's column in a table, or when you click the information icon next to the field name in the record's details page.
+
+1. Click **Create**.
+
+    The new Object-type field is added as a column to the record type.
+
+-->
 
 ## Erstellen von Feldern durch Verbinden von Datensatztypen
 
