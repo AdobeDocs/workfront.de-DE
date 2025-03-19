@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 3e9323b42037eec496cf5d1b000f5b91be998e1f
+source-git-commit: b115018560d37fd5d2741086b15b6c844ddf2505
 workflow-type: tm+mt
-source-wordcount: '1165'
+source-wordcount: '1226'
 ht-degree: 0%
 
 ---
@@ -189,6 +189,12 @@ Die folgende Funktion wird in Kürze aus Workfront entfernt:
 Die veraltete Agile-Ansicht in einem Projekt wird mit der Version 25.3 vom 13. März 2025 aus Workfront entfernt. Sie können Ihre Aufgaben weiterhin in einer Agile-Ansicht in einem Projekt anzeigen, indem Sie auf das Symbol Pinnwände klicken.
 
 Weitere Informationen zur Verwendung der Agile-Ansicht finden Sie unter [Verwalten eines Projekts in der Agile-Ansicht](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+
+#### Einstellung von Enhanced Analytics
+
+Aufgrund der geringen und rückläufigen Nutzung haben wir uns entschieden, das erweiterte Analytics-Produkt in der Woche vom 25. Mai 2025 einzustellen.
+Wir empfehlen, unser Data Connect-Produkt als Ersatz zu betrachten. Mit Data Connect können Sie ähnliche anpassbare Visualisierungen mithilfe Ihrer bevorzugten Business Intelligence-Tools erstellen.
+Weitere Informationen zu dieser Einstellung finden Sie im [Handbuch zur Einstellung von Analytics](/help/quicksilver/product-announcements/announcements/enhanced-analytics-deprecation.md).
 
 ## Ankündigungen
 
