@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 604b84c1-4ec6-4d4a-b9f4-4223641ff2ea
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '622'
+source-wordcount: '628'
 ht-degree: 1%
 
 ---
@@ -176,7 +176,7 @@ Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ih
 
    Es gibt einen Hinweis darauf, welche operativen Datensatztypen, Taxonomien und wie viele Felder mit jeder Vorlage verknüpft sind.
 
-   ![](assets/previewing-a-workspace-template.png)
+   ![Vorschau einer Workspace-Vorlage](assets/previewing-a-workspace-template.png)
 
    Weitere Informationen zu Workfront Planning Workspace-Vorlagen finden Sie unter [Liste der Workspace-Vorlagen](/help/quicksilver/planning/architecture/workspace-templates.md).
 
@@ -201,7 +201,7 @@ Sie können einen Arbeitsbereich erstellen und Datensatztypen hinzufügen, um Ih
 
    Oder
 
-   Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf das ![](assets/more-menu.png) **Mehr** und klicken Sie dann auf **Umbenennen**, um den Abschnitt umzubenennen.
+   Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und anschließend auf **Umbenennen**, um den Abschnitt umzubenennen.
 
    >[!TIP]
    >

@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 1c04c68b-7a7f-46ae-b750-2b1f79855de4
-source-git-commit: bddd0dcd2263bd65420a17e4b9cc74336877719f
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1518'
+source-wordcount: '1541'
 ht-degree: 1%
 
 ---
@@ -93,7 +93,7 @@ Beachten Sie Folgendes zum Verbinden von Datensatztypen:
      >
      >Alle Personen mit Anzeigen- oder höheren Berechtigungen für den Arbeitsbereich können die Informationen in den Suchfeldern anzeigen, unabhängig von ihren Berechtigungen oder Zugriffsebenen bei der Anwendung der verknüpften Objekttypen oder ihren Berechtigungen in anderen Arbeitsbereichen.
 
-     Verknüpfte Datensatzfelder werden durch ein Beziehungssymbol ![](assets/relationship-field-icon.png).
+     Verknüpfte Datensatzfelder werden durch ein Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
      Verknüpfte Felder werden durch ein Symbol vorangestellt, das den Feldtyp angibt. Beispielsweise werden verknüpften Feldern (oder Suchfeldern) Symbole vorangestellt, die angeben, dass ein Feld eine Zahl, ein Absatz oder ein Datum ist.
 
@@ -118,7 +118,7 @@ Je nachdem, wie viele Datensätze Sie einem verbundenen Datensatzfeld hinzufüge
 
 ### Viele-zu-viele-Verbindungstyp
 
-![](assets/many-to-many-connection-picker.png)
+![Viele zu viele Verbindungsauswahl](assets/many-to-many-connection-picker.png)
 
 Wenn Sie eine n:n-Verbindung zwischen Datensatztypen erstellen, können Sie mehrere Datensätze im Verbindungsfeld aus beiden Datensatztypen auswählen.
 
@@ -130,7 +130,7 @@ Wenn Sie diesen Verbindungstyp auswählen, können Sie den Verbindungstyp nach d
 
 ### 1:n-Verbindungstyp
 
-![](assets/one-to-many-connection-picker.png)
+![1:n-Verbindungsauswahl](assets/one-to-many-connection-picker.png)
 
 
 Wenn Sie eine Eins-zu-Viele-Verbindung zwischen Datensatztypen erstellen, können Sie dann im Verbindungsfeld des aktuellen Datensatztyps mehrere Datensätze auswählen. Das entsprechende Verbindungsfeld im Datensatztyp, mit dem Sie eine Verbindung herstellen, ermöglicht jedoch die Auswahl nur eines Datensatzes. Das verbundene Datensatzfeld, das automatisch für den zweiten Datensatztyp erstellt wird, wird automatisch auf einen Viele-zu-eins-Beziehungstyp eingestellt.
@@ -143,7 +143,7 @@ Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später nur in einen 
 
 ### Viele-zu-eins-Verbindung
 
-![](assets/many-to-one-connection-picker.png)
+![Viele zu einer Verbindungsauswahl](assets/many-to-one-connection-picker.png)
 
 
 Wenn Sie eine n:1-Verbindung zwischen Datensatztypen erstellen, können Sie dann jeden Datensatz im aktuellen Datensatztyp mit nur einem Datensatz aus dem verbundenen Datensatztyp verbinden. Das verbundene Datensatzfeld, das automatisch für den zweiten Datensatztyp erstellt wird, wird automatisch auf einen Eins-zu-Viele-Beziehungstyp eingestellt.
@@ -156,7 +156,7 @@ Wenn Sie diesen Verbindungstyp auswählen, können Sie ihn später nur in einen 
 
 ### 1:1-Verbindungstyp
 
-![](assets/one-to-one-connection-picker.png)
+![1:1-Verbindungsauswahl](assets/one-to-one-connection-picker.png)
 
 Wenn Sie eine Eins-zu-eins-Verbindung zwischen Datensatztypen erstellen, können Sie in beiden Datensatztypen jeden Datensatz nur mit einem Datensatz aus dem anderen Datensatztyp verbinden.
 

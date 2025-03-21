@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 94dfa36a-801a-4eef-bcf5-4a3fecc5a3d0
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '611'
+source-wordcount: '625'
 ht-degree: 0%
 
 ---
@@ -118,7 +118,7 @@ Wenn jemand einen Link zu einem Arbeitsbereich oder einer Ansicht freigibt, auf 
 
    Eine **Sie haben keinen Zugriff** wird angezeigt, um Sie darüber zu informieren, dass Sie keinen Zugriff auf die Ansicht oder den Arbeitsbereich haben.
 
-   ![](assets/request-access-to-view.png)
+   ![Zugriff auf Ansicht anfordern](assets/request-access-to-view.png)
 
 1. (Bedingt) Wenn der freigegebene Link für eine Ansicht eines Arbeitsbereichs ist, auf den Sie Zugriff haben, klicken Sie auf **Mit vorhandener Ansicht öffnen**. Wenn Sie über die Berechtigung zum Zugriff auf den Arbeitsbereich verfügen, wird die Seite „Datensatztyp“ in der Standardansicht geöffnet.
 
@@ -126,8 +126,8 @@ Wenn jemand einen Link zu einem Arbeitsbereich oder einer Ansicht freigibt, auf 
 
    Alle Benutzer mit der Berechtigung Verwalten für die Ansicht oder den Arbeitsbereich erhalten die folgenden Benachrichtigungen für die Zugriffsanfrage:
    * In-App-Benachrichtigung
-     ![](assets/in-app-notification-for-access-request.png)
+     ![In-App-Benachrichtigung bei Zugriffsanfrage](assets/in-app-notification-for-access-request.png)
    * Eine E-Mail-Benachrichtigung
-     ![](assets/email-notification-for-access-request.png)
+     ![E-Mail-Benachrichtigung für Zugriffsanfrage](assets/email-notification-for-access-request.png)
 
 1. (Bedingt) Wenn Ihnen die Ansicht oder der Arbeitsbereich-Manager Berechtigungen für die Ansicht oder den Arbeitsbereich gewährt, erhalten Sie eine E-Mail-Benachrichtigung und eine In-App-Benachrichtigung mit der Bestätigung, dass die Berechtigung erteilt wurde. <!--check this - I was not able to test this, but Isk confirmed.-->

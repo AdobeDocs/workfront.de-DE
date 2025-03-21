@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '294'
-ht-degree: 1%
+source-wordcount: '302'
+ht-degree: 0%
 
 ---
 
@@ -30,7 +30,7 @@ Standardmäßig ist das Namensfeld das primäre Feld. Sie können jedoch alle Fe
 * Zahl
 * Formel
 
-![](assets/another-text-field-as-a-primary-field-highlighted.png)
+![Ein weiteres Textfeld als primäres Feld wird hervorgehoben](assets/another-text-field-as-a-primary-field-highlighted.png)
 
 Weitere Informationen zum Bestimmen eines Felds als primäres Feld finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 

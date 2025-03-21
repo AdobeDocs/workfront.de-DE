@@ -8,14 +8,16 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 7c39f54677be746ce6305124026df7df598b3da2
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '581'
+source-wordcount: '584'
 ht-degree: 3%
 
 ---
 
 # Risikotypen bearbeiten und erstellen
+
+<!--Audited: 03/2025-->
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -46,7 +48,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">[!DNL Adobe Workfront] Lizenz</td> 
+   <td role="rowheader">[!DNL Adobe Workfront] Lizenz*</td> 
    <td><p>Neu: [!UICONTROL Standard]</p>
    Oder
    <p>Aktuell: [!UICONTROL Plan]</p>
@@ -59,7 +61,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+*Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -95,10 +97,9 @@ Sie können Folgendes tun, um die Anzahl der Risikotypen in Ihrer Workfront-Inst
 
    >[!TIP]
    >
-   >   Sie können Risikotypinformationen inline bearbeiten, wenn Sie auf den Namen oder die Beschreibung eines Risikotyps in der Liste doppelklicken.
+   >   Sie können Risikotypinformationen inline bearbeiten, wenn Sie auf den Namen oder die Beschreibung eines Risikotyps in einer Liste von Risikotypen doppelklicken.
 
 1. (Optional) Ändern Sie den Namen und die Beschreibung des Risikotyps.
-
 
    Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
 
@@ -130,7 +131,7 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
    Oder
 
    Klicken Sie [!UICONTROL **Weitere Risikotypen hinzufügen**] in der linken unteren Ecke der Liste der Risikotypen, um Risikotypen inline hinzuzufügen. <!--add screen shot-->
-1. Geben Sie **[!UICONTROL Risikotyp einen]** Namen“ (erforderlich) und einen **[!UICONTROL Beschreibung]** (optional) ein.
+1. Fügen Sie **[!UICONTROL Risikotyp einen]** Namen“ (erforderlich) und **[!UICONTROL Beschreibung]** (optional) hinzu.
 
    Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.
 

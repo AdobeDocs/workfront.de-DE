@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 994594f2-a888-423a-bf66-0d14baf57c55
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '709'
 ht-degree: 7%
 
 ---
@@ -169,11 +169,11 @@ Alle anderen Workfront-Feldtypen werden in Workfront Planning nicht unterstützt
    Bewegen Sie den Mauszeiger über die Kopfzeile einer Spalte, klicken Sie auf den nach unten zeigenden Pfeil nach dem Feldnamen und klicken Sie dann auf **Links einfügen** oder **Rechts einfügen** um das neue Feld hinzuzufügen.
 1. Klicken Sie **Vorhandenes** hinzufügen“ in der rechten unteren Ecke der Registerkarte **Neues Feld**. <!--check UI - did they change this??-->
 
-   ![](assets/add-existing-fields-from-workfront-modal.png)
+   ![Hinzufügen vorhandener Felder aus dem Workfront-Modal](assets/add-existing-fields-from-workfront-modal.png)
 
 1. Beginnen Sie mit der Eingabe des Namens eines bestehenden Workfront-Felds in den Suchbereich und klicken Sie dann auf **+**, wenn es in der Liste angezeigt wird.
 1. (Optional) Geben Sie ein anderes Feld ein und klicken Sie dann auf **+**, wenn es in der Liste angezeigt wird.
-1. (Optional) Klicken Sie auf **Filter**-Symbol ![](assets/filters-in-import-fields-icon.png) und aktualisieren Sie dann eines oder beide der folgenden Felder:
+1. (Optional) Klicken Sie auf **Filter**-Symbol ![Filter im Symbol „Felder importieren](assets/filters-in-import-fields-icon.png) und aktualisieren Sie dann eines oder beide der folgenden Felder:
 
    * Objekttyp: Wählen Sie einen Workfront-Objekttyp aus, dessen Felder Sie importieren möchten.
    * Benutzerdefiniertes Formular: Wählen Sie ein oder mehrere benutzerdefinierte Formulare in Workfront aus. Sie können ein benutzerdefiniertes Formular auswählen, ohne zuerst einen Objekttyp auszuwählen.

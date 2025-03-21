@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ae794ebe-4597-47a4-9ef3-3f4d31cb70c2
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2341'
+source-wordcount: '2407'
 ht-degree: 1%
 
 ---
@@ -187,13 +187,13 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 1. Klicken Sie auf die Karte eines Datensatztyps, um die Seite „Datensatztyp“ zu öffnen.
 1. Klicken Sie oben rechts in der Tabellenansicht auf das Symbol **+** und dann auf die Registerkarte **Neue Verbindung**.
 
-   ![](assets/new-connection-tab-with-workfront-aem-options.png)
+   ![Neue Registerkarte „Verbindung“ mit Workfront AEM-Optionen](assets/new-connection-tab-with-workfront-aem-options.png)
 
 1. Suchen Sie **Feld** Datensatztyp“ nach einem Datensatztyp oder wählen Sie einen der folgenden Typen aus:
 
    * Ein anderer Datensatztyp aus dem aktuellen Arbeitsbereich
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Viele zu viele Verbindungsauswahl](assets/many-to-many-connection-picker.png)
 
      >[!TIP]
      >
@@ -210,15 +210,15 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      Weitere Informationen finden Sie [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Neue Verbindung, um mehrere Datensätze zuzulassen](assets/new-connection-allow-multiple-records-box.png)
 
    * Ein **Projekt, Portfolio, Programm,** oder **Gruppe** aus dem Abschnitt **Workfront** Objekttypen.
 
-     ![](assets/workfront-project-connection-selection.png)
+     ![Auswahl der Workfront-Projektverbindung](assets/workfront-project-connection-selection.png)
 
    * **Experience Manager Assets** im Abschnitt **Adobe-**.
 
-     ![](assets/aem-assets-connection-selection.png)
+     ![AEM Assets-Verbindungsauswahl](assets/aem-assets-connection-selection.png)
 
 1. Aktualisieren Sie die folgenden Informationen:
 
@@ -233,7 +233,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      Diese Option ist nur verfügbar, wenn Datensätze aus zwei verschiedenen Arbeitsbereichen oder einem Datensatz und einem Adobe Experience Manager Asset-Objekt verbunden werden.
 
-     ![](assets/new-connection-allow-multiple-records-box.png)
+     ![Neue Verbindung, um mehrere Datensätze zuzulassen](assets/new-connection-allow-multiple-records-box.png)
 
    * **Verbindungstyp**: Wählen Sie eine der folgenden Optionen aus, um anzugeben, mit wie vielen Datensätzen eine Verbindung hergestellt werden kann:
 
@@ -244,7 +244,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
      Diese Option ist nur verfügbar, wenn Datensätze aus demselben Arbeitsbereich oder einem Datensatz und einem Workfront-Objekttyp verbunden werden.
 
-     ![](assets/many-to-many-connection-picker.png)
+     ![Viele zu viele Verbindungsauswahl](assets/many-to-many-connection-picker.png)
 
      Weitere Informationen zu Verbindungstypen finden Sie unter [Übersicht über verbundene Datensatztypen](/help/quicksilver/planning/architecture/connect-record-types-overview.md).
 
@@ -303,7 +303,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Klicken Sie auf das Symbol **-** , um Felder aus dem Bereich **Ausgewählte Felder** zu entfernen
 
-   ![](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
+   ![Suchfelder für ein Feld eines anderen Datensatztyps hinzufügen](assets/add-lookup-fields-for-another-maestro-record-type-box.png)
 
    Die Werte für die verbundenen Felder werden automatisch ausgefüllt, nachdem Sie Datensätze oder Objekte verknüpft haben.
 
@@ -328,7 +328,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >
    >    Sie müssen beim Hinzufügen von Suchdatumsfeldern einen Aggregatorwert auswählen, wenn die Felder verfügbar sein sollen, um als Start- und Enddatum für die Timeline- und Kalenderansichten hinzugefügt werden zu können. Sie können beispielsweise den MAX oder den MIN-Aggregator für ein Suchdatumsfeld auswählen.
 
-   ![](assets/aggregator-drop-down-for-number-linked-field.png)
+   ![Aggregator-Dropdown für verknüpftes Zahlenfeld](assets/aggregator-drop-down-for-number-linked-field.png)
 
    >[!NOTE]
    >
@@ -358,7 +358,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    >* **EINDEUTIG**: 100.000 $
    >
 
-1. (Optional) Verwenden Sie das Symbol **Suchen**, um nach einem Feld zu ![](assets/search-icon.png).
+1. (Optional) Verwenden Sie das Symbol **Suche** ![Suchsymbol](assets/search-icon.png), um nach einem Feld zu suchen.
 
 1. Klicken Sie auf **Felder hinzufügen**, um Ihre Änderungen zu speichern.
 
@@ -385,7 +385,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    * **Feld bearbeiten**: Aktualisieren Sie die **Name** und die **Beschreibung** des Felds.
    * **Suchfelder bearbeiten**: Fügt Felder des verknüpften Datensatzes hinzu oder entfernt sie.
 
-   ![](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
+   ![Dropdown-Menü „Feld bearbeiten“ und „Suchfelder“ in der Tabellenspalte](assets/edit-field-and-lookup-fields-drop-down-menu-in-table-column.png)
 
    Um Suchfelder hinzuzufügen oder zu entfernen, folgen Sie den Anweisungen in den Schritten 16-17 oben. <!--ensure these step numbers stay accurate-->
 

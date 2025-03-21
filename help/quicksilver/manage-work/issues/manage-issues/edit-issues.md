@@ -8,20 +8,24 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: b7387af018b1814c387ba3f0000fcdf7e0bf5067
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '2551'
+source-wordcount: '2522'
 ht-degree: 2%
 
 ---
 
 # Probleme bearbeiten
 
+<!--Audited: 03/2025-->
+
 Sie können Informationen zu Problemen bearbeiten, die Sie erstellt haben oder die andere Benutzer erstellt haben, wenn sie die Probleme mit Ihnen geteilt haben.
 
 Sie können ein einzelnes Problem bearbeiten oder Probleme in einer Liste bearbeiten. Informationen zum Bearbeiten von Problemen in einer Liste finden Sie unter [Probleme in einer Liste bearbeiten](../../../manage-work/issues/manage-issues/edit-issues-in-a-list.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -30,19 +34,21 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
    <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Anfrage oder höher</p> <p>Prüfen Sie die Lizenz oder eine höhere Lizenz zur Bearbeitung von Anfragen im Abschnitt Probleme einer Aufgabe oder eines Projekts.</p> </td> 
+   <td> <p>Neue Lizenz:</p>
+   <ul><li>Mitwirkender oder höher</li>
+   <li>Leicht oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul>
+   <p>Aktuelle Lizenz:</p>
+  <ul><li>Anfrage oder höher</li> <li>Überprüfen Sie oder höher, um Probleme im Abschnitt „Probleme“ einer Aufgabe oder eines Projekts zu bearbeiten</li></ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Zugriffsebene*</td> 
-   <td> <p>Zugriff auf Anfragen bearbeiten</p> <p><b>NOTIZ</b>
-
-Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen zum Zugriff auf Probleme in Ihrer Zugriffsebene finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md" class="MCXref xref">Zugriff auf Probleme gewähren</a>. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>. </p> </td>
-</tr> 
+   <td role="rowheader">Zugriffsebene</td> 
+   <td> <p>Zugriff auf Anfragen bearbeiten</p>  </td> 
+  </tr> 
   <tr> 
    <td role="rowheader">Objektberechtigungen</td> 
    <td> <p>Tragen Sie Berechtigungen zu einem Problem bei, um die folgenden Felder im Bereich Details zu bearbeiten: </p>
@@ -56,7 +62,9 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Einschränkungen beim Bearbeiten von Problemen
 
@@ -193,7 +201,7 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
       <td role="rowheader">Typ</td> 
       <td> <p>Je nach den Warteschlangeneigenschaften, die Ihr Projekt-Manager im Bereich „Warteschlangendetails“ des Projekts ausgewählt hat, können Sie möglicherweise den Typ des Problems angeben. Wählen Sie im Dropdown-Menü <b>Typ</b> eine der folgenden Optionen aus: </p> 
        <ul> 
-        <li> <p><strong>Bug-Bericht</strong> </p> </li> 
+        <li> <p><strong>Fehlerbericht</strong> </p> </li> 
         <li> <p><strong>Änderungsanforderung</strong> </p> </li> 
         <li> <p><strong>Probleme</strong> </p> </li> 
         <li> <p><strong>Anfrage</strong> </p> </li> 
@@ -254,14 +262,9 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
       <tr> 
       <td role="rowheader">Dies löst</td> 
       <td>Verknüpfter Name des Problems, das abgeschlossen wird, wenn das Problem, auf das Sie zugreifen, behoben ist.  </td> 
-     </tr>
-
-
-   </tbody> 
+     </tr> 
+    </tbody> 
    </table>
-
-
-
 
 
 1. Klicken Sie **Speichern** oder fahren Sie mit der Bearbeitung der folgenden Abschnitte fort.

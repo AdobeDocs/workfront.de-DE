@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 6c35c313-d6ed-428b-b70d-2ea242da4e8f
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '708'
+source-wordcount: '698'
 ht-degree: 1%
 
 ---
@@ -22,7 +22,7 @@ ht-degree: 1%
 
 {{planning-important-intro}}
 
-Sie können die Feldeinstellungen für Felder bearbeiten, die bereits in Adobe Workfront Planning erstellt wurden.
+Sie können die Einstellungen bestehender Felder in Adobe Workfront Planning bearbeiten.
 
 Informationen zum Erstellen von Adobe Workfront Planning-Feldern finden Sie unter [Felder erstellen](/help/quicksilver/planning/fields/create-fields.md).
 
@@ -99,72 +99,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 +++
 
 
-<!--
-OLD
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   <p>Current: Plan</p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configuration</p></td>
-   <td> <p>There are no access controls for Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a workspace</a> </p>  
-   <p>System Administrators have permissions to all workspaces, including the ones they did not create</p>
-</td>
-  </tr>
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>Your Workfront or group administrator must add the Planning area in your layout template. For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p>  
-</td>
-  </tr>
-
- </tbody>
-</table>
-
-*For more information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md). 
-
--->
-
 ## Überlegungen zum Bearbeiten von Feldeinstellungen
 
 Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
 
-* Sie können von Ihnen erstellte Felder oder Felder, die von anderen Benutzern erstellt wurden, bearbeiten, wenn Sie über Verwaltungsberechtigungen für den Arbeitsbereich verfügen, zu dem die Felder gehören.
-* Sie können ein Feld in der Datensatztyp-Tabelle bearbeiten.
+* Feldeinstellungen können nur über die Tabelle vom Typ Datensatz bearbeitet werden.
 * Ein Feld kann weder auf der Datensatzseite noch in einer anderen Ansicht außerhalb der Tabellenansicht bearbeitet werden.
 * Nach dem Speichern des Felds ist keine Bearbeitung des Feldtyps möglich.
 * Sie können die Auswahl der Einstellung Negative Zahlen zulassen , die zuvor für ein Feld vom Typ Zahl, Prozentsatz oder Währung ausgewählt wurde, nicht aufheben, wenn bereits negative Werte für die Datensätze gespeichert sind, an die sie angehängt ist.
@@ -181,6 +120,12 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
   >Es gibt keine Warnung oder Anzeige dafür, dass dieser Datenverlust auftreten könnte, wenn Sie die Konfiguration von Feldern ändern.
   >
   >Andere Benutzer werden nicht darüber informiert, dass sich die Feldkonfiguration geändert hat.
+
+* Vorhandene Suchfelder können nicht aus verbundenen Datensätzen bearbeitet werden.
+
+<!--replace he last bullet with thsi: 
+
+* <span class="preview">You can edit existing lookup fields from connected records.</span>-->
 
 <!--this is not yet true, but it might come later:
 * You can deselect Allow negative numbers option from a Number, Percentage, or Currency field after you save the field. 
@@ -207,7 +152,7 @@ Bevor Sie die Konfiguration eines Felds ändern, müssen Sie Folgendes beachten:
 
    Doppelklicken Sie auf die Spaltenüberschrift für das Feld.
 
-   ![](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
+   ![Pfeilmenü nach dem Feldnamen in der Tabellenkopfzeile hervorgehoben](assets/arrow-menu-after-name-of-field-in-table-header-highlighted.png)
 
 1. Aktualisieren Sie die Informationen zum Feld und klicken Sie auf **Speichern**. <!--insert screen shot when finalized-->
 

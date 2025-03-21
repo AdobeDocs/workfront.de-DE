@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 38509572-72a4-4fce-b3ec-2cb31bb4669a
-source-git-commit: 40d9455fe3b14006817c784a4d3c8dea8a601839
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '1957'
+source-wordcount: '2047'
 ht-degree: 0%
 
 ---
@@ -61,11 +61,11 @@ Gehen Sie dazu folgendermaßen vor:
       * **Bild**: Zeigt nur die Miniaturansicht oder das Symbol der verbundenen Datensätze an.
    * **Suchfelder auswählen**: Wenn Sie diese Option aktiviert lassen, wird als Nächstes das Feld **Suchfelder hinzufügen** geöffnet, in dem Sie Produktfelder mit dem Datensatztyp der Kampagne verknüpfen können. Sie können auf **Überspringen** klicken, um diesen Schritt zu überspringen und später Produktfelder hinzuzufügen.
 
-     ![](assets/new-connection-with-product-record-type.png)
+     ![Neue Verbindung mit Produktdatensatztyp](assets/new-connection-with-product-record-type.png)
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt die Option **Suchfelder auswählen** ausgewählt haben, klicken Sie in der Liste der mit dem Datensatztyp **Produkt** verknüpften Felder auf das Symbol **+** für das Feld **Budget** und dann auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Budget (aus Produktinformationen)** erstellt. Dies ist der Name des verknüpften Felds. In diesem Feld werden alle Informationen zum Produktbudget für die Kampagnendatensätze angezeigt.
 
-   ![](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
+   ![Felder für das Budgetfeld für die Verbindung mit dem Datensatztyp hinzufügen](assets/add-fields-for-budget-field-for-connector-with-record-type.png)
 
    >[!TIP]
    >
@@ -84,17 +84,17 @@ Gehen Sie dazu folgendermaßen vor:
 
       * **Kampagne**: Dies bedeutet, dass der Produktdatensatztyp mit dem Kampagnendatensatztyp verknüpft ist.
 
-     ![](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
+     ![Beispiel für Felder in Kampagneninformationen aus der Produktdatensatztabelle](assets/example-campaign-information-relationship-fields-from-product-record-table.png)
 
    >[!TIP]
    >
-   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol ![](assets/relationship-field-icon.png) vorangestellt.
+   >    Verknüpfte Datensatzfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
 1. Erstellen Sie in **Tabellenansicht** Kampagne) eine Kampagne, indem Sie eine neue Zeile zur Tabelle des Kampagnendatensatztyps hinzufügen.
 
 1. Doppelklicken Sie in die Spalte **Produktinformationen** der neuen Kampagne.
 
-   ![](assets/connect-other-records-smaller-box-in-table-view.png)
+   ![Verbinden anderer Datensätze im kleineren Feld in der Tabellenansicht](assets/connect-other-records-smaller-box-in-table-view.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -104,7 +104,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt auf **Alle anzeigen** geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
-   ![](assets/connected-objects-table-for-records.png)
+   ![Tabelle „Verbundene Objekte“ für Datensätze](assets/connected-objects-table-for-records.png)
 
 1. Beginnen Sie, den Namen eines Produkts in das Suchfeld einzugeben, und wählen Sie es aus, wenn es in der Liste angezeigt wird
 
@@ -120,7 +120,7 @@ Gehen Sie dazu folgendermaßen vor:
    * Das Feld **Produktinformationen** wird für den Kampagnendatensatz mit den ausgewählten Produkten ausgefüllt.
    * **Das Feld Budget (aus Produktinformationen)** wird mit dem Budgetwert für jedes ausgewählte Produkt oder mit der Summe aller Budgets der ausgewählten Produkte ausgefüllt (wenn Sie „SUMME“ für Ihren Aggregator ausgewählt haben).
 
-   ![](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
+   ![Beispiel für die Felder „Produktinformationen“ und „Budgetbeziehung“ für die Kampagnendatensatztabelle](assets/example-product-information-and-budget-relationship-fields-for-campaign-record-table.png)
 
    >[!TIP]
    >
@@ -159,7 +159,7 @@ Gehen Sie dazu folgendermaßen vor:
    * **Nur Objekte verknüpfen, die diesen Kriterien entsprechen**: Wählen Sie ein benutzerdefiniertes Formular aus dem **Benutzerdefiniertes Formular** Dropdown-Menü aus. Nur Projekte, die mit den angegebenen Formularen verknüpft sind, können mit Kampagnen verbunden werden. Sie können mehrere Formulare auswählen.
    * **Suchfelder auswählen**: Wenn Sie diese Option aktiviert lassen, wird als Nächstes das Feld **Suchfelder hinzufügen** geöffnet, in dem Sie Projektfelder mit dem Kampagnendatensatztyp verknüpfen können. Sie können auf **Überspringen** klicken, um diesen Schritt zu überspringen und später Projektfelder hinzuzufügen.
 
-   ![](assets/new-connection-tab-with-workfront-option.png)
+   ![Neue Verbindungsregisterkarte mit Workfront-Option](assets/new-connection-tab-with-workfront-option.png)
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt die Option **Suchfelder auswählen** ausgewählt haben, klicken Sie in der Liste der mit dem Objekttyp **Projekt** verknüpften Felder auf das Symbol **+** für das Feld **Geplanter Umsatz** und dann auf **Felder hinzufügen**. Dadurch wird ein Feld mit dem Namen **Geplanter Umsatz (aus Projektinformationen)** erstellt. Dies ist der Name des verknüpften Felds. Alle Informationen aus dem Feld Geplanter Projektumsatz werden automatisch in diesem Feld für die Kampagnenaufzeichnungen angezeigt.
 
@@ -169,7 +169,7 @@ Gehen Sie dazu folgendermaßen vor:
    >
    > Wenn Sie **Keine** anstelle von **SUMME** auswählen, werden die einzelnen geplanten Einnahmen durch Kommas getrennt angezeigt.
 
-   ![](assets/add-planned-revenue-project-field-to-new-connection.png)
+   ![Feld Geplanten Umsatz zu neuer Verbindung hinzufügen](assets/add-planned-revenue-project-field-to-new-connection.png)
 
    Dadurch werden die folgenden Felder generiert:
 
@@ -180,13 +180,13 @@ Gehen Sie dazu folgendermaßen vor:
 
    >[!TIP]
    >
-   >    Verknüpfte Objektfelder werden durch das Beziehungssymbol ![](assets/relationship-field-icon.png) vorangestellt.
+   >    Verknüpfte Objektfelder werden durch das Beziehungssymbol (Beziehungsfeldsymbol![ vorangestellt](assets/relationship-field-icon.png).
 
 1. Erstellen Sie in **Tabellenansicht** Datensatztyps (Campaign) eine Kampagne, indem Sie eine neue Zeile in der Tabelle hinzufügen.
 
 1. Doppelklicken Sie in die Spalte Projektinformationen** der neuen Kampagne.
 
-   ![](assets/connect-projects-smaller-box-in-table.png)
+   ![Kleineres Feld „Projekte verbinden“ in der Tabelle](assets/connect-projects-smaller-box-in-table.png)
 
 1. Führen Sie einen der folgenden Schritte aus:
 
@@ -196,7 +196,7 @@ Gehen Sie dazu folgendermaßen vor:
 
 1. (Bedingt) Wenn Sie im vorherigen Schritt auf **Alle anzeigen** geklickt haben, wird das Feld **Objekte verbinden** angezeigt.
 
-   ![](assets/connect-projects-larger-box.png)
+   ![Größeres Feld „Projekte verbinden“](assets/connect-projects-larger-box.png)
 
 1. Beginnen Sie, den Namen eines Projekts in das Suchfeld einzugeben, und wählen Sie ihn aus, wenn er in der Liste angezeigt wird
 
@@ -214,7 +214,7 @@ Gehen Sie dazu folgendermaßen vor:
       * Das Feld **Projektinformationen** wird für den Kampagnendatensatz mit den ausgewählten Projekten ausgefüllt.
       * Das Feld **Geplanter Umsatz (aus Produktinformationen)** wird für jedes ausgewählte Produkt mit dem Budgetwert ausgefüllt. Dies ist ein schreibgeschütztes Feld.
 
-   ![](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
+   ![Projektverknüpftes Feld und Geplanter Umsatz in Kampagnentabelle hervorgehoben](assets/project-linked-field-and-planned-revenue-in-campaign-table-highlighted.png)
 
    >[!TIP]
    >

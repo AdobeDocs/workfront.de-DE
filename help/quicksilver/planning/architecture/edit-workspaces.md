@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 374b6d9c-69a9-4a73-8708-51c14a78c7c9
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
 workflow-type: tm+mt
-source-wordcount: '706'
+source-wordcount: '733'
 ht-degree: 0%
 
 ---
@@ -166,14 +166,14 @@ For more information about access requirements, see [Access requirements in Work
 1. (Optional) Klicken Sie auf **Weniger anzeigen**, um die Anzahl der Arbeitsbereiche zu begrenzen, die auf dem Bildschirm angezeigt werden.
 1. Führen Sie einen der folgenden Schritte aus, um einen Arbeitsbereich zu bearbeiten:
 
-   * Bewegen Sie den Mauszeiger über die Arbeitsbereichskarte und klicken Sie dann auf **Mehr**-![](assets/more-menu.png) in der oberen rechten Ecke der Karte
+   * Bewegen Sie den Mauszeiger über die Arbeitsbereichskarte und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) in der oberen rechten Ecke der Karte
 oder
-   * Klicken Sie auf eine Arbeitsbereichskarte, um den Arbeitsbereich zu öffnen, und klicken Sie dann auf **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Arbeitsbereichsnamen.
+   * Klicken Sie auf eine Arbeitsbereichskarte, um den Arbeitsbereich zu öffnen, und klicken Sie dann auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Arbeitsbereichsnamen.
 1. Klicken Sie **Bearbeiten**.
 
    Das **Arbeitsbereich bearbeiten** wird angezeigt.
 
-   ![](assets/edit-workspace-box.png)
+   ![Feld Arbeitsbereich bearbeiten](assets/edit-workspace-box.png)
 
 1. Aktualisieren Sie die folgenden Informationen im Feld **Arbeitsbereich bearbeiten**:
 
@@ -186,16 +186,16 @@ oder
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um einen neuen Arbeitsbereich hinzuzufügen:
 
    * Klicken **unten** Arbeitsbereich auf „Abschnitt hinzufügen“.
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die ![](assets/more-menu.png) **Mehr** und klicken Sie dann **Abschnitt hinzufügen oben** oder **Abschnitt hinzufügen unten**.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und klicken Sie dann **Abschnitt hinzufügen oben** oder **Abschnitt hinzufügen unten**.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um die Position eines Abschnitts zu ändern:
 
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das **grab**-Symbol ![](assets/grab-icon.png) und ziehen Sie ihn dann per Drag-and-Drop an die rechte Stelle.
-   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf die ![](assets/more-menu.png) **Mehr** und klicken Sie dann auf **Nach oben** oder **Nach unten**. Der Abschnitt wird innerhalb des Arbeitsbereichs nach oben oder unten verschoben.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das **grab**-Symbol ![grab icon](assets/grab-icon.png) und ziehen Sie ihn dann an die rechte Stelle.
+   * Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und klicken Sie dann auf **Nach oben** oder **Nach unten**. Der Abschnitt wird innerhalb des Arbeitsbereichs nach oben oder unten verschoben.
 
 1. (Optional) Gehen Sie wie folgt vor, um einen Workspace-Abschnitt zu löschen:
 
-   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf die ![](assets/more-menu.png) **Mehr** und anschließend auf **Löschen**. <!--add screen shot when UI is final?-->
+   1. Bewegen Sie den Mauszeiger über den Namen eines Abschnitts und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und anschließend auf **Löschen** <!--add screen shot when UI is final?-->
    1. Wählen Sie einen neuen Abschnitt aus, in den alle Datensatztypen verschoben werden sollen, und klicken Sie auf **Löschen**. <!--check the button name; logged a bug to change it to "Delete" from "Delete section".-->
 
       Alle Datensatztypen werden in den Auswahlabschnitt verschoben, und der Abschnitt wird gelöscht.
@@ -204,17 +204,17 @@ oder
 
    Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ Datensatz und klicken Sie auf das ![](assets/more-menu.png) **Mehr** in der oberen rechten Ecke und dann auf **Bearbeiten**, um das Erscheinungsbild eines Datensatztyps zu ändern.
+1. (Optional) Zeigen Sie mit der Maus auf eine Karte für den Datensatztyp und klicken Sie oben rechts auf **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf **Bearbeiten**, um das Erscheinungsbild eines Datensatztyps zu ändern.
 
    Weitere Informationen finden Sie [Datensatztypen bearbeiten](/help/quicksilver/planning/architecture/edit-record-types.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über eine Karte vom Typ Datensatz und klicken Sie auf das **Mehr**-![](assets/more-menu.png) in der oberen rechten Ecke und dann auf **Löschen**, um einen Datensatztyp zu löschen.
+1. (Optional) Zeigen Sie mit der Maus auf eine Karte für den Datensatztyp und klicken Sie oben rechts auf **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um einen Datensatztyp zu löschen.
 
    Weitere Informationen finden Sie [Löschen von Datensatztypen](/help/quicksilver/planning/architecture/delete-record-types.md).
 
 1. (Optional) Klicken Sie auf eine Karte vom Typ Datensatz, um sie per Drag-and-Drop an eine neue Position zu ziehen. Sie können Datensatztypen per Drag-and-Drop von einem Workspace-Abschnitt in einen anderen ziehen.
 
-   ![](assets/drag-and-drop-record-types-in-a-workspace.png)
+   ![Datensatztypen per Drag-and-Drop in einen Arbeitsbereich ziehen](assets/drag-and-drop-record-types-in-a-workspace.png)
 
 1. (Optional) Klicken Sie **Freigeben** in der oberen rechten Ecke des Arbeitsbereichs, um den Arbeitsbereich für andere freizugeben.
 
