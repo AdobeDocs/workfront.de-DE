@@ -6,9 +6,9 @@ description: Wenn Sie ein Projekt in Adobe Workfront erstellen, werden Sie autom
 author: Alina
 feature: Work Management
 exl-id: 10421cab-237a-49a5-bb5b-5be510dc4c46
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '425'
+source-wordcount: '433'
 ht-degree: 0%
 
 ---
@@ -109,7 +109,7 @@ Wenn Sie einen Benutzer als Projektbesitzer eines Projekts hinzufügen, erteilt 
 
    Der Projektbesitzer wird im Projekt-Header und im Bereich Projektdetails aktualisiert.
 
-   ![](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
+   ![Verantwortlicher für das Projekt hervorgehoben](assets/project-stakeholders-owner-highlighted-nwe-350x149.png)
 
 ## Aktualisieren des Projektsponsors eines Projekts
 
@@ -131,4 +131,4 @@ Wenn Sie einen Benutzer als Projektsponsor eines Projekts hinzufügen, erteilt W
 
    Der Projektsponsor aktualisiert sich im Bereich Projektdetails .
 
-   ![](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)
+   ![Projekt-Stakeholder-Sponsor hervorgehoben](assets/project-stakeholders-sponsor-highlighted-nwe-350x147.png)

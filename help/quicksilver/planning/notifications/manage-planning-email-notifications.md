@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 3c505b3a-cda7-4e7b-b497-28b820e9bb8f
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '654'
+source-wordcount: '662'
 ht-degree: 0%
 
 ---
@@ -163,7 +163,7 @@ OLD:
 
 1. (Bedingt und optional) Nachdem Sie in einem Kommentar zu einem Datensatz getaggt wurden, wechseln Sie zu der E-Mail-Benachrichtigung, die Sie über das Tag und den Kommentar informiert. Der Absender der E-Mail ist Adobe Experience Cloud.
 
-   ![](assets/email-notification-example.png)
+   ![Beispiel für E-Mail-Benachrichtigungen](assets/email-notification-example.png)
 
 1. (Optional) Klicken Sie auf die Nachricht im Feld **Workfront** in der E-Mail.
 
@@ -195,6 +195,6 @@ nachdem Sie eine Anforderung gesendet haben oder nachdem eine von Ihnen gesendet
 
 1. (Optional) Klicken Sie auf **Anfrage öffnen**. Dadurch wird die Anfrage in Workfront Planning geöffnet.
 
-1. Klicken Sie auf **Symbol** Benachrichtigungen![](assets/notifications-area-icon-unified-shell.png) in der rechten oberen Ecke des Bildschirms, um auf die Seite **Benachrichtigungen** zuzugreifen.
+1. Klicken Sie auf **Benachrichtigungen**-Symbol ![Benachrichtigungsbereichssymbol Unified Shell](assets/notifications-area-icon-unified-shell.png) in der rechten oberen Ecke des Bildschirms, um auf die Seite **Benachrichtigungen** zuzugreifen.
 
    Informationen zum Verwalten Ihrer Workfront Planning-Benachrichtigungen finden Sie unter [Verwalten von Adobe Workfront Planning-Benachrichtigungseinstellungen](/help/quicksilver/planning/notifications/manage-notification-preferences.md).

@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8de68b70-dd87-4aad-9137-980ea9fc0d69
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '475'
+source-wordcount: '491'
 ht-degree: 1%
 
 ---
@@ -118,11 +118,11 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Das Vorschaufeld des Datensatzes wird geöffnet.
 
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
+1. (Optional) Klicken Sie auf das Symbol **In neuer Registerkarte öffnen** (![ Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite des Datensatzes zu öffnen.
 
 1. Wählen Sie die **Details** aus. Die Registerkarte Details sollte standardmäßig geöffnet sein.
 
-1. Klicken Sie auf **Menü** Exportieren“ ![](assets/export-icon-in-record-details-page.png) entweder in der Vorschau oder auf der Seite des Datensatzes und dann auf eine der folgenden Aktionen:
+1. Klicken Sie auf das **Export**-Menü ![Export-Symbol auf ](assets/export-icon-in-record-details-page.png) Datensatzdetailseite, entweder in der Vorschau oder auf der Datensatzseite, und klicken Sie dann auf eine der folgenden Aktionen:
 
    * **Microsoft Word**
    * **Adobe PDF**
@@ -131,7 +131,7 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 
    Der Name der exportierten Datei ist das Primäre Feld des Datensatzes.
 
-   ![](assets/exported-word-file.png)
+   ![Exportierte Word-Datei](assets/exported-word-file.png)
 
    >[!NOTE]
    >

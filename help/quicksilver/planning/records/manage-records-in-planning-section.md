@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: d86cf3f9-cacc-4457-acb3-a5122ae91be8
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1797'
+source-wordcount: '1837'
 ht-degree: 1%
 
 ---
@@ -166,12 +166,12 @@ Die Seite des -Objekts wird in Workfront geöffnet.
       * Der Name des verbundenen Datensatzfelds, wie er in Workfront Planning angezeigt wird.
    * Datensätze werden unter ihrem jeweiligen Arbeitsbereich und Datensatztyp angezeigt.
 
-   ![](assets/planning-section-on-project.png)
+   ![Planungsabschnitt zum Projekt](assets/planning-section-on-project.png)
 
 1. (Optional) Klicken Sie auf **Alle Verbindungen anzeigen** um alle verbundenen Datensatztypen anzuzeigen, einschließlich der Typen ohne verbundene Datensätze. Standardmäßig werden Datensatztypen ohne verbundene Datensätze nicht angezeigt.
 1. Klicken Sie auf eine Datensatzkarte, um weitere Informationen zum Datensatz anzuzeigen. Das Datensatzvorschau-Feld wird angezeigt.
 1. (Optional) Beginnen Sie mit der Bearbeitung von Feldern im Vorschaufeld des Datensatzes. Ihre Änderungen werden automatisch gespeichert.
-1. (Optional) Klicken Sie auf **In einer neuen Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) Symbol oben rechts im Vorschaufeld, um die Detailseite des Datensatzes zu öffnen. Die Detailseite des Datensatzes wird in Workfront Planning geöffnet.
+1. (Optional) Klicken Sie auf **In einer neuen Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke des Vorschaufelds, um die Detailseite des Datensatzes zu öffnen. Die Detailseite des Datensatzes wird in Workfront Planning geöffnet.
 1. (Optional) Bewegen Sie den Mauszeiger über eine Datensatzkarte und klicken Sie dann auf das Symbol zum Trennen des Datensatzes **-** und anschließend auf **Trennen**.
 Folgendes geschieht:
    * Der Datensatz ist nicht mehr mit dem Workfront-Objekt verbunden.
@@ -242,7 +242,7 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld f�
 
 1. Klicken Sie in das Feld, um verbundene Datensätze hinzuzufügen, und klicken Sie dann auf den nach unten zeigenden Pfeil innerhalb des Felds, um Datensätze aus der Liste auszuwählen.
 
-   ![](assets/planning-connection-field-on-project-with-record-list-open.png)
+   ![Planen eines Verbindungsfelds in einem Projekt mit geöffneter Datensatzliste](assets/planning-connection-field-on-project-with-record-list-open.png)
 
    >[!TIP]
    >
@@ -252,7 +252,7 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld f�
    >
    >Es gibt einen Hinweis darauf, dass das Objekt des Felds und das ausgewählte Objekt nicht übereinstimmen.
    >
-   >![](assets/warning-unsupported-object-planning-connection-field-on-form.png)
+   >![Warnung: Nicht unterstütztes Objekt-Planungs-Verbindungsfeld im Formular](assets/warning-unsupported-object-planning-connection-field-on-form.png)
 
 1. Klicken Sie auf eine Stelle außerhalb der Liste, um sie zu schließen.
 
@@ -263,13 +263,13 @@ Beachten Sie Folgendes, wenn Sie Workfront-Planungsdatensätze über ein Feld f�
    * Die Werte für die Workfront-Suchfelder, die mit dem Planungsdatensatz verbunden sind, werden in Workfront Planning ausgefüllt.
    * <span class="preview">Wenn Ihr Workfront- oder Gruppen-Administrator beim Erstellen des benutzerdefinierten Formulars Datensatzsuchfelder hinzugefügt hat, werden die Suchfelder des Datensatzes automatisch in einer Tabellenansicht ausgefüllt. Die Tabellenansicht im Feld Planning-Verbindung ist schreibgeschützt</span>
 
-     ![](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
+     ![Planen eines Verbindungsfelds mit einer Tabelle im benutzerdefinierten Formular „Projektdetails“](assets/planning-connection-field-with-table-on-project-details-custom-form.png)
 
 1. (Optional) Klicken Sie auf den Namen eines Datensatzes <span class="preview">oder bewegen Sie den Mauszeiger über den Namen des Datensatzes in der Tabelle und klicken Sie dann auf das Symbol **Datensatz öffnen** ![Symbol „Datensatz öffnen“ im benutzerdefinierten Formular „Planning-](assets/open-record-icon-on-planning-connection-custom-form.png)</span>&quot; im Feld „Planning-Verbindung“, um den Datensatz in Workfront Planning zu öffnen.
 Das Vorschaufeld mit den Details der Workfront-Planungsdatensätze wird geöffnet.
 1. Überprüfen oder bearbeiten Sie Informationen zum Datensatz oder klicken Sie auf das Symbol **In neuer Registerkarte öffnen** ![Datensatz in neuer Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png), um die Seite mit den Datensatzdetails zu öffnen.
 
-1. (Optional) Klicken Sie im benutzerdefinierten Formular in Workfront auf das Symbol **Entfernen**, das in einem Datensatz ![](assets/remove-icon.png) wird, um es aus dem Feld „Planning-Verbindung“ zu entfernen und vom Workfront-Objekt zu trennen.
+1. (Optional) Klicken Sie im benutzerdefinierten Formular in Workfront auf das Symbol **Entfernen** ![Symbol Entfernen](assets/remove-icon.png) in einem Datensatz, um ihn aus dem Feld „Planning-Verbindung“ zu entfernen und vom Workfront-Objekt zu trennen.
 Das Workfront-Objekt wird vom Planungsdatensatz getrennt und alle Suchinformationen aus Workfront werden aus dem Datensatz entfernt.
 
 1. Klicken Sie **Änderungen speichern**, um das benutzerdefinierte Formular und alle anderen Änderungen zu speichern, die Sie am Workfront-Objekt vorgenommen haben.

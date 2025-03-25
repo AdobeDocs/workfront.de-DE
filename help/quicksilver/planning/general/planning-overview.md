@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1818'
+source-wordcount: '1878'
 ht-degree: 2%
 
 ---
@@ -184,7 +184,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
 * **Workspace**: Eine Sammlung von Datensatztypen, die den Betriebslebenszyklus eines bestimmten Unternehmens definieren. Ein Arbeitsbereich ist der Arbeitsrahmen einer Organisationseinheit.
 
-  ![](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
+  ![Eröffnungsseite von Marketing Workspace mit Taxonomien für Datensatztypen](assets/marketing-workspace-with-record-type-taxonomies-opening-page.png)
 
   Weitere Informationen finden Sie unter [Erstellen von Arbeitsbereichen](/help/quicksilver/planning/architecture/create-workspaces.md).
 
@@ -202,7 +202,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
 * **Record**: Eine Instanz eines Datensatztyps.
 
-  ![](assets/records-highlighted-in-campaign-record-type-list.png)
+  ![Datensätze in der Liste der Kampagnendatensatztypen hervorgehoben](assets/records-highlighted-in-campaign-record-type-list.png)
 
   Nachdem Sie einem Arbeitsbereich einen Datensatztyp hinzugefügt haben, können Sie damit beginnen, Datensätze dieses Typs auf der Seite des Datensatztyps hinzuzufügen.
 
@@ -212,7 +212,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
 * **Workspace-Vorlage**: Sie können einen Arbeitsbereich mithilfe vordefinierter Vorlagen erstellen. Sie können die vordefinierten Datensatztypen und Felder in einer Vorlage verwenden oder eigene hinzufügen.
 
-  ![](assets/workspaces-page-with-templates-thumbnails.png)
+  ![Arbeitsbereich-Seite mit Vorlagen und Miniaturansichten](assets/workspaces-page-with-templates-thumbnails.png)
 
   Adobe Workfront Planning enthält die folgenden Vorlagen:
 
@@ -226,7 +226,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
 * **Felder**: Felder sind Attribute, die Sie Datensatztypen hinzufügen können. Felder enthalten Informationen über den Datensatztyp. <!--check the shot below, "Connection" needs to be in lowercase-->
 
-  ![](assets/drop-down-list-of-record-fields.png)
+  ![Dropdown-Liste der Datensatzfelder](assets/drop-down-list-of-record-fields.png)
 
   Überlegungen zu Datensatzfeldern:
 
@@ -274,7 +274,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
      Sie benötigen eine Adobe Experience Manager-Lizenz, um Datensatztypen mit Experience Manager-Objekten zu verknüpfen.
 
-     ![](assets/new-connection-tab-with-workfront-aem-options.png)
+     ![Neue Registerkarte „Verbindung“ mit Workfront AEM-Optionen](assets/new-connection-tab-with-workfront-aem-options.png)
 
 
   Nachdem Sie eine Verbindung zwischen den Datensatztypen hergestellt haben, können Sie einzelne Datensätze oder Objekte dieser Typen miteinander verbinden. Die Verbindung zwischen den Datensätzen wird als verbundenes Datensatzfeld oder als Verbindung angezeigt.
@@ -283,7 +283,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
   Wenn Sie beispielsweise einen Campaign-Datensatztyp mit einem Workfront-Projektobjekttyp verbinden, können Sie das Budgetfeld der verbundenen Projekte in den Kampagnendatensätzen anzeigen.
 
-  ![](assets/add-lookup-fields-modal.png)
+  ![Suchfelder hinzufügen](assets/add-lookup-fields-modal.png)
 
   >[!TIP]
   >
@@ -303,7 +303,7 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
 * **Ansichten**: Datensätze werden auf verschiedenen Ansichtstypen unter der entsprechenden Seite für den Datensatztyp angezeigt.
 
-  ![](assets/view-types-drop-down-from-record-type-list.png)
+  ![Anzeigen der Dropdown-Liste „Typen“ des Datensatztyps](assets/view-types-drop-down-from-record-type-list.png)
 
   Ansichten enthalten personalisierte Einstellungen eines bestimmten Ansichtstyps, z. B. die Liste von Feldern (Spalten), eine Liste von Datensätzen (Zeilen), ihre Reihenfolge (Sortierung), einen angewendeten oder anwendbaren Filter und eine Gruppierung.
 
@@ -311,14 +311,14 @@ Im Folgenden finden Sie die wichtigsten Workfront-Planungsobjekte und -konzepte:
 
    * **Tabellenansicht** Zeigt Datensätze und ihre Felder, einschließlich verbundener und Lookup-Felder, in einem Tabellenformat an. Die Zeilen der Tabelle sind die einzelnen Datensätze, und die Spalten sind die Datensatzfelder. Die Tabellenansicht ist die Standardansicht.
 
-     ![](assets/table-view-example.png)
+     ![Beispiel für eine Tabellenansicht](assets/table-view-example.png)
 
    * **Zeitleisten-Ansicht**: Zeigt Datensätze an, die mindestens zwei Datumsfelder in einer chronologischen Zeitleiste aufweisen. In der Zeitleisten -Ansicht können bis zu 5 miteinander verbundene Datensatztypen und deren Datensätze angezeigt werden.
 
-     ![](assets/grouping-applied-in-timeline-view.png)
+     ![Gruppierung in der Zeitleisten-Ansicht angewendet](assets/grouping-applied-in-timeline-view.png)
 
    * **Kalenderansicht** Zeigt Datensätze mit mindestens zwei Feldern vom Typ Datum in einem Kalenderformat an.
-     ![](assets/calendar-view-example.png)
+     ![Beispiel für Kalenderansicht](assets/calendar-view-example.png)
 
 
 Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md).
@@ -333,11 +333,11 @@ So suchen Sie Workfront Planning:
 
 {{step1-click-main-menu}}
 
-1. Klicken Sie **Planung** ![](assets/planning-icon.png).
+1. Klicken Sie **Planung** ![Symbol Planung](assets/planning-icon.png).
 
    Die Hauptseite von Workfront Planning wird geöffnet.
 
-   ![](assets/planning-landing-page-admin.png)
+   ![Landingpage-Admin planen](assets/planning-landing-page-admin.png)
 
    >[!TIP]
    >

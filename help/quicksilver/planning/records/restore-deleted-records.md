@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8b6df633-eb05-4d3e-bfe6-76cedabdb76d
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '474'
+source-wordcount: '479'
 ht-degree: 1%
 
 ---
@@ -109,11 +109,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 ## Gelöschte Einträge wiederherstellen
 
 1. Navigieren Sie zur Seite „Datensatztyp“, auf der Sie Datensätze gelöscht haben.
-1. Klicken Sie auf **Symbol** Rückgängig“ ![](assets/undo-icon.png) in der oberen rechten Ecke einer beliebigen Seitenansicht eines Datensatztyps und dann auf **Zuletzt gelöscht**.
+1. Klicken Sie auf **Rückgängig**-Symbol ![Rückgängig](assets/undo-icon.png) in der oberen rechten Ecke einer beliebigen Seitenansicht des Datensatztyps und dann auf **Zuletzt gelöscht**.
 
    Das Feld **Kürzlich gelöscht** wird angezeigt.
 
-   ![](assets/recently-deleted-box.png)
+   ![Kürzlich gelöschtes Feld](assets/recently-deleted-box.png)
 
 1. Wählen Sie die zu löschenden Datensätze aus und klicken Sie dann auf **Wiederherstellen** > **Wiederherstellen**. Sie können mehrere Datensätze auswählen.
 

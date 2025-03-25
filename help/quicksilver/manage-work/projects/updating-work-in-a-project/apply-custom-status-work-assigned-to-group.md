@@ -6,9 +6,9 @@ description: Wenn ein Projekt mit einer Gruppe verknüpft ist, können Sie sowoh
 author: Alina
 feature: Work Management
 exl-id: 7564ab6a-8ddf-4e76-8e45-d59f9cf8d38b
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '353'
+source-wordcount: '361'
 ht-degree: 0%
 
 ---
@@ -103,7 +103,7 @@ Wenn Sie die Gruppe für ein Projekt aktualisieren, ändern sich die verfügbare
    >Wenn Sie im Dropdown-Menü **Gruppe** eine andere Gruppe auswählen, ändern sich die benutzerdefinierten Status im Menü **Status** automatisch, um sie mit der neuen Gruppe zu korrelieren.
    >
    >
-   >![](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
+   >![Status-Dropdown mit benutzerdefinierten Status für das Projekt erweitert](assets/status-drop-down-expanded-with-custom-statuses-for-project-nwe.png)   >
    >
 
 1. Wählen Sie den Status des Projekts aus. Die benutzerdefinierten Status, die Sie erstellt und auf diese Gruppe angewendet haben, werden in der Liste angezeigt.

@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: aca9b313-3420-43f6-8f6c-dd74888bd120
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '886'
+source-wordcount: '906'
 ht-degree: 1%
 
 ---
@@ -141,20 +141,20 @@ So validieren Sie eine Anfrage:
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Workspace anzeigen können, klicken Sie auf **Hauptmenü** ![](assets/dots-menu.png) in der rechten oberen Bildschirmecke oder auf das **Hauptmenü** ![](assets/lines-menu.png) in der linken oberen Ecke, falls verfügbar, und klicken Sie dann auf **Anfragen** > **Gesendet** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Überprüfung ausstehend** oder **In Überprüfung**.
+   * Wenn Sie Zugriff auf Workfront Planning haben und mindestens einen Arbeitsbereich anzeigen können, klicken Sie auf **Hauptmenü** ![Punkte-](assets/dots-menu.png) oben rechts im Bildschirm oder auf das **** Hauptmenü![Zeilen-Hauptmenü](assets/lines-menu.png) oben links, falls verfügbar. Klicken Sie dann auf **Anfragen** > **Eingereicht** > **Planung** und klicken Sie auf die Anfrage mit dem Status **Ausstehende Überprüfung** oder **In Überprüfung**.
 
      >[!TIP]
      >
      >Wenn Sie keinen Zugriff auf Workfront Planning haben oder keinen Zugriff zum Anzeigen von Arbeitsbereichen haben, können Sie nur über Ihre E-Mail- oder In-App-Benachrichtigungen auf eine Genehmigungsanfrage zugreifen.
 
-   * Klicken Sie auf **Bereichssymbol** Benachrichtigungen![](assets/notifications-area-icon-unified-shell.png) in der rechten oberen Ecke des Bildschirms und klicken Sie auf die Benachrichtigung über eine Anfrage mit ausstehender Genehmigung, um die Anfrage zu öffnen.
+   * Klicken Sie **oben rechts** Bildschirm auf das Bereichssymbol ![Benachrichtigungsbereich) ](assets/notifications-area-icon-unified-shell.png)Benachrichtigungen in Unified Shell“ und dann auf die Benachrichtigung über eine Anforderung mit ausstehender Genehmigung, um die Anforderung zu öffnen.
    * Wechseln Sie zur E-Mail-Benachrichtigung in Ihrer E-Mail, die Sie über eine Anfrage informiert, deren Genehmigung noch aussteht, und klicken Sie dann auf **Anfrage öffnen**, um die Anfrage zu öffnen. <!--add the name of the button here, from the email-->
 
    Die Anfrageseite wird im schreibgeschützten Modus geöffnet.
 
-   ![](assets/read-only-reqeust-page-in-review-status.png)
+   ![Schreibgeschützte Anfrageseite im Prüfungsstatus](assets/read-only-reqeust-page-in-review-status.png)
 
-1. (Optional) Klicken Sie auf das **Genehmigungen**-Symbol ![](assets/approvals-icon.png) in der oberen rechten Ecke der Anfrage, um die genehmigenden Personen anzuzeigen.
+1. (Optional) Klicken Sie auf **Genehmigungen** Symbol ![Genehmigungen](assets/approvals-icon.png) in der rechten oberen Ecke der Anfrage, um die genehmigenden Personen anzuzeigen.
 1. Klicken Sie **Überprüfen und genehmigen** und wählen Sie dann eine der folgenden Optionen aus: <!--did they fix the button and removed the &??-->
 
    * **Genehmigen**: Dadurch wird die Anfrage genehmigt. Ein Datensatz wird sofort für den mit dem Antragsformular verknüpften Datensatztyp erstellt, nachdem alle Genehmiger den Antrag genehmigt haben.

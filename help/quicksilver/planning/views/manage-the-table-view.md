@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 0dd723b5-d674-4626-8fc2-7da41f3b7f35
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2876'
+source-wordcount: '2932'
 ht-degree: 2%
 
 ---
@@ -171,7 +171,7 @@ Verwalten einer Tabellenansicht:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
-   ![](assets/table-view-example.png)
+   ![Beispiel für eine Tabellenansicht](assets/table-view-example.png)
 
 1. (Optional) Klicken Sie auf **Zeilenhöhe** und wählen Sie dann eine der folgenden Optionen, um die Höhe der Tabellenzeilen zu ändern:
    * Klein
@@ -209,7 +209,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
    * Klicken Sie **der Symbolleiste der** auf „Felder“, ziehen Sie die Felder per Drag-and-Drop in die gewünschte Reihenfolge und klicken Sie dann außerhalb des Felds **Sichtbarkeit und Reihenfolge**, um es zu schließen.
 
-     ![](assets/fields-setting-table-view-toolbar-expanded.png)
+     ![Symbolleiste für die Tabellenansicht der Feldeinstellungen erweitert](assets/fields-setting-table-view-toolbar-expanded.png)
 
 
      >[!TIP]
@@ -224,7 +224,7 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. (Optional) Bewegen Sie den Mauszeiger über einen Feldnamen in der Spaltenüberschrift eines Felds, das nicht in der ersten Spalte der Tabelle angezeigt wird, klicken Sie auf den nach unten zeigenden Pfeil rechts neben dem Feldnamen und dann auf **Als Primärfeld festlegen**.
 
-   ![](assets/set-as-primary-field-option-table-view.png)
+   ![Option „Als Primärfeld festlegen“ in der Tabellenansicht](assets/set-as-primary-field-option-table-view.png)
 
 1. Klicken Sie **Bestätigung auf** Feld festlegen“.
 
@@ -253,9 +253,9 @@ Sie können bis zu 500 Felder (oder Spalten) in einer Tabellenansicht hinzufüge
 
 1. Gehen Sie folgendermaßen vor, um schnell Datensätze zu finden, die einem Keyword entsprechen:
 
-   1. Klicken Sie auf **Suchen**-Symbol ![](assets/search-icon.png) und geben Sie ein Keyword ein, das mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
+   1. Klicken Sie auf **Suche**-Symbol ![Suchsymbol](assets/search-icon.png) und geben Sie einen Suchbegriff ein, der mit einem beliebigen Feld eines Datensatzes verknüpft ist, der auf dem Bildschirm angezeigt wird. Die Anzahl der richtigen Übereinstimmungen wird neben dem Suchelement angezeigt, und das Feld mit der richtigen Übereinstimmung ist hervorgehoben.
 
-      ![](assets/search-box-with-results-blue-outline-table-view.png)
+      ![Suchfeld mit Ergebnissen mit blauer Kontur in der Tabellenansicht](assets/search-box-with-results-blue-outline-table-view.png)
 
       Sie können jedes Wort oder jedes Sonderzeichen verwenden, das auf dem Bildschirm sichtbar ist.
 
@@ -284,7 +284,7 @@ Sie können bis zu 50.000 Datensätze (oder Zeilen) für einen Datensatztyp habe
 
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus und ziehen Sie dann das **handle**-Symbol ![](assets/handle-icon.png) links vom Datensatz, um die Zeilen neu anzuordnen.
+1. (Optional) Wählen Sie einen oder mehrere Datensätze in einer Zeile aus und ziehen Sie dann das **handle**-Symbol ![handle-Symbol](assets/handle-icon.png) auf die linke Seite des Datensatzes, um die Zeilen neu anzuordnen.
 
    >[!NOTE]
    >
@@ -394,7 +394,7 @@ So fügen Sie einen Filter zu einer Tabellenansicht hinzu:
 
    * Einen Wert für das ausgewählte Feld auswählen.
 
-   ![](assets/filter-ui-table-view.png)
+   ![Tabellenansicht der Filter-Benutzeroberfläche](assets/filter-ui-table-view.png)
 
    Es gibt keine Begrenzung dafür, wie viele Filterbedingungen Sie hinzufügen können.
 
@@ -408,7 +408,7 @@ So fügen Sie einen Filter zu einer Tabellenansicht hinzu:
 
    1. (Optional) Fügen Sie zusätzliche Operatoren **AND** oder **OR** zwischen mehreren Bedingungsgruppierungen hinzu.
 
-      ![](assets/multi-tiered-filters-in-views.png)
+      ![Mehrstufige Filter in Ansichten](assets/multi-tiered-filters-in-views.png)
 
    </div>
 
@@ -446,7 +446,7 @@ Um eine Gruppierung hinzuzufügen:
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 1. Klicken **oben** der Tabellenansicht auf „Gruppierung“.
 
-   ![](assets/grouping-ui-table-view-with-linked-fields.png)
+   ![Gruppieren der Tabellenansicht der Benutzeroberfläche mit verknüpften Feldern](assets/grouping-ui-table-view-with-linked-fields.png)
 
 1. Klicken Sie auf eines der vorgeschlagenen Felder oder klicken Sie auf **Anderes Feld auswählen** suchen Sie nach einem anderen Feld und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
@@ -456,7 +456,7 @@ Um eine Gruppierung hinzuzufügen:
 
    Die Anzahl der für die Gruppierung ausgewählten Felder wird neben dem Gruppierungssymbol angezeigt.
 
-   ![](assets/grouping-applied-in-table-view.png)
+   ![Gruppierung in Tabellenansicht angewendet](assets/grouping-applied-in-table-view.png)
 
 1. (Optional) Klicken Sie innerhalb des **Datensätze gruppieren nach** auf das Symbol **x** rechts neben einem Feld, das für die Gruppierung ausgewählt wurde, um die Gruppierung zu entfernen
 
@@ -499,7 +499,7 @@ Beachten Sie beim Sortieren von Datensätzen in der Tabellenansicht die folgende
 Gehen Sie wie folgt vor, um <!--ungrouped (add this when sorting for groupings will be available--> Datensätze zu sortieren:
 
 1. Erstellen Sie eine Tabellenansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
-1. Klicken Sie auf **Sortieren**-Symbol ![](assets/sort-icon.png) in der oberen rechten Ecke der Tabelle
+1. Klicken Sie auf **Sortieren**-Symbol ![Sortieren](assets/sort-icon.png) in der oberen rechten Ecke der Tabelle
 
    Oder
 
@@ -523,7 +523,7 @@ Gehen Sie wie folgt vor, um <!--ungrouped (add this when sorting for groupings w
 
 1. Klicken Sie außerhalb des Felds **Datensätze sortieren nach**, um es zu schließen.
 
-   ![](assets/sorting-in-table-view.png)
+   ![Sortieren in der Tabellenansicht](assets/sorting-in-table-view.png)
 
    Die in der Tabelle angezeigten Informationen werden nach den von Ihnen ausgewählten Kriterien sortiert.
 

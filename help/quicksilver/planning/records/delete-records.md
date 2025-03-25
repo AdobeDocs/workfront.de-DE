@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 3f7a3667-8a9f-462a-b706-cf15850a0d1c
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '701'
+source-wordcount: '737'
 ht-degree: 2%
 
 ---
@@ -124,18 +124,18 @@ Sie können einen Datensatz aus den folgenden Bereichen löschen:
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie in einer Tabellenansicht auf den Namen eines Datensatzes.
-   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes, klicken Sie dann auf das **Mehr**-![](assets/more-menu.png) und klicken Sie dann auf **Anzeigen**
+   * Bewegen Sie in der Tabellenansicht den Mauszeiger über den Namen eines Datensatzes und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png) und anschließend auf **Anzeigen**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Kontextmenü für Datensatzzeile](assets/contextual-menu-for-record-row.png)
    * Klicken Sie in einer Zeitleisten -Ansicht auf eine Datensatzleiste.
 
    Die Datensatzseite wird geöffnet.
 
-1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Datensatznamen und klicken Sie dann zur Bestätigung **Löschen** und dann erneut **Löschen**.
+1. Klicken Sie auf das **Mehr**-Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatznamen und klicken Sie dann zur Bestätigung **Löschen** und dann erneut auf **Löschen**.
 
-   ![](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
+   ![Weitere Menüoptionen auf der Seite „Datensatzdetails“](assets/more-menu-options-from-record-details-page.png) <!--ensure the options have not changed or been renamed-->
 Der Datensatz wird gelöscht.
-1. (Optional und bedingt) Wenn Sie den Datensatz in der Vorschau-Umgebung löschen, wechseln Sie zur Tabellenansicht der Datensatzseite, klicken Sie auf das Symbol **Rückgängig** ![](assets/undo-icon.png) oben rechts in der Ansicht und klicken Sie dann auf **Kürzlich gelöschte**, um die gelöschten Datensätze wiederherzustellen.
+1. (Optional und bedingt) Wenn Sie den Datensatz in der Vorschau-Umgebung löschen, wechseln Sie zur Tabellenansicht der Datensatzseite und klicken Sie auf das **Rückgängig**-Symbol ![Rückgängig-Symbol](assets/undo-icon.png) in der oberen rechten Ecke der Ansicht und klicken Sie dann auf **Kürzlich gelöscht**, um die gelöschten Datensätze wiederherzustellen.
 
 Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md).
 
@@ -156,17 +156,17 @@ Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wie
 1. Führen Sie einen der folgenden Schritte aus:
 
    * Klicken Sie mit der rechten Maustaste auf eine Datensatzzeile und dann auf **Löschen**.
-   * Klicken Sie auf **Mehr**-![](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**.
+   * Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**.
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Kontextmenü für Datensatzzeile](assets/contextual-menu-for-record-row.png)
 
-   * Klicken Sie auf **Symbol** Details öffnen![](assets/open-details-icon-in-table-name-field.png), um das Feld mit den detaillierten Informationen des Datensatzes zu öffnen, und klicken Sie **Mehr** ![](assets/more-menu.png) rechts neben dem Datensatznamen auf **Löschen**.
+   * Klicken Sie auf **Symbol** Details öffnen![ (Symbol „Details öffnen“ im Feld &quot;](assets/open-details-icon-in-table-name-field.png)„), um das Feld mit den detaillierten Informationen zum Datensatz zu öffnen, und klicken Sie auf **Mehr** ![Mehr Menü](assets/more-menu.png) rechts neben dem Datensatznamen und dann auf **Löschen**.
 
    Der Datensatz wird gelöscht.
 
 1. (Optional) Führen Sie einen der folgenden Schritte aus, um das Löschen eines Datensatzes rückgängig zu machen oder wiederherzustellen:
 
-   * Klicken Sie auf das **Rückgängig**-Symbol ![](assets/undo-icon.png) und dann auf **Zuletzt gelöscht**, um die gelöschten Datensätze wiederherzustellen. Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md).
+   * Klicken Sie auf das **Rückgängig**-Symbol ![Rückgängig-Symbol](assets/undo-icon.png) und dann auf **Kürzlich gelöscht**, um die gelöschten Datensätze wiederherzustellen. Informationen zum Wiederherstellen gelöschter Datensätze finden Sie unter [Wiederherstellen gelöschter Datensätze](/help/quicksilver/planning/records/restore-deleted-records.md).
    * Mit den folgenden Tastaturbefehlen können Sie das Löschen eines Datensatzes rückgängig machen oder wiederholen:
 
       * Strg+Z (⌘+Z für Mac), um das Löschen eines Eintrags rückgängig zu machen

@@ -6,9 +6,9 @@ description: Sie können die Rollenzuweisung für alle Aufgabengebiete anzeigen,
 author: Alina
 feature: Work Management
 exl-id: 76f70cb6-f707-4a73-bc81-e755e2d0a33d
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '471'
+source-wordcount: '482'
 ht-degree: 1%
 
 ---
@@ -107,11 +107,11 @@ Sie müssen über Folgendes verfügen:
    * **Aufgaben**
    * **Workload Balancer**
 
-1. Klicken Sie auf **Symbol „Rollenzuweisung anzeigen** ![](assets/show-role-allocation-icon.png).
+1. Klicken Sie auf das Symbol **Rollenzuweisung anzeigen** ![Symbol für die Rollenzuweisung anzeigen](assets/show-role-allocation-icon.png).
 
    Das Bedienfeld „Rollenzuweisung“ wird angezeigt.
 
-   ![](assets/role-allocation-panel-planned-hours-only-350x316.png)
+   ![Bedienfeld „Rollenzuweisung“ nur mit „Geplante Stunden“](assets/role-allocation-panel-planned-hours-only-350x316.png)
 
 1. Überprüfen Sie die folgenden Informationen im Bedienfeld **Rollenzuweisung**:
 

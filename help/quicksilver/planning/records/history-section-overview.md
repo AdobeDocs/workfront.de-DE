@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 8258589f-a7c3-4d77-9abe-c99e9184bd21
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '651'
+source-wordcount: '661'
 ht-degree: 3%
 
 ---
@@ -114,14 +114,14 @@ Die Seite „Datensatztyp“ wird geöffnet und alle Datensätze dieses Typs wer
 1. Klicken Sie in einer beliebigen Ansicht auf den Namen eines Datensatzes.
 
    Die Seite des Datensatzes wird geöffnet. Der Bereich Kommentare wird standardmäßig im rechten Bedienfeld geöffnet.
-1. Klicken Sie auf **Symbol** Verlauf anzeigen![](assets/show-history-icon.png). Alle Änderungen, die an den Feldern des Datensatzes vorgenommen wurden, werden im rechten Bereich angezeigt, beginnend mit dem letzten.
-1. (Optional) Klicken Sie auf das ![](assets/hide-history-icon.png) **Verlauf ausblenden**, um das rechte Bedienfeld zu schließen.
+1. Klicken Sie auf das **Verlauf anzeigen**-Symbol ![Verlauf anzeigen](assets/show-history-icon.png). Alle Änderungen, die an den Feldern des Datensatzes vorgenommen wurden, werden im rechten Bereich angezeigt, beginnend mit dem letzten.
+1. (Optional) Klicken Sie auf das **Hide History**-Symbol ![Hide History icon](assets/hide-history-icon.png), um das rechte Bedienfeld zu schließen.
 
 ## Überlegungen zum Abschnitt „Verlauf“
 
 Die an den Datensatzfeldern vorgenommenen Änderungen können Sie im Abschnitt Verlauf des rechten Bedienfelds der Datensatzseite überprüfen.
 
-![](assets/history-area-in-comments.png)
+![Verlaufsbereich in Kommentaren](assets/history-area-in-comments.png)
 
 * Workfront Planning zeichnet die folgenden Informationen im Abschnitt History auf:
 

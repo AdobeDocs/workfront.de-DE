@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 53f57953-fb9f-47ef-be18-a7164c844682
-source-git-commit: 6e772ed53cca2fe3756fc15b715693b8b1fbef34
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '764'
+source-wordcount: '780'
 ht-degree: 0%
 
 ---
@@ -76,7 +76,7 @@ Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning
 
 ## Zugriff auf den KI-Assistenten im Bereich Planung
 
-1. Melden Sie sich bei Workfront an und klicken Sie dann auf **Hauptmenü**-Symbol ![](assets/dots-main-menu.png) in der oberen rechten Ecke des Bildschirms oder auf das Symbol **Hauptmenü** in der oberen linken ![](assets/lines-main-menu.png), falls verfügbar.
+1. Melden Sie sich bei Workfront an und klicken Sie dann auf **Hauptmenü** Symbol ![Punkte-](assets/dots-main-menu.png)) in der rechten oberen Ecke des Bildschirms oder auf das Symbol **Hauptmenü** ![Zeilen-Hauptmenü](assets/lines-main-menu.png) in der linken oberen Ecke, falls verfügbar.
 
 . Klicken Sie **Planung**. Der Bereich Planung wird geöffnet.
 
@@ -88,11 +88,11 @@ Der KI-Assistent befindet sich in den folgenden Bereichen von Workfront Planning
 
 1. Klicken Sie auf **KI** Assistentensymbol) in der oberen rechten Ecke des Bildschirms in der globalen Navigationsleiste oder in der oberen rechten Ecke der Vorschau oder Seite des Datensatzes.
 
-   ![](assets/ai-assistant-icon-highlighted.png)
+   ![KI-Assistenten-Symbol](assets/ai-assistant-icon-highlighted.png)
 
 1. Beginnen Sie in dem dafür vorgesehenen Feld mit der Eingabe von Befehlen für den KI-Assistenten und klicken Sie abschließend auf die Eingabetaste .
 
-   ![](assets/ai-assistant-panel-with-empty-command-box.png)
+   ![AI Assistant Panel mit leerem Befehlsfeld](assets/ai-assistant-panel-with-empty-command-box.png)
 
    Sie können beispielsweise einen der folgenden Typen eingeben:
 

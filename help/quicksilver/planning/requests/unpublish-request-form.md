@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: df8c4926-e258-49c0-ab9d-563ccaf7a6aa
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '658'
+source-wordcount: '665'
 ht-degree: 1%
 
 ---
@@ -124,7 +124,7 @@ So ändern Sie die Freigabe eines Anfrageformulars:
 
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
 
-1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile der Seite und dann auf **Anfrageformular aktualisieren**.
+1. Klicken Sie auf **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und dann auf **Anfrageformular aktualisieren**.
 1. Klicken **oben rechts** Bildschirm auf „Freigeben“ und aktualisieren Sie dann die Freigabeoptionen. Weitere Informationen finden Sie unter [Erstellen und Verwalten eines Anfrageformulars in Adobe Workfront Planning](/help/quicksilver/planning/requests/create-request-form.md).
 1. (Optional) Klicken Sie auf **Link kopieren**, wenn Sie die Freigabe des Anfrageformulars geändert haben und es für die neue Personengruppe über einen neuen Link freigeben möchten.
 
@@ -142,10 +142,10 @@ Wenn ein Anfrageformular irrelevant wird und Sie nicht mehr möchten, dass jeman
 
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
 
-1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Kopfzeile der Seite und dann auf **Anfrageformular aktualisieren**.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Namen des Datensatztyps in der Seitenkopfzeile und dann auf **Anfrageformular aktualisieren**.
 1. Klicken **oben** auf „Veröffentlichung rückgängig machen“.
 
-   ![](assets/unpublish-button-highlighted.png)
+   ![Schaltfläche „Veröffentlichung rückgängig machen“ hervorgehoben](assets/unpublish-button-highlighted.png)
 
    Unten im Bildschirm wird eine Bestätigung angezeigt, die Sie darüber informiert, dass die Veröffentlichung des Formulars aufgehoben wurde.
 

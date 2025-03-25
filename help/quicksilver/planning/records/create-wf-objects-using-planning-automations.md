@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1800'
+source-wordcount: '1811'
 ht-degree: 2%
 
 ---
@@ -200,7 +200,7 @@ Eine der folgenden Aktionen auswählen:
    Ein verbundenes Feld für den ausgewählten Datensatztyp wird auch für den ursprünglichen Datensatztyp erstellt, von dem aus Sie die Automatisierung konfigurieren.
 1. (Optional und bedingt) Wenn Sie ein Workfront-Objekt erstellen möchten und kein Verbindungsfeld für den ausgewählten Workfront-Objekttyp haben, klicken Sie auf das Fragezeichen-Symbol rechts neben dem Feld **Verbunden, in dem der &lt; Workfront-Objekttyp Name > erstellt wird** und klicken Sie auf das Symbol **Hinzufügen** ![Verbindungsfeld erstellen](assets/create-a-connection-field-icon.png), um ein Verbindungsfeld hinzuzufügen.
 
-   ![](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   ![Fragezeichen-Symbol zum Hinzufügen von verbundenen Feldern in Automatisierungen mit Workfront](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
 
    Das neue Feld wird automatisch erstellt und mit **Verbunden &lt; Workfront-Objektname >** benannt. Wenn beispielsweise ein mit einem Portfolio verbundenes Feld für den Datensatz erstellt wird, wird es „Verbundenes Portfolio“ genannt.
 

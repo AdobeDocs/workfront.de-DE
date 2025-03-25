@@ -5,9 +5,9 @@ author: Alina
 draft: Probably
 feature: Work Management
 exl-id: be262d72-f4e4-4426-a6bc-23499667fc97
-source-git-commit: 869a1f9e4fd7e3b65591050530b96d6dae9e230c
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '617'
+source-wordcount: '625'
 ht-degree: 1%
 
 ---
@@ -53,13 +53,13 @@ Sie können den Status eines Projekts nicht in „Abgeschlossen“ ändern, wenn
 
 Wenn der Fertigstellungsmodus des Projekts auf „Automatisch“ festgelegt ist und alle Aufgaben und Probleme abgeschlossen sind, wird der Status des Projekts automatisch auf „Abgeschlossen“ gesetzt, sodass Sie ihn nicht in einen anderen Status ändern können. Der Fertigstellungsmodus des Projekts muss auf Manuell festgelegt werden, damit ein vollständiges Projekt in „Aktuell“ umgewandelt werden kann. Weitere Informationen finden Sie unter [Der Projektstatus ändert sich nicht von Abgeschlossen in Aktuell](../../../manage-work/projects/tips-tricks-and-troubleshooting/project-status-does-not-change-from-complete-to-current.md).
 
-## Warum kann ich ein Projekt nicht zu einem Portfolio hinzufügen, obwohl ich dazu über die richtigen Berechtigungen verfüge?
+## Warum kann ich ein Projekt nicht zu einer Portfolio hinzufügen, obwohl ich dazu über die richtigen Berechtigungen verfüge?
 
-Obwohl ich über die richtigen Berechtigungen verfüge, fehlt die Schaltfläche Projekte hinzufügen auf der Registerkarte Projekte des Portfolios.
+Obwohl ich über die richtigen Berechtigungen verfüge, fehlt in der Portfolio auf der Registerkarte Projekte die Schaltfläche Projekte hinzufügen .
 
 ### Antwort
 
-Dies liegt daran, dass der Portfolio-Status „Inaktiv“ ist. So ändern Sie den Status des Portfolios:
+Dies liegt daran, dass der Portfolio-Status „Inaktiv“ ist. So ändern Sie den Status der Portfolio:
 
 1. Klicken Sie auf **Portfolio-Details > Übersicht**.
 1. Ändern Sie **Status** in **Aktiv.**
@@ -99,6 +99,6 @@ Im Folgenden finden Sie Budgetstatus:
 
 Der Adobe Workfront-Administrator hat Sie darauf beschränkt, nur Unternehmen, Gruppen und Teams anzuzeigen, denen Sie in Ihrer Zugriffsebene des s angehören. Das gesuchte Team gehört nicht zu den Teams, denen Sie angehören.
 
-![](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
+![Nur Teams, Gruppen und Unternehmen anzeigen, denen sie angehören](assets/view-only-team-groups-companies-they-belong-to-350x141.png)
 
 Informationen dazu, wie Sie es einem Benutzer ermöglichen, alle Teams im System anzuzeigen, finden Sie unter [Erstellen oder Ändern benutzerdefinierter Zugriffsebenen](../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md).

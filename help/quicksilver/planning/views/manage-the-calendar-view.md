@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 45b5be81-703c-45d5-a08c-60cb8ec5b103
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '778'
+source-wordcount: '781'
 ht-degree: 1%
 
 ---
@@ -173,7 +173,7 @@ Verwalten einer Kalenderansicht:
 1. Wechseln Sie zur Seite „Datensatztyp“, für die Sie den Kalender anzeigen möchten.
 1. Erstellen Sie eine Kalenderansicht, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 
-   ![](assets/calendar-view-example.png)
+   ![Beispiel für Kalenderansicht](assets/calendar-view-example.png)
 
    Die Datensätze, die mit dem ausgewählten Datensatztyp verknüpft sind, werden als Balken in einem Kalender angezeigt. Die Farbe der Balken entspricht der Farbe des Datensatzsymbols.
 

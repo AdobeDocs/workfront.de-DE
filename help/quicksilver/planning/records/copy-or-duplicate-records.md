@@ -6,10 +6,10 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 2fed8c96-0c9c-4662-a9c4-66dae507ff2a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '583'
-ht-degree: 2%
+source-wordcount: '605'
+ht-degree: 1%
 
 ---
 
@@ -175,13 +175,13 @@ Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie dann auf das **Mehr**-Menü inline mit dem Datensatznamen. Klicken Sie dann auf das **Duplizieren**-Symbol ![](assets/duplicate-icon-gray.png) .
+   * Bewegen Sie den Mauszeiger über den Namen eines Datensatzes und klicken Sie dann auf das Menü **Mehr** inline mit dem Datensatznamen. Klicken Sie dann auf das **Duplizieren**-Symbol ![Duplizieren-Symbol grau](assets/duplicate-icon-gray.png) .
 
-     ![](assets/more-menu-from-record-in-table-view.png)
+     ![Menü Mehr aus Datensatz in der Tabellenansicht](assets/more-menu-from-record-in-table-view.png)
 
-   * Wählen Sie einen Datensatz aus und klicken Sie dann auf **Symbol** Duplizieren![](assets/duplicate-icon-white-and-blue.png) unten auf der Seite in der Symbolleiste.
+   * Wählen Sie einen Datensatz aus und klicken Sie dann auf **Symbol &quot;** Duplizieren![ Symbol „Duplizieren](assets/duplicate-icon-white-and-blue.png) in der Symbolleiste am unteren Seitenrand.
 
-     ![](assets/duplicate-icon-in-toolbar-in-table-view.png)
+     ![Symbol „Duplizieren“ in der Symbolleiste in der Tabellenansicht](assets/duplicate-icon-in-toolbar-in-table-view.png)
 
    Unterhalb des ursprünglichen Datensatzes wird ein identischer Datensatz mit identischem Namen erstellt. Alle Felder des neuen Datensatzes werden mit denselben Informationen wie im ursprünglichen Datensatz ausgefüllt.
 

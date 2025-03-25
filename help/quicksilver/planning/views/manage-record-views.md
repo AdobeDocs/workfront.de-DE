@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 77342724-0182-4134-903b-4428d54cdceb
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '1422'
+source-wordcount: '1459'
 ht-degree: 1%
 
 ---
@@ -252,7 +252,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    Eine neue Registerkarte mit der ausgewählten Ansicht wird erstellt.
 
-   Je nach Bildschirmbreite werden möglicherweise zusätzliche Ansichten im ![](assets/more-menu.png) **Mehr** angezeigt.
+   Je nach Bildschirmbreite werden möglicherweise zusätzliche Ansichten im Menü **Mehr** (![) ](assets/more-menu.png).
 
 
 >[!TIP]
@@ -264,7 +264,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 >Andernfalls sind die Optionen Timeline und Kalender abgeblendet.
 >
 
-![](assets/view-types-drop-down-from-record-type-list.png)
+![Anzeigen der Dropdown-Liste „Typen“ des Datensatztyps](assets/view-types-drop-down-from-record-type-list.png)
 
 1. (Bedingt) Klicken Sie **Weiter**, wenn Sie eine Timeline- oder Kalenderansicht erstellen.
 
@@ -285,10 +285,10 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 1. Klicken Sie auf **Erstellen**.
 
    Die Ansicht wird als neue Registerkarte angezeigt. Ansichten werden in der chronologischen Reihenfolge ab dem Zeitpunkt angezeigt, zu dem sie erstellt oder für Sie freigegeben wurden.
-1. (Optional) Klicken Sie auf den **Mehr**-![](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
+1. (Optional) Klicken Sie auf das **Mehr**-Menü ![Mehr Caret-Down-Symbol ](assets/more-caret-down-icon-views.png) neben der letzten Ansicht, um alle Ansichten für den ausgewählten Datensatztyp anzuzeigen.
 
    Zusätzliche Ansichten werden unter dem Menü **Mehr** nach der letzten Registerkarte Ansicht angezeigt. Die Zahl neben dem Menü **Mehr** zeigt die Anzahl der zusätzlichen Ansichten an.
-1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü „Ansicht“ und dann auf das Menü **Mehr** &quot;![](assets/more-menu.png)&quot; > **Umbenennen**, um den Ansichtsnamen zu aktualisieren
+1. (Optional) Um eine Ansicht nach ihrer Erstellung umzubenennen, klicken Sie auf das Dropdown-Menü „Ansicht“ und dann auf das Menü **Mehr** ![Mehr Menü](assets/more-menu.png) > **Umbenennen**, um den Ansichtsnamen zu aktualisieren
 
    Oder
 
@@ -315,7 +315,7 @@ Die folgende Tabelle zeigt die Ähnlichkeiten und Unterschiede zwischen der Tabe
 
    Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Bewegen Sie den Mauszeiger über einen der Namen der Ansicht auf der Registerkarte Ansicht und klicken Sie dann auf **Mehr** ![](assets/more-menu.png) links neben dem Namen der Ansicht und klicken Sie dann auf **Löschen**.
+1. Bewegen Sie den Mauszeiger über einen der Namen der Ansicht auf der Registerkarte Ansicht und klicken Sie dann auf **Mehr** ![Mehr ](assets/more-menu.png) links neben dem Ansichtsnamen und klicken Sie dann auf **Löschen**.
 Möglicherweise müssen Sie zunächst links neben **letzten Registerkarte auf** Mehr“ klicken, um die Ansicht zu finden, die Sie löschen möchten.
 
 1. Klicken Sie **Löschen** zur Bestätigung. <!--ensure there is not another saving step here?!-->
@@ -345,9 +345,9 @@ Die Freigabeberechtigungen der ursprünglichen Ansicht werden nicht in die dupli
    Die Seite mit dem Datensatztyp wird geöffnet.
 Standardmäßig werden alle Datensätze des ausgewählten Typs in der Tabellenansicht angezeigt.
 
-1. Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie duplizieren möchten, und klicken Sie auf das **Mehr**-Menü ![](assets/more-menu.png) rechts neben dem Ansichtsnamen und dann auf **Duplizieren**.
+1. Bewegen Sie den Mauszeiger über die Registerkarte der Ansicht, die Sie duplizieren möchten, und klicken Sie auf das Menü **Mehr** ![Mehr](assets/more-menu.png) rechts neben dem Ansichtsnamen und klicken Sie dann auf **Duplizieren**.
 
-   ![](assets/view-more-menu-with-duplicate-option.png)
+   ![Menü „Mehr anzeigen“ mit Option „Duplizieren“](assets/view-more-menu-with-duplicate-option.png)
 
 
    Die Ansicht wird dupliziert und der Name der neuen Ansicht folgt dem folgenden Muster: `Original view's name (Copy)`. Die neue Ansichtsregisterkarte wird am Ende aller Ansichtsregisterkarten angezeigt.
@@ -362,13 +362,13 @@ Wenn Sie die Tabellenansicht anzeigen, können Sie auch anzeigen, welches Feld e
 1. (Bedingt) Wenn andere Benutzer die Datensätze des ausgewählten Typs gleichzeitig bearbeiten, werden ihre Avatare in der rechten oberen Ecke der Ansicht angezeigt.
 1. Klicken Sie auf das Dropdown-Menü neben den Avataren und wählen Sie dann den Umschalter **Mitarbeiter anzeigen** aus. Der Umschalter ist standardmäßig ausgewählt.
 
-   ![](assets/show-collaborators-toggle-selected.png)
+   ![Umschalter „Mitarbeiter anzeigen“ ausgewählt](assets/show-collaborators-toggle-selected.png)
 
 1. (Bedingt) Öffnet eine Tabellenansicht, und das Feld, das eine andere Person aktiv bearbeitet, wird in der Farbe hervorgehoben, die dem Umriss des Avatars in der Tabellenansicht entspricht.
 
    Wenn die Hervorhebungsfarbe des Avatars grau ist, hat der Benutzer die aktive Bearbeitung des Datensatzes vor mehr als 30 Sekunden gestoppt.
 
-   ![](assets/real-time-indicator-table-field-and-avatar-connection.png)
+   ![Echtzeit-Kennzeichnungstabellenfeld und Avatar-Verbindung](assets/real-time-indicator-table-field-and-avatar-connection.png)
 
    >[!TIP]
    >

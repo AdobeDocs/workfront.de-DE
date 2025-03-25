@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
 workflow-type: tm+mt
-source-wordcount: '2149'
+source-wordcount: '2246'
 ht-degree: 0%
 
 ---
@@ -208,7 +208,7 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
    Die mit dem ausgewählten Datensatztyp verknüpften Datensätze werden in der Tabellenansicht angezeigt.
 1. Klicken Sie in die Zeile eines Datensatzes, um Informationen über den Datensatz inline zu bearbeiten.
 
-   ![](assets/edit-record-paragraph-field-with-formatting-table-view.png)
+   ![Datensatzabsatzfeld mit Formatierungstabellenansicht bearbeiten](assets/edit-record-paragraph-field-with-formatting-table-view.png)
 
    >[!TIP]
    >
@@ -226,7 +226,7 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
    * Aufzählungsliste hinzufügen
    * Nummerierte Liste hinzufügen
 
-   ![](assets/rich-text-toolbar-on-paragraph-field.png)
+   ![Rich-Text-Symbolleiste im Absatzfeld](assets/rich-text-toolbar-on-paragraph-field.png)
 
 1. (Optional) Doppelklicken Sie auf ein Feld Verbundener Datensatz , um einem anderen Datensatz verbundene Datensätze oder Objekte hinzuzufügen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md).
 1. Drücken Sie **Eingabetaste** auf der Tastatur oder klicken Sie außerhalb einer Zeile, um Ihre Änderungen zu speichern. Die Änderungen werden automatisch gespeichert. Ein **Gespeichert**-Indikator wird kurz in der oberen rechten Ecke der Tabellenansicht angezeigt, um anzuzeigen, dass die Änderungen gespeichert wurden.
@@ -240,7 +240,7 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
    * Kopieren Sie die Informationen aus einer Zelle, wählen Sie dann mehrere Zellen aus und fügen Sie dieselben Informationen in mehrere Zellen ein. Sie können mehrere Zellen auswählen und dieselben Informationen in mehrere Zellen aus benachbarten Zeilen und Spalten einfügen.
    * Wählen Sie die untere rechte Ecke einer vorhandenen Zelle aus, die die Informationen enthält, die Sie kopieren möchten, und ziehen Sie sie dann per Drag-and-Drop über die angrenzenden Zellen, in die Sie dieselben Informationen einfügen möchten. Alle Zellen müssen dieselbe Art von Informationen enthalten.
 
-     ![](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
+     ![Ziehbare untere rechte Ecke für Kopieren und Einfügen in die Tabellenansicht](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
    <div class="preview">
 
@@ -293,11 +293,11 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
    Oder
 
-   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen**, das in der ersten Spalte ![](assets/open-details-icon-in-table-name-field.png) ist. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
+   Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** ![Detailsymbol öffnen im Feld „Tabellenname](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
    <div class="preview">
 
-   ![](assets/details-box.png)
+   ![Detailfeld](assets/details-box.png)
 
    </div>
 
@@ -316,11 +316,11 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
 1. (Optional) Klicken Sie auf **Cover hinzufügen**, um dem Datensatz ein Cover-Bild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über das Miniaturansichtssymbol und klicken Sie dann auf **Mehr** ![](assets/more-menu.png) > **Miniaturansicht bearbeiten**, um ein Miniaturbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
+1. (Optional) Bewegen Sie den Mauszeiger über das Miniaturansichtssymbol und klicken Sie dann auf **Mehr** ![Mehr Menü](assets/more-menu.png) > **Miniaturansicht bearbeiten**, um ein Miniaturbild hinzuzufügen. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront speichert Ihre Änderungen automatisch.
 
-1. <span class="preview"> (Optional) Klicken Sie auf die ![](assets/real-time-indicator-icon.png) **Echtzeitanzeige** in der oberen rechten Ecke des Vorschaufelds des Datensatzes und aktivieren Sie dann die Einstellung **Mitarbeiter anzeigen**, um die Felder hervorzuheben, die von anderen Personen in Echtzeit bearbeitet werden.
+1. <span class="preview"> (Optional) Klicken Sie auf **Echtzeitindikator** ![Echtzeitindikatorsymbol](assets/real-time-indicator-icon.png) in der oberen rechten Ecke des Vorschaufelds des Datensatzes und aktivieren Sie dann die Einstellung **Mitarbeiter anzeigen**, um die Felder, die von anderen in Echtzeit bearbeitet werden, zu markieren.
 
    In diesem Bereich werden die Namen und Avatare aller Benutzer angezeigt, die gleichzeitig auf den Datensatz zugreifen.
 
@@ -328,13 +328,13 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Erweitertes Feld für die Datensatzvorschau der Echtzeit-Anzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Optional) Klicken Sie auf die ![](assets/export-icon-in-record-details-page.png) **Exportieren**, um die Details des Datensatzes zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
-1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![](assets/open-details-in-a-new-tab-icon.png) das oben rechts in der Vorschau des Datensatzes <!--check the icon; they are changing it--> wird, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[ wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes ](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
+1. (Optional) Klicken Sie auf **In neuer Registerkarte öffnen** Symbol ![Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen. Fahren Sie mit der Bearbeitung des Datensatzes fort[ wie im Abschnitt Bearbeiten eines Datensatzes auf der Seite des Datensatzes ](#edit-a-record-from-the-records-page) diesem Artikel beschrieben.
 
 ### Bearbeiten eines Datensatzes auf der Datensatzseite
 
@@ -350,15 +350,15 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
 1. Führen Sie einen der folgenden Schritte aus:
 
-   * Greifen Sie in jeder Ansicht auf die Vorschau des Datensatzes zu, wie im Abschnitt [Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel beschrieben, und klicken Sie dann auf das Symbol **In neuer Registerkarte öffnen** ![](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
+   * Greifen Sie in jeder Ansicht auf die Vorschau des Datensatzes zu, wie im Abschnitt [Bearbeiten eines Datensatzes aus der Vorschau des Datensatzes in einer Ansicht](#edit-a-record-from-the-records-preview-in-a-view) in diesem Artikel beschrieben, und klicken Sie dann auf das Symbol **In neuer Registerkarte öffnen** ![Details in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
-   * Bewegen Sie in **Ansicht** Tabelle“ den Mauszeiger über den Namen eines Datensatzes, klicken Sie dann auf das ![](assets/more-menu.png) **Mehr** und klicken Sie dann auf **Anzeigen**
+   * Bewegen Sie in **Tabellenansicht** den Mauszeiger über den Namen eines Datensatzes und klicken Sie dann auf das **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf **Ansicht**
 
-     ![](assets/contextual-menu-for-record-row.png)
+     ![Kontextmenü für Datensatzzeile](assets/contextual-menu-for-record-row.png)
 
      Die Datensatzseite wird geöffnet.
 
-     ![](assets/details-page.png)
+     ![Detailseite](assets/details-page.png)
 
 1. (Optional) Klicken Sie auf das **Mehr**-Menü rechts neben dem Datensatztitel und klicken Sie dann auf **Umbenennen**. Dadurch wird das Feld aktualisiert, das als Datensatztitel angezeigt wird.
 
@@ -378,17 +378,17 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
    Oder
 
-   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr**-Menü ![](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
+   Bewegen Sie den Mauszeiger über das vorhandene Cover-Bild und klicken Sie dann auf das **Mehr** Menü ![Mehr ](assets/more-menu.png) > **Hochladen**, um ein neues Cover-Bild für den Datensatz hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Hinzufügen eines Cover-Bildes zu einem Datensatz](/help/quicksilver/planning/records/add-a-cover-image-to-a-record.md).
 
-1. (Optional) Bewegen Sie den Mauszeiger über eine vorhandene Miniaturansicht oder das **Miniaturansichtssymbol** ![](assets/record-thumbnail-icon-on-details-page.png) und klicken Sie dann auf das **Mehr**-Menü ![](assets/more-menu.png) > **Miniaturansicht bearbeiten**, um eine Miniaturansicht für den Datensatz hinzuzufügen.
+1. (Optional) Bewegen Sie den Mauszeiger über eine vorhandene Miniaturansicht oder das Symbol **Miniaturansicht** ![Miniaturansicht aufzeichnen auf der Detailseite](assets/record-thumbnail-icon-on-details-page.png) und klicken Sie dann auf das Menü **Mehr** Menü ![Mehr](assets/more-menu.png) > **Miniaturansicht bearbeiten**, um eine Miniaturansicht für den Datensatz hinzuzufügen.
 
    Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
    Workfront speichert Ihre Änderungen automatisch.
 
-1. <span class="preview"> (Optional) Klicken Sie auf die ![](assets/real-time-indicator-icon.png) **Echtzeitanzeige** in der oberen rechten Ecke der Datensatzseite und aktivieren Sie dann die Einstellung **Mitarbeiter anzeigen**, um die Felder hervorzuheben, die von anderen Personen in Echtzeit bearbeitet werden.
+1. <span class="preview"> (Optional) Klicken Sie auf **Echtzeitanzeige** ![Echtzeitanzeige-Symbol](assets/real-time-indicator-icon.png) in der oberen rechten Ecke der Datensatzseite und aktivieren Sie dann die Einstellung **Mitarbeiter anzeigen**, um die Felder hervorzuheben, die von anderen Personen in Echtzeit bearbeitet werden.
 
    In diesem Bereich werden die Namen und Avatare aller Benutzer angezeigt, die gleichzeitig auf den Datensatz zugreifen.
 
@@ -396,11 +396,11 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
    <div class="preview">
 
-   ![](assets/real-time-indicator-expanded-record-preview-box.png)
+   ![Das erweiterte Feld für die Datensatzvorschau der Echtzeitanzeige](assets/real-time-indicator-expanded-record-preview-box.png)
 
    </div>
 
-1. (Optional) Klicken Sie auf die ![](assets/export-icon-in-record-details-page.png) **Exportieren**, um die Details des Datensatzes zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
+1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
 
 ## Bearbeiten eines Datensatzes aus einem Workfront-Objekt im Planungsabschnitt
