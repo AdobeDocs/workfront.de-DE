@@ -6,9 +6,9 @@ description: Wenn Ihnen ein Korrekturabzug zur Genehmigung zugewiesen wird, wird
 author: Nolan
 feature: Get Started with Workfront
 exl-id: 4ab8dfd0-0a1f-425d-9e05-8e8134ce930a
-source-git-commit: 6e665acd48ce5ee4f870282cbdb59e89c5d21096
+source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
 workflow-type: tm+mt
-source-wordcount: '760'
+source-wordcount: '770'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Ihr Zugriff auf die Überprüfung und Genehmigung von Korrekturabzügen entspric
 
    >[!NOTE]
    >
-   >Videoproofs können nicht in der Mobile App geöffnet werden.
+   >Testsendungen können nur in der iOS Mobile App geöffnet werden. Diese Funktion ist für Android noch nicht verfügbar.
 
 1. Überprüfen Sie das Dokument Testversand .
 1. (Optional) Wählen Sie ![[!UICONTROL Einzelseitensymbol]](assets/mobile-proofpagingicon1-25x36.png) oben rechts im Dokument aus, um von der Einzelseitenansicht zur kontinuierlichen Ansicht zu wechseln. Wählen Sie ![[!UICONTROL Symbol „Fortlaufende Seite]](assets/mobile-proofpagingicon2-25x25.png) aus, um zur Einzelseitenansicht zurückzukehren.
