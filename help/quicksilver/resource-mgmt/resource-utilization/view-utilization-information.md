@@ -9,16 +9,16 @@ exl-id: 785ee3e9-1b2d-4180-bc78-c41e71c5244d
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '7283'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Informationen zur Ressourcenauslastung anzeigen {#view-resource-utilization-information}
+# Anzeigen von Informationen zur Ressourcennutzung {#view-resource-utilization-information}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-utilization"
->title="Auslastungsbericht"
->abstract="Mit dem Auslastungsbericht können Sie den Fortschritt, die Kosten oder den Umsatz eines Projekts, Programms oder Portfolios in einem einzigen Bericht anzeigen. Sie können auch den Umsatz mit den Kosten vergleichen."
+>title="Nutzungsbericht"
+>abstract="Mit dem Nutzungsbericht können Sie den Fortschritt, die Kosten oder den Umsatz eines Projekts, Programms oder Portfolios in einem einzigen Bericht anzeigen. Sie können auch den Umsatz mit den Kosten vergleichen."
 
 <!-- Audited: 01/2024 -->
 
@@ -113,7 +113,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Überblick über den Auslastungsbericht {#overview-of-the-utilization-report}
 
-Mit dem Auslastungsbericht können Sie den Fortschritt, die Kosten oder den Umsatz eines Projekts, Programms oder Portfolios in einem einzigen Bericht anzeigen. Sie können auch den Umsatz mit den Kosten vergleichen.
+Mit dem Nutzungsbericht können Sie den Fortschritt, die Kosten oder den Umsatz eines Projekts, Programms oder Portfolios in einem einzigen Bericht anzeigen. Sie können auch den Umsatz mit den Kosten vergleichen.
 
 Sie können den Auslastungsbericht im Bereich Ressourcen anzeigen, um die Auslastung für mehrere Projekte anzuzeigen, oder Sie können ihn auf Projektebene anzeigen, um die Auslastung für die einzelnen Ressourcen (Aufgabengebiete und Benutzer) anzuzeigen, die mit diesem Projekt verknüpft sind.
 

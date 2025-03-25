@@ -10,16 +10,16 @@ exl-id: 06cd2226-f94d-4b6a-8692-6d35210782f2
 source-git-commit: 696d656816a4c1c2edef4347567b2fc553f489f7
 workflow-type: tm+mt
 source-wordcount: '2113'
-ht-degree: 0%
+ht-degree: 1%
 
 ---
 
-# Ressourcenplaner - Übersicht {#resource-planner-overview}
+# Übersicht über den Ressourcenplaner {#resource-planner-overview}
 
 >[!CONTEXTUALHELP]
 >id="wf-resourcing-planner"
 >title="Ressourcenplaner"
->abstract="Mit dem Ressourcenplaner können Sie die Ressourcenzuweisung für die Projekte, denen sie zugewiesen sind, schätzen und budgetieren sowie deren Verfügbarkeit für zukünftige Arbeiten prognostizieren."
+>abstract="Mit dem Ressourcenplaner können Sie die Zurodnung der Ressourcen zu den Projekten, denen sie zugewiesen sind, schätzen und budgetieren sowie deren Verfügbarkeit für zukünftige Arbeiten prognostizieren."
 
 <!-- Audited: 12/2023 -->
 
@@ -31,7 +31,7 @@ Mit dem Ressourcenplaner können Sie die Ressourcenzuweisung für die Projekte, 
 
 Einen allgemeinen Überblick über die Ressourcenplanung in Adobe Workfront finden Sie im Artikel [Erste Schritte mit der Ressourcenplanung](../../resource-mgmt/resource-planning/get-started-resource-planning.md).
 
-## Ressourcenplaner - Übersicht
+## Übersicht über den Ressourcenplaner
 
 Mit dem Ressourcenplaner können Sie die Verfügbarkeit von Benutzern und Aufgabengebieten sowie den geplanten Zeitaufwand für den Abschluss von Projektarbeiten einfach nachvollziehen. Sie können dann entscheiden, wie Sie Ihre Benutzer und deren Aufgabengebiete den Projekten zuweisen, denen sie zugewiesen sind, basierend auf ihrer verfügbaren Zeit.
 
