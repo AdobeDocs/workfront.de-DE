@@ -6,9 +6,9 @@ description: Sie können Ihr Kennwort  [!DNL Adobe Workfront] . Als wichtige Sic
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 571cd77d-4f63-40c2-8a21-9646e924e75e
-source-git-commit: 234fc6b7b5acb0914744831066cb88a965e54048
+source-git-commit: 00930d520a6421a33ebe7c4842b59b9df514080b
 workflow-type: tm+mt
-source-wordcount: '255'
+source-wordcount: '261'
 ht-degree: 1%
 
 ---
@@ -77,10 +77,10 @@ Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentati
 
 1. Geben Sie Ihr altes Kennwort und dann zweimal das gewünschte neue Kennwort ein.
 
-   Ihr Kennwort muss mindestens 8 Zeichen lang sein und zwei <!--of each-->der folgenden Zeichentypen enthalten:
+   Ihr Kennwort muss mindestens 8 Zeichen lang sein und zwei der folgenden Zeichentypen enthalten:
 
-   <!--* Uppercase letters
-   * Lowercase letters-->
+   * Großbuchstaben
+   * Kleinbuchstaben
    * Briefe
    * Zahlen
    * Sonderzeichen (z. B. ! @ # $ %)
