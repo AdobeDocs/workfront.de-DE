@@ -4,13 +4,13 @@ user-type: administrator
 product-area: system-administration;templates;user-management
 navigation-topic: layout-templates
 description: Als Adobe Workfront-Administrator können Sie eine von Ihnen erstellte Layout-Vorlage allen Benutzenden, Aufgabengebieten, Teams oder Gruppen zuweisen, die sie verwenden müssen.
-author: Alina
+author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: a2915f3a-071f-4e9f-88c9-338bf765f418
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '919'
+source-wordcount: '879'
 ht-degree: 0%
 
 ---
@@ -44,7 +44,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <td>Beliebig</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td><p>Neu: Standard</p>
   <p> Aktuell: Plan</p>
    </td> 
@@ -57,7 +57,7 @@ Um sie für eine Gruppe auszuführen, müssen Sie ein Manager dieser Gruppe sein
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
@@ -110,8 +110,8 @@ Es ist jedoch immer nur eine Layoutvorlage für den Benutzer sichtbar. Die sicht
 
 ## Große Anzahl von Benutzern, die einer Layout-Vorlage zugewiesen sind
 
-Wenn Sie eine Layout-Vorlage bearbeiten, die mehr als 2.000 Benutzern zugewiesen ist, und Änderungen daran vornehmen, werden nur die ersten 2.000 Benutzer in der Layout-Vorlage beibehalten und die von Ihnen vorgenommenen Änderungen sehen. Die Layout-Vorlage wird aus allen anderen Vorlagen entfernt.
-
+<!--If you edit a layout template which is assigned to more than 2000 users and make changes to it, only the first 2000 users will be retained on the layout template and will see the changes you made. The layout template is removed from all others.
+-->
 Wenn Sie einer Layout-Vorlage mehr als 2.000 Benutzer zuweisen müssen, empfehlen wir eine der folgenden Aktionen:
 
 * Organisieren Sie die Benutzer in Gruppen oder Teams und weisen Sie diesen Gruppen oder Teams die Layout-Vorlage zu. Weitere Informationen finden Sie unter [Gruppe erstellen](../../../administration-and-setup/manage-groups/create-and-manage-groups/create-a-group.md) und [Teams erstellen und verwalten](../../../people-teams-and-groups/create-and-manage-teams/create-and-mange-teams.md).

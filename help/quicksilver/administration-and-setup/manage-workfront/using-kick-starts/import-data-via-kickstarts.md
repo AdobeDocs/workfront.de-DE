@@ -9,9 +9,9 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 25813946-e338-4dd9-b02c-d20fa18c539c
-source-git-commit: 85aa6cc865bfc28498cca17e1942c146eeb8e4fc
+source-git-commit: 69cd1eafd7798861a4868fe0d68707ab5ba9106c
 workflow-type: tm+mt
-source-wordcount: '2754'
+source-wordcount: '2776'
 ht-degree: 6%
 
 ---
@@ -361,6 +361,10 @@ Jede Zeile des Blatts entspricht einem eindeutigen Objekt.
    * Wenn Sie mehrere Datenwerte in dem benutzerdefinierten Feld hinzufügen müssen (z. B. Optionsfelder, Kontrollkästchen oder Listen), verwenden Sie das vertikale Balken-Trennzeichen für benutzerdefinierte Daten &quot;|&quot;, das auf der Registerkarte „Voreinstellungen“ aufgeführt ist, um die Werte zu trennen.
 
      **Beispiel:** Geben Sie A|D unter der Spalte DE:Departments ein, um Abteilung A und Abteilung D in Ihrem benutzerdefinierten Formular auszufüllen.
+
+     >[!NOTE]
+     >
+     >Verwenden Sie nur das Trennzeichen &quot;|&quot;, um benutzerdefinierte Feldwerte zu trennen. Sie können sie in keiner der anderen Tabellenspalten verwenden, einschließlich **setCategoryID**.
 
 ### Daten einschließen  {#include-dates}
 
