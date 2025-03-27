@@ -7,9 +7,9 @@ recommendations: noDisplay, noCatalog
 hide: true
 hidefromtoc: true
 exl-id: 59737844-e6ba-4f64-b2cc-a24c91525d37
-source-git-commit: 552e97c427e618f299b55a2eab5868c7b90a4156
+source-git-commit: 4ab8fede74c9e2ec5d374b0766445a2c23430777
 workflow-type: tm+mt
-source-wordcount: '879'
+source-wordcount: '534'
 ht-degree: 2%
 
 ---
@@ -36,18 +36,12 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
 ## Workfront-Verbesserungen
 
 
-* [Verbesserungen für Administratoren](#administrator-enhancements)<!--* [Boards enhancements](#boards-enhancements)-->
-* [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
+* [Administrator-Verbesserungen](#administrator-enhancements)
 
 ### Administrator-Verbesserungen
 
-<table>
-  <colgroup>
-    <col style="width: 55%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-  </colgroup>
+Monatliche Versionen: 14. November, 12. Dezember. 15. Januar | Vierteljährliche Veröffentlichung: Januar
+<table style="table-layout:auto">
   <tbody>
     <tr>
         <td>
@@ -66,7 +60,7 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
         </td>
         <td>21. November 2024</td>
         <td>Dezember 2024</td>
-        <td>25,1</td>
+        <td>Januar 2024 (25.1)</td>
     </tr>     
     <tr>
         <td>
@@ -86,83 +80,13 @@ Diese Seite enthält Informationen zur Funktionalität, die in der Version vom e
             <p>Wenn Sie einem benutzerdefinierten Formular einen nativen Feldverweis hinzufügen und es auf ein Feld mit automatischer Textvervollständigung verweist (z. B. Portfolio, Unternehmen oder Inhaber), ist jetzt eine Filteroption verfügbar. Mit dem Filter können Sie die Objekte einschränken, die Benutzerinnen und Benutzer bei der Verwendung des Felds auswählen können. Dieser benutzerdefinierte Filter funktioniert genauso wie ein Filter für ein benutzerdefiniertes Feld mit automatischer Textvervollständigung, wobei der Textmodus zum Definieren des Filters verwendet wird.</p>
         </td>
         <td>21. November</td>
-        <td>25,12</td>
+        <td>Dezember</td>
         <td>25,1</td>
     </tr>
   </tbody>
 </table>
 
 
-### Verbesserungen beim Dokumentenmanagement
-
-<table>
-  <colgroup>
-    <col style="width: 55%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-    <col style="width: 15%;" />
-  </colgroup>
-  <tbody>
-    <tr>
-        <td>
-            <p><span class="bold">Funktion</span></p>
-        </td>
-        <td>Vorschau</td>
-        <td>Schnelle Veröffentlichung</td>
-        <td>Vierteljährlich</td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Voreinstellung zur Verwendung von Projekt- oder Benutzerzeitplänen für Aufgaben mit einfacher Zuweisung</a></p>
-            <p>Als System- oder Gruppenadministrator haben Sie jetzt eine neue Einstellung, um anzugeben, ob Workfront den Zeitplan des Projekts oder des Benutzers verwenden soll, um den Zeitplan des Projekts zu berechnen, wenn Sie einer Aufgabe einen Benutzer zuweisen und sowohl das Projekt als auch der Benutzer einem Zeitplan zugeordnet sind.</p>
-        </td>
-        <td><p>16. November 2024</p> <p>[!BADGE New]{type=Negative}<p></td>
-        <td><p>24,12</p></td>
-        <td><p>25,1</p></td>
-    </tr>     
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Geschäftsregeln unterstützen jetzt Hyperlinks</a></p>
-            <p>Sie können jetzt Hyperlinks in die benutzerdefinierte Fehlermeldung einer Geschäftsregel einfügen, um Benutzende dabei zu unterstützen, ihre Aktion innerhalb der Beschränkung der Regel zu ändern. Die statische URL könnte eine Verknüpfung zu Dokumentationen oder anderen Seiten aufweisen, die für den Benutzer hilfreich wären.</p>
-        </td>
-        <td><p>14. November</p> </td>
-        <td><p>Dez. 2024</p> <p> [!BADGE Available ]{type=Positive}</p></td>
-        <td><p>25,1</p> </td>
-    </tr>    
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol „Verschieben nach“ zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Zu jedem Feld wurde das Symbol „Verschieben nach“ hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert werden soll.</p>
-        </td>
-        <td><p>5. Dezember</p></td>
-          <td><p>15. Dezember</p><p> [!BADGE Available ]{type=Positive}</p></td>
-        <td><p>15. Dezember</p> <p> [!BADGE Available ]{type=Positive}</p> <p>[!BADGE Out-of-cycle ]{type=Caution}</p></td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol „Verschieben nach“ zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Zu jedem Feld wurde das Symbol „Verschieben nach“ hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert werden soll.</p>
-        </td>
-        <td><p>5. Dezember</p><p>[!BADGE Out-of-cycle ]{type=Caution}</p></td>
-          <td><p>15. Dezember</p><p> [!BADGE Available ]{type=Positive}</p></td>
-        <td><p>15. Dezember</p> <p> [!BADGE Available ]{type=Positive}</p></td>
-    </tr>
-    <tr>
-        <td>
-            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-administrator-enhancements.md" class="MCXref xref" xrefformat="{para}">
-            Symbol „Verschieben nach“ zu benutzerdefinierten Feldern hinzugefügt</a></p>
-            <p>Wenn ein benutzerdefiniertes Formular mehrere Abschnitte mit vielen Feldern enthält, kann es schwierig sein, ein Feld durch Ziehen und Ablegen von einem Abschnitt in einen anderen zu verschieben. Zu jedem Feld wurde das Symbol „Verschieben nach“ hinzugefügt, über das Sie den Bereich auswählen können, in dem das Feld platziert werden soll.</p>
-        </td>
-        <td><p>1. November</p></td>
-          <td><p>24,11</p><p> [!BADGE Available ]{type=Positive}</p></td>
-        <td><p>25,1</p> <p> [!BADGE Available ]{type=Positive}</p></td>
-    </tr>
-  </tbody>
-</table>
 
 <!--
 ### Functionality soon to be removed from Workfront
@@ -196,4 +120,4 @@ Informationen zu den Wartungs-Updates, die im ersten Quartal 2025 durchgeführt 
 
 ### Schulungsaktualisierungen
 
-Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
+Erfahren Sie mehr über die neuesten Aktualisierungen von Lernprogrammen, Lernpfaden, Videos und Handbüchern für jede Adobe Workfront-Produktversion. Weitere Informationen finden Sie im Abschnitt Neue Funktionen auf der Seite [Workfront-Tutorials](https://experienceleague.adobe.com/docs/workfront-learn/tutorials-workfront/home.html?lang=de).
