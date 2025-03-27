@@ -8,9 +8,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 89b2e3547387397279cce751dd7c84d8174532b5
 workflow-type: tm+mt
-source-wordcount: '1811'
+source-wordcount: '2197'
 ht-degree: 2%
 
 ---
@@ -25,7 +25,7 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
 <span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
@@ -36,6 +36,15 @@ Sie können die Automatisierung auf der Seite „Datensatztyp“ in Workfront Pl
 Sie können beispielsweise eine Automatisierung erstellen, die eine Workfront Planning-Kampagne benötigt und in Workfront ein Projekt erstellt, um den Fortschritt dieser Kampagne zu verfolgen. Das Projekt wird mit der Workfront Planning-Kampagne im Feld Verbundenes Projekt der Kampagne verbunden.
 
 Weitere Informationen zu verbundenen Datensätzen finden Sie unter [Übersicht über verbundene Datensätze](/help/quicksilver/planning/records/connected-records-overview.md).
+
+Mit Automatisierungen in Workfront Planning können Sie Folgendes erstellen:
+
+* Ein <span class="preview">oder </span> Projekte
+* Eine Gruppe
+* Ein Programm
+* Ein Portfolio
+* Ein Projekt
+* Ein Datensatz
 
 ## Zugriffsanforderungen
 
@@ -89,18 +98,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   <tr> 
    <td role="rowheader"><p>Konfiguration der Zugriffsebene</p></td> 
    <td> <p>Es gibt keine Zugriffssteuerungsebenen für Adobe Workfront Planning</p> 
-   <p>Bearbeitungszugriff in Workfront für die Objekttypen, die Sie erstellen möchten (Projekte, Portfolios, Programme). </p>  
+   <p>Bearbeiten Sie den Zugriff mit dem Zugriff auf Erstellen von Objekten in Workfront für die Objekttypen, die Sie erstellen möchten (Projekte, Portfolios, Programme). </p>  
 </td> 
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu dem Arbeitsbereich <!--<span class="preview">and record type</span>-->, in dem Sie Objekte erstellen möchten. </p>  
+   <td> <p>Verwalten Sie die Berechtigungen für den Arbeitsbereich, um Automatisierungen zu erstellen. </p>
+   <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu der Workspace-<!--<span class="preview">and to the record type</span>--> bei, in der Sie ein Objekt mithilfe vorhandener Automatisierungen erstellen möchten. </p>  
+   <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Programme oder Projekte) hinzuzufügen.</p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
-   <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält </p> </td> 
   </tr> 
 </tbody> 
@@ -113,7 +123,18 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Überlegungen zum Erstellen von Objekten und Datensätzen mithilfe einer Automatisierung
 
-* Der Name des von einer Automatisierung erstellten Objekts oder Datensatzes entspricht dem Namen des Datensatzes, aus dem Sie ihn erstellen.
+* Der Name des -Objekts oder -Datensatzes, das bzw. der von einer Automatisierung erstellt wurde, ist derselbe wie der Datensatzname, aus dem Sie ihn bzw. ihn erstellen, wenn Sie ein einzelnes -Objekt erstellen.
+
+<div class="preview">
+
+* Wenn Sie mehrere Projekte erstellen, werden diese automatisch nach dem folgenden Muster benannt:
+
+  `[ Name of the record ] Name of the field choice`
+
+  Weitere Informationen finden Sie [ Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
+
+</div>
+
 * Neue Objekte oder Datensätze überschreiben nicht vorhandene im selben Feld. Durch das mehrfache Auslösen derselben Automatisierung für denselben Datensatz werden die neuen Objekte oder Datensätze im selben verbundenen Feld des ursprünglichen Datensatzes zusätzlich zu den zuvor erstellten hinzugefügt.
 
 <!--hide this for now; they are trying to remove this militation: * The automation adds additional objects only in the Many to many or One to many connection type fields. In the all other cases, the automation creates the object, but it does not connect it to the original record from which the automation is triggered.-->
@@ -147,11 +168,13 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
    * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.
 Eine der folgenden Aktionen auswählen:
 
-      * Gruppe erstellen
-      * Programm erstellen
-      * Portfolio erstellen
+      * <span class="preview">Erstellen mehrerer Projekte</span>
+      * <span class="preview">Erstellen Sie ein einzelnes Projekt</span>
       * Projekt erstellen
       * Eintrag erstellen
+      * Programm erstellen
+      * Portfolio erstellen
+      * Gruppe erstellen
 
      >[!TIP]
      >
@@ -159,50 +182,81 @@ Eine der folgenden Aktionen auswählen:
 
 1. (Bedingt) Aktualisieren Sie je nach ausgewählter Aktion die folgenden Felder:
 
-   * **Projekt erstellen**:
-      * **Verbundenes Feld, in dem das Objekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
+   * **Erstellen <span class="preview">eines einzelnen</span> Projekts**: <!--replace to the left: Create a single project-->
+      * **Verbundenes Feld, in dem das Projekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
       * **Projektvorlage**: Wählen Sie eine Projektvorlage aus, die Workfront zum Erstellen des Projekts verwenden wird.
+
+   <div class="preview">
+
+   * Mehrere Projekte erstellen:
+      * **Verbundenes Feld, in dem das Projekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
+      * **Feld, durch dessen Auswahl die Datensätze erstellt werden**: Wählen Sie ein Mehrfachauswahlfeld oder ein Einzelauswahlfeld aus dem ausgewählten Datensatztyp aus. Workfront erstellt ein Projekt für jedes Feld, das derzeit im Datensatz ausgewählt ist, aus dem Sie die Automatisierung Trigger haben.
+
+     >[!TIP]
+     >
+     >Ein Projekt wird nur für die Optionen erstellt, die derzeit im Mehrfachauswahl- oder Einzelauswahlfeld des Datensatzes ausgewählt sind, für den die Automatisierung ausgeführt wird, und nicht für alle möglichen Optionen für dieses Feld.
+     >
+
+      * **Dieselbe Vorlage verwenden**: Wählen Sie diese Option, um für jedes neue Projekt dieselbe Vorlage zu verwenden. Wenn die Option nicht ausgewählt ist, wählen **für jede Feldauswahl eine** Projektvorlage) aus.
+      * **Projektvorlage**: Wenn Sie die Option **Dieselbe Vorlage verwenden** ausgewählt haben, wählen Sie eine Projektvorlage aus, die Workfront zum Erstellen der Projekte verwenden wird.
+
+   </div>
+
    * **Portfolio erstellen**:
-      * **Verbundenes Feld, in dem das Objekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Portfolio angezeigt wird. Dies ist ein Pflichtfeld.
+      * **Verbundenes Feld, in dem das Portfolio erstellt wird**: Dies ist das verbundene Feld, in dem das neue Portfolio angezeigt wird. Dies ist ein Pflichtfeld.
       * **Benutzerdefiniertes Formular, das an das neue Portfolio angehängt werden soll**: Wählen Sie ein benutzerdefiniertes Formular aus, das an das neue Portfolio angehängt werden soll. Sie müssen ein benutzerdefiniertes Portfolio-Formular erstellen, bevor Sie es auswählen können.
    * **Programm erstellen**:
-      * **Verbundenes Feld, in dem das Objekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Programm angezeigt wird. Dies ist ein Pflichtfeld.
+      * **Verbundenes Feld, in dem das Programm erstellt wird**: Dies ist das verbundene Feld, in dem das neue Programm angezeigt wird. Dies ist ein Pflichtfeld.
       * **Programm-**: Wählen Sie ein Portfolio aus, in dem das neue Programm hinzugefügt werden soll. Dies ist ein Pflichtfeld.
       * **Benutzerdefiniertes Formular, das an das neue Programm angehängt werden soll**: Wählen Sie ein benutzerdefiniertes Formular aus, das an das neue Programm angehängt werden soll. Sie müssen ein benutzerdefiniertes Programmformular erstellen, bevor Sie es auswählen können.
    * **Gruppe erstellen**:
-      * **Verbundenes Feld, in dem das Objekt erstellt wird**: Dies ist das verbundene Feld, in dem die neue Gruppe angezeigt wird. Dies ist ein Pflichtfeld.
+      * **Verbundenes Feld, in dem die Gruppe erstellt wird**: Dies ist das verbundene Feld, in dem die neue Gruppe angezeigt wird. Dies ist ein Pflichtfeld.
       * **Benutzerdefiniertes Formular, das an die neue Gruppe angehängt werden soll**: Wählen Sie ein benutzerdefiniertes Formular aus, das an das neue Programm angehängt werden soll. Sie müssen ein benutzerdefiniertes Programmformular erstellen, bevor Sie es auswählen können.
    * **Datensatz erstellen**:
       * **Datensatztyp**: Wählen Sie den Datensatztyp aus, den Sie erstellen möchten.
 
-     Der Unterabschnitt **Einstellungen** wird angezeigt. Aktualisieren Sie die folgenden Felder **Unterabschnitt** Einstellungen“:
+        Der Unterabschnitt **Einstellungen** wird angezeigt. Aktualisieren Sie die folgenden Felder **Unterabschnitt** Einstellungen“:
 
-      * **Feld für den verbundenen Datensatztyp, der für den aktuellen Datensatz angezeigt wird**: Dies ist das verbundene Feld für den Datensatztyp, der für die Aktion ausgewählt wurde, für die der aktuelle Datensatz angezeigt wird.
+         * **Feld für den verbundenen Datensatztyp, der für den aktuellen Datensatz angezeigt wird**: Dies ist das verbundene Feld für den Datensatztyp, der für die Aktion ausgewählt wurde, für die der aktuelle Datensatz angezeigt wird.
 
-     Wenn Sie beispielsweise eine Automatisierung für Kampagnen erstellen, über die Produktdatensätze verbunden werden sollen, ist dies das verbundene Feld auf dem Produktdatensatztyp, in dem die Kampagnen angezeigt werden, nachdem die Produkte mithilfe der Automatisierung erstellt wurden.
+        Wenn Sie beispielsweise eine Automatisierung für Kampagnen erstellen, über die Produktdatensätze verbunden werden sollen, ist dies das verbundene Feld auf dem Produktdatensatztyp, in dem die Kampagnen angezeigt werden, nachdem die Produkte mithilfe der Automatisierung erstellt wurden.
 
-     Dies ist ein Pflichtfeld.
+        Dies ist ein Pflichtfeld.
 
-     <!--submitted a change in functionality and UI text for this - revise??-->
-      * **Felder zuordnen**
+        <!--submitted a change in functionality and UI text for this - revise??-->
+Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
+
          * **Übertragen von**: Wählen Sie Felder aus dem Datensatztyp aus, für den die Automatisierung erstellt wird, um sie den Feldern des verbundenen Datensatztyps zuzuordnen.
          * **Übertragen an**: Wählen Sie Felder aus dem neu erstellten Datensatz aus, die mit Informationen aus dem Datensatz gefüllt werden, für den Sie die Automatisierung ausführen.
 
-     >[!TIP]
-     >
-     >Die Feldtypen vom ursprünglichen Datensatztyp müssen mit den Feldtypen vom neu erstellten Datensatztyp übereinstimmen.
+        >[!TIP]
+        >
+        >* Die Feldtypen vom ursprünglichen Datensatztyp müssen mit den Feldtypen vom neu erstellten Datensatztyp übereinstimmen.
+        >* Wenn Sie keine Felder auswählen, lauten die Namen der neuen Datensätze **Unbenannter Datensatz**.
 
 1. (Optional und bedingt) Wenn Sie ausgewählt haben, einen Datensatz zu erstellen, klicken Sie auf **Felder hinzufügen**, um zusätzliche Suchfelder von einem Datensatz einem anderen zuzuordnen.
-1. (Bedingt) Wenn Sie die Erstellung eines Datensatzes ausgewählt haben und es keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Bereich **Aktionen** ausgewählten Datensatztyp gibt, klicken Sie auf das Fragezeichen-Symbol rechts neben **Feld auf dem verbundenen Datensatztyp, auf dem der aktuelle Datensatz angezeigt werden soll** und dann auf das Symbol **Hinzufügen** ![Verbindungsfeld erstellen](assets/create-a-connection-field-icon.png), um ein Verbindungsfeld hinzuzufügen.
+1. (Bedingt) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Feld „Datensatztyp“ ausgewählten Datensatztyp vorhanden sind **klicken Sie** Verbundenes Feld hinzufügen ****.
 
-   Das neue Feld wird automatisch für den Datensatztyp erstellt, den Sie im Bereich **Aktionen** ausgewählt haben, und heißt **Verbundener Datensatz**.
+   ![Automatisierungseinstellungen zum Erstellen eines Datensatzes](assets/automation-setup-create-record.png)
 
-   Ein verbundenes Feld für den ausgewählten Datensatztyp wird auch für den ursprünglichen Datensatztyp erstellt, von dem aus Sie die Automatisierung konfigurieren.
-1. (Optional und bedingt) Wenn Sie ein Workfront-Objekt erstellen möchten und kein Verbindungsfeld für den ausgewählten Workfront-Objekttyp haben, klicken Sie auf das Fragezeichen-Symbol rechts neben dem Feld **Verbunden, in dem der &lt; Workfront-Objekttyp Name > erstellt wird** und klicken Sie auf das Symbol **Hinzufügen** ![Verbindungsfeld erstellen](assets/create-a-connection-field-icon.png), um ein Verbindungsfeld hinzuzufügen.
+   Die beiden folgenden Felder werden erstellt:
 
-   ![Fragezeichen-Symbol zum Hinzufügen von verbundenen Feldern in Automatisierungen mit Workfront](assets/question-mark-icon-to-add-connected-fields-in-automations-with-workfront.png)
+   * Ein neues Verbindungsfeld mit dem Namen **Verbundener Datensatz** wird für den Datensatztyp erstellt, den Sie im Feld **Datensatztyp** angegeben haben.
+   * Für den Datensatztyp, für den Sie die Automatisierung konfigurieren **wird ein neues Verbindungsfeld mit demselben Namen wie** Feld „Datensatztyp“ erstellt.
 
-   Das neue Feld wird automatisch erstellt und mit **Verbunden &lt; Workfront-Objektname >** benannt. Wenn beispielsweise ein mit einem Portfolio verbundenes Feld für den Datensatz erstellt wird, wird es „Verbundenes Portfolio“ genannt.
+     Wenn Sie beispielsweise eine Automatisierung für Kampagnen konfigurieren, um automatisch einen anderen Datensatztyp namens Marken zu erstellen, und auf **Verbundenes Feld hinzufügen** klicken, werden die folgenden Felder erstellt:
+
+      * Das **Verbundener Datensatz** Verbindungsfeld wird für den Datensatztyp **Marken** erstellt.
+      * Das **Marken** Verbindungsfeld wird für den Datensatztyp **Kampagnen** erstellt.
+
+1. (Optional) Wenn keine Verbindungsfelder zwischen dem ursprünglichen Datensatztyp und dem im Bereich Aktionen ausgewählten Workfront-Objekt vorhanden sind, klicken Sie auf **Verbundenes Feld hinzufügen**.
+
+   ![Automatisierungseinstellungen zum Erstellen mehrerer Projekte](assets/automation-setup-create-multiple-projects.png)
+
+   Folgendes wird erstellt:
+
+   * Ein neues Verbindungsfeld mit dem Namen **Verbunden &lt; Name des Workfront-Objekts >** wird für den Datensatztyp erstellt, für den Sie die Automatisierung erstellen. Beispiel: Wenn Sie **Projekt automatisch erstellen, wird** Feld „Verbundenes Projekt“ für den Datensatztyp erstellt, für den Sie die Automatisierung erstellen.
+   * Im Planungsabschnitt eines Workfront-Projekts wird in Workfront eine neue Karte für den Datensatztyp mit dem Namen des Datensatztyps hinzugefügt, für den Sie die Automatisierung konfigurieren.
 
 1. Klicken **oben** auf der Seite mit den Automatisierungsdetails auf „Speichern“.
 
@@ -223,21 +277,24 @@ Eine der folgenden Aktionen auswählen:
 
    1. Bewegen Sie in der Automatisierungsliste den Mauszeiger über den Namen einer gespeicherten Automatisierung und klicken Sie dann auf das Menü **Mehr** ![Mehr](assets/more-menu.png).
 
-   1. Klicken Sie **Bearbeiten**, um Informationen über Felder in der Automatisierung zu aktualisieren und sie zu konfigurieren.
+   1. Klicken Sie **Bearbeiten**, um die folgenden Informationen zu aktualisieren:
 
-      >[!TIP]
-      >
-      >   Die Aktion, die Sie ursprünglich für eine Automatisierung ausgewählt haben, kann nicht geändert werden.
+      * Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-menu.png) rechts neben dem Automatisierungsnamen und klicken Sie dann auf **Bearbeiten**, um den Namen der Automatisierung zu ändern.
+      * Alle Felder in der Automatisierung, mit Ausnahme des Felds **Aktionen**.
+
+        >[!TIP]
+        >
+        >Die Aktion, die Sie ursprünglich für eine Automatisierung ausgewählt haben, kann nicht geändert werden.
 
 
    1. Klicken Sie auf **Deaktivieren**, um die Automatisierung aus der Tabellenansicht des Datensatzes zu entfernen und zu verhindern, dass Benutzer sie zum Erstellen von Datensätzen oder Objekten verwenden.
 
-   Datensätze, die mit einer deaktivierten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
+      Datensätze, die mit einer deaktivierten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
 
-   Um sie wieder verfügbar zu machen, klicken Sie erneut auf das **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf **Aktivieren**.
+      Um sie wieder verfügbar zu machen, klicken Sie erneut auf das **Mehr** Menü ![Mehr](assets/more-menu.png) und dann auf **Aktivieren**.
    1. Klicken Sie **Löschen**, um die Automatisierung zu löschen. Eine gelöschte Automatisierung kann nicht wiederhergestellt werden.
 
-   Datensätze, die mithilfe einer gelöschten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
+      Datensätze, die mithilfe einer gelöschten Automatisierung erstellt wurden, bleiben mit dem ursprünglich ausgewählten Datensatz verbunden.
 
 ## Verwenden einer Workfront Planning-Automatisierung, um ein Objekt oder einen Datensatz zu erstellen
 
@@ -254,7 +311,17 @@ Eine der folgenden Aktionen auswählen:
 
    * Wenn die Automatisierung ein Objekt oder einen Datensatz erfolgreich erstellt hat, wird unten im Bildschirm eine Bestätigungsmeldung angezeigt.
 
-   * Das neue Objekt wird in dem verbundenen Feld angezeigt, das Sie beim Einrichten der Automatisierungsschaltfläche angegeben haben. Möglicherweise müssen Sie die Seite aktualisieren, bevor Sie das neue Objekt anzeigen.
+   * Das neue Objekt wird in dem verbundenen Feld angezeigt, das bei der Einrichtung der Automatisierungsschaltfläche angegeben ist. Möglicherweise müssen Sie die Seite aktualisieren, bevor Sie das neue Objekt anzeigen. Das neue Objekt hat denselben Namen wie der ursprüngliche Datensatz.
+
+   <div class="preview">
+
+   * Wenn mehrere Projekte auf der Grundlage von Mehrfachauswahl- oder Einzelauswahlfeldern erstellt wurden, werden die Projekte automatisch nach dem folgenden Muster benannt:
+
+     `[ Name of the record ] Name of the field choice`
+
+     Wenn beispielsweise eine Kampagne mit dem Namen `Summer breeze` ein Projekt aus einem Feld der `EMEA` generiert, heißt das Projekt `[ Summer breeze ] EMEA`.
+
+   </div>
 
    * Der Datensatz, dessen Automatisierung Sie auslösen, wird dem verbundenen Feld des neuen Datensatzes hinzugefügt.
 

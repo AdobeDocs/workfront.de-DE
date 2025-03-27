@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: f929806f-9087-4b64-be4b-70bbceaaeab0
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '584'
-ht-degree: 3%
+source-wordcount: '658'
+ht-degree: 2%
 
 ---
 
@@ -21,9 +21,9 @@ ht-degree: 3%
 
 <!--DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 Adobe Workfront verfügt über eine Reihe von Standardrisikotypen, die Sie Projekten in der Planungsphase zuordnen können, um potenzielle Hindernisse zu identifizieren, bevor Sie Arbeiten genehmigen.
 
@@ -93,7 +93,9 @@ Sie können Folgendes tun, um die Anzahl der Risikotypen in Ihrer Workfront-Inst
 1. Wählen Sie den Risikotyp aus, den Sie bearbeiten möchten.
 1. Klicken Sie auf das **[!UICONTROL Bearbeiten]**-Symbol ![Bearbeiten](assets/edit-icon.png).
 
-   Das [!UICONTROL **Risikotyp bearbeiten**] wird geöffnet. <!--add screen shot-->
+   <span class="preview">Das Feld [!UICONTROL **Risikotyp bearbeiten**] wird geöffnet.</span>
+
+   ![Feld „Risikotyp bearbeiten“](assets/edit-risk-type-box.png)
 
    >[!TIP]
    >
@@ -126,11 +128,18 @@ Zusätzlich zu den standardmäßigen Risikotypen können Sie Risikotypen erstell
 {{step-1-to-setup}}
 
 1. Klicken Sie **[!UICONTROL Risikotypen]**.
+
 1. Klicken Sie **[!UICONTROL Neuer Risikotyp]**, um das Feld [!UICONTROL **Neuer Risikotyp**] zu öffnen
 
    Oder
 
-   Klicken Sie [!UICONTROL **Weitere Risikotypen hinzufügen**] in der linken unteren Ecke der Liste der Risikotypen, um Risikotypen inline hinzuzufügen. <!--add screen shot-->
+   Klicken Sie [!UICONTROL **Weitere Risikotypen hinzufügen**] in der linken unteren Ecke der Liste der Risikotypen, um Risikotypen inline hinzuzufügen.
+
+   <span class="preview">Das Feld **Neuer Risikotyp** wird geöffnet. <span>
+
+   ![Feld „Neuer Risikotyp“](assets/new-risk-type-box.png)
+
+
 1. Fügen Sie **[!UICONTROL Risikotyp einen]** Namen“ (erforderlich) und **[!UICONTROL Beschreibung]** (optional) hinzu.
 
    Für die Felder **[!UICONTROL Name“ und]** Beschreibung ]**gibt es eine Zeichenbeschränkung von**[!UICONTROL  0 Zeichen.

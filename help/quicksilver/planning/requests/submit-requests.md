@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 635045c5-17e6-483e-912b-4e9617571137
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: a8d2447eea4ca8d814035d183f40921cad49a0d8
 workflow-type: tm+mt
-source-wordcount: '1828'
+source-wordcount: '1878'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,10 @@ Nachdem ein Workspace-Manager ein Anfrageformular für einen Datensatztyp in Ado
 
 Sie können eine Workfront-Planungsanfrage aus den folgenden Bereichen senden:
 
-* Vom Bereich Anfragen in Workfront oder über einen direkten Link zum Anfrageformular. In diesem Artikel wird beschrieben, wie Sie eine Anfrage zum Hinzufügen neuer Datensätze zu einem Datensatztyp über den Bereich Anfragen in Workfront oder über einen freigegebenen Link senden können.
+* Aus dem Bereich Anfragen von Workfront.
+* Von einem direkten Link zum freigegebenen Anfrageformular.
+
+  In diesem Artikel wird beschrieben, wie Sie eine Anfrage zum Hinzufügen neuer Datensätze zu einem Datensatztyp über den Bereich Anfragen in Workfront oder über einen freigegebenen Link senden können.
 * <span class="preview">Auf der Seite „Datensatztyp“, wenn Sie einen neuen Datensatz hinzufügen oder anfordern. Weitere Informationen finden Sie [Erstellen von Datensätzen](/help/quicksilver/planning/records/create-records.md).</span>
 
 Workfront-Benutzende und externe Benutzende können Anfragen an Planning-Datensatztypen senden und Datensätze erstellen. <!--double check on the external users-->
@@ -97,7 +100,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Für den Zugriff auf den Planungsbereich in Workfront muss Ihnen eine Layoutvorlage zugewiesen werden, die den Planungsbereich im Hauptmenü enthält. </p>
    <p> Der Zugriff auf den Bereich Planung ist jedoch nicht erforderlich, um Anfragen an Workfront Planning zu senden. </p>  
 </td>
@@ -212,6 +215,8 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
      >
      >Die E-Mail- und In-App-Benachrichtigungen sind nur sichtbar, wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wird.
 
+   1. (Optional) Klicken Sie in **Bestätigungsmeldung auf** Anforderung anzeigen“, um die Anforderung zu öffnen, oder klicken Sie auf das Symbol **X**, um die Bestätigung zu schließen.
+
 1. (Optional) Klicken Sie auf die **Planung** im Bereich Anfragen , um Ihre Anfrage anzuzeigen, und klicken Sie dann auf den Namen der Anfrage.
 
    Die Seite mit den Anfragedetails wird geöffnet.
@@ -269,7 +274,13 @@ Durch Aktivierung dieser Einstellung werden die Workfront Planning-Anfrageformul
      >
      >Die E-Mail- und In-App-Benachrichtigungen sind nur sichtbar, wenn die Workfront-Instanz Ihres Unternehmens in das einheitliche Adobe-Erlebnis integriert wird.
 
-1. (Optional) Klicken Sie auf die **Planung** im Bereich Anfragen , um Ihre Anfrage anzuzeigen, und klicken Sie dann auf den Namen der Anfrage.
+1. <span class="preview">(optional) Klicken Sie auf **Ihre Anfrage anzeigen**, um die Anfrage in Workfront zu öffnen.</span>
+
+   Oder
+
+   <span class="preview">Klicken Sie auf [Weitere Anfrage senden](https://pulsar.devtest.workfront-dev.com/intake/6740a1ff44bf3a5600cf4481/request), um das Anfrageformular zu öffnen und eine neue Anfrage hinzuzufügen. </span>
+
+1. (Optional) Klicken Sie auf **Hauptmenü** > **Anfragen** > die **Planung**, um Ihre Anfrage anzuzeigen, und klicken Sie dann auf den Namen der Anfrage.
 
    Die Seite mit den Anfragedetails wird geöffnet.
 
