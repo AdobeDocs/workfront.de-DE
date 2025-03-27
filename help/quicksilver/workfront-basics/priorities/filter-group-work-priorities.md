@@ -6,9 +6,9 @@ author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: 8eb9dcaf-bba3-466d-b06d-5383991bc4ea
-source-git-commit: c362c62855c71022c4bc6b3abc22ba4ea83b1b24
+source-git-commit: fbe5373ebe1c73db656384da8a339d0983215e4e
 workflow-type: tm+mt
-source-wordcount: '652'
+source-wordcount: '651'
 ht-degree: 4%
 
 ---
@@ -93,8 +93,9 @@ Sie können die Ihnen zugewiesenen Aufgaben und Probleme filtern.
       <td>Nicht bereit</td>
       <td>Zeigt Elemente an, die
        <ul>
-      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen verhindern, dass das Element bearbeitet wird</li>
+      <li>Unvollständige Vorgänger oder Aufgabenbeschränkungen verhindern, dass das Element bearbeitet wird</li></ul>
       <p>oder</p>
+      <ul>
       <li>Das geplante Startdatum liegt mehr als zwei Wochen in der Zukunft</li>
       </ul>
        </td>
@@ -143,7 +144,7 @@ Verwenden Sie natürliche Sprache, um Arbeit schnell zu filtern.
 1. Klicken Sie **Smart-Filter**.
 1. Geben Sie ein, wie Sie Ihre Arbeit filtern möchten.
 
-   Sie können z. B. Dinge eingeben
+   Sie können z. B. Folgendes eingeben:
 
    * Anzeige verspäteter Aufgaben
    * Meine obersten Prioritäten anzeigen
