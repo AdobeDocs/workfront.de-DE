@@ -8,7 +8,7 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: caaba90f4cdd835e1a1fddf16bcefa30995cca0d
+source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
 workflow-type: tm+mt
 source-wordcount: '412'
 ht-degree: 4%
@@ -16,6 +16,8 @@ ht-degree: 4%
 ---
 
 # Benutzerdefinierte Ausgabentypen erstellen
+
+{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -57,7 +59,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Standardausgabentypen
 
-Zu den Ausgabentypen, die standardmäßig in [!DNL Workfront] sind, können nicht gelöscht oder bearbeitet werden:
+Zu den standardmäßigen Ausgabentypen in [!DNL Workfront], die nicht gelöscht oder bearbeitet werden können, gehören die folgenden:
 
 * [!UICONTROL Advertising]
 * [!UICONTROL Beratung]
@@ -72,7 +74,7 @@ Zu den Ausgabentypen, die standardmäßig in [!DNL Workfront] sind, können nich
 
 1. Klicken Sie **[!UICONTROL Ausgabentypen]**.
 1. Klicken Sie **[!UICONTROL Neuer Ausgabentyp]**.
-1. Geben **[!UICONTROL im angezeigten]** „Neuer Ausgabentyp“ die folgenden Informationen an:
+1. Geben **[!UICONTROL im Dialogfeld „Neuer]**&quot; die folgenden Informationen an:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -100,13 +102,14 @@ Zu den Ausgabentypen, die standardmäßig in [!DNL Workfront] sind, können nich
        </ul> </td> 
      </tr> 
      <tr> 
-      <td role="rowheader">Satz</td> 
+      <td role="rowheader">Rate</td> 
       <td> <p>Geben Sie den Preis pro Einheit an. Dies ist ein währungsformatiertes Feld, das die Kosten für jede Einheit darstellt, die im Feld <strong>[!UICONTROL Berechnete Einheit]</strong> festgelegt wird. </p> <p>Die Rate kann einen numerischen Wert mit bis zu 4 Zahlen nach dem Dezimaltrennzeichen enthalten. Beispiel: 1.0375</p> </td> 
      </tr> 
     </tbody> 
    </table>
 
-1. Klicken Sie **[!UICONTROL Ausgabentyp erstellen]**.\
+1. Klicken Sie **Ausgabentyp erstellen** <span class="preview">oder **[!UICONTROL Speichern]**.</span>
+
    Der Ausgabentyp steht jetzt Benutzenden zur Verfügung, um ihn mit ihren Ausgaben für Projekte und Aufgaben zu verknüpfen.
 
 ## Benutzerdefinierte Ausgabentypen ändern
@@ -118,7 +121,8 @@ Zu den Ausgabentypen, die standardmäßig in [!DNL Workfront] sind, können nich
 
    Das **[!UICONTROL Ausgabentyp bearbeiten]** wird angezeigt.
 
-1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **[!UICONTROL Änderungen speichern]**.\
+1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **Änderungen speichern** <span class="preview">oder **[!UICONTROL Speichern]**.</span>
+
    Der Ausgabentyp steht jetzt Benutzenden zur Verfügung, um ihn mit ihren Ausgaben für Projekte und Aufgaben zu verknüpfen.
 
 Weitere Informationen zur Verwendung von Ausgaben und dazu, wie sich diese auf die Kosten eines Projekts auswirken können, finden Sie im Artikel [Verwalten von Projektausgaben](../../../manage-work/projects/project-finances/manage-project-expenses.md).
