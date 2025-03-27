@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: ece8b2b248c8dd4e27465fbacb1319a7e0fbac11
+source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
 workflow-type: tm+mt
-source-wordcount: '519'
+source-wordcount: '682'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,62 @@ ht-degree: 0%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms beschrieben, die innerhalb des Zeitrahmens des zweiten Quartals 2025 vorgenommen wurden.
 
 Eine Liste aller Änderungen, die mit der Version aus dem zweiten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version aus dem zweiten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+
+<!--
+
+## Updated experience in the Access Levels area in Setup
+
+>[!NOTE]
+>
+>Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+
+To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+
+A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+
+-->
+
+## Aktualisierungen des Erscheinungsbilds der Dialogfelder „Ausgabentypen“
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
+
+Das Erscheinungsbild der Dialogfelder zum Hinzufügen und Bearbeiten von Ausgabentypen im Bereich „Setup“ wurde aktualisiert, damit es dem Design anderer Bereiche von Workfront entspricht.
+
+Weitere Informationen finden Sie [Erstellen benutzerdefinierter Ausgabentypen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/create-custom-expense-types.md).
+
+## Lookand-Feel-Aktualisierungen für das Feld Risikotyp bearbeiten
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
+
+Das Erscheinungsbild des Felds Risikotyp bearbeiten wurde aktualisiert, wenn Sie einen bestehenden Risikotyp im Bereich Setup von Workfront aktualisieren. Das neue Design passt nun zu anderen Bereichen von Workfront.
+
+Weitere Informationen finden Sie [Risikotypen bearbeiten und erstellen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Aktualisierungen des Erscheinungsbilds für das Feld „Neuer Risikotyp“
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
+
+Das Erscheinungsbild des Felds Neuer Risikotyp wurde aktualisiert, wenn Sie im Bereich Setup von Workfront einen neuen Risikotyp hinzufügen. Das neue Design passt nun zu anderen Bereichen von Workfront.
+
+Weitere Informationen finden Sie [Risikotypen bearbeiten und erstellen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
+
+## Look-and-Feel-Aktualisierungen im Bereich Warteschlangendetails eines Projekts
+
+>[!NOTE]
+>
+>Vorschau-Version: 27. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
+
+Das Erscheinungsbild des Bereichs Warteschlangendetails eines Projekts wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert.
+
+Mit dieser Aktualisierung hat sich das Erscheinungsbild des Bereichs Warteschlangendetails einer Vorlage nicht geändert.
+
+Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
 ## Avatare werden in bestimmten E-Mail-Benachrichtigungen nicht mehr angezeigt
 
@@ -35,27 +91,11 @@ Avatare werden in den folgenden E-Mail-Benachrichtigungen nicht mehr angezeigt:
 
 >[!NOTE]
 >
->Vorschau-Version: 6. März 2025; Produktionsversion für alle Kunden: 10. April 2025
+>Vorschau-Version: 6. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
 
 Das Erscheinungsbild der Liste Meilensteinpfad im Bereich Setup wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert.
 
 Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
-
-## Aktualisierungen des Erscheinungsbilds im Workfront-Kalender
-
->[!NOTE]
->
->Vorschau-Version: 27. Februar 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
-
-Wir haben das Erscheinungsbild des Workfront-Kalenders auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Es gibt kleine Funktionsunterschiede zum aktuellen Workfront-Kalender, darunter:
-
-* Hinzufügen von Ad-hoc-Elementen zum Kalender
-* Erstellen und Umbenennen des Kalenders
-* Die Kalenderaktionen wurden in ein Menü Mehr neben dem Kalendernamen verschoben
-* Ein neues seitliches Bedienfeld zum Anzeigen von Kalenderinformationen
-* Und mehr
-
-Weitere Informationen finden Sie in den Artikeln [Kalender](/help/quicksilver/reports-and-dashboards/reports/calendars/calendars.md).
 
 ## Aktualisierte Ansicht eines Projekt-Meilensteinpfads in einer Projektansicht
 

@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 90cb8df4735ed7868b15064588ff0b043e972a3f
+source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
 workflow-type: tm+mt
-source-wordcount: '1270'
+source-wordcount: '1624'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,9 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
 
 * [Administrator-Verbesserungen](#administrator-enhancements)
 * [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
+* [Verbesserungen für Mobilgeräte](#mobile-enhancements)
 * [Projektverbesserungen](#project-enhancements)
+* [Verbesserungen beim Reporting](#reporting-enhacements)
 * [Weitere Verbesserungen](#other-enhancements)
 
 ### Administrator-Verbesserungen
@@ -73,7 +75,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau der Version: 31. Januar 2025</li>
-                <li><span class="preview">Produktionsversion für alle Kunden: 31. Januar 2025</span></li>
+                <span class="preview"><li>Produktionsversion für alle Kunden: 31. Januar 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -86,6 +88,20 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
 <col style="width: 50%;" />
 <col style="width: 50%;" />
 <tbody>
+<!--    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            New document approval decision buttons available in proofing viewer</a></p>
+            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+        </td>
+        <td>
+            <p><b>Available on these dates:</b></p>
+            <ul>
+                <li>Preview release: March 27, 2025</li>
+                <li>Production release for all customers: With the 25.4 release (April 2025)</li>
+            </ul>
+        </td>
+    </tr>    -->                      
     <tr>
         <td>
             <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">
@@ -97,7 +113,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau der Version: 20. März 2025</li>
-                <li><span class="preview">Produktionsversion für alle Kunden: 20. März 2025</span></li>
+                <span class="preview"><li>Produktionsversion für alle Kunden: 20. März 2025</li></span>
             </ul>
         </td>
     </tr>                          
@@ -111,7 +127,39 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau der Version: 6. Februar 2025</li>
-                <li><span class="preview">Produktionsversion für alle Kunden: 13. März 2025</span></li>
+                <span class="preview"><li>Produktionsversion für alle Kunden: 13. März 2025</li></span>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
+### Verbesserungen für Mobilgeräte
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Verbesserungen bei Testsendungen in der Mobile App (nur iOS)</a>[!BADGE In Production ]{type=Informative}</p>
+            <p>Für die Korrekturabzugsfunktion in der Adobe Workfront-Mobile-App sind verschiedene Verbesserungen verfügbar:
+            <ul>
+            <li>Sie können jetzt über eine für Sie freigegebene Verknüpfung in Ihrer mobilen E-Mail-Anwendung eine Korrekturabzugsdatei öffnen. Zuvor wurden Links aus E-Mails nicht unterstützt, und Sie mussten über die Workfront Mobile App auf Korrekturabzüge zugreifen.</li>
+            <li>Multimedia-Korrekturabzugsdateien werden jetzt in der Mobile App unterstützt.</li>
+            </ul>
+            </p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau-Version: Nicht zutreffend</li>
+                <span class="preview"><li>Produktionsversion für alle Kunden: 12. März 2025</li> 
+            </ul>
+            <p><b>Verfügbar in diesen Umgebungen:</b></p>
+            <ul>
+                <li>iOS Mobile App</li>
             </ul>
         </td>
     </tr>                          
@@ -142,6 +190,48 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
 </tbody>
 </table>
 
+### Verbesserungen beim Reporting
+
+<table>
+<col style="width: 50%;" />
+<col style="width: 50%;" />
+<tbody>
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">
+            Dokumentgenehmigungs- und Entscheidungsdaten jetzt verfügbar in Data Connect</a>[!BADGE In Production ]{type=Informative}</p>
+            <p>Sie können jetzt in Data Connect auf Daten für Dokumentgenehmigungen und Entscheidungen zugreifen. Dieser Datensatz führt Dokumentengenehmigungen aus Workfront-Proofing-Funktionen und Frame.io-Genehmigungen zusammen, die für Workfront-Dokumente erfolgen. Sie können jetzt die Zykluszeit, die Anzahl der Zyklen und die Zeitleistenauswirkungen für verspätete Genehmigungen durch Ihre BI-Visualisierungen veranschaulichen.</p>
+        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau der Version: 25. März 2025</li>
+                <li>Produktionsversion für alle Kunden: 25. März 2025</li>
+            </ul>
+        </td>
+    </tr>                          
+    <tr>
+        <td>
+            <p><a href="/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md" class="MCXref xref" xrefformat="{para}">Aktualisierungen des Workfront-Kalenders</a></p>
+            <p>Wir haben das Erscheinungsbild des Workfront-Kalenders auf ein modernes Design aktualisiert, das mit anderen Bereichen von Workfront konsistent ist. Es gibt kleine Funktionsunterschiede zum aktuellen Workfront-Kalender, darunter:
+            <ul>
+            <li>Hinzufügen von Ad-hoc-Elementen zum Kalender</li>
+            <li>Erstellen und Umbenennen des Kalenders</li>
+            <li>Die Kalenderaktionen wurden in ein Menü Mehr neben dem Kalendernamen verschoben</li>
+            <li>Ein neues seitliches Bedienfeld zum Anzeigen von Kalenderinformationen</li>
+            <li>Und mehr</li>
+            <ul>        </td>
+        <td>
+            <p><b>Verfügbar zu diesen Daten:</b></p>
+            <ul>
+                <li>Vorschau der Version: 27. Februar 2025</li>
+                <li>Produktionsversion für alle Kunden: Mit der Version 25.4 (10. April 2025)</li>
+            </ul>
+        </td>
+    </tr>                          
+</tbody>
+</table>
+
 ### Weitere Verbesserungen
 
 <table>
@@ -158,7 +248,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
         <td>
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
-                <li><span class="preview">Produktionsversion für alle Kunden: 6. März 2025</span></li>
+                <span class="preview"><li>Produktionsversion für alle Kunden: 6. März 2025</li></span>
             </ul>
         </td>
     </tr>
@@ -188,7 +278,7 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
             <p><b>Verfügbar zu diesen Daten:</b></p>
             <ul>
                 <li>Vorschau der Version: Im gesamten Zeitraum der Version für das zweite Quartal 2025</li>
-                <li><span class="preview">Produktionsversion: Lesen Sie die Versionshinweise für bestimmte Daten</span></li>
+                <span class="preview"><li>Produktionsversion: Lesen Sie die Versionshinweise für bestimmte Daten</li></span>
             </ul>
         </td>
     </tr>
@@ -198,6 +288,13 @@ Sofern nicht anders angegeben, sind monatliche und vierteljährliche Versionen a
 ### Funktion wird bald aus Workfront entfernt
 
 Die folgende Funktion wird in Kürze aus Workfront entfernt:
+
+#### Einstellung der API-Version 2-15
+
+Im Zuge der weiteren Verbesserung der Workfront-Plattform ist es wichtig, unsere APIs auf dem neuesten Stand zu halten. Dadurch wird eine optimale Leistung und Sicherheit gewährleistet und es werden neue Funktionen unterstützt. Daher werden die Workfront-API-Versionen 2-15 eingestellt.
+
+* **September 2025**: Die API-Versionen 2-14, die derzeit nicht unterstützt werden, werden nicht mehr unterstützt. Nach diesem Datum ist der Zugriff auf diese Versionen nicht mehr möglich.
+* **Dezember 2025**: API-Version 15 wird nicht mehr unterstützt.
 
 #### Wir entfernen die alte Agile-Ansicht in einem Projekt
 

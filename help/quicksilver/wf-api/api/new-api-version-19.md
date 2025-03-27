@@ -7,7 +7,7 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 84909dea-7ce1-4ad3-90f5-9dbdb354eaa4
-source-git-commit: 8428bfba81fa988cf370581af0692e4ff595c0ae
+source-git-commit: 1c1f9f46ea25ffa7d01c1a762b0478a5edb3339e
 workflow-type: tm+mt
 source-wordcount: '970'
 ht-degree: 0%
@@ -309,7 +309,7 @@ Ein Stunden -Objekt steht für eine Stunde, die ein Benutzer in einer Arbeitszei
           <li><p><b>Zurückweisungskommentar</b></li>
           <li><p><b>submitByID</b></li>
           </ul>
-          <p>Folgende Änderungen wurden am Feld <b>Stunden</b> vorgenommen.</p>
+          <p>Die folgenden Änderungen wurden am Feld <b>Stunden</b> vorgenommen.</p>
           <ul> 
           <li> Validator entfernt <b>GREATER_THAN</b></li>
           <li> Validator hinzugefügt <b>NOT_EQUAL</b></li>
@@ -389,7 +389,7 @@ Ein Parameter-Objekt ist ein benutzerdefiniertes Feld.
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>Bild (IMAGE)</li>
-            <li>PDF PDF</li>
+            <li>PDF (PDF)</li>
             <li>Video (VIDEO)</li>
             <li>Externe Suche (EXTRNL)</li>
             <li>Externe Suche mit Mehrfachauswahl (MULTEXTRNL)</li>
@@ -438,7 +438,7 @@ Ein Rollenobjekt (Aufgabengebiet) stellt eine funktionale Kapazität oder eine Q
 
 ### ScoreCardQuestion {#scorecardquestion}
 
-Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfoliomanager bestimmt und ihre Antworten geben dem Portfolio die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
+Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzugefügt wurde. Diese Fragen werden in der Regel vom Portfolio-Manager bestimmt, und die Antworten geben dem Manager die Möglichkeit zu verstehen, wie gut ein Projekt mit den Portfoliozielen übereinstimmt.
 
 <table>
   <tbody>
@@ -449,7 +449,7 @@ Ein ScoreCardQuestion-Objekt stellt eine Frage dar, die zu einer Scorecard hinzu
             <ul>
             <li>Adobe XD (ADOBEXD)</li>
             <li>Bild (IMAGE)</li>
-            <li>PDF PDF</li>
+            <li>PDF (PDF)</li>
             <li>Video (VIDEO)</li>
             <li>Externe Suche (EXTRNL)</li>
             <li>Externe Suche mit Mehrfachauswahl (MULTEXTRNL)</li>

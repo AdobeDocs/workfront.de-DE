@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 8d8282e095c902c0e6b2f51585ac0d4ac9b1e177
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '13099'
+source-wordcount: '13107'
 ht-degree: 2%
 
 ---
@@ -23,7 +23,9 @@ ht-degree: 2%
          * [Übersicht über die Version 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
          * [Verbesserungen für Administratoren im 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-administrator-enhancements.md)
          * [Verbesserungen beim Dokumentenmanagement im 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-document-mgmt-enhancements.md)
+         * [Verbesserungen an Mobilgeräten im 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-mobile-enhancements.md)
          * [Projektverbesserungen im 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-project-enhancements.md)
+         * [Verbesserungen beim Reporting im 2. Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-reporting-enhancements.md)
          * [Weitere Verbesserungen während des Veröffentlichungszeitraums des zweiten Quartals 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-other-enhancements.md)
          * [Lookand-Feel-Aktualisierungen im Zeitraum der Version 2025 im 2. Quartal](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-look-and-feel-updates.md)
       * {#release-25-q1} zum 1. Quartal 2025
@@ -1730,7 +1732,7 @@ ht-degree: 2%
          * [Benutzer aus Ressourcenpools entfernen](resource-mgmt/resource-planning/resource-pools/remove-users-from-resource-pool.md)
       * [Erste Schritte mit der Ressourcenplanung](resource-mgmt/resource-planning/get-started-resource-planning.md)
       * [Zugriff zum Budgetieren von Ressourcen in Workfront](resource-mgmt/resource-planning/access-needed-to-budget-resources.md)
-      * [Ressourcenplaner - Übersicht](resource-mgmt/resource-planning/get-started-resource-planner.md)
+      * [Übersicht über den Ressourcenplaner](resource-mgmt/resource-planning/get-started-resource-planner.md)
       * [Suchen des Ressourcenplaners](resource-mgmt/resource-planning/locate-resource-planner.md)
       * [Übersicht über die Navigation im Ressourcenplaner](resource-mgmt/resource-planning/resource-planner-navigation.md)
       * [Ressourcenverfügbarkeit und -zuordnung mit dem Adobe Workfront-Ressourcenplaner überprüfen](resource-mgmt/resource-planning/resource-availability-allocation-resource-planner.md)
@@ -1748,7 +1750,7 @@ ht-degree: 2%
       * [Anzeigebeschränkungen des Ressourcenplaners](resource-mgmt/resource-planning/resource-planner-display-limitations.md)
    * {#resource-utilization} der Ressourcenauslastung
       * [Ressourcenauslastung](resource-mgmt/resource-utilization/resource-utilization.md)
-      * [Informationen zur Ressourcenauslastung anzeigen](resource-mgmt/resource-utilization/view-utilization-information.md)
+      * [Anzeigen von Informationen zur Ressourcennutzung](resource-mgmt/resource-utilization/view-utilization-information.md)
    * Der Workload Balancer {#the-workload-balancer}
       * [Der Workload Balancer: Artikelindex](resource-mgmt/workload-balancer/workload-balancer.md)
       * [Übersicht über den Workload Balancer](resource-mgmt/workload-balancer/overview-workload-balancer.md)

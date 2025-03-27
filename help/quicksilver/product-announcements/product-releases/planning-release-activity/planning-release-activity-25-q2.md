@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e5878d3b591e65f4ece2a79248e03940976580de
+source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
 workflow-type: tm+mt
-source-wordcount: '1935'
+source-wordcount: '2166'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,45 @@ In diesem Artikel werden die Funktionen beschrieben, die in Workfront Planning i
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Link zur Ansicht der neuen Anfrage nach dem Senden
+
+>[!NOTE]
+>
+>Vorschau: 27. März 2025; Produktion für alle Kunden: 10. April 2025
+
+Jetzt können Sie eine neue Anfrage sofort nach dem Senden aus den folgenden Bereichen öffnen:
+
+* Das Anfrageformular, nachdem über einen freigegebenen Link darauf zugegriffen wurde
+* die Seite „Datensatztyp“ über die Schaltflächen „Neuer Datensatz“ oder „Datensatz anfordern“
+* im Bereich Anfragen im Hauptmenü
+
+Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
+
+## Erstellen mehrerer Objekte aus einem Datensatz mithilfe von Automatisierungen
+
+>[!NOTE]
+>
+>Vorschau: 27. März 2025; Produktion für alle Kunden: 10. April 2025
+
+Sie können jetzt aus demselben Workfront Planning-Datensatz mehrere Projekte erstellen, wenn Sie Automatisierungen in Workfront Planning verwenden. Beim Trigger einer Automatisierung können Sie mehrere Projekte erstellen und die Erstellung jedes Projekts auf den Werten eines Ein- oder Mehrfachauswahlfelds basieren. Sie können diese Funktion nur zum Erstellen von Projekten verwenden.  Mit Automatisierungen in Planning können Sie keine anderen Trigger vornehmen oder andere Objekttypen erstellen.
+
+
+Vor dieser Verbesserung konnten Sie jedes Mal, wenn Sie Trigger für eine für Projekte konfigurierte Automatisierung durchführen, nur ein Projekt erstellen.
+
+Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
+
+## Suchfelder umbenennen
+
+>[!NOTE]
+>
+>Vorschau: 27. März 2025; Produktion für alle Kunden: 10. April 2025
+
+Sie können jetzt Informationen zu Suchfeldern aktualisieren, nachdem sie zur Tabelle eines verbundenen Datensatzes hinzugefügt wurden.
+
+Vor dieser Verbesserung konnten Sie keine vorhandenen Suchfelder bearbeiten.
+
+Weitere Informationen finden Sie unter [Felder bearbeiten](/help/quicksilver/planning/fields/edit-fields.md).
 
 ## Mehrere Anforderungsformulare von einem Datensatztyp einrichten und verwalten
 
