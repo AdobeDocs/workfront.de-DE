@@ -8,9 +8,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d2a73d24-51d3-42e2-9c09-7f4bc30b2caa
-source-git-commit: 3e48bebde0171c13b4168d7eb5d693b07cb9e396
+source-git-commit: 674c46b699ba445abba06bec3e4da4a710c60d63
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1521'
 ht-degree: 6%
 
 ---
@@ -66,11 +66,21 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 {{step-1-to-setup}}
 
 1. Klicken **im linken** auf „Zugriffsebenen“.
-1. Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf **Kopieren**.
+1. 
+   * In der Produktionsumgebung:
+Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf **Kopieren**.
 
-   Oder
+     Oder
 
-   Wenn Sie eine vorhandene Zugriffsebene bearbeiten (die Sie zuvor kopiert haben), klicken Sie auf ihren Namen.
+     Wenn Sie eine vorhandene Zugriffsebene bearbeiten (die Sie zuvor kopiert haben), klicken Sie auf ihren Namen.
+
+   * <span class="preview">In der Vorschau-Umgebung:</span>
+
+     <span class="preview">Wählen Sie die Zugriffsebene aus, die Sie kopieren und anpassen möchten, und klicken Sie dann auf das **Kopieren**-Symbol ![Kopieren](assets/copy-icon.png). </span>
+
+     <span class="preview">oder </span>
+
+     <span class="preview">Wenn Sie eine vorhandene Zugriffsebene bearbeiten, wählen Sie die Zugriffsebene aus, indem Sie auf das Feld links neben dieser Zugriffsebene und dann auf das Symbol **Bearbeiten** ![Bearbeiten](assets/edit-icon.png) klicken. </span>
 
 1. Führen Sie im angezeigten Feld einen der folgenden Schritte aus, um mit der Konfiguration der benutzerdefinierten Zugriffsebene zu beginnen:
 
