@@ -7,7 +7,7 @@ description: Wenn Sie Administrator auf Ihrem AD-Server sind, können Sie AD FS 
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 670422e9-5db8-4f06-baf8-1f9ce83873fe
-source-git-commit: a6cd3fe793c197308105da27369191d84cb59377
+source-git-commit: 690b0817dfe4ff200982ffe8d67ad93e563e30ac
 workflow-type: tm+mt
 source-wordcount: '928'
 ht-degree: 0%
@@ -24,7 +24,7 @@ Wenn Sie Administrator auf Ihrem AD-Server sind, können Sie AD FS installieren 
 
 ## Installieren und Konfigurieren von AD FS
 
-1. Laden Sie [AD FS 2.0](http://www.microsoft.com/en-us/download/details.aspx?id=10909) auf Ihren Computer herunter.
+1. Laden Sie Microsoft AD FS 2.0 auf Ihren Computer herunter.
 1. Öffnen Sie die heruntergeladene Datei „AdfsSetup.exe“, um den Installationsassistenten für ADFS (Active Directory Federation Services) zu starten.
 1. Wählen Sie im Bildschirm „Serverrolle“ eine der Optionen aus (Sie benötigen mindestens einen Verbundserver).
 1. Wenn Sie IIS auf Ihrem AD-Server nicht dem Internet aussetzen möchten (Ports 80 und 443 für HTTP und HTTPS), können Sie zunächst einen Verbundserver hinter der Firewall einrichten und dann einen zweiten Verbundserverproxy erstellen, der Anforderungen über die Firewall an den Verbundserver weiterleitet.

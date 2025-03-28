@@ -7,9 +7,9 @@ description: Diese Seite enthält Informationen zur Struktur und zum Inhalt der 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 9caac488522d2a12d3bdf4bf23ba7e44c6dbf7d2
+source-git-commit: eccc878f4b6fdeeffbcd5635b80ac3e26f7fb8c6
 workflow-type: tm+mt
-source-wordcount: '4609'
+source-wordcount: '4719'
 ht-degree: 4%
 
 ---
@@ -36,7 +36,7 @@ Es gibt eine Reihe von Tabellentypen, die Sie in Data Connect verwenden können,
 
 * **Tägliche Verlaufstabelle**
 
-  Die Tägliche Verlaufstabelle bietet eine gekürzte Version der Ereignistabelle, da sie den Status jedes Objekts auf täglicher Basis anzeigt und nicht den Zeitpunkt, zu dem jedes einzelne Ereignis aufgetreten ist. Daher ist diese Tabelle für Trendanalysen nützlich.
+  Die Tabelle Daily Protokoll bietet eine abgekürzte Version der Ereignistabelle, da sie den Zustand jedes Objekts auf täglicher Basis anzeigt und nicht den Zeitpunkt, zu dem die einzelnen Kontakt aufgetreten Ereignis. Daher ist diese Tabelle auch für Trends Analyse.
 
 <!-- Custom table -->
 
@@ -126,8 +126,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
     <tr>
         <td>Zuweisung</td>
         <td>Zuweisung</td>
-        <td>ZUWEISEN | Zuweisung</td>
-        <td>ASSIGNMENTS_CURRENT<br>ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
+        <td>ASSGN | Zuweisung</td>
+        <td><br>ASSIGNMENTS_CURRENT ASSIGNMENTS_DAILY_HISTORY<br>ASSIGNMENTS_EVENT</td>
         <td>ASSIGNEDBYID<br>ASSIGNEDTOID<br>ASSIGNMENTID (SELF)<br>CATEGORYID<br>CLASSIFIERID<br>OPTASKID<br>PRIVATERATECARDID<br>PROJECTID<br>ROLEID<br>TASKID<br>TEAMID</td>
         <td>USER_CURRENT | USERID<br>USER_CURRENT | USERID<br>SELF<br>CATEGORIES_CURRENT | CATEGORYID<br>Classifier-Tabelle wird derzeit nicht unterstützt<br>OPTASK_CURRENT | OPTASKID<br>RATECARD_CURRENT | RATECARDID<br>PROJECT_CURRENT | PROJECTID<br>ROLE_CURRENT | ROLEID<br>TASK_CURRENT | TASKID<br>TEAM_CURRENT | TEAMFÄNGER</td>
     </tr>
@@ -206,8 +206,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
     <tr>
         <td>Kategorieparameter</td>
         <td>Benutzerdefinierte Formularfelder</td>
-        <td>CTGYPA | Kategorieparameter</td>
-        <td>CATEGORIESPARAMETERS_CURRENT<br>CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
+        <td>CTGYPA | Parameter Kategorie</td>
+        <td><br>CATEGORIESPARAMETERS_CURRENT CATEGORIESPARAMETERS_DAILY_HISTORY<br>CATEGORIESPARAMETERS_EVENT</td>
         <td>CATEGORIESPARAMETERID (self)<br>CATEGORYID<br>PARAMETERGROUPID<br>PARAMETERID<br>SYSID</td>
         <td>self<br>CATEGORIES_CURRENT | CATEGORYID<br>Parameter Group-Tabelle wird derzeit nicht unterstützt<br>PARAMETERS_CURRENT | PARAMETERID    <br>Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
     </tr>
@@ -287,8 +287,8 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <td>DocumentProviderConfig</td>
         <td>Konfiguration des Dokumentanbieters</td>
         <td>DOCCFG | DocumentProviderConfig</td>
-        <td>DOCPROVIDERCONFIG_CURRENT<br>DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
-        <td>DOCPROVIDERCONFIGID (self)<br>SYSID</td>
+        <td><br>DOCPROVIDERCONFIG_CURRENT DOCPROVIDERCONFIG_DAILY_HISTORY<br>DOCPROVIDERCONFIG_EVENT</td>
+        <td>DOCPROVIDERCONFIGID (selbst)<br>SYSID</td>
         <td>Self<br>Not a relation; wird für interne Anwendungszwecke verwendet</td>
     </tr>
     <tr>
@@ -625,20 +625,20 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <td>RSKTYP | Risikotyp</td>
         <td>RISKTYPES_CURRENT<br>RISKTYPES_DAILY_HISTORY<br>RISKTYPES_EVENT</td>
         <td>RISKTYPEID<br>SYSID</td>
-        <td>Self<br>Not a relation; wird für interne Anwendungszwecke verwendet</td>
+        <td><br>Selbst keine Beziehung; wird für interne Applikation Zwecke verwendet</td>
     </tr>
     <tr>
-        <td>Funktion</td>
+        <td>Rolle</td>
         <td>Aufgabengebiet</td>
-        <td>ROLLE | Aufgabengebiet</td>
-        <td>ROLES_CURRENT<br>ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
+        <td>ROLLE | Jobrolle</td>
+        <td><br>ROLES_CURRENT ROLES_DAILY_HISTORY<br>ROLES_EVENT</td>
         <td>ENTEREDBYID<br>LAYOUTTEMPLATEID<br>PRIVATERATECARDID<br>ROLEID<br>UITEMPLATEID</td>
-        <td>USER_CURRENT | USERID<br>Layout-Vorlagentabelle wird nicht unterstützt<br>RATECARD_CURRENT | RATECARDID<br>SELF<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
+        <td>USER_CURRENT | USERID<br>Layout Vorlage Tabelle wird<br>nicht RATECARD_CURRENT | RATECARDID<br>Selbst<br>UITEMPLATES_CURRENT |UITEMPLATEID</td>
     </tr>
     <tr>
         <td>Zeitplan</td>
         <td>Zeitplan</td>
-        <td>SCHEDEN | Zeitplan</td>
+        <td>SCHED | Zeitplan</td>
         <td>SCHEDULES_CURRENT<br>SCHEDULES_DAILY_HISTORY<br>SCHEDULES_EVENT</td>
         <td>ENTEREDBYID.<br>.<br>.HOMEGROUPID<br>SCHEDULEID</td>
         <td>USER_CURRENT | USERID<br>GROUP_CURRENT | GROUPID<br>GROUP_CURRENT | GROUPID<br>Self</td>
@@ -723,12 +723,28 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <td>PREDECESSORID<br>SUCCESSORID <br>TEMPLATEPREDECESSORID (SELF)<br>SYSID</td>
         <td>TEMPLATETASKS_CURRENT |TEMPLATETASKID<br>TEMPLATETASKS_CURRENT |TEMPLATETASKID <br>Self<br>Not a relation; wird für interne Anwendungszwecke verwendet</td>
     </tr>
+       <tr>
+        <td>Währung des Zeitphasen-KPI (begrenzte Kundenverfügbarkeit)</td>
+        <td>Zeitphasen-KPI</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
+        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>SELF<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | BENUTZER-ID</td>
+    </tr>
+        <tr>
+        <td>Dauer des KPI mit Zeitphasen (begrenzte Kundenverfügbarkeit)</td>
+        <td>Zeitphasen-KPI</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_DURATION_CURRENT<br>TIMEPHASED_DURATION_DAILY_HISTORY<br>TIMEPHASED_DURATION_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDDURATIONID (SELF)<br>USERID</td>
+        <td>ASSIGNMENTS_CURRENT | ZUWEISUNGS-ID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMM-ID<br>PROJECTS_CURRENT | PROJECTID<br>Identifiziert das Subjekt des KPI Datensatzes<br>ROLES_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>Self<br>USERS_CURRENT | BENUTZER-ID</td>
+    </tr>
     <tr>
         <td>Arbeitszeittabelle</td>
         <td>Arbeitszeittabelle</td>
-        <td>TSHET | Arbeitszeittabelle</td>
-        <td>TIMESHEETS_CURRENT<br>TIMESHEETS_DAILY_HISTORY<br>TIMESHEETS_EVENT</td>
-        <td>APPROVERID<br>LASTNOTEID<br>LASTUPDATEDBYID<br>TIMESHEETID<br>TIMESHEETPROFILEID<br>USERID</td>
+        <td>TMPH | TimePhasedKPI</td>
+        <td>TIMEPHASED_CURRENCY_CURRENT<br>TIMEPHASED_CURRENCY_DAILY_HISTORY<br>TIMEPHASED_CURRENCY_EVENT</td>
+        <td>ASSIGNMENTID<br>GROUPID<br>LOCATIONID<br>OPTASKID<br>PORTFOLIOID<br>PROGRAMID<br>PROJECTID<br>REFERENCEID<br>ROLEID<br>SOURCETASKID<br>TASKID<br>TIMEPHASEDCURRENCYID (SELF)<br>USERID</td>
         <td>USER_CURRENT | USERID<br>NOTE_CURRENT | NOTEID<br>USER_CURRENT | USERID<br>SELF<br>TIMESHEETPROFILES_CURRENT | TIMESHEETPROFILEID<br>USER_CURRENT | BENUTZER-ID</td>
     </tr>
     <tr>
@@ -737,7 +753,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <td>TSPRO | Arbeitszeittabellen-Profil</td>
         <td>TIMESHEETPROFILES_CURRENT<br>TIMESHEETPROFILES_DAILY_HISTORY<br>TIMESHEETPROFILES_EVENT</td>
         <td>APPROVERID<br>ENTEREDBYID <br>GROUPID<br>SYSID<br>TIMESHEETPROFILEID (SELF)</td>
-        <td>USERS_CURRENT | USERID<br>USERS_CURRENT | USERID <br>GROUPS_CURRENT | GROUPID<br>Keine Beziehung; für interne Anwendungszwecke verwendet<br>Selbst</td>
+        <td>ASSIGNMENTS_CURRENT | ASSIGNMENTID<br>GROUPS_CURRENT | GROUPID<br>CLASSIFIER_CURRENT | CLASSIFIERID<br>OPTASKS_CURRENT | OPTASKID<br>PORTFOLIOS_CURRENT | PORTFOLIOID<br>PROGRAMS_CURRENT | PROGRAMID<br>PROJECTS_CURRENT | PROJECTID<br>Identifiziert den Betreff des KPI record_<br>_CURRENT | ROLEID<br>TASKS_CURRENT | TASKID<br>TASKS_CURRENT | TASKID<br>SELF<br>USERS_CURRENT | BENUTZER-ID</td>
     </tr>
     <tr>
         <td>UI-Filter</td>
@@ -752,11 +768,11 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <td>Gruppierung</td>
         <td>UIGB | Gruppierung</td>
         <td>UIGROUPBYS_CURRENT<br>UIGROUPBYS_DAILY_HISTORY<br>UIGROUPBYS_EVENT</td>
-        <td>ENTEREDBYID<br>GROUPID <br>LASTUPDATEDBYID <br>SYSID <br>UITEMPLATEID (self)</td>
-        <td>USERS_CURRENT | USERID<br>GROUPS_CURRENT | GROUPID <br>USERS_CURRENT | USERID <br>Keine Beziehung; für interne Anwendungszwecke verwendet <br>Selbst</td>
+        <td>ENTEREDBYID<br>GROUPID  <br>LASTUPDATEDBYID <br>SYSID  <br>UITEMPLATEID (self)</td>
+        <td>USERS_CURRENT | BENUTZER-ID-GROUPS_CURRENT<br>| GROUPID  <br>USERS_CURRENT | BENUTZER-ID <br>Keine Beziehung; wird für interne Applikation  <br>Zwecke verwendet Selbst</td>
     </tr>
     <tr>
-        <td>UI-Vorlage</td>
+        <td>UI Vorlage</td>
         <td>Layoutvorlage</td>
         <td>UTIMPL | Layoutvorlage</td>
         <td>UITEMPLATES_CURRENT<br>UITEMPLATES_DAILY_HISTORY<br>UITEMPLATES_EVENT</td>
@@ -801,7 +817,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
         <td>USRLOC | Benutzerstandort</td>
         <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
         <td>CLASSIFIERID<br>SYSID<br>USERID<br>USERLOCATIONID (self)</td>
-        <td>CLASSIFIER_CURRENT | CLASSIFIERID<br>Keine Beziehung; für interne Anwendungszwecke verwendet<br>USERS_CURRENT | USERID<br>Self</td>
+        <td>CLASSIFIER_CURRENT | CLASSIFIERID<br>Keine Beziehung; für interne Applikation Zwecke<br>verwendet USERS_CURRENT | USERID<br>Selbst</td>
     </tr>
     <tr>
         <td>Benutzerfunktion</td>
