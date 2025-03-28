@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: aeb16dc5-d17d-40bc-a32a-de6d47b43817
-source-git-commit: 9b1514ac84692703aa1938c306ff5680d7c9f74f
+source-git-commit: 69f9797b5427a5dd72b7b8531cd5aa41013b3d5d
 workflow-type: tm+mt
-source-wordcount: '682'
+source-wordcount: '747'
 ht-degree: 0%
 
 ---
@@ -18,19 +18,16 @@ Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschie
 
 Eine Liste aller Änderungen, die mit der Version aus dem zweiten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version aus dem zweiten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
-<!--
-
-## Updated experience in the Access Levels area in Setup
+## Aktualisiertes Erlebnis im Bereich „Zugriffsebenen“ im Setup
 
 >[!NOTE]
 >
->Preview release: March 27, 2025; Production release for all customers: With the 25.4 release (April 10, 2025)
+>Vorschau-Version: 27. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
 
-To enhance performance, we've made some visual updates to the Access Levels area in Setup.
+Um die Leistung zu verbessern, haben wir im Bereich Zugriffsebenen von Setup einige visuelle Aktualisierungen vorgenommen.
 
-A small functionality change has been applied to the Access Levels list. To copy, edit, or delete an access level, select the level and click the appropriate icon.
+Eine kleine Funktionsänderung wurde auf die Liste Zugriffsebenen angewendet. Um eine Zugriffsebene zu kopieren, zu bearbeiten oder zu löschen, wählen Sie die entsprechende Ebene aus und klicken Sie auf das entsprechende Symbol.
 
--->
 
 ## Aktualisierungen des Erscheinungsbilds der Dialogfelder „Ausgabentypen“
 
