@@ -3,9 +3,9 @@ title: '[!DNL Adobe Workfront] Dokumentation'
 description: Dokumentation für [!DNL Adobe Workfront].
 feature: Get Started with Workfront
 exl-id: 337efdc8-ee1e-4223-a211-2cb1dcecfafa
-source-git-commit: 1343695894b22e3d820e2abaf0c377f72d39aab1
+source-git-commit: 51060703d0194ea8aea933e31690f3fb6fff29b2
 workflow-type: tm+mt
-source-wordcount: '381'
+source-wordcount: '402'
 ht-degree: 1%
 
 ---
@@ -24,11 +24,14 @@ Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Ad
 * [Übersicht über die Version im ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
 * [Versionsübersicht für das vierte Quartal 2024](/help/quicksilver/product-announcements/product-releases/24-q4-release-activity/24-q4-release-overview.md)
 * [Versionsaktivität von Adobe Workfront Fusion](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/fusion-release-activity/fusion-release-activity)
+* [Adobe Workfront-Planungs-Aktivität für das zweite Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront-Planungsaktivität für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 >Versionen [!TAB 2025]
 
+* [Übersicht über die Version 2025 im zweiten Quartal](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md)
 * [Übersicht über die Version im ersten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/25-q1-release-overview.md)
+* [Adobe Workfront-Planungs-Aktivität für das zweite Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q2.md)
 * [Adobe Workfront-Planungsaktivität für das erste Quartal 2025](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-25-q1.md)
 
 
@@ -91,7 +94,7 @@ Willkommen auf der Homepage für Produkte und die technische Dokumentation zu Ad
   </tr>
 </table>
 
-## Tipps zum Auffinden von Inhalten auf Experience League
+## Tipps zum Suchen von Inhalten in Experience League
 
 Die Dokumentationssuche kann mit einigen strategischen Ansätzen effizienter sein. Hier sind einige Tipps, die Ihnen helfen, das zu finden, was Sie effektiv benötigen:
 
