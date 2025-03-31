@@ -6,10 +6,10 @@ description: 'Benachrichtigungen: Ziele'
 author: Lisa
 feature: Get Started with Workfront
 exl-id: 12e66711-4438-4fcf-af79-7fcc2c3b1522
-source-git-commit: c53e7d2229032c59710a8f955de53cfbd7fc6df4
+source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
 workflow-type: tm+mt
-source-wordcount: '575'
-ht-degree: 4%
+source-wordcount: '436'
+ht-degree: 2%
 
 ---
 
@@ -97,15 +97,19 @@ Siehe auch [Ereignisbenachrichtigungen](../../workfront-basics/using-notificatio
    <td> <p>Der Name der Person, die den Kommentar verlassen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Der Text des Kommentars</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> mit der das Bedienfeld [!UICONTROL Goal Details] geöffnet wird.</p> <p>Die <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> Schaltfläche, mit der Sie Ihre Benachrichtigungen verwalten können.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Jemand hat meinen Kommentar zu einem Ziel geliked</strong></td> 
-   <td> <p>Der Name der Person, der der Kommentar gefallen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Der Text des Kommentars </p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> mit der das Bedienfeld [!UICONTROL Goal Details] geöffnet wird.</p> <p>Die <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> Schaltfläche, mit der Sie Ihre Benachrichtigungen verwalten können.</p> </td> 
+  </tbody> 
+</table>
+
+<!--these were removed at some point: 
+
+   <td><strong>Someone liked my comment on a Goal</strong></td> 
+   <td> <p>The name of the person who liked the comment</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The text of the comment </p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
   <tr> 
-   <td><strong>Jemand hat eine Aktualisierung meines Ziels geliked</strong></td> 
-   <td> <p>Sie erhalten eine E-Mail, wenn jemandem ein Kommentar gefällt, den Sie zu einem Ziel abgegeben haben, oder wenn Sie den Fortschritt Ihrer Ergebnisse oder Aktivitäten auf dem Ziel aktualisieren. </p> <p>Der Name der Person, der die Aktualisierung gefallen hat</p> <p>Der Zeitraum des Ziels </p> <p>Der Name des Ziels</p> <p>Die Schaltfläche <strong>[!UICONTROL In Web-App öffnen]</strong> mit der das Bedienfeld [!UICONTROL Goal Details] geöffnet wird.</p> <p>Die <strong>[!UICONTROL Einstellungen für Benachrichtigungen ändern]</strong> Schaltfläche, mit der Sie Ihre Benachrichtigungen verwalten können.</p> </td> 
+   <td><strong>Someone liked an update on my Goal</strong></td> 
+   <td> <p>You receive an email when someone likes a comment you made on a goal or when you update the progress of your results or activities on the goal. </p> <p>The name of the person who liked the update</p> <p>The Period of the goal </p> <p>The name of the goal</p> <p>The <strong>[!UICONTROL Open in web app]</strong> button which opens the [!UICONTROL Goal Details] panel</p> <p>The <strong>[!UICONTROL Change Notifications Settings]</strong> button which allows you to manage your notifications.</p> </td> 
   </tr> 
- </tbody> 
-</table>
+ -->
 
 <!--
 NOTE FOR NAME OF GOAL IN LAST TABLE CELL: check this. Is this true? Didn't triggger when this was written; add anything else? Maybe the type of the update is mentioned?!

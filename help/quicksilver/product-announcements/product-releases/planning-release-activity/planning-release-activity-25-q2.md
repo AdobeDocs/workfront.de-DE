@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 99ac8d30-7cf8-4343-b11c-fe650ba024ff
-source-git-commit: e8751b8e33ce99d56f816f12b065482c4deb7fbd
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2166'
+source-wordcount: '2208'
 ht-degree: 0%
 
 ---
@@ -28,11 +28,14 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >
 >Vorschau: 27. März 2025; Produktion für alle Kunden: 10. April 2025
 
-Jetzt können Sie eine neue Anfrage sofort nach dem Senden aus den folgenden Bereichen öffnen:
+Der Zugriff auf eine Anforderung, die Sie in Workfront Planning senden, wurde verbessert.
+Wir haben den Link „Ihre Anfrage anzeigen“ hinzugefügt, mit dem Sie zur Detailseite der soeben gesendeten Anfrage navigieren können.
 
-* Das Anfrageformular, nachdem über einen freigegebenen Link darauf zugegriffen wurde
-* die Seite „Datensatztyp“ über die Schaltflächen „Neuer Datensatz“ oder „Datensatz anfordern“
-* im Bereich Anfragen im Hauptmenü
+Der neue Link ist verfügbar, nachdem Sie eine Anfrage aus den folgenden Bereichen gesendet haben:
+
+* Von einem freigegebenen Link
+* Über die Schaltfläche Neuer Datensatz oder Datensatz anfordern auf der Seite Datensatztyp .
+* Nachdem Sie das neue Erlebnis zum Senden von Anfragen aktiviert haben, klicken Sie im Bereich Anfragen .
 
 Weitere Informationen finden Sie unter [Senden von Adobe Workfront-Planungsanfragen zum Erstellen von Datensätzen](/help/quicksilver/planning/requests/submit-requests.md).
 

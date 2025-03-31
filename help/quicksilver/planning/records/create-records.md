@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 4b5248f667648543263073022ae10336fb022f97
 workflow-type: tm+mt
-source-wordcount: '2418'
+source-wordcount: '2419'
 ht-degree: 0%
 
 ---
@@ -105,7 +105,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält </p> </td> 
   </tr> 
 </tbody> 
@@ -206,7 +206,7 @@ Benutzende mit den Berechtigungen Beitragen und Verwalten für den Arbeitsbereic
    Die Seite Datensatztyp wird in der Ansicht geöffnet, auf die Sie zuletzt zugegriffen haben. Standardmäßig wird eine Seite mit dem Datensatztyp in der Tabellenansicht geöffnet.
 Alle Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
 
-1. Klicken Sie in einer beliebigen Ansicht je nach den <!--<span class="preview">and record type</span>--> des Arbeitsbereichs in der rechten oberen Ecke Ihres Bildschirms auf eine der folgenden Optionen:
+1. (Bedingt) Klicken Sie in einer beliebigen Ansicht in der oberen rechten Ecke Ihres Bildschirms auf eine der folgenden Optionen, je nach den Berechtigungen in Workspace <!--<span class="preview">and record type</span>-->:
 
    * Klicken Sie auf **Neuer Datensatz**, wenn Sie für die Workspace-<!--<span class="preview">and record type</span>--> Beitragen oder höhere Berechtigungen haben
 
