@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 9f2ada5f9954878efc195661173fe88a0fe1d3bd
+source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
 workflow-type: tm+mt
-source-wordcount: '1745'
+source-wordcount: '1744'
 ht-degree: 0%
 
 ---
@@ -250,7 +250,7 @@ Validierungslogik wird mithilfe von Formeln erstellt, und Sie können die Logik 
 
 Wenn das Feld mit der angewendeten Logik die definierten Validierungsbedingungen erfüllt, wenn ein Benutzer das benutzerdefinierte Formular ausfüllt, wird das Feld hervorgehoben und die Fehlermeldung angezeigt.
 
-Sie können Validierungslogik auf die folgenden Feldtypen anwenden: Dropdown, Optionsschaltfläche, Kontrollkästchen, automatische Textvervollständigung, einzeiliger Text, Absatztext, Datumsfeld, Text mit Formatierung und berechnete Felder.
+Sie können eine Validierungslogik auf die folgenden Feldtypen anwenden: einzeiliger Text, Absatz, Dropdown-Liste zur einmaligen Auswahl, Dropdown-Liste zur Mehrfachauswahl, externe Suche, Optionsfelder, Kontrollkästchen-Gruppe und automatische Textvervollständigung.
 
 ### Beispiele
 
