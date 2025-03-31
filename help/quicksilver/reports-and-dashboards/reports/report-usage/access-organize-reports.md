@@ -6,9 +6,9 @@ description: Sie können Berichte in Adobe Workfront verwenden, um Informationen
 author: Nolan
 feature: Reports and Dashboards
 exl-id: a444d863-12a8-43d0-ae84-ee24863ad87b
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: da574efdede5aee34518f251cabdfe96983a69eb
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '520'
 ht-degree: 0%
 
 ---
@@ -88,10 +88,15 @@ Sie können Ordner verwenden, um die von Ihnen erstellten Berichte zu organisier
    Oder\
    Klicken Sie auf einen beliebigen unter dem Ordner **Meine Berichte** verschachtelten Ordner.
 
-1. Ziehen Sie einen Bericht aus der Berichtsliste in den Ordner, in dem er gespeichert werden soll, und legen Sie ihn ab, wenn Sie den Ordner erreichen.
+1. Wählen Sie den Bericht aus und klicken Sie dann oben in ![ Liste ](assets/folder-icon.png) Ordnersymbol (Ordnersymbol).
+
+1. Wählen Sie den Ordner aus, dem Sie den Bericht hinzufügen möchten.
+
+   ![Wählen Sie einen Ordner, in den der Bericht verschoben werden soll](assets/choose-folder.png)
 
    >[!NOTE]
    >
    >Sie können nur Berichte aus dem Ordner **Meine Berichte** in andere Ordner verschieben, die unter &quot;**Berichte“** sind. Sie können keine Berichte aus oder in den Ordner **Für mich freigegeben** oder **Alle Berichte** in oder aus anderen Ordnern verschieben.
 
-   ![Bericht in Ordner ziehen](assets/nwe-drag-report-to-folder-350x292.png)
+
+
