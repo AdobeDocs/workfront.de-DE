@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: f1d235a21dcf939570d4d93f08f31865eab42803
+source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
 workflow-type: tm+mt
-source-wordcount: '1192'
+source-wordcount: '1252'
 ht-degree: 0%
 
 ---
@@ -250,3 +250,10 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
    <td>Keine. Wenn Sie über einen Filter für das betroffene Feld verfügen, erhalten Sie nur dann ein <code>UPDATE</code>, wenn sich dieses Feld tatsächlich geändert hat, nicht jedoch, wenn sich ein anderer Parameterwert geändert hat.
  </tbody> 
 </table>
+
+
+## Aktualisieren der Ereignisabonnementversion in einem Workfront Fusion-Szenario
+
+Workfront Fusion verwendet Ereignisabonnements, um auf Änderungen in Szenarien mit Workfront-Triggern zu achten. Sie können die Ereignisabonnementversion, die Fusion direkt in einem Szenario verwendet, mithilfe des Payload-Versionsmoduls Workfront > Ereignisse aktualisieren aktualisieren .
+
+Anweisungen zur Verwendung dieses Moduls finden Sie unter [Workfront-Module](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/references/apps-and-their-modules/adobe-connectors/workfront-modules) in der Dokumentation zu Workfront Fusion.
