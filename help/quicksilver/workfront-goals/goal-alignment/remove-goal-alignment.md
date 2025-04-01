@@ -6,14 +6,16 @@ description: Sie können die Ausrichtung zwischen zwei Zielen entfernen, wenn es
 author: Alina
 feature: Workfront Goals
 exl-id: a6196356-ca11-4759-9cff-64850a60208e
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '456'
-ht-degree: 1%
+source-wordcount: '475'
+ht-degree: 2%
 
 ---
 
 # Zielausrichtung in Adobe Workfront Goals entfernen
+
+<!--Audited P&P only: 4/2025-->
 
 Sie können die Ausrichtung zwischen zwei Zielen entfernen, wenn es nicht mehr sinnvoll ist, sie miteinander zu verbinden.
 
@@ -24,6 +26,8 @@ Informationen zum Ausrichten von Zielen finden Sie in den folgenden Artikeln:
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto">
@@ -33,11 +37,15 @@ Sie müssen über Folgendes verfügen:
 </col>
 <tbody>
  <tr>
- <td role="rowheader">Adobe Workfront-Plan</td>
- <td>
- <p>Beliebig</p>
-
-</td>
+ <td role="rowheader">Adobe Workfront-Plan*</td>
+ <td> 
+   <p>Für die neue Plan- und Lizenzstruktur:
+  <ul><li>Ein Ultimate-Plan </li></ul>
+   </p>
+<p>Für die aktuelle Plan- und Lizenzstruktur: 
+<ul><li> Ein Profi oder höher </li>
+  <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+   </td> 
  </tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
@@ -49,12 +57,9 @@ Sie müssen über Folgendes verfügen:
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderung, eine der folgenden: </p>
-<ul>
-<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
-<li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
- <p>Oder</p>
- <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+   <p> Neue Produktanforderung: Workfront</p>
+   Oder
+   <p>Aktuelle Produktanforderung: Zusätzlich zu einer Workfront-Lizenz müssen Sie eine Lizenz für Adobe Workfront Goals erwerben. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene</td>
@@ -68,7 +73,7 @@ Sie müssen über Folgendes verfügen:
   <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </td>
  </tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
@@ -76,6 +81,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Voraussetzungen
 

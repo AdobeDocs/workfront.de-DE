@@ -7,9 +7,9 @@ description: Auf dieser Seite werden alle Verbesserungen beschrieben, die mit de
 author: Courtney
 feature: Product Announcements, Workfront Goals
 exl-id: 30a8d125-f84c-4e1a-8e4c-d76da326c2ef
-source-git-commit: ebc729ad0300d54d294be275773d9ffc13128c83
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '369'
+source-wordcount: '372'
 ht-degree: 0%
 
 ---
@@ -40,6 +40,6 @@ Das Freigeben, Bearbeiten, Löschen oder Kopieren eines Ziels funktioniert ähnl
 >
 >Mit diesem Update haben wir die Abschnitte Check-in und Pulse im Bereich Ziele entfernt.
 
-Weitere Informationen zu Workfront-Zielen finden Sie in den Artikeln, die im Bereich [Workfront](/help/quicksilver/workfront-goals/workfront-goals.md) der Workfront-Dokumentation verfügbar sind.
+Weitere Informationen zu Workfront-Zielen finden Sie in den Artikeln, die im Bereich [Adobe Workfront-Ziele: Artikelindex](/help/quicksilver/workfront-goals/workfront-goals.md) der Workfront-Dokumentation verfügbar sind.
 
 [Sehen Sie sich eine Videodemonstration dieser Funktion an](https://video.tv.adobe.com/v/3413327/){target=_blank}

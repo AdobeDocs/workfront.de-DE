@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Überprüfen von in Schwierigkeiten geratenen Zielen in Adobe Workfront Goals
+title: Überprüfen von In-Trouble Goals in Adobe Workfront Goals
 description: Ziele mit dem Status In Schwierigkeiten laufen Gefahr, nicht erreicht zu werden, und werden in den Adobe Workfront-Zielen durch einen roten Fortschrittsbalken dargestellt. Sie sollten Ihre Ziele oft überprüfen und verstehen, warum der Fortschritt verzögert ist.
 author: Alina
 feature: Workfront Goals
 exl-id: df2cdc12-9102-4759-9daa-1f8ae68f110b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 01e53bbc10573950d08f2df63fc742e6b9771e77
 workflow-type: tm+mt
-source-wordcount: '827'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
 
 # Überprüfen von in Schwierigkeiten geratenen Zielen in Adobe Workfront Goals
+
+<!--Audited: 4/2025-->
 
 <!--
 <p>(NOTE: the status of goals in "red" used to be called At Risk. Now, it is "in trouble") </p>
@@ -22,6 +24,8 @@ ht-degree: 0%
 Ziele mit dem Status In Schwierigkeiten laufen Gefahr, nicht erreicht zu werden, und werden in den Adobe Workfront-Zielen durch einen roten Fortschrittsbalken dargestellt. Sie sollten Ihre Ziele oft überprüfen und verstehen, warum der Fortschritt verzögert ist. Informationen zum Zielfortschritt finden Sie unter [Übersicht über den Zielfortschritt und die Bedingung in Adobe Workfront-](../../workfront-goals/goal-management/calculate-goal-progress.md).
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -52,12 +56,9 @@ Sie müssen über Folgendes verfügen:
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderung, eine der folgenden: </p>
-<ul>
-<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
-<li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
- <p>Oder</p>
- <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+  <p> Neue Produktanforderung: Workfront</p>
+  Oder
+  <p>Aktuelle Produktanforderung: Zusätzlich zu einer Workfront-Lizenz müssen Sie eine Lizenz für Adobe Workfront Goals erwerben. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene</td>
@@ -73,7 +74,7 @@ Sie müssen über Folgendes verfügen:
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
@@ -81,6 +82,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Empfehlungen zur Vermeidung von Zielen, um einen Fortschritt von In Schwierigkeiten zu erreichen
 

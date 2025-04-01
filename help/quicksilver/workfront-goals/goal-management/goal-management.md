@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Zielverwaltung in Adobe Workfront-Zielen
-description: In den folgenden Artikeln erfahren Sie, wo Sie mit den Workfront-Zielen beginnen, wie wichtig die Verwendung von Zielen ist und wie Sie Ziele erstellen, bearbeiten, kommentieren und verwalten sowie Zielinformationen filtern und drucken können
+title: 'Zielverwaltung in Adobe Workfront Ziele: Artikelindex'
+description: In den folgenden Artikeln erfahren Sie, wo Sie mit den Workfront-Zielen beginnen, wie wichtig die Verwendung von Zielen ist und wie Sie Ziele erstellen, bearbeiten, kommentieren und verwalten. Außerdem erfahren Sie, wie Sie Zielinformationen filtern und drucken.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: cba07613-9912-4929-bda4-50f503faa3e1
-source-git-commit: d7dd5ab4e3041a100b13c5bf169747f58db0ea39
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '273'
+source-wordcount: '277'
 ht-degree: 0%
 
 ---
 
-# Zielverwaltung in Adobe Workfront-Zielen
+# Zielverwaltung in Adobe Workfront Ziele: Artikelindex
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -32,10 +34,10 @@ ht-degree: 0%
 >
 >*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 >
-
-Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
-
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>
+>Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](/help/quicksilver/workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 In den folgenden Artikeln erfahren Sie, wo Sie mit den Workfront-Zielen beginnen, wie wichtig die Verwendung von Zielen ist und wie Sie Ziele erstellen, bearbeiten, kommentieren und verwalten. Außerdem erfahren Sie, wie Sie Zielinformationen filtern und drucken:
 

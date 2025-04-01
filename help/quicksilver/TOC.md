@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: db709d801e3e80be8fbbc184e41d0ae70b983fb6
+source-git-commit: bbbb3f7895256e2f5341e6e9fd76c4fccbd15db0
 workflow-type: tm+mt
-source-wordcount: '13110'
+source-wordcount: '13116'
 ht-degree: 2%
 
 ---
@@ -1971,10 +1971,10 @@ ht-degree: 2%
    * [Rollenzuweisung für Projekte und Initiativen in der Aufgabenliste anzeigen](scenario-planner/show-role-allocation-task-list-nwe.md)
    * [Rollenzuweisung für Projekte und Initiativen im Workload Balancer anzeigen](scenario-planner/show-role-allocation-workload-balancer.md)
 * Adobe Workfront-{#adobe-workfront-goals}
-   * [Adobe Workfront Goals](workfront-goals/workfront-goals.md)
+   * [Adobe Workfront-Ziele: Artikelindex](workfront-goals/workfront-goals.md)
    * [Adobe Workfront-Ziele - Übersicht](workfront-goals/goal-management/wf-goals-overview.md)
    * Zielverwaltung in der Adobe Workfront-{#goal-management}
-      * [Zielverwaltung in Adobe Workfront-Zielen](workfront-goals/goal-management/goal-management.md)
+      * [Zielverwaltung in Adobe Workfront Ziele: Artikelindex](workfront-goals/goal-management/goal-management.md)
       * [Erste Schritte mit Adobe Workfront Goals](workfront-goals/goal-management/getting-started-with-wf-goals.md)
       * [Zugreifen auf und Öffnen von Zielen in Adobe Workfront](workfront-goals/goal-management/access-goals-in-wf-goals.md)
       * [Voraussetzungen für die Verwendung von Workfront Goals](workfront-goals/goal-management/access-needed-for-wf-goals.md)
@@ -1991,7 +1991,7 @@ ht-degree: 2%
       * [Aktualisieren von Zielen im Abschnitt „Zieldetails“ in Adobe Workfront Goals](workfront-goals/goal-management/update-goals-in-goal-details-panel.md)
       * [Überprüfen von in Schwierigkeiten geratenen Zielen in Adobe Workfront Goals](workfront-goals/goal-management/view-in-trouble-goals.md)
    * Zielausrichtung in Adobe Workfront Goals {#goal-alignment}
-      * [Zielausrichtung in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment.md)
+      * [Zielausrichtung in Adobe Workfront Ziele: Artikelindex](workfront-goals/goal-alignment/goal-alignment.md)
       * [Ausrichten von Zielen durch Verbinden in Adobe Workfront-Zielen](workfront-goals/goal-alignment/align-goals-by-connecting-them.md)
       * [Ausrichten von Zielen durch Konvertieren von Ergebnissen und Aktivitäten in Ziele](workfront-goals/goal-alignment/align-goals-by-converting-results-activities.md)
       * [Übersicht über die Zielausrichtung in Adobe Workfront Goals](workfront-goals/goal-alignment/goal-alignment-overview.md)

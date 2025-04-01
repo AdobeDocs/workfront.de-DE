@@ -7,7 +7,7 @@ description: Die Zielausrichtung stellt sicher, dass alle Personen in Ihrer Orga
 author: Alina
 feature: Workfront Goals
 exl-id: e073cf10-2333-4095-b932-73d105f0c5a4
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
 source-wordcount: '776'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Übersicht über die Zielausrichtung in Adobe Workfront Goals
+
+<!--Audited P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
@@ -36,7 +38,7 @@ ht-degree: 1%
 
 Die Ausrichtung von Zielen ist ein wichtiger Bestandteil des Ziel-Managements. Sie können sicherstellen, dass alle Personen in Ihrem Unternehmen über die erforderlichen Maßnahmen zur Förderung der Strategie auf einer Seite stehen, indem Sie ihre Ziele aufeinander und auf die Organisationsziele von Teams, Gruppen und des Unternehmens abstimmen.
 
-Nachdem die Ziele für Unternehmen, Teams oder Gruppen der obersten Ebene festgelegt und geprüft wurden, müssen direkt unterstellte Mitarbeiter und Team-Mitglieder zielgerichtetere Ziele erstellen, die sich von der obersten Ebene aus weiterentwickeln. Der Umfang dieser Ziele sollte enger gefasst sein und die Person, die für das Ziel verantwortlich ist, sowie ihren Einflussbereich berücksichtigen. Das Ziel sollte die Frage beantworten, was sie und ihr Team erreichen müssen, um das übergeordnete Ziel zu erreichen, an dem es ausgerichtet ist.
+Nachdem die obersten Unternehmens-, Team- oder Gruppenziele festgelegt und überprüft wurden, müssen direkt unterstellte Mitarbeiter und Teammitglieder zielgerichtetere Ziele erstellen, die sich von der obersten Ebene aus weiterentwickeln. Der Umfang dieser Ziele sollte enger gefasst sein und die Person, die für das Ziel verantwortlich ist, sowie ihren Einflussbereich berücksichtigen. Das Ziel sollte die Frage beantworten, was sie und ihr Team erreichen müssen, um das übergeordnete Ziel zu erreichen, an dem es ausgerichtet ist.
 
 Weitere Informationen zu Best Practices bei der Ausrichtung von Zielen finden Sie unter [Erste Schritte mit Adobe Workfront-Zielen](../../workfront-goals/goal-management/getting-started-with-wf-goals.md).
 

@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-alignment
-title: Navigieren Sie zum Abschnitt Zielausrichtung in Adobe Workfront-Ziele
+title: Navigieren Sie in Adobe Workfront Goals zum Abschnitt Zielausrichtung .
 description: Verwenden Sie den Abschnitt Zielausrichtung , um eine ganzheitliche Ansicht der Zielausrichtung in der gesamten Organisation in einem Flussdiagramm anzuzeigen. Abgestimmte Ziele werden auf Karten angezeigt, die in einer hierarchischen Struktur miteinander verbunden sind.
 author: Alina
 feature: Workfront Goals
 exl-id: e79ced31-4680-4af7-b083-3d615c747af8
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '937'
+source-wordcount: '956'
 ht-degree: 1%
 
 ---
 
 # Navigieren Sie zum Abschnitt Zielausrichtung in Adobe Workfront-Ziele
+
+<!--Audited P&P only: 4/2025-->
 
 Verwenden Sie den Abschnitt Zielausrichtung , um eine ganzheitliche Ansicht der Zielausrichtung in der gesamten Organisation in einem Flussdiagramm anzuzeigen. Abgestimmte Ziele werden auf Karten angezeigt, die in einer hierarchischen Struktur miteinander verbunden sind.
 
@@ -24,6 +26,8 @@ Informationen zur Zielausrichtung und deren Erreichung finden Sie in den folgend
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Aktivitäten durchzuführen:
 
 <table style="table-layout:auto">
@@ -33,11 +37,15 @@ Sie müssen über Folgendes verfügen, um die in diesem Artikel beschriebenen Ak
 </col>
 <tbody>
 <tr>
-<td role="rowheader">Adobe Workfront-Plan</td>
-<td>
-<p>Beliebig</p>
-
-</td>
+<td role="rowheader">Adobe Workfront-Plan*</td>
+<td> 
+   <p>Für die neue Plan- und Lizenzstruktur:
+  <ul><li>Ein Ultimate-Plan </li></ul>
+   </p>
+<p>Für die aktuelle Plan- und Lizenzstruktur: 
+<ul><li> Ein Profi oder höher </li>
+  <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
+   </td> 
 </tr>
 <tr>
 <td role="rowheader">Adobe Workfront-Lizenz*</td>
@@ -49,12 +57,9 @@ Oder
 <tr>
 <td role="rowheader">Produkt*</td>
 <td>
-<p> Neue Produktanforderung, eine der folgenden: </p>
-<ul>
-<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
-<li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
-<p>Oder</p>
-<p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+  <p> Neue Produktanforderung: Workfront</p>
+  Oder
+  <p>Aktuelle Produktanforderung: Zusätzlich zu einer Workfront-Lizenz müssen Sie eine Lizenz für Adobe Workfront Goals erwerben. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
 </tr>
 <tr>
 <td role="rowheader">Zugriffsebene</td>
@@ -70,7 +75,7 @@ Oder
 </div> </td>
 </tr>
 <tr>
-<td role="rowheader"><p>Layoutvorlage</p></td>
+<td role="rowheader"><p>Layout-Vorlage</p></td>
 <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
 </tr>
@@ -78,6 +83,8 @@ Oder
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Navigieren im Abschnitt Zielausrichtung .
 

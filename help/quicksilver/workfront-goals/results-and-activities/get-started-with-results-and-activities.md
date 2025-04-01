@@ -7,9 +7,9 @@ description: Sie müssen einem Ziel Ergebnisse, Aktivitäten oder abgestimmte Zi
 author: Alina
 feature: Workfront Goals
 exl-id: 64fa0aef-cb92-465a-9b74-d863fc232fd1
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '855'
 ht-degree: 0%
 
 ---
@@ -49,7 +49,7 @@ Nachdem mindestens eines dieser Elemente hinzugefügt wurde, können Sie das Zie
 >
 > Ein Ziel kann nicht mehr als insgesamt 1000 Aktivitäten, Ergebnisse, Projekte oder abgestimmte Ziele haben.</span>
 
-Dieser Artikel gibt einen Überblick über Aktivitäten und Ergebnisse. Informationen zum Ausrichten von Zielen finden Sie unter [Zielausrichtung in Adobe Workfront Goals](../../workfront-goals/goal-alignment/goal-alignment.md). Informationen zum Verbinden von Projekten mit Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
+Dieser Artikel gibt einen Überblick über Aktivitäten und Ergebnisse. Informationen zum Ausrichten von Zielen finden Sie unter [Zielausrichtung in Adobe Workfront-Zielen: Artikelindex](../../workfront-goals/goal-alignment/goal-alignment.md). Informationen zum Verbinden von Projekten mit Zielen finden Sie unter [Hinzufügen von Projekten zu Zielen in Adobe Workfront Goals](../results-and-activities/connect-projects-to-goals-overview.md).
 
 ## Ergebnisübersicht
 

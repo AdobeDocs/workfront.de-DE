@@ -3,23 +3,22 @@ content-type: reference
 product-previous: workfront-goals
 navigation-topic: goal-management
 title: Voraussetzungen für die Verwendung von Workfront Goals
-description: Ihr Adobe Workfront-Administrator muss sicherstellen, dass bestimmte Bedingungen erfüllt sind, bevor Sie auf Adobe Workfront-Ziele zugreifen können.
+description: Ihr Adobe Workfront-Administrator muss sicherstellen, dass bestimmte Bedingungen erfüllt sind, bevor Sie auf Adobe Workfront-Ziele zugreifen können. In diesem Artikel erfahren Sie mehr über die Zugriffsberechtigungen und Layout-Anforderungen für den Zugriff auf Workfront-Ziele.
 author: Alina
 feature: Workfront Goals
 exl-id: 3c7c832b-3e00-4ced-8829-8b1c23fa3871
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '716'
 ht-degree: 0%
 
 ---
 
 # Voraussetzungen für die Verwendung von Workfront Goals
 
-Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Bedingungen erfüllt sind, bevor Sie auf Adobe Workfront Goals zugreifen können:
+<!--Audited P&P only: 04/2025-->
 
-<!--drafted for P&P - replace the first bullet with this one when licensing changes: 
-* Your company must purchase the correct Adobe Worfront plan or Adobe Workfront Goal license. For information, see the section [Obtain Workfront Goals organization access](#obtain-workfront-goals-organization-access)in this article.-->
+Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Bedingungen erfüllt sind, bevor Sie auf Adobe Workfront Goals zugreifen können:
 
 * Ihr Unternehmen muss die richtige Lizenz für Workfront Goals erwerben. Weitere Informationen finden Sie im Abschnitt [Abrufen des Organisationszugriffs für Workfront](#obtain-workfront-goals-organization-access) in diesem Artikel.
 
@@ -48,9 +47,9 @@ Ihr Adobe Workfront-Administrator muss sicherstellen, dass alle folgenden Beding
 
 Je nachdem, welchen Workfront-Plan Ihr Unternehmen derzeit durchführt, sind folgende Szenarien möglich:
 
-* Wenn Ihr Unternehmen über einen neuen Workfront-Plan verfügt, müssen Sie über einen Ultimate Workfront-Plan verfügen. Workfront-Ziele sind nur in diesem Plan enthalten.
+* **Neuer Workfront-Plan**: Sie müssen über einen Ultimate Workfront-Plan verfügen. Workfront-Ziele sind nur in diesem Plan enthalten.
 
-* Wenn Ihr Unternehmen über den aktuellen Workfront-Plan verfügt, muss Ihr Unternehmen zusätzlich zur Workfront-Lizenz eine zusätzliche Lizenz erwerben, damit Ihre Benutzerinnen und Benutzer auf Workfront-Ziele zugreifen können.
+* **Aktueller Workfront-Plan**: Ihr Unternehmen muss zusätzlich zur Workfront-Lizenz eine zusätzliche Lizenz erwerben.
 
   Nachdem Ihr Unternehmen die zusätzliche Lizenz erworben hat, aktiviert Workfront Workfront Goals für Ihr Konto. Wenden Sie sich an Ihren Workfront-Kundenbetreuer, wenn Sie Informationen zum Kauf einer Lizenz für Workfront Goals benötigen.
 
@@ -60,13 +59,13 @@ Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [
 
 Je nachdem, welchen Workfront-Plan Ihr Unternehmen derzeit durchführt, sind folgende Szenarien möglich:
 
-* Wenn Ihr Unternehmen über das neue Zugriffsebenen-Modell verfügt, muss Ihnen Ihr Workfront-Administrator einen der folgenden Workfront-Lizenztypen gewähren, um auf Workfront-Ziele zugreifen zu können:
+* **Das neue Zugriffsebenen-Modell**: Ihr Workfront-Administrator muss Ihnen einen der folgenden Workfront-Lizenztypen gewähren, um auf Workfront-Ziele zugreifen zu können:
 
    * Mitwirkender oder Mitwirkende
    * Leicht
    * Standard
 
-* Wenn Ihr Unternehmen über das aktuelle Zugriffsebenen-Modell verfügt, muss Ihnen Ihr Workfront-Administrator einen der folgenden Workfront-Lizenztypen gewähren, um auf Workfront-Ziele zugreifen zu können:
+* **Das aktuelle Zugriffsebenen-Modell**: Ihr Workfront-Administrator muss Ihnen einen der folgenden Workfront-Lizenztypen gewähren, um auf Workfront-Ziele zugreifen zu können:
 
    * Plan
    * Arbeit

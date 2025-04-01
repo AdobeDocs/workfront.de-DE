@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Aktivieren von Zielen in Adobe Workfront Goals
+title: Aktivieren von Zielen in Adobe Workfront
 description: Wenn Sie ein Ziel erstellen, wird es von Adobe Workfront Goals mit dem Status Entwurf gespeichert. Entworfene Ziele sind nicht Teil des Zielmanagements.
 author: Alina
 feature: Workfront Goals
 exl-id: fc556073-fe63-4f13-a313-505ca0ef1f9b
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '501'
+source-wordcount: '489'
 ht-degree: 1%
 
 ---
 
 # Aktivieren von Zielen in Adobe Workfront Goals
+
+<!--Audited for P&P only: 4/2025-->
 
 Wenn Sie ein Ziel erstellen, wird es von Adobe Workfront Goals mit dem Status Entwurf gespeichert. Entworfene Ziele sind nicht Teil des Zielmanagements.
 
@@ -27,6 +29,8 @@ Informationen zum Erstellen eines Ziels finden Sie unter [Erstellen von Zielen i
 
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -57,12 +61,9 @@ Sie müssen über Folgendes verfügen:
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderung, eine der folgenden: </p>
-<ul>
-<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
-<li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
+  <p> Neue Produktanforderung: Workfront</p>
  <p>Oder</p>
- <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+  <p>Aktuelle Produktanforderung: Zusätzlich zu einer Workfront-Lizenz müssen Sie eine Lizenz für Adobe Workfront Goals erwerben. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene</td>
@@ -78,7 +79,7 @@ Sie müssen über Folgendes verfügen:
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
@@ -87,6 +88,7 @@ Sie müssen über Folgendes verfügen:
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
 
 ## Voraussetzungen
 

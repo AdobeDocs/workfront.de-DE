@@ -8,9 +8,9 @@ feature: Work Management
 topic: Collaboration
 role: User
 exl-id: 1449374a-ab0d-4c98-83cd-4e511467633a
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '2522'
+source-wordcount: '2556'
 ht-degree: 2%
 
 ---
@@ -243,15 +243,15 @@ Sie können ein Problem über die Bereiche „Problem bearbeiten“ oder „Prob
       <td role="rowheader">Gelöst von</td> 
       <td> <p>Dies zeigt an, ob das Problem durch ein anderes Objekt behoben wurde. Sie können aus dem Dropdown-Menü auswählen, ob dieses Problem durch eine Aufgabe, ein Projekt oder ein anderes Problem gelöst werden soll, und dann beginnen, den Namen der Aufgabe, des Projekts oder des Problems einzugeben, die bzw. das das Problem lösen soll. Auswählen, wenn es in der Liste angezeigt wird.</p>
 
-   <b>HINWEIS</b>
+   <b>HINWEISE</b>
 
-   Wenn Sie ein Objekt auswählen, um ein Problem zu beheben, wird der Problemstatus mit dem Status des Lösungsobjekts verknüpft und kann bei dem Problem nicht geändert werden. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und das Auflösen von Objekten </a>.
+   <ul><li>Wenn Sie ein Objekt auswählen, um ein Problem zu beheben, wird der Problemstatus mit dem Status des Lösungsobjekts verknüpft und kann bei dem Problem nicht geändert werden. Weitere Informationen zum Auflösen von Objekten finden Sie unter <a href="../../../manage-work/issues/convert-issues/resolving-and-resolvable-objects.md" class="MCXref xref">Übersicht über das Auflösen und das Auflösen von Objekten </a>.</li>
 
-   <b>TIPP</b>
+   <li>Wenn Sie ein Problem verbinden, das durch eine andere Aufgabe, ein anderes Problem oder ein anderes Projekt gelöst werden soll, werden keine Informationen aus dem Problem an das Lösungsobjekt übertragen (die Aufgabe, das Problem oder das Projekt, das im Feld Gelöst von aufgeführt ist). </li>
 
-   Wenn Ihr System- oder Gruppenadministrator das Feld „Gelöst von“ zu einer benutzerdefinierten Kopfzeile eines Problems hinzufügt, ändert sich das Feld in „Problem lösen“, „Aufgabe lösen“ oder „Projekt lösen“, wenn ein Lösungsobjekt mit dem Problem verknüpft ist.
+   <li>Wenn Ihr System- oder Gruppenadministrator das Feld „Gelöst von“ zu einer benutzerdefinierten Kopfzeile eines Problems hinzufügt, ändert sich das Feld in „Problem lösen“, „Aufgabe lösen“ oder „Projekt lösen“, wenn ein Lösungsobjekt mit dem Problem verknüpft ist.
 
-   Dieses Feld kann nicht bearbeitet werden, wenn es in der Anfragekopfzeile angezeigt wird. Weitere Informationen zum Anpassen von Problem-Headern finden Sie unter <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Anpassen von Objekt-Headern mithilfe einer Layout-Vorlage </a>
+   Dieses Feld kann nicht bearbeitet werden, wenn es in der Anfragekopfzeile angezeigt wird. Weitere Informationen zum Anpassen von Problem-Headern finden Sie unter <a href="../../../administration-and-setup/customize-workfront/use-layout-templates/customize-object-headers.md">Anpassen von Objekt-Headern mithilfe einer Layout-Vorlage </a></li></ul>
    </td> 
      </tr>
 

@@ -6,18 +6,22 @@ description: Wenn Sie mit der Arbeit an einem Ziel beginnen und es in Ihrer Orga
 author: Alina
 feature: Workfront Goals
 exl-id: 3089adeb-3e56-492a-82fe-536f57079b73
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '680'
+source-wordcount: '676'
 ht-degree: 0%
 
 ---
 
 # Löschen und Deaktivieren von Zielen in Adobe Workfront Goals
 
+<!--Audited for P&P only: 4/2025-->
+
 Wenn Sie mit der Arbeit an einem Ziel beginnen und es in Ihrer Organisation irrelevant wird, empfehlen wir, es zu deaktivieren, anstatt es zu löschen. Wenn Sie ein Ziel deaktivieren, werden dessen historische Informationen beibehalten und Sie haben die Möglichkeit, das Ziel zu einem späteren Zeitpunkt erneut zu aktivieren. Es gibt jedoch Zeiten, in denen das Löschen eines Ziels sinnvoll sein kann, um die Zielliste korrekt zu halten.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -36,27 +40,25 @@ Sie müssen über Folgendes verfügen:
 <p>Für die aktuelle Plan- und Lizenzstruktur: 
 <ul><li> Ein Profi oder höher </li>
   <li>Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.</li></ul></p>
-   </td> 
+   </td>  
   </tr>
+ <tr>
  <tr>
  <td role="rowheader">Adobe Workfront-Lizenz*</td>
  <td>
  <p>Neue Lizenz: Mitwirkende oder höher</p>
  Oder
- <p>Aktuelle Lizenz: Anfrage oder höher</p> </td>
+ <p>Aktuelle Lizenz: Anfrage oder höher</p> <p>Weitere Informationen finden Sie unter <a href="../../administration-and-setup/add-users/access-levels-and-object-permissions/wf-licenses.md" class="MCXref xref">Übersicht über Adobe Workfront-Lizenzen</a>.</p> </td>
  </tr>
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderung, eine der folgenden: </p>
-<ul>
-<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
-<li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
+  <p> Neue Produktanforderung: Workfront</p>
  <p>Oder</p>
- <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+  <p>Aktuelle Produktanforderung: Zusätzlich zu einer Workfront-Lizenz müssen Sie eine Lizenz für Adobe Workfront Goals erwerben. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
- <td role="rowheader"><p>Zugriffsebene</p></td>
+ <td role="rowheader">Zugriffsebene</td>
  <td> <p>Zugriff auf Ziele bearbeiten</p> </td>
  </tr>
  <tr data-mc-conditions="">
@@ -68,8 +70,8 @@ Sie müssen über Folgendes verfügen:
   <p>Informationen zum Freigeben von Zielen finden Sie <a href="../../workfront-goals/workfront-goals-settings/share-a-goal.md" class="MCXref xref">Freigeben eines Ziels in Workfront Goals</a>. </p>
   </div> </td>
  </tr>
- <tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+<tr>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
@@ -77,6 +79,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Ziele deaktivieren
 

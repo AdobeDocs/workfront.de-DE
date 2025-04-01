@@ -1,19 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Schließen und erneutes Öffnen von Zielen in Adobe Workfront-Zielen
+title: Schließen und Erneutes Öffnen von Zielen in Adobe Workfront
 description: Sie können ein Ziel schließen, wenn Sie anzeigen möchten, dass Sie es abgeschlossen haben oder nicht mehr daran arbeiten, da es veraltet ist.
 author: Alina
 feature: Workfront Goals
 exl-id: bbb549c1-aea6-4f5e-8a6b-01fc04cf06ef
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '952'
+source-wordcount: '940'
 ht-degree: 0%
 
 ---
 
 # Schließen und erneutes Öffnen von Zielen in Adobe Workfront-Zielen
+
+<!--Audited for P&P only: 4/2025-->
 
 Sie können ein Ziel schließen, wenn Sie Folgendes angeben möchten:
 
@@ -23,6 +25,8 @@ Sie können ein Ziel schließen, wenn Sie Folgendes angeben möchten:
 Sie können geschlossene Ziele erneut öffnen, wenn sie wieder relevant werden.
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -54,12 +58,9 @@ Sie müssen über Folgendes verfügen:
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderung, eine der folgenden: </p>
-<ul>
-<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
-<li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
+  <p> Neue Produktanforderung: Workfront</p>
  <p>Oder</p>
- <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+  <p>Aktuelle Produktanforderung: Zusätzlich zu einer Workfront-Lizenz müssen Sie eine Lizenz für Adobe Workfront Goals erwerben. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <td role="rowheader">Zugriffsebene</td>
  <td> <p>Zugriff auf Ziele bearbeiten</p> </td>
@@ -74,7 +75,7 @@ Sie müssen über Folgendes verfügen:
   </div> </td>
  </tr>
 <tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
@@ -82,6 +83,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen beim Schließen oder erneuten Öffnen von Zielen
 

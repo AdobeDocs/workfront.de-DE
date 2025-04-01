@@ -2,20 +2,22 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: In den folgenden Artikeln erfahren Sie, wie Sie Ziele in Workfront-Zielen ausrichten.
-description: In den folgenden Artikeln erfahren Sie, wie Sie Ziele in Adobe Workfront ausrichten.
+title: 'Zielausrichtung in Adobe Workfront-Zielen: Artikelindex'
+description: Ein wichtiger Schritt für den Erfolg Ihres Unternehmens besteht darin, sicherzustellen, dass alle Unternehmensziele auf allen Ebenen aufeinander und auf die Gesamtstrategie abgestimmt sind. In den folgenden Artikeln erfahren Sie, wie Sie Ziele in Adobe Workfront ausrichten.
 author: Alina
 feature: Workfront Goals
 recommendations: noDisplay, noCatalog
 exl-id: b5b0e5b2-1133-443b-8ef1-cbb1ca377fd6
-source-git-commit: 7c1bd52c6d1878b556bc92849b5d65fd0e89f51b
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '175'
+source-wordcount: '185'
 ht-degree: 0%
 
 ---
 
-# Zielausrichtung in Adobe Workfront Goals
+# Zielausrichtung in Adobe Workfront Ziele: Artikelindex
+
+<!--Audited P&P only: 4/2025-->
 
 >[!NOTE]
 >
@@ -24,11 +26,6 @@ ht-degree: 0%
 >* Für die neue Plan- und Lizenzstruktur:
 >    
 >   * Ein Ultimate-Plan
->        
->     Oder
->        
->   * Eine zusätzliche Lizenz für Adobe Workfront-Ziele für Prime- oder Select Adobe Workfront-Pläne.
->      
 >      
 >* Für die aktuelle Plan- und Lizenzstruktur:
 >    

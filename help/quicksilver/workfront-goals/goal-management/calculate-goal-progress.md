@@ -1,38 +1,39 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Übersicht über den Zielfortschritt und die Bedingung in Adobe Workfront Goals
+title: Übersicht über den Zielfortschritt und den Zustand in Adobe Workfront Goals
 description: Der Zielfortschritt wird von Fortschrittsindikatoren wie Aktivitäten, Ergebnissen oder untergeordneten Zielen gesteuert. Die Zielbedingung wird durch den Fortschritt des Ziels zum aktuellen Zeitpunkt bestimmt.
 author: Alina
 feature: Workfront Goals
 exl-id: 3050f7ff-a579-4fb8-82fd-bef850f27c20
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '833'
-ht-degree: 1%
+source-wordcount: '817'
+ht-degree: 0%
 
 ---
 
 # Übersicht über den Zielfortschritt und die Bedingung in Adobe Workfront Goals
 
-Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
+<!--Audited for P&P only: 4/2025-->
 
-* Für die neue Plan- und Lizenzstruktur:
-
-   * Ein Ultimate-Plan
-
-     Oder
-
-     Eine zusätzliche Lizenz für Adobe Workfront-Ziele für Prime- oder Select Adobe Workfront-Pläne.
-
-* Für die aktuelle Plan- und Lizenzstruktur:
-
-   * Ein Profi oder höher
-   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
-
-Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
-
-Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
+>[!IMPORTANT]
+>
+>Ihr Unternehmen muss über Folgendes verfügen, um die in diesem Artikel beschriebenen Funktionen nutzen zu können:
+>
+>
+>* Für die neue Plan- und Lizenzstruktur:
+>
+>   * Ein Ultimate-Plan
+>    
+>* Für die aktuelle Plan- und Lizenzstruktur:
+>
+>   * Ein Profi oder höher
+>   * Eine Adobe Workfront-Ziellizenz zusätzlich zu einer Workfront-Lizenz.
+>
+> Wenden Sie sich an Ihren Workfront Account Manager, um mehr über eine Workfront Goals-Lizenz zu erfahren.
+>
+>Weitere Informationen zum Zugriff auf Workfront-Ziele finden Sie unter [Voraussetzungen für die Verwendung von Workfront-Zielen](../../workfront-goals/goal-management/access-needed-for-wf-goals.md).
 
 Adobe Workfront berechnet den Zielfortschritt automatisch auf der Grundlage der Fortschrittsanzeigen.
 

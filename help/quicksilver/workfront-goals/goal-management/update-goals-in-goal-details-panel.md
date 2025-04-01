@@ -1,24 +1,21 @@
 ---
 product-previous: workfront-goals
 navigation-topic: goal-management
-title: Aktualisieren von Zielen im Bedienfeld „Zieldetails“ in Adobe Workfront-Zielen
+title: Aktualisieren von Zielen im Abschnitt „Zieldetails“ in Adobe Workfront Goals
 description: Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das Bedienfeld „Zieldetails“ zugreifen.
 author: Alina
 feature: Workfront Goals
 exl-id: e9df0d98-05a1-4977-b7f1-426b8f5b3eae
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '642'
+source-wordcount: '630'
 ht-degree: 1%
 
 ---
 
 # Aktualisieren von Zielen im Abschnitt „Zieldetails“ in Adobe Workfront Goals
 
-<!--drafted for the goal redesign:
-- change the title for Production to Update goals in the Goal details section in Adobe Workfront Goals. 
-- update the description in the metadata above
--->
+<!--Audited for P&P only: 4/2025-->
 
 Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das Bedienfeld „Zieldetails“ zugreifen.
 
@@ -26,8 +23,9 @@ Sie können Informationen zu einzelnen Zielen aktualisieren, indem Sie auf das B
 >
 >Sie können keine Ziele mit dem Status „Geschlossen“ aktualisieren.
 
-
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über Folgendes verfügen:
 
@@ -58,12 +56,9 @@ Sie müssen über Folgendes verfügen:
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderung, eine der folgenden: </p>
-<ul>
-<li>Einen ausgewählten oder Prime Adobe Workfront-Plan und eine zusätzliche Adobe Workfront Goals-Lizenz.</li>
-<li>Ein Ultimate Workfront-Plan, der standardmäßig Workfront-Ziele enthält. </li></ul>
- <p>Oder</p>
- <p>Aktuelle Produktanforderung: Ein Workfront-Plan und eine zusätzliche Lizenz für Adobe Workfront Goals. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+  <p> Neue Produktanforderung: Workfront</p>
+  Oder
+  <p>Aktuelle Produktanforderung: Zusätzlich zu einer Workfront-Lizenz müssen Sie eine Lizenz für Adobe Workfront Goals erwerben. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Zugriffsebene*</td>
@@ -79,7 +74,7 @@ Sie müssen über Folgendes verfügen:
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
@@ -87,6 +82,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 *Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Aktualisieren von Zielen im Abschnitt „Zieldetails“
 

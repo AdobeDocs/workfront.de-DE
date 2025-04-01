@@ -6,16 +6,16 @@ description: Sie können zu allen Zielen, die Sie in Adobe Workfront Goals anzei
 author: Alina
 feature: Workfront Goals
 exl-id: 6cf2d2d2-5ba5-40f2-a803-01359c338541
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: 4e1558b47f6041501aa4e4fbfa6317dec8aee571
 workflow-type: tm+mt
-source-wordcount: '328'
-ht-degree: 0%
+source-wordcount: '297'
+ht-degree: 1%
 
 ---
 
 # Verwalten von Zielkommentaren in Adobe Workfront Goals
 
-<!--Audited: 01/2024-->
+<!--Audited for P&P only: 04/2025-->
 
 <!--consider retiring this article when goals and all objects are in parity and we remove the legacy commenting from the system. From then on, there is just ONE way to comment and that will be documented in the Update Work article-->
 
@@ -63,9 +63,9 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
  <tr>
  <td role="rowheader">Produkt*</td>
  <td>
- <p> Neue Produktanforderung: Wenn Sie über den Select- oder Prime Adobe Workfront-Plan verfügen, müssen Sie auch eine zusätzliche Adobe Workfront Goals-Lizenz erwerben. Workfront-Ziele sind im Ultimate Workfront-Plan enthalten.</p>
+ <p> Neue Produktanforderung: Workfront</p>
  Oder
- <p>Aktuelle Produktanforderung: Sie müssen eine zusätzliche Lizenz für die Adobe Workfront Goals erwerben, um auf die in diesem Artikel beschriebenen Funktionen zugreifen zu können. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
+ <p>Aktuelle Produktanforderung: Zusätzlich zu einer Workfront-Lizenz müssen Sie eine Lizenz für Adobe Workfront Goals erwerben. </p> <p>Weitere Informationen finden Sie unter <a href="../../workfront-goals/goal-management/access-needed-for-wf-goals.md" class="MCXref xref">Voraussetzungen für die Verwendung von Workfront-Zielen</a>. </p> </td>
  </tr>
  <tr>
  <td role="rowheader">Konfiguration der Zugriffsebene</td>
@@ -81,7 +81,7 @@ Sie müssen über folgenden Zugriff verfügen, um die in diesem Artikel beschrie
   </div> </td>
  </tr>
  <tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzenden, einschließlich Workfront-Administratoren, muss eine Layout-Vorlage zugewiesen werden, die den Bereich Ziele im Hauptmenü enthält. </p>  
 </td>
   </tr>
