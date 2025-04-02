@@ -2,15 +2,15 @@
 product-area: projects
 navigation-topic: manage-tasks
 title: Aufgaben bearbeiten
-description: Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über Contribute- oder Verwaltungsberechtigungen verfügen. In diesem Artikel wird beschrieben, wie Sie nach einer Aufgabe suchen, diese suchen und bearbeiten können, wenn Sie dazu berechtigt sind.
+description: Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über die Berechtigung Beitragen oder Verwalten verfügen. In diesem Artikel wird beschrieben, wie Sie nach einer Aufgabe suchen, diese suchen und bearbeiten können, wenn Sie dazu berechtigt sind.
 author: Alina
 feature: Work Management, Tasks
 role: User
 exl-id: 572c6008-3a67-47ae-8f5d-6b871ef1f37b
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '3681'
-ht-degree: 3%
+source-wordcount: '3706'
+ht-degree: 4%
 
 ---
 
@@ -27,7 +27,7 @@ ht-degree: 3%
 -->
 
 
-Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über Contribute- oder Verwaltungsberechtigungen verfügen.
+Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder für die Sie über die Berechtigung Beitragen oder Verwalten verfügen.
 
 ## Zugriffsanforderungen
 
@@ -54,7 +54,7 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
    <td role="rowheader">Objektberechtigungen</td> 
    <td> 
     <ul> 
-     <li> <p>Contribute-Berechtigungen für eine Aufgabe , um die folgenden Informationen im Bereich „Aufgabendetails“ zu bearbeiten: </p>
+     <li> <p>Tragen Sie Berechtigungen zu einer Aufgabe bei, um die folgenden Informationen im Bereich Aufgabendetails zu bearbeiten: </p>
      <ul>
      <li>Beschreibung</li>
      <li>Status</li>
@@ -63,7 +63,7 @@ Sie können Informationen zu Aufgaben bearbeiten, die Sie erstellt haben oder f�
      <li> <p>Verwalten Sie die Berechtigungen für eine Aufgabe, um alle Informationen im Bereich Details und im Feld Aufgabe bearbeiten zu bearbeiten</p> </li> 
     </ul> 
     <ul> 
-     <li> <p>Contribute oder höhere Berechtigungen für das Projekt</p> </li> 
+     <li> <p>Mitwirken an oder höhere Berechtigungen für das Projekt</p> </li> 
     </ul> </td> 
   </tr> 
  </tbody> 
@@ -82,7 +82,7 @@ Beachten Sie beim Bearbeiten von Aufgaben Folgendes:
 * Trigger Aufgabenstatusbenachrichtigungen für Projekte mit dem Status „Aktuell“ werden aktualisiert. Um Verwirrung bei den Benutzern zu vermeiden, die den Aufgaben zugewiesen sind, sollten Sie die Bearbeitung von Aufgaben so weit wie möglich einschränken, wenn das Projekt den Status „Aktuell“ aufweist.
 * Aufgaben, die sich in einem Genehmigungsprozess befinden, können nicht bearbeitet werden. Sie können nur die Zeit protokollieren oder den Status für eine Aufgabe in einem Genehmigungsprozess aktualisieren.
 
-  ![](assets/edit-task-in-approval-process-nwe-350x148.png)
+  ![Aufgabe mit Genehmigungsprozess bearbeiten](assets/edit-task-in-approval-process-nwe-350x148.png)
 
 * Sie können Dokumente nur dann zu Aufgaben in einem Projekt mit dem Status „Abgeschlossen“, „Eingestellt“ oder „Genehmigung steht aus“ bearbeiten oder hinzufügen, wenn diese Funktion von Ihrem Workfront-Administrator oder einem Gruppenadministrator im Bereich „Projektvoreinstellungen“ aktiviert wurde. Informationen zum Festlegen von Projektvoreinstellungen finden Sie [Konfigurieren von systemweiten Projektvoreinstellungen](../../../administration-and-setup/set-up-workfront/configure-system-defaults/set-project-preferences.md).
 
@@ -223,8 +223,11 @@ Sie können eine Aufgabe über die Bereiche Aufgabe bearbeiten oder Aufgabendeta
       <td role="rowheader">Status</td> 
       <td> <p>Wählen Sie den Status der Aufgabe aus, der angibt, in welchem Entwicklungsstadium sich die Aufgabe befindet.</p> <p><b>TIPP</b>
 
-   Sie können den Aufgabenstatus in der Aufgabenkopfzeile aktualisieren. </p> </td>
-   </tr> 
+   Sie können den Aufgabenstatus in der Aufgabenkopfzeile aktualisieren. </p>
+
+   <p>Ihr Workfront- oder Gruppenadministrator kann die Namen der Aufgabenstatus anpassen. Weitere Informationen finden Sie unter <a href="/help/quicksilver/administration-and-setup/customize-workfront/creating-custom-status-and-priority-labels/create-or-edit-a-status.md">Erstellen oder Bearbeiten eines Status</a>. 
+      </td> 
+     </tr> 
      <tr> 
       <td role="rowheader">Priorität</td> 
       <td> <p>Dies ist eine visuelle Markierung, mit der Sie Ihre Aufgaben priorisieren können. </p> <p>Wählen Sie aus den folgenden Optionen aus: </p> 

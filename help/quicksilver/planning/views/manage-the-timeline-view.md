@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
 workflow-type: tm+mt
-source-wordcount: '2692'
+source-wordcount: '2684'
 ht-degree: 0%
 
 ---
@@ -81,7 +81,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Anzeigeberechtigungen für eine Ansicht, um die Anzeigeeinstellungen vorübergehend zu ändern</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
@@ -394,7 +394,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
 
    Die Datensätze werden in der Zeitleisten -Ansicht mit den von Ihnen ausgewählten Spezifikationen angezeigt.
 
-### Verwenden der Aufschlüsselungsfunktion, um verbundene Datensätze in der Zeitleisten -Ansicht anzuzeigen
+### Aufschlüsseln verbundener Datensätze in der Zeitleisten-Ansicht
 
 Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der Zeitleisten -Ansicht eines Datensatzes anzeigen. Wenn Sie Datensätze anhand ihrer Verbindungen aufschlüsseln, können Sie die Timelines anderer verbundener Datensätze anzeigen und verstehen, wie sich diese auf die Leistung und die Fristen Ihrer Datensätze auswirken können.
 
@@ -418,7 +418,7 @@ Mithilfe der Aufschlüsselungsfunktion können Sie verbundene Datensätze in der
 * Das Start- und Enddatum der Datensatztypen, die in der Zeitleisten -Ansicht angezeigt werden sollen, müssen in chronologischer Reihenfolge sortiert sein. Wenn beispielsweise ein Datensatz das Startdatum 31. Januar und das Enddatum 1. Januar hat, wird er nicht in der Zeitleisten -Ansicht angezeigt. Weitere Informationen finden Sie im Abschnitt [Verwalten einer Zeitleisten-Ansicht](#manage-a-timeline-view) in diesem Artikel.
 * Es gibt eine Begrenzung von fünf Datensatztypen, die Sie in die Aufschlüsselung eines Datensatzes einbeziehen können.
 
-#### Aufschlüsseln verbundener Datensätze in der Zeitleisten-Ansicht
+#### Aufschlüsseln verbundener Datensätze
 
 1. Erstellen Sie eine Zeitleisten -Ansicht für einen Datensatztyp, wie im Artikel [Verwalten von Datensatzansichten](/help/quicksilver/planning/views/manage-record-views.md) beschrieben.
 1. (Bedingt) Wenn Sie die Zeitleisten -Ansicht im Standardmodus anzeigen, klicken Sie auf **Aufschlüsselung**.
