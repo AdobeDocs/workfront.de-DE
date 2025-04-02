@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: e07e4c7bbdc7f68695df94cc1155e3997bad338b
+source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
 workflow-type: tm+mt
-source-wordcount: '1624'
+source-wordcount: '1628'
 ht-degree: 0%
 
 ---
@@ -348,7 +348,7 @@ Für API-Version 19 haben wir einige Ressourcen und Endpunkte geändert. Einige 
 
 Informationen zu neuen und aktualisierten Funktionen finden Sie unter [Neue Funktionen in der API-Version 19](/help/quicksilver/wf-api/api/new-api-version-19.md).
 
-Informationen zu API-Versionen finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
+Informationen dazu, welche API-Versionen derzeit unterstützt werden, finden Sie unter [API-Versionierung und Support-Zeitplan](/help/quicksilver/wf-api/api/api-version-support-schedule.md).
 
 ### Wartungs-Updates für Workfront 
 
