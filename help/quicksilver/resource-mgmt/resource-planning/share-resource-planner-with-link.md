@@ -6,9 +6,9 @@ description: Adobe Workfront kann eine eindeutige URL für die Benutzeransicht d
 author: Lisa
 feature: Resource Management
 exl-id: feb2ec26-f1a6-4581-9e1d-be948a2170c3
-source-git-commit: a3b2ac192e1f37e0c3d16d059ed96e8d5cadf8be
+source-git-commit: af0f1b9baef20c5910b13a52207531887a8524c5
 workflow-type: tm+mt
-source-wordcount: '655'
+source-wordcount: '666'
 ht-degree: 0%
 
 ---
@@ -56,7 +56,6 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-
 Beachten Sie beim Generieren der eindeutigen URL für die Benutzeransicht des Ressourcenplaners Folgendes:
 
 * Sie können eine eindeutige URL nur für die Benutzeransicht erhalten. Die Option zum Generieren der URL ist in den Projekt- oder Rollenansichten nicht vorhanden.
@@ -80,18 +79,18 @@ So rufen Sie eine eindeutige URL in der Benutzeransicht des Ressourcenplaners ab
    * Quartal
 
 1. (Optional) Wählen Sie aus, ob die Informationen nach **(FTE** oder **Stunden** angezeigt werden sollen.\
-   ![RP_hours_or_fte_in_user_view.png](assets/rp-hours-or-fte-in-user-view.png)
+   ![Wählen Sie FTE oder Stunden](assets/rp-hours-or-fte-in-user-view.png)
 
 1. (Optional) Wenden Sie Filter auf den Ressourcenplaner an.\
    Informationen zum Anwenden von Filtern finden Sie [Filterinformationen im Ressourcenplaner](../../resource-mgmt/resource-planning/filter-resource-planner.md) .
 
 1. Klicken Sie auf das **Hyperlink**-Symbol.\
-   ![RP_Storm_generate_URL_with_copy_URL_link.pn](assets/rp-storm-generate-url-with-copy-url-link-350x182.png)
+   ![Hyperlink-Symbol und URL](assets/rp-generate-url-from-link-icon.png)
 
 1. Klicken Sie auf **URL kopieren**.\
    Damit wird die eindeutige URL des Ressourcenplaners in der Benutzeransicht in die Zwischenablage kopiert.
 
-1. (Optional) Führen Sie einen der folgenden Schritte aus:  
+1. (Optional) Führen Sie einen der folgenden Schritte aus:
 
    * Fügen Sie die URL in eine andere Anwendung ein, um sie an einen anderen Benutzer zu senden.\
      Der Benutzer muss bei Workfront angemeldet sein, damit der Ressourcenplaner in der Benutzeransicht angezeigt werden kann.
@@ -114,4 +113,4 @@ So rufen Sie eine eindeutige URL in der Benutzeransicht des Ressourcenplaners ab
    Informationen zum Hinzufügen von Dashboards zu einer Layout-Vorlage finden Sie unter [Erstellen und Verwalten von Layout-Vorlagen](../../administration-and-setup/customize-workfront/use-layout-templates/create-and-manage-layout-templates.md) .\
    Weitere Informationen zum Freigeben von Dashboards finden Sie unter [Freigeben eines Dashboards](../../reports-and-dashboards/dashboards/creating-and-managing-dashboards/share-dashboard.md) .\
    Beim Anzeigen der freigegebenen URL können Benutzerinnen und Benutzer die Informationen mit den Einstellungen sehen, die Sie ursprünglich auf den Ressourcenplaner angewendet haben. Sie müssen bei Workfront angemeldet sein, um die freigegebene URL sehen zu können.\
-   ![user_view_dashoard_from_unique_url.png](assets/user-view-dashoard-from-unique-url-350x85.png)
+   ![Beispiel-Dashboard mit angezeigtem Ressourcenplaner](assets/user-view-dashoard-from-unique-url-350x85.png)
