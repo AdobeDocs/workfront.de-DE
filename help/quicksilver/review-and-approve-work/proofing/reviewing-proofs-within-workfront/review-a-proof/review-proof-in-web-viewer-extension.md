@@ -6,9 +6,9 @@ description: Das Adobe Workfront-Überprüfungs-Tool ist eine Browser-Erweiterun
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 4fea13cc-2d56-466e-8851-6134782e7e80
-source-git-commit: 91f2dd12a91889c2cd1c2c01c93402e161684665
+source-git-commit: 7b02d5670ebba1456e37e6fd815e7812ec06def2
 workflow-type: tm+mt
-source-wordcount: '496'
+source-wordcount: '522'
 ht-degree: 1%
 
 ---
@@ -27,11 +27,37 @@ Das Adobe Workfront-Überprüfungs-Tool ist eine Web-basierte Browser-Erweiterun
 Es wird empfohlen, den Desktop Proofing Viewer zu verwenden, wenn sich der zu überprüfende Inhalt auf einer Website befindet, die
 
 * Erfordert SSO-Authentifizierung
-* Eröffnet ihre Website in iFrames, wie Figma
+* Verhindert das Öffnen ihrer Site in iFrames wie Figma
 
 
+## Installieren der Erweiterung
 
-## Festlegen des Adobe Workfront-Überprüfungs-Tools als Standard-Viewer für URL- und ZIP-Korrekturabzüge
+### Voraussetzungen
+
+* Sie müssen die veraltete Web-Viewer-Erweiterung entfernen, um das Adobe Workfront-Überprüfungs-Tool verwenden zu können.
+
+### Installieren der Erweiterung
+
+<!--This extension is required to review conent in GS and Ex.
+
+You must install the extension to reiew content in GenS and Express.
+
+To review content in GS, Express, or Wou must install the extension if you are using GenStuido or Creative cloud express-->
+
+Reviewer und genehmigende Personen müssen das Adobe Workfront-Überprüfungs-Tool installieren. in einem der folgenden Browser:
+
+* [Firefox-Erweiterung](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
+
+* [Chrome-Erweiterung](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
+
+* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
+
+
+Damit interaktive Korrekturabzüge automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet werden können, muss ein Workfront-Administrator die Korrekturabzugseinstellungen in Workfront aktualisieren, wie in den folgenden Abschnitten beschrieben.
+
+## Aktualisieren der Workfront-Proofing-Standardeinstellungen
+
+### Festlegen des Adobe Workfront-Überprüfungs-Tools als Standard-Viewer für URL- und ZIP-Korrekturabzüge
 
 Um das Web-Überprüfungs-Tool für URL- und ZIP-Korrekturabzüge zu verwenden, muss ein Workfront-Administrator die Standardeinstellung für interaktive Korrekturabzüge anpassen.
 
@@ -43,9 +69,9 @@ Um das Web-Überprüfungs-Tool für URL- und ZIP-Korrekturabzüge zu verwenden, 
 
 >[!NOTE]
 >
->Diese Änderung gilt für alle interaktiven Korrekturabzüge in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in der Vorschau-Umgebung zu testen, bevor es in der Produktionsumgebung aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung wieder auf &quot;**für alle interaktiven Korrekturabzüge aktiviert“**.
+>Diese Änderung gilt für alle interaktiven Korrekturabzüge in Ihrer Workfront-Instanz. Es wird empfohlen, das neue Erlebnis in der Vorschau-Umgebung zu testen, bevor es in der Produktionsumgebung aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Einstellung des Kontos **Desktop Proofing Viewer für interaktives Proofing** auf **Aktiviert für alle interaktiven Korrekturabzüge** ändern.
 
-## Festlegen des Adobe Workfront-Überprüfungs-Tools als Standard-Viewer nur für ZIP-Korrekturabzüge
+### Festlegen des Adobe Workfront-Überprüfungs-Tools als Standard-Viewer nur für ZIP-Korrekturabzüge
 
 Um das Web-Überprüfungs-Tool nur für ZIP-Korrekturabzüge zu verwenden, muss ein Workfront-Administrator die Standardeinstellung für interaktive Korrekturabzüge anpassen.
 
@@ -57,20 +83,7 @@ Um das Web-Überprüfungs-Tool nur für ZIP-Korrekturabzüge zu verwenden, muss 
 
 >[!NOTE]
 >
->Diese Änderung gilt für alle interaktiven Korrekturabzüge in Ihrer Vorschau- und Produktionsumgebung. Es wird empfohlen, das neue Erlebnis in der Vorschau-Umgebung zu testen, bevor es in der Produktionsumgebung aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Kontoeinstellung wieder auf &quot;**für alle interaktiven Korrekturabzüge aktiviert“**.
+>Diese Änderung gilt für alle ZIP-Korrekturabzüge in Ihrer Workfront-Instanz. Es wird empfohlen, das neue Erlebnis in der Vorschau-Umgebung zu testen, bevor es in der Produktionsumgebung aktiviert wird. Sie können einfach zum Desktop-Viewer zurückkehren, indem Sie die Einstellung des Kontos **Desktop Proofing Viewer für interaktives Proofing** auf **Aktiviert für alle interaktiven Korrekturabzüge** ändern.
 
-## Installieren der Erweiterung
 
-Reviewer und genehmigende Personen müssen das Adobe Workfront-Überprüfungs-Tool installieren. in einem der folgenden Browser:
 
-* [Firefox-Erweiterung](https://addons.mozilla.org/en-US/firefox/addon/adobe-workfront-review-tool/)
-
-* [Chrome-Erweiterung](https://chromewebstore.google.com/detail/adobe-workfront-review-to/lhdepbgeilldghlfnankdnponhljpgml)
-
-* [Edge](https://microsoftedge.microsoft.com/addons/detail/adobe-workfront-review-to/llhapmaiiddmcamgeapaipjpagnoijen)
-
-Nach der Installation der Erweiterung werden interaktive Korrekturabzüge automatisch im Adobe Workfront-Überprüfungs-Tool geöffnet.
-
->[!IMPORTANT]
->
->Sie müssen die veraltete Web-Viewer-Erweiterung entfernen, um das Adobe Workfront-Überprüfungs-Tool verwenden zu können.

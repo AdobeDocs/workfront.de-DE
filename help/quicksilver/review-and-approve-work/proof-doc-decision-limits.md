@@ -6,16 +6,22 @@ description: Korrekturabzugs- und Dokumentenentscheidungen sind auf alle nicht g
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: 95679dd71ef7e4991853e63573a387f26321159d
+source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
 workflow-type: tm+mt
-source-wordcount: '219'
-ht-degree: 3%
+source-wordcount: '259'
+ht-degree: 5%
 
 ---
 
 # Eingeschränkte Dokument- und Korrekturabzugsentscheidung für nicht bezahlte Benutzer - Überblick
 
-Korrekturabzugs- und Dokumentenentscheidungen sind für alle nicht bezahlten Workfront-Lizenzen in den neuen Plänen beschränkt. Weitere Informationen finden Sie unter [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
+Korrekturabzugs- und Dokumentenentscheidungen sind für alle nicht bezahlten Workfront-Lizenzen in den neuen Plänen beschränkt. Wenn Sie als genehmigende Person für ein Dokument oder einen Korrekturabzug zugewiesen werden, müssen Sie eine Entscheidung treffen, um den Prüfungs- und Genehmigungsprozess voranzubringen.
+
+Die folgenden Entscheidungsoptionen werden auf das monatliche Limit angerechnet:
+
+* Genehmigen
+* Mit Änderungen genehmigt
+* Muss bearbeitet werden
 
 Die Limits werden monatlich pro Benutzer zurückgesetzt. Die Entscheidungsbeschränkungen für jede Lizenz variieren je nach dem Plan, den Sie verwenden:
 
@@ -61,6 +67,8 @@ Die Limits werden monatlich pro Benutzer zurückgesetzt. Die Entscheidungsbeschr
    </td>
   </tr>
 </table>
+
+Weitere Informationen finden Sie unter [Übersicht über neue Lizenzen](/help/quicksilver/administration-and-setup/add-users/how-access-levels-work/licenses-overview.md).
 
 ## Externe Benutzer
 
