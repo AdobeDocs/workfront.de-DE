@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3ea3acc79a0f2d9c61b4ca7fff68855a9a7b1de7
+source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
 workflow-type: tm+mt
-source-wordcount: '1706'
+source-wordcount: '1774'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,18 @@ Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > A
 ## Dokumente
 
 +++Erweitern, um Aktualisierungen der Dokumentenschnittstelle anzuzeigen
+
+### Aktualisierungen der Benutzeroberfläche auf der Freigabeseite für externe Dokumente
+
+**Vorschau-Version: 3. April 2025; Produktions-Version: Ab der Woche vom 10. April 2025**
+
+Wir haben die Seite aktualisiert, die externen Benutzern angezeigt wird, wenn ein Dokument für sie freigegeben wird. Auf dieser Seite können externe Benutzer
+
+* Dokument herunterladen
+* Genehmigungsentscheidung treffen
+* Proofing-Viewer öffnen
+
+Dieses Update enthält ein moderneres Design, das mit anderen Bereichen von Workfront konsistent ist.
 
 ### Aktualisierung der Benutzeroberfläche für den Bereich Genehmigungen in einem Dokument
 
