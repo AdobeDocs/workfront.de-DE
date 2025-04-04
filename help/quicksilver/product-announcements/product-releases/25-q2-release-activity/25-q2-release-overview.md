@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9b78a58e-7ced-4b13-8108-40bd36339667
-source-git-commit: 0ae0e2d3c4e47a1f7344acf18068bba9cbbab597
+source-git-commit: 993b066ecefb4b345c59289d6c6466ef0416d620
 workflow-type: tm+mt
-source-wordcount: '1628'
+source-wordcount: '1640'
 ht-degree: 0%
 
 ---
@@ -298,9 +298,11 @@ Im Zuge der weiteren Verbesserung der Workfront-Plattform ist es wichtig, unsere
 
 #### Wir entfernen die alte Agile-Ansicht in einem Projekt
 
-Die veraltete Agile-Ansicht in einem Projekt wird mit der Version 25.3 vom 13. März 2025 aus Workfront entfernt. Sie können Ihre Aufgaben weiterhin in einer Agile-Ansicht in einem Projekt anzeigen, indem Sie auf das Symbol Pinnwände klicken.
+Die veraltete Agile-Ansicht in einem Projekt wird mit der Version 25.3 vom 13. März 2025 aus Workfront entfernt. Sie können Ihre Aufgaben weiterhin in einer Agile-Ansicht in einem Projekt anzeigen, indem Sie auf das Symbol Pinnwände klicken. Die vorhandenen agilen Legacy-Tools sind weiterhin im Bereich Teams verfügbar.
 
-Weitere Informationen zur Verwendung der Agile-Ansicht finden Sie unter [Verwalten eines Projekts in der Agile-Ansicht](/help/quicksilver/manage-work/projects/manage-projects/manage-projects-in-agile-view.md).
+Die nachstehende Abbildung zeigt die alte Agile-Option, die entfernt wird:
+![Legacy-Link für Agile-Ansicht](assets/project-agile-board-view.png)
+
 
 #### Einstellung von Enhanced Analytics
 
