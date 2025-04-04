@@ -2,19 +2,21 @@
 content-type: reference
 product-previous: workfront-goals
 navigation-topic: workfront-goals-navigation-topic
-title: Zielüberprüfung und die Abschnitte Adobe Workfront-Ziele .
+title: 'Informationen zur Zielüberprüfung und zu den Adobe Workfront-Zielabschnitten: Artikelindex'
 description: In den folgenden Artikeln erfahren Sie mehr über das Überprüfen von Zielen und lernen die Abschnitte kennen, in denen Sie Ziele in Adobe Workfront verwalten können.
 author: Alina
 feature: Workfront Goals
 exl-id: 81f531f7-3390-4f85-9a96-480f4e84295e
-source-git-commit: 811d8076a0b344e863b25aa253a0fb1c102f0435
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
-source-wordcount: '152'
+source-wordcount: '156'
 ht-degree: 0%
 
 ---
 
-# Zielüberprüfung und die Abschnitte Adobe Workfront-Ziele .
+# Zielüberprüfung und die Abschnitte Adobe Workfront-Ziele: Artikelindex
+
+<!--Audited: 4/2025-->
 
 >[!IMPORTANT]
 >

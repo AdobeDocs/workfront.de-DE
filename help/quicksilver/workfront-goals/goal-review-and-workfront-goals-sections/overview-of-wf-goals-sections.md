@@ -2,12 +2,12 @@
 content-type: overview
 product-previous: workfront-goals
 navigation-topic: goal-review-and-sections
-title: Überblick über die Abschnitte zu Adobe Workfront-Zielen
+title: Überblick über die Adobe Workfront-Zielabschnitte
 description: Sie können auf Ziellisten oder einzelne Ziele zugreifen und sie über mehrere Abschnitte von Adobe Workfront-Zielen verwalten. Welcher Abschnitt verwendet wird, hängt vom Zweck ab, den Sie beim Arbeiten mit Zielen erreichen möchten.
 author: Alina
 feature: Workfront Goals
 exl-id: 915f8c62-e35a-41a0-8a63-40c28468c55a
-source-git-commit: 45c71a8106bdb8eeaa38f2fb83ff0312e48183d0
+source-git-commit: a64f6e507d74201cba1455fbbc6af77c2b7ba058
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 1%
@@ -15,6 +15,8 @@ ht-degree: 1%
 ---
 
 # Überblick über die Abschnitte zu Adobe Workfront-Zielen
+
+<!--Audited for P&P only: 4/2025-->
 
 >[!IMPORTANT]
 >
