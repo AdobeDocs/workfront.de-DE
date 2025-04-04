@@ -8,16 +8,18 @@ author: Alina
 feature: Work Management, Projects
 role: User
 exl-id: 996398c5-de92-445e-8e86-36b2efdcf6b5
-source-git-commit: f21fd0761d942916039f6364e62f489a07217bfe
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '564'
+source-wordcount: '591'
 ht-degree: 1%
 
 ---
 
 # Geplantes Abschlussdatum für das Projekt festlegen
 
-Das geplante Abschlussdatum eines Projekts ist das Datum, bis zu dem das Projekt abgeschlossen sein soll.
+<!-- Audited: 4/2025 -->
+
+Das geplante Abschlussdatum eines Projekts ist das Datum, an dem das Projekt abgeschlossen werden soll.
 
 Der geplante Start und die geplanten Abschlussdaten eines Projekts hängen von den Daten der Aufgaben im Projekt ab. Dieser Artikel beschreibt, wie Sie das geplante Abschlussdatum eines Projekts manuell oder automatisch festlegen können. Weitere Informationen zum geplanten Abschlussdatum einer Aufgabe finden Sie unter [Übersicht über das geplante Abschlussdatum der Aufgabe](../../../manage-work/tasks/task-information/task-planned-completion-date.md).
 
@@ -56,6 +58,8 @@ Das geplante Abschlussdatum eines Projekts kann manuell oder automatisch festgel
 </table>
 -->
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -63,15 +67,22 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
-   <td> <p>Plan </p> </td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td><p>
+   Neu: Standard
+
+Oder
+
+Aktuell: Plan </p>
+
+</td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Projekte bearbeiten</p> <p><b>NOTIZ</b>
 
 Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrator, ob er zusätzliche Einschränkungen in Ihrer Zugriffsebene festgelegt hat. Informationen dazu, wie Workfront-Admins Ihre Zugriffsebene ändern können, finden Sie unter <a href="../../../administration-and-setup/add-users/configure-and-grant-access/create-modify-access-levels.md" class="MCXref xref">Erstellen oder Ändern benutzerdefinierter Zugriffsebenen</a>.</p> </td>
@@ -83,7 +94,9 @@ Wenn Sie immer noch keinen Zugriff haben, fragen Sie Ihren Workfront-Administrat
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Manuelles Festlegen des geplanten Abschlussdatums eines Projekts
 
@@ -96,15 +109,17 @@ Sie müssen das geplante Abschlussdatum eines Projekts manuell festlegen, wenn S
 
 So planen Sie ein Projekt ab dem Abschlussdatum:
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Projekte**.
+{{step1-to-projects}}
 
-1. Klicken Sie **Neues Projekt** und dann **Neues Projekt**.
+1. Klicken Sie auf **Neues Projekt** und wählen Sie dann **Neues Projekt** aus der angezeigten Dropdown-Liste aus.
 
    Weitere Informationen zum Erstellen von Projekten finden Sie im Artikel [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Wählen **Projektdetails** im linken Bereich aus und klicken Sie dann oben rechts auf **Projekt** bearbeiten“.
+1. Wählen **Projektdetails** im linken Bedienfeld aus.
 
-1. Wählen Sie im **Zeitplanmodus** die Option **Abschlussdatum** aus.
+1. Klicken Sie auf **Projekt bearbeiten**-Symbol ![Bearbeiten](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in der oberen rechten Ecke und wählen Sie dann **Übersicht** in der angezeigten Dropdown-Liste aus.
+
+1. Klicken Sie **Abschnitt** Projektdaten“ auf das Feld **Planungsmodus** und wählen Sie dann **Abschlussdatum**.
 
 1. Geben Sie **„Geplantes Abschlussdatum** des Projekts an.
 1. Klicken Sie auf **Änderungen speichern**.
@@ -117,15 +132,17 @@ Das geplante Abschlussdatum eines Projekts wird automatisch von Workfront berech
 
 So planen Sie ein Projekt ab dem Startdatum:
 
-1. Klicken Sie oben rechts auf **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Projekte**.
+{{step1-to-projects}}
 
-1. Klicken Sie **Neues Projekt** und dann **Neues Projekt**.
+1. Klicken Sie auf **Neues Projekt** und wählen Sie dann **Neues Projekt** aus der angezeigten Dropdown-Liste aus.
 
    Weitere Informationen zum Erstellen von Projekten finden Sie im Artikel [Erstellen eines Projekts](../../../manage-work/projects/create-projects/create-project.md).
 
-1. Wählen **Projektdetails** im linken Bereich aus und klicken Sie dann oben rechts auf **Projekt** bearbeiten“.
+1. Wählen **Projektdetails** im linken Bedienfeld aus.
 
-1. Wählen Sie im **Zeitplanmodus** die Option **Startdatum**.
+1. Klicken Sie auf **Projekt bearbeiten**-Symbol ![Bearbeiten](/help/quicksilver/manage-work/projects/planning-a-project/assets/qs-edit-icon.png) in der oberen rechten Ecke und wählen Sie dann **Übersicht** in der angezeigten Dropdown-Liste aus.
+
+1. Klicken Sie **Abschnitt** Projektdaten“ auf das Feld **Planungsmodus** und wählen Sie dann **Startdatum**.
 
 1. Geben Sie **„Geplantes Startdatum** des Projekts an.
 1. Klicken Sie auf **Änderungen speichern**.

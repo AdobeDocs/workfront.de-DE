@@ -3,17 +3,19 @@ product-area: requests
 navigation-topic: create-requests
 title: Benutzern die Möglichkeit geben, ein Problem per E-Mail an ein Anfrage-Warteschlangenprojekt zu senden
 description: Sie können ein Projekt so konfigurieren, dass Benutzende dem Projekt Probleme per E-Mail hinzufügen können.
-author: LIsa
+author: Alina, Courtney
 feature: Work Management
 exl-id: 556775e8-7ac9-482d-8c1c-863678584aa4
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: fedb0328450896d212081715df4cde7644b169bc
 workflow-type: tm+mt
-source-wordcount: '799'
+source-wordcount: '790'
 ht-degree: 0%
 
 ---
 
 # Benutzern die Möglichkeit geben, ein Problem per E-Mail an ein Anfrage-Warteschlangen-Projekt zu senden
+
+<!-- Audited: 4/2025 -->
 
 <!--
 <p style="color: #ff1493;" data-mc-conditions="QuicksilverOrClassic.Draft mode">(NOTE:&nbsp;When updating POP account information here, also update information in these articles: Allowing users to reply to email notifications, Configuring Email Notifications, Understanding the Queue Details Tab in a Project )</p>
@@ -55,9 +57,7 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 ## Voraussetzungen
 
-Die folgenden Voraussetzungen sind erforderlich, um ein Projekt so zu konfigurieren, dass Benutzende dem Projekt Probleme per E-Mail hinzufügen können.
-
-Diese Bedingungen müssen erfüllt sein, bevor diese Funktion aktiviert wird:
+Die folgenden Bedingungen sind erforderlich, um ein Projekt so zu konfigurieren, dass Benutzende dem Projekt Probleme per E-Mail hinzufügen können:
 
 * Benutzende, die Probleme an dieses Konto senden, müssen aktive Benutzende mit einer Lizenz für Workfront sein.
 * Benutzer, die Probleme an dieses Konto senden, müssen über die Berechtigung „Problem hinzufügen“ für das Projekt verfügen.
@@ -79,7 +79,7 @@ Diese Bedingungen müssen erfüllt sein, bevor diese Funktion aktiviert wird:
 
 1. Navigieren Sie zu dem Projekt, das Sie aktivieren möchten, um Probleme per E-Mail zu empfangen.
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“. Möglicherweise müssen Sie zuerst auf **Mehr anzeigen** klicken.
-1. Wählen Sie **Bereich &quot;**&quot; **Publish als Hilfeanfragewarteschlange**.
+1. Wählen **Bereich &quot;**&quot; die Option **Als Warteschlange für Hilfeanfragen veröffentlichen**.
 
 1. Scrollen Sie nach unten zum Bereich **E-Mail-Warteschlangeneinstellungen** und wählen Sie dann **Anforderungsaufnahme per E-Mail aktivieren** aus.
 
