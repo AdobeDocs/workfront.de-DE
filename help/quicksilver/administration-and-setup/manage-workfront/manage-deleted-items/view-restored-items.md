@@ -8,9 +8,9 @@ feature: System Setup and Administration
 role: Admin
 author: Lisa
 exl-id: 0c0fc9df-23eb-4a2b-a5b0-6dbd742e8238
-source-git-commit: dc64fef83c2b1e9f8bf9438017155bd47b83ab23
+source-git-commit: 1d18b58d1ac47159f301589315883f28dfa58694
 workflow-type: tm+mt
-source-wordcount: '204'
+source-wordcount: '206'
 ht-degree: 1%
 
 ---
@@ -66,8 +66,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
    Elemente werden standardmäßig nach dem Wiederherstellungsdatum sortiert.
 
-1. Klicken Sie auf **Registerkarte**, **Aufgaben**, **Probleme** oder **Dokumente**, je nach dem Typ des Elements, das wiederhergestellt wurde.
+1. Klicken Sie auf **Registerkarte**, **Aufgaben**, **Probleme**, **Dokumente** oder **Vorlagen** je nach dem Typ des wiederhergestellten Elements.
 
 1. Klicken Sie auf den verknüpften Namen des Elements, das Sie anzeigen möchten.
 
-   Das Projekt, die Aufgabe, das Problem oder das Dokument wird angezeigt.
+   Das Projekt, die Aufgabe, das Problem, das Dokument oder die Vorlage wird angezeigt.
