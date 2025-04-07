@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 73f339b54985b725f265d582992a43b9f80dbd7c
+source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
 workflow-type: tm+mt
-source-wordcount: '1971'
+source-wordcount: '1922'
 ht-degree: 0%
 
 ---
@@ -110,7 +110,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
    ![](assets/new-share-button.png)
 
-1. Beginnen Sie im Feld **Gewähren von &lt; Objektname > Zugriff auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder der Firma, für den bzw. die Sie das Objekt freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+1. Beginnen Sie im Feld **Zugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder der Firma, für den bzw. die Sie das Objekt freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    ![](assets/new-share-button-add-people.png){width="350"}
 
@@ -134,8 +134,8 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
    Die folgenden Optionen sind verfügbar:
 
    * **Anzeigen** Benutzer können das Element überprüfen und freigeben.
-   * **Contribute**: Benutzende können Aktualisierungen vornehmen, Informationen protokollieren, kleinere Änderungen vornehmen und Inhalte freigeben sowie alle Anzeigeberechtigungen erteilen.
-   * **Verwalten:** Benutzer haben vollen Zugriff auf das Objekt ohne Administratorrechte (die auf Zugriffsebene gewährt werden). Darüber hinaus verfügen sie über alle Berechtigungen zum Anzeigen und Contribute .
+   * **Beitragen**: Benutzer können Aktualisierungen vornehmen, Informationen protokollieren, kleinere Änderungen vornehmen und Inhalte freigeben sowie alle Anzeigeberechtigungen erteilen.
+   * **Verwalten:** Benutzer haben vollen Zugriff auf das Objekt ohne Administratorrechte (die auf Zugriffsebene gewährt werden). Darüber hinaus verfügen sie über alle Berechtigungen zum Anzeigen und Beitragen .
 
      >[!NOTE]
      >
@@ -145,7 +145,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
    ![](assets/new-share-advanced-permissions-dropdown.png)
 
-   Ansicht, Verwalten und Contribute verfügen je nach ausgewähltem Objekt über unterschiedliche erweiterte Optionen.
+   Anzeigen, Verwalten und Beitragen verfügen je nach ausgewähltem Objekt über verschiedene erweiterte Optionen.
 
    Weitere Informationen zu Berechtigungsebenen finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
@@ -169,13 +169,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
    Sie können Berechtigungen für die Projekte angeben, die aus einer Vorlage erstellt werden, wenn Sie die Vorlage freigeben. Weitere Informationen finden Sie unter [Freigeben von Projektvorlagen](../../manage-work/projects/create-and-manage-templates/share-project-template.md).
 
-1. (Bedingt) Um das Objekt für externe Benutzer freizugeben, klicken Sie auf **Link kopieren** und verteilen Sie den Link dann an externe Benutzer.
-
-   Alle Benutzer mit dem Link können das Objekt anzeigen.
-
-   >[!CAUTION]
-   >
-   >Es wird empfohlen, bei der Freigabe eines Objekts mit vertraulichen Informationen an externe Benutzer Vorsicht walten zu lassen. Auf diese Weise können sie Informationen anzeigen, ohne ein Workfront-Benutzer oder Teil Ihres Unternehmens zu sein.
+1. (Bedingt) Um das Objekt schnell für Benutzer freizugeben, die Zugriff haben, klicken Sie auf **Link kopieren**.
 
 1. Klicken Sie auf **Speichern**.
 
@@ -218,7 +212,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
    Die folgenden Optionen sind verfügbar:
 
    * **Anzeigen** Benutzer können das Element überprüfen und freigeben.
-   * **Verwalten:** Benutzer haben vollen Zugriff auf das Objekt ohne Administratorrechte (die auf Zugriffsebene gewährt werden). Darüber hinaus verfügen sie über alle Berechtigungen zum Anzeigen und Contribute .
+   * **Verwalten:** Benutzer haben vollen Zugriff auf das Objekt ohne Administratorrechte (die auf Zugriffsebene gewährt werden). Darüber hinaus verfügen sie über alle Berechtigungen zum Anzeigen und Beitragen .
 
      >[!NOTE]
      >
@@ -288,18 +282,18 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
    Die folgenden Optionen sind verfügbar:
 
    * **Anzeigen** Benutzer können das Element überprüfen und freigeben.
-   * **Contribute**: Benutzende können Aktualisierungen vornehmen, Informationen protokollieren, kleinere Änderungen vornehmen und Inhalte freigeben sowie alle Anzeigeberechtigungen erteilen.
+   * **Beitragen**: Benutzer können Aktualisierungen vornehmen, Informationen protokollieren, kleinere Änderungen vornehmen und Inhalte freigeben sowie alle Anzeigeberechtigungen erteilen.
 
      >[!TIP]
      >
-     >Sie können Contribute-Berechtigungen nur für die folgenden Objekte gewähren:
+     >Sie können Contribute-Berechtigungen nur für die folgenden Objekte erteilen:
      >
      >* Projekte
      >* Aufgaben
      >* Probleme
      >
 
-   * **Verwalten:** Benutzer haben vollen Zugriff auf das Objekt ohne Administratorrechte (die auf Zugriffsebene gewährt werden). Darüber hinaus verfügen sie über alle Berechtigungen zum Anzeigen und Contribute .
+   * **Verwalten:** Benutzer haben vollen Zugriff auf das Objekt ohne Administratorrechte (die auf Zugriffsebene gewährt werden). Darüber hinaus verfügen sie über alle Berechtigungen zum Anzeigen und Beitragen .
 
      >[!NOTE]
      >
@@ -307,7 +301,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 1. (Optional) Klicken Sie auf **Erweiterte Einstellungen**, um bestimmte Berechtigungen für das Objekt zu konfigurieren.
 
-   Ansicht, Verwalten und Contribute verfügen je nach ausgewähltem Objekt über unterschiedliche erweiterte Optionen.\
+   Anzeigen, Verwalten und Beitragen verfügen je nach ausgewähltem Objekt über verschiedene erweiterte Optionen.\
    Weitere Informationen zu den Berechtigungsebenen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
    ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
