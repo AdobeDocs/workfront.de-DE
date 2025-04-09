@@ -1,23 +1,23 @@
 ---
 product-area: documents
 navigation-topic: approvals
-title: Gemeinsame Verwendung von neuen Dokumentgenehmigungen und Proofing
-description: Sie können neue Dokumentgenehmigungen mit Proofing verwenden.
+title: Einheitliche Genehmigungen und Proofing gemeinsam verwenden
+description: Sie können einheitliche Genehmigungen mit Proofing verwenden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '944'
 ht-degree: 0%
 
 ---
 
-# Gemeinsame Verwendung von neuen Dokumentgenehmigungen und Proofing
+# Einheitliche Genehmigungen und Proofing gemeinsam verwenden
 
-Neue Dokumentgenehmigungen in Workfront führen eine Reihe neuer Funktionen ein, mit denen Sie Dokumente überprüfen und genehmigen können. Sie können den neuen Workflow für Dokumentgenehmigungen mit dem vorhandenen Proofing Viewer verwenden, um Kommentare und Markup zu den zu überprüfenden Dokumenten hinzuzufügen.
+Einheitliche Genehmigungen in Workfront enthalten eine Reihe neuer Funktionen, mit denen Sie Dokumente überprüfen und genehmigen können. Sie können mit dem vorhandenen Proofing Viewer einen einheitlichen Genehmigungs-Workflow verwenden, um Kommentare und Markups zu überprüfenden Dokumenten hinzuzufügen.
 
-Es gibt einige wichtige Unterschiede im Workflow bei der gemeinsamen Verwendung von neuen Dokumentgenehmigungen und Proofing:
+Es gibt einige wichtige Unterschiede im Workflow bei der gemeinsamen Verwendung von einheitlichen Genehmigungen und Proofing:
 
 * Entscheidungsschaltflächen werden nicht in der Korrekturabzugsansicht angezeigt
 
@@ -38,7 +38,7 @@ Ziehen Sie das Dokument per Drag-and-Drop in die Dokumentliste.
 
 1. Bewegen Sie den Mauszeiger über das Dokument und klicken Sie dann auf den **Korrekturabzug erstellen** Link, der unter dem Dokumentnamen angezeigt wird, und wählen Sie **Einfacher Korrekturabzug** aus. Sie müssen einen einfachen Korrekturabzug erstellen, da Sie den Proofing-Workflow nicht für Genehmigungen verwenden werden.
 
-Benutzende, die als Teilnehmer zugewiesen sind, können die Proofing Viewer verwenden, um Kommentare und Markups zu dem Dokument hinzuzufügen. Fahren Sie mit dem nächsten Abschnitt fort, um zu erfahren, wie Sie Reviewer hinzufügen.
+Users assigned as participants can use the proofing viewer to add comments and markup on the document. Continue to the next section to learn how to add review participants.
 
 ## Öffnen Sie die Dokumentzusammenfassung und weisen Sie Teilnehmer zu
 
@@ -68,11 +68,11 @@ So weisen Sie Teilnehmer zu:
 
 ## Erstellen Sie nach Bedarf eine neue Version
 
-Wenn Sie eine weitere Überprüfungs- und Genehmigungsrunde benötigen, können Sie eine neue Korrekturabzugsversion erstellen.  <!-- and add the previous participants, new participants, or a mix of both. --> Informationen zu früheren Versionen und Teilnehmern finden Sie in der Dokumentzusammenfassung.
+If you need another round of review and approval, you can create a new proof version.  <!-- and add the previous participants, new participants, or a mix of both. --> Informationen zu früheren Versionen und Teilnehmern finden Sie in der Dokumentzusammenfassung.
 
-Hinzufügen einer neuen Version:
+To add a new version:
 
-1. Ziehen Sie die neue Datei per Drag-and-Drop auf das vorherige Dokument in Workfront. Dadurch wird automatisch eine neue Version erstellt.
+1. Drag and drop the new file on top of the previous document in Workfront. Dadurch wird automatisch eine neue Version erstellt.
 
 1. Nachdem das Dokument hochgeladen wurde, wählen Sie das Dokument aus und klicken Sie auf **Korrekturabzug erstellen** > **Einfacher Korrekturabzug**.
 

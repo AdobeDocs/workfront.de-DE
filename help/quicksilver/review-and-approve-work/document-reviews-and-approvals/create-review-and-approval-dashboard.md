@@ -6,20 +6,20 @@ description: Sie können Genehmigungsmetriken in Arbeitsflächen-Dashboards übe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 9c86cf877e0d1bbb0c4700dfc362062028496e3c
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '1991'
+source-wordcount: '1987'
 ht-degree: 1%
 
 ---
 
 # Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung
 
-Sie können im Bereich der Arbeitsflächen-Dashboards ein Berichts-Dashboard erstellen, um sowohl allgemeine als auch detaillierte Informationen zu Überprüfungen und Genehmigungen mit der neuen Funktion für Dokumentgenehmigungen anzuzeigen.
+Sie können einen Bericht erstellen, der im Bereich &quot;Canvas-Dashboards&quot; Dashboard, um sowohl allgemeine als auch detaillierte Informationen zu Überprüfungen und Genehmigungen mit einheitlichen Genehmigungen anzuzeigen Funktionen.
 
 >[!IMPORTANT]
 >
->Diese Funktion ist nur für Kundinnen und Kunden verfügbar, die den neuen Dokumentgenehmigungs-Service verwenden und in der Beta-Version der Arbeitsflächen-Dashboards registriert sind.
+>Diese Funktionen ist nur für Kunden verfügbar, die den Service für einheitliche Genehmigungen nutzen und für die Beta-Version von Canvas-Dashboards registriert sind.
 
 
 ![Beispiel-Dashboard](assets/whole-dashboard.png)
@@ -38,15 +38,15 @@ Sie können im Bereich der Arbeitsflächen-Dashboards ein Berichts-Dashboard ers
 Nachdem Sie ein Dashboard erstellt haben, können Sie mit dem Hinzufügen von KPIs, Diagrammen und Tabellen beginnen. Weitere Informationen finden Sie in den folgenden Abschnitten:
 
 * [Hinzufügen von allgemeinen Prüf- und Genehmigungsinformationen mit KPIs und Diagrammen](#add-high-level-review-and-approval-information-with-kpis-and-charts)
-* [Hinzufügen detaillierter Prüf- und Genehmigungsinformationen mit Tabellen](#add-detailed-review-and-approval-information-with-tables)
+* [hinzufügen detaillierte Überprüfungs- und Genehmigungsinformationen mit Tables](#add-detailed-review-and-approval-information-with-tables)
 
-## Hinzufügen von allgemeinen Prüf- und Genehmigungsinformationen mit KPIs und Diagrammen
+## hinzufügen allgemeine Überprüfungs- und Genehmigungsinformationen mit KPIs und Diagrammen
 
-Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagrammen anzeigen. Drill-down-Informationen sind in der Beta-Version derzeit nicht verfügbar.
+Mithilfe von KPIs und Diagrammen können Sie allgemeine Informationen zu Dokument Genehmigungen Ansicht. Drilldown-Informationen sind derzeit in der Betaversion nicht verfügbar.
 
 ### KPIs
 
-![KPI-Beispiele](assets/kpi-dashboard.png)
+![Beispiele KPI](assets/kpi-dashboard.png)
 
 #### Ausstehende Genehmigungen
 
@@ -96,8 +96,8 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Ändern Sie den Operator in **Enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
-      ![Beispiel für abgeschlossenen KPI-Filter](assets/completed-kpi-filter.png)
-1. Klicken Sie **Bedingung hinzufügen**:
+      ![Beispiel für einen vollständigen KPI-Filter](assets/completed-kpi-filter.png)
+1. Klicken Sie auf **hinzufügen Bedingung**:
    1. Klicken Sie auf **Und**, um sie in **Oder** zu ändern.
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
    1. Ändern Sie den Operator in **Gleich** und geben Sie dann _Überprüft_ in das Textfeld ein.
@@ -110,12 +110,12 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie auf der **KPI**-Karte auf **Hinzufügen**.
 1. Geben Sie _Abgebrochen_ in das Textfeld **KPI-Titel** ein.
 1. Geben Sie _Validierungs-Deadline über 2 Wochen_ im Textfeld **KPI-**&quot; ein. In diesem Text wird beschrieben, was der KPI anzeigt.
-1. Klicken Sie oben auf der Seite auf **KPI-Feld**.
-1. Scrollen Sie nach unten und suchen Sie den **Ordner Dokumentengenehmigungsphase**.
-1. Wählen Sie **Frist** und wählen Sie dann **Anzahl** aus dem Dropdown-Menü aus.
-1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Status** aus.
-   1. Ändern Sie den Operator in **Nicht enthält** und geben Sie _Genehmigt_ in das Textfeld ein.
+1. Klicken Sie oben in der Seite auf KPI **Feld** auswählen.
+1. Scrollen Sie nach unten und suchen Sie den **Ordner** &quot;Document Approval Stage&quot;.
+1. Wählen Sie **&quot;Termin**&quot; und dann **Zählen** aus dem Dropdown-Menü.
+1. Klicken Sie auf **Bearbeiten Filtern** > **hinzufügen Bedingung**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **&quot;Feld** auswählen&quot; und wählen Sie **dann &quot;Status**&quot;.
+   1. ändern den Operator auf **&quot;Nicht enthalten&quot;** und geben Sie _&quot;genehmigt_ &quot; in das Textfeld ein.
       ![Beispiel für abgebrochenen KPI-Filter](assets/abandoned-kpi-filter.png)
 1. Klicken Sie **Bedingung hinzufügen**:
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Frist** aus.
@@ -164,8 +164,8 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
    1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Datum der Teilnehmerentscheidung für die Genehmigungsphase** aus.
    1. Ändern Sie den Operator in **Ist Null**.
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter.png)
-1. Klicken Sie **Filter bearbeiten** > **Bedingung hinzufügen**:
-   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **Feld auswählen** und wählen Sie dann **Deadline für Genehmigungsphase** aus.
+1. Klicken Sie auf **Bearbeiten Filtern** > **hinzufügen Bedingung**:
+   1. Klicken Sie in den leeren Bedingungsfilter, klicken Sie auf **&quot;Feld** auswählen&quot; und wählen Sie dann &quot;Approval Stage Deadline ****&quot;.
    1. Ändern Sie den Operator in **Kleiner oder gleich**, schalten Sie dann den Schalter Relatives Datum festlegen ein und geben Sie _$$TODAYem_ in das Textfeld ein.
       ![Beispiel für Revisionsdiagrammfilter](assets/revision-chart-filter-2.png)
 1. Klicken **oben** auf dem Bildschirm auf „Fertig“.
@@ -180,14 +180,14 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
 1. Klicken Sie in **Karte** Tabelle **auf „Hinzufügen**.
 1. Geben Sie _Ausstehende Genehmigungen_ in das Textfeld **Name** ein.
 1. (Optional) Geben Sie eine Beschreibung in das Textfeld &quot;**&quot;**. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
-1. Klicken Sie **Spalteneinstellungen öffnen**.
-1. Klicken Sie **Spalte hinzufügen**, scrollen Sie nach unten und klicken Sie auf den ersten **Dokumentengenehmigungen** Ordner und wählen Sie dann **Status** aus.
-1. Die folgenden Spalten hinzufügen:
+1. Klicken Sie auf Spalteneinstellungen ****&#x200B;öffnen.
+1. Klicken Sie auf **hinzufügen Spalte**, scrollen Sie nach unten, klicken Sie auf den ersten **Ordner für Dokumentgenehmigungen** und wählen Sie **dann Status**.
+1. hinzufügen die folgenden Spalten:
 
    <table>
     <tr>
     <td><strong>Projektname</strong></td>
-    <td>Dokumentversion &gt; Dokument &gt; Projekt &gt; Name</td>
+    <td>Dokument Version &gt; Dokument &gt; Projekt &gt;Name</td>
     </tr>
     <tr>
     <td><strong>Dokumentname</strong></td>
@@ -258,9 +258,9 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
 1. Klicken Sie in der Karte Tabelle auf **Hinzufügen**.
 1. Geben Sie _Überfällige Genehmigungen_ in das Textfeld **Name** ein.
 1. (Optional) Geben Sie eine Beschreibung in das Textfeld &quot;**&quot;**. Dieser Text wird als QuickInfo neben dem Diagrammnamen angezeigt.
-1. Klicken Sie **Spalteneinstellungen öffnen**.
-1. Klicken Sie **Spalte hinzufügen**, scrollen Sie nach unten und klicken Sie auf den ersten **Dokumentengenehmigungen** Ordner und wählen Sie dann **Status** aus.
-1. Die folgenden Spalten hinzufügen:
+1. Klicken Sie auf Spalteneinstellungen ****&#x200B;öffnen.
+1. Klicken Sie auf **hinzufügen Spalte**, scrollen Sie nach unten, klicken Sie auf den ersten **Ordner für Dokumentgenehmigungen** und wählen Sie **dann Status**.
+1. hinzufügen die folgenden Spalten:
 
    <table>
     <tr>
@@ -285,7 +285,7 @@ Um spezifischere Informationen je nach Anwendungsfall anzuzeigen, können Sie zu
     </tr>
      <tr>
     <td><strong>Angefordertes Datum</strong></td>
-    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
+    <td>Dokument &gt; Genehmigungsphase &gt; Genehmigungsphase Teilnehmer* &gt; Erstellt unter</td>
     </tr>
      <tr>
     <td><strong>Genehmigende Person</strong></td>

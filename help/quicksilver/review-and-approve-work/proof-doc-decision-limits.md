@@ -6,10 +6,10 @@ description: Korrekturabzugs- und Dokumentenentscheidungen sind auf alle nicht g
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: f3e68fd8-723a-4e49-9cf1-823e36d04e55
-source-git-commit: cc3930f01d5e2162d7c778d061a08f937877c3c0
+source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
 workflow-type: tm+mt
-source-wordcount: '259'
-ht-degree: 5%
+source-wordcount: '286'
+ht-degree: 8%
 
 ---
 
@@ -17,11 +17,47 @@ ht-degree: 5%
 
 Korrekturabzugs- und Dokumentenentscheidungen sind für alle nicht bezahlten Workfront-Lizenzen in den neuen Plänen beschränkt. Wenn Sie als genehmigende Person für ein Dokument oder einen Korrekturabzug zugewiesen werden, müssen Sie eine Entscheidung treffen, um den Prüfungs- und Genehmigungsprozess voranzubringen.
 
-Die folgenden Entscheidungsoptionen werden auf das monatliche Limit angerechnet:
+Die folgenden Entscheidungstypen werden auf das monatliche Limit angerechnet:
 
-* Genehmigen
-* Mit Änderungen genehmigt
-* Muss bearbeitet werden
+<table>
+  <tr>
+
+<td><strong>Legacy-Dokumentgenehmigungen</strong> 
+   </td>
+   <td><strong>Einheitliche Genehmigungen</strong> 
+   </td>
+   <td><strong>Genehmigungen von Korrekturabzügen</strong> 
+   </td>
+  </tr>
+  <tr>
+   <td>
+   <ul>
+   <li>Genehmigen</li>
+    <li>Mit Änderungen genehmigt</li>
+     <li>Ablehnen</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Genehmigen</li>
+    <li>Mit Änderungen genehmigt</li>
+     <li>Muss bearbeitet werden</li>
+   </ul>
+   </td>
+   <td>
+      <ul>
+   <li>Genehmigen</li>
+    <li>Mit Änderungen genehmigt</li>
+     <li>Erforderliche Änderungen</li>
+   </ul>
+   <p><strong>Hinweis</strong>: Genehmigungen von Korrekturabzügen können benutzerdefinierte Entscheidungsbeschriftungen enthalten</p>
+  </tr>
+  </tr>
+</table>
+
+
+
+## Beschränkungen
 
 Die Limits werden monatlich pro Benutzer zurückgesetzt. Die Entscheidungsbeschränkungen für jede Lizenz variieren je nach dem Plan, den Sie verwenden:
 
