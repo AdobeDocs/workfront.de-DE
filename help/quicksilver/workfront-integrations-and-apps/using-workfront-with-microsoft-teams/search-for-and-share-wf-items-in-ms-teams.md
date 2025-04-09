@@ -6,9 +6,9 @@ description: Sie können in  [!DNL Workfront]  beliebigen  [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 1f2655c0e88a5cc918501e2a0ef830758111ded8
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '415'
+source-wordcount: '434'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die Integration von Adobe Workfront for Microsoft Teams wird derzeit nur für das klassische Microsoft Teams-Erlebnis unterstützt.
+>Ab dem 1. Juli 2025 entfernt Microsoft die Unterstützung für die Desktop-App Classic Teams . Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, nachdem die Classic Teams-Desktop-App nicht mehr verfügbar ist.
 
 Sie können in [!DNL Microsoft Teams] in jedem [!DNL Adobe Workfront] nach [!DNL Workfront] Elementen suchen und diese Elemente für Mitglieder Ihrer Teams freigeben.
 
@@ -50,9 +50,9 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 Sie können in nach [!DNL Workfront] Elementen suchen und diese freigeben[!DNL Microsoft Teams] wenn die folgenden Bedingungen erfüllt sind:
 
 * Ein Teambesitzer hat [!DNL Workfront for Microsoft Teams] für Ihr Team installiert und konfiguriert.
-* Sie sind bei [!DNL Workfront] von [!UICONTROL Microsoft Teams ] angemeldet.
+* Sie sind bei [!DNL Workfront] von [!UICONTROL Microsoft Teams] angemeldet.
 
-Informationen zum Installieren von [!UICONTROL Workfront für Microsoft Teams ] zum Anmelden bei [!UICONTROL Workfront] von [!DNL Microsoft Teams] finden Sie unter [Installieren von Adobe Workfront für Microsoft Teams ](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
+Informationen zum Installieren von [!UICONTROL Workfront für Microsoft Teams] und zum Anmelden bei [!UICONTROL Workfront] von [!DNL Microsoft Teams] finden Sie unter [Installieren von Adobe Workfront für Microsoft Teams](../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/install-workfront-ms-teams.md).
 
 >[!NOTE]
 >

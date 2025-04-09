@@ -1,14 +1,14 @@
 ---
 product-area: workfront-integrations;setup
 navigation-topic: workfront-for-microsoft-teams
-title: Installieren [!DNL Adobe Workfront] für Microsoft Teams
+title: Installieren  [!DNL Adobe Workfront]  Microsoft Teams
 description: Die  [!DNL Adobe Workfront for Microsoft Teams] -App ermöglicht die Durchführung grundlegender Aktionen in- [!DNL Workfront] , ohne die  [!DNL Microsoft Teams] -Chat-Kanäle verlassen zu müssen.
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: a8d4e48c-1ccc-4e6e-a0a0-9b68748590c0
-source-git-commit: 4572ea9bb0679c599a55d5a87c1397c7b819c963
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '820'
+source-wordcount: '839'
 ht-degree: 0%
 
 ---
@@ -19,7 +19,7 @@ ht-degree: 0%
 
 >[!IMPORTANT]
 >
->Die Integration von Adobe Workfront for Microsoft Teams wird derzeit nur für das klassische Microsoft Teams-Erlebnis unterstützt.
+>Ab dem 1. Juli 2025 entfernt Microsoft die Unterstützung für die Desktop-App Classic Teams . Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, nachdem die Classic Teams-Desktop-App nicht mehr verfügbar ist.
 
 
 Mit der [!DNL Adobe Workfront for Microsoft Teams] App können Sie grundlegende Aktionen in [!DNL Workfront] durchführen, ohne Ihre [!DNL Microsoft Teams] Chat-Kanäle verlassen zu müssen.
@@ -93,7 +93,7 @@ Als Team-Verantwortlicher in [!DNL Microsoft Teams] können Sie die [!DNL Workfr
 
 1. Klicken Sie auf **[!UICONTROL Anmelden bei[!DNL Workfront]]** , um auf [!DNL Workfront from Microsoft Teams] zuzugreifen.
 
-   Weitere Informationen zur Anmeldung bei [!DNL Workfront] finden Sie im Abschnitt [Anmelden bei Workfront Microsoft Teams von ](#log-in-to-workfront-from-microsoft-teams) aus“ in diesem Artikel.
+   Informationen zur Anmeldung bei [!DNL Workfront] finden Sie im Abschnitt [Anmelden bei Workfront von Microsoft Teams](#log-in-to-workfront-from-microsoft-teams) in diesem Artikel.
 
 ### Installieren von [!DNL Workfront for Microsoft Teams] aus einer privaten Datei
 

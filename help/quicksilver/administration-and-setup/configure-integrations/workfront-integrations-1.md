@@ -4,14 +4,14 @@ user-type: administrator
 content-type: reference;overview
 product-area: system-administration;workfront-integrations
 navigation-topic: administrator-integrations
-description: Sie können Adobe Workfront mit Anwendungen von Drittanbietern sowie mit anderen  [!DNL Adobe]  integrieren. Integrationen können den Nutzen von Workfront erweitern und an die Anforderungen Ihres Unternehmens anpassen. Weitere Informationen zu den verschiedenen Integrationstypen finden Sie in diesem Artikel.
+description: You can integrate Adobe Workfront with third-party applications, as well as other [!DNL Adobe] products. Integrationen können den Nutzen von Workfront erweitern und an die Anforderungen Ihres Unternehmens anpassen. Find details about the different types of integrations in this article.
 author: Becky
 feature: System Setup and Administration, Workfront Integrations and Apps
 role: Admin
 exl-id: 50aca40a-f971-42f2-b20f-fa4fff22335e
-source-git-commit: cb38223c4dd8048fd2ab105abce2c9a79b84c43f
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '1250'
+source-wordcount: '1287'
 ht-degree: 0%
 
 ---
@@ -32,15 +32,15 @@ Einige dieser Integrationen sind ohne zusätzliche Kosten verfügbar, während a
 
 * [Erste Schritte mit integrierten (nativen) Integrationen](#get-started-with-built-in-native-integrations)
 * [Integrationen sind ohne zusätzliche Kosten verfügbar](#integrations-available-at-no-additional-cost)
-* [Integrationen, für die ein zusätzlicher Kauf erforderlich ist](#integrations-requiring-an-additional-purchase)
+* [Integrationen, die einen zusätzlichen Kauf erfordern](#integrations-requiring-an-additional-purchase)
 
-### Erste Schritte mit integrierten (nativen) Integrationen {#get-started-with-built-in-native-integrations}
+### Erste Schritte mit integrierten (nativ) Integrationen {#get-started-with-built-in-native-integrations}
 
-Gehen Sie wie folgt vor, um mit integrierten (nativen) Integrationen zu beginnen:
+To get started with built-in (native) integrations, follow the following workflow:
 
-1. **Bestimmen Sie, welche nativen Integrationen Ihren Anforderungen am besten entsprechen**
+1. **Determine which native integration(s) best fits your needs**
 
-   Bei der Auswahl einer Integration ist es wichtig, eine Anwendung auszuwählen, die bereits regelmäßig verwendet wird. Die Integration von [!DNL Workfront] mit einer regelmäßig oder häufig verwendeten -Anwendung steigert die Akzeptanz bei Ihren Benutzerinnen und Benutzern.
+   Bei der Auswahl einer Integration ist es wichtig, eine Anwendung auszuwählen, die bereits regelmäßig verwendet wird. Integrating [!DNL Workfront] with a regularly, or frequently, used application will increase adoption among your users.
 
    Eine Liste der verfügbaren Integrationen finden Sie unter [Integrationen ohne zusätzliche Kosten verfügbar](#integrations-available-at-no-additional-cost) und [Integrationen, für die ein zusätzlicher Kauf erforderlich ist](#integrations-requiring-an-additional-purchase).
 
@@ -97,7 +97,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Von <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange herunterladen/installieren</a>.</p></li></ul>
+     <li><p>Herunterladen/Installieren von <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Informationen und Anweisungen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installieren des [!DNL Adobe Workfront]-Plug-ins für [!DNL Creative Cloud] Anwendungen</a></p> 
      </td>  <td> </td> 
    <td> </td> 
@@ -112,7 +112,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
       <li>Einfaches Verbinden mehrerer Experience Manager Assets-Repositorys mit einer Workfront-Umgebung oder mehrerer Workfront-Umgebungen mit einem Experience Manager Assets-Repository über Organisations-IDs hinweg</li></ul>
      <p>Weitere Informationen und Anweisungen finden Sie unter <a href="/help/quicksilver/documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md" class="MCXref xref">Übersicht über Adobe Experience Manager Assets-Integrationen</a></p> 
      </td>
-   <td><ul><li>Workfront muss sich in einer Admin Console mit einer zugewiesenen Organisations-ID befinden.</li><li>Workfront und Experience Manager Assets oder Assets Essentials müssen Benutzenden, die die Integration konfigurieren, als Produkt zugewiesen werden.</li></ul></td>   <td> </td> 
+   <td><ul><li>Workfront muss sich in einer Admin Console mit einer zugewiesenen Organisations-ID befinden.</li><li>Workfront and Experience Manger Assets or Assets Essentials must be assigned as a product to the user configuring the integration.</li></ul></td>   <td> </td> 
   </tr> 
   <tr> 
    <td> <p>[!DNL Box]</p> <p> <img src="assets/box,-inc.-logo.png"> </p> </td> 
@@ -138,13 +138,13 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
     <ul> 
      <li>Hinzufügen einer [!DNL Google Workspace] E-Mail zu einem Projekt oder einer Aufgabe </li> 
      <li>Anzeigen und Verwalten von [!DNL Workfront] in [!DNL Gmail]</li> 
-     <li>Anfragen über [!DNL Gmail] senden </li> 
+     <li>Anfragen einreichen über [!DNL Gmail] </li> 
     </ul> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/workfront-for-g-suite/workfront-for-gsuite.md" class="MCXref xref">[!DNL Adobe Workfront for Google Workspace]</a>.</p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Google Workspace] Benutzer müssen über eine [!DNL Workfront] verfügen </li> 
-     <li>[!DNL Workfront] Berechtigungen zum Anzeigen und Freigeben von Arbeit müssen pro Zugriffsebene festgelegt werden </li> 
-     <li> Benutzer muss über ein POP-aktiviertes E-Mail-Konto verfügen </li> 
+     <li>[!DNL Google Workspace] Benutzer müssen über eine [!DNL Workfront] Lizenz verfügen </li> 
+     <li>[!DNL Workfront] view and work sharing permissions must be set per access level </li> 
+     <li> User must have a POP enabled email account </li> 
      <li>[!DNL Workfront] Anfrageeinstellungen müssen POP-Einstellungen enthalten </li> 
     </ul> </td> 
    <td> 
@@ -229,7 +229,7 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
      <li>Nach [!DNL Workfront] Projekten, Aufgaben und Problemen suchen </li> 
      <li>Persönliche [!DNL Workfront] erstellen </li> 
      <li>[!DNL Workfront] Anfragen einreichen </li> 
-    </ul> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: Artikelindex</a>.</p> </td> 
+    </ul> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/using-workfront-with-microsoft-teams/use-workfront-with-ms-teams.md" class="MCXref xref">[!DNL Adobe Workfront for Microsoft Teams]: Artikelindex</a>.</p><p><b>HINWEIS</b>: Ab dem 1. Juli 2025 entfernt Microsoft die Unterstützung für die Desktop-App Classic Teams . Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, sobald die Classic Teams-Desktop-App nicht mehr verfügbar ist. </p></td> 
    <td> 
     <ul> 
      <li>Jedes Team in Ihrem Unternehmen muss die Integration installieren, wenn mehrere Teams sie verwenden möchten</li> 
@@ -269,10 +269,10 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
    <td> <p>[!DNL Slack]</p> <p> <img src="assets/slacklogo.png" style="max-width: 80px;"> </p> </td> 
    <td> 
     <ul> 
-     <li>[!DNL Workfront]-Benachrichtigungen in [!DNL Slack] empfangen </li> 
-     <li>Verwalten von Validierungen in [!DNL Slack] </li> 
+     <li>Empfangen von Benachrichtigungen [!DNL Workfront] in [!DNL Slack] </li> 
+     <li>Verwalten von Genehmigungen in [!DNL Slack] </li> 
      <li>Erstellen [!DNL Workfront] Aufgaben und Probleme aus [!DNL Slack] </li> 
-     <li>Kommentare für ein Projekt oder eine Aufgabe von posten [!DNL Slack]</li> 
+     <li>Post comments to a project or task from [!DNL Slack]</li> 
     </ul> <p>Weitere Informationen finden Sie unter <a href="../../workfront-integrations-and-apps/using-workfront-with-slack/use-workfront-for-slack.md" class="MCXref xref">[!DNL Adobe Workfront for Slack]</a>.</p> </td> 
    <td> 
     <ul> 
@@ -303,16 +303,16 @@ Wir wissen, dass die verfügbaren integrierten (nativen) Integrationen mögliche
 
 * [!DNL Workfront Fusion]
 
-  [!DNL Adobe Workfront Fusion] verknüpft Aktionen innerhalb und zwischen Apps und Services, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Es verfügt über dedizierte Connectoren für viele Apps, kann jedoch mit jeder Anwendung über eine öffentliche API verbunden werden.
+  [!DNL Adobe Workfront Fusion] verknüpft Aktionen innerhalb und zwischen Apps und Services, um ein Szenario zu erstellen, in dem Ihre Daten automatisch übertragen und transformiert werden. Es verfügt über dedizierte Konnektoren für viele Apps, kann jedoch über eine öffentliche API eine Verbindung zu allen Anwendungen herstellen.
 
-  Weitere Informationen finden Sie unter [[!DNL Adobe Workfront Fusion] Übersicht](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
+  Weitere Informationen finden Sie unter [[!DNL Adobe Workfront Fusion] Überblick](https://experienceleague.adobe.com/en/docs/workfront-fusion/using/get-started-with-fusion/understand-workfront-fusion/workfront-fusion-overview).
 
 * [!DNL Adobe Experience Manager Assets]
-* [!DNL Anaplan] (erfordert [!DNL Workfront Fusion])
+* [!DNL Anaplan] (Erfordert [!DNL Workfront Fusion])
 
-Durch die Integration von Workfront mit Experience Manager Assets oder Assets Essentials können Unternehmen die Geschwindigkeit von Inhalten und die Zeit bis zur Markteinführung verbessern, indem sie Workfront und Digital Asset Management miteinander verbinden.
+Die Integration zwischen Workfront und Experience Manager Assets oder Assets Essentials ermöglicht es Unternehmen, die Inhalte Geschwindigkeit und Time-to-Market zu verbessern, indem sie Arbeit und Digital Asset Management intrinsisch miteinander verbinden.
 
-Weitere Informationen finden Sie unter [Integrationen mit Adobe Workfront für Experience Manager Assets - Übersicht](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
+For more information, see [Adobe Workfront for Experience Manager Assets integrations overview](../../documents/adobe-workfront-for-experience-manager-assets-essentials/aem-asset-integrations.md).
 
 ## Partnerintegrationen
 

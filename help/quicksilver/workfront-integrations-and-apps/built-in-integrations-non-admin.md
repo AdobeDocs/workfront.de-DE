@@ -7,9 +7,9 @@ description: Sie können  [!DNL Adobe Workfront]  mit Anwendungen von Drittanbie
 feature: Workfront Integrations and Apps
 author: Becky
 exl-id: ca51cb23-9332-4ce5-aefb-f333455cfc7c
-source-git-commit: 502e3fae874df91d4699867dcd25812659a3ffdf
+source-git-commit: 436eb2ef32363aa28593e74f7464dcd6837b2095
 workflow-type: tm+mt
-source-wordcount: '502'
+source-wordcount: '539'
 ht-degree: 3%
 
 ---
@@ -43,7 +43,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>Premiere Pro </li>
      <li>After Effects </li>
      </ul>
-     <li><p>Von <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange herunterladen/installieren</a>.</p></li></ul>
+     <li><p>Herunterladen/Installieren von <a href="https://exchange.adobe.com/apps/browse/cc?page=1&amp;product=All&amp;q=workfront&amp;sort=RELEVANCE" class="MCXref xref">Adobe Exchange</a>.</p></li></ul>
      <p>Informationen und Anweisungen finden Sie unter <a href="https://experienceleague.adobe.com/docs/workfront/using/adobe-workfront-integrations/workfront-for-creative-cloud/install-wf-cc/wf-cc-install-toc.html" class="MCXref xref">Installieren des [!DNL Adobe Workfront]-Plug-ins für [!DNL Creative Cloud] Anwendungen</a>.</p> </td> 
   </tr> 
   <tr> 
@@ -120,7 +120,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
     </ul> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p> </td> 
+   <td role="rowheader"> <p>Microsoft Teams</p> <p> <img src="assets/msteamslogo.png" style="max-width: 80px;"> </p><b>HINWEIS</b>: Ab dem 1. Juli 2025 entfernt Microsoft die Unterstützung für die Desktop-App Classic Teams . Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, sobald die Classic Teams-Desktop-App nicht mehr verfügbar ist. </p> </td> 
    <td> 
     <ul> 
      <li>Abrufen [!DNL Workfront] Benachrichtigungen in [!DNL Microsoft Teams] </li> 
@@ -152,7 +152,7 @@ Die folgenden integrierten Integrationen sind derzeit in Workfront verfügbar.
      <li>[!DNL Workfront]-Benachrichtigungen in [!DNL Slack] empfangen </li> 
      <li>Verwalten von Validierungen in Slack </li> 
      <li>Erstellen [!DNL Workfront] Aufgaben und Probleme aus [!DNL Slack] </li> 
-     <li>Kommentare von Slack zu einem Projekt oder einer Aufgabe posten</li> 
+     <li>Kommentare aus Slack zu einem Projekt oder einer Aufgabe posten</li> 
     </ul> </td> 
   </tr> 
   <tr> 

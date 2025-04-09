@@ -6,9 +6,9 @@ description: Sie können Benachrichtigungen von  [!DNL Adobe Workfront]  erhalte
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 7771a7d7-7e20-4b3d-95e7-1050aeb3af67
-source-git-commit: 494c7bf8aaf3570d4a01b5e88b85410ee3f52f18
+source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
 workflow-type: tm+mt
-source-wordcount: '1355'
+source-wordcount: '1374'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 >[!NOTE]
 >
->Die Integration von Adobe Workfront for Microsoft Teams wird derzeit nur für das klassische Microsoft Teams-Erlebnis unterstützt.
+>Ab dem 1. Juli 2025 entfernt Microsoft die Unterstützung für die Desktop-App Classic Teams . Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, nachdem die Classic Teams-Desktop-App nicht mehr verfügbar ist.
 
 Sie können Benachrichtigungen von [!DNL Adobe Workfront] über Elemente erhalten, die Sie genehmigen müssen, Zuweisungen, die Ihnen erteilt wurden, oder Kommentare und Änderungen an Elementen, mit denen Sie verknüpft sind.
 
