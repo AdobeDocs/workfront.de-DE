@@ -10,9 +10,9 @@ author: Becky
 feature: System Setup and Administration
 role: Admin
 exl-id: d297d8a4-5a4e-418f-983a-19545aeb0668
-source-git-commit: d2ca099e78d5adb707a0a5a53ccb2e6dd06698f8
+source-git-commit: d50ff253b0557c282496deae2a488cff4ab71775
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1720'
 ht-degree: 5%
 
 ---
@@ -282,7 +282,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Problem |   |   | ✓ |
 | Portfolios |   | ✓ |   |
 | Programme |   | ✓ |   |
-| Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur die Registerkarte Details ) |   |
+| Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (nur die Registerkarte Details ) |   |
 | Filter, Ansichten und Gruppierungen |   |   | ✓ |
 | Dokument |   |   | ✓ |
 | Benutzerin oder Benutzer |   | ✓ |   |
@@ -291,7 +291,7 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Finanzdaten | ✓ |   |   |
 | Ressourcenverwaltung | ✓ |   |   |
 | Szenarienplaner | ✓ |   |   |
-| Pinnwände |   |   | ✓ (Einfache Karten) |
+| Pinnwände |   |   | ✓ (einfache Karten) |
 | Startseite |   | ✓ (Meine Updates) |   |
 | Ziele |   |   | ✓ |
 
@@ -299,22 +299,22 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 
 >[!IMPORTANT]
 >
->Ab Version 24.7 haben Mitwirkende standardmäßig Lesezugriff auf Programme und Portfolios.
+>Ab Version 24.7 haben Mitwirkende standardmäßig Ansichtszugriff auf Programme und Portfolios.
 >
 > 
->Mitwirkende, die vor Version 24.7 eingebunden wurden, haben weiterhin standardmäßig keinen Zugriff auf Programme und Portfolios. Sie können den Zugriff dieser Personen auf die Anzeige bei Bedarf manuell aktualisieren.
+>Mitwirkende, die vor Version 24.7 eingebunden wurden, haben standardmäßig weiterhin keinen Zugriff auf Programme und Portfolios. Sie können den Zugriff dieser Personen auf die Anzeige bei Bedarf manuell aktualisieren.
 
 ### Zugriffsebene externer Benutzer
 
 Diese Zugriffsebene ist nicht an eine gebührenpflichtige Workfront-Lizenz gebunden. Hierbei handelt es sich um die restriktivste Zugriffsebene. Sie wurde in erster Linie für Mitarbeiter wie externe Berater entwickelt, die sich nicht bei Workfront anmelden, aber Dokumente gelegentlich überprüfen, herunterladen oder anzeigen müssen.
-
-Workfront-Benutzende können externen Benutzenden Aufgaben zuweisen, auch wenn sich externe Benutzende nicht beim System anmelden können. Aber wir raten davon ab, weil diese Arbeit im System ungelöst bliebe.
 
 Benutzer mit der Zugriffsebene Externer Benutzer:
 
 * Kann nur Dokumente und Kalenderberichte anzeigen, die für sie freigegeben sind
 * Anzeigen der Benutzer, die Dokumente und Kalenderberichte für sie freigeben
 * Dokumente genehmigen, die für sie freigegeben wurden
+
+Externe Benutzer können Arbeitselementen nicht zugewiesen werden.
 
 Diese Zugriffsebene kann nicht geändert werden.
 
@@ -333,9 +333,9 @@ Im Folgenden finden Sie die höchsten Zugriffseinstellungen, die für Objekte au
 | Problem | ✓ |   |   |
 | Portfolios | ✓ |   |   |
 | Programme | ✓ |   |   |
-| Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur für Kalenderberichte; keine Möglichkeit zur Freigabe von Berichten) |   |
+| Berichte (einschließlich Dashboards und Kalenderberichte) |   | ✓ (Nur für Kalenderberichte, keine Möglichkeit zur Freigabe von Berichten) |   |
 | Filter, Ansichten und Gruppierungen | ✓ |   |   |
-| Dokument |   | ✓ (Keine Möglichkeit, Dokumente freizugeben) |   |
+| Dokument |   | ✓ (keine Möglichkeit zur Freigabe von Dokumenten) |   |
 | Benutzerin oder Benutzer |   | ✓ |   |
 | Teams | ✓ |   |   |
 | Vorlage | ✓ |   |   |
