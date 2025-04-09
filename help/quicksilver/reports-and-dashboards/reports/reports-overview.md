@@ -3,31 +3,31 @@ content-type: reference;overview
 product-area: reporting
 navigation-topic: reports-and-dashboards
 title: Berichte
-description: Sehen Sie sich diese Bereiche an, um mehr über das Reporting in Adobe Workfront zu erfahren.
+description: Review these areas to learn about reporting in Adobe Workfront.
 author: Nolan
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: b7117ff8-5353-4766-b982-ba624a484ad1
-source-git-commit: 4e928defe9b6271cef64f6554e91af4fc31ddeca
+source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
 workflow-type: tm+mt
-source-wordcount: '62'
+source-wordcount: '64'
 ht-degree: 1%
 
 ---
 
-# Berichte: Artikelindex
+# Reports: article index
 
 <!-- Audited: 1/2024 -->
 
-Dieser Abschnitt enthält die folgenden Unterabschnitte:
+This section contains the following subsections:
 
-* [Grundlagen der Berichterstellung](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
-* [Übersicht über Reporting-Elemente](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
-* [Verwenden von integrierten Berichten](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
-* [Erstellen und Verwalten von Berichten](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
-* [Berechnete benutzerdefinierte Daten in Berichten](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
-* [Beispiele für benutzerdefinierte Ansichten, Filter und Gruppierungen: Artikelindex](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
-* [Textmodus-Ressourcen: Artikelindex](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
-* [Übersicht über die Berichtsnutzung](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
-* [Kalender: Artikelindex](../../reports-and-dashboards/reports/calendars/calendars.md)
+* [Reporting basics: article index](../../reports-and-dashboards/reports/reporting/reporting-basics.md)
+* [Reporting elements overview](../../reports-and-dashboards/reports/reporting-elements/reporting-elements-overview.md)
+* [Use built-in reports](../../reports-and-dashboards/reports/using-built-in-reports/use-built-in-reports.md)
+* [Create and manage reports](../../reports-and-dashboards/reports/creating-and-managing-reports/create-manage-reports.md)
+* [Calculated custom data in reports](../../reports-and-dashboards/reports/calc-cstm-data-reports/calculated-custom-data-reports.md)
+* [Custom view, filter, and grouping samples: article index](../../reports-and-dashboards/reports/custom-view-filter-grouping-samples/custom-view-filter-grouping-samples.md)
+* [Text Mode resources: article index](../../reports-and-dashboards/reports/text-mode/text-mode-resources.md)
+* [Report usage overview](../../reports-and-dashboards/reports/report-usage/report-usage-overview.md)
+* [Calendars: article index](../../reports-and-dashboards/reports/calendars/calendars.md)
 * [Tipps, Tricks und Fehlerbehebung bei Berichten](../../reports-and-dashboards/reports/tips-tricks-and-troubleshooting/tips-troubleshooting-reports.md)

@@ -7,9 +7,9 @@ description: Die Zusammenfassung der Kommentare ist in Workfront Proof verfügba
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: 2ccf2775a858371aacdb6e8637fd5a30a212a82d
+source-git-commit: 1443551b605dac6e53531c5d445b89517384fe11
 workflow-type: tm+mt
-source-wordcount: '465'
+source-wordcount: '497'
 ht-degree: 0%
 
 ---
@@ -34,11 +34,15 @@ Sie können die Zusammenfassung der Kommentare zu dem Korrekturabzug, einschlie�
 
 ![PV_print_all_comm.png](assets/pv-print-all-comm-350x158.png)
 
+Um auf die Korrekturabzugsansicht zuzugreifen, klicken Sie auf die Schaltfläche **Zum Korrekturabzug gehen** auf der Seite mit den Korrekturabzugsdetails.
+
 ### Die Seite Korrekturabzugsdetails {#the-proof-details-page}
 
-Sie können die Zusammenfassung der Kommentare zu Korrekturabzügen drucken, indem Sie auf der Seite mit den Details **[!UICONTROL Korrekturabzugs auf das Symbol]** Drucken“ klicken.
+Sie können die Kommentarzusammenfassung der Testversand drucken, indem Sie auf das **[!UICONTROL Druck-Symbol]** in der Seite Testversanddetails klicken.
 
 ![PROOF_DETAILS_PAGE.png](assets/proof-details-page-350x231.png)
+
+Um auf die Seite mit den Korrekturabzugsdetails für einen bestimmten Korrekturabzug zuzugreifen, klicken Sie in der Listenansicht auf den Namen des Korrekturabzugs.
 
 ### Das Menü [!DNL Proof] {#the-proof-actions-menu}
 
@@ -46,66 +50,64 @@ Sie können die Zusammenfassung des Korrekturabzugs drucken, indem Sie auf das S
 
 So greifen Sie über [!UICONTROL  Listenansicht auf ] Seite „Zusammenfassung der Kommentare“ zu:
 
-1. Klicken Sie auf das Menü **[!UICONTROL Aktionen]**.
+1. Klicken Sie auf **[!UICONTROL Menü]** Aktionen“.
 1. Wählen Sie **[!UICONTROL Kommentare drucken]**.
 
    ![list_view.png](assets/list-view-350x155.png)
 
-   Auf der Seite Zusammenfassung der Kommentare stehen die folgenden Druckoptionen zur Auswahl:
+   Wählen Sie auf der Seite Zusammenfassung der Kommentare eine der folgenden Druckoptionen aus:
 
-   * Miniaturansicht (1)
-   * Vollständige Seitenansicht (2)
+   * Miniaturansicht Ansicht (1)
+   * Voll Seitenansicht (2)
    * Seite drucken (3)
-   * Den Korrekturabzug mit Kommentaren in eine PDF-Datei exportieren (4)
+   * Exportieren des Korrekturabzugs mit Kommentaren in eine PDF-Datei (4)
    * Kommentare zum Korrekturabzug in eine [!DNL Excel] Datei exportieren (5)
 
 ![PV_thumb_full_option_callouts.png](assets/pv-thumb-full-option-callouts-350x154.png)
 
 ### Miniaturansicht
 
-In der Miniaturansicht werden alle Kommentare in der richtigen Reihenfolge angezeigt, zusammen mit dem vollständigen Thread für jeden Kommentar. Sie können auch Kommentare sortieren und die Miniaturansicht für jeden Kommentar mit hinzugefügten Markierungen anzeigen.
+In der Miniaturansicht werden die einzelnen Kommentare in der Reihenfolge mit dem vollständigen Thread für jeden Kommentar angezeigt. Sie können auch Kommentare sortieren und die Miniaturansicht für jeden Kommentar mit hinzugefügten Markierungen anzeigen.
 
-Um die Miniaturansicht zu drucken, klicken **[!UICONTROL oben rechts auf der Seite auf das]** „Drucker“ und wählen Sie eine der folgenden Optionen aus:
+Um die Miniaturansicht zu drucken, klicken Sie auf **[!UICONTROL Symbol „Drucker]** in der oberen rechten Ecke der Seite und wählen Sie eine der folgenden Optionen aus:
 
-* Nach Kommentar-ID oder Seite sortieren (1)
-* Miniaturansicht für jeden Kommentar mit hinzugefügten Markierungen (2)
+* Sortieren nach Kommentar-ID oder Seite (1)
+* Miniaturansicht für jeden Kommentar mit hinzugefügten Markups (2)
 
 ![PV_thumbnail.png](assets/pv-thumbnail-350x290.png)
 
-### Vollständige Seitenansicht
+### Voll-Seite Ansicht
 
-Die vollständige Seitenansicht zeigt jede Seite der Reihe nach an, zusammen mit den Kommentaren auf dieser Seite und einer Nadel, die angibt, wo sich das Markup für den Kommentar auf der Seite befindet.
+Die vollständige Seitenansicht zeigt jede Seite der Reihe nach an, einschließlich der Kommentare auf dieser Seite und einer Nadel, die angibt, wo sich der Kommentar befindet.
 
-Um die vollständige Seitenansicht zu drucken, klicken Sie **[!UICONTROL rechts oben auf]** Seite auf das Symbol „Drucker“.
+Um die vollständige Seitenansicht zu drucken, klicken **[!UICONTROL oben rechts auf]** Symbol „Drucker“.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
 ## Exportieren einer [!DNL Excel]
 
-So laden Sie die [!DNL Excel] herunter:
+So exportieren Sie die [!DNL Excel] über das Menü Korrekturabzugsaktionen :
 
-1. Öffnen Sie das Aktionsmenü des Korrekturabzugs rechts neben dem Korrekturabzug und klicken Sie auf **[!UICONTROL [!DNL Excel]Zusammenfassung]**. 1)\
-   ![Excel_summary.png](assets/excel-summary-350x450.png)
+1. Klicken Sie auf **Aktionen** rechts neben dem Korrekturabzug und wählen Sie dann **[!UICONTROL [!DNL Excel]Zusammenfassung]**.
+   ![Excel-Zusammenfassung exportieren](assets/excel-summary-option.png)
 
 So laden Sie die [!DNL Excel] von der Seite mit den Korrekturabzugsdetails herunter:
 
-1. Klicken Sie auf das Symbol In **[!DNL Excel]** exportieren . 2)
+1. Klicken Sie auf **Mehr** und wählen Sie dann **In Excel exportieren**.
 
-   ![Export_to_excel.png](assets/export-to-excel-350x185.png)
+   ![Export in Excel-Option](assets/Export-to-excel-option.png)
 
-## Auf PDF exportieren
+## Exportieren als PDF
 
-Gehen Sie wie folgt vor, um einen Korrekturabzug zusammen mit allen Markierungen und Kommentaren auf PDF zu exportieren:
-
-1. Navigieren Sie **[!UICONTROL Ansichten]** auf der linken Seite des Bildschirms.
-1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol inline mit einem Korrekturabzug und dann auf **[!UICONTROL Kommentare drucken]**.
-
-1. Klicken Sie oben rechts auf der Seite auf das Symbol Nach PDF exportieren .
-
-   Wenn die PDF fertig ist, erhalten Sie eine E-Mail mit einem Download-Link.
-
-Alle Kommentare werden im PDF-Reader angezeigt. Wenn einem Kommentar mehrere Markierungen zugeordnet sind, wird der Kommentar mehrmals in der Liste Kommentare angezeigt (einmal für jedes Markup).
+Wenn Sie in eine PDF-Datei exportieren, werden alle Kommentare im PDF-Reader angezeigt. Wenn einem Kommentar mehrere Markierungen zugeordnet sind, wird der Kommentar mehrmals in der Liste Kommentare angezeigt (einmal für jedes Markup).
 
 >[!IMPORTANT]
 >
->Die Funktion Auf PDF exportieren steht nur für statische Dateien zur Verfügung.
+>Die Funktion „In PDF exportieren“ ist nur für statische Dateien verfügbar.
+
+So exportieren Sie einen Korrekturabzug mit Markierungen und Kommentaren nach PDF:
+
+1. Klicken Sie auf der linken Bildschirmseite auf **[!UICONTROL Ansichten]**.
+1. Klicken Sie auf den **[!UICONTROL Mehr]** Button der mit der jeweiligen Testversand übereinstimmen soll, und wählen Sie dann Druck Kommentare ]**aus**[!UICONTROL .
+
+1. Klicken Sie oben rechts auf der Seite auf die Schaltfläche **In PDF exportieren**. Der PDF beginnt mit dem Download und wird Ihnen per E-Mail zugeschickt, sobald der Vorgang abgeschlossen ist.

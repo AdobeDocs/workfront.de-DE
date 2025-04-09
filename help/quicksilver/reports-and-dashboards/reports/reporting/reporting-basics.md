@@ -2,22 +2,22 @@
 content-type: reference
 product-area: reporting
 navigation-topic: reports
-title: Grundlagen zur Berichterstellung
+title: 'Grundlagen der Berichterstellung: Artikelindex'
 description: Lesen Sie diese Artikel, um die Grundlagen des Reportings in Adobe Workfront zu verstehen.
-author: Nolan
+author: Courtney
 feature: Reports and Dashboards
 recommendations: noDisplay, noCatalog
 exl-id: 7cec252f-e5be-4099-8fa6-308f80952a21
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b0a8e5277003eb3189bc7c0a26367fada05d58de
 workflow-type: tm+mt
-source-wordcount: '30'
+source-wordcount: '34'
 ht-degree: 0%
 
 ---
 
-# Grundlagen zur Berichterstellung
+# Grundlagen der Berichterstellung: Artikelindex
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
 Dieser Abschnitt enthält die folgenden Artikel:
 
