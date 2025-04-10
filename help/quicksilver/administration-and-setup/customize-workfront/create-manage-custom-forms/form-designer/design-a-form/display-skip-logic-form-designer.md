@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 5f5dbeb5-b974-489c-8f4d-ebaa00f5e5ba
-source-git-commit: 64deb1b0b3ba52f869ca38e2a26288d461070f82
+source-git-commit: f94ad0f289064f243aadb08226bd5e53357f650d
 workflow-type: tm+mt
-source-wordcount: '1744'
+source-wordcount: '1680'
 ht-degree: 0%
 
 ---
 
 # Hinzufügen von Logikregeln zu benutzerdefinierten Formularen und Feldern
-
-{{highlighted-preview}}
 
 Mit logischen Regeln können Sie die Felder in Ihrem Formular weiter anpassen.
 
@@ -115,13 +113,7 @@ Die Anzeigelogik definiert, welche benutzerdefinierten Felder im Formular angeze
 1. Wählen Sie die **Anzeige** im Logikgenerator aus.
 1. Klicken Sie **Anzeigeregel hinzufügen**.
 
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-
    ![Display Logic Builder](assets/simple-display-logic1-val-only-in-menu.png)
-
-   Beispielbild in der Produktionsumgebung:
-
-   ![Display Logic Builder](assets/custom-form-logic-builder-display-blank.png)
 
 1. Gehen Sie wie folgt vor, um die Logikanweisung im Builder zu erstellen.
 
@@ -130,17 +122,11 @@ Die Anzeigelogik definiert, welche benutzerdefinierten Felder im Formular angeze
    1. Die dritte Option ist **Ausgewählt** oder **Nicht ausgewählt**. Die Auswahl **Ausgewählt** bedeutet, dass bei Auswahl des Werts das Zielfeld angezeigt wird. Die Auswahl **Nicht ausgewählt** bedeutet, dass das Zielfeld angezeigt wird, wenn ein anderer Wert im definierenden Feld ausgewählt wird.
    1. Um eine Und **Regel** die Logikanweisung hinzuzufügen, klicken Sie **Regel hinzufügen** direkt unter der soeben erstellten Regel. Befolgen Sie die gleichen Anweisungen, um die Regel zu erstellen. Alle - und -Regeln müssen erfüllt sein, damit das Zielfeld angezeigt wird.
 
-      <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-
       ![Display Logic Builder](assets/simple-display-logic2.png)
-
-      Beispielbild in der Produktionsumgebung:
-
-      ![Display Logic Builder](assets/custom-form-logic-builder-display1.png)
 
    1. Um eine **OR**-Regel zur Logikanweisung hinzuzufügen, klicken Sie **Regel hinzufügen** unten im Logik-Builder. Klicken Sie dann im Bereich **auf „Regel hinzufügen** und folgen Sie denselben Anweisungen, um die Regel zu erstellen. Wenn eine OR-Regel erfüllt ist, wird das Zielfeld angezeigt.
 
-1. Klicken Sie auf **Speichern** <span class="preview">oder **Anwenden**</span> wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
+1. Klicken Sie **Anwenden** wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
 
    Die Symbole für die Anzeigelogik werden dem Zielfeld und dem definierenden Feld im Formular-Designer hinzugefügt.
 
@@ -212,14 +198,7 @@ Die Überspringen-Logik definiert benutzerdefinierte Formularfelder, die übersp
 1. Wählen Sie die **Überspringen** im Logikgenerator.
 1. Klicken Sie **Regel zum Überspringen hinzufügen**.
 
-
-   <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-
    ![Logikgenerator überspringen](assets/skip-logic1-val-only-in-menu.png)
-
-   Beispielbild in der Produktionsumgebung:
-
-   ![Logikgenerator überspringen](assets/custom-form-logic-builder-skip-blank.png)
 
 1. Gehen Sie wie folgt vor, um die Logikanweisung im Builder zu erstellen.
 
@@ -228,21 +207,13 @@ Die Überspringen-Logik definiert benutzerdefinierte Formularfelder, die übersp
    1. Die zweite Option ist **Ausgewählt** oder **Nicht ausgewählt**. Die Auswahl **Ausgewählt** bedeutet, dass bei Auswahl des Werts das Zielfeld angezeigt wird und die Felder dazwischen übersprungen werden. Die Auswahl **Nicht ausgewählt** bedeutet, dass, wenn ein anderer Wert im definierenden Feld ausgewählt ist, das Zielfeld angezeigt wird und die Felder dazwischen übersprungen werden.
    1. Die dritte Option ist das Zielfeld oder der Ort, zu dem Sie wechseln möchten. Wählen Sie einen Feldnamen oder &quot;**des Formulars“**. Möglicherweise müssen Sie zuerst auf das Wort „leer“ klicken, bevor Sie eine Option auswählen.
 
-      <span class="preview">Beispielbild in der Vorschau-Umgebung:</span>
-
       ![Logikgenerator überspringen](assets/skip-logic2.png)
-
-      Beispielbild in der Produktionsumgebung:
-
-      ![Logikgenerator überspringen](assets/custom-form-logic-builder-skip1.png)
 
    1. Um eine **OR**-Regel zur Logikanweisung hinzuzufügen, klicken Sie **Regel hinzufügen** unten im Logik-Builder. Wählen Sie dann die Optionen aus, die denselben Aufforderungen folgen, um die Regel zu erstellen. Wenn eine **Oder**-Regel erfüllt ist, wird das Zielfeld angezeigt.
 
-1. Klicken Sie auf **Speichern** <span class="preview">oder **Anwenden**</span> wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
+1. Klicken Sie **Anwenden** wenn Sie mit dem Erstellen der Logikanweisung fertig sind.
 
    Die Symbole zum Überspringen werden dem Zielfeld und dem definierenden Feld im Formular-Designer hinzugefügt.
-
-<div class="preview">
 
 ## Hinzufügen von Validierungslogik zu einem benutzerdefinierten Formular
 
@@ -250,7 +221,7 @@ Validierungslogik wird mithilfe von Formeln erstellt, und Sie können die Logik 
 
 Wenn das Feld mit der angewendeten Logik die definierten Validierungsbedingungen erfüllt, wenn ein Benutzer das benutzerdefinierte Formular ausfüllt, wird das Feld hervorgehoben und die Fehlermeldung angezeigt.
 
-Sie können eine Validierungslogik auf die folgenden Feldtypen anwenden: einzeiliger Text, Absatz, Dropdown-Liste zur einmaligen Auswahl, Dropdown-Liste zur Mehrfachauswahl, externe Suche, Optionsfelder, Kontrollkästchen-Gruppe und automatische Textvervollständigung.
+Sie können Validierungslogik auf die folgenden Feldtypen anwenden: einzeiliger Text, Absatz, Dropdown-Liste mit einfacher Auswahl, Dropdown-Liste mit Mehrfachauswahl, externe Suche, automatische Textvervollständigung, Datum, Kontrollkästchen-Gruppe und Optionsfelder.
 
 ### Beispiele
 
@@ -287,14 +258,14 @@ Ein zusätzliches Beispiel für die Validierung anhand anderer Felder ist ein Fe
 
    Die Logik wird auf das Feld im Formular-Designer angewendet.
 
-</div>
-
 <!--
 <div class="preview">
 
 ## Add formatting logic to a custom form
 
-Formatting logic highlights a field value when it meets the defined conditions. You can apply formatting logic to all field types, and it will work on multiple fields at once.
+Formatting logic highlights a field value when it meets the defined conditions. The applied formatting will work on multiple fields at once.
+
+You can apply formatting logic to the following field types: single line text, paragraph, single-select dropdown, multi-select dropdown, external lookup, typeahead, calculated, date, checkbox group, and radio buttons.
 
 Formatting applied to custom forms is separate from formatting applied to lists and reports. For information on report formatting, see [Use conditional formatting in views](/help/quicksilver/reports-and-dashboards/reports/reporting-elements/use-conditional-formatting-views.md).
 
