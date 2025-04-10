@@ -2,22 +2,22 @@
 product-area: reporting
 navigation-topic: create-and-manage-reports
 title: Berichte nach Zeitrahmen filtern
-description: Sie können einen Bericht nach dem Zeitrahmen eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitraum filtern, in dem die Stunden eingegeben wurden.
-author: Nolan
+description: Sie können einen Bericht nach dem Zeitraum eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitraum filtern, in dem die Stunden eingegeben wurden.
+author: Courtney
 feature: Reports and Dashboards
 exl-id: 7dea484c-d38e-4786-85d0-f4c106cfa46f
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
 workflow-type: tm+mt
-source-wordcount: '1027'
+source-wordcount: '965'
 ht-degree: 5%
 
 ---
 
 # Berichte nach Zeitrahmen filtern
 
-<!-- Audited: 11/2024 -->
+<!-- Audited: 4/2025 -->
 
-Sie können einen Bericht nach dem Zeitrahmen eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitraum filtern, in dem die Stunden eingegeben wurden.
+Sie können einen Bericht nach dem Zeitraum eines Datums filtern, das in einem Objekt vorhanden ist. Sie können beispielsweise einen Stundenbericht nach einem bestimmten Zeitraum filtern, in dem die Stunden eingegeben wurden.
 
 ## Zugriffsanforderungen
 
@@ -30,25 +30,20 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  <col> 
  <tbody> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Plan*</td> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
       <td> 
-      <p>Neu:</p>
-         <ul>
-         <li><p>Standard</p></li>
-         </ul>
-      <p>Aktuell:</p>
-         <ul>
-         <li><p>Plan</p></li>
-         </ul>
+      <p>Neu: Standard</p>
+       <p> Oder</p>
+      <p>Aktuell: Plan</p>
    </td>
 
 </tr> 
   <tr> 
-   <td role="rowheader">Konfigurationen der Zugriffsebene*</td> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
    <td> <p>Zugriff auf Berichte, Dashboards, Kalender bearbeiten</p> <p>Zugriff auf Filter, Ansichten, Gruppierungen bearbeiten</p></td> 
   </tr> 
   <tr> 
@@ -58,28 +53,30 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Voraussetzungen
 
-Der Bericht muss erstellt werden, bevor Sie seine Ergebnisse filtern.
+Der Bericht muss erstellt werden, bevor Sie die Ergebnisse filtern können.
 
 Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen eines Berichts](../../../reports-and-dashboards/reports/creating-and-managing-reports/create-report.md).
 
-## Filtern eines Berichts nach dem Zeitrahmen eines Datums {#filter-a-report-by-the-time-frame-of-a-date}
+## Filtern eines Berichts nach dem Zeitrahmen eines Datums {#filter-a-report-by-the-timeframe-of-a-date}
 
-1. Klicken Sie auf das **Hauptmenü**-Symbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Reporting**.
+{{step1-to-reports}}
 
-1. Klicken Sie **Neuer Bericht** und wählen Sie dann den gewünschten Berichtstyp aus.\
-   Wählen Sie beispielsweise **Stundenbericht**.
+1. Klicken Sie oben links auf **Neuer Bericht** und wählen Sie dann den Berichtstyp aus, den Sie erstellen möchten.
 
-1. Wählen Sie die **Filter** aus.
-1. Klicken Sie **Filterregel hinzufügen** und wählen Sie dann **Stundeneintragsdatum** aus.\
+1. Wählen Sie auf der **Neuer Bericht** die Registerkarte **Filter** aus.
+
+1. Klicken Sie **Filterregel hinzufügen** und dann **Feld auswählen**.
+
+1. Wählen **im Dialogfeld „Feld**&quot; die Option **Stunde** und dann **Eingabedatum**.
    ![Stundenbericht nach Zeitrahmen filtern](assets/qs-filtering-hour-report-by-timeframe-350x357.png)
 
-1. Wählen Sie im folgenden Dropdown-Menü eine der folgenden Optionen aus:
+1. Wählen Sie in der angezeigten Dropdown-Liste eine der folgenden Optionen aus:
 
    <table style="table-layout:auto"> 
     <col> 
@@ -88,52 +85,56 @@ Weitere Informationen zum Erstellen von Berichten finden Sie unter [Erstellen ei
      <tr> 
       <td role="rowheader">Gleich</td> 
       <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie das Datum an, an dem die Stunden eingegeben wurden.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Ungleich</td> 
       <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie das Datum an, an dem die Stunden eingegeben wurden, um dieses Datum aus Ihrem Bericht auszuschließen. Der Bericht zeigt die in allen Datumsangaben protokollierten Stunden an. Erwarten Sie für das angegebene Datum.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Null</td> 
-      <td>Wählen Sie diesen Modifikator, um nur Stunden anzuzeigen, in denen das Eingabedatum fehlt.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Nicht Null</td> 
-      <td>Wählen Sie diesen Modifikator, um nur Stunden anzuzeigen, für die das Eingabedatum einen Wert aufweist.</td> 
-     </tr> 
-     <tr> 
-      <td role="rowheader">Zwischen</td> 
-      <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie einen Datumsbereich an, in dem die Stunden eingegeben wurden. Der Bericht zeigt die Stunden an, die zwischen den angegebenen Daten eingegeben wurden.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Less Than</td> 
       <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie ein Datum an, vor dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die vor dem angegebenen Datum eingegeben wurden, ohne das angegebene Datum einzubeziehen.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Kleiner gleich</td> 
       <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie ein Datum an, vor dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die vor dem angegebenen Datum eingegeben wurden, einschließlich des angegebenen Datums.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Greater Than</td> 
       <td>Geben Sie nach Auswahl dieses Modifikators ein Datum an, nach dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die nach dem angegebenen Datum eingegeben wurden, ohne das angegebene Datum einzubeziehen.</td> 
-     </tr> 
-     <tr> 
+     </tr>
+
+   <tr> 
       <td role="rowheader">Größer gleich</td> 
-      <td> <p>Geben Sie nach Auswahl dieses Modifikators ein Datum an, nach dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die nach dem angegebenen Datum eingegeben wurden, einschließlich des angegebenen Datums.</p> <p>Wählen Sie einen der integrierten Zeitrahmen-Modifikatoren aus, wie unter <a href="#built-in-time-frame-modifiers" class="MCXref xref">Integrierte Zeitrahmen-Modifikatoren</a> beschrieben.</p> </td> 
-     </tr> 
-    </tbody> 
+      <td> Geben Sie nach Auswahl dieses Modifikators ein Datum an, nach dem die Stunden eingegeben wurden. Der Bericht zeigt Stunden an, die nach dem angegebenen Datum eingegeben wurden, einschließlich des angegebenen Datums. </td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Zwischen</td> 
+      <td>Nachdem Sie diesen Modifikator ausgewählt haben, geben Sie einen Datumsbereich an, in dem die Stunden eingegeben wurden. Der Bericht zeigt die Stunden an, die zwischen den angegebenen Daten eingegeben wurden.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Null</td> 
+      <td>Wählen Sie diesen Modifikator, um nur Stunden anzuzeigen, in denen das Eingabedatum fehlt.</td> 
+     </tr>
+
+   <tr> 
+      <td role="rowheader">Nicht Null</td> 
+      <td>Wählen Sie diesen Modifikator, um nur Stunden anzuzeigen, für die das Eingabedatum einen Wert aufweist.</td> 
+     </tr>
+
+   </tbody> 
    </table>
 
-1. Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder eine Eingabeaufforderung in jedem Bericht zur Verfügung.
 1. Klicken Sie auf **Speichern + schließen**.
 
-## Integrierte Zeitrahmen-Modifikatoren {#built-in-time-frame-modifiers}
+## Integrierte Zeitrahmen-Modifikatoren {#built-in-timeframe-modifiers}
 
-Adobe Workfront verfügt über integrierte Zeitrahmen-Modifikatoren, die Sie ohne Definition eines bestimmten Datums verwenden können.
-
-Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder eine Eingabeaufforderung in jedem Bericht zur Verfügung.
-
-Weitere Informationen zum Filtern eines Berichts nach einem mit einem Datum verknüpften Zeitrahmen finden Sie im obigen Abschnitt [Filtern eines Berichts nach dem Zeitrahmen eines ](#filter-a-report-by-the-time-frame-of-a-date)).
+Adobe Workfront verfügt über integrierte Zeitrahmen-Modifikatoren, die Sie ohne Definition eines bestimmten Datums verwenden können. Diese Modifikatoren stehen für jedes Datumsfeld in einem Filter oder eine Eingabeaufforderung in jedem Bericht zur Verfügung.
 
 Wenn Sie beispielsweise einen Stundenbericht erstellen und Stunden anzeigen möchten, die in einem bestimmten Zeitrahmen eingegeben wurden, können Sie aus den folgenden integrierten Zeitrahmen-Filteroptionen wählen:
 

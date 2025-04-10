@@ -6,9 +6,9 @@ description: Mit den Filter- und Bedingungsmodifikatoren können Sie Filter erst
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 13e9d926-8a89-490e-aa7a-e6e8baf2a36b
-source-git-commit: 3cee374b68b26f2a423d41101300ec8b6685fadd
+source-git-commit: b2b17c34fe4887e291e69facf76f5071bca43b06
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1565'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,7 @@ Einige Modifikatoren sind integriert und Sie können sie aus einem Dropdown-Men�
 
 Weitere Informationen zum Textmodus finden Sie unter [Textmodus - Übersicht](../../../reports-and-dashboards/reports/text-mode/understand-text-mode.md).
 
-Eine Liste der integrierten Zeitrahmen-Modifikatoren finden Sie im Artikel [Filtern von Berichten nach Zeitrahmen](../../../reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
+Eine Liste der integrierten Zeitrahmen-Modifikatoren finden Sie im Artikel [Filtern von Berichten nach Zeitrahmen](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/filter-reports-time-frames.md).
 
 Sie können die folgenden Bedingungsmodifikatoren in Filtern und Anweisungen zur bedingten Formatierung verwenden:
 
