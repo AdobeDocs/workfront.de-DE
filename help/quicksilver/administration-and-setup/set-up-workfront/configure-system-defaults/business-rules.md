@@ -8,10 +8,10 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 780c996c-5cf1-42fe-898d-2cc208bbae7b
-source-git-commit: 03f95d2d6397850fd53e79fd37c2de56e94a04cd
+source-git-commit: 34f7f35875f063a77d33ee63c33e69721dc70c03
 workflow-type: tm+mt
-source-wordcount: '1270'
-ht-degree: 0%
+source-wordcount: '1308'
+ht-degree: 2%
 
 ---
 
@@ -124,7 +124,29 @@ IF(
 
    ![Objekt auswählen](assets/object-for-business-rule3.png)
 
-1. Geben Sie **Name** für die Geschäftsregel ein.
+   Sie können Geschäftsregeln auf die folgenden Objekte anwenden:
+
+   * Projekt
+   * Aufgabe
+   * Anfrage/Anfrage
+   * Portfolio
+   * Dokument
+   * Programm
+   * Ausgabe
+   * Benutzerin oder Benutzer
+   * Firma
+   * Wiederholung
+   * Abrechnungseintrag
+   * Gruppe
+   * Risiko
+   * Zuweisung
+   * Aufgabengebiet
+   * Ressourcen-Pool
+   * Freizeit
+   * Stunde
+   * Vorlage
+
+1. Geben Sie **Name** für die Geschäftsregel im Dialogfeld „Regel-Builder“ ein.
 1. Wählen Sie im Feld **Ist aktiv** aus, ob die Regel beim Speichern aktiv sein soll.
 
    Wenn Sie **Nein** auswählen, wird die Regel als inaktiv gespeichert und kann später aktiviert werden.
