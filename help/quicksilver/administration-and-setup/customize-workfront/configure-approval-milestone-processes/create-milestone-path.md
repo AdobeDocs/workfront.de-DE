@@ -8,9 +8,9 @@ author: Alina
 feature: System Setup and Administration
 role: Admin
 exl-id: c1e2f374-576c-4f1c-b502-281e8ee9e7df
-source-git-commit: a3c82d8be6945a91a249d64923c6377a5edfa268
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '875'
+source-wordcount: '815'
 ht-degree: 3%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 3%
 NOTE: DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT, THROUGH THE CONTEXT SENSITIVE HELP LINKS.
 -->
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Als Adobe Workfront-Administrator können Sie Meilensteinpfade erstellen, die dann auf jedes Projekt im System angewendet werden können. Die Änderungen an Meilensteinpfaden in diesem Bereich wirken sich auf das gesamte Workfront-System aus.
 
@@ -123,20 +123,18 @@ Weitere Informationen dazu, wie Sie einen Meilensteinpfad mit einem Projekt und 
    Weitere Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten und Meilensteinen mit Aufgaben finden Sie unter [Verknüpfen von Meilensteinen mit Aufgaben](../../../manage-work/tasks/manage-tasks/associate-milestones-with-tasks.md).
 
 
-1. <span class="preview">(Optional) Klicken Sie auf das Symbol **Export** ![Export-Symbol](assets/export-icon.png) und wählen Sie dann eines der folgenden Formate aus, um die Liste der Meilensteinpfade in eine Datei zu exportieren: </span>
+1. (Optional) Klicken Sie auf **Export**-Symbol ![Export-Symbol](assets/export-icon.png) und wählen Sie dann eines der folgenden Formate aus, um die Liste der Meilensteinpfade in eine Datei zu exportieren:
 
    * PDF
    * Excel
    * Excel (xlsx)
    * Durch Tabulatoren getrennt
 
-1. <span class="preview">(Optional) Wählen Sie in der Meilenstein-Liste einen Meilenstein aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), um Meilenstein-Informationen zu bearbeiten. </span>
-1. <span class="preview">(Optional) Wählen Sie in der Meilenstein-Liste einen Meilenstein aus und klicken Sie dann auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png), um ihn zu löschen. </span>
-1. <span class="preview">Klicken Sie auf **Ja, löschen Sie**. </span>
-   <span class="preview">Der Meilenstein wurde gelöscht und kann nicht wiederhergestellt werden. Alle mit dem Meilenstein verknüpften Projektinformationen und alle mit den Meilensteinpfaden verknüpften Aufgabeninformationen werden ebenfalls gelöscht. </span>
+1. (Optional) Wählen Sie einen Meilenstein in der Meilensteinliste aus und klicken Sie dann auf das **Bearbeiten**-Symbol ![Bearbeiten](assets/edit-icon.png), um Meilensteininformationen zu bearbeiten.
+1. (Optional) Wählen Sie in der Meilenstein-Liste einen Meilenstein aus und klicken Sie dann auf das **Löschen**-Symbol ![Löschen](assets/delete-icon.png), um ihn zu löschen.
+1. Klicken Sie **Ja, löschen**.
+Der Meilenstein wurde gelöscht und kann nicht wiederhergestellt werden. Alle mit dem Meilenstein verknüpften Projektinformationen und alle mit den Meilensteinpfaden verknüpften Aufgabeninformationen werden ebenfalls gelöscht.
 
-
-<div class="preview">
 
 ## Anzeigen von Meilensteinpfaddetails in einem Bericht
 
@@ -163,8 +161,6 @@ Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten finden Sie unt
 
    Die Details des Meilensteinpfads werden angezeigt.
 
-   <div class="preview">
-
    ![Meilensteinpfaddetails aus dem Projektbericht](assets/milestone-details-from-project-report.png)
 
    Auf der Seite mit den Meilensteinpfaddetails werden die folgenden Informationen angezeigt:
@@ -175,6 +171,5 @@ Informationen zum Verknüpfen von Meilensteinpfaden mit Projekten finden Sie unt
 
 1. (Optional) Klicken Sie auf **Zurück**, um zum Projektbericht zurückzukehren.
 
-</div>
 
 

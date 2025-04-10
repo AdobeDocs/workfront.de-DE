@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 585a65c497211c84cffafeeaa5016218fd66acd2
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2197'
+source-wordcount: '2138'
 ht-degree: 2%
 
 ---
@@ -23,9 +23,9 @@ ht-degree: 2%
 
 <!-- if they give access to use the automation to people with LESS than Manage permissions to a workspace, split this article in two: the Configure section should be for admins and the "Use a Workfront Planning automation to create an object" should be for all other users-->
 
-<span class="preview">Die Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 Sie können Automatisierungen in Adobe Workfront Planning konfigurieren, die, wenn sie aktiviert sind, Objekte in Workfront erstellen oder Datensätze in Workfront Planning aufnehmen, wenn sie durch einen Planungsdatensatz ausgelöst werden. Die erstellten Objekte oder Datensätze werden automatisch mit den Datensätzen verbunden, für die Sie die Automatisierung auslösen.
 
@@ -37,7 +37,7 @@ Weitere Informationen zu verbundenen Datensätzen finden Sie unter [Übersicht �
 
 Mit Automatisierungen in Workfront Planning können Sie Folgendes erstellen:
 
-* Ein <span class="preview">oder </span> Projekte
+* Ein oder mehrere Projekte
 * Eine Gruppe
 * Ein Programm
 * Ein Portfolio
@@ -123,15 +123,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 * Der Name des -Objekts oder -Datensatzes, das bzw. der von einer Automatisierung erstellt wurde, ist derselbe wie der Datensatzname, aus dem Sie ihn bzw. ihn erstellen, wenn Sie ein einzelnes -Objekt erstellen.
 
-<div class="preview">
-
 * Wenn Sie mehrere Projekte erstellen, werden diese automatisch nach dem folgenden Muster benannt:
 
   `[ Name of the record ] Name of the field choice`
 
   Weitere Informationen finden Sie [ Abschnitt „Verwenden einer Workfront-Planungsautomatisierung zum Erstellen eines Objekts oder ](#use-a-workfront-planning-automation-to-create-an-object-or-a-record) Datensatzes“ in diesem Artikel.
-
-</div>
 
 * Neue Objekte oder Datensätze überschreiben nicht vorhandene im selben Feld. Durch das mehrfache Auslösen derselben Automatisierung für denselben Datensatz werden die neuen Objekte oder Datensätze im selben verbundenen Feld des ursprünglichen Datensatzes zusätzlich zu den zuvor erstellten hinzugefügt.
 
@@ -166,8 +162,8 @@ Die Seite mit den Automatisierungsdetails wird geöffnet.
    * **Aktionen**: Wählen Sie die Aktion aus, die Workfront beim Auslösen der Automatisierung ausführen soll. Dies ist ein Pflichtfeld.
 Eine der folgenden Aktionen auswählen:
 
-      * <span class="preview">Erstellen mehrerer Projekte</span>
-      * <span class="preview">Erstellen Sie ein einzelnes Projekt</span>
+      * Erstellen mehrerer Projekte
+      * Erstellen eines einzelnen Projekts
       * Projekt erstellen
       * Eintrag erstellen
       * Programm erstellen
@@ -180,11 +176,9 @@ Eine der folgenden Aktionen auswählen:
 
 1. (Bedingt) Aktualisieren Sie je nach ausgewählter Aktion die folgenden Felder:
 
-   * **Erstellen <span class="preview">eines einzelnen</span> Projekts**: <!--replace to the left: Create a single project-->
+   * **Erstellen eines einzelnen Projekts**: <!--replace to the left: Create a single project-->
       * **Verbundenes Feld, in dem das Projekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
       * **Projektvorlage**: Wählen Sie eine Projektvorlage aus, die Workfront zum Erstellen des Projekts verwenden wird.
-
-   <div class="preview">
 
    * Mehrere Projekte erstellen:
       * **Verbundenes Feld, in dem das Projekt erstellt wird**: Dies ist das verbundene Feld, in dem das neue Projekt angezeigt wird. Dies ist ein Pflichtfeld.
@@ -197,8 +191,6 @@ Eine der folgenden Aktionen auswählen:
 
       * **Dieselbe Vorlage verwenden**: Wählen Sie diese Option, um für jedes neue Projekt dieselbe Vorlage zu verwenden. Wenn die Option nicht ausgewählt ist, wählen **für jede Feldauswahl eine** Projektvorlage) aus.
       * **Projektvorlage**: Wenn Sie die Option **Dieselbe Vorlage verwenden** ausgewählt haben, wählen Sie eine Projektvorlage aus, die Workfront zum Erstellen der Projekte verwenden wird.
-
-   </div>
 
    * **Portfolio erstellen**:
       * **Verbundenes Feld, in dem das Portfolio erstellt wird**: Dies ist das verbundene Feld, in dem das neue Portfolio angezeigt wird. Dies ist ein Pflichtfeld.
@@ -311,15 +303,11 @@ Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
 
    * Das neue Objekt wird in dem verbundenen Feld angezeigt, das bei der Einrichtung der Automatisierungsschaltfläche angegeben ist. Möglicherweise müssen Sie die Seite aktualisieren, bevor Sie das neue Objekt anzeigen. Das neue Objekt hat denselben Namen wie der ursprüngliche Datensatz.
 
-   <div class="preview">
-
    * Wenn mehrere Projekte auf der Grundlage von Mehrfachauswahl- oder Einzelauswahlfeldern erstellt wurden, werden die Projekte automatisch nach dem folgenden Muster benannt:
 
      `[ Name of the record ] Name of the field choice`
 
      Wenn beispielsweise eine Kampagne mit dem Namen `Summer breeze` ein Projekt aus einem Feld der `EMEA` generiert, heißt das Projekt `[ Summer breeze ] EMEA`.
-
-   </div>
 
    * Der Datensatz, dessen Automatisierung Sie auslösen, wird dem verbundenen Feld des neuen Datensatzes hinzugefügt.
 

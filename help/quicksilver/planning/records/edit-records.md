@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 981b8e44-b548-4f94-bf89-5f5dec3a6166
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '2246'
+source-wordcount: '2186'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Datensätze bearbeiten
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -92,7 +92,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
@@ -242,7 +242,6 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
      ![Ziehbare untere rechte Ecke für Kopieren und Einfügen in die Tabellenansicht](assets/dragable-lower-right-corner-for-copy-paste-in-table-view.png)
 
-   <div class="preview">
 
    * Kopieren Sie eine oder mehrere Zellen aus einer externen Quelle (z. B. einer Excel-Datei) und fügen Sie sie dann in einen der folgenden Feldtypen ein:
 
@@ -250,7 +249,6 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
       * Personenfelder. Es werden nur Felder mit einem Wert unterstützt.
 
      Es ist nicht möglich, Informationen aus einer externen Quelle zu kopieren und in andere Feldtypen, einschließlich Workfront- oder AEM Assets-Verbindungsfeldern, einzufügen.
-   </div>
 
    >[!NOTE]
    >
@@ -295,11 +293,7 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
    Klicken Sie in der Tabellenansicht auf das Symbol **Details öffnen** ![Detailsymbol öffnen im Feld „Tabellenname](assets/open-details-icon-in-table-name-field.png) in der ersten Spalte. Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   <div class="preview">
-
    ![Detailfeld](assets/details-box.png)
-
-   </div>
 
 1. (Optional) Klicken Sie auf das **Mehr**-Menü rechts neben dem Datensatztitel und klicken Sie dann auf **Umbenennen**. Dadurch wird das Feld aktualisiert, das als Datensatztitel angezeigt wird.
 
@@ -320,17 +314,13 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
    Workfront speichert Ihre Änderungen automatisch.
 
-1. <span class="preview"> (Optional) Klicken Sie auf **Echtzeitindikator** ![Echtzeitindikatorsymbol](assets/real-time-indicator-icon.png) in der oberen rechten Ecke des Vorschaufelds des Datensatzes und aktivieren Sie dann die Einstellung **Mitarbeiter anzeigen**, um die Felder, die von anderen in Echtzeit bearbeitet werden, zu markieren.
+1. (Optional) Klicken Sie auf **Echtzeitindikator** ![Echtzeitindikatorsymbol](assets/real-time-indicator-icon.png) in der rechten oberen Ecke des Vorschaufelds des Datensatzes und aktivieren Sie dann die Einstellung **Mitarbeiter anzeigen**, um die Felder hervorzuheben, die von anderen Personen in Echtzeit bearbeitet werden.
 
    In diesem Bereich werden die Namen und Avatare aller Benutzer angezeigt, die gleichzeitig auf den Datensatz zugreifen.
 
-   Wenn die Einstellung deaktiviert ist, werden die Avatare und Namen im Bereich der Echtzeitanzeige aufgelistet und die Felder, die bearbeitet werden, werden nicht hervorgehoben. </span>
-
-   <div class="preview">
+   Wenn die Einstellung deaktiviert ist, werden die Avatare und Namen im Bereich der Echtzeitanzeige aufgelistet und die Felder, die bearbeitet werden, werden nicht hervorgehoben.
 
    ![Erweitertes Feld für die Datensatzvorschau der Echtzeit-Anzeige](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 
@@ -388,17 +378,13 @@ Weitere Informationen finden Sie unter [Verwalten von Datensatzansichten](/help/
 
    Workfront speichert Ihre Änderungen automatisch.
 
-1. <span class="preview"> (Optional) Klicken Sie auf **Echtzeitanzeige** ![Echtzeitanzeige-Symbol](assets/real-time-indicator-icon.png) in der oberen rechten Ecke der Datensatzseite und aktivieren Sie dann die Einstellung **Mitarbeiter anzeigen**, um die Felder hervorzuheben, die von anderen Personen in Echtzeit bearbeitet werden.
+1. (Optional) Klicken Sie auf das Symbol **Echtzeitanzeige** ![Echtzeitanzeige](assets/real-time-indicator-icon.png) in der rechten oberen Ecke der Datensatzseite und aktivieren Sie dann die Einstellung **Mitarbeiter anzeigen**, um die Felder hervorzuheben, die von anderen Personen in Echtzeit bearbeitet werden.
 
    In diesem Bereich werden die Namen und Avatare aller Benutzer angezeigt, die gleichzeitig auf den Datensatz zugreifen.
 
-   Wenn die Einstellung deaktiviert ist, werden die Avatare und Namen im Bereich der Echtzeitanzeige aufgelistet und die Felder, die bearbeitet werden, werden nicht hervorgehoben. </span>
-
-   <div class="preview">
+   Wenn die Einstellung deaktiviert ist, werden die Avatare und Namen im Bereich der Echtzeitanzeige aufgelistet und die Felder, die bearbeitet werden, werden nicht hervorgehoben.
 
    ![Das erweiterte Feld für die Datensatzvorschau der Echtzeitanzeige](assets/real-time-indicator-expanded-record-preview-box.png)
-
-   </div>
 
 1. (Optional) Klicken Sie auf das **Export**-Menü ![Export-Symbol auf der Seite mit ](assets/export-icon-in-record-details-page.png) Datensatzdetails), um die Datensatzdetails zu exportieren. Weitere Informationen finden Sie [Exportieren der Details eines Datensatzes](/help/quicksilver/planning/records/export-the-record-page.md).
 

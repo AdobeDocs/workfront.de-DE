@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 886a348e-1a52-418f-b4c4-57b2e690b81d
-source-git-commit: 279238689e132490b2d67ae64e8ef2c50a8fc604
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '6615'
+source-wordcount: '6555'
 ht-degree: 5%
 
 ---
@@ -18,9 +18,9 @@ ht-degree: 5%
 # Erstellen eines benutzerdefinierten Formulars
 
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>   -->
 
 Sie können ein benutzerdefiniertes Formular mit dem Formular-Designer in Adobe Workfront entwerfen. Sie können benutzerdefinierte Formulare an verschiedene Workfront-Objekte anhängen, um Daten über diese Objekte zu erfassen.
 
@@ -1009,8 +1009,8 @@ So fügen Sie ein Feld für eine Planungsverbindung hinzu:
      </tr>
 
 <tr> 
-      <td role="rowheader"><span class="preview">Eintragstypfelder</span></td> 
-      <td><p><span class="preview">(Optional) Wählen Sie aus dem verbundenen Datensatztyp bis zu 7 Suchfelder aus, die im benutzerdefinierten Formular angezeigt werden sollen. Das primäre Feld ist standardmäßig ausgewählt und kann nicht bearbeitet werden. </span></p> <span class="preview"><p> Die ausgewählten Felder des verbundenen Datensatzes werden in einer Tabellenansicht im benutzerdefinierten Formular angezeigt. Wenn das Formular mit einem Workfront-Objekt verbunden ist, ist die Tabellenansicht schreibgeschützt. </span></p>  
+      <td role="rowheader">Eintragstypfelder</td> 
+      <td><p>(Optional) Wählen Sie aus dem verbundenen Datensatztyp bis zu 7 Suchfelder aus, die im benutzerdefinierten Formular angezeigt werden sollen. Das primäre Feld ist standardmäßig ausgewählt und kann nicht bearbeitet werden. </p> <p> Die ausgewählten Felder des verbundenen Datensatzes werden in einer Tabellenansicht im benutzerdefinierten Formular angezeigt. Wenn das Formular mit einem Workfront-Objekt verbunden ist, ist die Tabellenansicht schreibgeschützt. </p>  
     <img src="assets/planning-connections-field-with-table-on-form-preview.png"></td> 
      </tr>
       </tbody> 

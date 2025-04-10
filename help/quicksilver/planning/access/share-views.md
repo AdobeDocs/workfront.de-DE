@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: 673dd888-3135-48b0-8198-c8d6d6706ddf
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 7f96cddc18e70dff34beb33ef2785af69a55c36f
 workflow-type: tm+mt
-source-wordcount: '1600'
+source-wordcount: '1540'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Ansichten freigeben
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -35,7 +35,7 @@ Sie können eine Ansicht für andere freigeben, um die Zusammenarbeit beim Arbei
 
 Sie können eine Ansicht für die folgenden Entitäten freigeben:
 
-* Intern mit Workfront-Benutzern, -Gruppen<span class="preview"> (Teams, Unternehmen und Aufgabengebieten</span>
+* Intern mit Workfront-Benutzern, -Gruppen, -Teams, -Unternehmen und -Aufgabengebieten
 * Öffentlich, mit Benutzern außerhalb von Workfront
 
 <!--
@@ -104,7 +104,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Nur Benutzer mit der Berechtigung Verwalten für einen Arbeitsbereich können eine Ansicht öffentlich freigeben.</p></td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
@@ -129,7 +129,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
 ## Berechtigungen für eine Ansicht intern freigeben
 
-Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie Verwaltungsberechtigungen haben, für Benutzende, Gruppen, <span class="preview">Teams, Unternehmen und </span> in Workfront Planning freigeben.
+Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie über Verwaltungsberechtigungen verfügen, für Benutzende, Gruppen, Teams, Unternehmen und Aufgabengebiete in Workfront Planning freigeben.
 
 >[!NOTE]
 >
@@ -151,10 +151,10 @@ Sie können von Ihnen erstellte Ansichten oder Ansichten, für die Sie Verwaltun
 
 1. (Optional) Wählen Sie im Bereich **Wer hat Zugriff** eine der folgenden Optionen aus:
 
-   * **Nur eingeladene Personen können zugreifen**: Sie müssen Benutzer, Gruppen, <span class="preview">Team, Firma oder Aufgabengebiet</span> angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
+   * **Nur eingeladene Personen können zugreifen**: Sie müssen Benutzer, Gruppen, Teams, Unternehmen oder Aufgabengebiete angeben, für die Sie die Ansicht freigeben möchten. Dies ist die Standardoption.
    * **Jeder Benutzer im Arbeitsbereich kann Folgendes anzeigen** Alle Benutzer mit Ansichts- oder höheren Berechtigungen für Arbeitsbereiche können auf die Ansicht zugreifen.
 
-1. Beginnen Sie im Feld **Zugriff auf diese Ansicht gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines <span class="preview">Teams, einer Firma oder eines </span> und klicken Sie dann auf den Namen, wenn er in der Liste angezeigt wird.
+1. Beginnen Sie im Feld **Zugriff auf diese Ansicht gewähren** mit der Eingabe des Namens eines Benutzers, einer Gruppe, eines Teams, eines Unternehmens oder eines Aufgabengebiets und klicken Sie dann auf das Feld, wenn es in der Liste angezeigt wird.
 
    ![Freigeben einer Ansicht für Gruppen](assets/sharing-a-view-ui-with-groups.png)
 
@@ -255,7 +255,7 @@ Klicken Sie in der E-Mail-Benachrichtigung **Alle Benachrichtigungen anzeigen** 
 1. Gehen Sie wie folgt vor, um die interne Freigabe einer Ansicht zu entfernen:
 
    1. Stellen Sie sicher **dass die Registerkarte** Interne Freigabe“ ausgewählt ist.
-   1. Suchen Sie den Benutzer, die Gruppe, das <span class="preview">Team, das Unternehmen oder das Aufgabengebiet</span> den/die Sie entfernen möchten, erweitern Sie das Dropdown-Menü Berechtigungen rechts neben dem Namen der Entität, für die Sie die Ansicht freigeben, und klicken Sie dann auf **Entfernen**.
+   1. Suchen Sie den/die Benutzende(n), die/die Gruppe, das Team, das Unternehmen oder das Aufgabengebiet, das/die Sie entfernen möchten, erweitern Sie das Dropdown-Menü Berechtigungen rechts neben dem Namen der Entität, für die Sie die Ansicht freigeben, und klicken Sie dann auf **Entfernen**.
 
 1. Gehen Sie wie folgt vor, um die öffentliche Freigabe einer Ansicht zu entfernen:
 

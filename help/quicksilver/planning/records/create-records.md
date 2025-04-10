@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c7de4b1f-674b-424b-af64-a6df62fb738f
-source-git-commit: 4b5248f667648543263073022ae10336fb022f97
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '2419'
+source-wordcount: '2359'
 ht-degree: 0%
 
 ---
@@ -17,9 +17,9 @@ ht-degree: 0%
 
 # Erstellen von Datensätzen
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -28,13 +28,13 @@ In Adobe Workfront Planning ist ein Datensatz eine Instanz eines Datensatztyps.
 Sie können Datensätze wie folgt erstellen:
 
 * [Erstellen Sie Datensätze, indem Sie sie inline über die Tabellenansicht des Datensatztyps hinzufügen](#create-records-by-adding-them-inline-from-the-record-type-table-view)
-* <span class="preview">[Erstellen von Datensätzen mit der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)</span>
+* [Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht](#create-records-using-the-new-record-or-request-record-button-from-any-record-type-view)
 * [Kopieren und Einfügen einer Liste von Datensätzen aus einer externen Liste](#create-records-by-copying-and-pasting-them-from-an-external-list)
 * [Duplizieren von Datensätzen aus einer Tabellenansicht](#create-records-by-duplicating-them)
 * [Datensätze erstellen, während Sie sie mit anderen Datensätzen verbinden](#create-records-as-you-connect-them)
 * [Erstellen von Datensätzen durch Senden eines Anforderungsformulars an einen Datensatztyp](#create-records-by-submitting-a-request-form-to-a-record-type)
-* <span class="preview">[Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](#create-records-by-importing-records-from-a-csv-or-excel-file)</span>
-* <span class="preview">[Erstellen von Datensätzen mithilfe von Automatisierungen](#create-records-by-using-automations)</span>
+* [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](#create-records-by-importing-records-from-a-csv-or-excel-file)
+* [Erstellen von Datensätzen mithilfe von Automatisierungen](#create-records-by-using-automations)
 
 Informationen zum Verwalten von Datensätzen in der Tabellen- oder Zeitleisten -Ansicht finden Sie in den folgenden Artikeln:
 
@@ -99,7 +99,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
    <td> <p>Tragen Sie Berechtigungen oder höhere Berechtigungen zu dem Arbeitsbereich <!--<span class="preview">and record type</span>-->, dem Sie Datensätze hinzufügen möchten. </p>
-   <p><span class="preview">Zeigen Sie Berechtigungen oder höhere Berechtigungen für den Arbeitsbereich an, <!--<span class="preview">and record type</span>--> Datensätze mithilfe der Schaltfläche Datensatz anfragen auf der Seite Datensatz zu erstellen</span></p>
+   <p>Zeigen Sie Berechtigungen oder höhere Berechtigungen für den Arbeitsbereich an, <!--<span class="preview">and record type</span>--> Datensätze mithilfe der Schaltfläche Datensatz anfragen auf der Seite Datensatz zu erstellen</p>
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>
    <p>Verwalten Sie Berechtigungen für Workfront-Objekte (Portfolios), um untergeordnete Objekte (Projekte) hinzuzufügen.</p>
    </td> 
@@ -182,8 +182,6 @@ Datensätze des ausgewählten Typs werden in der Ansicht angezeigt.
    * STRG + Z (⌘ + Z für Mac), um eine Änderung rückgängig zu machen
    * Strg+Umsch+Z (⌘+Umschalt+Z für Mac), um eine Änderung wiederherzustellen
 
-<div class="preview">
-
 ## Erstellen von Datensätzen mithilfe der Schaltfläche Neuer Datensatz oder Datensatz anfragen in einer beliebigen Datensatztypansicht
 
 Benutzende mit der Berechtigung Anzeigen für den Arbeitsbereich <!--<span class="preview">and record type</span>--> können Datensätze nur mithilfe der Schaltfläche Datensatz anfragen auf der Seite Datensatztyp erstellen.
@@ -247,8 +245,6 @@ Das Anfrageformular des Datensatztyps wird geöffnet.
    * Ein neuer Datensatz wird dem Datensatztyp hinzugefügt, es sei denn, Sie haben sich dafür entschieden, ihn über ein Anfrageformular mit einem Genehmigungsprozess hinzuzufügen. Die Genehmigung muss von allen genehmigenden Personen erteilt werden, bevor der Datensatz erstellt wird.
    * Mehrere Datensätze werden dem Datensatztyp hinzugefügt, wenn Sie Datensätze mithilfe einer CSV- oder Excel-Tabelle hinzugefügt haben.
    * Eine neue Anfrage wird auf der Registerkarte Planung im Bereich Workfront-Anfragen hinzugefügt, wenn Sie die Anfrage durch Senden eines Anfrageformulars hinzugefügt haben.
-
-</div>
 
 <!-- this is not possible anymore: 
 
@@ -339,7 +335,7 @@ So erstellen Sie Datensätze, während Sie sie mit anderen Datensätzen verbinde
 
      Weitere Informationen finden Sie unter [Verwalten von Datensatzverbindungen aus Workfront-Objekten](/help/quicksilver/planning/records/manage-records-in-planning-section.md).
 
-1. (Bedingt) Wenn Sie beim Versuch, eine Verbindung herzustellen, einen Datensatz nicht finden können, <span class="preview">klicken Sie auf **+ Hinzufügen**</span>
+1. (Bedingt) Wenn Sie beim Versuch, eine Verbindung herzustellen, einen Datensatz nicht finden können, klicken Sie auf **+ Hinzufügen**
 
    oder
 Geben Sie einen Namen ein und klicken Sie dann auf **+ Hinzufügen**. Auf die Schaltfläche **+ Hinzufügen** folgt der Name des Datensatztyps, mit dem Sie eine Verbindung herstellen. Beispiel: „Hinzufügen von Marken“, wenn eine Marke zu einer bestehenden Kampagne hinzugefügt wird. Der eingegebene Name folgt auch der Schaltfläche Hinzufügen .
@@ -376,17 +372,11 @@ Sie können Datensätze importieren, wenn Sie Datensatztypen mithilfe einer CSV-
 
 Weitere Informationen finden Sie [Datensatztypen erstellen](/help/quicksilver/planning/architecture/create-record-types.md).
 
-<div class="preview">
-
 ## Erstellen von Datensätzen durch Importieren von Datensätzen aus einer CSV- oder Excel-Datei
 
 Sie können Datensätze für vorhandene Datensatztypen importieren, wenn Sie Informationen aus einer CSV- oder Excel-Datei importieren.
 
 Weitere Informationen finden Sie unter [Erstellen von Datensätzen durch Importieren von Informationen aus einer CSV- oder Excel-Datei](/help/quicksilver/planning/records/import-file-to-create-records.md).
-
-</div>
-
-<div class="preview">
 
 ## Erstellen von Datensätzen mithilfe von Automatisierungen
 
@@ -396,6 +386,5 @@ Sie können die Automatisierung auf der Seite des Datensatzes in Workfront Plann
 
 Weitere Informationen finden Sie unter [Erstellen von Objekten mithilfe von Adobe Workfront Planning-Datensatzautomatisierungen](/help/quicksilver/planning/records/create-wf-objects-using-planning-automations.md).
 
-</div>
 
 

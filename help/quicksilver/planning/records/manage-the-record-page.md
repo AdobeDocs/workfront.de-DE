@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '1913'
+source-wordcount: '1853'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Seiten-Layout des Datensatzes verwalten
 
-<span class="preview">Die auf dieser Seite hervorgehobenen Informationen beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The information highlighted on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
 
 {{planning-important-intro}}
 
@@ -104,7 +104,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </td>
   </tr>
 <tr>
-   <td role="rowheader"><p>Layoutvorlage</p></td>
+   <td role="rowheader"><p>Layout-Vorlage</p></td>
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü und den Bereich Planung für Projekte, Portfolios und Programme enthält. </p> Weitere Informationen finden Sie unter <a href="/help/quicksilver/planning/access/access-overview.md">Zugriffsübersicht für Adobe Planning</a>. </p>  </p>  
 </td>
   </tr>
@@ -161,11 +161,7 @@ So fügen Sie einen Abschnitt zu einer Datensatzvorschau oder Seite hinzu:
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   <div class="preview">
-
    ![Detailfeld](assets/details-box.png)
-
-   </div>
 
 1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Details in einer neuen Registerkarte öffnen](assets/open-details-in-a-new-tab-icon.png) in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
@@ -244,21 +240,13 @@ Folgendes geschieht:
 
    Die Vorschau des Datensatzes wird in der Ansicht geöffnet.
 
-   <div class="preview">
-
    ![Detailfeld](assets/details-box.png)
-
-   </div>
 
 1. (Optional) Klicken Sie auf **Symbol** In neuer Registerkarte öffnen![ (Detailfeld in einem neuen Registerkartensymbol öffnen](assets/open-details-in-a-new-tab-icon.png) <!--check the icon; they are changing it--> in der oberen rechten Ecke der Datensatzvorschau, um die Seite des Datensatzes in einer neuen Registerkarte zu öffnen.
 
    Die **Details** des Datensatzes wird standardmäßig geöffnet.
 
-   <div class="preview">
-
    ![Detailseite](assets/details-page.png)
-
-   </div>
 
 1. Klicken Sie auf der **„Details** auf das **grab**-Symbol ![grab icon](assets/grab-icon.png) links neben einem Feldnamen und ziehen Sie es dann an die gewünschte Stelle.
 
@@ -301,17 +289,13 @@ So fügen Sie eine Seite mit einer Verbindungsansicht hinzu:
 Die Tabellenansicht des ausgewählten Datensatztyps und die verbundenen Datensätze werden in der Tabellenansicht angezeigt.
 Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Registerkarte des verbundenen Datensatzes angezeigt.
 
-   <span class="preview">Beim Zugriff auf Workfront Planning über die Vorschau -Umgebung werden standardmäßig die ersten fünf Felder der verbundenen Datensatztabelle angezeigt. Standardmäßig werden keine Suchfelder angezeigt.</span>
+   Beim Zugriff auf Workfront Planning über die Vorschau -Umgebung werden standardmäßig die ersten fünf Felder der verbundenen Datensatztabelle angezeigt. Standardmäßig werden keine Suchfelder angezeigt.0
 
    Die Tabellenansicht ist schreibgeschützt.
 
    <!--replace screen shot below when additional capabilities come to the table view - Fields, etc-->
 
-   <div class="preview">
-
    ![Tabellenansicht mit Audience-Verbindung unter Kampagnendetails](assets/audience-connected-table-view-under-campaign-details-page.png)
-
-   </div>
 
 1. (Optional) Doppelklicken Sie auf den Namen der Registerkarte
 
@@ -323,7 +307,7 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    * Filter
    * Sortieren
    * Gruppierung
-   * <span class="preview">Felder, zum Anzeigen, Ausblenden oder Neuanordnen von Feldern</span>
+   * Felder, zum Anzeigen, Ausblenden oder Neuanordnen von Feldern
 
    <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
 
@@ -333,11 +317,11 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    >
    >   In der Tabellenansicht der Registerkarte eines verbundenen Datensatzes können Sie keine der folgenden Aktionen ausführen:
    >
-   >   * Felder ausblenden oder neu anordnen. <span class="preview">Sie können Felder in der Vorschau-Umgebung ausblenden und neu anordnen.</span>
+   >   * Felder ausblenden oder neu anordnen. Sie können Felder in der Vorschau-Umgebung ausblenden und neu anordnen.
    >   * Erstellen, Bearbeiten oder Löschen von Feldern
    >
 
-1. <span class="preview">Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)</span>
+1. Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
 1. (Optional) Bewegen Sie den Mauszeiger über den Namen der Registerkarte „Verbindungsansicht“ und klicken Sie auf **Mehr** ![Mehr](assets/more-menu.png) und dann auf **Löschen**, um die neue Registerkarte „Verbundene Ansicht“ zu entfernen.
 
 

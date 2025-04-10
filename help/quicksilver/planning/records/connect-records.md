@@ -6,9 +6,9 @@ feature: Workfront Planning
 role: User, Admin
 author: Alina
 exl-id: 17796cdc-6de8-4209-a5af-b255dc64d70a
-source-git-commit: fd8e5d3baf6af0dbdd1275494fad54b204abd1a5
+source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
 workflow-type: tm+mt
-source-wordcount: '3327'
+source-wordcount: '3267'
 ht-degree: 1%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 1%
 
 # Datensätze verbinden
 
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
 
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
+<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>  -->
 
 {{planning-important-intro}}
 
@@ -124,7 +124,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten.</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält </p> </td> 
   </tr> 
 </tbody> 
@@ -157,7 +157,7 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
 * Die verbundenen Datensatzfelder in der Tabellenansicht.
 * Das Vorschaufeld oder die Seite des Datensatzes in den verbundenen Datensatzfeldern auf der Registerkarte Details .
 * Das Vorschaufeld oder die Seite des Datensatzes auf der Registerkarte Verbindungen .
-* <span class="preview">Die Seite des Datensatzes auf der Registerkarte „Verbindungsansicht“.</span> <!--this needs title edit when they rename the "Connection view" page type-->
+* Die Seite des Datensatzes auf der Registerkarte Verbindungsansicht . <!--this needs title edit when they rename the "Connection view" page type-->
 
 ### Verbinden von Workfront-Planungsdatensätzen über die Tabellenansicht oder den Detailbereich eines Datensatzes
 
@@ -184,7 +184,7 @@ Sie können Datensätze aus Workfront Planning in den folgenden Bereichen eines 
    >
 
 1. (Bedingt) Wenn Sie beim Verbinden der Datensatztypen die Option Eins zu viele oder Eins zu eins für den Verbindungstyp ausgewählt haben und versuchen, einen Datensatz oder ein Objekt, das bereits an anderer Stelle verbunden ist, zu verbinden, erhalten Sie eine Warnung, dass beim erneuten Verbinden der Datensatz aus der ursprünglichen Verbindung entfernt wird. Klicken Sie auf **Verbinden**, um das Entfernen zuzulassen und den Datensatz zu verbinden, oder auf **Abbrechen**, um zum Feld zurückzukehren und einen anderen Datensatz auszuwählen.
-1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden und Sie es hinzufügen möchten, <span class="preview">klicken Sie auf **+ Hinzufügen**</span>
+1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden können und Sie es hinzufügen möchten, klicken Sie auf **+ Hinzufügen**
 
    Oder
 
@@ -270,7 +270,7 @@ Nachdem Sie eine Verbindung zwischen einem Datensatztyp und einem Workfront-Obje
    >
    >Sie können die Seite eines Datensatzes aus der Ansicht öffnen, auf das verknüpfte Datensatzfeld doppelklicken oder im Feld auf **Verbinden** klicken, um Objekte aus dem verknüpften Objekttyp hinzuzufügen.
 
-1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden und Sie es hinzufügen möchten, <span class="preview">klicken Sie auf **+ Hinzufügen**</span>
+1. (Optional) Wenn Sie ein Objekt zum Verbinden nicht finden können und Sie es hinzufügen möchten, klicken Sie auf **+ Hinzufügen**
 
    Oder
 
@@ -440,7 +440,7 @@ Verbinden von Datensätzen mit Experience Manager-Assets:
 1. (Optional) Klicken Sie auf den nach unten zeigenden Pfeil links neben einem Abschnitt, um ihn zu reduzieren.
 
 1. (Bedingt) Klicken Sie auf **Verbinden**, um weitere Datensätze oder Objekte desselben Typs hinzuzufügen.
-1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden können und Sie ihn hinzufügen möchten, <span class="preview">klicken Sie auf **+ Hinzufügen**</span>
+1. (Optional) Wenn Sie einen Datensatz oder ein Objekt zum Verbinden nicht finden können und Sie ihn hinzufügen möchten, klicken Sie auf **+ Hinzufügen**
 
    Oder
 
@@ -454,8 +454,6 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
    ![Symbol „Datensatz trennen“ mit QuickInfo auf der Registerkarte „Verbindungen“](assets/disconnect-record-icon-with-tooltip-on-connections-tab.png)
 
    Der Datensatz wird sofort von allen Bereichen von Workfront Planning oder von anderen Anwendungen getrennt, in denen er möglicherweise als verbunden angezeigt wird. Alle Werte der Suchfelder werden ebenfalls entfernt.
-
-<div class="preview">
 
 ### Verbinden von Datensätzen über die Registerkarte „Verbindungsansicht“ auf der Detailseite eines Datensatzes
 
@@ -474,8 +472,6 @@ Die Datensätze und Objekte werden sofort hinzugefügt.
 
    ![Schaltfläche „Verbinden“ auf der Registerkarte „Details verbundener Datensätze“ hervorgehoben](assets/connect-button-highlighted-in-connected-record-details-tab.png)
 1. (Optional) Wenn Sie einen verbundenen Datensatz nicht finden können, klicken Sie auf **+ Hinzufügen** um ihn zu erstellen und zu verbinden.
-
-</div>
 
 ## Verbinden von Datensätzen aus Workfront-Objekten
 
