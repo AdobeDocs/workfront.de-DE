@@ -6,7 +6,7 @@ description: Sie können einem Dokument, das bereits ausstehende Genehmigungen e
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '596'
 ht-degree: 1%
@@ -19,7 +19,7 @@ ht-degree: 1%
 >
 >Der Inhalt dieses Artikels bezieht sich auf aktualisierte Dokumentgenehmigungsfunktionen, die nur für bestimmte Konten verfügbar sind. Informationen zu standardmäßigen Genehmigungsprozessen finden Sie in den Artikeln, die unter [Arbeitsgenehmigungen“ aufgeführt ](/help/quicksilver/review-and-approve-work/manage-approvals/manage-approvals.md).
 
-Einheitliche Genehmigungen ist eine ganzheitliche Neugestaltung des bestehenden Genehmigungsprozesses, der derzeit für Adobe Workfront entwickelt wird. Diese Lösung ist derzeit nur in begrenztem Umfang verfügbar und wurde als praktische und effektive Lösung für Unternehmen konzipiert, die eine umfassende Interaktion mit Stakeholdern und versionsspezifische Dokumentengenehmigungen benötigen. Das durchdachte Design und die zielgerichteten neuen Funktionen erleichtern die Zusammenarbeit, Rollenklarheit und Versionskontrolle im Genehmigungsprozess und verbessern die Effizienz und Verantwortlichkeit.
+Unified Approvals ist eine ganzheitliche Umgestaltung des bestehenden Genehmigungsprozesses, der derzeit für Adobe Workfront entwickelt wird. Diese Lösung ist derzeit nur in begrenztem Umfang verfügbar und wurde als praktische und effektive Lösung für Unternehmen konzipiert, die eine umfassende Interaktion mit Stakeholdern und versionsspezifische Dokumentengenehmigungen benötigen. Das durchdachte Design und die zielgerichteten neuen Funktionen erleichtern die Zusammenarbeit, Rollenklarheit und Versionskontrolle im Genehmigungsprozess und verbessern die Effizienz und Verantwortlichkeit.
 
 ## Hauptunterschiede von Proofing- und Legacy-Dokumentgenehmigungen
 
@@ -27,7 +27,7 @@ Einheitliche Genehmigungen ist eine ganzheitliche Neugestaltung des bestehenden 
 
 * Die Schaltflächen für die Entscheidung zur Dokumentgenehmigung sind in der Proofing-Anzeige nicht verfügbar. Entscheidungen können in der Dokumentzusammenfassung, in Workfront-Startseiten-Widgets oder auf der Seite Dokumentdetails getroffen werden.
 * Die Teilnehmer an der Dokumentengenehmigung werden in der Dokumentzusammenfassung und nicht auf der Registerkarte des Proofing-Workflows angezeigt.
-* Einheitliche Validierungen werden im aktuellen Reporting-Tool nicht unterstützt.
+* Einheitliche Genehmigungen werden im aktuellen Reporting-Tool nicht unterstützt.
 
   Sie können die Beta-Version der neuen Arbeitsflächen-Dashboards verwenden, um [ein Berichts-Dashboard für Überprüfungen und Genehmigungen zu erstellen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md) oder Sie können das Widget Alle Genehmigungen verwenden, das in den neuen Startseiten- und Arbeitsflächen-Dashboards verfügbar ist und die folgenden Details zu einheitlichen Genehmigungen enthält:
 
@@ -65,7 +65,7 @@ Benutzer, die Dokumente, für die sie eine Anforderung erhalten haben, überprü
      Einheitliche Genehmigungen sind so konzipiert, dass sie die verschiedenen Rollen innerhalb des Genehmigungsprozesses erkennen und respektieren. Durch die Bereitstellung der Möglichkeit, Reviewer zu identifizieren und zu bestimmen - Benutzer, die zwar gebeten werden, Feedback zu geben, aber nicht über Entscheidungsbefugnis verfügen - wird die Qualität des Feedbacks verbessert, während die endgültige Genehmigungsbehörde weiterhin klar definiert ist.
 
 * **Versionsspezifische Genehmigungen**\
-    Der iterative Charakter der Dokumentenentwicklung führt oft zu mehreren Versionen desselben Dokuments. Einheitliche Genehmigungen berücksichtigen diese Realität, indem sie für jede Version eines Dokuments eindeutige Genehmigungsketten bereitstellen. Auf diese Weise können Benutzende eine neue Version hochladen und bei Bedarf neue genehmigende Personen oder Prüfende hinzufügen, um sicherzustellen, dass Feedback und Genehmigung spezifisch für die Dokumentversion sind, und um potenzielle Verwirrung zu vermeiden.
+    Der iterative Charakter der Dokumentenentwicklung führt oft zu mehreren Versionen desselben Dokuments. Einheitliche Genehmigungen berücksichtigen diese Realität, indem sie für jede Version eines Dokuments einzigartige Genehmigungsketten bereitstellen. Auf diese Weise können Benutzende eine neue Version hochladen und bei Bedarf neue genehmigende Personen oder Prüfende hinzufügen, um sicherzustellen, dass Feedback und Genehmigung spezifisch für die Dokumentversion sind, und um potenzielle Verwirrung zu vermeiden.
 
 * **Audit-Trails**\
     Mit einheitlichen Genehmigungen wird ein Audit-Protokoll aller Genehmigungsaktivitäten im Aktivitäts-Stream gepflegt, was eine wertvolle Ressource für zukünftige Referenzen und Compliance darstellt.

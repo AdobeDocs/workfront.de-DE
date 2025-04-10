@@ -6,7 +6,7 @@ description: Übersicht über die in Workfront zur Überprüfung und Genehmigung
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 4038180d69d4a8027f33b5bafd2104c7c6916b82
+source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
 workflow-type: tm+mt
 source-wordcount: '330'
 ht-degree: 0%
@@ -21,16 +21,16 @@ Derzeit stehen in Workfront drei verschiedene Systeme für die Überprüfung und
 
 * [Einheitliche Genehmigungen](#new-document-approvals)
 
-* [Validierungen für Testsendungen](#proof-approvals)
+* [Genehmigungen von Korrekturabzügen](#proof-approvals)
 
-## Alte Dokument Genehmigungen
+## Legacy-Dokumentgenehmigungen
 
-Alte Dokument-Genehmigungen werden im Jahr 2025 aus Workfront entfernt. Das einheitliche Genehmigungssystem ersetzt alte Dokument Genehmigungen.
+Ältere Dokumentgenehmigungen werden 2025 aus Workfront entfernt. Das einheitliche Genehmigungssystem wurde entwickelt, um ältere Dokumentgenehmigungen zu ersetzen.
 
-Wichtige Funktionen, die für Genehmigungen älterer Dokument verfügbar sind:
+Wichtige Funktionen für Genehmigungen veralteter Dokumente:
 
-* hinzufügen von Benutzern als Genehmiger
-* prüfen und Kommentieren im Testversand Betrachter
+* Benutzer als genehmigende Personen hinzufügen
+* Überprüfen und Kommentieren im Proofing Viewer
 * Entscheidungen im Proofing Viewer treffen
 * Erstellen von Genehmigungsberichten mit veralteten Berichten
 
@@ -38,15 +38,15 @@ Weitere Informationen finden Sie unter [Legacy-Dokumentgenehmigungen](/help/quic
 
 ## Einheitliche Genehmigungen
 
-Einheitliche Genehmigungen sind eine Neugestaltung des bisherigen Genehmigungssystems. Derzeit in limitierter Version erhältlich, ist es als praktische und effektive Lösung für Unternehmen konzipiert, die umfassende Stakeholder Interaktion und versionsspezifische Dokument-Genehmigungen benötigen.
+Einheitliche Genehmigungen ist eine Neugestaltung des alten Genehmigungssystems. Diese Lösung ist derzeit nur in begrenztem Umfang verfügbar und wurde als praktische und effektive Lösung für Unternehmen konzipiert, die eine umfassende Interaktion mit Stakeholdern und versionsspezifische Dokumentengenehmigungen benötigen.
 
-Ausführlichere Informationen zu einheitlichen Genehmigungen finden Sie unter [Übersicht über](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md) einheitliche Genehmigungen.
+Weitere Informationen zu einheitlichen Genehmigungen finden Sie unter [Übersicht über einheitliche Genehmigungen](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/document-approvals-overview.md).
 
-Wichtige Funktionen, die für einheitliche Genehmigungen verfügbar sind:
+Wichtige Funktionen für einheitliche Genehmigungen:
 
-* hinzufügen Benutzer und Teams als Genehmiger und Prüfer
+* Benutzer und Teams als genehmigende Personen und Prüfer hinzufügen
 
-* Festlegen Fristen
+* Festlegen von Fristen
 
 * Erstellen und Verwenden von Vorlagen
 
@@ -60,18 +60,18 @@ Weitere Informationen zum Reporting finden Sie unter [Erstellen eines Berichts-D
 
 * Entscheidungen im Proofing-Viewer treffen [!BADGE in Kürze verfügbar]{type=Informative}
 
-* Erstellen mehrere Schritt Genehmigungen [!BADGE Demnächst verfügbar]{type=Informative}
+* Mehrstufige Validierungen erstellen [!BADGE in Kürze verfügbar]{type=Informative}
 
 
-## Validierungen für Testsendungen
+## Genehmigungen von Korrekturabzügen
 
-Mit Testvalidierungen können Sie einfache und automatisierte Workflows verwenden, um komplexe Prüf- und Genehmigungsprozesse zu managen. Weitere Informationen zum Korrekturversand finden Sie unter [Korrekturversand](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
+Korrekturabzugs-Genehmigungen ermöglichen es Ihnen, grundlegende und automatisierte Workflows zu verwenden, um komplexe Prüfungs- und Genehmigungsprozesse zu verwalten. Weitere Informationen zu Proofing finden Sie unter [Proofing](/help/quicksilver/review-and-approve-work/proofing/proofing-overview/proofing-basics.md).
 
-Verfügbare Funktionen für das Proofing:
+Für das Proofing verfügbare Funktionen:
 
-* Verwenden Sie Testversand Rollen, um den Zugriff und die Funktionen der Testversand anzupassen
+* Korrekturabzug-Rollen verwenden, um den Zugriff auf Korrekturabzüge und ihre Funktionen anzupassen
 
-* Festlegen Fristen
+* Festlegen von Fristen
 
 * Erstellen und Verwenden von Vorlagen
 
@@ -81,9 +81,9 @@ Verfügbare Funktionen für das Proofing:
 
 * Entscheidungen im Proofing Viewer treffen
 
-* Erstellen mehreren Schritt Genehmigungen
+* Mehrstufige Genehmigungen erstellen
 
-* Verwenden einfacher oder automatisierter Workflows
+* Verwenden von einfachen oder automatisierten Workflows
 
 <!--
 ## Upcoming deprecations
