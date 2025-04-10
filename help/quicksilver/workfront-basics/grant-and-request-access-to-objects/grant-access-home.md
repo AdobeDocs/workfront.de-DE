@@ -6,9 +6,9 @@ description: Benutzende können Zugriff auf Objekte in Adobe Workfront anfordern
 author: Alina
 feature: Get Started with Workfront
 exl-id: e0a69ed5-57c3-47ac-bb7a-65495f93b3e3
-source-git-commit: 1c2303fe2cea51e3339335c433d2be6475949cb1
+source-git-commit: 2c94dd423cfffc7685f24699fa73fb6a48cf2806
 workflow-type: tm+mt
-source-wordcount: '481'
+source-wordcount: '488'
 ht-degree: 0%
 
 ---
@@ -74,7 +74,7 @@ Klicken Sie auf **Startseite**-Symbol ![](assets/home-icon-30x29.png) in der lin
 
    1. Gehen Sie zum Widget **Meine Genehmigungen**, suchen Sie die Anfrage nach weiterem Zugriff und klicken Sie dann auf **Zugriff gewähren**.
 
-      ![](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
+      ![Anforderung genehmigen](assets/request-for-access-to-project-in-new-home-approvals-widget.png)
 
    1. (Optional) Um eine andere Zugriffsebene als die angeforderte zu gewähren, klicken Sie auf das Dropdown-Menü links neben der Schaltfläche Zugriff gewähren , wählen Sie die neue Zugriffsberechtigung aus und klicken Sie dann auf **Zugriff gewähren**.
 
@@ -89,29 +89,11 @@ Sie können konfigurieren, ob Sie E-Mail-Benachrichtigungen für Zugriffsanfrage
 1. Gehen Sie zu Ihrem Benutzerprofil, indem Sie einen der folgenden Schritte ausführen:
 
    * Klicken Sie oben **auf** Hauptmenü ![](assets/dots-main-menu.png) auf den Namen.
-   * Klicken Sie auf das **Adobe (**) ![](assets/adobe-blue-main-menu.png) oben rechts, falls verfügbar, und klicken Sie dann auf **Workfront-Profil**.
+   * Klicken Sie auf **Adobe-** ![Profilsymbol](assets/adobe-blue-main-menu.png) in der rechten oberen Ecke (falls verfügbar) und dann auf **Workfront-Profil**.
 
-1. Klicken Sie auf das **Mehr**-Menü ![](assets/more-icon.png) rechts neben Ihrem Namen in der Kopfzeile und dann auf **Bearbeiten**.
+1. Klicken Sie auf das **Mehr** Menü ![Mehr](assets/more-icon.png) rechts neben Ihrem Namen in der Kopfzeile und klicken Sie dann auf **Bearbeiten**.
 1. Klicken Sie auf **Benachrichtigungen** und wählen oder deaktivieren Sie **Jemand fordert Zugriff von mir an** im Abschnitt **Aktion erforderlich**, je nachdem, ob Sie E-Mail-Benachrichtigungen erhalten möchten, wenn ein anderer Benutzer Zugriff von Ihnen anfordert oder nicht.
 
    Sie können eine tägliche oder sofortige Benachrichtigung aktivieren.
 
 1. Klicken Sie auf **Änderungen speichern**.
-
-<!--1. (Conditional) From the legacy Home area, do the following: 
-   
-   1. In the **Work List**, select the access request you want to manage in the **Approvals** section.  
-
-   ![Screen_Shot_2018-07-02_at_11.35.29_AM.png](assets/screen-shot-2018-07-02-at-11.35.29-am-350x242.png)
-
-   The request displays on the right of the Work List. 
-
-   1. In the upper-right corner, click the grant access button.  
-   Depending on the type of access requested, the button name changes. For example, if the requestor asks for View access, the button says **Grant View Access**.  
-   ![Grant_Access_2.png](assets/grant-access-2-350x98.png)
-
-   1. (Optional) To grant a different level of access than requested, click the arrow next to the grant access button and select the new access, then click **Grant < Permission level > Access >**.  
-   A message appears confirming access was granted.  
-   
-   1. (Optional) Click **Ignore** to deny access.  
-   A message appears confirming access was ignored.-->

@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum An
 author: Alina
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '695'
+source-wordcount: '692'
 ht-degree: 2%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum Anzeigen oder Bearbeiten von Problemen, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Anfragen finden Sie unter [Zugriff auf Anfragen gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-issues.md).
 
-Neben der Zugriffsebene, die Benutzenden gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Contribute oder Verwalten bestimmter Probleme gewähren, für die Sie Zugriffsrechte zum Freigeben haben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Funktionsweise von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Mitwirken oder Verwalten bestimmter Probleme erteilen, für die Sie Zugriff haben. Weitere Informationen zu Zugriffsebenen und Berechtigungen finden Sie unter [Funktionsweise von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen man für dieses Element ausführen kann.
 
@@ -34,15 +34,8 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Sie können die folgenden Berechtigungen für ein Problem gewähren: 
 
    * Anzeigen
-
-     ![view_on_issue.png](assets/view-on-issue-221x216.png)
-
+   * Mitwirken
    * Verwalten
-
-     ![manage_on_issues.png](assets/manage-on-issues-179x199.png)
-
-   * Mitwirken\
-     ![Contribute_on_issue.png](assets/contribute-on-issue-156x205.png)
 
 * Wenn Sie ein Problem freigeben, erben alle an das Problem angehängten Dokumente dieselben Berechtigungen.
 
@@ -134,7 +127,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 ## Berechtigungen erteilen
 
-Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn Sie ihnen das Anzeigen, Contribute oder Verwalten eines Problems erlauben:
+Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn Sie ihnen das Anzeigen, Mitwirken oder Verwalten eines Problems erlauben:
 
 <table style="table-layout:auto"> 
  <col> 
@@ -145,7 +138,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
   <tr> 
    <td><strong>Aktionen</strong> </td> 
    <td><strong>Verwalten</strong> </td> 
-   <td><strong>Contribute</strong> </td> 
+   <td><strong>Beitragen</strong> </td> 
    <td><strong>Anzeigen</strong> </td> 
   </tr> 
   <tr> 

@@ -5,7 +5,7 @@ author: Alina
 draft: Probably
 feature: Get Started with Workfront
 exl-id: 79643202-2d91-4028-b673-c3443b50d898
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '381'
 ht-degree: 0%
@@ -32,24 +32,22 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Sie können ein Portfolio einzeln freigeben oder mehrere Portfolios gleichzeitig freigeben. Die Freigabe eines Portfolios ist mit der Freigabe anderer Objekte in Workfront identisch. Weitere Informationen finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
 * Sie können nur Anzeigen- oder Verwaltungsberechtigungen für Portfolios erteilen.
+</span>
+* Wenn Sie ein Portfolio gemeinsam nutzen, erben Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit dem Portfolio verknüpft sind.
 
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
-* Wenn Sie ein Portfolio freigeben, erben Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit dem Portfolio verknüpft sind.
+* Sie können geerbte Berechtigungen aus der Portfolio entfernen. Weitere Informationen zum Entfernen von Berechtigungen aus Objekten finden Sie unter [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-  Weitere Informationen zur Objekthierarchie in Workfront finden Sie unter [Grundlegendes zu Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
+## Portfolio-Berechtigungen
 
-* Sie können geerbte Berechtigungen aus dem Portfolio entfernen. Weitere Informationen zum Entfernen von Berechtigungen aus Objekten finden Sie unter [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
-
-## Berechtigungen für Portfolios
-
-Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn sie ein Portfolio anzeigen oder verwalten möchten:
+Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn sie eine Portfolio anzeigen oder verwalten möchten:
 
 | **Aktionen** | **Verwalten** | **Anzeigen** |
 |---|---|---|
 | Portfolio-Details bearbeiten | ✓ |   |
-| Portfolio anzeigen | ✓ | ✓ |
-| Löschen eines Portfolios | ✓ |   |
+| Anzeigen einer Portfolio | ✓ | ✓ |
+| Löschen einer Portfolio | ✓ |   |
 | Benutzerdefiniertes Formular anhängen | ✓ |   |
 | Benutzerdefiniertes Feld bearbeiten | ✓ |   |
 | Ein Programm hinzufügen oder entfernen&#42; | ✓ |   |

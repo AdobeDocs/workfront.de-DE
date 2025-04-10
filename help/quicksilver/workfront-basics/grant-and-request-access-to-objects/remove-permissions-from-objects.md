@@ -6,9 +6,9 @@ description: Sie können anderen Benutzern die Berechtigungen für Objekte entzi
 author: Alina
 feature: Get Started with Workfront
 exl-id: 8e191b5e-31df-4291-8b9d-9ca69be27561
-source-git-commit: 71d5e15c38b26b9a833ac2418d5782afd249a24c
+source-git-commit: ce7b475dbd11f9cfd7fcf9879c0f34bf993f9113
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,9 @@ Sie können anderen Benutzern die Berechtigungen für Objekte entziehen, auf die
 Ähnliche Überlegungen wie bei der Freigabe von Objekten gelten auch für das Entfernen von Berechtigungen von Objekten. Weitere Informationen finden Sie im Abschnitt [Überlegungen zur Freigabe von Objekten](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md#consider) im Artikel [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md)
 
 ## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 
 Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
@@ -60,6 +63,8 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 *Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen. Weitere Informationen finden Sie in [ Dokumentation zu Zugriffsanforderungen für Workfront ](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
++++
+
 ## Entfernen von Entitäten aus der Freigabeliste eines Objekts {#remove-entities-from-the-sharing-list-of-an-object}
 
 Sie können Entitäten (Benutzer, Aufgabengebiete, Teams, Gruppen, Firmen) aus der Freigabeliste eines Objekts entfernen. Dadurch werden ihre Berechtigungen für das Objekt entfernt.
@@ -70,26 +75,26 @@ Sie können Entitäten (Benutzer, Aufgabengebiete, Teams, Gruppen, Firmen) aus d
 
 1. (Bedingt) Gehen Sie für Programme, Portfolios und Dokumente wie folgt vor:
 
-   1. Klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png)neben dem Objektnamen und dann auf **Freigabe** oder **Freigeben.**
+   1. Klicken Sie auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png) neben dem Objektnamen und dann auf **Freigabe** oder **Freigeben.**
 
-      ![](assets/share-a-document-350x160.png)
+      ![Freigeben](assets/share-a-document-350x160.png)
 
    1. Klicken Sie auf **x** neben dem Namen eines Benutzers, Teams, einer Gruppe, eines Unternehmens oder eines Aufgabengebiets, um diese im Feld „Objektzugriff“ zu entfernen.
 
-      ![](assets/remove-permissions-on-portfolio.png)
+      ![Berechtigung entfernen](assets/remove-permissions-on-portfolio.png)
 
-   1. Wählen Sie im Dropdown-Menü **&lt; Benutzername > aus, ob der Zugriff auf die Workfront nur aus dem ausgewählten Objekt** aus allen untergeordneten Objekten, die mit dem ausgewählten Objekt verknüpft sind, entfernt werden soll.
+   1. Wählen **[im Dropdown-Menü Benutzername] die Option Workfront-Zugriff wird aus diesem** entfernt, ob der Zugriff nur aus dem ausgewählten Objekt oder aus allen untergeordneten Objekten, die mit ihm verknüpft sind, entfernt werden soll.
 
 1. (Bedingt) Führen Sie für Projekte, Aufgaben und Probleme die folgenden Schritte aus:
 
    1. Klicken **rechts neben** Objektnamen auf „Freigeben“.
 
-      ![](assets/new-share-button.png)
+      ![Freigeben](assets/new-share-button.png)
    1. Suchen Sie den Benutzer, die Funktion, das Team, die Gruppe oder das Unternehmen, den/die Sie aus dem Objekt entfernen möchten.
    1. Klicken Sie auf **Entfernen**.
 Wählen **im Dropdown-Menü Entfernen &lt; Benutzername > aus** aus, ob der Zugriff nur aus dem ausgewählten Objekt oder aus allen untergeordneten Objekten, die mit ihm verknüpft sind, entfernt werden soll.
 
-      ![](assets/remove-permissions-on-project-nwe-350x479.png)
+      ![Entfernen](assets/remove-permissions-on-project-nwe-350x479.png)
 
    Die folgenden Szenarien sind vorhanden:
 
@@ -98,39 +103,42 @@ Wählen **im Dropdown-Menü Entfernen &lt; Benutzername > aus** aus, ob der Zugr
 
 1. Klicken Sie auf **Speichern**.
 
-## Entfernen von Berechtigungen für mehrere Objekte in großen Mengen
+<!--
+## Remove permissions from several objects in bulk
 
-Sie können Entitäten (Benutzer, Aufgabengebiete, Teams, Gruppen, Unternehmen) aus mehreren Objekten gleichzeitig entfernen, wenn Sie sie in einer Liste stapelweise auswählen.
+You can remove entities (users, job roles, teams, groups, companies) from several objects at a time when you bulk select them in a list.
 
 >[!NOTE]
 >
->Sie können nicht anzeigen, welche Zugriffsentitäten für alle ausgewählten Objekte haben, wenn Sie sie stapelweise auswählen. Sie müssen wissen, welche Entität Sie aus der Freigabe der ausgewählten Objekte entfernen möchten, bevor Sie deren Berechtigungen entfernen.
+>You cannot view what access entities have for all the objects selected when you select them in bulk. You must know which entity you want to remove from the sharing of the objects selected before removing their permissions.
 
-1. Navigieren Sie zur Liste der Objekte, die Sie freigeben möchten.
+1. Go to the list of objects that you want to share.
 
-   Informationen dazu, welche Objekte freigegeben werden können, finden Sie unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
+   For information about which objects can be shared, see [Overview of sharing permissions on objects](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. Wählen Sie mehrere Objekte in der Liste aus und klicken Sie dann oben in **Liste auf** Freigeben![](assets/share-icon.png)-Symbol.
-1. Geben Sie den Namen des Benutzers, der Rolle, des Teams, der Gruppe oder des Unternehmens, für den bzw. die Sie den Zugriff entfernen möchten, in das Feld **Bearbeiten `<Object Name>` Zugriffs auf** ein.
-1. Wählen Sie im Dropdown-Menü Zugriff die Option **Kein Zugriff** aus.
+1. Select several objects in the list, then click the **Share** icon ![share icon](assets/share-icon.png)at the top of the list. 
+1. Type the name of the user, role, team, group, or company for which you want to remove the access in the **Edit `<Object Name>` access to** field. 
+1. From the access drop-down menu, select **No Access**.
 
-   ![](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
+   ![remove in bulk](assets/no-access-option-removing-permissions-bulk-tasks-nwe-350x166.png)
 
-1. Wählen Sie in der Dropdown-Liste Zugriff des `<User Name>` auf Workfront wird aus diesem Dropdown-Menü entfernt, ob der Zugriff nur aus den von Ihnen ausgewählten Objekten oder aus allen anderen damit verbundenen untergeordneten Objekten entfernt werden soll.\
-   Die folgenden Szenarien sind vorhanden:
+1. In the `<User Name>`'s Workfront access will be removed from this drop-down menu, select whether you want their access to be removed just from the objects that you have selected, or from all other children objects associated with it.  
+   The following scenarios exist:
 
-   * Wenn Sie die Entität nur aus dem Objekt entfernen, verliert diese Entität ihre Berechtigungen für das Objekt und die geerbten Berechtigungen für die untergeordneten Objekte. Wenn ihnen zuvor Berechtigungen für die untergeordneten Elemente einzeln gewährt wurden, behalten sie dieselben Berechtigungen für alle untergeordneten Objekte bei, die mit ihnen verknüpft sind, wenn Sie diese Option auswählen. 
-   * Wenn Sie die Entität aus dem -Objekt und allen untergeordneten -Objekten entfernen, verliert diese Entität ihre Berechtigungen für das -Objekt sowie für alle untergeordneten -Objekte, selbst wenn ihnen zuvor individuelle Berechtigungen für jedes untergeordnete Objekt erteilt wurden.
+   * If you remove the entity only from the object, that entity loses their permissions on the object, and their inherited permissions to the children objects. If they were previously granted permissions to the children items individually, they retain the same permissions on all children objects associated with it when you select this option.&nbsp;
+   * If you remove the entity from the object and all the children objects, that entity loses their permissions to the object as well as all children objects, even when they were previously given individual permission on each child object.
 
-   **Beispiel** Wählen Sie aus, ob Berechtigungen nur für die in einer Liste ausgewählten Aufgaben oder auch für die an die Aufgaben angehängten Probleme und Dokumente entfernt werden sollen.
+   **Example:** Select whether to remove permissions to just the tasks you selected in a list, or to the issues and documents attached to the tasks as well.
 
-   ![](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
+   ![access](assets/remove-permissions-bulk-drop-down-for-attached-objects-nwe-350x96.png)
 
-1. (Optional) Um Berechtigungen für mehrere Objekte stapelweise zu ändern, wählen Sie eine andere Freigabeebene für die ausgewählte Entität aus.
+1. (Optional) To change permissions in bulk for several objects, select another level of sharing for the selected entity.
 
-   Wenn sie beispielsweise über Verwaltungsberechtigungen verfügen, wählen Sie stattdessen Contribute oder Ansicht aus.
+   For example, if they have Manage permissions, select Contribute or View instead. 
 
-1. Klicken Sie auf **Speichern**.
+1. Click **Save**.
+
+-->
 
 ## Entfernen geerbter Berechtigungen
 
@@ -144,11 +152,9 @@ So entfernen Sie geerbte Berechtigungen:
 
 1. Navigieren Sie zu einem Objekt, für das Sie über Verwaltungsberechtigungen verfügen. Gehen Sie beispielsweise zu einer Aufgabe.
 1. Gehen Sie zum Feld „Objektzugriff“, wie im Abschnitt [Entfernen von Entitäten aus der Freigabeliste eines Objekts](#remove-entities-from-the-sharing-list-of-an-object) in diesem Artikel beschrieben.
-1. Wählen Sie **x** neben **Geerbte Berechtigung** im Freigabefeld aus, um die dort aufgeführten Personen zu entfernen.
+1. Wählen Sie **Deaktivieren** neben **Vererbte Berechtigung** aus, um sie zu deaktivieren.
 
-   ![](assets/remove-inherited-permissions-on-project-nwe-350x475.png)
-
-   Dadurch wird sichergestellt, dass standardmäßig niemand, der Berechtigungen für das übergeordnete Objekt (z. B. das Projekt) erhält, über Berechtigungen für diese Aufgabe verfügt. Sie müssen auflisten  Einzelne Entitäten in der Freigabeliste der Aufgabe, um Berechtigungen für die Aufgabe zu erteilen.
+   Dadurch wird sichergestellt, dass standardmäßig niemand, der Berechtigungen für das übergeordnete Objekt (z. B. das Projekt) erhält, über Berechtigungen für diese Aufgabe verfügt. Sie müssen einzelne Entitäten in der Freigabeliste der Aufgabe auflisten, um Berechtigungen für die Aufgabe zu erteilen.
 
    >[!TIP]
    >
@@ -168,8 +174,8 @@ So machen Sie ein Objekt privat:
    Navigieren Sie beispielsweise zu einem Bericht.
 1. Klicken Sie auf **Berichtsaktionen** und dann auf **Freigabe**.
 
-   ![](assets/report-permissions-make-private-nwe-350x477.png)
+   ![Vertraulich machen](assets/report-permissions-make-private-nwe-350x477.png)
 
-1. Klicken Sie **Öffentlichen Zugriff entfernen**, um externen Benutzern den Zugriff zum Anzeigen des Berichts zu entziehen.
-1. Klicken Sie auf **Systemweiten Zugriff entfernen**, um die Freigabe für alle Workfront-Benutzer zu beenden. 
+1. Klicken Sie auf das Zahnradsymbol und deaktivieren Sie **Für externe Benutzer veröffentlichen**.
+1. Klicken Sie im Dropdown-Menü **Wer hat Zugriff** auf **Nur eingeladene Personen können Zugriff**, um die Freigabe für alle Workfront-Benutzer zu beenden.
 1. Klicken Sie auf **Speichern**.

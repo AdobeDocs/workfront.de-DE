@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Alina
 feature: Get Started with Workfront
 exl-id: 7025f097-ea99-41bf-965e-617b0f532ff7
-source-git-commit: dd7f61fcd92a43303be356dd3209ec6da6a063dd
+source-git-commit: 871117ddb06af6d37448c683a259ccc7e708930c
 workflow-type: tm+mt
-source-wordcount: '338'
+source-wordcount: '349'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ Informationen zur Hierarchie der Objekte in Workfront finden Sie unter [Grundleg
 </table>
 -->
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 Sie müssen über Folgendes verfügen:
 
 <table style="table-layout:auto"> 
@@ -81,6 +83,8 @@ Sie müssen über Folgendes verfügen:
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+
++++
 
 ## Anzeigen geerbter Berechtigungen für ein Objekt
 

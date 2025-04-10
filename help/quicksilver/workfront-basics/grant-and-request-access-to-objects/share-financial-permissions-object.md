@@ -6,16 +6,14 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Alina
 feature: Get Started with Workfront
 exl-id: 0d0e13d9-b234-48d3-a818-5b6fb36a4688
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '566'
+source-wordcount: '565'
 ht-degree: 1%
 
 ---
 
 # Freigeben von Finanzberechtigungen für ein Objekt
-
-{{highlighted-preview}}
 
 Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Finanzdaten gewähren. Weitere Informationen finden Sie unter [Zugriff auf Finanzdaten gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-financial.md).
 
@@ -54,6 +52,8 @@ Informationen dazu, was Benutzer in den einzelnen Zugriffsebenen mit Finanzdaten
  </tbody> 
 </table>
 -->
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 Sie müssen über Folgendes verfügen, um Finanzdaten zu Objekten freizugeben:
 
 <table style="table-layout:auto"> 
@@ -81,11 +81,13 @@ Sie müssen über Folgendes verfügen, um Finanzdaten zu Objekten freizugeben:
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
 
++++
+
 ## Objekt freigeben und finanzielle Berechtigungen erteilen
 
 Beachten Sie Folgendes, wenn Sie Objekten Finanzberechtigungen erteilen:
 
-* Sie können finanzielle Berechtigungen für Projekte, Aufgaben, Probleme <span class="preview">und Tarifkarten) </span>.
+* Sie können Projekten, Aufgaben und Problemen finanzielle Berechtigungen erteilen.
 * Berechtigungen können vererbt werden: Wenn Sie über Anzeigefinanzierungsberechtigungen für ein Projekt verfügen, übernehmen Sie automatisch die Anzeigefinanzierungsberechtigungen für die Aufgaben und Probleme im Projekt.
 
 So erteilen Sie einem Objekt finanzielle Berechtigungen:
@@ -102,10 +104,8 @@ So erteilen Sie einem Objekt finanzielle Berechtigungen:
 1. Wenn rechts neben dem ausgewählten Namen ein Dropdown-Menü angezeigt wird, klicken Sie auf eine der folgenden verfügbaren Optionen:
 
    * **Anzeigen**
-   * **Contribute hinzu**
+   * **Mitwirken**
    * **Verwalten**
-
-     ![](assets/12.png)      ![](assets/13.png) ![](assets/14.png)
 
 1. Klicken Sie im gleichen Dropdown-Menü auf **Erweiterte Einstellungen** und führen Sie dann einen der folgenden Schritte aus:
 
@@ -116,7 +116,7 @@ So erteilen Sie einem Objekt finanzielle Berechtigungen:
 
 ## Finanzielle Berechtigung für alle Freigabeebenen
 
-Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzerinnen und Benutzer erhalten, wenn Sie ihnen Berechtigungen zum Anzeigen, Contribute oder Verwalten für Objekte erteilen: 
+Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzende erhalten, wenn Sie ihnen Berechtigungen zum Anzeigen, Mitwirken oder Verwalten für Objekte erteilen: 
 
 <table style="table-layout:auto"> 
  <col> 
@@ -127,7 +127,7 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzerinnen und
   <tr> 
    <th><strong>Aktionen</strong> </th> 
    <th><strong>Verwalten</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>Beitragen</strong> </th> 
    <th><strong>Anzeigen</strong> </th> 
   </tr> 
  </thead> 
@@ -156,18 +156,6 @@ Die folgende Tabelle zeigt, welche finanziellen Berechtigungen Benutzerinnen und
    <td>✓</td> 
    <td> ✓</td> 
   </tr> 
-  <tr> 
-   <td><span class="preview">Tarifkarten verwalten</span></td> 
-   <td>✓</td> 
-   <td> <p> </p> </td> 
-   <td> </td> 
-  </tr> 
-  <tr> 
-   <td><span class="preview">Tarifkarten anzeigen</span></td> 
-   <td>✓</td> 
-   <td>✓</td> 
-   <td> ✓</td> 
-  </tr>
   <tr> 
    <td>Informationen nach Kosten in den Ressourcenplanungs-Tools anzeigen</td> 
    <td>✓</td> 

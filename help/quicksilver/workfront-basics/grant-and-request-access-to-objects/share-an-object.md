@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Alina, Nolan
 feature: Get Started with Workfront
 exl-id: 27a1beb9-e83a-4ef6-bf5f-ad52575a993c
-source-git-commit: 311398231719fb8a29a6bf2ddf1eeafb58e4f39f
+source-git-commit: 8b524f7cd7e1bfedbaa1e993cbf4b3b805344b7c
 workflow-type: tm+mt
-source-wordcount: '1922'
+source-wordcount: '1909'
 ht-degree: 0%
 
 ---
@@ -193,9 +193,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
    ![](assets/share-a-document-350x160.png)
 
-1. Geben Sie im Feld **Zugriff auf &lt; Objektname >** den Namen des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens ein, für den bzw. die Sie das Objekt freigeben möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-
-   ![](assets/portfolio-access-box.png)
+1. Beginnen Sie im Feld **[Objektname] Zugriff auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, Gruppe oder Firma, für den Sie das Objekt freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
    >[!TIP]
    >
@@ -205,7 +203,7 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 1. (Optional) Wiederholen Sie Schritt 3 für jeden Benutzer, jedes Team, jede Rolle oder jede Gruppe, dem bzw. der Sie Zugriff auf das Objekt gewähren möchten.
 
-1. Geben Sie die Berechtigungen für jeden Benutzer, jedes Team, jede Rolle, jede Gruppe oder jedes Unternehmen an, die bzw. das Sie in Schritt 3 hinzugefügt haben, indem Sie auf das Dropdown-Menü klicken und dann die Berechtigungsstufe auswählen, die Sie gewähren möchten.
+1. Geben Sie die Berechtigungen für jeden Benutzer, jedes Team, jede Rolle, jede Gruppe oder jedes Unternehmen an, die bzw. das Sie in Schritt 3 hinzugefügt haben.
 
    Informationen zum Entfernen von Berechtigungen aus einem Objekt finden Sie unter [Entfernen von Berechtigungen aus Objekten](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
@@ -218,24 +216,24 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
      >
      >Der Workfront-Administrator oder der Objektersteller hat die Möglichkeit, Berechtigungen aus diesen Entitäten zu entfernen.
 
-     ![](assets/view-manage-sharing-options-for-portfolio-or-document.png)
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für das Objekt zu konfigurieren.
 
-1. (Optional) Klicken Sie auf **Erweiterte Einstellungen**, um bestimmte Berechtigungen für das Objekt zu konfigurieren.
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Berechtigungen zum Anzeigen und Verwalten verfügen je nach ausgewähltem Objekt über verschiedene erweiterte Optionen.\
    Weitere Informationen zu den Berechtigungsebenen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
 
-1. (Optional) Um dieses Objekt für alle Benutzer im System verfügbar zu machen, klicken Sie auf das **Zahnrad**-Symbol ![](assets/gear-icon-settings-with-dn-arrow.jpg) und klicken Sie dann im Dropdown-Menü auf **Systemweit sichtbar**.
+1. (Optional) Um dieses Objekt für alle Benutzer im System verfügbar zu machen, klicken Sie auf **Wer Zugriff hat** im Dropdown-Menü und wählen Sie **Jeder Benutzer im System kann anzeigen**.
 
    Alle Benutzer können das -Objekt basierend auf den von Ihnen festgelegten Berechtigungen sehen.
 
-1. (Optional) Um das Objekt öffentlich zu machen, klicken Sie auf **Für externe Benutzer öffentlich machen**.
+1. (Optional) Um das Objekt öffentlich zu machen, klicken Sie auf das Zahnradsymbol und aktivieren Sie dann **Für externe Benutzer öffentlich machen**.
 
    >[!TIP]
    >
    >Diese Option ist nicht für alle Objekte verfügbar.
 
-   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png){width="350"}
+   ![](assets/make-public-system-wide-settings-sharing-box-on-document-nwe-350x481.png)
 
 1. (Bedingt) Wenn Sie das Objekt für externe Benutzer öffentlich gemacht haben, klicken Sie auf **Link kopieren** und verteilen Sie den Link dann an externe Benutzer.
 
@@ -261,7 +259,6 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 1. Beginnen Sie im Feld **Bearbeiten &lt; Objektname > Zugriff für** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, Gruppe oder Firma, für den Sie die Objekte freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
 
-   ![](assets/list-share-add-people.png){width="350"}
 
    >[!TIP]
    >
@@ -273,11 +270,10 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
 
 1. (Optional) Wiederholen Sie Schritt 3 für jeden Benutzer, jedes Team, jede Rolle oder jede Gruppe, dem bzw. der Sie Zugriff auf die Objekte gewähren möchten.
 
-1. Geben Sie die Berechtigungen für jeden Benutzer, jedes Team, jede Rolle, jede Gruppe oder jedes Unternehmen an, die bzw. das Sie in Schritt 3 hinzugefügt haben, indem Sie rechts neben seinem Namen auf das Dropdown-Menü klicken und dann die Berechtigungsstufe auswählen, die Sie gewähren möchten.
+1. Geben Sie die Berechtigungen für jeden Benutzer, jedes Team, jede Rolle, jede Gruppe oder jedes Unternehmen an, die bzw. das Sie in Schritt hinzugefügt haben.
 
    Informationen zum Entfernen von Berechtigungen aus einem Objekt finden Sie unter [Entfernen von Berechtigungen aus Objekten](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
-   ![](assets/screen-shot-2013-12-04-at-1.13.11-pm.png)
 
    Die folgenden Optionen sind verfügbar:
 
@@ -299,12 +295,12 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
      >
      >Der Workfront-Administrator oder der Objektersteller hat die Möglichkeit, Berechtigungen aus diesen Entitäten zu entfernen.
 
-1. (Optional) Klicken Sie auf **Erweiterte Einstellungen**, um bestimmte Berechtigungen für das Objekt zu konfigurieren.
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für das Objekt zu konfigurieren.
+
+   ![](assets/new-share-advanced-permissions-dropdown.png)
 
    Anzeigen, Verwalten und Beitragen verfügen je nach ausgewähltem Objekt über verschiedene erweiterte Optionen.\
    Weitere Informationen zu den Berechtigungsebenen finden Sie unter [Übersicht über die Freigabe von Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
-
-   ![](assets/screen-shot-2013-12-04-at-1.14.11-pm.png)
 
 1. (Optional) Um dieses Objekt für alle Benutzer im System verfügbar zu machen, klicken Sie auf das **Zahnrad**-Symbol ![](assets/gear-icon-settings-with-dn-arrow.jpg) und klicken Sie dann im Dropdown-Menü auf **Systemweit sichtbar**.
 

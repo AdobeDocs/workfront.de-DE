@@ -6,9 +6,9 @@ description: Sie können einen Ordner und seinen Inhalt über den Bereich Dokume
 author: Alina
 feature: Get Started with Workfront
 exl-id: c0d318a8-b1cf-4522-b478-acf092687658
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 842c61cf6dfee0c79b1c95ff84888083c9f5b5a4
 workflow-type: tm+mt
-source-wordcount: '903'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -61,6 +61,7 @@ Sie können einen Ordner und seinen Inhalt über den Bereich Dokumente freigeben
  </tbody> 
 </table>
 -->
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
 
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
@@ -88,6 +89,8 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 </table>
 
 &#42;Wenden Sie sich an Ihren Workfront-Administrator, um herauszufinden, über welchen Plan, welchen Lizenztyp oder welchen Zugriff Sie verfügen.
+
++++
 
 ## Freigeben von Ordnern
 
@@ -160,8 +163,8 @@ Informationen zum Ausführen eines Berichts finden Sie im Abschnitt [Berichte zu
 Wenn Sie ein Objekt mit einem Dokumentordner freigeben, erhalten Ihre Empfänger ebenfalls Zugriff auf den Ordner:
 
 * Wenn Sie Ihren Empfängerinnen und Empfängern Ansichtszugriff auf das übergeordnete Objekt gewähren, haben sie Ansichtszugriff auf den Ordner.
-* Wenn Sie Ihren Empfängerinnen und Empfängern Contribute- oder Verwaltungszugriff auf das übergeordnete Objekt gewähren, verfügen diese über Verwaltungszugriff auf den Ordner.
-* Wenn Sie einen Zugriffstyp (Anzeigen, Contribute oder Verwalten) für das übergeordnete Objekt und einen anderen für den Ordner gewähren, haben Ihre Empfängerinnen und Empfänger den höchsten dieser beiden Zugriffstypen auf Dokumente im Ordner
+* Wenn Sie Ihren Empfängern den Zugriff auf das übergeordnete Objekt gewähren (Contribute oder Verwalten), verfügen diese über den Verwaltungszugriff auf den Ordner.
+* Wenn Sie einen Zugriffstyp (Anzeigen, Beitragen oder Verwalten) für das übergeordnete Objekt und einen anderen für den Ordner gewähren, haben Ihre Empfänger den höchsten dieser beiden Zugriffstypen auf Dokumente im Ordner
 
   Wenn Sie beispielsweise das übergeordnete Objekt mit Ansichtszugriff und den Ordner mit Verwaltungszugriff freigeben, können Ihre Empfänger die Dokumente im Ordner verwalten.
 

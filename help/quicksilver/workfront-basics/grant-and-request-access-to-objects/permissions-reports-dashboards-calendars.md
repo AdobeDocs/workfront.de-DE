@@ -7,7 +7,7 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Alina
 feature: Get Started with Workfront
 exl-id: c2dac54b-6506-41b0-a7f2-6fafab12c2d1
-source-git-commit: f2f825280204b56d2dc85efc7a315a4377e551c7
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '569'
 ht-degree: 0%
@@ -54,12 +54,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 * Sie können die folgenden Berechtigungen für Berichte, Dashboards und Kalender gewähren:
 
    * Anzeigen
-
-     ![](assets/screen-shot-2014-01-22-at-10.19.55-am.png)
-
    * Verwalten
-
-     ![](assets/screen-shot-2014-01-22-at-10.20.13-am.png)
 
 * Wenn Sie ein Dashboard freigeben, haben Benutzer standardmäßig Anzeigeberechtigungen für alle Berichte, Kalender und externen Seiten im Dashboard.
 * Benutzende mit einer Anfragelizenz können keinen systemweiten Bericht anzeigen. Ein Bericht muss für die Antragsteller einzeln freigegeben werden, wenn sie ihn anzeigen müssen.

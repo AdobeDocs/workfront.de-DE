@@ -6,9 +6,9 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Alina
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: e8acdf8f7b3859385237e788dfda34ee62ee11d1
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
-source-wordcount: '1007'
+source-wordcount: '990'
 ht-degree: 2%
 
 ---
@@ -29,7 +29,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 * Standardmäßig verfügt der Ersteller eines Projekts über Berechtigungen zum Verwalten des Projekts und wird auch als Projektbesitzer bezeichnet. Wenn das Projekt einem anderen Eigentümer zugewiesen ist, verfügt dieser Benutzer auch über Berechtigungen zum Verwalten des Projekts. Wenn der Projektersteller (oder -eigentümer) das Projekt für andere Benutzer freigibt, gewähren sie diesen Benutzern bestimmte Berechtigungen, um zu steuern, was sie bei der Arbeit am Projekt tun können.
 
-  Wenn ein Projekteigentümer jedoch nicht über eine Planner-Lizenz verfügt, hat er nicht den vollen Zugriff, um das Projekt zu verwalten. Nur Benutzer mit einer Planlizenz können über Berechtigungen zum Verwalten eines Projekts verfügen. Weitere Informationen finden Sie unter [ der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
+  Wenn ein Projektinhaber jedoch nicht über eine Plan- oder Standardlizenz verfügt, hat er nicht den vollen Zugriff, um das Projekt zu verwalten. Nur Benutzer mit einer Plan- oder Standardlizenz können über Berechtigungen zum Verwalten eines Projekts verfügen. Weitere Informationen finden Sie unter [ der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
 * Sie können Projekte einzeln oder gemeinsam nutzen. Die Freigabe von Projekten ist mit der Freigabe anderer Objekte identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Sie können einem Projekt die folgenden Berechtigungen erteilen:
@@ -37,8 +37,6 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
    * Anzeigen
    * Verwalten
    * Mitwirken
-
-     ![](assets/view-on-projects-190x207.png) ![](assets/contribute-on-projects-159x243.png) ![](assets/manage-on-projects-178x230.png)
 
 * Wenn Sie ein Projekt freigeben, erben alle Aufgaben, Probleme und Dokumente dieselben Berechtigungen, sofern nicht anders angegeben.
 
@@ -104,8 +102,8 @@ Sie können ein Projekt wie folgt freigeben:
 
 ## Einschränkungen für verschiedene Lizenztypen
 
-* Benutzer mit einer Light-Lizenz und darunter (oder einer Work-Lizenz und darunter für das alte Lizenzmodell) haben keine Berechtigung zum Verwalten von Projekten. Für diese Benutzer ist die höchste Freigabeberechtigung Beitragen.
-* Benutzer mit einer Mitwirkendenlizenz (oder einer Anfragelizenz für das alte Lizenzmodell) können Projektinformationen anzeigen, haben jedoch eingeschränkten Projektzugriff.
+* Benutzer mit einer Worker-Lizenz sind nicht berechtigt, Projekte zu verwalten. Für Worker lautet die höchste Freigabeberechtigung Beitragen .
+* Benutzer mit einer Anfragelizenz können Projektinformationen anzeigen, haben jedoch eingeschränkten Projektzugriff.
 * Eine Ausnahme vom Ändern des Status eines Projekts tritt auf, wenn ein Benutzer mit der Berechtigung Anzeigen oder Beitragen auch in einen Genehmigungsprozess eingeschlossen wird. Sie können das Projekt genehmigen, was den Status des Projekts ändert, aber der Status ist der vordefinierte Status für die Genehmigung oder Ablehnung.
 * Um ein Projekt kopieren zu können, muss ein Benutzer auch Zugriff zum Erstellen von Projekten auf seiner Zugriffsebene haben.
 

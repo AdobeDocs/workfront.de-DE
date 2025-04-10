@@ -7,7 +7,7 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Alina
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: 851e946fd4e9b0da725185227f9ed24334eafb86
 workflow-type: tm+mt
 source-wordcount: '383'
 ht-degree: 0%
@@ -15,6 +15,7 @@ ht-degree: 0%
 ---
 
 # Freigeben eines Programms
+
 
 Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Programmen gewähren. Sie müssen über eine Plan-Lizenz verfügen, um Zugriff zur Bearbeitung eines Programms zu erhalten. Weitere Informationen finden Sie unter [Zugriff auf Programme gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-programs.md).
 
@@ -36,9 +37,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
   Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
-* Sie können nur Anzeigen- oder Verwaltungsberechtigungen für Programme erteilen.
-
-  ![](assets/screen-shot-2014-01-23-at-12.45.15-pm.png)    ![](assets/screen-shot-2014-01-22-at-10.03.43-am-190x167.png)
+* Sie können nur Anzeigen- oder Verwaltungsberechtigungen für Programme erteilen:
 
 * Wenn Sie ein Programm freigeben, erben Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit dem Programm verknüpft sind.
 
@@ -65,4 +64,6 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
 | Freigeben | ✓ | ✓ |
 | Systemweit freigeben |   | ✓ |
 
-*Diese Berechtigungen werden von der Zugriffsebene und den Berechtigungen für andere Objekte, z. B. Projekte, gesteuert. 
+*Diese Berechtigungen werden von der Zugriffsebene und den Berechtigungen für andere Objekte, z. B. Projekte, gesteuert.
+
+

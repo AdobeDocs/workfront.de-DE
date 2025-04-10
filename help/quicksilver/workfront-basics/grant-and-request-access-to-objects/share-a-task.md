@@ -6,7 +6,7 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen Zugriff zum Anzeigen o
 author: Alina
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
 workflow-type: tm+mt
 source-wordcount: '643'
 ht-degree: 2%
@@ -17,7 +17,7 @@ ht-degree: 2%
 
 Ihr Adobe Workfront-Administrator kann Ihnen Zugriff zum Anzeigen oder Bearbeiten von Aufgaben gewähren, wenn er Zugriffsebenen zuweist. Weitere Informationen zum Gewähren des Zugriffs auf Aufgaben finden Sie unter [Zugriff auf Aufgaben gewähren](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-tasks.md).
 
-Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Contribute oder Verwalten bestimmter Aufgaben erteilen, auf die Sie Zugriff haben.
+Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Mitwirken oder Verwalten bestimmter Aufgaben erteilen, auf die Sie Zugriff haben.
 
 Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen man für dieses Element ausführen kann.
 
@@ -33,9 +33,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
    * Anzeigen
    * Verwalten
-   * Mitwirken\
-     ![](assets/screen-shot-2014-05-30-at-11.37.24-am-175x192.png) ![](assets/screen-shot-2014-01-23-at-1.12.40-pm-154x258.png) ![](assets/screen-shot-2014-01-22-at-10.53.00-am-182x252.png)
-
+   * Mitwirken
 * Wenn Sie eine Aufgabe freigeben, erben Benutzerinnen und Benutzer standardmäßig dieselben Berechtigungen für alle untergeordneten Objekte, die mit der Aufgabe verknüpft sind. Beispielsweise erben sie dieselben Berechtigungen für die untergeordneten Aufgaben, Probleme und Dokumente, die an die Aufgabe angehängt sind.\
   Weitere Informationen zur Hierarchie von Objekten in Workfront finden Sie unter  [Verstehen von Objekten in Adobe Workfront](../../workfront-basics/navigate-workfront/workfront-navigation/understand-objects.md).
 
@@ -65,7 +63,7 @@ Sie können eine Aufgabe wie folgt freigeben:
 
 ## Aufgabenberechtigungen
 
-Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn Sie ihnen das Anzeigen, Contribute oder Verwalten einer Aufgabe erlauben:
+Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können, wenn Sie ihnen das Anzeigen, Mitwirken oder Verwalten einer Aufgabe ermöglichen:
 
 <table border="2" cellspacing="15" cellpadding="1"> 
  <col> 
@@ -76,7 +74,7 @@ Die folgende Tabelle zeigt, welche Berechtigungen Sie Benutzern erteilen können
   <tr> 
    <th><strong>Aktion</strong> </th> 
    <th><strong>Verwalten</strong> </th> 
-   <th><strong>Contribute</strong> </th> 
+   <th><strong>Beitragen</strong> </th> 
    <th><strong>Anzeigen</strong> </th> 
   </tr> 
  </thead> 
