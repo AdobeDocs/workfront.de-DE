@@ -8,16 +8,14 @@ author: Courtney
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: e8badce6-86f5-416c-a238-f9b7f19cdd2d
-source-git-commit: f9ebf647c7672a9d471288806cf596d103007613
+source-git-commit: 486b672a67c62b86f3306c9375a286895c2fae01
 workflow-type: tm+mt
-source-wordcount: '750'
+source-wordcount: '728'
 ht-degree: 0%
 
 ---
 
 # Dokumente stapelweise bearbeiten
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können die Beschreibung bearbeiten, benutzerdefinierte Formulare hinzufügen und benutzerdefinierte Formulare in mehreren Dokumenten gleichzeitig bearbeiten.
 
@@ -97,7 +95,6 @@ So bearbeiten Sie Dokumente stapelweise:
     </table>
 1. Klicken Sie auf **Speichern**.
 
-<span class="preview">
 
 ## Stapelweises Bearbeiten von Dokumenten in einem Dokumentbericht
 
@@ -125,5 +122,3 @@ Erstellen Sie einen Dokumentbericht, wie in [Erstellen eines benutzerdefinierten
     </tr>
     </table>
 1. Klicken Sie auf **Speichern**.
-
-</span>

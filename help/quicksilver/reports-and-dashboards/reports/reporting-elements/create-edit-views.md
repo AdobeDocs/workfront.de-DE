@@ -6,9 +6,9 @@ description: Sie können die Art der Informationen, die Sie auf dem Bildschirm a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 70bda5a7186abfa7e8cbd26e25a4c58583a322b4
+source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
 workflow-type: tm+mt
-source-wordcount: '1731'
+source-wordcount: '1713'
 ht-degree: 1%
 
 ---
@@ -89,31 +89,46 @@ Das **Ansicht anpassen** wird angezeigt.
    * Fügen Sie eine Spalte hinzu, indem Sie auf **Spalte hinzufügen** klicken, den Namen der Spalte eingeben, die Sie hinzufügen möchten, und dann auf sie klicken, wenn sie in der Dropdown-Liste angezeigt wird.
    * Passen Sie die Reihenfolge der Spalten an, indem Sie den Spaltentitel an eine neue Position ziehen.
 
-      * (Optional) Klicken Sie im Bereich **Spalteneinstellungen** auf die Dropdown-Liste **Diese Spalte zusammenfassen nach** und wählen Sie dann eine der verfügbaren Optionen für die Zusammenfassung der Informationen aus. Wenn Sie diese Option wählen, werden die Informationen in Ihrer Spalte in den Gruppierungen des Berichts aggregiert.\
-        Bei Datumsfeldern können Sie die Werte durch die folgenden Optionen zusammenfassen:
+   * Klicken Sie im Bereich **Spalteneinstellungen** auf **Diese Spalte zusammenfassen nach** und wählen Sie aus, wie die Daten in der Spalte angezeigt werden sollen:
 
-         * Maximum
-         * Minimum
+     <table style="table-layout:auto"> 
+         <col> 
+         <col> 
+         <tbody> 
+          <tr> 
+           <td role="rowheader"><strong>Datumsfelder</strong></td> 
+           <td><ul>
+           <li>Maximum</li>
+         <li>Minimum</li>
+           </ul></td> 
+          </tr> 
+          <tr>
+           <td role="rowheader"><strong>Währungsfelder</strong></td> 
+           <td><ul>
+           <li>Count</li>
+         <li>Summe</li>
+           <li>Durchschnitt</li>
+         <li>Maximum</li>
+           <li>Minimum</li>
+         </ul></td> 
+          </tr> 
+         <tr>
+           <td role="rowheader"><strong>Zeichenfolgen- und boolesche Felder</strong></td> 
+           <td><ul><li>Count</li></ul>
+           <p>Hinweis: Workfront empfiehlt im Allgemeinen nicht, ein boolesches Feld nach Anzahl zusammenzufassen, da der Wert immer „true“/„false“ sein wird.</p></td> 
+          </tr> 
+         </tbody> 
+        </table>
 
-        Für Zahlen- und Währungsfelder können Sie die Werte durch die folgenden Optionen zusammenfassen:
-
-         * Count
-         * Summe
-         * Durchschnitt
-         * Maximum
-         * Minimum
-
-        >[!NOTE]
-        >
-        >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen aggregieren:
-        >   
-        >   * Alle Zahlen- und Währungsfelder mit Ausnahme der tatsächlichen Stunden (z. B. geplante/Ist-Arbeitskosten, geplante/Ist-Ausgaben-Kosten, geplante/Ist-Kosten, geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Aufgaben.
-        >   * Tatsächliche Stunden aggregieren die Werte für die übergeordnete Hauptaufgabe und die eigenständigen Aufgaben. Sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
-        >   * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben.
-        >   
-        >
-
-        Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie im Artikel [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
+     >[!NOTE]
+     >
+     >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen zusammenfassen:
+     >   
+     > * Alle Zahlen- und Währungsfelder mit Ausnahme der tatsächlichen Stunden (z. B. geplante/Ist-Arbeitskosten, geplante/Ist-Ausgaben-Kosten, geplante/Ist-Kosten, geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Aufgaben.
+     > * Tatsächliche Stunden aggregieren die Werte für die übergeordnete Hauptaufgabe und die eigenständigen Aufgaben. Sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
+     > * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben.
+     >
+     >Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie im Artikel [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
       * (Optional) Klicken Sie auf **Erweiterte Optionen**, um die folgenden Informationen für die Spalte anzugeben:
 
