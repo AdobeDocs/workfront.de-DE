@@ -6,9 +6,9 @@ description: Sie können die Art der Informationen, die Sie auf dem Bildschirm a
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 8fcd6320-c939-4195-8972-5c31575f78cb
-source-git-commit: 4ab3915651e664d97c368a6b650b0d0cb0a1593c
+source-git-commit: d98998627ac5161fd12bb2d86f65555550c82a48
 workflow-type: tm+mt
-source-wordcount: '1713'
+source-wordcount: '1721'
 ht-degree: 1%
 
 ---
@@ -89,8 +89,7 @@ Das **Ansicht anpassen** wird angezeigt.
    * Fügen Sie eine Spalte hinzu, indem Sie auf **Spalte hinzufügen** klicken, den Namen der Spalte eingeben, die Sie hinzufügen möchten, und dann auf sie klicken, wenn sie in der Dropdown-Liste angezeigt wird.
    * Passen Sie die Reihenfolge der Spalten an, indem Sie den Spaltentitel an eine neue Position ziehen.
 
-   * Klicken Sie im Bereich **Spalteneinstellungen** auf **Diese Spalte zusammenfassen nach** und wählen Sie aus, wie die Daten in der Spalte angezeigt werden sollen:
-
+   * Klicken Sie im Bereich **Spalteneinstellungen** auf **Diese Spalte zusammenfassen nach** und wählen Sie aus, wie die Daten in der Spalte angezeigt werden sollen. Diese Option ist für die folgenden Spaltentypen verfügbar:
      <table style="table-layout:auto"> 
          <col> 
          <col> 
@@ -124,9 +123,9 @@ Das **Ansicht anpassen** wird angezeigt.
      >
      >Die folgenden Ausnahmen gelten für übergeordnete Objekte (z. B. übergeordnete Aufgaben), wenn Sie Werte für die folgenden Felder in Gruppierungen zusammenfassen:
      >   
-     > * Alle Zahlen- und Währungsfelder mit Ausnahme der tatsächlichen Stunden (z. B. geplante/Ist-Arbeitskosten, geplante/Ist-Ausgaben-Kosten, geplante/Ist-Kosten, geplante Stunden) aggregieren nur die Werte für die untergeordneten Aufgaben und eigenständigen Aufgaben. Sie aggregieren nicht die Werte für die übergeordneten Aufgaben oder die übergeordneten Aufgaben.
-     > * Tatsächliche Stunden aggregieren die Werte für die übergeordnete Hauptaufgabe und die eigenständigen Aufgaben. Sie aggregieren nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben.
-     > * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte aggregieren alle Aufgaben: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben.
+     > * Alle Felder für Zahl und Währung außer Iststunden (z. B. geplante/Ist-Lohnkosten, geplante/Ist-Ausgaben-Kosten, geplante/Ist-Kosten, geplante Stunden) fassen die Werte nur für untergeordnete Aufgaben und eigenständige Aufgaben zusammen. Sie fassen die Werte für die übergeordneten Aufgaben oder die übergeordneten Aufgaben nicht zusammen.
+     > * Tatsächliche Stunden fassen die Werte für die übergeordnete Hauptaufgabe und die eigenständigen Aufgaben zusammen. Sie fassen nicht die Zahlen für die übergeordneten Aufgaben oder die untergeordneten Aufgaben zusammen.
+     > * Benutzerdefinierte Datenfelder für Zahlen- und Währungswerte fassen alle Aufgaben zusammen: Eltern, Kinder, Eltern von Eltern und eigenständige Aufgaben.
      >
      >Weitere Informationen zur Verwendung von Gruppierungen in einem Bericht finden Sie im Artikel [Gruppierungen - Übersicht in Adobe Workfront](../../../reports-and-dashboards/reports/reporting-elements/groupings-overview.md).
 
