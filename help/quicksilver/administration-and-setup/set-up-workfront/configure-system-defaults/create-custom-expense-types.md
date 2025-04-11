@@ -8,16 +8,14 @@ author: Lisa
 feature: System Setup and Administration
 role: Admin
 exl-id: 7b76b9e8-fbb8-45a7-9e26-1ddc6d5176d8
-source-git-commit: ff4a9b317bd75b298a7a39814b4ae265c92c6d2a
+source-git-commit: 428e6a9365c793ce5944941ec5368a674c208c78
 workflow-type: tm+mt
-source-wordcount: '412'
+source-wordcount: '405'
 ht-degree: 4%
 
 ---
 
 # Benutzerdefinierte Ausgabentypen erstellen
-
-{{highlighted-preview}}
 
 <!--**DON'T DELETE, DRAFT OR HIDE THIS ARTICLE. IT IS LINKED TO THE PRODUCT THROUGH THE CONTEXT SENSITIVE HELP LINKS.-->
 
@@ -108,7 +106,7 @@ Zu den standardmäßigen Ausgabentypen in [!DNL Workfront], die nicht gelöscht 
     </tbody> 
    </table>
 
-1. Klicken Sie **Ausgabentyp erstellen** <span class="preview">oder **[!UICONTROL Speichern]**.</span>
+1. Klicken Sie auf **[!UICONTROL Speichern]**.
 
    Der Ausgabentyp steht jetzt Benutzenden zur Verfügung, um ihn mit ihren Ausgaben für Projekte und Aufgaben zu verknüpfen.
 
@@ -121,7 +119,7 @@ Zu den standardmäßigen Ausgabentypen in [!DNL Workfront], die nicht gelöscht 
 
    Das **[!UICONTROL Ausgabentyp bearbeiten]** wird angezeigt.
 
-1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **Änderungen speichern** <span class="preview">oder **[!UICONTROL Speichern]**.</span>
+1. Nehmen Sie die gewünschten Änderungen vor und klicken Sie dann auf **[!UICONTROL Speichern]**.
 
    Der Ausgabentyp steht jetzt Benutzenden zur Verfügung, um ihn mit ihren Ausgaben für Projekte und Aufgaben zu verknüpfen.
 
