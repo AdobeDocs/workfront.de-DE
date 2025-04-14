@@ -14,9 +14,9 @@ ht-degree: 0%
 
 # Lookand-Feel-Updates im zweiten Quartal 2025
 
-In diesem Seite werden kleinere Aktualisierungen der Look-and-Feel verschiedener Bereiche der Adobe Systems Workfront Applikation beschrieben, die im Release des zweiten Quartals 2025 Zeitrahmen vorgenommen wurden.
+Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche des Adobe Workfront-Programms beschrieben, die innerhalb des Zeitrahmens des zweiten Quartals 2025 vorgenommen wurden.
 
-Eine Liste aller Änderungen, die mit der Version des zweiten Quartals 2025 verfügbar sind, finden Sie in [der Übersicht über](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md) die Version des zweiten Quartals 2025.
+Eine Liste aller Änderungen, die mit der Version aus dem zweiten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version aus dem zweiten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
 
 ## Aktualisierung des Erscheinungsbilds im Dialogfeld für die Dokumentintegration in Google Drive
 
@@ -49,14 +49,14 @@ Zuvor hatten Sie die Möglichkeit, zwischen Mein Laufwerk oder einem freigegeben
 
 >[!NOTE]
 >
->Vorschau Veröffentlichung: 27. März 2025; Produktionsfreigabe für alle Kunden: Mit der Version 25.4 (10. April 2025)
+>Vorschau-Version: 27. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
 
-Um die Leistung zu verbessern, haben wir einige visuelle Aktualisierungen am Bereich &quot;Access Ebenen&quot; in Setup vorgenommen.
+Um die Leistung zu verbessern, haben wir im Bereich Zugriffsebenen von Setup einige visuelle Aktualisierungen vorgenommen.
 
-Eine kleine Funktionen Änderung wurde auf die Liste &quot;Access Ebenen&quot; angewendet. Um eine Zugriffsebene zu kopieren, zu bearbeiten oder zu löschen, wählen Sie die Ebene aus und klicken Sie auf das entsprechende Symbol.
+Eine kleine Funktionsänderung wurde auf die Liste Zugriffsebenen angewendet. Um eine Zugriffsebene zu kopieren, zu bearbeiten oder zu löschen, wählen Sie die entsprechende Ebene aus und klicken Sie auf das entsprechende Symbol.
 
 
-## Look-and-Feel-Aktualisierungen in den Dialogfeldern &quot;Spesenarten&quot;
+## Aktualisierungen des Erscheinungsbilds der Dialogfelder „Ausgabentypen“
 
 >[!NOTE]
 >
@@ -70,9 +70,9 @@ Weitere Informationen finden Sie [Erstellen benutzerdefinierter Ausgabentypen](/
 
 >[!NOTE]
 >
->Vorschau Veröffentlichung: 27. März 2025; Produktionsfreigabe für alle Kunden: Mit der Version 25.4 (10. April 2025)
+>Vorschau-Version: 27. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
 
-Wir haben die Look-and-Feel des Felds Bearbeiten Risikotyp aktualisiert, wenn Sie einen vorhandenen Risikotyp im Bereich Einrichtung von Workfront aktualisieren. Die neue Design passt jetzt zu anderen Bereichen von Workfront.
+Das Erscheinungsbild des Felds Risikotyp bearbeiten wurde aktualisiert, wenn Sie einen bestehenden Risikotyp im Bereich Setup von Workfront aktualisieren. Das neue Design passt nun zu anderen Bereichen von Workfront.
 
 Weitere Informationen finden Sie [Risikotypen bearbeiten und erstellen](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/edit-create-risk-types.md).
 
@@ -98,30 +98,30 @@ Mit dieser Aktualisierung hat sich das Erscheinungsbild des Bereichs Warteschlan
 
 Weitere Informationen finden Sie unter [Erstellen einer Anfrage-Warteschlange](/help/quicksilver/manage-work/requests/create-and-manage-request-queues/create-request-queue.md).
 
-## Avatare werden nicht mehr in bestimmten E-Mail-Benachrichtigungen angezeigt
+## Avatare werden in bestimmten E-Mail-Benachrichtigungen nicht mehr angezeigt
 
 >[!NOTE]
 >
->Vorschau Veröffentlichung: 13. März 2025; Produktionsfreigabe für alle Kunden: 13. März 2025
+>Vorschau-Version: 13. März 2025; Produktionsversion für alle Kunden: 13. März 2025
 
 
-Avatare werden nicht mehr in den folgenden E-Mail-Benachrichtigungen angezeigt:
+Avatare werden in den folgenden E-Mail-Benachrichtigungen nicht mehr angezeigt:
 
-* Alle Communication Ereignis Benachrichtigungen
-* Neu Zuweisungsbenachrichtigungen
+* Alle Benachrichtigungen zu Kommunikationsereignissen
+* Neue Zuweisungsbenachrichtigungen
 * Alle Benachrichtigungen zum Abschluss von Vorgängeraufgaben
 
 ## Look-and-Feel-Aktualisierungen der Liste Meilensteinpfad
 
 >[!NOTE]
 >
->Vorschau Veröffentlichung: 6. März 2025; Produktionsfreigabe für alle Kunden: Mit der Version 25.4 (10. April 2025)
+>Vorschau-Version: 6. März 2025; Produktionsversion für alle Kunden: Mit Version 25.4 (10. April 2025)
 
-Wir haben die Look-and-Feel der Pfad Liste &quot;Meilensteine&quot; im Bereich &quot;Einstellungen&quot; aktualisiert, um sie an die Design anderer Bereiche von Workfront anzupassen.
+Das Erscheinungsbild der Liste Meilensteinpfad im Bereich Setup wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert.
 
-Weitere Informationen finden Sie unter [Erstellen einer Meilenstein-Pfad](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
+Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](/help/quicksilver/administration-and-setup/customize-workfront/configure-approval-milestone-processes/create-milestone-path.md).
 
-## Die Ansicht eines Projektmeilensteins Pfad in einer Projekt-Ansicht wurde aktualisiert.
+## Aktualisierte Ansicht eines Projekt-Meilensteinpfads in einer Projektansicht
 
 >[!NOTE]
 >
@@ -137,15 +137,15 @@ Weitere Informationen finden Sie unter [Meilensteinpfad erstellen](/help/quicksi
 
 >[!NOTE]
 >
->Vorschau Veröffentlichung: 13. Februar 2025; Produktionsfreigabe für alle Kunden: 13. Februar 2025
+>Vorschau-Version: 13. Februar 2025; Produktionsversion für alle Kunden: 13. Februar 2025
 
-E-Mails, die im Zusammenhang mit dem Hinzufügen oder Teilen von Dokumente stehen, enthalten im E-Mail-Text keine Miniaturansicht mehr.
+E-Mails, die sich auf das Hinzufügen oder Freigeben von Dokumenten beziehen, haben im E-Mail-Textkörper kein Miniaturbild mehr.
 
-Einige Kunden sehen auch die veraltete Aufgabe und stellen die Zuweisungs-E-Mail aus, in der nur der Avatar des Bevollmächtigten angezeigt wird.
+Einige Kunden sehen auch die alte E-Mail mit der Aufgaben- und Problemzuweisung, die nur den Avatar des Verantwortlichen anzeigt.
 
-Diese Änderungen sind vorübergehend, da wir E-Mail-Verzögerungen untersuchen.
+Diese Änderungen sind temporär, da wir E-Mail-Verzögerungen untersuchen.
 
-## Neu Look-and-Feel für das Dialogfeld &quot;Freigeben&quot;
+## Neues Erscheinungsbild für das Dialogfeld Freigeben
 
 >[!NOTE]
 >
@@ -156,4 +156,4 @@ Das Erscheinungsbild des Dialogfelds Freigeben wurde auf ein modernes Design akt
 * Die Option „Systemweit sichtbar“ zeigt jetzt „Jeder im System kann anzeigen“. Diese Option funktioniert weiterhin wie zuvor.
 * Über ein neues Symbol können Sie auf erweiterte Freigabeeinstellungen zugreifen.
 
-Weitere Informationen dazu, wo Sie das Dialogfeld &quot;Freigeben&quot; finden, finden Sie unter [Erteilen und Anfrage von Berechtigungen für Objekte](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
+Weitere Informationen darüber, wo das Dialogfeld „Freigeben“ zu finden ist, finden Sie unter [Gewähren und Anfordern von Berechtigungen für Objekte](/help/quicksilver/workfront-basics/grant-and-request-access-to-objects/grant-and-request-access-to-objects.md)
