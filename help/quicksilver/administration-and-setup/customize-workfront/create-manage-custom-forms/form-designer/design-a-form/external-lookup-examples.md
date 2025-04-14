@@ -8,9 +8,9 @@ author: Lisa
 feature: System Setup and Administration, Custom Forms
 role: Admin
 exl-id: 13880fcb-8523-45d2-9ac6-38453e8e2391
-source-git-commit: 7697327455a7ffdc1a15bfa1676c3a0b091abd04
+source-git-commit: 6f69425c811042f9f3e13f3631ba734f8fdcb95f
 workflow-type: tm+mt
-source-wordcount: '1318'
+source-wordcount: '1378'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Sie können die externe Suche verwenden, um Daten aus Ihrer Workfront-Instanz in
 
 ### Verwenden von nativen Workfront-Feldwerten in der externen Suche
 
-Dieses Beispiel zeigt, wie Sie die Workfront-API aufrufen und Daten aus dem bestehenden Feld „Statusabfrage“ in Ihr externes Suchfeld importieren.
+Dieses Beispiel zeigt, wie die Workfront-API aufgerufen und eine Liste von Projekten in einem externen Suchfeld aufgefüllt wird, das anhand des Werts des benutzerdefinierten Felds „Statusabfrage“ und eines Suchbegriffs über $$QUERY nach Status gefiltert wird.
 
 1. Öffnen Sie das benutzerdefinierte Formular.
 1. Suchen Sie auf der linken Seite des Bildschirms nach **Externe Suche** und ziehen Sie sie in einen Abschnitt auf der Arbeitsfläche.
@@ -37,17 +37,17 @@ Dieses Beispiel zeigt, wie Sie die Workfront-API aufrufen und Daten aus dem best
 1. Wählen Sie das **Format** für das Feld aus.
 1. Geben Sie den API-Aufruf in das Feld **Basis-API** URL ein.
 
-   * Um auf dieselbe Instanz von Workfront zu verweisen, in der sich das benutzerdefinierte Formular befindet, verwenden Sie $$HOST für die URL.
-   * Um die Ergebnisse basierend auf der Abfrage eines anderen Felds zu filtern, fügen Sie $$QUERY hinzu.
+   * Verwenden Sie $$HOST, um auf dieselbe Instanz von Workfront zu verweisen, in der sich das benutzerdefinierte Formular befindet.
+   * Verwenden Sie $$QUERY , um die Ergebnisse basierend auf der Benutzereingabe dynamisch zu filtern.
 
-   **Beispiel**
-   `$$HOST/attask/api/v15.0/project/search?status={DE:StatusQuery}&$$QUERY`
+   **Beispiel-API-Aufruf**
+   `$$HOST/attask/api/v15.0/project/search?status={DE:Status Query}&description=$$QUERY`
 
-1. Überprüfen Sie **Abhängigkeiten** für die Felder, auf die dieses Suchfeld in der API verweist.
+1. Überprüfen Sie die **Abhängigkeiten** für die Felder, auf die im API-Aufruf verwiesen wird.
 
-   Ein Abhängigkeitsfeld kann jedes benutzerdefinierte oder native Feld sein, das auf der Detailseite des -Objekts vorhanden ist.
+   Ein Abhängigkeitsfeld kann jedes benutzerdefinierte oder native Feld sein, das für das Objekt verfügbar ist. Wenn Sie z. B. ein benutzerdefiniertes Formular für Gruppen erstellen, das ein externes Suchfeld enthält, können Abhängigkeitsfelder alle in einer Gruppe verfügbaren Felder enthalten.
 
-   In diesem Beispiel wird der `{DE:StatusQuery}` durch den Wert des benutzerdefinierten StatusQuery-Felds ersetzt.
+   In diesem Beispiel wird `{DE:Status Query}` dynamisch durch den Wert des benutzerdefinierten Felds „Statusabfrage“ für die aktuelle Gruppe ersetzt. Wenn das Formular also an Gruppe A angehängt ist, wird `{DE:Status Query}` durch den Wert ersetzt, der im Feld „Statusabfrage“ für diese Gruppe festgelegt ist.
 
 1. Wählen Sie die **HTTP-Methode**.
 
