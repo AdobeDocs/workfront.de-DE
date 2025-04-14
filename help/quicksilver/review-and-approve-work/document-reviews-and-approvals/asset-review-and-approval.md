@@ -6,9 +6,9 @@ description: Übersicht über die in Workfront zur Überprüfung und Genehmigung
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 97821d0fa97e8ba18e63b7e4156e06563e148a3d
 workflow-type: tm+mt
-source-wordcount: '330'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -33,6 +33,7 @@ Wichtige Funktionen für Genehmigungen veralteter Dokumente:
 * Überprüfen und Kommentieren im Proofing Viewer
 * Entscheidungen im Proofing Viewer treffen
 * Erstellen von Genehmigungsberichten mit veralteten Berichten
+* Greifen Sie auf Genehmigungsanfragen im Widget Meine Genehmigungen im Bereich Startseite zu
 
 Weitere Informationen finden Sie unter [Legacy-Dokumentgenehmigungen](/help/quicksilver/review-and-approve-work/manage-approvals/approval-process-in-workfront.md#document-approval-processes).
 
@@ -62,6 +63,8 @@ Weitere Informationen zum Reporting finden Sie unter [Erstellen eines Berichts-D
 
 * Mehrstufige Validierungen erstellen [!BADGE in Kürze verfügbar]{type=Informative}
 
+* Greifen Sie auf Prüfungs- und Genehmigungsanfragen im Widget Meine Genehmigungen im Bereich Startseite zu
+
 
 ## Genehmigungen von Korrekturabzügen
 
@@ -84,6 +87,8 @@ Für das Proofing verfügbare Funktionen:
 * Mehrstufige Genehmigungen erstellen
 
 * Verwenden von einfachen oder automatisierten Workflows
+
+* Greifen Sie auf Genehmigungsanfragen im Widget Meine Genehmigungen im Bereich Startseite zu
 
 <!--
 ## Upcoming deprecations
