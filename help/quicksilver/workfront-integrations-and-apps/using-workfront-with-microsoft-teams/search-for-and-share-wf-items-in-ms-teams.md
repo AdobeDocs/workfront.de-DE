@@ -6,18 +6,22 @@ description: Sie können in  [!DNL Workfront]  beliebigen  [!DNL Adobe Workfront
 author: Becky
 feature: Workfront Integrations and Apps
 exl-id: 71d83723-daea-4b7b-8e5b-cfcf414611fe
-source-git-commit: 41d898e82bc5b06498966ba938b68ed10e742d3b
+source-git-commit: 69fdb5c23bb501fc81e4ef3c3ab7c94e78e69d29
 workflow-type: tm+mt
-source-wordcount: '434'
+source-wordcount: '398'
 ht-degree: 0%
 
 ---
 
 # Suchen nach und Freigeben von [!DNL Adobe Workfront] in [!DNL Microsoft Teams]
 
+<!--
+
 >[!NOTE]
 >
->Ab dem 1. Juli 2025 entfernt Microsoft die Unterstützung für die Desktop-App Classic Teams . Daher wird die Workfront-Integration mit Microsoft Teams nicht mehr unterstützt, nachdem die Classic Teams-Desktop-App nicht mehr verfügbar ist.
+>As of July 1, 2025, Microsoft will remove support for the Classic Teams desktop app. As a result, the Workfront integration with Microsoft Teams will not be supported after the Classic Teams desktop app is no longer available.
+
+-->
 
 Sie können in [!DNL Microsoft Teams] in jedem [!DNL Adobe Workfront] nach [!DNL Workfront] Elementen suchen und diese Elemente für Mitglieder Ihrer Teams freigeben.
 
