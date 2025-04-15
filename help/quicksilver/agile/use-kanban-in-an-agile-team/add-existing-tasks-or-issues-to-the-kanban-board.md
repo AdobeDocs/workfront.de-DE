@@ -6,7 +6,7 @@ description: Sie können jede Aufgabe oder jedes Problem einem Kanban-Board hinz
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: f78a86dcdf7b63e98bec5216fb5ab7622775a053
+source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -67,6 +67,7 @@ So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Projekt eine Aufgabe oder ]
    >Wenn der Aufgabe oder dem Problem mehrere Teams zugewiesen sind, kann das Arbeitselement nur auf der [!DNL kanban] eines Teams angezeigt werden.
 1. Klicken Sie **Hinzufügen**.
 
+
 ## Hinzufügen vorhandener Aufgaben oder Probleme aus einem Bericht
 
 So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Bericht ] Aufgabe oder Problem hinzu:
@@ -84,13 +85,14 @@ So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Bericht ] Aufgabe oder Prob
 1. Klicken Sie **Hinzufügen**.
 
 
+
 ## Hinzufügen vorhandener Aufgaben oder Probleme aus einem Dashboard
 
 So fügen Sie eine Aufgabe oder ein Problem über ein Dashboard zu einer [!UICONTROL Kanban]-Pinnwand hinzu:
 
 {{step1-to-dashboards}}
 
-1. Wählen Sie das Dashboard aus, das das Arbeitselement enthält, das Sie der Kanban-Pinnwand hinzufügen möchten.
+1. Wählen Sie das Dashboard aus, das das Arbeitselement enthält, das Sie dem Kanban-Board hinzufügen möchten.
 1. Ein oder mehrere Arbeitselemente zum Hinzufügen auswählen.
 1. Klicken Sie auf das **[!UICONTROL Mehr]**-Symbol ![Mehr-Symbol](assets/more-icon.png) und wählen Sie dann **Zu Kanban-Board hinzufügen** aus. Das [!UICONTROL **Hinzufügen zu**] wird geöffnet.
 1. Geben Sie **Feld Kanban** den Namen des Kanban-Teams ein und wählen Sie ihn dann aus der Dropdown-Liste aus.
@@ -98,4 +100,5 @@ So fügen Sie eine Aufgabe oder ein Problem über ein Dashboard zu einer [!UICON
    >[!NOTE]
    >
    >Wenn der Aufgabe oder dem Problem mehrere Teams zugewiesen sind, kann das Arbeitselement nur auf der [!DNL kanban] eines Teams angezeigt werden.
+
 1. Klicken Sie **Hinzufügen**.
