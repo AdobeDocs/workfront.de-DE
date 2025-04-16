@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: c044b4df-f61d-48e0-be9b-e9fa151b092b
-source-git-commit: 88b8443525043a0710dfc6f93739e54f2e78a569
+source-git-commit: 594504c6a7acc9341471371ca279379042a45457
 workflow-type: tm+mt
-source-wordcount: '1853'
+source-wordcount: '1809'
 ht-degree: 0%
 
 ---
@@ -270,9 +270,7 @@ Beachten Sie Folgendes, wenn Sie eine Verbindungsansicht zur Seite eines Datensa
 
 * Sie können keine Seite mit einer Verbindungsansicht zum Vorschaubereich eines Datensatzes hinzufügen.
 
-* Verbindungsansichtsseiten zeigen in der Tabellenansicht eine verbundene Datensatzseite an. Die Tabellenansicht ist schreibgeschützt. <!--more views might be added in the future-->
-
-* Sie können für jeden verbundenen Datensatztyp eine Seite „Verbindungsansicht“ hinzufügen.  <!--edit this when we can remove fields from this page-->
+* Seiten der Verbindungsansicht zeigen in der Tabellenansicht eine verbundene Seite des Datensatztyps an.
 
 * Nachdem Sie der Seite eines Datensatzes eine Seite mit einer Verbindungsansicht hinzugefügt haben, wird die Registerkarte Seite im Vorschaubereich des Datensatzes angezeigt. Sie müssen zur vollständigen Seite gehen, um die Tabellenansicht für den verbundenen Datensatz anzuzeigen. <!--this might have changed? check and take disclaimer out-->
 
@@ -289,7 +287,7 @@ So fügen Sie eine Seite mit einer Verbindungsansicht hinzu:
 Die Tabellenansicht des ausgewählten Datensatztyps und die verbundenen Datensätze werden in der Tabellenansicht angezeigt.
 Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Registerkarte des verbundenen Datensatzes angezeigt.
 
-   Beim Zugriff auf Workfront Planning über die Vorschau -Umgebung werden standardmäßig die ersten fünf Felder der verbundenen Datensatztabelle angezeigt. Standardmäßig werden keine Suchfelder angezeigt.0
+   Die ersten fünf Felder der verbundenen Datensatztabelle werden standardmäßig angezeigt. Standardmäßig werden keine Suchfelder angezeigt.
 
    Die Tabellenansicht ist schreibgeschützt.
 
@@ -309,16 +307,11 @@ Alle Felder des verbundenen Datensatzes werden in der Tabellenansicht der Regist
    * Gruppierung
    * Felder, zum Anzeigen, Ausblenden oder Neuanordnen von Feldern
 
-   <!--Add to the list above from the list below - and condition these for Preview only: Hide fields, rearrange fields-->
-
    Weitere Informationen finden Sie unter [Verwalten der Tabellenansicht](/help/quicksilver/planning/views/manage-the-table-view.md).
 
    >[!NOTE]
    >
-   >   In der Tabellenansicht der Registerkarte eines verbundenen Datensatzes können Sie keine der folgenden Aktionen ausführen:
-   >
-   >   * Felder ausblenden oder neu anordnen. Sie können Felder in der Vorschau-Umgebung ausblenden und neu anordnen.
-   >   * Erstellen, Bearbeiten oder Löschen von Feldern
+   >   Sie können keine Felder in der Tabellenansicht der Registerkarte eines verbundenen Datensatzes erstellen, bearbeiten oder löschen.
    >
 
 1. Klicken Sie auf **Verbinden**, um Datensätze hinzuzufügen oder zu entfernen. Weitere Informationen finden Sie unter [Datensätze verbinden](/help/quicksilver/planning/records/connect-records.md)
