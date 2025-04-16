@@ -1,13 +1,13 @@
 ---
 title: Aktualisierungen der Benutzeroberfläche
 description: Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in Adobe Workfront durchführen, um das Benutzererlebnis zu verbessern und es mit anderen Adobe-Programmen zu vereinheitlichen.
-author: Nolan
+author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 80cb8ffa0495c7d163de8fb99dba84e6442aa938
+source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
 workflow-type: tm+mt
-source-wordcount: '1774'
+source-wordcount: '1817'
 ht-degree: 0%
 
 ---
@@ -211,6 +211,12 @@ Um diese Änderung anzuzeigen, gehen Sie zu Teams > Wählen Sie ein Team aus > A
 ## Dokumente
 
 +++Erweitern, um Aktualisierungen der Dokumentenschnittstelle anzuzeigen
+
+### Aktualisierungen der Benutzeroberfläche beim Anfordern eines Dokuments
+
+**Vorschau-Version: 3. April 2025; Produktions-Version: Ab der Woche vom 10. April 2025**
+
+Das Dialogfeld zum Anfordern eines Dokuments von einem anderen Benutzer wurde mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
 ### Aktualisierungen der Benutzeroberfläche auf der Freigabeseite für externe Dokumente
 
