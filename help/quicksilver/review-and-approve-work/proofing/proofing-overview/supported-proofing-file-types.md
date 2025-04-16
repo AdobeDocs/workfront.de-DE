@@ -7,9 +7,9 @@ description: Sie können verschiedene Arten von Dateien für Ihre Reviewer freig
 author: Courtney
 feature: Digital Content and Documents
 exl-id: 647edda3-de52-4bb9-b202-36c5cf832fb0
-source-git-commit: b0454e68bdd6e9e78bd748868fc82a7b0cf8f379
+source-git-commit: 1df1eff727ff2044eee0f5c0e79794c109d16c7a
 workflow-type: tm+mt
-source-wordcount: '1052'
+source-wordcount: '1057'
 ht-degree: 0%
 
 ---
@@ -78,7 +78,7 @@ Für Workfront gelten die folgenden Beschränkungen:
 * DCS - Kodak Digitalkamerasystem
 * DCM - DICOM
 * DCX - Pinsel
-* DNG - Adobe Digital Negative
+* DNG - Adobe Digital negativ
 * DOC - Microsoft Word-Dokument
 * DOCX - Microsoft Word-Dokument 2007
 * DRW - DRaWing
@@ -104,7 +104,7 @@ Für Workfront gelten die folgenden Beschränkungen:
 * JPEG-XR - Windows Media Foto / HD Foto (HDP)
 * JPEG-LS - JPEG verlustfrei
 * J2K - JPEG 2000
-* JP2 - JPEG 2000 komprimiert
+* JP2 - JPEG 2000 - Komprimiert
 * JPM - JPEG 2000 Teil 6
 * JPX - JPEG 2000 Teil 2
 * KDC - Kodak Digitalkamera
@@ -126,7 +126,7 @@ Für Workfront gelten die folgenden Beschränkungen:
 * PCL6 - Printer Command Language
 * PCT - Macintosh Pict
 * PCX - Pinsel
-* PDF - Adobe Portable Document File
+* PDF - Portable Document File von Adobe
 * PGM - Portable Bitmap Utilities
 * PLT - HPGL-Plotter
 * PNG - Portable Network Graphics
@@ -154,7 +154,7 @@ Für Workfront gelten die folgenden Beschränkungen:
 * TDB - Microsoft Windows-Miniaturansichts-Cache
 * TFX - Internet-Fax
 * TGA - Truevision TARGA
-* TIFF - Dateiformat des getaggten Bildes
+* TIFF - Dateiformat für getaggte Bilder
 * TIFX - Xerox Internet-Faxdatei
 * VFF - Sun TAAC-Bitmap
 * WBMP - Wireless-Bitmap
@@ -188,7 +188,7 @@ Für Workfront gelten die folgenden Beschränkungen:
 * AIT - Adobe Illustrator-Vorlage
 * DOC - Microsoft Word-Dokument
 * DOCX - Microsoft Word-Dokument
-* PDF - Adobe Portable Document File
+* PDF - Portable Document File von Adobe
 * PPT - PowerPoint-Präsentation
 * PPTX - PowerPoint Presentation 2007 PS - PostScript-Datei
 * PSD - PHOTOSHOP
@@ -208,7 +208,7 @@ Für Workfront gelten die folgenden Beschränkungen:
 * AVI
 * Flash (VP6, Sorenson Spark/H.263+, H.264)
 * MOV
-* MP4
+* MP4 - Limit 8.192 x 4.320 Pixel
 * MPG
 * VOB (nur unverschlüsselte VOB)
 * Flash
@@ -217,7 +217,7 @@ Für Workfront gelten die folgenden Beschränkungen:
 * Ogg Theora
 * MJPEG
 * DV
-* Roh YUV/RGB
+* Raw YUV/RGB
 * MKV
 * Audio-Codecs eingeben (Teil des Videos)
 
@@ -246,6 +246,6 @@ Sie können ZIP-Dateien nur senden, wenn sie ein vollständiges interaktives Pro
 
 Weitere Informationen finden Sie unter [Übersicht über Korrekturabzüge für interaktive Inhalte](../../../review-and-approve-work/proofing/proofing-overview/interactive-content-proofs.md).
 
-## InDesign und Quark Dateien
+## InDesign- und Quark-Dateien
 
-InDesign- und Quark-Dateien werden nicht unterstützt, da es sich nicht um eigenständige Dateitypen handelt und sie auf viele andere Dateien wie Bilder und Schriftarten verweisen. Die Ausgabe in diesen Dateitypen hängt von den Ausgabeeinstellungen ab. Wir empfehlen Kunden, InDesign- und Quark-Dateien als PDF zu speichern und die PDF hochzuladen.
+InDesign- und Quark-Dateien werden nicht unterstützt, da es sich nicht um eigenständige Dateitypen handelt und sie auf zahlreiche andere Dateien wie Bilder und Schriftarten verweisen. Die Ausgabe in diesen Dateitypen hängt von den Ausgabeeinstellungen ab. Es wird empfohlen, dass Kunden InDesign- und Quark-Dateien als PDF speichern und die PDF hochladen.
