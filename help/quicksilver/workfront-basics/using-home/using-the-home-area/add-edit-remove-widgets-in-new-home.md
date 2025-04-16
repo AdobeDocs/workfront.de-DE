@@ -6,15 +6,17 @@ description: Sie können aus einer Reihe von Widgets auswählen, um den Inhalt a
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 81f32dfe-cde0-4e61-a542-9b99a18a3953
-source-git-commit: be7f2b811bf963d31881879655edd4bc634294c5
+source-git-commit: c1f5e11c6327ef86bd3f89eb383b3bf06bd4981f
 workflow-type: tm+mt
-source-wordcount: '1155'
-ht-degree: 5%
+source-wordcount: '1103'
+ht-degree: 6%
 
 ---
 
 
 # Hinzufügen, Bearbeiten oder Entfernen von Widgets auf der Startseite
+
+<!-- Audited: 4/2025 -->
 
 Sie können aus einer Reihe von Widgets auswählen, um den Inhalt anzupassen, der auf Ihrer Startseite angezeigt wird. Diese Widgets können in der Größe angepasst und neu angeordnet werden.
 
@@ -35,15 +37,15 @@ Standardmäßig werden der Startseite je nach Lizenztyp bestimmte Widgets hinzug
     </tr>
     <tr>
         <td>Leicht</td>
-        <td>Meine Arbeit wartet auf meine Genehmigung</td>
+        <td>Meine Arbeit, meine Genehmigungen</td>
     </tr>
     <tr>
         <td>Mitwirkender oder Mitwirkende</td>
-        <td>Meine Anfragen, Erwähnungen, wartet auf meine Genehmigung, Boards</td>
+        <td>Meine Anfragen, Erwähnungen, meine Genehmigungen, Boards</td>
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf Genehmigung</td>
+        <td>Meine Genehmigungen</td>
     </tr>
 </table>
 
@@ -66,7 +68,7 @@ Standardmäßig werden der Startseite je nach Lizenztyp bestimmte Widgets hinzug
     </tr>
     <tr>
         <td>Anfrage</td>
-        <td>Meine Projekte, die auf Genehmigung warten</td>
+        <td>Meine Projekte, meine Genehmigungen</td>
     </tr>
     <tr>
         <td>Mitwirken</td>
@@ -74,7 +76,7 @@ Standardmäßig werden der Startseite je nach Lizenztyp bestimmte Widgets hinzug
     </tr>
     <tr>
         <td>Extern</td>
-        <td>Warten auf Genehmigung</td>
+        <td>Meine Genehmigungen</td>
     </tr>
 </table>
 
@@ -88,20 +90,18 @@ Hinzufügen eines Widgets:
 
 1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf dem Bildschirm klicken, wenn die Startseite als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
 
-1. Klicken **oben rechts** Bildschirm auf „Anpassen“.
+1. Klicken Sie in der rechten oberen Ecke des Bildschirms auf **Anpassen**.
 
    ![Schaltfläche „Anpassen](assets/customize-button.png)
 1. Scrollen Sie zum Abschnitt **Widgets** und wählen Sie dann die Widgets aus, die Sie hinzufügen möchten.
 
 +++ Erweitern um eine detaillierte Liste der verfügbaren Widgets anzuzeigen
 
-       Im Folgenden finden Sie die 11 Widgets, aus denen Sie derzeit wählen können, sowie eine Zusammenfassung der angezeigten Informationen:
-   
    * **Meine Arbeit**\
-       Dieses Widget ist ein hervorragender Ausgangspunkt für die Verwaltung einer Vielzahl von Aufgaben. Es zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Bearbeitung eines Elements zu beginnen, oder auf die Schaltfläche Fertig , um das Element als abgeschlossen zu markieren. Sie können auch über das Widget Meine Arbeit Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen aktualisieren, die Zeit protokollieren und Aktualisierungen hinzufügen.
+       Zeigt alle Ihnen zugewiesenen Aufgaben, Probleme und Anfragen an einem Ort an. Sie können auf die Schaltfläche Bearbeiten klicken, um mit der Bearbeitung eines Elements zu beginnen, oder auf die Schaltfläche Fertig , um das Element als abgeschlossen zu markieren. Sie können auch über das Widget Meine Arbeit Informationen (Status, Bedingung, Prozent abgeschlossen) zu Aufgaben und Problemen aktualisieren, die Zeit protokollieren und Aktualisierungen hinzufügen.
 
    * **Pinnwände**\
-       Zeigt alle Boards an, die Sie erstellt haben oder die Sie zur Verwendung eingeladen wurden. Sie können auch eine neue Pinnwand erstellen, die auf den folgenden Vorlagen basiert: Grundlegende Pinnwand, Kanban-Pinnwand, retrospektive Pinnwand, dynamische Pinnwand
+       Zeigt alle Boards an, die Sie erstellt haben oder die Sie zur Verwendung eingeladen wurden. Sie können auch eine neue Pinnwand erstellen, die auf den folgenden Vorlagen basiert: Grundlegende Pinnwand, Kanban-Pinnwand, retrospektive Pinnwand und dynamische Pinnwand.
 
    * **Meine Projekte**\
        Zeigt Projekte an, deren Inhaber Sie sind oder zu denen Sie in einer Liste gehören. Sie können vorhandene Filter, Ansichten oder Gruppierungen verwenden, um die Liste anzupassen, oder Sie können ein Projekt direkt über das Widget erstellen.
@@ -118,7 +118,7 @@ Hinzufügen eines Widgets:
    * **Teamanfragen**\
        Zeigt alle ausstehenden Anfragen für Teams an, in denen Sie Mitglied sind, sortiert nach Team. Außerdem gibt es Schaltflächen, um eine Anfrage direkt einer Benutzerin oder einem Benutzer zuzuweisen oder sie selbst zu bearbeiten.
 
-   * **Warten auf meine Genehmigung**\
+   * **Meine Genehmigungen**\
        Zeigt alle ausstehenden zugewiesenen oder delegierten Genehmigungen an, sowie eine Schaltfläche zum Delegieren von Genehmigungen und eine Schaltfläche zum Treffen von Genehmigungsentscheidungen direkt im Widget.
 
    * **Alle Genehmigungen**\
@@ -132,7 +132,7 @@ Hinzufügen eines Widgets:
 
      >[!NOTE]
      >
-     >Sie müssen über die Berechtigung zum Erstellen von Aufgaben verfügen, um Aufgaben im Aufgaben-Widget erstellen zu können. Nur persönliche Aufgaben, die vom aktuellen Benutzer eingegeben wurden, werden im Widget angezeigt.
+     >Sie müssen über die Berechtigung zum Erstellen von Aufgaben verfügen, um Aufgaben im Aufgaben-Widget erstellen zu können. Nur persönliche Aufgaben, die vom aktuellen Benutzer eingegeben wurden, werden angezeigt.
 
 +++
 
@@ -153,19 +153,17 @@ Hinzufügen eines Widgets:
 
 1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf dem Bildschirm klicken, wenn die Startseite als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
 
-1. Suchen Sie das Widget auf Ihrer Startseite, das Sie entfernen möchten, und klicken Sie dann auf das Symbol Mehr ![Mehr](assets/more-icon.png)Symbol oben rechts im Widget.
+1. Suchen Sie das Widget auf der Startseite, das Sie entfernen möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png) in der oberen rechten Ecke des Widgets.
 
 1. Klicken Sie auf **Entfernen**.
 
 
 ## Farbe des Hintergrunds ändern
 
-1. Navigieren Sie zu Ihrer Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf dem Bildschirm klicken, wenn die Startseite als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
+1. Navigieren Sie zur Startseite, indem Sie entweder auf das Adobe Workfront-Symbol ![Adobe Workfront-Symbol](assets/home-icon-30x29.png) oben auf dem Bildschirm klicken, wenn die Startseite als Landingpage festgelegt ist, oder indem Sie auf das Hauptmenüsymbol ![Hauptmenüsymbol](assets/main-menu-icon.png) und dann auf **Startseite** klicken.
 
-1. Klicken **oben rechts** Bildschirm auf „Anpassen“.
+1. Klicken Sie in der rechten oberen Ecke des Bildschirms auf **Anpassen**.
 
    ![Schaltfläche „Anpassen](assets/customize-button.png)
-
-   Das Bedienfeld „Anpassen“ wird geöffnet.
 
 1. Klicken Sie **Abschnitt** Hintergrund“ des Bedienfelds **Anpassen** auf die Farbe, die Sie für Ihren Starthintergrund auswählen möchten. Sie können auch auf **Keine** klicken, um den Hintergrund zu entfernen.

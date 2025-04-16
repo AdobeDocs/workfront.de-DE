@@ -6,14 +6,16 @@ description: Ihre Sichtbarkeit von Objekten in Adobe Workfront hängt von Ihrem 
 author: Becky
 feature: Get Started with Workfront
 exl-id: ad1c525c-42a8-4fb7-a2cd-7792e1c280ab
-source-git-commit: 03768a0d3a63c7f6adcd11a6cd2e4d093b24f214
+source-git-commit: 18b96a6d57dc358bfe52e813bc98d8eb19f37dba
 workflow-type: tm+mt
-source-wordcount: '1380'
-ht-degree: 0%
+source-wordcount: '1338'
+ht-degree: 1%
 
 ---
 
 # Anfordern des Zugriffs auf Objekte
+
+<!-- Audited: 4/2025 -->
 
 Ihre Sichtbarkeit von Objekten in Adobe Workfront hängt von Ihrem Zugriff auf diesen Objekttyp sowie von Ihren Berechtigungen für ein einzelnes Objekt ab.
 
@@ -28,11 +30,9 @@ Ihre Sichtbarkeit von Objekten in Adobe Workfront hängt von Ihrem Zugriff auf d
 
 Ihr Workfront-Administrator konfiguriert Ihren Zugriff auf einen Objekttyp auf Ihrer Zugriffsebene. Weitere Informationen finden Sie unter [ der Zusammenarbeit von Zugriffsebenen und Berechtigungen](../../administration-and-setup/add-users/access-levels-and-object-permissions/how-access-levels-permissions-work-together.md).
 
-Wenn Sie Berechtigungen für bestimmte Objekte in Workfront benötigen, können Sie Zugriff darauf anfordern. Anstatt zur Erläuterung Ihrer Anforderungen eine E-Mail an den Workfront-Administrator oder den Objektinhaber zu senden, können Sie in Workfront zusätzlichen Zugriff (oder Berechtigungen) anfordern.
+Wenn Sie Berechtigungen für bestimmte Objekte in Workfront benötigen, können Sie Zugriff darauf anfordern. Anstatt eine E-Mail an den Workfront-Administrator oder Objektinhaber zu senden, um Ihre Anforderungen zu erläutern, können Sie in Workfront zusätzlichen Zugriff (oder Berechtigungen) anfordern.
 
-Sie können den erstmaligen Zugriff auf Objekte anfordern, wenn jemand einen Link zu dem Objekt für Sie freigibt, oder Sie können zusätzlichen Zugriff auf Objekte anfordern, die Sie zumindest anzeigen können.
-
-Beispielsweise können Sie für ein Projekt über Anzeigeberechtigungen verfügen, Sie müssen diesem Projekt jedoch Aufgaben hinzufügen. In diesem Fall können Sie Contribute-Berechtigungen für das Projekt anfordern.
+Sie können den erstmaligen Zugriff auf Objekte anfordern, wenn jemand einen Link zum Objekt für Sie freigibt, oder Sie können zusätzlichen Zugriff auf Objekte anfordern, für die Sie bereits über Anzeigeberechtigungen verfügen. Beispielsweise können Sie für ein Projekt über Anzeigeberechtigungen verfügen, Sie müssen ihm jedoch Aufgaben hinzufügen. In diesem Fall können Sie Contribute-Berechtigungen für das Projekt anfordern.
 
 ## Zugriffsanforderungen
 
@@ -49,8 +49,9 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
    <td> <p>Beliebig </p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader">Adobe Workfront-Lizenz*</td> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
    <td> <p>Neu: Standard</p> 
+   <p>Oder</p>
    <p>Aktuell: Arbeit oder höher</p> 
    </td> 
   </tr> 
@@ -61,16 +62,16 @@ Sie müssen über Folgendes verfügen, um Objekte freizugeben:
  </tbody> 
 </table>
 
-*Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
 
 ## Grundlegendes zu standardmäßigen Freigaberegeln
 
-Die folgenden standardmäßigen Freigaberegeln werden automatisch wirksam, da sie als Standardoptionen in Ihrem Workfront-System eingerichtet sind.
+Die folgenden Standardfreigaberegeln sind Standardoptionen in Ihrem Workfront-System und werden automatisch wirksam:
 
-* Benutzende, die einer Aufgabe oder einem Problem zugewiesen sind, haben Contribute-Zugriff darauf.
-* Projekt-, Portfolio- und Programmmanager haben Verwaltungszugriff auf die Objekte, deren Inhaber sie sind.
+* Benutzende, die einer Aufgabe oder einem Problem zugewiesen sind, haben Beitragszugriff darauf.
+* Projekt-, Portfolio- und Programm-Manager haben Verwaltungszugriff auf die Objekte, deren Inhaber sie sind.
 * In eine Konversation einbezogene Benutzende haben Ansichtszugriff auf das Objekt, an dem die Konversation stattfindet.
 * Benutzer, die als genehmigende Personen zugewiesen sind, haben Ansichtszugriff auf das Objekt, das darauf wartet, genehmigt zu werden.
 * Bei der Freigabe eines Dashboards werden alle Berichte im Dashboard mit demselben Zugriff auf dieselben Benutzer freigegeben.
@@ -85,22 +86,22 @@ Sie können anfänglichen Zugriff auf Objekte anfordern, auf die Sie derzeit kei
 
 ### Erstzugriff anfordern  {#request-initial-access}
 
-Wenn Sie noch keinen Zugriff auf ein Objekt haben und von einem Link zu diesem Objekt navigieren, wird ein Bildschirm angezeigt, der Sie darüber informiert, dass Sie keinen Zugriff auf die Informationen haben.
+Wenn Sie noch keinen Zugriff auf ein Objekt haben und von einem Link aus zu diesem Objekt navigieren, wird ein Bildschirm angezeigt, der Sie darüber informiert, dass Sie keinen Zugriff haben, um die Informationen anzuzeigen.
 
 So fordern Sie den erstmaligen Zugriff auf ein Objekt an:
 
-1. Klicken Sie **Zugriff anfordern**.\
-   Das **Zugriff anfordern** wird angezeigt.
+1. Klicken Sie **Zugriff anfordern**. Das **Zugriff anfordern** wird angezeigt.
 
-1. (Bedingt) Wenn mehr als ein Benutzer über die entsprechenden Zugriffsrechte verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt. Wählen Sie den Benutzer aus der Dropdown-Liste aus, der Ihre Zugriffsanfrage erhalten soll.
+1. (Bedingt) Wenn mehr als ein Benutzer über die entsprechenden Zugriffsrechte verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt. Wählen Sie aus der Dropdown-Liste den Benutzer aus, der Ihre Zugriffsanfrage erhalten soll.
 
-   In der Dropdown-Liste werden nur 10 Benutzer angezeigt. Die Liste ist alphabetisch sortiert.\
-   Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgelisteten Benutzer finden Sie unter [Hierarchie der Dropdown-Menüs „Zugriff anfordern“ und „Zugriff anfordern“](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+   In der Dropdown-Liste, die alphabetisch sortiert ist, werden nur 10 Benutzer angezeigt. Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgelisteten Benutzer finden Sie unter [Hierarchie der Dropdown-Menüs „Zugriff anfordern“ und „Zugriff anfordern“](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Wählen Sie aus der Dropdown-Liste den gewünschten Zugriffstyp aus.
-1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis für den Benutzer an, aus dem hervorgeht, warum Sie zusätzlichen Zugriff benötigen.
+1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis ein, warum Sie zusätzlichen Zugriff benötigen.
 
    ![Dialogfeld „Zugriff anfordern“](assets/request-access-to-project.png)
+
+1. Klicken Sie **Zugriff anfordern**.
 
 <!--
 If you do not have access level rights to an object and you try to access that object from a link, a screen is displayed informing you to contact the Workfront administrator.
@@ -119,17 +120,16 @@ So fordern Sie zusätzlichen Zugriff auf ein Objekt an, auf das Sie bereits eing
 
    ![Zusätzlichen Zugriff anfordern](assets/more-menu-request-more-access.png)
 
-1. (Bedingt) Wenn mehr als ein Benutzer über die entsprechenden Zugriffsrechte verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt.
-1. Wählen Sie den Benutzer aus der Dropdown-Liste aus, den Sie Ihre Zugriffsanfrage erhalten möchten.\
-   In der Dropdown-Liste werden nur 10 Benutzer angezeigt. Die Liste ist alphabetisch sortiert.\
-   Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgelisteten Benutzer finden Sie unter [Hierarchie der Dropdown-Menüs „Zugriff anfordern“ und „Zugriff anfordern“](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
+1. (Bedingt) Wenn mehr als ein Benutzer über die entsprechenden Zugriffsrechte verfügt, um Ihnen zusätzlichen Zugriff zu gewähren, wird neben dem Namen des Benutzers ein Dropdown-Pfeil angezeigt. Wählen Sie aus der Dropdown-Liste den Benutzer aus, der Ihre Zugriffsanfrage erhalten soll.
+
+   In der Dropdown-Liste, die alphabetisch sortiert ist, werden nur 10 Benutzer angezeigt. Weitere Informationen zur Reihenfolge der in diesem Dropdown-Menü aufgelisteten Benutzer finden Sie unter [Hierarchie der Dropdown-Menüs „Zugriff anfordern“ und „Zugriff anfordern“](#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus).
 
 1. Wählen Sie aus der Dropdown-Liste die Zugriffsebene aus, die Sie anfordern.
 1. (Optional) Geben Sie im Feld **P.S.** einen Hinweis ein, warum Sie zusätzlichen Zugriff benötigen.
-1. Klicken Sie **Zugriff anfordern**.
 
-   Beispielbild in der Vorschau-Umgebung:
    ![Dialogfeld „Zugriff anfordern“](assets/request-access-to-project.png)
+
+1. Klicken Sie **Zugriff anfordern**.
 
 ## Hierarchie der Dropdown-Menüs „Zugriff anfordern“ und „Zugriff anfordern“ {#hierarchy-of-the-request-access-and-request-more-access-drop-down-menus}
 
@@ -138,15 +138,13 @@ So fordern Sie zusätzlichen Zugriff auf ein Objekt an, auf das Sie bereits eing
 
 ### Machen Sie sich mit der Hierarchie der Benutzer vertraut, die in den Dropdown-Menüs Zugriff anfordern und Mehr Zugriff anfordern aufgeführt sind {#understand-the-hierarchy-of-users-listed-in-the-request-access-and-request-more-access-drop-down-menus}
 
-Beim Ausfüllen der Listen „Zugriff anfordern“ oder „Zugriff anfordern“ für Objekte wählt Workfront eine Liste mit bis zu zehn Benutzern aus, die verschiedene Rollen bei der Freigabe des Objekts erfüllen, wie unten beschrieben. Diese Benutzer können dem anfragenden Benutzer Zugriff auf das Objekt gewähren.\
-Die resultierende Liste wird dann nach ihrem Namen in aufsteigender alphabetischer Reihenfolge sortiert.\
-Workfront zeigt in den Listen „Zugriff anfordern“ und „Zugriff anfordern“ bis zu 10 Benutzer an.
+Beim Ausfüllen der Zugriffsanforderungslisten oder der Zugriffsanforderungslisten für Objekte wählt Workfront eine Liste von bis zu 10 Benutzenden aus, die verschiedene Rollen erfüllen, welche dem anfragenden Benutzer Objektzugriff gewähren können. Die resultierende Liste wird dann nach ihrem Namen in aufsteigender alphabetischer Reihenfolge sortiert.
 
-Die Reihenfolge der Benutzer in den Dropdown-Menüs „Zugriff anfordern“ oder „Zugriff anfordern“ wird durch die folgenden Regeln bestimmt:
+Die Reihenfolge der Benutzer in den Dropdown-Listen Zugriff anfordern oder Mehr Zugriff anfordern wird durch die folgenden Regeln bestimmt:
 
 * Der erste Benutzer in der Liste ist der „Eigentümer“ des Objekts, wie unter [Verstehen des Eigentümers eines Objekts](#understand-the-owner-of-an-object) beschrieben.
-* Dann wird die Liste mit Benutzern gefüllt, für die das Objekt einzeln freigegeben wird. Sie sind in alphabetischer Reihenfolge aufgeführt.
-* Dann wird die Liste weiter mit Benutzenden gefüllt, die den erforderlichen Zugriff durch die Freigabe für ihre Teams, Gruppen oder Unternehmen erhalten. Sie sind in alphabetischer Reihenfolge aufgeführt.
+* Die Liste wird dann mit Benutzern gefüllt, für die das Objekt einzeln freigegeben wird. Sie sind in alphabetischer Reihenfolge aufgeführt.
+* Die Liste wird dann weiter mit Benutzern gefüllt, die den erforderlichen Zugriff durch die Freigabe für ihre Teams, Gruppen oder Unternehmen erhalten. Sie sind in alphabetischer Reihenfolge aufgeführt.
 * Wenn die Liste leer ist, werden die Workfront-Administratoren hinzugefügt, sodass immer jemand Zugriff von anfordern kann. Sie sind in alphabetischer Reihenfolge aufgeführt.
 * Jeder Benutzer in der Liste muss den angeforderten Zugriff auf das Objekt und Zugriff haben, um das Objekt freigeben zu können.
 
@@ -178,7 +176,7 @@ Der Eigentümer eines Objekts wird wie folgt definiert:
   </tr> 
   <tr> 
    <td>Portfolios</td> 
-   <td>Der Besitzer ist der Besitzer des Portfolios. <p>Sie sind möglicherweise nicht dieselbe Person wie die Person, die das Portfolio erstellt hat. </p></td> 
+   <td>Der Besitzer ist der Portfolio-Besitzer. <p>Sie sind möglicherweise nicht dieselbe Person wie die Person, die das Portfolio erstellt hat. </p></td> 
   </tr> 
   <tr> 
    <td>Dokumente</td> 
@@ -186,7 +184,7 @@ Der Eigentümer eines Objekts wird wie folgt definiert:
   </tr> 
   <tr> 
    <td>Berichte und Dashboards</td> 
-   <td>Der Eigentümer ist der Ersteller des Berichts oder des Dashboards. </td> 
+   <td>Der Eigentümer ist der Ersteller des Berichts oder Dashboards. </td> 
   </tr> 
   <tr> 
    <td>Kalender</td> 
