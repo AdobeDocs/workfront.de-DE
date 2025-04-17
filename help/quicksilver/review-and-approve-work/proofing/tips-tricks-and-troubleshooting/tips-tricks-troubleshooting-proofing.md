@@ -6,9 +6,9 @@ draft: Probably
 feature: Digital Content and Documents
 recommendations: noDisplay, noCatalog
 exl-id: 83e2f884-b396-444e-9533-864fd78880f2
-source-git-commit: ed708a98662c198e52b417ae53e165f3d5e9a524
+source-git-commit: 5c97fc71eb9516407cf57517d9e817abf4335343
 workflow-type: tm+mt
-source-wordcount: '89'
+source-wordcount: '106'
 ht-degree: 0%
 
 ---
@@ -23,3 +23,4 @@ Dieser Abschnitt enthält die folgenden Artikel:
 * [Häufig gestellte Fragen: Migration von Proofing innerhalb von Adobe Workfront - USA nach EMEA](../../../review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
 * [Dokumentname nach dem Hochladen geändert und enthält ein ungültiges Zeichen](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
 * [Testen eines PowerPoint mit eingebettetem Video](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+* [Korrekturabzugsversionen können nicht heruntergeladen oder in der Vorschau angezeigt werden, wenn ein interaktiver Korrekturabzug als neue Version hinzugefügt wird](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)

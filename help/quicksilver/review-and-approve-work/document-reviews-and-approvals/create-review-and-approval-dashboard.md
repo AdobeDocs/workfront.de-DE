@@ -6,9 +6,9 @@ description: Sie können Genehmigungsmetriken in Arbeitsflächen-Dashboards übe
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 48f8605b-c342-493b-96e7-f73248e34b35
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: 0aeef516c8e3b94edee6fc177766be032241965f
 workflow-type: tm+mt
-source-wordcount: '1987'
+source-wordcount: '1991'
 ht-degree: 1%
 
 ---
@@ -199,19 +199,19 @@ Sie können allgemeine Informationen zu Dokumentgenehmigungen mit KPIs und Diagr
     </tr>
     <tr>
     <td><strong>Frist</strong></td>
-    <td>Dokument &gt; Genehmigungsphase &gt; Frist</td>
+    <td>Dokumentengenehmigung &gt; Genehmigungsphase &gt; Frist</td>
     </tr>
     <tr>
     <td><strong>Anfrage von</strong></td>
-    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Typ _name_ in der Suchbox.</td>
+    <td>Dokumentgenehmigung &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Anforderer &gt; Typ _name_ in der Suchbox.</td>
     </tr>
      <tr>
     <td><strong>Angefordertes Datum</strong></td>
-    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
+    <td>Dokumentengenehmigung &gt; Genehmigungsphase &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Erstellt in</td>
     </tr>
      <tr>
     <td><strong>Genehmigende Person</strong></td>
-    <td>Dokument &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Teilnehmer-Benutzer &gt; Typ _name_ in der Suchbox.</td>
+    <td>Dokumentengenehmigung &gt; Genehmigungsphase &gt; Teilnehmer der Genehmigungsphase* &gt; Teilnehmer-Benutzer &gt; Typ _name_ in der Suchbox.</td>
     </tr>
     <table>
 

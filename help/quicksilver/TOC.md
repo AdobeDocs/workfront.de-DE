@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: 52d7964219dd0731364f0ab7fea9e5224d8ca9df
+source-git-commit: ea4efcb1566d8d2f35487e158a4f445e6c5a32f7
 workflow-type: tm+mt
-source-wordcount: '13142'
+source-wordcount: '13159'
 ht-degree: 2%
 
 ---
@@ -1920,6 +1920,7 @@ ht-degree: 2%
          * [Häufig gestellte Fragen: Migration von Proofing innerhalb von Adobe Workfront - USA nach EMEA](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/faq-proofing-in-wf-us-to-emea-migration.md)
          * [Dokumentname nach dem Hochladen geändert und enthält ein ungültiges Zeichen](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/document-to-proof-name.md)
          * [Testen eines PowerPoint mit eingebettetem Video](review-and-approve-work/proofing/tips-tricks-and-troubleshooting/powerpoint-with-video.md)
+         * [Korrekturabzugsversionen können nicht heruntergeladen oder in der Vorschau angezeigt werden, wenn ein interaktiver Korrekturabzug als neue Version hinzugefügt wird](/help/quicksilver/review-and-approve-work/proofing/tips-tricks-and-troubleshooting/static-and-web-proof-downloads.md)
    * Tipps, Tricks und Fehlerbehebung bei Validierungen {#ttt-approvals}
       * [Tipps, Tricks und Fehlerbehebung bei Validierungen: Artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzer anzeigen](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
