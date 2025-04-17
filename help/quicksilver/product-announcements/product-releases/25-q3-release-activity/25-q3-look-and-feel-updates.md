@@ -4,9 +4,7 @@ description: Lookand-Feel-Aktualisierungen im Zeitraum der Veröffentlichung im 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-hide: true
-hidefromtoc: true
-source-git-commit: 131a4443564def1437c9b26d1e29e65fcc78d069
+source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -62,6 +60,3 @@ Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Beri
 Das Erscheinungsbild des Feldes Firma löschen wurde aktualisiert, wenn Sie eine Firma aus einem Unternehmensbericht löschen. Das neue Design passt nun zu anderen Bereichen von Workfront.
 
 Mit diesem Update hat sich das Erscheinungsbild des Felds Firma löschen auf der Seite Firmen im Bereich Setup nicht geändert.
-
-
-
