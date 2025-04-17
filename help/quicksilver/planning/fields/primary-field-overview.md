@@ -6,9 +6,9 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: fe3127ab-3f59-46a0-a747-9e9e1582265b
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '302'
+source-wordcount: '365'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ ht-degree: 0%
 
 # Übersicht über Primäre Felder
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -53,4 +53,4 @@ Weitere Informationen zum Bestimmen eines Felds als primäres Feld finden Sie un
 * Das Ändern des primären Felds in der Tabellenansicht wirkt sich auf die Ansicht für alle anderen Benutzenden aus, die es auswählen.
 * Das Ändern des Primärfelds in einer Tabellenansicht wirkt sich auf alle Tabellenansichten des Datensatztyps aus.
 * Der im primären Feld aufgeführte Wert ist immer mit der Seite des Datensatzes per Hyperlink verbunden.
-* Wenn Sie Beitragen oder höhere Berechtigungen für eine Workspace-<!--<span class="preview">and record type</span>--> haben, können Sie den Wert von Primärfeldern (mit Ausnahme von Formelfeldern) bearbeiten. Formeln sind Berechnungen, die automatisch aktualisiert werden.
+* Wenn Sie für einen Arbeitsbereich (und <span class="preview"> Datensatztyp) die Berechtigung Beitragen oder höhere Berechtigungen </span>, können Sie den Wert von Primärfeldern mit Ausnahme von Formelfeldern bearbeiten. Formeln sind Berechnungen, die automatisch aktualisiert werden.

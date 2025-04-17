@@ -6,19 +6,19 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: b22c4955-c3f2-4841-a278-bb40e8890ed9
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
 workflow-type: tm+mt
-source-wordcount: '912'
-ht-degree: 0%
+source-wordcount: '975'
+ht-degree: 1%
 
 ---
 
 
 # Hinzufügen einer Miniaturansicht zu einem Datensatz
 
-<!--<span class="preview">The highlighted information on this page refers to functionality not yet generally available. It is available only in the Preview environment for all customers. After the monthly releases to Production, the same features are also available in the Production environment for customers who enabled fast releases. </span>   
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
 
-<span class="preview">For information about fast releases, see [Enable or disable fast releases for your organization](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>-->
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 {{planning-important-intro}}
@@ -86,11 +86,11 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
   </tr> 
 <tr> 
    <td role="rowheader"><p>Objektberechtigungen</p></td> 
-   <td>   <p>Mitwirken an oder höhere Berechtigungen für eine Workspace-<!--<span class="preview">and record type</span>-->  </p>  
+   <td>   <p>Beitragen von oder höhere Berechtigungen zu einem Arbeitsbereich <span class="preview">und Datensatztyp</span>  </p>  
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
@@ -213,8 +213,6 @@ Die Miniaturansicht wird in den Bereichen von Workfront Planning angezeigt, in d
    >   Sie müssen das Feld Miniaturansicht in der Tabellenansicht aktivieren, um Miniaturansichten in dieser Ansicht anzuzeigen. Sie ist standardmäßig deaktiviert.
 
 1. (Optional) Um die Miniaturansicht nach dem Speichern zu entfernen, klicken Sie auf einen Datensatz in einer beliebigen Ansicht, um die Detailseite zu öffnen. Bewegen Sie dann den Mauszeiger über das Miniaturbild und klicken Sie auf das **Mehr**-Menü ![Mehr Menüsymbol](assets/more-menu.png)> **Entfernen**-Symbol ![Entfernen-Symbol](assets/remove-image-icon.png). Das Miniaturbild wird entfernt.
-
-
 
 
 <!--
