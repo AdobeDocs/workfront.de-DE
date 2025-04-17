@@ -4,9 +4,10 @@ description: Diese Seite enthält Informationen zur Funktionalität, die in der 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
+source-git-commit: 94cc3fc02e5ac499684056f21e84956a00d00334
 workflow-type: tm+mt
-source-wordcount: '394'
+source-wordcount: '472'
 ht-degree: 2%
 
 ---
@@ -42,33 +43,28 @@ The <add release> release webinar will be held on <date>. You can [register for 
 * [Verbesserungen beim Dokumentenmanagement](#document-management-enhancements)
 * [Weitere Verbesserungen](#other-enhancements)
 
-<!--
-    
-### Document management enhancements
+### Verbesserungen beim Dokumentenmanagement
 
 <table style="table-layout:auto">
   <tbody>
     <tr>
-        <td><strong>Feature</strong>
+        <td><strong>Funktion</strong>
         </td>
-        <td><strong>Preview</strong></td>
-        <td><strong>Fast release</strong></td>
-        <td><strong>Quarterly</strong></td>
+        <td><strong>Vorschau</strong></td>
+        <td><strong>Schnelle Veröffentlichung</strong></td>
+        <td><strong>Vierteljährlich</strong></td>
     </tr>
     <tr>
         <td>
-            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">New document approval decision buttons available in proofing viewer</a><p>[!BADGE Off schedule]{type=Neutral}</p>
-            <p>The new document approval decision buttons now appear in the proofing viewer. Now, when you create a simple proof and then add approvers and reviewers from the Document summary, they can make their decision directly inside the proofing viewer.</p>
+            <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Entscheidungsschaltflächen für Dokumentgenehmigungen in der Proofing-Anzeige verfügbar</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
+            <p>Die neuen Schaltflächen für die Entscheidung zur Dokumentgenehmigung werden jetzt in der Proofing-Anzeige angezeigt. Wenn Sie jetzt einen einfachen Korrekturabzug erstellen und genehmigende Personen und Prüfende aus der Dokumentzusammenfassung hinzufügen, können diese ihre Entscheidung direkt in der Korrekturabzugsansicht treffen.</p><p><b>HINWEIS</b>Diese Funktion steht Benutzenden im einheitlichen Adobe-Erlebnis derzeit nicht zur Verfügung.</p>
         </td>
-        <td>April 10, 2025</td>
-        <td>April 17, 2025</td>
-        <td>April 17, 2025</td>
+        <td>Freitag, 10. April 2025</td>
+        <td>Freitag, 17. April 2025</td>
+        <td>Freitag, 17. April 2025</td>
     </tr>     
   </tbody>
-</table> 
-
--->
-
+</table>
 
 ### Weitere Verbesserungen
 
