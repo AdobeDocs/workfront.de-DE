@@ -6,7 +6,7 @@ description: Sie können jede Aufgabe oder jedes Problem einem Kanban-Board hinz
 author: Courtney
 feature: Agile
 exl-id: 5f94a451-8530-478f-85c2-41bc15c22dd1
-source-git-commit: 2ce454f6f6e883090fe69c953d89c2d3eef7ce5b
+source-git-commit: bf79bc8fd3e25ff1bae404700ca27973a8b2307d
 workflow-type: tm+mt
 source-wordcount: '494'
 ht-degree: 0%
@@ -65,6 +65,7 @@ So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Projekt eine Aufgabe oder ]
    >[!NOTE]
    >
    >Wenn der Aufgabe oder dem Problem mehrere Teams zugewiesen sind, kann das Arbeitselement nur auf der [!DNL kanban] eines Teams angezeigt werden.
+
 1. Klicken Sie **Hinzufügen**.
 
 
@@ -82,6 +83,7 @@ So fügen Sie einer Kanban-Pinnwand aus [!UICONTROL  Bericht ] Aufgabe oder Prob
    >[!NOTE]
    >
    >Wenn der Aufgabe oder dem Problem mehrere Teams zugewiesen sind, kann das Arbeitselement nur auf der [!DNL kanban] eines Teams angezeigt werden.
+
 1. Klicken Sie **Hinzufügen**.
 
 

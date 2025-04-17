@@ -3,12 +3,12 @@ navigation-topic: the-new-workfront-experience
 title: Seiten anheften, um den Arbeitsbereich anzupassen
 description: Sie können Ihre wichtigste Arbeit anheften [!DNL Adobe Workfront]  um die Sichtbarkeit zu erhöhen, die Organisation zu verbessern und schneller darauf zuzugreifen. Angeheftete Seiten sind in Workfront immer oben auf jeder Seite verfügbar.
 feature: Get Started with Workfront
-author: Nolan
+author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: e8a3f47a33b862a29000436d7c08c1a0e9371907
+source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
 workflow-type: tm+mt
-source-wordcount: '413'
-ht-degree: 0%
+source-wordcount: '420'
+ht-degree: 1%
 
 ---
 
@@ -20,6 +20,8 @@ Möglicherweise wurden Sie einer Layout-Vorlage zugewiesen, an die bereits Seite
 
 ## Zugriffsanforderungen
 
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
 Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel ausführen zu können:
 
 <table style="table-layout:auto"> 
@@ -29,27 +31,28 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
  </col> 
  <tbody> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan*</strong></td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Plan</strong></td> 
    <td> <p>Beliebig</p> </td> 
   </tr> 
   <tr> 
-   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz*</strong></td> 
-   <td> <p>[!UICONTROL-Anfrage] oder höher</p> </td> 
+   <td role="rowheader"><strong>[!DNL Adobe Workfront] Lizenz</strong></td> 
+   <td> <p>Neu: Mitwirkende</p> 
+   <p>Oder</p>
+     <p>Aktuell: Anfrage</p>
+   </td> 
   </tr> 
  </tbody> 
 </table>
 
-&#42;Wenden Sie sich an Ihren [!DNL Workfront], um herauszufinden, welchen Plan oder Lizenztyp Sie besitzen.
+Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Eine Seite anheften
 
-1. Navigieren Sie zu der Seite, die Sie anheften möchten.
+1. Navigieren Sie zu der Seite, die Sie anheften möchten. Dies kann ein beliebiges Arbeitselement sein, z. B. ein Projekt, eine Aufgabe, eine Anfrage-Warteschlange usw.
 
-   Dies kann ein beliebiges Arbeitselement sein, z. B. ein Projekt, eine Aufgabe, eine Anfrage-Warteschlange usw.
-
-1. Klicken **[!UICONTROL oben auf der Seite]** Aktuelle Seite anheften“.
-
-   Die angeheftete Seite kann jetzt von jeder Seite in [!DNL Workfront] aus aufgerufen werden.
+1. Klicken Sie oben links auf der Seite auf **[!UICONTROL Aktuelle Seite]**. Die angeheftete Seite kann jetzt von jeder Seite in [!DNL Workfront] aus aufgerufen werden.
 
 ## Zugriff auf eine fixierte Seite
 
@@ -61,31 +64,31 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    Oder
 
-   Wenn Sie viele Seiten angeheftet haben, müssen Sie möglicherweise auf die ![](assets/more-icon-spectrum.png) **[!UICONTROL Mehr] klicken** um weitere angeheftete Seiten anzuzeigen.
+   Wenn Sie viele Seiten angeheftet haben, klicken Sie auf das Symbol **[!UICONTROL Mehr]** ![Klicken Sie auf das Symbol Mehr](assets/more-icon.png), um zusätzliche angeheftete Seiten anzuzeigen.
+
+   ![Anzeigen zusätzlicher angehefteter Seiten](assets/display-pinned-pages.png)
 
    Die angeheftete Seite wird angezeigt.
 
-## Fixierte Seiten umbenennen
+## Umbenennen einer fixierten Seite
 
-Sie können den Namen einer angehefteten Seite ändern, damit er für Sie aussagekräftiger ist.
-
-1. Bewegen Sie den Mauszeiger über die angeheftete Seite im oberen Navigationsbereich oder **[!UICONTROL Mehr]**.
-1. Klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) neben dem Namen der Nadel und wählen Sie **[!UICONTROL Nadel umbenennen]**.
+1. Bewegen Sie den Mauszeiger über die angeheftete Seite in der oberen Navigationsleiste.
+1. Klicken Sie auf das **Mehr**-Symbol ![Mehr](assets/more-icon.png), das neben dem Pin-Namen angezeigt wird, und wählen Sie **[!UICONTROL Pin umbenennen]**.
 
    ![Pin umbenennen](assets/pin-menu.png)
 
-1. Geben Sie den neuen Pin-Namen ein und klicken Sie auf **Speichern**.
+1. Geben Sie den neuen Pin-Namen ein und klicken Sie dann auf **Speichern**.
 
-   ![Klicken Sie auf das Häkchen, um die Nadel umzubenennen](assets/new-pin-name.png)
+   ![Klicken Sie auf das Häkchen, um die Nadel umzubenennen](assets/rename-pin-dialog-box.png)
 
 
 ## Fixierte Seiten neu anordnen
 
 Sie können die Reihenfolge der angehefteten Seiten neu anordnen.
 
-1. Bewegen Sie den Mauszeiger über die angeheftete Seite, die Sie verschieben möchten, und klicken Sie dann auf das Symbol **Mehr**.
+1. Bewegen Sie den Mauszeiger über die angeheftete Seite, die Sie verschieben möchten, und klicken Sie dann auf das **Mehr**-Symbol ![Mehr-Symbol](assets/more-icon.png).
 1. Wählen Sie **Nach links** oder **Nach rechts**, um Ihre Nadel zu verschieben.
-1. (Optional) Wählen Sie **Nach vorne verschieben**, um Ihren Pin an die ganz rechte Position der Pin-Leiste zu verschieben.
+1. (Optional) Wählen Sie **Nach vorne verschieben**, um Ihren Pin an die ganz linke Position der Pin-Leiste zu verschieben.
 
    ![Pins verschieben](assets/pin-menu.png)
 
@@ -93,9 +96,9 @@ Sie können die Reihenfolge der angehefteten Seiten neu anordnen.
 
 ## Entfernen angehefteter Seiten
 
-1. Klicken Sie auf das Symbol Mehr ![](assets/more-icon.png) neben der Nadel, die Sie entfernen möchten.
-1. Klicken Sie **Pin entfernen**.
+1. Klicken Sie auf das **Mehr**-Symbol ![](assets/more-icon.png) neben der Nadel, die Sie entfernen möchten.
+1. Klicken Sie **Pin entfernen**. Auf die Seite kann von keiner Seite in [!DNL Workfront] aus mehr zugegriffen werden.
 
    ![Pin entfernen](assets/pin-menu.png)
 
-   Auf die Seite kann von keiner Seite in [!DNL Workfront] aus mehr zugegriffen werden.
+
