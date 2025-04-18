@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina, Becky
 recommendations: noDisplay, noCatalog
 exl-id: c669217a-40e2-471f-951d-93157a34f1ee
-source-git-commit: 5a4ceb3bd7a5f121312d26775b6cf91604585775
+source-git-commit: 4bdd4510a5ff7faf8f497299eac0a10f4fe7fbc2
 workflow-type: tm+mt
-source-wordcount: '2202'
+source-wordcount: '2203'
 ht-degree: 2%
 
 ---
@@ -309,7 +309,7 @@ Aktualisieren Sie **Bereich** Zuordnungsfelder“ die folgenden Informationen:
 
      Wenn beispielsweise eine Kampagne mit dem Namen `Summer breeze` ein Projekt aus einem Feld der `EMEA` generiert, heißt das Projekt `[ Summer breeze ] EMEA`.
 
-   * Der Datensatz, dessen Automatisierung Sie auslösen, wird dem verbundenen Feld des neuen Datensatzes hinzugefügt.
+   * Der Datensatz, von dem aus die Automatisierung ausgelöst wird, wird dem verbundenen Feld der neuen Datensätze hinzugefügt.
 
    >[!NOTE]
    >
