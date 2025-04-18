@@ -5,18 +5,14 @@ description: Mit der Funktion „Zusammenfassen“ können Sie Arbeitselemente u
 author: Becky
 feature: Get Started with Workfront
 exl-id: 5b0e1002-b6e9-4354-9ead-643de1de5bab
-source-git-commit: c91a0cd0987b810cc5fb3f52199dccc64bf4d0a1
+source-git-commit: 1b11eb212f8eb980361cfd22a07ac17be71d4472
 workflow-type: tm+mt
-source-wordcount: '234'
-ht-degree: 0%
+source-wordcount: '185'
+ht-degree: 1%
 
 ---
 
 # Verwenden des KI-Assistenten für die Arbeit mit Projekten, Aufgaben und Problemen
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist in der Vorschau -Umgebung für alle Kunden und in der Produktionsumgebung für Kunden verfügbar, die monatliche Versionen aktiviert haben. </span>
-
-<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 
 Der KI-Assistent kann Ihnen dabei helfen, Projekte, Aufgaben und Probleme in Workfront zu finden.
