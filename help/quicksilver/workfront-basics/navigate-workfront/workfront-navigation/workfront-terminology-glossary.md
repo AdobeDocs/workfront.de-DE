@@ -6,9 +6,9 @@ description: Das  [!DNL Adobe Workfront] -Glossar listet häufig verwendete Begr
 author: Alina
 feature: Get Started with Workfront
 exl-id: 758072b3-775e-4771-9ae9-da0b38580c93
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 3a86ce4878304cee749fa298a39f03a46083a7b4
 workflow-type: tm+mt
-source-wordcount: '20999'
+source-wordcount: '21023'
 ht-degree: 0%
 
 ---
@@ -1099,6 +1099,10 @@ Stundeneinträge können einen der folgenden Status in Workfront aufweisen:
   <tr> 
    <td>[!UICONTROL ID]</td> 
    <td> <p>Die ID ist ein alphanumerischer Indikator, der mit jedem Objekt in [!DNL Workfront] verknüpft ist. Jedes Objekt in der [!DNL Workfront]-Datenbank wird eindeutig identifiziert. Sie können die ID eines beliebigen Objekts in einem Bericht oder eine Liste für jedes Objekt anzeigen. </p> <p><b>TIPP</b></p>   <p>Sie können die ID auch in der URL der -Objektseite anzeigen. Wenn Sie beispielsweise auf die Seite [!UICONTROL Projektdetails] zugreifen, könnte die ID eines Projekts in etwa wie die in der folgenden URL beschriebene Zahl aussehen:</p> <p><code>https://&lt;your domain>.my.workfront.com/project/<b>5e29c8010027d8eb334762d4fff3ffca</b>/overview</code> </p> </p> </td> 
+  </tr> 
+  <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
+   <td>[!UICONTROL IMS]</td> 
+   <td>Identity Management-System. Adobe IMS verlangt, dass Sie sich bei Workfront über Adobe anmelden, anstatt Ihren Workfront-Benutzernamen und -Kennwort zu verwenden.</td> 
   </tr> 
   <tr data-mc-conditions="SnippetConitions_MaturityModel.Ad hoc"> 
    <td>[!UICONTROL Einzelziele]</td> 
