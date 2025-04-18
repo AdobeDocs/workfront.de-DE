@@ -6,9 +6,9 @@ description: Übersicht über die in Workfront zur Überprüfung und Genehmigung
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 37745149-b369-445d-bb39-f5ed790d2fae
-source-git-commit: 24668c9fdbb5e23f41831b388d509220d0783057
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '356'
 ht-degree: 0%
 
 ---
@@ -31,7 +31,6 @@ Wichtige Funktionen für Genehmigungen veralteter Dokumente:
 
 * Benutzer als genehmigende Personen hinzufügen
 * Überprüfen und Kommentieren im Proofing Viewer
-* Entscheidungen im Proofing Viewer treffen
 * Erstellen von Genehmigungsberichten mit veralteten Berichten
 * Greifen Sie im Widget Meine Genehmigungen im Bereich Startseite auf Genehmigungsanfragen zu
 
@@ -51,15 +50,13 @@ Wichtige Funktionen für einheitliche Genehmigungen:
 
 * Erstellen und Verwenden von Vorlagen
 
-* Überprüfen und Kommentieren im Proofing Viewer
+* Prüfen, Kommentieren und Treffen von Entscheidungen in der Korrekturabzugsansicht
 Weitere Informationen zur Verwendung der Proofing-Anzeige finden Sie unter [Einheitliche Genehmigungen und Proofing gemeinsam verwenden](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/doc-approvals-and-proofing.md).
 
 * Anzeigen mehrerer wichtiger Leistungsindikatoren für Ihre Genehmigungen in den Widgets der Workfront-Startseite
 
 * Verwenden Sie Canvas-Dashboards, die sich derzeit in der Beta-Phase befinden, um Berichtsdetails zu einheitlichen Genehmigungen anzuzeigen
 Weitere Informationen zum Reporting finden Sie unter [Erstellen eines Berichts-Dashboards zur Überprüfung und Genehmigung](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/create-review-and-approval-dashboard.md).
-
-* Entscheidungen im Proofing-Viewer treffen [!BADGE in Kürze verfügbar]{type=Informative}
 
 * Mehrstufige Validierungen erstellen [!BADGE in Kürze verfügbar]{type=Informative}
 

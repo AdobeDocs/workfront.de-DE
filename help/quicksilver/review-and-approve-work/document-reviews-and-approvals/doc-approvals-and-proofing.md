@@ -6,9 +6,9 @@ description: Sie können einheitliche Genehmigungen mit Proofing verwenden.
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: be484629-6e70-4809-ad4c-a489d5814da6
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '881'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 Einheitliche Genehmigungen in Workfront beinhalten jetzt eine Reihe neuer Funktionen, mit denen Sie Dokumente überprüfen und genehmigen können. Sie können einen einheitlichen Genehmigungs-Workflow mit dem vorhandenen Proofing Viewer verwenden, um Kommentare und Markups zu überprüfenden Dokumenten hinzuzufügen.
 
 Es gibt einige wichtige Unterschiede im Workflow bei der gemeinsamen Verwendung von einheitlichen Genehmigungen und Proofing:
-
-* Entscheidungsschaltflächen werden nicht in der Korrekturabzugsansicht angezeigt
 
 * Die Teilnehmer werden in der Dokumentzusammenfassung und nicht im Proofing-Workflow angezeigt
 
@@ -68,7 +66,7 @@ So weisen Sie Teilnehmer zu:
 
 ## Erstellen Sie nach Bedarf eine neue Version
 
-Wenn Sie eine weitere Überprüfungs- und Genehmigungsrunde benötigen, können Sie eine neue Korrekturabzugsversion erstellen.  <!-- and add the previous participants, new participants, or a mix of both. --> Informationen zu früheren Versionen und Teilnehmern finden Sie in der Dokumentzusammenfassung.
+Wenn Sie eine weitere Runde der Überprüfung und Genehmigung benötigen, können Sie eine neue Korrekturabzugsversion erstellen und die vorherigen Teilnehmer, neue Teilnehmer oder eine Mischung aus beiden hinzufügen. In der Dokumentzusammenfassung können Sie Informationen zu früheren Versionen und Teilnehmern anzeigen.
 
 Hinzufügen einer neuen Version:
 
@@ -85,9 +83,9 @@ Hinzufügen einer neuen Version:
 
 1. (Optional) Legen Sie eine Frist für die Genehmigung fest. Benutzer und Teams werden 72 Stunden und dann 24 Stunden vor dem angegebenen Termin per E-Mail benachrichtigt.
 
-1. Um eine genehmigende Person hinzuzufügen, klicken Sie auf die Schaltfläche Genehmigende Person und beginnen Sie mit der Eingabe eines Benutzer- oder Team-Namens <span class="preview"> wählen Sie eine genehmigende Person aus der vorherigen Version aus.</span>
+1. Um eine genehmigende Person hinzuzufügen, klicken Sie auf die Schaltfläche Genehmigende Person und geben Sie einen Benutzer- oder Team-Namen ein, oder wählen Sie eine genehmigende Person aus der vorherigen Version aus.
 
-1. Um einen Reviewer hinzuzufügen, klicken Sie auf die Schaltfläche Reviewer und geben Sie einen Benutzer- oder Teamnamen ein <span class="preview">oder wählen Sie einen Reviewer aus der vorherigen Version aus. </span>
+1. Um einen Reviewer hinzuzufügen, klicken Sie auf die Schaltfläche Reviewer und geben Sie einen Benutzer- oder Teamnamen ein. Wählen Sie einen Reviewer aus der vorherigen Version aus.
 
    ![Genehmigende Personen hinzufügen](assets/add-approvers.png)
 
@@ -102,10 +100,6 @@ Das Dokument wechselt erst dann in den Status Genehmigt , wenn alle zugewiesenen
 
 Wenn eine genehmigende Person „Arbeit erforderlich“ auswählt, ändert sich der Status des Dokuments sofort in „Arbeit erforderlich“. Das Dokument muss überarbeitet und als neue Version mit einem neuen Genehmigungs-Workflow hochgeladen werden.
 
->[!IMPORTANT]
->
->Schaltflächen für Dokumententscheidungen werden nicht in der Korrekturabzugsansicht angezeigt. Sie müssen zurück zur Seite mit der Dokumentzusammenfassung oder den Dokumentdetails navigieren, um Ihre Entscheidung zu treffen oder Ihre Überprüfung als abgeschlossen zu markieren.
-
 So überprüfen und genehmigen Sie ein Dokument:
 
 1. Gehen Sie zu Ihrer E-Mail-Benachrichtigung und klicken Sie auf **Zum Überprüfen gehen**.
@@ -114,10 +108,6 @@ So überprüfen und genehmigen Sie ein Dokument:
 
 1. Überprüfen Sie den Inhalt und fügen Sie Kommentare oder Markup hinzu. Weitere Informationen zur Verwendung der Proofing-Anzeige finden Sie unter [Testsendungen in Adobe Workfront überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
 
-1. Wenn Sie mit der Überprüfung fertig sind, schließen Sie die Korrekturabzugsansicht.
-
-1. Wenn Sie sich auf der Seite Dokumentdetails befinden, befinden sich die Entscheidungsschaltflächen in der oberen rechten Ecke des Bildschirms.
-
 1. Wählen Sie eine der folgenden Entscheidungen:
 
    * **Genehmigen**: Das Dokument muss nicht geändert werden und ist einsatzbereit.
@@ -125,3 +115,4 @@ So überprüfen und genehmigen Sie ein Dokument:
    * **Muss überarbeitet werden**: Das Dokument muss geändert werden und ist nicht einsatzbereit. Sobald die angegebenen Änderungen vorgenommen wurden, muss das Dokument als neue Version hochgeladen werden und eine weitere Genehmigungsrunde durchlaufen. Weitere Informationen zum Hochladen einer neuen Version finden Sie unter [Erstellen einer neuen Version nach Bedarf](#create-a-new-version-as-needed) in diesem Artikel.
 
 Sobald Sie eine Entscheidung treffen, wird der Dokumentverantwortliche per E-Mail benachrichtigt.
+

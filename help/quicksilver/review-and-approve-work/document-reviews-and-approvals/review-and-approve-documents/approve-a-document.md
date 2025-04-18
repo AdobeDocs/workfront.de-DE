@@ -6,9 +6,9 @@ description: Wenn Sie einem Dokument als genehmigende Person zugewiesen sind, gi
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 5490973b-99a7-4790-9d89-bf8f16ff5765
-source-git-commit: 8270a107ba2501eddbb27f52c843c337aa1f8a99
+source-git-commit: 40c28e7efa61475c186d7f3fabda35a7257baf27
 workflow-type: tm+mt
-source-wordcount: '1083'
+source-wordcount: '1246'
 ht-degree: 0%
 
 ---
@@ -116,21 +116,19 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 
    * **Muss überarbeitet werden** gibt an, dass die Dokumentversion nicht genehmigt ist und umfangreiche Änderungen erfordert.
 
-## Genehmigen eines Dokuments über das Bedienfeld Dokumentzusammenfassung
+## Genehmigen eines Dokuments im Bedienfeld Dokumentzusammenfassung
 
 1. Gehen Sie zu dem Projekt, der Aufgabe oder dem Problem, das/das das Dokument enthält, und wählen Sie dann **Dokumente**.
 
-1. Klicken Sie auf das Dokument, das Ihrer Genehmigung bedarf, und der Bereich Dokumentzusammenfassung wird geöffnet.
+1. Klicken Sie auf das Dokument, das Ihrer Genehmigung bedarf, und das Bedienfeld Dokumentzusammenfassung wird geöffnet.
 
 1. Wählen Sie in der Dropdown-Liste Version die Version des Dokuments aus, das Sie überprüfen möchten. Standardmäßig wird die neueste Version ausgewählt.
 
-   Wenn für die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung aussteht, werden die Schaltflächen für Genehmigungsentscheidungen in der oberen rechten Ecke des Bereichs Dokumentzusammenfassung angezeigt. Wenn andere Versionen des Dokuments ausstehende Genehmigungen für Sie haben, wird im Dropdown-Menü Version ein roter Punkt angezeigt.
-
-   <!--
+   Wenn für die aktuell ausgewählte Version des Dokuments eine ausstehende Genehmigung aussteht, werden die Schaltflächen für Genehmigungsentscheidungen in der oberen rechten Ecke des Bedienfelds Dokumentzusammenfassung angezeigt. Wenn andere Versionen des Dokuments ausstehende Genehmigungen für Sie haben, zeigt das Dropdown-Menü Version einen roten Punkt an.
+<!--
    ![Version dropdown with red dot](/help/quicksilver/review-and-approve-work/document-reviews-and-approvals/assets/version-dropdown-red-dot.png)
-   -->
-
-1. Klicken Sie oben rechts im Bereich Dokumentzusammenfassung auf eine der beiden folgenden Genehmigungsoptionen:
+ -->
+1. Klicken Sie oben rechts im Bedienfeld Dokumentzusammenfassung auf eine der beiden folgenden Genehmigungsoptionen:
 
    * Das **Genehmigen** Dropdown-Menü enthält zwei Optionen:
 
@@ -139,3 +137,24 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
       * **Mit Änderungen genehmigen** gibt an, dass einige kleine Änderungen am Dokument weiterhin erforderlich sind, aber die Genehmigung unter der Bedingung erteilt wird, dass diese Änderungen vorgenommen werden. Wenn Sie diese Option wählen, wird ein Fenster mit einem Textfeld mit dem Namen **Nächste Schritte** angezeigt, in dem Sie angeben können, welche Änderungen für das zu genehmigende Dokument erforderlich sind. Sie können entweder diese Informationen eingeben und auf **Nachricht hinzufügen** klicken oder auf **Überspringen** klicken, um die Genehmigungsentscheidung ohne zusätzliche Informationen zu senden.
 
    * **Muss überarbeitet werden** gibt an, dass die Dokumentversion nicht genehmigt ist und umfangreiche Änderungen erfordert.
+
+
+## Genehmigen eines Dokuments über die Korrekturabzugsansicht
+
+So überprüfen und genehmigen Sie ein Dokument:
+
+1. Gehen Sie zu Ihrer E-Mail-Benachrichtigung und klicken Sie auf **Zum Überprüfen gehen**.
+
+1. Wenn Sie sich in Workfront befinden, klicken Sie auf **Zum Korrekturabzug gehen**.
+
+1. Überprüfen Sie den Inhalt und fügen Sie Kommentare oder Markup hinzu. Weitere Informationen zur Verwendung der Proofing-Anzeige finden Sie unter [Testsendungen in Adobe Workfront überprüfen: Artikelindex](/help/quicksilver/review-and-approve-work/proofing/reviewing-proofs-within-workfront/review-proofs-in-wf.md).
+
+1. Wählen Sie eine der folgenden Entscheidungen:
+
+   * **Genehmigen**: Das Dokument muss nicht geändert werden und ist einsatzbereit.
+   * **Mit Änderungen genehmigen**: Das Dokument benötigt Änderungen und ist nach deren Vornahme zur Verwendung bereit. Eine zusätzliche Genehmigung ist nicht erforderlich.
+   * **Muss überarbeitet werden**: Das Dokument muss geändert werden und ist nicht einsatzbereit. Sobald die angegebenen Änderungen vorgenommen wurden, muss das Dokument als neue Version hochgeladen werden und eine weitere Genehmigungsrunde durchlaufen. Weitere Informationen zum Hochladen einer neuen Version finden Sie unter [Erstellen einer neuen Version nach Bedarf](#create-a-new-version-as-needed) in diesem Artikel.
+
+Sobald Sie eine Entscheidung treffen, wird der Dokumentverantwortliche per E-Mail benachrichtigt.
+
+

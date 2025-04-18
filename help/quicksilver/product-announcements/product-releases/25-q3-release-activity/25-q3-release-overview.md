@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 9342f393-a404-44b4-aad6-2c4cf634dfd5
-source-git-commit: 70dce5fb7848f137a264e28e012234870e8d8eb5
+source-git-commit: 27107a4c2f694e9e8725d074058b008972116924
 workflow-type: tm+mt
-source-wordcount: '472'
+source-wordcount: '458'
 ht-degree: 2%
 
 ---
@@ -57,7 +57,7 @@ The <add release> release webinar will be held on <date>. You can [register for 
     <tr>
         <td>
             <a href="/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-document-mgmt-enhancements.md" class="MCXref xref" xrefformat="{para}">Neue Entscheidungsschaltflächen für Dokumentgenehmigungen in der Proofing-Anzeige verfügbar</a><p>[!BADGE OFF SCHEDULE]{type=neutral}</p>
-            <p>Die neuen Schaltflächen für die Entscheidung zur Dokumentgenehmigung werden jetzt in der Proofing-Anzeige angezeigt. Wenn Sie jetzt einen einfachen Korrekturabzug erstellen und genehmigende Personen und Prüfende aus der Dokumentzusammenfassung hinzufügen, können diese ihre Entscheidung direkt in der Korrekturabzugsansicht treffen.</p><p><b>HINWEIS</b>Diese Funktion steht Benutzenden im einheitlichen Adobe-Erlebnis derzeit nicht zur Verfügung.</p>
+            <p>Die neuen Schaltflächen für die Entscheidung zur Dokumentgenehmigung werden jetzt in der Proofing-Anzeige angezeigt. Wenn Sie jetzt einen einfachen Korrekturabzug erstellen und genehmigende Personen und Prüfende aus der Dokumentzusammenfassung hinzufügen, können diese ihre Entscheidung direkt in der Korrekturabzugsansicht treffen.</p>
         </td>
         <td>Freitag, 10. April 2025</td>
         <td>Freitag, 17. April 2025</td>

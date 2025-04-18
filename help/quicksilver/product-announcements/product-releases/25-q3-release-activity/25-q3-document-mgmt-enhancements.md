@@ -5,9 +5,9 @@ author: Nolan
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 4829d487-7041-447f-9a68-fb1acf467734
-source-git-commit: d616fcdafee137adcdd6fe88616a18c01ed969f3
+source-git-commit: d072b8e9c657e970c12f75a304f63e04d0512505
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '181'
 ht-degree: 0%
 
 ---
@@ -28,8 +28,6 @@ Eine Liste aller Änderungen, die zu diesem Zeitpunkt im dritten Quartal 2025 ve
 >[!NOTE]
 >
 >* Vorschau-Version: 10. April 2025; Produktionsversion für alle Kunden: 17. April 2025
->
->* Diese Funktion ist derzeit für Benutzende von Adobe Unified Experience nicht verfügbar.
 
 Die neuen Schaltflächen für die Entscheidung zur Dokumentgenehmigung werden jetzt in der Proofing-Anzeige angezeigt. Wenn Sie jetzt einen einfachen Korrekturabzug erstellen und genehmigende Personen und Prüfende aus der Dokumentzusammenfassung hinzufügen, können diese ihre Entscheidung direkt in der Korrekturabzugsansicht treffen.
 

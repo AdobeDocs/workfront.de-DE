@@ -6,9 +6,9 @@ description: Sie können einem Dokument, das bereits ausstehende Genehmigungen e
 author: Courtney
 feature: Work Management, Digital Content and Documents
 exl-id: 32cb95c2-8d12-492b-ad89-b38e2a337fc5
-source-git-commit: 300de02b81bc6abc8be9bdceb2bd028b0c4aabfe
+source-git-commit: e20f1b70ffd6c94b302cea6e691337624db497ef
 workflow-type: tm+mt
-source-wordcount: '596'
+source-wordcount: '568'
 ht-degree: 1%
 
 ---
@@ -25,7 +25,6 @@ Unified Approvals ist eine ganzheitliche Umgestaltung des bestehenden Genehmigun
 
 **Unterschiede zum Proofing**
 
-* Die Schaltflächen für die Entscheidung zur Dokumentgenehmigung sind in der Proofing-Anzeige nicht verfügbar. Entscheidungen können in der Dokumentzusammenfassung, in Workfront-Startseiten-Widgets oder auf der Seite Dokumentdetails getroffen werden.
 * Die Teilnehmer an der Dokumentengenehmigung werden in der Dokumentzusammenfassung und nicht auf der Registerkarte des Proofing-Workflows angezeigt.
 * Einheitliche Genehmigungen werden im aktuellen Reporting-Tool nicht unterstützt.
 
