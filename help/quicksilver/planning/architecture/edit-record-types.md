@@ -6,10 +6,10 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: 7d6de742-9657-4286-968c-1fc78ebbb94e
-source-git-commit: 609396b2eb6413c8f6e84361757f00c2cc5e3ad6
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '714'
-ht-degree: 1%
+source-wordcount: '681'
+ht-degree: 2%
 
 ---
 
@@ -81,7 +81,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Nur Systemadministratoren können Datensatztypen für die Verbindung von anderen Arbeitsbereichen aktivieren</p> </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
@@ -177,15 +177,17 @@ oder
       * Farbe zur Identifizierung des Datensatztyps auswählen. Dies ist die Farbe des Symbols für den Datensatztyp.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
 
-1. (Bedingt) Wenn Sie Systemadministrator sind, klicken Sie im Feld **Datensatztyp bearbeiten** auf die Registerkarte **Erweiterte Einstellungen**.
+1. (Bedingt) Wenn Sie Systemadministrator sind, klicken Sie im Feld **Datensatztyp bearbeiten** auf die Registerkarte **Erweiterte Einstellungen**. <!--the info here is duplicated in the Create record types article-->
 
    ![Registerkarte „Erweiterte Einstellungen“ im Feld „Datensatztyp bearbeiten“](assets/edit-record-type-box-advanced-settings-tab.png)
 
-1. (Bedingt) Aktualisieren Sie als Systemadministrator die folgenden Informationen auf der Registerkarte **Erweiterte Einstellungen**:
+1. (Bedingt) Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erweiterte Einstellungen**:
 
-   * **Aus anderen Arbeitsbereichen verbinden**: Aktivieren Sie diesen Umschalter, damit Benutzer aus anderen Arbeitsbereichen eine Verbindung zu diesem Datensatztyp herstellen können. Diese Option ist standardmäßig deaktiviert.
-   * **Systemweit**: Wählen Sie diese Option, um Benutzern zu ermöglichen, eine Verbindung zu diesem Datensatz aus allen Arbeitsbereichen im System herzustellen.
-   * **Spezifische Arbeitsbereiche**: Wählen Sie diese Option aus, um die Arbeitsbereiche einzuschränken, in denen Benutzer eine Verbindung zu diesem Datensatztyp herstellen können. Erweitern Sie dann das Dropdown-Menü und wählen Sie die Arbeitsbereiche aus, in denen Benutzer eine Verbindung zu diesem Datensatztyp herstellen sollen. Sie können mit der Eingabe des Namens eines Arbeitsbereichs beginnen und ihn auswählen, wenn er in der Liste angezeigt wird.
+   * Aktivieren Sie die Einstellung **Verbindung von anderem Arbeitsbereich herstellen**. Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus verbunden werden.
+   * Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
+
+      * **Systemweit**: Benutzer können von allen Arbeitsbereichen, in denen sie Berechtigungen verwalten, aus eine Verbindung zu diesem Datensatztyp herstellen.
+      * **Spezifische Arbeitsbereiche**: Fügen Sie die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
 
 1. Klicken Sie auf **Speichern**.
 

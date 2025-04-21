@@ -6,9 +6,9 @@ role: User, Admin
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: ed1c4954-b338-4865-a7a9-5ba0192e7b37
-source-git-commit: 6d9583f8a0e1e0c3712c8a47d68c5d5d321679f9
+source-git-commit: c0a7603ed461d903f4d0b0f6788c17d58f20c328
 workflow-type: tm+mt
-source-wordcount: '993'
+source-wordcount: '1098'
 ht-degree: 2%
 
 ---
@@ -88,7 +88,7 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
    <p>Systemadministratoren haben Berechtigungen für alle Arbeitsbereiche, einschließlich der nicht erstellten</p>  </td> 
   </tr> 
 <tr> 
-   <td role="rowheader"><p>Layoutvorlage</p></td> 
+   <td role="rowheader"><p>Layout-Vorlage</p></td> 
    <td> <p>Allen Benutzern, einschließlich Workfront-Administratoren, muss eine Layoutvorlage zugewiesen werden, die den Bereich Planung im Hauptmenü enthält. </p> </td> 
   </tr> 
 </tbody> 
@@ -146,20 +146,30 @@ Informationen darüber, welche Datensatztypen in den einzelnen Vorlagen enthalte
 
    Erweitern Sie in einem Arbeitsbereich den nach unten zeigenden Pfeil rechts neben einem vorhandenen Arbeitsbereichsnamen, suchen Sie nach einem Arbeitsbereich und wählen Sie ihn aus, wenn er in der Liste angezeigt wird.
 1. (Optional) Klicken Sie auf **Abschnitt hinzufügen**, um einen neuen Abschnitt zum Arbeitsbereich hinzuzufügen.
-1. Klicken Sie **Datensatztyp hinzufügen** und dann auf **Neu**.
+1. Klicken Sie **Datensatztyp hinzufügen** und dann **Manuell hinzufügen**.
 
    Das Feld Datensatztyp hinzufügen wird geöffnet.
    <!--1. (Conditional) When creating record types by importing an Excel or CSV file is enabled, click **From scratch**. Otherwise, the **Add record type** box opens. -->
 
    ![Feld für Datensatztyp mit Darstellungsoptionen hinzufügen](assets/add-record-type-box-with-appearance-options.png)
 
-1. Aktualisieren Sie die folgenden Informationen:
+1. Aktualisieren Sie die folgenden Informationen auf der Registerkarte **Erscheinungsbild**:
 
    * Ersetzen Sie „Unbenannter Datensatztyp“ durch den Namen Ihres zukünftigen Datensatztyps. <!--did they bring back the field label here and did they rename it to "Name"-->
    * **Beschreibung**: Fügen Sie weitere Informationen über den Datensatztyp hinzu.
    * Wählen Sie eine Farbe und eine Form für das Symbol aus, das mit dem Datensatztyp verknüpft ist. Gehen Sie folgendermaßen vor:
       * Farbe zur Identifizierung des neuen Datensatztyps auswählen. Dies ist die Farbe des Symbols für den Datensatztyp. Grau ist standardmäßig ausgewählt.
       * Wählen Sie ein Symbol aus der Liste aus oder geben Sie den Namen eines Symbols ein, um zu beschreiben, was es darstellt, und wählen Sie es dann aus, wenn es angezeigt wird. Dies ist das Symbol des Datensatztyps. Standardmäßig ist ein Dateisymbol ausgewählt.
+
+1. (Optional und bedingt) Wenn Sie Systemadministrator sind, klicken Sie auf **Erweiterte Einstellungen** und aktualisieren Sie die folgenden Informationen im Abschnitt **Konnektivitätsbereich**: <!--the info here is duplicated in the Edit record types article-->
+
+   * Aktivieren Sie die Einstellung **Verbindung von anderem Arbeitsbereich herstellen**. Wenn diese Option aktiviert ist, ist der Datensatztyp verfügbar und kann von anderen Arbeitsbereichen aus verbunden werden.
+   * Wählen Sie aus, aus welchen Arbeitsbereichen auf den Datensatztyp zugegriffen werden kann. Wählen Sie aus den folgenden Optionen:
+
+      * **Systemweit**: Benutzer können von allen Arbeitsbereichen, in denen sie Berechtigungen verwalten, aus eine Verbindung zu diesem Datensatztyp herstellen.
+      * **Spezifische Arbeitsbereiche**: Fügen Sie die Namen der Arbeitsbereiche hinzu, über die sich Workspace-Manager mit diesem Datensatztyp verbinden können.
+
+   ![Feld „Datensatztyp erstellen“ auf der Registerkarte „Erweiterte Einstellungen“](assets/create-record-type-box-advanced-settings-tab.png)
 
 1. Klicken Sie auf **Erstellen**.
 
