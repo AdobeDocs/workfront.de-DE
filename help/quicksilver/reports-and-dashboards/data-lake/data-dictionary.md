@@ -7,9 +7,9 @@ description: Diese Seite enthält Informationen zur Struktur und zum Inhalt der 
 author: Nolan
 feature: Reports and Dashboards
 exl-id: 57985404-554e-4289-b871-b02d3427aa5c
-source-git-commit: 8aa03e16daa7c82342741b3db7b805941508c896
+source-git-commit: 44342db0a473eac70212d08cedf9ac0f571cda0b
 workflow-type: tm+mt
-source-wordcount: '7843'
+source-wordcount: '8129'
 ht-degree: 7%
 
 ---
@@ -1894,6 +1894,235 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
     </tbody>
 </table>
 
+### Dokumentengenehmigung (NEU)
+
+Eingeschränkte Kundenverfügbarkeit
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront-Entitätsname</th>
+            <th>Schnittstellenverweise</th>
+            <th>API-Referenz</th>
+            <th>API-Kennzeichnung</th>
+            <th>Data Lake-Ansichten</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dokumentengenehmigung</td>
+            <td>Genehmigung</td>
+            <td>K. A.</td>
+            <td>K. A.</td>
+            <td>APPROVAL_CURRENT<br>APPROVAL_DAILY_HISTORY<br>APPROVAL_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primärer/Fremdschlüssel</th>
+            <th>Typ</th>
+            <th>Verwandte Tabelle</th>
+            <th>Verwandtes Feld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">VALIDIEREN</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>HINWEIS: Dies ist auch die ID des DOCUMENTVERSION-Objekts, mit dem die Genehmigung verknüpft ist.</td>
+        </tr>
+        <tr>
+             <td class="key">ASSET-ID</td>
+             <td>FK</td>
+             <td>Variable, basierend auf ASSETTYPE</td>
+             <td>Der Primärschlüssel/die ID des im Feld ASSETTYPE identifizierten Objekts</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+        <tr>
+             <td class="key">EAUTHTENANTID</td>
+             <td>-</td>
+             <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
+        </tr>
+        <tr>
+             <td class="key">PRODUCTID</td>
+             <td>-</td>
+             <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
+        </tr>
+        <tr>
+             <td class="key">REALCREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+    </tbody>
+</table>
+
+### Dokumentengenehmigungsphase (NEU)
+
+Eingeschränkte Kundenverfügbarkeit
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront-Entitätsname</th>
+            <th>Schnittstellenverweise</th>
+            <th>API-Referenz</th>
+            <th>API-Kennzeichnung</th>
+            <th>Data Lake-Ansichten</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Dokumentengenehmigungsphase</td>
+            <td>Genehmigungsphase</td>
+            <td>K. A.</td>
+            <td>K. A.</td>
+            <td>APPROVAL_STAGE_CURRENT<br>APPROVAL_STAGE_DAILY_HISTORY<br>APPROVAL_STAGE_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primärer/Fremdschlüssel</th>
+            <th>Typ</th>
+            <th>Verwandte Tabelle</th>
+            <th>Verwandtes Feld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">VALIDIEREN</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>VALIDIEREN</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEID</td>
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">CREATORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variable, basierend auf OBJCODE</td>
+             <td>Der Primärschlüssel/die ID des im Feld OBJCODE identifizierten Objekts</td>
+        </tr>
+    </tbody>
+</table>
+
+### Teilnehmer an der Dokumentengenehmigungsphase (NEU)
+
+Eingeschränkte Kundenverfügbarkeit
+
+<table>
+    <thead>
+        <tr>
+            <th>Workfront-Entitätsname</th>
+            <th>Schnittstellenverweise</th>
+            <th>API-Referenz</th>
+            <th>API-Kennzeichnung</th>
+            <th>Data Lake-Ansichten</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+            <td>Teilnehmerin oder Teilnehmer der Dokumentengenehmigungsphase</td>
+            <td>Genehmigungsentscheidungen</td>
+            <td>K. A.</td>
+            <td>K. A.</td>
+            <td>APPROVAL_STAGE_PARTICIPANT_CURRENT<br>APPROVAL_STAGE_PARTICIPANT_DAILY_HISTORY<br>APPROVAL_STAGE_PARTICIPANT_EVENT</td>
+        </tr>
+      </tbody>
+</table>
+<table>
+    <thead>
+        <tr>
+            <th>Primärer/Fremdschlüssel</th>
+            <th>Typ</th>
+            <th>Verwandte Tabelle</th>
+            <th>Verwandtes Feld</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+             <td class="key">VALIDIEREN</td>
+             <td>FK</td>
+             <td>APPROVAL_CURRENT</td>
+             <td>VALIDIEREN</td>
+        </tr>
+        <tr>
+             <td class="key">APPROVALSTAGEPARTICIPANTID/td&gt;
+             <td>PK</td>
+             <td>-</td>
+             <td>-</td>
+        </tr>
+        <tr>
+             <td class="key">ASSET-ID</td>
+             <td>FK</td>
+             <td>Variable, basierend auf ASSETTYPE</td>
+             <td>Der Primärschlüssel/die ID des im Feld ASSETTYPE identifizierten Objekts</td>
+        </tr>
+        <tr>
+             <td class="key">DECISIONUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+        <tr>
+             <td class="key">OBJID</td>
+             <td class="type">FK</td>
+             <td class="relatedtable">Variable, basierend auf OBJCODE</td>
+             <td>Der Primärschlüssel/die ID des im Feld OBJCODE identifizierten Objekts</td>
+        </tr>
+        <tr>
+             <td class="key">PARTICIPANTID</td>
+             <td>FK</td>
+             <td class="relatedtable">Variable, basierend auf PARTICIPANTTYPE</td>
+             <td>Der Primärschlüssel/die ID des im Feld PARTICIPANTTYPE identifizierten Objekts</td>
+        </tr>
+        <tr>
+             <td class="key">REALREQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+        <tr>
+             <td class="key">REALUSERID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+        <tr>
+             <td class="key">REQUESTORID</td>
+             <td>FK</td>
+             <td>USERS_CURRENT</td>
+             <td>BENUTZER-ID</td>
+        </tr>
+        <tr>
+             <td class="key">STAGEID</td>
+             <td>FK</td>
+             <td>APPROVAL_STAGE_CURRENT</td>
+             <td>STAGEID</td>
+        </tr>
+    </tbody>
+</table>
+
 ### Dokumentenordner
 
 <table>
@@ -2190,7 +2419,7 @@ In der folgenden Tabelle werden die Objektnamen in Workfront (sowie deren Namen 
             <th>Primärer/Fremdschlüssel</th>
             <th>Typ</th>
             <th>Verwandte Tabelle</th>
-            <th>Verwandte Feld</th>
+            <th>Verwandtes Feld</th>
         </tr>
     </thead>
     <tbody>
@@ -3370,21 +3599,21 @@ Selbst</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">Keine Beziehung; für interne Applikation Zwecke verwendet werden</td>
+             <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
     </tbody>
 </table>
 
-### Nicht geschäftliche Tag
+### arbeitsfreier Tag
 
 <table>
     <thead>
         <tr>
-            <th>Name der Workfront-Entität</th>
+            <th>Workfront-Entitätsname</th>
             <th>Schnittstellenverweise</th>
             <th>API-Referenz</th>
-            <th>API-Kennzeichnen</th>
-            <th>Daten Seeblick</th>
+            <th>API-Kennzeichnung</th>
+            <th>Data Lake-Ansichten</th>
         </tr>
       </thead>
       <tbody>
@@ -3393,14 +3622,14 @@ Selbst</td>
             <td>Zeitplanausnahme</td>
             <td>NONWKD</td>
             <td>Arbeitsfreier Tag</td>
-            <td><br>NONWORKDAYS_CURRENT NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
+            <td>NONWORKDAYS_CURRENT<br>NONWORKDAYS_DAILY_HISTORY<br>NONWORKDAYS_EVENT</td>
         </tr>
       </tbody>
 </table>
 <table>
     <thead>
         <tr>
-            <th>Primär-/Fremdschlüssel</th>
+            <th>Primärer/Fremdschlüssel</th>
             <th>Typ</th>
             <th>Verwandte Tabelle</th>
             <th>Verwandtes Feld</th>
@@ -3812,7 +4041,7 @@ Selbst</td>
              <td>APPROVALPROCESSID</td>
         </tr>
         <tr>
-             <td>ZUGEWIESEN</td>
+             <td>ASSIGNEDTOID</td>
              <td>FK</td>
              <td>USERS_CURRENT</td>
              <td>BENUTZER-ID</td>
@@ -4989,7 +5218,7 @@ Selbst</td>
         <tr>
              <td>SYSID</td>
              <td>-</td>
-             <td colspan="2">Keine Beziehung; für interne Applikation Zwecke verwendet werden</td>
+             <td colspan="2">Keine Beziehung; wird für interne Anwendungszwecke verwendet</td>
         </tr>
         <tr>
              <td>BENUTZER-ID</td>
@@ -6124,7 +6353,7 @@ Selbst</td>
 <table>
     <thead>
         <tr>
-            <th>Primär-/Fremdschlüssel</th>
+            <th>Primärer/Fremdschlüssel</th>
             <th>Typ</th>
             <th>Verwandte Tabelle</th>
             <th>Verwandtes Feld</th>
@@ -7717,18 +7946,18 @@ Eingeschränkte Kundenverfügbarkeit
       </thead>
       <tbody>
         <tr>
-            <td>Benutzer Speicherort</td>
-            <td>Benutzer Speicherort</td>
+            <td>Benutzerstandort</td>
+            <td>Benutzerstandort</td>
             <td>USRLOC</td>
             <td>Benutzerstandort</td>
-            <td><br>USERLOCATIONS_CURRENT USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
+            <td>USERLOCATIONS_CURRENT<br>USERLOCATIONS_DAILY_HISTORY<br>USERLOCATIONS_EVENT</td>
         </tr>
       </tbody>
 </table>
 <table>
     <thead>
         <tr>
-            <th>Primär-/Fremdschlüssel</th>
+            <th>Primärer/Fremdschlüssel</th>
             <th>Typ</th>
             <th>Verwandte Tabelle</th>
             <th>Verwandtes Feld</th>

@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 3761217587419fa8b7ff42e425cc277ee36fe957
+source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
 workflow-type: tm+mt
-source-wordcount: '1817'
+source-wordcount: '1911'
 ht-degree: 0%
 
 ---
@@ -21,6 +21,19 @@ Auf dieser Seite finden Sie Aktualisierungen der Benutzeroberfläche, die wir in
 >In den meisten Fällen wird jedes Update zuerst in der Vorschau-Umgebung veröffentlicht und dann inkrementell in der Produktionsumgebung für eine wachsende Teilmenge von Kunden aktiviert, beginnend mit dem aufgelisteten Produktionsveröffentlichungsdatum.
 
 Informationen zu allen anderen Änderungen an Adobe Workfront finden Sie [Produktversionen](/help/quicksilver/product-announcements/product-releases/product-releases.md).
+
+## Navigation und Suche in Workfront
+
+### Aktualisierung der Benutzeroberfläche für die erweiterte Suche
+
+**Vorschau-Version: 17. April; Produktionsversion: wird noch bekannt gegeben**
+
+Der Bereich Erweiterte Suche wurde durch folgende Änderungen aktualisiert:
+
+* Es wurde eine neue Registerkarte Vollständige Suche hinzugefügt. Auf dieser Registerkarte können Sie nach Typ, Eingabedatum, Eingabedatum, Kategorie und zuletzt aktualisiert von suchen.
+* Der Filter auf der Registerkarte Erweiterte Suche unterscheidet sich geringfügig. Jetzt ist der Filter nicht vorausgefüllt. Sie müssen ihn aktivieren und den Filter von Grund auf neu erstellen. Der Filter bleibt beim Aktualisieren der Seite nicht erhalten.
+
+Weitere Informationen finden Sie unter [Suche [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
 
 ## Administration und Einrichtung
 
