@@ -6,7 +6,7 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '1579'
 ht-degree: 2%
@@ -159,7 +159,7 @@ Weitere Informationen zum Anzeigen geerbter Berechtigungen für ein Objekt finde
    * **Nur eingeladene Personen können darauf zugreifen:** Nur Benutzer, die zum Projekt eingeladen sind, können darauf zugreifen (Standard).
    * **Alle im System können anzeigen**: Alle Benutzer im System können das Projekt ohne Einladung anzeigen.
 
-1. (Optional) Um die von Ihnen ausgewählten Projektzugriffseinstellungen automatisch auf alle neuen Projekte anzuwenden, klicken Sie auf das **Zahnradsymbol** ![Zahnradsymbol auswählen](assets/gear-icon.png) und aktivieren Sie dann das Kontrollkästchen Inline mit **Als meine Projektzugriffsvorlage festlegen**.
+1. (Optional) Um die von Ihnen ausgewählten Projektzugriffseinstellungen automatisch auf alle neuen Projekte anzuwenden, klicken Sie auf das **Zahnradsymbol** ![Zahnradsymbol auswählen](assets/gear-icon.png) und aktivieren Sie dann das Kontrollkästchen inline mit **Als meine Projektzugriffsvorlage festlegen**.
 
    >[!NOTE]
    >

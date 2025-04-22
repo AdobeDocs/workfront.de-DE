@@ -6,7 +6,7 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen Zugriff zum Anzeigen o
 author: Courtney
 feature: Get Started with Workfront
 exl-id: 45da15cb-8880-41f7-a0de-939882c1f154
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '1201'
 ht-degree: 1%
@@ -126,7 +126,7 @@ Sie können eine Aufgabe wie folgt freigeben:
 
    ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-permission-options.png)
 
-1. (Optional) Um geerbte Berechtigungen für die untergeordneten Objekte der Aufgabe zu deaktivieren, klicken Sie auf **Deaktivieren** Inline mit **Geerbte Berechtigungen**.
+1. (Optional) Um geerbte Berechtigungen für die untergeordneten Objekte der Aufgabe zu deaktivieren, klicken Sie auf **Deaktivieren** inline mit **Geerbte Berechtigungen**.
 
 1. (Optional) Um die Aufgabe mithilfe eines Links schnell freizugeben, klicken Sie auf **Link kopieren** und leiten Sie sie dann an den Empfänger weiter.
 

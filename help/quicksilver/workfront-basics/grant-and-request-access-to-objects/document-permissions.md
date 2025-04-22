@@ -7,9 +7,9 @@ description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum 
 author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
-source-wordcount: '1025'
+source-wordcount: '1247'
 ht-degree: 1%
 
 ---
@@ -123,19 +123,52 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen des Benutzers und wählen Sie seine Berechtigungsstufe für dieses Dokument aus:
 
    * **Anzeigen**: Der Benutzer kann das Dokument überprüfen und freigeben.
-   * **Verwalten**: Der Benutzer hat vollen Zugriff auf das Programm ohne Administratorrechte, die auf Zugriffsebene gewährt werden (umfasst auch alle Anzeigeberechtigungen).
+   * **Verwalten**: Der Benutzer hat vollen Zugriff auf das Dokument ohne Administratorrechte, die auf Zugriffsebene gewährt werden (umfasst auch alle Anzeigeberechtigungen).
 
-1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für das Programm zu konfigurieren.
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für das Dokument zu konfigurieren.
 
    ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-options-icon.png)
 
-1. (Optional) Um geerbte Berechtigungen für die untergeordneten Objekte des Dokuments zu deaktivieren, klicken Sie auf **Deaktivieren** Inline mit **Geerbte Berechtigungen**.
+1. (Optional) Um geerbte Berechtigungen für die untergeordneten Objekte des Dokuments zu deaktivieren, klicken Sie auf **Deaktivieren** inline mit **Geerbte Berechtigungen**.
 
 1. (Bedingt) Um den öffentlichen Link zu kopieren, über den Sie das Dokument für externe Benutzer freigeben können, klicken Sie auf **Öffentlichen Link kopieren**.
 
    >[!CAUTION]
    >
    >Es wird empfohlen, beim Freigeben eines Dokuments mit vertraulichen Informationen an externe Benutzer Vorsicht walten zu lassen. Auf diese Weise können sie Informationen anzeigen, ohne ein Workfront-Benutzer oder Teil Ihres Unternehmens zu sein.
+
+1. Klicken Sie auf **Speichern**.
+
+## Dokumente in Massen freigeben
+
+{{step1-to-documents}}
+
+1. Halten Sie auf der Registerkarte **Alle Dokumente** auf der Seite **Dokumente** die **Befehl** (Mac) oder **Strg** (Windows) gedrückt und klicken Sie auf jedes Dokument, das Sie freigeben möchten.
+
+1. Klicken Sie oben auf der Seite auf das Symbol **Freigeben** (Symbol ![Freigeben](assets/share-icon.png). Das Modal „Freigeben“ wird geöffnet.
+
+   ![Freigabesymbol](assets/share-documents-in-bulk.png)
+
+1. Beginnen Sie im Feld **Dokumentzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie die Dokumente freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+
+   >[!TIP]
+   >
+   >Sie können Dokumente nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
+
+
+1. (Optional) Wählen Sie die **Wer hat Zugriff** und wählen Sie die Zugriffsebene der Dokumente aus:
+
+   * **Nur eingeladene Personen können darauf zugreifen:** Nur Benutzer, die zu den Dokumenten eingeladen sind, können darauf zugreifen (Standard).
+   * **Alle im System können anzeigen**: Alle Benutzer im System können die Dokumente ohne Einladung anzeigen.
+
+1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen des Benutzers und wählen Sie seine Berechtigungsstufe für die Dokumente aus:
+
+   * **Anzeigen**: Der Benutzer kann die Dokumente überprüfen und freigeben.
+   * **Verwalten**: Der Benutzer hat vollen Zugriff auf die Dokumente ohne Administratorrechte, die auf Zugriffsebene gewährt werden (umfasst auch alle Anzeigeberechtigungen).
+
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für die Dokumente zu konfigurieren.
+
+   ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-options-icon.png)
 
 1. Klicken Sie auf **Speichern**.
 

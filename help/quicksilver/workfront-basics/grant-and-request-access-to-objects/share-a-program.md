@@ -7,7 +7,7 @@ description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihre
 author: Courtney
 feature: Get Started with Workfront
 exl-id: bfa6ce97-24ad-44b3-9c2f-7fac6b748f94
-source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
+source-git-commit: eb4bf18407562b88bf0c946c905b202e5b62a5fe
 workflow-type: tm+mt
 source-wordcount: '914'
 ht-degree: 0%
@@ -114,7 +114,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
    ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-options-icon.png)
 
-1. (Optional) Um geerbte Berechtigungen für die untergeordneten Objekte des Programms zu deaktivieren, klicken Sie auf **Deaktivieren** Inline mit **Geerbte Berechtigungen**.
+1. (Optional) Um geerbte Berechtigungen für die untergeordneten Objekte des Programms zu deaktivieren, klicken Sie auf **Deaktivieren** inline mit **Geerbte Berechtigungen**.
 
 1. (Optional) Um das Programm mithilfe eines Links schnell freizugeben, klicken Sie auf **Link kopieren** und leiten Sie es dann an den Empfänger weiter.
 
