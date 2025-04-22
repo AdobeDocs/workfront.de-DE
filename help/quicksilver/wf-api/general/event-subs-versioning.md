@@ -7,9 +7,9 @@ author: Becky
 feature: Workfront API
 role: Developer
 exl-id: 151b9d0d-0dd6-4ece-9601-dda04356b436
-source-git-commit: cdd7c0ef619e4cb75be82ba936f07bc3ce6dc745
+source-git-commit: 82694183c32938905f1f8542c430d3c453274cb6
 workflow-type: tm+mt
-source-wordcount: '1252'
+source-wordcount: '1118'
 ht-degree: 0%
 
 ---
@@ -60,14 +60,14 @@ Die folgenden Änderungen wurden für Ereignisabonnements Version 2 vorgenommen:
   <tr> 
    <td> <p>Parameterwerte</p> </td> 
    <td> <p>Für alle Objekte, die aus einer Vorlage erstellt wurden, die ein benutzerdefiniertes Formular enthielt, wurde ein <code>CREATE</code> gesendet. Anschließend wurde ein <code>UPDATE</code> mit den Parameterwerten (einschließlich berechneter Felder und ihrer Werte) gesendet.    </p> </td> 
-   <td> <p>Es wird nur ein <code>CREATE</code> gesendet, das Parameterwerte einschließlich berechneter Felder enthält.</p> </td> 
-   <td> <p>Wenn Sie über einen Filter für <code>UPDATE</code>-Ereignisse mit Parameterwerten (einschließlich berechneter benutzerdefinierter Felder) verfügen und erwarten, dass Sie ihn nach einem Objekt <code>CREATE</code> Ereignis empfangen, das Parameterwerte enthält, erhalten Sie dieses <code>UPDATE</code> Ereignis nicht mehr. Wenn Sie Parameterwerte bei der Objekterstellung sehen möchten, müssen Sie ein zusätzliches <code>CREATE</code> erstellen.</p> </td> 
+   <td> <p>Wenn ein Objekt aus einer Vorlage erstellt wird, die ein benutzerdefiniertes Formular mit berechneten Parameterwerten enthält, wird nur ein <code>CREATE</code> gesendet, das Parameterwerte einschließlich berechneter Felder enthält.</p> </td> 
+   <td> <p>Wenn Sie über ein Abonnement für verfügen <tr><ul><ul><code>UPDATE<code> events and are expecting to receive an <code>UPDATE</code> event after an object is created with calculated parameter values, you will no longer receive that <code>UPDATE</code> event. If you wish to see calculated parameter values on object creation, you must create an additional <code>CREATE</code> subscription.</p> </td> 
   </tr> 
-  <tr> 
-   <td> <p>Felder vom Typ „Mehrfachauswahl“</p> </td> 
-   <td> <p>Für jeden Ereignistyp, der eine Änderung an einem Feld vom Typ Mehrfachauswahl enthält, würde das Feld, wenn es nur einen Wert enthält, in konvertiert und als Zeichenfolge gesendet. Andernfalls wird es als Array gesendet. </p><p>Beispiele:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> wird konvertiert und als <code>myMultiSelectField: "oneValue"</code> gesendet.</li><li><code>myMultiSelectField: ["first", "second"]</code> wird als <code>myMultiSelectField: ["first", "second"]</code> gesendet.</li></ul> </td> 
-   <td> <p>Unabhängig davon, wie viele Werte sich im Array befinden, wird es als Array gesendet. </p><p>Beispiele:</p><ul><li><code>myMultiSelectField: ["oneValue"]</code> wird als <code>myMultiSelectField: ["oneValue"]</code> gesendet.</li><li><code>myMultiSelectField: ["first", "second"]</code> wird als <code>myMultiSelectField: ["first", "second"]</code> gesendet.</li></ul> </td> 
-   <td> <p>Wenn Sie über ein Abonnement mit einem Filter für ein Mehrfachauswahlfeld verfügen und den Wert als Zeichenfolge haben, müssen Sie ein neues Abonnement mit demselben Filter erstellen, der den Wert als Array hat. </p> </td> 
+   
+   <td> <p>Multi-Select type fields</p> </td> 
+   <td> <p>For any type of event that contains a change on a multi-select type field, if the field only contained one value it would be converted to and sent as a string. Otherwise it would be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is converted and sent as <code>myMultiSelectField: "oneValue"</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>Regardless of how many values are in the array, it will be sent as an array. </p><p>Examples:</p><li><code>myMultiSelectField: ["oneValue"]</code> is sent as <code>myMultiSelectField: ["oneValue"]</code>.</li><li><code>myMultiSelectField: ["first", "second"]</code> is sent as <code>myMultiSelectField: ["first", "second"]</code>.</li></ul> </td> 
+   <td> <p>If you have a subscription with a filter on a multi-select field, and the value as a string, you must create a new subscription with the same filter that has the value as an array. </p> </td> 
   </tr> 
  </tbody> 
 </table>
