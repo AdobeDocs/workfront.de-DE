@@ -1,19 +1,19 @@
 ---
-title: Freigeben eines Projekts in Adobe Workfront
+title: Freigeben eines Projekts
 product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 description: Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebene Zugriff zum Anzeigen oder Bearbeiten von Projekten gewähren. Weitere Informationen finden Sie unter Gewähren des Zugriffs auf Projekte.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: eaeedff8-9114-40d9-8cd4-56996edc7dad
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '990'
+source-wordcount: '1579'
 ht-degree: 2%
 
 ---
 
-# Freigeben eines Projekts in Adobe Workfront
+# Freigeben eines Projekts
 
 <!-- Audited: 1/2024 -->
 
@@ -22,6 +22,43 @@ Ihr Adobe Workfront-Administrator kann Ihnen bei der Zuweisung Ihrer Zugriffsebe
 Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Berechtigungen zum Anzeigen, Mitwirken oder Verwalten bestimmter Projekte erteilen, auf die Sie Zugriff haben, um sie freizugeben.
 
 Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen man für dieses Element ausführen kann.
+
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über Folgendes verfügen, um Objekte freizugeben:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard</p> 
+   Oder
+   <p>Aktuell: Arbeit oder höher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Ansichtszugriff oder höher auf die Objekte, die Sie freigeben möchten</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Berechtigung zum Anzeigen oder höher für die Objekte, die Sie freigeben möchten</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zur Freigabe von Projekten
 
@@ -46,6 +83,13 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 * Sie können geerbte Berechtigungen aus einem Projekt entfernen, sodass die untergeordneten Objekte sie nicht erben. Weitere Informationen zum Entfernen geerbter Berechtigungen aus Objekten finden Sie unter [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md).
 
+## Einschränkungen für verschiedene Lizenztypen
+
+* Benutzer mit einer Worker-Lizenz sind nicht berechtigt, Projekte zu verwalten. Für Worker lautet die höchste Freigabeberechtigung Beitragen .
+* Benutzer mit einer Anfragelizenz können Projektinformationen anzeigen, haben jedoch eingeschränkten Projektzugriff.
+* Eine Ausnahme vom Ändern des Status eines Projekts tritt auf, wenn ein Benutzer mit der Berechtigung Anzeigen oder Beitragen auch in einen Genehmigungsprozess eingeschlossen wird. Sie können das Projekt genehmigen, was den Status des Projekts ändert, aber der Status ist der vordefinierte Status für die Genehmigung oder Ablehnung.
+* Um ein Projekt kopieren zu können, muss ein Benutzer auch Zugriff zum Erstellen von Projekten auf seiner Zugriffsebene haben.
+
 ## Möglichkeiten zum Freigeben eines Projekts {#ways-to-share-a-project}
 
 Sie können ein Projekt wie folgt freigeben:
@@ -53,25 +97,18 @@ Sie können ein Projekt wie folgt freigeben:
 * Führen Sie dazu manuell einen der folgenden Schritte aus:
 
    * Hinzufügen von Benutzern zum Projektteam. Wenn Sie Benutzer zum Projekt-Team hinzufügen, erhalten diese automatisch Ansichtsberechtigungen für das Projekt.\
-     Weitere Informationen zum Hinzufügen von Benutzern zu einem Projektteam finden Sie im Abschnitt „Hinzufügen von Benutzern zu einem Projektteam“ in [Übersicht über das Projektteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
+     Weitere Informationen zum Hinzufügen von Benutzern zu einem Projektteam finden Sie im Abschnitt Hinzufügen von Benutzern zu einem Projektteam in [Übersicht über das Projektteam](../../manage-work/projects/planning-a-project/project-team-overview.md).
    * Einzeln oder für die Massenfreigabe der Projekte bei Verwendung der Option **Freigabe**.
 
-     Die Freigabe eines Projekts ähnelt der Freigabe aller anderen Objekte in Adobe Workfront.
-
-     Informationen zum Freigeben von Objekten in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
-
-* Führen Sie automatisch einen der folgenden Schritte aus:
+* Automatisch durch eine der folgenden Aktionen:
 
    * Platzieren Sie ein Projekt in einem **Portfolio** oder **Program**, das bereits für andere freigegeben ist. Benutzer erhalten für das Projekt dieselben Berechtigungen wie für das Portfolio oder Programm.\
      Informationen zum Hinzufügen eines Projekts zu einer **Portfolio** finden Sie unter [Hinzufügen von Projekten zu einem Portfolio](../../manage-work/portfolios/create-and-manage-portfolios/add-projects-to-portfolios.md).\
      Informationen zum Hinzufügen eines Projekts zu einem **Programm** finden Sie unter [Hinzufügen eines Projekts zu einem Programm](../../manage-work/portfolios/create-and-manage-programs/add-project-to-program.md).
-
-     Weitere Informationen zum Anzeigen geerbter Berechtigungen für ein Objekt finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
+Weitere Informationen zum Anzeigen geerbter Berechtigungen für ein Objekt finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
 
    * Entitäten zur Projektfreigabe einer Vorlage hinzufügen, mit der das Projekt erstellt wurde. Informationen zum Freigeben von Projekten aus Vorlagen finden Sie unter [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md).
    * Definieren Sie die Projektzugriffsvorlage.
-
-     Informationen zum Definieren der Projektzugriffsvorlage finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 
      >[!TIP]
      >
@@ -100,12 +137,87 @@ Sie können ein Projekt wie folgt freigeben:
 </ol>
 -->
 
-## Einschränkungen für verschiedene Lizenztypen
+## Freigeben eines Projekts
 
-* Benutzer mit einer Worker-Lizenz sind nicht berechtigt, Projekte zu verwalten. Für Worker lautet die höchste Freigabeberechtigung Beitragen .
-* Benutzer mit einer Anfragelizenz können Projektinformationen anzeigen, haben jedoch eingeschränkten Projektzugriff.
-* Eine Ausnahme vom Ändern des Status eines Projekts tritt auf, wenn ein Benutzer mit der Berechtigung Anzeigen oder Beitragen auch in einen Genehmigungsprozess eingeschlossen wird. Sie können das Projekt genehmigen, was den Status des Projekts ändert, aber der Status ist der vordefinierte Status für die Genehmigung oder Ablehnung.
-* Um ein Projekt kopieren zu können, muss ein Benutzer auch Zugriff zum Erstellen von Projekten auf seiner Zugriffsebene haben.
+{{step1-to-projects}}
+
+1. Wählen **auf der** „Projekte“ das Projekt aus, das Sie freigeben möchten. Die Projektseite wird geöffnet.
+
+1. Klicken Sie rechts neben dem Projektnamen auf &quot;**&quot;**. Das **Freigeben [Projektname]** wird geöffnet.
+
+   ![Schaltfläche „Projekt freigeben“](assets/share-project.png)
+
+1. Beginnen Sie im Feld **Projektzugriff erteilen auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie das Projekt freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+
+   >[!TIP]
+   >
+   >Sie können ein Projekt nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
+
+
+1. (Optional) Wählen Sie die **Wer hat Zugriff** aus und wählen Sie die Zugriffsebene des Projekts aus:
+
+   * **Nur eingeladene Personen können darauf zugreifen:** Nur Benutzer, die zum Projekt eingeladen sind, können darauf zugreifen (Standard).
+   * **Alle im System können anzeigen**: Alle Benutzer im System können das Projekt ohne Einladung anzeigen.
+
+1. (Optional) Um die von Ihnen ausgewählten Projektzugriffseinstellungen automatisch auf alle neuen Projekte anzuwenden, klicken Sie auf das **Zahnradsymbol** ![Zahnradsymbol auswählen](assets/gear-icon.png) und aktivieren Sie dann das Kontrollkästchen Inline mit **Als meine Projektzugriffsvorlage festlegen**.
+
+   >[!NOTE]
+   >
+   >Die Projektzugriffsvorlage überschreibt die Freigabestandardwerte, die Ihnen vom Workfront-Administrator auf Ihrer Zugriffsebene gewährt wurden.\
+   >Weitere Informationen zum Angeben von Freigabestandardwerten für Projekte in der Zugriffsebene finden Sie unter [Gewähren von Zugriff auf Projekte](../../administration-and-setup/add-users/configure-and-grant-access/grant-access-projects.md)
+
+   <!--
+   >this note also appears in Understanding Project Permissions-->
+
+
+1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen des Benutzers und wählen Sie seine Berechtigungsstufe für dieses Projekt aus:
+
+
+   * **Anzeigen**: Der Benutzer kann das Projekt überprüfen und freigeben.
+   * **Beitragen**: Benutzende können Aktualisierungen vornehmen, Informationen protokollieren, kleinere Änderungen vornehmen und das Projekt freigeben (einschließlich aller Anzeigeberechtigungen).
+   * **Verwalten**: Der Benutzer hat vollen Zugriff auf das Projekt ohne Administratorrechte, die auf Zugriffsebene gewährt werden (umfasst auch alle Anzeigen- und Beitragsberechtigungen).
+
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für das Projekt zu konfigurieren.
+
+   ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-permission-options.png)
+
+1. (Optional) Um das Projekt schnell über einen Link freizugeben, klicken Sie auf **Link kopieren** und leiten Sie es dann an den Empfänger weiter.
+
+1. Klicken Sie auf **Speichern**.
+
+## Massenfreigabe von Projekten
+
+{{step1-to-projects}}
+
+1. Aktivieren **auf** Seite „Projekte“ das Kästchen links neben jedem Projekt, das Sie freigeben möchten, und klicken Sie dann oben auf der Seite **Freigeben**-Symbol ![Freigeben](assets/share-icon.png). Das Modal „Freigeben“ wird geöffnet.
+
+   ![Massenfreigabe von Projekten](assets/bulk-share-icon.png)
+
+1. Beginnen Sie im Feld **Projektzugriff erteilen an** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie die Projekte freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+
+   >[!TIP]
+   >
+   >Sie können Projekte nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
+
+
+1. (Optional) Wählen Sie die **Wer hat Zugriff** und wählen Sie die Zugriffsebene der Projekte:
+
+   * **Nur eingeladene Personen können darauf zugreifen:** Nur Benutzer, die zu den Projekten eingeladen sind, können darauf zugreifen (Standard).
+   * **Alle im System können anzeigen**: Alle Benutzer im System können die Projekte ohne Einladung anzeigen.
+
+
+1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen des Benutzers und wählen Sie seine Berechtigungsstufe für die Projekte aus:
+
+   * **Anzeigen**: Der Benutzer kann die Projekte überprüfen und freigeben.
+   * **Beitragen**: Benutzende können Aktualisierungen vornehmen, Informationen protokollieren, kleinere Änderungen vornehmen und die Projekte freigeben (einschließlich aller Anzeigeberechtigungen).
+   * **Verwalten**: Der Benutzer hat vollen Zugriff auf die Projekte ohne Administratorrechte, die auf Zugriffsebene gewährt werden (umfasst auch alle Anzeigen- und Beitragsberechtigungen).
+
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für die Projekte zu konfigurieren.
+
+   ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-permission-options.png)
+
+1. Klicken Sie auf **Speichern**.
+
 
 <!--
 <div data-mc-conditions="QuicksilverOrClassic.Draft mode">

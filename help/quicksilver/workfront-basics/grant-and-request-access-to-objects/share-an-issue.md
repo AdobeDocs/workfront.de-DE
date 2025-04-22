@@ -3,12 +3,12 @@ product-area: projects
 navigation-topic: grant-and-request-access-to-objects
 title: Problem freigeben
 description: Ihr Adobe Workfront-Administrator gewährt Benutzern Zugriff zum Anzeigen oder Bearbeiten von Problemen, wenn sie Zugriffsebenen zuweisen. Weitere Informationen zum Gewähren des Zugriffs auf Probleme finden Sie unter Gewähren des Zugriffs auf Probleme .
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: 91ee72e0-20a9-4b06-9f80-a343dd4fbe06
-source-git-commit: b8a2fea8c1eac376f49201dc840f7a4fcc67d759
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '1242'
 ht-degree: 2%
 
 ---
@@ -21,6 +21,43 @@ Neben der Zugriffsebene, die Benutzern gewährt wird, können Sie ihnen auch Ber
 
 Berechtigungen sind für ein Element in Workfront spezifisch und definieren, welche Aktionen man für dieses Element ausführen kann.
 
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über Folgendes verfügen, um Objekte freizugeben:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard</p> 
+   Oder
+   <p>Aktuell: Arbeit oder höher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Ansichtszugriff oder höher auf die Objekte, die Sie freigeben möchten</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Berechtigung zum Anzeigen oder höher für die Objekte, die Sie freigeben möchten</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
+
 ## Überlegungen zur Problemfreigabe
 
 Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informationen unter [Übersicht über Freigabeberechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/sharing-permissions-on-objects-overview.md).
@@ -29,7 +66,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 >
 >Ein Workfront-Administrator kann für alle Benutzenden Berechtigungen zu Elementen im System hinzufügen oder entfernen, ohne Besitzer dieser Elemente zu sein.
 
-* Der Ersteller eines Problems hat standardmäßig Verwaltungsberechtigungen dafür.
+* Der Ersteller eines Problems verfügt standardmäßig über Verwaltungsberechtigungen dafür.
 * Sie können Probleme einzeln oder in mehreren gemeinsam nutzen. Die Freigabe von Problemen ist mit der Freigabe anderer Elemente in Workfront identisch. Weitere Informationen zum Freigeben von Elementen in Workfront finden Sie unter [Freigeben eines Objekts](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
 * Sie können die folgenden Berechtigungen für ein Problem gewähren: 
 
@@ -45,7 +82,7 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 
 ## Möglichkeiten zum Freigeben eines Problems
 
-* Manuell, was der Freigabe jedes anderen Objekts in Workfront ähnelt. Weitere Informationen zum Freigeben von Objekten in Workfront finden Sie unter [Freigeben eines ](../../workfront-basics/grant-and-request-access-to-objects/share-an-object.md).
+* Manuell, was der Freigabe jedes anderen Objekts in Workfront ähnelt.
 * Führen Sie automatisch einen der folgenden Schritte aus:
 
    * Geben Sie die Berechtigungen für eines der übergeordneten Objekte des Problems an: Projekt, Programm oder Portfolio. Probleme erben die Berechtigungen von den übergeordneten Objekten. Weitere Informationen zum Anzeigen geerbter Berechtigungen für Objekte finden Sie unter [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md).
@@ -124,6 +161,73 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
 </ol>
 </div>
 -->
+
+## Problem freigeben
+
+1. Navigieren Sie zu dem Problem, das Sie freigeben möchten.
+
+1. Klicken Sie rechts neben dem Problemnamen auf &quot;**&quot;**. Das **Freigeben [Problemname]** wird geöffnet.
+
+   ![Schaltfläche „Problem freigeben“](assets/share-issue-button.png)
+
+1. Beginnen Sie im Feld **Problemzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie das Problem freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+
+   >[!TIP]
+   >
+   >Sie können ein Problem nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
+
+
+1. (Optional) Wählen Sie die **Wer hat Zugriff** aus und wählen Sie die Zugriffsebene des Problems aus:
+
+   * **Nur eingeladene Personen können darauf zugreifen:** Nur Benutzer, die zur Anfrage eingeladen sind, können darauf zugreifen (Standard).
+   * **Jeder im System kann anzeigen**: Alle Benutzer im System können das Problem ohne Einladung anzeigen.
+
+1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen des Benutzers und wählen Sie seine Berechtigungsstufe für dieses Problem aus:
+
+   * **Anzeigen**: Der Benutzer kann das Problem überprüfen und freigeben.
+   * **Beitragen**: Benutzende können Aktualisierungen vornehmen, Informationen protokollieren, kleinere Änderungen vornehmen und das Problem freigeben (umfasst auch alle Anzeigeberechtigungen).
+   * **Verwalten**: Der Benutzer hat vollen Zugriff auf das Problem ohne Administratorrechte, die auf Zugriffsebene gewährt werden (umfasst auch alle Anzeigen- und Beitragsberechtigungen).
+
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für das Problem zu konfigurieren.
+
+   ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-permission-options.png)
+
+1. (Optional) Um das Problem schnell über einen Link freizugeben, klicken Sie auf **Link kopieren** und leiten Sie es dann an den Empfänger weiter.
+
+1. Klicken Sie auf **Speichern**.
+
+## Probleme stapelweise freigeben
+
+1. Navigieren Sie zu dem Projekt, das die Probleme enthält, die Sie freigeben möchten.
+
+1. Wählen **auf der** „Probleme“ auf der Projektseite das Kästchen links neben jedem Problem aus, das Sie freigeben möchten, und klicken Sie dann oben auf der Seite auf **Freigeben**-Symbol ![Freigeben](assets/share-icon.png). Das Modal „Freigeben“ wird geöffnet.
+
+   ![Probleme mit der Massenfreigabe](assets/bulk-share-issues.png)
+
+1. Beginnen Sie im Feld **Problemzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie die Probleme freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+
+   >[!TIP]
+   >
+   >Sie können Probleme nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
+
+
+1. (Optional) Wählen Sie die **Wer hat Zugriff** aus und wählen Sie die Zugriffsebene der Probleme aus:
+
+   * **Nur eingeladene Personen können darauf zugreifen:** Nur Benutzer, die zu den Problemen eingeladen sind, können darauf zugreifen (Standard).
+   * **Alle im System können anzeigen**: Alle Benutzer im System können die Probleme ohne Einladung anzeigen.
+
+
+1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen des Benutzers und wählen Sie dessen Berechtigungsstufe für die Probleme aus:
+
+   * **Anzeigen**: Der Benutzer kann die Probleme überprüfen und freigeben.
+   * **Beitragen**: Benutzende können Aktualisierungen vornehmen, Informationen protokollieren, kleinere Änderungen vornehmen und die Probleme freigeben (einschließlich aller Anzeigeberechtigungen).
+   * **Verwalten**: Der Benutzer hat vollen Zugriff auf die Probleme ohne Administratorrechte, die auf Zugriffsebene gewährt werden (umfasst auch alle Anzeigen- und Beitragsberechtigungen).
+
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für die Probleme zu konfigurieren.
+
+   ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-permission-options.png)
+
+1. Klicken Sie auf **Speichern**.
 
 ## Berechtigungen erteilen
 

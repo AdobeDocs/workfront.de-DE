@@ -2,20 +2,20 @@
 content-type: reference
 product-area: user-management
 navigation-topic: get-started-with-workfront
-title: Gewähren und Anfordern von Berechtigungen für Objekte
+title: 'Gewähren und Anfordern von Berechtigungen für Objekte: Artikelindex'
 description: In diesen Artikeln erfahren Sie, wie Sie -Objekten in Workfront Berechtigungen erteilen und anfordern können.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 recommendations: noDisplay, noCatalog
 exl-id: b7b3de2c-8537-49c5-8674-a7a0f3691db3
-source-git-commit: f1e463c90641f9221228e335b583cab72762b3bd
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '175'
-ht-degree: 0%
+source-wordcount: '176'
+ht-degree: 1%
 
 ---
 
-# Gewähren und Anfordern von Berechtigungen für Objekte
+# Gewähren und Anfordern von Berechtigungen für Objekte: Artikelindex
 
 Dieser Abschnitt enthält die folgenden Artikel darüber, wie Sie -Objekten Berechtigungen erteilen und anfordern können:
 
@@ -25,7 +25,7 @@ Dieser Abschnitt enthält die folgenden Artikel darüber, wie Sie -Objekten Bere
 * [Anfordern des Zugriffs auf Objekte](../../workfront-basics/grant-and-request-access-to-objects/request-access.md)
 * [Anzeigen geerbter Berechtigungen für Objekte](../../workfront-basics/grant-and-request-access-to-objects/view-inherited-permissions-on-objects.md)
 * [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
-* [Freigeben eines Projekts in Adobe Workfront](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
+* [Freigeben eines Projekts](../../workfront-basics/grant-and-request-access-to-objects/share-a-project.md)
 * [Freigeben einer Aufgabe](../../workfront-basics/grant-and-request-access-to-objects/share-a-task.md)
 * [Freigeben eines Problems](../../workfront-basics/grant-and-request-access-to-objects/share-an-issue.md)
 * [Freigeben einer Vorlage](../../workfront-basics/grant-and-request-access-to-objects/share-a-template.md)

@@ -4,12 +4,12 @@ content-type: reference
 product-area: user-management
 navigation-topic: grant-and-request-access-to-objects
 description: Ihr Adobe Workfront-Administrator gewährt Benutzenden Zugriff zum Anzeigen oder Bearbeiten von Dokumenten, wenn sie Zugriffsebenen zuweisen, wie in Gewähren des Zugriffs auf Dokumente beschrieben.
-author: Alina
+author: Courtney
 feature: Get Started with Workfront
 exl-id: c83a3184-4af0-4897-985b-29f7ee3a0b73
-source-git-commit: 3bd377ba2dec29bb956632cf3e9e3e33afe4305d
+source-git-commit: fcf6165c9c641316c701d92af2e39294a9fe0123
 workflow-type: tm+mt
-source-wordcount: '616'
+source-wordcount: '1025'
 ht-degree: 1%
 
 ---
@@ -25,6 +25,42 @@ Berechtigungen sind für ein Element in Workfront spezifisch und definieren, wel
 Der Benutzer, der ein Dokument in Workfront hochlädt, hat standardmäßig Verwaltungsberechtigungen dafür.
 
 Informationen zum Freigeben eines gesamten Dokumentordners finden Sie unter [Freigeben eines Dokumentordners](../../workfront-basics/grant-and-request-access-to-objects/share-a-document-folder.md).
+
+## Zugriffsanforderungen
+
++++ Erweitern Sie , um die Zugriffsanforderungen für die -Funktion in diesem Artikel anzuzeigen.
+
+Sie müssen über Folgendes verfügen, um Objekte freizugeben:
+
+<table style="table-layout:auto"> 
+ <col> 
+ <col> 
+ <tbody> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Plan</td> 
+   <td> <p>Beliebig </p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Adobe Workfront-Lizenz</td> 
+   <td> <p>Neu: Standard</p> 
+   Oder
+   <p>Aktuell: Arbeit oder höher</p>
+   </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Konfigurationen der Zugriffsebene</td> 
+   <td> <p>Ansichtszugriff oder höher auf die Objekte, die Sie freigeben möchten</p> </td> 
+  </tr> 
+  <tr> 
+   <td role="rowheader">Objektberechtigungen</td> 
+   <td> <p>Berechtigung zum Anzeigen oder höher für die Objekte, die Sie freigeben möchten</p></td> 
+  </tr> 
+ </tbody> 
+</table>
+
+Weitere Informationen finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
+
++++
 
 ## Überlegungen zur Freigabe von Dokumenten
 
@@ -57,6 +93,52 @@ Zusätzlich zu den unten stehenden Überlegungen finden Sie weitere Informatione
   Sie können geerbte Berechtigungen für Dokumente manuell entfernen. Weitere Informationen finden Sie unter [Entfernen von Berechtigungen aus Objekten](../../workfront-basics/grant-and-request-access-to-objects/remove-permissions-from-objects.md)
 
 * Ein angehängtes Dokument erbt nur Berechtigungen von dem Objekt, an das es angehängt wurde. Wenn Sie einen Ordner für das Objekt erstellen und das Dokument in den Ordner verschieben, übernimmt es die Berechtigungen des Ordners. Wenn Sie jedoch einen Ordner auf einem übergeordneten oder übergeordneten Objekt erstellen und das Dokument in diesen Ordner verschieben, werden die Berechtigungen dieses Ordners nicht übernommen.
+
+## Dokument freigeben
+
+{{step1-to-documents}}
+
+1. Bewegen Sie auf der **Dokumente** den Mauszeiger über das Dokument, das Sie freigeben möchten, und klicken Sie auf den **Dokumentdetails** Link, der angezeigt wird. Die **„Dokumentdetails** wird geöffnet.
+
+   ![Link „Dokumentdetails“](assets/document-details-link.png)
+
+1. Klicken Sie auf **Mehr**-Symbol ![Mehr](assets/more-icon.png) rechts neben dem Dokumentnamen und dann auf **Freigeben**. Das **Freigeben [Dokumentname]** wird geöffnet.
+
+   ![Dokument freigeben](assets/share-a-document-350x160.png)
+
+1. Beginnen Sie im Feld **Dokumentzugriff gewähren auf** mit der Eingabe des Namens des Benutzers, Teams, der Rolle, der Gruppe oder des Unternehmens, für den bzw. die Sie das Dokument freigeben möchten, und klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
+
+   >[!TIP]
+   >
+   >Sie können ein Dokument nur für aktive Benutzer, Teams, Rollen oder Unternehmen freigeben.
+
+
+1. (Optional) Wählen Sie die **Wer hat Zugriff** aus und wählen Sie die Zugriffsebene des Dokuments aus:
+
+   * **Nur eingeladene Personen können darauf zugreifen:** Nur Benutzer, die zum Dokument eingeladen sind, können darauf zugreifen (Standard).
+   * **Alle im System können anzeigen**: Alle Benutzer im System können das Dokument ohne Einladung anzeigen.
+
+1. (Optional) Um das Dokument öffentlich zu machen, klicken Sie auf das Zahnradsymbol ![Zahnradsymbol auswählen](assets/gear-icon.png) und klicken Sie dann auf das Feld, das sich in der Reihe **Für externe Benutzer öffentlich machen** befindet. Die **Öffentlichen Link kopieren** wird am unteren Rand des Dialogfelds angezeigt.
+
+1. Klicken Sie auf das Dropdown-Menü rechts neben dem Namen des Benutzers und wählen Sie seine Berechtigungsstufe für dieses Dokument aus:
+
+   * **Anzeigen**: Der Benutzer kann das Dokument überprüfen und freigeben.
+   * **Verwalten**: Der Benutzer hat vollen Zugriff auf das Programm ohne Administratorrechte, die auf Zugriffsebene gewährt werden (umfasst auch alle Anzeigeberechtigungen).
+
+1. (Optional) Klicken Sie auf das Symbol Erweiterte Optionen neben der Berechtigungsstufe, die Sie gewährt haben, um bestimmte Berechtigungen für das Programm zu konfigurieren.
+
+   ![Erweiterte Berechtigungsoptionen konfiguriert](assets/advanced-options-icon.png)
+
+1. (Optional) Um geerbte Berechtigungen für die untergeordneten Objekte des Dokuments zu deaktivieren, klicken Sie auf **Deaktivieren** Inline mit **Geerbte Berechtigungen**.
+
+1. (Bedingt) Um den öffentlichen Link zu kopieren, über den Sie das Dokument für externe Benutzer freigeben können, klicken Sie auf **Öffentlichen Link kopieren**.
+
+   >[!CAUTION]
+   >
+   >Es wird empfohlen, beim Freigeben eines Dokuments mit vertraulichen Informationen an externe Benutzer Vorsicht walten zu lassen. Auf diese Weise können sie Informationen anzeigen, ohne ein Workfront-Benutzer oder Teil Ihres Unternehmens zu sein.
+
+1. Klicken Sie auf **Speichern**.
+
 
 ## Dokumentberechtigungen
 
