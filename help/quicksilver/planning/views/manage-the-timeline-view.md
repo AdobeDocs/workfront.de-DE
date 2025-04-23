@@ -6,14 +6,18 @@ role: User
 author: Alina
 recommendations: noDisplay, noCatalog
 exl-id: f348af7f-5bb9-4d88-9bcb-3bef7e8892dd
-source-git-commit: cd37163c78012fa4bcbe19ef92ec4d3ceecfb905
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
-source-wordcount: '2684'
+source-wordcount: '2863'
 ht-degree: 0%
 
 ---
 
 # Zeitleisten-Ansicht verwalten
+
+<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Vorschau -Umgebung für alle Kunden verfügbar. Nach den monatlichen Releases in der Produktion stehen dieselben Funktionen auch in der Produktionsumgebung für Kunden zur Verfügung, die schnelle Releases aktiviert haben. </span>
+
+<span class="preview">Informationen zu Schnellversionen finden Sie unter [Aktivieren oder Deaktivieren von Schnellversionen für Ihre Organisation](/help/quicksilver/administration-and-setup/set-up-workfront/configure-system-defaults/enable-fast-release-process.md). </span>
 
 {{planning-important-intro}}
 
@@ -90,65 +94,6 @@ Sie müssen über folgenden Zugriff verfügen, um die Schritte in diesem Artikel
 *Weitere Informationen zu Zugriffsanforderungen für Workfront finden Sie unter [Zugriffsanforderungen in der Dokumentation zu Workfront](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).
 
 +++
-
-<!--OLD: 
-
-<table style="table-layout:auto">
- <col>
- </col>
- <col>
- </col>
- <tbody>
-    <tr>
-<tr>
-<td>
-   <p> Product</p> </td>
-   <td>
-   <p> Adobe Workfront</p> </td>
-  </tr>  
- <td role="rowheader"><p>Adobe Workfront agreement</p></td>
-   <td>
-<p>Your organization must be enrolled in the early access stage for Workfront Planning </p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront plan</p></td>
-   <td>
-<p>Any</p>
-   </td>
-  </tr>
-  <tr>
-   <td role="rowheader"><p>Adobe Workfront license*</p></td>
-   <td>
-   <p>New: Standard</p>
-   Or
-   <p>Current: Plan </p> 
-  </td>
-  </tr>
-  
-  <tr>
-   <td role="rowheader"><p>Access level configurations</p></td>
-   <td> There are no access controls for Adobe Workfront Planning</p>  
-</td>
-  </tr>
-
-  <tr>
-   <td role="rowheader"><p>Permissions</p></td>
-   <td> <p>Manage permissions to a view</p>  
-   <p>View permissions to a view to temporarily change the view settings</p>
-</td>
-  </tr>
-
-<tr>
-   <td role="rowheader"><p>Layout template</p></td>
-   <td> <p>All users, including Workfront administrators,  must be assigned a layout template that includes the Planning area in the Main Menu. </p> <p>For information, see <a href="/help/quicksilver/planning/access/access-overview.md">Access overview</a>. </p> 
-</td>
-  </tr>
- </tbody>
-</table>
-
-*For information, see [Access requirements in Workfront documentation](/help/quicksilver/administration-and-setup/add-users/access-levels-and-object-permissions/access-level-requirements-in-documentation.md).-->
-
 
 ## Verwalten einer Zeitleisten-Ansicht {#manage-a-timeline-view}
 
@@ -326,7 +271,7 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    >
    >Datensätze, die keine Werte für das Start- oder Enddatum haben oder deren Startdatum nach dem Enddatum liegt, werden nicht in der Zeitleisten -Ansicht angezeigt.
 
-1. Klicken Sie **linken Bereich auf** Balkenstil“, um anzugeben, welche Felder in den Datensatzbalken angezeigt werden sollen.
+1. Klicken Sie **linken** auf „Balkenstil“, um anzugeben, welche Informationen in den Datensatzleisten angezeigt werden sollen.
 
    Das primäre Feld (oder der Titel) des Datensatzes, wie in der Tabellenansicht des Datensatzes definiert, ist standardmäßig ausgewählt. <!--adjust this when the primary field is released??-->
 
@@ -336,18 +281,30 @@ Aktualisieren Sie die Einstellungen für die Zeitleisten-Ansicht, um anzugeben, 
    >
    >    Sie müssen zunächst Miniaturen in der Tabellenansicht hinzufügen, bevor Sie sie in der Zeitleisten -Ansicht anzeigen können. Weitere Informationen finden Sie unter [Hinzufügen einer Miniaturansicht zu einem Datensatz](/help/quicksilver/planning/records/add-thumbnails-to-records.md).
 
-1. Klicken Sie **Feld hinzufügen**, um bis zu 4 Felder zu den Datensatzleisten hinzuzufügen.
-1. Klicken Sie in das Feld **Suchfelder** und klicken Sie auf das Feld, das Sie hinzufügen möchten.
+1. Klicken Sie **Feld hinzufügen**, klicken Sie dann in das Feld **Suchfelder** und klicken Sie auf das Feld, das Sie hinzufügen möchten.
 
    >[!TIP]
    >
    >   * Sie müssen die Felder erstellen, bevor Sie sie den Datensatzleisten hinzufügen können.
    > 
    >   * Es muss mindestens ein Feld ausgewählt sein. **Name** ist standardmäßig ausgewählt.
+   >
+   >   * Sie können bis zu 5 Felder hinzufügen.
 
    Eine Vorschau davon, wie die Balken in der Zeitleiste aussehen werden, wird auf der rechten Seite angezeigt.
 
    ![Zeitleisteneinstellungen des Bedienfelds „Datensatzdetails“ mit Vorschau](assets/record-details-panel-timeline-settings-with-preview.png)
+
+1. <span class="preview">(Optional und bedingt) Wenn die Zeitleiste im Standardmodus angezeigt wird, aktivieren Sie die Einstellung **Balkendetails abschneiden**. Wenn diese Option aktiviert ist, werden die Informationen in den Datensatzleisten abgeschnitten und nur dann vollständig angezeigt, wenn Sie den Mauszeiger über die Balken bewegen. Diese Einstellung ist standardmäßig deaktiviert und die Informationen werden vollständig auf den Balken angezeigt. </span>
+
+   ![Einstellung „Abschneiden aktiviert“ im Feld „Zeitleisten-Einstellungen“ hervorgehoben](assets/truncate-setting-enabled-on-timeline-settings-highlighted.png)
+
+   >[!TIP]
+   >
+   >* <span class="preview">Die Einstellung Balkendetails abschneiden ist nicht verfügbar, wenn die Zeitleisten -Ansicht im kompakten Modus angezeigt wird, und sie ist nicht in der Kalenderansicht verfügbar.</span>
+   >
+   >* <span class="preview">Wenn Sie die Zeitleisten -Ansicht aufschlüsseln, um verbundene Objekte in der Zeitleiste anzuzeigen, gilt die Einstellung Balkendetails abschneiden nur für den Hauptdatensatztyp. Dies gilt nicht für die verbundenen Datensatzleisten.</span>
+
 
 1. Klicken Sie **linken** auf „Farbe“, um die Farben der Datensätze und Gruppierungen in der Zeitleiste anzupassen.
 

@@ -6,7 +6,7 @@ feature: Workfront Planning
 role: User, Admin
 recommendations: noDisplay, noCatalog
 exl-id: b1d6e0b3-e6d4-46d1-a6a2-4b8b73f7d3f7
-source-git-commit: 15ddf6b4d82ccc694ec7a6c60d8e2d5b6b3645d6
+source-git-commit: 1dc2791bed0dfada109ee102e09c25ae9a52e6b0
 workflow-type: tm+mt
 source-wordcount: '1878'
 ht-degree: 2%
@@ -169,6 +169,17 @@ The following features are currently available in Workfront Planning:
 Nachdem Ihr Unternehmen ein Workfront Planning-Paket erworben hat, müssen Sie als Workfront-Administrator Folgendes sicherstellen, bevor Benutzerinnen und Benutzer auf Workfront Planning zugreifen können:
 
 * Weisen Sie den Benutzern, die Zugriff auf Planning benötigen, eine Layout-Vorlage zu, die Planning im Hauptmenü enthält. Weitere Informationen finden Sie unter [Anpassen des Hauptmenüs mithilfe einer Layout](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) und [Zuweisen von Benutzern zu einer Layout-Vorlage](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md).
+
+<!-- replace the bullet above with this at release: 
+* Depending on what environment you use, assign the following users a layout template that includes Planning in the Main Menu:
+
+    * In the Production environment, assign the template to all users of all license types, including System Administrators. 
+
+    * <span class="preview">In the Preview environment, assign the template to Light and Contribute users. Standard users and System Administrators have the Planning area in their Main Menu by default. </span>
+    
+    For more information, see [Customize the Main Menu using a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/customize-main-menu.md) and [Assign users to a layout template](/help/quicksilver/administration-and-setup/customize-workfront/use-layout-templates/assign-users-to-layout-template.md). 
+
+-->
 
 * Weisen Sie Benutzenden eine Workfront-Lizenz und Workfront Planning-Berechtigungen zu, mit denen sie in Workfront Planning Objekte anzeigen oder erstellen können. Weitere Informationen zum Gewähren des Zugriffs auf und zum Aktivieren anderer für die Verwendung von Workfront Planning finden Sie unter [Adobe Planning-Zugriffsübersicht](/help/quicksilver/planning/access/access-overview.md).
 
