@@ -5,9 +5,9 @@ author: Courtney
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 7dfcd90e-c814-49f6-b2d2-d76b61cdbeed
-source-git-commit: 7d8a7e59465920c3cca831db70fe48d485d324a9
+source-git-commit: 4536b0f15b208d96e7d823504574f879ed3dee2b
 workflow-type: tm+mt
-source-wordcount: '1911'
+source-wordcount: '1958'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,12 @@ Der Bereich Erweiterte Suche wurde durch folgende Änderungen aktualisiert:
 * Der Filter auf der Registerkarte Erweiterte Suche unterscheidet sich geringfügig. Jetzt ist der Filter nicht vorausgefüllt. Sie müssen ihn aktivieren und den Filter von Grund auf neu erstellen. Der Filter bleibt beim Aktualisieren der Seite nicht erhalten.
 
 Weitere Informationen finden Sie unter [Suche [!DNL Adobe Workfront]](/help/quicksilver/workfront-basics/navigate-workfront/search/search-workfront.md).
+
+### Aktualisierung der Benutzeroberfläche für das Gewähren von Support-Zugriff auf Ihr Workfront-Konto
+
+**Vorschauversion: 24. April; Produktionsversion: wird noch bekannt gegeben**
+
+Wir haben die Seite, auf der Sie verwenden, um Support-Zugriff auf Ihr Workfront-Konto zu gewähren, mit einem moderneren Design aktualisiert, das mit anderen Bereichen von Workfront übereinstimmt.
 
 ## Administration und Einrichtung
 
