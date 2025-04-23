@@ -4,7 +4,8 @@ description: Lookand-Feel-Aktualisierungen im Zeitraum der Veröffentlichung im 
 author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
-source-git-commit: 20faacf09266c455a29a04db59a4d39f825f0c2d
+exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
+source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
 workflow-type: tm+mt
 source-wordcount: '287'
 ht-degree: 5%
@@ -15,7 +16,7 @@ ht-degree: 5%
 
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens des dritten Quartals 2025 vorgenommen wurden.
 
-Eine Liste aller Änderungen, die mit der Version vom dritten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version vom dritten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q2-release-activity/25-q2-release-overview.md).
+Eine Liste aller Änderungen, die mit der Version vom dritten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version vom dritten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
 
 ## Lookand-Feel-Aktualisierungen im Bereich Ressourcenverwaltung in Setup
 
