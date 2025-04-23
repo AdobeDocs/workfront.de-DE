@@ -3,10 +3,10 @@ product-area: requests;user-management
 navigation-topic: create-and-manage-request-queues
 title: Zugriff auf Anfrage-Warteschlangen gewähren
 description: Wenn Sie Zugriff auf eine Anfrage-Warteschlange gewähren, legen Sie fest, wer in Ihrem Unternehmen die Anfrage-Warteschlange im Bereich Anfragen von Adobe Workfront anzeigen kann.
-author: Lisa
+author: Alina
 feature: Work Management
 exl-id: eb88c32a-f8b8-42d3-9a3a-72c62fd1dc3a
-source-git-commit: 067a5bd54f794574f5f2d1ad98ad29b6e02ab297
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '519'
 ht-degree: 0%
@@ -73,7 +73,7 @@ Bevor die Anfrage-Warteschlange im Bereich Anfragen für Benutzer verfügbar ist
    >Nur Projekte mit dem Status „Aktuell“ werden im Bereich Anfragen angezeigt.
 
 1. Klicken Sie **linken Bedienfeld** Warteschlangendetails“. Möglicherweise müssen Sie auf **Weitere anzeigen** und dann auf **Warteschlangendetails** klicken.
-1. Wählen Sie **Publish als Warteschlange für Hilfeanfragen**, um das Projekt als Warteschlange für Anfragen festzulegen.
+1. Wählen **Als Warteschlange für Hilfeanfragen veröffentlichen**, um das Projekt als Warteschlange für Anfragen festzulegen.
 1. Wählen Sie aus den folgenden Optionen aus:
 
    * **Beliebig**: Jeder Benutzer kann Anfragen anzeigen und zur Anfragewarteschlange hinzufügen.

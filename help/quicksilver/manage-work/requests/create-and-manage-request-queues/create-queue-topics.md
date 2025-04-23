@@ -3,11 +3,11 @@ product-area: requests
 navigation-topic: create-and-manage-request-queues
 title: Warteschlangenthemen erstellen
 description: Warteschlangenthemen arbeiten mit Routingregeln zusammen, um eingehende Arbeit automatisch einem Benutzer, einem Aufgabengebiet oder Team zuzuweisen oder in einem Projekt zu platzieren. Warteschlangenthemen definieren die Bedingungen, die vorhanden sein müssen, damit die Routingregel implementiert wird.
-author: Lisa
+author: Alina
 feature: Work Management, Requests
 role: User, Admin
 exl-id: 65a74698-011f-4caa-9739-d7510faeb66f
-source-git-commit: 46c86c1a5e4bb5379409c46669a348ddb53e260b
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '854'
 ht-degree: 2%

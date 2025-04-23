@@ -3,12 +3,12 @@ product-area: requests
 navigation-topic: create-requests
 title: Gesendete Anfragen suchen
 description: Erfahren Sie mehr über die Bereiche von Adobe Workfront, in denen Sie Anfragen finden können, die Sie oder eine andere Person gesendet oder Anfragen, die Sie nie gesendet und als Entwürfe gespeichert haben.
-author: Lisa
+author: Alina
 feature: Requests
 topic: Collaboration
 role: User
 exl-id: cfa2383a-9594-4867-9b48-11b8ea281486
-source-git-commit: 0a65a18678bfc0aa2e080a0a983746040310b079
+source-git-commit: 6311526ddf9143c4a979d8bbac96312a3b0e8151
 workflow-type: tm+mt
 source-wordcount: '949'
 ht-degree: 1%
