@@ -6,9 +6,10 @@ author: Alina
 feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
-source-git-commit: 16f0caf4bdf80ef7b95e8ab51bf9f75aa3b81b3f
+exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
+source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
 workflow-type: tm+mt
-source-wordcount: '254'
+source-wordcount: '336'
 ht-degree: 0%
 
 ---
@@ -20,6 +21,18 @@ In diesem Artikel werden die Funktionen beschrieben, die im dritten Quartal 2025
 <!--keep the sentence below for all future quarterly release pages-->
 
 Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen finden Sie unter [Adobe Workfront Planning Release-Aktivität: Artikelindex](/help/quicksilver/product-announcements/product-releases/planning-release-activity/planning-release-activity-article-index.md).
+
+## Neue Einstellung zum Abschneiden langer Datensatznamen in der Standard-Zeitleisten-Ansicht
+
+>[!NOTE]
+>
+>* Vorschau: 23. April 2025
+>* Produktions-Schnellveröffentlichung: 15. Mai 2025
+>* Produktion für alle Kunden: 17. Juli 2025
+
+Sie können jetzt in einer Zeitleisten -Ansicht eine Einstellung auf der Registerkarte Balkenstil des Felds Einstellungen aktivieren, um längere Datensatznamen zu kürzen, wenn sie in der Standardansicht angezeigt werden. Die Einstellung ist standardmäßig deaktiviert und kann nur aktiviert werden, wenn die Zeitleisten -Ansicht im Standardmodus angezeigt wird.
+
+Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
 ## Freigabeberechtigungen für Datensatztypen
 

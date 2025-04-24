@@ -5,9 +5,9 @@ author: Becky
 feature: Product Announcements
 recommendations: noDisplay, noCatalog
 exl-id: 1a98053a-7f0d-4c87-a9eb-f081dade872c
-source-git-commit: 88bbfdc21501fb1575cd07d03af43afe90142adc
+source-git-commit: f47c1ad2c3c5d82e62efa1a8920bc0aac59af26e
 workflow-type: tm+mt
-source-wordcount: '287'
+source-wordcount: '424'
 ht-degree: 5%
 
 ---
@@ -17,6 +17,35 @@ ht-degree: 5%
 Auf dieser Seite werden kleinere Aktualisierungen des Erscheinungsbilds verschiedener Bereiche der Adobe Workfront-Anwendung beschrieben, die innerhalb des Zeitrahmens des dritten Quartals 2025 vorgenommen wurden.
 
 Eine Liste aller Änderungen, die mit der Version vom dritten Quartal 2025 verfügbar sind, finden Sie unter [Übersicht über die Version vom dritten Quartal 2025](/help/quicksilver/product-announcements/product-releases/25-q3-release-activity/25-q3-release-overview.md).
+
+## Lookand-Feel-Aktualisierungen für kürzlich wiederhergestellte Elemente
+
+>[!NOTE]
+>
+>Vorschau-Version: 23. April 2025; Produktionsversion für alle Kunden: 23. April 2025
+
+Wir haben das Erscheinungsbild der kürzlich wiederhergestellten Elemente im Bereich Setup aktualisiert, um sie an das Design anderer Bereiche von Workfront anzupassen. Für kürzlich wiederhergestellte Projekte, Aufgaben, Anfragen, Dokumente oder Vorlagen hat sich keine Funktionalität geändert.
+
+Um diese Änderung anzuzeigen, gehen Sie zu Einrichtung > Papierkorb > Kürzlich wiederhergestellt.
+
+Weitere Informationen finden Sie unter [Wiederhergestellte Elemente anzeigen](/help/quicksilver/administration-and-setup/manage-workfront/manage-deleted-items/view-restored-items.md).
+
+## Berichte mit neuem Stil aktualisiert
+
+>[!NOTE]
+>
+>Vorschau-Version: 23. April 2025; Produktionsversion für alle Kunden: 23. April 2025
+
+Das Erscheinungsbild mehrerer Berichte wurde entsprechend dem Design anderer Bereiche von Workfront aktualisiert. Die Funktionalität wurde nicht geändert.
+
+Diese Aktualisierung beinhaltet visuelle Änderungen an den Listen und Symbolleisten der Berichte für die folgenden Objekttypen:
+
+* Vorlagenaufgaben
+* Themengruppen
+* Scorecards
+* Zeitpläne
+
+Weitere Informationen finden Sie unter [Erstellen eines benutzerdefinierten Berichts](/help/quicksilver/reports-and-dashboards/reports/creating-and-managing-reports/create-custom-report.md).
 
 ## Lookand-Feel-Aktualisierungen im Bereich Ressourcenverwaltung in Setup
 
