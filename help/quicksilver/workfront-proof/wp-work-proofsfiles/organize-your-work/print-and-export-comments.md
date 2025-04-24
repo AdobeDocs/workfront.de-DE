@@ -7,9 +7,9 @@ description: Die Zusammenfassung der Kommentare ist in Workfront Proof verfügba
 author: Courtney
 feature: Workfront Proof, Digital Content and Documents
 exl-id: 212d465c-5605-4bb9-af5a-cea377619cfe
-source-git-commit: de23513976d7bc4fe34cbf7b007a41c3b9797347
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '493'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
@@ -82,7 +82,7 @@ Um die Miniaturansicht zu drucken, klicken Sie auf **[!UICONTROL Symbol „Druck
 
 Die vollständige Seitenansicht zeigt jede Seite der Reihe nach an, einschließlich der Kommentare auf dieser Seite und einer Nadel, die angibt, wo sich der Kommentar befindet.
 
-Um die vollständige Seitenansicht zu drucken, klicken **[!UICONTROL oben rechts auf]** Symbol „Drucker“.
+Um die vollständige Seitenansicht zu drucken, klicken Sie **[!UICONTROL oben rechts auf]** Symbol „Drucker“.
 
 ![PV_full.png](assets/pv-full-350x347.png)
 
@@ -97,8 +97,7 @@ So laden Sie die [!DNL Excel] von der Seite mit den Korrekturabzugsdetails herun
 
 1. Klicken Sie auf **Mehr** und wählen Sie dann **In Excel exportieren**.
 
-   <!--
-   ![Export to Excel option](assets/export-to-excel-option.png) -->
+   ![In Excel exportieren](assets/export-to-excel.png)
 
 ## Nach PDF exportieren
 

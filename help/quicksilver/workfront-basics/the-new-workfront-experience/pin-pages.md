@@ -5,14 +5,16 @@ description: Sie können Ihre wichtigste Arbeit anheften [!DNL Adobe Workfront] 
 feature: Get Started with Workfront
 author: Courtney
 exl-id: c391dabc-8dc4-4c4b-b0fc-7ccc4244cb8a
-source-git-commit: b3fe63f7a332f50c7bac3bedee5db3bbbabd2b42
+source-git-commit: c79d030ff2d05487e5f7e3457bf98df591822a80
 workflow-type: tm+mt
-source-wordcount: '420'
+source-wordcount: '423'
 ht-degree: 1%
 
 ---
 
 # Seiten anheften, um den Arbeitsbereich anzupassen
+
+<!-- Audited: 4/2025 -->
 
 Sie können Ihre wichtigste Arbeit in [!DNL Adobe Workfront] anheften, um die Sichtbarkeit zu erhöhen, die Organisation zu verbessern und schneller darauf zuzugreifen. Angeheftete Seiten sind in Workfront immer oben auf jeder Seite verfügbar.
 
@@ -53,6 +55,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 1. Navigieren Sie zu der Seite, die Sie anheften möchten. Dies kann ein beliebiges Arbeitselement sein, z. B. ein Projekt, eine Aufgabe, eine Anfrage-Warteschlange usw.
 
 1. Klicken Sie oben links auf der Seite auf **[!UICONTROL Aktuelle Seite]**. Die angeheftete Seite kann jetzt von jeder Seite in [!DNL Workfront] aus aufgerufen werden.
+
+   ![Aktuelle Seite anheften](assets/pin-current-page-button.png)
 
 ## Zugriff auf eine fixierte Seite
 
