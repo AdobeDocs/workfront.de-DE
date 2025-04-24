@@ -3,9 +3,9 @@ user-guide-title: Workfront-Handbuch
 user-guide-description: Nutzen Sie die Dokumente, Tutorials und zusätzlichen Ressourcen, um zu erfahren, wie Sie Adobe Workfront in Ihrem Unternehmen implementieren und effektiv nutzen können.
 role: User
 feature-set: Workfront
-source-git-commit: ef09ee2fce1619f7e44deb7a584738db955a8599
+source-git-commit: 39dbf3c659dd94d51c224361dcae7d369b0cfce7
 workflow-type: tm+mt
-source-wordcount: '13162'
+source-wordcount: '13167'
 ht-degree: 2%
 
 ---
@@ -1435,8 +1435,8 @@ ht-degree: 2%
          * [Priorisieren von Projekten im Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/prioritize-projects-in-portfolio-optimizer.md)
          * [Optimieren von Projekten in Portfolio Optimizer](manage-work/portfolios/portfolio-optimizer/optimize-projects-in-portfolio-optimizer.md)
          * [Berechnung des Risikos zum Nettowert in einem Portfolio](manage-work/portfolios/portfolio-optimizer/calculate-risk-to-net-value-in-portfolio.md)
-   * Anforde- rungen {#requests}
-      * [Anforde- rungen](manage-work/requests/requests-overview.md)
+   * Anforderungen {#requests}
+      * [Anforderungen](manage-work/requests/requests-overview.md)
       * Anfrage-Warteschlangen erstellen und verwalten {#create-and-manage-request-queues}
          * [Anfrage-Warteschlangen erstellen und verwalten](manage-work/requests/create-and-manage-request-queues/create-manage-request-queues.md)
          * [Anfrage-Warteschlange erstellen](manage-work/requests/create-and-manage-request-queues/create-request-queue.md)
@@ -1924,7 +1924,7 @@ ht-degree: 2%
    * Tipps, Tricks und Fehlerbehebung bei Validierungen {#ttt-approvals}
       * [Tipps, Tricks und Fehlerbehebung bei Validierungen: Artikelindex](review-and-approve-work/tips-tricks-troubleshooting-approvals/tips-tricks-troubleshooting-approvals.md)
       * [Anzahl der Korrekturabzugs- und Dokumentenentscheidungen für alle Benutzer anzeigen](review-and-approve-work/tips-tricks-troubleshooting-approvals/view-number-of-decisions-for-users.md)
-* Arbeitszeit- tabellen {#timesheets}
+* Arbeitszeittabellen {#timesheets}
    * [Arbeitszeittabellen: Artikelindex](timesheets/timesheets-all.md)
    * Arbeitszeittabellen-Details {#details}
       * [Arbeitszeittabellen-Details: Artikelindex](timesheets/timesheets/timesheets.md)
@@ -2536,7 +2536,8 @@ ht-degree: 2%
       * [Code-Beispiele](proofhq-api/general/code-samples.md)
       * [Häufig gestellte Fragen zur SOAP-API](proofhq-api/general/soap-api-faqs.md)
 * [Ausgeblendetes Testdokument](hidden-test.md)
-* [Versionsübersicht 1. Quartal 2025 - Test](/help/quicksilver/product-announcements/product-releases/25-q1-release-activity/release-overview-test.md)
+* App Builder {#app-builder}
+   * [Erstellen benutzerdefinierter Programme für Workfront mit Adobe App Builder](/help/quicksilver/app-builder/app-builder.md)
 
 
 <!--
