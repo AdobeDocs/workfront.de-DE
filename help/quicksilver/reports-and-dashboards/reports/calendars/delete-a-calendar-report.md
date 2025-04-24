@@ -6,16 +6,14 @@ description: Sie können einen Kalender löschen, dessen Besitzer Sie sind oder 
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 6208442e-21af-4cd1-ad55-52215bd4d959
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '260'
+source-wordcount: '204'
 ht-degree: 0%
 
 ---
 
 # Löschen eines Kalenderberichts
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können einen Kalender löschen, dessen Besitzer Sie sind oder den andere für Sie freigegeben haben. Nach dem Löschen ist der Kalender für Benutzende, für die Sie ihn freigegeben haben, nicht mehr zugänglich.
 
@@ -58,15 +56,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Löschen eines Kalenderberichts in der Produktionsumgebung
 
-1. Navigieren Sie zu dem Kalender, den Sie löschen möchten.
-1. Klicken Sie in der **[!UICONTROL Kalender]**-Symbolleiste auf **[!UICONTROL Kalenderaktionen]** und wählen Sie dann **[!UICONTROL Löschen]** aus der Dropdown-Liste aus.
-1. Klicken Sie **[!UICONTROL Ja, löschen]**.
-
-<div class="preview">
-
-## Löschen eines Kalenderberichts in der Vorschau
+## Löschen eines Kalenderberichts
 
 1. Navigieren Sie zu dem Kalender, den Sie löschen möchten.
 1. Klicken Sie auf **Mehr** neben dem Dropdown-Menü Kalender.
@@ -74,5 +65,3 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 1. Wählen **[!UICONTROL Löschen]** aus der Dropdown-Liste aus.
 1. Klicken Sie **[!UICONTROL Löschen]**.
-
-</div>

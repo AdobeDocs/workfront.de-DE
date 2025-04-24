@@ -6,16 +6,14 @@ description: Sie können einen vorhandenen Kalender ändern, indem Sie einen Lin
 author: Lisa
 feature: Reports and Dashboards
 exl-id: 494d040c-bd1d-4356-824f-a75890803617
-source-git-commit: c8f4d8e460ed9247ca5d89c9a711ecb1ec5ed1e9
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '510'
+source-wordcount: '295'
 ht-degree: 0%
 
 ---
 
 # Bearbeiten eines vorhandenen Kalenderberichts
-
-<span class="preview">Die hervorgehobenen Informationen auf dieser Seite beziehen sich auf Funktionen, die noch nicht allgemein verfügbar sind. Sie ist nur in der Sandbox-Vorschau-Umgebung verfügbar.</span>
 
 Sie können einen vorhandenen Kalender ändern, indem Sie einen Link zu einem Projekt hinzufügen oder löschen. Sie können auch die mit einem Kalenderbericht verknüpften Kalendergruppierungen ändern.
 
@@ -60,45 +58,12 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Bearbeiten eines vorhandenen Kalenderberichts in der Produktionsumgebung
+
+## Bearbeiten eines vorhandenen Kalenderberichts
 
 {{step1-to-calendars}}
 
-1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf das Feld [!UICONTROL Kalendername] und nehmen Sie dann die gewünschten Änderungen vor. Es wird empfohlen, nur UTF-8-Zeichen zu verwenden, um Kompatibilitätsprobleme zu vermeiden.
-
-   ![Berichtsnamen ändern](assets/titlechange-250x230.png)
-
-   Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, wird der geänderte Kalendername automatisch in der Kalenderansicht aktualisiert.
-
-1. (Optional) So fügen Sie ein Projekt zum Kalenderbericht hinzu:
-
-   1. Klicken Sie **[!UICONTROL Zum Kalender hinzufügen].**
-   1. Geben Sie **[!UICONTROL Feld „Projektname]** den Namen eines Projekts ein, dem Sie Kalenderereignisse hinzufügen möchten. Klicken Sie dann auf den Namen, wenn er in der Dropdown-Liste angezeigt wird.
-
-      ![Wählen Sie den Projektnamen aus](assets/calendar-project-name.png)
-Elemente aus dem Projekt und den zugehörigen Aufgaben und Problemen werden dem Kalenderbericht hinzugefügt.
-
-1. (Optional) So fügen Sie eine Kalendergruppierung hinzu oder ändern eine vorhandene Kalendergruppierung:
-
-   1. Bewegen Sie den Mauszeiger über den Projektnamen, klicken Sie auf den Dropdown-Pfeil neben dem Projektnamen und dann auf **[!UICONTROL Bearbeiten]**.
-
-      ![Kalendergruppierung bearbeiten](assets/editcalendergroup-350x126.png)
-
-   1. Wählen Sie aus, wie Sie Ihre Elemente gruppieren möchten:
-
-      * [Verwenden [!UICONTROL  „Geplante ]&quot; in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-planned-dates.md)
-      * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
-      * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
-
-
-<div class="preview">
-
-## Bearbeiten eines vorhandenen Kalenderberichts in der Vorschau
-
-{{step1-to-calendars}}
-
-1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf das Menü **Mehr** und wählen Sie **Bearbeiten**.
-   ![Menü Mehr](assets/new-more-menu-calendar.png)
+1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf **Umbenennen** neben dem Dropdown-Menü Kalender.
 Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, wird der geänderte Kalendername automatisch in der Kalenderansicht aktualisiert.
 
 1. (Optional) So fügen Sie ein Projekt zum Kalenderbericht hinzu:
@@ -110,7 +75,7 @@ Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, 
 
 1. (Optional) So fügen Sie eine Kalendergruppierung hinzu oder ändern eine vorhandene Kalendergruppierung:
    1. Klicken Sie auf das **Mehr** neben dem Projektnamen und dann auf **Bearbeiten**.
-      ![Projekt im Kalender bearbeiten](assets/edit-project-in-calendar.png)e
+      ![Projekt im Kalender bearbeiten](assets/edit-project-in-calendar.png)
 
    1. Wählen Sie aus, wie Sie Ihre Elemente gruppieren möchten:
 
@@ -118,5 +83,3 @@ Wenn Sie den Kalenderbericht für andere Benutzer oder Teams freigegeben haben, 
       * [Verwenden [!UICONTROL Voraussichtliche Termine] in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-projected-dates.md)
       * [Verwenden benutzerdefinierter Datumsfelder in einem Kalenderbericht](../../../reports-and-dashboards/reports/calendars/use-custom-dates.md)
 
-
-      </div>

@@ -6,9 +6,9 @@ description: Wenn Sie einen Kalender erstellt haben, können Sie den Kalender ko
 author: Lisa
 feature: Reports and Dashboards
 exl-id: f72cf896-294f-4166-b731-eaec0c2156b1
-source-git-commit: 041e812d0663304b4bd51134020209d3a67e1423
+source-git-commit: 5c0278607faf65b58abeb9b813e403f97032a965
 workflow-type: tm+mt
-source-wordcount: '455'
+source-wordcount: '325'
 ht-degree: 0%
 
 ---
@@ -58,23 +58,8 @@ Weitere Informationen zu den Informationen in dieser Tabelle finden Sie unter [Z
 
 +++
 
-## Kopieren eines Kalenderberichts in der Produktionsumgebung
 
-1. Wechseln Sie zu dem Kalender, den Sie kopieren möchten.
-1. Klicken Sie in der **[!UICONTROL Kalender]**-Symbolleiste auf **[!UICONTROL Kalenderaktionen]** und wählen Sie dann **[!UICONTROL Kopieren]** aus der Dropdown-Liste aus.
-Eine Kopie des Kalenders wird geöffnet.
-
-   ![Kopieren Sie den Kalenderbericht](assets/copy-calendar-report.png)
-
-   Alle Projekte und Kalendergruppierungen im ursprünglichen Kalender werden in der Kopie des Kalenders angezeigt. Nur Objekte, die durch Kalenderfilter platziert wurden, werden in den neu kopierten Kalender exportiert. Alle Ereignisse, die dem ursprünglichen Kalender manuell hinzugefügt wurden, müssen dem kopierten Kalender manuell hinzugefügt werden.
-
-   Nur Sie haben Zugriff auf den kopierten Kalender. Benutzende mit Zugriff auf den ursprünglichen Kalender haben keinen Zugriff auf den kopierten Kalender. Sie können Zugriff auf den neu erstellten Kalender gewähren, indem Sie ihn für andere Benutzer freigeben. Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
-
-1. (Optional) Benennen Sie den Kalender um.
-
-<div class="preview">
-
-## Kopieren eines Kalenderberichts in der Vorschau
+## Kopieren eines Kalenderberichts
 
 1. Wechseln Sie zu dem Kalender, den Sie kopieren möchten.
 1. Klicken Sie auf **Mehr** neben dem Dropdown-Menü Kalender.
@@ -83,13 +68,10 @@ Eine Kopie des Kalenders wird geöffnet.
 1. Wählen **[!UICONTROL Kopieren]** aus der Dropdownliste aus. Der Kalender wird kopiert und Sie gelangen zur neuen Kopie.
 
 
->[!NOTE]
->
->Alle Projekte und Kalendergruppierungen im ursprünglichen Kalender werden in der Kopie des Kalenders angezeigt. Nur Objekte, die durch Kalenderfilter platziert wurden, werden in den neu kopierten Kalender exportiert. Alle Ereignisse, die dem ursprünglichen Kalender manuell hinzugefügt wurden, müssen dem kopierten Kalender manuell hinzugefügt werden.
-> 
->
->Nur Sie haben Zugriff auf den kopierten Kalender. Benutzende mit Zugriff auf den ursprünglichen Kalender haben keinen Zugriff auf den kopierten Kalender. Sie können Zugriff auf den neu erstellten Kalender gewähren, indem Sie ihn für andere Benutzer freigeben. Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
+   >[!NOTE]
+   >
+   >Alle Projekte und Kalendergruppierungen im ursprünglichen Kalender werden in der Kopie des Kalenders angezeigt. Nur Objekte, die durch Kalenderfilter platziert wurden, werden in den neu kopierten Kalender exportiert. Alle Ereignisse, die dem ursprünglichen Kalender manuell hinzugefügt wurden, müssen dem kopierten Kalender manuell hinzugefügt werden.
+   >
+   >Nur Sie haben Zugriff auf den kopierten Kalender. Benutzende mit Zugriff auf den ursprünglichen Kalender haben keinen Zugriff auf den kopierten Kalender. Sie können Zugriff auf den neu erstellten Kalender gewähren, indem Sie ihn für andere Benutzer freigeben. Weitere Informationen zum Freigeben von Kalendern finden Sie unter [[!UICONTROL Freigeben ] Kalenders](../../../reports-and-dashboards/reports/calendars/share-a-calendar-report.md).
 
-1. (Optional) Klicken Sie auf das **Mehr**-Menü und dann auf **Bearbeiten**, um den Kalender umzubenennen.
-
-</div>
+1. (Optional) Um den Namen des Kalenderberichts zu ändern, klicken Sie auf **Umbenennen** neben dem Dropdown-Menü Kalender.
