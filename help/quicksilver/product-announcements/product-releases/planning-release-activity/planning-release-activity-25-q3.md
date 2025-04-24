@@ -7,9 +7,9 @@ feature: Product Announcements
 role: Admin
 recommendations: noDisplay, noCatalog
 exl-id: 6761f5af-2501-4487-8114-2751f1e4fe69
-source-git-commit: a92261330ddf289217057c83fa9360776a8628b8
+source-git-commit: 881eea5b527532227a40483d2cd2edeba84dc30f
 workflow-type: tm+mt
-source-wordcount: '336'
+source-wordcount: '363'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ Eine Liste aller für Adobe Workfront Planning veröffentlichten Funktionen find
 >* Produktions-Schnellveröffentlichung: 15. Mai 2025
 >* Produktion für alle Kunden: 17. Juli 2025
 
-Sie können jetzt in einer Zeitleisten -Ansicht eine Einstellung auf der Registerkarte Balkenstil des Felds Einstellungen aktivieren, um längere Datensatznamen zu kürzen, wenn sie in der Standardansicht angezeigt werden. Die Einstellung ist standardmäßig deaktiviert und kann nur aktiviert werden, wenn die Zeitleisten -Ansicht im Standardmodus angezeigt wird.
+Sie können jetzt in einer Zeitleisten -Ansicht eine Einstellung auf der Registerkarte Balkenstil des Felds Einstellungen aktivieren, um längere Datensatznamen zu kürzen, wenn sie in der Standardansicht angezeigt werden. Die Einstellung ist standardmäßig deaktiviert und kann nur aktiviert werden, wenn die Zeitleisten -Ansicht im Standardmodus angezeigt wird. Da diese Einstellung deaktiviert ist, werden die Informationen in den Datensatzleisten standardmäßig erweitert angezeigt. Vor dieser Verbesserung wurden Informationen auf den Datensatzleisten standardmäßig abgeschnitten.
 
 Weitere Informationen finden Sie unter [Verwalten der Zeitleisten-Ansicht](/help/quicksilver/planning/views/manage-the-timeline-view.md).
 
